@@ -138,3 +138,9 @@ The report of Indian material reaching the court documents an intellectual conte
 
 ## Geographic limits
 The two Arabic versions are lost, and the biography describes an Andalusian revision and Latin translations without giving a dated itinerary for each stage {cite:khwarizmi-mactutor Astronomy paragraph}. The invention record has no spread map because the sources read here do not establish a dated route that can safely be plotted {cite:tdv-harizmi pp. 224–227} {cite:khwarizmi-mactutor Astronomy paragraph}.
+
+## In the Pleiades gazetteer
+Pleiades, the open gazetteer of ancient places, lists this place under the title «Bagdata» (Pleiades no. 893952), classed as settlement and modern settlement, with activity attested from 1600 BCE to 2099 CE. Recorded names include «Bagdata», «Baghdad» and «Bagdad». Its description sentence is a citation note pointing to the Barrington Atlas, map 91 F4, under the name Bagdata. {cite:pleiades 893952}
+
+## In the iDAI.gazetteer
+The iDAI.gazetteer lists this place under no. 2769425 with the preferred name «Baghdad», classed as administrative unit; its parent in the hierarchy is «Irak», classed as administrative unit. Recorded names include «بغداد». {cite:idai-gazetteer 2769425}

@@ -9,3 +9,6 @@ Antioch is a great city on the Orontes. Yaqut al-Hamawi, in his entry on Antakiy
 
 ## In the iDAI.gazetteer
 The iDAI.gazetteer of the German Archaeological Institute lists this place under no. 2283111 with the preferred name «Antiochia ad Orontem», an ancient Latin name, classed as an archaeological site and a populated place; its parent in the hierarchy is «Hatay (Provinz)», an administrative unit. Among the names it records are «Antioch» in English, «Antakya» in Turkish, «أنطاكية» in Arabic, «Antākiyyah» in transliterated Arabic and «Ἀντιόχεια ἡ ἐπὶ Ὀρόντου» in ancient Greek. It links the place to GeoNames no. 323779 and to a German National Library authority record (4085823-6). {cite:idai-gazetteer 2283111}
+
+## In Nomisma
+The Nomisma numismatic vocabulary links this entry to the concept «antiocheia_syria», and its linked collections record 4686 coins or coin types that name it as issuer, authority or mint. {cite:nomisma antiocheia_syria}

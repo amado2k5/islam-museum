@@ -14,3 +14,6 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 
 ## زوال
 یہ جمعہ کے دن 17 جمادی الاولیٰ سنہ 542 ہجری کو زبردستی فتح ہوا۔ {cite:nafh-tib-maqqari p. 466}
+
+## آئی ڈی اے آئی اشاریے میں
+آئی ڈی اے آئی اشاریہ اس مقام کو نمبر 2359875 کے تحت ترجیحی نام «Almería (Ciudad)» کے ساتھ درج کرتا ہے اور اسے آباد مقام کے درجے میں رکھتا ہے؛ درجہ بندی میں اس کا والد «Almería (Provincia)» ہے جو انتظامی اکائی ہے۔ درج شدہ ناموں میں «Urci»، «Portus Magnus» اور «Unci» شامل ہیں۔ {cite:idai-gazetteer 2359875}

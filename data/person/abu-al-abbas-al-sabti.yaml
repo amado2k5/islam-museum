@@ -6,26 +6,27 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لأبي العباس أحمد بن جعفر السبتي، ولي مراكش وقطبها في القرن الثاني عشر، توفي سنة ١٢٠٤م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abu'l-Abbas Ahmad ibn Ja'far al-Sabti, the twelfth-century patron saint of Marrakesh, d. 1204; the biographical entry is not yet checked on the page."
+  ar: "أحمد بن جعفر الخزرجي، أبو العباس السبتي المراكشي، متصوف ولد في سبتة وانتقل إلى مراكش وعلت شهرته، وتوفي سنة 601 هـ، وتنسب إليه «الزايرجة»، واختلف مؤرخوه فيه."
+  en: "Ahmad ibn Ja'far al-Khazraji, Abu al-Abbas al-Sabti al-Marrakushi, a Sufi born at Ceuta who moved to Marrakesh where his fame rose; he died in 601 AH. The 'Zayiraja' is ascribed to him, and his chroniclers differed about him."
 wings: [people]
 regions: [maghreb]
 periods: [period/buyid-seljuk-fatimid-era]
 themes: [spirituality-and-sufism]
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q2822099
   viaf: "46519792"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0038
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
-born: { edtf: "1129", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala)" }
-died: { edtf: "1204", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala)" }
+  completeness: 3
+born: { edtf: "1129", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 1 p. 84: 524 AH = 1130 CE; 524 AH begins in late 1129, so the card's 1129 is kept." }
+died: { edtf: "1204", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 1 p. 84: 601 AH = 1204 CE." }
 relations:
   - { type: lived_in, target: place/marrakesh, note: "From text: of Marrakesh", sources: [source/al-aalam], confidence: low }
+  - { type: born_in, target: place/ceuta, note: "Al-Zirikli, al-A'lam vol. 1 p. 84: born at Ceuta (Sabta).", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }

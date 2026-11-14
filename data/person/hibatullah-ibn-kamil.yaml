@@ -1,35 +1,37 @@
 id: person/hibatullah-ibn-kamil
 class: person
-label:
-  ar: "هبة الله بن كامل"
-  en: "Hibatullah ibn Kamil"
+label: {ar: هبة الله بن كامل, en: Hibatullah ibn Kamil}
 roles: [qadi, poet]
 gender: male
-summary:
-  ar: "بطاقة أولية لهبة الله بن كامل، قاضٍ وواعظ وشاعر مصر القرن الثاني عشر في العهد الفاطمي، توفي سنة ١١٧٤م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Hibatullah ibn Kamil, the twelfth-century Fatimid-era Egyptian judge, preacher and poet, d. 1174; the biographical entry is not yet checked on the page."
+summary: {ar: 'هبة الله بن عبد الله بن كامل، أبو القاسم، فخر الأمناء: داعي الدعاة بمصر للفاطميين وقاضي القضاة في أواخر دولتهم، أديب وشاعر، قتل مصلوباً بمصر سنة ٥٦٩ هـ الموافقة ١١٧٤ م.', en: 'Hibat Allah ibn Kamil, Abu al-Qasim, Fakhr al-Umana: chief da''i in Egypt for the Isma''ili Fatimids and chief judge in the last years of their state, a man of adab and poetry, crucified in Egypt in 569 AH (1174 CE).'}
 wings: [people]
 regions: [egypt-nile]
 periods: [period/crusades-ayyubid-mamluk]
-died: { edtf: "1174", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Kamil" }
+died:
+  edtf: '1174'
+  calendar: gregorian
+  precision: year
+  derived: true
+  note: 'Per al-Zirikli, al-A''lam vol. 8 p. 70: died 569 AH = 1174 CE, put to death by crucifixion in Egypt.'
+  sources: [source/alam-zirikli-dar-al-ilm-2002]
 relations:
-  - { type: born_in, target: place/tyre, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-  - { type: died_in, target: place/cairo, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/al-aalam]
-external_ids:
-  wikidata: Q108738594
-provenance:
-  layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0075
-status:
-  review: draft
-  completeness: 1
+- type: born_in
+  target: place/tyre
+  confidence: medium
+  note: Place link from Wikidata; pending a second source.
+  sources: [source/wikidata]
+- type: died_in
+  target: place/cairo
+  confidence: medium
+  note: Place link from Wikidata; pending a second source.
+  sources: [source/wikidata]
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
+external_ids: {wikidata: Q108738594}
+provenance: {layer: own-research, source: 'al-Zirikli, al-A''lam, 15th ed. 2002, entry read in full from the local OpenITI text', generated_by: Claude Code (Lane B2 packet), model: claude-sonnet-5-5, run: web-b2-alam-2026-11-14}
+status: {review: draft, completeness: 3}
 occupations:
-  - job: job/qadi
-    kind: secondary
-    status: historical
-    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
-    sources: [source/al-aalam]
+- job: job/qadi
+  kind: secondary
+  status: historical
+  note: bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep
+  sources: [source/al-aalam]

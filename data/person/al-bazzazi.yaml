@@ -6,24 +6,24 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية للبزازي، فقيه حنفي القرن الخامس عشر صاحب الفتاوى البزازية، توفي سنة ١٤٢٤م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for al-Bazzazi, the fifteenth-century Central Asian Hanafi jurist author of al-Fatawa al-Bazzaziyya, d. 1424; the biographical entry is not yet checked on the page."
+  ar: "محمد بن محمد بن شهاب بن يوسف الكردري البريقيني الخوارزمي المشهور بالبزازي، فقيه حنفي أصله من كردر بخوارزم، توفي سنة 827 هـ، صاحب «الجامع الوجيز» المعروف بالفتاوى البزازية."
+  en: "Muhammad ibn Muhammad ibn Shihab ibn Yusuf al-Kardari al-Buraqini al-Khwarazmi, famed as al-Bazzazi, a Hanafi jurist whose family came from Kardar in Khwarazm; he died in 827 AH. Author of 'al-Jami' al-Wajiz', a book of fatwas."
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/mongol-post-mongol]
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q12184450
   viaf: "51667463"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0066
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
-died: { edtf: "1424", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Katip Celebi (Kashf al-Zunun) Confirmed on 13 November 2026 against Wikidata Q12184450 (P570, a statement with a reference), item revision 2533513995.", sources: [source/wikidata] }
+  completeness: 3
+died: { edtf: "1424", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 7 p. 29: 827 AH = 1424 CE. Date-enrichment pass; source: Katip Celebi (Kashf al-Zunun)", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/iran, note: "Only the record-level region (persia-central-asia) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }

@@ -12,3 +12,6 @@ The description and history of Gaza have not yet been written from its sources. 
 
 ## For young visitors
 Gaza is a city on the coast of Palestine. The Prophet's grandfather Hashim died there while on a trading journey.
+
+## In Nomisma
+The Nomisma numismatic vocabulary links this entry to the concept «gaza», and its linked collections record 71 coins or coin types that name it as issuer, authority or mint. {cite:nomisma gaza}

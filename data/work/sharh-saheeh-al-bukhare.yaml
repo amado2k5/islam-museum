@@ -288,6 +288,26 @@ relations:
   - { type: about, target: person/umm-ayman, sources: [source/assabile-omar-abdelkafy] }
   - { type: about, target: person/zaynab-bint-muhammad, sources: [source/assabile-omar-abdelkafy] }
   - { type: about, target: place/al-abwa, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/consultation-shura, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/husn-al-khatima, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: event/farewell-pilgrimage, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: event/prophets-deathbed-writing-request, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: person/al-muthanna-ibn-haritha, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: person/al-qaqa-ibn-amr, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: place/iraq, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: place/syria, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: event/death-of-the-prophet, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: event/farewell-visit-to-uhud-martyrs, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: person/abbas-ibn-abd-al-muttalib, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: person/safina-mawla-al-nabi, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: place/al-baqi, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/al-fitan, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/mujiza, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: person/hind-ibn-abi-hala, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: person/umm-haram-bint-milhan, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: person/umm-sulaym, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/faqr, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/sadaqa, sources: [source/assabile-omar-abdelkafy] }
 sources: [source/assabile-omar-abdelkafy]
-provenance: { layer: copyrighted-reference, source: "Assabile, sharh-saheeh-al-bukhare (transcripts pass5-qwen, engine Qwen3-ASR oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2)", generated_by: "Claude Code (claude-sonnet-5-5)", model: claude-sonnet-5-5, run: omar-abdelkafy-sharh-saheeh-al-bukhare-1, episodes: "1-26" }
+provenance: { layer: copyrighted-reference, source: "Assabile, sharh-saheeh-al-bukhare (transcripts pass5-qwen, engine Qwen3-ASR oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2)", generated_by: "Claude Code (claude-sonnet-5-5)", model: claude-sonnet-5-5, run: omar-abdelkafy-sharh-saheeh-al-bukhare-1, episodes: "1-30" }
 status: { review: draft, generated_by: "Claude Code (claude-sonnet-5-5); run omar-abdelkafy-sharh-saheeh-al-bukhare-1" }
