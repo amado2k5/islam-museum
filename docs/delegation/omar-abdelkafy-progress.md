@@ -4309,6 +4309,18 @@ Resume point: sharh-saheeh-al-bukhare episode 32 (branch from origin/main).
 
 Resume point: sharh-saheeh-al-bukhare episode 33 (branch from origin/main).
 
+### alwaad-alhaq ep24 (14 Nov 2026)
+
+21 points written for episode 24 (ar, en, ur); 15 needs_source marks for this episode in each language file; concept and person links added for the reckoning, the scale, intercession, the praised station, patience, grievances, the basin, Adam, Nuh, Ibrahim, Isa, Talha ibn Ubaydullah and al-Hasan al-Basri. Quran verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
+
+| Excluded (alwaad-alhaq ep24) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening recitation, greetings and the studio remark about the pages written | ep24 00:00:00-00:02:30; 00:46:00 | Not lesson content | Content rule | Open |
+| Abu Bakr named as first among those entering without reckoning, and a list of beasts including dinosaurs | ep24 00:19:30; 00:05:30 | Garbled and not supported by the transcript | Clarity | Open |
+| Years-per-scroll figure and remarks on the number of those denying a Lord | ep24 00:46:30; 00:45:00 | Garbled transcript, unsourced statistics | Clarity / Content rule | Open |
+| Loops and garbled stretches | ep24 00:03:00; 00:11:00; 00:30:30-00:31:00; 00:39:00; 00:41:00-00:41:30; 00:45:30; 00:49:00-00:51:00; 00:51:00 | Repeated token loops or unrecoverable ASR | Clarity, Loop check | Open |
+
+Resume point: alwaad-alhaq episode 25 (branch from origin/main).
 ### sharh-saheeh-al-bukhare ep33 (14 Nov 2026)
 
 27 points written for episode 33 (ar, en, ur); 20 needs_source marks in each language file for this episode; 6 new `about` edges. Quran verses referenced only through passage links (35-10, 17-78, 39-53, 14-37, 12-24, 5-24, 8-12); none typed. Contested: He holds that jihad is the cornerstone of Islam and that names two situations in which jihad applies, gives fixed rules on which voluntary fasts to keep, and states the figure of twenty-eight campaigns in seven years and several scholars' duties without references; all are attributed to him as his own view. Checked line by line against the transcript by a second reader before merge.
@@ -4361,3 +4373,53 @@ Resume point: sharh-saheeh-al-bukhare episode 34 (branch from origin/main).
 | Closing greeting and farewell | ep34 01:21:30-01:22:00 | Greeting and closing prayer | Clarity | Open |
 
 Resume point: sharh-saheeh-al-bukhare episode 35 (branch from origin/main).
+
+### sharh-saheeh-al-bukhare ep35 (14 Nov 2026)
+
+22 points written for episode 35 (ar, en, ur); 18 needs_source marks in each language file for this episode; 11 new `about` edges. Quran verses referenced only through passage links (17-85, 9-3, 6-93, 89-27, 39-42, 7-172); none typed. Contested: His view that nothing may be added to the religion and that the Companions saw while awake what others see in sleep, his account of the world of spirits and the stations of the soul, and his advice that the wronged should not pray against the wrongdoer are his own views. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep35) | Episode / time | Reason | Gate failed | Override |
+| Greetings, opening prayer and supplication | ep35 00:00:00-00:03:00 | Not substantive | Content rule | Open |
+| Closing and farewell | ep35 01:20:30-01:20:30 | Not substantive | Content rule | Open |
+| Loops and garbled stretch (hadith count, tangents) | ep35 00:05:30-00:08:30 | Repeated filler and garbled words; sweeping remark on a modern power | Clarity, Loop check | Open |
+| Loop and garbled stretch on the army and spoils | ep35 00:09:00-00:10:30 | Garbled and looping | Clarity, Loop check | Open |
+| Report of a man's mistreatment of the Prophet in prayer and sweeping remarks on enemies and modern extremism | ep35 00:12:00-00:14:30 | Name uncertain, garbled; sweeping claims on modern conflict | Voice rule, Clarity | Open |
+| Abu Hanifa and Abu Yusuf story, diacritics and Egypt example | ep35 00:26:30-00:30:30 | Garbled, cannot be recovered | Clarity | Open |
+| Loop | ep35 00:30:00-00:31:00 | Looping filler | Loop check | Open |
+| Tangents on Jews and covenants, modern media and appearance | ep35 00:32:00-00:36:00 | Sweeping claims about peoples and modern society; garbled | Voice rule, Clarity | Open |
+| Comparison of other scriptures with Islam | ep35 00:37:30-00:39:00 | Sweeping claim about other faiths | Voice rule | Open |
+| Companions and dreams stretch with loops | ep35 00:47:30-00:48:30 | Looping filler | Loop check | Open |
+| Stories of eating, Abu Bakr and dream interpretation | ep35 00:50:30-00:55:00 | Garbled and looping | Clarity, Loop check | Open |
+| Ibn Sirin stories, olive oil and other dream interpretation reports | ep35 00:56:30-01:00:30 | Garbled and looping | Clarity, Loop check | Open |
+| Bedouin hospitality story and advice stretch | ep35 01:00:30-01:06:30 | Garbled and looping | Clarity, Loop check | Open |
+| Istikhara remarks | ep35 01:06:30-01:07:30 | Too garbled to state what he says | Clarity | Open |
+| Scholar and host story, ranks of scholars | ep35 01:08:30-01:13:00 | Garbled and looping | Clarity, Loop check | Open |
+| Moses and the seed story, mercy and Hell | ep35 01:17:30-01:19:00 | Garbled, cannot be recovered | Clarity | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 36 (branch from origin/main).
+
+### sharh-saheeh-al-bukhare ep36 (14 Nov 2026)
+
+26 points written for episode 36 (ar, en, ur); 13 needs_source marks in each language file for this episode; 3 new `about` edges. Quran verses referenced only through passage links (12-53, 75-2, 89-27, 38-75, 38-76, 7-20, 3-134); none typed. Contested: He holds that the self has three kinds with five, three and seven signs, that three sins are the root of the rest, that patience against disobedience is easier than patience in obedience, and he gives rulings and counsel on dealings and manners; these are his views. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep36) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Greetings, opening supplication and a stretch of prayers touching a modern conflict | ep36 00:00:00-00:04:00 | Opening words and prayer; a stretch dropped under the content-safety block | Content rule | Open |
+| Closing supplication, announcements about Ramadan and farewell | ep36 01:09:30-01:10:00 | Closing prayer and announcements | Content rule | Open |
+| Report of a man whose wife bore a child of a different colour and the story of Usama, Aisha and the hypocrites | ep36 00:07:30-00:10:30 | Garbled in both passes, names and report not recoverable | Clarity | Open |
+| Three classes of the people of Paradise and remarks on slander | ep36 00:10:30-00:11:00 | Garbled, items not recoverable | Clarity | Open |
+| Anecdotes of a man giving away what he had, a work paper and ten houses | ep36 00:12:00-00:13:00, 00:26:30-00:29:30 | Garbled in both passes, reports unclear | Clarity | Open |
+| The third root sin, its story and a report of Ali and Fatima | ep36 00:16:00-00:19:00, 00:24:30-00:25:00 | Garbled; the third item and the names rest on single garbled words | Clarity | Open |
+| Remarks on people ignoring commands, on the Prophet's guidance and a report of a scholar being served food | ep36 00:19:30-00:21:00, 00:33:30-00:37:00 | Garbled in both passes | Clarity | Open |
+| Reading of the verse on the good for the good, Pharaoh's wife and a report on the black dog | ep36 00:29:30-00:33:30 | Garbled; hadith and animal rest on a single garbled word | Clarity | Open |
+| The four Abdullahs among the Companions and a story of questions put to them | ep36 00:38:30-00:41:00 | Garbled in both passes, names and story not recoverable | Clarity | Open |
+| Third sign of the commanding self, remarks on professions and Ramadan routines | ep36 00:41:30-00:42:30, 00:43:00-00:45:30 | Garbled, loops | Clarity, Loop check | Open |
+| Remarks on veiled and unveiled women at Friday prayer and on marriage | ep36 00:46:00-00:47:30 | Garbled and sweeping about women | Voice rule, Clarity | Open |
+| Story of an imam jailed over the Qur'an and a ruler's reply | ep36 00:47:30-00:50:00 | Garbled, imam and details rest on single words | Clarity | Open |
+| Hadith of the stranger and of holding to the faith in later times | ep36 00:51:30-00:52:30 | Garbled in both passes | Clarity | Open |
+| Remaining signs of the tranquil self: rahba, love of God and the Messenger | ep36 01:00:00-01:01:30, 01:05:30-01:06:00 | Garbled, items not recoverable | Clarity | Open |
+| Story of Harun al-Rashid and a man guided to God | ep36 01:03:00-01:04:30 | Garbled; the name rests on one pass | Clarity | Open |
+| Loop stretches of repeated syllables in the Qwen pass | ep36 00:10:00-00:10:30, 00:17:30-00:18:30, 00:20:00-00:21:00, 00:35:30-00:36:00, 00:44:00-00:45:00, 00:59:00-00:59:30 | Repeated-token loops | Loop check | Open |
+| Second ASR pass: Whisper large-v3 (mlx) run on the Mac to resolve garbled words of the Qwen transcript; cites use the shared 30-second grid | ep36 whole | Qwen pass garbled | Clarity | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 37 (branch from origin/main).

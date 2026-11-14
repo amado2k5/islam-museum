@@ -6,28 +6,30 @@ label:
 roles: [muhaddith, scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية ليحيى بن عبد الوهاب ابن منده، المحدث من أسرة ابن منده الأصفهانية، توفي سنة ١١١٧م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Yahya ibn Abd al-Wahhab Ibn Mandah, the muhaddith of the Isfahani Ibn Mandah family, d. 1117; the biographical entry is not yet checked on the page."
+  ar: "يحيى بن عبد الوهاب بن محمد ابن مندة العبدي الأصبهاني، أبو زكريا، مؤرخ حافظ للحديث من بيت علم في أصبهان، دخل بغداد حاجا وأملى بجامع المنصور، من كتبه تاريخ أصبهان ومناقب الإمام أحمد؛ 434 إلى 511 هـ."
+  en: "Yahya ibn Abd al-Wahhab Ibn Mandah al-Abdi al-Isbahani, Abu Zakariyya, a historian and hafiz of hadith from a learned family of Isfahan, who came to Baghdad on pilgrimage and dictated at the mosque of al-Mansur; author of a History of Isfahan and the merits of Ahmad ibn Hanbal; 434 to 511 AH (1043 to 1118)."
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/crusades-ayyubid-mamluk]
-born: { edtf: "1043", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala (al-Dhahabi) Confirmed on 13 November 2026 against Wikidata Q116817416 (P569, a statement with a reference), item revision 2555430180.", sources: [source/wikidata] }
-died: { edtf: "1118", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala (al-Dhahabi) Confirmed on 13 November 2026 against Wikidata Q116817416 (P570, a statement with a reference), item revision 2555430180.", sources: [source/wikidata] }
+born: { edtf: "1043", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala (al-Dhahabi) Confirmed on 13 November 2026 against Wikidata Q116817416 (P569, a statement with a reference), item revision 2555430180. al-A'lam gives 434 AH = 1043, agreeing with the card.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
+died: { edtf: "1118", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala (al-Dhahabi) Confirmed on 13 November 2026 against Wikidata Q116817416 (P570, a statement with a reference), item revision 2555430180. al-A'lam gives 511 AH = 1118, agreeing with the card (the card's earlier summary said 1117; corrected).", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
 relations:
   - { type: lived_in, target: place/isfahan, sources: [source/al-aalam] }
-sources: [source/al-aalam, source/wikidata]
+  - { type: born_in, target: place/isfahan, note: "al-Zirikli, al-A'lam, vol. 8 p. 133: born and died in Isfahan", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
+  - { type: died_in, target: place/isfahan, note: "al-Zirikli, al-A'lam, vol. 8 p. 133", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q116817416
   viaf: "90047788"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0089
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 occupations:
   - job: job/muhaddith
     kind: secondary
