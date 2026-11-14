@@ -1,0 +1,18 @@
+id: concept/canon-opposed-demands-in-one-disease
+class: concept
+kind: scientific
+label: { ar: "استحقاقات متضادة في مرض واحد عند ابن سينا", en: "Opposed demands within one disease in the Canon", ur: "ایک مرض میں متضاد تقاضے قانون میں" }
+summary:
+  ar: "يذكر ابن سينا أن من الأمور الدقيقة في العلاج أن يجتمع في مرض واحد استحقاقان متضادان، كحمى تستحق التبريد وسدد هي سببها تستحق التسخين، أو قولنج تستحق مادته التسخين والتقطيع وشدة وجعه التبريد والتخدير، وأن ليس كل امتلاء وسوء مزاج يعالج بالاستفراغ والضد {cite:canon-ibn-sina-print-v1 p.271}."
+  en: "Ibn Sina notes that one subtle matter in treatment is when two opposed demands meet in a single disease, as with a fever that calls for cooling and the obstructions that cause it, which call for heating, or a colic whose matter calls for heating and cutting while its severe pain calls for cooling and numbing, and that not every fullness or bad temper is treated by evacuation and the contrary {cite:canon-ibn-sina-print-v1 p.271}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/medicine, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 4, chapters 1 to 3 on the general discourse on treatment, the treatment of bad temperament and evacuation (scan pages 267 to 276), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-p267
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }
