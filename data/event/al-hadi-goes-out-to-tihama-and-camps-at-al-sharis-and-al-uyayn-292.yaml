@@ -1,0 +1,71 @@
+id: event/al-hadi-goes-out-to-tihama-and-camps-at-al-sharis-and-al-uyayn-292
+class: event
+kind: other
+label:
+  ar: "خروج الهادي إلى تهامة والنزول بالشَّرس ثم العُيين، ص296"
+  en: "Al-Hadi goes out to Tihama and camps at al-Sharis and al-Uyayn, p. 296"
+  ur: "ہادی کا تہامہ کی طرف نکلنا اور الشرس و العیین میں پڑاؤ، ص296"
+summary:
+  ar: "تحت عنوان «خروج الهادي إلى الحق إلى تهامة» يسير الهادي في عسكر كثير من بني الحارث وخولان فينزل بموضع يقال له الشرس ويأتيه من حجور بشر كثير، ثم يتقدم إلى العيين فيقيم أياماً حتى يقدم عليه رسول من الحكمي بكتب يسأله المصير إلى طرطر."
+  en: "Under the heading \"al-Hadi's going out to Tihama\" he marches with a large force of Banu al-Harith and Khawlan and halts at a place called al-Sharis, where many men of Hujur come to him; he then moves on to al-Uyayn and stays some days until a messenger comes from the Hakami with letters asking him to come to Tartar."
+  ur: "«ہادی کا تہامہ کی طرف نکلنا» کے عنوان تلے وہ بنو حارث اور خولان کے ایک بڑے لشکر کے ساتھ چلتے ہیں اور الشرس نامی جگہ پر ٹھہرتے ہیں جہاں حجور کے بہت سے لوگ آتے ہیں؛ پھر العیین جا کر کچھ دن رہتے ہیں یہاں تک کہ حکمی کا قاصد خط لے کر آتا ہے جس میں انہیں طرطر آنے کو کہا گیا ہے۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0905"
+    hijri: "0292"
+    calendar: julian
+    precision: year
+    status: tradition
+    derived: true
+    note: "سنة 292هـ؛ لا يذكر الكتاب سنة لهذه الأحداث ولا يوماً ولا شهراً، وتُرتَّب بحسب سياق الرواية بعد خبر الحكميين في ص295؛ التحويل مشتق"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-al-harith-ibn-kab
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/khawlan-tribe
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/hajur-tribe-yemen
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/tihama
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/al-sharis-yemen
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/al-uyayn-yemen
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص296 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-34
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 296

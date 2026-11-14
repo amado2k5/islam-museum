@@ -1,0 +1,11 @@
+---
+id: event/al-hadi-writes-verses-to-his-imprisoned-son-abu-al-qasim-and-praises-him-290
+lang: en
+source_lang: ar
+translators: ["Claude Sonnet 5.5 (claude-sonnet-5-5), draft translation"]
+---
+## Overview
+"Of al-Hadi to his son Abu al-Qasim while he is a prisoner in the jail"; the poem opens by asking two bearers to tell his son, "though he is far away" {cite:sira-hadi-ila-al-haqq p.298}.
+
+## Detail
+In line after line the poet describes him, as the verses have it, as brother of religion and godfearing, a man of bounty and high repute, of good birth and upbringing, with no fault in him, commanding the right and forbidding indecency and licence, the most faithful in the ties of kin, a pillar of Islam, deadly to foes in battle, whose worth the fighters know when the champions meet, a noble, generous, refined Hashimite whose right hand is a means of death and whose left a refuge in war and want {cite:sira-hadi-ila-al-haqq p.298}. He then sends lasting greetings and complains to God of a loneliness that burns in his heart, praying "so, Lord, hasten his release, O Mighty One"; the editor's note says that manuscript S reads "O Generous" for "O Mighty" {cite:sira-hadi-ila-al-haqq p.298}. This is a father's praise of his son in the poet's voice, ascribed to al-Hadi in a Zaydi book, and the museum does not judge it. The book had earlier told of [[event/abu-al-qasim-ibn-al-hadi-is-taken-and-led-through-sanaa-290|Abu al-Qasim's capture at Sana'a]] and [[event/abu-al-qasim-ibn-al-hadi-composes-verses-in-prison-290|his verses in prison]]; the museum dates this poem to 290 AH because its heading places it in the time of the imprisonment, while the book gives no date, no bearers and no place of the prison here. It is followed by [[event/al-hadi-to-abu-al-qasim-patience-the-forefathers-and-counsel-290|verses on patience, the example of the forefathers and counsel]] and comes after [[event/the-hakamis-ambush-al-hadis-charge-and-the-pursuit-to-his-village-292|the pursuit in Tihama]] with no link the book states. The account is in a Zaydi book in the voice of the imam's followers; its descriptions and its judgments on opponents are the narrator's or the poet's, and the museum adopts none of them and gives no verdict.
