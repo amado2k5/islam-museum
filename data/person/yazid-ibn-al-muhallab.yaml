@@ -10,6 +10,7 @@ died: { edtf: "720", calendar: gregorian, precision: year, derived: true, note: 
 relations:
   - { type: ruled_over, target: place/basra, sources: [source/salabi-umayyad-state-2020], confidence: medium, note: "{cite:salabi-umayyad-state-2020 p.146} ويذكر الكتاب أن يزيد بن المهلب خرج على يزيد بن عبد الملك بعد توليه الخل" }
   - { type: traveled_to, target: place/basra, sources: [source/tabari-tarikh-abu-al-fadl], confidence: low, note: "ar: 'قُتل في صفر سنة اثنتين ومائة بعد أن وجّه إليه يزيد بن عبد الملك العباس بن الوليد ومسلمة بن عبد الملك {cit" }
-sources: [source/tabari-tarikh-abu-al-fadl, source/tabari-khayyat-part2, source/salabi-umayyad-state-2020, source/bakr-umayyad-state-1134715]
+external_ids: { wikidata: "Q2749762" }
+sources: [source/tabari-tarikh-abu-al-fadl, source/tabari-khayyat-part2, source/salabi-umayyad-state-2020, source/bakr-umayyad-state-1134715, source/wikidata-yazid-ibn-al-muhallab]
 provenance: { layer: own-research, generated_by: "Claude (Haiku 5.5) from Apple Vision OCR of Tabari, batch 11", sources: [source/tabari-tarikh-abu-al-fadl] }
 status: { review: draft, completeness: 2, generated_by: "Claude (Haiku 5.5); body pages read" }
