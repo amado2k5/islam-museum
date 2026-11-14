@@ -6,14 +6,16 @@ label:
 roles: [muhaddith]
 gender: male
 summary:
-  ar: "بطاقة أولية لسعيد بن المبارك، محدث وعالم القرن الثاني عشر، توفي سنة ١٢٠٠م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Said ibn al-Mubarak, the twelfth-century muhaddith and scholar, d. 1200; the biographical entry is not yet checked on the page."
+  ar: "سعيد بن المبارك بن أحمد بن صدقة، أبو البدر الحمامي، محدث بغدادي روى عن ابن ناصر وأبي الوقت، وذكره الذهبي في وفيات سنة 596هـ ⁦(1199 - 1200م)⁩؛ وهو غير ابن الدهان النحوي سعيد بن المبارك بن علي ⁦(494 - 569هـ)⁩ {cite:tarikh-islam-dhahabi}."
+  en: "Sa'id ibn al-Mubarak ibn Ahmad ibn Sadaqa, Abu al-Badr al-Hammami, was a Baghdad hadith transmitter who narrated from Ibn Nasir and Abu al-Waqt, listed by al-Dhahabi among those who died in 596 AH (1199-1200). He is a different man from the grammarian Ibn al-Dahan, Sa'id ibn al-Mubarak ibn 'Ali (494-569 AH), who shares his name and has his own record (person/ibn-al-dahan) {cite:tarikh-islam-dhahabi}."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/crusades-ayyubid-mamluk]
+born: { edtf: "1147", hijri: "0541", calendar: julian, precision: year, derived: true, note: "Wikidata Q47455214 P569, item revision 2187764656, read 14 Nov 2026; the page of al-Dhahabi consulted gives no birth date.", sources: [source/wikidata] }
+died: { edtf: "1199/1200", hijri: "0596", calendar: julian, precision: year, derived: true, note: "Al-Dhahabi, Tarikh al-Islam, volume for 591-600 AH, entry 298 in the obituaries of 596 AH (p. 241 of the volume), read 14 Nov 2026; the entry cites al-Mundhiri, al-Takmila 1:354 no. 529 and Ibn al-Dubaythi. A 596 AH death spans 25 Oct 1199 to 12 Oct 1200.", sources: [source/tarikh-islam-dhahabi] }
 relations:
   - { type: born_in, target: place/baghdad, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1530)" }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/tarikh-islam-dhahabi, source/wikidata]
 external_ids:
   wikidata: Q47455214
 provenance:

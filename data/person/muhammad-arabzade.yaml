@@ -11,11 +11,12 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
-died: { edtf: "1562", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Shaqaiq al-Numaniyya" }
+born: { edtf: "1513", hijri: "0919", calendar: gregorian, precision: year, derived: true, status: historical, note: "Al-Zirikli, al-A'lam, entry Arab-zada (919 to 969 AH = 1513 to 1562), vol. 7 p. 58 (OpenITI/Shamela pagination), read 14 November 2026: Muhammad ibn Muhammad, a Hanafi jurist of Rum, teacher at Bursa then Istanbul, appointed judge of Cairo, drowned when the ship sank off Rhodes. The Gregorian year is the entry's own; 919 AH began in March 1513 and ended in March 1514.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+died: { edtf: "1562", hijri: "0969", calendar: gregorian, precision: year, derived: false, status: historical, note: "Al-Zirikli, al-A'lam, vol. 7 p. 58: 969 AH = 1562; died at sea off Rhodes. Earlier note: Shaqaiq al-Numaniyya.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
   - { type: born_in, target: place/antakiya, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q80561)" }
   - { type: died_in, target: place/south-aegean-region, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q173616)" }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q57883498
 provenance:
