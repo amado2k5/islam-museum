@@ -1,0 +1,11 @@
+---
+id: event/al-hadi-has-the-spoils-gathered-and-divides-them-after-banu-al-harith-286
+lang: en
+source_lang: ar
+translators: ["Claude Sonnet 5.5 (claude-sonnet-5-5), draft translation"]
+---
+## Overview
+Two days after [[person/al-hadi-yahya-al-rassi|al-Hadi]]'s killing of [[group/banu-al-harith-ibn-kab|Banu al-Harith]] he gathered the people and ordered them to gather what had fallen into their hands of the spoils; [[group/tabari-emigrants-with-al-hadi|the Tabaris]] handed in what they had, as did al-Hadi's devout companions, but the troops and others without devotion, bedouin and the rest, brought out nothing. {cite:sira-hadi-ila-al-haqq p.186} The editor's note says the Tabaris seem to be a body of Yemeni Zaydis traced to Tabaristan, where the first Zaydi state arose, many of whose partisans took refuge with their Zaydi brothers in Yemen, and refers to Subh al-A'sha 2/232 and Ghayat al-Amani 1/182. {cite:sira-hadi-ila-al-haqq p.186} Seeing the lack of eagerness among some of his men to give up what they had taken, al-Hadi told one of his companions that the matter was not yet settled for him as he wished, so that he might compel the people to give up what they took. {cite:sira-hadi-ila-al-haqq p.186} The wording and the contrast between the devout and the rest are the narrator's.
+
+## Detail
+When what was in his companions' hands was gathered he ordered Muhammad ibn Sa'id to sell it, and he sold it and brought in the price, then divided it by the shares of God Most High: he took the fifth and divided the rest among his companions, giving the horseman two shares and the footman one, and by the narrator's words it was the first spoil he took and divided. Al-Hadi stayed at Najran. {cite:sira-hadi-ila-al-haqq p.186} The marginal gloss of the original reads that he divided the spoil among those who obeyed and left it in the hands of those who did not. {cite:sira-hadi-ila-al-haqq p.186} This is a Zaydi source and the praise of the devout is its own; the museum gives no ruling on the practice. It follows [[event/ibn-al-dahhak-seeks-safety-through-abu-al-atahiya-and-abu-al-qasim-writes-in-verse-286]] and is followed by [[event/banu-al-harith-ask-safety-and-al-hadis-verse-on-the-last-killing-286]].

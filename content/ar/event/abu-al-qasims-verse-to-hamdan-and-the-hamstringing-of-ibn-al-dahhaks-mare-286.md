@@ -9,3 +9,5 @@ translators: []
 
 ## عقر الفرس
 قال علي بن محمد: فلما وصل كتاب أبي القاسم إلى بني معمر اجتمعوا وتشاوروا في أمرهم وعلموا أنهم لا طاقة لهم بـ[[person/al-hadi-yahya-al-rassi|الهادي]] وأن أمره قد علا وقوي، فأمروا بعض سفهائهم أن يعقر فرس [[person/ibn-al-dahhak-rebel-at-khiwan-286|ابن الضحاك]]، فعقرها بالليل {cite:sira-hadi-ila-al-haqq p.184}. وينقطع الكلام عند أول الصفحة التالية بقوله «فلما بان»، فتتوقف الموسوعة هنا وتستأنف من الصفحة التالية.
+
+ويتصل بها [[event/ibn-al-dahhak-seeks-safety-through-abu-al-atahiya-and-abu-al-qasim-writes-in-verse-286]] في الصفحة التالية.
