@@ -1,0 +1,69 @@
+id: event/al-hadi-third-march-to-najran-and-the-troublemakers-of-lubayban-286
+class: event
+kind: other
+label:
+  ar: مسير الهادي إلى نجران وطلب «المحدثين» في قرية لبيبان، جمادى الآخرة 286هـ
+  en: Al-Hadi's march to Najran and the pursuit of the "troublemakers" of Lubayban, Jumada II 286 AH
+  ur: نجران کی طرف ہادی کی روانگی اور لبیبان کے «فساد برپا کرنے والوں» کی تلاش، جمادی الآخرہ 286ھ
+summary:
+  ar: بعد وصول الهادي صعدة يوم الأربعاء في جمادى الآخرة جمع خولان وسار بها مع عساكر همدان إلى نجران، فخرج السبت لسبع عشرة من الشهر ووصل الثلاثاء، ولم ينزل القرية بل قصد قرية لبيبان لدى اليأميين وفيها «المحدثون» أي من أحدثوا الفساد، فهربوا إلى الجبال، فضمنت عشائرهم إنزالهم ثم أُوثقوا، وتولى عبد الله بن الحسين أمر البلد قبله وحبس عدداً من المفسدين.
+  en: After reaching Sa'da on a Wednesday of Jumada II, al-Hadi gathered Khawlan and marched with the Hamdan troops to Najran, leaving on Saturday the seventeenth and arriving on Tuesday; he did not enter the village but went to Lubayban, a village of the Yam people where the "troublemakers" lived, who fled to the hills until their clans stood surety and brought them down to be bound; his brother Abdullah ibn al-Husayn had already put the town in order and jailed some of the offenders.
+  ur: جمادی الآخرہ میں بدھ کے دن صعدہ پہنچنے کے بعد ہادی نے خولان کو جمع کیا اور ہمدان کے لشکروں کے ساتھ نجران کی طرف چلے؛ وہ مہینے کی سترہ تاریخ ہفتے کو نکلے اور منگل کو پہنچے، بستی میں نہ اترے بلکہ لبیبان گئے جو یام لوگوں کی بستی ہے اور جہاں «فساد برپا کرنے والے» رہتے تھے؛ وہ پہاڑوں میں چلے گئے یہاں تک کہ ان کے قبیلوں نے انہیں اتار لانے کی ضمانت دی اور انہیں باندھ دیا گیا؛ ان کے بھائی عبداللہ بن حسین پہلے ہی شہر کا انتظام سنبھال کر کچھ مفسدوں کو قید کر چکے تھے۔
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: '0899-06-30'
+    hijri: '0286-06-17'
+    calendar: julian
+    precision: day
+    status: tradition
+    derived: true
+    note: السبت سبع عشرة من جمادى الآخرة سنة 286هـ بنص الكتاب؛ يوافق السبت 30 حزيران 899م جولياني بالتقويم الجدولي؛ التحويل مشتق
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/najran
+- type: occurred_at
+  target: place/lubayban-najran
+- type: occurred_at
+  target: place/saada
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abdullah-ibn-al-husayn-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: related_to
+  target: place/lubayban-najran
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: related_to
+  target: group/yam-tribe
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: related_to
+  target: event/ibn-bustam-seeks-safe-conduct-through-al-daam-and-al-hadi-reaches-saada-286
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص129-130 ⁦(الصفحة المطبوعة)⁩'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-17
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 129-130

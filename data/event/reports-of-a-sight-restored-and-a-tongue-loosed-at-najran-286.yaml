@@ -1,0 +1,65 @@
+id: event/reports-of-a-sight-restored-and-a-tongue-loosed-at-najran-286
+class: event
+kind: other
+label:
+  ar: أخبار رد بصر صبي وإفصاح لسان ابن صغير بنجران، وروايات عن عقوبة الطاعنين، جمادى الآخرة 286هـ
+  en: Reports of a boy's sight restored and a child's tongue loosed at Najran, and of what befell two detractors, Jumada II 286 AH
+  ur: نجران میں ایک بچے کی بینائی لوٹنے اور ایک کم سن بچے کی زبان کھلنے کی روایات، اور دو طعنہ زنوں پر گزری مصیبت کے بیانات، جمادی الآخرہ 286ھ
+summary:
+  ar: ينقل الراوي علي بن محمد أن الهادي مسح بيده بصر صبي ذهب بصره من الجدري ودعا له فأبصر، وأنه رآه يبصر بعد وصولهم نجران، ويروي عن موسى بن علي بن عبد الجبار الصريمي أن ابنه الصغير الذي لم يتكلم تكلم بعدما سُقي ماءً وُضع فيه خاتم الهادي، ويضيف بلاغات سمعها من ثقة عن رجل ثم امرأة تكلما سوءاً في الهادي فأصابتهما بلية. وفي هامش الأصل «كرامة».
+  en: Ali ibn Muhammad relates that al-Hadi passed his hand over the eyes of a boy blinded by smallpox and prayed for him and the boy saw, and that he saw the boy seeing after they reached Najran; he also reports Musa ibn Ali ibn Abd al-Jabbar al-Sarimi's account that his small son, who had not spoken, spoke after being given water in which al-Hadi's seal ring had been set, and adds hearsay from a man he trusts about a man and a woman who spoke ill of al-Hadi and met misfortune. The manuscript margin marks each "a karama".
+  ur: علی بن محمد بیان کرتے ہیں کہ ہادی نے چیچک سے نابینا ہو جانے والے ایک بچے کی آنکھوں پر ہاتھ پھیرا اور اس کے لیے دعا کی تو وہ دیکھنے لگا اور انہوں نے نجران پہنچنے کے بعد اسے دیکھتے ہوئے دیکھا؛ وہ موسیٰ بن علی بن عبد الجبار صریمی کا یہ بیان بھی نقل کرتے ہیں کہ ان کا چھوٹا بیٹا جو بولتا نہ تھا اس پانی کے پینے کے بعد بولنے لگا جس میں ہادی کی مہر کی انگوٹھی رکھی گئی تھی، اور ایک قابل اعتماد شخص سے سنی ہوئی وہ باتیں بھی جوڑتے ہیں کہ ایک مرد اور ایک عورت نے ہادی کے بارے میں بری بات کہی اور ان پر آفت آئی۔ اصل نسخے کے حاشیے پر ہر جگہ «کرامت» لکھا ہے۔
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: 0899-06
+    hijri: 0286-06
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: جمادى الآخرة سنة 286هـ؛ الشهر فقط؛ يبدأ نحو 14 حزيران 899م جولياني بالتقويم الجدولي؛ التحويل مشتق
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/najran
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ali-ibn-muhammad-ibn-ubaydallah-al-abbasi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/musa-ibn-ali-ibn-abd-al-jabbar-al-sarimi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: related_to
+  target: concept/karama
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: related_to
+  target: event/al-hadi-at-rajla-the-division-of-a-wrongdoers-crop-and-the-felling-of-his-palms-286
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص130-131 ⁦(الصفحة المطبوعة)⁩'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-17
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 130-131

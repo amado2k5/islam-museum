@@ -1,0 +1,18 @@
+id: concept/canon-burial-and-rolling-in-sand
+class: concept
+kind: scientific
+label: { ar: "الاندفان في الرمل والتمرغ فيه عند ابن سينا", en: "Burial and rolling in sand in the Canon", ur: "ریت میں دفن ہونا اور لوٹنا، قانون کے مطابق" }
+summary:
+  ar: "يذكر ابن سينا أن أقوى الرمال في نشف الرطوبات من نواحي الجلد رمال البحار، وأنه قد يجلس عليها وهي حارة وقد يندفن فيها وقد ينثر على البدن قليلا قليلا، فيحلل الأوجاع والأمراض المذكورة في باب الشمس، وأنه بالجملة يجفف البدن تجفيفا شديدا {cite:canon-ibn-sina-print-v1 pp.142-143}."
+  en: "Ibn Sina states that the strongest sands for drawing moisture from the skin are the sands of the seas, which may be sat on while hot, buried in, or scattered over the body a little at a time, dissolving the pains and diseases named under the sun, and that on the whole sand dries the body severely {cite:canon-ibn-sina-print-v1 pp.142-143}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/disease, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, Ta'lim 2, chapter 19 on baths, sun, sand and oils, and part 2 chapters 1 to 18 on the causes of bodily symptoms (scan pages 140 to 147), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-fann2-ch19-jumla2-ch18
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

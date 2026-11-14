@@ -6,24 +6,24 @@ label:
 roles: [military]
 gender: male
 summary:
-  ar: "بطاقة أولية لعبد الله بن حمدان التغلبي، قائد عباسي ووال الموصل في القرن العاشر، قتل سنة ٩٢٩م؛ تذكره كتب التاريخ ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abdallah ibn Hamdan al-Taghlibi, the tenth-century Abbasid commander and governor of Mosul, killed 929; the source entry is not yet checked on the page."
+  ar: "عبد الله بن حمدان بن حمدون التغلبي العدوي، أبو الهيجاء، أمير ومن القادة المقدمين في العصر العباسي، ولاه المكتفي الموصل سنة ٢٩٣هـ وعزله المقتدر سنة ٣٠١هـ ثم أعاده، وقتله أحد رجال المقتدر سنة ٣١٧هـ."
+  en: "Abdallah ibn Hamdan ibn Hamdun al-Taghlibi al-Adawi, Abu al-Hayja', an amir and foremost commander of the Abbasid age; al-Muktafi made him governor of Mosul in 293 AH, al-Muqtadir dismissed and later reinstated him, and one of al-Muqtadir's men killed him in 317 AH (929)."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-fragmentation]
-sources: [source/kamil-ibn-al-athir]
+sources: [source/kamil-ibn-al-athir, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q111193382
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: Ibn al-Athir, al-Kamil — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0043
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 born: { edtf: "873", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala)" }
 died: { edtf: "929", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala)" }
 relations:
-  - { type: ruler_of, target: place/mosul, note: "From text: governor of Mosul", sources: [source/kamil-ibn-al-athir] }
+  - { type: ruler_of, target: place/mosul, note: "From text: governor of Mosul", sources: [source/kamil-ibn-al-athir, source/alam-zirikli-dar-al-ilm-2002] }
