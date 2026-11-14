@@ -1,0 +1,18 @@
+id: concept/canon-season-for-purging
+class: concept
+kind: scientific
+label: { ar: "وقت الإسهال من السنة عند ابن سينا", en: "The season for purging in the Canon", ur: "مسہل کا موسم قانون میں" }
+summary:
+  ar: "يقول ابن سينا إن طلوع الشعرى ووقوع الثلج على الجبال والبرد الشديد ليس وقتاً للدواء، فيشرب الدواء ربيعاً أو خريفاً، لطيفاً في الربيع وقوياً في الخريف، وإن من احتاج مسهلاً في الشتاء فليرصد ريح الجنوب، ولا تعود الطبيعة شرب الدواء كلما احتاجت إلى تليين {cite:canon-ibn-sina-print-v1 p.282}."
+  en: "Ibn Sina says the rising of Sirius, snow on the mountains and bitter cold are not the time for the drug, so it is taken in spring or autumn, a gentle one in spring and a strong one in autumn, that one needing a purgative in winter should watch for the south wind, and that nature should not be accustomed to a drug whenever it needs softening {cite:canon-ibn-sina-print-v1 p.282}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/medicine, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 4, chapters 4 to 10 on common rules for vomiting and purging, purging, excess, remedies and the purgative drugs (scan pages 276 to 285), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-p276
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }
