@@ -4,6 +4,7 @@ For any agent turning a book, a dictionary, a chronicle or a text collection int
 
 You work from the book's extracted text, never from memory. Retrieve, then write.
 
+> Packet pipeline (founder-approved 14 November 2026): lane content is drafted and verified as packets and landed only by the lander, in one train pull request, with release notes written from the packet manifests (`docs/agents/pipeline.md`). Lane workers no longer open or merge pull requests; a batch of mined records is one packet of at most 25 entities.
 > Harvest register: before any download, OCR, harvest, mining or ingestion, look the item up in `docs/library/harvest-register.yaml` and update its entry in the same PR (`docs/library/README.md`).
 
 ## 1. Where the text lives (outside git, on the founder's Mac)

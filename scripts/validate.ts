@@ -126,9 +126,9 @@ function* walkDates(node: any, path = ""): Generator<[string, any]> {
 
 // ﷺ and the spelled-out formulas; no \b because it never matches before a non-word glyph such as ﷺ
 // a "(" ... ")" group containing Arabic script that is not preceded by the left-to-right isolate U+2066
-const ARABIC_PAREN_UNISOLATED = /(?<!\u2066)\([^()\n]*[\u0600-\u06FF][^()\n]*\)/;
-const HONORIFIC = /(peace be upon him|\bpbuh\b|\(saw\)|ﷺ|صلى الله عليه|صلى اللّٰه عليه|عليه السلام|عليها السلام|رضي الله ع|رضي اللّٰه ع|رحمه الله|رحمه اللّٰه)/i;
-function* textFields(o: any, path = ""): Generator<[string, string]> {
+export const ARABIC_PAREN_UNISOLATED = /(?<!\u2066)\([^()\n]*[\u0600-\u06FF][^()\n]*\)/;
+export const HONORIFIC = /(peace be upon him|\bpbuh\b|\(saw\)|ﷺ|صلى الله عليه|صلى اللّٰه عليه|عليه السلام|عليها السلام|رضي الله ع|رضي اللّٰه ع|رحمه الله|رحمه اللّٰه)/i;
+export function* textFields(o: any, path = ""): Generator<[string, string]> {
   if (typeof o === "string") yield [path, o];
   else if (Array.isArray(o)) for (let i = 0; i < o.length; i++) yield* textFields(o[i], `${path}[${i}]`);
   else if (o && typeof o === "object") for (const [k, v] of Object.entries(o)) if (!["provenance", "id", "text", "text_search"].includes(k)) yield* textFields(v, path ? `${path}.${k}` : k);
