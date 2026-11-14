@@ -1145,3 +1145,4 @@ Source: al-Zirikli, al-A'lam, 15th ed. 2002 (alam-zirikli-dar-al-ilm-2002). Each
 - Skipped, iDAI GeoNames id differs from our data: ceuta (iDAI 2519582, ours 6362987), gabes (iDAI 2468369, ours 110075).
 - Skipped, iDAI record 2280221 (damascus) carries no GeoNames id, so identity cannot be confirmed; proposal for the founder.
 - Packet 31 (place prose, identifier sections): 14 places written; no iDAI GeoNames mismatches (Baghdad, Balkh, Basra iDAI records carry no GeoNames id; Almeria data has none).
+- Packet 33 (place prose, identifier sections): 14 places written; no iDAI GeoNames mismatches (Jeddah and Kabul iDAI records carry no GeoNames id; Kabul data has none either).

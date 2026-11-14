@@ -67,3 +67,6 @@ Istanbul, historically known as Constantinople, is a city spanning Asia and Euro
 
 ## For Scholars
 The storied imperial capital straddling Europe and Asia across the Bosphorus Strait between the Black Sea and the Sea of Marmara. Serving as the Byzantine capital Constantinople for over a millennium, it was conquered in 857 AH (1453 CE) by Ottoman Sultan Mehmed II, becoming the administrative seat and caliphal capital of the Ottoman Empire until 1922 CE. It achieved exceptional architectural brilliance during the reign of Suleiman the Magnificent through master architect Mimar Sinan, featuring iconic landmarks like the Suleymaniye Mosque, Topkapi Palace, the Blue Mosque, and rich waqf manuscript libraries bridging East and West.
+
+## In the iDAI.gazetteer
+The German Archaeological Institute's gazetteer, iDAI.gazetteer, records this place as no. 2285315, typed as administrative unit and populated place, with the preferred name «Istanbul (Stadt)» under «Istanbul (Provinz)» in its hierarchy, and recorded names including Byzance, Stambuł, Stambul. {cite:idai-gazetteer 2285315}
