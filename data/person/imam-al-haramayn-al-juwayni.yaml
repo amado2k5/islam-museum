@@ -41,8 +41,8 @@ relations:
   - { type: participated_in, target: event/juwayni-mecca-mujawara-450, role: "المدرّس المفتي بالحرمين", sources: [source/encyclopaedia-of-islam-2, source/tarikh-islam-dhahabi, source/shadharat-dhahab] }
   - { type: participated_in, target: event/nizamiyya-nishapur-founded-459, role: "المدرّس الذي أُسست له المدرسة", sources: [source/encyclopaedia-of-islam-2, source/tarikh-islam-dhahabi] }
   - { type: participated_in, target: event/death-al-juwayni-478, role: "المتوفَّى", sources: [source/tarikh-islam-dhahabi, source/siyar-alam-nubala, source/encyclopaedia-of-islam-2] }
-external_ids: { wikidata: "Q2584074" }
-sources: [source/tarikh-islam-dhahabi, source/siyar-alam-nubala, source/tabaqat-shafiiyya-subki, source/shadharat-dhahab, source/wafayat-ayan, source/encyclopaedia-of-islam-2]
+external_ids: { wikidata: "Q2584074", openiti: "0478ImamHaramaynJuwayni" }
+sources: [source/tarikh-islam-dhahabi, source/siyar-alam-nubala, source/tabaqat-shafiiyya-subki, source/shadharat-dhahab, source/wafayat-ayan, source/encyclopaedia-of-islam-2, source/openiti-corpus]
 occupations:
   - job: job/teacher
     kind: primary

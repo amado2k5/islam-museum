@@ -1,0 +1,18 @@
+id: concept/iliac-division-and-leg-arteries
+class: concept
+kind: scientific
+label: { ar: "انقسام الشريان الأعظم إلى الفخذين وشرايين الرجلين عند ابن سينا", en: "The great artery's division at the sacrum and the arteries of the legs in the Canon", ur: "قانون میں بڑی شریان کی عجز پر تقسیم اور ٹانگوں کی شریانیں" }
+summary:
+  ar: "إذا بلغ الشريان الكبير آخر الفقار انقسم هو والوريد المصاحب له كحرف اللام اليوناني، ويمتطي كل منهما عظم العجز آخذاً إلى الفخذ، وقبل موافاته الفخذ يخلف عرقاً إلى المثانة والسرة يظهر في الأجنة {cite:canon-ibn-sina-print-v1 pp.86-87}."
+  en: "When the great artery reaches the end of the vertebrae it divides, with the vein that accompanies it, like the Greek letter lambda, and each part rides the sacrum toward the thigh, leaving before the thigh a vessel to the bladder and navel that shows in fetuses {cite:canon-ibn-sina-print-v1 pp.86-87}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/arteries, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 1, on nerves and vessels (scan pages 82 to 90), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-vessels-1
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

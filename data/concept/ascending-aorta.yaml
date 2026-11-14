@@ -1,0 +1,18 @@
+id: concept/ascending-aorta
+class: concept
+kind: scientific
+label: { ar: "الشريان الصاعد عند ابن سينا", en: "The ascending artery in the Canon", ur: "قانون میں چڑھنے والی شریان" }
+summary:
+  ar: "في الفصل الثالث يذكر ابن سينا أن الجزء الصاعد من الأورطي ينقسم قسمين، أكبرهما يتجه نحو أسفل العنق ثم يتورب إلى اليمين ويتفرع ثلاثة أقسام، منها السباتيان، وأصغرهما يأخذ إلى الإبط {cite:canon-ibn-sina-print-v1 p.85}."
+  en: "In the third chapter Ibn Sina says the ascending part of the aorta divides in two; the larger heads for the base of the neck, turns to the right and divides in three, among them the two carotids, and the smaller goes to the armpit {cite:canon-ibn-sina-print-v1 p.85}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/arteries, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 1, on nerves and vessels (scan pages 82 to 90), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-vessels-1
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

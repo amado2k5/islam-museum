@@ -20,7 +20,8 @@ story_roles:
 relations:
   - { type: born_in, target: place/jerusalem, sources: [source/wikidata], confidence: low, note: "ar: 'ولد في القدس، واضطربت دراسته بين مدارس القدس ونابلس.'" }
   - { type: traveled_to, target: place/nablus, sources: [source/wikidata], confidence: low, note: "en: 'Born in Jerusalem, where his schooling moved between Jerusalem and Nablus.'" }
-sources: [source/mawsuat-a3lam-ulama-adaba]
+external_ids: { openiti: "1331RuhiKhalidi" }
+sources: [source/mawsuat-a3lam-ulama-adaba, source/openiti-corpus]
 status:
   review: published
   completeness: 3

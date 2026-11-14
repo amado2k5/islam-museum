@@ -19,7 +19,8 @@ story_roles:
   - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
 relations:
   - { type: lived_in, target: place/misr, sources: [source/wikidata], confidence: low, note: "Nisba مصري attested in the record." }
-sources: [source/mawsuat-a3lam-ulama-adaba]
+external_ids: { openiti: "1358TantawiJawhari" }
+sources: [source/mawsuat-a3lam-ulama-adaba, source/openiti-corpus]
 status:
   review: published
   completeness: 3
