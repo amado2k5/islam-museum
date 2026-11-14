@@ -1,0 +1,18 @@
+id: concept/action-by-whole-substance
+class: concept
+kind: scientific
+label: { ar: "الفعل بجملة الجوهر عند ابن سينا", en: "Action by the whole substance in the Canon", ur: "قانون میں پورے جوہر کے ذریعے عمل" }
+summary:
+  ar: "الفاعل بجوهره هو الفاعل بصورته النوعية التي هو بها، لا بكيفيته. وهذه الصورة تحدث بعد المزاج وليست حرارة ولا برودة ولا رطوبة ولا يبوسة، بل تشبه اللون والرائحة والنفس. ويسمي ابن سينا هذا الفعل فعلاً بجملة الجواهر، أي بصورة النوع لا بالكيفيات الأربع ولا بالمزاج الناشئ عنها {cite:canon-ibn-sina-print-v1 p.132}."
+  en: "What acts by its substance acts by the specific form that makes it what it is, not by its quality. This form arises after the temperament and is neither heat, cold, moisture nor dryness but resembles colour, smell and soul. Ibn Sina calls this action by the whole of the substances, meaning by the form of the species and not by the four qualities or the temperament that comes from them {cite:canon-ibn-sina-print-v1 p.132}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/disease, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, on food, drink, waters, retention and evacuation, and non-necessary causes (scan pages 131 to 140), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-fann2-food-water-1
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

@@ -1,30 +1,62 @@
 id: person/muhammad-bakhit-mutii
 class: person
 label:
-  ar: "محمد بخيت المطيعي"
-  en: "Muhammad Bakhit Mutii"
-roles: [mufti]
+  ar: محمد بخيت المطيعي
+  en: Muhammad Bakhit Mutii
+roles:
+- mufti
+- scholar
 gender: male
 summary:
-  ar: "بطاقة أولية لمحمد بخيت المطيعي، مفتي الديار المصرية؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Muhammad Bakhit Mutii, the mufti of Egypt; his entry is not yet checked on the page."
-wings: [people]
-regions: [egypt-nile]
-periods: [period/modern-era]
-born: { edtf: "1854", precision: year, status: tradition, derived: true }
-died: { edtf: "1935", precision: year, status: tradition, derived: true }
+  ar: محمد بخيت بن حسين المطيعي الحنفي، مفتي الديار المصرية من 1333 إلى 1339هـ ومن كبار فقهائها، ولد في المطيعة من أعمال أسيوط ودرس في الأزهر، 1271 إلى 1354هـ.
+  en: Muhammad Bakhit ibn Husayn al-Mutii al-Hanafi, mufti of the Egyptian lands from 1333 to 1339 AH and one of its great jurists, born in al-Mutia in the district of Asyut and taught at al-Azhar, 1271 to 1354 AH.
+wings:
+- people
+regions:
+- egypt-nile
+periods:
+- period/modern-era
+born:
+  edtf: '1854'
+  hijri: '1271'
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: 'al-Zirikli, al-A''lam, 15th ed. 2002, vol. 6 p. 23: 1271 to 1354 AH = 1854 to 1935 CE; agrees with the card.'
+  sources: &id001
+  - source/alam-zirikli-dar-al-ilm-2002
+died:
+  edtf: '1935'
+  hijri: '1354'
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: 'al-Zirikli, al-A''lam, 15th ed. 2002, vol. 6 p. 23: 1271 to 1354 AH = 1854 to 1935 CE; agrees with the card.'
+  sources: *id001
 relations:
-  - { type: died_in, target: place/cairo, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q85)" }
-sources: [source/al-aalam, source/wikidata]
+- type: died_in
+  target: place/cairo
+  sources:
+  - source/wikidata
+  confidence: medium
+  note: Wikidata P20 place of death (Wikidata Q85)
+sources:
+- source/al-aalam
+- source/wikidata
+- source/alam-zirikli-dar-al-ilm-2002
 external_ids:
   wikidata: Q6151627
-  viaf: "68905503"
+  viaf: '68905503'
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text
+  generated_by: Claude Code (Lane B2 packet)
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
+traditions:
+- sunni-hanafi

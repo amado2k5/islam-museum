@@ -1,0 +1,18 @@
+id: concept/evacuation-of-what-should-be-retained
+class: concept
+kind: scientific
+label: { ar: "استفراغ ما يجب أن يحتبس عند ابن سينا", en: "The evacuation of what should be retained in the Canon", ur: "قانون میں اس چیز کا خارج ہو جانا جسے رکنا چاہیے" }
+summary:
+  ar: "يذكر ابن سينا أن استفراغ ما يجب أن يحتبس يكون إما لقوة الدافعة أو لضعف الماسكة، أو لإيذاء المادة بالثفل لكثرته أو بالتمديد لريحه أو باللذع لحدتها وحرافتها، أو لرقة المادة فتسيل من نفسها، وقد تعينها سعة المجاري {cite:canon-ibn-sina-print-v1 p.139}."
+  en: "Ibn Sina says that the evacuation of what should be retained comes either from strength of the expelling power or weakness of the retaining power, or because the matter troubles by its heaviness through quantity, by distension through its wind, by stinging through its sharpness and pungency, or because the matter is thin and flows of itself, helped sometimes by wide passages {cite:canon-ibn-sina-print-v1 p.139}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/disease, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, on food, drink, waters, retention and evacuation, and non-necessary causes (scan pages 131 to 140), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-fann2-food-water-1
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

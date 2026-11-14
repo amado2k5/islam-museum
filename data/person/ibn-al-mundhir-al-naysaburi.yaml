@@ -3,31 +3,31 @@ class: person
 label:
   ar: "ابن المنذر النيسابوري"
   en: "Ibn al-Mundhir al-Naysaburi"
-roles: [faqih]
+roles: [faqih, muhaddith]
 gender: male
 summary:
-  ar: "بطاقة أولية لمحمد بن إبراهيم بن المنذر النيسابوري، الفقيه والمفسر صاحب الإجماع والإشراف؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Muhammad ibn Ibrahim ibn al-Mundhir al-Naysaburi, the jurist and exegete of Kitab al-Ijma' and al-Ishraf; his entry is not yet checked on the page."
+  ar: "محمد بن إبراهيم بن المنذر النيسابوري، أبو بكر، فقيه مجتهد من الحفاظ وشيخ الحرم بمكة، 242 إلى 319 هـ الموافقة 856 إلى 931 م، صاحب «الأوسط» و«الإشراف»."
+  en: "Muhammad ibn Ibrahim ibn al-Mundhir al-Naysaburi, Abu Bakr, a mujtahid jurist and hadith memoriser, shaykh of the Haram in Mecca, 242 to 319 AH (856 to 931 CE); author of al-Awsat and al-Ishraf."
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/abbasid-early]
-born: { edtf: "0855", precision: year, status: tradition, derived: true }
-died: { edtf: "0930", precision: year, status: tradition, derived: true }
+born: { edtf: "0856", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 5 p. 290: 242 AH = 856 CE (the earlier card read 855).", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+died: { edtf: "0931", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 5 p. 290: 319 AH = 931 CE (the earlier card read 930).", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
   - { type: born_in, target: place/nishapur, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/mecca, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q6419122
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 occupations:
   - job: job/faqih
     kind: primary

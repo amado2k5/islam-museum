@@ -6,24 +6,25 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لمحمد أبو زهرة، فقيه مصر الكبير في القرن العشرين صاحب مذهب مالك وتاريخ المذاهب الإسلامية؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Muhammad Abu Zahra, Egypt's great twentieth-century jurist of the Maliki and legal-school histories; his entry is not yet checked on the page."
+  ar: "محمد بن أحمد أبو زهرة، وصفه الزركلي بأنه أكبر علماء الشريعة الإسلامية في عصره، ولد بالمحلة الكبرى وتعلم بمدرسة القضاء الشرعي ودرّس بالجامعة وكلية الحقوق، وصنف أكثر من أربعين كتابا منها «أصول الفقه» وكتب الأئمة الأربعة؛ ١٣١٦ إلى ١٣٩٤هـ الموافقة ١٨٩٨ إلى ١٩٧٤م."
+  en: "Muhammad ibn Ahmad Abu Zahra, whom al-Zirikli calls the greatest scholar of Islamic law of his age; born in al-Mahalla al-Kubra, trained at the School of Shari'a Judiciary, a university teacher and deputy dean of the Faculty of Law at Cairo, author of more than forty books including «Usul al-Fiqh» and a large study of each of the four imams. 1316 to 1394 AH, 1898 to 1974 CE."
 wings: [people]
 regions: [egypt-nile]
 periods: [period/modern-era]
 died: { edtf: "1974", precision: year, status: tradition, derived: true }
+born: { edtf: "1898", calendar: gregorian, precision: year, derived: true, note: "1316 AH = 1898 CE as printed in the entry; source: al-Zirikli, al-A'lam, 15th ed. 2002, vol. 6 p. 23", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
   - { type: born_in, target: place/misr, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q79)" }
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q718677
   viaf: "201126558"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
