@@ -1,0 +1,18 @@
+id: concept/canon-mouse-tail-and-flickering-pulses
+class: concept
+kind: scientific
+label: { ar: "النبض ذنب الفأر والمسلي عند ابن سينا", en: "The mouse-tail and flickering pulses in the Canon", ur: "ذنب الفار اور مسلی نبض قانون میں" }
+summary:
+  ar: "يعرف ابن سينا ذنب الفأر والمسلي، وهما نبضان يتدرجان في اختلاف الأجزاء نقصاناً وزيادة {cite:canon-ibn-sina-print-v1 p.173}."
+  en: "Ibn Sina defines the mouse-tail pulse and the flickering pulse, two pulses that grade the unevenness of their parts through decrease and increase {cite:canon-ibn-sina-print-v1 p.173}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/canon-pulse-in-general, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, Ta'lim 3, the pulse chapters 2 to 11 (scan pages 171 to 179), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-pulse-causes-1
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

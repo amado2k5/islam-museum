@@ -6,24 +6,25 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لأحمد بن فهد الحلي الأسدي، فقيه الحلة في القرن الخامس عشر، توفي سنة ١٤٣٧م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ahmad ibn Fahad al-Hilli al-Asadi, the fifteenth-century jurist of al-Hilla, d. 1437; the biographical entry is not yet checked on the page."
+  ar: "أحمد بن محمد بن فهد الأسدي الحلي، فقيه إمامي، مولده في الحلة السيفية ووفاته وقبره بكربلاء سنة 841 هـ، من كتبه «المهذب البارع إلى شرح النافع» و«عدة الداعي»."
+  en: "Ahmad ibn Muhammad ibn Fahd al-Asadi al-Hilli, an Imami (Shi'i) jurist, born at al-Hilla al-Sayfiyya, died and buried at Karbala in 841 AH; his books include 'al-Muhadhdhab al-Bari' ila Sharh al-Nafi'' and 'Iddat al-Da'i'."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/mongol-post-mongol]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q6419118
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0046
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
-born: { edtf: "1356", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Hurr al-Amili (Amal al-Amil); al-Zirikli Confirmed on 13 November 2026 against Wikidata Q6419118 (P569, a statement with a reference), item revision 2550119730.", sources: [source/wikidata] }
-died: { edtf: "1437", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Hurr al-Amili (Amal al-Amil); al-Zirikli Confirmed on 13 November 2026 against Wikidata Q6419118 (P570, a statement with a reference), item revision 2550119730.", sources: [source/wikidata] }
+  completeness: 3
+born: { edtf: "1356", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 1 p. 220: 757 AH = 1356 CE.", sources: [source/wikidata] }
+died: { edtf: "1437", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 1 p. 220: 841 AH = 1437 CE; died and buried at Karbala.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/hilla, note: "From text: فقيه الحلة في القرن الخامس عشر", sources: [source/al-aalam], confidence: low }
+  - { type: died_in, target: place/karbala, note: "Al-Zirikli, al-A'lam vol. 1 p. 220: died and buried at Karbala.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }
