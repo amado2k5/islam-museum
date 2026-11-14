@@ -14,9 +14,10 @@ periods: [period/gunpowder-empires]
 born: { edtf: "1670", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi (Tımışvarlı Osman Ağa)" }
 relations:
   - { type: born_in, target: place/timi-oara, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q83404)" }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q191664
+  viaf: "20182814"
 provenance:
   layer: own-research
   source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"

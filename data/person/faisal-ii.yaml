@@ -42,8 +42,8 @@ faith:
     basis: unknown
     note: "FLAGGED (the headship line, with a single-infobox Sunni reading). No two independent sources name his school. The English article's infobox gives his religion as Sunni Islam, citing a 2005 APS news article — one infobox, one source family. Wikidata gives only Islam in general. The Arabic article names no school in its text and files him under 'Iraqi Sunni Muslims', a category filing, which never counts. His descent from the Prophet's house and his crown are headship and descent, which never count. Recorded unknown with exactly this stated."
     sources: [source/wikipedia-faisal-ii-en, source/wikipedia-faisal-ii-ar, source/wikidata-faisal-ii]
-external_ids: { wikidata: "Q149724" }
-sources: [source/wikipedia-faisal-ii-en, source/wikipedia-faisal-ii-ar, source/wikipedia-faisal-ii-ur, source/wikidata-faisal-ii]
+external_ids: { wikidata: "Q149724", viaf: "25542089" }
+sources: [source/wikipedia-faisal-ii-en, source/wikipedia-faisal-ii-ar, source/wikipedia-faisal-ii-ur, source/wikidata-faisal-ii, source/wikidata]
 provenance:
   layer: own-research
   source: "English, Arabic and Urdu Wikipedia articles on Faisal II, each fetched by its recorded revision id (EN 1380988157, AR 77050184, UR 9724614) with the returned id asserted equal before use, and Wikidata item Q149724 (item revision 2558703347, read twice with identical revision and claims), the QID grounded through the English article's pageprops and confirmed by the Arabic and Urdu articles' pageprops. Existence checks by Latin and Arabic fragments across data/person, by the grounded QID across all person files, and by biography found no prior record. No child_of edge is written: his father King Ghazi (Wikidata Q314784) has no record, and his grandfather Faisal I, who does have a record (person/faisal-i-of-iraq), is a grandfather, for whom child_of is not used. No successor edge is written in this record: successor edges are written in the successor's own record, and his successor as head of state on the monarchy's abolition, Muhammad Najib ar-Ruba'i, has no record. No ruler_of edge is written (no modern Iraq polity entity exists)."

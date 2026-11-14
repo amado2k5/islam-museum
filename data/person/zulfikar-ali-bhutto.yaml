@@ -47,13 +47,14 @@ relations:
   - { type: born_in, target: place/larkana, sources: [source/wikidata-zulfikar-ali-bhutto], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q696605)" }
   - { type: died_in, target: place/rawalpindi, sources: [source/wikidata-zulfikar-ali-bhutto], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q93230)" }
   - { type: buried_in, target: building/bhutto-family-mausoleum, sources: [source/wikidata-zulfikar-ali-bhutto], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q6794060)" }
-external_ids: { wikidata: "Q131355" }
+external_ids: { wikidata: "Q131355", viaf: "88040410" }
 sources:
   - source/wikipedia-zulfikar-ali-bhutto-en
   - source/wikipedia-zulfikar-ali-bhutto-ar
   - source/wikipedia-zulfikar-ali-bhutto-ur
   - source/wikidata-zulfikar-ali-bhutto
   - source/wikipedia-benazir-bhutto-en
+  - source/wikidata
 status:
   review: published
 provenance:
