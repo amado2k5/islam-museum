@@ -8,7 +8,6 @@ names:
 gender: male
 roles: [scholar, jurist]
 traditions: [sunni]
-born: { edtf: "1172", hijri: "0568", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
 died: { edtf: "1286", hijri: "0685", calendar: julian, precision: year, status: debated, note: "قال السبكي والإسنوي سنة إحدى وتسعين وستمائة، وقال ابن كثير في تاريخه والكتبي وابن حبيب توفي سنة خمس وثمانين، وأهمله الذهبي في العبر {cite:shadharat-dhahab p. 663}", sources: [source/mawsuat-a3lam-ulama-adaba, source/shadharat-dhahab] }
 summary:
   ar: "فقيه ومفسر ومتكلم وأصولي، صاحب تفسير «أنوار التنزيل»."
@@ -22,8 +21,8 @@ story_roles:
 relations:
   - { type: lived_in, target: place/shiraz, note: "Place association from the person's nisba/name (الشيرازي); denotes association, not proven residence.", sources: [source/mawsuat-a3lam-ulama-adaba, source/kashf-zunun-furqan, source/anwar-al-tanzil-halabi-1330-v4, source/anwar-al-tanzil-fleischer-v1, source/tafsir-manar-v02], confidence: low }
   - { type: authored, target: work/anwar-al-tanzil, sources: [source/kashf-zunun-furqan] }
-external_ids: { wikidata: "Q287573", viaf: "44541329" }
-sources: [source/mawsuat-a3lam-ulama-adaba, source/kashf-zunun-furqan, source/anwar-al-tanzil-halabi-1330-v4, source/anwar-al-tanzil-fleischer-v1, source/tafsir-manar-v02, source/wikidata]
+external_ids: { wikidata: "Q287573", viaf: "44541329", biblissima: Q16817 }
+sources: [source/mawsuat-a3lam-ulama-adaba, source/kashf-zunun-furqan, source/anwar-al-tanzil-halabi-1330-v4, source/anwar-al-tanzil-fleischer-v1, source/tafsir-manar-v02, source/wikidata, source/biblissima]
 status:
   review: published
   completeness: 3
