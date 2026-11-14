@@ -41,8 +41,8 @@ relations:
   - { type: lived_in, target: place/cairo, note: "From text: settled in Cairo", sources: [source/wikipedia-abd-el-krim-en, source/wikipedia-abd-el-krim-ar, source/wikipedia-abd-el-krim-fr, source/wikipedia-abd-el-krim-ur, source/wikidata-abd-el-krim] }
   - { type: died_in, target: place/cairo, sources: [source/wikipedia-abd-el-krim-en, source/wikipedia-abd-el-krim-ar] }
   - { type: buried_in, target: place/cairo, sources: [source/wikipedia-abd-el-krim-ar] }
-external_ids: { wikidata: "Q202650" }
-sources: [source/wikipedia-abd-el-krim-en, source/wikipedia-abd-el-krim-ar, source/wikipedia-abd-el-krim-fr, source/wikipedia-abd-el-krim-ur, source/wikidata-abd-el-krim]
+external_ids: { wikidata: "Q202650", viaf: "5052928" }
+sources: [source/wikipedia-abd-el-krim-en, source/wikipedia-abd-el-krim-ar, source/wikipedia-abd-el-krim-fr, source/wikipedia-abd-el-krim-ur, source/wikidata-abd-el-krim, source/wikidata]
 provenance:
   layer: own-research
   source: "English, Arabic, French and Urdu Wikipedia articles on Abd el-Krim, each fetched by its recorded revision id (EN 1375976902, AR 76814244, FR 240648059, UR 12034172) with the returned id asserted equal before use, and Wikidata item Q202650 (revision 2557615609). Existence checks by name fragments (Khattabi, el-Krim, الخطابي) and by QID across data/person and data/source found no prior record for him; the earlier al-Khattabi namesakes in the graph are different people. The lane queue gives 1882–1963, which the sources confirm. The sibling edge to his younger brother M'hamed, built in this same run, is written once, in M'hamed's record, not here."

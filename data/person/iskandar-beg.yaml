@@ -18,9 +18,10 @@ died: { edtf: "1468", calendar: gregorian, precision: year, derived: true, note:
 relations:
   - { type: died_in, target: place/lezh, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: buried_in, target: place/lezh, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/dawlat-uthmaniyya-salabi]
+sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
 external_ids:
   wikidata: Q160614
+  viaf: "54941270"
 provenance:
   layer: own-research
   source: "Wikidata Q160614 (religion claim Islam); book source: al-Salabi, al-Dawla al-Uthmaniyya — entry not yet read on the page"

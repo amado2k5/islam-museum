@@ -19,11 +19,12 @@ relations:
   - { type: buried_in, target: place/bursa, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: child_of, target: person/murad-i-uthmani, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: participated_in, target: event/battle-ankara-804, role: "المهزوم الأسير", sources: [source/dawlat-uthmaniyya-salabi] }
-sources: [source/dawlat-uthmaniyya-salabi, source/shadharat-dhahab, source/juha-nawadir-kubra-djuwaydi, source/nomisma]
+sources: [source/dawlat-uthmaniyya-salabi, source/shadharat-dhahab, source/juha-nawadir-kubra-djuwaydi, source/nomisma, source/wikidata]
 aliases: [person/bayezid-i-uthmani]
 external_ids:
   nomisma: "bayezid_i_yildirim"
   wikidata: Q128358
+  viaf: "1467021"
 provenance:
   layer: own-research
   source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 60"

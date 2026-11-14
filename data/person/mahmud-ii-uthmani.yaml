@@ -20,8 +20,8 @@ relations:
   - { type: born_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: buried_in, target: building/mahmud-ii-mausoleum, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-external_ids: { wikidata: "Q174791" }
-sources: [source/dawlat-uthmaniyya-salabi, source/encyclopaedia-of-islam-2]
+external_ids: { wikidata: "Q174791", viaf: "35392079" }
+sources: [source/dawlat-uthmaniyya-salabi, source/encyclopaedia-of-islam-2, source/wikidata]
 provenance:
   layer: own-research
   source: "الدولة العثمانية لعلي محمد الصلابي ⁦(ط1 1421)⁩ ص 548"

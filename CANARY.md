@@ -67,6 +67,7 @@ open a new block on top with the new version and today's date.
 - **OpenITI is registered as a facts-only source, and 108 scholars carry their OpenITI author identifier.** The identifier is the Hijri death year plus a short name (for example 0310Tabari); each link needs our Arabic name to equal the corpus author name, our Hijri death year to equal the identifier's year, and exactly one author to match (decision dec-20261114-277).
 ### Data
 - **A new person, Ahmad ibn al-Nadr al-Naysaburi (Abu al-Fadl), host and source of al-Bukhari at Nishapur,** with full Arabic, English and Urdu prose from al-Dhahabi's Siyar A'lam al-Nubala' (read from the page image with Apple Vision). He is kept apart from the Omani poet of the same name already in the museum. Ahmad ibn al-Furat's role is corrected from politician to scholar.
+- **VIAF identifiers added to two hundred more persons.** Each number comes from the single VIAF statement on the person's Wikidata item; numbers already used by another person of ours were skipped (decision dec-20261114-277).
 
 ## v1.30.0 — 2026-11-14
 ### Added
