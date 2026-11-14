@@ -1,0 +1,69 @@
+id: event/al-hadi-at-khirfan-and-al-subay-and-the-march-to-hawth-286
+class: event
+kind: other
+label:
+  ar: الهادي في خرفان والسبيع من أرحب وتأمينهم ثم المسير إلى حوث وتشاور الدعام، المحرم وصفر 286هـ
+  en: Al-Hadi at Khirfan and al-Subay' of Arhab, their safe-conduct and oath, then the march to Hawth and al-Da'am's council, Muharram and Safar 286 AH
+  ur: ہادی کا ارحب کے خرفان اور السبیع میں، ان کی امان اور بیعت، پھر حوث کی طرف کوچ اور دعام کا مشورہ، محرم و صفر 286ھ
+summary:
+  ar: خرج الهادي بعد وصول خيل أبي العتاهية مع جراح إلى خرفان والسبيع، وهم من أرحب وبني عم الدعام ومن كان يتقوى بهم، يدعوهم إلى السمع والطاعة، فوجد القرى خالية وأهلها في رؤوس الجبال، فأرسل إليهم بالأمان فنزل مشايخهم. ودخل بعض جند أبي العتاهية بيوتاً فأخذوا علفاً فجمعهم الهادي وأمرهم بالرد وتوعد من يعود بقطع يده، فردوه أمام المشايخ فأمنوا ونزل أهلهم وحلفوا له. ثم أرسل الصوارخ وسار في أيام ماضية من صفر إلى موضع يقال له حوث ليقاتل الدعام بخيوان، فاستشار الدعام أصحابه.
+  en: After the horse of Abu al-Atahiya came with Jarrah, al-Hadi went out to Khirfan and al-Subay', people of Arhab, cousins of al-Da'am and men he had relied on, calling them to hearing and obedience; he found the villages empty and their people on the mountain tops, sent them safe-conduct, and their elders came down. Some of Abu al-Atahiya's soldiers entered houses and took fodder; al-Hadi gathered them, ordered it returned and threatened to cut off the hand of anyone who did it again; they returned it before the elders, who were reassured, and the people came down and swore to him. In the first days of Safar he sent the criers and marched to a place called Hawth to confront al-Da'am at Khiwan, and al-Da'am took counsel with his men.
+  ur: ابو العتاہیہ کی فوج کے جراح کے ساتھ آنے کے بعد ہادی ارحب کے لوگوں خرفان اور السبیع کی طرف نکلے جو دعام کے چچازاد اور اس کا سہارا تھے، اور انہیں سمع و طاعت کی دعوت دی؛ بستیاں خالی ملیں اور لوگ پہاڑوں کی چوٹیوں پر تھے، انہیں امان بھیجی تو ان کے بزرگ اتر آئے۔ ابو العتاہیہ کے کچھ سپاہی گھروں میں گھس کر چارہ لے گئے تو ہادی نے انہیں جمع کر کے لوٹانے کا حکم دیا اور دوبارہ ایسا کرنے والے کا ہاتھ کاٹنے کی تنبیہ کی؛ انہوں نے بزرگوں کے سامنے لوٹا دیا، وہ مطمئن ہوئے اور لوگ اتر کر بیعت کر گئے۔ پھر صفر کے ابتدائی دنوں میں انہوں نے منادی بھیجے اور خیوان میں دعام کا مقابلہ کرنے کو حوث نامی مقام کی طرف کوچ کیا، تو دعام نے اپنے ساتھیوں سے مشورہ کیا۔
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: 0899-02
+    hijri: 0286-02
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: من أيام باقية من المحرم سنة 286هـ نحو 14 شباط 899م إلى أيام ماضية من صفر سنة 286هـ، وصفر يبدأ نحو 16 شباط 899م (جولياني) بالتقويم الجدولي؛ الشهر فقط؛ التحويل مشتق
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/hawth-yemen
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/jarrah-ibn-bishr
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/al-daam-ibn-ibrahim
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: related_to
+  target: group/khirfan-arhab
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: related_to
+  target: group/al-subay-arhab
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: related_to
+  target: place/khiwan
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص111-112 ⁦(الصفحة المطبوعة)⁩'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-14
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 111-112
