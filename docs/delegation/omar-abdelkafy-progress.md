@@ -3467,6 +3467,19 @@ Resume point: alwaad-alhaq episode 10 (branch from origin/main).
 
 Resume point: sharh-saheeh-al-bukhare episode 4 (branch from origin/main).
 
+### alwaad-alhaq ep10 (14 Nov 2026)
+
+12 points written for episode 10 (ar, en, ur); 10 needs_source marks for this episode in each language file; edges to Tamim al-Dari, Fatima bint Qays, the Jassasa, the Dajjal, Tiberias, Umar, Abdullah ibn Umar and Muhammad. Quran verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
+
+| Excluded (alwaad-alhaq ep10) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Ruling that those who ride the sea in rough waves or drive at speed die as suicides and not martyrs | ep10 00:10:00-00:10:30 | opinion ruling, founder-held (dec-20261114-277) | opinion rulings | Open |
+| Story of Israeli schooling and the Mount Zion remark | ep10 00:50:30-00:51:30 | garbled transcript and political claim that cannot be checked | accuracy | Open |
+| Ranking of Muawiya over Umar ibn Abd al-Aziz and the remark on Malik not walking in Medina | ep10 00:36:00-00:37:00 | opinion ranking and garbled claim, not verifiable | accuracy, opinion rulings | Open |
+| Discussion of the Dajjal's seventy rings, his hidden identity, and the Ibn Sayyad Samaritan origin | ep10 00:39:00 and 00:47:00 | garbled transcript, sources not named | accuracy | Open |
+| Closing remarks on viewer mail and thanks to the channel | ep10 00:57:30-00:58:30 | no factual content | relevance | Open |
+
+Resume point: alwaad-alhaq episode 11 (branch from origin/main).
 ### sharh-saheeh-al-bukhare ep04 (14 Nov 2026)
 
 24 points written for episode 4 (ar, en, ur); 14 needs_source marks in each language file for this episode; 25 new `about` edges. Quran verses referenced only through passage links (12-29, 5-8, 20-50); none typed. Contested: He gives natural-history claims, the Ali and Shurayh story and several hadiths by sense without chains, and his reading of belief in God's names, angels, decree and the last day as branches of faith is his own presentation. Checked line by line against the transcript by a second reader before merge.
