@@ -4022,3 +4022,23 @@ Resume point: sharh-saheeh-al-bukhare episode 23 (branch from origin/main).
 | Smell report and backbiting saying | ep23 01:16:30 | Key words garbled (the ASR gives a different verb), wording and meaning not recoverable | Clarity | Open |
 
 Resume point: sharh-saheeh-al-bukhare episode 24 (branch from origin/main).
+
+### sharh-saheeh-al-bukhare ep24 (14 Nov 2026)
+
+25 points written for episode 24 (ar, en, ur); 21 needs_source marks in each language file for this episode; 5 new `about` edges. Quran verses referenced only through passage links (3-31); none typed. Contested: He attributes to God a purpose for illness and poverty as tests of those He loves, and holds that affliction is a sign of God's love; these are his applications, marked as his view. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep24) | Episode / time | Reason | Gate failed | Override |
+| Opening praise loop, greetings and opening prayer | ep24 00:00:00-00:02:30 | Greeting and opening prayer, and a repeated-word loop | Clarity, Loop check | Open |
+| Garbled opening on small deeds and bankruptcy | ep24 00:02:30-00:04:00 | Too garbled to recover | Clarity, Loop check | Open |
+| Repeated-word loops and garbled stretches | ep24 00:04:30-00:05:00, 00:17:00-00:17:30, 00:18:00-00:20:00, 00:24:00-00:24:30, 00:28:30-00:29:00 | Loops and unrecoverable ASR | Clarity, Loop check | Open |
+| Garbled hadith-by-sense and stories about neighbours, a travelling party and its leader | ep24 00:10:30-00:12:00, 00:13:00-00:16:00 | Garbled narration, speakers and endings unclear | Clarity | Open |
+| Pharaoh, wealth and paradise story | ep24 00:27:00-00:28:30 | Garbled, cannot recover who says what | Clarity | Open |
+| Companions before and after Islam, conquest and dismissal stories | ep24 00:37:00-00:39:00 | Garbled names and events | Clarity, Loop check | Open |
+| Remarks on marriage, wives, divorce and what men and women do | ep24 00:40:00-00:43:30 | Sweeping claims about women and men and garbled | Voice rule, Clarity | Open |
+| Divorce oaths and a list of countries | ep24 00:53:00-00:55:30 | Garbled and sweeping remarks about peoples | Voice rule, Clarity, Loop check | Open |
+| Postpartum bleeding, menstruation and prayer rulings | ep24 00:55:30-00:58:30 | Garbled fiqh rulings about women, not recoverable | Clarity, Voice rule | Open |
+| Garbled passages on provision, Qarun and the words I and mine | ep24 01:09:00-01:23:00 | Heavy garbling and loops | Clarity, Loop check | Open |
+| Garbled passages after the tongue and favours section | ep24 01:26:30-01:31:00 | Loops and unclear speech | Clarity, Loop check | Open |
+| Closing and final prayer | ep24 01:31:00-01:31:30 | Break join and closing | Content rule | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 25 (branch from origin/main).
