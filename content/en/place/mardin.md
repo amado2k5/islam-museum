@@ -14,3 +14,10 @@ In 281 AH al-Mu'tadid marched on Mardin, fought those in its citadel all day, cl
 
 ## In the iDAI.gazetteer
 The iDAI.gazetteer lists this place under no. 2118550 with the preferred name «Mardin», classed as populated place; its parent in the hierarchy is «Mardin (Provinz)», classed as administrative unit. Recorded names include «Marde» and «ماردين». {cite:idai-gazetteer 2118550}
+
+## In Yaqut's Mu'jam al-Buldan
+Yaqut describes Mardin as a famous fortress on the crest of the mountain of the Jazira, overlooking Dunaysir, Dara, Nusaybin and the wide plain around them. Before it lies a great suburb with many markets, inns, madrasas, ribats and khanqahs. He says the houses rise like steps, each above the next, that the springs are scant in water, and that most of the people's drinking water comes from cisterns built in their houses. {cite:mujam-al-buldan-sader-1995 5 p.39}
+
+He says that, beyond doubt, nothing on earth is finer, stronger or more solidly built than its citadel. He cites a verse of Jarir that names Mardin, and takes it to refute those who held that the place was founded only recently, in his own time. {cite:mujam-al-buldan-sader-1995 5 p.39}
+
+In the conquest reports he records that Iyad ibn Ghanm took Tur Abdin, the fort of Mardin and Dara on terms like the treaty of al-Ruha, and that the whole of the Jazira was conquered in 19 AH and the first days of Muharram 20 AH, in the caliphate of Umar ibn al-Khattab. He ends with two verses by a witty contemporary about a beloved in Mardin. {cite:mujam-al-buldan-sader-1995 5 p.39}
