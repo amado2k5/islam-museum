@@ -1,0 +1,18 @@
+id: concept/canon-the-ten-genera-of-the-pulse
+class: concept
+kind: scientific
+label: { ar: "أجناس النبض العشرة عند ابن سينا", en: "The ten genera of the pulse in the Canon", ur: "نبض کے دس اجناس قانون میں" }
+summary:
+  ar: "يعد ابن سينا الأجناس التي منها تعرف الأطباء حال النبض، وهي عشرة عند الأطباء، ويرى أنه ينبغي أن تكون تسعة {cite:canon-ibn-sina-print-v1 p.169}."
+  en: "Ibn Sina lists the genera by which physicians learn the state of the pulse: ten according to the physicians, though he thinks they should be nine {cite:canon-ibn-sina-print-v1 p.169}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/canon-pulse-in-general, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, Ta'lim 3 chapters 5 to 11 and the opening of the pulse (scan pages 164 to 171), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-signs-pulse-1
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }
