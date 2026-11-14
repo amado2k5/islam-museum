@@ -1160,6 +1160,8 @@ Source: al-Zirikli, al-A'lam, 15th ed. 2002 (alam-zirikli-dar-al-ilm-2002). Each
 - Corrections to cards: al-burzuli born 1339 to 1340 and died 1438 to 1440 (entry 844 AH = 1440; the heading's printed birth 641 does not fit 1340, 741 would, and fits al-Sakhawi's 103 years; years written as printed, flagged), lived_in maghreb replaced by Tunis; abdullah-al-bosnevi father Abd al-Rahman to Muhammad, poet and Malamati removed, born 1584 added, died_in Konya; abd-al-qadir-al-fasi theologian removed; abd-al-wahid-ibn-ashir lived_in Medina (from the nisba) replaced by Fez; shams-al-din-al-ramli lived_in Ramla replaced by Cairo (the nisba is a village of al-Minufiyya, not Palestinian Ramla); abu-wajzah-al-sadi roles poet and scholar; ibn-karama Zaydi school labelled before anything else, Sanaa and Mecca added. Other cards: dates agree with the entry in the same Hijri years.
 - Skipped: ahmad-ibn-yusuf-al-misri. The card is Ahmad ibn Yusuf ibn Ibrahim (Ibn al-Daya, mathematician of Baghdad, d. 912); the packet entry is Ibrahim ibn Yusuf al-Razi al-Hasanjani, hadith hafiz, d. 301 AH = 913 (a different man). A proposal for the founder; no prose written.
 
+## Packet 35 (place identifier sections)
+- Written: 13 places (see CANARY). Skipped: qayrawan (iDAI 2042772 has no GeoNames id; our data has 2473449, cannot confirm identity; proposal for the founder).
 ## 2026-11-14 (Lane B2 packet alm20) - al-A'lam persons, nine written, none skipped
 
 Source: al-Zirikli, al-A'lam, 15th ed. 2002 (alam-zirikli-dar-al-ilm-2002). Each entry read in full; match checked by name, role, region and dates.
