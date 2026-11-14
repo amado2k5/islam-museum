@@ -1,30 +1,63 @@
 id: person/muhammad-ibn-abd-al-wahid-al-mallahi
 class: person
 label:
-  ar: "محمد بن عبد الواحد الملاحي"
-  en: "Muhammad ibn Abd al-Wahid al-Mallahi"
-roles: [poet, scholar]
+  ar: محمد بن عبد الواحد الملاحي
+  en: Muhammad ibn Abd al-Wahid al-Mallahi
+roles:
+- poet
+- scholar
 gender: male
 summary:
-  ar: "بطاقة أولية لمحمد بن عبد الواحد الملاحي، عالم وشاعر أندلسي، ولد سنة ١١٥٤م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Muhammad ibn Abd al-Wahid al-Mallahi, the Andalusian scholar and poet, b. 1154; the biographical entry is not yet checked on the page."
-wings: [people]
-regions: [andalus-europe]
-periods: [period/crusades-ayyubid-mamluk]
-born: { edtf: "1154", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Marrakushi Confirmed on 13 November 2026 against Wikidata Q57693362 (P569, a statement with a reference), item revision 2535232863.", sources: [source/wikidata] }
-died: { edtf: "1222", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Marrakushi Confirmed on 13 November 2026 against Wikidata Q57693362 (P570, a statement with a reference), item revision 2535232863.", sources: [source/wikidata] }
+  ar: محمد بن عبد الواحد بن إبراهيم الغافقي الملاحي، أبو القاسم، مؤرخ من حفاظ الحديث، أندلسي توفي بغرناطة؛ ٥٤٩ إلى ٦١٩هـ.
+  en: Muhammad ibn Abd al-Wahid ibn Ibrahim al-Ghafiqi al-Mallahi, Abu al-Qasim, a historian and hadith memoriser of al-Andalus who died at Granada; 549 to 619 AH.
+wings:
+- people
+regions:
+- andalus-europe
+periods:
+- period/crusades-ayyubid-mamluk
+born:
+  edtf: '1154'
+  calendar: gregorian
+  precision: year
+  derived: true
+  note: 'Date-enrichment pass; source: al-Marrakushi Confirmed on 13 November 2026 against Wikidata Q57693362 (P569, a statement with a reference), item revision 2535232863.'
+  sources:
+  - source/wikidata
+died:
+  edtf: '1222'
+  calendar: gregorian
+  precision: year
+  derived: true
+  note: 'Date-enrichment pass; source: al-Marrakushi Confirmed on 13 November 2026 against Wikidata Q57693362 (P570, a statement with a reference), item revision 2535232863.'
+  sources:
+  - source/wikidata
 relations:
-  - { type: born_in, target: place/granada, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q8810)" }
-sources: [source/al-aalam, source/wikidata]
+- type: born_in
+  target: place/granada
+  sources:
+  - source/wikidata
+  confidence: medium
+  note: Wikidata P19 place of birth (Wikidata Q8810)
+- type: died_in
+  target: place/granada
+  confidence: medium
+  note: The A'lam entry says he died at Granada.
+  sources:
+  - source/alam-zirikli-dar-al-ilm-2002
+sources:
+- source/al-aalam
+- source/wikidata
+- source/alam-zirikli-dar-al-ilm-2002
 external_ids:
   wikidata: Q57693362
-  viaf: "90054823"
+  viaf: '90054823'
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0071
+  source: al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text
+  generated_by: Claude Code (Lane B2 packet)
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3

@@ -1,31 +1,58 @@
 id: person/al-qasim-ibn-asakir
 class: person
 label:
-  ar: "القاسم بن عساكر"
-  en: "Al-Qasim ibn 'Asakir"
-roles: [scholar]
+  ar: القاسم بن عساكر
+  en: Al-Qasim ibn 'Asakir
+roles:
+- scholar
 gender: male
 summary:
-  ar: "بطاقة أولية لالقاسم بن عساكر؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Al-Qasim ibn 'Asakir; the entry is not yet checked on the page."
-wings: [people]
-regions: [levant-iraq]
-periods: [period/crusades-ayyubid-mamluk]
-sources: [source/al-aalam, source/wikidata]
+  ar: القاسم بن علي بن الحسن بن هبة الله، أبو محمد، ابن عساكر، محدث من أهل دمشق وابن صاحب التاريخ الكبير؛ ٥٢٧ إلى ٦٠٠هـ.
+  en: Al-Qasim ibn Ali ibn al-Hasan ibn Hibat Allah, Abu Muhammad, Ibn Asakir, a hadith scholar of Damascus and son of the author of the great history; 527 to 600 AH.
+wings:
+- people
+regions:
+- levant-iraq
+periods:
+- period/crusades-ayyubid-mamluk
+sources:
+- source/al-aalam
+- source/wikidata
+- source/alam-zirikli-dar-al-ilm-2002
 external_ids:
   wikidata: Q25452537
-  viaf: "90073797"
+  viaf: '90073797'
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text
+  generated_by: Claude Code (Lane B2 packet)
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
-born: { edtf: "1133", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala" }
-died: { edtf: "1203", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala" }
+  completeness: 3
+born:
+  edtf: '1133'
+  calendar: gregorian
+  precision: year
+  derived: true
+  note: 'Date-enrichment pass; source: Siyar A''lam al-Nubala'
+died:
+  edtf: '1203'
+  calendar: gregorian
+  precision: year
+  derived: true
+  note: 'Date-enrichment pass; source: Siyar A''lam al-Nubala'
 relations:
-  - { type: born_in, target: place/damascus, note: "Wikidata Q3766 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
-  - { type: died_in, target: place/damascus, note: "Wikidata Q3766 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+- type: born_in
+  target: place/damascus
+  note: Wikidata Q3766 (P19); corroboration recommended.
+  sources:
+  - source/wikidata
+  confidence: medium
+- type: died_in
+  target: place/damascus
+  note: Wikidata Q3766 (P20); corroboration recommended.
+  sources:
+  - source/wikidata
+  confidence: medium

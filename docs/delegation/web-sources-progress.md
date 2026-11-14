@@ -1072,3 +1072,9 @@ Wrote ar, en and ur prose for vila, th-nia, el-mahalla-el-kubra, ioannina, kirku
 ## 2026-11-14 (Lane B1 packet 13) - place prose, ten places
 
 - Written (ar, en, ur, draft): yozgat, i-znik, tulkarm, khoy, t-touan, kolkata, idlib, tokat, manisa, tomislavgrad (iDAI.gazetteer via gazetteer.dainst.org/doc/<id>.json, read 14 Nov 2026; the /place/<id> URL with Accept: application/json returns a 303 redirect, so curl needs the doc form). No Yaqut entry found in vols 1-2 (OCR searched by Arabic name); no Yaqut source added. Skipped: none. Note: idlib data file has GeoNames 169388, iDAI links 169389; the prose states iDAI's number and the data file is unchanged.
+
+## 2026-11-14 (Lane B2 packet alm11) - al-A'lam persons
+
+- Written (ar, en, ur, draft, source alam-zirikli-dar-al-ilm-2002): yahya-ibn-hassan-al-tinnisi (vol. 8 p. 133), sulayman-al-mahuzi (3 p. 120), nur-allah-al-shustari (8 p. 50), shah-waliullah-al-dahlawi (1 p. 148), al-qasim-ibn-asakir (5 p. 171), sahnun-ibn-said (3 p. 354), mokhtar-soussi (7 p. 29), muhammad-ibn-abd-al-wahid-al-mallahi (6 p. 179), muhammad-mayyara (5 p. 290). Short entries are written short; Imami persons labelled first.
+- Corrections: mayyara born 1590 (card 1591); mokhtar-soussi lived_in Sousse removed (entry: born at Ilgh in Sous); mallahi died_in Granada added; sahnun born_in Qayrawan added; nur-allah lived_in Lahore added.
+- Skipped (proposals for the founder): muhammad-ibn-abdallah-al-tamirtashi (card d. 1596; packet entry is Muhammad ibn Abdallah Al Khalifa d. 1876, a different person); zayn-al-abidin-work-14608 (card 658-713 with a Qazvin link and south-asia region; the packet entry is the fourth Imami imam, 38-94 AH, identity not established).
