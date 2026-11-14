@@ -3726,3 +3726,24 @@ Resume point: sharh-saheeh-al-bukhare episode 17 (branch from origin/main).
 | Loop stretches of repeated syllables | ep10 00:09:00-00:09:30, 00:15:30-00:16:00, 00:16:30-00:17:00, 00:18:00-00:18:30, 00:21:30-00:22:00, 00:25:30-00:26:00, 00:32:30-00:33:00, 00:41:00-00:41:30, 00:42:00-00:42:30, 00:43:30-00:44:00, 00:46:30-00:47:30, 00:49:00-00:49:30, 00:54:30-00:55:00, 00:56:30-00:57:30, 01:04:00-01:04:30, 01:06:30-01:07:00, 01:07:30-01:08:00, 01:09:30-01:10:00, 01:11:30-01:12:30 | Repeated-token loops | Loop check | Open |
 
 Resume point: sharh-saheeh-al-bukhare episode 11 (branch from origin/main).
+
+### sharh-saheeh-al-bukhare ep11 (14 Nov 2026)
+
+21 points written for episode 11 (ar, en, ur); 13 needs_source marks in each language file for this episode; 6 new `about` edges. Quran verses referenced only through passage links (31-14, 33-28, 33-29); none typed. Contested: His reading of the hadith on kindness forgotten by a wife, his saying that knowledge shows in uprightness, and his advice on gratitude to parents and the teacher are his own views; the sayings and reports he relates by sense carry no chain. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep11) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening praise, loop and opening prayer | ep11 00:00:00-00:02:00 | Greetings and prayer, loops | Clarity, Loop check | Open |
+| Stories of al-Hajjaj and others, remarks on killing and politics, loops | ep11 00:08:30-00:14:30 | Garbled, sweeping remarks on modern conflict | Voice rule / Clarity, Loop check | Open |
+| Stories about the table, Jesus and Mary, epidemics, innovations | ep11 00:15:30-00:21:00 | Too garbled to recover | Clarity, Loop check | Open |
+| Loops on the Fire and the number of its layers | ep11 00:22:00-00:24:30 | Loops, garbled | Clarity, Loop check | Open |
+| Garbled passages on paradise and parents, loops | ep11 00:27:30-00:34:00 | Garbled stories and repeated words | Clarity, Loop check | Open |
+| Remarks on war and resistance, loops | ep11 00:35:00-00:38:30 | A stretch dropped under the content-safety block | Content rule | Open |
+| Closing-style prayer after the first part | ep11 00:42:00-00:42:30 | Prayer | Clarity | Open |
+| Remedies for family quarrels, a late-comer story, loops | ep11 00:45:00-00:50:30 | Garbled, names unreliable | Clarity, Loop check | Open |
+| Asides on wealth and poverty | ep11 00:54:00-00:55:00 | Garbled | Clarity | Open |
+| Advice on wives, kinds of women, a woman's advice, loops | ep11 01:00:00-01:08:00 | Sweeping claims about women, garbled | Voice rule / Clarity, Loop check | Open |
+| Questions and answers on mothers-in-law, cameras and visits, loops | ep11 01:08:00-01:13:00 | Garbled | Clarity, Loop check | Open |
+| Break join, thanks and closing, trailing noise | ep11 01:14:30-01:15:00 | Greetings and closing remarks | Clarity | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 12 (branch from origin/main).
