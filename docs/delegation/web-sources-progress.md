@@ -1060,3 +1060,7 @@ Wrote ar, en and ur prose for vila, th-nia, el-mahalla-el-kubra, ioannina, kirku
 ## 2026-11-14 (Lane B1 packet 13) - place prose, ten places
 
 - Written (ar, en, ur, draft): yozgat, i-znik, tulkarm, khoy, t-touan, kolkata, idlib, tokat, manisa, tomislavgrad (iDAI.gazetteer via gazetteer.dainst.org/doc/<id>.json, read 14 Nov 2026; the /place/<id> URL with Accept: application/json returns a 303 redirect, so curl needs the doc form). No Yaqut entry found in vols 1-2 (OCR searched by Arabic name); no Yaqut source added. Skipped: none. Note: idlib data file has GeoNames 169388, iDAI links 169389; the prose states iDAI's number and the data file is unchanged.
+
+## 2026-11-14 (Lane B1 packet 16) - place prose, two places
+
+- Written (ar, en, ur, draft): al-rastan, irbid (iDAI.gazetteer via gazetteer.dainst.org/doc/<id>.json, read 14 Nov 2026). No Pleiades id in the packet; iDAI cross-link ids are mentioned only as links. No Yaqut entry for either in vols 1-2 (al-Rastan appears only as a river name inside another entry); no Yaqut source added. Skipped: none.
