@@ -4488,3 +4488,19 @@ Resume point: sharh-saheeh-al-bukhare episode 38 (branch from origin/main).
 | Loops and garbled stretches (Paradise garden wording, descent, Joseph and the stages) | ep27 00:11:30-00:13:00, 00:23:30, 00:33:30, 00:38:00, 01:09:00-01:11:00 | Loops and garbled stretches | Clarity, Loop check | Open |
 
 Resume point: alwaad-alhaq episode 28 (branch from origin/main).
+
+### alwaad-alhaq ep28 (14 Nov 2026)
+
+22 points written for episode 28 (ar, en, ur); 18 needs_source marks for this episode in each language file; links added to the Flood, the Trench, Thamud, Aad, the false claimants, the Ridda wars, Abu Lahab and the other figures of the episode. Quran verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
+
+| Excluded (alwaad-alhaq ep28) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Remark on a named political group and its members | ep28 00:15:30-00:16:00 | Garbled and politically sensitive; the claim cannot be confirmed from the audio | Clarity, Voice rule | Open |
+| Exchange on Abu Talib and the hadith of the three who came to the gathering | ep28 00:34:30-00:36:00 | Garbled; speakers and claim contradict | Clarity | Open |
+| Anecdotes on China's one-child policy and wolves and deer in Bavaria | ep28 00:56:30-00:57:30 | Unsourced statistics and tangents | Citation, Clarity | Open |
+| Claimed number of occurrences of the promise in the Qur'an | ep28 00:59:30 | Garbled figure with no source | Citation | Open |
+| Anecdote of a claimant to prophethood before Harun al-Rashid and of Shiqq and Satih | ep28 01:01:00-01:02:00 and 01:09:00-01:10:00 | Garbled and contradictory names | Clarity | Open |
+| Stock exchange and finance remarks on Qarun | ep28 01:22:00-01:22:30 | Garbled; sweeping generalisations | Clarity, Voice rule | Open |
+| Loops and garbled stretches (Cain's story, Pharaoh's deification, Aad and Lot details) | ep28 00:19:30, 00:28:00, 00:31:30-00:32:00, 00:53:00-00:54:30, 01:00:00, 01:17:30 | Repeated loops and unreadable text | Loop check | Open |
+
+Resume point: alwaad-alhaq episode 29 (branch from origin/main).
