@@ -1,0 +1,11 @@
+---
+id: event/al-hadi-to-abu-al-qasim-patience-the-forefathers-and-counsel-290
+lang: en
+source_lang: ar
+translators: ["Claude Sonnet 5.5 (claude-sonnet-5-5), draft translation"]
+---
+## Overview
+"When the brothers gather round me and I do not see Muhammad the bounteous", the poet's joy is small and his life is not at ease, though he is, by his own words, firm, hardened and patient in the blows of time and not given to cry out, "but I cast all my affair, in trust, upon the Creator of the rock" {cite:sira-hadi-ila-al-haqq p.299}.
+
+## Detail
+He says he would ransom his son with his own life and wishes him a long life, that were he near he would defend him against the oath-breakers with sword and spear, that his forefathers are an example, that the righteous among them met slaying and hardship at al-Taff, and that God put off their victory as a store kept for them {cite:sira-hadi-ila-al-haqq p.299}. The last lines of p. 299 and the first of p. 300 then picture a scene of the Resurrection in which the Prophet addresses the killers of the sons of the Pure Ones and describe the punishment awaiting them in the poet's own words; the museum does not repeat these words and does not judge the threat made to named opponents, which is the poet's in a Zaydi book {cite:sira-hadi-ila-al-haqq p.300}. He then counsels his son to godfearing, religion and guidance and to preferring God's command in secret and in the open, not to bow to time and to keep to patience, and prays for him God's peace, an easy life and blessings; the two footnotes give readings of manuscript S, "from him" and "since" {cite:sira-hadi-ila-al-haqq p.300}. "Muhammad" in the verses is probably the son's own name, since Abu al-Qasim is a kunya, but the text does not say so and the museum draws no link from it. A second poem, to [[event/al-hadi-to-his-cousins-of-the-prophets-family-on-wakefulness-and-their-division-292|his cousins of the family of the Messenger]], follows, and [[event/al-hadi-writes-verses-to-his-imprisoned-son-abu-al-qasim-and-praises-him-290|the verses in praise of the son]] come before. The account is in a Zaydi book in the voice of the imam's followers; its descriptions and its judgments on opponents are the narrator's or the poet's, and the museum adopts none of them and gives no verdict.
