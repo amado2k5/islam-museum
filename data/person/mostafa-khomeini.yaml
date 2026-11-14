@@ -16,9 +16,10 @@ died: { edtf: "1977", precision: year, status: tradition, derived: true }
 relations:
   - { type: born_in, target: place/qumm, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q170573)" }
   - { type: died_in, target: place/najaf, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q168193)" }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q5960285
+  viaf: "6218645"
 provenance:
   layer: own-research
   source: "Wikidata candidate; entry not yet read on the page in a book source"

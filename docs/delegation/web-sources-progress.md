@@ -949,3 +949,7 @@ Nothing is registered this turn. Each registration needs the three-part commit i
 ## 2026-11-14 (p66, Lane B worker B1) — VIAF batch 4: 1,100 persons linked
 
 - Approval: dec-20261114-277. Same rule as p65, from the saved scan; validate passes with 0 errors, so the batch is larger than 25. About 970 single-statement matches remain.
+
+## 2026-11-14 (p67, Lane B worker B1) — VIAF batch 5: the rest of the saved scan
+
+- Approval: dec-20261114-277. Linked every remaining person from the scan of p65 (single P214 statement, number not already on another record). Persons with several or no P214 statements (3,650 of the 6,020) are not touched.

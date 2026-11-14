@@ -11,11 +11,12 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 relations:
   - { type: lived_in, target: place/ottoman-empire, confidence: low, note: "Ottoman-era figure of the Anatolia-Balkans world (regions: anatolia-balkans); no specific city attested in consulted sources.", sources: [source/al-aalam] }
 external_ids:
   wikidata: Q113775557
+  viaf: "261820494"
 provenance:
   layer: own-research
   source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"

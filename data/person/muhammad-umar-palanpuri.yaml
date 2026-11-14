@@ -15,9 +15,10 @@ died: { edtf: "1997", precision: year, status: tradition, derived: true }
 relations:
   - { type: born_in, target: place/palanpur, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q949907)" }
   - { type: died_in, target: place/new-delhi, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q987)" }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: "Q124352789"
+  viaf: "48533823"
 provenance:
   layer: own-research
   source: "Wikidata candidate; entry not yet read on the page in a book source"

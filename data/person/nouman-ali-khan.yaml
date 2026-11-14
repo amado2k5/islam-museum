@@ -23,11 +23,11 @@ faith:
     basis: unknown
     note: "The English Wikipedia article gives his religion as Islam only, and Wikidata records only 'Islam'. The Arabic Wikipedia article states no school in its text or infobox. Not recorded as sunni until a second source confirms a school."
     sources: [source/wikipedia-nouman-ali-khan-en, source/wikipedia-nouman-ali-khan-ar, source/wikidata-nouman-ali-khan]
-external_ids: { wikidata: "Q16212126" }
+external_ids: { wikidata: "Q16212126", viaf: "16150565512206250310" }
 relations:
   - { type: born_in, target: place/east-berlin, sources: [source/wikidata-nouman-ali-khan], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q56037)" }
   - { type: lived_in, target: place/dallas, sources: [source/wikidata-nouman-ali-khan], confidence: low, note: "Wikidata P937 work location (Wikidata Q16557)" }
-sources: [source/wikipedia-nouman-ali-khan-en, source/wikipedia-nouman-ali-khan-ar, source/wikidata-nouman-ali-khan]
+sources: [source/wikipedia-nouman-ali-khan-en, source/wikipedia-nouman-ali-khan-ar, source/wikidata-nouman-ali-khan, source/wikidata]
 provenance:
   layer: own-research
   source: "English Wikipedia (revision of 28 Sep 2026) and Arabic Wikipedia (revision of 30 May 2026), Wikidata Q16212126, as cited in those articles and checked on 24 Oct 2026. The founder's harvest §3 names him repeatedly under variants (the §3 #30 cluster); one record covers all of them."

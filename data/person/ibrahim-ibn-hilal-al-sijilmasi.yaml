@@ -15,9 +15,10 @@ born: { edtf: "1414", precision: year, status: tradition, derived: true }
 died: { edtf: "1498", precision: year, status: tradition, derived: true }
 relations:
   - { type: lived_in, target: place/lamta-maghreb, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/al-aalam] }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q12181730
+  viaf: "90058018"
 provenance:
   layer: own-research
   source: "Wikidata candidate; entry not yet read on the page in a book source"

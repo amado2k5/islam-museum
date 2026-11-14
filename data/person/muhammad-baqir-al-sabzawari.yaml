@@ -18,9 +18,10 @@ relations:
   - { type: died_in, target: place/isfahan, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q42053)" }
   - { type: buried_in, target: place/mashhad, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q121157)" }
   - { type: buried_in, target: place/imam-reza-shrine, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q1791841)" }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q5727594
+  viaf: "63854530"
 provenance:
   layer: own-research
   source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"

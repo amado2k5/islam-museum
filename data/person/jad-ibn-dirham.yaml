@@ -9,6 +9,6 @@ died: { edtf: "742", calendar: gregorian, precision: year, derived: true, note: 
 relations:
   - { type: born_in, target: place/khorasan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/kufa, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-external_ids: { wikidata: "Q11917497" }
-sources: [source/fihrist-ibn-al-nadim]
+external_ids: { wikidata: "Q11917497", viaf: "68562654" }
+sources: [source/fihrist-ibn-al-nadim, source/wikidata]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

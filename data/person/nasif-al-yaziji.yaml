@@ -15,9 +15,10 @@ died: { edtf: "1871", precision: year, status: tradition, derived: true }
 relations:
   - { type: born_in, target: place/kfarshima, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q3055952)" }
   - { type: died_in, target: place/bayrut, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q3820)" }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q4166020
+  viaf: "90060796"
 provenance:
   layer: own-research
   source: "Wikidata candidate; entry not yet read on the page in a book source"

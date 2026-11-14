@@ -9,14 +9,14 @@ wings: [people]
 died: { edtf: "723", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 / Wafayat al-A'yan Confirmed on 13 November 2026 against Wikidata Q6448423 (P570, a statement with a reference), item revision 2566394494.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/medina, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-external_ids: { wikidata: "Q6448423" }
+external_ids: { wikidata: "Q6448423", viaf: "41713424" }
 provenance:
   layer: own-research
   source: "مروج الذهب للمسعودي (ط الدار الإفريقية/دار التحرير) ج2 ص 377"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch44
-sources: [source/muruj-al-dhahab, source/umayyad-birth-to-fall-2006]
+sources: [source/muruj-al-dhahab, source/umayyad-birth-to-fall-2006, source/wikidata]
 status:
   review: published
   completeness: 3

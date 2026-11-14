@@ -16,9 +16,10 @@ died: { edtf: "2005", calendar: gregorian, precision: year, derived: true, note:
 relations:
   - { type: born_in, target: place/erzurum, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q122803)" }
   - { type: died_in, target: place/istanbul, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q406)" }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q6100040
+  viaf: "54049243"
 provenance:
   layer: own-research
   source: "Wikidata candidate; entry not yet read on the page in a book source"

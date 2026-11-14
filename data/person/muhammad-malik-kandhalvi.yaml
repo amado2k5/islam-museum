@@ -14,9 +14,10 @@ periods: [period/modern-era]
 died: { edtf: "1989", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kandhalvi Family Bio / Wifaqul Madaris" }
 relations:
   - { type: born_in, target: place/kandhla, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q2309869)" }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q115194652
+  viaf: "48925530"
 provenance:
   layer: own-research
   source: "Wikidata candidate; entry not yet read on the page in a book source"
