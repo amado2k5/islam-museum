@@ -16554,7 +16554,8 @@ books:
     ocr_archive: {path: ocr-archive/tareekh/futuh-buldan.zip, bytes: 4041655, sha256: e6663d19fbd55a80a2c9f3b11c485752f80645b3e9e35a2cb809dadeb51a03be, pages_covered: 768, zipped: '2026-11-14', state: verified, note: 'unzip -t passed; text of all four scans (pages.json 768, 784, 784, 695 pages; book.txt, early.txt, mid1/mid2) and no images or PDFs; mined edition 20230703_20230703_1444 has 768 page entries, 755 with text, the rest blank pages'}
     mining: {state: mined, ranges_mined: ['printed 1-665 (of a 768-page scan; end of text)'], skipped_pages: ['666-768: the printed index of places and names; no new facts, nothing to mine (wrap-up 14 Nov 2026)'], entities: 1573 data files cite source/futuh-buldan-maarif-1407}
     ingestion: {state: ingested, prs: [2654, 3540], ledger: [docs/delegation/library/futuh-buldan.md, docs/delegation/lane-ledgers/microsd-books.md], graph_ids: [source/futuh-buldan-maarif-1407, work/futuh-buldan]}
-    completion: complete
+    completion: deleted
+    deletion: {date: '2026-11-14', deleted: ['raw/library/tareekh/futuh-buldan/ (four PDFs)', 'books/tareekh/futuh-buldan/ (PDF copy, page images, OCR text, scripts, logs)'], bytes_freed: 810710973, kept: [ocr_archive], restore: {url: 'https://archive.org/details/20230703_20230703_1444', sha256: 5571572624fe09935f563b3b5ccbf4b31ad577cc2724bd584be117d07fb83a00, note: 'other three scans: archive.org items AAlexandrina-011858, AAlexandrina-129953, FutuhAlBoldan; hashes in files'}}
     unverified:
     - edition
     - mining.ranges_mined
