@@ -30,6 +30,9 @@ open a new block on top with the new version and today's date.
 ### Tests
 - The detector's rules are tested one by one (`scripts/tibb.test.ts`), and the founder's original request is kept with a production check-list in `docs/engineering/47-tibb-browser-requirements.md`.
 ## v1.29.1 — 2026-11-14
+### Added
+- **Du'a by occasion: comprehensive supplications.** The division of al-Adhkar on supplications for all times is open with one record: what al-Nawawi gathers on the merit of supplication and the short, all-embracing wordings from Sahih Muslim and the two Sahihs, each with its page.
+
 ### Changed
 - **The museum's block on terrorist-organisation content now covers the full official designation lists.** The screening patterns behind the build's extremism check were compared, name by name, with the terrorist-organisation lists published by the European Union, the United States (State Department and Treasury), Canada, the United Nations Security Council, the United Kingdom, Australia and New Zealand, and every Islam-linked organisation on those lists that the check did not already catch is now caught — among them JNIM, the Abdallah Azzam Brigades, Al-Murabitoun, the Caucasus Emirate, Egyptian Islamic Jihad, the Islamic Movement of Uzbekistan, Lashkar-e-Jhangvi and Hizbul Mujahideen, together with spelling variants that previously slipped through (GIA and the Gama'a al-Islamiyya, long named in the rule, are now actually matched). Nothing already in the museum was removed or changed: the collection is the golden reference, and the handful of designated names whose patterns would also catch records the founder has kept are documented in the content-safety rule for his decision.
 
