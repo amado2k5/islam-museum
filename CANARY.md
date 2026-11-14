@@ -58,6 +58,7 @@ open a new block on top with the new version and today's date.
 - **Thirteen place pages gain a Pleiades section in Arabic, English and Urdu.** Each states the title and number Pleiades gives the place, how it classes it, the span of years over which it records activity and the names it holds, with a citation to the Pleiades record (decision dec-20261114-277).
 ### Data
 - **Three more Siyar A'lam al-Nubala' biographies in Arabic, English and Urdu, cited to the page:** Alqama ibn Marthad (re-read from the page image with Apple Vision after the text scan mixed him with another Alqama), Musa ibn Ulayy al-Lakhmi (governor of Egypt and reliable transmitter) and the poet-prince Muqatil ibn Atiyya, whose card wrongly placed him in the Buyid era and Iraq (now Herat, from the book).
+- **VIAF identifiers added to one hundred more persons.** Each number comes from the single VIAF statement on the person's Wikidata item, so the link to the library authority record rests on the Wikidata identity our record already carries (decision dec-20261114-277).
 
 ## v1.30.0 — 2026-11-14
 ### Added

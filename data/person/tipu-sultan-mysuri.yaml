@@ -18,9 +18,10 @@ died: { edtf: "1799", calendar: gregorian, precision: year, derived: true, note:
 relations:
   - { type: born_in, target: place/devanahalli, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q2087756)" }
   - { type: lived_in, target: place/karnataka, sources: [source/wikidata], confidence: low, note: "Wikidata P551 residence (Wikidata Q1185)" }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q10088
+  viaf: "7368495"
 provenance:
   layer: own-research
   source: "Wikidata Q10088 (religion claim Islam); book source: Tarikh al-Islam (Hasan Ibrahim) — entry not yet read on the page"
