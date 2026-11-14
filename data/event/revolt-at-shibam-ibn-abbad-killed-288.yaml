@@ -1,0 +1,57 @@
+id: event/revolt-at-shibam-ibn-abbad-killed-288
+class: event
+kind: revolt
+label:
+  ar: ثورة المخالفين بشبام ومقتل ابن عباد سنة 288هـ
+  en: The opponents' rising at Shibam and the killing of Ibn Abbad, 288 AH
+  ur: شبام میں مخالفین کا خروج اور ابن عباد کا قتل، 288ھ
+summary:
+  ar: خرج على الهادي رجل من ولد أبي الخير بن يعفر وصعصعة بن جعفر وحالفاه قرب بيت ذخار، فدخل المخالفون شبام وقتلوا ابن عباد في جمادى الآخرة سنة 288هـ، ثم نزل الهادي فطردهم ودفن ابن عباد.
+  en: A man of the line of Abu al-Khayr ibn Ya'fur and Sa'sa'a ibn Ja'far allied against al-Hadi near Bayt Dhukhar; the opponents entered Shibam and killed Ibn Abbad in Jumada II 288 AH, and al-Hadi came down, drove them off and buried him.
+  ur: ابو الخیر بن یعفر کی نسل کے ایک شخص اور صعصعہ بن جعفر نے بیت ذخار کے قریب ہادی کے خلاف عہد باندھا؛ مخالفین شبام میں داخل ہوئے اور جمادی الآخرہ 288ھ میں ابن عباد کو قتل کیا، پھر ہادی اترے، انہیں بھگایا اور ابن عباد کو دفن کیا۔
+wings:
+- time
+themes:
+- civil-wars-and-revolts
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: 0901-05~
+    hijri: 0288-06
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: في جمادى الآخرة سنة 288هـ بنص الكتاب؛ التحويل مشتق من التقويم الجدولي
+    sources: &id001
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/bayt-dhukhar
+  note: صعده الهادي، وجرى القتل بشبام
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources: *id001
+- type: had_participant
+  target: person/muhammad-ibn-abbad-al-tamimi
+  role: نائب الهادي بشبام وقتيل الحدث
+  sources: *id001
+- type: had_participant
+  target: person/sasaa-ibn-jafar-al-hamdani
+  role: من المخالفين
+  sources: *id001
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص17-20 (الصفحة المطبوعة)'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-2
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 17-20

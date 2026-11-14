@@ -1,0 +1,57 @@
+id: event/al-hadi-entry-into-sanaa-288
+class: event
+kind: other
+label:
+  ar: دخول الهادي إلى الحق صنعاء سنة 288هـ
+  en: Al-Hadi's entry into Sana'a, 288 AH
+  ur: ہادی الی الحق کا صنعاء میں داخلہ، 288ھ
+summary:
+  ar: دخل الهادي صنعاء ليلة الجمعة لإحدى وعشرين ليلة خلت من المحرم سنة 288هـ، فخطب له بالإمامة على المنابر، وكتب اسمه على النقد والطراز، وولى المخاليف والجباية والقضاء.
+  en: Al-Hadi entered Sana'a on the night of Friday, 21 Muharram 288 AH; the address from the pulpits was given in his name as imam, his name was put on coinage and tiraz, and he appointed governors of the districts, tax collection and a judge.
+  ur: ہادی 288ھ میں جمعہ کی رات، 21 محرم کو صنعاء میں داخل ہوئے؛ منبروں پر ان کے نام کا امامت کا خطبہ پڑھا گیا، سکے اور طراز پر ان کا نام لکھا گیا، اور انہوں نے مخالیف، وصولی اور قضا کے لیے تقرریاں کیں۔
+wings:
+- time
+themes:
+- wars-and-campaigns
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: '0901-01-15'
+    hijri: '0288-01-21'
+    calendar: julian
+    precision: day
+    status: tradition
+    derived: true
+    note: ليلة الجمعة لإحدى وعشرين ليلة خلت من المحرم سنة 288هـ بنص الكتاب؛ التحويل مشتق من التقويم الجدولي
+    sources: &id001
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/sanaa
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  role: الإمام الداخل إلى صنعاء
+  sources: *id001
+- type: had_participant
+  target: person/abu-al-atahiya-ibn-bishr
+  role: صاحب أمر صنعاء الذي استدعاه وبايع له
+  sources: *id001
+- type: had_participant
+  target: person/muhammad-ibn-ahmad-ibn-zurayq-al-asam
+  role: القاضي الذي ولاه
+  sources: *id001
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص17-20 (الصفحة المطبوعة)'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-2
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 17-20
