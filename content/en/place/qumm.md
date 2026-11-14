@@ -14,3 +14,6 @@ Al-Muqaddasi relates, around the year 375 AH, that the people of Qumm were extre
 Golius's edition of al-Farghani, citing Hamdallah through Ibn Hawqal, says that seven villages once stood on the site of the city and together served as its body. In AH 83, after Abd al-Rahman ibn Muhammad ibn al-Ash'ath was driven into flight by al-Hajjaj ibn Yusuf, his companion Abd Allah ibn Sa'd came to the place with troops. {cite:farghani-elements-astronomy p. 462}
 
 Hamdallah also notes a river that reaches the city and serves for irrigation, and that water is mostly drawn from wells, from which the gardens round the city are watered. {cite:farghani-elements-astronomy p. 463}
+
+## In the iDAI.gazetteer
+The iDAI.gazetteer lists this place under no. 2368556 with the preferred name «Qum», classed as populated place; its parent in the hierarchy is «Qom (Ostan)», classed as administrative unit. Recorded names include «Qom» and «Kum». {cite:idai-gazetteer 2368556}
