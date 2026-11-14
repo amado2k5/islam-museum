@@ -2790,3 +2790,25 @@ Resume point: modakirate-iblis episode 26 (branch from origin/main).
 | Loops and garbled stretches (a repeat of the break trailer, a stretch of repeated words before the self-letter, the end of the self-letter section) | ep26 00:12:30-00:13:00, 00:21:30-00:22:30 | Not recoverable | Clarity, Loop check | Open |
 
 Resume point: modakirate-iblis episode 27 (branch from origin/main).
+
+### modakirate-iblis ep27 (14 Nov 2026)
+
+11 points written for episode 27 (ar, en, ur); 5 needs_source marks in each language file for this episode; 5 new `about` edges. Quran verses referenced only through passage links (3-165, 9-25, 3-125, 17-16, 34-34); none typed.
+
+| Excluded (modakirate-iblis ep27) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greetings, the break and its trailer (an advertisement for a programme describing Paradise), and the closing prayer and outro chant | ep27 00:00:00, 00:08:30-00:10:30, 00:22:00-00:22:30 | Not lesson content | Content rule | Open |
+| A remark naming a state and its readers in the reading statistics, and a loop and garbled stretches (the stretch before the Ibn Khaldun claim, the stretch on kitchens and fashion houses) | ep27 00:15:30 (part), 00:11:30 (part), 00:16:30-00:17:30 (part) | Unsourced comparison on a named state and not recoverable stretches; held for the founder to decide | Content rule, Clarity, Loop check | Open |
+
+Resume point: modakirate-iblis episode 28 (branch from origin/main).
+
+### modakirate-iblis ep28 (14 Nov 2026)
+
+12 points written for episode 28 (ar, en, ur); 4 needs_source marks in each language file for this episode; 5 new `about` edges. Quran verses referenced only through passage links (21-58, 21-59, 21-63, 2-127, 14-37, 37-102, 2-144, 2-149, 2-150, 89-27, 89-28, 12-53, 10-87); none typed. Contested: the lecturer's views on fatwas by satellite channels and on state-approved committees are labelled as his; sensitivity stays contested.
+
+| Excluded (modakirate-iblis ep28) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greetings, the break and its trailer (advertisements for a Ramadan question programme with its sponsors), and the closing prayer | ep28 00:00:00, 00:11:00-00:13:00, 00:24:30-00:25:00 | Not lesson content | Content rule | Open |
+| Loops, garbled stretches and side remarks (a remark on the viewers of the channel, a story of a boy and a football match, a stretch on prescriptions about a monthly cycle, a stretch on healing treatments) | ep28 00:06:00-00:07:00 (part), 00:07:30-00:09:00 (part), 00:16:30-00:17:30 (part), 00:21:00-00:22:30 (part), 00:23:00 | Not recoverable or off the lesson | Clarity, Loop check | Open |
+
+Resume point: modakirate-iblis episode 29 (branch from origin/main).
