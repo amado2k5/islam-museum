@@ -989,6 +989,10 @@ Wrote ar, en and ur prose for vila, th-nia, el-mahalla-el-kubra, ioannina, kirku
 - Corrections: Amir died after 120 AH (card said 736 CE); Ibn Kharrash d. 242 AH, period changed from Buyid-Seljuk to Abbasid-early (Wikidata Q138350908 also gives 856); Ash'ab's birth 684 removed (not in the book).
 - Skipped (identity): abu-bakr-ibn-muhammad-adal (entry 1233 is Abu Bakr ibn Tarkhan al-Salihi d. 679 AH, not the Sultan of Adal); abd-allah-ibn-yusuf (card is the Medinan-Tinnisi Muwatta narrator d. 218 AH per Wikidata; entry 3471 is al-Jurjani d. 148 AH); mohamed-ben-youssef (card is the Tunisian scholar 1848-1939 per Wikidata; entry 5997 is Muhammad ibn Yusuf al-Harawi).
 
+## 2026-11-14 (Lane B1 packet 3) — ten place pages
+
+- Written (ar, en, ur, draft): ardestan (Yaqut vol. 1 p. 184, Istakhri passage and scholars, plus iDAI), bolnisi and peshawar (Pleiades only; no iDAI id), kayseri, surabaya, najafabad, budapest, mytilene, bal-kesir, stuttgart (iDAI only).
+- No Yaqut entry found in volumes 1-2 for the others (Kayseri: the Qaysariyya hits are other places). Note: Stuttgart's iDAI record links GeoNames 2825297, while the data file holds 6690189; not changed. Pleiades JSON endpoint was read via the local CSV dump (same revision fields).
 ## 2026-11-14 (Lane B1 packet 4) - place prose, ten places
 
 - Written (ar, en, ur, draft): nicomedia, thermopylae, itea, doucen (Pleiades), washington-dc, birmingham, famagusta, detroit, samalut, los-angeles (iDAI.gazetteer). Yaqut Mu'jam al-buldan vols 1-2 OCR searched for each Arabic name: no entry found, so no Yaqut citation. Nothing skipped.
