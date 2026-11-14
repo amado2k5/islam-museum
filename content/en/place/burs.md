@@ -9,3 +9,6 @@ Burs: a place on the road to al-Mada'in. al-Baladhuri reports that Khalid ibn Ar
 
 ## In the Pleiades gazetteer
 Pleiades, the open gazetteer of ancient places, lists this place under the title «Borsippa/Burs» (Pleiades no. 893964), classed as a settlement and an archaeological site, with activity attested from 2335 BCE to 2100 CE. Names recorded there include Borsippa, Burs, Borsippa. {cite:pleiades 893964}
+
+## In Yaqut's Mu'jam al-Buldan
+Yaqut gives Burs, with a damma on the first letter, as a place in the land of Babil with remains of Nebuchadnezzar and an extremely high mound called the Sarh of al-Burs. {cite:mujam-al-buldan-sader-1995 1 p.384} He names Abd Allah ibn al-Hasan al-Barsi as a man of the place, one of the eminent and distinguished secretaries, who held the diwan of Badurya in the days of al-Mu'tadid and lived into the early days of al-Muqtadir. {cite:mujam-al-buldan-sader-1995 1 p.384}
