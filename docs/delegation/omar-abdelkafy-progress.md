@@ -2685,3 +2685,15 @@ Resume point: modakirate-iblis episode 17 (branch from origin/main).
 | Lament over the loss of Jerusalem, Andalusia, Iraq and the Levant and the Muslim world's dependence | ep17 00:18:30-00:19:30 | Modern political aside outside the lesson; held for the founder to decide | Content rule | Open |
 
 Resume point: modakirate-iblis episode 18 (branch from origin/main).
+
+### modakirate-iblis ep18 (14 Nov 2026)
+
+13 points written for episode 18 (ar, en, ur); 7 needs_source marks in each language file for this episode; 7 new `about` edges. Quran verses referenced only through passage links (61-4, 12-76); none typed. Topics on Jerusalem, women's inheritance and imitation of the West are the lecturer's own views, labelled as his, and sensitivity stays contested.
+
+| Excluded (modakirate-iblis ep18) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greetings, the break (including a read-out of a hadith on fasting that is part of the break, not the lesson), and the closing prayer | ep18 00:00:00, 00:11:30-00:13:00, 00:24:00 | Not lesson content | Content rule | Open |
+| Loops and garbled stretches (scouting and the Salim story, a stretch on women's matters, a stretch on ships) | ep18 00:04:30-00:05:00, 00:17:00-00:18:00 | Not recoverable | Clarity, Loop check | Open |
+| A political remark on the people holding Jerusalem since 1948 | ep18 00:01:30-00:02:00 (part) | Modern conflict aside; the lesson point on supplication and means is kept without it, held for the founder to decide | Content rule | Open |
+
+Resume point: modakirate-iblis episode 19 (branch from origin/main).
