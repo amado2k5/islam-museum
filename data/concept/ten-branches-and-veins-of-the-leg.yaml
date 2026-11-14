@@ -1,0 +1,18 @@
+id: concept/ten-branches-and-veins-of-the-leg
+class: concept
+kind: scientific
+label: { ar: "الفروع العشرة وأوردة الرجل عند ابن سينا", en: "The ten branches and the veins of the leg in the Canon", ur: "قانون میں دس شاخیں اور ٹانگ کی رگیں" }
+summary:
+  ar: "يعد ابن سينا من كل قسم من قسمي الأجوف النازل عشر شعب إلى الأرداف والعجز والرحم والمثانة والقبل والفخذ، ثم يتتبع ما يبقى إلى الركبة والساق والقدم حتى الصافن، ويختم تشريح الأعضاء المتشابهة الأجزاء {cite:canon-ibn-sina-print-v1 pp.92-93}."
+  en: "From each of the two parts of the descending hollow vein Ibn Sina counts ten branches to the buttocks, sacrum, womb, bladder, pudenda and thigh, then follows what remains through knee, shank and foot to the saphenous vein, and closes the anatomy of the organs of similar parts {cite:canon-ibn-sina-print-v1 pp.92-93}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/veins, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 1, on the veins and the faculties (scan pages 90 to 99), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-vessels-2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

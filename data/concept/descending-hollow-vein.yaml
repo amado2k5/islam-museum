@@ -1,0 +1,18 @@
+id: concept/descending-hollow-vein
+class: concept
+kind: scientific
+label: { ar: "الأجوف النازل عند ابن سينا", en: "The descending hollow vein in the Canon", ur: "قانون میں اترنے والا اجوف" }
+summary:
+  ar: "في الفصل الخامس ينتقل ابن سينا إلى الجزء النازل من الأجوف، فيذكر شعبه إلى الكليتين والطالعين والأنثيين والصلب، ثم انقسامه عند آخر الفقار إلى قسمين نحو الفخذين {cite:canon-ibn-sina-print-v1 p.92}."
+  en: "In the fifth chapter Ibn Sina turns to the descending part of the hollow vein and names its branches to the kidneys, the two renal veins, the testicles and the spine, then its division at the end of the vertebrae into two parts toward the thighs {cite:canon-ibn-sina-print-v1 p.92}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/veins, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 1, on the veins and the faculties (scan pages 90 to 99), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-vessels-2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }
