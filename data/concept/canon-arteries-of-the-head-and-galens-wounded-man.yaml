@@ -1,0 +1,19 @@
+id: concept/canon-arteries-of-the-head-and-galens-wounded-man
+class: concept
+kind: scientific
+label: { ar: "شرايين الرأس وقصة المجروح في الحلق عند ابن سينا", en: "The arteries of the head and the man wounded in the throat in the Canon", ur: "قانون میں سر کی شریانیں اور گلے کے زخمی کا قصہ" }
+summary:
+  ar: "يذكر ابن سينا شريان الصدغ والشريانين خلف الأذنين وما يفعل بها من الفصد والبتر والسل والكي، ثم يروي عن جالينوس حال مجروح في حلقه أصيب شريانه فاحتبس دمه بدواء {cite:canon-ibn-sina-print-v1 p.298}."
+  en: "Ibn Sina names the artery of the temple and the two arteries behind the ears and what is done to them, opening, cutting, drawing out and cautery, then relates from Galen the case of a man wounded in the throat whose artery was struck and whose blood was stopped with a medicine {cite:canon-ibn-sina-print-v1 p.298}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/medicine, sources: [source/canon-ibn-sina-print-v1] }
+  - { type: related_to, target: concept/al-fasd, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 4, chapter 20, on venesection (scan pages 289 to 299), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-fann4-ch20
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

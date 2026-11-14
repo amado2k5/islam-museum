@@ -1,0 +1,19 @@
+id: concept/canon-timing-and-precautionary-venesection
+class: concept
+kind: scientific
+label: { ar: "توقيت الفصد والفصد احتياطاً عند ابن سينا", en: "The timing of venesection and bleeding as a precaution in the Canon", ur: "قانون میں فصد کا وقت اور احتیاطاً فصد" }
+summary:
+  ar: "يبين ابن سينا أن الفصد قد يكون احتياطاً بعد ضربة أو سقطة أو عند ورم يخاف انفجاره قبل نضجه، وأن الفصد في أوائل الأمراض الواقعة يرقق الفضول ويجريها في البدن فيؤخر إلى ظهور النضج، ولا يفصد في يوم حركة المرض {cite:canon-ibn-sina-print-v1 p.290}."
+  en: "Ibn Sina explains that bleeding may be done as a precaution after a blow or a fall or when a swelling is feared to burst before it ripens, that bleeding in the early stage of a disease already fallen into thins the superfluities and runs them through the body so it is put off until ripening shows, and that no one is bled on the day the disease stirs {cite:canon-ibn-sina-print-v1 p.290}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/medicine, sources: [source/canon-ibn-sina-print-v1] }
+  - { type: related_to, target: concept/al-fasd, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 4, chapter 20, on venesection (scan pages 289 to 299), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-fann4-ch20
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

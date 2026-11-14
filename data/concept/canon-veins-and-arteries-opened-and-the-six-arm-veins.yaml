@@ -1,0 +1,19 @@
+id: concept/canon-veins-and-arteries-opened-and-the-six-arm-veins
+class: concept
+kind: scientific
+label: { ar: "العروق المفصودة وأوردة اليد الستة عند ابن سينا", en: "The vessels that are opened and the six veins of the arm in the Canon", ur: "قانون میں کھولی جانے والی رگیں اور بازو کی چھ رگیں" }
+summary:
+  ar: "يبين ابن سينا أن العروق المفصودة بعضها أوردة وبعضها شرايين، وأن الشرايين تفصد في الأقل لخطر النزف، ثم يعد أوردة اليد الستة ويذكر موضع فتحها فوق المأبض {cite:canon-ibn-sina-print-v1 p.294}."
+  en: "Ibn Sina explains that the vessels that are opened are some veins and some arteries, that arteries are opened least because of the danger of haemorrhage, then names the six veins of the arm and where they are opened, above the elbow {cite:canon-ibn-sina-print-v1 p.294}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/medicine, sources: [source/canon-ibn-sina-print-v1] }
+  - { type: related_to, target: concept/al-fasd, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 4, chapter 20, on venesection (scan pages 289 to 299), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-fann4-ch20
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }
