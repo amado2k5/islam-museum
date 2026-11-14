@@ -9,3 +9,6 @@ Istakhr is the great city of Fars. According to al-Baladhuri, Abu Musa tried to 
 
 ## A building near the city
 Al-Mas'udi reports that about a farsakh from it there is a great building that people know as the Mosque of Solomon. It was a fire temple, which Humayya the daughter of Bahman removed, and it fell into ruin when the fire was moved from it. He says he entered it and saw columns of stone and images that they claim are the images of the prophets, and that the wind never rests in it, night or day. {cite:muruj-al-dhahab p.550}
+
+## In the Pleiades gazetteer
+Pleiades, the open gazetteer of ancient places, lists this place under the title «(I)Stakhr» (Pleiades no. 922662), classed as a settlement, with activity attested from 30 BCE to 1599 CE. Names recorded there include Istakhr, Stakhr, اصطخر. {cite:pleiades 922662}

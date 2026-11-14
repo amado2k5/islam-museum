@@ -9,3 +9,6 @@ Al-Aqsa Mosque in Jerusalem, which the book counts the Prophet's night-journey d
 
 ## From Sheikh Omar Abdelkafy's Tafsir lectures (episode 2)
 The Sheikh holds that the cause of al-Aqsa Mosque unites all Muslims, that any other cause rises and then falls, and that al-Aqsa remains with the Muslims a point that gathers people {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:25:00}. He cites a hadith that trials, among the signs of the Hour, come one after another, softening one another, so that a trial arrives and the servant says it is his undoing, then it passes and the next follows (needs_source) {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:25:00}.
+
+## In the Pleiades gazetteer
+Pleiades, the open gazetteer of ancient places, lists this place under the title «Al-Aqsa Mosque» (Pleiades no. 195824089), classed as a mosque, with activity attested from 661 CE to 2099 CE. Names recorded there include Beyt-i Maḳdis,Beyt-i Maqdis, Mescid-i Aksa Camii, Al-Aqsa Mosque. {cite:pleiades 195824089}
