@@ -3,24 +3,24 @@ class: person
 label:
   ar: "أبو بكر السمرقندي"
   en: "Abu Bakr al-Samarqandi"
-roles: [muhaddith]
+roles: [muhaddith, jurist]
 gender: male
 summary:
-  ar: "بطاقة أولية لأبي بكر السمرقندي، المحدث والفقيه من علماء القرن الثالث؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abu Bakr al-Samarqandi, the third-century hadith scholar and jurist; his entry is not yet checked on the page."
+  ar: "أبو بكر محمد بن اليمان السمرقندي، فقيه من أكابر الحنفية، توفي سنة 268 هـ؛ ترجمته في «الأعلام» للزركلي، والمطابقة مع هذه البطاقة راجحة لا قاطعة."
+  en: "Abu Bakr Muhammad ibn al-Yaman al-Samarqandi, a senior Hanafi jurist, d. 268 AH; his entry is in al-Zirikli's al-A'lam, and the match with this card is likely rather than certain."
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/abbasid-early]
-died: { edtf: "0882~", precision: year, status: tradition, derived: true }
-sources: [source/al-aalam]
+died: { edtf: "0881", calendar: gregorian, precision: year, derived: true, note: "al-Zirikli, al-A'lam, prints 268 AH = 881 CE.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q98691779
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Zirikli, al-A'lam, vol. 7 p. 147; entry read on 14 November 2026, original card from a Wikidata candidate"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
   completeness: 1
