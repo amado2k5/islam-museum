@@ -1,0 +1,54 @@
+id: event/arhab-takes-athafit-and-abu-umar-is-killed-285
+class: event
+kind: other
+label:
+  ar: أرحب وبنو سلمان يدخلون أثافت ومقتل أبي عمر عبد العزيز بن مروان، قبل شوال 285هـ
+  en: Arhab and Banu Salman enter Athafit and Abu Umar Abd al-Aziz ibn Marwan is killed, before Shawwal 285 AH
+  ur: ارحب اور بنو سلمان اثافت میں داخل اور ابو عمر عبد العزیز بن مروان کا قتل، شوال 285ھ سے پہلے
+summary:
+  ar: يذكر الكتاب أن أرحب وبني سلمان وصلوا أثافت وكان فيها قوم مداهنون قد عاملوهم على دخول القرية، فصاح أبو عمر، والي أثافت من قبل الهادي، بالناس فخرجت إليه جماعة يسيرة وخذله الباقون، فقتل، ودخل أرحب وبنو سلمان أثافت وأقاموا بها، وجاء الدعام فدخلها ليلة الجمعة.
+  en: The book says Arhab and Banu Salman reached Athafit where some people, temporisers, had dealt with them over entering the village; Abu Umar, al-Hadi's governor of Athafit, called the people out, a small group came and the rest let him down, and he was killed; Arhab and Banu Salman entered and stayed, and al-Da'am came in on the night of Friday.
+  ur: کتاب کہتی ہے کہ ارحب اور بنو سلمان اثافت پہنچے جہاں کچھ مداہنت کرنے والے لوگ گاؤں میں داخلے پر ان سے معاملہ کر چکے تھے؛ ہادی کے والیِ اثافت ابو عمر نے لوگوں کو پکارا، ایک چھوٹی جماعت نکلی اور باقیوں نے ساتھ چھوڑ دیا، اور وہ قتل کر دیے گئے؛ ارحب اور بنو سلمان داخل ہو کر ٹھہر گئے اور دعام جمعہ کی رات وہاں آیا۔
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+relations:
+- type: occurred_at
+  target: place/athafit
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abu-umar-abd-al-aziz-ibn-marwan-al-bahrani
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/arhab-ibn-al-daam
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/al-daam-ibn-ibrahim
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: related_to
+  target: event/arhab-and-banu-salman-attack-on-khiwan-285
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص99 ⁦(الصفحة المطبوعة)⁩'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-13
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 99

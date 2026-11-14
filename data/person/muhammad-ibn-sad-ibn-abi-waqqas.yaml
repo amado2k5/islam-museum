@@ -6,24 +6,24 @@ label:
 roles: [muhaddith]
 gender: male
 summary:
-  ar: "بطاقة أولية لمحمد بن سعد بن أبي وقاص، المحدث ابن فاتح العراق؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Muhammad ibn Sa'd ibn Abi Waqqas, the hadith scholar and son of the conqueror of Iraq; his entry is not yet checked on the page."
+  ar: "محمد بن سعد بن أبي وقاص، أبو القاسم القرشي الزهري المدني، الإمام الثقة عند الذهبي، قام على الحجاج مع ابن الأشعث فأسر يوم دير الجماجم فقتله الحجاج سنة ٨٢هـ."
+  en: "Muhammad ibn Sa'd ibn Abi Waqqas, Abu al-Qasim al-Qurashi al-Zuhri of Medina, called the reliable imam by al-Dhahabi; he rose with Ibn al-Ash'ath against al-Hajjaj, was captured at Dayr al-Jamajim and killed by al-Hajjaj in 82 AH."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/umayyad]
 died: { edtf: "0702", precision: year, status: tradition, derived: true }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/siyar-alam-nubala-ideas-house]
 external_ids:
   wikidata: Q20422775
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Dhahabi, Siyar A'lam al-Nubala, one-volume edition (Bayt al-Afkar al-Dawliyya), entry read in full on the scanned pages (Apple Vision OCR on the harvest drive)"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-siyar-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 occupations:
   - job: job/muhaddith
     kind: primary

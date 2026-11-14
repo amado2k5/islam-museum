@@ -1,0 +1,18 @@
+id: concept/composite-diseases-and-tumours
+class: concept
+kind: scientific
+label: { ar: "الأمراض المركبة والأورام عند ابن سينا", en: "Composite diseases and tumours in the Canon", ur: "قانون میں مرکب بیماریاں اور ورم" }
+summary:
+  ar: "في الفصل الخامس يبين ابن سينا أن الأمراض المركبة ليست أمراضاً اتفقت متجمعة بل التي إذا اجتمعت حدث منها مرض واحد، ومثالها الورم الذي يوجد فيه أجناس الأمراض كلها، ثم يقسم الأورام بحسب موادها الست {cite:canon-ibn-sina-print-v1 p.107}."
+  en: "In the fifth chapter Ibn Sina shows that composite diseases are not diseases that merely happen to be together but those whose joining produces one disease, the example being the tumour, in which all the genera of disease are found, and he divides tumours by their six matters {cite:canon-ibn-sina-print-v1 p.107}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/disease, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, Ta'lim 1 on diseases (scan pages 105 to 111), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-fann2-4
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

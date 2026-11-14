@@ -1,0 +1,20 @@
+---
+id: event/arhab-and-banu-salman-attack-on-khiwan-285
+lang: en
+source_lang: ar
+translators: ["Claude Sonnet 5.5 (claude-sonnet-5-5), draft translation"]
+---
+## Overview
+After the settlement with [[person/al-daam-ibn-ibrahim|al-Da'am ibn Ibrahim]] at [[place/bayt-dhud-yemen|Bayt Dhu'd]], [[person/al-hadi-yahya-al-rassi|al-Hadi]] heard that a son of al-Da'am called [[person/arhab-ibn-al-daam|Arhab]] had entered [[place/athafit|Athafit]] with a people of Hamdan called [[group/banu-salman-hamdan|Banu Salman]]. {cite:sira-hadi-ila-al-haqq p.98} The book then tells what happened at [[place/khiwan|Khiwan]], where Abu al-Qasim Muhammad ibn al-Hadi was; he is most likely [[person/al-murtada-muhammad|al-Murtada Muhammad]], by the kunya and the father's name. {cite:sira-hadi-ila-al-haqq p.98} The account is Zaydi and in the voice of the imam's followers; the museum gives it as the narrators tell it, without a verdict.
+
+## The motive of Banu Salman
+The narrator says Banu Salman did not like the matter to be settled between al-Hadi and al-Da'am, lest al-Hadi rule them, take from them what God had made obligatory of the alms and restrain them from the "grave and evil deeds" they had committed. {cite:sira-hadi-ila-al-haqq p.98} That is the narrator's judgment of his opponents, and the museum attributes it to him and does not state it in its own voice. They worked to bring Arhab out with them, and he went with them to Khiwan. {cite:sira-hadi-ila-al-haqq p.98}
+
+## Abu al-Qasim at Khiwan
+Abu al-Qasim Muhammad ibn al-Hadi was then at Khiwan with a group and his brother Ahmad; the attackers meant them harm and "God prevented them and kept the two safe", and some of the people of Khiwan stood with them. {cite:sira-hadi-ila-al-haqq p.98} When he heard that Arhab had left the land of Banu Salman he gathered the people of Khiwan, went out to the edge of the village and camped. As Arhab drew near, two men of Khiwan went out and spoke to him as Abu al-Qasim had told them, which was to call him to God and warn him and his companions by God, so that the case should be made against them; Arhab came nearer the village and did not accept what he was called to. {cite:sira-hadi-ila-al-haqq p.98}
+
+## The array and the challenge
+Seeing the people making for the village, Abu al-Qasim drew up his camp and sent word to Arhab asking why people should fight between the two of them, and that he should come out so they could fight and one be relieved of the other; the narrator says Arhab did not, from fear and apprehension. {cite:sira-hadi-ila-al-haqq p.98} They tried to enter the village from its lower side and Abu al-Qasim countered; seeing Ibn al-Da'am's army, his companions grew anxious, so he exhorted them, reminded them of God and recited the verse in which twenty steadfast men overcome two hundred ([[passage/quran-8-65|Q 8:65]]). {cite:sira-hadi-ila-al-haqq p.98} A man of Khiwan answered, in sense, that they could have done without his twenty and their two hundred; the book says no more. {cite:sira-hadi-ila-al-haqq p.98} {cite:sira-hadi-ila-al-haqq p.99}
+
+## The charge and the withdrawal
+Abu al-Qasim ordered his horse, had its armour removed, told his companions to charge with him because their business was near, spurred the horse until it stood on its hind legs and charged; only four followed him, one of them [[person/ismail-ibn-al-muslim-al-hamdani|Ismail ibn al-Muslim al-Hamdani]]. {cite:sira-hadi-ila-al-haqq p.99} Seeing they could not take the village, "the rabble" withdrew in the worst state. {cite:sira-hadi-ila-al-haqq p.99} The narrator Ali ibn Muhammad adds, from Muhammad ibn Sulayman, that he later heard Abu al-Qasim ask the people of Khiwan that twenty men stand with him and some said they knew none who would; this was the night he went out to "al-Sirr" (the editor points to the gazetteer entry). {cite:sira-hadi-ila-al-haqq p.99} The attackers went back to their place and then to Athafit. See [[event/arhab-takes-athafit-and-abu-umar-is-killed-285]].
