@@ -1,0 +1,65 @@
+id: event/ali-ibn-muhammad-reaches-saada-and-the-tabari-emigrants-285
+class: event
+kind: other
+label:
+  ar: علي بن محمد يصل صعدة مع الحجاج ويجد أباه والياً بها وقدوم المهاجرين الطبريين، ذو الحجة 285هـ
+  en: Ali ibn Muhammad reaches Sa'da with the pilgrims, finds his father governor there, and the Tabari emigrants arrive, Dhu al-Hijja 285 AH
+  ur: علی بن محمد کا حاجیوں کے ساتھ صعدہ پہنچنا، والد کو وہاں والی پانا اور طبری مہاجرین کی آمد، ذو الحجہ 285ھ
+summary:
+  ar: يروي علي بن محمد أن هجرته إلى الهادي كانت في ذي الحجة سنة 285هـ، فوصل صعدة ووجد أباه محمد بن عبيد الله فيها والياً للهادي، إذ كان قد كتب إلى الهادي حين اضطربت عليه وساحة ونصب أبو دغيش رايته لحربه، فأمره بالمصير إلى صعدة، فخرج مستخفياً ماشياً ومر بابن عمه حسين بن الحسن والي ساقين فخرجا معاً إلى صعدة. ويصف الراوي اضطراب البلد وقدوم نحو خمسين رجلاً من المهاجرين الطبريين إلى صعدة، ثم مسيرهم إلى الهادي في خيوان، وبقاء علي عند أبيه بأمر الهادي.
+  en: Ali ibn Muhammad relates that his emigration to al-Hadi was in Dhu al-Hijja 285 AH; he reached Sa'da and found his father Muhammad ibn Ubaydallah there as al-Hadi's governor. His father, when Wasaha turned against him and Abu al-Dughaysh raised his banner to fight him, had written to al-Hadi, who told him to go to Sa'da and stay there; he left in hiding on foot and passed his cousin Husayn ibn al-Hasan, governor at Saqayn, and the two went on to Sa'da together. The narrator describes the unrest in the town, the arrival at Sa'da of about fifty Tabari emigrants, their going on to al-Hadi at Khiwan, and his own staying with his father at al-Hadi's order.
+  ur: علی بن محمد بیان کرتے ہیں کہ ہادی کی طرف ان کی ہجرت ذو الحجہ 285ھ میں ہوئی؛ وہ صعدہ پہنچے تو اپنے والد محمد بن عبید اللہ کو وہاں ہادی کا والی پایا۔ والد نے، جب وساحہ ان کے خلاف ہو گیا اور ابو دغیش نے ان سے لڑنے کے لیے اپنا جھنڈا نصب کیا، ہادی کو لکھا تو ہادی نے صعدہ جا کر وہیں رہنے کا حکم دیا؛ وہ چھپ کر پیدل نکلے اور اپنے چچازاد حسین بن حسن، والیِ ساقین، کے پاس سے گزرے، اور دونوں مل کر صعدہ پہنچے۔ راوی شہر کی بے چینی، تقریباً پچاس طبری مہاجرین کی صعدہ آمد، ان کے خیوان میں ہادی کے پاس جانے اور ہادی کے حکم سے اپنے والد کے ہاں ٹھہرنے کا ذکر کرتے ہیں۔
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: 0898-12
+    hijri: 0285-12
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: ذو الحجة سنة 285هـ بحسب الراوي، ويبدأ نحو 19 كانون الأول 898م جولياني بالتقويم الجدولي؛ الشهر فقط؛ التحويل مشتق
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/saada
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ali-ibn-muhammad-ibn-ubaydallah-al-abbasi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abu-jafar-muhammad-ibn-ubaydallah-al-abbasi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: related_to
+  target: place/wasaha-yemen
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: related_to
+  target: place/saqayn-yemen
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص116 ⁦(الصفحة المطبوعة)⁩'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-15
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 116
