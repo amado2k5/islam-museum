@@ -1,0 +1,57 @@
+id: event/al-hadi-at-al-haira-seizes-the-offenders-and-goes-by-khiwan-to-athafit-288
+class: event
+kind: other
+label:
+  ar: "الهادي بالحائرة يأتي بالمحدثين ثم يمر بخيوان إلى أثافت، محرم 288هـ"
+  en: "Al-Hadi at al-Ha'ira seizes the offenders and goes by Khaywan to Athafit, Muharram 288 AH"
+  ur: "ہادی الحائرہ میں مجرموں کو پکڑواتے ہیں اور خیوان سے ہو کر اثافت جاتے ہیں، محرم 288ھ"
+summary:
+  ar: "ينزل الهادي بالحائرة من بلاد همدان ويطلب المحدثين الذين تعرضوا للحجاج، ويقيم يومين على غير ماء ولا علف، ثم يوثقهم بالحديد ويسير بهم إلى خيوان فيصلها يوم الأربعاء، ثم يخرج يوم الأحد لتسع خلون من المحرم إلى أثافت بعد أن سبقه ابنه أبو القاسم."
+  en: "Al-Hadi halts at al-Ha'ira in Hamdan's land and has the offenders who had molested pilgrims brought, waits two days without water or fodder, then has them bound in iron and takes them to Khaywan, arriving on a Wednesday, and on the Sunday nine nights into Muharram goes on to Athafit, his son Abu al-Qasim having gone ahead."
+  ur: "ہادی ہمدان کی سرزمین میں الحائرہ پر ٹھہرتے ہیں اور حاجیوں سے چھیڑ چھاڑ کرنے والے مجرموں کو بلواتے ہیں، دو دن بغیر پانی اور چارے کے انتظار کرتے ہیں، پھر انہیں لوہے میں جکڑ کر خیوان لے جاتے ہیں جہاں بدھ کو پہنچتے ہیں، اور محرم کی نو راتیں گزرنے پر اتوار کو اثافت جاتے ہیں جبکہ ان کے بیٹے ابو القاسم پہلے جا چکے تھے۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0900-12"
+    hijri: "0288-01"
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: "محرم سنة 288هـ؛ يوم الأربعاء ثم الأحد لتسع خلون في الأصل؛ يخالف الجدول الحسابي بيوم؛ الدقة شهرية؛ التحويل مشتق"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/al-haira-hamdan-yemen
+- type: occurred_at
+  target: place/khiwan
+- type: occurred_at
+  target: place/athafit
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-hamdan
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص203 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-24
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 203

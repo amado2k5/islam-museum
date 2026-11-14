@@ -1,0 +1,67 @@
+id: event/ibn-musbih-congratulates-al-hadi-and-the-spoils-of-al-numays-287
+class: event
+kind: other
+label:
+  ar: "ابن مصبح يهنئ الهادي بعلاف ونهب النميص، رمضان 287هـ"
+  en: "Ibn Musbih congratulates al-Hadi at Allaf and the spoils of al-Numays, Ramadan 287 AH"
+  ur: "ابن مصبح کی علاف میں ہادی کو مبارک باد اور النمیص کا مال، رمضان 287ھ"
+summary:
+  ar: "يأتي محمد بن مصبح اليرسمي الهادي بعلاف فيحمد الله على نصره ويقول إن رأيه في الحرب بدا لهم خطلاً، ويذكر الراوي ما قيل عن لوم الأكيليين لأحمد بن عباد، ثم ينهب أصحاب الهادي أثاث النميص وسلاحه ويقطع الأعناب ويبقى الهادي بعلاف إلى العصر."
+  en: "At Allaf Muhammad ibn Musbih al-Yarsami thanks God for al-Hadi's victory and says his plan had seemed mistaken to them; the narrator reports what was said of the Akilis' reproach to Ahmad ibn Abbad, then al-Hadi's men take furniture and arms from al-Numays and the vines are cut, and he stays at Allaf until the afternoon."
+  ur: "علاف میں محمد بن مصبح یرسمی ہادی کی فتح پر اللہ کی حمد کرتے ہیں اور کہتے ہیں کہ ان کی تدبیر انہیں غلط لگی تھی؛ راوی اکیلیوں کی احمد بن عباد پر ملامت کا ذکر کرتا ہے، پھر ہادی کے ساتھی النمیص سے سامان اور اسلحہ لیتے ہیں، انگور کی بیلیں کاٹی جاتی ہیں اور ہادی عصر تک علاف میں ٹھہرتے ہیں۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0900-08"
+    hijri: "0287-09"
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: "رمضان سنة 287هـ بحسب ترتيب السرد بعد صعود علاف؛ الدقة شهرية؛ التحويل مشتق"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/allaf-yemen
+- type: occurred_at
+  target: place/al-numays-allaf-yemen
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/muhammad-ibn-musbih-al-yarsami
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ahmad-ibn-abbad-al-akili
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/al-akiliyyun-saada
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-kulayb-saada
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص195-196 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-24
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 195-196

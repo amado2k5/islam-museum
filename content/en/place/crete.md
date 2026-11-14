@@ -1,0 +1,13 @@
+---
+id: place/crete
+lang: en
+source_lang: ar
+translators: ["Claude Sonnet 5.5 (claude-sonnet-5-5), draft translation"]
+---
+## Overview
+Crete, which Yaqut al-Hamawi writes Aqritish in his Mu'jam al-buldan, is for him a large island in the western sea facing Libya across from the African mainland, with towns and villages, and with a number of scholars who bear its name. {cite:mujam-al-buldan-sader-1995 v.1 p.236} He reports, on the authority of Ahmad ibn Yahya ibn Jabir, that Junada ibn Abi Umayya al-Azdi raided it in 54 AH (about 673 CE) in Mu'awiya's reign, after taking the island of Arwad; that part of it was opened and then closed again under al-Walid; that Humayd ibn Ma'yuf al-Hamdani raided it in Harun al-Rashid's caliphate and opened some of it; and that in al-Ma'mun's caliphate Abu Hafs 'Umar ibn 'Isa al-Andalusi, known as al-Aqritishi, took one fortress and settled in it, then went on opening more until no Byzantine was left on the island, in 210 AH (about 825 CE). {cite:mujam-al-buldan-sader-1995 v.1 p.236}
+
+Yaqut gives other accounts of the conquest: that it was opened early in al-Ma'mun's reign, or after 250 AH by 'Amr ibn Shu'ayb, called Ibn al-Ghaliz, a man from the village of Batruh in the district of Fahs al-Ballut in al-Andalus, whose descendants held it for many years; and, from Ibn Yunus, that its first conqueror was Shu'ayb ibn 'Umar ibn 'Isa. He says it was among the Muslims' most damaging holdings against the Byzantines, until the domestic Nikephoros besieged it in the caliphate of al-Muti'. He names Romanos son of Constantine as landing at the end of Jumada I 349 AH with 72,000 men, 5,000 of them horse, and taking the island by force, through war and hunger, in mid-Muharram 350 AH (about 961 CE): killing, plundering and enslaving, and carrying its ruler 'Abd al-'Aziz ibn Shu'ayb, his wealth and his cousins to Constantinople. He adds that some three hundred ships were loaded with its goods and captives, that the Byzantines tore down the city's stones and threw them into the harbour so no enemy could use it afterwards, and that in his own day the island was in Frankish hands. {cite:mujam-al-buldan-sader-1995 v.1 p.236} Among those named after it he lists Muhammad ibn 'Isa Abu Bakr al-Aqritishi, who transmitted in Damascus from Muhammad ibn al-Qasim al-Maliki, and from whom 'Abdallah ibn Muhammad al-Nasa'i al-Mu'addib narrated. {cite:mujam-al-buldan-sader-1995 v.1 p.236}
+
+## In Nomisma
+The Nomisma numismatic vocabulary links this entry to the concept «crete», and its linked collections record 355 coins or coin types that name it as their region, that is, as an area of issue and not as a mint or issuing authority. {cite:nomisma crete}

@@ -1,0 +1,18 @@
+id: concept/canon-hot-brain-swelling-in-infants
+class: concept
+kind: scientific
+label: { ar: "الورم الحار في دماغ الصبيان عند ابن سينا", en: "Hot swelling in the infant's brain in the Canon", ur: "قانون میں بچوں کے دماغ کی گرم سوجن" }
+summary:
+  ar: "يذكر ابن سينا ورماً حاراً يعرض في دماغ الصبيان ويسميه العطاس، يصل وجعه إلى العين والحلق ويصفر له الوجه، وعلاجه بتبريد الدماغ وترطيبه بالقشور والعصارات والأدهان {cite:canon-ibn-sina-print-v1 p.215}."
+  en: "Ibn Sina mentions a hot swelling that befalls the brain of infants, which he calls al-'utas; its pain often reaches the eye and the throat and the face turns yellow, and it is treated by cooling and moistening the brain with peels, juices and oils {cite:canon-ibn-sina-print-v1 p.215}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/disease, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 3, Ta'lim 1 on upbringing, chapters 3 and 4 (scan pages 211 to 220), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-p211
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

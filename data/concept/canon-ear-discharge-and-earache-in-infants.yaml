@@ -1,0 +1,18 @@
+id: concept/canon-ear-discharge-and-earache-in-infants
+class: concept
+kind: scientific
+label: { ar: "سيلان الأذن ووجعها عند الصبيان عند ابن سينا", en: "Ear discharge and earache in infants in the Canon", ur: "قانون میں بچوں کے کان کا بہنا اور درد" }
+summary:
+  ar: "يعلل ابن سينا سيلان الرطوبة من آذان الصبيان برطوبة أبدانهم وأدمغتهم، ويذكر صوفة مغموسة في عسل وخمر ونحوها، ثم وجع الأذن من ريح أو رطوبة وعلاجه بأدوية تغلى في دهن وتقطر {cite:canon-ibn-sina-print-v1 p.215}."
+  en: "Ibn Sina explains the flowing of moisture from infants' ears by the moistness of their bodies and brains, names a wool plug dipped in honey and wine and the like, then earache from wind or moisture and its treatment with drugs boiled in oil and dripped in {cite:canon-ibn-sina-print-v1 p.215}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/disease, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 3, Ta'lim 1 on upbringing, chapters 3 and 4 (scan pages 211 to 220), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-p211
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

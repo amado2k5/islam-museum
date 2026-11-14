@@ -1,0 +1,18 @@
+id: concept/canon-diarrhoea-at-teething
+class: concept
+kind: scientific
+label: { ar: "استطلاق البطن عند نبات الأسنان عند الصبيان عند ابن سينا", en: "Loose bowels at teething in the Canon", ur: "قانون میں دانت نکلنے کے وقت دست" }
+summary:
+  ar: "يذكر ابن سينا استطلاق البطن عند الصبيان وخصوصاً عند نبات الأسنان، ويعرض تعليلين، ثم تكميد البطن وتضميده، وسقي أنفحة الجدي، وتبديل الغذاء عن اللبن {cite:canon-ibn-sina-print-v1 pp.211-212}."
+  en: "Ibn Sina mentions loosening of the bowels in infants, above all at teething, gives two explanations, then fomenting and poulticing the belly, a drink of kid's rennet, and a food in place of milk {cite:canon-ibn-sina-print-v1 pp.211-212}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/disease, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 3, Ta'lim 1 on upbringing, chapters 3 and 4 (scan pages 211 to 220), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-p211
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

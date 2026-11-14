@@ -1,0 +1,63 @@
+id: event/al-hadi-goes-by-madar-and-kharaqa-to-hadaqan-near-sanaa-288
+class: event
+kind: other
+label:
+  ar: "الهادي يمر بمدر وخرقة إلى حدقان قرب صنعاء وأسباب تدبير أبي العتاهية، محرم 288هـ"
+  en: "Al-Hadi goes by Madar and Kharaqa to Hadaqan near Sana'a and Abu al-Atahiya's reasons, Muharram 288 AH"
+  ur: "ہادی مدر اور خرقہ سے ہو کر صنعاء کے قریب حدقان پہنچتے ہیں اور ابو العتاہیہ کی تدبیر کی وجوہ، محرم 288ھ"
+summary:
+  ar: "ينزل الهادي مدر فينشر عدله، ثم يرحل الأربعاء لاثني عشر يوماً باقية من المحرم إلى خرقة ومنها إلى حدقان قرب صنعاء، ويقول الراوي إن أبا العتاهية تأنى في أمره لما عزم على التسليم وخاف مخالفة بني عمه من آل طريف والعجم من جند جفتم."
+  en: "Al-Hadi lodges at Madar and spreads his justice there, then on the Wednesday with twelve days left of Muharram moves to Kharaqa and next to Hadaqan near Sana'a; the narrator says Abu al-Atahiya, resolved to hand over, took care over his affairs, fearing opposition from his Al Tarif kin and the non-Arab troops of Jund Jaftam."
+  ur: "ہادی مدر میں اترتے ہیں اور وہاں اپنا عدل پھیلاتے ہیں، پھر محرم کے بارہ دن باقی رہنے پر بدھ کو خرقہ جاتے ہیں اور اگلے دن صنعاء کے قریب حدقان پہنچتے ہیں؛ راوی کہتا ہے کہ ابو العتاہیہ نے تسلیم کا عزم کر کے اپنے معاملات میں احتیاط برتی کیونکہ انہیں اپنے چچازادوں آل طریف اور جند جفتم کے عجمیوں کی مخالفت کا اندیشہ تھا۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0900-12"
+    hijri: "0288-01"
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: "محرم سنة 288هـ؛ الأربعاء لاثني عشر يوماً باقية؛ يخالف الجدول الحسابي بيوم أو أقل؛ الدقة شهرية؛ التحويل مشتق"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/hadaqan-sanaa-yemen
+- type: occurred_at
+  target: place/sanaa
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abu-al-atahiya-ibn-bishr
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-tarif
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/al-jafatim-sanaa
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص204 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-24
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 204
