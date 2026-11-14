@@ -4550,3 +4550,32 @@ Resume point: alwaad-alhaq episode 30 (branch from origin/main).
 | Second ASR pass: Whisper large-v3 (mlx) run on the Mac to resolve garbled words of the Qwen transcript; cites use the shared 30-second grid | ep38 whole | Qwen pass garbled | Clarity | Open |
 
 Resume point: sharh-saheeh-al-bukhare episode 39 (branch from origin/main).
+
+### sharh-saheeh-al-bukhare ep39 (14 Nov 2026)
+
+29 points written for episode 39 (ar, en, ur); 16 needs_source marks in each language file for this episode; 5 new `about` edges. Quran verses referenced only through passage links (33-72, 22-46, 33-36, 15-6); none typed. Contested: He holds that taking only the pleasing parts of the Qur'an is forbidden, that remembering the afterlife marks the believer from the hypocrite, and that jihad reduced to earning a living falls short; these are his views, and the report on the lightened punishment of Abu Talib and the Monday report are given as reports quoted without a chain. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep39) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greetings, praise and prayer on the Prophet, naming the lesson number | ep39 00:00:00-00:00:30 | Greetings and prayer, not teaching content (only the lesson number is kept) | Content rule | Open |
+| Closing prayer and farewell, with a story of a man and a donkey that only the second pass has | ep39 01:18:00-01:19:00 | Closing prayer and farewell; the story is garbled and rests on one pass | Content rule, Clarity | Open |
+| Account of three kinds of people about food and patience | ep39 00:08:30-00:10:30 | Garbled in both passes and looping | Clarity, Loop check | Open |
+| Story of a seat and a lap, and asides on a bystander | ep39 00:13:00-00:14:30 | Garbled in both passes | Clarity | Open |
+| Loops of a repeated phrase | ep39 00:09:30-00:10:00, 00:12:00, 00:14:30, 00:15:30, 00:18:30, 00:21:00, 00:23:00-00:23:30, 00:25:00-00:25:30, 00:26:30-00:27:00 | Repeated phrase in the Qwen pass, resolved only where Whisper is clear | Clarity, Loop check | Open |
+| Asides on tests, bread and a sum of money | ep39 00:15:30-00:16:00 | Garbled and off topic | Clarity | Open |
+| Heart and mind asides, a claim about what communists, Marxists and secularists will say on the Day of Judgement, and modern political names | ep39 00:30:00-00:33:00 | Sweeping claim about groups and garbled in both passes | Voice rule, Clarity | Open |
+| Saying about not teaching wisdom to those unfit for it (second pass only, attribution unclear) | ep39 00:38:30-00:39:00 | Attribution unclear and the first pass loops there | Clarity | Open |
+| Garbled stretch on a rumour among the people and asides | ep39 00:39:00-00:39:30, 00:41:00-00:42:30 | Garbled in both passes | Clarity | Open |
+| Report of Umar weeping and Noah's prayer against his people, with the setting not recovered | ep39 00:42:30-00:43:30 | The setting and the link to the lesson are garbled, so no claim is made | Clarity | Open |
+| Garbled stretch on the converts and the leaders | ep39 00:44:30-00:45:30 | Garbled in both passes | Clarity | Open |
+| Sweeping claim that no man or woman at the time believed, and a stretch on lying | ep39 00:46:00-00:48:30 | Sweeping claim and garbled in both passes | Voice rule, Clarity | Open |
+| Account of a letter from a British prime minister and claims about Muslims in Europe and parliament | ep39 00:52:30-00:55:30 | Modern political claims about peoples, garbled in both passes | Content rule, Voice rule, Clarity | Open |
+| Offer of the Quraysh to exchange a young man for the Prophet and the reply | ep39 00:55:30-00:58:30 | Names and wording garbled and rest on one pass | Clarity | Open |
+| Words of support to the Prophet whose speaker is not clear | ep39 00:58:30-00:59:00 | Speaker not recoverable in either pass | Clarity | Open |
+| Claim about killing an apostate and asides | ep39 01:01:30-01:02:00 | Garbled and a contested ruling not recoverable | Clarity, Content rule | Open |
+| Asides on names written on paper, on the choice of leaders and on an elder's age | ep39 01:03:00-01:04:30, 01:05:30-01:06:00 | Garbled in both passes | Clarity | Open |
+| Account of a man and his son and asides on companies, aircraft and prayer | ep39 01:07:30-01:08:30, 01:08:30-01:14:00 | Garbled and looping in both passes | Clarity, Loop check | Open |
+| Account of a prayer in the Hijr of Ismail, ages of 62 and 63, and the mountains and birds with David | ep39 01:15:30-01:18:00 | Garbled, numbers differ between passes | Clarity | Open |
+| Second ASR pass: Whisper large-v3 (mlx) run on the Mac to resolve garbled words of the Qwen transcript; cites use the shared 30-second grid | ep39 whole | Qwen pass garbled | Clarity | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 40 (branch from origin/main).
