@@ -1,0 +1,18 @@
+id: concept/cranial-nerves-sixth-pair-recurrent
+class: concept
+kind: scientific
+label: { ar: "الزوج السادس والعصب الراجع عند ابن سينا", en: "Sixth pair of cranial nerves and the recurrent nerve in the Canon", ur: "قانون میں چھٹا جوڑا اور راجع عصب" }
+summary:
+  ar: "الزوج السادس ينبت من مؤخر الدماغ، وينقسم ثلاثة أقسام، أعظمها ينزل إلى الأحشاء ومنه العصب الراجع إلى الحنجرة {cite:canon-ibn-sina-print-v1 pp.80-81}."
+  en: "The sixth pair grows from the back of the brain and divides in three; the greatest part descends to the viscera and from it comes the recurrent nerve to the larynx {cite:canon-ibn-sina-print-v1 pp.80-81}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/nerves, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 1, Jumla 3 on nerves (scan pages 78 to 82), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-nerves-2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }
