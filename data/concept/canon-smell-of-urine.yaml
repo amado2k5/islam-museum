@@ -1,0 +1,18 @@
+id: concept/canon-smell-of-urine
+class: concept
+kind: scientific
+label: { ar: "رائحة البول عند ابن سينا", en: "The smell of urine in the Canon", ur: "پیشاب کی بو قانون میں" }
+summary:
+  ar: "في الفصل الرابع يبين ابن سينا أن البول الذي لا رائحة له يدل على برد وفجاجة وربما موت الغريزة، وأن النتن يدل بحسب سياقه على قروح أو عفونة، والحلاوة على الدم، والنتن الشديد على الصفراء، والنتن الحامض على السوداء {cite:canon-ibn-sina-print-v1 p.192}."
+  en: "In the fourth chapter Ibn Sina says urine with no smell shows cold and rawness, perhaps the death of the innate heat, that stench shows sores or putrefaction by its setting, sweetness shows blood, strong stench bile and sour stench black bile {cite:canon-ibn-sina-print-v1 p.192}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/canon-urine-in-general, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, Ta'lim 3, urine chapters 2 to 4 on the colour, consistency and smell of urine (scan pages 184 to 192), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-urine-2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

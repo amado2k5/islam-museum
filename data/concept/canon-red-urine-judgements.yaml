@@ -1,0 +1,18 @@
+id: concept/canon-red-urine-judgements
+class: concept
+kind: scientific
+label: { ar: "أحكام البول الأحمر عند ابن سينا", en: "Judgements on red urine in the Canon", ur: "سرخ پیشاب پر احکام قانون میں" }
+summary:
+  ar: "يقارن ابن سينا في الأمراض الحادة بين الأحمر والمائي والأبيض، ويفرق بين الأحمر الدموي والصفراوي، ويذكر أن الأحمر القاني في أمراض الكلية رديء وأن بقاءه أحمر بلا رسوب مخوف {cite:canon-ibn-sina-print-v1 p.188}."
+  en: "In acute diseases Ibn Sina compares red, watery and white urine and distinguishes blood-red from bile-red, saying that deep red in kidney diseases is bad and that urine that stays red with no sediment is fearful {cite:canon-ibn-sina-print-v1 p.188}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/canon-urine-in-general, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, Ta'lim 3, urine chapters 2 to 4 on the colour, consistency and smell of urine (scan pages 184 to 192), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-urine-2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

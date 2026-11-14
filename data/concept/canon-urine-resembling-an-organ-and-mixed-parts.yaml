@@ -1,0 +1,18 @@
+id: concept/canon-urine-resembling-an-organ-and-mixed-parts
+class: concept
+kind: scientific
+label: { ar: "البول المشبه لعضو والمختلف الأجزاء عند ابن سينا", en: "Urine resembling an organ, and urine of mixed parts, in the Canon", ur: "کسی عضو سے مشابہ اور مختلف اجزا والا پیشاب قانون میں" }
+summary:
+  ar: "يختم ابن سينا الفصل الثالث بأن البول الذي يشبه لون عضو دوامه يدل على علة بذلك العضو، وبذكر الغيم والدخان في أسفله، وبالفرق بين الخام والمدة بالنتن، وبحال المختلف الأجزاء {cite:canon-ibn-sina-print-v1 p.192}."
+  en: "Ibn Sina ends the third chapter by saying that urine resembling the colour of an organ, if lasting, shows an ailment of that organ, by the cloud or smoke in its lower part, by telling raw matter from pus by stench, and by the state of urine of mixed parts {cite:canon-ibn-sina-print-v1 p.192}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/canon-urine-in-general, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, Ta'lim 3, urine chapters 2 to 4 on the colour, consistency and smell of urine (scan pages 184 to 192), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-urine-2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

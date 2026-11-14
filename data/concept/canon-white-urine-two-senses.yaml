@@ -1,0 +1,18 @@
+id: concept/canon-white-urine-two-senses
+class: concept
+kind: scientific
+label: { ar: "البول الأبيض بمعنيين عند ابن سينا", en: "White urine in its two senses in the Canon", ur: "سفید پیشاب کے دو معنی قانون میں" }
+summary:
+  ar: "يفرق ابن سينا بين الأبيض بمعنى المشف الرقيق والأبيض الحقيقي الغليظ، ويذكر أنواع الأبيض الحقيقي المخاطي والدسمي والإهالي والشبيه بالمني ودلالة كل منها {cite:canon-ibn-sina-print-v1 p.187}."
+  en: "Ibn Sina separates white in the sense of thin and transparent from true white, which is thick, and lists the kinds of true white, mucous, fatty, tallowy and semen-like, and what each shows {cite:canon-ibn-sina-print-v1 p.187}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/canon-urine-in-general, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, Ta'lim 3, urine chapters 2 to 4 on the colour, consistency and smell of urine (scan pages 184 to 192), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-urine-2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }
