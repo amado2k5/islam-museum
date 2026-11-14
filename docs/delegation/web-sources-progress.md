@@ -1036,3 +1036,8 @@ Wrote ar, en and ur prose for vila, th-nia, el-mahalla-el-kubra, ioannina, kirku
 
 - Written (ar, en, ur, draft): erzincan (iDAI plus Yaqut vol. 1, scan p. 194; `source/mujam-al-buldan-yaqut` added), kandahar, unaizah, oujda, sari, i-skilip, marseille, masyaf, kazan, karaman (iDAI.gazetteer only; none of these has a Pleiades id in the packet, and the iDAI-linked Pleiades numbers are given as identifiers only). Skipped: none.
 - Yaqut vols 1-2 searched by Arabic name: only Arzanjan has an entry; Qandahar, Unaizah (poetry mentions only), Sari, Wajda are mentions, not entries. iDAI read via gazetteer.dainst.org/doc/<id>.json.
+
+## 2026-11-14 (Lane B1 packet 9) - place prose, ten places
+
+- Written (ar, en, ur, draft): shaizar, djerba, turbessel (Pleiades, local CSV dump and JSON read 14 Nov 2026), asilah (Pleiades plus iDAI), urmia, gelibolu, i-skenderun, philadelphia, berkeley, berat (iDAI.gazetteer via gazetteer.dainst.org/doc/<id>.json). Urmia cites Yaqut vol. 1, scan pp.206-207, and i-skenderun Yaqut vol. 1, scan p.238 (Iskandaruna); `source/mujam-al-buldan-yaqut` added to both. Skipped: none.
+- Yaqut vols 1-2: Asilah's only hit is a different place, Asil in al-Andalus, so not used; the rest fall in later volumes. Djerba's Pleiades JSON endpoint returned a features feed, so its fields come from the CSV dump.
