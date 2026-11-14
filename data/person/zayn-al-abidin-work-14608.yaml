@@ -1,21 +1,19 @@
 id: person/zayn-al-abidin-work-14608
 class: person
 label:
-  ar: "زين العابدين"
-  en: "Zayn al-Abidin"
-roles: [scholar]
+  ar: "زين العابدين التبريزي"
+  en: "Zayn al-Abidin Tabrizi"
+roles: [artist, calligrapher]
 gender: male
 summary:
-  ar: "بطاقة أولية لزين العابدين؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Zayn al-Abidin; the entry is not yet checked on the page."
+  ar: "زين العابدين التبريزي، رسام ومذهّب وخطاط فارسي في العصر الصفوي، عمل في قزوين وتتلمذ على سلطان محمد، وتحفظ أعماله في مكتبة تشستر بيتي ومتحف المتروبوليتان؛ يُؤرَّخ نشاطه بين نحو 1570 و1602م، ولا يُعرف له تاريخ ميلاد أو وفاة {cite:wikidata}."
+  en: "Zayn al-Abidin Tabrizi was a Safavid-era Persian illustrator, illuminator and calligrapher who worked at Qazvin and is recorded as a pupil of Sultan Muhammad; works attributed to him are held by the Chester Beatty Library and the Metropolitan Museum of Art. His working period is given as c. 1570 to 1602, and no birth or death date is known {cite:wikidata}. He is not Ali ibn al-Husayn Zayn al-Abidin, the fourth Imam (see person/ali-zayn-al-abidin)."
 wings: [people]
-regions: [south-asia]
-periods: [period/modern-era]
-born: { edtf: "658", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi)" }
-died: { edtf: "713", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi)" }
+regions: [persia-central-asia]
+periods: [period/gunpowder-empires]
 relations:
-  - { type: lived_in, target: place/qazvin, sources: [source/wikidata], confidence: low, note: "Wikidata P937 work location (Wikidata Q181578)" }
-sources: [source/al-aalam, source/wikidata]
+  - { type: lived_in, target: place/qazvin, sources: [source/wikidata], confidence: medium, note: "Wikidata P937 work location (Qazvin, Q181578), item Q18575695 revision 2564346066, read 14 Nov 2026" }
+sources: [source/wikidata]
 external_ids:
   wikidata: Q18575695
   viaf: "309813292"
