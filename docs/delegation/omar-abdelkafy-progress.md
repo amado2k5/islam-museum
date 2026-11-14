@@ -4361,3 +4361,27 @@ Resume point: sharh-saheeh-al-bukhare episode 34 (branch from origin/main).
 | Closing greeting and farewell | ep34 01:21:30-01:22:00 | Greeting and closing prayer | Clarity | Open |
 
 Resume point: sharh-saheeh-al-bukhare episode 35 (branch from origin/main).
+
+### sharh-saheeh-al-bukhare ep35 (14 Nov 2026)
+
+22 points written for episode 35 (ar, en, ur); 18 needs_source marks in each language file for this episode; 11 new `about` edges. Quran verses referenced only through passage links (17-85, 9-3, 6-93, 89-27, 39-42, 7-172); none typed. Contested: His view that nothing may be added to the religion and that the Companions saw while awake what others see in sleep, his account of the world of spirits and the stations of the soul, and his advice that the wronged should not pray against the wrongdoer are his own views. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep35) | Episode / time | Reason | Gate failed | Override |
+| Greetings, opening prayer and supplication | ep35 00:00:00-00:03:00 | Not substantive | Content rule | Open |
+| Closing and farewell | ep35 01:20:30-01:20:30 | Not substantive | Content rule | Open |
+| Loops and garbled stretch (hadith count, tangents) | ep35 00:05:30-00:08:30 | Repeated filler and garbled words; sweeping remark on a modern power | Clarity, Loop check | Open |
+| Loop and garbled stretch on the army and spoils | ep35 00:09:00-00:10:30 | Garbled and looping | Clarity, Loop check | Open |
+| Report of a man's mistreatment of the Prophet in prayer and sweeping remarks on enemies and modern extremism | ep35 00:12:00-00:14:30 | Name uncertain, garbled; sweeping claims on modern conflict | Voice rule, Clarity | Open |
+| Abu Hanifa and Abu Yusuf story, diacritics and Egypt example | ep35 00:26:30-00:30:30 | Garbled, cannot be recovered | Clarity | Open |
+| Loop | ep35 00:30:00-00:31:00 | Looping filler | Loop check | Open |
+| Tangents on Jews and covenants, modern media and appearance | ep35 00:32:00-00:36:00 | Sweeping claims about peoples and modern society; garbled | Voice rule, Clarity | Open |
+| Comparison of other scriptures with Islam | ep35 00:37:30-00:39:00 | Sweeping claim about other faiths | Voice rule | Open |
+| Companions and dreams stretch with loops | ep35 00:47:30-00:48:30 | Looping filler | Loop check | Open |
+| Stories of eating, Abu Bakr and dream interpretation | ep35 00:50:30-00:55:00 | Garbled and looping | Clarity, Loop check | Open |
+| Ibn Sirin stories, olive oil and other dream interpretation reports | ep35 00:56:30-01:00:30 | Garbled and looping | Clarity, Loop check | Open |
+| Bedouin hospitality story and advice stretch | ep35 01:00:30-01:06:30 | Garbled and looping | Clarity, Loop check | Open |
+| Istikhara remarks | ep35 01:06:30-01:07:30 | Too garbled to state what he says | Clarity | Open |
+| Scholar and host story, ranks of scholars | ep35 01:08:30-01:13:00 | Garbled and looping | Clarity, Loop check | Open |
+| Moses and the seed story, mercy and Hell | ep35 01:17:30-01:19:00 | Garbled, cannot be recovered | Clarity | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 36 (branch from origin/main).
