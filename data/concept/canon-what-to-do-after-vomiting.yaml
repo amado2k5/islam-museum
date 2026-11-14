@@ -1,0 +1,18 @@
+id: concept/canon-what-to-do-after-vomiting
+class: concept
+kind: scientific
+label: { ar: "تدبير من تقيأ بعد الفراغ من القيء عند ابن سينا", en: "What the patient does after vomiting in the Canon", ur: "قانون میں قے کے بعد کی تدبیر" }
+summary:
+  ar: "يرتب ابن سينا ما يفعله المتقيئ بعد فراغه: غسل الفم والوجه بخل ممزوج بماء، وشرب شيء من المصطكى بماء التفاح، والامتناع عن الأكل والماء، والراحة، ودهن الشراسيف، ودخول الحمام، ثم طعام لذيذ جيد الجوهر سريع الهضم عند الضرورة {cite:canon-ibn-sina-print-v1 p.287}."
+  en: "Ibn Sina sets out what the patient does once he has finished vomiting: wash mouth and face with vinegar mixed with water, drink a little mastic in apple water, abstain from food and water, rest, oil the soft part under the ribs, enter the bath, and if he must be fed, eat something pleasant, of good substance and quick to digest {cite:canon-ibn-sina-print-v1 p.287}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/medicine, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 4, chapters 10 to 19, on vomiting, the enema, paints and douches (scan pages 285 to 289), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-fann4-ch10-19
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

@@ -1,0 +1,18 @@
+id: concept/canon-preparing-a-reluctant-patient-for-vomiting
+class: concept
+kind: scientific
+label: { ar: "تهيئة من لا يحب القيء ولا بد من تقيئته عند ابن سينا", en: "Preparing a patient who dislikes vomiting but needs it", ur: "قانون میں قے سے گھبرانے والے مریض کی تیاری" }
+summary:
+  ar: "يوصي ابن سينا فيمن لا يحب أن يقيأ ولا بد من تقيئته أن يُهيَّأ أولاً ويُعوَّد، وتُليَّن أغذيته وتُدسَّم وتُحلَّى، ويُراح من الرياضة، ثم يُسقى الدسومات والأدهان بشراب ويُطعم قبل القذف غذاء جيداً {cite:canon-ibn-sina-print-v1 p.285}."
+  en: "For someone who dislikes vomiting but cannot be spared it, Ibn Sina advises first preparing and accustoming him, softening, enriching and sweetening his food and resting him from exercise, then giving fats and oils with wine and good food before he brings it up {cite:canon-ibn-sina-print-v1 p.285}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/medicine, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 4, chapters 10 to 19, on vomiting, the enema, paints and douches (scan pages 285 to 289), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-fann4-ch10-19
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

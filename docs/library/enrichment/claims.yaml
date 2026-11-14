@@ -1,0 +1,11 @@
+# Enrichment claims: append-only. See README.md. One entry per claim; never delete or rewrite another agent's entry,
+# change only the state, prs and note of your own (or append a new entry).
+claims:
+  - id: c-20261114-founder-held-musta-in
+    gap: ledger
+    class: "*"
+    slugs: [sulayman-al-mustain-duplicate-merge, babil-and-askalan-wording, sanaa-old-city-entry, kitab-al-manazir-pages-532-546-666, mawkib-al-nour-episode-29, opinion-rulings]
+    agent: orchestrator
+    state: blocked
+    date: 2026-11-14
+    reason: "needs founder: items held in docs/delegation/lane-ledgers/README.md (Not decided); approval record dec-20261114-277"

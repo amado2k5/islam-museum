@@ -10,7 +10,7 @@
   },
   "scripts": {
     "schema": "tsx scripts/gen-schema.ts",
-    "validate": "tsx scripts/validate.ts && tsx scripts/check-encoding.ts && tsx scripts/check-authenticity.ts && tsx scripts/check-extremism.ts && tsx scripts/check-harvest-register.ts && tsx scripts/decisions/check-records.ts && tsx scripts/decisions/benchmark.ts && tsx scripts/decisions/sweep.ts",
+    "validate": "tsx scripts/validate.ts && tsx scripts/check-encoding.ts && tsx scripts/check-authenticity.ts && tsx scripts/check-extremism.ts && tsx scripts/check-harvest-register.ts && tsx scripts/check-enrichment-register.ts && tsx scripts/decisions/check-records.ts && tsx scripts/decisions/benchmark.ts && tsx scripts/decisions/sweep.ts",
     "check:authenticity": "tsx scripts/check-authenticity.ts",
     "cite-check": "tsx scripts/cite-check.ts",
     "wordmap": "tsx scripts/wordmap.ts",
@@ -35,6 +35,8 @@
     "dev": "npm run graph && npm run derive && npm run api && npm --prefix site run dev",
     "build": "npm --prefix site run build && npm run check:site && npm run check:weight && npm run books",
     "check:harvest-register": "tsx scripts/check-harvest-register.ts",
+    "check:enrichment-register": "tsx scripts/check-enrichment-register.ts",
+    "enrichment-queue": "tsx scripts/enrichment-queue.ts",
     "check:static": "tsx scripts/check-static.ts",
     "check:site": "tsx scripts/check-site.ts",
     "check:encoding": "tsx scripts/check-encoding.ts",
