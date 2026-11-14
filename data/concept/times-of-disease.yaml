@@ -1,0 +1,18 @@
+id: concept/times-of-disease
+class: concept
+kind: scientific
+label: { ar: "أوقات المرض عند ابن سينا", en: "The times of a disease in the Canon", ur: "قانون میں بیماری کے اوقات" }
+summary:
+  ar: "في الفصل السابع يقول ابن سينا إن لأكثر الأمراض أربعة أوقات: الابتداء والتزايد والمنتهى والانحطاط، لكل منها زمان محسوس وحكم مخصوص، وما خرج عنها فهو من أوقات الصحة {cite:canon-ibn-sina-print-v1 p.109}."
+  en: "In the seventh chapter Ibn Sina says most diseases have four times: beginning, increase, peak and decline, each a sensible stretch of time with its own rule, and what falls outside them belongs to the times of health {cite:canon-ibn-sina-print-v1 p.109}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/disease, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, Ta'lim 1 on diseases (scan pages 105 to 111), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-fann2-4
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }
