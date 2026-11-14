@@ -1,0 +1,53 @@
+id: person/ali-ibn-muhammad-ibn-ubaydallah-al-abbasi
+class: person
+label:
+  ar: علي بن محمد بن عبيد الله العباسي العلوي
+  en: Ali ibn Muhammad ibn Ubaydallah al-Abbasi al-Alawi
+  ur: علی بن محمد بن عبید اللہ عباسی علوی
+summary:
+  ar: صاحب «سيرة الهادي إلى الحق» وراويتها في نظر المحقق، هاجر إلى الهادي في ذي الحجة سنة 285هـ وهو غلام، وصحبه في اليمن، وحُمل حياً من معركة نجران إلى خيوان فتوفي فيها.
+  en: Author and narrator of Sirat al-Hadi ila al-Haqq in the editor's judgement; he joined al-Hadi in Yemen in Dhu al-Hijja 285 AH as a boy, and was carried alive from the fighting at Najran to Khiwan, where he died.
+  ur: مرتب کی رائے میں «سیرت الہادی الی الحق» کا مصنف اور راوی؛ ذو الحجہ 285ھ میں لڑکپن میں یمن میں ہادی سے آ ملا، اور نجران کی لڑائی سے زندہ خیوان لے جایا گیا جہاں اس کی وفات ہوئی۔
+gender: male
+roles:
+- scholar
+- writer
+wings:
+- people
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+relations:
+- type: authored
+  target: work/sira-hadi-ila-al-haqq
+  sources: &id001
+  - source/sira-hadi-ila-al-haqq
+  note: الراوي والمصنف في رأي المحقق؛ الورقة الأولى تنسب الرواية إليه وإلى محمد بن سليمان الكوفي
+- type: child_of
+  target: person/abu-jafar-muhammad-ibn-ubaydallah-al-abbasi
+  sources: *id001
+- type: allied_with
+  target: person/al-hadi-yahya-al-rassi
+  sources: *id001
+  note: لحق بالهادي في اليمن وخدمه
+- type: died_in
+  target: place/khiwan
+  sources: *id001
+  note: حُمل إليها من المعركة حياً فتوفي بها
+- type: buried_in
+  target: place/khiwan
+  sources: *id001
+  note: قبره مشهور يُزار
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، مقدمة المحقق وصفحة الافتتاح، ص5-16'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-1
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar
