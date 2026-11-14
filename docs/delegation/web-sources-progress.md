@@ -823,3 +823,9 @@ Nothing is registered this turn. Each registration needs the three-part commit i
 - Date differences noticed, not changed: al-busiri death 1295~ and 1294; al-sharif-al-jurjani birth 1340 and 1339; abd-al-rahman-ibn-al-qasim birth 750 and 746; juwayriya-bint-al-harith birth 608~ and 601; ibn-abi-al-hadid death 1257 and 1258; al-firuzabadi death 1414 and 1415; zakariyya-al-ansari birth 1420 and 1423; lamii-celebi birth 1472 and 1473.
 - Measured Arabic share: 0 of the 20 matched Biblissima records carries an Arabic-script label.
 
+## 2026-11-14 (p59, Lane B) — Nomisma: the three apostrophe concepts linked through the SPARQL endpoint
+
+- Approval: dec-20261114-277. The concept pages `nomisma.org/id/<id>.jsonld` answer HTTP 500 for ids that contain an apostrophe, even percent-encoded, so no browser read was needed or made. The registered query endpoint (nomisma.org/query, the channel used for the crosswalk; Nomisma's terms are CC BY) answers for the same URIs: one query each (3 s pause) returned the concept's label, definition and exactMatch links.
+- Checked and linked: qalawun -> qala'un (Saif ad-Din Qalawun al-Salihi, the Mamluk sultan; Wikidata, VIAF and GND matches agree), kayqubad-i -> ala'_al-din_kay_qubad_i (Kayqubad I, the Seljuk sultan of Rum), qaytbay -> qa'itybay (al-Ashraf Sayf al-Din Qa'it Bay, eighteenth Burji Mamluk sultan, 872 to 901 AH).
+- Still held: kos (concept cos_city is the ancient city; our record may be the island), united-kingdom (concept is the modern state).
+
