@@ -15,3 +15,19 @@ Open items (garbled OCR, left out of the prose):
 - p.266: the first sentence on nausea ("ويجب أن يلح على غثيانه ... بالحبس") is partly garbled; the prose follows the clear continuation (left to vomit, checked only if excessive). The pomegranate in the list of fruits is garbled and left out.
 
 GEMINI: canon-disease-in-winter-and-hippocrates-on-purging | Does Hippocrates' remedy in winter read الإسهال (purging) rather than the scan's الإسعال? | card says purging preferred to venesection | scan reads الإسعال | the page image of vol. 1 p.259 or another edition of the Canon (Bulaq or Rome)
+
+## Batch scan pp. 267-276 (Fann 4, chapters 1 to 3)
+Resume: scan p.276, Fann 4, chapter 4 (common rules for vomiting and purging, "الفصل الرابع: في قوانين مشتركة للقيء والإسهال"). Fann 4 has 32 chapters; Book I is not yet finished.
+
+Open items (garbled OCR, left out of the prose):
+- p.267: the English-gloss debris around "أعطى الم (anin)" in the definition of regimen and the line about filling the stomach ("وفل ل ا ... ) فأردنا أن نسكن الشهوة بملء المعدة ( )") are garbled; the prose follows the clear words only.
+- p.268: the end of the sentence on light food for those with dense pores ("تكاثف المسام ... ") is cut off by OCR; not cited.
+- p.269: the list of four conditions for drawing matter is garbled after the first ("مخالفة الجهة"): the third condition is missing and the cupping and menses wording is broken. Only the first, second and fourth conditions are used, and the vein examples are given as examples without assigning them to a condition.
+- p.269-270: "ومتى أردت أن تجذب إلى الخلاف، فسكّن أولاً وجع العضو المجذوب عن( ni ni )" ends in garble; the clear part is used.
+- p.272: "وبما يفرط تحليلها وهو اليبوسة بالذات والحرارة بالعرض" and the sentence on how heat and cold are strengthened are partly garbled; not cited.
+- p.273: the list of the ten signs for evacuation is partly garbled ("التي تريد إسهالها لم يعرض لها إسهال" and the line after "الصناعة"); only the seven clearly named signs are cited, and the other three (the powers) are not claimed. The last sentence on tiring crafts ("وبالجملة كل صناعة متعبة ...") is garbled and not used.
+- p.274: the opening of the five aims of evacuation lists only four clearly; the fifth is not stated on the page. The final clause on hyssop water ("والحالا ...") is garbled; only hyssop water is cited.
+- p.275: the sentence on venesection and the specific evacuation of humours ("والفصد الخاص للأخلاط ... بالسوية") is garbled and not used.
+- p.276: the last lines of chapter 3 are clear; chapter 4 begins on this page and is left for the next batch.
+
+GEMINI: canon-drawing-matter-away-from-an-organ | What are the four conditions for drawing matter to the opposite side (the third is missing in the OCR) and which vein does each example illustrate? | card names opposite direction, sympathy and keeping apart | scan p.269 is garbled between the first and fourth conditions | the page image of vol. 1 p.269 or another edition of the Canon (Bulaq or Rome)
