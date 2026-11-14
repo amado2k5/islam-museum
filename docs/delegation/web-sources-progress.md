@@ -993,3 +993,6 @@ Wrote ar, en and ur prose for vila, th-nia, el-mahalla-el-kubra, ioannina, kirku
 
 - Written (ar, en, ur, draft): ardestan (Yaqut vol. 1 p. 184, Istakhri passage and scholars, plus iDAI), bolnisi and peshawar (Pleiades only; no iDAI id), kayseri, surabaya, najafabad, budapest, mytilene, bal-kesir, stuttgart (iDAI only).
 - No Yaqut entry found in volumes 1-2 for the others (Kayseri: the Qaysariyya hits are other places). Note: Stuttgart's iDAI record links GeoNames 2825297, while the data file holds 6690189; not changed. Pleiades JSON endpoint was read via the local CSV dump (same revision fields).
+## 2026-11-14 (Lane B1 packet 4) - place prose, ten places
+
+- Written (ar, en, ur, draft): nicomedia, thermopylae, itea, doucen (Pleiades), washington-dc, birmingham, famagusta, detroit, samalut, los-angeles (iDAI.gazetteer). Yaqut Mu'jam al-buldan vols 1-2 OCR searched for each Arabic name: no entry found, so no Yaqut citation. Nothing skipped.
