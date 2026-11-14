@@ -1,0 +1,11 @@
+---
+id: event/abu-al-qasim-addresses-the-covenant-breakers-and-the-sky-of-tyranny-in-verse-290
+lang: en
+source_lang: ar
+translators: ["Claude Sonnet 5.5 (claude-sonnet-5-5), draft translation"]
+---
+## Overview
+On p. 267 Abu al-Qasim also says to those who did not keep the covenant, broke the pledge of reform, followed the head of every misguidance and disliked the rule of success, that they will ask for rain from the Qasimi and get a cloud of continuous torrents of lances whose lightning is the flash of blades; that a man of Hashim in its thicket seeks the pleasure of the Merciful, so that if death's arrows pass him he gets what he hopes for; that he will cleanse the land of its unbelievers and walk his grandfather's way with generosity; and that he will give them the cup of death each morning {cite:sira-hadi-ila-al-haqq p.267}. He then says, addressing the "sky of tyranny", that it rained hardships on them, that misfortunes fell on them from the community's wrong done to his grandfather, and that they lost the book of God through injustice and innovation and inclined to false reports {cite:sira-hadi-ila-al-haqq p.267} {cite:sira-hadi-ila-al-haqq p.268}.
+
+## Detail
+On p. 268 he goes on that his anger for the religion leaves his eye no sleep, that perhaps he may revive the religion from its death and help the weak of mankind against wrong, that his enemies foolishly hope for peace from him, that he has made the book of God his cave and shield and will uphold God's judgement against whoever swerves from it, that he is the son of al-Hadi, of the branch of prophecy, and that he will ply his lance with his steed and his sword, throw himself into dangers and meet the enemy with the Himyari swords and the lances {cite:sira-hadi-ila-al-haqq p.268}. The book ascribes the verse to Abu al-Qasim and the museum has not checked the attribution; the editor notes that one line fell from manuscript S. The threats, the boasting and the description of opponents as misguided are the poet's, in a Zaydi book in the voice of the imam's followers, and the museum gives no verdict. The museum does not quote the lines nor the words of abuse and gives only their sense. They follow [[event/abu-al-qasim-ends-the-poem-of-the-lances-and-adds-the-courier-verse-290|the end of the poem of the lances and the courier verse]].
