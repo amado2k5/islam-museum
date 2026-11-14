@@ -1,0 +1,57 @@
+id: event/al-hadi-and-abu-muhammad-exchange-letters-and-verses-from-najran-286
+class: event
+kind: other
+label:
+  ar: تبادل الكتب والأشعار بين الهادي وأبي محمد عبد الله بن الحسين بشأن نجران، 286هـ
+  en: The exchange of letters and verses between al-Hadi and Abu Muhammad Abdullah ibn al-Husayn over Najran, 286 AH
+  ur: نجران کے بارے میں ہادی اور ابو محمد عبداللہ بن حسین کے درمیان خطوط اور اشعار کا تبادل، 286ھ
+summary:
+  ar: يكتب الهادي إلى أبي محمد أنه سائر إليه ويرفق كتابه بشعر يعلن فيه عزمه على قتال الناكثين واعتماده على همدان وخولان، فيقرؤه أبو محمد على الناس فيفرحون، ويجيبه بقصيدتين ثم يرد الهادي بقصيدة طويلة يبيّن فيها دوافع جهاده ويذكر جيشه ويهدد ابن بسطام ويعد بالنهوض إليه في يومين.
+  en: Al-Hadi writes to Abu Muhammad that he is coming and sends a poem with the letter declaring his resolve against those who broke their pledges and his reliance on Hamdan and Khawlan; Abu Muhammad reads it to the people, who are glad, and answers in two poems, after which al-Hadi replies in a long poem setting out his reasons for the fighting, naming his army, warning Ibn Bustam and promising to set out to him in two days.
+  ur: ہادی ابو محمد کو لکھتے ہیں کہ وہ خود آ رہے ہیں اور خط کے ساتھ ایک قصیدہ بھیجتے ہیں جس میں عہد توڑنے والوں سے لڑنے کا عزم اور ہمدان و خولان پر انحصار بیان ہے؛ ابو محمد اسے لوگوں کو سناتے ہیں تو وہ خوش ہوتے ہیں، اور دو قصیدوں میں جواب دیتے ہیں، پھر ہادی ایک طویل قصیدے میں جواب دیتے ہیں جس میں جہاد کے محرکات، اپنے لشکر کا ذکر، ابن بسطام کو تنبیہ اور دو دن میں روانگی کا وعدہ ہے۔
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0899"
+    hijri: "0286"
+    calendar: julian
+    precision: year
+    status: tradition
+    derived: true
+    note: سنة 286هـ؛ الكتاب لا يحدد الشهر ولا اليوم، والخبر واقع بين أواخر شعبان وأول ذي القعدة بحسب ترتيب السرد؛ التحويل مشتق
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/najran
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abdullah-ibn-al-husayn-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abdullah-ibn-bustam
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص147-152 ⁦(الصفحة المطبوعة)⁩'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-19
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 147-152

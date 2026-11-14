@@ -1,0 +1,53 @@
+id: event/al-hadi-pardons-the-group-at-khiwan-and-renews-their-pledges-286
+class: event
+kind: other
+label:
+  ar: عفو الهادي عن القوم بخيوان وتجديد بيعتهم، آخر شعبان 286هـ
+  en: Al-Hadi pardons the group at Khiwan and their pledges are renewed, late Sha'ban 286 AH
+  ur: خیوان میں ہادی کا قوم کو معاف کرنا اور بیعتوں کی تجدید، شعبان 286ھ کے آخر
+summary:
+  ar: يروي الكتاب أن القوم وصلوا إلى الهادي بأجمعهم يوم الجمعة وقد بقي من شعبان يومان، فاعتذروا وأقروا بخطئهم فصفح عنهم وجددوا بيعاتهم وانصرفوا، وأعاد الهادي الحسين بن الحسن العلوي إلى أثافت وصرف المجتمعين إلى أهاليهم.
+  en: The book says the whole group reached al-Hadi on the Friday with two days of Sha'ban left, apologised and admitted their fault; he pardoned them, they renewed their pledges and went home, and he sent al-Husayn ibn al-Hasan al-Alawi back to Athafit and the men gathered to him back to their families.
+  ur: کتاب کے مطابق جمعہ کے دن، جب شعبان کے دو دن باقی تھے، پوری قوم ہادی کے پاس پہنچی، معذرت کی اور اپنی خطا مانی؛ انہوں نے معاف کیا، بیعتیں تازہ ہوئیں اور لوگ لوٹ گئے، اور ہادی نے حسین بن حسن علوی کو اثافت واپس بھیجا اور جمع لوگوں کو ان کے گھروں کو۔
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: 0899-08
+    hijri: 0286-08
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: أواخر شعبان سنة 286هـ بقول الكتاب يوم الجمعة ليومين بقيا منه؛ الكتاب يجعله الجمعة والتقويم الجدولي يجعل الجمعة 27 شعبان؛ الدقة شهرية؛ شعبان يبدأ نحو 12 آب 899م جولياني بالتقويم الجدولي؛ التحويل مشتق
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/khiwan
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/husayn-ibn-al-hasan-al-alawi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص143 ⁦(الصفحة المطبوعة)⁩'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-19
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 143

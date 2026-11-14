@@ -6,8 +6,8 @@ label:
 roles: [scholar, writer]
 gender: male
 summary:
-  ar: "بطاقة أولية لمحمد باقر المجلسي، علّامة الإمامية في أواخر الدولة الصفوية وشيخ إسلامها صاحب «بحار الأنوار»، توفي سنة ١٦٩٩م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Muhammad Baqir al-Majlisi, the Imami scholar and shaykh al-islam of late Safavid Iran author of Bihar al-Anwar, d. 1699; the biographical entry is not yet checked on the page."
+  ar: "محمد باقر بن محمد تقي المجلسي الأصفهاني، علامة إمامي، تولى مشيخة الإسلام في أصفهان وترجم إلى الفارسية مجموعة كبيرة من الأحاديث، صاحب «بحار الأنوار» في 25 جزءاً؛ يذكر الأعلام وفاته سنة 1111 هـ الموافقة 1700 م."
+  en: "Muhammad Baqir al-Majlisi of Isfahan, an Imami (Twelver) scholar who held the office of shaykh al-Islam there and translated many hadiths into Persian, author of Bihar al-Anwar in 25 parts; al-A'lam gives his death as 1111 AH, 1700 CE."
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/gunpowder-empires]
@@ -19,16 +19,16 @@ relations:
   - { type: born_in, target: place/isfahan-province, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1367759)" }
   - { type: born_in, target: place/isfahan, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q42053)" }
   - { type: buried_in, target: building/jame-masjid-isfahan, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q1256501)" }
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002, source/wikidata]
 external_ids:
   wikidata: Q755939
   viaf: "90076153"
-provenance:
-  layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0016
 status:
   review: draft
-  completeness: 1
+  completeness: 3
+provenance:
+  layer: own-research
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
