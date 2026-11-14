@@ -3902,3 +3902,34 @@ Resume point: sharh-saheeh-al-bukhare episode 19 (branch from origin/main).
 | Remarks on modern states and armies and a soldier's story | ep19 00:34:00-00:35:00 | Sweeping claim about a modern conflict, partly looped | Content rule, Clarity | Open |
 
 Resume point: sharh-saheeh-al-bukhare episode 20 (branch from origin/main).
+
+### sharh-saheeh-al-bukhare ep20 (14 Nov 2026)
+
+24 points written for episode 20 (ar, en, ur); 16 needs_source marks in each language file for this episode; 3 new `about` edges. Quran verses referenced only through passage links (50-41, 14-22); none typed. Contested: He holds that one should stay and fill every field rather than leave a land of evil, has reservations on a bank-work opinion, defines dar al-Islam and dar al-harb in his own terms, and gives his own rulings on oath and Ramadan expiation; all are his views. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep20) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greetings, praise and supplication | ep20 00:00:00-00:02:00 | Greeting and opening prayer | Content rule | Open |
+| Closing supplication and farewell | ep20 01:18:00-01:18:00 | Closing prayer | Content rule | Open |
+| Naming countries and regions as abode of war or abode of Islam | ep20 00:04:00-00:04:30 | Sweeping claims about peoples and states | Voice rule | Open |
+| Claims that non-Muslim states take and re-educate Muslim children, and that Islam is blamed for backwardness | ep20 00:05:00-00:07:00 | Sweeping claims about peoples and modern politics | Voice rule | Open |
+| Nuclear weapons, Napoleon and the French legal code, a named writer and Jamal al-Din al-Afghani | ep20 00:07:00-00:16:30 | Sweeping claims about peoples and states, personal attacks, heavy garbling | Voice rule | Open |
+| Loop of repeated syllables | ep20 00:14:00-00:14:30 | Loop | Clarity, Loop check | Open |
+| Students, lecture schedules and prayer, Gulf of anecdotes | ep20 00:16:30-00:17:00 | Garbled | Clarity, Loop check | Open |
+| Three scholars and the voice, Bedouin wording, language professor and Umar anecdote | ep20 00:20:30-00:24:30 | Garbled, cannot recover the point | Clarity, Loop check | Open |
+| Loop of repeated syllables | ep20 00:25:00-00:25:30 | Loop | Clarity, Loop check | Open |
+| Blind judge, Umar and poetry, non-Arabic words in the Qur'an | ep20 00:26:30-00:29:00 | Garbled | Clarity, Loop check | Open |
+| New Year night and knowledge session, loop of one word | ep20 00:32:00-00:33:00 | Garbled and loop | Clarity, Loop check | Open |
+| Procrastination talk and loop of repeated letters | ep20 00:34:00-00:34:30; 00:37:30 | Garbled and loop | Clarity, Loop check | Open |
+| Strategy of Europeans, missions, theatre, liberation of women and claims about Jews | ep20 00:38:30-00:42:30 | Sweeping claims about peoples, women and groups | Content rule, Voice rule | Open |
+| Loop of repeated characters and numbers | ep20 00:39:30; 00:44:00 | Loop | Clarity, Loop check | Open |
+| Court summons analogy and sayings on turning to God | ep20 00:43:30-00:45:30 | Garbled | Clarity, Loop check | Open |
+| Hajj intention story, test through a son | ep20 00:47:00-00:49:00 | Garbled | Clarity, Loop check | Open |
+| Loop of repeated phrase | ep20 00:49:30-00:49:30 | Loop after the first lines | Clarity, Loop check | Open |
+| Tale of three men and the miser, loop | ep20 00:51:00-00:52:00 | Garbled | Clarity, Loop check | Open |
+| Loops of repeated letters | ep20 00:59:00-01:01:00 | Loop | Clarity, Loop check | Open |
+| Mosque attendance and remarks on the series and al-Bukhari | ep20 01:01:00-01:02:00 | Garbled | Clarity, Loop check | Open |
+| Marriage stories, suitor inspection, case of an unmarried woman and family costs | ep20 01:04:30-01:06:30; 01:07:30-01:09:00; 01:09:30-01:10:00 | Garbled, anecdotes without source | Clarity, Loop check | Open |
+| Garbled remarks before the orphan line and loops after Qur'an teaching | ep20 01:13:00-01:13:30; 01:14:30; 01:17:00-01:18:00 | Garbled and loop | Clarity, Loop check | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 21 (branch from origin/main).
