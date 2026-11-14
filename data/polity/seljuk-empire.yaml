@@ -35,12 +35,14 @@ capitals:
 - place: place/nishapur
 external_ids:
   wikidata: Q3708094
+  nomisma: "seljuqs"
 relations:
 - { type: had_capital, target: place/nishapur, sources: [source/wikidata] }
 - {type: participated_in, target: event/battle-of-dandanqan-1040, sources: [source/encyclopaedia-of-islam-2], note: 'The record''s own prose: with Mas''ud''s defeat at Dandanqan in 431/1040 the Seljuks took Khurasan (EI2 vol. 8 p. 1004). Audit S12, 13 Nov 2026.'}
 sources:
 - source/wikidata
 - source/encyclopaedia-of-islam-2
+- source/nomisma
 provenance:
   layer: cc0
   source: Wikidata (CC0), local subset built 12 Oct 2026 from the 96 GiB dump

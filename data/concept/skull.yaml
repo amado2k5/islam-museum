@@ -1,0 +1,18 @@
+id: concept/skull
+class: concept
+kind: scientific
+label: { ar: "القحف في تشريح ابن سينا", en: "The skull in the Canon", ur: "قانون میں کھوپڑی" }
+summary:
+  ar: "يبدأ ابن سينا تشريح عظام الرأس بالقحف، ويرى أن منفعة جملته أنه جُنّة للدماغ ساترة وواقية من الآفات، وأن خلقه قبائل كثيرة وعظاماً فوق واحد له منافع تتعلق بالعظم نفسه وبما يحويه {cite:canon-ibn-sina-print-v1 p.43}."
+  en: "Ibn Sina begins the anatomy of the head with the skull (qahf). He holds that its whole use is as a covering shield for the brain, protecting it from harm, and that its making in many parts and several bones has uses that concern the bone itself and uses that concern what it holds {cite:canon-ibn-sina-print-v1 p.43}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/bones, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 1, Jumla 1 on bones (scan pages 40 to 55), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-bones-1
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

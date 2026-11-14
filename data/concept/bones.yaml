@@ -1,0 +1,18 @@
+id: concept/bones
+class: concept
+kind: scientific
+label: { ar: "العظام عند ابن سينا", en: "Bones in the Canon", ur: "قانون میں ہڈیاں" }
+summary:
+  ar: "يفتتح ابن سينا الجملة الأولى من تشريح الأعضاء المفردة في الكتاب الأول من «القانون» بالعظام، ويجعلها ثلاثين فصلاً، أولها كلام كلي في العظام والمفاصل {cite:canon-ibn-sina-print-v1 p.42}. ويرى أن جملة العظام دعامة للبدن وقوام له، وأن منها ما هو أساس يُبنى عليه البدن كفقار الصلب، ومنها ما يدفع به الصادم والمؤذي كالسناسن، ومنها ما هو حشو بين فرج المفاصل {cite:canon-ibn-sina-print-v1 p.42}."
+  en: "Ibn Sina opens the first group of the Canon's anatomy of the simple organs, in Book I, with the bones, which he treats in thirty chapters; the first is a general discourse on bones and joints {cite:canon-ibn-sina-print-v1 p.42}. He holds that the bones as a whole are the prop and the frame of the body, and that some are the foundation on which the body is built, such as the spinal vertebrae, some are what repels a blow or an injury, such as the spines, and some are filling between the gaps of the joints {cite:canon-ibn-sina-print-v1 p.42}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/anatomy, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 1, Jumla 1 on bones (scan pages 40 to 55), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-bones-1
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }
