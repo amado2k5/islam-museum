@@ -1,0 +1,57 @@
+id: event/ahmad-ibn-abbad-asks-safety-is-refused-and-goes-to-iraq-287
+class: event
+kind: other
+label:
+  ar: "أحمد بن عباد يطلب الأمان فلا يؤمَّن ويخرج إلى العراق، 287هـ"
+  en: "Ahmad ibn Abbad asks for safety, is refused and goes to Iraq, 287 AH"
+  ur: "احمد بن عباد کی امان کی درخواست، انکار اور عراق روانگی، 287ھ"
+summary:
+  ar: "يكتب أحمد بن عباد الأكيلي إلى الهادي يطلب الأمان فيأبى، ويعلل الراوي ذلك بأن الهادي عرف أنه لا ينصحه، فيخرج إلى تهامة ثم مكة ثم العراق يستصرخ بالمسودة على الهادي ويقيم سنة دون إجابة ثم يعود إلى مكة واليمن، وفي حاشية المحقق خبران من كتابين متأخرين."
+  en: "Ahmad ibn Abbad al-Akili writes to al-Hadi asking for safety and is refused, the narrator explaining that al-Hadi knew he would not counsel him well; he goes to Tihama, Mecca and Iraq to call the black-clad force against al-Hadi, stays a year unanswered, and returns to Mecca and Yemen; the editor's note gives two reports from later books."
+  ur: "احمد بن عباد اکیلی ہادی کو امان کے لیے لکھتا ہے اور انکار ہوتا ہے، راوی کی وضاحت کے مطابق ہادی جانتے تھے کہ وہ ان کا خیر خواہ نہیں؛ وہ تہامہ، مکہ اور عراق جاتا ہے تاکہ مسودہ لشکر کو ہادی کے خلاف پکارے، ایک سال بغیر جواب رہتا ہے اور مکہ و یمن لوٹ آتا ہے؛ مدیر کا حاشیہ دو بعد کی کتابوں کی دو روایات دیتا ہے۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0900"
+    hijri: "0287"
+    calendar: julian
+    precision: year
+    status: tradition
+    derived: true
+    note: "سنة 287هـ؛ يتبع خبر الكليبيين دون ذكر الشهر؛ الدقة سنوية؛ التحويل مشتق"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/tihama
+- type: occurred_at
+  target: place/mecca
+- type: occurred_at
+  target: place/iraq
+- type: had_participant
+  target: person/ahmad-ibn-abbad-al-akili
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص197-198 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-24
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 197-198
