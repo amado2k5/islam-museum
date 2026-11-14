@@ -6,26 +6,29 @@ label:
 roles: [scholar, poet, theologian]
 gender: male
 summary:
-  ar: "بطاقة أولية لابن البطريق الحلي، العالم والشاعر العراقي صاحب «الخصائص»، توفي سنة ١٢٠٤م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ibn al-Bitriq al-Hilli, the Iraqi scholar and poet, author of al-Khasa'is, d. 1204; the biographical entry is not yet checked on the page."
+  ar: "يحيى بن الحسن بن الحسين بن علي بن محمد بن البطريق، أبو الحسين الأسدي الحلي، باحث من فقهاء الإمامية، من أهل الحلة، سكن بغداد مدة ونزل بواسط وكان في حلب سنة 596 هـ، من كتبه «العمدة في عيون صحاح الأخبار» و«اتفاق صحاح الأثر في إمامة الأئمة الاثني عشر»، توفي سنة 600 هـ {cite:alam-zirikli-dar-al-ilm-2002 vol. 8 p. 141}."
+  en: "Yahya ibn al-Hasan ibn al-Husayn ibn Ali ibn Muhammad ibn al-Bitriq, Abu al-Husayn al-Asadi al-Hilli, a researcher counted among the Imami (Twelver Shi'i) jurists; from Hilla, he lived for a time in Baghdad, stayed in Wasit and was in Aleppo in 596 AH, and his books include al-Umda fi uyun sihah al-akhbar and Ittifaq sihah al-athar fi imamat al-a'imma al-ithna ashar; he died in 600 AH (1204 CE) {cite:alam-zirikli-dar-al-ilm-2002 vol. 8 p. 141}."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/crusades-ayyubid-mamluk]
-born: { edtf: "1138", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Amal al-Amil" }
-died: { edtf: "1204", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Amal al-Amil" }
+born: { edtf: "1138", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Amal al-Amil. al-Zirikli prints 523 AH = 1129 CE {cite:alam-zirikli-dar-al-ilm-2002 vol. 8 p. 141}, nine years earlier than the card; the card year is kept pending an outside source.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+died: { edtf: "1204", hijri: "0600", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Amal al-Amil. al-Zirikli prints 600 AH = 1204 CE {cite:alam-zirikli-dar-al-ilm-2002 vol. 8 p. 141}, agreeing with the card.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
-  - { type: born_in, target: place/hilla, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-  - { type: died_in, target: place/hilla, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/al-aalam, source/wikidata]
+  - { type: born_in, target: place/hilla, confidence: medium, note: "Place link from Wikidata; pending a second source. al-Zirikli, vol. 8 p. 141, calls him one of the people of Hilla.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
+  - { type: died_in, target: place/hilla, confidence: medium, note: "Place link from Wikidata; pending a second source. al-Zirikli gives no place of death.", sources: [source/wikidata] }
+  - { type: lived_in, target: place/baghdad, confidence: high, note: "al-Zirikli, al-A'lam, vol. 8 p. 141: lived in Baghdad for a time", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+  - { type: lived_in, target: place/wasit, confidence: high, note: "al-Zirikli, al-A'lam, vol. 8 p. 141: stayed at Wasit", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+  - { type: traveled_to, target: place/aleppo, confidence: high, note: "al-Zirikli, al-A'lam, vol. 8 p. 141: was in Aleppo in 596 AH", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q67380991
   viaf: "103373918"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0086
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3

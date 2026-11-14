@@ -6,25 +6,25 @@ label:
 roles: [poet, writer]
 gender: male
 summary:
-  ar: "بطاقة أولية لأبي الفيض فيضي بن مبارك الناغوري، شاعر بلاط أكبر وشاعر المملكة فيه وأخو أبي الفضل، توفي سنة ١٥٩٥م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abu al-Fayd Faydi ibn Mubarak al-Nagori, Akbar's poet laureate and brother of Abu'l-Fadl, d. 1595; the biographical entry is not yet checked on the page."
+  ar: "فيض الله المعروف بفيضي بن مبارك الأكبر آبادي، مفسر عارف بالأدبين العربي والفارسي من أهل الهند، ولد وتوفي بأكبر آباد، اتصل بالسلطان أكبر ولقب بملك الشعراء، وله «سواطع الإلهام» تفسير بالحروف غير المنقطعة وديوان فارسي وترجمة «ليلاوتي» عن السنسكريتية، 954 إلى 1004 هـ الموافقة 1547 إلى 1595 م {cite:alam-zirikli-dar-al-ilm-2002 vol. 5 p. 168}."
+  en: "Fayd Allah, known as Faizi, son of Mubarak, of Akbarabad, an exegete versed in Arabic and Persian letters, born and died at Akbarabad (Agra), 954 to 1004 AH (1547 to 1595 CE); he attached himself to Sultan Akbar and was called king of poets, and his works include Sawati' al-Ilham, a commentary in undotted letters, a Persian diwan and a translation of Lilavati from Sanskrit {cite:alam-zirikli-dar-al-ilm-2002 vol. 5 p. 168}."
 wings: [people]
 regions: [south-asia]
 periods: [period/gunpowder-empires]
-born: { edtf: "1547", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Bada'uni (Muntakhab) Confirmed on 13 November 2026 against Wikidata Q336120 (P569, a statement with a reference), item revision 2533528678.", sources: [source/wikidata] }
-died: { edtf: "1595", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Bada'uni (Muntakhab) Confirmed on 13 November 2026 against Wikidata Q336120 (P570, a statement with a reference), item revision 2533528678.", sources: [source/wikidata] }
+born: { edtf: "1547", hijri: "0954", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Bada'uni (Muntakhab) Confirmed on 13 November 2026 against Wikidata Q336120 (P569, a statement with a reference), item revision 2533528678. al-Zirikli prints 954 AH = 1547 CE {cite:alam-zirikli-dar-al-ilm-2002 vol. 5 p. 168}, agreeing with the card.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
+died: { edtf: "1595", hijri: "1004", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Bada'uni (Muntakhab) Confirmed on 13 November 2026 against Wikidata Q336120 (P570, a statement with a reference), item revision 2533528678. al-Zirikli prints 1004 AH = 1595 CE {cite:alam-zirikli-dar-al-ilm-2002 vol. 5 p. 168}, agreeing with the card.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
 relations:
-  - { type: born_in, target: place/agra, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-  - { type: died_in, target: place/agra, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/al-aalam]
+  - { type: born_in, target: place/agra, confidence: high, note: "al-Zirikli, al-A'lam, vol. 5 p. 168: born at Akbarabad, that is Agra", sources: [source/alam-zirikli-dar-al-ilm-2002, source/wikidata] }
+  - { type: died_in, target: place/agra, confidence: high, note: "al-Zirikli, al-A'lam, vol. 5 p. 168: died at Akbarabad, that is Agra", sources: [source/alam-zirikli-dar-al-ilm-2002, source/wikidata] }
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q336120
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0016
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3

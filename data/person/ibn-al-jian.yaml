@@ -5,23 +5,25 @@ names:
   - { value: "شهاب الدين أحمد بن يحيى بن شاكر بن عبد الغني بن الجيعان", kind: full }
 gender: male
 summary:
-  ar: "شهاب الدين أحمد بن يحيى بن شاكر بن عبد الغني بن الجيعان؛ توفي في شعبان سنة تسع وثمانين وثمانمائة عن أربعين سنة {cite:shadharat-dhahab p. 348}."
-  en: "Ibn al-Ji'an — died Sha'ban 889 at forty {cite:shadharat-dhahab p. 348}."
+  ar: "شهاب الدين أحمد بن يحيى بن شاكر بن عبد الغني بن الجيعان؛ توفي في شعبان سنة تسع وثمانين وثمانمائة عن أربعين سنة {cite:shadharat-dhahab vol. 9 p. 522}."
+  en: "Shihab al-Din Ahmad ibn Yahya ibn Shakir ibn Abd al-Ghani Ibn al-Ji'an; died in Sha'ban 889 AH at the age of forty {cite:shadharat-dhahab vol. 9 p. 522}."
 roles: [jurist]
 wings: [people]
 themes: [education]
 periods: [period/mongol-post-mongol]
 regions: [egypt-nile]
-died: { edtf: "1484-08~", hijri: "0889-08", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي شعبان 889 عن 40 {cite:shadharat-dhahab p. 348}", sources: [source/shadharat-dhahab] }
+born: { edtf: "1445~", calendar: julian, precision: year, status: tradition, derived: true, note: "Derived from the age of forty given at death in Sha'ban 889 AH {cite:shadharat-dhahab vol. 9 p. 522}.", sources: [source/shadharat-dhahab] }
+died: { edtf: "1484-08~", hijri: "0889-08", calendar: julian, precision: month, status: tradition, derived: true, note: "Died in Sha'ban 889 AH at forty {cite:shadharat-dhahab vol. 9 p. 522}", sources: [source/shadharat-dhahab] }
 relations:
-  - { type: lived_in, target: place/misr, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/shadharat-dhahab] }
+  - { type: lived_in, target: place/misr, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place. The Shadharat notice names no place.", sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
-  source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 889)، قراءة آبل فيجن"
-  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-shadharat-batch-142
+  source: "Ibn al-Imad, Shadharat al-Dhahab, year 889 AH, entry read in full from the local OpenITI text (Dar Ibn Kathir edition, vol. 9)"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-shadharat-2026-11-14
 sources: [source/shadharat-dhahab]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (Lane B2 packet)" }
 occupations:
   - job: job/faqih
     kind: primary

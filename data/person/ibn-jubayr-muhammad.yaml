@@ -25,10 +25,11 @@ relations:
   - { type: died_in, target: place/alexandria, sources: [source/nafh-tib-maqqari, source/shadharat-dhahab] }
 story_roles:
   - { role: traveller-observer, status: tradition, sources: [source/rihla-ibn-jubayr-1907, source/nafh-tib-maqqari] }
-sources: [source/rihla-ibn-jubayr-1907, source/nafh-tib-maqqari, source/shadharat-dhahab]
+sources: [source/rihla-ibn-jubayr-1907, source/nafh-tib-maqqari, source/shadharat-dhahab, source/wikidata-ibn-jubayr-muhammad]
 importance: 2
 status: { review: draft, completeness: 1, generated_by: "Claude Code; drafted from the Rihla of Ibn Jubayr, Gibb Memorial 1907" }
 kids:
   ar: "ابن جبير رحالة من الأندلس، وصف رحلته للحج والشام ومصر والعراق في كتاب أصبح أشهر سيرة سفر."
   en: "Ibn Jubayr, a traveller from al-Andalus, described his pilgrimage and journeys through Syria, Egypt and Iraq in a book that became the most famous travel record."
   ur: "ابن جبیر اندلس کا سیاح تھا — حج اور شام، مصر اور عراق کے سفر کا ایسی کتاب میں بیان کیا جو سفر کی سب سے مشہور تحریر بنی۔"
+external_ids: { wikidata: "Q367319" }
