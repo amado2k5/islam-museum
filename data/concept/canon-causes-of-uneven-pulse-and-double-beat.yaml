@@ -1,0 +1,18 @@
+id: concept/canon-causes-of-uneven-pulse-and-double-beat
+class: concept
+kind: scientific
+label: { ar: "أسباب اختلاف النبض والمنشاري وذي القرعتين عند ابن سينا", en: "The causes of the uneven, saw and double-beat pulses in the Canon", ur: "مختلف، منشاری اور دو ضربوں والی نبض کے اسباب قانون میں" }
+summary:
+  ar: "يذكر ابن سينا أسباب اختلاف النبض وأسباب المنشاري وذي القرعتين {cite:canon-ibn-sina-print-v1 p.175}."
+  en: "Ibn Sina gives the causes of unevenness in the pulse and of the saw and double-beat pulses {cite:canon-ibn-sina-print-v1 p.175}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/canon-pulse-in-general, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, Ta'lim 3, the pulse chapters 2 to 11 (scan pages 171 to 179), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-pulse-causes-1
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }
