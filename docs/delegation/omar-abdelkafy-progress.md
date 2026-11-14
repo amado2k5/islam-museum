@@ -4150,6 +4150,22 @@ Resume point: sharh-saheeh-al-bukhare episode 26 (branch from origin/main).
 
 Resume point: sharh-saheeh-al-bukhare episode 27 (branch from origin/main).
 
+### alwaad-alhaq ep22 (14 Nov 2026)
+
+20 points written for episode 22 (ar, en, ur); 19 needs_source marks for this episode in each language file; edges added to the series record for long hope, injustice, being led on, self-deception, wine, the Night of Power, Ata ibn Abi Rabah, Qarun, Haman and Ubayy ibn Khalaf. Quran verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
+
+| Excluded (alwaad-alhaq ep22) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening and closing prayers, thanks and sign-off | ep22 00:54:30-00:55:30 | Not teaching; closing prayer includes an imprecation against unnamed enemies | Content rule | Open |
+| Parable and prayer fragment on a prayer invalidated in bowing | ep22 00:04:00 | Garbled | Clarity | Open |
+| Examples of rich countries discarding food and fish to protect prices, and a Google percentage | ep22 00:15:30 | Garbled and looped, claims unsupported | Clarity, Loop check | Open |
+| Remarks on outside parties controlling the media and on Zionists | ep22 00:29:30 | Garbled sweeping claim on a modern conflict | Voice rule, Clarity | Open |
+| Name of the follower led to pray by Ata, the Companion with the camel (Usama?), the Companion teaching Islam, the man in the trench | ep22 00:08:30, 00:09:30, 00:41:30, 00:53:30 | Names rest on garbled words | Clarity | Open |
+| Ghazali and the Shafi'i view on a prayer lengthened for show, Ibn Abbas on the dog and the thieves | ep22 00:37:00-00:38:00 | Garbled | Clarity | Open |
+| Story of the promise-breaker attributed to a named scholar | ep22 00:33:30 | Name garbled | Clarity | Open |
+| Loops and repeated blessings | ep22 00:08:00, 00:14:00, 00:29:00, 00:34:00, 00:50:00, 00:54:00 | Loops | Loop check | Open |
+
+Resume point: alwaad-alhaq episode 23 (branch from origin/main).
 ### sharh-saheeh-al-bukhare ep27 (14 Nov 2026)
 
 28 points written for episode 27 (ar, en, ur); 22 needs_source marks in each language file for this episode; 8 new `about` edges. Quran verses referenced only through passage links (3-37, 25-63); none typed. Contested: His readings of the Prophet's request for a writing and its dispute, his remark that Abu Bakr's appointment of Umar shows real democracy, his comment on Khalid's removal, and his application of the hadith on raised graves are his own and are contested; the reports on Khalid, al-Qa'qa' and Ali and Fatima are given without chains. Checked line by line against the transcript by a second reader before merge.
