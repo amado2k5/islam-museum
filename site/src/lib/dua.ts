@@ -5,7 +5,7 @@
 // later appears here the day its passage record lands; curated records join through the
 // `dua-browser` tag. There is no side list.
 import { byId, realNodes } from "./graph";
-import { duaCorpusOf, duaKindOf, duaSignalsOf, duaTagSection, DUA_TAG, isDuaPassage, type DuaKind, type DuaSection } from "../../../scripts/dua";
+import { duaCorpusOf, duaKindOf, duaSignalsOf, duaTagSection, DUA_TAG, DUA_OCCASIONS, duaOccasionOf, isDuaPassage, type DuaKind, type DuaSection } from "../../../scripts/dua";
 import type { Node } from "../../../scripts/build-graph";
 
 export { DUA_SECTIONS, type DuaKind, type DuaSection } from "../../../scripts/dua";
@@ -39,3 +39,10 @@ export const duaItems: DuaItem[] = realNodes
 
 /** Detector debug aid for tests and the API: the matched signal names of a passage. */
 export const duaSignals = (n: Node): string[] => duaSignalsOf(n);
+
+/** The occasions axis: al-Adhkar's divisions that hold at least one record, in the book's order, each with its records. */
+export const duaOccasions = DUA_OCCASIONS
+  .map((o) => ({ ...o, items: duaItems.filter((i) => duaOccasionOf(i.node) === o.id).sort((a, b) => a.node.id.localeCompare(b.node.id)) }))
+  .filter((o) => o.items.length > 0);
+export const duaOccasionTotal = DUA_OCCASIONS.length;
+

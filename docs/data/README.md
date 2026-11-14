@@ -128,6 +128,8 @@ A date is an object (`schema/_base.schema.json`, `$defs.date`) so that nothing i
 
 **Unverified dates.** In the API and the compiled graph a person record may carry `unverified_dates` (`born`, `died`, each a date object). These are years an automated pass recorded and no source has yet confirmed: they are kept out of `born` and `died`, so nothing that reads those fields places the person in time by them. The data file itself still holds them under `born`/`died` with the note "Date-enrichment pass" and no `sources`.
 
+**Du'a occasions.** In `/api/v1/duas.json` each record carries `occasion`: the division of al-Nawawi's al-Adhkar it is filed under (`day`, `hardship`, `fasting`, `hajj`, `food`, `forgiveness`, … ; the full list is `DUA_OCCASIONS` in `scripts/dua.ts`), or null. A record is filed by its `dua-occ-<id>` tag, never by guesswork.
+
 ### Collection context
 
 Records are harvested from classical Arabic sources first (sira, hadith collections, tabaqat, chronicles, geographers) and from modern reference works, by human contributors and by AI-assisted pipelines working under `docs/agents/`. Every record names its sources; the provenance block says who or what wrote it. All records are currently in `draft` review status: nothing is marked `reviewed` until a person has checked it against its sources, and `docs/coverage.md` (regenerated on every content commit) reports the counts by review status. Read the data as a cited draft reference, not as a verified corpus.

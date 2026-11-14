@@ -1,0 +1,11 @@
+---
+id: practice/sayyid-al-istighfar
+lang: en
+source_lang: ar
+translators: ["Claude Fable 5.2 (claude-fable-5-2), draft translation"]
+---
+## Summary
+What al-Nawawi gives at the head of the Book of Seeking Forgiveness in al-Adhkar: the chief supplication for forgiveness from Sahih al-Bukhari, from Shaddad ibn Aws; the Prophet's daily seeking of forgiveness, from the two Sahihs; and the wordings found in the Sunan. {cite:al-adhkar-nawawi-arnaut-1994 p. 402}
+
+## What al-Nawawi gathers in al-Adhkar
+Al-Nawawi says this book is among the matters most worth attention, and that he ends his work with it in the hope that God will seal with it {cite:al-adhkar-nawawi-arnaut-1994 p. 402}. From Sahih Muslim, from al-Agharr al-Muzani, and from Sahih al-Bukhari, from Abu Hurayra, he reports that [[person/muhammad|the Prophet]] sought forgiveness a hundred times a day, and more than seventy times {cite:al-adhkar-nawawi-arnaut-1994 p. 402}. From Sahih al-Bukhari, from Shaddad ibn Aws, he gives the chief supplication for forgiveness: «اللهم أنت ربي لا إله إلا أنت خلقتني وأنا عبدك، وأنا على عهدك ووعدك ما استطعت، أعوذ بك من شر ما صنعت، أبوء لك بنعمتك علي، وأبوء بذنبي، فاغفر لي فإنه لا يغفر الذنوب إلا أنت», O God, You are my Lord; You created me and I am Your servant, keeping Your covenant as far as I can; I admit Your favour on me and I admit my sin, so forgive me, for none forgives sins but You. The report says that whoever says it with certainty by day and dies that day, or by night and dies before morning, is of the people of Paradise; al-Nawawi glosses «أبوء» as "I acknowledge and confess" {cite:al-adhkar-nawawi-arnaut-1994 p. 403}. From the Sunan of Abu Dawud, al-Tirmidhi and Ibn Majah, from Ibn Umar, that they would count him saying a hundred times in one sitting: «رب اغفر لي وتب علي إنك أنت التواب الرحيم», and he quotes al-Tirmidhi's grading of it as sound {cite:al-adhkar-nawawi-arnaut-1994 p. 403}. From the Sunan of Abu Dawud and al-Tirmidhi, from Ibn Mas'ud: «أستغفر الله الذي لا إله إلا هو الحي القيوم وأتوب إليه», quoting al-Hakim's grading of it as sound {cite:al-adhkar-nawawi-arnaut-1994 p. 404}. He then says the subject is very wide and that keeping it short makes it easier to hold {cite:al-adhkar-nawawi-arnaut-1994 p. 404}.

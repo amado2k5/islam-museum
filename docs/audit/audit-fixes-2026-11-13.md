@@ -299,7 +299,7 @@ Recorded in `docs/decisions/inbox/audit-part-vi-founder-choices-2026-11-13.yaml`
 | Untestable dates (item 8) | Compare with Wikidata where there is an id; the rest leave timelines and sorted lists and stay on the page, marked unverified | Done, see below |
 | Connectedness (item 9) | Measure subject records only; count the sources nothing cites beside it | Done: `scripts/audit/subject-reach.py` |
 | S2 | Write the two missing digests from al-Tabari, al-Turki edition, vol. 19 pp. 466-469 and vol. 24 pp. 727-730 | Done: S2 is GREEN for the two verses the brief named; the pages were read on Shamela through a fetch, not on a printed copy |
-| S24 | Build the Du'a occasions axis from al-Nawawi's al-Adhkar (structure checked on Shamela) | To do |
+| S24 | Build the Du'a occasions axis from al-Nawawi's al-Adhkar (structure checked on Shamela) | Begun 14 November: the browser's introduction never promised occasions (baseline not reproduced), and only 104 of its 451 passages could be placed by their wording, so the axis is built on new records written from al-Adhkar itself: 16 records in 6 of 20 divisions (`dua-occ-<id>` tags, `/dua/occasion/<id>/`). Fourteen divisions are still to be read. |
 | The Signs door (item 6) | Not raised; stays as built | |
 
 ### Connectedness, restated (founder decision, 13 November 2026)

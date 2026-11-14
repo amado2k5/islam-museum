@@ -6,7 +6,24 @@ summary:
   ar: "بطاقة أولية للأذكار المنتخب من كلام سيد الأبرار للإمام النووي؛ لم تُراجع مصادرها على الصفحة بعد."
   en: "Draft card for al-Adhkar al-Muntakhab min Kalam Sayyid al-Abrar, al-Nawawi's book of remembrances; its sources are not yet checked on the page."
 wings: []
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/al-adhkar-nawawi-arnaut-1994]
+relations:
+  - { type: about, target: practice/dua-at-ablution, sources: [source/al-adhkar-nawawi-arnaut-1994] }
+  - { type: about, target: practice/dua-in-distress, sources: [source/al-adhkar-nawawi-arnaut-1994] }
+  - { type: about, target: practice/dua-of-laylat-al-qadr, sources: [source/al-adhkar-nawawi-arnaut-1994] }
+  - { type: about, target: practice/dua-on-dressing, sources: [source/al-adhkar-nawawi-arnaut-1994] }
+  - { type: about, target: practice/dua-on-entering-and-leaving-the-mosque, sources: [source/al-adhkar-nawawi-arnaut-1994] }
+  - { type: about, target: practice/dua-on-entering-and-leaving-the-toilet, sources: [source/al-adhkar-nawawi-arnaut-1994] }
+  - { type: about, target: practice/dua-on-entering-the-house, sources: [source/al-adhkar-nawawi-arnaut-1994] }
+  - { type: about, target: practice/dua-on-going-to-the-mosque, sources: [source/al-adhkar-nawawi-arnaut-1994] }
+  - { type: about, target: practice/dua-on-hearing-the-adhan, sources: [source/al-adhkar-nawawi-arnaut-1994] }
+  - { type: about, target: practice/dua-on-leaving-the-house, sources: [source/al-adhkar-nawawi-arnaut-1994] }
+  - { type: about, target: practice/dua-on-seeing-the-new-moon, sources: [source/al-adhkar-nawawi-arnaut-1994] }
+  - { type: about, target: practice/dua-on-waking, sources: [source/al-adhkar-nawawi-arnaut-1994] }
+  - { type: about, target: practice/dua-when-food-is-served, sources: [source/al-adhkar-nawawi-arnaut-1994] }
+  - { type: about, target: practice/dua-when-frightened, sources: [source/al-adhkar-nawawi-arnaut-1994] }
+  - { type: about, target: practice/sayyid-al-istighfar, sources: [source/al-adhkar-nawawi-arnaut-1994] }
+  - { type: about, target: practice/talbiya, sources: [source/al-adhkar-nawawi-arnaut-1994] }
 external_ids: { wikidata: "Q16165404" }
 provenance:
   layer: own-research
