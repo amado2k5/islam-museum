@@ -6,25 +6,26 @@ label:
 roles: [military]
 gender: male
 summary:
-  ar: "بطاقة أولية لحبيب بن مظاهر الأسدي، من شيوخ الكوفة الذين نصروا الحسين بن علي وقُتل معه بكربلاء سنة ٦٨٠م؛ تذكره كتب المقتل والتراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Habib ibn Muzahir al-Asadi, the elder of Kufa who joined Husayn ibn Ali and was killed with him at Karbala in 680; the biographical entry is not yet checked on the page."
+  ar: "حبيب بن مظهر، أو مظاهر، بن رئاب الأسدي الكندي ثم الفقعسي، تابعي من القواد الشجعان، نزل الكوفة وصحب علي بن أبي طالب في حروبه، وكان على ميسرة الحسين يوم كربلاء وقتل معه سنة 61 هـ."
+  en: "Habib ibn Muzahir (also written Muzhir or Mutahhir) ibn Ri'ab al-Asadi al-Kindi al-Faq'asi, a Tabi'i and brave commander who settled in Kufa and accompanied Ali ibn Abi Talib in his wars; he commanded the left wing of al-Husayn at Karbala at the age of seventy-five and was killed there in 61 AH (680)."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/umayyad]
-died: { edtf: "680", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari / al-Mufid (Karbala)" }
-relations:
-  - { type: born_in, target: place/hijaz, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-  - { type: died_in, target: place/karbala, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/kamil-ibn-al-athir, source/wikidata]
+died: { edtf: "680", hijri: "0061", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari / al-Mufid (Karbala). al-A'lam vol. 2 p. 166 prints 61 AH = 680 CE, agreeing with the card; no birth year is given.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+sources: [source/kamil-ibn-al-athir, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q4118309
   viaf: "194147665851960670004"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: Ibn al-Athir, al-Kamil — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0024
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
+relations:
+  - { type: born_in, target: place/hijaz, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata], confidence: medium }
+  - { type: died_in, target: place/karbala, note: "Place link from Wikidata; al-Zirikli, al-A'lam, vol. 2 p. 166, places his death on the day of Karbala.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002], confidence: high }
+  - { type: lived_in, target: place/kufa, note: "al-Zirikli, al-A'lam, vol. 2 p. 166: he settled in Kufa", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }

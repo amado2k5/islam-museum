@@ -3,26 +3,27 @@ class: person
 label:
   ar: "بلعرب بن سلطان اليعربي"
   en: "Bil'arab ibn Sultan"
-roles: [ruler]
+roles: [ruler, faqih]
 gender: male
 summary:
-  ar: "بطاقة أولية لبلعرب بن سلطان اليعربي، إمام عمان المتنازع في أواخر القرن السابع عشر، توفي سنة ١٦٩٢م؛ تذكره معاجم الدول الإسلامية ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Bil'arab ibn Sultan al-Ya'rubi, the contended imam of Oman in the late seventeenth century, d. 1692; the dynastic handbook entry is not yet checked on the page."
+  ar: "بلعرب بن سلطان بن سيف بن مالك اليعربي، ثالث الأئمة اليعاربة في عمان، من الإباضية، بويع له بنزوى سنة 1091 هـ، ومات في حصار أخيه سيف له في حصن يبرين، وتذكر المصادر وفاته سنة 1104 هـ."
+  en: "Bil'arab ibn Sultan ibn Sayf ibn Malik al-Ya'rubi, the third Ya'rubi imam of Oman, of the Ibadi school; he was given the oath at Nizwa in 1091 AH and died during his brother Sayf's siege of him in the fort of Yabrin; the card dates his death 1692 and al-Zirikli prints 1104 AH."
 wings: [people]
 regions: [arabia]
 periods: [period/gunpowder-empires]
-died: { edtf: "1692", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Ya'rubids)" }
-relations:
-  - { type: born_in, target: place/salalah, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/bosworth-new-islamic-dynasties-1996]
+died: { edtf: "1692", hijri: "1104", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Ya'rubids). al-A'lam vol. 2 p. 73 prints 1104 AH = 1693 CE; the card year 1692 is kept (1104 AH began in September 1692), see the ledger.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+sources: [source/bosworth-new-islamic-dynasties-1996, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q15408575
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: Bosworth, The New Islamic Dynasties (1996) — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0040
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
+relations:
+  - { type: born_in, target: place/salalah, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/oman, note: "al-Zirikli, al-A'lam, vol. 2 p. 73: imam of the Ya'rubi line in Oman", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }

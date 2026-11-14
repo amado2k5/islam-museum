@@ -3,26 +3,26 @@ class: person
 label:
   ar: "علاء الدين علي أسود"
   en: "Alaeddin Ali Esved"
-roles: [writer]
+roles: [writer, jurist]
 gender: male
 summary:
-  ar: "بطاقة أولية لعلاء الدين علي أسود؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Alaeddin Ali Esved, the Ottoman writer (fourteenth century, d. 1397); the biographical entry is not yet checked on the page."
+  ar: "علي بن عمر الأسود، علاء الدين القره حصاري، فقيه حنفي من علماء الروم، له شرح كبير على المغني في أصول الفقه للخبازي، توفي سنة 800 هـ بحسب الزركلي."
+  en: "Ali ibn Umar al-Aswad, Ala al-Din al-Qarahisari (Alaeddin Ali Esved), a Hanafi jurist among the scholars of Rum (Anatolia), author of a large commentary on al-Khabbazi's al-Mughni on legal theory; died 800 AH per al-Zirikli (1398; the card carries 1397)."
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/mongol-post-mongol]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q136148929
 provenance:
   layer: own-research
-  source: "Wikidata candidate; Ottoman tezkere/biographical record — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0095
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
-died: { edtf: "1397", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tashkopruzade (Shaqa'iq) Confirmed on 13 November 2026 against Wikidata Q136148929 (P570, a statement with a reference), item revision 2462227443.", sources: [source/wikidata] }
+  completeness: 3
+died: { edtf: "1397", hijri: "0800", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tashkopruzade (Shaqa'iq) Confirmed on 13 November 2026 against Wikidata Q136148929 (P570, a statement with a reference), item revision 2462227443. The card carries 1397; al-Zirikli, al-A'lam, vol. 4 p. 316, prints 800 AH = 1398 CE (800 AH began in September 1397, so both years fall within it).", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
 relations:
-  - { type: lived_in, target: place/anatolia, note: "From text: Ottoman (nationality adjective); broad association, flagged for review.", sources: [source/al-aalam], confidence: low }
+  - { type: lived_in, target: place/anatolia, note: "al-Zirikli, al-A'lam, vol. 4 p. 316: one of the scholars of Rum (Anatolia)", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }

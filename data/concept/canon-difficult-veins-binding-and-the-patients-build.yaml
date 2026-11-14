@@ -1,0 +1,19 @@
+id: concept/canon-difficult-veins-binding-and-the-patients-build
+class: concept
+kind: scientific
+label: { ar: "العروق العسرة والربط وبنية المفصود عند ابن سينا", en: "Difficult veins, binding and the build of the patient in the Canon", ur: "قانون میں مشکل رگیں، پٹی اور مفصود کا ڈیل ڈول" }
+summary:
+  ar: "يعطي ابن سينا قواعد عملية لمن يعسر عليه فتح العرق: ترك الإلحاف بالربط والبضع، وحال الأبدان القضيفة والسمينة، وإخفاء الوجع، وما يفعل إذا ظهرت الشعب دون العرق، والغسل والرفادة {cite:canon-ibn-sina-print-v1 p.296}."
+  en: "Ibn Sina gives practical rules for one who finds the vein hard to open: not to press on with binding and cutting, the state of lean and fat bodies, hiding the pain, what is done when the branches show but not the vein, and washing and the compress {cite:canon-ibn-sina-print-v1 p.296}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/medicine, sources: [source/canon-ibn-sina-print-v1] }
+  - { type: related_to, target: concept/al-fasd, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 4, chapter 20, on venesection (scan pages 289 to 299), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-fann4-ch20
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

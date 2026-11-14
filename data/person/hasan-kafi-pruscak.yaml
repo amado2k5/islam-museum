@@ -3,29 +3,31 @@ class: person
 label:
   ar: "حسن كافي الآقحصاري"
   en: "Hasan Kafi Pruščak"
-roles: [scholar, writer]
+roles: [scholar, writer, faqih]
 gender: male
 summary:
-  ar: "بطاقة أولية لحسن كافي الآقحصاري، قاضي البوسنة ومؤلفها في القرن السابع عشر صاحب «أصول الحكم» في السياسة، توفي سنة ١٦١٦م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Hasan Kafi al-Aqhisari, the seventeenth-century Bosnian judge and author of Usul al-Hikam on statecraft, d. 1616; the biographical entry is not yet checked on the page."
+  ar: "حسن بن طورخان بن داود بن يعقوب الأقحصاري، ويقال له حسن كافي، فقيه باحث من أهل البوسنة، ولد في بلدة أقحصار وولي قضاءها وتوفي بها، من كتبه «أصول الحكم في نظام العالم»، وتوفي سنة 1025 هـ."
+  en: "Hasan ibn Turkhan ibn Dawud ibn Ya'qub al-Aqhisari, called Hasan Kafi, a Bosnian jurist and researcher born in the town of Aqhisar (Prusac), whose judge he became and where he died; author of Usul al-Hikam fi Nizam al-Alam; died 1025 AH."
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
-born: { edtf: "1544", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Confirmed on 13 November 2026 against Wikidata Q16511374 (P569, a statement with a reference), item revision 2527292157.", sources: [source/wikidata] }
-died: { edtf: "1615", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Confirmed on 13 November 2026 against Wikidata Q16511374 (P570, a statement with a reference), item revision 2527292157.", sources: [source/wikidata] }
-relations:
-  - { type: born_in, target: place/ak-hisar, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-  - { type: died_in, target: place/ak-hisar, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/al-aalam, source/wikidata]
+born: { edtf: "1544", hijri: "0951", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV. al-A'lam vol. 2 p. 194 prints 951 AH = 1544 CE, agreeing with the card.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+died: { edtf: "1615", hijri: "1025", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV. al-A'lam vol. 2 p. 194 prints 1025 AH = 1616 CE; the card year 1615 is kept, see the ledger.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q16511374
   viaf: "15018150"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0031
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
+relations:
+  - { type: born_in, target: place/ak-hisar, note: "Place link from Wikidata; al-Zirikli, al-A'lam, vol. 2 p. 194, confirms he was born in the town of Aqhisar.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002], confidence: high }
+  - { type: died_in, target: place/ak-hisar, note: "Place link from Wikidata; al-Zirikli, al-A'lam, vol. 2 p. 194, confirms he died in Aqhisar.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002], confidence: high }
+  - { type: lived_in, target: place/bosnia, note: "al-Zirikli, al-A'lam, vol. 2 p. 194: a man of Bosnia", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
+  - { type: lived_in, target: place/istanbul, note: "al-Zirikli, al-A'lam, vol. 2 p. 194: he was educated at the Porte (al-Asitana)", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }

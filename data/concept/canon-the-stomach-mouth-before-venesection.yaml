@@ -1,0 +1,19 @@
+id: concept/canon-the-stomach-mouth-before-venesection
+class: concept
+kind: scientific
+label: { ar: "فم المعدة قبل الفصد عند ابن سينا", en: "The mouth of the stomach before venesection in the Canon", ur: "قانون میں فصد سے پہلے فم معدہ" }
+summary:
+  ar: "يميز ابن سينا ثلاثة أحوال لفم المعدة يخاف فيها الفصد، فرط الحس وضعفه وقبوله للمرار، ويذكر علامة كل منها وما يلقم به كل واحد قبل أن يفصد {cite:canon-ibn-sina-print-v1 p.292}."
+  en: "Ibn Sina distinguishes three states of the mouth of the stomach in which bleeding is feared, excess of sensation, weakness, and readiness to receive bile, gives the sign of each and what each is fed with before he is bled {cite:canon-ibn-sina-print-v1 p.292}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/medicine, sources: [source/canon-ibn-sina-print-v1] }
+  - { type: related_to, target: concept/al-fasd, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 4, chapter 20, on venesection (scan pages 289 to 299), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-fann4-ch20
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

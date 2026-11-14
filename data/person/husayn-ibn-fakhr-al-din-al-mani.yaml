@@ -6,23 +6,25 @@ label:
 roles: [amir, diplomat, writer]
 gender: male
 summary:
-  ar: "بطاقة أولية لحسين بن فخر الدين المعني الثاني، أمير معني ودبلوماسي وكاتب، ولد سنة ١٦٢٤م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Husayn ibn Fakhr al-Din al-Ma'ni, son of Fakhr al-Din II, the Ma'nid emir, diplomat and author, b. 1624; the biographical entry is not yet checked on the page."
+  ar: "حسين بن فخر الدين بن قرقماس المعني، ابن معن، أديب من أمراء الدروز في لبنان، أُسر صغيرا مع أبيه إلى إسطنبول ونشأ في سراي غلطة، له كتاب التمييز، وقام بسفارة في الهند، وتوفي في إسطنبول."
+  en: "Husayn ibn Fakhr al-Din ibn Qarqmas al-Ma'ni, known as Ibn Ma'n, a man of letters among the Druze emirs of Lebanon, taken to Istanbul as a child with his father and raised in the Galata palace; author of al-Tamyiz, he carried out an embassy to India and died in Istanbul."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/gunpowder-empires]
 relations:
-  - { type: died_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/al-aalam, source/wikidata]
+  - { type: died_in, target: place/istanbul, confidence: high, note: "al-Zirikli, al-A'lam, vol. 2 p. 251: he died in Istanbul", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
+  - { type: lived_in, target: place/galata, confidence: high, note: "al-Zirikli, al-A'lam, vol. 2 p. 251: he grew up in the Galata palace", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+  - { type: traveled_to, target: place/india, confidence: medium, note: "al-Zirikli, al-A'lam, vol. 2 p. 251: he performed an embassy in India for the state", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002, source/wikidata]
 external_ids:
   wikidata: Q50886488
   viaf: "56894332"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0083
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3

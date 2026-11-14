@@ -3,27 +3,27 @@ class: person
 label:
   ar: "لطف الله الميسي العاملي"
   en: "Lutfallah al-Maysi al-Amili"
-roles: [scholar]
+roles: [jurist, scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية للطف الله الميسي العاملي، عالم صفوي القرن السابع عشر، توفي سنة ١٦٢٣م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Lutfallah al-Maysi al-Amili, the seventeenth-century Safavid scholar, d. 1623; the biographical entry is not yet checked on the page."
+  ar: "لطف الله بن عبد الكريم بن إبراهيم بن علي بن عبد العالي الميسي، فقيه إمامي من أهل ميس بجبل عامل، توفي بأصفهان سنة 1032 هـ، وله «الاعتكافية» في الفقه."
+  en: "Lutfallah ibn Abd al-Karim ibn Ibrahim ibn Ali ibn Abd al-Ali al-Maysi, an Imami jurist from Mays in Jabal Amil who died in Isfahan in 1032 AH (1623); author of al-I'tikafiyya on jurisprudence."
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/gunpowder-empires]
-died: { edtf: "1623", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Amal al-Amil" }
+died: { edtf: "1623", hijri: "1032", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Amal al-Amil. al-A'lam vol. 5 p. 242 prints 1032 AH = 1623 CE, agreeing with the card; no birth year is printed.", sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002] }
 relations:
-  - { type: born_in, target: place/meiss-ej-jabal, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-  - { type: died_in, target: place/isfahan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/al-aalam]
+  - { type: born_in, target: place/meiss-ej-jabal, confidence: medium, note: "Place link from Wikidata; the entry says he was of the people of Mays in Jabal Amil, without a birth place as such.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
+  - { type: died_in, target: place/isfahan, note: "al-Zirikli, al-A'lam, vol. 5 p. 242: he died in Isfahan", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q135336833
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0068
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3

@@ -1,0 +1,19 @@
+id: concept/canon-the-median-cutaneous-vein-and-the-funis-brachi
+class: concept
+kind: scientific
+label: { ar: "الأكحل وحبل الذراع في الفصد عند ابن سينا", en: "The median cutaneous vein and the funis brachi in venesection in the Canon", ur: "قانون میں فصد میں اکحل اور حبل الذراع" }
+summary:
+  ar: "يحذر ابن سينا من خطر العصب تحت الأكحل ويبين ما يفعل إن أصيب، ويذكر أن حبل الذراع الأصوب فيه الفصد المورب إلا إذا كان مراوغاً من الجانبين {cite:canon-ibn-sina-print-v1 p.294}."
+  en: "Ibn Sina warns of the danger to the nerve beneath the median cutaneous vein and says what is done if it is struck, and says that the funis brachi is best opened obliquely unless it rolls from both sides {cite:canon-ibn-sina-print-v1 p.294}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/medicine, sources: [source/canon-ibn-sina-print-v1] }
+  - { type: related_to, target: concept/al-fasd, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 4, chapter 20, on venesection (scan pages 289 to 299), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-fann4-ch20
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

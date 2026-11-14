@@ -3,27 +3,29 @@ class: person
 label:
   ar: "حاج حسن زاده أفندي"
   en: "Hacihasanzade Efendi"
-roles: [writer]
+roles: [faqih, scholar, writer]
 gender: male
 summary:
-  ar: "بطاقة أولية لحاج حسن زاده أفندي؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Hacihasanzade Efendi, the Ottoman writer (d. 1506); the biographical entry is not yet checked on the page."
+  ar: "محمد بن مصطفى ابن الحاج حسن، المعروف بحاجي حسن زاده، فقيه حنفي عارف بالتفسير من مستعربي الترك، درس في عدة مدارس ببروسة وإستانبول وولي القضاء في عهد السلطان محمد خان وابنه بايزيد، وتوفي سنة 911 هـ."
+  en: "Muhammad ibn Mustafa ibn al-Hajj Hasan, known as Haji Hasan-zade, a Hanafi jurist learned in exegesis and one of the Turks who mastered Arabic; he taught in several madrasas of Bursa and Istanbul, held judgeships under Sultan Mehmed and his son Bayezid, and died in 911 AH (1505)."
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/mongol-post-mongol]
-died: { edtf: "1505", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi Confirmed on 13 November 2026 against Wikidata Q136129602 (P570, a statement with a reference), item revision 2462227764.", sources: [source/wikidata] }
-relations:
-  - { type: born_in, target: place/bal-kesir, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-  - { type: died_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/al-aalam]
+died: { edtf: "1505", hijri: "0911", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi. al-A'lam vol. 7 p. 99 prints 911 AH = 1505 CE, agreeing with the card; no birth year is given.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q136129602
 provenance:
   layer: own-research
-  source: "Wikidata candidate; Ottoman tezkere/biographical record — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0095
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
+relations:
+  - { type: born_in, target: place/bal-kesir, note: "Place link from Wikidata; pending a second source. al-A'lam vol. 7 p. 99 names no birthplace.", sources: [source/wikidata], confidence: medium }
+  - { type: died_in, target: place/istanbul, note: "Place link from Wikidata; pending a second source. al-A'lam vol. 7 p. 99 names no place of death.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/bursa, note: "al-Zirikli, al-A'lam, vol. 7 p. 99: he taught in several madrasas of Bursa and Istanbul", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
+  - { type: lived_in, target: place/istanbul, note: "al-Zirikli, al-A'lam, vol. 7 p. 99: he taught in several madrasas of Bursa and Istanbul", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }

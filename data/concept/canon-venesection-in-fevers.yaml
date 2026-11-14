@@ -1,0 +1,19 @@
+id: concept/canon-venesection-in-fevers
+class: concept
+kind: scientific
+label: { ar: "الفصد في الحميات عند ابن سينا", en: "Venesection in fevers in the Canon", ur: "قانون میں بخاروں میں فصد" }
+summary:
+  ar: "يفصل ابن سينا متى يجتنب الفصد في الحميات ومتى يؤذن فيه، فيمنعه في شديدة الالتهاب وفي غير الحادة ابتداء، ويقدم في العفنة النظر في القوانين العشرة والقارورة والنبض والسحنة، ويرى برأي جالينوس جوازه ولو بعد الرابع، ويعد الحمى الدموية محتاجة إلى الفصد {cite:canon-ibn-sina-print-v1 pp.291-292}."
+  en: "Ibn Sina sets out when bleeding is avoided in fevers and when it is allowed: he bars it in intensely inflaming fevers and at the start of non-acute ones, puts first in putrid fevers a look at the ten rules, the urine flask, the pulse and the physique, gives Galen's view that it is allowed even after the fourth day, and counts the sanguine fever as needing bleeding {cite:canon-ibn-sina-print-v1 pp.291-292}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/medicine, sources: [source/canon-ibn-sina-print-v1] }
+  - { type: related_to, target: concept/al-fasd, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 4, chapter 20, on venesection (scan pages 289 to 299), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-fann4-ch20
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

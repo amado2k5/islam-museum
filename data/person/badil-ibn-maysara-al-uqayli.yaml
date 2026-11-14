@@ -6,23 +6,23 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لبديل بن ميسرة العقيلي؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Badil ibn Maysara al-'Uqayli; the entry is not yet checked on the page."
+  ar: "بديل بن ميسرة العقيلي البصري، من رواة الحديث، روى عن أنس وأبي الجوزاء وعطاء بن أبي رباح، أخرج له مسلم وأصحاب السنن، ووثقه ابن معين بحسب الصفدي، توفي سنة 126 هـ."
+  en: "Badil ibn Maysara al-'Uqayli al-Basri, a hadith transmitter who narrated from Anas, Abu al-Jawza' and Ata' ibn Abi Rabah; Muslim and the Sunan compilers transmitted from him and Ibn Ma'in declared him reliable, per al-Safadi; died 126 AH (743)."
 wings: [people]
 regions: [arabia]
 periods: [period/umayyad]
-died: { edtf: "743", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (Tahdhib al-Tahdhib)" }
+died: { edtf: "743", hijri: "0126", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (Tahdhib al-Tahdhib). al-Safadi, al-Wafi, vol. 10 p. 63, prints 126 AH (743-744 CE), agreeing with the card.", sources: [source/wafi-bi-l-wafayat-safadi-dar-ihya-2000] }
 relations:
-  - { type: lived_in, target: place/basra, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/al-aalam]
+  - { type: lived_in, target: place/basra, confidence: high, note: "al-Safadi, al-Wafi, vol. 10 p. 63: titled al-'Uqayli al-Basri", sources: [source/wafi-bi-l-wafayat-safadi-dar-ihya-2000, source/wikidata] }
+sources: [source/al-aalam, source/wafi-bi-l-wafayat-safadi-dar-ihya-2000]
 external_ids:
   wikidata: Q12197770
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Safadi, al-Wafi bi-l-Wafayat, ed. al-Arna'ut and Mustafa, 2000, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-wafi-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3

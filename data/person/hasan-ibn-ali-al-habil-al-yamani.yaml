@@ -6,26 +6,26 @@ label:
 roles: [poet]
 gender: male
 summary:
-  ar: "بطاقة أولية لحسن بن علي بن جابر الهبل اليمني، شاعر يمني القرن السابع عشر، توفي سنة ١٦٦٨م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Hasan ibn Ali ibn Jabir al-Habil al-Yamani, the seventeenth-century Yemeni poet, d. 1668; the biographical entry is not yet checked on the page."
+  ar: "حسن بن علي بن جابر الهبل اليمني، شاعر زيدي من أهل صنعاء ولادة ووفاة، أصله من قرية بني الهبل في هجر خولان، له ديوان شعر مخطوط، وتوفي سنة 1079 هـ."
+  en: "Hasan ibn Ali ibn Jabir al-Habil al-Yamani, a Zaydi poet from Sanaa, where he was born and died; his family came from the village of Bani al-Habil, a hijra of Khawlan; he left a manuscript diwan and died in 1079 AH (1668)."
 wings: [people]
 regions: [arabia]
 periods: [period/gunpowder-empires]
-born: { edtf: "1639", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Badr al-Tali Confirmed on 13 November 2026 against Wikidata Q44955292 (P569, a statement with a reference), item revision 2567224329.", sources: [source/wikidata] }
-died: { edtf: "1668", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Badr al-Tali Confirmed on 13 November 2026 against Wikidata Q44955292 (P570, a statement with a reference), item revision 2567224329.", sources: [source/wikidata] }
-relations:
-  - { type: born_in, target: place/sanaa, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-  - { type: died_in, target: place/sanaa, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/al-aalam, source/wikidata]
+born: { edtf: "1639", hijri: "1048", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Badr al-Tali'. al-A'lam vol. 2 p. 205 prints 1048 AH = 1638 CE; the card year 1639 is kept, see the ledger.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+died: { edtf: "1668", hijri: "1079", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Badr al-Tali'. al-A'lam vol. 2 p. 205 prints 1079 AH = 1668 CE, agreeing with the card.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q44955292
   viaf: "14924316"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0070
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
+relations:
+  - { type: born_in, target: place/sanaa, note: "Place link from Wikidata; al-Zirikli, al-A'lam, vol. 2 p. 205, confirms he was born in Sanaa.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002], confidence: high }
+  - { type: died_in, target: place/sanaa, note: "Place link from Wikidata; al-Zirikli, al-A'lam, vol. 2 p. 205, confirms he died in Sanaa.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002], confidence: high }

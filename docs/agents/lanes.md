@@ -4,6 +4,7 @@ A **lane** is a stream of work with its own scope, files, branch naming and prog
 
 Rules for every lane: [`../../AGENTS.md`](../../AGENTS.md), [`workflow.md`](workflow.md), [`content-standards.md`](content-standards.md); lanes that mine a source also follow [`mining-sources.md`](mining-sources.md).
 
+> Packet pipeline (founder-approved 14 November 2026): lane content is drafted and verified as packets and landed only by the lander, in one train pull request, with release notes written from the packet manifests (`docs/agents/pipeline.md`). Lane workers no longer open or merge pull requests; the branch patterns in the registry below name each lane's packets and ledger, not pull requests lane workers raise.
 > Harvest register: before any download, OCR, harvest, mining or ingestion, look the item up in `docs/library/harvest-register.yaml` and update its entry in the same PR (`docs/library/README.md`).
 > Enrichment register: when your queue is empty or you finish early, take work from `docs/library/enrichment/` (`npm run enrichment-queue`), claim it in `claims.yaml` in your first commit, mark it done when merged; never start an item another agent has claimed.
 

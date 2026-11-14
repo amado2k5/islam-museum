@@ -6,24 +6,26 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لإسماعيل بن جعفر الصادق، أكبر أبناء جعفر الصادق ومن سمّت به الإسماعيلية إمامها وإن مات قبل أبيه؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Isma'il ibn Ja'far al-Sadiq, the eldest son of Ja'far al-Sadiq whom the Ismailis took as imam though he predeceased his father; the biographical entry is not yet checked on the page."
+  ar: "إسماعيل بن جعفر الصادق بن محمد الباقر، الهاشمي القرشي، أكبر أبناء جعفر الصادق، وإليه تنسب الإسماعيلية التي قالت بإمامته بعد أبيه، ويذكر الزركلي أنه جد الخلفاء الفاطميين وأنه توفي في حياة والده سنة 143 هـ، وأن كتب التاريخ لا تدل على أن له شأنا مذكورا في حياته."
+  en: "Isma'il ibn Ja'far al-Sadiq ibn Muhammad al-Baqir, Hashimi and Qurashi, eldest son of Ja'far al-Sadiq, from whom the Isma'ili branch of Shi'ism takes its name because it holds his imamate after his father; al-Zirikli calls him the forefather of the Fatimid caliphs, says he died in his father's lifetime in 143 AH, and notes that the history books show nothing of consequence about him in his life."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
-died: { edtf: "762~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 / Encyclopaedia of Islam" }
+died: { edtf: "762~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 / Encyclopaedia of Islam. al-Zirikli's heading prints 143 AH = 760 CE {cite:alam-zirikli-dar-al-ilm-2002 vol. 1 p. 311}, quotes Huart (EI) for his death in Medina in 143 AH, and quotes an editor of Firaq al-Shi'a for 133 AH; the card year is kept and flagged for checking.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
   - { type: born_in, target: place/medina, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-  - { type: buried_in, target: place/al-baqi, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/shadharat-dhahab]
+  - { type: died_in, target: place/medina, confidence: medium, note: "al-Zirikli, al-A'lam, vol. 1 p. 311, quoting Huart in the Encyclopaedia of Islam: he died in Medina in 143 AH.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+  - { type: buried_in, target: place/al-baqi, confidence: medium, note: "Place link from Wikidata; al-Zirikli, vol. 1 p. 311, quotes an editor of Firaq al-Shi'a that he died at al-Urayd and was buried at al-Baqi.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
+  - { type: child_of, target: person/jafar-al-sadiq, confidence: high, note: "al-Zirikli, vol. 1 p. 311, and al-Safadi, al-Wafi, vol. 9 p. 62: his eldest son.", sources: [source/alam-zirikli-dar-al-ilm-2002, source/wafi-bi-l-wafayat-safadi-dar-ihya-2000] }
+sources: [source/shadharat-dhahab, source/alam-zirikli-dar-al-ilm-2002, source/wafi-bi-l-wafayat-safadi-dar-ihya-2000]
 external_ids:
   wikidata: Q1650217
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: Ibn al-Imad, Shadharat al-Dhahab — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0012
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, and al-Safadi, al-Wafi bi-l-Wafayat, Dar Ihya al-Turath 2000, entries read in full from the local OpenITI texts"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3

@@ -1,0 +1,19 @@
+id: concept/canon-abdominal-veins-and-the-times-of-venesection
+class: concept
+kind: scientific
+label: { ar: "عروق البطن وأوقات الفصد عند ابن سينا", en: "The abdominal veins and the times of venesection in the Canon", ur: "قانون میں پیٹ کی رگیں اور فصد کے اوقات" }
+summary:
+  ar: "يذكر ابن سينا عرقين على البطن أحدهما على الكبد والآخر على الطحال، ثم يقسم أوقات الفصد وقتين، وقت اختيار وقت ضرورة {cite:canon-ibn-sina-print-v1 pp.298-299}."
+  en: "Ibn Sina names two vessels on the belly, one over the liver and the other over the spleen, then divides the times of venesection into two, a time of choice and a time of necessity {cite:canon-ibn-sina-print-v1 pp.298-299}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/medicine, sources: [source/canon-ibn-sina-print-v1] }
+  - { type: related_to, target: concept/al-fasd, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 4, chapter 20, on venesection (scan pages 289 to 299), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-fann4-ch20
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

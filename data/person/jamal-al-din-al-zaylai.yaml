@@ -3,30 +3,30 @@ class: person
 label:
   ar: "جمال الدين الزيلعي"
   en: "Jamal al-Din al-Zaylai"
-roles: [scholar]
+roles: [jurist, scholar, writer]
 gender: male
 summary:
-  ar: "بطاقة أولية لجمال الدين الزيلعي، حنفي القرن الرابع عشر صاحب نصب الراية، توفي سنة ١٣٦٠م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Jamal al-Din al-Zaylai, the fourteenth-century Hanafi author of Nasb al-Raya, d. 1360; the biographical entry is not yet checked on the page."
+  ar: "عبد الله بن يوسف بن محمد الزيلعي، أبو محمد، جمال الدين، فقيه عالم بالحديث، أصله من الزيلع في الصومال ووفاته في القاهرة، صاحب «نصب الراية في تخريج أحاديث الهداية» في مذهب الحنفية، توفي سنة 762 هـ."
+  en: "Abdallah ibn Yusuf ibn Muhammad al-Zaylai, Abu Muhammad, Jamal al-Din, a jurist learned in hadith whose origin was in Zayla in Somalia and who died in Cairo; author of Nasb al-Raya fi Takhrij Ahadith al-Hidaya in the Hanafi school; died 762 AH."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/mongol-post-mongol]
-died: { edtf: "1361", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar al-Kamina / Ibn Hajar" }
+died: { edtf: "1361", hijri: "0762", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar al-Kamina / Ibn Hajar. al-A'lam vol. 4 p. 147 prints 762 AH = 1360 CE; the card year is kept (762 AH began in November 1360 and ended in November 1361), see the GEMINI line in the packet ledger.", sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002] }
 relations:
-  - { type: born_in, target: place/zeila, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: born_in, target: place/zeila, confidence: medium, note: "Place link from Wikidata; al-A'lam vol. 4 p. 147 says only that his origin (asl) was in al-Zayla' in Somalia.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
   - { type: born_in, target: place/adal-sultanate, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-  - { type: died_in, target: place/cairo, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-  - { type: lived_in, target: place/cairo, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/al-aalam, source/wikidata]
+  - { type: died_in, target: place/cairo, note: "al-Zirikli, al-A'lam, vol. 4 p. 147: his death was in Cairo", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
+  - { type: lived_in, target: place/cairo, confidence: medium, note: "Place link from Wikidata; the entry places his death there.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q22688707
   viaf: "73701866"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0054
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
