@@ -5,6 +5,7 @@ Applies to every agent and human. Rules that never bend are in [`AGENTS.md`](../
 _Origin: founder decision of 11 October 2026 that several sessions work in parallel and nobody's work is ever ignored, discarded or reverted._
 
 > Harvest register: before any download, OCR, harvest, mining or ingestion, look the item up in `docs/library/harvest-register.yaml` and update its entry in the same PR (`docs/library/README.md`).
+> Enrichment register: when your queue is empty or you finish early, take work from `docs/library/enrichment/` (`npm run enrichment-queue`), claim it in `claims.yaml` in your first commit, mark it done when merged; never start an item another agent has claimed.
 
 ## 1. Set up your own copy (once per session)
 

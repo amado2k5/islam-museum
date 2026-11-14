@@ -1,0 +1,18 @@
+id: concept/canon-food-and-drink-after-a-meal-brought-up
+class: concept
+kind: scientific
+label: { ar: "الأكل والشرب بعد طعام أُكل للقيء عند ابن سينا", en: "Food and drink after a meal eaten to be brought up", ur: "قانون میں قے کے لیے کھائی گئی غذا کے بعد کھانا پینا" }
+summary:
+  ar: "يوصي ابن سينا من تقيأ بعد طعام أكله للقيء أن يؤخر الأكل إلى أن يشتد الجوع، وأن يسكن عطشه بشراب التفاح لا بالجلاب والسكنجبين، وأن يكون غذاؤه فروج كردناج، وأن يؤخر الغداء إلى نصف النهار إذا قذف حامضاً {cite:canon-ibn-sina-print-v1 pp.285-286}."
+  en: "Ibn Sina advises one who has vomited after a meal eaten for the purpose to hold back from food until hunger is strong, to quench thirst with apple drink rather than julep or oxymel, to eat young chicken, and, if he has brought up something sour, to put off his meal until midday {cite:canon-ibn-sina-print-v1 pp.285-286}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/medicine, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 4, chapters 10 to 19, on vomiting, the enema, paints and douches (scan pages 285 to 289), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-fann4-ch10-19
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

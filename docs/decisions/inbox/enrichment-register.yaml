@@ -1,0 +1,7 @@
+question: "The founder instructed in chat on 14 November 2026: \"we also need a register of all the pending records, all the records that are missing wikidata id or anything else you or other agents still wants to enrich, and all the proses that are partial or empty. and their status, so that at any time any agent can directly and easily find those and work on them.\" Should the museum keep an enrichment register under docs/library/enrichment/ (a script that derives every gap live from data/ and content/, sharded queue files, an append-only claims.yaml, and a check script), with the AGENTS.md rule that agents take work from it when their queue is empty, claim it in their first commit and never start an item another agent has claimed?"
+class: "process"
+lane: "library"
+options: ["build the enrichment register as described, with the AGENTS.md rule", "build it without the AGENTS.md rule", "do not build it"]
+evidence: ["Founder instruction in chat, 14 November 2026, quoted in the question", "Counterpart: docs/library/harvest-register.yaml (books, audio, websites, datasets), already merged", "Never blocked, never idle (founder rule, 14 November 2026): idle agents need a standing queue", "Reversible: docs and scripts only; no entity changes"]
+proposed_action: "Add scripts/enrichment-queue.ts, scripts/check-enrichment-register.ts, docs/library/enrichment/ (README, status.yaml, claims.yaml, queue shards), the AGENTS.md line and pointers in docs/agents/workflow.md and docs/agents/lanes.md"
+source: "Founder, chat, 14 November 2026"

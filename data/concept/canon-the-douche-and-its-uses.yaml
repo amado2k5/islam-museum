@@ -1,0 +1,18 @@
+id: concept/canon-the-douche-and-its-uses
+class: concept
+kind: scientific
+label: { ar: "النطولات واستعمالها عند ابن سينا", en: "The medicated douche and its uses in the Canon", ur: "قانون میں نطول اور اس کا استعمال" }
+summary:
+  ar: "يعد ابن سينا النطولات علاجات جيدة لما يحتاج أن يحلل من الرأس وغيره من الأعضاء ولما يحتاج أن يبدل مزاجه، ويرتب استعمالها بالحار أولاً ثم الماء البارد ليشتد إن لم تكن فضول منصبة، وبالعكس إن كان الأمر بخلافه {cite:canon-ibn-sina-print-v1 p.289}."
+  en: "Ibn Sina counts douches good treatments for what must be dissolved from the head and other organs and for what needs its temperament changed, and orders their use hot first and then cold water to firm the part when no superfluities are flowing down, and the reverse when the case is the opposite {cite:canon-ibn-sina-print-v1 p.289}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/medicine, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 4, chapters 10 to 19, on vomiting, the enema, paints and douches (scan pages 285 to 289), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-fann4-ch10-19
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }
