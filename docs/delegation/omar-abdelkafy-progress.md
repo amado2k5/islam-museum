@@ -3066,3 +3066,21 @@ Resume point: min-kunuz-al-sunnah episode 15 (branch from origin/main).
 | Remarks on rulers who are provoked or incited and on states' fates | ep15 00:21:30-00:22:00 | Garbled, sweeping claim | Voice rule, Clarity | Open |
 
 Resume point: min-kunuz-al-sunnah episode 16 (branch from origin/main).
+
+### min-kunuz-al-sunnah ep16 (14 Nov 2026)
+
+14 points written for episode 16 (ar, en, ur); 9 needs_source marks in each language file for this episode; 2 new `about` edges. Quran verses referenced only through passage links (17-100, 6-28, 10-12, 3-134, 41-34); none typed. Contested: He holds that reward is pure divine favour and that a disbeliever who dies in disbelief stays in the fire for ever because he would have disbelieved for ever; he also attributes to the Prophet and others reports without chains (the bedouin and the arrow, the ten witnesses, the man lacking one good deed, the tear), and these views and reports are his.
+
+| Excluded (min-kunuz-al-sunnah ep16) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening praise and greeting | ep16 00:00:00-00:00:30 | Greeting and invocation, not content | Content rule | Open |
+| Break join, return from the break and closing of the first part | ep16 00:08:00-00:08:30 | Break join | Content rule | Open |
+| Break announcement and welcome back | ep16 00:16:00-00:16:30 | Break join | Content rule | Open |
+| Closing prayer and farewell | ep16 00:27:30-00:28:00 | Closing prayer and salutation | Content rule | Open |
+| Description of the miser and his heirs wishing his death | ep16 00:09:30-00:10:00 | Sweeping generalisation about a class of people | Voice rule | Open |
+| Repeated syllable loop | ep16 00:13:00-00:13:30 | Looping ASR output with no recoverable text | Clarity, Loop check | Open |
+| Garbled sums and end of the arithmetic passage | ep16 00:12:00-00:12:30 | Numbers and wording too garbled to state | Clarity, Loop check | Open |
+| Garbled passage on a saying of Ibn Masud about the rich and the poor | ep16 00:26:30-00:27:30 | Too garbled to recover | Clarity, Loop check | Open |
+| Analogy of exam marks and mention of the Day of Resurrection counting the characters in scales | ep16 00:07:00-00:07:30 | Overlaps the report already recorded and the wording is garbled | Clarity, Loop check | Open |
+
+Resume point: min-kunuz-al-sunnah episode 17 (branch from origin/main).
