@@ -6,23 +6,23 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لأبي الحسن الباهلي، متكلم القرن العاشر، توفي سنة ٩٨٠م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abu al-Hasan al-Bahili, the tenth-century theologian, d. 980; the biographical entry is not yet checked on the page."
+  ar: "أبو الحسن الباهلي البصري، علامة وشيخ المتكلمين عند الذهبي، تلميذ أبي الحسن الأشعري، وعنه أخذ الباقلاني والإسفراييني وابن فورك؛ من متكلمي الأشاعرة من أهل السنة."
+  en: "Abu al-Hasan al-Bahili al-Basri, called by al-Dhahabi the great scholar and shaykh of the theologians, a pupil of al-Ash'ari whose lessons al-Baqillani, al-Isfara'ini and Ibn Furak attended; an Ash'ari theologian within Sunni Islam."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-fragmentation]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/siyar-alam-nubala-ideas-house]
 external_ids:
   wikidata: Q29514435
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0070
+  source: "al-Dhahabi, Siyar A'lam al-Nubala, one-volume edition (Bayt al-Afkar al-Dawliyya), entry read in full on the scanned pages (Apple Vision OCR on the harvest drive)"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-siyar-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 died: { edtf: "980~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Asakir (Tabyin) Confirmed on 13 November 2026 against Wikidata Q29514435 (P570, a statement with a reference), item revision 2525225595.", sources: [source/wikidata] }
 relations:
-  - { type: lived_in, target: place/basra, note: "Tenth-century mutakallim; the Bahili kalam association points to the Basran school. Inferred, flagged for review.", sources: [source/al-aalam], confidence: low }
+  - { type: lived_in, target: place/basra, note: "Tenth-century mutakallim; the Bahili kalam association points to the Basran school. The book calls him al-Basri (Siyar A'lam al-Nubala, p. 1397); the nisba is the only evidence of residence.", sources: [source/al-aalam, source/siyar-alam-nubala-ideas-house], confidence: low }

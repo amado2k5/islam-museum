@@ -7,22 +7,23 @@ roles: [scholar]
 gender: male
 themes: [sects-and-schools]
 summary:
-  ar: "بطاقة أولية لأبي محمد هشام بن عمرو الفوطي، متكلم معتزلي القرن التاسع؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abu Muhammad Hisham ibn Amr al-Fuwati, the ninth-century Mu'tazili theologian; the biographical entry is not yet checked on the page."
+  ar: "هشام بن عمرو الفوطي، أبو محمد، كوفي ومولى بني شيبان، من متكلمي المعتزلة؛ وصفه الذهبي بأنه صاحب ذكاء وجدال وبدعة، وتنسب إليه آراء في العذاب والهداية سجلها الذهبي."
+  en: "Hisham ibn Amr al-Fuwati, Abu Muhammad, a Kufan and client of the Banu Shayban, a Mu'tazili theologian; al-Dhahabi calls him a man of intelligence, disputation and innovation and records views attributed to him on punishment and guidance."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
 relations:
+  - { type: lived_in, target: place/kufa, confidence: low, note: "Al-Dhahabi calls him al-Kufi (Siyar A'lam al-Nubala, p. 4094); the nisba is the only evidence of residence.", sources: [source/siyar-alam-nubala-ideas-house] }
   - { type: lived_in, target: place/iraq, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/al-aalam] }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/siyar-alam-nubala-ideas-house]
 external_ids:
   wikidata: Q19464069
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0060
+  source: "al-Dhahabi, Siyar A'lam al-Nubala, one-volume edition (Bayt al-Afkar al-Dawliyya), entry read in full on the scanned pages (Apple Vision OCR on the harvest drive)"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-siyar-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
