@@ -1,0 +1,61 @@
+id: event/al-hadi-answers-yazid-and-abu-rifaa-and-abu-al-atahiyas-army-appears-288
+class: event
+label:
+  ar: "الهادي يجيب يزيد الشاكري وأبا رفاعة ويظهر عسكر أبي العتاهية، محرم 288هـ"
+  en: "Al-Hadi answers Yazid and Abu Rifa'a and Abu al-Atahiya's army appears, Muharram 288 AH"
+  ur: "ہادی یزید شاکری اور ابو رفاعہ کو جواب دیتے ہیں اور ابو العتاہیہ کا لشکر نمودار ہوتا ہے، محرم 288ھ"
+summary:
+  ar: "تتمة سؤال يزيد بن علي الشاكري وأبي رفاعة الخثعمي للهادي بحدقان عن قلة عسكره، وجواب الهادي بأن صاحبهم سيلقاه وأنهم داخلون صنعاء غداً، ثم أمره الطبريين أن يتقدموا العسكر، وكان اللواء مع علي بن محمد وقد أعطاه إياه بالحائرة، ثم أشرف عسكر أبي العتاهية بأربعمائة فارس وعشرة آلاف راجل بحسب الراوي."
+  en: "The question that Yazid al-Shakiri and Abu Rifa'a put to al-Hadi at Hadaqan is completed: they say he has no army for a war with this man; al-Hadi tells them the man will meet him and they will enter Sana'a the next day; he puts the Tabaris in front, Ali ibn Muhammad carries the banner given at al-Ha'ira, and Abu al-Atahiya's army, four hundred horse and ten thousand foot by the narrator's count, comes into view."
+  ur: "یزید شاکری اور ابو رفاعہ کا حدقان میں ہادی سے سوال مکمل ہوتا ہے کہ ان کے پاس اس شخص سے جنگ کے لیے لشکر نہیں؛ ہادی انہیں بتاتے ہیں کہ وہ شخص ان سے ملے گا اور وہ کل صنعاء میں داخل ہوں گے؛ وہ طبریوں کو آگے رکھتے ہیں، علی بن محمد کے پاس وہ جھنڈا ہے جو الحائرہ میں دیا گیا تھا، اور راوی کی گنتی میں چار سو سوار اور دس ہزار پیادوں پر مشتمل ابو العتاہیہ کا لشکر نظر آتا ہے۔"
+kind: other
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0900-12"
+    hijri: "0288-01"
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: "محرم سنة 288هـ بنص الكتاب؛ الدقة شهرية؛ التحويل مشتق من التقويم الجدولي"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/hadaqan-sanaa-yemen
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abu-al-atahiya-ibn-bishr
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/yazid-ibn-ali-ibn-jamil-al-shakiri
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ali-ibn-muhammad-ibn-ubaydallah-al-abbasi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص206 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-25
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 206

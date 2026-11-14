@@ -1,0 +1,53 @@
+id: event/a-woman-claims-an-estate-from-abu-al-atahiya-and-al-hadi-gives-judgment-for-her-288
+class: event
+label:
+  ar: "امرأة تطالب أبا العتاهية بضيعة ويحكم لها الهادي بسمح، ربيع الأول 288هـ"
+  en: "A woman claims an estate from Abu al-Atahiya and al-Hadi gives judgment for her at Samh, Rabi I 288 AH"
+  ur: "ایک عورت ابو العتاہیہ سے جائیداد کا دعویٰ کرتی ہے اور ہادی سمح میں اس کے حق میں فیصلہ دیتے ہیں، ربیع الاول 288ھ"
+summary:
+  ar: "تصيح امرأة على باب الهادي بسمح أن ينصفها من أبي العتاهية، فيحضره الهادي ويسألها عن دعواها فتقول إن في يده ضيعة غصبها أبوه، فيطلب الشهود فتحضرهم فيشهدون لها، فيحكم لها الهادي بالضيعة ويأمرها بقبضها فتقبضها، ثم يرحل ويولي سمح زيد بن أبي العباس الفطيمي."
+  en: "A woman cries at al-Hadi's door at Samh for justice against Abu al-Atahiya; al-Hadi sends for him and asks her claim, and she says he holds an estate his father seized; asked for witnesses she brings them and they testify for her, and al-Hadi gives judgment for the woman and has her take possession; he then leaves Samh and appoints Zayd ibn Abi al-Abbas al-Futayimi over it."
+  ur: "ایک عورت سمح میں ہادی کے دروازے پر پکارتی ہے کہ ابو العتاہیہ کے خلاف اسے انصاف دیں؛ ہادی انہیں بلوا کر اس سے دعویٰ پوچھتے ہیں تو وہ کہتی ہے کہ ان کے ہاتھ میں ایک جائیداد ہے جو ان کے باپ نے ہتھیائی تھی؛ گواہ مانگے جاتے ہیں تو وہ انہیں لے آتی ہے اور وہ اس کے حق میں گواہی دیتے ہیں، ہادی عورت کے حق میں جائیداد کا فیصلہ کرتے ہیں اور اسے قبضہ لینے کا حکم دیتے ہیں؛ پھر وہ سمح سے روانہ ہوتے ہیں اور زید بن ابی العباس فطیمی کو اس کا والی بناتے ہیں۔"
+kind: other
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0901-02"
+    hijri: "0288-03"
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: "ربيع الأول سنة 288هـ بنص الكتاب؛ الدقة شهرية؛ التحويل مشتق من التقويم الجدولي"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/samh-yemen
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abu-al-atahiya-ibn-bishr
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص212 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-25
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 212

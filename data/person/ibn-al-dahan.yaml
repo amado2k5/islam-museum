@@ -1,11 +1,11 @@
 id: person/ibn-al-dahan
 class: person
 label: { ar: "ابن الدهان النحوي", en: "Ibn al-Dahan" }
-born: { edtf: "1173~", hijri: "0569", calendar: julian, precision: year, status: tradition, derived: true, note: "مولده بالموصل في أوائل سنة تسع وستين وخمسمائة تقديراً {cite:wafayat-ayan}." }
-died: { edtf: "1219", hijri: "0616", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي سنة ست عشرة وستمائة بالموصل ودُفن على أبيه بمقبرة المعافى بن عمران {cite:wafayat-ayan}." }
+born: { edtf: "1101", hijri: "0494", calendar: julian, precision: year, status: tradition, derived: true, note: "Ibn Khallikan, Wafayat al-a'yan, entry 265 (Ibn al-Dahan al-Nahwi): born on the evening of Thursday, 26 Rajab 494 AH in Baghdad; al-Zirikli, al-A'lam (vol. 3 pp. 99-100) gives 494-569 AH / 1100-1174. Corrected 14 Nov 2026: 569 AH / 1173 is the birth year of his son, the poet Yahya ibn Sa'id ibn al-Dahan (al-A'lam), not his own.", sources: [source/wafayat-ayan, source/al-aalam] }
+died: { edtf: "1174", hijri: "0569", calendar: julian, precision: year, status: tradition, derived: true, note: "Ibn Khallikan, Wafayat al-a'yan, entry 265: died on 1 Shawwal 569 AH (Ibn al-Mustawfi says 566 AH) in Mosul and was buried in the cemetery of al-Mu'afa ibn 'Imran; al-A'lam agrees on 569 AH; the Siyar a'lam al-nubala' index lists Sa'id ibn al-Mubarak ibn al-Dahan. Corrected 14 Nov 2026: 616 AH / 1219 is the death year of his son, the poet Yahya ibn Sa'id ibn al-Dahan (al-A'lam), not his own.", sources: [source/wafayat-ayan, source/al-aalam] }
 summary:
   ar: "أبو محمد سعيد بن المبارك بن علي بن عبد الله المعروف بابن الدهان النحوي البغدادي؛ سمع الحديث من أبي القاسم هبة الله بن الحسين ومن أبي غالب أحمد بن الحسن بن المنهال؛ كان إمام عصره في النحو؛ من تصانيفه شرح كتاب «الإيضاح والتكميل» في ثلاث وأربعين مجلدة و«الفصول الكبرى» و«الفصول الصغرى» وشرح «اللمع» لابن جني الذي سماه «الغرة» و«العروض» و«الدروس في النحو» و«الرسالة السعيدية في المآخذ الكلامية» و«زاد المعسكر وزهر الرياض» في سبع مجلدات و«العشية في الضاد والظاء» و«المعقود في المقصور والممدود» و«الغنية في الأضداد»؛ ثم ترك بغداد وانتقل إلى الموصل؛ واستملى منه السمعاني حكاية رواها عن ابن عساكر {cite:wafayat-ayan}."
-  en: "Ibn al-Dahan (c. 569–616) — Baghdad's chief grammarian, later of Mosul; his 43-volume sharh of al-Idah wa-l-Takmil and seven-volume Zahr al-Riyad crown an enormous output {cite:wafayat-ayan}."
+  en: "Ibn al-Dahan (494–569 AH / 1101–1174) — Baghdad's chief grammarian, later of Mosul, where he died; his 43-volume sharh of al-Idah wa-l-Takmil and seven-volume Zahr al-Riyad crown an enormous output {cite:wafayat-ayan}."
 gender: male
 roles: [philologist]
 wings: [people]
@@ -17,5 +17,5 @@ provenance:
   source: "وفيات الأعيان لابن خلكان — الجزء الثاني (ترجمة ابن الدهان)، طبعة إحسان عباس، النص المقروء آلياً (djvu) من archive.org"
   generated_by: "Devin (SWE-2 High) from djvu OCR text"
   run: lib-wafayat-batch-19
-sources: [source/wafayat-ayan]
+sources: [source/wafayat-ayan, source/al-aalam]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

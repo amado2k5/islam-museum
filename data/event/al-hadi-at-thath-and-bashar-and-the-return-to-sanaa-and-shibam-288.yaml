@@ -1,0 +1,75 @@
+id: event/al-hadi-at-thath-and-bashar-and-the-return-to-sanaa-and-shibam-288
+class: event
+label:
+  ar: "الهادي بثات وبشار ثم العودة إلى صنعاء وشبام وإرسال أبي القاسم إلى بلد همدان، ربيع الأول 288هـ"
+  en: "Al-Hadi at Thath and Bashar, the return to Sana'a and Shibam and Abu al-Qasim sent to Hamdan's land, Rabi I 288 AH"
+  ur: "ہادی ثات اور بشار میں، صنعاء اور شبام کی واپسی اور ابو القاسم کا ہمدان کے علاقے کی طرف بھیجا جانا، ربیع الاول 288ھ"
+summary:
+  ar: "ينزل الهادي موضعاً من مخاليف جيشان ثم ثات فيجمع أهلها ويقيم أياماً ويولي ثات محمد بن أبي الزبير اليرسمي ويأذن لأبي العشيرة بالمقام بها، ثم ينزل بشار من بلاد عنس ويخلف فيها رجلاً من اليرسميين ثم يكلا ويدخل صنعاء آخر ربيع الأول، ويوجه أخاه أبا محمد إلى الحجاز ليأتيه بمشايخه وحرمه، ثم يخرج آخر ربيع الآخر إلى شبام ويخلف علي بن سليمان بصنعاء، ويوجه في جمادى الآخرة ابنه أبا القاسم بعسكر إلى بلد همدان."
+  en: "Al-Hadi halts at a place in the districts of Jayshan and then at Thath, gathers its people, stays some days, puts Muhammad ibn Abi al-Zubayr al-Yarsami over Thath and lets Abu al-Ushayra stay there; he goes on to Bashar in the land of Ans, leaves a Yarsami there, halts at Yakla and enters Sana'a at the end of Rabi I; he sends his brother Abu Muhammad to the Hijaz to bring his elders and household, goes to Shibam at the end of Rabi II leaving Ali ibn Sulayman at Sana'a, and in Jumada II sends his son Abu al-Qasim with an army to the land of Hamdan."
+  ur: "ہادی جیشان کے اضلاع میں ایک جگہ اور پھر ثات اترتے ہیں، وہاں کے لوگوں کو جمع کرتے ہیں، چند دن رہتے ہیں، محمد بن ابی زبیر یرسمی کو ثات کا والی بناتے ہیں اور ابو العشیرہ کو وہاں ٹھہرنے کی اجازت دیتے ہیں؛ پھر عنس کی سرزمین میں بشار جاتے ہیں، وہاں یرسمیوں میں سے ایک شخص چھوڑتے ہیں، یکلا اترتے ہیں اور ربیع الاول کے آخر میں صنعاء میں داخل ہوتے ہیں؛ بھائی ابو محمد کو حجاز بھیجتے ہیں تاکہ وہ ان کے بزرگوں اور گھر والوں کو لائیں، ربیع الآخر کے آخر میں شبام جاتے ہیں اور علی بن سلیمان کو صنعاء میں چھوڑتے ہیں، اور جمادی الآخرہ میں بیٹے ابو القاسم کو لشکر کے ساتھ ہمدان کے علاقے کی طرف روانہ کرتے ہیں۔"
+kind: other
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0901-02"
+    hijri: "0288-03"
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: "ربيع الأول سنة 288هـ بنص الكتاب؛ الدقة شهرية؛ التحويل مشتق من التقويم الجدولي"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/thath-yemen
+- type: occurred_at
+  target: place/sanaa
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/muhammad-ibn-abi-al-zubayr-al-yarsami
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abu-al-ushayra-ibn-al-ruwayya
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abdullah-ibn-al-husayn-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ali-ibn-sulayman-ibn-al-qasim
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/al-murtada-muhammad
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/al-yarsamiyyun-saada
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص215 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-25
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 215
