@@ -1,0 +1,63 @@
+id: event/al-hadi-fights-at-alab-and-al-jud-under-bayt-bus-288
+class: event
+kind: other
+label:
+  ar: "الهادي يقاتل بعلب وبالجود تحت بيت بوس، شعبان 288هـ"
+  en: "Al-Hadi fights at Alab and at al-Jud below Bayt Bus, Sha'ban 288 AH"
+  ur: "ہادی علب اور بیت بوس کے نیچے الجود میں لڑتے ہیں، شعبان 288ھ"
+summary:
+  ar: "خرج الهادي صباح السبت لست ماضية من شعبان حتى بلغ علب فلقي القوم بها ووقع القتال بغير تعبئة، فأعطاه الله الظفر بحسب الراوي، وتبعهم إلى بيت بوس وإلى موضع يقال له الجود تحتها، ثم عبأ عسكره راجعاً إلى صنعاء وعطف على من تبعه في الطريق."
+  en: "Al-Hadi went out on Saturday, six days of Sha'ban gone, to Alab, met the men there and fought without having drawn up his army; the narrator says God gave him the victory, and he pursued them to Bayt Bus and to a place called al-Jud beneath it, then drew up his army for the return to Sana'a and turned on those who followed him on the road."
+  ur: "ہادی ہفتے کے دن، شعبان کے چھ دن گزرنے پر، علب کی طرف نکلے، وہاں لوگوں سے ملے اور صف بندی کیے بغیر لڑائی ہوئی؛ راوی کے مطابق اللہ نے انہیں فتح دی، اور وہ ان کا پیچھا کر کے بیت بوس اور اس کے نیچے الجود نامی جگہ تک گئے، پھر لشکر کی صف بندی کر کے صنعاء کی طرف لوٹے اور راستے میں پیچھا کرنے والوں پر پلٹے۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0901-07"
+    hijri: "0288-08"
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: "شعبان سنة 288هـ بنص الكتاب؛ الدقة شهرية لأن أيام الأسبوع في الكتاب لا توافق دائماً التقويم الجدولي؛ التحويل مشتق"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-yafur
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-tarif
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/alab-sanaa-yemen
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/bayt-bus-sanaa-yemen
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص228 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-27
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 228
