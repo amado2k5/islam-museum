@@ -12,3 +12,6 @@ Cotton cloth is carried from it to the rest of Iraq in quantity, and it has work
 
 ## Neighbours
 From al-Tawawis to Bukhara is one stage, twenty-seven miles. Within the same wall al-Idrisi names Bumjakath, smaller than al-Tawawis, populous, with an earthen wall, crafts and gardens, as well as Zandana, Mafkan and Khujada. From al-Tawawis to Karminiya is one stage on the road to Samarkand; Karminiya is larger, more populous and more fertile than al-Tawawis. {cite:nuzhat-al-mushtaq-2002 p. 496}
+
+## In Yaqut's Mu'jam al-Buldan
+Yaqut explains "Tawawis" as the plural of "tawus"; in the speech of the people of Syria the word means beautiful, in that of the people of Yemen silver, and it also means green land covered with every kind of flower in the spring. {cite:mujam-al-buldan-sader-1995 4 p.46} He says it is the name of a district in the province of Bukhara between Bukhara and Samarkand, a town with many orchards, running waters and fertility, having a citadel and a congregational mosque, and lying inside the wall of Bukhara. {cite:mujam-al-buldan-sader-1995 4 p.46}
