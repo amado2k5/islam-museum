@@ -1,29 +1,62 @@
 id: person/sahnun-ibn-said
 class: person
 label:
-  ar: "سحنون بن سعيد"
-  en: "Sahnun ibn Said al-Tanukhi"
-roles: [scholar]
+  ar: سحنون بن سعيد
+  en: Sahnun ibn Said al-Tanukhi
+roles:
+- scholar
 gender: male
 summary:
-  ar: "بطاقة أولية لسحنون بن سعيد التنوخي، فقيه القيروان المالكي صاحب المدونة؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Sahnun ibn Said al-Tanukhi, the Qayrawani Maliki jurist of the Mudawwana; his entry is not yet checked on the page."
-wings: [people]
-regions: [maghreb]
-periods: [period/abbasid-early]
-died: { edtf: "0854", precision: year, status: tradition, derived: true }
-sources: [source/al-aalam, source/wikidata]
+  ar: عبد السلام بن سعيد بن حبيب التنوخي، الملقب سحنون، قاض فقيه انتهت إليه رياسة العلم في المغرب، راوي المدونة؛ ١٦٠ إلى ٢٤٠هـ.
+  en: Abd al-Salam ibn Sa'id ibn Habib al-Tanukhi, called Sahnun, a judge and jurist to whom the leadership of learning in the Maghrib passed, narrator of the Mudawwana; 160 to 240 AH.
+wings:
+- people
+regions:
+- maghreb
+periods:
+- period/abbasid-early
+died:
+  edtf: '854'
+  calendar: gregorian
+  precision: year
+  derived: true
+  note: From the A'lam entry, given as AH = CE (al-Zirikli, al-A'lam, vol. 3 p. 354).
+  sources:
+  - source/alam-zirikli-dar-al-ilm-2002
+sources:
+- source/al-aalam
+- source/wikidata
+- source/alam-zirikli-dar-al-ilm-2002
 external_ids:
   wikidata: Q708848
-  viaf: "53342090"
+  viaf: '53342090'
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text
+  generated_by: Claude Code (Lane B2 packet)
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 relations:
-  - { type: lived_in, target: place/qayrawan, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/al-aalam] }
+- type: lived_in
+  target: place/qayrawan
+  confidence: low
+  note: The only place named in the record; specific residence or role there is assumed from context but not separately documented.
+  sources:
+  - source/al-aalam
+- type: born_in
+  target: place/qayrawan
+  confidence: medium
+  note: The A'lam entry says he was born at Qayrawan.
+  sources:
+  - source/alam-zirikli-dar-al-ilm-2002
+born:
+  edtf: '777'
+  calendar: gregorian
+  precision: year
+  derived: true
+  note: From the A'lam entry, given as AH = CE (al-Zirikli, al-A'lam, vol. 3 p. 354).
+  sources:
+  - source/alam-zirikli-dar-al-ilm-2002
