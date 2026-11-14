@@ -2939,3 +2939,14 @@ Resume point: min-kunuz-al-sunnah episode 9 (branch from origin/main).
 | Loops and garbled stretches | ep09 00:19:30-00:20:00, 00:22:00-00:22:30 | Not recoverable | Clarity, Loop check | Open |
 
 Resume point: min-kunuz-al-sunnah episode 10 (branch from origin/main).
+
+### min-kunuz-al-sunnah ep10 (14 Nov 2026)
+
+11 points written for episode 10 (ar, en, ur); 8 needs_source marks in each language file for this episode; -70 new `about` edges. Quran verses referenced only through passage links (5-3, 3-133, 3-134, 18-62, 24-31); none typed. Contested: the lecturer's views on anniversaries, birthdays, dress and cosmetic surgery are attributed to him; sensitivity stays contested.
+
+| Excluded (min-kunuz-al-sunnah ep10) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greetings, the break joins and the closing prayer | ep10 00:00:00, 00:08:30-00:09:00, 00:17:00-00:17:30, 00:26:00 | Not lesson content | Content rule | Open |
+| A remark on the cow of the Israelites made as a rebuke of a group, and a loop in the stretch on the hump hadith | ep10 00:20:30-00:21:00 (part) | Group generalisation and not recoverable | Voice rule, Clarity, Loop check | Open |
+
+Resume point: min-kunuz-al-sunnah episode 11 (branch from origin/main).
