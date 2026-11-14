@@ -24165,6 +24165,1637 @@ video_series:
 # Use only URLs found in ledgers, logs, scripts, config or the drive; never reconstruct one.
 websites:
   # BEGIN websites
+  # BEGIN websites:sources-registry-and-core
+  - id: web-shamela
+    title: al-Maktaba al-Shamela (shamela.ws)
+    site_url: https://shamela.ws
+    licence: user-uploaded texts of classical Arabic works; authenticity-ledger tier T4 (pointer; named-edition check only); read online or fetched with curl for reading, never republished; texts and apparatus keep their editors' copyright
+    lane: web-sources Lane B worker B1 and web-sources Lane B2
+    completion: mining
+    state: read online page by page in Chrome (Siyar) and fetched by curl at a 2 s pause (Mu'jam al-Buldan); also the carrier of the Shamela exports inside OpenITI and archive.org; no download of whole book files from shamela.ws traced
+    prs:
+    - 6638
+    - 5280
+    notes: 'Four data/source records exist for Shamela scholar pages (shamela-abd-al-hayy-yusuf, shamela-abd-al-salam-al-shuwair, shamela-mostafa-al-adwy, shamela-muhammad-bazmool); their URLs are in those records. Siyar book 10906 is claimed in WORK-REGISTRY.md (web-b2). Skipped with reasons: zahir-ibn-ahmad-al-sarakhsi (name only in a death list), abd-allah-ibn-tawus (entry not located), aban-ibn-taghlib (not tried).'
+    pages:
+    - {url: 'https://shamela.ws/book/10906', taken: 'Siyar A''lam al-Nubala, Risala ed.; /book/10906 lists volumes only; page ids per volume: vol 5 = 3777, 6 = 4255, 7 = 4669, 12 = 7494, 13 = 8124, 16 = 9854, 17 = 10416; entries read in full for persons prose (nine persons in packet pkta, ten in packet B, six in pktc, batches 1 to 5 earlier)', date: '2026-11-14', lane: web-sources Lane B2, state: mining, ids_read: 'vol 5 3777.., 6 4255.., 7 4669.., 12 7494.., 13 8124.., 16 9854.., 17 10416.. (sampled; page-id ranges not recorded in full)'}
+    - {url: 'https://shamela.ws/book/23735', taken: 'Mu''jam al-Buldan (Yaqut), Dar Sader 1995: pages 1 to 2460 by index, about 3 MB, saved as books/geography/mujam-al-buldan-sader-shamela23735/pages.jsonl; curl, 2 s pause; used for place prose packets 1 to 52', date: '2026-11-14', lane: web-b1 prose coordinator, state: downloaded, ids_read: pages 1-2460}
+    - {url: 'https://shamela.ws/book/1726', taken: 'Sunan Abi Dawud (ed. Muhyi al-Din Abd al-Hamid, al-Maktaba al-Asriya): reader pages 1 to 7200, 30-row sample, seed 20261026, used to test sunnah.com (29 of 30 rows matched)', date: '2026-10-24', lane: authenticity gate, state: read, ids_read: 'reader pages 1-7200, 30 sampled'}
+    - {taken: Shamela htm export of Athar al-Bilad (al-Qazwini) from archive.org item 0006Htm, date: '2026-11-14', lane: web-sources Lane B worker B1, state: downloaded, identifier: 0006Htm}
+    - {taken: 'al-A''lam (al-Zirikli) fuller Shamela export, claimed in WORK-REGISTRY.md, not started', date: '2026-11-14', lane: web-sources Lane B2, state: claimed, note: 'registry row: tareekh/alam-zirikli-shamela'}
+    unverified:
+    - page_id_ranges_read_in_full
+  - id: web-tafsir-app
+    title: tafsir.app (al-Bahith al-Qur'ani, Nuqayah / Jam'iyyat Ayat)
+    site_url: https://tafsir.app
+    licence: no licence or terms page exists (recon 8 Nov 2026); texts reproduce modern critical editions; facts-only, workspace-local, never republished, no {cite:} until the founder registers the family; robots.txt disallows only /embed.php
+    lane: library harvest (tafsir.app watchdog)
+    completion: downloaded
+    state: founder-docket record dec-20261108-192 left the question reserved; CANARY records the 72-book harvest as approved and launched by the founder's instruction; 19 books fetched complete and one partial (albahr-almuheet, 785 of the groups, stopped at sura 6 aya 152), 8 to 12 Nov 2026, about 1.0 GB under raw/library/tafsir-app; ma'ajim (9) and the mushaf page images are out of scope; no mining or ingestion traced
+    acquisition: {date: '2026-11-08', by: harvest_tafsir.py watchdog, bytes: null, sha256_status: pending}
+    mining: {state: none}
+    ingestion: {state: none}
+    notes: Catalogue /sources/sources.json?json_rev=20261013a lists 82 entries (73 text, 9 ma'ajim); ibn-taymiyyah returns empty data; get.php?src=<id>&s=<sura>&a=<aya>&ver=1 gives one ayah group per call (about 6,236 calls per book at 1 s spacing, no 403 or 429). The recon report is raw/library/tafsir-app/_recon/RECON-REPORT.md. The books segment left this tree to the websites segment (GEMINI line in docs/library/README.md).
+    pages:
+    - {url: 'https://tafsir.app/sources/sources.json?json_rev=20261013a', taken: 'catalogue of 82 sources (title, author, death, volumes, order, keys)', date: '2026-11-08', lane: library harvest, state: read}
+    - {url: 'https://tafsir.app/about.html', taken: 'about page read (testimonials only); terms, privacy and rights pages are SPA shells', date: '2026-11-08', lane: library harvest, state: read}
+    - {url: 'https://tafsir.app/get.php?src=abu-alsuod&s=<sura>&a=<aya>&ver=1', taken: abu-alsuod; إرشاد العقل السليم إلى مزايا الكتاب الكريم; أبو السعود أفندي d. 982 AH; 9 vols; 6215 groups fetched; 6257 ayahs covered, date: '2026-11-12', lane: library harvest, state: downloaded, path: raw/library/tafsir-app/abu-alsuod}
+    - {url: 'https://tafsir.app/get.php?src=alaloosi&s=<sura>&a=<aya>&ver=1', taken: alaloosi; روح المعاني في تفسير القرآن العظيم والسبع المثاني; محمود شهاب الدين الآلوسي d. 1270 AH; 28 vols; 6092 groups fetched; 6380 ayahs covered, date: '2026-11-12', lane: library harvest, state: downloaded, path: raw/library/tafsir-app/alaloosi}
+    - {url: 'https://tafsir.app/get.php?src=albahr-almuheet&s=<sura>&a=<aya>&ver=1', taken: 'albahr-almuheet; title unknown, meta.json missing; 785 groups fetched; partial: stopped at sura 6 aya 152 per progress.json', date: '2026-11-12', lane: library harvest, state: partial, path: raw/library/tafsir-app/albahr-almuheet}
+    - {url: 'https://tafsir.app/get.php?src=albaseet&s=<sura>&a=<aya>&ver=1', taken: albaseet; التفسير البسيط; أبو الحسن علي الواحدي النيسابوري d. 468 AH; 22 vols; 4918 groups fetched; 6260 ayahs covered, date: '2026-11-12', lane: library harvest, state: downloaded, path: raw/library/tafsir-app/albaseet}
+    - {url: 'https://tafsir.app/get.php?src=albaydawee&s=<sura>&a=<aya>&ver=1', taken: albaydawee; أنوار التنزيل وأسرار التأويل; البيضاوي d. 685 AH; 3 vols; 1972 groups fetched; 3346 ayahs covered, date: 2026-11-09 to 2026-11-11, lane: library harvest, state: downloaded, path: raw/library/tafsir-app/albaydawee}
+    - {url: 'https://tafsir.app/get.php?src=almawirdee&s=<sura>&a=<aya>&ver=1', taken: almawirdee; النكت والعيون; أبو الحسن علي الماوردي d. 450 AH; 6 vols; 3059 groups fetched; 9413 ayahs covered, date: '2026-11-12', lane: library harvest, state: downloaded, path: raw/library/tafsir-app/almawirdee}
+    - {url: 'https://tafsir.app/get.php?src=alnasafi&s=<sura>&a=<aya>&ver=1', taken: alnasafi; مدارك التنزيل وحقائق التأويل; أبو البركات النسفي d. 710 AH; 3 vols; 6136 groups fetched; 6259 ayahs covered, date: '2026-11-11', lane: library harvest, state: downloaded, path: raw/library/tafsir-app/alnasafi}
+    - {url: 'https://tafsir.app/get.php?src=alrazi&s=<sura>&a=<aya>&ver=1', taken: alrazi; مفاتيح الغيب; فخر الدين الرازي d. 606 AH; 24 vols; 4409 groups fetched; 8063 ayahs covered, date: '2026-11-12', lane: library harvest, state: downloaded, path: raw/library/tafsir-app/alrazi}
+    - {url: 'https://tafsir.app/get.php?src=alwajeez&s=<sura>&a=<aya>&ver=1', taken: alwajeez; الوجيز في تفسير الكتاب العزيز; أبو الحسن علي الواحدي النيسابوري d. 468 AH; 1 vols; 5168 groups fetched; 6236 ayahs covered, date: 2026-11-11 to 2026-11-12, lane: library harvest, state: downloaded, path: raw/library/tafsir-app/alwajeez}
+    - {url: 'https://tafsir.app/get.php?src=baghawi&s=<sura>&a=<aya>&ver=1', taken: baghawi; معالم التنزيل; أبو محمد الحسين البغوي d. 516 AH; 11 vols; 3676 groups fetched; 8796 ayahs covered, date: '2026-11-09', lane: library harvest, state: downloaded, path: raw/library/tafsir-app/baghawi}
+    - {url: 'https://tafsir.app/get.php?src=ibn-aashoor&s=<sura>&a=<aya>&ver=1', taken: ibn-aashoor; التحرير والتنوير; محمد الطاهر بن عاشور d. 1393 AH; 24 vols; 5147 groups fetched; 7325 ayahs covered, date: 2026-11-08 to 2026-11-09, lane: library harvest, state: downloaded, path: raw/library/tafsir-app/ibn-aashoor}
+    - {url: 'https://tafsir.app/get.php?src=ibn-atiyah&s=<sura>&a=<aya>&ver=1', taken: ibn-atiyah; المحرر الوجيز في تفسير الكتاب العزيز; ابن عطية الأندلسي d. 546 AH; 8 vols; 3130 groups fetched; 9342 ayahs covered, date: '2026-11-12', lane: library harvest, state: downloaded, path: raw/library/tafsir-app/ibn-atiyah}
+    - {url: 'https://tafsir.app/get.php?src=ibn-katheer&s=<sura>&a=<aya>&ver=1', taken: ibn-katheer; تفسير القرآن العظيم; الحافظ أبو الفداء ابن كثير d. 774 AH; 19 vols; 3332 groups fetched; 9140 ayahs covered, date: '2026-11-08', lane: library harvest, state: downloaded, path: raw/library/tafsir-app/ibn-katheer}
+    - {url: 'https://tafsir.app/get.php?src=jalalayn&s=<sura>&a=<aya>&ver=1', taken: jalalayn; تفسير الجلالين; جلال الدين المحلي وجلال الدين السيوطي d. 864، 911 AH; 1 vols; 6010 groups fetched; 6236 ayahs covered, date: '2026-11-09', lane: library harvest, state: downloaded, path: raw/library/tafsir-app/jalalayn}
+    - {url: 'https://tafsir.app/get.php?src=kashaf&s=<sura>&a=<aya>&ver=1', taken: kashaf; الكشاف عن حقائق غوامض التنزيل; أبو القاسم محمود الزمخشري d. 538 AH; 8 vols; 4381 groups fetched; 8077 ayahs covered, date: '2026-11-12', lane: library harvest, state: downloaded, path: raw/library/tafsir-app/kashaf}
+    - {url: 'https://tafsir.app/get.php?src=muyassar&s=<sura>&a=<aya>&ver=1', taken: muyassar; التفسير الميسر; جمع من العلماء تحت إشراف مجمع الملك فهد; 1 vols; 5665 groups fetched; 6807 ayahs covered, date: '2026-11-09', lane: library harvest, state: downloaded, path: raw/library/tafsir-app/muyassar}
+    - {url: 'https://tafsir.app/get.php?src=qurtubi&s=<sura>&a=<aya>&ver=1', taken: qurtubi; الجامع لأحكام القرآن; شمس الدين القرطبي d. 671 AH; 24 vols; 3699 groups fetched; 7241 ayahs covered, date: '2026-11-08', lane: library harvest, state: downloaded, path: raw/library/tafsir-app/qurtubi}
+    - {url: 'https://tafsir.app/get.php?src=samaani&s=<sura>&a=<aya>&ver=1', taken: samaani; تفسير القرآن; أبو المظفر السمعاني d. 489 AH; 5 vols; 6051 groups fetched; 6285 ayahs covered, date: '2026-11-12', lane: library harvest, state: downloaded, path: raw/library/tafsir-app/samaani}
+    - {url: 'https://tafsir.app/get.php?src=tabari&s=<sura>&a=<aya>&ver=1', taken: tabari; جامع البيان عن تأويل آي القرآن; أبو جعفر محمد بن جرير الطبري d. 310 AH; 28 vols; 2037 groups fetched; 3985 ayahs covered, date: '2026-11-08', lane: library harvest, state: downloaded, path: raw/library/tafsir-app/tabari}
+    - {url: 'https://tafsir.app/get.php?src=zad-almaseer&s=<sura>&a=<aya>&ver=1', taken: zad-almaseer; زاد المسير في علم التفسير; أبو الفرج بن الجوزي d. 597 AH; 5 vols; 3181 groups fetched; 9291 ayahs covered, date: '2026-11-12', lane: library harvest, state: downloaded, path: raw/library/tafsir-app/zad-almaseer}
+    unverified:
+    - sha256_of_trees
+    - which_books_the_72_book_plan_still_lacks
+  - id: web-hadithunlocked
+    title: hadithunlocked.com (hadith, tafsir, sira, history and translation EPUB and JSON)
+    site_url: https://hadithunlocked.com
+    licence: unknown; downloaded for mining under the sources policy (facts, own words, cite the edition); never republished
+    lane: harvest (hadith lane)
+    completion: downloaded
+    state: 'manifest raw/hadithunlocked/manifest.jsonl, 24 Oct 2026: 44 hadith files ok and 17 failed, 58 tafsir files, 22 translation files, 1 sira file, 1 history file; about 1.32 GB; sha256 per file in the manifest'
+    acquisition: {date: '2026-10-24', by: harvest (hadithunlocked fetch), bytes: 1324012724, sha256_status: computed}
+    mining: {state: unknown}
+    ingestion: {state: unknown}
+    pages:
+    - {url: 'https://hadithunlocked.com/riyad.json', taken: 'Riyad al-Salihin json, 109,419,482 bytes (first manifest row; further rows follow the same pattern https://hadithunlocked.com/<id>.json and .epub)', date: '2026-10-24', lane: harvest, state: downloaded, sha256: 5aed2e817e6a511f690fb98429906431269715d852bd1ab4b96fed1075464389}
+    - {taken: 'hadith group: 44 ok, 17 failed (980,347,847 bytes ok)', date: '2026-10-24', lane: harvest, state: downloaded, folder: raw/hadithunlocked/hadith}
+    - {taken: 'tafsir group: 58 ok (291,896,953 bytes), e.g. ibn-kathir, baghawi, alusi, ibn-ashur, ibn-atiyah, ibn-uthaymin', date: '2026-10-24', lane: harvest, state: downloaded, folder: raw/hadithunlocked/tafsir}
+    - {taken: 'translation group: 22 ok (29,196,191 bytes)', date: '2026-10-24', lane: harvest, state: downloaded, folder: raw/hadithunlocked/translation}
+    - {taken: 'sira (ibnhisham.epub, 2,437,506 bytes) and history (history.epub, 20,134,227 bytes)', date: '2026-10-24', lane: harvest, state: downloaded, folder: 'raw/hadithunlocked/sira, history'}
+    unverified:
+    - mining
+    - ingestion
+    - licence
+    - failed_hadith_ids
+  - id: web-viaf
+    title: VIAF (identifiers only)
+    site_url: null
+    licence: identifiers are facts (CC0 data); the VIAF site and cluster pages were not fetched
+    lane: web-sources Lane B worker B1
+    completion: ingested
+    state: VIAF numbers were taken from Wikidata property P214 (one wbgetentities call per 50 ids, 3 s pause, descriptive user agent); a person is linked only when the item has exactly one non-deprecated P214; 25, 99, 200, 1,100 and the remainder of the saved scan on 14 Nov 2026; 3,650 of 6,020 persons with several or no P214 untouched; corrections in corr-p5
+    prs:
+    - 6681
+    - 6694
+    - 6704
+    - 6707
+    - 6709
+    - 6893
+    notes: 'VIAF prose sections were not written: a VIAF number alone is no fact worth a section (p72).'
+    pages:
+    - {taken: 'Wikidata P214 pulls (revision ids recorded per person in the ledger, for example Q517 rev 2567767072)', date: '2026-11-14', lane: web-sources Lane B worker B1, state: ingested, note: no VIAF URL read}
+    unverified:
+    - site_url
+    - total_linked_count
+  - id: web-wikipedia
+    title: Wikipedia (all languages)
+    site_url: https://en.wikipedia.org
+    licence: CC BY-SA 4.0 and GFDL; a source for entity facts only (URLs, names, dates, identifiers) when taken from a recorded revision; never for prose or the content of a work (AGENTS.md)
+    lane: all lanes; modern-islam web section; authenticity ledger
+    completion: ingested
+    state: 4,953 data/source records are named wikipedia-*; their URL fields name 2,047 en, 1,331 ar, 774 ur, 172 fr, 130 tr, 95 id, 79 fa, 76 ru pages and about 20 other language editions (count of URL fields, 14 Nov 2026); the dump set is in the dumps entry; sample ledger pages below
+    prs:
+    - 5280
+    - 5166
+    - 1580
+    - 2781
+    pages:
+    - {url: 'https://ar.wikipedia.org/w/index.php?title=%D8%A3%D8%AD%D9%85%D8%AF_%D9%81%D8%B1%D9%8A%D8%AF&oldid=73779172', taken: page read for facts; ledger entry in docs/authenticity-ledger/pages, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://ar.wikipedia.org/w/index.php?title=%D8%A7%D9%84%D9%85%D9%82%D8%A8%D8%B1%D8%A9_%D8%A7%D9%84%D9%88%D8%B1%D8%AF%D9%8A%D8%A9&oldid=70599944', taken: page read for facts; ledger entry in docs/authenticity-ledger/pages, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://ar.wikipedia.org/w/index.php?title=%D8%B2%D8%BA%D9%84%D9%88%D9%84_%D8%A7%D9%84%D9%86%D8%AC%D8%A7%D8%B1&oldid=76928391', taken: page read for facts; ledger entry in docs/authenticity-ledger/pages, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://ar.wikipedia.org/w/index.php?title=%D8%B9%D8%A8%D8%AF_%D8%A7%D9%84%D8%AD%D9%85%D9%8A%D8%AF_%D9%83%D8%B4%D9%83&oldid=73636009', taken: page read for facts; ledger entry in docs/authenticity-ledger/pages, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://ar.wikipedia.org/w/index.php?title=%D8%B9%D8%A8%D9%84%D8%A9_%D8%A7%D9%84%D9%83%D8%AD%D9%84%D8%A7%D9%88%D9%8A&oldid=76168910', taken: page read for facts; ledger entry in docs/authenticity-ledger/pages, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://ar.wikipedia.org/w/index.php?title=%D9%85%D8%B3%D8%B9%D8%AF_%D8%A3%D9%86%D9%88%D8%B1&oldid=73718077', taken: page read for facts; ledger entry in docs/authenticity-ledger/pages, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://ar.wikipedia.org/w/index.php?title=%D9%85%D8%B5%D8%B7%D9%81%D9%89_%D8%AD%D8%B3%D9%86%D9%8A&oldid=75788848', taken: page read for facts; ledger entry in docs/authenticity-ledger/pages, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://en.wikipedia.org/w/index.php?title=Abdul_Hamid_Kishk&oldid=1372254749', taken: page read for facts; ledger entry in docs/authenticity-ledger/pages, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://en.wikipedia.org/w/index.php?title=Abla_al-Kahlawi&oldid=1353865316', taken: page read for facts; ledger entry in docs/authenticity-ledger/pages, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://en.wikipedia.org/w/index.php?title=Avicenna&oldid=1377286292', taken: page read for facts; ledger entry in docs/authenticity-ledger/pages, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://en.wikipedia.org/w/index.php?title=Gorgan&oldid=1375906246', taken: page read for facts; ledger entry in docs/authenticity-ledger/pages, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://en.wikipedia.org/w/index.php?title=Tus,_Iran&oldid=1376834760', taken: page read for facts; ledger entry in docs/authenticity-ledger/pages, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://en.wikipedia.org/w/index.php?title=Zaghloul_El-Naggar&oldid=1368789036', taken: page read for facts; ledger entry in docs/authenticity-ledger/pages, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    unverified:
+    - revision_ids_per_page_are_in_each_record
+  - id: web-wikidata
+    title: Wikidata (entity pages and API)
+    site_url: https://www.wikidata.org
+    licence: CC0 1.0
+    lane: all lanes
+    completion: ingested
+    state: 1,896 data/source records are named wikidata-*, and about 1,897 URL fields point at wikidata.org; the query service and the dump are separate entries; Wikibase API reads for VIAF (P214), Louvre (P9394) and Biblissima (P112) cross-checks in November 2026; 71 entity pages are recorded in docs/authenticity-ledger/pages
+    prs:
+    - 6681
+    - 6694
+    - 6704
+    - 6707
+    - 6709
+    - 5964
+    - 5955
+    - 6552
+    pages:
+    - {url: 'https://www.wikidata.org/w/index.php?title=Q1026298&oldid=2478920752', taken: entity page checked for the identifier or fact named in its ledger entry, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://www.wikidata.org/w/index.php?title=Q10305&oldid=2562555899', taken: entity page checked for the identifier or fact named in its ledger entry, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://www.wikidata.org/w/index.php?title=Q1083&oldid=2536517699', taken: entity page checked for the identifier or fact named in its ledger entry, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://www.wikidata.org/w/index.php?title=Q1127195&oldid=2561337011', taken: entity page checked for the identifier or fact named in its ledger entry, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://www.wikidata.org/w/index.php?title=Q11953&oldid=2560881194', taken: entity page checked for the identifier or fact named in its ledger entry, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://www.wikidata.org/w/index.php?title=Q12191&oldid=2563322172', taken: entity page checked for the identifier or fact named in its ledger entry, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://www.wikidata.org/w/index.php?title=Q12216968&oldid=2529602570', taken: entity page checked for the identifier or fact named in its ledger entry, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://www.wikidata.org/w/index.php?title=Q12812&oldid=2562153675', taken: entity page checked for the identifier or fact named in its ledger entry, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://www.wikidata.org/w/index.php?title=Q1324393&oldid=2551495608', taken: entity page checked for the identifier or fact named in its ledger entry, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://www.wikidata.org/w/index.php?title=Q1334331&oldid=2549935777', taken: entity page checked for the identifier or fact named in its ledger entry, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://www.wikidata.org/w/index.php?title=Q13498&oldid=2529556069', taken: entity page checked for the identifier or fact named in its ledger entry, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://www.wikidata.org/w/index.php?title=Q1460&oldid=2561310496', taken: entity page checked for the identifier or fact named in its ledger entry, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://www.wikidata.org/w/index.php?title=Q1462&oldid=2562626576', taken: entity page checked for the identifier or fact named in its ledger entry, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://www.wikidata.org/w/index.php?title=Q147736&oldid=2534965942', taken: entity page checked for the identifier or fact named in its ledger entry, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://www.wikidata.org/w/index.php?title=Q15088&oldid=2527099724', taken: entity page checked for the identifier or fact named in its ledger entry, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://www.wikidata.org/w/index.php?title=Q1650228&oldid=2530458365', taken: entity page checked for the identifier or fact named in its ledger entry, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://www.wikidata.org/w/index.php?title=Q17151&oldid=2553150315', taken: entity page checked for the identifier or fact named in its ledger entry, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://www.wikidata.org/w/index.php?title=Q17252&oldid=2558881370', taken: entity page checked for the identifier or fact named in its ledger entry, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://www.wikidata.org/w/index.php?title=Q173219&oldid=2540359021', taken: entity page checked for the identifier or fact named in its ledger entry, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://www.wikidata.org/w/index.php?title=Q1788306&oldid=2528887273', taken: entity page checked for the identifier or fact named in its ledger entry, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://www.wikidata.org/w/index.php?title=Q180294&oldid=2545650857', taken: entity page checked for the identifier or fact named in its ledger entry, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://www.wikidata.org/w/index.php?title=Q181359&oldid=2536519442', taken: entity page checked for the identifier or fact named in its ledger entry, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://www.wikidata.org/w/index.php?title=Q1903&oldid=2561599508', taken: entity page checked for the identifier or fact named in its ledger entry, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://www.wikidata.org/w/index.php?title=Q192518&oldid=2532330870', taken: entity page checked for the identifier or fact named in its ledger entry, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://www.wikidata.org/w/index.php?title=Q20399771&oldid=2536794570', taken: entity page checked for the identifier or fact named in its ledger entry, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://www.wikidata.org/w/index.php?title=Q207749&oldid=2538186551', taken: entity page checked for the identifier or fact named in its ledger entry, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://www.wikidata.org/w/index.php?title=Q21076520&oldid=2263602831', taken: entity page checked for the identifier or fact named in its ledger entry, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://www.wikidata.org/w/index.php?title=Q2303666&oldid=2545694748', taken: entity page checked for the identifier or fact named in its ledger entry, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://www.wikidata.org/w/index.php?title=Q243699&oldid=2563434727', taken: entity page checked for the identifier or fact named in its ledger entry, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://www.wikidata.org/w/index.php?title=Q244004&oldid=2544361156', taken: entity page checked for the identifier or fact named in its ledger entry, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://www.wikidata.org/w/index.php?title=Q2481399&oldid=2517817947', taken: entity page checked for the identifier or fact named in its ledger entry, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://www.wikidata.org/w/index.php?title=Q2575777&oldid=2553742900', taken: entity page checked for the identifier or fact named in its ledger entry, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://www.wikidata.org/w/index.php?title=Q2724682&oldid=2547801386', taken: entity page checked for the identifier or fact named in its ledger entry, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://www.wikidata.org/w/index.php?title=Q27365&oldid=2561022921', taken: entity page checked for the identifier or fact named in its ledger entry, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://www.wikidata.org/w/index.php?title=Q28716432&oldid=2468638431', taken: entity page checked for the identifier or fact named in its ledger entry, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://www.wikidata.org/w/index.php?title=Q3021755&oldid=2533159315', taken: entity page checked for the identifier or fact named in its ledger entry, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://www.wikidata.org/w/index.php?title=Q3026665&oldid=2530478679', taken: entity page checked for the identifier or fact named in its ledger entry, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://www.wikidata.org/w/index.php?title=Q30974&oldid=2539164875', taken: entity page checked for the identifier or fact named in its ledger entry, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://www.wikidata.org/w/index.php?title=Q3178467&oldid=2551361287', taken: entity page checked for the identifier or fact named in its ledger entry, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://www.wikidata.org/w/index.php?title=Q3297078&oldid=2522183104', taken: entity page checked for the identifier or fact named in its ledger entry, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://www.wikidata.org/w/index.php?title=Q329984&oldid=2554628741', taken: entity page checked for the identifier or fact named in its ledger entry, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://www.wikidata.org/w/index.php?title=Q34123&oldid=2527344353', taken: entity page checked for the identifier or fact named in its ledger entry, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://www.wikidata.org/w/index.php?title=Q3513903&oldid=2520407167', taken: entity page checked for the identifier or fact named in its ledger entry, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://www.wikidata.org/w/index.php?title=Q3663184&oldid=2539526450', taken: entity page checked for the identifier or fact named in its ledger entry, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://www.wikidata.org/w/index.php?title=Q371063&oldid=2522633408', taken: entity page checked for the identifier or fact named in its ledger entry, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://www.wikidata.org/w/index.php?title=Q3775676&oldid=2424839047', taken: entity page checked for the identifier or fact named in its ledger entry, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://www.wikidata.org/w/index.php?title=Q431148&oldid=2552813859', taken: entity page checked for the identifier or fact named in its ledger entry, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://www.wikidata.org/w/index.php?title=Q432681&oldid=2527344339', taken: entity page checked for the identifier or fact named in its ledger entry, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://www.wikidata.org/w/index.php?title=Q45412&oldid=2537227602', taken: entity page checked for the identifier or fact named in its ledger entry, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://www.wikidata.org/w/index.php?title=Q466006&oldid=2518124020', taken: entity page checked for the identifier or fact named in its ledger entry, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://www.wikidata.org/w/index.php?title=Q481594&oldid=2538275853', taken: entity page checked for the identifier or fact named in its ledger entry, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://www.wikidata.org/w/index.php?title=Q487786&oldid=2546241890', taken: entity page checked for the identifier or fact named in its ledger entry, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://www.wikidata.org/w/index.php?title=Q496424&oldid=2562006352', taken: entity page checked for the identifier or fact named in its ledger entry, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://www.wikidata.org/w/index.php?title=Q510927&oldid=2521361682', taken: entity page checked for the identifier or fact named in its ledger entry, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://www.wikidata.org/w/index.php?title=Q52143&oldid=2556996587', taken: entity page checked for the identifier or fact named in its ledger entry, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://www.wikidata.org/w/index.php?title=Q643386&oldid=2555713823', taken: entity page checked for the identifier or fact named in its ledger entry, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://www.wikidata.org/w/index.php?title=Q6471038&oldid=2561480941', taken: entity page checked for the identifier or fact named in its ledger entry, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://www.wikidata.org/w/index.php?title=Q679352&oldid=2554142515', taken: entity page checked for the identifier or fact named in its ledger entry, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://www.wikidata.org/w/index.php?title=Q680322&oldid=2549832796', taken: entity page checked for the identifier or fact named in its ledger entry, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://www.wikidata.org/w/index.php?title=Q720028&oldid=2550083086', taken: entity page checked for the identifier or fact named in its ledger entry, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://www.wikidata.org/w/index.php?title=Q738013&oldid=2520231798', taken: entity page checked for the identifier or fact named in its ledger entry, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://www.wikidata.org/w/index.php?title=Q739037&oldid=2551196644', taken: entity page checked for the identifier or fact named in its ledger entry, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://www.wikidata.org/w/index.php?title=Q761460&oldid=2533126623', taken: entity page checked for the identifier or fact named in its ledger entry, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://www.wikidata.org/w/index.php?title=Q765806&oldid=2511741202', taken: entity page checked for the identifier or fact named in its ledger entry, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://www.wikidata.org/w/index.php?title=Q82859&oldid=2555316637', taken: entity page checked for the identifier or fact named in its ledger entry, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://www.wikidata.org/w/index.php?title=Q860307&oldid=2528884362', taken: entity page checked for the identifier or fact named in its ledger entry, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://www.wikidata.org/w/index.php?title=Q867615&oldid=2524244489', taken: entity page checked for the identifier or fact named in its ledger entry, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://www.wikidata.org/w/index.php?title=Q935454&oldid=2546570976', taken: entity page checked for the identifier or fact named in its ledger entry, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://www.wikidata.org/w/index.php?title=Q971090&oldid=2478917222', taken: entity page checked for the identifier or fact named in its ledger entry, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://www.wikidata.org/w/index.php?title=Q97625652&oldid=2561361764', taken: entity page checked for the identifier or fact named in its ledger entry, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    - {url: 'https://www.wikidata.org/w/index.php?title=Q986213&oldid=2518989952', taken: entity page checked for the identifier or fact named in its ledger entry, date: '2026-10-27', lane: authenticity ledger, state: ingested}
+    unverified:
+    - revision_ids_per_page_are_in_each_record
+  - id: web-assabile
+    title: Assabile lecture archive (site level)
+    site_url: https://www.assabile.com
+    licence: 'no licence statement found on the site (checked 25 Oct 2026 and 1 Nov 2026); treated exactly like a book by the founder''s decision of 25 Oct 2026, extended to the Egypt list on 1 Nov 2026; robots.txt re-read: lesson pages and media.assabile.com not disallowed; audio, video and transcripts never republished'
+    lane: assabile-av (series and episodes are recorded in the audio_series and video_series blocks by another worker)
+    completion: mining
+    state: 'three registrations: Omar Abdelkafy (25 series, about 620 lessons, audio and video), Tareq al-Suwaidan (23 series, about 402 lessons, video), the Egypt list of 19 speakers (about 2,900 lessons); authenticity-ledger tier T1 reference-scoped; method docs/agents/audio-video-harvest.md'
+    registered: 2026-10-25 (Omar, Suwaidan); 2026-11-01 (Egypt list)
+    prs:
+    - 1591
+    - 2021
+    - 2838
+    - 1629
+    notes: The registration year of the Omar and Suwaidan entries is 2026 (25 Oct 2026); see registered field text. Series and episode URLs belong to the audio_series block.
+    pages:
+    - {url: 'https://www.assabile.com/omar-abdelkafy', taken: 'speaker page: 25 series, about 620 lessons', date: '2026-10-25', lane: assabile-av, state: mining}
+    - {url: 'https://www.assabile.com/tareq-al-suwaidan', taken: 'speaker page: 23 series, about 402 lessons', date: '2026-10-25', lane: assabile-av, state: mining}
+    - {url: 'https://www.assabile.com/amr-khaled', taken: 'speaker page: 16 series, 559 lessons', date: '2026-11-01', lane: assabile-av, state: mining}
+    - {url: 'https://www.assabile.com/muhammad-metwally-al-shaarawy', taken: 'speaker page: 2 series, 59 lessons', date: '2026-11-01', lane: assabile-av, state: mining}
+    - {url: 'https://www.assabile.com/mahmoud-al-masri', taken: 'speaker page: 9 series, 226 lessons', date: '2026-11-01', lane: assabile-av, state: mining}
+    - {url: 'https://www.assabile.com/abla-al-kahlawi', taken: 'speaker page: 1 series, 27 lessons', date: '2026-11-01', lane: assabile-av, state: mining}
+    - {url: 'https://www.assabile.com/mustafa-hosny', taken: 'speaker page: 3 series, 86 lessons', date: '2026-11-01', lane: assabile-av, state: mining}
+    - {url: 'https://www.assabile.com/muhammad-hussein-yacoub', taken: 'speaker page: 14 series, 498 lessons', date: '2026-11-01', lane: assabile-av, state: mining}
+    - {url: 'https://www.assabile.com/abu-ishaq-alheweny', taken: 'speaker page: 3 series, 58 lessons', date: '2026-11-01', lane: assabile-av, state: mining}
+    - {url: 'https://www.assabile.com/yusuf-al-qaradawi', taken: 'speaker page: 2 series, 32 lessons', date: '2026-11-01', lane: assabile-av, state: mining}
+    - {url: 'https://www.assabile.com/zaghloul-el-naggar', taken: 'speaker page: 2 series, 59 lessons', date: '2026-11-01', lane: assabile-av, state: mining}
+    - {url: 'https://www.assabile.com/wagdy-ghoneim', taken: 'speaker page: 8 series, 167 lessons', date: '2026-11-01', lane: assabile-av, state: mining}
+    - {url: 'https://www.assabile.com/mosaad-anwar', taken: 'speaker page: 2 series, 42 lessons', date: '2026-11-01', lane: assabile-av, state: mining}
+    - {url: 'https://www.assabile.com/mustafa-al-adawi', taken: 'speaker page: 62 series, 572 lessons', date: '2026-11-01', lane: assabile-av, state: mining}
+    - {url: 'https://www.assabile.com/ragheb-el-sergani', taken: 'speaker page: 1 series, 15 lessons', date: '2026-11-01', lane: assabile-av, state: mining}
+    - {url: 'https://www.assabile.com/abd-al-rahman-mansour', taken: 'speaker page: 1 series, 13 lessons', date: '2026-11-01', lane: assabile-av, state: mining}
+    - {url: 'https://www.assabile.com/ahmed-abdussalam', taken: 'speaker page: 1 series, 22 lessons', date: '2026-11-01', lane: assabile-av, state: mining}
+    - {url: 'https://www.assabile.com/ahmad-farid', taken: 'speaker page: 1 series, 21 lessons', date: '2026-11-01', lane: assabile-av, state: mining}
+    - {url: 'https://www.assabile.com/sayed-elbshbishy', taken: 'speaker page: 1 series, 28 lessons', date: '2026-11-01', lane: assabile-av, state: mining}
+    - {url: 'https://www.assabile.com/abdul-hamid-kishk', taken: 'speaker page: 1 series, 7 lessons', date: '2026-11-01', lane: assabile-av, state: mining}
+    - {url: 'https://www.assabile.com/ateya-muhammad-salem', taken: 'speaker page: 11 series, 412 lessons', date: '2026-11-01', lane: assabile-av, state: mining}
+    - {url: 'https://www.assabile.com/lessons/egypt', taken: Egypt speaker list page (19 speakers), date: '2026-11-01', lane: assabile-av, state: mining}
+    unverified:
+    - media_host_urls_per_episode_are_in_audio_series
+  - id: web-zeno
+    title: Zeno Oriental Coins Database
+    site_url: https://www.zeno.ru
+    licence: robots.txt disallows all automated access; Tier 3 pointer only (dec-20261108-220)
+    lane: web-sources (Lane B)
+    completion: claimed
+    state: assessed 8 Nov 2026; not registered as a citable source
+    prs:
+    - 5656
+    unverified:
+    - pages_read
+  - id: web-walters
+    title: Walters Art Museum
+    site_url: https://thewalters.org
+    licence: rights page (Wayback, snapshot 11 Nov 2026) states CC0 for images and metadata; robots Content-Signal ai-train=no, ai-input=no; live site, robots.txt and terms answer a Cloudflare challenge
+    lane: web-sources (Lane B)
+    completion: claimed
+    state: terms check 14 Nov 2026; NOT registered; no machine channel; never bypass the challenge
+    prs:
+    - 5727
+    - 6582
+    unverified:
+    - pages_read
+  - id: web-gallica
+    title: BnF Gallica
+    site_url: https://gallica.bnf.fr
+    licence: robots.txt and conditions page answer HTTP 403 bot challenge; only a May 2019 Wayback copy of the conditions exists
+    lane: web-sources (Lane B)
+    completion: claimed
+    state: terms check 14 Nov 2026; NOT registered
+    prs:
+    - 6582
+    unverified:
+    - pages_read
+  - id: web-tubingen-sylloge
+    title: Tubingen Sylloge Nummorum Arabicorum (MK-TUE-FINT)
+    site_url: null
+    licence: authority excellent but site broken (host dead, PHP fatal) and about 444 objects online; real corpus is copyrighted print
+    lane: web-sources (Lane B)
+    completion: claimed
+    state: 'deferred 9 Nov 2026; re-probed 11 Nov: still down'
+    prs:
+    - 5727
+    unverified:
+    - pages_read
+  - id: web-fitzwilliam
+    title: Fitzwilliam Museum online data
+    site_url: https://data.fitzmuseum.cam.ac.uk/api
+    licence: robots open on the main site; API host timed out (000)
+    lane: web-sources (Lane B)
+    completion: claimed
+    state: 'deferred 9 Nov 2026; re-probed 11 Nov: still down'
+    prs:
+    - 5727
+    unverified:
+    - pages_read
+  - id: web-chester-beatty
+    title: Chester Beatty digital collections
+    site_url: null
+    licence: viewer (Goobi) returned 200; robots disallows search and OAI; no licence line on the home page
+    lane: web-sources (Lane B)
+    completion: claimed
+    state: assessed 11 Nov 2026; deferred (no public catalogue or API found)
+    unverified:
+    - pages_read
+  - id: web-leiden-digital
+    title: Leiden Digital Collections
+    site_url: null
+    licence: Crawl-delay 10; terms not found on the home page
+    lane: web-sources (Lane B)
+    completion: claimed
+    state: probed 11 Nov 2026; not registered
+    unverified:
+    - pages_read
+  - id: web-cambridge-cudl
+    title: Cambridge Digital Library (CUDL)
+    site_url: null
+    licence: 403 from CloudFront to a plain client
+    lane: web-sources (Lane B)
+    completion: claimed
+    state: probed 11 Nov 2026; not registered
+    unverified:
+    - pages_read
+  - id: web-muslimscholars
+    title: muslimscholars.info (Arees Institute)
+    site_url: null
+    licence: all contents copyright; frameset site, no API
+    lane: web-sources (Lane B)
+    completion: claimed
+    state: assessed 9 Nov 2026 and proposed as rejected as a citation source; the Itqan narrator database covers the need
+    prs:
+    - 5727
+    unverified:
+    - pages_read
+  - id: web-perry-castaneda-maps
+    title: Perry-Castaneda Library Map Collection
+    site_url: null
+    licence: no licence wording and no machine route
+    lane: web-sources (Lane B)
+    completion: claimed
+    state: assessed 12 Nov 2026; not registered
+    unverified:
+    - pages_read
+  - id: web-orient-digital-mega-jordan
+    title: Staatsbibliothek Berlin Orient-Digital and MEGA-Jordan
+    site_url: null
+    licence: hosts did not respond on 12 Nov 2026
+    lane: web-sources (Lane B)
+    completion: claimed
+    state: probed 12 Nov 2026; no data
+    unverified:
+    - pages_read
+  - id: web-alfehrest
+    title: AlFehrest (alfehrest.org)
+    site_url: https://alfehrest.org
+    licence: volunteer timeline and map of Islamic civilisation 700-1500 CE; Tier 3 pointer (dec-20261108-190)
+    lane: web-sources (Lane B)
+    completion: claimed
+    state: registered Tier 3 8 Nov 2026 after assessment; never carries a claim alone
+    prs:
+    - 5654
+    unverified:
+    - pages_read
+  - id: web-unesco-whc
+    title: UNESCO World Heritage Centre (whc.unesco.org)
+    site_url: https://whc.unesco.org
+    licence: public documents; onboarding question dec-20261108-198 is on the founder docket; live pages answer 403 Cloudflare to scripts
+    lane: web-sources (Lane B)
+    completion: claimed
+    state: NOT cited until the founder rules; Wayback snapshots available
+    prs:
+    - 5654
+    unverified:
+    - pages_read
+  - id: web-quran-foundation-api
+    title: Quran Foundation API
+    site_url: null
+    licence: 'forbidden in scripts/harvest/sources.yaml: no storage beyond a week'
+    lane: harvest (policy)
+    completion: claimed
+    state: never harvested; listed under the registry's forbidden block (11 Oct 2026)
+    unverified:
+    - site_url
+  - id: web-zabihah
+    title: Zabihah
+    site_url: null
+    licence: 'forbidden in scripts/harvest/sources.yaml: terms prohibit collection'
+    lane: harvest (policy)
+    completion: claimed
+    state: never harvested; listed under the registry's forbidden block (11 Oct 2026)
+    unverified:
+    - site_url
+  - id: web-mawaqit
+    title: Mawaqit
+    site_url: null
+    licence: 'forbidden in scripts/harvest/sources.yaml: terms prohibit collection'
+    lane: harvest (policy)
+    completion: claimed
+    state: never harvested; listed under the registry's forbidden block (11 Oct 2026)
+    unverified:
+    - site_url
+  - id: web-youtube-api-data
+    title: YouTube API data
+    site_url: null
+    licence: 'forbidden in scripts/harvest/sources.yaml: terms prohibit storage and redistribution'
+    lane: harvest (policy)
+    completion: claimed
+    state: never harvested; listed under the registry's forbidden block (11 Oct 2026)
+    unverified:
+    - site_url
+  - id: web-wikidata-query
+    title: Wikidata Query Service
+    site_url: https://query.wikidata.org/sparql
+    licence: CC0 1.0
+    lane: harvest (day-1 workstation)
+    completion: ingested
+    state: registered 11 Oct 2026; SPARQL seed queries (one file per class and signal) run in series from scripts/harvest/wikidata/queries; Nomisma/Louvre/VIAF cross-walk queries run later (see Wikidata entry)
+    registered: '2026-10-11'
+    pages:
+    - {url: 'https://query.wikidata.org/sparql', taken: 'SPARQL seed queries per class and signal, 5 s pause, 60 s timeout', date: '2026-10-11', lane: harvest day-1, state: ingested}
+  - id: web-wikidata-dump
+    title: Wikidata JSON dump
+    site_url: https://dumps.wikimedia.org/wikidatawiki/entities/latest-all.json.bz2
+    licence: CC0 1.0
+    lane: harvest (day-1 workstation)
+    completion: downloaded
+    state: downloaded 11 Oct 2026 to raw/wikidata/latest-all.json.bz2 (103,337,856,107 bytes, sha256 fc0f81ff8caae6e16f78f60c53400da2cfc538a7e5d4ca242f062b728f4129bf in raw/checksums.sha256); the registry says to delete after the subset filter ran once; the file is still on the drive on 14 Nov 2026 and was not deleted by this register task
+    registered: '2026-10-11'
+    pages:
+    - {url: 'https://dumps.wikimedia.org/wikidatawiki/entities/latest-all.json.bz2', taken: 'full JSON dump, aria2c two connections', date: '2026-10-11', lane: harvest day-1, state: downloaded, bytes: 103337856107}
+    unverified:
+    - subset_filter_run_date
+    - ingestion
+  - id: web-wikipedia-dumps
+    title: Wikipedia article dumps, by language
+    site_url: https://dumps.wikimedia.org/
+    licence: CC BY-SA 4.0 and GFDL
+    lane: harvest (day-1 workstation)
+    completion: downloaded
+    state: 'downloaded 11 Oct 2026: 35 language folders under raw/wikipedia (ar az bn bs de en es fa fr ha hi id it ja kk ko ku ml ms nl pa ps pt ru sd so sq sw ta th tr tt ur uz zh); each folder holds pages-articles-multistream.xml.bz2, its index, page.sql.gz, categorylinks.sql.gz, linktarget.sql.gz with sha256 in raw/checksums.sha256; en pages-articles is 26,917,225,724 bytes'
+    registered: '2026-10-11'
+    pages:
+    - {url: 'https://dumps.wikimedia.org/', taken: per-language dump files (first ring en fr ar fa id tr bn ur ms; second ring de es ru zh hi ha sw so bs sq az uz kk tt ku ps pa sd ta ml th ja ko it nl pt), date: '2026-10-11', lane: harvest day-1, state: downloaded}
+    unverified:
+    - which_languages_were_fully_extracted
+  - id: web-tanzil-quran
+    title: Tanzil Qur'an text v1.1 (Uthmani and Simple Clean)
+    site_url: https://tanzil.net/download/
+    licence: Tanzil terms (verbatim copies only, attribution, notice kept)
+    lane: quran
+    completion: ingested
+    state: manual browser download; verified by scripts/harvest/quran/verify_quran.py; the frozen Tanzil files are the only source of Qur'an text (AGENTS.md); sibling registration source/tanzil-translations
+    registered: '2026-10-11'
+    pages:
+    - {url: 'https://tanzil.net/download/', taken: Uthmani and Simple Clean text v1.1 (frozen); translations through source/tanzil-translations, date: '2026-10-11', lane: quran, state: ingested}
+    unverified:
+    - download_date_exact
+    - pr_numbers
+  - id: web-met-open-access
+    title: Metropolitan Museum of Art Open Access
+    site_url: https://github.com/metmuseum/openaccess
+    licence: CC0 1.0
+    lane: harvest (day-1 workstation)
+    completion: downloaded
+    state: downloaded 11 Oct 2026 (MetObjects.csv 317,650,992 bytes, sha256 de617b9c947458e426111207f81a65bd1379a151c0077d3ce29cfc22fc0b9183); Tier R source (kind reference_data); ingestion into records not traced
+    registered: '2026-10-11'
+    pages:
+    - {url: 'https://github.com/metmuseum/openaccess/raw/master/MetObjects.csv', taken: 'file raw/collections/met/MetObjects.csv, 317650992 bytes', date: '2026-10-11', lane: harvest day-1, state: downloaded}
+    unverified:
+    - ingestion
+    - pr_numbers
+  - id: web-pleiades
+    title: Pleiades gazetteer of ancient places
+    site_url: https://pleiades.stoa.org/downloads
+    licence: CC BY 3.0
+    lane: web-sources Lane B worker B1
+    completion: ingested
+    state: 'pulled twice: 11 Oct 2026 (three daily CSV dumps from atlantides.org, sha256 in raw/checksums.sha256) and 14 Nov 2026 (places and names dumps, about 7 MB each, to raw/pleiades-b1, not in git); registered as source/pleiades 14 Nov 2026 (dec-20261114-277); batch 1 linked 25 places, batch 2 25, batch 3 22 by Arabic name; prose sections on 13 places; Pleiades sections inside packets 31 to 37'
+    registered: '2026-10-11'
+    prs:
+    - 6649
+    - 6675
+    - 6690
+    - 6712
+    - 6817
+    - 6818
+    - 6828
+    - 6830
+    - 6842
+    notes: 'Link rule: our place without a Pleiades id; exactly one Pleiades place within 0.8 km whose title equals our English label; batch 3 matched by Arabic name. Ascalon held for the founder; abadan a duplicate pair; thebasa uncertain.'
+    pages:
+    - {url: 'https://atlantides.org/downloads/pleiades/dumps/pleiades-places-latest.csv.gz', taken: file raw/collections/pleiades/pleiades-places-latest.csv.gz, date: '2026-10-11', lane: harvest day-1, state: downloaded}
+    - {url: 'https://atlantides.org/downloads/pleiades/dumps/pleiades-names-latest.csv.gz', taken: file raw/collections/pleiades/pleiades-names-latest.csv.gz, date: '2026-10-11', lane: harvest day-1, state: downloaded}
+    - {url: 'https://atlantides.org/downloads/pleiades/dumps/pleiades-locations-latest.csv.gz', taken: file raw/collections/pleiades/pleiades-locations-latest.csv.gz, date: '2026-10-11', lane: harvest day-1, state: downloaded}
+    - {url: 'https://pleiades.stoa.org/downloads', taken: 'places.csv and names.csv dumps re-downloaded for linking (places.csv 26,473,713 bytes; names.csv 17,463,515 bytes on the drive)', date: '2026-11-14', lane: web-sources Lane B worker B1, state: ingested}
+  - id: web-surahapp
+    title: Surah app and Public Sura API (Tafsir Center for Quranic Studies)
+    site_url: https://dev.surahapp.com/api/docs
+    licence: no terms page found; facts-only (decision dec-20261114-279, founder docket)
+    lane: web-sources Lane B worker B1
+    completion: ingested
+    state: 'registered facts-only 14 Nov 2026 (dec-20261114-279 on the founder docket); rights finding recorded: all rights reserved for the Tafsir Center for Quranic Studies, so only facts, never text; linked work/tafsir-ibn-kathir and work/taysir-al-karim-al-rahman'
+    registered: '2026-11-14'
+    prs:
+    - 6659
+    - 6867
+    pages:
+    - {url: 'https://dev.surahapp.com/api/docs', taken: Swagger docs and init script read, date: '2026-11-14', lane: web-sources Lane B worker B1, state: read}
+    - {taken: 'GET /api/v1/projects on dev.surahapp.com: 20 projects listed, open CORS; 3 s pause; no scripture wording stored', date: '2026-11-14', lane: web-sources Lane B worker B1, state: read, note: path from the lane ledger; full URL not recorded}
+    - {url: 'https://web.surahapp.com', taken: app home and quran page read; robots.txt read; no terms or privacy page (404 on both hosts), date: '2026-11-14', lane: web-sources Lane B worker B1, state: read}
+    - {url: 'https://surahapp.com', taken: 'publisher home: Tafsir Center for Quranic Studies; King Fahd Complex Hafs edition 1440 AH', date: '2026-11-14', lane: web-sources Lane B worker B1, state: read}
+  - id: web-geonames
+    title: GeoNames gazetteer dump
+    site_url: https://www.geonames.org/export/
+    licence: CC BY 4.0
+    lane: harvest (day-1 workstation)
+    completion: ingested
+    state: four dump files downloaded 11 Oct 2026 (allCountries.zip 422,014,673 bytes; alternateNamesV2.zip 204,829,015; countryInfo.txt 31,680; admin1CodesASCII.txt 151,583; sha256 in raw/checksums.sha256); pointer tier source/geonames-gazetteer; GeoNames ids on place records
+    registered: '2026-10-11'
+    pages:
+    - {url: 'https://download.geonames.org/export/dump/allCountries.zip', taken: 'file raw/collections/geonames/allCountries.zip, 422014673 bytes', date: '2026-10-11', lane: harvest day-1, state: ingested}
+    - {url: 'https://download.geonames.org/export/dump/alternateNamesV2.zip', taken: 'file raw/collections/geonames/alternateNamesV2.zip, 204829015 bytes', date: '2026-10-11', lane: harvest day-1, state: ingested}
+    - {url: 'https://download.geonames.org/export/dump/countryInfo.txt', taken: 'file raw/collections/geonames/countryInfo.txt, 31680 bytes', date: '2026-10-11', lane: harvest day-1, state: ingested}
+    - {url: 'https://download.geonames.org/export/dump/admin1CodesASCII.txt', taken: 'file raw/collections/geonames/admin1CodesASCII.txt, 151583 bytes', date: '2026-10-11', lane: harvest day-1, state: ingested}
+    unverified:
+    - pr_numbers
+  - id: web-natural-earth
+    title: Natural Earth 10 m (physical, admin-0, shaded relief)
+    site_url: https://www.naturalearthdata.com/downloads/
+    licence: Public domain
+    lane: maps (basemaps)
+    completion: ingested
+    state: downloaded to basemaps/downloads (10 m land, ocean, coastline, rivers, lakes, admin-0 countries, shaded relief SR_HR); used for the site basemaps
+    registered: '2026-10-11'
+    pages:
+    - {url: 'https://naciscdn.org/naturalearth/10m/physical/ne_10m_land.zip', taken: 'file basemaps/downloads/ne_10m_land.zip, 3269070 bytes', date: '2026-10-11', lane: maps, state: ingested}
+    - {url: 'https://naciscdn.org/naturalearth/10m/physical/ne_10m_ocean.zip', taken: 'file basemaps/downloads/ne_10m_ocean.zip, 3189765 bytes', date: '2026-10-11', lane: maps, state: ingested}
+    - {url: 'https://naciscdn.org/naturalearth/10m/physical/ne_10m_coastline.zip', taken: 'file basemaps/downloads/ne_10m_coastline.zip, 3069451 bytes', date: '2026-10-11', lane: maps, state: ingested}
+    - {url: 'https://naciscdn.org/naturalearth/10m/physical/ne_10m_rivers_lake_centerlines.zip', taken: 'file basemaps/downloads/ne_10m_rivers_lake_centerlines.zip, 2079507 bytes', date: '2026-10-11', lane: maps, state: ingested}
+    - {url: 'https://naciscdn.org/naturalearth/10m/physical/ne_10m_lakes.zip', taken: 'file basemaps/downloads/ne_10m_lakes.zip, 2349685 bytes', date: '2026-10-11', lane: maps, state: ingested}
+    - {url: 'https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_countries.zip', taken: 'file basemaps/downloads/ne_10m_admin_0_countries.zip, 4930492 bytes', date: '2026-10-11', lane: maps, state: ingested}
+    - {url: 'https://naciscdn.org/naturalearth/10m/raster/SR_HR.zip', taken: 'file basemaps/downloads/SR_HR.zip, 44367365 bytes', date: '2026-10-11', lane: maps, state: ingested}
+    unverified:
+    - download_date_exact
+    - pr_numbers
+  - id: web-etopo1
+    title: ETOPO1 Ice Surface global relief (NOAA)
+    site_url: https://www.ngdc.noaa.gov/mgg/global/
+    licence: Public domain (US government)
+    lane: maps (basemaps)
+    completion: ingested
+    state: downloaded ETOPO1_Ice_g_gmt4.grd.gz (395,148,066 bytes registered size; sha256 c241db385d89f3d0c22eec8138224db9f2ebee6a1b4d1ecb4ebc6a5743a28ec8) for terrain relief
+    registered: '2026-10-11'
+    pages:
+    - {url: 'https://www.ngdc.noaa.gov/mgg/global/relief/ETOPO1/data/ice_surface/grid_registered/netcdf/ETOPO1_Ice_g_gmt4.grd.gz', taken: 'file basemaps/downloads/ETOPO1_Ice_g_gmt4.grd.gz, 395148066 bytes', date: '2026-10-11', lane: maps, state: ingested}
+    unverified:
+    - download_date_exact
+    - pr_numbers
+  - id: web-openiti-makhzan
+    title: OpenITI Makhzan 2026.1.2 (annotated manuscript and print data for text recognition; NOT the text corpus)
+    site_url: https://zenodo.org/records/19861912
+    licence: CC BY-NC-SA 4.0
+    lane: harvest (day-1 workstation)
+    completion: downloaded
+    state: downloaded 11 Oct 2026 (Data zip 6,109,859,716 bytes; Metadata tsv 568,495; ReleaseNotes pdf 86,921; md5 checked, sha256 in raw/checksums.sha256); facts only, never republished (CC BY-NC-SA 4.0); renamed from the corpus entry at registration
+    registered: '2026-10-11'
+    pages:
+    - {url: 'https://zenodo.org/api/records/19861912/files/OpenITI-Makhzan_Data_2026-1-2.zip/content', taken: 'file raw/openiti/OpenITI-Makhzan_Data_2026-1-2.zip, 6109859716 bytes, md5 347a06a5714091665b7292775840a0f0', date: '2026-10-11', lane: harvest day-1, state: downloaded}
+    - {url: 'https://zenodo.org/api/records/19861912/files/OpenITI-Makhzan_Metadata_2026-1-2.tsv/content', taken: 'file raw/openiti/OpenITI-Makhzan_Metadata_2026-1-2.tsv, 568495 bytes, md5 26e448803e90274a228ebee2a9df7e96', date: '2026-10-11', lane: harvest day-1, state: downloaded}
+    - {url: 'https://zenodo.org/api/records/19861912/files/OpenITI-Makhzan_ReleaseNotes_2026-1-2.pdf/content', taken: 'file raw/openiti/OpenITI-Makhzan_ReleaseNotes_2026-1-2.pdf, 86921 bytes, md5 490b22ec83b5e445c191c0bf671233e5', date: '2026-10-11', lane: harvest day-1, state: downloaded}
+    unverified:
+    - mining
+    - pr_numbers
+  - id: web-openiti-corpus
+    title: '''OpenITI: a Machine-Readable Corpus of Islamicate Texts 2025.1.9 (Zenodo 17767721)'''
+    site_url: https://zenodo.org/records/17767721
+    licence: CC BY-NC-SA 4.0
+    lane: web-sources Lane B worker B1
+    completion: ingested
+    state: downloaded 11 Oct 2026 (OpenITI_data_2025-1-9.zip 5,936,029,637 bytes; metadata tsv 12,092,756; release notes 204,028); registered as source/openiti-corpus facts-only 14 Nov 2026 (dec-20261114-277); 3,639 author URIs read, 108 persons linked; 68 persons gained a works section; Shamela0006677 text of al-Wafi bi-l-Wafayat (19 MB, Dar Ihya al-Turath 2000) taken from the corpus for the Lane B2 al-Wafi work
+    registered: '2026-10-11'
+    prs:
+    - 5280
+    - 6701
+    - 6797
+    pages:
+    - {url: 'https://zenodo.org/api/records/17767721/files/OpenITI_metadata_2025-1-9.tsv/content', taken: 'file raw/openiti/corpus/OpenITI_metadata_2025-1-9.tsv, 12092756 bytes, md5 cb2226f64264efa964df9ef659d40199', date: '2026-10-11', lane: harvest day-1, state: ingested}
+    - {url: 'https://zenodo.org/api/records/17767721/files/OpenITI_release-notes_2025-1-9.zip/content', taken: 'file raw/openiti/corpus/OpenITI_release-notes_2025-1-9.zip, 204028 bytes, md5 e127a3fccd2df033a6462542820f55a0', date: '2026-10-11', lane: harvest day-1, state: ingested}
+    - {url: 'https://zenodo.org/api/records/17767721/files/OpenITI_data_2025-1-9.zip/content', taken: 'file raw/openiti/corpus/OpenITI_data_2025-1-9.zip, 5936029637 bytes, md5 95cf19a9320fee6c37c4c26c9fa860b1', date: '2026-10-11', lane: harvest day-1, state: ingested}
+    - {taken: 'Shamela0006677 (al-Wafi bi-l-Wafayat, ed. al-Arna''ut and Mustafa, Dar Ihya al-Turath 2000), local text 19 MB to books/tareekh/wafi-wafayat/', date: '2026-11-14', lane: web-sources Lane B2, state: downloaded, identifier: Shamela0006677, note: not a web page; taken from the OpenITI release}
+  - id: web-archive-org-books
+    title: Internet Archive open Arabic book scans (reference copies of prominent Sunni works)
+    site_url: https://archive.org
+    licence: per item; classical texts are public domain, modern editions and tahqiq apparatus stay copyrighted
+    lane: library harvest
+    completion: downloaded
+    state: the book library (200 Sunni works, later extended) was downloaded from archive.org in October and November 2026; per-book detail is in the books block of this register, the manifest library/manifest.jsonl and raw/library/ACQUIRED.md; this entry lists the items quoted in ledgers
+    registered: '2026-10-11'
+    notes: 'Every archive.org item is a book scan with its own entry in the books block; none is re-listed here. The registry rule: items served openly only, 1 request per second, files stay in the harvest workspace, never in git.'
+    pages:
+    - {taken: 'Masalik al-absar fi mamalik al-amsar (al-Umari), one low-resolution volume', date: '2026-10-13', lane: library harvest, state: downloaded, archive_id: masalik-al-absar-fi-mamalik-al-amsar-low-resolution-50-mb}
+    - {taken: 'Evliya Celebi travels, Hammer-Purgstall 1834, vols 1 and 2', date: '2026-10-13', lane: library harvest, state: downloaded, archive_id: narrativeoftrave01evli; narrativeoftrave02evli}
+    - {url: 'https://archive.org/download/pgcommunitytexts24144gut/24144-0.txt', taken: 'Ma Huan, Ying-ya sheng-lan, Chinese text (Gutenberg 24144), 84,823 bytes', date: '2026-10-13', lane: library harvest, state: downloaded}
+    - {taken: 'Mu''jam al-buldan (Yaqut), Cairo 1907, vols 1-2, 396 MB', date: '2026-10-14', lane: library harvest, state: downloaded, archive_id: 7-8-1907}
+    - {taken: 'Mu''jam ma sta''jam (al-Bakri, ed. Wustenfeld 1876), 32 MB', date: '2026-10-14', lane: library harvest, state: downloaded, archive_id: ldpd_8876823_001}
+    - {taken: 'Marasid al-ittila (1897 printing), 92 MB', date: '2026-10-14', lane: library harvest, state: downloaded, archive_id: AAlexandrina-087905}
+    - {taken: 'Sunan Abi Dawud OCR text tried for the sunnah.com sample; too garbled, not used', date: '2026-10-24', lane: authenticity gate, state: read, archive_id: anouaroc_hotmail_20160729}
+    - {taken: 'history set of 14 books downloaded and OCRed (tarikh Islam, Yaqubi, Khalifa, futuh Misr, akhbar tiwal, Suluk, Nujum, Durar kamina and others), founder-approved', date: '2026-10-31', lane: islamic-history-books-ocr, state: downloaded, note: see WORK-REGISTRY.md and books block}
+    - {taken: 'poetry set read from page images (Diwan Hassan, Mu''allaqat, Mufaddaliyyat, Hamasa)', date: '2026-11-02', lane: poetry lane, state: downloaded, archive_id: AAlexandrina-074429; AAlexandrina-204263; AAlexandrina-162009; AAlexandrina-206563}
+    - {taken: '22 missing canon, khutab and expansion books (56 PDFs, md5-checked)', date: '2026-11-04', lane: ocr-harvest-2026-11-04, state: downloaded, note: list in the harvest scratch folder; see books block}
+    - {taken: 'Tafsir al-Tabari (Shakir, 16 vols) and Adwa al-bayan (9 vols): stopped by the founder 4 Nov 2026 16:30, not harvested', date: '2026-11-04', lane: ocr-harvest-2026-11-04, state: released, archive_id: waqtaftab; adwaa_tatema}
+    - {taken: 'Athar al-bilad (al-Qazwini), Shamela htm export, 0.36 MB text', date: '2026-11-14', lane: web-sources Lane B worker B1, state: downloaded, archive_id: 0006Htm}
+    - {taken: 'Jazirat al-Arab fi al-qarn al-ishrin (Hafiz Wahba 1935), DjVu text only, 1 MB', date: '2026-11-14', lane: web-sources Lane B worker B1, state: downloaded, archive_id: hamlaenglish_gmail_20180316}
+    unverified:
+    - full_item_list_see_manifest
+    - pr_numbers
+  - id: web-encyclopaedia-of-islam-2
+    title: 'Encyclopaedia of Islam, 2nd edition (Leiden: Brill, 1954-2008, 13 volumes)'
+    site_url: https://archive.org/details/ei2-complete
+    licence: Brill copyright; the archive.org item states no licence URL and the status is not verified as public domain. Read and rewritten in the museum's own words under docs/sources-policy.md, each fact cited by volume and PDF page
+    lane: ei2
+    completion: mining
+    state: EI2 (13 volumes, Brill 1954-2008) scanned copy on archive.org; lane opened 24 Oct 2026 (scope B); read and rewritten in the museum's own words; registry says licence not verified as public domain
+    registered: '2026-10-24'
+    prs:
+    - 1560
+    notes: Per-volume detail is in the books block (encyclopaedia-of-islam-2 category).
+    pages:
+    - {url: 'https://archive.org/details/ei2-complete', taken: 'Encyclopaedia of Islam 2nd edition, complete set, scans and OCR for entry splitting (scripts/harvest/encyclopaedia)', date: '2026-10-24', lane: ei2, state: mining}
+    unverified:
+    - entries_mined_count
+  - id: web-manarat-al-haramain
+    title: منارة الحرمين — أرشيف خطب ودروس ومحاضرات الحرمين
+    site_url: https://manaratalharamain.gov.sa
+    licence: official Saudi Haramain presidency archive; khutab/durus/lectures with Hijri dates and official translations (ar/en/ur and more)
+    lane: khutab-durus
+    completion: claimed
+    state: 'registered 31 Oct 2026 (PR #2666) with a kind:website entity in batch 2 (PR #2672); robots.txt not retrievable by fetch (verify in the browser); no bulk harvest traced'
+    registered: '2026-10-31'
+    prs:
+    - 2666
+    - 2672
+    pages:
+    - {url: 'https://manaratalharamain.gov.sa', taken: registry URL of the family, date: '2026-10-31', lane: khutab-durus, state: registered}
+  - id: web-droos-al-haramain
+    title: الدروس العلمية بالمسجد الحرام والمسجد النبوي
+    site_url: https://droos.prh.gov.sa
+    licence: official PRH lessons archive, Hijri-dated tables since 1406
+    lane: khutab-durus
+    completion: claimed
+    state: 'registered 31 Oct 2026 (PR #2666) with a kind:website entity in batch 2 (PR #2672); no bulk harvest traced'
+    registered: '2026-10-31'
+    prs:
+    - 2666
+    - 2672
+    pages:
+    - {url: 'https://droos.prh.gov.sa', taken: registry URL of the family, date: '2026-10-31', lane: khutab-durus, state: registered}
+  - id: web-islamway
+    title: طريق الإسلام — مكتبة الدروس والخطب الصوتية
+    site_url: https://ar.islamway.net
+    licence: large Sunni audio archive (site states ~96,648 lessons for 794 scholars, dated figure); robots.txt checked 31 Oct 2026 — open except ad/pdfjs paths
+    lane: khutab-durus
+    completion: claimed
+    state: 'registered 31 Oct 2026; robots.txt read 31 Oct 2026: open to crawlers except /phpAdsNew/, /openx/, */poster$, */qr-code$ and /bundles/viewers/pdfjs*; a kind:website entity (batch 2, PR #2672) and a modern web record built from its earliest Wayback capture (12 Dec 1998); terms page still to be read before bulk download'
+    registered: '2026-10-31'
+    prs:
+    - 2666
+    - 2672
+    pages:
+    - {url: 'https://ar.islamway.net/robots.txt', taken: robots.txt read, date: '2026-10-31', lane: khutab-durus, state: read}
+  - id: web-alukah
+    title: شبكة الألوكة — قسم الخطب والبحوث
+    site_url: https://www.alukah.net
+    licence: written khutba transcripts and research, categorized
+    lane: khutab-durus
+    completion: claimed
+    state: 'registered 31 Oct 2026; kind:website entity in batch 2 (PR #2672); modern web record from the 7 Feb 2006 Wayback capture'
+    registered: '2026-10-31'
+    prs:
+    - 2666
+    - 2672
+    pages:
+    - {url: 'https://www.alukah.net', taken: registry URL of the family, date: '2026-10-31', lane: khutab-durus, state: registered}
+  - id: web-khutabaa
+    title: ملتقى الخطباء
+    site_url: https://khutabaa.com
+    licence: categorized Friday khutbas with references
+    lane: khutab-durus
+    completion: claimed
+    state: 'registered 2026-10-31 in scripts/harvest/sources.yaml (feat(khutab-durus): register the authorised khutab/durus source families); no harvest, mining or ingestion is recorded in the ledgers'
+    registered: '2026-10-31'
+    pages:
+    - {url: 'https://khutabaa.com', taken: registry URL of the family, date: '2026-10-31', lane: khutab-durus, state: registered}
+    unverified:
+    - pages_read
+    - pr_numbers
+  - id: web-nida-al-islam
+    title: نداء الإسلام
+    site_url: https://islamcall.com
+    licence: archived academic lessons and sermons from major mosques
+    lane: khutab-durus
+    completion: claimed
+    state: 'registered 2026-10-31 in scripts/harvest/sources.yaml (feat(khutab-durus): register the authorised khutab/durus source families); no harvest, mining or ingestion is recorded in the ledgers'
+    registered: '2026-10-31'
+    pages:
+    - {url: 'https://islamcall.com', taken: registry URL of the family, date: '2026-10-31', lane: khutab-durus, state: registered}
+    unverified:
+    - pages_read
+    - pr_numbers
+  - id: web-halaltube
+    title: Halal Tube
+    site_url: https://halaltube.com
+    licence: index of English-language Sunni talks by speaker
+    lane: khutab-durus
+    completion: claimed
+    state: 'registered 2026-10-31 in scripts/harvest/sources.yaml (feat(khutab-durus): register the authorised khutab/durus source families); no harvest, mining or ingestion is recorded in the ledgers'
+    registered: '2026-10-31'
+    pages:
+    - {url: 'https://halaltube.com', taken: registry URL of the family, date: '2026-10-31', lane: khutab-durus, state: registered}
+    unverified:
+    - pages_read
+    - pr_numbers
+  - id: web-kalamullah
+    title: Kalamullah
+    site_url: https://kalamullah.com
+    licence: MP3 lecture-series archive (English)
+    lane: khutab-durus
+    completion: claimed
+    state: 'registered 2026-10-31 in scripts/harvest/sources.yaml (feat(khutab-durus): register the authorised khutab/durus source families); no harvest, mining or ingestion is recorded in the ledgers'
+    registered: '2026-10-31'
+    pages:
+    - {url: 'https://kalamullah.com', taken: registry URL of the family, date: '2026-10-31', lane: khutab-durus, state: registered}
+    unverified:
+    - pages_read
+    - pr_numbers
+  - id: web-khutbah-com
+    title: Khutbah.com
+    site_url: https://khutbah.com
+    licence: English Friday khutba scripts and outlines
+    lane: khutab-durus
+    completion: claimed
+    state: 'registered 2026-10-31 in scripts/harvest/sources.yaml (feat(khutab-durus): register the authorised khutab/durus source families); no harvest, mining or ingestion is recorded in the ledgers'
+    registered: '2026-10-31'
+    pages:
+    - {url: 'https://khutbah.com', taken: registry URL of the family, date: '2026-10-31', lane: khutab-durus, state: registered}
+    unverified:
+    - pages_read
+    - pr_numbers
+  - id: web-yaqeen-institute
+    title: Yaqeen Institute
+    site_url: https://yaqeeninstitute.org
+    licence: lectures, papers and khutba series (English)
+    lane: khutab-durus
+    completion: claimed
+    state: registered 31 Oct 2026; modern web record (founder approved 7 Nov 2026); Wayback capture 7 Aug 2016
+    registered: '2026-10-31'
+    prs:
+    - 2666
+    pages:
+    - {url: 'https://yaqeeninstitute.org', taken: registry URL of the family, date: '2026-10-31', lane: khutab-durus, state: registered}
+  - id: web-binbaz
+    title: موقع ابن باز الرسمي
+    site_url: https://binbaz.org.sa
+    licence: 'official Ibn Baz archive: fatwas, duroos on classical texts'
+    lane: khutab-durus
+    completion: claimed
+    state: registered 31 Oct 2026; modern web record work/binbaz-website from the 27 Nov 1999 Wayback capture; no bulk harvest traced
+    registered: '2026-10-31'
+    prs:
+    - 2666
+    pages:
+    - {url: 'https://binbaz.org.sa', taken: registry URL of the family, date: '2026-10-31', lane: khutab-durus, state: registered}
+  - id: web-binothaimin
+    title: موقع ابن عثيمين الرسمي
+    site_url: https://binothaimin.net
+    licence: 'official Ibn Uthaymin archive: duroos walking through classical textbooks'
+    lane: khutab-durus
+    completion: claimed
+    state: 'registered 2026-10-31 in scripts/harvest/sources.yaml (feat(khutab-durus): register the authorised khutab/durus source families); no harvest, mining or ingestion is recorded in the ledgers'
+    registered: '2026-10-31'
+    pages:
+    - {url: 'https://binothaimin.net', taken: registry URL of the family, date: '2026-10-31', lane: khutab-durus, state: registered}
+    unverified:
+    - pages_read
+    - pr_numbers
+  - id: web-ris-convention
+    title: Reviving the Islamic Spirit convention archive
+    site_url: https://revivingtheislamicspirit.net
+    licence: annual Sunni convention recordings (metadata and links)
+    lane: khutab-durus
+    completion: claimed
+    state: 'registered 2026-10-31 in scripts/harvest/sources.yaml (feat(khutab-durus): register the authorised khutab/durus source families); no harvest, mining or ingestion is recorded in the ledgers'
+    registered: '2026-10-31'
+    pages:
+    - {url: 'https://revivingtheislamicspirit.net', taken: registry URL of the family, date: '2026-10-31', lane: khutab-durus, state: registered}
+    unverified:
+    - pages_read
+    - pr_numbers
+  - id: web-mas-icna
+    title: MAS-ICNA convention media
+    site_url: https://www.mas-icna.org
+    licence: annual convention panels and lectures
+    lane: khutab-durus
+    completion: claimed
+    state: 'registered 2026-10-31 in scripts/harvest/sources.yaml (feat(khutab-durus): register the authorised khutab/durus source families); no harvest, mining or ingestion is recorded in the ledgers'
+    registered: '2026-10-31'
+    pages:
+    - {url: 'https://www.mas-icna.org', taken: registry URL of the family, date: '2026-10-31', lane: khutab-durus, state: registered}
+    unverified:
+    - pages_read
+    - pr_numbers
+  - id: web-sound-vision
+    title: Sound Vision / ICNA dawah archives
+    site_url: https://www.soundvision.com
+    licence: public talks and symposiums
+    lane: khutab-durus
+    completion: claimed
+    state: 'registered 2026-10-31 in scripts/harvest/sources.yaml (feat(khutab-durus): register the authorised khutab/durus source families); no harvest, mining or ingestion is recorded in the ledgers'
+    registered: '2026-10-31'
+    pages:
+    - {url: 'https://www.soundvision.com', taken: registry URL of the family, date: '2026-10-31', lane: khutab-durus, state: registered}
+    unverified:
+    - pages_read
+    - pr_numbers
+  - id: web-ummatics
+    title: The Ummatics Institute
+    site_url: https://ummatics.org
+    licence: copyrighted; read and rewritten in the museum's own words with citations
+    lane: khutab-durus
+    completion: claimed
+    state: 'registered 2026-10-31 in scripts/harvest/sources.yaml (feat(khutab-durus): register the authorised khutab/durus source families); no harvest, mining or ingestion is recorded in the ledgers'
+    registered: '2026-10-31'
+    pages:
+    - {url: 'https://ummatics.org', taken: registry URL of the family, date: '2026-10-31', lane: khutab-durus, state: registered}
+    unverified:
+    - pages_read
+    - pr_numbers
+  - id: web-tabah-foundation
+    title: Tabah Foundation
+    site_url: https://tabahfoundation.org
+    licence: copyrighted; read and rewritten in the museum's own words with citations
+    lane: khutab-durus
+    completion: claimed
+    state: 'registered 2026-10-31 in scripts/harvest/sources.yaml (feat(khutab-durus): register the authorised khutab/durus source families); no harvest, mining or ingestion is recorded in the ledgers'
+    registered: '2026-10-31'
+    pages:
+    - {url: 'https://tabahfoundation.org', taken: registry URL of the family, date: '2026-10-31', lane: khutab-durus, state: registered}
+    unverified:
+    - pages_read
+    - pr_numbers
+  - id: web-iiit
+    title: IIIT
+    site_url: https://iiit.org
+    licence: copyrighted; read and rewritten in the museum's own words with citations
+    lane: khutab-durus
+    completion: claimed
+    state: 'registered 2026-10-31 in scripts/harvest/sources.yaml (feat(khutab-durus): register the authorised khutab/durus source families); no harvest, mining or ingestion is recorded in the ledgers'
+    registered: '2026-10-31'
+    pages:
+    - {url: 'https://iiit.org', taken: registry URL of the family, date: '2026-10-31', lane: khutab-durus, state: registered}
+    unverified:
+    - pages_read
+    - pr_numbers
+  - id: web-muslimmatters
+    title: MuslimMatters
+    site_url: https://muslimmatters.org
+    licence: copyrighted; read and rewritten in the museum's own words with citations
+    lane: khutab-durus
+    completion: claimed
+    state: registered 31 Oct 2026; modern web batch 11 record from the earliest capture 13 Mar 2007 (founder approved 7 Nov 2026)
+    registered: '2026-10-31'
+    prs:
+    - 2666
+    pages:
+    - {url: 'https://muslimmatters.org', taken: registry URL of the family, date: '2026-10-31', lane: khutab-durus, state: registered}
+  - id: web-traversing-tradition
+    title: Traversing Tradition
+    site_url: https://traversingtradition.com
+    licence: copyrighted; read and rewritten in the museum's own words with citations
+    lane: khutab-durus
+    completion: claimed
+    state: 'registered 2026-10-31 in scripts/harvest/sources.yaml (feat(khutab-durus): register the authorised khutab/durus source families); no harvest, mining or ingestion is recorded in the ledgers'
+    registered: '2026-10-31'
+    pages:
+    - {url: 'https://traversingtradition.com', taken: registry URL of the family, date: '2026-10-31', lane: khutab-durus, state: registered}
+    unverified:
+    - pages_read
+    - pr_numbers
+  - id: web-islam21c
+    title: Islam21c
+    site_url: https://www.islam21c.com
+    licence: copyrighted; read and rewritten in the museum's own words with citations
+    lane: khutab-durus
+    completion: claimed
+    state: registered 31 Oct 2026; modern web batch 11 record, Wayback capture 28 Apr 2007
+    registered: '2026-10-31'
+    prs:
+    - 2666
+    pages:
+    - {url: 'https://www.islam21c.com', taken: registry URL of the family, date: '2026-10-31', lane: khutab-durus, state: registered}
+  - id: web-muslim-skeptic
+    title: The Muslim Skeptic
+    site_url: https://muslimskeptic.com
+    licence: copyrighted; read and rewritten in the museum's own words with citations
+    lane: khutab-durus
+    completion: claimed
+    state: 'registered 2026-10-31 in scripts/harvest/sources.yaml (feat(khutab-durus): register the authorised khutab/durus source families); no harvest, mining or ingestion is recorded in the ledgers'
+    registered: '2026-10-31'
+    pages:
+    - {url: 'https://muslimskeptic.com', taken: registry URL of the family, date: '2026-10-31', lane: khutab-durus, state: registered}
+    unverified:
+    - pages_read
+    - pr_numbers
+  - id: web-the-thinking-muslim
+    title: The Thinking Muslim
+    site_url: https://thethinkingmuslim.com
+    licence: copyrighted; read and rewritten in the museum's own words with citations
+    lane: khutab-durus
+    completion: claimed
+    state: 'registered 2026-10-31 in scripts/harvest/sources.yaml (feat(khutab-durus): register the authorised khutab/durus source families); no harvest, mining or ingestion is recorded in the ledgers'
+    registered: '2026-10-31'
+    pages:
+    - {url: 'https://thethinkingmuslim.com', taken: registry URL of the family, date: '2026-10-31', lane: khutab-durus, state: registered}
+    unverified:
+    - pages_read
+    - pr_numbers
+  - id: web-kalam-research
+    title: Kalam Research & Media
+    site_url: https://kalamresearch.com
+    licence: copyrighted; read and rewritten in the museum's own words with citations
+    lane: khutab-durus
+    completion: claimed
+    state: 'registered 2026-10-31 in scripts/harvest/sources.yaml (feat(khutab-durus): register the authorised khutab/durus source families); no harvest, mining or ingestion is recorded in the ledgers'
+    registered: '2026-10-31'
+    pages:
+    - {url: 'https://kalamresearch.com', taken: registry URL of the family, date: '2026-10-31', lane: khutab-durus, state: registered}
+    unverified:
+    - pages_read
+    - pr_numbers
+  - id: web-tafsir-center
+    title: Tafsir Center
+    site_url: https://tafsir.net
+    licence: copyrighted; read and rewritten in the museum's own words with citations
+    lane: khutab-durus
+    completion: claimed
+    state: 'registered 2026-10-31 in scripts/harvest/sources.yaml (feat(khutab-durus): register the authorised khutab/durus source families); no harvest, mining or ingestion is recorded in the ledgers'
+    registered: '2026-10-31'
+    pages:
+    - {url: 'https://tafsir.net', taken: registry URL of the family, date: '2026-10-31', lane: khutab-durus, state: registered}
+    unverified:
+    - pages_read
+    - pr_numbers
+  - id: web-nama-center
+    title: Namaa Center
+    site_url: https://nama-center.com
+    licence: copyrighted; read and rewritten in the museum's own words with citations
+    lane: khutab-durus
+    completion: claimed
+    state: 'registered 2026-10-31 in scripts/harvest/sources.yaml (feat(khutab-durus): register the authorised khutab/durus source families); no harvest, mining or ingestion is recorded in the ledgers'
+    registered: '2026-10-31'
+    pages:
+    - {url: 'https://nama-center.com', taken: registry URL of the family, date: '2026-10-31', lane: khutab-durus, state: registered}
+    unverified:
+    - pages_read
+    - pr_numbers
+  - id: web-albayan-center
+    title: Markaz Al-Bayan
+    site_url: https://albayan.co.uk
+    licence: copyrighted; read and rewritten in the museum's own words with citations
+    lane: khutab-durus
+    completion: claimed
+    state: 'registered 2026-10-31 in scripts/harvest/sources.yaml (feat(khutab-durus): register the authorised khutab/durus source families); no harvest, mining or ingestion is recorded in the ledgers'
+    registered: '2026-10-31'
+    pages:
+    - {url: 'https://albayan.co.uk', taken: registry URL of the family, date: '2026-10-31', lane: khutab-durus, state: registered}
+    unverified:
+    - pages_read
+    - pr_numbers
+  - id: web-dalail-center
+    title: Markaz Dalail
+    site_url: https://dalail.org.sa
+    licence: copyrighted; read and rewritten in the museum's own words with citations
+    lane: khutab-durus
+    completion: claimed
+    state: 'registered 2026-10-31 in scripts/harvest/sources.yaml (feat(khutab-durus): register the authorised khutab/durus source families); no harvest, mining or ingestion is recorded in the ledgers'
+    registered: '2026-10-31'
+    pages:
+    - {url: 'https://dalail.org.sa', taken: registry URL of the family, date: '2026-10-31', lane: khutab-durus, state: registered}
+    unverified:
+    - pages_read
+    - pr_numbers
+  - id: web-middle-east-eye
+    title: Middle East Eye
+    site_url: https://www.middleeasteye.net
+    licence: copyrighted; read and rewritten in the museum's own words with citations
+    lane: khutab-durus
+    completion: claimed
+    state: 'registered 2026-10-31 in scripts/harvest/sources.yaml (feat(khutab-durus): register the authorised khutab/durus source families); no harvest, mining or ingestion is recorded in the ledgers'
+    registered: '2026-10-31'
+    pages:
+    - {url: 'https://www.middleeasteye.net', taken: registry URL of the family, date: '2026-10-31', lane: khutab-durus, state: registered}
+    unverified:
+    - pages_read
+    - pr_numbers
+  - id: web-new-arab
+    title: The New Arab
+    site_url: https://www.newarab.com
+    licence: copyrighted; read and rewritten in the museum's own words with citations
+    lane: khutab-durus
+    completion: claimed
+    state: 'registered 2026-10-31 in scripts/harvest/sources.yaml (feat(khutab-durus): register the authorised khutab/durus source families); no harvest, mining or ingestion is recorded in the ledgers'
+    registered: '2026-10-31'
+    pages:
+    - {url: 'https://www.newarab.com', taken: registry URL of the family, date: '2026-10-31', lane: khutab-durus, state: registered}
+    unverified:
+    - pages_read
+    - pr_numbers
+  - id: web-5pillars
+    title: 5Pillars
+    site_url: https://5pillarsuk.com
+    licence: copyrighted; read and rewritten in the museum's own words with citations
+    lane: khutab-durus
+    completion: claimed
+    state: registered 31 Oct 2026; modern web batch 11 record, Wayback capture 26 Dec 2014
+    registered: '2026-10-31'
+    prs:
+    - 2666
+    pages:
+    - {url: 'https://5pillarsuk.com', taken: registry URL of the family, date: '2026-10-31', lane: khutab-durus, state: registered}
+  - id: web-ristalks
+    title: RIS Talks
+    site_url: https://ristalks.com
+    licence: copyrighted; facts and own-words summaries only; YouTube metadata and links only, never downloaded
+    lane: khutab-durus
+    completion: claimed
+    state: 'registered 2026-10-31 in scripts/harvest/sources.yaml (feat(khutab-durus): register the authorised khutab/durus source families); no harvest, mining or ingestion is recorded in the ledgers'
+    registered: '2026-10-31'
+    pages:
+    - {url: 'https://ristalks.com', taken: registry URL of the family, date: '2026-10-31', lane: khutab-durus, state: registered}
+    unverified:
+    - pages_read
+    - pr_numbers
+  - id: web-ris-multimedia
+    title: RIS Multimedia (YouTube)
+    site_url: https://youtube.com/@rismultimedia
+    licence: copyrighted; facts and own-words summaries only; YouTube metadata and links only, never downloaded
+    lane: khutab-durus
+    completion: claimed
+    state: 'registered 2026-10-31 in scripts/harvest/sources.yaml (feat(khutab-durus): register the authorised khutab/durus source families); no harvest, mining or ingestion is recorded in the ledgers'
+    registered: '2026-10-31'
+    pages:
+    - {url: 'https://youtube.com/@rismultimedia', taken: registry URL of the family, date: '2026-10-31', lane: khutab-durus, state: registered}
+    unverified:
+    - pages_read
+    - pr_numbers
+  - id: web-mica-archive
+    title: Muslims in Canada Archives
+    site_url: https://muslimcanadianarchives.ca
+    licence: copyrighted; facts and own-words summaries only; YouTube metadata and links only, never downloaded
+    lane: khutab-durus
+    completion: claimed
+    state: 'registered 2026-10-31 in scripts/harvest/sources.yaml (feat(khutab-durus): register the authorised khutab/durus source families); no harvest, mining or ingestion is recorded in the ledgers'
+    registered: '2026-10-31'
+    pages:
+    - {url: 'https://muslimcanadianarchives.ca', taken: registry URL of the family, date: '2026-10-31', lane: khutab-durus, state: registered}
+    unverified:
+    - pages_read
+    - pr_numbers
+  - id: web-isna
+    title: ISNA Convention
+    site_url: https://isna.net
+    licence: copyrighted; facts and own-words summaries only; YouTube metadata and links only, never downloaded
+    lane: khutab-durus
+    completion: claimed
+    state: 'registered 2026-10-31 in scripts/harvest/sources.yaml (feat(khutab-durus): register the authorised khutab/durus source families); no harvest, mining or ingestion is recorded in the ledgers'
+    registered: '2026-10-31'
+    pages:
+    - {url: 'https://isna.net', taken: registry URL of the family, date: '2026-10-31', lane: khutab-durus, state: registered}
+    unverified:
+    - pages_read
+    - pr_numbers
+  - id: web-icna-mas-baltimore
+    title: ICNA-MAS Baltimore Convention
+    site_url: https://www.icna.com
+    licence: copyrighted; facts and own-words summaries only; YouTube metadata and links only, never downloaded
+    lane: khutab-durus
+    completion: claimed
+    state: 'registered 2026-10-31 in scripts/harvest/sources.yaml (feat(khutab-durus): register the authorised khutab/durus source families); no harvest, mining or ingestion is recorded in the ledgers'
+    registered: '2026-10-31'
+    pages:
+    - {url: 'https://www.icna.com', taken: registry URL of the family, date: '2026-10-31', lane: khutab-durus, state: registered}
+    unverified:
+    - pages_read
+    - pr_numbers
+  - id: web-almaghrib
+    title: Al-Maghrib Institute
+    site_url: https://www.almaghrib.org
+    licence: copyrighted; facts and own-words summaries only; YouTube metadata and links only, never downloaded
+    lane: khutab-durus
+    completion: claimed
+    state: registered 31 Oct 2026; listing/almaghrib enriched in modern web batch 12 (7 Nov 2026)
+    registered: '2026-10-31'
+    prs:
+    - 2666
+    pages:
+    - {url: 'https://www.almaghrib.org', taken: registry URL of the family, date: '2026-10-31', lane: khutab-durus, state: registered}
+  - id: web-qalam-institute
+    title: Qalam Institute
+    site_url: https://qalam.online
+    licence: copyrighted; facts and own-words summaries only; YouTube metadata and links only, never downloaded
+    lane: khutab-durus
+    completion: claimed
+    state: 'registered 2026-10-31 in scripts/harvest/sources.yaml (feat(khutab-durus): register the authorised khutab/durus source families); no harvest, mining or ingestion is recorded in the ledgers'
+    registered: '2026-10-31'
+    pages:
+    - {url: 'https://qalam.online', taken: registry URL of the family, date: '2026-10-31', lane: khutab-durus, state: registered}
+    unverified:
+    - pages_read
+    - pr_numbers
+  - id: web-gpu-london
+    title: Global Peace and Unity (GPU)
+    site_url: https://gpu.events
+    licence: copyrighted; facts and own-words summaries only; YouTube metadata and links only, never downloaded
+    lane: khutab-durus
+    completion: claimed
+    state: 'registered 2026-10-31 in scripts/harvest/sources.yaml (feat(khutab-durus): register the authorised khutab/durus source families); no harvest, mining or ingestion is recorded in the ledgers'
+    registered: '2026-10-31'
+    pages:
+    - {url: 'https://gpu.events', taken: registry URL of the family, date: '2026-10-31', lane: khutab-durus, state: registered}
+    unverified:
+    - pages_read
+    - pr_numbers
+  - id: web-ramf-le-bourget
+    title: RAMF Le Bourget
+    site_url: https://ramf-paris.com
+    licence: copyrighted; facts and own-words summaries only; YouTube metadata and links only, never downloaded
+    lane: khutab-durus
+    completion: claimed
+    state: 'registered 2026-10-31 in scripts/harvest/sources.yaml (feat(khutab-durus): register the authorised khutab/durus source families); no harvest, mining or ingestion is recorded in the ledgers'
+    registered: '2026-10-31'
+    pages:
+    - {url: 'https://ramf-paris.com', taken: registry URL of the family, date: '2026-10-31', lane: khutab-durus, state: registered}
+    unverified:
+    - pages_read
+    - pr_numbers
+  - id: web-cambridge-muslim-college
+    title: Cambridge Muslim College
+    site_url: https://www.cambridgemuslimcollege.ac.uk
+    licence: copyrighted; facts and own-words summaries only; YouTube metadata and links only, never downloaded
+    lane: khutab-durus
+    completion: claimed
+    state: 'registered 2026-10-31 in scripts/harvest/sources.yaml (feat(khutab-durus): register the authorised khutab/durus source families); no harvest, mining or ingestion is recorded in the ledgers'
+    registered: '2026-10-31'
+    pages:
+    - {url: 'https://www.cambridgemuslimcollege.ac.uk', taken: registry URL of the family, date: '2026-10-31', lane: khutab-durus, state: registered}
+    unverified:
+    - pages_read
+    - pr_numbers
+  - id: web-tawasul-wcmc
+    title: World Council of Muslim Communities (Tawasul)
+    site_url: https://www.tawasul.org
+    licence: copyrighted; facts and own-words summaries only; YouTube metadata and links only, never downloaded
+    lane: khutab-durus
+    completion: claimed
+    state: 'registered 2026-10-31 in scripts/harvest/sources.yaml (feat(khutab-durus): register the authorised khutab/durus source families); no harvest, mining or ingestion is recorded in the ledgers'
+    registered: '2026-10-31'
+    pages:
+    - {url: 'https://www.tawasul.org', taken: registry URL of the family, date: '2026-10-31', lane: khutab-durus, state: registered}
+    unverified:
+    - pages_read
+    - pr_numbers
+  - id: web-forum-promoting-peace
+    title: Forum for Promoting Peace in Muslim Societies
+    site_url: https://peacesms.com
+    licence: copyrighted; facts and own-words summaries only; YouTube metadata and links only, never downloaded
+    lane: khutab-durus
+    completion: claimed
+    state: 'registered 2026-10-31 in scripts/harvest/sources.yaml (feat(khutab-durus): register the authorised khutab/durus source families); no harvest, mining or ingestion is recorded in the ledgers'
+    registered: '2026-10-31'
+    pages:
+    - {url: 'https://peacesms.com', taken: registry URL of the family, date: '2026-10-31', lane: khutab-durus, state: registered}
+    unverified:
+    - pages_read
+    - pr_numbers
+  - id: web-iifa
+    title: International Islamic Fiqh Academy
+    site_url: https://www.iifa-aifi.org
+    licence: copyrighted; facts and own-words summaries only; YouTube metadata and links only, never downloaded
+    lane: khutab-durus
+    completion: claimed
+    state: 'registered 2026-10-31 in scripts/harvest/sources.yaml (feat(khutab-durus): register the authorised khutab/durus source families); no harvest, mining or ingestion is recorded in the ledgers'
+    registered: '2026-10-31'
+    pages:
+    - {url: 'https://www.iifa-aifi.org', taken: registry URL of the family, date: '2026-10-31', lane: khutab-durus, state: registered}
+    unverified:
+    - pages_read
+    - pr_numbers
+  - id: web-king-faisal-prize
+    title: King Faisal Prize, official laureate pages
+    site_url: https://kingfaisalprize.org
+    licence: copyrighted (terms of service, read 7 Nov 2026); facts and own-words summaries only, no reproduction
+    lane: web-sources
+    completion: ingested
+    state: registered 7 Nov 2026 on the founder's go-ahead; facts-only; source/king-faisal-prize-laureates; used for laureate records
+    registered: '2026-11-07'
+    prs:
+    - 5200
+    pages:
+    - {url: 'https://kingfaisalprize.org', taken: registry URL of the family, date: '2026-11-07', lane: web-sources, state: registered}
+    unverified:
+    - pages_read_list
+  - id: web-ideo-diamond
+    title: IDEO Diamond / AlKindi, the general Diamond catalogue (IDEO, Cairo; stewarded by LRM-CS)
+    site_url: https://opac.diamondrda.org
+    licence: no licence published for the catalogue data (verified 8 Nov 2026); open-data ethos stated by LRM-CS; facts-only with attribution until terms are confirmed in writing; never bulk-copied, never republished
+    lane: web-sources (Lane B)
+    completion: claimed
+    state: registered Tier 1 facts-only 8 Nov 2026; catalogue not bulk-harvested (the registry says never bulk)
+    registered: '2026-11-08'
+    prs:
+    - 5651
+    pages:
+    - {url: 'https://opac.diamondrda.org', taken: registry URL of the family, date: '2026-11-08', lane: web-sources (Lane B), state: registered}
+  - id: web-archnet
+    title: Archnet (Aga Khan Trust for Culture / MIT Aga Khan Documentation Center)
+    site_url: https://www.archnet.org
+    licence: CC BY-NC 4.0 per Terms of Use (archived copy read 8 Nov 2026); facts-only permanently — record text and images never republished
+    lane: web-sources (Lane B)
+    completion: ingested
+    state: registered Tier 1 facts-only 8 Nov 2026 (dec-20261108-205); live site rate-limits non-browser clients (429), so read through Wayback snapshots; 30 buildings enriched in the pilot (source/archnet plus external_ids.archnet)
+    registered: '2026-11-08'
+    prs:
+    - 5654
+    - 5661
+    - 5166
+    pages:
+    - {url: 'https://www.archnet.org', taken: site records read via Wayback snapshots and the browser; fact extraction for 30 buildings, date: '2026-11-08', lane: web-sources (Lane B), state: ingested}
+  - id: web-tei-epigraphie
+    title: Thesaurus d'Epigraphie Islamique (University of Liege / Fondation Max van Berchem)
+    site_url: https://www.epigraphie-islamique.uliege.be/Thesaurus/
+    licence: free of charge online since Oct 2011; no licence page published — facts-only by default, record text and images never republished
+    lane: web-sources (Lane B)
+    completion: ingested
+    state: registered Tier 1 facts-only 8 Nov 2026 (dec-20261108-204). Fiche catalogue swept completely, fiches 1 to 61517, 8 to 9 Nov 2026 (about 13.2k by 9 Nov p5, finished at fiche 61517 on p19); about 64 buildings enriched in the first batches plus per-range enrichments; about 30 new building or object entities; catalogue tail empty past 61517
+    registered: '2026-11-08'
+    prs:
+    - 5654
+    - 5656
+    - 5657
+    - 5658
+    - 5664
+    - 5665
+    - 5667
+    - 5668
+    - 5669
+    - 5670
+    - 5671
+    - 5672
+    - 5674
+    - 5675
+    - 5676
+    - 5677
+    - 5681
+    - 5682
+    - 5683
+    - 5685
+    - 5689
+    - 5690
+    - 5694
+    - 5696
+    - 5697
+    - 5698
+    - 5699
+    - 5700
+    - 5701
+    - 5704
+    - 5705
+    - 5708
+    - 5716
+    - 5720
+    notes: Fiche text and images are never republished (facts-only). Rejected-candidate classes (namesake cities, proximity-only matches, movable objects, moved inscriptions) are logged in docs/delegation/web-sources-progress.md.
+    pages:
+    - {url: 'https://www.epigraphie-islamique.uliege.be/Thesaurus/', taken: 'fiche pages via EpigraphyDisplay.aspx?id=<n>&pan=1&st=&sc=5 (pattern from the lane ledger); scripted session; fiche lists and ~40 detail pages first, then full sweeps', date: '2026-11-08', lane: web-sources (Lane B), state: ingested, ids_read: 'fiches 1-800 core monuments, 800-1600 (801 rows)'}
+    - {taken: fiches 1601-4800 harvested; 23 entities enriched; ~90 false candidates rejected, date: '2026-11-08', lane: web-sources (Lane B), state: ingested, ids_read: 1601-4800}
+    - {taken: fiches 4801-8800 (4000), date: '2026-11-09', lane: web-sources (Lane B), state: ingested, ids_read: 4801-8800}
+    - {taken: fiches 8801-12800 (4000), date: '2026-11-09', lane: web-sources (Lane B), state: ingested, ids_read: 8801-12800}
+    - {taken: fiches 12801-16800, date: '2026-11-09', lane: web-sources (Lane B), state: ingested, ids_read: 12801-16800}
+    - {taken: fiches 16801-20800; Shah-i Zinda 80 fiches; 7 new entities, date: '2026-11-09', lane: web-sources (Lane B), state: ingested, ids_read: 16801-20800}
+    - {taken: fiches 20801-24800, date: '2026-11-09', lane: web-sources (Lane B), state: ingested, ids_read: 20801-24800}
+    - {taken: fiches 24801-28800; al-Andalus enrichments, date: '2026-11-09', lane: web-sources (Lane B), state: ingested, ids_read: 24801-28800}
+    - {taken: fiches 28801-32800, date: '2026-11-09', lane: web-sources (Lane B), state: ingested, ids_read: 28801-32800}
+    - {taken: fiches 32801-36800, date: '2026-11-09', lane: web-sources (Lane B), state: ingested, ids_read: 32801-36800}
+    - {taken: fiches 36801-40800, date: '2026-11-09', lane: web-sources (Lane B), state: ingested, ids_read: 36801-40800}
+    - {taken: fiches 40801-44800; 6 new lead entities, date: '2026-11-09', lane: web-sources (Lane B), state: ingested, ids_read: 40801-44800}
+    - {taken: fiches 44801-48800, date: '2026-11-09', lane: web-sources (Lane B), state: ingested, ids_read: 44801-48800}
+    - {taken: fiches 48801-52800, date: '2026-11-09', lane: web-sources (Lane B), state: ingested, ids_read: 48801-52800}
+    - {taken: fiches 52801-56800 and 56801-60800 (thin ranges), date: '2026-11-09', lane: web-sources (Lane B), state: ingested, ids_read: 52801-60800}
+    - {taken: 'fiches 60801-61517: catalogue ends, 717 fiches, 0 candidates', date: '2026-11-09', lane: web-sources (Lane B), state: ingested, ids_read: 60801-61517}
+  - id: web-nomisma
+    title: Nomisma.org (American Numismatic Society / Oxford-linked numismatic LOD ontology)
+    site_url: https://nomisma.org
+    licence: CC-BY 3.0 stated on site (verified 9 Nov 2026); {cite:nomisma <concept-id>} is the attribution — partner-dataset records ingested through Nomisma carry their own licence statements and stay facts-only until checked per-record
+    lane: web-sources (Lane B) and web-sources Lane B worker B1
+    completion: ingested
+    state: registered Tier 2 9 Nov 2026 (dec-20261109-224); mint to place links (10, then 73, then batches 3 and later), issuer to person and polity links (59 persons and 16 polities in the first issuer pass; batches 4 to 8 added 25, 25, 25, then polities, regions and 16 hand-checked persons; 21 dynasties and 2 houses; the three apostrophe concepts), prose sections on 13 pages; endpoint is a SPARQL 1.0 GET
+    registered: '2026-11-09'
+    prs:
+    - 5719
+    - 5720
+    - 5721
+    - 5724
+    - 6200
+    - 6209
+    - 6217
+    - 6598
+    - 6607
+    - 6609
+    - 6610
+    - 6611
+    - 6624
+    - 6631
+    - 6641
+    - 6809
+    - 6855
+    - 6862
+    - 6866
+    - 6961
+    notes: 'Held for the founder: Babil and Ascalon wording; Sulayman al-Musta''in duplicate pair carries the same Nomisma id on both records (merge held).'
+    pages:
+    - {url: 'https://nomisma.org', taken: 'concept pages (mint, region, person, organisation) read per record; canonical concept URI form http://nomisma.org/id/<slug> (https returns zero triples)', date: '2026-11-09', lane: web-sources (Lane B), state: ingested}
+    - {url: nomisma.org/query, taken: 'SPARQL GET /query?query=...: mint and issuer checks; 14 Nov 2026 one request returned 1,722 concepts with a Wikidata exactMatch for the crosswalk', date: '2026-11-14', lane: web-sources Lane B worker B1, state: ingested, note: written without scheme in the ledger}
+    - {taken: 'mint concept defs and coin counts (hasMint, hasRegion, hasAuthority, hasIssuer) for batches 5 and 6, endpoint 14 Nov 2026', date: '2026-11-14', lane: web-sources Lane B worker B1, state: ingested}
+  - id: web-ans-mantis
+    title: ANS MANTIS Collection Database (American Numismatic Society)
+    site_url: https://numismatics.org/search/
+    licence: data ODbL + images Public Domain Mark / No Copyright-US (per-record rightsStmt, verified 9 Nov 2026); {cite:ans-mantis <accession-id>} is the attribution — ODbL share-alike attaches to derivative databases, so facts-only [cut; full text in scripts/harvest/sources.yaml]
+    lane: web-sources (Lane B)
+    completion: claimed
+    state: registered Tier 1 facts-only 9 Nov 2026 (dec-20261109-226); pilot on coins of already-linked rulers planned, not traced as done; ODbL share-alike review pending
+    registered: '2026-11-09'
+    prs:
+    - 5726
+    pages:
+    - {url: 'https://numismatics.org/search/', taken: registry URL of the family, date: '2026-11-09', lane: web-sources (Lane B), state: registered}
+  - id: web-idai-gazetteer
+    title: iDAI.gazetteer (German Archaeological Institute ancient-world place gazetteer)
+    site_url: https://gazetteer.dainst.org
+    licence: CC-BY 4.0 stated in site footer (verified 9 Nov 2026); {cite:idai-gazetteer <gazId>} is the attribution — gazetteer editorial text never republished
+    lane: web-sources (Lane B) and web-sources Lane B worker B1
+    completion: ingested
+    state: registered Tier 2 9 Nov 2026 (dec-20261109-228); place-id passes in batches from 9 to 14 Nov 2026 (12 pilot cities, then +22, +25, +17, +2, +16, +21, +21, +19, +25, +13); search.json and doc/<id>.json read at one request per second; three links withdrawn 14 Nov 2026 (GeoNames id mismatch); gazetteer sections on 109 place pages
+    registered: '2026-11-09'
+    prs:
+    - 5745
+    - 5746
+    - 6064
+    - 6200
+    - 6209
+    - 6217
+    - 6242
+    - 6592
+    - 6603
+    - 6614
+    - 6625
+    - 6667
+    - 6685
+    - 6779
+    - 6799
+    - 6817
+    - 6818
+    - 6828
+    - 6830
+    - 6842
+    notes: 'Not linked: asilah (ancient Zilil), casablanca, algiers, abu-dhabi, sabzevar, khenchela. Held: sanaa old city, rayy. GeoNames mismatches noted: stuttgart, idlib, zurich (links withdrawn).'
+    pages:
+    - {url: 'https://gazetteer.dainst.org', taken: 'search.json, doc/<id>.json, suggestions, children, geoSearch; match rule: populated place within 1.2 km and equal name or Arabic name; gazetteer editorial text never republished', date: '2026-11-09', lane: web-sources (Lane B), state: ingested}
+  - id: web-british-museum
+    title: British Museum collection database
+    site_url: https://www.britishmuseum.org/collection
+    licence: CC BY-NC-SA 4.0 for collection data; facts-only permanently — record text and images never republished
+    lane: web-sources (Lane B)
+    completion: claimed
+    state: registered 8 Nov 2026 (dec-20261108-201); live access answers 403; deferred
+    registered: '2026-11-08'
+    prs:
+    - 5654
+    pages:
+    - {url: 'https://www.britishmuseum.org/collection', taken: registry URL of the family, date: '2026-11-08', lane: web-sources (Lane B), state: registered}
+  - id: web-khalili-collections
+    title: Khalili Collections (Nasser D. Khalili Islamic arts collections)
+    site_url: https://www.khalilicollections.org
+    licence: no licence or terms page found (checked 8 Nov 2026) — facts-only by default, record text never republished
+    lane: web-sources (Lane B)
+    completion: claimed
+    state: registered 8 Nov 2026; reachable but zero corpus-object matches; leads logged
+    registered: '2026-11-08'
+    prs:
+    - 5654
+    pages:
+    - {url: 'https://www.khalilicollections.org', taken: registry URL of the family, date: '2026-11-08', lane: web-sources (Lane B), state: registered}
+  - id: web-qatar-museums-collections
+    title: Qatar Museums collections platform (Museum of Islamic Art, Doha)
+    site_url: https://collections.qm.org.qa
+    licence: qm.org.qa terms not fully verified at registration (8 Nov 2026) — facts-only, record text and images never republished
+    lane: web-sources (Lane B)
+    completion: claimed
+    state: registered 8 Nov 2026; reachable but zero corpus-object matches; leads logged
+    registered: '2026-11-08'
+    prs:
+    - 5654
+    pages:
+    - {url: 'https://collections.qm.org.qa', taken: registry URL of the family, date: '2026-11-08', lane: web-sources (Lane B), state: registered}
+  - id: web-vam-collection
+    title: Victoria and Albert Museum Collections API v2
+    site_url: https://api.vam.ac.uk/v2/objects/search
+    licence: V&A-owned content free for non-commercial use per site terms; facts-only permanently — record text and images never republished
+    lane: web-sources (Lane B)
+    completion: ingested
+    state: registered 8 Nov 2026 (dec-20261108-206); keyless JSON API; pilot of 8 object records enriched (made_in Damascus x3, Konya x2, Samarqand x2, Rayy x1) with provenance blocks, cite-check 8 of 8; about 191 citations of source/vam-collection by 9 Nov
+    registered: '2026-11-08'
+    prs:
+    - 5654
+    pages:
+    - {url: 'https://api.vam.ac.uk/v2/objects/search', taken: 'object search API, 8 objects matched to made_in', date: '2026-11-08', lane: web-sources (Lane B), state: ingested}
+  - id: web-eamena
+    title: EAMENA Database (Endangered Archaeology in the Middle East and North Africa)
+    site_url: https://database.eamena.org
+    licence: CC BY 4.0 per eamena.org/open-access-policy; access tiered — public mode withholds coordinates/zoom/condition data, research mode needs registration
+    lane: web-sources (Lane B)
+    completion: claimed
+    state: registered Tier 1 8 Nov 2026 (dec-20261108-222); anonymous harvest channel verified closed (all API and export forms return []); pilot deferred pending research access
+    registered: '2026-11-08'
+    prs:
+    - 5664
+    - 5666
+    pages:
+    - {url: 'https://database.eamena.org', taken: registry URL of the family, date: '2026-11-08', lane: web-sources (Lane B), state: registered}
+  - id: web-apd
+    title: Arabic Papyrology Database (LMU Munich / ISAP)
+    site_url: https://www.apd.gwi.uni-muenchen.de/apd/
+    licence: non-commercial project, free access stated on project page; facts-only — edition text and document images never republished
+    lane: web-sources (Lane B)
+    completion: ingested
+    state: 'registered Tier 2 8 Nov 2026 (dec-20261108-214); show_new.jsp POST cracked; pilot: al-fustat, qasr-al-hayr-al-gharbi, mecca, ahmad-ibn-tulun enriched'
+    registered: '2026-11-08'
+    prs:
+    - 5656
+    - 5661
+    pages:
+    - {url: 'https://www.apd.gwi.uni-muenchen.de/apd/', taken: 'show_new.jsp POST (content/origplaceid fields); inventories P.Vind.inv. A.Ch. 36581/10354, P.SchlumbergerQasr, P.Lond.inv. Syriac Mss. BM Add 12137, P.Michael.inv. B 937 / B 327 / CQ 37', date: '2026-11-08', lane: web-sources (Lane B), state: ingested}
+  - id: web-papyri-info
+    title: Papyri.info (Duke Databank of Documentary Papyri and Heidelberg HGV metadata)
+    site_url: https://papyri.info
+    licence: Creative Commons Attribution 3.0 stated in the public data repository README (github.com/papyri/idp.data, read 11 Nov 2026); {cite:papyri-info <ddb-id>} is the attribution; edition text and translations never republished
+    lane: web-sources (Lane B) and web-sources Lane B worker B1
+    completion: ingested
+    state: registered Tier 2 facts-only 12 Nov 2026 (dec-20261112-266); live site behind an Anubis bot challenge (never bypassed), so the public data repository github.com/papyri/idp.data (CC BY 3.0) is the channel; pilot 14 Nov 2026 linked two places (ahnas to Herakleopolis, al-bahnasa to Oxyrhynchus)
+    registered: '2026-11-12'
+    prs:
+    - 6242
+    - 6606
+    pages:
+    - {url: 'https://papyri.info', taken: 'HGV records DDbDP: tyche;35;60 (compromise agreement, 7 Oct 719 CE) and sb;6;8987 (house share sale, 644-645 CE); sb;6;9576 read as the pilot fact', date: '2026-11-14', lane: web-sources Lane B worker B1, state: ingested}
+    - {url: 'https://github.com/papyri/idp.data', taken: layout DDbDP/<n>/<TM>.xml and HGV_meta_EpiDoc/HGV<n>/<TM>.xml, date: '2026-11-12', lane: web-sources (Lane B), state: read}
+  - id: web-biblissima
+    title: Biblissima authority referentials (data.biblissima.fr, Wikibase)
+    site_url: https://data.biblissima.fr
+    licence: Licence Ouverte / Open Licence 2.0 (Etalab), stated at data.biblissima.fr/w/Licence (read 12 Nov 2026), compatible with CC BY 2.0 and ODC-BY; {cite:biblissima <Q-id>} is the attribution; facts-only in the museum's own words
+    lane: web-sources (Lane B) and web-sources Lane B worker B1
+    completion: ingested
+    state: 'registered Tier 2 facts-only 12 Nov 2026 (founder approval of four pilot sources, Etalab Open Licence 2.0); Wikibase JSON API read anonymously (SPARQL endpoints answer 401, not used); persons linked only where Biblissima''s own Wikidata statement P112 equals our Wikidata id: pilot 10, then 18, 15, 16, 7, 18, 15 more, then al-Dimyati 1; scan of candidates 1 to 738 finished 14 Nov 2026; 78 persons gained a Biblissima section; 29 persons held for the founder (date mismatches, no dates)'
+    registered: '2026-11-12'
+    prs:
+    - 6469
+    - 6475
+    - 6579
+    - 6595
+    - 6608
+    - 6619
+    - 6629
+    - 6673
+    - 6715
+    - 6791
+    - 6792
+    - 6802
+    - 6903
+    - 6917
+    notes: 'Measured: 0 of 23 matched records carry an Arabic-script label (labels are French with transliteration).'
+    pages:
+    - {url: 'https://data.biblissima.fr', taken: 'wbsearchentities and entity JSON by Q-id (for example data.biblissima.fr/entity/Q499, Ibn al-Jazzar); doc.biblissima.fr/api documents the route', date: '2026-11-12', lane: web-sources (Lane B), state: ingested}
+  - id: web-vhmml
+    title: vHMML Reading Room and Data Portal (Hill Museum & Manuscript Library)
+    site_url: https://www.vhmml.org
+    licence: Creative Commons Attribution 4.0 for Reading Room and Museum metadata, stated at vhmml.org/terms and vhmml.org/dataPortal/dataset (read 12 Nov 2026); images are NOT open (partner libraries retain rights, HMML-owned images CC [cut; full text in scripts/harvest/sources.yaml]
+    lane: web-sources Lane B worker B1
+    completion: ingested
+    state: registered Tier 2 12 Nov 2026 (CC BY 4.0 metadata, images excluded); one data download 14 Nov 2026 (listing csv zip, 3,205,820 bytes, unzipped csv 33,160,633 bytes, 264,037 records, kept outside git); pilot on object/mukhtutat-timbuktu
+    registered: '2026-11-12'
+    prs:
+    - 6471
+    - 6567
+    pages:
+    - {url: 'https://www.vhmml.org/datasets/vhmml_rr_listingdata_csv.zip', taken: 'Reading Room listing: Id, Permalink, Country, City, Repository, Shelfmark, HMML Project Number', date: '2026-11-14', lane: web-sources Lane B worker B1, state: ingested, bytes: 3205820}
+    - {url: 'https://www.vhmml.org/dataPortal/dataset', taken: dataset page and terms (CC BY 4.0 for metadata), date: '2026-11-12', lane: web-sources (Lane B), state: read}
+    - {url: 'https://www.vhmml.org/terms', taken: 'terms read; robots.txt allows records, disallows /image/', date: '2026-11-12', lane: web-sources (Lane B), state: read}
+  - id: web-louvre-collections
+    title: Louvre collections website (Musée du Louvre)
+    site_url: https://collections.louvre.fr
+    licence: textual content of entries is public information under the Etalab Open Licence (article 4.1.2 of the Terms of Use, read 12 Nov 2026), credit the Musée du Louvre with the date of last update; photographs are NOT open (article [cut; full text in scripts/harvest/sources.yaml]
+    lane: web-sources Lane B worker B1
+    completion: ingested
+    state: 'registered Tier 2 12 Nov 2026 (Etalab open licence for entry text; photographs excluded); pilot 12 Nov 2026 found ids through Wikidata P9394 because the search page answered 429 with a bot challenge (not retried); 3 objects enriched: kafan-san-juz, pyxis-al-mughira, baptistere-saint-louis'
+    registered: '2026-11-12'
+    prs:
+    - 6472
+    - 6479
+    pages:
+    - {url: 'https://collections.louvre.fr/en/page/cgu', taken: terms of use read (article 4.1.2), date: '2026-11-12', lane: web-sources (Lane B), state: read}
+    - {taken: 'ark records ark:/53355/cl010329960, cl010329109, cl010318774 (per-record JSON at the same ARK plus .json)', date: '2026-11-12', lane: web-sources Lane B worker B1, state: ingested, note: ark ids from the ledger; full URLs not reconstructed}
+  - id: web-althurayya-gazetteer
+    title: al-Ṯurayyā Gazetteer (Leipzig; origin Tufts / Perseus)
+    site_url: https://github.com/althurayya/althurayya.github.io
+    licence: original project data CC BY 4.0 (DATA-LICENSE.md, read 12 Nov 2026); source-derived material (Cornu's atlas, Shamela titles) and third-party data are excluded from that grant; code Apache-2.0; {cite:althurayya-gazetteer [cut; full text in scripts/harvest/sources.yaml]
+    lane: web-sources Lane B worker B1
+    completion: ingested
+    state: 'registered Tier 2 12 Nov 2026 (anchor decision: the places/ file stem, a repository path); batches: 10 pilot, 10, 22, 23, 25, 25, 15 places linked by exact Arabic toponym within 7 km; tree listing (1,796 settlement files) and single raw files read at 3 s pause; Cornu-derived fields never taken'
+    registered: '2026-11-12'
+    prs:
+    - 6474
+    - 6484
+    - 6572
+    - 6587
+    - 6601
+    - 6617
+    - 6627
+    - 6633
+    - 5280
+    pages:
+    - {url: 'https://github.com/althurayya/althurayya.github.io', taken: 'places/*.geojson, DATA-LICENSE.md', date: '2026-11-12', lane: web-sources Lane B worker B1, state: ingested}
+  - id: web-princeton-geniza
+    title: Princeton Geniza Project
+    site_url: https://geniza.princeton.edu
+    licence: open access per project documentation; facts-only for edition text — document texts and images never republished
+    lane: web-sources (Lane B)
+    completion: downloaded
+    state: registered Tier 2 8 Nov 2026 (dec-20261108-218); metadata zip pgp-metadata-v1.2.zip (16,716,087 bytes) on the drive under raw/geniza/pgp-zenodo-22663982, downloaded 24 Oct 2026; no enrichment traced
+    registered: '2026-11-08'
+    prs:
+    - 5656
+    pages:
+    - {taken: Zenodo metadata export pgp-metadata-v1.2.zip, date: '2026-10-24', lane: harvest, state: downloaded, identifier: pgp-zenodo-22663982, bytes: 16716087}
+    unverified:
+    - zenodo_record_url
+    - mining
+  - id: web-manar-al-athar
+    title: Manar al-Athar photo archive (University of Oxford)
+    site_url: https://manar.arch.ox.ac.uk
+    licence: CC BY-NC-SA 2.0 UK per family catalogue; site states free use for research/teaching/publication with acknowledgement — facts-only permanently, images never ingested
+    lane: web-sources (Lane B)
+    completion: claimed
+    state: registered Tier 2 8 Nov 2026 (dec-20261108-216); facts-only, images never ingested; no pilot traced
+    registered: '2026-11-08'
+    prs:
+    - 5656
+    pages:
+    - {url: 'https://manar.arch.ox.ac.uk', taken: registry URL of the family, date: '2026-11-08', lane: web-sources (Lane B), state: registered}
+  - id: web-qdl
+    title: Qatar Digital Library
+    site_url: https://www.qdl.qa
+    licence: free public access stated by project; facts-only — record text and page images never republished
+    lane: web-sources (Lane B)
+    completion: claimed
+    state: registered 8 Nov 2026 (dec-20261108-219); 403 Cloudflare to non-browser clients, so Wayback or browser reads; modern web batch 13 used it through its Wikipedia article
+    registered: '2026-11-08'
+    prs:
+    - 5656
+    - 5166
+    pages:
+    - {url: 'https://www.qdl.qa', taken: registry URL of the family, date: '2026-11-08', lane: web-sources (Lane B), state: registered}
+  - id: web-hmml
+    title: HMML manuscript catalogue (Hill Museum & Manuscript Library)
+    site_url: https://hmml.org
+    licence: public catalogue; full content needs free registration — catalogue metadata only, no login-gated harvest; facts-only
+    lane: web-sources (Lane B)
+    completion: claimed
+    state: registered 8 Nov 2026 (dec-20261108-215); catalogue metadata only; no login-gated harvest
+    registered: '2026-11-08'
+    prs:
+    - 5656
+    pages:
+    - {url: 'https://hmml.org', taken: registry URL of the family, date: '2026-11-08', lane: web-sources (Lane B), state: registered}
+  - id: web-mwnf-discover-islamic-art
+    title: Discover Islamic Art (Museum With No Frontiers)
+    site_url: https://islamicart.museumwnf.org
+    licence: terms unconfirmed at registration (8 Nov 2026) — facts-only, record text never republished
+    lane: web-sources (Lane B)
+    completion: claimed
+    state: registered 8 Nov 2026 (dec-20261108-217); no pilot traced
+    registered: '2026-11-08'
+    prs:
+    - 5656
+    pages:
+    - {url: 'https://islamicart.museumwnf.org', taken: registry URL of the family, date: '2026-11-08', lane: web-sources (Lane B), state: registered}
+  - id: web-qantara-med
+    title: Qantara — Mediterranean heritage catalogue
+    site_url: https://www.qantara-med.org
+    licence: legal-notice page exists; reuse terms unconfirmed — facts-only, record text never republished
+    lane: web-sources (Lane B)
+    completion: claimed
+    state: registered 8 Nov 2026 (dec-20261108-217); document pages live via do_id, search POST returns empty chrome (broken); root domain times out
+    registered: '2026-11-08'
+    prs:
+    - 5656
+    pages:
+    - {url: 'https://www.qantara-med.org', taken: registry URL of the family, date: '2026-11-08', lane: web-sources (Lane B), state: registered}
+  # END websites:sources-registry-and-core
   # END websites
 
 datasets:
