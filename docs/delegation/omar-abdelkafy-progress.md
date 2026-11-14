@@ -4993,3 +4993,25 @@ GEMINI: ep47, Julaybib's marriage and the family of the woman (Whisper links a d
 GEMINI: ep47, the report of Abu Ruwayha al-Khath'ami paired with Bilal and Bilal's frank introduction before a Yemeni tribe (Qwen also names Abu Hurayra), the source of the report
 GEMINI: ep47, the story of two men from Rome and Nur al-Din's dream with the lead around the grave (he dates it 557 AH; Whisper and Qwen disagree on how many times the dream came and on the sum he gave out), the early historians of Medina such as al-Samhudi
 GEMINI: ep47, the third Companion at the Prophet's door with Abu Bakr and Umar and the three qualities of goodness the Prophet names (Qwen and Whisper garble the third quality and the third speaker), the hadith on completing goodness by hastening, belittling and concealing it
+
+### alwaad-alhaq ep40 (14 Nov 2026)
+
+19 points written for episode 40 (ar, en, ur); 20 needs_source marks for this episode in each language file; edges added to the seeing of God, riba, the major sins, the Sirat and Paradise. Quran verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
+
+| Excluded (alwaad-alhaq ep40) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Repeated phrase of praise filling the opening stretch | ep40 00:01:30-00:02:00 | Qwen loop, no content | Clarity | Open |
+| Gold and silver adornment passage and the verse-like asides on the nadira faces | ep40 00:06:30-00:08:00 | Garbled in the transcript, cannot be followed | Clarity | Open |
+| Poetry fragments on the eagle and the crow | ep40 00:19:30-00:20:30 | Garbled, tangential poem not verifiable | Clarity | Open |
+| Digression on a family quarrel and the dead parents | ep40 00:20:00-00:20:30 | Garbled aside without a checkable claim | Clarity | Open |
+| The sheikh's remark on a verse about calling people by their fathers | ep40 00:41:30-00:42:30 | Transcript garbled, verse not identifiable | Clarity | Open |
+| Dialogue on the bank, rates and deposits at its full length | ep40 00:48:00-00:49:30 | Garbled and tangential; only the general application and the illustrative figures kept | Clarity | Open |
+| The man with the statue and the portrait of the Khedive and other worldly comparisons | ep40 00:56:30-00:57:30 | Garbled comic aside, kept in one sentence | Clarity | Open |
+| Discussion of television, time and the screen | ep40 01:04:30-01:06:00 | Garbled and conversational, kept in one sentence | Clarity | Open |
+| Closing supplication and the poem on the world | ep40 01:10:00-01:11:30 | Prayer text garbled and poem unverifiable | Clarity | Open |
+| Transcript repeat of the opening verses at the end | ep40 01:11:30-01:12:00 | Repetition of the opening verses | Clarity | Open |
+
+Resume point: alwaad-alhaq episode 41 (branch from origin/main).
+GEMINI: ep40, the narrator and book of the report that God asks the people of Paradise whether they want more and then lifts the veil (the sheikh gives Abu Hurayra and Sahih Muslim; Qwen is garbled; the wording matches the Suhayb report in Sahih Muslim, to be verified against the book).
+GEMINI: ep40, the name of the speaker of "the most intelligent of people leaves the world before it leaves him" (the transcript says Abu Hazim, no book; which Abu Hazim, and the source).
+GEMINI: ep40, the place of Adam in the report of the night of the ascent (the transcript says the sixth heaven, the usual report places him in the first heaven; Qwen garbled).
