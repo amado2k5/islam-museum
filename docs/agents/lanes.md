@@ -5,6 +5,7 @@ A **lane** is a stream of work with its own scope, files, branch naming and prog
 Rules for every lane: [`../../AGENTS.md`](../../AGENTS.md), [`workflow.md`](workflow.md), [`content-standards.md`](content-standards.md); lanes that mine a source also follow [`mining-sources.md`](mining-sources.md).
 
 > Harvest register: before any download, OCR, harvest, mining or ingestion, look the item up in `docs/library/harvest-register.yaml` and update its entry in the same PR (`docs/library/README.md`).
+> Enrichment register: when your queue is empty or you finish early, take work from `docs/library/enrichment/` (`npm run enrichment-queue`), claim it in `claims.yaml` in your first commit, mark it done when merged; never start an item another agent has claimed.
 
 ## Registry
 
