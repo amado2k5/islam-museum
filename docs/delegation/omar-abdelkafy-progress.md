@@ -4840,6 +4840,22 @@ GEMINI: ep44, name of the commander of the archers on the mountain and the count
 GEMINI: ep44, the Muslim whose face was covered and sweet rush laid at his feet, with a sister seeking him (00:51:00-00:52:30), the Prophet's vow to mutilate thirty and the Companions' seventy (00:53:30; both passes give a form like Hamza) and the two Companions buried in one grave (00:56:00-00:56:30), Ibn Hisham's Sira and Sahih al-Bukhari on Uhud
 GEMINI: ep44, the narrator and collection of the supplication of praise he attributes to the Prophet after the battle (01:03:00-01:06:30) and the narrator of the report of the best of people and the people who come after (00:19:30-00:21:00), Musnad Ahmad and al-Adab al-Mufrad for the first, a Sahih collection for the second
 
+### alwaad-alhaq ep37 (14 Nov 2026)
+
+26 points written for episode 37 (ar, en, ur); 28 needs_source marks for this episode in each language file; linked to the gardens of Eden concept. Quran verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
+
+| Excluded (alwaad-alhaq ep37) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Looping audio about the needy and the poor | ep37 00:20:30 to 00:23:00 | ASR loop and garbled text | Faithfulness | Open |
+| Garbled passage on Ibn Taymiyya and men at his door | ep37 01:08:00 | Unintelligible transcript | Faithfulness | Open |
+| Garbled tale of a woman's prayer at Badr and Umm Ayman | ep37 00:33:30 | Unintelligible transcript | Faithfulness | Open |
+| Garbled couplet on bringing back yesterday | ep37 00:41:00 | Unintelligible transcript | Faithfulness | Open |
+| Abu Jahl and his wife exchange | ep37 00:12:00 | Garbled transcript, not summarised | Faithfulness | Open |
+
+Resume point: alwaad-alhaq episode 38 (branch from origin/main).
+GEMINI: alwaad-alhaq ep37 00:27:30: Does Ibn Hajar in Fath al-Bari count the hadith "actions are by intentions" as one of four pillars of hadith; transcript says so loosely; the source that would settle it is the introduction of Fath al-Bari.
+GEMINI: alwaad-alhaq ep37 00:36:00: Name of the imam flogged over the creation of the Qur'an who smiled ("he saw the Lord of servants"); transcript name garbled (Ahmad ibn Hamza?); source would be an account of the Mihna.
+GEMINI: alwaad-alhaq ep37 00:21:00: Ibn Abbas report that the poor enter Paradise half a day (five hundred years) before the rich, with a test of poverty; transcript garbled; the source that would settle it is a hadith or athar collection.
 ### sharh-saheeh-al-bukhare ep45 (14 Nov 2026)
 
 23 points written for episode 45 (ar, en, ur); 15 needs_source marks in each language file for this episode; 8 new `about` edges. Quran verses referenced only through passage links (33-36, 2-68); none typed. Contested: His readings of the battles as renewal of creed and of truth always prevailing, his dating and naming of the sorties and incidents, the numbers he gives (nine campaigns, seventy sent, sixty-eight killed, seven kilometres) and the cause he gives for the name Dhat al-Riqa' are given as his own, without reference, and are read differently by historians. Checked line by line against the transcript by a second reader before merge.
