@@ -3,28 +3,28 @@ class: person
 label:
   ar: "أبو بكر محمد بن عمر ابن الجعابي"
   en: "Abu Bakr ibn al-Jaabi"
-roles: [scholar]
+roles: [muhaddith, qadi]
 gender: male
 summary:
-  ar: "بطاقة أولية لأبو بكر محمد بن عمر ابن الجعابي؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abu Bakr ibn al-Jaabi; the entry is not yet checked on the page."
+  ar: "أبو بكر محمد بن عمر ابن الجعابي، قاض من كبار حفاظ الحديث من أهل بغداد، توفي سنة 355 هـ؛ ترجمته في «الأعلام» للزركلي."
+  en: "Abu Bakr Muhammad ibn Umar ibn al-Ja'abi, a judge and leading hadith memoriser of Baghdad, d. 355 AH; his entry is in al-Zirikli's al-A'lam."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/buyid-seljuk-fatimid-era]
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q69031730
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 Medium)"
-  model: "SWE-2 Medium"
-  run: wikidata-import-wave2
+  source: "al-Zirikli, al-A'lam, vol. 6 p. 311; entry read on 14 November 2026, original card from a Wikidata candidate"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
   completeness: 1
 born: { edtf: "897", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Khatib al-Baghdadi, Tarikh Baghdad; al-Dhahabi, Siyar" }
 died: { edtf: "966", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Khatib al-Baghdadi, Tarikh Baghdad; al-Dhahabi, Siyar" }
 relations:
-  - { type: born_in, target: place/baghdad, note: "Wikidata Q1530 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: born_in, target: place/baghdad, note: "Wikidata Q1530 (P19); al-Zirikli calls him a man of Baghdad, which supports but does not prove the birthplace.", sources: [source/alam-zirikli-dar-al-ilm-2002, source/wikidata], confidence: medium }
   - { type: lived_in, target: place/abbasid-caliphate, note: "Wikidata Q12536 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }
