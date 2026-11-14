@@ -6,23 +6,23 @@ label:
 roles: [ruler]
 gender: male
 summary:
-  ar: "بطاقة أولية لمهنا بن سلطان اليعربي، سلطان عمان اليعربي في أوائل القرن الثامن عشر؛ تذكره معاجم الدول الإسلامية ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Muhanna ibn Sultan al-Ya'rubi, the Ya'rubi sultan of Oman in the early eighteenth century, d. 1720; the dynastic handbook entry is not yet checked on the page."
+  ar: "مهنا بن سلطان بن ماجد بن مبارك بن بلعرب اليعربي، سادس الأئمة اليعاربة في عمان، بويع له بحصن الحزم بعد وفاة سلطان بن سيف، ثم خرج عليه يعرب بن بلعرب فقبض عليه وقتله؛ توفي سنة 1133 هـ بحسب الزركلي."
+  en: "Muhanna ibn Sultan ibn Majid ibn Mubarak ibn Bil'arab al-Ya'rubi, the sixth Ya'rubi imam of Oman, given the oath at the fort of al-Hazm after Sultan ibn Sayf; Ya'rub ibn Bil'arab rose against him, seized and killed him; died 1133 AH (1720) according to al-Zirikli."
 wings: [people]
 regions: [arabia]
 periods: [period/gunpowder-empires]
-sources: [source/bosworth-new-islamic-dynasties-1996]
+sources: [source/bosworth-new-islamic-dynasties-1996, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q16859427
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: Bosworth, The New Islamic Dynasties (1996) — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0034
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
-died: { edtf: "1720", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; J.C. Wilkinson" }
+  completeness: 3
+died: { edtf: "1720", hijri: "1133", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; J.C. Wilkinson. al-Zirikli prints 1133 AH = 1720 CE {cite:alam-zirikli-dar-al-ilm-2002 vol. 7 p. 316}, agreeing with the card.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
-  - { type: lived_in, target: place/oman, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/bosworth-new-islamic-dynasties-1996] }
+  - { type: ruler_of, target: place/oman, confidence: high, note: "al-Zirikli, al-A'lam, vol. 7 p. 316: sixth of the Ya'rubi imams in Oman, given the oath at the fort of al-Hazm; replaces the weaker lived_in edge of the draft card.", sources: [source/alam-zirikli-dar-al-ilm-2002] }

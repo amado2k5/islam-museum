@@ -6,24 +6,25 @@ label:
 roles: [theologian]
 gender: male
 summary:
-  ar: "بطاقة أولية لنور الدين الصابوني، المتكلم الحنفي صاحب الكفاية؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Nur al-Din al-Sabuni, the Hanafi theologian of al-Kifaya; his entry is not yet checked on the page."
+  ar: "أحمد بن محمود بن أبي بكر، نور الدين الصابوني البخاري، من علماء الكلام من الحنفية، مولده ووفاته في بخارى سنة 580 هـ، صاحب الكفاية في الهداية المسماة عقيدة الصابوني ومختصرها البداية من الكفاية."
+  en: "Ahmad ibn Mahmud ibn Abi Bakr, Nur al-Din al-Sabuni al-Bukhari, a Hanafi scholar of kalam born and dead in Bukhara in 580 AH (1184); author of al-Kifaya fi l-Hidaya, called the Creed of al-Sabuni, and of its abridgement al-Bidaya min al-Kifaya."
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/buyid-seljuk-fatimid-era]
-died: { edtf: "1184", precision: year, status: tradition, derived: true }
+died: { edtf: "1184", hijri: "0580", calendar: gregorian, precision: year, status: tradition, derived: true, note: "al-Zirikli prints 580 AH = 1184 CE {cite:alam-zirikli-dar-al-ilm-2002 vol. 1 p. 253}, agreeing with the card.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
-  - { type: born_in, target: place/bukhara, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q5764)" }
-sources: [source/al-aalam, source/wikidata]
+  - { type: born_in, target: place/bukhara, sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002], confidence: high, note: "Wikidata P19 (Q5764); al-Zirikli, al-A'lam, vol. 1 p. 253: born in Bukhara" }
+  - { type: died_in, target: place/bukhara, sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high, note: "al-Zirikli, al-A'lam, vol. 1 p. 253: died in Bukhara" }
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q25451999
   viaf: "95676099"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3

@@ -3,27 +3,29 @@ class: person
 label:
   ar: "نشانجي زاده محي الدين محمد"
   en: "Nisancizade Muhyiddin Mehmed"
-roles: [writer]
+roles: [writer, faqih]
 gender: male
 summary:
-  ar: "بطاقة أولية لنشانجي زاده محي الدين محمد؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Nisancizade Muhyiddin Mehmed, the Ottoman writer (jurist, d. 1621); the biographical entry is not yet checked on the page."
+  ar: "محمد بن أحمد محيي الدين، نشانجي زاده، فقيه حنفي رومي، كان قاضيا في أدرنة وتوفي بها بحسب الزركلي، له الفتاوى الرومية ونور العينين، اختصر به جامع الفصولين، ومقصد الأمة من مسند الأئمة؛ توفي سنة 1031 هـ."
+  en: "Muhammad ibn Ahmad Muhyi al-Din, known as Nishanjizade, a Hanafi jurist of Rum who, according to al-Zirikli, was judge in Edirne and died there; author of al-Fatawa al-Rumiyya, Nur al-aynayn (an abridgement of Jami al-fusulayn) and Maqsad al-umma min musnad al-a'imma; died 1031 AH (1621 or 1622)."
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
-died: { edtf: "1621", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi Confirmed on 13 November 2026 against Wikidata Q136101491 (P570, a statement with a reference), item revision 2462226560.", sources: [source/wikidata] }
+born: { edtf: "1555", hijri: "0962", calendar: gregorian, precision: year, derived: false, note: "al-Zirikli, al-A'lam, vol. 6 p. 8, prints 962 AH = 1555 CE.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+died: { edtf: "1621", hijri: "1031", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi Confirmed on 13 November 2026 against Wikidata Q136101491 (P570, a statement with a reference), item revision 2462226560. al-Zirikli prints 1031 AH = 1622 CE {cite:alam-zirikli-dar-al-ilm-2002 vol. 6 p. 8}; 1031 AH began in November 1621, so the card year 1621 is kept.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
 relations:
   - { type: born_in, target: place/merzifon, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q958135)" }
-  - { type: died_in, target: place/istanbul, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q406)" }
-sources: [source/al-aalam]
+  - { type: died_in, target: place/istanbul, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q406). al-Zirikli, al-A'lam, vol. 6 p. 8, says he was judge in Edirne and died there; the two places disagree and the question is logged for outside research." }
+  - { type: lived_in, target: place/edirne, sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high, note: "al-Zirikli, al-A'lam, vol. 6 p. 8: judge in Edirne" }
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q136101491
 provenance:
   layer: own-research
-  source: "Wikidata candidate; Ottoman tezkere/biographical record — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0094
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3

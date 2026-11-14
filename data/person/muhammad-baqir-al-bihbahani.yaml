@@ -6,33 +6,35 @@ label:
 roles: [jurist, marja]
 gender: male
 summary:
-  ar: "بطاقة أولية لمحمد باقر البهبهاني المعروف بالوحيد البهبهاني، مرجع القرن الثامن عشر الذي أعاد بناء الفقه الأصولي الإمامي في العراق؛ توفي نحو ١٧٩١م ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Muhammad Baqir al-Bihbahani, known as al-Wahid al-Bihbahani, the eighteenth-century marja' who rebuilt Imami usul scholarship in Iraq; he died about 1791 and his entry is not yet checked on the page."
+  ar: "محمد باقر بن محمد أكمل البهبهاني المعروف بالوحيد البهبهاني، فاضل إمامي ولد في أصفهان وأقام في بهبهان ثم استقر في كربلاء وتوفي بالحائر سنة 1206 هـ الموافقة 1791 م؛ له تعليقات على منهج المقال وحاشية على مفاتيح الأحكام."
+  en: "Muhammad Baqir ibn Muhammad Akmal al-Bihbahani, known as al-Wahid al-Bihbahani, an Imami (Twelver Shia) scholar born in Isfahan who lived in Behbahan and settled in Karbala, dying at al-Ha'ir in 1206 AH (1791); author of glosses on Minhaj al-maqal and on Mafatih al-ahkam."
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/gunpowder-empires]
 faith:
   - { value: shia-twelver, basis: tradition }
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002, source/wikidata]
 external_ids:
   wikidata: Q97486447
   viaf: "25479814"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-audit
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 occupations:
   - job: job/faqih
     kind: primary
     status: historical
     note: "Imami (Twelver) jurist. The TDV entry 'FIKIH' credits him with ending the roughly hundred-and-fifty-year dominance of the Akhbari method and restoring the Usuli method of legal reasoning. The office of marja', which the Usuli school made the norm, is described in the article job/faqih and in the entry MERCİ-i TAKLÎD."
     sources: [source/tdv-fikih]
-born: { edtf: "1706", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Iranica Confirmed on 13 November 2026 against Wikidata Q97486447 (P569, a statement with a reference), item revision 2554174454.", sources: [source/wikidata] }
-died: { edtf: "1791", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Iranica Confirmed on 13 November 2026 against Wikidata Q97486447 (P570, a statement with a reference), item revision 2554174454.", sources: [source/wikidata] }
+born: { edtf: "1706", hijri: "1118", calendar: gregorian, precision: year, derived: false, status: historical, note: "al-Zirikli, al-A'lam, vol. 6 p. 49: 1118 AH = 1706 CE as printed; agrees with the earlier note (Iranica, Wikidata Q97486447 P569).", sources: [source/alam-zirikli-dar-al-ilm-2002, source/wikidata] }
+died: { edtf: "1791", hijri: "1206", calendar: gregorian, precision: year, derived: false, status: historical, note: "al-Zirikli, al-A'lam, vol. 6 p. 49: 1206 AH = 1791 CE as printed; agrees with the earlier note (Iranica, Wikidata Q97486447 P570).", sources: [source/alam-zirikli-dar-al-ilm-2002, source/wikidata] }
 relations:
-  - { type: lived_in, target: place/iraq, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/al-aalam] }
+  - { type: born_in, target: place/isfahan, confidence: high, note: "al-Zirikli, al-A'lam, vol. 6 p. 49: born in Isfahan.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+  - { type: lived_in, target: place/karbala, confidence: high, note: "al-Zirikli, al-A'lam, vol. 6 p. 49: settled in Karbala. The earlier card link to Iraq is replaced by this precise place.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+  - { type: died_in, target: place/karbala, confidence: medium, note: "al-Zirikli, al-A'lam, vol. 6 p. 49: died at al-Ha'ir, the precinct of the shrine of al-Husayn in Karbala (the identification of al-Ha'ir with Karbala is the museum's gloss, not the entry's).", sources: [source/alam-zirikli-dar-al-ilm-2002] }

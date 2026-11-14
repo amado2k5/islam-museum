@@ -6,24 +6,27 @@ label:
 roles: [poet, writer]
 gender: male
 summary:
-  ar: "بطاقة أولية لمحمد بن نجم الدين الصالحي، شاعر وأديب شامي القرن السادس عشر، توفي سنة ١٦٠٣م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Muhammad ibn Najm al-Din al-Salehi, the sixteenth-century Levantine poet and prosaist, d. 1603; the source entry is not yet checked on the page."
+  ar: "محمد بن نجم الدين بن محمد الصالحي الهلالي ⁦(956 - 1012 هـ / 1549 - 1603 م)⁩: شاعر من الكتّاب، من أهل دمشق، له «سجع الحمام في مدح خير الأنام» ديوان في المدائح النبوية، و«سفينة الصالحي»، و«سوانح الأفكار والقرائح». {cite:alam-zirikli-dar-al-ilm-2002 vol. 7 p. 123}"
+  en: "Muhammad ibn Najm al-Din ibn Muhammad al-Salihi al-Hilali (956-1012 AH / 1549-1603): a poet and secretary of Damascus, author of Saj' al-Hamam fi Madh Khayr al-Anam, a diwan of praise of the Prophet, of Safinat al-Salihi and of Sawanih al-Afkar wa-l-Qara'ih. {cite:alam-zirikli-dar-al-ilm-2002 vol. 7 p. 123}"
 wings: [people]
 regions: [levant-iraq]
 periods: [period/gunpowder-empires]
 relations:
   - { type: born_in, target: place/damascus, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q3766)" }
   - { type: buried_in, target: place/al-salihiyya, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q4120560)" }
-sources: [source/shadharat-dhahab, source/wikidata]
+  - { type: lived_in, target: place/damascus, note: "al-Zirikli, al-A'lam, vol. 7 p. 123: he was of the people of Damascus", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }
+sources: [source/shadharat-dhahab, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q87740715
   viaf: "9727325"
+born: { edtf: "1549", hijri: "0956", calendar: gregorian, precision: year, derived: false, note: "al-Zirikli, al-A'lam, vol. 7 p. 123, prints 956 AH = 1549 CE", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+died: { edtf: "1603", hijri: "1012", calendar: gregorian, precision: year, derived: false, note: "al-Zirikli, al-A'lam, vol. 7 p. 123, prints 1012 AH = 1603 CE, agreeing with the card", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: Ibn al-Imad, Shadharat al-Dhahab — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0073
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3

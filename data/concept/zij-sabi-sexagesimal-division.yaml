@@ -1,0 +1,20 @@
+id: concept/zij-sabi-sexagesimal-division
+class: concept
+kind: scientific
+label: { ar: "القسمة في الأعداد الستينية", en: "Dividing sexagesimal quantities", ur: "ستینی اعداد کی تقسیم" }
+summary:
+  ar: "يعرّف البتاني القسمة بأنها معرفة ما يكون من أضعاف الأكثر بالأقل إذا عُدّ الأكثر بالأقل وأن يعرف جزء الأقل من الأكثر، ويقرر أن قسمة درجة على درجة تعطي درجة، وأن قسمة الأسفل على الأعلى تعطي جنساً إذا ضُرب في المقسوم عليه عاد إلى المقسوم، وأن قسمة الأعلى على الأسفل تقتضي بسط الأعلى إلى الأسفل ثم القسمة فيخرج درج. {cite:zij-sabi-nallino-byblion pp.15-16}."
+  en: "Al-Battani defines division as knowing how many multiples of the lesser the greater holds when the greater is counted by the lesser, and what part the lesser is of the greater; he sets down that degree divided by degree gives degree, that dividing a lower order by a higher gives the order which, multiplied by the divisor, returns the dividend, and that dividing a higher order by a lower requires extending the higher to the lower and then dividing, which yields degrees. {cite:zij-sabi-nallino-byblion pp.15-16}."
+  ur: "البتانی قسمت کی تعریف کرتے ہیں کہ بڑے کو چھوٹے سے گننے پر بڑے میں چھوٹے کے کتنے اضعاف ہیں یہ معلوم کرنا اور چھوٹے کا بڑے میں جزء معلوم کرنا؛ وہ طے کرتے ہیں کہ درجے کو درجے پر تقسیم کریں تو درجہ ملتا ہے، نچلی جنس کو اوپر والی پر تقسیم کریں تو وہ جنس ملتی ہے جسے مقسوم علیہ سے ضرب دیں تو مقسوم لوٹ آئے، اور اوپر والی کو نچلی پر تقسیم کرنے کے لیے اوپر والی کو نچلی تک پھیلانا اور پھر تقسیم کرنا ہوتا ہے، جس سے درجے نکلتے ہیں۔ {cite:zij-sabi-nallino-byblion pp.15-16}۔"
+wings: [ideas]
+themes: [astronomy-and-timekeeping, mathematics]
+sources: [source/zij-sabi-nallino-byblion]
+relations:
+  - { type: part_of, target: work/al-zij-al-sabi, sources: [source/zij-sabi-nallino-byblion] }
+provenance:
+  layer: own-research
+  source: "al-Zij al-Sabi, introduction and chapters 1 to 4 (scan pages 5 to 23), Arabic text ed. C. A. Nallino (Byblion, Jbeil 2005), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: zij-sabi-1
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }
