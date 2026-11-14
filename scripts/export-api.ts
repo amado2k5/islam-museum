@@ -20,7 +20,7 @@ import { MESSENGERS_TAG, MESSENGER_SECTIONS, MESSENGER_SUBJECTS, MESSENGER_SUBJE
 import { ANSAB_TAG, ANSAB_SECTIONS, ANSAB_SUBJECTS, ANSAB_SUBJECT_SET, ansabTopicsOf, ansabCorpusOf, ansabSectionOf, type AnsabTopic } from "./ansab.js";
 import { QURUN_TAG, QURUN_SECTIONS, QURUN_SUBJECTS, QURUN_SUBJECT_SET, QURUN_TOPIC_KIND, QURUN_TOPIC_SUBJECTS, qurunTopicsOf, qurunCorpusOf, qurunTagSection, type QurunTopic } from "./qurun.js";
 import { MIRACLES_TAG, MIRACLE_SECTIONS, MIRACLE_SUBJECTS, MIRACLE_SUBJECT_SET, MIRACLE_TOPIC_KIND, MIRACLE_TOPIC_SUBJECTS, miracleTopicsOf, miracleCorpusOf, miracleTagSection, type MiracleTopic } from "./miracles.js";
-import { DUA_TAG, duaCorpusOf, duaKindOf, duaSignalsOf, duaTagSection, isDuaPassage, type DuaKind } from "./dua.js";
+import { DUA_TAG, duaCorpusOf, duaKindOf, duaOccasionOf, duaSignalsOf, duaTagSection, isDuaPassage, type DuaKind } from "./dua.js";
 import { AKHLAQ_TAG, akhlaqCorpusOf, akhlaqKindOf, akhlaqKindsOf, akhlaqSignalsOf, akhlaqTagSection, akhlaqTagTopics, akhlaqTopicsOf, akhlaqTracksOf, isAkhlaqPassage, type AkhlaqKind } from "./akhlaq.js";
 import { IBADAT_TAG, ibadatCorpusOf, ibadatKindOf, ibadatSignalsOf, ibadatTagSection, ibadatTopicsOf, isIbadatPassage, type IbadatKind } from "./ibadat.js";
 import { NUBUWAT_TAG, nubuwatCorpusOf, nubuwatTagSection, nubuwatTagTopics, isNubuwatPassage, nubuwatTopicsOf } from "./nubuwat.js";
@@ -289,6 +289,7 @@ const FEATURE_EXPORTS: { file: string; feature: string; pick: (n: Node) => boole
         ? duaCorpusOf(n.data.work as string | undefined, byId?.get(n.data.work as string)?.data.genre as string[] | undefined, n.data.unit as string | undefined)
         : duaTagSection(n),
       dua_kind: n.class === "passage" ? duaKindOf(n) : null,
+      occasion: duaOccasionOf(n),
       signals: n.class === "passage" ? duaSignalsOf(n) : [],
     }) },
   { file: "akhlaq.json", feature: "akhlaq-browser",

@@ -1,0 +1,11 @@
+---
+id: practice/dua-on-hearing-the-adhan
+lang: en
+source_lang: ar
+translators: ["Claude Fable 5.2 (claude-fable-5-2), draft translation"]
+---
+## Summary
+What the hearer of the call to prayer and the iqama says, and the supplication after the call, as al-Nawawi gathers it in al-Adhkar: repeating the muezzin's words, from the two Sahihs; the supplication for the wasila, from Sahih al-Bukhari; and that supplication between the call and the iqama is not turned away. {cite:al-adhkar-nawawi-arnaut-1994 p. 36}
+
+## What al-Nawawi gathers in al-Adhkar
+Al-Nawawi sets out that the hearer says what the muezzin says, except at the two calls «حي على», where he says «لا حول ولا قوة إلا بالله» {cite:al-adhkar-nawawi-arnaut-1994 p. 36}. From the two Sahihs, from Abu Sa'id al-Khudri, he gives the instruction to say as the muezzin says; from Sahih Muslim, from Abd Allah ibn Amr ibn al-As, the instruction then to ask blessing on [[person/muhammad|the Prophet]] and to ask the wasila for him; and from Umar ibn al-Khattab the reply phrase by phrase {cite:al-adhkar-nawawi-arnaut-1994 p. 36} {cite:al-adhkar-nawawi-arnaut-1994 p. 37}. From Sahih Muslim, from Sa'd ibn Abi Waqqas: «أشهد أن لا إله إلا الله وحده لا شريك له، وأن محمدا عبده ورسوله، رضيت بالله ربا، وبمحمد رسولا، وبالإسلام دينا» {cite:al-adhkar-nawawi-arnaut-1994 p. 37}. From Sahih al-Bukhari, from Jabir: «اللهم رب هذه الدعوة التامة والصلاة القائمة، آت محمدا الوسيلة والفضيلة، وابعثه مقاما محمودا الذي وعدته», Lord of this complete call and of the prayer about to be established, grant Muhammad the wasila and the excellence, and raise him to the praised station You promised him {cite:al-adhkar-nawawi-arnaut-1994 p. 37}. He says that someone who hears the call while praying does not answer until he has finished, and likewise someone in the toilet until he comes out {cite:al-adhkar-nawawi-arnaut-1994 p. 38}. In the chapter on supplication after the call he reports from Anas, from the Sunan, that supplication between the call and the iqama is not turned away, quoting al-Tirmidhi's grading of it as good and sound; and from Sunan Abi Dawud, from Sahl ibn Sa'd, by a chain he calls sound, that supplication at the call and in the press of battle is not turned away {cite:al-adhkar-nawawi-arnaut-1994 p. 38}.

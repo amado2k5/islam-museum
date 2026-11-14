@@ -3676,6 +3676,35 @@ dua:
   method_note: "Every record here is an ordinary museum record — with its sources and its three-language prose. Supplications are found at build time by a guarded lexicon over the passage texts — the formulas «اللهم»، «ربنا»، «يا رب» and «ربِ + follower»، the supplication verbs with a divine object, isti'adha and istighfar, and the passages about supplication itself; calls to false gods, the da'wa senses of «دعوة» and «يدعو»، and mere tasbih are left out, verified false positives are excluded by id, and every book harvested later brings its du'as here automatically once its passages land in the graph; curated records join through the dua-browser tag. Each passage is marked formula when it carries a supplication and mention when it is only about one."
   api: "The whole set is available at"
   sections_title: The browser's sections
+  occasions:
+    title: "By occasion"
+    note: "{n} records in {d} of the {t} divisions of al-Nawawi's al-Adhkar, in the book's own order. A division is listed once it holds a record; the rest are still to be read."
+    page_title: "Supplications: {occasion}"
+    lede: "The museum's records on what is said on this occasion, each written from the chapter of al-Nawawi's al-Adhkar it is filed under, with the reports he cites, the books he assigns them to and his own gradings."
+    division: "The division, in al-Nawawi's words:"
+    printed: "begins on p. {p} of the edition read"
+    back: "All occasions"
+    names:
+      day: "The day's remembrances, from waking to sleep"
+      quran: "Reciting the Qur'an"
+      praise: "Praising God"
+      blessing-on-the-prophet: "Asking blessing on the Prophet"
+      passing-matters: "Matters that arise"
+      hardship: "Times of hardship and affliction"
+      illness-and-death: "Illness and death"
+      particular-prayers: "Particular prayers"
+      fasting: "Fasting"
+      hajj: "The pilgrimage"
+      jihad: "The campaign"
+      travel: "Travel"
+      food: "Eating and drinking"
+      greeting: "Greeting, asking leave and sneezing"
+      marriage: "Marriage"
+      names: "Names"
+      miscellany: "Miscellaneous remembrances"
+      guarding-the-tongue: "Guarding the tongue"
+      comprehensive: "Comprehensive supplications"
+      forgiveness: "Seeking forgiveness"
   filter_label: Filter supplications
   filter_none: No matches.
   empty: No supplication records in this build yet.

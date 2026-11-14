@@ -14,7 +14,7 @@ import LampStrings from "../../../components/sig/LampStrings.astro";
 import { ui, LANGS, fmt, type Lang } from "../../../lib/i18n";
 import { byId, href, labelOf, stripNeedsSource } from "../../../lib/graph";
 import { num } from "../../../lib/nav";
-import { duaItems, DUA_SECTIONS, type DuaKind, type DuaSection } from "../../../lib/dua";
+import { duaItems, duaOccasions, duaOccasionTotal, DUA_SECTIONS, type DuaKind, type DuaSection } from "../../../lib/dua";
 import type { Node } from "../../../../scripts/build-graph";
 
 export function getStaticPaths() {
@@ -67,6 +67,20 @@ const searchText = (i: (typeof duaItems)[number]) =>
 
     {paged.landing && <LampStrings lang={lang} />}
     <DraftMark lang={lang} legend />
+    {paged.landing && duaOccasions.length > 0 && (
+      <section aria-labelledby="dua-by-occasion" style="margin-top:2rem">
+        <h2 id="dua-by-occasion">{G.occasions.title}</h2>
+        <p class="muted" style="max-width:var(--measure)">{fmt(G.occasions.note, { n: num(duaOccasions.reduce((a, o) => a + o.items.length, 0), lang), d: num(duaOccasions.length, lang), t: num(duaOccasionTotal, lang) })}</p>
+        <ul role="list" style="list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px">
+          {duaOccasions.map((o) => (
+            <li class="panel" style="padding:14px 16px">
+              <a href={`/${lang}/dua/occasion/${o.id}/`} style="font-weight:600">{G.occasions.names[o.id]}</a> <span class="ui muted">· {num(o.items.length, lang)}</span>
+              <p class="ui muted" style="margin:.2rem 0 0;font-size:.85rem" lang="ar" dir="rtl">{o.title}</p>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
     <section aria-labelledby="sections-title" style="margin-top:2rem">
       <h2 id="sections-title">{G.sections_title}</h2>
       <nav aria-label={G.sections_title} class="ui" style="margin:0 0 1rem">

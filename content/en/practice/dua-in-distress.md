@@ -1,0 +1,11 @@
+---
+id: practice/dua-in-distress
+lang: en
+source_lang: ar
+translators: ["Claude Fable 5.2 (claude-fable-5-2), draft translation"]
+---
+## Summary
+The supplication of distress and at grave matters, as al-Nawawi gathers it in al-Adhkar: Ibn Abbas's report in the two Sahihs, «يا حي يا قيوم برحمتك أستغيث» from al-Tirmidhi's book, the supplications of the distressed from Sunan Abi Dawud, and the supplication of Dhu al-Nun. {cite:al-adhkar-nawawi-arnaut-1994 p. 121}
+
+## What al-Nawawi gathers in al-Adhkar
+Al-Nawawi opens his chapters on remembrances in times of hardship with this one. From the two Sahihs, from Ibn Abbas, he reports that [[person/muhammad|the Prophet]] said in distress: «لا إله إلا الله العظيم الحليم، لا إله إلا الله رب العرش العظيم، لا إله إلا الله رب السموات ورب الأرض رب العرش الكريم», declaring God's oneness as the Great, the Forbearing, Lord of the mighty Throne and of the heavens and the earth; a version in Muslim says he said it whenever a matter weighed on him {cite:al-adhkar-nawawi-arnaut-1994 p. 121}. From al-Tirmidhi's book, from Anas, that when a matter distressed him he said: «يا حي يا قيوم، برحمتك أستغيث», O Living, O Sustainer, by Your mercy I seek help; he quotes al-Hakim's judgement that its chain is sound {cite:al-adhkar-nawawi-arnaut-1994 p. 121}. From Sunan al-Nasa'i and Ibn al-Sunni's book, from Ali, words the Prophet taught him to say when distress or hardship came {cite:al-adhkar-nawawi-arnaut-1994 p. 121}. From Sunan Abi Dawud, from Abu Bakra, the supplications of the distressed: «اللهم رحمتك أرجو فلا تكلني إلى نفسي طرفة عين، وأصلح لي شأني كله، لا إله إلا أنت», Your mercy I hope for, so do not leave me to myself for the blink of an eye, and set right all my affairs {cite:al-adhkar-nawawi-arnaut-1994 p. 122}; and from Asma bint Umays, in the Sunan of Abu Dawud and Ibn Majah: «الله الله ربي لا أشرك به شيئا» {cite:al-adhkar-nawawi-arnaut-1994 p. 122}. From Sa'd ibn Abi Waqqas, in Ibn al-Sunni's book and al-Tirmidhi, he gives the supplication of Dhu al-Nun, which is the verse [[passage/quran-21-87|21:87]] {cite:al-adhkar-nawawi-arnaut-1994 p. 122}. The chapter on what is said when something startles or frightens one follows {cite:al-adhkar-nawawi-arnaut-1994 p. 122}.

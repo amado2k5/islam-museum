@@ -221,7 +221,44 @@ export function duaCorpusOf(workId: string | undefined, genre: string[] | undefi
 
 /** The section tag of a curated record: `dua-<section>` when present, else `curated`. */
 export function duaTagSection(n: Node): DuaSection {
-  const tag = n.tags.find((t) => t.startsWith("dua-") && t !== DUA_TAG);
+  const tag = n.tags.find((t) => t.startsWith("dua-") && t !== DUA_TAG && !t.startsWith("dua-occ"));
   const id = tag?.slice(4) ?? "curated";
   return (DUA_SECTIONS as readonly string[]).includes(id) ? (id as DuaSection) : "curated";
+}
+
+/**
+ * The occasions axis (founder request of 14 November 2026): the divisions of al-Nawawi's al-Adhkar, in the book's own
+ * order, as read on al-Maktaba al-Shamila (book 1956; `screen` is the Shamila page where the division begins, and the
+ * printed page is two higher). A curated record joins a division through the tag `dua-occ-<id>`; nothing is placed by
+ * guesswork, and a division is listed only when it holds a record. `title` is al-Nawawi's heading, copied.
+ */
+export const DUA_OCCASIONS = [
+  { id: "day", title: "أبواب", screen: 13 },
+  { id: "quran", title: "كتاب تلاوة القرآن", screen: 99 },
+  { id: "praise", title: "كتاب حمد الله تعالى", screen: 109 },
+  { id: "blessing-on-the-prophet", title: "كتاب الصلاة على رسول الله", screen: 112 },
+  { id: "passing-matters", title: "كتاب الأذكار والدعوات للأمور العارضات", screen: 117 },
+  { id: "hardship", title: "أبواب الأذكار التي تقال في أوقات الشدة وعلى العاهات", screen: 119 },
+  { id: "illness-and-death", title: "كتاب أذكار المرض والموت وما يتعلق بهما", screen: 130 },
+  { id: "particular-prayers", title: "كتاب الأذكار في صلوات مخصوصة", screen: 167 },
+  { id: "fasting", title: "كتاب أذكار الصيام", screen: 186 },
+  { id: "hajj", title: "كتاب أذكار الحج", screen: 189 },
+  { id: "jihad", title: "كتاب أذكار الجهاد", screen: 204 },
+  { id: "travel", title: "كتاب أذكار المسافر", screen: 212 },
+  { id: "food", title: "كتاب أذكار الأكل والشرب", screen: 226 },
+  { id: "greeting", title: "كتاب السلام والاستئذان وتشميت العاطس وما يتعلق بها", screen: 239 },
+  { id: "marriage", title: "كتاب أذكار النكاح وما يتعلق به", screen: 279 },
+  { id: "names", title: "كتاب الأسماء", screen: 284 },
+  { id: "miscellany", title: "كتاب الأذكار المتفرقة", screen: 295 },
+  { id: "guarding-the-tongue", title: "كتاب حفظ اللسان", screen: 330 },
+  { id: "comprehensive", title: "كتاب جامع الدعوات", screen: 385 },
+  { id: "forgiveness", title: "كتاب الاستغفار", screen: 400 },
+] as const;
+export type DuaOccasion = (typeof DUA_OCCASIONS)[number]["id"];
+const OCC_PREFIX = "dua-occ-";
+/** The al-Adhkar division a record is filed under, from its `dua-occ-<id>` tag; null when it carries none. */
+export function duaOccasionOf(n: Node): DuaOccasion | null {
+  const t = n.tags.find((x) => x.startsWith(OCC_PREFIX));
+  const id = t?.slice(OCC_PREFIX.length);
+  return DUA_OCCASIONS.some((o) => o.id === id) ? (id as DuaOccasion) : null;
 }

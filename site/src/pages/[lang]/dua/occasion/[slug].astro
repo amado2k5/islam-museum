@@ -1,0 +1,51 @@
+---
+// One occasion of the Du'a Browser's occasions axis: a division of al-Nawawi's al-Adhkar, with the museum's records
+// filed under it (the tag `dua-occ-<id>`; scripts/dua.ts). The page names the division in al-Nawawi's own words and
+// says where it begins in the edition read, so the arrangement can be checked against the book.
+import BaseLayout from "../../../../layouts/BaseLayout.astro";
+import DraftMark from "../../../../components/DraftMark.astro";
+import { ui, LANGS, fmt, type Lang } from "../../../../lib/i18n";
+import { byId, href, labelOf, stripNeedsSource } from "../../../../lib/graph";
+import { num } from "../../../../lib/nav";
+import { duaOccasions } from "../../../../lib/dua";
+
+export function getStaticPaths() { return LANGS.flatMap((lang) => duaOccasions.map((o) => ({ params: { lang, slug: o.id }, props: { lang, slug: o.id } }))); }
+const { lang, slug } = Astro.props as { lang: Lang; slug: string };
+const T = ui(lang);
+const G = (T as any).dua;
+const o = duaOccasions.find((x) => x.id === slug)!;
+const name = G.occasions.names[o.id];
+const title = fmt(G.occasions.page_title, { occasion: name });
+const adhkar = byId.get("work/al-adhkar-al-muntakhab");
+const summary = (n: any) => stripNeedsSource(n.summary?.[lang] ?? n.summary?.ar ?? n.summary?.en ?? "").replace(/\s*\{cite:[^}]*\}/g, "").replace(/\s+([.,؛،])/g, "$1");
+const at = duaOccasions.findIndex((x) => x.id === slug);
+const prev = duaOccasions[at - 1], next = duaOccasions[at + 1];
+---
+<BaseLayout lang={lang} title={title} description={G.occasions.lede} path={`/${lang}/dua/occasion/${slug}/`}>
+  <div class="wrap" style="padding-block:10px 24px">
+    <nav class="ui muted" aria-label={T.entity.breadcrumb} style="margin:0 0 .6rem"><a href={`/${lang}/`}>{T.entity.breadcrumb}</a> › <a href={`/${lang}/dua/`}>{G.title}</a> › {name}</nav>
+    <section data-pagefind-body>
+      <h1>{title} <span class="ui muted">· {num(o.items.length, lang)}</span></h1>
+      <p style="max-width:var(--measure)">{G.occasions.lede}</p>
+      <p class="panel ui" style="max-width:var(--measure)">
+        {G.occasions.division} <bdi lang="ar" dir="rtl">«{o.title}»</bdi>{adhkar && <> · <a href={href(lang, adhkar.id)}>{labelOf(adhkar, lang)}</a></>} · <a href={`https://shamela.ws/book/1956/${o.screen}`} rel="noopener external">{fmt(G.occasions.printed, { p: num(o.screen + 2, lang) })}</a>
+      </p>
+      <DraftMark lang={lang} legend />
+    </section>
+    <section data-pagefind-ignore>
+      <ol role="list" style="list-style:none;padding:0;margin:1rem 0 0;display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px">
+        {o.items.map((i) => (
+          <li class="panel" style="padding:14px 16px">
+            <a href={href(lang, i.node.id)} style="font-weight:600">{labelOf(i.node, lang)}</a><DraftMark lang={lang} node={i.node} />
+            <p class="muted" style="margin:.3rem 0 0;font-size:.92rem" dir="auto">{summary(i.node)}</p>
+          </li>
+        ))}
+      </ol>
+    </section>
+    <nav class="ui" aria-label={G.occasions.title} style="display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px;margin:1.4rem 0 0">
+      <span>{prev && <a href={`/${lang}/dua/occasion/${prev.id}/`}>‹ {G.occasions.names[prev.id]}</a>}</span>
+      <a href={`/${lang}/dua/#dua-by-occasion`}>{G.occasions.back}</a>
+      <span>{next && <a href={`/${lang}/dua/occasion/${next.id}/`}>{G.occasions.names[next.id]} ›</a>}</span>
+    </nav>
+  </div>
+</BaseLayout>
