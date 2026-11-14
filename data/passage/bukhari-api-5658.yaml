@@ -1,0 +1,16 @@
+id: passage/bukhari-api-5658
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "5658"
+label: { ar: "صحيح البخاري 5658 — المرض والمريض، عيادة المريض", en: "Sahih al-Bukhari 5658 — illness and the sick; visiting the sick", ur: "صحیح بخاری 5658 — بیماری اور بیمار، بیمار کی عیادت" }
+text: "… الْمُثَنَّى، حَدَّثَنَا يَحْيَى، حَدَّثَنَا هِشَامٌ، قَالَ أَخْبَرَنِي أَبِي، عَنْ عَائِشَةَا ـ أَنَّ النَّبِيَّ دَخَلَ عَلَيْهِ نَاسٌ يَعُودُونَهُ فِي مَرَضِهِ فَصَلَّى بِهِمْ جَالِسًا فَجَعَلُوا يُصَلُّونَ قِيَامًا، فَأَشَارَ إِلَيْهِمِ اجْلِسُوا، فَلَمَّا فَرَغَ قَالَ \" إِنَّ الإِمَامَ لَيُؤْتَمُّ بِهِ، فَإِذَا رَكَعَ فَارْكَعُوا وَإِذَا رَفَعَ فَارْفَعُوا، وَإِنْ صَلَّى جَالِسًا فَصَلُّوا جُلُوسًا \". قَالَ أَبُو عَبْدِ اللَّهِ قَالَ الْحُمَيْدِيُّ هَذَا …"
+summary:
+  ar: "حديث في صحيح البخاري، رقم 5658، يذكر المرض والمريض، وعيادة المريض. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih al-Bukhari, no. 5658 (Patients), that mentions illness and the sick, visiting the sick. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح بخاری کی حدیث نمبر 5658، جس میں بیماری اور بیمار، بیمار کی عیادت کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 5658 (book 75 hadith 18); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

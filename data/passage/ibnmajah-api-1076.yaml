@@ -1,0 +1,16 @@
+id: passage/ibnmajah-api-1076
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "1076"
+label: { ar: "سنن ابن ماجه 1076 — العقاقير والصيدلة", en: "Sunan Ibn Majah 1076 — drugs and pharmacy", ur: "سنن ابن ماجہ 1076 — ادویہ اور دواسازی" }
+text: "حَدَّثَنَا أَبُو يُوسُفَ الصَّيْدَلاَنِيُّ، مُحَمَّدُ بْنُ أَحْمَدَ الرَّقِّيُّ حَدَّثَنَا مُحَمَّدُ بْنُ سَلَمَةَ، عَنْ مُحَمَّدِ بْنِ إِسْحَاقَ، عَنِ الزُّهْرِيِّ، عَنْ عُبَيْدِ اللَّهِ بْنِ عَبْدِ اللَّهِ بْنِ عُتْبَةَ، عَنِ ابْنِ عَبَّاسٍ، أَنَّ رَسُولَ اللَّهِ ـ أَقَامَ بِمَكَّةَ عَامَ الْفَتْحِ خَمْسَ عَشْرَةَ لَيْلَةً يَقْصُرُ الصَّلاَةَ."
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 1076، يذكر العقاقير والصيدلة. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan Ibn Majah, no. 1076 (Establishing the Prayer and the Sunnah Regarding Them), that mentions drugs and pharmacy. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 1076، جس میں ادویہ اور دواسازی کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-adwiya-al-mufrada, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 1076 (book 5 hadith 274); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

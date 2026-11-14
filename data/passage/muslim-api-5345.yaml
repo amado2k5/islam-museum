@@ -1,0 +1,17 @@
+id: passage/muslim-api-5345
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "5345"
+label: { ar: "صحيح مسلم 5345 — الكمأة، الشفاء", en: "Sahih Muslim 5345 — truffles and their water for the eye; healing", ur: "صحیح مسلم 5345 — کھمبی، شفا" }
+text: "حَدَّثَنَا سَعِيدُ بْنُ عَمْرٍو الأَشْعَثِيُّ، أَخْبَرَنَا عَبْثَرٌ، عَنْ مُطَرِّفٍ، عَنِ الْحَكَمِ، عَنِ الْحَسَنِ، عَنْ عَمْرِو بْنِ حُرَيْثٍ، عَنْ سَعِيدِ بْنِ زَيْدِ بْنِ عَمْرِو بْنِ نُفَيْلٍ، قَالَ قَالَ رَسُولُ اللَّهِ \" الْكَمْأَةُ مِنَ الْمَنِّ الَّذِي أَنْزَلَ اللَّهُ تَبَارَكَ وَتَعَالَى عَلَى بَنِي إِسْرَائِيلَ وَمَاؤُهَا شِفَاءٌ لِلْعَيْنِ \"."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 5345، يذكر الكمأة، والشفاء. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih Muslim, no. 5345 (The Book of Drinks), that mentions truffles and their water for the eye, healing. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح مسلم کی حدیث نمبر 5345، جس میں کھمبی، شفا کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/tadawi, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 5345 (book 36 hadith 219); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

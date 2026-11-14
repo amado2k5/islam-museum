@@ -1,0 +1,26 @@
+id: concept/al-humma
+class: concept
+kind: scientific
+label:
+  ar: "الحمى"
+  en: "Fever (al-humma)"
+  ur: "بخار ⁦(الحمّى)⁩"
+summary:
+  ar: "في الصحيحين قول النبي: «الحمى من فيح جهنم، فأبردوها بالماء» {cite:sahih-al-bukhari 3264}، وفي رواية ابن عباس شك في «بماء زمزم» {cite:sahih-al-bukhari 3261}. ويفهم ابن قيم الجوزية هذا الخطاب خاصاً بأهل الحجاز وما والاهم، لأن أكثر حمياتهم عرضية حادثة عن حرارة الشمس ينفعها الماء البارد {cite:zad-al-maad p.597}، ويوضح معنى «فيح جهنم» بوجهين {cite:zad-al-maad p.598}. وفي ابن ماجه أن رجلاً سبّ الحمى فقال النبي: «لا تسبها فإنها تنفي الذنوب كما تنفي النار خبث الحديد» {cite:sunan-ibn-majah 3469}."
+  en: "In the two Sahih collections the Prophet says 'fever is from the heat of Hell; cool it with water' {cite:sahih-al-bukhari 3264}, and in Ibn Abbas's version there is doubt whether the words were 'with the water of Zamzam' {cite:sahih-al-bukhari 3261}. Ibn Qayyim al-Jawziyya understands this address as specific to the people of the Hijaz and their neighbours, since most of their fevers are accidental, caused by the sun's heat, and cold water helps them {cite:zad-al-maad p.597}; he gives two readings of 'the heat of Hell' {cite:zad-al-maad p.598}. In Ibn Majah a man cursed the fever and the Prophet said 'do not curse it, for it removes sins as fire removes the dross of iron' {cite:sunan-ibn-majah 3469}."
+  ur: "صحیحین میں نبی کا فرمان ہے: «بخار جہنم کی لپٹ سے ہے، اسے پانی سے ٹھنڈا کرو» {cite:sahih-al-bukhari 3264}، اور ابن عباس کی روایت میں اس بارے میں شک ہے کہ الفاظ «آبِ زمزم سے» تھے یا نہیں {cite:sahih-al-bukhari 3261}۔ ابن قیم الجوزیہ اس خطاب کو اہلِ حجاز اور ان کے پڑوسیوں کے لیے خاص سمجھتے ہیں، کیونکہ ان کے بیشتر بخار عارضی ہوتے ہیں جو سورج کی گرمی سے پیدا ہوتے ہیں اور ٹھنڈا پانی انھیں فائدہ دیتا ہے {cite:zad-al-maad p.597}؛ وہ «جہنم کی لپٹ» کے دو مفہوم بیان کرتے ہیں {cite:zad-al-maad p.598}۔ ابن ماجہ میں ہے کہ ایک شخص نے بخار کو برا بھلا کہا تو نبی نے فرمایا: «اسے برا نہ کہو، کیونکہ یہ گناہوں کو یوں دور کرتا ہے جیسے آگ لوہے کے میل کو دور کرتی ہے» {cite:sunan-ibn-majah 3469}۔"
+wings: [ideas]
+themes: [health-body-death]
+regions: [global]
+tags: [tibb-browser, tibb-tibb]
+sources: [source/zad-al-maad, source/sahih-al-bukhari, source/sunan-ibn-majah, source/muwatta-maruf-1997]
+relations:
+  - { type: part_of, target: concept/al-tibb-al-nabawi, note: "The first of the natural remedies Ibn al-Qayyim takes up in the Tibb Nabawi chapters.", sources: [source/zad-al-maad] }
+  - { type: related_to, target: concept/sabr, note: "The reports link fever to expiation of sins and the sick person's patience.", sources: [source/zad-al-maad] }
+provenance:
+  layer: own-research
+  source: "Zad al-Ma'ad by Ibn Qayyim al-Jawziyya, Tibb Nabawi chapters; OCR scan folder zad-maad/20200822_20200822_1205 (1120 pages), scan pages 597-600; hadith wording checked against the hadith-api Arabic editions (hadith numbers are those of that edition); passages linked from the graph."
+  generated_by: "Claude (claude-sonnet-5-5)"
+  model: claude-sonnet-5-5
+  run: tibb-browser-curated-1
+status: { review: draft, completeness: 2, generated_by: "Claude (claude-sonnet-5-5)" }

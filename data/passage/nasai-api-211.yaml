@@ -1,0 +1,16 @@
+id: passage/nasai-api-211
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "211"
+label: { ar: "سنن النسائي 211 — أعضاء البدن", en: "Sunan al-Nasa'i 211 — the organs of the body", ur: "سنن نسائی 211 — اعضائے بدن" }
+text: "… أَبِي حُبَيْشٍ، حَدَّثَتْ أَنَّهَا، أَتَتْ رَسُولَ اللَّهِ فَشَكَتْ إِلَيْهِ الدَّمَ فَقَالَ لَهَا رَسُولُ اللَّهِ \" إِنَّمَا ذَلِكِ عِرْقٌ فَانْظُرِي إِذَا أَتَاكِ قُرْؤُكِ فَلاَ تُصَلِّي فَإِذَا مَرَّ قُرْؤُكِ فَتَطَهَّرِي ثُمَّ صَلِّي مَا بَيْنَ الْقُرْءِ إِلَى الْقُرْءِ \" هَذَا الدَّلِيلُ عَلَى أَنَّ الأَقْرَاءَ حِيَضٌ. قَالَ أَبُو عَبْدِ الرَّحْمَنِ وَقَدْ رَوَى هَذَا الْحَدِيثَ هِشَامُ بْنُ عُرْوَةَ عَنْ عُرْوَةَ …"
+summary:
+  ar: "حديث في سنن النسائي، رقم 211، يذكر أعضاء البدن. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan al-Nasa'i, no. 211 (The Book of Purification), that mentions the organs of the body. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن نسائی کی حدیث نمبر 211، جس میں اعضائے بدن کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/anatomy, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 211 (book 1 hadith 212); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

@@ -917,6 +917,27 @@
         }
       }
     },
+    "/tibb.json": {
+      "get": {
+        "summary": "Medicine Browser — prophetic medicine, medicine, anatomy, surgery, drugs and treatment dataset",
+        "description": "The Medicine Browser dataset (متصفح الطب النبوي والطب والتشريح والجراحة والدواء والتداوي في الإسلام): everything the museum's sources mention about prophetic medicine, medicine and illness, anatomy, surgery, drugs and the seeking of treatment in the Qur'an, Sunnah, seerah, Companion and Tabi'in reports, the medical classics and every harvested book — passages detected at build time by a guarded lexicon (scripts/tibb.ts) plus the curated tibb-browser records (physicians, hospitals, medical books, remedies, rulings). Each item carries section (quran, sunnah, seerah, books, curated), topics (nabawi, tibb, tashrih, jiraha, dawa, tadawi), matched signals, work, ref and edges.",
+        "responses": {
+          "200": {
+            "description": "Medicine dataset",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "tags": [
+          "tibb"
+        ]
+      }
+    },
     "/usra.json": {
       "get": {
         "summary": "Usra Browser — Family and Marriages dataset",

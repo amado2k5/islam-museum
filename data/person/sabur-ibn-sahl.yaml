@@ -8,5 +8,6 @@ wings: [people]
 died: { edtf: "869", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Sabur b. Sahl)" }
 relations:
   - { type: lived_in, target: place/jundishapur, sources: [source/fihrist-ibn-al-nadim] }
+tags: [tibb-browser, tibb-tibb]
 sources: [source/fihrist-ibn-al-nadim]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

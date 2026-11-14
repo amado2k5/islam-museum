@@ -1,0 +1,18 @@
+id: passage/hawi-razi-tibb-21
+class: passage
+unit: chapter
+work: work/al-hawi-fi-al-tibb
+ref: "21"
+label: { ar: "الحاوي في الطب للرازي، ص 21 — الطب والطبيب، المرض والمريض", en: "al-Razi's al-Hawi fi al-Tibb, p. 21 — medicine and the physician; illness and the sick", ur: "الحاوی فی الطب، رازی، ص 21 — طب اور طبیب، بیماری اور بیمار" }
+text: "أمراض الرأس في السكتة والفالج والخدر والرحشة... الخ قليلٍ، وإذا أمكن فليكن أول علاجك الفصد كما فعل حذّاق الأطبّاء فإنك تخفّف بذلك عن جملة البدن، والحمى دواءً عجيبٌ له لأنها تسخّن وتذهب البلغم. لي أبلغ علاجه الجوع والاستفراغ والسهر والحركة. …"
+summary:
+  ar: "مقطع من الحاوي في الطب للرازي، ص 21، يذكر الطب والطبيب، والمرض والمريض، وأسماء الأمراض، والبيمارستان وصناعة الطب، والعلاج، والجراحة والختان والجبائر، والدواء؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from al-Razi's al-Hawi fi al-Tibb, p. 21, that mentions medicine and the physician, illness and the sick, named diseases, the hospital and the medical craft, treatment, surgery, circumcision and splints, the drug; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "الحاوی فی الطب، رازی، ص 21 کا اقتباس جس میں طب اور طبیب، بیماری اور بیمار، بیماریوں کے نام، بیمارستان، علاج، جراحت، ختنہ اور پٹیاں، دوا کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/hawi-razi-dar-kutub-ilmiyya] }
+  - { type: mentions, target: concept/al-jiraha, sources: [source/hawi-razi-dar-kutub-ilmiyya] }
+  - { type: mentions, target: concept/al-adwiya-al-mufrada, sources: [source/hawi-razi-dar-kutub-ilmiyya] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan medicine-science/hawi-razi/hawi-razi, page 21; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/hawi-razi-dar-kutub-ilmiyya]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

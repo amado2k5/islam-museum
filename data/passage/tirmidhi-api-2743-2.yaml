@@ -1,0 +1,16 @@
+id: passage/tirmidhi-api-2743-2
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "2743.2"
+label: { ar: "جامع الترمذي 2743.2 — أسماء الأمراض", en: "Jami' al-Tirmidhi 2743.2 — named diseases", ur: "جامع ترمذی 2743.2 — بیماریوں کے نام" }
+text: "حَدَّثَنَا مُحَمَّدُ بْنُ بَشَّارٍ، حَدَّثَنَا يَحْيَى بْنُ سَعِيدٍ، حَدَّثَنَا عِكْرِمَةُ بْنُ عَمَّارٍ، عَنْ إِيَاسِ بْنِ سَلَمَةَ، عَنْ أَبِيهِ، عَنِ النَّبِيِّ نَحْوَهُ إِلاَّ أَنَّهُ قَالَ لَهُ فِي الثَّالِثَةِ \" أَنْتَ مَزْكُومٌ \". قَالَ هَذَا أَصَحُّ مِنْ حَدِيثِ ابْنِ الْمُبَارَكِ."
+summary:
+  ar: "حديث في جامع الترمذي، رقم 2743.2، يذكر أسماء الأمراض. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Jami' al-Tirmidhi, no. 2743.2 (Chapters on Manners), that mentions named diseases. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "جامع ترمذی کی حدیث نمبر 2743.2، جس میں بیماریوں کے نام کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 2743.2 (book 43 hadith 11); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

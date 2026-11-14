@@ -1,0 +1,16 @@
+id: passage/muslim-api-5731
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "5731"
+label: { ar: "صحيح مسلم 5731 — الرقية", en: "Sahih Muslim 5731 — ruqya recited over the sick", ur: "صحیح مسلم 5731 — رقیہ" }
+text: "… أَبُو مُعَاوِيَةَ، حَدَّثَنَا الأَعْمَشُ، عَنْ أَبِي سُفْيَانَ، عَنْ جَابِرٍ، قَالَ نَهَى رَسُولُ اللَّهِ عَنِ الرُّقَى فَجَاءَ آلُ عَمْرِو بْنِ حَزْمٍ إِلَى رَسُولِ اللَّهِ فَقَالُوا يَا رَسُولَ اللَّهِ إِنَّهُ كَانَتْ عِنْدَنَا رُقْيَةٌ نَرْقِي بِهَا مِنَ الْعَقْرَبِ وَإِنَّكَ نَهَيْتَ عَنِ الرُّقَى. قَالَ فَعَرَضُوهَا عَلَيْهِ. فَقَالَ \" مَا أَرَى بَأْسًا مَنِ اسْتَطَاعَ مِنْكُمْ أَنْ يَنْفَعَ أَخَاهُ فَلْيَنْفَعْهُ \"."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 5731، يذكر الرقية. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih Muslim, no. 5731 (The Book of Greetings), that mentions ruqya recited over the sick. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح مسلم کی حدیث نمبر 5731، جس میں رقیہ کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 5731 (book 39 hadith 85); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

@@ -1,0 +1,16 @@
+id: passage/muwatta-api-1292
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "1292"
+label: { ar: "موطأ مالك 1292 — الجذام والبرص", en: "Muwatta Malik 1292 — leprosy and vitiligo", ur: "موطأ مالک 1292 — جذام اور برص" }
+text: "… الثَّلاَثَةِ مِنْ حِينِ يُشْتَرَيَانِ حَتَّى تَنْقَضِيَ الأَيَّامُ الثَّلاَثَةُ فَهُوَ مِنَ الْبَائِعِ وَإِنَّ عُهْدَةَ السَّنَةِ مِنَ الْجُنُونِ وَالْجُذَامِ وَالْبَرَصِ فَإِذَا مَضَتِ السَّنَةُ فَقَدْ بَرِئَ الْبَائِعُ مِنَ الْعُهْدَةِ كُلِّهَا. قَالَ مَالِكٌ وَمَنْ بَاعَ عَبْدًا أَوْ وَلِيدَةً مِنْ أَهْلِ الْمِيرَاثِ أَوْ غَيْرِهِمْ بِالْبَرَاءَةِ فَقَدْ بَرِئَ مِنْ كُلِّ عَيْبٍ وَلاَ عُهْدَةَ عَلَيْهِ إِلاَّ أَنْ يَكُونَ عَلِمَ عَيْبًا فَكَتَمَهُ فَإِنْ …"
+summary:
+  ar: "حديث في موطأ مالك، رقم 1292، يذكر الجذام والبرص. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Muwatta Malik, no. 1292 (Business Transactions), that mentions leprosy and vitiligo. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "موطأ مالک کی حدیث نمبر 1292، جس میں جذام اور برص کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 1292 (book 31 hadith 3); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/muwatta-malik, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

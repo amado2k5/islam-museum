@@ -1,0 +1,17 @@
+id: passage/bukhari-api-5689
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "5689"
+label: { ar: "صحيح البخاري 5689 — التلبينة، المرض والمريض", en: "Sahih al-Bukhari 5689 — talbina (barley gruel); illness and the sick", ur: "صحیح بخاری 5689 — تلبینہ، بیماری اور بیمار" }
+text: "حَدَّثَنَا حِبَّانُ بْنُ مُوسَى، أَخْبَرَنَا عَبْدُ اللَّهِ، أَخْبَرَنَا يُونُسُ بْنُ يَزِيدَ، عَنْ عُقَيْلٍ، عَنِ ابْنِ شِهَابٍ، عَنْ عُرْوَةَ، عَنْ عَائِشَةَا ـ أَنَّهَا كَانَتْ تَأْمُرُ بِالتَّلْبِينِ لِلْمَرِيضِ وَلِلْمَحْزُونِ عَلَى الْهَالِكِ، وَكَانَتْ تَقُولُ إِنِّي سَمِعْتُ رَسُولَ اللَّهِ يَقُولُ \" إِنَّ التَّلْبِينَةَ تُجِمُّ فُؤَادَ الْمَرِيضِ، وَتَذْهَبُ بِبَعْضِ الْحُزْنِ \"."
+summary:
+  ar: "حديث في صحيح البخاري، رقم 5689، يذكر التلبينة، والمرض والمريض. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih al-Bukhari, no. 5689 (Medicine), that mentions talbina (barley gruel), illness and the sick. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح بخاری کی حدیث نمبر 5689، جس میں تلبینہ، بیماری اور بیمار کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/medicine, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 5689 (book 76 hadith 12); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

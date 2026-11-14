@@ -1,0 +1,16 @@
+id: passage/muslim-api-5714
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "5714"
+label: { ar: "صحيح مسلم 5714 — مرض النبي، المرض والمريض", en: "Sahih Muslim 5714 — the Prophet's illness; illness and the sick", ur: "صحیح مسلم 5714 — نبی کی بیماری، بیماری اور بیمار" }
+text: "… سُرَيْجُ بْنُ يُونُسَ، وَيَحْيَى بْنُ أَيُّوبَ، قَالاَ حَدَّثَنَا عَبَّادُ بْنُ عَبَّادٍ، عَنْ هِشَامِ، بْنِ عُرْوَةَ عَنْ أَبِيهِ، عَنْ عَائِشَةَ، قَالَتْ كَانَ رَسُولُ اللَّهِ إِذَا مَرِضَ أَحَدٌ مِنْ أَهْلِهِ نَفَثَ عَلَيْهِ بِالْمُعَوِّذَاتِ فَلَمَّا مَرِضَ مَرَضَهُ الَّذِي مَاتَ فِيهِ جَعَلْتُ أَنْفُثُ عَلَيْهِ وَأَمْسَحُهُ بِيَدِ نَفْسِهِ لأَنَّهَا كَانَتْ أَعْظَمَ بَرَكَةً مِنْ يَدِي. وَفِي رِوَايَةِ يَحْيَى بْنِ أَيُّوبَ بِمُعَوِّذَاتٍ."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 5714، يذكر مرض النبي، والمرض والمريض. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih Muslim, no. 5714 (The Book of Greetings), that mentions the Prophet's illness, illness and the sick. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح مسلم کی حدیث نمبر 5714، جس میں نبی کی بیماری، بیماری اور بیمار کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 5714 (book 39 hadith 68); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

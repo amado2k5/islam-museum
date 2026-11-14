@@ -1,0 +1,18 @@
+id: passage/muslim-api-5766
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "5766"
+label: { ar: "صحيح مسلم 5766 — الحبة السوداء، الداء", en: "Sahih Muslim 5766 — the black seed; the disease and its remedy", ur: "صحیح مسلم 5766 — کلونجی، بیماری" }
+text: "حَدَّثَنَا مُحَمَّدُ بْنُ رُمْحِ بْنِ الْمُهَاجِرِ، أَخْبَرَنَا اللَّيْثُ، عَنْ عُقَيْلٍ، عَنِ ابْنِ شِهَابٍ، أَخْبَرَنِي أَبُو سَلَمَةَ بْنُ عَبْدِ الرَّحْمَنِ، وَسَعِيدُ بْنُ الْمُسَيَّبِ، أَنَّ أَبَا هُرَيْرَةَ، أَخْبَرَهُمَا أَنَّهُ، سَمِعَ رَسُولَ اللَّهِ يَقُولُ \" إِنَّ فِي الْحَبَّةِ السَّوْدَاءِ شِفَاءً مِنْ كُلِّ دَاءٍ إِلاَّ السَّامَ \". وَالسَّامُ الْمَوْتُ. وَالْحَبَّةُ السَّوْدَاءُ الشُّونِيزُ."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 5766، يذكر الحبة السوداء، والداء، والشفاء. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih Muslim, no. 5766 (The Book of Greetings), that mentions the black seed, the disease and its remedy, healing. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح مسلم کی حدیث نمبر 5766، جس میں کلونجی، بیماری، شفا کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-adwiya-al-mufrada, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/tadawi, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 5766 (book 39 hadith 118); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

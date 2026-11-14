@@ -1,0 +1,16 @@
+id: passage/muslim-api-5790
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "5790"
+label: { ar: "صحيح مسلم 5790 — العدوى", en: "Sahih Muslim 5790 — contagion", ur: "صحیح مسلم 5790 — چھوت" }
+text: "… الرَّحْمَنِ الدَّارِمِيُّ، أَخْبَرَنَا أَبُو الْيَمَانِ، عَنْ شُعَيْبٍ، عَنِ الزُّهْرِيِّ، أَخْبَرَنِي سِنَانُ بْنُ أَبِي سِنَانٍ الدُّؤَلِيُّ، أَنَّ أَبَا هُرَيْرَةَ، قَالَ قَالَ النَّبِيُّ \" لاَ عَدْوَى \". فَقَامَ أَعْرَابِيٌّ. فَذَكَرَ بِمِثْلِ حَدِيثِ يُونُسَ وَصَالِحٍ. وَعَنْ شُعَيْبٍ عَنِ الزُّهْرِيِّ قَالَ حَدَّثَنِي السَّائِبُ بْنُ يَزِيدَ ابْنُ أُخْتِ نَمِرٍ أَنَّ النَّبِيَّ قَالَ \" لاَ عَدْوَى وَلاَ صَفَرَ وَلاَ هَامَةَ \"."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 5790، يذكر العدوى. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih Muslim, no. 5790 (The Book of Greetings), that mentions contagion. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح مسلم کی حدیث نمبر 5790، جس میں چھوت کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 5790 (book 39 hadith 142); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

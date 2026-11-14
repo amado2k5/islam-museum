@@ -1,0 +1,18 @@
+id: passage/qanun-v3-tibb-21
+class: passage
+unit: chapter
+work: work/al-qanun-fi-al-tibb
+ref: "21"
+label: { ar: "القانون في الطب لابن سينا ج3، ص 21 — الحمى والوعك، أسماء الأمراض", en: "Ibn Sina's Canon of Medicine, vol. 3, p. 21 — fever; named diseases", ur: "القانون فی الطب، ابن سینا ج3، ص 21 — بخار، بیماریوں کے نام" }
+text: "… حمّيات تتبع الحمرة وهذه الحمّيات تتعقبها نداوة تنثر عن البدن، ويكون النبض فيها عظيماً سريعاً متواتراً للامتلاء والحرارة، ويكون البول مائياً أبيض لميلان المواد إلى الأورام، والقروح. المعالجات: يجب أن يتقدّم فيها بالفصد والإسهال، ويداوى الورم بما يجب في بابه، …"
+summary:
+  ar: "مقطع من القانون في الطب لابن سينا ج3، ص 21، يذكر الحمى والوعك، وأسماء الأمراض، والبيمارستان وصناعة الطب، والجراحة والختان والجبائر، والتداوي؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from Ibn Sina's Canon of Medicine, vol. 3, p. 21, that mentions fever, named diseases, the hospital and the medical craft, surgery, circumcision and splints, seeking treatment; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "القانون فی الطب، ابن سینا ج3، ص 21 کا اقتباس جس میں بخار، بیماریوں کے نام، بیمارستان، جراحت، ختنہ اور پٹیاں، علاج کرانا کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/canon-ibn-sina-print-v3] }
+  - { type: mentions, target: concept/al-jiraha, sources: [source/canon-ibn-sina-print-v3] }
+  - { type: mentions, target: concept/tadawi, sources: [source/canon-ibn-sina-print-v3] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan medicine-science/canon-ibn-sina-print-v3/canon-ibn-sina-print-v3, page 21; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/canon-ibn-sina-print-v3]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

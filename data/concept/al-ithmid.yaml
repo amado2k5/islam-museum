@@ -1,0 +1,26 @@
+id: concept/al-ithmid
+class: concept
+kind: scientific
+label:
+  ar: "الإثمد والكحل"
+  en: "Ithmid and kohl (al-ithmid wa-l-kuhl)"
+  ur: "اثمد اور سرمہ"
+summary:
+  ar: "الإثمد حجر الكحل الأسود، ويقول ابن قيم الجوزية إن أفضله ما يؤتى به من أصبهان {cite:zad-al-maad p.695}. وروى أبو داود أن النبي أمر بالإثمد المروح عند النوم وقال: «ليتقه الصائم» {cite:sunan-abi-dawud 2377}، وروى ابن ماجه «عليكم بالإثمد فإنه يجلو البصر وينبت الشعر» {cite:sunan-ibn-majah 3495}. ويذكر ابن القيم عدد الاكتحال: ثلاثاً في كل عين، أو ثلاثاً في اليمنى واثنتين في اليسرى، ويحكي في الوتر قولين في مذهب أحمد وغيره {cite:zad-al-maad p.695} {cite:zad-al-maad p.696}."
+  en: "Ithmid is the black stone of kohl, and Ibn Qayyim al-Jawziyya says the best comes from Isfahan {cite:zad-al-maad p.695}. Abu Dawud reports that the Prophet ordered scented ithmid at bedtime and said 'let the fasting person avoid it' {cite:sunan-abi-dawud 2377}, and Ibn Majah reports 'hold to ithmid, for it clears the sight and makes the hair grow' {cite:sunan-ibn-majah 3495}. Ibn al-Qayyim gives the number of applications: three in each eye, or three in the right and two in the left, and records two views on the odd number in Ahmad's school and others {cite:zad-al-maad p.695} {cite:zad-al-maad p.696}."
+  ur: "اثمد سرمے کا کالا پتھر ہے، اور ابن قیم الجوزیہ کہتے ہیں کہ بہترین وہ ہے جو اصفہان سے آتا ہے {cite:zad-al-maad p.695}۔ ابو داود میں ہے کہ نبی نے سونے کے وقت خوشبو ملا اثمد لگانے کا حکم دیا اور فرمایا: «روزہ دار اس سے بچے» {cite:sunan-abi-dawud 2377}، اور ابن ماجہ میں ہے: «اثمد کو لازم پکڑو، یہ بینائی کو جلا دیتا ہے اور بال اگاتا ہے» {cite:sunan-ibn-majah 3495}۔ ابن القیم سرمہ لگانے کی تعداد بتاتے ہیں: ہر آنکھ میں تین بار، یا دائیں میں تین اور بائیں میں دو، اور وتر کے بارے میں امام احمد کے مذہب وغیرہ میں دو اقوال نقل کرتے ہیں {cite:zad-al-maad p.695} {cite:zad-al-maad p.696}۔"
+wings: [ideas]
+themes: [health-body-death]
+regions: [global]
+tags: [tibb-browser, tibb-nabawi]
+sources: [source/zad-al-maad, source/sunan-abi-dawud, source/sunan-ibn-majah, source/jami-al-tirmidhi]
+relations:
+  - { type: part_of, target: concept/al-tibb-al-nabawi, note: "Ibn al-Qayyim treats kohl under the Prophet's guidance on preserving the health of the eye.", sources: [source/zad-al-maad] }
+  - { type: related_to, target: concept/al-kamaa, note: "The water of the kam'a is said to be best mixed with ithmid for the eye.", sources: [source/zad-al-maad] }
+provenance:
+  layer: own-research
+  source: "Zad al-Ma'ad by Ibn Qayyim al-Jawziyya, Tibb Nabawi chapters; OCR scan folder zad-maad/20200822_20200822_1205 (1120 pages), scan pages 695-696, 726; hadith wording checked against the hadith-api Arabic editions (hadith numbers are those of that edition); passages linked from the graph."
+  generated_by: "Claude (claude-sonnet-5-5)"
+  model: claude-sonnet-5-5
+  run: tibb-browser-curated-1
+status: { review: draft, completeness: 2, generated_by: "Claude (claude-sonnet-5-5)" }

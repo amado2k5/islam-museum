@@ -1,0 +1,19 @@
+id: passage/qanun-v2-tibb-644
+class: passage
+unit: chapter
+work: work/al-qanun-fi-al-tibb
+ref: "644"
+label: { ar: "القانون في الطب لابن سينا ج2، ص 644 — السنا والسنوت، أسماء الأمراض", en: "Ibn Sina's Canon of Medicine, vol. 2, p. 644 — senna and sannut; named diseases", ur: "القانون فی الطب، ابن سینا ج2، ص 644 — سنا اور سنوت، بیماریوں کے نام" }
+text: "… وسائر الأدوية التي تعالج بها الأورام الباردة مما علمت في كل موضع. ومما ينفع فيه جداً ضمّاد القيصوم المتخذ بقفر اليهود. علاج القولنج السوداوي : يجب أن تستفرغ السوداء بمثل طبيخ الأفتيمون، وحبّ اللازورد ونحوه، ثم يتبع بحبّ الشبرم، والسكبينج. …"
+summary:
+  ar: "مقطع من القانون في الطب لابن سينا ج2، ص 644، يذكر السنا والسنوت، وأسماء الأمراض، والعلاج، والجراحة والختان والجبائر، والدواء؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from Ibn Sina's Canon of Medicine, vol. 2, p. 644, that mentions senna and sannut, named diseases, treatment, surgery, circumcision and splints, the drug; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "القانون فی الطب، ابن سینا ج2، ص 644 کا اقتباس جس میں سنا اور سنوت، بیماریوں کے نام، علاج، جراحت، ختنہ اور پٹیاں، دوا کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/canon-ibn-sina-print-v2] }
+  - { type: mentions, target: concept/medicine, sources: [source/canon-ibn-sina-print-v2] }
+  - { type: mentions, target: concept/al-jiraha, sources: [source/canon-ibn-sina-print-v2] }
+  - { type: mentions, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v2] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan medicine-science/canon-ibn-sina-print-v2/canon-ibn-sina-print-v2, page 644; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/canon-ibn-sina-print-v2]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

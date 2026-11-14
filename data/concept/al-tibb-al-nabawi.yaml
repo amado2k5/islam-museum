@@ -1,0 +1,32 @@
+id: concept/al-tibb-al-nabawi
+class: concept
+kind: scientific
+label:
+  ar: "الطب النبوي"
+  en: "Prophetic medicine (al-tibb al-nabawi)"
+  ur: "طبِ نبوی"
+summary:
+  ar: "الطب النبوي هو ما ورد في هدي النبي من معالجة الأبدان، كما يعرضه ابن قيم الجوزية في زاد المعاد. ويقسم ابن القيم علاج النبي إلى ثلاثة أنواع: بالأدوية الطبيعية، وبالأدوية الإلهية، وبالمركب من الأمرين {cite:zad-al-maad p.597}. وأساس الباب عنده أحاديث إثبات الدواء، منها «لكل داء دواء» عند مسلم {cite:sahih-muslim 5741} و«ما أنزل الله داء إلا أنزل له شفاء» عند البخاري {cite:sahih-al-bukhari 5678}، ويرى أن التداوي لا ينافي التوكل {cite:zad-al-maad p.593}."
+  en: "Prophetic medicine is what the reports preserve of the Prophet's guidance in treating the body, as Ibn Qayyim al-Jawziyya presents it in Zad al-Ma'ad. Ibn al-Qayyim sorts the Prophet's treatment into three kinds: by natural drugs, by divine remedies, and by a combination of the two {cite:zad-al-maad p.597}. The chapter rests for him on the reports that every disease has a remedy, among them 'every disease has a remedy' in Muslim {cite:sahih-muslim 5741} and 'God sent down no disease without sending down a cure for it' in al-Bukhari {cite:sahih-al-bukhari 5678}; he holds that seeking treatment does not conflict with trust in God {cite:zad-al-maad p.593}."
+  ur: "طبِ نبوی سے مراد وہ ہے جو احادیث میں بدنوں کے علاج کے بارے میں نبی کی ہدایت کے طور پر محفوظ ہے، جیسا کہ ابن قیم الجوزیہ نے «زاد المعاد» میں پیش کیا ہے۔ ابن القیم نبی کے علاج کو تین قسموں میں بانٹتے ہیں: طبعی دواؤں سے، الٰہی دواؤں سے، اور دونوں کے مرکب سے {cite:zad-al-maad p.597}۔ ان کے نزدیک اس باب کی بنیاد دوا کے ثبوت کی احادیث ہیں، جن میں مسلم کی «ہر بیماری کی دوا ہے» {cite:sahih-muslim 5741} اور بخاری کی «اللہ نے کوئی بیماری نہیں اتاری مگر اس کی شفا بھی اتاری» {cite:sahih-al-bukhari 5678} شامل ہیں؛ اور وہ علاج کو توکل کے منافی نہیں سمجھتے {cite:zad-al-maad p.593}۔"
+wings: [ideas]
+themes: [health-body-death]
+regions: [global]
+tags: [tibb-browser, tibb-nabawi]
+sources: [source/zad-al-maad, source/sahih-muslim, source/sahih-al-bukhari, source/sunan-ibn-majah]
+relations:
+  - { type: related_to, target: concept/tadawi, note: "The fiqh of seeking treatment, the legal frame of prophetic medicine.", sources: [source/zad-al-maad] }
+  - { type: related_to, target: concept/hijama, note: "Cupping, one of the three remedies named in the report on healing.", sources: [source/zad-al-maad] }
+  - { type: related_to, target: concept/ruqya, note: "Ruqya, one of the divine remedies in the threefold division.", sources: [source/zad-al-maad] }
+  - { type: related_to, target: concept/medicine, note: "The wider history of medicine in Islamic civilisation.", sources: [source/zad-al-maad] }
+  - { type: related_to, target: concept/tawakkul, note: "Ibn al-Qayyim argues that treatment does not conflict with trust in God.", sources: [source/zad-al-maad] }
+  - { type: related_to, target: concept/qadar, note: "The objection that treatment is useless if healing is decreed, and the reply.", sources: [source/zad-al-maad] }
+  - { type: related_to, target: work/al-tibb-al-nabawi-ibn-qayyim, note: "The book form of the Tibb Nabawi chapters of Zad al-Ma'ad.", sources: [source/zad-al-maad] }
+  - { type: related_to, target: work/zad-al-maad, note: "The work whose medical chapters are summarised here.", sources: [source/zad-al-maad] }
+provenance:
+  layer: own-research
+  source: "Zad al-Ma'ad by Ibn Qayyim al-Jawziyya, Tibb Nabawi chapters; OCR scan folder zad-maad/20200822_20200822_1205 (1120 pages), scan pages 590-594, 597, 603-605, 632, 644-647; hadith wording checked against the hadith-api Arabic editions (hadith numbers are those of that edition); passages linked from the graph."
+  generated_by: "Claude (claude-sonnet-5-5)"
+  model: claude-sonnet-5-5
+  run: tibb-browser-curated-1
+status: { review: draft, completeness: 2, generated_by: "Claude (claude-sonnet-5-5)" }

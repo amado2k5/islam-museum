@@ -1,0 +1,18 @@
+id: passage/sahaba-hilyat-awliya-tibb-9-237
+class: passage
+unit: chapter
+work: work/hilyat-al-awliya
+ref: "9:237"
+label: { ar: "حلية الأولياء لأبي نعيم، المجلد المصوَّر 9، ص 237 — الطب والطبيب، الدواء", en: "Abu Nu'aym's Hilyat al-Awliya', scan volume 9, p. 237 — medicine and the physician; the drug", ur: "حلیۃ الاولیاء، ابو نعیم، اسکین جلد 9، ص 237 — طب اور طبیب، دوا" }
+text: "… الشتهاله بام دبن إرهيم يقول مممت محفوظا يقول : كان شاه يأمر أصحابه أن يظهر واله ما يجرى على سرهم، ثم كان يداوى كل واحد منزم بدوائه ويقول : ليس بماقل من كتم الطبيب علته."
+summary:
+  ar: "مقطع من حلية الأولياء لأبي نعيم، المجلد المصوَّر 9، ص 237، يذكر الطب والطبيب، والدواء، والتداوي؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from Abu Nu'aym's Hilyat al-Awliya', scan volume 9, p. 237, that mentions medicine and the physician, the drug, seeking treatment; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "حلیۃ الاولیاء، ابو نعیم، اسکین جلد 9، ص 237 کا اقتباس جس میں طب اور طبیب، دوا، علاج کرانا کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988] }
+  - { type: mentions, target: concept/al-adwiya-al-mufrada, sources: [source/hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988] }
+  - { type: mentions, target: concept/tadawi, sources: [source/hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan sahaba/hilyat-awliya/hilyah-10, page 237; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

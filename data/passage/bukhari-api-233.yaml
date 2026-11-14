@@ -1,0 +1,16 @@
+id: passage/bukhari-api-233
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "233"
+label: { ar: "صحيح البخاري 233 — ألبان الإبل وأبوالها", en: "Sahih al-Bukhari 233 — camel milk and urine as treatment", ur: "صحیح بخاری 233 — اونٹنی کا دودھ اور پیشاب" }
+text: "… أَنَسٍ، قَالَ قَدِمَ أُنَاسٌ مِنْ عُكْلٍ أَوْ عُرَيْنَةَ، فَاجْتَوَوُا الْمَدِينَةَ، فَأَمَرَهُمُ النَّبِيُّ بِلِقَاحٍ، وَأَنْ يَشْرَبُوا مِنْ أَبْوَالِهَا وَأَلْبَانِهَا، فَانْطَلَقُوا، فَلَمَّا صَحُّوا قَتَلُوا رَاعِيَ النَّبِيِّ وَاسْتَاقُوا النَّعَمَ، فَجَاءَ الْخَبَرُ فِي أَوَّلِ النَّهَارِ، فَبَعَثَ فِي آثَارِهِمْ، فَلَمَّا ارْتَفَعَ النَّهَارُ جِيءَ بِهِمْ، فَأَمَرَ فَقَطَعَ أَيْدِيَهُمْ وَأَرْجُلَهُمْ، وَسُمِرَتْ أَعْيُنُهُمْ، وَأُلْقُوا فِي الْحَرَّةِ يَسْتَسْقُونَ فَلاَ يُسْقَوْنَ. قَالَ أَبُو قِلاَبَةَ فَهَؤُلاَءِ …"
+summary:
+  ar: "حديث في صحيح البخاري، رقم 233، يذكر ألبان الإبل وأبوالها. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih al-Bukhari, no. 233 (Ablutions (Wudu')), that mentions camel milk and urine as treatment. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح بخاری کی حدیث نمبر 233، جس میں اونٹنی کا دودھ اور پیشاب کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 233 (book 4 hadith 99); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

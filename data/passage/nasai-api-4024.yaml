@@ -1,0 +1,16 @@
+id: passage/nasai-api-4024
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "4024"
+label: { ar: "سنن النسائي 4024 — ألبان الإبل وأبوالها", en: "Sunan al-Nasa'i 4024 — camel milk and urine as treatment", ur: "سنن نسائی 4024 — اونٹنی کا دودھ اور پیشاب" }
+text: "… نَفَرًا، مِنْ عُكْلٍ ثَمَانِيَةً قَدِمُوا عَلَى النَّبِيِّ فَاسْتَوْخَمُوا الْمَدِينَةَ وَسَقِمَتْ أَجْسَامُهُمْ فَشَكَوْا ذَلِكَ إِلَى رَسُولِ اللَّهِ فَقَالَ \" أَلاَ تَخْرُجُونَ مَعَ رَاعِينَا فِي إِبِلِهِ فَتُصِيبُوا مِنْ أَلْبَانِهَا وَأَبْوَالِهَا \". قَالُوا بَلَى. فَخَرَجُوا فَشَرِبُوا مِنْ أَلْبَانِهَا وَأَبْوَالِهَا فَصَحُّوا فَقَتَلُوا رَاعِيَ رَسُولِ اللَّهِ فَبَعَثَ فَأَخَذُوهُمْ فَأُتِيَ بِهِمْ فَقَطَّعَ أَيْدِيَهُمْ وَأَرْجُلَهُمْ وَسَمَّرَ أَعْيُنَهُمْ وَنَبَذَهُمْ فِي الشَّمْسِ حَتَّى مَاتُوا."
+summary:
+  ar: "حديث في سنن النسائي، رقم 4024، يذكر ألبان الإبل وأبوالها. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan al-Nasa'i, no. 4024 (The Book of Fighting [The Prohibition of Bloodshed]), that mentions camel milk and urine as treatment. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن نسائی کی حدیث نمبر 4024، جس میں اونٹنی کا دودھ اور پیشاب کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 4024 (book 37 hadith 59); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

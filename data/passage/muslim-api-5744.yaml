@@ -1,0 +1,16 @@
+id: passage/muslim-api-5744
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "5744"
+label: { ar: "صحيح مسلم 5744 — الحجامة", en: "Sahih Muslim 5744 — cupping", ur: "صحیح مسلم 5744 — حجامہ" }
+text: "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا لَيْثٌ، ح وَحَدَّثَنَا مُحَمَّدُ بْنُ رُمْحٍ، أَخْبَرَنَا اللَّيْثُ، عَنْ أَبِي الزُّبَيْرِ، عَنْ جَابِرٍ، أَنَّ أُمَّ سَلَمَةَ، اسْتَأْذَنَتْ رَسُولَ اللَّهِ فِي الْحِجَامَةِ فَأَمَرَ النَّبِيُّ أَبَا طَيْبَةَ أَنْ يَحْجُمَهَا. قَالَ حَسِبْتُ أَنَّهُ قَالَ كَانَ أَخَاهَا مِنَ الرَّضَاعَةِ أَوْ غُلاَمًا لَمْ يَحْتَلِمْ."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 5744، يذكر الحجامة. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih Muslim, no. 5744 (The Book of Greetings), that mentions cupping. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح مسلم کی حدیث نمبر 5744، جس میں حجامہ کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 5744 (book 39 hadith 98); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

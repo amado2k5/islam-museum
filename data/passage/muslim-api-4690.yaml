@@ -1,0 +1,18 @@
+id: passage/muslim-api-4690
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "4690"
+label: { ar: "صحيح مسلم 4690 — المرض والمريض، مداواة الجراح", en: "Sahih Muslim 4690 — illness and the sick; the treatment of wounds", ur: "صحیح مسلم 4690 — بیماری اور بیمار، زخموں کا علاج" }
+text: "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا عَبْدُ الرَّحِيمِ بْنُ سُلَيْمَانَ، عَنْ هِشَامٍ، عَنْ حَفْصَةَ، بِنْتِ سِيرِينَ عَنْ أُمِّ عَطِيَّةَ الأَنْصَارِيَّةِ، قَالَتْ غَزَوْتُ مَعَ رَسُولِ اللَّهِ سَبْعَ غَزَوَاتٍ أَخْلُفُهُمْ فِي رِحَالِهِمْ فَأَصْنَعُ لَهُمُ الطَّعَامَ وَأُدَاوِي الْجَرْحَى وَأَقُومُ عَلَى الْمَرْضَى"
+summary:
+  ar: "حديث في صحيح مسلم، رقم 4690، يذكر المرض والمريض، ومداواة الجراح، ومداواة النساء للجرحى، والتداوي. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih Muslim, no. 4690 (The Book of Jihad and Expeditions), that mentions illness and the sick, the treatment of wounds, women treating the wounded, seeking treatment. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح مسلم کی حدیث نمبر 4690، جس میں بیماری اور بیمار، زخموں کا علاج، خواتین کا زخمیوں کا علاج، علاج کرانا کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-jiraha, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/tadawi, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 4690 (book 32 hadith 172); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

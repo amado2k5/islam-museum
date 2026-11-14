@@ -1,0 +1,17 @@
+id: passage/sahaba-hayat-sahaba-tibb-1-455
+class: passage
+unit: chapter
+work: work/hayat-al-sahaba
+ref: "1:455"
+label: { ar: "حياة الصحابة للكاندهلوي، المجلد المصوَّر 1، ص 455 — الطب والطبيب، أطوار خلق الجنين", en: "al-Kandahlawi's Hayat al-Sahaba, scan volume 1, p. 455 — medicine and the physician; the stages of the embryo", ur: "حیاۃ الصحابہ، کاندھلوی، اسکین جلد 1، ص 455 — طب اور طبیب، جنین کے مراحل" }
+text: "… وإبتاء الزكاة التى فرض رسول اه طبيبة بها انفسهم فلا يرون عليها بوا! فافهموا ما توعظون به فان الحرب من حرب دينه وإن السعيد من وعظ بغيره وإن الشقى من شق فى بطن أمه وإن شر الأمور مبتدعاتها، : إن …"
+summary:
+  ar: "مقطع من حياة الصحابة للكاندهلوي، المجلد المصوَّر 1، ص 455، يذكر الطب والطبيب، وأطوار خلق الجنين؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from al-Kandahlawi's Hayat al-Sahaba, scan volume 1, p. 455, that mentions medicine and the physician, the stages of the embryo; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "حیاۃ الصحابہ، کاندھلوی، اسکین جلد 1، ص 455 کا اقتباس جس میں طب اور طبیب، جنین کے مراحل کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/hayat-al-sahaba-kandahlawi-sabbani] }
+  - { type: mentions, target: concept/anatomy, sources: [source/hayat-al-sahaba-kandahlawi-sabbani] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan sahaba/hayat-sahaba/AAlexandrina-094176, page 455; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/hayat-al-sahaba-kandahlawi-sabbani]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

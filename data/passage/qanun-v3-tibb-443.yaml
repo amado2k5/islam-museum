@@ -1,0 +1,18 @@
+id: passage/qanun-v3-tibb-443
+class: passage
+unit: chapter
+work: work/al-qanun-fi-al-tibb
+ref: "443"
+label: { ar: "القانون في الطب لابن سينا ج3، ص 443 — التداوي بالعسل، الوجع", en: "Ibn Sina's Canon of Medicine, vol. 3, p. 443 — honey as a remedy; pain", ur: "القانون فی الطب، ابن سینا ج3، ص 443 — شہد سے علاج، درد" }
+text: "… وزنجبيل وجندبيدستر من كل واحد درخميان، لبان أبيض ذكر أربع درخميات، سكّر طبرزد مثل الأدوية تخلط الأدوية بالسكر، وتعجن بعسل منزوع الرغوة، الشربة ثلاثة مثاقيل. كمّوني آخر : نافع من أوجاع البطن الهائجة عن البرودة، ومن حمّى الربع، ومن"
+summary:
+  ar: "مقطع من القانون في الطب لابن سينا ج3، ص 443، يذكر التداوي بالعسل، والوجع، والحمى والوعك، والحمى، والدواء؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from Ibn Sina's Canon of Medicine, vol. 3, p. 443, that mentions honey as a remedy, pain, fever, fever, the drug; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "القانون فی الطب، ابن سینا ج3، ص 443 کا اقتباس جس میں شہد سے علاج، درد، بخار، بخار، دوا کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/canon-ibn-sina-print-v3] }
+  - { type: mentions, target: concept/medicine, sources: [source/canon-ibn-sina-print-v3] }
+  - { type: mentions, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v3] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan medicine-science/canon-ibn-sina-print-v3/canon-ibn-sina-print-v3, page 443; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/canon-ibn-sina-print-v3]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

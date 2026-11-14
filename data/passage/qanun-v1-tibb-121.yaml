@@ -1,0 +1,17 @@
+id: passage/qanun-v1-tibb-121
+class: passage
+unit: chapter
+work: work/al-qanun-fi-al-tibb
+ref: "121"
+label: { ar: "القانون في الطب لابن سينا ج1، ص 121 — المرض والمريض، الوجع", en: "Ibn Sina's Canon of Medicine, vol. 1, p. 121 — illness and the sick; pain", ur: "القانون فی الطب، ابن سینا ج1، ص 121 — بیماری اور بیمار، درد" }
+text: "الكتاب الأول الفن الثاني: في ذكر الأمراض والأسباب والأعراض الكلية فيه السوداء لأن الصيف يرمّد والخريف يبرّد. وأوّل الخريف موافق للمشايخ موافقة ما وآخره يضرّهم مضرّة شديدة. وأمراض الخريف هي الجرب المتقشر والقوابي والسرطانات وأوجاع المفاصل والحيّات المختلطة وحميّات الربع …"
+summary:
+  ar: "مقطع من القانون في الطب لابن سينا ج1، ص 121، يذكر المرض والمريض، والوجع، والحمى والوعك، وأسماء الأمراض، وأعضاء البدن؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from Ibn Sina's Canon of Medicine, vol. 1, p. 121, that mentions illness and the sick, pain, fever, named diseases, the organs of the body; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "القانون فی الطب، ابن سینا ج1، ص 121 کا اقتباس جس میں بیماری اور بیمار، درد، بخار، بیماریوں کے نام، اعضائے بدن کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/canon-ibn-sina-print-v1] }
+  - { type: mentions, target: concept/anatomy, sources: [source/canon-ibn-sina-print-v1] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan medicine-science/canon-ibn-sina-print-v1/canon-ibn-sina-print-v1, page 121; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/canon-ibn-sina-print-v1]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

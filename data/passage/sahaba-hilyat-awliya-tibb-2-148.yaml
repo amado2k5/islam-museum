@@ -1,0 +1,17 @@
+id: passage/sahaba-hilyat-awliya-tibb-2-148
+class: passage
+unit: chapter
+work: work/hilyat-al-awliya
+ref: "2:148"
+label: { ar: "حلية الأولياء لأبي نعيم، المجلد المصوَّر 2، ص 148 — مداواة الجراح، الدواء", en: "Abu Nu'aym's Hilyat al-Awliya', scan volume 2, p. 148 — the treatment of wounds; the drug", ur: "حلیۃ الاولیاء، ابو نعیم، اسکین جلد 2، ص 148 — زخموں کا علاج، دوا" }
+text: "… بعد ؛ فإن الدنيا دار مخيفة، إنما أهبط آدم من الجنة إليها عقوبة، واعلم أن صرعتها ليست كالصرعة، من أكرمها يهن، ولها فى كل حين قتيل. فكن فيها يا أمير المؤمنين كالمداوى جرحه يصير على شدة الدواء خيفة طول البلاء …"
+summary:
+  ar: "مقطع من حلية الأولياء لأبي نعيم، المجلد المصوَّر 2، ص 148، يذكر مداواة الجراح، والدواء؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from Abu Nu'aym's Hilyat al-Awliya', scan volume 2, p. 148, that mentions the treatment of wounds, the drug; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "حلیۃ الاولیاء، ابو نعیم، اسکین جلد 2، ص 148 کا اقتباس جس میں زخموں کا علاج، دوا کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/al-jiraha, sources: [source/hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988] }
+  - { type: mentions, target: concept/al-adwiya-al-mufrada, sources: [source/hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan sahaba/hilyat-awliya/hilyah-02, page 148; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

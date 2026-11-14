@@ -1,0 +1,18 @@
+id: passage/qanun-v3-tibb-360
+class: passage
+unit: chapter
+work: work/al-qanun-fi-al-tibb
+ref: "360"
+label: { ar: "القانون في الطب لابن سينا ج3، ص 360 — الحجامة، الجذام والبرص", en: "Ibn Sina's Canon of Medicine, vol. 3, p. 360 — cupping; leprosy and vitiligo", ur: "القانون فی الطب، ابن سینا ج3، ص 360 — حجامہ، جذام اور برص" }
+text: "… الباذشنام والحمرة المفرطة الباذشنام حمرة منكرة تشبه حمرة من يبتدئ به الجذام اليلال يظهر على الوجه وعلى الأطراف كان معها قروح، ويكون سببه حقن البرد للبخار الكثير الدموي، وعلاجه الإسهال افل للايل والفصد والحجامة وإرسال العلق التنكر في ابتداء الجذام …"
+summary:
+  ar: "مقطع من القانون في الطب لابن سينا ج3، ص 360، يذكر الحجامة، والجذام والبرص، وأسماء الأمراض، والعلاج، والجراحة والختان والجبائر؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from Ibn Sina's Canon of Medicine, vol. 3, p. 360, that mentions cupping, leprosy and vitiligo, named diseases, treatment, surgery, circumcision and splints; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "القانون فی الطب، ابن سینا ج3، ص 360 کا اقتباس جس میں حجامہ، جذام اور برص، بیماریوں کے نام، علاج، جراحت، ختنہ اور پٹیاں کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/canon-ibn-sina-print-v3] }
+  - { type: mentions, target: concept/medicine, sources: [source/canon-ibn-sina-print-v3] }
+  - { type: mentions, target: concept/al-jiraha, sources: [source/canon-ibn-sina-print-v3] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan medicine-science/canon-ibn-sina-print-v3/canon-ibn-sina-print-v3, page 360; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/canon-ibn-sina-print-v3]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

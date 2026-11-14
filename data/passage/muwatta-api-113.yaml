@@ -1,0 +1,16 @@
+id: passage/muwatta-api-113
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "113"
+label: { ar: "موطأ مالك 113 — العروق", en: "Muwatta Malik 113 — the vessels", ur: "موطأ مالک 113 — رگیں" }
+text: "وَحَدَّثَنِي عَنْ مَالِكٍ، عَنْ يَحْيَى بْنِ سَعِيدٍ، عَنْ سُلَيْمَانَ بْنِ يَسَارٍ، أَنَّ عُمَرَ بْنَ الْخَطَّابِ، صَلَّى بِالنَّاسِ الصُّبْحَ ثُمَّ غَدَا إِلَى أَرْضِهِ بِالْجُرُفِ فَوَجَدَ فِي ثَوْبِهِ احْتِلاَمًا فَقَالَ إِنَّا لَمَّا أَصَبْنَا الْوَدَكَ لاَنَتِ الْعُرُوقُ. فَاغْتَسَلَ وَغَسَلَ الاِحْتِلاَمَ مِنْ ثَوْبِهِ وَعَادَ لِصَلاَتِهِ."
+summary:
+  ar: "حديث في موطأ مالك، رقم 113، يذكر العروق. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Muwatta Malik, no. 113 (Purity), that mentions the vessels. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "موطأ مالک کی حدیث نمبر 113، جس میں رگیں کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/anatomy, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 113 (book 2 hadith 82); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/muwatta-malik, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

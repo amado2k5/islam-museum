@@ -1,0 +1,16 @@
+id: passage/muslim-api-527
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "527"
+label: { ar: "صحيح مسلم 527 — الرقية", en: "Sahih Muslim 527 — ruqya recited over the sick", ur: "صحیح مسلم 527 — رقیہ" }
+text: "… قُلْتُ أَنَا. ثُمَّ قُلْتُ أَمَا إِنِّي لَمْ أَكُنْ فِي صَلاَةٍ وَلَكِنِّي لُدِغْتُ. قَالَ فَمَاذَا صَنَعْتَ قُلْتُ اسْتَرْقَيْتُ. قَالَ فَمَا حَمَلَكَ عَلَى ذَلِكَ قُلْتُ حَدِيثٌ حَدَّثَنَاهُ الشَّعْبِيُّ. فَقَالَ وَمَا حَدَّثَكُمُ الشَّعْبِيُّ قُلْتُ حَدَّثَنَا عَنْ بُرَيْدَةَ بْنِ حُصَيْبٍ الأَسْلَمِيِّ أَنَّهُ قَالَ لاَ رُقْيَةَ إِلاَّ مِنْ عَيْنٍ أَوْ حُمَةٍ. فَقَالَ قَدْ أَحْسَنَ مَنِ انْتَهَى إِلَى مَا سَمِعَ وَلَكِنْ …"
+summary:
+  ar: "حديث في صحيح مسلم، رقم 527، يذكر الرقية. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih Muslim, no. 527 (The Book of Faith), that mentions ruqya recited over the sick. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح مسلم کی حدیث نمبر 527، جس میں رقیہ کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 527 (book 1 hadith 433); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

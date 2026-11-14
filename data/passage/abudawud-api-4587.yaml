@@ -1,0 +1,18 @@
+id: passage/abudawud-api-4587
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "4587"
+label: { ar: "سنن أبي داود 4587 — الكي، الطب والطبيب", en: "Sunan Abi Dawud 4587 — cautery; medicine and the physician", ur: "سنن ابی داؤد 4587 — داغنا، طب اور طبیب" }
+text: "حَدَّثَنَا مُحَمَّدُ بْنُ الْعَلاَءِ، حَدَّثَنَا حَفْصٌ، حَدَّثَنَا عَبْدُ الْعَزِيزِ بْنُ عُمَرَ بْنِ عَبْدِ الْعَزِيزِ، حَدَّثَنِي بَعْضُ الْوَفْدِ الَّذِينَ، قَدِمُوا عَلَى أَبِي قَالَ قَالَ رَسُولُ اللَّهِ \" أَيُّمَا طَبِيبٍ تَطَبَّبَ عَلَى قَوْمٍ لاَ يُعْرَفُ لَهُ تَطَبُّبٌ قَبْلَ ذَلِكَ فَأَعْنَتَ فَهُوَ ضَامِنٌ \". قَالَ عَبْدُ الْعَزِيزِ أَمَا إِنَّهُ لَيْسَ بِالنَّعْتِ إِنَّمَا هُوَ قَطْعُ الْعُرُوقِ وَالْبَطُّ وَالْكَىُّ."
+summary:
+  ar: "حديث في سنن أبي داود، رقم 4587، يذكر الكي، والطب والطبيب، وحسم الجرح. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan Abi Dawud, no. 4587 (Types of Blood-Wit (Kitab Al-Diyat)), that mentions cautery, medicine and the physician, cauterising a wound. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن ابی داؤد کی حدیث نمبر 4587، جس میں داغنا، طب اور طبیب، زخم داغنا کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/medicine, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-jiraha, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 4587 (book 41 hadith 94); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

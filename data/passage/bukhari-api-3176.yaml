@@ -1,0 +1,16 @@
+id: passage/bukhari-api-3176
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "3176"
+label: { ar: "صحيح البخاري 3176 — الطاعون والوباء", en: "Sahih al-Bukhari 3176 — plague and epidemic", ur: "صحیح بخاری 3176 — طاعون اور وبا" }
+text: "… قُبَّةٍ مِنْ أَدَمٍ فَقَالَ \" اعْدُدْ سِتًّا بَيْنَ يَدَىِ السَّاعَةِ، مَوْتِي، ثُمَّ فَتْحُ بَيْتِ الْمَقْدِسِ، ثُمَّ مُوتَانٌ يَأْخُذُ فِيكُمْ كَقُعَاصِ الْغَنَمِ، ثُمَّ اسْتِفَاضَةُ الْمَالِ حَتَّى يُعْطَى الرَّجُلُ مِائَةَ دِينَارٍ فَيَظَلُّ سَاخِطًا، ثُمَّ فِتْنَةٌ لاَ يَبْقَى بَيْتٌ مِنَ الْعَرَبِ إِلاَّ دَخَلَتْهُ، ثُمَّ هُدْنَةٌ تَكُونُ بَيْنَكُمْ وَبَيْنَ بَنِي الأَصْفَرِ فَيَغْدِرُونَ، فَيَأْتُونَكُمْ تَحْتَ ثَمَانِينَ غَايَةً، تَحْتَ كُلِّ غَايَةٍ …"
+summary:
+  ar: "حديث في صحيح البخاري، رقم 3176، يذكر الطاعون والوباء. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih al-Bukhari, no. 3176 (Jizyah and Mawaada'ah), that mentions plague and epidemic. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح بخاری کی حدیث نمبر 3176، جس میں طاعون اور وبا کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 3176 (book 58 hadith 18); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

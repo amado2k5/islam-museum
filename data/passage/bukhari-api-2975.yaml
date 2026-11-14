@@ -1,0 +1,16 @@
+id: passage/bukhari-api-2975
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "2975"
+label: { ar: "صحيح البخاري 2975 — أسماء الأمراض", en: "Sahih al-Bukhari 2975 — named diseases", ur: "صحیح بخاری 2975 — بیماریوں کے نام" }
+text: "… عَنْ سَلَمَةَ بْنِ الأَكْوَعِ ـ قَالَ كَانَ عَلِيٌّ ـ تَخَلَّفَ عَنِ النَّبِيِّ فِي خَيْبَرَ، وَكَانَ بِهِ رَمَدٌ، فَقَالَ أَنَا أَتَخَلَّفُ عَنْ رَسُولِ اللَّهِ فَخَرَجَ عَلِيٌّ فَلَحِقَ بِالنَّبِيِّ، فَلَمَّا كَانَ مَسَاءُ اللَّيْلَةِ الَّتِي فَتَحَهَا فِي صَبَاحِهَا، فَقَالَ رَسُولُ اللَّهِ \" لأُعْطِيَنَّ الرَّايَةَ ـ أَوْ قَالَ لَيَأْخُذَنَّ ـ غَدًا رَجُلٌ يُحِبُّهُ اللَّهُ وَرَسُولُهُ ـ أَوْ قَالَ يُحِبُّ …"
+summary:
+  ar: "حديث في صحيح البخاري، رقم 2975، يذكر أسماء الأمراض. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih al-Bukhari, no. 2975 (Fighting for the Cause of Allah (Jihaad)), that mentions named diseases. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح بخاری کی حدیث نمبر 2975، جس میں بیماریوں کے نام کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 2975 (book 56 hadith 184); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

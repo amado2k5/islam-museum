@@ -1,0 +1,16 @@
+id: passage/muslim-api-2887
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2887"
+label: { ar: "صحيح مسلم 2887 — مرض النبي، الوجع", en: "Sahih Muslim 2887 — the Prophet's illness; pain", ur: "صحیح مسلم 2887 — نبی کی بیماری، درد" }
+text: "… بْنُ مُوسَى، عَنْ نُبَيْهِ بْنِ وَهْبٍ، قَالَ خَرَجْنَا مَعَ أَبَانِ بْنِ عُثْمَانَ حَتَّى إِذَا كُنَّا بِمَلَلٍ اشْتَكَى عُمَرُ بْنُ عُبَيْدِ اللَّهِ عَيْنَيْهِ فَلَمَّا كُنَّا بِالرَّوْحَاءِ اشْتَدَّ وَجَعُهُ فَأَرْسَلَ إِلَى أَبَانَ بْنِ عُثْمَانَ يَسْأَلُهُ فَأَرْسَلَ إِلَيْهِ أَنِ اضْمِدْهُمَا بِالصَّبِرِ فَإِنَّ عُثْمَانَ - - حَدَّثَ عَنْ رَسُولِ اللَّهِ فِي الرَّجُلِ إِذَا اشْتَكَى عَيْنَيْهِ وَهُوَ مُحْرِمٌ ضَمَّدَهُمَا بِالصَّبِرِ."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 2887، يذكر مرض النبي، والوجع، والشكوى من العلة. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih Muslim, no. 2887 (The Book of Pilgrimage), that mentions the Prophet's illness, pain, a complaint of an ailment. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح مسلم کی حدیث نمبر 2887، جس میں نبی کی بیماری، درد، بیماری کی شکایت کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 2887 (book 15 hadith 97); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

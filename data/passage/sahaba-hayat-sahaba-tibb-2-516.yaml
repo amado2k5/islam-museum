@@ -1,0 +1,17 @@
+id: passage/sahaba-hayat-sahaba-tibb-2-516
+class: passage
+unit: chapter
+work: work/hayat-al-sahaba
+ref: "2:516"
+label: { ar: "حياة الصحابة للكاندهلوي، المجلد المصوَّر 2، ص 516 — مداواة الجراح، التداوي", en: "al-Kandahlawi's Hayat al-Sahaba, scan volume 2, p. 516 — the treatment of wounds; seeking treatment", ur: "حیاۃ الصحابہ، کاندھلوی، اسکین جلد 2، ص 516 — زخموں کا علاج، علاج کرانا" }
+text: "… يوم قتال مسيلمة -، فقاتلهم حتى فتح الباب؛ وبه بضع و ثمانون جراحة من بين رمية بسهم وضربة. فحمل الى رحله يداوى، فأقام عليه خالد شهرا. وأخرجه ايضا يقى بن مخلد فى مسنده عن خليفة باسناده مثله : كم فى …"
+summary:
+  ar: "مقطع من حياة الصحابة للكاندهلوي، المجلد المصوَّر 2، ص 516، يذكر مداواة الجراح، والتداوي؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from al-Kandahlawi's Hayat al-Sahaba, scan volume 2, p. 516, that mentions the treatment of wounds, seeking treatment; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "حیاۃ الصحابہ، کاندھلوی، اسکین جلد 2، ص 516 کا اقتباس جس میں زخموں کا علاج، علاج کرانا کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/al-jiraha, sources: [source/hayat-al-sahaba-kandahlawi-sabbani] }
+  - { type: mentions, target: concept/tadawi, sources: [source/hayat-al-sahaba-kandahlawi-sabbani] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan sahaba/hayat-sahaba/AAlexandrina-094235, page 516; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/hayat-al-sahaba-kandahlawi-sabbani]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

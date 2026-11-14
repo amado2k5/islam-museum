@@ -1,0 +1,16 @@
+id: passage/ibnmajah-api-1232
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "1232"
+label: { ar: "سنن ابن ماجه 1232 — مرض النبي، المرض والمريض", en: "Sunan Ibn Majah 1232 — the Prophet's illness; illness and the sick", ur: "سنن ابن ماجہ 1232 — نبی کی بیماری، بیماری اور بیمار" }
+text: "… وَحَدَّثَنَا عَلِيُّ بْنُ مُحَمَّدٍ، حَدَّثَنَا وَكِيعٌ، عَنِ الأَعْمَشِ، عَنْ إِبْرَاهِيمَ، عَنِ الأَسْوَدِ، عَنْ عَائِشَةَ، قَالَتْ لَمَّا مَرِضَ رَسُولُ اللَّهِ ـ مَرَضَهُ الَّذِي مَاتَ فِيهِ - وَقَالَ أَبُو مُعَاوِيَةَ لَمَّا ثَقُلَ - جَاءَ بِلاَلٌ يُؤْذِنُهُ بِالصَّلاَةِ فَقَالَ \" مُرُوا أَبَا بَكْرٍ فَلْيُصَلِّ بِالنَّاسِ \". قُلْنَا يَا رَسُولَ اللَّهِ إِنَّ أَبَا بَكْرٍ رَجُلٌ أَسِيفٌ - تَعْنِي رَقِيقٌ …"
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 1232، يذكر مرض النبي، والمرض والمريض. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan Ibn Majah, no. 1232 (Establishing the Prayer and the Sunnah Regarding Them), that mentions the Prophet's illness, illness and the sick. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 1232، جس میں نبی کی بیماری، بیماری اور بیمار کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 1232 (book 5 hadith 430); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

@@ -1,0 +1,16 @@
+id: passage/zad-maad-tibb-1-344
+class: passage
+unit: chapter
+work: work/zad-al-maad
+ref: "1:344"
+label: { ar: "زاد المعاد لابن القيم، المجلد المصوَّر 1، ص 344 — أسماء الأمراض", en: "Ibn al-Qayyim's Zad al-Ma'ad, scan volume 1, p. 344 — named diseases", ur: "زاد المعاد، ابن القیم، اسکین جلد 1، ص 344 — بیماریوں کے نام" }
+text: "… شأن، وهذه النارُ تكون في محلها، وحرارتُها تؤثِّر في الجسم البعيد عنها، مع أنَّ الارتباط والتعلَّقَ الذي بَيْنَ الروحِ والبدنِ أقوى وأكملُ مِن ذلك وأتم، فشأنُ الروحَ أعلى من ذلك وألطف. فَقُلْ لِلْعُيُونِ الرُّمْدِ إِيَّاكِ أَنْ تَرَي سَنَا الشَّمْسِ فَاسْتَغْشِي …"
+summary:
+  ar: "مقطع من زاد المعاد لابن القيم، المجلد المصوَّر 1، ص 344، يذكر أسماء الأمراض؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from Ibn al-Qayyim's Zad al-Ma'ad, scan volume 1, p. 344, that mentions named diseases; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "زاد المعاد، ابن القیم، اسکین جلد 1، ص 344 کا اقتباس جس میں بیماریوں کے نام کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/zad-al-maad] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan seerah/zad-maad/20200822_20200822_1205, page 344; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/zad-al-maad]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

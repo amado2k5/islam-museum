@@ -1,0 +1,17 @@
+id: passage/zad-maad-tibb-1-692
+class: passage
+unit: chapter
+work: work/zad-al-maad
+ref: "1:692"
+label: { ar: "زاد المعاد لابن القيم، المجلد المصوَّر 1، ص 692 — المرض والمريض، العلاج", en: "Ibn al-Qayyim's Zad al-Ma'ad, scan volume 1, p. 692 — illness and the sick; treatment", ur: "زاد المعاد، ابن القیم، اسکین جلد 1، ص 692 — بیماری اور بیمار، علاج" }
+text: "… سبيلَ للعاشق إلى وِصال معشوقه قدراً أو شرعاً، أو هو ممتنع عليه من الجهتين، وهو الداء العُضال، فمِن علاجه إشعارُ نفسه اليأسَ منه، فإن النفسَ منى يئست مِن الشيء، استراحت منه، ولم تلتفت إليه، فإن لم يَزُلْ مرضُ العشق مع …"
+summary:
+  ar: "مقطع من زاد المعاد لابن القيم، المجلد المصوَّر 1، ص 692، يذكر المرض والمريض، والعلاج، والداء؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from Ibn al-Qayyim's Zad al-Ma'ad, scan volume 1, p. 692, that mentions illness and the sick, treatment, the disease and its remedy; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "زاد المعاد، ابن القیم، اسکین جلد 1، ص 692 کا اقتباس جس میں بیماری اور بیمار، علاج، بیماری کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/zad-al-maad] }
+  - { type: mentions, target: concept/al-adwiya-al-mufrada, sources: [source/zad-al-maad] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan seerah/zad-maad/20200822_20200822_1205, page 692; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/zad-al-maad]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

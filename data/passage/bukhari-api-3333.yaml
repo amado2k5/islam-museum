@@ -1,0 +1,16 @@
+id: passage/bukhari-api-3333
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "3333"
+label: { ar: "صحيح البخاري 3333 — أطوار خلق الجنين", en: "Sahih al-Bukhari 3333 — the stages of the embryo", ur: "صحیح بخاری 3333 — جنین کے مراحل" }
+text: "… أَبِي بَكْرِ بْنِ أَنَسٍ، عَنْ أَنَسِ بْنِ مَالِكٍ ـ عَنِ النَّبِيِّ قَالَ \" إِنَّ اللَّهَ وَكَّلَ فِي الرَّحِمِ مَلَكًا فَيَقُولُ يَا رَبِّ نُطْفَةٌ، يَا رَبِّ عَلَقَةٌ، يَا رَبِّ مُضْغَةٌ، فَإِذَا أَرَادَ أَنْ يَخْلُقَهَا قَالَ يَا رَبِّ، أَذَكَرٌ أَمْ يَا رَبِّ أُنْثَى يَا رَبِّ شَقِيٌّ أَمْ سَعِيدٌ فَمَا الرِّزْقُ فَمَا الأَجَلُ فَيُكْتَبُ كَذَلِكَ فِي بَطْنِ أُمِّهِ …"
+summary:
+  ar: "حديث في صحيح البخاري، رقم 3333، يذكر أطوار خلق الجنين. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih al-Bukhari, no. 3333 (Prophets), that mentions the stages of the embryo. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح بخاری کی حدیث نمبر 3333، جس میں جنین کے مراحل کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/anatomy, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 3333 (book 60 hadith 8); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

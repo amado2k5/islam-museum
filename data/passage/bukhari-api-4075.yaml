@@ -1,0 +1,16 @@
+id: passage/bukhari-api-4075
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "4075"
+label: { ar: "صحيح البخاري 4075 — مداواة الجراح", en: "Sahih al-Bukhari 4075 — the treatment of wounds", ur: "صحیح بخاری 4075 — زخموں کا علاج" }
+text: "… مَنْ كَانَ يَغْسِلُ جُرْحَ رَسُولِ اللَّهِ وَمَنْ كَانَ يَسْكُبُ الْمَاءَ وَبِمَا دُووِيَ ـ قَالَ كَانَتْ فَاطِمَةُ ـ عَلَيْهَا السَّلاَمُ ـ بِنْتُ رَسُولِ اللَّهِ تَغْسِلُهُ وَعَلِيٌّ يَسْكُبُ الْمَاءَ بِالْمِجَنِّ، فَلَمَّا رَأَتْ فَاطِمَةُ أَنَّ الْمَاءَ لاَ يَزِيدُ الدَّمَ إِلاَّ كَثْرَةً أَخَذَتْ قِطْعَةً مِنْ حَصِيرٍ، فَأَحْرَقَتْهَا وَأَلْصَقَتْهَا فَاسْتَمْسَكَ الدَّمُ، وَكُسِرَتْ رَبَاعِيَتُهُ يَوْمَئِذٍ، وَجُرِحَ وَجْهُهُ، وَكُسِرَتِ الْبَيْضَةُ عَلَى رَأْسِهِ."
+summary:
+  ar: "حديث في صحيح البخاري، رقم 4075، يذكر مداواة الجراح. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih al-Bukhari, no. 4075 (Military Expeditions led by the Prophet (pbuh) (Al-Maghaazi)), that mentions the treatment of wounds. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح بخاری کی حدیث نمبر 4075، جس میں زخموں کا علاج کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-jiraha, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 4075 (book 64 hadith 120); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }
