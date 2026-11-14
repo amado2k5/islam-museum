@@ -1,0 +1,11 @@
+---
+id: event/abu-al-qasim-lets-himself-down-from-shibam-and-is-brought-back-291
+lang: en
+source_lang: ar
+translators: ["Claude Sonnet 5.5 (claude-sonnet-5-5), draft translation"]
+---
+## Overview
+Then Abu al-Qasim grew wary of certain matters; two Khawlani men had come to him and he told them to look at the road and the places outside the pass, and they came back and told him what they had seen; one of his companions was with him with a horse, and he told him to bring the horse out and stop it somewhere on the road, and told one of the Khawlanis to stand with the keeper of the horse while the other came back to them {cite:sira-hadi-ila-al-haqq p.273}. After the late evening prayer they went out to the place the two men had seen; they let Sa'd down on a turban they had with them until he reached the ground, then let Abu al-Qasim down until he reached it, then my companion let me down until I reached it and threw himself down to us, and they went on to the place where the keeper of the horse had promised to meet them and did not find him {cite:sira-hadi-ila-al-haqq p.273}.
+
+## Detail
+They stood there a while, then the Khawlani came back looking for them and they were all slow to come; when they despaired of them they set out groping along the road and met a sitting party of men on the road, who turned them back to Shibam, where they met Abd al-Qahir ibn Abi al-Khayr and words passed between him and Abu al-Qasim, and they went back to their lodging and stayed there some days {cite:sira-hadi-ila-al-haqq p.273} {cite:sira-hadi-ila-al-haqq p.274}. The narrator speaks here in the first person, being Muhammad ibn Sa'id, and the book does not say who "my companion" who let him down was, nor who Sa'd or the keeper of the horse was, nor what was said with Abd al-Qahir ibn Abi al-Khayr, nor what "certain matters" Abu al-Qasim was wary of; they stay unidentified. Abd al-Qahir ibn Abi al-Khayr is not [[person/abd-al-qahir-ibn-ahmad-ibn-naim|Abd al-Qahir ibn Ahmad ibn Na'im]] of the museum's records and is not linked to him. This follows [[event/abu-al-qasim-is-sent-to-shibam-and-jaftam-is-killed-291|the previous report]], after the killing of Jaftam. The report is in a Zaydi book in the narrator's voice, with no verdict in the museum's voice.

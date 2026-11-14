@@ -31,3 +31,19 @@ Open items (garbled OCR, left out of the prose):
 - p.276: the last lines of chapter 3 are clear; chapter 4 begins on this page and is left for the next batch.
 
 GEMINI: canon-drawing-matter-away-from-an-organ | What are the four conditions for drawing matter to the opposite side (the third is missing in the OCR) and which vein does each example illustrate? | card names opposite direction, sympathy and keeping apart | scan p.269 is garbled between the first and fourth conditions | the page image of vol. 1 p.269 or another edition of the Canon (Bulaq or Rome)
+
+## Batch scan pp. 276-285 (Fann 4, chapters 4 to 10)
+Resume: scan p.285, Fann 4, chapter 11 (on vomiting, "الفصل الحادي عشر: في القيء"). Fann 4 has 32 chapters; Book I is not yet finished.
+
+Concepts: 25 (three small topics folded into neighbours as extra sections: venesection order after a drug, season and build for vomiting, weak bowels and wine after purgatives).
+
+Open items (garbled OCR, left out of the prose):
+- p.277: the drying external drugs for dropsy ("مثل نا ا nariat") and the sentence on swellings of the viscera ("صثممهيلس خب فات رهستعس") are garbled; only the clear continuation (bindweed, safflower, polypody, cassia pulp) is cited. The end of the page on the hot "الرح iti" is garbled and not used.
+- p.278: the start of "ومن الأخلاط ما هو سريع الإجالبة" and the clause on the compound purgative ("ويسهل الأول الثاني ... dogan") are partly garbled; read from the clear words only. The line on the drawing of the mesenteric veins ("يزح iorg") is garbled and not cited.
+- p.279: the line on lung humours drawn by closeness ("المعد i ed in") and the end of chapter 4 on dry drugs as a cause of evacuating moisture are garbled; not cited.
+- p.281: "ويعقل" after the curdled-milk sentence and the sentence before "فإن أصحاب الفالج" are garbled; only the clear sentences are used. Page 281 has the printed footnote glosses (mazarion, spurge, curdled milk); they are editor notes and not cited.
+- p.283: the line on "الكافور" and fragrant lotions in wide-mouthed vessels is garbled; only the clear words are cited. The last lines before chapter 8 on colic ("فليتأمل ما قيقت inal") are garbled and not used.
+- p.284: the phrase about driving the drug upward ("الأن d( nae") and "والجي (iai i i)" before the sentence on cold water are garbled; not cited.
+- p.285: the end of chapter 11 on the first page (vomiting) is cut off; chapter 11 is left for the next batch.
+
+GEMINI: canon-purgatives-and-temperament-country-and-companions | What is the exact unit "كرمات" (kurum) of mastic on p.284 (three kurum in lukewarm water)? | card says three kurum of mastic | scan reads "ثلاث كرمات" with no gloss | another edition of the Canon (Bulaq or Rome) or a lexicon of weights

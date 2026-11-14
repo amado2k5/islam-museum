@@ -5033,3 +5033,106 @@ GEMINI: ep40, the place of Adam in the report of the night of the ascent (the tr
 Resume point: sharh-saheeh-al-bukhare episode 49 (branch from origin/main).
 GEMINI: ep48, which collection and narrator carry the report of Moses reading the tablets and asking to be of the community of Ahmad with eleven qualities, the Qwen and Whisper passes both give it at 00:28:30-00:30:00 without a source, a classical hadith collection or tafsir of the verses of al-A'raf 7:154 to 7:157
 GEMINI: ep48, which report gives the Prophet's order to the Companions about the market of Medina and the story of Umar's conversion with his sister, both passes give them at 00:03:30-00:04:30 and 00:11:30-00:13:30 without a chain, a sira source such as Ibn Hisham or a hadith collection
+
+### sharh-saheeh-al-bukhare ep49 (14 Nov 2026)
+
+26 points written for episode 49 (ar, en, ur); 22 needs_source marks in each language file for this episode; 3 new `about` edges. Quran verses referenced only through passage links (9-80, 9-84, 27-40); none typed. Contested: His readings of the lessons of Khaybar, of retirement as preparation for meeting God, of Umar and the Prophet as student and teacher, and his advice on not wishing to have lived in the Prophet's time are his own views; the sayings, stories and figures he relates by sense carry no chain. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep49) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening praise and greetings, opening prayer, series announcement | ep49 00:00:00-00:00:30 | Greetings and prayer | Clarity | Open |
+| Asides on the wording of retirement and daily bread, loops | ep49 00:04:00-00:05:30 | Garbled, loops | Clarity, Loop check | Open |
+| Remarks on ranking livelihood and others' opinions, garbled digression | ep49 00:06:30-00:07:00 | Too garbled to recover | Clarity | Open |
+| Garbled aside on the saying about the nations and the dish, loops | ep49 00:11:00-00:12:00 | Garbled, loops | Clarity, Loop check | Open |
+| Number of the hypocrites, name of the entrusted Companion | ep49 00:13:30-00:14:30 | The two passes give 14 and 17 and a garbled name | Clarity | Open |
+| Umar's supplication on strength, loops | ep49 00:16:00-00:17:00 | Garbled, repeated words | Clarity, Loop check | Open |
+| Remarks on a modern political leader and a modern official, garbled | ep49 00:18:30-00:19:30 | Sweeping remarks on modern politics, garbled | Voice rule / Clarity | Open |
+| Loop of repeated phrases and closing supplication of the first part | ep49 00:21:30-00:22:00 | Loops, prayer | Clarity, Loop check | Open |
+| Distance to Khaybar and size of the army | ep49 00:22:00-00:22:30 | Figures differ between the two passes | Clarity | Open |
+| Claims about how Jews act wherever they settle, about money, aid and banks, and a modern comparison | ep49 00:25:30-00:27:00 | Sweeping claims about a people and about modern affairs | Voice rule | Open |
+| Anecdotes, football, spying and cleverness, remarks on orientalists, garbled | ep49 00:29:00-00:32:30 | Sweeping claims about a people, garbled | Voice rule / Clarity, Loop check | Open |
+| Story of a wolf and a lamb with a poem, garbled | ep49 00:32:30-00:34:30 | Too garbled to recover | Clarity | Open |
+| Lesson on dealing with others from strength or weakness, a modern war and a modern movement, a fort and a king, garbled | ep49 00:35:30-00:38:30 | Sweeping claims about a people, modern conflict, garbled | Voice rule / Content rule / Clarity | Open |
+| Stay-behind negotiation details, a poem about birds and a tree, garbled | ep49 00:40:00-00:41:30 | Garbled, names unreliable | Clarity | Open |
+| Prayer about heat and cold and a saying on Ali, garbled | ep49 00:42:30-00:43:30 | Subject and wording unclear in both passes | Clarity | Open |
+| Loop and garbled march details | ep49 00:44:30-00:45:30 | Loops | Clarity, Loop check | Open |
+| Ghatafan negotiation and a champion's challenge, garbled | ep49 00:47:30-00:50:30 | Names and sequence unreliable | Clarity | Open |
+| Names of the Ansar leaders and reasons for refusing peace, garbled | ep49 00:50:30-00:51:30 | Names rest on single garbled words | Clarity | Open |
+| Loops and garbled stretch | ep49 00:51:30-00:53:30 | Loops, garbled | Clarity, Loop check | Open |
+| Sermon on causes and reliance on God, garbled | ep49 00:56:30-00:59:00 | Too garbled to recover | Clarity | Open |
+| Story of a man with one good deed, loops | ep49 01:00:00-01:05:00 | Garbled, loops | Clarity, Loop check | Open |
+| Gate of the fort and the call to Ali, loops | ep49 01:05:00-01:08:30 | Garbled, names unreliable | Clarity, Loop check | Open |
+| Break join, schedule announcement and closing | ep49 01:08:30-01:09:30 | Greetings and closing remarks | Clarity | Open |
+| General remarks on Muslims' conditions, loops, closing prayer | ep49 01:09:30-01:14:30 | Garbled, loops, closing prayer | Clarity, Loop check | Open |
+| Second ASR pass: Whisper large-v3 (mlx) run on the Mac to resolve garbled words of the Qwen transcript; cites use the shared 30-second grid | ep49 whole | Qwen pass garbled | Clarity | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 50 (branch from origin/main).
+GEMINI: ep49, identity of the hypocrite whose funeral prayer Umar objected to and the surrounding exchange, transcript says a name like "Abdullah ibn Ubayy" (second pass "Abdullah ibn Ubayd"; first pass puts Ibn Umar at 00:08:00), Sahih al-Bukhari and Muslim on the funeral prayer for Abdullah ibn Ubayy and the verses that followed
+GEMINI: ep49, which Companion was entrusted with the names of the hypocrites and how many they were, transcript says "Hudhayfa"-like name garbled and the number as 14 (first pass) or 17 (second pass), Sahih Muslim and Sahih al-Bukhari on the Hudhayfa hadiths about the hypocrites
+GEMINI: ep49, distance from Medina to Khaybar and size of the Muslim army, transcript says 135 km (first pass) or 153 km (second pass) and 1300 or an unclear figure, Ibn Hajar Fath al-Bari and Ibn Hisham on the march to Khaybar
+GEMINI: ep49, the three leaders or the second leader of the exiled tribes at Khaybar besides Huyayy ibn Akhtab and the third exiled tribe, transcript garbled (Banu Qaynuqa, Banu al-Nadir and a third name), Ibn Ishaq and al-Tabari on the exile of the tribes
+### alwaad-alhaq ep41 (14 Nov 2026)
+
+18 points written for episode 41 (ar, en, ur); 19 needs_source marks for this episode in each language file; three new about edges (niyya, ikhlas, tajdid), series record extended to episodes 1-41. Quran verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
+
+| Excluded (alwaad-alhaq ep41) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Thanks, greetings, praise and supplications of host and sheikh | ep41 00:03:30–00:06:00, 00:53:30–00:56:00 | Not lesson content; summarised by sense only | Content rule | Open |
+| Repetition loops and garbled windows | ep41 00:19:00–00:20:00, 00:22:00, 00:29:00, 00:41:30–00:42:00, 00:59:30 | Not speech or unclear; only the clear sense is summarised | Loop check and clarity | Open |
+| Poetry quoted (two sets of Arabic verses) | ep41 00:16:00, 00:58:00–00:58:30 | Not reproduced; second set attributed to Abu Nuwas by the host only | Sources policy | Open |
+| Personal and family details of living people and viewers' call-in arrangements | ep41 00:45:30–00:46:30, 00:57:00–00:58:00 | Kept general; no names or numbers recorded | Privacy | Open |
+| Contested statements of the sheikh (view of the four imams' fiqh, the story of Abu Hanifa's father, claims on al-Ghazali, Ibn Taymiyya) | ep41 00:27:00–00:37:00 | Recorded as his view with needs_source marks, not as rulings | Opinion rulings (founder-held) | Open |
+
+Resume point: alwaad-alhaq episode 42 (branch from origin/main).
+GEMINI: ep41, the channel and the director: the host thanks Sharjah Television and its satellite channel while the series record says the Al-Sharq channel, and the director's name is garbled (Khidr Abd al-Nitam, later Khidr Abd al-Mutallab); the source that would settle it is the programme's own credits or the channel's page.
+GEMINI: ep41, names of the sheikh's teachers and colleagues in the garbled transcript at 00:09:30-00:23:30 (Abd al-Fattah Abu Zayd, Ahmad Makhluf, Mahmud, Muhammad Nayil, Mahmud Hamaya, Jamal Abd al-Aziz, Abd al-Hamid Farmawi); the source that would settle it is an interview or biography of Omar Abdelkafy.
+GEMINI: ep41, the report of a devout man who missed no first takbir for fifty years, which the transcript gives to Sa'id ibn al-Musayyib or al-Bukhari at 00:36:30-00:37:30; the source that would settle it is the biographical dictionaries (Siyar a'lam al-nubala').
+GEMINI: ep41, whether the verses ending the episode (at 00:58:00-00:58:30, a servant admitting sin and taking refuge in God's pardon) are by Abu Nuwas as the host says; the source that would settle it is the diwan of Abu Nuwas.
+
+### alwaad-alhaq ep42 (14 Nov 2026)
+
+21 points written for episode 42 (ar, en, ur); 14 needs_source marks for this episode in each language file; series record extended to episodes 1-42 with edges for the Mahdi, repentance, trial, the houris, fear, stoning, the pilgrimage rulings, the beautiful names, Mina, Hamza and Ata ibn Abi Rabah. Quran verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
+
+| Excluded (alwaad-alhaq ep42) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Sponsor advertisements, breaks, greetings, supplications and long looped thanks | ep42 00:03:30-00:07:30 and 01:03:00-01:05:30 | Not lesson content; summarised by sense only | Content rule | Open |
+| Sweeping claim about the Arabs as a people (disorderly, spontaneous, emotional, lacking continuity) and about wives seeing husbands as piles of faults | ep42 00:29:30-00:31:30 | Generalisations about peoples and women | Voice rule | Open |
+| Fiqh and personal questions from callers not answered in the transcript (early departure from Arafa, funds held for a shop owner, a dream of a deceased father, a woman's jihad as asked, an invention for the community) | ep42 00:23:00, 00:37:30-00:38:30, 00:40:00, 00:56:30-00:57:30 | No answer from the sheikh in this transcript; the host also redirects fiqh questions to other programmes | Content rule | Open |
+| Callers' personal details, numbers and the request to contact a named media figure | ep42 00:21:30-00:22:30, 00:58:00-00:58:30 | Privacy; kept general | Privacy | Open |
+| Looped or garbled stretches (loops of one phrase, scrambled sentences) | ep42 00:03:00-00:03:30, 00:06:00-00:07:00, 00:24:00-00:24:30, 00:43:30, 01:12:00-01:12:30 | Too garbled to recover | Clarity, Loop check | Open |
+| Contested statements of the sheikh (stoning before noon at Mina, the Mahdi, the seventy-two houris as handmaids, trial as a mark of status) | ep42 00:07:30-00:18:30, 00:32:00-00:33:00, 01:09:30-01:10:30 | Recorded as his view with needs_source marks, not as rulings | Opinion rulings (founder-held) | Open |
+
+Resume point: alwaad-alhaq episode 43 (branch from origin/main).
+GEMINI: ep42, the name of the stand-in director at 00:04:30 (appears as Mustafa Zazu; the usual director is Khidr Abd al-Mutallab); the source that would settle it is the programme's own credits or the channel's page.
+GEMINI: ep42, the identity of the woman and son in the report at 00:18:00-00:18:30 (the mother who asks if her son killed in a battle is in Paradise and is told he is in the highest Paradise); the source that would settle it is Sahih al-Bukhari, the report of the mother of Haritha ibn Suraqa.
+GEMINI: ep42, the report of the father and son at 01:07:00-01:07:30 (the son asks why people weep at the father's words, not at others'; names garbled, appears as Umar ibn Abi Dharr); the source that would settle it is the biographical dictionaries (Siyar a'lam al-nubala', Hilyat al-awliya').
+GEMINI: ep42, the year of the crush at Mina referred to at 00:10:30-00:18:30 and 00:16:00 ("yesterday"); the source that would settle it is dated news reports of the pilgrimage.
+PROPOSAL (ep41 title): the ep41 prose is headed "the final episode" (ar: الحلقة الختامية) because the host says in the transcript at 00:00:00-00:03:00 that this should be the last episode and that endings are painful; but the same transcript ends with the host announcing that the next episode (Monday) is on the description of the Prophet and that two further episodes are for calls, and ep42, ep43 and ep44 transcripts exist (ep43 ends "the last episodes of the programme"; ep42 is a call-in episode and not a finale). Proposed for the founder: retitle the ep41 heading in ar, en and ur to "the closing lecture episode" and drop "the final episode" and "the last episode" in its first point; not changed here because it is a published prose edit outside this episode's scope.
+### sharh-saheeh-al-bukhare ep50 (14 Nov 2026)
+
+27 points written for episode 50 (ar, en, ur); 24 needs_source marks in each language file for this episode; 10 new `about` edges. Quran verses referenced only through passage links (2-245, 28-68); none typed. Contested: His workplace advice on dealings between colleagues of different sexes, his reading of the Companions' ranks, and his applications of stories (Khalid at the river, the donkeys, paradise barred to the disobedient) are his own views, as are the troop and casualty figures he gives without a source. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep50) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greetings, long supplication and repeated dhikr loop | ep50 00:00:00-00:04:30 | greetings, prayer and a loop of repeated words | Clarity, Loop check | Open |
+| Closing advice to trust God and final greeting | ep50 01:14:30-01:15:00 | closing prayer and greeting | Clarity | Open |
+| Wife-and-relative remark about being sent to hell, and the poem of the angel at the gate of heaven with the man who died in a plane, at sea and over a rose | ep50 00:10:30-00:11:00 and 00:17:30-00:21:30 | story and verse too garbled in both passes to restate without invention | Clarity | Open |
+| Remarks on the Muslims of India and Hindus, with casualty claims | ep50 00:56:00-00:57:30 | sweeping claim about a modern conflict between communities | Content rule | Open |
+| Remarks on earthquakes, seismic waves and the earth's orbit | ep50 00:57:30-00:58:30 | garbled and not clearly supported by both passes | Clarity | Open |
+| The joke about a groom, a salary and seven children | ep50 00:52:00-00:52:30 | garbled anecdote, only its moral kept | Clarity | Open |
+| Names of the Companion who ate the poisoned sheep, the Jewish woman, and the scout commander | ep50 00:47:30-00:48:00 and 00:59:30-01:02:00 | names rest on single garbled words | Clarity | Open |
+| Loops and repeated-syllable stretches | ep50 00:03:30-00:04:00, 00:05:30, 00:07:00, 00:09:30, 00:10:00, 00:11:00, 00:14:30, 00:17:30-00:18:00, 00:20:00-00:20:30, 00:21:00, 00:23:00, 00:55:00-00:56:00, 01:01:30, 01:04:30, 01:07:30, 01:11:30 | repeated tokens or syllables in the first pass | Loop check | Open |
+| Hunger of the tribe of Aslam, the Prophet and Umar's women-in-the-house exchange | ep50 00:30:30-00:31:00 and 01:11:00-01:11:30 | garbled in both passes | Clarity | Open |
+| Second ASR pass: Whisper large-v3 (mlx) run on the Mac to resolve garbled words of the Qwen transcript; cites use the shared 30-second grid | ep50 whole | Qwen pass garbled | Clarity | Open |
+| The number of parts of the book Relief after Hardship | ep50 00:53:30 | number rests on one garbled phrase in one pass | Clarity | Open |
+| The animal Abu Jahl said he saw behind the Prophet | ep50 01:14:30 | garbled in both passes | Clarity | Open |
+| The list of what God chooses the time of (illness and wealth) and the exact contrast in the point on mutual dealing | ep50 00:55:30 and 01:04:30 | garbled or different in the two passes | Clarity | Open |
+| Description of the dabbaba as a covered wheeled ram, and the reason people change in the Muhammad ibn Maslama passage | ep50 00:38:30 and 00:41:00 | not stated clearly in either pass | Clarity | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 51 (branch from origin/main).
+GEMINI: ep50, who is the author of the book Relief after Hardship (al-Faraj ba'd al-shidda) in five parts that he recommends, he names an author in garbled form (al-Sulukiyy / al-Suluk) in both passes, a library catalogue entry or the book's printed title page
+GEMINI: ep50, which scout commander confirmed the Jewish informant's claim about the water of the fort, the second pass has a name that may be Sa'd ibn Abi Waqqas but the first pass has only a garbled word, a primary Sira source (Ibn Ishaq or al-Waqidi) on the fort of Khaybar's water
+GEMINI: ep50, the name of the Companion who ate the poisoned sheep and the name of the Jewish woman, both passes garble them (Abdallah ibn Abi Salama / al-Jabi; Zaynab appears in a garbled stretch), the Sahih and Sira accounts of the poisoned sheep at Khaybar
+GEMINI: ep50, the name of the Qurayshi orator and chief negotiator whom Umar wished to silence, the first pass has Said ibn Amir and the second Suhayl and ibn Amr in garbled form, a Sira source on the captives of Badr and the speech in Mecca after the Prophet's death
+GEMINI: ep50, which great expedition the Prophet began preparing for after Khaybar, the first pass says Nabk or Tabuk and the second says the opening of Mecca, both garbled, the episode's closing remark and a Sira chronology
+GEMINI: ep50, what Abu Jahl said he saw behind the Prophet when he paid the Qurayshi man for his camel, both passes garble it, the Sira of Ibn Ishaq on Abu Jahl and the man of Irash
