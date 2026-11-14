@@ -29,7 +29,8 @@ relations:
   - { type: member_of, target: group/quraysh }
   - { type: persecuted, target: person/bilal-ibn-rabah, start: { edtf: "0612~" }, end: { edtf: "0615~" }, sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume] }
   - { type: participated_in, target: event/battle-of-badr, role: meccan-side, sources: [source/ibn-ishaq-guillaume] }
-sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume]
+external_ids: { wikidata: Q7881225 }
+sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume, source/wikidata-umayya-ibn-khalaf]
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }
 
 education:

@@ -10,9 +10,12 @@ summary:
   ur: "محمد مجيدو، سوکوتو خلافت کے خلیفہ؛ 1996ء سے 2006۔ {cite:wikidata}"
 story_roles:
   - { role: ruler, toward: polity/sokoto-caliphate, start: { edtf: "1996", calendar: julian, precision: year }, end: { edtf: "2006", calendar: julian, precision: year }, status: historical, sources: [source/wikidata] }
+born: { edtf: "1926-04-20", hijri: "1344-10-07", calendar: gregorian, precision: day, status: historical, derived: true, note: "From Wikidata (Q224939, revision 2468959887, read 2026-11-14): date of birth as stored by the item (gregorian calendar model). The Hijri value is an arithmetical conversion, approximate to a day.", sources: [source/wikidata-muhammadu-maccido] }
+died: { edtf: "2006-10-29", hijri: "1427-10-06", calendar: gregorian, precision: day, status: historical, derived: true, note: "From Wikidata (Q224939, revision 2468959887, read 2026-11-14): date of death as stored by the item (gregorian calendar model). The Hijri value is an arithmetical conversion, approximate to a day.", sources: [source/wikidata-muhammadu-maccido] }
 relations:
   - { type: ruled_over, target: polity/sokoto-caliphate, sources: [source/wikidata] }
   - { type: successor_of, target: person/ibrahim-dasuki, sources: [source/wikidata] }
-sources: [source/wikidata]
+external_ids: { wikidata: Q224939 }
+sources: [source/wikidata, source/wikidata-muhammadu-maccido]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium); khulafa lane, plan 30" }
 provenance: { generated_by: "Devin (SWE-2 Medium)", run: "khulafa-roster-batch", note: "Roster record seeded from the cited sources; enrichment follows the lane." }

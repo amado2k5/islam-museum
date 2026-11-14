@@ -20,7 +20,8 @@ relations:
   - { type: successor_of, target: person/al-rashid-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: lived_in, target: place/baghdad, note: "Abbasid caliph 530-555 at Baghdad.", sources: [source/tarikh-khulafa-minhaj-1434], confidence: medium }
   - { type: died_in, target: place/baghdad, note: "Died in Rabi I 555.", sources: [source/tarikh-khulafa-minhaj-1434], confidence: medium }
-sources: [source/tarikh-khulafa-minhaj-1434]
+external_ids: { wikidata: Q293617 }
+sources: [source/tarikh-khulafa-minhaj-1434, source/wikidata-al-muqtafi-billah]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
 story_roles:
   - { role: ruler, toward: polity/abbasid-caliphate, start: { edtf: "1136", calendar: julian, precision: year }, end: { edtf: "1160", calendar: julian, precision: year }, status: historical, sources: [source/tarikh-khulafa-minhaj-1434] }

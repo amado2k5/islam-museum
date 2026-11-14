@@ -1,6 +1,7 @@
 id: person/al-mustamsik-cairo
 class: person
 label: { ar: "المستمسك", en: "al-Mustamsik", ur: "المستمسك" }
+died: { edtf: "1521", hijri: "0927~", calendar: julian, precision: year, status: historical, derived: true, note: "From Wikidata (Q210626, revision 2533522012, read 2026-11-14): date of death 1521 (julian calendar as declared by the item). The Hijri value is an arithmetical conversion, approximate to the year.", sources: [source/wikidata-al-mustamsik-cairo] }
 gender: male
 roles: [caliph]
 wings: [people]
@@ -14,6 +15,7 @@ story_roles:
 relations:
   - { type: ruled_over, target: polity/abbasid-caliphate-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: successor_of, target: person/al-mutawakkil-ala-llah-ii, sources: [source/tarikh-khulafa-minhaj-1434] }
-sources: [source/tarikh-khulafa-minhaj-1434]
+external_ids: { wikidata: Q210626 }
+sources: [source/tarikh-khulafa-minhaj-1434, source/wikidata-al-mustamsik-cairo]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium); khulafa lane, plan 30" }
 provenance: { generated_by: "Devin (SWE-2 Medium)", run: "khulafa-roster-batch", note: "Roster record seeded from the cited sources; enrichment follows the lane." }

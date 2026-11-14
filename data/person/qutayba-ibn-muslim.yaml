@@ -11,6 +11,7 @@ relations:
   - { type: ruler_of, target: place/khwarizm, sources: [source/tabari-tarikh-abu-al-fadl], confidence: medium, note: "ذكر الطبري صلحه مع ملك خوارزم وفتحه سمرقند {cite:tabari-tarikh-abu-al-fadl j.6 p.471} {cite:tabari-tarikh-abu-" }
   - { type: ruled_over, target: place/bukhara, sources: [source/tabari-tarikh-abu-al-fadl], confidence: medium, note: "ذكر الطبري صلحه مع ملك خوارزم وفتحه سمرقند {cite:tabari-tarikh-abu-al-fadl j.6 p.471} {cite:tabari-tarikh-abu-" }
   - { type: ruled_over, target: place/samarqand, sources: [source/tabari-tarikh-abu-al-fadl], confidence: medium, note: "ذكر الطبري صلحه مع ملك خوارزم وفتحه سمرقند {cite:tabari-tarikh-abu-al-fadl j.6 p.471} {cite:tabari-tarikh-abu-" }
-sources: [source/tabari-tarikh-abu-al-fadl, source/khudari-umayyad-state, source/salabi-umayyad-state-2020, source/umayyad-birth-to-fall-2006]
+external_ids: { wikidata: Q555214 }
+sources: [source/tabari-tarikh-abu-al-fadl, source/khudari-umayyad-state, source/salabi-umayyad-state-2020, source/umayyad-birth-to-fall-2006, source/wikidata-qutayba-ibn-muslim]
 provenance: { layer: own-research, generated_by: "Claude (Haiku 5.5) from Apple Vision OCR of Tabari, batch 3", sources: [source/tabari-tarikh-abu-al-fadl] }
 status: { review: draft, completeness: 2, generated_by: "body pages read; Claude (Haiku 5.5)" }
