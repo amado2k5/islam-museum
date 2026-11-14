@@ -6,25 +6,26 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لأحمد بن سعيد الدارمي؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ahmad ibn Sa'id al-Darimi; the entry is not yet checked on the page."
+  ar: "أحمد بن سعيد بن صخر السرخسي، أبو جعفر الدارمي، الحافظ، روى عنه أصحاب الكتب الستة سوى النسائي، من العلماء الكبار أولي الرحلة، ولي القضاء بسرخس ورجع إلى نيسابور وبها توفي سنة 253 هـ كما يذكر الصفدي."
+  en: "Ahmad ibn Sa'id ibn Sakhr al-Sarakhsi, Abu Ja'far al-Darimi, a hafiz from whom the compilers of the Group except al-Nasa'i narrated; a travelling scholar, judge of Sarakhs, who returned to Nishapur and died there in 253 AH according to al-Safadi."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/wafi-bi-l-wafayat-safadi-dar-ihya-2000]
 external_ids:
   wikidata: Q63121710
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Safadi, al-Wafi bi-l-Wafayat, ed. al-Arna'ut and Mustafa, 2000, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-wafi-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 died: { edtf: "867", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar)" }
 relations:
   - { type: born_in, target: place/sarakhs, note: "Wikidata Q765536 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
-  - { type: died_in, target: place/nishapur, note: "Wikidata Q131350 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: died_in, target: place/nishapur, note: "Wikidata Q131350 (P20); al-Safadi, al-Wafi, vol. 6 p. 241: returned to Nishapur and died there", sources: [source/wikidata, source/wafi-bi-l-wafayat-safadi-dar-ihya-2000], confidence: high }
   - { type: lived_in, target: place/abbasid-caliphate, note: "Wikidata Q12536 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/sarakhs, note: "al-Safadi, al-Wafi, vol. 6 p. 241: held the judgeship of Sarakhs", sources: [source/wafi-bi-l-wafayat-safadi-dar-ihya-2000], confidence: medium }
