@@ -6,23 +6,24 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لجابر بن يزيد الجعفي، فقيه الكوفة وراوية القرن الثامن عن الباقر؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Jabir ibn Yazid al-Ju'fi, the eighth-century jurist of Kufa and transmitter from al-Baqir; the biographical entry is not yet checked on the page."
+  ar: "جابر بن يزيد بن الحارث الجعفي، أبو عبد الله، تابعي من فقهاء الشيعة، من أهل الكوفة، أثنى عليه بعض رجال الحديث واتهمه آخرون بالقول بالرجعة؛ مات بالكوفة سنة 128 هـ الموافقة 745م."
+  en: "Jabir ibn Yazid ibn al-Harith al-Ju'fi, Abu Abd Allah, a tabi'i and one of the Shi'i jurists, of Kufa; some hadith men praised him and others accused him of holding the raj'a; he died in Kufa in 128 AH (745 CE)."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/umayyad]
-died: { edtf: "746", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal / al-Mizzi" }
+died: { edtf: "745", calendar: gregorian, precision: year, derived: true, note: "Died 128 AH = 745 CE per al-A'lam vol. 2 p. 99; corrected from 746.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
-  - { type: lived_in, target: place/kufa, confidence: low, note: "Associated with الكوفة per the record's own summary text; relation type pending review.", sources: [source/al-aalam] }
-sources: [source/al-aalam]
+  - { type: lived_in, target: place/kufa, note: "al-A'lam vol. 2 p. 99: of the people of Kufa.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }
+  - { type: died_in, target: place/kufa, note: "al-A'lam vol. 2 p. 99: he died in Kufa.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q17991892
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0044
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
