@@ -6,27 +6,29 @@ label:
 roles: [muhaddith]
 gender: male
 summary:
-  ar: "بطاقة أولية لمحمد بن إسحاق الصاغاني، المحدث في القرن الثالث الهجري؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Muhammad ibn Ishaq al-Saghani, the third-century hadith scholar; his entry is not yet checked on the page."
+  ar: "محمد بن إسحاق، أبو بكر الصاغاني ثم البغدادي، الحافظ الحجة، سمع يزيد بن هارون وطبقته، وذكره ابن العماد في وفيات سنة 270 هـ في صفر {cite:shadharat-dhahab vol. 3 p. 301}."
+  en: "Muhammad ibn Ishaq, Abu Bakr al-Saghani then al-Baghdadi, a hadith hafiz and authority who heard from Yazid ibn Harun and his generation; Ibn al-Imad records his death in Safar 270 AH {cite:shadharat-dhahab vol. 3 p. 301}."
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/abbasid-early]
-born: { edtf: "0790", precision: year, status: tradition, derived: true }
-died: { edtf: "0883", precision: year, status: tradition, derived: true }
+born: { edtf: "0790", precision: year, status: tradition, derived: true, note: "Card year kept; Ibn al-Imad gives no birth year." }
+died: { edtf: "0883", hijri: "0270", precision: year, status: tradition, derived: true, note: "Ibn al-Imad, vol. 3 p. 301, lists him under 270 AH, died in Safar; 270 AH = 883-884 CE by the museum's conversion, agreeing with the card.", sources: [source/shadharat-dhahab] }
 relations:
-  - { type: born_in, target: place/baghdad, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1530)" }
-sources: [source/al-aalam]
+  - { type: born_in, target: place/baghdad, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1530); Ibn al-Imad calls him al-Saghani then al-Baghdadi but names no birthplace" }
+  - { type: lived_in, target: place/baghdad, confidence: high, note: "Ibn al-Imad, vol. 3 p. 301: the nisba al-Baghdadi (then al-Baghdadi)", sources: [source/shadharat-dhahab] }
+  - { type: student_of, target: person/yazid-ibn-harun, confidence: high, note: "Ibn al-Imad, vol. 3 p. 301: he heard from Yazid ibn Harun and his generation", sources: [source/shadharat-dhahab] }
+sources: [source/al-aalam, source/shadharat-dhahab]
 external_ids:
   wikidata: Q106522160
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "Ibn al-Imad, Shadharat al-Dhahab, year 270 AH, entry read in full from the local OpenITI text (Dar Ibn Kathir edition, vol. 3)"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-shadharat-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 occupations:
   - job: job/muhaddith
     kind: primary

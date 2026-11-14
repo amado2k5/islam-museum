@@ -1,24 +1,24 @@
 id: person/jibril-ibn-al-fadl-al-samarqandi
 class: person
 label: { ar: "جبريل بن الفضل السمرقندي", en: "Jibril ibn al-Fadl al-Samarqandi" }
-roles: [scholar]
+roles: [scholar, muhaddith]
 gender: male
-died:
-  hijri: "0306"
-  status: tradition
-  sources: [source/muntazam-ibn-al-jawzi]
+died: { edtf: "918", hijri: "0306", calendar: gregorian, precision: year, status: tradition, derived: true, note: "Ibn al-Jawzi, al-Muntazam, vol. 13 p. 184, lists him under the events of 306 AH; the Gregorian year is the museum's conversion.", sources: [source/muntazam-ibn-al-jawzi] }
 summary:
-  ar: "أبو حاتم السمرقندي، ورد بغداد حاجًا في سنة اثنتين وتسعين ومائتين وحدّث عن قتيبة وغيره، روى عنه عبد الباقي بن قانع وكان ثقة؛ توفي سنة ست وثلاثمائة {cite:muntazam-ibn-al-jawzi p. 150}."
-  en: "Abu Hatim of Samarqand, who came to Baghdad on the hajj of 292 and transmitted from Qutayba; 'Abd al-Baqi ibn Qani' heard him. He died in 306 {cite:muntazam-ibn-al-jawzi p. 150}."
+  ar: "أبو حاتم السمرقندي، ورد بغداد حاجا في سنة اثنتين وتسعين ومائتين وحدث عن قتيبة وغيره، روى عنه عبد الباقي بن قانع وكان ثقة؛ توفي سنة ست وثلاثمائة {cite:muntazam-ibn-al-jawzi vol. 13 p. 184}."
+  en: "Abu Hatim of Samarqand, who came to Baghdad on the pilgrimage of 292 AH and transmitted from Qutayba; Abd al-Baqi ibn Qani' narrated from him and Ibn al-Jawzi calls him reliable; he died in 306 AH {cite:muntazam-ibn-al-jawzi vol. 13 p. 184}."
 wings: [people]
 periods: [period/abbasid-early]
 regions: [persia-central-asia]
 relations:
-  - { type: lived_in, target: place/baghdad, confidence: low, note: "Associated with بغداد per the record's own summary text; relation type pending review.", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: traveled_to, target: place/baghdad, confidence: high, note: "Ibn al-Jawzi, al-Muntazam, vol. 13 p. 184: came to Baghdad on pilgrimage in 292 AH", sources: [source/muntazam-ibn-al-jawzi] }
+sources: [source/muntazam-ibn-al-jawzi]
 provenance:
   layer: own-research
-  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج5، سنة 306)، قراءة آبل فيجن"
-  generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
-  run: lib-muntazam-258-349-batch37
-sources: [source/muntazam-ibn-al-jawzi]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
+  source: "Ibn al-Jawzi, al-Muntazam, year 306 AH, entry read in full from the local OpenITI text (vol. 13); the earlier card cite (p. 150) came from another edition"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-muntazam-2026-11-14
+status:
+  review: draft
+  completeness: 3
