@@ -6,22 +6,24 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لإبراهيم بن محمد بن أبي يحيى الأسلمي؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ibn Abi Yahya al-Aslami; the entry is not yet checked on the page."
+  ar: "إبراهيم بن محمد بن أبي يحيى سمعان الأسلمي، أبو إسحاق، عالم بالحديث من أهل المدينة وأحد شيوخ الشافعي، له موطأ أضعاف موطأ مالك، طعن فيه رجال الحديث، وتوفي سنة 184 هـ الموافقة 800 م بحسب الزركلي."
+  en: "Ibrahim ibn Muhammad ibn Abi Yahya Sam'an al-Aslami, Abu Ishaq, a hadith scholar of Medina and one of al-Shafi'i's teachers, author of a Muwatta' many times the size of Malik's, criticised by the men of hadith; died 184 AH (800) according to al-Zirikli."
 wings: [people]
 regions: [arabia]
 periods: [period/rashidun]
+died: { edtf: "800", hijri: "0184", calendar: gregorian, precision: year, note: "al-Zirikli, al-A'lam, vol. 1 p. 59, prints 184 AH = 800 CE; no year of birth", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
   - { type: lived_in, target: place/hijaz, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/al-aalam] }
-sources: [source/al-aalam]
+  - { type: lived_in, target: place/medina, confidence: high, note: "al-Zirikli, al-A'lam, vol. 1 p. 59: he was of the people of Medina", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q97276916
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3

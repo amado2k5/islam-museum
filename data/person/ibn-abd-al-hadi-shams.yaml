@@ -6,25 +6,27 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لشمس الدين محمد بن أحمد بن عبد الهادي المقدسي، محدث حنبلي القرن الرابع عشر تلميذ ابن تيمية والمزي، توفي سنة ١٣٤٣م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Shams al-Din Muhammad ibn Ahmad ibn Abd al-Hadi al-Maqdisi, the fourteenth-century Hanbali hadith scholar, student of Ibn Taymiyya and al-Mizzi, d. 1343; the biographical entry is not yet checked on the page."
+  ar: "محمد بن أحمد بن عبد الهادي، شمس الدين أبو عبد الله، ابن قدامة المقدسي الجماعيلي ثم الدمشقي الصالحي، حافظ حنبلي أخذ عن ابن تيمية والذهبي، صنف ما يزيد على سبعين كتابا، توفي بظاهر دمشق سنة 744 هـ الموافقة 1343 م."
+  en: "Muhammad ibn Ahmad ibn Abd al-Hadi, Shams al-Din Abu Abd Allah, of Jamma'ili origin and later of al-Salihiyya in Damascus, a Hanbali hafiz of hadith who studied under Ibn Taymiyya and al-Dhahabi and wrote over seventy books; died on the outskirts of Damascus in 744 AH (1343)."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/mongol-post-mongol]
-born: { edtf: "1305", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Mu'jam al-Muhaddithin Confirmed on 13 November 2026 against Wikidata Q12240197 (P569, a statement with a reference), item revision 2533250953.", sources: [source/wikidata] }
-died: { edtf: "1343", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Mu'jam al-Muhaddithin" }
+born: { edtf: "1305", hijri: "0705", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Mu'jam al-Muhaddithin Confirmed on 13 November 2026 against Wikidata Q12240197 (P569, a statement with a reference), item revision 2533250953. al-Zirikli, al-A'lam, vol. 5 p. 326, prints 705 AH = 1305 CE, agreeing with the card.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
+died: { edtf: "1343", hijri: "0744", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Mu'jam al-Muhaddithin. al-Zirikli, al-A'lam, vol. 5 p. 326, prints 744 AH = 1343 CE, agreeing with the card.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
   - { type: born_in, target: place/damascus, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-  - { type: died_in, target: place/damascus, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/shadharat-dhahab]
+  - { type: died_in, target: place/damascus, confidence: medium, note: "al-Zirikli, al-A'lam, vol. 5 p. 326: he died on the outskirts of Damascus", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
+  - { type: student_of, target: person/ibn-taymiyya, confidence: high, note: "al-Zirikli, al-A'lam, vol. 5 p. 326: he took from Ibn Taymiyya and al-Dhahabi and others", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+  - { type: student_of, target: person/al-dhahabi, confidence: high, note: "al-Zirikli, al-A'lam, vol. 5 p. 326", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+sources: [source/shadharat-dhahab, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q12240197
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: Ibn al-Imad, Shadharat al-Dhahab — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0034
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
