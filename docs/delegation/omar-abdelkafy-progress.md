@@ -4254,3 +4254,31 @@ Resume point: sharh-saheeh-al-bukhare episode 30 (branch from origin/main).
 | Break join, closing remarks and prayer | ep30 01:10:00-01:10:30 | Greetings and closing prayer | Clarity | Open |
 
 Resume point: sharh-saheeh-al-bukhare episode 31 (branch from origin/main).
+
+### sharh-saheeh-al-bukhare ep31 (14 Nov 2026)
+
+26 points written for episode 31 (ar, en, ur); 21 needs_source marks in each language file for this episode; 3 new `about` edges. No Quran verses linked; none typed. Contested: his advice that all scholars and others devote all their time to the call, his reading of the letters of advice to rulers as lessons for the present, his application of the gift hadith to officials, and his account of temptation at death are his own views; the letters and stories are given without chain or collection. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep31) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greeting and praise | ep31 00:00:00-00:00:30 | Greeting formula, no teaching content | Content rule | Open |
+| Closing and opening prayers for those in distress | ep31 00:03:30-00:05:30 | Prayer, not teaching content | Content rule | Open |
+| Closing prayer and farewell | ep31 01:11:00-01:11:30 | Closing prayer and farewell | Content rule | Open |
+| Imam al-Haramayn remark about the commentary | ep31 00:01:30-00:02:30 | Both passes garbled, sense not recoverable | Clarity, Loop check | Open |
+| Looping stretch before the lion story | ep31 00:09:00-00:09:30 | Repeated filler words in the first pass, sense not recoverable | Clarity, Loop check | Open |
+| Direct address to the audience about merit and gatherings | ep31 00:12:30-00:13:30 | Garbled in both passes, sense not recoverable | Clarity, Loop check | Open |
+| Remarks on carpets, presents and presumed innocence in the Umar letter section | ep31 00:22:30-00:24:00 | Garbled in both passes, sense not recoverable | Clarity, Loop check | Open |
+| Story of Umar ibn Abd al-Aziz and heated water, and the remark that he kept the letter before him | ep31 00:31:00-00:32:30 and 00:38:30 | Heavily garbled, a name or detail would rest on a single word | Clarity, Loop check | Open |
+| Middle section of al-Hasan's letter (flock, orphans, the heart image) | ep31 00:33:30-00:35:30 | Looping and garbled in the first pass, partly in the second | Clarity, Loop check | Open |
+| Sufyan's reply after Harun wept | ep31 00:44:30-00:45:00 | Garbled in both passes, sense not recoverable | Clarity, Loop check | Open |
+| Remarks on those who reject a ruling and on declaring people unbelievers | ep31 00:46:00-00:47:30 | Sweeping judgement on groups and a ruling on unbelief, not for the museum's voice | Voice rule | Open |
+| Middle category of the livelihood and return saying | ep31 00:48:00-00:48:30 | Label garbled differently in each pass | Clarity, Loop check | Open |
+| Story of a man watching animals and the saying on the enemy providing for his enemy | ep31 00:50:30-00:51:00 | Story garbled in both passes, sense not recoverable | Clarity, Loop check | Open |
+| Colloquial anecdotes about prices, marriage and everyday dealings | ep31 00:54:30-00:58:00 | Garbled, looping and conversational filler with no clear teaching point | Clarity, Loop check | Open |
+| Sweeping claims about Egyptian society | ep31 00:57:30-00:58:30 | Generalisation about a people, not for the museum's voice | Voice rule | Open |
+| Remarks on teachers, private lessons and society | ep31 01:01:00-01:03:00 | Sweeping claims about a profession and society, garbled | Voice rule | Open |
+| Remarks on Eid, parents, children, drugs and smoking | ep31 01:03:30-01:06:30 | Garbled and conversational, sweeping generalisations | Voice rule | Open |
+| Account of an imam's last moments | ep31 01:08:30-01:10:00 | Garbled in both passes, a person's name would rest on a single word | Clarity, Loop check | Open |
+| Second ASR pass: Whisper large-v3 (mlx) run on the Mac to resolve garbled words of the Qwen transcript; cites use the shared 30-second grid | ep31 whole | Qwen pass too garbled for a rich first pass | Clarity | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 32 (branch from origin/main).
