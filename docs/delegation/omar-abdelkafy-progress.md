@@ -3134,3 +3134,20 @@ Resume point: min-kunuz-al-sunnah episode 18 (branch from origin/main).
 | Garbled stock-market and blood-pressure figures | ep18 00:27:00-00:27:30 | Numbers garbled, not clearly supported | Clarity, Loop check | Open |
 
 Resume point: min-kunuz-al-sunnah episode 19 (branch from origin/main).
+
+### min-kunuz-al-sunnah ep19 (14 Nov 2026)
+
+14 points written for episode 19 (ar, en, ur); 6 needs_source marks in each language file for this episode; 7 new `about` edges. Quran verses referenced only through passage links (11-6, 51-22, 4-17, 7-172); none typed. Contested: He holds that obstructing young people's marriage is sinful, that zakat is due on jewellery, that a coerced divorce and a divorce in a final illness to harm a wife do not take effect, that deliberate neglect of prayer and fasting is made up in the ways he describes, and that a woman who deliberately leaves off covering must stop to be forgiven; these are his views, some rest on reports given without chains, and scholars differ on several.
+
+| Excluded (min-kunuz-al-sunnah ep19) | Episode / time | Reason | Gate failed | Override |
+| Opening greeting, praise and intro to the hadith | ep19 00:00:00-00:00:30 | Greeting formula and salutation | Content rule | Open |
+| Break join and welcome back (first) | ep19 00:09:00-00:09:30 | Break join and welcome back | Content rule | Open |
+| Break join and welcome back (second) | ep19 00:16:30-00:17:00 | Break join and welcome back | Content rule | Open |
+| Closing prayer and sign-off | ep19 00:25:30-00:26:00 | Closing prayer and farewell | Content rule | Open |
+| Claim that a young man facing obstacles will go straight to the unlawful | ep19 00:05:00-00:05:30 | Sweeping claim about a class of people | Voice rule | Open |
+| Claim about heirs scheming against a new young wife of an elderly father | ep19 00:19:00-00:19:30 | Sweeping claim about families and women, partly garbled | Voice rule, Clarity | Open |
+| Garbled stretch on valuing missed Ramadans at past prices | ep19 00:13:30-00:14:00 | Too garbled to recover | Clarity | Open |
+| Garbled stretch on a doubt about prayer units and sunna acts | ep19 00:24:30-00:25:00 | Fragmentary, only the advice recovered | Clarity | Open |
+| Looped repetitions in the dua of the Arab and provision section | ep19 00:06:30-00:07:00 | Repeated phrases, only the core recovered | Clarity, Loop check | Open |
+
+Resume point: min-kunuz-al-sunnah episode 20 (branch from origin/main).
