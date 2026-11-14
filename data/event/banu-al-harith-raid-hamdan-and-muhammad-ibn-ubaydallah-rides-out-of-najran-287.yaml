@@ -1,0 +1,65 @@
+id: event/banu-al-harith-raid-hamdan-and-muhammad-ibn-ubaydallah-rides-out-of-najran-287
+class: event
+kind: other
+label:
+  ar: "غارة جماعة من بني الحارث على همدان وخروج محمد بن عبيد الله في طلبهم، 287هـ"
+  en: "Some of Banu al-Harith raid Hamdan and Muhammad ibn Ubaydallah rides out of Najran after them, 287 AH"
+  ur: "بنو حارث کی ایک جماعت کا ہمدان پر چھاپہ اور محمد بن عبید اللہ کا نجران سے ان کے تعاقب میں نکلنا، 287ھ"
+summary:
+  ar: "يصير أبو جعفر محمد بن عبيد الله إلى نجران فيهابه الناس ويثنون على سيرته بحسب الراوي، ثم يخرج بعض أهل الفساد من بني الحارث بعد ما بلغهم خبر الأكيليين فيغيرون على همدان، فيركب في طلبهم إلى أسفل وادي نجران دون أن يلحق أحداً، ويرده الجاهر بن زياد ورجل حارثي، فيكتب إلى الهادي."
+  en: "Abu Jafar Muhammad ibn Ubaydallah goes to Najran, where by the narrator's account people respect him and praise his conduct; some troublemakers of Banu al-Harith, after the news of what befell the Akilis, raid Hamdan; he rides after them to the lower Najran valley and catches none, is turned back by al-Jahir ibn Ziyad and a Harithi companion, and writes to al-Hadi."
+  ur: "ابو جعفر محمد بن عبید اللہ نجران جاتے ہیں جہاں راوی کے مطابق لوگ ان کا رعب مانتے اور ان کی سیرت کی تعریف کرتے ہیں؛ پھر بنو حارث کے کچھ فسادی اکیلیوں کی خبر کے بعد ہمدان پر چھاپہ مارتے ہیں، وہ وادی نجران کے نشیب تک ان کے پیچھے جاتے ہیں مگر کسی کو نہیں پاتے، جاہر بن زیاد اور ایک حارثی ساتھی انہیں لوٹاتے ہیں اور وہ ہادی کو لکھتے ہیں۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0900"
+    hijri: "0287"
+    calendar: julian
+    precision: year
+    status: tradition
+    derived: true
+    note: "سنة 287هـ؛ بعد قتال الأكيليين وقبل المحرم 288هـ دون ذكر الشهر؛ الدقة سنوية؛ التحويل مشتق"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/najran
+- type: had_participant
+  target: person/abu-jafar-muhammad-ibn-ubaydallah-al-abbasi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/al-jahir-ibn-ziyad-of-banu-al-harith
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-al-harith-ibn-kab
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-hamdan
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص200-201 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-24
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 200-201
