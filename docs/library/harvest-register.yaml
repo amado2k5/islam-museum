@@ -16858,7 +16858,8 @@ books:
     ocr_archive: {path: ocr-archive/tareekh/muruj-dhahab.zip, bytes: 3538077, sha256: 7966486c117bca5d521eb63efff04df3af6b5328f3ce1be908bf296c14f384e8, pages_covered: 2284, zipped: '2026-11-14', state: verified, note: 'unzip -t passed; text (book.txt, pages.json, ocr.log) and scripts of all four scans (pages.json 804, 768, 352, 360 pages), no images or PDFs; the two mined scans 000944 and 011911 cover 1572 pages'}
     mining: {state: mined, ranges_mined: ['011911 to p. 721 of 768 (rest is the table of contents and index)', '000944 to p. 751 (colophon) of 804'], skipped_pages: ['Heliopolis1957 (352 pp) and 3_20200910 (360 pp): duplicate coverage of the same text, not mined separately (ledger)', '011911 pp. 722-768 and 000944 pp. 752-804: indexes and front matter (ledger; wrap-up 14 Nov 2026, not re-read)'], entities: 1007 data files cite source/muruj-al-dhahab}
     ingestion: {state: ingested, prs: [1600], ledger: [docs/delegation/library/muruj-dhahab.md], graph_ids: [source/muruj-al-dhahab]}
-    completion: complete
+    completion: deleted
+    deletion: {date: '2026-11-14', deleted: ['raw/library/tareekh/muruj-dhahab/ (four PDFs)', 'books/tareekh/muruj-dhahab/ (PDF copies, page images, OCR text, scripts, logs)'], bytes_freed: 818525591, kept: [ocr_archive], restore: {url: 'https://archive.org/details/AAlexandrina-011911', sha256: 4237d9ae6e05770059cbd0023c63ff68310677870c603d7b78c97557fd77fbf5, note: 'other scans: archive.org items AAlexandrina-000944, Heliopolis1957_gmail_2_20181129, 3_20200910; hashes in files'}}
     unverified:
     - edition
     - mining.ranges_mined
