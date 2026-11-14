@@ -1,0 +1,18 @@
+id: concept/cervical-vertebrae
+class: concept
+kind: scientific
+label: { ar: "فقار العنق عند ابن سينا", en: "The neck vertebrae in the Canon", ur: "قانون میں گردن کی کڑیاں" }
+summary:
+  ar: "يقول ابن سينا إن العنق خُلق لأجل قصبة الرئة، وإن فقاره سبع، وإن الأولى والثانية منها لهما خواص ليست لغيرهما في حركة الرأس {cite:canon-ibn-sina-print-v1 pp.48-50}."
+  en: "Ibn Sina says the neck was made for the sake of the windpipe, that its vertebrae are seven, and that the first and second have properties the others lack, in the movement of the head {cite:canon-ibn-sina-print-v1 pp.48-50}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/vertebral-column, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 1, Jumla 1 on bones (scan pages 40 to 55), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-bones-1
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

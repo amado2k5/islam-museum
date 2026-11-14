@@ -1,0 +1,18 @@
+id: concept/vertebral-column
+class: concept
+kind: scientific
+label: { ar: "الصلب والفقار عند ابن سينا", en: "The spine in the Canon", ur: "قانون میں ریڑھ کی ہڈی" }
+summary:
+  ar: "يعدّد ابن سينا للصلب، أي عمود الفقار، أربع منافع، ثم يصف الفقرة وزوائدها وثقوبها ومفاصلها، ويختم بكلام جامع في هيئة الصلب كله {cite:canon-ibn-sina-print-v1 pp.47-48} {cite:canon-ibn-sina-print-v1 p.52}."
+  en: "Ibn Sina gives the spine (sulb, the column of vertebrae) four uses, then describes the vertebra, its processes, holes and joints, and closes with a summary on the form of the whole spine {cite:canon-ibn-sina-print-v1 pp.47-48} {cite:canon-ibn-sina-print-v1 p.52}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/bones, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 1, Jumla 1 on bones (scan pages 40 to 55), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-bones-1
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }
