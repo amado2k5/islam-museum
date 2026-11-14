@@ -1023,3 +1023,7 @@ Wrote ar, en and ur prose for vila, th-nia, el-mahalla-el-kubra, ioannina, kirku
 
 - Written (ar, en, ur, draft): erzincan (iDAI plus Yaqut vol. 1, scan p. 194; `source/mujam-al-buldan-yaqut` added), kandahar, unaizah, oujda, sari, i-skilip, marseille, masyaf, kazan, karaman (iDAI.gazetteer only; none of these has a Pleiades id in the packet, and the iDAI-linked Pleiades numbers are given as identifiers only). Skipped: none.
 - Yaqut vols 1-2 searched by Arabic name: only Arzanjan has an entry; Qandahar, Unaizah (poetry mentions only), Sari, Wajda are mentions, not entries. iDAI read via gazetteer.dainst.org/doc/<id>.json.
+
+## 2026-11-14 (Lane B1 packet 10) - place prose, ten places
+
+- Written (ar, en, ur, draft): kastamonu, radaa, shubra-khit, edinburgh, sinop, bitlis, sivas (iDAI.gazetteer, read via gazetteer.dainst.org/doc/<id>.json) and pre-ov, abusir, tuz-khormato (Pleiades JSON, read 14 Nov 2026). Bitlis cites Yaqut vols 1-2, scan p.494 (entry Badlis); `source/mujam-al-buldan-yaqut` added to its sources. Sivas appears in Yaqut only inside the Tawfat entry, so no Yaqut cite; Abusir has only a Busir entry for four villages that cannot be tied to the site; Rada'a, Kastamonu, Sinop, Shubra Khit, Edinburgh, Tuz Khormato, Pre-ov have none in vols 1-2. Skipped: none.
