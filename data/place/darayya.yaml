@@ -10,8 +10,8 @@ regions: [levant-iraq]
 coordinates: [33.458888888889, 36.237222222222]
 coordinate_precision: approx
 coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
-external_ids: { wikidata: "Q1033066" }
-sources: [source/wikidata]
+external_ids: { wikidata: "Q1033066", althurayya: "DARAYYA_362E334N_S" }
+sources: [source/wikidata, source/althurayya-gazetteer]
 provenance:
   layer: own-research
   source: "Wikidata item Q1033066 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
