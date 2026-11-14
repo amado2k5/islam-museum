@@ -6,23 +6,23 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لزكريا بن عدي الكوفي، من ثقات المحدثين؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Zakariyya ibn Adi of Kufa, a trustworthy hadith transmitter; his entry is not yet checked on the page."
+  ar: "زكريا بن عدي بن زريق التيمي مولاهم الكوفي، أبو يحيى، حافظ ثبت نزل بغداد، روى عنه إسحاق بن راهويه والبخاري؛ توفي سنة ٢١١هـ أو ٢١٢هـ."
+  en: "Zakariyya ibn Adi ibn Zurayq al-Taymi of Kufa, Abu Yahya, a firm memoriser who settled in Baghdad, from whom Ishaq ibn Rahawayh and al-Bukhari narrated; he died in 211 or 212 AH."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/siyar-alam-nubala-ideas-house]
 external_ids:
   wikidata: Q107094284
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Dhahabi, Siyar A'lam al-Nubala, one-volume edition (Bayt al-Afkar al-Dawliyya), entry read in full on the scanned pages (Apple Vision OCR on the harvest drive); the web page of the Risala edition on shamela.ws (book 10906) was used to confirm the work and its volume layout"
+  generated_by: "Claude Code (Lane B2, web-source and Shamela enrichment)"
+  model: claude-sonnet-5-5
+  run: web-b2-siyar-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 born: { edtf: "748", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi)" }
 died: { edtf: "827", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi)" }
 relations:

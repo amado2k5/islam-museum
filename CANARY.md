@@ -45,6 +45,8 @@ open a new block on top with the new version and today's date.
 - **Biblissima links added to fifteen more scholars.** Ibn al-Mulaqqin, Ibn Hisham al-Ansari, the two al-Subkis, Safi al-Din al-Hilli, Taskopruzade, Latifi, Ahmedi, al-Qazwini, al-Khazin al-Baghdadi, al-Marghinani, Ibn Abi Zayd al-Qayrawani and four others now carry their Biblissima identifier; each was matched through Biblissima's own Wikidata statement, and their life dates agree with ours (decision dec-20261114-277).
 ### Data
 - **Three more hadith scholars have full trilingual biographies from al-Dhahabi's Siyar A'lam al-Nubala', cited to the page:** Abd al-Aziz ibn Rufay, Amr ibn Marzuq (with the critics' differing verdicts) and Ali ibn Khashram, whose card wrongly called him Kufan (the book names him al-Marwazi). All draft until a human reads them.
+### Data
+- **Four more hadith scholars have full trilingual biographies from al-Dhahabi's Siyar A'lam al-Nubala', cited to the page:** Zakariyya ibn Adi, Bashshar ibn Musa (critics' disagreement given to each speaker), Ahmad ibn al-Furat and al-Hasan ibn Sallam. **Four cards were corrected to what the book says:** Bashshar ibn Musa's death year (843, not 887) and the uncited birth year removed; al-Hasan ibn Sallam's death (890, not 884); Ahmad ibn al-Furat now lives in Isfahan, not Baghdad (the old link belonged to another Ibn al-Furat); Ali ibn Khashram now lives in Merv, not Kufa.
 
 ## v1.30.0 — 2026-11-14
 ### Added
