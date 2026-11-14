@@ -1,0 +1,18 @@
+id: concept/canon-managing-one-who-has-vomited-too-much
+class: concept
+kind: scientific
+label: { ar: "تدبير من أفرط عليه القيء عند ابن سينا", en: "Managing a patient who has vomited too much in the Canon", ur: "قانون میں حد سے زیادہ قے کرنے والے کی تدبیر" }
+summary:
+  ar: "يأمر ابن سينا فيمن أفرط عليه القيء بتنويمه بكل حيلة وربط أطرافه وعلاج معدته بالأضمدة المقوية والقابضة، وإن استفرغ دماً فبسقي اللبن ممزوجاً بالخمر، ثم السكنجبين المبرد بالثلج وعصارة بقلة الحمقاء مع الطين الأرمني {cite:canon-ibn-sina-print-v1 pp.288-289}."
+  en: "For one who has vomited too much Ibn Sina orders sleep by every means, binding the limbs and strengthening, astringent poultices on the stomach, and, if he brings up blood, milk mixed with wine, then oxymel cooled with snow and purslane juice with Armenian bole {cite:canon-ibn-sina-print-v1 pp.288-289}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/medicine, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 4, chapters 10 to 19, on vomiting, the enema, paints and douches (scan pages 285 to 289), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-fann4-ch10-19
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }
