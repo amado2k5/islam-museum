@@ -1,0 +1,63 @@
+id: event/the-night-raid-on-zabwa-and-the-death-of-abu-al-qasim-al-jafari-289
+class: event
+kind: other
+label:
+  ar: "غارة ليلة الجمعة على ظبوة ومقتل أبي القاسم الجعفري، صفر 289هـ"
+  en: "The night raid on Zabwa and the death of Abu al-Qasim al-Ja'fari, Safar 289 AH"
+  ur: "ظبوہ پر شب خون اور ابو القاسم جعفری کی ہلاکت، صفر 289ھ"
+summary:
+  ar: "في ليلة الجمعة أخرج الهادي جيشاً إلى ظبوة وبها عسكر للقوم فهجم عليهم وقتل منهم نفراً وأخذ أموالاً؛ ثم في يوم الجمعة سابع عشر صفر عارضت خيل بيت بوس ورجالها من دخل ظبوة فاقتتلوا فقُتل أبو القاسم الجعفري من ولد جعفر بن أبي طالب."
+  en: "On the night of Friday al-Hadi sent an army to Zabwa, where the men had a camp; it fell on them, killed some and took property. Then on Friday the seventeenth of Safar the horse and foot of Bayt Bus met those who had entered Zabwa and they fought hard, and Abu al-Qasim al-Ja'fari, of the line of Ja'far ibn Abi Talib, was killed."
+  ur: "جمعہ کی رات ہادی نے ایک لشکر ظبوہ بھیجا جہاں مخالفوں کا پڑاؤ تھا؛ اس نے ان پر ٹوٹ کر چند کو مارا اور مال لیا۔ پھر سترہ صفر کو جمعے کے دن بیت بوس کے سواروں اور پیادوں نے ظبوہ میں داخل ہونے والوں کا سامنا کیا، سخت لڑائی ہوئی اور جعفر بن ابی طالب کی اولاد میں سے ابو القاسم جعفری مارے گئے۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0902-01"
+    hijri: "0289-02"
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: "صفر سنة 289هـ؛ ليلة الجمعة 17 من الشهر بحسب الكتاب، ولا يوافق اليوم التقويم الجدولي، فالدقة شهرية؛ التحويل مشتق"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abu-al-qasim-al-jafari
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/zabwa-sanaa-yemen
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/bayt-bus-sanaa-yemen
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/sanaa
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص236 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-28
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 236

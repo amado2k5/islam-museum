@@ -1,0 +1,76 @@
+id: event/al-hadi-marches-on-ibn-abbad-and-razes-the-houses-and-vines-of-allaf-290
+class: event
+kind: other
+label:
+  ar: "مسير الهادي إلى ابن عباد وهدم منازل علاف وقطع أعنابها، المحرم 290هـ"
+  en: "Al-Hadi marches on Ibn Abbad and razes the houses and vines of Allaf, Muharram 290 AH"
+  ur: "ہادی کی ابن عباد پر چڑھائی اور علاف کے گھروں اور انگوروں کی تباہی، محرم 290ھ"
+summary:
+  ar: "في المحرم سنة 290هـ عزم الهادي على مناهضة القوم، وكان ابن الحكمي قد أمدّ ابن عباد بعسكر، فلما علموا فرّقوا عسكر آل طريف وعسكر الحكمي وبقي ابن عباد وعشيرته؛ فسار الهادي إلى الحدائق يوم الخميس وقاتل يوم السبت وطردهم في الجبال ودخل حصن علاف فهدم المنازل وقطع الأعناب، وطلب الزبير بن محمد الكليبي الأمان لنفسه ولأهله فآمنه، ثم آمن بني كليب جميعاً بطلب الزبير وبعد أن جاءه سليمان بن حجر."
+  en: "In Muharram 290 AH al-Hadi resolved to march on the men; Ibn al-Hakami had sent Ibn Abbad an army, and when they learned of it they dispersed the armies of Al Tarif and al-Hakami, leaving Ibn Abbad and his clan; al-Hadi went to al-Hadaiq on Thursday and fought on Saturday, drove them into the mountains and entered the fort of Allaf, razing the houses and cutting the vines; al-Zubayr ibn Muhammad al-Kulaybi asked safety for himself and his household and received it, and then, when Sulayman ibn Hajar had come, al-Hadi gave safety to all of Banu Kulayb."
+  ur: "محرم 290ھ میں ہادی نے مخالفوں پر چڑھائی کا ارادہ کیا؛ ابن الحکمی نے ابن عباد کو لشکر دیا تھا اور جب انہیں علم ہوا تو انہوں نے آل طریف اور حکمی کے لشکر بکھیر دیے اور ابن عباد اور اس کا قبیلہ رہ گئے؛ ہادی جمعرات کو حدائق گئے، ہفتے کو لڑے، انہیں پہاڑوں میں بھگایا اور علاف کے قلعے میں داخل ہو کر گھر گرائے اور انگور کاٹے؛ زبیر بن محمد کلیبی نے اپنے اور اپنے گھر والوں کے لیے امان مانگی جو انہیں ملی، پھر سلیمان بن حجر کے آنے پر ہادی نے سب بنو کلیب کو امان دی۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0902-12"
+    hijri: "0290-01"
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: "المحرم سنة 290هـ بنص الكتاب؛ الخميس والسبت والأحد والاثنين المذكورة تُحفظ في النص ولا يُدقَّق يومها؛ التحويل مشتق"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ahmad-ibn-abbad-al-akili
+  role: "محتمل"
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/al-zubayr-al-kulaybi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/sulayman-ibn-hajar-al-kulaybi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-kulayb-saada
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-tarif
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/saada
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/allaf-yemen
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص243-244 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-28
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 243-244

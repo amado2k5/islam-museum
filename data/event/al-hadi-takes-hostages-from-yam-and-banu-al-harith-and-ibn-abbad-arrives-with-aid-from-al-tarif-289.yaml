@@ -1,0 +1,81 @@
+id: event/al-hadi-takes-hostages-from-yam-and-banu-al-harith-and-ibn-abbad-arrives-with-aid-from-al-tarif-289
+class: event
+kind: other
+label:
+  ar: "أخذ الهادي رهائن من يأم وبني الحارث وقدوم ابن عباد الأكيلي بمادة آل طريف، رمضان 289هـ"
+  en: "Al-Hadi takes hostages from Yam and Banu al-Harith and Ibn Abbad al-Akili arrives with aid from Al Tarif, Ramadan 289 AH"
+  ur: "ہادی کا یام اور بنو حارث سے یرغمال لینا اور ابن عباد اکیلی کا آل طریف کی کمک کے ساتھ آنا، رمضان 289ھ"
+summary:
+  ar: "وقعت فتنة بين يأم وبني الحارث أخافت الطريق وقطعت السبل، فخرج الهادي إلى نجران وأخذ أربعين رجلاً من اليأميين وثلاثين من بني الحارث وثلاثين من أهل الوادي وحبسهم بصعدة شهراً، ثم كلّمه ابن بسطام ومحمد بن عبد الملك وجماعة من يأم فأطلقهم وكساهم؛ وقدم ابن عباد الأكيلي بمادة من قبل آل طريف في آخر رمضان من سنة 289هـ."
+  en: "A strife between Yam and Banu al-Harith made the road unsafe and cut the ways; al-Hadi went to Najran and took forty men of Yam, thirty of Banu al-Harith and thirty of the people of the wadi, and held them at Sa'da for a month, until Ibn Bustam, Muhammad ibn Abd al-Malik and a party of Yam spoke to him for them and he freed them and clothed them; and Ibn Abbad al-Akili came with aid from Al Tarif at the end of Ramadan 289 AH."
+  ur: "یام اور بنو حارث کے بیچ ایک فتنہ ہوا جس نے راستہ غیر محفوظ کر دیا؛ ہادی نجران گئے، یام کے چالیس، بنو حارث کے تیس اور وادی والوں کے تیس آدمی لے کر انہیں صعدہ میں ایک مہینہ قید رکھا، یہاں تک کہ ابن بسطام، محمد بن عبد الملک اور یام کی ایک جماعت نے ان سے بات کی تو انہوں نے انہیں چھوڑ دیا اور کپڑے پہنائے؛ اور رمضان 289ھ کے آخر میں ابن عباد اکیلی آل طریف کی طرف سے کمک لے کر آیا۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0902-08"
+    hijri: "0289-09"
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: "رمضان سنة 289هـ بنص الكتاب، وقدوم ابن عباد في آخره؛ التحويل مشتق"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ahmad-ibn-abbad-al-akili
+  role: "محتمل"
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abdullah-ibn-bustam
+  role: "محتمل"
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/yam-tribe
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-al-harith-ibn-kab
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-tarif
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/saada
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/najran
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/al-hajar-najran
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص243 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-28
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 243
