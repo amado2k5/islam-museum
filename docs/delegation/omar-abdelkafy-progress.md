@@ -3278,6 +3278,16 @@ Resume point: min-kunuz-al-sunnah episode 25 (branch from origin/main).
 
 Resume point: min-kunuz-al-sunnah episode 26 (branch from origin/main).
 
+### alwaad-alhaq ep07 (14 Nov 2026)
+
+13 points written for episode 7 (ar, en, ur); 12 needs_source marks for this episode in each language file; edges to tajwid and the battle of al-Qadisiyya. Quran verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
+
+| Excluded (alwaad-alhaq ep07) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Unintelligible stretches (00:05:00, 00:14:30 to 00:16:00, 00:21:30 to 00:25:00 in part, 00:44:30 to 00:45:30) | ep07 00:05:00 | transcript looped or unintelligible, no claim can be checked | accuracy | Open |
+| Gender and climate readings of the last hadith in the episode kept only as his reading with needs_source | ep07 00:52:00 | garbled transcript, hadith not verifiable | needs_source | Open |
+
+Resume point: alwaad-alhaq episode 8 (branch from origin/main).
 ## sharh-saheeh-al-bukhare (Omar Abdelkafy, 60 episodes; worker C1, branch prefix agent/assabile-ssb-)
 
 ### sharh-saheeh-al-bukhare ep01 (14 Nov 2026)
