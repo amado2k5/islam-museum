@@ -1,28 +1,44 @@
 id: person/abd-al-rahman-ibn-aban-ibn-uthman
 class: person
 label:
-  ar: "عبد الرحمن بن أبان بن عثمان"
-  en: "Abd al-Rahman ibn Aban ibn Uthman"
-roles: [scholar]
+  ar: عبد الرحمن بن أبان بن عثمان
+  en: Abd al-Rahman ibn Aban ibn Uthman
+roles:
+  - scholar
 gender: male
 summary:
-  ar: "بطاقة أولية لعبد الرحمن بن أبان بن عثمان؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abd al-Rahman ibn Aban ibn Uthman; the entry is not yet checked on the page."
-wings: [people]
-regions: [arabia]
-periods: [period/umayyad]
-sources: [source/al-aalam]
+  ar: عبد الرحمن بن أبان بن عثمان بن عفان القرشي الأموي، قال الذهبي إنه أحد من يصلح للخلافة؛ روى عن أبيه يسيراً وروى عنه عبد الله بن أبي بكر بن حزم وغيره، وأثنى عليه موسى التيمي في الدين والشرف.
+  en: Abd al-Rahman ibn Aban ibn Uthman ibn Affan al-Qurashi al-Umawi, whom al-Dhahabi calls one of those fit for the caliphate; he narrated a little from his father, Abd Allah ibn Abi Bakr ibn Hazm and others narrated from him, and Musa al-Taymi praised his religion and standing.
+wings:
+  - people
+regions:
+  - arabia
+periods:
+  - period/umayyad
+sources:
+  - source/al-aalam
+  - source/siyar-alam-nubala-ideas-house
 external_ids:
   wikidata: Q109132128
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: al-Dhahabi, Siyar A'lam al-Nubala, one-volume edition (Bayt al-Afkar al-Dawliyya), entry read in full on the scanned page 2161 (Apple Vision OCR on the harvest drive)
+  generated_by: Claude Code (Lane B2 packet)
+  model: claude-sonnet-5-5
+  run: web-b2-siyar-2026-11-14
 status:
   review: draft
-  completeness: 1
-died: { edtf: "723~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi: d. shortly before his father c. 105 AH)" }
+  completeness: 3
+died:
+  edtf: 723~
+  calendar: gregorian
+  precision: year
+  derived: true
+  note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi: d. shortly before his father c. 105 AH)"
 relations:
-  - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }
+  - type: lived_in
+    target: place/jazirat-al-arab
+    note: Only the record-level region (arabia) is attested; broad-region edge flagged for review.
+    sources:
+      - source/al-aalam
+    confidence: low

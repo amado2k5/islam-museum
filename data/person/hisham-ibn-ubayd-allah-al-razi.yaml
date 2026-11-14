@@ -1,27 +1,45 @@
 id: person/hisham-ibn-ubayd-allah-al-razi
 class: person
 label:
-  ar: "هشام بن عبيد الله الرازي"
-  en: "Hisham ibn Ubayd Allah al-Razi"
-roles: [scholar]
+  ar: هشام بن عبيد الله الرازي
+  en: Hisham ibn Ubayd Allah al-Razi
+roles:
+  - scholar
 gender: male
 summary:
-  ar: "بطاقة أولية لهشام بن عبيد الله الرازي؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Hisham ibn Ubayd Allah al-Razi; the entry is not yet checked on the page."
-wings: [people]
-regions: [persia-central-asia]
-periods: [period/abbasid-early]
+  ar: هشام بن عبيد الله الرازي، فقيه الري وأحد أئمة السنة كما يصفه الذهبي، روى عن ابن أبي ذئب ومالك وحماد بن زيد وروى عنه أبو حاتم الرازي وغيره؛ وثقه أبو حاتم وليّنه ابن حبان، وتوفي سنة ٢٢١هـ.
+  en: Hisham ibn Ubayd Allah al-Razi, a jurist of Rayy whom al-Dhahabi calls one of the imams of the sunna; he narrated from Ibn Abi Dhi'b, Malik and Hammad ibn Zayd, and Abu Hatim al-Razi narrated from him. Abu Hatim thought highly of him and Ibn Hibban found him weak; he died in 221 AH.
+wings:
+  - people
+regions:
+  - persia-central-asia
+periods:
+  - period/abbasid-early
 relations:
-  - { type: lived_in, target: place/khurasan, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/al-aalam] }
-sources: [source/al-aalam]
+  - type: lived_in
+    target: place/rayy
+    note: The entry places his standing in Rayy (Abu Hatim's remark); the card's Khurasan edge was a coarse region guess.
+    sources:
+      - source/siyar-alam-nubala-ideas-house
+    confidence: high
+sources:
+  - source/al-aalam
+  - source/siyar-alam-nubala-ideas-house
 external_ids:
   wikidata: Q109264676
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: al-Dhahabi, Siyar A'lam al-Nubala, one-volume edition (Bayt al-Afkar al-Dawliyya), entry read in full on the scanned page 4086 (Apple Vision OCR on the harvest drive)
+  generated_by: Claude Code (Lane B2 packet)
+  model: claude-sonnet-5-5
+  run: web-b2-siyar-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
+died:
+  edtf: 0836~
+  hijri: "0221"
+  calendar: gregorian
+  precision: year
+  derived: true
+  note: مات سنة إحدى وعشرين ومئتين {cite:siyar-alam-nubala-ideas-house ص4086}.

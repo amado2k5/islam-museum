@@ -1,0 +1,18 @@
+id: concept/diseases-of-association-and-of-continuity
+class: concept
+kind: scientific
+label: { ar: "أمراض المشاركة وتفرق الاتصال عند ابن سينا", en: "Diseases of association and of broken continuity in the Canon", ur: "قانون میں مشارکت اور تفرق اتصال کی بیماریاں" }
+summary:
+  ar: "يتمم ابن سينا أمراض التركيب بأمراض المشاركة، ثم يفرد الفصل الرابع لأمراض تفرق الاتصال فيعدد أسماءها بحسب العضو والاتجاه والعمق: الخدش والسحج والجراحة والقرحة وكسر العظم وبتر العصب والانفجار والفتق والخلع {cite:canon-ibn-sina-print-v1 pp.105-107}."
+  en: "Ibn Sina completes the diseases of composition with diseases of association, then gives the fourth chapter to diseases of broken continuity and lists their names by organ, direction and depth: scratch, abrasion, wound, ulcer, broken bone, severed nerve, rupture, hernia and dislocation {cite:canon-ibn-sina-print-v1 pp.105-107}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/disease, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, Ta'lim 1 on diseases (scan pages 105 to 111), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-fann2-4
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

@@ -1,33 +1,53 @@
 id: person/ibn-abi-najih
 class: person
 label:
-  ar: "عبد الله بن أبي نجيح"
-  en: "Abdallah ibn Abi Najih"
-roles: [muhaddith, mufti]
+  ar: عبد الله بن أبي نجيح
+  en: Abdallah ibn Abi Najih
+roles:
+  - muhaddith
+  - mufti
 gender: male
 summary:
-  ar: "بطاقة أولية لعبد الله بن أبي نجيح، محدث ومفتي مكة القرن الثامن ومن كبار التابعين، توفي سنة ٧٤٠م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abdallah ibn Abi Najih, the eighth-century mufti of Mecca and hadith narrator, d. 740; the source entry is not yet checked on the page."
-wings: [people]
-regions: [arabia]
-periods: [period/umayyad]
+  ar: عبد الله بن أبي نجيح يسار، أبو يسار الثقفي المكي، مولى الأخنس بن شريق، مفسر ومفتي مكة بعد عمرو بن دينار؛ وثقه ابن معين وغيره، وذكر النقاد دخوله في القدر والاعتزال، وتوفي سنة ١٣١هـ.
+  en: Abd Allah ibn Abi Najih Yasar, Abu Yasar al-Thaqafi al-Makki, a client of al-Akhnas ibn Shuraiq, exegete and mufti of Mecca after Amr ibn Dinar; Ibn Ma'in and others held him reliable while the critics record his entry into qadar and i'tizal; he died in 131 AH.
+wings:
+  - people
+regions:
+  - arabia
+periods:
+  - period/umayyad
 relations:
-  - { type: lived_in, target: place/mecca, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/al-aalam]
+  - type: lived_in
+    target: place/mecca
+    confidence: medium
+    note: Place link from Wikidata; pending a second source.
+    sources:
+      - source/wikidata
+sources:
+  - source/al-aalam
+  - source/siyar-alam-nubala-ideas-house
 external_ids:
   wikidata: Q28716626
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0070
+  source: al-Dhahabi, Siyar A'lam al-Nubala, one-volume edition (Bayt al-Afkar al-Dawliyya), entry read in full on the scanned page 2540 (Apple Vision OCR on the harvest drive)
+  generated_by: Claude Code (Lane B2 packet)
+  model: claude-sonnet-5-5
+  run: web-b2-siyar-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 occupations:
   - job: job/muhaddith
     kind: secondary
     status: historical
-    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
-    sources: [source/al-aalam]
+    note: bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep
+    sources:
+      - source/al-aalam
+died:
+  edtf: 0748~
+  hijri: "0131"
+  calendar: gregorian
+  precision: year
+  derived: true
+  note: "Corrected to the book: توفي سنة إحدى وثلاثين ومئة {cite:siyar-alam-nubala-ideas-house ص2540}; the card's 740 CE did not match 131 AH."
