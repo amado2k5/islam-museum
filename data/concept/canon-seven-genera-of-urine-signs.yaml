@@ -1,0 +1,18 @@
+id: concept/canon-seven-genera-of-urine-signs
+class: concept
+kind: scientific
+label: { ar: "أجناس دلائل البول السبعة عند ابن سينا", en: "The seven genera of urine signs in the Canon", ur: "پیشاب کی علامات کی سات اجناس قانون میں" }
+summary:
+  ar: "يقسم ابن سينا الدلائل المأخوذة من البول إلى سبعة أجناس: اللون والقوام والصفاء والكدورة والرسوب والمقدار والرائحة والزبد، ويسقط اللمس والطعم {cite:canon-ibn-sina-print-v1 p.184}."
+  en: "Ibn Sina divides the signs taken from urine into seven genera, colour, consistency, clarity and turbidity, sediment, quantity, smell and froth, and sets aside touch and taste {cite:canon-ibn-sina-print-v1 p.184}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/canon-urine-in-general, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, Ta'lim 3, pulse chapters 12 to 19 and the opening of urine, chapter 1 (scan pages 179 to 184), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-pulse-urine-1
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

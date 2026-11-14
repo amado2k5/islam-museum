@@ -1,0 +1,18 @@
+id: concept/canon-pulse-in-anger-and-pleasure
+class: concept
+kind: scientific
+label: { ar: "نبض الغضب واللذة والسرور عند ابن سينا", en: "The pulse in anger, pleasure and joy in the Canon", ur: "غصے، لذت اور سرور کی نبض قانون میں" }
+summary:
+  ar: "في الفصل الثامن عشر، عن أحكام نبض العوارض النفسانية، يبدأ ابن سينا بالغضب ثم اللذة والسرور {cite:canon-ibn-sina-print-v1 p.182}."
+  en: "In the eighteenth chapter, on the pulse of psychic conditions, Ibn Sina begins with anger and then pleasure and joy {cite:canon-ibn-sina-print-v1 p.182}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/canon-pulse-in-general, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, Ta'lim 3, pulse chapters 12 to 19 and the opening of urine, chapter 1 (scan pages 179 to 184), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-pulse-urine-1
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

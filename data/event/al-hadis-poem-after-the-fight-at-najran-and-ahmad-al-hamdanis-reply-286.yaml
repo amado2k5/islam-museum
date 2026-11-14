@@ -1,0 +1,53 @@
+id: event/al-hadis-poem-after-the-fight-at-najran-and-ahmad-al-hamdanis-reply-286
+class: event
+kind: other
+label:
+  ar: قصيدة الهادي بعد الوقعة بنجران وقصيدة أحمد بن محمد الهمداني، 286هـ
+  en: Al-Hadi's poem after the fight at Najran and the poem of Ahmad ibn Muhammad al-Hamdani, 286 AH
+  ur: نجران کی لڑائی کے بعد ہادی کا قصیدہ اور احمد بن محمد ہمدانی کا قصیدہ، 286ھ
+summary:
+  ar: يورد الراوي مقاطع من قصيدة للهادي يستهلها بخيال محبوبة ثم يصف الحرب والفرسان والرماح وفخره بنسبه وأمله في الجنة وثنائه على همدان وخولان وسعد، ثم قصيدة أحمد بن محمد الهمداني في أن قومه نُصحوا فعصوا وأن الإمام الذي من ولد الرسول يدعو إلى الحق والعدل وأن همدان صبروا ونصروا الحق.
+  en: The narrator gives passages of a poem by al-Hadi that opens with the thought of a beloved, then describes war, horsemen and spears, his pride in his lineage, his hope of Paradise and his praise of Hamdan, Khawlan and Sa'd, then a poem by Ahmad ibn Muhammad al-Hamdani saying his people were counselled and refused, that the imam of the Messenger's line calls to truth and justice, and that Hamdan were patient and helped the truth.
+  ur: راوی ہادی کے ایک قصیدے کے حصے بیان کرتا ہے جو ایک محبوبہ کے خیال سے شروع ہوتا ہے، پھر جنگ، سواروں اور نیزوں کا بیان، اپنے نسب پر فخر، جنت کی امید اور ہمدان، خولان اور سعد کی تعریف آتی ہے؛ اس کے بعد احمد بن محمد ہمدانی کا قصیدہ ہے کہ ان کی قوم کو نصیحت کی گئی اور اس نے نہ مانا، کہ رسول کی اولاد کا امام حق اور عدل کی طرف بلاتا ہے اور ہمدان نے صبر کیا اور حق کی مدد کی۔
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0899"
+    hijri: "0286"
+    calendar: julian
+    precision: year
+    status: tradition
+    derived: true
+    note: سنة 286هـ؛ الكتاب لا يعين الشهر ولا اليوم، والخبر يلي أحداث ذي الحجة بحسب ترتيب السرد؛ التحويل مشتق
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/najran
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ahmad-ibn-muhammad-al-hamdani-poet-286
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص170-172 ⁦(الصفحة المطبوعة)⁩'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-21
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 170-172
