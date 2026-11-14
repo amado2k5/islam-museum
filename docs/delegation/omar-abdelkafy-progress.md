@@ -2672,3 +2672,16 @@ Resume point: modakirate-iblis episode 16 (branch from origin/main).
 | A passing remark about the marriage proposal and the dawn prayer | ep16 00:18:30-00:19:00 | Garbled | Clarity | Open |
 
 Resume point: modakirate-iblis episode 17 (branch from origin/main).
+
+### modakirate-iblis ep17 (14 Nov 2026)
+
+14 points written for episode 17 (ar, en, ur); 3 new `about` edges; 4 needs_source marks in each language file for this episode; Quran verse referenced only through a passage link (2-189), none typed. Sensitivity stays contested: the lecturer's views on mixed settings, schooling and sex education are labelled as his, and the unsourced historical and statistical claims are marked as needing a source.
+
+| Excluded (modakirate-iblis ep17) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greetings, the break and the closing prayer | ep17 00:00:00, 00:11:00-00:11:30, 00:23:00-00:23:30 | Not lesson content | Content rule | Open |
+| Loops and garbled stretches (a broken comparison with the time of Uthman, a loop of a spoken name list, a stretch on newsreaders) | ep17 00:02:00-00:03:30 (part), 00:04:30, 00:06:00, 00:07:00-00:08:00, 00:10:00-00:10:30, 00:12:30 | Not recoverable | Clarity, Loop check | Open |
+| A long run of digits in the account of the nurse's sentence | ep17 00:13:30 (part) | Loop | Loop check | Open |
+| Lament over the loss of Jerusalem, Andalusia, Iraq and the Levant and the Muslim world's dependence | ep17 00:18:30-00:19:30 | Modern political aside outside the lesson; held for the founder to decide | Content rule | Open |
+
+Resume point: modakirate-iblis episode 18 (branch from origin/main).
