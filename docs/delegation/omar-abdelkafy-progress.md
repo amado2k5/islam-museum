@@ -2635,3 +2635,89 @@ Resume point: modakirate-iblis episode 13 (branch from origin/main).
 | Garbled and looping stretches on loving what God hates and on the Prophet as a mount of love | ep13 00:09:00 (part), 00:18:00-00:19:00 (part), 00:19:00-00:19:30, 00:22:00 (part) | Not recoverable | Clarity, Loop check | Open |
 
 Resume point: modakirate-iblis episode 14 (branch from origin/main).
+
+### modakirate-iblis ep14 (14 Nov 2026)
+
+15 points written for episode 14 (ar, en, ur); 8 needs_source marks in each language file for this episode; 6 new `about` edges (the rest were already present). Quran verses referenced only through passage links (7-20 to 7-23, 2-30, 2-166, 2-167, 7-31, 7-32, 28-77, 28-79, 28-83, 3-133, 3-134, 12-106); none typed.
+
+| Excluded (modakirate-iblis ep14) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greetings, the break and its trailer (a relief-organisation appeal for Syria with an evening broadcast advert), and the closing prayer and outro chant | ep14 00:00:00, 00:10:30-00:13:00, 00:23:30-00:24:00 | Not lesson content | Content rule | Open |
+| Loops and garbled stretches (an invitation to a party, a stretch before the verses on followers disowning leaders, the lines before the break) | ep14 00:08:30-00:09:30, 00:10:30-00:11:00 | Not recoverable | Clarity, Loop check | Open |
+| Asides on globalisation and a "new world order" in the account of Adam's belief in Iblis's oath | ep14 00:03:00-00:03:30 | Garbled, off the lesson | Clarity | Open |
+
+Resume point: modakirate-iblis episode 15 (branch from origin/main).
+
+### modakirate-iblis ep15 (14 Nov 2026)
+
+17 points written for episode 15 (ar, en, ur); 8 needs_source marks in each language file for this episode; 8 new `about` edges (correction to the ep14 note: its new edges were 4, not 6). Quran verses referenced only through passage links (51-22, 71-10 to 71-12, 26-61, 26-62, 9-40, 20-46, 28-7, 21-87, 21-83, 21-84, 7-23, 2-186); none typed.
+
+| Excluded (modakirate-iblis ep15) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greetings, the break, and the closing prayer and outro chant | ep15 00:00:00, 00:11:00-00:12:30, 00:23:30-00:24:00 | Not lesson content | Content rule | Open |
+| A garbled supplication attributed to Yahya, and a garbled stretch on the cause of the mother's blood and of "the dearest" | ep15 00:02:30 (part), 00:05:30 (part) | Not recoverable | Clarity | Open |
+| A long run of one repeated letter | ep15 00:19:00-00:19:30 | Loop | Loop check | Open |
+| A passing address to the people of Syria and the oppressed, in the account of the unseen world | ep15 00:19:30-00:20:00 (part) | Modern conflict aside, held for the founder to decide under the content-safety rule | Content rule | Open |
+
+Resume point: modakirate-iblis episode 16 (branch from origin/main).
+
+### modakirate-iblis ep16 (14 Nov 2026)
+
+17 points written for episode 16 (ar, en, ur); 10 needs_source marks in each language file for this episode; 7 new `about` edges. Quran verses referenced only through passage links (7-12, 39-22, 17-19, 17-20, 78-10, 78-11, 51-18, 37-143, 37-144, 21-87, 17-45); none typed.
+
+| Excluded (modakirate-iblis ep16) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greetings, the break and its trailer (a relief-organisation appeal for Syria with an evening broadcast advert), and the closing prayer | ep16 00:00:00, 00:10:30-00:12:30, 00:24:00 | Not lesson content | Content rule | Open |
+| A loop and a garbled stretch on a poem about the hard heart | ep16 00:04:00-00:04:30, 00:05:30 (part), 00:09:30-00:10:00 | Not recoverable | Clarity, Loop check | Open |
+| A passing remark about the marriage proposal and the dawn prayer | ep16 00:18:30-00:19:00 | Garbled | Clarity | Open |
+
+Resume point: modakirate-iblis episode 17 (branch from origin/main).
+
+### modakirate-iblis ep17 (14 Nov 2026)
+
+14 points written for episode 17 (ar, en, ur); 3 new `about` edges; 4 needs_source marks in each language file for this episode; Quran verse referenced only through a passage link (2-189), none typed. Sensitivity stays contested: the lecturer's views on mixed settings, schooling and sex education are labelled as his, and the unsourced historical and statistical claims are marked as needing a source.
+
+| Excluded (modakirate-iblis ep17) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greetings, the break and the closing prayer | ep17 00:00:00, 00:11:00-00:11:30, 00:23:00-00:23:30 | Not lesson content | Content rule | Open |
+| Loops and garbled stretches (a broken comparison with the time of Uthman, a loop of a spoken name list, a stretch on newsreaders) | ep17 00:02:00-00:03:30 (part), 00:04:30, 00:06:00, 00:07:00-00:08:00, 00:10:00-00:10:30, 00:12:30 | Not recoverable | Clarity, Loop check | Open |
+| A long run of digits in the account of the nurse's sentence | ep17 00:13:30 (part) | Loop | Loop check | Open |
+| Lament over the loss of Jerusalem, Andalusia, Iraq and the Levant and the Muslim world's dependence | ep17 00:18:30-00:19:30 | Modern political aside outside the lesson; held for the founder to decide | Content rule | Open |
+
+Resume point: modakirate-iblis episode 18 (branch from origin/main).
+
+### modakirate-iblis ep18 (14 Nov 2026)
+
+13 points written for episode 18 (ar, en, ur); 7 needs_source marks in each language file for this episode; 7 new `about` edges. Quran verses referenced only through passage links (61-4, 12-76); none typed. Topics on Jerusalem, women's inheritance and imitation of the West are the lecturer's own views, labelled as his, and sensitivity stays contested.
+
+| Excluded (modakirate-iblis ep18) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greetings, the break (including a read-out of a hadith on fasting that is part of the break, not the lesson), and the closing prayer | ep18 00:00:00, 00:11:30-00:13:00, 00:24:00 | Not lesson content | Content rule | Open |
+| Loops and garbled stretches (scouting and the Salim story, a stretch on women's matters, a stretch on ships) | ep18 00:04:30-00:05:00, 00:17:00-00:18:00 | Not recoverable | Clarity, Loop check | Open |
+| A political remark on the people holding Jerusalem since 1948 | ep18 00:01:30-00:02:00 (part) | Modern conflict aside; the lesson point on supplication and means is kept without it, held for the founder to decide | Content rule | Open |
+
+Resume point: modakirate-iblis episode 19 (branch from origin/main).
+
+### modakirate-iblis ep19 (14 Nov 2026)
+
+12 points written for episode 19 (ar, en, ur); 5 needs_source marks in each language file for this episode; 4 new `about` edges. Quran verses referenced only through passage links (42-27, 25-20, 28-7, 20-39, 13-13, 14-34, 113-4); none typed.
+
+| Excluded (modakirate-iblis ep19) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greetings, the break and its trailer (an advert for a television programme), and the closing prayer | ep19 00:00:00, 00:10:30-00:12:30, 00:23:30-00:24:00 | Not lesson content | Content rule | Open |
+| An unsourced anecdote about the death of a named wealthy banker linked to a political declaration, and sweeping remarks about a whole people and about the media | ep19 00:05:00-00:06:30 (part), 00:12:30 (part), 00:16:30-00:17:30 | Unsourced and a group generalisation; not written in the museum's voice; held for the founder to decide | Content rule, Voice rule | Open |
+| An unsourced claim about the eating of pork and loss of protective jealousy, and a prediction of the West's decline | ep19 00:17:30-00:19:00 | Unsourced and disparaging; held for the founder to decide | Content rule | Open |
+| Garbled and looping stretches | ep19 00:08:30-00:09:00, 00:18:00-00:18:30, 00:20:00 (part) | Not recoverable | Clarity, Loop check | Open |
+
+Resume point: modakirate-iblis episode 20 (branch from origin/main).
+
+### modakirate-iblis ep20 (14 Nov 2026)
+
+15 points written for episode 20 (ar, en, ur); 8 needs_source marks in each language file for this episode; 11 new `about` edges. Quran verses referenced only through passage links (3-33 to 3-37, 3-42, 96-1); none typed. Sensitivity stays contested: his claims about the poisoning of Umar ibn Abd al-Aziz and the choice of Uthman over Ali are attributed to him and marked as needing a source.
+
+| Excluded (modakirate-iblis ep20) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greetings, the break and its trailer (an advert for a Ramadan question-and-answer programme), and the closing prayer | ep20 00:00:00, 00:10:30-00:12:30, 00:23:30-00:24:00 | Not lesson content | Content rule | Open |
+| Loops and garbled stretches (psychology remarks, a stretch on Mary, the counting of a life) | ep20 00:07:30-00:08:00, 00:15:30-00:16:00, 00:17:30-00:18:00, 00:20:30-00:21:00 | Not recoverable | Clarity, Loop check | Open |
+
+Resume point: modakirate-iblis episode 21 (branch from origin/main).
