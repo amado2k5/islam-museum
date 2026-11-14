@@ -1,0 +1,18 @@
+id: concept/muscles
+class: concept
+kind: scientific
+label: { ar: "العضل والعصب والوتر والرباط عند ابن سينا", en: "Muscle, nerve, tendon and ligament in the Canon", ur: "قانون میں پٹھا، عصب، وتر اور رباط" }
+summary:
+  ar: "يفتتح ابن سينا الجملة الثانية من تشريح الأعضاء المفردة، وهي العضل في ثلاثين فصلاً، بكلام كلي في العصب والعضل والوتر والرباط {cite:canon-ibn-sina-print-v1 p.60}."
+  en: "Ibn Sina opens the second group of the anatomy of simple organs, the muscles, in thirty chapters, with a general discourse on nerve, muscle, tendon and ligament {cite:canon-ibn-sina-print-v1 p.60}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/anatomy, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 1, Jumla 2 on muscles (scan pages 60 to 66), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-bones-3
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }
