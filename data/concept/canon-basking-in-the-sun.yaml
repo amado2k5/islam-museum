@@ -1,0 +1,18 @@
+id: concept/canon-basking-in-the-sun
+class: concept
+kind: scientific
+label: { ar: "التضحي بالشمس عند ابن سينا", en: "Basking in the sun in the Canon", ur: "دھوپ سینکنا، قانون کے مطابق" }
+summary:
+  ar: "يقرر ابن سينا أن التضحي إلى الشمس الحارة، وخصوصا مع حركة شديدة كالسعي والعدو، يحلل الفضول بقوة ويعرق ويحلل أورام التربل والاستسقاء وينفع من الربو والصداع البارد المزمن، لكنه إذا طال كثف البدن وقشفه {cite:canon-ibn-sina-print-v1 p.142}."
+  en: "Ibn Sina holds that basking in strong sun, above all with vigorous movement such as walking fast or running, dissolves superfluities powerfully, brings sweat, dissolves swellings of flabbiness and dropsy and helps asthma and chronic cold headache, but that if prolonged it thickens and parches the body {cite:canon-ibn-sina-print-v1 p.142}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/disease, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, Ta'lim 2, chapter 19 on baths, sun, sand and oils, and part 2 chapters 1 to 18 on the causes of bodily symptoms (scan pages 140 to 147), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-fann2-ch19-jumla2-ch18
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }
