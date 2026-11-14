@@ -1,28 +1,60 @@
 id: person/muhammad-ibn-husayn-al-zaghuli
 class: person
 label:
-  ar: "محمد بن الحسين الزاغولي"
-  en: "Muhammad ibn Husayn al-Zaghuli"
-roles: [scholar]
+  ar: محمد بن الحسين الزاغولي
+  en: Muhammad ibn Husayn al-Zaghuli
+roles:
+- scholar
 gender: male
 summary:
-  ar: "بطاقة أولية لمحمد بن الحسين الزاغولي، فقيه ولغوي خراساني القرن الثاني عشر، توفي سنة ١١٦٤م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Muhammad ibn Husayn al-Zaghuli, the twelfth-century Khorasani jurist and linguist, d. 1164; the biographical entry is not yet checked on the page."
-wings: [people]
-regions: [persia-central-asia]
-periods: [period/buyid-seljuk-fatimid-era]
-sources: [source/al-aalam]
+  ar: محمد بن الحسين بن محمد بن الحسين بن علي الأزدي الزاغولي، حافظ للحديث من فقهاء الشافعية وعالم باللغة والتفسير، ولد في زاغول وأقام بمرو، صاحب «قيد الأوابد»، 472 إلى 559 هـ.
+  en: Muhammad ibn al-Husayn ibn Muhammad ibn al-Husayn ibn Ali al-Azdi al-Zaghuli, a hadith hafiz and Shafi'i jurist learned in language and exegesis, born in Zaghul and settled in Marw; author of 'Qayd al-Awabid', 472 to 559 AH.
+wings:
+- people
+regions:
+- persia-central-asia
+periods:
+- period/buyid-seljuk-fatimid-era
+sources:
+- source/al-aalam
+- source/alam-zirikli-dar-al-ilm-2002
 external_ids:
   wikidata: Q57633062
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0062
+  source: al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text
+  generated_by: Claude Code (Lane B2 packet)
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
-died: { edtf: "1164", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Sam'ani (al-Ansab)" }
+  completeness: 3
+died:
+  edtf: '1164'
+  calendar: gregorian
+  precision: year
+  derived: true
+  note: 'Per al-Zirikli, al-A''lam vol. 6 p. 23: died 559 AH = 1164 CE.'
+  sources:
+  - source/alam-zirikli-dar-al-ilm-2002
 relations:
-  - { type: lived_in, target: place/zaghul, confidence: low, note: "Association inferred from the nisba 'الزاغولي'; specific birthplace or residence is not individually documented.", sources: [source/al-aalam] }
+- type: lived_in
+  target: place/zaghul
+  confidence: low
+  note: Association inferred from the nisba 'الزاغولي'; specific birthplace or residence is not individually documented.
+  sources:
+  - source/al-aalam
+- type: born_in
+  target: place/zaghul
+  confidence: medium
+  note: 'From al-A''lam: born in Zaghul, a village of Panj Dih in Marw al-Rudh.'
+  sources:
+  - source/alam-zirikli-dar-al-ilm-2002
+born:
+  edtf: '1080'
+  calendar: gregorian
+  precision: year
+  derived: true
+  note: 'Per al-Zirikli, al-A''lam vol. 6 p. 23: born 472 AH = 1080 CE, in Zaghul.'
+  sources:
+  - source/alam-zirikli-dar-al-ilm-2002
