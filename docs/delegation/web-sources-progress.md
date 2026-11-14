@@ -1015,7 +1015,6 @@ Wrote ar, en and ur prose for vila, th-nia, el-mahalla-el-kubra, ioannina, kirku
 - Written (ar, en, ur, draft): belvoir-fortress and ain-zara (Pleiades only), mainz, bolu, p-cs, nakhchivan, kastoria, rethymno, alanya (iDAI.gazetteer only), ucl-s (iDAI plus Yaqut vol. 1, scan p. 317; `source/mujam-al-buldan-yaqut` added to its sources). Skipped: none.
 - Yaqut vols 1-2 searched by Arabic name; only Uclés (أقليش) has an entry. Belvoir's Arabic name (Kawkab al-Hawa) has no entry; the `كوكب` hits are unrelated. Nakhchivan falls in a later volume.
 - Note: Uclés iDAI record links GeoNames 2510106 while the data file holds 6357543; not changed. iDAI was read through gazetteer.dainst.org/doc/<id>.json (the /place/<id>.json URL returns 404).
-<<<<<<< HEAD
 
 ## 2026-11-14 (Lane B2, al-A'lam packet 4, alm4) - ten persons
 
@@ -1023,7 +1022,6 @@ Wrote ar, en and ur prose for vila, th-nia, el-mahalla-el-kubra, ioannina, kirku
 - Corrections to cards (entry date, note in the date field): ibn-abd-al-qawi-mardawi died 1299 (card 1300) and born 1232; sultan-ibn-saif-i died 1680 (card 1679); abd-al-salam-ibn-mashish died 1225 (card 1227, Wikidata 625 AH); ahmad-ibn-kayghalagh born about 872 (card about 904); born added for abu-zahra 1898, tawba 677, mahimi 1374. Summaries no longer carry claims the entry does not make (Abu Zahra "Maliki", Sultan reign "from 1649", Ibn Abd al-Qawi "grammarian and poet", Ibn Mashish "master of al-Shadhili").
 - Left unchanged for the founder: sadreddinzade died 1627 on the card (Wikidata) against 1036 AH = 1626 in the entry (1036 AH spans both years). The Sultan ibn Saif entry gives his accession as 1050 AH with no CE year; the card's "1649" was not carried over. Ibn Kayghalagh: the entry places the 283 AH campaign under al-Muktafi and prints 300 AH for the Egyptian emirate under al-Muqtadir; both written as printed and attributed.
 - Skipped: jafar-ibn-ulba-al-harithi (card already status.review published; no draft prose added over it).
-=======
 ## 2026-11-14 (Lane B1 packet 8) - place prose, ten places
 
 - Written (ar, en, ur, draft): ani, mdina, ephesus (Pleiades, JSON read 14 Nov 2026); montreal, sabzevar, new-york-city, quchan, kavala, bergen-op-zoom, tirana (iDAI.gazetteer, read through the /place/<id> URL with Accept: application/json; the .json suffix returns 404). Ani also cites Yaqut vol. 1, scan p.69 (entry between Khilat and Kanja); `source/mujam-al-buldan-yaqut` added to its sources. Mdina's Arabic label is the same spelling as Medina, so no Yaqut entry was used; Ephesus, Kavala (Yaqut vols 1-2 hold only a running header or unrelated hits) have no entry; the rest fall in later volumes. Skipped: none.
@@ -1032,4 +1030,3 @@ Wrote ar, en and ur prose for vila, th-nia, el-mahalla-el-kubra, ioannina, kirku
 
 - Written (ar, en, ur, draft): erzincan (iDAI plus Yaqut vol. 1, scan p. 194; `source/mujam-al-buldan-yaqut` added), kandahar, unaizah, oujda, sari, i-skilip, marseille, masyaf, kazan, karaman (iDAI.gazetteer only; none of these has a Pleiades id in the packet, and the iDAI-linked Pleiades numbers are given as identifiers only). Skipped: none.
 - Yaqut vols 1-2 searched by Arabic name: only Arzanjan has an entry; Qandahar, Unaizah (poetry mentions only), Sari, Wajda are mentions, not entries. iDAI read via gazetteer.dainst.org/doc/<id>.json.
->>>>>>> origin/main
