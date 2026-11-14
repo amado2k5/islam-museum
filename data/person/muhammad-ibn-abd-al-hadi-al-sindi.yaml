@@ -3,26 +3,27 @@ class: person
 label:
   ar: "محمد بن عبد الهادي السندي"
   en: "Muhammad ibn Abd al-Hadi al-Sindi"
-roles: [scholar]
+roles: [faqih, scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لمحمد بن عبد الهادي السندي، فقيه ولغوي المدينة في القرن الثامن عشر، توفي سنة ١٧٢٦م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Muhammad ibn Abd al-Hadi al-Sindi, the eighteenth-century jurist and linguist of Medina, d. 1726; the biographical entry is not yet checked on the page."
+  ar: "محمد بن عبد الهادي التتوي، أبو الحسن، نور الدين السندي، فقيه حنفي عالم بالحديث والتفسير والعربية، أصله من السند وتوطن المدينة، له حواش على الكتب الستة وعلى مسند أحمد والبيضاوي، توفي سنة 1138 هـ."
+  en: "Muhammad ibn Abd al-Hadi al-Tattawi, Abu al-Hasan, Nur al-Din al-Sindi, a Hanafi jurist learned in hadith, exegesis and Arabic, from al-Sind and settled in Medina; author of glosses on the Sunan and Sahih collections, the Musnad of Ahmad and al-Baydawi; died 1138 AH (1726)."
 wings: [people]
 regions: [arabia]
 periods: [period/gunpowder-empires]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q27907496
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0045
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
-died: { edtf: "1726", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Sulk al-Durar Confirmed on 13 November 2026 against Wikidata Q27907496 (P570, a statement with a reference), item revision 2567809301.", sources: [source/wikidata] }
+  completeness: 3
+died: { edtf: "1726", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Sulk al-Durar Confirmed on 13 November 2026 against Wikidata Q27907496 (P570, a statement with a reference), item revision 2567809301. al-A'lam gives 1138 AH = 1726, agreeing with the card.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
 relations:
   - { type: lived_in, target: place/medina, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/al-aalam] }
+  - { type: born_in, target: place/sind, note: "al-Zirikli, al-A'lam, vol. 6 p. 179: his family came from al-Sind and he was born there", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
