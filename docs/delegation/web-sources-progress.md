@@ -797,3 +797,9 @@ Nothing is registered this turn. Each registration needs the three-part commit i
 - Measured Arabic share: 0 of the 13 matched Biblissima records carries an Arabic-script label.
 - Process note: the shared working folder was being used by another session (staged Lane C files in the index), so from this PR on Lane B works in its own git worktree to avoid committing anything that is not its own.
 
+## 2026-11-14 (p55, Lane B) — Nomisma batch 8: 16 hand-checked persons and 6 regions linked
+
+- Approval: dec-20261114-277. The 16 persons that had been held for a hand check (spelling differs between our slug and the Nomisma concept, or the concept name is one word) were checked by reading each concept's own page on nomisma.org (one request each, 3 s pause, `.jsonld`): label and definition agree with our person in every case (for example faruq is Farouk I of Egypt, ahmed_i is the sultan of 1603 to 1617, suleyman_i_kanuni is Suleiman the Magnificent, mahmud is Mahmud of Ghazni, husayn_b_ali is the Sharif of Mecca born 1854).
+- Linked persons: jahan-shah-qaraqoyunlu, amanullah-khan, abd-al-hafid-of-morocco, hussein-kamel-of-egypt, habibullah-khan, mozaffar-ad-din-shah-qajar, farouk-of-egypt, ahmad-ii-uthmani, ahmad-i-uthmani, sulayman-al-qanuni, sulayman-ii-uthmani, sulayman-calabi-prince, mohammed-ben-abdallah, ibrahim-i-uthmani, mahmud-ghaznawi, hussein-bin-ali-al-hashimi. Linked regions: euboea, pisidia, attica, paphlagonia, bithynia, lesbos.
+- Not linked: qalawun, kayqubad-i and qaytbay (their concept ids contain an apostrophe and the concept page answers HTTP 500 to a script, so the check could not be made; left); kos (concept cos_city is the ancient city, our record may be the island, to check); united-kingdom (concept is the modern state).
+

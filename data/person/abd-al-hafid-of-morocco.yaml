@@ -43,8 +43,8 @@ relations:
   - { type: born_in, target: place/fez, sources: [source/wikipedia-abd-al-hafid-of-morocco-en, source/wikipedia-abd-al-hafid-of-morocco-ar] }
   - { type: buried_in, target: place/fez, sources: [source/wikipedia-abd-al-hafid-of-morocco-en] }
   - { type: child_of, target: person/hassan-i-of-morocco, sources: [source/wikipedia-abd-al-hafid-of-morocco-en, source/wikipedia-abd-al-hafid-of-morocco-ar, source/wikipedia-abd-al-hafid-of-morocco-fr] }
-external_ids: { wikidata: "Q276936" }
-sources: [source/wikipedia-abd-al-hafid-of-morocco-en, source/wikipedia-abd-al-hafid-of-morocco-ar, source/wikipedia-abd-al-hafid-of-morocco-fr, source/wikipedia-abd-al-hafid-of-morocco-ur, source/wikidata-abd-al-hafid-of-morocco]
+external_ids: { wikidata: "Q276936", nomisma: "al-hafiz_b_al-hasan" }
+sources: [source/wikipedia-abd-al-hafid-of-morocco-en, source/wikipedia-abd-al-hafid-of-morocco-ar, source/wikipedia-abd-al-hafid-of-morocco-fr, source/wikipedia-abd-al-hafid-of-morocco-ur, source/wikidata-abd-al-hafid-of-morocco, source/nomisma]
 provenance:
   layer: own-research
   source: "English, Arabic, French and Urdu Wikipedia articles on Abd al-Hafid of Morocco, each fetched by its recorded revision id (EN 1375713159, AR 75540862, FR 236362054, UR 7712587) with the returned id asserted equal before use, and Wikidata item Q276936 (revision 2533218347). Existence checks by name fragments (Abdelhafid, Abd al-Hafid, عبد الحفيظ) and by QID across data/person and data/source found no prior record for him. The lane queue gives 1875–1937; the birth year is genuinely unsettled in the sources (1875–1880 spread) and is recorded as approximate with the variants disclosed. The child_of edge to his father Hassan I, built in this same run, is written here in the son's record only."
