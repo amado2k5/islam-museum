@@ -1,0 +1,18 @@
+id: concept/canon-three-rules-of-drug-treatment
+class: concept
+kind: scientific
+label: { ar: "القوانين الثلاثة للمعالجة بالدواء عند ابن سينا", en: "The three rules of treatment by drugs in the Canon", ur: "دوا سے علاج کے تین قاعدے قانون میں" }
+summary:
+  ar: "يجعل ابن سينا المعالجة بالدواء على ثلاثة قوانين: قانون اختيار كيفية الدواء، وقانون اختيار كميته وزناً ودرجة، وقانون ترتيب وقته، ويقرر أن المرض يعالج بالضد وأن الصحة تحفظ بالمشاكل {cite:canon-ibn-sina-print-v1 p.268}."
+  en: "Ibn Sina sets treatment by drugs under three rules: the choice of the drug's quality, the choice of its quantity in weight and in degree, and the ordering of its time, and he states that disease is treated by the contrary while health is kept by the like {cite:canon-ibn-sina-print-v1 p.268}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/medicine, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 4, chapters 1 to 3 on the general discourse on treatment, the treatment of bad temperament and evacuation (scan pages 267 to 276), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-p267
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

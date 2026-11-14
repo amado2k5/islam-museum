@@ -1,0 +1,18 @@
+id: concept/canon-cooling-and-heating-compared
+class: concept
+kind: scientific
+label: { ar: "المقارنة بين التبريد والتسخين عند ابن سينا", en: "Cooling and heating compared in the Canon", ur: "ٹھنڈک اور گرمی کا موازنہ قانون میں" }
+summary:
+  ar: "يقارن ابن سينا بين التبريد والتسخين والترطيب والتيبيس، فيرى أن مدة التبريد والتسخين سواء لكن الخطر في التبريد أكثر لأن الحرارة صديقة الطبيعة، وأن تسخين البارد أسهل في الابتداء وتبريد المسخن أسهل في الانتهاء لأن البرودة البالغة موت من الغريزة أو مساوقة له {cite:canon-ibn-sina-print-v1 p.272}."
+  en: "Ibn Sina compares cooling, heating, moistening and drying, holding that cooling and heating last equally long but cooling is the more dangerous because heat is nature's friend, and that heating the cold is easier at the start while cooling the heated is easier at the end, since extreme cold is a death of the innate heat or its companion {cite:canon-ibn-sina-print-v1 p.272}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/medicine, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 4, chapters 1 to 3 on the general discourse on treatment, the treatment of bad temperament and evacuation (scan pages 267 to 276), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-p267
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

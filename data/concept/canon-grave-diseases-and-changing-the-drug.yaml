@@ -1,0 +1,18 @@
+id: concept/canon-grave-diseases-and-changing-the-drug
+class: concept
+kind: scientific
+label: { ar: "الأمراض الخطرة وتبديل الأدوية عند ابن سينا", en: "Grave diseases and changing the drug in the Canon", ur: "خطرناک بیماریاں اور دوا بدلنا قانون میں" }
+summary:
+  ar: "يوصي ابن سينا بأن تبدأ الأمراض التي فيها خطر بالعلاج القوي أولاً، وغير الخطرة بالتدرج إلى الأقوى إن لم يغن الأخف، وبألا يقام على دواء واحد بل تبدل الأدوية، وإذا أشكلت العلة خلي بينها وبين الطبيعة {cite:canon-ibn-sina-print-v1 pp.270-271}."
+  en: "Ibn Sina advises that diseases with danger begin with strong treatment, and those without danger rise by degrees to the stronger if the lighter does not suffice, that one drug is not kept to but drugs are changed, and that when the illness is unclear it is left to nature {cite:canon-ibn-sina-print-v1 pp.270-271}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/medicine, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 4, chapters 1 to 3 on the general discourse on treatment, the treatment of bad temperament and evacuation (scan pages 267 to 276), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-p267
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

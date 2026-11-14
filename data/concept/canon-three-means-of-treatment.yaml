@@ -1,0 +1,18 @@
+id: concept/canon-three-means-of-treatment
+class: concept
+kind: scientific
+label: { ar: "وسائل العلاج الثلاث عند ابن سينا", en: "The three means of treatment in the Canon", ur: "علاج کے تین ذرائع قانون میں" }
+summary:
+  ar: "يفتتح ابن سينا الفن الرابع، وهو في وجوه المعالجات بحسب الأمراض الكلية في اثنين وثلاثين فصلاً، بفصل كلي في العلاج، فيقرر أن العلاج يتم بثلاثة أشياء: التدبير والتغذية، واستعمال الأدوية، واستعمال أعمال اليد {cite:canon-ibn-sina-print-v1 p.267}."
+  en: "Ibn Sina opens the fourth Fann, on the ways of treating diseases taken as wholes, in thirty-two chapters, with a general chapter on treatment: treatment is completed by three things, regimen and feeding, the use of drugs, and the use of the hands {cite:canon-ibn-sina-print-v1 p.267}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/medicine, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 4, chapters 1 to 3 on the general discourse on treatment, the treatment of bad temperament and evacuation (scan pages 267 to 276), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-p267
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }
