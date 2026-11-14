@@ -4282,3 +4282,19 @@ Resume point: sharh-saheeh-al-bukhare episode 31 (branch from origin/main).
 | Second ASR pass: Whisper large-v3 (mlx) run on the Mac to resolve garbled words of the Qwen transcript; cites use the shared 30-second grid | ep31 whole | Qwen pass too garbled for a rich first pass | Clarity | Open |
 
 Resume point: sharh-saheeh-al-bukhare episode 32 (branch from origin/main).
+
+### sharh-saheeh-al-bukhare ep32 (14 Nov 2026)
+
+16 points written for episode 32 (ar, en, ur); 10 needs_source marks in each language file for this episode; 0 new `about` edges. Quran verses referenced only through passage links (5-115, 18-71, 18-74, 18-77); none typed. Contested: He holds that there is no good innovation (while treating Umar's gathering for the Ramadan night prayer as rooted in the Prophet's practice), and that people may not accuse others of hypocrisy; the placement of the hypocrites, Pharaoh's people and the people of the table in the lowest depth of the fire and the details of the Path's light are reports he gives without a chain. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep32) | Episode / time | Reason | Gate failed | Override |
+| Greeting, opening prayer and closing prayer with thanks | ep32 00:00:00-00:00:30; 00:05:30-00:07:30; 01:09:00 | Not lesson content | Content rule | Open |
+| Supplication including political references and a passage on groups of Muslims and enemies of Islam | ep32 00:05:30-00:07:30; 00:08:30-00:09:00 | Sweeping claims about modern conflict and groups; stretch dropped under the content-safety block | Content rule / Voice rule | Open |
+| Remarks on the number of Muslims who pray, the pyramids and workers, and Egyptian geography | ep32 00:12:00-00:13:30; 00:22:00-00:22:30 | Unsourced statistics and sweeping claims about peoples | Content rule / Voice rule | Open |
+| Medical and food-hygiene digression (fermentation, microbes, rulings) | ep32 00:40:30-00:43:30 | Unclear and rulings in his voice, partly garbled | Voice rule / Clarity | Open |
+| Companion anecdotes on a roadside, hijab and women, Ibn Abbas sayings, Hasan resembling the Prophet | ep32 00:31:30-00:33:30; 00:37:30-00:39:00; 00:43:30-00:48:30 | Garbled, sweeping claims about women | Voice rule / Clarity | Open |
+| Digression on the Children of Israel, scouts, Yusha and the sun, the night journey, and a story of refugees | ep32 00:49:30-00:56:30; 01:02:00-01:03:00 | Heavily garbled, unsourced | Clarity | Open |
+| Loops and garbled stretches | ep32 00:11:30-00:11:30; 00:16:30-00:17:30; 00:18:30; 00:20:30-00:21:00; 00:25:00-00:25:30; 00:28:00; 00:33:00-00:33:30; 00:38:30-00:39:00; 00:43:00; 00:46:00; 00:49:00; 00:55:30; 00:59:30-01:00:30; 01:06:00; 01:07:30-01:08:00 | Repeated token loops or unrecoverable ASR | Clarity, Loop check | Open |
+| Dropped in review (ep32): mountain and date-palm light on the Path, pushing latecomers in the rows, and the claim that Umar's gathering is rooted in the Prophet's practice | ep32 00:26:00-00:27:30; 00:03:00-00:04:00; 00:36:00-00:36:30 | Not supported by the transcript | Clarity | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 33 (branch from origin/main).
