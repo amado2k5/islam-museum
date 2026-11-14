@@ -14,3 +14,6 @@ Al-Idrisi says the road from Tlemcen to the coastal town of Wahran is two large 
 The small harbour at its gate shelters nothing, but two miles away is the large harbour, where big ships and voyaging vessels anchor. It is sheltered from the wind and has no equal among the sea-walled harbours of the Berber lands. Its people drink from a wadi that runs into the town from the land, with orchards and gardens along it. Honey, butter, cheese, cattle and sheep are cheap. {cite:nuzhat-al-mushtaq-2002 p.252}
 
 Ships of al-Andalus call there often, and its people are landowners of substance who take pride in their dignity. {cite:nuzhat-al-mushtaq-2002 p.252}
+
+## In the iDAI.gazetteer
+The German Archaeological Institute's iDAI.gazetteer (no. 2092359) records this place under the preferred name «Oran», typed as a populated place. It sits under «Algerien» in the gazetteer's hierarchy, and among the names it records are «Oran», «Οράν». {cite:idai-gazetteer 2092359}

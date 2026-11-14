@@ -10,3 +10,6 @@ Xi'an is a Chinese city, which was the ancient capital of China and the end of t
 In the Fihrist of Ibn al-Nadim, according to the report of Abu Dulaf al-Yanbu'i, a name for the city of the greatest king of China is Hamdan. {cite:fihrist-ibn-al-nadim p.492}
 
 The link between Hamdan and Xi'an is not certain in the data; an additional source is needed.
+
+## In the iDAI.gazetteer
+The German Archaeological Institute's iDAI.gazetteer (no. 2359840) records this place under the preferred name «Xi'an», typed as a populated place. It sits under «Shaanxi (Provinz)» in the gazetteer's hierarchy, and among the names it records are «Xi'an», «Tây An». {cite:idai-gazetteer 2359840}

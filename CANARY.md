@@ -19,6 +19,7 @@ open a new block on top with the new version and today's date.
 - **The deeds calculator is now one screen you can use without reading anything.** The Hasanat and Sayyi'at Ledger (`/hisab/`) opens on large cards, one per act a text names a figure for, each with a single "Add" button; what you add is listed like a basket and the sums follow at once in a bar at the foot of the screen, with one clear colour per kind (good deeds, bad deeds, erasure, ranks). The counter, the full table with its texts, the ladder, the list of every counting text and the page's caveat and method are all still there, folded under "More on this page". The sums are still never subtracted from one another, and a result a text does not number is still shown in its words (plan 50 section 5).
 
 ### Data
+- **Gazetteer sections on eleven more place pages (packet 38).** Trapani, Tukra, Toledo, Tunis, Tus, Tustar, Ubeda, Valencia, Wahran, Xi'an and Zabid gain short cited Pleiades or iDAI.gazetteer sections in Arabic, English and Urdu (draft). Ubeda's iDAI section is left out because the record carries a different GeoNames id from ours; Sanaa, Babil and Askalan are founder-held and untouched.
 <<<<<<< HEAD
 - **Gazetteer sections on thirteen more place pages (packet 36).** Qina, Qumm, Rayy, Rouen, Salerno, Salonik, Samarqand, Samarra, Sanaa, Sarajevo, Setif, Seville and Shibam gain short cited Pleiades and iDAI.gazetteer sections in Arabic, English and Urdu. Sfax is left out because the iDAI record carries a different GeoNames id from ours.
 =======

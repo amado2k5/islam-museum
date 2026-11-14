@@ -11,3 +11,6 @@ Valencia is a city in eastern [[place/al-andalus|al-Andalus]] on the sea. Al-Maq
 Among those burned in it was the man of letters Abu Ja'far ibn al-Buni. Then the commander Abu Muhammad Mazdali conquered it in the year 495 AH, as an envoy of [[person/yusuf-ibn-tashfin|Yusuf ibn Tashfin]]. After that the Banu Ghaniya and Ibn Mardanish governed it. {cite:nafh-tib-maqqari p.455}
 
 In his mention of it, al-Maqqari gives a verse by Ibn Khafaja as a witness, in lament for the city. {cite:nafh-tib-maqqari p.456}
+
+## In the iDAI.gazetteer
+The German Archaeological Institute's iDAI.gazetteer (no. 2361215) records this place under the preferred name «Valencia (Ciudad)», typed as an archaeological site and a populated place. It sits under «Valencia (Provincia)» in the gazetteer's hierarchy, and among the names it records are «Valentia», «Valence». {cite:idai-gazetteer 2361215}

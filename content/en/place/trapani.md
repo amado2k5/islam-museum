@@ -14,3 +14,6 @@ Al-Idrisi says Trapani is the nearest land on Sicily to the Island of the Monk, 
 Trapani is an old, long-established town on the shore, with the sea around it on all sides. Its land is among the finest for farming, rich in produce and crops, and the town has wide markets and fertile livelihoods. {cite:nuzhat-al-mushtaq-2002 p.601}
 
 From Trapani, Mount Hamid is about ten miles away, a great, high peak. {cite:nuzhat-al-mushtaq-2002 p.602}
+
+## In the iDAI.gazetteer
+The German Archaeological Institute's iDAI.gazetteer (no. 2178811) records this place under the preferred name «Trapani», typed as a populated place and an archaeological site. It sits under «Trapani (Provincia)» in the gazetteer's hierarchy, and among the names it records are «Drepanum», «Trapani». {cite:idai-gazetteer 2178811}
