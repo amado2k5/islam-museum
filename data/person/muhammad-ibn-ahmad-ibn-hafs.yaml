@@ -1,34 +1,58 @@
 id: person/muhammad-ibn-ahmad-ibn-hafs
 class: person
 label:
-  ar: "محمد بن أحمد بن حفص"
-  en: "Muhammad ibn Ahmad ibn Hafs"
-roles: [muhaddith]
+  ar: محمد بن أحمد بن حفص
+  en: Muhammad ibn Ahmad ibn Hafs
+roles:
+  - muhaddith
 gender: male
 summary:
-  ar: "بطاقة أولية لمحمد بن أحمد بن حفص، المحدث في القرن الثالث الهجري؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Muhammad ibn Ahmad ibn Hafs, the third-century hadith scholar; his entry is not yet checked on the page."
-wings: [people]
-regions: [levant-iraq]
-periods: [period/abbasid-early]
-born: { edtf: "0877", precision: year, status: tradition, derived: true }
+  ar: محمد بن أحمد بن حفص البخاري، أبو عبد الله، مفتي بخارى وعالمها كما وصفه الذهبي، تفقه بوالده وتفقه به أهل بخارى وله تصانيف؛ ورد في عنوان ترجمته سنة ٢٦٤هـ ونُصّ في الترجمة على أنه عاش إلى نحو السبعين ومئتين.
+  en: Muhammad ibn Ahmad ibn Hafs al-Bukhari, Abu Abd Allah, mufti and scholar of Bukhara in al-Dhahabi's words, who studied fiqh under his father and taught the people of Bukhara, and left works; the entry's heading gives 264 AH while the text says he lived to nearly 270.
+wings:
+  - people
+regions:
+  - persia-central-asia
+periods:
+  - period/abbasid-early
 relations:
-  - { type: born_in, target: place/bukhara, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q5764)" }
-sources: [source/al-aalam]
+  - type: born_in
+    target: place/bukhara
+    sources:
+      - source/wikidata
+    confidence: medium
+    note: Wikidata P19 place of birth (Wikidata Q5764)
+  - type: lived_in
+    target: place/bukhara
+    note: Mufti and scholar of Bukhara (Siyar, p. 3222).
+    sources:
+      - source/siyar-alam-nubala-ideas-house
+    confidence: high
+sources:
+  - source/al-aalam
+  - source/siyar-alam-nubala-ideas-house
 external_ids:
   wikidata: Q109256812
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: al-Dhahabi, Siyar A'lam al-Nubala, one-volume edition (Bayt al-Afkar al-Dawliyya), entry read in full on the scanned page 3222 (Apple Vision OCR on the harvest drive)
+  generated_by: Claude Code (Lane B2 packet)
+  model: claude-sonnet-5-5
+  run: web-b2-siyar-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 occupations:
   - job: job/muhaddith
     kind: primary
     status: historical
-    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
-    sources: [source/al-aalam]
+    note: bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep
+    sources:
+      - source/al-aalam
+died:
+  edtf: 0877~
+  hijri: "0264"
+  calendar: gregorian
+  precision: year
+  derived: true
+  note: The entry heading gives 264 AH while the text says he lived to nearly the year 270 {cite:siyar-alam-nubala-ideas-house ص3222}; the card's earlier 877 CE birth date, taken from Wikidata, matches 264 AH as a death year and was moved here.

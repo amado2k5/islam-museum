@@ -6,23 +6,14 @@ label:
 roles: [muhaddith]
 gender: male
 summary:
-  ar: "بطاقة أولية لالعباس بن عبد العظيم؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Al-Abbas ibn Abd al-Azim; the entry is not yet checked on the page."
+  ar: "العباس بن عبد العظيم العنبري البصري، أبو الفضل، حافظ واسع الرحلة وصفه الذهبي بالحجة الإمام، وقال النسائي ثقة مأمون، وتوفي سنة 246 هـ."
+  en: "Al-Abbas ibn Abd al-Azim al-Anbari al-Basri, Abu al-Fadl, widely travelled memoriser whom al-Dhahabi calls a proof and an imam and whom al-Nasa'i called trustworthy and reliable; he died in 246 AH."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/siyar-alam-nubala-ideas-house]
 external_ids:
   wikidata: Q134282976
-provenance:
-  layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 Medium)"
-  model: "SWE-2 Medium"
-  run: wikidata-import-wave2
-status:
-  review: draft
-  completeness: 1
 occupations:
   - job: job/muhaddith
     kind: primary
@@ -34,3 +25,12 @@ relations:
   - { type: born_in, target: place/basra, note: "Wikidata Q48195 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: lived_in, target: place/baghdad, note: "Wikidata Q1530 (P551); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: lived_in, target: place/abbasid-caliphate, note: "Wikidata Q12536 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+provenance:
+  layer: own-research
+  source: "al-Dhahabi, Siyar A'lam al-Nubala, one-volume edition (Bayt al-Afkar al-Dawliyya), entry read in full on the scanned pages 2121-2122 (Apple Vision OCR on the harvest drive)"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-siyar-2026-11-14
+status:
+  review: draft
+  completeness: 3

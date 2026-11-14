@@ -1,28 +1,45 @@
 id: person/abdallah-ibn-nafi-al-saigh
 class: person
 label:
-  ar: "عبد الله بن نافع الصائغ"
-  en: "Abdallah ibn Nafi' al-Sa'igh"
-roles: [scholar]
+  ar: عبد الله بن نافع الصائغ
+  en: Abdallah ibn Nafi' al-Sa'igh
+roles:
+  - scholar
 gender: male
 summary:
-  ar: "بطاقة أولية لعبد الله بن نافع الصائغ؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abdallah ibn Nafi' al-Sa'igh; the entry is not yet checked on the page."
-wings: [people]
-regions: [arabia]
-periods: [period/umayyad]
-sources: [source/al-aalam]
+  ar: عبد الله بن نافع الصائغ، من موالي بني مخزوم، من كبار فقهاء المدينة وصاحب مالك الذي خلفه في مجلسه بعد ابن كنانة؛ روى عنه سحنون والزبير بن بكار وغيرهما، وتوفي في رمضان سنة ٢٠٦هـ بحسب ابن سعد والذهبي.
+  en: Abd Allah ibn Nafi' al-Sa'igh, a client of Banu Makhzum, one of the great jurists of Medina and the companion of Malik who succeeded him in his circle after Ibn Kinana; Sahnun, al-Zubayr ibn Bakkar and others narrated from him, and he died in Ramadan 206 AH according to Ibn Sa'd and al-Dhahabi.
+wings:
+  - people
+regions:
+  - arabia
+periods:
+  - period/abbasid-early
+sources:
+  - source/al-aalam
+  - source/siyar-alam-nubala-ideas-house
 external_ids:
   wikidata: Q20415302
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: al-Dhahabi, Siyar A'lam al-Nubala, one-volume edition (Bayt al-Afkar al-Dawliyya), entry read in full on the scanned pages 2538-2539 (Apple Vision OCR on the harvest drive)
+  generated_by: Claude Code (Lane B2 packet)
+  model: claude-sonnet-5-5
+  run: web-b2-siyar-2026-11-14
 status:
   review: draft
-  completeness: 1
-died: { edtf: "802", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (Tahdhib al-Tahdhib)" }
+  completeness: 3
+died:
+  edtf: "0822"
+  hijri: "0206"
+  calendar: gregorian
+  precision: year
+  derived: true
+  note: "Corrected to the book: توفي في شهر رمضان سنة ست ومئتين {cite:siyar-alam-nubala-ideas-house ص2539}; the card's 802 CE (186 AH) is the date al-Dhahabi says is not the sounder one {cite:siyar-alam-nubala-ideas-house ص2538}."
 relations:
-  - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }
+  - type: lived_in
+    target: place/medina
+    note: Medina, where the entry places his fatwa and his teaching circle (Siyar, p. 2538).
+    sources:
+      - source/siyar-alam-nubala-ideas-house
+    confidence: high

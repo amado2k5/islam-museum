@@ -3484,3 +3484,26 @@ Resume point: sharh-saheeh-al-bukhare episode 4 (branch from origin/main).
 | Loops and garbled stretches | ep04 00:12:00-00:12:30, 00:13:30-00:14:00, 00:17:30-00:18:30, 00:19:00-00:19:30, 00:20:00-00:20:30, 00:31:30-00:32:30, 00:34:00-00:35:30, 00:36:30-00:37:30, 00:43:30-00:44:30, 00:47:30-00:48:00, 00:49:30-00:54:30, 01:00:00-01:00:30, 01:02:30-01:04:30, 01:06:30-01:07:00, 01:08:00-01:08:30, 01:20:00-01:21:30 | Repeated or unrecoverable text | Clarity, Loop check | Open |
 
 Resume point: sharh-saheeh-al-bukhare episode 5 (branch from origin/main).
+
+### sharh-saheeh-al-bukhare ep05 (14 Nov 2026)
+
+21 points written for episode 5 (ar, en, ur); 11 needs_source marks in each language file for this episode; 10 new `about` edges. Quran verses referenced only through passage links (36-78, 36-79, 36-80, 99-7, 99-8, 3-159); none typed. Contested: He holds that the Gospels were written about three hundred years after Jesus and that no original copy exists, and that the rule taught in schools that matter is not created from nothing is wrong; both are contested claims attributed to him. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep05) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening supplication, greetings and closing prayer | ep05 00:00:00-00:03:00, 01:19:00 | Greetings, opening prayer (garbled) and sign-off | Content rule | Open |
+| Garbled opening on why advice is hard and a man's story about wine | ep05 00:08:00-00:11:30 | Meaning not recoverable | Clarity, Loop check | Open |
+| Loop stretches of repeated syllables and words | ep05 00:10:30-00:11:00, 00:17:30-00:18:00, 00:22:30-00:23:00, 00:25:00-00:26:00, 00:29:00-00:29:30, 00:30:00-00:30:30, 00:32:00-00:32:30, 00:33:30-00:34:30, 00:37:30-00:38:30, 00:39:00-00:39:30, 00:44:00-00:44:30, 00:45:00-00:45:30, 00:46:00-00:47:00, 00:49:00-00:50:00, 00:50:30-00:51:00, 00:52:00-00:53:30, 01:01:30-01:02:00, 01:04:00-01:04:30, 01:05:00-01:06:30, 01:08:00-01:09:30, 01:10:30-01:11:00, 01:15:30-01:16:00, 01:18:00-01:18:30 | Repeated-token loops | Loop check | Open |
+| Remarks on cursing time or fate and on colours, and a note about Muslims differing in names | ep05 00:16:30-00:17:00, 00:26:00-00:27:00 | Garbled, referent unclear | Clarity | Open |
+| Stretch on a Bedouin and the Kaaba, and on hadith terminology (hasan gharib) with questions to a person | ep05 00:28:30-00:29:00, 00:31:00-00:32:30 | Garbled, speaker and report unclear | Clarity | Open |
+| Stories of marriage, wives and household advice | ep05 00:36:30-00:39:30 | Sweeping advice about women, garbled | Voice rule, Clarity | Open |
+| Stretch on prayer, the Kaaba, and a dialogue about a person who did not know | ep05 00:39:30-00:42:30 | Garbled, report without chain | Clarity | Open |
+| Stretch on struggle (jihad), rage, armed conflict and drug trade | ep05 00:47:00-00:49:30, 00:52:30-00:53:00 | Sweeping claims touching modern conflict, partly garbled; stretch dropped under the content-safety block | Content rule, Clarity | Open |
+| Stretch on a slave market, a place and a man whose names are garbled | ep05 00:51:00-00:52:00 | Names garbled, story not recoverable | Clarity | Open |
+| Remarks on faith's actions, Ibn Umar and reason | ep05 00:54:00-00:56:30 | Garbled, meaning not recoverable | Clarity | Open |
+| Anecdotes on gratitude, an ember falling, prophets and other figures whose names are garbled | ep05 01:01:00-01:04:30, 01:06:00-01:07:30, 01:10:00-01:15:00 | Garbled; stories without recoverable chain | Clarity | Open |
+| Phone-call anecdote and dialogue about a school director and the police | ep05 01:14:30-01:16:30, 01:17:00-01:18:30 | Garbled, speakers unclear | Clarity | Open |
+| Tail of the transcript | ep05 01:19:00 | Last window (to 01:19:21) is garbled; the transcript is complete, not truncated | Clarity | Open |
+| Fine detail of the earlier bullets that the transcript does not support (the order of belief in Paradise and the Fire, the pairing of fear and hope, a link to the verse on gratitude, the claim that mercy and gentleness bring hearts close) | ep05 00:33:30, 00:56:30-00:57:30, 01:00:30-01:03:00, 01:07:30-01:09:00 | Not clearly supported by the transcript | Clarity | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 6 (branch from origin/main).
