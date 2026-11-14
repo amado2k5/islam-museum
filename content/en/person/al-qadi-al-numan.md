@@ -9,3 +9,6 @@ Abu Hanifa al-Nu'man b. Abi 'Abdallah Muhammad b. Mansur b. Ahmad b. Hayyun, qad
 
 ## His works
 Many works, among them Da'a'im al-Islam, Iftitah al-da'wa, Ikhtilaf usul al-madhahib and Kitab al-akhbar in fiqh; al-Musabbihi in his history describes him with knowledge, fiqh, religion and nobility. {cite:wafayat-ayan}
+
+## Works in the OpenITI corpus
+The OpenITI corpus holds 5 works under the author identifier 0363QadiNucman, among them: al-Īḍāḥ; al-Manāqib wa-l-maṯālib; Sharh Akhbar; Taʾwīl al-daʿāʾim. {cite:openiti-corpus 0363QadiNucman}

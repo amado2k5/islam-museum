@@ -16,3 +16,6 @@ translators: []
 ## وفات
 
 خسرو کی وفات اکتوبر 1325ء میں اپنے مرشد کے چند ماہ بعد ہوئی، اور اردو مضمون صراحتاً لکھتا ہے کہ وفات دہلی میں ہوئی۔ {cite:wikipedia-amir-khusrow-ur} {cite:wikidata-amir-khusrow} اکتوبر 1325ء 725ھ میں پڑتا ہے، جس سنہ سے عربی مضمون ان کی وفات مؤرخ کرتا ہے۔ {cite:wikipedia-amir-khusrow-ar}
+
+## OpenITI مجموعے میں تصانیف
+OpenITI مجموعہ اس مصنف کے لیے شناخت 0725AmirKhusraw کے تحت 6 تصانیف رکھتا ہے، جن میں یہ شامل ہیں: آيينهي سكندري، ديوان، هشت بهشت، خسرو أو شيرين۔ {cite:openiti-corpus 0725AmirKhusraw}

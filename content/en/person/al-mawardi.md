@@ -17,3 +17,6 @@ It is reported that he expanded jurisprudence over four thousand leaves and then
 
 ## Notes for researchers
 - The year of death, 450 AH, is converted to about 1058 CE, and needs a second source.
+
+## Works in the OpenITI corpus
+The OpenITI corpus holds 10 works under the author identifier 0450AbuHasanMawardi, among them: Aclam Nubuwwa; Adab Dunya Wa Din; al-Aḥkām al-sulṭāniyyaŧ; Amthal Wa Hikam. {cite:openiti-corpus 0450AbuHasanMawardi}

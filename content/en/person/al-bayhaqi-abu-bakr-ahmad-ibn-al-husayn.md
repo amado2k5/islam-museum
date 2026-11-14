@@ -12,3 +12,6 @@ He transmitted from al-Hakim Abu Abd Allah Muhammad ibn Abd Allah al-Nisaburi an
 
 ## Works and death
 He was a voluminous writer, his works said to reach a thousand fascicules; most famous is the Sunan al-Kubra, of which al-Subki said he knew nothing like it for accuracy, arrangement and quality, alongside the Dala'il al-Nubuwwa, al-Adab, and al-I'tiqad wa-l-Hidaya; Imam al-Haramayn praised his writings in support of the Shafi'i school {cite:encyclopaedia-of-islam-2 vol. 1 p. 1190}. Toward the end of his life he moved to Nishapur and remained there until his death in 458/1066 {cite:encyclopaedia-of-islam-2 vol. 1 p. 1190}.
+
+## Works in the OpenITI corpus
+The OpenITI corpus holds 26 works under the author identifier 0458Bayhaqi, among them: Adab; Ahkam Quran Li Shafici; Arbacuna Sughra; Asma Wa Sifat. {cite:openiti-corpus 0458Bayhaqi}

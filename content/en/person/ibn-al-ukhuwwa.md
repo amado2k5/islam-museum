@@ -9,3 +9,6 @@ Muhammad ibn Muhammad ibn Ahmad al-Qurashi, known as "Ibn al-Ukhuwwa," author of
 
 ## Note
 His date of death needs a second source before it can be relied on.
+
+## Works in the OpenITI corpus
+The OpenITI corpus holds 2 works under the author identifier 0729IbnUkhuwwa, among them: Ahadith Wa Hikayat; Macalim Qurba. {cite:openiti-corpus 0729IbnUkhuwwa}

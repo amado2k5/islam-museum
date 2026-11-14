@@ -24,3 +24,5 @@ He authored over a hundred books and several thousand articles. {cite:wikipedia-
 ## Death
 He died at Cairo in March 1964 — the Arabic article gives 26 Shawwal 1383, corresponding to 12 March 1964, while the English article's infobox and death section give 13 March — and his body was carried to Aswan and buried there the same day. {cite:wikipedia-abbas-mahmoud-al-aqqad-ar} {cite:wikipedia-abbas-mahmoud-al-aqqad-en} {cite:wikidata-abbas-mahmoud-al-aqqad} A street in Cairo's Nasr City district bears his name, and an Egyptian television series of the early 1980s dramatised his life under the title al-Imlaq, "The Giant". {cite:wikipedia-abbas-mahmoud-al-aqqad-en}
 
+## Works in the OpenITI corpus
+The OpenITI corpus holds 76 works under the author identifier 1383CabbasMahmudCaqqad, among them: Abu Cala; Abu Nuwas; Abu Shuhada Husayn Ibn Cali; Acasir Maghrib. {cite:openiti-corpus 1383CabbasMahmudCaqqad}

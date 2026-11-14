@@ -18,3 +18,6 @@ The Gregorian dates of his birth and death are derived from the Hijri dates, and
 
 ## In the preface of Masalik al-absar and at the Ka'ba
 In the preface of [[work/masalik-al-absar|Masalik al-absar]] al-Umari says he began it under Sultan al-Malik al-Nasir Muhammad ibn Qalawun, limited it to the realms of Islam, and reported no marvel without investigating it nor any oddity without naming its source. {cite:umari-masalik-1924 p.44} {cite:umari-masalik-1924 p.45} {cite:umari-masalik-1924 p.46} He relates that on pilgrimage in 738 AH he went up on the roof of the Ka'ba with the commanders of the Egyptian caravan and found it paved with white marble, and that with his own hands he removed the old covering and put on the new; that year the old covering was taken to the sultan in Egypt, to be sent to the Marinid sultan Abu al-Hasan in return for a gift he had sent, and the Banu Shayba and the Sharifs were compensated from the treasury in Egypt. {cite:umari-masalik-1924 p.138} {cite:umari-masalik-1924 p.139}
+
+## Works in the OpenITI corpus
+The OpenITI corpus holds 3 works under the author identifier 0749IbnFadlAllahCumari, among them: Masālik al-abṣār fī mamālik al-amṣār; Kitāb al-Šitwiyyāt; al-Taʿrīf bi-al-muṣṭalaḥ al-šarīf. {cite:openiti-corpus 0749IbnFadlAllahCumari}

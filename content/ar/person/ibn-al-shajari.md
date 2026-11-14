@@ -16,3 +16,6 @@ provenance: { generated_by: "Claude Code (OCR-harvest worker K)", model: claude-
 - عاش في بغداد تحت سلطان السلاجقة، وعاصر من الخلفاء القائم إلى المقتفي. وتلمذ للخطيب التبريزي في اللغة والأدب، وكان شيخاً لابن الخشاب ولأبي البركات الأنباري. وقرأ عليه أبو سعد السمعاني جزءاً من أمالي ثعلب. {cite:amali-ibn-al-shajari-tanahi-khanji-1992 p. 17-19}
 - ويروي أبو البركات الأنباري أن [[person/al-zamakhshari|الزمخشري]] لما قدم بغداد للحج جاءه ابن الشجري مهنئاً وأنشده شعراً في الثناء عليه، فردّ الزمخشري بحديث زيد الخيل. {cite:amali-ibn-al-shajari-tanahi-khanji-1992 p. 19}
 - وأشهر كتبه [[work/amali-ibn-al-shajari|«الأمالي»]] في أربعة وثمانين مجلساً، ويرى محققه أنه بصري خالص في النحو. {cite:amali-ibn-al-shajari-tanahi-khanji-1992 p. 8} {cite:amali-ibn-al-shajari-tanahi-khanji-1992 p. 189}
+
+## أعمال في مدونة OpenITI
+تحفظ مدونة OpenITI لهذا المؤلف تحت المعرّف 0542IbnCaliDiyaDinIbnShajari 3 من الأعمال، منها: أمالي ابن الشجري، ما لم ينشر من الأمالي الشجرية، مختارات شعراء العرب لابن الشجري. {cite:openiti-corpus 0542IbnCaliDiyaDinIbnShajari}

@@ -76,3 +76,6 @@ The article says that Ibn Rushd had few disciples in Islam, but that his fame am
 
 ## What scholars said of him
 His contemporary al-Dabbi called him a well-known jurist and memoriser who took part in many sciences; Ibn Abi Usaybi'a, unrivalled in law and juristic disagreement; Ibn Farhun, that al-Andalus produced no one like him in accomplishment, learning and merit; al-Maqqari, that he brought Malik's school closer than anyone before him. {cite:bidaya-hallaq-v1 p. 14} {cite:bidaya-bakri-bayt-al-afkar p. 13} Al-Bakri describes him as, for all his eminence, the most humble of men, and as more given to understanding, diraya, than to transmission, riwaya. {cite:bidaya-bakri-bayt-al-afkar p. 10}
+
+## Works in the OpenITI corpus
+The OpenITI corpus holds 20 works under the author identifier 0595IbnRushdHafid, among them: Bidayat Mujtahid; Daruri Fi Usul Fiqh; Fasl Maqal; al-Kulliyyāt fī al-ṭibb. {cite:openiti-corpus 0595IbnRushdHafid}

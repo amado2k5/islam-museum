@@ -20,3 +20,6 @@ Between 1928 and 1932 she suffered a series of personal losses — her parents, 
 
 ## A note on her religion
 The English article's lead calls her personally a Maronite poet. The Arabic article names only her father as a Maronite and files her under Maronite and Christian categories, and Wikidata carries no religion value. One text tradition is not enough for this museum's two-source bar, so her faith is recorded as unknown, with the evidence preserved in her data record. {cite:wikipedia-may-ziade-en} {cite:wikipedia-may-ziade-ar} {cite:wikidata-may-ziade}
+
+## Works in the OpenITI corpus
+The OpenITI corpus holds 10 works under the author identifier 1360MayZiyada, among them: Bahithat Badiya; Bayna Jazr Wa Madd; Caisha Taymur; Ghayat Hayat. {cite:openiti-corpus 1360MayZiyada}

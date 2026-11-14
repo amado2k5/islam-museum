@@ -1085,3 +1085,9 @@ Wrote ar, en and ur prose for vila, th-nia, el-mahalla-el-kubra, ioannina, kirku
 
 - 14 Nov 2026, Lane B1 packet 21: wrote ar, en, ur prose for ten persons (abd-al-rahman-al-sufi, al-khazin-al-baghdadi, fuzuli, firuz-shah-tughluq, ibn-abd-al-zahir, alishir-navai, latifi, molla-fenari, zati, miran-shah) from Biblissima labels and the data files. No OpenITI ids in the packet. al-A'lam OCR on the drive holds only index hits, so no entry was read; pages are short on purpose. Skipped: none.
 - 14 Nov 2026, Lane B1 packet 22: ten persons written (ar, en, ur, draft) from Biblissima name form and dates only; no OpenITI ids in the packet; al-Zirikli OCR (1927 vol. 2) holds only noisy mentions, so no biographical entry was read and no work list beyond the data card was stated. Skipped: none.
+
+## 2026-11-14 (p70, Lane B worker B1, coordinator) — prose packets and OpenITI work lists
+
+- Place packets 1 to 16 (152 places with a Pleiades or iDAI id and no prose) were written by Sonnet subagents and merged (PRs 6724, 6728, 6736, 6738, 6743, 6745, 6751, 6754, 6762, 6765, 6769, 6772, 6779, 6780, 6786, 6787); one place had no en file left. Person packets 21 and 22 (20 persons, PRs 6791, 6792); packet 23 (sultan-walad, baha-al-din-naqshband) skipped: the only verifiable facts are the Biblissima dates, no entry on the drive.
+- Data mismatches noticed by subagents, for the founder: stuttgart (iDAI links GeoNames 2825297, ours 6690189; the iDAI link rested on the Arabic name only), idlib (169388 ours, 169389 iDAI), moscow (524894 ours, 524901 iDAI).
+- 68 persons with an OpenITI id gain a section listing the works the corpus holds under it (Arabic titles for ar and ur, transliterations for en; titles with brackets, pilcrows or quotation marks skipped; 37 persons with fewer than two clean titles and al-daraqutni, whose OpenITI title contains a typed honorific, left out).

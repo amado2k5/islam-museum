@@ -46,3 +46,6 @@ Al-Diya' relates that his opponents wrote against him to the ruler of Egypt, al-
 
 ### Death
 He died on Monday 23 Rabi' al-Awwal 600, spent Tuesday night in the mosque, and was buried on Tuesday in [[place/al-qarafa|al-Qarafa]], facing the grave of Shaykh Abu Amr ibn Marzuq. On his deathbed he urged his son to fear God and asked his visitors to remember God. Ibn Rajab notes that Ibn al-Hanbali was mistaken in dating his death to 595. {cite:dhayl-tabaqat-hanabila-faqi-v2 p. 29}
+
+## Works in the OpenITI corpus
+The OpenITI corpus holds 22 works under the author identifier 0600CabdGhaniMaqdisi, among them: Ahadith Jamacili; Akhbar Dajjal; Akhbar Hasan Basri; Akhbar Salat. {cite:openiti-corpus 0600CabdGhaniMaqdisi}
