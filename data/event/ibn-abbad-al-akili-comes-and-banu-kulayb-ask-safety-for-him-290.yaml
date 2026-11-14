@@ -1,0 +1,64 @@
+id: event/ibn-abbad-al-akili-comes-and-banu-kulayb-ask-safety-for-him-290
+class: event
+kind: other
+label:
+  ar: "قدوم ابن عباد الأكيلي من قبل آل طريف وطلب بني كليب الأمان له من الهادي، 290هـ"
+  en: "Ibn Abbad al-Akili comes from Al Tarif's side and Banu Kulayb ask al-Hadi for safety for him, 290 AH"
+  ur: "ابن عباد اکیلی کا آل طریف کی طرف سے آنا اور بنو کلیب کا ہادی سے اس کے لیے امان مانگنا، 290ھ"
+summary:
+  ar: "قدم ابن عباد الأكيلي من قبل آل طريف حتى صار إلى المعروف، فأرسل الهادي إلى بني كليب يذكّرهم أنه آمنهم على ألا يدخل هذا الرجل بينهم، فقدمت إليه بنو كليب بأجمعها وطلبت الأمان لابن عباد فأجابهم، فقدموا به إليه، فصرف العسكر الذين كانوا معه وأمره بالعودة إلى الموضع الذي كان فيه."
+  en: "Ibn Abbad al-Akili came from Al Tarif's side as far as al-Ma'ruf, and al-Hadi sent to Banu Kulayb reminding them that he had given them safety on condition that this man not enter among them; Banu Kulayb came to him in a body and asked safety for Ibn Abbad, he agreed, they brought him, and he sent away the army that was with him and told him to go back to the place where he had been."
+  ur: "ابن عباد اکیلی آل طریف کی طرف سے آیا یہاں تک کہ المعروف پہنچا، تو ہادی نے بنو کلیب کو پیغام بھیجا کہ انہوں نے انہیں اس شرط پر امان دی تھی کہ یہ شخص ان کے بیچ نہ آئے؛ بنو کلیب سب مل کر ان کے پاس آئے اور ابن عباد کے لیے امان مانگی، انہوں نے مان لی، وہ اسے ان کے پاس لائے، تو ہادی نے اس کے ساتھ آئے لشکر کو رخصت کیا اور اسے حکم دیا کہ جہاں تھا وہاں لوٹ جائے۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0903"
+    hijri: "0290"
+    calendar: julian
+    precision: year
+    status: tradition
+    derived: true
+    note: "سنة 290هـ مستنتجة من ترتيب الخبر؛ الكتاب لا يذكر يوماً ولا شهراً لهذا الخبر؛ التحويل مشتق"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ahmad-ibn-abbad-al-akili
+  role: "ابن عباد الأكيلي كما سماه الكتاب، محتمل"
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-kulayb-saada
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-tarif
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/saada
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص251 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-29
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 251

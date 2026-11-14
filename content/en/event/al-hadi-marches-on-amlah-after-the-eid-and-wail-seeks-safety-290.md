@@ -1,0 +1,11 @@
+---
+id: event/al-hadi-marches-on-amlah-after-the-eid-and-wail-seeks-safety-290
+lang: en
+source_lang: ar
+translators: ["Claude Sonnet 5.5 (claude-sonnet-5-5), draft translation"]
+---
+## Overview
+Al-Hadi stayed at Sa'da until the "Eid of Arafa" (so printed), and [[group/wailat-shakir|Wa'ila]] had, as the narrator puts it, made trouble on the road with people's property and lives and shown evil and corruption; he gathered many armies of [[group/khawlan-tribe|Khawlan]] and set out four days after the Eid al-Adha and spent the night at al-Hajar, then went on toward [[place/amlah-yemen|Amlah]], and where the road came to a narrow place of the land he was met by the armies of Wa'ila, who had massed for him in those defiles and mountains {cite:sira-hadi-ila-al-haqq p.250} {cite:sira-hadi-ila-al-haqq p.251}.
+
+## Detail
+He sent the head of the army forward with all the baggage until they reached a wide place, and the rear of the army lagged and fought the men for an hour until the Khawlanis came down on them from the mountains and drove them off and killed a number of them; one Khawlani was killed. The whole army went on until it halted at the village of Amlah and plundered what it found there and stayed days wrecking houses and wells and cutting palms and vines, while the people asked for safety and al-Hadi disliked it because of what he knew of their wickedness and little faithfulness, according to the narrator; he moved from village to village wrecking them one by one until they threw themselves on him, and he gave them safety and went back to Sa'da after a hard time with them {cite:sira-hadi-ila-al-haqq p.251}. A marginal heading in the original reads "juristic benefits in the wrecking of Amlah, its plunder, the cutting of its trees and the non-granting of safety to its people"; the museum records that it exists, adds nothing to it and gives no ruling. Before this is [[event/al-hadi-at-warwar-treats-with-ibn-khalaf-and-returns-to-saada-on-news-of-jaftam-290|Warwar and the return to Sa'da]]; for an earlier march on Wa'ila see [[event/al-hadi-marches-on-wail-of-shakir-and-takes-sureties-290|the march on Wa'ila of Shakir]]. The month, Dhu al-Hijja, is estimated from the order of the narrative.

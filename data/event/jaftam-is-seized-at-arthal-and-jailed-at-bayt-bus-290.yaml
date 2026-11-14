@@ -1,0 +1,64 @@
+id: event/jaftam-is-seized-at-arthal-and-jailed-at-bayt-bus-290
+class: event
+kind: other
+label:
+  ar: "أسر جفتم بأرثل وحبسه ببيت بوس ثم نقله إلى ظهر، شوال 290هـ"
+  en: "Jaftam is seized at Arthal, jailed at Bayt Bus and later moved to Zahr, Shawwal 290 AH"
+  ur: "ارثل میں جفتم کی گرفتاری، بیت بوس میں قید اور بعد میں ظہر منتقلی، شوال 290ھ"
+summary:
+  ar: "أقام جفتم بموضع يقال له أرثل ستة أيام لم يأذنوا له بالمصير إلى صنعاء، فلما كان اليوم السابع خرجوا إليه في تعبئة القتال حتى وافقوه، واستأنس إليهم أصحابه، فأخذوه وابنه وابن أخيه إلى بيت بوس فحبسوهم، ثم أخذوا ابن أبي الخير من قلعة نجر وحبسوه فيها أيضاً، وبعد أيام حدّدوا على جفتم وحوّلوه هو وابن أبي الخير إلى ظهر."
+  en: "Jaftam stayed at a place called Arthal six days, not permitted to go to Sana'a; on the seventh day they went out to him in battle order until they met, his companions took safety with them, and they seized him, his son and his nephew and took them up to Bayt Bus and jailed them, then seized Ibn Abi al-Khayr from the fort of Najr and jailed him there too; after some days they tightened the confinement of Jaftam and moved him and Ibn Abi al-Khayr to Zahr."
+  ur: "جفتم ارثل نامی جگہ چھ دن رکا رہا اور اسے صنعاء جانے کی اجازت نہ ملی؛ ساتویں دن وہ جنگی ترتیب میں اس کے پاس نکلے یہاں تک کہ مل گئے، اس کے ساتھیوں نے ان سے امان لی، تو انہوں نے اسے، اس کے بیٹے اور بھتیجے کو پکڑ کر بیت بوس چڑھایا اور قید کیا، پھر ابن ابی الخیر کو نجر کے قلعے سے پکڑ کر وہیں قید کیا؛ کچھ دن بعد جفتم پر سختی کی اور اسے اور ابن ابی الخیر کو ظہر منتقل کیا۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0903-08"
+    hijri: "0290-10"
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: "شوال سنة 290هـ بنص الكتاب، والسنة مستنتجة من الترتيب ومن قول الراوي إنه في عهد حبس أبي القاسم؛ التحويل مشتق"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/al-murtada-muhammad
+  role: "أبو القاسم ابن الهادي، محتمل"
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-tarif
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/arthal-yemen
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/bayt-bus-sanaa-yemen
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/sanaa
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص253 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-29
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 253
