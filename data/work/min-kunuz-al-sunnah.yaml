@@ -31,6 +31,14 @@ relations:
   - { type: about, target: concept/hijab, sources: [source/assabile-omar-abdelkafy] }
   - { type: about, target: person/aisha, sources: [source/assabile-omar-abdelkafy] }
   - { type: about, target: concept/khamr, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: person/anas-ibn-malik, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/fudul, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/tajassus-wa-tahassus, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/tashabbuh-imitation, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: person/al-shafii, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/talaq, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/ashrat-al-saa, sources: [source/assabile-omar-abdelkafy] }
+  - { type: about, target: concept/hubb-allah, sources: [source/assabile-omar-abdelkafy] }
 sources: [source/assabile-omar-abdelkafy]
-provenance: { layer: copyrighted-reference, source: "Assabile, min-kunuz-al-sunnah (transcripts pass5-qwen, engine Qwen3-ASR oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2)", generated_by: "Claude Code (claude-sonnet-5-5)", model: claude-sonnet-5-5, run: omar-abdelkafy-min-kunuz-al-sunnah-1, episodes: "1" }
+provenance: { layer: copyrighted-reference, source: "Assabile, min-kunuz-al-sunnah (transcripts pass5-qwen, engine Qwen3-ASR oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2)", generated_by: "Claude Code (claude-sonnet-5-5)", model: claude-sonnet-5-5, run: omar-abdelkafy-min-kunuz-al-sunnah-1, episodes: "1-2" }
 status: { review: draft, generated_by: "Claude Code (claude-sonnet-5-5); run omar-abdelkafy-min-kunuz-al-sunnah-1" }
