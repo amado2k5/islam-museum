@@ -18,9 +18,10 @@ died: { edtf: "1556", calendar: gregorian, precision: year, derived: true, note:
 relations:
   - { type: born_in, target: place/aq-qoyunlu, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: buried_in, target: place/karbala, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/biblissima]
 external_ids:
   wikidata: Q178379
+  biblissima: Q11663
 provenance:
   layer: own-research
   source: "Wikidata Q178379 (religion claim Islam); book source: al-Zirikli, al-A'lam — entry not yet read on the page"

@@ -12,7 +12,7 @@ roles: [scholar]
 wings: [people]
 periods: [period/abbasid-early, period/abbasid-fragmentation]
 regions: [persia-central-asia]
-external_ids: { wikidata: "Q140124" }
+external_ids: { wikidata: "Q140124", biblissima: Q272 }
 relations:
   - { type: born_in, target: place/nishapur, sources: [source/wafayat-ayan, source/encyclopaedia-of-islam-2] }
   - { type: died_in, target: place/nishapur, sources: [source/wafayat-ayan] }
@@ -30,7 +30,7 @@ relations:
   - { type: participated_in, target: event/muslim-lafz-majlis-250, role: "القائم من المجلس", sources: [source/tazkirat-al-huffaz, source/wafayat-ayan] }
   - { type: participated_in, target: event/muslim-last-baghdad-259, role: "المحدّث", sources: [source/wafayat-ayan] }
   - { type: participated_in, target: event/death-muslim-nasrabad-261, role: "المتوفَّى", sources: [source/wafayat-ayan, source/encyclopaedia-of-islam-2] }
-sources: [source/fihrist-ibn-al-nadim, source/tazkirat-al-huffaz, source/wafayat-ayan, source/encyclopaedia-of-islam-2]
+sources: [source/fihrist-ibn-al-nadim, source/tazkirat-al-huffaz, source/wafayat-ayan, source/encyclopaedia-of-islam-2, source/biblissima]
 provenance:
   layer: own-research
   source: "Ibn al-Nadim, al-Fihrist p. 322 (list of works). Enriched for the Timeline Explorer: Ibn Khallikan, Wafayat al-A'yan ed. I. Abbas v p. 195; al-Dhahabi, Tadhkirat al-Huffaz j.2 pp. 526-528; Encyclopaedia of Islam 2nd ed. vol. 7, art. Muslim b. al-Hadjdjadj (G.H.A. Juynboll), printed pp. 690-692; Tabaqat al-Shafi'iyya al-Kubra j.2 p. 9 (harvest OCR scans)."
