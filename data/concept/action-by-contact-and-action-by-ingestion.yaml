@@ -1,0 +1,18 @@
+id: concept/action-by-contact-and-action-by-ingestion
+class: concept
+kind: scientific
+label: { ar: "ما يفعل بالملاقاة وما يفعل بالتناول عند ابن سينا", en: "What acts by contact and what acts by ingestion in the Canon", ur: "قانون میں ملاقات سے اور کھانے سے عمل کرنے والی چیزیں" }
+summary:
+  ar: "يذكر ابن سينا أن من الأشياء ما يغير بالملاقاة ولا يغير بالتناول مثل البصل، فإنه إذا ضمد به من خارج قرح ولا يقرح من داخل. ومنها ما هو بالعكس مثل الإسفيداج، فإنه إن شرب غير تغييراً عظيماً وإن طلي لم يفعل شيئاً، ومنها ما يفعل من الوجهين {cite:canon-ibn-sina-print-v1 pp.139-140}."
+  en: "Ibn Sina says some things alter by contact and not by ingestion, such as the onion, which when applied outside as a poultice blisters but does not blister from within. Others are the opposite, such as ceruse, which if drunk alters greatly yet if smeared does nothing. Some act both ways {cite:canon-ibn-sina-print-v1 pp.139-140}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/disease, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, on food, drink, waters, retention and evacuation, and non-necessary causes (scan pages 131 to 140), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-fann2-food-water-1
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }
