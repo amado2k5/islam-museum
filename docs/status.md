@@ -1,6 +1,21 @@
 # Project status and how to resume
 
-_Last updated 6 November 2026._ Read this first in a new session, then `docs/plan/00-README.md` (the plan) and `CLAUDE.md` (the rules)._
+_Last updated 14 November 2026._ Read this first in a new session, then `docs/plan/00-README.md` (the plan) and `CLAUDE.md` (the rules)._
+
+## Reach — the Tranco ranking log
+
+Tranco (tranco-list.eu) is a research ranking of popular domains, recomputed daily from several traffic lists; a lower number is a larger audience. Ranks are read from Tranco's own API for this domain (`https://tranco-list.eu/api/ranks/domain/islam.museum`); the list date is Tranco's, the check date is ours. The milestone the project watches is the top 1,000,000.
+
+| Tranco list date | islam.museum rank |
+|---|---|
+| 2026-10-23 | 4,609,967 |
+| 2026-11-06 | 2,137,154 |
+| 2026-11-10 | 1,508,249 |
+| 2026-11-11 | 1,412,824 |
+| 2026-11-12 | 1,328,397 |
+| 2026-11-13 | 1,259,190 |
+
+Latest, checked 14 November 2026: **#1,259,190** on the list dated 13 November 2026 — up 69,207 places in a day from #1,328,397 (list of 12 November), and 259,190 places short of the top 1,000,000.
 
 ## What exists
 
