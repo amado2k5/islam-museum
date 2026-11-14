@@ -30,6 +30,8 @@ open a new block on top with the new version and today's date.
 - **Nomisma links added to twenty-one dynasties and two houses.** The Seljuk, Rum Seljuk, Buyid, Hamdanid, Ghurid, Hafsid, Marinid, Idrisid, Tulunid, Zand, Saadi, Alawi and eleven other dynasties, with the Nasrid and Sasanian houses, now carry their Nomisma concept, matched through the shared Wikidata number and a shared name. Dynasties whose Wikidata number maps to several concepts were left alone (decision dec-20261114-277).
 - **Lane ledger for the Shamela reading lane.** `docs/delegation/web-sources-progress.md` records the trust criteria for reading shamela.ws, how Siyar A'lam al-Nubala is laid out there, and the first persons skipped with the reason; no entity changed.
 - **Pleiades is registered as a source, and twenty-five places carry its identifier.** Sufetula, Nineveh, Ephesus, Sidon, Aphrodisias, Yazd, Nazareth, Thermopylae and seventeen more places now link to their Pleiades record, chosen only where its point lies within 1.5 km of ours and its title equals our name (decision dec-20261114-277).
+### Data
+- **Four hadith scholars now have full biographies in Arabic, English and Urdu**, each read from its own entry in al-Dhahabi's Siyar A'lam al-Nubala' and cited to the page: Malik ibn Mighwal, Thawr ibn Yazid (with the charge of holding qadar given to those who made it), Isma'il ibn Abi Khalid and Zahir ibn Ahmad al-Sarakhsi. The cards for Thawr and Zahir had wrong or placeholder death years and now carry the dates the book gives (153 and 389 AH). All four are draft until a human reads them.
 
 ## v1.30.0 — 2026-11-14
 ### Added
