@@ -15,3 +15,6 @@ From Nicaea, greens are carried to Constantinople, thirty miles away. From Nicae
 
 ## Nearby towns
 From Nicaea to Dhamiliya is four stages. Dhamiliya is a small, civilised town with all its resources and amenities. From there to Azla, a small town on the shore of the sea, is four days, and from Azla to Abdas is three days. {cite:nuzhat-al-mushtaq-2002 p. 805}
+
+## In the Pleiades gazetteer
+Pleiades, the open gazetteer of ancient places, lists this place under the title «Helikore/Nicaea» (Pleiades no. 511268), classed as settlement, with activity attested from 550 BCE to 640 CE. Its recorded names include Helikore, Nicaea and Nicea. It describes a Greek city of north-western Anatolia, modern Iznik, where the First and Second Councils of Nicaea met and which was the interim capital of the Byzantine Empire from 1204 to 1261. {cite:pleiades 511268}

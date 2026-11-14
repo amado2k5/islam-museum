@@ -83,3 +83,9 @@ Isfahan is a historic jewel in central Iran, renowned for its architectural sple
 
 ## For Scholars
 A premier historic metropolis of central Iran along the Zayandeh River and the Zagros plateau, ideally situated along major trans-Eurasian trade routes. Ascending to prominence under the Great Seljuks in the 5th century AH through vizier Nizam al-Mulk and Sultan Malikshah, it hosted scholars such as Ibn Sina during his later productive years. Isfahan achieved legendary urban brilliance under Safavid Shah Abbas I, who made it his capital in 1006 AH (1598 CE), constructing the magnificent Naqsh-e Jahan complex with the Shah Mosque, Sheikh Lotfollah Mosque, Ali Qapu Palace, and the monumental bridges crossing the Zayandeh.
+
+## In the Pleiades gazetteer
+Pleiades, the open gazetteer of ancient places, lists this place under the title «Aspadana/(I)Spahan/Gay/Gabai?» (Pleiades no. 902990), classed as a settlement, with activity attested from 1200 BCE to 2100 CE. {cite:pleiades 902990}
+
+## In the iDAI.gazetteer
+The German Archaeological Institute's gazetteer, iDAI.gazetteer, records this place as no. 2089954, typed as populated place, with the preferred name «Isfahan» under «Isfahan (Ostan)» in its hierarchy, and recorded names including Ispahan, اصفهان, Aspadana. {cite:idai-gazetteer 2089954}

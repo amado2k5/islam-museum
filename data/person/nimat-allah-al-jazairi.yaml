@@ -6,25 +6,26 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لنعمة الله الجزائري، فقيه ومحدث العراق الصفوي في القرن الثامن عشر، توفي سنة ١٧٠٠م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ni'mat Allah al-Jaza'iri, the eighteenth-century Safavid-era jurist and muhaddith of Iraq, d. 1700; the biographical entry is not yet checked on the page."
+  ar: "نعمة الله بن عبد الله الحسيني الجزائري، أديب مدرس من فقهاء الإمامية، نسبته إلى جزائر البصرة وقرأ بشيراز وأصفهان، توفي بقرية جايدر، من كتبه زهر الربيع والأنوار النعمانية ومقصود الأنام؛ 1050 إلى 1112 هـ."
+  en: "Ni'mat Allah ibn Abd Allah al-Husayni al-Jaza'iri, a man of letters and teacher among the Imami (Twelver Shi'i) jurists, from the Jaza'ir of Basra, who studied in Shiraz and Isfahan and died in the village of Jayidar; author of Zahr al-Rabi, al-Anwar al-Numaniyya and Maqsud al-Anam; 1050 to 1112 AH (1640 to 1701)."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/gunpowder-empires]
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q10293670
   viaf: "118531739"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0052
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
-born: { edtf: "1640", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (al-Djazai'ri); Encyclopaedia Iranica Confirmed on 13 November 2026 against Wikidata Q10293670 (P569, a statement with a reference), item revision 2548058153.", sources: [source/wikidata] }
-died: { edtf: "1700", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (al-Djazai'ri); Encyclopaedia Iranica Confirmed on 13 November 2026 against Wikidata Q10293670 (P570, a statement with a reference), item revision 2548058153.", sources: [source/wikidata] }
+  completeness: 3
+born: { edtf: "1640", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (al-Djazai'ri); Encyclopaedia Iranica Confirmed on 13 November 2026 against Wikidata Q10293670 (P569, a statement with a reference), item revision 2548058153. al-A'lam gives 1050 AH = 1640, agreeing with the card.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
+died: { edtf: "1700", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (al-Djazai'ri); Encyclopaedia Iranica Confirmed on 13 November 2026 against Wikidata Q10293670 (P570, a statement with a reference), item revision 2548058153. al-A'lam gives 1112 AH = 1701; the card's 1700 falls within the same Hijri year and is kept.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
 relations:
   - { type: lived_in, target: place/iraq, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/al-aalam] }
+  - { type: born_in, target: place/basra, note: "al-Zirikli, al-A'lam, vol. 8 p. 32: born in the village of al-Sabbaghiyya in the Jaza'ir of Basra (the nisba)", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }

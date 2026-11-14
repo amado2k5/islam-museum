@@ -15,3 +15,9 @@ From Qafsa to al-Qayrawan, northward and a little east, is four stages. To the s
 
 ## Sfax
 From Qafsa to Sfax is three days. Al-Idrisi describes Tiqyus, a fine town near it, which lies one stage from Qafsa and has tender, good vegetables. {cite:nuzhat-al-mushtaq-2002 p. 278} {cite:nuzhat-al-mushtaq-2002 p. 279}
+
+## In the Pleiades gazetteer
+Pleiades, the open gazetteer of ancient places, lists this place under the title «Capsa (Iustiniana)» (Pleiades no. 324684), classed as settlement and modern settlement, with activity attested from 330 BCE to 2099 CE. Its recorded names include Capsa Iustiniana, Capsa and Gafsa. It describes an ancient city of Byzacium in North Africa. {cite:pleiades 324684}
+
+## In the iDAI.gazetteer
+The iDAI.gazetteer of the German Archaeological Institute records this place as no. 2042753, of type archaeological site and populated place, with the preferred name «Gafsa», placed in its hierarchy under «Qafṣa (Wilāyat)». Recorded names include Qafşah, Gafso and Gafsa. {cite:idai-gazetteer 2042753}

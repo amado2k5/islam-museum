@@ -6,24 +6,25 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لهاشم بن سليمان البحراني، محدث ومؤلف البحرين في القرن السابع عشر صاحب «البرهان»، توفي سنة ١٦٩٥م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Hashim ibn Sulayman al-Bahrani, the seventeenth-century Bahraini muhaddith author of al-Burhan, d. 1695; the biographical entry is not yet checked on the page."
+  ar: "هاشم بن سليمان بن إسماعيل الحسيني البحراني التوبلي، مفسر إمامي من قرى البحرين وقبره في توبلي، صاحب البرهان في تفسير القرآن، توفي سنة 1107 هـ."
+  en: "Hashim ibn Sulayman al-Husayni al-Bahrani al-Tubli, an Imami (Twelver Shi'i) exegete from the villages of Tubli and Katkan in Bahrain, buried in Tubli, author of al-Burhan fi Tafsir al-Qur'an; died 1107 AH (1696)."
 wings: [people]
 regions: [arabia]
 periods: [period/gunpowder-empires]
 died: { edtf: "1696", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam" }
 relations:
   - { type: born_in, target: place/tubli, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/al-aalam, source/wikidata]
+  - { type: buried_in, target: place/tubli, note: "al-Zirikli, al-A'lam, vol. 8 p. 64: his tomb is in Tubli", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q6408496
   viaf: "15180728"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0043
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3

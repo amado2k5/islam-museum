@@ -15,3 +15,6 @@ From Marib to the city of Shibam in Hadramawt is four stages, and the two cities
 
 ## The name
 Shibam is a city in the land of [[place/hadramawt|Hadramawt]], with another city about a stage from it, and the two stand on the ascending road from [[place/aden|Aden]], according to al-Idrisi. {cite:nuzhat-al-mushtaq-2002 p. 56} Al-Hamdani derives its name from the people of [[place/shabwa|Shabwa]], who left and settled in Hadramawt when Himyar and Madhhij fought each other; he holds that the original form was "shabah", and then the mim replaced the ha'. {cite:sifat-jazirat-al-arab p. 70}
+
+## In the iDAI.gazetteer
+The iDAI.gazetteer lists this place under no. 2751839 with the preferred name «S̲h̲ibām», classed as archaeological site and populated place; its parent in the hierarchy is «Ḥaḍramawt (muḥāfaẓāt)», classed as administrative unit. Recorded names include «Schibam», «Šibām» and «Shibām». {cite:idai-gazetteer 2751839}

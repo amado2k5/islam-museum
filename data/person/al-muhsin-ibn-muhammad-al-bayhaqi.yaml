@@ -1,29 +1,69 @@
 id: person/al-muhsin-ibn-muhammad-al-bayhaqi
 class: person
 label:
-  ar: "المحسن بن محمد البيهقي ابن كرامة"
-  en: "al-Muhsin ibn Muhammad al-Bayhaqi (Ibn Karama)"
-roles: [scholar]
+  ar: المحسن بن محمد البيهقي ابن كرامة
+  en: al-Muhsin ibn Muhammad al-Bayhaqi (Ibn Karama)
+roles:
+- scholar
 summary:
-  ar: "بطاقة أولية لالمحسن بن محمد البيهقي ابن كرامة؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for al-Muhsin ibn Muhammad al-Bayhaqi (Ibn Karama) (jurist and Qur'an exegete, d. 1101); the biographical entry is not yet checked on the page."
-wings: [people]
-regions: [persia-central-asia]
-periods: [period/buyid-seljuk-fatimid-era]
-sources: [source/al-aalam, source/wikidata]
+  ar: المحسن بن محمد بن كرامة الجشمي البيهقي، مفسر عالم بالأصول والكلام، حنفي ثم معتزلي فزيدي، شيخ الزمخشري، اشتهر بصنعاء وقتل بمكة سنة 494 هـ، صاحب «التهذيب» في التفسير.
+  en: al-Muhsin ibn Muhammad ibn Karama al-Jushami al-Bayhaqi, an exegete and scholar of principles and theology, Hanafi, then Mu'tazili, then Zaydi, teacher of al-Zamakhshari; he became known in Sanaa and was killed in Mecca in 494 AH. Author of 'al-Tahdhib' on exegesis.
+wings:
+- people
+regions:
+- persia-central-asia
+periods:
+- period/buyid-seljuk-fatimid-era
+sources:
+- source/al-aalam
+- source/wikidata
+- source/alam-zirikli-dar-al-ilm-2002
 external_ids:
   wikidata: Q55911809
-  viaf: "90065235"
+  viaf: '90065235'
 provenance:
   layer: own-research
-  source: "Wikidata candidate; biographical/building record — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0104
+  source: al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text
+  generated_by: Claude Code (Lane B2 packet)
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
-born: { edtf: "1022", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam 5/288; al-Hakim al-Jishumi; 413–494 AH) Confirmed on 13 November 2026 against Wikidata Q55911809 (P569, a statement with a reference), item revision 2528481484.", sources: [source/wikidata] }
-died: { edtf: "1101", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam 5/288; al-Hakim al-Jishumi; 413–494 AH) Confirmed on 13 November 2026 against Wikidata Q55911809 (P570, a statement with a reference), item revision 2528481484.", sources: [source/wikidata] }
+  completeness: 3
+born:
+  edtf: '1022'
+  calendar: gregorian
+  precision: year
+  derived: true
+  note: 'Agrees with al-Zirikli, al-A''lam vol. 5 p. 283 (same year). Date-enrichment pass; source: al-Zirikli (al-A''lam 5/288; al-Hakim al-Jishumi; 413–494 AH) Confirmed on 13 November 2026 against Wikidata Q55911809 (P569, a statement with a reference), item revision 2528481484.'
+  sources:
+  - source/wikidata
+  - source/alam-zirikli-dar-al-ilm-2002
+died:
+  edtf: '1101'
+  calendar: gregorian
+  precision: year
+  derived: true
+  note: 'Agrees with al-Zirikli, al-A''lam vol. 5 p. 283 (same year). Date-enrichment pass; source: al-Zirikli (al-A''lam 5/288; al-Hakim al-Jishumi; 413–494 AH) Confirmed on 13 November 2026 against Wikidata Q55911809 (P570, a statement with a reference), item revision 2528481484.'
+  sources:
+  - source/wikidata
+  - source/alam-zirikli-dar-al-ilm-2002
 relations:
-  - { type: lived_in, target: place/bayhaq, note: "Place association from the person's nisba/name (bayhaqi); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
+- type: lived_in
+  target: place/bayhaq
+  note: Place association from the person's nisba/name (bayhaqi); denotes association, not proven residence.
+  sources:
+  - source/al-aalam
+  confidence: low
+- type: died_in
+  target: place/mecca
+  confidence: medium
+  note: 'From al-A''lam: killed at Mecca.'
+  sources:
+  - source/alam-zirikli-dar-al-ilm-2002
+- type: lived_in
+  target: place/sanaa
+  confidence: medium
+  note: 'From al-A''lam: became known in Sanaa, Yemen.'
+  sources:
+  - source/alam-zirikli-dar-al-ilm-2002

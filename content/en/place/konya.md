@@ -32,3 +32,9 @@ The article calls the [[building/mevlana-celaleddin-rumi-tomb|Mevlevi complex]] 
 
 ## Madrasas
 The [[building/sircali-madrasah|Sircali Madrasa]] of 640/1242-3 keeps a fine faience mihrab. The [[building/karatay-madrasa|Karatay Madrasa]] of 649/1251-2 keeps its marble portal and a dome patterned with stars over the pool of its hall, and now houses Seljuk ceramics. The [[building/ince-minaret-medrese|Ince Minareli Madrasa]] of about 663/1264-5 lost two thirds of its brick minaret in 1317/1899; of its portal, wrapped in giant bands of inscription, the article remarks that heavy decoration hiding the structure was the weak point of later Seljuk architecture. {cite:encyclopaedia-of-islam-2 vol. 5.1 p. 289} Around the city stand caravanserais of the thirteenth century, each with a portal, a court and a hall, all partly ruined. {cite:encyclopaedia-of-islam-2 vol. 5.1 p. 290}
+
+## In the Pleiades gazetteer
+Pleiades, the open gazetteer of ancient places, lists this place under the title «Iconium/Claudiconium» (Pleiades no. 648647), classed as settlement and archaeological site, with activity attested from 9000 BCE to 2100 CE. Recorded names include «Iconium», «Claudiconium» and «Qūniya». Its description calls it a city of importance in Lycaonia, later part of the Roman province of Galatia. {cite:pleiades 648647}
+
+## In the iDAI.gazetteer
+The iDAI.gazetteer lists this place under no. 2283197 with the preferred name «Konya», classed as populated place; its parent in the hierarchy is «Konya (Provinz)», classed as administrative unit. Recorded names include «Conia», «Konieh» and «Qonia». {cite:idai-gazetteer 2283197}

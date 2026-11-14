@@ -12,3 +12,6 @@ It has many gardens and plentiful water from its rivers and springs. One of its 
 
 ## The elephant and the Wadi Musa
 The elephant for which it is famed is a talisman of stone in the shape of an elephant, once set on a tall building in earlier times and now moved inside the city to the monks' church. West of Qatania flows the great river Wadi Musa into its sea, and its fish are of every kind, huge and fine in taste. {cite:nuzhat-al-mushtaq-2002 p. 597} In the coastal description, from the Wadi Musa to Qatania is three miles and from there to Liyaj six miles. {cite:nuzhat-al-mushtaq-2002 p. 624}
+
+## In the Pleiades gazetteer
+Pleiades, the open gazetteer of ancient places, lists this place under the title «Katane/Catina» (Pleiades no. 462270), classed as settlement, with activity attested from 750 BCE to 2100 CE. Its recorded names include Katane, Catina and Catania. It says the colonial city was founded by Chalcidian Greeks after the foundation of Leontini in 730 BCE. {cite:pleiades 462270}

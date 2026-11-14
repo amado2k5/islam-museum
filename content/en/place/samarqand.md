@@ -75,3 +75,9 @@ Samarqand is one of Central Asia's oldest cities and a jewel of the Silk Road in
 
 ## For Scholars
 A premier historic metropolis of Transoxiana (modern Uzbekistan), situated along the fertile Zarafshan River basin at the heart of the Silk Road linking China, the Middle East, and the Mediterranean. Integrated into the Islamic realm under Qutayba ibn Muslim in 93 AH (712 CE), it became the pivotal center that introduced Chinese papermaking technology to the Islamic world. Reaching architectural brilliance as the capital of the Timurid Empire, it is famed for the Registan square ensembles, Bibi-Khanym Mosque, Shah-i Zinda necropolis, and Ulugh Beg's observatory, and was home to foundational thinkers like Abu Mansur al-Maturidi.
+
+## In the Pleiades gazetteer
+Pleiades, the open gazetteer of ancient places, lists this place under the title «Marakanda» (Pleiades no. 59915), classed as settlement, with activity attested from 330 BCE to 300 CE. Among its recorded names are «Maracanda», «Samarqand» and «Samarkand». Pleiades describes Marakanda, now Samarkand in Uzbekistan, as a major ancient settlement founded around 700 BCE by the Sogdians and conquered by Alexander the Great in his eastern campaigns. {cite:pleiades 59915}
+
+## In the iDAI.gazetteer
+The iDAI.gazetteer lists this place under no. 2042967 with the preferred name «Samarkand», classed as archaeological site and populated place; its parent in the hierarchy is «Usbekistan», classed as administrative unit. Recorded names include «Samarcanda», «Semerkand» and «Samarkanda». {cite:idai-gazetteer 2042967}

@@ -6,24 +6,25 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لمحمد بن قاسم الغزي، فقيه شافعي القرن السادس عشر صاحب «فتح القريب»، توفي سنة ١٥١٢م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Muhammad ibn Qasim al-Ghazzi, the sixteenth-century Shafi'i jurist author of Fath al-Qarib, d. 1512; the source entry is not yet checked on the page."
+  ar: "محمد بن قاسم بن محمد، أبو عبد الله شمس الدين الغزي، ويعرف بابن قاسم وبابن الغرابيلي، فقيه شافعي ولد ونشأ بغزة وتعلم بها وبالقاهرة وأقام بالقاهرة وتولى أعمالاً في الأزهر، صاحب «فتح القريب المجيب» في شرح متن أبي شجاع."
+  en: "Muhammad ibn Qasim al-Ghazzi, Abu Abd Allah Shams al-Din, known as Ibn Qasim and Ibn al-Gharabili, a Shafi'i jurist born and raised in Gaza, who studied there and in Cairo, settled in Cairo and held posts at al-Azhar; author of Fath al-Qarib al-Mujib, a commentary on the text of Abu Shuja'."
 wings: [people]
 regions: [egypt-nile]
 periods: [period/gunpowder-empires]
 born: { edtf: "1455", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Sakhawi / al-Zirikli (al-A'lam) Confirmed on 13 November 2026 against Wikidata Q25454625 (P569, a statement with a reference), item revision 2568154883.", sources: [source/wikidata] }
 died: { edtf: "1512", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Sakhawi / al-Zirikli (al-A'lam)" }
 relations:
-  - { type: born_in, target: place/gaza, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q47492)" }
-sources: [source/shadharat-dhahab]
+  - { type: born_in, target: place/gaza, sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q47492); al-Zirikli, al-A'lam, vol. 6 p. 291: born and raised in Gaza" }
+  - { type: lived_in, target: place/cairo, sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high, note: "al-Zirikli, al-A'lam, vol. 6 p. 291: studied and settled in Cairo, held posts at al-Azhar" }
+sources: [source/shadharat-dhahab, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q25454625
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: Ibn al-Imad, Shadharat al-Dhahab — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0070
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
