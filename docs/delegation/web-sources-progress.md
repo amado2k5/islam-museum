@@ -1139,6 +1139,11 @@ Source: al-Zirikli, al-A'lam, 15th ed. 2002 (alam-zirikli-dar-al-ilm-2002). Each
 - One SPARQL request (nomisma.org/query, counts of distinct coins and types by nmo:hasAuthority, hasIssuer or hasMint, 5,117 concepts) joined to the entries that carry a Nomisma id and prose in all three languages; 13 qualified (the others have no prose file yet or their concept has no coin record). The Nomisma definition text is not used: it is taken from Wikipedia, which is never a source for prose. Concepts whose id carries an apostrophe are skipped (citation anchor).
 - Coin-type facts per ruler (denominations, mints, dates) need the type pages of the linked catalogues and were not read in this pass.
 
+## 2026-11-14 (packet 32, place prose) - Pleiades and iDAI sections
+
+- Written: baysan, bejaia, bukhara, bursa, cairo, cartagena, cefalu, constantine, cordoba, damascus (Pleiades only), edirne, fez.
+- Skipped, iDAI GeoNames id differs from our data: ceuta (iDAI 2519582, ours 6362987), gabes (iDAI 2468369, ours 110075).
+- Skipped, iDAI record 2280221 (damascus) carries no GeoNames id, so identity cannot be confirmed; proposal for the founder.
 - Packet 31 (place prose, identifier sections): 14 places written; no iDAI GeoNames mismatches (Baghdad, Balkh, Basra iDAI records carry no GeoNames id; Almeria data has none).
 
 ## 2026-11-14 (Lane B2 packet alm18) - al-A'lam persons, ten written, one skipped

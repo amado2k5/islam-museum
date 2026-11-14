@@ -1,0 +1,18 @@
+id: concept/canon-conditions-for-reading-urine
+class: concept
+kind: scientific
+label: { ar: "شروط الاستدلال بالبول عند ابن سينا", en: "The conditions for reading urine in the Canon", ur: "پیشاب سے استدلال کی شرطیں قانون میں" }
+summary:
+  ar: "يشترط ابن سينا في البول المأخوذ للاستدلال أن يكون أول بول الصباح، لم يحبس طويلاً، ولم يسبقه شراب ولا طعام ولا صابغ، وأن يؤخذ كله في قارورة واسعة ويترك يهدأ بعيداً عن الشمس والريح {cite:canon-ibn-sina-print-v1 pp.183-184}."
+  en: "Ibn Sina requires that the urine taken for reading be the first of the morning, not held long, preceded by no drink, food or dye, and that it be taken whole in a wide flask and left to settle away from sun and wind {cite:canon-ibn-sina-print-v1 pp.183-184}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/canon-urine-in-general, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, Ta'lim 3, pulse chapters 12 to 19 and the opening of urine, chapter 1 (scan pages 179 to 184), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-pulse-urine-1
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

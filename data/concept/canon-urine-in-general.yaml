@@ -1,0 +1,18 @@
+id: concept/canon-urine-in-general
+class: concept
+kind: scientific
+label: { ar: "البول والبراز عند ابن سينا", en: "Urine and stool in the Canon", ur: "قانون میں پیشاب اور پاخانہ" }
+summary:
+  ar: "تفتتح الجملة الثانية من التعليم الثالث بالبول والبراز، وهي ثلاثة عشر فصلاً، ويبدأ الفصل الأول بالدلائل الكلية للبول وشرائطها {cite:canon-ibn-sina-print-v1 p.183}."
+  en: "The second section of the third teaching opens with urine and stool, in thirteen chapters, and its first chapter begins with the general signs of urine and the conditions for relying on them {cite:canon-ibn-sina-print-v1 p.183}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/disease, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, Ta'lim 3, pulse chapters 12 to 19 and the opening of urine, chapter 1 (scan pages 179 to 184), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-pulse-urine-1
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

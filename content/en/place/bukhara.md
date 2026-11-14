@@ -60,3 +60,6 @@ Yaqut relates from al-Baladhuri that when Ziyad died in 53 AH Mu'awiya gave Khur
 
 ### People named after it
 Among those named after the city Yaqut lists [[person/al-bukhari|Muhammad ibn Isma'il al-Bukhari]], author of the *Sahih*, born in 194 AH and died on the night of Eid al-Fitr 256 AH at Khartank after he had been forced out of Bukhara, {cite:mujam-al-buldan-yaqut p.489} and Abu Ali ibn Sina, vizier to the Buyid Shams al-Dawla of Hamadhan, who died on Saturday 6 Sha'ban 428 AH. {cite:mujam-al-buldan-yaqut p.490} He also cites, without grading it, a report with a chain going back to Hudhayfa ibn al-Yaman on the merit of a city beyond the Oxus called Bukhara, {cite:mujam-al-buldan-yaqut p.487} and verses by poets who disparaged the filth of its lanes. {cite:mujam-al-buldan-yaqut p.487} {cite:mujam-al-buldan-yaqut p.488}
+
+## In the Pleiades gazetteer
+Pleiades, the open gazetteer of ancient places, lists this place under the title «Bukhara» (Pleiades no. 762205391), classed as a settlement and a modern settlement, with activity attested from 1500 CE to 2100 CE. It describes it as a city that began as part of the Persian empire in the sixth century BCE, important as an example of an Islamic city of Central Asia, whose centre was listed as a UNESCO World Heritage Site in 1993. {cite:pleiades 762205391}

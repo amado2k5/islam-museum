@@ -114,3 +114,9 @@ Cairo is an ancient city on the banks of the Nile River in Egypt, founded by the
 
 ## For Scholars
 The historic capital of Egypt and one of the supreme metropolitan centers of Islamic civilization, situated along the eastern bank of the Nile. Founded as 'al-Qahira al-Mu'izziyya' in 358 AH (969 CE) by the Fatimid commander Jawhar al-Siqilli north of earlier settlements at Fustat and al-Qata'i. Following the fall of Baghdad in 656 AH, Cairo became the preeminent political and intellectual capital of the central Islamic lands under the Ayyubids and Mamluks, hosting the symbolic Abbasid caliphate, al-Azhar University, and monumental stone-carved colleges and hospitals controlling Mediterranean-Red Sea trade.
+
+## In the Pleiades gazetteer
+Pleiades, the open gazetteer of ancient places, lists this place under the title «Babylon/al-Fusṭāṭ/Old Cairo» (Pleiades no. 727082), classed as a fortified settlement and a settlement, with activity attested from 2670 BCE to 2100 CE. It describes it as an ancient fortified city of the Nile Delta, located at Babylon in what is today Coptic Cairo, which under the name al-Fustat became the political centre of Egypt after the Arab conquest in the seventh century CE. {cite:pleiades 727082}
+
+## In the iDAI.gazetteer
+The iDAI.gazetteer of the German Archaeological Institute holds this place as record no. 2042858, typed as a populated place and an archaeological site, under the preferred name «Cairo»; its parent in the hierarchy is «Cairo (Muhāfazat), a governorate». Among its recorded names are «Misr», «Masr», «Cairus». {cite:idai-gazetteer 2042858}

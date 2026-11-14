@@ -115,3 +115,6 @@ The premier metropolis of the Levant and one of the oldest continuously inhabite
 
 ## In Nomisma
 The Nomisma numismatic vocabulary links this entry to the concept «damascus», and its linked collections record 299 coins or coin types that name it as issuer, authority or mint. {cite:nomisma damascus}
+
+## In the Pleiades gazetteer
+Pleiades, the open gazetteer of ancient places, lists this place under the title «Damascus» (Pleiades no. 678106), classed as a settlement, with activity attested from 1344 BCE to 2000 CE. It describes it as the ancient city of Damascus in modern Syria, with some 125 monuments dating back to the Roman period, inscribed as a UNESCO World Heritage Site in 1979. {cite:pleiades 678106}
