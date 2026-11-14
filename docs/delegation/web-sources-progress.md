@@ -1001,3 +1001,9 @@ Wrote ar, en and ur prose for vila, th-nia, el-mahalla-el-kubra, ioannina, kirku
 ## 2026-11-14 (Lane B1 packet 4) - place prose, ten places
 
 - Written (ar, en, ur, draft): nicomedia, thermopylae, itea, doucen (Pleiades), washington-dc, birmingham, famagusta, detroit, samalut, los-angeles (iDAI.gazetteer). Yaqut Mu'jam al-buldan vols 1-2 OCR searched for each Arabic name: no entry found, so no Yaqut citation. Nothing skipped.
+
+## 2026-11-14 (Lane B1 packet 5) - place prose, ten places
+
+- Written (ar, en, ur, draft): belvoir-fortress and ain-zara (Pleiades only), mainz, bolu, p-cs, nakhchivan, kastoria, rethymno, alanya (iDAI.gazetteer only), ucl-s (iDAI plus Yaqut vol. 1, scan p. 317; `source/mujam-al-buldan-yaqut` added to its sources). Skipped: none.
+- Yaqut vols 1-2 searched by Arabic name; only Uclés (أقليش) has an entry. Belvoir's Arabic name (Kawkab al-Hawa) has no entry; the `كوكب` hits are unrelated. Nakhchivan falls in a later volume.
+- Note: Uclés iDAI record links GeoNames 2510106 while the data file holds 6357543; not changed. iDAI was read through gazetteer.dainst.org/doc/<id>.json (the /place/<id>.json URL returns 404).
