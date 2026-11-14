@@ -15,6 +15,7 @@ open a new block on top with the new version and today's date.
 
 ## v1.29.0 — 2026-11-13
 ### Added
+- **Du'a by occasion: the campaign.** The division of al-Adhkar on the campaign is open with one record: what al-Nawawi gathers on asking sincerely for martyrdom, the supplication at the digging of the Trench and the pleading before battle, from the two Sahihs and the Sunan, each with its page.
 - **Du'a by occasion: breaking the fast.** The fasting division gains a third record: the record on iftar now carries the supplications al-Nawawi gathers for breaking the fast, with the books he assigns them to and their page.
 - **Du'a by occasion: particular prayers.** The division of al-Adhkar on Friday and the two Eids is open: the records on the Friday prayer and on Eid al-Fitr gain what al-Nawawi says of the remembrances of Friday and its hour, and of the takbir of the two Eids, its times and its wordings, each with its page.
 - **Du'a by occasion: illness and death.** The division of al-Adhkar on illness is open: the record on visiting the sick gains what al-Nawawi gathers on what the sick person says and what is said to him, from the two Sahihs and the Sunan, each with its page.
