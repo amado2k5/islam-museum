@@ -1,0 +1,18 @@
+id: concept/hand-and-finger-muscles
+class: concept
+kind: scientific
+label: { ar: "عضل الأصابع عند ابن سينا", en: "Muscles of the fingers in the Canon", ur: "قانون میں انگلیوں کے پٹھے" }
+summary:
+  ar: "عضل الأصابع منها ما في الكف ومنها ما في الساعد، ولو جُمعت كلها على الكف لثقلت بكثرة اللحم {cite:canon-ibn-sina-print-v1 pp.70-71}."
+  en: "Some muscles of the fingers lie in the hand and some in the forearm; gathered all in the hand they would be heavy with flesh {cite:canon-ibn-sina-print-v1 pp.70-71}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/muscles, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 1, Jumla 2 on muscles (scan pages 66 to 72), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-muscles-2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

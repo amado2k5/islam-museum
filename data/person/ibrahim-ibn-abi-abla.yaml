@@ -6,8 +6,8 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لإبراهيم بن أبي عبلة؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ibrahim ibn Abi 'Abla; the entry is not yet checked on the page."
+  ar: "إبراهيم بن أبي عبلة العقيلي، شيخ فلسطين وإمام قدوة من بقايا التابعين، ولد بعد سنة ٦٠هـ؛ توفي سنة ١٥٢هـ بحسب ضمرة."
+  en: "Ibrahim ibn Abi Abla al-Uqayli, shaykh of Palestine and an exemplary imam among the last of the Followers, born after 60 AH; he died in 152 AH according to Damra."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/umayyad]
@@ -16,15 +16,15 @@ died: { edtf: "770", calendar: gregorian, precision: year, derived: true, note: 
 relations:
   - { type: lived_in, target: place/jerusalem, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: lived_in, target: place/ramla, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/siyar-alam-nubala-ideas-house]
 external_ids:
   wikidata: Q12181668
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Dhahabi, Siyar A'lam al-Nubala, one-volume edition (Bayt al-Afkar al-Dawliyya), entry read in full on the scanned pages (Apple Vision OCR on the harvest drive); the web page of the Risala edition on shamela.ws (book 10906) was used to confirm the work and its volume layout"
+  generated_by: "Claude Code (Lane B2, web-source and Shamela enrichment)"
+  model: claude-sonnet-5-5
+  run: web-b2-siyar-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
