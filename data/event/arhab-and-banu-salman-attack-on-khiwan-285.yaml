@@ -1,0 +1,58 @@
+id: event/arhab-and-banu-salman-attack-on-khiwan-285
+class: event
+kind: other
+label:
+  ar: هجوم أرحب بن الدعام وبني سلمان على خيوان ودفاع أبي القاسم محمد بن الهادي، 285هـ
+  en: The attack of Arhab ibn al-Da'am and Banu Salman on Khiwan and the defence by Abu al-Qasim Muhammad ibn al-Hadi, 285 AH
+  ur: ارحب بن دعام اور بنو سلمان کا خیوان پر حملہ اور ابو القاسم محمد بن ہادی کا دفاع، 285ھ
+summary:
+  ar: يروي الكتاب أن أرحب بن الدعام وبني سلمان من همدان أرادوا خيوان وفيها أبو القاسم محمد بن الهادي ومعه أخوه أحمد، فخرج أبو القاسم بأهل خيوان إلى طرف القرية وأرسل إلى أرحب رجلين يدعوانه ويخوفانه ثم عرض عليه المبارزة فلم يفعل، وحمل بأربعة فرسان، فانصرف المهاجمون دون أن يدخلوا القرية.
+  en: The book tells that Arhab ibn al-Da'am and Banu Salman of Hamdan made for Khiwan, where Abu al-Qasim Muhammad ibn al-Hadi was with his brother Ahmad; Abu al-Qasim took the people of Khiwan out to the edge of the village, sent two men to call and warn Arhab, then offered him single combat, which Arhab did not take up, and he charged with four horsemen; the attackers withdrew without entering the village.
+  ur: کتاب بتاتی ہے کہ ارحب بن دعام اور ہمدان کے بنو سلمان خیوان کی طرف بڑھے جہاں ابو القاسم محمد بن ہادی اپنے بھائی احمد کے ساتھ تھے؛ ابو القاسم اہل خیوان کو گاؤں کے کنارے لے گئے، ارحب کے پاس دو آدمی بھیجے جو اسے دعوت دیں اور ڈرائیں، پھر اسے انفرادی مقابلے کی دعوت دی جو اس نے قبول نہ کی، اور وہ چار سواروں کے ساتھ ٹوٹ پڑے؛ حملہ آور گاؤں میں داخل ہوئے بغیر لوٹ گئے۔
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+relations:
+- type: occurred_at
+  target: place/khiwan
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/arhab-ibn-al-daam
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/al-murtada-muhammad
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ismail-ibn-al-muslim-al-hamdani
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: related_to
+  target: event/al-hadi-and-al-daam-confrontation-at-najd-al-dayr-285
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: related_to
+  target: group/banu-salman-hamdan
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص98-99 ⁦(الصفحة المطبوعة)⁩'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-13
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 98-99
