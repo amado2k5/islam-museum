@@ -11,7 +11,7 @@ summary:
 wings: [people]
 regions: [arabia]
 periods: [period/buyid-seljuk-fatimid-era]
-sources: [source/bosworth-new-islamic-dynasties-1996, source/alam-zirikli-dar-al-ilm-2002]
+sources: [source/bosworth-new-islamic-dynasties-1996, source/alam-zirikli-dar-al-ilm-2002, source/rawd-basim-ablibrary-p241]
 external_ids:
   wikidata: Q4702776
 provenance:
@@ -23,7 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 3
-born: { edtf: "994", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 2 p. 219: the heading gives 384 AH = 994 CE as the first year, taken here as printed; the card earlier held 986 (376 AH) from a note on another page. Checked 14 November 2026: English Wikipedia and Wikidata Q4702776 (P569) give 987, about 376 AH, for his birth, against the 384 AH (994) that al-A'lam prints; both Wikipedias give 1003 to 1013 as his rule as imam (393 to 404 AH), and he was killed in 1013 in every source read. The primary source named for 376 AH, al-Rawd al-Basim p. 241, is not on the drive and was not read, so the A'lam year is kept and the conflict is recorded, not settled." }
+born: { edtf: "986", calendar: gregorian, precision: year, derived: true, note: "376 AH, which begins in 986 and ends in 987. The editor of al-Rawd al-Basim, p. 241, footnote on al-Mahdi al-Husayn, says that al-Zirikli (al-A'lam 2:252 in his reference) erred in giving 384 AH and that 376 is correct (Ahlulbayt Digital Library page ablibrary.net/book_content/b/18451/241, read 14 November 2026). English Wikipedia and Wikidata Q4702776 agree with 376 (987). The earlier value 994 (384 AH) came from al-A'lam vol. 2 p. 219.", sources: [source/rawd-basim-ablibrary-p241, source/alam-zirikli-dar-al-ilm-2002] }
 died: { edtf: "1013", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 2 p. 219: 404 AH = 1013 CE; killed at al-Bun, north of Sanaa." }
 relations:
   - { type: lived_in, target: place/yemen, note: "From text: of Yemen", sources: [source/bosworth-new-islamic-dynasties-1996], confidence: low }

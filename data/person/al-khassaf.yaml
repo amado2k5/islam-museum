@@ -6,23 +6,23 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لأبي بكر أحمد بن عمرو الخصاف الشيباني، قاضي البلاط العباسي صاحب «آداب القاضي» في القرن التاسع، توفي سنة ٨٧٤م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abu Bakr Ahmad ibn Amr al-Khassaf al-Shaybani, the ninth-century Abbasid court qadi author of Adab al-Qadi, d. 874; the biographical entry is not yet checked on the page."
+  ar: "أحمد بن عمرو بن مهير الشيباني، أبو بكر الخصاف، أحد الفقهاء على مذاهب أهل العراق، فارض حاسب زاهد، صنف للمهتدي كتابا في الخراج، من مصنفاته أدب القاضي وأحكام الوقوف، توفي سنة 261 هـ."
+  en: "Ahmad ibn Amr ibn Muhayr al-Shaybani, Abu Bakr al-Khassaf, a jurist of the Iraqi schools, expert in inheritance and reckoning and an ascetic; wrote a book on the land tax for the caliph al-Muhtadi; author of Adab al-Qadi and Ahkam al-Wuquf; died 261 AH (about 874)."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-fragmentation]
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/wafi-bi-l-wafayat-safadi-dar-ihya-2000]
 external_ids:
   wikidata: Q17417885
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0044
+  source: "al-Safadi, al-Wafi bi-l-Wafayat, ed. al-Arna'ut and Mustafa, Dar Ihya al-Turath 2000, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-wafi-2026-11-14
 status:
   review: draft
-  completeness: 1
-died: { edtf: "874", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Khassaf' / J. Schacht; d. 261 AH) Confirmed on 13 November 2026 against Wikidata Q17417885 (P570, a statement with a reference), item revision 2554174465.", sources: [source/wikidata] }
+  completeness: 3
+died: { edtf: "874", hijri: "0261", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Khassaf' / J. Schacht; d. 261 AH) Confirmed on 13 November 2026 against Wikidata Q17417885 (P570, a statement with a reference), item revision 2554174465. al-Safadi prints 261 AH {cite:wafi-bi-l-wafayat-safadi-dar-ihya-2000 vol. 7 pp. 174-175}; the CE year is derived.", sources: [source/wikidata, source/wafi-bi-l-wafayat-safadi-dar-ihya-2000] }
 relations:
   - { type: died_in, target: place/baghdad, note: "Wikidata Q1530 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }

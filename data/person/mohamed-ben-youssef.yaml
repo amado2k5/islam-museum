@@ -13,7 +13,9 @@ regions: [maghreb]
 periods: [period/modern-era]
 relations:
   - { type: lived_in, target: place/lamta-maghreb, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/al-aalam] }
-sources: [source/al-aalam]
+born: { edtf: "1848", precision: year, note: "Wikidata Q3318413 (Tunisian Islamic scholar), revision 2526788317 of 3 August 2026, read 14 November 2026; the statement carries no reference. The card was imported from this item, so it is the scholar and not King Mohammed V (a different item).", sources: [source/wikidata] }
+died: { edtf: "1939", precision: year, note: "Wikidata Q3318413, revision 2526788317, read 14 November 2026; unreferenced statement.", sources: [source/wikidata] }
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q3318413
 provenance:

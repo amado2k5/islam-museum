@@ -4,27 +4,27 @@ label:
   ar: "عائشة بنت سعد بن أبي وقاص"
   en: "A'isha bint Sa'd ibn Abi Waqqas"
 roles: [muhaddith]
-gender: male
+gender: female
 summary:
-  ar: "بطاقة أولية لعائشة بنت سعد بن أبي وقاص، الراوية عن أبيها؛ لم تُراجع ترجمتها على الصفحة بعد."
-  en: "Draft card for A'isha bint Sa'd ibn Abi Waqqas, who narrated from her father; her entry is not yet checked on the page."
+  ar: "عائشة بنت سعد بن أبي وقاص من بني زهرة، من ثقات راويات الحديث، أقامت في المدينة ورأت ست أمهات المؤمنين وأخذ عنها عدد من العلماء، ولدت سنة 33 هـ وتوفيت سنة 117 هـ."
+  en: "A'isha bint Sa'd ibn Abi Waqqas, of the Banu Zuhra, a reliable woman narrator of hadith; she lived in Medina, saw six of the Mothers of the Believers and was a source for a number of scholars; born 33 AH (653), died 117 AH (735)."
 wings: [people]
 regions: [arabia]
 periods: [period/umayyad]
-born: { edtf: "0653", precision: year, status: tradition, derived: true }
-died: { edtf: "0735", precision: year, status: tradition, derived: true }
-sources: [source/al-aalam]
+born: { edtf: "0653", hijri: "0033", calendar: gregorian, precision: year, status: tradition, derived: true, note: "al-Zirikli prints 33 AH = 653 CE {cite:alam-zirikli-dar-al-ilm-2002 vol. 3 p. 240}.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+died: { edtf: "0735", hijri: "0117", calendar: gregorian, precision: year, status: tradition, derived: true, note: "al-Zirikli prints 117 AH = 735 CE {cite:alam-zirikli-dar-al-ilm-2002 vol. 3 p. 240}.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q20408586
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 2
 occupations:
   - job: job/muhaddith
     kind: primary
@@ -33,3 +33,4 @@ occupations:
     sources: [source/al-aalam]
 relations:
   - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }
+  - { type: lived_in, target: place/medina, note: "al-Zirikli, al-A'lam, vol. 3 p. 240: her residence was in Medina", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
