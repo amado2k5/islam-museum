@@ -716,3 +716,10 @@ Nothing is registered this turn. Each registration needs the three-part commit i
 - Date differences noticed in the 15, not changed: alfonso-vi-castile birth 1040 and 1042; oljaitu birth 1280 and 1282; rashid-al-din-hamadani birth 1247 and 1248; abu-said-abul-khayr death 1049 and 1050.
 - Measured Arabic share: 0 of the 21 matched records carries an Arabic-script label.
 
+## 2026-11-14 (p43, Lane B) — Nomisma batch 3: 3 places linked; Papyri.info not run
+
+- Approval: dec-20261114-277. Method: the 70 highest-importance city records of ours without a Nomisma id; for each, the concept `https://nomisma.org/id/<slug>.jsonld` (and the English label as a second try), 3 s pause. Accept rule: the concept is a mint, its point lies within 1.5 km of ours, and its definition does not describe an "ancient site" (kept off the Babil and Ascalon wording question).
+- Linked: harat -> harat (0.76 km), london -> london (0.19 km), valencia -> valencia (0.69 km; the concept is the medieval and modern Christian mint of the city, the same city as our record).
+- Not linked: constantinople (definition says "the mint at the ancient site", the wording kept for the founder); mashhad (3.95 km) and ankara (2.2 km, and the concept describes the modern city); the other 62 candidates had no concept under the tried identifiers.
+- Papyri.info: no link made. A document-to-place link needs the HGV record's place number and a verified identity per record; no crosswalk to our places exists without a record-by-record read of the data repository. Left for a bounded pass; no coin records were touched in this pass (the two coin objects were verified earlier, p24).
+
