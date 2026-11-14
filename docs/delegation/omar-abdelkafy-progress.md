@@ -4298,3 +4298,30 @@ Resume point: sharh-saheeh-al-bukhare episode 32 (branch from origin/main).
 | Dropped in review (ep32): mountain and date-palm light on the Path, pushing latecomers in the rows, and the claim that Umar's gathering is rooted in the Prophet's practice | ep32 00:26:00-00:27:30; 00:03:00-00:04:00; 00:36:00-00:36:30 | Not supported by the transcript | Clarity | Open |
 
 Resume point: sharh-saheeh-al-bukhare episode 33 (branch from origin/main).
+
+### sharh-saheeh-al-bukhare ep33 (14 Nov 2026)
+
+27 points written for episode 33 (ar, en, ur); 20 needs_source marks in each language file for this episode; 6 new `about` edges. Quran verses referenced only through passage links (35-10, 17-78, 39-53, 14-37, 12-24, 5-24, 8-12); none typed. Contested: He holds that jihad is the cornerstone of Islam and that names two situations in which jihad applies, gives fixed rules on which voluntary fasts to keep, and states the figure of twenty-eight campaigns in seven years and several scholars' duties without references; all are attributed to him as his own view. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep33) | Episode / time | Reason | Gate failed | Override |
+| Greetings, praise, blessings on the Prophet and the opening prayer; closing greeting | ep33 00:00:00-00:01:30 and 01:19:00-01:19:30 | Not teaching content | Content rule | Open |
+| Anecdote on following fashion in religion and a book cited from an unnamed source | ep33 00:06:30-00:07:00 | Garbled in both passes, speaker and source unclear | Clarity | Open |
+| Remarks on praying late and on timings | ep33 00:11:30-00:12:30 | Garbled in both passes, the point cannot be recovered | Clarity | Open |
+| Sweeping claims about a state and the enemies of Muslims, and plans against Muslims | ep33 00:21:00-00:23:00 | Sweeping claims about peoples and modern conflict | Voice rule | Open |
+| Rhetoric on weapons and a section on the Western powers | ep33 00:24:00-00:25:30 | Garbled and sweeping claims about peoples and modern conflict | Voice rule | Open |
+| Reading of a biblical account of Noah and his sons, and claims about blessings and curses on peoples and about wealth of nations | ep33 00:25:30-00:29:30 | Sweeping claims about peoples; remainder garbled | Voice rule | Open |
+| Complaint about groups and factions, and a stretch on university groups | ep33 00:29:30-00:30:00 | Only one pass clear, sweeping on groups | Clarity | Open |
+| A stretch dropped under the content-safety block | ep33 00:30:30-00:32:30 | A stretch dropped under the content-safety block | Content rule | Open |
+| Intelligence gathering on opponents, religious broadcasting figures and spending, ship broadcasts, claims about American leaders and Christian and Jewish peoples, and politics around Palestine | ep33 00:32:00-00:38:00 | Sweeping claims about peoples and modern conflict; statistics without source | Voice rule | Open |
+| Political comments on a Companion, on communists and on Christian and Jewish politics in Europe and America | ep33 00:39:30-00:42:30 | Sweeping claims about peoples and sects; partly garbled | Voice rule | Open |
+| Partition of the Levant, political predictions and a claim about the curse on a people | ep33 00:42:30-00:44:30 | Sweeping claims about peoples and modern conflict | Voice rule | Open |
+| Garbled stretch on lectures, youth, engineers and lawyers, with repeated loops in the first pass | ep33 00:49:30-00:52:30 | Loop and garbled | Clarity, Loop check | Open |
+| Loop of repeated syllables in the first pass | ep33 00:30:15-00:30:30 | Loop in the first pass, only one clear pass | Loop check | Open |
+| Name of the Abu Jahl nickname explanation and the names of the speakers in the Badr lead-up | ep33 00:54:00-00:55:30 | Names rest on a single garbled word across the two passes | Clarity | Open |
+| Name of Abu Jahl's son and of his companion who travelled with him to Medina | ep33 00:55:30-00:57:30 and 00:59:00-00:59:30 | Names rest on a single garbled word | Clarity | Open |
+| Night journey of al-Walid and digression on daughters at university | ep33 01:03:00-01:07:00 | Garbled in both passes; digression on women | Clarity, Voice rule | Open |
+| Name of the Companion who asked about the halting place at Badr, and the number of the Prophet's party | ep33 01:10:00-01:11:30 | Names and numbers rest on a single garbled word | Clarity | Open |
+| Questions on husbands and wives, women's attendance at the mosque and a closing remark | ep33 01:17:00-01:19:00 | Garbled in both passes, sweeping on women | Clarity, Voice rule | Open |
+| Second ASR pass: Whisper large-v3 (mlx) run on the Mac to resolve garbled words of the Qwen transcript; cites use the shared 30-second grid | ep33 whole | Qwen pass too garbled for a rich first pass | Clarity | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 34 (branch from origin/main).
