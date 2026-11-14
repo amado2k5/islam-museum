@@ -1,0 +1,18 @@
+id: concept/head-muscles
+class: concept
+kind: scientific
+label: { ar: "عضل الرأس عند ابن سينا", en: "Muscles that move the head in the Canon", ur: "قانون میں سر کو ہلانے والے پٹھے" }
+summary:
+  ar: "يقسّم ابن سينا حركات الرأس إلى خاصية له ومشتركة مع خمس من خرزات العنق، ويرتّب عضلها بحسب الاتجاه: تنكيس وقلب إلى خلف وإمالة إلى الجانبين {cite:canon-ibn-sina-print-v1 pp.64-65}."
+  en: "Ibn Sina divides the head's movements into its own and those shared with five neck vertebrae, and orders its muscles by direction: bowing, turning back and tilting to the sides {cite:canon-ibn-sina-print-v1 pp.64-65}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/muscles, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 1, Jumla 2 on muscles (scan pages 60 to 66), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-bones-3
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

@@ -1,0 +1,18 @@
+id: concept/facial-muscles
+class: concept
+kind: scientific
+label: { ar: "عضل الوجه عند ابن سينا", en: "Facial muscles in the Canon", ur: "قانون میں چہرے کے پٹھے" }
+summary:
+  ar: "يقول ابن سينا إن عضل الوجه على عدد الأعضاء المتحركة فيه، وهي الجبهة والمقلتان والجفنان العاليان والخد بشركة من الشفتين والشفتان والأرنبتان والفك الأسفل، ويفصّل عضل الجبهة والخد والشفة والمنخر {cite:canon-ibn-sina-print-v1 pp.61-63}."
+  en: "Ibn Sina says the muscles of the face match the moving parts of the face: the forehead, the two eyeballs, the two upper eyelids, the cheek together with the lips, the lips, the two sides of the nose tip and the lower jaw; he details those of the forehead, cheek, lip and nostril {cite:canon-ibn-sina-print-v1 pp.61-63}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/muscles, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 1, Jumla 2 on muscles (scan pages 60 to 66), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-bones-3
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

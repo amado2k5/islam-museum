@@ -1,0 +1,18 @@
+id: concept/foot-bones
+class: concept
+kind: scientific
+label: { ar: "عظام القدم وعدد العظام عند ابن سينا", en: "Foot bones and the count of bones in the Canon", ur: "قانون میں پاؤں کی ہڈیاں اور ہڈیوں کی گنتی" }
+summary:
+  ar: "يختم ابن سينا باب العظام بالقدم وهي آلة للثبات، وعظامها ستة وعشرون، ثم يذكر أن جميع العظام مائتان وثمانية وأربعون سوى السمسمانيات والعظم الشبيه باللام {cite:canon-ibn-sina-print-v1 pp.59-60}."
+  en: "Ibn Sina closes the section on bones with the foot, an instrument of stability, whose bones are twenty-six, and then states that all the bones number two hundred and forty-eight apart from the sesamoids and the lam-shaped bone {cite:canon-ibn-sina-print-v1 pp.59-60}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/leg-bones, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 1, Jumla 1 on bones (scan pages 55 to 60), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-bones-2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

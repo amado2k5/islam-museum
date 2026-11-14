@@ -853,6 +853,14 @@ Nothing is registered this turn. Each registration needs the three-part commit i
   - person/abd-allah-ibn-tawus: entry in Siyar vol. 6 not yet located (scan from id 4255 started, not finished).
 - Process note: building a worktree on the microSD took over 30 minutes with six workers; a worktree on local disk works (the orchestrator's correction of 14 November 2026).
 
+## 2026-11-14 (p55, Lane B2) — Siyar A'lam al-Nubala batch 1: 4 persons written (local scan, not the browser)
+
+- Method change (coordinator, 14 Nov): the book is read from the one-volume scan already on the drive (`books/sahaba/siyar-alam-nubala/20250923_20250923_0238`, 4,683 Apple Vision OCR pages, source/siyar-alam-nubala-ideas-house). Entries found by their heading number ("NNNN -"), matched to our persons without Arabic prose by exact name (56 matches; list rebuilt each batch). Cited by printed page (ص).
+- Written (ar, en, ur, draft, provenance run web-b2-siyar-2026-11-14): malik-ibn-mighwal (p. 3169-3170), thawr-ibn-yazid (p. 1275), ismail-ibn-abi-khalid (p. 1103-1104), zahir-ibn-ahmad-al-sarakhsi (p. 1706).
+- For the founder, not changed by me: zahir born 906 CE on the card does not fit a death in 389 AH at the age the entry implies, and the entry's birth year is garbled in the OCR, so no birth is written; thawr still carries a lived_in Raqqa relation from al-A'lam beside the new Homs relation; thawr's old summary said d. 780, replaced by 153 AH (770 CE) from the book; zahir's died 1000 corrected to 999 (389 AH, Rabi' II).
+- Trust criteria: only entries I can read through whole; OCR-garbled words (birth year of Zahir) are left out, never guessed. Skipped, logged: mahmud-ibn-ghaylan (heading not found in the scan under the same form), abd-allah-ibn-tawus (no matching heading).
+- Next 52 matches in the list: aban-ibn-taghlib (Shi'i; label first), abd-al-malik-ibn-umayr, ibrahim-ibn-abi-abla, al-zubayr-ibn-adi, zakariyya-ibn-adi, sufyan-ibn-waki, malik-ibn-... and the rest.
+- Cite-check script not run (not located for this lane); validate 0 errors, 0 in the authenticity and extremism lines.
 ## 2026-11-14 (p55, Lane B worker B1) — Pleiades registered; 25 places linked
 
 - Approval: dec-20261114-277. Downloaded the Pleiades places and names dumps (about 7 MB each, to /Users/ahmedabdelaal/islam-museum-harvest/raw/pleiades-b1/, outside git); registered `source/pleiades` (CC BY 3.0).
