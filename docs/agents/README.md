@@ -8,6 +8,7 @@ These documents apply to every agent, whichever vendor, product or model it is, 
 | [`../sources-policy.md`](../sources-policy.md) | Before you use any source: what may be read (everything), how it is rewritten and cited, what stays out of git. |
 | [`content-safety.md`](content-safety.md) | Always: the hard block on terrorist-organisation content, the blocked lists, the non-matches and the founder's decisions on existing records. |
 | [`workflow.md`](workflow.md) | You are about to set up, edit, commit, push, merge or hand off. |
+| [`pipeline.md`](pipeline.md) | You produce lane content (mining, enrichment, corrections, harvests, translations): the packet pipeline, the manifest, the scoped check, the lander's train. Lane workers no longer open or merge pull requests. |
 | [`orchestration.md`](orchestration.md) | You coordinate other agents, write a wave brief, or want to know how the fleet's work is decomposed, gated and merged. |
 | [`content-standards.md`](content-standards.md) | You write or change any entity (data or prose). |
 | [`publication-standard.md`](publication-standard.md) | Always: the publication bar — citations to defined sources plus provenance; no review; one source is enough. |
