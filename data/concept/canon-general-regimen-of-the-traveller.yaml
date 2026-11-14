@@ -1,0 +1,18 @@
+id: concept/canon-general-regimen-of-the-traveller
+class: concept
+kind: scientific
+label: { ar: "التدبير الكلي للمسافر عند ابن سينا", en: "The general regimen of the traveller in the Canon", ur: "مسافر کی عمومی تدبیر قانون میں" }
+summary:
+  ar: "يقرر ابن سينا أن المسافر ينقطع عن عاداته ويصيبه تعب ووصب، فعليه أن يعني بالغذاء والإعياء، فيجعل غذاءه جيد الجوهر قريب القدر، ولا يركب ممتلئاً بل يؤخر الغذاء إلى وقت النزول، ولا يسافر ممتلئاً من دم أو غيره، ويتدرج في الرياضة ويعتاد السهر والجوع قبل أن يعرضا له {cite:canon-ibn-sina-print-v1 p.261}."
+  en: "Ibn Sina notes that the traveller is cut off from habits he kept at home and meets weariness and pain, so he must look to food and fatigue: his food is of good substance and moderate quantity, he does not ride full but puts off the meal until the halt, does not set out full of blood or other matter, and trains gradually in exercise, wakefulness and hunger before they befall him {cite:canon-ibn-sina-print-v1 p.261}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/regimen-of-health, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 3 Ta'lim 5 and the regimen of travellers (scan pages 258 to 266), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-p258
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }
