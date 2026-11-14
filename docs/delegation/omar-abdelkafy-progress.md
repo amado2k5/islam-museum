@@ -3997,3 +3997,28 @@ Resume point: sharh-saheeh-al-bukhare episode 22 (branch from origin/main).
 | Badr attribution for the captives teaching reading and writing, and the Paradise framing in the Companion report | ep22 00:08:00, 00:11:30 | Transcript does not say Badr or Paradise there | Clarity | Open |
 
 Resume point: sharh-saheeh-al-bukhare episode 23 (branch from origin/main).
+
+### sharh-saheeh-al-bukhare ep23 (14 Nov 2026)
+
+25 points written for episode 23 (ar, en, ur); 21 needs_source marks in each language file for this episode; 11 new `about` edges. Quran verses referenced only through passage links (3-92, 3-144); none typed. Contested: He gives his own views on etiquette of eating, accepting wedding invitations and greeting, and reads the dream of drawing water and the sayings on knowledge assemblies in his own way; he attributes sayings to unnamed scholars and unnamed European writers without reference. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep23) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greeting and recap of earlier episode count | ep23 00:00:00-00:00:30 | Greeting and framing | Content rule | Open |
+| Closing prayer, thanks and announcement of next Friday | ep23 00:57:00-00:57:30 and 01:19:00 | Break join and closing prayer | Content rule | Open |
+| Opening praise and prayers of the second talk | ep23 00:57:30-00:58:00 | Break join and standard opening of a talk | Content rule | Open |
+| Khalid ibn al-Walid and Ammar exchange | ep23 00:10:30-00:11:30 | Loops and garbled, outcome not recoverable | Clarity, Loop check | Open |
+| Rukana wrestling story | ep23 00:12:00-00:14:30 | Too garbled to state what happened | Clarity, Loop check | Open |
+| Palm tree dispute detail and loops | ep23 00:16:00-00:16:30 | Repeated word loop | Clarity, Loop check | Open |
+| Remarks on the age of many scholars and preachers, with a count of a population | ep23 00:17:00-00:18:30 | Garbled, loops, and a sweeping claim about a people | Voice rule, Clarity, Loop check | Open |
+| Loops and garbled stretches | ep23 00:19:00-00:19:30, 00:20:30-00:21:00, 00:25:00-00:25:30 (second half), 00:28:30-00:29:30, 00:35:30-00:36:00 | Repeated tokens or unrecoverable text | Clarity, Loop check | Open |
+| Guest etiquette, host burden, pious people's food, tidiness of guests | ep23 00:27:00-00:29:00, 00:40:30-00:45:30 | Mostly garbled with personal anecdotes, only unambiguous points kept | Clarity | Open |
+| Sleep percentages of a lifetime and muscle counts for frowning and smiling | ep23 00:25:30-00:26:00, 01:04:00-01:04:30 | Statistics without source and garbled | Clarity | Open |
+| Comparison of the Prophet with an unnamed historical figure | ep23 01:00:30-01:01:00 | Demeaning comparison of a person and garbled | Voice rule | Open |
+| Greeting passage loops and chatter about telephone and school greetings | ep23 00:48:00-00:51:00, 00:52:30-00:53:00, 00:53:30-00:54:00 | Loops and garbled | Clarity, Loop check | Open |
+| Stretches on Prophet's family life, gentleness with Aisha, circles of prophets, standing right and rear | ep23 01:02:30-01:04:00, 01:04:30-01:09:30 | Garbled, details not recoverable | Clarity, Loop check | Open |
+| Uhud and Umm Ammara, Prophet's greeting and Pool references | ep23 01:09:30-01:10:30, 01:13:30-01:14:30 | Speaker of the quoted words unclear and garbled | Clarity | Open |
+| Address to students about exams and fasting | ep23 01:17:30-01:19:00 | Personal address, loops | Content rule | Open |
+| Smell report and backbiting saying | ep23 01:16:30 | Key words garbled (the ASR gives a different verb), wording and meaning not recoverable | Clarity | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 24 (branch from origin/main).
