@@ -11,12 +11,14 @@ regions: [persia-central-asia]
 gender: male
 roles: [ruler, military]
 periods: [period/buyid-seljuk-fatimid-era, period/crusades-ayyubid-mamluk]
+born: { edtf: "1132", calendar: julian, precision: year, status: historical, note: "From Wikidata (Q723036, revision 2479684731, read 2026-11-14): date of birth 1132 (julian calendar as declared by the item, year precision). No Hijri year is given because 1132 CE spans two Hijri years.", sources: [source/wikidata-ala-al-din-tekish] }
 died: { edtf: "1200-07~", hijri: "0596-09", calendar: julian, precision: month, status: tradition, derived: true, note: "وهو الذي أزال دولة بني سلجوق؛ تغيرت نيته للخليفة وعزم على قصد العراق فجاءه الموت فجأة بدهستان في رمضان وحُمل إلى خوارزم، وقام بعده ولده قطب الدين محمد ولُقبوا بلقب أبيه {cite:shadharat-dhahab p. 804}؛ التحويل مشتق.", sources: [source/shadharat-dhahab] }
 relations:
   - { type: lived_in, target: place/iraq, note: "From text: of the Iraq Seljuks", sources: [source/kamil-ibn-al-athir, source/shadharat-dhahab, source/ismoilov-xorazmshohlar-tangalari-2025], confidence: low }
   - { type: spouse_of, target: person/terken-khatun }
   - { type: ruler_of, target: polity/anushtegin-dynasty, sources: [source/ismoilov-xorazmshohlar-tangalari-2025] }
-sources: [source/kamil-ibn-al-athir, source/shadharat-dhahab, source/ismoilov-xorazmshohlar-tangalari-2025]
+external_ids: { wikidata: Q723036 }
+sources: [source/kamil-ibn-al-athir, source/shadharat-dhahab, source/ismoilov-xorazmshohlar-tangalari-2025, source/wikidata-ala-al-din-tekish]
 provenance:
   layer: own-research
   source: "source/ismoilov-xorazmshohlar-tangalari-2025 scan pp. 103–106, 118, 163"

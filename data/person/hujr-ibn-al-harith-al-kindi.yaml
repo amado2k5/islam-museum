@@ -17,7 +17,8 @@ relations:
   - { type: member_of, target: group/kinda, sources: [source/kamil-ibn-al-athir] }
   - { type: sibling_of, target: person/shurahbil-ibn-al-harith, sources: [source/kamil-ibn-al-athir] }
   - { type: sibling_of, target: person/salama-ibn-al-harith-al-taghlibi, sources: [source/kamil-ibn-al-athir] }
-sources: [source/kamil-ibn-al-athir]
+external_ids: { wikidata: Q22933283 }
+sources: [source/kamil-ibn-al-athir, source/wikidata-hujr-ibn-al-harith-al-kindi]
 provenance:
   layer: own-research
   source: "الكامل في التاريخ لابن الأثير — أيام العرب، ص382-383"
