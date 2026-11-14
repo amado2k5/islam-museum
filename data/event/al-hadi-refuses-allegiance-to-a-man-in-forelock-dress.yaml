@@ -1,0 +1,42 @@
+id: event/al-hadi-refuses-allegiance-to-a-man-in-forelock-dress
+class: event
+kind: other
+label:
+  ar: الهادي يأمر رجلاً بحلق شعره قبل البيعة
+  en: Al-Hadi asks a man to shave his forelock before pledging allegiance
+  ur: ہادی ایک شخص کو بیعت سے پہلے بال مونڈنے کو کہتے ہیں
+summary:
+  ar: رأى الراوي يوماً الناس يبايعون الهادي فجاءه رجل له طرة وشعر وقال أريد أن أبايعك على رسول الله، فقال له اذهب فاحلق هذا الشعر ثم ارجع فإنا لا نبايع أهل هذا الزي، فحلق ثم بايعه.
+  en: The narrator saw people pledging allegiance to al-Hadi one day; a man with a forelock and long hair said he wished to pledge, and al-Hadi told him to go and shave it and return, since "we do not take allegiance from people of this fashion"; he shaved and then pledged.
+  ur: راوی نے ایک دن لوگوں کو ہادی کی بیعت کرتے دیکھا؛ ایک شخص جس کی پیشانی پر بال اور لمبے بال تھے بولا میں بیعت کرنا چاہتا ہوں، تو انہوں نے کہا جا کر اسے مونڈ آؤ پھر آؤ کیونکہ ہم اس وضع کے لوگوں سے بیعت نہیں لیتے؛ اس نے مونڈا اور پھر بیعت کی۔
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+relations:
+- type: occurred_at
+  target: place/saada
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: related_to
+  target: concept/bayah
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص53 (الصفحة المطبوعة)'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-6
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 53
