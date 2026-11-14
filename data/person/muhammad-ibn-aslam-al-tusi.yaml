@@ -6,24 +6,15 @@ label:
 roles: [muhaddith]
 gender: male
 summary:
-  ar: "بطاقة أولية لمحمد بن أسلم الطوسي، إمام ومحدث القرن التاسع، توفي سنة ٨٥٦م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Muhammad ibn Aslam al-Tusi, the ninth-century imam and muhaddith, d. 856; the biographical entry is not yet checked on the page."
+  ar: "محمد بن أسلم بن سالم بن يزيد، أبو الحسن الكندي مولاهم الطوسي ⁦(توفي 242 هـ / 856 م)⁩: من حفاظ الحديث، اشتهر بالصلاح ونعته الذهبي بشيخ المشرق، وله «المسند» و«الرد على الجهمية» و«الإيمان والأعمال». {cite:alam-zirikli-dar-al-ilm-2002 vol. 6 p. 34}"
+  en: "Muhammad ibn Aslam ibn Salim ibn Yazid, Abu al-Hasan al-Kindi by clientage, al-Tusi (died 242 AH / 856): one of the hadith memorizers, known for piety and called by al-Dhahabi the shaykh of the East; author of al-Musnad, al-Radd ala al-Jahmiyya and al-Iman wa-l-A'mal. {cite:alam-zirikli-dar-al-ilm-2002 vol. 6 p. 34}"
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/abbasid-early]
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q131338059
   viaf: "22553220"
-provenance:
-  layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0068
-status:
-  review: draft
-  completeness: 1
 occupations:
   - job: job/muhaddith
     kind: primary
@@ -31,6 +22,15 @@ occupations:
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/al-aalam]
 born: { edtf: "796", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala)" }
-died: { edtf: "856", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala)" }
+died: { edtf: "856", hijri: "0242", calendar: gregorian, precision: year, derived: false, note: "al-Zirikli, al-A'lam, vol. 6 p. 34, prints 242 AH = 856 CE, agreeing with the card. The entry prints no birth year; the card's 796 (al-Dhahabi, Siyar) is kept as a date-enrichment value.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
   - { type: lived_in, target: place/tus, confidence: low, note: "Association inferred from the nisba 'الطوسي'; specific birthplace or residence is not individually documented.", sources: [source/al-aalam] }
+provenance:
+  layer: own-research
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
+status:
+  review: draft
+  completeness: 3

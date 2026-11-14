@@ -6,41 +6,43 @@ label:
 roles: [qadi, teacher, jurist]
 gender: male
 summary:
-  ar: "بطاقة أولية لمحمد عرب زاده، القاضي والفقيه العثماني، توفي سنة ١٥٦٢م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Muhammad Arabzade, the Ottoman judge and jurist, d. 1562; the biographical entry is not yet checked on the page."
+  ar: "محمد بن محمد الشهير بعرب زاده، فقيه حنفي رومي، درس في بروسة ثم إستانبول، ونفي إلى بروسة سنتين ثم أعيد إلى التدريس، وعين قاضيا في القاهرة فغرق قرب رودس سنة 969 هـ الموافقة 1562 م؛ له حاشية على الهداية وحاشية على أنوار التنزيل."
+  en: "Muhammad ibn Muhammad, known as Arabzade, a Hanafi jurist of Rum who taught in Bursa and Istanbul, was banished to Bursa for two years and restored to teaching, then appointed judge of Cairo and drowned near Rhodes in 969 AH (1562); author of glosses on al-Hidaya and Anwar al-tanzil."
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
-born: { edtf: "1513", hijri: "0919", calendar: gregorian, precision: year, derived: true, status: historical, note: "Al-Zirikli, al-A'lam, entry Arab-zada (919 to 969 AH = 1513 to 1562), vol. 7 p. 58 (OpenITI/Shamela pagination), read 14 November 2026: Muhammad ibn Muhammad, a Hanafi jurist of Rum, teacher at Bursa then Istanbul, appointed judge of Cairo, drowned when the ship sank off Rhodes. The Gregorian year is the entry's own; 919 AH began in March 1513 and ended in March 1514.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
-died: { edtf: "1562", hijri: "0969", calendar: gregorian, precision: year, derived: false, status: historical, note: "Al-Zirikli, al-A'lam, vol. 7 p. 58: 969 AH = 1562; died at sea off Rhodes. Earlier note: Shaqaiq al-Numaniyya.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+born: { edtf: "1513", hijri: "0919", calendar: gregorian, precision: year, derived: false, status: historical, note: "al-Zirikli, al-A'lam, entry Arab-zada (919 to 969 AH = 1513 to 1562), vol. 7 p. 59 (closing marker PageV07P059; an earlier note of this card gave p. 58): Muhammad ibn Muhammad, a Hanafi jurist of Rum, teacher at Bursa then Istanbul, appointed judge of Cairo, drowned off Rhodes. The Gregorian year is the entry's own.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+died: { edtf: "1562", hijri: "0969", calendar: gregorian, precision: year, derived: false, status: historical, note: "al-Zirikli, al-A'lam, vol. 7 p. 59: 969 AH = 1562; drowned when the ship passed Rhodes. Earlier note: Shaqaiq al-Numaniyya.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
   - { type: born_in, target: place/antakiya, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q80561)" }
-  - { type: died_in, target: place/south-aegean-region, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q173616)" }
+  - { type: died_in, target: place/south-aegean-region, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q173616); al-Zirikli, al-A'lam, vol. 7 p. 59, says the ship was passing Rhodes." }
+  - { type: lived_in, target: place/bursa, sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high, note: "al-Zirikli, al-A'lam, vol. 7 p. 59: taught in Bursa; banished there for two years." }
+  - { type: lived_in, target: place/istanbul, sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high, note: "al-Zirikli, al-A'lam, vol. 7 p. 59: taught in Istanbul." }
 sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q57883498
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0085
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 occupations:
   - job: job/qadi
     kind: secondary
     status: historical
-    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
-    sources: [source/al-aalam]
+    note: "al-Zirikli, al-A'lam, vol. 7 p. 59: appointed judge of Cairo and drowned on the way."
+    sources: [source/alam-zirikli-dar-al-ilm-2002]
   - job: job/teacher
     kind: secondary
     status: historical
-    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
-    sources: [source/al-aalam]
+    note: "al-Zirikli, al-A'lam, vol. 7 p. 59: taught in Bursa, then Istanbul."
+    sources: [source/alam-zirikli-dar-al-ilm-2002]
   - job: job/faqih
     kind: secondary
     status: historical
-    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
-    sources: [source/al-aalam]
+    note: "al-Zirikli, al-A'lam, vol. 7 p. 59: a Hanafi jurist; glosses on al-Hidaya."
+    sources: [source/alam-zirikli-dar-al-ilm-2002]

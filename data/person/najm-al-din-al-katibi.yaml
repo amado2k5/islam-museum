@@ -6,25 +6,26 @@ label:
 roles: [scholar, writer]
 gender: male
 summary:
-  ar: "بطاقة أولية لنجم الدين علي بن عمر الكاتبي القزويني، منطقي وفلكي القرن الثالث عشر صاحب «حكمة العين» و«الرسالة الشمسية»، توفي سنة ١٢٧٧م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Najm al-Din Ali ibn Umar al-Katibi al-Qazwini, the thirteenth-century logician and astronomer author of Hikmat al-Ayn and al-Risala al-Shamsiyya, d. 1277; the biographical entry is not yet checked on the page."
+  ar: "علي بن عمر بن علي الكاتبي القزويني، نجم الدين، ويقال له دبيران، حكيم منطقي من تلاميذ نصير الدين الطوسي، صاحب الشمسية في المنطق وحكمة العين والمفصل في شرح المحصل؛ توفي سنة 675 هـ بحسب الزركلي."
+  en: "Ali ibn Umar ibn Ali al-Katibi al-Qazwini, Najm al-Din, called Dabiran, a sage and logician, pupil of Nasir al-Din al-Tusi and author of al-Shamsiyya on logic, Hikmat al-ayn and al-Mufassal, a commentary on al-Muhassal; died 675 AH according to al-Zirikli (1276 or 1277)."
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/mongol-post-mongol]
 themes: [astronomy-and-timekeeping, philosophy-and-logic]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q2669359
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0027
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
-born: { edtf: "1204~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (al-Katibi); TDV Islam Ansiklopedisi" }
-died: { edtf: "1276", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (al-Katibi); TDV Islam Ansiklopedisi" }
+  completeness: 3
+born: { edtf: "1204~", hijri: "0600", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (al-Katibi); TDV Islam Ansiklopedisi. al-Zirikli prints 600 AH = 1203 CE {cite:alam-zirikli-dar-al-ilm-2002 vol. 4 p. 315}; 600 AH began in September 1203 and ended in August 1204, so the card year is kept.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+died: { edtf: "1276", hijri: "0675", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (al-Katibi); TDV Islam Ansiklopedisi. al-Zirikli prints 675 AH = 1277 CE {cite:alam-zirikli-dar-al-ilm-2002 vol. 4 p. 315}; 675 AH began in June 1276, so the card year 1276 is kept.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
   - { type: lived_in, target: place/qazvin, confidence: low, note: "Association inferred from the nisba 'القزويني'; specific birthplace or residence is not individually documented.", sources: [source/al-aalam] }
+  - { type: student_of, target: person/nasir-al-din-al-tusi, confidence: high, note: "al-Zirikli, al-A'lam, vol. 4 p. 315: among the pupils of Nasir al-Din al-Tusi", sources: [source/alam-zirikli-dar-al-ilm-2002] }

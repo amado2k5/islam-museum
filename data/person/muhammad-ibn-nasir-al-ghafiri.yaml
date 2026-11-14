@@ -3,26 +3,27 @@ class: person
 label:
   ar: "محمد بن ناصر الغافري"
   en: "Muhammad ibn Nasir al-Ghafiri"
-roles: [ruler]
+roles: [imam, ruler]
 gender: male
 summary:
-  ar: "بطاقة أولية لمحمد بن ناصر الغافري، سلطان عُمان اليعربي في أوائل القرن الثامن عشر؛ تنازع الحكم مع بقية الأسر اليعربية ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Muhammad ibn Nasir al-Ghafiri, the early-eighteenth-century Ya'rubid sultan of Oman; his entry is not yet checked on the page."
+  ar: "محمد بن ناصر بن عامر بن رمثة بن خميس الغافري ⁦(توفي 1140 هـ)⁩: من أئمة عمان، شجاع قوي العصبية مطاع في قومه، اجتمعت الكلمة على إمامته في نزوى سنة 1137 هـ وقاتل المخالفين، وتوفي إثر رصاصة أصابته في معركة بصحار. {cite:alam-zirikli-dar-al-ilm-2002 vol. 7 p. 121}"
+  en: "Muhammad ibn Nasir ibn Amir ibn Ramtha ibn Khamis al-Ghafiri (died 1140 AH): one of the imams of Oman, brave and obeyed by his people, on whose imamate agreement was reached at Nizwa in 1137 AH; he fought opponents and died of a bullet wound received in a battle at Sohar. {cite:alam-zirikli-dar-al-ilm-2002 vol. 7 p. 121}"
 wings: [people]
 regions: [arabia]
 periods: [period/gunpowder-empires]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q11786522
+died: { edtf: "1728", hijri: "1140", calendar: gregorian, precision: year, derived: true, note: "Card value kept (EI2; J.C. Wilkinson). al-Zirikli, al-A'lam, vol. 7 p. 121, prints 1140 AH = 1727 CE; 1140 AH ran from August 1727 to August 1728, so the two agree within the year.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+relations:
+  - { type: lived_in, target: place/oman, note: "al-Zirikli, al-A'lam, vol. 7 p. 121: one of the imams of Oman", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
+  - { type: died_in, target: place/sohar, note: "al-Zirikli, al-A'lam, vol. 7 p. 121: a bullet struck him in one of the battles at Sohar and he died of it; the wording leaves the exact place of death slightly open", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-audit
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
-died: { edtf: "1728", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; J.C. Wilkinson" }
-relations:
-  - { type: lived_in, target: place/oman, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/al-aalam] }
+  completeness: 3
