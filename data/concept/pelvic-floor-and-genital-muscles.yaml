@@ -1,0 +1,18 @@
+id: concept/pelvic-floor-and-genital-muscles
+class: concept
+kind: scientific
+label: { ar: "عضل الأنثيين والمثانة والذكر والمقعدة عند ابن سينا", en: "Muscles of the testes, bladder, penis and anus in the Canon", ur: "قانون میں خصیوں، مثانے، عضو تناسل اور مقعد کے پٹھے" }
+summary:
+  ar: "يذكر ابن سينا في أربعة فصول عضل الأنثيين والمثانة والذكر والمقعدة، ويصفها وصفاً تشريحياً مجرداً {cite:canon-ibn-sina-print-v1 pp.73-74}."
+  en: "In four short chapters Ibn Sina sets out the muscles of the testes, bladder, penis and anus, in plain anatomical description {cite:canon-ibn-sina-print-v1 pp.73-74}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/muscles, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 1, Jumlas 2 and 3 on muscles and nerves (scan pages 72 to 78), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-muscles-3
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

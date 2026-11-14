@@ -10,8 +10,8 @@ regions: [levant-iraq]
 coordinates: [32.702102777778, 35.29785]
 coordinate_precision: approx
 coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
-external_ids: { wikidata: "Q430776" }
-sources: [source/wikidata]
+external_ids: { wikidata: "Q430776", pleiades: "678299" }
+sources: [source/wikidata, source/pleiades]
 provenance:
   layer: own-research
   source: "Wikidata item Q430776 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."

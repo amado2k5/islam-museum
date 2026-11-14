@@ -9,8 +9,8 @@ wings: [place]
 coordinates: [43.197777777778, 21.356666666667]
 coordinate_precision: locality
 coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
-external_ids: { wikidata: "Q1007199" }
-sources: [source/wikidata]
+external_ids: { wikidata: "Q1007199", pleiades: "207350" }
+sources: [source/wikidata, source/pleiades]
 provenance:
   layer: own-research
   source: "Wikidata item Q1007199 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."

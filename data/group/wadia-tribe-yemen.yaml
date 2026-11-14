@@ -1,0 +1,35 @@
+id: group/wadia-tribe-yemen
+class: group
+kind: tribe
+label:
+  ar: وادعة
+  en: Wadi'a (Yemeni tribe)
+  ur: وادعہ ⁦(یمنی قبیلہ)⁩
+summary:
+  ar: قبيلة يمنية ذُكرت بين من وفدوا إلى الهادي من نجران وبايعوه سنة 284هـ.
+  en: A Yemeni tribe named among those who came to al-Hadi from Najran and pledged to him in 284 AH.
+  ur: ایک یمنی قبیلہ جس کا ذکر ان لوگوں میں آیا جو 284ھ میں نجران سے ہادی کے پاس آئے اور بیعت کی۔
+wings:
+- people
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+relations:
+- type: allied_with
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+  note: بايعوه في نجران سنة 284هـ
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص66-80 ⁦(الصفحة المطبوعة)⁩'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-9
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, printed pp. 66-80
