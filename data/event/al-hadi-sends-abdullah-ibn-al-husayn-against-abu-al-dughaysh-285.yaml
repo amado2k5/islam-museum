@@ -1,0 +1,67 @@
+id: event/al-hadi-sends-abdullah-ibn-al-husayn-against-abu-al-dughaysh-285
+class: event
+kind: other
+label:
+  ar: إرسال الهادي أخاه عبد الله بن الحسين على أبي الدغيش الشهابي في وسحة، ربيع الآخر 285هـ
+  en: Al-Hadi sends his brother Abdullah ibn al-Husayn against Abu al-Dughaysh al-Shihabi at Wasaha, Rabi' II 285 AH
+  ur: ہادی کا اپنے بھائی عبد اللہ بن الحسین کو وسحہ میں ابو الدغیش شہابی کے خلاف بھیجنا، ربیع الآخر 285ھ
+summary:
+  ar: أقام الهادي بصعدة ربيعاً الأول واثني عشر يوماً من ربيع الآخر ثم جاءه كتاب عامله على وسحة بأن أبا الدغيش الشهابي جمع جمعاً كثيراً ومنع الصدقات وأنه حاربه، فعسكر الهادي بالبقمة قرب صعدة ودعا أبا الدغيش فأبى، فأرسل أخاه عبد الله بن الحسين يوم الخميس 16 ربيع الآخر في عسكر كثير؛ ورفض أبو الدغيش دعوات متكررة إلى الحق وإلى الأمان، فاستعد القتال.
+  en: Al-Hadi stayed at Sa'da through Rabi' I and twelve days of Rabi' II; then came a letter from his governor at Wasaha that Abu al-Dughaysh al-Shihabi had gathered a large force and withheld the alms, and that he had fought him; al-Hadi camped at al-Buqma near Sa'da and sent men to call Abu al-Dughaysh, who refused, and on Thursday 16 Rabi' II sent his brother Abdullah ibn al-Husayn with a large force; Abu al-Dughaysh rejected repeated calls to the truth and to security, and the fighting was prepared.
+  ur: ہادی صعدہ میں ربیع الاول اور ربیع الآخر کے بارہ دن رہے؛ پھر وسحہ پر ان کے عامل کا خط آیا کہ ابو الدغیش شہابی نے بڑی جمعیت جمع کر لی اور صدقات روک دیے اور اس نے ان سے جنگ کی ہے؛ ہادی نے صعدہ کے قریب البقمہ میں خیمہ لگایا اور ابو الدغیش کو بلانے آدمی بھیجے، اس نے انکار کیا، اور جمعرات 16 ربیع الآخر کو اپنے بھائی عبد اللہ بن الحسین کو بڑے لشکر کے ساتھ بھیجا؛ ابو الدغیش نے حق اور امان کی بار بار دعوت رد کی اور لڑائی کی تیاری ہوئی۔
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: '0898-05-12'
+    hijri: '0285-04-16'
+    calendar: julian
+    precision: day
+    status: tradition
+    derived: true
+    note: يوم الخميس لستة عشر من ربيع الآخر سنة 285هـ بنص الكتاب؛ التحويل مشتق من التقويم الجدولي، والنص يخالفه بيوم في اليوم الأسبوعي
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/saada
+- type: occurred_at
+  target: place/wasaha-yemen
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abdullah-ibn-al-husayn-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abu-al-dughaysh-al-shihabi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abu-jafar-muhammad-ibn-ubaydallah-al-abbasi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: related_to
+  target: event/al-hadi-march-to-wasaha-and-governor-appointed-284
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص85-86 ⁦(الصفحة المطبوعة)⁩'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-11
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 85-86
