@@ -3553,3 +3553,24 @@ Resume point: sharh-saheeh-al-bukhare episode 7 (branch from origin/main).
 | Speculation on weapons of the Dajjal's followers | ep11 00:33:00 | speculation, kept as his guess | sensitivity | Open |
 
 Resume point: alwaad-alhaq episode 12 (branch from origin/main).
+### sharh-saheeh-al-bukhare ep07 (14 Nov 2026)
+
+24 points written for episode 7 (ar, en, ur); 13 needs_source marks in each language file for this episode; 5 new `about` edges. No Quran verses linked; none typed. Contested: His conditions for lawful singing (no instruments, words that call only to virtue) and his view that groups should not be set against one another are attributed to him; the singing ruling is contested among scholars. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep07) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening praise, greeting, long supplication for students' exams and for the community | ep07 00:00:00-00:04:00 | Greeting and prayer, not teaching content | Content rule | Open |
+| Break joins and anecdotes mixed with loops (camel story, repeated syllables) | ep07 00:10:30-00:16:30 | Garbled, looping, story unrecoverable | Clarity, Loop check | Open |
+| Stretch on emigration, a conference abroad and women travelling to study | ep07 00:17:30-00:22:00 | Garbled and sweeping claims about women and peoples | Content rule, Clarity | Open |
+| Wives, marriage, women and men generalisations, percentages, anecdotes | ep07 00:26:00-00:38:00 | Sweeping claims about women, garbled, loops | Content rule, Voice rule, Clarity | Open |
+| Stretch on the dream of Hatim and the girl of the palace sequence start | ep07 00:37:30-00:38:30 | Garbled, names unclear | Clarity | Open |
+| Gulf songs, school and job stories, loops | ep07 00:40:30-00:44:00 | Garbled, loops, anecdotes | Clarity, Loop check | Open |
+| Types of women, qualities of wives, claims about the Egyptian people and the Fatimids | ep07 00:46:00-00:56:30 | Sweeping claims about women, peoples and sects; heavy garbling and loops | Content rule, Voice rule, Clarity, Loop check | Open |
+| Marriage proposals, rules on women working, loops | ep07 00:56:30-01:01:00 | Sweeping claims about women, garbled, loops | Content rule, Clarity, Loop check | Open |
+| Anecdotes on television and relatives, family stories | ep07 01:03:30-01:05:00 | Garbled anecdotes, no clear point | Clarity | Open |
+| Teaching children obedience and a stretch on obeying rulers | ep07 01:06:00-01:07:30 | Garbled, rulings cannot be recovered | Clarity, Loop check | Open |
+| Stretch on punishments, jihad and authority | ep07 01:11:00-01:12:30 | Garbled and a sweeping claim on public authority and conflict | Content rule, Clarity | Open |
+| Closing remarks, disclaimers on remarks about women, closing prayer and greetings | ep07 01:15:30-01:17:30 | Closing and prayer, disclaimer tied to dropped women stretches | Content rule | Open |
+| Questions on a girl's veil and on trading in a forbidden product, closing salutations | ep07 01:17:30-01:20:00 | Questions garbled, product name unreliable, answers not recoverable | Clarity | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 8 (branch from origin/main).

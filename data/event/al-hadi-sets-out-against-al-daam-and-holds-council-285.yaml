@@ -1,0 +1,57 @@
+id: event/al-hadi-sets-out-against-al-daam-and-holds-council-285
+class: event
+kind: other
+label:
+  ar: الهادي يخرج إلى موضع لبني ربيعة ويستشير في حرب الدعام، 3 شوال 285هـ
+  en: Al-Hadi sets out to a place of Banu Rabi'a and takes counsel on war with al-Da'am, 3 Shawwal 285 AH
+  ur: ہادی بنو ربیعہ کے ایک مقام کی طرف نکلتے اور دعام سے جنگ پر مشورہ کرتے ہیں، 3 شوال 285ھ
+summary:
+  ar: لما بلغ الهادي دخول الدعام أثافت خرج من موضعه إلى موضع لبني ربيعة وبات ليلة السبت وهي ليلة الفطر، ثم أرسل الصراخ في الناس فاجتمعوا إليه يوم الاثنين لثلاث خلت من شوال سنة 285هـ، فتشاوروا وسد رأيهم جميعاً على الحرب.
+  en: When al-Hadi heard that al-Da'am had entered Athafit he left his place for a place of Banu Rabi'a and spent the night of Saturday, the night of the Fitr; he then sent criers among the people and they gathered on Monday, three days into Shawwal 285 AH, took counsel together and agreed as one on war.
+  ur: جب ہادی کو دعام کے اثافت میں داخل ہونے کی خبر ملی تو وہ اپنی جگہ سے بنو ربیعہ کے ایک مقام کی طرف نکلے اور ہفتے کی رات، جو عید الفطر کی رات تھی، وہیں گزاری؛ پھر لوگوں میں منادی بھیجی تو وہ پیر کے دن شوال 285ھ کی تین تاریخ کو جمع ہوئے، مشورہ کیا اور سب جنگ پر متفق ہوئے۔
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: '0898-10-23'
+    hijri: '0285-10-03'
+    calendar: julian
+    precision: day
+    status: tradition
+    derived: true
+    note: يوم الاثنين لثلاث خلت من شوال سنة 285هـ؛ التحويل مشتق من التقويم الجدولي ويوافق اليوم المذكور
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/athafit
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/al-daam-ibn-ibrahim
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: related_to
+  target: event/arhab-takes-athafit-and-abu-umar-is-killed-285
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص99 ⁦(الصفحة المطبوعة)⁩'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-13
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 99

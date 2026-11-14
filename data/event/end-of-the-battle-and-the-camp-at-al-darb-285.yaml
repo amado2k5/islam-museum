@@ -1,0 +1,60 @@
+id: event/end-of-the-battle-and-the-camp-at-al-darb-285
+class: event
+kind: other
+label:
+  ar: نهاية القتال والعودة إلى الدرب ورفض الهادي الإغارة على قرى أرحب، شوال 285هـ
+  en: The end of the fighting, the return to al-Darb and al-Hadi's refusal to raid Arhab's villages, Shawwal 285 AH
+  ur: لڑائی کا اختتام، الدرب واپسی اور ارحب کی بستیوں پر چھاپے سے ہادی کا انکار، شوال 285ھ
+summary:
+  ar: يذكر الكتاب أن فارساً من الدعام يقال له ابن الغمر برز فقُتل، وأن القتال استمر حتى الليل فافترقوا وقد قتل من أصحاب الدعام رجل ولم يُقتل من أصحاب الهادي أحد بحسب الراوي، وعاد الهادي إلى الدرب والدعام إلى أثافت، ولزم كل منهما معسكره لاشتداد البرد، ثم يروي أن الماء كثر في الغيل بمجيء الهادي، وأن بني ربيعة وبني صريم سألوه الإغارة على قرى أرحب فأبى.
+  en: The book says a horseman of al-Da'am called Ibn al-Ghimr came out and was killed, that fighting went on until night and they parted, one man of al-Da'am's side having been killed and none of al-Hadi's, by the narrator's account; al-Hadi went back to al-Darb and al-Da'am to Athafit and each kept to his camp as the cold grew sharp; it then tells that water increased in the ghayl when al-Hadi came, and that Banu Rabi'a and Banu Sarim asked leave to raid Arhab's villages and he refused.
+  ur: کتاب بتاتی ہے کہ دعام کا ایک سوار ابن الغمر نکلا اور مارا گیا، رات تک لڑائی جاری رہی اور وہ جدا ہوئے، راوی کے بیان میں دعام کے ساتھیوں میں سے ایک آدمی مارا گیا اور ہادی کے ساتھیوں میں سے کوئی نہیں؛ ہادی الدرب اور دعام اثافت لوٹ گیا اور سردی کی شدت سے ہر ایک اپنے پڑاؤ میں رہا؛ پھر بتاتی ہے کہ ہادی کے آنے سے غیل میں پانی بڑھ گیا اور بنو ربیعہ اور بنو صریم نے ارحب کی بستیوں پر چھاپے کی اجازت مانگی تو انہوں نے انکار کیا۔
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+relations:
+- type: occurred_at
+  target: place/al-darb-banu-rabia-yemen
+- type: occurred_at
+  target: place/athafit
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/al-daam-ibn-ibrahim
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/arhab-ibn-al-daam
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: related_to
+  target: event/al-hadi-stands-in-the-mahajja-at-athafit-285
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: related_to
+  target: group/banu-rabia-hamdan
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: related_to
+  target: group/banu-sarim-hamdan
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص104-105 ⁦(الصفحة المطبوعة)⁩'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-13
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 104-105

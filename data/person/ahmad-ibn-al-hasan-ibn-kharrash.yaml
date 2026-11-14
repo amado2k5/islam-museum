@@ -6,23 +6,24 @@ label:
 roles: [muhaddith]
 gender: male
 summary:
-  ar: "بطاقة أولية لأحمد بن الحسن بن خراش؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ahmad ibn al-Hasan ibn Kharrash; the entry is not yet checked on the page."
+  ar: "أحمد بن الحسن بن خراش، أبو جعفر البغدادي، حافظ محدث ثقة عند الذهبي، روى عنه مسلم والترمذي؛ توفي سنة ٢٤٢هـ."
+  en: "Ahmad ibn al-Hasan ibn Kharrash, Abu Ja'far al-Baghdadi, a hafiz and hadith scholar called reliable by al-Dhahabi, from whom Muslim and al-Tirmidhi narrated; he died in 242 AH."
 wings: [people]
 regions: [levant-iraq]
-periods: [period/buyid-seljuk-fatimid-era]
-sources: [source/al-aalam, source/wikidata]
+periods: [period/abbasid-early]
+sources: [source/al-aalam, source/wikidata, source/siyar-alam-nubala-ideas-house]
 external_ids:
   wikidata: Q138350908
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 Medium)"
-  model: "SWE-2 Medium"
-  run: wikidata-import-wave2
+  source: "al-Dhahabi, Siyar A'lam al-Nubala, one-volume edition (Bayt al-Afkar al-Dawliyya), entry read in full on the scanned pages (Apple Vision OCR on the harvest drive)"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-siyar-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
+died: { edtf: "856", calendar: gregorian, precision: year, derived: true, note: "Siyar A'lam al-Nubala, p. 753: d. 242 AH (856-857 CE); the card's earlier period (Buyid-Seljuk) is corrected to the Abbasid period to match the book", sources: [source/siyar-alam-nubala-ideas-house] }
 occupations:
   - job: job/muhaddith
     kind: primary
