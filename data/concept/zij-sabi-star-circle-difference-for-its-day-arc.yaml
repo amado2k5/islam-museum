@@ -1,0 +1,20 @@
+id: concept/zij-sabi-star-circle-difference-for-its-day-arc
+class: concept
+kind: scientific
+label: { ar: "اختلاف دائرة الكوكب في حساب قوس نهاره", en: "The difference of a star's circle in finding its day arc", ur: "ستارے کے دائرے کا اختلاف اور اس کی قوسِ نہار" }
+summary:
+  ar: "يبدأ الباب التاسع عشر بمعرفة قوس نهار أي كوكب في كل بلد، وهو ما يطلع من فلك معدل النهار منذ طلوع الكوكب إلى غروبه. وأول الخطوات اختلاف يخرج من ضرب وتر بعد الكوكب عن معدل النهار في وتر عرض البلد، ثم القسمة على وتر تمام عرض البلد، ثم الضرب في نصف القطر والقسمة على وتر تمام بعد الكوكب، وقوس الناتج هو الاختلاف المطلوب. {cite:zij-sabi-nallino-byblion pp.52-53}."
+  en: "Chapter 19 teaches how to find the day arc of any star in any place, meaning the part of the equator's circle that rises from the star's rising to its setting. The first step is a difference obtained by multiplying the chord of the star's distance from the equator by the chord of the latitude of the place, dividing by the chord of the complement of the latitude, multiplying by the radius and dividing by the chord of the complement of the star's distance; the arc of the result is the difference sought. {cite:zij-sabi-nallino-byblion pp.52-53}."
+  ur: "انیسویں باب میں کسی بھی شہر میں کسی بھی ستارے کی قوسِ نہار معلوم کرنے کا طریقہ ہے، یعنی معدل النہار کے دائرے کا وہ حصہ جو ستارے کے طلوع سے غروب تک اٹھتا ہے۔ پہلا قدم ایک اختلاف ہے جو ستارے کے معدل النہار سے بعد کے وتر کو شہر کے عرض کے وتر سے ضرب دے کر، عرض کے تمام کے وتر پر تقسیم کر کے، نصف قطر سے ضرب دے کر اور ستارے کے بعد کے تمام کے وتر پر تقسیم کر کے نکلتا ہے؛ نتیجے کی قوس مطلوبہ اختلاف ہے۔ {cite:zij-sabi-nallino-byblion pp.52-53}۔"
+wings: [ideas]
+themes: [astronomy-and-timekeeping, mathematics]
+sources: [source/zij-sabi-nallino-byblion]
+relations:
+  - { type: part_of, target: work/al-zij-al-sabi, sources: [source/zij-sabi-nallino-byblion] }
+provenance:
+  layer: own-research
+  source: "al-Zij al-Sabi, chapters 19 to 26 (scan pages 52 to 65), Arabic text ed. C. A. Nallino (Byblion, Jbeil 2005), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: zij-sabi-4
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

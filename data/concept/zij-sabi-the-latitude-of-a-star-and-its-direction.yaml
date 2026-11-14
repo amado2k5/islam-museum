@@ -1,0 +1,20 @@
+id: concept/zij-sabi-the-latitude-of-a-star-and-its-direction
+class: concept
+kind: scientific
+label: { ar: "عرض الكوكب وجهة عرضه", en: "The latitude of a star and its direction", ur: "ستارے کا عرض اور اس کی جہت" }
+summary:
+  ar: "لمعرفة عرض الكوكب يُضرب وتر بعده عن معدل النهار في وتر تمام ميل الدرجة التي وُجد فيها الكوكب، ويُقسم الحاصل على وتر تمام الميل الكلي، ويُقوَّس الناتج. فإن كانت القوس أكثر من ميل تلك الدرجة نُقص منها ذلك الميل، وإن كانت أقل نُقصت من الميل، والباقي بعد الزيادة أو النقص هو عرض الكوكب. {cite:zij-sabi-nallino-byblion pp.60-61}."
+  en: "To find a star's latitude the chord of its distance from the equator is multiplied by the chord of the complement of the declination of the degree in which the star was found, the result is divided by the chord of the complement of the full obliquity, and the quotient is turned into an arc. If the arc is greater than the declination of that degree the declination is taken from it, and if less it is taken from the declination; the remainder is the latitude of the star. {cite:zij-sabi-nallino-byblion pp.60-61}."
+  ur: "ستارے کا عرض جاننے کے لیے اس کے معدل النہار سے بعد کے وتر کو اس درجے کے میل کے تمام کے وتر سے ضرب دی جاتی ہے جس میں ستارہ پایا گیا، حاصل کو کل میل کے تمام کے وتر پر تقسیم کیا جاتا ہے، اور خارجِ قسمت کی قوس بنائی جاتی ہے۔ اگر قوس اس درجے کے میل سے بڑی ہو تو اس میں سے وہ میل گھٹایا جاتا ہے، اور چھوٹی ہو تو اسے میل میں سے گھٹایا جاتا ہے؛ جو بچے وہی ستارے کا عرض ہے۔ {cite:zij-sabi-nallino-byblion pp.60-61}۔"
+wings: [ideas]
+themes: [astronomy-and-timekeeping, mathematics]
+sources: [source/zij-sabi-nallino-byblion]
+relations:
+  - { type: part_of, target: work/al-zij-al-sabi, sources: [source/zij-sabi-nallino-byblion] }
+provenance:
+  layer: own-research
+  source: "al-Zij al-Sabi, chapters 19 to 26 (scan pages 52 to 65), Arabic text ed. C. A. Nallino (Byblion, Jbeil 2005), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: zij-sabi-4
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }
