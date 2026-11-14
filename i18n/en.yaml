@@ -1759,6 +1759,10 @@ explore:
       title: "Resurrection and Reckoning Browser"
       desc: "Every mention of the Resurrection, the Day of Judgement and the Reckoning in the Qur'an, the Sunnah, the seerah and every harvested book — the Day's names, the Trumpet, the raising and the gathering, the terrors, the display and the records, the Scale, the Shade, the Hawd, the intercession and the Sirat — with every verse and report cited."
       menu: "Browse the Resurrection, the Day and the Reckoning"
+    tibb:
+      title: "Medicine Browser: Prophetic Medicine, Medicine, Anatomy, Surgery, Drugs and Treatment in Islam"
+      desc: "Everything mentioned about prophetic medicine, medicine, anatomy, surgery, drugs and seeking treatment in the Qur'an, the Sunnah, the seerah, the reports of the Companions and the Successors, the medical classics and every harvested book — cupping, honey, black seed, cautery and ruqya; illness, contagion, plague and visiting the sick; the stages of creation and the organs of the body; the treatment of the wounded; drugs and poisons; the ruling on treatment — with every verse and report cited."
+      menu: "Browse prophetic medicine, medicine, anatomy, surgery, drugs and treatment"
     usra:
       title: "Family and Marriages Browser"
       desc: "The famous marriages in Islam, the Muslim family and its daily life — every mention of marriage, spouses and children, dwellings, livelihood and social customs in the Qur'an, the Sunnah, the seerah and every harvested book, with every verse and report cited."
@@ -3832,6 +3836,45 @@ qiyama:
     curated:
       title: "Curated records"
       desc: "The museum's own records on the Day and its stations — the Trumpet, the raising, the gathering, the display, the records, the reckoning, the Scale, the retaliation, the Shade, the Hawd, the intercession and the Sirat — shared through the qiyama-browser tag."
+tibb:
+  title: "Medicine Browser: Prophetic Medicine, Medicine, Anatomy, Surgery, Drugs and Treatment in Islam"
+  lede: "Everything said and written about prophetic medicine, medicine, anatomy, surgery, drugs and the seeking of treatment in the museum's sources: the verses of healing, illness and the stages of human creation in the Qur'an; the reports of the Book of Medicine and the Book of the Sick in the two Sahihs, the Sunan and the Muwatta; the chapters on prophetic medicine in Zad al-Ma'ad; the reports of the Companions and the Successors on treatment, the care of the wounded and visiting the sick; passages of Ibn Sina's Canon, al-Razi's al-Hawi and Ibn al-Nafis's Commentary on the Anatomy of the Canon; and the records of physicians, hospitals, medical books, drugs and rulings — sourced records that grow as new texts land."
+  badge: "Medicine in Islam explorer"
+  status: "This build holds {n} records in {s} sections; the texts are drafts until a human reads them."
+  method_title: "The browser's method"
+  method_note: "Every record here is an ordinary museum record, with its sources and its three-language prose. Medical texts are found at build time by a guarded lexicon over the passage texts, in the six topics of the title: prophetic medicine (cupping, cautery, ruqya, honey, black seed, costus, senna, talbina, truffles, 'ajwa dates, ithmid, ladud and sa'ut); medicine (the physician, illness and the sick, pain, fever, plague and epidemic, contagion, leprosy, named diseases, visiting the sick, the hospital); anatomy (the drop, the clot and the lump of flesh; the jugular vein, the aorta and the vessels; the joints; the organs); surgery (treating a wound, cauterising a vessel, venesection, circumcision, splints, bone-setting); drugs (the drug and the disease, poison and antidote, simples); and treatment (seeking treatment and cure, healing, treatment with what is forbidden). The ambiguous words are guarded: «في قلوبهم مرض» is left out; «الحمى» counts only as fever, never the protected pasture; «القسط» only in its drug compounds, never justice; «عسل» and «عجوة» only beside a medical word; «سم الخياط» is left out; the wound words count only with treatment, never with the legal compensation of wounds; and outside the Qur'an and the hadith reports a bare «مرض» or «شفاء» alone is not enough. Every book harvested later brings its medical texts here automatically when its passages land in the graph; curated records join through the tibb-browser tag with the tag of their topic. The museum describes what the sources say and attributes it; it gives no medical advice and no ruling."
+  api: "The whole set is available at"
+  sections_title: "The browser's sections"
+  filter_label: "Filter medicine records"
+  filter_none: "No matches."
+  empty: "No medicine records in this build yet."
+  topics:
+    nabawi: "Prophetic medicine"
+    tibb: "Medicine"
+    tashrih: "Anatomy"
+    jiraha: "Surgery"
+    dawa: "Drugs"
+    tadawi: "Treatment"
+  sections:
+    quran:
+      title: "In the Qur'an"
+      desc: "The verses of healing, illness and creation: the healing in honey, Ibrahim's words on being healed when ill, the concessions for the sick in fasting, purification, pilgrimage and fighting, the healing of the blind and the leper, the stages of human creation from the drop to the clot, the lump, bones and flesh, and the jugular vein, the aorta, the ribs and the fingertips."
+    sunnah:
+      title: "In the Sunnah"
+      desc: "The reports of the Book of Medicine and the Book of the Sick in the two Sahihs, the Sunan and the Muwatta: a remedy for every disease; cupping, honey and cautery; black seed, costus, talbina, truffles and 'ajwa dates; ruqya; fever, plague, contagion and the leper; visiting the sick; the treatment of the wounded; and the prohibition of treatment with what is forbidden."
+    seerah:
+      title: "In the seerah"
+      desc: "What the seerah and dala'il books carry: the chapters on prophetic medicine in Ibn al-Qayyim's Zad al-Ma'ad, the reports of the Prophet's illness, the opening of the chest, the poisoned sheep at Khaybar, and the care of the wounded on the expeditions — this section fills itself as new seerah texts land."
+    books:
+      title: "In the other books"
+      desc: "The reports of the Companions and the Successors on treatment, illness and visiting the sick in the Hilya, al-Isaba, Usd al-Ghaba, al-Isti'ab and Sifat al-Safwa; passages of the medical classics — Ibn Sina's Canon, al-Razi's al-Hawi, Ibn al-Nafis's Commentary on the Anatomy of the Canon; and what the books of history, fiqh, adab and tafsir carry — classified by the work's genre the day its passages land."
+    curated:
+      title: "The museum's records on medicine"
+      desc: "The museum's curated records on medicine itself: prophetic medicine and its remedies; the physicians, men and women, from al-Harith ibn Kalada and Rufayda al-Aslamiyya to al-Razi, Ibn Sina, al-Zahrawi and Ibn al-Nafis; the hospitals; the medical books; anatomy, surgery and drugs; the plagues; and the rulings and fatwas on treatment."
+  viz:
+    title: "The apothecary's cabinet"
+    caption: "A row for each topic of the title, a drawer for each kind of source; the number is the count of records, and every drawer links to its section."
+    untopiced: "{n} curated records carry no single topic; they are in the list below."
 usra:
   title: "Family and Marriages Browser"
   lede: "The famous marriages in Islam and the Muslim family in the museum's sources: the marriages of the Prophet and the Companions, the spouses and children of Muslim homes, their dwellings and rooms, their livelihood and maintenance, the details of their daily life — sleep, clothing, food and service — and their social customs — asking permission, neighbours, guests, gifts and companionship in good faith — in the Qur'an, the two Sahihs, the Muwatta and the Sunan, the seerah books, the reports of the Companions and the Successors, and every harvested book — sourced records that grow as new texts land."

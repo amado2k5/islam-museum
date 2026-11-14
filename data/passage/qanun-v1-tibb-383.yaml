@@ -1,0 +1,17 @@
+id: passage/qanun-v1-tibb-383
+class: passage
+unit: chapter
+work: work/al-qanun-fi-al-tibb
+ref: "383"
+label: { ar: "القانون في الطب لابن سينا ج1، ص 383 — الوجع، الحمى والوعك", en: "Ibn Sina's Canon of Medicine, vol. 1, p. 383 — pain; fever", ur: "القانون فی الطب، ابن سینا ج1، ص 383 — درد، بخار" }
+text: "… : يذهب اليرقان. أعضاء النفض : يدرّ البول ويخرج الحصاة، وخصوصاً الفرفيري الزهر منه والبابونج تكمّد به المثانة للأوجاع الباردة والحارة، ويدرّ الطمت شرباً وجلوساً في مائه، ويخرج الجنين والمشيمة، وينفع من إيلاوس. يتمرخ بدهنه في الحميّات الدائرة : الحميّات …"
+summary:
+  ar: "مقطع من القانون في الطب لابن سينا ج1، ص 383، يذكر الوجع، والحمى والوعك، وأسماء الأمراض، وأطوار خلق الجنين، وأعضاء البدن؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from Ibn Sina's Canon of Medicine, vol. 1, p. 383, that mentions pain, fever, named diseases, the stages of the embryo, the organs of the body; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "القانون فی الطب، ابن سینا ج1، ص 383 کا اقتباس جس میں درد، بخار، بیماریوں کے نام، جنین کے مراحل، اعضائے بدن کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/canon-ibn-sina-print-v1] }
+  - { type: mentions, target: concept/ilm-al-tashrih, sources: [source/canon-ibn-sina-print-v1] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan medicine-science/canon-ibn-sina-print-v1/canon-ibn-sina-print-v1, page 383; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/canon-ibn-sina-print-v1]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

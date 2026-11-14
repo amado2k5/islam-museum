@@ -1,0 +1,17 @@
+id: passage/hawi-razi-tibb-913
+class: passage
+unit: chapter
+work: work/al-hawi-fi-al-tibb
+ref: "913"
+label: { ar: "الحاوي في الطب للرازي، ص 913 — المرض والمريض، الحمى والوعك", en: "al-Razi's al-Hawi fi al-Tibb, p. 913 — illness and the sick; fever", ur: "الحاوی فی الطب، رازی، ص 913 — بیماری اور بیمار، بخار" }
+text: "في الاستغرافات والإسهال والقيء والقصد والبول والعرق وغيرها ونحوها من العلل. قال: وأسهل السوداء اللذين تكثر همومهم وأحزانهم ويفكرون دائماً ويحبون الانفراد وتكثر بهم الأمراض السوداوية كعظم الطحال وحمى الربع والقوابي السوداوية والبرص الأسود في أيام الخريف. قال: وأسهل البلغم …"
+summary:
+  ar: "مقطع من الحاوي في الطب للرازي، ص 913، يذكر المرض والمريض، والحمى والوعك، والحمى، والجذام والبرص، وأسماء الأمراض، والبيمارستان وصناعة الطب، وأعضاء البدن؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from al-Razi's al-Hawi fi al-Tibb, p. 913, that mentions illness and the sick, fever, fever, leprosy and vitiligo, named diseases, the hospital and the medical craft, the organs of the body; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "الحاوی فی الطب، رازی، ص 913 کا اقتباس جس میں بیماری اور بیمار، بخار، بخار، جذام اور برص، بیماریوں کے نام، بیمارستان، اعضائے بدن کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/hawi-razi-dar-kutub-ilmiyya] }
+  - { type: mentions, target: concept/ilm-al-tashrih, sources: [source/hawi-razi-dar-kutub-ilmiyya] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan medicine-science/hawi-razi/hawi-razi, page 913; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/hawi-razi-dar-kutub-ilmiyya]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

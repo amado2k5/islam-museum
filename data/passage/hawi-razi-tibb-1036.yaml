@@ -1,0 +1,17 @@
+id: passage/hawi-razi-tibb-1036
+class: passage
+unit: chapter
+work: work/al-hawi-fi-al-tibb
+ref: "1036"
+label: { ar: "الحاوي في الطب للرازي، ص 1036 — المرض والمريض، الوجع", en: "al-Razi's al-Hawi fi al-Tibb, p. 1036 — illness and the sick; pain", ur: "الحاوی فی الطب، رازی، ص 1036 — بیماری اور بیمار، درد" }
+text: "… أسرع من أصحاب الأبدان الجيدة وصحتهم غير وثيقة، وأمراضهم إذا مرضوا قوية قاتلة ويعرض لهم الصرع والفالج ونتن العرق ووجع الفؤاد وضيق النفس والهيضة والغشي والحميات المحرقة، ولا يحسون بأمراضهم سريعاً لغلظ جثثهم، ولا تقبل العلاج قبولاً سهلاً لأن الأدوية …"
+summary:
+  ar: "مقطع من الحاوي في الطب للرازي، ص 1036، يذكر المرض والمريض، والوجع، والحمى والوعك، وأسماء الأمراض، والعلاج، والدواء؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from al-Razi's al-Hawi fi al-Tibb, p. 1036, that mentions illness and the sick, pain, fever, named diseases, treatment, the drug; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "الحاوی فی الطب، رازی، ص 1036 کا اقتباس جس میں بیماری اور بیمار، درد، بخار، بیماریوں کے نام، علاج، دوا کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/hawi-razi-dar-kutub-ilmiyya] }
+  - { type: mentions, target: concept/al-adwiya-al-mufrada, sources: [source/hawi-razi-dar-kutub-ilmiyya] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan medicine-science/hawi-razi/hawi-razi, page 1036; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/hawi-razi-dar-kutub-ilmiyya]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

@@ -1,0 +1,16 @@
+id: passage/sharh-tashrih-qanun-tibb-125
+class: passage
+unit: chapter
+work: work/sharh-tashrih-al-qanun
+ref: "125"
+label: { ar: "شرح تشريح القانون لابن النفيس، ص 125 — أعضاء البدن، العروق", en: "Ibn al-Nafis's Commentary on the Anatomy of the Canon, p. 125 — the organs of the body; the vessels", ur: "شرح تشریح القانون، ابن النفیس، ص 125 — اعضائے بدن، رگیں" }
+text: "… فيأتي عرق واحد منها إلى الطحال والعرق الآخر إلى الكبد، ثم يمتد على البطن من خارج إلى أن ينتهي إلى الفرج ثم بنقضي فعلى هذا يكون منشأ العروق الغلاظ. وفي البدن عروق كثيرة مختلفة في الجنس منشؤها من البطن تؤدي …"
+summary:
+  ar: "مقطع من شرح تشريح القانون لابن النفيس، ص 125، يذكر أعضاء البدن، والعروق؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from Ibn al-Nafis's Commentary on the Anatomy of the Canon, p. 125, that mentions the organs of the body, the vessels; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "شرح تشریح القانون، ابن النفیس، ص 125 کا اقتباس جس میں اعضائے بدن، رگیں کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/ilm-al-tashrih, sources: [source/sharh-tashrih-qanun-print] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan medicine-science/sharh-tashrih-qanun-ibn-nafis/sharh-tashrih-qanun-ibn-nafis, page 125; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/sharh-tashrih-qanun-print]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

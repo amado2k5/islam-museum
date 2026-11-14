@@ -1,0 +1,18 @@
+id: passage/sahaba-usd-ghaba-tibb-2-958
+class: passage
+unit: chapter
+work: work/usd-al-ghaba
+ref: "2:958"
+label: { ar: "أسد الغابة لابن الأثير، المجلد المصوَّر 2، ص 958 — الكي، المرض والمريض", en: "Ibn al-Athir's Usd al-Ghaba, scan volume 2, p. 958 — cautery; illness and the sick", ur: "اسد الغابہ، ابن الاثیر، اسکین جلد 2، ص 958 — داغنا، بیماری اور بیمار" }
+text: "… وكان في مرضه تسلم عليه الملائكة، فاكتوى ففقد أَعِددت لهذا اليوم؟ قال: شهادة أن لا إله إِلا الله، التسليم، ثمّ عادت إِليه، وكان به استسقاءً فطال به وأن محمداً رسول اللّه، وقال : سنين كثيرة، وهو صابر عليه، وشُقَّ بطنه، …"
+summary:
+  ar: "مقطع من أسد الغابة لابن الأثير، المجلد المصوَّر 2، ص 958، يذكر الكي، والمرض والمريض، وشق الصدر؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from Ibn al-Athir's Usd al-Ghaba, scan volume 2, p. 958, that mentions cautery, illness and the sick, the opening of the chest; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "اسد الغابہ، ابن الاثیر، اسکین جلد 2، ص 958 کا اقتباس جس میں داغنا، بیماری اور بیمار، شقِّ صدر کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/usd-al-ghaba] }
+  - { type: mentions, target: concept/medicine, sources: [source/usd-al-ghaba] }
+  - { type: mentions, target: concept/al-jiraha, sources: [source/usd-al-ghaba] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan sahaba/usd-ghaba/20210108_20210108_0418, page 958; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/usd-al-ghaba]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

@@ -1,0 +1,17 @@
+id: passage/sahaba-usd-ghaba-tibb-1-1518
+class: passage
+unit: chapter
+work: work/usd-al-ghaba
+ref: "1:1518"
+label: { ar: "أسد الغابة لابن الأثير، المجلد المصوَّر 1، ص 1518 — الرقية، المرض والمريض", en: "Ibn al-Athir's Usd al-Ghaba, scan volume 1, p. 1518 — ruqya recited over the sick; illness and the sick", ur: "اسد الغابہ، ابن الاثیر، اسکین جلد 1، ص 1518 — رقیہ، بیماری اور بیمار" }
+text: "… سار رسول اللّٰه ملاع إلى بدر كانت ابنته رُقَيَّة مريضة، فتخلف عليها عثمان بأمر رسول اللّٰه عله له بذلك، فتوفيت يوم وصول زيد بن حارثة مبشراً بظَفَرِ رسول اللّٰه لله بالمشركين، وكانت قد أصابتها الحَصْبة، فماتت بها. وقيل : ماتت …"
+summary:
+  ar: "مقطع من أسد الغابة لابن الأثير، المجلد المصوَّر 1، ص 1518، يذكر الرقية، والمرض والمريض، وأسماء الأمراض؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from Ibn al-Athir's Usd al-Ghaba, scan volume 1, p. 1518, that mentions ruqya recited over the sick, illness and the sick, named diseases; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "اسد الغابہ، ابن الاثیر، اسکین جلد 1، ص 1518 کا اقتباس جس میں رقیہ، بیماری اور بیمار، بیماریوں کے نام کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/usd-al-ghaba] }
+  - { type: mentions, target: concept/medicine, sources: [source/usd-al-ghaba] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan sahaba/usd-ghaba/20191216_20191216_1124, page 1518; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/usd-al-ghaba]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

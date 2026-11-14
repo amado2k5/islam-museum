@@ -53,7 +53,7 @@ const MASKS = new RegExp(
     "سم الخياط",
     "(?:ا?بن|ابي|ابو) (?:ال)?جراح", "الجراح بن",
     "(?:ابي|ابو|ابا) جبيرة", "ليلة الحصبة", "يوم الحصبة",
-    "الرقي (?=حدثنا|عن |قال |اخبرنا|انبانا|ثنا |ح )", "الختان بالختان", "ابي عبيدة بن الجراح",
+    "الرقي (?=حدثنا|عن |قال |اخبرنا|انبانا|ثنا |ح )", "الختان بالختان", "بختان", "ابي عبيدة بن الجراح",
     "الختان الختان", "مس الختان", "جاوز الختان", "الختانان", "الختانين",
     "حمي الله", "حول الحمي", "حمي النقيع", "حمي الربذة", "حمي ضرية", "لا حمي الا", "يرعي حول",
     "شفا حفرة", "شفا جرف",
@@ -179,13 +179,13 @@ export function tibbMatchesOfText(folded: string): { signal: string; topic: Tibb
 /** Signals that are common figures of speech or passing notices outside the Qur'an and the
  *  hadith reports (a chronicle's «ومرض فلان», a poet's «شفاء الغليل»): in the book corpora they
  *  count only beside another signal. */
-const WEAK_IN_BOOKS: ReadonlySet<string> = new Set(["marad", "waja", "suqm", "shakwa", "shifa", "shifa_verb", "daa", "bur", "ithmid", "iyada_weak", "sihha"]);
+export const TIBB_WEAK_IN_BOOKS: ReadonlySet<string> = new Set(["marad", "waja", "suqm", "shakwa", "shifa", "shifa_verb", "daa", "bur", "ithmid", "iyada_weak", "sihha"]);
 
 /** The matched signal names of a folded text. `book` applies the book-corpus rule: a passage
  *  whose only hits are weak-in-books signals is not a medical passage. */
 export function tibbSignalsOfText(folded: string, book = false): string[] {
   const signals = tibbMatchesOfText(folded).map((m) => m.signal);
-  if (book && signals.every((s) => WEAK_IN_BOOKS.has(s))) return [];
+  if (book && signals.every((s) => TIBB_WEAK_IN_BOOKS.has(s))) return [];
   return signals;
 }
 

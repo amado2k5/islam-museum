@@ -14,7 +14,8 @@
  */
 import { readFileSync, writeFileSync, existsSync, readdirSync } from "node:fs";
 import { join } from "node:path";
-import { tibbFold, tibbMatchesOfText, tibbSignalsOfText, tibbTopicsOfSignals, type TibbTopic } from "./tibb.js";
+import { tibbFold, tibbMatchesOfText, tibbSignalsOfText, tibbTopicsOfSignals } from "./tibb.js";
+import { TOPIC_ANCHOR } from "./harvest-tibb-anchors.js";
 
 const API_DIR = process.argv[2];
 const OUT_DIR = "data/passage";
@@ -333,16 +334,6 @@ const SAYS: Record<string, [string, string, string]> = {
     "treatment with what is forbidden",
     "حرام سے علاج"
   ]
-};
-
-/** The record each topic's passages point to with a `mentions` edge. */
-export const TOPIC_ANCHOR: Record<TibbTopic, string> = {
-  nabawi: "concept/al-tibb-al-nabawi",
-  tibb: "concept/medicine",
-  tashrih: "concept/ilm-al-tashrih",
-  jiraha: "concept/al-jiraha",
-  dawa: "concept/al-adwiya-al-mufrada",
-  tadawi: "concept/tadawi",
 };
 
 const HONORIFICS = /\s*(?:صلى\s+الله\s+عليه\s+وسلم|صلى\s+الله\s+عليه\s+وآله\s+وسلم|رضى\s+الله\s+عن(?:ه|ها|هما|هم)|رضي\s+الله\s+عن(?:ه|ها|هما|هم)|عليه\s+السلام|عليهما\s+السلام|عليهم\s+السلام|رحمه\s+الله)/g;

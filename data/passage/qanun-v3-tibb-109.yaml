@@ -1,0 +1,17 @@
+id: passage/qanun-v3-tibb-109
+class: passage
+unit: chapter
+work: work/al-qanun-fi-al-tibb
+ref: "109"
+label: { ar: "القانون في الطب لابن سينا ج3، ص 109 — الوجع، أسماء الأمراض", en: "Ibn Sina's Canon of Medicine, vol. 3, p. 109 — pain; named diseases", ur: "القانون فی الطب، ابن سینا ج3، ص 109 — درد، بیماریوں کے نام" }
+text: "… ومغص العضل وقد يعرض نافض يدلّ عليه، ويعرض وجع إعيائي وقد يتغير النبض عن حاله فيدل عليه. والعلامات الليلية أشدّ من النهارية وقد تحتبس بسبب البحران أشياء كان من شأنها أن تستفرغ من دم طمث، أو بواسير أو اختلاف فيدل …"
+summary:
+  ar: "مقطع من القانون في الطب لابن سينا ج3، ص 109، يذكر الوجع، وأسماء الأمراض، والبيمارستان وصناعة الطب، وأعضاء البدن؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from Ibn Sina's Canon of Medicine, vol. 3, p. 109, that mentions pain, named diseases, the hospital and the medical craft, the organs of the body; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "القانون فی الطب، ابن سینا ج3، ص 109 کا اقتباس جس میں درد، بیماریوں کے نام، بیمارستان، اعضائے بدن کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/canon-ibn-sina-print-v3] }
+  - { type: mentions, target: concept/ilm-al-tashrih, sources: [source/canon-ibn-sina-print-v3] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan medicine-science/canon-ibn-sina-print-v3/canon-ibn-sina-print-v3, page 109; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/canon-ibn-sina-print-v3]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

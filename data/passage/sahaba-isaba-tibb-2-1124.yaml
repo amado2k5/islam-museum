@@ -1,0 +1,18 @@
+id: passage/sahaba-isaba-tibb-2-1124
+class: passage
+unit: chapter
+work: work/al-isaba-fi-tamyiz-al-sahaba
+ref: "2:1124"
+label: { ar: "الإصابة لابن حجر، المجلد المصوَّر 2، ص 1124 — التداوي بالعسل، الوجع", en: "Ibn Hajar's al-Isaba, scan volume 2, p. 1124 — honey as a remedy; pain", ur: "الاصابہ، ابن حجر، اسکین جلد 2، ص 1124 — شہد سے علاج، درد" }
+text: "… ابن رجلاً فاتبعهم بنو عقيل فقاتلوهم، وفيهم رجل يقال له شاهين، وفيه أن ملاعب الأسنة بعث إلى النَّبي وَيِيفي يسأله ربيعة بن المنتفق يقول في رجز له : الدواء من وجع بطن ابن أخ له، فبعث إليه عكة عسل فسقاه …"
+summary:
+  ar: "مقطع من الإصابة لابن حجر، المجلد المصوَّر 2، ص 1124، يذكر التداوي بالعسل، والوجع، والدواء؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from Ibn Hajar's al-Isaba, scan volume 2, p. 1124, that mentions honey as a remedy, pain, the drug; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "الاصابہ، ابن حجر، اسکین جلد 2، ص 1124 کا اقتباس جس میں شہد سے علاج، درد، دوا کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/isaba] }
+  - { type: mentions, target: concept/medicine, sources: [source/isaba] }
+  - { type: mentions, target: concept/al-adwiya-al-mufrada, sources: [source/isaba] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan sahaba/isaba/20200217_20200217_0509, page 1124; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/isaba]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

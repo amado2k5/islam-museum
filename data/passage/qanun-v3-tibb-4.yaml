@@ -1,0 +1,17 @@
+id: passage/qanun-v3-tibb-4
+class: passage
+unit: chapter
+work: work/al-qanun-fi-al-tibb
+ref: "4"
+label: { ar: "القانون في الطب لابن سينا ج3، ص 4 — الطب والطبيب، المرض والمريض", en: "Ibn Sina's Canon of Medicine, vol. 3, p. 4 — medicine and the physician; illness and the sick", ur: "القانون فی الطب، ابن سینا ج3، ص 4 — طب اور طبیب، بیماری اور بیمار" }
+text: "… الحمد الله وسلام على عباده المؤمنين، وإذ قد وفّينا بما وعدنا من تصنيف كتبنا في الطب التي الأوّل منها في الأصول الكليّة والثاني منها المجموع في الأدوية المفردة والثالث منها في الأمراض الجزئية وحان لنا أن نذكر في هذا الكتاب …"
+summary:
+  ar: "مقطع من القانون في الطب لابن سينا ج3، ص 4، يذكر الطب والطبيب، والمرض والمريض، والدواء، والعقاقير والصيدلة؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from Ibn Sina's Canon of Medicine, vol. 3, p. 4, that mentions medicine and the physician, illness and the sick, the drug, drugs and pharmacy; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "القانون فی الطب، ابن سینا ج3، ص 4 کا اقتباس جس میں طب اور طبیب، بیماری اور بیمار، دوا، ادویہ اور دواسازی کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/canon-ibn-sina-print-v3] }
+  - { type: mentions, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v3] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan medicine-science/canon-ibn-sina-print-v3/canon-ibn-sina-print-v3, page 4; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/canon-ibn-sina-print-v3]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

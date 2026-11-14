@@ -1,0 +1,16 @@
+id: passage/zad-maad-tibb-1-602
+class: passage
+unit: chapter
+work: work/zad-al-maad
+ref: "1:602"
+label: { ar: "زاد المعاد لابن القيم، المجلد المصوَّر 1، ص 602 — الطب والطبيب، المرض والمريض", en: "Ibn al-Qayyim's Zad al-Ma'ad, scan volume 1, p. 602 — medicine and the physician; illness and the sick", ur: "زاد المعاد، ابن القیم، اسکین جلد 1، ص 602 — طب اور طبیب، بیماری اور بیمار" }
+text: "قالت: قال أنسُ بن مالك: قال رسول اللَّه : آثار الطاعون، وليست نفسَه، ولكن الأطباء لما الطَّاعُونُ شَهَادَةٌ لِكُلِّ مُسْلِم البخاري:، ومسلم: لم تُدرك منه إلَّا الأثر الظاهر، جعلوه نفسَ الطاعون. وباء، وليس كل وباء طاعوناً، وكذلك الأمراض جربنا نحنُ …"
+summary:
+  ar: "مقطع من زاد المعاد لابن القيم، المجلد المصوَّر 1، ص 602، يذكر الطب والطبيب، والمرض والمريض، والطاعون والوباء؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from Ibn al-Qayyim's Zad al-Ma'ad, scan volume 1, p. 602, that mentions medicine and the physician, illness and the sick, plague and epidemic; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "زاد المعاد، ابن القیم، اسکین جلد 1، ص 602 کا اقتباس جس میں طب اور طبیب، بیماری اور بیمار، طاعون اور وبا کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/zad-al-maad] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan seerah/zad-maad/20200822_20200822_1205, page 602; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/zad-al-maad]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

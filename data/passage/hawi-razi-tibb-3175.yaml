@@ -1,0 +1,19 @@
+id: passage/hawi-razi-tibb-3175
+class: passage
+unit: chapter
+work: work/al-hawi-fi-al-tibb
+ref: "3175"
+label: { ar: "الحاوي في الطب للرازي، ص 3175 — الوجع، أسماء الأمراض", en: "al-Razi's al-Hawi fi al-Tibb, p. 3175 — pain; named diseases", ur: "الحاوی فی الطب، رازی، ص 3175 — درد، بیماریوں کے نام" }
+text: "… الأخلاط المرارية والأخلاط المالحة، لأن الطعم العفص متى خلط بالمر فشأنه أن يفعل هذه الأفعال. ولذلك صار هذا الدواء نافعاً لأصحاب اليرقان ولمن به وجع الكلى والطحال، وهو مع هذا مبرد؛ ولذلك متى خلط بالضماد مع دقيق الشعير نفع من …"
+summary:
+  ar: "مقطع من الحاوي في الطب للرازي، ص 3175، يذكر الوجع، وأسماء الأمراض، والبيمارستان وصناعة الطب، وأعضاء البدن، والجراحة والختان والجبائر، والدواء؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from al-Razi's al-Hawi fi al-Tibb, p. 3175, that mentions pain, named diseases, the hospital and the medical craft, the organs of the body, surgery, circumcision and splints, the drug; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "الحاوی فی الطب، رازی، ص 3175 کا اقتباس جس میں درد، بیماریوں کے نام، بیمارستان، اعضائے بدن، جراحت، ختنہ اور پٹیاں، دوا کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/hawi-razi-dar-kutub-ilmiyya] }
+  - { type: mentions, target: concept/ilm-al-tashrih, sources: [source/hawi-razi-dar-kutub-ilmiyya] }
+  - { type: mentions, target: concept/al-jiraha, sources: [source/hawi-razi-dar-kutub-ilmiyya] }
+  - { type: mentions, target: concept/al-adwiya-al-mufrada, sources: [source/hawi-razi-dar-kutub-ilmiyya] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan medicine-science/hawi-razi/hawi-razi, page 3175; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/hawi-razi-dar-kutub-ilmiyya]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

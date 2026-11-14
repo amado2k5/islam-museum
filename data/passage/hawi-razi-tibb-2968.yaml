@@ -1,0 +1,18 @@
+id: passage/hawi-razi-tibb-2968
+class: passage
+unit: chapter
+work: work/al-hawi-fi-al-tibb
+ref: "2968"
+label: { ar: "الحاوي في الطب للرازي، ص 2968 — الجذام والبرص، أسماء الأمراض", en: "al-Razi's al-Hawi fi al-Tibb, p. 2968 — leprosy and vitiligo; named diseases", ur: "الحاوی فی الطب، رازی، ص 2968 — جذام اور برص، بیماریوں کے نام" }
+text: "… أكثر جلاء حتى أنه يجلو الجرب وتقرح الجلد، ويجلو أكثر من جلائه لهذين الكلف والبهق والسعفة والنمش والبرش والبثور المتقرحة وجميع الأدواء المتولدة عن الأخلاط الغليظة ؛ ويقلع آثار القروح. ويجب إذا استعمل في علاج الطحال أن يخلط مع بعض …"
+summary:
+  ar: "مقطع من الحاوي في الطب للرازي، ص 2968، يذكر الجذام والبرص، وأسماء الأمراض، والبيمارستان وصناعة الطب، والعلاج، وأعضاء البدن، والداء؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from al-Razi's al-Hawi fi al-Tibb, p. 2968, that mentions leprosy and vitiligo, named diseases, the hospital and the medical craft, treatment, the organs of the body, the disease and its remedy; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "الحاوی فی الطب، رازی، ص 2968 کا اقتباس جس میں جذام اور برص، بیماریوں کے نام، بیمارستان، علاج، اعضائے بدن، بیماری کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/hawi-razi-dar-kutub-ilmiyya] }
+  - { type: mentions, target: concept/ilm-al-tashrih, sources: [source/hawi-razi-dar-kutub-ilmiyya] }
+  - { type: mentions, target: concept/al-adwiya-al-mufrada, sources: [source/hawi-razi-dar-kutub-ilmiyya] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan medicine-science/hawi-razi/hawi-razi, page 2968; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/hawi-razi-dar-kutub-ilmiyya]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

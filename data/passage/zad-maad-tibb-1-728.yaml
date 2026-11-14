@@ -1,0 +1,18 @@
+id: passage/zad-maad-tibb-1-728
+class: passage
+unit: chapter
+work: work/zad-al-maad
+ref: "1:728"
+label: { ar: "زاد المعاد لابن القيم، المجلد المصوَّر 1، ص 728 — أسماء الأمراض، أعضاء البدن", en: "Ibn al-Qayyim's Zad al-Ma'ad, scan volume 1, p. 728 — named diseases; the organs of the body", ur: "زاد المعاد، ابن القیم، اسکین جلد 1، ص 728 — بیماریوں کے نام، اعضائے بدن" }
+text: "… قلب المؤمن من الخير، والجود، والإيمان، والنور، والهدى، والتقوى، والصفات التي يستحق بها هذا الاسم أكثرُ من استحقاق الحَبَلَة له. وعرمُوشها مبرد في آخر الدرجة الأولى، وإذا دُقّت وضُمِّدَ بها من الصداع سكنته، ومن الأورام الحارة والتهاب المعدة. وعصارةُ قضبانه …"
+summary:
+  ar: "مقطع من زاد المعاد لابن القيم، المجلد المصوَّر 1، ص 728، يذكر أسماء الأمراض، وأعضاء البدن، والجراحة والختان والجبائر؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from Ibn al-Qayyim's Zad al-Ma'ad, scan volume 1, p. 728, that mentions named diseases, the organs of the body, surgery, circumcision and splints; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "زاد المعاد، ابن القیم، اسکین جلد 1، ص 728 کا اقتباس جس میں بیماریوں کے نام، اعضائے بدن، جراحت، ختنہ اور پٹیاں کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/zad-al-maad] }
+  - { type: mentions, target: concept/ilm-al-tashrih, sources: [source/zad-al-maad] }
+  - { type: mentions, target: concept/al-jiraha, sources: [source/zad-al-maad] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan seerah/zad-maad/20200822_20200822_1205, page 728; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/zad-al-maad]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

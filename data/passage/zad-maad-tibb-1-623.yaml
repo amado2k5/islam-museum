@@ -1,0 +1,18 @@
+id: passage/zad-maad-tibb-1-623
+class: passage
+unit: chapter
+work: work/zad-al-maad
+ref: "1:623"
+label: { ar: "زاد المعاد لابن القيم، المجلد المصوَّر 1، ص 623 — الحجامة، القسط والعود الهندي", en: "Ibn al-Qayyim's Zad al-Ma'ad, scan volume 1, p. 623 — cupping; costus (Indian aloeswood)", ur: "زاد المعاد، ابن القیم، اسکین جلد 1، ص 623 — حجامہ، قسط ہندی" }
+text: "… واغتذائها به فوق تأثير الغِذاء الجسماني، واللَّه الموفق. فصل في هديه وَلِفِ في علاج العُذرة، وفي العلاج بالسّعوط ثبت عنه في الصحيحين أنه قال: خَيْرُ ما تَدَاوَيْتُم به الحِجَامَةُ، والقُسْطُ البَحْرِي، ولا تُعَذّبوا صِبْيَانَكُمْ بالغَمْزِ مِن العُذْرَة البخاري:، ومسلم: وفي …"
+summary:
+  ar: "مقطع من زاد المعاد لابن القيم، المجلد المصوَّر 1، ص 623، يذكر الحجامة، والقسط والعود الهندي، والقسط، واللدود والسعوط، وعلاج العذرة، والتداوي؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from Ibn al-Qayyim's Zad al-Ma'ad, scan volume 1, p. 623, that mentions cupping, costus (Indian aloeswood), costus, medicine given by the mouth-side or the nose, treating the throat ailment (al-udhra), seeking treatment; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "زاد المعاد، ابن القیم، اسکین جلد 1، ص 623 کا اقتباس جس میں حجامہ، قسط ہندی، قسط، لدود اور سعوط، گلے کی بیماری (عذرہ) کا علاج، علاج کرانا کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/zad-al-maad] }
+  - { type: mentions, target: concept/medicine, sources: [source/zad-al-maad] }
+  - { type: mentions, target: concept/tadawi, sources: [source/zad-al-maad] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan seerah/zad-maad/20200822_20200822_1205, page 623; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/zad-al-maad]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

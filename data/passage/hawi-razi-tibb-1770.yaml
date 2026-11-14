@@ -1,0 +1,19 @@
+id: passage/hawi-razi-tibb-1770
+class: passage
+unit: chapter
+work: work/al-hawi-fi-al-tibb
+ref: "1770"
+label: { ar: "الحاوي في الطب للرازي، ص 1770 — الوجع، أسماء الأمراض", en: "al-Razi's al-Hawi fi al-Tibb, p. 1770 — pain; named diseases", ur: "الحاوی فی الطب، رازی، ص 1770 — درد، بیماریوں کے نام" }
+text: "… من أصطماخيقون وحقن غير مرة بالقنطوريون أشرت عليه بالإدمان على الأدوية المدرة للبول الملطفة وكان رطب المزاج بارده فبرأ لما استعملها مدة. من كتاب الفصد، قال: من كان به نقرس أو وجع في المفاصل ينبغي أن يستفرغوا في أول الربيع …"
+summary:
+  ar: "مقطع من الحاوي في الطب للرازي، ص 1770، يذكر الوجع، وأسماء الأمراض، والبرء من العلة، وأعضاء البدن، والجراحة والختان والجبائر، والدواء؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from al-Razi's al-Hawi fi al-Tibb, p. 1770, that mentions pain, named diseases, recovery from an ailment, the organs of the body, surgery, circumcision and splints, the drug; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "الحاوی فی الطب، رازی، ص 1770 کا اقتباس جس میں درد، بیماریوں کے نام، بیماری سے شفایابی، اعضائے بدن، جراحت، ختنہ اور پٹیاں، دوا کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/hawi-razi-dar-kutub-ilmiyya] }
+  - { type: mentions, target: concept/ilm-al-tashrih, sources: [source/hawi-razi-dar-kutub-ilmiyya] }
+  - { type: mentions, target: concept/al-jiraha, sources: [source/hawi-razi-dar-kutub-ilmiyya] }
+  - { type: mentions, target: concept/al-adwiya-al-mufrada, sources: [source/hawi-razi-dar-kutub-ilmiyya] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan medicine-science/hawi-razi/hawi-razi, page 1770; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/hawi-razi-dar-kutub-ilmiyya]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

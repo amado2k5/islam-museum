@@ -1,0 +1,17 @@
+id: passage/sharh-tashrih-qanun-tibb-117
+class: passage
+unit: chapter
+work: work/sharh-tashrih-al-qanun
+ref: "117"
+label: { ar: "شرح تشريح القانون لابن النفيس، ص 117 — البيمارستان وصناعة الطب، أعضاء البدن", en: "Ibn al-Nafis's Commentary on the Anatomy of the Canon, p. 117 — the hospital and the medical craft; the organs of the body", ur: "شرح تشریح القانون، ابن النفیس، ص 117 — بیمارستان، اعضائے بدن" }
+text: "… أغشية... إلى آخر الفصل. الشرح إن القلب تخرج منه أربعة عروق. وأما الشريان الوريدي منها فعلى مخرجه غشاءان. وأما الثلاثة الآخر فعلى مخرج كل واحد منها ثلاثة أغشية ونحن قد تكلمنا في هذه الأغشية في كلامنا في النبض كلاماً مختصراً …"
+summary:
+  ar: "مقطع من شرح تشريح القانون لابن النفيس، ص 117، يذكر البيمارستان وصناعة الطب، وأعضاء البدن، والعروق؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from Ibn al-Nafis's Commentary on the Anatomy of the Canon, p. 117, that mentions the hospital and the medical craft, the organs of the body, the vessels; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "شرح تشریح القانون، ابن النفیس، ص 117 کا اقتباس جس میں بیمارستان، اعضائے بدن، رگیں کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/sharh-tashrih-qanun-print] }
+  - { type: mentions, target: concept/ilm-al-tashrih, sources: [source/sharh-tashrih-qanun-print] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan medicine-science/sharh-tashrih-qanun-ibn-nafis/sharh-tashrih-qanun-ibn-nafis, page 117; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/sharh-tashrih-qanun-print]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

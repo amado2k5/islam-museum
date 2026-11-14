@@ -1,0 +1,17 @@
+id: passage/qanun-v1-tibb-340
+class: passage
+unit: chapter
+work: work/al-qanun-fi-al-tibb
+ref: "340"
+label: { ar: "القانون في الطب لابن سينا ج1، ص 340 — الحمى والوعك، الحمى", en: "Ibn Sina's Canon of Medicine, vol. 1, p. 340 — fever; fever", ur: "القانون فی الطب، ابن سینا ج1، ص 340 — بخار، بخار" }
+text: "… من النائبة، من الوبائية، من الدقّ، من حميّات يومية، من الحمّى العتيقة، من شطر الغبّ، من النافض. واللوح الثاني عشر في السموم : ترياق بادزهر يقتل الهوام، يطرد الهوام، سمّ، دواء قاتل، من البيش، من قرون السنبل، من مرارة الأفعى، …"
+summary:
+  ar: "مقطع من القانون في الطب لابن سينا ج1، ص 340، يذكر الحمى والوعك، والحمى، والدواء، والسم والترياق، والسم؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر."
+  en: "An excerpt from Ibn Sina's Canon of Medicine, vol. 1, p. 340, that mentions fever, fever, the drug, poison and antidote, poison; from the machine-read scan, quoted within forty words per the sources policy."
+  ur: "القانون فی الطب، ابن سینا ج1، ص 340 کا اقتباس جس میں بخار، بخار، دوا، زہر اور تریاق، زہر کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/canon-ibn-sina-print-v1] }
+  - { type: mentions, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan medicine-science/canon-ibn-sina-print-v1/canon-ibn-sina-print-v1, page 340; a window of at most 40 words chosen by the medicine detector (scripts/tibb.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-ocr-1" }
+sources: [source/canon-ibn-sina-print-v1]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }
