@@ -53,11 +53,32 @@ Only four books carry an explicit statement that they are complete:
 
 Others with very high record counts (the Muwatta, al-Bukhari, Futuh al-Buldan, the Kuwaiti fiqh encyclopedia, al-Raheeq al-Makhtum) are deep but not stated to be finished. Sahih Muslim has 434 passages and Sahih al-Bukhari 318: slices, not the whole.
 
+## D. Pages read: the drive measured (14 November 2026, 01:00)
+
+A read-only script on the founder's Mac opened every `pages.json` under `islam-museum-harvest/books` (the OCR output of each scan) and counted pages per book. It changed nothing on the drive. The page numbers a record cites (its `provenance.source` note, such as "ص 138", and each passage's `ref`) were then matched against those counts.
+
+- **537 books are OCR'd on the drive**: about 487,000 pages counting the largest scan of each book, about 998,000 counting every edition.
+- **285 of the 299 canon books are on the drive**. The ledger lists only 227 as harvested, so the ledger lags the drive by about 58 books (`python3 scripts/harvest/library/authenticity_ledger.py` would bring it up to date).
+
+Pages touched, per canon book on the drive (285 books, about 385,000 OCR'd pages, about 30,500 touched, roughly 8%):
+
+| Share of the book's pages touched | Books |
+|---|---|
+| No graph record found | 30 |
+| Under 1% | 68 |
+| 1–10% | 130 |
+| 10–50% | 47 |
+| 50% or more | 10 |
+
+The ten at 50% or more, by share (OCR pages in brackets): al-Nawawi's Forty Hadith (70), Jami' al-Ulum wal-Hikam (956), the Muwatta (884) and al-Suyuti's Tarikh al-Khulafa (864) at or near 100%; al-Raheeq al-Makhtum 76% (472); Muruj al-Dhahab 74% (804); a scan of the Kuwaiti fiqh encyclopedia 73% (468); Shadharat al-Dhahab 58% (912); Futuh al-Buldan 54% (784); al-Khwarizmi's algebra 52% (130).
+
+These are **lower bounds, and rough**. Many records carry no page number, and printed page numbers differ from scan pages, which is why the Muwatta and the Forty Hadith come out at or above 100% (shares are capped at 100% here). The 252 non-canon books on the drive are left out of the table: they could only be matched by name, so their "no record found" figure is unreliable. The raw per-book table was not committed; it stays on the Mac at `~/devin-harvest/page-counts-2026-11-14.tsv`.
+
 ## Method and limits
 
 1. Every record under `data/` was read; a record "cites" a book when the book's work or source id appears in its `sources`, in a relation's `sources`, or as a passage's `work`.
 2. Canon books were tied to the graph through their progress file, the id map in `scripts/harvest/library/idmap.py` and the slug; the "best effort" column adds an Arabic title plus author match.
 3. A "light" count can be a single mention. A "deep" count can be one subject mined thoroughly (Futuh al-Buldan's 1,483 records are mostly people, places and events), so depth is not page coverage.
-4. Nothing in the repo records a book's total page count against pages read, so no true percentage can be given. A real measure needs each mining lane to record pages read against pages total.
-5. The ledger covers 259 of the 299 canon books; 40 have no ledger record and are counted as not harvested.
-6. Harvest folders live on the founder's Mac, outside git, so "harvested" here is the ledger's claim, not a check of the files.
+4. Sections A–C use graph citations only. Section D adds page counts from the drive; it is the closest the repo has to a coverage percentage, but the pages-touched side depends on records citing page numbers. A firm measure needs each mining lane to record pages read against pages total.
+5. The ledger covers 259 of the 299 canon books and lists 227 with files; section D shows the drive holds 285, so the "harvested" figures in section A are an undercount.
+6. Section A's "harvested" is the ledger's claim; section D checked the files on the drive.
