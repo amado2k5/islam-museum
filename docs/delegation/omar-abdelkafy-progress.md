@@ -4948,3 +4948,22 @@ GEMINI: ep46, the narrator and collection of the Prophet's saying on Sa'd's jeal
 GEMINI: ep46, the narrator and collection of the report of the man asked whether he would be given gifts had he sat in his parents' house (00:18:30), Sahih al-Bukhari and Sahih Muslim
 GEMINI: ep46, the identity of the scholar who rebuked a ruler of Egypt and called him a little mouse before his Lord (00:12:30-00:14:00), a biographical dictionary such as Siyar a'lam al-nubala
 GEMINI: ep46, the narrator and wording of the Prophet's saying about God and Umar's heart and tongue (01:01:30; the verb is garbled in both passes), Sahih al-Bukhari and Sahih Muslim, Jami al-Tirmidhi
+
+### alwaad-alhaq ep39 (14 Nov 2026)
+
+25 points written for episode 39 (ar, en, ur); 27 needs_source marks for this episode in each language file; new about links to humility, night prayer, false testimony, the names al-Mutakabbir, al-Rahman and al-Rahim, al-Khidr and Dawud. Quran verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
+
+| Excluded (alwaad-alhaq ep39) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greeting, travel plans and the lecturer's trip abroad | ep39 00:02:00-00:03:00 | Not lesson content; private | Content rule | Open |
+| Story of a sword and a strange word, and the lecturer's remarks on obscure vocabulary | ep39 00:37:30-00:40:00 | Transcript loops and is garbled, names unclear | Loop check and clarity | Open |
+| Verses of poetry quoted (a friend's poem to a colleague raised to office) | ep39 00:23:30-00:24:00 | Not reproduced | Sources policy | Open |
+| Hadith and saying wording | ep39 throughout (e.g. 00:04:30, 00:31:30, 00:33:00, 00:48:30, 01:05:30) | Wording not typed; by sense only | Hadith rule | Open |
+| Repetition loops and garbled windows | ep39 00:04:00, 00:26:30-00:27:00, 00:38:30, 00:46:00, 00:52:00, 00:57:00, 01:02:00, 01:04:30 | Whisper loop artefacts with no recoverable content | Loop check | Open |
+| Closing prayer wording and sign-off | ep39 01:11:30-01:13:00 | Not lesson content; prayer wording not reproduced | Content rule | Open |
+
+Resume point: alwaad-alhaq episode 40 (branch from origin/main).
+GEMINI: ep39, the identity, narrator and place of the story of the man of the Prophet's family who left food at the doors of the poor for forty years (the transcript gives a garbled form like Aziz al-Abidin and says Kufa; 00:42:30-00:45:00), a biographical dictionary such as Siyar a'lam al-nubala under Ali ibn al-Husayn Zayn al-Abidin
+GEMINI: ep39, who is meant by the one with knowledge of the Book who offered to bring the throne (the sheikh says many commentators take him to be Sulayman himself; 00:16:00-00:17:00), a tafsir such as al-Tabari or Ibn Kathir on al-Naml verse 40
+GEMINI: ep39, the source and narrator of the report that the servant is nearest his Lord in prostration, and of the report on the angels and the stars for the house of one who prays at night (00:46:30-00:48:30), Sahih Muslim and Sunan Abi Dawud
+GEMINI: ep39, the count of worship verses in the Qur'an (the sheikh says about one hundred and ten, about three percent) and who computed it (00:54:30-00:55:00), a study of the structure of Qur'anic verses
