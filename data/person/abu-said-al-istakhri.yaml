@@ -3,27 +3,29 @@ class: person
 label:
   ar: "أبو سعيد الإصطخري"
   en: "Abu Sa'id al-Istakhri"
-roles: [scholar]
+roles: [scholar, jurist, qadi]
 gender: male
 summary:
-  ar: "بطاقة أولية لأبي سعيد الإصطخري، القرن العاشر، توفي سنة ٩٤٠م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abu Sa'id al-Istakhri, tenth century, d. 940; the biographical entry is not yet checked on the page."
+  ar: "أبو سعيد الحسن بن أحمد بن يزيد بن عيسى بن الفضل الإصطخري، فقيه شافعي وشيخ الشافعية بالعراق مع ابن سريج، ولي قضاء قم وسجستان وحسبة بغداد، وله «آداب القضاء»، ولد سنة 244 هـ وتوفي ببغداد سنة 328 هـ."
+  en: "Abu Sa'id al-Hasan ibn Ahmad ibn Yazid ibn Isa ibn al-Fadl al-Istakhri, a Shafi'i jurist and, with Ibn Surayj, shaykh of the Shafi'is in Iraq; qadi of Qumm and Sijistan and muhtasib of Baghdad, author of Adab al-Qada'; born 244 AH, died in Baghdad in 328 AH (940)."
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/abbasid-fragmentation]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wafayat-ayan, source/shadharat-dhahab]
 external_ids:
   wikidata: Q12178021
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0065
+  source: "Ibn Khallikan, Wafayat al-A'yan; Ibn al-Imad, Shadharat al-Dhahab: entries read in full from the local texts"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-dictionaries-2026-11-14
 status:
   review: draft
-  completeness: 1
-born: { edtf: "858", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Subki (Tabaqat al-Shafi'iyya)" }
-died: { edtf: "940", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Subki (Tabaqat al-Shafi'iyya)" }
+  completeness: 3
+born: { edtf: "858", hijri: "0244", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Subki (Tabaqat al-Shafi'iyya). Ibn Khallikan gives his birth as 244 AH {cite:wafayat-ayan vol. 2 p. 75}.", sources: [source/wafayat-ayan] }
+died: { edtf: "940", hijri: "0328", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Subki (Tabaqat al-Shafi'iyya). Ibn Khallikan and Ibn al-Imad give his death in 328 AH {cite:wafayat-ayan vol. 2 p. 75} {cite:shadharat-dhahab vol. 4 p. 146-147}.", sources: [source/wafayat-ayan, source/shadharat-dhahab] }
 relations:
-  - { type: lived_in, target: place/iran, note: "Only the record-level region (persia-central-asia) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }
+  - { type: lived_in, target: place/iran, sources: [source/al-aalam], confidence: low, note: "Only the record-level region (persia-central-asia) is attested; broad-region edge flagged for review." }
+  - { type: died_in, target: place/baghdad, sources: [source/shadharat-dhahab], confidence: high, note: "Ibn al-Imad, Shadharat al-Dhahab, vol. 4 pp. 146-147: he died in Baghdad in 328 AH" }
+  - { type: traveled_to, target: place/sijistan, sources: [source/wafayat-ayan], confidence: high, note: "Ibn Khallikan, Wafayat al-A'yan, vol. 2 p. 75: al-Muqtadir appointed him qadi of Sijistan and he went there" }

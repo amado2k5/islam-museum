@@ -3,26 +3,28 @@ class: person
 label:
   ar: "القايد بن حماد"
   en: "al-Qa'id ibn Hammad"
+names:
+  - { kind: full, lang: ar, value: "القائد بن حماد" }
 roles: [ruler]
 gender: male
 summary:
-  ar: "بطاقة أولية للقايد بن حماد، سلطان الحماديين الذي أسس قلعة بني حماد سنة ١٠٠٧م، توفي سنة ١٠٥٤م؛ تذكره معاجم الدول الإسلامية ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for al-Qa'id ibn Hammad, the Hammadid sultan who founded Qal'a Bani Hammad in 1007, d. 1054; the dynastic handbook entry is not yet checked on the page."
+  ar: "القائد بن حماد، توفي في رجب سنة 446 هـ وأوصى إلى ولده محسن، فخالفه محسن وأراد عزل عمومته، ثم قتله بلكين بن محمد وملك القلعة سنة 447 هـ، كما يرويه ابن الأثير."
+  en: "al-Qa'id ibn Hammad, who died in Rajab 446 AH and left his will to his son Muhsin; Muhsin went against it and tried to remove his uncles, and was killed by Balkin ibn Muhammad, who took the fortress in 447 AH, as Ibn al-Athir tells it."
 wings: [people]
 regions: [maghreb]
 periods: [period/buyid-seljuk-fatimid-era]
-sources: [source/bosworth-new-islamic-dynasties-1996]
+sources: [source/bosworth-new-islamic-dynasties-1996, source/kamil-ibn-al-athir]
 external_ids:
   wikidata: Q2829266
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: Bosworth, The New Islamic Dynasties (1996) — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0032
+  source: "Ibn al-Athir, al-Kamil fi al-Tarikh (Dar al-Kutub al-Ilmiyya, ed. al-Qadi), entry read in full from the local text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-kamil-2026-11-14
 status:
   review: draft
-  completeness: 1
-died: { edtf: "1054", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kitab al-Ibar" }
+  completeness: 3
+died: { edtf: "1054", hijri: "0446", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kitab al-Ibar. Ibn al-Athir records his death in Rajab of 446 AH {cite:kamil-ibn-al-athir vol. 8 p. 317}, agreeing with the card (446 AH began in April 1054).", sources: [source/kamil-ibn-al-athir] }
 relations:
   - { type: lived_in, target: place/maghreb, note: "Only the record-level region (maghreb) is attested; broad-region edge flagged for review.", sources: [source/bosworth-new-islamic-dynasties-1996], confidence: low }

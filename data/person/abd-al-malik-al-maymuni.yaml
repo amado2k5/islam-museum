@@ -3,30 +3,31 @@ class: person
 label:
   ar: "عبد الملك الميموني"
   en: "Abd al-Malik al-Maymuni"
-roles: [scholar]
+roles: [scholar, jurist]
 gender: male
 summary:
-  ar: "بطاقة أولية لعبد الملك الميموني، فقيه ومحدث القرن التاسع، توفي سنة ٨٨٧م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abd al-Malik al-Maymuni, the ninth-century jurist and muhaddith, d. 887; the biographical entry is not yet checked on the page."
+  ar: "عبد الملك بن عبد الحميد بن ميمون بن مهران، أبو الحسن الميموني الجزري الرقي، فقيه من أصحاب الإمام أحمد بن حنبل لازمه من سنة 205 إلى 227 هـ وروى عنه مسائل كثيرة، توفي في ربيع الأول سنة 274 هـ."
+  en: "Abd al-Malik ibn Abd al-Hamid ibn Maymun ibn Mihran, Abu al-Hasan al-Maymuni al-Jazari al-Raqqi, a jurist and companion of Ahmad ibn Hanbal who kept his company from 205 to 227 AH and transmitted very many questions from him; died in Rabi' al-Awwal 274 AH (887 CE)."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-fragmentation]
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/shadharat-dhahab]
 external_ids:
   wikidata: Q18633980
   viaf: "297391640"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0053
+  source: "Ibn al-Imad, Shadharat al-Dhahab (OpenITI Shamela0012398), vol. 3 pp. 310-311, entry read in full from the local text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-shadharat-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 born: { edtf: "797", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi: 181–274 AH)" }
-died: { edtf: "887", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi: 181–274 AH)" }
+died: { edtf: "887", hijri: "0274", calendar: gregorian, precision: year, derived: true, note: "Ibn al-Imad lists him under 274 AH, in Rabi' al-Awwal {cite:shadharat-dhahab vol. 3 p. 310}; the Gregorian year is the museum's conversion and agrees with the card (Tahdhib al-Kamal, 181–274 AH).", sources: [source/shadharat-dhahab] }
 relations:
-  - { type: born_in, target: place/raqqa, note: "Wikidata Q283368 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: born_in, target: place/raqqa, note: "Wikidata Q283368 (P19); the nisba al-Raqqi in Ibn al-Imad, vol. 3 p. 310, supports the association.", sources: [source/wikidata, source/shadharat-dhahab], confidence: medium }
   - { type: died_in, target: place/raqqa, note: "Wikidata Q283368 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: lived_in, target: place/abbasid-caliphate, note: "Wikidata Q12536 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: student_of, target: person/ahmad-ibn-hanbal, note: "Ibn al-Imad, vol. 3 pp. 310-311: sahib al-Imam Ahmad; kept his company from 205 to 227 AH.", sources: [source/shadharat-dhahab], confidence: high }

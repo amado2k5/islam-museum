@@ -3,34 +3,41 @@ class: person
 label:
   ar: "القاضي الجرجاني"
   en: "al-Qadi al-Jurjani"
-roles: [scholar, qadi]
+names:
+  - { kind: full, lang: ar, value: "القاضي أبو الحسن علي بن عبد العزيز الجرجاني" }
+roles: [scholar, qadi, jurist, poet]
 gender: male
 summary:
-  ar: "بطاقة أولية للقاضي علي بن عبد العزيز الجرجاني، القرن العاشر، توفي سنة ١٠٠١م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for al-Qadi Ali ibn Abd al-Aziz al-Jurjani, tenth century, d. 1001; the biographical entry is not yet checked on the page."
+  ar: "القاضي أبو الحسن علي بن عبد العزيز الجرجاني، فقيه شافعي أديب شاعر، صاحب «الوساطة بين المتنبي وخصومه»، وتجعله إحدى روايتي ابن خلكان قاضي القضاة بالري ووفاته سنة 392 هـ، وتجعلها الأخرى سنة 366 هـ بنيسابور."
+  en: "al-Qadi Abu al-Hasan Ali ibn Abd al-Aziz al-Jurjani, a Shafi'i jurist, man of letters and poet, author of al-Wasata bayna al-Mutanabbi wa-khusumih; one of Ibn Khallikan's two reports has him chief judge at Rayy, d. 392 AH, the other d. 366 AH in Nishapur."
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/abbasid-fragmentation]
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/wafayat-ayan]
 external_ids:
   wikidata: Q6538289
   viaf: "92413319"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0056
+  source: "Ibn Khallikan, Wafayat al-A'yan (Dar Sadir, ed. Ihsan Abbas), entry read in full from the local text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-wafayat-ayan-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 occupations:
   - job: job/qadi
     kind: secondary
     status: historical
-    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
-    sources: [source/al-aalam]
-born: { edtf: "934", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khallikan (Wafayat)" }
-died: { edtf: "1002", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khallikan (Wafayat) Confirmed on 13 November 2026 against Wikidata Q6538289 (P570, a statement with a reference), item revision 2560157526.", sources: [source/wikidata] }
+    note: "bootstrap from roles, 1 Nov 2026 merge map; Ibn Khallikan, Wafayat al-A'yan, vol. 3 p. 281, one report calls him chief judge at Rayy"
+    sources: [source/al-aalam, source/wafayat-ayan]
+born: { edtf: "934", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khallikan (Wafayat). The entry itself gives no birth year; its al-Hakim report (died 366 AH aged 76) would imply about 290 AH, which does not agree with the card." }
+died: { edtf: "1002", hijri: "0392", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khallikan (Wafayat) Confirmed on 13 November 2026 against Wikidata Q6538289 (P570, a statement with a reference), item revision 2560157526. Ibn Khallikan prints two years: 366 AH at Nishapur from al-Hakim and 392 AH at Rayy from another report, and prefers al-Hakim {cite:wafayat-ayan vol. 3 p. 281}; the card keeps 392 AH, which falls in 1001-1002 CE.", sources: [source/wikidata, source/wafayat-ayan] }
 relations:
-  - { type: lived_in, target: place/jurjan, note: "Place association from the person's nisba/name (الجرجاني); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
+  - { type: lived_in, target: place/jurjan, note: "Place association from the person's nisba/name; Ibn Khallikan, vol. 3 p. 281: his coffin was carried to Jurjan.", sources: [source/al-aalam, source/wafayat-ayan], confidence: low }
+  - { type: buried_in, target: place/jurjan, note: "Ibn Khallikan, Wafayat al-A'yan, vol. 3 p. 281: one report says his coffin was carried to Jurjan and he was buried there.", sources: [source/wafayat-ayan], confidence: medium }
+  - { type: died_in, target: place/rayy, note: "Ibn Khallikan, vol. 3 p. 281: the second report says he died at Rayy as chief judge; al-Hakim's report, which Ibn Khallikan prefers, says Nishapur.", sources: [source/wafayat-ayan], confidence: medium }
+  - { type: lived_in, target: place/nishapur, note: "Ibn Khallikan, vol. 3 p. 281: his brother brought him to Nishapur in 337 AH.", sources: [source/wafayat-ayan], confidence: medium }
+  - { type: traveled_to, target: place/iraq, note: "Ibn Khallikan quoting al-Tha'alibi, vol. 3 p. 279: he roamed Iraq in his youth.", sources: [source/wafayat-ayan], confidence: medium }
+  - { type: traveled_to, target: place/al-sham, note: "Ibn Khallikan quoting al-Tha'alibi, vol. 3 p. 279: he roamed al-Sham in his youth.", sources: [source/wafayat-ayan], confidence: medium }
