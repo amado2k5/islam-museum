@@ -6,23 +6,23 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لعبد الله بن عون الخراز، محدث القرن التاسع، توفي سنة ٨٤٧م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abdallah ibn Awn al-Kharraz, the ninth-century muhaddith, d. 847; the biographical entry is not yet checked on the page."
+  ar: "عبد الله بن عون ابن أمير مصر الهلالي البغدادي، أبو محمد الأدمي الخراز، روى عنه مسلم ووثقه ابن معين والدارقطني؛ توفي سنة 232 هـ كما يذكر الصفدي في الوافي."
+  en: "Abdallah ibn Awn al-Kharraz al-Baghdadi, Abu Muhammad, a hadith narrator from whom Muslim narrated and whom Ibn Ma'in and al-Daraqutni held reliable; died 232 AH according to al-Safadi's al-Wafi."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-fragmentation]
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/wafi-bi-l-wafayat-safadi-dar-ihya-2000]
 external_ids:
   wikidata: Q106685611
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0052
+  source: "Entry read on the page: al-Safadi, al-Wafi bi-l-Wafayat"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-wafi-m03-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 2
 died: { edtf: "846", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Khatib al-Baghdadi (Tarikh Baghdad) Confirmed on 13 November 2026 against Wikidata Q106685611 (P570, a statement with a reference), item revision 2426228598.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/baghdad, note: "Wikidata Q1530 (P551); corroboration recommended.", sources: [source/wikidata], confidence: medium }
