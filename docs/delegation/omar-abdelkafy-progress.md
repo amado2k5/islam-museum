@@ -3627,3 +3627,24 @@ Resume point: sharh-saheeh-al-bukhare episode 9 (branch from origin/main).
 | Stretch on work papers, a loop of a political name and a closing | ep09 01:15:30-01:18:30 | Loop and garbled speech; a stretch dropped under the content-safety block where it touches modern conflict | Content rule, Clarity, Loop check | Open |
 
 Resume point: sharh-saheeh-al-bukhare episode 10 (branch from origin/main).
+
+### sharh-saheeh-al-bukhare ep10 (14 Nov 2026)
+
+19 points written for episode 10 (ar, en, ur); 13 needs_source marks in each language file for this episode; 4 new `about` edges. Quran verses referenced only through passage links (3-173, 3-144); none typed. Contested: He holds that a shared deed or shared heart is not accepted, that istikhara has no link to dreams, and that fear of infection is weaker than certainty; these are his views. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep10) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening loop, greetings, opening supplication | ep10 00:00:00-00:02:00 | Repeated-phrase loop and opening prayer | Clarity, Loop check | Open |
+| Break joins, closing prayer, announcements and credits | ep10 01:10:30-01:14:00 | Closing words, donation and publisher announcements | Content rule | Open |
+| A stretch touching a modern conflict and a political figure | ep10 00:28:00-00:28:30 | A stretch dropped under the content-safety block | Content rule | Open |
+| Garbled stretch on the world's problems and a leader | ep10 00:33:30-00:34:30 | Garbled, claim about the Prophet and world problems not recoverable | Clarity | Open |
+| Remarks on children, parents and wives, and divorce vows | ep10 00:26:00-00:29:30, 01:05:30-01:06:00 | Garbled; sweeping advice about family not recoverable | Voice rule, Clarity | Open |
+| Hasan al-Basri sayings and the duas on wealth and children | ep10 00:29:30-00:30:30 | Garbled, speaker and words unclear | Clarity | Open |
+| Two kinds of heart disease, hypocrites' signs and promises | ep10 00:39:30-00:42:00 | Garbled, items not recoverable | Clarity | Open |
+| Advice on a visit to graves and the Kaaba, and on choosing a path | ep10 00:42:30-00:43:30 | Garbled | Clarity | Open |
+| Stories of the ant and a ruler, and of Yaqub's shirt | ep10 00:53:00-00:53:30, 00:56:00-00:56:30 | Garbled, report unclear | Clarity | Open |
+| Questions on cure, wealth and signs of God's care | ep10 00:58:30-01:01:00, 01:02:00-01:04:30 | Garbled, loops and unclear reports | Clarity, Loop check | Open |
+| Remarks on household habits and a saying on teaching groups | ep10 01:05:00-01:06:30, 01:08:00-01:09:00 | Garbled | Clarity | Open |
+| Loop stretches of repeated syllables | ep10 00:09:00-00:09:30, 00:15:30-00:16:00, 00:16:30-00:17:00, 00:18:00-00:18:30, 00:21:30-00:22:00, 00:25:30-00:26:00, 00:32:30-00:33:00, 00:41:00-00:41:30, 00:42:00-00:42:30, 00:43:30-00:44:00, 00:46:30-00:47:30, 00:49:00-00:49:30, 00:54:30-00:55:00, 00:56:30-00:57:30, 01:04:00-01:04:30, 01:06:30-01:07:00, 01:07:30-01:08:00, 01:09:30-01:10:00, 01:11:30-01:12:30 | Repeated-token loops | Loop check | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 11 (branch from origin/main).
