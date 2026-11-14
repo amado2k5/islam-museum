@@ -6,25 +6,27 @@ label:
 roles: [scholar, writer]
 gender: male
 summary:
-  ar: "بطاقة أولية لأمين الإسلام الفضل بن الحسن الطبرسي، مفسر خراسان في القرن الثاني عشر صاحب «مجمع البيان في تفسير القرآن»، توفي سنة ١١٥٣م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Amin al-Islam al-Fadl ibn al-Hasan al-Tabarsi, the twelfth-century Khurasani exegete author of Majma' al-Bayan, d. 1153; the biographical entry is not yet checked on the page."
+  ar: "الفضل بن الحسن الطبرسي، أمين الدين، أبو علي، من علماء الإمامية، مفسر لغوي نسبته إلى طبرستان، صاحب «مجمع البيان»، توفي في سبزوار سنة 548 هـ الموافقة 1153 م."
+  en: "Al-Fadl ibn al-Hasan al-Tabarsi, Amin al-Din, Abu Ali, an Imami scholar, exegete and linguist with a nisba to Tabaristan; author of Majma' al-Bayan; died in Sabzevar in 548 AH (1153 CE)."
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/buyid-seljuk-fatimid-era]
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q1990225
   viaf: "97601210"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0019
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 born: { edtf: "1073", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Amal al-Amil" }
 died: { edtf: "1153", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Amal al-Amil Confirmed on 13 November 2026 against Wikidata Q1990225 (P570, a statement with a reference), item revision 2557348556.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/khurasan, note: "Place association from the person's nisba/name (khurasani); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
+  - { type: died_in, target: place/sabzevar, confidence: medium, note: "Al-Zirikli, al-A'lam vol. 5 p. 145: died in Sabzevar.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+  - { type: buried_in, target: place/mashhad, confidence: low, note: "Al-Zirikli, al-A'lam vol. 5 p. 145: carried to the shrine city of Mashhad of al-Ridha (the entry does not use the word burial).", sources: [source/alam-zirikli-dar-al-ilm-2002] }

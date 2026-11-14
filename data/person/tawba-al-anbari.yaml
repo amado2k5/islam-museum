@@ -6,24 +6,25 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لتوبة العنبري؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Tawba al-'Anbari; the entry is not yet checked on the page."
+  ar: "توبة بن أبي الأسد كيسان العنبري البصري، أبو المورع، أحد الولاة ومن رجال الحديث، أصله من سجستان ومولده ومنشؤه باليمامة ثم تحول إلى البصرة، وهو مولى أيوب بن أزهر، ولاه يوسف بن عمر سابور ثم الأهواز، ومات في الطاعون؛ ٥٧ إلى ١٣١هـ الموافقة ٦٧٧ إلى ٧٤٨م."
+  en: "Tawba ibn Abi al-Asad Kaysan al-Anbari al-Basri, Abu al-Muwarri', a governor and a man of hadith, of Sijistani origin, born and raised in al-Yamama before moving to Basra; a client of Ayyub ibn Azhar, appointed by Yusuf ibn Umar over Sabur and then al-Ahwaz, he died in the plague. 57 to 131 AH, 677 to 748 CE."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
 died: { edtf: "748", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Tahdhib (Ibn Hajar)" }
+born: { edtf: "677", calendar: gregorian, precision: year, derived: true, note: "57 AH = 677 CE as printed in the entry; source: al-Zirikli, al-A'lam, 15th ed. 2002, vol. 2 p. 88", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
   - { type: born_in, target: place/al-yamama, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q2551267)" }
   - { type: lived_in, target: place/basra, sources: [source/wikidata], confidence: low, note: "Wikidata P551 residence (Wikidata Q48195)" }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q12203390
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3

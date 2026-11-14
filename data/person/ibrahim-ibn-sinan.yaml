@@ -3,12 +3,10 @@ class: person
 label:
   en: Ibrahim ibn Sinan
   ar: إبراهيم بن سنان بن ثابت
-roles:
-- mathematician
-- astronomer
+roles: [mathematician, astronomer, physician]
 summary:
-  en: Mathematician and astronomer of the Harranian Sinan ibn Thabit family, active in Baghdad in the fourth century AH.
-  ar: عالم رياضيات وفلك من أسرة سنان بن ثابت الحرانية، عاش في بغداد في القرن الرابع الهجري.
+  ar: "إبراهيم بن سنان بن ثابت بن قرة، أبو إسحاق الحراني ثم البغدادي، مهندس طبيب من الصابئة، ولد وتوفي ببغداد، 296 إلى 335 هـ الموافقة 908 إلى 946 م، وله «رسالة في الأسطرلاب»."
+  en: "Ibrahim ibn Sinan ibn Thabit ibn Qurra, Abu Ishaq al-Harrani then al-Baghdadi, an engineer-geometer and physician of the Sabians, born and died in Baghdad, 296 to 335 AH (908 to 946 CE); author of a treatise on the astrolabe."
 wings: [people]
 born: { edtf: "908", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 / Encyclopaedia of Islam" }
 died: { edtf: "946", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 / Encyclopaedia of Islam" }
@@ -21,7 +19,14 @@ external_ids:
 sources:
 - source/sezgin-gas-v-mathematik
 - source/biblissima
+- source/alam-zirikli-dar-al-ilm-2002
 status:
   review: draft
-  completeness: 1
+  completeness: 3
   generated_by: Claude Haiku 5.5 (Wikidata insertion, slice S9)
+provenance:
+  layer: own-research
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
