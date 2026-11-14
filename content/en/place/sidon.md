@@ -9,3 +9,6 @@ Sidon, today Saida in Lebanon, is described by Pleiades as an ancient maritime c
 
 ## In the Pleiades gazetteer
 Pleiades, the open gazetteer of ancient places, lists this place under the title «Sidon/Col. Aurelia Pia» (Pleiades no. 678393), classed as a settlement, an archaeological site, a modern settlement and a findspot, with a time span from 2000 BCE to 2100 CE. Among the names it records are «صيدا» in Arabic, «Sidōn» in Greek and «Colonia Aurelia Pia Sidon» in Latin. It describes the place as an ancient maritime city and a Phoenician metropolis. {cite:pleiades 678393}
+
+## In Nomisma
+The Nomisma numismatic vocabulary links this entry to the concept «sidon», and its linked collections record 522 coins or coin types that name it as issuer, authority or mint. {cite:nomisma sidon}

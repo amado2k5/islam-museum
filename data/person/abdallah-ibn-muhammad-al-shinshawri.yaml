@@ -6,25 +6,25 @@ label:
 roles: [khatib, scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لعبد الله بن محمد الشنشوري، خطيب وعالم القرن السادس عشر، توفي سنة ١٥٩١م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abdallah ibn Muhammad al-Shinshawri, the sixteenth-century khatib and scholar, d. 1591; the source entry is not yet checked on the page."
+  ar: "عبد الله بن محمد بن عبد الله بن علي العجمي الشنشوري، فرضي من فقهاء الشافعية وخطيب الجامع الأزهر، نسبته إلى شنشور من قرى المنوفية، توفي سنة 999 هـ، من كتبه «فتح القريب المجيب» و«الفوائد الشنشورية»."
+  en: "Abdallah ibn Muhammad ibn Abdallah ibn Ali al-Ajami al-Shinshawri, a specialist in the law of inheritance and one of the Shafi'i jurists, khatib of the mosque of al-Azhar, named for Shinshur, a village of al-Minufiyya; he died in 999 AH. His books include 'Fath al-Qarib al-Mujib' and 'al-Fawa'id al-Shinshuriyya'."
 wings: [people]
-regions: [levant-iraq]
+regions: [egypt-nile]
 periods: [period/gunpowder-empires]
-sources: [source/shadharat-dhahab, source/wikidata]
+sources: [source/shadharat-dhahab, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q16119068
   viaf: "90055619"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: Ibn al-Imad, Shadharat al-Dhahab — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0068
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
-born: { edtf: "1528", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Muhibbi (Khulasat al-Athar) Confirmed on 13 November 2026 against Wikidata Q16119068 (P569, a statement with a reference), item revision 2559050318.", sources: [source/wikidata] }
-died: { edtf: "1590", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Muhibbi (Khulasat al-Athar) Confirmed on 13 November 2026 against Wikidata Q16119068 (P570, a statement with a reference), item revision 2559050318.", sources: [source/wikidata] }
+  completeness: 3
+born: { edtf: "1528", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 4 p. 115: 935 AH = 1528 CE.", sources: [source/wikidata] }
+died: { edtf: "1590", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 4 p. 115: 999 AH = 1591 CE; 999 AH begins in late 1590, so the card's 1590 is kept.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/misr, note: "Sixteenth-century khatib; the Shinshawr nisba ties him to the Egyptian Delta town of Shinshur.", sources: [source/shadharat-dhahab], confidence: medium }

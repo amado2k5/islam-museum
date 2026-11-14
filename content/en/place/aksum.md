@@ -54,3 +54,9 @@ Aksum was the capital of the Christian kingdom of Abyssinia in the Ethiopian hig
 
 ## For Scholars
 Aksum was the capital of the Christian Aksumite kingdom in the Ethiopian highlands, one of the great trading kingdoms of the ancient world, sitting by the Red Sea on routes linking Arabia, Rome and lands beyond. Around 615 CE some of the first Muslims sought refuge there in the first and second migrations to Abyssinia, fleeing Quraysh persecution; the sira books relate that the Negus sheltered them and refused to hand them over to the Quraysh delegation, and in a famous account wept when Ja'far ibn Abi Talib recited to him lines from Sura Maryam. The emigrants' return from Aksum in two ships to the Prophet at Khaybar in year 7 AH closes the story. Sources also record that the grave known as the Negus's tomb later became a visited shrine. For the museum, Aksum is the link between Arabia and Africa and an early example of the young Muslim community's relationship with a neighbouring Christian kingdom.
+
+## In the Pleiades gazetteer
+Pleiades, the open gazetteer of ancient places, lists this place under the title «A(u)xoume» (Pleiades no. 39303), classed as cultural landscape and settlement, with activity attested from 30 BCE to 2100 CE. Recorded names include «Aksum», «Auxoume» and «Axoume». It describes the place as present-day Aksum in Ethiopia, the centre of the Aksumite kingdom, a maritime trading power, and notes its listing as a UNESCO World Heritage Site in 1980. {cite:pleiades 39303}
+
+## In the iDAI.gazetteer
+The iDAI.gazetteer lists this place under no. 2375832 with the preferred name «Axum», classed as populated place; its parent in the hierarchy is «Äthiopien», classed as administrative unit. Recorded names include «Aksum», «Axum» and «أكسوم». {cite:idai-gazetteer 2375832}
