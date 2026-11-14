@@ -6,23 +6,24 @@ label:
 roles: [scholar, qadi]
 gender: male
 summary:
-  ar: "بطاقة أولية لعبد الوهاب بن سليمان بن علي، قاضي العيينة في القرن الثامن عشر، توفي سنة ١٧٤٠م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abd al-Wahhab ibn Sulayman ibn Ali, the eighteenth-century qadi of al-Uyayna, d. 1740; the biographical entry is not yet checked on the page."
+  ar: "عبد الوهاب بن سليمان بن علي بن مشرف التميمي النجدي، فقيه حنبلي من أهل العيينة وولي قضاءها ثم انتقل إلى حريملا، ووالد محمد ابن عبد الوهاب؛ توفي سنة 1153 هـ الموافقة 1740 م."
+  en: "Abd al-Wahhab ibn Sulayman ibn Ali ibn Mushrif al-Tamimi al-Najdi, a Hanbali jurist of al-Uyayna who held its judgeship and moved to Huraymila; father of Muhammad ibn Abd al-Wahhab; died 1153 AH (1740)."
+died: { edtf: "1740", hijri: "1153", calendar: gregorian, precision: year, status: historical, derived: false, note: "al-Zirikli, al-A'lam vol. 4 p. 182: 000 - 1153 AH = 000 - 1740 CE (year of birth printed as zero, unknown).", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 wings: [people]
 regions: [arabia]
 periods: [period/gunpowder-empires]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q28715584
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0054
+  source: "Entry read on the page: al-Zirikli, al-A'lam"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-m03-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 2
 occupations:
   - job: job/qadi
     kind: secondary
@@ -31,3 +32,4 @@ occupations:
     sources: [source/al-aalam]
 relations:
   - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }
+  - { type: lived_in, target: place/uyayna, note: "al-Zirikli, al-A'lam vol. 4 p. 182: of the people of al-Uyayna, held its judgeship, then moved to Huraymila", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }

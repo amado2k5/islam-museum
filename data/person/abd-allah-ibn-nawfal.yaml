@@ -3,27 +3,27 @@ class: person
 label:
   ar: "عبد الله بن نوفل"
   en: "Abd Allah ibn Nawfal"
-roles: [muhaddith]
+roles: [muhaddith, qadi]
 gender: male
 summary:
-  ar: "بطاقة أولية لعبد الله بن نوفل، راوي الحديث في القرن الأول الهجري؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abd Allah ibn Nawfal, the hadith narrator of the first Hijri century; his entry is not yet checked on the page."
+  ar: "عبد الله بن نوفل بن الحارث بن عبد المطلب بن هاشم، صحابي من القضاة، ولد في حياة النبي واستقضاه مروان ابن الحكم بالمدينة سنة 42 هـ؛ توفي سنة 84 هـ الموافقة 703 م."
+  en: "Abd Allah ibn Nawfal ibn al-Harith ibn Abd al-Muttalib ibn Hashim, a Companion and judge, born in the Prophet's lifetime and appointed judge of Medina by Marwan ibn al-Hakam in 42 AH; died 84 AH (703)."
 wings: [people]
 regions: [arabia]
 periods: [period/umayyad]
-died: { edtf: "0703", precision: year, status: tradition, derived: true }
-sources: [source/al-aalam]
+died: { edtf: "0703", hijri: "0084", calendar: gregorian, precision: year, status: historical, derived: false, note: "al-Zirikli, al-A'lam vol. 4 p. 142: 000 - 84 AH = 000 - 703 CE.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q106840204
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "Entry read on the page: al-Zirikli, al-A'lam"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-m03-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 2
 occupations:
   - job: job/muhaddith
     kind: primary

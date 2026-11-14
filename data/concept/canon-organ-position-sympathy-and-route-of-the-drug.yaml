@@ -1,0 +1,18 @@
+id: concept/canon-organ-position-sympathy-and-route-of-the-drug
+class: concept
+kind: scientific
+label: { ar: "وضع العضو ومشاركته وجهة وصول الدواء عند ابن سينا", en: "The position of the organ, its sympathies and the route of the drug in the Canon", ur: "عضو کی جگہ، اس کی مشارکت اور دوا کے پہنچنے کی راہ قانون میں" }
+summary:
+  ar: "يذكر ابن سينا أن وضع العضو يفيد من وجهين: علم المشاركة الذي يخص اختيار جهة جذب الدواء، وعلم الموضع الذي يفيد من ثلاثة وجوه: قربه وبعده، وما يخلط بالدواء ليسرع وصوله، وجهة اتصال الدواء به {cite:canon-ibn-sina-print-v1 p.269}."
+  en: "Ibn Sina says that the position of an organ helps in two ways: knowledge of its sympathies guides the choice of the direction in which the drug draws, and knowledge of its place helps in three respects, its nearness or distance, what is mixed with the drug to speed it there, and the route by which the drug reaches it {cite:canon-ibn-sina-print-v1 p.269}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/medicine, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 4, chapters 1 to 3 on the general discourse on treatment, the treatment of bad temperament and evacuation (scan pages 267 to 276), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-p267
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

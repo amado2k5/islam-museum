@@ -3,29 +3,29 @@ class: person
 label:
   ar: "عبد الغني الجميل"
   en: "Abdul Ghani al-Jamil"
-roles: [scholar]
+roles: [scholar, mufti]
 gender: male
 summary:
-  ar: "بطاقة أولية لعبد الغني الجميل؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abdul Ghani al-Jamil; the entry is not yet checked on the page."
+  ar: "عبد الغني بن جميل، فاضل له شعر ومن أعيان بغداد، ولي إفتاء الحنفية وهو رأس أسرة آل الجميل؛ 1194 - 1279 هـ الموافق 1780 - 1863 م."
+  en: "Abd al-Ghani ibn Jamil, a learned poet and notable of Baghdad, mufti of the Hanafis there and head of the Al Jamil family; 1194 to 1279 AH (1780 to 1863)."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/modern-era]
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q12223122
   viaf: "9701704"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "Entry read on the page: al-Zirikli, al-A'lam"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-m03-2026-11-14
 status:
   review: draft
-  completeness: 1
-born: { edtf: "1780", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam) Confirmed on 13 November 2026 against Wikidata Q12223122 (P569, a statement with a reference), item revision 2526787599.", sources: [source/wikidata] }
-died: { edtf: "1863", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam) Confirmed on 13 November 2026 against Wikidata Q12223122 (P570, a statement with a reference), item revision 2526787599.", sources: [source/wikidata] }
+  completeness: 2
+born: { edtf: "1780", hijri: "1194", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam) Confirmed on 13 November 2026 against Wikidata Q12223122 (P569, a statement with a reference), item revision 2526787599.", sources: [source/wikidata] }
+died: { edtf: "1863", hijri: "1279", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam) Confirmed on 13 November 2026 against Wikidata Q12223122 (P570, a statement with a reference), item revision 2526787599.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/baghdad, note: "Wikidata Q1530 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: lived_in, target: place/ottoman-empire, note: "Wikidata Q12560 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }

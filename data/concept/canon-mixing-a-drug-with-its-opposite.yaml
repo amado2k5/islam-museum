@@ -1,0 +1,18 @@
+id: concept/canon-mixing-a-drug-with-its-opposite
+class: concept
+kind: scientific
+label: { ar: "خلط الدواء بما يضاده عند ابن سينا", en: "Mixing a drug with its opposite in the Canon", ur: "دوا میں اس کی ضد ملانا قانون میں" }
+summary:
+  ar: "يبين ابن سينا أنه كثيراً ما يحتاج في تبديل مزاج ما إلى استعمال ما يقوي ذلك المزاج مخلوطاً بما يضاده، كالخل مع الأدوية المسخنة لعضو، والزعفران في الأدوية المبردة للقلب، والشمع مع دهن البلسان ليحبسه على العضو {cite:canon-ibn-sina-print-v1 pp.272-273}."
+  en: "Ibn Sina shows that in changing a temperament one often has to use what strengthens that temperament mixed with its opposite: vinegar with the warming drugs for an organ, saffron in the cooling drugs for the heart, and wax with balsam oil to hold it on the organ {cite:canon-ibn-sina-print-v1 pp.272-273}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/medicine, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 4, chapters 1 to 3 on the general discourse on treatment, the treatment of bad temperament and evacuation (scan pages 267 to 276), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-p267
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }
