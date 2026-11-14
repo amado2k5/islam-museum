@@ -6,8 +6,8 @@ label:
 roles: [writer]
 gender: male
 summary:
-  ar: "بطاقة أولية لنوح بن مصطفى؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Nuh ibn Mustafa, the Ottoman writer (theologian, d. 1660); the biographical entry is not yet checked on the page."
+  ar: "نوح بن مصطفى الرومي الحنفي نزيل مصر، فقيه متصوف، ولد وتعلم في أماسية وكان مفتي قونية ثم سكن القاهرة وتوفي بها سنة ١٠٧٠هـ الموافقة ١٦٦٠م، وله رسائل ومجاميع في الفقه والتصوف والتوحيد والمناقب."
+  en: "Nuh ibn Mustafa al-Rumi al-Hanafi, resident of Egypt, a jurist and Sufi born and schooled in Amasya, mufti of Konya, who settled in Cairo and died there in 1070 AH, 1660 CE; al-Zirikli lists his treatises and collections on jurisprudence, Sufism, tawhid and virtues."
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
@@ -15,15 +15,15 @@ died: { edtf: "1660", calendar: gregorian, precision: year, derived: true, note:
 relations:
   - { type: born_in, target: place/amasya, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q170532)" }
   - { type: died_in, target: place/cairo, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q85)" }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q136121740
 provenance:
   layer: own-research
-  source: "Wikidata candidate; Ottoman tezkere/biographical record — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0095
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
