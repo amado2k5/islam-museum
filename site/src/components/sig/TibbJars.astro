@@ -72,7 +72,7 @@ const jarCount = tibbShelves.reduce((a, s) => a + s.jars.length, 0);
   .tibb-jars .lid.sealed { background: var(--gold); }
   .tibb-jars .body { position: relative; inline-size: 52px; block-size: 64px; margin-block-start: 2px; border: 2px solid var(--hue); border-radius: 10px 10px 14px 14px / 14px 14px 12px 12px;
     background: var(--card); overflow: hidden; display: flex; align-items: center; justify-content: center; }
-  .tibb-jars .fill { position: absolute; inset-inline: 0; inset-block-end: 0; background: color-mix(in srgb, var(--hue) 38%, transparent); border-block-start: 2px solid color-mix(in srgb, var(--hue) 70%, transparent); }
+  .tibb-jars .fill { position: absolute; inset-inline: 0; inset-block-end: 0; background: color-mix(in srgb, var(--hue) 58%, transparent); border-block-start: 2px solid var(--hue); }
   .tibb-jars .n { position: relative; font: 600 .82rem/1 var(--ui-font, inherit); font-variant-numeric: tabular-nums; background: var(--card); border-radius: 6px; padding: 2px 5px; }
   .tibb-jars .name { margin-block-start: 4px; min-block-size: 2.5em; font-size: .74rem; line-height: 1.25; text-align: center; overflow-wrap: anywhere; }
   .tibb-jars .jar:hover .body, .tibb-jars .jar:focus-visible .body { outline: 2px solid var(--gold); outline-offset: 2px; }
