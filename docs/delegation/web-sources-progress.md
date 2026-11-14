@@ -803,3 +803,9 @@ Nothing is registered this turn. Each registration needs the three-part commit i
 - Linked persons: jahan-shah-qaraqoyunlu, amanullah-khan, abd-al-hafid-of-morocco, hussein-kamel-of-egypt, habibullah-khan, mozaffar-ad-din-shah-qajar, farouk-of-egypt, ahmad-ii-uthmani, ahmad-i-uthmani, sulayman-al-qanuni, sulayman-ii-uthmani, sulayman-calabi-prince, mohammed-ben-abdallah, ibrahim-i-uthmani, mahmud-ghaznawi, hussein-bin-ali-al-hashimi. Linked regions: euboea, pisidia, attica, paphlagonia, bithynia, lesbos.
 - Not linked: qalawun, kayqubad-i and qaytbay (their concept ids contain an apostrophe and the concept page answers HTTP 500 to a script, so the check could not be made; left); kos (concept cos_city is the ancient city, our record may be the island, to check); united-kingdom (concept is the modern state).
 
+## 2026-11-14 (p56, Lane B) — iDAI.gazetteer batch 6: 19 places linked
+
+- Approval: dec-20261114-277. Same method and accept rule as batches 3 to 5 (search.json, 3 s pause; exactly one populated place within 1.5 km that carries our GeoNames id or has our Arabic label among its names). Records 241 to 320 of the importance-ordered list; 320 of 474 have been searched. No downloads.
+- Linked: i-skenderun 2118559, philadelphia 2092977, berkeley 2087380, asilah 2765533, berat 2066118, kastamonu 2090159, aksum 2375832, izmir 1008167, shubra-khit 2773018, edinburgh 2088774, sinop 2280255, bitlis 2221292, sivas 2090495, mallawi 2751371, qina 2751436, stara-zagora 2066662, gebze 2283266, erzurum 2101814, cambridge 2087878.
+- Not linked: the other 61 of the 80 had no passing result.
+
