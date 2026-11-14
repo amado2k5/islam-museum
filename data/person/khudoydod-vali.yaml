@@ -15,9 +15,10 @@ born: { edtf: "1461", calendar: gregorian, precision: year, derived: true, note:
 died: { edtf: "1532", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tadhkira-i Azizan Confirmed on 13 November 2026 against Wikidata Q21133192 (P570, a statement with a reference), item revision 2401915909.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/khurasan, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/al-aalam] }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q21133192
+  viaf: "14150170691400012963"
 provenance:
   layer: own-research
   source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"

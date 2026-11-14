@@ -12,13 +12,13 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch30
-external_ids: { wikidata: "Q7689344" }
+external_ids: { wikidata: "Q7689344", viaf: "90061399" }
 born: { edtf: "653~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala (al-Dhahabi) Confirmed on 13 November 2026 against Wikidata Q7689344 (P569, a statement with a reference), item revision 2562960812.", sources: [source/wikidata] }
 died: { edtf: "724~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala (al-Dhahabi) Confirmed on 13 November 2026 against Wikidata Q7689344 (P570, a statement with a reference), item revision 2562960812.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/yemen, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q805)" }
   - { type: died_in, target: place/muzdalifa, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q1788735)" }
-sources: [source/muruj-al-dhahab, source/bakr-umayyad-state-1134715]
+sources: [source/muruj-al-dhahab, source/bakr-umayyad-state-1134715, source/wikidata]
 status:
   review: published
   completeness: 3

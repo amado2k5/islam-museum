@@ -25,10 +25,10 @@ footprint:
   wikidata: "Q13403447"
 honours:
   - { award: award/king-faisal-prize, category: islamic-studies, result: won, year: 1980, note: "topic: studies on the hadith", sources: [source/wikipedia-king-faisal-prize-en] }
-external_ids: { wikidata: "Q13403447" }
+external_ids: { wikidata: "Q13403447", viaf: "12359557" }
 relations:
   - { type: born_in, target: place/mau, sources: [source/wikidata-muhammad-mustafa-al-azami], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q493091)" }
   - { type: died_in, target: place/riyadh, sources: [source/wikidata-muhammad-mustafa-al-azami], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q3692)" }
-sources: [source/wikipedia-muhammad-mustafa-al-azami-en, source/wikidata-muhammad-mustafa-al-azami, source/wikipedia-king-faisal-prize-en]
+sources: [source/wikipedia-muhammad-mustafa-al-azami-en, source/wikidata-muhammad-mustafa-al-azami, source/wikipedia-king-faisal-prize-en, source/wikidata]
 provenance: { layer: own-research, source: "English Wikipedia 'Muhammad Mustafa Azmi' (revision 1359332538, 14 June 2026), Wikidata Q13403447 (revision 2557348865) and the King Faisal Prize list (revision 1382965005), read in Chrome on 7 November 2026", generated_by: "Claude Code", model: "claude-opus-5-5", run: modern-w1 }
 status: { review: published, completeness: 3, generated_by: "Claude Code" }

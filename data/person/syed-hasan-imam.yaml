@@ -37,8 +37,8 @@ faith:
 relations:
   - { type: sibling_of, target: person/syed-ali-imam, sources: [source/wikipedia-syed-hasan-imam-en] }
   - { type: lived_in, target: place/london, sources: [source/wikidata], confidence: low, note: "Studied law in London per the record text." }
-external_ids: { wikidata: "Q7660338" }
-sources: [source/wikipedia-syed-hasan-imam-en, source/wikipedia-syed-hasan-imam-ur, source/wikidata-syed-hasan-imam]
+external_ids: { wikidata: "Q7660338", viaf: "78304131" }
+sources: [source/wikipedia-syed-hasan-imam-en, source/wikipedia-syed-hasan-imam-ur, source/wikidata-syed-hasan-imam, source/wikidata]
 provenance:
   layer: own-research
   source: "English Wikipedia 'Syed Hasan Imam', rev. 1369374848 of 14 August 2026; Urdu Wikipedia 'سید حسن امام', rev. 11800999 of 18 August 2026 (a stub); Wikidata Q7660338 (item rev. 2530365821). All read via the MediaWiki/Wikidata APIs on 3 November 2026, every revision id re-asserted with a repeat query. The Dictionary of National Biography (India) entry 'Hasan Imam, Syed' (CRL digital collections scan, entry 198) was also read in full for the faith question, as recorded in the faith note; it is not registered as a source entity because it attests career facts only and the museum's text does not rest on it. The bare title 'Hasan Imam' on English Wikipedia redirects to a Bangladeshi actor born in 1935, a different man; this record is the 1871–1933 barrister. No group entity exists for the Indian National Congress, so no member_of edge is written."

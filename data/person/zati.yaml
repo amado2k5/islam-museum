@@ -15,10 +15,11 @@ born: { edtf: "1471", calendar: gregorian, precision: year, derived: true, note:
 died: { edtf: "1546", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi Confirmed on 13 November 2026 against Wikidata Q6097548 (P570, a statement with a reference), item revision 2530799672.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/bal-kesir, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q199723)" }
-sources: [source/dawlat-uthmaniyya-salabi, source/biblissima]
+sources: [source/dawlat-uthmaniyya-salabi, source/biblissima, source/wikidata]
 external_ids:
   wikidata: Q6097548
   biblissima: "Q16755"
+  viaf: "42678600"
 provenance:
   layer: own-research
   source: "Wikidata candidate; book source: al-Shalabi, al-Dawla al-Uthmaniyya — entry not yet read on the page"

@@ -42,8 +42,8 @@ relations:
   - { type: born_in, target: place/yunnan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-ma-fuxing] }
   - { type: died_in, target: place/kashgar, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-ma-fuxing] }
   - { type: died_in, target: place/kashgar, sources: [source/wikipedia-ma-fuxing-en, source/wikipedia-ma-fuxing-zh] }
-external_ids: { wikidata: "Q6720734" }
-sources: [source/wikipedia-ma-fuxing-en, source/wikipedia-ma-fuxing-zh, source/wikidata-ma-fuxing]
+external_ids: { wikidata: "Q6720734", viaf: "41691519" }
+sources: [source/wikipedia-ma-fuxing-en, source/wikipedia-ma-fuxing-zh, source/wikidata-ma-fuxing, source/wikidata]
 status: { review: published }
 provenance:
   layer: own-research

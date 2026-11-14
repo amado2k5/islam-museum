@@ -22,9 +22,10 @@ periods: [period/gunpowder-empires]
 relations:
   - { type: born_in, target: place/zeila, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: buried_in, target: place/cairo, sources: [source/ajaib-al-athar-moreh-2013-v1] }
-sources: [source/al-aalam, source/ajaib-al-athar-moreh-2013-v1]
+sources: [source/al-aalam, source/ajaib-al-athar-moreh-2013-v1, source/wikidata]
 external_ids:
   wikidata: Q5679896
+  viaf: "90040744"
 provenance:
   layer: own-research
   source: "Wikidata candidate; source/ajaib-al-athar-moreh-2013-v1 scan pp. 502-524 (al-Jabarti's obituary of his father, year 1188)"

@@ -14,9 +14,10 @@ periods: [period/colonial-era]
 died: { edtf: "1871", precision: year, status: tradition, derived: true }
 relations:
   - { type: lived_in, target: place/anatolia, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/dawlat-uthmaniyya-salabi] }
-sources: [source/dawlat-uthmaniyya-salabi]
+sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
 external_ids:
   wikidata: Q4250585
+  viaf: "3687168453540266300006"
 provenance:
   layer: own-research
   source: "Wikidata candidate; entry not yet read on the page in a book source"

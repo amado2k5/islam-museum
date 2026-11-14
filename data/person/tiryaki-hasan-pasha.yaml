@@ -14,9 +14,10 @@ periods: [period/gunpowder-empires]
 died: { edtf: "1611", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
 relations:
   - { type: died_in, target: place/buda, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q193478)" }
-sources: [source/dawlat-uthmaniyya-salabi]
+sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
 external_ids:
   wikidata: Q7809483
+  viaf: "60489753"
 provenance:
   layer: own-research
   source: "Wikidata candidate; book source: al-Sallabi, al-Dawla al-Uthmaniyya — entry not yet read on the page"

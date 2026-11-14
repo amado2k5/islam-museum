@@ -21,8 +21,8 @@ died: { edtf: "995", calendar: gregorian, precision: year, derived: true, note: 
 relations:
   - { type: authored, target: work/akhbar-al-wuzara-sahib, sources: [source/kashf-zunun-furqan] }
   - { type: died_in, target: place/rayy, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q636188)" }
-external_ids: { wikidata: "Q7531254" }
-sources: [source/kashf-zunun-furqan, source/muntazam-ibn-al-jawzi]
+external_ids: { wikidata: "Q7531254", viaf: "35260387" }
+sources: [source/kashf-zunun-furqan, source/muntazam-ibn-al-jawzi, source/wikidata]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
 occupations:
   - job: job/vizier

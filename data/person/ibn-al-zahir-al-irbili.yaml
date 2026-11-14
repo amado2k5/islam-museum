@@ -13,9 +13,10 @@ regions: [levant-iraq]
 periods: [period/crusades-ayyubid-mamluk]
 relations:
   - { type: lived_in, target: place/damascus, confidence: low, note: "Associated with Damascus per the record's own summary text; relation type pending review.", sources: [source/al-aalam] }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q42298190
+  viaf: "49079974"
 provenance:
   layer: own-research
   source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.5 p.322)"

@@ -15,9 +15,10 @@ born: { edtf: "1392", precision: year, status: tradition, derived: true }
 died: { edtf: "1464", precision: year, status: tradition, derived: true }
 relations:
   - { type: born_in, target: place/qayn, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q720028)" }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q10513531
+  viaf: "241366728"
 provenance:
   layer: own-research
   source: "Wikidata candidate; entry not yet read on the page in a book source"

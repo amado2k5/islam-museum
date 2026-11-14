@@ -8,6 +8,6 @@ wings: [people]
 died: { edtf: "704", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 / al-A'lam Confirmed on 13 November 2026 against Wikidata Q4165518 (P570, a statement with a reference), item revision 2533540276.", sources: [source/wikidata] }
 relations:
   - { type: died_in, target: place/damascus, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-external_ids: { wikidata: "Q4165518" }
-sources: [source/fihrist-ibn-al-nadim]
+external_ids: { wikidata: "Q4165518", viaf: "100626021" }
+sources: [source/fihrist-ibn-al-nadim, source/wikidata]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

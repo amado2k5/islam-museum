@@ -29,10 +29,11 @@ relations:
   - { type: died_in, target: place/aleppo, sources: [source/badai-sanai-ilmiyya-v1] }
   - { type: authored, target: work/badai-al-sanai, sources: [source/badai-sanai-ilmiyya-v1] }
   - { type: member_of, target: group/hanafi-madhhab, sources: [source/badai-sanai-ilmiyya-v1] }
-sources: [source/badai-sanai-ilmiyya-v1, source/al-aalam, source/openiti-corpus]
+sources: [source/badai-sanai-ilmiyya-v1, source/al-aalam, source/openiti-corpus, source/wikidata]
 external_ids:
   wikidata: Q12227537
   openiti: "0587IbnMascudCalaDinKasani"
+  viaf: "25247885"
 provenance:
   layer: own-research
   source: "badai-sanai-ilmiyya-v1 pp. 74-77, 88"

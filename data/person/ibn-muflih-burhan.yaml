@@ -18,13 +18,14 @@ relations:
   - { type: died_in, target: place/damascus, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 external_ids:
   wikidata: Q6534554
+  viaf: "90042282"
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 884)، قراءة آبل فيجن"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch89
-sources: [source/shadharat-dhahab]
+sources: [source/shadharat-dhahab, source/wikidata]
 status:
   review: published
   completeness: 3

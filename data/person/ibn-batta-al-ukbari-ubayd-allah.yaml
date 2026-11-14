@@ -27,8 +27,8 @@ relations:
   - { type: student_of, target: person/al-ajurri, sources: [source/ibana-kubra-muti-iman] }
 story_roles:
   - { role: transmitter, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
-external_ids: { wikidata: "Q5984193" }
-sources: [source/mawsuat-a3lam-ulama-adaba, source/ibana-kubra-muti-iman]
+external_ids: { wikidata: "Q5984193", viaf: "90049315" }
+sources: [source/mawsuat-a3lam-ulama-adaba, source/ibana-kubra-muti-iman, source/wikidata]
 status:
   review: published
   completeness: 3

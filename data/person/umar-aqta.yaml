@@ -14,9 +14,10 @@ periods: [period/mongol-post-mongol]
 died: { edtf: "1400~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
 relations:
   - { type: lived_in, target: place/samarqand, sources: [source/al-aalam] }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q109119940
+  viaf: "109147118323226342521"
 provenance:
   layer: own-research
   source: "Wikidata candidate; entry not yet read on the page in a book source"

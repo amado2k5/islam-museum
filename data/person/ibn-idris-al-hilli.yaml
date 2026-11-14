@@ -13,9 +13,10 @@ regions: [levant-iraq]
 periods: [period/crusades-ayyubid-mamluk]
 relations:
   - { type: lived_in, target: place/hilla, confidence: low, note: "Associated with الحلة per the record's own summary text; relation type pending review.", sources: [source/al-aalam] }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q6419135
+  viaf: "49076593"
 provenance:
   layer: own-research
   source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"

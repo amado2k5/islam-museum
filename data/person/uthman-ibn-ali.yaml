@@ -16,8 +16,8 @@ died: { edtf: "680", calendar: gregorian, precision: year, derived: true, note: 
 relations:
   - { type: child_of, target: person/ali-ibn-abi-talib }
   - { type: died_in, target: place/karbala }
-external_ids: { wikidata: "Q5686263" }
-sources: [source/al-bidaya-wal-nihaya]
+external_ids: { wikidata: "Q5686263", viaf: "23447668" }
+sources: [source/al-bidaya-wal-nihaya, source/wikidata]
 provenance:
   layer: own-research
   source: "wikidata-import deferred Q5686263; Bidaya 61 AH 'awlad Ali ... wa-Uthman' killed at Karbala verified in OCR (lines 20820-20826)"

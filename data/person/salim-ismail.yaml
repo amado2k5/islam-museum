@@ -26,10 +26,10 @@ faith:
     basis: unknown
     note: "No source read names any religious affiliation for him: the English article and the Urdu stub are silent on religion and Wikidata carries no religion value. This is an absence configuration — nothing attests an affiliation, and nothing attests a departure from one either. His Indian origin and his name are not attestations, and no segment is recorded."
     sources: [source/wikipedia-salim-ismail-en, source/wikipedia-salim-ismail-ur, source/wikidata-salim-ismail]
-external_ids: { wikidata: "Q18353687" }
+external_ids: { wikidata: "Q18353687", viaf: "438144783186300340001" }
 relations:
   - { type: born_in, target: place/hyderabad, sources: [source/wikidata-salim-ismail], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1361)" }
-sources: [source/wikipedia-salim-ismail-en, source/wikipedia-salim-ismail-ur, source/wikidata-salim-ismail]
+sources: [source/wikipedia-salim-ismail-en, source/wikipedia-salim-ismail-ur, source/wikidata-salim-ismail, source/wikidata]
 provenance:
   layer: own-research
   source: "Built 27 October 2026 for wave 103 §A of the century-additions queue (queue line 564) from the English and Urdu Wikipedia articles (the only two editions) and the Wikidata item named in the sources list, each fetched by the recorded revision and asserted equal to it, the Wikidata item read twice with identical results and its QID (Q18353687) grounded through the English article's pageprops. Existence checked both ways before building: name-fragment and slug-variant greps across data/person/ found no record for him (the many other Ismail records are different people), and Q18353687 appears in no existing person record. Identity grounded from the sources against the queue's description: the Singularity University co-founder born in Hyderabad in 1965, raised in Toronto. No relations are written: founder_of is refused because Singularity University, PubSub Concepts, Confabb, Ångströ and ExO Works have no museum group entities, and born_in is refused because Hyderabad has no place entity; the foundings are stated in the summary and prose. Region is south-asia by his Hyderabad birth and origin. No Arabic edition exists; the Arabic prose is written from the English sources."

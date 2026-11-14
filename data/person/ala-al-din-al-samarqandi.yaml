@@ -22,9 +22,10 @@ relations:
   - { type: lived_in, target: place/samarqand, note: "Place association from the person's nisba/name (السمرقندي); denotes association, not proven residence.", sources: [source/badai-sanai-ilmiyya-v1, source/al-aalam], confidence: low }
   - { type: authored, target: work/tuhfat-al-fuqaha, sources: [source/badai-sanai-ilmiyya-v1] }
   - { type: member_of, target: group/hanafi-madhhab, sources: [source/badai-sanai-ilmiyya-v1] }
-sources: [source/badai-sanai-ilmiyya-v1, source/al-aalam]
+sources: [source/badai-sanai-ilmiyya-v1, source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q31303123
+  viaf: "13476151"
 provenance:
   layer: own-research
   source: "badai-sanai-ilmiyya-v1 pp. 74-77, 88"

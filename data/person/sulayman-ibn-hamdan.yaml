@@ -15,9 +15,10 @@ died: { edtf: "1873", calendar: gregorian, precision: year, derived: true, note:
 relations:
   - { type: born_in, target: place/al-majmaah, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q27359)" }
   - { type: died_in, target: place/taif, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q182640)" }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q126176512
+  viaf: "297906964"
 provenance:
   layer: own-research
   source: "Wikidata candidate; entry not yet read on the page in a book source"

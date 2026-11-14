@@ -14,9 +14,10 @@ periods: [period/mongol-post-mongol]
 died: { edtf: "1477", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
 relations:
   - { type: lived_in, target: place/shiraz, sources: [source/wikidata], confidence: low, note: "Wikidata P551 residence (Wikidata Q6397066)" }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q5942093
+  viaf: "305191448"
 provenance:
   layer: own-research
   source: "Wikidata candidate; entry not yet read on the page in a book source"

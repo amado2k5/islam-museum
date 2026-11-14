@@ -23,7 +23,8 @@ relations:
   - { type: lived_in, target: place/basra, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 external_ids:
   wikidata: Q12208659
-sources: [source/mawsuat-a3lam-ulama-adaba]
+  viaf: "57043403"
+sources: [source/mawsuat-a3lam-ulama-adaba, source/wikidata]
 status:
   review: published
   completeness: 3

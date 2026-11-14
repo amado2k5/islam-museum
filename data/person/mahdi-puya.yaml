@@ -15,9 +15,10 @@ born: { edtf: "1899", calendar: gregorian, precision: year, derived: true, note:
 died: { edtf: "1973", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Shia Biographical Literature" }
 relations:
   - { type: lived_in, target: place/iraq, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/al-aalam] }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q6733677
+  viaf: "51551555"
 provenance:
   layer: own-research
   source: "Wikidata candidate; entry not yet read on the page in a book source"
