@@ -42,8 +42,8 @@ relations:
   - { type: born_in, target: place/bandar-seri-begawan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hashim-jalilul-alam-aqamaddin] }
   - { type: died_in, target: place/bandar-seri-begawan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hashim-jalilul-alam-aqamaddin] }
   - { type: child_of, target: person/omar-ali-saifuddien-ii, sources: [source/wikipedia-hashim-jalilul-alam-aqamaddin-en, source/wikipedia-hashim-jalilul-alam-aqamaddin-ms, source/wikidata-hashim-jalilul-alam-aqamaddin] }
-external_ids: { wikidata: "Q40101" }
-sources: [source/wikipedia-hashim-jalilul-alam-aqamaddin-en, source/wikipedia-hashim-jalilul-alam-aqamaddin-ms, source/wikidata-hashim-jalilul-alam-aqamaddin]
+external_ids: { wikidata: "Q40101", viaf: "297430814" }
+sources: [source/wikipedia-hashim-jalilul-alam-aqamaddin-en, source/wikipedia-hashim-jalilul-alam-aqamaddin-ms, source/wikidata-hashim-jalilul-alam-aqamaddin, source/wikidata]
 status: { review: published }
 provenance:
   layer: own-research

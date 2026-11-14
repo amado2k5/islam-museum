@@ -28,10 +28,10 @@ faith:
     basis: unknown
     note: "The English article states that he converted to Islam in the mid-1990s, changing his name to Kamaal Ibn John Fareed, citing Time magazine (6 December 1999), and that the lyrical themes of the group's 1996 album Beats, Rhymes and Life were inspired by his recent conversion. That is an attestation of conversion, not of a school: no source names a madhhab for him. The Arabic article is a stub that states nothing about his faith; its categories file him among converts to Islam and African-American Muslims. Wikidata's only religion value is Islam (Q432) generically. His faith is therefore recorded as unknown, with the attestations stated exactly as the sources give them."
     sources: [source/wikipedia-q-tip-en, source/wikipedia-q-tip-ar, source/wikidata-q-tip]
-external_ids: { wikidata: "Q42025" }
+external_ids: { wikidata: "Q42025", viaf: "21751868" }
 relations:
   - { type: born_in, target: place/manhattan, sources: [source/wikidata], confidence: low, note: "Wikidata Q189074 ('Q189074'), located in Manhattan" }
-sources: [source/wikipedia-q-tip-en, source/wikipedia-q-tip-ar, source/wikidata-q-tip]
+sources: [source/wikipedia-q-tip-en, source/wikipedia-q-tip-ar, source/wikidata-q-tip, source/wikidata]
 provenance:
   layer: own-research
   source: "English Wikipedia 'Q-Tip (musician)' (revision 1379996032 of 13 October 2026), Arabic Wikipedia «كيو-تيب» (revision 75980251 of 23 July 2026, titled «ويليام ديفيس (ممثل)»), and Wikidata Q42025 read through the Wikidata API, all checked 26 October 2026. No earlier record existed in data/person/ under any spelling (Davis/Fareed/Q-Tip variants searched); this is a new build, not an enrichment. No relations are written: Manhattan and Queens have no place entities in the museum, and no group entity exists for A Tribe Called Quest."

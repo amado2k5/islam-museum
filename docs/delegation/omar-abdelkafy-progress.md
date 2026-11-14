@@ -3345,3 +3345,38 @@ Resume point: min-kunuz-al-sunnah episode 27 (branch from origin/main).
 | Garbled Arabic recitation of the hadith | ep27 00:16:30-00:17:00 | Garbled ASR of a hadith already covered | Clarity, Loop check | Open |
 
 Resume point: min-kunuz-al-sunnah episode 28 (branch from origin/main).
+
+### min-kunuz-al-sunnah ep28 (14 Nov 2026)
+
+13 points written for episode 28 (ar, en, ur); 9 needs_source marks in each language file for this episode; 1 new `about` edges. No Quran verses linked; none typed. Contested: He holds that an angry divorce stands because the angry man still tells wife from mother (against a questioner who thought it void for a closed mind); he also holds that officials should undergo psychiatric screening, and relates unchained reports (Umar and the applicant, the Arab/non-Arab saying, population figures).
+
+| Excluded (min-kunuz-al-sunnah ep28) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greeting and praise, opening of the lesson | ep28 00:00:00-00:00:30 | Greeting and introduction, no teaching content | Content rule | Open |
+| Loop of repeated letters | ep28 00:00:30-00:01:00 | ASR loop, no recoverable words | Clarity, Loop check | Open |
+| Garbled stretch of repeated particles before the divorce examples | ep28 00:06:30-00:07:00 | ASR loop, no recoverable words | Clarity, Loop check | Open |
+| Laughter loop inside the divorce example | ep28 00:07:00-00:07:30 | ASR loop after the first sentences | Clarity, Loop check | Open |
+| Break join and return from the advertisement break | ep28 00:08:30-00:09:00 | Break join, no teaching content | Content rule | Open |
+| Sweeping claim that the Arab environment has become one that produces anger, and the remark on divorce questions turning on school rulings | ep28 00:14:30-00:15:30 | Sweeping claim about a people, partly garbled and rambling on children of divorced parents | Voice rule, Clarity | Open |
+| Break announcement and prayer before the break, and the second break join | ep28 00:16:00-00:17:00 | Break join and a short supplication, no teaching content | Content rule | Open |
+| Story of Harun al-Rashid and a jug of water, then a loop | ep28 00:25:00-00:26:00 | Story cut off by an ASR loop, outcome unrecoverable | Clarity, Loop check | Open |
+| Closing prayer and farewell | ep28 00:26:00-00:26:30 | Closing prayer and farewell | Content rule | Open |
+
+Resume point: min-kunuz-al-sunnah episode 29 (branch from origin/main).
+
+### min-kunuz-al-sunnah ep29 (14 Nov 2026)
+
+14 points written for episode 29 (ar, en, ur); 9 needs_source marks in each language file for this episode; 3 new `about` edges. Quran verses referenced only through passage links (16-43, 4-59, 33-35, 7-205); none typed. Contested: He attributes to himself or states as his view a proposal of premarital health, fiqh and psychiatric certificates, a divorce rate of 60 percent in some Arab countries, and proposals to screen teachers and preachers; the hadith wordings and scholars' accounts are quoted by sense without chains.
+
+| Excluded (min-kunuz-al-sunnah ep29) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Greeting, opening praise and introduction | ep29 00:00:00-00:00:30 | Greeting and preamble, no content | Content rule | Open |
+| Break joins and closing prayer | ep29 00:08:30-00:09:00, 00:16:30-00:17:00, 00:26:00-00:27:00 | Break lead-in and return, closing prayer and farewell, no content | Content rule | Open |
+| Analogies of plumber, pharmacist and chemistry for the Sharia, jokes about Arabs | ep29 00:02:00-00:04:00 | Mockery and sweeping remarks about Arabs; the substantive point is kept in a bullet | Voice rule | Open |
+| Claim that girls see marriage only as a dress and wedding day, remarks on mothers and a girl's grievances against men | ep29 00:12:30-00:13:00, 00:15:30-00:16:00 | Demeaning generalisations about women | Voice rule | Open |
+| Remarks on women smoking water pipes, mothers blowing on food, and the modern wife as a part-time role | ep29 00:19:00-00:20:30 | Demeaning generalisations about women | Content rule | Open |
+| Looping stretch of repeated words | ep29 00:18:00-00:18:30, 00:13:30-00:14:00 | Garbled ASR repetition; only the clear start of the line is used | Clarity, Loop check | Open |
+| Garbled phrases on accepting the easy and on teachers and pupils | ep29 00:07:30-00:08:00, 00:10:00-00:10:30 | Too garbled to recover | Clarity, Loop check | Open |
+| Stray final line | ep29 00:27:00 | One garbled token | Clarity, Loop check | Open |
+
+Resume point: min-kunuz-al-sunnah episode 30 (branch from origin/main).

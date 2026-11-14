@@ -41,12 +41,13 @@ relations:
   - { type: buried_in, target: place/sulaibikhat-cemetery, sources: [source/wikidata-sabah-al-ahmad-al-jaber-al-sabah], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q12244629)" }
 wings: [people]
 regions: [arabia]
-external_ids: { wikidata: "Q57555" }
+external_ids: { wikidata: "Q57555", viaf: "232952339" }
 sources:
   - source/wikipedia-sabah-al-ahmad-al-jaber-al-sabah-en
   - source/wikipedia-sabah-al-ahmad-al-jaber-al-sabah-ar
   - source/wikipedia-sabah-al-ahmad-al-jaber-al-sabah-ur
   - source/wikidata-sabah-al-ahmad-al-jaber-al-sabah
+  - source/wikidata
 provenance:
   layer: own-research
   source: "Wikipedia articles on Sabah Al-Ahmad Al-Jaber Al-Sabah in English (revision 1381009248 of 19 Oct 2026), Arabic (revision 76705562 of 24 Sep 2026) and Urdu (revision 12103531 of 5 Oct 2026) and the Wikidata item Q57555 (item revision 2558232219 of 18 Oct 2026), each fetched by its recorded revision id via the MediaWiki API and asserted equal to it (27 October 2026). Existence checked both directions before writing: name fragments in English, Arabic and Urdu scripts across data/person/, the QID grepped across all of data/person/, biographical comparison, and record provenances — no prior record of the man existed (the Sabah records on file are other men: Jaber II, Mubarak, Salim Al-Mubarak, Sabah Al-Khalid). SUCCESSION CORRECTION against the run brief: the brief directed a successor_of edge to Jaber Al-Ahmad Al-Sabah, but both articles agree Sabah's immediate predecessor as Emir was Saad Al-Abdullah Al-Salim Al-Sabah, who acceded on Jaber's death on 15 January 2006 and abdicated for illness days later; Sabah was sworn in on 29 January 2006. Saad has no museum record, so the directed edge would misstate the succession and is NOT written (the wave-82 Noon precedent); the kinship edge to Jaber is written instead as sibling_of, the English text calling him Jaber's half-brother."

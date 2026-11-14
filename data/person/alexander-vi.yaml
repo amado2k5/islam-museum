@@ -16,9 +16,10 @@ died: { edtf: "1503", calendar: gregorian, precision: year, derived: true, note:
 relations:
   - { type: lived_in, target: place/al-bunduqiyya, note: "From text: أقام بناءً على طلب البنادقة حلفاً ضد", sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: opposed, target: person/bayazid-ii, sources: [source/dawlat-uthmaniyya-salabi] }
-sources: [source/dawlat-uthmaniyya-salabi]
+sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
 external_ids:
   wikidata: Q39036
+  viaf: "132719904"
 provenance:
   layer: own-research
   source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421)"
