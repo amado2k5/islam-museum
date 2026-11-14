@@ -118,3 +118,9 @@ A city of deep spiritual sanctity and rich history spanning millennia. In Islami
 
 ## In Nomisma
 The Nomisma numismatic vocabulary links this entry to the concept «jerusalem», and its linked collections record 42 coins or coin types that name it as issuer, authority or mint. {cite:nomisma jerusalem}
+
+## In the Pleiades gazetteer
+Pleiades, the open gazetteer of ancient places, lists this place under the title «Ierusalem/Hierosolyma/Col. Aelia Capitolina» (Pleiades no. 687928), classed as a settlement, an archaeological site and a findspot, with activity attested from 3300 BCE to 2000 CE. Its description reads simply that this is the city of Jerusalem. {cite:pleiades 687928}
+
+## In the iDAI.gazetteer
+The German Archaeological Institute's gazetteer, iDAI.gazetteer, records this place as no. 2090049, typed as archaeological site and populated place, with the preferred name «Jerusalem» under «Israel» in its hierarchy, and recorded names including al-Quds aš-Šarīf, Zion, El Quds esh Sherif. {cite:idai-gazetteer 2090049}

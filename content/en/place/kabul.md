@@ -6,3 +6,6 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
 ## Overview
 Kabul is a great city on the frontiers of India, according to al-Baladhuri. [[person/abd-al-rahman-ibn-samura|Abd al-Rahman ibn Samura]] besieged it for months with catapults until he breached it, then the Muslims entered it by force. Its people broke their word, and the Muslims took it again. Then Kabul Shah drove the Muslims out of it, and Ratbil came and prevailed as far as Bust. The peace agreement of Ubayd Allah ibn Abi Bakra covered his land and the land of Kabul for a million dirhams. {cite:futuh-buldan-maarif-1407}
+
+## In the iDAI.gazetteer
+The German Archaeological Institute's gazetteer, iDAI.gazetteer, records this place as no. 2090085, typed as populated place, with the preferred name «Kabul» under «Kabul Province» in its hierarchy, and recorded names including Cabul, Kubha, Kabura. {cite:idai-gazetteer 2090085}
