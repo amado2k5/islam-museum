@@ -1,0 +1,18 @@
+id: concept/sacral-and-coccygeal-nerves
+class: concept
+kind: scientific
+label: { ar: "أعصاب العجز والعصعص عند ابن سينا", en: "Sacral and coccygeal nerves in the Canon", ur: "قانون میں عجز اور دم چوٹ کے اعصاب" }
+summary:
+  ar: "الفصل السادس والأخير من جملة العصب يذكر أن أول زوج عجزي يخالط الأعصاب القطنية، وأن باقي الأزواج والفرد النابت من طرف العصعص يتفرق في عضل المقعدة والقضيب والمثانة والرحم {cite:canon-ibn-sina-print-v1 p.83}."
+  en: "The sixth and last chapter of the nerves group says the first sacral pair mingles with the lumbar nerves, and that the remaining pairs and the single nerve growing from the tip of the coccyx spread in the muscles of the anus, penis, bladder and uterus {cite:canon-ibn-sina-print-v1 p.83}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/nerves, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 1, on nerves and vessels (scan pages 82 to 90), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-vessels-1
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

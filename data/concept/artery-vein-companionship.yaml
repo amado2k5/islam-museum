@@ -1,0 +1,18 @@
+id: concept/artery-vein-companionship
+class: concept
+kind: scientific
+label: { ar: "مرافقة الشرايين للأوردة عند ابن سينا", en: "The companionship of arteries and veins in the Canon", ur: "قانون میں شریانوں اور رگوں کی رفاقت" }
+summary:
+  ar: "يبين ابن سينا أن من الضوارب ما يوافق الأوردة، وأن الشريان إذا رافق الوريد على الصلب امتطاه، وفي الأعضاء الظاهرة غار تحته، وأن في مصاحبتهما منفعتين {cite:canon-ibn-sina-print-v1 p.87}."
+  en: "Ibn Sina shows that some arteries go along with veins; where the artery accompanies the vein on the spine it rides it, in the outer organs it dives beneath it, and there are two benefits in their going together {cite:canon-ibn-sina-print-v1 p.87}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/arteries, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 1, on nerves and vessels (scan pages 82 to 90), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-vessels-1
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }
