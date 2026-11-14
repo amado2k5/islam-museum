@@ -6,23 +6,23 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لأبو مطيع البلخي؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abu Muti’ al-Balkhi; the entry is not yet checked on the page."
+  ar: "الحكم بن عبد الله، أبو مطيع البلخي، فقيه صاحب الفقه الأكبر، تفقه بأبي حنيفة وولي قضاء بلخ، وتوفي سنة 199 هـ."
+  en: "Al-Hakam ibn Abd Allah, Abu Muti al-Balkhi, a jurist and author of the Fiqh al-akbar, who studied under Abu Hanifa, served as judge of Balkh and died in 199 AH."
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/abbasid-early]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wafi-bi-l-wafayat-safadi-dar-ihya-2000]
 external_ids:
   wikidata: Q137863491
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 Medium)"
-  model: "SWE-2 Medium"
-  run: wikidata-import-wave2
+  source: "al-Safadi, al-Wafi bi-l-Wafayat, ed. al-Arna'ut and Mustafa, 2000, entry read in full from the local OpenITI text (vol. 13 pp. 70-71)"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-wafi-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 died: { edtf: "814", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
 relations:
-  - { type: lived_in, target: place/balkh, note: "Place association from the person's nisba/name (البلخي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
+  - { type: lived_in, target: place/balkh, note: "al-Safadi, al-Wafi, vol. 13 pp. 70-71: he was appointed judge of Balkh", sources: [source/wafi-bi-l-wafayat-safadi-dar-ihya-2000, source/al-aalam], confidence: high }
