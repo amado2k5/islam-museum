@@ -138,6 +138,7 @@ open a new block on top with the new version and today's date.
 ### Data
 - **The coverage report is regenerated** after 52 more al-A'lam and Siyar biographies landed.
 - **Sixty-eight scholar pages gain a list of their works in the OpenITI corpus, in Arabic, English and Urdu.** Each section gives the author's OpenITI identifier, the number of works the corpus holds under it and up to four titles, with a citation to the corpus record (decision dec-20261114-277).
+- **Three iDAI links were withdrawn: Stuttgart, Idlib and Zurich.** iDAI gives each a GeoNames number different from ours, and the links had rested on the Arabic name alone, so under the fail-closed rule for external identifiers they are removed together with the iDAI-only prose written from them; the pages return to short records until the identity is confirmed (decision dec-20261114-277).
 
 ## v1.30.0 — 2026-11-14
 ### Added
