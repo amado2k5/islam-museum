@@ -29,7 +29,8 @@ relations:
   - { type: successor_of, target: person/al-muti-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: lived_in, target: place/baghdad, note: "Abbasid caliph 363-381 at Baghdad.", sources: [source/tarikh-khulafa-minhaj-1434], confidence: medium }
   - { type: died_in, target: place/baghdad, note: "Died in 381; Baghdad court context, flagged.", sources: [source/tarikh-khulafa-minhaj-1434], confidence: low }
-sources: [source/kamil-ibn-al-athir, source/tarikh-khulafa-minhaj-1434, source/muntazam-ibn-al-jawzi]
+external_ids: { wikidata: Q284779 }
+sources: [source/kamil-ibn-al-athir, source/tarikh-khulafa-minhaj-1434, source/muntazam-ibn-al-jawzi, source/wikidata-al-tai-billah]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
 story_roles:
   - { role: ruler, toward: polity/abbasid-caliphate, start: { edtf: "974", calendar: julian, precision: year }, end: { edtf: "991", calendar: julian, precision: year }, status: historical, sources: [source/tarikh-khulafa-minhaj-1434] }

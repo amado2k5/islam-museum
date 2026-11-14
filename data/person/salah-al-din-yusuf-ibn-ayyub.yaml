@@ -32,7 +32,8 @@ relations:
   - { type: participated_in, target: event/battle-of-jaffa-1192, sources: [source/kamil-ibn-al-athir] }
   - { type: built, target: building/citadel-of-cairo, sources: [source/yeomans-islamic-cairo-2006] }
   - {type: ruler_of, target: polity/ayyubid-dynasty, sources: [source/khitat-maqrizi-1998], note: 'The Ayyubid record''s start date: 567 AH, Saladin takes the kingdom of Egypt (al-Maqrizi, Khitat p. 290). Audit S12, 13 Nov 2026.'}
-sources: [source/britannica-saladin, source/kamil-ibn-al-athir, source/tarikh-khulafa-minhaj-1434, source/shadharat-dhahab, source/tarikh-ibn-khaldun-ibar, source/assabile-omar-abdelkafy, source/yeomans-islamic-cairo-2006]
+external_ids: { wikidata: Q8581 }
+sources: [source/britannica-saladin, source/kamil-ibn-al-athir, source/tarikh-khulafa-minhaj-1434, source/shadharat-dhahab, source/tarikh-ibn-khaldun-ibar, source/assabile-omar-abdelkafy, source/yeomans-islamic-cairo-2006, source/wikidata-salah-al-din-yusuf-ibn-ayyub]
 provenance:
   layer: own-research
   source: "Britannica, 'Saladin' (Paul E. Walker and the Britannica editors, revised 10 October 2026), read in the browser on 28 October 2026; event links follow the cited sources of each event record"

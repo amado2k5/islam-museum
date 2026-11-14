@@ -75,3 +75,13 @@ GEMINI: sulayman-ibn-abdallah-ibn-tahir | the date of the appointment: al-Wafi v
 GEMINI: yahya-ii-hafsid, death year: card says 1279 (EI2), al-A'lam vol. 8 p. 166 prints 679 AH = 1280 CE; which is right (Hafsid al-Wathiq killed by uncle Ibrahim); settle with Brunschvig La Berberie orientale or Bosworth.
 GEMINI: yaarab-ibn-bilarab, birth year: card says 1722 (Oman in History, EI2); al-A'lam vol. 8 p. 192 prints 000 (unknown) and says he killed imam Muhanna in 1132 AH (1719/20), so a 1722 birth looks wrong; source that would settle it: Wilkinson, Imamate Tradition of Oman, or EI2 'Ya'riba'.
 GEMINI: yusuf-efendizade, birthplace: Wikidata P19 gives Istanbul, al-A'lam vol. 4 pp. 129-130 says born in Amasya (and died in Istanbul); settle with TDV Islam Ansiklopedisi 'Yusuf Efendizade'.
+GEMINI/founder: person/mehmed-v-uthmani and person/muhammad-v-rashad both match Q151494; probable duplicate, merge is the founder's
+GEMINI/founder: person/ibrahim has two Wikidata candidates, Q9181 (Abraham) and Q1768161 (Abraham in Islam); the choice is the founder's
+GEMINI/founder: person/al-mustakfi-billah and person/al-mustakfi-i-cairo look like the same caliph (al-Mustakfi I of Cairo, Q285426); probable duplicate, merge is the founder's
+GEMINI/founder: person/abu-ishaq-al-shirazi and person/al-shirazi-faqih both match Q3603848; probable duplicate, merge is the founder's
+GEMINI/founder: person/abu-lahab and screen/abu-lahab-1953 both match Q337012; probable duplicate, merge is the founder's
+GEMINI/founder: person/selim-i-uthmani and person/selim-i-ottoman both match Q494660; probable duplicate, merge is the founder's
+GEMINI/founder: person/al-mutasim-abi-ishaq and person/al-mutasim both match Q284550; probable duplicate, merge is the founder's
+GEMINI/founder: person/ibn-al-abbar and person/ibn-al-abbar-muhammad both match Q3321466; probable duplicate, merge is the founder's
+GEMINI/founder: person/al-mustakfi-billah duplicates person/al-mustakfi-i-cairo (already Q285426)
+GEMINI/founder: Ibn Qadi Shuhba has two Wikidata items, Q85461758 (1377-1448, Damascus) and Q6537411 (no dates); possible duplicate items, not decided here

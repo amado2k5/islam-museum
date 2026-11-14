@@ -10,9 +10,12 @@ summary:
   ur: "مصطفى الرابع، عثمانی خلافت کے خلیفہ؛ 1807ء سے 1808۔ {cite:sicill-i-osmani}"
 story_roles:
   - { role: ruler, toward: polity/ottoman-empire, start: { edtf: "1807", calendar: julian, precision: year }, end: { edtf: "1808", calendar: julian, precision: year }, status: historical, sources: [source/sicill-i-osmani] }
+born: { edtf: "1779-09-08", hijri: "1193-08-26", calendar: gregorian, precision: day, status: historical, derived: true, note: "From Wikidata (Q199830, revision 2565453276, read 2026-11-14): date of birth as stored by the item (gregorian calendar model). The Hijri value is an arithmetical conversion, approximate to a day.", sources: [source/wikidata-mustafa-iv-uthmani] }
+died: { edtf: "1808-11-17", hijri: "1223-09-28", calendar: gregorian, precision: day, status: historical, derived: true, note: "From Wikidata (Q199830, revision 2565453276, read 2026-11-14): date of death as stored by the item (gregorian calendar model). The Hijri value is an arithmetical conversion, approximate to a day.", sources: [source/wikidata-mustafa-iv-uthmani] }
 relations:
   - { type: ruled_over, target: polity/ottoman-empire, sources: [source/sicill-i-osmani] }
   - { type: successor_of, target: person/selim-iii-uthmani, sources: [source/sicill-i-osmani] }
-sources: [source/sicill-i-osmani]
+external_ids: { wikidata: Q199830 }
+sources: [source/sicill-i-osmani, source/wikidata-mustafa-iv-uthmani]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium); khulafa lane, plan 30" }
 provenance: { generated_by: "Devin (SWE-2 Medium)", run: "khulafa-roster-batch", note: "Roster record seeded from the cited sources; enrichment follows the lane." }
