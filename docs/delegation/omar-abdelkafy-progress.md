@@ -2710,3 +2710,14 @@ Resume point: modakirate-iblis episode 19 (branch from origin/main).
 | Garbled and looping stretches | ep19 00:08:30-00:09:00, 00:18:00-00:18:30, 00:20:00 (part) | Not recoverable | Clarity, Loop check | Open |
 
 Resume point: modakirate-iblis episode 20 (branch from origin/main).
+
+### modakirate-iblis ep20 (14 Nov 2026)
+
+15 points written for episode 20 (ar, en, ur); 8 needs_source marks in each language file for this episode; 11 new `about` edges. Quran verses referenced only through passage links (3-33 to 3-37, 3-42, 96-1); none typed. Sensitivity stays contested: his claims about the poisoning of Umar ibn Abd al-Aziz and the choice of Uthman over Ali are attributed to him and marked as needing a source.
+
+| Excluded (modakirate-iblis ep20) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greetings, the break and its trailer (an advert for a Ramadan question-and-answer programme), and the closing prayer | ep20 00:00:00, 00:10:30-00:12:30, 00:23:30-00:24:00 | Not lesson content | Content rule | Open |
+| Loops and garbled stretches (psychology remarks, a stretch on Mary, the counting of a life) | ep20 00:07:30-00:08:00, 00:15:30-00:16:00, 00:17:30-00:18:00, 00:20:30-00:21:00 | Not recoverable | Clarity, Loop check | Open |
+
+Resume point: modakirate-iblis episode 21 (branch from origin/main).
