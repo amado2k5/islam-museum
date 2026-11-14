@@ -1,0 +1,20 @@
+id: concept/zij-sabi-reading-the-chord-table-with-interpolation
+class: concept
+kind: scientific
+label: { ar: "قراءة جدول الأوتار المنصفة بالتفاضل في الزيج الصابي", en: "Reading the half-chord table with interpolation", ur: "منصّف اوتار کے جدول کو تفاضل کے ساتھ پڑھنا" }
+summary:
+  ar: "يعلّم البتاني كيف يُعرف وتر أي درجة من الجداول: فيُطلب العدد في سطر الأعداد المتفاضلة بنصف جزء ويؤخذ ما يقابله من الدرج والدقائق والثواني، وإذا كان مع الدرج دقائق فيؤخذ ما يقابل أقرب الدرج التامة أو أنصافها، ثم يُصحح بتناسب الدقائق الباقية من ثلاثين دقيقة مضروبة في الفضل بين الوترين المتتاليين. {cite:zij-sabi-nallino-byblion pp.19-20}."
+  en: "Al-Battani teaches how to find the chord of any degree from the tables: the number is looked up in the row of numbers differing by half a degree and the degrees, minutes and seconds facing it are taken; when the degree carries minutes, the entry facing the nearest whole or half degree is taken and corrected by the share of the remaining minutes out of thirty, multiplied into the difference between the two successive chords. {cite:zij-sabi-nallino-byblion pp.19-20}."
+  ur: "البتانی سکھاتے ہیں کہ کسی بھی درجے کا وتر جدولوں سے کیسے معلوم ہو: عدد کو نصف جزء کے فرق والی اعداد کی سطر میں ڈھونڈا جاتا ہے اور اس کے مقابل درجے، دقائق اور ثوانی لیے جاتے ہیں؛ اگر درجے کے ساتھ دقائق ہوں تو قریب ترین پورے یا آدھے درجے کے مقابل اندراج لے کر باقی دقائق کے تیس دقیقوں میں سے حصے کو دو متواتر اوتار کے فرق میں ضرب دے کر درست کیا جاتا ہے۔ {cite:zij-sabi-nallino-byblion pp.19-20}۔"
+wings: [ideas]
+themes: [astronomy-and-timekeeping, mathematics]
+sources: [source/zij-sabi-nallino-byblion]
+relations:
+  - { type: part_of, target: work/al-zij-al-sabi, sources: [source/zij-sabi-nallino-byblion] }
+provenance:
+  layer: own-research
+  source: "al-Zij al-Sabi, introduction and chapters 1 to 4 (scan pages 5 to 23), Arabic text ed. C. A. Nallino (Byblion, Jbeil 2005), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: zij-sabi-1
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }
