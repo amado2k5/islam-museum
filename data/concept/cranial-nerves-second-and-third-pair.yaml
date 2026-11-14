@@ -1,0 +1,18 @@
+id: concept/cranial-nerves-second-and-third-pair
+class: concept
+kind: scientific
+label: { ar: "الزوج الثاني والثالث من أعصاب الدماغ عند ابن سينا", en: "Second and third pairs of cranial nerves in the Canon", ur: "قانون میں دماغی اعصاب کا دوسرا اور تیسرا جوڑا" }
+summary:
+  ar: "الزوج الثاني ينقسم في عضل المقلة، والثالث له أربع شعب تذهب إلى الأحشاء والوجه والأسنان واللسان {cite:canon-ibn-sina-print-v1 pp.78-79}."
+  en: "The second pair divides among the muscles of the eyeball; the third has four branches going to the viscera, face, teeth and tongue {cite:canon-ibn-sina-print-v1 pp.78-79}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/nerves, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 1, Jumla 3 on nerves (scan pages 78 to 82), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-nerves-2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

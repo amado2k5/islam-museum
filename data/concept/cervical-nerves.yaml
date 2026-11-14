@@ -1,0 +1,18 @@
+id: concept/cervical-nerves
+class: concept
+kind: scientific
+label: { ar: "أعصاب نخاع العنق عند ابن سينا", en: "Cervical spinal nerves in the Canon", ur: "قانون میں گردن کے نخاعی اعصاب" }
+summary:
+  ar: "يعدّ ابن سينا العصب النابت من النخاع السالك من فقار الرقبة ثمانية أزواج، ويبيّن مخرج كل منها ومقصده {cite:canon-ibn-sina-print-v1 pp.81-82}."
+  en: "Ibn Sina counts eight pairs of nerves from the spinal cord passing through the neck vertebrae, and gives the exit and destination of each {cite:canon-ibn-sina-print-v1 pp.81-82}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/nerves, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 1, Jumla 3 on nerves (scan pages 78 to 82), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-nerves-2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }
