@@ -6,8 +6,8 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لمحمد بن القاسم أبي بكر الأنباري، نحوي وفيلولوج القرن العاشر، توفي سنة ٩٤٠م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Muhammad ibn al-Qasim Abu Bakr al-Anbari, the tenth-century grammarian and philologist, d. 940; the biographical entry is not yet checked on the page."
+  ar: "محمد بن القاسم بن محمد بن بشار، أبو بكر الأنباري: من أعلم أهل زمانه بالأدب واللغة وأكثرهم حفظا للشعر والأخبار، ولد في الأنبار وتوفي ببغداد، 271 إلى 328هـ؛ من كتبه «الزاهر» و«الأضداد» و«غريب الحديث»."
+  en: "Muhammad ibn al-Qasim ibn Muhammad ibn Bashshar, Abu Bakr al-Anbari: among the most learned of his time in literature and language and the greatest memorisers of poetry and reports; born at al-Anbar, died in Baghdad, 271 to 328 AH; author of «al-Zahir», «al-Addad» and «Gharib al-hadith»."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
@@ -16,15 +16,15 @@ died: { edtf: "940", calendar: gregorian, precision: year, derived: true, note: 
 relations:
   - { type: born_in, target: place/al-anbar-governorate, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/baghdad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q12240097
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0034
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3

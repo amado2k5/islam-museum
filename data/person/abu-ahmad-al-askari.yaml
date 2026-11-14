@@ -6,23 +6,23 @@ label:
 roles: [writer, scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لأبي أحمد العسكري، محدث وشاعر وأديب القرن العاشر، توفي سنة ٩٩٣م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abu Ahmad al-Askari, the tenth-century muhaddith, poet and literary scholar, d. 993; the biographical entry is not yet checked on the page."
+  ar: "الحسن بن عبد الله بن سعيد بن إسماعيل العسكري، أبو أحمد: فقيه أديب، انتهت إليه رياسة التحديث والإملاء والتدريس في خوزستان، ولد في عسكر مكرم وتوفي سنة 382هـ، وهو خال أبي هلال العسكري وأستاذه؛ من كتبه «التفضيل بين بلاغتي العرب والعجم»."
+  en: "Al-Hasan ibn Abdallah ibn Sa'id ibn Isma'il al-Askari, Abu Ahmad: a jurist and man of letters who held the headship of hadith transmission, dictation and teaching in Khuzistan; born at Askar Mukram, died 382 AH; maternal uncle and teacher of Abu Hilal al-Askari; author of «al-Tafdil bayna balaghati al-Arab wa-l-Ajam»."
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/abbasid-fragmentation]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q5883322
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0062
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 died: { edtf: "992", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala) Confirmed on 13 November 2026 against Wikidata Q5883322 (P570, a statement with a reference), item revision 2556987504.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/iran, note: "Only the record-level region (persia-central-asia) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }
