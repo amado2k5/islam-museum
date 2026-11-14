@@ -2927,3 +2927,15 @@ Resume point: min-kunuz-al-sunnah episode 8 (branch from origin/main).
 | A remark calling Isaac the ancestor of one people, a loop on the structure of the word for righteousness, and a loop in the story of Abu Hanifa | ep08 00:05:30-00:06:00 (part), 00:02:30-00:03:00, 00:22:30 | Off the lesson or not recoverable | Clarity, Loop check | Open |
 
 Resume point: min-kunuz-al-sunnah episode 9 (branch from origin/main).
+
+### min-kunuz-al-sunnah ep09 (14 Nov 2026)
+
+11 points written for episode 9 (ar, en, ur); 5 needs_source marks in each language file for this episode; 8 new `about` edges. Quran verses referenced only through passage links (113-1, 15-47); none typed.
+
+| Excluded (min-kunuz-al-sunnah ep09) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greetings, the break joins and the closing prayer | ep09 00:00:00, 00:08:00-00:08:30, 00:15:30-00:16:00 (part), 00:24:30-00:25:00 | Not lesson content | Content rule | Open |
+| A remark on a people's envy of another's descendants over prophethood and the passage naming several modern conflict regions and refugee populations | ep09 00:09:30-00:10:30, 00:03:30-00:04:30 (part), 00:20:00-00:23:00 (part) | Sweeping claim about peoples and modern conflict asides; held for the founder to decide | Content rule, Voice rule | Open |
+| Loops and garbled stretches | ep09 00:19:30-00:20:00, 00:22:00-00:22:30 | Not recoverable | Clarity, Loop check | Open |
+
+Resume point: min-kunuz-al-sunnah episode 10 (branch from origin/main).
