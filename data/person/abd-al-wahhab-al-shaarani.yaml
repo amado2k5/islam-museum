@@ -6,26 +6,26 @@ label:
 roles: [scholar, writer]
 gender: male
 summary:
-  ar: "بطاقة أولية لعبد الوهاب بن أحمد الشعراني، صوفي مصر المكثر التصنيف في القرن السادس عشر صاحب «الطبقات الكبرى»، توفي سنة ١٥٦٥م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abd al-Wahhab ibn Ahmad al-Sha'rani, the prolific sixteenth-century Egyptian Sufi author of al-Tabaqat al-Kubra, d. 1565; the biographical entry is not yet checked on the page."
+  ar: "عبد الوهاب بن أحمد بن علي الحنفي نسبة إلى محمد ابن الحنفية، الشعراني، أبو محمد، من علماء المتصوفين، ولد في قلقشندة بمصر ونشأ بساقية أبي شعرة وتوفي في القاهرة؛ من 898هـ الموافقة 1493م إلى 973هـ الموافقة 1565م؛ صاحب لواقح الأنوار في طبقات الأخيار والميزان الكبرى واليواقيت والجواهر."
+  en: "Abd al-Wahhab ibn Ahmad ibn Ali al-Hanafi, by descent from Muhammad ibn al-Hanafiyya, al-Sha'rani, Abu Muhammad, one of the scholars of the Sufis, born at Qalqashanda in Egypt, raised at Saqiyat Abi Sha'ra and died in Cairo; 898 AH, 1493 CE, to 973 AH, 1565 CE; author of Lawaqih al-anwar fi tabaqat al-akhyar, al-Mizan al-kubra and al-Yawaqit wa-l-jawahir."
 wings: [people]
 regions: [egypt-nile]
 periods: [period/gunpowder-empires]
 themes: [spirituality-and-sufism]
-sources: [source/al-aalam, source/biblissima, source/wikidata]
+sources: [source/al-aalam, source/biblissima, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q3594808
   biblissima: "Q16845"
   viaf: "90042253"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0025
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 born: { edtf: "1493", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabaqat al-Kubra; EI2 ('Sha'rani': 898–973 AH) Confirmed on 13 November 2026 against Wikidata Q3594808 (P569, a statement with a reference), item revision 2568056550.", sources: [source/wikidata] }
 died: { edtf: "1565", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabaqat al-Kubra; EI2 ('Sha'rani': 898–973 AH) Confirmed on 13 November 2026 against Wikidata Q3594808 (P570, a statement with a reference), item revision 2568056550.", sources: [source/wikidata] }
 relations:

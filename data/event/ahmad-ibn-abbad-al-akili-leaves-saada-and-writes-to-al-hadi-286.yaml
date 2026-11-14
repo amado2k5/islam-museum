@@ -1,0 +1,69 @@
+id: event/ahmad-ibn-abbad-al-akili-leaves-saada-and-writes-to-al-hadi-286
+class: event
+kind: other
+label:
+  ar: خروج أحمد بن عباد الأكيلي من صعدة وكتبه إلى الهادي ثم تحصنه فيها، 286هـ
+  en: Ahmad ibn Abbad al-Akili leaves Sa'da, writes to al-Hadi and then fortifies himself there, 286 AH
+  ur: احمد بن عباد اکیلی کا صعدہ سے نکلنا، ہادی کو خطوط لکھنا اور پھر وہاں مورچہ بند ہونا، 286ھ
+summary:
+  ar: يلقى محمد بن عبيد الله الهادي في صعدة مع بني سعد والربيعة والأكيليين إلا رئيسهم أحمد بن عباد الذي خرج وقت دخول الهادي، ويقول الراوي إنه كان قد تعاقد مع ابن حميد وابن بسطام وابن الضحاك على إثارة الفتنة، فكتب إلى الهادي يعتذر ويسأله إعفاءه من نجران لأن بني الحارث أخواله، ثم جمع أتباعه وتحصن في صعدة لما رأى عزم الهادي.
+  en: Muhammad ibn Ubaydallah meets al-Hadi at Sa'da with Banu Sa'd, al-Rabi'a and the Akilis, all but their chief Ahmad ibn Abbad, who left as al-Hadi came in; the narrator says he had pledged with Ibn Humayd, Ibn Bustam and Ibn al-Dahhak to stir trouble, so he wrote excusing himself and asking to be spared the march to Najran as Banu al-Harith were his maternal uncles, then gathered his followers and fortified himself in the town when he saw al-Hadi's resolve.
+  ur: محمد بن عبید اللہ صعدہ میں ہادی سے بنو سعد، ربیعہ اور اکیلیوں کے ساتھ ملتے ہیں سوائے ان کے سردار احمد بن عباد کے جو ہادی کے داخل ہوتے وقت نکل گیا؛ راوی کہتا ہے کہ اس نے ابن حمید، ابن بسطام اور ابن ضحاک سے فتنہ اٹھانے کا عہد کر رکھا تھا، اس نے معذرت لکھی اور نجران جانے سے رعایت مانگی کہ بنو حارث اس کے ننھیال ہیں، پھر ہادی کا عزم دیکھ کر اپنے لوگوں کو جمع کیا اور صعدہ میں مورچہ بند ہو گیا۔
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0899"
+    hijri: "0286"
+    calendar: julian
+    precision: year
+    status: tradition
+    derived: true
+    note: سنة 286هـ؛ الكتاب لا يعين اليوم، والخبر واقع بين ذي القعدة وأول ذي الحجة بحسب ترتيب السرد؛ التحويل مشتق
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/saada
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ahmad-ibn-abbad-al-akili
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abu-jafar-muhammad-ibn-ubaydallah-al-abbasi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abdullah-ibn-bustam
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ibn-humayd-of-banu-al-harith-286
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ibn-al-dahhak-rebel-at-khiwan-286
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص155-156 ⁦(الصفحة المطبوعة)⁩'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-20
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 155-156

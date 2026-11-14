@@ -6,23 +6,26 @@ label:
 roles: [poet]
 gender: male
 summary:
-  ar: "بطاقة أولية لعبد المحسن الصوري، شاعر القرن الحادي عشر، توفي سنة ١٠٢٨م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abd al-Muhsin al-Suri, the eleventh-century poet, d. 1028; the biographical entry is not yet checked on the page."
+  ar: "عبد المحسن بن محمد بن أحمد بن غالب الصوري، أبو محمد، ويلقب بابن غلبون، شاعر حسن المعاني من أهل صور في بلاد الشام، ولد وتوفي فيها، وله ديوان شعر مخطوط؛ من 339هـ الموافقة 950م إلى 419هـ الموافقة 1028م."
+  en: "Abd al-Muhsin ibn Muhammad ibn Ahmad ibn Ghalib al-Suri, Abu Muhammad, called Ibn Ghalbun, a poet of fine themes from Tyre in the Levant, born and died there; his diwan survives in manuscript; 339 AH, 950 CE, to 419 AH, 1028 CE."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/buyid-seljuk-fatimid-era]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q12223774
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0067
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
-died: { edtf: "1028", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Kharidat al-Qasr; Siyar A'lam al-Nubala (al-Dhahabi: d. 419 AH)" }
+  completeness: 3
+died: { edtf: "1028", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 4 p. 141: 419 AH = 1028 CE.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+born: { edtf: "950", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 4 p. 141: 339 AH = 950 CE.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
   - { type: lived_in, target: place/sur, note: "Place association from the person's nisba/name (الصوري); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
+  - { type: born_in, target: place/sur, note: "Al-Zirikli, al-A'lam vol. 4 p. 141: of Tyre, born and died there.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }
+  - { type: died_in, target: place/sur, note: "Al-Zirikli, al-A'lam vol. 4 p. 141: of Tyre, born and died there.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }

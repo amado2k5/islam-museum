@@ -1,0 +1,71 @@
+id: event/al-hadis-charge-at-sawhan-286
+class: event
+kind: other
+label:
+  ar: هجوم الهادي على سوحان وثباته وحده في وجه بني الحارث، ذو الحجة 286هـ
+  en: Al-Hadi's attack on Sawhan and his stand alone against Banu al-Harith, Dhu al-Hijja 286 AH
+  ur: سوحان پر ہادی کا حملہ اور بنو حارث کے سامنے ان کا تنہا ڈٹ جانا، ذی الحجہ 286ھ
+summary:
+  ar: يقصد الهادي سوحان فيقتل ابن المقدام ويدخل الطبريون الدرب، ثم تخرج عساكر بني الحارث من بين النخيل وتهجم هجمة واحدة فينحاز أصحابه، ويثبت الهادي وحده يعرض الحصان في وجوههم، وينقذ أبا عيسى الكوفي، ويطعن رجلين ويطارد ابن حميد، ثم يرجع الناس بنداء محمد بن سعيد ويتراجع الحارثيون، ويخبر الهادي ابن غطريف بعدد من قتل.
+  en: Al-Hadi goes for Sawhan, Ibn al-Miqdam is killed and the Tabaris enter the pass; then the camps of Banu al-Harith come out between the palms and fall on them in one rush, his companions give way and al-Hadi stays alone turning his horse before them, saves Abu Isa al-Kufi, spears two men and chases Ibn Humayd; Muhammad ibn Sa'id's call brings the men back, Banu al-Harith fall back, and al-Hadi tells Ibn Ghitrif how many he struck down.
+  ur: ہادی سوحان کا رخ کرتے ہیں، ابن مقدام مارا جاتا ہے اور طبری درے میں داخل ہوتے ہیں؛ پھر بنو حارث کے لشکر کھجوروں کے بیچ سے نکل کر ایک ہی ہلّے میں ٹوٹ پڑتے ہیں، ان کے ساتھی ہٹ جاتے ہیں اور ہادی تنہا گھوڑا ان کے سامنے گھماتے رہتے ہیں، ابو عیسیٰ کوفی کو بچاتے ہیں، دو آدمیوں کو نیزہ مارتے ہیں اور ابن حمید کا پیچھا کرتے ہیں؛ محمد بن سعید کی پکار سے لوگ لوٹتے ہیں، حارثی پیچھے ہٹتے ہیں اور ہادی ابن غطریف کو بتاتے ہیں کہ انہوں نے کتنوں کو گرایا۔
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0899-12"
+    hijri: "0286-12"
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: في ذي الحجة سنة 286هـ بحسب ترتيب السرد بعد المسير إلى نجران لليومين مضيا منه؛ الكتاب لا يعين اليوم؛ ذو الحجة يبدأ 8 كانون الأول 899م جولياني بالتقويم الجدولي؛ التحويل مشتق
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/najran
+- type: occurred_at
+  target: place/sawhan-najran
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ibn-humayd-of-banu-al-harith-286
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abu-isa-al-kufi-companion-of-al-hadi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ibn-al-miqdam-killed-at-sawhan-286
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/muhammad-ibn-said-ibn-yusuf
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/muhammad-ibn-abd-al-malik-ibn-ghitrif-al-wadii
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص161-163 ⁦(الصفحة المطبوعة)⁩'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-20
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 161-163
