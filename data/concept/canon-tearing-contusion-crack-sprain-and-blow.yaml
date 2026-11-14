@@ -1,0 +1,18 @@
+id: concept/canon-tearing-contusion-crack-sprain-and-blow
+class: concept
+kind: scientific
+label: { ar: "الفسخ والرض والشدخ والوثي والضربة عند ابن سينا", en: "Tearing, contusion, crack, sprain, fall and blow in the Canon", ur: "قانون میں پھٹن، کچلنا، دراڑ، موچ، گرنا اور چوٹ" }
+summary:
+  ar: "يتناول ابن سينا علاج الفسخ وهو تفرق اتصال غائر وراء الجلد، ثم الرض والشدخ والوثي والسقطة والضربة، ويبين ما يلائم كلاً {cite:canon-ibn-sina-print-v1 pp.308-309}."
+  en: "Ibn Sina treats tearing, a break in continuity deep beneath the skin, and then contusion, crack, sprain, fall and blow, and shows what suits each {cite:canon-ibn-sina-print-v1 pp.308-309}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/medicine, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 4, chapters 21 to 31, on cupping, leeches, stopping evacuations, obstructions, swellings, incision, wounds, ulcers, cautery, pain and the order of treatment (scan pages 299 to 311), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-fann4-ch21-31
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

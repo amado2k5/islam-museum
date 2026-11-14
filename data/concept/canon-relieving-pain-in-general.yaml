@@ -1,0 +1,18 @@
+id: concept/canon-relieving-pain-in-general
+class: concept
+kind: scientific
+label: { ar: "تسكين الأوجاع على الجملة عند ابن سينا", en: "Relieving pain in general in the Canon", ur: "قانون میں درد کو عمومی طور پر کم کرنا" }
+summary:
+  ar: "يفتتح ابن سينا الفصل الثلاثين في تسكين الأوجاع بأنها تنحصر في قسمين، ويقرر أن التسكين يكون بمضادة الأسباب، ثم يصنف المسكنات إلى مبدلة للمزاج ومحللة للمادة ومخدرة، ويعدد المرخيات والمخدرات {cite:canon-ibn-sina-print-v1 pp.309-310}."
+  en: "Ibn Sina opens chapter 30, on relieving pains, by saying that pains fall into two kinds and that relief comes by opposing the causes, then ranks the relievers as changers of temperament, dissolvers of matter and narcotics, and lists the relaxants and the narcotics {cite:canon-ibn-sina-print-v1 pp.309-310}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/medicine, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 4, chapters 21 to 31, on cupping, leeches, stopping evacuations, obstructions, swellings, incision, wounds, ulcers, cautery, pain and the order of treatment (scan pages 299 to 311), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-fann4-ch21-31
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }
