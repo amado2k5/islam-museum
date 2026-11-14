@@ -6,25 +6,27 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لأحمد بن إسماعيل الطالقاني؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ahmad ibn Ismail al-Taliqani; the entry is not yet checked on the page."
+  ar: "أحمد بن إسماعيل بن يوسف الطالقاني رضي الدين القزويني، واعظ عالم بالحديث إمام في فقه الشافعية، قزويني المولد والوفاة، ولد سنة 512 هـ الموافقة 1118 م وتوفي سنة 590 هـ الموافقة 1194 م."
+  en: "Ahmad ibn Isma'il ibn Yusuf al-Taliqani, Radi al-Din al-Qazwini, a preacher and hadith scholar and an imam in Shafi'i jurisprudence, born and died in Qazvin, 512 to 590 AH (1118 to 1194 CE)."
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/buyid-seljuk-fatimid-era]
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q23048324
   viaf: "90064651"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 born: { edtf: "1118", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala)" }
 died: { edtf: "1194", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala) Confirmed on 13 November 2026 against Wikidata Q23048324 (P570, a statement with a reference), item revision 2538762508.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/iran, note: "Only the record-level region (persia-central-asia) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }
+  - { type: born_in, target: place/qazvin, confidence: medium, note: "Al-Zirikli, al-A'lam vol. 1 p. 84: Qazvin by birth.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+  - { type: died_in, target: place/qazvin, confidence: medium, note: "Al-Zirikli, al-A'lam vol. 1 p. 84: Qazvin by death.", sources: [source/alam-zirikli-dar-al-ilm-2002] }

@@ -6,24 +6,25 @@ label:
 roles: [writer, poet]
 gender: male
 summary:
-  ar: "بطاقة أولية لعلي بن بسام الشنتريني، مؤرخ الأندلس وشاعرها في القرن الثاني عشر صاحب «الذخيرة»، توفي سنة ١١٤٧م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ali ibn Bassam al-Shantarini, the twelfth-century Andalusi historian and poet author of al-Dhakhira, d. 1147; the biographical entry is not yet checked on the page."
+  ar: "علي بن بسام الشنتريني الأندلسي، أبو الحسن، أديب من الكتاب الوزراء، صاحب «الذخيرة في محاسن أهل الجزيرة»، توفي سنة 542 هـ الموافقة 1147 م."
+  en: "Ali ibn Bassam al-Shantarini al-Andalusi, Abu al-Hasan, a man of letters among the writer-viziers, author of 'al-Dhakhira fi Mahasin Ahl al-Jazira'; he died in 542 AH (1147 CE)."
 wings: [people]
 regions: [andalus-europe]
 periods: [period/buyid-seljuk-fatimid-era]
 died: { edtf: "1147", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 Confirmed on 13 November 2026 against Wikidata Q1400251 (P570, a statement with a reference), item revision 2554051948.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/al-andalus, confidence: low, note: "Associated with الأندلس per the record's own summary text; relation type pending review.", sources: [source/al-aalam] }
-sources: [source/al-aalam, source/wikidata]
+  - { type: lived_in, target: place/santarem, confidence: low, note: "Al-Zirikli, al-A'lam vol. 4 p. 250: the nisba al-Shantarini is from Shantarin (Santarem); association by nisba, not proven residence.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q1400251
   viaf: "209549413"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0029
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
