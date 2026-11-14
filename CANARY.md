@@ -15,6 +15,7 @@ open a new block on top with the new version and today's date.
 
 ## v1.29.0 — 2026-11-13
 ### Added
+- **Du'a by occasion: illness and death.** The division of al-Adhkar on illness is open: the record on visiting the sick gains what al-Nawawi gathers on what the sick person says and what is said to him, from the two Sahihs and the Sunan, each with its page.
 - **Du'a by occasion: matters that arise.** The division of al-Adhkar that opens with istikhara is open: the record on istikhara gains al-Nawawi's account of the supplication from Sahih al-Bukhari, the rulings he attaches to it, and his judgement on two weaker reports. One attribution in the section on asking blessing on the Prophet, added earlier today, is corrected to what the page gives (Sahih Muslim, from Abu Hurayra).
 - **Du'a by occasion: asking blessing on the Prophet.** The division of al-Adhkar on this is open: the existing record gains the reports al-Nawawi gathers on its merit and on doing so when he is mentioned, and his rejection of one added phrase, each with its page.
 - **Du'a by occasion: praising God.** The division of al-Adhkar on praise is open: the record on «الحمد لله» gains al-Nawawi's account of when praise is recommended, the report that a matter not begun with it is cut short, and the wording of the most complete praise, each with its page.
