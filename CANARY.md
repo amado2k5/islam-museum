@@ -59,6 +59,8 @@ open a new block on top with the new version and today's date.
 - **Thirteen place pages gain a Pleiades section in Arabic, English and Urdu.** Each states the title and number Pleiades gives the place, how it classes it, the span of years over which it records activity and the names it holds, with a citation to the Pleiades record (decision dec-20261114-277).
 ### Data
 - **Three more Siyar A'lam al-Nubala' biographies in Arabic, English and Urdu, cited to the page:** Alqama ibn Marthad (re-read from the page image with Apple Vision after the text scan mixed him with another Alqama), Musa ibn Ulayy al-Lakhmi (governor of Egypt and reliable transmitter) and the poet-prince Muqatil ibn Atiyya, whose card wrongly placed him in the Buyid era and Iraq (now Herat, from the book).
+### Data
+- **A new person, Ahmad ibn al-Nadr al-Naysaburi (Abu al-Fadl), host and source of al-Bukhari at Nishapur,** with full Arabic, English and Urdu prose from al-Dhahabi's Siyar A'lam al-Nubala' (read from the page image with Apple Vision). He is kept apart from the Omani poet of the same name already in the museum. Ahmad ibn al-Furat's role is corrected from politician to scholar.
 
 ## v1.30.0 — 2026-11-14
 ### Added

@@ -923,3 +923,7 @@ Nothing is registered this turn. Each registration needs the three-part commit i
 ## 2026-11-14 (p62, Lane B worker B1) — Pleiades prose sections on 13 places
 
 - Approval: dec-20261114-277. For the 13 of the 50 Pleiades-linked places that already have ar, en and ur prose, a short section built from the Pleiades record (title, number, feature types, year span, up to three recorded names), cited `{cite:pleiades <id>}`. The 37 others have no prose file yet; the description sentence of each Pleiades record (for example Sufetula, founded in the later first century CE at a road junction) is the lead for their first prose pass. Draft status stays, as the pages already are.
+
+## 2026-11-14 (p60, Lane B2) — Abu al-Fadl al-Naysaburi created (coordinator's decision, not waited on)
+- New person ahmad-ibn-al-nadr-al-naysaburi (ar, en, ur, draft) from Siyar entry 838, p. 1027 (Apple Vision). Slug checked free; the Omani poet card ahmad-ibn-al-nadr left alone. ahmad-ibn-al-furat role politician corrected to scholar (the old role belonged to the vizier family).
+- Aban ibn Taghlib still skipped (the Risala edition on shamela.ws was not tried quickly).
