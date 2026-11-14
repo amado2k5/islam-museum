@@ -2779,3 +2779,14 @@ Resume point: modakirate-iblis episode 25 (branch from origin/main).
 | A garbled report on the marriage of the Persian king's daughter | ep25 00:09:30-00:10:00 (part) | Garbled, unsourced | Clarity | Open |
 
 Resume point: modakirate-iblis episode 26 (branch from origin/main).
+
+### modakirate-iblis ep26 (14 Nov 2026)
+
+11 points written for episode 26 (ar, en, ur); 8 needs_source marks in each language file for this episode; 2 new `about` edges. Quran verses referenced only through passage links (20-132, 4-86, 9-80, 9-84, 63-8, 21-107, 59-7, 26-224 to 26-227); none typed. The description of Abd Allah ibn Ubayy as leader of the hypocrites is the lecturer's and is attributed to him.
+
+| Excluded (modakirate-iblis ep26) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greetings, the break and its trailer (advertisements for a Ramadan question programme with its sponsors), and the closing prayer | ep26 00:00:00, 00:11:00-00:13:00, 00:23:30-00:24:00 | Not lesson content | Content rule | Open |
+| Loops and garbled stretches (a repeat of the break trailer, a stretch of repeated words before the self-letter, the end of the self-letter section) | ep26 00:12:30-00:13:00, 00:21:30-00:22:30 | Not recoverable | Clarity, Loop check | Open |
+
+Resume point: modakirate-iblis episode 27 (branch from origin/main).
