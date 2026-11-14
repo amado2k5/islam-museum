@@ -1,0 +1,42 @@
+id: event/al-hadi-tends-a-fallen-companion-and-a-fallen-rider
+class: event
+kind: other
+label:
+  ar: الهادي يعالج صاحباً أصابه مرض وراكباً سقط عن فرسه
+  en: Al-Hadi tends a stricken companion and a rider thrown from his horse
+  ur: ہادی ایک بیمار ساتھی اور گھوڑے سے گرے سوار کی تیمارداری کرتے ہیں
+summary:
+  ar: رأى الراوي الهادي في الصحراء ينزل عن فرسه إلى محمد بن عباس الصنعاني وقد سقط على الأرض، فمسح وجهه وقرأ عليه وأركبه حماراً إلى صعدة وقشّر له الرمان بيده حتى أفاق، ثم رآه يداوي بيده رجلاً سقط عن فرسه وأصاب الأرض أنفه.
+  en: The narrator saw al-Hadi in the open country dismount to a companion, Muhammad ibn Abbas al-San'ani, who had fallen to the ground; he wiped his face, recited over him, had him taken to Sa'da on a donkey and peeled pomegranates for him by hand until he recovered; he also saw him treat with his own hand a rider whose nose was hurt in a fall.
+  ur: راوی نے صحرا میں ہادی کو اپنے ساتھی محمد بن عباس صنعانی کے پاس گھوڑے سے اترتے دیکھا جو زمین پر گرا تھا؛ انہوں نے اس کا چہرہ پونچھا، اس پر پڑھا، گدھے پر صعدہ پہنچایا اور اپنے ہاتھ سے انار چھیل کر دیے یہاں تک کہ وہ ٹھیک ہو گیا؛ ایک سوار کا علاج بھی کیا جس کی ناک گرنے سے زخمی ہوئی تھی۔
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+relations:
+- type: occurred_at
+  target: place/saada
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/muhammad-ibn-abbas-al-sanani
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص55-56 (الصفحة المطبوعة)'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-6
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 55-56
