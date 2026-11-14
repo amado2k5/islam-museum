@@ -47,3 +47,15 @@ Open items (garbled OCR, left out of the prose):
 - p.285: the end of chapter 11 on the first page (vomiting) is cut off; chapter 11 is left for the next batch.
 
 GEMINI: canon-purgatives-and-temperament-country-and-companions | What is the exact unit "كرمات" (kurum) of mastic on p.284 (three kurum in lukewarm water)? | card says three kurum of mastic | scan reads "ثلاث كرمات" with no gloss | another edition of the Canon (Bulaq or Rome) or a lexicon of weights
+
+## Batch scan pp. 285-289 (Fann 4, chapters 10 to 19)
+Resume: scan p.289, Fann 4, chapter 20 (venesection, "الفصل العشرون: في الفصد"), which runs well past p.297 and was left whole for the next batch. Fann 4 has 32 chapters; Book I is not yet finished.
+
+Concepts: 17 (chapters 10 to 19 are short, so the batch is five scan pages).
+
+Open items (garbled OCR, left out of the prose):
+- p.285: the end of the sentence on dissolving by the good rather than the bad ("بالردياين ... ") is garbled; only the clear clause is cited.
+- p.286: "وإذا أسرع الدواء المقيء وأخذ في العا gag" is cut off and the passage after "ين الي anit eaon" (about a thing that does not make vomiting liked) is garbled; not cited.
+- p.287: the sentences on rising after vomiting ("القيام بعد القيء ... ") and on the best time in summer ("بسبب وجع هو نصف النهار") are unclear and not used; a gap in the benefits list after "القروح الكائنة في الكلى والمثانة" is skipped.
+- p.288: gaps in chapter 14 (chronic headaches) and chapter 15 (the remedy for tension and pain under the ribs, and the sentences on hiccup and on the irritation) are garbled; only the clear parts are cited.
+- p.289: the word for the warm compress in the enema paragraph ("جاوِزْس") is garbled; the prose says only "a warmed compress".

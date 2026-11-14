@@ -1,0 +1,18 @@
+id: concept/canon-pharmacopoeia-and-single-drugs-as-the-reference-for-purgatives
+class: concept
+kind: scientific
+label: { ar: "أين يُطلب علم الأدوية المسهلة وتدبيرها عند ابن سينا", en: "Where the Canon sends the reader for purgative recipes and doses", ur: "قانون میں مسہل دواؤں کی ترکیب اور خوراک کہاں دیکھی جائے" }
+summary:
+  ar: "يختم ابن سينا فصل المسهلات بإحالة القارئ إلى كتاب القراباذين والأدوية المفردة، فيطلب منه الأدوية المسهلة والملينة المشروبة والملطوخة بحسب الأسنان، وكيفية إصلاح كل دواء وتداركه وسقيه {cite:canon-ibn-sina-print-v1 p.285}."
+  en: "Ibn Sina closes the chapters on purgatives by sending the reader to the pharmacopoeia and the book of single drugs for the purgative and softening drugs, drunk or applied, by age, and for how each drug is corrected, remedied and given {cite:canon-ibn-sina-print-v1 p.285}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/medicine, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 4, chapters 10 to 19, on vomiting, the enema, paints and douches (scan pages 285 to 289), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-fann4-ch10-19
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

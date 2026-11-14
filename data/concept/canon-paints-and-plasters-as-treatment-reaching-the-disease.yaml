@@ -1,0 +1,18 @@
+id: concept/canon-paints-and-plasters-as-treatment-reaching-the-disease
+class: concept
+kind: scientific
+label: { ar: "الأطلية والأضمدة عند ابن سينا", en: "Paints and plasters as treatments that reach the disease itself", ur: "قانون میں لیپ اور ضماد جو مرض تک پہنچتے ہیں" }
+summary:
+  ar: "يعد ابن سينا الطلاء من المعالجات الواصلة إلى نفس المرض، ويقول إن للدواء قوتين لطيفة وكثيفة والحاجة إلى اللطيفة أكثر، ويفرق بين الأضمدة المتماسكة والأطلية السيالة، ويذكر الخرق المبخرة بالعود الخام للأعضاء الرئيسة {cite:canon-ibn-sina-print-v1 p.289}."
+  en: "Ibn Sina counts the paint among the treatments that reach the disease itself, says a drug may have a fine and a dense power and the fine is the more needed, distinguishes the cohesive plaster from the flowing paint, and notes cloths fumigated with raw aloeswood for the principal organs {cite:canon-ibn-sina-print-v1 p.289}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/medicine, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 4, chapters 10 to 19, on vomiting, the enema, paints and douches (scan pages 285 to 289), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-fann4-ch10-19
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }
