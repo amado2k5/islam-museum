@@ -6,25 +6,27 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لأبي المعين ميمون بن محمد النسفي، ماتريدي القرن الحادي عشر الأكبر صاحب «تبصرة الأدلة» في الكلام، توفي سنة ١١١٥م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abu al-Mu'in Maymun ibn Muhammad al-Nasafi, the leading eleventh-century Maturidi theologian author of Tabsirat al-Adilla, d. 1115; the biographical entry is not yet checked on the page."
+  ar: "أبو المعين ميمون بن محمد النسفي الحنفي، عالم بالأصول والكلام من سمرقند وبخارى، توفي سنة 508 هـ؛ ترجمته في «الأعلام» للزركلي."
+  en: "Abu al-Mu'in Maymun ibn Muhammad al-Nasafi al-Hanafi, a scholar of legal theory and kalam who lived in Samarqand and Bukhara, d. 508 AH; his entry is in al-Zirikli's al-A'lam."
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/buyid-seljuk-fatimid-era]
 themes: [creed, sects-and-schools]
-sources: [source/shadharat-dhahab, source/wikidata]
+sources: [source/shadharat-dhahab, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q25451679
   viaf: "69239686"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: Ibn al-Imad, Shadharat al-Dhahab — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0023
+  source: "al-Zirikli, al-A'lam, vol. 7 p. 341; entry read on 14 November 2026, original card from a Wikidata candidate"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
   completeness: 1
 died: { edtf: "1114", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Qurashi, al-Jawahir al-Mudiyya; al-Zirikli, al-A'lam Confirmed on 13 November 2026 against Wikidata Q25451679 (P570, a statement with a reference), item revision 2555646545.", sources: [source/wikidata] }
 relations:
+  - { type: lived_in, target: place/samarqand, note: "al-Zirikli: he was in Samarqand.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
+  - { type: lived_in, target: place/bukhara, note: "al-Zirikli: he settled in Bukhara.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
   - { type: lived_in, target: place/nasaf, note: "Place association from the person's nisba/name (النسفي); denotes association, not proven residence.", sources: [source/shadharat-dhahab], confidence: low }

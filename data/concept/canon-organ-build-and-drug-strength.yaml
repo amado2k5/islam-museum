@@ -1,0 +1,18 @@
+id: concept/canon-organ-build-and-drug-strength
+class: concept
+kind: scientific
+label: { ar: "خلقة العضو وقوة الدواء عند ابن سينا", en: "The build of the organ and the strength of the drug in the Canon", ur: "عضو کی ساخت اور دوا کی قوت قانون میں" }
+summary:
+  ar: "يبين ابن سينا أن خلقة العضو تحدد قوة الدواء المحتاج إليه: فالعضو سهل المنافذ المتخلخل يكفيه دواء لطيف معتدل، والكثيف الذي لا تجويف له يحتاج إلى دواء قوي، ويرتب الأعضاء من الأحوج إلى القوي إلى الأقل حاجة {cite:canon-ibn-sina-print-v1 pp.268-269}."
+  en: "Ibn Sina shows that the build of an organ fixes the strength of the drug it needs: an organ with easy passages and a loose texture is enough served by a mild, moderate drug, while a dense organ with no cavity needs a strong one, and he ranks organs from those needing the strongest drug to those needing least {cite:canon-ibn-sina-print-v1 pp.268-269}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/medicine, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 4, chapters 1 to 3 on the general discourse on treatment, the treatment of bad temperament and evacuation (scan pages 267 to 276), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-p267
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }
