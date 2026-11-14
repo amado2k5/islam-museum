@@ -17,9 +17,10 @@ died: { edtf: "1433", calendar: gregorian, precision: year, derived: true, note:
 relations:
   - { type: born_in, target: place/harat, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/harat, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/bosworth-new-islamic-dynasties-1996]
+sources: [source/bosworth-new-islamic-dynasties-1996, source/biblissima]
 external_ids:
   wikidata: Q2669775
+  biblissima: "Q231821"
 provenance:
   layer: own-research
   source: "Wikidata candidate; book source: Bosworth, The New Islamic Dynasties (1996) — entry not yet read on the page"
