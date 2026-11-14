@@ -3,27 +3,29 @@ class: person
 label:
   ar: "مصطفى بن فتح الله الحموي"
   en: "Mustafa ibn Fathallah al-Hamawi"
-roles: [historian, poet]
+roles: [historian]
 gender: male
 summary:
-  ar: "بطاقة أولية لمصطفى بن فتح الله الحموي، عالم ومؤرخ وشاعر سوري القرن السابع عشر صاحب «فوائد الارتحال»؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Mustafa ibn Fathallah al-Hamawi, the seventeenth-century Syrian scholar, historian and poet author of Fawa'id al-Irtihal; the biographical entry is not yet checked on the page."
+  ar: "مصطفى بن فتح الله الشافعي، الحموي ثم المكي، مؤرخ من أدباء عصره، أصله من حماة، رحل إلى دمشق واليمن واستقر بمكة وتوفي بذمار سنة ١١٢٣هـ، صاحب فوائد الارتحال ونتائج السفر في أخبار أهل القرن الحادي عشر."
+  en: "Mustafa ibn Fathallah al-Shafi'i, al-Hamawi and later al-Makki, a historian and literary man of his age whose family came from Hama; he travelled to Damascus and Yemen, settled in Mecca and died at Dhamar in 1123 AH (1711); author of Fawa'id al-Irtihal wa-Natayij al-Safar fi Akhbar Ahl al-Qarn al-Hadi Ashar."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/gunpowder-empires]
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q87474494
   viaf: "314814576"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0073
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 died: { edtf: "1711", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Muhibbi; al-A'lam (al-Zirikli)" }
 relations:
   - { type: lived_in, target: place/hama, confidence: low, note: "Association inferred from the nisba in the name 'Mustafa ibn Fathallah al-Hamawi'; specific residence not individually documented.", sources: [source/al-aalam] }
+  - { type: died_in, target: place/dhamar, confidence: medium, note: "Al-Zirikli, al-A'lam vol. 7 p. 233: he died at Dhamar in Yemen.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+  - { type: lived_in, target: place/mecca, confidence: medium, note: "Al-Zirikli, al-A'lam vol. 7 p. 233: he settled in Mecca.", sources: [source/alam-zirikli-dar-al-ilm-2002] }

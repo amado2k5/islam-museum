@@ -3,29 +3,29 @@ class: person
 label:
   ar: "محمد مهدي النراقي"
   en: "Muhammad Mahdi al-Naraqi"
-roles: [scholar]
+roles: [scholar, jurist]
 gender: male
 themes: [mathematics, philosophy-and-logic]
 summary:
-  ar: "بطاقة أولية لمحمد مهدي النراقي، رياضي ومتكلم إيران القرن الثامن عشر، توفي سنة ١٧٩٥م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Muhammad Mahdi al-Naraqi, the eighteenth-century Iranian mathematician and theologian, d. 1795; the biographical entry is not yet checked on the page."
+  ar: "مهدي بن أبي ذر النراقي الكاشاني، فقيه إمامي، أي من الشيعة الاثني عشرية، توفي سنة ١٢٠٩هـ الموافقة ١٧٩٤م بحسب الأعلام، ومن كتبه أنيس المجتهدين في أصول الفقه وجامع الأفكار وجامع السعادات في الأخلاق والتجريد."
+  en: "Mahdi ibn Abi Dharr al-Naraqi al-Kashani, an Imami (Twelver Shi'i) jurist, who died in 1209 AH, 1794 CE according to al-A'lam; his books include Anis al-Mujtahidin on legal theory, Jami' al-Afkar, Jami' al-Sa'adat on ethics and al-Tajrid."
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/gunpowder-empires]
 born: { edtf: "1716", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica; al-A'lam" }
-died: { edtf: "1795", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica; al-A'lam" }
+died: { edtf: "1795", calendar: gregorian, precision: year, derived: true, note: "The card's 1795 is kept; al-A'lam vol. 7 p. 311 prints 1209 AH = 1794 CE, and 1209 AH runs from August 1794 to July 1795; source: al-Zirikli, al-A'lam, 15th ed. 2002", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
   - { type: born_in, target: place/naraq, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q644686)" }
   - { type: died_in, target: place/najaf, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q168193)" }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q6400779
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0043
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3

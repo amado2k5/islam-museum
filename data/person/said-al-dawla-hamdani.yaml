@@ -6,23 +6,24 @@ label:
 roles: [ruler]
 gender: male
 summary:
-  ar: "بطاقة أولية لأبي الفضائل سعيد الدولة، أمير حلب الحمداني من سنة ٩٩١م إلى ١٠٠٢م؛ تذكره معاجم الدول الإسلامية ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abu'l-Fada'il Sa'id al-Dawla, the Hamdanid amir of Aleppo from 991 to 1002; the dynastic handbook entry is not yet checked on the page."
+  ar: "سعيد بن شريف بن علي الحمداني، أبو الفضائل، من ملوك الدولة الحمدانية في حلب ولقبه سعيد الدولة، ولي بعد أبيه سنة ٣٨١هـ وحاصره جيش مصري بقيادة بنجوتكين، ومات مسموماً بحلب سنة ٣٩٢هـ."
+  en: "Sa'id ibn Sharif ibn Ali al-Hamdani, Abu al-Fada'il, a Hamdanid king in Aleppo titled Sa'id al-Dawla; he succeeded his father in 381 AH, was besieged by an Egyptian army under Banjutakin, and died poisoned in Aleppo in 392 AH (1002)."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/buyid-seljuk-fatimid-era]
-sources: [source/bosworth-new-islamic-dynasties-1996]
+sources: [source/bosworth-new-islamic-dynasties-1996, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q1397334
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: Bosworth, The New Islamic Dynasties (1996) — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0040
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 died: { edtf: "1002", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Kamil Confirmed on 13 November 2026 against Wikidata Q1397334 (P570, a statement with a reference), item revision 2563283632.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/humdan, confidence: low, note: "Association inferred from the nisba 'الحمداني'; specific birthplace or residence is not individually documented.", sources: [source/bosworth-new-islamic-dynasties-1996] }
+  - { type: died_in, target: place/aleppo, confidence: medium, note: "Al-Zirikli, al-A'lam vol. 3 p. 94: he died poisoned in Aleppo.", sources: [source/alam-zirikli-dar-al-ilm-2002] }

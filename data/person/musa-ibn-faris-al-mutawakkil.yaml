@@ -3,33 +3,27 @@ class: person
 label:
   ar: "موسى بن فارس المتوكل"
   en: "Musa ibn Faris al-Mutawakkil"
-roles: [vizier]
+roles: [ruler]
 gender: male
 summary:
-  ar: "بطاقة أولية لموسى بن فارس المتوكل، الوزير المريني؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Musa ibn Faris al-Mutawakkil, the Marinid vizier; his entry is not yet checked on the page."
+  ar: "موسى بن فارس بن علي المريني، أبو فارس المتوكل على الله، من ملوك الدولة المرينية بالمغرب الأقصى، من أبناء الملوك المبعدين إلى الأندلس، جهزه الغني بالله ابن الأحمر فانتزع فاس وبويع سنة ٧٨٦هـ وسمه من دسه له الوزير ابن ماساي، وتوفي سنة ٧٨٨هـ الموافقة ١٣٨٦م."
+  en: "Musa ibn Faris ibn Ali al-Marini, Abu Faris al-Mutawakkil 'ala Allah, a king of the Marinid state in the far Maghrib, one of the sons of the kings exiled to al-Andalus; equipped by al-Ghani billah ibn al-Ahmar, he took Fez, was pledged allegiance in 786 AH and was poisoned at the instigation of his vizier Ibn Masay; he died in 788 AH, 1386 CE."
 wings: [people]
 regions: [maghreb]
 periods: [period/crusades-ayyubid-mamluk]
-born: { edtf: "1350~", precision: decade, status: tradition, derived: true }
-died: { edtf: "1386", precision: year, status: tradition, derived: true }
-sources: [source/al-aalam]
+born: { edtf: "1356", calendar: gregorian, precision: year, derived: true, note: "757 AH = 1356 CE as printed in the entry; the card had about 1350; source: al-Zirikli, al-A'lam, 15th ed. 2002, vol. 7 p. 315", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+died: { edtf: "1386", calendar: gregorian, precision: year, derived: true, note: "788 AH = 1386 CE as printed in the entry; source: al-Zirikli, al-A'lam, 15th ed. 2002, vol. 7 p. 315", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q16873135
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
-occupations:
-  - job: job/vizier
-    kind: primary
-    status: historical
-    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
-    sources: [source/al-aalam]
+  completeness: 3
 relations:
-  - { type: lived_in, target: place/fars, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/al-aalam] }
+  - { type: lived_in, target: place/fez, confidence: medium, note: "Entry: he went on to Fez, met no resistance and settled there (al-A'lam vol. 7 p. 315); replaces the card's Fars edge, which does not match.", sources: [source/alam-zirikli-dar-al-ilm-2002] }

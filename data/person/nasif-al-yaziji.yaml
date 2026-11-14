@@ -3,28 +3,29 @@ class: person
 label:
   ar: "ناصيف اليازجي"
   en: "Nasif al-Yaziji"
-roles: [writer]
+roles: [writer, poet]
 gender: male
 summary:
-  ar: "بطاقة أولية لناصيف اليازجي، الأديب واللغوي اللبناني من أعلام النهضة العربية في القرن التاسع عشر؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Nasif al-Yaziji, the Lebanese writer and philologist of the nineteenth-century Arab renaissance; his entry is not yet checked on the page."
+  ar: "ناصيف بن عبد الله بن ناصيف بن جنبلاط، الشهير باليازجي، شاعر من كبار الأدباء في عصره، أصله من حمص ومولده في كفرشيما بلبنان ووفاته ببيروت ١٢١٤ إلى ١٢٨٧هـ الموافقة ١٨٠٠ إلى ١٨٧١م، خدم الأمير بشير الشهابي في الكتابة نحو اثنتي عشرة سنة ثم انقطع للتأليف والتدريس."
+  en: "Nasif ibn Abd Allah ibn Nasif ibn Janbalat, known as al-Yaziji, a poet and one of the leading men of letters of his time; his family was from Homs, he was born at Kafarshima in Lebanon and died in Beirut, 1214 to 1287 AH, 1800 to 1871 CE; he served the Emir Bashir al-Shihabi as a scribe for about twelve years, then gave himself to writing and teaching."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/colonial-era]
-died: { edtf: "1871", precision: year, status: tradition, derived: true }
+born: { edtf: "1800", calendar: gregorian, precision: year, derived: true, note: "1214 AH = 1800 CE as printed in the entry; source: al-Zirikli, al-A'lam, 15th ed. 2002, vol. 7 p. 346", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+died: { edtf: "1871", calendar: gregorian, precision: year, derived: true, note: "1287 AH = 1871 CE as printed in the entry; source: al-Zirikli, al-A'lam, 15th ed. 2002, vol. 7 p. 346", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
-  - { type: born_in, target: place/kfarshima, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q3055952)" }
-  - { type: died_in, target: place/bayrut, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q3820)" }
-sources: [source/al-aalam, source/wikidata]
+  - { type: born_in, target: place/kfarshima, sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q3055952); entry: born at Kafarshima in Lebanon (al-A'lam vol. 7 p. 346)." }
+  - { type: died_in, target: place/bayrut, sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q3820); entry: died in Beirut (al-A'lam vol. 7 p. 346)." }
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q4166020
   viaf: "90060796"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3

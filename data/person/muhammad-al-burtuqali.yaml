@@ -6,8 +6,8 @@ label:
 roles: [sultan]
 gender: male
 summary:
-  ar: "بطاقة أولية لمحمد البرتقالي، سلطان الوطاسيين في فاس الذي حكم من ١٥٠٤ إلى ١٥٢٦م زحف البرتغاليين؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Muhammad al-Burtuqali, the Wattasid sultan of Fez from 1504 to 1526 amid the Portuguese pressure; his entry is not yet checked on the page."
+  ar: "محمد بن محمد الشيخ بن أبي زكرياء الوطاسي، أبو عبد الله البرتقالي: ثاني ملوك الدولة الوطاسية بفاس، بويع سنة 910هـ، وقاتل البرتغال في آصيلا، وتوفي بفاس سنة 932هـ."
+  en: "Muhammad ibn Muhammad al-Shaykh ibn Abi Zakariyya al-Wattasi, Abu Abdallah al-Burtuqali: the second king of the Wattasid state at Fez, pledged to in 910 AH, who fought the Portuguese at Asila and died at Fez in 932 AH."
 wings: [people]
 regions: [maghreb]
 periods: [period/gunpowder-empires]
@@ -15,15 +15,16 @@ died: { edtf: "1526", precision: year, status: tradition, derived: true }
 relations:
   - { type: born_in, target: place/fes, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q80985)" }
   - { type: died_in, target: place/morocco, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q1028)" }
-sources: [source/tarikh-ibn-khaldun-ibar]
+  - { type: died_in, target: place/fes, note: "Al-Zirikli, al-A'lam vol. 7 p. 29: died at Fez.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }
+sources: [source/tarikh-ibn-khaldun-ibar, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q307599
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
