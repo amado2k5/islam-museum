@@ -3319,3 +3319,19 @@ Resume point: sharh-saheeh-al-bukhare episode 2 (branch from origin/main).
 | Garbled sentences on the sheep and on naming God at slaughter | ep26 00:07:30-00:08:30 | Partly unrecoverable wording, kept only the clear sense | Clarity | Open |
 
 Resume point: min-kunuz-al-sunnah episode 27 (branch from origin/main).
+
+### min-kunuz-al-sunnah ep27 (14 Nov 2026)
+
+14 points written for episode 27 (ar, en, ur); 13 needs_source marks in each language file for this episode; 3 new `about` edges. Quran verses referenced only through passage links (59-7, 49-11, 2-195, 2-67, 16-8, 67-2, 5-112, 2-219, 2-215, 2-189, 2-186); none typed. Contested: He applies the hadith to rule that a gold-coated watch and artificial silk are lawful for men while pure gold and natural silk are not, calls the death of one who ignores traffic or sea warnings akin to suicide, and ranks backbiting as graver than demolishing the Kaaba; all are his views.
+
+| Excluded (min-kunuz-al-sunnah ep27) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening praise, greeting and salutations | ep27 00:00:00-00:00:30 | Greeting and invocation, not content | Content rule | Open |
+| Break join, closing prayer, farewell | ep27 00:08:30-00:09:00, 00:16:00-00:16:30, 00:23:30-00:24:00 | Break join, closing prayer and farewell | Content rule | Open |
+| Remark that the people of this or that country or tribe are cowardly or miserly, and the claim about the daily word count of Arab men and women against others | ep27 00:04:30-00:05:00, 00:08:00-00:08:30 | Sweeping claims about peoples and women | Voice rule | Open |
+| Remarks on a woman applying make-up while driving | ep27 00:11:30-00:12:00 | Gendered aside, not needed for the point | Voice rule | Open |
+| Jokes about Ramadan, employees and news agencies | ep27 00:05:30-00:06:00, 00:07:00-00:07:30 | Garbled aside, not recoverable | Clarity, Loop check | Open |
+| Repeated filler word loop | ep27 00:12:00-00:12:30 | ASR loop, no content | Clarity, Loop check | Open |
+| Garbled Arabic recitation of the hadith | ep27 00:16:30-00:17:00 | Garbled ASR of a hadith already covered | Clarity, Loop check | Open |
+
+Resume point: min-kunuz-al-sunnah episode 28 (branch from origin/main).
