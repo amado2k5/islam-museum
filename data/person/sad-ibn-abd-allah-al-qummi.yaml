@@ -1,29 +1,53 @@
 id: person/sad-ibn-abd-allah-al-qummi
 class: person
 label:
-  ar: "سعد بن عبد الله القمي"
-  en: "Sa'd ibn 'Abd Allah al-Qummi"
-roles: [scholar]
+  ar: سعد بن عبد الله القمي
+  en: Sa'd ibn 'Abd Allah al-Qummi
+roles:
+- jurist
+- scholar
 gender: male
 summary:
-  ar: "بطاقة أولية لسعد بن عبد الله القمي؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Sa'd ibn 'Abd Allah al-Qummi; the entry is not yet checked on the page."
-wings: [people]
-regions: [persia-central-asia]
-periods: [period/umayyad]
-sources: [source/al-aalam, source/wikidata]
+  ar: سعد بن عبد الله الأشعري القمي، أبو القاسم، فقيه إمامي من أهل قم سافر كثيراً في طلب الحديث، من كتبه «مقالات الإمامية» و«فضل قم والكوفة»، توفي سنة 300هـ.
+  en: Imami (Shi'i) jurist Sa'd ibn Abd Allah al-Ash'ari al-Qummi, Abu al-Qasim, of Qum, who travelled much for hadith, whose books include Maqalat al-Imamiyya and Fadl Qum wa al-Kufa, d. 300 AH.
+wings:
+- people
+regions:
+- persia-central-asia
+periods:
+- period/abbasid-early
+sources:
+- source/al-aalam
+- source/wikidata
+- source/alam-zirikli-dar-al-ilm-2002
 external_ids:
   wikidata: Q115769239
-  viaf: "72982166"
+  viaf: '72982166'
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text
+  generated_by: Claude Code (Lane B2 packet)
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
-died: { edtf: "914", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Rijal al-Najashi Confirmed on 13 November 2026 against Wikidata Q115769239 (P570, a statement with a reference), item revision 2565194340.", sources: [source/wikidata] }
+  completeness: 3
+died:
+  edtf: '913'
+  hijri: '0300'
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: 'al-Zirikli, al-A''lam, 15th ed. 2002, vol. 3 p. 82: d. 300 AH = 913 CE; the earlier card date 914 (Wikidata, from Rijal al-Najashi) is replaced by the entry''s date; the card''s Umayyad period is corrected to early Abbasid.'
+  sources:
+  - source/alam-zirikli-dar-al-ilm-2002
 relations:
-  - { type: lived_in, target: place/qumm, confidence: low, note: "Association inferred from the nisba in the name 'Sa'd ibn 'Abd Allah al-Qummi'; specific residence not individually documented.", sources: [source/al-aalam] }
+- type: lived_in
+  target: place/qumm
+  confidence: low
+  note: Association inferred from the nisba in the name 'Sa'd ibn 'Abd Allah al-Qummi'; specific residence not individually documented.
+  sources:
+  - source/al-aalam
+traditions:
+- shia-twelver
