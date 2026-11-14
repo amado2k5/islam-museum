@@ -4635,3 +4635,29 @@ Resume point: alwaad-alhaq episode 33 (branch from origin/main).
 GEMINI: alwaad-alhaq ep32 (00:54:30) the report of Umar asking a man his name and clan that carried the meaning of fire and telling him his family had burned; the transcript garbles the names; which collection (probably Malik's Muwatta) gives the exact names and wording?
 GEMINI: alwaad-alhaq ep32 (00:57:00) the saying "the flesh of the learned is poisoned" attributed by the sheikh to Ibn al-Jawzi; the source that would settle it is the earliest book attributing it (commonly cited to Ibn Asakir), to confirm the attribution.
 GEMINI: alwaad-alhaq ep32 (00:25:30) the hadith "among the greatest betrayals with God is a man confiding to his wife and she spreads it", which the sheikh places in Muslim; the exact text and number in Sahih Muslim would settle the wording.
+### sharh-saheeh-al-bukhare ep40 (14 Nov 2026)
+
+26 points written for episode 40 (ar, en, ur); 17 needs_source marks in each language file for this episode; 14 new `about` edges. Quran verses referenced only through passage links (46-20); none typed. Contested: He is made to hold that the expeditions before Badr were not piracy because Companions had left property in Mecca and may recover it, that zakat funds may be used to marry off poor young men, and that the Arab wars before Islam were a divine training; all are his own arguments, not established positions. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep40) | Episode / time | Reason | Gate failed | Override |
+| Greetings, opening praise and prayer, closing prayer and farewell | ep40 00:00:00-00:03:00 and 01:24:30 | Opening supplication and closing greeting, not lesson content | Content rule | Open |
+| Stretch dropped under the content-safety block | ep40 00:02:00-00:03:00 | Supplication naming groups and conflicts, dropped under the content-safety block | Content rule | Open |
+| Sweeping claims about a country, its people and a modern conflict, with calls against them | ep40 00:03:00-00:07:30, 00:09:00-00:10:30 | Sweeping modern political claims and calls against a nation, not the lesson | Voice rule | Open |
+| Claims about the rise of Western countries, their people and their mosques | ep40 00:45:00-00:46:30 | Sweeping claim about nations and modern politics | Voice rule | Open |
+| Saying about the market naming a people, and a call to boycott goods of certain states | ep40 00:46:30-00:47:30, 00:49:30-00:50:00 | Sweeping claims about a people and about states | Voice rule | Open |
+| Sweeping claims about Western peoples by skin and eye colour, and a story about a foreigner's view of Africans | ep40 00:48:00-00:49:30 | Demeaning generalisations about peoples | Voice rule | Open |
+| Modern prisons and political movement stretch | ep40 01:18:00-01:19:00 | Claim about modern conflict, also garbled | Voice rule, Clarity | Open |
+| Marriage and divorce anecdotes about men and women, household quarrels | ep40 00:26:00-00:28:30, 00:32:00-00:34:00 | Garbled in both passes and generalising about women | Clarity, Voice rule | Open |
+| Anecdote of a Companion and his mother, and sleeping-side and heart remarks | ep40 00:17:00-00:20:00 | Names and sense differ between the two passes | Clarity | Open |
+| Metre and kilometre conversions, distances to Badr and Tabuk | ep40 00:36:30-00:38:30, 00:38:30-00:39:30 | The two passes give different numbers | Clarity | Open |
+| Sword, mule and household animal reports | ep40 00:40:30-00:42:30 | Garbled and not supported by both passes | Clarity | Open |
+| Counts of expeditions and detachments, name of the first detachment's leader | ep40 00:50:00-00:50:30, 00:54:00 | The two passes read the counts and the first leader differently, so none is stated | Clarity | Open |
+| Persian commander and honey-jar story, shepherd and security remarks | ep40 00:56:00-00:58:30 | Garbled and read differently in the two passes | Clarity | Open |
+| Poetry verses, cousin-marriage story and its names | ep40 01:04:30-01:08:30 | Verses and names garbled and contradict between passes | Clarity | Open |
+| Names of the Quraysh leaders at the Kaaba and in the exchange, left unnamed | ep40 01:12:00-01:15:30 | Names rest on garbled words | Clarity | Open |
+| Pairing of Ali with the Prophet in the brotherhood | ep40 00:35:30-00:36:30 | Garbled in both passes | Clarity | Open |
+| Collection box and administrative announcements | ep40 01:21:30-01:23:00 | Administrative and garbled | Clarity | Open |
+| Loops and repeated syllables in the first pass | ep40 00:04:30, 00:06:30, 00:14:30-00:15:30, 00:18:00-00:19:00, 00:22:00, 00:26:30-00:28:30, 00:30:00, 00:38:00, 00:44:00, 00:55:30-00:58:00, 01:08:00-01:08:30, 01:11:00, 01:17:30-01:18:00, 01:20:00-01:20:30 | Repetition loops, no recoverable content | Clarity, Loop check | Open |
+| Second ASR pass: Whisper large-v3 (mlx) run on the Mac to resolve garbled words of the Qwen transcript; cites use the shared 30-second grid | ep40 whole | Qwen pass garbled | Clarity | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 41 (branch from origin/main).
