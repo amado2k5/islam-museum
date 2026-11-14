@@ -1,0 +1,11 @@
+---
+id: event/abu-al-qasim-tells-his-dream-of-the-sons-of-yafur-and-the-rising-of-the-prisons-291
+lang: en
+source_lang: ar
+translators: ["Claude Sonnet 5.5 (claude-sonnet-5-5), draft translation"]
+---
+## Overview
+Ali ibn Muhammad said: Muhammad ibn Sa'id told me that Abu al-Qasim said to him one day: know that tonight I saw in a dream as if the two sons of Ya'fur came in to us in this fort, freed us from this prison and fetter and seated me between them while they grieved and spoke kindly; we stayed with them some days, then they sent us a robe of honour and mounts and we went away; and he answered him that so it would be, God willing {cite:sira-hadi-ila-al-haqq p.270}. Then, the narrator says, they stayed on, and [[person/ibrahim-ibn-khalaf-ibn-tarif|Ibn Khalaf]] went out to the east of Khawlan over a matter that befell him, leaving Jarrah at Hadur; Jarrah came down to [[place/sanaa|Sana'a]], broke its prison and let out those in it, and those of al-Hadi's companions who were there went out under no man's favour and joined him; al-Yafi'i came down to Bayt Khawlan, and the troop of the slaves left it {cite:sira-hadi-ila-al-haqq p.270}.
+
+## Detail
+So it went until Friday, the twenty-third of Safar, when a body of the troops of the two sons of Ya'fur came in sight of the narrator and his master at [[place/bayt-bus-sanaa-yemen|Bayt Bus]], plundered sheep that were grazing round the fort, and went back to camp near it for the night {cite:sira-hadi-ila-al-haqq p.270}. The page does not name the place east of Khawlan to which Ibn Khalaf went, and the book does not say who Jarrah was; "Hadur" is given as printed. On reaching Sa'da, on p. 274, Abu al-Qasim asks the narrator how he saw the dream, which recalls it to the reader. The date is to the month: the Friday named did not match the tabular calendar in the museum's check, and the year 291 AH is derived from the order of the report, which follows [[event/abu-al-qasim-ibn-al-hadi-is-chained-at-sanaa-and-moved-to-bayt-bus-290|his chaining at Sana'a and move to Bayt Bus]] and [[event/jaftam-is-seized-at-arthal-and-jailed-at-bayt-bus-290|the seizing of Jaftam]]. This is a Zaydi book in the voice of the imam's followers; the dream is given as the narrator tells it, with no verdict in the museum's voice.
