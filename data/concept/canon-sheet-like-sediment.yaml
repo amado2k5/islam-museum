@@ -1,0 +1,18 @@
+id: concept/canon-sheet-like-sediment
+class: concept
+kind: scientific
+label: { ar: "الرسوب الصفائحي القشوري عند ابن سينا", en: "Sheet-like, scaly sediment in the Canon", ur: "پرت دار پپڑی نما تلچھٹ قانون میں" }
+summary:
+  ar: "يذكر ابن سينا أن الخراطي القشوري منه صفائحي كبير الأجزاء أبيض وأحمر، ويدل على انفصاله من أعضاء قرب مجرى البول، وأن الأبيض من المثانة والأحمر اللحمي من الكلية. {cite:canon-ibn-sina-print-v1 p.194}."
+  en: "Ibn Sina says the scraped, scaly sediment includes a sheet-like kind in large pieces, white and red, which shows detachment from parts near the passage of urine: the white from the bladder, the red fleshy from the kidney. {cite:canon-ibn-sina-print-v1 p.194}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/canon-urine-in-general, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, Ta'lim 3, urine chapters 5 to 12 and the stool chapter (scan pages 192 to 199), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-urine-3
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

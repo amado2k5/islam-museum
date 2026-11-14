@@ -1,0 +1,18 @@
+id: concept/canon-clotty-sediment
+class: concept
+kind: scientific
+label: { ar: "الرسوب العلقي عند ابن سينا", en: "Clotted sediment in the Canon", ur: "لوتھڑے دار تلچھٹ قانون میں" }
+summary:
+  ar: "يذكر ابن سينا أن الرسوب العلقي الشديد الممازجة يدل على ضعف الكبد، ودون ذلك على جراحة في مجاري البول، والمتميز أكثره من المثانة والقضيب، ويحيل التفصيل إلى باب بول الدم. {cite:canon-ibn-sina-print-v1 p.195}."
+  en: "Ibn Sina says closely mixed clotted sediment shows weakness of the liver, less mixed shows a wound in the urinary passages, and separate clots come mostly from the bladder and penis; he defers detail to the section on bloody urine. {cite:canon-ibn-sina-print-v1 p.195}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/canon-urine-in-general, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, Ta'lim 3, urine chapters 5 to 12 and the stool chapter (scan pages 192 to 199), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-urine-3
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

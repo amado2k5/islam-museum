@@ -1,0 +1,18 @@
+id: concept/canon-sediment-in-the-sick-and-the-healthy
+class: concept
+kind: scientific
+label: { ar: "الرسوب عند المرضى والأصحاء والسمان والقضاف عند ابن سينا", en: "Sediment in the sick and the healthy, the fat and the lean, in the Canon", ur: "بیماروں، تندرستوں، موٹوں اور دبلوں میں تلچھٹ قانون میں" }
+summary:
+  ar: "يبين ابن سينا أن طلب الرسوب الجيد يكون في المرض لا في الصحة، وأن الرسوب يقل عند القضاف ويكثر عند السمان، وأن المريض النحيف لا يتوقع منه ما يتوقع من السمين. {cite:canon-ibn-sina-print-v1 p.193}."
+  en: "Ibn Sina says good sediment is looked for in illness, not in health, and that it is scarce in the lean and plentiful in the fat, so a thin patient is not expected to show what a stout one does. {cite:canon-ibn-sina-print-v1 p.193}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/canon-urine-in-general, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, Ta'lim 3, urine chapters 5 to 12 and the stool chapter (scan pages 192 to 199), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-urine-3
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

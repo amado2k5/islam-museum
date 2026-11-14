@@ -1,0 +1,18 @@
+id: concept/canon-gruel-like-sediment
+class: concept
+kind: scientific
+label: { ar: "الرسوب السويقي والدشيشي عند ابن سينا", en: "Meal-like and gruel-like sediment in the Canon", ur: "ستو اور دلیے جیسی تلچھٹ قانون میں" }
+summary:
+  ar: "يذكر ابن سينا أن السويقي والدشيشي أكثره من احتراق الدم إن مال إلى الحمرة ومن ذوبان الأعضاء إن مال إلى البياض، وأن المائل إلى السواد من احتراق الدم، وهو رديء في الأمراض الحادة. {cite:canon-ibn-sina-print-v1 p.194}."
+  en: "Ibn Sina says the meal-like and gruel-like sediment comes mostly from burning of blood when red, and from the melting of organs when whitish; the black kind comes from burnt blood and is bad in acute diseases. {cite:canon-ibn-sina-print-v1 p.194}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/canon-urine-in-general, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, Ta'lim 3, urine chapters 5 to 12 and the stool chapter (scan pages 192 to 199), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-urine-3
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

@@ -1,0 +1,18 @@
+id: concept/canon-sediment-by-quantity-and-colour
+class: concept
+kind: scientific
+label: { ar: "دلالة الرسوب من كميته ولونه عند ابن سينا", en: "What sediment shows by its quantity and colour in the Canon", ur: "مقدار اور رنگ کے لحاظ سے تلچھٹ کی دلالت قانون میں" }
+summary:
+  ar: "يبين ابن سينا أن كثرة الرسوب وقلته تدلان على كثرة السبب الفاعل وقلته، وأن لونه يدل: فالأسود رديء والأحمر دموي وتخمة والأصفر شدة حرارة والأبيض محمود أو مذموم والأخضر طريق إلى الأسود. {cite:canon-ibn-sina-print-v1 pp.195-196}."
+  en: "Ibn Sina says much or little sediment shows much or little of the producing cause, and that colour speaks: black is bad, red shows blood and indigestion, yellow strong heat, white is praised or blamed by kind, and green is a road to black. {cite:canon-ibn-sina-print-v1 pp.195-196}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/canon-urine-in-general, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, Ta'lim 3, urine chapters 5 to 12 and the stool chapter (scan pages 192 to 199), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-urine-3
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }
