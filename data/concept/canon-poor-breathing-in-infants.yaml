@@ -1,0 +1,18 @@
+id: concept/canon-poor-breathing-in-infants
+class: concept
+kind: scientific
+label: { ar: "سوء التنفس عند الصبيان عند ابن سينا", en: "Poor breathing in infants in the Canon", ur: "قانون میں بچوں کی سانس کی تکلیف" }
+summary:
+  ar: "يذكر ابن سينا سوء التنفس عند الطفل، وعلاجه بدهن أصول الأذنين وأصل اللسان بالزيت والتقيؤ وكبس اللسان وتقطير الماء الحار في الفم ولعوق بزر الكتان بالعسل {cite:canon-ibn-sina-print-v1 p.214}."
+  en: "Ibn Sina mentions poor breathing in a child and its treatment: oiling the roots of the ears and the base of the tongue, making it vomit, pressing the tongue down, dripping hot water into the mouth and a lick of flaxseed with honey {cite:canon-ibn-sina-print-v1 p.214}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/disease, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 3, Ta'lim 1 on upbringing, chapters 3 and 4 (scan pages 211 to 220), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-p211
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

@@ -4505,6 +4505,20 @@ Resume point: alwaad-alhaq episode 28 (branch from origin/main).
 
 Resume point: alwaad-alhaq episode 29 (branch from origin/main).
 
+### alwaad-alhaq ep29 (14 Nov 2026)
+
+27 points written for episode 29 (ar, en, ur); 22 needs_source marks for this episode in each language file; links added to fear, the Sirat, voluntary acts, the hijab, the fitra, Jahannam, the Fire, showing off, miserliness, hypocrisy, truthfulness, repentance, the sacred hadith, whim, the sound heart, treachery, lying, al-Hasan al-Basri and al-Fudayl ibn Iyad. Quran verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
+
+| Excluded (alwaad-alhaq ep29) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Chain of the sheikh's remarks on a modern writer's claim about Ibrahim and Ismail | ep29 00:12:00-00:12:30 | Garbled; no name or source recoverable | Clarity | Open |
+| Poem recited around the Eid sermon of al-Qasri | ep29 00:11:30 | Garbled verse text; cannot be restored without a source | Citation, Clarity | Open |
+| Details of the punishment of the two Maghribi men in the Nur al-Din story | ep29 00:14:30-00:15:00 | Garbled and loops; only 'they were punished' kept | Clarity, Loop check | Open |
+| Passage on fiqh and fatwa about the Muslim's relation to government law and Caesar | ep29 00:35:30-00:36:00 | Garbled and loops | Clarity | Open |
+| Hadith details about the five people of the Fire fifth type and the Zubr wording | ep29 00:56:00-00:58:30 | Garbled; fifth type kept in softened form | Clarity | Open |
+| Stretches with loops or unreadable text (rhetorical 'ya Ibn Ammar', the fifth person, Paradise and Fire story) | ep29 00:08:30, 00:10:30, 00:12:30, 00:22:30, 00:25:30, 00:26:30-00:27:30, 00:34:00, 00:37:30, 00:40:00, 00:41:30-00:42:30, 00:56:00, 01:00:00-01:00:30, 01:03:00-01:03:30, 01:09:30-01:10:00, 01:13:00 | Repeated loops and unreadable text | Loop check | Open |
+
+Resume point: alwaad-alhaq episode 30 (branch from origin/main).
 ### sharh-saheeh-al-bukhare ep38 (14 Nov 2026)
 
 26 points written for episode 38 (ar, en, ur); 17 needs_source marks in each language file for this episode; 6 new `about` edges. Quran verses referenced only through passage links (9-84, 23-14, 59-8); none typed. Contested: He holds that whoever believes the Qur'an was altered has left the faith, and that whoever speaks ill of Abu Bakr will be struck by God's curse; both are his own rulings and are marked as his view, and the Sunna-and-Qur'an argument is his answer to those who take the Qur'an alone. Checked line by line against the transcript by a second reader before merge.
@@ -4536,3 +4550,50 @@ Resume point: alwaad-alhaq episode 29 (branch from origin/main).
 | Second ASR pass: Whisper large-v3 (mlx) run on the Mac to resolve garbled words of the Qwen transcript; cites use the shared 30-second grid | ep38 whole | Qwen pass garbled | Clarity | Open |
 
 Resume point: sharh-saheeh-al-bukhare episode 39 (branch from origin/main).
+
+### alwaad-alhaq ep30 (14 Nov 2026)
+
+25 points written for episode 30 (ar, en, ur); 21 needs_source marks for this episode in each language file; the sheikh's reports on Umar ibn Abd al-Aziz, Abu Hazim and Abu Ayyub marked as told without chain. Quran verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
+
+| Excluded (alwaad-alhaq ep30) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Story of Ata ibn Abi Rabah in the market and the trader's offer | ep30 00:18:30-00:20:00 | Garbled in the Qwen pass, the central line is unreadable | Clarity | Open |
+| Remark on the number nineteen of the keepers of the Fire and what commentators made of it | ep30 00:30:00-00:30:30 | Garbled and the figures are unclear | Clarity | Open |
+| Story of a son asking his father about the sultan and Ibn Taymiyya | ep30 00:42:30-00:43:00 | Garbled, speakers and quotation cannot be told apart | Clarity | Open |
+| Football player transfer analogy and the lecture on predestination, happiness and wretchedness | ep30 00:52:30-00:54:30 | Garbled and loops, the argument cannot be recovered | Clarity, Loop check | Open |
+| Remarks on Adam's disobedience, covering women and marrying daughters to suitors | ep30 01:00:30-01:01:30 | Garbled and sweeping | Clarity, Voice rule | Open |
+| Remark on the hijab and 'the quran was for 1,426 years' | ep30 01:03:00-01:03:30 | Garbled, claim unclear | Clarity | Open |
+| Loops and filler repeated phrases | ep30 00:08:30, 00:12:30, 00:15:00-00:16:00, 00:17:00, 00:26:00, 00:41:30-00:44:00, 00:53:00, 01:11:30, 01:15:30 | Repeated filler in the Qwen pass | Clarity, Loop check | Open |
+
+Resume point: alwaad-alhaq episode 31 (branch from origin/main).
+GEMINI: alwaad-alhaq ep30 (00:36:30-00:37:30): the transcript has "Abu Hazim" calling the ruler "the hired man" before Muawiya; the better-known report is of Abu Hazim al-A'raj with a Umayyad caliph (possibly Sulayman ibn Abd al-Malik); source needed to settle which caliph and which Abu Hazim.
+GEMINI: alwaad-alhaq ep30 (00:16:30-00:17:00): the exchange about piety as walking in thorny land is garbled ("Abu Ghar"?); it is usually told of Umar and Ubayy ibn Ka'b; a primary source (e.g. Ibn Abi al-Dunya or Tafsir al-Tabari on al-Baqara 2) would settle the speakers.
+GEMINI: alwaad-alhaq ep30 (00:48:30-00:49:30): the dream of Abu Ayyub about a man in Paradise who gathered orphans on Friday nights; the transcript is garbled and the report's source is unknown.
+### sharh-saheeh-al-bukhare ep39 (14 Nov 2026)
+
+29 points written for episode 39 (ar, en, ur); 16 needs_source marks in each language file for this episode; 5 new `about` edges. Quran verses referenced only through passage links (33-72, 22-46, 33-36, 15-6); none typed. Contested: He holds that taking only the pleasing parts of the Qur'an is forbidden, that remembering the afterlife marks the believer from the hypocrite, and that jihad reduced to earning a living falls short; these are his views, and the report on the lightened punishment of Abu Talib and the Monday report are given as reports quoted without a chain. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep39) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greetings, praise and prayer on the Prophet, naming the lesson number | ep39 00:00:00-00:00:30 | Greetings and prayer, not teaching content (only the lesson number is kept) | Content rule | Open |
+| Closing prayer and farewell, with a story of a man and a donkey that only the second pass has | ep39 01:18:00-01:19:00 | Closing prayer and farewell; the story is garbled and rests on one pass | Content rule, Clarity | Open |
+| Account of three kinds of people about food and patience | ep39 00:08:30-00:10:30 | Garbled in both passes and looping | Clarity, Loop check | Open |
+| Story of a seat and a lap, and asides on a bystander | ep39 00:13:00-00:14:30 | Garbled in both passes | Clarity | Open |
+| Loops of a repeated phrase | ep39 00:09:30-00:10:00, 00:12:00, 00:14:30, 00:15:30, 00:18:30, 00:21:00, 00:23:00-00:23:30, 00:25:00-00:25:30, 00:26:30-00:27:00 | Repeated phrase in the Qwen pass, resolved only where Whisper is clear | Clarity, Loop check | Open |
+| Asides on tests, bread and a sum of money | ep39 00:15:30-00:16:00 | Garbled and off topic | Clarity | Open |
+| Heart and mind asides, a claim about what communists, Marxists and secularists will say on the Day of Judgement, and modern political names | ep39 00:30:00-00:33:00 | Sweeping claim about groups and garbled in both passes | Voice rule, Clarity | Open |
+| Saying about not teaching wisdom to those unfit for it (second pass only, attribution unclear) | ep39 00:38:30-00:39:00 | Attribution unclear and the first pass loops there | Clarity | Open |
+| Garbled stretch on a rumour among the people and asides | ep39 00:39:00-00:39:30, 00:41:00-00:42:30 | Garbled in both passes | Clarity | Open |
+| Report of Umar weeping and Noah's prayer against his people, with the setting not recovered | ep39 00:42:30-00:43:30 | The setting and the link to the lesson are garbled, so no claim is made | Clarity | Open |
+| Garbled stretch on the converts and the leaders | ep39 00:44:30-00:45:30 | Garbled in both passes | Clarity | Open |
+| Sweeping claim that no man or woman at the time believed, and a stretch on lying | ep39 00:46:00-00:48:30 | Sweeping claim and garbled in both passes | Voice rule, Clarity | Open |
+| Account of a letter from a British prime minister and claims about Muslims in Europe and parliament | ep39 00:52:30-00:55:30 | Modern political claims about peoples, garbled in both passes | Content rule, Voice rule, Clarity | Open |
+| Offer of the Quraysh to exchange a young man for the Prophet and the reply | ep39 00:55:30-00:58:30 | Names and wording garbled and rest on one pass | Clarity | Open |
+| Words of support to the Prophet whose speaker is not clear | ep39 00:58:30-00:59:00 | Speaker not recoverable in either pass | Clarity | Open |
+| Claim about killing an apostate and asides | ep39 01:01:30-01:02:00 | Garbled and a contested ruling not recoverable | Clarity, Content rule | Open |
+| Asides on names written on paper, on the choice of leaders and on an elder's age | ep39 01:03:00-01:04:30, 01:05:30-01:06:00 | Garbled in both passes | Clarity | Open |
+| Account of a man and his son and asides on companies, aircraft and prayer | ep39 01:07:30-01:08:30, 01:08:30-01:14:00 | Garbled and looping in both passes | Clarity, Loop check | Open |
+| Account of a prayer in the Hijr of Ismail, ages of 62 and 63, and the mountains and birds with David | ep39 01:15:30-01:18:00 | Garbled, numbers differ between passes | Clarity | Open |
+| Second ASR pass: Whisper large-v3 (mlx) run on the Mac to resolve garbled words of the Qwen transcript; cites use the shared 30-second grid | ep39 whole | Qwen pass garbled | Clarity | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 40 (branch from origin/main).

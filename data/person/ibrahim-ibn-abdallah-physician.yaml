@@ -11,13 +11,13 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
-born: { edtf: "960~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Abi Usaybi'a" }
-died: { edtf: "1000~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Abi Usaybi'a" }
+born: { edtf: "15XX", calendar: gregorian, precision: century, derived: false, status: tradition, note: "Century only: Wikidata Q136330841 (P569, 1500 at century precision, item revision 2490417741, read 14 November 2026). The earlier 960 CE, attributed to Ibn Abi Usaybi'a, cannot belong to a sixteenth-century Ottoman physician and is withdrawn.", sources: [source/wikidata] }
+died: { edtf: "16XX", calendar: gregorian, precision: century, derived: false, status: tradition, note: "Century only: Wikidata Q136330841 (P570, 1600 at century precision, same revision). The earlier 1000 CE is withdrawn.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/bursa, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-  - { type: died_in, target: place/methoni, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/methoni, confidence: low, note: "Place link from Wikidata (P20 Methoni); no second source read, so unconfirmed. The man is distinct from al-Asili (Abd Allah ibn Ibrahim, 324 to 392 AH).", sources: [source/wikidata] }
 tags: [tibb-browser, tibb-tibb]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q136330841
 provenance:
