@@ -1,0 +1,18 @@
+id: concept/canon-sediment-by-position
+class: concept
+kind: scientific
+label: { ar: "دلالة الرسوب من وضعه ومكانه عند ابن سينا", en: "What sediment shows by its smoothness and its place in the flask in the Canon", ur: "ہمواری اور برتن میں جگہ کے لحاظ سے تلچھٹ کی دلالت قانون میں" }
+summary:
+  ar: "يذكر ابن سينا أن الملاسة والاستواء محمودان في المحمود وأردأ في المذموم، وأن الرسوب طافٍ ويسمى غماماً أو متعلق أو راسب، وأن الراسب أنضج في المحمود وأن الأخف أصلح في المذموم. {cite:canon-ibn-sina-print-v1 p.196}."
+  en: "Ibn Sina says smoothness and evenness are praised in good sediment and worse in bad, and that sediment floats, called cloud, hangs, or settles; the settled is more matured in good sediment and the lighter is better in bad. {cite:canon-ibn-sina-print-v1 p.196}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/canon-urine-in-general, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, Ta'lim 3, urine chapters 5 to 12 and the stool chapter (scan pages 192 to 199), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-urine-3
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

@@ -1,0 +1,18 @@
+id: concept/canon-stool-dryness-and-colour
+class: concept
+kind: scientific
+label: { ar: "يبوسة البراز ولونه عند ابن سينا", en: "Dryness and colour of the stool in the Canon", ur: "فضلے کی خشکی اور رنگ قانون میں" }
+summary:
+  ar: "يبين ابن سينا أن اليابس من البراز يدل على تعب وتحلل أو كثرة بول أو حرارة نارية، وأن اللون الطبيعي ناري خفيف، ويفصل دلالات الشديد والناقص والأبيض والأسود والأخضر. {cite:canon-ibn-sina-print-v1 p.199}."
+  en: "Ibn Sina says dry stool shows fatigue and dissolution, much urine or fiery heat, that the natural colour is lightly fiery, and he sets out what intense, pale, white, black and green stool show. {cite:canon-ibn-sina-print-v1 p.199}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/canon-stool-signs, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, Ta'lim 3, urine chapters 5 to 12 and the stool chapter (scan pages 192 to 199), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-urine-3
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }
