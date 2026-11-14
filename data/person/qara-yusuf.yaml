@@ -18,9 +18,10 @@ died: { edtf: "1420", calendar: gregorian, precision: year, derived: true, note:
 relations:
   - { type: born_in, target: place/erci, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q695365)" }
   - { type: died_in, target: place/ujan, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q785364)" }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sources: [source/tarikh-islam-hasan-ibrahim, source/biblissima]
 external_ids:
   wikidata: Q730299
+  biblissima: "Q24664"
 provenance:
   layer: own-research
   source: "Wikidata Q730299 (religion claim Islam); book source: Tarikh al-Islam (Hasan Ibrahim) — entry not yet read on the page"
