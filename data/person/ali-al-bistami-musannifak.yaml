@@ -3,27 +3,30 @@ class: person
 label:
   ar: "علي البسطامي مصنفك"
   en: "Ali al-Bistami"
-roles: [writer]
+roles: [writer, scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لعلي بن يوسف البسطامي المعروف بمصنفك، مفسر وكاتب هرات القرن الخامس عشر، توفي سنة ١٤٧٠م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ali ibn Yusuf al-Bistami 'Musannifak', the fifteenth-century exegete and writer of Herat, d. 1470; the biographical entry is not yet checked on the page."
+  ar: "علي بن محمد بن مسعود الشاهرودي البسطامي، علاء الدين، المعروف بمصنفك، باحث من سلالة فخر الدين الرازي، ولد بخراسان ونشأ في هراة وعلّم في قونية ثم الآستانة وتوفي بها سنة 875 هـ، وأكثر مصنفاته حواش وشروح."
+  en: "Ali ibn Muhammad ibn Mas'ud al-Shahrudi al-Bistami, Ala al-Din, known as Musannifak, a researcher descended from Fakhr al-Din al-Razi, born in Khurasan, raised in Herat, teacher in Konya then Istanbul, where he died in 875 AH (1470); most of his writings are glosses and commentaries."
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/mongol-post-mongol]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q42343964
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0042
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
-born: { edtf: "1400", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tashkopruzade (Shaqa'iq) Confirmed on 13 November 2026 against Wikidata Q42343964 (P569, a statement with a reference), item revision 2512614007.", sources: [source/wikidata] }
-died: { edtf: "1470", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tashkopruzade (Shaqa'iq) Confirmed on 13 November 2026 against Wikidata Q42343964 (P570, a statement with a reference), item revision 2512614007.", sources: [source/wikidata] }
+  completeness: 3
+born: { edtf: "1400", hijri: "0803", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tashkopruzade (Shaqa'iq) Confirmed on 13 November 2026 against Wikidata Q42343964 (P569, a statement with a reference), item revision 2512614007. al-A'lam vol. 5 p. 9 prints 803 AH = 1400 CE, agreeing with the card.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
+died: { edtf: "1470", hijri: "0875", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tashkopruzade (Shaqa'iq) Confirmed on 13 November 2026 against Wikidata Q42343964 (P570, a statement with a reference), item revision 2512614007. al-A'lam vol. 5 p. 9 prints 875 AH with the CE year 1370, an evident misprint; 875 AH corresponds to 1470, the card's year.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
 relations:
   - { type: lived_in, target: place/iran, note: "Only the record-level region (persia-central-asia) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }
+  - { type: lived_in, target: place/herat, note: "al-Zirikli, al-A'lam, vol. 5 p. 9: raised in Herat", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
+  - { type: lived_in, target: place/konya, note: "al-Zirikli, al-A'lam, vol. 5 p. 9: moved to Konya as a teacher", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
+  - { type: died_in, target: place/istanbul, note: "al-Zirikli, al-A'lam, vol. 5 p. 9: moved to al-Asitana (Istanbul) and died there", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }

@@ -3,28 +3,32 @@ class: person
 label:
   ar: "علاء الدولة السمناني"
   en: "Ala al-Dawla al-Simnani"
-roles: [scholar]
+roles: [scholar, mystic]
 gender: male
 summary:
-  ar: "بطاقة أولية لعلاء الدولة أحمد بن محمد السمناني، صوفي القرن الرابع عشر من بلاط الغازاني إلى طريق الرياضة، توفي سنة ١٣٣٦م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ala al-Dawla Ahmad ibn Muhammad al-Simnani, the fourteenth-century Sufi who left Ghazan's court for the way of discipline, d. 1336; the biographical entry is not yet checked on the page."
+  ar: "أحمد بن محمد بن أحمد السمناني، علاء الدولة ركن الدين، باحث من علماء الصوفية شافعي المذهب، ولد بسمنان وسكن تبريز وبغداد وتوفي ببغداد سنة 736 هـ، تقول الترجمة إن مصنفاته تزيد على ثلاثمئة، ومن كتبه العروة لأهل الخلوة."
+  en: "Ahmad ibn Muhammad al-Simnani, Ala al-Dawla Rukn al-Din, a Shafi'i researcher among the Sufi scholars, born at Simnan, resident in Tabriz and Baghdad, died in Baghdad in 736 AH (1336); his writings are said to exceed 300, among them al-Urwa li-Ahl al-Khalwa."
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/mongol-post-mongol]
 themes: [spirituality-and-sufism]
-sources: [source/shadharat-dhahab, source/wikidata]
+sources: [source/shadharat-dhahab, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q6406176
   viaf: "17351669"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: Ibn al-Imad, Shadharat al-Dhahab — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0028
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
-died: { edtf: "1336", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar al-Kamina Confirmed on 13 November 2026 against Wikidata Q6406176 (P570, a statement with a reference), item revision 2567909893.", sources: [source/wikidata] }
+  completeness: 3
+born: { edtf: "1261", hijri: "0659", calendar: gregorian, precision: year, note: "al-Zirikli, al-A'lam, vol. 1 p. 223, prints 695 - 736 AH = 1261 - 1336 CE; 1261 CE corresponds to 659 AH, so the printed 695 is read as a transposition and the card keeps 1261", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+died: { edtf: "1336", hijri: "0736", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar al-Kamina Confirmed on 13 November 2026 against Wikidata Q6406176 (P570, a statement with a reference), item revision 2567909893. al-A'lam vol. 1 p. 223 prints 736 AH = 1336 CE, agreeing with the card.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
 relations:
   - { type: lived_in, target: place/iran, note: "Only the record-level region (persia-central-asia) is attested; broad-region edge flagged for review.", sources: [source/shadharat-dhahab], confidence: low }
+  - { type: lived_in, target: place/tabriz, note: "al-Zirikli, al-A'lam, vol. 1 p. 223: he settled in Tabriz and Baghdad", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
+  - { type: lived_in, target: place/baghdad, note: "al-Zirikli, al-A'lam, vol. 1 p. 223: he settled in Tabriz and Baghdad", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
+  - { type: died_in, target: place/baghdad, note: "al-Zirikli, al-A'lam, vol. 1 p. 223: his death was in Baghdad", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }

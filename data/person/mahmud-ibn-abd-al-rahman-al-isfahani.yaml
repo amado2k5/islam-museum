@@ -3,30 +3,33 @@ class: person
 label:
   ar: "محمود بن عبد الرحمن الأصفهاني"
   en: "Mahmud ibn Abd al-Rahman al-Isfahani"
-roles: [scholar]
+roles: [scholar, writer]
 gender: male
 summary:
-  ar: "بطاقة أولية لمحمود بن عبد الرحمن الأصفهاني، فقيه فارسي القرن الرابع عشر، توفي سنة ١٣٤٩م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Mahmud ibn Abd al-Rahman al-Isfahani, the fourteenth-century Persian jurist, d. 1349; the biographical entry is not yet checked on the page."
+  ar: "محمود بن عبد الرحمن، أبو الثناء، شمس الدين الأصفهاني، مفسر عالم بالعقليات، وُلد وتعلم في أصبهان ثم رحل إلى دمشق ثم القاهرة حيث كان شيخ الخانقاه التي بناها له الأمير قوصون بالقرافة، وله تفسير وشروح في الكلام والمنطق والأصول، مات بالطاعون سنة 749 هـ."
+  en: "Mahmud ibn Abd al-Rahman, Abu al-Thana', Shams al-Din al-Isfahani, an exegete learned in the rational sciences, born and educated in Isfahan, who went to Damascus and then Cairo, where he was shaykh of the khanqah the Amir Qawsun built for him in al-Qarafa; author of a Tafsir and commentaries on theology, logic and legal theory; died of the plague in 749 AH (1349)."
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/mongol-post-mongol]
-born: { edtf: "1275", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar Confirmed on 13 November 2026 against Wikidata Q57970695 (P569, a statement with a reference), item revision 2558460593.", sources: [source/wikidata] }
-died: { edtf: "1348", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar Confirmed on 13 November 2026 against Wikidata Q57970695 (P570, a statement with a reference), item revision 2558460593.", sources: [source/wikidata] }
+born: { edtf: "1275", hijri: "0674", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar. Confirmed on 13 November 2026 against Wikidata Q57970695 (P569, a statement with a reference), item revision 2558460593. al-A'lam vol. 7 p. 176 prints 674 AH = 1276 CE; the card year is kept, see the GEMINI line in the packet ledger.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
+died: { edtf: "1348", hijri: "0749", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar. Confirmed on 13 November 2026 against Wikidata Q57970695 (P570, a statement with a reference), item revision 2558460593. al-A'lam vol. 7 p. 176 prints 749 AH = 1349 CE; the card year is kept, see the GEMINI line in the packet ledger.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
 relations:
-  - { type: born_in, target: place/isfahan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-  - { type: died_in, target: place/cairo, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-  - { type: buried_in, target: place/city-of-the-dead, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/al-aalam, source/wikidata]
+  - { type: born_in, target: place/isfahan, note: "al-Zirikli, al-A'lam, vol. 7 p. 176: born and educated in Isfahan", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
+  - { type: lived_in, target: place/damascus, note: "al-Zirikli, al-A'lam, vol. 7 p. 176: went to Damascus, where the people honoured him", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
+  - { type: lived_in, target: place/cairo, note: "al-Zirikli, al-A'lam, vol. 7 p. 176: moved to Cairo and remained until he died there of the plague", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
+  - { type: lived_in, target: place/al-qarafa, note: "al-Zirikli, al-A'lam, vol. 7 p. 176: shaykh of the khanqah built for him in al-Qarafa by the Amir Qawsun", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
+  - { type: died_in, target: place/cairo, note: "al-Zirikli, al-A'lam, vol. 7 p. 176", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
+  - { type: buried_in, target: place/city-of-the-dead, confidence: medium, note: "Place link from Wikidata; the entry does not name his burial place.", sources: [source/wikidata] }
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q57970695
   viaf: "47153387"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0055
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
