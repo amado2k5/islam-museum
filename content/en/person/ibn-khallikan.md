@@ -16,3 +16,6 @@ He lived in Egypt for a time and deputised as judge there, then held the judgesh
 
 ## Al-Dhahabi's words
 Al-Dhahabi says that he was an accomplished imam who knew the school well, an authority in letters, poetry and the days of the people, and generous. He mentions that Ibn Khallikan compiled a valuable book on the obituaries of eminent men. {cite:shadharat-dhahab p.379}
+
+## In the Biblissima authority file
+The French Biblissima authority file records this person under the identifier Q512 with the name form «Aḥmad ibn Muḥammad ibn Ibrāhīm Abū Bakr Ibn H̲̲allikān (1211-1282)», the form including the years of birth and death as the file gives them. {cite:biblissima Q512}

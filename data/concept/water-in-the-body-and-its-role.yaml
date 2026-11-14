@@ -1,0 +1,18 @@
+id: concept/water-in-the-body-and-its-role
+class: concept
+kind: scientific
+label: { ar: "دور الماء في البدن عند ابن سينا", en: "The role of water in the body in the Canon", ur: "قانون میں بدن میں پانی کا کردار" }
+summary:
+  ar: "في الفصل السادس عشر، في أحوال المياه، يقول ابن سينا إن الماء ركن من الأركان ومخصوص من بينها بأنه وحده يدخل في جملة ما يتناول، لا لأنه يغذو، بل لأنه ينفذ الغذاء ويصلح قوامه {cite:canon-ibn-sina-print-v1 p.134}."
+  en: "In the sixteenth chapter, on the states of waters, Ibn Sina says water is one of the elements and is singled out among them because it alone enters into what is taken in, not because it nourishes but because it carries the food through and mends its consistency {cite:canon-ibn-sina-print-v1 p.134}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/disease, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, on food, drink, waters, retention and evacuation, and non-necessary causes (scan pages 131 to 140), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-fann2-food-water-1
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

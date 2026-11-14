@@ -3,28 +3,29 @@ class: person
 label:
   ar: "عبد الحميد الزهراوي"
   en: "Abd al-Hamid al-Zahrawi"
-roles: [journalist]
+roles: [journalist, politician]
 gender: male
 summary:
-  ar: "بطاقة أولية لعبد الحميد الزهراوي، الناشط والصحفي السوري المعدوم؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abd al-Hamid al-Zahrawi, the Syrian activist and journalist executed in 1916; his entry is not yet checked on the page."
+  ar: "عبد الحميد بن محمد شاكر بن إبراهيم الزهراوي، من زعماء النهضة السياسية في سورية، ولد بحمص وأصدر الصحف وانتخب مبعوثاً عن حماة ورئيساً للمؤتمر العربي الأول بباريس، وأعدم شنقاً في دمشق سنة 1334 هـ."
+  en: "Abd al-Hamid ibn Muhammad Shakir ibn Ibrahim al-Zahrawi, a leader of the political awakening in Syria, born at Homs, who issued newspapers, was elected deputy for Hama and president of the first Arab Congress in Paris, and was hanged at Damascus in 1334 AH."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/modern-era]
-born: { edtf: "1855", precision: year, status: tradition, derived: true }
-died: { edtf: "1916", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
+born: { edtf: "1855", precision: year, status: tradition, derived: true, note: "Al-Zirikli, al-A'lam vol. 3 p. 286: 1272 AH = 1855 CE." }
+died: { edtf: "1916", precision: year, status: tradition, derived: true, note: "Al-Zirikli, al-A'lam vol. 3 p. 286: 1334 AH = 1916 CE; hanged at Damascus." }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q12222602
   viaf: "305411080"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 relations:
   - { type: lived_in, target: place/al-sham, note: "From text: Syrian (nationality adjective); broad association, flagged for review.", sources: [source/tarikh-islam-hasan-ibrahim], confidence: low }
+  - { type: born_in, target: place/homs, note: "Al-Zirikli, al-A'lam vol. 3 p. 286: born at Homs.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }

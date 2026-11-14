@@ -1,0 +1,61 @@
+id: event/fight-between-banu-sad-and-the-akilis-at-saada-286
+class: event
+kind: other
+label:
+  ar: القتال بين بني سعد والأكيليين في صعدة مساء، 286هـ
+  en: The evening fight between Banu Sa'd and the Akilis at Sa'da, 286 AH
+  ur: صعدہ میں شام کے وقت بنو سعد اور اکیلیوں کے درمیان لڑائی، 286ھ
+summary:
+  ar: يستدعي الهادي بني سعد من خولان فيعسكرون في ساحة اليرسميين، وقرب الغروب يعترض أصحاب ابن عباد نفراً من بني حمزة فيقتتلون ويقتل ثلاثة، ثم يرسل الهادي محمد بن عبيد الله وعلياً ومعهما خيل لصرف الناس، فتحمل بنو سعد على الأكيليين وتحرق وتهدم بعض منازلهم، ويلوم الهادي بني سعد على قتالهم بغير إذنه.
+  en: Al-Hadi calls Banu Sa'd of Khawlan, who camp in the yard of the Yarsamis; near sunset Ibn Abbad's men meet a party of Banu Hamza, fighting joins and three are killed; al-Hadi sends Muhammad ibn Ubaydallah and Ali with horse to turn the people back, Banu Sa'd charge the Akilis and burn or pull down some of their houses, and al-Hadi blames Banu Sa'd for fighting without his leave.
+  ur: ہادی خولان کے بنو سعد کو بلاتے ہیں جو یرسمیوں کے احاطے میں خیمہ زن ہوتے ہیں؛ غروب کے قریب ابن عباد کے لوگ بنو حمزہ کے چند افراد کو روکتے ہیں، لڑائی چھڑتی ہے اور تین مارے جاتے ہیں؛ ہادی محمد بن عبید اللہ اور علی کو سواروں کے ساتھ لوگوں کو ہٹانے بھیجتے ہیں، بنو سعد اکیلیوں پر حملہ کر کے ان کے کچھ گھر جلاتے اور ڈھاتے ہیں، اور ہادی بنو سعد کو بغیر اجازت لڑنے پر ملامت کرتے ہیں۔
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0899"
+    hijri: "0286"
+    calendar: julian
+    precision: year
+    status: tradition
+    derived: true
+    note: سنة 286هـ؛ الكتاب لا يعين اليوم، والخبر واقع بين ذي القعدة وأول ذي الحجة بحسب ترتيب السرد؛ التحويل مشتق
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/saada
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abu-jafar-muhammad-ibn-ubaydallah-al-abbasi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ali-ibn-muhammad-ibn-ubaydallah-al-abbasi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ahmad-ibn-abbad-al-akili
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص156-157 ⁦(الصفحة المطبوعة)⁩'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-20
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 156-157

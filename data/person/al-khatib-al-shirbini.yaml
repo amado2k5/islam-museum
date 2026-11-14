@@ -6,24 +6,24 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لشمس الدين محمد الشربيني، إمام مصر الشافعي صاحب «مغني المحتاج» في القرن السادس عشر، توفي سنة ١٥٧٠م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Shams al-Din Muhammad al-Khatib al-Shirbini, the sixteenth-century Shafi'i imam of Egypt author of Mughni al-Muhtaj, d. 1570; the biographical entry is not yet checked on the page."
+  ar: "محمد بن أحمد الشربيني، شمس الدين، فقيه شافعي ومفسر من أهل القاهرة، صاحب السراج المنير في تفسير القرآن ومغني المحتاج في شرح منهاج الطالبين؛ توفي سنة 977هـ الموافقة 1570م."
+  en: "Muhammad ibn Ahmad al-Shirbini, Shams al-Din, a Shafi'i jurist and exegete of Cairo, author of al-Siraj al-munir, a commentary on the Qur'an, and Mughni al-muhtaj, a commentary on al-Nawawi's Minhaj al-talibin; died 977 AH, 1570 CE."
 wings: [people]
 regions: [egypt-nile]
 periods: [period/gunpowder-empires]
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q12187052
   viaf: "27237410"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0044
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 died: { edtf: "1570", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam 7/58; d. 977 AH)" }
 relations:
   - { type: lived_in, target: place/misr, note: "From text: imam of Egypt", sources: [source/al-aalam] }

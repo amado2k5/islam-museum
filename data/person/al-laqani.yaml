@@ -7,24 +7,25 @@ roles: [scholar]
 gender: male
 themes: [creed]
 summary:
-  ar: "بطاقة أولية لإبراهيم بن إبراهيم اللقاني، ولاهوتي مصر المالكي صاحب «جوهرة التوحيد» في القرن السابع عشر، توفي سنة ١٦٣١م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ibrahim ibn Ibrahim al-Laqani, the seventeenth-century Maliki theologian of Egypt author of Jawharat al-Tawhid, d. 1631; the biographical entry is not yet checked on the page."
+  ar: "إبراهيم بن إبراهيم بن حسن اللقاني، أبو الإمداد برهان الدين، فاضل متصوف مصري مالكي، صاحب «جوهرة التوحيد»، توفي سنة 1041 هـ الموافقة 1631 م قرب العقبة عائداً من الحج."
+  en: "Ibrahim ibn Ibrahim ibn Hasan al-Laqani, Abu al-Imdad, Burhan al-Din, an Egyptian Maliki scholar and Sufi, author of 'Jawharat al-Tawhid'; he died in 1041 AH (1631 CE) near al-Aqaba on his way back from the pilgrimage."
 wings: [people]
 regions: [egypt-nile]
 periods: [period/gunpowder-empires]
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q6831771
   viaf: "96967405"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0043
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 died: { edtf: "1631", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Muhibbi (Khulasat al-Athar 1/151; d. 1041 AH; Ibrahim al-Laqani) Confirmed on 13 November 2026 against Wikidata Q6831771 (P570, a statement with a reference), item revision 2566401519.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/misr, note: "From text: of Egypt", sources: [source/al-aalam], confidence: low }
+  - { type: died_in, target: place/aqaba, confidence: low, note: "Al-Zirikli, al-A'lam vol. 1 p. 26: died near al-Aqaba on his return from the pilgrimage (near, not in, the town).", sources: [source/alam-zirikli-dar-al-ilm-2002] }

@@ -6,8 +6,8 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لصالح بن أحمد بن حنبل، راوية سيرة والده الإمام أحمد وقاضي القرن التاسع، توفي سنة ٨٧٩م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Salih ibn Ahmad ibn Hanbal, the ninth-century qadi who transmitted his father Ahmad's biography, d. 879; the biographical entry is not yet checked on the page."
+  ar: "صالح بن الإمام أحمد بن محمد بن حنبل الشيباني البغدادي، أبو الفضل: قاض، ولد ببغداد ونشأ بين يدي أبيه الإمام أحمد وأخذ عنه، ثم ولي القضاء بأصبهان وتوفي فيها، 203 إلى 265هـ."
+  en: "Salih, son of the Imam Ahmad ibn Muhammad ibn Hanbal al-Shaybani al-Baghdadi, Abu al-Fadl: a judge, born in Baghdad, raised under his father the Imam Ahmad and taught by him, then judge of Isfahan, where he died, 203 to 265 AH."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
@@ -17,16 +17,16 @@ relations:
   - { type: born_in, target: place/baghdad, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1530)" }
   - { type: died_in, target: place/isfahan, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q42053)" }
   - { type: buried_in, target: place/toghchi-district, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q5737608)" }
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q18325461
   viaf: "90060909"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0041
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3

@@ -6,27 +6,27 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لمحمد بن محمد بن النعمان البغدادي المعروف بالشيخ المفيد، متكلم الإمامية وشيخها في بغداد القرن العاشر–الحادي عشر، توفي سنة ١٠٢٢م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Muhammad ibn Muhammad ibn al-Nu'man al-Baghdadi, known as al-Shaykh al-Mufid, the leading Imami theologian of Buyid Baghdad, d. 1022; the biographical entry is not yet checked on the page."
+  ar: "محمد بن محمد بن النعمان بن عبد السلام العكبري، أبو عبد الله، المفيد، ويعرف بابن المعلم، محقق إمامي انتهت إليه رئاسة الشيعة في وقته، ولد في عكبرا ونشأ وتوفي ببغداد سنة 413 هـ، وله نحو مئتي مصنف."
+  en: "Muhammad ibn Muhammad ibn al-Nu'man ibn Abd al-Salam al-Ukbari, Abu Abdallah, al-Mufid, known as Ibn al-Mu'allim, an Imami (Shi'i) scholar to whom the leadership of the Shi'a passed in his time; born at Ukbara, raised and died at Baghdad in 413 AH, with about two hundred works."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/buyid-seljuk-fatimid-era]
 faith:
 - { value: shia-twelver, basis: tradition, note: "head of the Imami school of Baghdad per the biographical tradition" }
-sources: [source/shadharat-dhahab, source/wikidata]
+sources: [source/shadharat-dhahab, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q2462345
   viaf: "93264821"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: Ibn al-Imad, Shadharat al-Dhahab — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0013
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
-born: { edtf: "948", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala" }
-died: { edtf: "1022", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala Confirmed on 13 November 2026 against Wikidata Q2462345 (P570, a statement with a reference), item revision 2556842882.", sources: [source/wikidata] }
+  completeness: 3
+born: { edtf: "948", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 6 p. 291: 336 AH = 947 CE; 336 AH runs from 947 into 948, so the card's 948 is kept." }
+died: { edtf: "1022", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 6 p. 291: 413 AH = 1022 CE.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/baghdad, note: "Place association from the person's nisba/name (البغدادي); denotes association, not proven residence.", sources: [source/shadharat-dhahab], confidence: low }

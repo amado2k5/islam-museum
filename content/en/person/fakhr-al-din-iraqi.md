@@ -20,3 +20,6 @@ At Multan he became a disciple of Baha al-Din Zakariya and stayed as his discipl
 ## Konya, exile and Damascus
 
 He settled in Konya, where he studied with Sadr al-Din al-Qunawi and composed the Lama'at under the patronage of Mu'in al-Din Parwana {cite:wikipedia-fakhr-al-din-iraqi-en}. After Parwana's execution in 1277 he fled to Sinop, spent time in Cairo, and finally settled in Damascus {cite:wikipedia-fakhr-al-din-iraqi-en}. He died at Damascus in 1289, the Arabic article giving 688 AH {cite:wikipedia-fakhr-al-din-iraqi-en} {cite:wikipedia-fakhr-al-din-iraqi-ar}. The English article cautions that the Muqaddima, the main source for his life, may have been composed as late as the 15th century {cite:wikipedia-fakhr-al-din-iraqi-en}.
+
+## In the Biblissima authority file
+The French Biblissima authority file records this person under the identifier Q232275 with the name form «Faḫr al-Dīn Ibrāhīm ʿIrāqī (1213?-1289)», the form including the years of birth and death as the file gives them. {cite:biblissima Q232275}

@@ -82,3 +82,6 @@ His method of mind: doubt everything from zero, then intuition and contemplation
 ## In the introduction to the edition of al-Mustasfa
 
 Hamza ibn Zuhayr Hafiz, editor of [[work/al-mustasfa|al-Mustasfa]], opens his edition with al-Ghazali's words that the thirst to grasp the realities of things was his habit from the start, an instinct and nature placed in him not by his own choice, until the bond of imitation fell away and inherited beliefs broke for him while he was still close to boyhood. {cite:mustasfa-hafiz-v1 p.2} The editor quotes Ibn al-Jawzi's Kitab al-Thabat inda al-Mamat, from al-Ghazali's brother Ahmad: on Monday at dawn he performed ablution and prayed, asked for his shroud, kissed it and put it to his eyes, saying "hearing and obeying, to enter upon the King", then stretched out his legs, faced the qibla and died before daybreak, on 14 Jumada al-Akhira 505 AH. {cite:mustasfa-hafiz-v1 p.57} He wrote al-Mustasfa after returning to teaching, as he says in its preface. {cite:mustasfa-hafiz-v1 p.71}
+
+## In the Biblissima authority file
+The French Biblissima authority file records this person under the identifier Q12166 with the name form «Muḥammad ibn Muḥammad Abū Ḥāmid al- Ġazālī (1058-1111)», the form including the years of birth and death as the file gives them. {cite:biblissima Q12166}

@@ -1,0 +1,57 @@
+id: event/al-daam-swears-to-al-hadi-and-a-governor-is-placed-in-his-land-286
+class: event
+kind: other
+label:
+  ar: الدعام يحلف للهادي ويتوب ويُوجَّه والٍ إلى بلده ومعه أبو جعفر محمد بن سليمان، صفر 286هـ
+  en: Al-Da'am swears to al-Hadi, a governor is sent to his land with Abu Jafar Muhammad ibn Sulayman, Safar 286 AH
+  ur: دعام کا ہادی کے لیے حلف اور اس کے ملک میں والی کی روانگی، ساتھ ابو جعفر محمد بن سلیمان، صفر 286ھ
+summary:
+  ar: لما صار الدعام إلى بلده أمر بالأذان بحي على خير العمل وضرب في الخمر وأظهر الأمر بالمعروف والنهي عن المنكر، وطلب لقاء الهادي ليحلف له ويتوب، فلقيه قرب خيوان فحلف هو وبنو عمه وولده، وسأله أن يوجه إلى البلد والياً، فوجه إليه رجلاً ومعه أبا جعفر محمد بن سليمان، فخطبا للهادي في بلده وأقاما الحد على جماعة من خدمه سكارى وجبيا ما في بلده، ثم صُرف أبو جعفر وصاحبه وبقي الوالي.
+  en: When al-Da'am reached his country he ordered the call to prayer with "come to the best of work", had wine flogged and made the commanding of good and forbidding of wrong public; he asked to meet al-Hadi to swear to him and repent, and met him near Khiwan, where he swore, with his cousins and his son. He asked that a governor be sent to the land; al-Hadi sent a man together with Abu Jafar Muhammad ibn Sulayman, who had the sermon given in al-Hadi's name, applied the penalty to some of his servants found drunk and collected what was due in his land; Abu Jafar and his companion were then recalled and the governor stayed.
+  ur: جب دعام اپنے ملک پہنچا تو اس نے «حی علی خیر العمل» کے ساتھ اذان کا حکم دیا، شراب پر سزا دلوائی اور نیکی کے حکم اور برائی سے روک کو ظاہر کیا؛ اس نے ہادی سے ملاقات مانگی تاکہ ان کے لیے حلف اٹھائے اور توبہ کرے، تو خیوان کے قریب ملاقات ہوئی اور اس نے، اس کے چچازادوں اور بیٹے نے حلف اٹھایا۔ اس نے درخواست کی کہ ملک میں کوئی والی بھیجا جائے؛ ہادی نے ایک شخص اور ساتھ ابو جعفر محمد بن سلیمان کو بھیجا جنہوں نے ہادی کے نام کا خطبہ دلوایا، اس کے کچھ خادموں پر جو نشے میں پائے گئے حد جاری کی اور اس کے ملک کی آمدنیاں جمع کیں؛ پھر ابو جعفر اور ان کے ساتھی کو واپس بلا لیا گیا اور والی رہ گیا۔
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: 0899-02
+    hijri: 0286-02
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: أيام ماضية من صفر سنة 286هـ؛ وصفر يبدأ نحو 16 شباط 899م جولياني بالتقويم الجدولي؛ الشهر فقط؛ التحويل مشتق
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/khiwan
+- type: had_participant
+  target: person/al-daam-ibn-ibrahim
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/muhammad-ibn-sulayman-al-kufi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص115 ⁦(الصفحة المطبوعة)⁩'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-15
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 115

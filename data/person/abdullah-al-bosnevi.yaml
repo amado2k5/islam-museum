@@ -1,30 +1,65 @@
 id: person/abdullah-al-bosnevi
 class: person
 label:
-  ar: "عبد الله البوسنوي"
-  en: "Abdullah Bosnevi"
-roles: [poet]
+  ar: عبد الله البوسنوي
+  en: Abdullah Bosnevi
+roles:
+- scholar
+- mystic
 gender: male
-themes: [spirituality-and-sufism]
+themes:
+- spirituality-and-sufism
 summary:
-  ar: "بطاقة أولية لعبد الله بن عبد الرحمن البوسنوي، صوفي وشاعر ملامتي القرن السابع عشر، توفي سنة ١٦٤٤م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abdullah ibn Abd al-Rahman al-Bosnevi, the seventeenth-century Malamati Sufi and poet, d. 1644; the biographical entry is not yet checked on the page."
-wings: [people]
-regions: [anatolia-balkans]
-periods: [period/gunpowder-empires]
-sources: [source/al-aalam, source/wikidata]
+  ar: عبد الله عبدي بن محمد الرومي البوسنوي البيرامي، المعروف بشارح الفصوص، فاضل متصوف من أهل البوسنة، شرح فصوص الحكم بالتركية ثم بالعربية، وتوفي بقونية عائداً من الحج سنة 1054 هـ.
+  en: Abdullah Abdi ibn Muhammad al-Rumi al-Bosnevi al-Bayrami, known as the commentator on the Fusus, a learned Sufi from Bosnia who commented on the Fusus al-Hikam first in Turkish and then in Arabic; he died in Konya on his way back from the pilgrimage in 1054 AH.
+wings:
+- people
+regions:
+- anatolia-balkans
+periods:
+- period/gunpowder-empires
+sources:
+- source/al-aalam
+- source/wikidata
+- source/alam-zirikli-dar-al-ilm-2002
 external_ids:
   wikidata: Q4665978
-  viaf: "97603946"
+  viaf: '97603946'
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0042
+  source: al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text
+  generated_by: Claude Code (Lane B2 packet)
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
-died: { edtf: "1644", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Katip Celebi (Kashf al-Zunun) Confirmed on 13 November 2026 against Wikidata Q4665978 (P570, a statement with a reference), item revision 2556639704.", sources: [source/wikidata] }
+  completeness: 3
+died:
+  edtf: '1644'
+  calendar: gregorian
+  precision: year
+  derived: true
+  note: 'Per al-Zirikli, al-A''lam vol. 4 p. 57: died 1054 AH = 1644 CE, in Konya, on the way back from the pilgrimage.'
+  sources:
+  - source/alam-zirikli-dar-al-ilm-2002
 relations:
-  - { type: lived_in, target: place/anatolia, note: "Only the record-level region (anatolia-balkans) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }
+- type: lived_in
+  target: place/anatolia
+  note: Only the record-level region (anatolia-balkans) is attested; broad-region edge flagged for review.
+  sources:
+  - source/al-aalam
+  confidence: low
+- type: died_in
+  target: place/konya
+  confidence: medium
+  note: 'From al-A''lam: died at Konya on his return from the pilgrimage and was buried there.'
+  sources:
+  - source/alam-zirikli-dar-al-ilm-2002
+born:
+  edtf: '1584'
+  calendar: gregorian
+  precision: year
+  derived: true
+  note: 'Per al-Zirikli, al-A''lam vol. 4 p. 57: born 992 AH = 1584 CE.'
+  sources:
+  - source/alam-zirikli-dar-al-ilm-2002

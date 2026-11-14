@@ -12,3 +12,6 @@ He narrated from Malik, Abd al-Rahman b. Shurayh, the reader Nafi' b. Abi Nu'aym
 
 ## His piety and wealth
 He was a man of property who spent his fortune on learning and refused the gifts of rulers; he said he went to the Hijaz twelve times, spending a thousand dinars each time, and Asad b. al-Furat says he completed two qur'an-readings each day and night. Al-Harith b. Miskin said he combined worship, generosity, courage, learning, scrupulousness, and asceticism, and that in his youth he was better known for worship than for learning. {cite:siyar-alam-nubala-ideas-house p.2215-2216}
+
+## In the Biblissima authority file
+The French Biblissima authority file records this person under the identifier Q266397 with the name form «ʿAbd al-Raḥmān ibn al-Qāsim (0746?-0806?)», the form including the years of birth and death as the file gives them. {cite:biblissima Q266397}

@@ -6,8 +6,8 @@ label:
 roles: [writer, scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لسباهي زاده محمد، صاحب شرح مختصر الشيخ سعيد الكركي، توفي سنة ١٥٨٨ أو ١٥٨٩م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Sipahizade Mehmed, author of the commentary on al-Kurki's abridgment, d. 1588 or 1589; the biographical entry is not yet checked on the page."
+  ar: "محمد بن علي الشهير بسباهي زاده البروسوي، فاضل من أهل بروسة في تركيا، صاحب أوضح المسالك إلى معرفة البلدان والممالك وأنموذج الفنون؛ توفي سنة 997هـ الموافقة 1589م."
+  en: "Muhammad ibn Ali, known as Sipahizade al-Brusawi, a learned man of Bursa in Turkey, author of Awdah al-masalik ila marifat al-buldan wa-l-mamalik and Unmudhaj al-funun; died 997 AH, 1589 CE."
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
@@ -15,15 +15,15 @@ died: { edtf: "1589", calendar: gregorian, precision: year, derived: true, note:
 relations:
   - { type: born_in, target: place/bursa, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q40738)" }
   - { type: died_in, target: place/izmir, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q35997)" }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q129951566
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0090
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3

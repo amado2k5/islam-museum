@@ -1,0 +1,18 @@
+id: concept/canon-signs-of-fullness
+class: concept
+kind: scientific
+label: { ar: "علامات الامتلاء عند ابن سينا", en: "The signs of fullness in the Canon", ur: "بھراؤ کی علامات قانون میں" }
+summary:
+  ar: "يجمع ابن سينا علامات الامتلاء جملة، ثم يفرق بين علامات الامتلاء بحسب الأوعية وبحسب القوة، ويذكر الأحلام الدالة على كل منهما {cite:canon-ibn-sina-print-v1 p.164}."
+  en: "Ibn Sina gathers the signs of fullness in general, then separates those of fullness of the vessels from those of fullness of the faculty, and notes the dreams that point to each {cite:canon-ibn-sina-print-v1 p.164}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/disease, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, Ta'lim 3 chapters 5 to 11 and the opening of the pulse (scan pages 164 to 171), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-signs-pulse-1
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

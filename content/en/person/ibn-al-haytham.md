@@ -65,3 +65,6 @@ The [[invention/haytham-incoming-light-vision|integrated theory of vision]] conn
 ## Constructing a number under remainder conditions
 
 MacTutor explains his [[invention/haytham-factorial-remainders|factorial construction for simultaneous remainders]]:6!+1=721 leaves1 for divisors2–6 and is divisible by 7. It is not the least positive answer:301 works too. MacTutor reports a second method for all solutions without reproducing it; the museum's modern 301+420j derivation does not claim to recover that method. This is not invention of the Chinese remainder theorem or factorial notation, nor a claim to have read the original Opuscula or Rashed's complete edition {cite:haytham-mactutor number-theory} {cite:weisstein-wilson-theorem eq1}.
+
+## In the Biblissima authority file
+The French Biblissima authority file records this person under the identifier Q23414 with the name form «al-Ḥasan ibn al-Ḥasan Ibn al-Hayṯam (0965?-1039)», the form including the years of birth and death as the file gives them. {cite:biblissima Q23414}

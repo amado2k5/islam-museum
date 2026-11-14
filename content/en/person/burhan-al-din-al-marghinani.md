@@ -32,3 +32,6 @@ The editor notes that al-Baghdadi counted ten books by him in Hadiyyat al-Arifin
 ## What was said of him
 
 The editor gathers what biographers said of him, including his own remark that he surpassed his peers because he never paused in his studies, as in Ta'lim al-Muta'allim and al-Fawa'id al-Bahiyya, and the words of Ibn al-Mustawfi in Tarikh Irbil, al-Dhahabi in Siyar A'lam al-Nubala', al-Kaki, al-Itqani, al-Babarti, Ibn Hajar, Ibn al-Humam, Ibn Abidin and al-Laknawi. {cite:hidaya-bakdash-v1 p.17} {cite:hidaya-bakdash-v1 p.18} {cite:hidaya-bakdash-v1 p.20} {cite:hidaya-bakdash-v1 p.21} Drawing these together, the editor describes him as a jurist, legal theorist, hadith scholar, Qur'an commentator and man of letters, a mujtahid within the school who weighed its reports, and father of three sons who were jurists. {cite:hidaya-bakdash-v1 p.8}
+
+## In the Biblissima authority file
+The French Biblissima authority file records this person under the identifier Q16853 with the name form «ʿAlī ibn Abī Bakr al- Marġīnānī (11..-1197)», the form including the years of birth and death as the file gives them. {cite:biblissima Q16853}

@@ -3602,6 +3602,19 @@ Resume point: sharh-saheeh-al-bukhare episode 8 (branch from origin/main).
 
 Resume point: sharh-saheeh-al-bukhare episode 9 (branch from origin/main).
 
+### alwaad-alhaq ep12 (14 Nov 2026)
+
+22 points written for episode 12 (ar, en, ur); 13 needs_source marks for this episode in each language file; 10 new about-links on the series record. Quran verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
+
+| Excluded (alwaad-alhaq ep12) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Wager line attributed to al-Maarri and named man who did not find God | ep12 00:09:00-00:10:00 | Garbled, name and wording not recoverable | Clarity | Open |
+| Story of the keeper of Hell not greeting | ep12 00:40:30-00:41:00 | Garbled, unclear source | Clarity | Open |
+| Ages of al-Hasan, tent and herd details, sandal-strap story | ep12 00:26:00-00:27:00, 00:42:30-00:43:00 | Garbled numbers and wording | Clarity | Open |
+| Looped and repeated passages (Qur'anic phrase and repetitions) | ep12 00:33:00-00:35:00, 00:38:30-00:39:30, 00:45:00-00:46:00, 00:50:00-00:50:30 | ASR loops, unrecoverable | Clarity | Open |
+| Remarks on a modern researcher and an anthropology aside | ep12 00:31:00-00:31:30 | Garbled, unsupported claim | Clarity, Voice rule | Open |
+
+Resume point: alwaad-alhaq episode 13 (branch from origin/main).
 ### sharh-saheeh-al-bukhare ep09 (14 Nov 2026)
 
 10 points written for episode 9 (ar, en, ur); 7 needs_source marks in each language file for this episode; 8 new `about` edges. No Quran verses linked; none typed. Contested: He applies the hadith of the pledge to hudud, the grave, innovation, tawhid and abortion in his own readings, and gives the scholars' reasons for the hidden punishment of the grave without naming them; all are marked as his view. Checked line by line against the transcript by a second reader before merge.
@@ -3628,6 +3641,71 @@ Resume point: sharh-saheeh-al-bukhare episode 9 (branch from origin/main).
 
 Resume point: sharh-saheeh-al-bukhare episode 10 (branch from origin/main).
 
+### sharh-saheeh-al-bukhare ep15 (14 Nov 2026)
+
+28 points written for episode 15 (ar, en, ur); 21 needs_source marks in each language file for this episode; 16 new `about` edges. Quran verses referenced only through passage links (31-27, 30-21, 19-23, 3-37, 19-4, 19-8, 3-41, 19-10, 49-2, 3-110, 33-8, 68-4); none typed. Contested: he holds that a society applying the hadith on insulting and fighting a Muslim would be the greatest in history, that a person who says she is not convinced of a command raises her voice over the Prophet, that rejecting part of the book is rejecting all of it, and that the rights of people are not cleared by repentance alone; these are his views. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep15) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Greetings, opening praise and supplication, and closing prayer | ep15 00:00:00-00:03:00 and 01:19:00 | Opening and closing formulae, not teaching content | Content rule | Open |
+| Supplications for fighters in every place | ep15 00:01:30-00:02:30 | A stretch dropped under the content-safety block | Content rule | Open |
+| Sweeping remarks on peoples and nations in the knowledge-without-faith passage | ep15 00:07:00-00:09:00 | Generalisation about nations, garbled | Voice rule | Open |
+| Garbled passages on Bedouin, jewellery-purchase and hospital anecdotes | ep15 00:15:30-00:19:00 | Too garbled to recover, no clear point | Clarity, Loop check | Open |
+| Loop of repeated syllables | ep15 00:10:30-00:11:00 | Repetition loop | Clarity, Loop check | Open |
+| Loop of repeated syllables | ep15 00:20:00-00:20:30 | Repetition loop | Clarity, Loop check | Open |
+| Garbled lists of sciences and a sermon on magic and nationalism | ep15 00:20:30-00:21:30 | Too garbled to recover | Clarity, Loop check | Open |
+| Remarks on a wife and household, and a count of wrongs per second | ep15 00:24:30-00:25:30 | Sweeping claims about women and a garbled figure | Voice rule | Open |
+| Loop of one letter | ep15 00:25:30-00:26:00 | Repetition loop | Clarity, Loop check | Open |
+| Anecdote of a dying man and money taken from him | ep15 00:27:00-00:29:30 | Garbled personal story without clear source | Clarity, Loop check | Open |
+| Remarks on idle people and the sincere youth | ep15 00:34:00-00:34:30 | Sweeping claim about groups | Voice rule | Open |
+| Greeting groups, the distorted greeting of non-Muslims and the replies | ep15 00:41:00-00:44:00 | Garbled and touches a sweeping claim about a people | Voice rule | Open |
+| Loops | ep15 00:44:30-00:45:30 | Repetition loops | Clarity, Loop check | Open |
+| Story of Ikrima and the neighbour passage | ep15 00:46:00-00:47:00 | Garbled, no clear point | Clarity, Loop check | Open |
+| Loop and personal military-prison anecdote with interrogation | ep15 00:50:30-00:54:00 | Loops, garbled, political detention narrative | Clarity, Loop check | Open |
+| Bedouin and the dog anecdote, humour on a royal visit | ep15 00:55:30-00:58:00 | Garbled joke, no clear point | Clarity, Loop check | Open |
+| Intercession report and the silent Bedouin | ep15 01:01:00-01:03:00 | Garbled, loop at 01:02:30 | Clarity, Loop check | Open |
+| Halima, the Prophet's wet-nurse names digression, severed kinship and the woman lost in the desert | ep15 01:03:30-01:07:30 | Garbled digressions without clear source | Clarity, Loop check | Open |
+| Remark on slaughter customs of other peoples | ep15 01:09:30-01:10:00 | Sweeping claim about peoples | Voice rule | Open |
+| Speech on people who talk at length, and the market comparison | ep15 01:16:30-01:18:30 | Garbled | Clarity, Loop check | Open |
+| Loop of one letter | ep15 01:16:00-01:16:30 | Repetition loop | Clarity, Loop check | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 16 (branch from origin/main).
+
+### alwaad-alhaq ep13 (14 Nov 2026)
+
+30 points written for episode 13 (ar, en, ur); 26 needs_source marks for this episode in each language file; 20 new about-links on the series record. Quran verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
+
+| Excluded (alwaad-alhaq ep13) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Umar's night address at the grave | ep13 00:30:30-00:31:00 | Garbled, wording not recoverable | Clarity | Open |
+| Asma bint Umays and the camel with the weight of revelation | ep13 00:29:30-00:30:00 | Garbled, chapter name and details not recoverable | Clarity | Open |
+| Seniority over Abu Bakr and Umar by years | ep13 00:19:30-00:20:00 | Garbled numbers | Clarity | Open |
+| Martyr's body found intact decades later (Hamza and personal sighting) | ep13 00:45:30-00:46:30 | Garbled, personal anecdote without source | Clarity | Open |
+| Closing verse lines on the darkness of the grave | ep13 00:52:30-00:53:00 | Unclear whether quotation or poem, no source | Clarity | Open |
+| Looped passages | ep13 00:21:30-00:22:30, 00:50:00-00:50:30, 00:13:30-00:14:00 | ASR loops, unrecoverable | Clarity, Loop check | Open |
+
+Resume point: alwaad-alhaq episode 14 (branch from origin/main).
+### sharh-saheeh-al-bukhare ep16 (14 Nov 2026)
+
+27 points written for episode 16 (ar, en, ur); 20 needs_source marks in each language file for this episode; 4 new `about` edges. Quran verses referenced only through passage links (17-14, 32-16, 31-11); none typed. Contested: He attributes to scholars a count of ten witnesses against a person, relates unreferenced reports (the grave, the limbs, the gift to the Byzantine ruler's wife) and states that in the majority view of jurists visiting graves is not for women; all are marked as his. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep16) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greeting, praise and supplication, including a prayer about conflicts of Muslims elsewhere | ep16 00:00:00-00:02:00 | Greeting and opening prayer; sweeping claims about modern conflict | Content rule | Open |
+| Closing prayer, announcement that the next Friday session is skipped, farewell | ep16 01:18:00-01:18:30 | Closing and housekeeping | Content rule | Open |
+| Remarks on daughters, parents and a sweeping label for a kind of father, and a passing comparison naming a people | ep16 00:11:00-00:11:30, 00:18:00-00:19:00 | Garbled and sweeping generalisations about women and a people | Voice rule | Open |
+| Jokes about mothers-in-law and wives | ep16 00:36:00-00:36:30 | Sweeping claims about women, garbled | Voice rule | Open |
+| Account of the army commander, the news of Muslims in other lands and hopes for victory | ep16 00:59:00-01:00:30 | Sweeping claims about modern conflict, garbled | Content rule | Open |
+| Report of the man who was last to leave the Fire, and the youth who came to the Prophet | ep16 00:20:30-00:21:30, 00:29:00-00:30:00 | Too garbled to recover | Clarity, Loop check | Open |
+| Stretches in loops or garble: repeated words and letters | ep16 00:11:30, 00:13:30, 00:14:30-00:15:00 (partial), 00:15:30, 00:17:00-00:19:00, 00:23:30, 00:25:30-00:26:00, 00:37:00, 01:15:30 | Loops | Clarity, Loop check | Open |
+| Stories of a scholar and a ruler, a vizier and candles, a deputy and sovereign, and a wine question | ep16 00:46:00-00:49:30, 00:53:00-00:56:30, 00:57:30-00:59:00 | Too garbled to recover | Clarity, Loop check | Open |
+| Asides on keeping appointments, covenants, punctuality and the wife who holds a grudge | ep16 00:33:00-00:35:00, 00:37:30-00:38:30, 00:40:00-00:42:00 | Garbled | Clarity, Loop check | Open |
+| Asides on supplications, a husband and household talk, and unclear advice | ep16 01:03:30-01:12:00 | Garbled | Clarity, Loop check | Open |
+| Advice on avoiding the heedless and on marrying into heedless families | ep16 01:15:30-01:16:30 | Garbled | Clarity, Loop check | Open |
+| Closing remark that one should be someone people regret losing | ep16 00:12:00-00:12:30 | Garbled, not recoverable | Clarity | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 17 (branch from origin/main).
+
 ### sharh-saheeh-al-bukhare ep10 (14 Nov 2026)
 
 19 points written for episode 10 (ar, en, ur); 13 needs_source marks in each language file for this episode; 4 new `about` edges. Quran verses referenced only through passage links (3-173, 3-144); none typed. Contested: He holds that a shared deed or shared heart is not accepted, that istikhara has no link to dreams, and that fear of infection is weaker than certainty; these are his views. Checked line by line against the transcript by a second reader before merge.
@@ -3648,3 +3726,612 @@ Resume point: sharh-saheeh-al-bukhare episode 10 (branch from origin/main).
 | Loop stretches of repeated syllables | ep10 00:09:00-00:09:30, 00:15:30-00:16:00, 00:16:30-00:17:00, 00:18:00-00:18:30, 00:21:30-00:22:00, 00:25:30-00:26:00, 00:32:30-00:33:00, 00:41:00-00:41:30, 00:42:00-00:42:30, 00:43:30-00:44:00, 00:46:30-00:47:30, 00:49:00-00:49:30, 00:54:30-00:55:00, 00:56:30-00:57:30, 01:04:00-01:04:30, 01:06:30-01:07:00, 01:07:30-01:08:00, 01:09:30-01:10:00, 01:11:30-01:12:30 | Repeated-token loops | Loop check | Open |
 
 Resume point: sharh-saheeh-al-bukhare episode 11 (branch from origin/main).
+
+### alwaad-alhaq ep14 (14 Nov 2026)
+
+32 points written for episode 14 (ar, en, ur); 22 needs_source marks for this episode in each language file; new links to the angel of death, Munkar and Nakir, the soul, the martyr, Amr ibn al-As, al-Bara ibn Azib, Jonah, Dihya al-Kalbi and Michael. Quran verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
+
+| Excluded (alwaad-alhaq ep14) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Loop stretches of repeated syllables | ep14 00:04:30-00:05:00, 00:31:00-00:31:30, 00:41:00-00:41:30, 00:52:00-00:52:30 | Repeated-token loops | Loop check | Open |
+| Remark on asking God only in health and a saying of one Abu Hamid on death as a transfer | ep14 00:07:00-00:07:30, 00:26:30-00:27:30 | Garbled, speaker and words unclear | Clarity | Open |
+| An aside on not wanting to die in the grave | ep14 00:20:30-00:21:00 | Garbled | Clarity | Open |
+| Technical washing details (hand cloth, posture, pressing the belly) | ep14 00:31:00-00:32:00 | Garbled, steps not recoverable | Clarity | Open |
+| Closing prayers, sign-offs and repeated opening verses | ep14 00:52:30-00:54:00 | Closing words and repeated recitation | Content rule | Open |
+
+Resume point: alwaad-alhaq episode 15 (branch from origin/main).
+### sharh-saheeh-al-bukhare ep11 (14 Nov 2026)
+
+21 points written for episode 11 (ar, en, ur); 13 needs_source marks in each language file for this episode; 6 new `about` edges. Quran verses referenced only through passage links (31-14, 33-28, 33-29); none typed. Contested: His reading of the hadith on kindness forgotten by a wife, his saying that knowledge shows in uprightness, and his advice on gratitude to parents and the teacher are his own views; the sayings and reports he relates by sense carry no chain. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep11) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening praise, loop and opening prayer | ep11 00:00:00-00:02:00 | Greetings and prayer, loops | Clarity, Loop check | Open |
+| Stories of al-Hajjaj and others, remarks on killing and politics, loops | ep11 00:08:30-00:14:30 | Garbled, sweeping remarks on modern conflict | Voice rule / Clarity, Loop check | Open |
+| Stories about the table, Jesus and Mary, epidemics, innovations | ep11 00:15:30-00:21:00 | Too garbled to recover | Clarity, Loop check | Open |
+| Loops on the Fire and the number of its layers | ep11 00:22:00-00:24:30 | Loops, garbled | Clarity, Loop check | Open |
+| Garbled passages on paradise and parents, loops | ep11 00:27:30-00:34:00 | Garbled stories and repeated words | Clarity, Loop check | Open |
+| Remarks on war and resistance, loops | ep11 00:35:00-00:38:30 | A stretch dropped under the content-safety block | Content rule | Open |
+| Closing-style prayer after the first part | ep11 00:42:00-00:42:30 | Prayer | Clarity | Open |
+| Remedies for family quarrels, a late-comer story, loops | ep11 00:45:00-00:50:30 | Garbled, names unreliable | Clarity, Loop check | Open |
+| Asides on wealth and poverty | ep11 00:54:00-00:55:00 | Garbled | Clarity | Open |
+| Advice on wives, kinds of women, a woman's advice, loops | ep11 01:00:00-01:08:00 | Sweeping claims about women, garbled | Voice rule / Clarity, Loop check | Open |
+| Questions and answers on mothers-in-law, cameras and visits, loops | ep11 01:08:00-01:13:00 | Garbled | Clarity, Loop check | Open |
+| Break join, thanks and closing, trailing noise | ep11 01:14:30-01:15:00 | Greetings and closing remarks | Clarity | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 12 (branch from origin/main).
+
+### sharh-saheeh-al-bukhare ep12 (14 Nov 2026)
+
+22 points written for episode 12 (ar, en, ur); 6 needs_source marks in each language file for this episode; 8 new `about` edges. Quran verses referenced only through passage links (24-30, 24-31, 49-11); none typed. Contested: He says the tongue is a calamity in our time, treats hunger, sickness and death as things the sound heart loves, and gives a view on saying the phrase that God has spoken truly after recitation (not established by an authentic report, either view may be taken); all are marked as his view. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep12) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Greetings, praise and opening prayer | ep12 00:00:00-00:02:00 | Opening formulas and recap of the previous lesson, no content point | Content rule | Open |
+| Closing prayer, farewell and announcement of a company | ep12 01:19:30-01:20:00, 01:25:30-01:25:30 | Closing prayer, break join and commercial notice, not teaching | Content rule | Open |
+| Narrator name and place of the meeting with Abu Dharr | ep12 00:02:00-00:03:00 | Names garbled, left out rather than guessed | Clarity | Open |
+| Talk of the Prophet being seen in dreams, a question put to Ibn Taymiyya and the friends of God | ep12 00:13:30-00:18:00 | Garbled, speakers and sequence unclear | Clarity | Open |
+| Stories of Umar, the tent at Fustat and doves, and talk of illness in Egypt | ep12 00:23:00-00:26:00 | Garbled and partly invented by the recognizer, speakers unclear | Clarity | Open |
+| Stretch on names the Prophet changed and on a madman | ep12 00:25:30-00:27:00 | Garbled | Clarity | Open |
+| Looping and unrelated stretch with a fox tale and repeated words | ep12 00:27:00-00:29:30 | Loop and garbled speech with no recoverable point | Clarity, Loop check | Open |
+| Stories of Umar and a dream, a girl and a river, and a shaykh's pupils | ep12 00:33:00-00:39:00 | Loop and garbled speech, speakers unclear | Clarity, Loop check | Open |
+| Mention of a ruling about a visitor, the adhan and the muezzins, and a story of a sacrifice | ep12 00:43:30-00:46:30 | Garbled, only the report of the flute of the family of David is nearly clear and its reply is not recoverable | Clarity | Open |
+| Talk of marriage proposals, fathers and daughters, and newspaper marriage notices | ep12 00:53:30-00:57:00 | Garbled and sweeping remarks about people | Voice rule, Clarity | Open |
+| Stretch on present-day conflicts and calls to action in a named country | ep12 01:05:30-01:07:30 | Sweeping claim about modern conflict | Voice rule | Open |
+| Remarks on lawyers, doctors and professions | ep12 01:07:30-01:09:00 | Garbled and sweeping claims about professions | Voice rule, Clarity | Open |
+| Story of a scholar, a ruler and a reading of Sahih al-Bukhari | ep12 01:17:00-01:19:00 | Garbled and carries a sweeping political claim about rulers | Voice rule, Clarity | Open |
+| Remarks on politics, peoples, voting and an exchange with an emperor attributed to Harun al-Rashid | ep12 01:21:30-01:25:30 | Garbled and sweeping claims about peoples and modern conflict | Voice rule, Clarity | Open |
+| Loops at 00:27:30, 00:29:00, 00:36:00, 00:37:00, 00:40:30, 00:48:30, 00:50:00, 00:53:00, 00:57:00, 00:57:30, 01:00:00, 01:02:00, 01:03:00, 01:03:30, 01:06:30, 01:07:00, 01:09:30, 01:14:30, 01:16:30, 01:22:30 | ep12 various | Repeated words | Clarity, Loop check | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 13 (branch from origin/main).
+
+### sharh-saheeh-al-bukhare ep13 (14 Nov 2026)
+
+26 points written for episode 13 (ar, en, ur); 17 needs_source marks in each language file for this episode; 5 new `about` edges. Quran verses referenced only through passage links (28-26, 2-177, 6-61, 38-75, 2-255, 112-1, 16-66); none typed. Contested: He holds that the believer who resists temptation in a corrupt society is better in God's sight than one living in a society where disobedience is nearly impossible, and he attributes to unnamed European scholars a judgement on the Prophet's character; both are his views, and the reports he gives on angels and on Ibrahim are stated without a chain. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep13) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening supplication, greetings and invocations | ep13 00:00:00-00:00:30 | Greetings and opening prayer | Content rule | Open |
+| Closing supplication, break join and sign-off, second opening of a new hadith session | ep13 01:09:00-01:10:30, 01:18:00-01:24:30 | Closing prayers and invocations, repeated lines, break join | Content rule, Loop check | Open |
+| Credits and contact details of the publisher | ep13 01:28:00-01:29:00 | Promotional lines and sign-off | Content rule | Open |
+| Sweeping claims about rulers, wars and modern politics in the Muslim world | ep13 00:24:00-00:27:30, 01:08:30-01:09:00 | Sweeping claim about modern conflict and peoples, partly garbled | Content rule, Voice rule | Open |
+| Remarks on marriage customs, proposals and relatives, and on wives and in-laws | ep13 00:11:30-00:16:00, 00:21:00-00:22:00 | Garbled; sweeping advice about women and families not recoverable | Voice rule, Clarity | Open |
+| Story of Umar's household and sweets from the public treasury | ep13 00:08:00-00:10:00 | Garbled, speaker and details unclear | Clarity | Open |
+| Remarks on gossip and faults of people | ep13 00:17:00-00:19:30 | Garbled, referents unclear | Clarity | Open |
+| Hadith by sense on honouring a transgressor and on seeking knowledge | ep13 00:25:00-00:26:00 | Garbled; wording and referent not recoverable | Clarity | Open |
+| Story of Harun al-Rashid and a jar, and a visit story | ep13 00:30:00-00:32:30 | Garbled, plot not recoverable | Clarity | Open |
+| Remarks on a famous reciter and on a man who played with the mushaf | ep13 00:32:30-00:34:30 | Garbled, meaning not recoverable | Clarity | Open |
+| Remarks on reason, a lent coin and the glass half full | ep13 00:38:30-00:41:30 | Garbled, comparison unclear | Clarity | Open |
+| Daydreams, desire and imagined wealth | ep13 00:43:00-00:45:30 | Garbled, meaning not recoverable | Clarity | Open |
+| Remarks on angels and doctors, a doctor story and a prayer-rows story | ep13 00:51:00-00:52:00, 00:54:30-00:55:00 | Garbled, speaker and plot unclear | Clarity | Open |
+| Remarks on the Kaaba as the centre of the earth and satellite claims | ep13 00:58:00-00:58:30 | Unsupported factual claim stated without reference | Content rule, Clarity | Open |
+| Remarks on the Gospel, a woman and the nature of Isa | ep13 01:01:00-01:02:30 | Garbled, wording not recoverable | Clarity | Open |
+| Remarks on science, oil, resources of Muslim countries and the Hoopoe | ep13 01:05:30-01:08:30 | Garbled; sweeping claim about peoples | Content rule, Clarity | Open |
+| Questions on charity from doubtful money, maintenance of relatives and bank accounts | ep13 01:12:30-01:14:00 | Garbled; fiqh answers not recoverable | Clarity | Open |
+| Remark on death and the testimony and the burning of a mat or green | ep13 01:14:00-01:15:30 | Garbled, meaning not recoverable | Clarity | Open |
+| Remark on the Prophet's greatness compared with a named figure | ep13 01:27:00-01:28:00 | Garbled, name unclear | Clarity | Open |
+| Loop stretches of repeated syllables | ep13 00:02:30-00:03:00, 00:05:30-00:06:00, 00:07:30-00:08:30, 00:12:00-00:13:00, 00:19:00-00:20:30, 00:36:30-00:37:00, 00:38:00-00:38:30, 00:45:00-00:45:30, 00:50:30-00:51:00, 01:01:30-01:02:00, 01:05:00-01:05:30, 01:07:00-01:08:30, 01:10:00-01:10:30, 01:15:00-01:15:30, 01:21:30-01:24:00 | Repeated-token loops | Loop check | Open |
+| Throne-bearers' two praise formulas and the "shy" middle person in the three-people report | ep13 00:55:30-00:56:00, 01:17:00-01:17:30 | Garbled; wording not recoverable from the transcript | Clarity | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 14 (branch from origin/main).
+
+### alwaad-alhaq ep15 (14 Nov 2026)
+
+15 points written for episode 15 (ar, en, ur); 17 needs_source marks for this episode in each language file; persons and events linked to existing records, with the unnamed or unstable names (al-Thawri, Hanzala, the student of al-Shafi'i) left unlinked. Quran verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
+
+| Excluded (alwaad-alhaq ep15) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Passage on Abu Jahl and the nineteen guardians of the Fire | ep15 00:07:30-00:08:30 | speech too garbled by the transcription engine to restate faithfully | accuracy | Open |
+| Looping or garbled stretches | ep15 00:12:30-00:15:30, 00:34:00-00:35:00, 00:41:30-00:42:00, 00:44:00-00:44:30, 00:51:30, 00:52:30 | machine transcript loops and cannot be restated; details of the oven and jaw scenes taken from the clear surrounding text | accuracy | Open |
+| Identity of the fourth grave question | ep15 00:07:30 | the sheikh says four questions but names three; the fourth is not stated | accuracy | Open |
+| Identity of al-Thawri, Hanzala and al-Shafi'i's student | ep15 00:17:30-00:26:30 | names unstable or without lineage in the machine transcript; left unlinked pending the founder | accuracy | Open |
+| Circumstances of the death of Sa'id ibn Zayd in the sheikh's account | ep15 00:21:00-00:24:30 | the account places a death in battle; proposed for checking against held biographical sources | accuracy | Open |
+| Answer on Muslims who died without repenting | ep15 00:46:30 | speech garbled; only the clear parts (the declaration of faith fulfilled with its due) recorded | accuracy | Open |
+
+Resume point: alwaad-alhaq episode 16 (branch from origin/main).
+### sharh-saheeh-al-bukhare ep14 (14 Nov 2026)
+
+23 points written for episode 14 (ar, en, ur); 12 needs_source marks in each language file for this episode; 12 new `about` edges. Quran verses referenced only through passage links (1-1, 1-2, 1-3, 1-4, 1-5, 1-6, 1-7); none typed. Contested: He gives his own readings on how faith rises and falls, on the shortcomings of the Companions, on the secret of purity and of the opening takbir, on the Fatiha, on naming prophets and later scholars as those favoured, and a rule on saying God knows best versus God and His Messenger know best; all are marked as his view. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep14) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Greetings, praise and opening prayer | ep14 00:00:00-00:03:00 | Opening formulas and invocations, no content point | Content rule | Open |
+| Break join, advert for a company and closing remarks | ep14 01:22:30-01:23:30 | Looping words, then closing remarks and a commercial notice, not teaching | Content rule, Loop check | Open |
+| Inheritance case before Umar, slave-market story and remarks on the science of inheritance | ep14 00:08:30-00:11:30 | Garbled, speakers and figures unclear | Clarity | Open |
+| Dialect aside, grammar question and repeated words | ep14 00:15:30-00:17:30 | Garbled and looping | Clarity, Loop check | Open |
+| Stretch on what a nursing child's urine does to a prayer and on the prayer of a person pressed or tightly shod | ep14 00:25:00-00:34:30 | Garbled, partly colloquial and unclear who is quoted; only the report at 00:26:30 is used | Clarity | Open |
+| Remarks on a sign-of-ablution dispute, ring marriage vows and divorce | ep14 00:36:30-00:37:30 | Garbled | Clarity | Open |
+| Sweeping asides on how Muslims are today and on others | ep14 00:33:00 | One passing generalisation about present-day Muslims | Voice rule | Open |
+| Loops at 00:14:30, 00:17:00, 00:28:30, 00:29:00, 00:44:30, 00:48:30, 00:51:00, 00:53:30, 00:55:00, 00:59:30, 01:08:00-01:09:30, 01:10:30, 01:16:30, 01:22:30 | ep14 various | Repeated words | Clarity, Loop check | Open |
+| Hunger story, stories of those given contentment and the man of the heroin trade and Iblis | ep14 01:00:00-01:06:00 | Garbled, speakers and sequence unclear | Clarity | Open |
+| Stretch on reciting the Fatiha correctly, a preacher on the pulpit and a man late for prayer in Umar's time | ep14 01:10:00-01:13:00 | Garbled, speakers unclear | Clarity | Open |
+| Names and details the transcript does not clearly support: the exact count of the series, the narrator of the man's departure remark, the name of the scholar quoted at 00:51:30, the Companion reports at 00:11:00 | ep14 00:00:00, 00:19:00, 00:51:30, 00:11:00 | Garbled or absent, reduced to what is clear | Clarity | Open |
+| Percentages and sums of money in the two illustrations (marks falling, money given from a small and a large sum), the tie of the dignity of a gift to what is left, the full list of what faith is believed in, and the claim that cleaning the outward serves a clean heart | ep14 00:06:00, 00:08:00, 00:18:30-00:19:00, 00:47:30 | Illustrative figures, garbled or not clearly stated; reduced to what is clear | Clarity | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 15 (branch from origin/main).
+
+### sharh-saheeh-al-bukhare ep17 (14 Nov 2026)
+
+25 points written for episode 17 (ar, en, ur); 16 needs_source marks in each language file for this episode; 8 new `about` edges. Quran verses referenced only through passage links (17-32, 9-36, 5-101, 5-3); none typed. Contested: He holds that whoever declares lawful what God forbade or forbids what God made lawful has set up a partner with God, that whoever rejects a matter known by necessity has left the faith, and he gives his own rulings on the face veil, wine-related transactions, renamed interest and the waiting period for animals fed on filth; these are his views and are contested among scholars. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep17) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greetings, long opening supplication and closing prayer, farewell and announcement about who may speak in the mosque | ep17 00:00:00-00:03:00, 01:13:30-01:14:30 | Greetings, prayers and administrative announcements, not teaching; the opening prayer also names fighters in places, dropped under the content-safety block | Content rule | Open |
+| Rant on magazines, pictures of women and the youth of secondary schools | ep17 00:10:30-00:12:30 | Demeaning generalisation about women and young people, and ASR is garbled | Voice rule | Open |
+| Remarks on wives who object to a husband's second marriage, calling them lacking in reason and a ruling of polytheism on them | ep17 00:16:30-00:18:00 | Demeaning generalisation about women | Voice rule | Open |
+| Account of animals' ages and "50,000 years" arithmetic and garbled side comments | ep17 00:08:30-00:09:30 | Garbled and speculative numbers | Clarity, Loop check | Open |
+| Stories about pig-fat, wine and beer used on cows and about a trader and a doubtful stock of meat and a man named Rabia | ep17 00:23:30-00:25:30, 00:27:30-00:34:30 | Garbled stories, names and details cannot be recovered | Clarity, Loop check | Open |
+| Stretch on Ali, Usama and Umar ibn Abd al-Aziz's daughters | ep17 00:37:30-00:43:30 | Garbled and partial; only the later milk story is recoverable | Clarity | Open |
+| Loop stretches (repeated letters or words) | ep17 00:22:30-00:23:00, 00:28:00-00:28:30, 00:30:00-00:30:30, 00:34:30-00:35:00, 00:41:30-00:42:00, 00:43:00-00:43:30, 00:45:30-00:46:00, 00:46:30-00:47:00, 00:51:00-00:51:30, 00:55:30-00:56:30, 01:04:00-01:04:30, 01:02:00-01:02:30 | Repeated tokens and noise | Clarity, Loop check | Open |
+| Claims about the modern world: electricity, medical drugs and alcohol, hormones in chickens and kidney failure in Egypt, and foreign countries | ep17 00:46:00-00:47:30, 00:55:30-00:56:30, 01:04:00-01:05:30, 01:07:30-01:08:30 | Sweeping unsupported claims and garbled | Content rule, Clarity | Open |
+| Stretch about a Gulf or Arab league meeting and the leaders there | ep17 01:01:30-01:02:30 | Garbled and sweeping | Clarity | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 18 (branch from origin/main).
+
+### sharh-saheeh-al-bukhare ep18 (14 Nov 2026)
+
+27 points written for episode 18 (ar, en, ur); 23 needs_source marks in each language file for this episode; 11 new `about` edges. Quran verses referenced only through passage links (22-27, 12-70, 12-75, 35-32, 13-6, 23-60, 18-60, 18-61, 3-41, 19-10, 2-31, 18-65, 18-68, 18-69, 18-72, 59-21); none typed. Contested: He attributes to Ibn al-Qayyim the point on the closing of the door of success, relates end-time narrations, the Hijra cave account, and reports of Jesus, Dawud, al-Shafii and Malik without chain, gives a list of six reasons and four kinds of knowledge as his own scheme, and holds that finishing the Qur'an once a month is the minimum; all are marked as his. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep18) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greeting, praise and prayer on the Prophet | ep18 00:00:00-00:00:30 | Greeting and opening prayer | Content rule | Open |
+| Closing supplication, announcement of the next session and call to prayer | ep18 01:17:30-01:18:30 | Closing and housekeeping | Content rule | Open |
+| Looping and garbled stretches (repeated syllables and phrases) | ep18 00:07:00-00:08:30, 00:15:00, 00:22:00, 00:25:30, 00:58:00-00:58:30, 00:59:00-00:59:30, 01:07:30-01:08:00, 01:14:00-01:14:30, 01:15:00 | Loop and garbling, nothing recoverable | Clarity, Loop check | Open |
+| Story of a sick man who dreamed of the Prophet and was told a remedy | ep18 00:10:00-00:11:30 | Garbled and unreferenced | Clarity, Loop check | Open |
+| Further remarks on Joseph, his brothers and his lodging of the poor | ep18 00:12:30-00:14:30 | Garbled | Clarity | Open |
+| Report about Abu al-Darda and sleeping in ablution, and the angels' supplication detail | ep18 00:21:30-00:22:30 | Garbled | Clarity | Open |
+| Tale of a prayer for Abu Bakr's companion and a report about a worshipper before dawn | ep18 00:29:30-00:31:30 | Garbled | Clarity | Open |
+| Reported saying that most followers of the false Messiah are of certain groups including women, with remarks on fashion | ep18 00:39:30-00:40:30 | Sweeping claims about women and groups | Voice rule | Open |
+| Anecdote on greed and business dealings, with figures | ep18 01:05:30-01:06:30 | Sweeping generalisation, unreferenced figures | Voice rule | Open |
+| Remarks that the environment shapes people, with a comparison naming a modern politician, and sweeping claims about Muslims' ignorance | ep18 01:14:30-01:16:00 | Sweeping claims, garbled | Voice rule | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 19 (branch from origin/main).
+
+### alwaad-alhaq ep16 (14 Nov 2026)
+
+19 points written for episode 16 (ar, en, ur); 17 needs_source marks for this episode in each language file; 16 new `about` edges (ghulul, zakat, innovation, martyr, betrayal, trust, the unseen, tale-bearing, deviation, gifts to workers, the gift, purity, ongoing charity, Abd Allah ibn Rawaha, Abu al-Darda, Awf ibn Malik); Contested: his readings of the verses, the soul-and-body account, the decay figures and his views on gifts, innovation and funeral customs are marked as his. Quran verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
+
+| Excluded (alwaad-alhaq ep16) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Loop and garbled stretches | ep16 00:07:30, 00:15:30, 00:25:30, 00:29:30-00:30:30, 00:40:30-00:41:00, 00:43:00-00:43:30, 00:44:30-00:45:00, 00:46:00, 00:51:00-00:51:30 | Repeated tokens and noise, nothing recoverable | Clarity, Loop check | Open |
+| Names in the grave-aflame cloak report (Abd al-Rahman ibn Awf and a cemetery) | ep16 00:06:00-00:07:00 | Names unstable in the transcript, left unlinked pending the founder | Accuracy | Open |
+| Saying that the followers of innovation are dogs of Hell, and remarks on the funeral reciters' fees and a figure of one hundred thousand | ep16 00:27:30-00:29:30 | Sweeping and garbled, unreferenced figure | Voice rule, Clarity | Open |
+| Remark that people in the West each live as an isolated island | ep16 00:17:00-00:17:30 | Sweeping generalisation about a people | Voice rule | Open |
+| Report on the previous nations punished by general torment, and the sheikh's answer on whether the unbeliever is punished in the grave | ep16 00:09:30-00:10:00 | Garbled, only the clear sentence recorded | Clarity | Open |
+| Attribution to Ata ibn Abi Rabah about waiting for rain and for the stone, and the Ibn Hazm and Ibn Hajar remarks on the ruler's duty | ep16 00:30:30, 00:32:30-00:33:00 | Garbled and misattributed in the transcript | Accuracy | Open |
+| Remarks on objecting to God's words, the deceiver and schemer details | ep16 00:42:30-00:43:00, 00:47:30-00:48:30 | Garbled | Clarity | Open |
+| Opening greeting and closing farewell | ep16 00:00:30-00:01:30, 00:51:30-00:52:30 | Greeting, prayer and housekeeping | Content rule | Open |
+
+Resume point: alwaad-alhaq episode 17 (branch from origin/main).
+### sharh-saheeh-al-bukhare ep19 (14 Nov 2026)
+
+29 points written for episode 19 (ar, en, ur); 21 needs_source marks in each language file for this episode; 3 new `about` edges. Quran verses referenced only through passage links (9-107, 9-108, 61-3, 51-56, 39-53); none typed. Contested: His account of Abu Hanifa on laughter in prayer, his fatwa that a low-paid employee with dependents may take zakat, his views on nail polish in prayer, the foot as awra, and his ruling on the imam's successor are his own and contested among jurists. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep19) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greetings, long supplication and closing greetings and prayer | ep19 00:00:30-00:02:30, 01:26:00-01:26:30 | Greetings and prayer, not teaching | Content rule | Open |
+| Loops and garbled stretches (repeated syllables) | ep19 00:03:30-00:03:30, 00:07:30-00:07:30, 00:18:30-00:19:00, 00:25:00-00:25:00, 00:40:30-00:40:30, 00:42:30-00:42:30, 00:48:00-00:48:00, 00:52:30-00:52:30, 01:01:00-01:01:00, 01:03:00-01:03:00, 01:04:00-01:04:30, 01:06:30-01:06:30, 01:22:00-01:22:00, 01:23:00-01:23:00 | Repeated tokens, nothing recoverable | Clarity, Loop check | Open |
+| Stretches too garbled to state faithfully: stories on wealth and friends, the hole in the heart, a rabbi and a man of many sins, a man who would not leave the water, the snare of desire | ep19 00:15:00-00:19:30, 00:22:00-00:30:00, 00:38:00-00:41:00 | Meaning not recoverable from the transcript | Clarity, Loop check | Open |
+| Remarks on women's dress, hairstyles and cosmetics presented as sweeping claims, and a lengthy discussion of a woman plaiting her hair | ep19 00:52:00-00:56:00 | Sweeping generalisations about women and unclear text | Voice rule, Clarity | Open |
+| Details of cleaning after relieving oneself and bodily movements | ep19 00:48:30-00:49:30 | Garbled and not suited to the museum voice | Clarity, Voice rule | Open |
+| Jokes about a prince's alms and an old woman, and servant knocking stories | ep19 01:13:30-01:15:00, 01:20:30-01:22:30 | Garbled anecdotes with no clear teaching | Clarity | Open |
+| Remarks on modern states and armies and a soldier's story | ep19 00:34:00-00:35:00 | Sweeping claim about a modern conflict, partly looped | Content rule, Clarity | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 20 (branch from origin/main).
+
+### sharh-saheeh-al-bukhare ep20 (14 Nov 2026)
+
+24 points written for episode 20 (ar, en, ur); 16 needs_source marks in each language file for this episode; 3 new `about` edges. Quran verses referenced only through passage links (50-41, 14-22); none typed. Contested: He holds that one should stay and fill every field rather than leave a land of evil, has reservations on a bank-work opinion, defines dar al-Islam and dar al-harb in his own terms, and gives his own rulings on oath and Ramadan expiation; all are his views. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep20) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greetings, praise and supplication | ep20 00:00:00-00:02:00 | Greeting and opening prayer | Content rule | Open |
+| Closing supplication and farewell | ep20 01:18:00-01:18:00 | Closing prayer | Content rule | Open |
+| Naming countries and regions as abode of war or abode of Islam | ep20 00:04:00-00:04:30 | Sweeping claims about peoples and states | Voice rule | Open |
+| Claims that non-Muslim states take and re-educate Muslim children, and that Islam is blamed for backwardness | ep20 00:05:00-00:07:00 | Sweeping claims about peoples and modern politics | Voice rule | Open |
+| Nuclear weapons, Napoleon and the French legal code, a named writer and Jamal al-Din al-Afghani | ep20 00:07:00-00:16:30 | Sweeping claims about peoples and states, personal attacks, heavy garbling | Voice rule | Open |
+| Loop of repeated syllables | ep20 00:14:00-00:14:30 | Loop | Clarity, Loop check | Open |
+| Students, lecture schedules and prayer, Gulf of anecdotes | ep20 00:16:30-00:17:00 | Garbled | Clarity, Loop check | Open |
+| Three scholars and the voice, Bedouin wording, language professor and Umar anecdote | ep20 00:20:30-00:24:30 | Garbled, cannot recover the point | Clarity, Loop check | Open |
+| Loop of repeated syllables | ep20 00:25:00-00:25:30 | Loop | Clarity, Loop check | Open |
+| Blind judge, Umar and poetry, non-Arabic words in the Qur'an | ep20 00:26:30-00:29:00 | Garbled | Clarity, Loop check | Open |
+| New Year night and knowledge session, loop of one word | ep20 00:32:00-00:33:00 | Garbled and loop | Clarity, Loop check | Open |
+| Procrastination talk and loop of repeated letters | ep20 00:34:00-00:34:30; 00:37:30 | Garbled and loop | Clarity, Loop check | Open |
+| Strategy of Europeans, missions, theatre, liberation of women and claims about Jews | ep20 00:38:30-00:42:30 | Sweeping claims about peoples, women and groups | Content rule, Voice rule | Open |
+| Loop of repeated characters and numbers | ep20 00:39:30; 00:44:00 | Loop | Clarity, Loop check | Open |
+| Court summons analogy and sayings on turning to God | ep20 00:43:30-00:45:30 | Garbled | Clarity, Loop check | Open |
+| Hajj intention story, test through a son | ep20 00:47:00-00:49:00 | Garbled | Clarity, Loop check | Open |
+| Loop of repeated phrase | ep20 00:49:30-00:49:30 | Loop after the first lines | Clarity, Loop check | Open |
+| Tale of three men and the miser, loop | ep20 00:51:00-00:52:00 | Garbled | Clarity, Loop check | Open |
+| Loops of repeated letters | ep20 00:59:00-01:01:00 | Loop | Clarity, Loop check | Open |
+| Mosque attendance and remarks on the series and al-Bukhari | ep20 01:01:00-01:02:00 | Garbled | Clarity, Loop check | Open |
+| Marriage stories, suitor inspection, case of an unmarried woman and family costs | ep20 01:04:30-01:06:30; 01:07:30-01:09:00; 01:09:30-01:10:00 | Garbled, anecdotes without source | Clarity, Loop check | Open |
+| Garbled remarks before the orphan line and loops after Qur'an teaching | ep20 01:13:00-01:13:30; 01:14:30; 01:17:00-01:18:00 | Garbled and loop | Clarity, Loop check | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 21 (branch from origin/main).
+
+### sharh-saheeh-al-bukhare ep21 (14 Nov 2026)
+
+19 points written for episode 21 (ar, en, ur); 10 needs_source marks in each language file for this episode; 9 new `about` edges. Quran verses referenced only through passage links (99-1, 105-5, 21-30, 3-31, 59-7); none typed. Contested: He says the Prophet's forbidding is like God's, that the Sunna is revelation alongside the Qur'an, and offers earthquakes, wind and illness as signs and reminders from God; these are his readings and are attributed to him. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep21) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening praise, supplications and the closing greetings and prayer | ep21 00:00:00-00:05:00; 01:15:30-01:16:00 | Greetings and prayer, not teaching content | Content rule | Open |
+| Long supplications for the sick and for the ill in hospitals | ep21 00:20:00-00:21:30 | Closing-style prayer, garbled | Content rule | Open |
+| Statistics on the share of earthquakes around the Pacific and comparisons with Muslim regions | ep21 00:11:30-00:12:30 | Inconsistent figures, garbled, unreferenced | Clarity, Loop check | Open |
+| Direct appeals to ministers, judges and the media, and a call to cut relations with a party and govern differently | ep21 00:12:30-00:13:30; 00:28:30-00:29:30 | Sweeping claims about modern politics and peoples | Voice rule | Open |
+| Repeated filler loops | ep21 00:13:30, 00:21:00, 00:33:30, 00:35:00, 00:43:30, 00:48:30, 00:54:30, 00:58:30-00:59:00, 01:01:30, 01:03:00, 01:04:00, 01:06:30, 01:14:00, 01:15:00 | Loop or repeated token, no content | Clarity, Loop check | Open |
+| Story of David, Solomon and the stone, and the claim about who dies by stones | ep21 00:40:00-00:42:00 | Too garbled to recover | Clarity | Open |
+| Claims about wives of prophets betraying and about wives sharing secrets, and sweeping claims about women | ep21 00:46:00-00:47:30 | Demeaning generalisations about women | Voice rule | Open |
+| Remarks on Lut's people, a country's statistics and a disease | ep21 00:48:00-00:50:30 | Sweeping claims about a group, unreferenced statistics | Voice rule, Content rule | Open |
+| Remarks on Palestine, maps and other peoples and countries | ep21 01:01:30-01:03:30; 01:05:00-01:06:00 | Sweeping claims about peoples and modern conflict, garbled | Voice rule | Open |
+| Stretches on hearts of scholars, teachers and a conference | ep21 00:59:00-01:00:30; 01:05:00-01:05:30 | Too garbled to recover | Clarity | Open |
+| Stretch about the pious and the hypocrite and a remark about trade | ep21 01:14:30; 00:29:30-00:30:00 | Garbled | Clarity | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 22 (branch from origin/main).
+
+### alwaad-alhaq ep17 (14 Nov 2026)
+
+19 points written for episode 17 (ar, en, ur); 17 needs_source marks for this episode in each language file; links added to ghayba, kadhib, sihr, ghayb, jinn, hajj-rulings, tahara, kahana, wudu-fiqh and the Companions discussed. Quran verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
+
+| Excluded (alwaad-alhaq ep17) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening and closing greetings, thanks, poems and prayers | ep17 00:00:00-00:02:30; 00:50:00-00:51:30 | Greetings and prayer, not teaching content | Content rule | Open |
+| Stretches of repeated filler loops | ep17 00:12:30; 00:15:30; 00:33:30; 00:35:00; 00:48:30 | Loop or repeated token, no content | Clarity, Loop check | Open |
+| Remark on security agencies, Umar and spying on soldiers, and a comparison of pre-Islamic houses with Europe today | ep17 00:10:30-00:11:30; 00:13:00-00:13:30 | Sweeping claims about modern politics and peoples, garbled | Voice rule, Clarity | Open |
+| Astronomy question and stretch on the pilgrimage compared with spouses and mothers | ep17 00:24:00; 00:26:30-00:27:30 | Garbled, jokes about wives | Clarity, Voice rule | Open |
+| Story of Aisha and her nephew, and the hems of women's clothes | ep17 00:48:00-00:48:30; 00:44:30-00:45:30 | Too garbled to recover | Clarity | Open |
+| Mention of al-Ghazali and al-Munqidh before the Ibn al-Qayyim saying | ep17 00:45:30 | Attribution unclear in transcript; saying kept under Ibn al-Qayyim only | Clarity | Open |
+| Name of the person to whom the prayer-time saying is ascribed | ep17 00:28:30 | Transcript reads Abu Bakr al-Salih; kept as unclear Abu Bakr | Clarity | Open |
+
+Resume point: alwaad-alhaq episode 18 (branch from origin/main).
+### sharh-saheeh-al-bukhare ep22 (14 Nov 2026)
+
+26 points written for episode 22 (ar, en, ur); 23 needs_source marks in each language file for this episode; 3 new `about` edges. Quran verses referenced only through passage links (5-101, 102-8); none typed. Contested: He holds that innovation is confined to worship and not customs or dress, that disputation breeds rancour, that doubtful gains should be given to the poor, and he applies the hadith to modern work and birthdays; all are his views, marked "This is his view". Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep22) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Greeting, opening praise and prayer | ep22 00:00:00-00:00:30 | Not substantive | Content rule | Open |
+| Garbled and looping stretch on backbiting, a story of a stoning of a sinner and a repeated phrase | ep22 00:03:30-00:06:30 | Too garbled to recover | Clarity, Loop check | Open |
+| Garbled hadith of the people of Paradise and Hell, with a story of an oppressive emir and a fish | ep22 00:07:00-00:09:00 | Garbled, text of the hadith and the story cannot be recovered | Clarity, Loop check | Open |
+| Garbled reflection on worldly gifts and unrecoverable asides | ep22 00:10:00-00:11:00 | Too garbled to recover | Clarity | Open |
+| Garbled passages on the neighbour hadith, daughter and parents dialogues and a looping stretch | ep22 00:16:30-00:20:30 | Loops and garbling | Clarity, Loop check | Open |
+| Questions on dog's milk, a cow and other food rulings, partly garbled and looping | ep22 00:21:00-00:24:30 | Garbled and sweeping rulings not recoverable | Clarity, Loop check | Open |
+| Garbled stretch on marriage prohibitions and looping repetition | ep22 00:26:00-00:27:00 | Loops and garbling | Clarity, Loop check | Open |
+| Story of a prophet's two men sent and fasting asides | ep22 00:29:30-00:30:30 | Garbled | Clarity | Open |
+| Selling-words story, a long story of a king, a courtier and a minister with bad breath, and a ruler's treasury | ep22 00:31:30-00:37:30 | Story too garbled to relate faithfully | Clarity | Open |
+| Asides on lying and the tongue, and the fourth major sin of the tongue | ep22 00:38:00-00:38:30, 00:49:30 | Garbled wording, listed only as unclear | Clarity | Open |
+| Stretch on the sweeping remark that many shaykhs said all cities of a country are in the Fire | ep22 00:44:00 | Sweeping claim about a country, dropped from the macaroni bullet | Voice rule | Open |
+| Comments on the education of children, the university, the young man and the workplace | ep22 00:45:30-00:48:30 | Garbled, generalising about youth and society | Clarity, Voice rule | Open |
+| Stretch on a developing-country generalisation and on youth opposing parents | ep22 00:50:00-00:51:30 | Sweeping claims about peoples and garbled | Voice rule, Clarity | Open |
+| Remarks on the veil, niqab and women's dress being called a regression, and on women in public | ep22 00:51:30-00:52:00, 00:55:00-00:56:00 | Sweeping claims about women and dress, garbled | Voice rule, Clarity | Open |
+| Remarks on public workers, the car and the company, with looping repetition | ep22 00:53:00-00:58:00 | Looping and garbled | Clarity, Loop check | Open |
+| Garbled looping stretch on the heart and obedience | ep22 01:01:30-01:03:30 | Loops and garbling | Clarity, Loop check | Open |
+| Garbled looping repetition on gratitude and the teacher's ink | ep22 01:08:30-01:09:30 | Loops and garbling | Clarity, Loop check | Open |
+| Closing advice to students, closing prayer, announcements and contact details | ep22 01:09:30-01:11:30 | Break joins and closing prayer | Content rule | Open |
+| Badr attribution for the captives teaching reading and writing, and the Paradise framing in the Companion report | ep22 00:08:00, 00:11:30 | Transcript does not say Badr or Paradise there | Clarity | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 23 (branch from origin/main).
+
+### sharh-saheeh-al-bukhare ep23 (14 Nov 2026)
+
+25 points written for episode 23 (ar, en, ur); 21 needs_source marks in each language file for this episode; 11 new `about` edges. Quran verses referenced only through passage links (3-92, 3-144); none typed. Contested: He gives his own views on etiquette of eating, accepting wedding invitations and greeting, and reads the dream of drawing water and the sayings on knowledge assemblies in his own way; he attributes sayings to unnamed scholars and unnamed European writers without reference. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep23) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greeting and recap of earlier episode count | ep23 00:00:00-00:00:30 | Greeting and framing | Content rule | Open |
+| Closing prayer, thanks and announcement of next Friday | ep23 00:57:00-00:57:30 and 01:19:00 | Break join and closing prayer | Content rule | Open |
+| Opening praise and prayers of the second talk | ep23 00:57:30-00:58:00 | Break join and standard opening of a talk | Content rule | Open |
+| Khalid ibn al-Walid and Ammar exchange | ep23 00:10:30-00:11:30 | Loops and garbled, outcome not recoverable | Clarity, Loop check | Open |
+| Rukana wrestling story | ep23 00:12:00-00:14:30 | Too garbled to state what happened | Clarity, Loop check | Open |
+| Palm tree dispute detail and loops | ep23 00:16:00-00:16:30 | Repeated word loop | Clarity, Loop check | Open |
+| Remarks on the age of many scholars and preachers, with a count of a population | ep23 00:17:00-00:18:30 | Garbled, loops, and a sweeping claim about a people | Voice rule, Clarity, Loop check | Open |
+| Loops and garbled stretches | ep23 00:19:00-00:19:30, 00:20:30-00:21:00, 00:25:00-00:25:30 (second half), 00:28:30-00:29:30, 00:35:30-00:36:00 | Repeated tokens or unrecoverable text | Clarity, Loop check | Open |
+| Guest etiquette, host burden, pious people's food, tidiness of guests | ep23 00:27:00-00:29:00, 00:40:30-00:45:30 | Mostly garbled with personal anecdotes, only unambiguous points kept | Clarity | Open |
+| Sleep percentages of a lifetime and muscle counts for frowning and smiling | ep23 00:25:30-00:26:00, 01:04:00-01:04:30 | Statistics without source and garbled | Clarity | Open |
+| Comparison of the Prophet with an unnamed historical figure | ep23 01:00:30-01:01:00 | Demeaning comparison of a person and garbled | Voice rule | Open |
+| Greeting passage loops and chatter about telephone and school greetings | ep23 00:48:00-00:51:00, 00:52:30-00:53:00, 00:53:30-00:54:00 | Loops and garbled | Clarity, Loop check | Open |
+| Stretches on Prophet's family life, gentleness with Aisha, circles of prophets, standing right and rear | ep23 01:02:30-01:04:00, 01:04:30-01:09:30 | Garbled, details not recoverable | Clarity, Loop check | Open |
+| Uhud and Umm Ammara, Prophet's greeting and Pool references | ep23 01:09:30-01:10:30, 01:13:30-01:14:30 | Speaker of the quoted words unclear and garbled | Clarity | Open |
+| Address to students about exams and fasting | ep23 01:17:30-01:19:00 | Personal address, loops | Content rule | Open |
+| Smell report and backbiting saying | ep23 01:16:30 | Key words garbled (the ASR gives a different verb), wording and meaning not recoverable | Clarity | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 24 (branch from origin/main).
+
+### sharh-saheeh-al-bukhare ep24 (14 Nov 2026)
+
+25 points written for episode 24 (ar, en, ur); 21 needs_source marks in each language file for this episode; 5 new `about` edges. Quran verses referenced only through passage links (3-31); none typed. Contested: He attributes to God a purpose for illness and poverty as tests of those He loves, and holds that affliction is a sign of God's love; these are his applications, marked as his view. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep24) | Episode / time | Reason | Gate failed | Override |
+| Opening praise loop, greetings and opening prayer | ep24 00:00:00-00:02:30 | Greeting and opening prayer, and a repeated-word loop | Clarity, Loop check | Open |
+| Garbled opening on small deeds and bankruptcy | ep24 00:02:30-00:04:00 | Too garbled to recover | Clarity, Loop check | Open |
+| Repeated-word loops and garbled stretches | ep24 00:04:30-00:05:00, 00:17:00-00:17:30, 00:18:00-00:20:00, 00:24:00-00:24:30, 00:28:30-00:29:00 | Loops and unrecoverable ASR | Clarity, Loop check | Open |
+| Garbled hadith-by-sense and stories about neighbours, a travelling party and its leader | ep24 00:10:30-00:12:00, 00:13:00-00:16:00 | Garbled narration, speakers and endings unclear | Clarity | Open |
+| Pharaoh, wealth and paradise story | ep24 00:27:00-00:28:30 | Garbled, cannot recover who says what | Clarity | Open |
+| Companions before and after Islam, conquest and dismissal stories | ep24 00:37:00-00:39:00 | Garbled names and events | Clarity, Loop check | Open |
+| Remarks on marriage, wives, divorce and what men and women do | ep24 00:40:00-00:43:30 | Sweeping claims about women and men and garbled | Voice rule, Clarity | Open |
+| Divorce oaths and a list of countries | ep24 00:53:00-00:55:30 | Garbled and sweeping remarks about peoples | Voice rule, Clarity, Loop check | Open |
+| Postpartum bleeding, menstruation and prayer rulings | ep24 00:55:30-00:58:30 | Garbled fiqh rulings about women, not recoverable | Clarity, Voice rule | Open |
+| Garbled passages on provision, Qarun and the words I and mine | ep24 01:09:00-01:23:00 | Heavy garbling and loops | Clarity, Loop check | Open |
+| Garbled passages after the tongue and favours section | ep24 01:26:30-01:31:00 | Loops and unclear speech | Clarity, Loop check | Open |
+| Closing and final prayer | ep24 01:31:00-01:31:30 | Break join and closing | Content rule | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 25 (branch from origin/main).
+
+### alwaad-alhaq ep18 (14 Nov 2026)
+
+17 points written for episode 18 (ar, en, ur); 18 needs_source marks for this episode in each language file; 8 edges added to the series record (zina, lowering the gaze, marriage, the orphan, Abu Dharr, Ikrima, al-Walid ibn al-Mughira, al-Abbas). Quran verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
+
+| Excluded (alwaad-alhaq ep18) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Harsh wording about women's fashion and a prayer against a woman | ep18 00:08:30-00:09:00 | Insulting register and a curse, not in the museum's voice | Voice and scope | Open |
+| Garbled passages on the imam of Kufa, Umar and a Companion, and the second matter of war beside usury | ep18 00:14:30, 00:21:30-00:24:30 | ASR loop and unreadable text, nothing safe to restate | Source quality | Open |
+| Figures on the percentage of bank dealings and the Islamic banks comparison | ep18 00:18:30 | Garbled numbers, not restated | Source quality | Open |
+
+Resume point: alwaad-alhaq episode 19 (branch from origin/main).
+
+### alwaad-alhaq ep19 (14 Nov 2026)
+
+17 points written for episode 19 (ar, en, ur); 21 needs_source marks for this episode in each language file; 15 new about edges on the series record. Quran verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
+
+| Excluded (alwaad-alhaq ep19) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Garbled passage on a scholar at the zamzam well | ep19 00:47:30-00:48:30 | transcription too unclear to cite | accuracy | Open |
+| Unclear sayings on the night prayer and a scholar's reply | ep19 00:47:00 | transcription unclear | accuracy | Open |
+| Host remark on the West and animals versus Palestine | ep19 00:16:00 | modern conflict commentary by the host, not the sheikh | scope (modern conflict) | Open |
+| Skin cancer percentages | ep19 00:39:30 | figures garbled in the transcript, only the claim kept | accuracy | Open |
+
+Resume point: alwaad-alhaq episode 20 (branch from origin/main).
+
+### alwaad-alhaq ep20 (14 Nov 2026)
+
+17 points written for episode 20 (ar, en, ur); 19 needs_source marks for this episode in each language file; edges added to the series record for enjoining good, fear, hope, good character, muraqaba, taqwa, pride, sincere counsel, Rukana, Jibril and Musa. Quran verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
+
+| Excluded (alwaad-alhaq ep20) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Closing prayer wording | ep20 00:54:30 | transcript garbled, only the gist kept | accuracy | Open |
+| Passage on the Prophet's welcome of a visitor | ep20 00:29:00 | lost to repetition loop | accuracy | Open |
+| Chain of the Prophet's saying on blessing | ep20 00:51:30 | lost to repetition loop | accuracy | Open |
+| Lombroso and a book on Quraysh figures | ep20 00:29:30 | names garbled, not attributed | accuracy | Open |
+
+Resume point: alwaad-alhaq episode 21 (branch from origin/main).
+
+### alwaad-alhaq ep21 (14 Nov 2026)
+
+19 points written for episode 21 (ar, en, ur); 16 needs_source marks for this episode in each language file; edges added to the series record for envy, showing off, self-admiration, intention, sincerity, grudge, truthfulness, the sight of God, the divine saying and Malik ibn Anas. Quran verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
+
+| Excluded (alwaad-alhaq ep21) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Statistic from a respectable institution on kindness | ep21 00:46:00 | promised but the passage is lost to a repetition loop | accuracy | Open |
+| Opening stretch before the good-ending topic | ep21 00:02:30 | lost to repetition, only the gist kept | accuracy | Open |
+| Passage on the two calamities of the envier (second) | ep21 00:35:00 | lost to repetition loop | accuracy | Open |
+| Answer to the host's question on turning sins into good deeds | ep21 00:24:30 | deferred by the sheikh in the episode, not answered here | completeness | Open |
+| Passage after the Iblis and Isa tale (transcript loops) | ep21 00:12:30 | garbled by repetition, only the gist kept | accuracy | Open |
+
+Resume point: alwaad-alhaq episode 22 (branch from origin/main).
+### sharh-saheeh-al-bukhare ep25 (14 Nov 2026)
+
+32 points written for episode 25 (ar, en, ur); 29 needs_source marks in each language file for this episode; 14 new `about` edges. Quran verses referenced only through passage links (3-159, 12-92); none typed. Contested: His accounts of the Crusader killings, Umar's entry into Jerusalem and the course of the conquest are attributed to him and given without sources, and his framing of the jihad question is his own. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep25) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Greeting-free opening address to a questioner about Americans, mosques and Western society, with sweeping claims about peoples and societies | ep25 00:00:00-00:06:30 | Sweeping generalisations about peoples and societies, and garbled in both transcripts | Voice rule | Open |
+| Closing-style supplication before the main talk | ep25 00:10:00-00:11:00 | Prayer, not content, and a loop of repeated particles in the Qwen pass | Content rule | Open |
+| Stretch on the past centuries of Europe and the Muslim world, a dating to about 700, and a casualty figure of 7,000 in one transcript and 70,000 in the other | ep25 00:11:30-00:12:30 | Sweeping claim about modern history and the two transcripts give different figures | Voice rule | Open |
+| Takbir loop and stories of Umar's journey, his servant, a man named Salim, and the Jerusalem handover dialogue | ep25 00:14:00-00:21:30 | Loops and garbled dialogue in both transcripts, nothing clearly supported | Clarity, Loop check | Open |
+| Church story and covenant clause on Jews | ep25 00:23:00-00:24:30 | Garbled in both transcripts, the clause and church scene cannot be stated faithfully | Clarity | Open |
+| Colonial occupations, the British empire and Muslims in Europe and America | ep25 00:25:30-00:28:00 | Sweeping claims about peoples and modern conflict, partly looped | Voice rule, Loop check | Open |
+| Anecdote of the most beautiful place, the tree and the lake | ep25 00:29:00-00:32:00 | Garbled in both transcripts and the speaker's meaning is unclear | Clarity | Open |
+| Remarks on politics in a modern country and a named teacher | ep25 00:33:00-00:33:30 | Modern political aside, garbled | Content rule, Clarity | Open |
+| Garbled and looped stretches of the Hudaybiyya negotiation | ep25 00:35:30-00:37:30 | Loops of repeated words in the Qwen pass and unrecoverable in the Whisper pass | Clarity, Loop check | Open |
+| Garbled stretch on the treaty terms and Umm Salama's tent | ep25 00:38:30-00:39:30, 00:41:00-00:42:00 | Both transcripts garbled, Umm Salama's advice not recoverable | Clarity, Loop check | Open |
+| Abu Sufyan and the Khuza'a men on the road, the dates and the dialogue | ep25 00:44:00-00:45:00 | Garbled, nothing supported by both passes | Clarity | Open |
+| Digression on armour and travelling by car on the pilgrimage | ep25 01:03:30-01:04:30 | Digression, garbled | Clarity | Open |
+| Garbled stretch on Umar's words at the tent and on forgiveness | ep25 01:05:00-01:05:30, 01:07:00-01:07:30 | Garbled, speakers unclear | Clarity | Open |
+| Garbled stretch on the instruction not to raise swords and the exchange with Khalid | ep25 01:12:30-01:13:00 | Garbled in both transcripts | Clarity, Loop check | Open |
+| Greeting, thanks, closing prayer and sign-off | ep25 01:18:00-01:18:30 | Closing prayer and greetings are not part of the teaching | Content rule | Open |
+| Names of the Badr Companion who sent the letter, of the man left to lead prayers in Medina and of the commander who relayed the Jerusalem reply | ep25 00:14:30, 00:53:30, 00:59:30 | Each rests on a single garbled word and the two transcripts disagree | Clarity | Open |
+| Second ASR pass: Whisper large-v3 (mlx) run on the Mac to resolve garbled words of the Qwen transcript; cites use the shared 30-second grid | ep25 whole | Qwen pass too garbled for a rich first pass | Clarity | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 26 (branch from origin/main).
+
+### sharh-saheeh-al-bukhare ep26 (14 Nov 2026)
+
+27 points written for episode 26 (ar, en, ur); 19 needs_source marks in each language file for this episode; 11 new `about` edges. Quran verses referenced only through passage links (3-81, 4-163, 42-13); none typed. Contested: His views on the imam's pause and the Fatiha, on white and black lies, on the Hanafi and Shafii positions and on verifying hadiths are his own; the stories (Aisha's closed hand, the Hijra exchange, the mother's grave, Halima, al-Shayma, Zaynab's necklace, the cloak in the grave) are told without a chain. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep26) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Greetings, opening and closing prayers, break joins | ep26 00:00:00-00:04:00, 01:19:30 | Not substantive | Content rule | Open |
+| Loops (repeated words) | ep26 00:02:30-00:03:00, 00:09:30, 00:14:30, 00:34:30, 00:50:30, 01:01:00, 01:07:00 | Loops | Clarity, Loop check | Open |
+| Long stretches of garbled ASR, mixed dialect, no recoverable argument | ep26 00:11:30-01:01:00 | Too garbled to recover | Clarity, Loop check | Open |
+| Stretches on rulings, prayer, peoples and politics, unclear | ep26 00:40:30-00:47:30, 01:16:30-01:19:00 | Garbled, sweeping or unclear claims | Voice rule, Clarity | Open |
+| A stretch dropped under the content-safety block | ep26 00:02:00-00:03:30 | Dropped under the content-safety block | Content rule | Open |
+| Second ASR pass: Whisper large-v3 (mlx) run on the Mac to resolve garbled words of the Qwen transcript; cites use the shared 30-second grid | ep26 whole | Qwen pass too garbled for a rich first pass | Clarity | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 27 (branch from origin/main).
+
+### alwaad-alhaq ep22 (14 Nov 2026)
+
+20 points written for episode 22 (ar, en, ur); 19 needs_source marks for this episode in each language file; edges added to the series record for long hope, injustice, being led on, self-deception, wine, the Night of Power, Ata ibn Abi Rabah, Qarun, Haman and Ubayy ibn Khalaf. Quran verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
+
+| Excluded (alwaad-alhaq ep22) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening and closing prayers, thanks and sign-off | ep22 00:54:30-00:55:30 | Not teaching; closing prayer includes an imprecation against unnamed enemies | Content rule | Open |
+| Parable and prayer fragment on a prayer invalidated in bowing | ep22 00:04:00 | Garbled | Clarity | Open |
+| Examples of rich countries discarding food and fish to protect prices, and a Google percentage | ep22 00:15:30 | Garbled and looped, claims unsupported | Clarity, Loop check | Open |
+| Remarks on outside parties controlling the media and on Zionists | ep22 00:29:30 | Garbled sweeping claim on a modern conflict | Voice rule, Clarity | Open |
+| Name of the follower led to pray by Ata, the Companion with the camel (Usama?), the Companion teaching Islam, the man in the trench | ep22 00:08:30, 00:09:30, 00:41:30, 00:53:30 | Names rest on garbled words | Clarity | Open |
+| Ghazali and the Shafi'i view on a prayer lengthened for show, Ibn Abbas on the dog and the thieves | ep22 00:37:00-00:38:00 | Garbled | Clarity | Open |
+| Story of the promise-breaker attributed to a named scholar | ep22 00:33:30 | Name garbled | Clarity | Open |
+| Loops and repeated blessings | ep22 00:08:00, 00:14:00, 00:29:00, 00:34:00, 00:50:00, 00:54:00 | Loops | Loop check | Open |
+
+Resume point: alwaad-alhaq episode 23 (branch from origin/main).
+### sharh-saheeh-al-bukhare ep27 (14 Nov 2026)
+
+28 points written for episode 27 (ar, en, ur); 22 needs_source marks in each language file for this episode; 8 new `about` edges. Quran verses referenced only through passage links (3-37, 25-63); none typed. Contested: His readings of the Prophet's request for a writing and its dispute, his remark that Abu Bakr's appointment of Umar shows real democracy, his comment on Khalid's removal, and his application of the hadith on raised graves are his own and are contested; the reports on Khalid, al-Qa'qa' and Ali and Fatima are given without chains. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep27) | Episode / time | Reason | Gate failed | Override |
+| Greeting, opening supplication and looped lines | ep27 00:00:00-00:01:30 | Opening greeting and prayer, with a long Qwen loop of one word | Clarity, Loop check | Open |
+| Takfir among Muslims in disputes, and a remark about a scholar's method | ep27 00:06:00-00:07:00 | Sweeping claim about groups of Muslims and garbled in both passes | Content rule | Open |
+| Criticism of modern writers and legislators | ep27 00:15:00-00:15:30 | Sweeping claim about modern writers, garbled | Voice rule | Open |
+| Garbled stretches, loops and repeated words | ep27 00:41:30-00:43:30 | Loops in the Qwen pass, Whisper too garbled to carry a point | Clarity, Loop check | Open |
+| Money talk, a sale at 160 dinars and a story about Ali and Fatima's household | ep27 00:46:00-00:51:30 | Too garbled in both passes to say what is reported | Clarity | Open |
+| Remark on the Imam al-Sadiq and practices at graves | ep27 00:52:30-00:53:00 | Sweeping claim about a sect's practice, partly garbled | Content rule | Open |
+| Sufyan al-Thawri dream and account of deeds on the Day | ep27 00:56:00-00:59:00 | Garbled in both passes | Clarity | Open |
+| Story of people seeking others' faults and a rooftop | ep27 01:01:00-01:04:30 | Garbled in both passes | Clarity | Open |
+| Report on the women of Paradise | ep27 01:05:30-01:06:30 | Quoted by sense and too garbled to restate | Clarity | Open |
+| Hadith of drawing near by voluntary acts | ep27 01:10:30-01:12:30 | Only the second pass has it and only partly | Clarity | Open |
+| Closing supplication and a garbled story about Khalid's death | ep27 01:12:30-01:14:00 | Closing prayer and garbled report | Clarity | Open |
+| Sign-off and closing greetings | ep27 01:19:30-01:20:00 | Closing greetings and sign-off | Clarity | Open |
+| Second ASR pass: Whisper large-v3 (mlx) run on the Mac to resolve garbled words of the Qwen transcript; cites use the shared 30-second grid | ep27 whole | Qwen pass too garbled for a rich first pass | Clarity | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 28 (branch from origin/main).
+
+### sharh-saheeh-al-bukhare ep28 (14 Nov 2026)
+
+28 points written for episode 28 (ar, en, ur); 23 needs_source marks in each language file for this episode; 5 new `about` edges. Quran verses referenced only through passage links (71-10, 18-1, 17-1, 28-83, 33-56, 5-3, 3-144); none typed. Contested: He holds that the principle of what leads to the forbidden applies to all who share in wine, that non-Muslims in Muslim lands should respect Islam, that repeated forgiveness-seeking without leaving the sin is not repentance; these are his views. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep28) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greetings, praise and opening supplication, with looped "qooq" and "ya rabbana" stretches | ep28 00:00:00-00:05:30 | Greetings, supplication and repeated-phrase loops; a stretch of the opening supplication touching conflict dropped | Clarity, Loop check | Open |
+| Stretch on tourism, mosque visitors, Vatican and women's liberation remarks, sweeping claims about peoples and women | ep28 00:13:00-00:17:00 | Sweeping claims about women and peoples, garbled | Content rule, Clarity | Open |
+| Loops ("al-", "ba", "fu", "sah", "ayh", "min") and garbled stretches | ep28 00:09:30, 00:13:00, 00:29:00, 00:31:30, 00:34:00, 00:37:30, 00:40:00, 00:45:00, 00:48:30, 00:53:00 | Repeated-phrase loops and unrecoverable ASR | Clarity, Loop check | Open |
+| Remarks on who is the better servant and the kinship analogy about servanthood | ep28 00:26:30-00:28:00 | Too garbled to recover | Clarity | Open |
+| Description of the Prophet's character and Bilal anecdote, Companions' devotion | ep28 00:33:00-00:36:00, 00:38:30-00:39:30 | Too garbled and unreferenced to state faithfully | Clarity | Open |
+| Claim about the Prophet's wives gathering and the house where he was nursed (house named inconsistently) | ep28 00:43:00-00:43:30 | Garbled, names unclear | Clarity | Open |
+| Exact date of the Prophet's death | ep28 00:53:30-00:54:00 | Date garbled in the transcript | Clarity | Open |
+| Closing supplications for the community | ep28 01:09:00-01:10:00 | Closing prayer | Voice rule | Open |
+| Questions on a beard and on charity work, and the speaker's own listing of qualifications and affiliations | ep28 01:11:00-01:14:30 | Garbled, personal promotion, not substantive | Clarity | Open |
+| Claim that servanthood is a title of honour and the highest human rank | ep28 00:25:30-00:28:00 | Not clearly stated in the transcript | Clarity | Open |
+| Claim that people entered the religion in crowds after sixty-three years | ep28 00:32:00 | Garbled, unclear what the number refers to | Clarity | Open |
+| Remark that changing the religion by adding or removing makes it unreliable | ep28 00:38:30 | Garbled | Clarity | Open |
+| Detail that Uhud shook, and that the Baqi visit was at night or involved asking forgiveness | ep28 00:46:00-00:47:30 | Not in the transcript | Clarity | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 29 (branch from origin/main).
+
+### sharh-saheeh-al-bukhare ep29 (14 Nov 2026)
+
+28 points written for episode 29 (ar, en, ur); 24 needs_source marks in each language file for this episode; 5 new `about` edges. Quran verses referenced only through passage links (5-67); none typed. Contested: He holds that we live in a time of trials, relates Hind ibn Abi Hala's description of the Prophet as his preferred one (with his own account of Hind's kinship and age), and gives the rule that what leads to the forbidden is forbidden; all marked as his view. The recording says "his death" for the first part of the lesson but what follows is the Prophet's description, so the bullet says "the Prophet's person"; the word for the first kind of miracle is garbled and read as inanimate things from context. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep29) | Episode / time | Reason | Gate failed | Override |
+| Opening greeting, supplication and closing of the opening prayer | ep29 00:00:00-00:01:00 | Greeting and prayer, not teaching | Content rule | Open |
+| Repeated loop on a single word | ep29 00:05:30-00:05:30 | Looped filler, no content | Clarity, Loop check | Open |
+| Loop and garbled stretch after the Prophet's character | ep29 00:10:30-00:10:30 | Looped filler | Clarity, Loop check | Open |
+| Digression on names (Hind, names with abd, naming children) | ep29 00:12:30-00:16:30 | Garbled, partly looped, cannot be recovered faithfully | Clarity, Loop check | Open |
+| Garbled stretch on a Bedouin visitor, the face of liars, and the Qur'an wording of a Quraysh leader | ep29 00:19:30-00:21:30 | Too garbled; also involves Qur'an wording | Clarity, Loop check | Open |
+| Loop on one syllable and on the word "the face" | ep29 00:20:00-00:20:00, 00:25:30-00:25:30, 00:27:30-00:27:30 | Looped filler | Clarity, Loop check | Open |
+| Poetry and aside on faces of women | ep29 00:26:00-00:26:30, 00:31:00-00:31:30 | Aside with demeaning generalisation and unclear verse | Voice rule, Clarity | Open |
+| Garbled report of Umar and a visitor, and of the Dajjal sign and a man's questions | ep29 00:34:30-00:36:00 | Too garbled to recover | Clarity, Loop check | Open |
+| Aside on contemporary peoples and skin colours | ep29 00:39:00-00:40:00 | Sweeping claim about peoples, with garbled wording | Voice rule, Clarity | Open |
+| Vision of God, Bedouin questions and a modern aside | ep29 00:41:30-00:44:00 | Too garbled to recover; includes looped filler | Clarity, Loop check | Open |
+| Dialect digression and Yemeni visitors | ep29 00:46:00-00:48:30 | Garbled | Clarity | Open |
+| Garbled stretch on the arms, palms and chest | ep29 00:52:00-00:55:00 | Too garbled to recover | Clarity, Loop check | Open |
+| Aside on depression and suicide in other lands | ep29 00:59:00-01:01:30 | Sweeping claim about peoples and modern society, garbled | Voice rule, Clarity | Open |
+| Garbled and looped stretches on tears, a battle story and Companions | ep29 01:02:00-01:04:30 | Too garbled and looped to recover | Clarity, Loop check | Open |
+| Garbled stretch on greeting of non-Muslims | ep29 01:05:30-01:06:00 | Too garbled; only the first-to-greet point kept | Clarity | Open |
+| Garbled stretch on Ali, a camel and a prayer for safety | ep29 01:14:00-01:15:00 | Too garbled to recover | Clarity | Open |
+| Looped filler and garbled questions on names Muhammad and Awf | ep29 01:15:30-01:15:30, 01:17:30-01:17:30 | Looped or too garbled to recover; the transcript ends on a closing aside | Clarity, Loop check | Open |
+| Detail dropped from three description bullets (speech pace and amount, chest, downhill gait) | ep29 00:49:00-00:49:30, 00:51:00, 00:58:30 | Not clearly supported by the garbled transcript | Clarity | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 30 (branch from origin/main).
+
+### alwaad-alhaq ep23 (14 Nov 2026)
+
+22 points written for episode 23 (ar, en, ur); 17 needs_source marks for this episode in each language file; about edges added to israfil, the Day of Spreading, the land of gathering, the Day of Gathering, the states of the Day of Rising, the blasts of the Trumpet, the signs of the Hour and intercession. Quran verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
+
+| Excluded (alwaad-alhaq ep23) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| garbled transcript passages (the exchange with Abraham on fearing the Rising, the Safiyya anecdote, the closing poem, the sura named for steadfastness, looping segments 00:41:30-00:42:30 and 00:47:30) | ep23 00:20:00-00:59:30 | transcript too garbled to assert | accuracy | Open |
+| the sheikh's view that the fetus is a person from the first day | ep23 00:19:30 | recorded as his view only, contested among scholars | sensitivity | Open |
+
+Resume point: alwaad-alhaq episode 24 (branch from origin/main).
+### sharh-saheeh-al-bukhare ep30 (14 Nov 2026)
+
+16 points written for episode 30 (ar, en, ur); 12 needs_source marks in each language file for this episode; 2 new `about` edges. Quran verses referenced only through passage links (28-76); none typed. Contested: His division of people into three kinds, his readings of poverty, fear and showing off, and his explanation of exultation are his own views; the hadiths, divine saying, supplication and reports he relates by sense carry no chain. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep30) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening praise, opening prayer and loops | ep30 00:00:00-00:03:00 | Greetings and prayer; a stretch dropped under the content-safety block | Content rule / Clarity, Loop check | Open |
+| Remarks on the first century, scholars' deaths and Palestine, with statistics | ep30 00:06:00-00:11:00 | Sweeping remarks on modern conflict, garbled figures | Voice rule / Clarity | Open |
+| Stories of a Companion woman and a smile, loops | ep30 00:16:00-00:23:00 | Too garbled to recover | Clarity, Loop check | Open |
+| Saying about seeing a man fly and walk on water, definition of the friends of God | ep30 00:24:30-00:25:30 | Too garbled to recover | Clarity | Open |
+| Medical analogy for poverty and illness, loops | ep30 00:26:30-00:29:00 | Garbled | Clarity, Loop check | Open |
+| Stories of angels, repeated words, trade analogies | ep30 00:31:00-00:37:30 | Garbled, loops | Clarity, Loop check | Open |
+| Story of a woman taunted over her origin, marriage asides | ep30 00:38:00-00:43:30 | Garbled, names unreliable | Clarity, Loop check | Open |
+| Lottery, compensation figures, stories of a poor man at a door and a wife's remarriage | ep30 00:44:00-00:53:30 | Garbled, unreliable stories and numbers | Clarity, Loop check | Open |
+| Advice on wives and children, loops | ep30 00:55:30-00:59:00 | Garbled, loops | Clarity, Loop check | Open |
+| Stories of a lute-player and the dead, the knowledge trial and Abu Hanifa questions | ep30 01:01:00-01:03:00 and 01:04:00-01:09:00 | Garbled, loops, unreliable names | Clarity, Loop check | Open |
+| Break join, closing remarks and prayer | ep30 01:10:00-01:10:30 | Greetings and closing prayer | Clarity | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 31 (branch from origin/main).
+
+### sharh-saheeh-al-bukhare ep31 (14 Nov 2026)
+
+26 points written for episode 31 (ar, en, ur); 21 needs_source marks in each language file for this episode; 3 new `about` edges. No Quran verses linked; none typed. Contested: his advice that all scholars and others devote all their time to the call, his reading of the letters of advice to rulers as lessons for the present, his application of the gift hadith to officials, and his account of temptation at death are his own views; the letters and stories are given without chain or collection. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep31) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greeting and praise | ep31 00:00:00-00:00:30 | Greeting formula, no teaching content | Content rule | Open |
+| Closing and opening prayers for those in distress | ep31 00:03:30-00:05:30 | Prayer, not teaching content | Content rule | Open |
+| Closing prayer and farewell | ep31 01:11:00-01:11:30 | Closing prayer and farewell | Content rule | Open |
+| Imam al-Haramayn remark about the commentary | ep31 00:01:30-00:02:30 | Both passes garbled, sense not recoverable | Clarity, Loop check | Open |
+| Looping stretch before the lion story | ep31 00:09:00-00:09:30 | Repeated filler words in the first pass, sense not recoverable | Clarity, Loop check | Open |
+| Direct address to the audience about merit and gatherings | ep31 00:12:30-00:13:30 | Garbled in both passes, sense not recoverable | Clarity, Loop check | Open |
+| Remarks on carpets, presents and presumed innocence in the Umar letter section | ep31 00:22:30-00:24:00 | Garbled in both passes, sense not recoverable | Clarity, Loop check | Open |
+| Story of Umar ibn Abd al-Aziz and heated water, and the remark that he kept the letter before him | ep31 00:31:00-00:32:30 and 00:38:30 | Heavily garbled, a name or detail would rest on a single word | Clarity, Loop check | Open |
+| Middle section of al-Hasan's letter (flock, orphans, the heart image) | ep31 00:33:30-00:35:30 | Looping and garbled in the first pass, partly in the second | Clarity, Loop check | Open |
+| Sufyan's reply after Harun wept | ep31 00:44:30-00:45:00 | Garbled in both passes, sense not recoverable | Clarity, Loop check | Open |
+| Remarks on those who reject a ruling and on declaring people unbelievers | ep31 00:46:00-00:47:30 | Sweeping judgement on groups and a ruling on unbelief, not for the museum's voice | Voice rule | Open |
+| Middle category of the livelihood and return saying | ep31 00:48:00-00:48:30 | Label garbled differently in each pass | Clarity, Loop check | Open |
+| Story of a man watching animals and the saying on the enemy providing for his enemy | ep31 00:50:30-00:51:00 | Story garbled in both passes, sense not recoverable | Clarity, Loop check | Open |
+| Colloquial anecdotes about prices, marriage and everyday dealings | ep31 00:54:30-00:58:00 | Garbled, looping and conversational filler with no clear teaching point | Clarity, Loop check | Open |
+| Sweeping claims about Egyptian society | ep31 00:57:30-00:58:30 | Generalisation about a people, not for the museum's voice | Voice rule | Open |
+| Remarks on teachers, private lessons and society | ep31 01:01:00-01:03:00 | Sweeping claims about a profession and society, garbled | Voice rule | Open |
+| Remarks on Eid, parents, children, drugs and smoking | ep31 01:03:30-01:06:30 | Garbled and conversational, sweeping generalisations | Voice rule | Open |
+| Account of an imam's last moments | ep31 01:08:30-01:10:00 | Garbled in both passes, a person's name would rest on a single word | Clarity, Loop check | Open |
+| Second ASR pass: Whisper large-v3 (mlx) run on the Mac to resolve garbled words of the Qwen transcript; cites use the shared 30-second grid | ep31 whole | Qwen pass too garbled for a rich first pass | Clarity | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 32 (branch from origin/main).
+
+### sharh-saheeh-al-bukhare ep32 (14 Nov 2026)
+
+16 points written for episode 32 (ar, en, ur); 10 needs_source marks in each language file for this episode; 0 new `about` edges. Quran verses referenced only through passage links (5-115, 18-71, 18-74, 18-77); none typed. Contested: He holds that there is no good innovation (while treating Umar's gathering for the Ramadan night prayer as rooted in the Prophet's practice), and that people may not accuse others of hypocrisy; the placement of the hypocrites, Pharaoh's people and the people of the table in the lowest depth of the fire and the details of the Path's light are reports he gives without a chain. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep32) | Episode / time | Reason | Gate failed | Override |
+| Greeting, opening prayer and closing prayer with thanks | ep32 00:00:00-00:00:30; 00:05:30-00:07:30; 01:09:00 | Not lesson content | Content rule | Open |
+| Supplication including political references and a passage on groups of Muslims and enemies of Islam | ep32 00:05:30-00:07:30; 00:08:30-00:09:00 | Sweeping claims about modern conflict and groups; stretch dropped under the content-safety block | Content rule / Voice rule | Open |
+| Remarks on the number of Muslims who pray, the pyramids and workers, and Egyptian geography | ep32 00:12:00-00:13:30; 00:22:00-00:22:30 | Unsourced statistics and sweeping claims about peoples | Content rule / Voice rule | Open |
+| Medical and food-hygiene digression (fermentation, microbes, rulings) | ep32 00:40:30-00:43:30 | Unclear and rulings in his voice, partly garbled | Voice rule / Clarity | Open |
+| Companion anecdotes on a roadside, hijab and women, Ibn Abbas sayings, Hasan resembling the Prophet | ep32 00:31:30-00:33:30; 00:37:30-00:39:00; 00:43:30-00:48:30 | Garbled, sweeping claims about women | Voice rule / Clarity | Open |
+| Digression on the Children of Israel, scouts, Yusha and the sun, the night journey, and a story of refugees | ep32 00:49:30-00:56:30; 01:02:00-01:03:00 | Heavily garbled, unsourced | Clarity | Open |
+| Loops and garbled stretches | ep32 00:11:30-00:11:30; 00:16:30-00:17:30; 00:18:30; 00:20:30-00:21:00; 00:25:00-00:25:30; 00:28:00; 00:33:00-00:33:30; 00:38:30-00:39:00; 00:43:00; 00:46:00; 00:49:00; 00:55:30; 00:59:30-01:00:30; 01:06:00; 01:07:30-01:08:00 | Repeated token loops or unrecoverable ASR | Clarity, Loop check | Open |
+| Dropped in review (ep32): mountain and date-palm light on the Path, pushing latecomers in the rows, and the claim that Umar's gathering is rooted in the Prophet's practice | ep32 00:26:00-00:27:30; 00:03:00-00:04:00; 00:36:00-00:36:30 | Not supported by the transcript | Clarity | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 33 (branch from origin/main).
+
+### sharh-saheeh-al-bukhare ep33 (14 Nov 2026)
+
+27 points written for episode 33 (ar, en, ur); 20 needs_source marks in each language file for this episode; 6 new `about` edges. Quran verses referenced only through passage links (35-10, 17-78, 39-53, 14-37, 12-24, 5-24, 8-12); none typed. Contested: He holds that jihad is the cornerstone of Islam and that names two situations in which jihad applies, gives fixed rules on which voluntary fasts to keep, and states the figure of twenty-eight campaigns in seven years and several scholars' duties without references; all are attributed to him as his own view. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep33) | Episode / time | Reason | Gate failed | Override |
+| Greetings, praise, blessings on the Prophet and the opening prayer; closing greeting | ep33 00:00:00-00:01:30 and 01:19:00-01:19:30 | Not teaching content | Content rule | Open |
+| Anecdote on following fashion in religion and a book cited from an unnamed source | ep33 00:06:30-00:07:00 | Garbled in both passes, speaker and source unclear | Clarity | Open |
+| Remarks on praying late and on timings | ep33 00:11:30-00:12:30 | Garbled in both passes, the point cannot be recovered | Clarity | Open |
+| Sweeping claims about a state and the enemies of Muslims, and plans against Muslims | ep33 00:21:00-00:23:00 | Sweeping claims about peoples and modern conflict | Voice rule | Open |
+| Rhetoric on weapons and a section on the Western powers | ep33 00:24:00-00:25:30 | Garbled and sweeping claims about peoples and modern conflict | Voice rule | Open |
+| Reading of a biblical account of Noah and his sons, and claims about blessings and curses on peoples and about wealth of nations | ep33 00:25:30-00:29:30 | Sweeping claims about peoples; remainder garbled | Voice rule | Open |
+| Complaint about groups and factions, and a stretch on university groups | ep33 00:29:30-00:30:00 | Only one pass clear, sweeping on groups | Clarity | Open |
+| A stretch dropped under the content-safety block | ep33 00:30:30-00:32:30 | A stretch dropped under the content-safety block | Content rule | Open |
+| Intelligence gathering on opponents, religious broadcasting figures and spending, ship broadcasts, claims about American leaders and Christian and Jewish peoples, and politics around Palestine | ep33 00:32:00-00:38:00 | Sweeping claims about peoples and modern conflict; statistics without source | Voice rule | Open |
+| Political comments on a Companion, on communists and on Christian and Jewish politics in Europe and America | ep33 00:39:30-00:42:30 | Sweeping claims about peoples and sects; partly garbled | Voice rule | Open |
+| Partition of the Levant, political predictions and a claim about the curse on a people | ep33 00:42:30-00:44:30 | Sweeping claims about peoples and modern conflict | Voice rule | Open |
+| Garbled stretch on lectures, youth, engineers and lawyers, with repeated loops in the first pass | ep33 00:49:30-00:52:30 | Loop and garbled | Clarity, Loop check | Open |
+| Loop of repeated syllables in the first pass | ep33 00:30:15-00:30:30 | Loop in the first pass, only one clear pass | Loop check | Open |
+| Name of the Abu Jahl nickname explanation and the names of the speakers in the Badr lead-up | ep33 00:54:00-00:55:30 | Names rest on a single garbled word across the two passes | Clarity | Open |
+| Name of Abu Jahl's son and of his companion who travelled with him to Medina | ep33 00:55:30-00:57:30 and 00:59:00-00:59:30 | Names rest on a single garbled word | Clarity | Open |
+| Night journey of al-Walid and digression on daughters at university | ep33 01:03:00-01:07:00 | Garbled in both passes; digression on women | Clarity, Voice rule | Open |
+| Name of the Companion who asked about the halting place at Badr, and the number of the Prophet's party | ep33 01:10:00-01:11:30 | Names and numbers rest on a single garbled word | Clarity | Open |
+| Questions on husbands and wives, women's attendance at the mosque and a closing remark | ep33 01:17:00-01:19:00 | Garbled in both passes, sweeping on women | Clarity, Voice rule | Open |
+| Second ASR pass: Whisper large-v3 (mlx) run on the Mac to resolve garbled words of the Qwen transcript; cites use the shared 30-second grid | ep33 whole | Qwen pass too garbled for a rich first pass | Clarity | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 34 (branch from origin/main).

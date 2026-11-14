@@ -8,8 +8,8 @@ names:
 roles: [emir]
 gender: male
 summary:
-  ar: "بطاقة أولية لمحمد بن سعود، أمير الدرعية ومؤسس الدولة السعودية الأولى وحليف دعوة محمد بن عبد الوهاب، ورد في وصف مرجعي مفتوح ⁦(ويكي البيانات)⁩. لم تُراجع ترجمته في تاريخ الإسلام لحسن إبراهيم على الصفحة بعد، لذلك لا تُذكر هنا تواريخ."
-  en: "Draft card for Muhammad ibn Saud, emir of Diriyah, founder of the first Saudi state and ally of the Wahhabi call, named from an open reference description (Wikidata); his entry in Hasan Ibrahim's Tarikh al-Islam is not yet checked on the page, so no dates are given."
+  ar: "محمد بن سعود بن محمد بن مقرن، أول من لقب بالإمامة من آل سعود في نجد، مقامه بالدرعية، ولي الإمارة سنة 1139 هـ وتعاهد مع الشيخ محمد بن عبد الوهاب سنة 1157 هـ، وتوفي بالدرعية سنة 1179 هـ الموافقة 1765 م."
+  en: "Muhammad ibn Saud ibn Muhammad ibn Muqrin, the first of the Al Saud in Najd to bear the title of imam, based at Diriyah; he took the emirate in 1139 AH, made his pact with Shaykh Muhammad ibn Abd al-Wahhab in 1157 AH, and died in Diriyah in 1179 AH (1765 CE)."
 wings: [people]
 regions: [arabia]
 periods: [period/gunpowder-empires]
@@ -17,16 +17,17 @@ died: { edtf: "1765", calendar: gregorian, precision: year, derived: true, note:
 relations:
   - { type: born_in, target: place/diriyah, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q277505)" }
   - { type: buried_in, target: place/al-oud-cemetery, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q4165313)" }
-sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
+  - { type: died_in, target: place/diriyah, confidence: medium, note: "Al-Zirikli, al-A'lam vol. 6 p. 128: died in Diriyah.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q1319659
   viaf: "78360252"
 provenance:
   layer: own-research
-  source: "Wikidata Q1319659 (religion claim Islam); book source: Tarikh al-Islam (Hasan Ibrahim) — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0008
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3

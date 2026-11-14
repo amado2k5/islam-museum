@@ -17,3 +17,9 @@ He heard from about thirteen hundred shaykhs and eighty women, completed the Qur
 When Nur al-Din took Damascus in 549 he built for him the first dar al-hadith, known as the dar al-Sunna, and pressed him to finish the Tarikh, which stood at fifty-seven volumes in 549, seventy in 562, and settled at eighty volumes of eight hundred parts. Among his other works are *Fadl 'Asqalan* and the *Arba'in fi al-ijtihad fi iqamat al-jihad*, written after Ascalon fell in 548, and *Tabyin Kadhib al-Muftari* in defence of al-Ash'ari. {cite:encyclopaedia-of-islam-2 vol. 3 p. 746-747} {cite:tarikh-islam-dhahabi p. 75}
 
 His works include [[work/tarikh-dimashq|Tarikh Madinat Dimashq]], [[work/amali-ibn-asakir|Amali Ibn 'Asakir]] and [[work/tabyin-kadhib-al-muftari-ibn-asakir|Tabyin Kadhib al-Muftari]]. {cite:kashf-zunun-furqan}
+
+## Works in the OpenITI corpus
+The OpenITI corpus holds 30 works under the author identifier 0571IbnCasakir, among them: Aḫbār li-ḥifẓ al-Qurān; Maǧlis fī nafy al-tašbīh; al-Arbaʿūn al-abdāl al-ʿawālī; al-Arbaʿūn al-buldāniyyaŧ. {cite:openiti-corpus 0571IbnCasakir}
+
+## In the Biblissima authority file
+The French Biblissima authority file records this person under the identifier Q16855 with the name form «ʿAli ibn al-Hasan Ibn ʿAsākir (1105-1176)», the form including the years of birth and death as the file gives them. {cite:biblissima Q16855}

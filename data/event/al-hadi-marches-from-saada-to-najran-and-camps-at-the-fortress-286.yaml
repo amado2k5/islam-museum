@@ -1,0 +1,67 @@
+id: event/al-hadi-marches-from-saada-to-najran-and-camps-at-the-fortress-286
+class: event
+kind: other
+label:
+  ar: خروج الهادي من صعدة إلى نجران لليومين مضيا من ذي الحجة ونزوله بالحصن، 286هـ
+  en: Al-Hadi's march from Sa'da to Najran on the second of Dhu al-Hijja and his camp at the fortress, 286 AH
+  ur: ذی الحجہ کی دو تاریخ کو ہادی کا صعدہ سے نجران روانہ ہونا اور قلعے میں پڑاؤ، 286ھ
+summary:
+  ar: يخرج الهادي إلى نجران ليومين مضيا من ذي الحجة ويخلف محمد بن عبيد الله والياً بصعدة وعلياً معه ولا عسكر، فينزل البطنة من بلاد بني سعد من خولان ويستنفرهم، ثم يبيت بالركب ويلقاه الوادعيون وأبو محمد وأبو الحسين في أهل الحصن من شاكر وثقيف، فينزل بالحصن في أرض حرث ويبيت فيه.
+  en: Al-Hadi leaves for Najran on the second of Dhu al-Hijja, leaving Muhammad ibn Ubaydallah as governor at Sa'da with Ali beside him and no troops, camps at al-Batna in the land of Banu Sa'd of Khawlan and calls them out, spends a night at al-Rakb, is met by the Wadi'is and then by Abu Muhammad and Abu al-Husayn with the people of the fortress from Shakir and Thaqif, and pitches his tent at the fortress in ploughland.
+  ur: ہادی ذی الحجہ کی دو تاریخ کو نجران کے لیے نکلتے ہیں، محمد بن عبید اللہ کو صعدہ کا والی اور علی کو ان کے ساتھ چھوڑ جاتے ہیں اور کوئی لشکر نہیں، خولان کے بنو سعد کے علاقے البطنہ میں اترتے اور انہیں بلاتے ہیں، الرکب میں رات گزارتے ہیں، وادعی اور پھر ابو محمد اور ابو الحسین شاکر و ثقیف کے قلعے والوں کے ساتھ ان سے ملتے ہیں، اور وہ قلعے میں کھیت کی زمین پر خیمہ لگاتے ہیں۔
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: '0899-12-09'
+    hijri: '0286-12-02'
+    calendar: julian
+    precision: day
+    status: tradition
+    derived: true
+    note: لليومين مضيا من ذي الحجة سنة 286هـ بنص الكتاب؛ يوافق 9 كانون الأول 899م جولياني بالتقويم الجدولي، وتقويم الكتاب قد يسبقه بيوم؛ التحويل مشتق
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/saada
+- type: occurred_at
+  target: place/najran
+- type: occurred_at
+  target: place/al-batna-banu-sad-yemen
+- type: occurred_at
+  target: place/al-rakb-yemen
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abu-jafar-muhammad-ibn-ubaydallah-al-abbasi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ali-ibn-muhammad-ibn-ubaydallah-al-abbasi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abdullah-ibn-al-husayn-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص159-160 ⁦(الصفحة المطبوعة)⁩'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-20
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 159-160

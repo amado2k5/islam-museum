@@ -1,0 +1,18 @@
+id: concept/canon-pulse-strength-speed-texture-and-rest
+class: concept
+kind: scientific
+label: { ar: "النبض بحسب القوة والسرعة والقوام والسكون عند ابن سينا", en: "The pulse by strength, speed, texture, fullness, heat and rest in the Canon", ur: "قوت، رفتار، ساخت اور سکون کے لحاظ سے نبض قانون میں" }
+summary:
+  ar: "يبين ابن سينا أجناس النبض من القرع والزمان والقوام والامتلاء والملمس والسكون، ولكل منها ثلاثة أنواع {cite:canon-ibn-sina-print-v1 pp.169-170}."
+  en: "Ibn Sina gives the genera of the pulse by stroke, time, texture, fullness, touch and rest, each with three kinds {cite:canon-ibn-sina-print-v1 pp.169-170}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/canon-pulse-in-general, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, Ta'lim 3 chapters 5 to 11 and the opening of the pulse (scan pages 164 to 171), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-signs-pulse-1
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

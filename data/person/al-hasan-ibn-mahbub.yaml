@@ -6,24 +6,24 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية للحسن بن محبوب السراد، راوية القرن التاسع عن الصادق، توفي سنة ٨٣٩م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for al-Hasan ibn Mahbub al-Sarrad, the ninth-century transmitter from al-Sadiq, d. 839; the biographical entry is not yet checked on the page."
+  ar: "الحسن بن محبوب السراد، أو الزارد، أبو علي، فقيه إمامي، أي من الإمامية الشيعة، من أهل الكوفة، له النوادر والتفسير والفرائض والمشيخة والحدود؛ توفي سنة 224 هـ الموافقة 839م."
+  en: "al-Hasan ibn Mahbub al-Sarrad (or al-Zarid), Abu Ali, an Imami (Twelver Shi'i) jurist of Kufa, author of al-Nawadir, al-Tafsir, al-Fara'id, al-Mashyakha and al-Hudud; he died in 224 AH (839 CE)."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-fragmentation]
-born: { edtf: "766~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Najashi (Rijal al-Najashi; d. 224 AH) Confirmed on 13 November 2026 against Wikidata Q16050380 (P569, a statement with a reference), item revision 2544890545.", sources: [source/wikidata] }
-died: { edtf: "839~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Najashi (Rijal al-Najashi; d. 224 AH) Confirmed on 13 November 2026 against Wikidata Q16050380 (P570, a statement with a reference), item revision 2544890545.", sources: [source/wikidata] }
+born: { edtf: "766", calendar: gregorian, precision: year, derived: true, note: "Born 149 AH = 766 CE as al-A'lam vol. 2 p. 174 gives it; the earlier approximate mark is removed.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+died: { edtf: "839", calendar: gregorian, precision: year, derived: true, note: "Died 224 AH = 839 CE as al-A'lam vol. 2 p. 174 gives it; the earlier approximate mark is removed.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
-  - { type: lived_in, target: place/iraq, note: "Ninth-century transmitter; record regions field is levant-iraq.", sources: [source/al-aalam], confidence: low }
-sources: [source/al-aalam]
+  - { type: lived_in, target: place/kufa, note: "al-A'lam vol. 2 p. 174: of the people of Kufa; replaces the broad Iraq edge.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q16050380
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0049
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3

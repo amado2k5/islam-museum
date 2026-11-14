@@ -12,3 +12,6 @@ His father was imam and qadi of Shahrukh's camp, and Abd al-Razzaq studied at th
 
 ## The Matla'
 The Matla' covers the years 717-875/1317-1471. It uses Hafiz-i Abru's Zubdat al-Tawarikh for the earlier period, but for 830-875/1426-1471 the encyclopaedia calls it one of the most important original sources. Volume II was completed on 17 Rabi I 875/13 September 1470, and its text was printed in Lahore in 1941-49. The article also notes that he wrote a history of Herat and its districts. {cite:encyclopaedia-of-islam-2 vol. 1 p. 110}
+
+## In the Biblissima authority file
+The French Biblissima authority file records this person under the identifier Q316750 with the name form «Kamāl al-Dīn ʿAbd al-Razzāq al-Samarqandī (1413-1482)», the form including the years of birth and death as the file gives them. {cite:biblissima Q316750}

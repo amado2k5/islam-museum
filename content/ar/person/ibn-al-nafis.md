@@ -29,3 +29,6 @@ translators: []
 
 ## في سلسلة «الحضارة النبوية» لزغلول النجار
 يقول [[person/zaghloul-el-naggar|زغلول النجار]] في [[work/el-hadara-el-nabaouia|الحضارة النبوية]]، وهو يشرح حديث المضغة التي إذا صلحت صلح الجسد، إن المسلمين لم يدركوا قيمة الحديث إلا حين اكتشف ابن النفيس الدورة الدموية الصغرى، ويرى أنها «تُنسب خطأً» إلى وليم هارفي وغيره من العلماء الغربيين. {cite:assabile-zaghloul-el-naggar el-hadara-el-nabaouia/ep09 00:04:30} {cite:assabile-zaghloul-el-naggar el-hadara-el-nabaouia/ep09 00:05:00}
+
+## في ملف الاستناد Biblissima
+يسجل ملف الاستناد الفرنسي Biblissima هذا العَلَم تحت المعرّف Q16852 بصيغة الاسم «ʿAlī ibn Abī al-Ḥazm al-Qaršī ʿAlāʾ al-Dīn Ibn al-Nafīs (1208?-1288)»، وتتضمن الصيغة سنتي الميلاد والوفاة كما يوردهما الملف. {cite:biblissima Q16852}

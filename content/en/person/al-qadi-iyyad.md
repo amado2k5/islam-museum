@@ -32,3 +32,9 @@ Qadi Iyad was a judge and great scholar from Ceuta, on the Strait of Gibraltar. 
 ## Research notes
 - The biography in the Dar al-Kutub al-Ilmiyya printing of *al-Shifa* is copied from Ibn Farhun's *al-Dibaj al-Mudhhab* (note on p. 3); its OCR reads his birth as Sha'ban "496", against 476 AH in *Shadharat al-Dhahab*. We keep 476 AH in the data and flag the difference until the page image is checked.
 - The claim that he died of poison is reported with "it is said" and is not relied on.
+
+## Works in the OpenITI corpus
+The OpenITI corpus holds 7 works under the author identifier 0544QadiCiyad, among them: Ghunya; Ikmal Muclim; Mashariq Anwar; Shifa. {cite:openiti-corpus 0544QadiCiyad}
+
+## In the Biblissima authority file
+The French Biblissima authority file records this person under the identifier Q16875 with the name form «ʿIyāḍ ibn Mūsá al-Yaḥṣubī al-Sabtī (1083-1149)», the form including the years of birth and death as the file gives them. {cite:biblissima Q16875}

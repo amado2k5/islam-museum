@@ -1,28 +1,38 @@
 id: person/yunus-ibn-abd-al-wahhab-al-aythawi
 class: person
-label:
-  ar: "يونس بن عبد الوهاب العيثاوي"
-  en: "Yunus ibn Abd al-Wahhab al-'Aythawi"
+label: {ar: يونس بن عبد الوهاب العيثاوي, en: Yunus ibn Abd al-Wahhab al-'Aythawi}
 roles: [scholar]
 gender: male
-summary:
-  ar: "بطاقة أولية ليونس بن عبد الوهاب العيثاوي؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Yunus ibn Abd al-Wahhab al-'Aythawi; the entry is not yet checked on the page."
+summary: {ar: يونس بن عبد الوهاب العيثاوي، شافعي، فقيه دمشقي المولد والوفاة، نعته الغزي بمفيد الطالبين وخطيب المسلمين، ٨٩٨ إلى ٩٧٦ هـ الموافقة ١٤٩٢ إلى ١٥٦٩ م، وهو والد أحمد بن يونس., en: 'Yunus ibn Abd al-Wahhab al-Aythawi, a Shafi''i jurist born and died in Damascus, whom al-Ghazzi described as benefiting the students and as preacher of the Muslims, 898 to 976 AH (1492 to 1569 CE), father of Ahmad ibn Yunus.'}
 wings: [people]
 regions: [levant-iraq]
 periods: [period/modern-era]
-died: { edtf: "1570", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Kawakib al-Sa'ira (al-Ghazzi)" }
+died:
+  edtf: '1569'
+  calendar: gregorian
+  precision: year
+  derived: true
+  note: 'Per al-Zirikli, al-A''lam vol. 8 p. 235: died 976 AH = 1569 CE, in Damascus. The earlier card year 1570 (al-Ghazzi) is corrected to the entry.'
+  sources: &id001 [source/alam-zirikli-dar-al-ilm-2002]
 relations:
-  - { type: died_in, target: place/damascus, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q3766)" }
-sources: [source/al-aalam]
-external_ids:
-  wikidata: Q22690895
-provenance:
-  layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
-status:
-  review: draft
-  completeness: 1
+- type: died_in
+  target: place/damascus
+  sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
+  confidence: medium
+  note: 'From al-A''lam: Damascene by birth and death.'
+- type: born_in
+  target: place/damascus
+  note: 'From al-A''lam: Damascene by birth and death.'
+  sources: *id001
+  confidence: medium
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
+external_ids: {wikidata: Q22690895}
+provenance: {layer: own-research, source: 'al-Zirikli, al-A''lam, 15th ed. 2002, entry read in full from the local OpenITI text', generated_by: Claude Code (Lane B2 packet), model: claude-sonnet-5-5, run: web-b2-alam-2026-11-14}
+status: {review: draft, completeness: 3}
+born:
+  edtf: '1492'
+  calendar: gregorian
+  precision: year
+  derived: true
+  note: 'Per al-Zirikli, al-A''lam vol. 8 p. 235: born 898 AH = 1492 CE, in Damascus.'
+  sources: *id001

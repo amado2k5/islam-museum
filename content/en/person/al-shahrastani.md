@@ -9,3 +9,6 @@ Abu'l-Fath Muhammad b. Abi'l-Qasim 'Abd al-Karim b. Abi Bakr Ahmad al-Shahrastan
 
 ## His works and entry to Baghdad
 He wrote Nihayat al-iqdam fi 'ilm al-kalam, al-Milal wa'l-nihal, al-Mudara'a and Talkhis al-aqsam li-madhahib al-anam — full of memorisation, fine of discourse, preaching to the people; he entered Baghdad in 510, dwelt three years and won wide acceptance among the common folk. {cite:wafayat-ayan}
+
+## Works in the OpenITI corpus
+The OpenITI corpus holds 2 works under the author identifier 0548Shahrastani, among them: Kitāb al-Milal wa-al-Niḥal; Nihayat Aqdam. {cite:openiti-corpus 0548Shahrastani}

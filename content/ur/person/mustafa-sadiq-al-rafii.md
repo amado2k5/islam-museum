@@ -21,3 +21,5 @@ translators: []
 ## وفات
 ان کا انتقال مئی 1937 میں طنطا میں ستاون برس کی عمر میں ہوا — ویکی ڈیٹا 10 مئی دیتا ہے جب کہ انگریزی مقالے کے معلومات خانے میں 1 مئی درج ہے۔ {cite:wikipedia-mustafa-sadiq-al-rafii-fr} {cite:wikidata-mustafa-sadiq-al-rafii} {cite:wikipedia-mustafa-sadiq-al-rafii-en}
 
+## OpenITI مجموعے میں تصانیف
+OpenITI مجموعہ اس مصنف کے لیے شناخت 1356MustafaSadiqRafici کے تحت 11 تصانیف رکھتا ہے، جن میں یہ شامل ہیں: أوراق الورد، حديث القمر، إعجاز القرآن والبلاغة النبوية، كتاب المساكين۔ {cite:openiti-corpus 1356MustafaSadiqRafici}

@@ -1,0 +1,18 @@
+id: concept/canon-primary-and-sympathetic-disease
+class: concept
+kind: scientific
+label: { ar: "التفرقة بين المرض الأصلي والمشارك عند ابن سينا", en: "Telling a primary disease from a sympathetic one in the Canon", ur: "اصل مرض اور مشارک مرض میں فرق، قانون کے مطابق" }
+summary:
+  ar: "يضع ابن سينا في الفصل الثاني علامة فاصلة بين المرض الذي يعرض بدءاً في عضو والمرض المشارك، وهي النظر في أيهما عرض أولاً وأيهما يبقى بعد زوال الآخر، ويحذر من غلط يقع إذا كانت العلة الأصلية غير محسوسة {cite:canon-ibn-sina-print-v1 pp.157-158}."
+  en: "In the second chapter Ibn Sina gives a way to tell a disease that begins in an organ from one that comes by sympathy: look at which came first and which stays after the other has gone, and he warns of an error when the original cause is not felt {cite:canon-ibn-sina-print-v1 pp.157-158}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/symptoms-and-signs, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, Ta'lim 3 chapters 1 to 4 on symptoms, signs and the signs of temperament (scan pages 154 to 163), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-fann2-talim3-ch1-4
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

@@ -1,0 +1,18 @@
+id: concept/canon-flesh-and-fat-as-signs-of-temperament
+class: concept
+kind: scientific
+label: { ar: "اللحم والشحم دليلان على المزاج عند ابن سينا", en: "Flesh and fat as signs of temperament in the Canon", ur: "گوشت اور چربی بطور علامتِ مزاج، قانون کے مطابق" }
+summary:
+  ar: "يذكر ابن سينا أن اللحم الأحمر الكثير يدل على الرطوبة والحرارة، واليسير بلا شحم كثير على اليبس والحرارة، وأن السمين والشحم يدلان على البرودة، وأن قلتهما تدل على الحرارة {cite:canon-ibn-sina-print-v1 p.159}."
+  en: "Ibn Sina says much red flesh points to moisture and heat, a little with no great fat to dryness and heat, that fat and suet point to cold, and that their scarcity points to heat {cite:canon-ibn-sina-print-v1 p.159}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/symptoms-and-signs, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, Ta'lim 3 chapters 1 to 4 on symptoms, signs and the signs of temperament (scan pages 154 to 163), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-fann2-talim3-ch1-4
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

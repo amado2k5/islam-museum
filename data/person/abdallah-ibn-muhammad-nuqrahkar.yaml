@@ -6,24 +6,25 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لعبد الله بن محمد الحسيني النقره كار، فقيه وشاعر القرن الرابع عشر، توفي سنة ١٣٧٤م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abdallah ibn Muhammad al-Husayni Nuqrahkar, the fourteenth-century jurist and poet, d. 1374; the biographical entry is not yet checked on the page."
+  ar: "عبد الله بن محمد بن أحمد الحسيني النيسابوري، جمال الدين، عالم بالعربية وأصول الفقه حنفي، ولي التدريس بحلب وأقام بدمشق والقاهرة، وله شروح على المنار والتسهيل والشافية؛ ٧٠٦ إلى ٧٧٦هـ الموافقة ١٣٠٦ إلى ١٣٧٤م."
+  en: "Abd Allah ibn Muhammad ibn Ahmad al-Husayni al-Naysaburi, Jamal al-Din, a Hanafi scholar of Arabic and of the principles of jurisprudence, who taught at Aleppo and stayed for a time in Damascus and Cairo, author of commentaries on al-Manar, al-Tashil and al-Shafiya; 706 to 776 AH, equal to 1306 to 1374 CE."
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/mongol-post-mongol]
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q6407970
   viaf: "67881292"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0051
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 died: { edtf: "1374", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Durar al-Kamina) Confirmed on 13 November 2026 against Wikidata Q6407970 (P570, a statement with a reference), item revision 2567013020.", sources: [source/wikidata] }
+born: { edtf: "1306", calendar: gregorian, precision: year, derived: true, note: "From the A'lam entry, converted from the Hijri year it gives", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
   - { type: lived_in, target: place/iran, note: "Only the record-level region (persia-central-asia) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }

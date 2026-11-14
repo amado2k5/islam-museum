@@ -6,12 +6,12 @@ label:
 roles: [writer]
 gender: male
 summary:
-  ar: "بطاقة أولية لإبراهيم بن محمد الثقفي، مؤرخ وكاتب القرن التاسع صاحب «الغارات»، توفي سنة ٨٩٦م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ibrahim ibn Muhammad al-Thaqafi, the ninth-century historian and author of al-Gharat, d. 896; the biographical entry is not yet checked on the page."
+  ar: "إبراهيم بن محمد بن سعيد بن هلال الثقفي، عالم كان يرى رأي الزيدية ثم انتقل إلى القول بالإمامية، من أهل الكوفة، انتقل إلى أصفهان وتوفي بها سنة 283 هـ، من كتبه «المغازي» و«الغارات»."
+  en: "Ibrahim ibn Muhammad ibn Sa'id ibn Hilal al-Thaqafi, a scholar who held the Zaydi view and then moved to the Imami position, of Kufa; he moved to Isfahan and died there in 283 AH. His books include 'al-Maghazi' and 'al-Gharat'."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-fragmentation]
-died: { edtf: "896", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: A'yan al-Shi'a Confirmed on 13 November 2026 against Wikidata Q12181560 (P570, a statement with a reference), item revision 2520576942.", sources: [source/wikidata] }
+died: { edtf: "896", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 1 p. 36: 283 AH = 896 CE. Date-enrichment pass; source: A'yan al-Shi'a", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
 relations:
   - { type: born_in, target: place/kufa, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/isfahan-province, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
@@ -20,10 +20,10 @@ external_ids:
   wikidata: Q12181560
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0052
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3

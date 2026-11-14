@@ -1,0 +1,69 @@
+id: event/safe-conduct-for-the-akilis-and-al-hadis-verses-from-saada-286
+class: event
+kind: other
+label:
+  ar: أمان الأكيليين وشعر الهادي من صعدة قبل المسير إلى نجران، 286هـ
+  en: The safe-conduct for the Akilis and al-Hadi's verses from Sa'da before the march to Najran, 286 AH
+  ur: اکیلیوں کو امان اور نجران کی روانگی سے پہلے صعدہ سے ہادی کے اشعار، 286ھ
+summary:
+  ar: في الغد يدخل الزبير الكليبي والوليد بن حيان الجماعي ونفر من اليرسميين على الهادي ويطلبون الأمان للأكيليين فيجيبهم، ويأتيه عباد الأكيلي ووجوه الربيعة، ويتخلف أحمد بن عباد ويخرج إلى علاف، ثم يأمر الهادي بالتأهب للخروج إلى نجران ويكتب إلى أبي محمد بوصوله صعدة وخبر الأكيلي ويرفق كتابه بشعر.
+  en: Next day al-Zubayr al-Kulaybi, al-Walid ibn Hayyan al-Jama'i and some Yarsamis go in to al-Hadi and ask safe-conduct for the Akilis, which he grants; Abbad al-Akili and the notables of al-Rabi'a come to him while Ahmad ibn Abbad stays away and goes out to Allaf; al-Hadi then orders readiness for Najran and writes to Abu Muhammad of his arrival at Sa'da and of the Akili affair, with a poem.
+  ur: اگلے دن زبیر کلیبی، ولید بن حیان جماعی اور یرسمیوں کے کچھ لوگ ہادی کے پاس آ کر اکیلیوں کے لیے امان مانگتے ہیں جو وہ دے دیتے ہیں؛ عباد اکیلی اور ربیعہ کے معززین آتے ہیں جبکہ احمد بن عباد نہیں آتا اور علاف کی طرف نکل جاتا ہے؛ پھر ہادی نجران کے لیے تیاری کا حکم دیتے ہیں اور ابو محمد کو صعدہ پہنچنے اور اکیلی کی خبر لکھتے ہیں، ساتھ ایک قصیدہ بھی۔
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0899"
+    hijri: "0286"
+    calendar: julian
+    precision: year
+    status: tradition
+    derived: true
+    note: سنة 286هـ؛ الكتاب لا يعين اليوم، والخبر واقع بين ذي القعدة وأول ذي الحجة بحسب ترتيب السرد؛ التحويل مشتق
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/saada
+- type: occurred_at
+  target: place/najran
+- type: occurred_at
+  target: place/allaf-yemen
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abdullah-ibn-al-husayn-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ahmad-ibn-abbad-al-akili
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/al-zubayr-al-kulaybi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/al-walid-ibn-hayyan-al-jamai
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص157-158 ⁦(الصفحة المطبوعة)⁩'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-20
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 157-158

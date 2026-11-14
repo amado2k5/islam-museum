@@ -6,25 +6,25 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لأحمد بن الحسين بن قسي، صوفي الغرب الأندلسي الذي ثار على المرابطين وأقام دولة صغيرة بالغرب في القرن الثاني عشر وكتب «خلع النعلين»، توفي سنة ١١٥١م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ahmad ibn al-Husayn ibn Qasi, the Andalusi Sufi who rebelled against the Almoravids and held a small state in the Gharb in the twelfth century, author of Khal' al-Na'layn, d. 1151; the biographical entry is not yet checked on the page."
+  ar: "أحمد بن الحسين، أبو القاسم ابن قسي، أول ثائر في الأندلس عند اختلال دولة الملثمين، رومي الأصل من بادية شلب، ادعى الهداية وتسمى بالإمام، ثم هاجر إلى الموحدين وعاد إلى الخلاف فقتله أهل شلب؛ توفي سنة ٥٤٦هـ الموافقة ١١٥١م."
+  en: "Ahmad ibn al-Husayn, Abu al-Qasim ibn Qasi, the first rebel in al-Andalus when the state of the Almoravids was faltering, of Roman origin from the countryside of Silves, who claimed guidance and took the title of imam, later migrated to the Almohads and returned to dissent, and was killed by the people of Silves; died 546 AH, equal to 1151 CE."
 wings: [people]
 regions: [andalus-europe]
 periods: [period/buyid-seljuk-fatimid-era]
 themes: [spirituality-and-sufism]
-sources: [source/nafh-tib-maqqari, source/wikidata]
+sources: [source/nafh-tib-maqqari, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q1655902
   viaf: "75857529"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Maqqari, Nafh al-Tib — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0025
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 died: { edtf: "1151", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Abbar (al-Hulla)" }
 relations:
   - { type: lived_in, target: place/al-andalus, note: "Place association from the person's nisba/name (الأندلسي); denotes association, not proven residence.", sources: [source/nafh-tib-maqqari], confidence: low }

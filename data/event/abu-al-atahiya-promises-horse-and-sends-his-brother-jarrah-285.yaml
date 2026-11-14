@@ -1,0 +1,61 @@
+id: event/abu-al-atahiya-promises-horse-and-sends-his-brother-jarrah-285
+class: event
+kind: other
+label:
+  ar: أبو العتاهية والي صنعاء يعد الهادي بالخيل ثم يرسل أخاه جراحاً في خمسين فارساً، آخر ذي الحجة 285هـ إلى المحرم 286هـ
+  en: Abu al-Atahiya, governor of Sanaa, promises al-Hadi horse and then sends his brother Jarrah with fifty horsemen, end of Dhu al-Hijja 285 to Muharram 286 AH
+  ur: صنعاء کے والی ابو العتاہیہ کا ہادی کو گھوڑوں کا وعدہ اور پھر اپنے بھائی جراح کو پچاس سواروں سمیت بھیجنا، آخر ذوالحجہ 285ھ سے محرم 286ھ
+summary:
+  ar: يعرّف الكتاب بأبي العتاهية عبد الله بن بشر والي صنعاء ومخاليفها ووزيره محمد بن أبي عباد التميمي، وكانا قد كاتبا الهادي ورغبا في عدله وقالا بإمامته، ووعد أبو العتاهية بإمداده بخيل ورجال. وتحول الهادي في آخر ذي الحجة إلى موضع لبني صريم، وأرسل محمد بن سليمان إلى صنعاء يستنجز الخيل، وخرج إسماعيل بن المسلم كذلك وعاد ببعضهم، فلما رأى أبو العتاهية كراهية الجند لقصد الهادي بعث أخاه جراحاً مع خمسين فارساً فوصلوا لأيام بقيت من المحرم.
+  en: The book introduces Abu al-Atahiya, Abd Allah ibn Bishr, governor of Sanaa and its districts, and his vizier Muhammad ibn Abi Abbad of Tamim, who had written to al-Hadi, wished for his justice and affirmed his imamate, and Abu al-Atahiya promised to supply him with horse and men. In the last days of Dhu al-Hijja al-Hadi moved to a place of Banu Sarim and sent Muhammad ibn Sulayman to Sanaa to press for the horse; Ismail ibn al-Muslim also went and came back with some of the troops; seeing the soldiers' dislike of going to al-Hadi, Abu al-Atahiya sent his brother Jarrah with fifty horsemen, who arrived in the last days of Muharram.
+  ur: کتاب صنعاء اور اس کے مضافات کے والی ابو العتاہیہ عبد اللہ بن بشر اور ان کے وزیر تمیم کے محمد بن ابی عباد کا تعارف کراتی ہے، جو ہادی سے خط و کتابت کر چکے تھے، ان کے عدل کے خواہاں تھے اور ان کی امامت کے قائل، اور ابو العتاہیہ نے ان کی گھوڑوں اور آدمیوں سے مدد کا وعدہ کیا تھا۔ ذوالحجہ کے آخر میں ہادی بنو صریم کے ایک مقام پر منتقل ہوئے اور محمد بن سلیمان کو صنعاء بھیجا کہ گھوڑے وصول کریں؛ اسماعیل بن المسلم بھی گئے اور کچھ سپاہیوں کو لے کر لوٹے؛ ابو العتاہیہ نے سپاہیوں کی ہادی کی طرف جانے سے ناپسندیدگی دیکھی تو اپنے بھائی جراح کو پچاس سواروں کے ساتھ بھیجا جو محرم کے آخری دنوں میں پہنچے۔
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: 0898-12
+    hijri: 0285-12
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: من آخر ذي الحجة سنة 285هـ نحو 27 كانون الأول 898م إلى أيام باقية من المحرم سنة 286هـ نحو 14 شباط 899م (جولياني) بالتقويم الجدولي؛ الشهر فقط؛ التحويل مشتق
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/sanaa
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abu-al-atahiya-ibn-bishr
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: related_to
+  target: place/raydah-yemen
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: related_to
+  target: place/al-darb-banu-rabia-yemen
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص110-111 ⁦(الصفحة المطبوعة)⁩'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-14
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 110-111

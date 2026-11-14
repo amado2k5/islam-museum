@@ -1,0 +1,89 @@
+id: event/banu-al-harith-attack-abdullah-ibn-al-husayn-and-ahmad-ibn-muhammad-at-najran-286
+class: event
+kind: other
+label:
+  ar: هجوم بني الحارث ليلاً على عبد الله بن الحسين وأحمد بن محمد بنجران، رمضان 286هـ
+  en: Banu al-Harith attack Abdullah ibn al-Husayn and Ahmad ibn Muhammad by night at Najran, Ramadan 286 AH
+  ur: نجران میں بنو حارث کا عبداللہ بن حسین اور احمد بن محمد پر رات کا حملہ، رمضان 286ھ
+summary:
+  ar: يروي علي بن محمد أن عبد الله بن الحسين قدم نجران من الحجاز فأصلح أمرها، فتشاور بنو الحارث في أخذه وأخذ أحمد بن محمد رهينتين بمن حبسهم الهادي بصعدة، وهجموا ليلة سبع عشرة مضت من رمضان 286هـ بعدما فتح لهم الدار ابن مصفى المداني، فقاتلهما ومن معهما الليل كله.
+  en: Ali ibn Muhammad relates that Abdullah ibn al-Husayn came to Najran from the Hijaz and put it in order; Banu al-Harith then planned to seize him and Ahmad ibn Muhammad as hostages for those al-Hadi had jailed at Sa'da, and attacked on the night with seventeen days of Ramadan 286 gone, after Ibn Musaffa al-Madani opened the house to them; the two men and their companions fought them through the night.
+  ur: علی بن محمد بیان کرتے ہیں کہ عبداللہ بن حسین حجاز سے نجران آئے اور اس کا انتظام ٹھیک کیا؛ بنو حارث نے انہیں اور احمد بن محمد کو ان قیدیوں کے بدلے یرغمال بنانے کا مشورہ کیا جنہیں ہادی نے صعدہ میں قید کیا تھا، اور رمضان 286ھ کے سترہ دن گزرنے کی رات حملہ کیا جب ابن مصفیٰ مدانی نے گھر کھول دیا؛ دونوں اور ان کے ساتھی رات بھر لڑے۔
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: 0899-09
+    hijri: 0286-09
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: ليلة سبع عشرة مضت من رمضان سنة 286هـ بنص الكتاب؛ الدقة شهرية لأن ليلة السابع عشر المضي قد تقع في 26 أو 27 أيلول 899م جولياني بالتقويم الجدولي؛ التحويل مشتق
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/najran
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ali-ibn-muhammad-ibn-ubaydallah-al-abbasi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abdullah-ibn-al-husayn-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ahmad-ibn-muhammad-governor-of-najran
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/muhammad-ibn-isa-al-tamimi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abdullah-ibn-bustam
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ibn-musaffa-ibn-ibrahim-al-madani
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/al-abras-al-madani
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/al-tahir-ibn-al-tahir
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-al-harith-ibn-kab
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-abd-al-madan-najran
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص145-146 ⁦(الصفحة المطبوعة)⁩'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-19
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 145-146

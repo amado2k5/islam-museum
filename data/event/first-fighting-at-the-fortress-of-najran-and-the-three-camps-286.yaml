@@ -1,0 +1,59 @@
+id: event/first-fighting-at-the-fortress-of-najran-and-the-three-camps-286
+class: event
+kind: other
+label:
+  ar: أول قتال عند حصن نجران وافتراق الحارثيين في ثلاثة معسكرات، ذو الحجة 286هـ
+  en: The first fighting at the fortress of Najran and the split of Banu al-Harith into three camps, Dhu al-Hijja 286 AH
+  ur: نجران کے قلعے پر پہلی لڑائی اور بنو حارث کا تین لشکروں میں بٹ جانا، ذی الحجہ 286ھ
+summary:
+  ar: يجمع الهادي همدان ونجران وثقيف والأحلاف ويعسكر على باب ميناس ويأمر بقتال أهل الحصن وفيه ابن بسطام وعشيرته وعامة بني الحارث، فيشتد القتال في الأزقة والسطوح حتى المساء ثم ينصرف إلى الحصن، ثم يقاتلهم يوماً ويتركهم يوماً ويضيق عليهم، فيتفرقون ثلاثة عساكر في سوحان وميناس وقرية الهجر ويتحالفون على نصرة بعضهم بعضاً.
+  en: Al-Hadi musters Hamdan, Najran, Thaqif and al-Ahlaf, camps at the gate of Minas and orders the fortress fought, where Ibn Bustam, his clan and most of Banu al-Harith are; the fighting runs through lanes and over roofs until evening, after which he goes back to the fortress, then fights them a day and leaves them a day while pressing them hard, until they divide into three camps at Sawhan, Minas and the village of al-Hajar and swear to help one another.
+  ur: ہادی ہمدان، نجران، ثقیف اور احلاف کو جمع کرتے ہیں، میناس کے دروازے پر پڑاؤ ڈالتے ہیں اور قلعے والوں سے لڑنے کا حکم دیتے ہیں جس میں ابن بسطام، اس کا قبیلہ اور بنو حارث کے اکثر لوگ ہیں؛ گلیوں اور چھتوں پر شام تک لڑائی ہوتی ہے پھر وہ قلعے لوٹ آتے ہیں، پھر ایک دن لڑتے اور ایک دن چھوڑتے اور ان پر تنگی کرتے ہیں، یہاں تک کہ وہ سوحان، میناس اور قریۂ ہجر میں تین لشکروں میں بٹ کر ایک دوسرے کی مدد کا حلف اٹھاتے ہیں۔
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0899-12"
+    hijri: "0286-12"
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: في ذي الحجة سنة 286هـ بحسب ترتيب السرد بعد المسير إلى نجران لليومين مضيا منه؛ الكتاب لا يعين اليوم؛ ذو الحجة يبدأ 8 كانون الأول 899م جولياني بالتقويم الجدولي؛ التحويل مشتق
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/najran
+- type: occurred_at
+  target: place/minas-najran
+- type: occurred_at
+  target: place/sawhan-najran
+- type: occurred_at
+  target: place/al-hajar-najran
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abdullah-ibn-bustam
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص160-161 ⁦(الصفحة المطبوعة)⁩'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-20
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 160-161

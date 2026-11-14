@@ -6,26 +6,26 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لمحمد بن خليفة النبهاني؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Muhammad ibn Khalifa al-Nabhani; the entry is not yet checked on the page."
+  ar: "محمد بن خليفة بن حمد بن موسى النبهاني، الطائي نسباً، المكي مولداً ومنشأً، المالكي مذهباً، مؤرخ جزيرة البحرين في العصر الحديث وصاحب التحفة النبهانية في تاريخ الجزيرة العربية، من مدرسي الحرم المكي، توفي بالبصرة سنة 1369هـ الموافقة 1950م."
+  en: "Muhammad ibn Khalifa ibn Hamad ibn Musa al-Nabhani, of the tribe of Tayy by descent, born and raised in Mecca, Maliki by school, the historian of the island of Bahrain in the modern period and author of al-Tuhfa al-Nabhaniyya fi tarikh al-jazira al-arabiyya, a teacher at the Meccan sanctuary; died at Basra in 1369 AH, 1950 CE."
 wings: [people]
 regions: [arabia]
 periods: [period/modern-era]
-born: { edtf: "1883", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam)" }
+born: { edtf: "1883", calendar: gregorian, precision: year, derived: true, note: "Earlier enrichment pass; al-Zirikli, al-A'lam vol. 6 p. 23 gives no birth year (000), so this year is not confirmed by the entry." }
 died: { edtf: "1950", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam)" }
 relations:
-  - { type: born_in, target: place/mecca, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q5806)" }
-  - { type: died_in, target: place/basra, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q48195)" }
+  - { type: born_in, target: place/mecca, sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q5806)" }
+  - { type: died_in, target: place/basra, sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q48195)" }
   - { type: lived_in, target: place/india, sources: [source/wikidata], confidence: low, note: "Wikidata P551 residence (Wikidata Q668)" }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q120869794
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 Medium)"
-  model: "SWE-2 Medium"
-  run: wikidata-import-wave2
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3

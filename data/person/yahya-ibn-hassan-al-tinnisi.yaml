@@ -1,29 +1,54 @@
 id: person/yahya-ibn-hassan-al-tinnisi
 class: person
 label:
-  ar: "يحيى بن حسان التنيسي"
-  en: "Yahya ibn Hassan al-Tinnisi"
-roles: [scholar]
+  ar: يحيى بن حسان التنيسي
+  en: Yahya ibn Hassan al-Tinnisi
+roles:
+- scholar
 gender: male
 summary:
-  ar: "بطاقة أولية ليحيى بن حسان التنيسي؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Yahya ibn Hassan al-Tinnisi; the entry is not yet checked on the page."
-wings: [people]
-regions: [egypt-nile]
-periods: [period/abbasid-early]
-sources: [source/al-aalam]
+  ar: يحيى بن حسان، أبو زكرياء الشامي ثم المصري التنيسي، عالم بالحديث من أهل دمشق، سكن تنيس بمصر وروى عنه الشافعي؛ ١٤٤ إلى ٢٠٨هـ.
+  en: Yahya ibn Hassan, Abu Zakariyya, al-Shami and later al-Misri al-Tinnisi, a hadith scholar of Damascus who settled at Tinnis in Egypt and from whom al-Shafi'i narrated; 144 to 208 AH.
+wings:
+- people
+regions:
+- egypt-nile
+periods:
+- period/abbasid-early
+sources:
+- source/al-aalam
+- source/alam-zirikli-dar-al-ilm-2002
 external_ids:
   wikidata: Q106956225
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text
+  generated_by: Claude Code (Lane B2 packet)
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
-born: { edtf: "761", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Tahdhib (Ibn Hajar) Confirmed on 13 November 2026 against Wikidata Q106956225 (P569, a statement with a reference), item revision 2533405579.", sources: [source/wikidata] }
-died: { edtf: "823", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Tahdhib (Ibn Hajar) Confirmed on 13 November 2026 against Wikidata Q106956225 (P570, a statement with a reference), item revision 2533405579.", sources: [source/wikidata] }
+  completeness: 3
+born:
+  edtf: '761'
+  calendar: gregorian
+  precision: year
+  derived: true
+  note: 'Date-enrichment pass; source: Tahdhib al-Tahdhib (Ibn Hajar) Confirmed on 13 November 2026 against Wikidata Q106956225 (P569, a statement with a reference), item revision 2533405579.'
+  sources:
+  - source/wikidata
+died:
+  edtf: '823'
+  calendar: gregorian
+  precision: year
+  derived: true
+  note: 'Date-enrichment pass; source: Tahdhib al-Tahdhib (Ibn Hajar) Confirmed on 13 November 2026 against Wikidata Q106956225 (P570, a statement with a reference), item revision 2533405579.'
+  sources:
+  - source/wikidata
 relations:
-  - { type: lived_in, target: place/tinnis, confidence: low, note: "Association inferred from the nisba 'التنيسي'; specific birthplace or residence is not individually documented.", sources: [source/al-aalam] }
+- type: lived_in
+  target: place/tinnis
+  confidence: low
+  note: Association inferred from the nisba 'التنيسي'; specific birthplace or residence is not individually documented.
+  sources:
+  - source/al-aalam

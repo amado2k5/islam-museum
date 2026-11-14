@@ -10,3 +10,6 @@ Abu Mansur Muhammad b. Ahmad b. al-Azhar, Arab lexicographer, was born at Herat 
 
 ## Works
 His work is known from a list of fourteen titles given by Yaqut and Ibn Khallikan; with the exception of his commentaries on the Mu'allaqat and the Diwan of Abu Tammam, they are lexicographical studies. His chief work is the Tahdhib al-lugha, ten volumes in Ibn Khallikan's time, a compilation made from the materials he received from al-Mundhiri. It continues the tradition begun by Khalil in the Kitab al-'Ayn: the roots are not arranged alphabetically but according to a phonetic classification beginning with the labials. Ibn Manzur used it copiously in his Lisan al-'Arab. The work has not been edited. {cite:encyclopaedia-of-islam-2 vol. 1 p. 871}
+
+## Works in the OpenITI corpus
+The OpenITI corpus holds 3 works under the author identifier 0370AbuMansurAzhari, among them: Macani Qiraat; Tahdhib Lugha; Zahir Fi Gharib Alfaz Shafici. {cite:openiti-corpus 0370AbuMansurAzhari}

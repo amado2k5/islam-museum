@@ -1,0 +1,18 @@
+id: concept/northern-dwellings-in-the-canon
+class: concept
+kind: scientific
+label: { ar: "المساكن الشمالية عند ابن سينا", en: "Northern dwellings in the Canon", ur: "قانون میں شمالی مسکن" }
+summary:
+  ar: "يعطي ابن سينا المساكن الشمالية أحكام البلاد والفصول الباردة، ويفصل ما يصيب الرجال والنساء والصبيان فيها {cite:canon-ibn-sina-print-v1 p.128}."
+  en: "Ibn Sina gives northern dwellings the rulings of cold lands and seasons and details what befalls men, women and boys there {cite:canon-ibn-sina-print-v1 p.128}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/air-as-a-cause, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, on harmful changes of the air, winds, dwellings, motion, sleep and the motions of the soul (scan pages 125 to 131), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-fann2-air-dwellings-1
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

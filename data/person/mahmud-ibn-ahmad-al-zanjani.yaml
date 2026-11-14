@@ -6,8 +6,8 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لمحمود بن أحمد الزنجاني، فقيه وقاضي القرن الثالث عشر، توفي سنة ١٢٥٨م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Mahmud ibn Ahmad al-Zanjani, the thirteenth-century faqih and judge, d. 1258; the biographical entry is not yet checked on the page."
+  ar: "محمود بن أحمد بن محمود بن بختيار، أبو المناقب شهاب الدين الزنجاني، لغوي من فقهاء الشافعية، من أهل زنجان، استوطن بغداد وولي نيابة قضاء القضاة ودرس بالنظامية ثم بالمستنصرية، واستشهد ببغداد أيام نكبتها بالمغول، وتوفي سنة 656 هـ الموافقة 1258 م."
+  en: "Mahmud ibn Ahmad ibn Mahmud ibn Bakhtiyar, Abu al-Manaqib Shihab al-Din al-Zanjani, a philologist and Shafi'i jurist from Zanjan who settled in Baghdad, was deputy to the chief judge and taught at the Nizamiyya and the Mustansiriyya; al-Zirikli says he was killed as a martyr in Baghdad during the Mongol catastrophe, in 656 AH (1258 CE)."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/crusades-ayyubid-mamluk]
@@ -16,15 +16,15 @@ died: { edtf: "1258", calendar: gregorian, precision: year, derived: true, note:
 relations:
   - { type: born_in, target: place/zanjan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/baghdad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q28713119
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0049
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3

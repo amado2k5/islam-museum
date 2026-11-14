@@ -6,23 +6,23 @@ label:
 roles: [jurist]
 gender: male
 summary:
-  ar: "بطاقة أولية لأحمد القدوري؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ahmad al-Quduri; the entry is not yet checked on the page."
+  ar: "أحمد بن محمد بن أحمد بن جعفر بن حمدان، أبو الحسين القدوري، فقيه حنفي ولد ومات في بغداد وانتهت إليه رئاسة الحنفية في العراق، صاحب المختصر المعروف باسمه في فقه الحنفية وكتاب التجريد."
+  en: "Ahmad ibn Muhammad al-Quduri, Abu al-Husayn, a Hanafi jurist born and died in Baghdad, to whom the leadership of the Hanafis in Iraq came; author of the abridgement known by his name in Hanafi jurisprudence and of al-Tajrid."
 wings: [people]
-regions: [persia-central-asia]
+regions: [levant-iraq]
 periods: [period/buyid-seljuk-fatimid-era]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q12178653
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 Medium)"
-  model: "SWE-2 Medium"
-  run: wikidata-import-wave2
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 occupations:
   - job: job/faqih
     kind: primary
@@ -32,4 +32,5 @@ occupations:
 born: { edtf: "973", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar); al-Zirikli" }
 died: { edtf: "1037", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar); al-Zirikli" }
 relations:
-  - { type: lived_in, target: place/iran, note: "Only the record-level region (persia-central-asia) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }
+  - { type: born_in, target: place/baghdad, note: "al-Zirikli, al-A'lam, vol. 1 p. 202: born and died in Baghdad (replaces the earlier broad Iran association)", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
+  - { type: died_in, target: place/baghdad, note: "al-Zirikli, al-A'lam, vol. 1 p. 202", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }

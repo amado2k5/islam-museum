@@ -1,30 +1,60 @@
 id: person/nur-allah-al-shustari
 class: person
 label:
-  ar: "نور الله التستري"
-  en: "Nur Allah al-Shushtari"
-roles: [scholar]
+  ar: نور الله التستري
+  en: Nur Allah al-Shushtari
+roles:
+- scholar
 gender: male
 summary:
-  ar: "بطاقة أولية لنور الله الحسيني التستري، قاضي لاهور وعالم القرن السابع عشر صاحب «مجالس المؤمنين»، قُتل سنة ١٦١٠م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Nur Allah al-Husayni al-Shushtari, the seventeenth-century qadi of Lahore author of Majalis al-Mu'minin, killed in 1610; the biographical entry is not yet checked on the page."
-wings: [people]
-regions: [south-asia]
-periods: [period/gunpowder-empires]
-sources: [source/al-aalam, source/wikidata]
+  ar: نور الله بن شريف الدين عبد الله المرعشي التستري، مجتهد من علماء الإمامية، قاضي القضاة بلاهور في عهد أكبر شاه، قتل تحت السياط؛ ٩٥٦ إلى ١٠١٩هـ.
+  en: Nur Allah ibn Sharif al-Din Abd Allah al-Mar'ashi al-Tustari, an Imami mujtahid, chief judge at Lahore under Akbar Shah, who was killed under the lash; 956 to 1019 AH.
+wings:
+- people
+regions:
+- south-asia
+periods:
+- period/gunpowder-empires
+sources:
+- source/al-aalam
+- source/wikidata
+- source/alam-zirikli-dar-al-ilm-2002
 external_ids:
   wikidata: Q4164181
-  viaf: "60491736"
+  viaf: '60491736'
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0035
+  source: al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text
+  generated_by: Claude Code (Lane B2 packet)
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
-born: { edtf: "1549", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (al-Tustari); A'yan al-Shi'a" }
-died: { edtf: "1610", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (al-Tustari); A'yan al-Shi'a Confirmed on 13 November 2026 against Wikidata Q4164181 (P570, a statement with a reference), item revision 2541008352.", sources: [source/wikidata] }
+  completeness: 3
+born:
+  edtf: '1549'
+  calendar: gregorian
+  precision: year
+  derived: true
+  note: 'Date-enrichment pass; source: EI2 (al-Tustari); A''yan al-Shi''a'
+died:
+  edtf: '1610'
+  calendar: gregorian
+  precision: year
+  derived: true
+  note: 'Date-enrichment pass; source: EI2 (al-Tustari); A''yan al-Shi''a Confirmed on 13 November 2026 against Wikidata Q4164181 (P570, a statement with a reference), item revision 2541008352.'
+  sources:
+  - source/wikidata
 relations:
-  - { type: lived_in, target: place/tustar, confidence: low, note: "Association inferred from the nisba 'التستري'; specific birthplace or residence is not individually documented.", sources: [source/al-aalam] }
+- type: lived_in
+  target: place/tustar
+  confidence: low
+  note: Association inferred from the nisba 'التستري'; specific birthplace or residence is not individually documented.
+  sources:
+  - source/al-aalam
+- type: lived_in
+  target: place/lahore
+  confidence: medium
+  note: Chief judge at Lahore under Akbar Shah, per the A'lam entry.
+  sources:
+  - source/alam-zirikli-dar-al-ilm-2002

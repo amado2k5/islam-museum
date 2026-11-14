@@ -1,0 +1,18 @@
+id: concept/canon-fifteen-named-kinds-of-pain
+class: concept
+kind: scientific
+label: { ar: "أصناف الوجع الخمسة عشر عند ابن سينا", en: "The fifteen named kinds of pain in the Canon", ur: "درد کی پندرہ نامزد اقسام، قانون کے مطابق" }
+summary:
+  ar: "في الفصل العشرين يعدّد ابن سينا أصناف الوجع التي لها أسماء ويحصيها خمسة عشر جنساً، ثم يذكر سبب كل واحد منها {cite:canon-ibn-sina-print-v1 p.149}."
+  en: "In chapter 20 Ibn Sina lists the kinds of pain that have names, counts fifteen genera, and then gives the cause of each {cite:canon-ibn-sina-print-v1 p.149}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/disease, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, Ta'lim 2, part 2 chapters 19 to 29 on pain, pleasure, indigestion and weakness (scan pages 147 to 153), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-fann2-jumla2-ch19-29
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

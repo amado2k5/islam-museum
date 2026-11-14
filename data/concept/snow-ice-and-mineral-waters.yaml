@@ -1,0 +1,18 @@
+id: concept/snow-ice-and-mineral-waters
+class: concept
+kind: scientific
+label: { ar: "مياه الثلج والجمد والمعادن عند ابن سينا", en: "Snow, ice and mineral waters in the Canon", ur: "قانون میں برف، جمد اور معدنی پانی" }
+summary:
+  ar: "يقول ابن سينا إن المياه التي يخالطها جوهر معدني، والمياه العلقية، كلها أردأ، لكن في بعضها منافع. وإن الجمد والثلج إذا كان نقياً غير مخالط لقوة رديئة فهو صالح، سواء حلل ماء أو برد به الماء من خارج أو ألقي فيه، إلا أنه أكثف من سائر المياه ويتضرر به صاحب وجع العصب، وإذا طبخ عاد إلى الصلاح {cite:canon-ibn-sina-print-v1 p.137}."
+  en: "Ibn Sina says waters mixed with a mineral substance, and leech waters, are all poorer, though some have benefits. Snow and ice, when pure and not mixed with a bad power, are fit, whether melted into water, used to cool water from outside, or dropped into it; but they are coarser than other waters and harm one with nerve pain, and when boiled they return to being fit {cite:canon-ibn-sina-print-v1 p.137}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/disease, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, on food, drink, waters, retention and evacuation, and non-necessary causes (scan pages 131 to 140), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-fann2-food-water-1
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

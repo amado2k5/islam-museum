@@ -6,24 +6,24 @@ label:
 roles: [military, ruler]
 gender: male
 summary:
-  ar: "بطاقة أولية لأحمد بن كيغلغ، قائد العباسيين التركي والي الشام ومصر في القرن العاشر، توفي سنة ٩٣٧م؛ تذكره كتب التاريخ ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ahmad ibn Kayghalagh, the tenth-century Turkic Abbasid commander and governor of Syria and Egypt, d. 937; the source entry is not yet checked on the page."
+  ar: "أحمد بن إبراهيم بن كيغلغ، أبو العباس، من أمراء العصر العباسي تركي الأصل ولد ونشأ ببغداد وارتقى إلى القيادة، وولي دمشق والأردن ومصر مرتين وأصبهان، وذكره الثعالبي في اليتيمة شاعرا أديبا؛ نحو ٢٥٨ إلى ما بعد ٣٢٣هـ الموافقة نحو ٨٧٢ إلى ٩٣٥م."
+  en: "Ahmad ibn Ibrahim ibn Kayghalagh, Abu al-Abbas, an emir of the Abbasid era of Turkish origin, born and raised in Baghdad, who rose to command, governed Damascus and Jordan, Egypt twice and Isfahan, and whom al-Tha'alibi names in al-Yatima as a poet and littérateur. About 258 to after 323 AH, about 872 to 935 CE."
 wings: [people]
 regions: [levant-iraq, egypt-nile]
 periods: [period/abbasid-early]
-sources: [source/kamil-ibn-al-athir]
+sources: [source/kamil-ibn-al-athir, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q20638746
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: Ibn al-Athir, al-Kamil — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0029
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
-born: { edtf: "904~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Kindi (Wulat Misr)" }
+  completeness: 3
+born: { edtf: "872~", calendar: gregorian, precision: year, derived: true, note: "about 258 AH = about 872 CE as printed in the entry; the card had about 904; source: al-Zirikli, al-A'lam, 15th ed. 2002, vol. 1 p. 84", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 died: { edtf: "935~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Kindi (Wulat Misr)" }
 relations:
-  - { type: ruler_of, target: place/al-sham, note: "From text: governor of Syria", sources: [source/kamil-ibn-al-athir] }
+  - { type: ruler_of, target: place/al-sham, note: "From text: governor of Syria", sources: [source/kamil-ibn-al-athir, source/alam-zirikli-dar-al-ilm-2002] }
