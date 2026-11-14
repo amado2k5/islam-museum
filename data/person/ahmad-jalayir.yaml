@@ -6,24 +6,26 @@ label:
 roles: [ruler]
 gender: male
 summary:
-  ar: "بطاقة أولية لغياث الدين أحمد، السلطان الجلائري ببغداد وتبريز الذي نازع تيمور وقرتا يوسف، توفي سنة ١٤١٠م؛ تذكره معاجم الدول الإسلامية ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ghiyath al-Din Ahmad, the Jalayirid sultan of Baghdad and Tabriz who contested Timur and Qara Yusuf, d. 1410; the dynastic handbook entry is not yet checked on the page."
+  ar: "غياث الدين أحمد بن أويس الجلايري، آخر سلاطين الدولة الجلايرية في بغداد، نازع تيمور وقرا يوسف وقتل خنقا ببغداد سنة 813 هـ الموافقة 1410 م؛ قرئت ترجمته في الأعلام للزركلي."
+  en: "Ghiyath al-Din Ahmad ibn Uways al-Jalayiri, the last Jalayirid sultan at Baghdad, who fought Timur and Qara Yusuf and was strangled at Baghdad in 813 AH (1410 CE); his entry in al-Zirikli's al-A'lam has been read."
 wings: [people]
 regions: [levant-iraq, persia-central-asia]
 periods: [period/crusades-ayyubid-mamluk]
-sources: [source/bosworth-new-islamic-dynasties-1996, source/nomisma]
+sources: [source/alam-zirikli-dar-al-ilm-2002, source/bosworth-new-islamic-dynasties-1996, source/nomisma]
 external_ids:
   wikidata: Q1070476
   nomisma: "sultan_ahmad_ibn_uways"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: Bosworth, The New Islamic Dynasties (1996) — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0015
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, vol. 1 p. 101, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
-died: { edtf: "1410", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica" }
+  completeness: 3
+died: { hijri: "0813", edtf: "1410", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica; al-A'lam vol. 1 p. 101 gives 813 AH = 1410 CE, agreeing.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
+  - { type: died_in, target: place/baghdad, note: "al-Zirikli, al-A'lam, vol. 1 p. 101: captured and strangled at Baghdad", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
+  - { type: lived_in, target: place/tabriz, note: "al-Zirikli, al-A'lam, vol. 1 p. 101: he grew up in Tabriz", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
   - { type: ruler_of, target: place/baghdad, note: "From text: sultan of Baghdad", sources: [source/bosworth-new-islamic-dynasties-1996] }
