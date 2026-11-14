@@ -3671,6 +3671,20 @@ Resume point: sharh-saheeh-al-bukhare episode 10 (branch from origin/main).
 
 Resume point: sharh-saheeh-al-bukhare episode 16 (branch from origin/main).
 
+### alwaad-alhaq ep13 (14 Nov 2026)
+
+30 points written for episode 13 (ar, en, ur); 26 needs_source marks for this episode in each language file; 20 new about-links on the series record. Quran verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
+
+| Excluded (alwaad-alhaq ep13) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Umar's night address at the grave | ep13 00:30:30-00:31:00 | Garbled, wording not recoverable | Clarity | Open |
+| Asma bint Umays and the camel with the weight of revelation | ep13 00:29:30-00:30:00 | Garbled, chapter name and details not recoverable | Clarity | Open |
+| Seniority over Abu Bakr and Umar by years | ep13 00:19:30-00:20:00 | Garbled numbers | Clarity | Open |
+| Martyr's body found intact decades later (Hamza and personal sighting) | ep13 00:45:30-00:46:30 | Garbled, personal anecdote without source | Clarity | Open |
+| Closing verse lines on the darkness of the grave | ep13 00:52:30-00:53:00 | Unclear whether quotation or poem, no source | Clarity | Open |
+| Looped passages | ep13 00:21:30-00:22:30, 00:50:00-00:50:30, 00:13:30-00:14:00 | ASR loops, unrecoverable | Clarity, Loop check | Open |
+
+Resume point: alwaad-alhaq episode 14 (branch from origin/main).
 ### sharh-saheeh-al-bukhare ep16 (14 Nov 2026)
 
 27 points written for episode 16 (ar, en, ur); 20 needs_source marks in each language file for this episode; 4 new `about` edges. Quran verses referenced only through passage links (17-14, 32-16, 31-11); none typed. Contested: He attributes to scholars a count of ten witnesses against a person, relates unreferenced reports (the grave, the limbs, the gift to the Byzantine ruler's wife) and states that in the majority view of jurists visiting graves is not for women; all are marked as his. Checked line by line against the transcript by a second reader before merge.
