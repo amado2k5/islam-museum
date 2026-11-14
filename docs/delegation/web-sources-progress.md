@@ -1145,6 +1145,7 @@ Source: al-Zirikli, al-A'lam, 15th ed. 2002 (alam-zirikli-dar-al-ilm-2002). Each
 - Skipped, iDAI GeoNames id differs from our data: ceuta (iDAI 2519582, ours 6362987), gabes (iDAI 2468369, ours 110075).
 - Skipped, iDAI record 2280221 (damascus) carries no GeoNames id, so identity cannot be confirmed; proposal for the founder.
 - Packet 31 (place prose, identifier sections): 14 places written; no iDAI GeoNames mismatches (Baghdad, Balkh, Basra iDAI records carry no GeoNames id; Almeria data has none).
+- Packet 33 (place prose, identifier sections): 14 places written; no iDAI GeoNames mismatches (Jeddah and Kabul iDAI records carry no GeoNames id; Kabul data has none either).
 
 ## 2026-11-14 (Lane B2 packet alm19) - al-A'lam persons, eleven written
 - Written (ar, en, ur, draft, run web-b2-alam-2026-11-14, source alam-zirikli-dar-al-ilm-2002): salih-ibn-mahdi-al-maqbali (3:190, Zaydi), abd-al-rahman-al-murshidi (3:286), ahmad-al-quduri (1:202), al-mutalammis (2:115), ibrahim-ibn-yaqub-al-juzajani (1:36), muhammad-ibn-qasim-al-ghazzi (6:291), khalid-ibn-yazid-al-shaybani (2:293), muhammad-baqir-al-sabzawari (6:23, Imami), ahmad-ibn-khalil-al-khui (1:111), muhibb-al-din-al-hamawi (6:23), abd-allah-ibn-alawi-al-haddad (4:57). Cite-check 11 of 11.
