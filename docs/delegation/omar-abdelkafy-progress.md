@@ -4082,3 +4082,16 @@ Resume point: alwaad-alhaq episode 19 (branch from origin/main).
 | Skin cancer percentages | ep19 00:39:30 | figures garbled in the transcript, only the claim kept | accuracy | Open |
 
 Resume point: alwaad-alhaq episode 20 (branch from origin/main).
+
+### alwaad-alhaq ep20 (14 Nov 2026)
+
+17 points written for episode 20 (ar, en, ur); 19 needs_source marks for this episode in each language file; edges added to the series record for enjoining good, fear, hope, good character, muraqaba, taqwa, pride, sincere counsel, Rukana, Jibril and Musa. Quran verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
+
+| Excluded (alwaad-alhaq ep20) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Closing prayer wording | ep20 00:54:30 | transcript garbled, only the gist kept | accuracy | Open |
+| Passage on the Prophet's welcome of a visitor | ep20 00:29:00 | lost to repetition loop | accuracy | Open |
+| Chain of the Prophet's saying on blessing | ep20 00:51:30 | lost to repetition loop | accuracy | Open |
+| Lombroso and a book on Quraysh figures | ep20 00:29:30 | names garbled, not attributed | accuracy | Open |
+
+Resume point: alwaad-alhaq episode 21 (branch from origin/main).
