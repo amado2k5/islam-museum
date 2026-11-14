@@ -6,25 +6,28 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لأبي سعيد الخادمي، فقيه عثماني القرن الثامن عشر صاحب بريقة محمودية، توفي سنة ١٧٦٢م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abu Said al-Khadimi, the eighteenth-century Ottoman jurist author of Bariqa Mahmudiyya, d. 1762; the biographical entry is not yet checked on the page."
+  ar: "محمد بن محمد بن مصطفى بن عثمان، أبو سعيد الخادمي، فقيه أصولي حنفي أصله من بخارى، ولد وتوفي في قرية خادم من توابع قونية، واشتهر بدرس التفسير في أياصوفية، من كتبه مجمع الحقائق والبريقة المحمودية."
+  en: "Muhammad ibn Muhammad ibn Mustafa ibn Uthman, Abu Sa'id al-Khadimi, a Hanafi jurist of the principles of jurisprudence whose family came from Bukhara; born and died in the village of Khadim near Konya; known for a lesson on tafsir at Hagia Sophia; author of Majami' al-Haqa'iq and al-Bariqa al-Mahmudiyya. Al-Zirikli prints 1113-1176 AH (1701-1763)."
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q12178022
   viaf: "314817602"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0058
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 born: { edtf: "1701", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam); TDV Islam Ansiklopedisi Confirmed on 13 November 2026 against Wikidata Q12178022 (P569, a statement with a reference), item revision 2565196818.", sources: [source/wikidata] }
 died: { edtf: "1762", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam); TDV Islam Ansiklopedisi Confirmed on 13 November 2026 against Wikidata Q12178022 (P570, a statement with a reference), item revision 2565196818.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/anatolia, note: "From text: Ottoman (nationality adjective); broad association, flagged for review.", sources: [source/al-aalam], confidence: low }
+  - { type: born_in, target: place/konya, note: "al-Zirikli, vol. 7 p. 68: born in the village of Khadim, a dependency of Konya", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }
+  - { type: died_in, target: place/konya, note: "al-Zirikli, vol. 7 p. 68: died in the village of Khadim, a dependency of Konya", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }
+  - { type: lived_in, target: place/istanbul, note: "al-Zirikli, vol. 7 p. 68: gave a well-known lesson at Hagia Sophia in Istanbul", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: low }

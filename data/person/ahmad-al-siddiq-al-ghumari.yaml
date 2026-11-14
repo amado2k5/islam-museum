@@ -6,26 +6,26 @@ label:
 roles: [muhaddith]
 gender: male
 summary:
-  ar: "بطاقة أولية لأحمد بن الصديق الغماري، الحافظ والمحدث المغربي في القرن الرابع عشر الهجري؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ahmad ibn al-Siddiq al-Ghumari, the Moroccan hadith scholar of the 14th Hijri century; his entry is not yet checked on the page."
+  ar: "أحمد بن محمد بن الصديق بن أحمد، أبو الفيض الغماري الحسني الأزهري، متفقه شافعي مغربي من نزلاء طنجة، تعلم في الأزهر واستقر وتوفي بالقاهرة، من كتبه رياض التنزيه ومطالع البدور وإبراز الوهم المكنون. يذكر الزركلي وفاته سنة 1380 هـ."
+  en: "Ahmad ibn Muhammad ibn al-Siddiq ibn Ahmad, Abu al-Fayd al-Ghumari al-Hasani al-Azhari, a Moroccan Shafi'i jurist who lived at Tangier, studied at al-Azhar and settled and died in Cairo; author of Riyad al-Tanzih, Matali' al-Budur and Ibraz al-Wahm al-Maknun. Al-Zirikli prints his death as 1380 AH (1960)."
 wings: [people]
 regions: [maghreb]
 periods: [period/contemporary-era]
 born: { edtf: "1902", precision: year, status: tradition, derived: true }
 died: { edtf: "1961", precision: year, status: tradition, derived: true }
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q3793274
   viaf: "69260524"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 occupations:
   - job: job/muhaddith
     kind: primary
@@ -34,3 +34,5 @@ occupations:
     sources: [source/al-aalam]
 relations:
   - { type: lived_in, target: place/maghreb, note: "Place association from the person's nisba/name (المغربي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
+  - { type: lived_in, target: place/tanja, note: "al-Zirikli, vol. 1 p. 253: lived at Tangier for a time", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: low }
+  - { type: died_in, target: place/cairo, note: "al-Zirikli, vol. 1 p. 253: settled and died in Cairo", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
