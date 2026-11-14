@@ -996,3 +996,7 @@ Wrote ar, en and ur prose for vila, th-nia, el-mahalla-el-kubra, ioannina, kirku
 ## 2026-11-14 (Lane B1 packet 4) - place prose, ten places
 
 - Written (ar, en, ur, draft): nicomedia, thermopylae, itea, doucen (Pleiades), washington-dc, birmingham, famagusta, detroit, samalut, los-angeles (iDAI.gazetteer). Yaqut Mu'jam al-buldan vols 1-2 OCR searched for each Arabic name: no entry found, so no Yaqut citation. Nothing skipped.
+
+## 2026-11-14 (Lane B1 packet 6) - place prose, ten places
+
+- Written (ar, en, ur, draft): babadag, mu, mahan, denizli, old-dongola (Pleiades via local CSV dump, same revision fields); khosrowshahr, zurich, nev-ehir, san-francisco, akhisar (iDAI.gazetteer, https://gazetteer.dainst.org/doc/<id>.json, read 14 Nov 2026; the /place/<id>.json URL in the brief returns 404). Yaqut vols 1-2 OCR end at the letter ta, so no entry for any of them and no Yaqut citation. Nothing skipped. Note: Zurich's iDAI record links GeoNames 2657896, the data file holds 7287650; not changed.
