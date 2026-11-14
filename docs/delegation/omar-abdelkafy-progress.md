@@ -3045,3 +3045,24 @@ Resume point: min-kunuz-al-sunnah episode 14 (branch from origin/main).
 | Section on hearing and sight examples beyond the main account (garbled lines on a channel) | ep14 00:10:00-00:10:30 | Partly garbled | Clarity, Loop check | Open |
 
 Resume point: min-kunuz-al-sunnah episode 15 (branch from origin/main).
+
+### min-kunuz-al-sunnah ep15 (14 Nov 2026)
+
+14 points written for episode 15 (ar, en, ur); 13 needs_source marks in each language file for this episode; 6 new `about` edges. Quran verses referenced only through passage links (9-60, 18-79, 21-107, 17-23, 17-24, 24-60); none typed. Contested: His rejection of the word "disabled", his statement that God creates no defect, his praise of one state's policies, his view that a dutiful child will not enter the fire whatever else he does, and his view that the ruler is among the elders are his own opinions and are contested.
+
+| Excluded (min-kunuz-al-sunnah ep15) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Greetings, opening prayer and introduction | ep15 00:00:00-00:00:30 | Not substantive | Content rule | Open |
+| Break joins and returns | ep15 00:08:00-00:08:30, 00:17:30-00:18:30 | Not substantive | Content rule | Open |
+| Closing prayer and farewell | ep15 00:27:00-00:27:30 | Not substantive | Content rule | Open |
+| Repeated-letter loop | ep15 00:01:00-00:01:30 | Loop, no recoverable text | Clarity, Loop check | Open |
+| Repeated-letter loop | ep15 00:19:00-00:19:30 | Loop, no recoverable text | Clarity, Loop check | Open |
+| Repeated-word loop and garbled poem or story | ep15 00:24:30-00:25:30 | Loop and garbled text | Clarity, Loop check | Open |
+| Names of blind scholars (al-Tirmidhi, Ibn Abbas) | ep15 00:07:00-00:07:30 | Subject and wording too garbled to attribute | Clarity, Loop check | Open |
+| Garbled phrase about a political group in the hadith discussion | ep15 00:14:00-00:14:30 | Garbled, unrecoverable | Clarity, Loop check | Open |
+| Mention of Abu Bakr and Uthman beside a proverb | ep15 00:25:30 | Garbled, point unclear | Clarity, Loop check | Open |
+| Garbled clause on who is exempt from prayer | ep15 00:16:30-00:17:00 | Garbled, unrecoverable | Clarity, Loop check | Open |
+| Statement on the weakness of girl children | ep15 00:26:00-00:26:30 | Sweeping generalisation about women | Voice rule | Open |
+| Remarks on rulers who are provoked or incited and on states' fates | ep15 00:21:30-00:22:00 | Garbled, sweeping claim | Voice rule, Clarity | Open |
+
+Resume point: min-kunuz-al-sunnah episode 16 (branch from origin/main).
