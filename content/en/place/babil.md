@@ -6,3 +6,6 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
 ## Overview
 Babil: a small village that was formerly a great city. al-Idrisi reports that it was once a great capital in ancient times, and that half of its size is now a small district. {cite:nuzhat-al-mushtaq-2002 p.670}
+
+## In Nomisma
+The Nomisma numismatic vocabulary links this entry to the concept «babylon», and its linked collections record 426 coins or coin types that name it as issuer, authority or mint. {cite:nomisma babylon}

@@ -112,3 +112,6 @@ Damascus is considered one of the oldest continuously inhabited capitals in the 
 
 ## For Scholars
 The premier metropolis of the Levant and one of the oldest continuously inhabited cities on earth, nestled beneath Mount Qasiyun along the Barada River oasis. Liberated in 14 AH (635 CE) under Caliph Umar ibn al-Khattab through commanders Abu Ubayda ibn al-Jarrah and Khalid ibn al-Walid, it served as the imperial capital of the Umayyad Caliphate (41–132 AH / 661–750 CE). Anchored by the monumental Umayyad Mosque built under Caliph al-Walid I with Byzantine glass mosaics, Damascus regained strategic leadership during the Ayyubid and Mamluk eras, housing prestigious madrasas and producing seminal scholars such as Ibn Asakir, al-Nawawi, and Ibn Kathir.
+
+## In Nomisma
+The Nomisma numismatic vocabulary links this entry to the concept «damascus», and its linked collections record 299 coins or coin types that name it as issuer, authority or mint. {cite:nomisma damascus}

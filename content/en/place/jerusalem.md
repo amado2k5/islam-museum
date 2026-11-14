@@ -115,3 +115,6 @@ Jerusalem is a sacred city of profound status in Islam, being the first Qibla to
 
 ## For Scholars
 A city of deep spiritual sanctity and rich history spanning millennia. In Islamic tradition, it stands as the first Qibla, the third holiest sanctuary, and the terrestrial terminal of the Prophet's Night Journey, encompassing the al-Aqsa compound and the Dome of the Rock. Surrendered peacefully in 16 AH (637 CE) to Caliph Umar ibn al-Khattab under the historic 'Covenant of Umar' guaranteeing Christian religious liberties, the city experienced continuous stewardship under the Umayyads, the Ayyubids under Salah al-Din, and subsequent Mamluk and Ottoman administrations.
+
+## In Nomisma
+The Nomisma numismatic vocabulary links this entry to the concept «jerusalem», and its linked collections record 42 coins or coin types that name it as issuer, authority or mint. {cite:nomisma jerusalem}

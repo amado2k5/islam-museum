@@ -6,25 +6,25 @@ label:
 roles: [historian]
 gender: male
 summary:
-  ar: "بطاقة أولية لأبان بن عثمان الأحمر، نسابة ومؤرخ وفقيه القرن التاسع، توفي سنة ٨١٥م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Aban ibn Uthman al-Ahmar, the ninth-century genealogist, historian and jurist, d. 815; the biographical entry is not yet checked on the page."
+  ar: "أبان بن عثمان بن يحيى بن زكريا اللؤلؤي البجلي بالولاء، أبو عبد الله، المعروف بالأحمر، عالم بالأخبار والأنساب إمامي، أصله من الكوفة وكان يسكنها تارة ويسكن البصرة تارة؛ صاحب كتاب المغازي، توفي نحو 200هـ الموافق نحو 815م."
+  en: "Aban ibn Uthman ibn Yahya ibn Zakariyya al-Lu'lu'i al-Bajali, by clientship, Abu Abdallah, known as al-Ahmar: a scholar of reports and genealogies, labelled Imami (Shi'i) in al-A'lam; of Kufan origin, he lived at times in Kufa and at times in Basra; author of a book of maghazi; died about 200 AH, about 815 CE."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-fragmentation]
-sources: [source/tarajm-com, source/cgie-encyclopaedia, source/al-aalam]
+sources: [source/tarajm-com, source/cgie-encyclopaedia, source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q109550700
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0057
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 born: { edtf: "760~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Islam / al-Najashi" }
-died: { edtf: "815~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Islam / al-Najashi Confirmed on 13 November 2026 against Wikidata Q109550700 (P570, a statement with a reference), item revision 2491401502.", sources: [source/wikidata] }
+died: { edtf: "815~", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 1 p. 26: about 200 AH = about 815 CE; the entry gives no birth year.", sources: [source/alam-zirikli-dar-al-ilm-2002, source/wikidata] }
 relations:
   - { type: lived_in, target: place/kufa, confidence: medium, note: "أصله من الكوفة وكان يسكنها تارة ويسكن البصرة تارة أخرى (tarajm.com / CGIE)", sources: [source/tarajm-com, source/cgie-encyclopaedia] }
   - { type: lived_in, target: place/basra, confidence: medium, note: "كان يسكن البصرة تارة (tarajm.com / CGIE)", sources: [source/tarajm-com, source/cgie-encyclopaedia] }

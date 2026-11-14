@@ -1112,3 +1112,8 @@ Wrote ar, en and ur prose for vila, th-nia, el-mahalla-el-kubra, ioannina, kirku
 
 - Biblissima label read for 78 persons with a Biblissima id and full prose; section added in ar, en, ur (cite-check 78 of 78). VIAF has no readable public data channel in this pass (the cluster pages are not fetched), so VIAF prose is not written: a VIAF number alone is no fact worth a section.
 - Yaqut, Mu'jam al-Buldan, Dar Sader 1995 (Shamela book 23735, pages 1 to 2460 by index): download to books/geography/mujam-al-buldan-sader-shamela23735/pages.jsonl on the microSD (about 3 MB, claimed in WORK-REGISTRY.md), curl with a 2 s pause (shamela.ws answers curl). The edition is not the Khanji print of the existing scan: citations will name volume and page of the Dar Sader print and need a new source entity.
+
+## 2026-11-14 (p73, Lane B worker B1) — Nomisma sections on 13 pages
+
+- One SPARQL request (nomisma.org/query, counts of distinct coins and types by nmo:hasAuthority, hasIssuer or hasMint, 5,117 concepts) joined to the entries that carry a Nomisma id and prose in all three languages; 13 qualified (the others have no prose file yet or their concept has no coin record). The Nomisma definition text is not used: it is taken from Wikipedia, which is never a source for prose. Concepts whose id carries an apostrophe are skipped (citation anchor).
+- Coin-type facts per ruler (denominations, mints, dates) need the type pages of the linked catalogues and were not read in this pass.

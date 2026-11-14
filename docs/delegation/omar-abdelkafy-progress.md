@@ -4166,3 +4166,71 @@ Resume point: sharh-saheeh-al-bukhare episode 27 (branch from origin/main).
 | Loops and repeated blessings | ep22 00:08:00, 00:14:00, 00:29:00, 00:34:00, 00:50:00, 00:54:00 | Loops | Loop check | Open |
 
 Resume point: alwaad-alhaq episode 23 (branch from origin/main).
+### sharh-saheeh-al-bukhare ep27 (14 Nov 2026)
+
+28 points written for episode 27 (ar, en, ur); 22 needs_source marks in each language file for this episode; 8 new `about` edges. Quran verses referenced only through passage links (3-37, 25-63); none typed. Contested: His readings of the Prophet's request for a writing and its dispute, his remark that Abu Bakr's appointment of Umar shows real democracy, his comment on Khalid's removal, and his application of the hadith on raised graves are his own and are contested; the reports on Khalid, al-Qa'qa' and Ali and Fatima are given without chains. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep27) | Episode / time | Reason | Gate failed | Override |
+| Greeting, opening supplication and looped lines | ep27 00:00:00-00:01:30 | Opening greeting and prayer, with a long Qwen loop of one word | Clarity, Loop check | Open |
+| Takfir among Muslims in disputes, and a remark about a scholar's method | ep27 00:06:00-00:07:00 | Sweeping claim about groups of Muslims and garbled in both passes | Content rule | Open |
+| Criticism of modern writers and legislators | ep27 00:15:00-00:15:30 | Sweeping claim about modern writers, garbled | Voice rule | Open |
+| Garbled stretches, loops and repeated words | ep27 00:41:30-00:43:30 | Loops in the Qwen pass, Whisper too garbled to carry a point | Clarity, Loop check | Open |
+| Money talk, a sale at 160 dinars and a story about Ali and Fatima's household | ep27 00:46:00-00:51:30 | Too garbled in both passes to say what is reported | Clarity | Open |
+| Remark on the Imam al-Sadiq and practices at graves | ep27 00:52:30-00:53:00 | Sweeping claim about a sect's practice, partly garbled | Content rule | Open |
+| Sufyan al-Thawri dream and account of deeds on the Day | ep27 00:56:00-00:59:00 | Garbled in both passes | Clarity | Open |
+| Story of people seeking others' faults and a rooftop | ep27 01:01:00-01:04:30 | Garbled in both passes | Clarity | Open |
+| Report on the women of Paradise | ep27 01:05:30-01:06:30 | Quoted by sense and too garbled to restate | Clarity | Open |
+| Hadith of drawing near by voluntary acts | ep27 01:10:30-01:12:30 | Only the second pass has it and only partly | Clarity | Open |
+| Closing supplication and a garbled story about Khalid's death | ep27 01:12:30-01:14:00 | Closing prayer and garbled report | Clarity | Open |
+| Sign-off and closing greetings | ep27 01:19:30-01:20:00 | Closing greetings and sign-off | Clarity | Open |
+| Second ASR pass: Whisper large-v3 (mlx) run on the Mac to resolve garbled words of the Qwen transcript; cites use the shared 30-second grid | ep27 whole | Qwen pass too garbled for a rich first pass | Clarity | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 28 (branch from origin/main).
+
+### sharh-saheeh-al-bukhare ep28 (14 Nov 2026)
+
+28 points written for episode 28 (ar, en, ur); 23 needs_source marks in each language file for this episode; 5 new `about` edges. Quran verses referenced only through passage links (71-10, 18-1, 17-1, 28-83, 33-56, 5-3, 3-144); none typed. Contested: He holds that the principle of what leads to the forbidden applies to all who share in wine, that non-Muslims in Muslim lands should respect Islam, that repeated forgiveness-seeking without leaving the sin is not repentance; these are his views. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep28) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greetings, praise and opening supplication, with looped "qooq" and "ya rabbana" stretches | ep28 00:00:00-00:05:30 | Greetings, supplication and repeated-phrase loops; a stretch of the opening supplication touching conflict dropped | Clarity, Loop check | Open |
+| Stretch on tourism, mosque visitors, Vatican and women's liberation remarks, sweeping claims about peoples and women | ep28 00:13:00-00:17:00 | Sweeping claims about women and peoples, garbled | Content rule, Clarity | Open |
+| Loops ("al-", "ba", "fu", "sah", "ayh", "min") and garbled stretches | ep28 00:09:30, 00:13:00, 00:29:00, 00:31:30, 00:34:00, 00:37:30, 00:40:00, 00:45:00, 00:48:30, 00:53:00 | Repeated-phrase loops and unrecoverable ASR | Clarity, Loop check | Open |
+| Remarks on who is the better servant and the kinship analogy about servanthood | ep28 00:26:30-00:28:00 | Too garbled to recover | Clarity | Open |
+| Description of the Prophet's character and Bilal anecdote, Companions' devotion | ep28 00:33:00-00:36:00, 00:38:30-00:39:30 | Too garbled and unreferenced to state faithfully | Clarity | Open |
+| Claim about the Prophet's wives gathering and the house where he was nursed (house named inconsistently) | ep28 00:43:00-00:43:30 | Garbled, names unclear | Clarity | Open |
+| Exact date of the Prophet's death | ep28 00:53:30-00:54:00 | Date garbled in the transcript | Clarity | Open |
+| Closing supplications for the community | ep28 01:09:00-01:10:00 | Closing prayer | Voice rule | Open |
+| Questions on a beard and on charity work, and the speaker's own listing of qualifications and affiliations | ep28 01:11:00-01:14:30 | Garbled, personal promotion, not substantive | Clarity | Open |
+| Claim that servanthood is a title of honour and the highest human rank | ep28 00:25:30-00:28:00 | Not clearly stated in the transcript | Clarity | Open |
+| Claim that people entered the religion in crowds after sixty-three years | ep28 00:32:00 | Garbled, unclear what the number refers to | Clarity | Open |
+| Remark that changing the religion by adding or removing makes it unreliable | ep28 00:38:30 | Garbled | Clarity | Open |
+| Detail that Uhud shook, and that the Baqi visit was at night or involved asking forgiveness | ep28 00:46:00-00:47:30 | Not in the transcript | Clarity | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 29 (branch from origin/main).
+
+### sharh-saheeh-al-bukhare ep29 (14 Nov 2026)
+
+28 points written for episode 29 (ar, en, ur); 24 needs_source marks in each language file for this episode; 5 new `about` edges. Quran verses referenced only through passage links (5-67); none typed. Contested: He holds that we live in a time of trials, relates Hind ibn Abi Hala's description of the Prophet as his preferred one (with his own account of Hind's kinship and age), and gives the rule that what leads to the forbidden is forbidden; all marked as his view. The recording says "his death" for the first part of the lesson but what follows is the Prophet's description, so the bullet says "the Prophet's person"; the word for the first kind of miracle is garbled and read as inanimate things from context. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep29) | Episode / time | Reason | Gate failed | Override |
+| Opening greeting, supplication and closing of the opening prayer | ep29 00:00:00-00:01:00 | Greeting and prayer, not teaching | Content rule | Open |
+| Repeated loop on a single word | ep29 00:05:30-00:05:30 | Looped filler, no content | Clarity, Loop check | Open |
+| Loop and garbled stretch after the Prophet's character | ep29 00:10:30-00:10:30 | Looped filler | Clarity, Loop check | Open |
+| Digression on names (Hind, names with abd, naming children) | ep29 00:12:30-00:16:30 | Garbled, partly looped, cannot be recovered faithfully | Clarity, Loop check | Open |
+| Garbled stretch on a Bedouin visitor, the face of liars, and the Qur'an wording of a Quraysh leader | ep29 00:19:30-00:21:30 | Too garbled; also involves Qur'an wording | Clarity, Loop check | Open |
+| Loop on one syllable and on the word "the face" | ep29 00:20:00-00:20:00, 00:25:30-00:25:30, 00:27:30-00:27:30 | Looped filler | Clarity, Loop check | Open |
+| Poetry and aside on faces of women | ep29 00:26:00-00:26:30, 00:31:00-00:31:30 | Aside with demeaning generalisation and unclear verse | Voice rule, Clarity | Open |
+| Garbled report of Umar and a visitor, and of the Dajjal sign and a man's questions | ep29 00:34:30-00:36:00 | Too garbled to recover | Clarity, Loop check | Open |
+| Aside on contemporary peoples and skin colours | ep29 00:39:00-00:40:00 | Sweeping claim about peoples, with garbled wording | Voice rule, Clarity | Open |
+| Vision of God, Bedouin questions and a modern aside | ep29 00:41:30-00:44:00 | Too garbled to recover; includes looped filler | Clarity, Loop check | Open |
+| Dialect digression and Yemeni visitors | ep29 00:46:00-00:48:30 | Garbled | Clarity | Open |
+| Garbled stretch on the arms, palms and chest | ep29 00:52:00-00:55:00 | Too garbled to recover | Clarity, Loop check | Open |
+| Aside on depression and suicide in other lands | ep29 00:59:00-01:01:30 | Sweeping claim about peoples and modern society, garbled | Voice rule, Clarity | Open |
+| Garbled and looped stretches on tears, a battle story and Companions | ep29 01:02:00-01:04:30 | Too garbled and looped to recover | Clarity, Loop check | Open |
+| Garbled stretch on greeting of non-Muslims | ep29 01:05:30-01:06:00 | Too garbled; only the first-to-greet point kept | Clarity | Open |
+| Garbled stretch on Ali, a camel and a prayer for safety | ep29 01:14:00-01:15:00 | Too garbled to recover | Clarity | Open |
+| Looped filler and garbled questions on names Muhammad and Awf | ep29 01:15:30-01:15:30, 01:17:30-01:17:30 | Looped or too garbled to recover; the transcript ends on a closing aside | Clarity, Loop check | Open |
+| Detail dropped from three description bullets (speech pace and amount, chest, downhill gait) | ep29 00:49:00-00:49:30, 00:51:00, 00:58:30 | Not clearly supported by the garbled transcript | Clarity | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 30 (branch from origin/main).

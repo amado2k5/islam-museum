@@ -6,30 +6,32 @@ label:
 roles: [mufassir, muhaddith, scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لمحمد حجازي الواعظ، المفسر والمحدث المصري، توفي سنة ١٦٢٥م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Muhammad Hijazi al-Wa'iz, the Egyptian exegete and muhaddith, d. 1625; the biographical entry is not yet checked on the page."
+  ar: "محمد بن محمد بن عبد الله الأكراوي القلقشندي، المعروف بمحمد حجازي الواعظ، فقيه عالم بالتفسير والحديث، ولد في منزلة أكرى وسكن قلقشندة وتوفي في القاهرة؛ من 957هـ الموافقة 1550م إلى 1035هـ."
+  en: "Muhammad ibn Muhammad ibn Abdallah al-Akrawi al-Qalqashandi, known as Muhammad Hijazi al-Wa'iz, a jurist learned in exegesis and hadith, born at the station of Akra, living at Qalqashanda and dying in Cairo; 957 AH, 1550 CE, to 1035 AH (the entry gives 1625 CE; the card keeps 1626, the same Hijri year)."
 wings: [people]
 regions: [egypt-nile]
 periods: [period/gunpowder-empires]
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q87769349
   viaf: "299467657"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0088
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 occupations:
   - job: job/muhaddith
     kind: secondary
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/al-aalam]
-died: { edtf: "1626", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Khulasat al-Athar" }
+died: { edtf: "1626", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 7 p. 29: 1035 AH, which the entry renders 1625 CE; 1035 AH runs from October 1625 to September 1626, so the card's 1626 (Khulasat al-Athar) is kept.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+born: { edtf: "1550", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 7 p. 29: 957 AH = 1550 CE.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
   - { type: lived_in, target: place/hijaz, confidence: low, note: "Association inferred from the nisba in the name 'Muhammad Hijazi al-Wa'iz'; specific residence not individually documented.", sources: [source/al-aalam] }
+  - { type: died_in, target: place/cairo, note: "Al-Zirikli, al-A'lam vol. 7 p. 29: died in Cairo.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }

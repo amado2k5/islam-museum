@@ -14,3 +14,6 @@ Sayyid Sulayman al-Nadwi inclined to the view that the kings of the Ghassanid ho
 
 ## For young visitors
 Petra is an ancient city carved in rock; it was the capital of a strong people called the Nabataeans.
+
+## In Nomisma
+The Nomisma numismatic vocabulary links this entry to the concept «petra_arabia», and its linked collections record 88 coins or coin types that name it as issuer, authority or mint. {cite:nomisma petra_arabia}

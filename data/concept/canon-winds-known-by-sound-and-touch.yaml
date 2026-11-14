@@ -1,0 +1,18 @@
+id: concept/canon-winds-known-by-sound-and-touch
+class: concept
+kind: scientific
+label: { ar: "الاستدلال على الرياح بالصوت واللمس عند ابن سينا", en: "Knowing winds by sound and touch in the Canon", ur: "آواز اور لمس سے ریاح کی پہچان قانون میں" }
+summary:
+  ar: "يتم ابن سينا بيان الاستدلال على الرياح بالأصوات واللمس، ويبين أن الفرق بين النفخة والريح في هيئة الحركة لا في الجوهر {cite:canon-ibn-sina-print-v1 p.166}."
+  en: "Ibn Sina completes the ways of knowing winds with sound and touch, and says the difference between a puffing and a wind lies in the manner of motion and not in substance {cite:canon-ibn-sina-print-v1 p.166}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/disease, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, Ta'lim 3 chapters 5 to 11 and the opening of the pulse (scan pages 164 to 171), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-signs-pulse-1
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }
