@@ -750,3 +750,11 @@ Nothing is registered this turn. Each registration needs the three-part commit i
 - Left for later passes (single-concept matches, not yet linked, to keep the batch at 25): 15 more persons, 6 polities (mughal-empire, kingdom-of-france, holy-roman-empire, qara-qoyunlu, sasanian-empire, republic-of-venice), 20 regional places (for example syria, mesopotamia, cilicia, crete). Not linked on purpose: place/babil, place/askalan and place/sanaa; persons whose concept shares no name element with ours (jahan-shah-qaraqoyunlu, qalawun, kayqubad-i, hussein-kamel-of-egypt, qaytbay, farouk-of-egypt, sulayman-al-qanuni and others) until the spelling is checked by hand.
 - The script that inserts ids had a bug when `external_ids` came after `sources` in a file (it added a second key); it was caught by the file check before commit and fixed.
 
+## 2026-11-14 (p48, Lane B) — Biblissima batch 4: 16 more persons linked; founder list extended
+
+- Approval: dec-20261114-277. Method as batches 2 and 3: name search, accepted only when Biblissima's Wikidata statement P112 equals the Wikidata id on our record. Candidates 161 to 250 in the same order: 90 searched, 23 matched by id.
+- Linked (16, Biblissima ids): abu-dawud-al-sijistani Q15590, al-bakri-abu-ubayd Q106012, ibn-kathir Q105729, abd-al-ghani-al-maqdisi Q16802, firuz-shah-tughluq Q232279, ibn-taghribirdi-yusuf Q273, alishir-navai Q812, al-khatib-al-baghdadi-ahmad Q531, ibn-asakir Q16855, qutb-al-din-shirazi Q10899, qara-yusuf Q24664, ibn-al-jawzi Q16842, ibn-abd-al-barr Q16720, imad-al-din-al-isfahani Q12176, miran-shah Q232466, ibn-qutayba Q16815.
+- FOR THE FOUNDER, matched by id but not linked (7 more, so 21 in all with the 14 of the last note): al-shayhi (birth 1371/1376 ours, 1301 Biblissima), tansen (1493~ and 1506), kamal-khujandi (1320 and 1301), abu-l-layth-al-samarqandi (944 and 901); sanjar (Q232301), idris-bitlisi and hamdallah-mustawfi, where Biblissima holds no dates. Together with the 14 listed in p42 these 21 stay unlinked.
+- Date differences noticed, not changed: al-bakri-abu-ubayd birth 1041 and 1040; ibn-kathir 1302~ and 1301; ibn-taghribirdi-yusuf 1409 and 1411, death 1469 and 1470; ibn-abd-al-barr death 1071~ and 1070; qara-yusuf 1356~ and 1357; miran-shah 1366 and 1367.
+- Measured Arabic share: 0 of the 23 matched Biblissima records carries an Arabic-script label.
+
