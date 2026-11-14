@@ -1,0 +1,77 @@
+id: event/al-tarif-attack-al-hadi-at-atwa-on-1-rajab-and-the-hamdani-wing-gives-way-290
+class: event
+kind: other
+label:
+  ar: "هجوم آل طريف على الهادي بأتوة يوم أول رجب وانهزام ميمنته الهمدانية، رجب 290هـ"
+  en: "Al Tarif attack al-Hadi at Atwa on the first of Rajab and the Hamdani wing gives way, Rajab 290 AH"
+  ur: "رجب کے پہلے دن اتوہ میں آل طریف کا ہادی پر حملہ اور ہمدانی بازو کا ہٹ جانا، رجب 290ھ"
+summary:
+  ar: "سار آل طريف إلى أتوة يوم الثلاثاء أول رجب فعبّأ الهادي عسكره، الهمدانيون ميمنة والخولانيون ميسرة وهو في القلب مع الطبريين والعلويين، وسمّى الراوي من كان معه من العلويين يومئذ؛ ثم حملت ميسرته على ميمنتهم فطردتها، وتقدمت ميسرتهم إلى ميمنة الهادي فانهزمت من غير قتال بعد إشارة رجل من خيوان، بحسب الراوي، فصار القوم من وراء الهادي."
+  en: "Al Tarif marched on Atwa on Tuesday, the first of Rajab, and al-Hadi drew up his army, the Hamdanis on the right, the Khawlanis on the left and himself in the centre among the Tabaris and Alawites, and the narrator names the Alawites who were with him that day; his left wing then charged their right and drove it back, while their left advanced on al-Hadi's right, which gave way without fighting after a signal from a man of Khiwan, according to the narrator, so that the men got behind al-Hadi."
+  ur: "آل طریف منگل کے دن رجب کی پہلی کو اتوہ کی طرف بڑھے تو ہادی نے اپنا لشکر آراستہ کیا، دائیں بازو پر ہمدانی اور بائیں پر خولانی اور خود وسط میں طبریوں اور علویوں کے ساتھ، اور راوی ان علویوں کے نام لیتا ہے جو اس دن ان کے ساتھ تھے؛ پھر ان کے بائیں بازو نے ان کے دائیں پر حملہ کر کے اسے ہٹایا، جبکہ ان کا بایاں ہادی کے دائیں کی طرف بڑھا اور راوی کے مطابق خیوان کے ایک شخص کے اشارے پر لڑے بغیر ہٹ گیا، یوں مخالف ہادی کے پیچھے پہنچ گئے۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0903-05"
+    hijri: "0290-07"
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: "رجب سنة 290هـ؛ يوم الثلاثاء أول رجب بنص الكتاب، والتقويم الجدولي يجعل أول رجب الاثنين، فالدقة شهرية؛ السنة مستنتجة من الترتيب؛ التحويل مشتق"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-tarif
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-hamdan
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/khawlan-tribe
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/tabari-emigrants-with-al-hadi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abdullah-ibn-al-husayn-al-rassi
+  role: "أخو الهادي"
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/al-murtada-muhammad
+  role: "أبو القاسم ابن الهادي، محتمل"
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/atwa-yemen
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص247-248 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-29
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 247-248
