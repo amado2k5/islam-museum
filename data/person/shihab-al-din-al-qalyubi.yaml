@@ -6,24 +6,24 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لشهاب الدين أحمد القليوبي، فقيه مصر الشافعي في القرن السابع عشر، توفي سنة ١٦٥٩م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Shihab al-Din Ahmad al-Qalyubi, the seventeenth-century Shafi'i jurist of Egypt, d. 1659; the biographical entry is not yet checked on the page."
+  ar: "أحمد بن أحمد بن سلامة، أبو العباس، شهاب الدين القليوبي، فقيه متأدب من قليوب في مصر، له حواش وشروح ورسائل، منها «تحفة الراغب» في تراجم جماعة من أهل البيت و«أوراق لطيفة» على «الجامع الصغير» للسيوطي، وتوفي سنة 1069 هـ ⁦(1659 م)⁩."
+  en: "Ahmad ibn Ahmad ibn Salama, Abu al-Abbas, Shihab al-Din al-Qalyubi, a jurist of literary taste from Qalyub in Egypt, author of glosses, commentaries and treatises, among them Tuhfat al-Raghib on biographies of a group of the Prophet's family and Awraq Latifa on al-Suyuti's al-Jami al-Saghir; died 1069 AH (1659 CE)."
 wings: [people]
 regions: [egypt-nile]
 periods: [period/gunpowder-empires]
 died: { edtf: "1659", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam Confirmed on 13 November 2026 against Wikidata Q16123954 (P570, a statement with a reference), item revision 2566472580.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/qalyub, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q336724)" }
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q16123954
   viaf: "24589357"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0049
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002 (vol. 1 pp. 91-92), entry read in full from the local OpenITI text; Wikidata candidate Q16123954"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3

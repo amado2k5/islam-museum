@@ -7,8 +7,8 @@ label:
 roles: [scholar, writer]
 gender: male
 summary:
-  ar: "بطاقة أولية لشمس الأئمة محمد بن أحمد السرخسي، إمام الحنفية صاحب «المبسوط» في الفقه و«أصول الفقه»، توفي سنة ١٠٩٠م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Shams al-A'imma Muhammad ibn Ahmad al-Sarakhsi, the Hanafi imam author of al-Mabsut and the Usul al-Fiqh, d. 1090; the biographical entry is not yet checked on the page."
+  ar: "محمد بن أحمد بن سهل، أبو بكر، شمس الأئمة السرخسي، قاضٍ من كبار الحنفية ومجتهد، صاحب «المبسوط» أملاه وهو سجين بالجب في أوزجند؛ توفي سنة 483 هـ، الموافقة 1090 م {cite:alam-zirikli-dar-al-ilm-2002 vol. 5 p. 315}."
+  en: "Muhammad ibn Ahmad ibn Sahl, Abu Bakr, Shams al-A'imma al-Sarakhsi, a judge, one of the great Hanafis and a mujtahid, who dictated al-Mabsut while imprisoned in the well at Uzjand; died 483 AH, 1090 CE as printed {cite:alam-zirikli-dar-al-ilm-2002 vol. 5 p. 315}."
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/buyid-seljuk-fatimid-era]
@@ -18,13 +18,14 @@ external_ids:
   viaf: "95675955"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: Ibn al-Imad, Shadharat al-Dhahab — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0021
+  source: "al-Zirikli, al-A'lam vol. 5 p. 315"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-m01-2026-11-14
 status:
   review: draft
-  completeness: 1
-died: { edtf: "1090", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Confirmed on 13 November 2026 against Wikidata Q579171 (P570, a statement with a reference), item revision 2560281962.", sources: [source/wikidata] }
+  completeness: 2
+died: { edtf: "1090", hijri: "0483", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Confirmed on 13 November 2026 against Wikidata Q579171 (P570, a statement with a reference), item revision 2560281962.", sources: [source/wikidata] }
 relations:
-  - { type: lived_in, target: place/sarakhs, confidence: low, note: "Association inferred from the nisba 'السرخسي'; specific birthplace or residence is not individually documented.", sources: [source/shadharat-dhahab] }
+  - { type: lived_in, target: place/sarakhs, confidence: medium, note: "From the nisba; al-Zirikli calls him a man of Sarakhs in Khurasan.", sources: [source/shadharat-dhahab, source/alam-zirikli-dar-al-ilm-2002] }
+  - { type: lived_in, target: place/farghana, confidence: high, note: "al-Zirikli: after his release he settled in Farghana until he died; he was imprisoned at Uzjand in Farghana.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
