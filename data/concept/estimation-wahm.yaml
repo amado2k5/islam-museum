@@ -1,0 +1,18 @@
+id: concept/estimation-wahm
+class: concept
+kind: scientific
+label: { ar: "القوة الوهمية عند ابن سينا", en: "The estimative power (wahm) in the Canon", ur: "قانون میں وہم کی قوت" }
+summary:
+  ar: "الوهم عند ابن سينا قوة تحكم في المحسوسات بمعان غير محسوسة، كحكم الحيوان بأن الذئب عدو، وتفارق الخيال والمتخيلة بأن أفعالها أحكام، ولا يتعرض الطبيب لتعرفها لأن مضارها تتبع مضار قوى قبلها {cite:canon-ibn-sina-print-v1 pp.100-101}."
+  en: "Estimation in Ibn Sina is the power that judges about sensibles by meanings that are not sensible, as an animal judges that the wolf is an enemy; it differs from imagination and the imaginative power in that its acts are judgments, and the physician does not study it because its harms follow harms to the powers before it {cite:canon-ibn-sina-print-v1 pp.100-101}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/powers-and-actions, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 1 end and Fann 2 opening (scan pages 99 to 105), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-faculties-3
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }
