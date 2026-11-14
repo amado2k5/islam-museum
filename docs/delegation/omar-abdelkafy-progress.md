@@ -4308,3 +4308,16 @@ Resume point: sharh-saheeh-al-bukhare episode 32 (branch from origin/main).
 | Dropped in review (ep32): mountain and date-palm light on the Path, pushing latecomers in the rows, and the claim that Umar's gathering is rooted in the Prophet's practice | ep32 00:26:00-00:27:30; 00:03:00-00:04:00; 00:36:00-00:36:30 | Not supported by the transcript | Clarity | Open |
 
 Resume point: sharh-saheeh-al-bukhare episode 33 (branch from origin/main).
+
+### alwaad-alhaq ep24 (14 Nov 2026)
+
+21 points written for episode 24 (ar, en, ur); 15 needs_source marks for this episode in each language file; concept and person links added for the reckoning, the scale, intercession, the praised station, patience, grievances, the basin, Adam, Nuh, Ibrahim, Isa, Talha ibn Ubaydullah and al-Hasan al-Basri. Quran verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
+
+| Excluded (alwaad-alhaq ep24) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening recitation, greetings and the studio remark about the pages written | ep24 00:00:00-00:02:30; 00:46:00 | Not lesson content | Content rule | Open |
+| Abu Bakr named as first among those entering without reckoning, and a list of beasts including dinosaurs | ep24 00:19:30; 00:05:30 | Garbled and not supported by the transcript | Clarity | Open |
+| Years-per-scroll figure and remarks on the number of those denying a Lord | ep24 00:46:30; 00:45:00 | Garbled transcript, unsourced statistics | Clarity / Content rule | Open |
+| Loops and garbled stretches | ep24 00:03:00; 00:11:00; 00:30:30-00:31:00; 00:39:00; 00:41:00-00:41:30; 00:45:30; 00:49:00-00:51:00; 00:51:00 | Repeated token loops or unrecoverable ASR | Clarity, Loop check | Open |
+
+Resume point: alwaad-alhaq episode 25 (branch from origin/main).
