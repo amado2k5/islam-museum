@@ -25,8 +25,8 @@ relations:
   - { type: died_in, target: place/baghdad, note: "Wikidata Q1530 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: lived_in, target: place/abbasid-caliphate, note: "Wikidata Q12536 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: participated_in, target: event/death-of-mustansir-640, role: "المتوفى", sources: [source/shadharat-dhahab] }
-external_ids: { wikidata: "Q293545" }
-sources: [source/tarikh-khulafa-minhaj-1434, source/shadharat-dhahab, source/wikidata]
+external_ids: { wikidata: "Q293545", nomisma: "al-mustansir_baghdad" }
+sources: [source/tarikh-khulafa-minhaj-1434, source/shadharat-dhahab, source/wikidata, source/nomisma]
 importance: 2
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
 story_roles:
