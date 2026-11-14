@@ -3165,6 +3165,16 @@ Resume point: min-kunuz-al-sunnah episode 19 (branch from origin/main).
 
 Resume point: min-kunuz-al-sunnah episode 20 (branch from origin/main).
 
+### alwaad-alhaq ep05 (14 Nov 2026)
+
+19 points written for episode 5 (ar, en, ur); 16 needs_source marks for this episode in each language file; edges to discretionary punishment, hijab, Gog and Magog and the splitting of the moon. Quran verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
+
+| Excluded (alwaad-alhaq ep05) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| A story of a wolf and a man called Ahban, kept only with a needs_source mark | ep05 00:43:00 | told without a chain and the transcript is garbled; kept as a marked report | needs_source | Open |
+| ASR passages at 00:25:00 to 00:26:30 and 00:30:30 to 00:32:30 not written | ep05 00:25:00 | transcript is unintelligible or looped, no claim can be checked | accuracy | Open |
+
+Resume point: alwaad-alhaq episode 6 (branch from origin/main).
 ### min-kunuz-al-sunnah ep20 (14 Nov 2026)
 
 14 points written for episode 20 (ar, en, ur); 11 needs_source marks in each language file for this episode; 7 new `about` edges. Quran verses referenced only through passage links (3-164, 68-4, 6-162, 14-24, 14-26, 14-27, 2-254, 51-26, 51-27); none typed. Contested: He holds that rulings change with time, place and people, proposes a weekly standard-Arabic day for institutions, and gives his own applications of neighbour and guest etiquette; all are his views and are marked as such.
@@ -3194,3 +3204,66 @@ Resume point: min-kunuz-al-sunnah episode 21 (branch from origin/main).
 | Third pillar of faith | ep21 00:12:00-00:13:00 | The third of the three pillars is not stated in the transcript | Clarity, Loop check | Open |
 
 Resume point: min-kunuz-al-sunnah episode 22 (branch from origin/main).
+
+### min-kunuz-al-sunnah ep22 (14 Nov 2026)
+
+15 points written for episode 22 (ar, en, ur); 10 needs_source marks in each language file for this episode; 7 new `about` edges. Quran verses referenced only through passage links (39-42); none typed. Contested: He holds that provision is a wide encyclopedia with money its last page, that dawn-prayer timing affects blessing in provision, that a hormone claim ties happiness to night sleep, and that a person is compelled in what he is not reckoned for and free in what he is; these are his views.
+
+| Excluded (min-kunuz-al-sunnah ep22) | Episode / time | Reason | Gate failed | Override |
+| Greetings, praise and opening prayer | ep22 00:00:00-00:00:30 | Opening formula, no content | Content rule | Open |
+| Break join and welcome back | ep22 00:08:00-00:08:30, 00:16:00-00:16:30 | Break announcements and greetings | Content rule | Open |
+| Closing prayer for sincere intentions | ep22 00:24:30-00:25:00 | Closing prayer, not lesson content | Content rule | Open |
+| Remark about the faces of Arabs and a comparison with the West on life as one chance | ep22 00:11:30-00:12:00, 00:15:30-00:16:00 | Sweeping claim about peoples | Voice rule | Open |
+| Satellite dish tuning analogy | ep22 00:23:30-00:24:00 | Garbled aside, not recoverable | Clarity | Open |
+| Repeated filler characters | ep22 00:23:00-00:23:30 | Loop in the transcript | Loop check | Open |
+
+Resume point: min-kunuz-al-sunnah episode 23 (branch from origin/main).
+
+### min-kunuz-al-sunnah ep23 (14 Nov 2026)
+
+14 points written for episode 23 (ar, en, ur); 9 needs_source marks in each language file for this episode; 3 new `about` edges. Quran verses referenced only through passage links (6-153, 42-13, 27-44, 3-52, 2-133, 3-85, 18-39); none typed. Contested: He holds that standing for others as a local custom contradicts no creed, that Islam in a wide sense is the religion of all prophets, and that Muslims should be ashamed of Ramadan habits; these are his views, and the "forty days" claim about doubtful food is unreferenced.
+
+| Excluded (min-kunuz-al-sunnah ep23) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greeting and invocation, closing prayer and farewell | ep23 00:00:00-00:00:30, 00:25:00-00:25:30 | Greetings and closing prayer, not lesson content | Content rule | Open |
+| Break join and welcome back | ep23 00:16:30-00:17:00 | Break join | Content rule | Open |
+| Claim that "the Westerners" take haya to be shyness and that translations get it wrong, as a sweeping claim about peoples (kept only the neutral point that translations render it poorly) | ep23 00:08:30-00:09:00 | Sweeping claim about a people | Voice rule | Open |
+| Repeated filler particles and looped syllables inside the lines | ep23 00:02:00-00:02:30, 00:04:00-00:04:30 | Loop, text unrecoverable | Clarity, Loop check | Open |
+| Garbled allusion on the stare of unbelievers and a garbled saying on counting faults | ep23 00:03:30-00:04:00, 00:02:00-00:02:30 | Too garbled to identify with certainty | Clarity, Loop check | Open |
+| Garbled wording inside the Abu Jahl report | ep23 00:11:30-00:12:00 | Partly garbled, only the recoverable point kept | Clarity, Loop check | Open |
+| Garbled sentences on what tempts unbelievers and devils of men and jinn | ep23 00:23:30-00:24:00 | Garbled, sweeping | Clarity, Loop check | Open |
+
+Resume point: min-kunuz-al-sunnah episode 24 (branch from origin/main).
+
+### min-kunuz-al-sunnah ep24 (14 Nov 2026)
+
+14 points written for episode 24 (ar, en, ur); 10 needs_source marks in each language file for this episode; 5 new `about` edges. Quran verses referenced only through passage links (4-148); none typed. Contested: He holds that lying is permitted in three cases (to please a wife, in war, to reconcile people) and gives his own readings of Ibrahim's three statements and of what counts as war; these are his views, and scholars discuss the scope of the three exceptions.
+
+| Excluded (min-kunuz-al-sunnah ep24) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Greetings, opening praise and invocation | ep24 00:00:00-00:00:30 | Opening formula, no teaching content | Content rule | Open |
+| Break join, return greeting and closing prayer | ep24 00:08:30-00:09:30, 00:17:30-00:18:00, 00:27:00-00:27:30 | Break joins, farewell and closing prayer | Content rule | Open |
+| Generalisations about women's emotions and about husbands and wives comparisons (storm, sea bird) | ep24 00:02:30-00:04:00 | Sweeping claims about women | Voice rule | Open |
+| Jokes about colleagues and news presenters, and about husbands hiding accounts | ep24 00:04:00-00:04:30, 00:06:30-00:07:30 | Mocking, not substantive | Voice rule | Open |
+| Description of occupation and invasion of Muslim lands as the setting of war | ep24 00:10:30-00:12:00 | Sweeping claim about modern conflict | Voice rule | Open |
+| Waiting period and a wife leaving the home after divorce, with remarks on spouses | ep24 00:16:00-00:17:30 | Garbled and sweeping about spouses | Clarity, Loop check | Open |
+| Repeated letter loop | ep24 00:07:30 | Loop of one letter, nothing recoverable | Clarity, Loop check | Open |
+| Garbled passage on the wife's mother and the judge | ep24 00:19:00-00:19:30 | Too garbled to recover | Clarity, Loop check | Open |
+
+Resume point: min-kunuz-al-sunnah episode 25 (branch from origin/main).
+
+### min-kunuz-al-sunnah ep25 (14 Nov 2026)
+
+13 points written for episode 25 (ar, en, ur); 9 needs_source marks in each language file for this episode; 3 new `about` edges. Quran verses referenced only through passage links (19-43, 40-28, 3-110); none typed. Contested: He gives a view on how advice should be delivered (privately, gently, briefly, fitted to the listener) and applies it to rulers and to youths raised in the West; these are his opinions, and the stories and sayings he tells carry no chains.
+
+| Excluded (min-kunuz-al-sunnah ep25) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Greeting, opening prayer, break joins and closing prayer | ep25 00:00:00-00:00:30, 00:08:30-00:09:00, 00:17:00-00:17:30, 00:24:30 | Not substantive teaching | Content rule | Open |
+| Claim that the Arab man never accepts a wife's advice and the Arab claims to know everything | ep25 00:04:00-00:04:30, 00:08:00-00:08:30 | Sweeping generalisation about a people and about women | Voice rule | Open |
+| Remark that some officials in Arab and Muslim countries speak for four or five hours | ep25 00:06:30-00:07:00 | Sweeping claim about rulers and states | Voice rule | Open |
+| Remark about flatterers around rulers | ep25 00:22:30-00:23:00 | Sweeping claim about a group, garbled | Voice rule | Open |
+| Looping stretch of repeated letters | ep25 00:11:00-00:11:30 | ASR loop, text lost | Clarity, Loop check | Open |
+| Looping stretch of repeated letters | ep25 00:18:00-00:18:30 | ASR loop, text lost | Clarity, Loop check | Open |
+| Garbled phrases on typing and writing media | ep25 00:11:30-00:12:00 | Words unclear (kept only the general point on generations) | Clarity, Loop check | Open |
+
+Resume point: min-kunuz-al-sunnah episode 26 (branch from origin/main).

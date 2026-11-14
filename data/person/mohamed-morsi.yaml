@@ -42,12 +42,13 @@ relations:
   - { type: buried_in, target: place/cairo, sources: [source/wikipedia-mohamed-morsi-en] }
 wings: [people]
 regions: [egypt-nile]
-external_ids: { wikidata: "Q4631" }
+external_ids: { wikidata: "Q4631", viaf: "292625617" }
 sources:
   - source/wikipedia-mohamed-morsi-en
   - source/wikipedia-mohamed-morsi-ar
   - source/wikipedia-mohamed-morsi-ur
   - source/wikidata-mohamed-morsi
+  - source/wikidata
 provenance:
   layer: own-research
   source: "Wikipedia articles on Mohamed Morsi in English (revision 1381239125 of 20 Oct 2026), Arabic (revision 77064513 of 25 Oct 2026) and Urdu (revision 12035914 of 26 Sep 2026) and the Wikidata item Q4631 (item revision 2558174055 of 18 Oct 2026, read twice with identical results), each fetched by its recorded revision id via the MediaWiki API and asserted equal to it (27 October 2026). The QID was grounded through the articles' own page properties (all three agree on Q4631). Existence checked both directions before writing: name fragments in Latin and Arabic scripts across data/person/, the QID grepped across all of data/person/, biographical comparison, and candidate records' provenance — no prior record of the man existed (the Morsi name-fragment hits are mentions inside other men's records). No successor_of edge to Hosni Mubarak is written: both the English and Arabic infoboxes mark Mohamed Hussein Tantawi and the Supreme Council of the Armed Forces period as the intervening holder — the Arabic infobox expressly gives Mubarak only as the de facto predecessor — so the direct sequence the predicate requires does not hold, the same treatment as Mubarak's own record. No member_of edge is written: the museum has no group entity for the Muslim Brotherhood or for the Freedom and Justice Party."

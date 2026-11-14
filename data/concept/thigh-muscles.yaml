@@ -1,0 +1,18 @@
+id: concept/thigh-muscles
+class: concept
+kind: scientific
+label: { ar: "عضل حركة الفخذ عند ابن سينا", en: "Muscles that move the thigh in the Canon", ur: "قانون میں ران کو حرکت دینے والے پٹھے" }
+summary:
+  ar: "يرى ابن سينا أن أعظم عضل الفخذ هي التي تبسطه ثم التي تقبضه، لأن أشرف أفعالها هاتان الحركتان، والبسط أفضل لأن القيام إنما يتأتى به {cite:canon-ibn-sina-print-v1 p.74}."
+  en: "Ibn Sina holds that the greatest muscles of the thigh are those that straighten it and then those that bend it, since these two movements are its noblest actions, straightening being the better since standing is accomplished by it {cite:canon-ibn-sina-print-v1 p.74}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/muscles, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 1, Jumlas 2 and 3 on muscles and nerves (scan pages 72 to 78), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-muscles-3
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

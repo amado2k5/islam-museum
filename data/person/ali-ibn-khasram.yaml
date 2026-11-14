@@ -6,23 +6,23 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لعلي بن خشرم الكوفي، من ثقات المحدثين؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ali ibn Khasram of Kufa, a trustworthy hadith transmitter; his entry is not yet checked on the page."
+  ar: "علي بن خشرم بن عبد الرحمن المروزي، أبو الحسن، حافظ صدوق وابن أخت بشر الحافي، روى عنه مسلم والترمذي والنسائي؛ توفي في رمضان سنة ٢٥٧هـ."
+  en: "Ali ibn Khashram ibn Abd al-Rahman al-Marwazi, Abu al-Hasan, a truthful memoriser and nephew of Bishr al-Hafi on his mother's side, from whom Muslim, al-Tirmidhi and al-Nasa'i narrated; he died in Ramadan 257 AH."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
-died: { edtf: "0870", precision: year, status: tradition, derived: true }
-sources: [source/al-aalam]
+died: { edtf: "871", calendar: gregorian, precision: year, derived: true, note: "Siyar A'lam al-Nubala (al-Dhahabi), p. 2778: d. Ramadan 257 AH" }
+sources: [source/al-aalam, source/siyar-alam-nubala-ideas-house]
 external_ids:
   wikidata: Q106713894
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Dhahabi, Siyar A'lam al-Nubala, one-volume edition (Bayt al-Afkar al-Dawliyya), entry read in full on the scanned pages (Apple Vision OCR on the harvest drive); the web page of the Risala edition on shamela.ws (book 10906) was used to confirm the work and its volume layout"
+  generated_by: "Claude Code (Lane B2, web-source and Shamela enrichment)"
+  model: claude-sonnet-5-5
+  run: web-b2-siyar-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 relations:
-  - { type: lived_in, target: place/kufa, note: "Place association from the person's nisba/name (الكوفي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
+  - { type: lived_in, target: place/merv, confidence: medium, note: "Al-Dhahabi gives his nisba as al-Marwazi (of Merv); the earlier Kufa link came from a mistaken nisba and is replaced.", sources: [source/siyar-alam-nubala-ideas-house] }

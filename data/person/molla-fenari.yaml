@@ -15,9 +15,10 @@ born: { edtf: "1350", calendar: gregorian, precision: year, derived: true, note:
 died: { edtf: "1431", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Confirmed on 13 November 2026 against Wikidata Q6896332 (P570, a statement with a reference), item revision 2542094877.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/bursa, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q40738)" }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/biblissima]
 external_ids:
   wikidata: Q6896332
+  biblissima: "Q317098"
 provenance:
   layer: own-research
   source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"

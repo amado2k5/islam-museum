@@ -6,24 +6,23 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لبشار بن موسى؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Bashar ibn Musa; the entry is not yet checked on the page."
+  ar: "بشار بن موسى العجلي الخفاف البصري، أبو عثمان، نزيل بغداد، محدث اختلف النقاد في توثيقه؛ توفي سنة ٢٢٨هـ في قول."
+  en: "Bashshar ibn Musa al-Ijli al-Khaffaf of Basra, Abu Uthman, who settled in Baghdad, a hadith scholar whose reliability the critics disputed; he died in 228 AH according to one report."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
-born: { edtf: "796", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Tarikh al-Islam)" }
-died: { edtf: "887", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Tarikh al-Islam)" }
+died: { edtf: "843", calendar: gregorian, precision: year, derived: true, note: "Siyar A'lam al-Nubala (al-Dhahabi), p. 1203: d. 228 AH (reported, 'qila'); the card's earlier death year 887 and birth year 796 are not supported by the book and the birth is removed" }
 relations:
   - { type: lived_in, target: place/iraq, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/al-aalam] }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/siyar-alam-nubala-ideas-house]
 external_ids:
   wikidata: Q12198456
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Dhahabi, Siyar A'lam al-Nubala, one-volume edition (Bayt al-Afkar al-Dawliyya), entry read in full on the scanned pages (Apple Vision OCR on the harvest drive); the web page of the Risala edition on shamela.ws (book 10906) was used to confirm the work and its volume layout"
+  generated_by: "Claude Code (Lane B2, web-source and Shamela enrichment)"
+  model: claude-sonnet-5-5
+  run: web-b2-siyar-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
