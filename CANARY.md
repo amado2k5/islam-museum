@@ -15,6 +15,7 @@ open a new block on top with the new version and today's date.
 
 ## v1.30.1 — 2026-11-14
 ### Added
+- **The footer now links the museum's Telegram.** The museum's Telegram channel (@islam_museum, https://t.me/islam_museum) joins the official accounts in the footer of every page — X, WhatsApp, TikTok, YouTube, Instagram and Facebook — so readers who follow the museum day by day can now reach its Telegram channel from the site as well.
 - **Yaqut's Mu'jam al-Buldan now speaks on seven more place pages (packet 68).** Cordoba, Adhruh, Raydah, Harasta, Samasta, Haditha (of the Euphrates) and Sabalan each gain an Arabic, English and Urdu section summarising Yaqut's entry, cited to the Dar Sader volume and page. Cordoba, Harasta and Haditha get their first prose page. Three cards (Oman, al-Sayla, al-Miyanij) were skipped because Yaqut's headword is a different or unclear place; they are logged for outside research.
 
 ### Fixed
