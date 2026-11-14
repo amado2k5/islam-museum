@@ -19,8 +19,8 @@ relations:
   - { type: died_in, target: place/constantinople, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: child_of, target: person/murad-iii-uthmani, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: successor_of, target: person/murad-iii-uthmani, sources: [source/dawlat-uthmaniyya-salabi] }
-external_ids: { wikidata: "Q171465", nomisma: "mehmed_iii" }
-sources: [source/dawlat-uthmaniyya-salabi, source/nomisma]
+external_ids: { wikidata: "Q171465", nomisma: "mehmed_iii", viaf: "30481339" }
+sources: [source/dawlat-uthmaniyya-salabi, source/nomisma, source/wikidata]
 provenance:
   layer: own-research
   source: "الدولة العثمانية لعلي محمد الصلابي ⁦(ط1 1421)⁩ ص 295-296"

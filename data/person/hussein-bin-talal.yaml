@@ -40,12 +40,13 @@ relations:
   - { type: buried_in, target: building/raghadan-palace, sources: [source/wikipedia-hussein-bin-talal-en] }
 wings: [people]
 regions: [levant-iraq]
-external_ids: { wikidata: "Q146906" }
+external_ids: { wikidata: "Q146906", viaf: "12340" }
 sources:
   - source/wikipedia-hussein-bin-talal-en
   - source/wikipedia-hussein-bin-talal-ar
   - source/wikipedia-hussein-bin-talal-ur
   - source/wikidata-hussein-bin-talal
+  - source/wikidata
 provenance:
   layer: own-research
   source: "Wikipedia articles on Hussein bin Talal in English (revision 1382123732 of 26 Oct 2026), Arabic (revision 76672845 of 22 Sep 2026) and Urdu (revision 9024354 of 11 Aug 2025) and the Wikidata item Q146906 (item revision 2557926257 of 17 Oct 2026, read twice with identical results), each fetched by its recorded revision id via the MediaWiki API and asserted equal to it (27 October 2026). Existence checked both directions before writing: name fragments in English, Arabic and Urdu scripts across data/person/, the QID grepped across all of data/person/, biographical comparison, and record provenances — no prior record of the man existed; ali-bin-hussein-al-hashimi on file is his great-uncle, a different man. SUCCESSION VERIFIED against the articles, as the run brief required: parliament deposed his father Talal for illness and Hussein acceded on 11 August 1952, a regency council serving until his majority on 2 May 1953 — a regency is not an interim reign, and no other holder intervened. His father has no museum record, so no successor_of or child_of edge can be written. His successor Abdullah II has a record, but the successor_of edge belongs in the successor's own record and is not written from here. No Jordanian Hashemite group entity exists (banu-hashim is the wider clan and hashemite-dynasty-iraq is the Iraqi branch), so no member_of edge is written."

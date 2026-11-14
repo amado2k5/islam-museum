@@ -16,8 +16,8 @@ regions: [anatolia-balkans]
 relations:
   - { type: child_of, target: person/artughrul, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: ruler_of, target: place/bursa, sources: [source/dawlat-uthmaniyya-salabi] }
-external_ids: { wikidata: "Q83100" }
-sources: [source/dawlat-uthmaniyya-salabi]
+external_ids: { wikidata: "Q83100", viaf: "41748429" }
+sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
 provenance:
   layer: own-research
   source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 45-52"

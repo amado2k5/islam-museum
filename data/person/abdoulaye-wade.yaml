@@ -36,8 +36,8 @@ relations:
   - type: successor_of
     target: person/abdou-diouf
     sources: [source/wikipedia-abdoulaye-wade-en, source/wikipedia-abdoulaye-wade-fr]
-external_ids: { wikidata: "Q106963" }
-sources: [source/wikipedia-abdoulaye-wade-en, source/wikipedia-abdoulaye-wade-ar, source/wikipedia-abdoulaye-wade-fr, source/wikidata-abdoulaye-wade]
+external_ids: { wikidata: "Q106963", viaf: "43769" }
+sources: [source/wikipedia-abdoulaye-wade-en, source/wikipedia-abdoulaye-wade-ar, source/wikipedia-abdoulaye-wade-fr, source/wikidata-abdoulaye-wade, source/wikidata]
 provenance:
   layer: own-research
   source: "English Wikipedia revision 1382134478 of 26 October 2026, Arabic revision 75250491 of 9 June 2026 and French revision 240153127 of 7 October 2026, each fetched on 26 October 2026 by its recorded revision id and asserted equal to it; Wikidata item Q106963 revision 2557344975 of 15 October 2026, read from the Wikidata API. There is no Urdu article and no Urdu sitelink; the Urdu prose and label are written from the English, Arabic and French sources. The man was verified absent from the museum in both directions: no person file matches his name in any script, and no museum record carries Q106963. His living status is taken from the sources as fetched — the English revision of 26 October 2026 lists him among living people with no death recorded, and he turned one hundred on 29 May 2026 — rather than assumed. No place entity exists for Kébémer, so no born_in relation; the museum has no Mouride group entity, so his documented brotherhood membership is carried in the faith note and no member_of relation is written; his succession from Abdou Diouf (written in this same batch) is written as a relation."

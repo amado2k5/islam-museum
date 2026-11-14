@@ -29,8 +29,8 @@ faith:
     basis: unknown
     note: "Absence configuration. No article text in the English, Arabic or Urdu edition names any religion or affiliation for him, no infobox carries a religion field, and Wikidata carries no religion claim at all (no P140). His father's Bangladeshi origin and his family name are family background, never attestations. Nothing exists to record, so the value is unknown, unflagged."
     sources: [source/wikipedia-jawed-karim-en, source/wikipedia-jawed-karim-ar, source/wikipedia-jawed-karim-ur, source/wikidata-jawed-karim]
-external_ids: { wikidata: "Q76694" }
-sources: [source/wikipedia-jawed-karim-en, source/wikipedia-jawed-karim-ar, source/wikipedia-jawed-karim-ur, source/wikidata-jawed-karim]
+external_ids: { wikidata: "Q76694", viaf: "11780106" }
+sources: [source/wikipedia-jawed-karim-en, source/wikipedia-jawed-karim-ar, source/wikipedia-jawed-karim-ur, source/wikidata-jawed-karim, source/wikidata]
 provenance:
   layer: own-research
   source: "Built 27 October 2026 for wave 104 §A of the century-additions queue (queue line 570) from the English, Arabic and Urdu Wikipedia articles and the Wikidata item named in the sources list, each fetched by the recorded revision and asserted equal to it, the Wikidata item read twice with identical results and its QID (Q76694) grounded through the English article's pageprops. Existence checked both ways before building: name-fragment and slug-variant greps (jawed, karim) across data/person/ returned other Karims and no record for him — his biography (YouTube co-founder, born 1979 in Merseburg) matches none of them — and Q76694 appears in no existing person record. His Arabic label (جاود كريم) is not shared with any existing record, so no homonym entry is needed. No relations are written: Merseburg has no museum place entity, his co-founders Steve Chen and Chad Hurley have no museum records, and no founder_of edge is written for YouTube because no group entity for YouTube exists; the founding is stated in the summary and prose instead. His faith is recorded unknown, absence configuration, as set out in the faith note. He is recorded as living; no edition reports a death."

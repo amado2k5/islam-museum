@@ -43,8 +43,8 @@ relations:
   - { type: died_in, target: place/cairo, sources: [source/wikipedia-idris-senussi-en, source/wikipedia-idris-senussi-ar] }
   - { type: buried_in, target: place/medina, sources: [source/wikipedia-idris-senussi-en, source/wikipedia-idris-senussi-ar] }
   - { type: child_of, target: person/muhammad-al-mahdi-al-sanusi, sources: [source/wikipedia-idris-senussi-en, source/wikipedia-idris-senussi-ar] }
-external_ids: { wikidata: "Q116430" }
-sources: [source/wikipedia-idris-senussi-fr, source/wikipedia-idris-senussi-ar, source/wikipedia-idris-senussi-en, source/wikipedia-idris-senussi-ur, source/wikidata-idris-senussi]
+external_ids: { wikidata: "Q116430", viaf: "264238289" }
+sources: [source/wikipedia-idris-senussi-fr, source/wikipedia-idris-senussi-ar, source/wikipedia-idris-senussi-en, source/wikipedia-idris-senussi-ur, source/wikidata-idris-senussi, source/wikidata]
 provenance:
   layer: own-research
   source: "English, French, Arabic and Urdu Wikipedia articles on Idris of Libya, each fetched by its recorded revision id (EN 1377749507, FR 240485727, AR 76339850, UR 11477398) with the returned id asserted equal before use, and Wikidata item Q116430 (revision 2558581482). Existence checks by name fragments (Senussi, al-Sanusi, Idris, السنوسي, إدريس) and by QID across data/person and data/source found no prior record for Idris himself; his father Muhammad al-Mahdi al-Sanusi and his grandfather Muhammad ibn Ali al-Sanusi, founder of the order, already have records and are different people. The lane queue gives 1889–1983; the birth year is contested (1890 in several witnesses) and is recorded as debated."
