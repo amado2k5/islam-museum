@@ -3,26 +3,35 @@ class: person
 label:
   ar: "أبو أحمد عسال"
   en: "Abu Ahmad Assal"
-roles: [scholar]
+roles: [scholar, muhaddith, qadi]
 gender: male
 summary:
-  ar: "بطاقة أولية لأبي أحمد عسال، محدث مصر وقاضيها في القرن الرابع؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abu Ahmad Assal, a tenth-century Egyptian muhaddith and judge; his entry is not yet checked on the page."
+  ar: "محمد بن أحمد بن إبراهيم الأصبهاني، أبو أحمد العسال، قاضي أصبهان وحافظ متقن من أئمة الحديث، رحل إلى الحرمين وبغداد والكوفة والبصرة وواسط والري وخوزستان، وله الشيوخ والتفسير والتاريخ والمسند وغريب الحديث، توفي في رمضان سنة 349 هـ."
+  en: "Muhammad ibn Ahmad ibn Ibrahim al-Isfahani, Abu Ahmad al-Assal, judge of Isfahan and a precise hadith hafiz, who travelled to the two sanctuaries, Baghdad, Kufa, Basra, Wasit, Rayy and Khuzistan and wrote al-Shuyukh, a tafsir, a history, a Musnad and Gharib al-Hadith; died in Ramadan 349 AH (960 CE)."
 wings: [people]
-regions: [egypt-nile]
+regions: [persia-central-asia]
 periods: [period/buyid-seljuk-fatimid-era]
-died: { edtf: "0960", precision: year, status: tradition, derived: true }
-sources: [source/al-aalam]
+born: { edtf: "883", hijri: "0269", calendar: gregorian, precision: year, derived: true, note: "al-Zirikli, al-A'lam, vol. 5 p. 310, prints 269 AH = 883 CE.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+died: { edtf: "960", hijri: "0349", calendar: gregorian, precision: year, derived: true, note: "al-Zirikli, al-A'lam, vol. 5 p. 310, prints 349 AH = 960 CE, agreeing with the card; Ibn al-Imad (vol. 4 p. 258) and Ibn al-Jawzi (vol. 14 p. 130) place his death in Ramadan 349 AH.", sources: [source/alam-zirikli-dar-al-ilm-2002, source/shadharat-dhahab, source/muntazam-ibn-al-jawzi] }
+relations:
+  - { type: lived_in, target: place/isfahan, confidence: high, note: "al-Zirikli, vol. 5 p. 310: of the people of Isfahan and its judge; Ibn al-Imad, vol. 4 p. 258: qadi of Isfahan. Replaces the earlier low-confidence link to Egypt, which the entries do not support.", sources: [source/alam-zirikli-dar-al-ilm-2002, source/shadharat-dhahab] }
+  - { type: traveled_to, target: place/baghdad, confidence: high, note: "al-Zirikli, vol. 5 p. 310: took from the shaykhs of Baghdad.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+  - { type: traveled_to, target: place/hamadan, confidence: high, note: "al-Zirikli, vol. 5 p. 310.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+  - { type: traveled_to, target: place/kufa, confidence: high, note: "al-Zirikli, vol. 5 p. 310.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+  - { type: traveled_to, target: place/basra, confidence: high, note: "al-Zirikli, vol. 5 p. 310.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+  - { type: traveled_to, target: place/wasit, confidence: high, note: "al-Zirikli, vol. 5 p. 310.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+  - { type: traveled_to, target: place/rayy, confidence: high, note: "al-Zirikli, vol. 5 p. 310 (al-Ray).", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+  - { type: traveled_to, target: place/khuzistan, confidence: high, note: "al-Zirikli, vol. 5 p. 310.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+  - { type: traveled_to, target: place/hijaz, confidence: medium, note: "al-Zirikli, vol. 5 p. 310: took from the shaykhs of the two sanctuaries (al-Haramayn).", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002, source/shadharat-dhahab, source/muntazam-ibn-al-jawzi]
 external_ids:
   wikidata: Q106612159
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, vol. 5 p. 310; Ibn al-Imad, Shadharat al-Dhahab, vol. 4 pp. 258-259; Ibn al-Jawzi, al-Muntazam, vol. 14 pp. 129-130 (OpenITI markers), entries read in full from the local texts"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-shadharat-muntazam-2026-11-14
 status:
   review: draft
-  completeness: 1
-relations:
-  - { type: lived_in, target: place/misr, note: "From text: Egyptian (nationality adjective); broad association, flagged for review.", sources: [source/al-aalam], confidence: low }
+  completeness: 3

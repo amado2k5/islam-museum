@@ -6,30 +6,32 @@ label:
 roles: [qadi]
 gender: male
 summary:
-  ar: "بطاقة أولية لأبي جعفر السمناني، قاضي القرن الحادي عشر، توفي سنة ١٠٥٢م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abu Ja'far al-Simnani, the eleventh-century qadi, d. 1052; the biographical entry is not yet checked on the page."
+  ar: "محمد بن أحمد بن محمد، أبو جعفر السمناني، القاضي، ولد سنة 361 هـ وسكن بغداد وحدث عن السكري والدارقطني، وكان يعتقد في الأصول مذهب الأشعري على ما يذكر ابن الجوزي، وتوفي في ربيع الأول سنة 444 هـ بالموصل وهو قاضيها بعد أن كف بصره."
+  en: "Muhammad ibn Ahmad ibn Muhammad, Abu Ja'far al-Simnani, the qadi; born 361 AH, settled in Baghdad, transmitted from al-Sukkari and al-Daraqutni and, says Ibn al-Jawzi, held the Ash'ari position in the fundamentals; died in Rabi' I 444 AH in Mosul, where he was qadi, after losing his sight."
 wings: [people]
-regions: [persia-central-asia]
+regions: [persia-central-asia, levant-iraq]
 periods: [period/buyid-seljuk-fatimid-era]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/muntazam-ibn-al-jawzi]
 external_ids:
   wikidata: Q12177921
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0065
+  source: "Ibn al-Jawzi, al-Muntazam, entry read in full from the local text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-muntazam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 occupations:
   - job: job/qadi
     kind: primary
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/al-aalam]
-born: { edtf: "972", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Shirazi, Tabaqat; al-Dhahabi, Siyar" }
-died: { edtf: "1052", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Shirazi, Tabaqat; al-Dhahabi, Siyar Confirmed on 13 November 2026 against Wikidata Q12177921 (P570, a statement with a reference), item revision 2266374147.", sources: [source/wikidata] }
+born: { edtf: "972", hijri: "0361", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Shirazi, Tabaqat; al-Dhahabi, Siyar. Ibn al-Jawzi gives his birth as 361 AH {cite:muntazam-ibn-al-jawzi vol. 15 p. 337}.", sources: [source/muntazam-ibn-al-jawzi] }
+died: { edtf: "1052", hijri: "0444", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Shirazi, Tabaqat; al-Dhahabi, Siyar. Confirmed on 13 November 2026 against Wikidata Q12177921 (P570, a statement with a reference), item revision 2266374147. Ibn al-Jawzi places his death in Rabi' I of 444 AH {cite:muntazam-ibn-al-jawzi vol. 15 p. 337}.", sources: [source/wikidata, source/muntazam-ibn-al-jawzi] }
 relations:
-  - { type: lived_in, target: place/iran, note: "Only the record-level region (persia-central-asia) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }
+  - { type: lived_in, target: place/iran, sources: [source/al-aalam], confidence: low, note: "Only the record-level region (persia-central-asia) is attested; broad-region edge flagged for review." }
+  - { type: lived_in, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi], confidence: high, note: "Ibn al-Jawzi, al-Muntazam, vol. 15 p. 337: he settled in Baghdad" }
+  - { type: died_in, target: place/mosul, sources: [source/muntazam-ibn-al-jawzi], confidence: high, note: "Ibn al-Jawzi, al-Muntazam, vol. 15 p. 337: he died in Mosul, where he was qadi" }
