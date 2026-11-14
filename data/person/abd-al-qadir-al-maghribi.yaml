@@ -3,28 +3,30 @@ class: person
 label:
   ar: "عبد القادر المغربي"
   en: "Abd al-Qadir al-Maghribi"
-roles: [scholar]
+roles: [scholar, journalist]
 gender: male
 summary:
-  ar: "بطاقة أولية لعبد القادر المغربي، الكاتب والمصلح الشامي في مصر؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abd al-Qadir al-Maghribi, the Syrian writer and reformer in Egypt; his entry is not yet checked on the page."
+  ar: "عبد القادر بن مصطفى المغربي الطرابلسي، نائب رئيس المجمع العلمي العربي بدمشق، من العلماء باللغة والأدب، ولد باللاذقية سنة 1284 هـ الموافقة 1868 م وتوفي بدمشق سنة 1375 هـ الموافقة 1956 م."
+  en: "Abd al-Qadir ibn Mustafa al-Maghribi al-Tarabulsi, deputy president of the Arab Academy of Damascus and a scholar of language and literature; born in Latakia in 1284 AH (1868 CE), died in Damascus in 1375 AH (1956 CE)."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/modern-era]
-born: { edtf: "1867", precision: year, status: tradition, derived: true }
-died: { edtf: "1956", precision: year, status: tradition, derived: true }
-sources: [source/al-aalam, source/wikidata]
+born: { edtf: "1868", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 4 p. 10: 1284 AH = 1868 CE (the earlier card read 1867).", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+died: { edtf: "1956", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 4 p. 10: 1375 AH = 1956 CE.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q6813553
   viaf: "286365153"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 relations:
   - { type: lived_in, target: place/maghreb, note: "Place association from the person's nisba/name (المغربي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
+  - { type: born_in, target: place/ladhiqiyya, confidence: medium, note: "Al-Zirikli, al-A'lam vol. 4 p. 10: born in Latakia.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+  - { type: died_in, target: place/damascus, confidence: medium, note: "Al-Zirikli, al-A'lam vol. 4 p. 10: died in Damascus.", sources: [source/alam-zirikli-dar-al-ilm-2002] }

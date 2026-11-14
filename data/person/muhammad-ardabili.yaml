@@ -6,23 +6,24 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لمحمد بن علي الأردبيلي، العالم القرن السابع عشر صاحب جامع الرواة، توفي سنة ١٦٩٠م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Muhammad ibn Ali al-Ardabili, the seventeenth-century scholar author of Jami' al-Ruwat, d. 1690; the biographical entry is not yet checked on the page."
+  ar: "محمد بن علي الأردبيلي الغروي الحائري، عالم بالتراجم إمامي من أهل أردبيل، أقام في أصفهان وأخذ عن المجلسي، وله «جامع الرواة» كتبه سنة 1100 هـ."
+  en: "Muhammad ibn Ali al-Ardabili al-Gharawi al-Ha'iri, an Imami scholar of biographical literature from Ardabil who stayed in Isfahan and studied with al-Majlisi; author of Jami' al-Ruwat, written in 1100 AH."
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/gunpowder-empires]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q22907091
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0054
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
-died: { edtf: "1690~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: A'yan al-Shi'a Confirmed on 13 November 2026 against Wikidata Q22907091 (P570, a statement with a reference), item revision 2460463636.", sources: [source/wikidata] }
+  completeness: 3
+died: { edtf: "1690~", calendar: gregorian, precision: year, derived: true, note: "Approximate. Al-Zirikli, al-A'lam vol. 6 p. 291, gives no death year: he is dated only to after 1100 AH (after 1689 CE), the year he wrote Jami' al-Ruwat.", sources: [source/alam-zirikli-dar-al-ilm-2002, source/wikidata] }
 relations:
   - { type: lived_in, target: place/ardabil, confidence: low, note: "Association inferred from the nisba in the name 'Muhammad Ardabili'; specific residence not individually documented.", sources: [source/al-aalam] }
+  - { type: lived_in, target: place/isfahan, confidence: medium, note: "Al-Zirikli, al-A'lam vol. 6 p. 291: he stayed a time in Isfahan.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
