@@ -1,0 +1,18 @@
+id: concept/canon-milk-for-the-old
+class: concept
+kind: scientific
+label: { ar: "اللبن للمشايخ عند ابن سينا", en: "Milk for the old in the Canon", ur: "بزرگوں کے لیے دودھ قانون میں" }
+summary:
+  ar: "يبين ابن سينا أن اللبن ينتفع به من المشايخ من يستمرئه ولا يجد عقيبه تمدداً أو حكة أو وجعاً، لأنه يغذو ويرطب، وأوفقه لبن الماعز والأتن، وللبن الأتن خاصة أنه لا يتجبن كثيراً وينحدر سريعاً، مع التعهد بمرعى الحيوان {cite:canon-ibn-sina-print-v1 pp.251-252}."
+  en: "Ibn Sina explains that milk benefits those of the old who digest it and feel no stretching, itching or pain after it, since it nourishes and moistens; goat's and ass's milk suit best, ass's milk having the property of not curdling much and passing down quickly, provided the animals' pasture is watched {cite:canon-ibn-sina-print-v1 pp.251-252}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/regimen-of-health, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 3, Ta'lim 3 and 4, regimen of the old and of temperaments not excellent (scan pages 251 to 257), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-p251
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }
