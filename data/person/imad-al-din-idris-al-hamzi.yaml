@@ -3,26 +3,27 @@ class: person
 label:
   ar: "عماد الدين إدريس بن علي الحمزي"
   en: "Imad al-Din Idris al-Hamzi"
-roles: [amir, poet]
+roles: [amir, historian]
 gender: male
 summary:
-  ar: "بطاقة أولية لعماد الدين إدريس بن علي الحمزي، أمير وشاعر وفارس، توفي سنة ١٣١٤م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Imad al-Din Idris ibn Ali al-Hamzi, the prince, equestrian and poet, d. 1314; the biographical entry is not yet checked on the page."
+  ar: "إدريس بن علي بن عبد الله بن الحسن ابن حمزة، أبو موسى، عماد الدين، من أشراف اليمن وأمرائها ومن أهل صنعاء، فارس أديب عالم بالتاريخ، ولي إمارة القحمة سنة 699 هـ، واختصر تاريخ ابن الأثير وأضاف إليه أخبار العراق ومصر والشام واليمن، ورشح لإمامة الزيدية، توفي سنة 714 هـ."
+  en: "Idris ibn Ali ibn Abdallah ibn al-Hasan ibn Hamza, Abu Musa, Imad al-Din, one of the sharifs and amirs of Yemen, from Sanaa; a horseman and man of letters learned in history; governor of the emirate of al-Qahma in 699 AH; abridged Ibn al-Athir's history and added the reports of Iraq, Egypt, Syria and Yemen; put forward for the Zaydi imamate; died 714 AH (1314)."
 wings: [people]
 regions: [arabia]
 periods: [period/mongol-post-mongol]
-died: { edtf: "1314", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Badr al-Tali / al-Shawkani Confirmed on 13 November 2026 against Wikidata Q141071277 (P570, a statement with a reference), item revision 2537544087.", sources: [source/wikidata] }
+died: { edtf: "1314", hijri: "0714", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Badr al-Tali / al-Shawkani Confirmed on 13 November 2026 against Wikidata Q141071277 (P570, a statement with a reference), item revision 2537544087. al-Zirikli prints 714 AH = 1314 CE and no birth year {cite:alam-zirikli-dar-al-ilm-2002 vol. 1 p. 280}.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
 relations:
-  - { type: born_in, target: place/amran-governorate, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/al-aalam]
+  - { type: born_in, target: place/amran-governorate, confidence: medium, note: "Place link from Wikidata; pending a second source. al-Zirikli says only that he was of the people of Sanaa and does not name a birthplace.", sources: [source/wikidata] }
+  - { type: lived_in, target: place/sanaa, confidence: medium, note: "al-Zirikli, al-A'lam, vol. 1 p. 280: he was of the people of Sanaa.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q141071277
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0081
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
