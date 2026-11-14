@@ -1,0 +1,8 @@
+---
+id: place/hauran
+lang: en
+source_lang: ar
+translators: ["Claude Sonnet 5.5 (claude-sonnet-5-5), draft translation"]
+---
+## In Yaqut's Mu'jam al-Buldan
+Yaqut vocalises the name with a fatha and suggests that it may derive from "har, yahur", citing the saying "we seek refuge in God from al-hawr after al-kawr", meaning decline after increase. {cite:mujam-al-buldan-sader-1995 2 p.317} He describes Hauran as a wide district of the province of Damascus on its southern side, with many villages, farmlands and lava fields, long a dwelling place of the Arabs and often named in their poetry, its chief town being Busra. {cite:mujam-al-buldan-sader-1995 2 p.317} He relates that 'Umar ibn al-Khattab appointed 'Alqama ibn 'Ulatha over Hauran, and that the poet al-Hutay'a, travelling to him, arrived after people had returned from his grave and lamented him in verses that Yaqut gives. {cite:mujam-al-buldan-sader-1995 2 p.317} He reports Tha'lab that the people of Syria call every district a "jund". {cite:mujam-al-buldan-sader-1995 2 p.318} Yaqut says Hauran was conquered before Damascus: the Muslims assembled when Khalid reached Busra, took it by treaty and spread across the land of Hauran, and the lord of Adhri'at came asking for terms like those granted to Busra. {cite:mujam-al-buldan-sader-1995 2 p.318} He names among its people the Syrian ascetic Ibrahim ibn Ayyub al-Hawrani, called righteous, who narrated from al-Walid ibn Muslim and Mada' ibn 'Isa. {cite:mujam-al-buldan-sader-1995 2 p.318} He adds that Hauran is also the name of a water in Najd, which Nasr thought lay between al-Yamama and Mecca. {cite:mujam-al-buldan-sader-1995 2 p.318}
