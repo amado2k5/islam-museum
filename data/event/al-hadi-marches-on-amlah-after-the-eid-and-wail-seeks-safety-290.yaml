@@ -1,0 +1,63 @@
+id: event/al-hadi-marches-on-amlah-after-the-eid-and-wail-seeks-safety-290
+class: event
+kind: other
+label:
+  ar: "مسير الهادي إلى أملح بعد عيد الأضحى بأربعة أيام وطلب وائلة الأمان، ذو الحجة 290هـ"
+  en: "Al-Hadi marches on Amlah four days after the Eid al-Adha and Wa'ila seek safety, Dhu al-Hijja 290 AH"
+  ur: "عید الاضحیٰ کے چار دن بعد ہادی کی املح پر چڑھائی اور وائلہ کا امان مانگنا، ذوالحجہ 290ھ"
+summary:
+  ar: "أقام الهادي بصعدة إلى عيد العرفة وكانت وائلة قد عبثت في الطريق بأموال الناس ونفوسهم بحسب الراوي، فجمع عساكر من خولان وخرج بعد عيد الأضحى بأربعة أيام وبات بالحجر ثم غدا يريد أملح، فقاتلت ساقة العسكر وائلة في المضيق حتى طلع الخولانيون من الجبال فطردوهم، ونزل العسكر قرية أملح ونهب وخرّب المنازل والآبار وقطع النخيل والأعناب حتى طلبت وائلة الأمان فآمنهم ورجع إلى صعدة."
+  en: "Al-Hadi stayed at Sa'da until the Eid, and Wa'ila had, according to the narrator, made trouble on the road with people's property and lives; he gathered armies of Khawlan and set out four days after the Eid al-Adha, spent the night at al-Hajar and went on toward Amlah, where the rear of the army fought Wa'ila in a narrow place until the Khawlanis came down from the mountains and drove them off, and the army halted at the village of Amlah, plundered, wrecked houses and wells and cut palms and vines until Wa'ila asked for safety, which he gave, and he went back to Sa'da."
+  ur: "ہادی عید تک صعدہ میں رہے، اور راوی کے مطابق وائلہ نے راستے میں لوگوں کے مال اور جانوں کے ساتھ فساد کیا تھا؛ انہوں نے خولان کے لشکر جمع کیے اور عید الاضحیٰ کے چار دن بعد نکلے، الحجر میں رات گزاری اور املح کی طرف بڑھے، جہاں تنگ جگہ میں لشکر کے پچھلے حصے نے وائلہ سے لڑائی کی یہاں تک کہ خولانی پہاڑوں سے اتر آئے اور انہیں ہٹا دیا، پھر لشکر املح بستی میں اترا، لوٹ مار کی، گھر اور کنویں ڈھائے اور کھجور اور انگور کاٹے یہاں تک کہ وائلہ نے امان مانگی اور انہوں نے امان دی اور صعدہ لوٹ گئے۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0903-10"
+    hijri: "0290-12"
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: "ذو الحجة سنة 290هـ؛ الخروج بعد عيد الأضحى بأربعة أيام بنص الكتاب، والسنة مستنتجة من الترتيب بعد رجب 290هـ؛ التحويل مشتق"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/wailat-shakir
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/khawlan-tribe
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/amlah-yemen
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/saada
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص250-251 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-29
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 250-251
