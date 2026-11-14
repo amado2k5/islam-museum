@@ -3727,6 +3727,19 @@ Resume point: sharh-saheeh-al-bukhare episode 17 (branch from origin/main).
 
 Resume point: sharh-saheeh-al-bukhare episode 11 (branch from origin/main).
 
+### alwaad-alhaq ep14 (14 Nov 2026)
+
+32 points written for episode 14 (ar, en, ur); 22 needs_source marks for this episode in each language file; new links to the angel of death, Munkar and Nakir, the soul, the martyr, Amr ibn al-As, al-Bara ibn Azib, Jonah, Dihya al-Kalbi and Michael. Quran verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
+
+| Excluded (alwaad-alhaq ep14) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Loop stretches of repeated syllables | ep14 00:04:30-00:05:00, 00:31:00-00:31:30, 00:41:00-00:41:30, 00:52:00-00:52:30 | Repeated-token loops | Loop check | Open |
+| Remark on asking God only in health and a saying of one Abu Hamid on death as a transfer | ep14 00:07:00-00:07:30, 00:26:30-00:27:30 | Garbled, speaker and words unclear | Clarity | Open |
+| An aside on not wanting to die in the grave | ep14 00:20:30-00:21:00 | Garbled | Clarity | Open |
+| Technical washing details (hand cloth, posture, pressing the belly) | ep14 00:31:00-00:32:00 | Garbled, steps not recoverable | Clarity | Open |
+| Closing prayers, sign-offs and repeated opening verses | ep14 00:52:30-00:54:00 | Closing words and repeated recitation | Content rule | Open |
+
+Resume point: alwaad-alhaq episode 15 (branch from origin/main).
 ### sharh-saheeh-al-bukhare ep11 (14 Nov 2026)
 
 21 points written for episode 11 (ar, en, ur); 13 needs_source marks in each language file for this episode; 6 new `about` edges. Quran verses referenced only through passage links (31-14, 33-28, 33-29); none typed. Contested: His reading of the hadith on kindness forgotten by a wife, his saying that knowledge shows in uprightness, and his advice on gratitude to parents and the teacher are his own views; the sayings and reports he relates by sense carry no chain. Checked line by line against the transcript by a second reader before merge.
