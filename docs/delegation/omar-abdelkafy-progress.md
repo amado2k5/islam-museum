@@ -3627,3 +3627,33 @@ Resume point: sharh-saheeh-al-bukhare episode 9 (branch from origin/main).
 | Stretch on work papers, a loop of a political name and a closing | ep09 01:15:30-01:18:30 | Loop and garbled speech; a stretch dropped under the content-safety block where it touches modern conflict | Content rule, Clarity, Loop check | Open |
 
 Resume point: sharh-saheeh-al-bukhare episode 10 (branch from origin/main).
+
+### sharh-saheeh-al-bukhare ep15 (14 Nov 2026)
+
+28 points written for episode 15 (ar, en, ur); 21 needs_source marks in each language file for this episode; 16 new `about` edges. Quran verses referenced only through passage links (31-27, 30-21, 19-23, 3-37, 19-4, 19-8, 3-41, 19-10, 49-2, 3-110, 33-8, 68-4); none typed. Contested: he holds that a society applying the hadith on insulting and fighting a Muslim would be the greatest in history, that a person who says she is not convinced of a command raises her voice over the Prophet, that rejecting part of the book is rejecting all of it, and that the rights of people are not cleared by repentance alone; these are his views. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep15) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Greetings, opening praise and supplication, and closing prayer | ep15 00:00:00-00:03:00 and 01:19:00 | Opening and closing formulae, not teaching content | Content rule | Open |
+| Supplications for fighters in every place | ep15 00:01:30-00:02:30 | A stretch dropped under the content-safety block | Content rule | Open |
+| Sweeping remarks on peoples and nations in the knowledge-without-faith passage | ep15 00:07:00-00:09:00 | Generalisation about nations, garbled | Voice rule | Open |
+| Garbled passages on Bedouin, jewellery-purchase and hospital anecdotes | ep15 00:15:30-00:19:00 | Too garbled to recover, no clear point | Clarity, Loop check | Open |
+| Loop of repeated syllables | ep15 00:10:30-00:11:00 | Repetition loop | Clarity, Loop check | Open |
+| Loop of repeated syllables | ep15 00:20:00-00:20:30 | Repetition loop | Clarity, Loop check | Open |
+| Garbled lists of sciences and a sermon on magic and nationalism | ep15 00:20:30-00:21:30 | Too garbled to recover | Clarity, Loop check | Open |
+| Remarks on a wife and household, and a count of wrongs per second | ep15 00:24:30-00:25:30 | Sweeping claims about women and a garbled figure | Voice rule | Open |
+| Loop of one letter | ep15 00:25:30-00:26:00 | Repetition loop | Clarity, Loop check | Open |
+| Anecdote of a dying man and money taken from him | ep15 00:27:00-00:29:30 | Garbled personal story without clear source | Clarity, Loop check | Open |
+| Remarks on idle people and the sincere youth | ep15 00:34:00-00:34:30 | Sweeping claim about groups | Voice rule | Open |
+| Greeting groups, the distorted greeting of non-Muslims and the replies | ep15 00:41:00-00:44:00 | Garbled and touches a sweeping claim about a people | Voice rule | Open |
+| Loops | ep15 00:44:30-00:45:30 | Repetition loops | Clarity, Loop check | Open |
+| Story of Ikrima and the neighbour passage | ep15 00:46:00-00:47:00 | Garbled, no clear point | Clarity, Loop check | Open |
+| Loop and personal military-prison anecdote with interrogation | ep15 00:50:30-00:54:00 | Loops, garbled, political detention narrative | Clarity, Loop check | Open |
+| Bedouin and the dog anecdote, humour on a royal visit | ep15 00:55:30-00:58:00 | Garbled joke, no clear point | Clarity, Loop check | Open |
+| Intercession report and the silent Bedouin | ep15 01:01:00-01:03:00 | Garbled, loop at 01:02:30 | Clarity, Loop check | Open |
+| Halima, the Prophet's wet-nurse names digression, severed kinship and the woman lost in the desert | ep15 01:03:30-01:07:30 | Garbled digressions without clear source | Clarity, Loop check | Open |
+| Remark on slaughter customs of other peoples | ep15 01:09:30-01:10:00 | Sweeping claim about peoples | Voice rule | Open |
+| Speech on people who talk at length, and the market comparison | ep15 01:16:30-01:18:30 | Garbled | Clarity, Loop check | Open |
+| Loop of one letter | ep15 01:16:00-01:16:30 | Repetition loop | Clarity, Loop check | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 16 (branch from origin/main).
