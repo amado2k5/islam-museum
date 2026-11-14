@@ -1,0 +1,68 @@
+id: event/abu-al-atahiya-and-ibn-al-daam-rout-the-qudumis-and-al-hadi-buries-ibn-abi-abbad-288
+class: event
+kind: other
+label:
+  ar: "أبو العتاهية وابن الدعام يهزمان القدميين والهادي يدفن ابن أبي عباد، جمادى الآخرة 288هـ"
+  en: "Abu al-Atahiya and Ibn al-Da'am rout the Qudumis and al-Hadi buries Ibn Abi Abbad, Jumada II 288 AH"
+  ur: "ابو العتاہیہ اور ابن الدعام قدمیوں کو بھگاتے ہیں اور ہادی ابن ابی عباد کو دفن کرتے ہیں، جمادی الآخرہ 288ھ"
+summary:
+  ar: "علم الهادي بدخول القوم فأمر أبا العتاهية ومحمد بن الدعام بالنزول إليهم، فنزلا وافترقا من طريقين فانهزم القوم وقُتل منهم جماعة، ثم دفن الهادي ابن أبي عباد، ويروي الراوي عن أبي العتاهية أن الهادي قال وهو يدفنه إنه ود لو كان معه فاستشهد."
+  en: "Al-Hadi, told that the men had entered, ordered Abu al-Atahiya and Muhammad ibn al-Da'am to go down and fight them; they split and attacked by two routes, the men fled and many were killed, and al-Hadi buried Ibn Abi Abbad; the narrator reports from Abu al-Atahiya that al-Hadi said, as he buried him, that he wished he had been with him and died."
+  ur: "ہادی کو جب بتایا گیا کہ لوگ اندر گھس آئے ہیں تو انہوں نے ابو العتاہیہ اور محمد بن الدعام کو اترنے کا حکم دیا؛ وہ دو راستوں سے ٹوٹ پڑے، لوگ بھاگ گئے اور ان میں سے بہت مارے گئے، اور ہادی نے ابن ابی عباد کو دفن کیا؛ راوی ابو العتاہیہ سے نقل کرتا ہے کہ ہادی نے دفن کرتے وقت کہا کہ کاش وہ بھی ان کے ساتھ ہوتے اور شہید ہوتے۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0901-05~"
+    hijri: "0288-06"
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: "جمادى الآخرة سنة 288هـ؛ يلي ليلة الأحد؛ لا يُذكر يوم؛ التحويل مشتق"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/bayt-dhukhar
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abu-al-atahiya-ibn-bishr
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/muhammad-ibn-al-daam
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/muhammad-ibn-abbad-al-tamimi
+  role: "مدفون على يد الهادي"
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/qudumis
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص218-219 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-26
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 218-219

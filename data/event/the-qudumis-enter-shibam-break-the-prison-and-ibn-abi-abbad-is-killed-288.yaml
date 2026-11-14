@@ -1,0 +1,69 @@
+id: event/the-qudumis-enter-shibam-break-the-prison-and-ibn-abi-abbad-is-killed-288
+class: event
+kind: other
+label:
+  ar: "القدميون يدخلون شبام ويكسرون الحبس ومقتل ابن أبي عباد، جمادى الآخرة 288هـ"
+  en: "The Qudumis enter Shibam, break the prison and Ibn Abi Abbad is killed, Jumada II 288 AH"
+  ur: "قدمی شبام میں داخل ہوتے ہیں، قید خانہ توڑتے ہیں اور ابن ابی عباد مارا جاتا ہے، جمادی الآخرہ 288ھ"
+summary:
+  ar: "لما صعد الهادي وأبو العتاهية الجبل يوم السبت واستخلف محمد بن أبي عباد بشبام مع الصنعانيين، سار القدميون إلى قرية شبام ليلة الأحد فكسروا باب الدرب وكسروا الحبس وأخرجوا أبا زياد وجماعة من الجفاتم، فانهزم الصنعانيون وقاتلهم ابن أبي عباد ساعة حتى قُتل، بحسب الراوي."
+  en: "When al-Hadi and Abu al-Atahiya climbed the mountain on the Saturday, leaving Muhammad ibn Abi Abbad at Shibam with the men of Sana'a, the Qudumis went to the village of Shibam on the night of Sunday, broke the gate of the passage and the prison and freed Abu Ziyad and a body of the Jafatim; the Sana'is fled and Ibn Abi Abbad fought them a while until he was killed, in the narrator's account."
+  ur: "جب ہفتے کو ہادی اور ابو العتاہیہ پہاڑ پر چڑھے اور محمد بن ابی عباد کو صنعاء والوں کے ساتھ شبام میں چھوڑا تو قدمی اتوار کی رات شبام کی بستی کی طرف بڑھے، درب کا دروازہ اور قید خانہ توڑا اور ابو زیاد اور جفاتم کی ایک جماعت کو نکال لیا؛ صنعاء والے بھاگ گئے اور ابن ابی عباد ان سے کچھ دیر لڑا یہاں تک کہ مارا گیا، راوی کے بیان کے مطابق۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0901-05~"
+    hijri: "0288-06"
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: "ليلة الأحد التالية للسبت اثنتي عشرة ليلة ماضية من جمادى الآخرة سنة 288هـ بنص الكتاب؛ الدقة شهرية لاختلاف اليوم الجدولي؛ التحويل مشتق"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/bayt-dhukhar
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/muhammad-ibn-abbad-al-tamimi
+  role: "نائب الهادي بشبام وقتيل الحدث"
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abu-al-atahiya-ibn-bishr
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/qudumis
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/al-jafatim-sanaa
+  role: "خرج جماعة منهم من الحبس"
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص217-218 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-26
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 217-218

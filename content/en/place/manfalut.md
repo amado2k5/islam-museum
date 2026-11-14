@@ -11,3 +11,6 @@ The page number needs an additional source, since the data records a scanner num
 
 ## In the iDAI.gazetteer
 The iDAI.gazetteer lists this place under no. 2768210 with the preferred name «Monfalut», classed as populated place; its parent in the hierarchy is «Asyūt (Muhāfazat)», classed as administrative unit. Recorded names include «منفلوط». {cite:idai-gazetteer 2768210}
+
+## In Yaqut's Mu'jam al-Buldan
+Yaqut gives the name with fatha on the mim, sukun on the nun, then a fa with fatha and not damma, and a final undotted ta, and calls it a town in the Sa'id on the west of the Nile, at some distance from the river's bank. {cite:mujam-al-buldan-sader-1995 5 p.214}

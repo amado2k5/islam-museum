@@ -4597,3 +4597,126 @@ GEMINI: alwaad-alhaq ep30 (00:48:30-00:49:30): the dream of Abu Ayyub about a ma
 | Second ASR pass: Whisper large-v3 (mlx) run on the Mac to resolve garbled words of the Qwen transcript; cites use the shared 30-second grid | ep39 whole | Qwen pass garbled | Clarity | Open |
 
 Resume point: sharh-saheeh-al-bukhare episode 40 (branch from origin/main).
+
+### alwaad-alhaq ep31 (14 Nov 2026)
+
+21 points written for episode 31 (ar, en, ur); 16 needs_source marks for this episode in each language file; needs_source marks cover unchained hadiths, reports and stories and uncounted figures. Quran verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
+
+| Excluded (alwaad-alhaq ep31) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Passage on reinforcements sent to Khalid and Amr ibn al-As | ep31 00:22:30-00:23:30 | Garbled, speakers and numbers unclear | Clarity | Open |
+| Poem and story of the one-eyed short man before Muawiya, and the Abd al-Malik minbar remark | ep31 00:21:00-00:22:30 | Garbled, attributions unclear | Clarity | Open |
+| Passage on the insects of Hell and the Prophet's saying | ep31 00:55:30-00:56:30 | Garbled and looping | Clarity, Loop check | Open |
+| Remarks on 1422 AH and 2005 AD and Cain's kind of killer | ep31 01:05:00-01:06:00 | Dates inconsistent in the transcript | Clarity | Open |
+| Second ASR pass not run; clean transcript only | ep31 whole | Qwen pass garbled in places | Clarity | Open |
+
+Resume point: alwaad-alhaq episode 32 (branch from origin/main).
+GEMINI: alwaad-alhaq ep31 (00:00:30-00:03:00): who asked Abu Hazim why people dislike the hereafter and who answered (the transcript says "commander of the believers"); a primary source (e.g. Ibn Abi al-Dunya or Abu Nu'aym, Hilyat al-Awliya) would settle it.
+GEMINI: alwaad-alhaq ep31 (00:08:30-00:10:30): the night walk in Medina and the woman reciting al-Ghashiya; the transcript is garbled between the Prophet, Umar and the Companions; a primary source would settle the speaker.
+GEMINI: alwaad-alhaq ep31 (00:22:30-00:23:30): the reinforcement story (Abu Bakr to Khalid with al-Qa'qa', Amr ibn al-As at al-Arish and 4,000 men); numbers and speakers are garbled; Tarikh al-Tabari or Futuh al-Sham would settle it.
+GEMINI: alwaad-alhaq ep31 (01:00:00-01:00:30): identity of "al-walad ibn al-mughira" (taken to be al-Walid ibn al-Mughira, 74:11-25); the transcript is garbled.
+GEMINI: alwaad-alhaq ep31 (01:05:00-01:05:30): "alf firawn" likely a mishearing of "al Firawn" (40:46); the arithmetic of "four thousand Pharaohs" and the date "1422 AH / 2005 AD" are unclear.
+GEMINI: alwaad-alhaq ep31 (01:03:30-01:04:00): the sheikh seems to place "do not despair of God's mercy" (39:53) in Ghafir; Surat al-Zumar is the source; a mushaf would settle the sura attribution.
+GEMINI: alwaad-alhaq ep31 (00:09:00 and 00:40:00): two counts of the verses on the Fire (271 and 211); one is probably a mishearing.
+
+### alwaad-alhaq ep32 (14 Nov 2026)
+
+13 points written for episode 32 (ar, en, ur); 18 needs_source marks for this episode in each language file; 13 about edges linked to the series record. Quran verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
+
+| Excluded (alwaad-alhaq ep32) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Episode 32 minutes 01:00-01:20 (the spoken account of a man and Abu Hurayra on praying after the dawn prayer) | ep32 00:29:00-00:30:30 | Garbled and looped in the transcription, no reliable account recoverable | Accuracy | Open |
+| Episode 32 remarks on borders, treaties and a changing fatwa | ep32 00:42:00-00:43:00 | Garbled and politically sensitive remark, not reliably transcribed (founder-held: opinion rulings) | Accuracy; sensitivity | Open |
+| Episode 32 remark on veiled women inside the backbiting example | ep32 01:02:00-01:02:30 | Garbled in the transcription and could not be attributed safely | Accuracy | Open |
+| Episode 32 story of a man with women at a door in Medina and a camel rope | ep32 00:57:30-00:59:30 | Garbled and incomplete in the transcription | Accuracy | Open |
+
+Resume point: alwaad-alhaq episode 33 (branch from origin/main).
+
+GEMINI: alwaad-alhaq ep32 (00:54:30) the report of Umar asking a man his name and clan that carried the meaning of fire and telling him his family had burned; the transcript garbles the names; which collection (probably Malik's Muwatta) gives the exact names and wording?
+GEMINI: alwaad-alhaq ep32 (00:57:00) the saying "the flesh of the learned is poisoned" attributed by the sheikh to Ibn al-Jawzi; the source that would settle it is the earliest book attributing it (commonly cited to Ibn Asakir), to confirm the attribution.
+GEMINI: alwaad-alhaq ep32 (00:25:30) the hadith "among the greatest betrayals with God is a man confiding to his wife and she spreads it", which the sheikh places in Muslim; the exact text and number in Sahih Muslim would settle the wording.
+### sharh-saheeh-al-bukhare ep40 (14 Nov 2026)
+
+26 points written for episode 40 (ar, en, ur); 17 needs_source marks in each language file for this episode; 14 new `about` edges. Quran verses referenced only through passage links (46-20); none typed. Contested: He is made to hold that the expeditions before Badr were not piracy because Companions had left property in Mecca and may recover it, that zakat funds may be used to marry off poor young men, and that the Arab wars before Islam were a divine training; all are his own arguments, not established positions. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep40) | Episode / time | Reason | Gate failed | Override |
+| Greetings, opening praise and prayer, closing prayer and farewell | ep40 00:00:00-00:03:00 and 01:24:30 | Opening supplication and closing greeting, not lesson content | Content rule | Open |
+| Stretch dropped under the content-safety block | ep40 00:02:00-00:03:00 | Supplication naming groups and conflicts, dropped under the content-safety block | Content rule | Open |
+| Sweeping claims about a country, its people and a modern conflict, with calls against them | ep40 00:03:00-00:07:30, 00:09:00-00:10:30 | Sweeping modern political claims and calls against a nation, not the lesson | Voice rule | Open |
+| Claims about the rise of Western countries, their people and their mosques | ep40 00:45:00-00:46:30 | Sweeping claim about nations and modern politics | Voice rule | Open |
+| Saying about the market naming a people, and a call to boycott goods of certain states | ep40 00:46:30-00:47:30, 00:49:30-00:50:00 | Sweeping claims about a people and about states | Voice rule | Open |
+| Sweeping claims about Western peoples by skin and eye colour, and a story about a foreigner's view of Africans | ep40 00:48:00-00:49:30 | Demeaning generalisations about peoples | Voice rule | Open |
+| Modern prisons and political movement stretch | ep40 01:18:00-01:19:00 | Claim about modern conflict, also garbled | Voice rule, Clarity | Open |
+| Marriage and divorce anecdotes about men and women, household quarrels | ep40 00:26:00-00:28:30, 00:32:00-00:34:00 | Garbled in both passes and generalising about women | Clarity, Voice rule | Open |
+| Anecdote of a Companion and his mother, and sleeping-side and heart remarks | ep40 00:17:00-00:20:00 | Names and sense differ between the two passes | Clarity | Open |
+| Metre and kilometre conversions, distances to Badr and Tabuk | ep40 00:36:30-00:38:30, 00:38:30-00:39:30 | The two passes give different numbers | Clarity | Open |
+| Sword, mule and household animal reports | ep40 00:40:30-00:42:30 | Garbled and not supported by both passes | Clarity | Open |
+| Counts of expeditions and detachments, name of the first detachment's leader | ep40 00:50:00-00:50:30, 00:54:00 | The two passes read the counts and the first leader differently, so none is stated | Clarity | Open |
+| Persian commander and honey-jar story, shepherd and security remarks | ep40 00:56:00-00:58:30 | Garbled and read differently in the two passes | Clarity | Open |
+| Poetry verses, cousin-marriage story and its names | ep40 01:04:30-01:08:30 | Verses and names garbled and contradict between passes | Clarity | Open |
+| Names of the Quraysh leaders at the Kaaba and in the exchange, left unnamed | ep40 01:12:00-01:15:30 | Names rest on garbled words | Clarity | Open |
+| Pairing of Ali with the Prophet in the brotherhood | ep40 00:35:30-00:36:30 | Garbled in both passes | Clarity | Open |
+| Collection box and administrative announcements | ep40 01:21:30-01:23:00 | Administrative and garbled | Clarity | Open |
+| Loops and repeated syllables in the first pass | ep40 00:04:30, 00:06:30, 00:14:30-00:15:30, 00:18:00-00:19:00, 00:22:00, 00:26:30-00:28:30, 00:30:00, 00:38:00, 00:44:00, 00:55:30-00:58:00, 01:08:00-01:08:30, 01:11:00, 01:17:30-01:18:00, 01:20:00-01:20:30 | Repetition loops, no recoverable content | Clarity, Loop check | Open |
+| Second ASR pass: Whisper large-v3 (mlx) run on the Mac to resolve garbled words of the Qwen transcript; cites use the shared 30-second grid | ep40 whole | Qwen pass garbled | Clarity | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 41 (branch from origin/main).
+
+### sharh-saheeh-al-bukhare ep41 (14 Nov 2026)
+
+26 points written for episode 41 (ar, en, ur); 19 needs_source marks in each language file for this episode; 7 new `about` edges. Quran verses referenced only through passage links (2-96, 26-62, 17-102); none typed. Contested: He holds that Islam is religion and state and calls talk of different kinds of Islam nonsense, and he presents his own views on learning from enemies, on teaching children the ancestors' history and on the three sources of cowardice; the many reports he tells without a chain are marked needs_source. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep41) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening praise, opening supplication and greetings | ep41 00:00:00-00:04:00 | greeting and prayer, not teaching | Content rule | Open |
+| Prayers against named opponents inside the opening supplication | ep41 00:02:30-00:03:30 | sweeping claims about modern conflict | Voice rule | Open |
+| Closing prayer and farewell | ep41 01:17:00 | closing prayer | Content rule | Open |
+| Garbled stretch about the Companions and "we" | ep41 00:10:30-00:11:30 | Qwen loops and Whisper garbled | Clarity, Loop check | Open |
+| Comparison of cowards with brave men, school and battle details of the proverbial coward | ep41 00:14:30-00:15:00 and 00:17:00-00:18:30 | too garbled to recover | Clarity, Loop check | Open |
+| Comparisons of Arab fighters with modern soldiers and statements about modern wars | ep41 00:25:30-00:27:00 | sweeping claim about modern conflict and garbled | Voice rule, Clarity | Open |
+| Conclusion on the death of the coward | ep41 00:33:30-00:34:00 | Qwen loop and Whisper garbled | Clarity, Loop check | Open |
+| Garbled passage before the three sources | ep41 00:34:30-00:35:00 | Qwen loop and Whisper partial | Clarity, Loop check | Open |
+| Comments on fighting in places of modern conflict and on a modern war | ep41 00:36:00-00:37:00 | sweeping claims about modern conflict | Voice rule | Open |
+| A garbled name in the list around Pharaoh's court (a stretch dropped under the content-safety block) | ep41 00:47:30-00:48:00 | garbled word that could be read as a blocked name | Content rule | Open |
+| Garbled passage on a bureaucrat's signature and numbered law | ep41 00:41:00-00:41:30 and 00:43:00-00:44:00 | analogy too garbled to recover | Clarity, Loop check | Open |
+| Garbled passage on treaties and the logic of the opponents | ep41 00:49:00-00:50:00 | garbled and sweeping about a people | Voice rule, Clarity | Open |
+| Claims about the cowardice of a whole people | ep41 00:53:30-00:55:30 | demeaning generalisation about a people | Voice rule | Open |
+| Poets and rewards, boy's memory and recitation stretches | ep41 01:03:30-01:08:30 | too garbled and looping to recover | Clarity, Loop check | Open |
+| Ending of the caliph anecdote and loops | ep41 01:10:00-01:11:00 | Qwen loops and Whisper partial | Clarity, Loop check | Open |
+| Garbled part of the siege story | ep41 01:13:30-01:14:00 | Qwen loop and Whisper partial | Clarity, Loop check | Open |
+| Second ASR pass: Whisper large-v3 (mlx) run on the Mac to resolve garbled words of the Qwen transcript; cites use the shared 30-second grid | ep41 whole | Qwen pass garbled | Clarity | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 42 (branch from origin/main).
+GEMINI: ep41, who is the Companion-poet addressed by the Prophet as Abu Layla who recited a poem on the day he accepted Islam whose last verse speaks of reaching the heavens in glory and what short prayer the Prophet made for him, the two transcripts spell the name only in garbled forms so no name is written, al-Isti'ab of Ibn Abd al-Barr or al-Isaba of Ibn Hajar
+GEMINI: ep41, is there a report that Gabriel told the Prophet he pushed something into Pharaoh's mouth for fear mercy would reach him and that Gabriel put to Pharaoh the question of the slave and his master, the transcripts give the substance as garbled ("water") and the chain not at all, Sunan al-Tirmidhi and Musnad Ahmad and the classical tafsir of the sea verses
+GEMINI: ep41, is the divine saying about the servant who holds fast to God reported by Ibn Hibban in his Sahih from Abdullah ibn al-Zubayr from his father, the transcripts give this chain but the wording is garbled, Sahih Ibn Hibban itself
+GEMINI: ep41, the story of the Persian commander asking Khalid about a sword from heaven, the transcripts disagree on whether Khalid said the sword was made by God or by a man so only his denial is written, a primary account of the campaigns of Khalid ibn al-Walid in Iraq
+GEMINI: ep41, is the poet whom the Prophet called Abu Layla (reciter of the poem ending 'we reached the heavens in glory') al-Nabigha al-Ja'di, Whisper gives al-Nabigha al-Ja'di clearly and Qwen a close garbled form, al-Isti'ab of Ibn Abd al-Barr or al-Isaba of Ibn Hajar
+
+### sharh-saheeh-al-bukhare ep42 (14 Nov 2026)
+
+26 points written for episode 42 (ar, en, ur); 25 needs_source marks in each language file for this episode; 10 new `about` edges. Quran verses referenced only through passage links (9-40, 2-217, 9-36, 61-4, 5-24, 8-12); none typed. Contested: His view that the angels at Badr came to steady hearts rather than to fight, his use of the report of Umar striking a man who rejected the Prophet's judgement, and the attributed sayings of Ali, Abdullah ibn Umar and the judges report are given as his own and are read differently by others. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep42) | Episode / time | Reason | Gate failed | Override |
+| Announcements about mushafs on the floor, street sellers, women attendees, Friday arrangements, greetings, praise and prayer, and the closing farewell | ep42 00:00:00-00:04:00, 01:24:00 | Greetings, housekeeping and closing; not teaching content | Content rule | Open |
+| Remarks about women attending, bringing children and a joke about marriage ages | ep42 00:01:00-00:03:30, 00:15:30-00:16:30 | Sweeping remarks about women and jokes | Voice rule | Open |
+| Claims that Persians as a people were enemies of Islam and plotted the killing of Umar | ep42 00:09:30-00:11:00 | Sweeping claim about a people, framed as enmity; only the plain fact of the killing is kept | Voice rule | Open |
+| Comparisons with modern America and Europe, stock-market and mortgage losses, and modern criminal law | ep42 00:19:00-00:20:30, 00:11:30-00:12:00 | Sweeping modern political and economic claims | Content rule | Open |
+| Attacks on modern critics, attire rulings, and claims about extremism and freedom of thought | ep42 00:25:30-00:27:30, 00:29:00-00:30:00 | Sweeping claims about modern groups and polemic | Voice rule | Open |
+| Modern comparisons with international legitimacy, the United Nations and pagan peoples | ep42 00:37:00-00:38:00 | Sweeping claims about modern conflict and nations | Content rule | Open |
+| Jokes about wages, football transfers, Egyptian and Arab wealth and graduates | ep42 00:46:00-00:47:30 | Sweeping remarks about peoples and modern society | Voice rule | Open |
+| Statement that we love death as others love life, called the philosophy of martyrdom | ep42 00:10:00-00:10:30, 01:10:00-01:10:30 | Extremist vocabulary hijacking a classical term; a stretch dropped under the content-safety block | Content rule | Open |
+| Digression on the teacher of al-Bukhari, a fighter who killed a thousand, and the praise of a commander | ep42 01:04:30-01:07:00 | Names garbled in both passes and loops; story unverifiable | Clarity, Loop check | Open |
+| Reported mat and Kisra-and-Qaysar exchange, the question about the Quraysh captives and Abu Bakr's protection story | ep42 01:16:30-01:18:00, 01:20:00-01:21:30 | Speakers unclear and the stretch too garbled to recover | Clarity | Open |
+| Loop stretches of repeated syllables and words | ep42 00:02:30, 00:09:00-00:09:30, 00:16:00, 00:24:00, 00:35:30, 00:36:30, 00:37:30, 00:48:30, 00:54:30, 00:55:30, 00:57:30, 01:03:30, 01:06:00-01:06:30, 01:10:30, 01:22:30, 01:23:30 | Looping ASR, no recoverable content in the Qwen pass | Clarity, Loop check | Open |
+| Camel counts and exact army figures where the two passes disagree | ep42 00:44:30-00:45:00, 00:49:30-00:50:00 | Qwen and Whisper read different numbers; only the rough figure is kept | Clarity | Open |
+| Second ASR pass: Whisper large-v3 (mlx) run on the Mac to resolve garbled words of the Qwen transcript; cites use the shared 30-second grid | ep42 whole | Qwen pass garbled | Clarity | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 43 (branch from origin/main).
+GEMINI: ep42, who led the eight-man detachment sent in Rajab of year 2 (patronym) and who the slain man allied with Quraysh was, the transcripts give only "Abdullah" and a garbled name, the Sira of Ibn Hisham and al-Tabari for the expedition of Nakhla
+GEMINI: ep42, which Companion spoke for the Muhajirun at the consultation before Badr (the "we will not say as the Children of Israel said" speech), the transcripts garble the name, the report in Sahih al-Bukhari on the Battle of Badr
+GEMINI: ep42, which man of Quraysh stayed behind ill in Mecca and whose slave reported white-faced riders (name garbled as "Abu Lahab" or similar in both passes), the Sira of Ibn Hisham
+GEMINI: ep42, identity of the man whose son was a Badr captive and who came to Medina to kill the Prophet, and of the man he conspired with at the Black Stone (names not recoverable in either pass), the Sira of Ibn Hisham
+GEMINI: ep42, the name and identity of the man who gave a woman and her son safe escort to Medina and was reminded of it after eight years (names garbled in both passes), a Sira source on the emigration of the woman and her son
+GEMINI: ep42, name of the man Abu al-Hasan al-Zahid faced with the lion (garbled as Ibn Qulub / Ibn Farud in the two passes), the transcripts give no clear name, a biographical source on Abu al-Hasan al-Zahid
+GEMINI: ep42, name of the first man of Quraysh killed at Badr (al-Aswad ibn Abd al-Asad in one reading, garbled in both passes), the transcripts give only a garbled name, the Sira of Ibn Hisham on Badr

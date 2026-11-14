@@ -18,3 +18,6 @@ The Sealed Nectar does not mention the history of the town before that, nor its 
 
 ## For young visitors
 Busra is an old town in the south of al-Sham, which was the first great stop for the caravans coming from Mecca. There the young Prophet met the monk Bahira.
+
+## In Yaqut's Mu'jam al-Buldan
+Yaqut says Busra, with a damma and the short ending, names two places. One is in Syria, in the districts of Damascus, and is the chief town of the district of Hawran; he calls it famous among the Arabs in earlier and later times and says their poets mention it often, quoting verses by a Bedouin, by al-Simma ibn Abd Allah al-Qushayri and by Ibn Mayyada. He reports that when Khalid ibn al-Walid came from Iraq to reinforce the Muslims in Syria, he found them camped at Busra; they pressed its people until they made peace for a dinar and a jarib of wheat for each adult, and the Muslims took all the land of Hawran in the year 13. He then lists a second Busra, a village of Baghdad near Ukbara. {cite:mujam-al-buldan-sader-1995 1 p.441}

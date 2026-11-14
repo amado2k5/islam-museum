@@ -1,0 +1,62 @@
+id: event/the-rising-of-ibn-mahfuz-at-sanaa-and-ali-ibn-sulayman-leaves-for-madar-288
+class: event
+kind: other
+label:
+  ar: "خروج ابن محفوظ بصنعاء وخروج علي بن سليمان إلى مدر، جمادى الآخرة 288هـ"
+  en: "The rising of Ibn Mahfuz at Sana'a and Ali ibn Sulayman's departure for Madar, Jumada II 288 AH"
+  ur: "صنعاء میں ابن محفوظ کا خروج اور علی بن سلیمان کا مدر کو نکلنا، جمادی الآخرہ 288ھ"
+summary:
+  ar: "في الأيام الباقية من جمادى الآخرة اجتمع جماعة من سفهاء صنعاء مع علي بن سليمان وفرض فرساناً، وبعد يومين صاح ابن محفوظ بجمع من الغوغاء وكسروا حبس صنعاء ورجموا باب داره، فحمل عليهم وقتل رجلاً، ثم خرج بستة فوارس من الطبريين إلى مدر، وأدخل الغوغاء ابن يعفر من ظهر إلى صنعاء وقام معه أكثر العسكر."
+  en: "In the days remaining of Jumada II a body from Sana'a gathered with Ali ibn Sulayman, who mustered horsemen; two days later Ibn Mahfuz shouted to a crowd, they broke the prison of Sana'a and stoned the door of Ali's house, he charged them and killed a man, then left with six Tabari horsemen for Madar, and the crowd brought Ibn Ya'fur from Zahr into Sana'a, most of the army standing with him."
+  ur: "جمادی الآخرہ کے باقی دنوں میں صنعاء کے ایک گروہ نے علی بن سلیمان کے ساتھ جمع ہو کر سواروں کی بھرتی کی؛ دو دن بعد ابن محفوظ نے ایک بھیڑ کو پکارا، انہوں نے صنعاء کا قید خانہ توڑا اور علی کے گھر کے دروازے پر پتھر برسائے، انہوں نے حملہ کر کے ایک آدمی کو مار ڈالا، پھر طبری رشتہ داروں کے چھ سواروں کے ساتھ مدر چلے گئے، اور بھیڑ ظہر سے ابن یعفر کو صنعاء لے آئی اور زیادہ تر لشکر اس کے ساتھ ہو گیا۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0901-05~"
+    hijri: "0288-06"
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: "في الأيام الباقية من جمادى الآخرة سنة 288هـ ثم بعد ذلك بيومين بنص الكتاب؛ لا يُذكر يوم محدد؛ التحويل مشتق"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/sanaa
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ali-ibn-sulayman-ibn-al-qasim
+  role: "نائب الهادي المُخرَج"
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ahmad-ibn-mahfuz
+  role: "يُرجَّح أنه ابن محفوظ المذكور"
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-yafur
+  role: "أُدخل ابن يعفر صنعاء"
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص220 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-26
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 220

@@ -1,0 +1,59 @@
+id: event/al-hadi-leaves-sanaa-by-bir-al-khawlani-and-yakla-for-samh-288
+class: event
+label:
+  ar: "الهادي يخرج من صنعاء إلى بئر الخولاني ويكلا ثم سمح، صفر 288هـ"
+  en: "Al-Hadi leaves Sana'a by Bir al-Khawlani and Yakla for Samh, Safar 288 AH"
+  ur: "ہادی صنعاء سے بئر الخولانی اور یکلا ہوتے ہوئے سمح کی طرف نکلتے ہیں، صفر 288ھ"
+summary:
+  ar: "يخرج الهادي من صنعاء يوم الأحد لست بقين من صفر ومعه أبو العتاهية ويخلف أخاه عبد الله بن الحسين بها، فيبيت ببئر الخولاني ثم ينزل يكلا فيعظ أهلها ويولي عليهم رجلاً ورعاً من الطبريين، ثم ينزل سمح فيقيم بها أياماً حتى يهل ربيع الأول ويعطي الناس أرزاقهم."
+  en: "Al-Hadi leaves Sana'a on Sunday, six days remaining of Safar, with Abu al-Atahiya, leaving his brother Abdullah ibn al-Husayn there; he spends a night at Bir al-Khawlani, then halts at Yakla, where he preaches to the people and puts a devout Tabari over them, and goes on to Samh, where he stays some days until Rabi I begins and gives the people their stipends."
+  ur: "ہادی صفر کے چھ دن باقی رہتے اتوار کو ابو العتاہیہ کے ساتھ صنعاء سے نکلتے ہیں اور اپنے بھائی عبد اللہ بن حسین کو وہاں چھوڑتے ہیں؛ وہ بئر الخولانی پر رات گزارتے ہیں، پھر یکلا اترتے ہیں جہاں لوگوں کو نصیحت کرتے ہیں اور ایک پرہیزگار طبری کو ان کا والی بناتے ہیں، پھر سمح جا کر ربیع الاول کا چاند ہونے تک چند دن رہتے ہیں اور لوگوں کو ان کے وظیفے دیتے ہیں۔"
+kind: other
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0901-01"
+    hijri: "0288-02"
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: "صفر سنة 288هـ بنص الكتاب؛ الدقة شهرية؛ التحويل مشتق من التقويم الجدولي"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/sanaa
+- type: occurred_at
+  target: place/samh-yemen
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abu-al-atahiya-ibn-bishr
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abdullah-ibn-al-husayn-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص211-212 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-25
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 211-212

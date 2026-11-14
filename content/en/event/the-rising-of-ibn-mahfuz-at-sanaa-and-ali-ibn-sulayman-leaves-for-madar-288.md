@@ -1,0 +1,11 @@
+---
+id: event/the-rising-of-ibn-mahfuz-at-sanaa-and-ali-ibn-sulayman-leaves-for-madar-288
+lang: en
+source_lang: ar
+translators: ["Claude Sonnet 5.5 (claude-sonnet-5-5), draft translation"]
+---
+## Overview
+In the days remaining of Jumada II a body of fools of Sana'a gathered with [[person/ali-ibn-sulayman-ibn-al-qasim|Ali ibn Sulayman]], that is, enlisted with him, as the marginal note of the original says; he mustered a number of horsemen and stayed some days on his guard, patrolling the city and guarding it from its own fools {cite:sira-hadi-ila-al-haqq p.220}. Two days after that a foolish youth called [[person/ahmad-ibn-mahfuz|Ibn Mahfuz]], whom the narrator calls base in himself, as is said of him, shouted to a crowd like himself and took them to the prison of [[place/sanaa|Sana'a]] and broke it, while Ali ibn Sulayman knew nothing {cite:sira-hadi-ila-al-haqq p.220}. He knew only when the crowd was at his door stoning it; he mounted his horse and charged them and drove them back and speared one of them dead; his troops were scattered in their houses, because they did not sleep at night {cite:sira-hadi-ila-al-haqq p.220}. The crowd grew against him and he left with six horsemen of his Tabari cousins until he reached [[place/madar-yemen|Madar]] {cite:sira-hadi-ila-al-haqq p.220}. The crowd of Sana'a went to Ibn Ya'fur, who had been jailed at Zahr, brought him into Sana'a, and most of the army that had been with Ali ibn Sulayman stood with him {cite:sira-hadi-ila-al-haqq p.220}. Al-Hadi heard that Ali had been put out of Sana'a, and those of Al Tarif and the Jafatim who were jailed there came out {cite:sira-hadi-ila-al-haqq p.221}.
+
+## Detail
+This is the rising that [[event/sanaa-rising-ahmad-ibn-mahfuz-288|the account of the added first pages]] tells briefly; that account says Abd al-Qahir ibn Ahmad ibn Na'im took the city, and here the man brought into Sana'a is Ibn Ya'fur; the museum does not reconcile the names. Ibn Mahfuz is linked to the record of Ahmad ibn Mahfuz on the name alone and as probable. The narrator's descriptions of the youth and the crowd are his words, attributed to him; the words of abuse are not repeated. The text gives no day or month except the days remaining of Jumada II. It follows [[event/ibn-hanash-and-ibn-harnud-bring-al-daam-and-abu-al-qasim-to-shibam-288]].
