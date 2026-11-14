@@ -1,0 +1,60 @@
+id: event/the-keeper-of-the-fort-at-adudan-feigns-surrender-and-the-ambush-is-found-289
+class: event
+kind: other
+label:
+  ar: "صاحب قلعة عضدان يتظاهر بالتسليم وانكشاف الكمين، سنة 289هـ"
+  en: "The keeper of the fort at Adudan feigns surrender and the ambush is found, 289 AH"
+  ur: "عضدان کے قلعے کا نگران ہتھیار ڈالنے کا بہانہ کرتا ہے اور کمین کھل جاتا ہے، سنہ 289ھ"
+summary:
+  ar: "خرج عبد الله بن الحسين وأبو القاسم بن الهادي في عسكر في إتباع القوم حتى التقوا في جبل ظبوة فاقتتلوا فانهزم القوم؛ وكان للقوم قائد بعضدان أمروه أن يطلب الأمان ويبيع القلعة، فأرسل إلى عبد الله بن الحسين يعلمه بضبطها، وكان ذلك مكراً وكمنوا دون القلعة فوقعت طلائع الهادي على بعض كمينهم فاقتتلوا وانهزم القوم."
+  en: "Abdullah ibn al-Husayn and al-Hadi's son Abu al-Qasim went out with an army in pursuit of the men and met them on the mountain of Zabwa, where the men broke; the men had a commander at Adudan whom they told to ask safety and offer the fort for sale, and he sent to Abdullah ibn al-Husayn that he held the fort for him, which was a trick, with the men's armies hidden below it; al-Hadi's scouts fell on some of the ambush and the men were routed."
+  ur: "عبداللہ بن الحسین اور ہادی کے بیٹے ابو القاسم ایک لشکر کے ساتھ مخالفوں کے تعاقب میں نکلے اور جبل ظبوہ پر ان سے ٹکراؤ ہوا، مخالف ہار گئے؛ مخالفوں کا ایک سالار عضدان میں تھا جسے انہوں نے کہا کہ امان مانگے اور قلعہ بیچنے کا کہے، اس نے عبداللہ بن الحسین کو کہلوایا کہ اس نے قلعہ ان کے لیے سنبھال لیا ہے، یہ ایک چال تھی اور قلعے کے نیچے لشکر چھپے تھے؛ ہادی کے ہراول دستے کمین کے کچھ حصے پر جا پڑے اور مخالف ہار گئے۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0902"
+    hijri: "0289"
+    calendar: julian
+    precision: year
+    status: tradition
+    derived: true
+    note: "سنة 289هـ؛ الكتاب لا يذكر يوماً ولا شهراً؛ التحويل مشتق"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abdullah-ibn-al-husayn-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/al-murtada-muhammad
+  role: "ابن الهادي، محتمل"
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/zabwa-sanaa-yemen
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص239-240 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-28
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 239-240
