@@ -4149,3 +4149,24 @@ Resume point: sharh-saheeh-al-bukhare episode 26 (branch from origin/main).
 | Second ASR pass: Whisper large-v3 (mlx) run on the Mac to resolve garbled words of the Qwen transcript; cites use the shared 30-second grid | ep26 whole | Qwen pass too garbled for a rich first pass | Clarity | Open |
 
 Resume point: sharh-saheeh-al-bukhare episode 27 (branch from origin/main).
+
+### sharh-saheeh-al-bukhare ep27 (14 Nov 2026)
+
+28 points written for episode 27 (ar, en, ur); 22 needs_source marks in each language file for this episode; 8 new `about` edges. Quran verses referenced only through passage links (3-37, 25-63); none typed. Contested: His readings of the Prophet's request for a writing and its dispute, his remark that Abu Bakr's appointment of Umar shows real democracy, his comment on Khalid's removal, and his application of the hadith on raised graves are his own and are contested; the reports on Khalid, al-Qa'qa' and Ali and Fatima are given without chains. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep27) | Episode / time | Reason | Gate failed | Override |
+| Greeting, opening supplication and looped lines | ep27 00:00:00-00:01:30 | Opening greeting and prayer, with a long Qwen loop of one word | Clarity, Loop check | Open |
+| Takfir among Muslims in disputes, and a remark about a scholar's method | ep27 00:06:00-00:07:00 | Sweeping claim about groups of Muslims and garbled in both passes | Content rule | Open |
+| Criticism of modern writers and legislators | ep27 00:15:00-00:15:30 | Sweeping claim about modern writers, garbled | Voice rule | Open |
+| Garbled stretches, loops and repeated words | ep27 00:41:30-00:43:30 | Loops in the Qwen pass, Whisper too garbled to carry a point | Clarity, Loop check | Open |
+| Money talk, a sale at 160 dinars and a story about Ali and Fatima's household | ep27 00:46:00-00:51:30 | Too garbled in both passes to say what is reported | Clarity | Open |
+| Remark on the Imam al-Sadiq and practices at graves | ep27 00:52:30-00:53:00 | Sweeping claim about a sect's practice, partly garbled | Content rule | Open |
+| Sufyan al-Thawri dream and account of deeds on the Day | ep27 00:56:00-00:59:00 | Garbled in both passes | Clarity | Open |
+| Story of people seeking others' faults and a rooftop | ep27 01:01:00-01:04:30 | Garbled in both passes | Clarity | Open |
+| Report on the women of Paradise | ep27 01:05:30-01:06:30 | Quoted by sense and too garbled to restate | Clarity | Open |
+| Hadith of drawing near by voluntary acts | ep27 01:10:30-01:12:30 | Only the second pass has it and only partly | Clarity | Open |
+| Closing supplication and a garbled story about Khalid's death | ep27 01:12:30-01:14:00 | Closing prayer and garbled report | Clarity | Open |
+| Sign-off and closing greetings | ep27 01:19:30-01:20:00 | Closing greetings and sign-off | Clarity | Open |
+| Second ASR pass: Whisper large-v3 (mlx) run on the Mac to resolve garbled words of the Qwen transcript; cites use the shared 30-second grid | ep27 whole | Qwen pass too garbled for a rich first pass | Clarity | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 28 (branch from origin/main).
