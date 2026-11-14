@@ -1,29 +1,61 @@
 id: person/abu-al-qasim-al-burzuli
 class: person
 label:
-  ar: "أبو القاسم البرزلي"
-  en: "Abu al-Qasim al-Burzuli"
-roles: [scholar]
+  ar: أبو القاسم البرزلي
+  en: Abu al-Qasim al-Burzuli
+roles:
+- scholar
+- jurist
 gender: male
 summary:
-  ar: "بطاقة أولية لأبو القاسم البرزلي؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abu al-Qasim al-Burzuli; the entry is not yet checked on the page."
-wings: [people]
-regions: [maghreb]
-periods: [period/mongol-post-mongol]
-sources: [source/al-aalam]
+  ar: أبو القاسم بن أحمد بن محمد البلوي القيرواني المعروف بالبرزلي، من أئمة المالكية في المغرب، حج ومر بالقاهرة سنة 800 هـ وسكن تونس وانتهت إليه الفتوى فيها، وله «جامع مسائل الأحكام».
+  en: Abu al-Qasim ibn Ahmad ibn Muhammad al-Balawi al-Qayrawani, known as al-Burzuli, one of the Maliki imams of the Maghrib; he made the pilgrimage, passed through Cairo in 800 AH, settled in Tunis where the giving of fatwas came to rest with him, and wrote 'Jami' Masa'il al-Ahkam'.
+wings:
+- people
+regions:
+- maghreb
+periods:
+- period/mongol-post-mongol
+sources:
+- source/al-aalam
+- source/alam-zirikli-dar-al-ilm-2002
 external_ids:
   wikidata: Q28716838
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text
+  generated_by: Claude Code (Lane B2 packet)
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
-born: { edtf: "1339", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Farhun, al-Dibaj al-Mudhahhab; al-Zirikli, al-A'lam" }
-died: { edtf: "1438", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Farhun, al-Dibaj al-Mudhahhab; al-Zirikli, al-A'lam Confirmed on 13 November 2026 against Wikidata Q28716838 (P570, a statement with a reference), item revision 2528298786.", sources: [source/wikidata] }
+  completeness: 3
+born:
+  edtf: '1340'
+  calendar: gregorian
+  precision: year
+  derived: true
+  note: 'Per al-Zirikli, al-A''lam vol. 5 p. 171: the heading gives 641 to 844 AH = 1340 to 1440 CE; the printed 641 does not fit 1340 (741 AH would, and gives the 103 years al-Sakhawi reports), so the Gregorian years are written as printed.'
+  sources:
+  - source/alam-zirikli-dar-al-ilm-2002
+died:
+  edtf: '1440'
+  calendar: gregorian
+  precision: year
+  derived: true
+  note: 'Per al-Zirikli, al-A''lam vol. 5 p. 171: died 844 AH = 1440 CE in Tunis. The card gave 1438 (Wikidata); corrected to the entry.'
+  sources:
+  - source/alam-zirikli-dar-al-ilm-2002
 relations:
-  - { type: lived_in, target: place/maghreb, note: "Only the record-level region (maghreb) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }
+- type: lived_in
+  target: place/tunis
+  confidence: medium
+  note: From al-A'lam.
+  sources:
+  - source/alam-zirikli-dar-al-ilm-2002
+- type: died_in
+  target: place/tunis
+  confidence: medium
+  note: 'From al-A''lam: settled in Tunis and died there (al-Sakhawi, as quoted).'
+  sources:
+  - source/alam-zirikli-dar-al-ilm-2002
