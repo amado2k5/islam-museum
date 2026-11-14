@@ -1,0 +1,18 @@
+id: passage/muslim-api-5762
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "5762"
+label: { ar: "صحيح مسلم 5762 — القسط والعود الهندي، اللدود والسعوط", en: "Sahih Muslim 5762 — costus (Indian aloeswood); medicine given by the mouth-side or the nose", ur: "صحیح مسلم 5762 — قسط ہندی، لدود اور سعوط" }
+text: "… أُخْتِ عُكَّاشَةَ بْنِ مِحْصَنٍ قَالَتْ دَخَلْتُ بِابْنٍ لِي عَلَى رَسُولِ اللَّهِ لَمْ يَأْكُلِ الطَّعَامَ فَبَالَ عَلَيْهِ فَدَعَا بِمَاءٍ فَرَشَّهُ. قَالَتْ وَدَخَلْتُ عَلَيْهِ بِابْنٍ لِي قَدْ أَعْلَقْتُ عَلَيْهِ مِنَ الْعُذْرَةِ فَقَالَ \" عَلاَمَهْ تَدْغَرْنَ أَوْلاَدَكُنَّ بِهَذَا الْعِلاَقِ عَلَيْكُنَّ بِهَذَا الْعُودِ الْهِنْدِيِّ فَإِنَّ فِيهِ سَبْعَةَ أَشْفِيَةٍ مِنْهَا ذَاتُ الْجَنْبِ يُسْعَطُ مِنَ الْعُذْرَةِ وَيُلَدُّ مِنْ ذَاتِ الْجَنْبِ \"."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 5762، يذكر القسط والعود الهندي، واللدود والسعوط، وأسماء الأمراض، وعلاج العذرة، والشفاء. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih Muslim, no. 5762 (Introduction), that mentions costus (Indian aloeswood), medicine given by the mouth-side or the nose, named diseases, treating the throat ailment (al-udhra), healing. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح مسلم کی حدیث نمبر 5762، جس میں قسط ہندی، لدود اور سعوط، بیماریوں کے نام، گلے کی بیماری (عذرہ) کا علاج، شفا کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/medicine, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/tadawi, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 5762 (book 0 hadith 0); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

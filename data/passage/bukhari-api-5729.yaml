@@ -1,0 +1,16 @@
+id: passage/bukhari-api-5729
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "5729"
+label: { ar: "صحيح البخاري 5729 — الطاعون والوباء", en: "Sahih al-Bukhari 5729 — plague and epidemic", ur: "صحیح بخاری 5729 — طاعون اور وبا" }
+text: "… إِلَى الشَّأْمِ حَتَّى إِذَا كَانَ بِسَرْغَ لَقِيَهُ أُمَرَاءُ الأَجْنَادِ أَبُو عُبَيْدَةَ بْنُ الْجَرَّاحِ وَأَصْحَابُهُ، فَأَخْبَرُوهُ أَنَّ الْوَبَاءَ قَدْ وَقَعَ بِأَرْضِ الشَّأْمِ. قَالَ ابْنُ عَبَّاسٍ فَقَالَ عُمَرُ ادْعُ لِي الْمُهَاجِرِينَ الأَوَّلِينَ. فَدَعَاهُمْ فَاسْتَشَارَهُمْ وَأَخْبَرَهُمْ أَنَّ الْوَبَاءَ قَدْ وَقَعَ بِالشَّأْمِ فَاخْتَلَفُوا. فَقَالَ بَعْضُهُمْ قَدْ خَرَجْتَ لأَمْرٍ، وَلاَ نَرَى أَنْ تَرْجِعَ عَنْهُ. وَقَالَ بَعْضُهُمْ مَعَكَ بَقِيَّةُ النَّاسِ وَأَصْحَابُ …"
+summary:
+  ar: "حديث في صحيح البخاري، رقم 5729، يذكر الطاعون والوباء. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih al-Bukhari, no. 5729 (Medicine), that mentions plague and epidemic. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح بخاری کی حدیث نمبر 5729، جس میں طاعون اور وبا کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 5729 (book 76 hadith 44); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

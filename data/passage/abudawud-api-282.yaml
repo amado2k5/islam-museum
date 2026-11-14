@@ -1,0 +1,16 @@
+id: passage/abudawud-api-282
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "282"
+label: { ar: "سنن أبي داود 282 — أعضاء البدن", en: "Sunan Abi Dawud 282 — the organs of the body", ur: "سنن ابی داؤد 282 — اعضائے بدن" }
+text: "… أَحْمَدُ بْنُ يُونُسَ، وَعَبْدُ اللَّهِ بْنُ مُحَمَّدٍ النُّفَيْلِيُّ، قَالاَ حَدَّثَنَا زُهَيْرٌ، حَدَّثَنَا هِشَامُ بْنُ عُرْوَةَ، عَنْ عُرْوَةَ، عَنْ عَائِشَةَ، أَنَّ فَاطِمَةَ بِنْتَ أَبِي حُبَيْشٍ، جَاءَتْ رَسُولَ اللَّهِ فَقَالَتْ إِنِّي امْرَأَةٌ أُسْتَحَاضُ فَلاَ أَطْهُرُ أَفَأَدَعُ الصَّلاَةَ قَالَ \" إِنَّمَا ذَلِكِ عِرْقٌ وَلَيْسَتْ بِالْحَيْضَةِ فَإِذَا أَقْبَلَتِ الْحَيْضَةُ فَدَعِي الصَّلاَةَ وَإِذَا أَدْبَرَتْ فَاغْسِلِي عَنْكِ الدَّمَ ثُمَّ صَلِّي \"."
+summary:
+  ar: "حديث في سنن أبي داود، رقم 282، يذكر أعضاء البدن. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan Abi Dawud, no. 282 (Purification (Kitab Al-Taharah)), that mentions the organs of the body. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن ابی داؤد کی حدیث نمبر 282، جس میں اعضائے بدن کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ilm-al-tashrih, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 282 (book 1 hadith 282); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

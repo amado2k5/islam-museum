@@ -1,0 +1,16 @@
+id: passage/tirmidhi-api-1783
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "1783"
+label: { ar: "جامع الترمذي 1783 — أعضاء البدن", en: "Jami' al-Tirmidhi 1783 — the organs of the body", ur: "جامع ترمذی 1783 — اعضائے بدن" }
+text: "حَدَّثَنَا قُتَيْبَةُ، حَدَّثَنَا أَبُو الأَحْوَصِ، عَنْ أَبِي إِسْحَاقَ، عَنْ مُسْلِمِ بْنِ نَذِيرٍ، عَنْ حُذَيْفَةَ، قَالَ أَخَذَ رَسُولُ اللَّهِ بِعَضَلَةِ سَاقِي أَوْ سَاقِهِ فَقَالَ \" هَذَا مَوْضِعُ الإِزَارِ فَإِنْ أَبَيْتَ فَأَسْفَلُ فَإِنْ أَبَيْتَ فَلاَ حَقَّ لِلإِزَارِ فِي الْكَعْبَيْنِ \". قَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ صَحِيحٌ. رَوَاهُ الثَّوْرِيُّ وَشُعْبَةُ عَنْ أَبِي إِسْحَاقَ."
+summary:
+  ar: "حديث في جامع الترمذي، رقم 1783، يذكر أعضاء البدن. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Jami' al-Tirmidhi, no. 1783 (The Book on Clothing), that mentions the organs of the body. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "جامع ترمذی کی حدیث نمبر 1783، جس میں اعضائے بدن کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ilm-al-tashrih, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 1783 (book 24 hadith 72); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

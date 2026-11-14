@@ -1,0 +1,16 @@
+id: passage/muslim-api-4425
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "4425"
+label: { ar: "صحيح مسلم 4425 — أعضاء البدن", en: "Sahih Muslim 4425 — the organs of the body", ur: "صحیح مسلم 4425 — اعضائے بدن" }
+text: "… سِمَاكِ بْنِ حَرْبٍ، قَالَ سَمِعْتُ جَابِرَ بْنَ سَمُرَةَ، يَقُولُ أُتِيَ رَسُولُ اللَّهِ بِرَجُلٍ قَصِيرٍ أَشْعَثَ ذِي عَضَلاَتٍ عَلَيْهِ إِزَارٌ وَقَدْ زَنَى فَرَدَّهُ مَرَّتَيْنِ ثُمَّ أَمَرَ بِهِ فَرُجِمَ فَقَالَ رَسُولُ اللَّهِ \" كُلَّمَا نَفَرْنَا غَازِينَ فِي سَبِيلِ اللَّهِ تَخَلَّفَ أَحَدُكُمْ يَنِبُّ نَبِيبَ التَّيْسِ يَمْنَحُ إِحْدَاهُنَّ الْكُثْبَةَ إِنَّ اللَّهَ لاَ يُمْكِنِّي مِنْ أَحَدٍ مِنْهُمْ إِلاَّ جَعَلْتُهُ نَكَالاً …"
+summary:
+  ar: "حديث في صحيح مسلم، رقم 4425، يذكر أعضاء البدن. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih Muslim, no. 4425 (The Book of Legal Punishments), that mentions the organs of the body. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح مسلم کی حدیث نمبر 4425، جس میں اعضائے بدن کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ilm-al-tashrih, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 4425 (book 29 hadith 28); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

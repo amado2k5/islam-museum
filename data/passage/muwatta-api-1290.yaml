@@ -1,0 +1,16 @@
+id: passage/muwatta-api-1290
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "1290"
+label: { ar: "موطأ مالك 1290 — أطوار خلق الجنين", en: "Muwatta Malik 1290 — the stages of the embryo", ur: "موطأ مالک 1290 — جنین کے مراحل" }
+text: "… تَسْتَوْفِيَهُ. إِذَا انْتَقَدْتَ ثَمَنَهُ مِنْ غَيْرِ صَاحِبِهِ الَّذِي اشْتَرَيْتَهُ مِنْهُ. قَالَ مَالِكٌ: لاَ يَنْبَغِي أَنْ يُسْتَثْنَى جَنِينٌ فِي بَطْنِ أُمِّهِ، إِذَا بِيعَتْ. لِأَنَّ ذلِكَ غَرَرٌ. لاَ يُدْرَى أَذَكَرٌ هُوَ أَمْ (1) أُنْثَى أو حَسَنٌ (2) أَوْ قَبِيحٌ، أَوْ نَاقِصٌ، أَوْ تَامٌّ، أَوْ حَيٌّ أَوْ مَيِّتٌ؟. وَذلِكَ يَضَعُ مِنْ ثَمَنِهَا. قَالَ مَالِكٌ، فِي الرَّجُلِ يَبْتَاعُ الْعَبْدَ، …"
+summary:
+  ar: "حديث في موطأ مالك، رقم 1290، يذكر أطوار خلق الجنين. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Muwatta Malik, no. 1290 (Business Transactions), that mentions the stages of the embryo. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "موطأ مالک کی حدیث نمبر 1290، جس میں جنین کے مراحل کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ilm-al-tashrih, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 1290 (book 31 hadith 1); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/muwatta-malik, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

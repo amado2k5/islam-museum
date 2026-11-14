@@ -1,0 +1,16 @@
+id: passage/nasai-api-4830
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "4830"
+label: { ar: "سنن النسائي 4830 — الطب والطبيب", en: "Sunan al-Nasa'i 4830 — medicine and the physician", ur: "سنن نسائی 4830 — طب اور طبیب" }
+text: "أَخْبَرَنِي عَمْرُو بْنُ عُثْمَانَ، وَمُحَمَّدُ بْنُ مُصَفًّى، قَالاَ حَدَّثَنَا الْوَلِيدُ، عَنِ ابْنِ جُرَيْجٍ، عَنْ عَمْرِو بْنِ شُعَيْبٍ، عَنْ أَبِيهِ، عَنْ جَدِّهِ، قَالَ قَالَ رَسُولُ اللَّهِ \" مَنْ تَطَبَّبَ وَلَمْ يُعْلَمْ مِنْهُ طِبٌّ قَبْلَ ذَلِكَ فَهُوَ ضَامِنٌ \"."
+summary:
+  ar: "حديث في سنن النسائي، رقم 4830، يذكر الطب والطبيب. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan al-Nasa'i, no. 4830 (The Book of Oaths (qasamah), Retaliation and Blood Money), that mentions medicine and the physician. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن نسائی کی حدیث نمبر 4830، جس میں طب اور طبیب کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 4830 (book 45 hadith 125); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

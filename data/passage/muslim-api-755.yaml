@@ -1,0 +1,16 @@
+id: passage/muslim-api-755
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "755"
+label: { ar: "صحيح مسلم 755 — أعضاء البدن", en: "Sahih Muslim 755 — the organs of the body", ur: "صحیح مسلم 755 — اعضائے بدن" }
+text: "… عَائِشَةَ، أَنَّهَا قَالَتِ اسْتَفْتَتْ أُمُّ حَبِيبَةَ بِنْتُ جَحْشٍ رَسُولَ اللَّهِ فَقَالَتْ إِنِّي أُسْتَحَاضُ. فَقَالَ \" إِنَّمَا ذَلِكِ عِرْقٌ فَاغْتَسِلِي ثُمَّ صَلِّي \". فَكَانَتْ تَغْتَسِلُ عِنْدَ كُلِّ صَلاَةٍ. قَالَ اللَّيْثُ بْنُ سَعْدٍ لَمْ يَذْكُرِ ابْنُ شِهَابٍ أَنَّ رَسُولَ اللَّهِ أَمَرَ أُمَّ حَبِيبَةَ بِنْتَ جَحْشٍ أَنْ تَغْتَسِلَ عِنْدَ كُلِّ صَلاَةٍ وَلَكِنَّهُ شَىْءٌ فَعَلَتْهُ هِيَ. وَقَالَ ابْنُ رُمْحٍ …"
+summary:
+  ar: "حديث في صحيح مسلم، رقم 755، يذكر أعضاء البدن. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih Muslim, no. 755 (The Book of Menstruation), that mentions the organs of the body. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح مسلم کی حدیث نمبر 755، جس میں اعضائے بدن کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ilm-al-tashrih, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 755 (book 3 hadith 77); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

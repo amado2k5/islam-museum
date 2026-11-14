@@ -1,0 +1,16 @@
+id: passage/muslim-api-7414
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "7414"
+label: { ar: "صحيح مسلم 7414 — أعضاء البدن", en: "Sahih Muslim 7414 — the organs of the body", ur: "صحیح مسلم 7414 — اعضائے بدن" }
+text: "… مَا بَيْنَ النَّفْخَتَيْنِ أَرْبَعُونَ \". قَالُوا يَا أَبَا هُرَيْرَةَ أَرْبَعُونَ يَوْمًا قَالَ أَبَيْتُ. قَالُوا أَرْبَعُونَ شَهْرًا قَالَ أَبَيْتُ. قَالُوا أَرْبَعُونَ سَنَةً قَالَ أَبَيْتُ \" ثُمَّ يُنْزِلُ اللَّهُ مِنَ السَّمَاءِ مَاءً فَيَنْبُتُونَ كَمَا يَنْبُتُ الْبَقْلُ \". قَالَ \" وَلَيْسَ مِنَ الإِنْسَانِ شَىْءٌ إِلاَّ يَبْلَى إِلاَّ عَظْمًا وَاحِدًا وَهُوَ عَجْبُ الذَّنَبِ وَمِنْهُ يُرَكَّبُ الْخَلْقُ يَوْمَ الْقِيَامَةِ \"."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 7414، يذكر أعضاء البدن. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih Muslim, no. 7414 (The Book of Tribulations and Portents of the Last Hour), that mentions the organs of the body. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح مسلم کی حدیث نمبر 7414، جس میں اعضائے بدن کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ilm-al-tashrih, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 7414 (book 54 hadith 175); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

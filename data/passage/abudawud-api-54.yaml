@@ -1,0 +1,16 @@
+id: passage/abudawud-api-54
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "54"
+label: { ar: "سنن أبي داود 54 — الجراحة والختان والجبائر", en: "Sunan Abi Dawud 54 — surgery, circumcision and splints", ur: "سنن ابی داؤد 54 — جراحت، ختنہ اور پٹیاں" }
+text: "… قَالَ \" إِنَّ مِنَ الْفِطْرَةِ الْمَضْمَضَةَ وَالاِسْتِنْشَاقَ \". فَذَكَرَ نَحْوَهُ وَلَمْ يَذْكُرْ إِعْفَاءَ اللِّحْيَةِ وَزَادَ \" وَالْخِتَانَ \". قَالَ \" وَالاِنْتِضَاحَ \". وَلَمْ يَذْكُرِ \" انْتِقَاصَ الْمَاءِ \". يَعْنِي الاِسْتِنْجَاءَ. قَالَ أَبُو دَاوُدَ وَرُوِيَ نَحْوُهُ عَنِ ابْنِ عَبَّاسٍ وَقَالَ خَمْسٌ كُلُّهَا فِي الرَّأْسِ وَذَكَرَ فِيهَا الْفَرْقَ وَلَمْ يَذْكُرْ إِعْفَاءَ اللِّحْيَةِ. قَالَ أَبُو دَاوُدَ وَرُوِيَ نَحْوُ …"
+summary:
+  ar: "حديث في سنن أبي داود، رقم 54، يذكر الجراحة والختان والجبائر. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan Abi Dawud, no. 54 (Purification (Kitab Al-Taharah)), that mentions surgery, circumcision and splints. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن ابی داؤد کی حدیث نمبر 54، جس میں جراحت، ختنہ اور پٹیاں کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-jiraha, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 54 (book 1 hadith 54); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

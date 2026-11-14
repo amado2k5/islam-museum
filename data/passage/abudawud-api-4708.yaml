@@ -1,0 +1,16 @@
+id: passage/abudawud-api-4708
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "4708"
+label: { ar: "سنن أبي داود 4708 — أطوار خلق الجنين", en: "Sunan Abi Dawud 4708 — the stages of the embryo", ur: "سنن ابی داؤد 4708 — جنین کے مراحل" }
+text: "… اللَّهِ بْنُ مَسْعُودٍ قَالَ حَدَّثَنَا رَسُولُ اللَّهِ وَهُوَ الصَّادِقُ الْمَصْدُوقُ \" إِنَّ خَلْقَ أَحَدِكُمْ يُجْمَعُ فِي بَطْنِ أُمِّهِ أَرْبَعِينَ يَوْمًا ثُمَّ يَكُونُ عَلَقَةً مِثْلَ ذَلِكَ ثُمَّ يَكُونُ مُضْغَةً مِثْلَ ذَلِكَ ثُمَّ يُبْعَثُ إِلَيْهِ مَلَكٌ فَيُؤْمَرُ بِأَرْبَعِ كَلِمَاتٍ فَيُكْتَبُ رِزْقُهُ وَأَجَلُهُ وَعَمَلُهُ ثُمَّ يُكْتَبُ شَقِيٌّ أَوْ سَعِيدٌ ثُمَّ يُنْفَخُ فِيهِ الرُّوحُ فَإِنَّ أَحَدَكُمْ لَيَعْمَلُ بِعَمَلِ أَهْلِ …"
+summary:
+  ar: "حديث في سنن أبي داود، رقم 4708، يذكر أطوار خلق الجنين. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan Abi Dawud, no. 4708 (Model Behavior of the Prophet (Kitab Al-Sunnah)), that mentions the stages of the embryo. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن ابی داؤد کی حدیث نمبر 4708، جس میں جنین کے مراحل کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ilm-al-tashrih, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 4708 (book 42 hadith 113); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

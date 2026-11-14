@@ -1,0 +1,16 @@
+id: passage/nasai-api-5372
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "5372"
+label: { ar: "سنن النسائي 5372 — عيادة المريض", en: "Sunan al-Nasa'i 5372 — visiting the sick", ur: "سنن نسائی 5372 — بیمار کی عیادت" }
+text: "… - رَجُلٌ مِنْ قَوْمِهِ - قَالَ نَزَلْتُ عَلَى أَبِي هَاشِمِ بْنِ عُتْبَةَ وَهُوَ طَعِينٌ فَأَتَاهُ مُعَاوِيَةُ يَعُودُهُ فَبَكَى أَبُو هَاشِمٍ فَقَالَ مُعَاوِيَةُ مَا يُبْكِيكَ أَوَجَعٌ يُشْئِزُكَ أَمْ عَلَى الدُّنْيَا فَقَدْ ذَهَبَ صَفْوُهَا قَالَ كُلٌّ لاَ وَلَكِنَّ رَسُولَ اللَّهِ عَهِدَ إِلَىَّ عَهْدًا وَدِدْتُ أَنِّي كُنْتُ تَبِعْتُهُ قَالَ \" إِنَّهُ لَعَلَّكَ تُدْرِكُ أَمْوَالاً تُقْسَمُ بَيْنَ أَقْوَامٍ وَإِنَّمَا …"
+summary:
+  ar: "حديث في سنن النسائي، رقم 5372، يذكر عيادة المريض. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan al-Nasa'i, no. 5372 (The Book of Adornment), that mentions visiting the sick. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن نسائی کی حدیث نمبر 5372، جس میں بیمار کی عیادت کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 5372 (book 48 hadith 333); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

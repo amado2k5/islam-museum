@@ -1,0 +1,17 @@
+id: passage/muslim-api-5141
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "5141"
+label: { ar: "صحيح مسلم 5141 — الدواء، الداء", en: "Sahih Muslim 5141 — the drug; the disease and its remedy", ur: "صحیح مسلم 5141 — دوا، بیماری" }
+text: "… بْنُ الْمُثَنَّى، وَمُحَمَّدُ بْنُ بَشَّارٍ، - وَاللَّفْظُ لاِبْنِ الْمُثَنَّى - قَالاَ حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، حَدَّثَنَا شُعْبَةُ، عَنْ سِمَاكِ بْنِ حَرْبٍ، عَنْ عَلْقَمَةَ بْنِ وَائِلٍ، عَنْ أَبِيهِ، وَائِلٍ الْحَضْرَمِيِّ، أَنَّ طَارِقَ بْنَ سُوَيْدٍ الْجُعْفِيَّ، سَأَلَ النَّبِيَّ عَنِ الْخَمْرِ فَنَهَا أَوْ كَرِهَ أَنْ يَصْنَعَهَا فَقَالَ إِنَّمَا أَصْنَعُهَا لِلدَّوَاءِ فَقَالَ \" إِنَّهُ لَيْسَ بِدَوَاءٍ وَلَكِنَّهُ دَاءٌ \"."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 5141، يذكر الدواء، والداء، والتداوي بالمحرم. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih Muslim, no. 5141 (The Book of Drinks), that mentions the drug, the disease and its remedy, treatment with what is forbidden. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح مسلم کی حدیث نمبر 5141، جس میں دوا، بیماری، حرام سے علاج کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-adwiya-al-mufrada, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/tadawi, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 5141 (book 36 hadith 15); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

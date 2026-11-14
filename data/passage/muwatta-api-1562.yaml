@@ -1,0 +1,16 @@
+id: passage/muwatta-api-1562
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "1562"
+label: { ar: "موطأ مالك 1562 — أطوار خلق الجنين", en: "Muwatta Malik 1562 — the stages of the embryo", ur: "موطأ مالک 1562 — جنین کے مراحل" }
+text: "وَحَدَّثَنِي عَنْ مَالِكٍ، عَنِ ابْنِ شِهَابٍ، عَنْ سَعِيدِ بْنِ الْمُسَيَّبِ، أَنَّ رَسُولَ اللَّهِ قَضَى فِي الْجَنِينَ يُقْتَلُ فِي بَطْنِ أُمِّهِ بِغُرَّةٍ عَبْدٍ أَوْ وَلِيدَةٍ فَقَالَ الَّذِي قُضِيَ عَلَيْهِ كَيْفَ أَغْرَمُ مَا لاَ شَرِبَ وَلاَ أَكَلْ وَلاَ نَطَقَ وَلاَ اسْتَهَلّ وَمِثْلُ ذَلِكَ بَطَلْ. فَقَالَ رَسُولُ اللَّهِ \" إِنَّمَا هَذَا مِنْ إِخْوَانِ الْكُهَّانِ \"."
+summary:
+  ar: "حديث في موطأ مالك، رقم 1562، يذكر أطوار خلق الجنين. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Muwatta Malik, no. 1562 (Blood-Money), that mentions the stages of the embryo. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "موطأ مالک کی حدیث نمبر 1562، جس میں جنین کے مراحل کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ilm-al-tashrih, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 1562 (book 43 hadith 11); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/muwatta-malik, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

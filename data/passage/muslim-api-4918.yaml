@@ -1,0 +1,16 @@
+id: passage/muslim-api-4918
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "4918"
+label: { ar: "صحيح مسلم 4918 — أعضاء البدن", en: "Sahih Muslim 4918 — the organs of the body", ur: "صحیح مسلم 4918 — اعضائے بدن" }
+text: "… - قَالَ - فَوُجِدَ فِي جَسَدِهِ بِضْعٌ وَثَمَانُونَ مِنْ بَيْنِ ضَرْبَةٍ وَطَعْنَةٍ وَرَمْيَةٍ - قَالَ - فَقَالَتْ أُخْتُهُ عَمَّتِيَ الرُّبَيِّعُ بِنْتُ النَّضْرِ فَمَا عَرَفْتُ أَخِي إِلاَّ بِبَنَانِهِ. وَنَزَلَتْ هَذِهِ الآيَةُ { رِجَالٌ صَدَقُوا مَا عَاهَدُوا اللَّهَ عَلَيْهِ فَمِنْهُمْ مَنْ قَضَى نَحْبَهُ وَمِنْهُمْ مَنْ يَنْتَظِرُ وَمَا بَدَّلُوا تَبْدِيلاً} قَالَ فَكَانُوا يُرَوْنَ أَنَّهَا نَزَلَتْ فِيهِ وَفِي أَصْحَابِهِ."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 4918، يذكر أعضاء البدن. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih Muslim, no. 4918 (The Book on Government), that mentions the organs of the body. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح مسلم کی حدیث نمبر 4918، جس میں اعضائے بدن کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ilm-al-tashrih, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 4918 (book 33 hadith 213); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

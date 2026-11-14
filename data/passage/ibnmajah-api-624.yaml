@@ -1,0 +1,16 @@
+id: passage/ibnmajah-api-624
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "624"
+label: { ar: "سنن ابن ماجه 624 — أعضاء البدن", en: "Sunan Ibn Majah 624 — the organs of the body", ur: "سنن ابن ماجہ 624 — اعضائے بدن" }
+text: "… الأَعْمَشِ، عَنْ حَبِيبِ بْنِ أَبِي ثَابِتٍ، عَنْ عُرْوَةَ بْنِ الزُّبَيْرِ، عَنْ عَائِشَةَ، قَالَتْ جَاءَتْ فَاطِمَةُ بِنْتُ أَبِي حُبَيْشٍ إِلَى النَّبِيِّ ـ فَقَالَتْ يَا رَسُولَ اللَّهِ إِنِّي امْرَأَةٌ أُسْتَحَاضُ فَلاَ أَطْهُرُ أَفَأَدَعُ الصَّلاَةَ قَالَ \" لاَ إِنَّمَا ذَلِكَ عِرْقٌ وَلَيْسَ بِالْحَيْضَةِ اجْتَنِبِي الصَّلاَةَ أَيَّامَ مَحِيضِكِ ثُمَّ اغْتَسِلِي وَتَوَضَّئِي لِكُلِّ صَلاَةٍ وَإِنْ قَطَرَ الدَّمُ عَلَى الْحَصِيرِ \"."
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 624، يذكر أعضاء البدن. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan Ibn Majah, no. 624 (The Book of Purification and its Sunnah), that mentions the organs of the body. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 624، جس میں اعضائے بدن کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ilm-al-tashrih, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 624 (book 1 hadith 358); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

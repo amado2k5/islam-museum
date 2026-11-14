@@ -1,0 +1,16 @@
+id: passage/nasai-api-3538
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "3538"
+label: { ar: "سنن النسائي 3538 — أسماء الأمراض", en: "Sunan al-Nasa'i 3538 — named diseases", ur: "سنن نسائی 3538 — بیماریوں کے نام" }
+text: "… سَلَمَةَ، عَنْ أُمِّهَا أُمِّ سَلَمَةَ، قَالَتْ جَاءَتِ امْرَأَةٌ مِنْ قُرَيْشٍ فَقَالَتْ يَا رَسُولَ اللَّهِ إِنَّ ابْنَتِي رَمِدَتْ أَفَأَكْحُلُهَا. وَكَانَتْ مُتَوَفًّى عَنْهَا. فَقَالَ \" أَلاَ أَرْبَعَةَ أَشْهُرٍ وَعَشْرًا \". ثُمَّ قَالَتْ إِنِّي أَخَافُ عَلَى بَصَرِهَا فَقَالَ \" لاَ إِلاَّ أَرْبَعَةَ أَشْهُرٍ وَعَشْرًا قَدْ كَانَتْ إِحْدَاكُنَّ فِي الْجَاهِلِيَّةِ تَحِدُّ عَلَى زَوْجِهَا سَنَةً ثُمَّ تَرْمِي عَلَى رَأْسِ السَّنَةِ …"
+summary:
+  ar: "حديث في سنن النسائي، رقم 3538، يذكر أسماء الأمراض. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan al-Nasa'i, no. 3538 (The Book of Divorce), that mentions named diseases. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن نسائی کی حدیث نمبر 3538، جس میں بیماریوں کے نام کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 3538 (book 27 hadith 152); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

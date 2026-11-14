@@ -1,0 +1,18 @@
+id: passage/abudawud-api-3877
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "3877"
+label: { ar: "سنن أبي داود 3877 — القسط والعود الهندي، القسط", en: "Sunan Abi Dawud 3877 — costus (Indian aloeswood); costus", ur: "سنن ابی داؤد 3877 — قسط ہندی، قسط" }
+text: "… عَنْ عُبَيْدِ اللَّهِ بْنِ عَبْدِ اللَّهِ، عَنْ أُمِّ قَيْسٍ بِنْتِ مِحْصَنٍ، قَالَتْ دَخَلْتُ عَلَى رَسُولِ اللَّهِ بِابْنٍ لِي قَدْ أَعْلَقْتُ عَلَيْهِ مِنَ الْعُذْرَةِ فَقَالَ \" عَلاَمَ تَدْغَرْنَ أَوْلاَدَكُنَّ بِهَذَا الْعِلاَقِ عَلَيْكُنَّ بِهَذَا الْعُودِ الْهِنْدِيِّ فَإِنَّ فِيهِ سَبْعَةَ أَشْفِيَةٍ مِنْهَا ذَاتُ الْجَنْبِ يُسْعَطُ مِنَ الْعُذْرَةِ وَيُلَدُّ مِنْ ذَاتِ الْجَنْبِ \". قَالَ أَبُو دَاوُدَ يَعْنِي بِالْعُودِ الْقُسْطَ."
+summary:
+  ar: "حديث في سنن أبي داود، رقم 3877، يذكر القسط والعود الهندي، والقسط، واللدود والسعوط، وأسماء الأمراض، وعلاج العذرة، والشفاء. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan Abi Dawud, no. 3877 (Medicine (Kitab Al-Tibb)), that mentions costus (Indian aloeswood), costus, medicine given by the mouth-side or the nose, named diseases, treating the throat ailment (al-udhra), healing. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن ابی داؤد کی حدیث نمبر 3877، جس میں قسط ہندی، قسط، لدود اور سعوط، بیماریوں کے نام، گلے کی بیماری (عذرہ) کا علاج، شفا کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/medicine, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/tadawi, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 3877 (book 29 hadith 23); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

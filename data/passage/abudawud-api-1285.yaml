@@ -1,0 +1,16 @@
+id: passage/abudawud-api-1285
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "1285"
+label: { ar: "سنن أبي داود 1285 — مفاصل البدن", en: "Sunan Abi Dawud 1285 — the joints of the body", ur: "سنن ابی داؤد 1285 — بدن کے جوڑ" }
+text: "… بْنِ عُقَيْلٍ، عَنْ يَحْيَى بْنِ يَعْمُرَ، عَنْ أَبِي ذَرٍّ، عَنِ النَّبِيِّ قَالَ \" يُصْبِحُ عَلَى كُلِّ سُلاَمَى مِنِ ابْنِ آدَمَ صَدَقَةٌ تَسْلِيمُهُ عَلَى مَنْ لَقِيَ صَدَقَةٌ وَأَمْرُهُ بِالْمَعْرُوفِ صَدَقَةٌ وَنَهْيُهُ عَنِ الْمُنْكَرِ صَدَقَةٌ وَإِمَاطَتُهُ الأَذَى عَنِ الطَّرِيقِ صَدَقَةٌ وَبُضْعَةُ أَهْلِهِ صَدَقَةٌ وَيُجْزِئُ مِنْ ذَلِكَ كُلِّهِ رَكْعَتَانِ مِنَ الضُّحَى \". قَالَ أَبُو دَاوُدَ وَحَدِيثُ عَبَّادٍ أَتَمُّ …"
+summary:
+  ar: "حديث في سنن أبي داود، رقم 1285، يذكر مفاصل البدن. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan Abi Dawud, no. 1285 (Prayer (Kitab Al-Salat): Voluntary Prayers), that mentions the joints of the body. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن ابی داؤد کی حدیث نمبر 1285، جس میں بدن کے جوڑ کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ilm-al-tashrih, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 1285 (book 5 hadith 36); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

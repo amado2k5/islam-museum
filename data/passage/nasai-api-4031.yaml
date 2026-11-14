@@ -1,0 +1,16 @@
+id: passage/nasai-api-4031
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "4031"
+label: { ar: "سنن النسائي 4031 — ألبان الإبل وأبوالها", en: "Sunan al-Nasa'i 4031 — camel milk and urine as treatment", ur: "سنن نسائی 4031 — اونٹنی کا دودھ اور پیشاب" }
+text: "… رَسُولُ اللَّهِ \" لَوْ خَرَجْتُمْ إِلَى ذَوْدٍ لَنَا فَشَرِبْتُمْ مِنْ أَلْبَانِهَا \". قَالَ حُمَيْدٌ وَقَالَ قَتَادَةُ عَنْ أَنَسٍ \" وَأَبْوَالِهَا \". فَفَعَلُوا فَلَمَّا صَحُّوا كَفَرُوا بَعْدَ إِسْلاَمِهِمْ وَقَتَلُوا رَاعِيَ رَسُولِ اللَّهِ مُؤْمِنًا وَاسْتَاقُوا ذَوْدَ رَسُولِ اللَّهِ وَهَرَبُوا مُحَارِبِينَ فَأَرْسَلَ رَسُولُ اللَّهِ مَنْ أَتَى بِهِمْ فَأُخِذُوا فَقَطَّعَ أَيْدِيَهُمْ وَأَرْجُلَهُمْ وَسَمَّرَ أَعْيُنَهُمْ وَتَرَكَهُمْ فِي الْحَرَّةِ حَتَّى مَاتُوا."
+summary:
+  ar: "حديث في سنن النسائي، رقم 4031، يذكر ألبان الإبل وأبوالها. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan al-Nasa'i, no. 4031 (The Book of Fighting [The Prohibition of Bloodshed]), that mentions camel milk and urine as treatment. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن نسائی کی حدیث نمبر 4031، جس میں اونٹنی کا دودھ اور پیشاب کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 4031 (book 37 hadith 66); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

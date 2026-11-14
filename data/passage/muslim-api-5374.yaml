@@ -1,0 +1,16 @@
+id: passage/muslim-api-5374
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "5374"
+label: { ar: "صحيح مسلم 5374 — أعضاء البدن", en: "Sahih Muslim 5374 — the organs of the body", ur: "صحیح مسلم 5374 — اعضائے بدن" }
+text: "… حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، حَدَّثَنَا شُعْبَةُ، عَنْ وَاقِدِ، بْنِ مُحَمَّدِ بْنِ زَيْدٍ أَنَّهُ سَمِعَ نَافِعًا، قَالَ رَأَى ابْنُ عُمَرَ مِسْكِينًا فَجَعَلَ يَضَعُ بَيْنَ يَدَيْهِ وَيَضَعُ بَيْنَ يَدَيْهِ - قَالَ - فَجَعَلَ يَأْكُلُ أَكْلاً كَثِيرًا - قَالَ - فَقَالَ لاَ يُدْخَلَنَّ هَذَا عَلَىَّ فَإِنِّي سَمِعْتُ رَسُولَ اللَّهِ يَقُولُ \" إِنَّ الْكَافِرَ يَأْكُلُ فِي سَبْعَةِ أَمْعَاءٍ \"."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 5374، يذكر أعضاء البدن. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih Muslim, no. 5374 (The Book of Drinks), that mentions the organs of the body. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح مسلم کی حدیث نمبر 5374، جس میں اعضائے بدن کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ilm-al-tashrih, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 5374 (book 36 hadith 248); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

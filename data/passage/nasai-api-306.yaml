@@ -1,0 +1,16 @@
+id: passage/nasai-api-306
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "306"
+label: { ar: "سنن النسائي 306 — ألبان الإبل وأبوالها", en: "Sunan al-Nasa'i 306 — camel milk and urine as treatment", ur: "سنن نسائی 306 — اونٹنی کا دودھ اور پیشاب" }
+text: "… اصْفَرَّتْ أَلْوَانُهُمْ وَعَظُمَتْ بُطُونُهُمْ فَبَعَثَ بِهِمْ رَسُولُ اللَّهِ إِلَى لِقَاحٍ لَهُ وَأَمَرَهُمْ أَنْ يَشْرَبُوا مِنْ أَلْبَانِهَا وَأَبْوَالِهَا حَتَّى صَحُّوا فَقَتَلُوا رَاعِيَهَا وَاسْتَاقُوا الإِبِلَ فَبَعَثَ نَبِيُّ اللَّهِ فِي طَلَبِهِمْ فَأُتِيَ بِهِمْ فَقَطَعَ أَيْدِيَهُمْ وَأَرْجُلَهُمْ وَسَمَرَ أَعْيُنَهُمْ. قَالَ أَمِيرُ الْمُؤْمِنِينَ عَبْدُ الْمَلِكِ لأَنَسٍ وَهُوَ يُحَدِّثُهُ هَذَا الْحَدِيثَ بِكُفْرٍ أَمْ بِذَنْبٍ قَالَ بِكُفْرٍ. قَالَ أَبُو عَبْدِ الرَّحْمَنِ لاَ …"
+summary:
+  ar: "حديث في سنن النسائي، رقم 306، يذكر ألبان الإبل وأبوالها. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan al-Nasa'i, no. 306 (The Book of Purification), that mentions camel milk and urine as treatment. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن نسائی کی حدیث نمبر 306، جس میں اونٹنی کا دودھ اور پیشاب کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 306 (book 1 hadith 307); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

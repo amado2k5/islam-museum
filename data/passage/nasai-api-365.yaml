@@ -1,0 +1,16 @@
+id: passage/nasai-api-365
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "365"
+label: { ar: "سنن النسائي 365 — أعضاء البدن", en: "Sunan al-Nasa'i 365 — the organs of the body", ur: "سنن نسائی 365 — اعضائے بدن" }
+text: "أَخْبَرَنَا سُوَيْدُ بْنُ نَصْرٍ، قَالَ حَدَّثَنَا عَبْدُ اللَّهِ، عَنْ هِشَامِ بْنِ عُرْوَةَ، عَنْ أَبِيهِ، عَنْ عَائِشَةَ، أَنَّ فَاطِمَةَ بِنْتَ أَبِي حُبَيْشٍ، أَتَتْ رَسُولَ اللَّهِ فَقَالَتْ يَا رَسُولَ اللَّهِ إِنِّي أُسْتَحَاضُ فَلاَ أَطْهُرُ. فَقَالَ رَسُولُ اللَّهِ \" إِنَّمَا ذَلِكِ عِرْقٌ وَلَيْسَتْ بِالْحِيضَةِ فَإِذَا أَقْبَلَتِ الْحِيضَةُ فَأَمْسِكِي عَنِ الصَّلاَةِ وَإِذَا أَدْبَرَتْ فَاغْسِلِي عَنْكِ الدَّمَ وَصَلِّي \"."
+summary:
+  ar: "حديث في سنن النسائي، رقم 365، يذكر أعضاء البدن. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan al-Nasa'i, no. 365 (The Book of Menstruation and Istihadah), that mentions the organs of the body. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن نسائی کی حدیث نمبر 365، جس میں اعضائے بدن کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ilm-al-tashrih, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 365 (book 3 hadith 17); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

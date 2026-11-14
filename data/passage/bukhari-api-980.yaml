@@ -1,0 +1,18 @@
+id: passage/bukhari-api-980
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "980"
+label: { ar: "صحيح البخاري 980 — المرض والمريض، مداواة الجراح", en: "Sahih al-Bukhari 980 — illness and the sick; the treatment of wounds", ur: "صحیح بخاری 980 — بیماری اور بیمار، زخموں کا علاج" }
+text: "… غَزَا مَعَ النَّبِيِّ ثِنْتَىْ عَشْرَةَ غَزْوَةً فَكَانَتْ أُخْتُهَا مَعَهُ فِي سِتِّ غَزَوَاتٍ. فَقَالَتْ فَكُنَّا نَقُومُ عَلَى الْمَرْضَى وَنُدَاوِي الْكَلْمَى، فَقَالَتْ يَا رَسُولَ اللَّهِ، عَلَى إِحْدَانَا بَأْسٌ إِذَا لَمْ يَكُنْ لَهَا جِلْبَابٌ أَنْ لاَ تَخْرُجَ فَقَالَ \" لِتُلْبِسْهَا صَاحِبَتُهَا مِنْ جِلْبَابِهَا فَلْيَشْهَدْنَ الْخَيْرَ وَدَعْوَةَ الْمُؤْمِنِينَ \". قَالَتْ حَفْصَةُ فَلَمَّا قَدِمَتْ أُمُّ عَطِيَّةَ أَتَيْتُهَا، فَسَأَلْتُهَا أَسَمِعْتِ فِي …"
+summary:
+  ar: "حديث في صحيح البخاري، رقم 980، يذكر المرض والمريض، ومداواة الجراح، ومداواة النساء للجرحى، والتداوي. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih al-Bukhari, no. 980 (The Two Festivals (Eids)), that mentions illness and the sick, the treatment of wounds, women treating the wounded, seeking treatment. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح بخاری کی حدیث نمبر 980، جس میں بیماری اور بیمار، زخموں کا علاج، خواتین کا زخمیوں کا علاج، علاج کرانا کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/al-jiraha, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/tadawi, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 980 (book 13 hadith 29); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

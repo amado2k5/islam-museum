@@ -1,0 +1,16 @@
+id: passage/nasai-api-1136
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "1136"
+label: { ar: "سنن النسائي 1136 — أعضاء البدن", en: "Sunan al-Nasa'i 1136 — the organs of the body", ur: "سنن نسائی 1136 — اعضائے بدن" }
+text: "… وَيَقْرَأَ مَا تَيَسَّرَ مِنَ الْقُرْآنِ مِمَّا عَلَّمَهُ اللَّهُ وَأَذِنَ لَهُ فِيهِ ثُمَّ يُكَبِّرَ وَيَرْكَعَ حَتَّى تَطْمَئِنَّ مَفَاصِلُهُ وَتَسْتَرْخِيَ ثُمَّ يَقُولَ سَمِعَ اللَّهُ لِمَنْ حَمِدَهُ ثُمَّ يَسْتَوِيَ قَائِمًا حَتَّى يُقِيمَ صُلْبَهُ ثُمَّ يُكَبِّرَ وَيَسْجُدَ حَتَّى يُمَكِّنَ وَجْهَهُ \". وَقَدْ سَمِعْتُهُ يَقُولُ \" جَبْهَتَهُ حَتَّى تَطْمَئِنَّ مَفَاصِلُهُ وَتَسْتَرْخِيَ وَيُكَبِّرَ فَيَرْفَعَ حَتَّى يَسْتَوِيَ قَاعِدًا عَلَى مَقْعَدَتِهِ وَيُقِيمَ صُلْبَهُ …"
+summary:
+  ar: "حديث في سنن النسائي، رقم 1136، يذكر أعضاء البدن. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan al-Nasa'i, no. 1136 (The Book of The At-Tatbiq (Clasping One's Hands Together)), that mentions the organs of the body. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن نسائی کی حدیث نمبر 1136، جس میں اعضائے بدن کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ilm-al-tashrih, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 1136 (book 12 hadith 108); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

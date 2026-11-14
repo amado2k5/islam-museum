@@ -1,0 +1,16 @@
+id: passage/muslim-api-4518
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "4518"
+label: { ar: "صحيح مسلم 4518 — أطوار خلق الجنين", en: "Sahih Muslim 4518 — the stages of the embryo", ur: "صحیح مسلم 4518 — جنین کے مراحل" }
+text: "… الْعَنْزِ وَنَحْنُ أَرْبَعَ عَشْرَةَ مِائَةً قَالَ فَأَكَلْنَا حَتَّى شَبِعْنَا جَمِيعًا ثُمَّ حَشَوْنَا جُرُبَنَا فَقَالَ نَبِيُّ اللَّهِ \" فَهَلْ مِنْ وَضُوءٍ \". قَالَ فَجَاءَ رَجُلٌ بِإِدَاوَةٍ لَهُ فِيهَا نُطْفَةٌ فَأَفْرَغَهَا فِي قَدَحٍ فَتَوَضَّأْنَا كُلُّنَا نُدَغْفِقُهُ دَغْفَقَةً أَرْبَعَ عَشْرَةَ مِائَةً. قَالَ ثُمَّ جَاءَ بَعْدَ ذَلِكَ ثَمَانِيَةٌ فَقَالُوا هَلْ مِنْ طَهُورٍ فَقَالَ رَسُولُ اللَّهِ \" فَرِغَ الْوَضُوءُ \"."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 4518، يذكر أطوار خلق الجنين. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih Muslim, no. 4518 (The Book of Lost Property), that mentions the stages of the embryo. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح مسلم کی حدیث نمبر 4518، جس میں جنین کے مراحل کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ilm-al-tashrih, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 4518 (book 31 hadith 20); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

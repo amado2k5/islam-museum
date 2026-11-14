@@ -1,0 +1,16 @@
+id: passage/nasai-api-4294
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "4294"
+label: { ar: "سنن النسائي 4294 — الحجامة", en: "Sunan al-Nasa'i 4294 — cupping", ur: "سنن نسائی 4294 — حجامہ" }
+text: "أَخْبَرَنَا شُعَيْبُ بْنُ يُوسُفَ، عَنْ يَحْيَى، عَنْ مُحَمَّدِ بْنِ يُوسُفَ، عَنِ السَّائِبِ بْنِ يَزِيدَ، عَنْ رَافِعِ بْنِ خَدِيجٍ، قَالَ قَالَ رَسُولُ اللَّهِ \" شَرُّ الْكَسْبِ مَهْرُ الْبَغِيِّ وَثَمَنُ الْكَلْبِ وَكَسْبُ الْحَجَّامِ \"."
+summary:
+  ar: "حديث في سنن النسائي، رقم 4294، يذكر الحجامة. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan al-Nasa'i, no. 4294 (The Book of Hunting and Slaughtering), that mentions cupping. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن نسائی کی حدیث نمبر 4294، جس میں حجامہ کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 4294 (book 42 hadith 32); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

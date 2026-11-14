@@ -1,0 +1,16 @@
+id: passage/nasai-api-2847
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "2847"
+label: { ar: "سنن النسائي 2847 — الحجامة", en: "Sunan al-Nasa'i 2847 — cupping", ur: "سنن نسائی 2847 — حجامہ" }
+text: "أَخْبَرَنَا مُحَمَّدُ بْنُ مَنْصُورٍ، عَنْ سُفْيَانَ، قَالَ أَنْبَأَنَا عَمْرُو بْنُ دِينَارٍ، قَالَ سَمِعْتُ عَطَاءً، قَالَ سَمِعْتُ ابْنَ عَبَّاسٍ، يَقُولُ احْتَجَمَ النَّبِيُّ وَهُوَ مُحْرِمٌ. ثُمَّ قَالَ بَعْدُ أَخْبَرَنِي طَاوُسٌ عَنِ ابْنِ عَبَّاسٍ يَقُولُ احْتَجَمَ النَّبِيُّ وَهُوَ مُحْرِمٌ."
+summary:
+  ar: "حديث في سنن النسائي، رقم 2847، يذكر الحجامة. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan al-Nasa'i, no. 2847 (The Book of Hajj), that mentions cupping. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن نسائی کی حدیث نمبر 2847، جس میں حجامہ کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 2847 (book 24 hadith 230); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

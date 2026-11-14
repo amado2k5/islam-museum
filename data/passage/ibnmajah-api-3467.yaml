@@ -1,0 +1,17 @@
+id: passage/ibnmajah-api-3467
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "3467"
+label: { ar: "سنن ابن ماجه 3467 — القسط، أسماء الأمراض", en: "Sunan Ibn Majah 3467 — costus; named diseases", ur: "سنن ابن ماجہ 3467 — قسط، بیماریوں کے نام" }
+text: "حَدَّثَنَا عَبْدُ الرَّحْمَنِ بْنُ عَبْدِ الْوَهَّابِ، حَدَّثَنَا يَعْقُوبُ بْنُ إِسْحَاقَ، حَدَّثَنَا عَبْدُ الرَّحْمَنِ بْنُ مَيْمُونٍ، حَدَّثَنِي أَبِي، عَنْ زَيْدِ بْنِ أَرْقَمَ، قَالَ نَعَتَ رَسُولُ اللَّهِ ـ مِنْ ذَاتِ الْجَنْبِ وَرْسًا وَقُسْطًا وَزَيْتًا يُلَدُّ بِهِ."
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 3467، يذكر القسط، وأسماء الأمراض. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan Ibn Majah, no. 3467 (Chapters on Medicine), that mentions costus, named diseases. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 3467، جس میں قسط، بیماریوں کے نام کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/medicine, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 3467 (book 31 hadith 32); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

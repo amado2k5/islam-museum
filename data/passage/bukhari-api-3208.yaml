@@ -1,0 +1,16 @@
+id: passage/bukhari-api-3208
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "3208"
+label: { ar: "صحيح البخاري 3208 — أطوار خلق الجنين", en: "Sahih al-Bukhari 3208 — the stages of the embryo", ur: "صحیح بخاری 3208 — جنین کے مراحل" }
+text: "… قَالَ عَبْدُ اللَّهِ حَدَّثَنَا رَسُولُ اللَّهِ وَهْوَ الصَّادِقُ الْمَصْدُوقُ قَالَ \" إِنَّ أَحَدَكُمْ يُجْمَعُ خَلْقُهُ فِي بَطْنِ أُمِّهِ أَرْبَعِينَ يَوْمًا، ثُمَّ يَكُونُ عَلَقَةً مِثْلَ ذَلِكَ، ثُمَّ يَكُونُ مُضْغَةً مِثْلَ ذَلِكَ، ثُمَّ يَبْعَثُ اللَّهُ مَلَكًا، فَيُؤْمَرُ بِأَرْبَعِ كَلِمَاتٍ، وَيُقَالُ لَهُ اكْتُبْ عَمَلَهُ وَرِزْقَهُ وَأَجَلَهُ وَشَقِيٌّ أَوْ سَعِيدٌ. ثُمَّ يُنْفَخُ فِيهِ الرُّوحُ، فَإِنَّ الرَّجُلَ مِنْكُمْ لَيَعْمَلُ حَتَّى …"
+summary:
+  ar: "حديث في صحيح البخاري، رقم 3208، يذكر أطوار خلق الجنين. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih al-Bukhari, no. 3208 (Beginning of Creation), that mentions the stages of the embryo. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح بخاری کی حدیث نمبر 3208، جس میں جنین کے مراحل کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ilm-al-tashrih, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 3208 (book 59 hadith 19); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

@@ -1,0 +1,18 @@
+id: passage/muslim-api-5764
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "5764"
+label: { ar: "صحيح مسلم 5764 — القسط والعود الهندي، علاج العذرة", en: "Sahih Muslim 5764 — costus (Indian aloeswood); treating the throat ailment (al-udhra)", ur: "صحیح مسلم 5764 — قسط ہندی، گلے کی بیماری (عذرہ) کا علاج" }
+text: "… أَخْبَرَتْنِي أَنَّهَا أَتَتْ رَسُولَ اللَّهِ بِابْنٍ لَهَا لَمْ يَبْلُغْ أَنْ يَأْكُلَ الطَّعَامَ وَقَدْ أَعْلَقَتْ عَلَيْهِ مِنَ الْعُذْرَةِ - قَالَ يُونُسُ أَعْلَقَتْ غَمَزَتْ فَهِيَ تَخَافُ أَنْ يَكُونَ بِهِ عُذْرَةٌ - قَالَتْ - فَقَالَ رَسُولُ اللَّهِ \" عَلاَمَهْ تَدْغَرْنَ أَوْلاَدَكُنَّ بِهَذَا الإِعْلاَقِ عَلَيْكُمْ بِهَذَا الْعُودِ الْهِنْدِيِّ - يَعْنِي بِهِ الْكُسْتَ - فَإِنَّ فِيهِ سَبْعَةَ أَشْفِيَةٍ مِنْهَا ذَاتُ …"
+summary:
+  ar: "حديث في صحيح مسلم، رقم 5764، يذكر القسط والعود الهندي، وعلاج العذرة، والشفاء. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih Muslim, no. 5764 (Introduction), that mentions costus (Indian aloeswood), treating the throat ailment (al-udhra), healing. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح مسلم کی حدیث نمبر 5764، جس میں قسط ہندی، گلے کی بیماری (عذرہ) کا علاج، شفا کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/medicine, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/tadawi, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 5764 (book 0 hadith 0); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

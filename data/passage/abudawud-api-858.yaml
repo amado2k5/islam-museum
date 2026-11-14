@@ -1,0 +1,16 @@
+id: passage/abudawud-api-858
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "858"
+label: { ar: "سنن أبي داود 858 — أعضاء البدن", en: "Sunan Abi Dawud 858 — the organs of the body", ur: "سنن ابی داؤد 858 — اعضائے بدن" }
+text: "… مَا أُذِنَ لَهُ فِيهِ وَتَيَسَّرَ \". فَذَكَرَ نَحْوَ حَدِيثِ حَمَّادٍ قَالَ \" ثُمَّ يُكَبِّرُ فَيَسْجُدُ فَيُمَكِّنُ وَجْهَهُ \". قَالَ هَمَّامٌ وَرُبَّمَا قَالَ \" جَبْهَتَهُ مِنَ الأَرْضِ حَتَّى تَطْمَئِنَّ مَفَاصِلُهُ وَتَسْتَرْخِيَ ثُمَّ يُكَبِّرُ فَيَسْتَوِي قَاعِدًا عَلَى مَقْعَدِهِ وَيُقِيمُ صُلْبَهُ \". فَوَصَفَ الصَّلاَةَ هَكَذَا أَرْبَعَ رَكَعَاتٍ حَتَّى فَرَغَ \" لاَ تَتِمُّ صَلاَةُ أَحَدِكُمْ حَتَّى يَفْعَلَ ذَلِكَ \"."
+summary:
+  ar: "حديث في سنن أبي داود، رقم 858، يذكر أعضاء البدن. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan Abi Dawud, no. 858 (Prayer (Kitab Al-Salat)), that mentions the organs of the body. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن ابی داؤد کی حدیث نمبر 858، جس میں اعضائے بدن کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ilm-al-tashrih, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 858 (book 2 hadith 468); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

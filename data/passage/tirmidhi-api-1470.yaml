@@ -1,0 +1,16 @@
+id: passage/tirmidhi-api-1470
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "1470"
+label: { ar: "جامع الترمذي 1470 — أعضاء البدن", en: "Jami' al-Tirmidhi 1470 — the organs of the body", ur: "جامع ترمذی 1470 — اعضائے بدن" }
+text: "… فِي الصَّيْدِ وَالذَّبِيحَةِ إِذَا وَقَعَا فِي الْمَاءِ أَنْ لاَ يَأْكُلَ. وَقَالَ بَعْضُهُمْ فِي الذَّبِيحَةِ إِذَا قُطِعَ الْحُلْقُومُ فَوَقَعَ فِي الْمَاءِ فَمَاتَ فِيهِ فَإِنَّهُ يُؤْكَلُ وَهُوَ قَوْلُ عَبْدِ اللَّهِ بْنِ الْمُبَارَكِ. وَقَدِ اخْتَلَفَ أَهْلُ الْعِلْمِ فِي الْكَلْبِ إِذَا أَكَلَ مِنَ الصَّيْدِ فَقَالَ أَكْثَرُ أَهْلِ الْعِلْمِ إِذَا أَكَلَ الْكَلْبُ مِنْهُ فَلاَ تَأْكُلْ. وَهُوَ قَوْلُ سُفْيَانَ وَعَبْدِ اللَّهِ …"
+summary:
+  ar: "حديث في جامع الترمذي، رقم 1470، يذكر أعضاء البدن. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Jami' al-Tirmidhi, no. 1470 (The Book on Hunting), that mentions the organs of the body. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "جامع ترمذی کی حدیث نمبر 1470، جس میں اعضائے بدن کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ilm-al-tashrih, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 1470 (book 18 hadith 8); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

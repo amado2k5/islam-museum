@@ -1,0 +1,16 @@
+id: passage/muslim-api-2383
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2383"
+label: { ar: "صحيح مسلم 2383 — أعضاء البدن", en: "Sahih Muslim 2383 — the organs of the body", ur: "صحیح مسلم 2383 — اعضائے بدن" }
+text: "… نُمَيْرٍ قَالاَ حَدَّثَنَا ابْنُ فُضَيْلٍ، عَنْ عُمَارَةَ، عَنْ أَبِي زُرْعَةَ، عَنْ أَبِي هُرَيْرَةَ، قَالَ جَاءَ رَجُلٌ إِلَى النَّبِيِّ فَقَالَ يَا رَسُولَ اللَّهِ أَىُّ الصَّدَقَةِ أَعْظَمُ أَجْرًا فَقَالَ \" أَمَا وَأَبِيكَ لَتُنَبَّأَنَّهُ أَنْ تَصَدَّقَ وَأَنْتَ صَحِيحٌ شَحِيحٌ تَخْشَى الْفَقْرَ وَتَأْمُلُ الْبَقَاءَ وَلاَ تُمْهِلْ حَتَّى إِذَا بَلَغَتِ الْحُلْقُومَ قُلْتَ لِفُلاَنٍ كَذَا وَلِفُلاَنٍ كَذَا وَقَدْ كَانَ لِفُلاَنٍ \"."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 2383، يذكر أعضاء البدن. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih Muslim, no. 2383 (The Book of Zakat), that mentions the organs of the body. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح مسلم کی حدیث نمبر 2383، جس میں اعضائے بدن کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ilm-al-tashrih, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 2383 (book 12 hadith 120); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

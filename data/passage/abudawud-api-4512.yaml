@@ -1,0 +1,16 @@
+id: passage/abudawud-api-4512
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "4512"
+label: { ar: "سنن أبي داود 4512 — السم والترياق", en: "Sunan Abi Dawud 4512 — poison and antidote", ur: "سنن ابی داؤد 4512 — زہر اور تریاق" }
+text: "… شَاةً مَصْلِيَّةً سَمَّتْهَا فَأَكَلَ رَسُولُ اللَّهِ مِنْهَا وَأَكَلَ الْقَوْمُ فَقَالَ \" ارْفَعُوا أَيْدِيَكُمْ فَإِنَّهَا أَخْبَرَتْنِي أَنَّهَا مَسْمُومَةٌ \". فَمَاتَ بِشْرُ بْنُ الْبَرَاءِ بْنِ مَعْرُورٍ الأَنْصَارِيُّ فَأَرْسَلَ إِلَى الْيَهُودِيَّةِ \" مَا حَمَلَكِ عَلَى الَّذِي صَنَعْتِ \". قَالَتْ إِنْ كُنْتَ نَبِيًّا لَمْ يَضُرَّكَ الَّذِي صَنَعْتُ وَإِنْ كُنْتَ مَلِكًا أَرَحْتُ النَّاسَ مِنْكَ. فَأَمَرَ بِهَا رَسُولُ اللَّهِ فَقُتِلَتْ ثُمَّ …"
+summary:
+  ar: "حديث في سنن أبي داود، رقم 4512، يذكر السم والترياق. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan Abi Dawud, no. 4512 (Types of Blood-Wit (Kitab Al-Diyat)), that mentions poison and antidote. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن ابی داؤد کی حدیث نمبر 4512، جس میں زہر اور تریاق کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-adwiya-al-mufrada, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 4512 (book 41 hadith 19); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

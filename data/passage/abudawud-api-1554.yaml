@@ -1,0 +1,16 @@
+id: passage/abudawud-api-1554
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "1554"
+label: { ar: "سنن أبي داود 1554 — السقم، الجذام والبرص", en: "Sunan Abi Dawud 1554 — sickness; leprosy and vitiligo", ur: "سنن ابی داؤد 1554 — سقم، جذام اور برص" }
+text: "حَدَّثَنَا مُوسَى بْنُ إِسْمَاعِيلَ، حَدَّثَنَا حَمَّادٌ، أَخْبَرَنَا قَتَادَةُ، عَنْ أَنَسٍ، أَنَّ النَّبِيَّ كَانَ يَقُولُ \" اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْبَرَصِ وَالْجُنُونِ وَالْجُذَامِ وَمِنْ سَيِّئِ الأَسْقَامِ \"."
+summary:
+  ar: "حديث في سنن أبي داود، رقم 1554، يذكر السقم، والجذام والبرص. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan Abi Dawud, no. 1554 (Prayer (Kitab Al-Salat): Detailed Injunctions about Witr), that mentions sickness, leprosy and vitiligo. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن ابی داؤد کی حدیث نمبر 1554، جس میں سقم، جذام اور برص کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 1554 (book 8 hadith 139); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

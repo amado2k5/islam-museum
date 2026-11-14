@@ -1,0 +1,16 @@
+id: passage/bukhari-api-5757
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "5757"
+label: { ar: "صحيح البخاري 5757 — العدوى", en: "Sahih al-Bukhari 5757 — contagion", ur: "صحیح بخاری 5757 — چھوت" }
+text: "حَدَّثَنَا مُحَمَّدُ بْنُ الْحَكَمِ، حَدَّثَنَا النَّضْرُ، أَخْبَرَنَا إِسْرَائِيلُ، أَخْبَرَنَا أَبُو حَصِينٍ، عَنْ أَبِي صَالِحٍ، عَنْ أَبِي هُرَيْرَةَ ـ عَنِ النَّبِيِّ قَالَ \" لاَ عَدْوَى، وَلاَ طِيَرَةَ، وَلاَ هَامَةَ، وَلاَ صَفَرَ \"."
+summary:
+  ar: "حديث في صحيح البخاري، رقم 5757، يذكر العدوى. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih al-Bukhari, no. 5757 (Medicine), that mentions contagion. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح بخاری کی حدیث نمبر 5757، جس میں چھوت کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 5757 (book 76 hadith 72); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

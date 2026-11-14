@@ -1,0 +1,16 @@
+id: passage/abudawud-api-3883
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "3883"
+label: { ar: "سنن أبي داود 3883 — الرقية", en: "Sunan Abi Dawud 3883 — ruqya recited over the sick", ur: "سنن ابی داؤد 3883 — رقیہ" }
+text: "… اللَّهِ عَنْ زَيْنَبَ، امْرَأَةِ عَبْدِ اللَّهِ عَنْ عَبْدِ اللَّهِ، قَالَ سَمِعْتُ رَسُولَ اللَّهِ يَقُولُ \" إِنَّ الرُّقَى وَالتَّمَائِمَ وَالتِّوَلَةَ شِرْكٌ \". قَالَتْ قُلْتُ لِمَ تَقُولُ هَذَا وَاللَّهِ لَقَدْ كَانَتْ عَيْنِي تَقْذِفُ وَكُنْتُ أَخْتَلِفُ إِلَى فُلاَنٍ الْيَهُودِيِّ يَرْقِينِي فَإِذَا رَقَانِي سَكَنَتْ. فَقَالَ عَبْدُ اللَّهِ إِنَّمَا ذَاكِ عَمَلُ الشَّيْطَانِ كَانَ يَنْخَسُهَا بِيَدِهِ فَإِذَا رَقَاهَا كَفَّ عَنْهَا إِنَّمَا …"
+summary:
+  ar: "حديث في سنن أبي داود، رقم 3883، يذكر الرقية. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan Abi Dawud, no. 3883 (Medicine (Kitab Al-Tibb)), that mentions ruqya recited over the sick. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن ابی داؤد کی حدیث نمبر 3883، جس میں رقیہ کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 3883 (book 29 hadith 29); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

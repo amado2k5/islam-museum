@@ -1,0 +1,18 @@
+id: passage/bukhari-api-5696
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "5696"
+label: { ar: "صحيح البخاري 5696 — الحجامة، القسط والعود الهندي", en: "Sahih al-Bukhari 5696 — cupping; costus (Indian aloeswood)", ur: "صحیح بخاری 5696 — حجامہ، قسط ہندی" }
+text: "حَدَّثَنَا مُحَمَّدُ بْنُ مُقَاتِلٍ، أَخْبَرَنَا عَبْدُ اللَّهِ، أَخْبَرَنَا حُمَيْدٌ الطَّوِيلُ، عَنْ أَنَسٍ ـ أَنَّهُ سُئِلَ عَنْ أَجْرِ الْحَجَّامِ، فَقَالَ احْتَجَمَ رَسُولُ اللَّهِ حَجَمَهُ أَبُو طَيْبَةَ، وَأَعْطَاهُ صَاعَيْنِ مِنْ طَعَامٍ، وَكَلَّمَ مَوَالِيَهُ فَخَفَّفُوا عَنْهُ، وَقَالَ \" إِنَّ أَمْثَلَ مَا تَدَاوَيْتُمْ بِهِ الْحِجَامَةُ وَالْقُسْطُ الْبَحْرِيُّ \". وَقَالَ \" لاَ تُعَذِّبُوا صِبْيَانَكُمْ بِالْغَمْزِ مِنَ الْعُذْرَةِ، وَعَلَيْكُمْ بِالْقُسْطِ \"."
+summary:
+  ar: "حديث في صحيح البخاري، رقم 5696، يذكر الحجامة، والقسط والعود الهندي، والقسط، وعلاج العذرة، والتداوي. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih al-Bukhari, no. 5696 (Medicine), that mentions cupping, costus (Indian aloeswood), costus, treating the throat ailment (al-udhra), seeking treatment. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح بخاری کی حدیث نمبر 5696، جس میں حجامہ، قسط ہندی، قسط، گلے کی بیماری (عذرہ) کا علاج، علاج کرانا کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/medicine, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/tadawi, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 5696 (book 76 hadith 18); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

@@ -1,0 +1,16 @@
+id: passage/muwatta-api-1566
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "1566"
+label: { ar: "موطأ مالك 1566 — أسماء الأمراض", en: "Muwatta Malik 1566 — named diseases", ur: "موطأ مالک 1566 — بیماریوں کے نام" }
+text: "… يَحْيَى وَسُئِلَ مَالِكٌ عَنْ شَتَرِ الْعَيْنِ وَحِجَاجِ الْعَيْنِ فَقَالَ لَيْسَ فِي ذَلِكَ إِلاَّ الاِجْتِهَادُ إِلاَّ أَنْ يَنْقُصَ بَصَرُ الْعَيْنِ فَيَكُونُ لَهُ بِقَدْرِ مَا نَقَصَ مِنْ بَصَرِ الْعَيْنِ. قَالَ يَحْيَى قَالَ مَالِكٌ الأَمْرُ عِنْدَنَا فِي الْعَيْنِ الْقَائِمَةِ الْعَوْرَاءِ إِذَا طَفِئَتْ وَفِي الْيَدِ الشَّلاَّءِ إِذَا قُطِعَتْ إِنَّهُ لَيْسَ فِي ذَلِكَ إِلاَّ الاِجْتِهَادُ وَلَيْسَ فِي ذَلِكَ عَقْلٌ مُسَمًّى."
+summary:
+  ar: "حديث في موطأ مالك، رقم 1566، يذكر أسماء الأمراض. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Muwatta Malik, no. 1566 (Blood-Money), that mentions named diseases. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "موطأ مالک کی حدیث نمبر 1566، جس میں بیماریوں کے نام کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 1566 (book 43 hadith 15); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/muwatta-malik, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

@@ -1,0 +1,16 @@
+id: passage/abudawud-api-182
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "182"
+label: { ar: "سنن أبي داود 182 — أطوار خلق الجنين", en: "Sunan Abi Dawud 182 — the stages of the embryo", ur: "سنن ابی داؤد 182 — جنین کے مراحل" }
+text: "… اللَّهِ فَجَاءَ رَجُلٌ كَأَنَّهُ بَدَوِيٌّ فَقَالَ يَا نَبِيَّ اللَّهِ مَا تَرَى فِي مَسِّ الرَّجُلِ ذَكَرَهُ بَعْدَ مَا يَتَوَضَّأُ فَقَالَ \" هَلْ هُوَ إِلاَّ مُضْغَةٌ مِنْهُ \". أَوْ قَالَ - \" بَضْعَةٌ مِنْهُ \". قَالَ أَبُو دَاوُدَ رَوَاهُ هِشَامُ بْنُ حَسَّانَ وَسُفْيَانُ الثَّوْرِيُّ وَشُعْبَةُ وَابْنُ عُيَيْنَةَ وَجَرِيرٌ الرَّازِيُّ عَنْ مُحَمَّدِ بْنِ جَابِرٍ عَنْ قَيْسِ بْنِ طَلْقٍ."
+summary:
+  ar: "حديث في سنن أبي داود، رقم 182، يذكر أطوار خلق الجنين. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan Abi Dawud, no. 182 (Purification (Kitab Al-Taharah)), that mentions the stages of the embryo. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن ابی داؤد کی حدیث نمبر 182، جس میں جنین کے مراحل کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ilm-al-tashrih, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 182 (book 1 hadith 182); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

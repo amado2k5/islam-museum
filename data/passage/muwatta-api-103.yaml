@@ -1,0 +1,16 @@
+id: passage/muwatta-api-103
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "103"
+label: { ar: "موطأ مالك 103 — الجراحة والختان والجبائر", en: "Muwatta Malik 103 — surgery, circumcision and splints", ur: "موطأ مالک 103 — جراحت، ختنہ اور پٹیاں" }
+text: "وَحَدَّثَنِي عَنْ مَالِكٍ، عَنْ أَبِي النَّضْرِ، مَوْلَى عُمَرَ بْنِ عُبَيْدِ اللَّهِ عَنْ أَبِي سَلَمَةَ بْنِ عَبْدِ الرَّحْمَنِ بْنِ عَوْفٍ، أَنَّهُ قَالَ سَأَلْتُ عَائِشَةَ زَوْجَ النَّبِيِّ مَا يُوجِبُ الْغُسْلَ فَقَالَتْ هَلْ تَدْرِي مَا مَثَلُكَ يَا أَبَا سَلَمَةَ مَثَلُ الْفَرُّوجِ يَسْمَعُ الدِّيَكَةَ تَصْرُخُ فَيَصْرُخُ مَعَهَا إِذَا جَاوَزَ الْخِتَانُ الْخِتَانَ فَقَدْ وَجَبَ الْغُسْلُ."
+summary:
+  ar: "حديث في موطأ مالك، رقم 103، يذكر الجراحة والختان والجبائر. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Muwatta Malik, no. 103 (Purity), that mentions surgery, circumcision and splints. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "موطأ مالک کی حدیث نمبر 103، جس میں جراحت، ختنہ اور پٹیاں کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-jiraha, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 103 (book 2 hadith 72); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/muwatta-malik, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

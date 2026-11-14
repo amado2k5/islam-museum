@@ -1,0 +1,16 @@
+id: passage/nasai-api-5161
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "5161"
+label: { ar: "سنن النسائي 5161 — الجراحة والختان والجبائر", en: "Sunan al-Nasa'i 5161 — surgery, circumcision and splints", ur: "سنن نسائی 5161 — جراحت، ختنہ اور پٹیاں" }
+text: "أَخْبَرَنَا مُحَمَّدُ بْنُ مَعْمَرٍ، قَالَ حَدَّثَنَا حَبَّانُ، قَالَ حَدَّثَنَا سَلْمُ بْنُ زَرِيرٍ، قَالَ حَدَّثَنَا عَبْدُ الرَّحْمَنِ بْنُ طَرَفَةَ، عَنْ جَدِّهِ، عَرْفَجَةَ بْنِ أَسْعَدَ أَنَّهُ أُصِيبَ أَنْفُهُ يَوْمَ الْكُلاَبِ فِي الْجَاهِلِيَّةِ فَاتَّخَذَ أَنْفًا مِنْ وَرِقٍ فَأَنْتَنَ عَلَيْهِ فَأَمَرَهُ النَّبِيُّ أَنْ يَتَّخِذَ أَنْفًا مِنْ ذَهَبٍ."
+summary:
+  ar: "حديث في سنن النسائي، رقم 5161، يذكر الجراحة والختان والجبائر. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan al-Nasa'i, no. 5161 (The Book of Adornment), that mentions surgery, circumcision and splints. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن نسائی کی حدیث نمبر 5161، جس میں جراحت، ختنہ اور پٹیاں کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-jiraha, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 5161 (book 48 hadith 122); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

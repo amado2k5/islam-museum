@@ -1,0 +1,16 @@
+id: passage/ibnmajah-api-292
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "292"
+label: { ar: "سنن ابن ماجه 292 — الجراحة والختان والجبائر", en: "Sunan Ibn Majah 292 — surgery, circumcision and splints", ur: "سنن ابن ماجہ 292 — جراحت، ختنہ اور پٹیاں" }
+text: "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا سُفْيَانُ بْنُ عُيَيْنَةَ، عَنِ الزُّهْرِيِّ، عَنْ سَعِيدِ بْنِ الْمُسَيَّبِ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ ـ \" الْفِطْرَةُ خَمْسٌ - أَوْ خَمْسٌ مِنَ الْفِطْرَةِ - الْخِتَانُ وَالاِسْتِحْدَادُ وَتَقْلِيمُ الأَظْفَارِ وَنَتْفُ الإِبِطِ وَقَصُّ الشَّارِبِ \"."
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 292، يذكر الجراحة والختان والجبائر. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan Ibn Majah, no. 292 (The Book of Purification and its Sunnah), that mentions surgery, circumcision and splints. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 292، جس میں جراحت، ختنہ اور پٹیاں کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-jiraha, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 292 (book 1 hadith 26); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

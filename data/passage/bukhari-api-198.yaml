@@ -1,0 +1,16 @@
+id: passage/bukhari-api-198
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "198"
+label: { ar: "صحيح البخاري 198 — مرض النبي، المرض والمريض", en: "Sahih al-Bukhari 198 — the Prophet's illness; illness and the sick", ur: "صحیح بخاری 198 — نبی کی بیماری، بیماری اور بیمار" }
+text: "… الزُّهْرِيِّ، قَالَ أَخْبَرَنِي عُبَيْدُ اللَّهِ بْنُ عَبْدِ اللَّهِ بْنِ عُتْبَةَ، أَنَّ عَائِشَةَ، قَالَتْ لَمَّا ثَقُلَ النَّبِيُّ وَاشْتَدَّ بِهِ وَجَعُهُ، اسْتَأْذَنَ أَزْوَاجَهُ فِي أَنْ يُمَرَّضَ فِي بَيْتِي، فَأَذِنَّ لَهُ، فَخَرَجَ النَّبِيُّ بَيْنَ رَجُلَيْنِ تَخُطُّ رِجْلاَهُ فِي الأَرْضِ بَيْنَ عَبَّاسٍ وَرَجُلٍ آخَرَ. قَالَ عُبَيْدُ اللَّهِ فَأَخْبَرْتُ عَبْدَ اللَّهِ بْنَ عَبَّاسٍ فَقَالَ أَتَدْرِي مَنِ الرَّجُلُ الآخَرُ قُلْتُ لاَ. …"
+summary:
+  ar: "حديث في صحيح البخاري، رقم 198، يذكر مرض النبي، والمرض والمريض، والوجع. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih al-Bukhari, no. 198 (Ablutions (Wudu')), that mentions the Prophet's illness, illness and the sick, pain. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح بخاری کی حدیث نمبر 198، جس میں نبی کی بیماری، بیماری اور بیمار، درد کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 198 (book 4 hadith 64); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

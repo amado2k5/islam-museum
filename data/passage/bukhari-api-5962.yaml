@@ -1,0 +1,16 @@
+id: passage/bukhari-api-5962
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "5962"
+label: { ar: "صحيح البخاري 5962 — الحجامة", en: "Sahih al-Bukhari 5962 — cupping", ur: "صحیح بخاری 5962 — حجامہ" }
+text: "حَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، قَالَ حَدَّثَنِي غُنْدَرٌ، حَدَّثَنَا شُعْبَةُ، عَنْ عَوْنِ بْنِ أَبِي جُحَيْفَةَ، عَنْ أَبِيهِ، أَنَّهُ اشْتَرَى غُلاَمًا حَجَّامًا فَقَالَ إِنَّ النَّبِيَّ نَهَى عَنْ ثَمَنِ الدَّمِ، وَثَمَنِ الْكَلْبِ، وَكَسْبِ الْبَغِيِّ، وَلَعَنَ آكِلَ الرِّبَا وَمُوكِلَهُ وَالْوَاشِمَةَ وَالْمُسْتَوْشِمَةَ وَالْمُصَوِّرَ."
+summary:
+  ar: "حديث في صحيح البخاري، رقم 5962، يذكر الحجامة. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih al-Bukhari, no. 5962 (Dress), that mentions cupping. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح بخاری کی حدیث نمبر 5962، جس میں حجامہ کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-tibb-al-nabawi, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 5962 (book 77 hadith 178); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

@@ -1,0 +1,16 @@
+id: passage/abudawud-api-857
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "857"
+label: { ar: "سنن أبي داود 857 — أعضاء البدن", en: "Sunan Abi Dawud 857 — the organs of the body", ur: "سنن ابی داؤد 857 — اعضائے بدن" }
+text: "… وَعَزَّ وَيُثْنِي عَلَيْهِ وَيَقْرَأُ بِمَا تَيَسَّرَ مِنَ الْقُرْآنِ ثُمَّ يَقُولُ اللَّهُ أَكْبَرُ ثُمَّ يَرْكَعُ حَتَّى تَطْمَئِنَّ مَفَاصِلُهُ ثُمَّ يَقُولُ سَمِعَ اللَّهُ لِمَنْ حَمِدَهُ حَتَّى يَسْتَوِيَ قَائِمًا ثُمَّ يَقُولُ اللَّهُ أَكْبَرُ ثُمَّ يَسْجُدُ حَتَّى تَطْمَئِنَّ مَفَاصِلُهُ ثُمَّ يَقُولُ اللَّهُ أَكْبَرُ وَيَرْفَعُ رَأْسَهُ حَتَّى يَسْتَوِيَ قَاعِدًا ثُمَّ يَقُولُ اللَّهُ أَكْبَرُ ثُمَّ يَسْجُدُ حَتَّى تَطْمَئِنَّ مَفَاصِلُهُ ثُمَّ يَرْفَعُ …"
+summary:
+  ar: "حديث في سنن أبي داود، رقم 857، يذكر أعضاء البدن. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sunan Abi Dawud, no. 857 (Prayer (Kitab Al-Salat)), that mentions the organs of the body. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "سنن ابی داؤد کی حدیث نمبر 857، جس میں اعضائے بدن کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ilm-al-tashrih, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 857 (book 2 hadith 467); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

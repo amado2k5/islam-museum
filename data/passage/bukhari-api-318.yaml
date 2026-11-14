@@ -1,0 +1,16 @@
+id: passage/bukhari-api-318
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "318"
+label: { ar: "صحيح البخاري 318 — أطوار خلق الجنين", en: "Sahih al-Bukhari 318 — the stages of the embryo", ur: "صحیح بخاری 318 — جنین کے مراحل" }
+text: "… حَدَّثَنَا حَمَّادٌ، عَنْ عُبَيْدِ اللَّهِ بْنِ أَبِي بَكْرٍ، عَنْ أَنَسِ بْنِ مَالِكٍ، عَنِ النَّبِيِّ قَالَ \" إِنَّ اللَّهَ ـ عَزَّ وَجَلَّ ـ وَكَّلَ بِالرَّحِمِ مَلَكًا يَقُولُ يَا رَبِّ نُطْفَةٌ، يَا رَبِّ عَلَقَةٌ، يَا رَبِّ مُضْغَةٌ. فَإِذَا أَرَادَ أَنْ يَقْضِيَ خَلْقَهُ قَالَ أَذَكَرٌ أَمْ أُنْثَى شَقِيٌّ أَمْ سَعِيدٌ فَمَا الرِّزْقُ وَالأَجَلُ فَيُكْتَبُ فِي بَطْنِ أُمِّهِ \"."
+summary:
+  ar: "حديث في صحيح البخاري، رقم 318، يذكر أطوار خلق الجنين. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih al-Bukhari, no. 318 (Menstrual Periods), that mentions the stages of the embryo. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح بخاری کی حدیث نمبر 318، جس میں جنین کے مراحل کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ilm-al-tashrih, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 318 (book 6 hadith 23); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

@@ -1,0 +1,16 @@
+id: passage/bukhari-api-3464
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "3464"
+label: { ar: "صحيح البخاري 3464 — الجذام والبرص", en: "Sahih al-Bukhari 3464 — leprosy and vitiligo", ur: "صحیح بخاری 3464 — جذام اور برص" }
+text: "… أَنَّ أَبَا هُرَيْرَةَ ـ حَدَّثَهُ أَنَّهُ، سَمِعَ رَسُولَ اللَّهِ يَقُولُ \" إِنَّ ثَلاَثَةً فِي بَنِي إِسْرَائِيلَ أَبْرَصَ وَأَقْرَعَ وَأَعْمَى بَدَا لِلَّهِ أَنْ يَبْتَلِيَهُمْ، فَبَعَثَ إِلَيْهِمْ مَلَكًا، فَأَتَى الأَبْرَصَ. فَقَالَ أَىُّ شَىْءٍ أَحَبُّ إِلَيْكَ قَالَ لَوْنٌ حَسَنٌ وَجِلْدٌ حَسَنٌ، قَدْ قَذِرَنِي النَّاسُ. قَالَ فَمَسَحَهُ، فَذَهَبَ عَنْهُ، فَأُعْطِيَ لَوْنًا حَسَنًا وَجِلْدًا حَسَنًا. فَقَالَ أَىُّ الْمَالِ أَحَبُّ إِلَيْكَ …"
+summary:
+  ar: "حديث في صحيح البخاري، رقم 3464، يذكر الجذام والبرص. يجمعه متصفح الطب مع نصوص الطب النبوي والطب والتشريح والجراحة والدواء والتداوي."
+  en: "A report in Sahih al-Bukhari, no. 3464 (Prophets), that mentions leprosy and vitiligo. The Medicine Browser lists it with the texts on prophetic medicine, medicine, anatomy, surgery, drugs and treatment."
+  ur: "صحیح بخاری کی حدیث نمبر 3464، جس میں جذام اور برص کا ذکر ہے۔ طب براؤزر اسے طبِ نبوی، طب، تشریح، جراحت، دوا اور علاج کی نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/medicine, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 3464 (book 60 hadith 131); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "tibb-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }
