@@ -2732,3 +2732,15 @@ Resume point: modakirate-iblis episode 21 (branch from origin/main).
 | A garbled opening remark about a person walking astray, and loops and garbled stretches (a stretch on an actor, a stretch before the thief report) | ep21 00:00:30 (part), 00:01:00 (part), 00:19:30-00:20:00, 00:22:30-00:23:00 | Not recoverable | Clarity, Loop check | Open |
 
 Resume point: modakirate-iblis episode 22 (branch from origin/main). Work on episodes 14 to 30 of this series and on the three following series is covered by the founder approval recorded as dec-20261114-277.
+
+### modakirate-iblis ep22 (14 Nov 2026)
+
+12 points written for episode 22 (ar, en, ur); 9 needs_source marks in each language file for this episode; 5 new `about` edges. Quran verse referenced only through a passage link (7-32); none typed.
+
+| Excluded (modakirate-iblis ep22) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greetings, the break and its trailer (advertisements for a Ramadan question programme with its sponsors), and the closing prayer | ep22 00:00:00, 00:11:30-00:14:30, 00:25:30-00:26:00 | Not lesson content | Content rule | Open |
+| Loops and garbled stretches | ep22 00:14:00 (part), 00:18:30-00:19:00, 00:22:00 (part) | Not recoverable | Clarity, Loop check | Open |
+| A mention of refugee crises in the account of the crisis fund | ep22 00:11:00-00:11:30 (part) | Modern conflict aside; the proposal itself is kept without it, held for the founder to decide | Content rule | Open |
+
+Resume point: modakirate-iblis episode 23 (branch from origin/main). Work on this series and the three following ones is covered by the founder approval dec-20261114-277.
