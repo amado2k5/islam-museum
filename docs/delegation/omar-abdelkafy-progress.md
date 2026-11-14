@@ -3027,3 +3027,92 @@ Episode 12 re-read against the transcript after merge (#6642): one wording corre
 | Detail of the two doctors anecdote (Muslim and Western) | ep03 00:32:30 | Reduced to the contrast only; details garbled | Clarity | Open |
 
 Resume point: alwaad-alhaq episode 4 (branch from origin/main).
+### min-kunuz-al-sunnah ep13 (14 Nov 2026)
+
+15 points written for episode 13 (ar, en, ur); 11 needs_source marks in each language file for this episode; 13 new `about` edges. Quran verses referenced only through passage links (38-23, 38-24, 24-30, 9-105); none typed. Contested: He applies the hadith of charity to his own views on judicial independence, road etiquette, parking at prayer and lowering the gaze; the stories of Ali's sword, the Companion who struck a wall and al-Shafi'i's complaint are given without chains.
+
+| Excluded (min-kunuz-al-sunnah ep13) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greetings and praise | ep13 00:00:00-00:00:30 | Greeting formula, no teaching content | Content rule | Open |
+| Break announcement and return greeting, suspense about the story | ep13 00:08:00-00:09:00 | Break join and promise of a surprise | Content rule | Open |
+| Break announcement before the second part | ep13 00:17:30-00:18:00 | Break join, repeated hadith recap | Content rule | Open |
+| Closing recap, prayer and farewell | ep13 00:27:30-00:28:30 | Closing prayer and farewell | Content rule | Open |
+| Claim that the Arabs before Islam despised work | ep13 00:22:00-00:22:30 | Sweeping claim about a people | Voice rule | Open |
+| Looping stretch of repeated letters | ep13 00:07:30-00:08:00 | ASR loop, unrecoverable | Clarity, Loop check | Open |
+| Looping stretch of repeated letters | ep13 00:23:00-00:23:30 | ASR loop, unrecoverable | Clarity, Loop check | Open |
+| Looping stretch, gift to son hadith lost | ep13 00:27:00-00:27:30 | ASR loop, hadith of the gift only partly recovered | Clarity, Loop check | Open |
+| Garbled asides on a wedding and vague jokes | ep13 00:13:00-00:14:30 | Partly garbled wording about nightlife, only the Paradise-and-fire point kept | Clarity, Loop check | Open |
+
+Resume point: min-kunuz-al-sunnah episode 14 (branch from origin/main).
+
+### min-kunuz-al-sunnah ep14 (14 Nov 2026)
+
+15 points written for episode 14 (ar, en, ur); 5 needs_source marks in each language file for this episode; 10 new `about` edges. Quran verses referenced only through passage links (2-279, 42-27, 9-51); none typed. Contested: He presents the scholars as the friends of God and enmity to them as war with God, takes the listener's tastes in hearing and sight as signs of God's love, and gives views on usury and enmity as applied to people; these are his own applications.
+
+| Excluded (min-kunuz-al-sunnah ep14) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Greeting, opening prayer, break joins and repeated recitation of the hadith | ep14 00:00:00-00:00:30, 00:07:30-00:08:00, 00:15:00-00:15:30, 00:23:00-00:23:30 | Greetings, break joins and a repeat of a hadith already covered | Content rule | Open |
+| Sweeping claims that those who dress or pray in certain ways are blamed for disorder and the reverse, and a call that the hand should strike those who oppose religion | ep14 00:05:00-00:05:30, 00:11:30-00:12:30 | Sweeping generalisations about groups and a call for force | Voice rule | Open |
+| Complaint that nearly everyone in the speaker's country complains, and the jokes about complaining | ep14 00:18:30-00:19:30 | Sweeping claim about a people | Voice rule | Open |
+| Looped text and garbled stretches | ep14 00:03:00-00:03:30, 00:14:30-00:15:00, 00:18:00-00:18:30 | Repeated characters and garbled words, not recoverable | Clarity, Loop check | Open |
+| Section on hearing and sight examples beyond the main account (garbled lines on a channel) | ep14 00:10:00-00:10:30 | Partly garbled | Clarity, Loop check | Open |
+
+Resume point: min-kunuz-al-sunnah episode 15 (branch from origin/main).
+
+### min-kunuz-al-sunnah ep15 (14 Nov 2026)
+
+14 points written for episode 15 (ar, en, ur); 13 needs_source marks in each language file for this episode; 6 new `about` edges. Quran verses referenced only through passage links (9-60, 18-79, 21-107, 17-23, 17-24, 24-60); none typed. Contested: His rejection of the word "disabled", his statement that God creates no defect, his praise of one state's policies, his view that a dutiful child will not enter the fire whatever else he does, and his view that the ruler is among the elders are his own opinions and are contested.
+
+| Excluded (min-kunuz-al-sunnah ep15) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Greetings, opening prayer and introduction | ep15 00:00:00-00:00:30 | Not substantive | Content rule | Open |
+| Break joins and returns | ep15 00:08:00-00:08:30, 00:17:30-00:18:30 | Not substantive | Content rule | Open |
+| Closing prayer and farewell | ep15 00:27:00-00:27:30 | Not substantive | Content rule | Open |
+| Repeated-letter loop | ep15 00:01:00-00:01:30 | Loop, no recoverable text | Clarity, Loop check | Open |
+| Repeated-letter loop | ep15 00:19:00-00:19:30 | Loop, no recoverable text | Clarity, Loop check | Open |
+| Repeated-word loop and garbled poem or story | ep15 00:24:30-00:25:30 | Loop and garbled text | Clarity, Loop check | Open |
+| Names of blind scholars (al-Tirmidhi, Ibn Abbas) | ep15 00:07:00-00:07:30 | Subject and wording too garbled to attribute | Clarity, Loop check | Open |
+| Garbled phrase about a political group in the hadith discussion | ep15 00:14:00-00:14:30 | Garbled, unrecoverable | Clarity, Loop check | Open |
+| Mention of Abu Bakr and Uthman beside a proverb | ep15 00:25:30 | Garbled, point unclear | Clarity, Loop check | Open |
+| Garbled clause on who is exempt from prayer | ep15 00:16:30-00:17:00 | Garbled, unrecoverable | Clarity, Loop check | Open |
+| Statement on the weakness of girl children | ep15 00:26:00-00:26:30 | Sweeping generalisation about women | Voice rule | Open |
+| Remarks on rulers who are provoked or incited and on states' fates | ep15 00:21:30-00:22:00 | Garbled, sweeping claim | Voice rule, Clarity | Open |
+
+Resume point: min-kunuz-al-sunnah episode 16 (branch from origin/main).
+
+### min-kunuz-al-sunnah ep16 (14 Nov 2026)
+
+14 points written for episode 16 (ar, en, ur); 9 needs_source marks in each language file for this episode; 2 new `about` edges. Quran verses referenced only through passage links (17-100, 6-28, 10-12, 3-134, 41-34); none typed. Contested: He holds that reward is pure divine favour and that a disbeliever who dies in disbelief stays in the fire for ever because he would have disbelieved for ever; he also attributes to the Prophet and others reports without chains (the bedouin and the arrow, the ten witnesses, the man lacking one good deed, the tear), and these views and reports are his.
+
+| Excluded (min-kunuz-al-sunnah ep16) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening praise and greeting | ep16 00:00:00-00:00:30 | Greeting and invocation, not content | Content rule | Open |
+| Break join, return from the break and closing of the first part | ep16 00:08:00-00:08:30 | Break join | Content rule | Open |
+| Break announcement and welcome back | ep16 00:16:00-00:16:30 | Break join | Content rule | Open |
+| Closing prayer and farewell | ep16 00:27:30-00:28:00 | Closing prayer and salutation | Content rule | Open |
+| Description of the miser and his heirs wishing his death | ep16 00:09:30-00:10:00 | Sweeping generalisation about a class of people | Voice rule | Open |
+| Repeated syllable loop | ep16 00:13:00-00:13:30 | Looping ASR output with no recoverable text | Clarity, Loop check | Open |
+| Garbled sums and end of the arithmetic passage | ep16 00:12:00-00:12:30 | Numbers and wording too garbled to state | Clarity, Loop check | Open |
+| Garbled passage on a saying of Ibn Masud about the rich and the poor | ep16 00:26:30-00:27:30 | Too garbled to recover | Clarity, Loop check | Open |
+| Analogy of exam marks and mention of the Day of Resurrection counting the characters in scales | ep16 00:07:00-00:07:30 | Overlaps the report already recorded and the wording is garbled | Clarity, Loop check | Open |
+
+Resume point: min-kunuz-al-sunnah episode 17 (branch from origin/main).
+
+### min-kunuz-al-sunnah ep17 (14 Nov 2026)
+
+14 points written for episode 17 (ar, en, ur); 13 needs_source marks in each language file for this episode; 14 new `about` edges. Quran verses referenced only through passage links (9-18); none typed. Contested: He holds that the obligatory prayers belong in the mosque in congregation, that missing dawn prayer removes blessing from provision, and that a late Friday arrival loses the reward; these are his views and rest on reports he gives without chains.
+
+| Excluded (min-kunuz-al-sunnah ep17) | Episode / time | Reason | Gate failed | Override |
+| Opening greeting and praise | ep17 00:00:00-00:00:30 | Greeting formula, no content | Content rule | Open |
+| Break join and welcome back (first) | ep17 00:09:00-00:09:30 | Break join and welcome back | Content rule | Open |
+| Break join and welcome back (second) | ep17 00:17:30-00:18:00 | Break join and welcome back | Content rule | Open |
+| Closing prayer and sign-off | ep17 00:27:30-00:28:30 | Closing prayer and farewell | Content rule | Open |
+| Looped vowel stretch | ep17 00:01:00-00:01:30 | Loop of a single letter, nothing to recover | Clarity, Loop check | Open |
+| Looped letter stretch during Qur'an recitation remark | ep17 00:16:00-00:16:30 | Loop of a single letter; only the opening words used | Clarity, Loop check | Open |
+| Garbled fragment about killing and a sect | ep17 00:01:30 | Unclear, may name a sect; not recoverable | Voice rule, Clarity | Open |
+| Sweeping claims that neglecting dawn prayer ruins wife, children, boss and employees | ep17 00:07:00-00:07:30 | Sweeping claim about people, no support | Voice rule | Open |
+| Claim that people backbite whole states and that politics ruined minds | ep17 00:08:30-00:09:00 | Sweeping claim about modern politics and nations | Voice rule | Open |
+| Speculation about the psychology of those who fidget on Friday | ep17 00:22:30-00:23:00 | Demeaning speculation about a class of people | Voice rule | Open |
+| Garbled stretch about Hatim and the dropped imam story setup | ep17 00:23:00-00:23:30 | Too garbled to recover | Clarity | Open |
+
+Resume point: min-kunuz-al-sunnah episode 18 (branch from origin/main).

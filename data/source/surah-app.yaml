@@ -1,0 +1,21 @@
+id: source/surah-app
+class: source
+kind: reference_data
+type: database
+label:
+  ar: "تطبيق سورة وواجهته العامة ⁦(Surah app / Public Sura API)⁩"
+  en: "Surah app and Public Sura API (Tafsir Center for Quranic Studies)"
+  ur: "سورہ ایپ اور عوامی سورہ API ⁦(Surah app)⁩"
+summary:
+  ar: "تطبيق ويب وواجهة برمجية عامة يصدرهما مركز تفسير للدراسات القرآنية، تعرض نص المصحف برواية حفص عن عاصم طبعة مجمع الملك فهد ١٤٤٠هـ، وعشرين مشروعًا علميًا على مستوى الكلمة والآية والصفحة والسورة، منها تفسير ابن كثير وتفسير السعدي والمختصر في تفسير القرآن الكريم وإعراب القرآن وبيان القراءات وأسباب النزول والمكي والمدني. يُستعمل هنا للحقائق الفهرسية عن هذه الطبعات فقط."
+  en: "A web app and public API from the Tafsir Center for Quranic Studies. It carries the Hafs text of the King Fahd Complex edition (1440 AH) and twenty projects at word, verse, page and surah level, among them Ibn Kathir, al-Sa'di, al-Mukhtasar fi Tafsir al-Qur'an, grammatical analysis, variant readings, occasions of revelation and Makki and Madani studies. Used here only for catalogue facts about those editions."
+  ur: "تفسیر مرکز برائے قرآنی مطالعات کی ویب ایپ اور عوامی API، جو مجمع الملک فہد کے ١٤٤٠ھ نسخے کی روایتِ حفص کے متن اور بیس علمی منصوبوں پر مشتمل ہے، جن میں ابن کثیر، سعدی، المختصر فی تفسیر القرآن، اعراب، قراءات، اسبابِ نزول اور مکی و مدنی کی بحثیں شامل ہیں۔ یہاں صرف ان ایڈیشنوں کے فہرستی حقائق کے لیے استعمال ہوتی ہے۔"
+title: "Surah app / Public Sura API"
+publisher: "Tafsir Center for Quranic Studies (Markaz Tafsir)"
+URL: "https://web.surahapp.com/en"
+language: ar
+reliability_note: "Scored 14 Nov 2026 against the eight criteria of docs/agents/source-families.md. Authority: a named research centre, the editions are attributed to their authors, editors and printers. Citability: project slug plus sura and aya number at https://dev.surahapp.com/api/v1/. Terms: no terms or licence page found (the app links only About us, Contact us and Blog), robots.txt carries comment lines about content signals but sets none, the API is documented with Swagger and answers with open CORS; so facts-only, the default of criterion 3. The Qur'an wording is never taken from it (Tanzil only). The commentaries it carries are transcriptions of in-copyright printed editions, so only catalogue facts (author, editor, publisher, edition, pages) are used, and prose is rewritten in the museum's own words with a citation to the work. Longevity depends on the centre; cite the printed edition, not the URL."
+sources: [source/surah-app]
+open_access: false
+provenance: { layer: own-research, source: "web.surahapp.com robots.txt, home and Swagger docs of dev.surahapp.com read 14 Nov 2026; /api/v1/projects (20 projects)", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: web-b1-surahapp }
+status: { review: draft, generated_by: "Claude Code" }

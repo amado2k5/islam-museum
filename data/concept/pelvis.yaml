@@ -1,0 +1,18 @@
+id: concept/pelvis
+class: concept
+kind: scientific
+label: { ar: "عظام العانة عند ابن سينا", en: "The pelvis in the Canon", ur: "قانون میں کولھے کی ہڈیاں" }
+summary:
+  ar: "عند العجز عظمان يمنة ويسرة يتصلان في الوسط بمفصل موثق، وهما كالأساس لجميع العظام الفوقانية والحامل الناقل للسفلانية {cite:canon-ibn-sina-print-v1 p.57}."
+  en: "At the sacrum there are two bones, right and left, joined in the middle by a secured joint; they are like the foundation of all the bones above and carry and transmit to those below {cite:canon-ibn-sina-print-v1 p.57}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/bones, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 1, Jumla 1 on bones (scan pages 55 to 60), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-bones-2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }
