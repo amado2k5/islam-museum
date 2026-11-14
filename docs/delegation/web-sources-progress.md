@@ -1053,3 +1053,11 @@ Wrote ar, en and ur prose for vila, th-nia, el-mahalla-el-kubra, ioannina, kirku
 ## 2026-11-14 (Lane B1 packet 12) - place prose, ten places
 
 - Written (ar, en, ur, draft): chamchamal, biskra, k-tahya, sheffield, drama, rostov-on-don, trabzon, plovdiv, patras (iDAI.gazetteer via gazetteer.dainst.org/place/<id>, Accept application/json, read 14 Nov 2026) and aphrodisias (Pleiades JSON, 14 Nov 2026). Biskra cites Yaqut vol. 2, scan p.586 (entry Biskira); `source/mujam-al-buldan-yaqut` added to its sources. No Yaqut entry found in vols 1-2 for the others (Trabzon, Patras, Sheffield and the rest fall in later volumes or are absent). Skipped: none.
+
+## 2026-11-14 (Lane B2 packet alm9) - al-A'lam persons, nine written
+
+- Written (ar, en, ur, draft, run web-b2-alam-2026-11-14, source alam-zirikli-dar-al-ilm-2002, cited by volume and page): yusuf-ibn-abd-al-rahman-ibn-al-jawzi (8:235), yahya-ibn-muhammad-idrisi (8:133), yusuf-ibn-al-hasan-ibn-al-mibrad (8:219), muhammad-mahdi-al-naraqi (7:311, labelled Imami), abdul-hakim-sialkoti (3:280), muhammad-raghib-al-tabbakh (6:122-123), ishaq-ibn-mansur-al-kawsaj (1:291), musa-ibn-faris-al-mutawakkil (7:315), nasif-al-yaziji (7:346; the entry states no religion, so none is written).
+- Corrections to cards: Ibn al-Jawzi born 1185 (card 1184); Musa ibn Faris born 1356 (card about 1350), role ruler not vizier, Fars edge replaced by Fez; al-Sialkoti lived_in Sialkot (card Lahore, and its summary's death 1657 and "mujaddid" claim dropped); al-Naraqi's summary no longer says mathematician (entry: Imami jurist); Nasif born 1800; Idrisi and Mibrad dates already matched.
+- Left for the founder: al-Naraqi died 1209 AH = 1794 in the entry, card 1795 kept (1209 AH spans both). The Mibrad title «al-Aqd al-Tamm fiman Zawwajahu al-Nabi» is printed with a blessing formula after al-Nabi in the entry; it is omitted here under the no-honorifics rule. Al-Yaziji's entry lists «Majma' al-Bahrayn» as maqamas. The Idrisi entry calls the dynasty "of Marrakesh"; written as printed with a gloss.
+- Skipped: mehmed-rashid (card Muhammad Rashid d. 1735; the entry found is Rashid ibn Khamis al-Habsi, an Omani poet, 1678 to about 1737, not shown to be the same person); mahmud-khattab-al-subki (card already status.review published).
+

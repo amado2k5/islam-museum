@@ -3,27 +3,27 @@ class: person
 label:
   ar: "إسحاق بن منصور الكوسج"
   en: "Ishaq ibn Mansur al-Kawsaj"
-roles: [scholar]
+roles: [scholar, jurist]
 gender: male
 summary:
-  ar: "بطاقة أولية لإسحاق بن منصور الكوسج، محدث القرن التاسع وأحد أصحاب أحمد بن حنبل، توفي سنة ٨٦٥م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ishaq ibn Mansur al-Kawsaj, the ninth-century muhaddith and disciple of Ahmad ibn Hanbal, d. 865; the biographical entry is not yet checked on the page."
+  ar: "إسحاق بن منصور بن بهرام، أبو يعقوب المروزي، المعروف بالكوسج، فقيه حنبلي من رجال الحديث، ولد بمرو ورحل إلى العراق والحجاز والشام واستوطن نيسابور وتوفي بها سنة ٢٥١هـ الموافقة ٨٦٥م، وله المسائل في الفقه دونها عن الإمام أحمد."
+  en: "Ishaq ibn Mansur ibn Bahram, Abu Ya'qub al-Marwazi, known as al-Kawsaj, a Hanbali jurist and man of hadith, born in Merv; he travelled to Iraq, the Hijaz and Syria, settled in Nishapur and died there in 251 AH, 865 CE; his al-Masa'il on jurisprudence records questions put to Imam Ahmad."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-fragmentation]
-died: { edtf: "865", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal / al-Mizzi" }
+died: { edtf: "865", calendar: gregorian, precision: year, derived: true, note: "251 AH = 865 CE as printed in the entry (birth printed 000); source: al-Zirikli, al-A'lam, 15th ed. 2002, vol. 1 p. 291", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
-  - { type: born_in, target: place/merv, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-  - { type: died_in, target: place/nishapur, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/al-aalam]
+  - { type: born_in, target: place/merv, confidence: medium, note: "Entry: born in Merv (al-A'lam vol. 1 p. 291); Wikidata agrees.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
+  - { type: died_in, target: place/nishapur, confidence: medium, note: "Entry: he settled in Nishapur and died there (al-A'lam vol. 1 p. 291); Wikidata agrees.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q22684336
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0054
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3

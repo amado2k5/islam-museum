@@ -3,28 +3,29 @@ class: person
 label:
   ar: "يوسف بن عبد الرحمن ابن الجوزي"
   en: "Yusuf ibn Abd al-Rahman ibn al-Jawzi"
-roles: [poet, scholar]
+roles: [scholar, diplomat]
 gender: male
 summary:
-  ar: "بطاقة أولية ليوسف بن عبد الرحمن ابن الجوزي، عالم وشاعر عراقي من أسرة ابن الجوزي، ولد سنة ١١٨٥م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Yusuf ibn Abd al-Rahman ibn al-Jawzi, the Iraqi scholar and poet of the Ibn al-Jawzi family, b. 1185; the biographical entry is not yet checked on the page."
+  ar: "يوسف بن عبد الرحمن بن علي ابن الجوزي، محيي الدين أبو المحاسن، ابن العلامة أبي الفرج، أستاذ دار الخلافة المستعصمية وسفيرها من أهل بغداد، تفقه على أبيه، وأنشأ المدرسة الجوزية بدمشق، وقتله التتار مع أولاده الثلاثة يوم دخول هولاكو بغداد، ٥٨٠ إلى ٦٥٦هـ الموافقة ١١٨٥ إلى ١٢٥٨م."
+  en: "Yusuf ibn Abd al-Rahman ibn Ali Ibn al-Jawzi, Muhyi al-Din Abu al-Mahasin, son of the scholar Abu al-Faraj, a Baghdadi who was ustadh al-dar and envoy of the caliphate of al-Musta'sim; he studied jurisprudence under his father, founded the Jawziyya school in Damascus and was killed by the Mongols with his three sons when Hulagu entered Baghdad; 580 to 656 AH, 1185 to 1258 CE."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/crusades-ayyubid-mamluk]
-born: { edtf: "1184", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala (al-Dhahabi)" }
-died: { edtf: "1258", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala (al-Dhahabi)" }
+born: { edtf: "1185", calendar: gregorian, precision: year, derived: true, note: "580 AH = 1185 CE as printed in the entry; the card had 1184; source: al-Zirikli, al-A'lam, 15th ed. 2002, vol. 8 p. 235", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+died: { edtf: "1258", calendar: gregorian, precision: year, derived: true, note: "656 AH = 1258 CE as printed in the entry; source: al-Zirikli, al-A'lam, 15th ed. 2002, vol. 8 p. 235", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
   - { type: born_in, target: place/baghdad, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1530)" }
-sources: [source/al-aalam, source/wikidata]
+  - { type: lived_in, target: place/baghdad, sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium, note: "The entry calls him a man of Baghdad and says the Mongols killed him outside Baghdad when Hulagu entered it (al-A'lam vol. 8 p. 235)." }
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q96889310
   viaf: "79269675"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0074
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
