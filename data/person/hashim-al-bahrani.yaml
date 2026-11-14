@@ -14,7 +14,7 @@ periods: [period/gunpowder-empires]
 died: { edtf: "1696", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam" }
 relations:
   - { type: born_in, target: place/tubli, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-  - { type: buried_in, target: place/tubli, note: "al-Zirikli, al-A'lam, vol. 8 p. 64: his tomb is in Tubli", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
+  - { type: buried_in, target: place/tubli, note: "al-Zirikli, al-A'lam, vol. 8 p. 66: his tomb is in Tubli", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
 sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q6408496

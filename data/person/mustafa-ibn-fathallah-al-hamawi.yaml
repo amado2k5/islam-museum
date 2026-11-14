@@ -27,5 +27,5 @@ status:
 died: { edtf: "1711", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Muhibbi; al-A'lam (al-Zirikli)" }
 relations:
   - { type: lived_in, target: place/hama, confidence: low, note: "Association inferred from the nisba in the name 'Mustafa ibn Fathallah al-Hamawi'; specific residence not individually documented.", sources: [source/al-aalam] }
-  - { type: died_in, target: place/dhamar, confidence: medium, note: "Al-Zirikli, al-A'lam vol. 7 p. 233: he died at Dhamar in Yemen.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
-  - { type: lived_in, target: place/mecca, confidence: medium, note: "Al-Zirikli, al-A'lam vol. 7 p. 233: he settled in Mecca.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+  - { type: died_in, target: place/dhamar, confidence: medium, note: "Al-Zirikli, al-A'lam vol. 7 p. 238: he died at Dhamar in Yemen.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+  - { type: lived_in, target: place/mecca, confidence: medium, note: "Al-Zirikli, al-A'lam vol. 7 p. 238: he settled in Mecca.", sources: [source/alam-zirikli-dar-al-ilm-2002] }

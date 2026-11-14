@@ -12,11 +12,11 @@ wings: [people]
 regions: [andalus-europe]
 periods: [period/buyid-seljuk-fatimid-era]
 died: { edtf: "1028", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Sila (Ibn Bashkuwal) Confirmed on 13 November 2026 against Wikidata Q22689712 (P570, a statement with a reference), item revision 2533307225.", sources: [source/wikidata] }
-born: { edtf: "950~", hijri: "0339", calendar: gregorian, precision: year, derived: true, sources: [source/alam-zirikli-dar-al-ilm-2002], note: "Al-Zirikli, al-A'lam vol. 6 p. 291: 339 AH = 950 CE, printed with a question mark." }
+born: { edtf: "950~", hijri: "0339", calendar: gregorian, precision: year, derived: true, sources: [source/alam-zirikli-dar-al-ilm-2002], note: "Al-Zirikli, al-A'lam vol. 6 p. 312: 339 AH = 950 CE, printed with a question mark." }
 relations:
   - { type: died_in, target: place/valencia, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-  - { type: lived_in, target: place/medina, note: "Al-Zirikli, al-A'lam vol. 6 p. 291: lived in Medina after the pilgrimage.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }
-  - { type: lived_in, target: place/cordoba, note: "Al-Zirikli, al-A'lam vol. 6 p. 291: a Maliki imam at Cordoba, which he fled when the Berbers overcame it.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }
+  - { type: lived_in, target: place/medina, note: "Al-Zirikli, al-A'lam vol. 6 p. 312: lived in Medina after the pilgrimage.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }
+  - { type: lived_in, target: place/cordoba, note: "Al-Zirikli, al-A'lam vol. 6 p. 312: a Maliki imam at Cordoba, which he fled when the Berbers overcame it.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }
 sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q22689712

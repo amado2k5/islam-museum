@@ -9,12 +9,12 @@ roles: [scholar, judge]
 gender: male
 wings: [people]
 regions: [levant-iraq]
-born: { hijri: "0037", edtf: "0657~", calendar: julian, precision: year, status: tradition, derived: true, note: "al-Zirikli, al-A'lam, vol. 7 p. 340 (read in full from the OpenITI text, 14 Nov 2026): 37 AH = 657 CE; the Wikidata item Q16120871 also gives 657.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+born: { hijri: "0037", edtf: "0657~", calendar: julian, precision: year, status: tradition, derived: true, note: "al-Zirikli, al-A'lam, vol. 7 p. 342 (read in full from the OpenITI text, 14 Nov 2026): 37 AH = 657 CE; the Wikidata item Q16120871 also gives 657.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 periods: [period/umayyad]
 died: { hijri: "0117", edtf: "0735~", calendar: julian, precision: year, status: tradition, derived: true, note: "الشيرازي: مات سنة سبع عشرة ومائة، وكان من سبي اصطخر (PDF ص41).", sources: [source/tabaqat-fuqaha-abbas-1981] }
 relations:
   - { type: lived_in, target: place/mihran, confidence: low, note: "Associated with مهران per the record's own summary text; relation type pending review.", sources: [source/futuh-buldan-maarif-1407] }
-  - { type: lived_in, target: place/raqqa, note: "al-Zirikli, al-A'lam vol. 7 p. 340: he settled at al-Raqqa and became the scholar and leading man of the Jazira.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }
+  - { type: lived_in, target: place/raqqa, note: "al-Zirikli, al-A'lam vol. 7 p. 342: he settled at al-Raqqa and became the scholar and leading man of the Jazira.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 236"

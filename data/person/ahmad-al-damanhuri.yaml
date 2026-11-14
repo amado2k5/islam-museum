@@ -26,9 +26,9 @@ provenance:
 status:
   review: draft
   completeness: 3
-born: { edtf: "1689", hijri: "1101", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 1 p. 156: 1101 AH = 1690 CE; 1101 AH runs from October 1689 to September 1690, so the card's 1689 is kept. Date-enrichment pass; source: al-Jabarti; al-Zirikli Confirmed on 13 November 2026 against Wikidata Q12178566 (P569, a statement with a reference), item revision 2567602539.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
-died: { edtf: "1778", hijri: "1192", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 1 p. 156: 1192 AH = 1778 CE. Date-enrichment pass; source: al-Jabarti; al-Zirikli Confirmed on 13 November 2026 against Wikidata Q12178566 (P570, a statement with a reference), item revision 2567602539.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
+born: { edtf: "1689", hijri: "1101", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 1 p. 164: 1101 AH = 1690 CE; 1101 AH runs from October 1689 to September 1690, so the card's 1689 is kept. Date-enrichment pass; source: al-Jabarti; al-Zirikli Confirmed on 13 November 2026 against Wikidata Q12178566 (P569, a statement with a reference), item revision 2567602539.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
+died: { edtf: "1778", hijri: "1192", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 1 p. 164: 1192 AH = 1778 CE. Date-enrichment pass; source: al-Jabarti; al-Zirikli Confirmed on 13 November 2026 against Wikidata Q12178566 (P570, a statement with a reference), item revision 2567602539.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
 relations:
   - { type: lived_in, target: place/misr, note: "Only the record-level region (egypt-nile) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }
-  - { type: born_in, target: place/damanhur, note: "Al-Zirikli, al-A'lam vol. 1 p. 156: born at Damanhur.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }
-  - { type: died_in, target: place/cairo, note: "Al-Zirikli, al-A'lam vol. 1 p. 156: died in Cairo.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }
+  - { type: born_in, target: place/damanhur, note: "Al-Zirikli, al-A'lam vol. 1 p. 164: born at Damanhur.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }
+  - { type: died_in, target: place/cairo, note: "Al-Zirikli, al-A'lam vol. 1 p. 164: died in Cairo.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }

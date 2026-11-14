@@ -11,8 +11,8 @@ summary:
 wings: [people]
 regions: [arabia]
 periods: [period/colonial-era]
-born: { edtf: "1817", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 1 p. 111: 1232 AH = 1817 CE.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
-died: { edtf: "1886", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 1 p. 111: 1304 AH = 1886 CE.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+born: { edtf: "1817", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 1 pp. 129-130: 1232 AH = 1817 CE.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+died: { edtf: "1886", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 1 pp. 129-130: 1304 AH = 1886 CE.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q12178897
@@ -28,5 +28,5 @@ status:
   completeness: 3
 relations:
   - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }
-  - { type: born_in, target: place/mecca, confidence: medium, note: "Al-Zirikli, al-A'lam vol. 1 p. 111: born in Mecca.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
-  - { type: died_in, target: place/medina, confidence: medium, note: "Al-Zirikli, al-A'lam vol. 1 p. 111: died in Medina.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+  - { type: born_in, target: place/mecca, confidence: medium, note: "Al-Zirikli, al-A'lam vol. 1 pp. 129-130: born in Mecca.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+  - { type: died_in, target: place/medina, confidence: medium, note: "Al-Zirikli, al-A'lam vol. 1 pp. 129-130: died in Medina.", sources: [source/alam-zirikli-dar-al-ilm-2002] }

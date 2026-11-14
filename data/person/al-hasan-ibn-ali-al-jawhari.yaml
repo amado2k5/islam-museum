@@ -30,7 +30,7 @@ occupations:
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/al-aalam]
-born: { edtf: "972?", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala 18/200; 363–454 AH); changed to 972? after al-Zirikli, al-A'lam vol. 2 p. 174: 362? AH = 972 CE" }
+born: { edtf: "972?", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala 18/200; 363–454 AH); changed to 972? after al-Zirikli, al-A'lam vol. 2 p. 202: 362? AH = 972 CE" }
 died: { edtf: "1062", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala 18/200; 363–454 AH) Confirmed on 13 November 2026 against Wikidata Q124497680 (P570, a statement with a reference), item revision 2542923941.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/shiraz, note: "Wikidata Q6397066 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }

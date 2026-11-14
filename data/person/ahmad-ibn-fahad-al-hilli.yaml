@@ -23,8 +23,8 @@ provenance:
 status:
   review: draft
   completeness: 3
-born: { edtf: "1356", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 1 p. 220: 757 AH = 1356 CE.", sources: [source/wikidata] }
-died: { edtf: "1437", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 1 p. 220: 841 AH = 1437 CE; died and buried at Karbala.", sources: [source/wikidata] }
+born: { edtf: "1356", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 1 p. 227: 757 AH = 1356 CE.", sources: [source/wikidata] }
+died: { edtf: "1437", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 1 p. 227: 841 AH = 1437 CE; died and buried at Karbala.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/hilla, note: "From text: فقيه الحلة في القرن الخامس عشر", sources: [source/al-aalam], confidence: low }
-  - { type: died_in, target: place/karbala, note: "Al-Zirikli, al-A'lam vol. 1 p. 220: died and buried at Karbala.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }
+  - { type: died_in, target: place/karbala, note: "Al-Zirikli, al-A'lam vol. 1 p. 227: died and buried at Karbala.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }

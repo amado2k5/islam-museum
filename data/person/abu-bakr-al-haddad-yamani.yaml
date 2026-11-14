@@ -27,4 +27,4 @@ status:
 died: { edtf: "1397", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli, al-A'lam; al-Sakhawi, al-Daw' al-Lami'" }
 relations:
   - { type: lived_in, target: place/yemen, note: "Place association from the person's nisba/name (يمني); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
-  - { type: died_in, target: place/zabid, note: "Al-Zirikli, al-A'lam vol. 2 p. 60: settled in Zabid and died there.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }
+  - { type: died_in, target: place/zabid, note: "Al-Zirikli, al-A'lam vol. 2 p. 67: settled in Zabid and died there.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }
