@@ -196,7 +196,10 @@ if (process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1]) {
     if (ten.length !== 10) errors.push(`${lang}/companions/ lists ${ten.length} of the Ten promised Paradise`);
     const jd = read("jinn-devils") ?? "";
     if (!jd.includes('data-jd-group="figures"')) errors.push(`${lang}/jinn-devils/ does not group its records by what they are`);
-    for (const m of jd.matchAll(/data-jd-group="beings"[\s\S]*?<\/ol>/g)) if (/href="\/[a-z]+\/person\//.test(m[0])) errors.push(`${lang}/jinn-devils/ lists a person-class record among the beings themselves`);
+    // A person-class record may stand among the beings only when its data types it as one (a `being.kind`, as Jibril and
+    // Mika'il are); a human with no such type there is the fault this check exists to catch.
+    const isTypedBeing = (slug: string) => { const f = p("data", "person", `${slug}.yaml`); return existsSync(f) && !!(parse(readFileSync(f, "utf8")) as any)?.being?.kind; };
+    for (const m of jd.matchAll(/data-jd-group="beings"[\s\S]*?<\/ol>/g)) if ([...m[0].matchAll(/href="\/[a-z]+\/person\/([^/"]+)/g)].some((h) => !isTypedBeing(h[1]))) errors.push(`${lang}/jinn-devils/ lists a person-class record among the beings themselves`);
     for (const b of ["signs", "qiyama", "janna", "nar"]) if (!read(b)?.includes('id="esch-scope"')) errors.push(`${lang}/${b}/ does not say how the four hereafter browsers differ`);
     if (!read("signs", "all")) errors.push(`missing page: ${lang}/signs/all/index.html (the full eschatology index)`);
     for (const gone of ["abagha-khan", "sulayman-ibn-dawud"]) if (read("person", gone)) errors.push(`${lang}/person/${gone}/ is built although the record is merged: its id should resolve to the surviving record`);
