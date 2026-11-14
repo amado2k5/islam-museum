@@ -16,9 +16,10 @@ died: { edtf: "1338", calendar: gregorian, precision: year, derived: true, note:
 relations:
   - { type: born_in, target: place/mosul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/damascus, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/al-aalam, source/durar-kamina-jil-1993]
+sources: [source/al-aalam, source/durar-kamina-jil-1993, source/biblissima]
 external_ids:
   wikidata: Q12187054
+  biblissima: "Q12207"
 provenance:
   layer: own-research
   source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"

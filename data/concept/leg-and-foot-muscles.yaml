@@ -1,0 +1,18 @@
+id: concept/leg-and-foot-muscles
+class: concept
+kind: scientific
+label: { ar: "عضل الساق والركبة والقدم والأصابع عند ابن سينا", en: "Muscles of the shank, knee, foot and toes in the Canon", ur: "قانون میں پنڈلی، گھٹنے، پاؤں اور انگلیوں کے پٹھے" }
+summary:
+  ar: "يعدّ ابن سينا لمفصل الركبة ثلاثة باسطة أمام الفخذ وعضلاً قابضة، ولمفصل القدم عضلاً مشيلة وخافضة، ثم لأصابع الرجل عضلاً كثيرة، ويختم الجملة بأن جميع عضل البدن خمسمائة وتسع وعشرون عضلة {cite:canon-ibn-sina-print-v1 pp.75-77}."
+  en: "For the knee Ibn Sina lists three straightening muscles in front of the thigh and bending muscles; for the ankle, lifting and lowering muscles; and for the toes many muscles; he closes the group by saying the muscles of the whole body number five hundred and twenty-nine {cite:canon-ibn-sina-print-v1 pp.75-77}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/muscles, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 1, Jumlas 2 and 3 on muscles and nerves (scan pages 72 to 78), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-muscles-3
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }
