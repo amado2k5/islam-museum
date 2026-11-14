@@ -9881,6 +9881,2735 @@ books:
     - year
     notes: 'needs OCR zip (ocr_archive none); other source ids: wafa-al-wafa'
   # END books:geography
+  # BEGIN books:hadith
+  - id: adab-mufrad
+    title: الأدب المفرد ن1 - البخاري (+3 more scans)
+    category: hadith
+    volumes: 4 file(s)
+    files:
+    - {name: 1_20191007_20191007_1552.pdf, bytes: 48837931, pages: 264, ocr_pages: 264, sha256: ce12b661fc0b3d1ff7af1dacf15af45769781408339e9da8609279fe07daa308}
+    - {name: 20191216_20191216_1214.pdf, bytes: 10113493, pages: 532, ocr_pages: 532, sha256: 2eecb9d197113320079210b5f8d1dab364d3f4618ede47fb179c441f82cd5ae1}
+    - {name: 20191216_20191216_1230.pdf, bytes: 9068161, pages: 571, ocr_pages: 571, sha256: 898ada43da664d6fe516a729dc4c545d96c66cf366f71102acd71a6f65e88a9b}
+    - {name: 20260503_20260503_0818.pdf, bytes: 8150798, pages: 432, ocr_pages: 4, sha256: 04c394f678bc0a6e94d83b8be8e4cabcfceacd00131080f28296e16e7dbd528b}
+    acquisition: {source: '4 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-11', by: library harvest (library/manifest.jsonl), bytes: 76170383, sha256_status: computed}
+    physical: {pages: 1799}
+    ocr: {state: partial, date: '2026-10-14', failed_pages: 428, unzipped_location: books/hadith/adab-mufrad/}
+    ocr_archive: {state: none}
+    mining: {state: in_progress}
+    ingestion: {state: none, ledger: [docs/delegation/lane-ledgers/microsd-books.md]}
+    completion: mining
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - mining.state_derived_from_ledger_text
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); ocr_pages 1371 of 1799 pages (pages without text may be blank)
+  - id: al-lulu-walmarjan-archive-org
+    title: al lulu walmarjan archive org
+    category: hadith
+    files:
+    - {name: NOTE.md, bytes: 672}
+    - {name: al-lulu-walmarjan_hocr_searchtext.txt.gz, bytes: 788090}
+    acquisition: {bytes: 788762, sha256_status: pending}
+    ocr: {state: none}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: downloaded
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - title
+    - year
+    notes: 'title unknown: label is the archive.org or folder identifier'
+  - id: arbain-ibn-daqiq
+    title: Syarh al-Arba'in al-Nawawiyyah | شرح الأربعين النووية | Commentary on al-Nawawi's Forty Hadith (+1 more scans)
+    category: hadith
+    volumes: 2 file(s)
+    files:
+    - {name: 04-2._202604.pdf, bytes: 2956278, pages: 319, ocr_pages: 319, sha256: e4adef844c157c2edefe346d313e51c59e1e627aeeefc2927fcc5cef711d1faf}
+    - {name: 20210918_20210918_0653.pdf, bytes: 1717712, pages: 112, ocr_pages: 112, sha256: 51fab63a086e70c8905f9e01b9a1307376c4bd9e4d60264284295db3b1ae778b}
+    acquisition: {source: '2 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-24', by: library harvest (library/manifest.jsonl), bytes: 4673990, sha256_status: computed}
+    physical: {pages: 431}
+    ocr: {state: complete, date: '2026-10-31', unzipped_location: books/hadith/arbain-ibn-daqiq/}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    work_registry: 'ocr: active ((another session) unharvested-microsd-books-6f00c1) x2'
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none)
+  - id: arbaun-nawawi
+    title: الأربعون النووية
+    author: النووي النووي
+    language: ar
+    category: hadith
+    volumes: 4 file(s)
+    files:
+    - {name: 20200420_20200420_2338.pdf, bytes: 271974, pages: 35, ocr_pages: 0, sha256: 980f6ff3a3bbae2e83e66eaf81184b0b36ee3ea423b4755bd5ada7d3abf89e0a}
+    - {name: 20201225_20201225_1747.pdf, bytes: 611190, pages: 32, ocr_pages: 32, sha256: 761869038826d8fb5a16dd64586d934b8ceb7f5ab3434e432e3de09b4a7ef42a}
+    - {name: 20210807.pdf, bytes: 3054819, pages: 42, ocr_pages: 42, sha256: 98653b01b1813ece6937b3e1ef90e1cb1ca57c89801e2f8ab91849dc428c9ca6}
+    - {name: 978_20200521.pdf, bytes: 4364629, pages: 70, ocr_pages: 70, sha256: 58545ea3eae96971cf40e2dbd38e1f070f3137ca3feb83bca0b89d43887685f8}
+    acquisition: {source: '4 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-11', by: library harvest (library/manifest.jsonl), bytes: 8302612, sha256_status: computed}
+    physical: {pages: 179}
+    ocr: {state: partial, date: '2026-10-12', failed_pages: 35, unzipped_location: books/hadith/arbaun-nawawi/}
+    ocr_archive: {state: none}
+    mining: {state: in_progress, entities: 4 data files cite source/arbaun-nawawi}
+    ingestion: {state: partial, prs: [2815, 5642, 5975, 6036, 6219], ledger: [docs/delegation/library/arbaun-nawawi.md, docs/delegation/lane-ledgers/microsd-books.md], graph_ids: [source/arbaun-nawawi, work/arbaun-nawawi]}
+    completion: mining
+    unverified:
+    - edition
+    - mining.ranges_mined
+    - mining.state_derived_from_ledger_text
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); ocr_pages 144 of 179 pages (pages without text may be blank)
+  - id: awn-mabud
+    title: عون المعبود شرح سنن أبي داود - شرف الحق آبادي (+1 more scans)
+    category: hadith
+    volumes: 2 file(s)
+    files:
+    - {name: 8_20230503.pdf, bytes: 26436217, pages: 386, ocr_pages: 386, sha256: 10bc30140dba80466151c2301c464c8e6f0714ed4395c19394b936d63fe4a3c5}
+    - {name: amaaboud.pdf, bytes: 8616185, pages: 402, ocr_pages: 402, sha256: 2e32fe3f07c4175e7cf2697df4ac68d05fa0fed50385df47f54e1739bd6d2c82}
+    acquisition: {source: '2 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-11', by: library harvest (library/manifest.jsonl), bytes: 35052402, sha256_status: computed}
+    physical: {pages: 788}
+    ocr: {state: complete, date: '2026-10-14', unzipped_location: books/hadith/awn-mabud/}
+    ocr_archive: {state: none}
+    mining: {state: in_progress}
+    ingestion: {state: none, prs: [2818], ledger: [docs/delegation/lane-ledgers/microsd-books.md]}
+    completion: mining
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - mining.state_derived_from_ledger_text
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none)
+  - id: bulugh-maram
+    title: بلوغ المرام من أدلة الأحكام ابن حجر العسقلاني (+3 more scans)
+    category: hadith
+    volumes: 4 file(s)
+    files:
+    - {name: 20200129_20200129_0747.pdf, bytes: 10064454, pages: 560, ocr_pages: 560, sha256: 413f2b1a1dc0ca04b71caf49c91346977245e9d60eda3429cde312690644fbf7}
+    - {name: 20200710_20200710_2028.pdf, bytes: 37495904, pages: 495, ocr_pages: 7, sha256: 25505da04a2436e2a360634735f32523405f272dcf2abf82fe584dfe42a0fe5e}
+    - {name: 20221218_20221218_0728.pdf, bytes: 4596759, pages: 498, ocr_pages: 9, sha256: eba19c09b081873e7286500d94341248f0dc03c2333c3576a1d349050d08064d}
+    - {name: 20221222_20221222_0758.pdf, bytes: 10690377, pages: 737, ocr_pages: 737, sha256: 38468fbb6d4870b4cf6a883704f65dc93d0a9b58439de14da625579d180ae2ee}
+    acquisition: {source: '4 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-11', by: library harvest (library/manifest.jsonl), bytes: 62847494, sha256_status: computed}
+    physical: {pages: 2290}
+    ocr: {state: partial, date: '2026-10-14', failed_pages: 977, unzipped_location: books/hadith/bulugh-maram/}
+    ocr_archive: {state: none}
+    mining: {state: in_progress}
+    ingestion: {state: none, ledger: [docs/delegation/lane-ledgers/microsd-books.md]}
+    completion: mining
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - mining.state_derived_from_ledger_text
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); ocr_pages 1313 of 2290 pages (pages without text may be blank)
+  - id: dalil-falihin
+    title: دليل الفالحين لطرق رياض الصالحين ابن علان (+2 more scans)
+    category: hadith
+    volumes: 3 file(s)
+    files:
+    - {name: 20250204_20250204_1020.pdf, bytes: 100733948, pages: 2549, ocr_pages: 2549, sha256: 85e728b662dbad6fd8ef41891758c518ba67ad7248776389f5052d58e687f9d9}
+    - {name: 4_20260415_20260415.pdf, bytes: 28823142, pages: 628, ocr_pages: 628, sha256: c536054066e23fdc6ef6b7b87c8d1dcd9cb2cc1653ba8652a563519c923ea503}
+    - {name: 88_20260406.pdf, bytes: 16038724, pages: 404, ocr_pages: 404, sha256: 56d68e3b95fac7b83a4ad91eb3d416826cee02216b285f522df5d29df221e065}
+    acquisition: {source: '3 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-24', by: library harvest (library/manifest.jsonl), bytes: 145595814, sha256_status: computed}
+    physical: {pages: 3581}
+    ocr: {state: complete, date: '2026-10-31', unzipped_location: books/hadith/dalil-falihin/}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    work_registry: 'ocr: active ((another session) unharvested-microsd-books-6f00c1) x3'
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none)
+  - id: fath-bari
+    title: فتح الباري شرح صحيح البخاري (+3 more scans)
+    category: hadith
+    volumes: 4 file(s)
+    files:
+    - {name: FETULBRerhSahElBur08IbnHaderElAsqlan34073948.pdf, bytes: 19621846, pages: 746, ocr_pages: 746, sha256: 87931698b4cd5cfaa33da694bca2fc08bd3162bd9216d1403ef986c20d2726a3}
+    - {name: FathAlBariSheibetalhamd.pdf, bytes: 21362528, pages: 742, ocr_pages: 742, sha256: a4fc580f79d73dac301f53bb00c83226c850e8cb1e5d395c19d4f18ab8b0989d}
+    - {name: FathAlBariTaliqBinBaz.pdf, bytes: 26868878, pages: 759, ocr_pages: 759, sha256: 87b3b6c51002f496bc7908a590e21f2ed2a0ab20b849e2b138f66a8ca1b7b93e}
+    - {name: miftah-fath-ulbari.pdf, bytes: 4517659, pages: 252, ocr_pages: 252, sha256: 889c4db3f1a1579ca88588cced3dfd36e113effa1e63ba1c57421af06f559b4b}
+    acquisition: {source: '4 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-11', by: library harvest (library/manifest.jsonl), bytes: 72370911, sha256_status: computed}
+    physical: {pages: 2499}
+    ocr: {state: complete, date: '2026-10-14', unzipped_location: books/hadith/fath-bari/}
+    ocr_archive: {state: none}
+    mining: {state: in_progress}
+    ingestion: {state: none, ledger: [docs/delegation/lane-ledgers/microsd-books.md]}
+    completion: mining
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - mining.state_derived_from_ledger_text
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none)
+  - id: fath-bari-ibn-rajab
+    title: فتح الباري شرح صحيح البخاري - ابن رجب الحنبلي - الجزء الاول (+2 more scans)
+    category: hadith
+    volumes: 3 file(s)
+    files:
+    - {name: elshandawily10448.pdf, bytes: 6465144, pages: 393, ocr_pages: 393, sha256: d5c86f7e7864ccd64160a0ba1fc1cdd3a8b6c6597ad528ed30a877c2786275b1}
+    - {name: elshandawily10450.pdf, bytes: 7575549, pages: 450, ocr_pages: 450, sha256: ff17c1f71d7f64268735b7140d7978f4164e9b6ea25118f1bb0b15ac1d7366b1}
+    - {name: elshandawily10457.pdf, bytes: 6784108, pages: 331, ocr_pages: 331, sha256: 45e75e96b6173b6fd6227afecc7b14b1ad951df1152a7f3fbe2d02d068e659cb}
+    acquisition: {source: '3 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-24', by: library harvest (library/manifest.jsonl), bytes: 20824801, sha256_status: computed}
+    physical: {pages: 1174}
+    ocr: {state: complete, date: '2026-10-31', unzipped_location: books/hadith/fath-bari-ibn-rajab/}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    work_registry: 'ocr: active ((another session) unharvested-microsd-books-6f00c1) x3'
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none)
+  - id: ibn-uthaymin-riyad
+    title: شرح رياض الصالحين ابن عثيمين (+1 more scans)
+    category: hadith
+    volumes: 3 file(s)
+    files:
+    - {name: 20240211_20240211_2038.pdf, bytes: 9994937, pages: 624, ocr_pages: 624, sha256: e7a71679382b39196fbe6d2b5fe07216ba5327b740602cedc48d38af50ecfc74}
+    - {name: 4_20260215_20260215_2146.pdf, bytes: 37802130, pages: 1117, ocr_pages: 429, sha256: 6d4c17fcc65cf4b2fc94836235a97264d83c722b9d50e170e09bb853fecf864f}
+    - {name: 5_20240201_202402.pdf, bytes: 9994937, pages: 624, ocr_pages: 624, sha256: e7a71679382b39196fbe6d2b5fe07216ba5327b740602cedc48d38af50ecfc74}
+    acquisition: {source: '3 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-24', by: library harvest (library/manifest.jsonl), bytes: 57792004, sha256_status: computed}
+    physical: {pages: 2365}
+    ocr: {state: partial, date: '2026-10-31', failed_pages: 688, unzipped_location: books/hadith/ibn-uthaymin-riyad/}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    work_registry: 'ocr: active ((another session) unharvested-microsd-books-6f00c1) x3'
+    completion: downloaded
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); ocr_pages 1677 of 2365 pages (pages without text may be blank)
+  - id: irshad-sari
+    title: إرشاد الساري لشرح صحيح البخاري
+    author: شهاب الدين أبو العباس أحمد بن محمد بن أبي بكر القسطلاني; Shihab al-Din Abu al-'Abbas Ahmad b. Muhammad b. Abi Bakr al-Qastallani
+    publisher: المطبعة الكبرى الأميرية، بولاق، مصر
+    edition: الطبعة السابعة، المطبعة الكبرى الأميرية، 1323هـ ⁦(التاريخ الميلادي في issued مشتق تقريبي)⁩؛ نسخة المكتبة الشاملة رقم 51712
+    year: {ce: '{''date-parts'': [[1905]]}'}
+    language: ar
+    category: hadith
+    volumes: 4 file(s)
+    files:
+    - {name: 1-1886-1888.pdf, bytes: 584016120, pages: 692, ocr_pages: 692, sha256: 1f387dbe5ad19f9e676a0ee7441171f56bb24b0cd89fc79197c95fe90a73c94e}
+    - {name: 1323_20210120.pdf, bytes: 799347, pages: 136, ocr_pages: 1, sha256: 46cb98a3b4d860151236bcd9bc4e908b871ec8c8560c68d35715018d94e1357d}
+    - {name: AAskZad-1239831.pdf, bytes: 103109344, pages: 531, ocr_pages: 531, sha256: fe013f4057564af061bb2b413f0ccb229d971be049007d60bc0e4aa40fc06800}
+    - {name: alfirdwsiy2018_gmail_2677.pdf, bytes: 149256832, pages: 2398, ocr_pages: 2398, sha256: 496fbf1a59d2c65648b1a1f62c9e7b214646aebad3b16f354d6786cb4b4d2c3e}
+    acquisition: {source: '4 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-11', by: library harvest (library/manifest.jsonl), bytes: 837181643, sha256_status: computed}
+    physical: {pages: 3757}
+    ocr: {state: partial, date: '2026-10-14', failed_pages: 135, unzipped_location: books/hadith/irshad-sari/}
+    ocr_archive: {state: none}
+    mining: {state: in_progress, entities: '15 data files cite source/irshad-sari-amiriyya-1323,irshad-sari-bulaq-1304'}
+    ingestion: {state: partial, prs: [3431, 3444], ledger: [docs/delegation/library/irshad-sari.md], graph_ids: [source/irshad-sari-amiriyya-1323, source/irshad-sari-bulaq-1304]}
+    completion: mining
+    unverified:
+    - edition
+    - mining.ranges_mined
+    - mining.state_derived_from_ledger_text
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - year
+    notes: 'needs OCR zip (ocr_archive none); ocr_pages 3622 of 3757 pages (pages without text may be blank); other source ids: irshad-sari-bulaq-1304'
+  - id: istidhkar
+    title: الاستذكار الجامع لمذاهب فقهاء الأمصار وعلماء الأقطار
+    author: يوسف بن عبد الله ابن عبد البر; Yusuf ibn Abd Allah Ibn Abd al-Barr
+    publisher: دار قتيبة ⁦(دمشق–بيروت)⁩؛ دار الوعي ⁦(حلب–القاهرة)⁩
+    edition: الطبعة الأولى، القاهرة، جمادى الآخرة 1414هـ / تشرين الثاني 1993م
+    year: {ce: '{''date-parts'': [[1993, 11]]}'}
+    language: ar
+    category: hadith
+    volumes: 4 file(s)
+    files:
+    - {name: 20220115_20220115_1712.pdf, bytes: 1301857, pages: 73, ocr_pages: 0, sha256: b6441c293551805604b2a91008f52628dd38dd29b5f1fe847d78b54bd2616914}
+    - {name: 2_20260228_20260228_1404.pdf, bytes: 21074838, pages: 838, ocr_pages: 838, sha256: a299decc74302a8e75c5614c9d4808054f9935fb80c5d9ca340297cbcc206e9e}
+    - {name: 7_20261002_202610.pdf, bytes: 195567288, pages: 249, ocr_pages: 249, sha256: dca898717340c79cd9347ed90adf9fc06a3ff6a63e25264dfc1051880747df28}
+    - {name: estzkar01.pdf, bytes: 9522152, pages: 439, ocr_pages: 439, sha256: 021564d3c3061f57f7568af2085164f759d1e28ec35bda4fd214fc6b42da5391}
+    acquisition: {source: '4 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-11', by: library harvest (library/manifest.jsonl), bytes: 227466135, sha256_status: computed}
+    physical: {pages: 1599}
+    ocr: {state: partial, date: '2026-10-14', failed_pages: 73, unzipped_location: books/hadith/istidhkar/}
+    ocr_archive: {state: none}
+    mining: {state: in_progress, entities: 7 data files cite source/istidhkar-qalaji-1993-v1}
+    ingestion: {state: partial, prs: [3449], ledger: [docs/delegation/library/istidhkar.md], graph_ids: [source/istidhkar-qalaji-1993-v1]}
+    completion: mining
+    unverified:
+    - edition
+    - mining.ranges_mined
+    - mining.state_derived_from_ledger_text
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - year
+    notes: needs OCR zip (ocr_archive none); ocr_pages 1526 of 1599 pages (pages without text may be blank)
+  - id: jami-sagheer
+    title: الجامع الصغير في أحاديث البشير النذير، وبالهامش كنوز الحقائق — الجزء الأول
+    author: جلال الدين السيوطي; Jalal al-Din al-Suyuti
+    publisher: المطبعة الخيرية، القاهرة
+    edition: المطبعة الخيرية، القاهرة؛ سنة الطبع لم ترد في الصفحات المقروءة
+    language: ar
+    category: hadith
+    volumes: 4 file(s)
+    files:
+    - {name: 20200213_20200213_1111.pdf, bytes: 23868761, pages: 1613, ocr_pages: 1613, sha256: 168ba526473f4cae9dd5b304789ea3c8d3c1a4048b00b2e15b56a39596b22eb3}
+    - {name: 20200509_20200509_2331.pdf, bytes: 363556887, pages: 348, ocr_pages: 348, sha256: 38aab0460cea271fe8c052b791f9390b54c6f6257b40c3b3201a01816e07c66d}
+    - {name: AAlexandrina-023169.pdf, bytes: 59972528, pages: 520, ocr_pages: 520, sha256: bec744782849c2ee2218d39d24e64673ae437aa4b016d6d3262c6ff83d614741}
+    - {name: AAlexandrina-155682.pdf, bytes: 24188005, pages: 468, ocr_pages: 468, sha256: 28e980e60531b1067f2ef000dd59693642efb9b18972d1307c97bb2061f239d0}
+    acquisition: {source: '4 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-11', by: library harvest (library/manifest.jsonl), bytes: 471586181, sha256_status: computed}
+    physical: {pages: 2949}
+    ocr: {state: complete, date: '2026-10-14', unzipped_location: books/hadith/jami-sagheer/}
+    ocr_archive: {state: none}
+    mining: {state: in_progress, entities: '8 data files cite source/jami-saghir-khayriyya-v1,fath-kabir-halabi-v1'}
+    ingestion: {state: partial, prs: [3444], ledger: [docs/delegation/library/jami-sagheer.md], graph_ids: [source/jami-saghir-khayriyya-v1, source/fath-kabir-halabi-v1]}
+    completion: mining
+    unverified:
+    - edition
+    - mining.ranges_mined
+    - mining.state_derived_from_ledger_text
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - year
+    notes: 'needs OCR zip (ocr_archive none); other source ids: fath-kabir-halabi-v1'
+  - id: jami-tirmidhi
+    title: الجامع الكبير ⁦(سنن الترمذي)⁩
+    author: محمد بن عيسى الترمذي; Muhammad ibn Isa al-Tirmidhi
+    publisher: المكتبة الرشيدية، دهلي، الهند
+    language: ar
+    category: hadith
+    volumes: 4 file(s)
+    files:
+    - {name: 144449_202310.pdf, bytes: 29423483, pages: 1065, ocr_pages: 1065, sha256: d2b86c04ac676665b44781eccc013ea459e286451a9b6d25740b2afae91cfeba}
+    - {name: 20250811_20250811_1753.pdf, bytes: 41168238, pages: 1363, ocr_pages: 1363, sha256: 551a6c0d0e13b0dedf37eba7c47010a12f1d62f7d44c6d19bb0393876443c259}
+    - {name: SunanAlTirmidhiDarAlTAsil.pdf, bytes: 11764981, pages: 608, ocr_pages: 608, sha256: 74e0ddd0e4f8d503f0e88dc688fad1b92b3fc1a4f10ec08d7aefff865ed702e6}
+    - {name: Sunane-Tirmizi-Mukammal.pdf, bytes: 2777591, pages: 400, ocr_pages: 1, sha256: 461537730a3054bf76d43f7bfa9724a1e7fd9de0db08b93dcaa695f80508865c}
+    acquisition: {source: '4 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-11', by: library harvest (library/manifest.jsonl), bytes: 85134293, sha256_status: computed}
+    physical: {pages: 3436}
+    ocr: {state: partial, date: '2026-10-13', failed_pages: 399, unzipped_location: books/hadith/jami-tirmidhi/}
+    ocr_archive: {state: none}
+    mining: {state: in_progress, entities: 436 data files cite source/jami-al-tirmidhi}
+    ingestion: {state: partial, prs: [7, 5642], ledger: [docs/delegation/library/jami-tirmidhi.md, docs/delegation/lane-ledgers/microsd-books.md], graph_ids: [source/jami-al-tirmidhi]}
+    completion: mining
+    unverified:
+    - edition
+    - mining.ranges_mined
+    - mining.state_derived_from_ledger_text
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - year
+    notes: needs OCR zip (ocr_archive none); ocr_pages 3037 of 3436 pages (pages without text may be blank)
+  - id: jami-ul-usul
+    title: جامع الأصول في أحاديث الرسول
+    author: مجد الدين أبو السعادات المبارك بن محمد ابن الأثير الجزري; Majd al-Din Abu al-Sa'adat al-Mubarak b. Muhammad Ibn al-Athir al-Jazari
+    publisher: دار ابن كثير، دمشق–بيروت
+    edition: الطبعة الثالثة 1437هـ/2016م؛ تحقيق عبد القادر الأرناؤوط ⁦(الطبعة الأولى 1389هـ/1969م)⁩
+    year: {ce: '{''date-parts'': [[2016]]}'}
+    language: ar
+    category: hadith
+    volumes: 4 file(s)
+    files:
+    - {name: 20230829_20230829_0903.pdf, bytes: 15189919, pages: 1073, ocr_pages: 1073, sha256: bb7775023ab3f385cd31d92f4f3a97ee5afc79f64022d4c8bd758a17c7e8041d}
+    - {name: HadithsFundamentalismCollector.pdf, bytes: 180006890, pages: 8817, ocr_pages: 8817, sha256: 423caa0b68a0962cd480346456406b6040a6c06499853044c0039f18ad5e4b4a}
+    - {name: jofarasoul.pdf, bytes: 19566117, pages: 810, ocr_pages: 810, sha256: a61f64b4395b0a9247c66d181a3f84a12e6ff0bb549ada8c0111ab961b019187}
+    - {name: muradmolla-373-3.pdf, bytes: 135719502, pages: 251, ocr_pages: 251, sha256: 5e944776b0477374177ce38e6ce3a7586a1ca163da26bdffbd299f3dba3eb15d}
+    acquisition: {source: '4 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-11', by: library harvest (library/manifest.jsonl), bytes: 350482428, sha256_status: computed}
+    physical: {pages: 10951}
+    ocr: {state: complete, date: '2026-10-14', unzipped_location: books/hadith/jami-ul-usul/}
+    ocr_archive: {state: none}
+    mining: {state: in_progress, entities: 7 data files cite source/jami-al-usul-arnaut-2016}
+    ingestion: {state: partial, prs: [3427, 3428], ledger: [docs/delegation/library/jami-ul-usul.md], graph_ids: [source/jami-al-usul-arnaut-2016]}
+    completion: mining
+    unverified:
+    - edition
+    - mining.ranges_mined
+    - mining.state_derived_from_ledger_text
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - year
+    notes: needs OCR zip (ocr_archive none)
+  - id: jami-ulum-hikam
+    title: جامع العلوم والحكم في شرح خمسين حديثاً من جوامع الكلم
+    author: عبد الرحمن بن أحمد بن رجب الحنبلي; Abd al-Rahman ibn Ahmad ibn Rajab al-Hanbali
+    publisher: دار ابن كثير، دمشق–بيروت
+    year: {ce: '{''date-parts'': [[2008]]}'}
+    language: ar
+    category: hadith
+    volumes: 1 file(s)
+    files:
+    - {name: jami3_al_3olom_wal_7ekam_al_arba3oon_al_nawaiya.pdf, bytes: 17878725, pages: 956, ocr_pages: 956, sha256: fc52e5e384d578418fbbf6ddf29fc355197585217e0a792ca4bc01b704d2a989}
+    acquisition: {source: 'local:~/Downloads (user-provided scan)', date: '2026-10-12', by: library harvest (library/manifest.jsonl), file_name: jami3_al_3olom_wal_7ekam_al_arba3oon_al_nawaiya.pdf, bytes: 17878725, sha256: fc52e5e384d578418fbbf6ddf29fc355197585217e0a792ca4bc01b704d2a989, sha256_status: computed}
+    physical: {pages: 1047}
+    ocr: {state: partial, date: '2026-10-12', failed_pages: 91, unzipped_location: books/hadith/jami-ulum-hikam/}
+    ocr_archive: {state: none}
+    mining: {state: mined, entities: 139 data files cite source/ibn-rajab-jami-ulum-hikam}
+    ingestion: {state: ingested, prs: [1554, 5975, 6022, 6036, 6063], ledger: [docs/delegation/library/jami-ulum-hikam.md], graph_ids: [source/ibn-rajab-jami-ulum-hikam, work/jami-ulum-hikam]}
+    completion: ingested
+    unverified:
+    - edition
+    - mining.ranges_mined
+    - mining.state_derived_from_ledger_text
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - year
+    notes: needs OCR zip (ocr_archive none); ocr_pages 956 of 1047 pages (pages without text may be blank); progress file says the book is complete (not independently verified)
+  - id: lamaat-tanqih
+    title: لمعات التنقيح في شرح مشكاة المصابيح (+1 more scans)
+    category: hadith
+    volumes: 2 file(s)
+    files:
+    - {name: 09150659_202001.pdf, bytes: 14704263, pages: 837, ocr_pages: 837, sha256: beaebcc79423caac2feb95d3a158ea8702f7b9ea079a7faf93990272273c4430}
+    - {name: 20200903_20200903_1206.pdf, bytes: 753646, pages: 25, ocr_pages: 25, sha256: 4e0c9e4d245865f4a10788c6316172f8e8d72f91b883110abc2523ac784d7e24}
+    acquisition: {source: '2 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-24', by: library harvest (library/manifest.jsonl), bytes: 15457909, sha256_status: computed}
+    physical: {pages: 862}
+    ocr: {state: complete, date: '2026-10-31', unzipped_location: books/hadith/lamaat-tanqih/}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    work_registry: 'ocr: active ((another session) unharvested-microsd-books-6f00c1) x2'
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none)
+  - id: lulu-marjan
+    title: اللؤلؤ والمرجان فيما اتفق عليه الشيخان (+1 more scans)
+    category: hadith
+    volumes: 3 file(s)
+    files:
+    - {name: 0315460.pdf, bytes: 8828825, pages: 350, ocr_pages: 350, sha256: 17b580e01cb6ed8159915b5a1808b46dc902918d24b28d63d7f6bc440e1af0e9}
+    - {name: 03_20220504_20220504_1121.pdf, bytes: 8828825, pages: 350, ocr_pages: 350, sha256: 17b580e01cb6ed8159915b5a1808b46dc902918d24b28d63d7f6bc440e1af0e9}
+    - {name: ozkorallh_20181026_2217.pdf, bytes: 8828825, pages: 350, ocr_pages: 350, sha256: 17b580e01cb6ed8159915b5a1808b46dc902918d24b28d63d7f6bc440e1af0e9}
+    acquisition: {source: '3 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-24', by: library harvest (library/manifest.jsonl), bytes: 26486475, sha256_status: computed}
+    physical: {pages: 1050}
+    ocr: {state: complete, date: '2026-10-31', unzipped_location: books/hadith/lulu-marjan/}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    work_registry: 'ocr: active ((another session) unharvested-microsd-books-6f00c1) x3'
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none)
+  - id: matalib-aliya
+    title: 1443 المطالب العالية بزوائد المسانيد الثمانية ابن حجر العسقلاني كتاب اقرا اونلاين (+2 more scans)
+    category: hadith
+    volumes: 3 file(s)
+    files:
+    - {name: alfirdwsiy2018_gmail_1443.pdf, bytes: 162786787, pages: 14135, ocr_pages: 14135, sha256: 8b05742b7c506a445a628ecdae293b707a404893429cf18f05c433ac6a1f5da4}
+    - {name: mataleb_aalea.pdf, bytes: 13172077, pages: 984, ocr_pages: 984, sha256: 06409c4b29b1fdba85327cf7ca3bcdac0236e25fdf925accb07d7dd1c2ac73bc}
+    - {name: muradbuhari-89.pdf, bytes: 171251890, pages: 258, ocr_pages: 258, sha256: a523bd3a99ad5c55690c62a77798676b4104f1e48ca32c3164799008b18fd4f7}
+    acquisition: {source: '3 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-24', by: library harvest (library/manifest.jsonl), bytes: 347210754, sha256_status: computed}
+    physical: {pages: 15377}
+    ocr: {state: complete, date: '2026-10-31', unzipped_location: books/hadith/matalib-aliya/}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none, prs: [2694]}
+    work_registry: 'ocr: active ((another session) unharvested-microsd-books-6f00c1) x3'
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none)
+  - id: mirat-mafatih
+    title: مرعاة المفاتيح شرح مشكاة المصابيح، المجلد العاشر
+    author: عبيد الله محمد عبد السلام المباركفوري
+    publisher: دار القبس للنشر والتوزيع، الرياض
+    edition: الطبعة الأولى، 1438هـ / 2017م
+    language: ar
+    category: hadith
+    volumes: 3 file(s)
+    files:
+    - {name: 10_20231126_20231126_2150.pdf, bytes: 39900509, pages: 699, ocr_pages: 699, sha256: 414c7e7a28a6baeb80beaef3a9ff3ce246a918ed62f1db242fb2a64281102c81}
+    - {name: 20231217_20231217_2049.pdf, bytes: 39900509, pages: 699, ocr_pages: 699, sha256: 414c7e7a28a6baeb80beaef3a9ff3ce246a918ed62f1db242fb2a64281102c81}
+    - {name: mir3at-al-mafatih_almobarakfori.pdf.pdf, bytes: 20581963, pages: 605, ocr_pages: 605, sha256: eaf89cedfa8b112178b132258e3a3eabac43c43bb099d8c1bb5d71321f90fa19}
+    acquisition: {source: '3 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-24', by: library harvest (library/manifest.jsonl), bytes: 100382981, sha256_status: computed}
+    physical: {pages: 2003}
+    ocr: {state: complete, date: '2026-10-31', unzipped_location: books/hadith/mirat-mafatih/}
+    ocr_archive: {state: none}
+    mining: {state: in_progress, entities: '11 data files cite source/mirat-al-mafatih-qabas-v10,mirat-al-mafatih-v9-jabir'}
+    ingestion: {state: partial, prs: [2740, 3459], ledger: [docs/delegation/library/mirat-mafatih.md], graph_ids: [source/mirat-al-mafatih-qabas-v10, source/mirat-al-mafatih-v9-jabir]}
+    work_registry: 'ocr: active ((another session) unharvested-microsd-books-6f00c1) x3'
+    completion: mining
+    unverified:
+    - edition
+    - mining.ranges_mined
+    - mining.state_derived_from_ledger_text
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - year
+    notes: 'needs OCR zip (ocr_archive none); other source ids: mirat-al-mafatih-v9-jabir'
+  - id: mirqat-mafatih
+    title: مرقاة المفاتيح شرح مشكاة المصابيح (+2 more scans)
+    category: hadith
+    volumes: 3 file(s)
+    files:
+    - {name: 5_20191214_201912.pdf, bytes: 23529272, pages: 647, ocr_pages: 647, sha256: 5cb2cf89fad5cfc863e0be85c2c0ed16c3bce4a1b593d87fde4707d9402110ab}
+    - {name: AAlexandrina-022803.pdf, bytes: 68780669, pages: 484, ocr_pages: 484, sha256: 0e14570c643114a94e8fae9ad09612129bcf90e45bb39aaefa1d195a2350ab60}
+    - {name: AAlexandrina-022810.pdf, bytes: 54521794, pages: 380, ocr_pages: 380, sha256: f43a192ed8116557ac3822084c04ab486b87ee011463f06b2030c876760e0391}
+    acquisition: {source: '3 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-24', by: library harvest (library/manifest.jsonl), bytes: 146831735, sha256_status: computed}
+    physical: {pages: 1511}
+    ocr: {state: complete, date: '2026-10-31', unzipped_location: books/hadith/mirqat-mafatih/}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    work_registry: 'ocr: active ((another session) unharvested-microsd-books-6f00c1) x3'
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none)
+  - id: mishkat-masabih
+    title: مشكاة المصابيح
+    author: ولي الدين محمد التبريزي; Wali al-Din Muhammad al-Tabrizi
+    publisher: المكتبة الرحيمية، ديوبند، الهند
+    language: ar
+    category: hadith
+    volumes: 4 file(s)
+    files:
+    - {name: 1_20191214_20191214_1429.pdf, bytes: 69086077, pages: 585, ocr_pages: 585, sha256: 84550bba38732c4abf9514dd5905698093fcd412e8cd55120717cc72ba6151cd}
+    - {name: 20191214_20191214_1543.pdf, bytes: 33084958, pages: 1987, ocr_pages: 1987, sha256: 6fb798c43394ef20b743f17fdc5d144aadac97dbd7537935e19e1b5ae0f13667}
+    - {name: 3-1961.pdf, bytes: 410214590, pages: 834, ocr_pages: 834, sha256: e5363ed42c9c3c8d62f8012ca9d0e6e00a8092365035f45dc9d89c63a5e45918}
+    - {name: AAlexandrina-159060.pdf, bytes: 48462606, pages: 520, ocr_pages: 520, sha256: 44ca2b47974e26b95a202a27bb3ca600d659ba87c3cb50bbaf3961bb4b67cf55}
+    acquisition: {source: '4 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-11', by: library harvest (library/manifest.jsonl), bytes: 560848231, sha256_status: computed}
+    physical: {pages: 3926}
+    ocr: {state: complete, date: '2026-10-14', unzipped_location: books/hadith/mishkat-masabih/}
+    ocr_archive: {state: none}
+    mining: {state: in_progress, entities: 31 data files cite source/mishkat-al-masabih}
+    ingestion: {state: partial, prs: [7, 5642], ledger: [docs/delegation/library/mishkat-masabih.md, docs/delegation/lane-ledgers/microsd-books.md], graph_ids: [source/mishkat-al-masabih]}
+    completion: mining
+    unverified:
+    - edition
+    - mining.ranges_mined
+    - mining.state_derived_from_ledger_text
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - year
+    notes: needs OCR zip (ocr_archive none)
+  - id: muallam-awsat-tabarani
+    title: منهج الطبراني في السكوت عن الأحاديث المعلولة خلال كتابه المعجم الأوسط The Methodology of Imam Al Tabarani based on "Silence upon" on Hadith Al Malool in his book Al-Mujamul- Awsat (+2 more scans)
+    category: hadith
+    volumes: 3 file(s)
+    files:
+    - {name: 14207218.pdf, bytes: 206094, pages: 12, ocr_pages: 0, sha256: 3a8ef1c2e50fcf7fb5faea686d51dd4b35b47109fd032aa9d8771fe2c8eaeaba}
+    - {name: MujamTabaraniAwsat.pdf, bytes: 7449329, pages: 436, ocr_pages: 436, sha256: 9fd797be5d78bcb1c2c29a06135552f74077f3bf67f5ba8fdf3b594e9f3d6ccc}
+    - {name: tafarrud-according-to-imam-ut-tabarani-applied-study-in-his-book-al-mujam-al-awsat.pdf, bytes: 579439, pages: 16, ocr_pages: 0, sha256: a40ccefb258cd89c19b848dab83fb778371e15a93e7a307ac15587afcda64f6b}
+    acquisition: {source: '3 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-11', by: library harvest (library/manifest.jsonl), bytes: 8234862, sha256_status: computed}
+    physical: {pages: 464}
+    ocr: {state: partial, date: '2026-10-14', failed_pages: 28, unzipped_location: books/hadith/muallam-awsat-tabarani/}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: downloaded
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); ocr_pages 436 of 464 pages (pages without text may be blank)
+  - id: muallam-kabir-tabarani
+    title: المعجم الكبير - الإمام الطبراني (+1 more scans)
+    category: hadith
+    volumes: 2 file(s)
+    files:
+    - {name: MujamTabaraniKabir.pdf, bytes: 10035070, pages: 549, ocr_pages: 549, sha256: 4797537378e700f21f42da694c90fa4626b7980d5b1b06037ad8308a41bd768d}
+    - {name: al-mujam-al-kabir-tabarani-18-vols.pdf, bytes: 31614543, pages: 817, ocr_pages: 817, sha256: fe474ef3189e7e0a9f0aadeb8ccfb691aaadaf4f49d6620eb999dbd0eb7e89e5}
+    acquisition: {source: '2 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-11', by: library harvest (library/manifest.jsonl), bytes: 41649613, sha256_status: computed}
+    physical: {pages: 1366}
+    ocr: {state: complete, date: '2026-10-13', unzipped_location: books/hadith/muallam-kabir-tabarani/}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none)
+  - id: muallam-saghir-tabarani
+    title: 055025 - المعجم الصغير (+2 more scans)
+    category: hadith
+    volumes: 3 file(s)
+    files:
+    - {name: AAlexandrina-055025.pdf, bytes: 52738866, pages: 292, ocr_pages: 292, sha256: cae3917a110d7c5d2df14e34d0590a9238f5d968177197a5312925189d2ed9c4}
+    - {name: AAlexandrina-408249.pdf, bytes: 45615897, pages: 512, ocr_pages: 512, sha256: 4508f290405417d793c768bf0adc2f9709b59fcfd2070d8a10fb72fceb70dcf8}
+    - {name: MujamTabaraniSaghir.pdf, bytes: 5003073, pages: 278, ocr_pages: 278, sha256: 41bdb8307c36f5f493c45e6aedcc25aadaa4a42108fb6e91e3ab4bd55458f11c}
+    acquisition: {source: '3 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-24', by: library harvest (library/manifest.jsonl), bytes: 103357836, sha256_status: computed}
+    physical: {pages: 1082}
+    ocr: {state: complete, date: '2026-10-31', unzipped_location: books/hadith/muallam-saghir-tabarani/}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    work_registry: 'ocr: active ((another session) unharvested-microsd-books-6f00c1) x3'
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none)
+  - id: mufhim-qurtubi
+    title: المفهم لما أشكل من كتاب تلخيص مسلم (+2 more scans)
+    category: hadith
+    volumes: 3 file(s)
+    files:
+    - {name: 0084101.pdf, bytes: 15370079, pages: 854, ocr_pages: 854, sha256: f68437bca98633096697234601cce8fb757d0970c99ab82a0a383ab2f2a7c4cf}
+    - {name: 7_20250905.pdf, bytes: 14821244, pages: 854, ocr_pages: 854, sha256: 9f22bfc84e5f80747c1c47cfbd607069c53238f108a445294a724880bf5eb06b}
+    - {name: Al_Mufhim_Lima_Ashkala_Min_Talkhis_Kitab_Muslim.pdf, bytes: 15370079, pages: 854, ocr_pages: 854, sha256: f68437bca98633096697234601cce8fb757d0970c99ab82a0a383ab2f2a7c4cf}
+    acquisition: {source: '3 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-24', by: library harvest (library/manifest.jsonl), bytes: 45561402, sha256_status: computed}
+    physical: {pages: 2562}
+    ocr: {state: complete, date: '2026-10-31', unzipped_location: books/hadith/mufhim-qurtubi/}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none, prs: [2768]}
+    work_registry: 'ocr: active ((another session) unharvested-microsd-books-6f00c1) x3'
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none)
+  - id: musannaf-abd-al-razzaq
+    title: المصنف
+    author: أبو بكر عبد الرزاق بن همام الصنعاني
+    publisher: المجلس العلمي، بيروت
+    year: {ce: '{''date-parts'': [[1970]]}'}
+    language: ar
+    category: hadith
+    volumes: 4 file(s)
+    files:
+    - {name: 20260327_20260327_1113.pdf, bytes: 90429372, pages: 6719, ocr_pages: 6719, sha256: cdaa5a38f5f1c2659d828f8166e916193e2982b71663279ba2e50698cc731972}
+    - {name: 2_20200405_20200405_1615.pdf, bytes: 37854256, pages: 114, ocr_pages: 114, sha256: a708f059d41cefa34e81198d997ad5c0878cced0bdcde444feb7e2b97aa3f49c}
+    - {name: 4_20191217_20191217.pdf, bytes: 13359171, pages: 593, ocr_pages: 593, sha256: 9a28dae7dc92a2d61465bd2ddb1ab37d41923c224e9231c64d90a1764b01257f}
+    - {name: Almosanaf.pdf, bytes: 11474105, pages: 591, ocr_pages: 591, sha256: 95d13592b117a49b37fa4367e75d1af39208364da197918835e0662664a747f2}
+    acquisition: {source: '4 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-11', by: library harvest (library/manifest.jsonl), bytes: 153116904, sha256_status: computed}
+    physical: {pages: 8017}
+    ocr: {state: complete, date: '2026-10-13', unzipped_location: books/hadith/musannaf-abd-al-razzaq/}
+    ocr_archive: {state: none}
+    mining: {state: in_progress, entities: 21 data files cite source/musannaf-abd-al-razzaq}
+    ingestion: {state: partial, graph_ids: [source/musannaf-abd-al-razzaq]}
+    completion: mining
+    unverified:
+    - edition
+    - mining.ranges_mined
+    - mining.state_derived_from_ledger_text
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - year
+    notes: needs OCR zip (ocr_archive none)
+  - id: musannaf-ibn-abi-shayba
+    title: المصنف لابن أبي شيبة الكوفي (+2 more scans)
+    category: hadith
+    volumes: 4 file(s)
+    files:
+    - {name: 07-69117.pdf, bytes: 10517044, pages: 567, ocr_pages: 567, sha256: 8403184e606aea1b39bea25b10faab8e32f6fefc83a00a07cea1f2a96331200c}
+    - {name: 1438_20250813.pdf, bytes: 142491353, pages: 9862, ocr_pages: 9862, sha256: 3cdaf0e5bb5a90781e61ae2b782c6c6e5de03fd659fd2a3937f227530ad4ec2f}
+    - {name: AAlexandrina-045199.pdf, bytes: 43654665, pages: 426, ocr_pages: 426, sha256: 454b22a5da820cc27fc052c63f55951e7d914990844dd7b879d62b28bd21ced6}
+    - {name: musnfsha08_202104.pdf, bytes: 12115643, pages: 828, ocr_pages: 828, sha256: 9573ca497c03b0db4f5d15084c013c3a4a7a1246886d8b8c478ebfb89b8dc5a0}
+    acquisition: {source: '4 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-11', by: library harvest (library/manifest.jsonl), bytes: 208778705, sha256_status: computed}
+    physical: {pages: 11683}
+    ocr: {state: complete, date: '2026-10-13', unzipped_location: books/hadith/musannaf-ibn-abi-shayba/}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none)
+  - id: musnad-abu-yala
+    title: مسند أبي يعلى الموصلي
+    author: أحمد بن علي بن المثنى التميمي أبو يعلى الموصلي; Ahmad ibn 'Ali ibn al-Muthanna al-Tamimi Abu Ya'la al-Mawsili
+    publisher: دار المعرفة، بيروت
+    edition: حقق أصوله وخرّج أحاديثه خليل بن مأمون شيحا؛ الطبعة الأولى 1426هـ / 2005م
+    year: {ce: '{''date-parts'': [[2005]]}'}
+    language: ar
+    category: hadith
+    volumes: 4 file(s)
+    files:
+    - {name: 05_20220511_202205.pdf, bytes: 16891553, pages: 576, ocr_pages: 576, sha256: c17c305631ea545c5fe98639a2a5631f33840baadc9d3d80c3d3e8f6ce1b1d28}
+    - {name: 20191212_20191212_0813.pdf, bytes: 33397321, pages: 1501, ocr_pages: 1501, sha256: c38caa0c02a28ca206a87a9c75c4b96382ebe8c74face2fabc165577fbe25bf4}
+    - {name: msnay8.pdf, bytes: 12961486, pages: 696, ocr_pages: 696, sha256: 0c49a5c05732448b47cf1c1a93558caa9e7db17147ebe289813f7a83c6bec7ac}
+    - {name: sa71mir_gmail_5.pdf, bytes: 16804976, pages: 576, ocr_pages: 576, sha256: cd4d83a2b0973de9e8eabccfc69d029234f311a3df1d9d0580e6dc544ff4c7ac}
+    acquisition: {source: '4 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-11', by: library harvest (library/manifest.jsonl), bytes: 80055336, sha256_status: computed}
+    physical: {pages: 3349}
+    ocr: {state: complete, date: '2026-10-14', unzipped_location: books/hadith/musnad-abu-yala/}
+    ocr_archive: {state: none}
+    mining: {state: in_progress, entities: '14 data files cite source/musnad-abu-yala-marifa-2005,musnad-abu-yala-tasil-v5,musnad-abu-yala-hadith-2013-v8'}
+    ingestion: {state: partial, prs: [3466], ledger: [docs/delegation/library/musnad-abu-yala.md], graph_ids: [source/musnad-abu-yala-marifa-2005, source/musnad-abu-yala-tasil-v5, source/musnad-abu-yala-hadith-2013-v8, source/musnad-abu-yaala]}
+    completion: mining
+    unverified:
+    - edition
+    - mining.ranges_mined
+    - mining.state_derived_from_ledger_text
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - year
+    notes: 'needs OCR zip (ocr_archive none); other source ids: musnad-abu-yala-tasil-v5, musnad-abu-yala-hadith-2013-v8, musnad-abu-yaala'
+  - id: musnad-ahmad
+    title: المسند
+    author: أحمد بن محمد ابن حنبل; Ahmad ibn Muhammad Ibn Hanbal
+    language: ar
+    category: hadith
+    volumes: 4 file(s)
+    files:
+    - {name: 0_20230928.pdf, bytes: 11067330, pages: 661, ocr_pages: 661, sha256: 2e63b0484da4735129951f3ba5e16f7798ccda33520021b6ab1e44f1bea84f6d}
+    - {name: 20191217_20191217_0655.pdf, bytes: 84144986, pages: 2038, ocr_pages: 2038, sha256: c8f2df4758f194b63ed9af055bb8f866cc3aede01c83df03d19a588612971466}
+    - {name: 20230830_20230830_1418.pdf, bytes: 85761895, pages: 2106, ocr_pages: 2106, sha256: 22b7a8233de1ea40850667b81e43327dbb492b2bb8573435e4b1c7a43e7a9e3f}
+    - {name: 2_20230830_20230830_1209.pdf, bytes: 32054737, pages: 548, ocr_pages: 548, sha256: af5327361359799003cba4b7b9933c0453048180c00fcf6e26eae9683f524f7c}
+    acquisition: {source: '4 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-11', by: library harvest (library/manifest.jsonl), bytes: 213028948, sha256_status: computed}
+    physical: {pages: 5353}
+    ocr: {state: complete, date: '2026-10-13', unzipped_location: books/hadith/musnad-ahmad/}
+    ocr_archive: {state: none}
+    mining: {state: in_progress, entities: 31 data files cite source/musnad-ahmad}
+    ingestion: {state: partial, prs: [7], ledger: [docs/delegation/lane-ledgers/microsd-books.md], graph_ids: [source/musnad-ahmad]}
+    completion: mining
+    unverified:
+    - edition
+    - mining.ranges_mined
+    - mining.state_derived_from_ledger_text
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none)
+  - id: musnad-bazzar
+    title: البحر الزخار المعروف بمسند البزار ⁦(الجزء الثالث عشر)⁩
+    author: أحمد بن عمرو بن عبد الخالق البزار; Ahmad ibn Amr ibn Abd al-Khaliq al-Bazzar
+    publisher: مكتبة العلوم والحكم، المدينة المنورة
+    edition: الطبعة الأولى، 1426هـ / 2005م
+    year: {ce: '{''date-parts'': [[2005]]}'}
+    language: ar
+    category: hadith
+    volumes: 4 file(s)
+    files:
+    - {name: 00-bzmb.pdf, bytes: 9964643, pages: 653, ocr_pages: 653, sha256: 98dd0bfaf5a0ada72f9fd533162f8159a1a870a259aed7f0b3be1a00f3ce1ed1}
+    - {name: 01220_201802.pdf, bytes: 9195952, pages: 507, ocr_pages: 507, sha256: f98e711f341632fa49833a5d1a4f6159e9a5f8a7446489876696d5f19afd540a}
+    - {name: 13-bzmb.pdf, bytes: 9964643, pages: 653, ocr_pages: 653, sha256: 98dd0bfaf5a0ada72f9fd533162f8159a1a870a259aed7f0b3be1a00f3ce1ed1}
+    - {name: alfirdwsiy2018_gmail_3735.pdf, bytes: 9195952, pages: 507, ocr_pages: 507, sha256: f98e711f341632fa49833a5d1a4f6159e9a5f8a7446489876696d5f19afd540a}
+    acquisition: {source: '4 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-11', by: library harvest (library/manifest.jsonl), bytes: 38321190, sha256_status: computed}
+    physical: {pages: 2320}
+    ocr: {state: complete, date: '2026-10-14', unzipped_location: books/hadith/musnad-bazzar/}
+    ocr_archive: {state: none}
+    mining: {state: in_progress, entities: '9 data files cite source/musnad-bazzar-ulum-hikam-2005-v13,musnad-bazzar-anas-thesis-1413'}
+    ingestion: {state: partial, prs: [3459], ledger: [docs/delegation/library/musnad-bazzar.md], graph_ids: [source/musnad-bazzar-ulum-hikam-2005-v13, source/musnad-bazzar-anas-thesis-1413]}
+    completion: mining
+    unverified:
+    - edition
+    - mining.ranges_mined
+    - mining.state_derived_from_ledger_text
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - year
+    notes: 'needs OCR zip (ocr_archive none); other source ids: musnad-bazzar-anas-thesis-1413'
+  - id: musnad-tayalisi
+    title: مسند أبي داود الطيالسي
+    category: hadith
+    volumes: 3 file(s)
+    files:
+    - {name: 20200329_20200329_1232.pdf, bytes: 37930820, pages: 2777, ocr_pages: 2777, sha256: 22ce542c544702e5436010169567315e886907e148f963054a14c990d00253ff}
+    - {name: 20210419_20210419_0816.pdf, bytes: 37930820, pages: 2777, ocr_pages: 2777, sha256: 22ce542c544702e5436010169567315e886907e148f963054a14c990d00253ff}
+    - {name: mabu_dawood_tialsy_pdfbook_ara.pdf, bytes: 11141120, pages: 727, ocr_pages: 727, sha256: 11aede9527b498d224c5750e6fc49a59d52172a282fea6e382ca23b760a21a60}
+    acquisition: {source: '3 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-24', by: library harvest (library/manifest.jsonl), bytes: 87002760, sha256_status: computed}
+    physical: {pages: 6281}
+    ocr: {state: complete, date: '2026-10-31', unzipped_location: books/hadith/musnad-tayalisi/}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none, prs: [2798], graph_ids: [work/musnad-tayalisi]}
+    work_registry: 'ocr: active ((another session) unharvested-microsd-books-6f00c1) x3'
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none)
+  - id: mustadrak-hakim
+    title: المستدرك على الصحيحين
+    author: أبو عبد الله محمد بن عبد الله الحاكم النيسابوري; Abu 'Abd Allah Muhammad ibn 'Abd Allah al-Hakim al-Naysaburi
+    publisher: دار الحرمين للطباعة والنشر والتوزيع، القاهرة
+    edition: الطبعة الأولى 1417هـ/1997م؛ رقم الإيداع 96/13908؛ الجزء 1
+    year: {ce: '{''date-parts'': [[1997]]}'}
+    language: ar
+    category: hadith
+    volumes: 4 file(s)
+    files:
+    - {name: 9_20191217.pdf, bytes: 15048323, pages: 801, ocr_pages: 801, sha256: 083199dbb3f2e54b82f4befb50bbc3f33e2ea54f63d8a7364c6308947d27c463}
+    - {name: AlMustadrak_Ala_Sahihein.pdf, bytes: 16503397, pages: 784, ocr_pages: 784, sha256: 67b8906f9b11defccfd2ceb713b19a2dddcde4c34d83bceb6341c4eac41e548b}
+    - {name: MustadrakAlhakimOld.pdf, bytes: 57405452, pages: 675, ocr_pages: 675, sha256: 386cd081ce5b66bad109b3a78ae54d89db6a951d3245da932514c3482e7a51a7}
+    - {name: masahih3.pdf, bytes: 12785433, pages: 758, ocr_pages: 758, sha256: d541c2101733ce870253fe77facb80bd41d43e0aa48e848c4c058f8adebd1aef}
+    acquisition: {source: '4 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-11', by: library harvest (library/manifest.jsonl), bytes: 101742605, sha256_status: computed}
+    physical: {pages: 3018}
+    ocr: {state: complete, date: '2026-10-13', unzipped_location: books/hadith/mustadrak-hakim/}
+    ocr_archive: {state: none}
+    mining: {state: in_progress, entities: '43 data files cite source/mustadrak-haramayn-1997-v1,mustadrak-ilmiyya-ata-v3,mustadrak-nizamiyya-1341-v3'}
+    ingestion: {state: partial, prs: [7, 3449, 3459], ledger: [docs/delegation/library/mustadrak-hakim.md], graph_ids: [source/mustadrak-haramayn-1997-v1, source/mustadrak-ilmiyya-ata-v3, source/mustadrak-nizamiyya-1341-v3, source/mustadrak-tasil-2014-v9, source/mustadrak-al-hakim]}
+    completion: mining
+    unverified:
+    - edition
+    - mining.ranges_mined
+    - mining.state_derived_from_ledger_text
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - year
+    notes: 'needs OCR zip (ocr_archive none); other source ids: mustadrak-ilmiyya-ata-v3, mustadrak-nizamiyya-1341-v3, mustadrak-tasil-2014-v9'
+  - id: muwatta-malik
+    title: موطأ الإمام مالك
+    author: Malik ibn Anas
+    publisher: المكتبة الرحيمية، ديوبند يوبي — الهند
+    language: ar
+    category: hadith
+    volumes: 6 file(s)
+    files:
+    - {name: 20191216_20191216_1149.pdf, bytes: 10005347, pages: 412, ocr_pages: 412, sha256: 7b56cf48bb96d801a758bec8fb8d25cbac0e57a92f55c0e8062d6dd527a853c7}
+    - {name: AAlexandrina-141199.pdf, bytes: 11495118, pages: 100, ocr_pages: 100, sha256: 8043eb85d4580bbbcc91c1d83ac0c45dbd15e067082c1b9c1f2507056002a259}
+    - {name: a962n.pdf, bytes: 16078805, pages: 884, ocr_pages: 884, sha256: 0eca76a6922e7111bb29d021ee5513e98654668fc94be9f72de9f0c21aef5b7b}
+    - {name: alfirdwsiy2018_gmail_1561.pdf, bytes: 8127375, pages: 459, ocr_pages: 459, sha256: 32fc3216faacb357b884f8ac96cffd115e2c0c91bece8ada8cb2792cb724745b}
+    - {name: noor-maruf-1997-v1.pdf, bytes: 10682934, pages: 664, ocr_pages: 664, sha256: c215cda01ed78fd151e1ab60c6feb61c90c71b4d27d014f71bb20b999d2f17fc}
+    - {name: noor-maruf-1997-v2.pdf, bytes: 11009296, pages: 720, ocr_pages: 720, sha256: d76d4e34d6f6e1f9d546150e54c31da65dd8cdcc139ff30c0b647cdb896e487b}
+    acquisition: {source: '4 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-11', by: library harvest (library/manifest.jsonl), bytes: 67398875, sha256_status: computed}
+    physical: {pages: 3239}
+    ocr: {state: complete, date: '2026-10-13', unzipped_location: books/hadith/muwatta-malik/}
+    ocr_archive: {state: none}
+    mining: {state: in_progress, entities: '3101 data files cite source/muwatta-malik,muwatta-maruf-1997'}
+    ingestion: {state: partial, prs: [1933, 1958, 5642, 5975, 6001, 6036, 6219, 6255], ledger: [docs/delegation/library/muwatta-malik.md, docs/delegation/lane-ledgers/microsd-books.md], graph_ids: [source/muwatta-malik, source/muwatta-maruf-1997, work/muwatta-malik]}
+    completion: mining
+    unverified:
+    - edition
+    - mining.ranges_mined
+    - mining.state_derived_from_ledger_text
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - year
+    notes: 'needs OCR zip (ocr_archive none); other source ids: muwatta-maruf-1997'
+  - id: nayl-awtar
+    title: نيل الأوطار من أسرار منتقى الأخبار، وبهامشه عون الباري لحل أدلة البخاري
+    author: محمد بن علي الشوكاني; Muhammad b. 'Ali al-Shawkani
+    edition: طبعة قديمة في أجزاء؛ بلد الطبع وسنته لم يردا في الصفحات المقروءة
+    language: ar
+    category: hadith
+    volumes: 4 file(s)
+    files:
+    - {name: 4-1_20240815_202408.pdf, bytes: 18376855, pages: 672, ocr_pages: 672, sha256: 3aa0deab6d5b6020cc9fd76a193f08dae7a59ed3ddf28a3fbab701d63c7eaef5}
+    - {name: AAlexandrina-124014.pdf, bytes: 47840270, pages: 396, ocr_pages: 396, sha256: 0fbec18412e2bc1f5c28b2a220112fffdefcebdcda458b10f44fff89128ae7be}
+    - {name: AAlexandrina-128364.pdf, bytes: 46150515, pages: 382, ocr_pages: 382, sha256: e5f21f27121d82ef266ed22c32c6215d2e96a3c1e1f02f4d462852f10f103cba}
+    - {name: AAlexandrina-132076.pdf, bytes: 88327092, pages: 380, ocr_pages: 380, sha256: 411834b9213682c704d9bf9968d02d641e65379ad7dad27e1ed3b7e3af5571b3}
+    acquisition: {source: '4 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-11', by: library harvest (library/manifest.jsonl), bytes: 200694732, sha256_status: computed}
+    physical: {pages: 1830}
+    ocr: {state: complete, date: '2026-10-14', unzipped_location: books/hadith/nayl-awtar/}
+    ocr_archive: {state: none}
+    mining: {state: in_progress, entities: 17 data files cite source/nayl-awtar-awn-bari-hamish}
+    ingestion: {state: partial, prs: [3438], ledger: [docs/delegation/library/nayl-awtar.md], graph_ids: [source/nayl-awtar-awn-bari-hamish]}
+    completion: mining
+    unverified:
+    - edition
+    - mining.ranges_mined
+    - mining.state_derived_from_ledger_text
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none)
+  - id: riyad-salihin
+    title: رياض الصالحين
+    author: النووي النووي
+    language: ar
+    category: hadith
+    volumes: 4 file(s)
+    files:
+    - {name: 2_20200420_20200420_2038.pdf, bytes: 121919489, pages: 453, ocr_pages: 453, sha256: 78d169f3aeced20fd667ac752dbdd00486e8105497b6dd698a43850518fbc61a}
+    - {name: 620-pdf-00.4.pdf, bytes: 477390, pages: 4, ocr_pages: 4, sha256: 265915419df73e946ef0413033b8b6dfbaa3a83bc8628b649eb140a0dd3bf5a8}
+    - {name: AAlexandrina-021516.pdf, bytes: 46395140, pages: 392, ocr_pages: 392, sha256: 75606b5068023aa6455e43377ec5c177c0fbfa6f491adf2284f20db7676a1d0e}
+    - {name: RiyaadusSalihin.pdf, bytes: 325763746, pages: 746, ocr_pages: 746, sha256: 1ae809a700f845ceef8f17ae8f397b07b0d5ebcbcf30bb4a9bd729ff86ab8472}
+    acquisition: {source: '4 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-11', by: library harvest (library/manifest.jsonl), bytes: 494555765, sha256_status: computed}
+    physical: {pages: 4587}
+    ocr: {state: partial, date: '2026-10-12', failed_pages: 2992, unzipped_location: books/hadith/riyad-salihin/}
+    ocr_archive: {state: none}
+    mining: {state: in_progress, entities: 37 data files cite source/riyad-salihin}
+    ingestion: {state: partial, prs: [1554, 5642], ledger: [docs/delegation/library/riyad-salihin.md, docs/delegation/lane-ledgers/microsd-books.md], graph_ids: [source/riyad-salihin]}
+    completion: mining
+    unverified:
+    - edition
+    - mining.ranges_mined
+    - mining.state_derived_from_ledger_text
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); ocr_pages 1595 of 4587 pages (pages without text may be blank)
+  - id: sahih-bukhari
+    title: الجامع المسند الصحيح ⁦(صحيح البخاري)⁩
+    author: محمد بن إسماعيل البخاري; Muhammad ibn Isma'il al-Bukhari
+    publisher: المكتبة الرحيمية، ديوبند، الهند
+    year: {ce: '{''date-parts'': [[1384, 1387]]}'}
+    language: ar
+    category: hadith
+    volumes: 4 file(s)
+    files:
+    - {name: 20191204_20191204_0622.pdf, bytes: 60130375, pages: 1994, ocr_pages: 1994, sha256: 765330a2b2536a18f5d6489290e7fb2de117bfa6a6edda5bdb85485c7906b4ce}
+    - {name: Bukhari_Hadeeth.pdf, bytes: 115490589, pages: 2364, ocr_pages: 2364, sha256: 31451d9b00fde2a0d20b6f039ade318a81227e31d35c48d22f94c6d6b4cb49f0}
+    - {name: niyazaka_gmail.pdf, bytes: 21708177, pages: 3322, ocr_pages: 0, sha256: 8993180101b9cb968cb512bde1008da9491b92f31fad76c4d60b51b235576f24}
+    - {name: sahih-al-bukhar2018_202511.pdf, bytes: 33863909, pages: 1745, ocr_pages: 1745, sha256: 3db2f5b817a88069d8a8847b03df2546068f385e77e3440b11e1a84b219c011a}
+    acquisition: {source: '4 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-11', by: library harvest (library/manifest.jsonl), bytes: 231193050, sha256_status: computed}
+    physical: {pages: 9425}
+    ocr: {state: partial, date: '2026-10-12', failed_pages: 3322, unzipped_location: books/hadith/sahih-bukhari/}
+    ocr_archive: {state: none}
+    mining: {state: in_progress, entities: 1037 data files cite source/sahih-al-bukhari}
+    ingestion: {state: partial, prs: [7, 1525, 1529, 5642], ledger: [docs/delegation/library/sahih-bukhari.md, docs/delegation/lane-ledgers/microsd-books.md], graph_ids: [source/sahih-al-bukhari]}
+    completion: mining
+    unverified:
+    - edition
+    - mining.ranges_mined
+    - mining.state_derived_from_ledger_text
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - year
+    notes: needs OCR zip (ocr_archive none); ocr_pages 6103 of 9425 pages (pages without text may be blank)
+  - id: sahih-ibn-hibban
+    title: صحيح ابن حبان ⁦(الإحسان)⁩
+    author: محمد بن حبان البستي ابن حبان; Muhammad ibn Hibban al-Busti Ibn Hibban
+    publisher: مؤسسة الرسالة، بيروت
+    language: ar
+    category: hadith
+    volumes: 4 file(s)
+    files:
+    - {name: 04-6113_202205.pdf, bytes: 10170688, pages: 661, ocr_pages: 661, sha256: 6cce0c8ae721520e747eba6e83686ebbb2d4dc775043c76dfce97db422e2ed40}
+    - {name: 1_20220511_20220511_1730.pdf, bytes: 6985880, pages: 317, ocr_pages: 317, sha256: 9c3c93566de82a50fe9a62bfd01c1563846dd4b0f201ff859af2bd2a27cbe65d}
+    - {name: 20240904_20240904_0233.pdf, bytes: 54925522, pages: 2176, ocr_pages: 2176, sha256: e235f4f85ef279e4cd0e0995759086c199e8d34258579aa7e5321b4b7194ecc9}
+    - {name: 20250120_20250120_0428.pdf, bytes: 54925522, pages: 2176, ocr_pages: 2176, sha256: e235f4f85ef279e4cd0e0995759086c199e8d34258579aa7e5321b4b7194ecc9}
+    acquisition: {source: '4 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-11', by: library harvest (library/manifest.jsonl), bytes: 127007612, sha256_status: computed}
+    physical: {pages: 5330}
+    ocr: {state: complete, date: '2026-10-13', unzipped_location: books/hadith/sahih-ibn-hibban/}
+    ocr_archive: {state: none}
+    mining: {state: in_progress, entities: '29 data files cite source/sahih-ibn-hibban,sahih-ibn-hibban-shakir-maarif-v1,ihsan-ibn-hibban-risala-1988-v4'}
+    ingestion: {state: partial, prs: [3462], ledger: [docs/delegation/library/sahih-ibn-hibban.md], graph_ids: [source/sahih-ibn-hibban, source/sahih-ibn-hibban-shakir-maarif-v1, source/ihsan-ibn-hibban-risala-1988-v4, source/ihsan-ibn-hibban-marifa-2004, work/sahih-ibn-hibban]}
+    completion: mining
+    unverified:
+    - edition
+    - mining.ranges_mined
+    - mining.state_derived_from_ledger_text
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - year
+    notes: 'needs OCR zip (ocr_archive none); other source ids: sahih-ibn-hibban-shakir-maarif-v1, ihsan-ibn-hibban-risala-1988-v4, ihsan-ibn-hibban-marifa-2004'
+  - id: sahih-ibn-khuzayma
+    title: المختصر من المختصر من المسند الصحيح عن النبي
+    author: محمد بن إسحاق بن خزيمة ابن خزيمة; Muhammad ibn Ishaq Ibn Khuzayma
+    language: ar
+    category: hadith
+    volumes: 4 file(s)
+    files:
+    - {name: 20221228_20221228_0141.pdf, bytes: 52465548, pages: 2369, ocr_pages: 2369, sha256: 6faf291845d6e519ac3724bb841ecf9f2a607c6956161b03874290baee2f3d18}
+    - {name: 61667.pdf, bytes: 21783276, pages: 1644, ocr_pages: 1644, sha256: da251f37844d42c6c72b2547da27b40228d1fa6b4bedafe0e8560df5204cf634}
+    - {name: SahihIbnKhuzeima.pdf, bytes: 6807550, pages: 383, ocr_pages: 383, sha256: d150443ad1191b3635382266eae41a5e9ecd6f330f6b6fc859b86fb1ae746e45}
+    - {name: shuzaima3.pdf, bytes: 6807550, pages: 383, ocr_pages: 383, sha256: d150443ad1191b3635382266eae41a5e9ecd6f330f6b6fc859b86fb1ae746e45}
+    acquisition: {source: '4 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-11', by: library harvest (library/manifest.jsonl), bytes: 87863924, sha256_status: computed}
+    physical: {pages: 4779}
+    ocr: {state: complete, date: '2026-10-13', unzipped_location: books/hadith/sahih-ibn-khuzayma/}
+    ocr_archive: {state: none}
+    mining: {state: in_progress, entities: 24 data files cite source/sahih-ibn-khuzayma}
+    ingestion: {state: partial, prs: [1508], ledger: [docs/delegation/lane-ledgers/microsd-books.md], graph_ids: [source/sahih-ibn-khuzayma, work/sahih-ibn-khuzayma]}
+    completion: mining
+    unverified:
+    - edition
+    - mining.ranges_mined
+    - mining.state_derived_from_ledger_text
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none)
+  - id: sahih-muslim
+    title: المسند الصحيح ⁦(صحيح مسلم)⁩
+    author: مسلم بن الحجاج القشيري مسلم; Muslim ibn al-Hajjaj Muslim
+    publisher: المكتبة الرشيدية، دهلي، الهند
+    year: {ce: '{''date-parts'': [[1376]]}'}
+    language: ar
+    category: hadith
+    volumes: 4 file(s)
+    files:
+    - {name: 20211117_20211117_0406.pdf, bytes: 304729883, pages: 1020, ocr_pages: 1020, sha256: 89c7e25a81639ed8fec9a49e3e00e96e878e249db50dc11fdc9351c8e653a3bc}
+    - {name: 20260227_20260227_2223.pdf, bytes: 50415152, pages: 1553, ocr_pages: 1553, sha256: d6ac2197239086d6247b23f1db2fba6d9b0aa9466110be9a2041973499245d3e}
+    - {name: anouaroc_hotmail_20160726_1141.pdf, bytes: 19114453, pages: 2647, ocr_pages: 1, sha256: d8e6c73cd5a6b890774d98ae76a62c4f948b29fb0997b37ddc437727960fdf42}
+    - {name: sa71mir_gmail_20160501.pdf, bytes: 31071508, pages: 1302, ocr_pages: 1302, sha256: 745cad878c5419aa81680e5edced5c290b0bdbabee04ecf2e5003da6b17b4345}
+    acquisition: {source: '4 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-11', by: library harvest (library/manifest.jsonl), bytes: 405330996, sha256_status: computed}
+    physical: {pages: 6522}
+    ocr: {state: partial, date: '2026-10-12', failed_pages: 2646, unzipped_location: books/hadith/sahih-muslim/}
+    ocr_archive: {state: none}
+    mining: {state: in_progress, entities: 852 data files cite source/sahih-muslim}
+    ingestion: {state: partial, prs: [7, 270, 1554, 1735, 3194, 3434, 5975, 6036, 6219, 6255], ledger: [docs/delegation/library/sahih-muslim.md], graph_ids: [source/sahih-muslim, work/sahih-muslim]}
+    completion: mining
+    unverified:
+    - edition
+    - mining.ranges_mined
+    - mining.state_derived_from_ledger_text
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - year
+    notes: needs OCR zip (ocr_archive none); ocr_pages 3876 of 6522 pages (pages without text may be blank)
+  - id: sahih-wa-daif-jami
+    title: صحيح الجامع الصغير وزيادته ⁦(الفتح الكبير)⁩
+    author: محمد ناصر الدين الألباني; Muhammad Nasir al-Din al-Albani
+    publisher: المكتب الإسلامي، بيروت ودمشق
+    edition: الطبعة الثالثة، المجددة والمزيدة والمنقحة، 1408هـ/1988م؛ أشرف على طبعه زهير الشاويش
+    year: {ce: '{''date-parts'': [[1988]]}'}
+    language: ar
+    category: hadith
+    volumes: 4 file(s)
+    files:
+    - {name: 3404312.pdf, bytes: 18935615, pages: 1368, ocr_pages: 1368, sha256: b3d8ea0f110b3d84739c99025bd1714ab03cd575363fec3a3de06094648a32b5}
+    - {name: albany-sahih-al-jamii.as-saghir-wa-ziyadatouhou.pdf, bytes: 18920329, pages: 1368, ocr_pages: 1368, sha256: 7fc0e5e0c2bdc103d932c5ef67a76b294d9e3015a110d4355baf0395fe5dea9c}
+    - {name: alfirdwsiy2018_gmail_1920.pdf, bytes: 22842934, pages: 1659, ocr_pages: 1659, sha256: de6cb46a86918be66d6e2bf373c145bd9d17bd05366a9f4fcccfe28100964fff}
+    - {name: muhamad_afia_hotmail_20170317_1212.pdf, bytes: 18920329, pages: 1368, ocr_pages: 1368, sha256: 7fc0e5e0c2bdc103d932c5ef67a76b294d9e3015a110d4355baf0395fe5dea9c}
+    acquisition: {source: '4 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-11', by: library harvest (library/manifest.jsonl), bytes: 79619207, sha256_status: computed}
+    physical: {pages: 5763}
+    ocr: {state: complete, date: '2026-10-14', unzipped_location: books/hadith/sahih-wa-daif-jami/}
+    ocr_archive: {state: none}
+    mining: {state: in_progress, entities: 11 data files cite source/sahih-jami-saghir-maktab-islami-1988}
+    ingestion: {state: partial, prs: [3438], ledger: [docs/delegation/library/sahih-wa-daif-jami.md], graph_ids: [source/sahih-jami-saghir-maktab-islami-1988]}
+    completion: mining
+    unverified:
+    - edition
+    - mining.ranges_mined
+    - mining.state_derived_from_ledger_text
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - year
+    notes: needs OCR zip (ocr_archive none)
+  - id: sharh-nawawi-muslim
+    title: صحيح مسلم بشرح النووي — الجزء الأول
+    author: محيي الدين يحيى بن شرف النووي; Muhyi al-Din Yahya b. Sharaf al-Nawawi
+    publisher: المطبعة المصرية بالأزهر، القاهرة
+    edition: الطبعة الأولى 1347هـ/1929م
+    year: {ce: '{''date-parts'': [[1929]]}'}
+    language: ar
+    category: hadith
+    volumes: 4 file(s)
+    files:
+    - {name: 20191210_20191210_1233.pdf, bytes: 73157174, pages: 2068, ocr_pages: 2068, sha256: bdfa4cddeeceb30c0f8c030bde0f4b57e496f3b0292eeb71264d9fe52ce003b0}
+    - {name: SahihMuslimSharhNawawi.pdf, bytes: 6263112, pages: 248, ocr_pages: 248, sha256: 4c5a36e9cf859f33790275a1881b4cb057786da18a4851d0573da139eb49c27a}
+    - {name: al-minhaj.pdf, bytes: 72594166, pages: 674, ocr_pages: 674, sha256: f8fa27ea159ecd6a6fc33149207ba790cb7d0caf9371eb8c710e294627febbcc}
+    - {name: minhaj-sahih-muslim.pdf, bytes: 72594166, pages: 674, ocr_pages: 674, sha256: f8fa27ea159ecd6a6fc33149207ba790cb7d0caf9371eb8c710e294627febbcc}
+    acquisition: {source: '4 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-11', by: library harvest (library/manifest.jsonl), bytes: 224608618, sha256_status: computed}
+    physical: {pages: 3664}
+    ocr: {state: complete, date: '2026-10-14', unzipped_location: books/hadith/sharh-nawawi-muslim/}
+    ocr_archive: {state: none}
+    mining: {state: in_progress, entities: 6 data files cite source/sharh-nawawi-misriyya-1347-v1}
+    ingestion: {state: partial, prs: [3434], ledger: [docs/delegation/library/sharh-nawawi-muslim.md], graph_ids: [source/sharh-nawawi-misriyya-1347-v1]}
+    completion: mining
+    unverified:
+    - edition
+    - mining.ranges_mined
+    - mining.state_derived_from_ledger_text
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - year
+    notes: needs OCR zip (ocr_archive none)
+  - id: sharh-sindi-nasai
+    title: حاشية السندي على سنن النسائي
+    author: أبو الحسن السندي
+    language: ar
+    category: hadith
+    volumes: 1 file(s)
+    files:
+    - {name: HashiyatSindiAlaNiassaeM.pdf, bytes: 32854973, pages: 148, ocr_pages: 148, sha256: 84059397be4c85ba96a031b1a9d4dccaec0a995de91af2561c812c15eaf9d01b}
+    acquisition: {source: 'https://archive.org/details/HashiyatSindiAlaNiassaeM', date: '2026-10-24', by: library harvest (library/manifest.jsonl), file_name: HashiyatSindiAlaNiassaeM.pdf, bytes: 32854973, sha256: 84059397be4c85ba96a031b1a9d4dccaec0a995de91af2561c812c15eaf9d01b, sha256_status: computed}
+    physical: {pages: 148}
+    ocr: {state: complete, date: '2026-10-31', unzipped_location: books/hadith/sharh-sindi-nasai/}
+    ocr_archive: {state: none}
+    mining: {state: in_progress, entities: 4 data files cite source/hashiyat-sindi-nasai-copy}
+    ingestion: {state: partial, prs: [2798, 3459], ledger: [docs/delegation/library/sharh-sindi-nasai.md], graph_ids: [source/hashiyat-sindi-nasai-copy]}
+    work_registry: 'ocr: active ((another session) unharvested-microsd-books-6f00c1)'
+    completion: mining
+    unverified:
+    - edition
+    - mining.ranges_mined
+    - mining.state_derived_from_ledger_text
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none)
+  - id: shuab-iman
+    title: شعب الإيمان ⁦(من ج 23 إلى ج 34)⁩ ن1 - البيهقي (+2 more scans)
+    category: hadith
+    volumes: 3 file(s)
+    files:
+    - {name: 23341_201909.pdf, bytes: 91332095, pages: 542, ocr_pages: 542, sha256: 86e06a7fbc8e7624c49081315ce07ca3c63188d72a22401740146d29028d2509}
+    - {name: Shiab_Al_Iman.pdf, bytes: 13173077, pages: 584, ocr_pages: 584, sha256: 2009f919801bbd2629f3e1d4efc089b628cf0fd0f1e76b00ef5ff6cc03fd529b}
+    - {name: shiman.pdf, bytes: 10933173, pages: 564, ocr_pages: 564, sha256: 3294e270dd4c04fb608347528b438a8fa9a50ac8f336e76b92839ead669854a1}
+    acquisition: {source: '3 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-24', by: library harvest (library/manifest.jsonl), bytes: 115438345, sha256_status: computed}
+    physical: {pages: 1690}
+    ocr: {state: complete, date: '2026-10-31', unzipped_location: books/hadith/shuab-iman/}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none, prs: [2680]}
+    work_registry: 'ocr: active ((another session) unharvested-microsd-books-6f00c1) x3'
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none)
+  - id: silsila-sahiha
+    title: سلسلة الأحاديث الصحيحة وشيء من فقهها وفوائدها — المجلد الأول
+    author: محمد ناصر الدين الألباني; Muhammad Nasir al-Din al-Albani
+    publisher: مكتبة المعارف للنشر والتوزيع، الرياض
+    edition: الطبعة الجديدة للمجلد الأول ⁦(مقدمتها مؤرخة 8 رجب 1413هـ)⁩؛ سنة الطبع لم تُقرأ في النسخة المستعملة
+    language: ar
+    category: hadith
+    volumes: 4 file(s)
+    files:
+    - {name: 20200203_20200203_0646.pdf, bytes: 14093651, pages: 884, ocr_pages: 884, sha256: 38d656b996a7c20e7a95ac828ec9d14fb492c897a9746284d6245fc415979263}
+    - {name: 20250410_20250410_1541.pdf, bytes: 26618890, pages: 2030, ocr_pages: 2030, sha256: 90fae269bf577349e4c89c8fa2a9ae4673b0686df3234f5097c642cb8f3fda59}
+    - {name: muhamad_afia_hotmail_201703.pdf, bytes: 100148448, pages: 7586, ocr_pages: 7586, sha256: 2152441804b1087bd0673c99ea502989deb58f6ed6f48a7d1ef4a439e23a0fc9}
+    - {name: sahiha07ab.pdf, bytes: 18229078, pages: 1353, ocr_pages: 1353, sha256: 5bde01783cd871df0efd95c454f4bb2f9b1378e9d5dd3352dc7837318d4886f4}
+    acquisition: {source: '4 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-11', by: library harvest (library/manifest.jsonl), bytes: 159090067, sha256_status: computed}
+    physical: {pages: 11853}
+    ocr: {state: complete, date: '2026-10-14', unzipped_location: books/hadith/silsila-sahiha/}
+    ocr_archive: {state: none}
+    mining: {state: in_progress, entities: 19 data files cite source/silsila-sahiha-maarif-v1}
+    ingestion: {state: partial, prs: [3431], ledger: [docs/delegation/library/silsila-sahiha.md], graph_ids: [source/silsila-sahiha-maarif-v1]}
+    completion: mining
+    unverified:
+    - edition
+    - mining.ranges_mined
+    - mining.state_derived_from_ledger_text
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - year
+    notes: needs OCR zip (ocr_archive none)
+  - id: subul-salam
+    title: سبل السلام الموصلة إلى بلوغ المرام — المجلد الأول (1–332)
+    author: محمد بن إسماعيل الأمير الصنعاني; Muhammad b. Isma'il al-Amir al-San'ani
+    publisher: دار ابن الجوزي
+    edition: الإصدار الثالث، الطبعة الثالثة 1433هـ ⁦(التاريخ الميلادي في issued مشتق تقريبي)⁩؛ تحقيق محمد صبحي حسن حلاق
+    year: {ce: '{''date-parts'': [[2012]]}'}
+    language: ar
+    category: hadith
+    volumes: 4 file(s)
+    files:
+    - {name: 20191213_20191213_1341.pdf, bytes: 33964550, pages: 1126, ocr_pages: 1126, sha256: 0c82a567213c1c93376f4162352d3400685e9b3f764a7b97006fcdcc8a2d398e}
+    - {name: 20200203_20200203_0626.pdf, bytes: 71188617, pages: 3043, ocr_pages: 3043, sha256: ceb434b605b63faf03448be7963c5c3b14cda2a0513ac0a0d8f903b5e7b2bef3}
+    - {name: 20250320_20250320_1511.pdf, bytes: 12343657, pages: 643, ocr_pages: 643, sha256: a662c77e4839b0ae6559a965048be269cd72280661278d371cbcf86400ac824e}
+    - {name: SUBULUSSELAMerhBULUGELMERAM12MuhammedB.IsmailEsSanani.pdf, bytes: 18296004, pages: 730, ocr_pages: 730, sha256: d5e016eb3dddb60a738438b05a89af89c09f70957297635fca51522d680e39b4}
+    acquisition: {source: '4 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-11', by: library harvest (library/manifest.jsonl), bytes: 135792828, sha256_status: computed}
+    physical: {pages: 5542}
+    ocr: {state: complete, date: '2026-10-14', unzipped_location: books/hadith/subul-salam/}
+    ocr_archive: {state: none}
+    mining: {state: in_progress, entities: 10 data files cite source/subul-salam-hallaq-ibn-al-jawzi-v1}
+    ingestion: {state: partial, prs: [3434], ledger: [docs/delegation/library/subul-salam.md], graph_ids: [source/subul-salam-hallaq-ibn-al-jawzi-v1]}
+    completion: mining
+    unverified:
+    - edition
+    - mining.ranges_mined
+    - mining.state_derived_from_ledger_text
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - year
+    notes: needs OCR zip (ocr_archive none)
+  - id: sunan-abi-dawood-arabic
+    title: sunan-abi-dawood-arabic
+    category: hadith
+    volumes: 1 file(s)
+    files:
+    - {name: sunan-abi-dawood-arabic.epub, bytes: 81052169, sha256: c4d4841a8b18ae9da99c5b5abf91322cc12b7a8727d3db0514adf55be769ab2a}
+    acquisition: {file_name: sunan-abi-dawood-arabic.epub, bytes: 81052169, sha256: c4d4841a8b18ae9da99c5b5abf91322cc12b7a8727d3db0514adf55be769ab2a, sha256_status: computed}
+    ocr: {state: none}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: downloaded
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - title
+    - year
+    notes: 'title unknown: label is the archive.org or folder identifier'
+  - id: sunan-abi-dawud
+    title: سنن أبي داود
+    author: سليمان بن الأشعث السجستاني أبو داود; Sulayman ibn al-Ash'ath Abu Dawud
+    publisher: المطبع المجيدي، كانفور؛ المكتبة الرحيمية، ديوبند
+    year: {ce: '{''date-parts'': [[1375]]}'}
+    language: ar
+    category: hadith
+    volumes: 5 file(s)
+    files:
+    - {name: sunn_abu_dawood_malim_sunn-01.pdf, bytes: 9427961, pages: 508, ocr_pages: 508, sha256: 86d01ba47ec9d8dce1c9436d0102b89ab55fec850a8cb23e8b2a4242ef7fe5e8}
+    - {name: sunn_abu_dawood_malim_sunn-02.pdf, bytes: 11193699, pages: 599, ocr_pages: 599, sha256: e5da682a52ea99a247d3accaa39fe2153b16363050be1c3b9608b3aee7cad618}
+    - {name: sunn_abu_dawood_malim_sunn-03.pdf, bytes: 10085772, pages: 551, ocr_pages: 551, sha256: 391f8afc4ca0823a3b0e870785a89ddcf6f0978eddcbc337a1a2cca678574398}
+    - {name: sunn_abu_dawood_malim_sunn-04.pdf, bytes: 8161591, pages: 480, ocr_pages: 480, sha256: 5a79d2d7a70e5d6ab530de98b563d2ae413aa84b3424c1574bebed05bb97031d}
+    - {name: sunn_abu_dawood_malim_sunn-05.pdf, bytes: 7276397, pages: 449, ocr_pages: 449, sha256: 2acde862da848e2e2636b6caddb6ca9d4d882589d85889e1b472cd709de87d0e}
+    acquisition: {bytes: 46145420, sha256_status: computed}
+    physical: {pages: 2587}
+    ocr: {state: complete, date: '2026-11-04', unzipped_location: books/hadith/sunan-abi-dawud/}
+    ocr_archive: {state: none}
+    mining: {state: in_progress, entities: '306 data files cite source/sunan-abi-dawud,sunan-abi-dawud-ibn-hazm-1997-v1,sunan-abi-dawud-ibn-hazm-1997-v2'}
+    ingestion: {state: partial, prs: [7, 1554, 3438, 3441, 5975, 6219], ledger: [docs/delegation/library/sunan-abi-dawud.md], graph_ids: [source/sunan-abi-dawud, source/sunan-abi-dawud-ibn-hazm-1997-v1, source/sunan-abi-dawud-ibn-hazm-1997-v2, work/sunan-abi-dawud]}
+    completion: mining
+    unverified:
+    - edition
+    - mining.ranges_mined
+    - mining.state_derived_from_ledger_text
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - year
+    notes: 'needs OCR zip (ocr_archive none); other source ids: sunan-abi-dawud-ibn-hazm-1997-v1, sunan-abi-dawud-ibn-hazm-1997-v2'
+  - id: sunan-abi-dawud-dar-asriya-anouaroc
+    title: sunan abi dawud dar asriya anouaroc
+    category: hadith
+    files:
+    - {name: searchtext.txt, bytes: 3430936}
+    - {name: sunan-abi-dawud-dar-asriya_searchtext.txt.gz, bytes: 1059746}
+    acquisition: {bytes: 4490682, sha256_status: pending}
+    ocr: {state: none}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: downloaded
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - title
+    - year
+    notes: 'title unknown: label is the archive.org or folder identifier'
+  - id: sunan-bayhaqi-kubra
+    title: 112021 - السنن الكبرى -u202a (+3 more scans)
+    category: hadith
+    volumes: 4 file(s)
+    files:
+    - {name: AAlexandrina-112021.pdf, bytes: 72069808, pages: 438, ocr_pages: 438, sha256: 672909f5c3f4cb726a33d7b78960fd6eed6524d33eb5eb2126c91613c3152375}
+    - {name: AAlexandrina-136184.pdf, bytes: 26568628, pages: 416, ocr_pages: 416, sha256: 245965a59f0b8a74bab6875dd0fe9458e138415c8812739f314574b1fc3874ac}
+    - {name: skb00.pdf, bytes: 15685894, pages: 806, ocr_pages: 806, sha256: af2b4024990d6a8e48efd14ad98174102105b679c0f5827bcb21cfa513633ad8}
+    - {name: skb07.pdf, bytes: 15353137, pages: 806, ocr_pages: 806, sha256: f4ac672ecc8ce2ad314191ca7e8f950766ae203e44e9ee08f3819722e9aef6d3}
+    acquisition: {source: '4 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-11', by: library harvest (library/manifest.jsonl), bytes: 129677467, sha256_status: computed}
+    physical: {pages: 2466}
+    ocr: {state: complete, date: '2026-10-13', unzipped_location: books/hadith/sunan-bayhaqi-kubra/}
+    ocr_archive: {state: none}
+    mining: {state: in_progress}
+    ingestion: {state: none, ledger: [docs/delegation/lane-ledgers/microsd-books.md]}
+    completion: mining
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - mining.state_derived_from_ledger_text
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none)
+  - id: sunan-daraqutni
+    title: سنن الدارقطني، وبذيله التعليق المغني على الدارقطني
+    author: أبو الحسن علي بن عمر الدارقطني; Abu al-Hasan 'Ali b. 'Umar al-Daraqutni; أبو الطيب محمد شمس الحق العظيم آبادي
+    publisher: دار ابن حزم، بيروت
+    edition: الطبعة الأولى 1432هـ/2011م
+    year: {ce: '{''date-parts'': [[2011]]}'}
+    language: ar
+    category: hadith
+    volumes: 4 file(s)
+    files:
+    - {name: 03_20220428_20220428_1150.pdf, bytes: 17289041, pages: 570, ocr_pages: 570, sha256: eb4df45b5493f6b65398b02a460dd13ae3f350604f1869a5e1291961b55b3c17}
+    - {name: 20220428_20220428_1057.pdf, bytes: 28310770, pages: 1108, ocr_pages: 1108, sha256: 67e3715734c6821650b561c5093fa15e0141c3cd8366f9a10c23387b5e38a26b}
+    - {name: 20260824_20260824_1933.pdf, bytes: 28310770, pages: 1108, ocr_pages: 1108, sha256: 67e3715734c6821650b561c5093fa15e0141c3cd8366f9a10c23387b5e38a26b}
+    - {name: SunanDaraqutniAdel.pdf, bytes: 16210487, pages: 886, ocr_pages: 886, sha256: 8b0755c1ffd0e25d0e622e8b4171141e5b74644e5686ec1216e36f26e96ba050}
+    acquisition: {source: '4 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-11', by: library harvest (library/manifest.jsonl), bytes: 90121068, sha256_status: computed}
+    physical: {pages: 3672}
+    ocr: {state: complete, date: '2026-10-13', unzipped_location: books/hadith/sunan-daraqutni/}
+    ocr_archive: {state: none}
+    mining: {state: in_progress, entities: 17 data files cite source/sunan-daraqutni-ibn-hazm-2011}
+    ingestion: {state: partial, prs: [3438], ledger: [docs/delegation/library/sunan-daraqutni.md], graph_ids: [source/sunan-daraqutni-ibn-hazm-2011]}
+    completion: mining
+    unverified:
+    - edition
+    - mining.ranges_mined
+    - mining.state_derived_from_ledger_text
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - year
+    notes: needs OCR zip (ocr_archive none)
+  - id: sunan-darimi
+    title: المسند للإمام الدارمي
+    author: أبو محمد عبد الله بن عبد الرحمن الدارمي; Abu Muhammad 'Abd Allah b. 'Abd al-Rahman al-Darimi
+    publisher: دار التأصيل — مركز البحوث وتقنية المعلومات
+    edition: الطبعة الأولى 1436هـ/2015م ⁦(ديوان الحديث النبوي 10)⁩
+    year: {ce: '{''date-parts'': [[2015]]}'}
+    language: ar
+    category: hadith
+    volumes: 4 file(s)
+    files:
+    - {name: 20200329_20200329_1251.pdf, bytes: 37641250, pages: 1825, ocr_pages: 1825, sha256: 9eab9d973feebb284394ba7d1e61491f5b90844e2de49b6e0d06a6fb13d34c92}
+    - {name: 20250811_20250811_1700.pdf, bytes: 13438272, pages: 631, ocr_pages: 631, sha256: d9a2afffc22e6025d6f53c425b4283d4e17e21063783514d37db37b59a84a053}
+    - {name: 20250811_20250811_1705.pdf, bytes: 21876879, pages: 864, ocr_pages: 864, sha256: b26600242b615acbfb3b56f1a720bf29bbcfcff1bdfc1564254ab7ae78eee77a}
+    - {name: SunanDarimiMiraj.pdf, bytes: 11022498, pages: 599, ocr_pages: 599, sha256: 1d7094f08a31e2f7452170a307f82a670b2a2941e555c2c41cf713fbeffb0d88}
+    acquisition: {source: '4 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-11', by: library harvest (library/manifest.jsonl), bytes: 83978899, sha256_status: computed}
+    physical: {pages: 3919}
+    ocr: {state: complete, date: '2026-10-13', unzipped_location: books/hadith/sunan-darimi/}
+    ocr_archive: {state: none}
+    mining: {state: in_progress, entities: 17 data files cite source/musnad-darimi-tasil-2015}
+    ingestion: {state: partial, prs: [3438], ledger: [docs/delegation/library/sunan-darimi.md], graph_ids: [source/musnad-darimi-tasil-2015]}
+    completion: mining
+    unverified:
+    - edition
+    - mining.ranges_mined
+    - mining.state_derived_from_ledger_text
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - year
+    notes: needs OCR zip (ocr_archive none)
+  - id: sunan-ibn-majah
+    title: سنن ابن ماجه
+    author: محمد بن يزيد القزويني ابن ماجه
+    publisher: عيسى البابي الحلبي، القاهرة
+    year: {ce: '{''date-parts'': [[1953]]}'}
+    language: ar
+    category: hadith
+    volumes: 4 file(s)
+    files:
+    - {name: 20220905_20220905_2030.pdf, bytes: 16190522, pages: 1080, ocr_pages: 1080, sha256: a72164874149ad7a959e5113181956eaf5a95743e375f26d729f2ea1287ab8dd}
+    - {name: 2_20191111_201911.pdf, bytes: 25254195, pages: 848, ocr_pages: 848, sha256: e4d0891e2e3604909805862feb5c495265fa7d8fadd9c034cdf81ed722f05c11}
+    - {name: 6-sunanibbn-maajahra.pdf, bytes: 614104666, pages: 1841, ocr_pages: 0, sha256: 7fe41e0c8249168c00f82923a9cc13402e21d979d06066e75ad6141de0eb0b73}
+    - {name: smss0_201908.pdf, bytes: 12521763, pages: 578, ocr_pages: 578, sha256: 8cd94ac73af498c3170655ffe2841b8ca7bd9a1a4b861811dafbd13c7926135a}
+    acquisition: {source: '4 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-11', by: library harvest (library/manifest.jsonl), bytes: 668071146, sha256_status: computed}
+    physical: {pages: 4347}
+    ocr: {state: partial, date: '2026-10-13', failed_pages: 1841, unzipped_location: books/hadith/sunan-ibn-majah/}
+    ocr_archive: {state: none}
+    mining: {state: in_progress, entities: 322 data files cite source/sunan-ibn-majah}
+    ingestion: {state: partial, prs: [1554, 3194, 5975, 6063, 6066], ledger: [docs/delegation/lane-ledgers/microsd-books.md], graph_ids: [source/sunan-ibn-majah, work/sunan-ibn-majah]}
+    completion: mining
+    unverified:
+    - edition
+    - mining.ranges_mined
+    - mining.state_derived_from_ledger_text
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - year
+    notes: needs OCR zip (ocr_archive none); ocr_pages 2506 of 4347 pages (pages without text may be blank)
+  - id: sunan-nasai
+    title: سنن النسائي (+1 more scans)
+    category: hadith
+    volumes: 4 file(s)
+    files:
+    - {name: 144381.pdf, bytes: 13204013, pages: 607, ocr_pages: 607, sha256: 53c2a7a7465f0404376f14b0dc7ff5e3cb8554ef530b499f06fe837e8b375479}
+    - {name: 20250118_20250118_0312.pdf, bytes: 33405813, pages: 1245, ocr_pages: 1244, sha256: a19030c5ebb0e5b2a872c4a23857417bec6e1245161968a4c3fa1c1e4627c3cd}
+    - {name: 20260706_20260706_2225.pdf, bytes: 28751571, pages: 992, ocr_pages: 992, sha256: e16845b2b0c3d6274df6b1fa9ee6874b76731515de6200ecad769fce2a6282e9}
+    - {name: Sunane-Nisai-Mukammal.pdf, bytes: 3339566, pages: 516, ocr_pages: 1, sha256: dde7366497832e29da18eae07f62b0891e33e4db7e06dae15ae6d5d3c391f12c}
+    acquisition: {source: '4 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-11', by: library harvest (library/manifest.jsonl), bytes: 78700963, sha256_status: computed}
+    physical: {pages: 3360}
+    ocr: {state: partial, date: '2026-10-13', failed_pages: 516, unzipped_location: books/hadith/sunan-nasai/}
+    ocr_archive: {state: none}
+    mining: {state: in_progress}
+    ingestion: {state: none, ledger: [docs/delegation/lane-ledgers/microsd-books.md]}
+    completion: mining
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - mining.state_derived_from_ledger_text
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); ocr_pages 2844 of 3360 pages (pages without text may be blank)
+  - id: sunan-nasai-kubra
+    title: السنن الكبرى -الإمام النسائي - مجلد واحد (+2 more scans)
+    category: hadith
+    volumes: 3 file(s)
+    files:
+    - {name: SunanNissa3HassanHalabi.pdf, bytes: 130426696, pages: 5886, ocr_pages: 5886, sha256: 3f67fcefbd9627cb03a319a3d0828072333b9dfdc5a048e6bd020ffd5bdae42d}
+    - {name: SunanNissa3iKubra.pdf, bytes: 13017330, pages: 512, ocr_pages: 512, sha256: 994e3dadce801c874184a72106a88590e62085e140667be24a02e734e8bd7664}
+    - {name: snk02_202511.pdf, bytes: 12710602, pages: 512, ocr_pages: 512, sha256: a35730b8cf90667123a38681755fc3687334bcdc9899dad74cfd8fb04dd43581}
+    acquisition: {source: '3 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-24', by: library harvest (library/manifest.jsonl), bytes: 156154628, sha256_status: computed}
+    physical: {pages: 6910}
+    ocr: {state: complete, date: '2026-10-31', unzipped_location: books/hadith/sunan-nasai-kubra/}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    work_registry: 'ocr: active ((another session) unharvested-microsd-books-6f00c1) x3'
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none)
+  - id: tamhid-ibn-abd-al-barr
+    title: التمهيد لما في الموطأ من المعاني والأسانيد في حديث رسول الله — المجلد الأول
+    author: أبو عمر يوسف بن عبد الله النمري القرطبي ابن عبد البر; Abu 'Umar Yusuf b. 'Abd Allah al-Namari al-Qurtubi Ibn 'Abd al-Barr
+    publisher: مؤسسة الفرقان للتراث الإسلامي — مركز دراسات المخطوطات الإسلامية، لندن
+    edition: الطبعة الأولى 1439هـ/2017م؛ تحقيق بشار عواد معروف ومحمد بشار عواد
+    year: {ce: '{''date-parts'': [[2017]]}'}
+    language: ar
+    category: hadith
+    volumes: 4 file(s)
+    files:
+    - {name: 01172271.pdf, bytes: 14601065, pages: 729, ocr_pages: 729, sha256: bb32e45cb2bf2dcfd3730f61ac82fbace437d8c6e3c8f11f69252f6ec3f34d8a}
+    - {name: Al-Tamhid_Muwatta.pdf, bytes: 13799601, pages: 519, ocr_pages: 3, sha256: 8b52a5c7bf134f4651a066860de5c378fea5dce0702949ccd34610ddf826dd3c}
+    - {name: Pdf1079.pdf, bytes: 173431543, pages: 10443, ocr_pages: 10443, sha256: aa0656a3e1228687876eb11629e5bb8e1f4ebcd8d0883a91ae3f1966aa8021c6}
+    - {name: alfirdwsiy2018_gmail_1571_201808.pdf, bytes: 133930906, pages: 10441, ocr_pages: 10441, sha256: 574f163065fc1498ff1f37e479fdcf719ca305236ad7aaa4370333db32a8b996}
+    acquisition: {source: '4 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-11', by: library harvest (library/manifest.jsonl), bytes: 335763115, sha256_status: computed}
+    physical: {pages: 22132}
+    ocr: {state: partial, date: '2026-10-14', failed_pages: 516, unzipped_location: books/hadith/tamhid-ibn-abd-al-barr/}
+    ocr_archive: {state: none}
+    mining: {state: in_progress, entities: '26 data files cite source/tamhid-furqan-2017-v1,tamhid-awqaf-maghrib-1967'}
+    ingestion: {state: partial, prs: [3424, 3428], ledger: [docs/delegation/library/tamhid-ibn-abd-al-barr.md], graph_ids: [source/tamhid-furqan-2017-v1, source/tamhid-awqaf-maghrib-1967]}
+    completion: mining
+    unverified:
+    - edition
+    - mining.ranges_mined
+    - mining.state_derived_from_ledger_text
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - year
+    notes: 'needs OCR zip (ocr_archive none); ocr_pages 21616 of 22132 pages (pages without text may be blank); other source ids: tamhid-awqaf-maghrib-1967'
+  - id: targhib-tarhib
+    title: الترغيب والترهيب من الحديث الشريف
+    author: عبد العظيم بن عبد القوي المنذري; 'Abd al-'Azim b. 'Abd al-Qawi al-Mundhiri
+    publisher: المكتبة القيمة، القاهرة
+    edition: المكتبة القيمة للطباعة والنشر والتوزيع، القاهرة؛ سنة الطبع لم ترد في الصفحات المقروءة
+    language: ar
+    category: hadith
+    volumes: 4 file(s)
+    files:
+    - {name: 1_20190905_20190905.pdf, bytes: 177523977, pages: 667, ocr_pages: 667, sha256: 5347d8c7c984d6fd3939328944068a21511ea979443a784b51a1c0938fceacd5}
+    - {name: AAlexandrina-085877.pdf, bytes: 68731720, pages: 616, ocr_pages: 616, sha256: 965a7758a95d94377c1263b37fe18014f25d860a9c03abf3e364d4fa7ff13f70}
+    - {name: AAlexandrina-154596.pdf, bytes: 77634018, pages: 616, ocr_pages: 616, sha256: 848bc1c01dc4ba9022ece91e736674b8b351c336bd9e6bb4c7e21001730a7206}
+    - {name: AAlexandrina-154597.pdf, bytes: 42778427, pages: 584, ocr_pages: 584, sha256: f61a0e997b7d9088bc6cdcef2ed7dc4c41bdd45199190e0e13ffbcf1034430fa}
+    acquisition: {source: '4 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-11', by: library harvest (library/manifest.jsonl), bytes: 366668142, sha256_status: computed}
+    physical: {pages: 2483}
+    ocr: {state: complete, date: '2026-10-14', unzipped_location: books/hadith/targhib-tarhib/}
+    ocr_archive: {state: none}
+    mining: {state: in_progress, entities: 21 data files cite source/targhib-tarhib-qayyima}
+    ingestion: {state: partial, prs: [3441], ledger: [docs/delegation/library/targhib-tarhib.md], graph_ids: [source/targhib-tarhib-qayyima]}
+    completion: mining
+    unverified:
+    - edition
+    - mining.ranges_mined
+    - mining.state_derived_from_ledger_text
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - year
+    notes: needs OCR zip (ocr_archive none)
+  - id: tuhfat-ahwadhi
+    title: 01407 اقرا اونلاين كتاب منهج المباركفوري في تحفة الأحوذي (+3 more scans)
+    category: hadith
+    volumes: 4 file(s)
+    files:
+    - {name: 01407.pdf, bytes: 15797755, pages: 505, ocr_pages: 505, sha256: 67f65f778f834f8eef22fb6366fcdefb1039aac0047bfb1f46ca3fa50e764f38}
+    - {name: 20200930_20200930_1239.pdf, bytes: 918207, pages: 4, ocr_pages: 0, sha256: e06fe90182506a4e994a33fe9562cd148be4bd1bbfc6b12e301eea26acaeb78d}
+    - {name: alfirdwsiy2018_gmail_2479.pdf, bytes: 15797755, pages: 505, ocr_pages: 505, sha256: 67f65f778f834f8eef22fb6366fcdefb1039aac0047bfb1f46ca3fa50e764f38}
+    - {name: fresh_soul2030_yahoo_1_201701.pdf, bytes: 18370322, pages: 752, ocr_pages: 752, sha256: 947e3d455514605bb158a52e265ee225b1f22ff2ba17a8bed832e6ad14f39e0c}
+    acquisition: {source: '4 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-11', by: library harvest (library/manifest.jsonl), bytes: 50884039, sha256_status: computed}
+    physical: {pages: 1766}
+    ocr: {state: partial, date: '2026-10-14', failed_pages: 4, unzipped_location: books/hadith/tuhfat-ahwadhi/}
+    ocr_archive: {state: none}
+    mining: {state: in_progress}
+    ingestion: {state: none, ledger: [docs/delegation/lane-ledgers/microsd-books.md]}
+    completion: mining
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - mining.state_derived_from_ledger_text
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); ocr_pages 1762 of 1766 pages (pages without text may be blank)
+  - id: umdat-ahkam
+    title: العمدة في الأحكام في معالم الحلال والحرام عن خير الأنام مما اتفق عليه الشيخان البخاري ومسلم
+    author: عبد الغني بن عبد الواحد المقدسي; Abd al-Ghani ibn Abd al-Wahid al-Maqdisi
+    publisher: دار طيبة للنشر والتوزيع، الرياض
+    edition: الطبعة الأولى، 1423هـ / 2002م
+    year: {ce: '{''date-parts'': [[2002]]}'}
+    language: ar
+    category: hadith
+    volumes: 4 file(s)
+    files:
+    - {name: 20221001_20221001_1825.pdf, bytes: 4470435, pages: 318, ocr_pages: 318, sha256: bc3897284af925593f2777b6a2c3a7a718508e4210113ed56f6d256a95f72a0a}
+    - {name: 20230526_20230526_1933.pdf, bytes: 5294718, pages: 237, ocr_pages: 237, sha256: 0aa9dc1818a91a27fc29c40d74ac28032d8875b7f7d302a47b7b346baa6fdc60}
+    - {name: 20260331_20260331_2328.pdf, bytes: 4991214, pages: 512, ocr_pages: 512, sha256: 9f1e5e2cafb8207a7b685c1bdccc2e4c8133dab03b2efb9495394ad35299b419}
+    - {name: alfirdwsiy2018_gmail_2944.pdf, bytes: 4694715, pages: 275, ocr_pages: 275, sha256: 945218c50c2f7b78d85963098beccaea24cd82473553e449ec9eb0401656a170}
+    acquisition: {source: '4 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-11', by: library harvest (library/manifest.jsonl), bytes: 19451082, sha256_status: computed}
+    physical: {pages: 1342}
+    ocr: {state: complete, date: '2026-10-14', unzipped_location: books/hadith/umdat-ahkam/}
+    ocr_archive: {state: none}
+    mining: {state: in_progress, entities: '5 data files cite source/umdat-al-ahkam-faryabi-2002,umdat-al-ahkam-zuhayri-1419'}
+    ingestion: {state: partial, prs: [3449], ledger: [docs/delegation/library/umdat-ahkam.md], graph_ids: [source/umdat-al-ahkam-faryabi-2002, source/umdat-al-ahkam-zuhayri-1419]}
+    completion: mining
+    unverified:
+    - edition
+    - mining.ranges_mined
+    - mining.state_derived_from_ledger_text
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - year
+    notes: 'needs OCR zip (ocr_archive none); other source ids: umdat-al-ahkam-zuhayri-1419'
+  - id: umdat-qari
+    title: عمدة القاري شرح صحيح البخاري — الجزء الأول
+    author: بدر الدين محمود بن أحمد العيني; Badr al-Din Mahmud b. Ahmad al-'Ayni
+    publisher: دار الكتب العلمية، بيروت
+    edition: الطبعة الأولى 1421هـ/2001م؛ ضبطه وصححه عبد الله محمود محمد عمر
+    year: {ce: '{''date-parts'': [[2001]]}'}
+    language: ar
+    category: hadith
+    volumes: 4 file(s)
+    files:
+    - {name: 00_20250119.pdf, bytes: 19220702, pages: 510, ocr_pages: 510, sha256: ba7530292fd46d88b737e2e07c2e6a4285206308437afcbcdea54e871e417135}
+    - {name: 17_20200913_20200913_2122.pdf, bytes: 8007148, pages: 425, ocr_pages: 425, sha256: 81418983196d27988012d0b69f8826e0e844667952c621f0c35ba423720c6d72}
+    - {name: 1_20200914.pdf, bytes: 11013067, pages: 511, ocr_pages: 511, sha256: 05e68a8af60e3c67b867d003d3fcab499b2235e80f7e5388666ad7fffb875247}
+    - {name: 7_20200913_202009.pdf, bytes: 8662221, pages: 472, ocr_pages: 472, sha256: 3f9b0e03c22524b64a9c6bf7406c6ebd43527ed9ca9d2c4c293632eec9f4e5bf}
+    acquisition: {source: '4 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-11', by: library harvest (library/manifest.jsonl), bytes: 46903138, sha256_status: computed}
+    physical: {pages: 1918}
+    ocr: {state: complete, date: '2026-10-14', unzipped_location: books/hadith/umdat-qari/}
+    ocr_archive: {state: none}
+    mining: {state: in_progress, entities: 20 data files cite source/umdat-qari-ilmiyya-2001-v1}
+    ingestion: {state: partial, prs: [3441], ledger: [docs/delegation/library/umdat-qari.md, docs/delegation/lane-ledgers/microsd-books.md], graph_ids: [source/umdat-qari-ilmiyya-2001-v1]}
+    completion: mining
+    unverified:
+    - edition
+    - mining.ranges_mined
+    - mining.state_derived_from_ledger_text
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - year
+    notes: needs OCR zip (ocr_archive none)
+  # END books:hadith
+  # BEGIN books:hadith-sciences
+  - id: ilal-ibn-abi-hatim
+    title: علل الحديث
+    author: عبد الرحمن ابن أبي حاتم الرازي; Abd al-Rahman Ibn Abi Hatim al-Razi
+    publisher: المطبعة السلفية ومكتبتها، القاهرة
+    year: {ce: '{''date-parts'': [[1924]]}'}
+    language: ar
+    category: hadith-sciences
+    volumes: 2 file(s)
+    files:
+    - {name: AAlexandrina-161315.pdf, bytes: 29796406, pages: 500, ocr_pages: 500, sha256: 99473c284d34499bce9926eda43226806a9ecca722b07bafdc1c4d270969a742}
+    - {name: AAlexandrina-162031.pdf, bytes: 27483582, pages: 450, ocr_pages: 450, sha256: 6ef5ab80ed625a320d4f934edce6446ca9e7fb878d7381d91eca47b843b11704}
+    acquisition: {source: '2 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-11', by: library harvest (library/manifest.jsonl), bytes: 57279988, sha256_status: computed}
+    physical: {pages: 950}
+    ocr: {state: complete, date: '2026-10-14', unzipped_location: books/hadith-sciences/ilal-ibn-abi-hatim/}
+    ocr_archive: {state: none}
+    mining: {state: in_progress, entities: '6 data files cite source/ilal-ibn-abi-hatim-salafiyya-v1,ilal-ibn-abi-hatim-salafiyya-v2'}
+    ingestion: {state: partial, prs: [3444, 3466], ledger: [docs/delegation/library/ilal-ibn-abi-hatim.md], graph_ids: [source/ilal-ibn-abi-hatim-salafiyya-v1, source/ilal-ibn-abi-hatim-salafiyya-v2]}
+    completion: mining
+    unverified:
+    - edition
+    - mining.ranges_mined
+    - mining.state_derived_from_ledger_text
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - year
+    notes: 'needs OCR zip (ocr_archive none); other source ids: ilal-ibn-abi-hatim-salafiyya-v2'
+  - id: itibar-hazimi
+    title: 154297 كتاب الاعتبار فى بيان الناسخ والمنسوخ من الاثار (+1 more scans)
+    category: hadith-sciences
+    volumes: 2 file(s)
+    files:
+    - {name: AAlexandrina-154297.pdf, bytes: 30381329, pages: 262, ocr_pages: 262, sha256: 2324f3192899ab16081587ed941963852d2f013fda01bff620dcf160ff4a6327}
+    - {name: AAskZad-1239622.pdf, bytes: 22781331, pages: 271, ocr_pages: 271, sha256: a4158a7f401a20a186b9139abc6f47a8bc8fe03ec22a7a3b1ae250b1fa1d9120}
+    acquisition: {source: '2 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-24', by: library harvest (library/manifest.jsonl), bytes: 53162660, sha256_status: computed}
+    physical: {pages: 533}
+    ocr: {state: complete, date: '2026-10-31', unzipped_location: books/hadith-sciences/itibar-hazimi/}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    work_registry: 'ocr: active ((another session) unharvested-microsd-books-6f00c1) x2'
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none)
+  - id: kifaya-khatib
+    title: كتاب الكفاية في علم الرواية
+    author: أحمد بن علي بن ثابت الخطيب البغدادي; Ahmad ibn Ali ibn Thabit al-Khatib al-Baghdadi
+    publisher: مطبعة جمعية دائرة المعارف العثمانية، حيدر آباد الدكن
+    year: {ce: '{''date-parts'': [[1938]]}'}
+    language: ar
+    category: hadith-sciences
+    volumes: 4 file(s)
+    files:
+    - {name: 1_20191020_20191020_1637.pdf, bytes: 51739746, pages: 419, ocr_pages: 419, sha256: fd8e294a018bd030f27c5ace1988a6d371b48363b8a3a05b5a58c72a9fc827f3}
+    - {name: 20211129_20211129_0746.pdf, bytes: 11643128, pages: 457, ocr_pages: 457, sha256: bde817981162cc284f12f255ca89029ba9b7c71a58db6edb82ef0a771dce72c0}
+    - {name: 20230302_20230302_1950.pdf, bytes: 2243959, pages: 256, ocr_pages: 0, sha256: 6303deb41205c0f2491d672b329e73870775b411c761c352ec47028b36825ea2}
+    - {name: 20260216_20260216_0313.pdf, bytes: 18224455, pages: 1224, ocr_pages: 1224, sha256: 6df0847a718cb4ca016670c1d051163a20091ef7dec7806b7beedd63c3510022}
+    acquisition: {source: '4 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-11', by: library harvest (library/manifest.jsonl), bytes: 83851288, sha256_status: computed}
+    physical: {pages: 2356}
+    ocr: {state: partial, date: '2026-10-14', failed_pages: 256, unzipped_location: books/hadith-sciences/kifaya-khatib/}
+    ocr_archive: {state: none}
+    mining: {state: in_progress, entities: 16 data files cite source/kifaya-khatib-hyderabad-1357}
+    ingestion: {state: partial, prs: [3434, 3463], ledger: [docs/delegation/library/kifaya-khatib.md], graph_ids: [source/kifaya-khatib-hyderabad-1357]}
+    completion: mining
+    unverified:
+    - edition
+    - mining.ranges_mined
+    - mining.state_derived_from_ledger_text
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - year
+    notes: needs OCR zip (ocr_archive none); ocr_pages 2100 of 2356 pages (pages without text may be blank)
+  - id: mawduat-ibn-jawzi
+    title: كتاب الموضوعات لابن الجوزي (+2 more scans)
+    category: hadith-sciences
+    volumes: 4 file(s)
+    files:
+    - {name: 20230808_20230808_0837.pdf, bytes: 15239164, pages: 637, ocr_pages: 637, sha256: 595c2f63001e76197ecbfab4610d0cf535b053149554d5c03e72cc8619ddfcbb}
+    - {name: elshandawily2362.pdf, bytes: 6242991, pages: 320, ocr_pages: 320, sha256: 4a1524f8bdeec30e4c86705a4233776e381d70972b0d21ca14a26dd0b04ab2d7}
+    - {name: elshandawily2368_202509.pdf, bytes: 6242991, pages: 320, ocr_pages: 320, sha256: 4a1524f8bdeec30e4c86705a4233776e381d70972b0d21ca14a26dd0b04ab2d7}
+    - {name: elshandawily2422.pdf, bytes: 5583491, pages: 304, ocr_pages: 304, sha256: 3fb7f4970ee7230022742993ed276b4d0cbeff3d3c412ee4fe73808596c44102}
+    acquisition: {source: '4 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-11', by: library harvest (library/manifest.jsonl), bytes: 33308637, sha256_status: computed}
+    physical: {pages: 1581}
+    ocr: {state: complete, date: '2026-10-14', unzipped_location: books/hadith-sciences/mawduat-ibn-jawzi/}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none)
+  - id: mukhtalif-ibn-qutaybah
+    title: ذم أبي حنيفة من كتاب تأويل مختلف الحديث لابن قتيبة (+2 more scans)
+    category: hadith-sciences
+    volumes: 3 file(s)
+    files:
+    - {name: 09_20260731.pdf, bytes: 226438, pages: 13, ocr_pages: 13, sha256: a09415b42a5afccb93f7f6b9f7303aa7b8b9be813151b874815dbde84737bd0e}
+    - {name: 20260217_20260217_2120.pdf, bytes: 9342354, pages: 733, ocr_pages: 733, sha256: 0e39e6f80b706b8a6f9f177e13984f1f2375c1d4a23c19420169427df550fc2d}
+    - {name: red122-ch_live_201711.pdf, bytes: 8062230, pages: 528, ocr_pages: 528, sha256: c61ecb3b6fd557b41e37a1971515341fb5753b62a8c9562dc3d44fbf2579f843}
+    acquisition: {source: '3 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-24', by: library harvest (library/manifest.jsonl), bytes: 17631022, sha256_status: computed}
+    physical: {pages: 1274}
+    ocr: {state: complete, date: '2026-10-31', unzipped_location: books/hadith-sciences/mukhtalif-ibn-qutaybah/}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    work_registry: 'ocr: active ((another session) unharvested-microsd-books-6f00c1) x3'
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none)
+  - id: muqaddima-ibn-salah
+    title: علوم الحديث
+    author: عثمان بن عبد الرحمن ابن الصلاح; Uthman ibn Abd al-Rahman Ibn al-Salah
+    language: ar
+    category: hadith-sciences
+    volumes: 4 file(s)
+    files:
+    - {name: AAlexandrina-109485.pdf, bytes: 20233651, pages: 210, ocr_pages: 210, sha256: 0724023e553ccf61564a8379aa86ea3a918b1e0d338c51060f1298053473431e}
+    - {name: MughadimatIbnSalah.pdf, bytes: 11822543, pages: 471, ocr_pages: 471, sha256: 741660431294977a10ef017b59806d91b6695619f9ea9a9fb7544171e250ce3e}
+    - {name: nuruosmaniye-607.pdf, bytes: 86875501, pages: 169, ocr_pages: 169, sha256: c430e9f89cef034797a27694a08db7bc311601f86d6ece2301f5c654a8d0033e}
+    - {name: nuruosmaniye-608.pdf, bytes: 51106928, pages: 103, ocr_pages: 103, sha256: f30ee5ef0635fcfc84ae9316ff84fd69b54daacb9d3a33f6eb369126a850d076}
+    acquisition: {source: '4 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-11', by: library harvest (library/manifest.jsonl), bytes: 170038623, sha256_status: computed}
+    physical: {pages: 953}
+    ocr: {state: complete, date: '2026-10-14', unzipped_location: books/hadith-sciences/muqaddima-ibn-salah/}
+    ocr_archive: {state: none}
+    mining: {state: in_progress, entities: 22 data files cite source/muqaddima-ibn-salah-itr}
+    ingestion: {state: partial, prs: [3441, 3463], ledger: [docs/delegation/library/muqaddima-ibn-salah.md], graph_ids: [source/muqaddima-ibn-salah-itr]}
+    completion: mining
+    unverified:
+    - edition
+    - mining.ranges_mined
+    - mining.state_derived_from_ledger_text
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none)
+  - id: mushkil-tahawi
+    title: شرح مشكل الآثار (+1 more scans)
+    category: hadith-sciences
+    volumes: 2 file(s)
+    files:
+    - {name: ErhMUKILILASAR01EbuDeaferEtTahawi.pdf, bytes: 8863380, pages: 586, ocr_pages: 586, sha256: 587a9c5fb6016421fc61ea8c2706242e4abf8ec64d843ae4dad0217462b0743b}
+    - {name: tohfat-akhyar-tahawi.pdf, bytes: 7862902, pages: 706, ocr_pages: 706, sha256: 424335c6caad93209458f4e225079cb986f3abdbf15238a3c3934804255143ed}
+    acquisition: {source: '2 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-24', by: library harvest (library/manifest.jsonl), bytes: 16726282, sha256_status: computed}
+    physical: {pages: 1292}
+    ocr: {state: complete, date: '2026-10-31', unzipped_location: books/hadith-sciences/mushkil-tahawi/}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    work_registry: 'ocr: active ((another session) unharvested-microsd-books-6f00c1) x2'
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none)
+  - id: nukhbat-fikar
+    title: شرح نخبة الفكر — نزهة النظر في توضيح نخبة الفكر في مصطلح أهل الأثر
+    author: أحمد بن علي بن محمد ابن حجر العسقلاني; Ahmad ibn 'Ali ibn Muhammad Ibn Hajar al-'Asqalani
+    publisher: مكتبة البشرى ⁦(جمعية شودهري محمد علي الخيرية)⁩، كراتشي، باكستان
+    edition: 1432هـ/2011م؛ تحقيق نور الدين عتر ⁦(عن طبعته الثالثة)⁩، طبعة مكتبة البشرى الملونة
+    year: {ce: '{''date-parts'': [[2011]]}'}
+    language: ar
+    category: hadith-sciences
+    volumes: 1 file(s)
+    files:
+    - {name: sharahnukhba.pdf, bytes: 3305506, pages: 153, ocr_pages: 153, sha256: 6625074cce8b5bebb0207cab84674db9d3daf88af88b8339b0a6ba0d6ce7c05d}
+    acquisition: {file_name: sharahnukhba.pdf, bytes: 3305506, sha256: 6625074cce8b5bebb0207cab84674db9d3daf88af88b8339b0a6ba0d6ce7c05d, sha256_status: computed}
+    physical: {pages: 153}
+    ocr: {state: complete, date: '2026-11-04', unzipped_location: books/hadith-sciences/nukhbat-fikar/}
+    ocr_archive: {state: none}
+    mining: {state: in_progress, entities: 19 data files cite source/nuzhat-al-nazar-itr-bushra-2011}
+    ingestion: {state: partial, prs: [3444, 3459], ledger: [docs/delegation/library/nukhbat-fikar.md], graph_ids: [source/nuzhat-al-nazar-itr-bushra-2011]}
+    completion: mining
+    unverified:
+    - edition
+    - mining.ranges_mined
+    - mining.state_derived_from_ledger_text
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - year
+    notes: needs OCR zip (ocr_archive none)
+  - id: tadrib-rawi
+    title: تدريب الراوي في شرح تقريب النواوي، المجلد الخامس
+    author: جلال الدين عبد الرحمن السيوطي; Jalal al-Din Abd al-Rahman al-Suyuti
+    publisher: دار المنهاج للنشر والتوزيع، جدة؛ دار اليسر
+    edition: الطبعة الأولى
+    year: {ce: '{''date-parts'': [[2016]]}'}
+    language: ar
+    category: hadith-sciences
+    volumes: 2 file(s)
+    files:
+    - {name: 5_20220809_202208.pdf, bytes: 20709872, pages: 674, ocr_pages: 674, sha256: b749fe7cad85f7284d8bb83afddbfc540607440e26005f67743fcdf5eb731321}
+    - {name: muradmolla-324-1140.pdf, bytes: 26077106, pages: 160, ocr_pages: 160, sha256: 6322f60b239a049dd81bd11f1e24e1b9553b0d7797af7a18826c256863f550e0}
+    acquisition: {source: '2 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-11', by: library harvest (library/manifest.jsonl), bytes: 46786978, sha256_status: computed}
+    physical: {pages: 834}
+    ocr: {state: complete, date: '2026-10-14', unzipped_location: books/hadith-sciences/tadrib-rawi/}
+    ocr_archive: {state: none}
+    mining: {state: in_progress, entities: 20 data files cite source/tadrib-rawi-awwama-v5}
+    ingestion: {state: partial, prs: [3441, 3459], ledger: [docs/delegation/library/tadrib-rawi.md], graph_ids: [source/tadrib-rawi-awwama-v5]}
+    completion: mining
+    unverified:
+    - edition
+    - mining.ranges_mined
+    - mining.state_derived_from_ledger_text
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - year
+    notes: needs OCR zip (ocr_archive none)
+  # END books:hadith-sciences
+  # BEGIN books:islamic-economics
+  - id: 0628ZPdf
+    title: 0628ZPdf
+    category: islamic-economics
+    volumes: 1 file(s)
+    files:
+    - {name: 0628 - الموازنة العامة في الاقتصاد الإسلامي  z    اقرا اونلاين  كتاب       pdf  .pdf, bytes: 1867978, pages: 423, ocr_pages: 44, sha256: 08926f3c0c0381852e711bf11c2f99232edc879231719b04bef19cf0d9e51f7c}
+    acquisition: {file_name: 0628 - الموازنة العامة في الاقتصاد الإسلامي  z    اقرا اونلاين  كتاب       pdf  .pdf, bytes: 1867978, sha256: 08926f3c0c0381852e711bf11c2f99232edc879231719b04bef19cf0d9e51f7c, sha256_status: computed}
+    physical: {pages: 423}
+    ocr: {state: partial, date: '2026-10-22', failed_pages: 379, unzipped_location: books/islamic-economics/0628ZPdf/}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: downloaded
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - title
+    - year
+    notes: 'needs OCR zip (ocr_archive none); ocr_pages 44 of 423 pages (pages without text may be blank); title unknown: label is the archive.org or folder identifier'
+  - id: 0660pdf1283
+    title: 0660pdf1283
+    category: islamic-economics
+    volumes: 1 file(s)
+    files:
+    - {name: 0660 - أصول الاقتصاد الإسلامي كتاب صيغة بي دي اف اقرا اونلاين  pdf     1283.pdf, bytes: 9629301, pages: 395, ocr_pages: 7, sha256: 63d362b52cd77d5cfc14f61f3efd38c8e26032974ac481e3021e6aaba64e62bc}
+    acquisition: {file_name: 0660 - أصول الاقتصاد الإسلامي كتاب صيغة بي دي اف اقرا اونلاين  pdf     1283.pdf, bytes: 9629301, sha256: 63d362b52cd77d5cfc14f61f3efd38c8e26032974ac481e3021e6aaba64e62bc, sha256_status: computed}
+    physical: {pages: 395}
+    ocr: {state: partial, date: '2026-10-22', failed_pages: 388, unzipped_location: books/islamic-economics/0660pdf1283/}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: downloaded
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - title
+    - year
+    notes: 'needs OCR zip (ocr_archive none); ocr_pages 7 of 395 pages (pages without text may be blank); title unknown: label is the archive.org or folder identifier'
+  - id: 1165pdf2229
+    title: الاقتصاد في الفكر الإسلامي
+    author: أحمد شلبي; Ahmad Shalabi
+    publisher: مكتبة النهضة المصرية، القاهرة
+    edition: الطبعة العاشرة، 1993
+    year: {ce: '{''date-parts'': [[1993]]}'}
+    language: ar
+    category: islamic-economics
+    volumes: 1 file(s)
+    files:
+    - {name: 1165 - الاقتصاد في الفكر الاسلامي كتاب صيغة بي دي اف اقرا اونلاين  pdf     2229.pdf, bytes: 13483934, pages: 422, ocr_pages: 422, sha256: 854f37cab387205f6fff1eceb623c82bcab52215a4745f7ab3dd3f2c542a53a9}
+    acquisition: {file_name: 1165 - الاقتصاد في الفكر الاسلامي كتاب صيغة بي دي اف اقرا اونلاين  pdf     2229.pdf, bytes: 13483934, sha256: 854f37cab387205f6fff1eceb623c82bcab52215a4745f7ab3dd3f2c542a53a9, sha256_status: computed}
+    physical: {pages: 422}
+    ocr: {state: complete, date: '2026-10-22', unzipped_location: books/islamic-economics/1165pdf2229/}
+    ocr_archive: {state: none}
+    mining: {state: in_progress, entities: 4 data files cite source/iqtisad-fikr-islami-shalabi-1993}
+    ingestion: {state: partial, prs: [3441], ledger: [docs/delegation/library/1165pdf2229.md], graph_ids: [source/iqtisad-fikr-islami-shalabi-1993]}
+    completion: mining
+    unverified:
+    - edition
+    - mining.ranges_mined
+    - mining.state_derived_from_ledger_text
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - year
+    notes: needs OCR zip (ocr_archive none)
+  - id: 1399Pdf
+    title: 1399Pdf
+    category: islamic-economics
+    volumes: 1 file(s)
+    files:
+    - {name: 1399  كتاب اقرا اونلاين    pdf  منهج الاقتصاد في القرآن لزيادان قعدان.pdf, bytes: 5090260, pages: 164, ocr_pages: 164, sha256: 27bb64a34015088c6014f433f8c0a81f9c775856818656a86f2bd7a113133883}
+    acquisition: {file_name: 1399  كتاب اقرا اونلاين    pdf  منهج الاقتصاد في القرآن لزيادان قعدان.pdf, bytes: 5090260, sha256: 27bb64a34015088c6014f433f8c0a81f9c775856818656a86f2bd7a113133883, sha256_status: computed}
+    physical: {pages: 164}
+    ocr: {state: complete, date: '2026-10-22', unzipped_location: books/islamic-economics/1399Pdf/}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - title
+    - year
+    notes: 'needs OCR zip (ocr_archive none); title unknown: label is the archive.org or folder identifier'
+  - id: 1747--..pdf2971
+    title: 1747 ..pdf2971
+    category: islamic-economics
+    volumes: 1 file(s)
+    files:
+    - {name: 1747 - التمويل في الاقتصاد الإسلامي – المفهوم والمبادئ – أ.د. قدي عبد المجيد و بوزيد عصام كتاب صيغة بي دي اف اقرا اونلاين  pdf     2971.pdf, bytes: 566110, pages: 24, ocr_pages: 0, sha256: 0d82a7e122d0bb60fe2be46e60e98f22906499de5f48707eaeb7adf0409581fc}
+    acquisition: {file_name: 1747 - التمويل في الاقتصاد الإسلامي – المفهوم والمبادئ – أ.د. قدي عبد المجيد و بوزيد عصام كتاب صيغة بي دي اف اقرا اونلاين  pdf     2971.pdf, bytes: 566110, sha256: 0d82a7e122d0bb60fe2be46e60e98f22906499de5f48707eaeb7adf0409581fc, sha256_status: computed}
+    physical: {pages: 24}
+    ocr: {state: partial, date: '2026-10-22', failed_pages: 24, unzipped_location: books/islamic-economics/1747--..pdf2971/}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: downloaded
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - title
+    - year
+    notes: 'needs OCR zip (ocr_archive none); ocr_pages 0 of 24 pages (pages without text may be blank); title unknown: label is the archive.org or folder identifier'
+  - id: 1978-pdf3176
+    title: الدور التوزيعي للملكية في الاقتصاد الإسلامي ⁦(دراسة مقارنة)⁩
+    author: الطاهر قانة; al-Tahir Qana
+    publisher: جامعة الحاج لخضر باتنة، كلية العلوم الاجتماعية والعلوم الإسلامية، قسم الشريعة ⁦(مذكرة ماجستير)⁩
+    year: {ce: '{''date-parts'': [[2007]]}'}
+    language: ar
+    category: islamic-economics
+    volumes: 1 file(s)
+    files:
+    - {name: 1978 - الدور التوزيعي للملكية في الاقتصاد الإسلامي دراسة مقارنة – رسالة ماجستير الطاهر قانة كتاب صيغة بي دي اف اقرا اونلاين  pdf     3176.pdf, bytes: 1463647, pages: 220, ocr_pages: 1, sha256: 06668bc6405550a980c9b4034e9f0168f395551206e6fdeae092f2197d45c067}
+    acquisition: {file_name: 1978 - الدور التوزيعي للملكية في الاقتصاد الإسلامي دراسة مقارنة – رسالة ماجستير الطاهر قانة كتاب صيغة بي دي اف اقرا اونلاين  pdf     3176.pdf, bytes: 1463647, sha256: 06668bc6405550a980c9b4034e9f0168f395551206e6fdeae092f2197d45c067, sha256_status: computed}
+    physical: {pages: 220}
+    ocr: {state: partial, date: '2026-10-22', failed_pages: 219, unzipped_location: books/islamic-economics/1978-pdf3176/}
+    ocr_archive: {state: none}
+    mining: {state: in_progress, entities: 7 data files cite source/dawr-tawzii-milkiyya-qana-2007}
+    ingestion: {state: partial, prs: [3444], ledger: [docs/delegation/library/1978-pdf3176.md], graph_ids: [source/dawr-tawzii-milkiyya-qana-2007]}
+    completion: mining
+    unverified:
+    - edition
+    - mining.ranges_mined
+    - mining.state_derived_from_ledger_text
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - year
+    notes: needs OCR zip (ocr_archive none); ocr_pages 1 of 220 pages (pages without text may be blank)
+  # END books:islamic-economics
+  # BEGIN books:khutab
+  - id: amali-al-shajari
+    title: أمالي ابن الشجري — تحقيق ودراسة الدكتور محمود محمد الطناحي
+    author: هبة الله بن علي بن محمد بن حمزة الحسني العلوي ابن الشجري; Hibat Allah ibn 'Ali ibn Muhammad ibn Hamza al-Hasani al-'Alawi Ibn al-Shajari
+    publisher: مكتبة الخانجي، القاهرة
+    edition: الطبعة الأولى 1413هـ/1992م؛ تحقيق ودراسة محمود محمد الطناحي
+    year: {ce: '{''date-parts'': [[1992]]}'}
+    language: ar
+    category: khutab
+    volumes: 1 file(s)
+    files:
+    - {name: 0346pdf_201912.pdf, bytes: 23356003, pages: 1945, ocr_pages: 1945, sha256: 6e84078db1c73513648dd947030f2d31df1751c906b6728fc25b9e54dd6fb3c1}
+    acquisition: {file_name: 0346pdf_201912.pdf, bytes: 23356003, sha256: 6e84078db1c73513648dd947030f2d31df1751c906b6728fc25b9e54dd6fb3c1, sha256_status: computed}
+    physical: {pages: 1945}
+    ocr: {state: complete, date: '2026-11-04', unzipped_location: books/khutab/amali-al-shajari/}
+    ocr_archive: {state: none}
+    mining: {state: in_progress, entities: 4 data files cite source/amali-ibn-al-shajari-tanahi-khanji-1992}
+    ingestion: {state: partial, prs: [3466], ledger: [docs/delegation/library/amali-al-shajari.md], graph_ids: [source/amali-ibn-al-shajari-tanahi-khanji-1992]}
+    completion: mining
+    unverified:
+    - edition
+    - mining.ranges_mined
+    - mining.state_derived_from_ledger_text
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - year
+    notes: needs OCR zip (ocr_archive none)
+  - id: diwan-khutab-ibn-nubata
+    title: ديوان خطب ابن نباتة — مشروح بقلم الشيخ طاهر الجزائري
+    author: أبو يحيى عبد الرحيم بن محمد بن إسماعيل الفارقي ابن نباتة; Abu Yahya 'Abd al-Rahim ibn Muhammad ibn Isma'il al-Fariqi Ibn Nubata
+    publisher: مطبعة جريدة بيروت، بيروت
+    edition: طبع في مطبعة جريدة بيروت سنة 1319هـ؛ شرح الشيخ طاهر أفندي الجزائري؛ يباع في المكتبة الأنسية في بيروت ⁦(والمقابل الميلادي 1901–1902م محسوب)⁩
+    year: {ce: '{''date-parts'': [[1901]]}'}
+    language: ar
+    category: khutab
+    volumes: 1 file(s)
+    files:
+    - {name: AAlexandrina-142257.pdf, bytes: 78289954, pages: 556, ocr_pages: 556, sha256: 34ba4fd118e45f254e7256311c86168c2bc9de2279915677e52147adabe16c35}
+    acquisition: {file_name: AAlexandrina-142257.pdf, bytes: 78289954, sha256: 34ba4fd118e45f254e7256311c86168c2bc9de2279915677e52147adabe16c35, sha256_status: computed}
+    physical: {pages: 556}
+    ocr: {state: complete, date: '2026-11-04', unzipped_location: books/khutab/diwan-khutab-ibn-nubata/}
+    ocr_archive: {state: none}
+    mining: {state: in_progress, entities: 3 data files cite source/diwan-khutab-ibn-nubata-beirut-1319}
+    ingestion: {state: partial, prs: [3466], ledger: [docs/delegation/library/diwan-khutab-ibn-nubata.md], graph_ids: [source/diwan-khutab-ibn-nubata-beirut-1319, work/diwan-khutab-ibn-nubata]}
+    completion: mining
+    unverified:
+    - edition
+    - mining.ranges_mined
+    - mining.state_derived_from_ledger_text
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - year
+    notes: needs OCR zip (ocr_archive none)
+  - id: jamharat-khutab-al-arab
+    title: jamharat khutab al arab
+    category: khutab
+    volumes: 3 file(s)
+    files:
+    - {name: vol-ج1.epub, bytes: 679600, sha256: 52f6864d0352a631ba01e7742a2969740cafb9c062f8ce277a207708e4ffd22e}
+    - {name: vol-ج3.epub, bytes: 667193, sha256: d234cc6ddfcceed4f254e39bd19c194a25716a435f04107ce6c86c272eb8f7f3}
+    - {name: vol-ج2.epub, bytes: 815371, sha256: 90f9a1056d551266d44945d704e53e7e296634e591e6bbb92294faa5df0aaa19}
+    acquisition: {bytes: 2162164, sha256_status: computed}
+    ocr: {state: none}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none, prs: [2671], graph_ids: [work/jamharat-khutab-al-arab]}
+    completion: downloaded
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - title
+    - year
+    notes: 'title unknown: label is the archive.org or folder identifier'
+  - id: khutab-ibn-uthaymin
+    title: الضياء اللامع من الخطب الجوامع — محمد بن صالح العثيمين
+    author: محمد بن صالح العثيمين; Muhammad ibn Salih al-'Uthaymin
+    publisher: دار الثريا للنشر والتوزيع، الرياض، بإشراف مؤسسة الشيخ محمد بن صالح العثيمين الخيرية
+    edition: طبعة 1440هـ/2019م ⁦(وأصل الكتاب طُبع عدة طبعات منذ نشره عام 1392هـ)⁩؛ سلسلة مؤلفات فضيلة الشيخ رقم 28
+    year: {ce: '{''date-parts'': [[2019]]}'}
+    language: ar
+    category: khutab
+    volumes: 1 file(s)
+    files:
+    - {name: 20260413_20260413_0903.pdf, bytes: 72534773, pages: 2921, ocr_pages: 2921, sha256: 3deadc419f21628f6d89cf6982e90edd0eb311a70e31f11eb7f2b73692c0a781}
+    acquisition: {file_name: 20260413_20260413_0903.pdf, bytes: 72534773, sha256: 3deadc419f21628f6d89cf6982e90edd0eb311a70e31f11eb7f2b73692c0a781, sha256_status: computed}
+    physical: {pages: 2921}
+    ocr: {state: complete, date: '2026-11-04', unzipped_location: books/khutab/khutab-ibn-uthaymin/}
+    ocr_archive: {state: none}
+    mining: {state: in_progress, entities: 3 data files cite source/al-diya-al-lami-uthaymin-thurayya-2019}
+    ingestion: {state: partial, prs: [3466], ledger: [docs/delegation/library/khutab-ibn-uthaymin.md], graph_ids: [source/al-diya-al-lami-uthaymin-thurayya-2019]}
+    completion: mining
+    unverified:
+    - edition
+    - mining.ranges_mined
+    - mining.state_derived_from_ledger_text
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - year
+    notes: needs OCR zip (ocr_archive none)
+  - id: khutab-muhammad-al-ghazali
+    title: خطب الشيخ محمد الغزالي في شؤون الدين والحياة — المجلد الأول
+    author: محمد الغزالي; Muhammad al-Ghazali
+    publisher: دار الاعتصام للطبع والنشر والتوزيع، القاهرة
+    edition: المجلد الأول؛ إعداد قطب عبد الحميد قطب، مراجعة الدكتور محمد عاشور؛ رقم الإيداع بدار الكتب 1988/2267
+    language: ar
+    category: khutab
+    volumes: 1 file(s)
+    files:
+    - {name: 1123-pdf-1.pdf, bytes: 33450084, pages: 608, ocr_pages: 608, sha256: 54420212544064871e5b1fd81f6a4a4c71c3bec5b2fe227ba74bb7bc997a489c}
+    acquisition: {file_name: 1123-pdf-1.pdf, bytes: 33450084, sha256: 54420212544064871e5b1fd81f6a4a4c71c3bec5b2fe227ba74bb7bc997a489c, sha256_status: computed}
+    physical: {pages: 608}
+    ocr: {state: complete, date: '2026-11-04', unzipped_location: books/khutab/khutab-muhammad-al-ghazali/}
+    ocr_archive: {state: none}
+    mining: {state: in_progress, entities: 3 data files cite source/khutab-al-ghazali-dar-al-itisam-vol1}
+    ingestion: {state: partial, prs: [3466], ledger: [docs/delegation/library/khutab-muhammad-al-ghazali.md], graph_ids: [source/khutab-al-ghazali-dar-al-itisam-vol1, work/khutab-muhammad-al-ghazali]}
+    completion: mining
+    unverified:
+    - edition
+    - mining.ranges_mined
+    - mining.state_derived_from_ledger_text
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - year
+    notes: needs OCR zip (ocr_archive none)
+  # END books:khutab
+  # BEGIN books:lugha
+  - id: alfiyya-ibn-malik
+    title: 4000 كتاب اقرا اونلاين Pdf شروح الألفية لابن مالك الخلاصة فى النحو المعروف بالالفية ⁦(المتن)⁩لابن مالك
+    category: lugha
+    volumes: 1 file(s)
+    files:
+    - {name: 4000pdf.pdf, bytes: 8963465, pages: 398, ocr_pages: 398, sha256: 5a57383428dd9bc4427b5c50b7abc068912ce0bd697d364365627dc5cc8bc99b}
+    acquisition: {source: 'https://archive.org/details/4000pdf', date: '2026-10-18', by: library harvest (library/manifest.jsonl), file_name: 4000pdf.pdf, bytes: 8963465, sha256: 5a57383428dd9bc4427b5c50b7abc068912ce0bd697d364365627dc5cc8bc99b, sha256_status: computed}
+    physical: {pages: 398}
+    ocr: {state: complete, date: '2026-10-22', unzipped_location: books/lugha/alfiyya-ibn-malik/}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none, prs: [334, 6168, 6231], graph_ids: [work/alfiyya-ibn-malik]}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none)
+  - id: gharib-muyassar
+    title: الميسر في غريب القرآن الكريم
+    author: مجمع الملك فهد لطباعة المصحف الشريف، مركز الدراسات القرآنية
+    publisher: مجمع الملك فهد لطباعة المصحف الشريف، المدينة المنورة
+    year: {ce: '{''date-parts'': [[2012]]}'}
+    language: ar
+    category: lugha
+    volumes: 2 file(s)
+    files:
+    - {name: 20220309_20220309_2142.pdf, bytes: 24971564, pages: 611, ocr_pages: 611, sha256: 0ef91621aebcaba8d1763e16610e2d6c23a1b9457a3b7793d6b98bdae1b208b3}
+    - {name: 20221231_20221231_0310.pdf, bytes: 292347524, pages: 633, ocr_pages: 633, sha256: deb2ec0d52219c8d28a10cd462f545f07106fdbd48c1452fd77d48452eb938e1}
+    acquisition: {source: '2 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-20', by: library harvest (library/manifest.jsonl), bytes: 317319088, sha256_status: computed}
+    physical: {pages: 1244}
+    ocr: {state: complete, date: '2026-10-20', unzipped_location: books/lugha/gharib-muyassar/}
+    ocr_archive: {state: none}
+    mining: {state: in_progress, entities: 3 data files cite source/muyassar-gharib-quran-king-fahd-1433}
+    ingestion: {state: partial, prs: [3459], ledger: [docs/delegation/library/gharib-muyassar.md], graph_ids: [source/muyassar-gharib-quran-king-fahd-1433]}
+    completion: mining
+    unverified:
+    - edition
+    - mining.ranges_mined
+    - mining.state_derived_from_ledger_text
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - year
+    notes: needs OCR zip (ocr_archive none)
+  - id: gharib-siraj
+    title: السراج في بيان غريب القرآن
+    author: محمد بن عبد العزيز الخضيري; Muhammad ibn Abd al-Aziz al-Khudayri
+    publisher: كرسي القرآن الكريم وعلومه، جامعة الملك سعود، الرياض
+    edition: الطبعة الثانية
+    language: ar
+    category: lugha
+    volumes: 2 file(s)
+    files:
+    - {name: 20210319_20210319_1458.pdf, bytes: 6959334, pages: 350, ocr_pages: 350, sha256: 00bd17f5a4d68a06cb8ce89c89faeb7715a0d83d79020b0e811c8fa311647094}
+    - {name: Alsiraj_Fi_Bayan_Ghurayb_alquran.pdf, bytes: 7494646, pages: 350, ocr_pages: 350, sha256: ec226a9c693aa9bc5a1d40a0a864af6d7f444f61f7da721e1e840c01a8c7e04e}
+    acquisition: {source: '2 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-20', by: library harvest (library/manifest.jsonl), bytes: 14453980, sha256_status: computed}
+    physical: {pages: 700}
+    ocr: {state: complete, date: '2026-10-20', unzipped_location: books/lugha/gharib-siraj/}
+    ocr_archive: {state: none}
+    mining: {state: in_progress, entities: 3 data files cite source/siraj-gharib-quran-khudayri-1435}
+    ingestion: {state: partial, prs: [3459], ledger: [docs/delegation/library/gharib-siraj.md], graph_ids: [source/siraj-gharib-quran-khudayri-1435]}
+    completion: mining
+    unverified:
+    - edition
+    - mining.ranges_mined
+    - mining.state_derived_from_ledger_text
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - year
+    notes: needs OCR zip (ocr_archive none)
+  - id: kitab-sibawayh
+    title: kitab sibawayh
+    category: lugha
+    volumes: 1 file(s)
+    files:
+    - {name: kitab-sibawayh.pdf, bytes: 94927270, pages: 524, ocr_pages: 524, sha256: 8177ec2418da797771a45e62f6d335c9ed38ee843b393e6fbdb412c76a4a508b}
+    acquisition: {file_name: kitab-sibawayh.pdf, bytes: 94927270, sha256: 8177ec2418da797771a45e62f6d335c9ed38ee843b393e6fbdb412c76a4a508b, sha256_status: computed}
+    physical: {pages: 524}
+    ocr: {state: complete, date: '2026-10-18', unzipped_location: books/lugha/kitab-sibawayh/}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none, prs: [179, 2793], graph_ids: [work/kitab-sibawayh]}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - title
+    - year
+    notes: 'needs OCR zip (ocr_archive none); title unknown: label is the archive.org or folder identifier'
+  - id: lisan-arab
+    title: 137925 - لسان العرب (+3 more scans)
+    category: lugha
+    volumes: 4 file(s)
+    files:
+    - {name: AAlexandrina-137925.pdf, bytes: 90094995, pages: 1004, ocr_pages: 1004, sha256: 0b489bdd6b6d715e552247eeda94d61a8b1d204f69325122a6ca968f6cab9ace}
+    - {name: AAlexandrina-137940.pdf, bytes: 65740961, pages: 723, ocr_pages: 723, sha256: 7b77ffda074321e11fd391f015a83a8dc386cf83bff0aa4532da1643c089a07a}
+    - {name: AAlexandrina-138002.pdf, bytes: 81898978, pages: 967, ocr_pages: 967, sha256: d98885f2c7badfa6af75019e70dc63388bc7e24eaeba76195fe14e9408d04e8a}
+    - {name: MNZOR1994AR.pdf, bytes: 26875825, pages: 809, ocr_pages: 809, sha256: 765db47a1059fcbab42756a788585479585f6d352d92613ac80656b2122a0fc8}
+    acquisition: {source: '4 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-12', by: library harvest (library/manifest.jsonl), bytes: 264610759, sha256_status: computed}
+    physical: {pages: 3503}
+    ocr: {state: complete, date: '2026-10-14', unzipped_location: books/lugha/lisan-arab/}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none)
+  - id: lisan-arab-ibn-manzur
+    title: 068632 - لسان العرب (+1 more scans)
+    category: lugha
+    volumes: 2 file(s)
+    files:
+    - {name: AAlexandrina-068632.pdf, bytes: 126954727, pages: 774, ocr_pages: 774, sha256: 26ac705c515d48d4e6fb1851d14af1c48d251b1608f58e762f0cafc7cee86153}
+    - {name: AAlexandrina-137925.pdf, bytes: 90094995, pages: 1004, ocr_pages: 1004, sha256: 0b489bdd6b6d715e552247eeda94d61a8b1d204f69325122a6ca968f6cab9ace}
+    acquisition: {source: '2 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-18', by: library harvest (library/manifest.jsonl), bytes: 217049722, sha256_status: computed}
+    physical: {pages: 1778}
+    ocr: {state: complete, date: '2026-10-22', unzipped_location: books/lugha/lisan-arab-ibn-manzur/}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none)
+  - id: mughni-labib-ibn-hisham
+    title: مغني اللبيب عن كتب الأعاريب
+    category: lugha
+    volumes: 2 file(s)
+    files:
+    - {name: 20250501_20250501_1944.pdf, bytes: 21878985, pages: 874, ocr_pages: 874, sha256: 677899c9fda53b1bf25931d1f1ca52b6a768f2228c45526360b2529c6d80c72c}
+    - {name: mokhni00.pdf, bytes: 11442264, pages: 706, ocr_pages: 706, sha256: 1498dde2746f1686197ebca81bd70508f69d8f6b5646e87e840b7e24f2dd0b58}
+    acquisition: {source: '2 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-18', by: library harvest (library/manifest.jsonl), bytes: 33321249, sha256_status: computed}
+    physical: {pages: 1580}
+    ocr: {state: complete, date: '2026-10-22', unzipped_location: books/lugha/mughni-labib-ibn-hisham/}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none)
+  - id: qamus-muhit
+    title: 068266 - القاموس المحيط (+3 more scans)
+    category: lugha
+    volumes: 4 file(s)
+    files:
+    - {name: AAlexandrina-068266.pdf, bytes: 64858949, pages: 424, ocr_pages: 424, sha256: e748616c58d8285162e1a8d721d010d88bbc4e95bf6aeb9666a99809186cb5cf}
+    - {name: AAlexandrina-124642.pdf, bytes: 51586625, pages: 472, ocr_pages: 472, sha256: f89e1c2f889f9fd84b7d5de8082f1b020d4a819c678b0c0ee4e0ce669f4a6ae3}
+    - {name: AAlexandrina-140896.pdf, bytes: 78473830, pages: 424, ocr_pages: 424, sha256: b155ef7ad3e534ff9ee72463cb086dd07a232a9c85e0d64fcd93dabf6f2d049b}
+    - {name: AAlexandrina-155214.pdf, bytes: 67185522, pages: 496, ocr_pages: 496, sha256: 790fbdd99459ab55dadef1442748e64e1fcb848173efe13b95b7ee7a1393937c}
+    acquisition: {source: '4 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-12', by: library harvest (library/manifest.jsonl), bytes: 262104926, sha256_status: computed}
+    physical: {pages: 1816}
+    ocr: {state: complete, date: '2026-10-14', unzipped_location: books/lugha/qamus-muhit/}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none)
+  - id: qamus-muhit-fayruzabadi
+    title: 140896 - القاموس المحيط (+1 more scans)
+    category: lugha
+    volumes: 2 file(s)
+    files:
+    - {name: AAlexandrina-140896.pdf, bytes: 78473830, pages: 424, ocr_pages: 424, sha256: b155ef7ad3e534ff9ee72463cb086dd07a232a9c85e0d64fcd93dabf6f2d049b}
+    - {name: AAlexandrina-155214.pdf, bytes: 67185522, pages: 496, ocr_pages: 496, sha256: 790fbdd99459ab55dadef1442748e64e1fcb848173efe13b95b7ee7a1393937c}
+    acquisition: {source: '2 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-18', by: library harvest (library/manifest.jsonl), bytes: 145659352, sha256_status: computed}
+    physical: {pages: 920}
+    ocr: {state: complete, date: '2026-10-23', unzipped_location: books/lugha/qamus-muhit-fayruzabadi/}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none)
+  - id: sahah-jawhari
+    title: الصحاح تاج اللغة وصحاح العربية، الجزء الأول
+    author: إسماعيل بن حماد الجوهري; أحمد عبد الغفور عطار
+    publisher: دار العلم للملايين، بيروت
+    edition: الطبعة الثانية، بيروت 1399هـ/1979م ⁦(الأولى القاهرة 1376هـ/1956م)⁩
+    year: {ce: '{''date-parts'': [[1979]]}'}
+    language: ar
+    category: lugha
+    volumes: 4 file(s)
+    files:
+    - {name: 1534pdf_201912.pdf, bytes: 35903907, pages: 1287, ocr_pages: 1287, sha256: cd075f8b504bbcd14b1603d7acc629b37a18779b837f0ff48c0eccef9420e7cf}
+    - {name: 1535pdf_201912.pdf, bytes: 53328450, pages: 2801, ocr_pages: 2801, sha256: 731a32e4affb9ffbc59af47fd7d8d2b89af94b4a4e2740200cb5c3fd815f29d3}
+    - {name: 20230225_20230225_0200.pdf, bytes: 51230523, pages: 2563, ocr_pages: 2563, sha256: 22a70d7d30f888479801d4a96d9d40295d278f6ff74034653d508b4903b6c3a3}
+    - {name: civ-7220.pdf, bytes: 34004024, pages: 1287, ocr_pages: 1287, sha256: ad85493676495a087bf96a80493e749a51684b358777abfd229053259613f66e}
+    acquisition: {source: '4 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-12', by: library harvest (library/manifest.jsonl), bytes: 174466904, sha256_status: computed}
+    physical: {pages: 7938}
+    ocr: {state: complete, date: '2026-10-14', unzipped_location: books/lugha/sahah-jawhari/}
+    ocr_archive: {state: none}
+    mining: {state: in_progress, entities: '13 data files cite source/sihah-attar-1979-v1,sihah-attar-1979-scan-b,sihah-tamir-dar-al-hadith-2009'}
+    ingestion: {state: partial, prs: [3438], ledger: [docs/delegation/library/sahah-jawhari.md], graph_ids: [source/sihah-attar-1979-v1, source/sihah-attar-1979-scan-b, source/sihah-tamir-dar-al-hadith-2009]}
+    completion: mining
+    unverified:
+    - edition
+    - mining.ranges_mined
+    - mining.state_derived_from_ledger_text
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - year
+    notes: 'needs OCR zip (ocr_archive none); other source ids: sihah-attar-1979-scan-b, sihah-tamir-dar-al-hadith-2009'
+  # END books:lugha
+  # BEGIN books:medicine-science
+  - id: athar-baqiya-biruni
+    title: الآثار الباقية عن القرون الخالية
+    author: Abu Rayhan Muhammad ibn Ahmad al-Biruni
+    language: ar
+    category: medicine-science
+    volumes: 1 file(s)
+    files:
+    - {name: athar-baqiya-biruni.pdf, bytes: 5761731, pages: 448, ocr_pages: 448, sha256: aeab67cd12769c7dd12af9227b66da0a763c48f652f76ab2543fda82b13961a9}
+    acquisition: {file_name: athar-baqiya-biruni.pdf, bytes: 5761731, sha256: aeab67cd12769c7dd12af9227b66da0a763c48f652f76ab2543fda82b13961a9, sha256_status: computed}
+    physical: {pages: 448}
+    ocr: {state: complete, date: '2026-10-18', unzipped_location: books/medicine-science/athar-baqiya-biruni/}
+    ocr_archive: {state: none}
+    mining: {state: in_progress, entities: 8 data files cite source/athar-baqiya-thaqafa-2008}
+    ingestion: {state: partial, prs: [179, 3466], ledger: [docs/delegation/library/athar-baqiya-biruni.md], graph_ids: [source/athar-baqiya-thaqafa-2008]}
+    completion: mining
+    unverified:
+    - edition
+    - mining.ranges_mined
+    - mining.state_derived_from_ledger_text
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none)
+  - id: canon-ibn-sina
+    title: القانون في الطب
+    author: al-Husayn ibn Abd Allah Ibn Sina
+    language: ar
+    category: medicine-science
+    volumes: 1 file(s)
+    files:
+    - {name: canon-ibn-sina.pdf, bytes: 7188107, pages: 1161, ocr_pages: 1161, sha256: b202efc39e5c923d175bc6ba1231e1fc69d194c84dfaaf4ceaa8f94aa612138a}
+    acquisition: {file_name: canon-ibn-sina.pdf, bytes: 7188107, sha256: b202efc39e5c923d175bc6ba1231e1fc69d194c84dfaaf4ceaa8f94aa612138a, sha256_status: computed}
+    physical: {pages: 1161}
+    ocr: {state: complete, date: '2026-10-18', unzipped_location: books/medicine-science/canon-ibn-sina/}
+    ocr_archive: {state: none}
+    mining: {state: in_progress, entities: 1 data files cite source/canon-ibn-sina-print}
+    ingestion: {state: partial, prs: [6340, 6341, 6342, 6344, 6345, 6346, 6347, 6348, 6349, 6350, 6351, 6352, 6353, 6354, 6355, 6356, 6357, 6370, 6373, 6385, 6387, 6389, 6391, 6392, 6395, 6398, 6400, 6402, 6404, 6406, 6408, 6410, 6412, 6414, 6417, 6418, 6420, 6421, 6423, 6425], ledger: [docs/delegation/library/medicine-science.md, docs/delegation/lane-ledgers/microsd-books.md], graph_ids: [source/canon-ibn-sina-print], prs_total: 79}
+    completion: mining
+    unverified:
+    - edition
+    - mining.ranges_mined
+    - mining.state_derived_from_ledger_text
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none)
+  - id: canon-ibn-sina-print-v1
+    title: القانون في الطب
+    author: al-Husayn ibn Ali Ibn Sina; Muhammad Amin al-Dannawi
+    publisher: Dar al-Kutub al-Ilmiyya, Beirut
+    edition: al-Taba'a al-ula (1st ed.), 1420 AH / 1999 CE; al-Juz' al-awwal (vol. 1)
+    year: {ce: '{''date-parts'': [[1999]]}'}
+    language: ar
+    category: medicine-science
+    volumes: 1 file(s)
+    files:
+    - {name: canon-ibn-sina-print-v1.pdf, bytes: 17884300, pages: 741, ocr_pages: 741, sha256: 6b23e32f76b19d693b2bf5861b24697650d38b64abe5ca2b4ae3cdd89ad04ead}
+    acquisition: {file_name: canon-ibn-sina-print-v1.pdf, bytes: 17884300, sha256: 6b23e32f76b19d693b2bf5861b24697650d38b64abe5ca2b4ae3cdd89ad04ead, sha256_status: computed}
+    physical: {pages: 741}
+    ocr: {state: complete, date: '2026-10-18', unzipped_location: books/medicine-science/canon-ibn-sina-print-v1/}
+    ocr_archive: {state: none}
+    mining: {state: in_progress, entities: '600 data files cite source/canon-ibn-sina-print-v1,canon-ibn-sina-print'}
+    ingestion: {state: partial, prs: [188, 6340, 6341, 6342, 6344, 6345, 6346, 6347, 6348, 6349, 6350, 6351, 6352, 6353, 6354, 6355, 6356, 6357, 6370, 6373, 6385, 6387, 6389, 6391, 6392, 6395, 6398, 6400, 6402, 6404, 6406, 6408, 6410, 6412, 6414, 6417, 6418, 6420, 6421, 6423], ledger: [docs/delegation/library/medicine-science.md, docs/delegation/lane-ledgers/microsd-books.md], graph_ids: [source/canon-ibn-sina-print-v1, source/canon-ibn-sina-print], prs_total: 80}
+    work_registry: 'harvest (medical passages, 40-word excerpts, for the Medicine Browser): done 2026-11-14 (merged PR 6620) (claude-fable-5-2 / tibb-browser); mine (read-only OCR text, no new OCR): active (claude-sonnet-5-5 / lane-a-a2-canon)'
+    completion: mining
+    unverified:
+    - edition
+    - mining.ranges_mined
+    - mining.state_derived_from_ledger_text
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - year
+    notes: 'needs OCR zip (ocr_archive none); other source ids: canon-ibn-sina-print'
+  - id: canon-ibn-sina-print-v2
+    title: القانون في الطب
+    author: al-Husayn ibn Ali Ibn Sina; Muhammad Amin al-Dannawi
+    publisher: Dar al-Kutub al-Ilmiyya, Beirut
+    edition: al-Taba'a al-ula (1st ed.), 1420 AH / 1999 CE; al-Juz' al-thani (vol. 2)
+    year: {ce: '{''date-parts'': [[1999]]}'}
+    language: ar
+    category: medicine-science
+    volumes: 1 file(s)
+    files:
+    - {name: canon-ibn-sina-print-v2.pdf, bytes: 22357360, pages: 864, ocr_pages: 864, sha256: aecf440c3bdc37b315fdc6f5d1ea8dede3a1ce596bbafb192797540eb192809f}
+    acquisition: {file_name: canon-ibn-sina-print-v2.pdf, bytes: 22357360, sha256: aecf440c3bdc37b315fdc6f5d1ea8dede3a1ce596bbafb192797540eb192809f, sha256_status: computed}
+    physical: {pages: 864}
+    ocr: {state: complete, date: '2026-10-18', unzipped_location: books/medicine-science/canon-ibn-sina-print-v2/}
+    ocr_archive: {state: none}
+    mining: {state: in_progress, entities: '53 data files cite source/canon-ibn-sina-print-v2,canon-ibn-sina-print'}
+    ingestion: {state: partial, prs: [188, 6340, 6341, 6342, 6344, 6345, 6346, 6347, 6348, 6349, 6350, 6351, 6352, 6353, 6354, 6355, 6356, 6357, 6370, 6373, 6385, 6387, 6389, 6391, 6392, 6395, 6398, 6400, 6402, 6404, 6406, 6408, 6410, 6412, 6414, 6417, 6418, 6420, 6421, 6423], ledger: [docs/delegation/library/medicine-science.md], graph_ids: [source/canon-ibn-sina-print-v2, source/canon-ibn-sina-print], prs_total: 80}
+    completion: mining
+    unverified:
+    - edition
+    - mining.ranges_mined
+    - mining.state_derived_from_ledger_text
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - year
+    notes: 'needs OCR zip (ocr_archive none); other source ids: canon-ibn-sina-print'
+  - id: canon-ibn-sina-print-v3
+    title: القانون في الطب
+    author: al-Husayn ibn Ali Ibn Sina; Muhammad Amin al-Dannawi
+    publisher: Dar al-Kutub al-Ilmiyya, Beirut
+    edition: al-Taba'a al-ula (1st ed.), 1420 AH / 1999 CE; al-Juz' al-thalith (vol. 3)
+    year: {ce: '{''date-parts'': [[1999]]}'}
+    language: ar
+    category: medicine-science
+    volumes: 1 file(s)
+    files:
+    - {name: canon-ibn-sina-print-v3.pdf, bytes: 14571306, pages: 590, ocr_pages: 590, sha256: 8116ee8067e524bfdf21f366bfe47adbe8943bc7b363e01dbdd7e824a54e1df4}
+    acquisition: {file_name: canon-ibn-sina-print-v3.pdf, bytes: 14571306, sha256: 8116ee8067e524bfdf21f366bfe47adbe8943bc7b363e01dbdd7e824a54e1df4, sha256_status: computed}
+    physical: {pages: 590}
+    ocr: {state: complete, date: '2026-10-18', unzipped_location: books/medicine-science/canon-ibn-sina-print-v3/}
+    ocr_archive: {state: none}
+    mining: {state: in_progress, entities: '57 data files cite source/canon-ibn-sina-print-v3,canon-ibn-sina-print'}
+    ingestion: {state: partial, prs: [188, 6340, 6341, 6342, 6344, 6345, 6346, 6347, 6348, 6349, 6350, 6351, 6352, 6353, 6354, 6355, 6356, 6357, 6370, 6373, 6385, 6387, 6389, 6391, 6392, 6395, 6398, 6400, 6402, 6404, 6406, 6408, 6410, 6412, 6414, 6417, 6418, 6420, 6421, 6423], ledger: [docs/delegation/library/medicine-science.md], graph_ids: [source/canon-ibn-sina-print-v3, source/canon-ibn-sina-print], prs_total: 80}
+    completion: mining
+    unverified:
+    - edition
+    - mining.ranges_mined
+    - mining.state_derived_from_ledger_text
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - year
+    notes: 'needs OCR zip (ocr_archive none); other source ids: canon-ibn-sina-print'
+  - id: hawi-razi
+    title: hawi razi
+    category: medicine-science
+    volumes: 1 file(s)
+    files:
+    - {name: hawi-razi.pdf, bytes: 50392894, pages: 3945, ocr_pages: 3945, sha256: 2726af9f42972c7c4827d361fc0b5e61d2a6f4113376f4a99610d341373a12ef}
+    acquisition: {file_name: hawi-razi.pdf, bytes: 50392894, sha256: 2726af9f42972c7c4827d361fc0b5e61d2a6f4113376f4a99610d341373a12ef, sha256_status: computed}
+    physical: {pages: 3945}
+    ocr: {state: complete, date: '2026-10-18', unzipped_location: books/medicine-science/hawi-razi/}
+    ocr_archive: {state: none}
+    mining: {state: in_progress}
+    ingestion: {state: none, ledger: [docs/delegation/lane-ledgers/microsd-books.md]}
+    work_registry: 'harvest (medical passages, 40-word excerpts, for the Medicine Browser): done 2026-11-14 (merged PR 6620) (claude-fable-5-2 / tibb-browser)'
+    completion: mining
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - mining.state_derived_from_ledger_text
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - title
+    - year
+    notes: 'needs OCR zip (ocr_archive none); title unknown: label is the archive.org or folder identifier'
+  - id: ibn-haytham-manazir
+    title: ibn haytham manazir
+    category: medicine-science
+    volumes: 1 file(s)
+    files:
+    - {name: ibn-haytham-manazir.pdf, bytes: 9562791, pages: 803, ocr_pages: 803, sha256: 0a88ec0d7f0bc727733fd14a508cd26a7fe390ba6d2734377abeb98c401a7432}
+    acquisition: {file_name: ibn-haytham-manazir.pdf, bytes: 9562791, sha256: 0a88ec0d7f0bc727733fd14a508cd26a7fe390ba6d2734377abeb98c401a7432, sha256_status: computed}
+    physical: {pages: 803}
+    ocr: {state: complete, date: '2026-10-18', unzipped_location: books/medicine-science/ibn-haytham-manazir/}
+    ocr_archive: {state: none}
+    mining: {state: in_progress}
+    ingestion: {state: none, ledger: [docs/delegation/lane-ledgers/microsd-books.md]}
+    work_registry: 'harvest (entities + ar/en/ur prose from existing OCR): active (claude-fable-5-2 / microsd-books)'
+    completion: mining
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - mining.state_derived_from_ledger_text
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - title
+    - year
+    notes: 'needs OCR zip (ocr_archive none); title unknown: label is the archive.org or folder identifier'
+  - id: khwarizmi-algebra
+    title: كتاب الجبر والمقابلة
+    author: Muhammad ibn Musa al-Khwarizmi
+    publisher: مطبعة فتح الله إلياس نوري وأولاده، مصر
+    year: {ce: '{''date-parts'': [[1939]]}'}
+    language: ar
+    category: medicine-science
+    volumes: 2 file(s)
+    files:
+    - {name: 20241227_20241227_1503.pdf, bytes: 60055520, pages: 130, ocr_pages: 130, sha256: a0044f64810764201d9737c002ea5890b9da0b0cca8fec8e32bc5019465a472c}
+    - {name: ar120vieux197.pdf, bytes: 2517242, pages: 124, ocr_pages: 124, sha256: 12f73eab6c7036ae10b312f7b5573a6fa2cf588ad253da4ec346a55f609349dc}
+    acquisition: {source: '2 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-21', by: library harvest (library/manifest.jsonl), bytes: 62572762, sha256_status: computed}
+    physical: {pages: 254}
+    ocr: {state: complete, date: '2026-10-22', unzipped_location: books/medicine-science/khwarizmi-algebra/}
+    ocr_archive: {state: none}
+    mining: {state: in_progress, entities: '52 data files cite source/khwarizmi-jabr-cairo-1939,khwarizmi-jabr-rosen-1831'}
+    ingestion: {state: partial, prs: [181, 3424, 3428], ledger: [docs/delegation/library/khwarizmi-algebra.md], graph_ids: [source/khwarizmi-jabr-cairo-1939, source/khwarizmi-jabr-rosen-1831]}
+    completion: mining
+    unverified:
+    - edition
+    - mining.ranges_mined
+    - mining.state_derived_from_ledger_text
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - year
+    notes: 'needs OCR zip (ocr_archive none); other source ids: khwarizmi-jabr-rosen-1831'
+  - id: sharh-tashrih-qanun-ibn-nafis
+    title: sharh tashrih qanun ibn nafis
+    category: medicine-science
+    volumes: 1 file(s)
+    files:
+    - {name: sharh-tashrih-qanun-ibn-nafis.pdf, bytes: 1684387, pages: 202, ocr_pages: 202, sha256: a23e2b991bd2c9736b3ee88e1a5c31479bce1069206402dd0bcc702c2ab613be}
+    acquisition: {file_name: sharh-tashrih-qanun-ibn-nafis.pdf, bytes: 1684387, sha256: a23e2b991bd2c9736b3ee88e1a5c31479bce1069206402dd0bcc702c2ab613be, sha256_status: computed}
+    physical: {pages: 202}
+    ocr: {state: complete, date: '2026-10-18', unzipped_location: books/medicine-science/sharh-tashrih-qanun-ibn-nafis/}
+    ocr_archive: {state: none}
+    mining: {state: in_progress}
+    ingestion: {state: none, ledger: [docs/delegation/lane-ledgers/microsd-books.md]}
+    work_registry: 'harvest (medical passages, 40-word excerpts, for the Medicine Browser): done 2026-11-14 (merged PR 6620) (claude-fable-5-2 / tibb-browser)'
+    completion: mining
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - mining.state_derived_from_ledger_text
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - title
+    - year
+    notes: 'needs OCR zip (ocr_archive none); title unknown: label is the archive.org or folder identifier'
+  - id: tahrir-majisti-tusi
+    title: تحرير المجسطي
+    author: Nasir al-Din Muhammad ibn Muhammad al-Tusi
+    language: ar
+    category: medicine-science
+    volumes: 1 file(s)
+    files:
+    - {name: tahrir-majisti-tusi.pdf, bytes: 547715214, pages: 351, ocr_pages: 351}
+    acquisition: {file_name: tahrir-majisti-tusi.pdf, bytes: 547715214, sha256_status: pending}
+    physical: {pages: 351}
+    ocr: {state: complete, date: '2026-10-18', unzipped_location: books/medicine-science/tahrir-majisti-tusi/}
+    ocr_archive: {state: none}
+    mining: {state: in_progress, entities: 2 data files cite source/tahrir-majisti-bl-add-23392}
+    ingestion: {state: partial, prs: [179, 3466], ledger: [docs/delegation/library/tahrir-majisti-tusi.md], graph_ids: [source/tahrir-majisti-bl-add-23392]}
+    completion: mining
+    unverified:
+    - edition
+    - mining.ranges_mined
+    - mining.state_derived_from_ledger_text
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none)
+  - id: zij-sabi-harrani
+    title: كتاب الزيج الصابي
+    author: Muhammad ibn Jabir ibn Sinan al-Harrani al-Battani
+    language: ar
+    category: medicine-science
+    volumes: 1 file(s)
+    files:
+    - {name: zij-sabi-harrani.pdf, bytes: 8539415, pages: 286, ocr_pages: 286, sha256: 6ba30fb1427069773a10f942f6ad0384358c259350cd1e1ae9e82b8c8aed2c1d}
+    acquisition: {file_name: zij-sabi-harrani.pdf, bytes: 8539415, sha256: 6ba30fb1427069773a10f942f6ad0384358c259350cd1e1ae9e82b8c8aed2c1d, sha256_status: computed}
+    physical: {pages: 286}
+    ocr: {state: complete, date: '2026-10-18', unzipped_location: books/medicine-science/zij-sabi-harrani/}
+    ocr_archive: {state: none}
+    mining: {state: in_progress, entities: 3 data files cite source/zij-sabi-nallino-byblion}
+    ingestion: {state: partial, prs: [179, 3466], ledger: [docs/delegation/library/zij-sabi-harrani.md], graph_ids: [source/zij-sabi-nallino-byblion]}
+    work_registry: 'mine (read-only OCR text): active (claude-sonnet-5-5 / lane-a-a2-canon)'
+    completion: mining
+    unverified:
+    - edition
+    - mining.ranges_mined
+    - mining.state_derived_from_ledger_text
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none)
+  # END books:medicine-science
   # END books
 
 # audio_series and video_series share one shape (media_type: audio | video | audio_video).
