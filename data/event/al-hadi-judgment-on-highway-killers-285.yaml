@@ -1,0 +1,61 @@
+id: event/al-hadi-judgment-on-highway-killers-285
+class: event
+kind: other
+label:
+  ar: حكم الهادي على ثلاثة قتلوا رجلاً وأخذوا حمولته قرب ريدة، صفر 285هـ
+  en: Al-Hadi's judgment on three men who killed a traveller near Raydah and took his loads, Safar 285 AH
+  ur: ریدہ کے قریب ایک مسافر کو قتل کر کے اس کا مال لوٹنے والے تین آدمیوں پر ہادی کا فیصلہ، صفر 285ھ
+summary:
+  ar: أمسك عمال الهادي القادمين من نجران ثلاثة رجال معهم ثلاثة أحمال، فأقروا أنهم قتلوا رجلاً قرب ريدة بخنقه وذبحه وأخذوا حمله، فاستنطقهم الهادي أياماً وشاور ثقات أصحابه، ثم حكم يوم الجمعة بقطع يد من لم يقتل ورجله المخالفة وبقتل القاتلين وصلبهما، وقال إنه حكم الله بكتابه.
+  en: Al-Hadi's agents coming from Najran stopped three men with three loads; they confessed to killing a man near Raydah by strangling and cutting his throat and taking his loads; al-Hadi questioned them over days and consulted his trusted companions, then on a Friday ruled that the one who had not killed lose his hand and opposite foot and the two killers be put to death and crucified, saying it was God's ruling by His Book.
+  ur: نجران سے آنے والے ہادی کے کارندوں نے تین آدمیوں کو تین بوجھوں کے ساتھ روکا؛ انہوں نے اقرار کیا کہ ریدہ کے قریب ایک شخص کو گلا گھونٹ کر اور ذبح کر کے قتل کیا اور اس کا مال لیا؛ ہادی نے کئی دن ان سے پوچھ گچھ کی، معتمد ساتھیوں سے مشورہ کیا، پھر جمعہ کو حکم دیا کہ جس نے قتل نہیں کیا اس کا ہاتھ اور مخالف پاؤں کاٹا جائے اور دونوں قاتل قتل کر کے سولی پر لٹکائے جائیں، اور کہا کہ یہ اللہ کی کتاب کا حکم ہے۔
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: 0898-03
+    hijri: 0285-02
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: قبل 22 صفر 285هـ بثمانية أيام خرج العمال؛ الحكم يوم الجمعة بعد ذلك؛ الشهر فقط بحسب السياق؛ التحويل مشتق
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/saada
+- type: occurred_at
+  target: place/raydah-yemen
+- type: occurred_at
+  target: place/najran
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/muhammad-ibn-sulayman-al-kufi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: related_to
+  target: concept/hirabah
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص81-82 ⁦(الصفحة المطبوعة)⁩'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-10
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 81-82
