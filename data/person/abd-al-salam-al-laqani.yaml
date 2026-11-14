@@ -6,23 +6,24 @@ label:
 roles: [scholar, writer]
 gender: male
 summary:
-  ar: "بطاقة أولية لعبد السلام اللقاني، العالم المالكي المصري، توفي سنة ١٦٦٨م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abd al-Salam al-Laqani, the Egyptian Maliki scholar, d. 1668; the biographical entry is not yet checked on the page."
+  ar: "عبد السلام بن إبراهيم اللقاني المصري، شيخ المالكية في وقته بالقاهرة وصاحب شروح، توفي سنة ١٠٧٨هـ بحسب خلاصة الأثر."
+  en: "Abd al-Salam ibn Ibrahim al-Laqani of Egypt, the shaykh of the Malikis in his time at Cairo and an author of commentaries; he died in 1078 AH according to Khulasat al-Athar."
 wings: [people]
 regions: [egypt-nile]
 periods: [period/gunpowder-empires]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/alam-zirikli-1927-v2, source/wikidata]
 external_ids:
   wikidata: Q60565006
+  viaf: "88343635"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0086
+  source: "al-Zirikli, al-A'lam, vol. 2, first edition 1927 (source/alam-zirikli-1927-v2), entry read in full on the scanned pages (PDF page cited); the entry is brief, so only what it states is written"
+  generated_by: "Claude Code (Lane B2, web-source and Shamela enrichment)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 died: { edtf: "1668", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Khulasat al-Athar (al-Muhibbi: d. 1078 AH) Confirmed on 13 November 2026 against Wikidata Q60565006 (P570, a statement with a reference), item revision 2533230257.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/misr, note: "Place association from the person's nisba/name (المصري); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

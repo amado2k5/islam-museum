@@ -15,9 +15,10 @@ died: { edtf: "1567", precision: year, status: tradition, derived: true }
 relations:
   - { type: born_in, target: place/maragha, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q605021)" }
   - { type: born_in, target: place/safavid-iran, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q18234383)" }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q6410269
+  viaf: "75716279"
 provenance:
   layer: own-research
   source: "Wikidata candidate; entry not yet read on the page in a book source"

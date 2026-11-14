@@ -21,9 +21,10 @@ relations:
   - { type: child_of, target: person/mehmed-ii, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: sibling_of, target: person/bayazid-ii, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: opposed, target: person/bayazid-ii, sources: [source/dawlat-uthmaniyya-salabi] }
-sources: [source/dawlat-uthmaniyya-salabi]
+sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
 external_ids:
   wikidata: Q441311
+  viaf: "2618561"
 provenance:
   layer: own-research
   source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421)"

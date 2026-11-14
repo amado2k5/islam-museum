@@ -39,9 +39,10 @@ died: { edtf: "1585", calendar: gregorian, precision: year, derived: true, note:
 relations:
   - { type: born_in, target: place/damascus, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q3766)" }
   - { type: died_in, target: place/istanbul, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q406)" }
-sources: [source/al-aalam, source/taqi-fazlioglu-bea, source/tdv-takiyyuddin-er-rasid, source/tekeli-trigonometry-1986, source/taqi-turuq-hasan-1976, source/cabeza-pump-2021]
+sources: [source/al-aalam, source/taqi-fazlioglu-bea, source/tdv-takiyyuddin-er-rasid, source/tekeli-trigonometry-1986, source/taqi-turuq-hasan-1976, source/cabeza-pump-2021, source/wikidata]
 external_ids:
   wikidata: Q1379164
+  viaf: "90045995"
 provenance:
   layer: own-research
   source: "Wikidata Q1379164 (religion claim Islam); book source: al-Zirikli, al-A'lam — entry not yet read on the page"

@@ -24,8 +24,8 @@ relations:
   - { type: opposed, target: person/sulayman-al-qanuni, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: ruler_of, target: place/algiers, sources: [source/wikidata], confidence: low, note: "en: 'The Sa'di sharif, ruler of Fas, who ended Wattasid rule with some twenty thousand Ottoman-backed mujahidu" }
   - { type: lived_in, target: place/tlemcen, sources: [source/wikidata], confidence: low, note: "وانتهز إبحار الأسطول العثماني فدخل تلمسان على غفلة فصمدت حاميتها بقيادة محمود صفا بك." }
-sources: [source/dawlat-uthmaniyya-salabi]
-external_ids: { wikidata: "Q386747" }
+sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
+external_ids: { wikidata: "Q386747", viaf: "158422758" }
 provenance:
   layer: own-research
   source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 231-243"

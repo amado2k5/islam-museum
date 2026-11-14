@@ -44,9 +44,10 @@ faith:
 relations:
   - { type: born_in, target: place/futa-tooro, sources: [source/wikidata-omar-ibn-said], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1440091)" }
   - { type: died_in, target: place/bladen-county, sources: [source/wikidata-omar-ibn-said], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q504403)" }
-sources: [source/wikipedia-omar-ibn-said-en, source/wikipedia-omar-ibn-said-ar, source/wikipedia-omar-ibn-said-ur, source/wikipedia-omar-ibn-said-fr, source/wikidata-omar-ibn-said]
+sources: [source/wikipedia-omar-ibn-said-en, source/wikipedia-omar-ibn-said-ar, source/wikipedia-omar-ibn-said-ur, source/wikipedia-omar-ibn-said-fr, source/wikidata-omar-ibn-said, source/wikidata]
 external_ids:
   wikidata: "Q2687711"
+  viaf: "71074510"
 status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
 provenance:
   layer: own-research

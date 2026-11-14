@@ -15,9 +15,10 @@ born: { edtf: "1580~", calendar: gregorian, precision: year, derived: true, note
 died: { edtf: "1611~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ain-i-Akbari Confirmed on 13 November 2026 against Wikidata Q5901002 (P570, a statement with a reference), item revision 2567672983.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/kashmir, sources: [source/al-aalam] }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q5901002
+  viaf: "189148521984620851178"
 provenance:
   layer: own-research
   source: "Wikidata candidate; entry not yet read on the page in a book source"

@@ -15,9 +15,10 @@ born: { edtf: "1914", calendar: gregorian, precision: year, derived: true, note:
 died: { edtf: "2004", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Nuqush-e-Raftagan (Tazkirah Scholars of Pakistan)" }
 relations:
   - { type: born_in, target: place/chakwal, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1251473)" }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q116030616
+  viaf: "33619794"
 provenance:
   layer: own-research
   source: "Wikidata candidate; entry not yet read on the page in a book source"

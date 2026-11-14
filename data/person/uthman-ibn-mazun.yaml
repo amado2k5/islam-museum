@@ -27,8 +27,8 @@ relations:
   - { type: buried_in, target: place/al-baqi, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q154204)" }
   - { type: member_of, target: group/muhajirun, note: "emigrated to Abyssinia then Medina (al-Isaba p. 1011)", sources: [source/ibn-hajar-isaba] }
 
-external_ids: { wikidata: "Q1607512" }
-sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/ibn-hajar-isaba]
+external_ids: { wikidata: "Q1607512", viaf: "90057356" }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/ibn-hajar-isaba, source/wikidata]
 importance: 2
 status: { review: draft, completeness: 3, generated_by: "Devin; al-Raheeq al-Makhtum pp. 75-76" }
 provenance:

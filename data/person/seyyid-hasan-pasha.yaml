@@ -15,9 +15,10 @@ died: { edtf: "1748", calendar: gregorian, precision: year, derived: true, note:
 relations:
   - { type: born_in, target: place/tokat, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q183651)" }
   - { type: died_in, target: place/diyarbak-r, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q83387)" }
-sources: [source/dawlat-uthmaniyya-salabi]
+sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
 external_ids:
   wikidata: Q1584086
+  viaf: "15575735"
 provenance:
   layer: own-research
   source: "Wikidata candidate; book source: al-Sallabi, al-Dawla al-Uthmaniyya — entry not yet read on the page"

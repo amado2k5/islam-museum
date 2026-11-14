@@ -26,8 +26,8 @@ faith:
     basis: unknown
     note: "The Azad configuration (wave 70 §B): no text in the English or Arabic article names his religion, the Arabic article's infobox religion field is blank, and there are no religion category filings. The only attestation anywhere is Wikidata's single structured value, Sunni Islam — one structured value, which never counts. The Sunni reading is preserved here; the value stays unknown, one full source family short of sunni/documented."
     sources: [source/wikipedia-alpha-oumar-konare-en, source/wikipedia-alpha-oumar-konare-ar, source/wikidata-alpha-oumar-konare]
-external_ids: { wikidata: "Q313239" }
-sources: [source/wikipedia-alpha-oumar-konare-en, source/wikipedia-alpha-oumar-konare-ar, source/wikidata-alpha-oumar-konare]
+external_ids: { wikidata: "Q313239", viaf: "54321839" }
+sources: [source/wikipedia-alpha-oumar-konare-en, source/wikipedia-alpha-oumar-konare-ar, source/wikidata-alpha-oumar-konare, source/wikidata]
 provenance:
   layer: own-research
   source: "English Wikipedia 'Alpha Oumar Konaré' (revision 1378221082 of 3 October 2026), Arabic Wikipedia 'ألفا عمر كوناري' (revision 72815313 of 19 December 2025) and Wikidata item Q313239 (item revision 2557722676 of 16 October 2026), read via the MediaWiki API on 26 October 2026; every article was fetched by its recorded revision id and the returned id asserted equal before any claim was drawn, and the Wikidata item revision was read from the API itself (its date is internally coherent). Existence was checked by filename fragments under all spellings (konare, konaré), by Arabic label, by biography and by the QID route across data/person/ — no earlier record exists, and his Arabic label matches no existing record's label. No Urdu article exists, so the Urdu label is a transliteration and the Urdu prose cites the English and Arabic sources. No place entity exists for Kayes, so no born_in edge is written; he took office in 1992 succeeding a transitional government whose head, Amadou Toumani Touré, has no person record, so no successor_of edge is written (an edge to Moussa Traoré would misstate the succession)."

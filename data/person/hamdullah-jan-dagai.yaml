@@ -14,9 +14,10 @@ periods: [period/modern-era]
 born: { edtf: "1914", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Pakistani obituaries" }
 relations:
   - { type: lived_in, target: place/hamdullahi, confidence: low, note: "Associated with حمد الله per the record's own text; relation type pending review.", sources: [source/al-aalam] }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q96678083
+  viaf: "2158259227802300354"
 provenance:
   layer: own-research
   source: "Wikidata candidate; entry not yet read on the page in a book source"

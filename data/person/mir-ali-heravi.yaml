@@ -16,9 +16,10 @@ died: { edtf: "1544", precision: year, status: tradition, derived: true }
 relations:
   - { type: born_in, target: place/harat, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/bukhara, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q5959839
+  viaf: "54083384"
 provenance:
   layer: own-research
   source: "Wikidata candidate; entry not yet read on the page in a book source"

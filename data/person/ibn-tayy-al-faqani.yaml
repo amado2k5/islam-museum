@@ -16,9 +16,10 @@ died: { edtf: "1257", calendar: gregorian, precision: year, derived: true, note:
 relations:
   - { type: born_in, target: place/tyre, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/tyre, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q108750382
+  viaf: "21696438"
 provenance:
   layer: own-research
   source: "Wikidata candidate; entry not yet read on the page in a book source"

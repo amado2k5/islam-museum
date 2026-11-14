@@ -16,9 +16,10 @@ died: { edtf: "900", calendar: gregorian, precision: year, derived: true, note: 
 relations:
   - { type: born_in, target: place/basra, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/isfahan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/al-aalam, source/tarikh-dimashq-amrawi-v5]
+sources: [source/al-aalam, source/tarikh-dimashq-amrawi-v5, source/wikidata]
 external_ids:
   wikidata: Q5984157
+  viaf: "90049256"
 provenance:
   tarikh_dimashq_section: "Claude Code (OCR-harvest worker F), claude-opus-5-5, run ocr-harvest-2026-11-04: tarikh-dimashq-amrawi-v5 pp. 104–107 (entry 62)"
   layer: own-research

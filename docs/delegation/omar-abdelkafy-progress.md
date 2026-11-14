@@ -3346,6 +3346,28 @@ Resume point: min-kunuz-al-sunnah episode 27 (branch from origin/main).
 
 Resume point: min-kunuz-al-sunnah episode 28 (branch from origin/main).
 
+### sharh-saheeh-al-bukhare ep02 (14 Nov 2026)
+
+28 points written for episode 2 (ar, en, ur); 21 needs_source marks in each language file for this episode; 27 new `about` edges. Quran verses referenced only through passage links (5-3, 93-6, 96-1, 96-5); none typed. Contested: He places the reward of converts in the scale of those who brought them to Islam (Abu Bakr, Amr ibn al-As), applies the hijra hadith to modern travel for work, holds that the Quran is understood only through the Sunna, and gives his own readings of the Prophet's fear at the first revelation; all are marked as his view. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep02) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Greetings, praise and opening prayer | ep02 00:00:00-00:02:00 | Opening formulas and invocations, no content point | Content rule | Open |
+| Closing prayer, advert for a company with contact number, closing appeals | ep02 01:23:30-01:24:30 | Break join, commercial notice and closing prayer, not teaching | Content rule | Open |
+| Report on Uthman ibn Talha, the key of the Kaaba and Ali | ep02 00:19:30-00:20:30 | Too garbled to recover what is said and by whom | Clarity | Open |
+| Stretch on the killing of scholars and on a raised weapon against a brother | ep02 00:29:30-00:30:30 | Sweeping claim about present-day killing, partly garbled | Voice rule | Open |
+| Stretch on the loss of a child, a father who lost two sons and Moses' mother | ep02 00:30:30-00:32:30 | Garbled, only the reading on grief at 00:31:30 is recoverable | Clarity | Open |
+| Stories of a Companion's love for the Prophet, equipping ten men and a man with no mounts | ep02 00:36:00-00:39:30 | Garbled, speakers and sequence unclear | Clarity | Open |
+| Long stretch of repeated words and unrelated talk, including talk of colours and revolutionary legitimacy | ep02 00:43:00-00:53:00 | Loop and garbled speech with no recoverable point | Clarity, Loop check | Open |
+| Account of the revelation in small matters and stories of a woman, a Companion and a bride | ep02 00:55:00-01:01:00 | Loop and garbled speech | Clarity, Loop check | Open |
+| Story of the Prophet's prostration, Fatima, exile and a creed of two imams | ep02 01:05:30-01:08:30 | Garbled, speakers unclear | Clarity | Open |
+| Fatwa, trade and sweeping remarks about adultery | ep02 01:08:30-01:10:30 | Garbled and a sweeping claim about people | Voice rule, Clarity | Open |
+| Account of the retreat, a purchase and a journey | ep02 01:13:00-01:16:00 | Garbled | Clarity | Open |
+| Stretch on the Prophet's fear compared with others, and repeated passages | ep02 01:19:30-01:22:00 | Garbled and looping, only the points at 01:21:00 and 01:22:30 are used | Clarity, Loop check | Open |
+| Loops at 00:09:30, 00:16:00, 00:26:00, 00:28:00, 00:34:00, 00:37:30, 00:40:30 and 01:23:00 | ep02 various | Repeated words | Clarity, Loop check | Open |
+| Names and details the transcript does not clearly support: Uthman, Amr ibn al-As, Uqba's father, Khadija, reason of the man killed, hardest-on-him and sweat in the revelation report, why the envoy came | ep02 00:05:30, 00:07:30, 00:08:00, 00:22:30, 00:29:30, 00:54:30, 01:05:00 | Garbled or absent in the recording, reduced to what is clear | Clarity | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 3 (branch from origin/main).
 ### alwaad-alhaq ep08 (14 Nov 2026)
 
 23 points written for episode 8 (ar, en, ur); 20 needs_source marks for this episode in each language file; 17 new `about` edges (concepts and persons already in the graph; the series record now covers episodes 1-8). Quran verses referenced only through passage links (21-96, 18-21, 48-11, 2-275, 7-34, 24-4, 4-119); none typed. Contested: sects and groups, triple divorce, hair joining, the hadith on Ali and the daughter of Abu Jahl, and the ruling on one who abandons prayer, all given as his view. Quran verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
@@ -3425,3 +3447,22 @@ Resume point: min-kunuz-al-sunnah episode 31 (branch from origin/main).
 | Repetition loops and repeated blessings | ep09 00:22:30, 00:29:00, 00:34:30, 00:45:00-00:46:00 | Garbled ASR repetition | Loop check | Open |
 
 Resume point: alwaad-alhaq episode 10 (branch from origin/main).
+### sharh-saheeh-al-bukhare ep03 (14 Nov 2026)
+
+17 points written for episode 3 (ar, en, ur); 6 needs_source marks in each language file for this episode; 5 new `about` edges. Quran verses referenced only through passage links (3-64); none typed. Contested: His assessments of the Prophet's character, of the questions put to Abu Sufyan and of the Prophet's letter are his own framing; the stories of Rukana, the daughter of Hatim and the armed man are told without chains and are not endorsed by the museum. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep03) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening prayer and greetings | ep03 00:00:00-00:01:00 | Opening supplication and greeting, not content | Content rule | Open |
+| Closing prayer and farewell greetings | ep03 01:12:30-01:13:00, 01:17:30-01:18:00 | Closing prayer and greeting, not content | Content rule | Open |
+| Repeated phrase loops and garbled stretches | ep03 00:01:30-00:03:30, 00:03:30-00:04:00, 00:12:30-00:13:00, 00:18:00-00:18:30, 00:21:00-00:21:30, 00:22:30-00:23:00, 00:26:00-00:26:30, 00:27:30-00:28:30, 00:32:30-00:33:00, 00:35:30-00:36:00, 00:37:00-00:37:30, 00:38:00-00:39:30, 00:40:30-00:41:00, 00:43:00-00:43:30, 00:44:30-00:46:00, 00:46:30-00:48:00, 00:49:00-00:50:00, 00:55:00-00:55:30, 00:57:30-00:58:30, 01:00:00-01:03:30, 01:06:00-01:07:00, 01:08:30-01:09:30, 01:10:30-01:11:30, 01:14:00-01:14:30 | Repetition loops or text too garbled to recover | Clarity, Loop check | Open |
+| Stories of the Prophet's opponents, Moses and Aaron, Abdullah ibn Salam and a conversion account | ep03 00:14:30-00:19:00 | Too garbled to recover what is claimed | Clarity | Open |
+| Remarks on contemporary events, Muslims in America and a conference before an attack | ep03 00:11:30-00:14:00, 01:04:30-01:05:30, 01:08:00-01:09:00 | Sweeping claims about modern conflict and politics | Content rule | Open |
+| Ruling on declaring people unbelievers | ep03 01:05:30-01:06:00 | His ruling stated as a general statement, outside the museum's voice | Voice rule | Open |
+| Appeal to men about women and the gaze | ep03 00:50:30-00:51:00 | Generalising advice about women, not tied to the hadith | Voice rule | Open |
+| Journey of the young Prophet with his uncle | ep03 00:53:00-00:54:30 | Garbled, names and events not recoverable | Clarity | Open |
+| Questions and answers on hajj, fatwas and site announcements | ep03 01:13:00-01:17:30 | Unrelated announcements and questions, partly garbled | Content rule | Open |
+| Naming of Heraclius and the Byzantine ruler as the questioner | ep03 00:34:00-01:07:30 | The transcript never names Heraclius or the Byzantines; the identity was inferred from the known hadith, not said | Clarity | Open |
+| Quranic wording of the common-word call, the Hashim step of the hadith of choosing, the reasons for a prophet's intelligence and the purpose of the armed-man story | ep03 00:09:30, 00:52:30, 01:12:00, 00:27:00 | Not clearly supported by the transcript or would type Quran wording | Clarity, Content rule | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 4 (branch from origin/main).

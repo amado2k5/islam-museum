@@ -19,10 +19,10 @@ periods: [period/abbasid-fragmentation]
 regions: [levant-iraq]
 story_roles:
   - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
-external_ids: { wikidata: "Q1046622" }
+external_ids: { wikidata: "Q1046622", openiti: "0337QudamaIbnJacfar", viaf: "100625744" }
 relations:
   - { type: born_in, target: place/baghdad, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1530)" }
-sources: [source/mawsuat-a3lam-ulama-adaba, source/masalik-mamalik-ibn-khurdadhbih]
+sources: [source/mawsuat-a3lam-ulama-adaba, source/masalik-mamalik-ibn-khurdadhbih, source/openiti-corpus, source/wikidata]
 status:
   review: published
   completeness: 3

@@ -17,9 +17,10 @@ born: { hijri: "1110", edtf: "1699-02-16", calendar: julian, precision: day, sta
 relations:
   - { type: born_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/k-tahya, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/sicill-i-osmani]
+sources: [source/sicill-i-osmani, source/wikidata]
 external_ids:
   wikidata: Q1584693
+  viaf: "18326666"
 provenance:
   layer: own-research
   source: "Sicill-i Osmani, Tarih Vakfi 1996 translit. ed., vol. 1 — 'Ali Paşa (Hekimzâde)' entry; Apple Vision OCR (two-column scan, بعض التفاصيل بحاجة تحقق)"

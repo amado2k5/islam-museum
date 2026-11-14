@@ -19,7 +19,8 @@ story_roles:
   - { role: transmitter, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
 relations:
   - { type: lived_in, target: place/seville, confidence: low, note: "Associated with إشبيلية per the record's own summary text; relation type pending review.", sources: [source/mawsuat-a3lam-ulama-adaba] }
-sources: [source/mawsuat-a3lam-ulama-adaba]
+external_ids: { openiti: "0575IbnKhayrIshbili" }
+sources: [source/mawsuat-a3lam-ulama-adaba, source/openiti-corpus]
 status:
   review: published
   completeness: 3

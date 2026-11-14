@@ -16,9 +16,10 @@ died: { edtf: "1985", calendar: gregorian, precision: year, derived: true, note:
 relations:
   - { type: born_in, target: place/attock, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/attock, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q20571866
+  viaf: "18625690"
 provenance:
   layer: own-research
   source: "Wikidata candidate; entry not yet read on the page in a book source"

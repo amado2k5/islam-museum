@@ -1,0 +1,21 @@
+id: source/openiti-corpus
+class: source
+kind: reference_data
+type: database
+label:
+  ar: "المدونة الآلية للنصوص الإسلامية ⁦(OpenITI)⁩"
+  en: "OpenITI, a machine-readable corpus of Islamicate texts"
+  ur: "اوپن آئی ٹی آئی، اسلامی متون کا مشینی مجموعہ ⁦(OpenITI)⁩"
+summary:
+  ar: "مشروع مفتوح يجمع آلاف النصوص العربية والفارسية وغيرها بصيغة مقروءة آليًا، ويعطي لكل مؤلف معرّفًا ثابتًا من سنة الوفاة بالهجري واسم مختصر، مثل ٠٢٥٦البخاري. يُستعمل هنا للمعرّفات وبيانات الفهرسة فقط، ولا تُنقل نصوصه."
+  en: "An open project that gathers thousands of Arabic, Persian and other texts in machine-readable form and gives each author a stable identifier made of the Hijri death year and a short name, for example 0256Bukhari. Used here for identifiers and catalogue facts only; its texts are not copied."
+  ur: "ایک کھلا منصوبہ جو ہزاروں عربی، فارسی اور دیگر متون کو مشینی صورت میں جمع کرتا ہے اور ہر مصنف کو ہجری سالِ وفات اور مختصر نام پر مشتمل مستقل شناخت دیتا ہے، مثلاً 0256Bukhari۔ یہاں صرف شناختوں اور فہرستی حقائق کے لیے استعمال ہوتا ہے، متون نقل نہیں کیے جاتے۔"
+title: "OpenITI 2025.1.9 (Zenodo 17767721)"
+publisher: "OpenITI project (Aga Khan University, Universität Hamburg, Leipzig and partners)"
+URL: "https://zenodo.org/records/17767721"
+language: ar
+reliability_note: "Scholarly corpus project with versioned Zenodo releases; licence CC BY-NC-SA 4.0, so facts-only (layer nc in scripts/harvest/sources.yaml). The author identifier (death year plus short name) is stable across releases. A person of ours is linked only when our Arabic label equals the corpus author name (diacritics folded) and our Hijri death year equals the identifier's year, exactly one author matches, and the author is not marked as pseudo."
+sources: [source/openiti-corpus]
+open_access: false
+provenance: { layer: own-research, source: "OpenITI_metadata_2025-1-9.tsv in the harvest folder (registered in scripts/harvest/sources.yaml as openiti-corpus); approval dec-20261114-277", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: web-b1-openiti }
+status: { review: draft, generated_by: "Claude Code" }

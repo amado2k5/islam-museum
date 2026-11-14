@@ -15,9 +15,10 @@ themes: [spirituality-and-sufism]
 died: { edtf: "1186", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
 relations:
   - { type: born_in, target: place/khwarizm, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q182647)" }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q4076179
+  viaf: "41055217"
 provenance:
   layer: own-research
   source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"

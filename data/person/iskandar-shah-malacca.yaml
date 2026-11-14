@@ -15,9 +15,10 @@ born: { edtf: "1344", calendar: gregorian, precision: year, derived: true, note:
 died: { edtf: "1414", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Sejarah Melayu" }
 relations:
   - { type: born_in, target: place/palembang, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/bosworth-new-islamic-dynasties-1996]
+sources: [source/bosworth-new-islamic-dynasties-1996, source/wikidata]
 external_ids:
   wikidata: Q3363540
+  viaf: "26506489"
 provenance:
   layer: own-research
   source: "Wikidata candidate; book source: Bosworth, The New Islamic Dynasties (1996), Malay dynasties — entry not yet read on the page"

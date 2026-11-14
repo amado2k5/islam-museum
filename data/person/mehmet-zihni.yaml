@@ -15,9 +15,10 @@ born: { edtf: "1846", calendar: gregorian, precision: year, derived: true, note:
 died: { edtf: "1913", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Confirmed on 13 November 2026 against Wikidata Q113803499 (P570, a statement with a reference), item revision 2565207655.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q113803499
+  viaf: "47901354"
 provenance:
   layer: own-research
   source: "Wikidata candidate; entry not yet read on the page in a book source"

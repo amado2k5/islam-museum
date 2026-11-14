@@ -10,6 +10,6 @@ died: { edtf: "767", calendar: gregorian, precision: year, derived: true, note: 
 relations:
   - { type: born_in, target: place/balkh, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q182159)" }
   - { type: died_in, target: place/basra, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q48195)" }
-sources: [source/fihrist-ibn-al-nadim]
-external_ids: { wikidata: "Q14095767" }
+sources: [source/fihrist-ibn-al-nadim, source/wikidata]
+external_ids: { wikidata: "Q14095767", viaf: "22130480" }
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

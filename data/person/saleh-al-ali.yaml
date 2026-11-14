@@ -37,11 +37,11 @@ faith:
     basis: unknown
     note: "His community is documented; no affiliation value is recorded, exactly as the sources give it. Personal attestation versus communal role, stated separately: as communal role and background, the English article's lead calls him a Syrian Alawite military commander and its background section says he was born to a family of Alawite notables of al-Shaykh Badr; the Arabic article says his father was one of the known sheikhs of the Alawite ta'ifa, and Saleh himself bore the title Sheikh and led his community's revolt. As affiliation-shaped attestations there are only two, and both are single structured values: the Arabic article's infobox, which gives his religion as Islam and his creed as Alawite, and Wikidata's religion (P140) field, which carries Islam and Alawites. No article text names an affiliation for him personally beyond his community and office, no source attests 'Shia' for him, and the museum's faith enum has no alawite value; the Shia mapping is therefore not engaged and none is forced. The recorded value is unknown, with the community stated here in full."
     sources: [source/wikipedia-saleh-al-ali-en, source/wikipedia-saleh-al-ali-ar, source/wikipedia-saleh-al-ali-ur, source/wikidata-saleh-al-ali]
-external_ids: { wikidata: "Q4165808" }
+external_ids: { wikidata: "Q4165808", viaf: "24357670" }
 relations:
   - { type: born_in, target: place/al-shaykh-badr, sources: [source/wikidata-saleh-al-ali], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q2132653)" }
   - { type: died_in, target: place/tartus, sources: [source/wikidata-saleh-al-ali], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q174916)" }
-sources: [source/wikipedia-saleh-al-ali-en, source/wikipedia-saleh-al-ali-ar, source/wikipedia-saleh-al-ali-ur, source/wikidata-saleh-al-ali]
+sources: [source/wikipedia-saleh-al-ali-en, source/wikipedia-saleh-al-ali-ar, source/wikipedia-saleh-al-ali-ur, source/wikidata-saleh-al-ali, source/wikidata]
 provenance:
   layer: own-research
   source: "English, Arabic and Urdu Wikipedia and Wikidata Q4165808, each read at the revision recorded in its source file and checked on 26 October 2026"

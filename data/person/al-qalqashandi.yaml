@@ -11,7 +11,7 @@ summary:
 wings: [people]
 regions: [egypt-nile]
 periods: [period/crusades-ayyubid-mamluk]
-sources: [source/shadharat-dhahab, source/daw-lami-jil-1992, source/subh-al-asha-cairo-v1, source/subh-al-asha-cairo-v14]
+sources: [source/shadharat-dhahab, source/daw-lami-jil-1992, source/subh-al-asha-cairo-v1, source/subh-al-asha-cairo-v14, source/wikidata]
 born: { edtf: "1355", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Daw' al-Lami Confirmed on 13 November 2026 against Wikidata Q400919 (P569, a statement with a reference), item revision 2567374786.", sources: [source/wikidata] }
 died: { edtf: "1418", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Daw' al-Lami Confirmed on 13 November 2026 against Wikidata Q400919 (P570, a statement with a reference), item revision 2567374786.", sources: [source/wikidata] }
 relations:
@@ -19,6 +19,7 @@ relations:
   - { type: authored, target: work/subh-al-asha, sources: [source/subh-al-asha-cairo-v1] }
 external_ids:
   wikidata: Q400919
+  viaf: "110867169"
 provenance:
   layer: own-research
   source: "Wikidata candidate; book source: Ibn al-Imad, Shadharat al-Dhahab — entry not yet read on the page"

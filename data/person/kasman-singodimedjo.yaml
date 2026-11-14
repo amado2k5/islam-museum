@@ -44,8 +44,8 @@ relations:
   - { type: died_in, target: place/jakarta, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-kasman-singodimedjo] }
   - { type: died_in, target: place/jakarta, sources: [source/wikipedia-kasman-singodimedjo-en, source/wikipedia-kasman-singodimedjo-id, source/wikidata-kasman-singodimedjo] }
   - { type: buried_in, target: place/jakarta, sources: [source/wikipedia-kasman-singodimedjo-en, source/wikipedia-kasman-singodimedjo-id] }
-external_ids: { wikidata: "Q16187634" }
-sources: [source/wikipedia-kasman-singodimedjo-en, source/wikipedia-kasman-singodimedjo-id, source/wikidata-kasman-singodimedjo]
+external_ids: { wikidata: "Q16187634", viaf: "291244416" }
+sources: [source/wikipedia-kasman-singodimedjo-en, source/wikipedia-kasman-singodimedjo-id, source/wikidata-kasman-singodimedjo, source/wikidata]
 status: { review: published }
 provenance:
   layer: own-research

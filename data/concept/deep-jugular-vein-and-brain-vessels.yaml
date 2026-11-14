@@ -1,0 +1,18 @@
+id: concept/deep-jugular-vein-and-brain-vessels
+class: concept
+kind: scientific
+label: { ar: "الوداج الغائر وعروق الدماغ عند ابن سينا", en: "The deep jugular vein and the vessels of the brain in the Canon", ur: "قانون میں گہری وداج رگ اور دماغ کی رگیں" }
+summary:
+  ar: "يذكر ابن سينا أن الوداج الغائر يلزم المريء ويصعد حتى الدرز اللامي، ثم يدخل جوف القحف ويتفرق في غشائي الدماغ، وينزل إلى الدماغ ويجتمع في الوضع الواسع المعروف بالمعصرة، ثم تمتد عروق إلى البطنين المقدمين وتنسج الشبكة المشيمية {cite:canon-ibn-sina-print-v1 pp.90-91}."
+  en: "Ibn Sina says the deep jugular vein follows the gullet and rises to the lambdoid suture, enters the cranial cavity and spreads in the two brain membranes, descends into the brain and gathers in the wide place called the press, from which vessels extend to the front ventricles and weave the choroid net {cite:canon-ibn-sina-print-v1 pp.90-91}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/veins, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 1, on the veins and the faculties (scan pages 90 to 99), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-vessels-2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

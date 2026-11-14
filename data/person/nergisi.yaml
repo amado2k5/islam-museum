@@ -17,9 +17,10 @@ relations:
   - { type: born_in, target: place/sarajevo, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q11194)" }
   - { type: died_in, target: place/gebze, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q206116)" }
   - { type: lived_in, target: place/ottoman-empire, sources: [source/wikidata], confidence: low, note: "Wikidata P937 work location (Wikidata Q12560)" }
-sources: [source/dawlat-uthmaniyya-salabi]
+sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
 external_ids:
   wikidata: Q1977944
+  viaf: "39810268"
 provenance:
   layer: own-research
   source: "Wikidata candidate; book source: al-Shalabi, al-Dawla al-Uthmaniyya — entry not yet read on the page"

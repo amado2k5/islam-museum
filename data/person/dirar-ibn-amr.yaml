@@ -16,8 +16,8 @@ died: { edtf: "806", calendar: gregorian, precision: year, derived: true, note: 
 relations:
   - { type: born_in, target: place/kufa, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/basra, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-external_ids: { wikidata: "Q12220518" }
-sources: [source/duha-islam]
+external_ids: { wikidata: "Q12220518", viaf: "315998231" }
+sources: [source/duha-islam, source/wikidata]
 provenance:
   layer: own-research
   source: "ضحى الإسلام لأحمد أمين ص 60-61"

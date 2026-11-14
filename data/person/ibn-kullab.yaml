@@ -8,6 +8,6 @@ wings: [people]
 died: { edtf: "855~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 Confirmed on 13 November 2026 against Wikidata Q2804846 (P570, a statement with a reference), item revision 2560902167.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/anatolia, confidence: low, note: "Associated with الروم per the record's own text; relation type pending review.", sources: [source/fihrist-ibn-al-nadim] }
-external_ids: { wikidata: "Q2804846" }
-sources: [source/fihrist-ibn-al-nadim]
+external_ids: { wikidata: "Q2804846", viaf: "3681943" }
+sources: [source/fihrist-ibn-al-nadim, source/wikidata]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

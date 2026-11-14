@@ -6,11 +6,11 @@ summary:
 wings: [people]
 gender: male
 died: { hijri: "0095", edtf: "0714~", calendar: julian, precision: year, status: debated, derived: true, note: "الشيرازي: توفي سنة خمس وتسعين (PDF ص44). الخبر المذكور في الملخص عن الطبري يقول قُتل سنة أربع وتسعين؛ الاختلاف مسجل ولم يُحسم.", sources: [source/tabaqat-fuqaha-abbas-1981, source/taqrib-al-tahdhib] }
-external_ids: { wikidata: "Q1842675" }
+external_ids: { wikidata: "Q1842675", viaf: "239252898" }
 relations:
   - { type: born_in, target: place/kufa, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q186234)" }
   - { type: died_in, target: place/wasit, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q1462261)" }
-sources: [source/tabari-tarikh-abu-al-fadl, source/muruj-al-dhahab, source/bakr-umayyad-state-1134715, source/tabaqat-fuqaha-abbas-1981, source/taqrib-al-tahdhib]
+sources: [source/tabari-tarikh-abu-al-fadl, source/muruj-al-dhahab, source/bakr-umayyad-state-1134715, source/tabaqat-fuqaha-abbas-1981, source/taqrib-al-tahdhib, source/wikidata]
 provenance: { layer: own-research, generated_by: "Claude (Haiku 5.5) from Apple Vision OCR of Tabari, batch 3", sources: [source/tabari-tarikh-abu-al-fadl] }
 importance: 2
 status: { review: draft, completeness: 3, generated_by: "body pages read; Claude (Haiku 5.5)" }

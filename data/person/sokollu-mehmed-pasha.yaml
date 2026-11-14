@@ -12,13 +12,13 @@ summary:
 wings: [people]
 periods: [period/gunpowder-empires]
 regions: [anatolia-balkans]
-external_ids: { wikidata: "Q298419" }
+external_ids: { wikidata: "Q298419", viaf: "72204812" }
 relations:
   - { type: born_in, target: place/sokolovi-i-sokolac, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q3054286)" }
   - { type: died_in, target: place/istanbul, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q406)" }
   - { type: lived_in, target: place/edirne, sources: [source/wikidata], confidence: low, note: "Wikidata P551 residence (Wikidata Q43387)" }
   - { type: lived_in, target: place/constantinople, sources: [source/wikidata], confidence: low, note: "Wikidata P551 residence (Wikidata Q16869)" }
-sources: [source/dawlat-uthmaniyya-salabi]
+sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
 provenance:
   layer: own-research
   source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 277-293"

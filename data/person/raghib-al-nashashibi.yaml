@@ -43,8 +43,8 @@ relations:
     sources: [source/wikipedia-raghib-al-nashashibi-en, source/wikipedia-raghib-al-nashashibi-ar, source/wikidata-raghib-al-nashashibi]
   - { type: died_in, target: place/jerusalem, sources: [source/wikipedia-raghib-al-nashashibi-en, source/wikidata-raghib-al-nashashibi] }
   - { type: ruler_of, target: place/jerusalem, sources: [source/wikipedia-raghib-al-nashashibi-en, source/wikipedia-raghib-al-nashashibi-ar, source/wikidata-raghib-al-nashashibi] }
-external_ids: { wikidata: "Q1362338" }
-sources: [source/wikipedia-raghib-al-nashashibi-en, source/wikipedia-raghib-al-nashashibi-ar, source/wikidata-raghib-al-nashashibi]
+external_ids: { wikidata: "Q1362338", viaf: "27871649" }
+sources: [source/wikipedia-raghib-al-nashashibi-en, source/wikipedia-raghib-al-nashashibi-ar, source/wikidata-raghib-al-nashashibi, source/wikidata]
 status: { review: published }
 provenance:
   layer: own-research

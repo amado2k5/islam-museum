@@ -41,13 +41,14 @@ faith:
     basis: unknown
     note: "No text names a school or affiliation for him personally. Wikidata gives his religion as Islam, generically: a single structured-data value naming no school (generic-only configuration). The English article's categories 'Kazakhstani Muslims' and 'Muslim socialists' are category filings; his teaching of Russian at a Muslim madrasa before the revolution is a job; his admission to the Communist Party in February 1918 is politics, which by itself does not engage the atheist bar, and no source read makes any first-person statement of unbelief for him. The value therefore stays unknown, unflagged."
     sources: [source/wikipedia-saken-seifullin-en, source/wikipedia-saken-seifullin-ru, source/wikidata-saken-seifullin]
-external_ids: { wikidata: "Q1046204" }
+external_ids: { wikidata: "Q1046204", viaf: "311574862" }
 relations:
   - { type: died_in, target: place/almaty, sources: [source/wikidata-saken-seifullin], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q35493)" }
 sources:
   - source/wikipedia-saken-seifullin-en
   - source/wikipedia-saken-seifullin-ru
   - source/wikidata-saken-seifullin
+  - source/wikidata
 status:
   review: published
 provenance:

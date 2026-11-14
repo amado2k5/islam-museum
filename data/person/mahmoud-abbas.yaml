@@ -37,12 +37,13 @@ relations:
   - { type: successor_of, target: person/yasser-arafat, sources: [source/wikipedia-mahmoud-abbas-en, source/wikipedia-yasser-arafat-en] }
 wings: [people, living]
 regions: [levant-iraq]
-external_ids: { wikidata: "Q127998" }
+external_ids: { wikidata: "Q127998", viaf: "118583035" }
 sources:
   - source/wikipedia-mahmoud-abbas-en
   - source/wikipedia-mahmoud-abbas-ar
   - source/wikipedia-mahmoud-abbas-ur
   - source/wikidata-mahmoud-abbas
+  - source/wikidata
 provenance:
   layer: own-research
   source: "Wikipedia articles on Mahmoud Abbas in English (revision 1381635696 of 23 Oct 2026), Arabic (revision 76532746 of 12 Sep 2026) and Urdu (revision 10258680 of 4 May 2026) and the Wikidata item Q127998 (item revision 2560637040 of 25 Oct 2026, read twice with identical results), each fetched by its recorded revision id via the MediaWiki API and asserted equal to it (27 October 2026). The QID was grounded through the English article's own page property (Wikidata name search returns three other men of the same name). Existence checked both directions before writing: name fragments in English, Arabic and Urdu scripts across data/person/, the QID grepped across all of data/person/, biographical comparison, and candidate records' provenance — no prior record of the man existed (the abbas-* files are classical and other modern namesakes). SUCCESSION VERIFIED against the articles before the edge was written: the successor_of edge to person/yasser-arafat is scoped to the PLO chairmanship, which Abbas took directly on Arafat's death on 11 November 2004 as the organisation's secretary-general and was confirmed in by its Central Council; for the Palestinian Authority presidency an interim holder intervened (Speaker Rawhi Fattouh acted as president under the Basic Law until Abbas's election on 9 January 2005), so no direct PA-presidency succession is asserted anywhere in the record. Neither Fatah nor the PLO has a group entity, so no member_of or founder_of edge is written, and Safed has no place entity, so no born_in edge is written."

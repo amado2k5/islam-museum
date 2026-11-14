@@ -6,23 +6,24 @@ label:
 roles: [jurist, poet, scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لعبد القادر الطبري، العالم والشاعر الحجازي، توفي سنة ١٦٢٤م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abd al-Qadir al-Tabari, the Hejazi scholar and poet, d. 1624; the biographical entry is not yet checked on the page."
+  ar: "عبد القادر بن محمد بن يحيى بن مكرم الطبري الحسيني، فاضل من علماء الحجاز ولد ومات بمكة، حسن الإنشاء وله نظم، من كتبه «عيون المسائل من أعيان الرسائل»."
+  en: "Abd al-Qadir ibn Muhammad ibn Yahya ibn Mukarram al-Tabari al-Husayni, a learned man of the Hijaz born and died in Mecca, a fine writer who also composed verse; among his books is Uyun al-Masa'il min A'yan al-Rasa'il."
 wings: [people]
 regions: [arabia]
 periods: [period/gunpowder-empires]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/alam-zirikli-1927-v2, source/wikidata]
 external_ids:
   wikidata: Q86075470
+  viaf: "90054658"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0088
+  source: "al-Zirikli, al-A'lam, vol. 2, first edition 1927 (source/alam-zirikli-1927-v2), entry read in full on the scanned pages (PDF page cited); the entry is brief, so only what it states is written"
+  generated_by: "Claude Code (Lane B2, web-source and Shamela enrichment)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 occupations:
   - job: job/faqih
     kind: secondary

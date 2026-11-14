@@ -36,7 +36,7 @@ faith:
     basis: unknown
     note: "No article read names a school for Sjahrir, and none discusses a personal religious affiliation: the English and Indonesian articles treat his socialism and humanism as political philosophy, and the Arabic and Urdu articles are silent on religion. Wikidata's religion value is a structured value (Islam in general, Q432), which never counts. His Minangkabau Muslim family background likewise never counts. Historians have debated his personal beliefs — he is often characterised as a secular-leaning socialist humanist formed in a Muslim milieu — but scholarly characterisation is not self-attestation, and under the two-source rule and the doubt rule his school stays unknown, with the debate preserved here."
     sources: [source/wikipedia-sutan-sjahrir-en, source/wikipedia-sutan-sjahrir-id, source/wikidata-sutan-sjahrir]
-external_ids: { wikidata: "Q2470857" }
+external_ids: { wikidata: "Q2470857", viaf: "59101322" }
 relations:
   - { type: born_in, target: place/padang-panjang, sources: [source/wikidata-sutan-sjahrir], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q7256)" }
   - { type: born_in, target: place/west-sumatra, sources: [source/wikidata-sutan-sjahrir], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q2772)" }
@@ -44,7 +44,7 @@ relations:
   - { type: buried_in, target: place/kalibata-heroes-cemetery, sources: [source/wikidata-sutan-sjahrir], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q6043072)" }
   - { type: buried_in, target: place/south-jakarta, sources: [source/wikidata-sutan-sjahrir], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q10114)" }
   - { type: lived_in, target: place/netherlands, sources: [source/wikidata-sutan-sjahrir], confidence: low, note: "Wikidata P937 work location (Wikidata Q55)" }
-sources: [source/wikipedia-sutan-sjahrir-en, source/wikipedia-sutan-sjahrir-ar, source/wikipedia-sutan-sjahrir-ur, source/wikipedia-sutan-sjahrir-id, source/wikidata-sutan-sjahrir]
+sources: [source/wikipedia-sutan-sjahrir-en, source/wikipedia-sutan-sjahrir-ar, source/wikipedia-sutan-sjahrir-ur, source/wikipedia-sutan-sjahrir-id, source/wikidata-sutan-sjahrir, source/wikidata]
 provenance:
   layer: own-research
   source: "English Wikipedia 'Sutan Sjahrir' (revision 1380707066 of 17 October 2026), Arabic Wikipedia «سوتان صاهرير» (revision 76474225 of 8 September 2026), Urdu Wikipedia «سوتان صاہریر» (revision 9707549 of 6 April 2026), Indonesian Wikipedia 'Sutan Sjahrir' (revision 30095828 of 22 October 2026) and Wikidata item Q2470857 (item revision 2562773033 of 30 October 2026), read via the MediaWiki and Wikidata APIs on 31 October 2026, each recorded revision id verified as the current revision before any claim was drawn, and the QID grounded through the English article's own page property, with the item's description ('Prime Minister of Indonesia (1909–1966)') matching the queue entry. Existence checked both directions before building: name fragments (Sjahrir, Syahrir) and Q2470857 grepped across all data/person files on origin/main — no hits. His partnership with Mohammad Hatta is carried in prose, not as a relation edge, per the brief. No place edges are written: Padang Panjang and Zürich have no place entities. No succession edges are written."

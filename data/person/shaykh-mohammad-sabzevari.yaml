@@ -15,9 +15,10 @@ died: { edtf: "1588", precision: year, status: tradition, derived: true }
 relations:
   - { type: born_in, target: place/sabzevar, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q765553)" }
   - { type: died_in, target: place/qazvin, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q181578)" }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q4522484
+  viaf: "96546056"
 provenance:
   layer: own-research
   source: "Wikidata candidate; entry not yet read on the page in a book source"

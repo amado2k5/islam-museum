@@ -40,12 +40,13 @@ relations:
   - { type: born_in, target: place/sousse, sources: [source/wikipedia-zine-el-abidine-ben-ali-en, source/wikipedia-zine-el-abidine-ben-ali-ar, source/wikidata-zine-el-abidine-ben-ali] }
 wings: [people]
 regions: [maghreb]
-external_ids: { wikidata: "Q204487" }
+external_ids: { wikidata: "Q204487", viaf: "4064961" }
 sources:
   - source/wikipedia-zine-el-abidine-ben-ali-en
   - source/wikipedia-zine-el-abidine-ben-ali-ar
   - source/wikipedia-zine-el-abidine-ben-ali-ur
   - source/wikidata-zine-el-abidine-ben-ali
+  - source/wikidata
 provenance:
   layer: own-research
   source: "Wikipedia articles on Zine El Abidine Ben Ali in English (revision 1380907764 of 18 Oct 2026), Arabic (revision 77077292 of 26 Oct 2026) and Urdu (revision 10236113 of 3 May 2026) and the Wikidata item Q204487 (item revision 2558287781 of 18 Oct 2026, read twice with identical results), each fetched by its recorded revision id via the MediaWiki API and asserted equal to it (27 October 2026). The QID was grounded through the articles' own page properties (all three editions agree on Q204487). Existence checked both directions before writing: name fragments in Latin and Arabic scripts across data/person/, the QID grepped across all of data/person/, biographical comparison, and candidate records' provenance — no prior record of the man existed. The successor_of edge to Habib Bourguiba is written because both the English and Arabic infoboxes name Bourguiba as his direct predecessor as president: Bourguiba was removed on 7 November 1987 and Ben Ali, his prime minister, succeeded him the same day, with no interim holder. No member_of edge is written: the museum has no group entity for the Socialist Destourian Party or the Constitutional Democratic Rally."

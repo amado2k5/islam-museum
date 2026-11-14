@@ -20,9 +20,10 @@ relations:
   - { type: allied_with, target: person/sebastian-i-portugal, sources: [source/dawlat-uthmaniyya-salabi] }
 
   - { type: lived_in, target: place/ceuta, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/dawlat-uthmaniyya-salabi] }
-sources: [source/dawlat-uthmaniyya-salabi]
+sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
 external_ids:
   wikidata: "Q1386075"
+  viaf: "160422021"
 provenance:
   layer: own-research
   source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 258-265 — draft card verified on the page"

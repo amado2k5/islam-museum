@@ -40,8 +40,8 @@ faith:
     basis: unknown
     note: "The Khan configuration: the English article's text attests the man personally as a Muslim — it says of his 1928 marriage that 'Asaf Ali was a Muslim while Aruna was a Hindu' — and the Urdu article says the same in its rendering of that account (article and translation are one source family); the Arabic article's infobox religion field is empty and its categories file him under Indian Muslims; Wikidata records his religion as Islam only. No source read names a legal school, order or branch for him. His 1914 resignation from the Privy Council over the Ottoman war and his Muslim Nationalist Party election are politics, not a school attestation. The value therefore stays unknown: a Muslim attested in text, with no school named anywhere."
     sources: [source/wikipedia-asaf-ali-en, source/wikipedia-asaf-ali-ur, source/wikipedia-asaf-ali-ar, source/wikidata-asaf-ali]
-external_ids: { wikidata: "Q684845" }
-sources: [source/wikipedia-asaf-ali-en, source/wikipedia-asaf-ali-ar, source/wikipedia-asaf-ali-ur, source/wikidata-asaf-ali]
+external_ids: { wikidata: "Q684845", viaf: "20754920" }
+sources: [source/wikipedia-asaf-ali-en, source/wikipedia-asaf-ali-ar, source/wikipedia-asaf-ali-ur, source/wikidata-asaf-ali, source/wikidata]
 provenance:
   layer: own-research
   source: "English Wikipedia 'Asaf Ali' (revision 1377833104), Arabic Wikipedia 'آصف علي (سياسي)' (revision 71702006), Urdu Wikipedia 'عساف علی' (revision 12104575) and Wikidata item Q684845 (item revision 2553860793), read via the MediaWiki API on 26 October 2026; every article was fetched by its recorded revision id and the returned id asserted equal before any claim was drawn. Existence was checked by filename fragments under all spellings (asaf, asif, assaf), by Arabic label, by biography and by the QID route across data/person/ — the only earlier Asaf records are the biblical Asaf ibn Barkhiya and the Nizam Asaf Jah I, different men. No place entities exist for Seohara, Bijnor or Bern, so no place edges are written; his wife Aruna's record is built in this same batch and the marriage edge is written once, here."

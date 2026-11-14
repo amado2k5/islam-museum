@@ -46,8 +46,8 @@ faith:
 relations:
   - { type: member_of, target: group/naqshbandiyya, sources: [source/wikipedia-muhammad-shafee-okarvi-ur] }
   - { type: buried_in, target: place/karachi, sources: [source/wikidata], confidence: low, note: "Buried at Karachi per the record text." }
-external_ids: { wikidata: "Q4116376" }
-sources: [source/wikipedia-muhammad-shafee-okarvi-en, source/wikipedia-muhammad-shafee-okarvi-ur, source/wikipedia-muhammad-shafee-okarvi-ar, source/wikidata-muhammad-shafee-okarvi]
+external_ids: { wikidata: "Q4116376", viaf: "60408033" }
+sources: [source/wikipedia-muhammad-shafee-okarvi-en, source/wikipedia-muhammad-shafee-okarvi-ur, source/wikipedia-muhammad-shafee-okarvi-ar, source/wikidata-muhammad-shafee-okarvi, source/wikidata]
 provenance:
   layer: own-research
   source: "English Wikipedia 'Shafee Okarvi' (revision 1378880993), Urdu Wikipedia 'محمد شفیع اوکاڑوی' (revision 9375330) and Arabic Wikipedia 'محمد شفيع أوكاروي' (revision 71707653), each fetched by its recorded revision id with the returned id asserted equal before use, and Wikidata item Q4116376 (item revision 2518987803). The Urdu and Arabic articles are independently written compositions with their own sources. Existence checks by name fragments (okarvi, اوکاڑوی, أوكاروي), by Arabic label across data/person, by biography and by QID found no prior record for this man. The member_of edge to group/naqshbandiyya is written once, here, from the Urdu text's statement of his murshid's line; no group entity exists for Jamaat Ahle Sunnat, so his founding of it is stated in prose only, and no person record exists for his murshid Mian Ghulamullah Sharqpuri or his teacher Pir Muhammad Inayat Ahmad Naqshbandi, so no student_of edge is written. Khem Karan and Karachi have no place entities. The lane queue gives 1929–1984; the birth year is corrected to 1930 on the English and Arabic articles and Wikidata against the Urdu article's internally inconsistent 1929, as the born note records."

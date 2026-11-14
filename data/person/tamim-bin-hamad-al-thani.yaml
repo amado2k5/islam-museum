@@ -32,12 +32,13 @@ relations:
   - { type: lived_in, target: place/buhran, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/wikipedia-tamim-bin-hamad-al-thani-en, source/wikipedia-tamim-bin-hamad-al-thani-ar, source/wikipedia-tamim-bin-hamad-al-thani-ur, source/wikidata-tamim-bin-hamad-al-thani] }
 wings: [people, living]
 regions: [arabia]
-external_ids: { wikidata: "Q1855372" }
+external_ids: { wikidata: "Q1855372", viaf: "3099150869799222190003" }
 sources:
   - source/wikipedia-tamim-bin-hamad-al-thani-en
   - source/wikipedia-tamim-bin-hamad-al-thani-ar
   - source/wikipedia-tamim-bin-hamad-al-thani-ur
   - source/wikidata-tamim-bin-hamad-al-thani
+  - source/wikidata
 provenance:
   layer: own-research
   source: "Wikipedia articles on Tamim bin Hamad Al Thani in English (revision 1381053847 of 19 Oct 2026), Arabic (revision 75879131 of 12 Jul 2026) and Urdu (revision 10118420 of 27 Apr 2026) and the Wikidata item Q1855372 (item revision 2559720679 of 22 Oct 2026, read twice with identical results), each fetched by its recorded revision id via the MediaWiki API and asserted equal to it (27 October 2026). Existence checked both directions before writing: name fragments in English, Arabic and Urdu scripts across data/person/, the QID grepped across all of data/person/, biographical comparison, and record provenances — no prior record of the man existed. SUCCESSION VERIFIED against the articles before the edge was written, as the run brief required: the English infobox names his predecessor as Hamad bin Khalifa and its text states the father handed over power in a televised speech on 25 June 2013; the Arabic infobox names the same predecessor (سبقه); he was the first Al Thani ruler to accede by abdication rather than coup, and no interim holder intervened — so the successor_of edge to person/hamad-bin-khalifa-al-thani (built in this same run) is direct, and the child_of edge rests on the same articles and the Wikidata father claim."

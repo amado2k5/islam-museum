@@ -25,7 +25,7 @@ died:
   status: historical
   derived: false
   note: "EI gives 1 Rabi I 300/16 October 912."
-sources: [source/encyclopaedia-of-islam-2, source/nafh-tib-maqqari]
+sources: [source/encyclopaedia-of-islam-2, source/nafh-tib-maqqari, source/wikidata]
 provenance:
   layer: own-research
   source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, PDF pp. 68; read from Apple Vision OCR"
@@ -35,7 +35,7 @@ status: { review: published, generated_by: "Claude Code (claude-haiku-5-5)" }
 relations:
   - { type: lived_in, target: place/damascus, note: "Court/dynasty seat inferred from dynastic affiliation in record; flagged for review.", sources: [source/encyclopaedia-of-islam-2], confidence: low }
   - {sources: [source/nafh-tib-maqqari], target: place/cordoba, type: ruled_over}
-external_ids: {wikidata: Q307680}
+external_ids: {wikidata: Q307680, viaf: "288731044" }
 names:
   - {kind: alternate, value: عبد الله بن محمد الأموي}
   - {kind: alternate, value: Abdallah ibn Muhammad al-Umawi}

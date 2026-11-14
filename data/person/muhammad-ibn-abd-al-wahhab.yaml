@@ -22,9 +22,11 @@ periods: [period/gunpowder-empires]
 relations:
   - { type: born_in, target: place/uyayna, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q4166503)" }
   - { type: died_in, target: place/diriyah, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q277505)" }
-sources: [source/kitab-al-tawhid-ibn-abd-al-wahhab-imam-university, source/duha-islam, source/tarikh-islam-hasan-ibrahim]
+sources: [source/kitab-al-tawhid-ibn-abd-al-wahhab-imam-university, source/duha-islam, source/tarikh-islam-hasan-ibrahim, source/openiti-corpus, source/wikidata]
 external_ids:
   wikidata: Q69351
+  openiti: "1206IbnCabdWahhab"
+  viaf: "88344566"
 provenance:
   layer: own-research
   source: "Kitab al-Tawhid, Imam Muhammad ibn Saud Islamic University edition: title page and foreword (printed pp. 5–6); first card from Wikidata Q69351 with Duha al-Islam and Tarikh al-Islam (Hasan Ibrahim) as book sources, not yet read on the page"

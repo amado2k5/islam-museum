@@ -40,8 +40,8 @@ faith:
 relations:
   - { type: child_of, target: person/hazrat-inayat-khan, sources: [source/wikipedia-noor-inayat-khan-en, source/wikipedia-noor-inayat-khan-ar, source/wikidata-noor-inayat-khan] }
   - { type: born_in, target: place/moscow, sources: [source/wikidata-noor-inayat-khan], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q649)" }
-external_ids: { wikidata: "Q464957" }
-sources: [source/wikipedia-noor-inayat-khan-en, source/wikipedia-noor-inayat-khan-ar, source/wikipedia-noor-inayat-khan-ur, source/wikidata-noor-inayat-khan]
+external_ids: { wikidata: "Q464957", viaf: "4952882" }
+sources: [source/wikipedia-noor-inayat-khan-en, source/wikipedia-noor-inayat-khan-ar, source/wikipedia-noor-inayat-khan-ur, source/wikidata-noor-inayat-khan, source/wikidata]
 provenance:
   layer: own-research
   source: "English, Arabic and Urdu Wikipedia articles on Noor Inayat Khan, each fetched by its recorded revision id (EN 1382074574, AR 75475651, UR 11800229) with the returned id asserted equal before use, and Wikidata item Q464957 (revision 2557302300). Existence checks by name fragments (Noor Inayat Khan, نور النساء, نور عنایت) and by QID across data/person and data/source found no prior record. She is a daughter of Hazrat Inayat Khan, built in this same wave; the child_of edge is written here, in the child's record, once. The lane queue gives 1914–1944; the sources agree."

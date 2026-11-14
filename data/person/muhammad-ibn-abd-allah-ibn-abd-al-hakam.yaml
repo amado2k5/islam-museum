@@ -14,8 +14,8 @@ relations:
   - { type: student_of, target: person/al-shafii, role: "صحب الشافعي وتفقه به (PDF ص52)", sources: [source/tabaqat-fuqaha-abbas-1981] }
 
   - { type: lived_in, target: place/misr, confidence: low, note: "Association inferred from the nisba 'المصري'; specific birthplace or residence is not individually documented.", sources: [source/tabaqat-fuqaha-abbas-1981] }
-external_ids: { wikidata: "Q22689691" }
-sources: [source/tabaqat-fuqaha-abbas-1981]
+external_ids: { wikidata: "Q22689691", viaf: "100626013" }
+sources: [source/tabaqat-fuqaha-abbas-1981, source/wikidata]
 provenance:
   layer: "own-research"
   source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص48–53"

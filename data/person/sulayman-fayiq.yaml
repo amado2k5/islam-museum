@@ -13,9 +13,10 @@ regions: [levant-iraq]
 periods: [period/colonial-era]
 relations:
   - { type: born_in, target: place/baghdad, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1530)" }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q12216721
+  viaf: "24150083645814940085"
 provenance:
   layer: own-research
   source: "Wikidata candidate; entry not yet read on the page in a book source"

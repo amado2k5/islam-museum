@@ -17,8 +17,8 @@ provenance:
   source: "كشف الظنون عن أسامي الكتب والفنون (ط. الفرقان 2004) ج1"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-kashf-zunun-batch-9
-external_ids: { wikidata: "Q320324" }
-sources: [source/kashf-zunun-furqan]
+external_ids: { wikidata: "Q320324", viaf: "42230786" }
+sources: [source/kashf-zunun-furqan, source/wikidata]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
 relations:
   - { type: lived_in, target: place/iran, note: "Only the record-level region (persia-central-asia) is attested; broad-region edge flagged for review.", sources: [source/kashf-zunun-furqan], confidence: low }

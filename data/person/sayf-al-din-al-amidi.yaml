@@ -15,8 +15,8 @@ periods: [period/crusades-ayyubid-mamluk]
 regions: [levant-iraq, anatolia-balkans, egypt-nile]
 relations:
   - { type: died_in, target: place/damascus, sources: [source/shadharat-dhahab] }
-external_ids: { wikidata: "Q292484" }
-sources: [source/shadharat-dhahab, source/encyclopaedia-of-islam-2]
+external_ids: { wikidata: "Q292484", openiti: "0631SayfDinAmidi", viaf: "90055036" }
+sources: [source/shadharat-dhahab, source/encyclopaedia-of-islam-2, source/openiti-corpus, source/wikidata]
 status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 High); EI2 account added in ei2-b010 part 3ed" }
 provenance:
   layer: own-research

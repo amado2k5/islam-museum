@@ -15,9 +15,10 @@ died: { edtf: "1899", precision: year, status: tradition, derived: true }
 relations:
   - { type: born_in, target: place/bijar, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/tabriz, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q1588075
+  viaf: "311218465"
 provenance:
   layer: own-research
   source: "Wikidata candidate; entry not yet read on the page in a book source"

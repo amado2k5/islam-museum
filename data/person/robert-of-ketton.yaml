@@ -21,9 +21,10 @@ periods: [period/crusades-ayyubid-mamluk]
 died: { edtf: "1160", precision: year, status: tradition, derived: true }
 relations:
   - { type: died_in, target: place/pamplona, sources: [source/nallino-albatenii-opus-astronomicum] }
-sources: [source/nallino-albatenii-opus-astronomicum, source/al-aalam, source/al-istishraq-wal-khalfiyya-azhar]
+sources: [source/nallino-albatenii-opus-astronomicum, source/al-aalam, source/al-istishraq-wal-khalfiyya-azhar, source/wikidata]
 external_ids:
   wikidata: Q332780
+  viaf: "32794419"
 provenance:
   layer: own-research
   source: "source/nallino-albatenii-opus-astronomicum Latin preface scan pp. 43, 58–59; earlier card from a Wikidata candidate"

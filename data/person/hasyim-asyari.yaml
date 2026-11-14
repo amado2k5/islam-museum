@@ -18,9 +18,10 @@ died: { edtf: "1947", precision: year, status: tradition, derived: true, sources
 relations:
   - { type: born_in, target: place/demak, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hasyim-asyari] }
   - { type: born_in, target: place/java, sources: [source/wikipedia-hasyim-asyari-en] }
-sources: [source/tarikh-islam-hasan-ibrahim, source/wikipedia-hasyim-asyari-en, source/wikipedia-hasyim-asyari-ar, source/wikidata-hasyim-asyari]
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikipedia-hasyim-asyari-en, source/wikipedia-hasyim-asyari-ar, source/wikidata-hasyim-asyari, source/wikidata]
 external_ids:
   wikidata: Q4202200
+  viaf: "1326866"
 provenance:
   layer: own-research
   source: "Hasan Ibrahim Hasan, Tarikh al-Islam (book source of the original card) + English and Arabic Wikipedia, Wikidata Q4202200, checked 24 October 2026"

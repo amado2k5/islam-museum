@@ -32,11 +32,12 @@ relations:
   - { type: successor_of, target: person/ahmed-asmat-abdel-meguid, sources: [source/wikipedia-amr-moussa-en] }
 wings: [people, living]
 regions: [egypt-nile]
-external_ids: { wikidata: "Q381113" }
+external_ids: { wikidata: "Q381113", viaf: "75640766" }
 sources:
   - source/wikipedia-amr-moussa-en
   - source/wikipedia-amr-moussa-ar
   - source/wikidata-amr-moussa
+  - source/wikidata
 provenance:
   layer: own-research
   source: "Wikipedia articles on Amr Moussa in English (revision 1378199939 of 3 Oct 2026) and Arabic (revision 76940225 of 10 Oct 2026) and the Wikidata item Q381113 (item revision 2558905649 of 19 Oct 2026, read twice with identical results), each fetched by its recorded revision id via the MediaWiki API and asserted equal to it (27 October 2026). The QID was grounded through the articles' own page properties (both agree on Q381113). Existence checked both directions before writing: name fragments in Latin and Arabic scripts across data/person/ (the Moussa hits are other men — Salama Moussa, Moussa Traoré), the QID grepped across all of data/person/, biographical comparison, and candidate records' provenance — no prior record of the man existed. No Urdu Wikipedia article exists for him (the Wikidata item carries no Urdu sitelink); the Urdu prose is written from the English and Arabic articles and says so. The successor_of edge rests on the English article's infobox, which names Ahmed Abdel-Meguid as his predecessor in both offices he held after him — foreign minister (from 20 May 1991) and Secretary-General of the Arab League (from 1 June 2001) — a direct sequence in the articles for both. The museum has no group entity for the Arab League or the United Nations, so no member_of edge is written."

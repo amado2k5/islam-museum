@@ -22,9 +22,11 @@ relations:
   - { type: lived_in, target: place/khurasan, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/al-aalam] }
   - { type: authored, target: work/tajarib-al-umam, sources: [source/tajarib-al-umam-surush-v1] }
   - { type: participated_in, target: event/khurasani-ghazis-at-rayy-355, sources: [source/tajarib-al-umam-surush-v6] }
-sources: [source/al-aalam, source/tajarib-al-umam-surush-v1, source/tajarib-al-umam-surush-v6]
+sources: [source/al-aalam, source/tajarib-al-umam-surush-v1, source/tajarib-al-umam-surush-v6, source/openiti-corpus, source/wikidata]
 external_ids:
   wikidata: Q481384
+  openiti: "0421Miskawayh"
+  viaf: "78772272"
 provenance:
   layer: own-research
   source: "Wikidata Q481384; source/tajarib-al-umam-surush-v1 pp. 7, 11-12, 15, 19-20, 32, 34; source/tajarib-al-umam-surush-v6 pp. 262-264, 315"

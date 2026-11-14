@@ -16,9 +16,10 @@ died: { edtf: "1989", precision: year, status: tradition, derived: true }
 relations:
   - { type: born_in, target: place/nowshera-district, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1585944)" }
   - { type: died_in, target: place/peshawar, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q1113311)" }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q67490348
+  viaf: "402150323900509972135"
 provenance:
   layer: own-research
   source: "Wikidata candidate; entry not yet read on the page in a book source"

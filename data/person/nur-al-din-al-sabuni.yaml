@@ -14,9 +14,10 @@ periods: [period/buyid-seljuk-fatimid-era]
 died: { edtf: "1184", precision: year, status: tradition, derived: true }
 relations:
   - { type: born_in, target: place/bukhara, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q5764)" }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q25451999
+  viaf: "95676099"
 provenance:
   layer: own-research
   source: "Wikidata candidate; entry not yet read on the page in a book source"
