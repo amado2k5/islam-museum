@@ -980,6 +980,9 @@ Nothing is registered this turn. Each registration needs the three-part commit i
 - Wrote ar, en, ur prose for 10 places: aksaray-q182025, sk-dar, dallas, erbil, sufetula, malayer, firuzabad, honolulu, larissa, acropolis-of-athens. Sources read 14 Nov 2026: Pleiades JSON (4), iDAI.gazetteer JSON (7), Yaqut Mu'jam al-buldan vols 1-2 scan pp. 176-178 (Erbil only; cited as scan p.176 and p.177).
 - Yaqut searched for the other nine names (Arabic spellings and variants) with no entry found in vols 1-2; those pages say so and rest on the gazetteers. Nothing skipped. Firuzabad overview reuses the existing Encyclopaedia of Islam 2 citation from its data card.
 - iDAI.gazetteer needs the header Accept: application/json on /place/<id>; the .json suffix returns 404.
+## 2026-11-14 (Lane B1 place prose, packet 2)
+
+Wrote ar, en and ur prose for vila, th-nia, el-mahalla-el-kubra, ioannina, kirkuk, beaufort-castle, yerevan, plo-nik, dhi-as-sufal, tartus from Pleiades (page JSON, accessed 14 Nov 2026) and iDAI.gazetteer (accessed 14 Nov 2026). Yaqut vols 1-2 OCR searched: no entries for any of the ten (the OCR reaches only to about the letter thaa/dhal), so `source/mujam-al-buldan-yaqut` was not added. Skipped: none.
 ## 2026-11-14 (Lane B2 packet pktc) — Siyar entries, six persons
 
 - Written (ar, en, ur, draft; source al-Dhahabi, Siyar A'lam al-Nubala, ideas-house edition): hisham-ibn-amr-al-fuwati (pp. 4094-4095, Mu'tazili, labelled first), amir-ibn-abd-allah-ibn-al-zubayr (pp. 2111-2112, page re-read; entry follows the end of Abu Ubayda's entry), ashab-ibn-jubayr (pp. 1138-1139), ahmad-ibn-al-hasan-ibn-kharrash (pp. 752-753), abu-al-hasan-al-bahili (p. 1397, Ash'ari), muhammad-ibn-sad-ibn-abi-waqqas (pp. 3436-3437).

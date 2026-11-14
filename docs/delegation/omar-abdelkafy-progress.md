@@ -3543,6 +3543,16 @@ Resume point: sharh-saheeh-al-bukhare episode 6 (branch from origin/main).
 
 Resume point: sharh-saheeh-al-bukhare episode 7 (branch from origin/main).
 
+### alwaad-alhaq ep11 (14 Nov 2026)
+
+18 points written for episode 11 (ar, en, ur); 12 needs_source marks for this episode in each language file; dates, counts and unchained reports are marked needs_source. Quran verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
+
+| Excluded (alwaad-alhaq ep11) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Sheikh's date for Dhu al-Qarnayn and verse and percentage counts | ep11 00:48:30 | his own unsupported figures, kept only as marked claims | needs_source | Open |
+| Speculation on weapons of the Dajjal's followers | ep11 00:33:00 | speculation, kept as his guess | sensitivity | Open |
+
+Resume point: alwaad-alhaq episode 12 (branch from origin/main).
 ### sharh-saheeh-al-bukhare ep07 (14 Nov 2026)
 
 24 points written for episode 7 (ar, en, ur); 13 needs_source marks in each language file for this episode; 5 new `about` edges. No Quran verses linked; none typed. Contested: His conditions for lawful singing (no instruments, words that call only to virtue) and his view that groups should not be set against one another are attributed to him; the singing ruling is contested among scholars. Checked line by line against the transcript by a second reader before merge.
@@ -3564,3 +3574,30 @@ Resume point: sharh-saheeh-al-bukhare episode 7 (branch from origin/main).
 | Questions on a girl's veil and on trading in a forbidden product, closing salutations | ep07 01:17:30-01:20:00 | Questions garbled, product name unreliable, answers not recoverable | Clarity | Open |
 
 Resume point: sharh-saheeh-al-bukhare episode 8 (branch from origin/main).
+
+### sharh-saheeh-al-bukhare ep08 (14 Nov 2026)
+
+25 points written for episode 8 (ar, en, ur); 20 needs_source marks in each language file for this episode; 11 new `about` edges. Quran verses referenced only through passage links (6-28, 5-67); none typed. Contested: His own views and rulings are marked as his: the enemies of the believer, trials as a sign of God's care, desire and the devil as obstacles, his advice to the pilgrims on the sacrifice and his words on the two drowned children; the narrator of the sweetness-of-faith hadith is not clearly named in the transcript, so none is given. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep08) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening praise, prayers and greetings | ep08 00:00:00-00:02:30 | Greetings and opening prayer, also a loop at the start | Clarity, Loop check | Open |
+| Closing prayer, greetings and sign-off | ep08 01:19:00-01:19:30, 01:22:30-01:22:30 | Closing prayer, greeting and sign-off | Content rule | Open |
+| Child Muhammad at Abu Talib's table and nearby stretch | ep08 00:06:30-00:09:00 | Too garbled to recover, loop at 00:08:30 | Clarity, Loop check | Open |
+| Eating-habit lists and a count of manners | ep08 00:10:00-00:11:00 | Garbled, no clear claim | Clarity | Open |
+| Tail of the moon story and praise of the Prophet's palm | ep08 00:15:00-00:16:00 | Garbled, speaker and point unclear | Clarity | Open |
+| Analogies on play, a worker and faith | ep08 00:16:30-00:19:00 | Garbled | Clarity | Open |
+| Loops and unreadable lines | ep08 00:06:00, 00:14:00, 00:21:30-00:23:30, 00:31:30, 00:40:00, 00:43:00, 00:46:30, 00:49:30, 00:52:30, 00:57:00-00:58:30, 01:07:30, 01:10:30, 01:13:00-01:15:00 | Repeating tokens or unreadable text | Clarity, Loop check | Open |
+| Claim that the believer's enemies are named modern states | ep08 00:29:30 | Sweeping claim about modern conflict | Content rule, Voice rule | Open |
+| Rebuke of a ruler of Egypt | ep08 00:40:30-00:41:30 | Speaker unclear, story not recoverable | Clarity | Open |
+| Umar's age and rank, other names, the verse recited | ep08 00:33:30-00:37:00 | Numbers and names garbled | Clarity | Open |
+| Reference to a Shia imam | ep08 00:42:30-00:43:00 | Garbled, no clear claim | Clarity, Voice rule | Open |
+| Backbiting versus frank correction and kinship passages | ep08 00:44:00-00:47:30 | Garbled | Clarity | Open |
+| Elephant, Persian war and sheep stories | ep08 00:52:30-00:58:00 | Garbled, unclear point | Clarity | Open |
+| Invocations, stone-throwing, martyr anecdotes and claims about peoples and a modern conflict | ep08 00:59:00-01:04:00 | Modern conflict, sweeping claims about peoples, unsourced anecdotes | Content rule, Voice rule | Open |
+| Magic, charms and snake-hole passage | ep08 01:06:00-01:09:00 | Garbled | Clarity | Open |
+| Iblis's troops and the scholar versus seventy worshippers | ep08 01:11:00-01:13:30 | Garbled, numbers not recoverable | Clarity | Open |
+| Advice on prayer, spouses and screens beyond the one point kept | ep08 01:13:30-01:15:30, 01:18:00-01:19:00 | Garbled, remarks on spouses not suitable as stated | Clarity, Voice rule | Open |
+| Palm-yield claim, small mouthfuls, wood-gathering detail, remark on refusing a word by its speaker, blessing of the house, dawn-prayer specific, other children of Muslims | ep08 00:05:30, 00:12:30, 00:47:30, 00:54:30, 01:09:30, 00:55:30, 01:22:00 | Not clearly supported by the garbled transcript | Clarity | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 9 (branch from origin/main).
