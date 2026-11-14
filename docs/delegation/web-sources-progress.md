@@ -1057,3 +1057,6 @@ Wrote ar, en and ur prose for vila, th-nia, el-mahalla-el-kubra, ioannina, kirku
 ## 2026-11-14 (Lane B1 packet 14) - place prose, ten places
 
 - Written (ar, en, ur, draft): d-zce, suru, skopje, anakkale, brest, tudela, varna, brooklyn (iDAI.gazetteer JSON, accessed 14 Nov 2026), mystras and tyre (Pleiades JSON, accessed 14 Nov 2026). Skipped: none. No Yaqut entry used: Tudela appears only in passing in vols 1-2 (no own entry), Tyre (sad) falls in vol. 3, the rest are absent; no page invented.
+## 2026-11-14 (Lane B1 packet 13) - place prose, ten places
+
+- Written (ar, en, ur, draft): yozgat, i-znik, tulkarm, khoy, t-touan, kolkata, idlib, tokat, manisa, tomislavgrad (iDAI.gazetteer via gazetteer.dainst.org/doc/<id>.json, read 14 Nov 2026; the /place/<id> URL with Accept: application/json returns a 303 redirect, so curl needs the doc form). No Yaqut entry found in vols 1-2 (OCR searched by Arabic name); no Yaqut source added. Skipped: none. Note: idlib data file has GeoNames 169388, iDAI links 169389; the prose states iDAI's number and the data file is unchanged.
