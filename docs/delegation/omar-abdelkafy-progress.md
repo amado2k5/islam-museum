@@ -3814,3 +3814,18 @@ Resume point: sharh-saheeh-al-bukhare episode 13 (branch from origin/main).
 | Throne-bearers' two praise formulas and the "shy" middle person in the three-people report | ep13 00:55:30-00:56:00, 01:17:00-01:17:30 | Garbled; wording not recoverable from the transcript | Clarity | Open |
 
 Resume point: sharh-saheeh-al-bukhare episode 14 (branch from origin/main).
+
+### alwaad-alhaq ep15 (14 Nov 2026)
+
+15 points written for episode 15 (ar, en, ur); 17 needs_source marks for this episode in each language file; persons and events linked to existing records, with the unnamed or unstable names (al-Thawri, Hanzala, the student of al-Shafi'i) left unlinked. Quran verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
+
+| Excluded (alwaad-alhaq ep15) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Passage on Abu Jahl and the nineteen guardians of the Fire | ep15 00:07:30-00:08:30 | speech too garbled by the transcription engine to restate faithfully | accuracy | Open |
+| Looping or garbled stretches | ep15 00:12:30-00:15:30, 00:34:00-00:35:00, 00:41:30-00:42:00, 00:44:00-00:44:30, 00:51:30, 00:52:30 | machine transcript loops and cannot be restated; details of the oven and jaw scenes taken from the clear surrounding text | accuracy | Open |
+| Identity of the fourth grave question | ep15 00:07:30 | the sheikh says four questions but names three; the fourth is not stated | accuracy | Open |
+| Identity of al-Thawri, Hanzala and al-Shafi'i's student | ep15 00:17:30-00:26:30 | names unstable or without lineage in the machine transcript; left unlinked pending the founder | accuracy | Open |
+| Circumstances of the death of Sa'id ibn Zayd in the sheikh's account | ep15 00:21:00-00:24:30 | the account places a death in battle; proposed for checking against held biographical sources | accuracy | Open |
+| Answer on Muslims who died without repenting | ep15 00:46:30 | speech garbled; only the clear parts (the declaration of faith fulfilled with its due) recorded | accuracy | Open |
+
+Resume point: alwaad-alhaq episode 16 (branch from origin/main).
