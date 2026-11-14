@@ -3853,3 +3853,22 @@ Resume point: sharh-saheeh-al-bukhare episode 15 (branch from origin/main).
 | Stretch about a Gulf or Arab league meeting and the leaders there | ep17 01:01:30-01:02:30 | Garbled and sweeping | Clarity | Open |
 
 Resume point: sharh-saheeh-al-bukhare episode 18 (branch from origin/main).
+
+### sharh-saheeh-al-bukhare ep18 (14 Nov 2026)
+
+27 points written for episode 18 (ar, en, ur); 23 needs_source marks in each language file for this episode; 11 new `about` edges. Quran verses referenced only through passage links (22-27, 12-70, 12-75, 35-32, 13-6, 23-60, 18-60, 18-61, 3-41, 19-10, 2-31, 18-65, 18-68, 18-69, 18-72, 59-21); none typed. Contested: He attributes to Ibn al-Qayyim the point on the closing of the door of success, relates end-time narrations, the Hijra cave account, and reports of Jesus, Dawud, al-Shafii and Malik without chain, gives a list of six reasons and four kinds of knowledge as his own scheme, and holds that finishing the Qur'an once a month is the minimum; all are marked as his. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep18) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greeting, praise and prayer on the Prophet | ep18 00:00:00-00:00:30 | Greeting and opening prayer | Content rule | Open |
+| Closing supplication, announcement of the next session and call to prayer | ep18 01:17:30-01:18:30 | Closing and housekeeping | Content rule | Open |
+| Looping and garbled stretches (repeated syllables and phrases) | ep18 00:07:00-00:08:30, 00:15:00, 00:22:00, 00:25:30, 00:58:00-00:58:30, 00:59:00-00:59:30, 01:07:30-01:08:00, 01:14:00-01:14:30, 01:15:00 | Loop and garbling, nothing recoverable | Clarity, Loop check | Open |
+| Story of a sick man who dreamed of the Prophet and was told a remedy | ep18 00:10:00-00:11:30 | Garbled and unreferenced | Clarity, Loop check | Open |
+| Further remarks on Joseph, his brothers and his lodging of the poor | ep18 00:12:30-00:14:30 | Garbled | Clarity | Open |
+| Report about Abu al-Darda and sleeping in ablution, and the angels' supplication detail | ep18 00:21:30-00:22:30 | Garbled | Clarity | Open |
+| Tale of a prayer for Abu Bakr's companion and a report about a worshipper before dawn | ep18 00:29:30-00:31:30 | Garbled | Clarity | Open |
+| Reported saying that most followers of the false Messiah are of certain groups including women, with remarks on fashion | ep18 00:39:30-00:40:30 | Sweeping claims about women and groups | Voice rule | Open |
+| Anecdote on greed and business dealings, with figures | ep18 01:05:30-01:06:30 | Sweeping generalisation, unreferenced figures | Voice rule | Open |
+| Remarks that the environment shapes people, with a comparison naming a modern politician, and sweeping claims about Muslims' ignorance | ep18 01:14:30-01:16:00 | Sweeping claims, garbled | Voice rule | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 19 (branch from origin/main).
