@@ -870,6 +870,2296 @@ books:
     - year
     notes: 'needs OCR zip (ocr_archive none); ocr_pages 2409 of 2644 pages (pages without text may be blank); other source ids: zuhd-ibn-mubarak-farid-1995-v1, zuhd-ibn-mubarak-murshid-2022-v2, zuhd-ibn-mubarak-shamela'
   # END books:adab-zuhd
+  # BEGIN books:al-azhar-magmaa
+  - id: azhar-001
+    title: 14هداية الملة الحنفية إلى الآداب الزوجية
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: 14هداية الملة الحنفية إلى الآداب الزوجية.pdf, bytes: 4043155, pages: 120, sha256: d8c90fd4e079c155cb75ae72d522acf88948a9d7b10f2be2de7c62ad6f91ef10}
+    acquisition: {file_name: 14هداية الملة الحنفية إلى الآداب الزوجية.pdf, bytes: 4043155, sha256: d8c90fd4e079c155cb75ae72d522acf88948a9d7b10f2be2de7c62ad6f91ef10, sha256_status: computed}
+    physical: {pages: 120}
+    ocr: {state: complete, failed_pages: 120, unzipped_location: ocr/al-azhar-magmaa/14هداية الملة الحنفية إلى الآداب الزوجية.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-002
+    title: أبجدية التصوف الإسلامي
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: أبجدية التصوف الإسلامي.pdf, bytes: 7406008, pages: 319, sha256: d011b344cbf438f43f98f3275eb03c8a84f2cd134398f7e35db94721db50659b}
+    acquisition: {file_name: أبجدية التصوف الإسلامي.pdf, bytes: 7406008, sha256: d011b344cbf438f43f98f3275eb03c8a84f2cd134398f7e35db94721db50659b, sha256_status: computed}
+    physical: {pages: 319}
+    ocr: {state: complete, failed_pages: 319, unzipped_location: ocr/al-azhar-magmaa/أبجدية التصوف الإسلامي.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-003
+    title: أحسن الكلام فيما يتعلق بالسنة والبدعة
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: أحسن الكلام فيما يتعلق بالسنة والبدعة.pdf, bytes: 3481043, pages: 150, sha256: a8952be47a111cbcbe3f9d395fc515dfe1349aa8becf8216f67f80664ab82cb7}
+    acquisition: {file_name: أحسن الكلام فيما يتعلق بالسنة والبدعة.pdf, bytes: 3481043, sha256: a8952be47a111cbcbe3f9d395fc515dfe1349aa8becf8216f67f80664ab82cb7, sha256_status: computed}
+    physical: {pages: 150}
+    ocr: {state: complete, failed_pages: 150, unzipped_location: ocr/al-azhar-magmaa/أحسن الكلام فيما يتعلق بالسنة والبدعة.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-004
+    title: أصول التربية والتعليم في القرآن الكريم والسنة النبوية
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: أصول التربية والتعليم في القرآن الكريم والسنة النبوية.pdf, bytes: 8972219, pages: 224, sha256: 8434c367c03eb7a70c9922556d96c68655f82906c8aa512f5ea9cda062769a6e}
+    acquisition: {file_name: أصول التربية والتعليم في القرآن الكريم والسنة النبوية.pdf, bytes: 8972219, sha256: 8434c367c03eb7a70c9922556d96c68655f82906c8aa512f5ea9cda062769a6e, sha256_status: computed}
+    physical: {pages: 224}
+    ocr: {state: complete, failed_pages: 224, unzipped_location: ocr/al-azhar-magmaa/أصول التربية والتعليم في القرآن الكريم والسنة النبوية.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-005
+    title: أصول الفقه طه الدسوقي
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: أصول الفقه طه الدسوقي.pdf, bytes: 20585770, pages: 431, sha256: e8c024001a699ecde2a35da76639e66ae065ecb335540920de1192d1a2e6d21e}
+    acquisition: {file_name: أصول الفقه طه الدسوقي.pdf, bytes: 20585770, sha256: e8c024001a699ecde2a35da76639e66ae065ecb335540920de1192d1a2e6d21e, sha256_status: computed}
+    physical: {pages: 431}
+    ocr: {state: complete, failed_pages: 431, unzipped_location: ocr/al-azhar-magmaa/أصول الفقه طه الدسوقي.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-006
+    title: أهل القبلة كلهم موحدون
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: أهل القبلة كلهم موحدون.pdf, bytes: 9854112, pages: 144, sha256: 5d03dac5a454741a4cc6501d5f3f0c6d4ce5923815eacbb3fd522edd49a514ea}
+    acquisition: {file_name: أهل القبلة كلهم موحدون.pdf, bytes: 9854112, sha256: 5d03dac5a454741a4cc6501d5f3f0c6d4ce5923815eacbb3fd522edd49a514ea, sha256_status: computed}
+    physical: {pages: 144}
+    ocr: {state: complete, failed_pages: 144, unzipped_location: ocr/al-azhar-magmaa/أهل القبلة كلهم موحدون.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-007
+    title: إبراء الذمة بتحقيق القول حول افتراق الأمة
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: إبراء الذمة بتحقيق القول حول افتراق الأمة.pdf, bytes: 9952879, pages: 311, sha256: df56d6737dc046f7a3eaf503fb7beb471cb413c1629d894435660b7d6206eb24}
+    acquisition: {file_name: إبراء الذمة بتحقيق القول حول افتراق الأمة.pdf, bytes: 9952879, sha256: df56d6737dc046f7a3eaf503fb7beb471cb413c1629d894435660b7d6206eb24, sha256_status: computed}
+    physical: {pages: 311}
+    ocr: {state: complete, failed_pages: 311, unzipped_location: ocr/al-azhar-magmaa/إبراء الذمة بتحقيق القول حول افتراق الأمة.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-008
+    title: إثبات صفة الكلام لصحصاح،
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: إثبات صفة الكلام لصحصاح،.pdf, bytes: 3399707, pages: 119, sha256: 45533e13b625d575b235e63544c9704513167cc72482f1e4309d4116d4f0bd85}
+    acquisition: {file_name: إثبات صفة الكلام لصحصاح،.pdf, bytes: 3399707, sha256: 45533e13b625d575b235e63544c9704513167cc72482f1e4309d4116d4f0bd85, sha256_status: computed}
+    physical: {pages: 119}
+    ocr: {state: complete, failed_pages: 119, unzipped_location: ocr/al-azhar-magmaa/إثبات صفة الكلام لصحصاح،.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-009
+    title: الأزهر في الف عام
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: الأزهر في الف عام.pdf, bytes: 1381896, pages: 159, sha256: 4850ae70deb78ce4a4e8aa62b085ddd25c3f7759c85fa2d92961950e0d04f3d7}
+    acquisition: {file_name: الأزهر في الف عام.pdf, bytes: 1381896, sha256: 4850ae70deb78ce4a4e8aa62b085ddd25c3f7759c85fa2d92961950e0d04f3d7, sha256_status: computed}
+    physical: {pages: 159}
+    ocr: {state: complete, failed_pages: 159, unzipped_location: ocr/al-azhar-magmaa/الأزهر في الف عام.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-010
+    title: الأنوار القدسية في الفوائد الخرشية لحل ألفاظ العقيدة السنوسية
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: الأنوار القدسية في الفوائد الخرشية لحل ألفاظ العقيدة السنوسية.pdf, bytes: 16642746, pages: 208, sha256: c7660983cfe4fd235cc9964de0cb01318151a3d5dbcf05ad9e2934489918aaa9}
+    acquisition: {file_name: الأنوار القدسية في الفوائد الخرشية لحل ألفاظ العقيدة السنوسية.pdf, bytes: 16642746, sha256: c7660983cfe4fd235cc9964de0cb01318151a3d5dbcf05ad9e2934489918aaa9, sha256_status: computed}
+    physical: {pages: 208}
+    ocr: {state: complete, failed_pages: 208, unzipped_location: ocr/al-azhar-magmaa/الأنوار القدسية في الفوائد الخرشية لحل ألفاظ العقيدة السنوسية.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-011
+    title: الإسراء والمعراج
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: الإسراء والمعراج.pdf, bytes: 1390009, pages: 114, sha256: 1b9b3554d2d4b64240f438a082875d0fd43be73d59c5212d3fd9831c249b2919}
+    acquisition: {file_name: الإسراء والمعراج.pdf, bytes: 1390009, sha256: 1b9b3554d2d4b64240f438a082875d0fd43be73d59c5212d3fd9831c249b2919, sha256_status: computed}
+    physical: {pages: 114}
+    ocr: {state: complete, failed_pages: 114, unzipped_location: ocr/al-azhar-magmaa/الإسراء والمعراج.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-012
+    title: الإسلام عقيدة وشريعة
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: الإسلام عقيدة وشريعة.pdf, bytes: 3515945, pages: 203, sha256: fbbb337177844362e5f68b03a4fa246809027cf80d90eaf95c726c73dac40d5d}
+    acquisition: {file_name: الإسلام عقيدة وشريعة.pdf, bytes: 3515945, sha256: fbbb337177844362e5f68b03a4fa246809027cf80d90eaf95c726c73dac40d5d, sha256_status: computed}
+    physical: {pages: 203}
+    ocr: {state: complete, failed_pages: 203, unzipped_location: ocr/al-azhar-magmaa/الإسلام عقيدة وشريعة.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-013
+    title: الإسلام فطرة الله
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: الإسلام فطرة الله.pdf, bytes: 2642795, pages: 152, sha256: f28eb68d10b4a154e7764f7e9d7e3c157f22bf5f5e3c6f267eddb1f44279ddd9}
+    acquisition: {file_name: الإسلام فطرة الله.pdf, bytes: 2642795, sha256: f28eb68d10b4a154e7764f7e9d7e3c157f22bf5f5e3c6f267eddb1f44279ddd9, sha256_status: computed}
+    physical: {pages: 152}
+    ocr: {state: complete, failed_pages: 152, unzipped_location: ocr/al-azhar-magmaa/الإسلام فطرة الله.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-014
+    title: الإسلام كما يراه الأوروبيون
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: الإسلام كما يراه الأوروبيون.pdf, bytes: 3034181, pages: 126, sha256: 2c5c485ec9e402a9f09e5db4823b361ae13d12fa229fa990febd5bc9c1e669c4}
+    acquisition: {file_name: الإسلام كما يراه الأوروبيون.pdf, bytes: 3034181, sha256: 2c5c485ec9e402a9f09e5db4823b361ae13d12fa229fa990febd5bc9c1e669c4, sha256_status: computed}
+    physical: {pages: 126}
+    ocr: {state: complete, failed_pages: 126, unzipped_location: ocr/al-azhar-magmaa/الإسلام كما يراه الأوروبيون.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-015
+    title: الإشاعات الكاذبة وكيف حاربها الإسلام
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: الإشاعات الكاذبة وكيف حاربها الإسلام.pdf, bytes: 9703392, pages: 244, sha256: 31d6648b84d0db4926b569b6aee3efd659330fd05b47fe4dfb048a9a82d4f52b}
+    acquisition: {file_name: الإشاعات الكاذبة وكيف حاربها الإسلام.pdf, bytes: 9703392, sha256: 31d6648b84d0db4926b569b6aee3efd659330fd05b47fe4dfb048a9a82d4f52b, sha256_status: computed}
+    physical: {pages: 244}
+    ocr: {state: complete, failed_pages: 244, unzipped_location: ocr/al-azhar-magmaa/الإشاعات الكاذبة وكيف حاربها الإسلام.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-016
+    title: الإعجاز في المجاز شرح الدرة السنية
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: الإعجاز في المجاز شرح الدرة السنية.pdf, bytes: 5161865, pages: 151, sha256: 4f8916479561e5c9a85eb8d0892ee5d2b5cb620057a6a2ac8edac96587eb3b4b}
+    acquisition: {file_name: الإعجاز في المجاز شرح الدرة السنية.pdf, bytes: 5161865, sha256: 4f8916479561e5c9a85eb8d0892ee5d2b5cb620057a6a2ac8edac96587eb3b4b, sha256_status: computed}
+    physical: {pages: 151}
+    ocr: {state: complete, failed_pages: 151, unzipped_location: ocr/al-azhar-magmaa/الإعجاز في المجاز شرح الدرة السنية.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-017
+    title: الاستشراق والخلفية الفكرية للصراع الحضاري
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: الاستشراق والخلفية الفكرية للصراع الحضاري.pdf, bytes: 1195842, pages: 212, sha256: dd4f6bfcc3a15ea0b859597f30859078c324f41a23d788f33471d5bbe7ba29cd}
+    acquisition: {file_name: الاستشراق والخلفية الفكرية للصراع الحضاري.pdf, bytes: 1195842, sha256: dd4f6bfcc3a15ea0b859597f30859078c324f41a23d788f33471d5bbe7ba29cd, sha256_status: computed}
+    physical: {pages: 212}
+    ocr: {state: complete, failed_pages: 212, unzipped_location: ocr/al-azhar-magmaa/الاستشراق والخلفية الفكرية للصراع الحضاري.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-018
+    title: الاسلام دين عام خالد
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: الاسلام دين عام خالد.pdf, bytes: 10279174, pages: 153, sha256: de866136a28bb6c77b542cd2805ab643a7c50e345c48ec69bd92e38808d2cef7}
+    acquisition: {file_name: الاسلام دين عام خالد.pdf, bytes: 10279174, sha256: de866136a28bb6c77b542cd2805ab643a7c50e345c48ec69bd92e38808d2cef7, sha256_status: computed}
+    physical: {pages: 153}
+    ocr: {state: complete, failed_pages: 153, unzipped_location: ocr/al-azhar-magmaa/الاسلام دين عام خالد.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-019
+    title: الاشتقاق وأثره في اللغة العربية
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: الاشتقاق وأثره في اللغة العربية.pdf, bytes: 4579086, pages: 248, sha256: c4004bb391c5277e966335d572e5223093af4f6ee056f9e8145bfd3795995a04}
+    acquisition: {file_name: الاشتقاق وأثره في اللغة العربية.pdf, bytes: 4579086, sha256: c4004bb391c5277e966335d572e5223093af4f6ee056f9e8145bfd3795995a04, sha256_status: computed}
+    physical: {pages: 248}
+    ocr: {state: complete, failed_pages: 248, unzipped_location: ocr/al-azhar-magmaa/الاشتقاق وأثره في اللغة العربية.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-020
+    title: البهجة السنية على متن السنوسية للبراوي
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: البهجة السنية على متن السنوسية للبراوي.pdf, bytes: 20082520, pages: 344, sha256: 3f4d2b95f805318651f95eb475f432e15e0108bb81a39c8e95f65bb0db480e51}
+    acquisition: {file_name: البهجة السنية على متن السنوسية للبراوي.pdf, bytes: 20082520, sha256: 3f4d2b95f805318651f95eb475f432e15e0108bb81a39c8e95f65bb0db480e51, sha256_status: computed}
+    physical: {pages: 344}
+    ocr: {state: complete, failed_pages: 344, unzipped_location: ocr/al-azhar-magmaa/البهجة السنية على متن السنوسية للبراوي.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-021
+    title: التحفة المرضية في العقائد التوحيدية
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: التحفة المرضية في العقائد التوحيدية.pdf, bytes: 2487932, pages: 48, sha256: 27ae4b73436173e2d09589543a5ee967e2bc4cc06b3e9e71148208f226ad85a3}
+    acquisition: {file_name: التحفة المرضية في العقائد التوحيدية.pdf, bytes: 2487932, sha256: 27ae4b73436173e2d09589543a5ee967e2bc4cc06b3e9e71148208f226ad85a3, sha256_status: computed}
+    physical: {pages: 48}
+    ocr: {state: complete, failed_pages: 48, unzipped_location: ocr/al-azhar-magmaa/التحفة المرضية في العقائد التوحيدية.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-022
+    title: الحرية فى الإسلام
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: الحرية فى الإسلام.pdf, bytes: 1999923, pages: 109, sha256: ce83e27fb0e0b05868ddf1d0a464a569431cd8a997e6abed1807999829a269ee}
+    acquisition: {file_name: الحرية فى الإسلام.pdf, bytes: 1999923, sha256: ce83e27fb0e0b05868ddf1d0a464a569431cd8a997e6abed1807999829a269ee, sha256_status: computed}
+    physical: {pages: 109}
+    ocr: {state: complete, failed_pages: 109, unzipped_location: ocr/al-azhar-magmaa/الحرية فى الإسلام.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-023
+    title: الخلاصة في علم أصول الفقه
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: الخلاصة في علم أصول الفقه.pdf, bytes: 17517590, pages: 200, sha256: 17a7bbfd42192f41df52b75c948386361235a143e3169004cf9c85e7f2463ed0}
+    acquisition: {file_name: الخلاصة في علم أصول الفقه.pdf, bytes: 17517590, sha256: 17a7bbfd42192f41df52b75c948386361235a143e3169004cf9c85e7f2463ed0, sha256_status: computed}
+    physical: {pages: 200}
+    ocr: {state: complete, failed_pages: 200, unzipped_location: ocr/al-azhar-magmaa/الخلاصة في علم أصول الفقه.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-024
+    title: الدراري وأحسن القرى
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: الدراري وأحسن القرى.pdf, bytes: 3427478, pages: 119, sha256: 8e3acb5dcc0cc31f01e11f54d90e6521de71b2ee1f916ba9c41b4a48d774d6ac}
+    acquisition: {file_name: الدراري وأحسن القرى.pdf, bytes: 3427478, sha256: 8e3acb5dcc0cc31f01e11f54d90e6521de71b2ee1f916ba9c41b4a48d774d6ac, sha256_status: computed}
+    physical: {pages: 119}
+    ocr: {state: complete, failed_pages: 119, unzipped_location: ocr/al-azhar-magmaa/الدراري وأحسن القرى.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-025
+    title: الدرر السنية في تنزيه الحضرة الإلهية
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: الدرر السنية في تنزيه الحضرة الإلهية.pdf, bytes: 3166471, pages: 135, sha256: 13523d5524842db01bd21f68094c16e27826d4f383b593e1d91dd6b37304fdbf}
+    acquisition: {file_name: الدرر السنية في تنزيه الحضرة الإلهية.pdf, bytes: 3166471, sha256: 13523d5524842db01bd21f68094c16e27826d4f383b593e1d91dd6b37304fdbf, sha256_status: computed}
+    physical: {pages: 135}
+    ocr: {state: complete, failed_pages: 135, unzipped_location: ocr/al-azhar-magmaa/الدرر السنية في تنزيه الحضرة الإلهية.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-026
+    title: الرسائل الحكمية
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: الرسائل الحكمية.pdf, bytes: 3343702, pages: 183, sha256: fffcaeef1e67ea78ee424b5a93a89b9ee98338f3af419271a658c5f53fc57a25}
+    acquisition: {file_name: الرسائل الحكمية.pdf, bytes: 3343702, sha256: fffcaeef1e67ea78ee424b5a93a89b9ee98338f3af419271a658c5f53fc57a25, sha256_status: computed}
+    physical: {pages: 183}
+    ocr: {state: complete, failed_pages: 183, unzipped_location: ocr/al-azhar-magmaa/الرسائل الحكمية.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-027
+    title: الرسالة الجامعة البديعة في بيان الشفاعة في الشريعة
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: الرسالة الجامعة البديعة في بيان الشفاعة في الشريعة.pdf, bytes: 17088316, pages: 224, sha256: b1ad7e11a10445cfeeeee15ab5e2cfbb931f5c90c4f55156dd0642c99cf07a48}
+    acquisition: {file_name: الرسالة الجامعة البديعة في بيان الشفاعة في الشريعة.pdf, bytes: 17088316, sha256: b1ad7e11a10445cfeeeee15ab5e2cfbb931f5c90c4f55156dd0642c99cf07a48, sha256_status: computed}
+    physical: {pages: 224}
+    ocr: {state: complete, failed_pages: 224, unzipped_location: ocr/al-azhar-magmaa/الرسالة الجامعة البديعة في بيان الشفاعة في الشريعة.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-028
+    title: الرسالة العبدية في النظر وإثبات صانع البرية
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: الرسالة العبدية في النظر وإثبات صانع البرية.pdf, bytes: 10582608, pages: 213, sha256: 3b7866df46540cea61a3597889a65c5ccafbf6abafd6a82b9e346005fd1713ab}
+    acquisition: {file_name: الرسالة العبدية في النظر وإثبات صانع البرية.pdf, bytes: 10582608, sha256: 3b7866df46540cea61a3597889a65c5ccafbf6abafd6a82b9e346005fd1713ab, sha256_status: computed}
+    physical: {pages: 213}
+    ocr: {state: complete, failed_pages: 213, unzipped_location: ocr/al-azhar-magmaa/الرسالة العبدية في النظر وإثبات صانع البرية.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-029
+    title: الرسول لمحات من حياته ونفحات من هديه
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: الرسول لمحات من حياته ونفحات من هديه.pdf, bytes: 6416402, pages: 232, sha256: e82d5ef8abc331b57dbd4ef08737fb69179d713d6e179663ab595aa18676112d}
+    acquisition: {file_name: الرسول لمحات من حياته ونفحات من هديه.pdf, bytes: 6416402, sha256: e82d5ef8abc331b57dbd4ef08737fb69179d713d6e179663ab595aa18676112d, sha256_status: computed}
+    physical: {pages: 232}
+    ocr: {state: complete, failed_pages: 232, unzipped_location: ocr/al-azhar-magmaa/الرسول لمحات من حياته ونفحات من هديه.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-030
+    title: الزهرة العليا في التحذير من متاع الحياة الدنيا
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: الزهرة العليا في التحذير من متاع الحياة الدنيا.pdf, bytes: 5211310, pages: 208, sha256: 2e59896cc275f4e8a8a30676b99a886f664673aead0a18caed2aba83deb6c536}
+    acquisition: {file_name: الزهرة العليا في التحذير من متاع الحياة الدنيا.pdf, bytes: 5211310, sha256: 2e59896cc275f4e8a8a30676b99a886f664673aead0a18caed2aba83deb6c536, sha256_status: computed}
+    physical: {pages: 208}
+    ocr: {state: complete, failed_pages: 208, unzipped_location: ocr/al-azhar-magmaa/الزهرة العليا في التحذير من متاع الحياة الدنيا.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-031
+    title: العقائد السنية الأميرية
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: العقائد السنية الأميرية.pdf, bytes: 11623065, pages: 566, sha256: 3c02669a12dd5ab62fe70be5044cc2585b189bcee8500e7e71e3554b9e1334d2}
+    acquisition: {file_name: العقائد السنية الأميرية.pdf, bytes: 11623065, sha256: 3c02669a12dd5ab62fe70be5044cc2585b189bcee8500e7e71e3554b9e1334d2, sha256_status: computed}
+    physical: {pages: 566}
+    ocr: {state: complete, failed_pages: 566, unzipped_location: ocr/al-azhar-magmaa/العقائد السنية الأميرية.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-032
+    title: العلية ومشكلاتها في الفلسفة الإسلامية
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: العلية ومشكلاتها في الفلسفة الإسلامية.pdf, bytes: 3883443, pages: 277, sha256: c514129b545a8bf3c1259a9e10183b550dfe7b7c3ef968328636a2b200e7c0c6}
+    acquisition: {file_name: العلية ومشكلاتها في الفلسفة الإسلامية.pdf, bytes: 3883443, sha256: c514129b545a8bf3c1259a9e10183b550dfe7b7c3ef968328636a2b200e7c0c6, sha256_status: computed}
+    physical: {pages: 277}
+    ocr: {state: complete, failed_pages: 277, unzipped_location: ocr/al-azhar-magmaa/العلية ومشكلاتها في الفلسفة الإسلامية.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-033
+    title: الفواصل القرآنية
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: الفواصل القرآنية.pdf, bytes: 106126799, pages: 263, sha256: e55d9e4e1924f0cd85333376ed42f36ef2105012205c9fd268060a5f937fadf8}
+    acquisition: {file_name: الفواصل القرآنية.pdf, bytes: 106126799, sha256: e55d9e4e1924f0cd85333376ed42f36ef2105012205c9fd268060a5f937fadf8, sha256_status: computed}
+    physical: {pages: 263}
+    ocr: {state: complete, failed_pages: 263, unzipped_location: ocr/al-azhar-magmaa/الفواصل القرآنية.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-034
+    title: القدس بين اليهودية والإسلام
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: القدس بين اليهودية والإسلام.pdf, bytes: 1038778, pages: 188, sha256: 5cbf676ad6f24dbe73f18e80e20928d95ab7db61488f451c00b7152d504ba6ff}
+    acquisition: {file_name: القدس بين اليهودية والإسلام.pdf, bytes: 1038778, sha256: 5cbf676ad6f24dbe73f18e80e20928d95ab7db61488f451c00b7152d504ba6ff, sha256_status: computed}
+    physical: {pages: 188}
+    ocr: {state: complete, failed_pages: 188, unzipped_location: ocr/al-azhar-magmaa/القدس بين اليهودية والإسلام.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-035
+    title: الكنوز البهية في علم العربية
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: الكنوز البهية في علم العربية.pdf, bytes: 4706725, pages: 184, sha256: 239a8029e24f6fb7c3e39c9fde120adca57c3653e254012c4eac3e5b01e8e538}
+    acquisition: {file_name: الكنوز البهية في علم العربية.pdf, bytes: 4706725, sha256: 239a8029e24f6fb7c3e39c9fde120adca57c3653e254012c4eac3e5b01e8e538, sha256_status: computed}
+    physical: {pages: 184}
+    ocr: {state: complete, failed_pages: 184, unzipped_location: ocr/al-azhar-magmaa/الكنوز البهية في علم العربية.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-036
+    title: الكواكب بين الاصطلاح العلمي والاستعمال القرآني وما فيه من إعجاز
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: الكواكب بين الاصطلاح العلمي والاستعمال القرآني وما فيه من إعجاز.pdf, bytes: 720681, pages: 120, sha256: eceba91e8a94430279e206824e3c2817383e6841e45b582658bf8bf0fd76efd5}
+    acquisition: {file_name: الكواكب بين الاصطلاح العلمي والاستعمال القرآني وما فيه من إعجاز.pdf, bytes: 720681, sha256: eceba91e8a94430279e206824e3c2817383e6841e45b582658bf8bf0fd76efd5, sha256_status: computed}
+    physical: {pages: 120}
+    ocr: {state: complete, failed_pages: 120, unzipped_location: ocr/al-azhar-magmaa/الكواكب بين الاصطلاح العلمي والاستعمال القرآني وما فيه من إعجاز.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-037
+    title: اللمعة في تحقيق مباحث الوجود
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: اللمعة في تحقيق مباحث الوجود.pdf, bytes: 5259552, pages: 247, sha256: a5166472c853e3dc9624293fa61c9cec1f0489de38fa15f2c6aa45fdc89791ae}
+    acquisition: {file_name: اللمعة في تحقيق مباحث الوجود.pdf, bytes: 5259552, sha256: a5166472c853e3dc9624293fa61c9cec1f0489de38fa15f2c6aa45fdc89791ae, sha256_status: computed}
+    physical: {pages: 247}
+    ocr: {state: complete, failed_pages: 247, unzipped_location: ocr/al-azhar-magmaa/اللمعة في تحقيق مباحث الوجود.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-038
+    title: المتون العلمية وأثرها في التربية
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: المتون العلمية وأثرها في التربية.pdf, bytes: 3803940, pages: 148, sha256: 6d17edee41e99444f4aec6a6455de67620a91989a32880c6bd46ed37e4160f85}
+    acquisition: {file_name: المتون العلمية وأثرها في التربية.pdf, bytes: 3803940, sha256: 6d17edee41e99444f4aec6a6455de67620a91989a32880c6bd46ed37e4160f85, sha256_status: computed}
+    physical: {pages: 148}
+    ocr: {state: complete, failed_pages: 148, unzipped_location: ocr/al-azhar-magmaa/المتون العلمية وأثرها في التربية.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-039
+    title: المسجد_في_الإسلام
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: المسجد_في_الإسلام.pdf, bytes: 3450223, pages: 313, sha256: ca49fc67d76218e54bfc8ae5a4b5809f1ce1d8334f6ac816f75291767b3509ba}
+    acquisition: {file_name: المسجد_في_الإسلام.pdf, bytes: 3450223, sha256: ca49fc67d76218e54bfc8ae5a4b5809f1ce1d8334f6ac816f75291767b3509ba, sha256_status: computed}
+    physical: {pages: 313}
+    ocr: {state: complete, failed_pages: 313, unzipped_location: ocr/al-azhar-magmaa/المسجد_في_الإسلام.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-040
+    title: المعجم الأصغر بتراجم ومؤلفات علماء الأزهر أبو الوفا المراغي
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: المعجم الأصغر بتراجم ومؤلفات علماء الأزهر أبو الوفا المراغي.pdf, bytes: 7163073, pages: 978, sha256: 1aed89def854fa80ff35704f73221306e43c27ca5a986982ba3aeb85ea483435}
+    acquisition: {file_name: المعجم الأصغر بتراجم ومؤلفات علماء الأزهر أبو الوفا المراغي.pdf, bytes: 7163073, sha256: 1aed89def854fa80ff35704f73221306e43c27ca5a986982ba3aeb85ea483435, sha256_status: computed}
+    physical: {pages: 978}
+    ocr: {state: complete, failed_pages: 978, unzipped_location: ocr/al-azhar-magmaa/المعجم الأصغر بتراجم ومؤلفات علماء الأزهر أبو الوفا المراغي.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-041
+    title: المفسدون فى الأرض
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: المفسدون فى الأرض.pdf, bytes: 3447115, pages: 229, sha256: 57e48216e4a3b4c860bbdd0773cd3a24350fdcf3bddc8dd767347cc7a3eea671}
+    acquisition: {file_name: المفسدون فى الأرض.pdf, bytes: 3447115, sha256: 57e48216e4a3b4c860bbdd0773cd3a24350fdcf3bddc8dd767347cc7a3eea671, sha256_status: computed}
+    physical: {pages: 229}
+    ocr: {state: complete, failed_pages: 229, unzipped_location: ocr/al-azhar-magmaa/المفسدون فى الأرض.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-042
+    title: بحوث إسلامية
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: بحوث إسلامية.pdf, bytes: 2055956, pages: 107, sha256: d05de1d38168bc5807ea165ac0095568e4ad40f815bd66e6a2ccfd92427f952c}
+    acquisition: {file_name: بحوث إسلامية.pdf, bytes: 2055956, sha256: d05de1d38168bc5807ea165ac0095568e4ad40f815bd66e6a2ccfd92427f952c, sha256_status: computed}
+    physical: {pages: 107}
+    ocr: {state: complete, failed_pages: 107, unzipped_location: ocr/al-azhar-magmaa/بحوث إسلامية.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-043
+    title: بداية المريد في علم التوحيد
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: بداية المريد في علم التوحيد.pdf, bytes: 2639163, pages: 72, sha256: 626dec63080c174ef915f14b12c5079acfaab4a06db68448c6e307fe642685d5}
+    acquisition: {file_name: بداية المريد في علم التوحيد.pdf, bytes: 2639163, sha256: 626dec63080c174ef915f14b12c5079acfaab4a06db68448c6e307fe642685d5, sha256_status: computed}
+    physical: {pages: 72}
+    ocr: {state: complete, failed_pages: 72, unzipped_location: ocr/al-azhar-magmaa/بداية المريد في علم التوحيد.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-044
+    title: بيت المقدس في الاسلام
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: بيت المقدس في الاسلام.pdf, bytes: 2005556, pages: 139, sha256: f761cdc5ce2b2144596f84cae47436d35d8423fbc830fbab2a756a4e477460e7}
+    acquisition: {file_name: بيت المقدس في الاسلام.pdf, bytes: 2005556, sha256: f761cdc5ce2b2144596f84cae47436d35d8423fbc830fbab2a756a4e477460e7, sha256_status: computed}
+    physical: {pages: 139}
+    ocr: {state: complete, failed_pages: 139, unzipped_location: ocr/al-azhar-magmaa/بيت المقدس في الاسلام.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-045
+    title: تصحيح المفاهيم أميرية مرتب
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: تصحيح المفاهيم أميرية مرتب.pdf, bytes: 1715117, pages: 125, sha256: 4a9730a2a3f01fa4bd162811eba4b2bf8c38e5584cf869edf06a046c4e6943df}
+    acquisition: {file_name: تصحيح المفاهيم أميرية مرتب.pdf, bytes: 1715117, sha256: 4a9730a2a3f01fa4bd162811eba4b2bf8c38e5584cf869edf06a046c4e6943df, sha256_status: computed}
+    physical: {pages: 125}
+    ocr: {state: complete, failed_pages: 125, unzipped_location: ocr/al-azhar-magmaa/تصحيح المفاهيم أميرية مرتب.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-046
+    title: تقرير البيلي على صغرى الصغرى
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: تقرير البيلي على صغرى الصغرى.pdf, bytes: 5409025, pages: 199, sha256: 7cdb7aedeed4aeab8fee557e943c428645747e0b4e4d91890103524ef64c1362}
+    acquisition: {file_name: تقرير البيلي على صغرى الصغرى.pdf, bytes: 5409025, sha256: 7cdb7aedeed4aeab8fee557e943c428645747e0b4e4d91890103524ef64c1362, sha256_status: computed}
+    physical: {pages: 199}
+    ocr: {state: complete, failed_pages: 199, unzipped_location: ocr/al-azhar-magmaa/تقرير البيلي على صغرى الصغرى.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-047
+    title: تنزيه الكون عن اعتقاد إسلام فرعون
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: تنزيه الكون عن اعتقاد إسلام فرعون.pdf, bytes: 7359202, pages: 176, sha256: c527bfff80a6d73c7086a062a2148bd2e4f6d0374c9a8784fba983cf6f1a76f1}
+    acquisition: {file_name: تنزيه الكون عن اعتقاد إسلام فرعون.pdf, bytes: 7359202, sha256: c527bfff80a6d73c7086a062a2148bd2e4f6d0374c9a8784fba983cf6f1a76f1, sha256_status: computed}
+    physical: {pages: 176}
+    ocr: {state: complete, failed_pages: 176, unzipped_location: ocr/al-azhar-magmaa/تنزيه الكون عن اعتقاد إسلام فرعون.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-048
+    title: حاشية العلامة الملوي على إتحاف المريد - النبوات
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: حاشية العلامة الملوي على إتحاف المريد - النبوات.pdf, bytes: 14908226, pages: 662, sha256: 431b3b0e65c55a4d75a339dfe42001fe602171c45b9bba4b995c564878d8eb1e}
+    acquisition: {file_name: حاشية العلامة الملوي على إتحاف المريد - النبوات.pdf, bytes: 14908226, sha256: 431b3b0e65c55a4d75a339dfe42001fe602171c45b9bba4b995c564878d8eb1e, sha256_status: computed}
+    physical: {pages: 662}
+    ocr: {state: complete, failed_pages: 662, unzipped_location: ocr/al-azhar-magmaa/حاشية العلامة الملوي على إتحاف المريد - النبوات.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-049
+    title: حول_إعجاز_القرآن
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: حول_إعجاز_القرآن.pdf, bytes: 1608748, pages: 105, sha256: 596f64e643fa42973cc4adfe1c2403877d80e8dbe7269404475a1ada00ca7d75}
+    acquisition: {file_name: حول_إعجاز_القرآن.pdf, bytes: 1608748, sha256: 596f64e643fa42973cc4adfe1c2403877d80e8dbe7269404475a1ada00ca7d75, sha256_status: computed}
+    physical: {pages: 105}
+    ocr: {state: complete, failed_pages: 105, unzipped_location: ocr/al-azhar-magmaa/حول_إعجاز_القرآن.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-050
+    title: حياة الإسلام في معرفة صفات الله عزوجل وصفات رسوله الأعظم
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: حياة الإسلام في معرفة صفات الله عزوجل وصفات رسوله الأعظم.pdf, bytes: 15066481, pages: 64, sha256: e0ef0fa2d9aebdf2c97d1ecffa9319e662765f0866189a4ac907654e55934042}
+    acquisition: {file_name: حياة الإسلام في معرفة صفات الله عزوجل وصفات رسوله الأعظم.pdf, bytes: 15066481, sha256: e0ef0fa2d9aebdf2c97d1ecffa9319e662765f0866189a4ac907654e55934042, sha256_status: computed}
+    physical: {pages: 64}
+    ocr: {state: complete, failed_pages: 64, unzipped_location: ocr/al-azhar-magmaa/حياة الإسلام في معرفة صفات الله عزوجل وصفات رسوله الأعظم.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-051
+    title: خاتمة البخاري للجمل
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: خاتمة البخاري للجمل.pdf, bytes: 3605092, pages: 160, sha256: cb5c86f761ec69642f3575f1870848ecc9ce74a3553bee84356c0126c9c0058f}
+    acquisition: {file_name: خاتمة البخاري للجمل.pdf, bytes: 3605092, sha256: cb5c86f761ec69642f3575f1870848ecc9ce74a3553bee84356c0126c9c0058f, sha256_status: computed}
+    physical: {pages: 160}
+    ocr: {state: complete, failed_pages: 160, unzipped_location: ocr/al-azhar-magmaa/خاتمة البخاري للجمل.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-052
+    title: خلاصة الأصول على طريقة السادة الحنفية أميرية
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: خلاصة الأصول على طريقة السادة الحنفية أميرية.pdf, bytes: 17837497, pages: 183, sha256: 3ee1cfd04415ea4515f322f3f8c3395889b857bb1390fd2482b1612c82295c28}
+    acquisition: {file_name: خلاصة الأصول على طريقة السادة الحنفية أميرية.pdf, bytes: 17837497, sha256: 3ee1cfd04415ea4515f322f3f8c3395889b857bb1390fd2482b1612c82295c28, sha256_status: computed}
+    physical: {pages: 183}
+    ocr: {state: complete, failed_pages: 183, unzipped_location: ocr/al-azhar-magmaa/خلاصة الأصول على طريقة السادة الحنفية أميرية.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-053
+    title: خلاصة علم الوضع
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: خلاصة علم الوضع.pdf, bytes: 2182327, pages: 64, sha256: e4edad627d14045d97903ff743f95b655dd1097f17e7931ac4ade10d71b0b97d}
+    acquisition: {file_name: خلاصة علم الوضع.pdf, bytes: 2182327, sha256: e4edad627d14045d97903ff743f95b655dd1097f17e7931ac4ade10d71b0b97d, sha256_status: computed}
+    physical: {pages: 64}
+    ocr: {state: complete, failed_pages: 64, unzipped_location: ocr/al-azhar-magmaa/خلاصة علم الوضع.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-054
+    title: دفاع عن القرآن ضد منتقديه
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: دفاع عن القرآن ضد منتقديه .pdf, bytes: 2922298, pages: 283, sha256: f8e5d0a2d65b1931875ce35e6ff95f527f0c77bbf74a8cbc44265b094980d093}
+    acquisition: {file_name: دفاع عن القرآن ضد منتقديه .pdf, bytes: 2922298, sha256: f8e5d0a2d65b1931875ce35e6ff95f527f0c77bbf74a8cbc44265b094980d093, sha256_status: computed}
+    physical: {pages: 283}
+    ocr: {state: complete, failed_pages: 283, unzipped_location: ocr/al-azhar-magmaa/دفاع عن القرآن ضد منتقديه .txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-055
+    title: دليل السالك إلى مالك الممالك
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: دليل السالك إلى مالك الممالك.pdf, bytes: 4778049, pages: 184, sha256: 4cf279151dee04395248d63e97524e04161f4ff1f1933b36c23897ac0f6055c8}
+    acquisition: {file_name: دليل السالك إلى مالك الممالك.pdf, bytes: 4778049, sha256: 4cf279151dee04395248d63e97524e04161f4ff1f1933b36c23897ac0f6055c8, sha256_status: computed}
+    physical: {pages: 184}
+    ocr: {state: complete, failed_pages: 184, unzipped_location: ocr/al-azhar-magmaa/دليل السالك إلى مالك الممالك.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-056
+    title: رحلة الإمام الأكبر إلى إندونسيا
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: رحلة الإمام الأكبر إلى إندونسيا.pdf, bytes: 9746252, pages: 170, sha256: dde1e5286d58be1f3c150683cfe4c0ded33be36b6be8f3dd95ec8d7cd3be5b72}
+    acquisition: {file_name: رحلة الإمام الأكبر إلى إندونسيا.pdf, bytes: 9746252, sha256: dde1e5286d58be1f3c150683cfe4c0ded33be36b6be8f3dd95ec8d7cd3be5b72, sha256_status: computed}
+    physical: {pages: 170}
+    ocr: {state: complete, failed_pages: 170, unzipped_location: ocr/al-azhar-magmaa/رحلة الإمام الأكبر إلى إندونسيا.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-057
+    title: رد المتشابهات إلى المُحكمات في جانب خاتم النبوات
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: رد المتشابهات إلى المُحكمات في جانب خاتم النبوات.pdf, bytes: 23296501, pages: 256, sha256: 40d93c1522843646eb68d5e0d3ad1f32cbde74c8259dd9a81cd79e949d21977c}
+    acquisition: {file_name: رد المتشابهات إلى المُحكمات في جانب خاتم النبوات.pdf, bytes: 23296501, sha256: 40d93c1522843646eb68d5e0d3ad1f32cbde74c8259dd9a81cd79e949d21977c, sha256_status: computed}
+    physical: {pages: 256}
+    ocr: {state: complete, failed_pages: 256, unzipped_location: ocr/al-azhar-magmaa/رد المتشابهات إلى المُحكمات في جانب خاتم النبوات.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-058
+    title: رسالة اللآلئ السنية في حجية الأحاديث النبوية
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: رسالة اللآلئ السنية في حجية الأحاديث النبوية.pdf, bytes: 16603265, pages: 176, sha256: 0a0ba4ebf27d6343eeb0e2a07a543a258f8bf0780b9b01c9af4a7cb1afaa9f21}
+    acquisition: {file_name: رسالة اللآلئ السنية في حجية الأحاديث النبوية.pdf, bytes: 16603265, sha256: 0a0ba4ebf27d6343eeb0e2a07a543a258f8bf0780b9b01c9af4a7cb1afaa9f21, sha256_status: computed}
+    physical: {pages: 176}
+    ocr: {state: complete, failed_pages: 176, unzipped_location: ocr/al-azhar-magmaa/رسالة اللآلئ السنية في حجية الأحاديث النبوية.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-059
+    title: رسالة فى الجامع الأزهر
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: رسالة فى الجامع الأزهر.pdf, bytes: 5823764, pages: 176, sha256: 226e4a8801046f8a14e91e5eb7170615a61721331bf879c96b3c59f5e10218ea}
+    acquisition: {file_name: رسالة فى الجامع الأزهر.pdf, bytes: 5823764, sha256: 226e4a8801046f8a14e91e5eb7170615a61721331bf879c96b3c59f5e10218ea, sha256_status: computed}
+    physical: {pages: 176}
+    ocr: {state: complete, failed_pages: 176, unzipped_location: ocr/al-azhar-magmaa/رسالة فى الجامع الأزهر.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-060
+    title: رسالة في المعجزة النبوية
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: رسالة في المعجزة النبوية.pdf, bytes: 18718424, pages: 176, sha256: 603c9db92cb7b410d2beacb8313553d113e3c75270cc29a3070544cdac29bedc}
+    acquisition: {file_name: رسالة في المعجزة النبوية.pdf, bytes: 18718424, sha256: 603c9db92cb7b410d2beacb8313553d113e3c75270cc29a3070544cdac29bedc, sha256_status: computed}
+    physical: {pages: 176}
+    ocr: {state: complete, failed_pages: 176, unzipped_location: ocr/al-azhar-magmaa/رسالة في المعجزة النبوية.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-061
+    title: رسالة في المعرفات
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: رسالة في المعرفات.pdf, bytes: 2690190, pages: 104, sha256: 16b8e13855f5e051a34b618b62d7db6aba84fb3ba7bff50a79a1cb3cbe7d65ca}
+    acquisition: {file_name: رسالة في المعرفات.pdf, bytes: 2690190, sha256: 16b8e13855f5e051a34b618b62d7db6aba84fb3ba7bff50a79a1cb3cbe7d65ca, sha256_status: computed}
+    physical: {pages: 104}
+    ocr: {state: complete, failed_pages: 104, unzipped_location: ocr/al-azhar-magmaa/رسالة في المعرفات.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-062
+    title: رسالة في تحقيق صفة الكلام
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: رسالة في تحقيق صفة الكلام.pdf, bytes: 2864862, pages: 96, sha256: dcb7c43f6c20b6f6d49fe0ed2a87a4c546320f2a7cff809c805d7ba02ec65eeb}
+    acquisition: {file_name: رسالة في تحقيق صفة الكلام.pdf, bytes: 2864862, sha256: dcb7c43f6c20b6f6d49fe0ed2a87a4c546320f2a7cff809c805d7ba02ec65eeb, sha256_status: computed}
+    physical: {pages: 96}
+    ocr: {state: complete, failed_pages: 96, unzipped_location: ocr/al-azhar-magmaa/رسالة في تحقيق صفة الكلام.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-063
+    title: رسالة في تفسير قوله تعالى وما أرسلنا من قبلك من رسول ولا نبي
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: رسالة في تفسير قوله تعالى وما أرسلنا من قبلك من رسول ولا نبي.pdf, bytes: 4442908, pages: 95, sha256: 029a893ac3437dd425d36f6d7d80f4cdc149ff16b00ad587a246bfc25593f4db}
+    acquisition: {file_name: رسالة في تفسير قوله تعالى وما أرسلنا من قبلك من رسول ولا نبي.pdf, bytes: 4442908, sha256: 029a893ac3437dd425d36f6d7d80f4cdc149ff16b00ad587a246bfc25593f4db, sha256_status: computed}
+    physical: {pages: 95}
+    ocr: {state: complete, failed_pages: 95, unzipped_location: ocr/al-azhar-magmaa/رسالة في تفسير قوله تعالى وما أرسلنا من قبلك من رسول ولا نبي.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-064
+    title: رسالة في تفسير قوله وعنده مفاتح الغيب
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: رسالة في تفسير قوله وعنده مفاتح الغيب.pdf, bytes: 4837164, pages: 119, sha256: 4113cb6ef8f2d17d427b46725491ccf1bea5a99a971aa4c9c778694753821040}
+    acquisition: {file_name: رسالة في تفسير قوله وعنده مفاتح الغيب.pdf, bytes: 4837164, sha256: 4113cb6ef8f2d17d427b46725491ccf1bea5a99a971aa4c9c778694753821040, sha256_status: computed}
+    physical: {pages: 119}
+    ocr: {state: complete, failed_pages: 119, unzipped_location: ocr/al-azhar-magmaa/رسالة في تفسير قوله وعنده مفاتح الغيب.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-065
+    title: رسالة في تقسيم الدلالة
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: رسالة في تقسيم الدلالة.pdf, bytes: 6834064, pages: 366, sha256: 9d083f27f7be48dd75be9989b563b7282b6bcdf8f58ce256ef8d9a79ba35879c}
+    acquisition: {file_name: رسالة في تقسيم الدلالة.pdf, bytes: 6834064, sha256: 9d083f27f7be48dd75be9989b563b7282b6bcdf8f58ce256ef8d9a79ba35879c, sha256_status: computed}
+    physical: {pages: 366}
+    ocr: {state: complete, failed_pages: 366, unzipped_location: ocr/al-azhar-magmaa/رسالة في تقسيم الدلالة.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-066
+    title: رسالة في حياة أم المؤمنين خديجة زوج الرسول
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: رسالة في حياة أم المؤمنين خديجة زوج الرسول ﷺ.pdf, bytes: 3976335, pages: 208, sha256: dbf6238794a684170a62ed79b12aa031ed71cbd4574181a266013d26b3440306}
+    acquisition: {file_name: رسالة في حياة أم المؤمنين خديجة زوج الرسول ﷺ.pdf, bytes: 3976335, sha256: dbf6238794a684170a62ed79b12aa031ed71cbd4574181a266013d26b3440306, sha256_status: computed}
+    physical: {pages: 208}
+    ocr: {state: complete, failed_pages: 208, unzipped_location: ocr/al-azhar-magmaa/رسالة في حياة أم المؤمنين خديجة زوج الرسول ﷺ.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-067
+    title: رسالة في عصمة الأنبياء محمد يونس
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: رسالة في عصمة الأنبياء محمد يونس.pdf, bytes: 11941210, pages: 174, sha256: cd99a8eecff0ac38538062ad50b9c316d1ef40ec5a52c39b5d00c48b27753f82}
+    acquisition: {file_name: رسالة في عصمة الأنبياء محمد يونس.pdf, bytes: 11941210, sha256: cd99a8eecff0ac38538062ad50b9c316d1ef40ec5a52c39b5d00c48b27753f82, sha256_status: computed}
+    physical: {pages: 174}
+    ocr: {state: complete, failed_pages: 174, unzipped_location: ocr/al-azhar-magmaa/رسالة في عصمة الأنبياء محمد يونس.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-068
+    title: رسالة في علوم البلاغة نشأتها مؤلفاتها طريقة تدريسها
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: رسالة في علوم البلاغة نشأتها مؤلفاتها طريقة تدريسها.pdf, bytes: 15219338, pages: 151, sha256: 8b81db673b42dccb16e4d908280dfc3842d4576c01dbf258f88207fee3923334}
+    acquisition: {file_name: رسالة في علوم البلاغة نشأتها مؤلفاتها طريقة تدريسها.pdf, bytes: 15219338, sha256: 8b81db673b42dccb16e4d908280dfc3842d4576c01dbf258f88207fee3923334, sha256_status: computed}
+    physical: {pages: 151}
+    ocr: {state: complete, failed_pages: 151, unzipped_location: ocr/al-azhar-magmaa/رسالة في علوم البلاغة نشأتها مؤلفاتها طريقة تدريسها.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-069
+    title: رسالة في مباحث القضايا في علم المنطق لفرج عبد السلام الأميرية
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: رسالة في مباحث القضايا في علم المنطق لفرج عبد السلام الأميرية.pdf, bytes: 2947045, pages: 128, sha256: 96b44933c1db96b05dfdf9e4de15d970f3e904670065b3c4fe09dc1b405311b9}
+    acquisition: {file_name: رسالة في مباحث القضايا في علم المنطق لفرج عبد السلام الأميرية.pdf, bytes: 2947045, sha256: 96b44933c1db96b05dfdf9e4de15d970f3e904670065b3c4fe09dc1b405311b9, sha256_status: computed}
+    physical: {pages: 128}
+    ocr: {state: complete, failed_pages: 128, unzipped_location: ocr/al-azhar-magmaa/رسالة في مباحث القضايا في علم المنطق لفرج عبد السلام الأميرية.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-070
+    title: رسالة في مبحث القضايا في علم المنطق
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: رسالة في مبحث القضايا في علم المنطق.pdf, bytes: 3367896, pages: 151, sha256: fc1ff482f1f7374569da1c7341ee94663dbdace3c0aa197c11f8e68d1d1f0c56}
+    acquisition: {file_name: رسالة في مبحث القضايا في علم المنطق.pdf, bytes: 3367896, sha256: fc1ff482f1f7374569da1c7341ee94663dbdace3c0aa197c11f8e68d1d1f0c56, sha256_status: computed}
+    physical: {pages: 151}
+    ocr: {state: complete, failed_pages: 151, unzipped_location: ocr/al-azhar-magmaa/رسالة في مبحث القضايا في علم المنطق.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-071
+    title: سفير الاسلام إلى سائر الأقوام
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: سفير الاسلام إلى سائر الأقوام.pdf, bytes: 1958073, pages: 53, sha256: 8dae1b4f946cb56db9d750f292e9bfb84c8ec69cfbf33faa7d3767ee2d85b52c}
+    acquisition: {file_name: سفير الاسلام إلى سائر الأقوام.pdf, bytes: 1958073, sha256: 8dae1b4f946cb56db9d750f292e9bfb84c8ec69cfbf33faa7d3767ee2d85b52c, sha256_status: computed}
+    physical: {pages: 53}
+    ocr: {state: complete, failed_pages: 53, unzipped_location: ocr/al-azhar-magmaa/سفير الاسلام إلى سائر الأقوام.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-072
+    title: سنة الرسول
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: سنة الرسول.pdf, bytes: 2012390, pages: 121, sha256: 19dd2adfb06267fa868de0535f9043f6472a7e6f063577f9520650532ac6a04f}
+    acquisition: {file_name: سنة الرسول.pdf, bytes: 2012390, sha256: 19dd2adfb06267fa868de0535f9043f6472a7e6f063577f9520650532ac6a04f, sha256_status: computed}
+    physical: {pages: 121}
+    ocr: {state: complete, failed_pages: 121, unzipped_location: ocr/al-azhar-magmaa/سنة الرسول.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-073
+    title: سنن الله في المجتمع من خلال القرآن محمد الصادق عرجون الأميرية
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: سنن الله في المجتمع من خلال القرآن محمد الصادق عرجون الأميرية.pdf, bytes: 4196540, pages: 80, sha256: 107d31a881b28a18690cd9c6803b0f8525df7423dc2f4ac4f57d60d6996debbb}
+    acquisition: {file_name: سنن الله في المجتمع من خلال القرآن محمد الصادق عرجون الأميرية.pdf, bytes: 4196540, sha256: 107d31a881b28a18690cd9c6803b0f8525df7423dc2f4ac4f57d60d6996debbb, sha256_status: computed}
+    physical: {pages: 80}
+    ocr: {state: complete, failed_pages: 80, unzipped_location: ocr/al-azhar-magmaa/سنن الله في المجتمع من خلال القرآن محمد الصادق عرجون الأميرية.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-074
+    title: شعر النساء في الأدب العربي
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: شعر النساء في الأدب العربي.pdf, bytes: 5658416, pages: 432, sha256: 8de304f14e6c9a309c776add4f6732360bd8a34341ef8e8273f6ca90fd495eec}
+    acquisition: {file_name: شعر النساء في الأدب العربي.pdf, bytes: 5658416, sha256: 8de304f14e6c9a309c776add4f6732360bd8a34341ef8e8273f6ca90fd495eec, sha256_status: computed}
+    physical: {pages: 432}
+    ocr: {state: complete, failed_pages: 432, unzipped_location: ocr/al-azhar-magmaa/شعر النساء في الأدب العربي.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-075
+    title: عدة الحصن الحصين من كلام سيد المرسلين
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: عدة الحصن الحصين من كلام سيد المرسلين.pdf, bytes: 20251209, pages: 337, sha256: 890dd0acbbc4281502cb7b9c746e7eb6513e1eda2e598e623a2a33e11c7663e9}
+    acquisition: {file_name: عدة الحصن الحصين من كلام سيد المرسلين.pdf, bytes: 20251209, sha256: 890dd0acbbc4281502cb7b9c746e7eb6513e1eda2e598e623a2a33e11c7663e9, sha256_status: computed}
+    physical: {pages: 337}
+    ocr: {state: complete, failed_pages: 337, unzipped_location: ocr/al-azhar-magmaa/عدة الحصن الحصين من كلام سيد المرسلين.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-076
+    title: عناية المسلمين بالسنة ومدخل لعلوم الحديث
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: عناية المسلمين بالسنة ومدخل لعلوم الحديث.pdf, bytes: 2903653, pages: 174, sha256: 88b2a56ad8af3217b92ba35476848140965301cdaa050cb7b795811aa6e3bd60}
+    acquisition: {file_name: عناية المسلمين بالسنة ومدخل لعلوم الحديث.pdf, bytes: 2903653, sha256: 88b2a56ad8af3217b92ba35476848140965301cdaa050cb7b795811aa6e3bd60, sha256_status: computed}
+    physical: {pages: 174}
+    ocr: {state: complete, failed_pages: 174, unzipped_location: ocr/al-azhar-magmaa/عناية المسلمين بالسنة ومدخل لعلوم الحديث.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-077
+    title: عودة القدس
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: عودة القدس.pdf, bytes: 1390258, pages: 74, sha256: ccbf50601fc5527cd609314ea0031901364a436a7ccd78afac6d784d92e8c3b3}
+    acquisition: {file_name: عودة القدس.pdf, bytes: 1390258, sha256: ccbf50601fc5527cd609314ea0031901364a436a7ccd78afac6d784d92e8c3b3, sha256_status: computed}
+    physical: {pages: 74}
+    ocr: {state: complete, failed_pages: 74, unzipped_location: ocr/al-azhar-magmaa/عودة القدس.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-078
+    title: فاطمةُ بنتُ محمدٍ
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: فاطمةُ بنتُ محمدٍ صلى الله عليه وسلم.pdf, bytes: 15672337, pages: 168, sha256: 594e9691fa6d82de280df624aea78d086c5268aa1b8aeac6b503f3a75ff3b7ef}
+    acquisition: {file_name: فاطمةُ بنتُ محمدٍ صلى الله عليه وسلم.pdf, bytes: 15672337, sha256: 594e9691fa6d82de280df624aea78d086c5268aa1b8aeac6b503f3a75ff3b7ef, sha256_status: computed}
+    physical: {pages: 168}
+    ocr: {state: complete, failed_pages: 168, unzipped_location: ocr/al-azhar-magmaa/فاطمةُ بنتُ محمدٍ صلى الله عليه وسلم.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-079
+    title: فرقان القرآن بين صفات الخالق وصفات الأكوان
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: فرقان القرآن بين صفات الخالق وصفات الأكوان.pdf, bytes: 8421172, pages: 288, sha256: 3ce795ed82b057071e4c0413ac6a2dd8539ffa9feaafdd3a464d1adae07f0976}
+    acquisition: {file_name: فرقان القرآن بين صفات الخالق وصفات الأكوان.pdf, bytes: 8421172, sha256: 3ce795ed82b057071e4c0413ac6a2dd8539ffa9feaafdd3a464d1adae07f0976, sha256_status: computed}
+    physical: {pages: 288}
+    ocr: {state: complete, failed_pages: 288, unzipped_location: ocr/al-azhar-magmaa/فرقان القرآن بين صفات الخالق وصفات الأكوان.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-080
+    title: في_رحاب_السنة
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: في_رحاب_السنة.pdf, bytes: 1277218, pages: 153, sha256: 4dcccb91420241688aff68d1411d8ae68dd6204061396e5f1262253e5223ca68}
+    acquisition: {file_name: في_رحاب_السنة.pdf, bytes: 1277218, sha256: 4dcccb91420241688aff68d1411d8ae68dd6204061396e5f1262253e5223ca68, sha256_status: computed}
+    physical: {pages: 153}
+    ocr: {state: complete, failed_pages: 153, unzipped_location: ocr/al-azhar-magmaa/في_رحاب_السنة.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-081
+    title: قضية السنة
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: قضية السنة.pdf, bytes: 693946, pages: 57, sha256: 2f5fc921374f23b7c289a7b0058d252af41e4c2d2d03d586f331ac74aabaf975}
+    acquisition: {file_name: قضية السنة.pdf, bytes: 693946, sha256: 2f5fc921374f23b7c289a7b0058d252af41e4c2d2d03d586f331ac74aabaf975, sha256_status: computed}
+    physical: {pages: 57}
+    ocr: {state: complete, failed_pages: 57, unzipped_location: ocr/al-azhar-magmaa/قضية السنة.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-082
+    title: كتاب الأخلاق
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: كتاب الأخلاق.pdf, bytes: 15616447, pages: 232, sha256: cae3eb92abd4ef870e95f8a3fb32435f55ea5a17e81e7a010bed3b759ff09f42}
+    acquisition: {file_name: كتاب الأخلاق.pdf, bytes: 15616447, sha256: cae3eb92abd4ef870e95f8a3fb32435f55ea5a17e81e7a010bed3b759ff09f42, sha256_status: computed}
+    physical: {pages: 232}
+    ocr: {state: complete, failed_pages: 232, unzipped_location: ocr/al-azhar-magmaa/كتاب الأخلاق.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-083
+    title: كتاب حجة الله على خليقته
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: كتاب حجة الله على خليقته.pdf, bytes: 4508280, pages: 128, sha256: 293e702da9b918a5b2802309c6b10ea0ed50e33150b84741562dcdd9e7b3475c}
+    acquisition: {file_name: كتاب حجة الله على خليقته.pdf, bytes: 4508280, sha256: 293e702da9b918a5b2802309c6b10ea0ed50e33150b84741562dcdd9e7b3475c, sha256_status: computed}
+    physical: {pages: 128}
+    ocr: {state: complete, failed_pages: 128, unzipped_location: ocr/al-azhar-magmaa/كتاب حجة الله على خليقته.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-084
+    title: كيف_تعتمر_وتحج
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: كيف_تعتمر_وتحج.pdf, bytes: 1919906, pages: 87, sha256: 54f8ab34ee621c8e7edb5303489a3dbc1738708cd3fec267a3da279ba14fb935}
+    acquisition: {file_name: كيف_تعتمر_وتحج.pdf, bytes: 1919906, sha256: 54f8ab34ee621c8e7edb5303489a3dbc1738708cd3fec267a3da279ba14fb935, sha256_status: computed}
+    physical: {pages: 87}
+    ocr: {state: complete, failed_pages: 87, unzipped_location: ocr/al-azhar-magmaa/كيف_تعتمر_وتحج.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-085
+    title: محمد القائد الأعلى عبد المجيد هندي
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: محمد القائد الأعلى عبد المجيد هندي.pdf, bytes: 17234702, pages: 198, sha256: 78afe055b65a8e277cc678c27833c4e9208b4e1c7f05c1fa1531386b607dae23}
+    acquisition: {file_name: محمد القائد الأعلى عبد المجيد هندي.pdf, bytes: 17234702, sha256: 78afe055b65a8e277cc678c27833c4e9208b4e1c7f05c1fa1531386b607dae23, sha256_status: computed}
+    physical: {pages: 198}
+    ocr: {state: complete, failed_pages: 198, unzipped_location: ocr/al-azhar-magmaa/محمد القائد الأعلى عبد المجيد هندي.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-086
+    title: مذكرات التوحيد الجزء 2
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: مذكرات التوحيد الجزء 2.pdf, bytes: 3672664, pages: 279, sha256: c4703313f36a2117213fd55534e1b3feca62c15e7e250b632b6574453f097e71}
+    acquisition: {file_name: مذكرات التوحيد الجزء 2.pdf, bytes: 3672664, sha256: c4703313f36a2117213fd55534e1b3feca62c15e7e250b632b6574453f097e71, sha256_status: computed}
+    physical: {pages: 279}
+    ocr: {state: complete, failed_pages: 279, unzipped_location: ocr/al-azhar-magmaa/مذكرات التوحيد الجزء 2.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-087
+    title: مذكرات التوحيد للمرحلة الابتدائية
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: مذكرات التوحيد للمرحلة الابتدائية.pdf, bytes: 6139443, pages: 164, sha256: ace10597a5258a8757ee9ac025d30ee6263a11dcc1133319b07095b5631f33f6}
+    acquisition: {file_name: مذكرات التوحيد للمرحلة الابتدائية.pdf, bytes: 6139443, sha256: ace10597a5258a8757ee9ac025d30ee6263a11dcc1133319b07095b5631f33f6, sha256_status: computed}
+    physical: {pages: 164}
+    ocr: {state: complete, failed_pages: 164, unzipped_location: ocr/al-azhar-magmaa/مذكرات التوحيد للمرحلة الابتدائية.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-088
+    title: مذكرات في التوحيد ج3
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: مذكرات في التوحيد ج3.pdf, bytes: 6530678, pages: 416, sha256: 9f00ce4f44155bddfb97f73741f6477954ea5bc8186dd76a6358aa1a5fe0fffc}
+    acquisition: {file_name: مذكرات في التوحيد ج3.pdf, bytes: 6530678, sha256: 9f00ce4f44155bddfb97f73741f6477954ea5bc8186dd76a6358aa1a5fe0fffc, sha256_status: computed}
+    physical: {pages: 416}
+    ocr: {state: complete, failed_pages: 416, unzipped_location: ocr/al-azhar-magmaa/مذكرات في التوحيد ج3.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-089
+    title: مذكرة التوحيد ج1
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: مذكرة التوحيد ج1.pdf, bytes: 3277935, pages: 224, sha256: da2412a1f3cf040a97800b0a6777f29d61e34a809c7b68765ac418b200aeae9d}
+    acquisition: {file_name: مذكرة التوحيد ج1.pdf, bytes: 3277935, sha256: da2412a1f3cf040a97800b0a6777f29d61e34a809c7b68765ac418b200aeae9d, sha256_status: computed}
+    physical: {pages: 224}
+    ocr: {state: complete, failed_pages: 224, unzipped_location: ocr/al-azhar-magmaa/مذكرة التوحيد ج1.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-090
+    title: مرحلة الطفولة من الناحية النفسية والتربيبية
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: مرحلة الطفولة من الناحية النفسية والتربيبية.pdf, bytes: 2763207, pages: 118, sha256: a0f1fc1582b0e725632a97697d8e421b981037aa05de2d2925a0972ac45334bd}
+    acquisition: {file_name: مرحلة الطفولة من الناحية النفسية والتربيبية.pdf, bytes: 2763207, sha256: a0f1fc1582b0e725632a97697d8e421b981037aa05de2d2925a0972ac45334bd, sha256_status: computed}
+    physical: {pages: 118}
+    ocr: {state: complete, failed_pages: 118, unzipped_location: ocr/al-azhar-magmaa/مرحلة الطفولة من الناحية النفسية والتربيبية.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-091
+    title: مقالات أهل الفرق
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: مقالات أهل الفرق.pdf, bytes: 7970708, pages: 280, sha256: 0e6eb9873823be4e7f8ab68a9a62ff2f3dacfe437e06aff1756a618fb86eba41}
+    acquisition: {file_name: مقالات أهل الفرق.pdf, bytes: 7970708, sha256: 0e6eb9873823be4e7f8ab68a9a62ff2f3dacfe437e06aff1756a618fb86eba41, sha256_status: computed}
+    physical: {pages: 280}
+    ocr: {state: complete, failed_pages: 280, unzipped_location: ocr/al-azhar-magmaa/مقالات أهل الفرق.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-092
+    title: مكانة السنة فى بيان الاحكام الاسلامية
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: مكانة السنة فى بيان الاحكام الاسلامية.pdf, bytes: 1526150, pages: 87, sha256: c882de001bcbb687bb36a7b6ad99790f5a4a1f0825cc10307011a0936a2d0384}
+    acquisition: {file_name: مكانة السنة فى بيان الاحكام الاسلامية.pdf, bytes: 1526150, sha256: c882de001bcbb687bb36a7b6ad99790f5a4a1f0825cc10307011a0936a2d0384, sha256_status: computed}
+    physical: {pages: 87}
+    ocr: {state: complete, failed_pages: 87, unzipped_location: ocr/al-azhar-magmaa/مكانة السنة فى بيان الاحكام الاسلامية.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-093
+    title: من الفلسفة اليونانية إلى الفلسفة الحديثة
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: من الفلسفة اليونانية إلى الفلسفة الحديثة.pdf, bytes: 17046744, pages: 383, sha256: 1631eac810c9667faebd024683e2676acf8dc90facd90ba7c4e82700ea2b80a5}
+    acquisition: {file_name: من الفلسفة اليونانية إلى الفلسفة الحديثة.pdf, bytes: 17046744, sha256: 1631eac810c9667faebd024683e2676acf8dc90facd90ba7c4e82700ea2b80a5, sha256_status: computed}
+    physical: {pages: 383}
+    ocr: {state: complete, failed_pages: 383, unzipped_location: ocr/al-azhar-magmaa/من الفلسفة اليونانية إلى الفلسفة الحديثة.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-094
+    title: من قضايا المال و العمل
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: من قضايا المال و العمل.pdf, bytes: 2357268, pages: 58, sha256: cba2ae93ef02330fcda422a69cd4a3e9eb7be68578e6944ff1678bc48f9caf4d}
+    acquisition: {file_name: من قضايا المال و العمل.pdf, bytes: 2357268, sha256: cba2ae93ef02330fcda422a69cd4a3e9eb7be68578e6944ff1678bc48f9caf4d, sha256_status: computed}
+    physical: {pages: 58}
+    ocr: {state: complete, failed_pages: 58, unzipped_location: ocr/al-azhar-magmaa/من قضايا المال و العمل.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-095
+    title: منهج القرآن في بناء المجتمع
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: منهج القرآن في بناء المجتمع  .pdf, bytes: 3693389, pages: 216, sha256: ec8c5be7959fdbd5a493e83260a5b77e018c0952ae6779bff8fbfb82ad346a9a}
+    acquisition: {file_name: منهج القرآن في بناء المجتمع  .pdf, bytes: 3693389, sha256: ec8c5be7959fdbd5a493e83260a5b77e018c0952ae6779bff8fbfb82ad346a9a, sha256_status: computed}
+    physical: {pages: 216}
+    ocr: {state: complete, failed_pages: 216, unzipped_location: ocr/al-azhar-magmaa/منهج القرآن في بناء المجتمع  .txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-096
+    title: منهج توثيق السنة النبوية الشريفة
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: منهج توثيق السنة النبوية الشريفة.pdf, bytes: 745244, pages: 57, sha256: 85f5a99a69f44776d2b67c0d3d2ce6b244323d5cdd6eb663b829f1ad9efbd257}
+    acquisition: {file_name: منهج توثيق السنة النبوية الشريفة.pdf, bytes: 745244, sha256: 85f5a99a69f44776d2b67c0d3d2ce6b244323d5cdd6eb663b829f1ad9efbd257, sha256_status: computed}
+    physical: {pages: 57}
+    ocr: {state: complete, failed_pages: 57, unzipped_location: ocr/al-azhar-magmaa/منهج توثيق السنة النبوية الشريفة.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-097
+    title: مهمة الاسلام
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: مهمة الاسلام.pdf, bytes: 22779875, pages: 291, sha256: 7d51e991b1fc9da62617b1ddc454a42dd9afb7c8dc5513f993b10e7565d95116}
+    acquisition: {file_name: مهمة الاسلام.pdf, bytes: 22779875, sha256: 7d51e991b1fc9da62617b1ddc454a42dd9afb7c8dc5513f993b10e7565d95116, sha256_status: computed}
+    physical: {pages: 291}
+    ocr: {state: complete, failed_pages: 291, unzipped_location: ocr/al-azhar-magmaa/مهمة الاسلام.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-098
+    title: نجاة الروح وكنز الفتوح
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: نجاة الروح وكنز الفتوح.pdf, bytes: 4950352, pages: 120, sha256: f55efcf315ffc4171fdbadf5ceddfb05e4221c3c9e585b80b3b76481708d0441}
+    acquisition: {file_name: نجاة الروح وكنز الفتوح.pdf, bytes: 4950352, sha256: f55efcf315ffc4171fdbadf5ceddfb05e4221c3c9e585b80b3b76481708d0441, sha256_status: computed}
+    physical: {pages: 120}
+    ocr: {state: complete, failed_pages: 120, unzipped_location: ocr/al-azhar-magmaa/نجاة الروح وكنز الفتوح.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-099
+    title: نشأة الفقه الاجتهادي وأطواره
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: نشأة الفقه الاجتهادي وأطواره.pdf, bytes: 1520822, pages: 117, sha256: 0a4567e192a9722f5a22db2f409474c82b2a82f6576e26dfe0d91661d0015ad5}
+    acquisition: {file_name: نشأة الفقه الاجتهادي وأطواره.pdf, bytes: 1520822, sha256: 0a4567e192a9722f5a22db2f409474c82b2a82f6576e26dfe0d91661d0015ad5, sha256_status: computed}
+    physical: {pages: 117}
+    ocr: {state: complete, failed_pages: 117, unzipped_location: ocr/al-azhar-magmaa/نشأة الفقه الاجتهادي وأطواره.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-100
+    title: نظرات فى التجديد
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: نظرات فى التجديد.pdf, bytes: 8446744, pages: 545, sha256: 56df2f8c40baec89bb898129d3fc4707dd924cad31fc6ef89df9c2b33c5d8635}
+    acquisition: {file_name: نظرات فى التجديد.pdf, bytes: 8446744, sha256: 56df2f8c40baec89bb898129d3fc4707dd924cad31fc6ef89df9c2b33c5d8635, sha256_status: computed}
+    physical: {pages: 545}
+    ocr: {state: complete, failed_pages: 545, unzipped_location: ocr/al-azhar-magmaa/نظرات فى التجديد.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-101
+    title: نظرات في الاسلام
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: نظرات في الاسلام .pdf, bytes: 1950524, pages: 176, sha256: b9d58ff0b560f7ef00638781c1cdc634f66b27734655028d1e2162cb45defcdb}
+    acquisition: {file_name: نظرات في الاسلام .pdf, bytes: 1950524, sha256: b9d58ff0b560f7ef00638781c1cdc634f66b27734655028d1e2162cb45defcdb, sha256_status: computed}
+    physical: {pages: 176}
+    ocr: {state: complete, failed_pages: 176, unzipped_location: ocr/al-azhar-magmaa/نظرات في الاسلام .txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-102
+    title: نهائى كتاب نظرات موضوعية للأميرية
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: نهائى كتاب نظرات موضوعية للأميرية.pdf, bytes: 2296555, pages: 252, sha256: 558d35379d9fdd7140120af52a66232de79f979f2bb69e770a6632455f1491cf}
+    acquisition: {file_name: نهائى كتاب نظرات موضوعية للأميرية.pdf, bytes: 2296555, sha256: 558d35379d9fdd7140120af52a66232de79f979f2bb69e770a6632455f1491cf, sha256_status: computed}
+    physical: {pages: 252}
+    ocr: {state: complete, failed_pages: 252, unzipped_location: ocr/al-azhar-magmaa/نهائى كتاب نظرات موضوعية للأميرية.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-103
+    title: نهاية الفلسفة الإسلامية في المشرقً وبدايتها في المغرب سليمان خميس
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: نهاية الفلسفة الإسلامية في المشرقً وبدايتها في المغرب سليمان خميس.pdf, bytes: 15633541, pages: 199, sha256: acff413186835befda91dc16153e6249ddf97af6533b31d049be50fe0a36446e}
+    acquisition: {file_name: نهاية الفلسفة الإسلامية في المشرقً وبدايتها في المغرب سليمان خميس.pdf, bytes: 15633541, sha256: acff413186835befda91dc16153e6249ddf97af6533b31d049be50fe0a36446e, sha256_status: computed}
+    physical: {pages: 199}
+    ocr: {state: complete, failed_pages: 199, unzipped_location: ocr/al-azhar-magmaa/نهاية الفلسفة الإسلامية في المشرقً وبدايتها في المغرب سليمان خميس.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  - id: azhar-104
+    title: هذا هو الإسلام مرتب
+    category: al-azhar-magmaa
+    volumes: 1 file(s)
+    files:
+    - {name: هذا هو الإسلام مرتب.pdf, bytes: 3681622, pages: 210, sha256: c3d05405b62d77ef5d7af3189f9166fc5ca9fd326a4364aaef48f0a6fe86d3ca}
+    acquisition: {file_name: هذا هو الإسلام مرتب.pdf, bytes: 3681622, sha256: c3d05405b62d77ef5d7af3189f9166fc5ca9fd326a4364aaef48f0a6fe86d3ca, sha256_status: computed}
+    physical: {pages: 210}
+    ocr: {state: complete, failed_pages: 210, unzipped_location: ocr/al-azhar-magmaa/هذا هو الإسلام مرتب.txt}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); OCR text kept under ocr/ at the harvest root as .txt; page coverage not checked; ledger (azhar-academy-progress.md) says all 104 PDFs OCRed with 0 failures
+  # END books:al-azhar-magmaa
   # END books
 
 # audio_series and video_series share one shape (media_type: audio | video | audio_video).
