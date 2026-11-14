@@ -36,6 +36,8 @@ open a new block on top with the new version and today's date.
 - **The Surah app is registered as a facts-only source, and two tafsir works now name the edition it carries.** The app (Tafsir Center for Quranic Studies) and its public API list twenty projects, among them Ibn Kathir in the Dar Ibn al-Jawzi edition and al-Sa'di; no terms page exists, so only catalogue facts are used and the Qur'an wording is never taken from it. The Ibn Kathir and al-Sa'di work pages gain an edition section in Arabic, English and Urdu (decision record dec-20261114-279, on the founder's docket).
 ### Data
 - **Four hadith scholars now have full biographies in Arabic, English and Urdu**, each read from its own entry in al-Dhahabi's Siyar A'lam al-Nubala' and cited to the page: Malik ibn Mighwal, Thawr ibn Yazid (with the charge of holding qadar given to those who made it), Isma'il ibn Abi Khalid and Zahir ibn Ahmad al-Sarakhsi. The cards for Thawr and Zahir had wrong or placeholder death years and now carry the dates the book gives (153 and 389 AH). All four are draft until a human reads them.
+### Data
+- **Four more hadith scholars have full trilingual biographies from al-Dhahabi's Siyar A'lam al-Nubala', cited to the page:** Abd al-Malik ibn Umayr (with the critics' differing verdicts on his precision), Ibrahim ibn Abi Abla, al-Zubayr ibn Adi and Sufyan ibn Waki' (whose copyist inserted hadith into his books). All draft until a human reads them.
 
 ## v1.30.0 — 2026-11-14
 ### Added
