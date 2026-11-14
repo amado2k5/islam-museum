@@ -6,22 +6,24 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لأحمد بن عبد الله الزواوي، مفتي الجزائر المالكي في القرن الخامس عشر، توفي سنة ١٤٨٨م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ahmad ibn Abdallah al-Zawawi, the fifteenth-century Maliki mufti of Algiers, d. 1488; the biographical entry is not yet checked on the page."
+  ar: "أحمد بن عبد الله الجزائري الزواوي، فاضل مالكي من قبيلة زواوة، كانت إقامته بالجزائر، له اللامية في علم الكلام المسماة الجزائرية في العقائد الإيمانية وقد شرحها السنوسي. يذكر الزركلي 800-884 هـ."
+  en: "Ahmad ibn Abdallah al-Jaza'iri al-Zawawi, a Maliki scholar of the Zawawa tribe who lived in Algiers; author of a lam-rhymed poem on theology, al-Jaza'iriyya fi al-Aqa'id al-Imaniyya, on which al-Sanusi wrote a commentary. Al-Zirikli prints 800-884 AH (1398-1479)."
 wings: [people]
 regions: [maghreb]
 periods: [period/mongol-post-mongol]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q16119093
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0053
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
+born: { edtf: "1398", calendar: gregorian, precision: year, note: "al-Zirikli, vol. 1 p. 160, prints 800 AH = 1398", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+died: { edtf: "1479", calendar: gregorian, precision: year, note: "al-Zirikli, vol. 1 p. 160, prints 884 AH = 1479; the earlier stub summary gave 1488, to be settled", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 relations:
-  - { type: lived_in, target: place/algiers, note: "From text: of Algiers", sources: [source/al-aalam], confidence: low }
+  - { type: lived_in, target: place/algiers, note: "From text: of Algiers", sources: [source/al-aalam], confidence: medium }

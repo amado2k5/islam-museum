@@ -6,26 +6,26 @@ label:
 roles: [vizier]
 gender: male
 summary:
-  ar: "بطاقة أولية لأبي شجاع الروذراوري، الوزير العباسي وصاحب ذيل تجارب الأمم؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abu Shuja al-Rudhrawari, the Abbasid vizier and continuator of the Tajarib al-Umam; his entry is not yet checked on the page."
+  ar: "محمد بن الحسين بن محمد بن عبد الله، أبو شجاع الروذراوري، ظهير الدين، وزير المقتدي العباسي من سنة 476 هـ إلى عزله سنة 484 هـ، عالم بالأدب وصاحب ذيل تجارب الأمم، جاور بالمدينة بعد حجه سنة 487 هـ ودفن بالبقيع."
+  en: "Muhammad ibn al-Husayn ibn Muhammad ibn Abdallah, Abu Shuja al-Rudhrawari, Zahir al-Din, vizier to the Abbasid al-Muqtadi from 476 AH until his dismissal in 484 AH, learned in letters, author of the continuation of Tajarib al-Umam; after the pilgrimage of 487 AH he stayed in Medina and was buried at al-Baqi'. Al-Zirikli prints 437-488 AH (1045-1095)."
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/buyid-seljuk-fatimid-era]
 born: { edtf: "1045", precision: year, status: tradition, derived: true }
 died: { edtf: "1094", precision: year, status: tradition, derived: true }
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q16159658
   viaf: "16349643"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 occupations:
   - job: job/vizier
     kind: primary
@@ -34,3 +34,6 @@ occupations:
     sources: [source/al-aalam]
 relations:
   - { type: lived_in, target: place/iran, note: "Only the record-level region (persia-central-asia) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }
+  - { type: born_in, target: place/al-ahwaz, note: "al-Zirikli, vol. 6 pp. 100-101: born at al-Ahwaz or at the fortress of Kankur in the Hamadhan district; the place is not settled", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: low }
+  - { type: died_in, target: place/medina, note: "al-Zirikli, vol. 6 pp. 100-101: stayed in Medina after the pilgrimage of 487 AH until he died", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
+  - { type: buried_in, target: place/baqi-al-gharqad, note: "al-Zirikli, vol. 6 pp. 100-101: buried at al-Baqi'", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }

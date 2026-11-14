@@ -1,0 +1,18 @@
+id: concept/canon-overcoming-disgust-and-nausea-at-a-drug
+class: concept
+kind: scientific
+label: { ar: "التغلب على كراهة الدواء والغثيان عند ابن سينا", en: "Overcoming disgust and nausea at a drug in the Canon", ur: "دوا کی کراہت اور متلی پر قابو قانون میں" }
+summary:
+  ar: "يذكر ابن سينا حيلاً لمن يعاف الدواء أو يخاف الغثيان: تشمم النعناع والسذاب والكرفس والسفرجل، وسد المنخرين، ومضغ الطرخون، وتلويث الحب بالعسل أو السكر، ومسحه بالقيروطي، أو بلعه بعد ملء الفم ماء {cite:canon-ibn-sina-print-v1 p.280}."
+  en: "Ibn Sina gives devices for someone who loathes a drug or fears nausea: smelling mint, rue, celery and quince, stopping the nostrils, chewing tarragon, coating pills in honey or sugar, smearing them with cerate, or swallowing them after filling the mouth with water {cite:canon-ibn-sina-print-v1 p.280}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/medicine, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 4, chapters 4 to 10 on common rules for vomiting and purging, purging, excess, remedies and the purgative drugs (scan pages 276 to 285), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-p276
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

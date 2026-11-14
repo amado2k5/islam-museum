@@ -6,25 +6,25 @@ label:
 roles: [muhaddith]
 gender: male
 summary:
-  ar: "بطاقة أولية لأبي زرعة الدمشقي، المحدث من علماء القرن الثالث؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abu Zur'a al-Dimashqi, the third-century hadith scholar; his entry is not yet checked on the page."
+  ar: "عبد الرحمن بن عمرو بن عبد الله بن صفوان النصري، أبو زرعة الدمشقي، من أئمة زمانه في الحديث ورجاله، دمشقي المولد والوفاة، له كتاب في التاريخ وعلل الرجال. يذكر الزركلي وفاته سنة 280 هـ."
+  en: "Abd al-Rahman ibn Amr ibn Abdallah ibn Safwan al-Nasri, Abu Zur'a al-Dimashqi, a leading hadith authority of his time and expert on its narrators, of Damascus where he died; author of a book on history and the defects of narrators. Al-Zirikli prints his death as 280 AH (893)."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
 died: { edtf: "0895~", precision: year, status: tradition, derived: true }
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q16118107
   viaf: "100625700"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 occupations:
   - job: job/muhaddith
     kind: primary
@@ -33,3 +33,4 @@ occupations:
     sources: [source/al-aalam]
 relations:
   - { type: lived_in, target: place/damascus, note: "Place association from the person's nisba/name (الدمشقي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
+  - { type: died_in, target: place/damascus, note: "al-Zirikli, vol. 3 p. 320: from Damascus and died there", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }

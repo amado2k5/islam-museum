@@ -6,24 +6,25 @@ label:
 roles: [grand vizier, astronomer]
 gender: male
 summary:
-  ar: "بطاقة أولية لأحمد مختار باشا الغازي، الصدر الأعظم والقائد العثماني وصاحب المؤلفات الفلكية؛ توفي سنة ١٩١٩م ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ahmed Muhtar Pasha Ghazi, the Ottoman grand vizier and commander who also wrote astronomical works; he died in 1919 and his entry is not yet checked on the page."
+  ar: "أحمد مختار باشا الغازي، رياضي تركي وقائد عثماني تعلم باسطنبول وخدم في الحجاز واليمن وكريت وألبانيا ومصر، وصار صدرا أعظم سنة 1913 وتوفي بالأستانة سنة 1337 هـ، وصنف كتبه الفلكية بالتركية. يذكر الزركلي 1253؟-1337 هـ."
+  en: "Ahmad Mukhtar Pasha al-Ghazi, a Turkish mathematician and Ottoman commander who studied in Istanbul and served in the Hijaz, Yemen, Crete, Albania and Egypt; grand vizier in 1913; died in Istanbul in 1337 AH; wrote his astronomical works in Turkish. Al-Zirikli prints 1253? - 1337 AH (1837-1919)."
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/colonial-era]
 died: { edtf: "1919", precision: year, status: tradition, derived: true }
-sources: [source/dawlat-uthmaniyya-salabi]
+sources: [source/dawlat-uthmaniyya-salabi, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q401411
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
+born: { edtf: "1837~", calendar: gregorian, precision: year, note: "al-Zirikli, vol. 1 p. 255, prints 1253? AH = 1837 with a question mark", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 occupations:
   - job: job/astronomer
     kind: secondary
@@ -32,3 +33,9 @@ occupations:
     sources: [source/dawlat-uthmaniyya-salabi]
 relations:
   - { type: lived_in, target: place/anatolia, note: "From text: Ottoman (nationality adjective); broad association, flagged for review.", sources: [source/dawlat-uthmaniyya-salabi], confidence: low }
+  - { type: died_in, target: place/istanbul, note: "al-Zirikli, vol. 1 p. 255: died at al-Asitana, the Ottoman capital", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }
+  - { type: lived_in, target: place/hijaz, note: "al-Zirikli, vol. 1 p. 255: held posts in the Hijaz", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: low }
+  - { type: lived_in, target: place/yemen, note: "al-Zirikli, vol. 1 p. 255: held posts in Yemen", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: low }
+  - { type: lived_in, target: place/crete, note: "al-Zirikli, vol. 1 p. 255: held posts in Crete", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: low }
+  - { type: lived_in, target: place/albania, note: "al-Zirikli, vol. 1 p. 255: held posts in Albania", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: low }
+  - { type: lived_in, target: place/misr, note: "al-Zirikli, vol. 1 p. 255: held posts in Egypt as high commissioner", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: low }

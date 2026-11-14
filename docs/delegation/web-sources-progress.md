@@ -1307,3 +1307,16 @@ GEMINI: person/al-mahdi-al-husayn - card/al-A'lam birth 384 AH; Wikipedia and Wi
 GEMINI: person/abu-al-abbas-al-sabti - card d. 1204 (al-Zirikli 524-601 AH, Wikidata Q2822099); Gemini 3 Jumada II 601 AH = 1205; Ibn al-Zayyat, al-Tashawwuf would settle it.
 GEMINI: person/muhammad-al-nafzawi - card born 1410~ died 1434~ (EI2); Gemini floruit c. 1410-1434; EI2 or the author's own work would settle it.
 GEMINI: person/yuhanna-al-dimashqi - card 675~ (Wikidata Q51884, circa); Gemini 676; the Oxford Dictionary of Byzantium would settle it.
+GEMINI: place/al-jafar-oasis - is our record Yaqut's al-Jafar (Sinai tract between Rafah and al-Khushabi) or an oasis in Egypt? Card: Idrisi oasis city of saffron/indigo at the lower end of the oases, coordinates 30.98, 32.6 (northern Sinai); Yaqut (2 p.145-146) gives three al-Jafar (Najd place, Daba water in Hijaz, Sinai sand tract), none an oasis city; a gazetteer or Idrisi passage settling the identity would decide. Skipped, packet 69.
+
+## Lane B2 packet m06 (14 Nov 2026)
+Written (ar, en, ur, draft): abu-said-al-khadimi (A'lam 7:68), abu-shuja-al-rudhrawari (6:100-101), abu-zurah-al-dimashqi (3:320), ahmad-al-arusi (1:262), ahmad-al-baali (1:162), ahmad-al-siddiq-al-ghumari (1:253), ahmad-al-zawawi (1:160), ahmad-ibn-harun-al-bardiji (1:265-266), ahmad-mukhtar-pasha (1:255), ahmad-ibn-said-al-darimi (Wafi 6:241).
+Page convention: the marker that closes the text was used; markers relied on: V07P068 (lines 111455, 111472), V06P100 (96743) and V06P101 (96762), V03P320 (53692, 53714), V01P262 (12492, 12509), V01P162 (7305, 7327), V01P253 (11995, 12008), V01P160 (7184, closing the Zawawi entry; hint said 159), V01P264/265/266 (12643, 12662; the last words of al-Bardiji's entry fall after the P265 marker), V01P255 (12117), Wafi V06P240 (after the Hamadhani entry) and V06P241 (closing the Darimi entry; hint said 240).
+Card corrections: al-Zawawi born 1398 and died 1479 added from the entry, stub summary (1488) replaced; al-Mukhtar Pasha born 1837~ added; places added or sourced for al-Khadimi, al-Rudhrawari, Abu Zur'a, al-Ba'li, al-Ghumari, al-Bardiji, al-Darimi, Muhtar Pasha; summaries rewritten from the entries.
+Skipped: none. Identity mismatches: none. Note: the A'lam entry for al-Arusi does not call him Grand Imam of al-Azhar (the card does); prose says the entry does not mention it.
+GEMINI: person/abu-said-al-khadimi - card 1701-1762 (Wikidata Q12178022); al-A'lam 1113-1176 AH = 1701-1763; TDV Islam Ansiklopedisi would settle it.
+GEMINI: person/abu-shuja-al-rudhrawari - card 1045-1094; al-A'lam 437-488 AH = 1045-1095; Ibn al-Jawzi, al-Muntazam or al-Dhahabi, Siyar would settle it.
+GEMINI: person/abu-zurah-al-dimashqi - card d. 895~ (Wikidata Q16118107); al-A'lam d. 280 AH = 893; al-Dhahabi, Siyar or Tahdhib al-Kamal would settle it.
+GEMINI: person/ahmad-al-baali - card 1696-1776 (Ibn Shatti); al-A'lam 1108-1189 AH = 1697-1775; Ibn Shatti, Mukhtasar Tabaqat al-Hanabila would settle it.
+GEMINI: person/ahmad-al-siddiq-al-ghumari - card 1902-1961; al-A'lam d. 1380 AH = 1960; a biography of Ahmad al-Ghumari giving the day and month of death would settle it.
+GEMINI: person/ahmad-al-zawawi - card summary d. 1488; al-A'lam 800-884 AH = 1398-1479; the biographical sources al-A'lam cites in its footnote (al-Sanusi's commentary preface, Nayl al-Ibtihaj) would settle it.

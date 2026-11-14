@@ -6,27 +6,29 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لأحمد بن عبد الله البعلي، فقيه القرن الثامن عشر، توفي سنة ١٧٧٥م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ahmad ibn Abdallah Ba'li, the eighteenth-century jurist, d. 1775; the biographical entry is not yet checked on the page."
+  ar: "أحمد بن عبد الله بن أحمد الحلبي البعلي، رياضي عالم بالفرائض حنبلي، أصله من حلب ومولده ودراسته بدمشق، اشتهر في بعلبك، ولي إفتاء الحنابلة بدمشق سنة 1182 هـ، وحج ودرس بالمدينة، وتوفي بدمشق. يذكر الزركلي 1108-1189 هـ."
+  en: "Ahmad ibn Abdallah ibn Ahmad al-Halabi al-Ba'li, a Hanbali mathematician and scholar of inheritance whose family came from Aleppo; born, raised and educated in Damascus, known in Baalbek, Hanbali mufti of Damascus from 1182 AH, taught in Medina after the pilgrimage and died in Damascus. Al-Zirikli prints 1108-1189 AH (1697-1775)."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/gunpowder-empires]
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q12184530
   viaf: "9352161763144322560005"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0066
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 born: { edtf: "1696", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Shatti (Mukhtasar Tabaqat al-Hanabila); al-Zirikli Confirmed on 13 November 2026 against Wikidata Q12184530 (P569, a statement with a reference), item revision 2477854021.", sources: [source/wikidata] }
 died: { edtf: "1776", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Shatti (Mukhtasar Tabaqat al-Hanabila); al-Zirikli Confirmed on 13 November 2026 against Wikidata Q12184530 (P570, a statement with a reference), item revision 2477854021.", sources: [source/wikidata] }
 relations:
-  - { type: born_in, target: place/damascus, note: "Wikidata Q3766 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
-  - { type: died_in, target: place/damascus, note: "Wikidata Q3766 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: born_in, target: place/damascus, note: "Wikidata Q3766 (P19); al-Zirikli, vol. 1 p. 162: born, raised and educated in Damascus", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002], confidence: high }
+  - { type: died_in, target: place/damascus, note: "Wikidata Q3766 (P20); al-Zirikli, vol. 1 p. 162: died in Damascus", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002], confidence: high }
   - { type: buried_in, target: place/bab-al-saghir-cemetery, note: "Wikidata Q96372940 (P119); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/baalbek, note: "al-Zirikli, vol. 1 p. 162: became well known in Baalbek and took his name from it", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }
+  - { type: lived_in, target: place/medina, note: "al-Zirikli, vol. 1 p. 162: made the pilgrimage and taught in Medina", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: low }
