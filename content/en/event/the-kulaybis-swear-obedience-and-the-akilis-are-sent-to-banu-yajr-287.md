@@ -1,0 +1,11 @@
+---
+id: event/the-kulaybis-swear-obedience-and-the-akilis-are-sent-to-banu-yajr-287
+lang: en
+source_lang: ar
+translators: ["Claude Sonnet 5.5 (claude-sonnet-5-5), draft translation"]
+---
+## Overview
+Some days later the [[group/banu-kulayb-saada|Kulaybis]] sent to [[person/al-hadi-yahya-al-rassi|al-Hadi]] asking him to send a party of [[group/al-yarsamiyyun-saada|Yarsamis]] to talk with them; he sent some and they met near [[place/allaf-yemen|Allaf]], and the Yarsamis returned to [[place/saada|Sa'da]] with a number of Kulaybis. {cite:sira-hadi-ila-al-haqq p.197} They went in to al-Hadi and excused themselves for their ignorance and for the wrongs they had done to themselves; he accepted it from them, had them swear to hear and obey, and ordered them to put the Akilis out of their country, which they undertook to do. {cite:sira-hadi-ila-al-haqq p.197}
+
+## Detail
+They went back to their clans and told them of the imam's forgiveness and pardon, broke with the Akilis and drove them from their land to the country of [[group/banu-yajr-saada|Banu Yajr]], where the Akilis stayed with them, together with a Kulaybi called [[person/sulayman-ibn-hajar-al-kulaybi|Sulayman ibn Hajar]], one of the Kulaybi chiefs, who did not feel safe after having fought al-Hadi alongside the Akilis and so stayed with them. {cite:sira-hadi-ila-al-haqq p.197} All the other Kulaybis came down to al-Hadi, who gave them safety and pardoned their faults, and they swore hearing and obedience and that they would leave no Akili in their country. {cite:sira-hadi-ila-al-haqq p.197} He sent them collectors to gather the alms on livestock and crops, and likewise collectors with the Uwayrat and the [[group/al-mahadhir-saada|Mahadhir]]; the collectors took what God Most High made due of the alms of grain and livestock. The narrator says that country had never been collected from since it existed, had never heard or obeyed a ruler, and that after this al-Hadi stayed at Sa'da, the land settled and people were quiet and secure. {cite:sira-hadi-ila-al-haqq p.197} It is the narrator's account of a Zaydi imam's settlement, with no verdict from the museum. It follows [[event/banu-kulayb-ask-al-hadi-for-safety-and-the-akili-crops-are-cut-287]].
