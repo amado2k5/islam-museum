@@ -16,7 +16,8 @@ provenance:
   run: lib-kamil-562-629-13
   localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-next-40-subjects-2026-11-04","source":"Urdu title and concise summary restated from the existing Arabic and English record and its defined sources; no new facts or source-page research."}
   model: "unknown"
-sources: [source/kamil-ibn-al-athir, source/shadharat-dhahab]
+sources: [source/kamil-ibn-al-athir, source/shadharat-dhahab, source/wikidata-al-malik-al-muazzam]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
 relations:
   - { type: born_in, target: place/cairo, note: "From text: born in Cairo", sources: [source/kamil-ibn-al-athir, source/shadharat-dhahab] }
+external_ids: { wikidata: "Q286553" }

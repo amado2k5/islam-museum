@@ -6,24 +6,30 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لأبي عبد الله محمد ابن رشيد السبتي، فقيه ومقرئ القرن الرابع عشر صاحب «بلبل الغواني»، توفي سنة ١٣٢١م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abu Abd Allah Muhammad ibn Rushayd al-Sabti, the fourteenth-century jurist, preacher and qadi, d. 1321; the biographical entry is not yet checked on the page."
+  ar: "محمد بن عمر بن محمد، أبو عبد الله، محب الدين ابن رشيد الفهري السبتي، رحالة عالم بالأدب عارف بالتفسير والتاريخ، ولد بسبتة وولي الخطابة بجامع غرناطة الأعظم ومات بفاس، ورحل إلى مصر والشام والحرمين سنة 683 هـ وصنف رحلته «ملء العيبة»، 657 إلى 721 هـ {cite:alam-zirikli-dar-al-ilm-2002 vol. 6 p. 314}."
+  en: "Muhammad ibn Umar ibn Muhammad, Abu Abd Allah, Muhibb al-Din Ibn Rushayd al-Fihri al-Sabti, a traveller and scholar of literature, exegesis and history; born in Ceuta, preacher at the great mosque of Granada, he died in Fez, and wrote the account of his journey of 683 AH to Egypt, the Levant and the two sanctuaries, Mil' al-Aybah, 657 to 721 AH (1259 to 1321 CE) {cite:alam-zirikli-dar-al-ilm-2002 vol. 6 p. 314}."
 wings: [people]
 regions: [andalus-europe]
 periods: [period/mongol-post-mongol]
-born: { edtf: "1259", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar Confirmed on 13 November 2026 against Wikidata Q3147453 (P569, a statement with a reference), item revision 2567909755.", sources: [source/wikidata] }
-died: { edtf: "1321", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar Confirmed on 13 November 2026 against Wikidata Q3147453 (P570, a statement with a reference), item revision 2567909755.", sources: [source/wikidata] }
+born: { edtf: "1259", hijri: "0657", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar Confirmed on 13 November 2026 against Wikidata Q3147453 (P569, a statement with a reference), item revision 2567909755. al-Zirikli prints 657 AH = 1259 CE {cite:alam-zirikli-dar-al-ilm-2002 vol. 6 p. 314}, agreeing with the card.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
+died: { edtf: "1321", hijri: "0721", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar Confirmed on 13 November 2026 against Wikidata Q3147453 (P570, a statement with a reference), item revision 2567909755. al-Zirikli prints 721 AH = 1321 CE {cite:alam-zirikli-dar-al-ilm-2002 vol. 6 p. 314}, agreeing with the card.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
 relations:
-  - { type: died_in, target: place/fes, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/shadharat-dhahab]
+  - { type: born_in, target: place/ceuta, confidence: high, note: "al-Zirikli, al-A'lam, vol. 6 p. 314: born at Ceuta (Sabta)", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+  - { type: died_in, target: place/fes, confidence: high, note: "al-Zirikli, al-A'lam, vol. 6 p. 314: died at Fez", sources: [source/alam-zirikli-dar-al-ilm-2002, source/wikidata] }
+  - { type: lived_in, target: place/granada, confidence: high, note: "al-Zirikli, al-A'lam, vol. 6 p. 314: preacher at the great mosque of Granada", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+  - { type: traveled_to, target: place/misr, confidence: high, note: "al-Zirikli, al-A'lam, vol. 6 p. 314: journey of 683 AH to Egypt, the Levant and the two sanctuaries", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+  - { type: traveled_to, target: place/syria, confidence: high, note: "al-Zirikli, al-A'lam, vol. 6 p. 314: journey of 683 AH to Egypt, the Levant and the two sanctuaries", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+  - { type: traveled_to, target: place/mecca, confidence: high, note: "al-Zirikli, al-A'lam, vol. 6 p. 314: the two sanctuaries (al-Haramayn); his travel book is titled for Mecca and Tayba", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+  - { type: traveled_to, target: place/medina, confidence: high, note: "al-Zirikli, al-A'lam, vol. 6 p. 314: the two sanctuaries (al-Haramayn); Tayba is Medina", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+sources: [source/shadharat-dhahab, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q3147453
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: Ibn al-Imad, Shadharat al-Dhahab — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0038
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3

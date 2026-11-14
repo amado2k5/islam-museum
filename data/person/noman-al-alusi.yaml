@@ -3,27 +3,32 @@ class: person
 label:
   ar: "نعمان الآلوسي"
   en: "Noman al-Alusi"
-roles: [mufassir]
+roles: [mufassir, preacher, jurist, qadi]
 gender: male
 summary:
-  ar: "بطاقة أولية لنعمان الآلوسي، ابن صاحب روح المعاني وعالم بغداد؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Noman al-Alusi, the son of Ruh al-Ma'ani's author and Baghdad's scholar; his entry is not yet checked on the page."
+  ar: "نعمان بن محمود بن عبد الله، أبو البركات خير الدين الآلوسي، واعظ فقيه باحث من الأسرة الآلوسية في العراق، ولد ببغداد وولي القضاء في بلاد منها الحلة، وزار مصر والآستانة، ولقب رئيس المدرسين، وتوفي ببغداد، صاحب «جلاء العينين في محاكمة الأحمدين»، 1252 إلى 1317 هـ {cite:alam-zirikli-dar-al-ilm-2002 vol. 8 p. 42}."
+  en: "Nu'man ibn Mahmud ibn Abd Allah, Abu al-Barakat Khayr al-Din al-Alusi, a preacher, jurist and researcher of the Alusi family of Iraq, born in Baghdad, a judge in several lands including al-Hilla, who visited Egypt and Istanbul, bore the title head of the teachers and died in Baghdad; author of Jala' al-Aynayn fi Muhakamat al-Ahmadayn, 1252 to 1317 AH (1836 to 1899 CE) {cite:alam-zirikli-dar-al-ilm-2002 vol. 8 p. 42}."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/colonial-era]
-born: { edtf: "1836", precision: year, status: tradition, derived: true }
-died: { edtf: "1899", precision: year, status: tradition, derived: true }
+born: { edtf: "1836", hijri: "1252", precision: year, status: tradition, derived: true, note: "al-Zirikli, al-A'lam, vol. 8 p. 42, prints 1252 AH = 1836 CE, agreeing with the card.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+died: { edtf: "1899", hijri: "1317", precision: year, status: tradition, derived: true, note: "al-Zirikli, al-A'lam, vol. 8 p. 42, prints 1317 AH = 1899 CE, agreeing with the card.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
-  - { type: born_in, target: place/baghdad, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1530)" }
-sources: [source/al-aalam]
+  - { type: born_in, target: place/baghdad, sources: [source/alam-zirikli-dar-al-ilm-2002, source/wikidata], confidence: high, note: "al-Zirikli, al-A'lam, vol. 8 p. 42: born and raised in Baghdad" }
+  - { type: died_in, target: place/baghdad, sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high, note: "al-Zirikli, vol. 8 p. 42: died in Baghdad" }
+  - { type: lived_in, target: place/hilla, sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium, note: "al-Zirikli, vol. 8 p. 42: held the judgeship in several lands, among them al-Hilla" }
+  - { type: traveled_to, target: place/misr, sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high, note: "al-Zirikli, vol. 8 p. 42: visited Egypt on the way to the pilgrimage in 1295 AH" }
+  - { type: traveled_to, target: place/istanbul, sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium, note: "al-Zirikli, vol. 8 p. 42: made for al-Asitana (the Ottoman capital, read as Istanbul) in 1300 AH and stayed two years" }
+  - { type: child_of, target: person/mahmud-al-alusi, sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium, note: "al-Zirikli, vol. 8 p. 42, gives his father as Mahmud ibn Abd Allah; the identification with Mahmud al-Alusi, author of Ruh al-Ma'ani, is the museum's inference from the name and the family and is not stated in the entry" }
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q12248689
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3

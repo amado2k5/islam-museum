@@ -13,6 +13,9 @@ story_roles:
 relations:
   - { type: ruled_over, target: polity/sokoto-caliphate, sources: [source/wikidata] }
   - { type: successor_of, target: person/siddiq-abubakar-iii, sources: [source/wikidata] }
-sources: [source/wikidata]
+sources: [source/wikidata, source/wikidata-ibrahim-dasuki]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium); khulafa lane, plan 30" }
 provenance: { generated_by: "Devin (SWE-2 Medium)", run: "khulafa-roster-batch", note: "Roster record seeded from the cited sources; enrichment follows the lane." }
+external_ids: { wikidata: "Q20984471" }
+born: { edtf: "1923-12-31", calendar: gregorian, precision: day, derived: false, note: "From Wikidata Q20984471 (P569, referenced statement), item revision 2468970095, read 14 November 2026.", sources: [source/wikidata-ibrahim-dasuki] }
+died: { edtf: "2016-11-14", calendar: gregorian, precision: day, derived: false, note: "From Wikidata Q20984471 (P570, referenced statement), item revision 2468970095, read 14 November 2026.", sources: [source/wikidata-ibrahim-dasuki] }

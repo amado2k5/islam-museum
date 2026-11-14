@@ -6,29 +6,29 @@ label:
 roles: [scholar, qadi]
 gender: male
 summary:
-  ar: "بطاقة أولية لابن عاصم الغرناطي، فقيه ولغوي ومؤرخ القرن الخامس عشر صاحب تحفة الحكام، توفي سنة ١٤٢٦م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ibn Asim al-Gharnati, the fifteenth-century jurist, grammarian and historian author of Tuhfat al-Hukkam, d. 1426; the biographical entry is not yet checked on the page."
+  ar: "محمد بن محمد بن محمد، أبو بكر ابن عاصم القيسي الغرناطي، قاض من فقهاء المالكية بالأندلس، ولد وتوفي بغرناطة، كان يجلد الكتب في صباه ثم ولي قضاء القضاة ببلده، صاحب «تحفة الحكام في نكت العقود والأحكام» المعروفة بالعاصمية ووالد أبي يحيى ابن عاصم، 760 إلى 829 هـ {cite:alam-zirikli-dar-al-ilm-2002 vol. 7 p. 45}."
+  en: "Muhammad ibn Muhammad ibn Muhammad, Abu Bakr Ibn Asim al-Qaysi al-Gharnati, a judge and Maliki jurist of al-Andalus, born and died in Granada; he bound books in his youth and rose to chief judge of his city, wrote Tuhfat al-Hukkam fi nukat al-uqud wa-l-ahkam, known as al-Asimiyya, and was the father of Abu Yahya Ibn Asim, 760 to 829 AH (1359 to 1426 CE) {cite:alam-zirikli-dar-al-ilm-2002 vol. 7 p. 45}."
 wings: [people]
 regions: [andalus-europe]
 periods: [period/mongol-post-mongol]
-born: { edtf: "1359", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam Confirmed on 13 November 2026 against Wikidata Q9006619 (P569, a statement with a reference), item revision 2557019831.", sources: [source/wikidata] }
-died: { edtf: "1426", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam Confirmed on 13 November 2026 against Wikidata Q9006619 (P570, a statement with a reference), item revision 2557019831.", sources: [source/wikidata] }
+born: { edtf: "1359", hijri: "0760", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam Confirmed on 13 November 2026 against Wikidata Q9006619 (P569, a statement with a reference), item revision 2557019831. al-Zirikli prints 760 AH = 1359 CE {cite:alam-zirikli-dar-al-ilm-2002 vol. 7 p. 45}, agreeing with the card.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
+died: { edtf: "1426", hijri: "0829", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam Confirmed on 13 November 2026 against Wikidata Q9006619 (P570, a statement with a reference), item revision 2557019831. al-Zirikli prints 829 AH = 1426 CE {cite:alam-zirikli-dar-al-ilm-2002 vol. 7 p. 45}, agreeing with the card.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
 relations:
-  - { type: born_in, target: place/granada, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-  - { type: died_in, target: place/granada, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/al-aalam, source/wikidata]
+  - { type: born_in, target: place/granada, confidence: high, note: "al-Zirikli, al-A'lam, vol. 7 p. 45: born at Granada", sources: [source/alam-zirikli-dar-al-ilm-2002, source/wikidata] }
+  - { type: died_in, target: place/granada, confidence: high, note: "al-Zirikli, al-A'lam, vol. 7 p. 45: died at Granada", sources: [source/alam-zirikli-dar-al-ilm-2002, source/wikidata] }
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q9006619
   viaf: "90047023"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0057
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 occupations:
   - job: job/qadi
     kind: secondary
