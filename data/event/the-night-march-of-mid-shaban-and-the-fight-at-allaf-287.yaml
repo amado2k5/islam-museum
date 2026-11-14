@@ -1,0 +1,67 @@
+id: event/the-night-march-of-mid-shaban-and-the-fight-at-allaf-287
+class: event
+kind: other
+label:
+  ar: "مسير ليلة النصف من شعبان والقتال في علاف، 287هـ"
+  en: "The night march of mid-Sha'ban and the fight at Allaf, 287 AH"
+  ur: "نصف شعبان کی رات کی روانگی اور علاف کی لڑائی، 287ھ"
+summary:
+  ar: "قبل النصف من شعبان بيومين دعا الهادي بني سعد ثم خرج ليلة النصف إلى مصلى خارج صعدة ثم إلى نسرين، وأرسل جماعة لتلزم أكمة بعلاف، وفي الغداة عبّأ عسكره بالبقعة وقاتل القوم وقُتل فارس منهم يسمى ابن عبد الأعلى."
+  en: "Two days before mid-Sha'ban al-Hadi called out Banu Sa'd, left Sa'da on the night of the fifteenth for a prayer-ground outside it and then Nasrin, sent a party to hold a rise at Allaf, and next morning drew up his army at al-Buq'a and fought; a rider called Ibn Abd al-A'la was killed."
+  ur: "نصف شعبان سے دو دن پہلے ہادی نے بنو سعد کو بلایا، پندرھویں رات صعدہ سے باہر ایک نماز گاہ اور پھر نسرین گئے، ایک جماعت کو علاف کے ایک ٹیلے پر رکنے بھیجا، اور صبح البقعہ میں لشکر کی صف بندی کر کے لڑے؛ ابن عبد الاعلیٰ نامی ایک سوار مارا گیا۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0900-08"
+    hijri: "0287-08"
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: "ليلة النصف من شعبان سنة 287هـ، نحو 15 آب 900م جولياني بالتقويم الجدولي؛ الدقة شهرية؛ التحويل مشتق"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/saada
+- type: occurred_at
+  target: place/allaf-yemen
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abdullah-ibn-al-husayn-al-futayimi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-hayy-sad-khawlan
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/al-hamziyyun-saada
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/al-yarsamiyyun-saada
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص191-192 ⁦(الصفحة المطبوعة)⁩'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-23
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 191-192

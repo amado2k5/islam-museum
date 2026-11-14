@@ -1,0 +1,11 @@
+---
+id: event/ibn-bustam-is-given-safety-and-al-hadi-leaves-najran-for-saada-287
+lang: en
+source_lang: ar
+translators: ["Claude Sonnet 5.5 (claude-sonnet-5-5), draft translation"]
+---
+## Overview
+[[person/abdullah-ibn-bustam|Ibn Bustam]] sent asking safety of [[person/al-hadi-yahya-al-rassi|al-Hadi]] and a number of his partisans asked it for him; al-Hadi agreed, they sent to Ibn Bustam in the land of [[group/shakir-hamdan-tribe|Shakir]], and he came and went in to al-Hadi, who gave him safety; he asked leave to build his house and was allowed, and built it at [[place/minas-najran|Minas]]. {cite:sira-hadi-ila-al-haqq p.188} Al-Hadi stayed two months at [[place/najran|Najran]] after finishing its wars until the land grew sound, then ordered [[person/ahmad-ibn-muhammad-governor-of-najran|Ahmad ibn Muhammad]] to stay and hold it after what he had done to [[group/banu-al-harith-ibn-kab|Banu al-Harith]]; Abu al-Husayn disliked this and asked to be excused, and was excused. {cite:sira-hadi-ila-al-haqq p.188}
+
+## Detail
+Al-Hadi sent to Abu Ja'far Muhammad ibn Ubaydallah al-Alawi, who was his governor at [[place/saada|Sa'da]], ordering him to go to Najran as governor; he agreed, set out at once and reached al-Hadi, who brought him near and raised his standing. {cite:sira-hadi-ila-al-haqq p.188} Al-Hadi then resolved to leave for Sa'da and ordered the people, and they gathered, Banu al-Harith and others; he reminded them of God, admonished and warned them, and told Banu al-Harith that they would have no choice but to fight him and he would kill them in a worse killing than the first until the women would find none to lead their camels, and told them he had set over them a man in his own place who would follow his way with them. {cite:sira-hadi-ila-al-haqq p.188} At the end of Jumada I, four nights remaining, he ordered the people to make ready. {cite:sira-hadi-ila-al-haqq p.188} This is the narrator's report of his address and the museum gives no judgement of it. The new governor has the name of the narrator's father, [[person/abu-jafar-muhammad-ibn-ubaydallah-al-abbasi|Abu Ja'far Muhammad ibn Ubaydallah al-Abbasi]], but the print calls him al-Alawi here, so the museum does not assert they are one man. Next: [[event/al-hadi-razes-akili-houses-and-cuts-vines-at-saada-and-afqayn-287]].

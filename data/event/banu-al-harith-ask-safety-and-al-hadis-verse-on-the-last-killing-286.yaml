@@ -1,0 +1,61 @@
+id: event/banu-al-harith-ask-safety-and-al-hadis-verse-on-the-last-killing-286
+class: event
+kind: other
+label:
+  ar: "بنو الحارث يطلبون الأمان وشعر الهادي في القتلة الآخرة، 286هـ"
+  en: "Banu al-Harith ask safety and al-Hadi's verse on the last killing, 286 AH"
+  ur: "بنو حارث کا امان مانگنا اور آخری قتل پر ہادی کا شعر، 286ھ"
+summary:
+  ar: "أرسل بنو الحارث رجالاً من أولياء الهادي يطلبون لهم الأمان فآمنهم ودخلوا القرية وتسوقوا، وهرب ابن بسطام إلى بلد شاكر ورفض الهادي الأمان له حينئذ، وقال الهادي شعراً في القتلة الآخرة."
+  en: "Banu al-Harith sent men from among al-Hadi's partisans to ask safety for them and he granted it, and they entered the village and traded; Ibn Bustam fled to Shakir's land, al-Hadi refusing him safety then, and al-Hadi composed verse on the last killing."
+  ur: "بنو حارث نے ہادی کے حامیوں میں سے کچھ آدمی بھیجے کہ ان کے لیے امان مانگیں تو انہوں نے امان دی اور وہ بستی میں داخل ہو کر خرید و فروخت کرنے لگے؛ ابن بسطام بلد شاکر کو بھاگ گیا اور ہادی نے اس وقت اسے امان دینا ناپسند کیا، اور ہادی نے آخری قتل پر شعر کہا۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0899"
+    hijri: "0286"
+    calendar: julian
+    precision: year
+    status: tradition
+    derived: true
+    note: "سنة 286هـ بحسب ترتيب السرد؛ الدقة سنوية؛ لا يعطي الكتاب يوماً؛ التحويل مشتق"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/najran
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abdullah-ibn-bustam
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-al-harith-ibn-kab
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/al-daam-ibn-ibrahim
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص187-188 ⁦(الصفحة المطبوعة)⁩'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-23
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 187-188

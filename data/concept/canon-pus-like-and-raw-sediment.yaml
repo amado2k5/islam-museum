@@ -1,0 +1,18 @@
+id: concept/canon-pus-like-and-raw-sediment
+class: concept
+kind: scientific
+label: { ar: "الرسوب المدي والخام عند ابن سينا", en: "Pus-like sediment and raw sediment in the Canon", ur: "پیپ نما اور خام تلچھٹ قانون میں" }
+summary:
+  ar: "يذكر ابن سينا أن المدي يدل على قرحة منفجرة وخصوصاً في أعضاء البول، ويفرق بينه وبين الخام بالنتن وتقدم ورم وسهولة اجتماع الأجزاء وتفرقها. {cite:canon-ibn-sina-print-v1 p.195}."
+  en: "Ibn Sina says pus-like sediment shows a burst ulcer, especially in the urinary organs, and he tells it from raw sediment by stench, a preceding swelling, and parts that gather and scatter easily. {cite:canon-ibn-sina-print-v1 p.195}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/canon-urine-in-general, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, Ta'lim 3, urine chapters 5 to 12 and the stool chapter (scan pages 192 to 199), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-urine-3
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

@@ -1,0 +1,18 @@
+id: concept/canon-sediment-by-time-and-floating-signs
+class: concept
+kind: scientific
+label: { ar: "دلالة الرسوب من زمانه وطفوه عند ابن سينا", en: "What sediment shows by its time of settling and its floating in the Canon", ur: "تلچھٹ بیٹھنے کے وقت اور تیرنے کی دلالت قانون میں" }
+summary:
+  ar: "يبين ابن سينا أن سرعة الرسوب بعد البول علامة نضج جيدة وبطأه علامة عدم نضج، وأن ظهور الطافي والمتعلق في أول المرض ثم دوامهما يدل على بحران بخراج، ويحذر من الطافي الدسومي الشبيه بنسج العنكبوت. {cite:canon-ibn-sina-print-v1 p.196}."
+  en: "Ibn Sina says fast settling after voiding is a good sign of maturation and slow settling a sign of its lack; floating or hanging sediment at the start of illness that persists shows a crisis by abscess; and he warns against greasy floaters like cobwebs. {cite:canon-ibn-sina-print-v1 p.196}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/canon-urine-in-general, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, Ta'lim 3, urine chapters 5 to 12 and the stool chapter (scan pages 192 to 199), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-urine-3
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

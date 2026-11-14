@@ -1,0 +1,18 @@
+id: concept/canon-hairlike-and-leaven-like-sediment
+class: concept
+kind: scientific
+label: { ar: "الرسوب الشعري والشبيه بقطع الخمير عند ابن سينا", en: "Hairlike sediment and sediment like bits of leaven in the Canon", ur: "بال نما اور خمیر کے ٹکڑوں جیسی تلچھٹ قانون میں" }
+summary:
+  ar: "يذكر ابن سينا أن الشعري ينعقد في الكلية من رطوبة مستطيلة بفعل حرارة، وأن الشبيه بقطع الخمير المنقوع يدل على ضعف المعدة والأمعاء وسوء الهضم وربما على تناول اللبن والجبن. {cite:canon-ibn-sina-print-v1 p.195}."
+  en: "Ibn Sina says hairlike sediment is set in the kidney from a lengthened moisture worked on by heat, and that sediment like bits of soaked leaven shows weakness of stomach and bowels and poor digestion, perhaps from taking milk and cheese. {cite:canon-ibn-sina-print-v1 p.195}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/canon-urine-in-general, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, Ta'lim 3, urine chapters 5 to 12 and the stool chapter (scan pages 192 to 199), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-urine-3
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

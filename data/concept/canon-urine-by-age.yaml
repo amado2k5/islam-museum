@@ -1,0 +1,18 @@
+id: concept/canon-urine-by-age
+class: concept
+kind: scientific
+label: { ar: "البول بحسب الأعمار عند ابن سينا", en: "Urine by age in the Canon", ur: "عمر کے لحاظ سے پیشاب قانون میں" }
+summary:
+  ar: "يصف ابن سينا في الفصل التاسع أبوال الأسنان: الأطفال أبوالهم إلى اللبنية والبياض، والصبيان أغلظ، والشبان إلى الناري واعتدال القوام، والكهول إلى البياض والرقة، والمشايخ أرق وأبيض. {cite:canon-ibn-sina-print-v1 p.197}."
+  en: "In chapter nine Ibn Sina describes urine by age: infants' milky and whitish, boys' thicker, young men's fiery and moderate, middle-aged men's whitish and thin, and the old thinnest and whitest. {cite:canon-ibn-sina-print-v1 p.197}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/canon-urine-in-general, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, Ta'lim 3, urine chapters 5 to 12 and the stool chapter (scan pages 192 to 199), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-urine-3
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }
