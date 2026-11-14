@@ -4597,3 +4597,24 @@ GEMINI: alwaad-alhaq ep30 (00:48:30-00:49:30): the dream of Abu Ayyub about a ma
 | Second ASR pass: Whisper large-v3 (mlx) run on the Mac to resolve garbled words of the Qwen transcript; cites use the shared 30-second grid | ep39 whole | Qwen pass garbled | Clarity | Open |
 
 Resume point: sharh-saheeh-al-bukhare episode 40 (branch from origin/main).
+
+### alwaad-alhaq ep31 (14 Nov 2026)
+
+21 points written for episode 31 (ar, en, ur); 16 needs_source marks for this episode in each language file; needs_source marks cover unchained hadiths, reports and stories and uncounted figures. Quran verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
+
+| Excluded (alwaad-alhaq ep31) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Passage on reinforcements sent to Khalid and Amr ibn al-As | ep31 00:22:30-00:23:30 | Garbled, speakers and numbers unclear | Clarity | Open |
+| Poem and story of the one-eyed short man before Muawiya, and the Abd al-Malik minbar remark | ep31 00:21:00-00:22:30 | Garbled, attributions unclear | Clarity | Open |
+| Passage on the insects of Hell and the Prophet's saying | ep31 00:55:30-00:56:30 | Garbled and looping | Clarity, Loop check | Open |
+| Remarks on 1422 AH and 2005 AD and Cain's kind of killer | ep31 01:05:00-01:06:00 | Dates inconsistent in the transcript | Clarity | Open |
+| Second ASR pass not run; clean transcript only | ep31 whole | Qwen pass garbled in places | Clarity | Open |
+
+Resume point: alwaad-alhaq episode 32 (branch from origin/main).
+GEMINI: alwaad-alhaq ep31 (00:00:30-00:03:00): who asked Abu Hazim why people dislike the hereafter and who answered (the transcript says "commander of the believers"); a primary source (e.g. Ibn Abi al-Dunya or Abu Nu'aym, Hilyat al-Awliya) would settle it.
+GEMINI: alwaad-alhaq ep31 (00:08:30-00:10:30): the night walk in Medina and the woman reciting al-Ghashiya; the transcript is garbled between the Prophet, Umar and the Companions; a primary source would settle the speaker.
+GEMINI: alwaad-alhaq ep31 (00:22:30-00:23:30): the reinforcement story (Abu Bakr to Khalid with al-Qa'qa', Amr ibn al-As at al-Arish and 4,000 men); numbers and speakers are garbled; Tarikh al-Tabari or Futuh al-Sham would settle it.
+GEMINI: alwaad-alhaq ep31 (01:00:00-01:00:30): identity of "al-walad ibn al-mughira" (taken to be al-Walid ibn al-Mughira, 74:11-25); the transcript is garbled.
+GEMINI: alwaad-alhaq ep31 (01:05:00-01:05:30): "alf firawn" likely a mishearing of "al Firawn" (40:46); the arithmetic of "four thousand Pharaohs" and the date "1422 AH / 2005 AD" are unclear.
+GEMINI: alwaad-alhaq ep31 (01:03:30-01:04:00): the sheikh seems to place "do not despair of God's mercy" (39:53) in Ghafir; Surat al-Zumar is the source; a mushaf would settle the sura attribution.
+GEMINI: alwaad-alhaq ep31 (00:09:00 and 00:40:00): two counts of the verses on the Fire (271 and 211); one is probably a mishearing.

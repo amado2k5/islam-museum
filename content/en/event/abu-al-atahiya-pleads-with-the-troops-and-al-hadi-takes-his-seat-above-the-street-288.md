@@ -1,0 +1,11 @@
+---
+id: event/abu-al-atahiya-pleads-with-the-troops-and-al-hadi-takes-his-seat-above-the-street-288
+lang: en
+source_lang: ar
+translators: ["Claude Sonnet 5.5 (claude-sonnet-5-5), draft translation"]
+---
+## Overview
+When al-Hadi had finished his prayer a boy came to [[person/abu-al-atahiya-ibn-bishr|Abu al-Atahiya]] and told him the news of his cousin and what he had agreed on by way of sedition; he left the mosque before al-Hadi, riding his horse hard to his house, put on his armour and went out to the parade ground, where he found [[person/ibrahim-ibn-khalaf-ibn-tarif|Ibrahim ibn Khalaf]] and Abu Ziyad wanting war, their forces already on the road {cite:sira-hadi-ila-al-haqq p.208}. When they saw Abu al-Atahiya they abused him in the ugliest terms; he told them: company of the army, you know what I have done for you and what I owed you, and I am the commander you know; I will give you more than I used to give and raise your pay. In the narrator's words he spoke to them gently and fairly, but they would not accept it and all said: we do not want the Alawi. He adjured them by God and told them of al-Hadi's merit, which, the narrator says, only made them less inclined toward him {cite:sira-hadi-ila-al-haqq p.208}.
+
+## Detail
+[[person/al-hadi-yahya-al-rassi|al-Hadi]] came out of the mosque, drew up the men who were with him and went in battle order to his house, where he saw [[group/banu-tarif|Al Tarif]] and [[group/al-jafatim-sanaa|the Jafatim]]; he told his companions to hold the door of the house, went in, put on his coat of mail and sat in his majlis overlooking them, with Abu al-Atahiya among them speaking to them and watching them; the narrator says this only made them more defiant. Al-Hadi then ordered his companions to form up in front of his house while he sat above them, and Abu al-Atahiya came to him and said: son of the Messenger of God, do not be hasty with me, for I hope matters will turn out as you wish {cite:sira-hadi-ila-al-haqq p.208} {cite:sira-hadi-ila-al-haqq p.209}. The unbelief the narrator charges the troops with and his words of abuse for them are his account and not the museum's voice, and the museum does not repeat the abuse they directed at Abu al-Atahiya. The account falls on the Friday morning after the night of the entry and is dated to the month, not the day.

@@ -1,0 +1,11 @@
+---
+id: event/the-jafatim-and-ibn-jarrah-plunder-the-baggage-during-the-friday-sermon-at-sanaa-288
+lang: en
+source_lang: ar
+translators: ["Claude Sonnet 5.5 (claude-sonnet-5-5), draft translation"]
+---
+## Overview
+In the morning the news reached [[person/abdullah-ibn-jarrah-of-al-tarif|Abdullah ibn Jarrah]] and [[group/al-jafatim-sanaa|the Jafatim]], who were at al-Sirr, that Abu al-Atahiya had brought al-Hadi into Sana'a, and they came riding their horses to Sana'a saying: we do not want the Alawi, and he shall not enter our land; in the narrator's words that was the saying of all [[group/banu-tarif|Al Tarif]] too {cite:sira-hadi-ila-al-haqq p.207}. [[person/ibrahim-ibn-khalaf-ibn-tarif|Ibrahim ibn Khalaf]] had been with Abu al-Atahiya when al-Hadi was brought in, with a man of the clients of Al Tarif called Abu Ziyad, and with them was a great army of horse and men who had been plundering Jayshan and other places and who also did not want al-Hadi; Ibrahim ibn Khalaf told them: when the people are busy with the Friday prayer, stir up the sedition {cite:sira-hadi-ila-al-haqq p.207} {cite:sira-hadi-ila-al-haqq p.208}.
+
+## Detail
+When [[person/al-hadi-yahya-al-rassi|al-Hadi]] went out to pray in the mosque, went up the pulpit and gave the people an eloquent sermon in the narrator's words, admonishing them and telling them what obedience to God required of them, the Jafatim and Ibn Jarrah came and laid hands on the baggage of al-Hadi's men, plundering it and stripping those of his companions they found with it. Some of them came to him on the pulpit, and he signed to them with his hand and was told what had happened in his army; he did not turn aside but went on with his sermon until he had said what he wished, then came down and led the people in prayer {cite:sira-hadi-ila-al-haqq p.208}. The narrator describes Ibn Khalaf's and Ibn Jarrah's men in terms of abuse that the museum does not repeat, and the intent to stir sedition that he gives them is his account, neither affirmed nor denied here. The editor's footnote on p. 207 says the original reads "their commander" where the text has Ibrahim's name, and that the name is restored from manuscript S and from the sense of the account.

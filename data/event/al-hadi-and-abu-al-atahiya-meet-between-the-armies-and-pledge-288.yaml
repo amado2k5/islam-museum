@@ -1,0 +1,67 @@
+id: event/al-hadi-and-abu-al-atahiya-meet-between-the-armies-and-pledge-288
+class: event
+label:
+  ar: "لقاء الهادي وأبي العتاهية بين العسكرين وبيعة أبي العتاهية ودخول صنعاء، محرم 288هـ"
+  en: "Al-Hadi and Abu al-Atahiya meet between the armies, the pledge and the entry into Sana'a, Muharram 288 AH"
+  ur: "ہادی اور ابو العتاہیہ کی دونوں لشکروں کے بیچ ملاقات، بیعت اور صنعاء میں داخلہ، محرم 288ھ"
+summary:
+  ar: "يرسل أبو العتاهية إلى الهادي أن يلقاه في عشرة فرسان، فيخرج الهادي في ثلاثين، ويترجل أبو العتاهية وقد رمى رمحه وكشف رأسه فيعانقه الهادي، ثم يبايعه على الحق والأمر بالمعروف والنهي عن المنكر، ويبايع محمد بن أبي عباد وأصحابه ويحلف معظم العسكر، ويتصل العسكران ويصلي الهادي العصر على غيل حدقان، ثم يدخل صنعاء ليلة الجمعة في سبع ليال بقين من المحرم."
+  en: "Abu al-Atahiya sends asking to meet al-Hadi with ten horsemen; al-Hadi goes out with thirty; Abu al-Atahiya throws down his spear, bares his head and dismounts, and the two embrace; he then swears to stand with al-Hadi for the truth and for commanding the good and forbidding the wrong, Muhammad ibn Abi Abbad and his men pledge, most of his army swears, the armies mingle and al-Hadi prays the afternoon prayer at the spring of Hadaqan, and he enters Sana'a on the night of Friday, seven nights from the end of Muharram."
+  ur: "ابو العتاہیہ ہادی کو پیغام بھیجتے ہیں کہ دس سواروں کے ساتھ ملیں؛ ہادی تیس کے ساتھ نکلتے ہیں؛ ابو العتاہیہ نیزہ پھینک کر، سر کھول کر اتر پڑتے ہیں اور دونوں گلے ملتے ہیں؛ پھر وہ حق کے ساتھ کھڑے رہنے، نیکی کا حکم دینے اور برائی سے روکنے پر بیعت کرتے ہیں، محمد بن ابی عباد اور ان کے ساتھی بیعت کرتے ہیں، لشکر کا بڑا حصہ حلف اٹھاتا ہے، دونوں لشکر مل جاتے ہیں، ہادی حدقان کے چشمے پر عصر پڑھتے ہیں اور محرم کے آخر سے سات راتیں رہتے جمعہ کی رات صنعاء میں داخل ہوتے ہیں۔"
+kind: other
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0900-12"
+    hijri: "0288-01"
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: "محرم سنة 288هـ بنص الكتاب؛ الدقة شهرية؛ التحويل مشتق من التقويم الجدولي"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/hadaqan-sanaa-yemen
+- type: occurred_at
+  target: place/sanaa
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abu-al-atahiya-ibn-bishr
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/muhammad-ibn-abbad-al-tamimi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ali-ibn-muhammad-ibn-ubaydallah-al-abbasi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/al-murtada-muhammad
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص206-207 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-25
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 206-207
