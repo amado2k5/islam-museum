@@ -60,3 +60,6 @@ translators: ["Claude Sonnet 5.5 (claude-sonnet-5-5), draft translation"]
 
 ## OpenITI مجموعے میں تصانیف
 OpenITI مجموعہ اس مصنف کے لیے شناخت 0339AbuNasrFarabi کے تحت 10 تصانیف رکھتا ہے، جن میں یہ شامل ہیں: الألفاظ المستعملة في المنطق، آراء أهل المدينة الفاضلة ومضاداتها، عيون المسائل، رسالة في العقل۔ {cite:openiti-corpus 0339AbuNasrFarabi}
+
+## Biblissima اتھارٹی فائل میں
+فرانسیسی Biblissima اتھارٹی فائل اس شخصیت کو شناخت Q12167 کے تحت نام کی صورت «Muḥammad ibn Muḥammad Abū Naṣr al- Fārābī (0870?-0950)» کے ساتھ درج کرتی ہے، اور اس صورت میں پیدائش اور وفات کے سال وہی ہیں جو فائل میں ہیں۔ {cite:biblissima Q12167}

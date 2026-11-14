@@ -34,3 +34,6 @@ translators: ["Claude Sonnet 5.5 (claude-sonnet-5-5), draft translation"]
 
 ## OpenITI مجموعے میں تصانیف
 OpenITI مجموعہ اس مصنف کے لیے شناخت 0275AbuDawudSijistani کے تحت 6 تصانیف رکھتا ہے، جن میں یہ شامل ہیں: المراسيل، مسائل الإمام أحمد رواية أبي داود السجستاني، رسالة أبي داود في وصف سننه، سؤالات الآجري لأبي داود۔ {cite:openiti-corpus 0275AbuDawudSijistani}
+
+## Biblissima اتھارٹی فائل میں
+فرانسیسی Biblissima اتھارٹی فائل اس شخصیت کو شناخت Q15590 کے تحت نام کی صورت «Sulaymān ibn al-Ašʿaṯ Abū Dāwūd al-Siǧistānī (0817?-0889?)» کے ساتھ درج کرتی ہے، اور اس صورت میں پیدائش اور وفات کے سال وہی ہیں جو فائل میں ہیں۔ {cite:biblissima Q15590}

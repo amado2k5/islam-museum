@@ -44,3 +44,6 @@ The article's chief claim is that he developed trigonometry further. For the rig
 ## A debt intermediate in practical arithmetic
 
 The [[work/hisab-kuttab-abu-wafa|arithmetic for scribes and officials]] contains [[invention/abu-wafa-debt-multiplication|complement multiplication with a debt]]:3×5 passes through a debt of2 multiplied by10 and adds35, giving15, not invention of every negative number {cite:abu-wafa-youschkevitch-dsb PDFp2}. Dates differ:TDV961, MacTutor961–976 and Iranica979–983; no unsupported reconciliation is imposed {cite:tdv-ebul-vefa-buzcani works2} {cite:abu-wafa-mactutor arithmetic} {cite:iranica-abu-wafa-works work1}. The rule was read in secondary scholarship and the PDFpage2image, not the complete Arabic or Saidan edition. The museum's modern algebraic examples and number line are not assigned to him as historical notation or drawings.
+
+## In the Biblissima authority file
+The French Biblissima authority file records this person under the identifier Q23308 with the name form «Abō al-Wafāʿ Moḥammad ibn Moḥammad Bōzǧānī (0940-0998)», the form including the years of birth and death as the file gives them. {cite:biblissima Q23308}

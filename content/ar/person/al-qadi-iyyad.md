@@ -35,3 +35,6 @@ provenance: { generated_by: "Claude Code (OCR-harvest worker E)", model: claude-
 
 ## أعمال في مدونة OpenITI
 تحفظ مدونة OpenITI لهذا المؤلف تحت المعرّف 0544QadiCiyad 7 من الأعمال، منها: الغنية فهرست شيوخ القاضي عياض، إكمال المعلم بفوائد مسلم، مشارق الأنوار على صحاح الآثار، الشفا بتعريف حقوق المصطفى. {cite:openiti-corpus 0544QadiCiyad}
+
+## في ملف الاستناد Biblissima
+يسجل ملف الاستناد الفرنسي Biblissima هذا العَلَم تحت المعرّف Q16875 بصيغة الاسم «ʿIyāḍ ibn Mūsá al-Yaḥṣubī al-Sabtī (1083-1149)»، وتتضمن الصيغة سنتي الميلاد والوفاة كما يوردهما الملف. {cite:biblissima Q16875}

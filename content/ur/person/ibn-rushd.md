@@ -79,3 +79,6 @@ provenance: { generated_by: "Claude Code (OCR-harvest worker L)", model: claude-
 
 ## OpenITI مجموعے میں تصانیف
 OpenITI مجموعہ اس مصنف کے لیے شناخت 0595IbnRushdHafid کے تحت 20 تصانیف رکھتا ہے، جن میں یہ شامل ہیں: بداية المجتهد ونهاية المقتصد، الضروري في أصول الفقه أو مختصر المستصفى، فصل المقال، الكليات في الطب۔ {cite:openiti-corpus 0595IbnRushdHafid}
+
+## Biblissima اتھارٹی فائل میں
+فرانسیسی Biblissima اتھارٹی فائل اس شخصیت کو شناخت Q2016 کے تحت نام کی صورت «Averroès (1126-1198)» کے ساتھ درج کرتی ہے، اور اس صورت میں پیدائش اور وفات کے سال وہی ہیں جو فائل میں ہیں۔ {cite:biblissima Q2016}

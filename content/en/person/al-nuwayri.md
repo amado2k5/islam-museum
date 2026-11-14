@@ -18,3 +18,6 @@ Withdrawing from administration about 716, he composed his encyclopaedia in thir
 
 ## Dates
 Born 21 Dhu al-Qa'da 677/5 April 1279 at Akhmim per the Encyclopaedia of Islam — al-Zirikli gives Qus for birth and upbringing; died 21 Ramadan 733/5 June 1333 at Cairo {cite:encyclopaedia-of-islam-2 vol. 8 pp. 156, 159} {cite:durar-kamina-jil-1993 1/197}.
+
+## In the Biblissima authority file
+The French Biblissima authority file records this person under the identifier Q530 with the name form «Aḥmad ibn ʿAbd al-Wahhāb al- Nuwayrī (1279-1333)», the form including the years of birth and death as the file gives them. {cite:biblissima Q530}

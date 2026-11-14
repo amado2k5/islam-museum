@@ -35,3 +35,6 @@ provenance: { generated_by: "Claude Code (OCR-harvest worker E)", model: claude-
 
 ## OpenITI مجموعے میں تصانیف
 OpenITI مجموعہ اس مصنف کے لیے شناخت 0544QadiCiyad کے تحت 7 تصانیف رکھتا ہے، جن میں یہ شامل ہیں: الغنية فهرست شيوخ القاضي عياض، إكمال المعلم بفوائد مسلم، مشارق الأنوار على صحاح الآثار، الشفا بتعريف حقوق المصطفى۔ {cite:openiti-corpus 0544QadiCiyad}
+
+## Biblissima اتھارٹی فائل میں
+فرانسیسی Biblissima اتھارٹی فائل اس شخصیت کو شناخت Q16875 کے تحت نام کی صورت «ʿIyāḍ ibn Mūsá al-Yaḥṣubī al-Sabtī (1083-1149)» کے ساتھ درج کرتی ہے، اور اس صورت میں پیدائش اور وفات کے سال وہی ہیں جو فائل میں ہیں۔ {cite:biblissima Q16875}

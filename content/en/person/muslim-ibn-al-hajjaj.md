@@ -43,3 +43,6 @@ Muhammad b. al-Masirjisi heard Muslim say he compiled the Sahih from three hundr
 
 ## Some accounts and his death
 He attended the circle of Muhammad b. Yahya, who announced that anyone who called his utterance of the Qur'an created should leave the assembly — Muslim rose and left. He vied with al-Bukhari, which estranged al-Dhuhli from him. His works beyond the Sahih include al-Musnad al-kabir ala al-rijal, al-Jami' ala al-abwab, al-Asma' wa-l-kuna, al-Tamyiz, al-Wuhdan, al-Afrad, al-Aqran, his questions to Ahmad b. Hanbal, al-Intifa' bi-uhibb al-siba', Mashayikh al-Thawri, Mashayikh Shu'ba, Awlad al-sahaba, Wham al-muhaddithin, al-Tabaqat, and Ifrad al-shamiyyin. He died in Rajab 261 AH and is buried at Nasrabad. {cite:tazkirat-al-huffaz j.2 p.527-528}
+
+## In the Biblissima authority file
+The French Biblissima authority file records this person under the identifier Q272 with the name form «Abū al-Ḥusayn al-Nīsābūrī Muslim ibn al-Ḥaǧǧāǧ al-Qušayrī (0820-0875)», the form including the years of birth and death as the file gives them. {cite:biblissima Q272}

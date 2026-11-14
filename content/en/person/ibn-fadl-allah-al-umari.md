@@ -21,3 +21,6 @@ In the preface of [[work/masalik-al-absar|Masalik al-absar]] al-Umari says he be
 
 ## Works in the OpenITI corpus
 The OpenITI corpus holds 3 works under the author identifier 0749IbnFadlAllahCumari, among them: Masālik al-abṣār fī mamālik al-amṣār; Kitāb al-Šitwiyyāt; al-Taʿrīf bi-al-muṣṭalaḥ al-šarīf. {cite:openiti-corpus 0749IbnFadlAllahCumari}
+
+## In the Biblissima authority file
+The French Biblissima authority file records this person under the identifier Q521 with the name form «Aḥmad ibn Yaḥyá Ibn Faḍl Allâh al-ʿUmarī (1301-1349)», the form including the years of birth and death as the file gives them. {cite:biblissima Q521}
