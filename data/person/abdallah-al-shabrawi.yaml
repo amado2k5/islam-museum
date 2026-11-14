@@ -6,25 +6,25 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لعبد الله الشبراوي، شيخ الأزهر القرن الثامن عشر، توفي سنة ١٧٥٨م؛ تذكره كتب التاريخ ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abdallah al-Shabrawi, the eighteenth-century Grand Imam of al-Azhar, d. 1758; the source entry is not yet checked on the page."
+  ar: "عبد الله بن محمد بن عامر الشبراوي، فقيه مصري ناظم تولى مشيخة الأزهر، من كتبه شرح الصدر في غزوة بدر ومنائح الألطاف في مدائح الأشراف؛ وُلد سنة 1091 هـ ووفاته سنة 1171 هـ."
+  en: "Abdallah ibn Muhammad ibn Amir al-Shabrawi, an Egyptian jurist and verse-writer who headed al-Azhar, author of Sharh al-Sadr fi Ghazwat Badr and Manaih al-Altaf fi Madaih al-Ashraf; 1091 to 1171 AH (1680 to 1758)."
 wings: [people]
 regions: [egypt-nile]
 periods: [period/gunpowder-empires]
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q12223377
   viaf: "31843429"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0058
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
-born: { edtf: "1681", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Jabarti (Aja'ib al-Athar) Confirmed on 13 November 2026 against Wikidata Q12223377 (P569, a statement with a reference), item revision 2518555826.", sources: [source/wikidata] }
+  completeness: 3
+born: { edtf: "1681", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Jabarti (Aja'ib al-Athar) Confirmed on 13 November 2026 against Wikidata Q12223377 (P569, a statement with a reference), item revision 2518555826. al-A'lam gives 1091 AH = 1680; the card's 1681 falls in the same Hijri year and is kept.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
 died: { edtf: "1758", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Jabarti (Aja'ib al-Athar)" }
 relations:
   - { type: lived_in, target: place/misr, note: "Only the record-level region (egypt-nile) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }
