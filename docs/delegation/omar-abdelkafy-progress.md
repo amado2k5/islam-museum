@@ -4069,3 +4069,16 @@ Resume point: sharh-saheeh-al-bukhare episode 25 (branch from origin/main).
 | Figures on the percentage of bank dealings and the Islamic banks comparison | ep18 00:18:30 | Garbled numbers, not restated | Source quality | Open |
 
 Resume point: alwaad-alhaq episode 19 (branch from origin/main).
+
+### alwaad-alhaq ep19 (14 Nov 2026)
+
+17 points written for episode 19 (ar, en, ur); 21 needs_source marks for this episode in each language file; 15 new about edges on the series record. Quran verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
+
+| Excluded (alwaad-alhaq ep19) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Garbled passage on a scholar at the zamzam well | ep19 00:47:30-00:48:30 | transcription too unclear to cite | accuracy | Open |
+| Unclear sayings on the night prayer and a scholar's reply | ep19 00:47:00 | transcription unclear | accuracy | Open |
+| Host remark on the West and animals versus Palestine | ep19 00:16:00 | modern conflict commentary by the host, not the sheikh | scope (modern conflict) | Open |
+| Skin cancer percentages | ep19 00:39:30 | figures garbled in the transcript, only the claim kept | accuracy | Open |
+
+Resume point: alwaad-alhaq episode 20 (branch from origin/main).
