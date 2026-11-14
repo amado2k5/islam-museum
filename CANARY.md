@@ -15,6 +15,7 @@ open a new block on top with the new version and today's date.
 
 ## v1.29.0 — 2026-11-13
 ### Added
+- **Du'a by occasion: greeting.** The division of al-Adhkar on greeting, asking leave and sneezing is open: the record on the greeting of peace gains al-Nawawi's reports on its merit, the best wording and reply, and his ruling on beginning and returning it, each with its page.
 - **Du'a by occasion: travel.** The division of al-Adhkar on the traveller is open with one record: what al-Nawawi gathers for setting out and for farewell, from consulting and istikhara to the words «أستودع الله دينك وأمانتك وخواتيم عملك» and the supplication for the traveller's piety, each with its page.
 - **Du'a by occasion: the campaign.** The division of al-Adhkar on the campaign is open with one record: what al-Nawawi gathers on asking sincerely for martyrdom, the supplication at the digging of the Trench and the pleading before battle, from the two Sahihs and the Sunan, each with its page.
 - **Du'a by occasion: breaking the fast.** The fasting division gains a third record: the record on iftar now carries the supplications al-Nawawi gathers for breaking the fast, with the books he assigns them to and their page.
