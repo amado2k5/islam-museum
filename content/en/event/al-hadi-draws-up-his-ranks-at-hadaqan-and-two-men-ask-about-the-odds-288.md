@@ -9,3 +9,5 @@ When [[person/al-hadi-yahya-al-rassi|al-Hadi]] was at [[place/hadaqan-sanaa-yeme
 
 ## Detail
 The Khath'ami's name is printed as Abu Rifa'a and is not entered as a person. The two counts differ because the narrator's figures are rounded and the footnote's is a later total; the museum gives both. It follows [[event/abu-al-atahiya-writes-to-al-hadi-and-sends-the-jafatim-and-al-tarif-to-an-ambush-at-al-sirr-288]].
+
+The account continues in [[event/al-hadi-answers-yazid-and-abu-rifaa-and-abu-al-atahiyas-army-appears-288|al-Hadi's answer and the appearance of Abu al-Atahiya's army]] {cite:sira-hadi-ila-al-haqq p.206}.
