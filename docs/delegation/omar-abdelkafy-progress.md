@@ -4474,3 +4474,17 @@ Resume point: alwaad-alhaq episode 27 (branch from origin/main).
 | Second ASR pass: Whisper large-v3 (mlx) run on the Mac to resolve garbled words of the Qwen transcript; cites use the shared 30-second grid | ep37 whole | Qwen pass garbled | Clarity | Open |
 
 Resume point: sharh-saheeh-al-bukhare episode 38 (branch from origin/main).
+
+### alwaad-alhaq ep27 (14 Nov 2026)
+
+24 points written for episode 27 (ar, en, ur); 19 needs_source marks for this episode in each language file; about edges added for Iblis, Adam, Hawwa, the jinn, angels, pride, envy, innovation, usury, whispering, devils of humans and jinn, the prostration of the angels, the Frequented House, al-Baqi' and sincerity. Quran verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
+
+| Excluded (alwaad-alhaq ep27) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening discussion of Amman bombings (kept at a neutral level: condemnation of harming the innocent only) | ep27 00:00:00-00:04:30 | Partly kept; no group is named in the transcript | Content rule | Open |
+| Stretch where the transcript names an armed organisation inside a garbled sentence on devils and jinn | ep27 01:16:30-01:17:00 | Dropped under the terrorist-organisation hard block; garbled and not recoverable | Content rule | Open |
+| Stories of Umar and the pride saying of Ali, and a Companion's wife and the mosque | ep27 00:30:00-00:32:00 and 00:51:30-00:53:00 | Garbled; names and details contradict | Clarity | Open |
+| Remarks on a contemporary finance, banking and economic arguments, entertainment critique | ep27 00:58:00-00:59:00 and 01:03:30-01:04:30 | Garbled or loops; sweeping generalisations | Clarity, Voice rule | Open |
+| Loops and garbled stretches (Paradise garden wording, descent, Joseph and the stages) | ep27 00:11:30-00:13:00, 00:23:30, 00:33:30, 00:38:00, 01:09:00-01:11:00 | Loops and garbled stretches | Clarity, Loop check | Open |
+
+Resume point: alwaad-alhaq episode 28 (branch from origin/main).
