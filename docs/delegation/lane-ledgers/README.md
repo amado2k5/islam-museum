@@ -60,3 +60,19 @@ The per-lane working ledgers inside the repo stay where they are
 - Worktrees: create them on the local disk, not the microSD (the microSD checkout stalls with several workers at once).
 - Validation takes about four minutes and `origin/main` moves faster; the post-validate shortcut is allowed only under the conditions in `AGENTS.md` handoffs and the PR bodies that used it.
 - Re-validate the final merged tree before each merge and report the error count.
+
+
+## Gemini advice on founder-reserved items (14 November 2026, advice only, not applied)
+
+Source: Gemini's verdicts on the pending-corrections ledger. These are claims from another model, unverified, held for the founder (approval record dec-20261114-277).
+- Sulayman al-Musta'in: Gemini says Sulayman ibn al-Hakam al-Musta'in (d. 1016) was the Umayyad caliph of Cordoba, distinct from Ahmad al-Musta'in (Abbasid, d. 866); merge only if both records are the Cordoban Sulayman.
+- Nomisma wording: use period-neutral "Ascalon mint" and "Constantinople / Qustantiniyah mint".
+- Sanaa old city: model as a historic district partOf Sana'a, with UNESCO 385 as a designation.
+- Kitab al-Manazir: al-Ju'fi (Hilyat 10:169) is separate from al-Adawi; mark the Manazir pages needs_source.
+- Walters: API is CC0 but robots blocks scraping and ai-train=no; Gallica: human-verified facts-only.
+- Surah app: facts-only, cite primary sources.
+- Omar Abdelkafy series: label opinions as attributed; exclude from historical fact-sourcing.
+
+## Gemini corrections verification pass (14 November 2026)
+
+PRs 6865, 6868, 6888, 6893, 6897, 6903, 6917 applied only independently verified items. Unresolved, with the source that would settle each: ahmad-ibn-yusuf-al-misri (EI2 or Ibn al-Nadim; may be two men), ahmad-ibn-musa-al-kazim Shi'a label (al-Mufid, al-Irshad), mohamed-ben-youssef (Tunisian biography), ahmad-ibn-al-nadr Ibadi label (Oman Daily or al-Da'a'im article), al-turayhi death 1085 or 1087 AH (A'yan al-Shi'a 8:394), al-mahdi-al-husayn birth 376 or 384 AH (al-Rawd al-Basim p. 241), al-sabti death day (Ibn al-Zayyat, al-Tashawwuf), al-Nafzawi floruit (EI2), ibrahim-ibn-sad-al-zuhri 108-183 AH (Tahdhib al-Kamal), John of Damascus 675 or 676 (Oxford Dictionary of Byzantium). Also noted: duplicate cards rawh-ibn-hatim and ruh-ibn-hatim-al-muhallabi (merge is a proposal); al-Zirikli page numbers on several cards follow a different edition than the OpenITI text; Hatefi VIAF differs between our card and Biblissima.
