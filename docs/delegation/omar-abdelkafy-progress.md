@@ -4737,3 +4737,18 @@ GEMINI: ep42, identity of the man whose son was a Badr captive and who came to M
 GEMINI: ep42, the name and identity of the man who gave a woman and her son safe escort to Medina and was reminded of it after eight years (names garbled in both passes), a Sira source on the emigration of the woman and her son
 GEMINI: ep42, name of the man Abu al-Hasan al-Zahid faced with the lion (garbled as Ibn Qulub / Ibn Farud in the two passes), the transcripts give no clear name, a biographical source on Abu al-Hasan al-Zahid
 GEMINI: ep42, name of the first man of Quraysh killed at Badr (al-Aswad ibn Abd al-Asad in one reading, garbled in both passes), the transcripts give only a garbled name, the Sira of Ibn Hisham on Badr
+
+### alwaad-alhaq ep34 (14 Nov 2026)
+
+25 points written for episode 34 (ar, en, ur); 30 needs_source marks for this episode in each language file; edges to jahannam, zaqqum and fire. Quran verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
+
+| Excluded (alwaad-alhaq ep34) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Garbled passage on Surat al-Mu'minun | ep34 00:44:30 | transcript too garbled to summarise | ASR garble | Open |
+| Passage on Hiroshima and killing | ep34 00:27:00 | transcript garbled; not summarised | ASR garble | Open |
+| Discussion of one who never prays, Imam Ahmad and annulment | ep34 00:56:30 | garbled and an opinion ruling, founder-held | ASR garble, opinion ruling | Open |
+
+Resume point: alwaad-alhaq episode 35 (branch from origin/main).
+
+GEMINI: alwaad-alhaq ep34 00:47:30 the name of the leader of the hypocrites, written in the transcript as a garbled Abdullah ibn Mu'awiya; context points to the leader of the hypocrites of Medina; the source that would settle it is a classical biography (Ibn Hisham or Ibn Sa'd).
+GEMINI: alwaad-alhaq ep34 01:14:30 closing verses of poetry beginning "do not wrong when you have power"; the transcript gives no poet; source needed is an anthology of Arabic poetry or a poetry-search of the first line.
