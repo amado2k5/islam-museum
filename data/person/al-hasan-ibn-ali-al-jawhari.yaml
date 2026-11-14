@@ -6,31 +6,31 @@ label:
 roles: [muhaddith]
 gender: male
 summary:
-  ar: "بطاقة أولية للحسن بن علي الجوهري، محدث وكاتب القرن الحادي عشر، توفي سنة ١٠٦٢م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for al-Hasan ibn Ali al-Jawhari, the eleventh-century muhaddith and writer, d. 1062; the biographical entry is not yet checked on the page."
+  ar: "الحسن بن علي بن محمد، أبو محمد الجوهري، محدث قالوا إنه انتهى إليه علو الرواية في الدنيا، شيرازي الأصل بغدادي الإقامة والوفاة، أملى مجالس كثيرة، ٣٦٢؟ إلى ٤٥٤هـ."
+  en: "Al-Hasan ibn Ali ibn Muhammad, Abu Muhammad al-Jawhari, a hadith scholar of whom it was said that the height of transmission in the world came to him; of Shirazi origin, he lived and died in Baghdad, dictated many sessions, 362(?) to 454 AH (972 to 1062)."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/buyid-seljuk-fatimid-era]
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q124497680
   viaf: "90063734"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0067
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 occupations:
   - job: job/muhaddith
     kind: primary
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/al-aalam]
-born: { edtf: "974", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala 18/200; 363–454 AH)" }
+born: { edtf: "972?", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala 18/200; 363–454 AH); changed to 972? after al-Zirikli, al-A'lam vol. 2 p. 174: 362? AH = 972 CE" }
 died: { edtf: "1062", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala 18/200; 363–454 AH) Confirmed on 13 November 2026 against Wikidata Q124497680 (P570, a statement with a reference), item revision 2542923941.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/shiraz, note: "Wikidata Q6397066 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }

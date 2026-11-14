@@ -6,25 +6,25 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لزين الدين بن علي الجبعي العاملي، فقيه جبل عامل القرن السادس عشر، توفي سنة ١٥٥٨م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Zayn al-Din ibn Ali al-Juba'i al-Amili, the sixteenth-century jurist of Jabal Amil, d. 1558; the biographical entry is not yet checked on the page."
+  ar: "زين الدين بن علي بن أحمد العاملي الجبعي، إمامي، عالم بالحديث بحاث، ويعرف بالشهيد الثاني، ولد في جبع بلبنان سنة ٩١١هـ ورحل إلى مصر والحجاز والعراق وبلاد الروم وقتل بعد استدعاء السلطان له سنة ٩٦٦هـ، له منية المريد وروض الجنان ومسالك الأفهام."
+  en: "Zayn al-Din ibn Ali ibn Ahmad al-Amili al-Juba'i, an Imami (Twelver Shi'i) scholar of hadith, known as al-Shahid al-Thani, born at Jaba in Lebanon in 911 AH, who travelled to Egypt, the Hijaz, Iraq and the lands of Rum and was killed after the sultan summoned him in 966 AH (1559); author of Munyat al-Murid, Rawd al-Jinan and Masalik al-Afham."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/gunpowder-empires]
-born: { edtf: "1506", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Amal al-Amil (al-Hurr al-Amili) Confirmed on 13 November 2026 against Wikidata Q4120058 (P569, a statement with a reference), item revision 2561220750.", sources: [source/wikidata] }
-died: { edtf: "1558", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Amal al-Amil (al-Hurr al-Amili) Confirmed on 13 November 2026 against Wikidata Q4120058 (P570, a statement with a reference), item revision 2561220750.", sources: [source/wikidata] }
+born: { edtf: "1505", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Amal al-Amil (al-Hurr al-Amili) Wikidata gives 1506; al-Zirikli, al-A'lam vol. 3 p. 63 gives 911 AH = 1505 CE, which this card follows. Compared on 13 November 2026 against Wikidata Q4120058 (P569, a statement with a reference), item revision 2561220750.", sources: [source/wikidata] }
+died: { edtf: "1559", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Amal al-Amil (al-Hurr al-Amili) Wikidata gives 1558; al-Zirikli, al-A'lam vol. 3 p. 63 gives 966 AH = 1559 CE, which this card follows. Compared on 13 November 2026 against Wikidata Q4120058 (P570, a statement with a reference), item revision 2561220750.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/jabal-amel, sources: [source/al-aalam] }
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q4120058
   viaf: "53134259"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0042
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
