@@ -6,24 +6,25 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لأبي جعفر العقيلي، محدث القرن العاشر صاحب الضعفاء، توفي سنة ٩٣٤م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abu Ja'far al-Uqayli, the tenth-century muhaddith author of Kitab al-Du'afa', d. 934; the biographical entry is not yet checked on the page."
+  ar: "أبو جعفر محمد بن عمرو العقيلي، الحافظ، يذكره ابن العماد صاحب «الجرح والتعديل» ويعده في أهل الحجاز، روى عن إسحاق الدبري وأبي إسماعيل الترمذي، وتوفي بمكة في ربيع الأول سنة 322 هـ."
+  en: "Abu Ja'far Muhammad ibn Amr al-Uqayli, the hadith master; Ibn al-Imad calls him the author of al-Jarh wa-l-Ta'dil and counts him among the people of the Hijaz; he transmitted from Ishaq al-Dabari and Abu Isma'il al-Tirmidhi and died in Mecca in Rabi' I 322 AH (934)."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-fragmentation]
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/shadharat-dhahab]
 external_ids:
   wikidata: Q12177922
   viaf: "23051529"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0065
+  source: "Ibn al-Imad, Shadharat al-Dhahab, entry read in full from the local text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-shadharat-2026-11-14
 status:
   review: draft
-  completeness: 1
-died: { edtf: "934", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi, Siyar A'lam al-Nubala" }
+  completeness: 3
+died: { edtf: "934", hijri: "0322", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi, Siyar A'lam al-Nubala. Ibn al-Imad lists him among those who died in 322 AH, in Rabi' I {cite:shadharat-dhahab vol. 4 p. 117}.", sources: [source/shadharat-dhahab] }
 relations:
-  - { type: died_in, target: place/mecca, note: "Wikidata Q5806 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: died_in, target: place/mecca, sources: [source/wikidata, source/shadharat-dhahab], confidence: high, note: "Wikidata Q5806 (P20); Ibn al-Imad, Shadharat al-Dhahab, vol. 4 p. 117: he died in Mecca in Rabi' I" }
+  - { type: lived_in, target: place/hijaz, sources: [source/shadharat-dhahab], confidence: medium, note: "Ibn al-Imad, Shadharat al-Dhahab, vol. 4 p. 117: counted among the people of the Hijaz" }

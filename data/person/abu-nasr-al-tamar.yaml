@@ -6,32 +6,32 @@ label:
 roles: [muhaddith]
 gender: male
 summary:
-  ar: "بطاقة أولية لأبي نصر التمار، المحدث في القرن الثالث الهجري؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abu Nasr al-Tamar, the third-century hadith scholar; his entry is not yet checked on the page."
+  ar: "عبد الملك بن عبد العزيز القشيري النسوي الدقيقي التمار الزاهد، أبو نصر التمار، محدث روى عن حماد بن سلمة وروى عنه مسلم، ويذكر الصفدي وابن العماد وفاته سنة 228 هـ، وقال ابن العماد إنه الزاهد ببغداد."
+  en: "Abd al-Malik ibn Abd al-Aziz al-Qushayri al-Nasawi al-Daqiqi al-Tammar, the ascetic known as Abu Nasr al-Tammar, a hadith transmitter from Hammad ibn Salama on whom Muslim drew; al-Safadi and Ibn al-Imad give his death in 228 AH, and Ibn al-Imad calls him the ascetic in Baghdad."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
-born: { edtf: "0754", precision: year, status: tradition, derived: true }
-died: { edtf: "0842", precision: year, status: tradition, derived: true }
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/wafi-bi-l-wafayat-safadi-dar-ihya-2000, source/shadharat-dhahab]
 external_ids:
   wikidata: Q106682984
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Safadi, al-Wafi bi-l-Wafayat; Ibn al-Imad, Shadharat al-Dhahab: entries read in full from the local texts"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-dictionaries-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 occupations:
   - job: job/muhaddith
     kind: primary
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/al-aalam]
+born: { edtf: "0754", precision: year, status: tradition, derived: true }
+died: { edtf: "0842", hijri: "0228", calendar: gregorian, precision: year, status: tradition, derived: true, note: "al-Safadi gives 228 AH {cite:wafi-bi-l-wafayat-safadi-dar-ihya-2000 vol. 19 p. 121}; Ibn al-Imad lists him among those who died in 228 AH, at the beginning of the year {cite:shadharat-dhahab vol. 3 p. 130}; 228 AH began in October 842.", sources: [source/wafi-bi-l-wafayat-safadi-dar-ihya-2000, source/shadharat-dhahab] }
 relations:
-  - { type: born_in, target: place/khorasan, note: "Wikidata Q2352322 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
-  - { type: died_in, target: place/baghdad, note: "Wikidata Q1530 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
-  - { type: lived_in, target: place/abbasid-caliphate, note: "Wikidata Q12536 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: born_in, target: place/khorasan, sources: [source/wikidata], confidence: medium, note: "Wikidata Q2352322 (P19); corroboration recommended." }
+  - { type: died_in, target: place/baghdad, sources: [source/wikidata, source/shadharat-dhahab], confidence: medium, note: "Wikidata Q1530 (P20); Ibn al-Imad, Shadharat al-Dhahab, vol. 3 p. 130: the ascetic in Baghdad, dying at the beginning of the year" }
+  - { type: lived_in, target: place/abbasid-caliphate, sources: [source/wikidata], confidence: medium, note: "Wikidata Q12536 (P27); corroboration recommended." }

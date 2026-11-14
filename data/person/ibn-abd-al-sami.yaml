@@ -6,29 +6,30 @@ label:
 roles: [poet, muhaddith]
 gender: male
 summary:
-  ar: "بطاقة أولية لابن عبد السميع، شاعر ومحدث عراقي القرن الثالث عشر، توفي سنة ١٢٢٤م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ibn Abd al-Sami', the thirteenth-century Iraqi poet, muhaddith and writer, d. 1224; the biographical entry is not yet checked on the page."
+  ar: "أبو طالب بن عبد السميع، عبد الرحمن بن محمد بن عبد السميع بن أبي تمام الواسطي، المقرئ المعدل، قرأ القراءات على عبد العزيز السماتي وسمع ببغداد وصنف وعني بالحديث، توفي في المحرم سنة 621 هـ عن ثلاث وثمانين سنة {cite:shadharat-dhahab vol. 7 p. 167}."
+  en: "Abu Talib ibn Abd al-Sami', Abd al-Rahman ibn Muhammad ibn Abd al-Sami' ibn Abi Tamam al-Wasiti, a Qur'an reciter and accredited notary witness who read the readings under Abd al-Aziz al-Samati, heard from teachers in Baghdad and wrote several works; he died in Muharram 621 AH aged eighty-three {cite:shadharat-dhahab vol. 7 p. 167}."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/crusades-ayyubid-mamluk]
-born: { edtf: "1144", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
-died: { edtf: "1224", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
+born: { edtf: "1144", hijri: "0538", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar. Consistent with the age of eighty-three given at death in Muharram 621 AH {cite:shadharat-dhahab vol. 7 p. 167}, which puts the birth around 538 AH (a derived calculation).", sources: [source/shadharat-dhahab] }
+died: { edtf: "1224", hijri: "0621", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar. Ibn al-Imad lists him under 621 AH, died in Muharram {cite:shadharat-dhahab vol. 7 p. 167}, agreeing with the card.", sources: [source/shadharat-dhahab] }
 relations:
-  - { type: born_in, target: place/wasit, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-  - { type: died_in, target: place/wasit, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/al-aalam, source/wikidata]
+  - { type: born_in, target: place/wasit, confidence: medium, note: "Place link from Wikidata; pending a second source. Ibn al-Imad gives the nisba al-Wasiti but no birthplace.", sources: [source/wikidata] }
+  - { type: died_in, target: place/wasit, confidence: medium, note: "Place link from Wikidata; pending a second source. Ibn al-Imad gives no place of death.", sources: [source/wikidata] }
+  - { type: traveled_to, target: place/baghdad, confidence: high, note: "Ibn al-Imad, Shadharat al-Dhahab, vol. 7 p. 167: heard from teachers in Baghdad", sources: [source/shadharat-dhahab] }
+sources: [source/al-aalam, source/wikidata, source/shadharat-dhahab]
 external_ids:
   wikidata: Q67196633
   viaf: "95677779"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0073
+  source: "Ibn al-Imad, Shadharat al-Dhahab, year 621 AH, entry read in full from the local OpenITI text (Dar Ibn Kathir edition, vol. 7)"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-shadharat-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 occupations:
   - job: job/muhaddith
     kind: secondary

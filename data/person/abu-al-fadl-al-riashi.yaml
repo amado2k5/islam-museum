@@ -7,24 +7,24 @@ roles: [scholar]
 gender: male
 themes: [linguistics]
 summary:
-  ar: "بطاقة أولية لأبي الفضل العباس الرياشي، لغوي ومحدث القرن التاسع، توفي سنة ٨٧١م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abu'l-Fadl al-Abbas al-Riashi, the ninth-century linguist and muhaddith, d. 871; the biographical entry is not yet checked on the page."
+  ar: "أبو الفضل العباس بن الفرج الرياشي، النحوي اللغوي البصري، عالم راوية ثقة عارف بأيام العرب، روى عن الأصمعي وأبي عبيدة وروى عنه إبراهيم الحربي وابن أبي الدنيا، وقتله الزنج بالبصرة في شوال سنة 257 هـ."
+  en: "Abu al-Fadl al-Abbas ibn al-Faraj al-Riyashi, the Basran grammarian and philologist, a reliable transmitter versed in the battle-days of the Arabs, who narrated from al-Asma'i and Abu Ubayda and was narrated from by Ibrahim al-Harbi and Ibn Abi al-Dunya; killed by the Zanj at Basra in Shawwal 257 AH (871 CE)."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-fragmentation]
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/wafayat-ayan, source/kamil-ibn-al-athir]
 external_ids:
   wikidata: Q12177796
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0052
+  source: "Ibn Khallikan, Wafayat al-A'yan (OpenITI 0681), vol. 3 pp. 27-28; Ibn al-Athir, al-Kamil (Shamela0004579), vol. 6 p. 234, entries read in full from the local texts"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-wafayat-kamil-2026-11-14
 status:
   review: draft
-  completeness: 1
-died: { edtf: "871", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala)" }
+  completeness: 3
+died: { edtf: "871", hijri: "0257", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala). Ibn Khallikan, vol. 3 pp. 27-28, gives Shawwal 257 AH and rejects a date of 265 AH; Ibn al-Athir, al-Kamil vol. 6 p. 234, lists him under 257 AH. The Gregorian year is the museum's conversion and agrees with the card.", sources: [source/wafayat-ayan, source/kamil-ibn-al-athir] }
 relations:
-  - { type: born_in, target: place/basra, note: "Wikidata Q48195 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
-  - { type: died_in, target: place/basra, note: "Wikidata Q48195 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: born_in, target: place/basra, note: "Wikidata Q48195 (P19); Ibn Khallikan, vol. 3 p. 27, calls him al-Basri (a nisba that does not itself state birth).", sources: [source/wikidata, source/wafayat-ayan], confidence: medium }
+  - { type: died_in, target: place/basra, note: "Ibn Khallikan, vol. 3 pp. 27-28: killed at Basra in the days of the Zanj leader, in the mosque.", sources: [source/wafayat-ayan], confidence: high }

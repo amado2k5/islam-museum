@@ -23,7 +23,9 @@ provenance:
   run: lib-tarikh-khulafa-batch-39
   localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-third-40-stories-2026-11-04","source":"Urdu label and concise summary restated from this existing Arabic/English museum record and its defined sources; no new facts or source-page research."}
   model: "unknown"
-sources: [source/tarikh-khulafa-minhaj-1434, source/muntazam-ibn-al-jawzi, source/shadharat-dhahab]
+external_ids: { wikidata: Q293683 }
+born: { edtf: "1056-07-24", hijri: "0448-05-08", calendar: julian, precision: day, status: historical, derived: true, note: "From Wikidata (Q293683, revision 2553833658, read 2026-11-14): date of birth 1056-07-24 (julian calendar as declared by the item). The Hijri value is an arithmetical conversion of the civil date.", sources: [source/wikidata-al-muqtadi-billah] }
+sources: [source/tarikh-khulafa-minhaj-1434, source/muntazam-ibn-al-jawzi, source/shadharat-dhahab, source/wikidata-al-muqtadi-billah]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
 relations:
   - { type: ruled_over, target: polity/abbasid-caliphate, sources: [source/tarikh-khulafa-minhaj-1434] }

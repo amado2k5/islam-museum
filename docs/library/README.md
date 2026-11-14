@@ -58,6 +58,8 @@ below, for the founder to send in a batch.
 GEMINI: ibn-haytham-manazir / hilyat-awliya: held printed pages 532, 546 and 666; the founder's held list names Kitab al-Manazir, the hilyat-awliya ledger (docs/delegation/library/hilyat-awliya.md) lists the same page numbers for Hilyat al-Awliya; which book holds them? I recorded them as held in both entries.
 GEMINI: books segment, entries with an archive.org identifier as title (unverified: title): author, title and edition could not be read from the manifest or ledgers; the scan's title page would settle them.
 GEMINI: raw/library/tafsir-app and the fatwa catalogue JSON files: not books; left for the websites and datasets segments (tafsir.app harvest tree, dar-alifta catalogue).
+GEMINI: web-hadithunlocked: licence of hadithunlocked.com and which of the 17 failed hadith files were retried; what the manifest and drive show: 44 ok, 17 failed, no licence page recorded; the site's own terms page would settle it.
+GEMINI: web-princeton-geniza: the Zenodo record URL of the metadata zip pgp-metadata-v1.2.zip; what the drive shows: folder name pgp-zenodo-22663982 only; the Zenodo record page would settle it.
 
 ## Wrap-up queue
 (Maintained from the register: every partly mined or nearly complete book, ranked by share of pages

@@ -3,26 +3,28 @@ class: person
 label:
   ar: "أحمد بن أبي نصر البزنطي"
   en: "Ahmad al-Bazanti"
+names:
+  - { kind: full, lang: ar, value: "أحمد بن محمد بن زيد السكوني، أبو جعفر البزنطي" }
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لأحمد بن أبي نصر البزنطي، محدث وفقيه القرن التاسع؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ahmad ibn Abi Nasr al-Bazanti, the ninth-century muhaddith and jurist; the biographical entry is not yet checked on the page."
+  ar: "أحمد بن محمد بن زيد السكوني بالولاء، أبو جعفر البزنطي، فاضل من أهل الكوفة، لقي الإمامين الرضا وأبا جعفر على اصطلاح الإمامية، من كتبه «الجامع» و«النوادر»، توفي سنة 221 هـ."
+  en: "Ahmad ibn Muhammad ibn Zayd al-Sakuni by clientage, Abu Ja'far al-Bazanti, a man of learning from Kufa who, in the Imami usage, met the Imams al-Rida and Abu Ja'far; his books include al-Jami' and al-Nawadir; died 221 AH (836)."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-fragmentation]
-sources: [source/al-aalam]
+died: { edtf: "836", hijri: "0221", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tusi (al-Fihrist). al-Zirikli prints 221 AH = 836 CE {cite:alam-zirikli-dar-al-ilm-2002 vol. 1 p. 203}, agreeing with the card.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+relations:
+  - { type: lived_in, target: place/kufa, note: "al-Zirikli, al-A'lam, vol. 1 p. 203: he was from the people of Kufa.", sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002], confidence: high }
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q97258707
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0057
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
-died: { edtf: "836", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tusi (al-Fihrist)" }
-relations:
-  - { type: lived_in, target: place/kufa, note: "Al-Bazanti was the Kufan transmitter and jurist of the Imamiyya school. Association via the scholarly circle he belonged to; flagged for review.", sources: [source/al-aalam], confidence: medium }
+  completeness: 3

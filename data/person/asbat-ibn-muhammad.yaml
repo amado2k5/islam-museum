@@ -3,32 +3,35 @@ class: person
 label:
   ar: "أسباط بن محمد"
   en: "Asbat ibn Muhammad"
+names:
+  - { kind: full, lang: ar, value: "أسباط بن محمد، أبو محمد الكوفي القرشي" }
 roles: [muhaddith]
 gender: male
 summary:
-  ar: "بطاقة أولية لأسباط بن محمد القرشي الكوفي، المحدث الحافظ في القرن الثاني الهجري؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Asbat ibn Muhammad al-Qurashi, the Kufan hadith master of the second century; his entry is not yet checked on the page."
+  ar: "أسباط بن محمد، أبو محمد الكوفي القرشي، محدث ثقة والد عبيد بن أسباط، روى عن الأعمش وطبقته، وأخرج له أصحاب الكتب الستة، توفي سنة 200 هـ."
+  en: "Asbat ibn Muhammad, Abu Muhammad al-Kufi al-Qurashi, a reliable hadith transmitter and father of Ubayd ibn Asbat; he narrated from al-A'mash and his generation and the six hadith books draw on him; died 200 AH (815)."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
-died: { edtf: "0815", precision: year, status: tradition, derived: true }
-sources: [source/al-aalam]
+died: { edtf: "815", hijri: "0200", calendar: gregorian, precision: year, derived: true, note: "al-Safadi, al-Wafi, vol. 8 p. 249, and Ibn al-Imad, Shadharat al-Dhahab, vol. 2 p. 474, both give 200 AH, which falls in 815-816 CE {cite:wafi-bi-l-wafayat-safadi-dar-ihya-2000 vol. 8 p. 249} {cite:shadharat-dhahab vol. 2 p. 474}.", sources: [source/wafi-bi-l-wafayat-safadi-dar-ihya-2000, source/shadharat-dhahab] }
+sources: [source/al-aalam, source/wafi-bi-l-wafayat-safadi-dar-ihya-2000, source/shadharat-dhahab]
 external_ids:
   wikidata: Q4803672
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Safadi, al-Wafi bi-l-Wafayat (Dar Ihya al-Turath, 2000) and Ibn al-Imad, Shadharat al-Dhahab, entry read in full from the local text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-wafi-shadharat-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 occupations:
   - job: job/muhaddith
     kind: primary
     status: historical
-    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
-    sources: [source/al-aalam]
+    note: "bootstrap from roles, 1 Nov 2026 merge map; al-Safadi, vol. 8 p. 249, lists the six books' compilers who narrated from him"
+    sources: [source/al-aalam, source/wafi-bi-l-wafayat-safadi-dar-ihya-2000]
 relations:
   - { type: lived_in, target: place/mecca, note: "Place association from the person's nisba/name (القرشي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
+  - { type: lived_in, target: place/kufa, note: "Place association from the nisba al-Kufi given by al-Safadi, vol. 8 p. 249, and Ibn al-Imad, vol. 2 p. 474.", sources: [source/wafi-bi-l-wafayat-safadi-dar-ihya-2000, source/shadharat-dhahab], confidence: medium }

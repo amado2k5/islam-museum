@@ -6,23 +6,23 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لأبي نصر الزينبي، محدث القرن الحادي عشر، توفي سنة ١٠٨٦م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abu Nasr al-Zaynabi, the eleventh-century muhaddith, d. 1086; the biographical entry is not yet checked on the page."
+  ar: "الشريف أبو نصر الزينبي العباسي، نقيب الهاشميين، محدث مشهور عالي الإسناد، يذكره ابن الأثير في وفيات سنة 479 هـ."
+  en: "The sharif Abu Nasr al-Zaynabi al-Abbasi, naqib of the Hashimites, a well-known hadith transmitter with a high chain of transmission; Ibn al-Athir lists him among those who died in 479 AH (1086)."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/buyid-seljuk-fatimid-era]
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/kamil-ibn-al-athir]
 external_ids:
   wikidata: Q22684098
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0060
+  source: "Ibn al-Athir, al-Kamil fi l-Ta'rikh, entry read in full from the local text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-kamil-2026-11-14
 status:
   review: draft
-  completeness: 1
-died: { edtf: "1086", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar); al-Safadi" }
+  completeness: 3
+died: { edtf: "1086", hijri: "0479", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar); al-Safadi. Ibn al-Athir lists him among those who died in 479 AH {cite:kamil-ibn-al-athir vol. 8 p. 450}; that year runs from April 1086 to April 1087.", sources: [source/kamil-ibn-al-athir] }
 relations:
-  - { type: lived_in, target: place/abbasid-caliphate, note: "Wikidata Q12536 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/abbasid-caliphate, sources: [source/wikidata], confidence: medium, note: "Wikidata Q12536 (P27); corroboration recommended." }

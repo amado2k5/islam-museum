@@ -1,6 +1,8 @@
 id: person/al-mustakfi-i-cairo
 class: person
 label: { ar: "المستكفي", en: "al-Mustakfi I", ur: "المستكفي" }
+born: { edtf: "1285-03-23", hijri: "0684-01-08", calendar: gregorian, precision: day, status: historical, derived: true, note: "From Wikidata (Q285426, revision 2554008858, read 2026-11-14): date of birth 1285-03-23 (gregorian calendar as declared by the item). The Hijri value is an arithmetical conversion of the civil date.", sources: [source/wikidata-al-mustakfi-i-cairo] }
+died: { edtf: "1340-02", hijri: "0740-08~", calendar: julian, precision: month, status: historical, derived: true, note: "From Wikidata (Q285426, revision 2554008858, read 2026-11-14): date of death 1340-02 (julian calendar as declared by the item). The Hijri value is an arithmetical conversion, approximate to the year.", sources: [source/wikidata-al-mustakfi-i-cairo] }
 gender: male
 roles: [caliph]
 wings: [people]
@@ -13,6 +15,7 @@ story_roles:
 relations:
   - { type: ruled_over, target: polity/abbasid-caliphate-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: successor_of, target: person/al-hakim-bi-amr-illah, sources: [source/tarikh-khulafa-minhaj-1434] }
-sources: [source/tarikh-khulafa-minhaj-1434]
+external_ids: { wikidata: Q285426 }
+sources: [source/tarikh-khulafa-minhaj-1434, source/wikidata-al-mustakfi-i-cairo]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium); khulafa lane, plan 30" }
 provenance: { generated_by: "Devin (SWE-2 Medium)", run: "khulafa-roster-batch", note: "Roster record seeded from the cited sources; enrichment follows the lane." }

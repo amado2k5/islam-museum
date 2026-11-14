@@ -6,27 +6,29 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لفخر الدين بن عساكر؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Fakhr al-Din ibn 'Asakir; the entry is not yet checked on the page."
+  ar: "أبو منصور عبد الرحمن بن محمد بن الحسن الدمشقي، فخر الدين ابن عساكر، فقيه شافعي تفقه على قطب الدين مسعود النيسابوري وتزوج ابنته، ودرس بالقدس ودمشق، وهو ابن أخي الحافظ علي ابن عساكر، توفي بدمشق في العاشر من رجب سنة 620 هـ {cite:wafayat-ayan vol. 3 p. 135}."
+  en: "Abu Mansur Abd al-Rahman ibn Muhammad ibn al-Hasan al-Dimashqi, Fakhr al-Din ibn Asakir, a Shafi'i jurist who studied under Qutb al-Din Mas'ud al-Naysaburi and married his daughter, taught in Jerusalem and Damascus, and was the nephew of the hafiz Ali ibn Asakir; he died in Damascus on 10 Rajab 620 AH {cite:wafayat-ayan vol. 3 p. 135}."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/crusades-ayyubid-mamluk]
-born: { edtf: "1155", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala" }
-died: { edtf: "1223", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala" }
+born: { edtf: "1155", hijri: "0550", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala. Ibn Khallikan gives 550 AH by supposition, noting that the man wrote in his own hand that his birth was in 550 {cite:wafayat-ayan vol. 3 p. 135}; 550 AH began in March 1155, agreeing with the card.", sources: [source/wafayat-ayan] }
+died: { edtf: "1223", hijri: "0620", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala. Ibn Khallikan gives Wednesday 10 Rajab 620 AH {cite:wafayat-ayan vol. 3 p. 135}, agreeing with the card.", sources: [source/wafayat-ayan] }
 relations:
-  - { type: born_in, target: place/damascus, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-  - { type: died_in, target: place/damascus, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-  - { type: buried_in, target: place/sufism-cemetery, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/al-aalam, source/wikidata]
+  - { type: born_in, target: place/damascus, confidence: medium, note: "Place link from Wikidata; pending a second source. Ibn Khallikan gives no birthplace.", sources: [source/wikidata] }
+  - { type: died_in, target: place/damascus, confidence: high, note: "Ibn Khallikan, Wafayat al-A'yan, vol. 3 p. 135: died at Damascus", sources: [source/wafayat-ayan, source/wikidata] }
+  - { type: buried_in, target: place/sufism-cemetery, confidence: medium, note: "Ibn Khallikan, vol. 3 p. 135, says he visited the grave many times in the Sufi cemeteries outside Damascus; the identification with this place record is from Wikidata", sources: [source/wafayat-ayan, source/wikidata] }
+  - { type: lived_in, target: place/jerusalem, confidence: medium, note: "Ibn Khallikan, vol. 3 p. 135: taught in Jerusalem for a time", sources: [source/wafayat-ayan] }
+  - { type: related_to, target: person/ibn-asakir, confidence: high, note: "Ibn Khallikan, vol. 3 p. 135: nephew (brother's son) of the hafiz Abu al-Qasim Ali ibn Asakir, author of Tarikh Dimashq", sources: [source/wafayat-ayan] }
+sources: [source/al-aalam, source/wikidata, source/wafayat-ayan]
 external_ids:
   wikidata: Q25452530
   viaf: "20068655"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "Ibn Khallikan, Wafayat al-A'yan (ed. Ihsan Abbas), entry 366 read in full from the local text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-wafayat-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
