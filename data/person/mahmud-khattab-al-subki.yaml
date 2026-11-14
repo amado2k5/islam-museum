@@ -11,15 +11,16 @@ summary:
   ur: "ازہر کے تربیت یافتہ مصری سنی عالم ⁦(و. ۱۳۵۲ھ)⁩، عوامی بدعات کے مخالف، اور فتاوائے ائمۃ المسلمین کے مصنف۔"
   en: "Egyptian Azhar-trained Sunni scholar (d. 1352 AH) who opposed popular innovations, author of Fatawa A'immat al-Muslimin. His fiqh school is Maliki according to the reference cited."
 wings: [people]
-born: { edtf: "1858", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam" }
-died: { edtf: "1933", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam" }
+born: { edtf: "1857", calendar: gregorian, precision: year, derived: true, note: "al-Zirikli, al-A'lam, vol. 7 p. 186: 1274 AH = 1857 as printed; the earlier card said 1858", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+died: { edtf: "1933", calendar: gregorian, precision: year, derived: true, note: "al-Zirikli, al-A'lam, vol. 7 p. 186: 1352 AH = 1933 as printed", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
   - { type: lived_in, target: place/misr, confidence: low, note: "Associated with مصر per the record's own text; relation type pending review.", sources: [source/fatawa-aimmat-al-muslimin-subki] }
-sources: [source/fatawa-aimmat-al-muslimin-subki]
+  - { type: died_in, target: place/cairo, confidence: high, note: "al-Zirikli, al-A'lam, vol. 7 p. 186: he died in Cairo", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+sources: [source/fatawa-aimmat-al-muslimin-subki, source/alam-zirikli-dar-al-ilm-2002]
 provenance:
   layer: own-research
   source: "Fatwa book front matter (OCR, pp. 1–2) and ar.wikipedia infobox, checked 2026-10-31; death year from the book's own title page."
   generated_by: "Claude (Haiku 5.5)"
   model: "claude-haiku-5-5"
   run: fatwa-batch-1-2026-10-31
-status: { review: published, completeness: 1 }
+status: { review: published, completeness: 2, ai_unread: "The ar, en and ur prose sections citing al-Zirikli, al-A'lam were added on 14 November 2026 (Lane B2, run web-b2-alam-2026-11-14); AI text awaiting a human read. The card itself keeps its status." }

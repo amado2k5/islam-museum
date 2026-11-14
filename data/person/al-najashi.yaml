@@ -3,28 +3,31 @@ class: person
 label:
   ar: "أحمد بن علي النجاشي"
   en: "al-Najashi"
-roles: [scholar]
+roles: [historian, scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لأحمد بن علي النجاشي، علّامة الإمامية في الرجال في القرن الحادي عشر صاحب «رجال النجاشي»، توفي سنة ١٠٥٨م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ahmad ibn Ali al-Najashi, the eleventh-century Imami rijal scholar author of Rijal al-Najashi, d. 1058; the biographical entry is not yet checked on the page."
+  ar: "أحمد بن علي بن أحمد بن العباس النجاشي الأسدي، أبو العباس، مؤرخ إمامي ببغدادي ⁦(372 - 450 هـ، 982 - 1058 م)⁩ يعرف بابن الكوفي، صاحب كتاب «الرجال» في تراجم علماء الشيعة وأسماء مصنفاتهم؛ وهو من الإمامية، وهم فرقة شيعية تختلف عن الإطار السني للمتحف."
+  en: "Ahmad ibn Ali ibn Ahmad ibn al-Abbas al-Najashi al-Asadi, Abu al-Abbas (372-450 AH, 982-1058 CE), an Imami (Shi'i, distinct from the museum's Sunni default frame) historian of Baghdad known as Ibn al-Kufi, author of the Rijal on Shi'i scholars and their works."
 wings: [people]
+born: { edtf: "982", calendar: gregorian, precision: year, derived: true, note: "al-Zirikli, al-A'lam, vol. 1 p. 172: 372 AH = 982 as printed", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+died: { edtf: "1058", calendar: gregorian, precision: year, derived: true, note: "al-Zirikli, al-A'lam, vol. 1 p. 172: 450 AH = 1058 as printed", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 regions: [levant-iraq]
 periods: [period/buyid-seljuk-fatimid-era]
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q97486457
   viaf: "90057122"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0031
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002 (vol. 1 p. 172), entry read in full from the local OpenITI text; Wikidata candidate Q97486457"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 relations:
   - { type: born_in, target: place/baghdad, note: "Wikidata Q1530 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: died_in, target: place/samarra, note: "Wikidata Q170047 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: lived_in, target: place/abbasid-caliphate, note: "Wikidata Q12536 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/baghdad, confidence: high, note: "al-Zirikli, al-A'lam, vol. 1 p. 172: he was from the people of Baghdad", sources: [source/alam-zirikli-dar-al-ilm-2002] }
