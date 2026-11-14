@@ -18,7 +18,7 @@ periods: [period/abbasid-fragmentation]
 regions: [persia-central-asia]
 story_roles:
   - { role: transmitter, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
-external_ids: { wikidata: "Q293578" }
+external_ids: { wikidata: "Q293578", biblissima: "Q12215" }
 relations:
   - { type: born_in, target: place/tirmidh, sources: [source/mawsuat-a3lam-ulama-adaba], note: "قرية بوغ من أحواز ترمذ، أو ترمذ نفسها {cite:mawsuat-a3lam-ulama-adaba p. 450}" }
   - { type: died_in, target: place/tirmidh, sources: [source/mawsuat-a3lam-ulama-adaba, source/encyclopaedia-of-islam-2] }
@@ -35,7 +35,7 @@ relations:
   - { type: participated_in, target: event/tirmidhi-settles-jami-265, role: "المصنّف", sources: [source/mawsuat-a3lam-ulama-adaba, source/encyclopaedia-of-islam-2] }
   - { type: participated_in, target: event/tirmidhi-loses-sight-275, role: "الضرير", sources: [source/mawsuat-a3lam-ulama-adaba, source/encyclopaedia-of-islam-2] }
   - { type: participated_in, target: event/death-tirmidhi-bugh-279, role: "المتوفَّى", sources: [source/mawsuat-a3lam-ulama-adaba, source/taqrib-al-tahdhib] }
-sources: [source/mawsuat-a3lam-ulama-adaba, source/taqrib-al-tahdhib, source/encyclopaedia-of-islam-2]
+sources: [source/mawsuat-a3lam-ulama-adaba, source/taqrib-al-tahdhib, source/encyclopaedia-of-islam-2, source/biblissima]
 importance: 1
 status: { review: published, completeness: 4, generated_by: "Devin (SWE-2 Medium)" }
 provenance:

@@ -37,29 +37,30 @@ connections:
   sources:
   - source/hill-1993
 - position: within
-  kind: scholar
+  kind: invention
   title:
-    en: The model Copernicus borrowed
-    ar: النموذج الذي استعاره كوبرنيك
-    ur: 'وہ ماڈل جو کوپرنیک نے ادھار لیا'
+    en: 'Fixing the Moon''s distance'
+    ar: 'تصحيح بُعد القمر'
+    ur: 'چاند کے فاصلے کی اصلاح'
   text:
-    en: Ibn al-Shatir of Damascus rebuilt planetary models to remove Ptolemy's fudge factors; a century and a half later Copernicus used strikingly similar mathematics. Ideas travel — good ones far.
-    ar: أعاد ابن الشاطر الدمشقي بناء نماذج الكواكب ليزيل الترقيعات البطلمية؛ وبعد نحو قرن ونصف استخدم كوبرنيك رياضيات شديدة الشبه. الأفكار تسافر — والجيدة منها بعيدًا.
-    ur: 'دمشق کے ابن الشاطر نے سیاروں کے ماڈل بطلیموس کی الجھنیں نکال کر دوبارہ بنائے؛ ڈیڑھ صدی بعد کوپرنیک نے حیران کن طور پر ملتی جلتی ریاضی استعمال کی۔ خیالات سفر کرتے ہیں — اچھے دور تک۔'
-  entity: person/ibn-al-shatir
+    en: 'Victor Roberts studied Ibn al-Shatir''s double-epicycle model of the Moon. Ptolemy''s lunar theory exaggerated the changing distance of the Moon, and Ibn al-Shatir''s arrangement reduced that defect, with the Earth still central. Roberts finds Copernicus''s lunar construction structurally identical apart from small parameter differences. On whether it travelled to Europe, Roberts in 1957 leaves the question open, while David A. King later reads the reappearance of its details as evidence of some transmission.'
+    ar: 'درس فيكتور روبرتس نموذج ابن الشاطر القمري بفلكي تدوير. فالنظرية القمرية البطلمية بالغت في تغير المسافة، أما تركيب ابن الشاطر فخفف هذا الخلل، مع بقاء الأرض في المركز. ويقول روبرتس إن النموذج القمري لكوبرنيكوس مماثل من حيث البنية مع فروق صغيرة في المعاملات. أما الانتقال إلى أوروبا فمنسوب: روبرتس سنة 1957م يترك السؤال مفتوحاً، بينما يستدل ديفيد كينغ لاحقاً بعودة تفاصيل النماذج على حصول انتقال ما.'
+    ur: 'وکٹر رابرٹس نے ابن الشاطر کے چاند کے دو تدویری دائروں والے نمونے کا مطالعہ کیا۔ بطلیموسی قمری نظریے نے چاند کی بدلتی دوری کو بڑھا چڑھا دیا تھا، اور ابن الشاطر کی ترتیب نے اس خرابی کو کم کیا، جبکہ زمین مرکز میں رہی۔ رابرٹس کے مطابق کوپرنیکس کی قمری ساخت ڈھانچے میں اس جیسی ہے، صرف معاملات میں معمولی فرق ہیں۔ یورپ تک پہنچنے کے سوال کو رابرٹس 1957ء میں کھلا چھوڑتے ہیں، جبکہ ڈیوڈ کنگ بعد میں نمونے کی تفصیلوں کے دوبارہ ظاہر ہونے کو کسی نہ کسی منتقلی کی دلیل مانتے ہیں۔'
+  entity: invention/ibn-al-shatir-lunar-model
   sources:
-  - source/hill-1993
+  - source/roberts-shatir-1957
+  - source/king-ibn-shatir-bea
 - position: after
   kind: place
   title:
-    en: The observatory mountain
-    ar: جبل المرصد
-    ur: 'رصد گاہ کا پہاڑ'
+    en: 'The observatory on the hill'
+    ar: 'المرصد على التل'
+    ur: 'ٹیلے پر رصدگاہ'
   text:
-    en: At Maragha (1259), astronomers worked in a purpose-built observatory — library, instruments, and scholars from several faiths under one dome of sky.
-    ar: في مراغة ⁦(1259م)⁩ عمل الفلكيون في مرصد بُني لغايته — مكتبة وآلات وعلماء من أديان شتى تحت قبة سماء واحدة.
-    ur: 'مراغہ ⁦(1259ء)⁩ میں فلکی ایک مخصوص رصد گاہ میں کام کرتے تھے — کتب خانہ، آلات، اور ایک ہی آسمان کے گنبد تلے کئی مذاہب کے علماء۔'
+    en: 'After the taking of Baghdad in 656 AH/1258 CE, Hulagu took up quarters in Maragha and ordered an observatory built from the plans of Nasir al-Din al-Tusi, who became its first director. The Encyclopaedia of Islam dates the foundation to 657 AH/1259 CE; it had a residence for Hulagu, a mosque and a rich library, and was financed from pious endowments. What do astronomers need besides their instruments?'
+    ar: 'بعد أخذ بغداد سنة 656هـ/1258م نزل هولاكو مراغة وأمر ببناء مرصد على تصميم نصير الدين الطوسي، الذي أشرف على بنائه وصار أول مدير له. وتؤرخ دائرة المعارف الإسلامية التأسيس بسنة 657هـ/1259م؛ وضم المرصد مسكناً لهولاكو ومسجداً ومكتبة غنية، وكان يموَّل من ريع الأوقاف. ما الذي يحتاجه الفلكيون غير آلاتهم؟'
+    ur: 'بغداد پر قبضے کے بعد، 656ھ/1258ء میں، ہولاکو نے مراغہ میں قیام کیا اور نصیر الدین الطوسی کے نقشے پر رصدگاہ بنانے کا حکم دیا؛ الطوسی اس کے پہلے ناظم بنے۔ موسوعۃ الاسلام اس کی بنیاد 657ھ/1259ء بتاتی ہے؛ اس میں ہولاکو کی رہائش، ایک مسجد اور ایک بھرپور کتب خانہ تھا، اور اسے وقف کی آمدنی سے چلایا جاتا تھا۔ فلکیات دانوں کو اپنے آلات کے علاوہ اور کیا چاہیے؟'
   entity: building/maragha-observatory
   sources:
-  - source/hill-1993
+  - source/encyclopaedia-of-islam-2
 order: 3

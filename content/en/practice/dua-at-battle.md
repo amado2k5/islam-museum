@@ -1,0 +1,11 @@
+---
+id: practice/dua-at-battle
+lang: en
+source_lang: ar
+translators: ["Claude Fable 5.2 (claude-fable-5-2), draft translation"]
+---
+## Summary
+What al-Nawawi gives at the head of the Book of the Remembrances of the Campaign in al-Adhkar: asking sincerely for martyrdom, the Prophet's supplication for his Companions at the digging of the Trench, and his pleading with his Lord in the shelter, as in the two Sahihs. {cite:al-adhkar-nawawi-arnaut-1994 p. 206}
+
+## What al-Nawawi gathers in al-Adhkar
+Al-Nawawi says that the remembrances of the campaigner's journey and return come in the book on the traveller, and that here he gives briefly what belongs to the campaign alone {cite:al-adhkar-nawawi-arnaut-1994 p. 206}. He begins with a chapter on the merit of asking for martyrdom: from the two Sahihs, from Anas, the report of Umm Haram, who asked [[person/muhammad|the Prophet]] to pray that she be among those who would campaign by sea, and he prayed for her {cite:al-adhkar-nawawi-arnaut-1994 p. 206} {cite:al-adhkar-nawawi-arnaut-1994 p. 207}. From the Sunan of Abu Dawud, al-Tirmidhi, al-Nasa'i and Ibn Majah, from Mu'adh, and from Sahih Muslim, from Anas and from Sahl ibn Hunayf, he gives the reports that one who sincerely asks God for martyrdom is brought to the ranks of the martyrs even if he dies in his bed; he quotes al-Tirmidhi's grading of Mu'adh's report as good and sound {cite:al-adhkar-nawawi-arnaut-1994 p. 207}. In the chapter on praying for those who fight or who work at what supports the fighting, he reports from the two Sahihs, from Anas, the words said on seeing the Emigrants and the Helpers digging the Trench on a cold morning: «اللهم إن العيش عيش الآخرة، فاغفر للأنصار والمهاجرة», O God, the true life is the life to come, so forgive the Helpers and the Emigrants {cite:al-adhkar-nawawi-arnaut-1994 p. 208}. In the chapter on supplication, entreaty and takbir at battle he cites the verses from [[passage/quran-8-45|8:45]] on, and reports from the two Sahihs, from Ibn Abbas, the pleading in the shelter, in al-Bukhari's wording: «اللهم إني أنشدك عهدك ووعدك، اللهم إن شئت لم تعبد بعد اليوم», O God, I call on Your covenant and Your promise. Abu Bakr took his hand and said it was enough; al-Nawawi glosses the verb used for the pleading as raising the voice in supplication {cite:al-adhkar-nawawi-arnaut-1994 p. 208}.

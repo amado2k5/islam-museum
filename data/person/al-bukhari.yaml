@@ -12,7 +12,7 @@ roles: [scholar]
 wings: [people]
 periods: [period/abbasid-early, period/abbasid-fragmentation]
 regions: [persia-central-asia]
-external_ids: { wikidata: "Q241026" }
+external_ids: { wikidata: "Q241026", biblissima: "Q12161" }
 relations:
   - { type: born_in, target: place/bukhara, sources: [source/tabaqat-shafiiyya-subki, source/encyclopaedia-of-islam-2] }
   - { type: died_in, target: place/khartank, sources: [source/tabaqat-shafiiyya-subki, source/encyclopaedia-of-islam-2] }
@@ -24,7 +24,7 @@ relations:
   - { type: participated_in, target: event/bukhari-leaves-nishapur-250, role: "المُخرَج", sources: [source/tabaqat-shafiiyya-subki, source/encyclopaedia-of-islam-2] }
   - { type: participated_in, target: event/bukhari-expulsion-khartank-256, role: "المُخرَج", sources: [source/tabaqat-shafiiyya-subki, source/encyclopaedia-of-islam-2] }
   - { type: participated_in, target: event/death-al-bukhari-256, role: "المتوفَّى", sources: [source/tabaqat-shafiiyya-subki, source/encyclopaedia-of-islam-2] }
-sources: [source/fihrist-ibn-al-nadim, source/sahih-al-bukhari, source/tabaqat-shafiiyya-subki, source/encyclopaedia-of-islam-2]
+sources: [source/fihrist-ibn-al-nadim, source/sahih-al-bukhari, source/tabaqat-shafiiyya-subki, source/encyclopaedia-of-islam-2, source/biblissima]
 education:
   did_you_know:
     ar: "اختار البخاري صحيحه من نحو ستمئة ألف حديث جمعها في ست عشرة سنة من السفر، ولم يُدخل إلا ما تحقق فيه شرطه."

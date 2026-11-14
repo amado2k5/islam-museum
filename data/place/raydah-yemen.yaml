@@ -1,0 +1,34 @@
+id: place/raydah-yemen
+class: place
+kind: town
+label:
+  ar: ريدة
+  en: Raydah
+  ur: ریدہ
+summary:
+  ar: مدينة على مسيرة يوم من صنعاء بحسب حاشية المحقق عن معجم البلدان، قاتل الهادي عندها صعصعة بن جعفر وخرّب قصرها في آخر جمادى الآخرة سنة 288هـ.
+  en: A town a day's journey from Sana'a according to the editor's footnote from Mu'jam al-Buldan, where al-Hadi fought Sa'sa'a ibn Ja'far and razed its palace at the end of Jumada II 288 AH.
+  ur: مرتب کے حاشیے میں معجم البلدان کے حوالے سے صنعاء سے ایک دن کی مسافت پر ایک شہر، جہاں ہادی نے جمادی الآخرہ 288ھ کے آخر میں صعصعہ بن جعفر سے جنگ کی اور اس کے قصر کو ڈھا دیا۔
+wings:
+- place
+regions:
+- arabia
+relations:
+- type: located_in
+  target: place/sanaa
+  sources:
+  - source/sira-hadi-ila-al-haqq
+  confidence: low
+  note: قرب صنعاء على مسيرة يوم بحسب الحاشية؛ لا يفيد الانتماء الإداري
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص17-20 (الصفحة المطبوعة)'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-2
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 17-20

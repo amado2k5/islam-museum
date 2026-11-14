@@ -23,19 +23,24 @@ export const NON_MATCHES: RegExp[] = [
   /The Islamic State(?= and The Islamic Personality)/g,
 ];
 
-/** Blocked names. Case-sensitive acronyms first, then names, then Arabic. Each carries a label for the error message. */
+/** Blocked names. Case-sensitive acronyms first, then names, then Arabic. Each carries a label for the error message.
+ * Expanded 2026-11-14 from the official designation lists (EU Common Position 2001/931 list and ISIL/Al-Qaida
+ * regime, US State Dept FTO + OFAC SDGT, Public Safety Canada, UN ISIL/Al-Qaida sanctions list, UK proscribed
+ * organisations, Australia Criminal Code list, NZ designated entities). A few designated names whose patterns
+ * would also catch founder-kept existing records are documented in content-safety.md section 2 and stay
+ * unpatterned until the founder rules on exceptions (golden-set rule). */
 export const BLOCKED: { label: string; re: RegExp }[] = [
-  { label: "ISIS/ISIL", re: /\b(?:ISIS|ISIL|ISWAP|AQAP|AQIM|AQIS)\b/ },
+  { label: "ISIS/ISIL", re: /\b(?:ISIS|ISIL|ISWAP|AQAP|AQIM|AQIS|TTP|JNIM|GIA|HASAM|MUJAO)\b/ },
   { label: "Islamic State (group)", re: /\bIslamic State\b/ },
   {
     label: "blocked organisation",
-    re: /\b(?:daesh|boko haram|abu sayyaf|al[- ]?qa'?[ie]da|al[- ]?qaida|al[- ]?shabaab|jabhat al[- ]?nusra|al[- ]?nusra|nusra front|hay'?at tahrir al[- ]?sham|hurras al[- ]?din|hamas|qassam brigades|hezbollah|hizbollah|hizballah|hizbullah|kata'?ib hezbollah|harakat al[- ]?nujaba|taliban|tehrik-i-taliban|lashkar-e-taiba|jaish-e-mohammed|haqqani network|harkat-ul-mujahideen|indian mujahideen|jemaah islamiyah|ansar al[- ]?sharia|ansarullah bangla|palestinian islamic jihad)\b/i,
+    re: /\b(?:daesh|boko haram|abu sayyaf|al[- ]?qa'?[ie]da|al[- ]?qaida|al[- ]?shabaab|jabhat al[- ]?nusra|al[- ]?nusra|nusra front|hay'?at tahrir al[- ]?sham|hurras al[- ]?din|hamas|qassam brigades|hezbollah|hizbollah|hizballah|hizbullah|kata'?ib hezbollah|harakat al[- ]?nujaba|taliban|tehrik-i-taliban|tehrik-e-taliban|lashkar-e-taiba|lashkar-e-jhangvi|jaish-e-mohammed|haqqani network|harkat-ul-mujahideen|harakat ul[- ]?mujahidin|hizbul mujahideen|indian mujahideen|jemaah islamiyah|jemaah islamiyyah|jemaah anshorut tauhid|jammat[- ]ul mujahideen bangladesh|jama'?atul mujahideen bangladesh|ansar al[- ]?sharia|ansarullah bangla|ansaru|ansar bayt al[- ]?maqdis|asbat al[- ]?ansar|palestinian islamic jihad|abdallah azzam brigades|abdullah azzam brigades|al[- ]?ashtar brigades|al[- ]?murabitoun|al[- ]?muwaqi'?un bil dima|signed[- ]in[- ]blood battalion|al[- ]?gama'?a al[- ]?islamiyya|gama'?a al[- ]?islamiyya|al[- ]?jama'?a al[- ]?islamiyya|al[- ]?ittihad al[- ]?islamiya|caucasus emirate|imarat kavkaz|egyptian islamic jihad|islamic jihad group|islamic jihad union|eastern turkistan islamic movement|turkistan islamic party|fatemiyoun|macina liberation front|front de lib[ée]ration du macina|harakat al[- ]?sabireen|hezb[- ]e islami gulbuddin|international relief fund for the afflicted and needy|islamic movement of uzbekistan|islamic army of aden|jama'?at nusrat al[- ]?islam wal[- ]?muslimin|jaysh al[- ]?muhajirin wal[- ]?ansar|jund al[- ]?aqsa|jund al[- ]?khalifa|movement for oneness and jihad in west africa|ummah tameer[- ]e[- ]nau|lebanese muslim brotherhood)\b/i,
   },
   { label: "blocked media wing", re: /\b(?:amaq|rumiyah|as[- ]sahab|al[- ]malahem|az[- ]zallaqa|al[- ]kataib media|al[- ]furqan media|al[- ]hayat media|i'?tisam media|al[- ]aqsa tv|almanar\.com|al[- ]manar (?:tv|channel|television))\b/i },
   { label: "Dabiq/Rumiyah magazine", re: /\*(?:Dabiq|Rumiyah)\*|\b(?:Dabiq|Rumiyah) (?:magazine|issue)|magazine,? \*?(?:Dabiq|Rumiyah)|issues? of \*?(?:Dabiq|Rumiyah)/i },
   {
     label: "blocked organisation (Arabic/Urdu)",
-    re: /داعش|تنظيم القاعدة|تنظيم الدولة الإسلامية|حركة حماس|كتائب القسام|حزب الله اللبناني|ميليشيا حزب الله|جبهة النصرة|هيئة تحرير الشام|بوكو حرام|حركة طالبان|تحریک طالبان|افغان طالبان|پاکستانی طالبان|طالبان(?:\s+(?:حکومت|رہنما|قیادت|حكومة|الأفغانية|الأفغانية|أفغانستان|افغانستان|پاکستان|باكستان))|حركة الشباب المجاهدين|جبہۃ النصرہ|کتائب حزب اللہ|حزب اللہ لبنان/,
+    re: /داعش|تنظيم القاعدة|تنظيم الدولة الإسلامية|حركة حماس|كتائب القسام|حزب الله اللبناني|ميليشيا حزب الله|جبهة النصرة|هيئة تحرير الشام|بوكو حرام|حركة طالبان|تحریک طالبان|افغان طالبان|پاکستانی طالبان|طالبان(?:\s+(?:حکومت|رہنما|قیادت|حكومة|الأفغانية|الأفغانية|أفغانستان|افغانستان|پاکستان|باكستان))|حركة الشباب المجاهدين|جبہۃ النصرہ|کتائب حزب اللہ|حزب اللہ لبنان|جند الأقصى|تنظيم حراس الدين/,
   },
 ];
 
