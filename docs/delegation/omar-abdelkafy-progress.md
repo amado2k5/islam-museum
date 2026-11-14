@@ -3014,6 +3014,19 @@ Resume point: alwaad-alhaq episode 3 (branch from origin/main).
 
 Episode 12 re-read against the transcript after merge (#6642): one wording corrected in ar, en, ur (the report on lying to a brother is among the greatest major sins, not "betrayal"); no marks or links changed. All later episodes are reviewed against the transcript before merge; see their notes.
 
+### alwaad-alhaq ep03 (14 Nov 2026)
+
+21 points written for episode 3 (ar, en, ur); 25 needs_source marks for this episode in each language file; about edges added for ruqya, a bad ending, patience, decree, the appointed term and six persons. Quran verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
+
+| Excluded (alwaad-alhaq ep03) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Repetition loops (prayer talk, 'ya akhi tawasali', 'da'f') | ep03 00:16:00, 00:36:00, 00:36:30, 00:40:00, 00:42:30 | Not speech | Loop check | Open |
+| Verse of al-Shafi'i ascribed in garbled form, a verse about 'tajalludi lil-shamitin' | ep03 00:39:00 | Garbled and unattributed | Clarity, no source | Open |
+| Passages on the remote control and who works in fashion shows beyond the stated opinion | ep03 00:27:00 | Garbled, case details unclear; only the stated view kept | Clarity | Open |
+| Remark on tribe of the worldly 'ana al-mujtamaa' and ten-bed/ten-clothes remark | ep03 00:42:00 | Garbled | Clarity | Open |
+| Detail of the two doctors anecdote (Muslim and Western) | ep03 00:32:30 | Reduced to the contrast only; details garbled | Clarity | Open |
+
+Resume point: alwaad-alhaq episode 4 (branch from origin/main).
 ### min-kunuz-al-sunnah ep13 (14 Nov 2026)
 
 15 points written for episode 13 (ar, en, ur); 11 needs_source marks in each language file for this episode; 13 new `about` edges. Quran verses referenced only through passage links (38-23, 38-24, 24-30, 9-105); none typed. Contested: He applies the hadith of charity to his own views on judicial independence, road etiquette, parking at prayer and lowering the gaze; the stories of Ali's sword, the Companion who struck a wall and al-Shafi'i's complaint are given without chains.
