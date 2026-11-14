@@ -1,0 +1,14 @@
+---
+id: event/al-hadi-judgment-on-highway-killers-285
+lang: en
+source_lang: ar
+translators: ["Claude Sonnet 5.5 (claude-sonnet-5-5), draft translation"]
+---
+## Overview
+The book says that eight days before [[person/al-hadi-yahya-al-rassi|al-Hadi]]'s agents left [[place/najran|Najran]] for [[place/saada|Sa'da]], which on the context of p. 81 is Safar 285 AH, they met three men with three loads, grew suspicious, seized them and brought them to Sa'da, where al-Hadi had them held. {cite:sira-hadi-ila-al-haqq p.81} The account is from a Zaydi book that attributes the ruling to the imam, which the museum neither endorses nor compares.
+
+## The questioning
+Next day he released them from the lock-up and asked them with no threats, fear or beating: "Tell me your story and be truthful", speaking gently to them; two of them said: we left Najran meaning to idle about in Yemen and when we were near [[place/raydah-yemen|Raydah]] we met a man with these loads, killed him and took them. {cite:sira-hadi-ila-al-haqq p.81} They said they put his turban round his neck and strangled him and one of them then cut his throat; the third said he had not gone near the killing but took the camels, and his two companions confirmed it, and al-Hadi sent them back to the lock-up. {cite:sira-hadi-ila-al-haqq p.81} {cite:sira-hadi-ila-al-haqq p.82}
+
+## Consultation and ruling
+He told Muhammad ibn Sulayman al-Kufi, who is the narrator here, to bind and fetter them, and at night gathered his trusted companions and asked their view; [[person/muhammad-ibn-sulayman-al-kufi|al-Kufi]] said they should rule by God's Book since the men had confessed, and cited the verse on those who wage war ([[passage/quran-5-33|Qur'an 5:33]]); al-Hadi said that is God's ruling on them, but he wanted to ask them whether they were of those his call reached, who had been with them in their country and seen the truth from them; otherwise he would look into their case. {cite:sira-hadi-ila-al-haqq p.82} Al-Kufi asked them when they left their country and they said at the grain harvest, when al-Hadi was at Najran; next day he questioned them before a crowd and they confessed as before, and he cited the verse on not ruling by what God sent down ([[passage/quran-5-44|Qur'an 5:44]]). {cite:sira-hadi-ila-al-haqq p.82} The next day they repeated what they had said; on Friday after leading the prayer he gave his order: the right hand and left foot of the one who had not killed were cut off, and the two killers were beheaded and crucified, and he said: "This is God's ruling; by God it is only to rule by the Book of God or leave Islam; by God, if a penalty were due on the Banu al-Qasim I would take it from them." {cite:sira-hadi-ila-al-haqq p.82} See [[concept/hirabah]]. This is the Zaydi imam's ruling as his narrator gives it, and the museum offers no view on it.
