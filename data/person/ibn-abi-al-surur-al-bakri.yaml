@@ -6,8 +6,8 @@ label:
 roles: [sufi, historian]
 gender: male
 summary:
-  ar: "بطاقة أولية لابن أبي السرور البكري، متصوف ومؤرخ وكاتب مصري القرن السابع عشر، توفي سنة ١٦٧٦م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ibn Abi al-Surur al-Bakri, the seventeenth-century Egyptian mystic, historian and writer, d. 1676; the biographical entry is not yet checked on the page."
+  ar: "محمد بن محمد أبي السرور زين العابدين بن محمد أبي المكارم البكري الصديقي، المعروف بابن أبي السرور، مؤرخ مفسر باحث مصري، انتهت إليه رئاسة بيت البكري بمصر، ولد وتوفي في القاهرة، من سنة 1005 إلى 1087 هـ الموافقة 1596 إلى 1676 م."
+  en: "Muhammad ibn Muhammad Abi al-Surur Zayn al-Abidin ibn Muhammad Abi al-Makarim al-Bakri al-Siddiqi, known as Ibn Abi al-Surur, an Egyptian historian, exegete and researcher who became head of the house of al-Bakri in Egypt; born and died in Cairo, 1005 to 1087 AH (1596 to 1676 CE)."
 wings: [people]
 regions: [egypt-nile]
 periods: [period/gunpowder-empires]
@@ -16,16 +16,16 @@ died: { edtf: "1676", calendar: gregorian, precision: year, derived: true, note:
 relations:
   - { type: born_in, target: place/cairo, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/cairo, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q6532754
   viaf: "90042248"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0063
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
