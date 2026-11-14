@@ -1,0 +1,25 @@
+id: person/ahmad-ibn-al-nadr-al-naysaburi
+class: person
+label:
+  ar: "أحمد بن النضر النيسابوري"
+  en: "Ahmad ibn al-Nadr al-Naysaburi"
+roles: [scholar]
+gender: male
+summary:
+  ar: "أحمد بن النضر بن عبد الوهاب النيسابوري، أبو الفضل، حافظ مجوّد علّامة ومصنف، نزل عنده البخاري بنيسابور وروى عنه؛ عمّر إلى بضع وثمانين ومئتين."
+  en: "Ahmad ibn al-Nadr ibn Abd al-Wahhab al-Naysaburi, Abu al-Fadl, a skilled memoriser, scholar and author, who hosted al-Bukhari at Nishapur and from whom al-Bukhari narrated; he lived on to some years past 280 AH."
+wings: [people]
+regions: [persia-central-asia]
+periods: [period/abbasid-early]
+sources: [source/siyar-alam-nubala-ideas-house]
+provenance:
+  layer: own-research
+  source: "al-Dhahabi, Siyar A'lam al-Nubala, one-volume edition (Bayt al-Afkar al-Dawliyya), entry 838 read in full from the page image with Apple Vision on the harvest drive, p. 1027"
+  generated_by: "Claude Code (Lane B2, web-source and Shamela enrichment)"
+  model: claude-sonnet-5-5
+  run: web-b2-siyar-2026-11-14
+status:
+  review: draft
+  completeness: 3
+relations:
+  - { type: lived_in, target: place/nishapur, confidence: high, note: "Al-Dhahabi gives his nisba as al-Naysaburi and says al-Bukhari lodged with him on his visits to Nishapur.", sources: [source/siyar-alam-nubala-ideas-house] }

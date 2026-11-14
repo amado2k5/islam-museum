@@ -40,12 +40,13 @@ relations:
   - { type: member_of, target: group/al-thani, sources: [source/wikipedia-hamad-bin-khalifa-al-thani-en, source/wikidata-hamad-bin-khalifa-al-thani] }
 wings: [people]
 regions: [arabia]
-external_ids: { wikidata: "Q57360" }
+external_ids: { wikidata: "Q57360", viaf: "9266028" }
 sources:
   - source/wikipedia-hamad-bin-khalifa-al-thani-en
   - source/wikipedia-hamad-bin-khalifa-al-thani-ar
   - source/wikipedia-hamad-bin-khalifa-al-thani-ur
   - source/wikidata-hamad-bin-khalifa-al-thani
+  - source/wikidata
 provenance:
   layer: own-research
   source: "Wikipedia articles on Hamad bin Khalifa Al Thani in English (revision 1379295609 of 9 Oct 2026), Arabic (revision 76822779 of 1 Oct 2026) and Urdu (revision 11628651 of 19 Jul 2026) and the Wikidata item Q57360 (item revision 2557905871 of 17 Oct 2026, read twice with identical results), each fetched by its recorded revision id via the MediaWiki API and asserted equal to it (27 October 2026). Existence checked both directions before writing: name fragments in English, Arabic and Urdu scripts across data/person/, the QID grepped across all of data/person/, biographical comparison, and record provenances — no prior record of the man existed; the Al Thani records on file are other men (Abdullah bin Jassim, Jassim bin Mohammed). CORRECTION against the run brief: the brief gave him as living (1952–Living, following the queue line), but he died in Doha on 12 July 2026 — attested by the English article's lead, infobox and Health and death section (citing the Associated Press), by the Arabic article's lead dates, and by the Wikidata death claim referenced to Al Jazeera — so the record carries a died block and wings [people] without 'living'. Succession: he took the emirate from his father in the bloodless coup of 27 June 1995; his father has no record, so no successor_of edge is written. His son Tamim's record (this same run) carries the successor_of and child_of edges to him."
