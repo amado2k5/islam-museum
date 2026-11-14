@@ -1,0 +1,68 @@
+id: event/al-hadi-frees-asad-ibn-abi-yafur-and-ibrahim-ibn-khalaf-from-the-prison-of-shibam-288
+class: event
+kind: other
+label:
+  ar: "الهادي يطلق أسعد بن أبي يعفر وإبراهيم بن خلف من حبس شبام، جمادى الآخرة 288هـ"
+  en: "Al-Hadi frees As'ad ibn Abi Ya'fur and Ibrahim ibn Khalaf from the prison of Shibam, Jumada II 288 AH"
+  ur: "ہادی اسعد بن ابی یعفر اور ابراہیم بن خلف کو شبام کے قید خانے سے رہا کرتے ہیں، جمادی الآخرہ 288ھ"
+summary:
+  ar: "دعا الهادي من كان في حبس شبام من آل يعفر وآل طريف، مثل أسعد بن أبي يعفر وإبراهيم بن خلف، فذكّرهم بإساءتهم إليه وإحسانه إليهم وقال إنه وهب لهم نفوسهم وأوصاهم بتقوى الله، فمنّ عليهم وأطلقهم."
+  en: "Al-Hadi called those of Al Ya'fur and Al Tarif who were jailed at Shibam, among them As'ad ibn Abi Ya'fur and Ibrahim ibn Khalaf, reminded them of their ill treatment of him and his good to them, told them he had given them their lives and urged them to fear God, then showed grace and freed them."
+  ur: "ہادی نے شبام کے قید خانے میں موجود آل یعفر اور آل طریف کے لوگوں کو بلایا، جن میں اسعد بن ابی یعفر اور ابراہیم بن خلف تھے، انہیں ان کی بدسلوکی اور اپنے احسان کی یاد دلائی، کہا کہ میں نے تمہیں تمہاری جانیں بخش دیں اور اللہ کا تقویٰ رکھنے کی نصیحت کی، پھر احسان کر کے انہیں رہا کر دیا۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0901-05~"
+    hijri: "0288-06"
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: "جمادى الآخرة سنة 288هـ؛ يوم خروجه من شبام بحسب ترتيب الكتاب؛ لا يُذكر يوم؛ التحويل مشتق"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/bayt-dhukhar
+  role: "حبس شبام"
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/asad-ibn-abi-yafur
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ibrahim-ibn-khalaf-ibn-tarif
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-yafur
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-tarif
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص222 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-26
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 222

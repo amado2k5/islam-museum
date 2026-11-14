@@ -1,0 +1,55 @@
+id: event/al-hadi-enters-sanaa-a-second-time-after-leaving-shibam-288
+class: event
+kind: other
+label:
+  ar: "دخول الهادي صنعاء المرة الثانية بعد خروجه من شبام، سنة 288هـ"
+  en: "Al-Hadi enters Sana'a a second time after leaving Shibam, 288 AH"
+  ur: "ہادی کا شبام سے نکلنے کے بعد دوسری بار صنعاء میں داخلہ، 288ھ"
+summary:
+  ar: "دخل الهادي صنعاء المرة الثانية بعد خروجه من شبام بأحسن حال، ولم يُقتل من أصحابه إلا رجل عقيلي طُعن طعنة في بطنه، وتتصل الجملة في ص226 بتعجب الناس من صبره مع قلة أصحابه."
+  en: "Al-Hadi entered Sana'a a second time after leaving Shibam in the best of states, and none of his companions was killed but an Aqili man stabbed in the belly; the sentence runs on into p. 226 with the people's wonder at his steadfastness with so few men."
+  ur: "ہادی شبام سے نکلنے کے بعد دوسری بار بہترین حال میں صنعاء میں داخل ہوئے، اور ان کے ساتھیوں میں صرف ایک عقیلی شخص مارا گیا جس کے پیٹ میں نیزہ لگا تھا؛ جملہ ص226 پر لوگوں کے اس تعجب تک جاری رہتا ہے کہ اتنے کم ساتھیوں کے باوجود وہ کتنے ثابت قدم رہے۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0900~"
+    hijri: "0288"
+    calendar: julian
+    precision: year
+    status: tradition
+    derived: true
+    note: "سنة 288هـ؛ اليوم جمعة بنص ص226؛ الشهر غير مذكور في هذا القسم؛ التحويل مشتق"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/sanaa
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abu-al-atahiya-ibn-bishr
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص225 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-26
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 225

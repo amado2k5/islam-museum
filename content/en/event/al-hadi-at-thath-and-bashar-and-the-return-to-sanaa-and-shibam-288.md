@@ -9,3 +9,6 @@ translators: ["Claude Sonnet 5.5 (claude-sonnet-5-5), draft translation"]
 
 ## Detail
 He sent his brother Abu Muhammad to the Hijaz to his elders and his household, to bring them to Yemen; Abu Muhammad set out, and al-Hadi stayed at Sana'a until, at the end of Rabi II, he went out to Shibam, leaving his cousin [[person/ali-ibn-sulayman-ibn-al-qasim|Ali ibn Sulayman]] at Sana'a. At Shibam he stayed through Jumada I and some days of Jumada II, then sent his son Abu al-Qasim with an army to the land of Hamdan {cite:sira-hadi-ila-al-haqq p.215}. The editor's note says Thath is now known as Thah, near Rada', and quotes Ghayat al-Amani 1/179 for "the land of Hamdan"; the narrator's sentence about two "Mukarraman" who came to al-Hadi at Thath is unclear in sense, whether a name, a description or a place, and Apple Vision gives it as printed, so the museum leaves it out. The Abu Muhammad of this passage is al-Hadi's brother Abdullah ibn al-Husayn by the kunya as used on earlier pages. The account continues on p. 216, which is outside this batch.
+
+## See also
+The account continues on p. 216 in [[event/al-yafur-and-al-tarif-send-two-men-to-qudum-and-sasaa-seizes-the-horses-at-al-bawn-288]] {cite:sira-hadi-ila-al-haqq p.216}.

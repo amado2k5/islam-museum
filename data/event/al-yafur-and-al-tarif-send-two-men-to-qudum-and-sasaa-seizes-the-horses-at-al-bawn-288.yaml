@@ -1,0 +1,81 @@
+id: event/al-yafur-and-al-tarif-send-two-men-to-qudum-and-sasaa-seizes-the-horses-at-al-bawn-288
+class: event
+kind: other
+label:
+  ar: "آل يعفر وآل طريف يخرجون رجلين إلى قدم وصعصعة يستولي على الخيل بالبون، سنة 288هـ"
+  en: "Al Ya'fur and Al Tarif send two men to Qudum and Sa'sa'a seizes the horses at al-Bawn, 288 AH"
+  ur: "آل یعفر اور آل طریف دو آدمی قدم بھیجتے ہیں اور صعصعہ البون میں گھوڑے لے لیتا ہے، 288ھ"
+summary:
+  ar: "لما قلّ عسكر الهادي بعد خروج أبي القاسم من شبام أجمع آل يعفر وآل طريف على إخراج رجلين من آل يعفر إلى بلد قدم، فاجتمع إليهما سفهاء كثير، وبلغ ذلك صعصعة بن جعفر فوثب بالبون وأخذ خيل الهادي وفرقها وأفسد البون، بحسب الراوي."
+  en: "When al-Hadi's army grew small after Abu al-Qasim left Shibam, Al Ya'fur and Al Tarif agreed to send two men of Al Ya'fur to the land of Qudum, where many fools gathered to them; Sa'sa'a ibn Ja'far then rose at al-Bawn, took the horses kept for al-Hadi, shared them out and disordered al-Bawn, in the narrator's account."
+  ur: "ابو القاسم کے شبام سے نکلنے کے بعد جب ہادی کا لشکر کم ہو گیا تو آل یعفر اور آل طریف نے آل یعفر کے دو آدمی بلدِ قدم بھیجنے پر اتفاق کیا جہاں بہت سے ناسمجھ ان کے گرد جمع ہو گئے؛ پھر راوی کے بیان کے مطابق صعصعہ بن جعفر نے البون میں اٹھ کر ہادی کے گھوڑے لے لیے، انہیں بانٹ دیا اور البون میں بگاڑ پیدا کیا۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0900~"
+    hijri: "0288"
+    calendar: julian
+    precision: year
+    status: tradition
+    derived: true
+    note: "سنة 288هـ؛ يأتي الخبر بعد مسير أبي القاسم من شبام ولا يُذكر يوم؛ التحويل مشتق"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/al-bawn-yemen
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/sasaa-ibn-jafar-al-hamdani
+  role: "من وثب بالبون"
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-yafur
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-tarif
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/qudumis
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/al-murtada-muhammad
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abu-al-atahiya-ibn-bishr
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/muhammad-ibn-isa-al-tamimi
+  role: "والي البون من قبل الهادي"
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abu-al-ghasham-ibn-tarif
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص216-217 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-26
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 216-217

@@ -9,3 +9,6 @@ translators: []
 
 ## موضع هذا الخبر
 هو جزء من الصفحات التي يرى المحقق أنها أضيفت إلى الأصل {cite:sira-hadi-ila-al-haqq p.20}.
+
+## انظر أيضاً
+يُروى الوثوب نفسه بتفصيل أوفى في [[event/the-rising-of-ibn-mahfuz-at-sanaa-and-ali-ibn-sulayman-leaves-for-madar-288]] {cite:sira-hadi-ila-al-haqq p.220}، وفيه أن الذي أُدخل صنعاء هو «ابن يعفر»؛ ولم يوفق المتحف بين الروايتين.
