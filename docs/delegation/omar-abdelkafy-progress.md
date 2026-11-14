@@ -4752,3 +4752,20 @@ Resume point: alwaad-alhaq episode 35 (branch from origin/main).
 
 GEMINI: alwaad-alhaq ep34 00:47:30 the name of the leader of the hypocrites, written in the transcript as a garbled Abdullah ibn Mu'awiya; context points to the leader of the hypocrites of Medina; the source that would settle it is a classical biography (Ibn Hisham or Ibn Sa'd).
 GEMINI: alwaad-alhaq ep34 01:14:30 closing verses of poetry beginning "do not wrong when you have power"; the transcript gives no poet; source needed is an anthology of Arabic poetry or a poetry-search of the first line.
+
+### alwaad-alhaq ep35 (14 Nov 2026)
+
+26 points written for episode 35 (ar, en, ur); 33 needs_source marks for this episode in each language file; graph edges added for jannah, sabr, shukr, istighfar, tawakkul, tawba, dhikr, taqwa and rida-bil-qada. Quran verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
+
+| Excluded (alwaad-alhaq ep35) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| The poor man and Ibn Abbas milk anecdotes | ep35 00:04:30-00:05:00, 00:22:30 | transcript too garbled to summarise reliably | accuracy | Open |
+| The remark on Persian customs during the Qadisiyya story | ep35 00:29:00-00:29:30 | ASR text unreliable and the remark is a disparaging generalisation, not summarised | neutral voice | Open |
+| A garbled token resembling a blocked organisation name in the keys-of-evil passage | ep35 01:03:00 | likely ASR error for hypocrisy; omitted per the hard block, nothing written | terrorist-organisation block | Open |
+| The Abu Hanifa grapes and water exchange | ep35 01:01:30-01:02:00 | garbled and its attribution to Abu Hanifa is doubtful; not summarised | accuracy | Open |
+| Ibn Abbas reflection on moments of contentment as like Paradise | ep35 00:44:00-00:44:30 | garbled | accuracy | Open |
+| The Abu Hanifa-adjacent loop passages and repeated segments | ep35 00:50:30, 00:55:30, 01:04:30 | ASR loop repetition | accuracy | Open |
+
+Resume point: alwaad-alhaq episode 36 (branch from origin/main).
+GEMINI: alwaad-alhaq ep35 00:36:30 the Companion who wept at the conquest of Cyprus, written in the transcript as Abu Dharr; tradition elsewhere names Abu al-Darda; the source that would settle it is the narration in Ibn Kathir's al-Bidaya or the Tarikh of al-Tabari on the conquest of Cyprus.
+GEMINI: alwaad-alhaq ep35 00:50:00 the narrator of the hadith "say I believe in God then be steadfast", written as a garbled kunya; likely Sufyan ibn Abdallah al-Thaqafi; the source that would settle it is Sahih Muslim, Book of Iman.
