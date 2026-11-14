@@ -2647,3 +2647,16 @@ Resume point: modakirate-iblis episode 14 (branch from origin/main).
 | Asides on globalisation and a "new world order" in the account of Adam's belief in Iblis's oath | ep14 00:03:00-00:03:30 | Garbled, off the lesson | Clarity | Open |
 
 Resume point: modakirate-iblis episode 15 (branch from origin/main).
+
+### modakirate-iblis ep15 (14 Nov 2026)
+
+17 points written for episode 15 (ar, en, ur); 8 needs_source marks in each language file for this episode; 8 new `about` edges (correction to the ep14 note: its new edges were 4, not 6). Quran verses referenced only through passage links (51-22, 71-10 to 71-12, 26-61, 26-62, 9-40, 20-46, 28-7, 21-87, 21-83, 21-84, 7-23, 2-186); none typed.
+
+| Excluded (modakirate-iblis ep15) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greetings, the break, and the closing prayer and outro chant | ep15 00:00:00, 00:11:00-00:12:30, 00:23:30-00:24:00 | Not lesson content | Content rule | Open |
+| A garbled supplication attributed to Yahya, and a garbled stretch on the cause of the mother's blood and of "the dearest" | ep15 00:02:30 (part), 00:05:30 (part) | Not recoverable | Clarity | Open |
+| A long run of one repeated letter | ep15 00:19:00-00:19:30 | Loop | Loop check | Open |
+| A passing address to the people of Syria and the oppressed, in the account of the unseen world | ep15 00:19:30-00:20:00 (part) | Modern conflict aside, held for the founder to decide under the content-safety rule | Content rule | Open |
+
+Resume point: modakirate-iblis episode 16 (branch from origin/main).
