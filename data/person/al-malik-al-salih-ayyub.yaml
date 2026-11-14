@@ -32,5 +32,6 @@ relations:
   - { type: participated_in, target: event/battle-mansura-647, role: "المتوفى وقد كُتم موته", sources: [source/shadharat-dhahab] }
   - { type: built, target: building/rawda-citadel, sources: [source/yeomans-islamic-cairo-2006] }
   - { type: built, target: building/al-madrasa-al-salihiyya-cairo, sources: [source/yeomans-islamic-cairo-2006] }
-sources: [source/khitat-maqrizi-1998, source/shadharat-dhahab, source/tarikh-khulafa-minhaj-1434, source/yeomans-islamic-cairo-2006]
+external_ids: { wikidata: "Q293559" }
+sources: [source/khitat-maqrizi-1998, source/shadharat-dhahab, source/tarikh-khulafa-minhaj-1434, source/yeomans-islamic-cairo-2006, source/wikidata-al-malik-al-salih-ayyub]
 status: { review: published, completeness: 3, generated_by: "Claude Haiku 5.5; the al-Salihiyya, the Rawda citadel, the madrasas and the death at Mansura are read from al-Maqrizi's Khitat (local scan, pp. 558, 1912); the Suyuti and Shadharat accounts keep their citations. Khitat gives Sunday 14 Sha'ban; the date field keeps the Suyuti reading (mid-Sha'ban) until the day is converted" }
