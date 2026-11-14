@@ -1178,3 +1178,5 @@ Source: al-Zirikli, al-A'lam, 15th ed. 2002 (alam-zirikli-dar-al-ilm-2002). Each
 - Skipped: none.
 
 >>>>>>> origin/main
+
+- 2026-11-14 packet 37: 12 places given Pleiades/iDAI sections. Skipped iDAI section: sousse (iDAI GeoNames 2464915 vs ours 221715), tortosa (iDAI 3107677 vs ours 6361397); founder-held slugs absent from packet.
