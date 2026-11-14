@@ -6,7 +6,7 @@ import type { TibbTopic } from "./tibb.js";
 export const TOPIC_ANCHOR: Record<TibbTopic, string> = {
   nabawi: "concept/al-tibb-al-nabawi",
   tibb: "concept/medicine",
-  tashrih: "concept/ilm-al-tashrih",
+  tashrih: "concept/anatomy",
   jiraha: "concept/al-jiraha",
   dawa: "concept/al-adwiya-al-mufrada",
   tadawi: "concept/tadawi",

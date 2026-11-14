@@ -13,6 +13,19 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v1.30.0 — 2026-11-14
+### Added
+- **The Medicine Browser opens** (متصفح الطب النبوي والطب والتشريح والجراحة والدواء والتداوي في الإسلام) at `/{lang}/tibb/`, in Arabic, English and Urdu, with a card on the home page and an entry in the Explore menu. It gathers in one place everything the museum's sources say about six subjects: prophetic medicine, medicine and illness, anatomy, surgery, drugs, and seeking treatment. A reader can go from the verse on the healing in honey to the reports on cupping and black seed, to Ibn al-Qayyim's chapters in Zad al-Ma'ad, to a page of Ibn Sina's Canon, and to the record of the physician or the hospital, each with its source. The page opens with a view of its own, "the apothecary's jars": six shelves, one for each subject, with a jar for every remedy, disease or procedure the texts name — cupping, honey, black seed, fever, plague, the stages of creation, the treatment of wounds — filled to the level of how often the sources mention it. A jar with a gold lid opens the museum's record on it.
+- **A medical text in any book harvested later appears by itself.** The browser finds its passages when the site is built, by a guarded word list, so nothing has to be tagged. The guards keep out the words that only look medical: the "disease" of the hypocrites' hearts, the protected pasture that is spelled like "fever", the "justice" that is spelled like the drug costus, the honey of Paradise, and the wounds of the compensation chapters.
+- **The medicine dataset** at `/api/v1/tibb.json`, described in the OpenAPI file, `llms.txt` and the data guide: every record with its section, its subjects and the words that admitted it.
+### Data
+- **1,033 hadith reports on medicine** from the two Sahihs, the four Sunan and the Muwatta (the hadith-api Arabic editions), each a short excerpt with its collection and number: the Book of Medicine and the Book of the Sick, cupping, cautery, ruqya, honey, black seed, fever, plague, contagion, visiting the sick, the treatment of the wounded.
+- **650 short excerpts from books already scanned and read by machine**: Zad al-Ma'ad, the two Dala'il al-Nubuwwa, Hilyat al-Awliya', al-Isaba, Usd al-Ghaba, al-Isti'ab, Hayat al-Sahaba, Sifat al-Safwa, Ibn Sina's Canon, Ibn al-Nafis's Commentary on the Anatomy of the Canon and al-Razi's al-Hawi. Each is forty words at most, cited to its book and scan page; the machine-read text is not corrected, and every record is a draft until a human reads it.
+- **230 existing records now belong to the browser**: physicians from al-Harith ibn Kalada and Rufayda al-Aslamiyya to al-Razi, Ibn Sina, al-Zahrawi and Ibn al-Nafis, the hospitals, the medical books, the plagues, the medical inventions and the fatwas on treatment.
+- **New records with full prose in three languages**: prophetic medicine and its remedies (black seed, cautery, talbina, costus, senna, truffles, ithmid, fever, ladud and sa'ut), surgery, venesection, bone-setting, the care of the wounded in the Prophet's time, simple and compound drugs, and theriac and poisons, written from Zad al-Ma'ad, the Canon and the hadith collections with page and number.
+### Tests
+- The detector's rules are tested one by one (`scripts/tibb.test.ts`), and the founder's original request is kept with a production check-list in `docs/engineering/47-tibb-browser-requirements.md`.
+
 ## v1.29.0 — 2026-11-13
 ### Added
 - **Du'a by occasion: breaking the fast.** The fasting division gains a third record: the record on iftar now carries the supplications al-Nawawi gathers for breaking the fast, with the books he assigns them to and their page.

@@ -7,7 +7,7 @@
 // report in a book harvested later appears here the day its passage record lands; curated records
 // join through the `tibb-browser` tag and carry `tibb-<topic>` tags.
 import { byId, realNodes } from "./graph";
-import { tibbCorpusOf, tibbSignalsOf, tibbTagSection, tibbTagTopics, tibbTopicsOfSignals, TIBB_TAG, TIBB_TOPICS, type TibbSection, type TibbTopic } from "../../../scripts/tibb";
+import { tibbCorpusOf, tibbSignalsOf, tibbTagSection, tibbTagTopics, tibbTopicsOfSignals, TIBB_TAG, TIBB_TOPICS, TIBB_JARS, type TibbSection, type TibbTopic } from "../../../scripts/tibb";
 import type { Node } from "../../../scripts/build-graph";
 
 export { TIBB_SECTIONS, TIBB_TOPICS, type TibbSection, type TibbTopic } from "../../../scripts/tibb";
@@ -40,9 +40,24 @@ export const tibbItems: TibbItem[] = realNodes
     return r || a.node.id.localeCompare(b.node.id);
   });
 
-/** The cabinet of the signature view: for each topic, how many records each section holds. */
-export const tibbCabinet: { topic: TibbTopic; cells: Record<TibbSection, number>; total: number }[] = TIBB_TOPICS.map((topic) => {
-  const cells = { quran: 0, sunnah: 0, seerah: 0, books: 0, curated: 0 } as Record<TibbSection, number>;
-  for (const i of tibbItems) if (i.topics.includes(topic)) cells[i.section]++;
-  return { topic, cells, total: Object.values(cells).reduce((a, b) => a + b, 0) };
-});
+/** A jar of the signature view: the passages that name its remedy, disease or procedure. */
+export interface TibbJar { id: string; topic: TibbTopic; count: number; record?: Node; section: TibbSection }
+const signalsById = new Map<string, string[]>(realNodes.filter((n) => n.class === "passage").map((n) => [n.id, tibbSignalsOf(n)]));
+const passages = tibbItems.filter((i) => i.node.class === "passage");
+/** The six shelves: for each topic its jars (those the build's texts fill), and its curated records. */
+export const tibbShelves: { topic: TibbTopic; jars: TibbJar[]; records: number }[] = TIBB_TOPICS.map((topic) => ({
+  topic,
+  records: tibbItems.filter((i) => i.node.class !== "passage" && i.topics.includes(topic)).length,
+  jars: TIBB_JARS.filter((j) => j.topic === topic).map((j) => {
+    const hits = passages.filter((i) => (signalsById.get(i.node.id) ?? []).some((s) => j.signals.includes(s)));
+    const per = new Map<TibbSection, number>();
+    for (const h of hits) per.set(h.section, (per.get(h.section) ?? 0) + 1);
+    const section = ([...per.entries()].sort((a, b) => b[1] - a[1])[0]?.[0] ?? "sunnah") as TibbSection;
+    const record = j.record ? byId.get(j.record) : undefined;
+    if (j.record && (!record || record.stub)) throw new Error(`Medicine jars: ${j.id} names ${j.record}, which is not a record of the graph`);
+    return { id: j.id, topic, count: hits.length, record, section };
+  }).filter((j) => j.count > 0),
+}));
+/** Passages the lexicon admitted, for the view's check that every one stands in a jar. */
+export const tibbPassageCount = passages.filter((i) => (signalsById.get(i.node.id) ?? []).length > 0).length;
+export const tibbJarredCount = passages.filter((i) => (signalsById.get(i.node.id) ?? []).some((s) => TIBB_JARS.some((j) => j.signals.includes(s)))).length;

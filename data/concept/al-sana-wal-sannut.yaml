@@ -1,0 +1,26 @@
+id: concept/al-sana-wal-sannut
+class: concept
+kind: scientific
+label:
+  ar: "السنا والسنوت"
+  en: "Senna and sannut (al-sana wa-l-sannut)"
+  ur: "سنا اور سنوت ⁦(السنا والسنوت)⁩"
+summary:
+  ar: "السنا نبت حجازي أفضله المكي، وهو دواء مسهل عند ابن قيم الجوزية {cite:zad-al-maad p.616}. وروى الترمذي وابن ماجه عن أسماء بنت عميس أن النبي سألها: بماذا كنت تستمشين؟ فقالت: بالشبرم، فقال: «حار جار»، ثم استمشت بالسنا فقال: «لو أن شيئاً كان فيه شفاء من الموت لكان في السنا» {cite:jami-al-tirmidhi 2081} {cite:sunan-ibn-majah 3461}. وروى ابن ماجه «عليكم بالسنا والسنوت، فإن فيهما شفاء من كل داء إلا السام» {cite:sunan-ibn-majah 3457}. وفي السنوت أقوال كثيرة ذكر ابن القيم منها ثمانية، منها العسل، والعسل الذي في زقاق السمن، والشبت، والتمر {cite:zad-al-maad p.616}."
+  en: "Senna (sana) is a Hijazi plant, the best being from Mecca, and a laxative drug according to Ibn Qayyim al-Jawziyya {cite:zad-al-maad p.616}. Al-Tirmidhi and Ibn Majah report from Asma' bint Umays that the Prophet asked her what she used for a purge; she said shubrum and he said 'hot and harsh', then she used senna and he said 'if anything held a cure for death, it would be senna' {cite:jami-al-tirmidhi 2081} {cite:sunan-ibn-majah 3461}. Ibn Majah reports 'hold to senna and sannut, for in them is a cure for every disease except death' {cite:sunan-ibn-majah 3457}. Of sannut Ibn al-Qayyim lists eight meanings, among them honey, the honey found in ghee skins, dill and dates {cite:zad-al-maad p.616}."
+  ur: "سنا ایک حجازی پودا ہے جس کی بہترین قسم مکی ہے، اور ابن قیم الجوزیہ کے نزدیک یہ مسہل دوا ہے {cite:zad-al-maad p.616}۔ ترمذی اور ابن ماجہ میں اسماء بنت عمیس سے ہے کہ نبی نے ان سے پوچھا کہ تم دست آور کے لیے کیا استعمال کرتی تھیں؟ انھوں نے کہا شبرم، تو فرمایا: «گرم اور تیز»، پھر انھوں نے سنا استعمال کیا تو فرمایا: «اگر کسی چیز میں موت سے شفا ہوتی تو سنا میں ہوتی» {cite:jami-al-tirmidhi 2081} {cite:sunan-ibn-majah 3461}۔ ابن ماجہ میں ہے: «سنا اور سنوت کو لازم پکڑو، ان میں موت کے سوا ہر بیماری کی شفا ہے» {cite:sunan-ibn-majah 3457}۔ سنوت کے بارے میں ابن القیم آٹھ اقوال گنواتے ہیں، جن میں شہد، گھی کی مشکوں کا شہد، سوا اور کھجور شامل ہیں {cite:zad-al-maad p.616}۔"
+wings: [ideas]
+themes: [health-body-death]
+regions: [global]
+tags: [tibb-browser, tibb-nabawi]
+sources: [source/zad-al-maad, source/jami-al-tirmidhi, source/sunan-ibn-majah]
+relations:
+  - { type: part_of, target: concept/al-tibb-al-nabawi, note: "A laxative remedy named in the reports and discussed in the chapter on dryness of the bowel.", sources: [source/zad-al-maad] }
+  - { type: related_to, target: concept/asal, note: "One reading of sannut is honey, or honey mixed with ghee.", sources: [source/zad-al-maad] }
+provenance:
+  layer: own-research
+  source: "Zad al-Ma'ad by Ibn Qayyim al-Jawziyya, Tibb Nabawi chapters; OCR scan folder zad-maad/20200822_20200822_1205 (1120 pages), scan pages 615-616, 627; hadith wording checked against the hadith-api Arabic editions (hadith numbers are those of that edition); passages linked from the graph."
+  generated_by: "Claude (claude-sonnet-5-5)"
+  model: claude-sonnet-5-5
+  run: tibb-browser-curated-1
+status: { review: draft, completeness: 2, generated_by: "Claude (claude-sonnet-5-5)" }

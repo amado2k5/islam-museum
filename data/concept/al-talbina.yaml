@@ -1,0 +1,26 @@
+id: concept/al-talbina
+class: concept
+kind: scientific
+label:
+  ar: "التلبينة"
+  en: "Talbina (barley gruel)"
+  ur: "تلبینہ ⁦(جو کا حریرہ)⁩"
+summary:
+  ar: "التلبينة حساء رقيق من دقيق الشعير بنخالته، سُمّيت بذلك لشبهها باللبن في بياضها ورقتها {cite:zad-al-maad p.633}. وروى البخاري ومسلم عن عائشة قول النبي: «التلبينة مجمّة لفؤاد المريض، تذهب ببعض الحزن» {cite:sahih-al-bukhari 5417} {cite:sahih-muslim 5769}، وروى ابن ماجه عنها «عليكم بالبغيض النافع التلبينة» {cite:sunan-ibn-majah 3446}. ويعرض ابن قيم الجوزية ثلاثة وجوه في تعليل «تذهب ببعض الحزن» {cite:zad-al-maad p.634}."
+  en: "Talbina is a thin gruel of barley flour with its bran, named for its likeness to milk (laban) in whiteness and thinness {cite:zad-al-maad p.633}. Al-Bukhari and Muslim report from 'A'isha the Prophet's words 'talbina rests the heart of the sick and takes away some of the grief' {cite:sahih-al-bukhari 5417} {cite:sahih-muslim 5769}, and Ibn Majah reports from her 'hold to the hateful and beneficial, talbina' {cite:sunan-ibn-majah 3446}. Ibn Qayyim al-Jawziyya sets out three explanations of 'takes away some of the grief' {cite:zad-al-maad p.634}."
+  ur: "تلبینہ جو کے آٹے کا، چھلکے سمیت، پتلا حریرہ ہے، جس کا نام دودھ ⁦(لبن)⁩ سے سفیدی اور رقت میں مشابہت کی وجہ سے پڑا {cite:zad-al-maad p.633}۔ بخاری اور مسلم میں عائشہ سے نبی کا فرمان ہے: «تلبینہ بیمار کے دل کو آرام دیتا ہے اور کچھ غم دور کرتا ہے» {cite:sahih-al-bukhari 5417} {cite:sahih-muslim 5769}، اور ابن ماجہ میں ان سے «ناگوار مگر نفع بخش تلبینہ کو لازم پکڑو» {cite:sunan-ibn-majah 3446}۔ ابن قیم الجوزیہ «کچھ غم دور کرتا ہے» کی تین توجیہیں پیش کرتے ہیں {cite:zad-al-maad p.634}۔"
+wings: [ideas]
+themes: [health-body-death]
+regions: [global]
+tags: [tibb-browser, tibb-nabawi]
+sources: [source/zad-al-maad, source/sahih-al-bukhari, source/sahih-muslim, source/sunan-ibn-majah]
+relations:
+  - { type: part_of, target: concept/al-tibb-al-nabawi, note: "A food-remedy Ibn al-Qayyim discusses under feeding the sick with what they are used to.", sources: [source/zad-al-maad] }
+  - { type: related_to, target: concept/hamiyya-diet, note: "Treatment by food and diet in the chapters on the sick.", sources: [source/zad-al-maad] }
+provenance:
+  layer: own-research
+  source: "Zad al-Ma'ad by Ibn Qayyim al-Jawziyya, Tibb Nabawi chapters; OCR scan folder zad-maad/20200822_20200822_1205 (1120 pages), scan pages 632-634; hadith wording checked against the hadith-api Arabic editions (hadith numbers are those of that edition); passages linked from the graph."
+  generated_by: "Claude (claude-sonnet-5-5)"
+  model: claude-sonnet-5-5
+  run: tibb-browser-curated-1
+status: { review: draft, completeness: 2, generated_by: "Claude (claude-sonnet-5-5)" }

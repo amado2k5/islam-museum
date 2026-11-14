@@ -1,0 +1,84 @@
+---
+// "The apothecary's jars" — the signature view of the Medicine Browser (site/src/pages/[lang]/tibb).
+// Six shelves, one for each subject of the browser's title (prophetic medicine, medicine, anatomy, surgery, drugs,
+// treatment). On a shelf stands a jar for every remedy, disease or procedure the texts of this build name (`tibbShelves`
+// in site/src/lib/tibb.ts, from the jar table of scripts/tibb.ts): the jar is filled to the level of the passages that
+// name it (square-root scale against the fullest jar, so a jar named once still shows), carries its count, and is a real
+// link — to the museum record that explains it where one exists (a gold seal on the lid), else to the section of the list
+// where most of its passages stand. A tag at the end of each shelf counts the museum's own records of that subject.
+// Nothing is typed: the build throws when a signal of the lexicon has no jar, when a jar names a missing record, or when
+// an admitted passage stands in no jar. Vessels and shelves only — abstract shapes, no figure.
+import { ui, type Lang } from "../../lib/i18n";
+import { href } from "../../lib/graph";
+import { num } from "../../lib/nav";
+import { tibbShelves, tibbPassageCount, tibbJarredCount } from "../../lib/tibb";
+import { TIBB_JARS, TIBB_SIGNAL_NAMES } from "../../../../scripts/tibb";
+
+interface Props { lang: Lang; home: string }
+const { lang, home } = Astro.props;
+const G = (ui(lang) as any).tibb;
+const V = G.viz;
+
+const jarred = TIBB_JARS.flatMap((j) => j.signals);
+for (const s of TIBB_SIGNAL_NAMES) if (!jarred.includes(s)) throw new Error(`Medicine jars: the signal ${s} stands in no jar`);
+if (jarred.length !== new Set(jarred).size) throw new Error("Medicine jars: a signal stands in two jars");
+for (const j of TIBB_JARS) if (!V.jars?.[j.id]) throw new Error(`Medicine jars: the jar ${j.id} has no label in ${lang}`);
+if (tibbJarredCount !== tibbPassageCount) throw new Error(`Medicine jars: ${tibbPassageCount} passages admitted, ${tibbJarredCount} stand in a jar`);
+
+const max = Math.max(1, ...tibbShelves.flatMap((s) => s.jars.map((j) => j.count)));
+const level = (n: number) => Math.max(8, Math.round(Math.sqrt(n / max) * 100));
+const HUE: Record<string, string> = { nabawi: "#2e7d52", tibb: "#2a7b88", tashrih: "#8e5aa8", jiraha: "#b8472a", dawa: "#b27b42", tadawi: "#5a6bb8" };
+const jarCount = tibbShelves.reduce((a, s) => a + s.jars.length, 0);
+---
+<figure class="tibb-jars" aria-labelledby="tibb-jars-title" data-pagefind-ignore>
+  <figcaption id="tibb-jars-title" class="ui"><strong>{V.title}</strong> <span class="muted">{V.caption.replace("{j}", num(jarCount, lang)).replace("{p}", num(tibbPassageCount, lang))}</span></figcaption>
+  <p class="ui muted key"><span class="seal" aria-hidden="true"></span> {V.key_record} <span class="sep" aria-hidden="true">·</span> <span class="nolid" aria-hidden="true"></span> {V.key_list}</p>
+  {tibbShelves.map((shelf) => (
+    <section class="shelf" style={`--hue:${HUE[shelf.topic]}`} aria-labelledby={`shelf-${shelf.topic}`}>
+      <h3 id={`shelf-${shelf.topic}`} class="ui">{G.topics[shelf.topic]}</h3>
+      <ul role="list">
+        {shelf.jars.map((j) => (
+          <li>
+            <a class="jar" href={j.record ? href(lang, j.record.id) : `${home}#t-${j.section}`}
+               aria-label={`${V.jars[j.id]} — ${V.passages.replace("{n}", num(j.count, lang))}${j.record ? ` — ${V.key_record}` : ""}`}>
+              <span class:list={["lid", { sealed: !!j.record }]} aria-hidden="true"></span>
+              <span class="body" aria-hidden="true"><span class="fill" style={`block-size:${level(j.count)}%`}></span><span class="n">{num(j.count, lang)}</span></span>
+              <span class="name">{V.jars[j.id]}</span>
+            </a>
+          </li>
+        ))}
+        {shelf.records > 0 && (
+          <li class="tagwrap"><a class="tag ui" href={`${home}#t-curated`}>{V.records.replace("{n}", num(shelf.records, lang))}</a></li>
+        )}
+      </ul>
+    </section>
+  ))}
+</figure>
+<style>
+  .tibb-jars { margin: 1.8rem 0 0; }
+  .tibb-jars figcaption { margin: 0 0 .3rem; }
+  .tibb-jars .key { margin: 0 0 .8rem; font-size: .85rem; display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }
+  .tibb-jars .seal, .tibb-jars .nolid { display: inline-block; inline-size: 18px; block-size: 7px; border-radius: 3px; background: var(--gold); }
+  .tibb-jars .nolid { background: var(--line); }
+  .tibb-jars .shelf { margin: 0 0 1.1rem; }
+  .tibb-jars h3 { margin: 0 0 .35rem; font-size: .95rem; color: var(--fg); display: flex; align-items: center; gap: 8px; }
+  .tibb-jars h3::before { content: ""; inline-size: 10px; block-size: 10px; border-radius: 50%; background: var(--hue); flex: none; }
+  .tibb-jars ul { list-style: none; margin: 0; padding: 0 8px 0; display: flex; flex-wrap: wrap; align-items: flex-end; gap: 14px 10px;
+    border-block-end: 6px solid color-mix(in srgb, var(--hue) 35%, var(--line)); border-radius: 0 0 4px 4px;
+    background: linear-gradient(to top, color-mix(in srgb, var(--hue) 7%, transparent), transparent 60%); }
+  .tibb-jars li { margin: 0; }
+  .tibb-jars .jar { display: flex; flex-direction: column; align-items: center; inline-size: 76px; padding: 4px 0 0; color: var(--fg); text-decoration: none; }
+  .tibb-jars .lid { inline-size: 34px; block-size: 8px; border-radius: 4px 4px 1px 1px; background: var(--line); }
+  .tibb-jars .lid.sealed { background: var(--gold); }
+  .tibb-jars .body { position: relative; inline-size: 52px; block-size: 64px; margin-block-start: 2px; border: 2px solid var(--hue); border-radius: 10px 10px 14px 14px / 14px 14px 12px 12px;
+    background: var(--card); overflow: hidden; display: flex; align-items: center; justify-content: center; }
+  .tibb-jars .fill { position: absolute; inset-inline: 0; inset-block-end: 0; background: color-mix(in srgb, var(--hue) 38%, transparent); border-block-start: 2px solid color-mix(in srgb, var(--hue) 70%, transparent); }
+  .tibb-jars .n { position: relative; font: 600 .82rem/1 var(--ui-font, inherit); font-variant-numeric: tabular-nums; background: var(--card); border-radius: 6px; padding: 2px 5px; }
+  .tibb-jars .name { margin-block-start: 4px; min-block-size: 2.5em; font-size: .74rem; line-height: 1.25; text-align: center; overflow-wrap: anywhere; }
+  .tibb-jars .jar:hover .body, .tibb-jars .jar:focus-visible .body { outline: 2px solid var(--gold); outline-offset: 2px; }
+  .tibb-jars .jar:focus-visible { outline: none; }
+  .tibb-jars .tagwrap { align-self: center; margin-inline-start: auto; padding-block-end: 10px; }
+  .tibb-jars .tag { display: inline-flex; align-items: center; min-block-size: 44px; padding: 4px 12px; border: 1px dashed var(--hue); border-radius: 999px; font-size: .82rem; color: var(--fg); text-decoration: none; }
+  .tibb-jars .tag:hover, .tibb-jars .tag:focus-visible { border-style: solid; outline: 2px solid var(--gold); outline-offset: 1px; }
+  @media (max-width: 480px) { .tibb-jars .jar { inline-size: 68px; } .tibb-jars ul { gap: 12px 6px; padding-inline: 4px; } }
+</style>

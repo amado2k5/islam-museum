@@ -149,6 +149,57 @@ const SIGNALS: Signal[] = [
   { name: "haram_dawa", topic: "tadawi", re: w("ليس بدواء|ليست بدواء|ولكنه داء|ولكنها داء|شفاءكم فيما حرم|الدواء الخبيث|دواء خبيث") },
 ];
 
+/**
+ * The jars of the signature view (site/src/components/sig/TibbJars.astro): each jar gathers the
+ * signals of one remedy, disease or procedure, stands on the shelf of its topic, and names the
+ * museum record that explains it where one exists. Every signal belongs to exactly one jar; the
+ * view throws when a signal has no jar or a named record is missing.
+ */
+export const TIBB_JARS: { id: string; topic: TibbTopic; signals: string[]; record?: string }[] = [
+  { id: "hijama", topic: "nabawi", signals: ["hijama"], record: "concept/hijama" },
+  { id: "kayy", topic: "nabawi", signals: ["kayy"], record: "concept/al-kayy" },
+  { id: "ruqya", topic: "nabawi", signals: ["ruqya", "ruqya_weak"], record: "concept/ruqya" },
+  { id: "asal", topic: "nabawi", signals: ["asal"], record: "concept/asal" },
+  { id: "habba_sawda", topic: "nabawi", signals: ["habba_sawda"], record: "concept/al-habba-al-sawda" },
+  { id: "qust", topic: "nabawi", signals: ["qust", "qust_weak"], record: "concept/al-qust-al-hindi" },
+  { id: "sana", topic: "nabawi", signals: ["sana"], record: "concept/al-sana-wal-sannut" },
+  { id: "talbina", topic: "nabawi", signals: ["talbina"], record: "concept/al-talbina" },
+  { id: "kamaa", topic: "nabawi", signals: ["kamaa"], record: "concept/al-kamaa" },
+  { id: "ajwa", topic: "nabawi", signals: ["ajwa"] },
+  { id: "abwal", topic: "nabawi", signals: ["abwal"] },
+  { id: "ithmid", topic: "nabawi", signals: ["ithmid", "kuhl"], record: "concept/al-ithmid" },
+  { id: "ladud", topic: "nabawi", signals: ["ladud"], record: "concept/al-ladud-wal-saut" },
+  { id: "zamzam_shifa", topic: "nabawi", signals: ["zamzam_shifa"] },
+  { id: "tibb", topic: "tibb", signals: ["tibb"], record: "concept/medicine" },
+  { id: "marad", topic: "tibb", signals: ["marad", "suqm"], record: "concept/disease" },
+  { id: "marad_nabi", topic: "tibb", signals: ["marad_nabi"] },
+  { id: "waja", topic: "tibb", signals: ["waja", "shakwa"] },
+  { id: "humma", topic: "tibb", signals: ["humma", "humma_weak"], record: "concept/al-humma" },
+  { id: "waba", topic: "tibb", signals: ["waba"], record: "concept/al-taun" },
+  { id: "adwa", topic: "tibb", signals: ["adwa", "adwa_weak"], record: "concept/adwa" },
+  { id: "judham", topic: "tibb", signals: ["judham"] },
+  { id: "amrad", topic: "tibb", signals: ["amrad", "udhra", "sar"] },
+  { id: "iyada", topic: "tibb", signals: ["iyada", "iyada_weak"], record: "concept/iyada" },
+  { id: "bimaristan", topic: "tibb", signals: ["bimaristan"] },
+  { id: "ilaj", topic: "tibb", signals: ["ilaj", "bur"], record: "concept/medical-treatment" },
+  { id: "sihha", topic: "tibb", signals: ["sihha", "himya"], record: "concept/health" },
+  { id: "janin", topic: "tashrih", signals: ["janin", "janin_weak"], record: "concept/marahil-al-janin" },
+  { id: "aada", topic: "tashrih", signals: ["aada", "uruq"], record: "concept/anatomy" },
+  { id: "sulama", topic: "tashrih", signals: ["sulama", "izam"] },
+  { id: "jurh", topic: "jiraha", signals: ["jurh", "hasm"], record: "concept/mudawat-al-jarha" },
+  { id: "nisa_jarha", topic: "jiraha", signals: ["nisa_jarha"] },
+  { id: "jiraha", topic: "jiraha", signals: ["jiraha", "jabr"], record: "concept/al-jiraha" },
+  { id: "shaqq_sadr", topic: "jiraha", signals: ["shaqq_sadr"], record: "event/shaqq-al-sadr" },
+  { id: "dawa", topic: "dawa", signals: ["dawa", "daa"], record: "concept/al-adwiya-al-mufrada" },
+  { id: "samm", topic: "dawa", signals: ["samm", "samm_weak"], record: "concept/al-tiryaq" },
+  { id: "aqaqir", topic: "dawa", signals: ["aqaqir", "hinna"] },
+  { id: "tadawi", topic: "tadawi", signals: ["tadawi"], record: "concept/tadawi" },
+  { id: "shifa", topic: "tadawi", signals: ["shifa", "shifa_verb"] },
+  { id: "haram_dawa", topic: "tadawi", signals: ["haram_dawa"] },
+];
+/** Every signal name of the lexicon, for the view's build check. */
+export const TIBB_SIGNAL_NAMES: readonly string[] = SIGNALS.map((x) => x.name);
+
 /** Passage records whose only lexical hit is a verified false positive. Curated escape hatch:
  * tagging a passage `tibb-browser` also admits it (see pick in export-api). */
 export const TIBB_EXCLUDE: ReadonlySet<string> = new Set<string>([

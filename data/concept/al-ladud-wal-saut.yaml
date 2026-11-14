@@ -1,0 +1,27 @@
+id: concept/al-ladud-wal-saut
+class: concept
+kind: scientific
+label:
+  ar: "اللدود والسعوط"
+  en: "Ladud and sa'ut (oral and nasal drops)"
+  ur: "لدود اور سعوط ⁦(منہ اور ناک میں دوا)⁩"
+summary:
+  ar: "اللدود ما يُسقاه الإنسان في أحد جانبي الفم، والسعوط ما يُصبّ في الأنف {cite:zad-al-maad p.619} {cite:zad-al-maad p.624}. وفي الأخبار أن النبي استعط {cite:sahih-al-bukhari 5691}، وأن أهله لدّوه في مرضه فأشار إليهم أن لا يفعلوا، ثم قال: «لا يبقى في البيت أحد إلا لُدّ إلا العباس» {cite:sahih-al-bukhari 5709}، وأن العود الهندي «يُستعط به من العذرة ويُلد به من ذات الجنب» {cite:sahih-al-bukhari 5692}. وفي الترمذي «إن خير ما تداويتم به السعوط واللدود والحجامة والمشي» وفي سنده ضعف عند المحقق {cite:zad-al-maad p.616}."
+  en: "Ladud is what a person is given in one side of the mouth, and sa'ut is what is poured into the nose {cite:zad-al-maad p.619} {cite:zad-al-maad p.624}. The reports have the Prophet using a nasal drop {cite:sahih-al-bukhari 5691}, and his household giving him an oral drop in his illness while he signalled them not to, after which he said 'no one will be left in the house without being given a drop, except al-Abbas' {cite:sahih-al-bukhari 5709}; and Indian aloeswood 'is used as a nasal drop for the throat ailment and an oral drop for pleurisy' {cite:sahih-al-bukhari 5692}. In al-Tirmidhi: 'the best of what you treat yourselves with is the nasal drop, the oral drop, cupping and the purge', whose chain the editor calls weak {cite:zad-al-maad p.616}."
+  ur: "لدود وہ دوا ہے جو آدمی کو منہ کے ایک جانب پلائی جائے، اور سعوط وہ ہے جو ناک میں ڈالی جائے {cite:zad-al-maad p.619} {cite:zad-al-maad p.624}۔ روایات میں ہے کہ نبی نے سعوط لیا {cite:sahih-al-bukhari 5691}، اور آپ کے گھر والوں نے آپ کی بیماری میں آپ کو لدود پلایا جب کہ آپ اشارے سے منع کرتے رہے، پھر فرمایا: «گھر میں کوئی نہ رہے مگر اسے لدود دیا جائے، سوائے عباس کے» {cite:sahih-al-bukhari 5709}؛ اور ہندی عود کے بارے میں «اسے ناک میں سعوط کے طور پر عذرہ کے لیے اور منہ میں لدود کے طور پر ذات الجنب کے لیے استعمال کیا جاتا ہے» {cite:sahih-al-bukhari 5692}۔ ترمذی میں ہے: «جن چیزوں سے تم علاج کرتے ہو ان میں بہترین سعوط، لدود، حجامہ اور دست آور دوا ہے»، اور محقق اس کی سند کو ضعیف کہتے ہیں {cite:zad-al-maad p.616}۔"
+wings: [ideas]
+themes: [health-body-death]
+regions: [global]
+tags: [tibb-browser, tibb-nabawi]
+sources: [source/zad-al-maad, source/sahih-al-bukhari, source/sunan-abi-dawud, source/jami-al-tirmidhi]
+relations:
+  - { type: part_of, target: concept/al-tibb-al-nabawi, note: "Two ways of giving a remedy that the reports name among the best treatments.", sources: [source/zad-al-maad] }
+  - { type: related_to, target: concept/al-qust-al-hindi, note: "Qust is the drug the reports name for both the sa'ut and the ladud.", sources: [source/zad-al-maad] }
+  - { type: related_to, target: concept/hijama, note: "The report on the best treatments pairs sa'ut and ladud with cupping.", sources: [source/zad-al-maad] }
+provenance:
+  layer: own-research
+  source: "Zad al-Ma'ad by Ibn Qayyim al-Jawziyya, Tibb Nabawi chapters; OCR scan folder zad-maad/20200822_20200822_1205 (1120 pages), scan pages 616, 619, 624; hadith wording checked against the hadith-api Arabic editions (hadith numbers are those of that edition); passages linked from the graph."
+  generated_by: "Claude (claude-sonnet-5-5)"
+  model: claude-sonnet-5-5
+  run: tibb-browser-curated-1
+status: { review: draft, completeness: 2, generated_by: "Claude (claude-sonnet-5-5)" }

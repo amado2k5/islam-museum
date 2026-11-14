@@ -238,7 +238,7 @@ const SAYS: Record<string, [string, string, string]> = {
     "اعضائے بدن"
   ],
   "janin_weak": ["أطوار خلق الجنين","the stages of the embryo","جنین کے مراحل"],
- "udhra": ["علاج العذرة","treating the throat ailment (al-udhra)","گلے کی بیماری (عذرہ) کا علاج"],
+ "udhra": ["علاج العذرة","treating the throat ailment (al-udhra)","گلے کی بیماری عذرہ کا علاج"],
  "uruq": [
     "العروق",
     "the vessels",
