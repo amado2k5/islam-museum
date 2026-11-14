@@ -10,8 +10,8 @@ regions: [levant-iraq]
 coordinates: [38.670556, 34.839167]
 coordinate_precision: approx
 coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
-external_ids: { wikidata: "Q217265" }
-sources: [source/wikidata]
+external_ids: { wikidata: "Q217265", nomisma: "cappadocia" }
+sources: [source/wikidata, source/nomisma]
 provenance:
   layer: own-research
   source: "Wikidata item Q217265 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."

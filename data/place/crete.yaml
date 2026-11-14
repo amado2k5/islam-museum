@@ -9,8 +9,8 @@ wings: [place]
 coordinates: [35.309722222222, 24.893333333333]
 coordinate_precision: locality
 coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
-external_ids: { wikidata: "Q34374" }
-sources: [source/wikidata]
+external_ids: { wikidata: "Q34374", nomisma: "crete" }
+sources: [source/wikidata, source/nomisma]
 provenance:
   layer: own-research
   source: "Wikidata item Q34374 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
