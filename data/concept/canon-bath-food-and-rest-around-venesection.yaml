@@ -1,0 +1,19 @@
+id: concept/canon-bath-food-and-rest-around-venesection
+class: concept
+kind: scientific
+label: { ar: "الحمام والغذاء والراحة حول الفصد عند ابن سينا", en: "The bath, food and rest around venesection in the Canon", ur: "قانون میں فصد کے گرد حمام، غذا اور آرام" }
+summary:
+  ar: "يوصي ابن سينا بما قبل الفصد وبعده: فالاستحمام قبله يعسر الفصد، وبعده يتدرج المفتصد في الغذاء ولا يرتاض ولا يستحم استحماماً محللاً، ويبين ما يفعل إذا ورمت اليد بعد الفصد {cite:canon-ibn-sina-print-v1 p.293}."
+  en: "Ibn Sina advises what comes before and after bleeding: a bath before it makes the bleeding hard, and after it the one bled moves up gradually in food, takes no exercise and no dissolving bath, and he says what is done if the arm swells after the bleeding {cite:canon-ibn-sina-print-v1 p.293}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/medicine, sources: [source/canon-ibn-sina-print-v1] }
+  - { type: related_to, target: concept/al-fasd, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 4, chapter 20, on venesection (scan pages 289 to 299), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-fann4-ch20
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

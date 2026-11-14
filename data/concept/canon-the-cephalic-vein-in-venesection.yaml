@@ -1,0 +1,19 @@
+id: concept/canon-the-cephalic-vein-in-venesection
+class: concept
+kind: scientific
+label: { ar: "القيفال في الفصد عند ابن سينا", en: "The cephalic vein in venesection in the Canon", ur: "قانون میں فصد میں قیفال" }
+summary:
+  ar: "يذكر ابن سينا أن القيفال أسلم عروق اليد، وأن فصده الطويل أبطأ التحاماً لأنه مفصلي، ويبين كيف يتجنب الخطأ فيه وما يطلب إذا لم يوجد {cite:canon-ibn-sina-print-v1 p.294}."
+  en: "Ibn Sina says the cephalic is the safest vein of the arm, that its lengthwise opening is slower to close because it lies at a joint, and shows how error in it is avoided and what is sought if it cannot be found {cite:canon-ibn-sina-print-v1 p.294}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/medicine, sources: [source/canon-ibn-sina-print-v1] }
+  - { type: related_to, target: concept/al-fasd, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 4, chapter 20, on venesection (scan pages 289 to 299), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-fann4-ch20
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }
