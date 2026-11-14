@@ -1279,3 +1279,6 @@ GEMINI: place/al-aqaba, packet 65 — card is Jordan's Red Sea port (Ayla); Yaqu
 GEMINI: place/bari, packet 65 — card is Bari in Italy; Yaqut's Bari (1 p.321) is a village of Kalwadha near Baghdad; skipped.
 GEMINI: place/lamta, packet 65 — card cites al-Idrisi (a desert city near Kabul/Multan) but coordinates point to Tunisia; Yaqut's Lamta (5 p.23) is a Berber tribe and land in the far Maghrib; identity unclear, skipped; Idrisi's Lamta passage would settle it.
 >>>>>>> origin/main
+- GEMINI: place/oman, packet 68, skipped. Yaqut's headword near our card is Amman in al-Balqa (Syria), not Oman of Arabia; the Oman entry was not located on the page read. Source that would settle it: Mu'jam al-Buldan, headword Uman (vol. 4).
+- GEMINI: place/sayla, packet 68, skipped. Yaqut's Sayla is a village of al-Fayyum in Egypt (vol. 3 p.300); our card is a coastal Palestine place from al-Idrisi. Not the same place.
+- GEMINI: place/al-miyanij, packet 68, skipped. Yaqut's Miyanij (vol. 5 p.238) is a place in Syria whose location he does not know; our card is in Azerbaijan. Unclear identity.
