@@ -2767,3 +2767,15 @@ Resume point: modakirate-iblis episode 24 (branch from origin/main).
 | Loops and garbled stretches (the rest of the praise of the righteous, a stretch on the world turning away, a stretch before the smoking claim) | ep24 00:08:00 (part), 00:15:00-00:15:30, 00:17:30-00:18:00 | Not recoverable | Clarity, Loop check | Open |
 
 Resume point: modakirate-iblis episode 25 (branch from origin/main).
+
+### modakirate-iblis ep25 (14 Nov 2026)
+
+14 points written for episode 25 (ar, en, ur); 11 needs_source marks in each language file for this episode; 7 new `about` edges. Quran verses referenced only through passage links (49-11, 34-24, 34-25, 36-20, 36-26, 36-27); none typed.
+
+| Excluded (modakirate-iblis ep25) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| A loop of one welcoming phrase for the first thirty seconds, the break and its trailer (advertisements for a Ramadan question programme with its sponsors), and the closing prayer | ep25 00:00:00, 00:10:30-00:12:30, 00:23:30-00:24:00 | Not lesson content | Content rule, Loop check | Open |
+| Loops and garbled stretches (a repeated address to the brother, the rest of the dialogue on the verse of mockery, the closing list) | ep25 00:07:00, 00:13:30 (part), 00:14:00 (part), 00:17:30-00:18:00, 00:23:00-00:23:30 | Not recoverable | Clarity, Loop check | Open |
+| A garbled report on the marriage of the Persian king's daughter | ep25 00:09:30-00:10:00 (part) | Garbled, unsourced | Clarity | Open |
+
+Resume point: modakirate-iblis episode 26 (branch from origin/main).
