@@ -1205,3 +1205,5 @@ Sources: al-Zirikli, al-A'lam (alam-zirikli-dar-al-ilm-2002) and al-Safadi, al-W
 - Merge note: packet 41 (PR before this one) had added thin first-prose stubs for ahmad-jalayir and kayqubad-i. Their text was replaced by the cited biographies above; their polity links (jalayirids, rum-seljuk-sultanate) and the Nomisma section for Ahmad were kept in all three languages, and the stubs' statements that the entry was unread were dropped as no longer true.
 
 - GEMINI: person/bahram-shah-ghaznavi — question: year of death; the data file says 1157, Ibn al-Athir says 548 AH (1153 to 1154 CE) and Hasan Ibrahim 547 AH; the source that would settle it: a numismatic or primary-chronicle check (Juzjani, Tabaqat-i Nasiri, or Ghaznavid coin dates).
+
+- 2026-11-14 packet 44 (B1 prose): wrote crete, tiberias, tehran, kashan (Yaqut, Dar Sader v.1 p.236, v.4 pp.17-19, 51-52, 296-297) and short pages for india, asia-minor, euboea, belgrade, hispania, pisidia. Data note: Nomisma `crete` etc. count as region only; India, Tiberias, Tehran, Belgrade, Kashan have no linked coins.
