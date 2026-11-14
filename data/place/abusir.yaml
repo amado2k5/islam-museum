@@ -10,8 +10,8 @@ regions: [egypt-nile]
 coordinates: [29.896111111111, 31.203611111111]
 coordinate_precision: approx
 coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
-external_ids: { wikidata: "Q336098" }
-sources: [source/wikidata]
+external_ids: { wikidata: "Q336098", pleiades: "195443086" }
+sources: [source/wikidata, source/pleiades]
 provenance:
   layer: own-research
   source: "Wikidata item Q336098 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
