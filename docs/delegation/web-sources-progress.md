@@ -1054,6 +1054,11 @@ Wrote ar, en and ur prose for vila, th-nia, el-mahalla-el-kubra, ioannina, kirku
 
 - Written (ar, en, ur, draft): chamchamal, biskra, k-tahya, sheffield, drama, rostov-on-don, trabzon, plovdiv, patras (iDAI.gazetteer via gazetteer.dainst.org/place/<id>, Accept application/json, read 14 Nov 2026) and aphrodisias (Pleiades JSON, 14 Nov 2026). Biskra cites Yaqut vol. 2, scan p.586 (entry Biskira); `source/mujam-al-buldan-yaqut` added to its sources. No Yaqut entry found in vols 1-2 for the others (Trabzon, Patras, Sheffield and the rest fall in later volumes or are absent). Skipped: none.
 
+## 2026-11-14 (Lane B2 packet alm8) - al-A'lam persons, nine written, two skipped
+
+- Written (ar, en, ur, draft; al-Zirikli, al-A'lam, 15th ed. 2002, each cited to volume and page): al-Zanjani (vol. 7 p. 95), Nasr al-Maqdisi (vol. 8 p. 20), Ali al-Karaki (vol. 4 p. 250, Imami labelled first), Ibn Abi al-Surur al-Bakri (vol. 7 p. 29), Jawad ibn Sa'd al-Kazimi (vol. 2 p. 139; short entry, short page), Ibn al-Dayba (vol. 3 p. 286), al-Mustaghfiri (vol. 2 p. 120), Muhammad ibn Makki al-Amili (vol. 7 p. 95, Imami labelled first), Imad al-Dawla (vol. 4 p. 250).
+- Corrections to cards: al-Mustaghfiri is of Nasaf, not Nishapur (summary replaced; died_in Nasaf added); Ibn Makki born 1333 not 1334, and beheaded 1384, not executed 1385 as the old summary said; Imad al-Dawla born 894 (was 892~); Ali al-Karaki born 1463 added; Nasr al-Maqdisi born 987 added; al-Kazimi's role "poet" dropped, the entry names none; Ibn Abi al-Surur's summary no longer calls him a mystic, the entry does not (it lists a book on Sufi classes). Place edges added: Tyre, Najaf, Nasaf, Jezzine, Shiraz.
+- Skipped (identity mismatch, proposals for the founder, not merged elsewhere): ibn-al-sikkit (card d. 858, the entry found is Ibn al-Quff, d. 685 AH); ibn-mattawayh (card d. 1076, the entry found is al-Wahidi, d. 468 AH).
 ## 2026-11-14 (Lane B1 packet 14) - place prose, ten places
 
 - Written (ar, en, ur, draft): d-zce, suru, skopje, anakkale, brest, tudela, varna, brooklyn (iDAI.gazetteer JSON, accessed 14 Nov 2026), mystras and tyre (Pleiades JSON, accessed 14 Nov 2026). Skipped: none. No Yaqut entry used: Tudela appears only in passing in vols 1-2 (no own entry), Tyre (sad) falls in vol. 3, the rest are absent; no page invented.
