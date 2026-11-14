@@ -1,28 +1,48 @@
 id: person/ahmad-al-rumi
 class: person
 label:
-  ar: "أحمد الرومي"
-  en: "Ahmad al-Rumi"
-roles: [scholar]
+  ar: أحمد الرومي
+  en: Ahmad al-Rumi
+roles:
+- mystic
 gender: male
 summary:
-  ar: "بطاقة أولية لأحمد الرومي؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ahmad al-Rumi; the entry is not yet checked on the page."
-wings: [people]
-regions: [anatolia-balkans]
-periods: [period/gunpowder-empires]
-sources: [source/al-aalam]
+  ar: أحمد بن عبد القادر الرومي القبرسي، متصوف رومي، صاحب «مجالس الأبرار ومسالك الأخيار» شرح مئة حديث في مئة مجلس، توفي سنة 1043هـ.
+  en: Ahmad ibn Abd al-Qadir al-Rumi al-Qubrusi, a Sufi of the Rum lands, author of Majalis al-Abrar wa Masalik al-Akhyar, an explanation of one hundred hadiths in one hundred sessions, d. 1043 AH.
+wings:
+- people
+regions:
+- anatolia-balkans
+periods:
+- period/gunpowder-empires
+sources:
+- source/al-aalam
+- source/alam-zirikli-dar-al-ilm-2002
 external_ids:
   wikidata: Q117445059
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text
+  generated_by: Claude Code (Lane B2 packet)
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
-died: { edtf: "1634", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kashf al-Zunun" }
+  completeness: 3
+died:
+  edtf: '1633'
+  hijri: '1043'
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: 'al-Zirikli, al-A''lam, 15th ed. 2002, vol. 1 p. 148: d. 1043 AH = 1633 CE; the earlier card date 1634 (from Kashf al-Zunun) is replaced by the entry''s date.'
+  sources:
+  - source/alam-zirikli-dar-al-ilm-2002
 relations:
-  - { type: lived_in, target: place/anatolia, note: "Place association from the person's nisba/name (الرومي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
+- type: lived_in
+  target: place/anatolia
+  note: Place association from the person's nisba/name (الرومي); denotes association, not proven residence.
+  sources:
+  - source/al-aalam
+  confidence: low

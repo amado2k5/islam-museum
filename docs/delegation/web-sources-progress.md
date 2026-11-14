@@ -989,6 +989,11 @@ Wrote ar, en and ur prose for vila, th-nia, el-mahalla-el-kubra, ioannina, kirku
 - Corrections: Amir died after 120 AH (card said 736 CE); Ibn Kharrash d. 242 AH, period changed from Buyid-Seljuk to Abbasid-early (Wikidata Q138350908 also gives 856); Ash'ab's birth 684 removed (not in the book).
 - Skipped (identity): abu-bakr-ibn-muhammad-adal (entry 1233 is Abu Bakr ibn Tarkhan al-Salihi d. 679 AH, not the Sultan of Adal); abd-allah-ibn-yusuf (card is the Medinan-Tinnisi Muwatta narrator d. 218 AH per Wikidata; entry 3471 is al-Jurjani d. 148 AH); mohamed-ben-youssef (card is the Tunisian scholar 1848-1939 per Wikidata; entry 5997 is Muhammad ibn Yusuf al-Harawi).
 
+## 2026-11-14 (Lane B2 packet alm1) — al-A'lam entries, ten persons
+
+- Written (ar, en, ur, draft; source al-Zirikli, al-A'lam, 15th ed. 2002): rashid-ahmad-gangohi (3:22), ahmad-al-rumi (1:148), mahmud-ibn-umar-al-timbukti (7:95), al-saffarini (5:290), thimal-ibn-salih (2:99), ahmed-skirej (1:188), al-fadl-ibn-shadhan (5:145, Imami), muhammad-bakhit-mutii (6:23), sad-ibn-abd-allah-al-qummi (3:82, Imami), ridwan-al-falaki (3:22). Short entries (ahmad-al-rumi, al-fadl-ibn-shadhan) are short pages, not padded.
+- Corrections: ahmad-al-rumi d. 1633 (card 1634); sad-al-qummi d. 913 and period early Abbasid (card 914, Umayyad); al-fadl-ibn-shadhan theologian and Imami jurist d. 874 (card hadith scholar, 873); ridwan-al-falaki Egyptian astronomer d. 1711, region Egypt (card Anatolia, writer, 1710); al-saffarini summary no longer says Hanbali (entry does not); ahmed-skirej gains born_in Fes and died_in Marrakesh; gangohi summary no longer says Deoband co-founder (not in the entry).
+- Skipped: abd-al-haqq-dihlawi (card is already review: published with its own sources from another lane; adding draft prose would conflict with its status; proposal for the founder to decide how the A'lam entry, vol. 3 p. 280, is added).
 ## 2026-11-14 (Lane B2 packet alm2) — al-A'lam (al-Zirikli, Dar al-Ilm 2002), eleven persons
 - Written (ar, en, ur, draft, run web-b2-alam-2026-11-14, source alam-zirikli-dar-al-ilm-2002, cited by volume and page): abd-al-rahman-jaziri (3:286), ali-al-shabramallisi (4:250), al-hasan-ibn-mahbub (2:174), alqama-ibn-abada (4:246), muhammad-ibn-sulayman-al-kurdi (6:128), jabir-ibn-yazid-al-jufi (2:99), ahmad-ibn-atwah (1:265), ibn-wahban (4:178), muhammad-ibn-mustafa-wani (7:95), mahmud-ibn-sulayman-al-kafawi (7:95), dawud-al-tai (2:330). All entries are short; pages are short and nothing is added beyond the entry. validate 0 errors; cite-check 11 pass.
 - Corrections to cards: al-Shabramallisi region and place moved from Anatolia to Egypt; Ibn Wahban role scientist dropped (the entry names no astronomy); al-Kurdi born 1715 (card 1714); Jabir died 745 (card 746); al-Hasan ibn Mahbub dates made exact; al-Kafawi's work is Kata'ib A'lam al-Akhyar (card said A'yan al-Zaman); Ahmad ibn Atwa region moved to Arabia.
@@ -1001,3 +1006,12 @@ Wrote ar, en and ur prose for vila, th-nia, el-mahalla-el-kubra, ioannina, kirku
 ## 2026-11-14 (Lane B1 packet 4) - place prose, ten places
 
 - Written (ar, en, ur, draft): nicomedia, thermopylae, itea, doucen (Pleiades), washington-dc, birmingham, famagusta, detroit, samalut, los-angeles (iDAI.gazetteer). Yaqut Mu'jam al-buldan vols 1-2 OCR searched for each Arabic name: no entry found, so no Yaqut citation. Nothing skipped.
+
+## 2026-11-14 (Lane B1 packet 6) - place prose, ten places
+
+- Written (ar, en, ur, draft): babadag, mu, mahan, denizli, old-dongola (Pleiades via local CSV dump, same revision fields); khosrowshahr, zurich, nev-ehir, san-francisco, akhisar (iDAI.gazetteer, https://gazetteer.dainst.org/doc/<id>.json, read 14 Nov 2026; the /place/<id>.json URL in the brief returns 404). Yaqut vols 1-2 OCR end at the letter ta, so no entry for any of them and no Yaqut citation. Nothing skipped. Note: Zurich's iDAI record links GeoNames 2657896, the data file holds 7287650; not changed.
+## 2026-11-14 (Lane B1 packet 5) - place prose, ten places
+
+- Written (ar, en, ur, draft): belvoir-fortress and ain-zara (Pleiades only), mainz, bolu, p-cs, nakhchivan, kastoria, rethymno, alanya (iDAI.gazetteer only), ucl-s (iDAI plus Yaqut vol. 1, scan p. 317; `source/mujam-al-buldan-yaqut` added to its sources). Skipped: none.
+- Yaqut vols 1-2 searched by Arabic name; only Uclés (أقليش) has an entry. Belvoir's Arabic name (Kawkab al-Hawa) has no entry; the `كوكب` hits are unrelated. Nakhchivan falls in a later volume.
+- Note: Uclés iDAI record links GeoNames 2510106 while the data file holds 6357543; not changed. iDAI was read through gazetteer.dainst.org/doc/<id>.json (the /place/<id>.json URL returns 404).

@@ -1,29 +1,59 @@
 id: person/rashid-ahmad-gangohi
 class: person
 label:
-  ar: "رشيد أحمد الكنكوهي"
-  en: "Rashid Ahmad Gangohi"
-roles: [scholar]
+  ar: رشيد أحمد الكنكوهي
+  en: Rashid Ahmad Gangohi
+roles:
+- scholar
 gender: male
 summary:
-  ar: "بطاقة أولية لرشيد أحمد الكنكوهي، شيخ الحنفية وشارك تأسيس دار العلوم ديوبند؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Rashid Ahmad Gangohi, the Hanafi master who co-founded Darul Uloom Deoband; his entry is not yet checked on the page."
-wings: [people]
-regions: [south-asia]
-periods: [period/colonial-era]
-died: { edtf: "1905", precision: year, status: tradition, derived: true }
+  ar: رشيد بن هداية أحمد الأنصاري الكنكوهي، عالم بالحديث، ولد في كنكوه بالهند وشارك في ثورة 1857 وسجن ستة أشهر، صاحب «العرف الشذي» حاشية على سنن الترمذي، 1244 إلى 1323هـ.
+  en: Rashid ibn Hidaya Ahmad al-Gangohi, a scholar of hadith born in Kankoh in India who took part in the 1857 revolt and was jailed six months, author of al-Arf al-Shadhi, a gloss on the Sunan of al-Tirmidhi, 1244 to 1323 AH.
+wings:
+- people
+regions:
+- south-asia
+periods:
+- period/colonial-era
+died:
+  edtf: '1905'
+  hijri: '1323'
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: 'al-Zirikli, al-A''lam, 15th ed. 2002, vol. 3 p. 22: 1244 to 1323 AH = 1828 to 1905 CE.'
+  sources: &id001
+  - source/alam-zirikli-dar-al-ilm-2002
 relations:
-  - { type: born_in, target: place/gangoh, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1654816)" }
-sources: [source/al-aalam, source/wikidata]
+- type: born_in
+  target: place/gangoh
+  sources:
+  - source/wikidata
+  confidence: medium
+  note: Wikidata P19 place of birth (Wikidata Q1654816)
+sources:
+- source/al-aalam
+- source/wikidata
+- source/alam-zirikli-dar-al-ilm-2002
 external_ids:
   wikidata: Q3696193
-  viaf: "18839170"
+  viaf: '18839170'
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text
+  generated_by: Claude Code (Lane B2 packet)
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
+born:
+  edtf: '1828'
+  hijri: '1244'
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: 'al-Zirikli, al-A''lam, 15th ed. 2002, vol. 3 p. 22: 1244 to 1323 AH = 1828 to 1905 CE.'
+  sources: *id001
