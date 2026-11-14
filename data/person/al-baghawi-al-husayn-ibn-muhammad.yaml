@@ -21,8 +21,8 @@ story_roles:
 relations:
   - { type: student_of, target: person/qadi-husayn-al-marwarrudhi, sources: [source/tahdhib-tafsir-baghawi-tayba-2009] }
   - { type: died_in, target: place/marw-al-rudh, sources: [source/tahdhib-tafsir-baghawi-tayba-2009] }
-external_ids: { wikidata: "Q48210" }
-sources: [source/mawsuat-a3lam-ulama-adaba, source/tahdhib-tafsir-baghawi-tayba-2009]
+external_ids: { wikidata: "Q48210", biblissima: Q7209 }
+sources: [source/mawsuat-a3lam-ulama-adaba, source/tahdhib-tafsir-baghawi-tayba-2009, source/biblissima]
 status:
   review: published
   completeness: 3
