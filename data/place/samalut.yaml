@@ -1,16 +1,35 @@
 id: place/samalut
 class: place
 kind: city
-label: { en: "Samalut", ar: "سمالوط" }
+label:
+  en: Samalut
+  ar: سمالوط
 summary:
-  en: "Town in Middle Egypt."
-  ar: "مدينة في مصر."
-wings: [place]
-regions: [egypt-nile]
-coordinates: [28.3122, 30.71]
+  en: Town in Middle Egypt.
+  ar: مدينة في مصر.
+wings:
+- place
+regions:
+- egypt-nile
+coordinates:
+- 28.3122
+- 30.71
 coordinate_precision: locality
-coordinate_note: "Representative point from the Wikidata item."
-external_ids: { wikidata: "Q950924", geonames: "349717", idai: "2777626" }
-sources: [source/wikidata, source/idai-gazetteer]
-provenance: { layer: own-research, source: "Wikidata item Q950924 (labels, coordinates, description)", generated_by: "Devin (SWE-2 High)", run: "person-place-geo-c" }
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q950924
+  geonames: '349717'
+  idai: '2777626'
+sources:
+- source/wikidata
+- source/idai-gazetteer
+provenance:
+  layer: own-research
+  source: Wikidata item Q950924 (labels, coordinates, description)
+  generated_by: Devin (SWE-2 High)
+  run: person-place-geo-c
+  note: Prose read from iDAI.gazetteer record https://gazetteer.dainst.org/place/2777626, accessed 14 Nov 2026 (Lane B1 packet 4).
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High)

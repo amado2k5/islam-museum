@@ -6,27 +6,27 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لمحمد بن سليمان الكردي المدني، فقيه ومعلم القرن الثامن عشر، توفي سنة ١٧٨٠م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Muhammad ibn Sulayman al-Kurdi al-Madani, the eighteenth-century jurist and teacher, d. 1780; the biographical entry is not yet checked on the page."
+  ar: "محمد بن سليمان الكردي، فقيه الشافعية بالديار الحجازية في عصره، ولد بدمشق ونشأ في المدينة وتولى فيها إفتاء الشافعية إلى وفاته، له الفتاوى والحواشي المدنية وعقود الدرر؛ توفي سنة 1194 هـ الموافقة 1780م."
+  en: "Muhammad ibn Sulayman al-Kurdi, the Shafi'i jurist of the Hijaz lands of his time, born in Damascus, raised in Medina and mufti of the Shafi'is there until his death, author of al-Fatawa, al-Hawashi al-Madaniyya and Uqud al-Durar; he died in 1194 AH (1780 CE)."
 wings: [people]
 regions: [arabia]
 periods: [period/gunpowder-empires]
-born: { edtf: "1714", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Muradi (Silk al-Durar)" }
-died: { edtf: "1780", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Muradi (Silk al-Durar)" }
+born: { edtf: "1715", calendar: gregorian, precision: year, derived: true, note: "Born 1127 AH = 1715 CE per al-A'lam vol. 6 p. 128; corrected from 1714.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+died: { edtf: "1780", calendar: gregorian, precision: year, derived: true, note: "Died 1194 AH = 1780 CE per al-A'lam vol. 6 p. 128.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
   - { type: born_in, target: place/damascus, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q3766)" }
   - { type: died_in, target: place/medina, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q35484)" }
   - { type: buried_in, target: place/al-baqi, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q154204)" }
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q86631287
   viaf: "88348286"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0047
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3

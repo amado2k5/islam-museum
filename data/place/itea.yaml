@@ -1,20 +1,33 @@
 id: place/itea
 class: place
 kind: town
-label: { ar: "إتي، فوكيس", en: "Itea" }
+label:
+  ar: إتي، فوكيس
+  en: Itea
 summary:
-  ar: "بلدة."
-  en: "Seaside town in Phokida, Greece."
-wings: [place]
-coordinates: [38.4329, 22.4261]
+  ar: بلدة.
+  en: Seaside town in Phokida, Greece.
+wings:
+- place
+coordinates:
+- 38.4329
+- 22.4261
 coordinate_precision: locality
-coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
-external_ids: { wikidata: "Q1240074", pleiades: "540840" }
-sources: [source/wikidata, source/pleiades]
+coordinate_note: Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer.
+external_ids:
+  wikidata: Q1240074
+  pleiades: '540840'
+sources:
+- source/wikidata
+- source/pleiades
 provenance:
   layer: own-research
-  source: "Wikidata item Q1240074 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
-  generated_by: "Devin"
-  model: "Devin (Cognition)"
+  source: Wikidata item Q1240074 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run.
+  generated_by: Devin
+  model: Devin (Cognition)
   run: battles-geo-places-1
-status: { review: draft, completeness: 1, generated_by: "Devin" }
+  note: Prose read from Pleiades place page https://pleiades.stoa.org/places/540840/json, accessed 14 Nov 2026 (Lane B1 packet 4).
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin

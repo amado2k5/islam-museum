@@ -1,20 +1,33 @@
 id: place/thermopylae
 class: place
 kind: site
-label: { ar: "ثيرموبيلاي", en: "Thermopylae" }
+label:
+  ar: ثيرموبيلاي
+  en: Thermopylae
 summary:
-  ar: "موقع أثري في وسط اليونان."
-  en: "Ancient fortified passage in central Greece."
-wings: [place]
-coordinates: [38.79555555555555, 22.536666666666665]
+  ar: موقع أثري في وسط اليونان.
+  en: Ancient fortified passage in central Greece.
+wings:
+- place
+coordinates:
+- 38.79555555555555
+- 22.536666666666665
 coordinate_precision: site
-coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
-external_ids: { wikidata: "Q194450", pleiades: "541140" }
-sources: [source/wikidata, source/pleiades]
+coordinate_note: Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer.
+external_ids:
+  wikidata: Q194450
+  pleiades: '541140'
+sources:
+- source/wikidata
+- source/pleiades
 provenance:
   layer: own-research
-  source: "Wikidata item Q194450 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
-  generated_by: "Devin"
-  model: "Devin (Cognition)"
+  source: Wikidata item Q194450 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run.
+  generated_by: Devin
+  model: Devin (Cognition)
   run: battles-geo-places-1
-status: { review: draft, completeness: 1, generated_by: "Devin" }
+  note: Prose read from Pleiades place page https://pleiades.stoa.org/places/541140/json, accessed 14 Nov 2026 (Lane B1 packet 4).
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin
