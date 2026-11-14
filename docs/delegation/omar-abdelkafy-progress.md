@@ -2672,3 +2672,41 @@ Resume point: modakirate-iblis episode 16 (branch from origin/main).
 | A passing remark about the marriage proposal and the dawn prayer | ep16 00:18:30-00:19:00 | Garbled | Clarity | Open |
 
 Resume point: modakirate-iblis episode 17 (branch from origin/main).
+
+### modakirate-iblis ep17 (14 Nov 2026)
+
+14 points written for episode 17 (ar, en, ur); 3 new `about` edges; 4 needs_source marks in each language file for this episode; Quran verse referenced only through a passage link (2-189), none typed. Sensitivity stays contested: the lecturer's views on mixed settings, schooling and sex education are labelled as his, and the unsourced historical and statistical claims are marked as needing a source.
+
+| Excluded (modakirate-iblis ep17) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greetings, the break and the closing prayer | ep17 00:00:00, 00:11:00-00:11:30, 00:23:00-00:23:30 | Not lesson content | Content rule | Open |
+| Loops and garbled stretches (a broken comparison with the time of Uthman, a loop of a spoken name list, a stretch on newsreaders) | ep17 00:02:00-00:03:30 (part), 00:04:30, 00:06:00, 00:07:00-00:08:00, 00:10:00-00:10:30, 00:12:30 | Not recoverable | Clarity, Loop check | Open |
+| A long run of digits in the account of the nurse's sentence | ep17 00:13:30 (part) | Loop | Loop check | Open |
+| Lament over the loss of Jerusalem, Andalusia, Iraq and the Levant and the Muslim world's dependence | ep17 00:18:30-00:19:30 | Modern political aside outside the lesson; held for the founder to decide | Content rule | Open |
+
+Resume point: modakirate-iblis episode 18 (branch from origin/main).
+
+### modakirate-iblis ep18 (14 Nov 2026)
+
+13 points written for episode 18 (ar, en, ur); 7 needs_source marks in each language file for this episode; 7 new `about` edges. Quran verses referenced only through passage links (61-4, 12-76); none typed. Topics on Jerusalem, women's inheritance and imitation of the West are the lecturer's own views, labelled as his, and sensitivity stays contested.
+
+| Excluded (modakirate-iblis ep18) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greetings, the break (including a read-out of a hadith on fasting that is part of the break, not the lesson), and the closing prayer | ep18 00:00:00, 00:11:30-00:13:00, 00:24:00 | Not lesson content | Content rule | Open |
+| Loops and garbled stretches (scouting and the Salim story, a stretch on women's matters, a stretch on ships) | ep18 00:04:30-00:05:00, 00:17:00-00:18:00 | Not recoverable | Clarity, Loop check | Open |
+| A political remark on the people holding Jerusalem since 1948 | ep18 00:01:30-00:02:00 (part) | Modern conflict aside; the lesson point on supplication and means is kept without it, held for the founder to decide | Content rule | Open |
+
+Resume point: modakirate-iblis episode 19 (branch from origin/main).
+
+### modakirate-iblis ep19 (14 Nov 2026)
+
+12 points written for episode 19 (ar, en, ur); 5 needs_source marks in each language file for this episode; 4 new `about` edges. Quran verses referenced only through passage links (42-27, 25-20, 28-7, 20-39, 13-13, 14-34, 113-4); none typed.
+
+| Excluded (modakirate-iblis ep19) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greetings, the break and its trailer (an advert for a television programme), and the closing prayer | ep19 00:00:00, 00:10:30-00:12:30, 00:23:30-00:24:00 | Not lesson content | Content rule | Open |
+| An unsourced anecdote about the death of a named wealthy banker linked to a political declaration, and sweeping remarks about a whole people and about the media | ep19 00:05:00-00:06:30 (part), 00:12:30 (part), 00:16:30-00:17:30 | Unsourced and a group generalisation; not written in the museum's voice; held for the founder to decide | Content rule, Voice rule | Open |
+| An unsourced claim about the eating of pork and loss of protective jealousy, and a prediction of the West's decline | ep19 00:17:30-00:19:00 | Unsourced and disparaging; held for the founder to decide | Content rule | Open |
+| Garbled and looping stretches | ep19 00:08:30-00:09:00, 00:18:00-00:18:30, 00:20:00 (part) | Not recoverable | Clarity, Loop check | Open |
+
+Resume point: modakirate-iblis episode 20 (branch from origin/main).

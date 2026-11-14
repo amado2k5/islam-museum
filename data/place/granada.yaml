@@ -30,12 +30,14 @@ external_ids:
   wikidata: Q8810
   nomisma: granada
   idai: "2359867"
+  althurayya: GHARNATA_035W372N_S
 sources:
 - source/geonames-gazetteer
 - source/wikidata
 - source/nomisma
 - source/idai-gazetteer
 - source/encyclopaedia-of-islam-2
+- source/althurayya-gazetteer
 relations:
   - { type: located_in, target: place/al-andalus, sources: [source/encyclopaedia-of-islam-2] }
   - { type: capital_of, target: polity/taifa-of-granada, note: "Zirid capital from the early 5th/11th century (EI2 vol. 2 p. 1054).", sources: [source/encyclopaedia-of-islam-2] }
