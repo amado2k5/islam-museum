@@ -11,3 +11,6 @@ Lucena, also called Lusha the Smaller or Lusna, is one of the towns of the distr
 Al-Maqqari reports that the sultan Abu Abd Allah Muhammad ibn Abi al-Hasan, lord of Granada, was taken prisoner near Lucena in Rabi al-Awwal 888 AH. His army was broken in the mountains of its districts. The lord of Lucena learned of it, and he fled with him by night and brought him to the lord of Castile. {cite:nafh-tib-maqqari p.519}
 
 The town lies within [[place/al-andalus|al-Andalus]]. The date here rests on one source, and it needs an additional one.
+
+## In the Pleiades gazetteer
+Pleiades, the open gazetteer of ancient places, lists this place under the title «Lucena» (Pleiades no. 688210633), classed as a settlement and a modern settlement, with activity attested from 640 CE to 2100 CE. Names recorded there include Lucena. {cite:pleiades 688210633}

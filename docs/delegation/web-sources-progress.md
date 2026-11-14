@@ -919,3 +919,7 @@ Nothing is registered this turn. Each registration needs the three-part commit i
 
 - Approval: dec-20261114-277. Linked: rotterdam, semarang, sheffield, skopje, suru, tafresh, tokat, tomislavgrad, trabzon, tulkarm, varna, xian, yozgat. The full re-scan found about 60 single matches in all (47 linked in PRs 6667 and this one, plus the batch 3 to 5 links already on main).
 - Not linked: fier, gjirokast-r, sarab, serres, sidirokastro (two equally good iDAI results each); antakiya, sarqusta (duplicate pairs with antioch and zaragoza); shaizar and talabira (Arabic-name-only matches at 0.17 and 0.49 km, left for a hand check). The remaining cities returned no passing result.
+
+## 2026-11-14 (p62, Lane B worker B1) — Pleiades prose sections on 13 places
+
+- Approval: dec-20261114-277. For the 13 of the 50 Pleiades-linked places that already have ar, en and ur prose, a short section built from the Pleiades record (title, number, feature types, year span, up to three recorded names), cited `{cite:pleiades <id>}`. The 37 others have no prose file yet; the description sentence of each Pleiades record (for example Sufetula, founded in the later first century CE at a road junction) is the lead for their first prose pass. Draft status stays, as the pages already are.
