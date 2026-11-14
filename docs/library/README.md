@@ -88,3 +88,6 @@ below also needs its OCR zip verified before any deletion.
 | 10 | hilyat-awliya | volume 10 to printed p. 689 | ruling on queue vs next volume | held pp. 532, 546, 666 |
 | 11 | tafsir-tabari-shakir | volume 1 complete | later volumes | no |
 
+
+## Wrap-up resume point (14 November 2026)
+Pilot deletions done: futuh-buldan (810,710,973 bytes), muruj-dhahab (818,525,591), shadharat-dhahab (1,072,868,085); OCR zips kept under ocr-archive/tareekh/. Next on the queue: tarikh-khulafa, jami-ulum-hikam, nisa-hawl-rasul, kamil-tarikh, then tabaqat-fuqaha. Skip sira-hadi-ila-al-haqq, canon-ibn-sina and zij-sabi while active. The queue table above is not yet ticked for the three finished books.
