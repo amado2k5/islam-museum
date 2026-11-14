@@ -978,3 +978,8 @@ Nothing is registered this turn. Each registration needs the three-part commit i
 ## 2026-11-14 (Lane B1 place prose, packet 2)
 
 Wrote ar, en and ur prose for vila, th-nia, el-mahalla-el-kubra, ioannina, kirkuk, beaufort-castle, yerevan, plo-nik, dhi-as-sufal, tartus from Pleiades (page JSON, accessed 14 Nov 2026) and iDAI.gazetteer (accessed 14 Nov 2026). Yaqut vols 1-2 OCR searched: no entries for any of the ten (the OCR reaches only to about the letter thaa/dhal), so `source/mujam-al-buldan-yaqut` was not added. Skipped: none.
+## 2026-11-14 (Lane B2 packet pktc) — Siyar entries, six persons
+
+- Written (ar, en, ur, draft; source al-Dhahabi, Siyar A'lam al-Nubala, ideas-house edition): hisham-ibn-amr-al-fuwati (pp. 4094-4095, Mu'tazili, labelled first), amir-ibn-abd-allah-ibn-al-zubayr (pp. 2111-2112, page re-read; entry follows the end of Abu Ubayda's entry), ashab-ibn-jubayr (pp. 1138-1139), ahmad-ibn-al-hasan-ibn-kharrash (pp. 752-753), abu-al-hasan-al-bahili (p. 1397, Ash'ari), muhammad-ibn-sad-ibn-abi-waqqas (pp. 3436-3437).
+- Corrections: Amir died after 120 AH (card said 736 CE); Ibn Kharrash d. 242 AH, period changed from Buyid-Seljuk to Abbasid-early (Wikidata Q138350908 also gives 856); Ash'ab's birth 684 removed (not in the book).
+- Skipped (identity): abu-bakr-ibn-muhammad-adal (entry 1233 is Abu Bakr ibn Tarkhan al-Salihi d. 679 AH, not the Sultan of Adal); abd-allah-ibn-yusuf (card is the Medinan-Tinnisi Muwatta narrator d. 218 AH per Wikidata; entry 3471 is al-Jurjani d. 148 AH); mohamed-ben-youssef (card is the Tunisian scholar 1848-1939 per Wikidata; entry 5997 is Muhammad ibn Yusuf al-Harawi).

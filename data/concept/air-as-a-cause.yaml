@@ -1,0 +1,18 @@
+id: concept/air-as-a-cause
+class: concept
+kind: scientific
+label: { ar: "الهواء المحيط وتأثيره في الأبدان عند ابن سينا", en: "The surrounding air and its effect on bodies in the Canon", ur: "قانون میں گھیرنے والی ہوا اور بدنوں پر اس کا اثر" }
+summary:
+  ar: "يذكر ابن سينا أن الهواء عنصر لأبداننا وأرواحنا ومدد لأرواحنا، وفاعل معدل لها، ويتعلق تعديله بفعلين هما الترويح والتنقية، وأنه ما دام معتدلاً صافياً حافظ للصحة {cite:canon-ibn-sina-print-v1 pp.113-114}."
+  en: "Ibn Sina says air is an element of our bodies and spirits, a supply to our spirits and an acting moderator of them, whose moderating belongs to two acts, ventilation and purification, and that while it is moderate and pure it keeps health {cite:canon-ibn-sina-print-v1 pp.113-114}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/disease, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, Ta'lim 2 on causes: air and seasons (scan pages 112 to 118), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-causes-5
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }
