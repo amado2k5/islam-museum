@@ -1,0 +1,18 @@
+id: concept/canon-bran-like-and-vetch-like-sediment
+class: concept
+kind: scientific
+label: { ar: "الرسوب النخالي والكرسني عند ابن سينا", en: "Bran-like and vetch-like sediment in the Canon", ur: "بھوسی نما اور کرسنی تلچھٹ قانون میں" }
+summary:
+  ar: "يفرق ابن سينا بين الكرسني الأحمر وغير الأحمر النخالي، ويذكر مصدرهما من الكبد أو الكلية أو المثانة، وكيف يميز بين الأصول بالحكة والنتن والإلهاب. {cite:canon-ibn-sina-print-v1 p.194}."
+  en: "Ibn Sina separates the red vetch-like sediment from the bran-like when it is not red, names their sources in the liver, kidney or bladder, and gives itching, stench and heat as ways of telling them apart. {cite:canon-ibn-sina-print-v1 p.194}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/canon-urine-in-general, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, Ta'lim 3, urine chapters 5 to 12 and the stool chapter (scan pages 192 to 199), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-urine-3
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

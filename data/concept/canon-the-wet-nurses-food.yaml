@@ -1,0 +1,18 @@
+id: concept/canon-the-wet-nurses-food
+class: concept
+kind: scientific
+label: { ar: "غذاء المرضعة وما يفسد اللبن", en: "The wet nurse's food and what spoils milk", ur: "دایہ کی غذا اور دودھ بگاڑنے والی چیزیں" }
+summary:
+  ar: "إذا أصابت المرضعة شرائطها وجب أن يجاد غذاؤها، فيجعل من الحنطة والخندريس ولحوم الخرفان والجداء والسمك غير العفن ولا الصلب اللحم، والخس واللوز والبندق، ويحذر من شر البقول للبن كالجرجير والخردل والباذروج، وفي النعناع قوة من ذلك {cite:canon-ibn-sina-print-v1 pp.205-206}."
+  en: "Once the wet nurse meets her conditions, her food must be of good quality: wheat, old wine, meat of lambs and kids, fish whose flesh is neither rotten nor hard, with lettuce, almonds and hazelnuts, while the worst herbs for her milk are rocket, mustard and basil, and mint has some of that force {cite:canon-ibn-sina-print-v1 pp.205-206}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/breastfeeding-and-weaning, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 3, the cause of health and disease, Ta'lim 1 on upbringing (scan pages 200 to 211), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-p200
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

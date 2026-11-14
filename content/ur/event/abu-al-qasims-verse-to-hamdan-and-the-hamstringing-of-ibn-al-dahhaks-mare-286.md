@@ -9,3 +9,5 @@ translators: ["Claude Sonnet 5.5 (claude-sonnet-5-5), draft translation"]
 
 ## گھوڑی کا عقر
 علی بن محمد نے کہا: جب ابو القاسم کا خط بنو معمر کو پہنچا تو وہ جمع ہو کر مشورہ کرنے لگے، جان گئے کہ ان میں [[person/al-hadi-yahya-al-rassi|ہادی]] کے مقابلے کی طاقت نہیں اور ان کا معاملہ بلند اور مضبوط ہو گیا ہے، اور اپنے ایک بیوقوف سے کہا کہ [[person/ibn-al-dahhak-rebel-at-khiwan-286|ابن ضحاک]] کی گھوڑی کا عقر کرے، تو اس نے رات کو کر دیا۔ {cite:sira-hadi-ila-al-haqq p.184} بات اگلے صفحے کے آغاز میں «جب ظاہر ہوا» پر منقطع ہوتی ہے، اس لیے عجائب گھر یہیں رک کر اگلے صفحے سے دوبارہ شروع کرے گا۔
+
+بیان اگلے صفحے پر [[event/ibn-al-dahhak-seeks-safety-through-abu-al-atahiya-and-abu-al-qasim-writes-in-verse-286]] میں جاری رہتا ہے۔

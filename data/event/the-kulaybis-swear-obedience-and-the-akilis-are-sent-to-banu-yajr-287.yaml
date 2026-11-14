@@ -1,0 +1,73 @@
+id: event/the-kulaybis-swear-obedience-and-the-akilis-are-sent-to-banu-yajr-287
+class: event
+kind: other
+label:
+  ar: "الكليبيون يحلفون على السمع والطاعة ويُطرد الأكيليون إلى بني يجر، 287هـ"
+  en: "The Kulaybis swear obedience and the Akilis are driven to Banu Yajr, 287 AH"
+  ur: "کلیبی سمع و طاعت کا حلف اٹھاتے ہیں اور اکیلی بنو یجر کی طرف نکالے جاتے ہیں، 287ھ"
+summary:
+  ar: "يطلب الكليبيون أن يرسل إليهم الهادي جماعة من اليرسميين، ثم يعتذرون عنده بصعدة فيقبل منهم ويستحلفهم على السمع والطاعة، فيطردون الأكيليين إلى بلاد بني يجر ويبقى معهم سليمان بن حجر، ثم ينزل بقية الكليبيين فيعفو عنهم ويرسل العمال لجباية الصدقات."
+  en: "The Kulaybis ask al-Hadi to send some Yarsamis to speak with them, then come to Sa'da to apologise; he accepts, has them swear hearing and obedience, and they drive the Akilis to the land of Banu Yajr, where Sulayman ibn Hajar stays with them; the rest of the Kulaybis come down, are pardoned, and collectors go with them to gather the alms."
+  ur: "کلیبی ہادی سے کہتے ہیں کہ یرسمیوں کی ایک جماعت ان سے بات کرنے بھیجیں، پھر صعدہ آ کر معذرت کرتے ہیں؛ وہ قبول کرتے اور ان سے سمع و طاعت کا حلف لیتے ہیں، وہ اکیلیوں کو بنو یجر کی سرزمین کی طرف نکال دیتے ہیں جہاں سلیمان بن حجر ان کے ساتھ رہتا ہے؛ باقی کلیبی اتر آتے ہیں، معاف کیے جاتے ہیں اور صدقات وصول کرنے کے لیے عامل ان کے ساتھ بھیجے جاتے ہیں۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0900"
+    hijri: "0287"
+    calendar: julian
+    precision: year
+    status: tradition
+    derived: true
+    note: "سنة 287هـ؛ بعد أيام من الأمان دون ذكر الشهر؛ الدقة سنوية؛ التحويل مشتق"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/saada
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/sulayman-ibn-hajar-al-kulaybi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-kulayb-saada
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-yajr-saada
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/al-akiliyyun-saada
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/al-yarsamiyyun-saada
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/al-mahadhir-saada
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص197 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-24
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 197

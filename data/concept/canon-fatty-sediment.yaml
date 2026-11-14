@@ -1,0 +1,18 @@
+id: concept/canon-fatty-sediment
+class: concept
+kind: scientific
+label: { ar: "الرسوب الدسمي عند ابن سينا", en: "Greasy sediment in the Canon", ur: "چکنی تلچھٹ قانون میں" }
+summary:
+  ar: "يبين ابن سينا أن الرسوب الدسمي يدل على ذوبان الشحم والسمن واللحم، وأبلغه ما يشبه ماء الذهب، ويستدل على مبدئه من القلة والكثرة والمخالطة والتميز. {cite:canon-ibn-sina-print-v1 p.195}."
+  en: "Ibn Sina says greasy sediment shows the melting of fat, flesh and body-butter, the most severe resembling liquid gold, and its source is judged from its quantity, mixing and separation. {cite:canon-ibn-sina-print-v1 p.195}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/canon-urine-in-general, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, Ta'lim 3, urine chapters 5 to 12 and the stool chapter (scan pages 192 to 199), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-urine-3
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

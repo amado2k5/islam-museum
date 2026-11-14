@@ -1,0 +1,11 @@
+---
+id: event/the-night-march-of-mid-shaban-and-the-fight-at-allaf-287
+lang: en
+source_lang: ar
+translators: ["Claude Sonnet 5.5 (claude-sonnet-5-5), draft translation"]
+---
+## Overview
+Two days before mid-Sha'ban [[person/al-hadi-yahya-al-rassi|al-Hadi]] sent criers among [[group/banu-sad-khawlan|Banu Sa'd of Khawlan]] and they gathered to him; he told them that on the night of the fifteenth their tryst was a place he named. {cite:sira-hadi-ila-al-haqq p.191} That night he told a boy to take a horse out beyond the village without anyone knowing, and al-Hadi, a boy of his and Muhammad ibn Sa'id went on foot out of the village to a prayer-ground outside [[place/saada|Sa'da]], where they found Banu Hayy; the boy had taken the horse to the wrong place and al-Hadi sent him to look for it, standing until he brought it. {cite:sira-hadi-ila-al-haqq p.191} He rode off until he came to a place called Nasrin and was ahead of the men he had appointed and did not find them; he sent some of his men to look and waited until the army gathered, then ordered a party of [[group/banu-hayy-sad-khawlan|Banu Hayy]] and a party of Banu Hamza to go to [[place/allaf-yemen|Allaf]] and keep to a rise he named for the night, and went back to Sa'da. {cite:sira-hadi-ila-al-haqq p.191}
+
+## Detail
+In the morning he went out with all his army to a place called al-Buq'a and drew up the army: the [[group/al-hamziyyun-saada|Hamzis]] on the right, the [[group/al-yarsamiyyun-saada|Yarsamis]] on the left, himself in the centre with [[group/tabari-emigrants-with-al-hadi|the Tabaris]], Hamdan and the emigrants, and he ordered [[person/abdullah-ibn-al-husayn-al-futayimi|Abdullah ibn al-Husayn al-Futaymi]], with a party of horse and foot, to go by a gorge he named to Allaf. {cite:sira-hadi-ila-al-haqq p.191} He ordered the Yarsamis to close with the enemy; some went and closed with them and a party held back whom the narrator calls not loyal to al-Hadi, and when al-Hadi saw it he rode until he was near the enemy force, pressed them, charged with his men and drove them off until they climbed their mountain, one man of theirs being killed. {cite:sira-hadi-ila-al-haqq p.191} {cite:sira-hadi-ila-al-haqq p.192}
