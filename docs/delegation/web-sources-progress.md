@@ -1307,6 +1307,7 @@ GEMINI: person/al-mahdi-al-husayn - card/al-A'lam birth 384 AH; Wikipedia and Wi
 GEMINI: person/abu-al-abbas-al-sabti - card d. 1204 (al-Zirikli 524-601 AH, Wikidata Q2822099); Gemini 3 Jumada II 601 AH = 1205; Ibn al-Zayyat, al-Tashawwuf would settle it.
 GEMINI: person/muhammad-al-nafzawi - card born 1410~ died 1434~ (EI2); Gemini floruit c. 1410-1434; EI2 or the author's own work would settle it.
 GEMINI: person/yuhanna-al-dimashqi - card 675~ (Wikidata Q51884, circa); Gemini 676; the Oxford Dictionary of Byzantium would settle it.
+GEMINI: place/al-jafar-oasis - is our record Yaqut's al-Jafar (Sinai tract between Rafah and al-Khushabi) or an oasis in Egypt? Card: Idrisi oasis city of saffron/indigo at the lower end of the oases, coordinates 30.98, 32.6 (northern Sinai); Yaqut (2 p.145-146) gives three al-Jafar (Najd place, Daba water in Hijaz, Sinai sand tract), none an oasis city; a gazetteer or Idrisi passage settling the identity would decide. Skipped, packet 69.
 
 ## Lane B2 packet m06 (14 Nov 2026)
 Written (ar, en, ur, draft): abu-said-al-khadimi (A'lam 7:68), abu-shuja-al-rudhrawari (6:100-101), abu-zurah-al-dimashqi (3:320), ahmad-al-arusi (1:262), ahmad-al-baali (1:162), ahmad-al-siddiq-al-ghumari (1:253), ahmad-al-zawawi (1:160), ahmad-ibn-harun-al-bardiji (1:265-266), ahmad-mukhtar-pasha (1:255), ahmad-ibn-said-al-darimi (Wafi 6:241).
