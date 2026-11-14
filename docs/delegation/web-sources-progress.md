@@ -1049,3 +1049,7 @@ Wrote ar, en and ur prose for vila, th-nia, el-mahalla-el-kubra, ioannina, kirku
 ## 2026-11-14 (Lane B1 packet 12) - place prose, ten places
 
 - Written (ar, en, ur, draft): chamchamal, biskra, k-tahya, sheffield, drama, rostov-on-don, trabzon, plovdiv, patras (iDAI.gazetteer via gazetteer.dainst.org/place/<id>, Accept application/json, read 14 Nov 2026) and aphrodisias (Pleiades JSON, 14 Nov 2026). Biskra cites Yaqut vol. 2, scan p.586 (entry Biskira); `source/mujam-al-buldan-yaqut` added to its sources. No Yaqut entry found in vols 1-2 for the others (Trabzon, Patras, Sheffield and the rest fall in later volumes or are absent). Skipped: none.
+
+## 2026-11-14 (Lane B1 packet 14) - place prose, ten places
+
+- Written (ar, en, ur, draft): d-zce, suru, skopje, anakkale, brest, tudela, varna, brooklyn (iDAI.gazetteer JSON, accessed 14 Nov 2026), mystras and tyre (Pleiades JSON, accessed 14 Nov 2026). Skipped: none. No Yaqut entry used: Tudela appears only in passing in vols 1-2 (no own entry), Tyre (sad) falls in vol. 3, the rest are absent; no page invented.
