@@ -18,7 +18,7 @@ periods: [period/umayyad]
 regions: [maghreb]
 coordinates: [35.6781, 10.0963]
 coordinate_precision: site
-external_ids: { wikidata: "Q179570", geonames: "2473449", nomisma: "al-qayrawan", idai: "2042772" }
+external_ids: { wikidata: "Q179570", geonames: "2473449", nomisma: "al-qayrawan", idai: "2042772", althurayya: QAYRAWAN_101E357N_S }
 relations:
   - { type: site_of, target: event/founding-of-qayrawan, sources: [source/futuh-buldan-maarif-1407] }
 provenance:
@@ -28,7 +28,7 @@ provenance:
   run: lib-futuh-buldan-batch-21
   extra_runs: ["farghani-389-577 (claude-haiku-5-5, Claude Code)"]
   canon: "Encyclopaedia of Islam 2nd ed., vol. 4, article AL-KAYRAWAN, PDF pages 862-869, written by Claude Sonnet 5.5, run canon-cornerstones-10"
-sources: [source/umayyad-birth-to-fall-2006, source/futuh-buldan-maarif-1407, source/ahsan-al-taqasim, source/farghani-elements-astronomy, source/nomisma, source/idai-gazetteer, source/encyclopaedia-of-islam-2]
+sources: [source/umayyad-birth-to-fall-2006, source/futuh-buldan-maarif-1407, source/ahsan-al-taqasim, source/farghani-elements-astronomy, source/nomisma, source/idai-gazetteer, source/encyclopaedia-of-islam-2, source/althurayya-gazetteer]
 importance: 1
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
 kids:

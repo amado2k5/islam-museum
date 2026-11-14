@@ -9,8 +9,8 @@ wings: [place]
 coordinates: [35.68333333, 36.53333333]
 coordinate_precision: site
 coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
-external_ids: { wikidata: "Q310049" }
-sources: [source/wikidata]
+external_ids: { wikidata: "Q310049", althurayya: BARA_365E356N_S }
+sources: [source/wikidata, source/althurayya-gazetteer]
 provenance:
   layer: own-research
   source: "Wikidata item Q310049 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
