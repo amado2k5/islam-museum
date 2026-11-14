@@ -4397,3 +4397,29 @@ Resume point: sharh-saheeh-al-bukhare episode 35 (branch from origin/main).
 | Moses and the seed story, mercy and Hell | ep35 01:17:30-01:19:00 | Garbled, cannot be recovered | Clarity | Open |
 
 Resume point: sharh-saheeh-al-bukhare episode 36 (branch from origin/main).
+
+### sharh-saheeh-al-bukhare ep36 (14 Nov 2026)
+
+26 points written for episode 36 (ar, en, ur); 13 needs_source marks in each language file for this episode; 3 new `about` edges. Quran verses referenced only through passage links (12-53, 75-2, 89-27, 38-75, 38-76, 7-20, 3-134); none typed. Contested: He holds that the self has three kinds with five, three and seven signs, that three sins are the root of the rest, that patience against disobedience is easier than patience in obedience, and he gives rulings and counsel on dealings and manners; these are his views. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep36) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Greetings, opening supplication and a stretch of prayers touching a modern conflict | ep36 00:00:00-00:04:00 | Opening words and prayer; a stretch dropped under the content-safety block | Content rule | Open |
+| Closing supplication, announcements about Ramadan and farewell | ep36 01:09:30-01:10:00 | Closing prayer and announcements | Content rule | Open |
+| Report of a man whose wife bore a child of a different colour and the story of Usama, Aisha and the hypocrites | ep36 00:07:30-00:10:30 | Garbled in both passes, names and report not recoverable | Clarity | Open |
+| Three classes of the people of Paradise and remarks on slander | ep36 00:10:30-00:11:00 | Garbled, items not recoverable | Clarity | Open |
+| Anecdotes of a man giving away what he had, a work paper and ten houses | ep36 00:12:00-00:13:00, 00:26:30-00:29:30 | Garbled in both passes, reports unclear | Clarity | Open |
+| The third root sin, its story and a report of Ali and Fatima | ep36 00:16:00-00:19:00, 00:24:30-00:25:00 | Garbled; the third item and the names rest on single garbled words | Clarity | Open |
+| Remarks on people ignoring commands, on the Prophet's guidance and a report of a scholar being served food | ep36 00:19:30-00:21:00, 00:33:30-00:37:00 | Garbled in both passes | Clarity | Open |
+| Reading of the verse on the good for the good, Pharaoh's wife and a report on the black dog | ep36 00:29:30-00:33:30 | Garbled; hadith and animal rest on a single garbled word | Clarity | Open |
+| The four Abdullahs among the Companions and a story of questions put to them | ep36 00:38:30-00:41:00 | Garbled in both passes, names and story not recoverable | Clarity | Open |
+| Third sign of the commanding self, remarks on professions and Ramadan routines | ep36 00:41:30-00:42:30, 00:43:00-00:45:30 | Garbled, loops | Clarity, Loop check | Open |
+| Remarks on veiled and unveiled women at Friday prayer and on marriage | ep36 00:46:00-00:47:30 | Garbled and sweeping about women | Voice rule, Clarity | Open |
+| Story of an imam jailed over the Qur'an and a ruler's reply | ep36 00:47:30-00:50:00 | Garbled, imam and details rest on single words | Clarity | Open |
+| Hadith of the stranger and of holding to the faith in later times | ep36 00:51:30-00:52:30 | Garbled in both passes | Clarity | Open |
+| Remaining signs of the tranquil self: rahba, love of God and the Messenger | ep36 01:00:00-01:01:30, 01:05:30-01:06:00 | Garbled, items not recoverable | Clarity | Open |
+| Story of Harun al-Rashid and a man guided to God | ep36 01:03:00-01:04:30 | Garbled; the name rests on one pass | Clarity | Open |
+| Loop stretches of repeated syllables in the Qwen pass | ep36 00:10:00-00:10:30, 00:17:30-00:18:30, 00:20:00-00:21:00, 00:35:30-00:36:00, 00:44:00-00:45:00, 00:59:00-00:59:30 | Repeated-token loops | Loop check | Open |
+| Second ASR pass: Whisper large-v3 (mlx) run on the Mac to resolve garbled words of the Qwen transcript; cites use the shared 30-second grid | ep36 whole | Qwen pass garbled | Clarity | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 37 (branch from origin/main).
