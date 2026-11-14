@@ -3345,3 +3345,21 @@ Resume point: min-kunuz-al-sunnah episode 27 (branch from origin/main).
 | Garbled Arabic recitation of the hadith | ep27 00:16:30-00:17:00 | Garbled ASR of a hadith already covered | Clarity, Loop check | Open |
 
 Resume point: min-kunuz-al-sunnah episode 28 (branch from origin/main).
+
+### min-kunuz-al-sunnah ep28 (14 Nov 2026)
+
+13 points written for episode 28 (ar, en, ur); 9 needs_source marks in each language file for this episode; 1 new `about` edges. No Quran verses linked; none typed. Contested: He holds that an angry divorce stands because the angry man still tells wife from mother (against a questioner who thought it void for a closed mind); he also holds that officials should undergo psychiatric screening, and relates unchained reports (Umar and the applicant, the Arab/non-Arab saying, population figures).
+
+| Excluded (min-kunuz-al-sunnah ep28) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greeting and praise, opening of the lesson | ep28 00:00:00-00:00:30 | Greeting and introduction, no teaching content | Content rule | Open |
+| Loop of repeated letters | ep28 00:00:30-00:01:00 | ASR loop, no recoverable words | Clarity, Loop check | Open |
+| Garbled stretch of repeated particles before the divorce examples | ep28 00:06:30-00:07:00 | ASR loop, no recoverable words | Clarity, Loop check | Open |
+| Laughter loop inside the divorce example | ep28 00:07:00-00:07:30 | ASR loop after the first sentences | Clarity, Loop check | Open |
+| Break join and return from the advertisement break | ep28 00:08:30-00:09:00 | Break join, no teaching content | Content rule | Open |
+| Sweeping claim that the Arab environment has become one that produces anger, and the remark on divorce questions turning on school rulings | ep28 00:14:30-00:15:30 | Sweeping claim about a people, partly garbled and rambling on children of divorced parents | Voice rule, Clarity | Open |
+| Break announcement and prayer before the break, and the second break join | ep28 00:16:00-00:17:00 | Break join and a short supplication, no teaching content | Content rule | Open |
+| Story of Harun al-Rashid and a jug of water, then a loop | ep28 00:25:00-00:26:00 | Story cut off by an ASR loop, outcome unrecoverable | Clarity, Loop check | Open |
+| Closing prayer and farewell | ep28 00:26:00-00:26:30 | Closing prayer and farewell | Content rule | Open |
+
+Resume point: min-kunuz-al-sunnah episode 29 (branch from origin/main).
