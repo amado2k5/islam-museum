@@ -5088,3 +5088,32 @@ GEMINI: ep41, the channel and the director: the host thanks Sharjah Television a
 GEMINI: ep41, names of the sheikh's teachers and colleagues in the garbled transcript at 00:09:30-00:23:30 (Abd al-Fattah Abu Zayd, Ahmad Makhluf, Mahmud, Muhammad Nayil, Mahmud Hamaya, Jamal Abd al-Aziz, Abd al-Hamid Farmawi); the source that would settle it is an interview or biography of Omar Abdelkafy.
 GEMINI: ep41, the report of a devout man who missed no first takbir for fifty years, which the transcript gives to Sa'id ibn al-Musayyib or al-Bukhari at 00:36:30-00:37:30; the source that would settle it is the biographical dictionaries (Siyar a'lam al-nubala').
 GEMINI: ep41, whether the verses ending the episode (at 00:58:00-00:58:30, a servant admitting sin and taking refuge in God's pardon) are by Abu Nuwas as the host says; the source that would settle it is the diwan of Abu Nuwas.
+
+### sharh-saheeh-al-bukhare ep50 (14 Nov 2026)
+
+27 points written for episode 50 (ar, en, ur); 24 needs_source marks in each language file for this episode; 10 new `about` edges. Quran verses referenced only through passage links (2-245, 28-68); none typed. Contested: His workplace advice on dealings between colleagues of different sexes, his reading of the Companions' ranks, and his applications of stories (Khalid at the river, the donkeys, paradise barred to the disobedient) are his own views, as are the troop and casualty figures he gives without a source. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep50) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greetings, long supplication and repeated dhikr loop | ep50 00:00:00-00:04:30 | greetings, prayer and a loop of repeated words | Clarity, Loop check | Open |
+| Closing advice to trust God and final greeting | ep50 01:14:30-01:15:00 | closing prayer and greeting | Clarity | Open |
+| Wife-and-relative remark about being sent to hell, and the poem of the angel at the gate of heaven with the man who died in a plane, at sea and over a rose | ep50 00:10:30-00:11:00 and 00:17:30-00:21:30 | story and verse too garbled in both passes to restate without invention | Clarity | Open |
+| Remarks on the Muslims of India and Hindus, with casualty claims | ep50 00:56:00-00:57:30 | sweeping claim about a modern conflict between communities | Content rule | Open |
+| Remarks on earthquakes, seismic waves and the earth's orbit | ep50 00:57:30-00:58:30 | garbled and not clearly supported by both passes | Clarity | Open |
+| The joke about a groom, a salary and seven children | ep50 00:52:00-00:52:30 | garbled anecdote, only its moral kept | Clarity | Open |
+| Names of the Companion who ate the poisoned sheep, the Jewish woman, and the scout commander | ep50 00:47:30-00:48:00 and 00:59:30-01:02:00 | names rest on single garbled words | Clarity | Open |
+| Loops and repeated-syllable stretches | ep50 00:03:30-00:04:00, 00:05:30, 00:07:00, 00:09:30, 00:10:00, 00:11:00, 00:14:30, 00:17:30-00:18:00, 00:20:00-00:20:30, 00:21:00, 00:23:00, 00:55:00-00:56:00, 01:01:30, 01:04:30, 01:07:30, 01:11:30 | repeated tokens or syllables in the first pass | Loop check | Open |
+| Hunger of the tribe of Aslam, the Prophet and Umar's women-in-the-house exchange | ep50 00:30:30-00:31:00 and 01:11:00-01:11:30 | garbled in both passes | Clarity | Open |
+| Second ASR pass: Whisper large-v3 (mlx) run on the Mac to resolve garbled words of the Qwen transcript; cites use the shared 30-second grid | ep50 whole | Qwen pass garbled | Clarity | Open |
+| The number of parts of the book Relief after Hardship | ep50 00:53:30 | number rests on one garbled phrase in one pass | Clarity | Open |
+| The animal Abu Jahl said he saw behind the Prophet | ep50 01:14:30 | garbled in both passes | Clarity | Open |
+| The list of what God chooses the time of (illness and wealth) and the exact contrast in the point on mutual dealing | ep50 00:55:30 and 01:04:30 | garbled or different in the two passes | Clarity | Open |
+| Description of the dabbaba as a covered wheeled ram, and the reason people change in the Muhammad ibn Maslama passage | ep50 00:38:30 and 00:41:00 | not stated clearly in either pass | Clarity | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 51 (branch from origin/main).
+GEMINI: ep50, who is the author of the book Relief after Hardship (al-Faraj ba'd al-shidda) in five parts that he recommends, he names an author in garbled form (al-Sulukiyy / al-Suluk) in both passes, a library catalogue entry or the book's printed title page
+GEMINI: ep50, which scout commander confirmed the Jewish informant's claim about the water of the fort, the second pass has a name that may be Sa'd ibn Abi Waqqas but the first pass has only a garbled word, a primary Sira source (Ibn Ishaq or al-Waqidi) on the fort of Khaybar's water
+GEMINI: ep50, the name of the Companion who ate the poisoned sheep and the name of the Jewish woman, both passes garble them (Abdallah ibn Abi Salama / al-Jabi; Zaynab appears in a garbled stretch), the Sahih and Sira accounts of the poisoned sheep at Khaybar
+GEMINI: ep50, the name of the Qurayshi orator and chief negotiator whom Umar wished to silence, the first pass has Said ibn Amir and the second Suhayl and ibn Amr in garbled form, a Sira source on the captives of Badr and the speech in Mecca after the Prophet's death
+GEMINI: ep50, which great expedition the Prophet began preparing for after Khaybar, the first pass says Nabk or Tabuk and the second says the opening of Mecca, both garbled, the episode's closing remark and a Sira chronology
+GEMINI: ep50, what Abu Jahl said he saw behind the Prophet when he paid the Qurayshi man for his camel, both passes garble it, the Sira of Ibn Ishaq on Abu Jahl and the man of Irash
