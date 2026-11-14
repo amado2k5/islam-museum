@@ -18,5 +18,6 @@ relations:
   - { type: sibling_of, target: person/ibrahim-ibn-al-mahdi, sources: [source/alam-al-nisa-kahhala-risala-1984-v3] }
   - { type: lived_in, target: place/baghdad, sources: [source/alam-al-nisa-kahhala-risala-1984-v3] }
 provenance: { layer: own-research, source: "source/alam-al-nisa-kahhala-risala-1984-v3 PDF pp. 338–346", generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04 }
-sources: [source/alam-al-nisa-kahhala-risala-1984-v3]
+external_ids: { openiti: "0210CulayyaBintMahdi" }
+sources: [source/alam-al-nisa-kahhala-risala-1984-v3, source/openiti-corpus]
 status: { review: published, completeness: 3 }

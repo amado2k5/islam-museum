@@ -6,23 +6,23 @@ label:
 roles: [historian, scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لعبد الباسط بن خليل الملطي، مؤرخ وفقيه القرن السادس عشر صاحب «نيل الآمال في ذيل الدول»، توفي سنة ١٥١٤م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abd al-Basit ibn Khalil al-Malati, the sixteenth-century historian and jurist author of Nayl al-Amal, d. 1514; the source entry is not yet checked on the page."
+  ar: "عبد الباسط بن خليل بن شاهين الملطي، فاضل عارف بالتاريخ، صاحب «نيل الأمل» ذيلاً على تاريخ الذهبي، ينتهي عند سنة ٨٩٦هـ."
+  en: "Abd al-Basit ibn Khalil ibn Shahin al-Malati, a learned man versed in history, author of Nayl al-Amal, a continuation of al-Dhahabi's history that ends in 896 AH."
 wings: [people]
 regions: [egypt-nile]
 periods: [period/gunpowder-empires]
-sources: [source/shadharat-dhahab]
+sources: [source/shadharat-dhahab, source/alam-zirikli-1927-v2]
 external_ids:
   wikidata: Q25451581
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: Ibn al-Imad, Shadharat al-Dhahab — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0069
+  source: "al-Zirikli, al-A'lam, vol. 2, first edition 1927 (source/alam-zirikli-1927-v2), entry read in full on the scanned pages (PDF page cited); the entry is brief, so only what it states is written"
+  generated_by: "Claude Code (Lane B2, web-source and Shamela enrichment)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 born: { edtf: "1440", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Daw' al-Lami (al-Sakhawi: 844–920 AH) Confirmed on 13 November 2026 against Wikidata Q25451581 (P569, a statement with a reference), item revision 2533217211.", sources: [source/wikidata] }
 died: { edtf: "1514", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Daw' al-Lami (al-Sakhawi: 844–920 AH) Confirmed on 13 November 2026 against Wikidata Q25451581 (P570, a statement with a reference), item revision 2533217211.", sources: [source/wikidata] }
 relations:

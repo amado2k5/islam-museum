@@ -20,7 +20,8 @@ faith:
 relations:
   - { type: died_in, target: place/cairo, sources: [source/shadharat-dhahab] }
   - { type: lived_in, target: place/mecca, sources: [source/shadharat-dhahab] }
-sources: [source/shadharat-dhahab]
+external_ids: { openiti: "0632SharafDinIbnFarid" }
+sources: [source/shadharat-dhahab, source/openiti-corpus]
 status:
   review: published
   completeness: 3

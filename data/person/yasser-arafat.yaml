@@ -41,12 +41,13 @@ relations:
   - { type: lived_in, target: place/gaza, sources: [source/wikipedia-yasser-arafat-en] }
 wings: [people]
 regions: [levant-iraq]
-external_ids: { wikidata: "Q34211" }
+external_ids: { wikidata: "Q34211", viaf: "112863535" }
 sources:
   - source/wikipedia-yasser-arafat-en
   - source/wikipedia-yasser-arafat-ar
   - source/wikipedia-yasser-arafat-ur
   - source/wikidata-yasser-arafat
+  - source/wikidata
 provenance:
   layer: own-research
   source: "Wikipedia articles on Yasser Arafat in English (revision 1372821372 of 2 Sep 2026), Arabic (revision 76839700 of 3 Oct 2026) and Urdu (revision 12069332 of 30 Sep 2026) and the Wikidata item Q34211 (item revision 2560285363 of 24 Oct 2026, read twice with identical results), each fetched by its recorded revision id via the MediaWiki API and asserted equal to it (27 October 2026). The QID was grounded through the English article's own page property. Existence checked both directions before writing: name fragments in English, Arabic and Urdu scripts across data/person/, the QID grepped across all of data/person/, biographical comparison, and candidate records' provenance — no prior record of the man existed. Neither Fatah nor the PLO has a group entity in the museum, so no founder_of or member_of edge is written; his wife Suha has no museum record, so no spouse_of edge is written. The succession edge from his successor is written in that successor's record (person/mahmoud-abbas, this same run), scoped to the PLO chairmanship there."

@@ -1,0 +1,53 @@
+id: event/al-hadi-at-batnat-hujur-al-hisn-and-athafit-285
+class: event
+kind: other
+label:
+  ar: الهادي في بطنة حجور والحصن وأثافت بعد خيوان، شعبان 285هـ
+  en: Al-Hadi at Batnat Hujur, al-Hisn and Athafit after Khiwan, Sha'ban 285 AH
+  ur: خیوان کے بعد بطنۃ حجور، الحصن اور اثافت میں ہادی، شعبان 285ھ
+summary:
+  ar: خرج الهادي من خيوان إلى بطنة حجور بعد أن وصله أهلها وبايعوه، ونزل على بركة «الظهرية» ثم دخل البلد قبل الظهر يوم السبت ورفض عرض العلف، وخلّف فيها والياً من ولد عمر بن علي، ثم مضى إلى «الحصن» لبني ربيعة من همدان وطلب إليهم «المحدثين» الذين اعتدوا على أهل بطنة حجور، وسار إلى أثافت فصلى بها الجمعة وبايعه خلق كثير.
+  en: Al-Hadi left Khiwan for Batnat Hujur, whose people had come and pledged to him; he camped by the pond called al-Zahriyya, entered the town before noon on Saturday and refused the offered fodder, left a governor of the line of Umar ibn Ali there, then went to al-Hisn of Banu Rabi'a of Hamdan and demanded the "offenders" who had raided people of Batnat Hujur, and went on to Athafit where he led the Friday prayer and many pledged.
+  ur: ہادی خیوان سے بطنۃ حجور گئے جس کے لوگ آ کر بیعت کر چکے تھے؛ «الظہریہ» نامی حوض پر ٹھہرے، ہفتے کو ظہر سے پہلے شہر میں داخل ہوئے اور چارے کی پیشکش رد کی، عمر بن علی کی اولاد کا ایک والی وہاں چھوڑا، پھر ہمدان کے بنو ربیعہ کے «الحصن» گئے اور ان «مجرموں» کو طلب کیا جنہوں نے بطنۃ حجور والوں پر چھاپہ مارا تھا، اور اثافت گئے جہاں جمعہ پڑھایا اور بہت سے لوگوں نے بیعت کی۔
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: 0898-09
+    hijri: 0285-08
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: بعد إقامة الهادي بخيوان إلى ثلاث وعشرين من شعبان سنة 285هـ؛ الشهر فقط بحسب السياق؛ التحويل مشتق
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/athafit
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: related_to
+  target: place/khiwan
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص92-93 ⁦(الصفحة المطبوعة)⁩'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-12
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 92-93

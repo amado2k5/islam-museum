@@ -39,8 +39,8 @@ relations:
   - { type: successor_of, target: person/idris-senussi, sources: [source/wikipedia-muammar-gaddafi-en, source/wikipedia-muammar-gaddafi-ar] }
 
   - { type: born_in, target: place/misrata, confidence: low, note: "Place named in the record's date note; the specific connection is as stated there.", sources: [source/wikipedia-muammar-gaddafi-en, source/wikipedia-muammar-gaddafi-ar, source/wikipedia-muammar-gaddafi-ur, source/wikidata-muammar-gaddafi] }
-external_ids: { wikidata: "Q19878" }
-sources: [source/wikipedia-muammar-gaddafi-en, source/wikipedia-muammar-gaddafi-ar, source/wikipedia-muammar-gaddafi-ur, source/wikidata-muammar-gaddafi]
+external_ids: { wikidata: "Q19878", viaf: "22147434" }
+sources: [source/wikipedia-muammar-gaddafi-en, source/wikipedia-muammar-gaddafi-ar, source/wikipedia-muammar-gaddafi-ur, source/wikidata-muammar-gaddafi, source/wikidata]
 provenance:
   layer: own-research
   source: "English, Arabic and Urdu Wikipedia articles on Muammar Gaddafi, each fetched by its recorded revision id (EN 1381986370, AR 77075152, UR 9653732) with the returned id asserted equal before use, and Wikidata item Q19878 (revision 2560035785, read twice with identical revisions), the QID grounded through the English article's pageprops. Existence checks by Latin and Arabic name fragments (Gaddafi, Qaddafi, القذافي), by grounded QID across data/person, and by biography found no prior record. The successor_of edge to Idris of Libya (record person/idris-senussi, which already exists from an earlier run) is scoped to the headship of state: the English infobox names Idris I (as King of Libya) as his predecessor in the chairmanship of the Revolutionary Command Council from 1 September 1969, and the Arabic lead states he rose to power in a military coup that deposed King Idris. A coup is not a constitutional succession, and the edge records only that he took the headship of state from Idris. No ruler_of edge is written: no modern Libya polity entity exists."

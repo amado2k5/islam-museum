@@ -1,0 +1,57 @@
+id: event/al-hadi-second-march-to-najran-and-the-hunaysh-affair-285
+class: event
+kind: other
+label:
+  ar: خروج الهادي إلى نجران المرة الثانية بعد نهب مال عماله على يد حنيش الوادعي، جمادى الأولى 285هـ
+  en: Al-Hadi's second march to Najran after Hunaysh al-Wadi'i seized his agents' money, Jumada I 285 AH
+  ur: ہادی کا نجران کی طرف دوسرا سفر جب حنیش وادعی نے ان کے کارندوں کا مال لوٹا، جمادی الاولیٰ 285ھ
+summary:
+  ar: خرج عمال للهادي من نجران ومعهم مال نحو ألف دينار فتبعهم حنيش من وادعة في جماعة من عشيرته في موضع الركب، وأخذوا المال وقتلوا رجلاً، فسار الهادي إلى نجران يوم الاثنين 12 جمادى الأولى 285هـ ونزل شوكان قرية حنيش، ولما أبى رد المال أمر بقطع نخله وأعنابه وهدم منزله، ثم يروي الراوي موت حنيش بعد يومين من طعنة في يده.
+  en: Al-Hadi's agents leaving Najran with about a thousand dinars were followed at a place called al-Rakb by Hunaysh of Wadi'a with a band of his clan, who took the money and killed a man; on Monday 12 Jumada I 285 AH al-Hadi marched to Najran and camped at Shawkan, Hunaysh's village, and when he refused to return the money ordered his palms and vines cut and his house pulled down; the narrator then relates Hunaysh's death two days later of a stab wound in the hand.
+  ur: نجران سے نکلتے ہادی کے کارندے، جن کے پاس تقریباً ہزار دینار تھے، «الرکب» نامی جگہ پر وادعہ کے حنیش اور اس کے قبیلے کی جماعت کے پیچھا کرنے پر لٹ گئے اور ایک آدمی قتل ہوا؛ ہادی پیر 12 جمادی الاولیٰ 285ھ کو نجران روانہ ہوئے اور حنیش کی بستی شوکان میں اترے، اور جب اس نے مال لوٹانے سے انکار کیا تو اس کے کھجور اور انگور کاٹنے اور گھر گرانے کا حکم دیا؛ پھر راوی بتاتا ہے کہ حنیش دو دن بعد ہاتھ کے زخم سے مر گیا۔
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: '0898-06-06'
+    hijri: '0285-05-12'
+    calendar: julian
+    precision: day
+    status: tradition
+    derived: true
+    note: يوم الاثنين الثاني عشر من جمادى الأولى سنة 285هـ بنص الكتاب؛ التحويل مشتق من التقويم الجدولي والنص يخالفه بيوم في اليوم الأسبوعي
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/najran
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/hunaysh-al-wadii
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: related_to
+  target: group/wadia-tribe-yemen
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص89-91 ⁦(الصفحة المطبوعة)⁩'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-11
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 89-91

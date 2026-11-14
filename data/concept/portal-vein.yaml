@@ -1,0 +1,18 @@
+id: concept/portal-vein
+class: concept
+kind: scientific
+label: { ar: "الوريد الباب عند ابن سينا", en: "The portal vein in the Canon", ur: "قانون میں باب کی رگ" }
+summary:
+  ar: "في الفصل الثاني من جملة الأوردة يصف ابن سينا الباب، فينقسم طرفه الغائر في الكبد خمسة أقسام، وينقسم طرفه عند التقعير ثمانية أقسام، اثنان صغيران وستة أعظم تغذو المعدة والطحال والثرب والأمعاء {cite:canon-ibn-sina-print-v1 pp.87-88}."
+  en: "In the second chapter on the veins Ibn Sina describes the gate vein: its end sunk in the liver divides in five, its end at the concavity divides in eight, two small and six larger, which feed the stomach, spleen, omentum and intestines {cite:canon-ibn-sina-print-v1 pp.87-88}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/veins, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 1, on nerves and vessels (scan pages 82 to 90), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-vessels-1
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

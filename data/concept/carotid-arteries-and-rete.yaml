@@ -1,0 +1,18 @@
+id: concept/carotid-arteries-and-rete
+class: concept
+kind: scientific
+label: { ar: "الشريانان السباتيان والشبكة عند ابن سينا", en: "The two carotid arteries and the net in the Canon", ur: "قانون میں دو سباتی شریانیں اور شبکہ" }
+summary:
+  ar: "في الفصل الرابع يصف ابن سينا انقسام كل من السباتيين عند انتهائه إلى الرقبة إلى مقدم ومؤخر، وكيف ينسج المؤخر الأكبر شبكة من العروق تحت الدماغ ثم ترتقي منها شعب إلى بطون الدماغ {cite:canon-ibn-sina-print-v1 pp.85-86}."
+  en: "In the fourth chapter Ibn Sina describes how each carotid divides, at its end in the neck, into front and back parts, and how the larger back part weaves a net of vessels under the brain from which branches then rise to the ventricles {cite:canon-ibn-sina-print-v1 pp.85-86}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/arteries, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 1, on nerves and vessels (scan pages 82 to 90), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-vessels-1
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }
