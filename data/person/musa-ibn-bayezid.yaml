@@ -13,6 +13,7 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/mongol-post-mongol]
+born: { edtf: "1388", calendar: gregorian, precision: year, status: historical, note: "Birth year as given by Wikidata item Q1095287 at the recorded revision; no other source on this card gives a birth date.", sources: [source/wikidata-musa-ibn-bayezid] }
 died: { edtf: "1413", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Musa Celebi); TDV Islam Ansiklopedisi" }
 relations:
   - { type: traveled_to, target: place/ankara, sources: [source/dawlat-uthmaniyya-salabi] }
@@ -22,7 +23,8 @@ relations:
   - { type: sibling_of, target: person/muhammad-i-jalabi, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: participated_in, target: event/fetret-interregnum, role: "المتنازع في الروملي", sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: related_to, target: person/badr-al-din-simawi, role: "قاضي عسكره", sources: [source/dawlat-uthmaniyya-salabi] }
-sources: [source/dawlat-uthmaniyya-salabi]
+external_ids: { wikidata: "Q1095287" }
+sources: [source/dawlat-uthmaniyya-salabi, source/wikidata-musa-ibn-bayezid]
 provenance:
   layer: own-research
   source: "الدولة العثمانية لعلي محمد الصلابي، ص 70–74"

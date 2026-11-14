@@ -3,30 +3,33 @@ class: person
 label:
   ar: "أبو الحسين ابن الجزار"
   en: "Yahya ibn Abd al-Azim al-Jazzar"
+names:
+  - { kind: full, lang: ar, value: "يحيى بن عبد العظيم بن يحيى بن محمد، أبو الحسين الجزار، جمال الدين" }
 roles: [poet]
 gender: male
 summary:
-  ar: "بطاقة أولية لأبي الحسين يحيى ابن الجزار، شاعر مصر القرن الثالث عشر، توفي سنة ١٢٨٠م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abu al-Husayn Yahya ibn al-Jazzar, the thirteenth-century Egyptian poet, d. 1280; the biographical entry is not yet checked on the page."
+  ar: "يحيى بن عبد العظيم بن يحيى بن محمد، أبو الحسين الجزار، جمال الدين، شاعر مصري ظريف كان جزارا بالفسطاط وأقبل على الأدب فمدح السلاطين والملوك وعاش على جوائزهم، وكان من أصدقاء ابن سعيد صاحب «المغرب في حلى المغرب»، ومن آثاره «العقود الدرية في الأمراء المصرية» و«فوائد الموائد» وديوان شعر {cite:alam-zirikli-dar-al-ilm-2002 vol. 8 p. 153}."
+  en: "Yahya ibn Abd al-Azim ibn Yahya ibn Muhammad, Abu al-Husayn al-Jazzar, Jamal al-Din, a witty Egyptian poet who was a butcher in al-Fustat, turned to letters, praised sultans and kings and lived on their rewards, and was a friend of Ibn Sa'id, author of al-Mughrib fi Hula al-Maghrib; his works include al-Uqud al-Durriyya fi al-Umara' al-Misriyya, Fawa'id al-Mawa'id and a diwan of verse {cite:alam-zirikli-dar-al-ilm-2002 vol. 8 p. 153}."
 wings: [people]
 regions: [egypt-nile]
 periods: [period/crusades-ayyubid-mamluk]
-born: { edtf: "1205", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Fawat al-Wafayat (al-Kutubi) Confirmed on 13 November 2026 against Wikidata Q22928507 (P569, a statement with a reference), item revision 2557124746.", sources: [source/wikidata] }
-died: { edtf: "1281", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Fawat al-Wafayat (al-Kutubi) Confirmed on 13 November 2026 against Wikidata Q22928507 (P570, a statement with a reference), item revision 2557124746.", sources: [source/wikidata] }
+born: { edtf: "1205", hijri: "0601", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Fawat al-Wafayat (al-Kutubi) Confirmed on 13 November 2026 against Wikidata Q22928507 (P569, a statement with a reference), item revision 2557124746. al-Zirikli, al-A'lam, vol. 8 p. 153, prints 601 AH and gives it as 1204 CE; 601 AH runs from August 1204 to July 1205 CE, so the card year 1205 is kept.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
+died: { edtf: "1281", hijri: "0679", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Fawat al-Wafayat (al-Kutubi) Confirmed on 13 November 2026 against Wikidata Q22928507 (P570, a statement with a reference), item revision 2557124746. al-Zirikli, vol. 8 p. 153, prints 679 AH and gives it as 1280 CE; 679 AH runs from April 1280 to March 1281 CE, so the card year 1281 is kept.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
 relations:
-  - { type: born_in, target: place/al-fustat, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q839456)" }
+  - { type: born_in, target: place/al-fustat, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q839456); al-Zirikli, vol. 8 p. 153, says only that he was a butcher at al-Fustat" }
   - { type: died_in, target: place/cairo, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q85)" }
   - { type: buried_in, target: place/city-of-the-dead, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q2066414)" }
-sources: [source/al-aalam, source/wikidata]
+  - { type: lived_in, target: place/al-fustat, confidence: high, note: "al-Zirikli, al-A'lam, vol. 8 p. 153: he was a butcher at al-Fustat, as was his father and some of his relatives", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q22928507
   viaf: "90045377"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0054
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, vol. 8 p. 153, entry read in full from the local OpenITI text; Wikidata Q22928507"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3

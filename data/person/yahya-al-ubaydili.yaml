@@ -3,27 +3,30 @@ class: person
 label:
   ar: "يحيى العبيدلي"
   en: "Yahya al-Ubaydili"
+names:
+  - { kind: full, lang: ar, value: "يحيى بن الحسن بن جعفر الحجة بن عبيد الله الأعرج، أبو الحسين العبيدلي العقيقي" }
 roles: [historian, writer]
 gender: male
 summary:
-  ar: "بطاقة أولية ليحيى العبيدلي، المؤرخ والكاتب الحجازي، توفي سنة ٨٩٠م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Yahya al-Ubaydili, the Hejazi historian and writer, d. 890; the biographical entry is not yet checked on the page."
+  ar: "يحيى بن الحسن بن جعفر الحجة بن عبيد الله الأعرج بن الحسين الأصغر بن زين العابدين، أبو الحسين العبيدلي العقيقي، نسابة مؤرخ من أهل المدينة ولد بها وتوفي بمكة، ويقال إنه أول من صنف أنساب الطالبيين، من كتبه «أخبار المدينة» و«أنساب آل أبي طالب»، 214 إلى 277 هـ {cite:alam-zirikli-dar-al-ilm-2002 vol. 8 pp. 140-141}."
+  en: "Yahya ibn al-Hasan ibn Ja'far al-Hujja ibn Ubayd Allah al-A'raj ibn al-Husayn al-Asghar ibn Zayn al-Abidin, Abu al-Husayn al-Ubaydili al-Aqiqi, a genealogist and historian of Medina, born there and died at Mecca, said to be the first to compose genealogies of the Talibids; his books include Akhbar al-Madina and Ansab Al Abi Talib; 214 to 277 AH (829 to 890 CE) {cite:alam-zirikli-dar-al-ilm-2002 vol. 8 pp. 140-141}."
 wings: [people]
 regions: [arabia]
 periods: [period/abbasid-fragmentation]
-died: { edtf: "890", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam; Tarikh Baghdad" }
+born: { edtf: "829", hijri: "0214", calendar: gregorian, precision: year, derived: true, note: "al-Zirikli, al-A'lam, vol. 8 pp. 140-141, prints 214 AH = 829 CE.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+died: { edtf: "890", hijri: "0277", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam; Tarikh Baghdad. al-Zirikli, vol. 8 pp. 140-141, prints 277 AH = 890 CE, agreeing with the card.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
-  - { type: born_in, target: place/medina, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q35484)" }
-  - { type: died_in, target: place/mecca, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q5806)" }
-sources: [source/al-aalam]
+  - { type: born_in, target: place/medina, sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002], confidence: high, note: "Wikidata P19 place of birth (Wikidata Q35484); al-Zirikli, vol. 8 pp. 140-141: from the people of Medina, born there" }
+  - { type: died_in, target: place/mecca, sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002], confidence: high, note: "Wikidata P20 place of death (Wikidata Q5806); al-Zirikli, vol. 8 pp. 140-141: he died at Mecca" }
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q22690798
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0082
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, vol. 8 pp. 140-141, entry read in full from the local OpenITI text; Wikidata Q22690798"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3

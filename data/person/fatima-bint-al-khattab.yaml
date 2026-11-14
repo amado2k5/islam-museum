@@ -33,7 +33,8 @@ relations:
   - { type: spouse_of, target: person/said-ibn-zayd }
   - { type: participated_in, target: event/al-dawa-al-sirriyya, role: "من أوائل المسلمات", sources: [source/mubarakpuri-raheeq] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-sira]}
-sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/nisa-hawl-alrasul]
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/nisa-hawl-alrasul, source/wikidata-fatima-bint-al-khattab]
+external_ids: { wikidata: "Q5437877" }
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum p. 76; Nisa' Hawl al-Rasul pp. 265-272 added by Devin (SWE-2 High), lib-nisa-hawl-rasul" }
 provenance:
   layer: own-research

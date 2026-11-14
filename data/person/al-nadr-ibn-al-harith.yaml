@@ -29,7 +29,8 @@ relations:
   - { type: member_of, target: group/quraysh }
   - { type: persecuted, target: person/muhammad, start: { edtf: "0613~" }, end: { edtf: "0622" }, note: "Among those who harassed and mocked the Prophet in the Meccan years.", sources: [source/ibn-sad-tabaqat-bewley] }
   - { type: participated_in, target: event/battle-of-badr, role: meccan-side, sources: [source/ibn-ishaq-guillaume] }
-sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley]
+sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley, source/wikidata-al-nadr-ibn-al-harith]
+external_ids: { wikidata: "Q6399717" }
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }
 
 provenance:

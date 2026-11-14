@@ -3,26 +3,31 @@ class: person
 label:
   ar: "زكريا الساجي"
   en: "Zakariyya al-Saji"
-roles: [scholar]
+names:
+  - { kind: full, lang: ar, value: "زكريا بن يحيى بن عبد الرحمن بن محمد بن عدي الضبي البصري الساجي، أبو يحيى" }
+roles: [scholar, jurist]
 gender: male
 summary:
-  ar: "بطاقة أولية لزكريا الساجي، من ثقات المحدثين؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Zakariyya al-Saji, a trustworthy hadith transmitter; his entry is not yet checked on the page."
+  ar: "زكريا بن يحيى بن عبد الرحمن بن محمد بن عدي الضبي البصري الساجي، أبو يحيى، محدث البصرة في عصره وحافظ ثقة، له كتاب في «علل الحديث» وكتاب «اختلاف الفقهاء»، وتوفي بالبصرة سنة 307 هـ، 220 إلى 307 هـ عند الزركلي {cite:alam-zirikli-dar-al-ilm-2002 vol. 3 pp. 46-47} {cite:shadharat-dhahab vol. 4 p. 36} {cite:wafi-bi-l-wafayat-safadi-dar-ihya-2000 vol. 14 pp. 136-137}."
+  en: "Zakariyya ibn Yahya ibn Abd al-Rahman ibn Muhammad ibn Adi al-Dabbi al-Basri al-Saji, Abu Yahya, the hadith scholar of Basra in his time, a trusted hafiz, author of a book on the defects of hadith (Ilal al-Hadith) and of Ikhtilaf al-Fuqaha'; he died at Basra in 307 AH (920 CE), and al-Zirikli prints his years as 220 to 307 AH {cite:alam-zirikli-dar-al-ilm-2002 vol. 3 pp. 46-47} {cite:shadharat-dhahab vol. 4 p. 36} {cite:wafi-bi-l-wafayat-safadi-dar-ihya-2000 vol. 14 pp. 136-137}."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
-sources: [source/al-aalam]
-died: { edtf: "920", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala (al-Dhahabi) Confirmed on 13 November 2026 against Wikidata Q12214486 (P570, a statement with a reference), item revision 2411565940.", sources: [source/wikidata] }
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002, source/shadharat-dhahab, source/wafi-bi-l-wafayat-safadi-dar-ihya-2000]
+born: { edtf: "835", hijri: "0220", calendar: gregorian, precision: year, derived: true, note: "al-Zirikli, al-A'lam, vol. 3 pp. 46-47, prints 220 AH = 835 CE.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+died: { edtf: "920", hijri: "0307", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala (al-Dhahabi) Confirmed on 13 November 2026 against Wikidata Q12214486 (P570, a statement with a reference), item revision 2411565940. al-Zirikli, vol. 3 pp. 46-47, prints 307 AH = 920 CE; Ibn al-Imad, vol. 4 p. 36, and al-Safadi, vol. 14 pp. 136-137, also give 307 AH.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002, source/shadharat-dhahab, source/wafi-bi-l-wafayat-safadi-dar-ihya-2000] }
 relations:
-  - { type: lived_in, target: place/basra, confidence: low, note: "Al-Saji, poet of the Basran milieu (al-A'lam; regions: levant-iraq).", sources: [source/al-aalam] }
+  - { type: lived_in, target: place/basra, confidence: high, note: "al-Zirikli, vol. 3 pp. 46-47: al-Basri, muhaddith of Basra; Ibn al-Imad, vol. 4 p. 36: muhaddith of Basra", sources: [source/alam-zirikli-dar-al-ilm-2002, source/shadharat-dhahab] }
+  - { type: died_in, target: place/basra, confidence: high, note: "al-Zirikli, vol. 3 pp. 46-47, and Ibn al-Imad, vol. 4 p. 36: he died at Basra", sources: [source/alam-zirikli-dar-al-ilm-2002, source/shadharat-dhahab] }
+  - { type: student_of, target: person/al-muzani, confidence: medium, note: "Ibn al-Imad, vol. 4 p. 36, quoting al-Isnawi, who reports from Abu Ishaq al-Shirazi's Tabaqat that he took jurisprudence from al-Rabi' and al-Muzani; the word fiqh is an editors' insertion", sources: [source/shadharat-dhahab] }
 external_ids:
   wikidata: "Q12214486"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Zirikli, al-A'lam, vol. 3 pp. 46-47; Ibn al-Imad, Shadharat al-Dhahab, vol. 4 p. 36; al-Safadi, al-Wafi bi-l-Wafayat, vol. 14 pp. 136-137, entries read in full from the local texts; Wikidata Q12214486"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3

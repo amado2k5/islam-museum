@@ -61,8 +61,30 @@ GEMINI: raw/library/tafsir-app and the fatwa catalogue JSON files: not books; le
 GEMINI: web-hadithunlocked: licence of hadithunlocked.com and which of the 17 failed hadith files were retried; what the manifest and drive show: 44 ok, 17 failed, no licence page recorded; the site's own terms page would settle it.
 GEMINI: web-princeton-geniza: the Zenodo record URL of the metadata zip pgp-metadata-v1.2.zip; what the drive shows: folder name pgp-zenodo-22663982 only; the Zenodo record page would settle it.
 
+GEMINI: durus-fatawa-haramayn: title, author and publisher were read from garbled Apple Vision OCR of the title page (al-'Uthaymin, Mu'assasat al-Shaykh al-'Uthaymin al-Khayriyya); the printed title page or the archive.org item FP171023 metadata would settle them.
+GEMINI: permanent-committee-fatwas: compiler read from garbled OCR as Ahmad ibn Abd al-Razzaq al-Duwaish, edition and publisher unknown; archive.org item FP124536 metadata would settle them.
+GEMINI: taqrib-fatawa-ibn-taymiyya: editor (Muhammad ibn Nasir al-Tayyar) and publisher (Dar Ibn al-Jawzi, 1440 AH) read from OCR of the title page; archive.org item tfrsitFP metadata would settle them.
+GEMINI: vhmml-listing-data and papyri-idp-hgv-sparse-clone (datasets): the web-sources ledger says the vHMML CSV (raw/vhmml/) and the idp.data sparse clone (raw/papyri-idp/) were saved under the harvest root on 14 Nov 2026, but neither folder exists on the drive. Were they saved in another worker's clone, or deleted?
+GEMINI: hadith-json-v1-2-0 (datasets): the exact GitHub URL and licence of the v1.2.0 release are not recorded anywhere; the inventory names AhmedBaset/hadith-json only.
+GEMINI: princeton-geniza-pgp-metadata-v1-2 (datasets): the Zenodo record URL for deposit 22663982 and its licence line are not recorded in a ledger.
+
 ## Wrap-up queue
-(Maintained from the register: every partly mined or nearly complete book, ranked by share of pages
-mined, highest first, with what remains: pages left, held pages, OCR gaps, zip needed, and whether a
-founder-held item blocks it. Filled after the book segment merges. Founder rule, 14 November 2026:
-finish and clean up partly done books before starting new ones.)
+Founder rule, 14 November 2026: finish and clean up partly done books before starting new ones.
+Ranked by share mined, highest first (first pass from the books segment, 14 November 2026; refresh
+from the register). "Active" means another worker is mining it: skip until they finish. Every book
+below also needs its OCR zip verified before any deletion.
+
+| # | Book id | Share mined | Remaining | Blocked or active |
+|---|---|---|---|---|
+| 1 | futuh-buldan | text 100 percent (pp. 1-665 of 768, rest is the index) | OCR zip | no |
+| 2 | muruj-dhahab, shadharat-dhahab, tarikh-khulafa, jami-ulum-hikam, nisa-hawl-rasul | about 100 percent per ledgers | OCR zip; nisa-hawl-rasul has no PR recorded | no |
+| 3 | kamil-tarikh | essentially complete per ledger | OCR zip; no source id or PR found | no |
+| 4 | sira-hadi-ila-al-haqq | about 62 percent (printed pp. 1-285 of 461) | pp. 286 to end | ACTIVE; tax-ruling concepts held |
+| 5 | ibn-haytham-manazir | about 66 percent | scan pp. 372-533 | founder-held pp. 532, 546, 666 |
+| 6 | canon-ibn-sina-print-v1 (v2, v3) | about 41 percent | Book II onward, v2, v3 | ACTIVE |
+| 7 | zij-sabi-harrani | unknown | revision pass | ACTIVE |
+| 8 | tabaqat-fuqaha | about 10 percent | PDF p. 64 onward | no |
+| 9 | fiqh-mawsua-kuwaitiyya | about 8 percent | the rest | no |
+| 10 | hilyat-awliya | volume 10 to printed p. 689 | ruling on queue vs next volume | held pp. 532, 546, 666 |
+| 11 | tafsir-tabari-shakir | volume 1 complete | later volumes | no |
+

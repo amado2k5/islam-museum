@@ -22,7 +22,9 @@ provenance:
   source: "تاريخ الخلفاء للسيوطي ⁦(ط المنهاج 1434هـ/2013م)⁩ ص 666–675"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-tarikh-khulafa-batch-41
-sources: [source/tarikh-khulafa-minhaj-1434, source/shadharat-dhahab]
+external_ids: { wikidata: "Q285947" }
+born: { edtf: "1149", calendar: gregorian, precision: year, status: tradition, derived: true, note: "From Wikidata Q285947 (source/wikidata-al-faiz-fatimid): born 31 May 1149 at day precision, entered here at year precision; Hijri conversion not entered.", sources: [source/wikidata-al-faiz-fatimid] }
+sources: [source/tarikh-khulafa-minhaj-1434, source/shadharat-dhahab, source/wikidata-al-faiz-fatimid]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
 relations:
   - { type: ruled_over, target: polity/fatimid-caliphate, sources: [source/khitat-maqrizi-1998, source/encyclopaedia-of-islam-2] }
