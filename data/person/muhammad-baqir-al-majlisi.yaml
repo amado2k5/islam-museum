@@ -14,12 +14,12 @@ periods: [period/gunpowder-empires]
 faith:
 - { value: shia-twelver, basis: tradition, note: "Safavid Imami scholar and shaykh al-islam per the biographical tradition" }
 born: { edtf: "1627", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Iranica Confirmed on 13 November 2026 against Wikidata Q755939 (P569, a statement with a reference), item revision 2565556491.", sources: [source/wikidata] }
-died: { edtf: "1699", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Iranica Confirmed on 13 November 2026 against Wikidata Q755939 (P570, a statement with a reference), item revision 2565556491.", sources: [source/wikidata] }
+died: { edtf: "1699", hijri: "1110", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Iranica Confirmed on 13 November 2026 against Wikidata Q755939 (P570, a statement with a reference), item revision 2565556491. WikiShia (read 14 November 2026): died on the eve of 27 Ramadan 1110 AH, a date that falls in March 1699, so the year 1699 stands. Al-Zirikli, al-A'lam vol. 6 p. 23 prints 1111 AH (1700); that is recorded as a variant, not followed.", sources: [source/wikidata, source/wikishia-muhammad-baqir-al-majlisi] }
 relations:
   - { type: born_in, target: place/isfahan-province, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1367759)" }
   - { type: born_in, target: place/isfahan, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q42053)" }
   - { type: buried_in, target: building/jame-masjid-isfahan, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q1256501)" }
-sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002, source/wikidata]
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002, source/wikidata, source/wikishia-muhammad-baqir-al-majlisi]
 external_ids:
   wikidata: Q755939
   viaf: "90076153"

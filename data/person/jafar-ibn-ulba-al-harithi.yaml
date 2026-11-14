@@ -20,6 +20,6 @@ died: { edtf: "0762", hijri: "0145", calendar: gregorian, precision: year, deriv
 relations:
   - { type: lived_in, target: place/najran, confidence: medium, note: "Al-Zirikli, al-A'lam vol. 2 p. 125: his residence was at Najran, where he was held.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
   - { type: lived_in, target: place/fars, confidence: low, note: "Associated with فارس per the record's own summary text; relation type pending review.", sources: [source/hamasa-abu-tammam-ed-1916] }
-sources: [source/hamasa-abu-tammam-ed-1916]
-status: { review: published, completeness: 1 }
+sources: [source/hamasa-abu-tammam-ed-1916, source/alam-zirikli-dar-al-ilm-2002]
+status: { review: published, completeness: 2, ai_unread: "The ar, en and ur prose sections citing al-Zirikli, al-A'lam (vol. 2 p. 125) were added on 14 November 2026 (Lane B2, run web-b2-m01-2026-11-14); AI text awaiting a human read. The card itself keeps its status." }
 provenance: { layer: own-research, source: "ديوان الحماسة، طبعة 1916، ص 11", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "poetry-hamasa-5" }

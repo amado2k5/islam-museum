@@ -15,3 +15,6 @@ On the western end of the island are caves and hollows in which people take refu
 
 ## In the Pleiades gazetteer
 Pleiades, the open gazetteer of ancient places, lists this place under the title «Cercina (island)» (Pleiades no. 324690), classed as island group and island, with activity attested from 330 BCE to 2100 CE. Its recorded names include insula Cercina, Île Chergui and Kerkinna. It describes a group of islands off the east coast of Tunisia in the Gulf of Gabes, a place of exile in Roman antiquity. {cite:pleiades 324690}
+
+## In Yaqut's Mu'jam al-Buldan
+Yaqut reports, on the authority of Abu Ubayd al-Bakri, that Qarqana is an island lying opposite Sfax in the sea. Scholars write the name with a doubled nun, he says, while the people of the region pronounce it lightly. He places it in the middle of a dead, shallow sea ten miles from Sfax, where the water has no motion at any time. He adds that the island holds the remains of buildings and many water cisterns, and that the people of Sfax bring their animals over because it is fertile. {cite:mujam-al-buldan-sader-1995 4 p.329}

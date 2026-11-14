@@ -6,23 +6,26 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لأبي بكر محمد بن داود الظاهري، ابن إمام الظاهرية الذي لقن مذهب أبيه وناظر الشافعي؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abu Bakr Muhammad ibn Dawud al-Zahiri, son of the Zahiri school's founder who taught his father's doctrine; his entry is not yet checked on the page."
+  ar: "محمد بن داود بن علي بن خلف الظاهري، أبو بكر، أديب مناظر شاعر، ابن الإمام داود الظاهري، أصله من أصبهان وولد وعاش ببغداد وتوفي بها مقتولاً؛ يذكر الزركلي 255-297 هـ، 869-910 م {cite:alam-zirikli-dar-al-ilm-2002 vol. 6 p. 120}."
+  en: "Muhammad ibn Dawud ibn Ali ibn Khalaf al-Zahiri, Abu Bakr, a man of letters, debater and poet, son of the imam Dawud al-Zahiri; his family came from Isfahan, he was born and lived in Baghdad and died there, killed; al-Zirikli prints 255-297 AH, 869-910 CE {cite:alam-zirikli-dar-al-ilm-2002 vol. 6 p. 120}."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
-died: { edtf: "0909", precision: year, status: tradition, derived: true }
+born: { edtf: "0869", hijri: "0255", calendar: gregorian, precision: year, status: tradition, derived: false, note: "al-Zirikli prints 255 AH = 869 CE.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+died: { edtf: "0909", hijri: "0297", calendar: gregorian, precision: year, status: tradition, derived: true, note: "al-Zirikli prints 297 AH = 910 CE; the earlier value 909 is kept as the card date. Another card for the same man (person/ibn-dawud-al-zahiri) gives 296 AH from Wafayat al-Ayan.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
+  - { type: born_in, target: place/baghdad, note: "al-Zirikli: born and lived in Baghdad.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
+  - { type: died_in, target: place/baghdad, note: "al-Zirikli: died in Baghdad, killed.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
   - { type: born_in, target: place/iraq, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q796)" }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q3093345
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Zirikli, al-A'lam vol. 6 p. 120"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-m01-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 2

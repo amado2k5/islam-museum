@@ -6,7 +6,7 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
 
 ## Overview
-Sultan Muhammad I (781–824 AH / 1379–1421 CE), known as Muhammad Celebi, son of [[person/bayazid-i-yildirim|Bayezid I]]. {cite:dawlat-uthmaniyya-salabi p.76-77}
+Sultan Muhammad I (788 or 789–824 AH / 1386 or 1387–1421 CE), known as Muhammad Celebi, son of [[person/bayazid-i-yildirim|Bayezid I]]. {cite:dawlat-uthmaniyya-salabi p.76-77}
 
 ## Reign
 He took power after his father's death, and overcame his brothers one by one until the rule was settled for him. He spent his eight years of rule rebuilding and consolidating the state, and some historians count him the second founder of the Ottoman state. {cite:dawlat-uthmaniyya-salabi p.76-77}

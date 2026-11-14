@@ -6,8 +6,8 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية ليحيى بن أبي الخير العمراني، فقيه شافعي يمني القرن الثاني عشر، توفي سنة ١١٦٣م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Yahya ibn Abi al-Khayr al-Imrani, the twelfth-century Yemeni Shafi'i jurist, d. 1163; the biographical entry is not yet checked on the page."
+  ar: "يحيى بن سالم ⁦(أبي الخير)⁩ بن أسعد، أبو الحسين العمراني، فقيه كان شيخ الشافعية في اليمن، صاحب «البيان» في فروع الشافعية و«الانتصار» في الرد على القدرية و«مناقب الإمام الشافعي»، وتوفي بذي سفال باليمن سنة 558 هـ ⁦(1163 م)⁩."
+  en: "Yahya ibn Salim (Abi al-Khayr) ibn Asad, Abu al-Husayn al-Imrani, a jurist and head of the Shafi'is in Yemen, author of al-Bayan on Shafi'i substantive law, al-Intisar against the Qadariyya and Manaqib al-Imam al-Shafi'i; died at Dhu Sufal in Yemen in 558 AH (1163 CE)."
 wings: [people]
 regions: [arabia]
 periods: [period/buyid-seljuk-fatimid-era]
@@ -15,16 +15,16 @@ born: { edtf: "1096", calendar: gregorian, precision: year, derived: true, note:
 died: { edtf: "1163", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tabaqat al-Shafi'iyya al-Kubra (al-Subki)" }
 relations:
   - { type: died_in, target: place/dhi-as-sufal, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q20302206)" }
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q56250502
   viaf: "15690091"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0062
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002 (vol. 8 p. 146), entry read in full from the local OpenITI text; Wikidata candidate Q56250502"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
