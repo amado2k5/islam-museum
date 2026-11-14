@@ -1,0 +1,72 @@
+id: event/banu-al-harith-and-yam-attack-abu-jafar-in-the-village-and-are-driven-to-the-hill-292
+class: event
+kind: other
+label:
+  ar: "اجتماع بني الحارث بعد وصول الكتاب وهجومهم مع يأم على أبي جعفر، ص281"
+  en: "Banu al-Harith meet after the letter reaches them and attack Abu Ja'far with Yam, p. 281"
+  ur: "خط پہنچنے کے بعد بنو حارث کا اجتماع اور یام کے ساتھ ابو جعفر پر حملہ، ص281"
+summary:
+  ar: "لما وصل الكتاب إلى بني الحارث اجتمعوا وتشاوروا ومعهم ابن بسطام، وأرسل ابن حميد إلى يأم، وسارت بنو الحارث ويأم إلى أبي جعفر، فخرج بخدمه والمدانيين وقاتلهم ساعة ثم طردهم إلى ناحية الجبل."
+  en: "When the letter reached Banu al-Harith they met and took counsel, with Ibn Bustam among them; Ibn Humayd sent to Yam, and Banu al-Harith and Yam marched on Abu Ja'far, who came out with his servants and the Madanis, fought them an hour and drove them to the side of the hill."
+  ur: "خط بنو حارث کو پہنچا تو انہوں نے جمع ہو کر مشورہ کیا اور ابن بسطام ان کے ساتھ تھا، ابن حمید نے یام کو پیغام بھیجا، اور بنو حارث اور یام ابو جعفر کی طرف نکلے تو وہ اپنے خادموں اور مدانیوں کے ساتھ نکلے، ایک گھڑی لڑے اور انہیں پہاڑ کی طرف بھگا دیا۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0905"
+    hijri: "0292"
+    calendar: julian
+    precision: year
+    status: tradition
+    derived: true
+    note: "سنة 292هـ؛ لا يذكر الكتاب يوماً ولا شهراً لهذه الأحداث وتُرتَّب بحسب سياق الرواية بعد حلف جمادى الأولى؛ التحويل مشتق"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/abu-jafar-muhammad-ibn-ubaydallah-al-abbasi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abdullah-ibn-bustam
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ibn-humayd-of-banu-al-harith-286
+  role: "محتمل"
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-al-harith-ibn-kab
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/yam-tribe
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-abd-al-madan-najran
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/najran
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص281 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-32
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 281

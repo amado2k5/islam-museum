@@ -1,0 +1,72 @@
+id: event/muhammad-ibn-ubaydallah-leaves-minas-for-wadia-and-writes-to-al-hadi-292
+class: event
+kind: other
+label:
+  ar: "خروج أبي جعفر من ميناس إلى وادعة وكتابه إلى الهادي وجواب الهادي، ص283-284"
+  en: "Abu Ja'far leaves Minas for Wadi'a, writes to al-Hadi and receives his answer, pp. 283-284"
+  ur: "ابو جعفر کا میناس سے وادعہ کو جانا، ہادی کو لکھنا اور ہادی کا جواب، ص283-284"
+summary:
+  ar: "يلقى الابنان ووادعة أباهما وقد خرج من ميناس، فيخبرهم أن ابن بسطام أرسل إليه يخاف عليه ويقترح أن يسير في همدان، فعلم أنه لا يريد مقامه فخرج، وفضّل وادعة على الحصن، فأنزلته وادعة وأكرمته، وكتب إلى الهادي فأجابه بأنه سيصير إليه وألا يغتم."
+  en: "The sons and Wadi'a meet their father after he has left Minas; he tells them Ibn Bustam sent word fearing for him and proposing he go among Hamdan, so he knew Ibn Bustam did not want him to stay, chose Wadi'a over al-Hisn, and was honoured there; he wrote to al-Hadi, who replied that he would come to him and that he should not grieve."
+  ur: "بیٹے اور وادعہ باپ سے ملتے ہیں جو میناس سے نکل چکے؛ وہ بتاتے ہیں کہ ابن بسطام نے ان کے لیے اندیشہ ظاہر کیا اور ہمدان جانے کا مشورہ دیا، تو انہوں نے جانا کہ وہ ان کا قیام نہیں چاہتا، حصن کے بجائے وادعہ چنا اور وہاں عزت پائی؛ ہادی کو لکھا اور ہادی نے جواب دیا کہ وہ ان کے پاس آئیں گے اور فکر نہ کریں۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0905"
+    hijri: "0292"
+    calendar: julian
+    precision: year
+    status: tradition
+    derived: true
+    note: "سنة 292هـ؛ لا يذكر الكتاب يوماً ولا شهراً لهذه الأحداث وتُرتَّب بحسب سياق الرواية بعد حلف جمادى الأولى؛ التحويل مشتق"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/abu-jafar-muhammad-ibn-ubaydallah-al-abbasi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ali-ibn-muhammad-ibn-ubaydallah-al-abbasi
+  role: "محتمل"
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abdullah-ibn-bustam
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/wadia-tribe-yemen
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-al-harith-ibn-kab
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/minas-najran
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص283-284 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-32
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 283-284

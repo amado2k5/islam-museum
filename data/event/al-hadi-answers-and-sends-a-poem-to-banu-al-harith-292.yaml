@@ -1,0 +1,59 @@
+id: event/al-hadi-answers-and-sends-a-poem-to-banu-al-harith-292
+class: event
+kind: other
+label:
+  ar: "أبيات الهادي إلى بني الحارث: «أبلغ بني حارث عني»، ص284-285"
+  en: "Al-Hadi's verses to Banu al-Harith, \"carry to Banu Harith from me\", pp. 284-285"
+  ur: "ہادی کے بنو حارث کے نام اشعار، «بنو حارث کو میری طرف سے پہنچاؤ»، ص284-285"
+summary:
+  ar: "يرسل الهادي إلى محمد بن عبيد الله أبياتاً ليوجه بها إلى بني الحارث، يذكر فيها أنه أحياهم بعد أن دنت منيتهم ويحذرهم حرباً تأتيهم كالسحاب والبرق، ويصف رماح المؤمنين وسيوفهم وراياتهم، ويشبّه ثباته بصخرة راسية."
+  en: "Al-Hadi sends Muhammad ibn Ubaydallah verses to forward to Banu al-Harith, saying he gave them life when their death was near and warning of a war that comes like cloud and lightning, describing the lances, swords and banners of the believers and likening his steadiness to a rooted rock."
+  ur: "ہادی محمد بن عبید اللہ کو اشعار بھیجتے ہیں کہ بنو حارث کو پہنچا دیں، جن میں کہتے ہیں کہ انہیں موت کے قریب سے زندگی دی اور ایک ایسی جنگ سے خبردار کرتے ہیں جو بادل اور بجلی کی طرح آتی ہے، مومنوں کے نیزوں، تلواروں اور جھنڈوں کا ذکر ہے اور اپنی ثابت قدمی کو جمی ہوئی چٹان سے تشبیہ دیتے ہیں۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0905"
+    hijri: "0292"
+    calendar: julian
+    precision: year
+    status: tradition
+    derived: true
+    note: "سنة 292هـ؛ لا يذكر الكتاب يوماً ولا شهراً لهذه الأحداث وتُرتَّب بحسب سياق الرواية بعد حلف جمادى الأولى؛ التحويل مشتق"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abu-jafar-muhammad-ibn-ubaydallah-al-abbasi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-al-harith-ibn-kab
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/najran
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص284-285 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-32
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 284-285
