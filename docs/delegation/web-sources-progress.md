@@ -974,3 +974,9 @@ Nothing is registered this turn. Each registration needs the three-part commit i
 ## 2026-11-14 (p69, Lane B worker B1) — Biblissima scan complete (candidates 431 to 738)
 
 - Approval: dec-20261114-277. The scan finished: 308 searched in all, 19 matched by Wikidata id. Linked in p58 (15) and here (al-dimyati Q317200, dates 1217 and 1306 agree). Left for the founder: terken-khatun, abd-al-malik-ibn-habib, ibrahim-al-halabi (listed in p58). Candidates 739 onward do not exist (the list of persons born 600 to 1500 CE with a Wikidata id ends at 738).
+
+## 2026-11-14 (Lane B2 packet pktc) — Siyar entries, six persons
+
+- Written (ar, en, ur, draft; source al-Dhahabi, Siyar A'lam al-Nubala, ideas-house edition): hisham-ibn-amr-al-fuwati (pp. 4094-4095, Mu'tazili, labelled first), amir-ibn-abd-allah-ibn-al-zubayr (pp. 2111-2112, page re-read; entry follows the end of Abu Ubayda's entry), ashab-ibn-jubayr (pp. 1138-1139), ahmad-ibn-al-hasan-ibn-kharrash (pp. 752-753), abu-al-hasan-al-bahili (p. 1397, Ash'ari), muhammad-ibn-sad-ibn-abi-waqqas (pp. 3436-3437).
+- Corrections: Amir died after 120 AH (card said 736 CE); Ibn Kharrash d. 242 AH, period changed from Buyid-Seljuk to Abbasid-early (Wikidata Q138350908 also gives 856); Ash'ab's birth 684 removed (not in the book).
+- Skipped (identity): abu-bakr-ibn-muhammad-adal (entry 1233 is Abu Bakr ibn Tarkhan al-Salihi d. 679 AH, not the Sultan of Adal); abd-allah-ibn-yusuf (card is the Medinan-Tinnisi Muwatta narrator d. 218 AH per Wikidata; entry 3471 is al-Jurjani d. 148 AH); mohamed-ben-youssef (card is the Tunisian scholar 1848-1939 per Wikidata; entry 5997 is Muhammad ibn Yusuf al-Harawi).
