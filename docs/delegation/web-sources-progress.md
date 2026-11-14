@@ -861,3 +861,9 @@ Nothing is registered this turn. Each registration needs the three-part commit i
 - Trust criteria: only entries I can read through whole; OCR-garbled words (birth year of Zahir) are left out, never guessed. Skipped, logged: mahmud-ibn-ghaylan (heading not found in the scan under the same form), abd-allah-ibn-tawus (no matching heading).
 - Next 52 matches in the list: aban-ibn-taghlib (Shi'i; label first), abd-al-malik-ibn-umayr, ibrahim-ibn-abi-abla, al-zubayr-ibn-adi, zakariyya-ibn-adi, sufyan-ibn-waki, malik-ibn-... and the rest.
 - Cite-check script not run (not located for this lane); validate 0 errors, 0 in the authenticity and extremism lines.
+## 2026-11-14 (p55, Lane B worker B1) — Pleiades registered; 25 places linked
+
+- Approval: dec-20261114-277. Downloaded the Pleiades places and names dumps (about 7 MB each, to /Users/ahmedabdelaal/islam-museum-harvest/raw/pleiades-b1/, outside git); registered `source/pleiades` (CC BY 3.0).
+- Rule: our place without a Pleiades id; exactly one Pleiades place whose representative point is within 0.8 km, whose title (or a slash-separated part of it) equals our English label, kind city, town, site or island. 296 places passed the looser name test (any attested name, 1.5 km); 56 passed the title test; 25 linked: sufetula, qalhat, firuzabad, ioannina, yerevan, ardabil, nineveh, bolnisi, nicomedia, thermopylae, belvoir-fortress, zafar, burs, antequera, mahan, denizli, hit, ani, mdina, asilah, heraklion, sidon, erzurum, aphrodisias, yazd.
+- Left: 31 more of the title-test list (apamea, larissa, lucena, nazareth, shahrisabz, istakhr, ephesus and others) for the next batch; ascalon (founder-held), abadan (duplicate pair), thebasa (uncertain "?"); the other ~240 of the loose list need a hand check because the match rests on an attested alternative name (for example al-mansura against Hermopolis looks wrong).
+- No prose sections added: this pass links identifiers only.

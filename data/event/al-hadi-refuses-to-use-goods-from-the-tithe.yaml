@@ -1,0 +1,50 @@
+id: event/al-hadi-refuses-to-use-goods-from-the-tithe
+class: event
+kind: other
+label:
+  ar: الهادي يمنع نفسه ودوابه وأهله من الانتفاع بما جُبي من العشر
+  en: Al-Hadi keeps himself, his animals and his household from goods collected as tithe
+  ur: ہادی خود کو، اپنے جانوروں اور گھر والوں کو عشر کے مال سے فائدہ اٹھانے سے روکتے ہیں
+summary:
+  ar: روى محمد بن عبيد الله ومحمد بن سليمان الكوفي ومن حدّثهما أن الهادي رفض القرطاس والتبن والعلف والخرق من مال العشر، وردّ ثمرة أُخذت من بستان، وقال إنه لو اضطر إلى ما يُجبى من الصدقات ثم وجد الميتة لأكل الميتة، ولم يأكل من طعام الأعشار على المائدة.
+  en: Muhammad ibn Ubaydallah, Muhammad ibn Sulayman al-Kufi and their informants relate that al-Hadi refused paper, straw, fodder and rags from the tithe, had fruit taken from a tree paid for, and said that were he driven to take from what is collected as alms and found carrion, he would eat the carrion; he would not eat tithe food at his own table.
+  ur: محمد بن عبید اللہ، محمد بن سلیمان کوفی اور ان کے راویوں کی روایت ہے کہ ہادی نے عشر کے کاغذ، بھوسے، چارے اور چیتھڑوں کو استعمال کرنے سے انکار کیا، درخت سے لیے گئے پھل کی قیمت ادا کرائی اور کہا کہ اگر انہیں صدقات کے مال کی ضرورت پڑے اور مردار ملے تو وہ مردار کھا لیں گے؛ اور اپنے دسترخوان پر عشر کا کھانا نہ کھایا۔
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+relations:
+- type: occurred_at
+  target: place/saada
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/muhammad-ibn-sulayman-al-kufi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: related_to
+  target: concept/ushr
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: related_to
+  target: concept/wara
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص60-62 (الصفحة المطبوعة)'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-7
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 60-62
