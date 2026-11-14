@@ -43,6 +43,8 @@ open a new block on top with the new version and today's date.
 - **iDAI.gazetteer links added to twenty-five more cities.** Hama, Irbid, Idlib, Kolkata, Manisa, Mardin, Moscow, Patras, Plovdiv, Rostov-on-Don and fifteen others now carry their iDAI identifier, each chosen only where exactly one populated place within 1.5 km matches our GeoNames number or Arabic name (decision dec-20261114-277).
 ### Data
 - **Four more hadith scholars have full trilingual biographies from al-Dhahabi's Siyar A'lam al-Nubala', cited to the page:** Abd al-Malik ibn Umayr (with the critics' differing verdicts on his precision), Ibrahim ibn Abi Abla, al-Zubayr ibn Adi and Sufyan ibn Waki' (whose copyist inserted hadith into his books). All draft until a human reads them.
+### Data
+- **Three more hadith scholars have full trilingual biographies from al-Dhahabi's Siyar A'lam al-Nubala', cited to the page:** Abd al-Aziz ibn Rufay, Amr ibn Marzuq (with the critics' differing verdicts) and Ali ibn Khashram, whose card wrongly called him Kufan (the book names him al-Marwazi). All draft until a human reads them.
 
 ## v1.30.0 — 2026-11-14
 ### Added

@@ -6,8 +6,8 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لعبد العزيز بن رفيع؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abd al-Aziz ibn Rufay'; the entry is not yet checked on the page."
+  ar: "عبد العزيز بن رفيع الأسدي الطائفي ثم الكوفي، أبو عبد الله، محدث ثقة روى عن ابن عباس وابن عمر وأنس؛ توفي سنة ١٣٠هـ."
+  en: "Abd al-Aziz ibn Rufay al-Asadi, of Ta'if and then Kufa, Abu Abd Allah, a reliable hadith transmitter who narrated from Ibn Abbas, Ibn Umar and Anas; he died in 130 AH."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
@@ -16,13 +16,13 @@ external_ids:
   wikidata: Q12223023
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Dhahabi, Siyar A'lam al-Nubala, one-volume edition (Bayt al-Afkar al-Dawliyya), entry read in full on the scanned pages (Apple Vision OCR on the harvest drive); the web page of the Risala edition on shamela.ws (book 10906) was used to confirm the work and its volume layout"
+  generated_by: "Claude Code (Lane B2, web-source and Shamela enrichment)"
+  model: claude-sonnet-5-5
+  run: web-b2-siyar-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 died: { edtf: "747", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi: d. 130 AH)" }
 relations:
   - { type: lived_in, target: place/kufa, note: "Wikidata Q186234 (P551); corroboration recommended.", sources: [source/wikidata], confidence: medium }
