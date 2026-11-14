@@ -49,3 +49,9 @@ With more than fifty lodges, Edirne produced many dervish shaykhs, among them th
 
 ## From capital to frontier city
 The Ottomans took Edirne under Murad I and made it their forward base for expansion in Europe; the plans for the siege of Constantinople were drawn up there and its great guns tested nearby {cite:encyclopaedia-of-islam-2 vol. 2 pp. 710-711}. The city kept its standing after the capital moved to Istanbul: sultans still founded imperial mosques and complexes there, the last and greatest being Sinan's Selimiye of 1569-75 {cite:freely-ottoman-architecture-2011 p. 73}.
+
+## In the Pleiades gazetteer
+Pleiades, the open gazetteer of ancient places, lists this place under the title «Hadrianoupolis» (Pleiades no. 501428), classed as a settlement, with activity attested from 1750 BCE to 2000 CE. It describes it as an ancient place, recorded with a reference to the Barrington Atlas of the Greek and Roman World (map 51). {cite:pleiades 501428}
+
+## In the iDAI.gazetteer
+The iDAI.gazetteer of the German Archaeological Institute holds this place as record no. 2283001, typed as a populated place, under the preferred name «Edirne»; its parent in the hierarchy is «Edirne (Vilâyeti)». Among its recorded names are «Adrianoupolis», «Hadrianopolis», «Odrin». {cite:idai-gazetteer 2283001}
