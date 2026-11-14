@@ -69,3 +69,5 @@ of Zad al-Ma'ad beyond the first-pass caps; the books of prophetic medicine by a
 al-Dhahabi and Abu Nu'aym, al-Zahrawi's al-Tasrif and Ibn al-Baytar's al-Jami' through the
 canon gate; subject pages per remedy and disease; `perspectives` blocks on contagion, cautery
 and the ruling on treatment.
+
+- **Not taken**: `muslim-api-5770` — the hadith-api edition carries a corrupted character (U+FFFD) in its text; the record was dropped rather than repaired by guess (14 Nov 2026).
