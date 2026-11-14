@@ -3,27 +3,29 @@ class: person
 label:
   ar: "جمال الدين الصرصري"
   en: "Jamal al-Din al-Sarsari"
-roles: [scholar]
+roles: [poet, scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لجمال الدين الصرصري، الشاعر والعالم البغدادي؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Jamal al-Din al-Sarsari, the Baghdadi poet and scholar; his entry is not yet checked on the page."
+  ar: "يحيى بن يوسف بن يحيى الأنصاري، أبو زكريا، جمال الدين الصرصري، شاعر ضرير من أهل صرصر قرب بغداد، له منظومات في الفقه الحنبلي وفي مدح الرسول، قتله التتار يوم دخلوا بغداد سنة 656 هـ."
+  en: "Yahya ibn Yusuf ibn Yahya al-Ansari, Abu Zakariyya, Jamal al-Din al-Sarsari, a blind poet from Sarsar near Baghdad who versified Hanbali jurisprudence and praise of the Prophet; killed by the Tatars when they entered Baghdad, 656 AH (1258)."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/crusades-ayyubid-mamluk]
-died: { edtf: "1258", precision: year, status: tradition, derived: true }
+born: { edtf: "1192", hijri: "0588", calendar: gregorian, precision: year, derived: true, note: "al-Zirikli, al-A'lam, vol. 8 p. 177: 588 AH = 1192 CE.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+died: { edtf: "1258", hijri: "0656", calendar: gregorian, precision: year, derived: true, note: "al-A'lam vol. 8 p. 177 prints 656 AH = 1258 CE, agreeing with the card.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
-  - { type: born_in, target: place/iraq, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-  - { type: died_in, target: place/baghdad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/al-aalam]
+  - { type: born_in, target: place/iraq, confidence: medium, note: "Place link from Wikidata; the entry says he was of the people of Sarsar, near Baghdad.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
+  - { type: lived_in, target: place/baghdad, note: "al-Zirikli, al-A'lam, vol. 8 p. 177: he lived in Baghdad", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
+  - { type: died_in, target: place/baghdad, confidence: medium, note: "Place link from Wikidata; the entry says the Tatars killed him on the day they entered Baghdad and that he was carried to Sarsar for burial.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: "Q12251704"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3

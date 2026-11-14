@@ -3,33 +3,40 @@ class: person
 label:
   ar: "محمد راغب باشا"
   en: "Koca Ragıp Pasha"
-roles: [vizier]
+roles: [vizier, poet, writer]
 gender: male
 summary:
-  ar: "بطاقة أولية لكوجا راغب باشا، الصدر الأعظم العثماني والشاعر في عهد محمود الأول؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Koca Ragıp Pasha, the Ottoman grand vizier and poet under Mahmud I; his entry is not yet checked on the page."
+  ar: "محمد راغب باشا، سياسي تركي عصامي وعالم بالعربية، ولي مصر وحلب والشام وبلغ الصدارة العظمى ست سنوات في عهد عثمان الثالث ومصطفى الثالث، وله مكتبة تعرف باسمه و«سفينة الراغب» وديوان بكل من العربية والتركية والفارسية، توفي بالآستانة سنة 1176 هـ."
+  en: "Muhammad Ragib Pasha, a self-made Ottoman statesman and scholar of Arabic who governed Egypt, Aleppo and Syria and was grand vizier for six years under Uthman III and Mustafa III; founder of the library that bears his name, author of Safinat al-Ragib and of a diwan in each of Arabic, Turkish and Persian; died in Istanbul in 1176 AH (1763)."
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
-died: { edtf: "1763", precision: year, status: tradition, derived: true }
+born: { edtf: "1698", hijri: "1110", calendar: gregorian, precision: year, derived: true, note: "al-Zirikli, al-A'lam, vol. 6 p. 123: 1110 AH = 1698 CE.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+died: { edtf: "1763", hijri: "1176", calendar: gregorian, precision: year, derived: true, note: "al-A'lam vol. 6 p. 123 prints 1176 AH = 1763 CE, agreeing with the card.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
-  - { type: lived_in, target: place/anatolia, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/dawlat-uthmaniyya-salabi] }
-sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
+  - { type: born_in, target: place/istanbul, note: "al-Zirikli, al-A'lam, vol. 6 p. 123: born and died in al-Asitana (Istanbul)", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
+  - { type: died_in, target: place/istanbul, note: "al-Zirikli, al-A'lam, vol. 6 p. 123", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
+  - { type: buried_in, target: place/istanbul, note: "al-Zirikli, al-A'lam, vol. 6 p. 123: buried beside his library in al-Asitana", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
+  - { type: lived_in, target: place/misr, note: "al-Zirikli, al-A'lam, vol. 6 p. 123: governor of Egypt, 1159 to 1161 AH", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
+  - { type: lived_in, target: place/raqqa, note: "al-Zirikli, al-A'lam, vol. 6 p. 123: then governor of al-Raqqa", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
+  - { type: lived_in, target: place/aleppo, note: "al-Zirikli, al-A'lam, vol. 6 p. 123: governor of Aleppo in 1168 AH; building works left there", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
+  - { type: lived_in, target: place/damascus, note: "al-Zirikli, al-A'lam, vol. 6 p. 123: governor of Syria (al-Sham) and amir of the pilgrimage in 1170 AH", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }
+sources: [source/dawlat-uthmaniyya-salabi, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q1584321
   viaf: "31876500"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 occupations:
   - job: job/vizier
     kind: primary
     status: historical
-    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
-    sources: [source/dawlat-uthmaniyya-salabi]
+    note: "bootstrap from roles, 1 Nov 2026 merge map; al-A'lam vol. 6 p. 123: grand vizier for six years and some months under Uthman III and Mustafa III"
+    sources: [source/dawlat-uthmaniyya-salabi, source/alam-zirikli-dar-al-ilm-2002]
