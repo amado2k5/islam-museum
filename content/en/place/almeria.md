@@ -14,3 +14,6 @@ There were eight hundred looms in it for weaving silk bands, and a thousand loom
 
 ## Its fall
 It fell by force on Friday, the seventeenth of Jumada al-Ula in the year 542 AH. {cite:nafh-tib-maqqari p. 466}
+
+## In the iDAI.gazetteer
+The iDAI.gazetteer lists this place under no. 2359875 with the preferred name «Almería (Ciudad)», classed as populated place; its parent in the hierarchy is «Almería (Provincia)», classed as administrative unit. Recorded names include «Urci», «Portus Magnus» and «Unci». {cite:idai-gazetteer 2359875}

@@ -12,3 +12,6 @@ al-Mas'udi reports that the Greeks chose for this temple a piece of land between
 
 ## In the books of antiquities
 Ibn Fadl Allah al-Umari counted "the playground of Baalbek" among the famous monuments, from the remains of the buildings of the ancients in al-Sham. {cite:umari-masalik-1924 p.231}
+
+## In the Pleiades gazetteer
+Pleiades, the open gazetteer of ancient places, lists this place under the title «Heliopolis/Col. Iulia Augusta Felix» (Pleiades no. 678179), classed as settlement, archaeological site, temple and architectural complex, with activity attested from 1200 BCE to 2100 CE. Recorded names include «Heliopolis», «Baalbek» and «Balbec». It describes the place as an ancient settlement in Lebanon's Beqaa Valley, named a UNESCO World Heritage Site for its colossal structures, among the finest examples of Imperial Roman architecture. {cite:pleiades 678179}

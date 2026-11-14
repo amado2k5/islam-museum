@@ -75,3 +75,9 @@ Basra is an ancient city in southern Iraq near the Shatt al-Arab, founded by Utb
 
 ## For Scholars
 The earliest garrison city established by Muslims outside the Arabian Peninsula, founded in 14 AH, about 636 CE, by Utba ibn Ghazwan under the instruction of Caliph Umar at the northern head of the Persian Gulf along the Shatt al-Arab. Evolving rapidly from a military base into a trans-regional maritime trade entrepôt linking the Middle East with the Indian Ocean, it emerged alongside Kufa as the preeminent intellectual cradle of Arabic linguistics. Basra gave birth to the prestigious Basran school of grammar codified by Sibawayh and al-Khalil ibn Ahmad, hosting luminaries in literature, philosophy, and sciences such as al-Jahiz and Ibn al-Haytham.
+
+## In the Pleiades gazetteer
+Pleiades, the open gazetteer of ancient places, lists this place under the title «Basra» (Pleiades no. 912821), classed as settlement and port, with activity attested from 1200 BCE to 2100 CE. Recorded names include «Basra», «Bassorah» and «al-Basra». It describes the place as an Arabian city of lower Mesopotamia, about 420 km south-east of Baghdad. {cite:pleiades 912821}
+
+## In the iDAI.gazetteer
+The iDAI.gazetteer lists this place under no. 2771817 with the preferred name «al-Basra», classed as populated place; its parent in the hierarchy is «al-Basra», classed as administrative unit. Recorded names include «البصرة». {cite:idai-gazetteer 2771817}
