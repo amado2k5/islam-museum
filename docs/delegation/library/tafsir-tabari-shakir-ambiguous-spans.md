@@ -1,6 +1,6 @@
 # Tafsir al-Tabari (Shakir): unresolved verse spans in vols 1-3 prose
 
-Spans in guillemets in `content/{ar,ur}/passage/quran-2-1..195.md` that match a Tanzil verse only approximately. They were left untouched by the exact-match sweep and are unresolved. Columns: file, span, nearest Tanzil verse, match ratio.
+Spans in guillemets in `content/{ar,ur}/passage/quran-2-1..195.md` that match a Tanzil verse only approximately. They were left untouched by the exact-match sweep. **Resolved on 14 November 2026**: every span below was replaced in the prose by a link to the verse it echoes where the verse is a different one (2:32, 2:217, 7:12, 34:24), or by a description of the clause in the museum's own words; the spans quoting a variant reading (2:151, 2:162, 2:187) now name the variant without typing the wording. The Urdu dhikr formula in 2:30 is described, not quoted. Nothing in this table remains in the files. Columns: file, span, nearest Tanzil verse, match ratio.
 
 | file | span | nearest verse | ratio |
 |---|---|---|---|
