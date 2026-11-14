@@ -23,6 +23,6 @@ provenance:
   run: lib-kashf-batch-6, lib-durar-kamina-batch-1-2-2026-10-31
   enriched_by:
     - { generated_by: "Claude Code (OCR-harvest worker B)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/burhan-dar-al-hadith-2006 PDF pp. 2, 9–10 (birth year, death day, teachers, works list)" }
-external_ids: { wikidata: "Q4322459" }
-sources: [source/kashf-zunun-furqan, source/durar-kamina-jil-1993, source/burhan-dar-al-hadith-2006]
+external_ids: { wikidata: "Q4322459", openiti: "0794BadrDinZarkashi" }
+sources: [source/kashf-zunun-furqan, source/durar-kamina-jil-1993, source/burhan-dar-al-hadith-2006, source/openiti-corpus]
 status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 High)" }

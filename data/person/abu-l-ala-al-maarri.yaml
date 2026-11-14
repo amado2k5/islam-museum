@@ -13,7 +13,8 @@ periods: [period/buyid-seljuk-fatimid-era]
 regions: [levant-iraq]
 born: { edtf: "0973-12~", hijri: "0363-03-17", calendar: julian, precision: day, status: tradition, derived: true, note: "الجمعة 17 ربيع الأول 363هـ بالمعرة {cite:shadharat-dhahab p. 288}", sources: [source/shadharat-dhahab] }
 died: { edtf: "1057~", hijri: "0449~", calendar: julian, precision: year, status: tradition, derived: true, note: "449هـ {cite:shadharat-dhahab p. 288}", sources: [source/shadharat-dhahab] }
-sources: [source/shadharat-dhahab]
+external_ids: { openiti: "0449AbuCalaMacarri" }
+sources: [source/shadharat-dhahab, source/openiti-corpus]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
 relations:
   - { type: lived_in, target: place/maarrat-al-numan, note: "The poet-philosopher of Ma'arra, 'prisoner of two gaols' — his house and his sight; he entered Baghdad twice and returned to Ma'arra.", sources: [source/shadharat-dhahab], confidence: high }

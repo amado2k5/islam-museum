@@ -18,7 +18,8 @@ relations:
   - { type: lived_in, target: place/ifriqiya, note: "Served the Fatimid al-Muizz in Ifriqiya.", sources: [source/wafayat-ayan], confidence: high }
   - { type: lived_in, target: place/misr, note: "Entered the Egyptian lands with al-Muizz.", sources: [source/wafayat-ayan], confidence: high }
   - { type: died_in, target: place/misr, note: "Died at Misr in 363; al-Muizz prayed over him.", sources: [source/wafayat-ayan], confidence: high }
-sources: [source/wafayat-ayan]
+external_ids: { openiti: "0363QadiNucman" }
+sources: [source/wafayat-ayan, source/openiti-corpus]
 status:
   review: published
   completeness: 3
