@@ -6,24 +6,26 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لمحمد بن عبد الله الخرشي، فقيه مالكي مصر القرن السابع عشر صاحب «الشرح الصغير» وشرح مختصر خليل، توفي سنة ١٦٩٠م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Muhammad ibn Abd Allah al-Kharashi, the seventeenth-century Maliki jurist of Egypt, commentator of Khalil's Mukhtasar, d. 1690; the biographical entry is not yet checked on the page."
+  ar: "محمد بن عبد الله الخراشي المالكي، أبو عبد الله، أول من تولى مشيخة الأزهر، من قرية أبو خراش بالبحيرة، أقام وتوفي بالقاهرة، له الشرح الكبير والشرح الصغير على متن خليل، ⁦(1010 - 1101 هـ = 1601 - 1690 م)⁩."
+  en: "Muhammad ibn Abdallah al-Kharashi, the Maliki Abu Abdallah, the first to hold the office of Shaykh of al-Azhar; from the village of Abu Khurash in al-Buhayra; lived and died in Cairo; author of the greater and lesser commentaries on Khalil's text (1010-1101 AH, 1601-1690)."
 wings: [people]
 regions: [egypt-nile]
 periods: [period/gunpowder-empires]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q12239694
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0040
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
-born: { edtf: "1601", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Jabarti (Aja'ib al-Athar 1/65; 1010–1101 AH)" }
-died: { edtf: "1690", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Jabarti (Aja'ib al-Athar 1/65; 1010–1101 AH)" }
+  completeness: 3
+born: { edtf: "1601", hijri: "1010", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Jabarti (Aja'ib al-Athar 1/65; 1010-1101 AH). al-Zirikli prints the same {cite:alam-zirikli-dar-al-ilm-2002 vol. 6 pp. 240-241}.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+died: { edtf: "1690", hijri: "1101", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Jabarti (Aja'ib al-Athar 1/65; 1010-1101 AH). al-Zirikli prints the same {cite:alam-zirikli-dar-al-ilm-2002 vol. 6 pp. 240-241}.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
   - { type: lived_in, target: place/misr, note: "From text: of Egypt", sources: [source/al-aalam], confidence: low }
+  - { type: lived_in, target: place/cairo, note: "al-Zirikli, al-A'lam, vol. 6 pp. 240-241: he lived and died in Cairo", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
+  - { type: died_in, target: place/cairo, note: "al-Zirikli, al-A'lam, vol. 6 pp. 240-241", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }

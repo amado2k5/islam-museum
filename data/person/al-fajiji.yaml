@@ -6,23 +6,24 @@ label:
 roles: [scholar, poet]
 gender: male
 summary:
-  ar: "بطاقة أولية لإبراهيم بن عبد الجبار الفجيجي، فقيه وشاعر مغربي القرن السادس عشر، توفي سنة ١٥١٤م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ibrahim ibn Abd al-Jabbar al-Fajiji, the sixteenth-century Moroccan jurist and poet, d. 1514; the biographical entry is not yet checked on the page."
+  ar: "إبراهيم بن عبد الجبار بن أحمد، أبو إسحاق الفجيجي، فقيه متأدب مغربي، له «روضة السلوان» مطبوع ومنظومة في قواعد الإسلام مخطوطة في تمكروت، توفي نحو سنة 920 هـ."
+  en: "Ibrahim ibn Abd al-Jabbar ibn Ahmad, Abu Ishaq al-Fajiji, a Moroccan jurist and man of letters; author of Rawdat al-Sulwan (printed) and a verse composition on the foundations of Islam (manuscript at Tamkrut); died about 920 AH (about 1514)."
 wings: [people]
 regions: [maghreb]
 periods: [period/gunpowder-empires]
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q108757160
   viaf: "24589229"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0065
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 2
+died: { edtf: "1514~", hijri: "0920~", calendar: gregorian, precision: year, status: tradition, derived: true, note: "al-Zirikli prints about 920 AH = about 1514 CE and no birth year {cite:alam-zirikli-dar-al-ilm-2002 vol. 1 p. 45}.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
-  - { type: lived_in, target: place/maghreb, note: "Place association from the person's nisba/name (مغربي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
+  - { type: lived_in, target: place/maghreb, note: "Place association from the person's nisba/name ⁦(مغربي)⁩; denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
