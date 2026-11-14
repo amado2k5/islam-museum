@@ -1,0 +1,55 @@
+id: event/al-hadi-gives-the-people-of-sanaa-safety-288
+class: event
+kind: other
+label:
+  ar: "الهادي يؤمّن أهل صنعاء بعد دخولها، سنة 288هـ"
+  en: "Al-Hadi gives the people of Sana'a safety after entering the city, 288 AH"
+  ur: "ہادی صنعاء میں داخل ہو کر اہلِ صنعاء کو امان دیتے ہیں، 288ھ"
+summary:
+  ar: "كان أهل صنعاء يخافون أن يعاقبهم الهادي على إخراج علي بن سليمان وحربهم له، فلما دخلها لم يكشف أحداً منهم على ما كان، وبسط لهم الأمان وكتب لهم كتاباً قُرئ في الأسواق فاطمأنوا."
+  en: "The people of Sana'a feared that al-Hadi would punish them for driving out Ali ibn Sulayman and for fighting him, but on entering he exposed none of them for what had happened, spread safety over them and wrote them a letter that was read in the markets, and they were reassured."
+  ur: "اہلِ صنعاء کو ڈر تھا کہ ہادی علی بن سلیمان کو نکالنے اور اس سے لڑنے پر انہیں سزا دیں گے، مگر شہر میں داخل ہو کر انہوں نے کسی کو اس کی سابقہ حرکت پر بے پردہ نہ کیا، انہیں امان دی اور ایک تحریر لکھی جو بازاروں میں پڑھی گئی تو لوگ مطمئن ہو گئے۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0900~"
+    hijri: "0288"
+    calendar: julian
+    precision: year
+    status: tradition
+    derived: true
+    note: "سنة 288هـ؛ التحويل مشتق"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ali-ibn-sulayman-ibn-al-qasim
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/sanaa
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص226-227 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-27
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 226-227
