@@ -5034,6 +5034,43 @@ Resume point: sharh-saheeh-al-bukhare episode 49 (branch from origin/main).
 GEMINI: ep48, which collection and narrator carry the report of Moses reading the tablets and asking to be of the community of Ahmad with eleven qualities, the Qwen and Whisper passes both give it at 00:28:30-00:30:00 without a source, a classical hadith collection or tafsir of the verses of al-A'raf 7:154 to 7:157
 GEMINI: ep48, which report gives the Prophet's order to the Companions about the market of Medina and the story of Umar's conversion with his sister, both passes give them at 00:03:30-00:04:30 and 00:11:30-00:13:30 without a chain, a sira source such as Ibn Hisham or a hadith collection
 
+### sharh-saheeh-al-bukhare ep49 (14 Nov 2026)
+
+26 points written for episode 49 (ar, en, ur); 22 needs_source marks in each language file for this episode; 3 new `about` edges. Quran verses referenced only through passage links (9-80, 9-84, 27-40); none typed. Contested: His readings of the lessons of Khaybar, of retirement as preparation for meeting God, of Umar and the Prophet as student and teacher, and his advice on not wishing to have lived in the Prophet's time are his own views; the sayings, stories and figures he relates by sense carry no chain. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep49) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening praise and greetings, opening prayer, series announcement | ep49 00:00:00-00:00:30 | Greetings and prayer | Clarity | Open |
+| Asides on the wording of retirement and daily bread, loops | ep49 00:04:00-00:05:30 | Garbled, loops | Clarity, Loop check | Open |
+| Remarks on ranking livelihood and others' opinions, garbled digression | ep49 00:06:30-00:07:00 | Too garbled to recover | Clarity | Open |
+| Garbled aside on the saying about the nations and the dish, loops | ep49 00:11:00-00:12:00 | Garbled, loops | Clarity, Loop check | Open |
+| Number of the hypocrites, name of the entrusted Companion | ep49 00:13:30-00:14:30 | The two passes give 14 and 17 and a garbled name | Clarity | Open |
+| Umar's supplication on strength, loops | ep49 00:16:00-00:17:00 | Garbled, repeated words | Clarity, Loop check | Open |
+| Remarks on a modern political leader and a modern official, garbled | ep49 00:18:30-00:19:30 | Sweeping remarks on modern politics, garbled | Voice rule / Clarity | Open |
+| Loop of repeated phrases and closing supplication of the first part | ep49 00:21:30-00:22:00 | Loops, prayer | Clarity, Loop check | Open |
+| Distance to Khaybar and size of the army | ep49 00:22:00-00:22:30 | Figures differ between the two passes | Clarity | Open |
+| Claims about how Jews act wherever they settle, about money, aid and banks, and a modern comparison | ep49 00:25:30-00:27:00 | Sweeping claims about a people and about modern affairs | Voice rule | Open |
+| Anecdotes, football, spying and cleverness, remarks on orientalists, garbled | ep49 00:29:00-00:32:30 | Sweeping claims about a people, garbled | Voice rule / Clarity, Loop check | Open |
+| Story of a wolf and a lamb with a poem, garbled | ep49 00:32:30-00:34:30 | Too garbled to recover | Clarity | Open |
+| Lesson on dealing with others from strength or weakness, a modern war and a modern movement, a fort and a king, garbled | ep49 00:35:30-00:38:30 | Sweeping claims about a people, modern conflict, garbled | Voice rule / Content rule / Clarity | Open |
+| Stay-behind negotiation details, a poem about birds and a tree, garbled | ep49 00:40:00-00:41:30 | Garbled, names unreliable | Clarity | Open |
+| Prayer about heat and cold and a saying on Ali, garbled | ep49 00:42:30-00:43:30 | Subject and wording unclear in both passes | Clarity | Open |
+| Loop and garbled march details | ep49 00:44:30-00:45:30 | Loops | Clarity, Loop check | Open |
+| Ghatafan negotiation and a champion's challenge, garbled | ep49 00:47:30-00:50:30 | Names and sequence unreliable | Clarity | Open |
+| Names of the Ansar leaders and reasons for refusing peace, garbled | ep49 00:50:30-00:51:30 | Names rest on single garbled words | Clarity | Open |
+| Loops and garbled stretch | ep49 00:51:30-00:53:30 | Loops, garbled | Clarity, Loop check | Open |
+| Sermon on causes and reliance on God, garbled | ep49 00:56:30-00:59:00 | Too garbled to recover | Clarity | Open |
+| Story of a man with one good deed, loops | ep49 01:00:00-01:05:00 | Garbled, loops | Clarity, Loop check | Open |
+| Gate of the fort and the call to Ali, loops | ep49 01:05:00-01:08:30 | Garbled, names unreliable | Clarity, Loop check | Open |
+| Break join, schedule announcement and closing | ep49 01:08:30-01:09:30 | Greetings and closing remarks | Clarity | Open |
+| General remarks on Muslims' conditions, loops, closing prayer | ep49 01:09:30-01:14:30 | Garbled, loops, closing prayer | Clarity, Loop check | Open |
+| Second ASR pass: Whisper large-v3 (mlx) run on the Mac to resolve garbled words of the Qwen transcript; cites use the shared 30-second grid | ep49 whole | Qwen pass garbled | Clarity | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 50 (branch from origin/main).
+GEMINI: ep49, identity of the hypocrite whose funeral prayer Umar objected to and the surrounding exchange, transcript says a name like "Abdullah ibn Ubayy" (second pass "Abdullah ibn Ubayd"; first pass puts Ibn Umar at 00:08:00), Sahih al-Bukhari and Muslim on the funeral prayer for Abdullah ibn Ubayy and the verses that followed
+GEMINI: ep49, which Companion was entrusted with the names of the hypocrites and how many they were, transcript says "Hudhayfa"-like name garbled and the number as 14 (first pass) or 17 (second pass), Sahih Muslim and Sahih al-Bukhari on the Hudhayfa hadiths about the hypocrites
+GEMINI: ep49, distance from Medina to Khaybar and size of the Muslim army, transcript says 135 km (first pass) or 153 km (second pass) and 1300 or an unclear figure, Ibn Hajar Fath al-Bari and Ibn Hisham on the march to Khaybar
+GEMINI: ep49, the three leaders or the second leader of the exiled tribes at Khaybar besides Huyayy ibn Akhtab and the third exiled tribe, transcript garbled (Banu Qaynuqa, Banu al-Nadir and a third name), Ibn Ishaq and al-Tabari on the exile of the tribes
 ### alwaad-alhaq ep41 (14 Nov 2026)
 
 18 points written for episode 41 (ar, en, ur); 19 needs_source marks for this episode in each language file; three new about edges (niyya, ikhlas, tajdid), series record extended to episodes 1-41. Quran verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
