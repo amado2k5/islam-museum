@@ -3,27 +3,29 @@ class: person
 label:
   ar: "عبد الله بن حسين السويدي"
   en: "Abdallah al-Suwaydi"
-roles: [linguist, writer]
+roles: [jurist, writer]
 gender: male
 summary:
-  ar: "بطاقة أولية لعبد الله بن حسين السويدي، لغوي وكاتب عراقي عثماني القرن الثامن عشر، توفي سنة ١٧٦١م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abdallah ibn Husayn al-Suwaydi, the eighteenth-century Ottoman-Iraqi linguist and writer, d. 1761; the biographical entry is not yet checked on the page."
+  ar: "عبد الله بن حسين بن مرعي، أبو البركات السويدي البغدادي، فقيه متأدب من أعيان العراق وأول من عرف بالسويدي من بيته، ولد في كرخ بغداد وتوفي بها، 1104 إلى 1174 هـ."
+  en: "Abdallah ibn Husayn ibn Mar'i, Abu al-Barakat al-Suwaydi al-Baghdadi, a jurist and man of letters, one of the notables of Iraq and the first of his house to be called al-Suwaydi, born in the Karkh quarter of Baghdad and died there, 1104 to 1174 AH."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/gunpowder-empires]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q42279499
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0070
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
-born: { edtf: "1692", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Muradi (Silk al-Durar) Confirmed on 13 November 2026 against Wikidata Q42279499 (P569, a statement with a reference), item revision 2567096058.", sources: [source/wikidata] }
-died: { edtf: "1761", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Muradi (Silk al-Durar) Confirmed on 13 November 2026 against Wikidata Q42279499 (P570, a statement with a reference), item revision 2567096058.", sources: [source/wikidata] }
+  completeness: 3
+born: { edtf: "1692", hijri: "1104", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 4 p. 57: 1104 AH = 1693 CE; 1104 AH runs from September 1692 to September 1693; the card's 1692 is kept. Date-enrichment pass; source: al-Muradi (Silk al-Durar) Confirmed on 13 November 2026 against Wikidata Q42279499 (P569, a statement with a reference), item revision 2567096058.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
+died: { edtf: "1761", hijri: "1174", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 4 p. 57: 1174 AH = 1761 CE. Date-enrichment pass; source: al-Muradi (Silk al-Durar) Confirmed on 13 November 2026 against Wikidata Q42279499 (P570, a statement with a reference), item revision 2567096058.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
 relations:
   - { type: lived_in, target: place/iraq, note: "Place association from the person's nisba/name (عراقي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
+  - { type: born_in, target: place/baghdad, note: "Al-Zirikli, al-A'lam vol. 4 p. 57: born in the Karkh quarter of Baghdad.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }
+  - { type: died_in, target: place/baghdad, note: "Al-Zirikli, al-A'lam vol. 4 p. 57: died in Baghdad.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }

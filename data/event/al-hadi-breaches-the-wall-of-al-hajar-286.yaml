@@ -1,0 +1,55 @@
+id: event/al-hadi-breaches-the-wall-of-al-hajar-286
+class: event
+kind: other
+label:
+  ar: هجوم الهادي على قرية الهجر وفتحه نقباً في سورها، 286هـ
+  en: Al-Hadi's attack on the village of al-Hajar and the breach he opens in its wall, 286 AH
+  ur: قریۂ الہجر پر ہادی کا حملہ اور اس کی دیوار میں شگاف، 286ھ
+summary:
+  ar: تصل كتب الهادي إلى محمد بن عبيد الله وإلى المهرا وخولان فيحشدون ويأتيه عسكر كثير، وكان قد اصطنع رجالاً من همدان نجران، فيسير بمن معه إلى قرية بني الحارث المسماة الهجر، ويلتحم القتال على باب الدرب، ثم يفتح في جدار الحصن نقباً يدخل منه فارس وقد انتخب ثلاثمائة راجل وثلاثين فارساً لذلك، ويدخل القرية ويأمر الناس بالدخول معه.
+  en: Al-Hadi's letters reach Muhammad ibn Ubaydallah and al-Mahra and Khawlan, who muster and send a large army; he had also drawn men of Hamdan of Najran to himself, and he marches with them to the village of Banu al-Harith called al-Hajar, fighting joins at the gate of the pass, then he has a breach opened in the wall wide enough for a horseman, having picked three hundred foot and thirty horse for it, and goes into the village calling the people in behind him.
+  ur: ہادی کے خطوط محمد بن عبید اللہ اور مہرا اور خولان کو پہنچتے ہیں جو جمع ہو کر بڑا لشکر بھیجتے ہیں؛ انہوں نے نجران کے ہمدان کے کچھ لوگوں کو بھی اپنے ساتھ ملا رکھا تھا، وہ ان کے ساتھ بنو حارث کی بستی الہجر کی طرف چلتے ہیں، درے کے دروازے پر لڑائی چھڑتی ہے، پھر وہ قلعے کی دیوار میں اتنا شگاف کرواتے ہیں کہ ایک سوار داخل ہو سکے، اس کے لیے تین سو پیادے اور تیس سوار چن رکھے تھے، اور بستی میں داخل ہو کر لوگوں کو اپنے پیچھے آنے کی پکار دیتے ہیں۔
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0899"
+    hijri: "0286"
+    calendar: julian
+    precision: year
+    status: tradition
+    derived: true
+    note: سنة 286هـ؛ الكتاب لا يعين اليوم، والخبر واقع بين ذي القعدة وأول ذي الحجة بحسب ترتيب السرد؛ التحويل مشتق
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/al-hajar-najran
+- type: occurred_at
+  target: place/najran
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abu-jafar-muhammad-ibn-ubaydallah-al-abbasi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص164 ⁦(الصفحة المطبوعة)⁩'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-20
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 164

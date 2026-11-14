@@ -1,0 +1,17 @@
+---
+id: person/ibn-tunart
+lang: en
+source_lang: ar
+translators: ["Claude Sonnet 5.5 (claude-sonnet-5-5), draft translation"]
+---
+## Overview
+Muhammad ibn Abdallah ibn Tumart al-Masmudi al-Barbari, Abu Abdallah, took the title of the Mahdi and is called the Mahdi of the Almohads. Al-Zirikli describes him as the founder of the call on which the state of the sultan Abd al-Mumin ibn Ali, king of the Maghreb, was built, and the one who laid the foundations of the Mumini state of the Kumiya. He belonged to the Hargha, a branch of the Masmuda, tribes of the Sous mountains in the far Maghreb; the Hargha trace their line to al-Hasan ibn Ali. The entry in al-A'lam gives his years as 485 AH, 1092 CE, to 524 AH, 1130 CE. It says there are differing accounts of his descent and refers them to a note on the entry, which this page does not take up {cite:alam-zirikli-dar-al-ilm-2002 vol. 6 p. 179}.
+
+## His search for knowledge and his call
+He was born and raised among his tribe and travelled east in search of knowledge around 500 AH, reaching Iraq; he made the pilgrimage and stayed some time in Mecca. He became known for scrupulousness and for severity in forbidding what runs against the law, and a group in Mecca turned against him, so he left for Egypt, whose government expelled him, and he returned to the Maghreb. At al-Mahdiyya he broke the musical instruments and wine vessels he saw there. He moved to Bejaia and was sent out to one of its villages, Mallala, where he met Abd al-Mumin ibn Ali al-Qaysi al-Kumi, a noble and sharp young man, and agreed with him on the call being made in his name {cite:alam-zirikli-dar-al-ilm-2002 vol. 6 p. 179}.
+
+## Tinmal
+He gathered followers and went with them to Marrakesh, Abd al-Mumin with him, and attended the court of Ali ibn Yusuf ibn Tashfin, described as a mild king, whom he reproached for innovations and wrongs. He then left and settled at a fortified spot in the Tinmal mountains, preaching to its people until they turned to him; he became known among them for righteousness and urged them to rebel against Ibn Tashfin, so they killed some of his soldiers and fortified themselves. His cause grew strong through them and he took the title of the Mahdi who stands by the command of God. Death overtook him on the Tinmal mountain before he took Marrakesh, but he had laid down and prepared the rules, and the conquests that followed were made by his companion Abd al-Mumin {cite:alam-zirikli-dar-al-ilm-2002 vol. 6 p. 179}.
+
+## His description and writings
+Al-Zirikli describes him as dark-skinned, of middle height, large-headed, sharp of gaze, shrewd, proud, eloquent and cultured. He names Kanz al-ulum, in manuscript, and A'azz ma yutlab, printed, which holds his commentaries as dictated to Abd al-Mumin ibn Ali. He reports from al-Salawi in al-Istiqsa that Ibn Tumart added a phrase to the dawn call to prayer. Part of his life is told in a printed book, Akhbar al-Mahdi Ibn Tumart wa-ibtida dawlat al-Muwahhidin, whose author calls him the infallible imam, says he came in a period of interval, and brands those who did not believe in him as unbelievers. Al-Zirikli reads in the book's vocabulary, with its helpers, emigrants, cave, expeditions and caliphs, a sign that Ibn Tumart kept the life of the Prophet before his eyes, followed its outward forms and borrowed the names of its groups and some of its places. He cites a printed book by Sa'd Zaghlul in Alexandria, Muhammad ibn Tumart wa-harakat al-tajdid fi al-Maghrib wa-l-Andalus {cite:alam-zirikli-dar-al-ilm-2002 vol. 6 p. 179}.

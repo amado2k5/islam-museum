@@ -6,26 +6,26 @@ label:
 roles: [scholar, writer]
 gender: male
 summary:
-  ar: "بطاقة أولية لأحمد بن أحمد زروق البرنسي، فقيه وشيخ شاذلي القرن الخامس عشر صاحب «قواعد التصوف»، توفي سنة ١٤٩٣م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ahmad ibn Ahmad Zarruq al-Barnusi, the fifteenth-century jurist and Shadhili shaykh author of Qawa'id al-Tasawwuf, d. 1493; the biographical entry is not yet checked on the page."
+  ar: "أحمد بن أحمد بن محمد بن عيسى البرنسي الفاسي، أبو العباس، زروق، فقيه محدث صوفي من أهل فاس، قرأ بمصر والمدينة وتوفي في تكرين من أعمال طرابلس الغرب؛ من 846هـ الموافقة 1442م إلى 899هـ الموافقة 1493م، وذكر بعض المترجمين وفاته سنة 896هـ."
+  en: "Ahmad ibn Ahmad ibn Muhammad ibn Isa al-Burnusi al-Fasi, Abu al-Abbas, Zarruq, a jurist, hadith scholar and Sufi of Fes, who studied in Egypt and Medina and died at Takrin in the district of Tripoli; 846 AH, 1442 CE, to 899 AH, 1493 CE; some biographers give his death as 896 AH."
 wings: [people]
 regions: [maghreb]
 periods: [period/crusades-ayyubid-mamluk]
 themes: [spirituality-and-sufism]
-sources: [source/al-aalam, source/biblissima, source/wikidata]
+sources: [source/al-aalam, source/biblissima, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q2827457
   biblissima: "Q105540"
   viaf: "187149294409280522748"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0038
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 born: { edtf: "1442", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ahmad Baba (Nayl al-Ibtihaj) Confirmed on 13 November 2026 against Wikidata Q2827457 (P569, a statement with a reference), item revision 2553408787.", sources: [source/wikidata] }
 died: { edtf: "1493", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ahmad Baba (Nayl al-Ibtihaj) Confirmed on 13 November 2026 against Wikidata Q2827457 (P570, a statement with a reference), item revision 2553408787.", sources: [source/wikidata] }
 relations:

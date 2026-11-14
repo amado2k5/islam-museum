@@ -1,0 +1,18 @@
+id: concept/canon-pulse-as-music-and-its-rhythm
+class: concept
+kind: scientific
+label: { ar: "النبض والموسيقى والوزن عند ابن سينا", en: "The pulse, music and rhythm in the Canon", ur: "نبض، موسیقی اور آہنگ قانون میں" }
+summary:
+  ar: "يرى ابن سينا أن في النبض طبيعة موسيقاوية، فيشبه نسب أزمنته بالإيقاع ونسب أحواله بالتأليف، ثم يقسم الوزن إلى جيد ورديء {cite:canon-ibn-sina-print-v1 pp.170-171}."
+  en: "Ibn Sina finds a musical nature in the pulse, likening the proportions of its times to rhythm and of its states to harmony, and then divides rhythm into good and bad {cite:canon-ibn-sina-print-v1 pp.170-171}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/canon-pulse-in-general, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, Ta'lim 3 chapters 5 to 11 and the opening of the pulse (scan pages 164 to 171), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-signs-pulse-1
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

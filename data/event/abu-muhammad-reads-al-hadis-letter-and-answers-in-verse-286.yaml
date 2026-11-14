@@ -1,0 +1,53 @@
+id: event/abu-muhammad-reads-al-hadis-letter-and-answers-in-verse-286
+class: event
+kind: other
+label:
+  ar: قراءة أبي محمد كتاب الهادي على الناس وجوابه بقصيدة، 286هـ
+  en: Abu Muhammad reads al-Hadi's letter to the people and answers in verse, 286 AH
+  ur: ابو محمد کا ہادی کا خط لوگوں کو سنانا اور قصیدے میں جواب دینا، 286ھ
+summary:
+  ar: يقرأ أبو محمد عبد الله بن الحسين كتاب الهادي ومعه شعره على الناس، ثم يجيبه بقصيدة يصف فيها أرقه وانشغاله وعزمه ويقر فيها بطاعة الإمام ويتوعد المخالفين ويذكر الغارة الليلية عليه، ويرويها علي بن محمد عن أبي جعفر بن سليمان.
+  en: Abu Muhammad Abdullah ibn al-Husayn reads al-Hadi's letter and verses to the people and answers with a poem describing his sleeplessness, his cares and his resolve, declaring obedience to the imam, warning opponents and recalling the night attack on him; Ali ibn Muhammad tells it on the word of Abu Jafar ibn Sulayman.
+  ur: ابو محمد عبداللہ بن حسین ہادی کا خط اور اشعار لوگوں کو پڑھ کر سناتے ہیں اور ایک قصیدے میں جواب دیتے ہیں جس میں اپنی بے خوابی، فکر اور عزم کا بیان، امام کی اطاعت کا اقرار، مخالفوں کو تنبیہ اور اپنے اوپر رات کے حملے کا ذکر ہے؛ علی بن محمد اسے ابو جعفر بن سلیمان کے حوالے سے بیان کرتے ہیں۔
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0899"
+    hijri: "0286"
+    calendar: julian
+    precision: year
+    status: tradition
+    derived: true
+    note: سنة 286هـ؛ الكتاب لا يعين اليوم، والخبر واقع بين ذي القعدة وأول ذي الحجة بحسب ترتيب السرد؛ التحويل مشتق
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/najran
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abdullah-ibn-al-husayn-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص152-155 ⁦(الصفحة المطبوعة)⁩'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-20
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 152-155

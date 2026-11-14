@@ -1,0 +1,18 @@
+id: concept/canon-pulse-evenness-and-regularity
+class: concept
+kind: scientific
+label: { ar: "استواء النبض واختلافه ونظامه عند ابن سينا", en: "Evenness, unevenness and regularity of the pulse in the Canon", ur: "نبض کی یکسانی، بے یکسانی اور ترتیب قانون میں" }
+summary:
+  ar: "يشرح ابن سينا الجنسين الثامن والتاسع، استواء النبض واختلافه ونظامه، ويرى أن الأخير داخل تحت المختلف {cite:canon-ibn-sina-print-v1 p.170}."
+  en: "Ibn Sina explains the eighth and ninth genera, evenness and unevenness of the pulse and its regularity, and holds that the last falls under the uneven {cite:canon-ibn-sina-print-v1 p.170}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/canon-pulse-in-general, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, Ta'lim 3 chapters 5 to 11 and the opening of the pulse (scan pages 164 to 171), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-signs-pulse-1
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

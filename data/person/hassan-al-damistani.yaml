@@ -6,25 +6,25 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لحسن الدمستاني؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Hassan al-Damistani; the entry is not yet checked on the page."
+  ar: "حسن بن محمد بن علي بن خلف الدمستاني، فاضل إمامي من أهل دمستان في البحرين، انتقل إلى القطيف وتوفي بها سنة 1181 هـ، من كتبه «انتخاب الجيد من تنبيهات السيد»."
+  en: "Hasan ibn Muhammad ibn Ali ibn Khalaf al-Damistani, an Imami scholar from Damistan in Bahrain who moved to al-Qatif and died there in 1181 AH, author of 'Intikhab al-Jayyid min Tanbihat al-Sayyid'."
 wings: [people]
-regions: [persia-central-asia]
+regions: [arabia]
 periods: [period/colonial-era]
-died: { edtf: "1768", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam" }
+died: { edtf: "1768", hijri: "1181", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 2 p. 219: 1181 AH = 1767 CE; 1181 AH runs from June 1767 to May 1768, so the card's 1768 is kept. Date-enrichment pass; source: al-A'lam" }
 relations:
   - { type: born_in, target: place/dumistan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/qatif-governorate, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q12207883
   viaf: "76020643"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 Medium)"
-  model: "SWE-2 Medium"
-  run: wikidata-import-wave2
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
