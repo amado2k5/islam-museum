@@ -3543,6 +3543,16 @@ Resume point: sharh-saheeh-al-bukhare episode 6 (branch from origin/main).
 
 Resume point: sharh-saheeh-al-bukhare episode 7 (branch from origin/main).
 
+### alwaad-alhaq ep11 (14 Nov 2026)
+
+18 points written for episode 11 (ar, en, ur); 12 needs_source marks for this episode in each language file; dates, counts and unchained reports are marked needs_source. Quran verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
+
+| Excluded (alwaad-alhaq ep11) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Sheikh's date for Dhu al-Qarnayn and verse and percentage counts | ep11 00:48:30 | his own unsupported figures, kept only as marked claims | needs_source | Open |
+| Speculation on weapons of the Dajjal's followers | ep11 00:33:00 | speculation, kept as his guess | sensitivity | Open |
+
+Resume point: alwaad-alhaq episode 12 (branch from origin/main).
 ### sharh-saheeh-al-bukhare ep07 (14 Nov 2026)
 
 24 points written for episode 7 (ar, en, ur); 13 needs_source marks in each language file for this episode; 5 new `about` edges. No Quran verses linked; none typed. Contested: His conditions for lawful singing (no instruments, words that call only to virtue) and his view that groups should not be set against one another are attributed to him; the singing ruling is contested among scholars. Checked line by line against the transcript by a second reader before merge.
