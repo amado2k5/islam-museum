@@ -45,3 +45,6 @@ provenance:
 ## عملی حساب میں وسطی دَین
 
 [[work/hisab-kuttab-abu-wafa|کاتبوں و عاملوں کے حساب]] میں [[invention/abu-wafa-debt-multiplication|تکملے و دَین کی ضرب]] ہے:3×5 میں2کا دَین، دس سے ضرب، پھر35ملانے سے15، ہر منفی عدد کی ایجاد نہیں {cite:abu-wafa-youschkevitch-dsb PDFp2}۔ تاریخیں مختلف:ٹی ڈی وی961، میک ٹیوٹر961–976، ایرانیکا979–983؛ بے ثبوت موافقت نہیں {cite:tdv-ebul-vefa-buzcani works2} {cite:abu-wafa-mactutor arithmetic} {cite:iranica-abu-wafa-works work1}۔ قاعدہ ثانوی تحقیق وپی ڈی ایف2کی تصویر میں پڑھا، مکمل عربی یا سعیدان اشاعت میں نہیں۔ عجائب گھر کے جدید جبری نمونے و خط اعداد مصنف کی قدیم علامتیں یا نقشے نہیں۔
+
+## Biblissima اتھارٹی فائل میں
+فرانسیسی Biblissima اتھارٹی فائل اس شخصیت کو شناخت Q23308 کے تحت نام کی صورت «Abō al-Wafāʿ Moḥammad ibn Moḥammad Bōzǧānī (0940-0998)» کے ساتھ درج کرتی ہے، اور اس صورت میں پیدائش اور وفات کے سال وہی ہیں جو فائل میں ہیں۔ {cite:biblissima Q23308}

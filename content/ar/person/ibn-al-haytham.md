@@ -65,3 +65,6 @@ provenance: { generated_by: "Claude Haiku 5.5 (library-expansion); Copilot SDK i
 ## بناء عدد بشروط بواقي
 
 تشرح ماكتوتر [[invention/haytham-factorial-remainders|بناءه بالمضروب لمسألة بواقي متزامنة]]:6!+1=721، جواب يترك1 عند القسمة على2–6 وينقسم على7. ليس أصغر جواب موجب؛301 يحققها أيضاً. تنقل ماكتوتر خبر طريقة ثانية لكل الحلول من غير تفاصيلها؛ اشتقاق المتحف الحديث301+420j لا يدعي استعادة تلك الطريقة. ليست المساهمة اختراع نظرية البواقي الصينية أو كل ترميز عاملي، ولا ادعاء قراءة أصل Opuscula أو طبعة راشد الكاملة {cite:haytham-mactutor number-theory} {cite:weisstein-wilson-theorem eq1}.
+
+## في ملف الاستناد Biblissima
+يسجل ملف الاستناد الفرنسي Biblissima هذا العَلَم تحت المعرّف Q23414 بصيغة الاسم «al-Ḥasan ibn al-Ḥasan Ibn al-Hayṯam (0965?-1039)»، وتتضمن الصيغة سنتي الميلاد والوفاة كما يوردهما الملف. {cite:biblissima Q23414}

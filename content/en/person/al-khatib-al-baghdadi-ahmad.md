@@ -34,3 +34,6 @@ The editors of the Da'irat al-Ma'arif al-Uthmaniyya edition of [[work/al-kifaya-
 
 ## Works in the OpenITI corpus
 The OpenITI corpus holds 29 works under the author identifier 0463KhatibBaghdadi, among them: Arbac Majalis; Asma Mubhama; Bukhala; Cawali Malik. {cite:openiti-corpus 0463KhatibBaghdadi}
+
+## In the Biblissima authority file
+The French Biblissima authority file records this person under the identifier Q531 with the name form «Aḥmad ibn ʿAlī al- H̱aṭīb al-Baġdādī (1002-1071)», the form including the years of birth and death as the file gives them. {cite:biblissima Q531}

@@ -38,3 +38,6 @@ He became market inspector (muhtasib) of Cairo in Dhu al-Hijja 801, replacing [[
 
 ## Works in the OpenITI corpus
 The OpenITI corpus holds 10 works under the author identifier 0855BadrDinCayni, among them: Binaya Sharh Hidaya; ʿIqd al-jumān fī tārīḫ ahl al-zamān; Cumdat Qari; Maghani Akhyar. {cite:openiti-corpus 0855BadrDinCayni}
+
+## In the Biblissima authority file
+The French Biblissima authority file records this person under the identifier Q2052 with the name form «Badr al-Dīn Maḥmūd ibn Aḥmad al- ʿAynī (1361-1451)», the form including the years of birth and death as the file gives them. {cite:biblissima Q2052}

@@ -13,3 +13,6 @@ Among his books is [[work/qisas-al-anbiya-ibn-kathir|Qisas al-Anbiya']], from Ad
 
 ## Works in the OpenITI corpus
 The OpenITI corpus holds 15 works under the author identifier 0774IbnKathir, among them: Adab Dukhul Hammam; al-Bidāyaŧ wa-al-nihāyaŧ; Fadail Quran; Fusul Min Sira. {cite:openiti-corpus 0774IbnKathir}
+
+## In the Biblissima authority file
+The French Biblissima authority file records this person under the identifier Q105729 with the name form «Ismāʿīl ibn ʿUmar Ibn Kaṯīr (1301?-1373)», the form including the years of birth and death as the file gives them. {cite:biblissima Q105729}

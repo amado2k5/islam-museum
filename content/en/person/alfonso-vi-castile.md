@@ -26,3 +26,6 @@ The article on al-Sid says Alfonso VI, probably at the urging of García Ordóñ
 
 ## Dates and doubts
 The articles read give no birth or death date. Wikidata lists June 1040 and 1 July 1109 (with a second, estimated 30 June 1109); they are marked as tradition here. The Encyclopaedia's accounts of Alfonso's boast at Tarifa and of the number of survivors at al-Zallaqa come from later sources and are reported, not endorsed.
+
+## In the Biblissima authority file
+The French Biblissima authority file records this person under the identifier Q20973 with the name form «Alphonse VI (roi de Castille et de León, 1042?-1109)», the form including the years of birth and death as the file gives them. {cite:biblissima Q20973}

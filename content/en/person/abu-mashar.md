@@ -13,3 +13,6 @@ Ibn al-Nadim names him Abu Mashar Jafar ibn Muhammad al-Balkhi. At first he was 
 Ibn al-Nadim says he bore a grudge against al-Kindi, who sent someone to make him love the sciences of arithmetic and geometry; then Abu Mashar turned to judicial astrology. It is said he learned astrology after the age of forty-seven. {cite:fihrist-ibn-al-nadim p. 386-387}
 
 He was whipped by al-Musta'in for being right about a matter he had predicted before its time. He died past the age of a hundred, in Ramadan 272 AH according to the book. {cite:fihrist-ibn-al-nadim p. 386-387}
+
+## In the Biblissima authority file
+The French Biblissima authority file records this person under the identifier Q624 with the name form «Albumasar (0787-0886)», the form including the years of birth and death as the file gives them. {cite:biblissima Q624}

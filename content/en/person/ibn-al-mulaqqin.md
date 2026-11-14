@@ -14,3 +14,6 @@ He heard Abu l-Fath Ibn Sayyid al-Nas, al-Mashtuli, Ibn al-Is'ardi and the circl
 In 780 he was tried in the Barquq–Baraka affair, jailed in the stable and released through the intercession of Akmal al-Din al-Babarti and Siraj al-Din al-Bulqini, never entering the judicial deputyship again. He stayed home and composed near three hundred works; most burned shortly before his death, among them his twenty-volume Sharh on al-Bukhari {cite:durar-kamina-jil-1993 dhayl pp. 122-123}.
 ## Death
 His state changed at the end and his son Nur al-Din 'Ali confined him until he died on 6 Rabi' I 804 at Cairo, buried beside his father in the hawsh of the Sufis outside Bab al-Nasr {cite:shadharat-dhahab 7/45}.
+
+## In the Biblissima authority file
+The French Biblissima authority file records this person under the identifier Q106028 with the name form «ʿUmar ibn ʿAlī Sirāǧ al-Dīn Abū Ḥafṣ Ibn al-Mulaqqin (1323-1401)», the form including the years of birth and death as the file gives them. {cite:biblissima Q106028}

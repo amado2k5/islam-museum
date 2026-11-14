@@ -34,3 +34,6 @@ The amir Abu Ahmad al-Muwaffaq asked him to move to Basra to revive it with lear
 
 ## Works in the OpenITI corpus
 The OpenITI corpus holds 6 works under the author identifier 0275AbuDawudSijistani, among them: Marasil; Masail Imam Ahmad; Risala Ila Ahl Makka; Sualat Ajurri. {cite:openiti-corpus 0275AbuDawudSijistani}
+
+## In the Biblissima authority file
+The French Biblissima authority file records this person under the identifier Q15590 with the name form «Sulaymān ibn al-Ašʿaṯ Abū Dāwūd al-Siǧistānī (0817?-0889?)», the form including the years of birth and death as the file gives them. {cite:biblissima Q15590}

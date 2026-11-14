@@ -16,3 +16,6 @@ translators: []
 ## ولادت، طوسی کی شاگردی اور وفات
 
 انگریزی مضمون انسائیکلوپیڈیا ایرانیکا کے مطابق ان کی ولادت اکتوبر 1236ء شیراز میں بتاتا ہے؛ عربی اور اردو مضامین جائے پیدائش کازرون بتاتے ہیں، جو ان کے خاندان کا آبائی شہر تھا، اور یہ اختلاف ان کے ریکارڈ میں محفوظ رکھا گیا ہے۔ {cite:wikipedia-qutb-al-din-shirazi-en} {cite:wikipedia-qutb-al-din-shirazi-ar} {cite:wikipedia-qutb-al-din-shirazi-ur} مراغہ میں انھوں نے نصیر الدین طوسی سے ابن سینا کی «الاشارات» اور علم ہیئت پڑھا اور نئی فلکیاتی جداول کی تکمیل میں ان کے شریک رہے۔ {cite:wikipedia-qutb-al-din-shirazi-en} {cite:wikipedia-qutb-al-din-shirazi-ar} وفات 1311ء میں تبریز میں ہوئی — عربی مضمون کے مطابق 710ھ — اور وہ شہر کے چرنداب قبرستان میں دفن ہوئے۔ {cite:wikipedia-qutb-al-din-shirazi-en} {cite:wikipedia-qutb-al-din-shirazi-ar} {cite:wikidata-qutb-al-din-shirazi}
+
+## Biblissima اتھارٹی فائل میں
+فرانسیسی Biblissima اتھارٹی فائل اس شخصیت کو شناخت Q10899 کے تحت نام کی صورت «Maḥmūd ibn Mas´ūd Quṭb al-Dīn al- Šīrāzī (1236-1311)» کے ساتھ درج کرتی ہے، اور اس صورت میں پیدائش اور وفات کے سال وہی ہیں جو فائل میں ہیں۔ {cite:biblissima Q10899}

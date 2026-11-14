@@ -15,3 +15,6 @@ He appears to have travelled widely in Iraq and Adharbaydjan. During a stay in M
 
 ## Death and afterlife of the book
 He died in 709 AH as al-Dhahabi records {cite:tarikh-islam-dhahabi s.a. 601-610 p. 738}, while al-Zirikli gives only 1302 CE {cite:al-aalam j.3 p. 149}; Hindushah ibn Sanjar translated al-Fakhri into Persian in 723-4/1323-4 under the title Tajarib al-salaf {cite:encyclopaedia-of-islam-2 vol. 3 p. 988}.
+
+## In the Biblissima authority file
+The French Biblissima authority file records this person under the identifier Q12210 with the name form «Muḥammad ibn ʿAli Ibn al-Ṭiqṭaqī (1262-1309)», the form including the years of birth and death as the file gives them. {cite:biblissima Q12210}

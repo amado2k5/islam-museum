@@ -88,3 +88,6 @@ translators: ["Claude Sonnet 5.5 (claude-sonnet-5-5), draft translation"]
 
 ## OpenITI مجموعے میں تصانیف
 OpenITI مجموعہ اس مصنف کے لیے شناخت 0808IbnKhaldun کے تحت 2 تصانیف رکھتا ہے، جن میں یہ شامل ہیں: رحلة، تاريخ۔ {cite:openiti-corpus 0808IbnKhaldun}
+
+## Biblissima اتھارٹی فائل میں
+فرانسیسی Biblissima اتھارٹی فائل اس شخصیت کو شناخت Q16838 کے تحت نام کی صورت «ʿAbd al-Raḥmân ibn Muḥammad Ibn H̱aldūn (1332-1406)» کے ساتھ درج کرتی ہے، اور اس صورت میں پیدائش اور وفات کے سال وہی ہیں جو فائل میں ہیں۔ {cite:biblissima Q16838}

@@ -51,3 +51,6 @@ provenance: { generated_by: "Claude Code (OCR-harvest worker A)", model: claude-
 
 ## أعمال في مدونة OpenITI
 تحفظ مدونة OpenITI لهذا المؤلف تحت المعرّف 0463IbnCabdBarr 15 من الأعمال، منها: بهجة المجالس وأنس المجالس، الدرر، اختلاف أقوال مالك وأصحابه، الإنباه على قبائل الرواة. {cite:openiti-corpus 0463IbnCabdBarr}
+
+## في ملف الاستناد Biblissima
+يسجل ملف الاستناد الفرنسي Biblissima هذا العَلَم تحت المعرّف Q16720 بصيغة الاسم «Yūsuf ibn ʿAbd Allâh Ibn ʿAbd al-Barr al-Qurṭubī (0978-1070)»، وتتضمن الصيغة سنتي الميلاد والوفاة كما يوردهما الملف. {cite:biblissima Q16720}

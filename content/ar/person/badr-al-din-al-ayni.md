@@ -38,3 +38,6 @@ translators: ["Claude Code (claude-haiku-5-5)"]
 
 ## أعمال في مدونة OpenITI
 تحفظ مدونة OpenITI لهذا المؤلف تحت المعرّف 0855BadrDinCayni 10 من الأعمال، منها: البناية شرح الهداية، عقد الجمان في تاريخ أهل الزمان، عمدة القاري، مغاني الأخيار في شرح أسامي رجال معاني الآثار. {cite:openiti-corpus 0855BadrDinCayni}
+
+## في ملف الاستناد Biblissima
+يسجل ملف الاستناد الفرنسي Biblissima هذا العَلَم تحت المعرّف Q2052 بصيغة الاسم «Badr al-Dīn Maḥmūd ibn Aḥmad al- ʿAynī (1361-1451)»، وتتضمن الصيغة سنتي الميلاد والوفاة كما يوردهما الملف. {cite:biblissima Q2052}

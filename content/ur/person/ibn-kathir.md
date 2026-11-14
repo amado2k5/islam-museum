@@ -13,3 +13,6 @@ provenance: { generated_by: "Claude Code (OCR-harvest worker K)", model: claude-
 
 ## OpenITI مجموعے میں تصانیف
 OpenITI مجموعہ اس مصنف کے لیے شناخت 0774IbnKathir کے تحت 15 تصانیف رکھتا ہے، جن میں یہ شامل ہیں: الآداب والأحكام المتعلقة بدخول الحمام، البداية والنهاية، فضائل القرآن، الفصول في السيرة۔ {cite:openiti-corpus 0774IbnKathir}
+
+## Biblissima اتھارٹی فائل میں
+فرانسیسی Biblissima اتھارٹی فائل اس شخصیت کو شناخت Q105729 کے تحت نام کی صورت «Ismāʿīl ibn ʿUmar Ibn Kaṯīr (1301?-1373)» کے ساتھ درج کرتی ہے، اور اس صورت میں پیدائش اور وفات کے سال وہی ہیں جو فائل میں ہیں۔ {cite:biblissima Q105729}
