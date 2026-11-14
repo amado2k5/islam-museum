@@ -9,3 +9,6 @@ Tarabulus (al-Sham) is a great city with a strong wall. It has olives, fruits an
 
 ## In Nomisma
 The Nomisma numismatic vocabulary links this entry to the concept «tripolis_phoenicia», and its linked collections record 38 coins or coin types that name it as issuer, authority or mint. {cite:nomisma tripolis_phoenicia}
+
+## In Yaqut's Mu'jam al-Buldan
+In the entry "Tripoli of al-Sham" Yaqut gives only its place among the climes and its coordinates: it lies in the fourth clime, with a longitude of sixty degrees and thirty-five minutes and a latitude of thirty-four degrees. {cite:mujam-al-buldan-sader-1995 4 p.26}

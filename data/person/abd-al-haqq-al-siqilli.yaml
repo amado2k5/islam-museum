@@ -6,23 +6,24 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لعبد الحق الصقلي، عالم صقلي القرن الحادي عشر، توفي سنة ١٠٧٤م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abd al-Haqq al-Siqilli, the eleventh-century Sicilian scholar, d. 1074; the biographical entry is not yet checked on the page."
+  ar: "عبد الحق بن محمد بن هارون، أبو محمد السهمي القرشي الصقلي، فقيه من أعيان المالكية تعلم في صقلية وحج مرتين ولقي إمام الحرمين الجويني بمكة سنة 450 هـ، وله «تهذيب المطالب» في شرح المدونة، وتوفي بالإسكندرية سنة 466 هـ ⁦(1073 م)⁩ بحسب الأعلام."
+  en: "Abd al-Haqq ibn Muhammad ibn Harun, Abu Muhammad al-Sahmi al-Qurashi al-Siqilli, a notable Maliki jurist educated in Sicily who made the pilgrimage twice and met Imam al-Haramayn al-Juwayni in Mecca in 450 AH; author of Tahdhib al-Matalib, a commentary on the Mudawwana; died in Alexandria in 466 AH (1073 CE according to al-A'lam)."
 wings: [people]
 regions: [andalus-europe]
 periods: [period/buyid-seljuk-fatimid-era]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q66501317
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0072
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002 (vol. 3 p. 281), entry read in full from the local OpenITI text; Wikidata candidate Q66501317"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
-died: { edtf: "1074", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tartib al-Madarik (Qadi Iyad: d. 466 AH)" }
+  completeness: 3
+died: { edtf: "1074", hijri: "0466", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tartib al-Madarik (Qadi Iyad: d. 466 AH)" }
 relations:
   - { type: lived_in, target: place/siqilliya, note: "Place association from the person's nisba/name (الصقلي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
+  - { type: died_in, target: place/alexandria, sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high, note: "al-Zirikli, al-A'lam, vol. 3 p. 281: died in Alexandria" }

@@ -5,7 +5,7 @@ source_lang: ar
 translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
 ## Overview
-A Mamluk brass basin inlaid with gold and silver, made about 1300 CE in Egypt or Syria; the kings of France used it for centuries as a baptismal basin for their sons. {cite:wikidata}
+A Mamluk brass basin inlaid with gold and silver, made between 1325 and 1340 CE, in the second quarter of the fourteenth century, in Egypt or Syria, and attributed by the Louvre to the craftsman Muhammad ibn al-Zayn; the kings of France used it for centuries as a baptismal basin for their sons. {cite:louvre-collections cl010318774}
 
 ## Impact
 In the Louvre; a unique example of an Islamic object that became a ritual in the French crown, and its decoration is among the finest Mamluk engraving. {cite:wikidata}

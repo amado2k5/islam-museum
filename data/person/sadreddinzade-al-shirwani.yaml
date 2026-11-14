@@ -6,12 +6,12 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "محمد أمين بن صدر الدين الشرواني، مفسر نسبته إلى شروان من نواحي بخارى، أقام بآمد وأقام مدة في الآستانة، وله حاشية على تفسير البيضاوي لم تكمل وتفسير سورة الفتح و«الفوائد الخاقانية» في ثلاثة وخمسين علما؛ توفي سنة ١٠٣٦هـ الموافقة ١٦٢٦م."
-  en: "Muhammad Amin ibn Sadr al-Din al-Shirwani, an exegete named for Shirwan, a district of Bukhara, who lived in Amid and for a time in al-Astana; al-Zirikli lists an unfinished gloss on al-Baydawi's commentary, a commentary on Surat al-Fath and «al-Fawa'id al-Khaqaniyya» in 53 sciences. He died in 1036 AH, 1626 CE."
+  ar: "محمد أمين بن صدر الدين الشرواني، مفسر نسبته إلى شروان من نواحي بخارى، أقام بآمد وأقام مدة في الآستانة، وله حاشية على تفسير البيضاوي لم تكمل وتفسير سورة الفتح و«الفوائد الخاقانية» في ثلاثة وخمسين علما؛ توفي في ٣ ذي الحجة سنة ١٠٣٦هـ الموافق ١٥ أغسطس ١٦٢٧م."
+  en: "Muhammad Amin ibn Sadr al-Din al-Shirwani, an exegete named for Shirwan, a district of Bukhara, who lived in Amid and for a time in al-Astana; al-Zirikli lists an unfinished gloss on al-Baydawi's commentary, a commentary on Surat al-Fath and «al-Fawa'id al-Khaqaniyya» in 53 sciences. He died on 3 Dhu al-Hijja 1036 AH, 15 August 1627 CE."
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
-sources: [source/dawlat-uthmaniyya-salabi, source/alam-zirikli-dar-al-ilm-2002]
+sources: [source/dawlat-uthmaniyya-salabi, source/alam-zirikli-dar-al-ilm-2002, source/tdv-sirvani-sadreddinzade]
 external_ids:
   wikidata: Q12842271
 provenance:
@@ -23,6 +23,6 @@ provenance:
 status:
   review: draft
   completeness: 3
-died: { edtf: "1627", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Confirmed on 13 November 2026 against Wikidata Q12842271 (P570, a statement with a reference), item revision 2512613859.", sources: [source/wikidata] }
+died: { edtf: "1627-08-15", hijri: "1036", calendar: gregorian, precision: day, status: historical, derived: false, note: "TDV Islam Ansiklopedisi, vol. 39 pp. 208-209 (R. Altintas, read 14 November 2026): died 3 Dhu al-Hijja 1036 = 15 August 1627, buried at Uskudar. Al-Zirikli, al-A'lam 6:23 prints only 1036 AH, a year that runs from 22 September 1626 to 11 September 1627, so the earlier 1626 in this record came from the year-only conversion and is replaced; the day matches the tabular Hijri conversion. Earlier pass: Wikidata Q12842271 (P570, 1627).", sources: [source/tdv-sirvani-sadreddinzade, source/wikidata] }
 relations:
   - { type: lived_in, target: place/shirwan, confidence: low, note: "Association inferred from the nisba 'الشرواني'; specific birthplace or residence is not individually documented.", sources: [source/dawlat-uthmaniyya-salabi, source/alam-zirikli-dar-al-ilm-2002] }
