@@ -3,28 +3,28 @@ class: person
 label:
   ar: "أبو بكر الشافعي"
   en: "Abu Bakr al-Shafi'i"
-roles: [scholar]
+roles: [muhaddith]
 gender: male
 summary:
-  ar: "بطاقة أولية لأبو بكر الشافعي؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abu Bakr al-Shafi'i; the entry is not yet checked on the page."
+  ar: "أبو بكر محمد بن عبد الله الشافعي، صاحب الغيلانيات، محدث ثقة استقر وتوفي ببغداد سنة 354 هـ؛ ترجمته في «الأعلام» للزركلي."
+  en: "Abu Bakr Muhammad ibn Abdallah al-Shafi'i, author of the Ghaylaniyyat, a reliable hadith scholar who settled and died in Baghdad in 354 AH; his entry is in al-Zirikli's al-A'lam."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q22684067
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Zirikli, al-A'lam, vol. 6 p. 224; entry read on 14 November 2026, original card from a Wikidata candidate"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
   completeness: 1
 born: { edtf: "873", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Khatib al-Baghdadi, Tarikh Baghdad; al-Dhahabi, Siyar" }
 died: { edtf: "965", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Khatib al-Baghdadi, Tarikh Baghdad; al-Dhahabi, Siyar" }
 relations:
-  - { type: died_in, target: place/baghdad, note: "Wikidata Q1530 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: died_in, target: place/baghdad, note: "al-Zirikli: his long journey ended with settling and dying in Baghdad; also Wikidata Q1530 (P20).", sources: [source/alam-zirikli-dar-al-ilm-2002, source/wikidata], confidence: high }
   - { type: lived_in, target: place/abbasid-caliphate, note: "Wikidata Q12536 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }
