@@ -23,5 +23,6 @@ relations:
   - { type: participated_in, target: event/qusayy-takes-mecca, role: "الغالب على ولاية البيت", sources: [source/mubarakpuri-raheeq] }
   - { type: ruler_of, target: place/mecca, start: { edtf: "0440~" }, sources: [source/mubarakpuri-raheeq, source/qalb-jazirat-al-arab] }
   - { type: lived_in, target: place/mecca, sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/ikhbar-al-kiram] }
-sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/ikhbar-al-kiram]
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/ikhbar-al-kiram, source/wikidata-qusayy-ibn-kilab]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 15–34 (batch 25a)" }
+external_ids: { wikidata: "Q2724873" }

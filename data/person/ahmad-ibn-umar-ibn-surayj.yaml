@@ -15,7 +15,7 @@ relations:
   - { type: lived_in, target: place/shiraz, note: "From text: qadi in Shiraz", sources: [source/tabaqat-fuqaha-abbas-1981] }
   - { type: died_in, target: place/baghdad, note: "From text: died in Baghdad", sources: [source/tabaqat-fuqaha-abbas-1981] }
   - { type: student_of, target: person/uthman-ibn-said-al-anmati, role: "أخذ العلم عن أبي القاسم الأنماطي (PDF ص58)", sources: [source/tabaqat-fuqaha-abbas-1981] }
-sources: [source/tabaqat-fuqaha-abbas-1981]
+sources: [source/tabaqat-fuqaha-abbas-1981, source/wikidata-ahmad-ibn-umar-ibn-surayj]
 provenance:
   layer: "own-research"
   source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص54–58"
@@ -31,3 +31,4 @@ occupations:
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/tabaqat-fuqaha-abbas-1981]
+external_ids: { wikidata: "Q6535970" }

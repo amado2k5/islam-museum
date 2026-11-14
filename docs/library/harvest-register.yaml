@@ -16548,13 +16548,14 @@ books:
     - {name: AAlexandrina-011858.pdf, bytes: 61096146, pages: 784, ocr_pages: 784, sha256: dbf980b47e4b69879b5c62fe6dd5b463f4bb2d745d3809724c2ad4f134177a4c}
     - {name: AAlexandrina-129953.pdf, bytes: 68233969, pages: 784, ocr_pages: 784, sha256: e1cc3a47f93c3f67d75108f9a2df328fae3475aefcb7fe2cb22dc37c1c930c7e}
     - {name: FutuhAlBoldan.pdf, bytes: 24604223, pages: 695, ocr_pages: 694, sha256: 77436dbbb56f4639a287fb7822dde03f2f7f88c0f2b1423131411a7e4554c481}
-    acquisition: {source: '4 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-12', by: library harvest (library/manifest.jsonl), bytes: 165394946, sha256_status: computed}
+    acquisition: {source: '4 archive.org items, see files (library/manifest.jsonl); restore URLs https://archive.org/details/20230703_20230703_1444 (mined edition), https://archive.org/details/AAlexandrina-011858, https://archive.org/details/AAlexandrina-129953, https://archive.org/details/FutuhAlBoldan', date: '2026-10-12', by: library harvest (library/manifest.jsonl), bytes: 165394946, sha256_status: computed}
     physical: {pages: 2263}
-    ocr: {state: partial, date: '2026-10-13', failed_pages: 1, unzipped_location: books/tareekh/futuh-buldan/}
-    ocr_archive: {state: none}
-    mining: {state: mined, ranges_mined: ['printed 1-665 (of a 768-page scan; end of text, rest is index)'], entities: 1573 data files cite source/futuh-buldan-maarif-1407}
+    ocr: {state: complete, date: '2026-10-13', failed_pages: 1, unzipped_location: books/tareekh/futuh-buldan/}
+    ocr_archive: {path: ocr-archive/tareekh/futuh-buldan.zip, bytes: 4041655, sha256: e6663d19fbd55a80a2c9f3b11c485752f80645b3e9e35a2cb809dadeb51a03be, pages_covered: 768, zipped: '2026-11-14', state: verified, note: 'unzip -t passed; text of all four scans (pages.json 768, 784, 784, 695 pages; book.txt, early.txt, mid1/mid2) and no images or PDFs; mined edition 20230703_20230703_1444 has 768 page entries, 755 with text, the rest blank pages'}
+    mining: {state: mined, ranges_mined: ['printed 1-665 (of a 768-page scan; end of text)'], skipped_pages: ['666-768: the printed index of places and names; no new facts, nothing to mine (wrap-up 14 Nov 2026)'], entities: 1573 data files cite source/futuh-buldan-maarif-1407}
     ingestion: {state: ingested, prs: [2654, 3540], ledger: [docs/delegation/library/futuh-buldan.md, docs/delegation/lane-ledgers/microsd-books.md], graph_ids: [source/futuh-buldan-maarif-1407, work/futuh-buldan]}
-    completion: ingested
+    completion: deleted
+    deletion: {date: '2026-11-14', deleted: ['raw/library/tareekh/futuh-buldan/ (four PDFs)', 'books/tareekh/futuh-buldan/ (PDF copy, page images, OCR text, scripts, logs)'], bytes_freed: 810710973, kept: [ocr_archive], restore: {url: 'https://archive.org/details/20230703_20230703_1444', sha256: 5571572624fe09935f563b3b5ccbf4b31ad577cc2724bd584be117d07fb83a00, note: 'other three scans: archive.org items AAlexandrina-011858, AAlexandrina-129953, FutuhAlBoldan; hashes in files'}}
     unverified:
     - edition
     - mining.ranges_mined
@@ -16852,11 +16853,13 @@ books:
     - {name: AAlexandrina-011911.pdf, bytes: 64676657, sha256: 4237d9ae6e05770059cbd0023c63ff68310677870c603d7b78c97557fd77fbf5}
     - {name: Heliopolis1957_gmail_2_20181129.pdf, bytes: 12097052, sha256: 9594352560fb32fcc7fb0df04e1c69954af3c80aaccd93651449bd65c41e5418}
     acquisition: {source: '4 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-12', by: library harvest (library/manifest.jsonl), bytes: 151141921, sha256_status: computed}
-    ocr: {state: partial, date: '2026-10-13', unzipped_location: books/tareekh/muruj-dhahab/}
-    ocr_archive: {state: none}
-    mining: {state: mined, entities: 1007 data files cite source/muruj-al-dhahab}
+    physical: {pages: '804 (000944), 768 (011911), 352 (Heliopolis1957), 360 (3_20200910)'}
+    ocr: {state: complete, date: '2026-10-13', unzipped_location: books/tareekh/muruj-dhahab/}
+    ocr_archive: {path: ocr-archive/tareekh/muruj-dhahab.zip, bytes: 3538077, sha256: 7966486c117bca5d521eb63efff04df3af6b5328f3ce1be908bf296c14f384e8, pages_covered: 2284, zipped: '2026-11-14', state: verified, note: 'unzip -t passed; text (book.txt, pages.json, ocr.log) and scripts of all four scans (pages.json 804, 768, 352, 360 pages), no images or PDFs; the two mined scans 000944 and 011911 cover 1572 pages'}
+    mining: {state: mined, ranges_mined: ['011911 to p. 721 of 768 (rest is the table of contents and index)', '000944 to p. 751 (colophon) of 804'], skipped_pages: ['Heliopolis1957 (352 pp) and 3_20200910 (360 pp): duplicate coverage of the same text, not mined separately (ledger)', '011911 pp. 722-768 and 000944 pp. 752-804: indexes and front matter (ledger; wrap-up 14 Nov 2026, not re-read)'], entities: 1007 data files cite source/muruj-al-dhahab}
     ingestion: {state: ingested, prs: [1600], ledger: [docs/delegation/library/muruj-dhahab.md], graph_ids: [source/muruj-al-dhahab]}
-    completion: ingested
+    completion: deleted
+    deletion: {date: '2026-11-14', deleted: ['raw/library/tareekh/muruj-dhahab/ (four PDFs)', 'books/tareekh/muruj-dhahab/ (PDF copies, page images, OCR text, scripts, logs)'], bytes_freed: 818525591, kept: [ocr_archive], restore: {url: 'https://archive.org/details/AAlexandrina-011911', sha256: 4237d9ae6e05770059cbd0023c63ff68310677870c603d7b78c97557fd77fbf5, note: 'other scans: archive.org items AAlexandrina-000944, Heliopolis1957_gmail_2_20181129, 3_20200910; hashes in files'}}
     unverified:
     - edition
     - mining.ranges_mined
@@ -16865,7 +16868,7 @@ books:
     - ocr.quality
     - physical.offset
     - year
-    notes: 'needs OCR zip (ocr_archive none); progress file says the book is complete (not independently verified); progress file: COMPLETE, both Dar al-Afriqiyya volumes mined end to end (to p.721 and p.751 colophon); other scans are duplicates not mined'
+    notes: 'OCR zip verified 14 Nov 2026; progress file says the book is complete (not independently verified); progress file: COMPLETE, both Dar al-Afriqiyya volumes mined end to end (to p.721 and p.751 colophon); other scans are duplicates not mined'
   - id: musawat-atabat
     title: موسوعة العتبات المقدسة — قسم سامراء
     author: Ja'far al-Khalili
@@ -17003,13 +17006,14 @@ books:
     - {name: AAlexandrina-001518.pdf, bytes: 51172752, pages: 528, ocr_pages: 528, sha256: eec0ca9de007b248133629a584ea21e78db0331e16a98b11893f58f5940c6958}
     - {name: AAlexandrina-223853.pdf, bytes: 112212590, pages: 912, ocr_pages: 912, sha256: 5591ab80691eb9f3a488cf0bfc9e3e2e4d5f260eef1673c899a0c1eceff048af}
     - {name: AAlexandrina-223861.pdf, bytes: 96658130, pages: 880, ocr_pages: 880, sha256: 7eb4642e6af002dcdc5ddce916637492b98cfab26d685e7314558c840ea522bf}
-    acquisition: {source: '4 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-12', by: library harvest (library/manifest.jsonl), bytes: 273368703, sha256_status: computed}
+    acquisition: {source: '4 archive.org items AAlexandrina-001518, AAlexandrina-223853, AAlexandrina-223861, 20240821_20240821_0039 (https://archive.org/details/<item>)', date: '2026-10-12', by: library harvest (library/manifest.jsonl), bytes: 273368703, sha256_status: computed}
     physical: {pages: 3159}
     ocr: {state: complete, date: '2026-10-14', unzipped_location: books/tareekh/shadharat-dhahab/}
-    ocr_archive: {state: none}
+    ocr_archive: {path: ocr-archive/tareekh/shadharat-dhahab.zip, bytes: 4451830, sha256: 8df1cd9f3ff7edfcbe67d8e73cf4158c45f9cb118957535a465f3717571869af, pages_covered: 3159, zipped: '2026-11-14', state: verified, note: 'unzip -t passed; book.txt, pages.json and meta.json of all four scans (839, 528, 912, 880 pages), no images or PDFs'}
     mining: {state: mined, entities: '1687 data files cite source/shadharat-dhahab,qisas-anbiya-thaalabi-edition'}
     ingestion: {state: ingested, prs: [179, 2652], ledger: [docs/delegation/library/qisas-prophets.md, docs/delegation/library/shadharat-dhahab.md], graph_ids: [source/shadharat-dhahab, source/qisas-anbiya-thaalabi-edition]}
-    completion: ingested
+    completion: deleted
+    deletion: {date: '2026-11-14', deleted: ['raw/library/tareekh/shadharat-dhahab/ (four PDFs)', 'books/tareekh/shadharat-dhahab/ (page images, OCR text, scripts, logs)'], bytes_freed: 1072868085, kept: [ocr_archive], restore: {url: 'https://archive.org/details/AAlexandrina-223861', sha256: 7eb4642e6af002dcdc5ddce916637492b98cfab26d685e7314558c840ea522bf, note: 'other scans: archive.org items AAlexandrina-001518, AAlexandrina-223853, 20240821_20240821_0039; hashes in files'}}
     unverified:
     - edition
     - mining.ranges_mined
@@ -17019,7 +17023,7 @@ books:
     - physical.offset
     - publisher
     - year
-    notes: 'needs OCR zip (ocr_archive none); progress file says the book is complete (not independently verified); progress file: vols 1-8 fully mined through AH 1000 and colophon; other source ids: qisas-anbiya-thaalabi-edition'
+    notes: 'PDFs and working files deleted 14 Nov 2026; OCR zip verified 14 Nov 2026; all four scans mined (vols 1-8 through AH 1000 and colophon); the AH 701-800 stretch was never scanned (source gap, not a skipped page); progress file says the book is complete (not independently verified); progress file: vols 1-8 fully mined through AH 1000 and colophon; other source ids: qisas-anbiya-thaalabi-edition'
   - id: subh-asha
     title: صبح الأعشى
     author: أبو العباس أحمد القلقشندي; Abu al-Abbas Ahmad al-Qalqashandi
