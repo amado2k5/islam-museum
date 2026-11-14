@@ -6,30 +6,30 @@ label:
 roles: [muhaddith]
 gender: male
 summary:
-  ar: "بطاقة أولية لالعباس بن عبد الله الترقفي؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Al-Abbas ibn Abdallah al-Tarqafi; the entry is not yet checked on the page."
+  ar: "العباس بن عبد الله بن أبي عيسى، أبو محمد الترقفي، من رواة الحديث، وثقه الخطيب كما ينقل الصفدي وروى عنه ابن ماجه، توفي سنة 267 هـ."
+  en: "Al-Abbas ibn Abdallah ibn Abi Isa, Abu Muhammad al-Tarqafi, a hadith narrator described as reliable, righteous and devout (al-Khatib, as quoted by al-Safadi); Ibn Majah narrated from him; died 267 AH (about 880)."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/wafi-bi-l-wafayat-safadi-dar-ihya-2000]
 external_ids:
   wikidata: Q134295808
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 Medium)"
-  model: "SWE-2 Medium"
-  run: wikidata-import-wave2
+  source: "al-Safadi, al-Wafi bi-l-Wafayat, ed. al-Arna'ut and Mustafa, Dar Ihya al-Turath 2000, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-wafi-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 2
 occupations:
   - job: job/muhaddith
     kind: primary
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/al-aalam]
-died: { edtf: "880", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Tarikh) Confirmed on 13 November 2026 against Wikidata Q134295808 (P570, a statement with a reference), item revision 2426231382.", sources: [source/wikidata] }
+died: { edtf: "880", hijri: "0267", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Tarikh) Confirmed on 13 November 2026 against Wikidata Q134295808 (P570, a statement with a reference), item revision 2426231382. al-Safadi prints 267 AH {cite:wafi-bi-l-wafayat-safadi-dar-ihya-2000 vol. 16 p. 375}; the CE year is derived and agrees with the card.", sources: [source/wikidata, source/wafi-bi-l-wafayat-safadi-dar-ihya-2000] }
 relations:
   - { type: lived_in, target: place/baghdad, note: "Wikidata Q1530 (P551); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: lived_in, target: place/abbasid-caliphate, note: "Wikidata Q12536 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }
