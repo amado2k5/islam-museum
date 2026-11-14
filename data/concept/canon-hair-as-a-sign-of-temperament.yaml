@@ -1,0 +1,18 @@
+id: concept/canon-hair-as-a-sign-of-temperament
+class: concept
+kind: scientific
+label: { ar: "الشعر دليلاً على المزاج عند ابن سينا", en: "Hair as a sign of temperament in the Canon", ur: "بال بطور علامتِ مزاج، قانون کے مطابق" }
+summary:
+  ar: "يجعل ابن سينا الشعر دليلاً من جهة سرعة نباته وكثرته وغلظه وشكله ولونه، ويذكر رأيي أرسطو وجالينوس في سبب الشيب، وتأثير البلدان والأسنان {cite:canon-ibn-sina-print-v1 pp.159-160}."
+  en: "Ibn Sina treats hair as a sign by speed of growth, abundance, thickness, form and colour, and gives the views of Aristotle and Galen on the cause of grey hair and the effect of lands and ages {cite:canon-ibn-sina-print-v1 pp.159-160}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/symptoms-and-signs, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, Ta'lim 3 chapters 1 to 4 on symptoms, signs and the signs of temperament (scan pages 154 to 163), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-fann2-talim3-ch1-4
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

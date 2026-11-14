@@ -1,0 +1,67 @@
+id: event/al-hadi-at-hawth-and-al-ghubayb-and-the-return-to-khiwan-on-1-dhu-al-qada-286
+class: event
+kind: other
+label:
+  ar: الهادي بحوث والغبيب في طلب ابن الضحاك والعودة إلى خيوان غرة ذي القعدة 286هـ
+  en: Al-Hadi at Hawth and al-Ghubayb in pursuit of Ibn al-Dahhak and the return to Khiwan on 1 Dhu al-Qa'da 286 AH
+  ur: حوث اور غبیب میں ابن ضحاک کی تلاش اور غرۂ ذی القعدہ 286ھ کو خیوان واپسی
+summary:
+  ar: يلقاه عسكر لأبي العتاهية قرب أثافت بعد خبر حربه ومهاجمة ابن الضحاك لأبي القاسم، فينزل حوث ويهدم دار رجل ظاهر ابن الضحاك ويصفح عن قطع عنبه، ثم يطلب ابن الضحاك بالغبيب فيجده خالياً فيأمر بقطع العنب وهدم المنازل، فيرسل القوم مشايخ يسألون الصفح فيؤمنهم ويستحلفهم ويعود إلى خيوان أول ذي القعدة.
+  en: An army of Abu al-Atahiya meets him near Athafit after news of his fighting and of Ibn al-Dahhak's attack on Abu al-Qasim; he camps at Hawth, has the house of a man who had backed Ibn al-Dahhak pulled down but spares his vines at others' request, then pursues Ibn al-Dahhak to al-Ghubayb and finds it empty, orders vines cut and houses pulled down, grants the elders' plea for pardon, takes their oath and returns to Khiwan on 1 Dhu al-Qa'da.
+  ur: اثافت کے قریب ابو العطاہیہ کا لشکر ان سے ملتا ہے جب ان کی لڑائی اور ابن ضحاک کے ابو القاسم پر حملے کی خبر پہنچتی ہے؛ وہ حوث میں اترتے ہیں، ابن ضحاک کا ساتھ دینے والے ایک شخص کا گھر گرواتے ہیں اور لوگوں کے کہنے پر اس کے انگور کاٹنے سے درگزر کرتے ہیں، پھر ابن ضحاک کی تلاش میں غبیب پہنچ کر اسے خالی پاتے ہیں، انگور کاٹنے اور گھر گرانے کا حکم دیتے ہیں، بزرگوں کی درخواست پر معاف کرتے ہیں، ان سے حلف لیتے ہیں اور غرۂ ذی القعدہ کو خیوان لوٹ آتے ہیں۔
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: '0899-11-08'
+    hijri: '0286-11-01'
+    calendar: julian
+    precision: day
+    status: tradition
+    derived: true
+    note: أول ذي القعدة سنة 286هـ بنص الكتاب؛ يوافق 8 تشرين الثاني 899م جولياني بالتقويم الجدولي؛ التحويل مشتق
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/athafit
+- type: occurred_at
+  target: place/hawth-yemen
+- type: occurred_at
+  target: place/al-ghubayb-yemen
+- type: occurred_at
+  target: place/khiwan
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/al-murtada-muhammad
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ibn-al-dahhak-rebel-at-khiwan-286
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abu-al-atahiya-ibn-bishr
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص144-145 ⁦(الصفحة المطبوعة)⁩'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-19
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 144-145

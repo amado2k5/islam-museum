@@ -6,27 +6,27 @@ label:
 roles: [historian, scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لعبد القادر بن محمد الجزيري، مؤرخ وفقيه وكاتب القرن السادس عشر، توفي سنة ١٥٧٠م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abd al-Qadir ibn Muhammad al-Jaziri, the sixteenth-century historian, jurist and writer, d. 1570; the source entry is not yet checked on the page."
+  ar: "عبد القادر بن محمد الأنصاري الجزيري، باحث حنبلي مصري نسبته إلى جزيرة الفيل، صاحب «درر الفرائد المنظمة في أخبار الحاج وطريق مكة المعظمة»؛ تذكر الأعلام مولده 880 هـ ووفاته نحو 977 هـ."
+  en: "Abd al-Qadir ibn Muhammad al-Ansari al-Jaziri, a Hanbali scholar of Egypt named for Jazirat al-Fil, author of Durar al-Fara'id on the pilgrims and the road to Mecca; al-A'lam gives his birth as 880 AH and his death as about 977 AH."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/gunpowder-empires]
-sources: [source/shadharat-dhahab, source/wikidata]
+sources: [source/shadharat-dhahab, source/alam-zirikli-dar-al-ilm-2002, source/wikidata]
 external_ids:
   wikidata: Q97357478
   viaf: "42122455"
-provenance:
-  layer: own-research
-  source: "Wikidata candidate; book source: Ibn al-Imad, Shadharat al-Dhahab — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0074
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 born: { edtf: "1505", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Umdat al-Safwa; al-A'lam (al-Zirikli: 911–977 AH) Confirmed on 13 November 2026 against Wikidata Q97357478 (P569, a statement with a reference), item revision 2491152698.", sources: [source/wikidata] }
 died: { edtf: "1570", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Umdat al-Safwa; al-A'lam (al-Zirikli: 911–977 AH) Confirmed on 13 November 2026 against Wikidata Q97357478 (P570, a statement with a reference), item revision 2491152698.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/cairo, note: "Wikidata Q85 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: died_in, target: place/istanbul, note: "Wikidata Q406 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: lived_in, target: place/ottoman-empire, note: "Wikidata Q12560 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+provenance:
+  layer: own-research
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14

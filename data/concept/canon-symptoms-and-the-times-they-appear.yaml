@@ -1,0 +1,18 @@
+id: concept/canon-symptoms-and-the-times-they-appear
+class: concept
+kind: scientific
+label: { ar: "الأعراض بحسب أوقات ظهورها عند ابن سينا", en: "Symptoms by the time they appear in the Canon", ur: "ظاہر ہونے کے وقت کے لحاظ سے اعراض، قانون کے مطابق" }
+summary:
+  ar: "يقسم ابن سينا الأعراض بحسب علاقتها الزمنية بالمرض إلى مؤقتة تبتدئ وتنقطع معه، وغير موقتة تتبعه تارة ولا تتبعه أخرى، وما يأتي آخر الأمر كعلامات البحران والنضج والعطب {cite:canon-ibn-sina-print-v1 pp.154-155}."
+  en: "Ibn Sina sorts symptoms by their timing against the disease: those fixed to it, beginning and ending with it, those with no known time that sometimes follow it and sometimes not, and those that come at the end, the signs of crisis, of ripening and of ruin {cite:canon-ibn-sina-print-v1 pp.154-155}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/symptoms-and-signs, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, Ta'lim 3 chapters 1 to 4 on symptoms, signs and the signs of temperament (scan pages 154 to 163), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-fann2-talim3-ch1-4
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

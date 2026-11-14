@@ -1,0 +1,18 @@
+id: concept/canon-reading-disease-from-harm-to-functions
+class: concept
+kind: scientific
+label: { ar: "الاستدلال من مضار الأفعال عند ابن سينا", en: "Reading disease from harm to functions in the Canon", ur: "افعال کے ضرر سے استدلال، قانون کے مطابق" }
+summary:
+  ar: "يقول ابن سينا إن العضو إذا لم يجر فعله على المجرى الطبيعي دل على أن القوة أصابتها آفة، وآفة القوة تتبع مرضاً في العضو، ومضار الأفعال ثلاثة وجوه: النقص والتغير والبطلان {cite:canon-ibn-sina-print-v1 pp.156-157}."
+  en: "Ibn Sina says that when an organ's function does not run its natural course, the faculty has been struck, and harm to a faculty follows disease in the organ; the harm to functions takes three forms: diminished, altered and abolished {cite:canon-ibn-sina-print-v1 pp.156-157}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/symptoms-and-signs, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, Ta'lim 3 chapters 1 to 4 on symptoms, signs and the signs of temperament (scan pages 154 to 163), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-fann2-talim3-ch1-4
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }
