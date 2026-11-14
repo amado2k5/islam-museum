@@ -6,16 +6,17 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لمحمد بن عبد الله التمرتاشي، فقيه القرن السادس عشر، توفي سنة ١٥٩٦م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Muhammad ibn Abdallah al-Tamirtashi, the sixteenth-century jurist, d. 1596; the source entry is not yet checked on the page."
+  ar: "محمد بن عبد الله بن أحمد، الخطيب العمري التمرتاشي الغزي الحنفي، شمس الدين ⁦(939 - 1004هـ / 1532 - 1596م)⁩، شيخ الحنفية في عصره، من أهل غزة ولد فيها وتوفي فيها؛ ومن كتبه «تنوير الأبصار» في الفقه وشرحه «منح الغفار» {cite:al-aalam}."
+  en: "Muhammad ibn Abdallah ibn Ahmad al-Khatib al-'Umari al-Tumurtashi al-Ghazzi al-Hanafi, Shams al-Din (939-1004 AH / 1532-1596), described by al-Zirikli as the leading Hanafi of his time, a native of Gaza who was born and died there; his books include the jurisprudence manual Tanwir al-absar and its commentary Minah al-ghaffar {cite:al-aalam}."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/gunpowder-empires]
-born: { edtf: "1532", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam Confirmed on 13 November 2026 against Wikidata Q60844562 (P569, a statement with a reference), item revision 2567773403.", sources: [source/wikidata] }
-died: { edtf: "1596", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam Confirmed on 13 November 2026 against Wikidata Q60844562 (P570, a statement with a reference), item revision 2567773403.", sources: [source/wikidata] }
+born: { edtf: "1532", hijri: "0939", calendar: julian, precision: year, derived: true, note: "939 AH / 1532 in al-Zirikli, al-A'lam, entry al-Khatib al-Tumurtashi (vol. 6 p. 239, OpenITI page tag PageV06P239), read 14 Nov 2026; agrees with Wikidata Q60844562 (P569, revision 2567773403).", sources: [source/al-aalam, source/wikidata] }
+died: { edtf: "1596", hijri: "1004", calendar: julian, precision: year, derived: true, note: "1004 AH / 1596 in al-A'lam (same entry). Identity check: al-A'lam also has separate entries for other Tumurtashis (Salih ibn Muhammad, d. 1055 AH; Ahmad ibn Isma'il, d. c. 610 AH); this card is Muhammad ibn Abdallah, not Muhammad ibn Abdallah Al Khalifa (d. 1876), a mismatch from an earlier web-source batch.", sources: [source/al-aalam, source/wikidata] }
 relations:
-  - { type: born_in, target: place/gaza, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q47492)" }
-sources: [source/shadharat-dhahab, source/wikidata]
+  - { type: born_in, target: place/gaza, sources: [source/al-aalam, source/wikidata], confidence: high, note: "Al-Zirikli: of the people of Gaza, born and died there (read 14 Nov 2026); Wikidata P19 agrees." }
+  - { type: died_in, target: place/gaza, sources: [source/al-aalam], confidence: high, note: "Al-Zirikli, al-A'lam vol. 6 p. 239: his birth and death were in Gaza." }
+sources: [source/al-aalam, source/shadharat-dhahab, source/wikidata]
 external_ids:
   wikidata: Q60844562
   viaf: "41726304"
