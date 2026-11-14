@@ -16,10 +16,11 @@ died: { edtf: "1549", calendar: gregorian, precision: year, derived: true, note:
 relations:
   - { type: born_in, target: place/aleppo, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/shadharat-dhahab, source/wikidata]
+sources: [source/shadharat-dhahab, source/wikidata, source/biblissima]
 external_ids:
   wikidata: Q4195341
   viaf: "44293423"
+  biblissima: "Q7268"
 provenance:
   layer: own-research
   source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.1 p.66)"

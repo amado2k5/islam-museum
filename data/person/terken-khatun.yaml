@@ -53,8 +53,10 @@ sources:
   - source/wikipedia-terken-khatun-en
   - source/wikipedia-terken-khatun-ar
   - source/wikidata-terken-khatun
+  - source/biblissima
 external_ids:
   wikidata: Q5954482
+  biblissima: "Q231880"
 provenance:
   layer: own-research
   source: "English Wikipedia 'Terken Khatun (wife of Ala al-Din Tekish)' (revision 1374801217 of 14 Sep 2026; the bare 'Terken Khatun' title is a disambiguation page), Arabic Wikipedia «تركان خاتون» (revision 61664857 of 15 Mar 2023), Wikidata Q5954482 (item rev. 2558702606 of 19 Oct 2026, re-asserted against a second live query in the same session). Existence checks by name fragments (terken, turkan, تركان) and by QID across data/person on origin/main found no prior record for the Khwarazmian empress. LABEL COLLISION (for the coordinator's homonym registration): she is a different woman from person/turkan-khatun, Malik-Shah I's wife, whose Arabic label is «تركان زوجة ملكشاه» and who has no English label; the two women's names coincide in both scripts (Terken/Turkan Khatun; تركان خاتون), and English-language sources use 'Turkan Khatun' for this empress as well, so the pair should be registered in data/_homonyms.yaml. RELATIONS: her husband person/ala-al-din-tekish and her son person/muhammad-khwarazmshah both have records on main; under the write-once rule the spouse_of edge belongs in the elder spouse's record (Tekish's) and the child_of edge in the son's record, so no family edge is written here."

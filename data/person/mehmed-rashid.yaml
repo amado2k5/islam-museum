@@ -11,11 +11,12 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
+born: { edtf: "1670~", calendar: gregorian, precision: year, derived: false, status: tradition, note: "TDV Islam Ansiklopedisi (Fatih Günay) states he is estimated to have been born in Istanbul in 1670; read 14 November 2026. Wikidata Q1917295 also carries 1670. Corrects Gemini's c. 1080 AH only in form (1080 AH is about 1669/70).", sources: [source/tdv-rasid-mehmed-efendi] }
 died: { edtf: "1735", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Confirmed on 13 November 2026 against Wikidata Q1917295 (P570, a statement with a reference), item revision 2554050698.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
+sources: [source/dawlat-uthmaniyya-salabi, source/wikidata, source/tdv-rasid-mehmed-efendi]
 external_ids:
   wikidata: Q1917295
   viaf: "77738854"
