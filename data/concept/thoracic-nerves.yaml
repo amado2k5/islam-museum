@@ -1,0 +1,18 @@
+id: concept/thoracic-nerves
+class: concept
+kind: scientific
+label: { ar: "أعصاب فقار الصدر عند ابن سينا", en: "Thoracic nerves in the Canon", ur: "قانون میں سینے کے مہروں کے اعصاب" }
+summary:
+  ar: "يخصص ابن سينا الفصل الرابع من جملة العصب لأعصاب فقار الصدر، فيذكر أن الأول منها يخرج بين الفقرتين الأولى والثانية ويرافق ثامن أعصاب العنق إلى اليد، وأن سائرها يتجه إلى عضل الكتف والصلب والأضلاع والبطن {cite:canon-ibn-sina-print-v1 pp.82-83}."
+  en: "Ibn Sina gives the fourth chapter of the nerves group to the nerves of the thoracic vertebrae: the first leaves between the first and second vertebrae and travels with the eighth cervical nerve to the hand, and the rest go to the muscles of the shoulder, back, ribs and abdomen {cite:canon-ibn-sina-print-v1 pp.82-83}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/nerves, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 1, on nerves and vessels (scan pages 82 to 90), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-vessels-1
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

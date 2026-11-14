@@ -1,0 +1,18 @@
+id: concept/descending-aorta
+class: concept
+kind: scientific
+label: { ar: "الشريان النازل عند ابن سينا", en: "The descending artery in the Canon", ur: "قانون میں اترنے والی شریان" }
+summary:
+  ar: "في الفصل الخامس يتتبع ابن سينا الشريان النازل من القلب على الصلب إلى عظم العجز، ويعدد ما يخلفه في طريقه من شعب إلى الرئة والحجاب والمعدة والكبد والطحال والأمعاء والكليتين والأنثيين {cite:canon-ibn-sina-print-v1 pp.86-87}."
+  en: "In the fifth chapter Ibn Sina follows the descending artery from the heart along the spine to the sacrum and lists the branches it leaves on the way to the lung, diaphragm, stomach, liver, spleen, intestines, kidneys and testicles {cite:canon-ibn-sina-print-v1 pp.86-87}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/arteries, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 1, on nerves and vessels (scan pages 82 to 90), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-vessels-1
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }
