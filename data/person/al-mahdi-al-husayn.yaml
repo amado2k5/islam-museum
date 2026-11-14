@@ -6,24 +6,24 @@ label:
 roles: [ruler]
 gender: male
 summary:
-  ar: "بطاقة أولية للمهدي الحسين بن القاسم، إمام الدولة الزيدية في اليمن من سنة ١٠٠٣م إلى ١٠١٣م؛ تذكره معاجم الدول الإسلامية ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for al-Mahdi al-Husayn ibn al-Qasim, the imam of the Zaydi state of Yemen from 1003 to 1013; the dynastic handbook entry is not yet checked on the page."
+  ar: "الحسين بن القاسم بن علي العياني، المهدي لدين الله، من أئمة الزيدية باليمن، قام بالإمامة بعد أبيه وأقام بصنعاء، وقتل في البون شمالي صنعاء سنة 404 هـ، من كتبه «التحدي للعلماء والجهال»."
+  en: "Al-Husayn ibn al-Qasim ibn Ali al-Iyani, al-Mahdi li-Din Allah, one of the Zaydi imams of Yemen, who took up the imamate after his father and lived at Sanaa; he was killed at al-Bun, north of Sanaa, in 404 AH. His books include 'al-Tahaddi lil-Ulama wa al-Juhhal'."
 wings: [people]
 regions: [arabia]
 periods: [period/buyid-seljuk-fatimid-era]
-sources: [source/bosworth-new-islamic-dynasties-1996]
+sources: [source/bosworth-new-islamic-dynasties-1996, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q4702776
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: Bosworth, The New Islamic Dynasties (1996) — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0050
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
-born: { edtf: "986", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam 2/236; 376–404 AH; Zaydi imam)" }
-died: { edtf: "1013", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam 2/236; 376–404 AH; Zaydi imam)" }
+  completeness: 3
+born: { edtf: "994", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 2 p. 219: the heading gives 384 AH = 994 CE as the first year, taken here as printed; the card earlier held 986 (376 AH) from a note on another page." }
+died: { edtf: "1013", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 2 p. 219: 404 AH = 1013 CE; killed at al-Bun, north of Sanaa." }
 relations:
   - { type: lived_in, target: place/yemen, note: "From text: of Yemen", sources: [source/bosworth-new-islamic-dynasties-1996], confidence: low }

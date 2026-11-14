@@ -1112,3 +1112,20 @@ Wrote ar, en and ur prose for vila, th-nia, el-mahalla-el-kubra, ioannina, kirku
 
 - Biblissima label read for 78 persons with a Biblissima id and full prose; section added in ar, en, ur (cite-check 78 of 78). VIAF has no readable public data channel in this pass (the cluster pages are not fetched), so VIAF prose is not written: a VIAF number alone is no fact worth a section.
 - Yaqut, Mu'jam al-Buldan, Dar Sader 1995 (Shamela book 23735, pages 1 to 2460 by index): download to books/geography/mujam-al-buldan-sader-shamela23735/pages.jsonl on the microSD (about 3 MB, claimed in WORK-REGISTRY.md), curl with a 2 s pause (shamela.ws answers curl). The edition is not the Khanji print of the existing scan: citations will name volume and page of the Dar Sader print and need a new source entity.
+
+
+## 2026-11-14 (Lane B2 packet alm17) - al-A'lam persons, eleven written
+
+Source: al-Zirikli, al-A'lam, 15th ed. 2002 (alam-zirikli-dar-al-ilm-2002). Each entry read in full; match checked by name, role and dates. None skipped.
+
+- ali-ibn-abd-al-wahid-al-sijilmasi (written vol. 4 p. 250): card summary said eighteenth-century Moroccan writer and linguist: corrected to Maliki jurist, d. 1647; born 1594 removed (the entry gives no birth).
+- ibn-mawdud-al-mawsili (written vol. 4 p. 130): card born 1202 kept (599 AH spans 1202 to 1203).
+- abu-al-abbas-al-sabti (written vol. 1 p. 84): card born 1129 kept (524 AH begins late 1129); added born_in Ceuta; the divided judgements of his chroniclers are each attributed.
+- abdallah-ibn-muhammad-al-shinshawri (written vol. 4 p. 115): region corrected levant-iraq to egypt-nile; card years 1528 and 1590 kept (entry 1528 to 1591, same Hijri years).
+- al-mahdi-al-husayn (written vol. 2 p. 219): card born 986 changed to 994 (entry heading 384 AH as printed; flagged: a 9-year-old imam is odd, the heading may mark something else); died 1013 confirmed.
+- ibrahim-al-thaqafi (written vol. 1 p. 36): Zaydi then Imami labelled first; no corrections.
+- abd-al-hamid-al-zahrawi (written vol. 3 p. 286): no date corrections; role politician added; born_in Homs added; the entry's 1327 AH = 1908 written as printed.
+- al-shaykh-al-mufid (written vol. 6 p. 291): card born 948 kept; nisba corrected to al-Ukbari (born Ukbara); Imami labelled first; al-Dhahabi remark attributed.
+- abd-al-rahman-shaykhizade (written vol. 3 p. 286): role translator removed (not in the entry); Gallipoli added.
+- al-bazzazi (written vol. 7 p. 29): no corrections; the fatwa on Timur is given as the entry reports it.
+- ahmad-ibn-fahad-al-hilli (written vol. 1 p. 220): no corrections; died_in Karbala added.
