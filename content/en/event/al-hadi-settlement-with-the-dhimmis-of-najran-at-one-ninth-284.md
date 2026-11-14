@@ -1,0 +1,17 @@
+---
+id: event/al-hadi-settlement-with-the-dhimmis-of-najran-at-one-ninth-284
+lang: en
+source_lang: ar
+translators: ["Claude Sonnet 5.5 (claude-sonnet-5-5), draft translation"]
+---
+## Overview
+The book gives the heading "The settlement made between the Muslims and the dhimma of the people of Najran": [[person/al-hadi-yahya-al-rassi|al-Hadi]] looked into the dhimmis and the property in their hands which was not pre-Islamic but which they had bought in the abode of Islam from Muslims. {cite:sira-hadi-ila-al-haqq p.72} [[person/abu-jafar-muhammad-ibn-ubaydallah-al-abbasi|Muhammad ibn Ubaydallah]] says he heard al-Hadi say that if dhimmis were left free to buy Muslim property the tithes would lapse and Islam weaken, so it is better that they sell it to Muslims on whose property God laid the alms, and not leave it in the hands of the dhimma, who would thereby cut off God's due and weaken Islam. {cite:sira-hadi-ila-al-haqq p.72} This is a juristic position in a Zaydi book, shown as the narrator ascribes it to the imam. See [[concept/ahl-al-dhimma]] and [[concept/jizya]].
+
+## Calling in, the protest and the ninth
+He sent for the dhimmis and told them to hand over what they had bought from Muslims, except what was pre-Islamic, which was theirs; they protested: "Son of the Messenger of God, take from us what you wish but do not take these properties out of our hands." {cite:sira-hadi-ila-al-haqq p.72} At night he said he had looked into their affair and resolved to take the property from them so they would sell it to Muslims, they disliked it, so he argued with himself, asked God's guidance much, and resolved to make a settlement with which they and he would be content, namely one-ninth of all they harvested from their properties. {cite:sira-hadi-ila-al-haqq p.72} The narrator asked how their settlement could be one-ninth, and he said it is a settlement like the one the Messenger of God made with the dhimma; had he settled at a tenth he feared some ignorant people would think he took a tithe of their property as of Muslims', so they would settle at a ninth. {cite:sira-hadi-ila-al-haqq p.72}
+
+## Offering and writing the settlement
+He then sent for the dhimmis and for a group of Muslims including the jurists of the town and elsewhere, and offered the settlement to the dhimmis before all the people, with their consent, unforced and uncompelled; they agreed, and he had a group of Muslims and dhimmis witness it in his document, and told the narrator he hoped the settlement would become a sunna after him as it was from Muhammad. {cite:sira-hadi-ila-al-haqq p.72} {cite:sira-hadi-ila-al-haqq p.73} At dawn he sat and called for paper and wrote a copy himself; it was copied, one copy was given to the dhimma of Najran and one kept by him to be written out for any dhimma to whom the same settlement applied. {cite:sira-hadi-ila-al-haqq p.73}
+
+## The opening of the text
+The text opens "In the name of God, the Merciful, the Compassionate. This is a document written by al-Hadi ila al-Haqq, Amir al-Mu'minin Yahya ibn al-Husayn, between him and the dhimma of Najran and other dhimma who accept what the dhimma of Najran accepted", then praise of God and the testimonies of faith. {cite:sira-hadi-ila-al-haqq p.73} The text runs on through pages not yet read, so its terms are not summarised here. On p. 48 the book promised to explain a settlement with the dhimma at its end; whether that is this one is not yet clear.

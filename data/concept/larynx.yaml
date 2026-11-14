@@ -1,0 +1,18 @@
+id: concept/larynx
+class: concept
+kind: scientific
+label: { ar: "الحنجرة عند ابن سينا", en: "The larynx in the Canon", ur: "قانون میں حنجرہ" }
+summary:
+  ar: "الحنجرة عضو غضروفي خُلق آلة للصوت، مؤلف من ثلاثة غضاريف، وأمامها عظم لامي يخرج منه ليف عضلها {cite:canon-ibn-sina-print-v1 pp.65-66}."
+  en: "The larynx is a cartilaginous organ made as an instrument of the voice, built of three cartilages, with a lam-shaped bone before it from which the fibres of its muscles arise {cite:canon-ibn-sina-print-v1 pp.65-66}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/muscles, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 1, Jumla 2 on muscles (scan pages 60 to 66), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-bones-3
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }
