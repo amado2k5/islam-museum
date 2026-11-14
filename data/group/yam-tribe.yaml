@@ -1,0 +1,35 @@
+id: group/yam-tribe
+class: group
+kind: tribe
+label:
+  ar: يام
+  en: Yam (Yemeni tribe)
+  ur: یام ⁦(یمنی قبیلہ)⁩
+summary:
+  ar: قبيلة يمنية وفد منها إلى الهادي من نجران، وذُكر أن رجلاً منها حُدّ بشرب الخمر فمات.
+  en: A Yemeni tribe among the Najran delegation to al-Hadi; a man of Yam is reported flogged for drinking and dying of the penalty.
+  ur: ایک یمنی قبیلہ جو نجران کے وفد میں تھا؛ اس کے ایک شخص کو شراب پر کوڑے لگے اور وہ مر گیا۔
+wings:
+- people
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+relations:
+- type: allied_with
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+  note: بايعوه في نجران سنة 284هـ
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص66-80 ⁦(الصفحة المطبوعة)⁩'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-9
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, printed pp. 66-80

@@ -1,0 +1,71 @@
+id: event/al-hadi-expedition-to-daa-of-shakir-and-return-to-saada-284
+class: event
+kind: other
+label:
+  ar: خروج الهادي إلى ضاة من بلاد شاكر وعودته إلى نجران ثم صعدة، رمضان 284هـ
+  en: Al-Hadi's march to Da'a in the land of Shakir, his return to Najran and then Sa'da, Ramadan 284 AH
+  ur: ہادی کا شاکر کے علاقے ضاۃ کی طرف نکلنا، نجران اور پھر صعدہ لوٹنا، رمضان 284ھ
+summary:
+  ar: بلغ الهادي ليلة الجمعة لأربع عشرة من رمضان أن رجلاً من شاكر يدعى نعيم أو رحيم أساء إلى عماله الذين قبضوا الصدقات في بيت في ضاة، فخرج بجمع كبير من خولان وهمدان وبني الحارث وهدم من منزله جداراً ولم يأخذ العسكر تمرة، ثم أخذ الرجل ومعاونه وحبسهما بنجران، وعاد إلى صعدة يوم الثلاثاء لثمانية عشر من رمضان بعد أن ولى على نجران أحمد بن محمد من ولد العباس بن علي ومحمد بن عيسى التميمي.
+  en: On the night of Friday the fourteenth of Ramadan word reached al-Hadi that a man of Shakir, named Nu'aym or Rahim in the manuscripts, had abused his agents who had collected alms and stored them in a house at Da'a; he went out with a great force of Khawlan, Hamdan and Banu al-Harith, had a wall of the man's house pulled down, and his army took not a date; he then took the man and his helper, held them at Najran, and returned to Sa'da on Tuesday the eighteenth of Ramadan after appointing Ahmad ibn Muhammad of the line of al-Abbas ibn Ali and Muhammad ibn Isa al-Tamimi over Najran.
+  ur: جمعہ کی رات چودہ رمضان کو ہادی کو خبر ملی کہ شاکر کے ایک شخص نے، جسے نسخے نعیم یا رحیم لکھتے ہیں، ان کے ان کارندوں سے بدکلامی کی جنہوں نے ضاۃ میں ایک گھر میں صدقات جمع کیے تھے؛ وہ خولان، ہمدان اور بنو الحارث کے بڑے مجمع کے ساتھ نکلے، اس کے گھر کی ایک دیوار گروائی اور لشکر نے ایک کھجور بھی نہ لی، پھر اسے اور اس کے مددگار کو پکڑ کر نجران میں قید کیا، اور احمد بن محمد ⁦(عباس بن علی کی اولاد سے)⁩ اور محمد بن عیسیٰ تمیمی کو نجران پر مقرر کر کے منگل 18 رمضان کو صعدہ لوٹے۔
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: '0897-10-15'
+    hijri: '0284-09-14'
+    calendar: julian
+    precision: day
+    status: tradition
+    derived: true
+    note: ليلة الجمعة لأربع عشرة من رمضان سنة 284هـ بنص الكتاب؛ التحويل مشتق من التقويم الجدولي، ويختلف يوم الأسبوع في النص عن الجدولي بيوم
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/saada
+- type: occurred_at
+  target: place/najran
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: related_to
+  target: group/banu-hamdan
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: related_to
+  target: group/shakir-hamdan-tribe
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: related_to
+  target: group/khawlan-tribe
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: related_to
+  target: group/banu-al-harith-ibn-kab
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: related_to
+  target: group/yam-tribe
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص79-80 ⁦(الصفحة المطبوعة)⁩'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-9
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 79-80
