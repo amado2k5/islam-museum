@@ -1,0 +1,11 @@
+---
+id: event/al-hadi-takes-hostages-from-yam-and-banu-al-harith-and-ibn-abbad-arrives-with-aid-from-al-tarif-289
+lang: en
+source_lang: ar
+translators: ["Claude Sonnet 5.5 (claude-sonnet-5-5), draft translation"]
+---
+## Overview
+Then [[person/al-hadi-yahya-al-rassi|al-Hadi]] went out to [[place/saada|Sa'da]] and stayed there a time; then a strife arose between [[group/yam-tribe|Yam]] and [[group/banu-al-harith-ibn-kab|Banu al-Harith]] until Yam made the road unsafe and cut the ways, which reached al-Hadi, and he went to [[place/najran|Najran]] and reached al-Hisn with many armies {cite:sira-hadi-ila-al-haqq p.243}. He went on at once until he halted at the village of the Yam, took forty men of them and held them, then went on until he halted at the village of [[place/al-hajar-najran|al-Hajar]], then sent for Banu al-Harith and took thirty of their men, and went on with them until he halted at the head of the wadi, where he took thirty men of the people of the wadi, and went on with them until he held them at Sa'da, where they stayed a month {cite:sira-hadi-ila-al-haqq p.243}.
+
+## Detail
+Then "harasa" (so in the manuscript and in the other copy, which the editor thinks a corruption of "went out") [[person/abdullah-ibn-bustam|Ibn Bustam]], Muhammad ibn Abd al-Malik and a party of Yam, spoke to al-Hadi about their companions who were held, and he freed them for them and clothed them and was kind to them, and they went back to their places and stayed there {cite:sira-hadi-ila-al-haqq p.243}. When al-Hadi reached Sa'da, [[person/ahmad-ibn-abbad-al-akili|Ibn Abbad al-Akili]] came with aid from [[group/banu-tarif|Al Tarif]], at the end of Ramadan of the year 289, and al-Hadi sent his horse to look out and climb on Allaf and its surroundings, to drive off sheep and kill those they overtook, and went on so for a time {cite:sira-hadi-ila-al-haqq p.243}. The museum gives the numbers of hostages as the book does; names given without descent (Ibn Bustam and Muhammad ibn Abd al-Malik) are not certainly the earlier records, so Ibn Bustam is linked as probable only and Muhammad ibn Abd al-Malik is not given a record. See [[event/al-hadi-leaves-his-son-at-sada-and-goes-down-to-najran-where-banu-al-harith-ask-pardon-289]].

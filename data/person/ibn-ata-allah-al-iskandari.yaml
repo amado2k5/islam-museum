@@ -18,8 +18,8 @@ died: { edtf: "1309", calendar: gregorian, precision: year, derived: true, note:
 relations:
   - { type: lived_in, target: place/misr, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/siyar-alam-nubala-ideas-house] }
   - { type: student_of, target: person/abu-al-abbas-al-mursi, sources: [source/siyar-alam-nubala-ideas-house] }
-external_ids: { wikidata: "Q2827445", viaf: "4918366" }
-sources: [source/siyar-alam-nubala-ideas-house, source/durar-kamina-jil-1993, source/assabile-omar-abdelkafy, source/miftah-al-falah-saada-1332, source/wikidata]
+external_ids: { wikidata: "Q2827445", viaf: "4918366", biblissima: "Q105547" }
+sources: [source/siyar-alam-nubala-ideas-house, source/durar-kamina-jil-1993, source/assabile-omar-abdelkafy, source/miftah-al-falah-saada-1332, source/wikidata, source/biblissima]
 provenance:
   layer: own-research
   source: "wikidata-import deferred Q2827445; Siyar entry 6534 verified in OCR (talab1 scan, p.408); Miftah al-Falah (Matba'at al-Sa'ada 1332 AH) pp. 3-6, 41-43, 53"

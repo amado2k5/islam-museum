@@ -1,0 +1,78 @@
+id: event/abu-al-qasim-ibn-al-hadi-is-chained-at-sanaa-and-moved-to-bayt-bus-290
+class: event
+kind: other
+label:
+  ar: "قيد أبي القاسم ابن الهادي بصنعاء ورسالته إلى أبيه ثم نقله إلى بيت بوس، من رجب إلى شوال 290هـ"
+  en: "Abu al-Qasim, al-Hadi's son, is chained at Sana'a, a letter to his father is held back and he is moved to Bayt Bus, Rajab to Shawwal 290 AH"
+  ur: "ہادی کے بیٹے ابو القاسم کو صنعاء میں بیڑیاں، والد کو خط کا روکا جانا اور بیت بوس منتقل ہونا، رجب سے شوال 290ھ"
+summary:
+  ar: "رجع الراوي إلى أبي القاسم ابن الهادي فذكر أنهم أدخلوه الدار وقيدوه بقيد ثقيل وحبسوا أصحابه، ثم جاءوا بـمحمد بن سعيد الذي أُسر معه فصاروا معاً، ثم ورمت رجله فحلوا قيده أياماً، وطلب ابن خلف أن يكتب إلى أبيه فكتب فحبس بعض جلسائه الكتاب، وفرّ عيسى بن معان اليافعي من حبسه فحوّلوه إلى دار أخرى، فأقام بصنعاء رجباً وشعبان ورمضان وعشراً من شوال ثم أُركب عمارية ليلاً إلى بيت بوس."
+  en: "The narrator turns back to Abu al-Qasim, al-Hadi's son: they brought him into the house, put him in a heavy fetter and jailed his companions, then brought Muhammad ibn Sa'id, who had been taken with him, and the two were together; his leg swelled and the fetter was loosened for some days, Ibn Khalaf asked him to write to his father and he did, but one of his companions held the letter back; Isa ibn Ma'an al-Yafi'i got out of his prison, so they moved the two to another house, and they stayed at Sana'a through Rajab, Sha'ban, Ramadan and ten days of Shawwal, then were put in a litter by night and taken to Bayt Bus."
+  ur: "راوی ہادی کے بیٹے ابو القاسم کی طرف لوٹتا ہے: وہ انہیں گھر میں لائے، بھاری بیڑی ڈالی اور ان کے ساتھیوں کو قید کیا، پھر محمد بن سعید کو لائے جو ان کے ساتھ پکڑے گئے تھے اور وہ دونوں اکٹھے رہے؛ ان کی ٹانگ سوجی تو کچھ دن بیڑی کھول دی گئی، ابن خلف نے کہا کہ وہ والد کو خط لکھیں اور انہوں نے لکھا مگر ایک ہم نشیں نے خط روک لیا؛ عیسیٰ بن معان یافعی اپنی قید سے نکل گیا تو دونوں کو دوسرے گھر منتقل کیا، اور وہ رجب، شعبان، رمضان اور شوال کے دس دن صنعاء میں رہے، پھر رات کو عماری میں بیت بوس لے جائے گئے۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0903-05"
+    hijri: "0290-07"
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: "رجب سنة 290هـ بدء الحبس بصنعاء، ويمتد الخبر إلى عشر من شوال؛ السنة مستنتجة من الترتيب؛ التحويل مشتق"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/al-murtada-muhammad
+  role: "أبو القاسم ابن الهادي، محتمل"
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/muhammad-ibn-said-ibn-yusuf
+  role: "من أُسر معه، محتمل"
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ibrahim-ibn-khalaf-ibn-tarif
+  role: "ابن خلف، محتمل"
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/isa-ibn-maan-al-yafii
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-tarif
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/sanaa
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/bayt-bus-sanaa-yemen
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص252 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-29
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 252
