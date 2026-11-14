@@ -3235,6 +3235,16 @@ Resume point: min-kunuz-al-sunnah episode 23 (branch from origin/main).
 
 Resume point: min-kunuz-al-sunnah episode 24 (branch from origin/main).
 
+### alwaad-alhaq ep06 (14 Nov 2026)
+
+18 points written for episode 6 (ar, en, ur); 17 needs_source marks for this episode in each language file; edges to short measure, zakat and trust. Quran verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
+
+| Excluded (alwaad-alhaq ep06) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Unsourced statistics (30,000 Qur'ans, 84 and 150 followers, ten billion trees, 59 and 41 per cent) kept only with needs_source marks | ep06 00:27:00 to 00:52:00 | no source given for the figures | needs_source | Open |
+| Unintelligible stretches (00:16:30, 00:37:00, 00:44:00 to 00:44:30) | ep06 00:16:30 | transcript looped or unintelligible, no claim can be checked | accuracy | Open |
+
+Resume point: alwaad-alhaq episode 7 (branch from origin/main).
 ### min-kunuz-al-sunnah ep24 (14 Nov 2026)
 
 14 points written for episode 24 (ar, en, ur); 10 needs_source marks in each language file for this episode; 5 new `about` edges. Quran verses referenced only through passage links (4-148); none typed. Contested: He holds that lying is permitted in three cases (to please a wife, in war, to reconcile people) and gives his own readings of Ibrahim's three statements and of what counts as war; these are his views, and scholars discuss the scope of the three exceptions.
@@ -3251,3 +3261,105 @@ Resume point: min-kunuz-al-sunnah episode 24 (branch from origin/main).
 | Garbled passage on the wife's mother and the judge | ep24 00:19:00-00:19:30 | Too garbled to recover | Clarity, Loop check | Open |
 
 Resume point: min-kunuz-al-sunnah episode 25 (branch from origin/main).
+
+### min-kunuz-al-sunnah ep25 (14 Nov 2026)
+
+13 points written for episode 25 (ar, en, ur); 9 needs_source marks in each language file for this episode; 3 new `about` edges. Quran verses referenced only through passage links (19-43, 40-28, 3-110); none typed. Contested: He gives a view on how advice should be delivered (privately, gently, briefly, fitted to the listener) and applies it to rulers and to youths raised in the West; these are his opinions, and the stories and sayings he tells carry no chains.
+
+| Excluded (min-kunuz-al-sunnah ep25) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Greeting, opening prayer, break joins and closing prayer | ep25 00:00:00-00:00:30, 00:08:30-00:09:00, 00:17:00-00:17:30, 00:24:30 | Not substantive teaching | Content rule | Open |
+| Claim that the Arab man never accepts a wife's advice and the Arab claims to know everything | ep25 00:04:00-00:04:30, 00:08:00-00:08:30 | Sweeping generalisation about a people and about women | Voice rule | Open |
+| Remark that some officials in Arab and Muslim countries speak for four or five hours | ep25 00:06:30-00:07:00 | Sweeping claim about rulers and states | Voice rule | Open |
+| Remark about flatterers around rulers | ep25 00:22:30-00:23:00 | Sweeping claim about a group, garbled | Voice rule | Open |
+| Looping stretch of repeated letters | ep25 00:11:00-00:11:30 | ASR loop, text lost | Clarity, Loop check | Open |
+| Looping stretch of repeated letters | ep25 00:18:00-00:18:30 | ASR loop, text lost | Clarity, Loop check | Open |
+| Garbled phrases on typing and writing media | ep25 00:11:30-00:12:00 | Words unclear (kept only the general point on generations) | Clarity, Loop check | Open |
+
+Resume point: min-kunuz-al-sunnah episode 26 (branch from origin/main).
+
+### alwaad-alhaq ep07 (14 Nov 2026)
+
+13 points written for episode 7 (ar, en, ur); 12 needs_source marks for this episode in each language file; edges to tajwid and the battle of al-Qadisiyya. Quran verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
+
+| Excluded (alwaad-alhaq ep07) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Unintelligible stretches (00:05:00, 00:14:30 to 00:16:00, 00:21:30 to 00:25:00 in part, 00:44:30 to 00:45:30) | ep07 00:05:00 | transcript looped or unintelligible, no claim can be checked | accuracy | Open |
+| Gender and climate readings of the last hadith in the episode kept only as his reading with needs_source | ep07 00:52:00 | garbled transcript, hadith not verifiable | needs_source | Open |
+
+Resume point: alwaad-alhaq episode 8 (branch from origin/main).
+## sharh-saheeh-al-bukhare (Omar Abdelkafy, 60 episodes; worker C1, branch prefix agent/assabile-ssb-)
+
+### sharh-saheeh-al-bukhare ep01 (14 Nov 2026)
+
+25 points written for episode 1 (ar, en, ur); 20 needs_source marks in each language file for this episode; 23 new `about` edges. Quran verses referenced only through passage links (20-5); none typed. Contested: He holds that whoever rejects a sound hadith or denies the Sunna has committed disbelief, and that every hadith in al-Bukhari is sound; the view on reciting al-Fatiha behind the imam and on praying an obligatory prayer behind a voluntary one are fiqh positions on which schools differ. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep01) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening supplication and greetings | ep01 00:00:00-00:02:00 | Greetings and opening prayer; first lines are a garbled loop | Clarity, Loop check | Open |
+| Break joins and closing remarks, closing prayer, next-episode note, credits | ep01 01:19:30-01:23:00 | Closing prayer and sign-off; credits and promotional lines | Content rule | Open |
+| Storyteller anecdote about a hadith scholar's reply and a bathhouse story | ep01 00:08:00-00:10:30 | Garbled and looping, meaning not recoverable | Clarity, Loop check | Open |
+| Estimates of hadith counts, years of compilation and numbers of hadiths in al-Bukhari | ep01 00:03:00-00:04:30, 00:21:00-00:22:30, 00:43:30 | Numbers garbled or inconsistent in the transcript | Clarity | Open |
+| Remarks on how Orientalists or Europeans treat hadith and a claim about a Jewish origin of hadith schools | ep01 00:24:00-00:24:30, 00:33:00-00:33:30 | Sweeping claim about a people, partly garbled | Content rule, Clarity | Open |
+| Remarks on a historical origin of an invention in the Fatimid period and on forms of addressing the Prophet | ep01 00:50:00-00:52:00 | Garbled, referent unclear | Clarity | Open |
+| Stories of Umar and a lamp for personal versus Muslim affairs, and anecdotes on intention in spending | ep01 00:57:30-00:58:30, 01:17:00-01:19:00 | Garbled, speaker and report unclear | Clarity | Open |
+| Stretch touching a modern conflict | ep01 01:14:30-01:15:30 | A stretch dropped under the content-safety block | Content rule | Open |
+| Question and answer on wives and husbands' families | ep01 01:20:00-01:23:00 | Garbled; sweeping advice about women not recoverable | Voice rule, Clarity | Open |
+| Advice on prayer postures and completeness, yoga-like comparison, etc. | ep01 00:39:30-00:40:30, 00:57:00-00:58:00 | Loops and garbled stretches | Clarity, Loop check | Open |
+| Loop stretches of repeated syllables | ep01 00:10:00-00:10:30, 00:12:00-00:13:00, 00:16:00-00:16:30, 00:17:30-00:18:00, 00:21:00-00:21:30, 00:25:30-00:26:00, 00:27:30-00:28:30, 00:31:30-00:32:30, 00:36:00-00:36:30, 00:44:30-00:45:00, 00:49:00-00:49:30, 00:50:30-00:51:00, 01:01:00-01:01:30, 01:02:00-01:02:30, 01:13:00-01:13:30, 01:15:00-01:15:30, 01:16:00-01:17:00 | Repeated-token loops | Loop check | Open |
+| Remark on a thief who hurries and would receive his provision lawfully had he waited | ep01 00:52:30-00:53:00 | Garbled stretch, meaning not clearly recoverable | Clarity | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 2 (branch from origin/main).
+### min-kunuz-al-sunnah ep26 (14 Nov 2026)
+
+14 points written for episode 26 (ar, en, ur); 12 needs_source marks in each language file for this episode; 2 new `about` edges. Quran verses referenced only through passage links (17-70, 28-77); none typed. Contested: He attributes new diseases to neglect of the Sunna, claims veterinary findings on stressed animals, tells an unreferenced Second World War story about a British commander, and presents reward figures for killing pests; all are his views and unsourced.
+
+| Excluded (min-kunuz-al-sunnah ep26) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greeting, praise and salutations | ep26 00:00:00-00:00:30 | Greeting formula, no teaching | Content rule | Open |
+| Stretch of repeated vowel sounds | ep26 00:01:30-00:02:00 | Loop of one syllable, nothing recoverable | Clarity, Loop check | Open |
+| Break join and closing prayer of first part | ep26 00:08:30-00:09:00 | Break announcement and farewell | Content rule | Open |
+| Repeated vowel loop after the break | ep26 00:09:00-00:09:30 | Loop of one letter, nothing recoverable | Clarity, Loop check | Open |
+| Repeated syllable loop | ep26 00:12:00-00:12:30 | Loop, no content | Clarity, Loop check | Open |
+| Sweeping stereotypes of wives and husbands and a spider comparison | ep26 00:11:30-00:13:30 | Demeaning generalisations about women and men, kept only as a neutral point about harm in marriage | Voice rule | Open |
+| Break join, welcome back and restart of the hadith | ep26 00:16:30-00:17:30 | Welcome back and repetition of the opening hadith | Content rule | Open |
+| Anecdote of a painting in a museum and sweeping remarks on colonial peoples | ep26 00:20:30-00:21:00 | Unreferenced, garbled, sweeping claim about a people | Voice rule, Clarity | Open |
+| Repeated syllable loop in the blind cat section | ep26 00:23:00-00:23:30 | Loop, no content | Clarity, Loop check | Open |
+| Fish and whale disease speculation | ep26 00:15:30-00:16:00 | Too garbled to recover | Clarity | Open |
+| Garbled sentences on the sheep and on naming God at slaughter | ep26 00:07:30-00:08:30 | Partly unrecoverable wording, kept only the clear sense | Clarity | Open |
+
+Resume point: min-kunuz-al-sunnah episode 27 (branch from origin/main).
+
+### min-kunuz-al-sunnah ep27 (14 Nov 2026)
+
+14 points written for episode 27 (ar, en, ur); 13 needs_source marks in each language file for this episode; 3 new `about` edges. Quran verses referenced only through passage links (59-7, 49-11, 2-195, 2-67, 16-8, 67-2, 5-112, 2-219, 2-215, 2-189, 2-186); none typed. Contested: He applies the hadith to rule that a gold-coated watch and artificial silk are lawful for men while pure gold and natural silk are not, calls the death of one who ignores traffic or sea warnings akin to suicide, and ranks backbiting as graver than demolishing the Kaaba; all are his views.
+
+| Excluded (min-kunuz-al-sunnah ep27) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening praise, greeting and salutations | ep27 00:00:00-00:00:30 | Greeting and invocation, not content | Content rule | Open |
+| Break join, closing prayer, farewell | ep27 00:08:30-00:09:00, 00:16:00-00:16:30, 00:23:30-00:24:00 | Break join, closing prayer and farewell | Content rule | Open |
+| Remark that the people of this or that country or tribe are cowardly or miserly, and the claim about the daily word count of Arab men and women against others | ep27 00:04:30-00:05:00, 00:08:00-00:08:30 | Sweeping claims about peoples and women | Voice rule | Open |
+| Remarks on a woman applying make-up while driving | ep27 00:11:30-00:12:00 | Gendered aside, not needed for the point | Voice rule | Open |
+| Jokes about Ramadan, employees and news agencies | ep27 00:05:30-00:06:00, 00:07:00-00:07:30 | Garbled aside, not recoverable | Clarity, Loop check | Open |
+| Repeated filler word loop | ep27 00:12:00-00:12:30 | ASR loop, no content | Clarity, Loop check | Open |
+| Garbled Arabic recitation of the hadith | ep27 00:16:30-00:17:00 | Garbled ASR of a hadith already covered | Clarity, Loop check | Open |
+
+Resume point: min-kunuz-al-sunnah episode 28 (branch from origin/main).
+
+### min-kunuz-al-sunnah ep28 (14 Nov 2026)
+
+13 points written for episode 28 (ar, en, ur); 9 needs_source marks in each language file for this episode; 1 new `about` edges. No Quran verses linked; none typed. Contested: He holds that an angry divorce stands because the angry man still tells wife from mother (against a questioner who thought it void for a closed mind); he also holds that officials should undergo psychiatric screening, and relates unchained reports (Umar and the applicant, the Arab/non-Arab saying, population figures).
+
+| Excluded (min-kunuz-al-sunnah ep28) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greeting and praise, opening of the lesson | ep28 00:00:00-00:00:30 | Greeting and introduction, no teaching content | Content rule | Open |
+| Loop of repeated letters | ep28 00:00:30-00:01:00 | ASR loop, no recoverable words | Clarity, Loop check | Open |
+| Garbled stretch of repeated particles before the divorce examples | ep28 00:06:30-00:07:00 | ASR loop, no recoverable words | Clarity, Loop check | Open |
+| Laughter loop inside the divorce example | ep28 00:07:00-00:07:30 | ASR loop after the first sentences | Clarity, Loop check | Open |
+| Break join and return from the advertisement break | ep28 00:08:30-00:09:00 | Break join, no teaching content | Content rule | Open |
+| Sweeping claim that the Arab environment has become one that produces anger, and the remark on divorce questions turning on school rulings | ep28 00:14:30-00:15:30 | Sweeping claim about a people, partly garbled and rambling on children of divorced parents | Voice rule, Clarity | Open |
+| Break announcement and prayer before the break, and the second break join | ep28 00:16:00-00:17:00 | Break join and a short supplication, no teaching content | Content rule | Open |
+| Story of Harun al-Rashid and a jug of water, then a loop | ep28 00:25:00-00:26:00 | Story cut off by an ASR loop, outcome unrecoverable | Clarity, Loop check | Open |
+| Closing prayer and farewell | ep28 00:26:00-00:26:30 | Closing prayer and farewell | Content rule | Open |
+
+Resume point: min-kunuz-al-sunnah episode 29 (branch from origin/main).

@@ -1,0 +1,67 @@
+id: event/al-hadi-expedition-to-barat-285
+class: event
+kind: other
+label:
+  ar: خروج الهادي إلى برط من بلاد شاكر ومعركتها وعفوه وعودته إلى صعدة، صفر 285هـ
+  en: Al-Hadi's expedition to Barat in the land of Shakir, its fight, his clemency and return to Sa'da, Safar 285 AH
+  ur: شاکر کے علاقے برط کی طرف ہادی کی مہم، اس کی لڑائی، معافی اور صعدہ واپسی، صفر 285ھ
+summary:
+  ar: بعد أن أبى أهل برط، وهم دهمة من شاكر من همدان، أن يدعوا عاملاً أرسله الهادي يصلي بهم الجمعة، خرج إليهم في الثاني والعشرين من صفر 285هـ، فصعد الجبل وسأل الماء فمنعوه ورموه بالنبل فأصابه سهم، فحمل عليهم ونصره الله، ثم أمّنهم وردّ إليهم السلب وأطلق الأسرى ومنع جيشه من الزرع والأعلاف، وأقام ثلاثة أيام وولى عليهم رجلاً من نجران ثم عاد إلى صعدة آخر صفر.
+  en: After the people of Barat, the Dahma of Shakir of Hamdan, turned away a governor al-Hadi sent them and barred him from leading the Friday prayer, he marched on 22 Safar 285 AH, climbed the mountain, asked for water and was refused and shot at, an arrow hitting him; he charged, was given victory, then granted security, returned the spoils and freed the captives, kept his army from crops and fodder, stayed three days, appointed a Najran man over them and returned to Sa'da on the last day of Safar.
+  ur: جب برط والوں، شاکر کے دہمہ، نے ہادی کے بھیجے عامل کو جمعہ پڑھانے سے روکا تو وہ 22 صفر 285ھ کو ان کی طرف نکلے، پہاڑ پر چڑھے، پانی مانگا تو انکار ہوا اور ان پر تیر چلے، ایک تیر انہیں لگا؛ انہوں نے حملہ کیا اور فتح پائی، پھر امان دی، مال لوٹایا، قیدی رہا کیے، لشکر کو کھیتوں اور چارے سے روکا، تین دن رہے، نجران کے ایک شخص کو عامل بنایا اور صفر کے آخری دن صعدہ لوٹے۔
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: '0898-03-20'
+    hijri: '0285-02-22'
+    calendar: julian
+    precision: day
+    status: tradition
+    derived: true
+    note: لاثنين وعشرين يوماً من صفر سنة 285هـ بنص الكتاب ⁦(الكتابة عن العامل)⁩؛ بداية المسير في اليوم نفسه؛ التحويل مشتق من التقويم الجدولي، ويوم الأحد الأخير من صفر في النص يخالف الجدولي بيوم
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/saada
+- type: occurred_at
+  target: place/barat-yemen
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/yusuf-ibn-muhammad-al-hasani
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abd-al-aziz-ibn-marwan-al-najrani
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: related_to
+  target: group/shakir-hamdan-tribe
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: related_to
+  target: concept/ghanima
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص82-85 ⁦(الصفحة المطبوعة)⁩'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-10
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 82-85

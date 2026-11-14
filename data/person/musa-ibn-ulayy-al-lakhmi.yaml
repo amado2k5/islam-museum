@@ -6,8 +6,8 @@ label:
 roles: [muhaddith]
 gender: male
 summary:
-  ar: "بطاقة أولية لموسى بن علي بن رباح اللخمي، المحدث من أهل الثغور؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Musa ibn Ulayy ibn Rabah al-Lakhmi, the frontier hadith scholar; his entry is not yet checked on the page."
+  ar: "موسى بن علي بن رباح اللخمي المصري، أبو عبد الرحمن، حافظ ثقة وأمير عادل ونائب المنصور على مصر سنوات؛ ولد بإفريقية نحو سنة ٩٠هـ وتوفي بالإسكندرية سنة ١٦٣هـ."
+  en: "Musa ibn Ulayy ibn Rabah al-Lakhmi of Egypt, Abu Abd al-Rahman, a reliable memoriser and just governor who deputised for al-Mansur over Egypt for some years; born in Ifriqiya about 90 AH and died at Alexandria in 163 AH."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
@@ -16,18 +16,18 @@ died: { edtf: "0780", precision: year, status: tradition, derived: true }
 relations:
   - { type: born_in, target: place/ifriqiya, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q622855)" }
   - { type: died_in, target: place/alexandria, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q87)" }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/siyar-alam-nubala-ideas-house]
 external_ids:
   wikidata: Q97178556
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Dhahabi, Siyar A'lam al-Nubala, one-volume edition (Bayt al-Afkar al-Dawliyya), entry read in full on the scanned pages (Apple Vision OCR on the harvest drive); the web page of the Risala edition on shamela.ws (book 10906) was used to confirm the work and its volume layout"
+  generated_by: "Claude Code (Lane B2, web-source and Shamela enrichment)"
+  model: claude-sonnet-5-5
+  run: web-b2-siyar-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 occupations:
   - job: job/muhaddith
     kind: primary

@@ -1,0 +1,36 @@
+id: person/ali-ibn-abi-anbasa
+class: person
+label:
+  ar: علي بن أبي عنبسة
+  en: Ali ibn Abi Anbasa
+  ur: علی بن ابی عنبسہ
+summary:
+  ar: كان يشتري للهادي حوائجه من السوق، وأوصاه الهادي ألا يأخذ إلا بثمن.
+  en: He bought al-Hadi's needs in the market; al-Hadi told him to take nothing except for a price.
+  ur: وہ بازار سے ہادی کی ضرورتیں خریدتا تھا؛ ہادی نے اسے ہدایت کی کہ قیمت کے بغیر کچھ نہ لے۔
+gender: male
+roles:
+- merchant
+wings:
+- people
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+relations:
+- type: allied_with
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص59,65 ⁦(الصفحة المطبوعة)⁩'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-10
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, printed pp. 59,65
