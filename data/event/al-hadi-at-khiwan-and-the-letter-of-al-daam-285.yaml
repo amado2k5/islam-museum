@@ -1,0 +1,57 @@
+id: event/al-hadi-at-khiwan-and-the-letter-of-al-daam-285
+class: event
+kind: other
+label:
+  ar: كتاب الدعام بن إبراهيم إلى الهادي ورده، ودخول الهادي خيوان وإصلاحه بين همدان، جمادى الأولى 285هـ
+  en: The letter of al-Da'am ibn Ibrahim to al-Hadi and his reply, and al-Hadi's entry into Khiwan and settlement among Hamdan, Jumada I 285 AH
+  ur: دعام بن ابراہیم کا ہادی کو خط اور ان کا جواب، اور ہادی کا خیوان میں داخلہ اور ہمدان میں صلح، جمادی الاولیٰ 285ھ
+summary:
+  ar: كتب الدعام بن إبراهيم، من ملوك اليمن المتغلبة، إلى الهادي يسأله أن يوليه البلد الذي هو فيه، فأجابه الهادي أنه لا يوليه إلا على الحكم بكتاب الله وسنة رسوله واتباع ما هم عليه، وتبادلا كتباً كثيرة؛ ثم خرج الهادي بخلق كثير إلى خيوان فدخلها يوم الأربعاء ليومين باقيين من الشهر ولقيه أهلها وأصلح بينهم واستحلفهم على قطع الفتنة، وأقام بخيوان إلى ثلاث وعشرين من شعبان.
+  en: Al-Da'am ibn Ibrahim, one of the Yemeni rulers who had taken power, wrote to al-Hadi asking to be appointed over the land he held; al-Hadi answered that he would appoint him only on ruling by the Book of God and the sunna of His Messenger and following what they follow, and many letters passed; then al-Hadi went out with a great crowd to Khiwan, entered it on Wednesday with two days left of the month, its people met him, he reconciled them and had them swear to end the feud, and he stayed at Khiwan until the twenty-third of Sha'ban.
+  ur: یمن کے غالب آنے والے حکمرانوں میں سے دعام بن ابراہیم نے ہادی کو لکھا کہ جس علاقے میں وہ ہے وہاں کا والی بنا دیں؛ ہادی نے جواب دیا کہ وہ اسے صرف کتاب اللہ اور سنت رسول کے مطابق فیصلے اور ان کی راہ کی پیروی پر والی بنائیں گے، اور بہت سے خط بدلے گئے؛ پھر ہادی بڑی بھیڑ کے ساتھ خیوان گئے، مہینے کے دو دن باقی رہتے بدھ کو داخل ہوئے، اہل خیوان نے ان سے ملاقات کی، انہوں نے ان میں صلح کرائی اور فتنہ ختم کرنے کی قسم لی، اور وہ شعبان کی تئیس تک خیوان میں رہے۔
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: 0898-05
+    hijri: 0285-05
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: ليومين باقيين من جمادى الأولى سنة 285هـ بحسب سياق الصفحة 91-92؛ الشهر فقط؛ التحويل مشتق
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/khiwan
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/al-daam-ibn-ibrahim
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: related_to
+  target: group/banu-hamdan
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص91-92 ⁦(الصفحة المطبوعة)⁩'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-11
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 91-92
