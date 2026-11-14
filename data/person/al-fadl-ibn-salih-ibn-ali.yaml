@@ -6,24 +6,25 @@ label:
 roles: [official]
 gender: male
 summary:
-  ar: "بطاقة أولية لالفضل بن صالح بن علي؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Al-Fadl ibn Salih ibn Ali; the entry is not yet checked on the page."
+  ar: "الفضل بن صالح بن علي الهاشمي العباسي، أبو العباس، أمير عباسي أقام الحج سنة 138 هـ وولي مصر للمهدي وأقره الهادي وكانت ولايته أقل من سنة، ثم ولي دمشق، شجاع شاعر أديب، ⁦(122 - 172 هـ)⁩."
+  en: "Al-Fadl ibn Salih ibn Ali al-Hashimi al-Abbasi, Abu al-Abbas, an Abbasid amir who led the pilgrimage in 138 AH, governed Egypt for under a year and later Damascus; brave, an eloquent poet and man of letters (122-172 AH)."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q136651174
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 Medium)"
-  model: "SWE-2 Medium"
-  run: wikidata-import-wave2
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
-born: { edtf: "740", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
-died: { edtf: "789", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
+  completeness: 3
+born: { edtf: "740", hijri: "0122", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari. al-Zirikli prints 122 AH = 740 CE {cite:alam-zirikli-dar-al-ilm-2002 vol. 5 p. 149}.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+died: { edtf: "789", hijri: "0172", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari. al-Zirikli prints 172 AH = 788 CE {cite:alam-zirikli-dar-al-ilm-2002 vol. 5 p. 149}; the card year is kept (172 AH spans 788 and 789) pending a check.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
   - { type: lived_in, target: place/abbasid-caliphate, note: "Wikidata Q12536 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/misr, note: "al-Zirikli, al-A'lam, vol. 5 p. 149: governor of Egypt for under a year", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }

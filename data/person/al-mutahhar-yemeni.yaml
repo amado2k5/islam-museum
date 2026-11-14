@@ -6,24 +6,24 @@ label:
 roles: [ruler]
 gender: male
 summary:
-  ar: "بطاقة أولية للمطهر بن يحيى شرف الدين، إمام الدولة الزيدية في اليمن من سنة ١٥٠٣م إلى ١٥٧٢م؛ تذكره معاجم الدول الإسلامية ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for al-Mutahhar ibn Yahya Sharaf al-Din, the imam of the Zaydi state of Yemen from 1503 to 1572; the dynastic handbook entry is not yet checked on the page."
+  ar: "محمد المطهر بن يحيى شرف الدين بن أحمد، فخر الدين، من أئمة الزيدية في اليمن، حاصر أباه ثم بويع له بعد وفاته سنة 964 هـ وملك أعالي اليمن وحاربه العثمانيون ثم صالحوه على صعدة وكوكبان، توفي سنة 980 هـ."
+  en: "Muhammad al-Mutahhar ibn Yahya Sharaf al-Din ibn Ahmad, Fakhr al-Din, a Zaydi imam of Yemen; pledged to after his father's death in 964 AH, he ruled the Yemeni highlands, fought the Ottomans for years and then made peace keeping Sa'da and Kawkaban; died 980 AH (1572)."
 wings: [people]
 regions: [arabia]
 periods: [period/gunpowder-empires]
-sources: [source/bosworth-new-islamic-dynasties-1996]
+sources: [source/bosworth-new-islamic-dynasties-1996, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q4702981
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: Bosworth, The New Islamic Dynasties (1996) — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0042
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 born: { edtf: "1503", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli)" }
-died: { edtf: "1572", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli) Confirmed on 13 November 2026 against Wikidata Q4702981 (P570, a statement with a reference), item revision 2548790506.", sources: [source/wikidata] }
+died: { edtf: "1572", hijri: "0980", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli) Confirmed on 13 November 2026 against Wikidata Q4702981 (P570, a statement with a reference), item revision 2548790506. al-Zirikli prints 980 AH = 1572 CE {cite:alam-zirikli-dar-al-ilm-2002 vol. 7 p. 141}.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
 relations:
   - { type: lived_in, target: place/yemen, note: "Place association from the person's nisba/name (yemeni); denotes association, not proven residence.", sources: [source/bosworth-new-islamic-dynasties-1996], confidence: low }
