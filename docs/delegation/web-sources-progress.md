@@ -1090,3 +1090,5 @@ Wrote ar, en and ur prose for vila, th-nia, el-mahalla-el-kubra, ioannina, kirku
 - Left for the founder (entry and card disagree, card kept): al-Majlisi entry 1111 AH = 1700 (card 1699); al-Fallas 249 AH = 864 (card 863); al-Jaziri born 880 AH = 1475 (card 1505 from Wikidata, 911 AH); al-Turayhi died 1085 AH = 1674 (card 1675). Jaziri entry has one library name that may apply to one or both manuscripts; written as the entry has it.
 - Skipped: none.
 
+- 14 Nov 2026, Lane B1 packet 21: wrote ar, en, ur prose for ten persons (abd-al-rahman-al-sufi, al-khazin-al-baghdadi, fuzuli, firuz-shah-tughluq, ibn-abd-al-zahir, alishir-navai, latifi, molla-fenari, zati, miran-shah) from Biblissima labels and the data files. No OpenITI ids in the packet. al-A'lam OCR on the drive holds only index hits, so no entry was read; pages are short on purpose. Skipped: none.
+- 14 Nov 2026, Lane B1 packet 22: ten persons written (ar, en, ur, draft) from Biblissima name form and dates only; no OpenITI ids in the packet; al-Zirikli OCR (1927 vol. 2) holds only noisy mentions, so no biographical entry was read and no work list beyond the data card was stated. Skipped: none.

@@ -1,0 +1,75 @@
+id: event/pledge-at-najran-and-the-fight-below-minas-286
+class: event
+kind: other
+label:
+  ar: التحالف بنجران والقتال دون حصن ميناس، 286هـ
+  en: The pledge at Najran and the fight below the fort of Minas, 286 AH
+  ur: نجران میں معاہدۂ نصرت اور میناس کے قلعے کے نیچے لڑائی، 286ھ
+summary:
+  ar: يرسل نفر من بني عبد المدان والمجاهر بن زياد من بني قطن إلى أبي محمد ليلقاهم بهمدان وثقيف والأحلاف فيتحالفون على النصرة، ثم يعبئ ابن بسطام بني الحارث وأهل ميناس دون حصنه، فيكمن أبو محمد كميناً ويحمل فيطرد القوم ويقتل رجلين ويخرب الحصن ويغنم عسكره ما فيه ثم يكتب إلى الهادي.
+  en: Some of Banu Abd al-Madan and al-Mujahir ibn Ziyad of Banu Qatan send to Abu Muhammad to meet them with Hamdan, Thaqif and al-Ahlaf, and they pledge mutual support; Ibn Bustam then draws up Banu al-Harith and the people of Minas before his fort, Abu Muhammad hides an ambush and charges, drives the people out, kills two men, razes the fort, his army takes what is in it, and he writes to al-Hadi.
+  ur: بنو عبد المدان کے کچھ لوگ اور بنو قطن کے مجاہر بن زیاد ابو محمد کو پیغام بھیجتے ہیں کہ ہمدان، ثقیف اور احلاف کے ساتھ ان سے ملیں، اور وہ نصرت کا عہد کرتے ہیں؛ پھر ابن بسطام بنو حارث اور میناس والوں کو اپنے قلعے کے سامنے صف بند کرتا ہے، ابو محمد گھات لگا کر حملہ کرتے ہیں، قوم کو نکال دیتے ہیں، دو آدمیوں کو مارتے ہیں، قلعہ ڈھا دیتے ہیں، ان کا لشکر اس کا مال لیتا ہے اور وہ ہادی کو لکھتے ہیں۔
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0899"
+    hijri: "0286"
+    calendar: julian
+    precision: year
+    status: tradition
+    derived: true
+    note: سنة 286هـ؛ الكتاب لا يحدد الشهر ولا اليوم، والخبر واقع بين أواخر شعبان وأول ذي القعدة بحسب ترتيب السرد؛ التحويل مشتق
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/najran
+- type: occurred_at
+  target: place/minas-najran
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abdullah-ibn-al-husayn-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abdullah-ibn-bustam
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/al-mujahir-ibn-ziyad-al-qatani
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-abd-al-madan-najran
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-qatan-najran
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-al-harith-ibn-kab
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص147 ⁦(الصفحة المطبوعة)⁩'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-19
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 147
