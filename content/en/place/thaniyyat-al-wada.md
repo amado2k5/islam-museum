@@ -19,3 +19,6 @@ The museum's material on this place includes events that took place here: 1.
 
 ## What this page covers
 This page gathers what the museum links to the place: events, people and buildings. It is not a full historical description of the place. A description of the place and its history will be added from primary sources in the coming batches.
+
+## In Yaqut's Mu'jam al-Buldan
+Yaqut explains al-Wada' (with fatha on the waw) as a noun from "bidding farewell" at departure, and describes the Thaniyya as a pass overlooking Medina that anyone heading for Mecca crosses. {cite:mujam-al-buldan-sader-1995 2 p.86} He lists the disagreement over the name: that it was where travellers leaving Medina for Mecca said their farewells; that the Prophet bade farewell there to some of those he left behind in Medina on his last outing, or on one of his dispatched expeditions; or that al-Wada' is the name of a valley in Medina. {cite:mujam-al-buldan-sader-1995 2 p.86} His own conclusion is that the name is an old one from the pre-Islamic period, given for the farewells of travellers. {cite:mujam-al-buldan-sader-1995 2 p.86}
