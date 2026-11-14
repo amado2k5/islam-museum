@@ -6,24 +6,25 @@ label:
 roles: [politician]
 gender: male
 summary:
-  ar: "بطاقة أولية للملاي أحمد الريسوني، الشريف الجبلي الذي قاد المقاومة في الريف واشتهر بخطف الرهائن؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Mulai Ahmed er Raisuni, the mountain sharif who led resistance in the Rif and became famous for hostage-taking; his entry is not yet checked on the page."
+  ar: "أحمد بن محمد بن عبد الله الريسوني الحسني الإدريسي العروسي، أبو العباس، ثائر له زعامة من بني عروس في المغرب الأقصى، سجنه السلطان الحسن ثم صار معتمداً لعبد العزيز في طنجة وقاتل الإسبان وصالحهم، وأسره ابن عبد الكريم الخطابي فمات بتماسنت في الريف سنة ١٩٢٥م."
+  en: "Ahmad ibn Muhammad ibn Abd Allah al-Raysuni al-Hasani al-Idrisi al-Arusi, Abu al-Abbas, a rebel leader of the Bani Arus in the far Maghrib, jailed by Sultan Hasan, then deputy of Abd al-Aziz at Tangier, who fought and made peace with the Spaniards, was captured by Ibn Abd al-Karim al-Khattabi and died at Tamasint in the Rif, 1925."
 wings: [people]
 regions: [maghreb]
 periods: [period/colonial-era]
-died: { edtf: "1925", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
+died: { edtf: "1925", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 1 p. 220: 1343 AH = 1925 CE.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q401625
   viaf: "62433251"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 relations:
   - { type: lived_in, target: place/maghreb, note: "Only the record-level region (maghreb) is attested; broad-region edge flagged for review.", sources: [source/tarikh-islam-hasan-ibrahim], confidence: low }
+born: { edtf: "1854~", calendar: gregorian, precision: year, status: tradition, derived: true, note: "Al-Zirikli, al-A'lam vol. 1 p. 220: about 1270 AH = 1854 CE, with a question mark in the entry.", sources: [source/alam-zirikli-dar-al-ilm-2002] }

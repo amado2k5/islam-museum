@@ -6,24 +6,25 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لأبي بكر بن علي الحداد، فقيه حنفي يمني القرن الرابع عشر، توفي سنة ١٣٩٧م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abu Bakr ibn Ali al-Haddad, the fourteenth-century Yemeni Hanafi jurist, d. 1397; the biographical entry is not yet checked on the page."
+  ar: "أبو بكر بن علي بن محمد الحداد الزبيدي، فقيه حنفي يماني من أهل العبادية في وادي زبيد، استقر في زبيد وتوفي بها سنة ٨٠٠هـ؛ له السراج الوهاج والجوهرة النيرة في شرح مختصر القدوري وتفسير يعرف بتفسير الحداد."
+  en: "Abu Bakr ibn Ali ibn Muhammad al-Haddad al-Zabidi, a Yemeni Hanafi jurist from al-Ibadiyya in Wadi Zabid, who settled and died in Zabid in 800 AH (1397); author of al-Siraj al-wahhaj and al-Jawhara al-nayyira, commentaries on the Mukhtasar of al-Quduri, and an exegesis known as the Tafsir of al-Haddad."
 wings: [people]
 regions: [arabia]
 periods: [period/mongol-post-mongol]
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q54875371
   viaf: "34339075"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0055
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 died: { edtf: "1397", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli, al-A'lam; al-Sakhawi, al-Daw' al-Lami'" }
 relations:
   - { type: lived_in, target: place/yemen, note: "Place association from the person's nisba/name (يمني); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
+  - { type: died_in, target: place/zabid, note: "Al-Zirikli, al-A'lam vol. 2 p. 60: settled in Zabid and died there.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }

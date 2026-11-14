@@ -6,23 +6,23 @@ label:
 roles: [ruler]
 gender: male
 summary:
-  ar: "بطاقة أولية لسلطان بن مرشد اليعربي، إمام عمان الأخير من بيت يعربة، توفي في حصار صحار سنة ١٧٤٣م؛ تذكره معاجم الدول الإسلامية ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Sultan ibn Murshid al-Ya'rubi, the last Ya'rubi imam of Oman, killed at the siege of Sohar in 1743; the dynastic handbook entry is not yet checked on the page."
+  ar: "سلطان الثالث بن مرشد بن عدي اليعربي، عاشر الأئمة اليعربيين من الإباضية في عمان وآخرهم، بويع له بعد خلع سيف بن سلطان سنة ١١٥٤هـ ثم أصيب بجراحات في حروبه مع سيف وتوفي سنة ١١٥٥هـ."
+  en: "Sultan (III) ibn Murshid ibn Adi al-Ya'rubi, the tenth and last of the Ya'ariba imams of the Ibadis in Oman, given the pledge after the deposition of Sayf ibn Sultan in 1154 AH, who was wounded in his wars with Sayf and died of the wounds in 1155 AH (1742)."
 wings: [people]
 regions: [arabia]
 periods: [period/gunpowder-empires]
-died: { edtf: "1743", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: History of the Imams and Seyyids of Oman (Badger) Confirmed on 13 November 2026 against Wikidata Q16205691 (P570, a statement with a reference), item revision 2353913284.", sources: [source/wikidata] }
+died: { edtf: "1742", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 3 p. 108: 1155 AH = 1742 CE, died of wounds after wars with Sayf ibn Sultan (the card had 1743 and the siege of Sohar; Wikidata and Badger give 1743).", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
 - { type: ruled_over, target: place/oman, sources: [source/wikidata], confidence: low, note: "Wikidata P39 office held (oman)" }
-sources: [source/bosworth-new-islamic-dynasties-1996]
+sources: [source/bosworth-new-islamic-dynasties-1996, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q16205691
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: Bosworth, The New Islamic Dynasties (1996) — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0041
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
