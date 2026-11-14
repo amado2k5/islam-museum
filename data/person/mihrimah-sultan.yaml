@@ -17,9 +17,10 @@ born: { edtf: "1522", calendar: gregorian, precision: year, derived: true, note:
 died: { edtf: "1578", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV" }
 relations:
   - { type: born_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/dawlat-uthmaniyya-salabi]
+sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
 external_ids:
   wikidata: Q80764
+  viaf: "88196351"
 provenance:
   layer: own-research
   source: "Wikidata Q80764 (religion claim Islam); book source: al-Salabi, al-Dawla al-Uthmaniyya — entry not yet read on the page"

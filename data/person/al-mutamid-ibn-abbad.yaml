@@ -16,7 +16,8 @@ provenance:
   run: lib-nafh-tib-batch-53
 external_ids:
   wikidata: Q299578
-sources: [source/nafh-tib-maqqari, source/shadharat-dhahab, source/nihayat-al-arab-nuwayri-vol1-scan]
+  viaf: "90055657"
+sources: [source/nafh-tib-maqqari, source/shadharat-dhahab, source/nihayat-al-arab-nuwayri-vol1-scan, source/wikidata]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
 relations:
   - { type: died_in, target: place/aghmat, note: "From text: مات بها وقبره بمقبرة أغمات يزار", sources: [source/nafh-tib-maqqari, source/shadharat-dhahab, source/nihayat-al-arab-nuwayri-vol1-scan] }

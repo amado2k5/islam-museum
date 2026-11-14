@@ -37,7 +37,7 @@ faith:
     basis: unknown
     note: "FLAGGED: Sunni is named only in structured values, which are one family. Wikidata's religion claim is Sunni Islam (Q483654), and the Urdu article's infobox gives his religion as 'Sunni Islam' — two structured values of the same kind, with no text anywhere naming his personal school; the Urdu article's 'Pakistani Salafi' and 'Pakistani Sunni' categories are filings, not attestations. The English article describes his personal piety (as a young officer he 'preferred prayers' while others drank and gambled) and records that his administration 'favoured the Deobandi doctrine' in its Islamisation programme — regime patronage and state policy, which under the headship line is not an attestation of the ruler's own school. The Arabic article has no religion content at all. On the wave-114 Ayub Khan configuration (Sunni named only in structured data) the value stays unknown."
     sources: [source/wikipedia-muhammad-zia-ul-haq-en, source/wikipedia-muhammad-zia-ul-haq-ar, source/wikipedia-muhammad-zia-ul-haq-ur, source/wikidata-muhammad-zia-ul-haq]
-external_ids: { wikidata: "Q200499" }
+external_ids: { wikidata: "Q200499", viaf: "176698798" }
 relations:
   - { type: born_in, target: place/jalandhar, sources: [source/wikidata-muhammad-zia-ul-haq], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q33377)" }
   - { type: died_in, target: place/bahawalpur, sources: [source/wikidata-muhammad-zia-ul-haq], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q318156)" }
@@ -47,6 +47,7 @@ sources:
   - source/wikipedia-muhammad-zia-ul-haq-ar
   - source/wikipedia-muhammad-zia-ul-haq-ur
   - source/wikidata-muhammad-zia-ul-haq
+  - source/wikidata
 status:
   review: published
 provenance:

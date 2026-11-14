@@ -25,11 +25,11 @@ faith:
     basis: unknown
     note: "Wikidata records no religion for him, and neither the English, Arabic nor Turkish article names a school of Islam. His 2019 Mustafa Prize is an Iranian prize awarded to Muslim scientists — an eligibility fact about a prize, not a school attestation. Not recorded until two independent sources name a school."
     sources: [source/wikipedia-ugur-sahin-en, source/wikipedia-ugur-sahin-ar, source/wikidata-ugur-sahin]
-external_ids: { wikidata: "Q2505089" }
+external_ids: { wikidata: "Q2505089", viaf: "47467131" }
 relations:
   - { type: born_in, target: place/i-skenderun, sources: [source/wikidata-ugur-sahin], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q174341)" }
   - { type: lived_in, target: place/mainz, sources: [source/wikidata-ugur-sahin], confidence: low, note: "Wikidata P937 work location (Wikidata Q1720)" }
-sources: [source/wikipedia-ugur-sahin-en, source/wikipedia-ugur-sahin-ar, source/wikipedia-ugur-sahin-tr, source/wikidata-ugur-sahin, source/biontech-sahin-cv]
+sources: [source/wikipedia-ugur-sahin-en, source/wikipedia-ugur-sahin-ar, source/wikipedia-ugur-sahin-tr, source/wikidata-ugur-sahin, source/biontech-sahin-cv, source/wikidata]
 provenance:
   layer: own-research
   source: "English, Arabic and Turkish Wikipedia articles on Uğur Şahin, Wikidata Q2505089, and BioNTech's official management CV for its CEO; checked 24 October 2026"

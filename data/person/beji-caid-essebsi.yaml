@@ -42,12 +42,13 @@ relations:
   - { type: buried_in, target: place/tunis, sources: [source/wikipedia-beji-caid-essebsi-en] }
 wings: [people]
 regions: [maghreb]
-external_ids: { wikidata: "Q313539" }
+external_ids: { wikidata: "Q313539", viaf: "101490770" }
 sources:
   - source/wikipedia-beji-caid-essebsi-en
   - source/wikipedia-beji-caid-essebsi-ar
   - source/wikipedia-beji-caid-essebsi-ur
   - source/wikidata-beji-caid-essebsi
+  - source/wikidata
 provenance:
   layer: own-research
   source: "Wikipedia articles on Beji Caid Essebsi in English (revision 1381069189 of 19 Oct 2026), Arabic (revision 76466920 of 7 Sep 2026) and Urdu (revision 8876658 of 28 Jun 2025) and the Wikidata item Q313539 (item revision 2557808262 of 17 Oct 2026, read twice with identical results), each fetched by its recorded revision id via the MediaWiki API and asserted equal to it (27 October 2026). The QID was grounded through the articles' own page properties (all three editions agree on Q313539). Existence checked both directions before writing: name fragments in Latin and Arabic scripts across data/person/, the QID grepped across all of data/person/, biographical comparison, and candidate records' provenance — no prior record of the man existed. The successor_of edge to Moncef Marzouki is written because both the English and Arabic infoboxes name Marzouki as his direct predecessor as president: Marzouki's term ended and Essebsi's began on 31 December 2014, with no interim holder. No founder_of or member_of edge is written: the museum has no group entity for Nidaa Tounes or for the parties of his earlier career."

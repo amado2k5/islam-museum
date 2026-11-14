@@ -43,8 +43,8 @@ relations:
   - { type: member_of, target: group/qadiriyya, sources: [source/wikipedia-abdul-aleem-siddiqui-en] }
   - { type: died_in, target: place/medina, sources: [source/wikipedia-abdul-aleem-siddiqui-en, source/wikipedia-abdul-aleem-siddiqui-ur] }
   - { type: buried_in, target: place/medina, sources: [source/wikipedia-abdul-aleem-siddiqui-ar] }
-external_ids: { wikidata: "Q6777232" }
-sources: [source/wikipedia-abdul-aleem-siddiqui-en, source/wikipedia-abdul-aleem-siddiqui-ar, source/wikipedia-abdul-aleem-siddiqui-ur, source/wikidata-abdul-aleem-siddiqui]
+external_ids: { wikidata: "Q6777232", viaf: "67535830" }
+sources: [source/wikipedia-abdul-aleem-siddiqui-en, source/wikipedia-abdul-aleem-siddiqui-ar, source/wikipedia-abdul-aleem-siddiqui-ur, source/wikidata-abdul-aleem-siddiqui, source/wikidata]
 provenance:
   layer: own-research
   source: "English Wikipedia 'Muhammad Abdul Aleem Siddiqi' (revision 1380189636), Urdu Wikipedia 'عبد العلیم صدیقی' (revision 11800765) and Arabic Wikipedia 'عبد العليم صديق' (revision 76644481), each fetched by its recorded revision id with the returned id asserted equal before use, and Wikidata item Q6777232 (item revision 2561026552). Existence checks by name fragments (siddiqui, aleem, عبد العلیم), by Arabic label across data/person, by biography and by QID found no prior record for this man; person/abdul-aleem-farooqui is a different man. His son Shah Ahmad Noorani has no person record, so no parent edge is written; the relationship is stated in the prose only. Edges written once, here, in the subject's own record: Siddiqui student_of Ahmed Raza Khan Barelvi (he studied under him and took bay'ah from him), Siddiqui member_of the Qadiriyya, and his death and burial in Medina. The founder's flagged question on this record: the Sunni (Barelvi movement) reading rests on the English text alone and is preserved in the faith note. The lane queue gives 1892–1954."

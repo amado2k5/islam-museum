@@ -18,9 +18,10 @@ died: { edtf: "1534", calendar: gregorian, precision: year, derived: true, note:
 relations:
   - { type: died_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: buried_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/dawlat-uthmaniyya-salabi]
+sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
 external_ids:
   wikidata: Q2425979
+  viaf: "69739811"
 provenance:
   layer: own-research
   source: "Wikidata Q2425979 (religion claim Islam); book source: al-Salabi, al-Dawla al-Uthmaniyya — entry not yet read on the page"

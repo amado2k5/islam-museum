@@ -19,12 +19,13 @@ story_roles:
   - { role: philosopher, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
 external_ids:
   wikidata: Q144693
+  viaf: "8189446"
 relations:
   - { type: born_in, target: place/i-skenderun, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q174341)" }
   - { type: born_in, target: place/ladhiqiyya, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q200030)" }
   - { type: died_in, target: place/damascus, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q3766)" }
   - { type: buried_in, target: place/the-cemetery-of-dahdah, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q16128316)" }
-sources: [source/mawsuat-a3lam-ulama-adaba]
+sources: [source/mawsuat-a3lam-ulama-adaba, source/wikidata]
 status:
   review: published
   completeness: 3

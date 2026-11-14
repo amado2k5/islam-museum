@@ -17,10 +17,11 @@ died: { edtf: "1582", calendar: gregorian, precision: year, derived: true, note:
 relations:
   - { type: born_in, target: place/kastamonu, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/red-sea, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/al-aalam, source/biblissima]
+sources: [source/al-aalam, source/biblissima, source/wikidata]
 external_ids:
   wikidata: Q12810590
   biblissima: "Q218"
+  viaf: "10763905"
 provenance:
   layer: own-research
   source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"

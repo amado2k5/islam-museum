@@ -13,9 +13,10 @@ regions: [levant-iraq]
 periods: [period/buyid-seljuk-fatimid-era]
 relations:
   - { type: lived_in, target: place/iraq, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/al-aalam] }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q16126369
+  viaf: "90053052"
 provenance:
   layer: own-research
   source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.6 p.278)"

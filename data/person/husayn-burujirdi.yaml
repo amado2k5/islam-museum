@@ -15,9 +15,10 @@ died: { edtf: "1961", precision: year, status: tradition, derived: true }
 relations:
   - { type: died_in, target: place/qumm, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: buried_in, target: building/azam-mosque-of-qom, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q606600
+  viaf: "75374105"
 provenance:
   layer: own-research
   source: "Wikidata candidate; entry not yet read on the page in a book source"

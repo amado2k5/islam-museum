@@ -16,8 +16,8 @@ died: { edtf: "1557", calendar: gregorian, precision: year, derived: true, note:
 relations:
   - { type: lived_in, target: place/algiers, note: "Place association from the person's nisba/name (الجزائري); denotes association, not proven residence.", sources: [source/dawlat-uthmaniyya-salabi], confidence: low }
   - { type: ruled_over, target: polity/saadi-dynasty, sources: [source/dawlat-uthmaniyya-salabi] }
-sources: [source/dawlat-uthmaniyya-salabi]
-external_ids: { wikidata: "Q401747" }
+sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
+external_ids: { wikidata: "Q401747", viaf: "139154981859667742372" }
 provenance:
   layer: own-research
   source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 219-222"

@@ -17,9 +17,10 @@ relations:
   - { type: born_in, target: place/indian-subcontinent, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q60140)" }
   - { type: died_in, target: place/damascus, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q3766)" }
   - { type: buried_in, target: place/sufism-cemetery, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q104244392)" }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q45108299
+  viaf: "90056543"
 provenance:
   layer: own-research
   source: "Wikidata candidate; entry not yet read on the page in a book source"

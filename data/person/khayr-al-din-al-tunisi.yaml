@@ -21,7 +21,8 @@ relations:
   - { type: lived_in, target: place/lamta-maghreb, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/mawsuat-a3lam-ulama-adaba] }
 external_ids:
   wikidata: Q1366613
-sources: [source/mawsuat-a3lam-ulama-adaba]
+  viaf: "100250731"
+sources: [source/mawsuat-a3lam-ulama-adaba, source/wikidata]
 status:
   review: published
   completeness: 3

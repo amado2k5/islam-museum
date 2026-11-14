@@ -12,12 +12,12 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch30
-external_ids: { wikidata: "Q939884" }
+external_ids: { wikidata: "Q939884", viaf: "32857439" }
 born: { edtf: "637", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; Ibn Sa'd (al-Tabaqat al-Kubra)" }
 died: { edtf: "700", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; Ibn Sa'd (al-Tabaqat al-Kubra)" }
 relations:
   - { type: born_in, target: place/medina, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q35484)" }
-sources: [source/muruj-al-dhahab, source/bakr-umayyad-state-1134715, source/sallabi-ali-vol1]
+sources: [source/muruj-al-dhahab, source/bakr-umayyad-state-1134715, source/sallabi-ali-vol1, source/wikidata]
 status:
   review: published
   completeness: 3

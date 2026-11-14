@@ -14,9 +14,10 @@ periods: [period/gunpowder-empires]
 died: { edtf: "1762", precision: year, status: tradition, derived: true }
 relations:
   - { type: born_in, target: place/delhi, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1353)" }
-sources: [source/duha-islam]
+sources: [source/duha-islam, source/wikidata]
 external_ids:
   wikidata: Q392835
+  viaf: "71535292"
 provenance:
   layer: own-research
   source: "Wikidata candidate; entry not yet read on the page in a book source"

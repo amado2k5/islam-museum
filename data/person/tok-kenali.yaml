@@ -38,8 +38,8 @@ faith:
     basis: unknown
     note: "The Malay article's scholar infobox leaves its school (mazhab) field empty, no text in it names a school for him, and Wikidata gives Islam in general (Q432) only. His pondok formation at Kota Bharu and his twenty-two years of study in Mecca never count, and the article's description of him as a wali keramat is reputation, not a documented affiliation with any order — no text attests discipleship, initiation or membership. No school reading exists anywhere, so the value is unknown and unflagged."
     sources: [source/wikipedia-tok-kenali-ms, source/wikidata-tok-kenali]
-external_ids: { wikidata: "Q12698227" }
-sources: [source/wikipedia-tok-kenali-ms, source/wikidata-tok-kenali]
+external_ids: { wikidata: "Q12698227", viaf: "18297020" }
+sources: [source/wikipedia-tok-kenali-ms, source/wikidata-tok-kenali, source/wikidata]
 provenance:
   layer: own-research
   source: "Malay Wikipedia 'Tok Kenali' (revision 6835450 of 29 April 2026) and Wikidata item Q12698227 (item revision 2528180085 of 6 August 2026), each fetched by its recorded revision id through the MediaWiki API with the returned id asserted equal before use; the QID was grounded through the Malay article's page properties, the item's only Wikipedia sitelink. Identity: the queue line 'Tok Kenali (1868–1933)' matches Muhammad Yusuf bin Ahmad of Kampung Kenali, Kota Bharu, exactly in biography and years. Existence checks by name fragments (kenali, yusuf, يوسف) across data/person, by QID and by biography found no prior record; the Yusuf-named files on file are other men. One relation is written: lived_in Mecca, which the article attests for his study years 1887–1909. No student_of edge is written: his Meccan teacher Wan Ahmad bin Muhammad Zain and his Kota Bharu teachers have no person records. No born_in, died_in or buried_in edge is written: Kota Bharu and Kubang Kerian have no place entities. No English, Arabic or Urdu Wikipedia article exists, so the English prose rests on the Malay article and the item, and the Arabic and Urdu prose are written from those sources and say so."

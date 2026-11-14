@@ -13,9 +13,10 @@ regions: [anatolia-balkans]
 periods: [period/crusades-ayyubid-mamluk]
 relations:
   - { type: died_in, target: place/serres, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q206957)" }
-sources: [source/dawlat-uthmaniyya-salabi, source/al-aalam]
+sources: [source/dawlat-uthmaniyya-salabi, source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q1372236
+  viaf: "78822492"
 provenance:
   layer: own-research
   source: "Wikidata candidate; book sources: al-Sallabi, al-Dawla al-Uthmaniyya; al-Zirikli, al-A'lam — entries not yet read on the page"

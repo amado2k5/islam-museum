@@ -16,9 +16,10 @@ died: { edtf: "2017", precision: year, status: tradition, derived: true }
 relations:
   - { type: born_in, target: place/muzaffarnagar, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q2768828)" }
   - { type: died_in, target: place/karachi, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q8660)" }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q66439348
+  viaf: "33784415"
 provenance:
   layer: own-research
   source: "Wikidata candidate; entry not yet read on the page in a book source"

@@ -21,9 +21,10 @@ relations:
   - { type: buried_in, target: place/nader-shah-mausoleum, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q5957084)" }
   - { type: lived_in, target: place/afsharid-iran, sources: [source/wikidata], confidence: low, note: "Wikidata P937 work location (Wikidata Q63149558)" }
   - { type: lived_in, target: place/persian-empire, sources: [source/wikidata], confidence: low, note: "Wikidata P937 work location (Wikidata Q83311)" }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q192868
+  viaf: "16017634"
 provenance:
   layer: own-research
   source: "Wikidata Q192868 (religion claim Islam); book source: Tarikh al-Islam (Hasan Ibrahim) — entry not yet read on the page"

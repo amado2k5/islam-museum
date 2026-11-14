@@ -23,9 +23,10 @@ died:
 relations:
   - { type: born_in, target: place/hawraman, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/hamadan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/al-aalam, source/encyclopaedia-of-islam-2]
+sources: [source/al-aalam, source/encyclopaedia-of-islam-2, source/wikidata]
 external_ids:
   wikidata: Q558486
+  viaf: "161878826"
 provenance:
   layer: own-research
   source: "Wikidata candidate (Q558486); prose enriched from Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, pp. 896-899, entry 'BABA-TAHIR' (signed V. Minorsky; queue seq 479, batch ei2-b020); the original draft provenance is kept"

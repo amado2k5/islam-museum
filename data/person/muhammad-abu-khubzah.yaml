@@ -15,9 +15,10 @@ born: { edtf: "1932", precision: year, status: tradition, derived: true }
 died: { edtf: "2020", precision: year, status: tradition, derived: true }
 relations:
   - { type: born_in, target: place/t-touan, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q185157)" }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q3739287
+  viaf: "43260134"
 provenance:
   layer: own-research
   source: "Wikidata candidate; entry not yet read on the page in a book source"

@@ -6,13 +6,13 @@ summary:
   ar: "عبد الله بن كثير يكنى أبا سعيداً ويقال أبو بكر، من قراء مكة في الطبقة الثانية، مولى عمرو بن علقمة الكناني يقال له الداراني لأنه كان عطاراً والعطار يقال له بالحجاز الداراني بل الداري اللخمي لأن بني الداري هاني بن لخم وكان منهم تميم الداري، وقيل إنه من أبناء فارس الذين بعثهم كسرى في الشون إلى اليمن حتى طردوا الحبشة، مات سنة عشرين ومائة بمكة وبها دفن وإليه صارت الرئاسة {cite:fihrist-ibn-al-nadim p. 73}."
   en: "Meccan reader (d. 120 AH) — the perfumer-mawla to whom the qira'a leadership passed {cite:fihrist-ibn-al-nadim p. 73}."
 wings: [people]
-sources: [source/fihrist-ibn-al-nadim, source/siyar-alam-nubala-abyari]
+sources: [source/fihrist-ibn-al-nadim, source/siyar-alam-nubala-abyari, source/wikidata]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
 born: { edtf: "665", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Jazari (Ghayat al-Nihaya) Confirmed on 13 November 2026 against Wikidata Q5674734 (P569, a statement with a reference), item revision 2562044089.", sources: [source/wikidata] }
 died: { edtf: "738", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Jazari (Ghayat al-Nihaya) Confirmed on 13 November 2026 against Wikidata Q5674734 (P570, a statement with a reference), item revision 2562044089.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/mecca, note: "Place association from the person's nisba/name (makki); denotes association, not proven residence.", sources: [source/fihrist-ibn-al-nadim], confidence: low }
-external_ids: {wikidata: Q5674734}
+external_ids: {wikidata: Q5674734, viaf: "68685042" }
 names:
   - {kind: alternate, value: ابن كثير المكي}
 roles: [scholar]

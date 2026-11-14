@@ -15,9 +15,10 @@ born: { edtf: "1922", calendar: gregorian, precision: year, derived: true, note:
 died: { edtf: "2012", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Intl. Islamic Fiqh Academy Confirmed on 13 November 2026 against Wikidata Q17388031 (P570, a statement with a reference), item revision 2566806526.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/tunis, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q17388031
+  viaf: "64132044"
 provenance:
   layer: own-research
   source: "Wikidata candidate; entry not yet read on the page in a book source"

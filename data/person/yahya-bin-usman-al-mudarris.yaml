@@ -14,9 +14,10 @@ periods: [period/contemporary-era]
 born: { edtf: "1935", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Scholarly Obituaries (Makkah Scholars)" }
 relations:
   - { type: born_in, target: place/mecca, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q5806)" }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q110710359
+  viaf: "51056977"
 provenance:
   layer: own-research
   source: "Wikidata candidate; entry not yet read on the page in a book source"

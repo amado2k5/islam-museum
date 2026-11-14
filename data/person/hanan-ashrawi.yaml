@@ -31,12 +31,13 @@ relations:
   - { type: lived_in, target: place/amman, sources: [source/wikipedia-hanan-ashrawi-en] }
 wings: [people, living]
 regions: [levant-iraq]
-external_ids: { wikidata: "Q237143" }
+external_ids: { wikidata: "Q237143", viaf: "83011217" }
 sources:
   - source/wikipedia-hanan-ashrawi-en
   - source/wikipedia-hanan-ashrawi-ar
   - source/wikipedia-hanan-ashrawi-ur
   - source/wikidata-hanan-ashrawi
+  - source/wikidata
 provenance:
   layer: own-research
   source: "Wikipedia articles on Hanan Ashrawi in English (revision 1349555145 of 17 Apr 2026), Arabic (revision 75117548 of 6 Jun 2026) and Urdu (revision 11048663 of 19 Jun 2026) and the Wikidata item Q237143 (item revision 2526627168 of 3 Aug 2026, read twice with identical results), each fetched by its recorded revision id via the MediaWiki API and asserted equal to it (27 October 2026). The QID was grounded through the English article's own page property. Existence checked both directions before writing: name fragments in English, Arabic and Urdu scripts across data/person/, the QID grepped across all of data/person/, biographical comparison, and candidate records' provenance — no prior record of her existed. Ramallah has no place entity in the museum, so her Ramallah upbringing and residence are stated in text without a lived_in edge to it; the PLO has no group entity, so no member_of edge is written for her Executive Committee membership."

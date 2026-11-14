@@ -15,9 +15,10 @@ born: { edtf: "1283", calendar: gregorian, precision: year, derived: true, note:
 died: { edtf: "1370", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Ghadir (al-Amini) Confirmed on 13 November 2026 against Wikidata Q5952831 (P570, a statement with a reference), item revision 2551295811.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/hilla, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q5952831
+  viaf: "60672037"
 provenance:
   layer: own-research
   source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"

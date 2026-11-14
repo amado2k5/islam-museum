@@ -40,8 +40,8 @@ faith:
 relations:
   - { type: successor_of, target: person/khawaja-nazimuddin, sources: [source/wikipedia-muhammad-ali-bogra-en, source/wikipedia-muhammad-ali-bogra-ur] }
   - { type: died_in, target: place/dhaka, sources: [source/wikipedia-muhammad-ali-bogra-en, source/wikipedia-muhammad-ali-bogra-ar, source/wikidata-muhammad-ali-bogra] }
-external_ids: { wikidata: "Q469875" }
-sources: [source/wikipedia-muhammad-ali-bogra-en, source/wikipedia-muhammad-ali-bogra-ur, source/wikipedia-muhammad-ali-bogra-ar, source/wikidata-muhammad-ali-bogra]
+external_ids: { wikidata: "Q469875", viaf: "6980311" }
+sources: [source/wikipedia-muhammad-ali-bogra-en, source/wikipedia-muhammad-ali-bogra-ur, source/wikipedia-muhammad-ali-bogra-ar, source/wikidata-muhammad-ali-bogra, source/wikidata]
 provenance:
   layer: own-research
   source: "English Wikipedia 'Mohammad Ali Bogra' (revision 1376812947), Urdu Wikipedia 'محمد علی بوگرہ' (revision 10086663) and Arabic Wikipedia 'محمد علي بوغرا' (revision 76479672), each fetched by its recorded revision id with the returned id asserted equal before use, and Wikidata item Q469875 (item revision 2532802821, asserted on fetch). Part of the Urdu article's text is a translation of the English and the two are counted accordingly where they overlap. Existence checks by name fragments (bogra, بوغرا, بوگرہ), by Arabic label across data/person, by biography and by QID found no prior record for this man. The successor_of edge to person/khawaja-nazimuddin is written here, in Bogra's record: Bogra succeeded Nazimuddin as prime minister on 17 April 1953 (and also as Muslim League president and defence minister). The died_in edge to place/dhaka is written; no born_in or buried_in edge is written because Backergunge/Barisal and Bogra have no place entities. The lane queue gives 'Muhammad Ali Bogra (1909–1963)', which the articles confirm."

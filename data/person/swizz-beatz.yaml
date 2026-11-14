@@ -26,10 +26,10 @@ faith:
     basis: unknown
     note: "No article states a religion for him: neither the English nor the Arabic Wikipedia article mentions Islam or any affiliation of his anywhere. Wikidata's religion (P140) value is Islam generically — one structured-data value naming no school, which under the lane rule never counts as an attestation. No source names a madhhab for him, so his faith is recorded as unknown, and the absence in the articles is stated rather than filled."
     sources: [source/wikipedia-swizz-beatz-en, source/wikipedia-swizz-beatz-ar, source/wikidata-swizz-beatz]
-external_ids: { wikidata: "Q240523" }
+external_ids: { wikidata: "Q240523", viaf: "98145970056432250753" }
 relations:
   - { type: born_in, target: place/the-bronx, sources: [source/wikidata-swizz-beatz], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q18426)" }
-sources: [source/wikipedia-swizz-beatz-en, source/wikipedia-swizz-beatz-ar, source/wikidata-swizz-beatz]
+sources: [source/wikipedia-swizz-beatz-en, source/wikipedia-swizz-beatz-ar, source/wikidata-swizz-beatz, source/wikidata]
 provenance:
   layer: own-research
   source: "English Wikipedia 'Swizz Beatz' (revision 1379206716 of 8 October 2026), Arabic Wikipedia «سويز بيتز» (revision 75980184 of 23 July 2026), and Wikidata Q240523 read through the Wikidata API, all checked 26 October 2026. No earlier record existed in data/person/ under any spelling (Dean/Swizz variants searched); this is a new build, not an enrichment. No relations are written: the Bronx has no place entity in the museum."

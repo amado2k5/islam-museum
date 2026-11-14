@@ -16,9 +16,10 @@ relations:
   - { type: born_in, target: place/isparta, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: buried_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/dawlat-uthmaniyya-salabi]
+sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
 external_ids:
   wikidata: Q1584127
+  viaf: "1782158630985523370002"
 provenance:
   layer: own-research
   source: "Wikidata candidate; entry not yet read on the page in a book source"

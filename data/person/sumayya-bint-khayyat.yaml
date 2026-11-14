@@ -30,8 +30,8 @@ relations:
   - { type: persecuted_by, target: person/abu-jahl, start: { edtf: "0614~" }, end: { edtf: "0615~" }, sources: [source/ibn-sad-tabaqat-bewley] }
   - { type: participated_in, target: event/first-muslim-martyrdom, role: victim, sources: [source/ibn-sad-tabaqat-bewley] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-sad-tabaqat-bewley]}
-external_ids: { wikidata: "Q2736992" }
-sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume, source/ibn-hajar-isaba]
+external_ids: { wikidata: "Q2736992", viaf: "646163756423134480004" }
+sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume, source/ibn-hajar-isaba, source/wikidata]
 importance: 2
 status: { review: draft, completeness: 1, generated_by: "Devin; 2026-10-11" }
 provenance:

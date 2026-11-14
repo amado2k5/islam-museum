@@ -27,8 +27,8 @@ relations:
   - { type: lived_in, target: place/baghdad, sources: [source/tarikh-dimashq-amrawi-v5] }
   - { type: lived_in, target: place/mecca, sources: [source/tarikh-dimashq-amrawi-v5] }
   - { type: traveled_to, target: place/sayda, sources: [source/tarikh-dimashq-amrawi-v5] }
-external_ids: { wikidata: "Q2822175" }
-sources: [source/tarikh-dimashq-amrawi-v5, source/mawsuat-a3lam-ulama-adaba, source/muntazam-ibn-al-jawzi, source/risala-qushayriyya-minhaj-2017]
+external_ids: { wikidata: "Q2822175", viaf: "7610254" }
+sources: [source/tarikh-dimashq-amrawi-v5, source/mawsuat-a3lam-ulama-adaba, source/muntazam-ibn-al-jawzi, source/risala-qushayriyya-minhaj-2017, source/wikidata]
 status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker F)" }
 provenance:
   layer: own-research

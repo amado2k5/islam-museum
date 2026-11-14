@@ -40,8 +40,8 @@ faith:
     sources: [source/wikipedia-fatma-nsoumer-fr, source/wikipedia-fatma-nsoumer-ar, source/wikipedia-fatma-nsoumer-en, source/wikidata-fatma-nsoumer]
 relations:
   - { type: buried_in, target: place/algiers, sources: [source/wikipedia-fatma-nsoumer-ar] }
-external_ids: { wikidata: "Q2636619" }
-sources: [source/wikipedia-fatma-nsoumer-fr, source/wikipedia-fatma-nsoumer-ar, source/wikipedia-fatma-nsoumer-en, source/wikipedia-fatma-nsoumer-ur, source/wikidata-fatma-nsoumer]
+external_ids: { wikidata: "Q2636619", viaf: "48339910" }
+sources: [source/wikipedia-fatma-nsoumer-fr, source/wikipedia-fatma-nsoumer-ar, source/wikipedia-fatma-nsoumer-en, source/wikipedia-fatma-nsoumer-ur, source/wikidata-fatma-nsoumer, source/wikidata]
 provenance:
   layer: own-research
   source: "English, French, Arabic and Urdu Wikipedia articles on Lalla Fatma N'Soumer, each fetched by its recorded revision id (EN 1377224839, FR 239875114, AR 76786452, UR 6810687) with the returned id asserted equal before use, and Wikidata item Q2636619 (revision 2551937671). Existence checks by name fragments (N'Soumer, Nsoumer, نسومر, فاطمة نسومر) and by QID across data/person and data/source found no prior record. The lane queue gives 1830–1863, which the sources confirm as circa dates."

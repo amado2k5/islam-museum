@@ -17,9 +17,10 @@ relations:
   - { type: opposed, target: person/sulayman-al-qanuni, sources: [source/dawlat-uthmaniyya-salabi] }
 
   - { type: lived_in, target: place/mohacs, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/dawlat-uthmaniyya-salabi] }
-sources: [source/dawlat-uthmaniyya-salabi]
+sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
 external_ids:
   wikidata: Q160819
+  viaf: "183144928972854441419"
 provenance:
   layer: own-research
   source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421)"

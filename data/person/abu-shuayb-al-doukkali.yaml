@@ -41,8 +41,8 @@ relations:
   - { type: lived_in, target: place/maghreb, note: "Place association from the person's nisba/name (مغربي); denotes association, not proven residence.", sources: [source/wikipedia-abu-shuayb-al-doukkali-en, source/wikipedia-abu-shuayb-al-doukkali-fr, source/wikipedia-abu-shuayb-al-doukkali-ar, source/wikipedia-abu-shuayb-al-doukkali-ur, source/wikidata-abu-shuayb-al-doukkali], confidence: low }
   - { type: student_of, target: person/salim-al-bishri, sources: [source/wikipedia-abu-shuayb-al-doukkali-ar] }
   - { type: student_of, target: person/muhammad-bakhit-mutii, sources: [source/wikipedia-abu-shuayb-al-doukkali-ar] }
-external_ids: { wikidata: "Q2821727" }
-sources: [source/wikipedia-abu-shuayb-al-doukkali-en, source/wikipedia-abu-shuayb-al-doukkali-fr, source/wikipedia-abu-shuayb-al-doukkali-ar, source/wikipedia-abu-shuayb-al-doukkali-ur, source/wikidata-abu-shuayb-al-doukkali]
+external_ids: { wikidata: "Q2821727", viaf: "103144518" }
+sources: [source/wikipedia-abu-shuayb-al-doukkali-en, source/wikipedia-abu-shuayb-al-doukkali-fr, source/wikipedia-abu-shuayb-al-doukkali-ar, source/wikipedia-abu-shuayb-al-doukkali-ur, source/wikidata-abu-shuayb-al-doukkali, source/wikidata]
 provenance:
   layer: own-research
   source: "English, French, Arabic and Urdu Wikipedia articles on Abu Shu'ayb al-Doukkali, each fetched by its recorded revision id (EN 1378833045, FR 240462229, AR 76667540, UR 10683608) with the returned id asserted equal before use, and Wikidata item Q2821727 (revision 2544403728; a sitelink-less duplicate item Q130362601 was not used). Existence checks by name fragments (al-Doukkali, ad-Dukkali, Doukkali, الدكالي, الدوكالي) and by QID across data/person and data/source found no prior record for him. The lane queue gives 1878–1937, confirmed by all sources, with the Arabic article's Hijri dates (25 Dhu al-Qa'da 1295 – 1356 AH) agreeing. The student_of edges to Salim al-Bishri and Muhammad Bakhit al-Muti'i are written here, in the student's record, as the Arabic text names both among his al-Azhar teachers."

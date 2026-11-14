@@ -24,7 +24,7 @@ story_roles:
   - { role: historian, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
 relations:
   - { type: lived_in, target: place/yemen, confidence: low, note: "Associated with اليمن per the record's own summary text; relation type pending review.", sources: [source/mawsuat-a3lam-ulama-adaba] }
-sources: [source/mawsuat-a3lam-ulama-adaba, source/al-aalam]
+sources: [source/mawsuat-a3lam-ulama-adaba, source/al-aalam, source/wikidata]
 status:
   review: published
   completeness: 3
@@ -34,4 +34,4 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch56
-external_ids: {wikidata: Q139499123}
+external_ids: {wikidata: Q139499123, viaf: "90056163" }

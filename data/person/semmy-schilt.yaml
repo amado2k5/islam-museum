@@ -19,10 +19,10 @@ faith:
     basis: unknown
     note: "No affiliation is recorded: a complete absence. Neither the English article's text nor the Arabic stub makes any statement of Schilt's religion, none of either article's categories is a religion category, and Wikidata (Q311016) has no religion value at all. There is nothing to weigh."
     sources: [source/wikipedia-semmy-schilt-en, source/wikipedia-semmy-schilt-ar, source/wikidata-semmy-schilt]
-external_ids: { wikidata: "Q311016" }
+external_ids: { wikidata: "Q311016", viaf: "296342060" }
 relations:
   - { type: born_in, target: place/rotterdam, sources: [source/wikidata-semmy-schilt], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q34370)" }
-sources: [source/wikipedia-semmy-schilt-en, source/wikipedia-semmy-schilt-ar, source/wikidata-semmy-schilt]
+sources: [source/wikipedia-semmy-schilt-en, source/wikipedia-semmy-schilt-ar, source/wikidata-semmy-schilt, source/wikidata]
 provenance:
   layer: own-research
   source: "English Wikipedia (revision 1380862071 of 18 October 2026), Arabic Wikipedia (revision 76751358 of 25 September 2026) and Wikidata Q311016, each read on 26 October 2026; every article was fetched by its recorded revision id and the returned revision asserted equal before any claim was drawn. Schilt has no Urdu Wikipedia article, so the Urdu prose cites the English and Arabic sources and Wikidata. No earlier record for Semmy Schilt existed in data/person/ (name-fragment sweep clean), and Q311016 was searched across data/person/ and data/source/ with no hit; this is a new build. The QID was pinned by biography — Dutch kickboxer, born 27 October 1973 in Rotterdam. The queue line spells his name 'Semmy Schult'; the sources give Semmy Schilt, and the record follows the sources. No relations are written: Rotterdam has no place entity in the museum."

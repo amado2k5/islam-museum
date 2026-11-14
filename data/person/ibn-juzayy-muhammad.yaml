@@ -13,8 +13,8 @@ periods: [period/mongol-post-mongol]
 regions: [andalus-europe, maghreb]
 relations:
   - { type: lived_in, target: place/morocco, confidence: low, note: "Associated with المغرب per the record's own summary text; relation type pending review.", sources: [source/nafh-tib-maqqari] }
-external_ids: { wikidata: "Q3773066" }
-sources: [source/nafh-tib-maqqari, source/rihla-ibn-battuta-khayriyya-1904]
+external_ids: { wikidata: "Q3773066", viaf: "246174539" }
+sources: [source/nafh-tib-maqqari, source/rihla-ibn-battuta-khayriyya-1904, source/wikidata]
 status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 High)" }
 provenance:
   layer: own-research

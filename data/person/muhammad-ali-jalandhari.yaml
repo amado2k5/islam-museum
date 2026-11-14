@@ -15,9 +15,10 @@ born: { edtf: "1895", precision: year, status: tradition, derived: true }
 died: { edtf: "1971", precision: year, status: tradition, derived: true }
 relations:
   - { type: born_in, target: place/jalandhar-district, sources: [source/wikidata], confidence: low, note: "Wikidata Q55631111 ('Raipur Araian, Jalandhar'), located in Jalandhar District" }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q92275328
+  viaf: "172865727"
 provenance:
   layer: own-research
   source: "Wikidata candidate; entry not yet read on the page in a book source"

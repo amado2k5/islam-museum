@@ -16,9 +16,10 @@ died: { edtf: "1316", calendar: gregorian, precision: year, derived: true, note:
 relations:
   - { type: born_in, target: place/baghdad, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1530)" }
   - { type: died_in, target: place/al-khalil, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q168225)" }
-sources: [source/shadharat-dhahab, source/durar-kamina-jil-1993]
+sources: [source/shadharat-dhahab, source/durar-kamina-jil-1993, source/wikidata]
 external_ids:
   wikidata: Q15446588
+  viaf: "32302651"
 provenance:
   layer: own-research
   source: "Wikidata candidate; book source: Ibn al-Imad, Shadharat al-Dhahab — entry not yet read on the page"

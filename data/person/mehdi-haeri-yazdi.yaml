@@ -16,9 +16,10 @@ died: { edtf: "1999", precision: year, status: tradition, derived: true }
 relations:
   - { type: born_in, target: place/qumm, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/tehran, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q1917222
+  viaf: "73952263"
 provenance:
   layer: own-research
   source: "Wikidata candidate; entry not yet read on the page in a book source"

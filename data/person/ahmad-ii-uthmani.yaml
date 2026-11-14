@@ -17,8 +17,8 @@ relations:
   - { type: lived_in, target: place/anatolia, note: "Only the record-level region (anatolia-balkans) is attested; broad-region edge flagged for review.", sources: [source/dawlat-uthmaniyya-salabi, source/encyclopaedia-of-islam-2], confidence: low }
   - { type: child_of, target: person/ibrahim-i-uthmani, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: successor_of, target: person/sulayman-ii-uthmani, sources: [source/dawlat-uthmaniyya-salabi] }
-external_ids: { wikidata: "Q199660", nomisma: "ahmed_ii" }
-sources: [source/dawlat-uthmaniyya-salabi, source/encyclopaedia-of-islam-2, source/nomisma]
+external_ids: { wikidata: "Q199660", nomisma: "ahmed_ii", viaf: "232168731" }
+sources: [source/dawlat-uthmaniyya-salabi, source/encyclopaedia-of-islam-2, source/nomisma, source/wikidata]
 provenance:
   layer: own-research
   source: "الدولة العثمانية لعلي محمد الصلابي ⁦(ط1 1421)⁩ ص 309"

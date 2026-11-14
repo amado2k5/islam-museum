@@ -20,9 +20,10 @@ relations:
   - { type: founder_of, target: polity/safavid-iran, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: opposed, target: person/selim-i-ottoman, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: participated_in, target: event/battle-chaldiran-920, role: "المهزوم", sources: [source/dawlat-uthmaniyya-salabi] }
-sources: [source/tarikh-islam-hasan-ibrahim, source/dawlat-uthmaniyya-salabi]
+sources: [source/tarikh-islam-hasan-ibrahim, source/dawlat-uthmaniyya-salabi, source/wikidata]
 external_ids:
   wikidata: Q214559
+  viaf: "3785262"
 provenance:
   layer: own-research
   source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421)"

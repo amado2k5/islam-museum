@@ -38,8 +38,8 @@ faith:
 relations:
   - { type: born_in, target: place/kano, sources: [source/wikipedia-sani-abacha-en, source/wikidata-sani-abacha] }
   - { type: buried_in, target: place/kano, sources: [source/wikipedia-sani-abacha-en, source/wikidata-sani-abacha] }
-external_ids: { wikidata: "Q207942" }
-sources: [source/wikipedia-sani-abacha-en, source/wikipedia-sani-abacha-ar, source/wikipedia-sani-abacha-ur, source/wikidata-sani-abacha]
+external_ids: { wikidata: "Q207942", viaf: "80884465" }
+sources: [source/wikipedia-sani-abacha-en, source/wikipedia-sani-abacha-ar, source/wikipedia-sani-abacha-ur, source/wikidata-sani-abacha, source/wikidata]
 provenance:
   layer: own-research
   source: "English Wikipedia 'Sani Abacha' (revision 1380737839), Arabic Wikipedia 'ساني أباتشا' (revision 75207545), Urdu Wikipedia 'ثانی اباچہ' (revision 9653894) and Wikidata item Q207942 (item revision 2560636706), read via the MediaWiki API on 26 October 2026; every article was fetched by its recorded revision id and the returned id asserted equal before any claim was drawn, and the Wikidata item revision was read from the API itself (its date is internally coherent). Existence was checked by filename fragments under all spellings (abacha), by Arabic label, by biography and by the QID route across data/person/ — no earlier record exists, and the Arabic label matches no existing record's label. His born_in edge to Kano is written because place/kano exists; Abuja has no place entity, so no died_in edge is written; his direct predecessor as head of state was the interim president Ernest Shonekan, who has no person record, so no successor_of edge is written (he did not succeed Babangida directly — an interim government stood between them)."

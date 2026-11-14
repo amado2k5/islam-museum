@@ -3434,3 +3434,53 @@ Resume point: min-kunuz-al-sunnah episode 30 (branch from origin/main).
 | Repeated filler tokens | ep30 00:30:30-00:30:30 | Loop, no content | Clarity, Loop check | Open |
 
 Resume point: min-kunuz-al-sunnah episode 31 (branch from origin/main).
+
+### alwaad-alhaq ep09 (14 Nov 2026)
+
+13 points written for episode 9 (ar, en, ur); 18 needs_source marks for this episode in each language file; 11 new or reused about edges. Quran verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
+
+| Excluded (alwaad-alhaq ep09) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Tale of Iblis prostrating and the beast treading him | ep09 00:15:30-00:16:00 | Reported tale with garbled text, kept only as an attributed needs_source line | Clarity | Open |
+| Remarks on a world in which people may not sleep, on scientists and Mars, and on the fate of civilisations and Andalusian kingdoms | ep09 00:32:30, 00:36:30, 00:49:30-00:50:00 | Garbled or speculative asides outside the sheikh's sourced account | Clarity | Open |
+| Bedouin and Companion anecdote after the Dajjal hadith | ep09 00:47:00-00:48:00 | Garbled loop, unrecoverable | Loop check | Open |
+| Repetition loops and repeated blessings | ep09 00:22:30, 00:29:00, 00:34:30, 00:45:00-00:46:00 | Garbled ASR repetition | Loop check | Open |
+
+Resume point: alwaad-alhaq episode 10 (branch from origin/main).
+### sharh-saheeh-al-bukhare ep03 (14 Nov 2026)
+
+17 points written for episode 3 (ar, en, ur); 6 needs_source marks in each language file for this episode; 5 new `about` edges. Quran verses referenced only through passage links (3-64); none typed. Contested: His assessments of the Prophet's character, of the questions put to Abu Sufyan and of the Prophet's letter are his own framing; the stories of Rukana, the daughter of Hatim and the armed man are told without chains and are not endorsed by the museum. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep03) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening prayer and greetings | ep03 00:00:00-00:01:00 | Opening supplication and greeting, not content | Content rule | Open |
+| Closing prayer and farewell greetings | ep03 01:12:30-01:13:00, 01:17:30-01:18:00 | Closing prayer and greeting, not content | Content rule | Open |
+| Repeated phrase loops and garbled stretches | ep03 00:01:30-00:03:30, 00:03:30-00:04:00, 00:12:30-00:13:00, 00:18:00-00:18:30, 00:21:00-00:21:30, 00:22:30-00:23:00, 00:26:00-00:26:30, 00:27:30-00:28:30, 00:32:30-00:33:00, 00:35:30-00:36:00, 00:37:00-00:37:30, 00:38:00-00:39:30, 00:40:30-00:41:00, 00:43:00-00:43:30, 00:44:30-00:46:00, 00:46:30-00:48:00, 00:49:00-00:50:00, 00:55:00-00:55:30, 00:57:30-00:58:30, 01:00:00-01:03:30, 01:06:00-01:07:00, 01:08:30-01:09:30, 01:10:30-01:11:30, 01:14:00-01:14:30 | Repetition loops or text too garbled to recover | Clarity, Loop check | Open |
+| Stories of the Prophet's opponents, Moses and Aaron, Abdullah ibn Salam and a conversion account | ep03 00:14:30-00:19:00 | Too garbled to recover what is claimed | Clarity | Open |
+| Remarks on contemporary events, Muslims in America and a conference before an attack | ep03 00:11:30-00:14:00, 01:04:30-01:05:30, 01:08:00-01:09:00 | Sweeping claims about modern conflict and politics | Content rule | Open |
+| Ruling on declaring people unbelievers | ep03 01:05:30-01:06:00 | His ruling stated as a general statement, outside the museum's voice | Voice rule | Open |
+| Appeal to men about women and the gaze | ep03 00:50:30-00:51:00 | Generalising advice about women, not tied to the hadith | Voice rule | Open |
+| Journey of the young Prophet with his uncle | ep03 00:53:00-00:54:30 | Garbled, names and events not recoverable | Clarity | Open |
+| Questions and answers on hajj, fatwas and site announcements | ep03 01:13:00-01:17:30 | Unrelated announcements and questions, partly garbled | Content rule | Open |
+| Naming of Heraclius and the Byzantine ruler as the questioner | ep03 00:34:00-01:07:30 | The transcript never names Heraclius or the Byzantines; the identity was inferred from the known hadith, not said | Clarity | Open |
+| Quranic wording of the common-word call, the Hashim step of the hadith of choosing, the reasons for a prophet's intelligence and the purpose of the armed-man story | ep03 00:09:30, 00:52:30, 01:12:00, 00:27:00 | Not clearly supported by the transcript or would type Quran wording | Clarity, Content rule | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 4 (branch from origin/main).
+
+### sharh-saheeh-al-bukhare ep04 (14 Nov 2026)
+
+24 points written for episode 4 (ar, en, ur); 14 needs_source marks in each language file for this episode; 25 new `about` edges. Quran verses referenced only through passage links (12-29, 5-8, 20-50); none typed. Contested: He gives natural-history claims, the Ali and Shurayh story and several hadiths by sense without chains, and his reading of belief in God's names, angels, decree and the last day as branches of faith is his own presentation. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep04) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Greeting, opening praise and closing prayer | ep04 00:00:00-00:01:30, 01:23:00-01:23:30 | Greetings and prayers are not lesson content | Content rule | Open |
+| Opening prayer loop | ep04 00:01:00-00:01:30 | Repeated phrase loop | Clarity, Loop check | Open |
+| Questions about a son as speaker and the "why did you not return" loop | ep04 00:03:30-00:04:30 | Loop and garbled | Clarity, Loop check | Open |
+| Talk on wives, treatment of women and household disputes | ep04 00:19:30-00:21:30 | Garbled, sweeping claims about women and peoples | Voice rule, Clarity | Open |
+| Natural-history stretches on ants, fish and embryos beyond the points kept | ep04 00:27:30-00:40:00 | Garbled with loops, many unsupported claims | Clarity, Loop check | Open |
+| Talk of migration, economy of regions, air travel and medical anecdotes | ep04 00:32:00-00:39:30 | Garbled, sweeping claims about peoples and countries | Content rule, Clarity | Open |
+| Stretch on parents, children and a wife | ep04 01:09:00-01:11:30 | Garbled, sweeping claims about families | Clarity | Open |
+| Talk of Muslims by country and numbers | ep04 01:17:30-01:18:30 | Garbled, sweeping claims about peoples | Content rule, Clarity | Open |
+| Loops and garbled stretches | ep04 00:12:00-00:12:30, 00:13:30-00:14:00, 00:17:30-00:18:30, 00:19:00-00:19:30, 00:20:00-00:20:30, 00:31:30-00:32:30, 00:34:00-00:35:30, 00:36:30-00:37:30, 00:43:30-00:44:30, 00:47:30-00:48:00, 00:49:30-00:54:30, 01:00:00-01:00:30, 01:02:30-01:04:30, 01:06:30-01:07:00, 01:08:00-01:08:30, 01:20:00-01:21:30 | Repeated or unrecoverable text | Clarity, Loop check | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 5 (branch from origin/main).

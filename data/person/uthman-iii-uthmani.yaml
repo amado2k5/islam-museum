@@ -21,10 +21,11 @@ relations:
   - { type: born_in, target: place/edirne, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q43387)" }
   - { type: buried_in, target: place/istanbul, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q406)" }
   - { type: buried_in, target: building/new-mosque-istanbul, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q911720)" }
-sources: [source/dawlat-uthmaniyya-salabi, source/nomisma]
+sources: [source/dawlat-uthmaniyya-salabi, source/nomisma, source/wikidata]
 external_ids:
   wikidata: Q199825
   nomisma: "osman_iii"
+  viaf: "9188151051886333530009"
 provenance:
   layer: own-research
   source: "الصلابي، الدولة العثمانية — عثمان الثالث ص313"

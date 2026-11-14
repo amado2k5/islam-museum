@@ -30,7 +30,8 @@ faith:
     sources: [source/wikipedia-khademhosseini-en, source/wikipedia-khademhosseini-fa, source/wikidata-khademhosseini]
 external_ids:
   wikidata: "Q4724944"
-sources: [source/wikipedia-khademhosseini-en, source/wikipedia-khademhosseini-fa, source/wikidata-khademhosseini]
+  viaf: "9377802"
+sources: [source/wikipedia-khademhosseini-en, source/wikipedia-khademhosseini-fa, source/wikidata-khademhosseini, source/wikidata]
 provenance:
   layer: own-research
   source: "Built 27 October 2026 for wave 101 §A of the century-additions queue (queue line 558) from the English and Persian Wikipedia articles (no Arabic or Urdu edition exists; the Arabic and Urdu prose is written from the same sources) and the Wikidata item named in the sources list, each fetched by the recorded revision and asserted equal to it, the Wikidata item read twice with identical results and its QID grounded through the English article's pageprops and confirmed through the Persian edition's pageprops. Existence checked both ways before building: name-fragment and slug-variant greps across data/person/ found no record for him, and his Q4724944 appears in no existing person record. No relations are written: his doctoral advisor Robert Langer and his master's advisor Peter Zandstra have no museum records, and Tehran has no place entity. His faith is recorded unknown on the absence configuration, as set out in the faith note. He is recorded as living; no edition reports a death."

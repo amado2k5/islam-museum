@@ -18,8 +18,8 @@ story_roles:
   - { role: saint, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
 relations:
   - { type: lived_in, target: place/morocco, confidence: low, note: "Associated with المغرب per the record's own summary text; relation type pending review.", sources: [source/mawsuat-a3lam-ulama-adaba] }
-external_ids: { wikidata: "Q3827604" }
-sources: [source/mawsuat-a3lam-ulama-adaba]
+external_ids: { wikidata: "Q3827604", viaf: "100324876" }
+sources: [source/mawsuat-a3lam-ulama-adaba, source/wikidata]
 status:
   review: published
   completeness: 3

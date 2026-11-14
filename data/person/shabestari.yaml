@@ -17,9 +17,10 @@ born: { edtf: "1288~", calendar: gregorian, precision: year, derived: true, note
 relations:
   - { type: born_in, target: place/shabestar, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q765501)" }
   - { type: died_in, target: place/tabriz, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q80053)" }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q2738287
+  viaf: "107030610"
 provenance:
   layer: own-research
   source: "Wikidata Q2738287 (religion claim Islam); book source: al-Zirikli, al-A'lam — entry not yet read on the page"

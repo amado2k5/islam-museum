@@ -25,10 +25,10 @@ faith:
     basis: unknown
     note: "No source read in this run attests Aghdashloo's own affiliation with a specific school or path on two independent sources. The English Wikipedia article states, citing a 2009 HuffPost interview, 'Though born to a Muslim family, she has stated that she is non-practicing': the first clause is family background, which never counts under the lane rules (the Sami Frashëri near-miss), and the second is a statement about practice, not an affiliation with any school. A low-quality biography aggregator read alongside it calls her family a 'Shiite Muslim family' — again family background, from a single weak source — and no source names Twelver Shi'ism, or any other value, as her own affiliation; Wikidata gives her religion as Islam (Q432) generically, a lone generic value that names no school. The Shia-mapping rule therefore has nothing to map, and under the two-source rule and the doubt rule her faith is unknown, with the 'non-practicing' statement carried attributed in the prose."
     sources: [source/wikipedia-shohreh-aghdashloo-en, source/wikidata-shohreh-aghdashloo]
-external_ids: { wikidata: "Q229766" }
+external_ids: { wikidata: "Q229766", viaf: "95092189" }
 relations:
   - { type: born_in, target: place/tehran, sources: [source/wikidata-shohreh-aghdashloo], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q3616)" }
-sources: [source/wikipedia-shohreh-aghdashloo-en, source/wikidata-shohreh-aghdashloo]
+sources: [source/wikipedia-shohreh-aghdashloo-en, source/wikidata-shohreh-aghdashloo, source/wikidata]
 provenance:
   layer: own-research
   source: "English Wikipedia 'Shohreh Aghdashloo', read in full on 25 October 2026, and Wikidata Q229766 (confirmed via the Wikidata API: human, female, born 11 May 1952 at Tehran, citizen of Iran, religion Islam generically with no school), checked 25 October 2026. No earlier record for her existed in data/person/ under shohreh-aghdashloo or any other spelling checked; this is a new build, not an enrichment."

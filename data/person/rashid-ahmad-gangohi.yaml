@@ -14,9 +14,10 @@ periods: [period/colonial-era]
 died: { edtf: "1905", precision: year, status: tradition, derived: true }
 relations:
   - { type: born_in, target: place/gangoh, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1654816)" }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q3696193
+  viaf: "18839170"
 provenance:
   layer: own-research
   source: "Wikidata candidate; entry not yet read on the page in a book source"

@@ -20,6 +20,7 @@ story_roles:
   - { role: historian, status: tradition, sources: [source/durar-kamina-jil-1993, source/nujum-zahira, source/al-aalam] }
 external_ids:
   wikidata: Q42298972
+  viaf: "62952537"
 relations:
   - { type: born_in, target: place/damascus, sources: [source/al-aalam], note: "ولد في دمشق {cite:al-aalam 2/218-219}" }
   - { type: lived_in, target: place/aleppo, sources: [source/al-aalam, source/nujum-zahira], note: "نشأ بحلب واستقر فيها {cite:al-aalam 2/218-219} {cite:nujum-zahira 11/189}" }
@@ -35,7 +36,7 @@ relations:
   - { type: participated_in, target: event/ibn-habib-tripoli-758, sources: [source/durar-kamina-jil-1993] }
   - { type: participated_in, target: event/ibn-habib-tarikh-atrak-777, sources: [source/nujum-zahira, source/al-aalam] }
   - { type: participated_in, target: event/ibn-habib-death-779, sources: [source/durar-kamina-jil-1993, source/nujum-zahira, source/al-aalam] }
-sources: [source/durar-kamina-jil-1993, source/nujum-zahira, source/al-aalam]
+sources: [source/durar-kamina-jil-1993, source/nujum-zahira, source/al-aalam, source/wikidata]
 occupations:
   - job: job/katib
     kind: secondary

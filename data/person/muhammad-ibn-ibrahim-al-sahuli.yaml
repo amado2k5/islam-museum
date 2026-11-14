@@ -15,9 +15,10 @@ relations:
   - { type: born_in, target: place/tarim, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1014010)" }
   - { type: died_in, target: place/mecca, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q5806)" }
   - { type: buried_in, target: place/jannat-al-mualla, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q42004)" }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q88096870
+  viaf: "8594501"
 provenance:
   layer: own-research
   source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"

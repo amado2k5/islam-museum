@@ -17,9 +17,10 @@ relations:
   - { type: born_in, target: place/messina, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/diyarbak-r, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: buried_in, target: place/edirnekap-martyr-s-cemetery, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/dawlat-uthmaniyya-salabi]
+sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
 external_ids:
   wikidata: Q248058
+  viaf: "197149414828189550417"
 provenance:
   layer: own-research
   source: "Wikidata candidate; book source: al-Sallabi, al-Dawla al-Uthmaniyya — entry not yet read on the page"

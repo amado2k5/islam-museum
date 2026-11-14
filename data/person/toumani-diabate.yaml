@@ -34,11 +34,11 @@ faith:
     basis: unknown
     note: "No source consulted names a school for him. The English, French and Arabic Wikipedia articles state no religion; Wikidata (Q380711) gives only Islam (Q432) generically — one structured-data value naming no school. His griot lineage, which the French article counts at seventy-one generations, and the devotional material inside his repertoire — including the song whose Arabic lyrics used verses of the Qur'an — are lineage and work, not an attestation of a personal school. Under the two-source rule his faith is recorded as unknown."
     sources: [source/wikipedia-toumani-diabate-en, source/wikipedia-toumani-diabate-fr, source/wikipedia-toumani-diabate-ar, source/wikidata-toumani-diabate]
-external_ids: { wikidata: "Q380711" }
+external_ids: { wikidata: "Q380711", viaf: "103621367" }
 relations:
   - { type: born_in, target: place/bamako, sources: [source/wikidata-toumani-diabate], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q3703)" }
   - { type: lived_in, target: place/africa, sources: [source/wikidata-toumani-diabate], confidence: low, note: "Wikidata P937 work location (Wikidata Q15)" }
-sources: [source/wikipedia-toumani-diabate-en, source/wikipedia-toumani-diabate-fr, source/wikipedia-toumani-diabate-ar, source/wikidata-toumani-diabate]
+sources: [source/wikipedia-toumani-diabate-en, source/wikipedia-toumani-diabate-fr, source/wikipedia-toumani-diabate-ar, source/wikidata-toumani-diabate, source/wikidata]
 provenance:
   layer: own-research
   source: "English Wikipedia 'Toumani Diabaté' (revision 1348459926 of 12 April 2026), French Wikipedia 'Toumani Diabaté' (revision 238498150 of 9 August 2026), Arabic Wikipedia «توماني دياباتاي» (revision 75035894 of 5 June 2026), and Wikidata Q380711 read through the Wikidata API, all checked 25 October 2026. No earlier record existed in data/person/ under any spelling (Diabaté/Diabate/Jabate variants searched); this is a new build, not an enrichment, and it is the kora master's record — not that of the Malian taekwondo athlete of the same name (Q55186345) nor of his son Sidiki Diabaté. No relations are written: Bamako has no place entity, and his father Sidiki Diabaté (Q112145781) has no person record in the museum."

@@ -42,8 +42,8 @@ faith:
 relations:
   - { type: died_in, target: place/beijing, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-ma-fuxiang] }
   - { type: sibling_of, target: person/ma-fulu, sources: [source/wikipedia-ma-fuxiang-en, source/wikipedia-ma-fulu-en] }
-external_ids: { wikidata: "Q715098" }
-sources: [source/wikipedia-ma-fuxiang-en, source/wikipedia-ma-fuxiang-zh, source/wikipedia-ma-fuxiang-ur, source/wikidata-ma-fuxiang]
+external_ids: { wikidata: "Q715098", viaf: "81565514" }
+sources: [source/wikipedia-ma-fuxiang-en, source/wikipedia-ma-fuxiang-zh, source/wikipedia-ma-fuxiang-ur, source/wikidata-ma-fuxiang, source/wikidata]
 status: { review: published }
 provenance:
   layer: own-research
