@@ -6,22 +6,25 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لعبد الرحمن بن علي الحلواني، فقيه عراقي القرن الثاني عشر، توفي سنة ١١٥١م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abd al-Rahman ibn Ali al-Hulwani, the twelfth-century Iraqi jurist, d. 1151; the biographical entry is not yet checked on the page."
+  ar: "عبد الرحمن بن محمد بن علي بن محمد الحلواني، أبو محمد ابن أبي الفتح، من أهل بغداد، مفسر وفقيه حنبلي عارف بالأدب، له «التبصرة» و«الهداية» في أصول الفقه وتفسير للقرآن في 41 جزءاً، ولد سنة 490 هـ وتوفي سنة 546 هـ ⁦(1151 م)⁩."
+  en: "Abd al-Rahman ibn Muhammad ibn Ali ibn Muhammad al-Halwani (al-Hulwani), Abu Muhammad ibn Abi al-Fath, a man of Baghdad, exegete and Hanbali jurist versed in letters, author of al-Tabsira, al-Hidaya on legal theory and a Qur'anic commentary in 41 parts; born 490 AH, died 546 AH (1151 CE)."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/buyid-seljuk-fatimid-era]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002, source/wafi-bi-l-wafayat-safadi-dar-ihya-2000]
 external_ids:
   wikidata: Q57275383
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0062
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002 (vol. 3 p. 327) and al-Safadi, al-Wafi bi-l-Wafayat (vol. 18 pp. 148-149), entries read in full from the local OpenITI texts; Wikidata candidate Q57275383"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
+born: { edtf: "1097", hijri: "0490", calendar: gregorian, precision: year, derived: false, note: "al-Zirikli, al-A'lam, vol. 3 p. 327, prints 490 AH = 1097 CE; al-Safadi, al-Wafi, vol. 18 p. 149, gives 490 AH", sources: [source/alam-zirikli-dar-al-ilm-2002, source/wafi-bi-l-wafayat-safadi-dar-ihya-2000] }
+died: { edtf: "1151", hijri: "0546", calendar: gregorian, precision: year, derived: false, note: "al-Zirikli, al-A'lam, vol. 3 p. 327, prints 546 AH = 1151 CE; al-Safadi, al-Wafi, vol. 18 p. 149, gives 546 AH", sources: [source/alam-zirikli-dar-al-ilm-2002, source/wafi-bi-l-wafayat-safadi-dar-ihya-2000] }
 relations:
   - { type: lived_in, target: place/iraq, note: "Place association from the person's nisba/name (عراقي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
+  - { type: lived_in, target: place/baghdad, sources: [source/alam-zirikli-dar-al-ilm-2002, source/wafi-bi-l-wafayat-safadi-dar-ihya-2000], confidence: high, note: "al-Zirikli, al-A'lam, vol. 3 p. 327: of the people of Baghdad; al-Safadi, al-Wafi, vol. 18 p. 149: his quarter al-Ma'muniyya in Baghdad" }
