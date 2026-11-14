@@ -1,37 +1,77 @@
 id: person/al-dimyati
 class: person
 label:
-  ar: "الدمياطي"
-  en: "al-Dimyati"
-roles: [muhaddith]
+  ar: الدمياطي
+  en: al-Dimyati
+roles:
+- muhaddith
 gender: male
 summary:
-  ar: "بطاقة أولية للدمياطي، المحدث الدمياطي في القرن السابع الهجري؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for al-Dimyati, the Damietta hadith scholar of the seventh Hijri century; his entry is not yet checked on the page."
-wings: [people]
-regions: [egypt-nile]
-periods: [period/crusades-ayyubid-mamluk]
-born: { edtf: "1217", precision: year, status: tradition, derived: true }
-died: { edtf: "1306", precision: year, status: tradition, derived: true }
-sources: [source/al-aalam, source/wikidata, source/biblissima]
+  ar: عبد المؤمن بن خلف الدمياطي، أبو محمد شرف الدين، حافظ للحديث من أكابر الشافعية، ولد بدمياط وتوفي فجأة في القاهرة سنة 705 هـ، صاحب «المعجم» و«كشف المغطى».
+  en: Abd al-Mu'min ibn Khalaf al-Dimyati, Abu Muhammad, Sharaf al-Din, a hadith hafiz and one of the great Shafi'is; born at Damietta, he died suddenly in Cairo in 705 AH. Author of a 'Mu'jam' of his teachers and of 'Kashf al-Mughatta'.
+wings:
+- people
+regions:
+- egypt-nile
+periods:
+- period/crusades-ayyubid-mamluk
+born:
+  edtf: '1217'
+  precision: year
+  status: tradition
+  derived: true
+  note: 'Agrees with al-Zirikli, al-A''lam vol. 4 p. 167 (same year). '
+  sources:
+  - source/alam-zirikli-dar-al-ilm-2002
+died:
+  edtf: '1306'
+  precision: year
+  status: tradition
+  derived: true
+  note: 'Agrees with al-Zirikli, al-A''lam vol. 4 p. 167 (same year). '
+  sources:
+  - source/alam-zirikli-dar-al-ilm-2002
+sources:
+- source/al-aalam
+- source/wikidata
+- source/biblissima
+- source/alam-zirikli-dar-al-ilm-2002
 external_ids:
   wikidata: Q68169441
-  viaf: "40947861"
-  biblissima: "Q317200"
+  viaf: '40947861'
+  biblissima: Q317200
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text
+  generated_by: Claude Code (Lane B2 packet)
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 occupations:
-  - job: job/muhaddith
-    kind: primary
-    status: historical
-    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
-    sources: [source/al-aalam]
+- job: job/muhaddith
+  kind: primary
+  status: historical
+  note: bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep
+  sources:
+  - source/al-aalam
 relations:
-  - { type: lived_in, target: place/misr, note: "Only the record-level region (egypt-nile) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }
+- type: lived_in
+  target: place/misr
+  note: Only the record-level region (egypt-nile) is attested; broad-region edge flagged for review.
+  sources:
+  - source/al-aalam
+  confidence: low
+- type: born_in
+  target: place/dimyat
+  confidence: medium
+  note: 'From al-A''lam: born at Damietta.'
+  sources:
+  - source/alam-zirikli-dar-al-ilm-2002
+- type: died_in
+  target: place/cairo
+  confidence: medium
+  note: 'From al-A''lam: died suddenly in Cairo.'
+  sources:
+  - source/alam-zirikli-dar-al-ilm-2002

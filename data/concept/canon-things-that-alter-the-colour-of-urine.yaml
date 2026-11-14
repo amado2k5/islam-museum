@@ -1,0 +1,18 @@
+id: concept/canon-things-that-alter-the-colour-of-urine
+class: concept
+kind: scientific
+label: { ar: "ما يغير لون البول عند ابن سينا", en: "What alters the colour of urine in the Canon", ur: "پیشاب کا رنگ بدلنے والی چیزیں قانون میں" }
+summary:
+  ar: "يحصي ابن سينا ما يصبغ البول من المآكل والمشارب ومن أحوال خارجة عن المجرى الطبيعي كالصوم والسهر والتعب والغضب والجماع والقيء، فلا يوثق بالبول في وجودها {cite:canon-ibn-sina-print-v1 p.183}."
+  en: "Ibn Sina lists foods and drinks that dye the urine and states outside the natural course such as fasting, sleeplessness, fatigue, anger, intercourse and vomiting, so that urine is not to be trusted when they are present {cite:canon-ibn-sina-print-v1 p.183}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/canon-urine-in-general, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, Ta'lim 3, pulse chapters 12 to 19 and the opening of urine, chapter 1 (scan pages 179 to 184), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-pulse-urine-1
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

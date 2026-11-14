@@ -6,23 +6,23 @@ label:
 roles: [military]
 gender: male
 summary:
-  ar: "بطاقة أولية لخالد بن يزيد الشيباني، قائد ووالي العباسيين في القرن التاسع الذي ولّي أرمينية؛ تذكره كتب التاريخ ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Khalid ibn Yazid al-Shaybani, the ninth-century Abbasid commander and governor of Armenia; the source entry is not yet checked on the page."
+  ar: "خالد بن يزيد بن مزيد بن زائدة، أبو يزيد الشيباني، أحد الأمراء الولاة الأجواد في العصر العباسي وممدوح أبي تمام، ولاه المأمون مصر ثم الموصل وديار ربيعة، وتوفي سنة 230هـ في طريقه إلى أرمينية في أيام الواثق."
+  en: "Khalid ibn Yazid ibn Mazyad al-Shaybani, Abu Yazid, one of the generous amir-governors of the Abbasid age and a patron praised by Abu Tammam; al-Ma'mun appointed him over Egypt, then Mosul and Diyar Rabi'a, and he died in 230 AH on the way to Armenia in the days of al-Wathiq."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
-died: { edtf: "844", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Tabari" }
+died: { edtf: "844", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Tabari. Entry in al-A'lam: 230 AH = 845 CE; 230 AH runs from September 844 to September 845, so the card's year is kept." }
 relations:
-  - { type: lived_in, target: place/armenia, confidence: low, note: "Associated with أرمينية per the record's own summary text; relation type pending review.", sources: [source/kamil-ibn-al-athir] }
-sources: [source/kamil-ibn-al-athir]
+  - { type: ruler_of, target: place/mosul, note: "al-Zirikli, al-A'lam, vol. 2 p. 293: al-Ma'mun appointed him over Mosul (replaces the earlier low-confidence Armenia association: the entry has him die on the way to Armenia, before reaching it)", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
+sources: [source/kamil-ibn-al-athir, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q6399609
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: Ibn al-Athir, al-Kamil — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0028
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
