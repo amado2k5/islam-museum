@@ -1,0 +1,18 @@
+id: concept/canon-white-urine-and-temperament
+class: concept
+kind: scientific
+label: { ar: "البول الأبيض والمزاج عند ابن سينا", en: "White urine and the temperament in the Canon", ur: "سفید پیشاب اور مزاج قانون میں" }
+summary:
+  ar: "ينبه ابن سينا إلى أن البول الأبيض قد يكون مع مزاج حار صفراوي وأن الأحمر قد يكون مع مزاج بارد بلغمي، ويذكر كيف يميز بياض البرد من بياض كمون الصفراء، وأسباب حمرة البول في الأمراض الباردة {cite:canon-ibn-sina-print-v1 pp.187-188}."
+  en: "Ibn Sina notes that white urine may accompany a hot bilious temperament and red urine a cold phlegmatic one, shows how to tell the whiteness of cold from the whiteness of hidden bile, and gives causes of red urine in cold diseases {cite:canon-ibn-sina-print-v1 pp.187-188}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/canon-urine-in-general, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, Ta'lim 3, urine chapters 2 to 4 on the colour, consistency and smell of urine (scan pages 184 to 192), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-urine-2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }
