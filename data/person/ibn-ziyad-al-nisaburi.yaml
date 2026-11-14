@@ -6,25 +6,26 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لابن زياد النيسابوري؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ibn Ziyad al-Nisaburi; the entry is not yet checked on the page."
+  ar: "عبد الله بن محمد بن زياد النيسابوري، أبو بكر، حافظ للحديث وإمام الشافعية في عصره بالعراق، 238 إلى 324 هـ؛ ترجمته في الأعلام قصيرة ولا تسمي مصنفاته."
+  en: "Abdallah ibn Muhammad ibn Ziyad al-Naysaburi, Abu Bakr, a hadith memoriser and the leading Shafi'i of his time in Iraq, 238 to 324 AH; his entry in al-A'lam is brief and names none of his works."
 wings: [people]
-regions: [persia-central-asia]
+regions: [persia-central-asia, levant-iraq]
 periods: [period/abbasid-fragmentation]
 born: { edtf: "852", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
 died: { edtf: "936", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar Confirmed on 13 November 2026 against Wikidata Q22684478 (P570, a statement with a reference), item revision 2426237313.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/khurasan, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/al-aalam] }
-sources: [source/al-aalam, source/wikidata]
+  - { type: lived_in, target: place/iraq, note: "Al-Zirikli, al-A'lam vol. 4 p. 115: the imam of the Shafi'is of his time in Iraq.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: low }
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002, source/wikidata]
 external_ids:
   wikidata: Q22684478
   viaf: "41650931"
-provenance:
-  layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
 status:
   review: draft
-  completeness: 1
+  completeness: 3
+provenance:
+  layer: own-research
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14

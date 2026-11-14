@@ -7,8 +7,8 @@ roles:
 - physician
 - historian
 summary:
-  en: Physician and historian of medicine, author of the Uyun al-anba fi tabaqat al-atibba, a principal source on physicians.
-  ar: طبيب ومؤرخ للطب، صاحب «عيون الأنباء في طبقات الأطباء»، وهو من أهم مصادر تراجم الأطباء.
+  ar: "أحمد بن القاسم بن خليفة الخزرجي، موفق الدين، أبو العباس، ابن أبي أصيبعة، الطبيب المؤرخ ولد بدمشق ومقامه فيها، صاحب «عيون الأنباء في طبقات الأطباء»، زار مصر سنة 634 هـ وتوفي بصرخد، 596 إلى 668 هـ."
+  en: "Ahmad ibn al-Qasim al-Khazraji, Muwaffaq al-Din, known as Ibn Abi Usaybi'a, the physician and historian, born and based in Damascus, author of 'Uyun al-Anba' fi Tabaqat al-Atibba'; he visited Egypt in 634 AH and died at Sarkhad, 596 to 668 AH."
 wings: [people]
 died: { edtf: "1270", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khallikan / al-Dhahabi Confirmed on 13 November 2026 against Wikidata Q1395668 (P570, a statement with a reference), item revision 2565779041.", sources: [source/wikidata] }
 relations:
@@ -20,7 +20,15 @@ external_ids:
 tags: [tibb-browser, tibb-tibb]
 sources:
 - source/ibn-abi-usaybia-uyun-al-anba
+- source/alam-zirikli-dar-al-ilm-2002
 status:
   review: draft
-  completeness: 1
+  completeness: 3
   generated_by: Claude Haiku 5.5 (Wikidata insertion, slice S9)
+provenance:
+  layer: own-research
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
+born: { edtf: "1200", hijri: "0596", calendar: gregorian, precision: year, derived: true, sources: [source/alam-zirikli-dar-al-ilm-2002], note: "Al-Zirikli, al-A'lam vol. 1 p. 188: 596 AH = 1200 CE; born in Damascus." }
