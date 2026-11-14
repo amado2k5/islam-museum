@@ -12,3 +12,6 @@ It is less than half the size of Binkath, and has a strong citadel. The city and
 
 ## The neighbouring land of al-Shash
 Before this al-Idrisi describes the land of al-Shash as level and easy, with no hills, full of gardens, greenery and pleasure grounds, among the frontier posts against the Turks, whose people have force and strength. Its greatest city is Binkath, large, populous, built up and busy with trade, and surrounded by a strong wall. {cite:nuzhat-al-mushtaq-2002 p. 703}
+
+## In Yaqut's Mu'jam al-Buldan
+Yaqut gives Tunkat as a village of al-Shash on the authority of Abu Sa'd, and cites al-Istakhri that it is the chief town of Ilaq, less than half the size of Binkat, the chief town of al-Shash, with a citadel, a city and a suburb. He names a scholar from Bukhara who settled there, Abu Ja'far ibn Umar al-Bukhari al-Tunkathi, who narrated from Hudhayfa ibn al-Nadr and Muhammad ibn Isma'il al-Bukhari and died in 313 AH. {cite:mujam-al-buldan-sader-1995 2 p.62}
