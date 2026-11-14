@@ -3031,3 +3031,17 @@ Episode 12 re-read against the transcript after merge (#6642): one wording corre
 | Garbled asides on a wedding and vague jokes | ep13 00:13:00-00:14:30 | Partly garbled wording about nightlife, only the Paradise-and-fire point kept | Clarity, Loop check | Open |
 
 Resume point: min-kunuz-al-sunnah episode 14 (branch from origin/main).
+
+### min-kunuz-al-sunnah ep14 (14 Nov 2026)
+
+15 points written for episode 14 (ar, en, ur); 5 needs_source marks in each language file for this episode; 10 new `about` edges. Quran verses referenced only through passage links (2-279, 42-27, 9-51); none typed. Contested: He presents the scholars as the friends of God and enmity to them as war with God, takes the listener's tastes in hearing and sight as signs of God's love, and gives views on usury and enmity as applied to people; these are his own applications.
+
+| Excluded (min-kunuz-al-sunnah ep14) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Greeting, opening prayer, break joins and repeated recitation of the hadith | ep14 00:00:00-00:00:30, 00:07:30-00:08:00, 00:15:00-00:15:30, 00:23:00-00:23:30 | Greetings, break joins and a repeat of a hadith already covered | Content rule | Open |
+| Sweeping claims that those who dress or pray in certain ways are blamed for disorder and the reverse, and a call that the hand should strike those who oppose religion | ep14 00:05:00-00:05:30, 00:11:30-00:12:30 | Sweeping generalisations about groups and a call for force | Voice rule | Open |
+| Complaint that nearly everyone in the speaker's country complains, and the jokes about complaining | ep14 00:18:30-00:19:30 | Sweeping claim about a people | Voice rule | Open |
+| Looped text and garbled stretches | ep14 00:03:00-00:03:30, 00:14:30-00:15:00, 00:18:00-00:18:30 | Repeated characters and garbled words, not recoverable | Clarity, Loop check | Open |
+| Section on hearing and sight examples beyond the main account (garbled lines on a channel) | ep14 00:10:00-00:10:30 | Partly garbled | Clarity, Loop check | Open |
+
+Resume point: min-kunuz-al-sunnah episode 15 (branch from origin/main).
