@@ -15,9 +15,10 @@ born: { edtf: "1105", calendar: gregorian, precision: year, derived: true, note:
 died: { edtf: "1165", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 Confirmed on 13 November 2026 against Wikidata Q2874698 (P570, a statement with a reference), item revision 2533527076.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/baghdad, confidence: low, note: "Associated with بغداد per the record's own summary text; relation type pending review.", sources: [source/shadharat-dhahab] }
-sources: [source/shadharat-dhahab]
+sources: [source/shadharat-dhahab, source/biblissima]
 external_ids:
   wikidata: Q2874698
+  biblissima: "Q16675"
 provenance:
   layer: own-research
   source: "Wikidata candidate; book source: Ibn al-Imad, Shadharat al-Dhahab — entry not yet read on the page"

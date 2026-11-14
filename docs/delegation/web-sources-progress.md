@@ -815,3 +815,11 @@ Nothing is registered this turn. Each registration needs the three-part commit i
 - Linked: i-skenderun 2118559, philadelphia 2092977, berkeley 2087380, asilah 2765533, berat 2066118, kastamonu 2090159, aksum 2375832, izmir 1008167, shubra-khit 2773018, edinburgh 2088774, sinop 2280255, bitlis 2221292, sivas 2090495, mallawi 2751371, qina 2751436, stara-zagora 2066662, gebze 2283266, erzurum 2101814, cambridge 2087878.
 - Not linked: the other 61 of the 80 had no passing result.
 
+## 2026-11-14 (p58, Lane B) — Biblissima batch 6: 18 more persons linked; founder list now 29
+
+- Approval: dec-20261114-277. Same rule: name search, accepted only when Biblissima's Wikidata statement P112 equals the Wikidata id on our record. Candidates 341 to 430 in the same order: 90 searched, 20 matched by id.
+- Linked (18, Biblissima ids): ibn-hubayra-awn-al-din Q16675, al-busiri Q12180, ibrahim-ibn-sinan Q7269, ibn-ajurrum Q12169, sultan-walad Q317147, al-sharif-al-jurjani-ali-ibn-muhammad Q16861, al-qadi-iyyad Q16875, ibn-abd-al-zahir Q12222, abd-al-rahman-ibn-al-qasim Q266397, fakhr-al-din-iraqi Q232275, abd-al-wahhab-al-shaarani Q16845, juwayriya-bint-al-harith Q231965, ibn-abi-al-hadid Q16803, al-firuzabadi Q12187, zakariyya-al-ansari Q293, ibn-al-salah Q16882, lamii-celebi Q10897, abd-al-rahim-al-iraqi Q16828.
+- FOR THE FOUNDER, matched by id but not linked (2 more, so 29 in all): muhammad-al-nafzawi (ours 1410~ to 1434~, Biblissima 1301 to 1499, a wide range), ibrahim-al-halabi (birth 1460~ ours, 1401 Biblissima).
+- Date differences noticed, not changed: al-busiri death 1295~ and 1294; al-sharif-al-jurjani birth 1340 and 1339; abd-al-rahman-ibn-al-qasim birth 750 and 746; juwayriya-bint-al-harith birth 608~ and 601; ibn-abi-al-hadid death 1257 and 1258; al-firuzabadi death 1414 and 1415; zakariyya-al-ansari birth 1420 and 1423; lamii-celebi birth 1472 and 1473.
+- Measured Arabic share: 0 of the 20 matched Biblissima records carries an Arabic-script label.
+
