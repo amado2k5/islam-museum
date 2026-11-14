@@ -1179,6 +1179,16 @@ Source: al-Zirikli, al-A'lam, 15th ed. 2002 (alam-zirikli-dar-al-ilm-2002). Each
 
 - Packets 31 to 38 (PRs 6817, 6818, 6828, 6830, 6836, 6837, 6842, 6844) added Pleiades and iDAI sections (ar, en, ur) to 109 places that had prose without them. cite-check on the 108 pages: 108 pass. The sections on place/sanaa (a founder-held page) were reverted to the previous text; its data keeps the iDAI link made earlier. Skipped by the subagents because iDAI's GeoNames id differs from ours or is absent: ceuta, gabes, sfax, sousse, tortosa, ubeda (ours 6358538, iDAI 2510116), qayrawan, damascus (iDAI record has no GeoNames id, not a mismatch). For the founder: the iDAI links on these places rest on name and distance, not on a shared GeoNames id.
 
+## 2026-11-14 (Lane B2 packet p01) - most-linked persons without prose, five written, seven skipped
+
+Sources: al-Zirikli, al-A'lam (alam-zirikli-dar-al-ilm-2002) and al-Safadi, al-Wafi bi-l-Wafayat (new record wafi-bi-l-wafayat-safadi-dar-ihya-2000, run web-b2-wafi-2026-11-14). Page convention: the OpenITI marker that closes the text cited (A'lam) or follows the entry (al-Wafi); the A'lam entry for al-Sindi cited earlier as 6:179 sits at 6:253-254 in the same text, so the earlier cite should be re-checked (proposal for the founder).
+
+- Written (ar, en, ur, draft; cite-check 5 of 5): qadi-abd-al-jabbar (A'lam 3 p. 273; Wafi 18 pp. 21-22), al-najashi (A'lam 1 p. 172, Imami), mahmud-khattab-al-subki (A'lam 7 p. 186; published card, ai_unread added), musa-ibn-shakir (A'lam 7 p. 323), abu-bakr-al-marrudhi (A'lam 1 p. 205; Wafi 7 p. 256).
+- Corrections to cards: al-Subki born 1858 to 1857 (1274 AH); al-Najashi birth 982, death 1058, lived_in Baghdad; Abd al-Jabbar roles, died_in Rayy, death note (Wafi 414 or 415); al-Marrudhi student_of Ahmad ibn Hanbal; Musa ibn Shakir summary.
+- Proposal: Musa ibn Shakir's card gives born 800~ (EI2); the entry gives no birth year and has him dying about 815 with young sons, so the 800~ birth looks wrong. Not changed.
+- Wafi gives Abd al-Jabbar's kunya as Abu al-Hasan, the A'lam gives Abu al-Husayn; both are reported in the prose. Tabaqat al-Shafi'iyya (Subki) vol. 5 is not held locally (only vols 1, 2, 3, 10, 11), Tarikh Baghdad and Wafayat al-A'yan hold no entry for him.
+- Skipped, no entry found in a dictionary we hold (A'lam, al-Wafi and the card's source tried): nazir-ayyad (living Grand Mufti of Egypt, born 1974; not in A'lam, whose card source claim looks wrong), sunan-ampel, sunan-kalijaga (Javanese, not in A'lam), baha-al-din-walad, shams-tabrizi (not in A'lam or al-Wafi; the Wafi hit for al-Tabrizi is a different man), al-hajj-umar-tal, mohamed-salah-ben-mrad (not in A'lam). Need books outside the local set (for example Ibn Khallikan for Rumi's circle, Kahhala's Mu'jam al-Mu'allifin, an Indonesian reference).
+
 ## 2026-11-14 (packet 42, Lane B worker B1) — person and polity prose
 
 - Nine entries written in ar, en and ur from the Encyclopaedia of Islam, 2nd ed. (page markers read in full) plus a Nomisma line each. Nomisma holds no coin or type records for these concepts (only the concept and, for dynasties, ruler memberships), so the Nomisma sentence states that. Skipped: polity/kingdom-of-france (no EI2 entry; data file holds only a Wikidata description, not usable for prose). No founder-held slugs in the packet.
