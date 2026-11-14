@@ -1,0 +1,35 @@
+id: group/shakir-hamdan-tribe
+class: group
+kind: tribe
+label:
+  ar: شاكر من همدان
+  en: Shakir (a tribe of Hamdan)
+  ur: شاکر ⁦(ہمدان کا قبیلہ)⁩
+summary:
+  ar: قبيلة يمنية من همدان وفدت إلى الهادي وبايعته، وفي بلدها ضاة وقعت حادثة الصدقات في رمضان 284هـ.
+  en: A Yemeni tribe of Hamdan that came to al-Hadi and pledged to him; at its town Da'a the incident over the alms took place in Ramadan 284 AH.
+  ur: ہمدان کا ایک یمنی قبیلہ جو ہادی کے پاس آیا اور بیعت کی؛ اس کی بستی ضاۃ میں رمضان 284ھ میں صدقات کا واقعہ پیش آیا۔
+wings:
+- people
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+relations:
+- type: allied_with
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+  note: بايعوه في نجران سنة 284هـ
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص66-80 ⁦(الصفحة المطبوعة)⁩'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-9
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, printed pp. 66-80

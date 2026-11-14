@@ -1,0 +1,65 @@
+id: event/text-of-al-hadis-settlement-letter-with-the-dhimma-of-najran-284
+class: event
+kind: other
+label:
+  ar: نص كتاب الهادي في صلحه مع أهل الذمة في نجران على التسع والجزية، جمادى الآخرة 284هـ
+  en: 'The text of al-Hadi''s settlement letter with the dhimma of Najran: one-ninth and the jizya, Jumada II 284 AH'
+  ur: 'نجران کے اہل ذمہ سے ہادی کے صلح نامے کا متن: نواں حصہ اور جزیہ، جمادی الآخرہ 284ھ'
+summary:
+  ar: 'كتاب الصلح الذي كتبه الهادي بخطه وقُرئ على أهل الذمة والمسلمين في نجران: بدأه بحمد الله وبيان فرض الزكاة وأصنافها، وعلّل الصلح بأن الذميين اشتروا أموالاً من المسلمين فبطلت أعشارها فجعل عليهم التسع فيما سُقي سيحاً ونصفه فيما سُقي بالدوالي، وأجاز لهم الشراء بذلك، وفرض جزية الرؤوس ثمانية وأربعين درهماً للموسرين وأربعة وعشرين للأوساط واثني عشر للمتعيشين، وأوجب حياطتهم على ولاة المسلمين.'
+  en: 'The settlement letter al-Hadi wrote in his own hand and had read to the dhimma and the Muslims at Najran: it opens with praise of God and the obligation of zakat and its heads, explains the settlement by the dhimmis'' purchase of property from Muslims which lapsed its tithes, sets one-ninth on what is watered by flowing or rain water and half of it on what is watered by wheels, allows them to buy on those terms, fixes a head jizya of forty-eight dirhams for the wealthy, twenty-four for the middle and twelve for the working, and obliges Muslim governors to protect them.'
+  ur: 'وہ صلح نامہ جو ہادی نے اپنے ہاتھ سے لکھا اور نجران میں ذمیوں اور مسلمانوں کو پڑھ کر سنایا گیا: اس کا آغاز اللہ کی حمد اور زکوٰۃ اور اس کے مصارف کے بیان سے ہے، ذمیوں کے مسلمانوں سے مال خریدنے سے عشر ختم ہونے کو صلح کی وجہ بتاتا ہے، بہتے یا بارش کے پانی سے سیراب پر نواں حصہ اور رہٹ سے سیراب پر اس کا نصف مقرر کرتا ہے، اسی پر خریدنے کی اجازت دیتا ہے، سر کا جزیہ مالداروں پر اڑتالیس درہم، درمیانوں پر چوبیس اور محنت کشوں پر بارہ مقرر کرتا ہے اور مسلمان حکام پر ان کی حفاظت لازم کرتا ہے۔'
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: 0897-07
+    hijri: 0284-06
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: كُتب في جمادى الآخرة لسبع بقين منه من سنة 284هـ؛ اليوم لا يُحسم لاختلاف طول الشهر؛ التحويل مشتق من التقويم الجدولي
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/najran
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abu-jafar-muhammad-ibn-ubaydallah-al-abbasi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: related_to
+  target: concept/jizya
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: related_to
+  target: concept/ahl-al-dhimma
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: related_to
+  target: event/al-hadi-settlement-with-the-dhimmis-of-najran-at-one-ninth-284
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص73-78 ⁦(الصفحة المطبوعة)⁩'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-9
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 73-78

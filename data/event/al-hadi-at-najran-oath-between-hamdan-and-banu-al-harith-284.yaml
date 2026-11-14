@@ -28,11 +28,31 @@ relations:
   target: group/banu-al-harith-ibn-kab
   sources:
   - source/sira-hadi-ila-al-haqq
+- type: related_to
+  target: group/banu-hamdan
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: related_to
+  target: group/shakir-hamdan-tribe
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: related_to
+  target: group/wadia-tribe-yemen
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: related_to
+  target: group/yam-tribe
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: related_to
+  target: group/al-ahlaf-najran
+  sources:
+  - source/sira-hadi-ila-al-haqq
 sources:
 - source/sira-hadi-ila-al-haqq
 provenance:
   layer: own-research
-  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص68 (الصفحة المطبوعة)'
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص68 ⁦(الصفحة المطبوعة)⁩'
   generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
   model: claude-sonnet-5-5
   run: lib-sira-hadi-ila-al-haqq-8
