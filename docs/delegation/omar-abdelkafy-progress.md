@@ -2996,3 +2996,7 @@ Resume point: alwaad-alhaq episode 2 (branch from origin/main).
 | The Cain and Abel marriage detail | ep12 00:03:30-00:04:00 | Garbled, unrecoverable | Clarity, Loop check | Open |
 
 Resume point: min-kunuz-al-sunnah episode 13 (branch from origin/main).
+
+### min-kunuz-al-sunnah ep12 review (14 Nov 2026)
+
+Episode 12 re-read against the transcript after merge (#6642): one wording corrected in ar, en, ur (the report on lying to a brother is among the greatest major sins, not "betrayal"); no marks or links changed. All later episodes are reviewed against the transcript before merge; see their notes.
