@@ -9,8 +9,8 @@ wings: [place]
 coordinates: [37.94058, 27.33939]
 coordinate_precision: locality
 coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
-external_ids: { wikidata: "Q47611" }
-sources: [source/wikidata]
+external_ids: { wikidata: "Q47611", nomisma: "ephesus_city" }
+sources: [source/wikidata, source/nomisma]
 provenance:
   layer: own-research
   source: "Wikidata item Q47611 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
