@@ -6,30 +6,31 @@ label:
 roles: [poet, linguist, teacher]
 gender: male
 summary:
-  ar: "بطاقة أولية لعبد الجليل بن أبي المواهب البعلي، الشاعر واللغوي والمعلم، توفي سنة ١٧٠٧م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abd al-Jalil ibn Abi al-Mawahib al-Ba'li, the poet, linguist and teacher, d. 1707; the biographical entry is not yet checked on the page."
+  ar: "عبد الجليل بن أبي المواهب محمد بن عبد الباقي، المواهبي الحنبلي البعلي الدمشقي، فاضل أصله من بعلبك ولد ومات في دمشق، ١٠٧٩ إلى ١١١٩هـ، له نظم الشافية في الصرف وتشطير الألفية وأرجوزة في العروض."
+  en: "Abd al-Jalil ibn Abi al-Mawahib Muhammad ibn Abd al-Baqi al-Mawahibi al-Hanbali al-Ba'li al-Dimashqi, a man of learning whose family came from Baalbek, born and died in Damascus, 1079 to 1119 AH (1669 to 1707); author of a versification of al-Shafiya in morphology, a tashtir of the Alfiyya and a rajaz poem on prosody."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/gunpowder-empires]
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q140533674
   viaf: "14161935565039672930"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0081
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 occupations:
   - job: job/teacher
     kind: secondary
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/al-aalam]
+born: { edtf: "1669", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 3 p. 272: 1079 AH = 1669 CE.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 died: { edtf: "1707", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Suhub al-Wabila ala Dara'ih al-Hanabila (Ibn Humayd: 1082–1119 AH)" }
 relations:
   - { type: born_in, target: place/damascus, note: "Wikidata Q3766 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
