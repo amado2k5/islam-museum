@@ -3,30 +3,31 @@ class: person
 label:
   ar: "سلطان العلماء الآملي"
   en: "Khalifa Sultan"
-roles: [ruler, scholar]
+roles: [vizier, scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لخليفة سلطان سلطان العلماء، صدر صفوي القرن السابع عشر، توفي سنة ١٦٥٤م؛ تذكره كتب التاريخ ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Khalifa Sultan Sultan al-Ulama, the seventeenth-century Safavid grand vizier, d. 1654; the source entry is not yet checked on the page."
+  ar: "حسين بن محمد الميرزا رفيع الدين الحسيني المرعشي الآملي الأصفهاني، المعروف بسلطان العلماء، من علماء الإمامية، وزر للشاه عباس الصفوي ثم للشاه صفي ثم للشاه عباس الثاني، وتوفي ببلدة الأشرف من مازندران سنة 1064 هـ ونُقل إلى النجف."
+  en: "Husayn ibn Muhammad, al-Mirza Rafi' al-Din al-Husayni al-Mar'ashi al-Amuli al-Isfahani, known as Sultan al-Ulama, an Imami scholar who served as vizier to Shah Abbas the Safavid, Shah Safi and Shah Abbas II; died in al-Ashraf in Mazandaran in 1064 AH and was carried to al-Najaf."
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/gunpowder-empires]
-born: { edtf: "1592", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica Confirmed on 13 November 2026 against Wikidata Q5694666 (P569, a statement with a reference), item revision 2562752120.", sources: [source/wikidata] }
-died: { edtf: "1654", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica Confirmed on 13 November 2026 against Wikidata Q5694666 (P570, a statement with a reference), item revision 2562752120.", sources: [source/wikidata] }
+born: { edtf: "1592", hijri: "1001", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica. Confirmed on 13 November 2026 against Wikidata Q5694666 (P569, a statement with a reference), item revision 2562752120. al-A'lam vol. 2 p. 256 prints 1001 AH = 1593 CE; the card year is kept, see the GEMINI line in the packet ledger.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
+died: { edtf: "1654", hijri: "1064", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica. Confirmed on 13 November 2026 against Wikidata Q5694666 (P570, a statement with a reference), item revision 2562752120. al-A'lam vol. 2 p. 256 prints 1064 AH = 1654 CE, agreeing.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
 relations:
-  - { type: born_in, target: place/isfahan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-  - { type: died_in, target: place/behshahr, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-  - { type: buried_in, target: building/imam-ali-shrine, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/al-aalam, source/wikidata]
+  - { type: born_in, target: place/isfahan, confidence: medium, note: "Place link from Wikidata; al-A'lam vol. 2 p. 256 says he was Isfahani by upbringing and home (munsha' wa-watan) and Mar'ashi of Amul by origin.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
+  - { type: lived_in, target: place/isfahan, note: "al-Zirikli, al-A'lam, vol. 2 p. 256: Isfahani by upbringing and home; the vizierate was held there", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
+  - { type: died_in, target: place/behshahr, confidence: medium, note: "Place link from Wikidata; the entry names the town of al-Ashraf in Mazandaran, which the card identifies with Behshahr.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
+  - { type: buried_in, target: place/najaf, note: "al-Zirikli, al-A'lam, vol. 2 p. 256: his bier was carried to al-Najaf (the earlier link to the Imam Ali shrine building is not stated in the entry and was replaced)", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q5694666
   viaf: "54062165"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0039
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3

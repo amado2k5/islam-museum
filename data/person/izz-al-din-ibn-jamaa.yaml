@@ -6,36 +6,38 @@ label:
 roles: [muhaddith, qadi]
 gender: male
 summary:
-  ar: "بطاقة أولية لعز الدين عبد العزيز بن جماعة الكناني الشافعي، محدث وقاضي قضاة القرن الرابع عشر ورأس أسرة بني جماعة، توفي سنة ١٣٦٦م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Izz al-Din Abd al-Aziz ibn Jama'a al-Kinani, the fourteenth-century muhaddith and Shafi'i chief judge, patriarch of the Ibn Jama'a family, d. 1366; the source entry is not yet checked on the page."
+  ar: "عبد العزيز بن محمد بن إبراهيم ابن جماعة الكناني، عز الدين، حموي الأصل دمشقي المولد ثم مصري، حافظ وقاضي القضاة، ولي قضاء الديار المصرية سنة 739 هـ وجاور بالحجاز ومات بمكة سنة 767 هـ، من كتبه هداية السالك إلى المذاهب الأربعة في المناسك وأنس المحاضرة."
+  en: "Abd al-Aziz ibn Muhammad ibn Ibrahim ibn Jama'a al-Kinani, Izz al-Din, of Hama origin, born in Damascus and later of Egypt; a hafiz of hadith and chief judge, he took the judgeship of the Egyptian lands in 739 AH, lived beside the Holy Places in the Hijaz and died in Mecca in 767 AH (1366); his books include Hidayat al-Salik on the rites of the four schools and Uns al-Muhadara."
 wings: [people]
 regions: [egypt-nile]
 periods: [period/mongol-post-mongol]
-born: { edtf: "1294", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar al-Kamina / Ibn Hajar Confirmed on 13 November 2026 against Wikidata Q22685882 (P569, a statement with a reference), item revision 2548936129.", sources: [source/wikidata] }
-died: { edtf: "1366", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar al-Kamina / Ibn Hajar Confirmed on 13 November 2026 against Wikidata Q22685882 (P570, a statement with a reference), item revision 2548936129.", sources: [source/wikidata] }
+born: { edtf: "1294", hijri: "0694", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar al-Kamina / Ibn Hajar Confirmed on 13 November 2026 against Wikidata Q22685882 (P569, a statement with a reference), item revision 2548936129. al-Zirikli prints 694 AH = 1294 CE {cite:alam-zirikli-dar-al-ilm-2002 vol. 4 p. 26}.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
+died: { edtf: "1366", hijri: "0767", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar al-Kamina / Ibn Hajar Confirmed on 13 November 2026 against Wikidata Q22685882 (P570, a statement with a reference), item revision 2548936129. al-Zirikli prints 767 AH = 1366 CE {cite:alam-zirikli-dar-al-ilm-2002 vol. 4 p. 26}.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
 relations:
-  - { type: lived_in, target: place/misr, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/shadharat-dhahab] }
-sources: [source/shadharat-dhahab, source/wikidata]
+  - { type: lived_in, target: place/misr, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place. al-Zirikli, vol. 4 p. 26, calls him later Egyptian.", sources: [source/shadharat-dhahab, source/alam-zirikli-dar-al-ilm-2002] }
+  - { type: born_in, target: place/damascus, confidence: high, note: "al-Zirikli, al-A'lam, vol. 4 p. 26: Damascene by birth, of Hama origin.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+  - { type: died_in, target: place/mecca, confidence: high, note: "al-Zirikli, vol. 4 p. 26: he lived beside the Holy Places in the Hijaz and died in Mecca.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+sources: [source/shadharat-dhahab, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q22685882
   viaf: "39767641"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: Ibn al-Imad, Shadharat al-Dhahab — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0069
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 occupations:
   - job: job/muhaddith
     kind: secondary
     status: historical
-    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
-    sources: [source/shadharat-dhahab]
+    note: "bootstrap from roles, 1 Nov 2026 merge map; al-Zirikli, vol. 4 p. 26, calls him al-hafiz; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/shadharat-dhahab, source/alam-zirikli-dar-al-ilm-2002]
   - job: job/qadi
     kind: secondary
     status: historical
-    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
-    sources: [source/shadharat-dhahab]
+    note: "bootstrap from roles, 1 Nov 2026 merge map; al-Zirikli, vol. 4 p. 26: chief judge, in office over the Egyptian lands from 739 AH"
+    sources: [source/shadharat-dhahab, source/alam-zirikli-dar-al-ilm-2002]

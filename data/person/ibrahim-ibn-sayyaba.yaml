@@ -18,9 +18,9 @@ themes: [literature]
 story_roles:
   - { role: artist, status: tradition, sources: [source/nihayat-al-arab-nuwayri-vol4-scan] }
 born: { edtf: "775~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kitab al-Aghani / Abu al-Faraj al-Isfahani" }
-died: { edtf: "814~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kitab al-Aghani / Abu al-Faraj al-Isfahani" }
+died: { edtf: "814~", hijri: "0198", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kitab al-Aghani / Abu al-Faraj al-Isfahani. al-Safadi, al-Wafi, vol. 6 p. 11, reports from Ibn al-Najjar that he died in 198 AH, agreeing with the card.", sources: [source/wafi-bi-l-wafayat-safadi-dar-ihya-2000] }
 relations:
   - { type: lived_in, target: place/nishapur, confidence: low, note: "Associated with نيسابور per the record's own summary text; relation type pending review.", sources: [source/nihayat-al-arab-nuwayri-vol4-scan] }
-sources: [source/nihayat-al-arab-nuwayri-vol4-scan]
-status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (Nihayat vol. 4 humour chapter, pages 25, 55, from helper claims file; not yet image-checked)" }
-provenance: { layer: pd, source: "archive.org nefa04 (Nihayat al-Arab vol. 4), pages 25, 55", generated_by: "Claude Haiku 5.5", model: "claude-haiku-5-5", run: "lib-nihayat-batch-06" }
+sources: [source/nihayat-al-arab-nuwayri-vol4-scan, source/wafi-bi-l-wafayat-safadi-dar-ihya-2000]
+status: { review: draft, completeness: 2, generated_by: "Claude Haiku 5.5 (Nihayat vol. 4 humour chapter, pages 25, 55, from helper claims file; not yet image-checked); trilingual prose from al-Safadi, al-Wafi (vol. 6 pp. 10-12) added by Claude Code (Lane B2 packet), model claude-sonnet-5-5, run web-b2-wafi-2026-11-14" }
+provenance: { layer: pd, source: "archive.org nefa04 (Nihayat al-Arab vol. 4), pages 25, 55; al-Safadi, al-Wafi bi-l-Wafayat, vol. 6 pp. 10-12, entries read in full from the local OpenITI text", generated_by: "Claude Haiku 5.5; Claude Code (Lane B2 packet)", model: "claude-haiku-5-5; claude-sonnet-5-5", run: "lib-nihayat-batch-06; web-b2-wafi-2026-11-14" }

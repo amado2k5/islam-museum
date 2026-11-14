@@ -6,24 +6,25 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لبدر الدين الكرخي، فقيه ومفسر عراقي مصري القرن السادس عشر، توفي سنة ١٥٩٨م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Badr al-Din al-Karkhi, the sixteenth-century Iraqi-Egyptian jurist and exegete, d. 1598; the source entry is not yet checked on the page."
+  ar: "محمد بن محمد الكرخي، بدر الدين، فقيه عارف بالتفسير اشتهر بمصر وتوفي فيها سنة 1006 هـ، من كتبه مجمع البحرين حاشية على تفسير الجلالين."
+  en: "Muhammad ibn Muhammad al-Karkhi, Badr al-Din, a jurist learned in exegesis, well known in Egypt where he died in 1006 AH (1598); author of Majma' al-Bahrayn, a gloss on Tafsir al-Jalalayn."
 wings: [people]
 regions: [egypt-nile]
 periods: [period/gunpowder-empires]
-died: { edtf: "1598", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Muhibbi (Khulasat al-Athar)" }
-relations:
-  - { type: born_in, target: place/al-karkh, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-  - { type: died_in, target: place/cairo, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/shadharat-dhahab]
+born: { edtf: "1504", hijri: "0910", calendar: gregorian, precision: year, note: "al-Zirikli, al-A'lam, vol. 7 p. 61, prints 910 AH = 1504 CE", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+died: { edtf: "1598", hijri: "1006", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Muhibbi (Khulasat al-Athar). al-A'lam vol. 7 p. 61 prints 1006 AH = 1598 CE, agreeing with the card.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+sources: [source/shadharat-dhahab, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q57895008
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: Ibn al-Imad, Shadharat al-Dhahab — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0071
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
+relations:
+  - { type: born_in, target: place/al-karkh, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - { type: died_in, target: place/cairo, confidence: medium, note: "Place link from Wikidata; pending a second source. al-Zirikli, al-A'lam, vol. 7 p. 61, says only that he died in Egypt.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }

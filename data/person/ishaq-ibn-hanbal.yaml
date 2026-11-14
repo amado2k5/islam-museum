@@ -6,23 +6,27 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لإسحاق بن حنبل الكوفي، من ثقات المحدثين؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ishaq ibn Hanbal of Kufa, a trustworthy hadith transmitter; his entry is not yet checked on the page."
+  ar: "إسحاق بن حنبل بن هلال بن أسد الشيباني، عم الإمام أحمد، ولد سنة 161 هـ وتوفي سنة 252 هـ، سمع من يزيد بن هارون وطبقته، وكان ثقة، روى عنه ابنه حنبل بن إسحاق وإبراهيم الحربي وعبد الله بن الإمام أحمد."
+  en: "Ishaq ibn Hanbal ibn Hilal ibn Asad al-Shaybani, uncle of Imam Ahmad; born 161 AH, died 252 AH; heard Yazid ibn Harun and his generation and is called trustworthy by al-Safadi; his son Hanbal ibn Ishaq, Ibrahim al-Harbi and Abdallah ibn Ahmad narrated from him."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
-died: { edtf: "0867", precision: year, status: tradition, derived: true }
+born: { edtf: "778", hijri: "0161", calendar: gregorian, precision: year, status: tradition, derived: true, note: "al-Safadi prints 161 AH; the CE year is derived {cite:wafi-bi-l-wafayat-safadi-dar-ihya-2000 vol. 8 p. 267}.", sources: [source/wafi-bi-l-wafayat-safadi-dar-ihya-2000] }
+died: { edtf: "0867", hijri: "0252", precision: year, status: tradition, derived: true, note: "al-Safadi prints 252 AH {cite:wafi-bi-l-wafayat-safadi-dar-ihya-2000 vol. 8 p. 267}; 252 AH falls mostly in 866 and runs into January 867, so the card's 867 is kept and the conversion is derived.", sources: [source/wafi-bi-l-wafayat-safadi-dar-ihya-2000] }
 relations:
   - { type: lived_in, target: place/baghdad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/al-aalam]
+  - { type: student_of, target: person/yazid-ibn-harun, confidence: medium, note: "al-Safadi, al-Wafi, vol. 8 p. 267: he heard Yazid ibn Harun and his generation.", sources: [source/wafi-bi-l-wafayat-safadi-dar-ihya-2000] }
+  - { type: parent_of, target: person/hanbal-ibn-ishaq, confidence: medium, note: "al-Safadi, vol. 8 p. 267: his son Hanbal ibn Ishaq narrated from him.", sources: [source/wafi-bi-l-wafayat-safadi-dar-ihya-2000] }
+  - { type: teacher_of, target: person/ibrahim-al-harbi, confidence: medium, note: "al-Safadi, vol. 8 p. 267: Ibrahim al-Harbi narrated from him.", sources: [source/wafi-bi-l-wafayat-safadi-dar-ihya-2000] }
+sources: [source/al-aalam, source/wafi-bi-l-wafayat-safadi-dar-ihya-2000]
 external_ids:
   wikidata: Q101497466
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Safadi, al-Wafi bi-l-Wafayat, ed. al-Arna'ut and Mustafa, Dar Ihya al-Turath 2000, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-wafi-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3

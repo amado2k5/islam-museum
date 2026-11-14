@@ -6,31 +6,31 @@ label:
 roles: [faqih]
 gender: male
 summary:
-  ar: "بطاقة أولية لجمال الدين محمود بن أحمد الحصيري البخاري، شيخ الحنفية بدمشق في عصره؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Jamal al-Din al-Hasiri, the Hanafi jurist of Damascus; his entry is not yet checked on the page."
+  ar: "محمود بن أحمد بن عبد السيد بن عثمان، أبو المحامد، جمال الدين البخاري الحصيري، فقيه انتهت إليه رياسة الحنفية في زمانه، مولده في بخارى، سكن دمشق ودرس بالمدرسة النورية وتوفي بها، من كتبه التحرير في شرح الجامع الكبير."
+  en: "Mahmud ibn Ahmad ibn Abd al-Sayyid ibn Uthman, Abu al-Mahamid, Jamal al-Din al-Bukhari al-Hasiri, a jurist to whom the headship of the Hanafis passed in his time; born in Bukhara, he settled in Damascus, taught at the Nuriyya school and died there; his books include al-Tahrir, a commentary on al-Jami al-Kabir."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/crusades-ayyubid-mamluk]
-born: { edtf: "1151", precision: year, status: tradition, derived: true }
-died: { edtf: "1239", precision: year, status: tradition, derived: true }
+born: { edtf: "1151", hijri: "0546", precision: year, status: tradition, derived: true, note: "al-Zirikli prints 546 AH = 1151 CE {cite:alam-zirikli-dar-al-ilm-2002 vol. 7 p. 161}.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+died: { edtf: "1239", hijri: "0636", precision: year, status: tradition, derived: true, note: "al-Zirikli prints 636 AH = 1238 CE {cite:alam-zirikli-dar-al-ilm-2002 vol. 7 p. 161}; 636 AH runs from August 1238 to August 1239, and the card year 1239 is kept and flagged for checking.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
-  - { type: born_in, target: place/bukhara, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-  - { type: died_in, target: place/damascus, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/al-aalam]
+  - { type: born_in, target: place/bukhara, confidence: high, note: "Place link from Wikidata; al-Zirikli, al-A'lam, vol. 7 p. 161: his birthplace was Bukhara.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
+  - { type: died_in, target: place/damascus, confidence: high, note: "Place link from Wikidata; al-Zirikli, vol. 7 p. 161: he settled in Damascus, taught at the Nuriyya school and died there.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q25453619
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 occupations:
   - job: job/faqih
     kind: primary
     status: historical
-    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
-    sources: [source/al-aalam]
+    note: "bootstrap from roles, 1 Nov 2026 merge map; al-Zirikli, vol. 7 p. 161: Hanafi jurist, head of the Hanafis of his time; taught at the Nuriyya school in Damascus"
+    sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]

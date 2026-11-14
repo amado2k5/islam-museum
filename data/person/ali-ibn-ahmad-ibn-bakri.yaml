@@ -6,24 +6,24 @@ label:
 roles: [linguist]
 gender: male
 summary:
-  ar: "بطاقة أولية لعلي بن أحمد بن بكري، لغوي وأديب، توفي سنة ١١٨٠م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ali ibn Ahmad ibn Bakri, the linguist and man of letters, d. 1180; the biographical entry is not yet checked on the page."
+  ar: "علي بن أحمد بن بكري، أبو الحسن، خازن دار الكتب بالنظامية، له معرفة جيدة بالأدب وقرأ النحو على ابن الشجري والجواليقي، وكتب من كتب الأدب كثيراً، توفي سنة 575 هـ بحسب الصفدي."
+  en: "Ali ibn Ahmad ibn Bakri, Abu al-Hasan, keeper of the book collection at the Nizamiyya, learned in literature, a pupil of Ibn al-Shajari and al-Jawaliqi in grammar, copyist of many literary books; died 575 AH (about 1179-80) per al-Safadi."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/crusades-ayyubid-mamluk]
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/wafi-bi-l-wafayat-safadi-dar-ihya-2000]
 external_ids:
   wikidata: Q62628415
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0072
+  source: "al-Safadi, al-Wafi bi-l-Wafayat, ed. al-Arna'ut and Mustafa, 2000, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-wafi-2026-11-14
 status:
   review: draft
-  completeness: 1
-died: { edtf: "1180~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Mu'jam al-Udaba" }
+  completeness: 3
+died: { edtf: "1180~", hijri: "0575", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Mu'jam al-Udaba. al-Safadi, al-Wafi, vol. 20 pp. 103-104, prints 575 AH (1179-80 CE), consistent with the card's approximate year.", sources: [source/wafi-bi-l-wafayat-safadi-dar-ihya-2000] }
 relations:
   - { type: born_in, target: place/baghdad, note: "Wikidata Q1530 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: died_in, target: place/baghdad, note: "Wikidata Q1530 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }

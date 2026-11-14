@@ -6,25 +6,26 @@ label:
 roles: [mufti, scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لبدر الدين البعلي، فقيه ومفتي القرن الرابع عشر، توفي سنة ١٣٧٦م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Badr al-Din al-Ba'li, the fourteenth-century jurist and mufti, d. 1376; the biographical entry is not yet checked on the page."
+  ar: "محمد بن علي بن أحمد بن عمر بن يعلى، أبو عبد الله، بدر الدين البعلي، شيخ الحنابلة في بعلبك وعليه مدار الفتوى فيها، له مختصر الفتاوى المصرية سماه التسهيل، توفي سنة 778 هـ."
+  en: "Muhammad ibn Ali ibn Ahmad ibn Umar ibn Ya'la, Abu Abd Allah, Badr al-Din al-Ba'li, shaykh of the Hanbalis in Baalbek on whom legal opinions there turned; author of an abridgement of the Egyptian fatwas called al-Tashil; died 778 AH (1376)."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/mongol-post-mongol]
-died: { edtf: "1376", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Durar al-Kamina) Confirmed on 13 November 2026 against Wikidata Q123414264 (P570, a statement with a reference), item revision 2565230109.", sources: [source/wikidata] }
+died: { edtf: "1376", hijri: "0778", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Durar al-Kamina) Confirmed on 13 November 2026 against Wikidata Q123414264 (P570, a statement with a reference), item revision 2565230109. al-A'lam vol. 6 p. 286 prints 778 AH = 1376 CE, agreeing with the card.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
 relations:
   - { type: born_in, target: place/baalbek, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/baalbek, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/al-aalam, source/wikidata]
+  - { type: lived_in, target: place/baalbek, confidence: high, note: "al-Zirikli, al-A'lam, vol. 6 p. 286: shaykh of the Hanbalis in Baalbek", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q123414264
   viaf: "96954476"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0067
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3

@@ -3,27 +3,28 @@ class: person
 label:
   ar: "عبد علي بن ناصر بن رحمة الحويزي"
   en: "Ibn Rahmah al-Huwayzi"
-roles: [writer, linguist]
+roles: [writer, linguist, poet]
 gender: male
 summary:
-  ar: "بطاقة أولية لعبد علي بن ناصر بن رحمة الحويزي، كاتب ولغوي وشاعر في عهدي الصفويين والمشعشعين، توفي سنة ١٦٦٥م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abd Ali ibn Nasir ibn Rahmah al-Huwayzi, the seventeenth-century writer, linguist and poet of the Safavid-Musha'sha'id era, d. 1665; the biographical entry is not yet checked on the page."
+  ar: "عبد علي بن ناصر بن رحمة الحويزي، من كبار الشعراء في عصره، اتصل بحكام البصرة وولاتها، وكان يجيد النظم بالتركية والفارسية، له ديوان شعر وعدة كتب، ويذكر الزركلي وفاته سنة 1053 هـ."
+  en: "Abd Ali ibn Nasir ibn Rahmah al-Huwayzi, counted among the leading poets of his age, who attached himself to the rulers of Basra and composed in Turkish and Persian as well as Arabic; author of a diwan and several books; al-Zirikli gives his death as 1053 AH."
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/gunpowder-empires]
 relations:
   - { type: born_in, target: place/hoveyzeh, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/basra, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/al-aalam, source/wikidata]
+  - { type: lived_in, target: place/basra, confidence: high, note: "al-Zirikli, al-A'lam, vol. 4 p. 31: he attached himself to the rulers and governors of Basra and lived under their protection until he died", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q12224141
   viaf: "56290920"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0077
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3

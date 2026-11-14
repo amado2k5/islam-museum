@@ -6,24 +6,27 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لإسماعيل بن جعفر الأنصاري؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Isma'il ibn Ja'far al-Ansari; the entry is not yet checked on the page."
+  ar: "إسماعيل بن جعفر بن أبي كثير الأنصاري، أبو إبراهيم، قارئ أهل المدينة في عصره ومن موالي بني زريق، رحل إلى بغداد وأدب علي بن المهدي وتوفي بها سنة 180 هـ، وروى عنه أصحاب الكتب الستة وقال ابن معين ثقة مأمون."
+  en: "Isma'il ibn Ja'far ibn Abi Kathir al-Ansari, Abu Ibrahim, the reciter of Medina in his time and a client of the Banu Zurayq; he moved to Baghdad, tutored Ali ibn al-Mahdi and died there in 180 AH (796); the authors of the six canonical collections narrated from him, and Ibn Ma'in called him trustworthy."
 wings: [people]
 regions: [arabia]
 periods: [period/abbasid-early]
-born: { edtf: "721", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal / al-Mizzi" }
-died: { edtf: "796", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal / al-Mizzi" }
+born: { edtf: "721", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal / al-Mizzi. al-Zirikli prints 130 AH = 747 CE {cite:alam-zirikli-dar-al-ilm-2002 vol. 1 p. 312}; the card year is kept and flagged for checking." }
+died: { edtf: "796", hijri: "0180", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal / al-Mizzi. al-Zirikli prints 180 AH = 796 CE {cite:alam-zirikli-dar-al-ilm-2002 vol. 1 p. 312}; al-Safadi prints 180 AH {cite:wafi-bi-l-wafayat-safadi-dar-ihya-2000 vol. 9 p. 65}.", sources: [source/alam-zirikli-dar-al-ilm-2002, source/wafi-bi-l-wafayat-safadi-dar-ihya-2000] }
 relations:
   - { type: lived_in, target: place/hijaz, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/al-aalam] }
-sources: [source/al-aalam]
+  - { type: lived_in, target: place/medina, confidence: medium, note: "al-Zirikli, al-A'lam, vol. 1 p. 312: reciter of the people of Medina; al-Safadi, vol. 9 pp. 64-65: one of the leading scholars of Medina.", sources: [source/alam-zirikli-dar-al-ilm-2002, source/wafi-bi-l-wafayat-safadi-dar-ihya-2000] }
+  - { type: lived_in, target: place/baghdad, confidence: high, note: "al-Zirikli, vol. 1 p. 312: he moved to Baghdad and died there; al-Safadi, vol. 9 p. 65: he settled in Baghdad.", sources: [source/alam-zirikli-dar-al-ilm-2002, source/wafi-bi-l-wafayat-safadi-dar-ihya-2000] }
+  - { type: died_in, target: place/baghdad, confidence: high, note: "al-Zirikli, vol. 1 p. 312: he died there.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002, source/wafi-bi-l-wafayat-safadi-dar-ihya-2000]
 external_ids:
   wikidata: Q122173442
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, and al-Safadi, al-Wafi bi-l-Wafayat, Dar Ihya al-Turath 2000, entries read in full from the local OpenITI texts"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
