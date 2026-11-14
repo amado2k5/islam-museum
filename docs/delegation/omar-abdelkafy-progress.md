@@ -4993,3 +4993,43 @@ GEMINI: ep47, Julaybib's marriage and the family of the woman (Whisper links a d
 GEMINI: ep47, the report of Abu Ruwayha al-Khath'ami paired with Bilal and Bilal's frank introduction before a Yemeni tribe (Qwen also names Abu Hurayra), the source of the report
 GEMINI: ep47, the story of two men from Rome and Nur al-Din's dream with the lead around the grave (he dates it 557 AH; Whisper and Qwen disagree on how many times the dream came and on the sum he gave out), the early historians of Medina such as al-Samhudi
 GEMINI: ep47, the third Companion at the Prophet's door with Abu Bakr and Umar and the three qualities of goodness the Prophet names (Qwen and Whisper garble the third quality and the third speaker), the hadith on completing goodness by hastening, belittling and concealing it
+
+### alwaad-alhaq ep40 (14 Nov 2026)
+
+19 points written for episode 40 (ar, en, ur); 20 needs_source marks for this episode in each language file; edges added to the seeing of God, riba, the major sins, the Sirat and Paradise. Quran verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
+
+| Excluded (alwaad-alhaq ep40) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Repeated phrase of praise filling the opening stretch | ep40 00:01:30-00:02:00 | Qwen loop, no content | Clarity | Open |
+| Gold and silver adornment passage and the verse-like asides on the nadira faces | ep40 00:06:30-00:08:00 | Garbled in the transcript, cannot be followed | Clarity | Open |
+| Poetry fragments on the eagle and the crow | ep40 00:19:30-00:20:30 | Garbled, tangential poem not verifiable | Clarity | Open |
+| Digression on a family quarrel and the dead parents | ep40 00:20:00-00:20:30 | Garbled aside without a checkable claim | Clarity | Open |
+| The sheikh's remark on a verse about calling people by their fathers | ep40 00:41:30-00:42:30 | Transcript garbled, verse not identifiable | Clarity | Open |
+| Dialogue on the bank, rates and deposits at its full length | ep40 00:48:00-00:49:30 | Garbled and tangential; only the general application and the illustrative figures kept | Clarity | Open |
+| The man with the statue and the portrait of the Khedive and other worldly comparisons | ep40 00:56:30-00:57:30 | Garbled comic aside, kept in one sentence | Clarity | Open |
+| Discussion of television, time and the screen | ep40 01:04:30-01:06:00 | Garbled and conversational, kept in one sentence | Clarity | Open |
+| Closing supplication and the poem on the world | ep40 01:10:00-01:11:30 | Prayer text garbled and poem unverifiable | Clarity | Open |
+| Transcript repeat of the opening verses at the end | ep40 01:11:30-01:12:00 | Repetition of the opening verses | Clarity | Open |
+
+Resume point: alwaad-alhaq episode 41 (branch from origin/main).
+GEMINI: ep40, the narrator and book of the report that God asks the people of Paradise whether they want more and then lifts the veil (the sheikh gives Abu Hurayra and Sahih Muslim; Qwen is garbled; the wording matches the Suhayb report in Sahih Muslim, to be verified against the book).
+GEMINI: ep40, the name of the speaker of "the most intelligent of people leaves the world before it leaves him" (the transcript says Abu Hazim, no book; which Abu Hazim, and the source).
+GEMINI: ep40, the place of Adam in the report of the night of the ascent (the transcript says the sixth heaven, the usual report places him in the first heaven; Qwen garbled).
+### sharh-saheeh-al-bukhare ep48 (14 Nov 2026)
+
+24 points written for episode 48 (ar, en, ur); 17 needs_source marks in each language file for this episode; 7 new `about` edges. Quran verses referenced only through passage links (62-5, 7-175, 7-176, 7-143, 5-67); none typed. Contested: His reading that the Torah as it stands was altered, his reading of ighlaq in the divorce saying as anger, and his presentation of the Companions' disputes and of the Jews of Medina are his own views and are contested; Jewish and Muslim views on alteration of the Torah differ. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep48) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Greetings, opening supplication, break joins, closing greetings and messages from brothers abroad | ep48 00:00:00-00:02:30 and 01:17:30-01:18:00 | Not substantive | Content rule | Open |
+| Sweeping claims about the Jews as a people (usury, world finance figures, treatment of others, their habits, the Protocols material and alleged plans) | ep48 00:20:30-00:22:00, 00:43:30-00:46:00 and 01:09:00-01:15:30 | Demeaning generalisations about a people and conspiracy claims | Content rule | Open |
+| The hadith of the stone and tree applied to a modern state and its trees, and remarks on modern military power | ep48 00:21:30-00:22:30 | Sweeping claim about modern conflict | Content rule | Open |
+| Stretch on youth accused of extremism and a modern war reference | ep48 00:10:30-00:10:40 and 00:15:30-00:16:30 | Sweeping claim about modern conflict; a stretch dropped under the content-safety block | Content rule | Open |
+| Remarks on women and dress in past decades and on who follows the Antichrist | ep48 00:08:30-00:09:30 and 01:04:30-01:06:30 | Generalisations about women | Voice rule | Open |
+| Looped or garbled stretches (loops of one word, scrambled sentences) | ep48 00:09:00-00:09:30, 00:16:00-00:16:30, 00:18:30-00:19:30, 00:33:00-00:36:30, 00:39:30-00:40:00, 00:42:00-00:42:30, 00:47:00-00:47:30, 00:57:30-00:59:30, 01:00:00-01:00:30, 01:03:00-01:03:30, 01:05:00-01:05:30, 01:08:30-01:09:00 | Too garbled to recover in both passes | Clarity, Loop check | Open |
+| Stories too garbled to state (the two scholars in the desert, Ali and the weight on the shoulder, the plot at the wall, the Moses and Shu'ayb and Solomon remarks, the percentage figures on youth) | ep48 00:13:30-00:14:30, 00:35:00-00:36:30, 00:50:00-00:51:30, 00:57:30-00:58:30, 01:08:00-01:09:00 | Names and details differ or are unclear between the Qwen and Whisper passes | Clarity | Open |
+| Second ASR pass: Whisper large-v3 (mlx) run on the Mac to resolve garbled words of the Qwen transcript; cites use the shared 30-second grid | ep48 whole | Qwen pass garbled | Clarity | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 49 (branch from origin/main).
+GEMINI: ep48, which collection and narrator carry the report of Moses reading the tablets and asking to be of the community of Ahmad with eleven qualities, the Qwen and Whisper passes both give it at 00:28:30-00:30:00 without a source, a classical hadith collection or tafsir of the verses of al-A'raf 7:154 to 7:157
+GEMINI: ep48, which report gives the Prophet's order to the Companions about the market of Medina and the story of Umar's conversion with his sister, both passes give them at 00:03:30-00:04:30 and 00:11:30-00:13:30 without a chain, a sira source such as Ibn Hisham or a hadith collection
