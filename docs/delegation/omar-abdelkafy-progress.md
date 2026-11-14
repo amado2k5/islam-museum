@@ -4057,3 +4057,15 @@ Resume point: sharh-saheeh-al-bukhare episode 24 (branch from origin/main).
 | Closing and final prayer | ep24 01:31:00-01:31:30 | Break join and closing | Content rule | Open |
 
 Resume point: sharh-saheeh-al-bukhare episode 25 (branch from origin/main).
+
+### alwaad-alhaq ep18 (14 Nov 2026)
+
+17 points written for episode 18 (ar, en, ur); 18 needs_source marks for this episode in each language file; 8 edges added to the series record (zina, lowering the gaze, marriage, the orphan, Abu Dharr, Ikrima, al-Walid ibn al-Mughira, al-Abbas). Quran verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
+
+| Excluded (alwaad-alhaq ep18) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Harsh wording about women's fashion and a prayer against a woman | ep18 00:08:30-00:09:00 | Insulting register and a curse, not in the museum's voice | Voice and scope | Open |
+| Garbled passages on the imam of Kufa, Umar and a Companion, and the second matter of war beside usury | ep18 00:14:30, 00:21:30-00:24:30 | ASR loop and unreadable text, nothing safe to restate | Source quality | Open |
+| Figures on the percentage of bank dealings and the Islamic banks comparison | ep18 00:18:30 | Garbled numbers, not restated | Source quality | Open |
+
+Resume point: alwaad-alhaq episode 19 (branch from origin/main).
