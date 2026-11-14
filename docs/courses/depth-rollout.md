@@ -55,7 +55,7 @@ Record faults met: `concept/dhabaih-fiqh` and `concept/tadhkiya-slaughter` appea
 
 1. **A human reading** of the 356 lessons, the educator first for Grades 1 to 8 (rubric section 9). Everything is still `status.review: draft`.
 2. **Urdu**: the depth layer in `content/ur/`, with the Urdu headings added to `DEPTH` and to the checker.
-3. **The Grade 6 Science pilot**: re-ingest `ca-on-g6-science` through the pipeline, so that its four lessons without a layer can be deepened and its cards corrected.
+3. **The Grade 6 Science pilot**: done on 14 November 2026 (last section of this file).
 4. **The record faults** listed in each run above: each is a small fix to a record, not to a lesson. After a record's English prose changes, run `check_depth.py`: it names every evidence row to update.
 5. **Motives the records do not yet hold** (the table below): a cited reading of each preface, added to the person or work record.
 
@@ -148,3 +148,14 @@ With the founder's leave to edit Urdu, the two held groups that needed it were d
 - **Urdu brought into line** with the fourteen records corrected the day before: ten needed a change, among them the summaries of `concept/al-waba` and `concept/al-taun`; five already said the right thing or lacked the sentence.
 
 Still weak in the Grade 6 Science pilot, and left for its re-ingestion: the cards that link no record at all (the star names, the "Baghdad battery", the careers cards, the two reflection cards, the hadith card on mercy to animals, Ibn Firnas's materials). They were out of scope here because there is no record to rewrite them from.
+
+### The Grade 6 Science pilot re-ingested (14 November 2026)
+
+`ca-on-g6-science` was rebuilt through the pipeline from the Ministry's 2022 text. Its run log is `docs/courses/runs/ca-on-g6-science.md`, its gap register `docs/courses/gaps/ca-on-g6-science.yaml`, its gate output `docs/courses/gates/check-ca-on-g6-science.out`.
+
+- The gate went from seven failed checks to one, and that one is the founder's choice: every lesson page is kept, and a lesson with no honest record is kept emptied, saying so. Eight lessons are emptied: `sci-bio-1`, `sci-bio-3`, `sci-bio-4`, the four electricity lessons, and `sci-fly-4`. Their depth layers, where they had one, were removed with their cards.
+- The units keep their ids and now carry the 2022 strands (electricity is strand C, flight strand D). A strand A unit and lesson (`ca-on-g6-science-a`, `ca-on-g6-science-a-1`) were added, as every other grade has. Every expectation is the Ministry's wording, translated into Arabic and Urdu; 30 are in lessons and 14 in the gap register.
+- Nine lessons carry cards, 21 in all, each from a real record with sources the record already cited at the pipeline's baseline, and all nine carry a depth layer. The Explorer now has 361 lessons, 353 of them with a depth layer; the eight without are the emptied ones.
+- Cards that linked no record are gone (the star names, the "Baghdad battery", the careers and reflection cards, the hadith card, four Qur'an cards whose verses no linked record cites). Some of the cards corrected earlier the same day were moved to the lesson they serve or dropped where they failed the honesty test for the Ministry's actual expectation.
+
+Found on the way: `concept/eclipses` says, in Arabic and English, that "at opposition the dark half [of the Moon] faces us", which cannot be what al-Farghani wrote of the full Moon; the clause was kept out of the Grade 6 card, and the record needs its source read again. `building/maragha-observatory` cited no source at the baseline, so it cannot carry a card under the gate's provenance rule, although it cites the Encyclopaedia of Islam today. The space-exploration cards on Farouk El-Baz and Sheikh Muszaphar Shukor rest on Wikipedia alone and say so.

@@ -2,52 +2,51 @@ id: course/ca-on-g6-sci-space-2
 class: course
 kind: lesson
 label:
-  en: Phases of the Moon
-  ar: أطوار القمر
-  ur: 'چاند کے ادوار'
+  en: Bodies that give light and bodies that reflect it
+  ar: أجرام تُصدر الضوء وأجرام تعكسه
+  ur: روشنی دینے والے اجرام اور روشنی لوٹانے والے اجرام
 summary:
-  en: Why the Moon changes shape, why it doesn't really, and how a month is born.
-  ar: لماذا يتغير شكل القمر، ولماذا لا يتغير حقيقة، وكيف يولد الشهر.
-  ur: 'چاند کی شکل کیوں بدلتی دکھائی دیتی ہے، کیوں اصل میں نہیں بدلتی، اور مہینہ کیسے بنتا ہے۔'
+  en: Which bodies in space give off light and which only reflect it (E2.4).
+  ar: أي الأجرام في الفضاء تصدر الضوء وأيها تعكسه فقط، التوقع E2.4.
+  ur: خلا میں کون سے اجرام روشنی خارج کرتے ہیں اور کون سے صرف اسے منعکس کرتے ہیں، توقع E2.4۔
 sources:
 - source/ontario-science-tech-2022
 status:
   review: draft
   completeness: 1
-  generated_by: Devin; Education Browser pilot; content drafted against the Ontario Grade 6 Science & Technology curriculum (2022)
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline re-ingestion (docs/courses-mission/PIPELINE.md); 2026-11-14
 part_of: course/ca-on-g6-sci-space
 expectations:
-- code: E2.3
+- code: E2.4
   text:
-    en: Describe the phases of the Moon
-    ar: Describe the phases of the Moon
-    ur: 'Describe the phases of the Moon'
+    en: identify the types of bodies in space that emit light and those that reflect light
+    ar: حدِّد أنواع الأجرام في الفضاء التي تُصدر الضوء وتلك التي تعكسه
+    ur: خلا میں ایسے اجرام کی اقسام کی شناخت کریں جو روشنی خارج کرتے ہیں اور جو اسے منعکس کرتے ہیں
 connections:
 - position: before
-  kind: quran
+  kind: scholar
   title:
-    en: A clock everyone can read
-    ar: ساعة يقرؤها الجميع
-    ur: 'ایک گھڑی جو سب پڑھ سکتے ہیں'
+    en: Where the Moon's light comes from
+    ar: من أين يأتي نور القمر
+    ur: چاند کی روشنی کہاں سے آتی ہے
   text:
-    en: 'They ask you about the crescents; say: they are appointed times for people and for the pilgrimage (2:189). Long before printed calendars, the Moon was humanity''s shared clock — and for Muslims
-      it still is.'
-    ar: يسألونك عن الأهلة؛ قل هي مواقيت للناس والحج (2:189). قبل التقاويم المطبوعة بزمن كان القمر ساعة البشر المشتركة — وما زال كذلك عند المسلمين.
-    ur: 'وہ تم سے ہلالوں کے بارے میں پوچھتے ہیں؛ کہو: یہ لوگوں اور حج کے لیے میعاد ہیں (2:189)۔ چھپے ہوئے کیلنڈروں سے پہلے چاند انسانیت کی مشترکہ گھڑی تھا — اور مسلمانوں کے لیے اب بھی ہے۔'
-  entity: concept/hijri-calendar
-  ref: 2:189
+    en: Al-Farghani shows that the moon is lit by the sun's light, so the half of its disc facing the sun is bright. At opposition the moon enters the earth's shadow, which is a cone narrowing as it extends. Of the two bodies, which gives light, and which is only lit?
+    ar: يبيّن الفرغاني أن القمر يستضيء بنور الشمس، فيكون نصف كرته المقابل للشمس مضيئاً. وعند المقابلة يدخل القمر ظل الأرض، ويكون ظل الأرض مخروطاً يضيق كلما امتد. أيّ الجرمين يعطي الضوء، وأيّهما مستنير فقط؟
+    ur: الفرغانی بتاتا ہے کہ چاند سورج کی روشنی سے روشن ہوتا ہے، اس لیے اس کے گولے کا سورج کے سامنے والا آدھا حصہ روشن ہوتا ہے۔ مقابلے کے وقت چاند زمین کے سائے میں داخل ہوتا ہے، اور زمین کا سایہ ایک مخروط ہے جو پھیلتے پھیلتے تنگ ہوتا جاتا ہے۔ ان دونوں اجرام میں سے کون روشنی دیتا ہے اور کون صرف روشن ہوتا ہے؟
+  entity: concept/eclipses
   sources:
-  - source/tanzil-quran
+  - source/farghani-elements-astronomy
 - position: after
   kind: story
   title:
-    en: Sighting the crescent together
-    ar: تحري الهلال معًا
-    ur: 'مل کر ہلال دیکھنا'
+    en: The lit part of the Moon, first sighted
+    ar: الجزء المضيء من القمر وأول رؤيته
+    ur: چاند کا روشن حصہ، پہلی بار دیکھا گیا
   text:
-    en: Every Ramadan, communities still climb rooftops and hillsides to sight the new crescent — the same observation a Grade 6 class makes in this lesson, carried by a whole civilization.
-    ar: في كل رمضان يصعد الناس الأسطح والتلال لتحري الهلال الجديد — وهي المشاهدة ذاتها التي يمارسها طلاب الصف السادس في هذا الدرس، لكن تحملها حضارة كاملة.
-    ur: 'ہر رمضان برادریوں کے لوگ چھتوں اور پہاڑیوں پر چڑھ کر نیا ہلال دیکھتے ہیں — وہی مشاہدہ جو جماعت ششم کی کلاس اس سبق میں کرتی ہے، پوری تہذیب کی طرف سے اٹھایا ہوا۔'
+    en: The Kuwaiti Encyclopaedia of Fiqh gives hilal, technically, as the first sighting of the lit part of the moon on the first night. It adds that the size of the crescent is no guide to the start of the month; what counts is the night of sighting. Which body lights the part of the Moon that is sighted?
+    ar: تذكر الموسوعة الفقهية الكويتية أن الهلال في الاصطلاح ما يُرى من المضيء من القمر أول ليلة. وتذكر أنه لا يُعوَّل على كبر الهلال أو صغره في تحديد أول الشهر، وإنما هو ابن ليلة الرؤية. أي جرم يضيء الجزء الذي يُرى من القمر؟
+    ur: کویتی فقہی انسائیکلوپیڈیا کے مطابق اصطلاح میں ہلال چاند کے روشن حصے کا پہلی رات پہلی بار دکھائی دینا ہے۔ وہ یہ بھی بتاتا ہے کہ مہینے کے آغاز کے تعین میں ہلال کے چھوٹے یا بڑے ہونے پر اعتماد نہیں کیا جاتا، بلکہ وہ رات دیکھی جاتی ہے جس میں وہ نظر آیا۔ چاند کے جس حصے کو دیکھا جاتا ہے اسے کون سا جرم روشن کرتا ہے؟
+  entity: concept/hilal-fiqh
   sources:
-  - source/hill-1993
+  - source/fiqh-mawsua-kuwaitiyya-noor-v3
 order: 2

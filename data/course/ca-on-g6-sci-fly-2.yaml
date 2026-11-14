@@ -2,55 +2,58 @@ id: course/ca-on-g6-sci-fly-2
 class: course
 kind: lesson
 label:
-  en: Lift and wing design
-  ar: الرفع وتصميم الجناح
-  ur: 'اڑانی قوت اور بازو کی ڈیزائن'
+  en: 'Changing the forces: how living things fly'
+  ar: 'تغيير القوى: كيف تطير الكائنات الحية'
+  ur: 'قوتوں کو بدلنا: جاندار کیسے اڑتے ہیں'
 summary:
-  en: Bernoulli's principle, angle of attack, and why wings are shaped the way they are.
-  ar: مبدأ برنولي وزاوية الهجوم، ولماذا تأخذ الأجنحة أشكالها المعروفة.
-  ur: 'برنولی کا اصول، زاویۂ حملہ، اور بازو ایسے ہی کیوں بنے ہیں۔'
+  en: Describing the ways in which the four forces of flight can be altered, and the characteristics that enable organisms to fly.
+  ar: وصف الكيفيات التي يمكن بها تغيير قوى الطيران الأربع، والخصائص التي تمكّن الكائنات الحية من الطيران.
+  ur: پرواز کی چار قوتوں کو بدلنے کے طریقوں کا بیان، اور ان خصوصیات کا بیان جو جانداروں کو اڑنے کے قابل بناتی ہیں۔
 sources:
 - source/ontario-science-tech-2022
 status:
   review: draft
   completeness: 1
-  generated_by: Devin; Education Browser pilot; content drafted against the Ontario Grade 6 Science & Technology curriculum (2022)
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline re-ingestion (docs/courses-mission/PIPELINE.md); 2026-11-14
 part_of: course/ca-on-g6-sci-flight
 expectations:
-- code: C2.4
+- code: D2.4
   text:
-    en: Describe how lift is produced
-    ar: Describe how lift is produced
-    ur: 'Describe how lift is produced'
-- code: C2.5
+    en: describe ways in which the four forces of flight can be altered
+    ar: صِف الكيفيات التي يمكن بها تغيير قوى الطيران الأربع
+    ur: بیان کریں کہ پرواز کی چار قوتوں کو کن طریقوں سے بدلا جا سکتا ہے
+- code: D2.5
   text:
-    en: Explain how the design of a wing affects flight
-    ar: Explain how the design of a wing affects flight
-    ur: 'Explain how the design of a wing affects flight'
+    en: describe characteristics and adaptations that enable organisms to fly
+    ar: صِف الخصائص والتكيفات التي تمكّن الكائنات الحية من الطيران
+    ur: ان خصوصیات اور موافقتوں کو بیان کریں جو جانداروں کو اڑنے کے قابل بناتی ہیں
 connections:
+- position: before
+  kind: invention
+  title:
+    en: How the forces set the glide angle
+    ar: كيف تحدد القوى زاوية الهبوط
+    ur: قوتیں اترنے کا زاویہ کیسے طے کرتی ہیں
+  text:
+    en: In steady gliding, NASA Glenn relates the ratio of lift to drag to the angle at which a glider descends; the height lost divided by the horizontal distance gives the tangent of that angle. The record's modern paper example loses one unit of height across ten horizontal units, a slope of one to ten, and descends more steeply if only five are crossed. It does not calculate Ibn Firnas's range. Which force would you change to flatten the slope?
+    ar: في الانزلاق المنتظم يربط دليل ناسا غلين بين نسبة الرفع إلى المقاومة وزاوية الهبوط، ونسبة الارتفاع المفقود إلى المسافة الأفقية هي ظل هذه الزاوية. وفي مثال ورقي حديث يرد في السجل تُفقد وحدة ارتفاع مع قطع عشر وحدات أفقية، فتكون نسبة الانحدار واحدة إلى عشرة، ويشتد الانحدار إذا قُطعت خمس وحدات فقط. ولا يحسب السجل منه مدى رحلة ابن فرناس. أي قوة تغيّر لتخفف الانحدار؟
+    ur: مستقل انزلاق میں ناسا گلین اٹھان و مزاحمت کے تناسب کو نزولی زاویے سے ملاتی ہے، اور کھوئی بلندی تقسیم افقی فاصلہ اس زاویے کا ظل ہے۔ ریکارڈ کی ایک جدید کاغذی مثال میں ایک بلندی کی اکائی دس افقی اکائیوں میں کھوئی جاتی ہے، یعنی ڈھلان ایک بہ دس؛ اور اگر صرف پانچ افقی اکائیاں طے ہوں تو نزول زیادہ شدید ہے۔ ریکارڈ اس سے ابن فرناس کا فاصلہ نہیں نکالتا۔ آپ کون سی قوت بدلیں گے تاکہ ڈھلان کم ہو؟
+  entity: invention/firnas-reported-winged-flight
+  sources:
+  - source/nasa-glenn-gliding
+  - source/nafh-tib-maqqari
 - position: within
-  kind: invention
+  kind: object
   title:
-    en: 'A test meant to be repeated'
-    ar: 'اختبار يُقصد تكراره'
-    ur: 'ایسی آزمائش جسے دہرایا جا سکے'
+    en: Flying, but not called birds
+    ar: تطير ولا تسمى طيرًا
+    ur: اڑتی ہیں مگر پرندہ نہیں کہلاتیں
   text:
-    en: 'In the first book of the Kitab al-Manazir, Ibn al-Haytham lets the light of the sun, the moon, the stars and a fire into a dark room through a small hole, and studies it on the opposite wall. He cuts its path with an opaque body, lays a ruler along it and finds it perfectly straight. He sets out several versions, each meant to be repeated by the reader. What would you need to repeat it?'
-    ar: 'في المقالة الأولى من «كتاب المناظر» يُدخل ابن الهيثم ضوء الشمس والقمر والكواكب والنار من ثقب صغير إلى بيت مظلم، ويتأمله على الجدار المقابل. ويقطع طريقه بجسم كثيف، ويمد عليه مسطرة، فيجده في غاية الاستقامة. ويعرض الاختبار في صور عدة، كل واحدة منها يقصد أن يكررها القارئ بنفسه. ماذا تحتاج كي تكرر الاختبار بنفسك؟'
-    ur: '«کتاب المناظر» کے پہلے مقالے میں ابن الہیثم سورج، چاند، ستاروں اور آگ کی روشنی کو ایک چھوٹے سوراخ سے تاریک کمرے میں آنے دیتے ہیں اور سامنے کی دیوار پر اس کا مطالعہ کرتے ہیں۔ وہ اس کا راستہ ایک ٹھوس جسم سے کاٹتے ہیں، اس کے ساتھ سیدھا پیمانہ رکھتے ہیں اور اسے بالکل سیدھا پاتے ہیں۔ وہ اس آزمائش کی کئی صورتیں بیان کرتے ہیں، ہر ایک اس لیے کہ قاری خود اسے دہرائے۔ اسے دہرانے کے لیے آپ کو کیا چاہیے؟'
-  entity: invention/camera-obscura
+    en: 'Kitab al-Hayawan is al-Jahiz''s book on animals, divided into seven parts. In it he notes that not everything that flies on two wings is a bird: locusts, bees and flies fly but are not called birds. Name three small creatures you have seen fly: what do their wings have in common, and how do they differ?'
+    ar: '«كتاب الحيوان» كتاب الجاحظ في الحيوان، مقسوم على سبعة «مصاحف» أي أجزاء. وينبه فيه على أن ليس كل ما طار بجناحين طيراً: فالجراد والنحل والذباب تطير ولا تسمى طيراً. اذكر ثلاثة كائنات صغيرة رأيتها تطير: ما الذي تشترك فيه أجنحتها، وما الذي تختلف فيه؟'
+    ur: '«کتاب الحیوان» جاحظ کی حیوانات پر کتاب ہے، جو سات «مصاحف» یعنی اجزاء میں تقسیم ہے۔ اس میں وہ تنبیہ کرتے ہیں کہ دو پروں سے اڑنے والی ہر چیز پرندہ نہیں: ٹڈی، شہد کی مکھی اور مکھی اڑتی ہیں مگر پرندہ نہیں کہلاتیں۔ تین چھوٹے جانداروں کے نام بتائیں جنہیں آپ نے اڑتے دیکھا ہے: ان کے پروں میں کیا بات مشترک ہے اور کیا مختلف؟'
+  entity: work/kitab-al-hayawan
   sources:
-  - source/manazir-sabra-1983
-- position: after
-  kind: invention
-  title:
-    en: Feathers before aluminium
-    ar: ريش قبل الألومنيوم
-    ur: 'ایلومینیم سے پہلے پرّ'
-  text:
-    en: Ibn Firnas's wing suit was built from silk, wood and feathers — the materials his city had. Engineering has always meant solving the same problem with whatever is at hand.
-    ar: صُنعت بدلة جناح ابن فرناس من الحرير والخشب والريش — وهي مواد مدينته المتاحة؛ فالهندسة تعني دائمًا حل المشكلة ذاتها بما تيسر.
-    ur: 'ابن فرناس کی بازو والی پوشاک ریشم، لکڑی اور پرّوں سے بنی — جو مواد اس کے شہر میں تھا۔ انجینئرنگ ہمیشہ سے اسی مسئلے کو دستیاب چیزوں سے حل کرنے کا نام ہے۔'
-  sources:
-  - source/hill-1993
+  - source/hayawan-jahiz-ilmiyya-2003-v1
+  - source/hayawan-jahiz-ilmiyya-2003-v4
 order: 2

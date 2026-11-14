@@ -2,19 +2,19 @@ id: course/ca-on-g6-sci-space
 class: course
 kind: unit
 label:
-  en: 'Strand E — Earth and Space Systems: Space'
-  ar: 'الفرع هـ — نظما الأرض والفضاء: الفضاء'
-  ur: 'شاخ E — ارضی و فلکی نظام: فضا'
+  en: Strand E — Earth and Space Systems
+  ar: المحور هـ — نظم الأرض والفضاء
+  ur: محور ہ — زمین اور خلا کے نظام
 summary:
-  en: The solar system, the Moon, observing the sky, and how humans explore space (expectations E1, E2).
-  ar: المجموعة الشمسية والقمر ورصد السماء وكيفية استكشاف البشر للفضاء ⁦(التوقعات E1، E2)⁩.
-  ur: 'نظام شمسی، چاند، آسمان کا مشاہدہ، اور انسانی فضا کی تلاش ⁦(توقعات E1، E2)⁩۔'
+  en: The solar system, the effects of the movements of Earth, the Moon and the Sun, light in space and the technologies used to explore space (expectations E1, E2). The museum maps E2.1, E2.4, E2.5 and E2.6.
+  ar: المجموعة الشمسية وآثار حركات الأرض والقمر والشمس والضوء في الفضاء والتقنيات المستعملة في استكشافه، التوقعان E1 وE2. ويربط المتحف E2.1 وE2.4 وE2.5 وE2.6.
+  ur: نظامِ شمسی، زمین، چاند اور سورج کی حرکات کے اثرات، خلا میں روشنی اور خلا کی تلاش میں استعمال ہونے والی ٹیکنالوجیز، توقعات E1 اور E2۔ عجائب گھر E2.1، E2.4، E2.5 اور E2.6 کو جوڑتا ہے۔
 sources:
 - source/ontario-science-tech-2022
 status:
   review: draft
   completeness: 1
-  generated_by: Devin; Education Browser pilot; content drafted against the Ontario Grade 6 Science & Technology curriculum (2022)
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline re-ingestion (docs/courses-mission/PIPELINE.md); 2026-11-14
 part_of: course/ca-on-g6-science
 lessons:
 - course/ca-on-g6-sci-space-1
@@ -24,7 +24,12 @@ lessons:
 expectations:
 - code: E1
   text:
-    en: Overall expectations, strand E
-    ar: التوقعات الكلية للفرع E
-    ur: 'مجموعی توقعات، شاخ E'
-order: 4
+    en: assess the impact of space exploration on humans, society, and the environment
+    ar: قيِّم أثر استكشاف الفضاء في البشر والمجتمع والبيئة
+    ur: انسانوں، معاشرے اور ماحول پر خلائی تلاش کے اثر کا جائزہ لیں
+- code: E2
+  text:
+    en: demonstrate an understanding of the solar system, the phenomena that result from the movement of different bodies within it, and the technologies used in space exploration
+    ar: أظهر فهمًا للمجموعة الشمسية، وللظواهر الناتجة عن حركة الأجرام المختلفة فيها، وللتقنيات المستعملة في استكشاف الفضاء
+    ur: نظامِ شمسی، اس میں مختلف اجرام کی حرکت سے پیدا ہونے والے مظاہر، اور خلائی تلاش میں استعمال ہونے والی ٹیکنالوجیز کی سمجھ کا مظاہرہ کریں
+order: 5

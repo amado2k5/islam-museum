@@ -2,19 +2,19 @@ id: course/ca-on-g6-sci-flight
 class: course
 kind: unit
 label:
-  en: 'Strand C — Matter and Materials: Flight'
-  ar: 'الفرع ج — المادة وخاماتها: الطيران'
-  ur: 'شاخ C — مادہ و مواد: طِیران'
+  en: Strand D — Structures and Mechanisms
+  ar: الفرع د — البنى والآليات
+  ur: شاخ D — ساختیں اور میکانزم
 summary:
-  en: The properties of air, the four forces of flight, and how aircraft are designed, controlled and used (expectations C1, C2).
-  ar: خواص الهواء وقوى الطيران الأربع وكيفية تصميم الطائرات والتحكم بها واستخدامها ⁦(التوقعات C1، C2)⁩.
-  ur: 'ہوا کی خصوصیات، پرواز کی چار قوتیں، اور طیاروں کا ڈیزائن، کنٹرول اور استعمال ⁦(توقعات C1، C2)⁩۔'
+  en: Assessing the environmental impacts of flying machines, and understanding how properties of air apply to the principles of flight and flying machines (expectations D1, D2).
+  ar: تقييم الآثار البيئية للآلات الطائرة، وفهم كيف تُطبَّق خصائص الهواء على مبادئ الطيران، التوقعان D1 وD2.
+  ur: اڑنے والی مشینوں کے ماحولیاتی اثرات کا جائزہ، اور اس بات کی سمجھ کہ ہوا کی خصوصیات پرواز کے اصولوں اور اڑنے والی مشینوں پر کیسے لاگو ہوتی ہیں، توقعات D1 اور D2۔
 sources:
 - source/ontario-science-tech-2022
 status:
   review: draft
   completeness: 1
-  generated_by: Devin; Education Browser pilot; content drafted against the Ontario Grade 6 Science & Technology curriculum (2022)
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline re-ingestion (docs/courses-mission/PIPELINE.md); 2026-11-14
 part_of: course/ca-on-g6-science
 lessons:
 - course/ca-on-g6-sci-fly-1
@@ -22,9 +22,14 @@ lessons:
 - course/ca-on-g6-sci-fly-3
 - course/ca-on-g6-sci-fly-4
 expectations:
-- code: C1
+- code: D1
   text:
-    en: Overall expectations, strand C
-    ar: التوقعات الكلية للفرع C
-    ur: 'مجموعی توقعات، شاخ C'
-order: 2
+    en: assess the environmental impacts of flying machines
+    ar: قيِّم الآثار البيئية للآلات الطائرة
+    ur: اڑنے والی مشینوں کے ماحولیاتی اثرات کا جائزہ لیں
+- code: D2
+  text:
+    en: demonstrate an understanding of the ways in which properties of air can be applied to the principles of flight and flying machines
+    ar: أظهر فهمًا للكيفيات التي يمكن بها تطبيق خصائص الهواء على مبادئ الطيران والآلات الطائرة
+    ur: ان طریقوں کی سمجھ کا مظاہرہ کریں جن سے ہوا کی خصوصیات کو پرواز کے اصولوں اور اڑنے والی مشینوں پر لاگو کیا جا سکتا ہے
+order: 4

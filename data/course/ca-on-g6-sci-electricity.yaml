@@ -2,19 +2,19 @@ id: course/ca-on-g6-sci-electricity
 class: course
 kind: unit
 label:
-  en: 'Strand D — Structures and Mechanisms: Electrical Phenomena, Energy and Devices'
-  ar: 'الفرع د — المنشآت والآليات: الظواهر الكهربائية والطاقة والأجهزة'
-  ur: 'شاخ D — ڈھانچے و مشینری: برقی مظاہر، توانائی اور آلات'
+  en: Strand C — Matter and Energy
+  ar: المحور ج — المادة والطاقة
+  ur: محور ج — مادہ اور توانائی
 summary:
-  en: Static and current electricity, circuits, sources and transformations of energy, and responsible energy use (expectations D1, D2).
-  ar: الكهرباء الساكنة والتيارية والدوائر ومصادر الطاقة وتحولاتها والاستخدام الرشيد للطاقة ⁦(التوقعات D1، D2)⁩.
-  ur: 'ساکن اور جاری بجلی، سرکٹ، توانائی کے ذرائع و تبدیلیاں، اور ذمہ دارانہ استعمال ⁦(توقعات D1، D2)⁩۔'
+  en: 'Electrical energy: static and current electricity, circuits, where electrical energy comes from and how to use it responsibly (expectations C1, C2). The museum holds no record for this strand yet.'
+  ar: 'الطاقة الكهربائية: الكهرباء الساكنة والتيارية والدوائر، ومصادر الطاقة الكهربائية وكيفية استعمالها بمسؤولية، التوقعان C1 وC2. ولا يملك المتحف بعدُ سجلًا لهذا المحور.'
+  ur: 'برقی توانائی: ساکن اور جاری بجلی، سرکٹ، برقی توانائی کے ذرائع اور اس کا ذمہ دارانہ استعمال، توقعات C1 اور C2۔ عجائب گھر کے پاس اس محور کے لیے ابھی کوئی ریکارڈ نہیں۔'
 sources:
 - source/ontario-science-tech-2022
 status:
   review: draft
   completeness: 1
-  generated_by: Devin; Education Browser pilot; content drafted against the Ontario Grade 6 Science & Technology curriculum (2022)
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline re-ingestion (docs/courses-mission/PIPELINE.md); 2026-11-14
 part_of: course/ca-on-g6-science
 lessons:
 - course/ca-on-g6-sci-elec-1
@@ -22,9 +22,14 @@ lessons:
 - course/ca-on-g6-sci-elec-3
 - course/ca-on-g6-sci-elec-4
 expectations:
-- code: D1
+- code: C1
   text:
-    en: Overall expectations, strand D
-    ar: التوقعات الكلية للفرع D
-    ur: 'مجموعی توقعات، شاخ D'
+    en: evaluate the impact of the use and generation of electrical energy on society and the environment, and suggest ways to use electrical energy responsibly
+    ar: قيِّم أثر استعمال الطاقة الكهربائية وتوليدها في المجتمع والبيئة، واقترح طرقًا لاستعمالها بمسؤولية
+    ur: بجلی کی توانائی کے استعمال اور پیداوار کے معاشرے اور ماحول پر اثر کا جائزہ لیں، اور بجلی کی توانائی کو ذمہ داری سے استعمال کرنے کے طریقے تجویز کریں
+- code: C2
+  text:
+    en: demonstrate an understanding of the principles of electrical energy and its transformation into and from other forms of energy
+    ar: أظهر فهمًا لمبادئ الطاقة الكهربائية وتحوّلها إلى أشكال أخرى من الطاقة ومن أشكال أخرى منها
+    ur: برقی توانائی کے اصولوں اور اس کے توانائی کی دوسری اقسام میں اور ان سے تبدیل ہونے کی سمجھ کا مظاہرہ کریں
 order: 3

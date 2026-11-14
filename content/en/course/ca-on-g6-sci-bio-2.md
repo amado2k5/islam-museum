@@ -6,28 +6,30 @@ translators: []
 ---
 
 ## Brief
-Scientists sort life into nested groups — kingdom, phylum, class, order, family, genus, species — so that a name tells you how an organism relates to everything else.
+This lesson asks you to describe the distinguishing characteristics of different groups of organisms and to use those characteristics to classify the organisms further with a classification system. The museum offers one account: how al-Jahiz divided animals into groups in Kitab al-Hayawan; the scientific classification system your class learns has to come from another source. {cite:ontario-science-tech-2022}
 
-## Reading a classification key
-A dichotomous key asks yes/no questions ('does it have a backbone?') and narrows an unknown organism down to a group. Try building one for the shoes in your classroom.
+## What do we sort by?
+Choose four living things from the schoolyard or from pictures. Write two features that tell each one apart, then split them into two groups using one feature, then split each group using a second feature. Did the groups change when you changed the first feature?
+
+## Is one feature enough?
+Look for a living thing that does not fit its group neatly by the feature you chose. What will you do with it, and what extra feature do you need?
 
 ## Go deeper
-Before turning to particular animals, [[person/al-jahiz|al-Jahiz]] sets out a division of the world in [[work/kitab-al-hayawan|Kitab al-Hayawan]]: bodies are inanimate or growing, the growing are animals and plants, and animals walk, fly, swim or creep {cite:hayawan-jahiz-ilmiyya-2003-v1 p. 24}. He says that in this he follows the names established and known among the people of the language, singling out what they single out and grouping what they group {cite:hayawan-jahiz-ilmiyya-2003-v1 p. 25}. So he notes that not everything that flies on two wings is a bird: locusts, bees and flies fly but are not called birds; the bat is reckoned among birds though featherless, the ostrich has feathers but is not a bird, and not everything that swims is a fish {cite:hayawan-jahiz-ilmiyya-2003-v1 p. 25} {cite:hayawan-jahiz-ilmiyya-2003-v1 p. 26} {cite:hayawan-jahiz-ilmiyya-2003-v1 p. 27}.
+At the end of each volume the editor of the Beirut edition gives a list of al-Jahiz's chapters, from which the course of [[work/kitab-al-hayawan|Kitab al-Hayawan]] can be followed {cite:hayawan-jahiz-ilmiyya-2003-v1 p. 448}. The fifth part, in the third volume, includes the birds that live in people's houses, scorpions and mice, lice, fleas and gnats, the spider, the bee, the tick, the bustard, sheep and goats, frogs, locusts and sandgrouse {cite:hayawan-jahiz-ilmiyya-2003-v3 p. 597} {cite:hayawan-jahiz-ilmiyya-2003-v3 p. 598}. The sixth includes the dabb lizard and its marvels, hares, the hyena, hedgehog and jerboa {cite:hayawan-jahiz-ilmiyya-2003-v3 p. 599}.
 
 ## Why they did it
-The museum's records hold no sentence in which [[person/ibn-al-baytar|Ibn al-Baytar]] says why he wrote his [[work/al-mufradat-ibn-baytar|compendium]], and the record says the original preface was not read. What it reports is Mahmut Kaya's account of that preface: a declared policy of naming sources, rejecting unreliable material and verifying through observation and experience {cite:tdv-mufradat-kaya preface}. The record adds that this is Kaya's report of the author's aims, and does not show that every entry received an independent test. Kaya also describes his chief-herbalist service under al-Kamil and his continued position under al-Salih {cite:tdv-ibn-baytar-kaya travel teaching and death}.
+[[person/al-jahiz|Al-Jahiz]] says that he does not dwell on the great-bodied for their size, and that wisdom may show more plainly in the fly, small as it is, than in the splendid horse; what he seeks is "what is most marvellous, most telling in wisdom, and most indicative to the common people of the Lord's wisdom" {cite:hayawan-jahiz-ilmiyya-2003-v3 p. 82} {cite:hayawan-jahiz-ilmiyya-2003-v3 p. 83}. In the seventh part the editor lists a chapter on "what is taken from animals as evidence of the beauty of God's making" {cite:hayawan-jahiz-ilmiyya-2003-v4 p. 156}.
 
 ## Often misunderstood
-A large number can look like a count of newly found plants. The record separates the units: Iranica distinguishes about 1,422 substantive simples from 931 short synonym entries, not 2,353 independent plant species {cite:tdv-mufradat-kaya structure} {cite:iranica-ibn-baytar entry counts}. The book includes animal and mineral materials as well as plants {cite:iranica-ibn-baytar opening and entry counts}. The record calls the method a comparative improvement within older traditions, not the invention of botany or pharmacy from nothing {cite:tdv-mufradat-kaya structure and method}.
+A book called "Animals" sounds like a list of animals. Its editor, Muhammad Basil 'Uyun al-Sud, says the title suggests a book confined to animals, while it contains sciences and learning larger than its title, all laced with humour; in his words it is "a collection of books gathered in one book" {cite:hayawan-jahiz-ilmiyya-2003-v1 p. 4} {cite:hayawan-jahiz-ilmiyya-2003-v1 p. 5}.
 
 ## Think about it
-Al-Jahiz says he follows the names that speakers already use {cite:hayawan-jahiz-ilmiyya-2003-v1 p. 25}, and Ibn al-Baytar's compendium is an alphabetical reference in which one plant can have several names and one name can denote different things {cite:tdv-mufradat-kaya structure and method}. If two people use different names for the same organism, what goes wrong when you group living things by name, and what could a key built on features you can observe do better?
+Al-Jahiz says that in this he follows the names established and known among the people of his language, singling out what they single out and grouping what they group, and that the bat is reckoned among birds though featherless {cite:hayawan-jahiz-ilmiyya-2003-v1 p. 25}. If you were asked to place a bat in a group today, which feature would you put first, and why might someone else choose another feature?
 
 ## Into the museum
-- [[person/ibn-al-baytar|Ibn al-Baytar]]: his schooling and journeys, and where the sources say more is inferred than known.
-- [[work/al-mufradat-ibn-baytar|The Compendium of Simples]]: how the book is arranged and the sources it draws on.
-- [[invention/ibn-baytar-comparative-materia-medica|His comparative method]]: how a reader moves from one name to another, and where the method has limits.
-- [[work/kitab-al-hayawan|Kitab al-Hayawan]]: al-Jahiz's division of living things and the chapters that follow it.
+- [[work/kitab-al-hayawan|Kitab al-Hayawan]]: the seven parts chapter by chapter, and how the editor describes the book.
+- [[person/al-jahiz|al-Jahiz]]: what the Encyclopaedia of Islam says of his life, and where the sources differ on the year of his birth.
+- [[concept/hayawan-animal|Hayawan]]: how the Kuwaiti Encyclopaedia of Fiqh defines an animal and sets it apart from a creeping creature, a beast and grazing livestock.
 
 ## Try this
-Classify ten animals you know. Where do the surprises land — is a whale a fish? Why or why not? {cite:ontario-science-tech-2022}
+Draw al-Jahiz's division from the card "Walk, fly, swim or creep" as a tree: animals and plants, then animals that walk, fly, swim or creep. Add your four living things to the tree and note where you hesitated over one of them.

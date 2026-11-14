@@ -6,24 +6,24 @@ translators: []
 ---
 
 ## Brief
-The Moon does not change shape — we just see different slices of its sunlit half. A full cycle, new moon to new moon, is about 29.5 days: the origin of the month.
+This lesson asks you to identify which types of bodies in space give off light and which reflect it. The museum offers one record on how al-Farghani explains the Moon's light and one on the first sighting of the Moon's lit part; the class brings the stars, the planets and the other bodies, which the museum does not hold for this lesson. {cite:ontario-science-tech-2022}
 
-## Following the cycle
-Track the Moon for a month: sketch its shape and note where it stands against the Sun. Waxing means the lit side grows on the right (northern hemisphere); waning shrinks it on the left {cite:ontario-science-tech-2022}.
+## How do you tell a source from a lit body?
+For each body you read about, write what the record says lights it, and whether the record says it shines by itself or is lit by another body.
 
 ## Go deeper
-Al-Farghani, in the record on [[concept/eclipses|eclipses]], shows that the moon is lit by the sun's light, so the half of its disc facing the sun is bright {cite:farghani-elements-astronomy p. 26}. The Kuwaiti Encyclopaedia of Fiqh, in the record on the [[concept/hilal-fiqh|hilal]], says the hilal is technically the first sighting of the lit part of the moon on the first night {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.16552}. It says the lawgiver made the crescents times for people, among them the rites: the pilgrimage, fasting and its breaking {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.16552} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.16553}. The record on the [[concept/hijri-calendar|Hijri calendar]] describes a lunar calendar whose years are counted from the Prophet's migration from Mecca to Medina; it fixes the dates of Ramadan, the hajj and the two festivals {cite:tarikh-khulafa-minhaj-1434}.
+In his notes on al-Farghani, Golius gives an example: a lunar eclipse Ibn Yunus observed on the night of Thursday in the year 368 of the Hijra, with the Persian, Alexandrian and Diocletian dates given; the eclipse's diameter was more than eight fingers and less than nine {cite:farghani-elements-astronomy p. 294}. In the same section of the record on [[concept/eclipses|eclipses]], al-Farghani shows that the moon takes its light from the sun, its bright half facing it, and that a lunar eclipse occurs when the moon enters the earth's shadow at or near a node {cite:farghani-elements-astronomy p. 234} {cite:farghani-elements-astronomy p. 235}.
 
-## Often misunderstood
-A big crescent might seem to mean a month that began earlier than a small one. The Kuwaiti Encyclopaedia of Fiqh says the size of the crescent is no guide to the start of the month; what counts is the night of sighting {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.16554}. It also says the times of transactions are agreed by the parties, and an unqualified month is taken as a lunar month {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.16553} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.16554}.
+## Why they did it
+No sentence of the record on [[person/al-farghani|al-Farghani]] says why he wrote his book. It shows only that Golius places his time in al-Ma'mun's era, counting him among the astronomers of that age, and notes that the author mentions al-Ma'mun's observatories in chapters five and eight {cite:farghani-elements-astronomy p. 246}, and that al-Mas'udi counts him among those who engaged in the sciences of the heavens {cite:muruj-al-dhahab p.519}.
 
 ## Think about it
-Al-Farghani explains that the half of the moon facing the sun is the lit half. The encyclopaedia says the size of a crescent is no guide to the start of the month, only the night of sighting. Why might the night on which the lit part is first seen be a more reliable marker than how large the crescent looks?
+Al-Farghani says the half of the Moon facing the Sun is bright, and the encyclopaedia says that what counts for the start of a month is the night on which the lit part is first sighted. Why might it matter, for seeing a thin lit part on a given night, where the Sun and the Moon stand?
 
 ## Into the museum
-- [[concept/hilal-fiqh|The hilal]]: what the Kuwaiti Encyclopaedia of Fiqh says about the crescents as times.
-- [[concept/hijri-calendar|The Hijri calendar]]: the lunar calendar and the start of dating from the Hijra.
 - [[concept/eclipses|Eclipses]]: how al-Farghani explains the moon's light from the sun.
+- [[concept/hilal-fiqh|The hilal]]: what the Kuwaiti Encyclopaedia of Fiqh says about the lit part of the moon and the crescents as times.
+- [[person/al-farghani|Al-Farghani]]: the author of the Thirty Chapters and what the sources say of his time.
 
 ## Try this
-Predict tonight's phase from yesterday's sketch, then check — being wrong is still data.
+Read what [[concept/eclipses|al-Farghani says]] about the lit half of the Moon. Draw the Sun and the Moon, shade the half you think is lit, and write under your drawing which body gives light and which is only lit.

@@ -2,59 +2,75 @@ id: course/ca-on-g6-sci-space-4
 class: course
 kind: lesson
 label:
-  en: Exploring space
-  ar: استكشاف الفضاء
-  ur: 'فضا کی تلاش'
+  en: 'Exploring space: tools, crews and what we learn'
+  ar: 'استكشاف الفضاء: أدوات وطواقم وما نتعلمه'
+  ur: 'خلا کی تلاش: اوزار، عملہ اور جو ہم سیکھتے ہیں'
 summary:
-  en: Satellites, probes, the ISS and Canada in space; what exploration is for.
-  ar: الأقمار الصناعية والمسبارات ومحطة الفضاء الدولية وكندا في الفضاء؛ والغاية من الاستكشاف.
-  ur: 'سیٹلائٹ، تحقیقی مسبار، ISS اور خلاء میں کینیڈا؛ تلاش کا مقصد کیا ہے۔'
+  en: The conditions people meet in space and how they meet their needs there, how space technology helps us observe changes on Earth, and the technologies that have added to our understanding of space (E1.1, E1.2, E2.6).
+  ar: الظروف التي يلقاها الناس في الفضاء وكيف يلبّون حاجاتهم فيه، وكيف تعيننا تقنيات الفضاء على رصد التغيرات على الأرض، والتقنيات التي زادت فهمنا للفضاء، التوقعات E1.1 وE1.2 وE2.6.
+  ur: خلا میں لوگوں کو پیش آنے والے حالات اور وہ اپنی ضرورتیں کیسے پوری کرتے ہیں، خلائی ٹیکنالوجی زمین پر تبدیلیوں کو دیکھنے میں کیسے مدد دیتی ہے، اور وہ ٹیکنالوجیز جنہوں نے خلا کی ہماری سمجھ بڑھائی، توقعات E1.1، E1.2 اور E2.6۔
 sources:
 - source/ontario-science-tech-2022
 status:
   review: draft
   completeness: 1
-  generated_by: Devin; Education Browser pilot; content drafted against the Ontario Grade 6 Science & Technology curriculum (2022)
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline re-ingestion (docs/courses-mission/PIPELINE.md); 2026-11-14
 part_of: course/ca-on-g6-sci-space
 expectations:
 - code: E1.1
   text:
-    en: Assess the benefits and challenges of space exploration
-    ar: Assess the benefits and challenges of space exploration
-    ur: 'Assess the benefits and challenges of space exploration'
-- code: E2.5
+    en: analyse the impact that conditions in space have on humans engaged in space exploration, and explain how humans meet their social, emotional, and physiological needs in space
+    ar: حلِّل أثر الظروف في الفضاء في البشر العاملين في استكشافه، واشرح كيف يلبّي البشر حاجاتهم الاجتماعية والعاطفية والفسيولوجية في الفضاء
+    ur: خلا کی تلاش میں مصروف انسانوں پر خلا کے حالات کے اثر کا تجزیہ کریں، اور وضاحت کریں کہ انسان خلا میں اپنی سماجی، جذباتی اور جسمانی ضرورتیں کیسے پوری کرتے ہیں
+- code: E1.2
   text:
-    en: Describe Canada's contributions to space exploration
-    ar: Describe Canada's contributions to space exploration
-    ur: 'Describe Canada''s contributions to space exploration'
+    en: assess the role of space exploration technology in observing and understanding environmental changes on Earth, including climate change
+    ar: قيِّم دور تقنية استكشاف الفضاء في رصد التغيرات البيئية على الأرض وفهمها، ومنها تغيّر المناخ
+    ur: زمین پر ماحولیاتی تبدیلیوں، بشمول موسمیاتی تبدیلی، کو دیکھنے اور سمجھنے میں خلائی تلاش کی ٹیکنالوجی کے کردار کا جائزہ لیں
+- code: E2.6
+  text:
+    en: identify various technologies used in space exploration, and describe how technological innovations have contributed to our understanding of space
+    ar: حدِّد تقنيات متنوعة تُستعمل في استكشاف الفضاء، وصِف كيف أسهمت الابتكارات التقنية في فهمنا للفضاء
+    ur: خلائی تلاش میں استعمال ہونے والی مختلف ٹیکنالوجیز کی شناخت کریں، اور بیان کریں کہ تکنیکی جدتوں نے خلا کی ہماری سمجھ میں کیسے حصہ ڈالا
 connections:
+- position: before
+  kind: invention
+  title:
+    en: One disc for many latitudes
+    ar: قرص واحد لعروض كثيرة
+    ur: کئی عرض بلد کے لیے ایک قرص
+  text:
+    en: In 11th-century Toledo, Ibrahim ibn Yahya al-Zarqali developed an astronomical plate that did not require a replacement horizon plate whenever the observer changed latitude. The plate is a geometrical representation of the sky on a disc, with lines for moving between coordinate systems and a ruler representing the horizon. It was an improvement within the astrolabe tradition. What did one disc for many latitudes make easier?
+    ar: 'في طليطلة في القرن الحادي عشر طور إبراهيم بن يحيى الزرقالي صفيحة فلكية لا تستلزم تبديل صفيحة الأفق كلما تغير عرض الراصد. والصفيحة تمثيل هندسي للسماء على قرص: تحمل خطوطاً تساعد في الانتقال بين طرق مختلفة لتعيين موضع جرم سماوي، ومعها مسطرة تمثل الأفق. وهي تطوير للأسطرلاب. ما الذي يسهّله قرص واحد لعروض كثيرة؟'
+    ur: گیارہویں صدی کے طلیطلہ میں ابراہیم بن یحییٰ الزرقالی نے ایک فلکی تختی تیار کی جس میں دیکھنے والے کا عرض بلد بدلنے پر افق کی تختی بدلنے کی ضرورت نہیں تھی۔ یہ تختی ایک قرص پر آسمان کی ہندسی نمائندگی ہے، جس میں آسمانی جرم کی جگہ متعین کرنے کے مختلف طریقوں کے درمیان منتقل ہونے کے لیے خطوط ہیں اور افق کی نمائندگی کرنے والا ایک پیمانہ ہے۔ یہ اسطرلاب کی روایت کے اندر ایک بہتری تھی۔ کئی عرض بلد کے لیے ایک ہی قرص نے کیا آسان کیا؟
+  entity: invention/universal-astrolabe-al-zarqali
+  sources:
+  - source/zarqali-puig-bea
+  - source/zarqaliyya-bir-2020
 - position: within
+  kind: scholar
+  title:
+    en: Looking at the Moon and the Earth from above
+    ar: النظر إلى القمر والأرض من فوق
+    ur: اوپر سے چاند اور زمین کو دیکھنا
+  text:
+    en: According to the English Wikipedia article, from 1986 Farouk El-Baz used satellite images to study the origin and evolution of desert landforms, and he is credited with providing evidence that the desert is not man-made but the result of major climatic variations. In the Apollo programme he pored over detailed photographs of the Moon's surface to select the most precise landing locations. What can an image taken from above show that a person on the ground cannot?
+    ar: استخدم الباز منذ 1986 صور الأقمار الصناعية لدراسة نشأة الأشكال الأرضية الصحراوية وتطورها، ويُنسب إليه تقديم الدليل على أن الصحراء ليست من صنع الإنسان بل نتيجة تغيرات مناخية كبرى. وفي برنامج أبولو بدأ عمله بتمحيص صور مفصلة لسطح القمر، وهي خطوة في اختيار أدق موقع هبوط. ماذا تُظهر صورة من الأعلى مما لا يراه شخص على الأرض؟
+    ur: انگریزی ویکیپیڈیا کے مضمون کے مطابق فاروق الباز نے 1986ء سے صحرائی زمینی شکلوں کی ابتدا اور ارتقا کے مطالعے کے لیے سیٹلائٹ تصاویر استعمال کیں، اور ان سے یہ ثبوت پیش کرنے کی نسبت کی جاتی ہے کہ صحرا انسان کا بنایا ہوا نہیں بلکہ بڑی موسمی تبدیلیوں کا نتیجہ ہے۔ اپولو پروگرام میں انہوں نے چاند کی سطح کی تفصیلی تصاویر کو کھنگال کر سب سے درست لینڈنگ مقام چننے کی راہ ہموار کی۔ اوپر سے لی گئی تصویر کیا دکھا سکتی ہے جو زمین پر کھڑا شخص نہیں دیکھ سکتا؟
+  entity: person/farouk-el-baz
+  sources:
+  - source/wikipedia-farouk-el-baz-en
+- position: after
   kind: story
   title:
-    en: The first Muslim in orbit
-    ar: أول مسلم في المدار
-    ur: 'مدار میں پہلا مسلمان'
+    en: Eid aboard the station
+    ar: العيد على متن المحطة
+    ur: اسٹیشن پر عید
   text:
-    en: 'In June 1985, Prince Sultan bin Salman flew on the space shuttle Discovery — the first Muslim and first Arab in space. From orbit he joined a live call where a question of faith came up: how do
-      you face Mecca from space? Scholars had already written answers.'
-    ar: 'في يونيو 1985 طار الأمير سلطان بن سلمان على مكوك ديسكفري — أول مسلم وأول عربي في الفضاء. ومن المدار شارك في اتصال حيّ طُرح فيه سؤال إيماني: كيف تستقبل القبلة من الفضاء؟ وكان العلماء قد كتبوا الأجوبة
-      سلفًا.'
-    ur: 'جون 1985ء میں شہزادہ سلطان بن سلمان خلائی شٹل ڈسکوری پر اڑے — فضا میں پہلا مسلمان اور پہلا عرب۔ مدار سے ایک براہ راست کال میں دینی سوال اٹھا: فضا سے قبلہ کیسے پاؤ؟ علماء پہلے ہی جواب لکھ چکے تھے۔'
-  entity: person/sultan-bin-salman-al-saud
+    en: Sheikh Muszaphar Shukor flew to the International Space Station in October 2007. For his flight Malaysia's National Fatwa Council drew up a guidebook for Muslims in space, addressing how to pray in a low-gravity environment, how to locate Mecca from the station, and fasting in an orbit with a day/night cycle every ninety minutes. He celebrated Eid al-Fitr aboard the station and shared satay and cookies with the crew. What else does a crew need besides air and food?
+    ar: طار شيخ مظفر شكور إلى محطة الفضاء الدولية في أكتوبر 2007. وأصدر مجلس الفتوى الوطني الماليزي دليلاً للمسلمين في الفضاء، تناول كيفية الصلاة في بيئة منخفضة الجاذبية، وتحديد اتجاه مكة من المحطة، وقضايا الصيام في مدار تتكرر فيه دورة الليل والنهار كل تسعين دقيقة. واحتفل بعيد الفطر على متن المحطة، وشارك طاقمها الساتاي والبسكويت. أيّ حاجات للطاقم تخطط لها غير الهواء والطعام؟
+    ur: شیخ مظفر شکور اکتوبر 2007ء میں بین الاقوامی خلائی اسٹیشن گئے۔ ملائیشیا کی قومی فتویٰ کونسل نے ان کی پرواز کے لیے خلا میں مسلمانوں کا ایک رہنما کتابچہ تیار کیا، جس میں کم کششِ ثقل کے ماحول میں نماز پڑھنے، اسٹیشن سے مکہ کی سمت معلوم کرنے، اور ایسے مدار میں روزے کے مسائل کا ذکر تھا جس میں ہر نوے منٹ بعد دن رات کا چکر دہراتا ہے۔ انہوں نے اسٹیشن پر عیدالفطر منائی اور عملے کے ساتھ ساتے اور بسکٹ بانٹے۔ ہوا اور خوراک کے علاوہ عملے کی کون سی ضرورتوں کا آپ منصوبہ بنائیں گے؟
+  entity: person/sheikh-muszaphar-shukor
   sources:
-  - source/hourani-1991
-- position: after
-  kind: quran
-  title:
-    en: A permission and a challenge
-    ar: إذن وتحدٍّ
-    ur: 'اجازت اور چیلنج'
-  text:
-    en: 'O company of jinn and men, if you can pass beyond the regions of heaven and earth, then pass — you cannot pass except by authority (55:33). Verse as launch licence: exploration is framed as both
-      permitted and demanding.'
-    ar: 'يا معشر الجن والإنس إن استطعتم أن تنفذوا من أقطار السماوات والأرض فانفذوا؛ لا تنفذون إلا بسلطان (55:33). آية كأنها رخصة إطلاق: الاستكشاف مباح ومطلوب معًا.'
-    ur: 'اے جن و انس کی جماعت! اگر تم زمین و آسمانوں کے کناروں سے نکل سکتے ہو تو نکلو — تم سلطان کے بغیر نہیں نکل سکتے (55:33)۔ آیت جیسے اڑان کی اجازت نامہ: تلاش جائز بھی ہے اور مشکل بھی۔'
-  ref: '55:33'
-  sources:
-  - source/tanzil-quran
+  - source/wikipedia-sheikh-muszaphar-shukor-en
 order: 4

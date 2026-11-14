@@ -6,24 +6,24 @@ translators: []
 ---
 
 ## Brief
-Wings are shaped so air moves faster over the top than underneath, dropping the pressure above and lifting the craft. Angle of attack tilts the wing into the airflow for more lift — until it stalls.
+This lesson asks you to describe ways in which the four forces of flight can be altered, and to describe the characteristics and adaptations that enable organisms to fly. The museum offers NASA Glenn's explanation of how the ratio of lift to drag sets a glider's descent angle, and what al-Jahiz says of creatures that fly on two wings; ways of altering the forces, such as wing size and angle, and the body features of birds and insects, have to come from another source in your class. {cite:ontario-science-tech-2022}
 
-## Bernoulli, roughly
-Faster-moving fluid, lower pressure. A curved top surface plus a slight upward tilt gives a wing its lift; flaps and shape tweaks trade lift against drag {cite:ontario-science-tech-2022}.
+## What changes if you change one thing?
+Make two identical paper gliders and change just one thing on one of them, such as folding its nose. Release each gently from a low place and compare how far they glide. Which force do you think you changed, and what is your evidence?
+
+## What do wings share?
+Compare a bird's wing and an insect's wing from pictures. Write what they share and how they differ, and what that says about what a living thing needs in order to fly.
 
 ## Go deeper
-In the steady glide that NASA Glenn's guide explains, as set out in the record of [[invention/firnas-reported-winged-flight|Ibn Firnas's reported winged flight]], the lift-to-drag ratio sets the descent angle, and the tangent of that angle is height lost divided by horizontal distance {cite:nasa-glenn-gliding Vector Balance of Forces for a Glider; Glide Angle}. An explicitly modern paper example loses one unit of height across ten horizontal units; its slope is one to ten. Losing the same height across only five units gives a steeper descent {cite:nasa-glenn-gliding Glide Angle} {cite:nafh-tib-maqqari v.3 p.374}. Maqqari's report, by contrast, leaves wing area, inclination and control mechanism unrecoverable. The paper example neither calculates Ibn Firnas's range nor establishes his angle, because the narrative provides neither measurement {cite:nafh-tib-maqqari v.3 p.374}.
-
-## Two views
-Maqqari reports that [[person/abbas-ibn-firnas|Ibn Firnas]] covered himself with feathers, fitted two wings and attempted flight, suffering injury on landing {cite:nafh-tib-maqqari v.3 p.374}. Hasan Ibrahim Hasan describes a glider, ascent and unharmed survival; this differs from injury and is not silently merged into that account {cite:tarikh-islam-hasan-ibrahim v.4 printed p.378, scan382}. The record keeps the difference and rules for neither {cite:nafh-tib-maqqari v.3 p.374}.
+In the editor's list, the third part of [[work/kitab-al-hayawan|Kitab al-Hayawan]] opens with the chapter on pigeons "and the kinds of knowledge God placed in them", then takes up, among others, the kinds of flies, crows, dung beetles, the hoopoe, the Egyptian vulture and the bat {cite:hayawan-jahiz-ilmiyya-2003-v2 p. 3} {cite:hayawan-jahiz-ilmiyya-2003-v2 p. 509}. Elsewhere [[person/al-jahiz|al-Jahiz]] says that wisdom may show more plainly in the fly, small as it is, than in the splendid horse, and that he does not dwell on the great-bodied for their size {cite:hayawan-jahiz-ilmiyya-2003-v3 p. 82} {cite:hayawan-jahiz-ilmiyya-2003-v3 p. 83}.
 
 ## Think about it
-One account says he was injured and the other says he rose unharmed, and neither gives the wing's area or tilt. If you compared two paper wings of different shape, what would you measure that these accounts do not give, and why would that make your comparison fairer?
+Al-Jahiz notes that not everything that flies on two wings is a bird, and that locusts, bees and flies are not called birds {cite:hayawan-jahiz-ilmiyya-2003-v1 p. 25}. Choose two flying creatures you know and list what their wings share and how they differ. Does your list help you decide what the word "bird" should mean, and why?
 
 ## Into the museum
-- [[person/abbas-ibn-firnas|Abbas ibn Firnas]]: the man behind the reported attempt, and what Maqqari and Hasan Ibrahim Hasan say of him.
-- [[invention/firnas-reported-winged-flight|Ibn Firnas's reported winged flight]]: what the account gives about the wings and what it leaves out, with the explanation of lift and drag.
-- [[place/cordoba|Cordoba]]: the city where he lived and studied.
+- [[work/kitab-al-hayawan|Kitab al-Hayawan]]: the seven parts chapter by chapter, and how the editor describes the book.
+- [[person/al-jahiz|al-Jahiz]]: what the Encyclopaedia of Islam says of his life, and where the sources differ on the year of his birth.
+- [[invention/firnas-reported-winged-flight|Ibn Firnas's reported winged flight]]: NASA Glenn's glide angle, and its modern paper example.
 
 ## Try this
-Build two paper gliders with different wing shapes. Measure which flies farther and explain why in terms of lift and drag.
+In [[invention/firnas-reported-winged-flight|the record of Ibn Firnas's attempt]] you will find NASA's paper example of one unit of height lost across ten horizontal units. Draw it on squared paper, then draw the case where the same height is lost across only five units, and compare the two slopes.

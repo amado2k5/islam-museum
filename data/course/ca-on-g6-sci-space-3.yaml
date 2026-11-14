@@ -2,65 +2,51 @@ id: course/ca-on-g6-sci-space-3
 class: course
 kind: lesson
 label:
-  en: Mapping the stars
-  ar: رسم خريطة النجوم
-  ur: 'ستاروں کا نقشہ'
+  en: The Sun, the planets, the Moon and comets
+  ar: الشمس والكواكب والقمر والمذنّبات
+  ur: سورج، سیارے، چاند اور دُمدار ستارے
 summary:
-  en: Constellations, navigating by the sky, and how astronomers built better models.
-  ar: الأبراج والاهتداء بالسماء، وكيف بنا الفلكيون نماذج أدق.
-  ur: 'مجمع النجوم، آسمان سے راستہ، اور فلکیوں نے بہتر ماڈل کیسے بنائے۔'
+  en: Naming the bodies of the solar system, such as the Sun, planets, moons and comets, and describing their main physical characteristics (E2.1).
+  ar: تسمية أجرام المجموعة الشمسية، كالشمس والكواكب والأقمار والمذنّبات، ووصف خصائصها الفيزيائية الرئيسة، التوقع E2.1.
+  ur: نظامِ شمسی کے اجرام، جیسے سورج، سیارے، چاند اور دُمدار ستارے، کے نام لینا اور ان کی بنیادی طبعی خصوصیات بیان کرنا، توقع E2.1۔
 sources:
 - source/ontario-science-tech-2022
 status:
   review: draft
   completeness: 1
-  generated_by: Devin; Education Browser pilot; content drafted against the Ontario Grade 6 Science & Technology curriculum (2022)
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline re-ingestion (docs/courses-mission/PIPELINE.md); 2026-11-14
 part_of: course/ca-on-g6-sci-space
 expectations:
-- code: E2.4
+- code: E2.1
   text:
-    en: Describe how people have used the sky for navigation and timekeeping
-    ar: Describe how people have used the sky for navigation and timekeeping
-    ur: 'Describe how people have used the sky for navigation and timekeeping'
+    en: identify components of the solar system, including the Sun, Earth and other planets, natural satellites, comets, asteroids, and meteoroids, and describe their main physical characteristics
+    ar: حدِّد مكوّنات المجموعة الشمسية، ومنها الشمس والأرض والكواكب الأخرى والأقمار الطبيعية والمذنّبات والكويكبات والنيازك، وصِف خصائصها الفيزيائية الرئيسة
+    ur: نظامِ شمسی کے اجزا کی شناخت کریں، جن میں سورج، زمین اور دوسرے سیارے، قدرتی چاند، دُمدار ستارے، کشودرگرہ اور شہابیے شامل ہیں، اور ان کی بنیادی طبعی خصوصیات بیان کریں
 connections:
 - position: within
+  kind: scholar
+  title:
+    en: The Sun and the planets move along the zodiac
+    ar: الشمس والكواكب تتحرك على فلك البروج
+    ur: سورج اور سیارے فلکِ بروج پر چلتے ہیں
+  text:
+    en: Al-Farghani describes the second motion as the sun's and planets' own motion along the zodiac from west to east, opposite in direction to the first. He shows that the sun covers the zodiac by its own motion in a solar year, returning to its point in about three hundred and sixty-five days and a quarter. Which bodies of the sky does this description name?
+    ar: الحركة الثانية حركة الشمس والكواكب الخاصة بها على فلك البروج من المغرب إلى المشرق، وهي تخالف الحركة الأولى في الاتجاه. ويبين الفرغاني أن الشمس تقطع فلك البروج بحركتها الخاصة في عام شمسي، فتعود إلى نقطتها في نحو ثلاثمائة وخمسة وستين يوماً وربع يوم. أيّ أجرام السماء يسمّيها هذا الوصف؟
+    ur: الفرغانی کے مطابق دوسری حرکت سورج اور سیاروں کی اپنی حرکت ہے جو فلکِ بروج پر مغرب سے مشرق کی طرف ہوتی ہے اور پہلی حرکت کے برعکس رخ میں ہے۔ وہ بتاتا ہے کہ سورج اپنی خاص حرکت سے ایک شمسی سال میں فلکِ بروج طے کرتا ہے اور تقریباً تین سو پینسٹھ دن اور ایک چوتھائی دن میں اپنے نقطے پر لوٹ آتا ہے۔ یہ بیان آسمان کے کن اجرام کا نام لیتا ہے؟
+  entity: concept/al-harakat-al-thaniya
+  sources:
+  - source/farghani-elements-astronomy
+- position: after
   kind: story
   title:
-    en: Half the sky speaks Arabic
-    ar: نصف السماء يتكلم العربية
-    ur: 'ادھا آسمان عربی بولتا ہے'
+    en: A tailed star over Yemen and Syria
+    ar: نجم ذو ذؤابة فوق اليمن والشام
+    ur: یمن اور شام کے اوپر دم والا ستارہ
   text:
-    en: Betelgeuse (bayt al-jawza), Aldebaran (al-dabaran), Algol (al-ghul), Vega (al-nasr al-waqi) — most bright-star names in your textbook are Arabic, fossilized from the era when Muslim astronomers
-      mapped the sky.
-    ar: بيت الجوزاء والدبران والغول والنسر الواقع — معظم أسماء النجوم اللامعة في كتابك عربية الأصل، متحجرة من زمن رسم فيه فلكيو المسلمين السماء.
-    ur: 'بیت الجوزا، الدّبران، الغول، النسر الواقع — تمہاری کتاب کے زیادہ تر روشن ستاروں کے نام عربی ہیں، اس زمانے سے جمے ہوئے جب مسلم فلکیوں نے آسمان کا نقشہ بنایا۔'
+    en: Shadharat al-Dhahab reports that in 905 AH a tailed star rose from the east of Najd; its rising was in Aries, its tail over Yemen and its course through Syria. The report tells where it rose, where its tail lay and where it moved. What would you look for to tell a comet from an ordinary star?
+    ar: تذكر «شذرات الذهب» أنه في سنة 905هـ طلع من مشرق نجد نجم ذو ذؤابة، وكان طلوعه من برج الحمل وذؤابته في اليمن وسيره في الشام. تخبرنا الرواية أين طلع وأين كانت ذؤابته وأين سار. ما الذي تبحث عنه لتميّز المذنّب من النجم العادي؟
+    ur: «شذرات الذہب» بتاتی ہے کہ 905ھ میں نجد کے مشرق سے ایک دم والا ستارہ طلوع ہوا؛ اس کا طلوع برجِ حمل سے تھا، اس کی دم یمن کے اوپر تھی اور اس کی چال شام میں تھی۔ روایت بتاتی ہے کہ وہ کہاں سے نکلا، اس کی دم کہاں تھی اور وہ کہاں چلا۔ دُمدار ستارے کو عام ستارے سے الگ پہچاننے کے لیے آپ کیا دیکھیں گے؟
+  entity: event/comet-905
   sources:
-  - source/hill-1993
-- position: within
-  kind: invention
-  title:
-    en: 'Fixing the Moon''s distance'
-    ar: 'تصحيح بُعد القمر'
-    ur: 'چاند کے فاصلے کی اصلاح'
-  text:
-    en: 'Victor Roberts studied Ibn al-Shatir''s double-epicycle model of the Moon. Ptolemy''s lunar theory exaggerated the changing distance of the Moon, and Ibn al-Shatir''s arrangement reduced that defect, with the Earth still central. Roberts finds Copernicus''s lunar construction structurally identical apart from small parameter differences. On whether it travelled to Europe, Roberts in 1957 leaves the question open, while David A. King later reads the reappearance of its details as evidence of some transmission.'
-    ar: 'درس فيكتور روبرتس نموذج ابن الشاطر القمري بفلكي تدوير. فالنظرية القمرية البطلمية بالغت في تغير المسافة، أما تركيب ابن الشاطر فخفف هذا الخلل، مع بقاء الأرض في المركز. ويقول روبرتس إن النموذج القمري لكوبرنيكوس مماثل من حيث البنية مع فروق صغيرة في المعاملات. أما الانتقال إلى أوروبا فمنسوب: روبرتس سنة 1957م يترك السؤال مفتوحاً، بينما يستدل ديفيد كينغ لاحقاً بعودة تفاصيل النماذج على حصول انتقال ما.'
-    ur: 'وکٹر رابرٹس نے ابن الشاطر کے چاند کے دو تدویری دائروں والے نمونے کا مطالعہ کیا۔ بطلیموسی قمری نظریے نے چاند کی بدلتی دوری کو بڑھا چڑھا دیا تھا، اور ابن الشاطر کی ترتیب نے اس خرابی کو کم کیا، جبکہ زمین مرکز میں رہی۔ رابرٹس کے مطابق کوپرنیکس کی قمری ساخت ڈھانچے میں اس جیسی ہے، صرف معاملات میں معمولی فرق ہیں۔ یورپ تک پہنچنے کے سوال کو رابرٹس 1957ء میں کھلا چھوڑتے ہیں، جبکہ ڈیوڈ کنگ بعد میں نمونے کی تفصیلوں کے دوبارہ ظاہر ہونے کو کسی نہ کسی منتقلی کی دلیل مانتے ہیں۔'
-  entity: invention/ibn-al-shatir-lunar-model
-  sources:
-  - source/roberts-shatir-1957
-  - source/king-ibn-shatir-bea
-- position: after
-  kind: place
-  title:
-    en: 'The observatory on the hill'
-    ar: 'المرصد على التل'
-    ur: 'ٹیلے پر رصدگاہ'
-  text:
-    en: 'After the taking of Baghdad in 656 AH/1258 CE, Hulagu took up quarters in Maragha and ordered an observatory built from the plans of Nasir al-Din al-Tusi, who became its first director. The Encyclopaedia of Islam dates the foundation to 657 AH/1259 CE; it had a residence for Hulagu, a mosque and a rich library, and was financed from pious endowments. What do astronomers need besides their instruments?'
-    ar: 'بعد أخذ بغداد سنة 656هـ/1258م نزل هولاكو مراغة وأمر ببناء مرصد على تصميم نصير الدين الطوسي، الذي أشرف على بنائه وصار أول مدير له. وتؤرخ دائرة المعارف الإسلامية التأسيس بسنة 657هـ/1259م؛ وضم المرصد مسكناً لهولاكو ومسجداً ومكتبة غنية، وكان يموَّل من ريع الأوقاف. ما الذي يحتاجه الفلكيون غير آلاتهم؟'
-    ur: 'بغداد پر قبضے کے بعد، 656ھ/1258ء میں، ہولاکو نے مراغہ میں قیام کیا اور نصیر الدین الطوسی کے نقشے پر رصدگاہ بنانے کا حکم دیا؛ الطوسی اس کے پہلے ناظم بنے۔ موسوعۃ الاسلام اس کی بنیاد 657ھ/1259ء بتاتی ہے؛ اس میں ہولاکو کی رہائش، ایک مسجد اور ایک بھرپور کتب خانہ تھا، اور اسے وقف کی آمدنی سے چلایا جاتا تھا۔ فلکیات دانوں کو اپنے آلات کے علاوہ اور کیا چاہیے؟'
-  entity: building/maragha-observatory
-  sources:
-  - source/encyclopaedia-of-islam-2
+  - source/shadharat-dhahab
 order: 3

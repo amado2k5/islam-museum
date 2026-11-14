@@ -2,56 +2,64 @@ id: course/ca-on-g6-sci-space-1
 class: course
 kind: lesson
 label:
-  en: Earth, Moon and Sun
-  ar: الأرض والقمر والشمس
-  ur: 'زمین، چاند اور سورج'
+  en: Earth, Moon and Sun in motion
+  ar: الأرض والقمر والشمس في حركتها
+  ur: زمین، چاند اور سورج کی حرکت
 summary:
-  en: The solar system's layout, scale, and why a year is the length it is.
-  ar: ترتيب المجموعة الشمسية ومقاييسها، ولماذا تبلغ السنة طولها المعروف.
-  ur: 'نظام شمسی کی ترتیب اور پیمانہ، اور سال کی لمبائی کی وجہ۔'
+  en: The effects of how Earth, the Moon and the Sun are placed and how they move relative to one another (E2.5).
+  ar: آثار مواقع الأرض والقمر والشمس وحركاتها بعضها بالنسبة إلى بعض، التوقع E2.5.
+  ur: زمین، چاند اور سورج کی ایک دوسرے کے لحاظ سے پوزیشنوں اور حرکات کے اثرات، توقع E2.5۔
 sources:
 - source/ontario-science-tech-2022
 status:
   review: draft
   completeness: 1
-  generated_by: Devin; Education Browser pilot; content drafted against the Ontario Grade 6 Science & Technology curriculum (2022)
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline re-ingestion (docs/courses-mission/PIPELINE.md); 2026-11-14
 part_of: course/ca-on-g6-sci-space
 expectations:
-- code: E2.1
+- code: E2.5
   text:
-    en: Describe the components of the solar system
-    ar: Describe the components of the solar system
-    ur: 'Describe the components of the solar system'
-- code: E2.2
-  text:
-    en: Describe the relationship between the Earth, Moon and Sun
-    ar: Describe the relationship between the Earth, Moon and Sun
-    ur: 'Describe the relationship between the Earth, Moon and Sun'
+    en: describe various effects of the relative positions and motions of Earth, the Moon, and the Sun
+    ar: صِف آثارًا متنوعة للمواقع والحركات النسبية للأرض والقمر والشمس
+    ur: زمین، چاند اور سورج کی اضافی پوزیشنوں اور حرکات کے مختلف اثرات بیان کریں
 connections:
+- position: before
+  kind: scholar
+  title:
+    en: How al-Farghani explains an eclipse of the sun
+    ar: كيف يفسّر الفرغاني كسوف الشمس
+    ur: الفرغانی سورج گرہن کی وضاحت کیسے کرتا ہے
+  text:
+    en: Al-Farghani treats an eclipse of the sun as the moon's passing between the sun and the earth at conjunction. At conjunction the moon is at the ascending or descending node with no latitude from the sun's path, and covers it wholly. If the conjunction falls away from the nodes, parallax makes the visible differ from the true, and an eclipse may appear partial from one place and total from another. Where must the Moon stand to cover the Sun?
+    ar: يعالج الفرغاني كسوف الشمس بأنه اعتراض القمر بين الشمس والأرض عند الاجتماع. وعند الاجتماع يكون القمر على الرأس أو الذنب ولا عرض له عن طريق الشمس فيحجبها كلها. وإن كان الاجتماع في غير الرأس والذنب، اختلف المرئي عن الحقيقي بسبب اختلاف المنظر، وقد يبدو الكسوف جزئياً من موضع وكلياً من موضع آخر. أين يجب أن يقف القمر ليحجب الشمس؟
+    ur: الفرغانی سورج گرہن کو اجتماع کے وقت چاند کے سورج اور زمین کے درمیان آ جانے کے طور پر لیتا ہے۔ اجتماع کے وقت چاند راس یا ذنب پر ہوتا ہے اور سورج کے راستے سے اس کا کوئی عرض نہیں ہوتا، اس لیے وہ سورج کو پورا ڈھانپ لیتا ہے۔ اگر اجتماع راس اور ذنب کے علاوہ کہیں ہو تو اختلافِ منظر کی وجہ سے نظر آنے والا حقیقی سے مختلف ہوتا ہے، اور گرہن ایک جگہ سے جزوی اور دوسری جگہ سے کلی دکھائی دے سکتا ہے۔ سورج کو ڈھانپنے کے لیے چاند کو کہاں ہونا چاہیے؟
+  entity: concept/eclipses
+  sources:
+  - source/farghani-elements-astronomy
 - position: within
   kind: scholar
   title:
-    en: 'Watching the Sun from al-Raqqa'
-    ar: 'رصد الشمس من الرقة'
-    ur: 'رقہ سے سورج کا مشاہدہ'
+    en: Following the Sun's course from al-Raqqa
+    ar: متابعة مسير الشمس من الرقة
+    ur: رقہ سے سورج کی چال کا مشاہدہ
   text:
-    en: 'Al-Battani spent most of his life in al-Raqqa and observed the sky there for many years to set the elements of his tables for that city''s meridian and latitude. He measured the Sun''s course over successive years and fixed the solstices and equinoxes, above all in 882 and 883 CE. Ja''far ibn al-Muktafi reported from him that he began observing in 264 AH and continued to 306. What would you write down each day to follow the Sun?'
-    ar: 'قضى البتاني معظم حياته في الرقة، ورصد فيها السماء سنين طويلة ليضع أصول جداوله على طول المدينة وعرضها. ورصد فيها مسير الشمس سنين متوالية، وحدد الانقلابين والاعتدالين ولا سيما في سنتي 882 و883م. وروى جعفر بن المكتفي عنه أنه بدأ الرصد سنة 264هـ وانتهى إلى سنة 306هـ. ماذا تحتاج أن تسجل كل يوم لتتابع مسير الشمس سنين طويلة؟'
-    ur: 'البتانی نے اپنی زندگی کا بیشتر حصہ رقہ میں گزارا اور وہاں برسوں آسمان کا مشاہدہ کیا تاکہ اس شہر کے طول و عرض کے مطابق اپنے جدولوں کی بنیادیں رکھ سکیں۔ انہوں نے متواتر برسوں تک سورج کی چال ناپی اور انقلابین اور اعتدالین متعین کیے، خاص طور پر 882ء اور 883ء میں۔ جعفر بن المکتفی نے ان سے روایت کیا کہ انہوں نے 264ھ میں مشاہدہ شروع کیا اور 306ھ تک جاری رکھا۔ اتنے برسوں تک سورج کی چال کو دیکھنے کے لیے آپ کو روزانہ کیا لکھنا ہوگا؟'
+    en: Al-Battani spent most of his life in al-Raqqa and observed the sky there for many years to set the elements of his tables for that city's meridian and latitude. He measured the Sun's course over successive years, fixed the solstices and equinoxes above all in 882 and 883 CE, and observed solar and lunar eclipses in 883 and 891. What would you write down each day to follow the Sun?
+    ar: قضى البتاني معظم حياته في الرقة، ورصد فيها السماء سنين طويلة ليضع أصول جداوله على طول المدينة وعرضها. ورصد فيها مسير الشمس سنين متوالية، وحدد الانقلابين والاعتدالين ولا سيما في سنتي 882 و883م، ورصد كسوفات الشمس وخسوفات القمر في سنتي 883 و891م. ماذا تحتاج أن تسجل كل يوم لتتابع مسير الشمس؟
+    ur: البتانی نے اپنی زندگی کا بیشتر حصہ رقہ میں گزارا اور وہاں برسوں آسمان کا مشاہدہ کیا تاکہ اس شہر کے طول و عرض کے مطابق اپنے جدولوں کی بنیادیں رکھ سکیں۔ انہوں نے متواتر برسوں تک سورج کی چال ناپی، انقلابین اور اعتدالین متعین کیے، خاص طور پر 882ء اور 883ء میں، اور 883ء اور 891ء میں سورج گرہن اور چاند گرہن کا مشاہدہ کیا۔ سورج کی چال کو دیکھنے کے لیے آپ روزانہ کیا لکھیں گے؟
   entity: person/al-battani
   sources:
   - source/nallino-albatenii-opus-astronomicum
-- position: within
+- position: after
   kind: invention
   title:
-    en: 'A treatise on using the astrolabe'
-    ar: 'رسالة في استعمال الأسطرلاب'
-    ur: 'اسطرلاب کے استعمال پر ایک رسالہ'
+    en: Fixing the Moon's changing distance
+    ar: ضبط تغير بعد القمر
+    ur: چاند کے بدلتے فاصلے کی درستی
   text:
-    en: 'Risalat al-Mizzi fi al-asturlab, al-Azhar Library no. 476/65513, is one of the manuscripts on observational instruments. The Bibliotheca Alexandrina book says it explains how to take altitudes, the two shadows, the latitudes of towns, the arcs of night and day, prayer times, and the times of rising and setting of stars. How could measuring an altitude help you picture the Sun''s path above the Earth?'
-    ar: '«رسالة المزي في الأسطرلاب»، رقم 476/65513 في مكتبة الأزهر، من المخطوطات التي تعالج علم آلات الرصد. ويصف كتاب مكتبة الإسكندرية الرسالة بأنها تتحدث عن طريقة أخذ الارتفاع، ومعرفة الظلين، وعروض البلاد، وقوس الليل والنهار، وأوقات الصلاة، وأوقات طلوع الكواكب وغروبها. كيف يعينك قياس الارتفاع على تخيّل مسار الشمس فوق الأرض؟'
-    ur: '«رسالۃ المزی فی الاسطرلاب»، الازہر کے کتب خانے میں نمبر 476/65513، آلاتِ رصد پر مخطوطات میں سے ایک ہے۔ مکتبۃ الاسکندریہ کی کتاب کے مطابق یہ رسالہ ارتفاع لینے کے طریقے، دونوں سایوں، شہروں کے عرض بلد، رات اور دن کی قوسوں، نماز کے اوقات اور ستاروں کے طلوع و غروب کے اوقات کے بارے میں ہے۔ ارتفاع ناپنا زمین کے اوپر سورج کا راستہ تصور کرنے میں آپ کی کیسے مدد کر سکتا ہے؟'
-  entity: work/risalat-al-mizzi-fi-al-asturlab
+    en: 'Victor Roberts highlights a problem in studying Ibn al-Shatir: Ptolemy''s lunar theory exaggerated the changing distance, whereas Ibn al-Shatir''s double-epicycle arrangement reduced that defect. Earth remains central to the overall description. Why would the Moon''s changing distance from Earth matter to anyone who wants to know where it will appear?'
+    ar: 'يبرز فيكتور روبرتس عند دراسة ابن الشاطر مشكلة: النظرية القمرية البطلمية بالغت في تغير المسافة، أما تركيب ابن الشاطر بفلكي تدوير فخفف هذا الخلل. والأرض باقية في مركز الوصف العام. لماذا يهمّ تغيّر بعد القمر عن الأرض من يريد أن يعرف موضعه في السماء؟'
+    ur: 'ابن الشاطر کے مطالعے میں وکٹر رابرٹس ایک مسئلہ نمایاں کرتے ہیں: بطلیموسی قمری نظریے نے فاصلے کی تبدیلی کو بڑھا چڑھا کر پیش کیا، جبکہ ابن الشاطر کی دو تدویری دائروں والی ترتیب نے اس خامی کو کم کیا۔ زمین عمومی بیان کے مرکز میں رہتی ہے۔ چاند کے زمین سے بدلتے فاصلے کی کیا اہمیت ہے اس شخص کے لیے جو جاننا چاہتا ہے کہ وہ آسمان میں کہاں نظر آئے گا؟'
+  entity: invention/ibn-al-shatir-lunar-model
   sources:
-  - source/bibalex-azhar-astronomy-manuscripts-2006
+  - source/roberts-shatir-1957
 order: 1

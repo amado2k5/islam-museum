@@ -1,0 +1,71 @@
+id: course/ca-on-g6-science-a-1
+class: course
+kind: lesson
+label:
+  en: People who use science in their work
+  ar: أشخاص يوظّفون العلم في عملهم
+  ur: اپنے کام میں سائنس استعمال کرنے والے لوگ
+summary:
+  en: How science and technology are used in occupations such as the astronomer, the engineer and the timekeeper, and what various communities have contributed to science and technology (A3.1, A3.3).
+  ar: كيف تُستعمل العلوم والتكنولوجيا في مهن كالفلكي والمهندس والموقِّت، وماذا أسهمت به مجتمعات مختلفة في العلوم والتكنولوجيا، التوقعان A3.1 وA3.3.
+  ur: فلکیات دان، انجینئر اور وقت شناس جیسے پیشوں میں سائنس اور ٹیکنالوجی کیسے استعمال ہوتی ہے، اور مختلف برادریوں نے سائنس اور ٹیکنالوجی میں کیا حصہ ڈالا، توقعات A3.1 اور A3.3۔
+sources:
+- source/ontario-science-tech-2022
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Code; claude-sonnet-5-5; courses pipeline re-ingestion (docs/courses-mission/PIPELINE.md); 2026-11-14
+part_of: course/ca-on-g6-science-a
+expectations:
+- code: A3.1
+  text:
+    en: describe practical applications of science and technology concepts in various occupations, including skilled trades, and how these applications address real-world problems
+    ar: صِف تطبيقات عملية لمفاهيم العلوم والتكنولوجيا في مهن متنوعة، ومنها الحِرف الماهرة، وكيف تعالج هذه التطبيقات مشكلات من الواقع
+    ur: مختلف پیشوں، بشمول ہنر مند پیشوں، میں سائنس اور ٹیکنالوجی کے تصورات کے عملی استعمال بیان کریں اور یہ بھی کہ یہ استعمال حقیقی دنیا کے مسائل کو کیسے حل کرتے ہیں
+- code: A3.3
+  text:
+    en: analyse contributions to science and technology from various communities
+    ar: حلِّل إسهامات مجتمعات متنوعة في العلوم والتكنولوجيا
+    ur: مختلف برادریوں کی سائنس اور ٹیکنالوجی میں خدمات کا تجزیہ کریں
+connections:
+- position: before
+  kind: career
+  title:
+    en: The astronomer's tables
+    ar: جداول الفلكي
+    ur: فلکیات دان کے جدول
+  text:
+    en: The astronomer watches the movements of the heavenly bodies, calculates them, and sets the results in tables called zijes. Ibrahim ibn Habib al-Fazari wrote a zij on the Arab reckoning, giving the basic tables for computing Islamic dates by the lunar calendar. Observatories were built at Maragha, Samarkand and Istanbul, and rulers sometimes paid for them. What everyday problem do tables like these solve for a community?
+    ar: الفلكي هو من يرصد حركات الأجرام السماوية ويحسبها، ويضع نتائجها في جداول تُسمّى الأزياج. ووضع إبراهيم بن حبيب الفزاري زيجاً بالحساب العربي، فأعطى فيه الأصول اللازمة لحساب التواريخ الإسلامية بالتقويم القمري. وقامت مراصد في مراغة وسمرقند وإسطنبول، ورعاها الحكام أحياناً. أي مشكلة يومية تحلّها جداول كهذه لجماعة من الناس؟
+    ur: فلکیات دان آسمانی اجرام کی حرکتوں کو دیکھتا اور ان کا حساب لگاتا ہے، اور نتائج کو زیج کہلانے والے جدولوں میں درج کرتا ہے۔ ابراہیم بن حبیب الفزاری نے عربی حساب پر ایک زیج لکھی، جس میں قمری تقویم سے اسلامی تاریخیں نکالنے کے لیے بنیادی اصول دیے۔ مراغہ، سمرقند اور استنبول میں رصدگاہیں قائم ہوئیں، اور حکمران کبھی کبھی ان کی سرپرستی کرتے تھے۔ ایسے جدول کسی جماعت کے لیے روزمرہ کا کون سا مسئلہ حل کرتے ہیں؟
+  entity: job/astronomer
+  sources:
+  - source/tdv-ilm-i-felek
+  - source/tdv-semerkant-rasathanesi
+- position: within
+  kind: career
+  title:
+    en: An engineer who improved earlier work
+    ar: مهندس حسّن ما سبقه
+    ur: پہلے کے کام کو بہتر بنانے والا انجینئر
+  text:
+    en: TDV places al-Jazari in a tradition extending from Hellenistic engineering to the Banu Musa, and describes an engineer improving earlier work, not the inventor of every underlying principle in his book. In his double-piston pump, flowing water drives a wheel and gears, with a pin and slotted rod converting rotation into reciprocating piston-rod motion. Whose earlier work might an engineer today build on?
+    ar: تضع TDV الجزري في تقليد يمتد من الهندسة الهلنستية إلى بني موسى، وتصفه مهندساً يعنى بتحسين ما سبقه، لا مخترع كل أصل في كتابه. وفي مضخته ذات المكبسين يدير الماء دولاباً وتروساً، وينقل مسمار وقضيب مشقوق الدوران إلى ذراعي المكبسين ذهاباً وإياباً. على عمل مَن سبقه قد يبني مهندس اليوم؟
+    ur: ٹی ڈی وی جزری کو ہیلینی انجینئرنگ سے بنو موسیٰ تک پھیلی روایت میں رکھتی ہے، اور اسے ایسا انجینئر بتاتی ہے جو پہلے کے کام کو بہتر بناتا ہے، اپنی کتاب کے ہر بنیادی اصول کا موجد نہیں۔ اس کے دو پسٹن والے پمپ میں بہتا پانی ایک پہیے اور گراریوں کو چلاتا ہے، اور ایک کیل اور شگافدار سلاخ گردش کو پسٹن کی سلاخوں کی آگے پیچھے حرکت میں بدلتے ہیں۔ آج کا انجینئر کس کے پہلے کام پر بنا سکتا ہے؟
+  entity: person/al-jazari-engineer
+  sources:
+  - source/tdv-cezeri
+- position: after
+  kind: invention
+  title:
+    en: A timekeeper's marble dial
+    ar: ساعة رخامية للموقِّت
+    ur: وقت شناس کی سنگِ مرمر کی دھوپ گھڑی
+  text:
+    en: On the northern minaret of Damascus's Umayyad Mosque, Ibn al-Shatir erected a large horizontal marble sundial with curves for multiple time readings and a gnomon directed towards the celestial pole, according to David A. King. King reports equal-hour readings relative to sunrise, sunset, midday and the afternoon prayer. A timekeeper connects celestial phenomena with local schedules. Which parts of your day do you keep by the clock?
+    ar: على المئذنة الشمالية من الجامع الأموي بدمشق أقام ابن الشاطر ساعة شمسية رخامية أفقية كبيرة، جمعت منحنيات لقراءات زمنية متعددة وشاخصاً موجهاً إلى القطب السماوي في وصف ديفيد كينغ. وبحسب كينغ أمكن للموقت قراءة ساعات متساوية نسبة إلى الشروق والغروب أو الظهر والعصر. يعمل الموقت بين الظاهرة السماوية والموعد المحلي. أي أجزاء من يومك تضبطها بالساعة؟
+    ur: دمشق کی جامع اموی کے شمالی مینار پر ابن الشاطر نے سنگِ مرمر کی ایک بڑی افقی دھوپ گھڑی نصب کی، جس میں وقت کی متعدد قراءتوں کے خم تھے اور ایک شاخص قطبِ آسمانی کی طرف رخ کیے ہوئے تھا، یہ ڈیوڈ کنگ کی تفصیل کے مطابق ہے۔ کنگ کے مطابق وقت شناس طلوع و غروب یا ظہر و عصر کے لحاظ سے برابر گھنٹے پڑھ سکتا تھا۔ وقت شناس آسمانی مظہر اور مقامی وقت کے درمیان کام کرتا ہے۔ آپ کے دن کے کون سے حصے گھڑی سے طے ہوتے ہیں؟
+  entity: invention/shatir-polar-sundial
+  sources:
+  - source/king-ibn-shatir-bea
+order: 1
