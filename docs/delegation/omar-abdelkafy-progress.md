@@ -4737,3 +4737,60 @@ GEMINI: ep42, identity of the man whose son was a Badr captive and who came to M
 GEMINI: ep42, the name and identity of the man who gave a woman and her son safe escort to Medina and was reminded of it after eight years (names garbled in both passes), a Sira source on the emigration of the woman and her son
 GEMINI: ep42, name of the man Abu al-Hasan al-Zahid faced with the lion (garbled as Ibn Qulub / Ibn Farud in the two passes), the transcripts give no clear name, a biographical source on Abu al-Hasan al-Zahid
 GEMINI: ep42, name of the first man of Quraysh killed at Badr (al-Aswad ibn Abd al-Asad in one reading, garbled in both passes), the transcripts give only a garbled name, the Sira of Ibn Hisham on Badr
+
+### alwaad-alhaq ep34 (14 Nov 2026)
+
+25 points written for episode 34 (ar, en, ur); 30 needs_source marks for this episode in each language file; edges to jahannam, zaqqum and fire. Quran verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
+
+| Excluded (alwaad-alhaq ep34) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Garbled passage on Surat al-Mu'minun | ep34 00:44:30 | transcript too garbled to summarise | ASR garble | Open |
+| Passage on Hiroshima and killing | ep34 00:27:00 | transcript garbled; not summarised | ASR garble | Open |
+| Discussion of one who never prays, Imam Ahmad and annulment | ep34 00:56:30 | garbled and an opinion ruling, founder-held | ASR garble, opinion ruling | Open |
+
+Resume point: alwaad-alhaq episode 35 (branch from origin/main).
+
+GEMINI: alwaad-alhaq ep34 00:47:30 the name of the leader of the hypocrites, written in the transcript as a garbled Abdullah ibn Mu'awiya; context points to the leader of the hypocrites of Medina; the source that would settle it is a classical biography (Ibn Hisham or Ibn Sa'd).
+GEMINI: alwaad-alhaq ep34 01:14:30 closing verses of poetry beginning "do not wrong when you have power"; the transcript gives no poet; source needed is an anthology of Arabic poetry or a poetry-search of the first line.
+
+### alwaad-alhaq ep35 (14 Nov 2026)
+
+26 points written for episode 35 (ar, en, ur); 33 needs_source marks for this episode in each language file; graph edges added for jannah, sabr, shukr, istighfar, tawakkul, tawba, dhikr, taqwa and rida-bil-qada. Quran verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
+
+| Excluded (alwaad-alhaq ep35) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| The poor man and Ibn Abbas milk anecdotes | ep35 00:04:30-00:05:00, 00:22:30 | transcript too garbled to summarise reliably | accuracy | Open |
+| The remark on Persian customs during the Qadisiyya story | ep35 00:29:00-00:29:30 | ASR text unreliable and the remark is a disparaging generalisation, not summarised | neutral voice | Open |
+| A garbled token resembling a blocked organisation name in the keys-of-evil passage | ep35 01:03:00 | likely ASR error for hypocrisy; omitted per the hard block, nothing written | terrorist-organisation block | Open |
+| The Abu Hanifa grapes and water exchange | ep35 01:01:30-01:02:00 | garbled and its attribution to Abu Hanifa is doubtful; not summarised | accuracy | Open |
+| Ibn Abbas reflection on moments of contentment as like Paradise | ep35 00:44:00-00:44:30 | garbled | accuracy | Open |
+| The Abu Hanifa-adjacent loop passages and repeated segments | ep35 00:50:30, 00:55:30, 01:04:30 | ASR loop repetition | accuracy | Open |
+
+Resume point: alwaad-alhaq episode 36 (branch from origin/main).
+GEMINI: alwaad-alhaq ep35 00:36:30 the Companion who wept at the conquest of Cyprus, written in the transcript as Abu Dharr; tradition elsewhere names Abu al-Darda; the source that would settle it is the narration in Ibn Kathir's al-Bidaya or the Tarikh of al-Tabari on the conquest of Cyprus.
+GEMINI: alwaad-alhaq ep35 00:50:00 the narrator of the hadith "say I believe in God then be steadfast", written as a garbled kunya; likely Sufyan ibn Abdallah al-Thaqafi; the source that would settle it is Sahih Muslim, Book of Iman.
+### sharh-saheeh-al-bukhare ep43 (14 Nov 2026)
+
+25 points written for episode 43 (ar, en, ur); 13 needs_source marks in each language file for this episode; 6 new `about` edges. Quran verses referenced only through passage links (31-34, 35-2, 8-72); none typed. Contested: His readings of why Muslims are defeated (weak belief, allying with enemies, immersion in desires, rulers ignoring scholars), his attribution of the army ranks to Khalid ibn al-Walid, the Paris and ship-burning stories, the claim that Tariq was the only non-Arab commander, and the population figures are given as his own, without reference, and are read differently by others. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep43) | Episode / time | Reason | Gate failed | Override |
+| Greetings, praise, the opening supplication and the closing prayer, farewell and announcement of a lecture the next day | ep43 00:00:00-00:02:30, 01:22:30-01:23:30 | Greetings, supplication and closing; not teaching content | Content rule | Open |
+| Talk of Europe, the Soviet bloc and the United Nations working to erase the faith, and comparison of the fall of Andalus with the fall of Palestine | ep43 00:05:30-00:06:30, 00:35:30 | Sweeping claims about modern states and a modern conflict | Content rule | Open |
+| Remarks on what other speakers should lecture on, spouses' rights, and the joke about the speakers' topics | ep43 00:11:00-00:13:30 | Digression, garbled in both passes and too unclear to recover | Clarity | Open |
+| A saying that a tyrannical ruler is better than civil strife, the story of Sodom and Umar, and comments on the title of leader in other countries | ep43 00:14:30-00:17:00 | Garbled in both passes; the saying is a political generalisation without source | Clarity, Voice rule | Open |
+| Remarks on women, attire, a conference of scholars and a modern preacher, anecdotes about a husband and an Egyptian official | ep43 00:17:00-00:19:00, 00:21:00-00:22:00 | Sweeping remarks about women and modern groups; partly garbled | Voice rule, Clarity | Open |
+| Claim that Jews and Christians unite against Islam despite their differences | ep43 00:24:30 | Sweeping claim about peoples | Voice rule | Open |
+| Story of a tall man kissing the head of another and the account of a modern movement's founder and a man seeking discord | ep43 00:23:00-00:24:30 | Garbled in both passes, speakers and point not recoverable | Clarity | Open |
+| Talk of an Egyptian student mission to Paris, a tale of a bride and Egyptian economic and family remarks | ep43 00:40:00-00:43:00, 00:45:30-00:47:30 | Garbled digression and sweeping remarks about a nation | Clarity, Voice rule | Open |
+| Remarks on Muslims in other countries being killed, boycotting named countries and charity to Muslims abroad | ep43 00:54:00-00:55:00, 01:00:00-01:00:30 | Sweeping claims about modern conflict and states; a stretch dropped under the content-safety block where it touched named movements | Content rule | Open |
+| The German ambassador in Morocco anecdote and talk of scholars' councils and their disputes in Egypt | ep43 00:37:30-00:38:30, 01:00:30-01:03:00 | Names and details garbled in both passes; hearsay about named bodies | Clarity | Open |
+| Stretch on the Gulf, family anecdotes, a household visit and talk of the scholars' fees | ep43 00:57:30-00:58:30, 01:12:00-01:14:30 | Garbled in both passes; point not recoverable | Clarity | Open |
+| Question and answer remarks on teaching, marriage and the second and third questions | ep43 01:18:00-01:19:30 | Garbled in both passes and the questions are not recoverable | Clarity | Open |
+| Loop stretches of repeated syllables and words | ep43 00:12:00-00:12:30, 00:13:30, 00:14:30-00:15:00, 00:20:00, 00:23:30, 00:24:00, 00:27:30, 00:29:30, 00:31:30, 00:33:00, 00:38:00-00:38:30, 00:41:30, 00:51:00, 00:53:00, 00:55:30, 00:57:30, 01:03:00, 01:04:00, 01:07:30, 01:13:30, 01:16:30, 01:19:30, 01:23:00 | Looping ASR in the Qwen pass, little or no recoverable content | Clarity, Loop check | Open |
+| Second ASR pass: Whisper large-v3 (mlx) run on the Mac to resolve garbled words of the Qwen transcript; cites use the shared 30-second grid | ep43 whole | Qwen pass garbled | Clarity | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 44 (branch from origin/main).
+GEMINI: ep43, which commanders he names as stopping on high ground about three hundred kilometres from Paris (the Qwen pass garbles the names and the Whisper pass gives a form that sounds like Musa ibn Nusayr and Tariq), a historical source on the furthest Muslim advance into Gaul and the report that the conquerors halted at the mountains
+GEMINI: ep43, who composed the elegy on the fall of Andalusian cities he recites at the end (both passes garble the poet's name as Abu al-Faqr al-Razi or similar, but the verses on everything completed declining and the crowned kings are legible), the anthology of Andalusian elegies or a standard edition of the poem to settle the poet and the title
+GEMINI: ep43, exact name of the practice he proposes to young people (read as a week of lowering the gaze: Qwen gives ghadb al-basar, Whisper gives a garbled form), the audio at 00:19:00 to settle the phrase
+GEMINI: ep43, who is the last king he says handed over the last stronghold and wept (both passes give Abdullah ibn al-Ahmar, which may be Muhammad XII of Granada), a history of the fall of Granada and the report attributed to his mother

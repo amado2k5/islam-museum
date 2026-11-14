@@ -1,0 +1,72 @@
+id: event/banu-al-harith-come-down-to-najran-and-plot-against-the-imam-288
+class: event
+kind: other
+label:
+  ar: "بنو الحارث ينزلون نجران ويتآمرون على الإمام، رمضان 288هـ"
+  en: "Banu al-Harith come down to Najran and plot against the imam, Ramadan 288 AH"
+  ur: "بنو حارث نجران اترتے ہیں اور امام کے خلاف سازش کرتے ہیں، رمضان 288ھ"
+summary:
+  ar: "قال علي بن محمد إن بني الحارث هبطوا إلى نجران في رمضان حين كانت حرب الهادي وآل يعفر وآل طريف، عند حضور الثمر في الخريف، وحضّهم ابن بسطام ليكون له وجه عندهم، فاجتمع رأيهم على الفساد على الإمام، وجمع ابن حميد وابن بسطام بني الحارث وبادية شاكر وتيام وجعلوا لهم بعض أموال المساكين."
+  en: "Ali ibn Muhammad says that Banu al-Harith came down to Najran in Ramadan, when the war between al-Hadi and Al Ya'fur and Al Tarif was on, at the time the dates were ripe in the autumn, and that Ibn Bustam urged them on so that he would have standing and obedience among them; they agreed on disorder against the imam, and Ibn Humayd and Ibn Bustam gathered Banu al-Harith and the Bedouin of Shakir and Yam, giving them some of the property of the poor."
+  ur: "علی بن محمد کہتے ہیں کہ جب ہادی اور آل یعفر و آل طریف کے درمیان جنگ ہو رہی تھی تو رمضان میں، خزاں میں کھجوریں پکنے کے وقت، بنو حارث نجران اتر آئے، اور ابن بسطام نے انہیں اس لیے ابھارا کہ اس کا ان کے ہاں مقام اور ان میں فرماں برداری ہو؛ ان کی رائے امام کے خلاف فساد پر جمع ہوئی، اور ابن حمید اور ابن بسطام نے بنو حارث اور شاکر و یام کے بدویوں کو جمع کیا اور انہیں مسکینوں کے کچھ مال دینے کا وعدہ کیا۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0901-08"
+    hijri: "0288-09"
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: "رمضان سنة 288هـ بنص الكتاب؛ الدقة شهرية لأن أيام الأسبوع في الكتاب لا توافق دائماً التقويم الجدولي؛ التحويل مشتق"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/ali-ibn-muhammad-ibn-ubaydallah-al-abbasi
+  role: "الراوي"
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abu-jafar-muhammad-ibn-ubaydallah-al-abbasi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abdullah-ibn-bustam
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ibn-humayd-of-banu-al-harith-286
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-al-harith-ibn-kab
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/shakir-hamdan-tribe
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/najran
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص229-230 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-27
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 229-230

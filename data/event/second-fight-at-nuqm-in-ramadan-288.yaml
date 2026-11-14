@@ -1,0 +1,64 @@
+id: event/second-fight-at-nuqm-in-ramadan-288
+class: event
+kind: other
+label:
+  ar: "القتال الثاني عند نقم في رمضان، سنة 288هـ"
+  en: "The second fight at Nuqm in Ramadan, 288 AH"
+  ur: "رمضان میں نقم کے پاس دوسری لڑائی، 288ھ"
+summary:
+  ar: "جمع القوم عساكرهم في رمضان وأقبلوا إلى موضعهم الأول ودخل منهم جيش كثيف القرية من درب القُطيع، فوجه الهادي ابنه أبا القاسم في قطعة من العسكر وأرسل فرقة من درب الجبانة وخرج بنفسه، فأخرجهم من القرية إلى جبل نقم وركد القتال إلى قرب الليل ثم هُزموا."
+  en: "In Ramadan the men gathered their armies and came back to their first position, and a large force entered the village by the Darb al-Qutay'; al-Hadi sent his son Abu al-Qasim with a part of the army, sent another party by the Darb al-Jabbana and went out himself, and drove them from the village to the mountain of Nuqm; the fighting held until near night and they were then routed."
+  ur: "رمضان میں مخالفین نے اپنے لشکر جمع کیے اور اپنی پہلی جگہ کی طرف آئے، اور ایک بھاری دستہ درب القطیع سے بستی میں داخل ہوا؛ ہادی نے اپنے بیٹے ابو القاسم کو لشکر کے ایک حصے کے ساتھ بھیجا، ایک دستہ درب الجبانہ سے روانہ کیا اور خود نکلے، اور انہیں بستی سے جبلِ نقم تک ہٹا دیا؛ لڑائی رات کے قریب تک رکی رہی پھر وہ شکست کھا گئے۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0901-08"
+    hijri: "0288-09"
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: "رمضان سنة 288هـ بنص الكتاب؛ الدقة شهرية لأن أيام الأسبوع في الكتاب لا توافق دائماً التقويم الجدولي؛ التحويل مشتق"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/al-murtada-muhammad
+  role: "ابن الهادي، محتمل"
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-yafur
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-tarif
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/nuqm-sanaa-yemen
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص229 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-27
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 229
