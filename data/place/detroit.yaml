@@ -1,16 +1,35 @@
 id: place/detroit
 class: place
 kind: city
-label: { en: "Detroit", ar: "ديترويت" }
+label:
+  en: Detroit
+  ar: ديترويت
 summary:
-  en: "City in and county seat of Wayne County, and largest city in State of Michigan, United States."
-  ar: "مدينة في الولايات المتحدة."
-wings: [place]
-regions: [americas-oceania]
-coordinates: [42.3317, -83.0475]
+  en: City in and county seat of Wayne County, and largest city in State of Michigan, United States.
+  ar: مدينة في الولايات المتحدة.
+wings:
+- place
+regions:
+- americas-oceania
+coordinates:
+- 42.3317
+- -83.0475
 coordinate_precision: locality
-coordinate_note: "Representative point from the Wikidata item."
-external_ids: { wikidata: "Q12439", geonames: "4990729", idai: "2088667" }
-sources: [source/wikidata, source/idai-gazetteer]
-provenance: { layer: own-research, source: "Wikidata item Q12439 (labels, coordinates, description)", generated_by: "Devin (SWE-2 High)", run: "person-place-geo-c" }
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+coordinate_note: Representative point from the Wikidata item.
+external_ids:
+  wikidata: Q12439
+  geonames: '4990729'
+  idai: '2088667'
+sources:
+- source/wikidata
+- source/idai-gazetteer
+provenance:
+  layer: own-research
+  source: Wikidata item Q12439 (labels, coordinates, description)
+  generated_by: Devin (SWE-2 High)
+  run: person-place-geo-c
+  note: Prose read from iDAI.gazetteer record https://gazetteer.dainst.org/place/2088667, accessed 14 Nov 2026 (Lane B1 packet 4).
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High)

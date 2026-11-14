@@ -3685,3 +3685,44 @@ Resume point: sharh-saheeh-al-bukhare episode 16 (branch from origin/main).
 | Looped passages | ep13 00:21:30-00:22:30, 00:50:00-00:50:30, 00:13:30-00:14:00 | ASR loops, unrecoverable | Clarity, Loop check | Open |
 
 Resume point: alwaad-alhaq episode 14 (branch from origin/main).
+### sharh-saheeh-al-bukhare ep16 (14 Nov 2026)
+
+27 points written for episode 16 (ar, en, ur); 20 needs_source marks in each language file for this episode; 4 new `about` edges. Quran verses referenced only through passage links (17-14, 32-16, 31-11); none typed. Contested: He attributes to scholars a count of ten witnesses against a person, relates unreferenced reports (the grave, the limbs, the gift to the Byzantine ruler's wife) and states that in the majority view of jurists visiting graves is not for women; all are marked as his. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep16) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greeting, praise and supplication, including a prayer about conflicts of Muslims elsewhere | ep16 00:00:00-00:02:00 | Greeting and opening prayer; sweeping claims about modern conflict | Content rule | Open |
+| Closing prayer, announcement that the next Friday session is skipped, farewell | ep16 01:18:00-01:18:30 | Closing and housekeeping | Content rule | Open |
+| Remarks on daughters, parents and a sweeping label for a kind of father, and a passing comparison naming a people | ep16 00:11:00-00:11:30, 00:18:00-00:19:00 | Garbled and sweeping generalisations about women and a people | Voice rule | Open |
+| Jokes about mothers-in-law and wives | ep16 00:36:00-00:36:30 | Sweeping claims about women, garbled | Voice rule | Open |
+| Account of the army commander, the news of Muslims in other lands and hopes for victory | ep16 00:59:00-01:00:30 | Sweeping claims about modern conflict, garbled | Content rule | Open |
+| Report of the man who was last to leave the Fire, and the youth who came to the Prophet | ep16 00:20:30-00:21:30, 00:29:00-00:30:00 | Too garbled to recover | Clarity, Loop check | Open |
+| Stretches in loops or garble: repeated words and letters | ep16 00:11:30, 00:13:30, 00:14:30-00:15:00 (partial), 00:15:30, 00:17:00-00:19:00, 00:23:30, 00:25:30-00:26:00, 00:37:00, 01:15:30 | Loops | Clarity, Loop check | Open |
+| Stories of a scholar and a ruler, a vizier and candles, a deputy and sovereign, and a wine question | ep16 00:46:00-00:49:30, 00:53:00-00:56:30, 00:57:30-00:59:00 | Too garbled to recover | Clarity, Loop check | Open |
+| Asides on keeping appointments, covenants, punctuality and the wife who holds a grudge | ep16 00:33:00-00:35:00, 00:37:30-00:38:30, 00:40:00-00:42:00 | Garbled | Clarity, Loop check | Open |
+| Asides on supplications, a husband and household talk, and unclear advice | ep16 01:03:30-01:12:00 | Garbled | Clarity, Loop check | Open |
+| Advice on avoiding the heedless and on marrying into heedless families | ep16 01:15:30-01:16:30 | Garbled | Clarity, Loop check | Open |
+| Closing remark that one should be someone people regret losing | ep16 00:12:00-00:12:30 | Garbled, not recoverable | Clarity | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 17 (branch from origin/main).
+
+### sharh-saheeh-al-bukhare ep10 (14 Nov 2026)
+
+19 points written for episode 10 (ar, en, ur); 13 needs_source marks in each language file for this episode; 4 new `about` edges. Quran verses referenced only through passage links (3-173, 3-144); none typed. Contested: He holds that a shared deed or shared heart is not accepted, that istikhara has no link to dreams, and that fear of infection is weaker than certainty; these are his views. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep10) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening loop, greetings, opening supplication | ep10 00:00:00-00:02:00 | Repeated-phrase loop and opening prayer | Clarity, Loop check | Open |
+| Break joins, closing prayer, announcements and credits | ep10 01:10:30-01:14:00 | Closing words, donation and publisher announcements | Content rule | Open |
+| A stretch touching a modern conflict and a political figure | ep10 00:28:00-00:28:30 | A stretch dropped under the content-safety block | Content rule | Open |
+| Garbled stretch on the world's problems and a leader | ep10 00:33:30-00:34:30 | Garbled, claim about the Prophet and world problems not recoverable | Clarity | Open |
+| Remarks on children, parents and wives, and divorce vows | ep10 00:26:00-00:29:30, 01:05:30-01:06:00 | Garbled; sweeping advice about family not recoverable | Voice rule, Clarity | Open |
+| Hasan al-Basri sayings and the duas on wealth and children | ep10 00:29:30-00:30:30 | Garbled, speaker and words unclear | Clarity | Open |
+| Two kinds of heart disease, hypocrites' signs and promises | ep10 00:39:30-00:42:00 | Garbled, items not recoverable | Clarity | Open |
+| Advice on a visit to graves and the Kaaba, and on choosing a path | ep10 00:42:30-00:43:30 | Garbled | Clarity | Open |
+| Stories of the ant and a ruler, and of Yaqub's shirt | ep10 00:53:00-00:53:30, 00:56:00-00:56:30 | Garbled, report unclear | Clarity | Open |
+| Questions on cure, wealth and signs of God's care | ep10 00:58:30-01:01:00, 01:02:00-01:04:30 | Garbled, loops and unclear reports | Clarity, Loop check | Open |
+| Remarks on household habits and a saying on teaching groups | ep10 01:05:00-01:06:30, 01:08:00-01:09:00 | Garbled | Clarity | Open |
+| Loop stretches of repeated syllables | ep10 00:09:00-00:09:30, 00:15:30-00:16:00, 00:16:30-00:17:00, 00:18:00-00:18:30, 00:21:30-00:22:00, 00:25:30-00:26:00, 00:32:30-00:33:00, 00:41:00-00:41:30, 00:42:00-00:42:30, 00:43:30-00:44:00, 00:46:30-00:47:30, 00:49:00-00:49:30, 00:54:30-00:55:00, 00:56:30-00:57:30, 01:04:00-01:04:30, 01:06:30-01:07:00, 01:07:30-01:08:00, 01:09:30-01:10:00, 01:11:30-01:12:30 | Repeated-token loops | Loop check | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 11 (branch from origin/main).
