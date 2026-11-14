@@ -1,0 +1,18 @@
+id: concept/cranial-sutures
+class: concept
+kind: scientific
+label: { ar: "دروز القحف", en: "Cranial sutures in the Canon", ur: "قانون میں کھوپڑی کی درزیں" }
+summary:
+  ar: "يميّز ابن سينا في تشريح القحف بين ثلاثة دروز حقيقية ودرزين كاذبين، ويسمّي كلاً منها بحسب شكله {cite:canon-ibn-sina-print-v1 p.44}."
+  en: "In the anatomy of the skull Ibn Sina distinguishes three true sutures and two false ones, and names each by its shape {cite:canon-ibn-sina-print-v1 p.44}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/skull, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 1, Jumla 1 on bones (scan pages 40 to 55), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-bones-1
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }
