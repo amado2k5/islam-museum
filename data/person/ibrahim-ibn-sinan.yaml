@@ -17,8 +17,10 @@ relations:
   - { type: died_in, target: place/baghdad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 external_ids:
   wikidata: Q2975510
+  biblissima: "Q7269"
 sources:
 - source/sezgin-gas-v-mathematik
+- source/biblissima
 status:
   review: draft
   completeness: 1
