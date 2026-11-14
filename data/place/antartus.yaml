@@ -11,5 +11,6 @@ coordinates: [34.89, 35.88]
 coordinate_precision: locality
 coordinate_note: "Identified modern location; flagged for gazetteer verification."
 provenance: { layer: own-research, source: "al-Idrisi, Nuzhat al-Mushtaq, ed. Cairo 2002, p. 375 (scan page)", generated_by: "Claude (Haiku 5.5)", run: "prose-enrichment-100-devin-b19" }
-sources: [source/nuzhat-al-mushtaq-2002, source/geonames-gazetteer]
+external_ids: { althurayya: ANTARTUS_359E348N_S }
+sources: [source/nuzhat-al-mushtaq-2002, source/geonames-gazetteer, source/althurayya-gazetteer]
 status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); page refs are scan indices" }
