@@ -6,8 +6,8 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لعمرو بن مرزوق؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Amr ibn Marzuq; the entry is not yet checked on the page."
+  ar: "عمرو بن مرزوق الباهلي البصري، أبو عثمان، مسند البصرة وصاحب غزو، روى عنه أبو داود والبخاري مقروناً؛ توفي بالبصرة في صفر سنة ٢٢٤هـ."
+  en: "Amr ibn Marzuq al-Bahili of Basra, Abu Uthman, the chain-bearer of Basra and a man of the frontier raids, from whom Abu Dawud and, paired with another, al-Bukhari narrated; he died at Basra in Safar 224 AH."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
@@ -16,13 +16,13 @@ external_ids:
   wikidata: Q106649220
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Dhahabi, Siyar A'lam al-Nubala, one-volume edition (Bayt al-Afkar al-Dawliyya), entry read in full on the scanned pages (Apple Vision OCR on the harvest drive); the web page of the Risala edition on shamela.ws (book 10906) was used to confirm the work and its volume layout"
+  generated_by: "Claude Code (Lane B2, web-source and Shamela enrichment)"
+  model: claude-sonnet-5-5
+  run: web-b2-siyar-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 born: { edtf: "748", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal" }
 died: { edtf: "839", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal" }
 relations:
