@@ -1,28 +1,28 @@
 id: person/zayn-al-abidin-work-14608
 class: person
 label:
-  ar: "زين العابدين"
-  en: "Zayn al-Abidin"
+  ar: "زين العابدين التبريزي"
+  en: "Zayn al-Abidin Tabrizi"
 roles: [artist, calligrapher]
 gender: male
 summary:
-  ar: "زين العابدين التبريزي، رسام ومذهّب وخطاط فارسي، تذكر ويكيداتا مدة عمله بين سنتي 1570 و1602 م؛ ليس هو علي بن الحسين زين العابدين."
-  en: "Zayn al-Abidin (Wikidata: Persian illustrator, illuminator and calligrapher, active 1570 to 1602). Not Ali ibn al-Husayn Zayn al-Abidin, whose dates 658 to 713 were wrongly copied onto this card; he has his own card, person/ali-zayn-al-abidin."
+  ar: "زين العابدين التبريزي، رسام ومذهّب وخطاط فارسي في العصر الصفوي، عمل في قزوين وتتلمذ على سلطان محمد، وتحفظ أعماله في مكتبة تشستر بيتي ومتحف المتروبوليتان؛ يُؤرَّخ نشاطه بين نحو 1570 و1602م، ولا يُعرف له تاريخ ميلاد أو وفاة {cite:wikidata}."
+  en: "Zayn al-Abidin Tabrizi was a Safavid-era Persian illustrator, illuminator and calligrapher who worked at Qazvin and is recorded as a pupil of Sultan Muhammad; works attributed to him are held by the Chester Beatty Library and the Metropolitan Museum of Art. His working period is given as c. 1570 to 1602, and no birth or death date is known {cite:wikidata}. He is not Ali ibn al-Husayn Zayn al-Abidin, the fourth Imam (see person/ali-zayn-al-abidin)."
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/gunpowder-empires]
 relations:
-  - { type: lived_in, target: place/qazvin, sources: [source/wikidata], confidence: low, note: "Wikidata P937 work location (Wikidata Q181578)" }
-sources: [source/al-aalam, source/wikidata]
+  - { type: lived_in, target: place/qazvin, sources: [source/wikidata], confidence: medium, note: "Wikidata P937 work location (Qazvin, Q181578), item Q18575695 revision 2564346066, read 14 Nov 2026" }
+sources: [source/wikidata]
 external_ids:
   wikidata: Q18575695
   viaf: "309813292"
 provenance:
   layer: own-research
-  source: "Wikidata Q18575695 (Zayn al-Abidin, Persian illustrator, illuminator and calligrapher, work period 1570-1602, work location Qazvin); identity corrected on 14 November 2026 because the dates 658-713 belong to Ali ibn al-Husayn (al-Zirikli, al-A'lam, vol. 4 p. 277: 38-94 AH)"
-  generated_by: "Claude Code (Lane B2 packet)"
-  model: claude-sonnet-5-5
-  run: web-b2-id-correction-2026-11-14
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: wikidata-import-wave2
 status:
   review: draft
   completeness: 1

@@ -1,28 +1,28 @@
 id: person/abd-allah-ibn-yusuf
 class: person
 label:
-  ar: "عبد الله بن يوسف"
-  en: "Abd Allah ibn Yusuf"
-roles: [muhaddith]
+  ar: "عبد الله بن يوسف التنيسي"
+  en: "Abd Allah ibn Yusuf al-Tinnisi"
+roles: [scholar]
 gender: male
 summary:
-  ar: "عبد الله بن يوسف التنيسي، أبو محمد الكلاعي، من أصل دمشقي، ثقة متقن من أثبت الناس في الموطأ؛ توفي سنة 218 هـ الموافقة 833 م."
-  en: "Abd Allah ibn Yusuf al-Tinnisi, Abu Muhammad al-Kala'i, of Damascene origin; reliable and exact, among the most dependable narrators of the Muwatta; died 218 AH (833 CE)."
+  ar: "عبد الله بن يوسف التنيسي، أصله دمشقي، حافظ من أثبات رواة الموطأ عن مالك، سمع من سعيد بن عبد العزيز ومالك والليث، وتوفي سنة ٢١٨هـ = ٨٣٣م بحسب شذرات الذهب؛ ولا يُخلط بغيره من المسمّين عبد الله بن يوسف."
+  en: "Abd Allah ibn Yusuf al-Tinnisi, of Damascene origin, a hafiz and one of the most reliable narrators of the Muwatta from Malik; he heard from Sa'id ibn Abd al-Aziz, Malik and al-Layth and died in 218 AH = 833, according to Shadharat al-Dhahab. He is not to be confused with other men named Abd Allah ibn Yusuf."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
-sources: [source/taqrib-al-tahdhib, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/shadharat-dhahab, source/taqrib-al-tahdhib]
 external_ids:
   wikidata: Q106955937
 provenance:
   layer: own-research
-  source: "Ibn Hajar, Taqrib al-Tahdhib, entry for Abd Allah ibn Yusuf al-Tinnisi read from the local scan (p. 300; the OCR is noisy but the entry is legible)"
-  generated_by: "Claude Code (Lane B2 packet)"
-  model: claude-sonnet-5-5
-  run: web-b2-taqrib-2026-11-14
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
 status:
   review: draft
   completeness: 1
-died: { edtf: "833", calendar: gregorian, precision: year, derived: true, note: "Ibn Hajar, Taqrib al-Tahdhib: died 218 AH = 833 CE (derived); agrees with Wikidata Q106955937. The A'lam entry 3471 (al-Jurjani, d. 148 AH) is a different man.", sources: [source/taqrib-al-tahdhib] }
+died: { edtf: "833", calendar: gregorian, precision: year, derived: true, note: "Ibn al-Imad, Shadharat al-Dhahab, events of 218 AH (vol. 3, about p. 89, OpenITI text read 14 November 2026): the hafiz Abd Allah ibn Yusuf al-Tinnisi died that year; also Wikidata Q106955937 (P570 833). Earlier note: Tahdhib al-Kamal (al-Mizzi: al-Tinnisi" }
 relations:
   - { type: lived_in, target: place/damascus, note: "Wikidata Q3766 (P551); corroboration recommended.", sources: [source/wikidata], confidence: medium }

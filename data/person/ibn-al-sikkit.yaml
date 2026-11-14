@@ -6,26 +6,26 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "يعقوب بن إسحاق، أبو يوسف، المعروف بابن السكيت، إمام في اللغة والأدب أصله من خوزستان وتعلم ببغداد؛ أدب أولاد المتوكل ثم قتله لسبب مجهول، وله إصلاح المنطق؛ توفي سنة 244 هـ الموافقة 858 م."
-  en: "Ya'qub ibn Ishaq, Abu Yusuf, known as Ibn al-Sikkit, a leading authority on language and literature, of Khuzistani origin and trained in Baghdad; tutor of al-Mutawakkil's sons until the caliph had him killed for a reason al-Zirikli calls unknown; author of Islah al-Mantiq; died 244 AH (858 CE)."
+  ar: "يعقوب بن إسحاق، أبو يوسف، المعروف بابن السكيت ⁦(186 - 244هـ / 802 - 858م)⁩، إمام في اللغة والأدب، أصله من خوزستان وتعلم ببغداد، واتصل بالمتوكل العباسي وعهد إليه بتأديب أولاده ثم قتله لسبب مجهول؛ ومن كتبه «إصلاح المنطق» {cite:al-aalam}."
+  en: "Ya'qub ibn Ishaq, Abu Yusuf, known as Ibn al-Sikkit (186-244 AH / 802-858), an authority on language and literature of Khuzistani origin who was educated in Baghdad, joined the court of the Abbasid caliph al-Mutawakkil as tutor to his sons and was then killed on his orders for a reason al-Zirikli calls unknown; best known for his Islah al-mantiq {cite:al-aalam}."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
-born: { edtf: "802~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 Confirmed on 13 November 2026 against Wikidata Q6533780 (P569, a statement with a reference), item revision 2547943809.", sources: [source/wikidata] }
-died: { edtf: "858", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 Confirmed on 13 November 2026 against Wikidata Q6533780 (P570, a statement with a reference), item revision 2547943809.", sources: [source/wikidata] }
+born: { edtf: "802", hijri: "0186", calendar: julian, precision: year, derived: true, note: "186 AH / 802 as printed in al-Zirikli, al-A'lam, entry Ibn al-Sikkit (vol. 8 p. 195, OpenITI page tag PageV08P195), read 14 Nov 2026; agrees with Wikidata Q6533780 (P569, revision 2547943809).", sources: [source/al-aalam, source/wikidata] }
+died: { edtf: "858", hijri: "0244", calendar: julian, precision: year, derived: true, note: "244 AH / 858 in al-A'lam (same entry); al-Dhahabi, Siyar a'lam al-nubala' (summary of deaths by year, year 244 AH) lists Ya'qub ibn al-Sikkit under 244, read 14 Nov 2026. Identity check: this card is Ya'qub ibn Ishaq ibn al-Sikkit, not Ibn al-Quff (d. 685 AH), a mismatch that came from an earlier web-source batch.", sources: [source/al-aalam, source/siyar-alam-nubala, source/wikidata] }
 relations:
   - { type: born_in, target: place/baghdad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/baghdad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/al-aalam, source/nihayat-al-arab-nuwayri-vol3-scan, source/wikidata]
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002, source/siyar-alam-nubala, source/nihayat-al-arab-nuwayri-vol3-scan, source/wikidata]
 external_ids:
   wikidata: Q6533780
   viaf: "90074394"
 provenance:
   layer: own-research
-  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text (vol. 8 p. 195)"
-  generated_by: "Claude Code (Lane B2 packet)"
-  model: claude-sonnet-5-5
-  run: web-b2-alam-2026-11-14
+  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-0024
 status:
   review: draft
   completeness: 1

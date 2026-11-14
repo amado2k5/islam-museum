@@ -1,0 +1,65 @@
+id: event/abu-al-atahiya-pleads-with-the-troops-and-al-hadi-takes-his-seat-above-the-street-288
+class: event
+label:
+  ar: "أبو العتاهية يناشد الجند ويجلس الهادي في مجلسه المشرف على آل طريف والجفاتم، محرم 288هـ"
+  en: "Abu al-Atahiya pleads with the troops and al-Hadi takes his seat above Al Tarif and the Jafatim, Muharram 288 AH"
+  ur: "ابو العتاہیہ فوج سے التجا کرتے ہیں اور ہادی آل طریف اور جفاتم کے سامنے اپنی مجلس میں بیٹھتے ہیں، محرم 288ھ"
+summary:
+  ar: "بعد صلاة الجمعة يخبر غلام أبا العتاهية بما أجمعه ابن عمه من الفتنة فيخرج إلى الجبانة فيجد إبراهيم بن خلف وأبا زياد يريدون الحرب فيرفق بهم ويعدهم بزيادة الأرزاق ويناشدهم الله فيقولون إنهم لا يريدون العلوي، وينصرف الهادي إلى داره فيعبئ أصحابه ويلبس درعه ويجلس مشرفاً عليهم، ويأتيه أبو العتاهية يطلب منه ألا يعجل."
+  en: "After the Friday prayer a boy tells Abu al-Atahiya what his cousin has planned; he rides to the parade ground, finds Ibrahim ibn Khalaf and Abu Ziyad wanting war, speaks gently, promises more pay and adjures them by God, and they answer that they do not want the Alawi; al-Hadi goes to his house, draws up his men, puts on his mail and sits in his majlis above them, and Abu al-Atahiya comes and asks him not to be hasty."
+  ur: "جمعے کی نماز کے بعد ایک لڑکا ابو العتاہیہ کو بتاتا ہے کہ ان کے چچازاد نے کیا فتنہ طے کیا ہے؛ وہ جبانہ میدان جاتے ہیں، ابراہیم بن خلف اور ابو زیاد کو جنگ پر آمادہ پاتے ہیں، نرمی سے بات کرتے ہیں، تنخواہیں بڑھانے کا وعدہ کرتے ہیں اور اللہ کا واسطہ دیتے ہیں، تو وہ جواب دیتے ہیں کہ انہیں علوی نہیں چاہیے؛ ہادی اپنے گھر جا کر ساتھیوں کو صف بند کرتے ہیں، زرہ پہنتے ہیں اور ان کے سامنے اپنی مجلس میں بیٹھتے ہیں، اور ابو العتاہیہ آ کر کہتے ہیں کہ جلدی نہ کیجیے۔"
+kind: other
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0900-12"
+    hijri: "0288-01"
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: "محرم سنة 288هـ بنص الكتاب؛ الدقة شهرية؛ التحويل مشتق من التقويم الجدولي"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/sanaa
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abu-al-atahiya-ibn-bishr
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ibrahim-ibn-khalaf-ibn-tarif
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-tarif
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/al-jafatim-sanaa
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص208-209 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-25
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 208-209

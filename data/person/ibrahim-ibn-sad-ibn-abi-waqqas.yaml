@@ -6,22 +6,22 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة لإبراهيم بن سعد بن أبي وقاص كما في ويكيداتا، محدّث؛ لا ترجمة له في الأعلام، وتواريخ 726 و799 م التي كانت على البطاقة هي لإبراهيم بن سعد الزهري، فحُذفت."
-  en: "Card for Ibrahim ibn Sa'd ibn Abi Waqqas as listed in Wikidata (muhaddith, no dates there). He has no entry in al-A'lam; the dates 726 and 799 formerly on this card belong to Ibrahim ibn Sa'd al-Zuhri (al-Zirikli, vol. 1 p. 40: 109-184 AH) and were removed."
+  ar: "إبراهيم بن سعد بن أبي وقاص الزهري المدني، ابن الصحابي سعد بن أبي وقاص، روى عن أبيه وعن أسامة بن زيد في حديث الطاعون، وأفرده البخاري بترجمة مستقلة عن إبراهيم بن سعد بن إبراهيم بن عبد الرحمن بن عوف الزهري؛ ولا تُعرف له سنة ولادة ولا وفاة في المصادر التي قُرئت {cite:tarikh-kabir-dabbasi-v1 p. 699}."
+  en: "Ibrahim ibn Sa'd ibn Abi Waqqas al-Zuhri al-Madani, a son of the Companion Sa'd ibn Abi Waqqas, narrated from his father and from Usama ibn Zayd the hadith on the plague. Al-Bukhari gives him an entry of his own, separate from Ibrahim ibn Sa'd ibn Ibrahim ibn 'Abd al-Rahman ibn 'Awf al-Zuhri, and the sources read give neither a birth nor a death date. The dates 726 to 799 formerly on this card belong to that other man (see person/ibrahim-ibn-sad-al-zuhri) {cite:tarikh-kabir-dabbasi-v1 p. 699}."
 wings: [people]
 regions: [arabia]
 periods: [period/umayyad]
 relations:
-  - { type: lived_in, target: place/hijaz, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/wikidata] }
-sources: [source/wikidata]
+  - { type: lived_in, target: place/hijaz, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/al-aalam] }
+sources: [source/al-aalam, source/tarikh-kabir-dabbasi-v1]
 external_ids:
   wikidata: Q50186478
 provenance:
   layer: own-research
-  source: "Wikidata Q50186478 (no dates); dates corrected on 14 November 2026 against al-Zirikli, al-A'lam, vol. 1 p. 40 (al-Zuhri, 109-184 AH)"
-  generated_by: "Claude Code (Lane B2 packet)"
-  model: claude-sonnet-5-5
-  run: web-b2-id-correction-2026-11-14
+  source: "Wikidata candidate; entry not yet read on the page in a book source"
+  generated_by: "Devin (SWE-2 High)"
+  model: "SWE-2 High"
+  run: wikidata-import-wave2
 status:
   review: draft
   completeness: 1

@@ -7,15 +7,14 @@ roles: [scholar]
 gender: male
 themes: [sects-and-schools]
 summary:
-  ar: "بطاقة أولية لابن متويه، متكلم معتزلي القرن الحادي عشر، توفي سنة ١٠٧٥م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ibn Mattawayh, the eleventh-century Mu'tazili theologian, d. 1075; the biographical entry is not yet checked on the page."
+  ar: "الحسن بن أحمد بن متويه، المعروف بابن متويه، متكلم معتزلي تتلمذ على القاضي عبد الجبار ⁦(ت. 415هـ / 1025م)⁩ في الري وعاش بعده؛ لا يُعرف عن حياته شيء مؤكد، وتاريخا الوفاة المنسوبان إليه، 468هـ و469هـ، لا يُعتمد عليهما، ومن مؤلفاته «المجموع في المحيط بالتكليف» و«التذكرة» {cite:encyclopaedia-of-islam-2}."
+  en: "Al-Hasan ibn Ahmad ibn Mattawayh, known as Ibn Mattawayh, was a Mu'tazili theologian, a pupil of Qadi 'Abd al-Jabbar (d. 415/1025) at Rayy who outlived him. Virtually nothing certain is known of his life; the death dates sometimes given for him, 468/1075 and 469/1076, are stated without a source and are not reliable, so no death date is recorded. His works include al-Majmu' fi'l-muhit bi'l-taklif and al-Tadhkira {cite:encyclopaedia-of-islam-2}."
 wings: [people]
-regions: [levant-iraq]
+regions: [persia-central-asia]
 periods: [period/buyid-seljuk-fatimid-era]
-died: { edtf: "1076~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 Confirmed on 13 November 2026 against Wikidata Q114440281 (P570, a statement with a reference), item revision 2542228709.", sources: [source/wikidata] }
 relations:
-  - { type: lived_in, target: place/iraq, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/al-aalam] }
-sources: [source/al-aalam]
+  - { type: lived_in, target: place/rayy, confidence: high, note: "Student of Qadi 'Abd al-Jabbar in Rayy, EI2 Supplement, art. Ibn Mattawayh (W. Madelung), p. 393, read 14 Nov 2026.", sources: [source/encyclopaedia-of-islam-2] }
+sources: [source/encyclopaedia-of-islam-2]
 external_ids:
   wikidata: Q114440281
 provenance:

@@ -1,0 +1,63 @@
+id: event/al-hadi-sends-governors-from-sanaa-and-lifts-the-levies-at-shibam-and-bayt-dhukhar-288
+class: event
+label:
+  ar: "الهادي يوجه العمال من صنعاء ويرفع المغارم في شبام وبيت ذخار، صفر 288هـ"
+  en: "Al-Hadi sends governors from Sana'a and lifts the levies at Shibam and Bayt Dhukhar, Safar 288 AH"
+  ur: "ہادی صنعاء سے عامل بھیجتے ہیں اور شبام اور بیت ذخار میں محصولات اٹھا دیتے ہیں، صفر 288ھ"
+summary:
+  ar: "يقيم الهادي بصنعاء ويوجه العمال إلى المخاليف ويوصيهم ويكتب لهم كتابه في صدقة الطعام والمواشي، ثم يكتب بعد أيام كتاباً يُقرأ في صنعاء، وفي صفر يخرج إلى شبام مع أبي العتاهية فيخطب الجمعة ويقول إن ما كان يؤخذ من الطعام والغرامات والضرائب غير واجب وقد رفعه، ثم يصعد بيت ذخار ويولي الجبل علي بن العباس من ولد الحسن بن علي، ويقيم بشبام أياماً ويخلف فيها ابنه أبا القاسم."
+  en: "Al-Hadi stays at Sana'a and sends governors to the districts with his instructions and the letter on the zakat of grain and livestock, and a few days later writes a letter to be read at Sana'a; in Safar he goes to Shibam with Abu al-Atahiya, preaches on Friday that what used to be taken from them in grain, fines and levies is not due and is lifted, climbs Bayt Dhukhar, appoints Ali ibn al-Abbas of the line of al-Hasan ibn Ali over the mountain, stays some days at Shibam and leaves his son Abu al-Qasim there."
+  ur: "ہادی صنعاء میں رہتے ہیں اور اضلاع کی طرف عامل بھیجتے ہیں، انہیں ہدایات دیتے ہیں اور غلے اور مویشیوں کی زکوٰۃ پر اپنا خط لکھ دیتے ہیں، پھر چند دن بعد ایک اور خط لکھتے ہیں جو صنعاء میں پڑھا جاتا ہے؛ صفر میں وہ ابو العتاہیہ کے ساتھ شبام جاتے ہیں، جمعے کو خطبہ دیتے ہیں کہ جو کچھ غلے، جرمانوں اور محصولات کی صورت میں لیا جاتا تھا وہ واجب نہیں اور انہوں نے اٹھا دیا ہے، پھر بیت ذخار پر چڑھتے ہیں، حسن بن علی کی اولاد میں سے علی بن عباس کو پہاڑ کا والی بناتے ہیں، شبام میں چند دن رہتے ہیں اور بیٹے ابو القاسم کو وہاں چھوڑ جاتے ہیں۔"
+kind: other
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0901-01"
+    hijri: "0288-02"
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: "صفر سنة 288هـ بنص الكتاب؛ الدقة شهرية؛ التحويل مشتق من التقويم الجدولي"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/sanaa
+- type: occurred_at
+  target: place/bayt-dhukhar
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abu-al-atahiya-ibn-bishr
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/al-murtada-muhammad
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ali-ibn-al-abbas-governor-of-the-mountain-288
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص211 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-25
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 211

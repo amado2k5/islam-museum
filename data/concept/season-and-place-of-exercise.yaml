@@ -1,0 +1,18 @@
+id: concept/season-and-place-of-exercise
+class: concept
+kind: scientific
+label: { ar: "فصل الرياضة ومكانها عند ابن سينا", en: "The season and place of exercise in the Canon", ur: "قانون میں ورزش کا موسم اور جگہ" }
+summary:
+  ar: "يحدد ابن سينا أوفق أوقات الرياضة في الربيع قرب انتصاف النهار في بيت معتدل، ويقدمها في الصيف، ويقول إن القياس في الشتاء أن تؤخر إلى المساء لكن الموانع الأخرى تمنع، فيدفأ المكان ويسخن ليعتدل {cite:canon-ibn-sina-print-v1 p.224}."
+  en: "Ibn Sina sets the best time for exercise in spring at about midday in a temperate room, brings it earlier in summer, and says that by reasoning winter exercise would be put off to evening but other hindrances forbid it, so the place is warmed to make it temperate {cite:canon-ibn-sina-print-v1 p.224}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/regimen-of-health, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 3, Ta'lim 2 on the common regimen of adults, chapters 1 to 6 (scan pages 221 to 227), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-p221
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }
