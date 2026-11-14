@@ -3014,6 +3014,19 @@ Resume point: alwaad-alhaq episode 3 (branch from origin/main).
 
 Episode 12 re-read against the transcript after merge (#6642): one wording corrected in ar, en, ur (the report on lying to a brother is among the greatest major sins, not "betrayal"); no marks or links changed. All later episodes are reviewed against the transcript before merge; see their notes.
 
+### alwaad-alhaq ep03 (14 Nov 2026)
+
+21 points written for episode 3 (ar, en, ur); 25 needs_source marks for this episode in each language file; about edges added for ruqya, a bad ending, patience, decree, the appointed term and six persons. Quran verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
+
+| Excluded (alwaad-alhaq ep03) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Repetition loops (prayer talk, 'ya akhi tawasali', 'da'f') | ep03 00:16:00, 00:36:00, 00:36:30, 00:40:00, 00:42:30 | Not speech | Loop check | Open |
+| Verse of al-Shafi'i ascribed in garbled form, a verse about 'tajalludi lil-shamitin' | ep03 00:39:00 | Garbled and unattributed | Clarity, no source | Open |
+| Passages on the remote control and who works in fashion shows beyond the stated opinion | ep03 00:27:00 | Garbled, case details unclear; only the stated view kept | Clarity | Open |
+| Remark on tribe of the worldly 'ana al-mujtamaa' and ten-bed/ten-clothes remark | ep03 00:42:00 | Garbled | Clarity | Open |
+| Detail of the two doctors anecdote (Muslim and Western) | ep03 00:32:30 | Reduced to the contrast only; details garbled | Clarity | Open |
+
+Resume point: alwaad-alhaq episode 4 (branch from origin/main).
 ### min-kunuz-al-sunnah ep13 (14 Nov 2026)
 
 15 points written for episode 13 (ar, en, ur); 11 needs_source marks in each language file for this episode; 13 new `about` edges. Quran verses referenced only through passage links (38-23, 38-24, 24-30, 9-105); none typed. Contested: He applies the hadith of charity to his own views on judicial independence, road etiquette, parking at prayer and lowering the gaze; the stories of Ali's sword, the Companion who struck a wall and al-Shafi'i's complaint are given without chains.
@@ -3084,3 +3097,82 @@ Resume point: min-kunuz-al-sunnah episode 16 (branch from origin/main).
 | Analogy of exam marks and mention of the Day of Resurrection counting the characters in scales | ep16 00:07:00-00:07:30 | Overlaps the report already recorded and the wording is garbled | Clarity, Loop check | Open |
 
 Resume point: min-kunuz-al-sunnah episode 17 (branch from origin/main).
+
+### min-kunuz-al-sunnah ep17 (14 Nov 2026)
+
+14 points written for episode 17 (ar, en, ur); 13 needs_source marks in each language file for this episode; 14 new `about` edges. Quran verses referenced only through passage links (9-18); none typed. Contested: He holds that the obligatory prayers belong in the mosque in congregation, that missing dawn prayer removes blessing from provision, and that a late Friday arrival loses the reward; these are his views and rest on reports he gives without chains.
+
+| Excluded (min-kunuz-al-sunnah ep17) | Episode / time | Reason | Gate failed | Override |
+| Opening greeting and praise | ep17 00:00:00-00:00:30 | Greeting formula, no content | Content rule | Open |
+| Break join and welcome back (first) | ep17 00:09:00-00:09:30 | Break join and welcome back | Content rule | Open |
+| Break join and welcome back (second) | ep17 00:17:30-00:18:00 | Break join and welcome back | Content rule | Open |
+| Closing prayer and sign-off | ep17 00:27:30-00:28:30 | Closing prayer and farewell | Content rule | Open |
+| Looped vowel stretch | ep17 00:01:00-00:01:30 | Loop of a single letter, nothing to recover | Clarity, Loop check | Open |
+| Looped letter stretch during Qur'an recitation remark | ep17 00:16:00-00:16:30 | Loop of a single letter; only the opening words used | Clarity, Loop check | Open |
+| Garbled fragment about killing and a sect | ep17 00:01:30 | Unclear, may name a sect; not recoverable | Voice rule, Clarity | Open |
+| Sweeping claims that neglecting dawn prayer ruins wife, children, boss and employees | ep17 00:07:00-00:07:30 | Sweeping claim about people, no support | Voice rule | Open |
+| Claim that people backbite whole states and that politics ruined minds | ep17 00:08:30-00:09:00 | Sweeping claim about modern politics and nations | Voice rule | Open |
+| Speculation about the psychology of those who fidget on Friday | ep17 00:22:30-00:23:00 | Demeaning speculation about a class of people | Voice rule | Open |
+| Garbled stretch about Hatim and the dropped imam story setup | ep17 00:23:00-00:23:30 | Too garbled to recover | Clarity | Open |
+
+Resume point: min-kunuz-al-sunnah episode 18 (branch from origin/main).
+
+### alwaad-alhaq ep04 (14 Nov 2026)
+
+16 points written for episode 4 (ar, en, ur); 13 needs_source marks for this episode in each language file; about edges added for signs of the Hour, loyalty and disavowal and five persons. Quran verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
+
+| Excluded (alwaad-alhaq ep04) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Repetition loops (numbers, 'hadhi hiya', 'ala Allah') | ep04 00:30:00, 00:42:00, 00:46:00 | Not speech | Loop check | Open |
+| Story of Mu'awiya and a man claiming brotherhood from Adam | ep04 00:19:30 to 00:20:00 | Garbled facts | Clarity | Open |
+| Claims on European history and women's pay and rights | ep04 00:38:30 to 00:40:00 | Unsupported historical statistics, garbled; one stated view kept | No source | Open |
+| Call to boycott companies with immodest advertising | ep04 00:26:30 to 00:27:30 | Opinion ruling (founder-held) | Policy | Open |
+| Advice on greeting non-Muslim neighbours at their festivals; remark on a woman chairing a meeting | ep04 00:40:30 to 00:41:30; 00:44:30 | Opinion rulings, garbled (founder-held) | Policy | Open |
+
+Resume point: alwaad-alhaq episode 5 (branch from origin/main).
+### min-kunuz-al-sunnah ep18 (14 Nov 2026)
+
+14 points written for episode 18 (ar, en, ur); 10 needs_source marks in each language file for this episode; 5 new `about` edges. Quran verses referenced only through passage links (23-51, 19-25, 9-35); none typed. Contested: He attributes to the Prophet, without chain, the hadith of relying on God like the birds and several hadiths by sense, and tells unsourced stories (the dream of Abu Ayyub and the neighbour, the sick men, the baby in the water); the opinion on forbidden food reaching the fetus and the account of the dead neighbour in Paradise are his own readings.
+
+| Excluded (min-kunuz-al-sunnah ep18) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greeting and praise, introduction of the day's hadith | ep18 00:00:00-00:01:00 | Greeting and framing, no content | Content rule | Open |
+| Break join and return (after this break, welcome back) | ep18 00:09:30-00:10:00 | Break join | Content rule | Open |
+| Break join and return | ep18 00:18:30-00:19:00 | Break join | Content rule | Open |
+| Closing remarks, request for prayers and farewell | ep18 00:28:30-00:29:00 | Closing prayer and farewell | Content rule | Open |
+| Stretch of repeated syllable (aah aah) | ep18 00:01:30-00:02:00 | Loop, nothing recoverable | Clarity, Loop check | Open |
+| Stretch of repeated phrase (that which that which) | ep18 00:16:00-00:16:30 | Loop, mid-sentence fragment on the day of reckoning, not recoverable | Clarity, Loop check | Open |
+| Garbled report about green birds and Hamza | ep18 00:12:00-00:12:30 | Too garbled to recover | Clarity, Loop check | Open |
+| Sweeping claim that the West set up means and reached what it reached, so the Muslim lands must not neglect them | ep18 00:12:00-00:12:30 | Sweeping claim about peoples | Voice rule | Open |
+| Garbled stock-market and blood-pressure figures | ep18 00:27:00-00:27:30 | Numbers garbled, not clearly supported | Clarity, Loop check | Open |
+
+Resume point: min-kunuz-al-sunnah episode 19 (branch from origin/main).
+
+### min-kunuz-al-sunnah ep19 (14 Nov 2026)
+
+14 points written for episode 19 (ar, en, ur); 6 needs_source marks in each language file for this episode; 7 new `about` edges. Quran verses referenced only through passage links (11-6, 51-22, 4-17, 7-172); none typed. Contested: He holds that obstructing young people's marriage is sinful, that zakat is due on jewellery, that a coerced divorce and a divorce in a final illness to harm a wife do not take effect, that deliberate neglect of prayer and fasting is made up in the ways he describes, and that a woman who deliberately leaves off covering must stop to be forgiven; these are his views, some rest on reports given without chains, and scholars differ on several.
+
+| Excluded (min-kunuz-al-sunnah ep19) | Episode / time | Reason | Gate failed | Override |
+| Opening greeting, praise and intro to the hadith | ep19 00:00:00-00:00:30 | Greeting formula and salutation | Content rule | Open |
+| Break join and welcome back (first) | ep19 00:09:00-00:09:30 | Break join and welcome back | Content rule | Open |
+| Break join and welcome back (second) | ep19 00:16:30-00:17:00 | Break join and welcome back | Content rule | Open |
+| Closing prayer and sign-off | ep19 00:25:30-00:26:00 | Closing prayer and farewell | Content rule | Open |
+| Claim that a young man facing obstacles will go straight to the unlawful | ep19 00:05:00-00:05:30 | Sweeping claim about a class of people | Voice rule | Open |
+| Claim about heirs scheming against a new young wife of an elderly father | ep19 00:19:00-00:19:30 | Sweeping claim about families and women, partly garbled | Voice rule, Clarity | Open |
+| Garbled stretch on valuing missed Ramadans at past prices | ep19 00:13:30-00:14:00 | Too garbled to recover | Clarity | Open |
+| Garbled stretch on a doubt about prayer units and sunna acts | ep19 00:24:30-00:25:00 | Fragmentary, only the advice recovered | Clarity | Open |
+| Looped repetitions in the dua of the Arab and provision section | ep19 00:06:30-00:07:00 | Repeated phrases, only the core recovered | Clarity, Loop check | Open |
+
+Resume point: min-kunuz-al-sunnah episode 20 (branch from origin/main).
+
+### min-kunuz-al-sunnah ep20 (14 Nov 2026)
+
+14 points written for episode 20 (ar, en, ur); 11 needs_source marks in each language file for this episode; 7 new `about` edges. Quran verses referenced only through passage links (3-164, 68-4, 6-162, 14-24, 14-26, 14-27, 2-254, 51-26, 51-27); none typed. Contested: He holds that rulings change with time, place and people, proposes a weekly standard-Arabic day for institutions, and gives his own applications of neighbour and guest etiquette; all are his views and are marked as such.
+
+| Excluded (min-kunuz-al-sunnah ep20) | Episode / time | Reason | Gate failed | Override |
+| greeting, opening praise, break joins and closing prayer | ep20 00:00:00-00:00:30, 00:08:30-00:09:00, 00:17:30-00:18:00, 00:30:00-00:30:30 | not lesson content | Content rule | Open |
+| looping repetition of one word, then garbled stretch about a fast eater | ep20 00:25:00-00:25:30 | transcript loops and cannot be recovered | Clarity, Loop check | Open |
+| looping repetition of one word | ep20 00:27:30-00:28:00 | transcript loops and cannot be recovered | Clarity, Loop check | Open |
+| remarks on children preferring TV-drama dialect and on mixed foreign speech heard by a visitor | ep20 00:23:00-00:24:00 | garbled and anecdotal, leans on generalisations about groups | Voice rule, Clarity | Open |
+
+Resume point: min-kunuz-al-sunnah episode 21 (branch from origin/main).
