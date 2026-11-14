@@ -3466,3 +3466,17 @@ Resume point: alwaad-alhaq episode 10 (branch from origin/main).
 | Quranic wording of the common-word call, the Hashim step of the hadith of choosing, the reasons for a prophet's intelligence and the purpose of the armed-man story | ep03 00:09:30, 00:52:30, 01:12:00, 00:27:00 | Not clearly supported by the transcript or would type Quran wording | Clarity, Content rule | Open |
 
 Resume point: sharh-saheeh-al-bukhare episode 4 (branch from origin/main).
+
+### alwaad-alhaq ep10 (14 Nov 2026)
+
+12 points written for episode 10 (ar, en, ur); 10 needs_source marks for this episode in each language file; edges to Tamim al-Dari, Fatima bint Qays, the Jassasa, the Dajjal, Tiberias, Umar, Abdullah ibn Umar and Muhammad. Quran verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
+
+| Excluded (alwaad-alhaq ep10) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Ruling that those who ride the sea in rough waves or drive at speed die as suicides and not martyrs | ep10 00:10:00-00:10:30 | opinion ruling, founder-held (dec-20261114-277) | opinion rulings | Open |
+| Story of Israeli schooling and the Mount Zion remark | ep10 00:50:30-00:51:30 | garbled transcript and political claim that cannot be checked | accuracy | Open |
+| Ranking of Muawiya over Umar ibn Abd al-Aziz and the remark on Malik not walking in Medina | ep10 00:36:00-00:37:00 | opinion ranking and garbled claim, not verifiable | accuracy, opinion rulings | Open |
+| Discussion of the Dajjal's seventy rings, his hidden identity, and the Ibn Sayyad Samaritan origin | ep10 00:39:00 and 00:47:00 | garbled transcript, sources not named | accuracy | Open |
+| Closing remarks on viewer mail and thanks to the channel | ep10 00:57:30-00:58:30 | no factual content | relevance | Open |
+
+Resume point: alwaad-alhaq episode 11 (branch from origin/main).
