@@ -3,11 +3,11 @@ class: person
 label:
   ar: "صالح بن مهدي المقبلي"
   en: "Salih ibn Mahdi al-Maqbali"
-roles: [sufi, muhaddith]
+roles: [jurist]
 gender: male
 summary:
-  ar: "بطاقة أولية لصالح بن مهدي المقبلي، عالم ومحدث وصوفي يمني القرن السابع عشر، توفي سنة ١٦٩٦م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Salih ibn Mahdi al-Maqbali, the seventeenth-century Yemeni scholar, muhaddith and Sufi, d. 1696; the biographical entry is not yet checked on the page."
+  ar: "صالح بن مهدي بن علي المقبلي، مجتهد وفقيه زيدي من اليمن، ولد في مقبل من بلاد كوكبان ونشأ في ثلا ثم رحل إلى مكة سنة 1080هـ وكتب فيها مؤلفاته وتوفي بها؛ ينتقد في كتبه التقليد وعدداً من الفرق."
+  en: "Salih ibn Mahdi al-Maqbali, a Zaydi mujtahid and jurist from Yemen, born at Maqbal in the land of Kawkaban and raised in Thula; he moved to Mecca in 1080 AH, wrote his works there and died there, and his books criticise taqlid and several groups."
 wings: [people]
 regions: [arabia]
 periods: [period/gunpowder-empires]
@@ -15,18 +15,18 @@ born: { edtf: "1637", calendar: gregorian, precision: year, derived: true, note:
 died: { edtf: "1696", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Badr al-Tali" }
 relations:
   - { type: died_in, target: place/mecca, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q5806)" }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q57253851
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0071
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 occupations:
   - job: job/muhaddith
     kind: primary
