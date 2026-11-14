@@ -15,9 +15,10 @@ periods: [period/crusades-ayyubid-mamluk]
 died: { edtf: "1204", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia of Islam (EI2)" }
 relations:
   - { type: buried_in, target: place/al-eddin-mosque, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q2620007)" }
-sources: [source/kamil-ibn-al-athir]
+sources: [source/kamil-ibn-al-athir, source/nomisma]
 external_ids:
   wikidata: Q61595
+  nomisma: "rukn_al-din_sulayman_ii"
 provenance:
   layer: own-research
   source: "Wikidata candidate; book source: Ibn al-Athir, al-Kamil — entry not yet read on the page"

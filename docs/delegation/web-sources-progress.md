@@ -758,6 +758,12 @@ Nothing is registered this turn. Each registration needs the three-part commit i
 - Date differences noticed, not changed: al-bakri-abu-ubayd birth 1041 and 1040; ibn-kathir 1302~ and 1301; ibn-taghribirdi-yusuf 1409 and 1411, death 1469 and 1470; ibn-abd-al-barr death 1071~ and 1070; qara-yusuf 1356~ and 1357; miran-shah 1366 and 1367.
 - Measured Arabic share: 0 of the 23 matched Biblissima records carries an Arabic-script label.
 
+## 2026-11-14 (p50, Lane B) — Nomisma batch 6: 25 more issuers linked
+
+- Approval: dec-20261114-277. Same crosswalk and checks as p47 and p49.
+- Linked (25 persons): ahmad-jalayir, sulayman-shah-ii-rum, harun-ibn-khumarawayh, shah-jahan-mughal, mansur-ii-samani, sultan-husayn-safavi, husayn-bayqarah, al-mustansir-billah, bahadur-shah-gujarat, mustafa-ii-uthmani, badr-al-din-lulu, abu-bakr-ibn-umar-al-lamtuni, gamal-abdel-nasser, karim-khan-zand, heraclius, barghash-ibn-said-al-busaidi, sulayman-i-safavi, harun-al-rashid, nuh-ibn-nasr, humayun-mughal, baybars, muhammad-ali-pasha, alp-arslan, abd-al-aziz-al-alawi, qutb-al-din-mawdud.
+- Held back on purpose: hussein-bin-ali-al-hashimi (concept husayn_b_ali: two famous Husayns, identity by the Wikidata id alone is not enough for a hand check), ibrahim-i-uthmani and mahmud-ghaznawi (concepts "ibrahim" and "mahmud" are one-word names; the Wikidata id agrees but the concept page should be read first).
+
 ## 2026-11-14 (p49, Lane B) — Nomisma batch 5: 25 more issuers linked
 
 - Approval: dec-20261114-277. Same crosswalk as p47 (Nomisma concepts with a Wikidata exactMatch, exactly one concept per Wikidata id, a shared name element between the concept and our slug). No new download (the SPARQL result of p47 was reused; no file over 50 MB is involved).

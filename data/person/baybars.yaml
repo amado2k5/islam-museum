@@ -16,7 +16,7 @@ provenance:
   canon: "Encyclopaedia of Islam 2nd ed., vol. 1, article Baybars I, PDF pp. 1184-1186, written by Claude Sonnet 5.5, run canon-cornerstones-20"
   extra_runs: ["ocr-harvest-2026-11-04: Claude Code (OCR-harvest worker H), claude-opus-5-5, from Yeomans 2006 pp. 125-129"]
   lead_deepened: "Lead section deepened to 150-250 words, Arabic and English, only from sources this record already cited (Grand Tour mission, run grand-tour-2026-11-11; Claude Code, claude-fable-5-2). AI text awaiting a human read; sentence-by-sentence evidence in docs/fable-run/prose-evidence/."
-external_ids: { wikidata: "Q192960" }
+external_ids: { wikidata: "Q192960", nomisma: "baybars_i" }
 born: { edtf: "1223~", precision: year, status: tradition, derived: true, note: "ولد نحو سنة 620هـ", sources: [source/shadharat-dhahab] }
 died: { edtf: "1277", hijri: "0676", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي بدمشق سنة 676هـ {cite:shadharat-dhahab}", sources: [source/shadharat-dhahab] }
 relations:
@@ -27,7 +27,7 @@ relations:
   - { type: participated_in, target: event/siege-of-antioch-1268, role: "السلطان الفاتح", sources: [source/khitat-maqrizi-1998] }
   - { type: participated_in, target: event/fall-of-krak-des-chevaliers-1271, role: "السلطان الفاتح", sources: [source/khitat-maqrizi-1998] }
   - { type: built, target: building/mosque-of-al-zahir-baybars, sources: [source/yeomans-islamic-cairo-2006] }
-sources: [source/khitat-maqrizi-1998, source/shadharat-dhahab, source/tarikh-khulafa-minhaj-1434, source/yeomans-islamic-cairo-2006, source/encyclopaedia-of-islam-2]
+sources: [source/khitat-maqrizi-1998, source/shadharat-dhahab, source/tarikh-khulafa-minhaj-1434, source/yeomans-islamic-cairo-2006, source/encyclopaedia-of-islam-2, source/nomisma]
 importance: 1
 status: { review: published, completeness: 3, generated_by: "Claude Haiku 5.5; the Zahiriyya's site and his exile with the amirs after Aqtay's killing are read from al-Maqrizi's Khitat (local scan, pp. 1032, 1081); the Suyuti and Ibn al-Imad sentences keep their citations" }
 

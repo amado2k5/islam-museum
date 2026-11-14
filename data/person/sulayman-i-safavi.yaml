@@ -18,9 +18,10 @@ died: { edtf: "1694", calendar: gregorian, precision: year, derived: true, note:
 relations:
   - { type: born_in, target: place/isfahan, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q42053)" }
   - { type: buried_in, target: building/haram-fatima-masuma-qum, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q212110)" }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sources: [source/tarikh-islam-hasan-ibrahim, source/nomisma]
 external_ids:
   wikidata: Q210704
+  nomisma: "shah_sulayman"
 provenance:
   layer: own-research
   source: "Wikidata Q210704 (religion claim Islam); book source: Tarikh al-Islam (Hasan Ibrahim) — entry not yet read on the page"

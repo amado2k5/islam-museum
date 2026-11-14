@@ -19,9 +19,10 @@ relations:
   - { type: born_in, target: place/harat, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: buried_in, target: place/mousallah-complex, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: buried_in, target: place/harat, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sources: [source/tarikh-islam-hasan-ibrahim, source/nomisma]
 external_ids:
   wikidata: Q537570
+  nomisma: "sultan_husayn_mirza_in_khurasan"
 provenance:
   layer: own-research
   source: "Wikidata Q537570 (religion claim Islam); book source: Tarikh al-Islam (Hasan Ibrahim) — entry not yet read on the page"
