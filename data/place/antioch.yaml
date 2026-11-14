@@ -10,10 +10,10 @@ regions: [levant-iraq]
 coordinates: [36.201, 36.161]
 coordinate_precision: locality
 external_ids: { wikidata: "Q200441", idai: "2283111", nomisma: "antiocheia_syria" }
-sources: [source/geonames-gazetteer, source/idai-gazetteer, source/nomisma]
+sources: [source/geonames-gazetteer, source/idai-gazetteer, source/nomisma, source/mujam-al-buldan-yaqut]
 provenance:
   layer: own-research
-  source: "GeoNames gazetteer coordinates for the Timeline Explorer Baybars story map"
+  source: "GeoNames gazetteer coordinates for the Timeline Explorer Baybars story map; iDAI.gazetteer place 2283111 (https://gazetteer.dainst.org/place/2283111), accessed 14 Nov 2026; Yaqut al-Hamawi, Mu'jam al-buldan, Cairo 1907, vol. 1, scan pp.358-362"
   generated_by: "Devin (SWE-2 Medium)"
   run: explorer-baybars
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium); coordinates from GeoNames" }
