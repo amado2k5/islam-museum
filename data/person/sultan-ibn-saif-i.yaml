@@ -6,23 +6,23 @@ label:
 roles: [ruler]
 gender: male
 summary:
-  ar: "بطاقة أولية لسلطان بن سيف اليعربي، إمام عمان من سنة ١٦٤٩م إلى ١٦٨٠م الذي طرد البرتغاليين من مسقط؛ تذكره معاجم الدول الإسلامية ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Sultan ibn Saif al-Ya'rubi, the imam of Oman from 1649 to 1680 who expelled the Portuguese from Muscat; the dynastic handbook entry is not yet checked on the page."
+  ar: "سلطان بن سيف بن مالك اليعربي، ثاني أئمة اليعاربة الإباضية في عمان، بويع يوم وفاة الإمام ناصر بن مرشد بنزوى سنة ١٠٥٠هـ، فطرد البرتغاليين من مسقط وبنى سفنا كثيرة وهاجم مراكزهم في الهند وساحل إفريقية، وتوفي بنزوى سنة ١٠٩١هـ الموافقة ١٦٨٠م."
+  en: "Sultan ibn Saif ibn Malik al-Ya'ribi, the second of the Ya'ariba imams of the Ibadis in Oman; he was pledged allegiance on the day Imam Nasir ibn Murshid died, in Nizwa in 1050 AH, expelled the Portuguese from Muscat, built many ships and attacked Portuguese posts in India and on the African coast. He died in Nizwa in 1091 AH, 1680 CE."
 wings: [people]
 regions: [arabia]
 periods: [period/gunpowder-empires]
-died: { edtf: "1679", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: History of the Imams and Seyyids of Oman (Badger)" }
+died: { edtf: "1680", calendar: gregorian, precision: year, derived: true, note: "1091 AH = 1680 CE as printed in the entry; the card had 1679 from Badger; source: al-Zirikli, al-A'lam, 15th ed. 2002, vol. 3 p. 108", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
 - { type: ruled_over, target: place/oman, sources: [source/wikidata], confidence: low, note: "Wikidata P39 office held (oman)" }
-sources: [source/bosworth-new-islamic-dynasties-1996]
+sources: [source/bosworth-new-islamic-dynasties-1996, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q2364811
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: Bosworth, The New Islamic Dynasties (1996) — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0031
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
