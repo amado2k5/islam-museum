@@ -16,9 +16,10 @@ relations:
   - { type: born_in, target: place/albania, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: buried_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/dawlat-uthmaniyya-salabi, source/encyclopaedia-of-islam-2]
+sources: [source/dawlat-uthmaniyya-salabi, source/encyclopaedia-of-islam-2, source/wikidata]
 external_ids:
   wikidata: Q1571856
+  viaf: "315600681"
 provenance:
   layer: own-research
   source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, PDF p. 313, article 'Ahmad Pasha, Kara' signed M. Cavid Baysun (EI2 enrichment, batch ei2-b003 part 3ck); Wikidata Q1571856 for the identifier"

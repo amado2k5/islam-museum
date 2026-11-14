@@ -13,9 +13,11 @@ regions: [egypt-nile]
 periods: [period/crusades-ayyubid-mamluk]
 born: { edtf: "1217", precision: year, status: tradition, derived: true }
 died: { edtf: "1306", precision: year, status: tradition, derived: true }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata, source/biblissima]
 external_ids:
   wikidata: Q68169441
+  viaf: "40947861"
+  biblissima: "Q317200"
 provenance:
   layer: own-research
   source: "Wikidata candidate; entry not yet read on the page in a book source"

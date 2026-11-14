@@ -14,8 +14,8 @@ died: { hijri: "0096", edtf: "0714~", calendar: julian, precision: year, status:
 relations:
   - { type: born_in, target: place/kufa, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/kufa, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-external_ids: { wikidata: "Q6957308" }
-sources: [source/tabaqat-fuqaha-abbas-1981]
+external_ids: { wikidata: "Q6957308", viaf: "1438498" }
+sources: [source/tabaqat-fuqaha-abbas-1981, source/wikidata]
 provenance:
   layer: "own-research"
   source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص44–47"

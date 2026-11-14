@@ -22,8 +22,8 @@ story_roles:
 relations:
   - { type: lived_in, target: place/shiraz, note: "Place association from the person's nisba/name (الشيرازي); denotes association, not proven residence.", sources: [source/mawsuat-a3lam-ulama-adaba, source/kashf-zunun-furqan, source/anwar-al-tanzil-halabi-1330-v4, source/anwar-al-tanzil-fleischer-v1, source/tafsir-manar-v02], confidence: low }
   - { type: authored, target: work/anwar-al-tanzil, sources: [source/kashf-zunun-furqan] }
-external_ids: { wikidata: "Q287573" }
-sources: [source/mawsuat-a3lam-ulama-adaba, source/kashf-zunun-furqan, source/anwar-al-tanzil-halabi-1330-v4, source/anwar-al-tanzil-fleischer-v1, source/tafsir-manar-v02]
+external_ids: { wikidata: "Q287573", viaf: "44541329" }
+sources: [source/mawsuat-a3lam-ulama-adaba, source/kashf-zunun-furqan, source/anwar-al-tanzil-halabi-1330-v4, source/anwar-al-tanzil-fleischer-v1, source/tafsir-manar-v02, source/wikidata]
 status:
   review: published
   completeness: 3

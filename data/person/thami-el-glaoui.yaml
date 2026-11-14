@@ -40,8 +40,8 @@ relations:
   - { type: sibling_of, target: person/madani-el-glaoui, sources: [source/wikipedia-thami-el-glaoui-en, source/wikipedia-thami-el-glaoui-fr] }
   - { type: died_in, target: place/marrakesh, sources: [source/wikipedia-thami-el-glaoui-en, source/wikipedia-thami-el-glaoui-ar, source/wikidata-thami-el-glaoui] }
   - { type: ruler_of, target: place/marrakesh, sources: [source/wikipedia-thami-el-glaoui-en, source/wikipedia-thami-el-glaoui-fr, source/wikipedia-thami-el-glaoui-ar, source/wikipedia-thami-el-glaoui-ur, source/wikidata-thami-el-glaoui] }
-external_ids: { wikidata: "Q559183" }
-sources: [source/wikipedia-thami-el-glaoui-en, source/wikipedia-thami-el-glaoui-fr, source/wikipedia-thami-el-glaoui-ar, source/wikipedia-thami-el-glaoui-ur, source/wikidata-thami-el-glaoui]
+external_ids: { wikidata: "Q559183", viaf: "2640159248572804870001" }
+sources: [source/wikipedia-thami-el-glaoui-en, source/wikipedia-thami-el-glaoui-fr, source/wikipedia-thami-el-glaoui-ar, source/wikipedia-thami-el-glaoui-ur, source/wikidata-thami-el-glaoui, source/wikidata]
 provenance:
   layer: own-research
   source: "English, French, Arabic and Urdu Wikipedia articles on Thami El Glaoui, each fetched by its recorded revision id (EN 1371241789, FR 238186818, AR 76152248, UR 9068956) with the returned id asserted equal before use, and Wikidata item Q559183 (revision 2557690946; the sparse duplicate item Q1529269 was not used). Existence checks by name fragments (Glaoui, el-Glaoui, الكلاوي) and by QID across data/person and data/source found no prior record for him. The lane queue gives 1879–1956, matching the article texts; Wikidata's birth year 1870 and death day 12 January 1956 conflict with all four texts and are disclosed as debated. The sibling edge to his elder brother Madani is written once, here in Thami's record, pointing to Madani."

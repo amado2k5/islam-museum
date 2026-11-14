@@ -1,0 +1,18 @@
+id: concept/external-jugular-vein-and-shoulder-veins
+class: concept
+kind: scientific
+label: { ar: "الوداج الظاهر وأوردة الكتف عند ابن سينا", en: "The external jugular vein and the shoulder veins in the Canon", ur: "قانون میں بیرونی وداج رگ اور کندھے کی رگیں" }
+summary:
+  ar: "يصف ابن سينا الوداج الظاهر وكيف يتكون من قسمين يلتقيان، وما يتفرع منه من الكتفي والقيفال، وانقسامه إلى جزء باطن إلى الفكين واللسان وجزء ظاهر إلى الرأس والأذنين {cite:canon-ibn-sina-print-v1 p.90}."
+  en: "Ibn Sina describes the external jugular vein and how it forms from two parts that meet, what branches from it as the scapular and cephalic veins, and how it divides into an inner part to the jaws and tongue and an outer part to the head and ears {cite:canon-ibn-sina-print-v1 p.90}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/veins, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 1, on the veins and the faculties (scan pages 90 to 99), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-vessels-2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

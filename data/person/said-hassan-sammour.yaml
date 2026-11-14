@@ -14,9 +14,10 @@ periods: [period/contemporary-era]
 relations:
   - { type: born_in, target: place/tulkarm, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q985531)" }
   - { type: died_in, target: place/amman, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q3805)" }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q108762089
+  viaf: "298222172"
 provenance:
   layer: own-research
   source: "Wikidata candidate; entry not yet read on the page in a book source"

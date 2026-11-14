@@ -15,9 +15,10 @@ born: { edtf: "1750", calendar: gregorian, precision: year, derived: true, note:
 died: { edtf: "1799", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi Confirmed on 13 November 2026 against Wikidata Q19611072 (P570, a statement with a reference), item revision 2513754637.", sources: [source/wikidata] }
 relations:
   - { type: died_in, target: place/rhodes, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q19611072
+  viaf: "8491863"
 provenance:
   layer: own-research
   source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"

@@ -40,11 +40,12 @@ relations:
   - { type: buried_in, target: place/jerusalem, sources: [source/wikipedia-faisal-husseini-en] }
 wings: [people]
 regions: [levant-iraq]
-external_ids: { wikidata: "Q1371476" }
+external_ids: { wikidata: "Q1371476", viaf: "55353872" }
 sources:
   - source/wikipedia-faisal-husseini-en
   - source/wikipedia-faisal-husseini-ar
   - source/wikidata-faisal-husseini
+  - source/wikidata
 provenance:
   layer: own-research
   source: "Wikipedia articles on Faisal Husseini in English (revision 1351890779 of 30 Apr 2026) and Arabic (revision 76847168 of 3 Oct 2026) and the Wikidata item Q1371476 (item revision 2551270339 of 30 Sep 2026, read twice with identical results), each fetched by its recorded revision id via the MediaWiki API and asserted equal to it (27 October 2026). The QID was grounded through the English article's own page property. No Urdu article exists (titles and search checked), so the Urdu prose is written from the English and Arabic sources and says so. Existence checked both directions before writing: name fragments in English, Arabic and Urdu scripts across data/person/ (the hits are other Husaynis — Musa Kazim and Haj Amin among them), the QID grepped across all of data/person/, biographical comparison, and candidate records' provenance — no prior record of the man existed. His father Abd al-Qadir al-Husayni has no museum record of his own (the Shirazi namesake is a different man), so no child_of edge is written; Kuwait, his place of death, has no place entity."

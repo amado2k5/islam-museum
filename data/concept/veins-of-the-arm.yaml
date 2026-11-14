@@ -1,0 +1,18 @@
+id: concept/veins-of-the-arm
+class: concept
+kind: scientific
+label: { ar: "أوردة اليدين عند ابن سينا", en: "The veins of the arms in the Canon", ur: "قانون میں بازوؤں کی رگیں" }
+summary:
+  ar: "في الفصل الرابع يتتبع ابن سينا القيفال والإبطي في العضد والساعد، ويذكر الأكحل والباسليق والأسيلم وتفرعها إلى أصابع اليد {cite:canon-ibn-sina-print-v1 p.91}."
+  en: "In the fourth chapter Ibn Sina follows the cephalic and axillary veins in the upper arm and forearm, and names the median cubital, the basilic and the salvatella and their branching to the fingers {cite:canon-ibn-sina-print-v1 p.91}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/veins, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 1, on the veins and the faculties (scan pages 90 to 99), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-vessels-2
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

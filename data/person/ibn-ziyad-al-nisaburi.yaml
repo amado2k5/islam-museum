@@ -15,9 +15,10 @@ born: { edtf: "852", calendar: gregorian, precision: year, derived: true, note: 
 died: { edtf: "936", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar Confirmed on 13 November 2026 against Wikidata Q22684478 (P570, a statement with a reference), item revision 2426237313.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/khurasan, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/al-aalam] }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q22684478
+  viaf: "41650931"
 provenance:
   layer: own-research
   source: "Wikidata candidate; entry not yet read on the page in a book source"

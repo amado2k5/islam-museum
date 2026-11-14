@@ -41,8 +41,8 @@ relations:
   - { type: died_in, target: place/new-delhi, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hazrat-inayat-khan] }
   - { type: died_in, target: place/delhi, sources: [source/wikipedia-hazrat-inayat-khan-en, source/wikidata-hazrat-inayat-khan] }
   - { type: buried_in, target: place/delhi, sources: [source/wikipedia-hazrat-inayat-khan-en] }
-external_ids: { wikidata: "Q120411" }
-sources: [source/wikipedia-hazrat-inayat-khan-en, source/wikipedia-hazrat-inayat-khan-ar, source/wikipedia-hazrat-inayat-khan-ur, source/wikidata-hazrat-inayat-khan]
+external_ids: { wikidata: "Q120411", viaf: "25034940" }
+sources: [source/wikipedia-hazrat-inayat-khan-en, source/wikipedia-hazrat-inayat-khan-ar, source/wikipedia-hazrat-inayat-khan-ur, source/wikidata-hazrat-inayat-khan, source/wikidata]
 provenance:
   layer: own-research
   source: "English, Arabic and Urdu Wikipedia articles on Inayat Khan, each fetched by its recorded revision id (EN 1377845110, AR 68352617, UR 6646356) with the returned id asserted equal before use, and Wikidata item Q120411 (revision 2558923148). Existence checks by name fragments (Inayat Khan, عنايت خان, عنایت خان) and by QID across data/person and data/source found no prior record for this man; other Wikidata items of the same name (a Pakistani actor Q117322850, a Pakistani cricketer Q110885447, a Mughal historian Q16847057) are different people and were not used. The word Hazrat is part of his documented name in the sources and is kept as a name element only. The lane queue gives 1882–1927; the sources agree."

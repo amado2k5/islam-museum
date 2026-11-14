@@ -15,12 +15,12 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch42
-external_ids: { wikidata: "Q282883" }
+external_ids: { wikidata: "Q282883", viaf: "86440217" }
 relations:
   - { type: born_in, target: place/sohrevard, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q2627731)" }
   - { type: died_in, target: place/aleppo, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q41183)" }
   - { type: lived_in, target: place/persian-empire, sources: [source/wikidata], confidence: low, note: "Wikidata P937 work location (Wikidata Q83311)" }
-sources: [source/wafayat-ayan]
+sources: [source/wafayat-ayan, source/wikidata]
 status:
   review: published
   completeness: 3

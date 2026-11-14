@@ -18,9 +18,10 @@ died: { edtf: "1649", calendar: gregorian, precision: year, derived: true, note:
 relations:
   - { type: born_in, target: place/p-cs, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q45779)" }
   - { type: died_in, target: place/buda, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q193478)" }
-sources: [source/sicill-i-osmani]
+sources: [source/sicill-i-osmani, source/wikidata]
 external_ids:
   wikidata: Q694908
+  viaf: "33192573"
 provenance:
   layer: own-research
   source: "Sicill-i Osmani, Tarih Vakfi 1996 translit. ed., vol. 3 — 'İbrahim Efendi Peçuylu' entry; Apple Vision OCR"

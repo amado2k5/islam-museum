@@ -43,8 +43,9 @@ faith:
 relations:
   - { type: born_in, target: place/foumban, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-ibrahim-njoya] }
   - { type: died_in, target: place/yaound, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-ibrahim-njoya] }
-sources: [source/wikipedia-ibrahim-njoya-en, source/wikipedia-ibrahim-njoya-fr, source/wikipedia-ibrahim-njoya-ar, source/wikidata-ibrahim-njoya]
+sources: [source/wikipedia-ibrahim-njoya-en, source/wikipedia-ibrahim-njoya-fr, source/wikipedia-ibrahim-njoya-ar, source/wikidata-ibrahim-njoya, source/wikidata]
 external_ids:
   wikidata: "Q670091"
+  viaf: "139134918"
 status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
 provenance: { layer: own-research, source: "English Wikipedia article 'Ibrahim Njoya' (revision 1378635633 of 5 October 2026), French Wikipedia article 'Ibrahim Njoya' (revision 240245367 of 10 October 2026), Arabic Wikipedia article on Ibrahim Njoya (revision 71005263 of 6 June 2025) and Wikidata item Q670091 (item revision 2560669046 of 25 October 2026), each fetched by revision id and asserted, and read in full on 26 October 2026. The museum holds no place entities for Foumban or Yaoundé and no records for his father Nsangu or his son and successor Seidou Njimoluh Njoya, so no relations are written and the lineage is carried in prose.", generated_by: "Muse (Muse Spark 1.3)", run: century-additions-61 }

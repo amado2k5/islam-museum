@@ -6,23 +6,24 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لأبي الحسن علي بن عبد الله الشاذلي، مؤسس الطريقة الشاذلية بإفريقية ومصر، توفي سنة ١٢٥٨م؛ تذكره كتب التراجم ومعاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abu al-Hasan Ali ibn Abdallah al-Shadhili, founder of the Shadhili order in Ifriqiya and Egypt, d. 1258; the biographical entry is not yet checked on the page."
+  ar: "أبو الحسن علي بن عبد الله الشاذلي المغربي، مؤسس الطريقة الشاذلية من المتصوفة، أصله من شاذلة بإفريقية وسكن الإسكندرية وتوفي بصحراء عيذاب وكان ضريراً."
+  en: "Abu al-Hasan Ali ibn Abd Allah al-Shadhili al-Maghribi, founder of the Shadhili order among the Sufis, from Shadhila in Ifriqiya, who lived at Alexandria and died in the desert of Aydhab; he was blind."
 wings: [people]
 regions: [maghreb, egypt-nile]
 periods: [period/crusades-ayyubid-mamluk]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/alam-zirikli-1927-v2, source/wikidata]
 external_ids:
   wikidata: Q2704613
+  viaf: "100384308"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0013
+  source: "al-Zirikli, al-A'lam, vol. 2, first edition 1927 (source/alam-zirikli-1927-v2), entry read in full on the scanned pages (PDF page cited); the entry is brief, so only what it states is written"
+  generated_by: "Claude Code (Lane B2, web-source and Shamela enrichment)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 born: { edtf: "1196", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi, Tarikh al-Islam; Encyclopaedia of Islam 2nd Ed. Confirmed on 13 November 2026 against Wikidata Q2704613 (P569, a statement with a reference), item revision 2533525261.", sources: [source/wikidata] }
 died: { edtf: "1258", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi, Tarikh al-Islam; Encyclopaedia of Islam 2nd Ed. Confirmed on 13 November 2026 against Wikidata Q2704613 (P570, a statement with a reference), item revision 2533525261.", sources: [source/wikidata] }
 relations:

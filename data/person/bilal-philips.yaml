@@ -16,7 +16,7 @@ wings: [people, living]
 regions: [americas-oceania, arabia]
 relations:
   - { type: born_in, target: place/kingston, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-bilal-philips] }
-external_ids: { wikidata: Q860317 }
+external_ids: { wikidata: Q860317, viaf: "13877925" }
 born:
   edtf: "1947-07-17"
   hijri: "1366"
@@ -31,7 +31,7 @@ faith:
     basis: documented
     note: "Two independent sources name his tradition for him personally. The English Wikipedia article's infobox gives his denomination as Sunni and his movement as Salafi, and its lead describes him as a Salafi, citing Duderija and Rasool's 2019 peer-reviewed study. Independently, the Eaalim Institute's profile calls him a Sunni scholar and states in terms that he 'works within the Salafi-leaning Sunni tradition'. Duderija and Rasool analyse him as a proponent of neo-traditional Salafism within the Sunni Islamic tradition. No source names a legal school (madhhab) for him, and the museum's faith enum has no Salafi value, so the tradition value sunni is recorded and the Salafi movement is stated here rather than encoded."
     sources: [source/wikipedia-bilal-philips-en, source/eaalim-bilal-philips, source/duderija-rasool-bilal-philips-2019]
-sources: [source/wikipedia-bilal-philips-en, source/wikidata-bilal-philips, source/duderija-rasool-bilal-philips-2019, source/eaalim-bilal-philips]
+sources: [source/wikipedia-bilal-philips-en, source/wikidata-bilal-philips, source/duderija-rasool-bilal-philips-2019, source/eaalim-bilal-philips, source/wikidata]
 provenance:
   layer: own-research
   source: "§2 row 243 of the handoff ('Bilal Philips'), a named-person channel row. The English Wikipedia article was verified at revision 1377270324 of 28 September 2026 and the Wikidata item Q860317 was read directly; the Duderija and Rasool study (Religions 10(6):371, 2019) and the Eaalim Institute profile were read in full, all on 26 October 2026. The Eaalim profile conflicts with Wikipedia on two details (it gives his birth as 6 January 1947 and his PhD year as 1994) and is not used for dates; the Wikipedia date, referenced to his official biography, is followed. No place entity for Kingston and no group entity for the International Open University were found in the museum, so no born_in or founder_of relation is recorded. Faith mapping note: the two-source test is met for the Sunni tradition (Wikipedia infobox plus the independent Eaalim profile, with the peer-reviewed study situating his Salafism inside the Sunni tradition); because the enum has no Salafi value, the movement is carried in the faith note, and the founder may prefer unknown under a stricter reading — the readings are preserved in the note either way."

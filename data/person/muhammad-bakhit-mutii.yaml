@@ -15,9 +15,10 @@ born: { edtf: "1854", precision: year, status: tradition, derived: true }
 died: { edtf: "1935", precision: year, status: tradition, derived: true }
 relations:
   - { type: died_in, target: place/cairo, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q85)" }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q6151627
+  viaf: "68905503"
 provenance:
   layer: own-research
   source: "Wikidata candidate; entry not yet read on the page in a book source"

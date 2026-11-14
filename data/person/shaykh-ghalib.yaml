@@ -16,9 +16,10 @@ born: { edtf: "1757", calendar: gregorian, precision: year, derived: true, note:
 died: { edtf: "1799", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Confirmed on 13 November 2026 against Wikidata Q389025 (P570, a statement with a reference), item revision 2544200284.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/istanbul, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q406)" }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q389025
+  viaf: "23669430"
 provenance:
   layer: own-research
   source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"

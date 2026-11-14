@@ -43,11 +43,11 @@ faith:
       Wikidata item carries no religion statement at all. The value is
       therefore unknown.
     sources: [source/wikipedia-sameera-moussa-en, source/wikipedia-sameera-moussa-ar, source/wikidata-sameera-moussa]
-external_ids: { wikidata: Q4116311 }
+external_ids: { wikidata: Q4116311, viaf: "103628676" }
 relations:
   - { type: born_in, target: place/sinbu-al-kubra, sources: [source/wikidata-sameera-moussa], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q12216973)" }
   - { type: died_in, target: place/sheridan, sources: [source/wikidata-sameera-moussa], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q1017214)" }
-sources: [source/wikipedia-sameera-moussa-en, source/wikipedia-sameera-moussa-ar, source/wikipedia-sameera-moussa-ur, source/wikidata-sameera-moussa]
+sources: [source/wikipedia-sameera-moussa-en, source/wikipedia-sameera-moussa-ar, source/wikipedia-sameera-moussa-ur, source/wikidata-sameera-moussa, source/wikidata]
 provenance:
   layer: own-research
   source: "English Wikipedia article 'Sameera Moussa' revision 1383261442 of 1 November 2026; Arabic Wikipedia article 'سميرة موسى' revision 76918674 of 7 October 2026; Urdu Wikipedia article 'سمیرہ موسیٰ' revision 6834816 of 3 March 2025; Wikidata item Q4116311 revision 2540810863 of 6 September 2026 (all retrieved live in-session on 2 November 2026 via the MediaWiki API and re-asserted identical on a second query). The Wikidata item is the one linked from the English article itself. No born_in or died_in edge is written: neither Sanbo El-Kobra/Zefta nor Wyoming has a place record on main. The near slug salama-moussa on main is a different person (the writer Salama Musa). No record or draft stub of any kind for her existed on main when this record was built (checked against origin/main on 2 November 2026)."

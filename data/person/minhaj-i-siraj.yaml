@@ -19,9 +19,10 @@ relations:
   - { type: born_in, target: place/ghor-province, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: born_in, target: place/firozkoh, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/delhi, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q657968
+  viaf: "237135946"
 provenance:
   layer: own-research
   source: "Wikidata Q657968 (religion claim Islam); book source: al-Zirikli, al-A'lam — entry not yet read on the page"

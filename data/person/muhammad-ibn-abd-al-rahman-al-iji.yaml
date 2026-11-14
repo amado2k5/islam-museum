@@ -13,9 +13,10 @@ regions: [persia-central-asia]
 periods: [period/mongol-post-mongol]
 relations:
   - { type: born_in, target: place/ij, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q2614282)" }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q57669688
+  viaf: "62752858"
 provenance:
   layer: own-research
   source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"

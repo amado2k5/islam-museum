@@ -16,9 +16,10 @@ died: { edtf: "1354", calendar: gregorian, precision: year, derived: true, note:
 relations:
   - { type: born_in, target: place/granada, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q8810)" }
   - { type: buried_in, target: place/malaga, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q8851)" }
-sources: [source/nafh-tib-maqqari]
+sources: [source/nafh-tib-maqqari, source/wikidata]
 external_ids:
   wikidata: Q2141886
+  viaf: "42989513"
 provenance:
   layer: own-research
   source: "Wikidata candidate; book source: al-Maqqari, Nafh al-Tib — entry not yet read on the page"

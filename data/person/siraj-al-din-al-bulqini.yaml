@@ -16,9 +16,10 @@ died: { edtf: "1403", calendar: gregorian, precision: year, derived: true, note:
 relations:
   - { type: born_in, target: place/bulqinah, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q12199116)" }
   - { type: died_in, target: place/cairo, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q85)" }
-sources: [source/al-aalam, source/daw-lami-jil-1992]
+sources: [source/al-aalam, source/daw-lami-jil-1992, source/wikidata]
 external_ids:
   wikidata: Q6798541
+  viaf: "90050698"
 provenance:
   layer: own-research
   source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"

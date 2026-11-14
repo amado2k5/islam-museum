@@ -27,10 +27,10 @@ faith:
     basis: unknown
     note: "No source consulted names a religion or a school for her. The English, French and Arabic Wikipedia articles are all silent on her personal religion, and Wikidata (Q467094) carries no religion claim at all. Her Fulani descent, her Wassoulou upbringing and the traditional song repertoire she performs are background and work, not an attestation of a personal school. Under the two-source rule her faith is recorded as unknown."
     sources: [source/wikipedia-oumou-sangare-en, source/wikipedia-oumou-sangare-fr, source/wikipedia-oumou-sangare-ar, source/wikidata-oumou-sangare]
-external_ids: { wikidata: "Q467094" }
+external_ids: { wikidata: "Q467094", viaf: "46145971405132331620" }
 relations:
   - { type: born_in, target: place/bamako, sources: [source/wikidata-oumou-sangare], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q3703)" }
-sources: [source/wikipedia-oumou-sangare-en, source/wikipedia-oumou-sangare-fr, source/wikipedia-oumou-sangare-ar, source/wikidata-oumou-sangare]
+sources: [source/wikipedia-oumou-sangare-en, source/wikipedia-oumou-sangare-fr, source/wikipedia-oumou-sangare-ar, source/wikidata-oumou-sangare, source/wikidata]
 provenance:
   layer: own-research
   source: "English Wikipedia 'Oumou Sangaré' (revision 1363967117 of 13 July 2026), French Wikipedia 'Oumou Sangaré' (revision 237518920 of 2 July 2026), Arabic Wikipedia «أومو سانغاري» (revision 76168236 of 10 August 2026), and Wikidata Q467094 read through the Wikidata API, all checked 25 October 2026. No earlier record existed in data/person/ under any spelling (sangare / sangaré / sangari variants searched); this is a new build, not an enrichment. The birth-day conflict (25 vs 2 February, with Wikidata carrying 12 and 25 February) is recorded in the born block and stated in the prose rather than merged."

@@ -41,8 +41,8 @@ relations:
   - { type: member_of, target: group/chishtiyya, sources: [source/wikipedia-waris-ali-shah-ur] }
 
   - { type: lived_in, target: place/mecca, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/wikipedia-waris-ali-shah-en, source/wikipedia-waris-ali-shah-ur, source/wikidata-waris-ali-shah] }
-external_ids: { wikidata: "Q7969448" }
-sources: [source/wikipedia-waris-ali-shah-en, source/wikipedia-waris-ali-shah-ur, source/wikidata-waris-ali-shah]
+external_ids: { wikidata: "Q7969448", viaf: "107360451" }
+sources: [source/wikipedia-waris-ali-shah-en, source/wikipedia-waris-ali-shah-ur, source/wikidata-waris-ali-shah, source/wikidata]
 provenance:
   layer: own-research
   source: "English Wikipedia 'Waris Ali Shah' (revision 1379875805) and Urdu Wikipedia 'وارث علی شاہ' (revision 12029121), each fetched by its recorded revision id with the returned id asserted equal before use, and Wikidata item Q7969448 (item revision 2519164609). No Arabic Wikipedia article exists for him; the Arabic prose is written from the English and Urdu sources and says so. Existence checks by name fragments (waris, وارث علي شاه), by Arabic label across data/person, by biography and by QID found no prior record for this man. No group entity exists for the Warsi order he founded, so no founder_of edge is written; the member_of edge to group/chishtiyya rests on the Urdu text's statement that he stood in the traditional Chishti silsila. The lane queue gives 1823–1905; both article texts and Wikidata give his birth as 1817, which the record follows, with the discrepancy stated in the born note."

@@ -39,8 +39,8 @@ faith:
     sources: [source/wikipedia-sulayman-al-baruni-en, source/wikipedia-sulayman-al-baruni-fr, source/wikipedia-sulayman-al-baruni-ar]
 relations:
   - { type: born_in, target: place/jabal-nafusa, sources: [source/wikipedia-sulayman-al-baruni-en, source/wikipedia-sulayman-al-baruni-ar] }
-external_ids: { wikidata: "Q2440021" }
-sources: [source/wikipedia-sulayman-al-baruni-fr, source/wikipedia-sulayman-al-baruni-ar, source/wikipedia-sulayman-al-baruni-en, source/wikidata-sulayman-al-baruni]
+external_ids: { wikidata: "Q2440021", viaf: "71605372" }
+sources: [source/wikipedia-sulayman-al-baruni-fr, source/wikipedia-sulayman-al-baruni-ar, source/wikipedia-sulayman-al-baruni-en, source/wikidata-sulayman-al-baruni, source/wikidata]
 provenance:
   layer: own-research
   source: "English, French and Arabic Wikipedia articles on Sulayman al-Baruni (no Urdu article exists; the queue's spelling is Sulaiman al-Barouni), each fetched by its recorded revision id (EN 1373151132, FR 213939849, AR 77028127) with the returned id asserted equal before use, and Wikidata item Q2440021 (revision 2556863625). Existence checks by name fragments (Baruni, Barouni, الباروني) and by QID across data/person and data/source found no prior record. The lane queue gives 1872–1940; the sources support c. 1870 for the birth, recorded as debated."

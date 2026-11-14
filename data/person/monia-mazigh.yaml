@@ -34,7 +34,7 @@ relations:
     sources: [source/wikipedia-monia-mazigh-en, source/wikipedia-maher-arar-ar]
   - { type: born_in, target: place/tunis, sources: [source/wikidata-monia-mazigh], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q948)" }
 wings: [people, living]
-external_ids: { wikidata: Q3320709 }
-sources: [source/wikipedia-monia-mazigh-en, source/wikipedia-monia-mazigh-ar, source/wikipedia-monia-mazigh-ur, source/wikidata-monia-mazigh]
+external_ids: { wikidata: Q3320709, viaf: "56442050" }
+sources: [source/wikipedia-monia-mazigh-en, source/wikipedia-monia-mazigh-ar, source/wikipedia-monia-mazigh-ur, source/wikidata-monia-mazigh, source/wikidata]
 provenance: { layer: own-research, source: "Wikipedia (EN/AR/UR) and Wikidata Q3320709, consulted directly 26 Oct 2026", generated_by: "Muse (Muse Spark 1.3)", run: "century-additions-28" }
 status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }

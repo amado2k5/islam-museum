@@ -15,9 +15,10 @@ died: { edtf: "1852", precision: year, status: tradition, derived: true }
 relations:
   - { type: born_in, target: place/qazvin, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q181578)" }
   - { type: died_in, target: place/tehran, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q3616)" }
-sources: [source/duha-islam]
+sources: [source/duha-islam, source/wikidata]
 external_ids:
   wikidata: Q255221
+  viaf: "65315085"
 provenance:
   layer: own-research
   source: "Wikidata candidate; entry not yet read on the page in a book source"

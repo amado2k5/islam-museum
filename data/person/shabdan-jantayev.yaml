@@ -41,11 +41,13 @@ faith:
     sources: [source/wikipedia-shabdan-jantayev-ru, source/wikidata-shabdan-jantayev]
 external_ids:
   wikidata: Q4159909
+  viaf: "72461274"
 relations:
   - { type: born_in, target: place/chuy-region, sources: [source/wikidata-shabdan-jantayev], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q486370)" }
 sources:
   - source/wikipedia-shabdan-jantayev-ru
   - source/wikidata-shabdan-jantayev
+  - source/wikidata
 status: { review: published }
 provenance:
   layer: own-research

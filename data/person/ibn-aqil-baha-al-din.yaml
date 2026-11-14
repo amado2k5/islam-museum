@@ -15,9 +15,10 @@ born: { edtf: "1298", calendar: gregorian, precision: year, derived: true, note:
 died: { edtf: "1367", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar Confirmed on 13 November 2026 against Wikidata Q12178189 (P570, a statement with a reference), item revision 2533245671.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/misr, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/al-aalam] }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q12178189
+  viaf: "25413131"
 provenance:
   layer: own-research
   source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"

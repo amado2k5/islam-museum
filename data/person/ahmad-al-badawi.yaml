@@ -20,7 +20,8 @@ provenance:
   run: lib-shadharat-batch-39
 external_ids:
   wikidata: Q2485411
-sources: [source/shadharat-dhahab]
+  viaf: "65388741"
+sources: [source/shadharat-dhahab, source/wikidata]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
 relations:
   - { type: lived_in, target: place/gilan, note: "Place association from the person's nisba/name (jilani); denotes association, not proven residence.", sources: [source/shadharat-dhahab], confidence: low }

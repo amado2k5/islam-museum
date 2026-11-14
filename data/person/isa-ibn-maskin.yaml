@@ -6,24 +6,24 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لعيسى بن مسكين؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Isa ibn Maskin; the entry is not yet checked on the page."
+  ar: "عيسى بن مسكين الإفريقي، أبو محمد، شيخ المالكية بالمغرب وصاحب سحنون، وصفه الذهبي بالثقة الورع العابد وتولى القضاء مكرهاً، وتوفي سنة 295 هـ."
+  en: "Isa ibn Miskin al-Ifriqi, Abu Muhammad, shaykh of the Maliki school in the Maghrib and companion of Sahnun, whom al-Dhahabi calls trustworthy, scrupulous and devout; he took the judgeship unwillingly and died in 295 AH."
 wings: [people]
-regions: [egypt-nile]
+regions: [maghreb]
 periods: [period/abbasid-early]
 born: { edtf: "829", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tartib al-Madarik / Qadi Iyad" }
 died: { edtf: "908", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tartib al-Madarik / Qadi Iyad" }
 relations:
   - { type: lived_in, target: place/maskin, confidence: low, note: "Associated with Maskin per the record's own summary text; relation type pending review.", sources: [source/al-aalam] }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/siyar-alam-nubala-ideas-house]
 external_ids:
   wikidata: Q20394461
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Dhahabi, Siyar A'lam al-Nubala, one-volume edition (Bayt al-Afkar al-Dawliyya), entry read in full on the scanned pages 2994 (Apple Vision OCR on the harvest drive)"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-siyar-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3

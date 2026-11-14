@@ -1,29 +1,58 @@
 id: person/muhammad-ibn-abd-allah-ibn-al-muthanna
 class: person
 label:
-  ar: "محمد بن عبد الله بن المثنى"
-  en: "Muhammad ibn Abd Allah ibn al-Muthanna"
-roles: [scholar]
+  ar: محمد بن عبد الله بن المثنى
+  en: Muhammad ibn Abd Allah ibn al-Muthanna
+roles:
+  - scholar
 gender: male
 summary:
-  ar: "بطاقة أولية لمحمد بن عبد الله بن المثنى؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Muhammad ibn Abd Allah ibn al-Muthanna; the entry is not yet checked on the page."
-wings: [people]
-regions: [arabia]
-periods: [period/umayyad]
-sources: [source/al-aalam]
-born: { edtf: "738", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal" }
-died: { edtf: "830", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal" }
+  ar: محمد بن عبد الله بن المثنى الأنصاري الخزرجي البصري، أبو عبد الله، من نسل أنس بن مالك، محدث وقاضي البصرة في زمن الرشيد ثم قاضي الجانب الشرقي من بغداد؛ وثقه ابن معين وأبو حاتم وتكلم النقاد في غلبة الرأي عليه، وتوفي في رجب سنة ٢١٥هـ.
+  en: Muhammad ibn Abd Allah ibn al-Muthanna al-Ansari al-Khazraji al-Basri, Abu Abd Allah, a descendant of Anas ibn Malik, hadith narrator and judge of Basra under al-Rashid and later of the eastern side of Baghdad; Ibn Ma'in and Abu Hatim held him reliable while other critics remarked that opinion prevailed in him, and he died in Rajab 215 AH.
+wings:
+  - people
+regions:
+  - levant-iraq
+periods:
+  - period/abbasid-early
+sources:
+  - source/al-aalam
+  - source/siyar-alam-nubala-ideas-house
+born:
+  edtf: 0736~
+  hijri: "0118"
+  calendar: gregorian
+  precision: year
+  derived: true
+  note: "Corrected to the book: ولد سنة ثماني عشرة ومئة بحسب سماع محمد بن المثنى العنزي منه {cite:siyar-alam-nubala-ideas-house ص3523}; the card's 738 CE did not match 118 AH."
+died:
+  edtf: "0830"
+  hijri: "0215"
+  calendar: gregorian
+  precision: year
+  derived: true
+  note: مات بالبصرة في رجب سنة خمس عشرة ومئتين {cite:siyar-alam-nubala-ideas-house ص3524}.
 relations:
-  - { type: lived_in, target: place/jazirat-al-arab, confidence: low, note: "Umayyad-era figure (regions: arabia); no specific town attested.", sources: [source/al-aalam] }
+  - type: lived_in
+    target: place/basra
+    note: Judge of Basra (Siyar, p. 3523).
+    sources:
+      - source/siyar-alam-nubala-ideas-house
+    confidence: high
+  - type: lived_in
+    target: place/baghdad
+    note: Held the judgeship of the eastern side of Baghdad (Siyar, p. 3524).
+    sources:
+      - source/siyar-alam-nubala-ideas-house
+    confidence: high
 external_ids:
   wikidata: Q12240187
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: al-Dhahabi, Siyar A'lam al-Nubala, one-volume edition (Bayt al-Afkar al-Dawliyya), entry read in full on the scanned pages 3523-3524 (Apple Vision OCR on the harvest drive)
+  generated_by: Claude Code (Lane B2 packet)
+  model: claude-sonnet-5-5
+  run: web-b2-siyar-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3

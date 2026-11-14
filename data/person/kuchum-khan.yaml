@@ -16,9 +16,10 @@ periods: [period/gunpowder-empires]
 died: { edtf: "1601~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
 relations:
   - { type: lived_in, target: place/khurasan, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/tarikh-islam-hasan-ibrahim] }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 external_ids:
   wikidata: Q138237
+  viaf: "296506630"
 provenance:
   layer: own-research
   source: "Wikidata Q138237 (religion claim Islam); book source: Tarikh al-Islam (Hasan Ibrahim) — entry not yet read on the page"

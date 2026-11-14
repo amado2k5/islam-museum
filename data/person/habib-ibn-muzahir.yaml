@@ -15,9 +15,10 @@ died: { edtf: "680", calendar: gregorian, precision: year, derived: true, note: 
 relations:
   - { type: born_in, target: place/hijaz, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/karbala, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/kamil-ibn-al-athir]
+sources: [source/kamil-ibn-al-athir, source/wikidata]
 external_ids:
   wikidata: Q4118309
+  viaf: "194147665851960670004"
 provenance:
   layer: own-research
   source: "Wikidata candidate; book source: Ibn al-Athir, al-Kamil — entry not yet read on the page"

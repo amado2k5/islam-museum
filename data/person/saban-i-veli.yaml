@@ -16,9 +16,10 @@ died: { edtf: "1569", precision: year, status: tradition, derived: true }
 relations:
   - { type: born_in, target: place/kastamonu-province, sources: [source/wikidata], confidence: low, note: "Wikidata Q2671081 ('Hanönü'), located in Kastamonu Province" }
   - { type: died_in, target: place/kastamonu-province, sources: [source/wikidata], confidence: low, note: "Wikidata Q2671081 ('Hanönü'), located in Kastamonu Province" }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q20477268
+  viaf: "13111345"
 provenance:
   layer: own-research
   source: "Wikidata candidate; entry not yet read on the page in a book source"

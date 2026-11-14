@@ -18,9 +18,10 @@ died: { edtf: "1628", calendar: gregorian, precision: year, derived: true, note:
 relations:
   - { type: born_in, target: place/erefliko-hisar, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/sk-dar, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q724488
+  viaf: "140016457"
 provenance:
   layer: own-research
   source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"

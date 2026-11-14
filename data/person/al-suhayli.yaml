@@ -17,8 +17,8 @@ provenance:
   source: "شذرات الذهب — ابن العماد (ج3، سنين 350–600)"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-shadharat-batch-30
-external_ids: { wikidata: "Q4703267" }
-sources: [source/shadharat-dhahab]
+external_ids: { wikidata: "Q4703267", viaf: "90041432" }
+sources: [source/shadharat-dhahab, source/wikidata]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
 relations:
   - { type: lived_in, target: place/al-andalus, note: "Place association from the person's nisba/name (الأندلسي); denotes association, not proven residence.", sources: [source/shadharat-dhahab], confidence: low }

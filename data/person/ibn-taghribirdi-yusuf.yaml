@@ -22,7 +22,7 @@ relations:
   - { type: born_in, target: place/amasya, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/cairo, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: buried_in, target: place/cairo, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-external_ids: { wikidata: "Q481499", biblissima: "Q273" }
-sources: [source/mawsuat-a3lam-ulama-adaba, source/daw-lami-jil-1992, source/biblissima]
+external_ids: { wikidata: "Q481499", biblissima: "Q273", viaf: "34592187" }
+sources: [source/mawsuat-a3lam-ulama-adaba, source/daw-lami-jil-1992, source/biblissima, source/wikidata]
 status: { review: published, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 4 pp. 491, lib-mawsuat-a3lam" }
 provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج4 ص491", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam, lib-daw-lami-batch-1-2026-10-31" }

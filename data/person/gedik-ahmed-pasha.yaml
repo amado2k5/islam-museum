@@ -15,9 +15,10 @@ periods: [period/mongol-post-mongol]
 relations:
   - { type: born_in, target: place/serbian-despotate, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/edirne, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/dawlat-uthmaniyya-salabi, source/encyclopaedia-of-islam-2]
+sources: [source/dawlat-uthmaniyya-salabi, source/encyclopaedia-of-islam-2, source/wikidata]
 external_ids:
   wikidata: Q539183
+  viaf: "311580295"
 provenance:
   layer: own-research
   source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, PDF p. 314, article 'Ahmad Pasha, Gedik' signed Halil Inalcik (EI2 enrichment, batch ei2-b003 part 3ck); Wikidata Q539183 for the identifier"

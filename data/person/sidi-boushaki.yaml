@@ -22,9 +22,10 @@ relations:
   - { type: lived_in, target: place/bejaia, sources: [source/wikidata], confidence: low, note: "Wikidata P551 residence (Wikidata Q59975)" }
   - { type: lived_in, target: place/algeria, sources: [source/wikidata], confidence: low, note: "Wikidata P937 work location (Wikidata Q262)" }
   - { type: lived_in, target: place/tunis, sources: [source/wikidata], confidence: low, note: "Wikidata P937 work location (Wikidata Q948)" }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q19629001
+  viaf: "90056312"
 provenance:
   layer: own-research
   source: "Wikidata Q19629001 (religion claim Islam); book source: al-Zirikli, al-A'lam — entry not yet read on the page"

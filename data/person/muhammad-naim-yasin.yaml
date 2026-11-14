@@ -15,9 +15,10 @@ born: { edtf: "1943", calendar: gregorian, precision: year, derived: true, note:
 died: { edtf: "2023", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: International Islamic Fiqh Academy" }
 relations:
   - { type: born_in, target: place/salfit, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1972013)" }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q104010317
+  viaf: "2705831"
 provenance:
   layer: own-research
   source: "Wikidata candidate; entry not yet read on the page in a book source"

@@ -16,8 +16,8 @@ relations:
   - { type: died_in, target: place/kufa, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: lived_in, target: place/kufa, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: student_of, target: person/ibrahim-al-nakhai, role: "تفقه به (PDF ص44)", sources: [source/tabaqat-fuqaha-abbas-1981] }
-external_ids: { wikidata: "Q12208657" }
-sources: [source/tabaqat-fuqaha-abbas-1981]
+external_ids: { wikidata: "Q12208657", viaf: "285839597" }
+sources: [source/tabaqat-fuqaha-abbas-1981, source/wikidata]
 provenance:
   layer: "own-research"
   source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص44–47"

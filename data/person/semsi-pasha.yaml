@@ -16,9 +16,10 @@ relations:
   - { type: born_in, target: place/bolu, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q200951)" }
   - { type: died_in, target: place/istanbul, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q406)" }
   - { type: buried_in, target: building/semsi-pasha-mosque, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q1572431)" }
-sources: [source/dawlat-uthmaniyya-salabi]
+sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
 external_ids:
   wikidata: Q8082467
+  viaf: "26968420"
 provenance:
   layer: own-research
   source: "Wikidata candidate; book source: al-Sallabi, al-Dawla al-Uthmaniyya — entry not yet read on the page"
