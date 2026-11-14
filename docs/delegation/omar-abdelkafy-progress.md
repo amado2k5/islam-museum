@@ -4309,6 +4309,18 @@ Resume point: sharh-saheeh-al-bukhare episode 32 (branch from origin/main).
 
 Resume point: sharh-saheeh-al-bukhare episode 33 (branch from origin/main).
 
+### alwaad-alhaq ep24 (14 Nov 2026)
+
+21 points written for episode 24 (ar, en, ur); 15 needs_source marks for this episode in each language file; concept and person links added for the reckoning, the scale, intercession, the praised station, patience, grievances, the basin, Adam, Nuh, Ibrahim, Isa, Talha ibn Ubaydullah and al-Hasan al-Basri. Quran verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
+
+| Excluded (alwaad-alhaq ep24) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening recitation, greetings and the studio remark about the pages written | ep24 00:00:00-00:02:30; 00:46:00 | Not lesson content | Content rule | Open |
+| Abu Bakr named as first among those entering without reckoning, and a list of beasts including dinosaurs | ep24 00:19:30; 00:05:30 | Garbled and not supported by the transcript | Clarity | Open |
+| Years-per-scroll figure and remarks on the number of those denying a Lord | ep24 00:46:30; 00:45:00 | Garbled transcript, unsourced statistics | Clarity / Content rule | Open |
+| Loops and garbled stretches | ep24 00:03:00; 00:11:00; 00:30:30-00:31:00; 00:39:00; 00:41:00-00:41:30; 00:45:30; 00:49:00-00:51:00; 00:51:00 | Repeated token loops or unrecoverable ASR | Clarity, Loop check | Open |
+
+Resume point: alwaad-alhaq episode 25 (branch from origin/main).
 ### sharh-saheeh-al-bukhare ep33 (14 Nov 2026)
 
 27 points written for episode 33 (ar, en, ur); 20 needs_source marks in each language file for this episode; 6 new `about` edges. Quran verses referenced only through passage links (35-10, 17-78, 39-53, 14-37, 12-24, 5-24, 8-12); none typed. Contested: He holds that jihad is the cornerstone of Islam and that names two situations in which jihad applies, gives fixed rules on which voluntary fasts to keep, and states the figure of twenty-eight campaigns in seven years and several scholars' duties without references; all are attributed to him as his own view. Checked line by line against the transcript by a second reader before merge.
