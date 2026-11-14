@@ -975,6 +975,9 @@ Nothing is registered this turn. Each registration needs the three-part commit i
 
 - Approval: dec-20261114-277. The scan finished: 308 searched in all, 19 matched by Wikidata id. Linked in p58 (15) and here (al-dimyati Q317200, dates 1217 and 1306 agree). Left for the founder: terken-khatun, abd-al-malik-ibn-habib, ibrahim-al-halabi (listed in p58). Candidates 739 onward do not exist (the list of persons born 600 to 1500 CE with a Wikidata id ends at 738).
 
+## 2026-11-14 (Lane B1 place prose, packet 2)
+
+Wrote ar, en and ur prose for vila, th-nia, el-mahalla-el-kubra, ioannina, kirkuk, beaufort-castle, yerevan, plo-nik, dhi-as-sufal, tartus from Pleiades (page JSON, accessed 14 Nov 2026) and iDAI.gazetteer (accessed 14 Nov 2026). Yaqut vols 1-2 OCR searched: no entries for any of the ten (the OCR reaches only to about the letter thaa/dhal), so `source/mujam-al-buldan-yaqut` was not added. Skipped: none.
 ## 2026-11-14 (Lane B2 packet pktc) — Siyar entries, six persons
 
 - Written (ar, en, ur, draft; source al-Dhahabi, Siyar A'lam al-Nubala, ideas-house edition): hisham-ibn-amr-al-fuwati (pp. 4094-4095, Mu'tazili, labelled first), amir-ibn-abd-allah-ibn-al-zubayr (pp. 2111-2112, page re-read; entry follows the end of Abu Ubayda's entry), ashab-ibn-jubayr (pp. 1138-1139), ahmad-ibn-al-hasan-ibn-kharrash (pp. 752-753), abu-al-hasan-al-bahili (p. 1397, Ash'ari), muhammad-ibn-sad-ibn-abi-waqqas (pp. 3436-3437).
