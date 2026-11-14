@@ -54,6 +54,7 @@ open a new block on top with the new version and today's date.
 - **VIAF identifiers added to twenty-five persons.** Napoleon, Ataturk, Naguib Mahfouz, Mimar Sinan, Abu Nuwas, Ibn Battuta, Umar ibn al-Khattab, Ibn Khaldun, Akbar and sixteen others now carry their VIAF number, taken from the single VIAF statement on their Wikidata item (decision dec-20261114-277).
 ### Data
 - **Four more hadith scholars have full trilingual biographies from al-Dhahabi's Siyar A'lam al-Nubala', cited to the page:** Zakariyya ibn Adi, Bashshar ibn Musa (critics' disagreement given to each speaker), Ahmad ibn al-Furat and al-Hasan ibn Sallam. **Four cards were corrected to what the book says:** Bashshar ibn Musa's death year (843, not 887) and the uncited birth year removed; al-Hasan ibn Sallam's death (890, not 884); Ahmad ibn al-Furat now lives in Isfahan, not Baghdad (the old link belonged to another Ibn al-Furat); Ali ibn Khashram now lives in Merv, not Kufa.
+- **iDAI.gazetteer links added to thirteen more cities.** Rotterdam, Sheffield, Skopje, Tokat, Trabzon, Varna, Xi'an, Yozgat, Tulkarm and four others now carry their iDAI identifier, each chosen only where exactly one populated place within 1.5 km matches our GeoNames number (decision dec-20261114-277).
 
 ## v1.30.0 — 2026-11-14
 ### Added
