@@ -1,0 +1,85 @@
+id: event/al-hadi-halts-at-khiwan-and-meets-the-sons-of-yafur-at-al-ghayl-290
+class: event
+kind: other
+label:
+  ar: "إقامة الهادي بخيوان ولقاؤه ابني يعفر بالغيل وأخذ أيمانهما، جمادى الأولى 290هـ"
+  en: "Al-Hadi halts at Khiwan and, through al-Da'am, takes the oaths of the two sons of Ya'fur at al-Ghayl, Jumada I 290 AH"
+  ur: "ہادی کا خیوان میں قیام اور دعام کے ذریعے الغیل میں یعفر کے دو بیٹوں سے عہد لینا، جمادی الاولیٰ 290ھ"
+summary:
+  ar: "أقام الهادي بخيوان أياماً وكان ابن الضحاك مائلاً إلى آل طريف فهرب من البلد، فكلمه ناس في قطع ماله وهدم منزله فكره ذلك، ثم نزل بيت ذؤد وكتب الدعام إلى ابني يعفر أن يلقياه بـالبون، فالتقوا بـالغيل وأخذ محمد بن سعيد عليهما الأمان والعهود والمواثيق."
+  en: "al-Hadi stayed some days at Khiwan, where Ibn al-Dahhak, who leaned toward Al Tarif, fled the town; people spoke to al-Hadi about cutting off his property and razing his house, which he disliked, and he went on to Bayt Dhu'd; al-Da'am wrote to the two sons of Ya'fur to meet him at al-Bawn, and they met at al-Ghayl, where Muhammad ibn Sa'id took safety, covenants and pledges from them."
+  ur: "ہادی خیوان میں کچھ دن ٹھہرے جہاں ابن الضحاک، جو آل طریف کی طرف مائل تھا، شہر سے بھاگ گیا؛ کچھ لوگوں نے ہادی سے اس کا مال ضبط کرنے اور گھر ڈھانے کی بات کی جو انہوں نے ناپسند کی، پھر وہ بیت ذؤد گئے؛ دعام نے یعفر کے دو بیٹوں کو لکھا کہ البون میں ملیں اور وہ الغیل میں ملے جہاں محمد بن سعید نے ان سے امان، عہد اور پیمان لیے۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0903-04"
+    hijri: "0290-05"
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: "جمادى الأولى سنة 290هـ بنص الكتاب، والسنة مستنتجة من الترتيب بعد صفر 290هـ؛ التحويل مشتق"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/al-daam-ibn-ibrahim
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-yafur
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-tarif
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ibn-al-dahhak-rebel-at-khiwan-286
+  role: "ابن الضحاك كما سماه الكتاب، محتمل"
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/muhammad-ibn-said-ibn-yusuf
+  role: "رجل أرسله الهادي مع الدعام، محتمل"
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/khiwan
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/bayt-dhud-yemen
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/al-ghayl-al-bawn-yemen
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/al-bawn-yemen
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص245-246 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-29
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 245-246

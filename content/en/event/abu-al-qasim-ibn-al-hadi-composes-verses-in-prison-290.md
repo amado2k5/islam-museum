@@ -1,0 +1,11 @@
+---
+id: event/abu-al-qasim-ibn-al-hadi-composes-verses-in-prison-290
+lang: en
+source_lang: ar
+translators: ["Claude Sonnet 5.5 (claude-sonnet-5-5), draft translation"]
+---
+## Overview
+Under the heading "report of the verses of Abu al-Qasim, son of al-Hadi" the book gives lines it ascribes to Abu al-Qasim in his imprisonment {cite:sira-hadi-ila-al-haqq p.253}. In the first he says his heart is not frightened by the weight of the irons and that he did not come to them with lances except on a covenant they did not keep, and he reproaches Hamdan for leaving them and not keeping the Prophet's covenant, saying that had [[group/khawlan-tribe|Khawlan]] been around him he would not have accepted being left, and he mentions those who kept faith and praises the imam {cite:sira-hadi-ila-al-haqq p.253} {cite:sira-hadi-ila-al-haqq p.254}. In another piece he addresses a man of Al Tarif, denying that he sought a lasting kingdom of this world and saying he rose to avenge the cause of his Lord, and he reproaches them for what he sees in their conduct, and says his father is the imam {cite:sira-hadi-ila-al-haqq p.254}.
+
+## Detail
+In a third piece he says their fetters count for less in his eyes than dust and that panic is not the way of his people, and in a fourth he addresses [[person/abu-al-ghasham-ibn-tarif|Abu al-Ghasham]], speaking of what he sees as the man's descent and of the strait Shibam has become for them; a fifth begins at the foot of p. 255 and continues on p. 256 {cite:sira-hadi-ila-al-haqq p.254} {cite:sira-hadi-ila-al-haqq p.255}. The museum does not reproduce the lines, nor the words of insult in them, and gives only their sense as the book has it. The book ascribes the verse to Abu al-Qasim and the museum has not checked the attribution. Before this is [[event/jaftam-is-seized-at-arthal-and-jailed-at-bayt-bus-290|the seizing of Jaftam and his jailing at Bayt Bus]]. The link of Abu al-Ghasham to the record of Abu al-Ghasham ibn Tarif is probable only, since the book does not give his line here. The museum read in the original's margin a gloss of "al-bugha'" as loose dust.
