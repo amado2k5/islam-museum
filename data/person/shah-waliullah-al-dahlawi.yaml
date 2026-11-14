@@ -1,36 +1,62 @@
 id: person/shah-waliullah-al-dahlawi
 class: person
 label:
-  ar: "شاه ولي الله الدهلوي"
-  en: "Shah Waliullah Dehlawi"
-roles: [muhaddith]
+  ar: شاه ولي الله الدهلوي
+  en: Shah Waliullah Dehlawi
+roles:
+- muhaddith
 gender: male
 summary:
-  ar: "بطاقة أولية لشاه ولي الله الدهلوي، محدث الهند ومجددها في القرن الثامن عشر وصاحب «حجة الله البالغة»؛ توفي سنة ١٧٦٢م ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Shah Waliullah al-Dahlawi, the eighteenth-century hadith scholar and renewer of India, author of Hujjat Allah al-Baligha; he died in 1762 and his entry is not yet checked on the page."
-wings: [people]
-regions: [south-asia]
-periods: [period/gunpowder-empires]
-died: { edtf: "1762", precision: year, status: tradition, derived: true }
+  ar: أحمد بن عبد الرحيم الفاروقي الدهلوي الهندي، أبو عبد العزيز، الملقب شاه ولي الله، فقيه حنفي من المحدثين، صاحب حجة الله البالغة؛ ١١١٠ إلى ١١٧٦هـ.
+  en: Ahmad ibn Abd al-Rahim al-Faruqi al-Dahlawi al-Hindi, Abu Abd al-Aziz, called Shah Waliullah, a Hanafi jurist among the hadith scholars and author of Hujjat Allah al-Baligha; 1110 to 1176 AH.
+wings:
+- people
+regions:
+- south-asia
+periods:
+- period/gunpowder-empires
+died:
+  edtf: '1762'
+  precision: year
+  status: tradition
+  derived: true
 relations:
-  - { type: born_in, target: place/delhi, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1353)" }
-sources: [source/duha-islam, source/wikidata]
+- type: born_in
+  target: place/delhi
+  sources:
+  - source/wikidata
+  confidence: medium
+  note: Wikidata P19 place of birth (Wikidata Q1353)
+sources:
+- source/duha-islam
+- source/wikidata
+- source/al-aalam
+- source/alam-zirikli-dar-al-ilm-2002
 external_ids:
   wikidata: Q392835
-  viaf: "71535292"
+  viaf: '71535292'
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text
+  generated_by: Claude Code (Lane B2 packet)
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 importance: 2
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 occupations:
-  - job: job/muhaddith
-    kind: primary
-    status: historical
-    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
-    sources: [source/duha-islam]
+- job: job/muhaddith
+  kind: primary
+  status: historical
+  note: bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep
+  sources:
+  - source/duha-islam
+born:
+  edtf: '1699'
+  calendar: gregorian
+  precision: year
+  derived: true
+  note: From the A'lam entry, given as AH = CE (al-Zirikli, al-A'lam, vol. 1 p. 148).
+  sources:
+  - source/alam-zirikli-dar-al-ilm-2002

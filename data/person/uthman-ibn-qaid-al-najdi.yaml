@@ -6,23 +6,23 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لعثمان بن قائد النجدي، إمام وفقيه القرن السابع عشر، توفي سنة ١٦٨٦م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Uthman ibn Qa'id al-Najdi, the seventeenth-century imam and jurist, d. 1686; the biographical entry is not yet checked on the page."
+  ar: "عثمان بن أحمد بن سعيد بن عثمان بن قائد النجدي، فقيه حنبلي من أفاضل النجديين، ولد في العيينة بنجد ورحل إلى دمشق ثم القاهرة وتوفي فيها سنة ١٠٩٧هـ الموافقة ١٦٨٦م."
+  en: "Uthman ibn Ahmad ibn Sa'id ibn Uthman ibn Qa'id al-Najdi, a Hanbali jurist and one of the most distinguished Najdis, born at al-Uyayna in Najd, who travelled to Damascus and then Cairo and died there in 1097 AH, equal to 1686 CE."
 wings: [people]
 regions: [arabia]
 periods: [period/gunpowder-empires]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q105359548
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0064
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 died: { edtf: "1686", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Suhub al-Wabila ala Dara'ih al-Hanabila Confirmed on 13 November 2026 against Wikidata Q105359548 (P570, a statement with a reference), item revision 2533262805.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/najd, confidence: low, note: "Association inferred from the nisba in the name 'Uthman ibn Qa'id'; specific residence not individually documented.", sources: [source/al-aalam] }

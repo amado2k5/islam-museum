@@ -1,0 +1,18 @@
+id: concept/canon-dull-pain
+class: concept
+kind: scientific
+label: { ar: "الوجع الخدر عند ابن سينا", en: "Dull pain in the Canon", ur: "سن کرنے والا درد، قانون کے مطابق" }
+summary:
+  ar: "سبب الوجع الخدر عند ابن سينا إما مزاج شديد البرد، وإما انسداد مسام منافذ الروح الحساس الجاري إلى العضو بالعصب، وإما امتلاء الأوعية {cite:canon-ibn-sina-print-v1 p.150}."
+  en: "For Ibn Sina dull pain comes from a very cold temperament, from blocked pores in the passages of the sensing spirit running to the organ by a nerve, or from fullness of vessels {cite:canon-ibn-sina-print-v1 p.150}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/disease, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, Ta'lim 2, part 2 chapters 19 to 29 on pain, pleasure, indigestion and weakness (scan pages 147 to 153), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-fann2-jumla2-ch19-29
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

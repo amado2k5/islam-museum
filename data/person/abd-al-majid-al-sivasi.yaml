@@ -6,24 +6,25 @@ label:
 roles: [sufi, preacher, scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لعبد المجيد السيواسي، الشيخ الخلوتي والواعظ العثماني الكبير، توفي سنة ١٦٣٩م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abd al-Majid al-Sivasi, the great Ottoman Khalwati shaykh and preacher, d. 1639; the biographical entry is not yet checked on the page."
+  ar: "عبد المجيد شمس الدين بن محرم أبي الليث بن محمد السيواسي، واعظ من علماء الدولة العثمانية، استدعاه السلطان محمد الثالث من سيواس إلى الآستانة فأقام للوعظ والإرشاد إلى أن توفي، وله نحو عشرين كتاباً ورسالة؛ ٩٧١ إلى ١٠٤٩هـ الموافقة ١٥٦٤ إلى ١٦٣٩م."
+  en: "Abd al-Majid, Shams al-Din, ibn Muharram, Abu al-Layth, ibn Muhammad al-Sivasi, a preacher among the scholars of the Ottoman state, summoned by Sultan Mehmed III from Sivas to Istanbul, where he stayed preaching and guiding until his death, author of about twenty books and treatises; 971 to 1049 AH, equal to 1564 to 1639 CE."
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q55147141
   viaf: "34138151"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0083
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 died: { edtf: "1639", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV İslâm Ansiklopedisi ('Abdülmecid Sivâsî': 975–1049 AH)" }
+born: { edtf: "1564", calendar: gregorian, precision: year, derived: true, note: "From the A'lam entry, converted from the Hijri year it gives", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
   - { type: lived_in, target: place/anatolia, note: "From text: Ottoman (nationality adjective); broad association, flagged for review.", sources: [source/al-aalam], confidence: low }
