@@ -33,8 +33,8 @@ relations:
   - { type: lived_in, target: place/france, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mamady-doumbouya] }
   - { type: lived_in, target: place/guinea, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mamady-doumbouya] }
   - { type: successor_of, target: person/alpha-conde, sources: [source/wikipedia-mamady-doumbouya-en] }
-external_ids: { wikidata: "Q108418519" }
-sources: [source/wikipedia-mamady-doumbouya-en, source/wikipedia-mamady-doumbouya-ar, source/wikidata-mamady-doumbouya]
+external_ids: { wikidata: "Q108418519", viaf: "4800172278365412660003" }
+sources: [source/wikipedia-mamady-doumbouya-en, source/wikipedia-mamady-doumbouya-ar, source/wikidata-mamady-doumbouya, source/wikidata]
 provenance:
   layer: own-research
   source: "English Wikipedia 'Mamady Doumbouya' (revision 1377858002 of 1 October 2026), Arabic Wikipedia 'مامادي دومبوي' (revision 74987986 of 4 June 2026) and Wikidata item Q108418519 (item revision 2552269088 of 2 October 2026), read via the MediaWiki API on 26 October 2026; every article was fetched by its recorded revision id and the returned id asserted equal before any claim was drawn, and the Wikidata item revision was read from the API itself (its date is internally coherent); the French article (revision 240516074 of 19 October 2026) was also read, for its note on the disputed birth date. Existence was checked by filename fragments under all spellings (doumbouya, mamady, mamadi), by Arabic label, by biography and by the QID route across data/person/ — no earlier record exists, and his Arabic label matches no existing record's label. No Urdu article exists, so the Urdu label is a transliteration and the Urdu prose cites the English and Arabic sources. No place entity exists for Kankan, so no born_in edge is written. His successor_of edge to Alpha Condé is written in his own record: Doumbouya succeeded Condé as president of Guinea — his coup of 5 September 2021 deposed Condé and he was sworn in as interim president on 1 October 2021."

@@ -11,13 +11,14 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
-sources: [source/dawlat-uthmaniyya-salabi]
+sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
 born: { edtf: "1572", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi Confirmed on 13 November 2026 against Wikidata Q22935671 (P569, a statement with a reference), item revision 2564051164.", sources: [source/wikidata] }
 died: { edtf: "1644", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi Confirmed on 13 November 2026 against Wikidata Q22935671 (P570, a statement with a reference), item revision 2564051164.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/ottoman-empire, confidence: low, note: "Ottoman-era figure of the Anatolia-Balkans world (regions: anatolia-balkans); no specific city attested in consulted sources.", sources: [source/dawlat-uthmaniyya-salabi] }
 external_ids:
   wikidata: Q22935671
+  viaf: "28270002"
 provenance:
   layer: own-research
   source: "Wikidata candidate; book source: al-Shalabi, al-Dawla al-Uthmaniyya — entry not yet read on the page"

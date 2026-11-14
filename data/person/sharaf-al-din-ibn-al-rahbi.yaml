@@ -17,9 +17,10 @@ died: { edtf: "1269", calendar: gregorian, precision: year, derived: true, note:
 relations:
   - { type: born_in, target: place/damascus, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q3766)" }
 tags: [tibb-browser, tibb-tibb]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q12218521
+  viaf: "90080439"
 provenance:
   layer: own-research
   source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"

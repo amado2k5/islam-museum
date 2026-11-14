@@ -15,9 +15,10 @@ born: { edtf: "1331", calendar: gregorian, precision: year, derived: true, note:
 died: { edtf: "1395", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar Confirmed on 13 November 2026 against Wikidata Q57658587 (P570, a statement with a reference), item revision 2534222072.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/daher, confidence: low, note: "Associated with الظاهر per the record's own summary text; relation type pending review.", sources: [source/al-aalam] }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q57658587
+  viaf: "71182385"
 provenance:
   layer: own-research
   source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.6 p.187)"

@@ -14,9 +14,10 @@ periods: [period/contemporary-era]
 died: { edtf: "2021", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Hanbali Biographical Registry" }
 relations:
   - { type: born_in, target: place/damascus, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q3766)" }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q108165874
+  viaf: "170714542"
 provenance:
   layer: own-research
   source: "Wikidata candidate; entry not yet read on the page in a book source"

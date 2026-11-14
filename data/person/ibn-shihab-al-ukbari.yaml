@@ -15,9 +15,10 @@ died: { edtf: "1037", calendar: gregorian, precision: year, derived: true, note:
 relations:
   - { type: born_in, target: place/ukbara, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/ukbara, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/al-aalam, source/muntazam-ibn-al-jawzi]
+sources: [source/al-aalam, source/muntazam-ibn-al-jawzi, source/wikidata]
 external_ids:
   wikidata: Q96979806
+  viaf: "174547882"
 provenance:
   layer: own-research
   source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"

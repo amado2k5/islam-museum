@@ -14,9 +14,10 @@ periods: [period/crusades-ayyubid-mamluk]
 died: { edtf: "1214", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Nayl al-Ibtihaj Confirmed on 13 November 2026 against Wikidata Q54967162 (P570, a statement with a reference), item revision 2515562494.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/al-andalus, confidence: low, note: "Associated with الأندلس per the record's own text; relation type pending review.", sources: [source/al-aalam] }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q54967162
+  viaf: "25167319079377740552"
 provenance:
   layer: own-research
   source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"

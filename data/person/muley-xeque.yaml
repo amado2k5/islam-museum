@@ -16,9 +16,10 @@ died: { edtf: "1621", calendar: gregorian, precision: year, derived: true, note:
 relations:
   - { type: born_in, target: place/marrakesh, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q101625)" }
   - { type: died_in, target: place/vigevano, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q40832)" }
-sources: [source/bosworth-new-islamic-dynasties-1996]
+sources: [source/bosworth-new-islamic-dynasties-1996, source/wikidata]
 external_ids:
   wikidata: Q6933935
+  viaf: "63232474"
 provenance:
   layer: own-research
   source: "Wikidata candidate; book source: Bosworth, The New Islamic Dynasties (1996) — entry not yet read on the page"

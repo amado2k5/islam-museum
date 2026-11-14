@@ -15,9 +15,10 @@ born: { edtf: "1188", calendar: gregorian, precision: year, derived: true, note:
 died: { edtf: "1239", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam Confirmed on 13 November 2026 against Wikidata Q113111619 (P570, a statement with a reference), item revision 2489839361.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/malaga, confidence: low, note: "Associated with Málaga per the record's own summary text; relation type pending review.", sources: [source/al-aalam] }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q113111619
+  viaf: "79444272"
 provenance:
   layer: own-research
   source: "Wikidata candidate; entry not yet read on the page in a book source"

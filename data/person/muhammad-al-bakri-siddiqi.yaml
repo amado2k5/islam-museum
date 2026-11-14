@@ -20,10 +20,10 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch79
-external_ids: { wikidata: "Q125494508" }
+external_ids: { wikidata: "Q125494508", viaf: "152974023" }
 relations:
   - { type: born_in, target: place/cairo, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q85)" }
-sources: [source/shadharat-dhahab]
+sources: [source/shadharat-dhahab, source/wikidata]
 status:
   review: published
   completeness: 3

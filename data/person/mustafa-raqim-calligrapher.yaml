@@ -17,7 +17,7 @@ relations:
   - { type: influenced_by, target: person/hafiz-osman, sources: [source/blair-islamic-calligraphy-2006] }
   - { type: lived_in, target: place/istanbul, sources: [source/blair-islamic-calligraphy-2006] }
   - { type: exemplifies, target: concept/thuluth-script, sources: [source/blair-islamic-calligraphy-2006] }
-sources: [source/blair-islamic-calligraphy-2006, source/al-aalam]
+sources: [source/blair-islamic-calligraphy-2006, source/al-aalam, source/wikidata]
 provenance:
   layer: own-research
   source: "source/blair-islamic-calligraphy-2006 scan pp. 541, 542, 543, 565"
@@ -27,6 +27,7 @@ provenance:
 status: { review: published, completeness: 2 }
 external_ids:
   wikidata: Q98854487
+  viaf: "310519351"
 occupations:
   - job: job/calligrapher
     kind: primary

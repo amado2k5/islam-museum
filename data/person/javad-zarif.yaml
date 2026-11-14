@@ -35,7 +35,8 @@ faith:
     sources: [source/wikipedia-zarif-ar, source/wikipedia-zarif-ur, source/wikidata-zarif, source/wikipedia-zarif-fa, source/wikipedia-zarif-en]
 external_ids:
   wikidata: "Q10296812"
-sources: [source/wikipedia-zarif-en, source/wikipedia-zarif-fa, source/wikipedia-zarif-ar, source/wikipedia-zarif-ur, source/wikidata-zarif]
+  viaf: "305457343"
+sources: [source/wikipedia-zarif-en, source/wikipedia-zarif-fa, source/wikipedia-zarif-ar, source/wikipedia-zarif-ur, source/wikidata-zarif, source/wikidata]
 provenance:
   layer: own-research
   source: "Built 27 October 2026 for wave 101 §A of the century-additions queue (queue line 554) from the English, Persian, Arabic and Urdu Wikipedia articles and the Wikidata item named in the sources list, each fetched by the recorded revision and asserted equal to it, the Wikidata item read twice with identical results and its QID grounded through the English article's pageprops (after resolving the redirect from 'Javad Zarif' to 'Mohammad Javad Zarif') and confirmed through every edition's pageprops. Existence checked both ways before building: name-fragment and slug-variant greps across data/person/ found no record for him (the zarif matches are classical namesakes, al-Shab al-Zarif and Çorlulu Zarifi), and his Q10296812 appears in no existing person record. No relations are written: no succession applies in this group, his named predecessor and successor as foreign minister and his spouse have no museum records, and Tehran has no place entity. The faith segment stays unknown on one infobox/structured family, the readings preserved in the faith note. He is recorded as living; no edition reports a death."

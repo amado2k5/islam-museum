@@ -26,11 +26,11 @@ faith:
     basis: unknown
     note: "No source read names any religious affiliation for him: the English and Persian articles are silent on religion and Wikidata carries no religion value. This is an absence configuration. His Iranian birth and family history — his father fled Iran after being placed on an execution list for broadcasting exit instructions to foreign nationals — are biography, not attestation, and no segment is recorded."
     sources: [source/wikipedia-pishevar-en, source/wikipedia-pishevar-fa, source/wikidata-pishevar]
-external_ids: { wikidata: "Q20987648" }
+external_ids: { wikidata: "Q20987648", viaf: "4920150325536510090005" }
 relations:
   - { type: born_in, target: place/tehran, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q3616)" }
   - { type: lived_in, target: place/san-francisco, sources: [source/wikidata], confidence: low, note: "Wikidata P551 residence (Wikidata Q62)" }
-sources: [source/wikipedia-pishevar-en, source/wikipedia-pishevar-fa, source/wikidata-pishevar]
+sources: [source/wikipedia-pishevar-en, source/wikipedia-pishevar-fa, source/wikidata-pishevar, source/wikidata]
 provenance:
   layer: own-research
   source: "Built 27 October 2026 for wave 103 §A of the century-additions queue (queue line 565) from the English and Persian Wikipedia articles and the Wikidata item named in the sources list, each fetched by the recorded revision and asserted equal to it, the Wikidata item read twice with identical results and its QID (Q20987648) grounded through the English article's pageprops. Editions also exist in Egyptian Arabic, Central Kurdish and Ukrainian; they were not read. Existence checked both ways before building: name-fragment and slug-variant greps across data/person/ found no record for him, and Q20987648 appears in no existing person record. No relations are written: founder_of is refused because Sherpa Capital and Hyperloop One have no museum group entities, and born_in is refused because Tehran has no place entity; the foundings are stated in the summary and prose. Region is persia-central-asia by his Tehran birth and origin. No Arabic or Urdu edition exists; the Arabic and Urdu prose is written from the English and Persian sources."

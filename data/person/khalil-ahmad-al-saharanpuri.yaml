@@ -17,9 +17,10 @@ relations:
   - { type: born_in, target: place/nanauta, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/medina, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: buried_in, target: place/al-baqi, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q6399686
+  viaf: "27248767"
 provenance:
   layer: own-research
   source: "Wikidata candidate; entry not yet read on the page in a book source"

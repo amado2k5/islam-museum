@@ -13,9 +13,10 @@ regions: [arabia]
 periods: [period/gunpowder-empires]
 relations:
   - { type: born_in, target: place/yemen-region, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q2152974)" }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q141150165
+  viaf: "14634144"
 provenance:
   layer: own-research
   source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"

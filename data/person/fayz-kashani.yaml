@@ -37,9 +37,10 @@ relations:
   - {type: student_of, target: person/baha-al-din-al-amili, sources: [source/wikipedia-fayz-kashani-en]}
   - {type: lived_in, target: place/isfahan, sources: [source/wikipedia-fayz-kashani-en]}
   - {type: lived_in, target: place/qumm, sources: [source/wikipedia-fayz-kashani-en, source/wikipedia-fayz-kashani-ar]}
-sources: [source/wikipedia-fayz-kashani-en, source/wikipedia-fayz-kashani-ar, source/iranica-fayz-kasani, source/wikidata-fayz-kashani, source/al-aalam]
+sources: [source/wikipedia-fayz-kashani-en, source/wikipedia-fayz-kashani-ar, source/iranica-fayz-kasani, source/wikidata-fayz-kashani, source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q97259499
+  viaf: "79264636"
 provenance:
   layer: own-research
   source: "Replaces the Devin wikidata-import draft stub at the same slug; identity follows Wikidata Q97259499, carried from the stub (the item page returns HTTP 403 to this session's fetcher and the identifier could not be re-verified; no facts were taken from it). All statements were checked against the registered sources read in session: the English and Arabic Wikipedia articles in full, and the Encyclopaedia Iranica article's bibliography with its companion articles. Al-A'lam is retained as an unread pointer from the stub. The stub named him 'Muhammad Murtada', conflating him with his father Shah Murtada; his name is Muhammad b. Murtada, known as Muhsin, laqab Fayz. The Arabic article names Qadi Sa'id al-Qummi among his students, confirming the student_of edge that record already carries to this one."

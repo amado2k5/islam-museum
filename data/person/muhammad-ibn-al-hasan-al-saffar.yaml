@@ -14,9 +14,10 @@ periods: [period/abbasid-fragmentation]
 died: { edtf: "903", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Najashi (Rijal) Confirmed on 13 November 2026 against Wikidata Q137649296 (P570, a statement with a reference), item revision 2547937348.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/qumm, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q170573)" }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q137649296
+  viaf: "96979152"
 provenance:
   layer: own-research
   source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"

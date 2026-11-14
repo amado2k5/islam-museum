@@ -14,9 +14,10 @@ periods: [period/gunpowder-empires]
 died: { edtf: "1512", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Confirmed on 13 November 2026 against Wikidata Q16676002 (P570, a statement with a reference), item revision 2524843550.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/anatolia, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/dawlat-uthmaniyya-salabi] }
-sources: [source/dawlat-uthmaniyya-salabi]
+sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
 external_ids:
   wikidata: Q16676002
+  viaf: "34363878"
 provenance:
   layer: own-research
   source: "Wikidata candidate; book source: al-Sallabi, al-Dawla al-Uthmaniyya — entry not yet read on the page"

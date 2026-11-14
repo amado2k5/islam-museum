@@ -15,9 +15,10 @@ born: { edtf: "1438", calendar: gregorian, precision: year, derived: true, note:
 died: { edtf: "1494", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica Confirmed on 13 November 2026 against Wikidata Q6411722 (P570, a statement with a reference), item revision 2566393970.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/khurasan, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/al-aalam] }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q6411722
+  viaf: "79263034"
 provenance:
   layer: own-research
   source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"

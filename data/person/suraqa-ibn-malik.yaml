@@ -23,6 +23,6 @@ relations:
   - { type: participated_in, target: event/hijra, role: "طارد ثم استأمن وصرف الطلب عنهما", sources: [source/mubarakpuri-raheeq, source/zad-al-maad] }
 
   - { type: lived_in, target: place/fars, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/mubarakpuri-raheeq, source/zad-al-maad, source/sahih-al-bukhari] }
-external_ids: { wikidata: "Q7645423" }
-sources: [source/mubarakpuri-raheeq, source/zad-al-maad, source/sahih-al-bukhari]
+external_ids: { wikidata: "Q7645423", viaf: "90077777" }
+sources: [source/mubarakpuri-raheeq, source/zad-al-maad, source/sahih-al-bukhari, source/wikidata]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 168-169" }

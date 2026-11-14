@@ -16,9 +16,10 @@ died: { edtf: "1848", precision: year, status: tradition, derived: true }
 relations:
   - { type: born_in, target: place/kurdamir, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/amasya, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q12849238
+  viaf: "38847755"
 provenance:
   layer: own-research
   source: "Wikidata candidate; entry not yet read on the page in a book source"

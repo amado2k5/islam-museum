@@ -18,8 +18,8 @@ provenance:
   run: lib-shadharat-batch-89; lib-muntazam-batch-22
   localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-fourth-40-stories-2026-11-04","source":"Urdu label and concise summary restated from this existing Arabic/English museum record and its defined sources; no new facts or source-page research."}
   model: "unknown"
-external_ids: { wikidata: "Q12177937" }
-sources: [source/shadharat-dhahab, source/muntazam-ibn-al-jawzi]
+external_ids: { wikidata: "Q12177937", viaf: "242793568" }
+sources: [source/shadharat-dhahab, source/muntazam-ibn-al-jawzi, source/wikidata]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
 relations:
   - { type: lived_in, target: place/iraq, note: "From text: imam of Iraq", sources: [source/shadharat-dhahab, source/muntazam-ibn-al-jawzi] }

@@ -46,8 +46,8 @@ relations:
   - { type: lived_in, target: place/mecca, note: "From text: studied at Mecca", sources: [source/wikipedia-abdul-karim-amrullah-en, source/wikipedia-abdul-karim-amrullah-id, source/wikipedia-abdul-karim-amrullah-ar, source/wikidata-abdul-karim-amrullah] }
   - { type: died_in, target: place/jakarta, sources: [source/wikipedia-abdul-karim-amrullah-en, source/wikipedia-abdul-karim-amrullah-id, source/wikidata-abdul-karim-amrullah] }
   - { type: student_of, target: person/ahmad-khatib-al-minangkabawi, sources: [source/wikipedia-abdul-karim-amrullah-en, source/wikipedia-abdul-karim-amrullah-id] }
-external_ids: { wikidata: "Q4665472" }
-sources: [source/wikipedia-abdul-karim-amrullah-en, source/wikipedia-abdul-karim-amrullah-id, source/wikipedia-abdul-karim-amrullah-ar, source/wikidata-abdul-karim-amrullah]
+external_ids: { wikidata: "Q4665472", viaf: "13686003" }
+sources: [source/wikipedia-abdul-karim-amrullah-en, source/wikipedia-abdul-karim-amrullah-id, source/wikipedia-abdul-karim-amrullah-ar, source/wikidata-abdul-karim-amrullah, source/wikidata]
 status: { review: published }
 provenance:
   layer: own-research

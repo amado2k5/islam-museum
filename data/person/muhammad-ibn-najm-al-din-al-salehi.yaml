@@ -14,9 +14,10 @@ periods: [period/gunpowder-empires]
 relations:
   - { type: born_in, target: place/damascus, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q3766)" }
   - { type: buried_in, target: place/al-salihiyya, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q4120560)" }
-sources: [source/shadharat-dhahab]
+sources: [source/shadharat-dhahab, source/wikidata]
 external_ids:
   wikidata: Q87740715
+  viaf: "9727325"
 provenance:
   layer: own-research
   source: "Wikidata candidate; book source: Ibn al-Imad, Shadharat al-Dhahab — entry not yet read on the page"

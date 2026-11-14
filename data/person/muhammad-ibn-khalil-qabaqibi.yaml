@@ -17,9 +17,10 @@ relations:
   - { type: born_in, target: place/aleppo, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q41183)" }
   - { type: died_in, target: place/jerusalem, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q1218)" }
   - { type: buried_in, target: place/mamilla-cemetery, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q1383277)" }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q110732653
+  viaf: "90058574"
 provenance:
   layer: own-research
   source: "Wikidata candidate; entry not yet read on the page in a book source"
