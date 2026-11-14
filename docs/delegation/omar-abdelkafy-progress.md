@@ -3670,3 +3670,18 @@ Resume point: sharh-saheeh-al-bukhare episode 10 (branch from origin/main).
 | Loop of one letter | ep15 01:16:00-01:16:30 | Repetition loop | Clarity, Loop check | Open |
 
 Resume point: sharh-saheeh-al-bukhare episode 16 (branch from origin/main).
+
+### alwaad-alhaq ep13 (14 Nov 2026)
+
+30 points written for episode 13 (ar, en, ur); 26 needs_source marks for this episode in each language file; 20 new about-links on the series record. Quran verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
+
+| Excluded (alwaad-alhaq ep13) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Umar's night address at the grave | ep13 00:30:30-00:31:00 | Garbled, wording not recoverable | Clarity | Open |
+| Asma bint Umays and the camel with the weight of revelation | ep13 00:29:30-00:30:00 | Garbled, chapter name and details not recoverable | Clarity | Open |
+| Seniority over Abu Bakr and Umar by years | ep13 00:19:30-00:20:00 | Garbled numbers | Clarity | Open |
+| Martyr's body found intact decades later (Hamza and personal sighting) | ep13 00:45:30-00:46:30 | Garbled, personal anecdote without source | Clarity | Open |
+| Closing verse lines on the darkness of the grave | ep13 00:52:30-00:53:00 | Unclear whether quotation or poem, no source | Clarity | Open |
+| Looped passages | ep13 00:21:30-00:22:30, 00:50:00-00:50:30, 00:13:30-00:14:00 | ASR loops, unrecoverable | Clarity, Loop check | Open |
+
+Resume point: alwaad-alhaq episode 14 (branch from origin/main).
