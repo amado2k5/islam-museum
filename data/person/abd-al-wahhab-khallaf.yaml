@@ -6,24 +6,25 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لعبد الوهاب خلاف؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abd al-Wahhab Khallaf; the entry is not yet checked on the page."
+  ar: "عبد الوهاب بن عبد الواحد خلاف، فقيه مصري من العلماء، أستاذ الشريعة الإسلامية بكلية الحقوق بجامعة القاهرة وعضو مجمع اللغة العربية، ولد بكفر الزيات سنة 1305 هـ الموافقة 1888 م وتوفي بالقاهرة سنة 1375 هـ الموافقة 1956 م."
+  en: "Abd al-Wahhab ibn Abd al-Wahid Khallaf, an Egyptian jurist, professor of Islamic law at the Faculty of Law of Cairo University and a member of the Academy of the Arabic Language; born at Kafr al-Zayyat in 1305 AH (1888 CE), he died in Cairo in 1375 AH (1956 CE)."
 wings: [people]
 regions: [egypt-nile]
 periods: [period/modern-era]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q12224128
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 born: { edtf: "1888", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ilm Usul al-Fiqh; al-A'lam (al-Zirikli: 1305–1375 AH) Confirmed on 13 November 2026 against Wikidata Q12224128 (P569, a statement with a reference), item revision 2563108017.", sources: [source/wikidata] }
 died: { edtf: "1956", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ilm Usul al-Fiqh; al-A'lam (al-Zirikli: 1305–1375 AH) Confirmed on 13 November 2026 against Wikidata Q12224128 (P570, a statement with a reference), item revision 2563108017.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/misr, note: "Only the record-level region (egypt-nile) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }
+  - { type: died_in, target: place/cairo, confidence: medium, note: "Al-Zirikli, al-A'lam vol. 4 p. 178: died in Cairo.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
