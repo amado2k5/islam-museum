@@ -5033,3 +5033,21 @@ GEMINI: ep40, the place of Adam in the report of the night of the ascent (the tr
 Resume point: sharh-saheeh-al-bukhare episode 49 (branch from origin/main).
 GEMINI: ep48, which collection and narrator carry the report of Moses reading the tablets and asking to be of the community of Ahmad with eleven qualities, the Qwen and Whisper passes both give it at 00:28:30-00:30:00 without a source, a classical hadith collection or tafsir of the verses of al-A'raf 7:154 to 7:157
 GEMINI: ep48, which report gives the Prophet's order to the Companions about the market of Medina and the story of Umar's conversion with his sister, both passes give them at 00:03:30-00:04:30 and 00:11:30-00:13:30 without a chain, a sira source such as Ibn Hisham or a hadith collection
+
+### alwaad-alhaq ep41 (14 Nov 2026)
+
+18 points written for episode 41 (ar, en, ur); 19 needs_source marks for this episode in each language file; three new about edges (niyya, ikhlas, tajdid), series record extended to episodes 1-41. Quran verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
+
+| Excluded (alwaad-alhaq ep41) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Thanks, greetings, praise and supplications of host and sheikh | ep41 00:03:30–00:06:00, 00:53:30–00:56:00 | Not lesson content; summarised by sense only | Content rule | Open |
+| Repetition loops and garbled windows | ep41 00:19:00–00:20:00, 00:22:00, 00:29:00, 00:41:30–00:42:00, 00:59:30 | Not speech or unclear; only the clear sense is summarised | Loop check and clarity | Open |
+| Poetry quoted (two sets of Arabic verses) | ep41 00:16:00, 00:58:00–00:58:30 | Not reproduced; second set attributed to Abu Nuwas by the host only | Sources policy | Open |
+| Personal and family details of living people and viewers' call-in arrangements | ep41 00:45:30–00:46:30, 00:57:00–00:58:00 | Kept general; no names or numbers recorded | Privacy | Open |
+| Contested statements of the sheikh (view of the four imams' fiqh, the story of Abu Hanifa's father, claims on al-Ghazali, Ibn Taymiyya) | ep41 00:27:00–00:37:00 | Recorded as his view with needs_source marks, not as rulings | Opinion rulings (founder-held) | Open |
+
+Resume point: alwaad-alhaq episode 42 (branch from origin/main).
+GEMINI: ep41, the channel and the director: the host thanks Sharjah Television and its satellite channel while the series record says the Al-Sharq channel, and the director's name is garbled (Khidr Abd al-Nitam, later Khidr Abd al-Mutallab); the source that would settle it is the programme's own credits or the channel's page.
+GEMINI: ep41, names of the sheikh's teachers and colleagues in the garbled transcript at 00:09:30-00:23:30 (Abd al-Fattah Abu Zayd, Ahmad Makhluf, Mahmud, Muhammad Nayil, Mahmud Hamaya, Jamal Abd al-Aziz, Abd al-Hamid Farmawi); the source that would settle it is an interview or biography of Omar Abdelkafy.
+GEMINI: ep41, the report of a devout man who missed no first takbir for fifty years, which the transcript gives to Sa'id ibn al-Musayyib or al-Bukhari at 00:36:30-00:37:30; the source that would settle it is the biographical dictionaries (Siyar a'lam al-nubala').
+GEMINI: ep41, whether the verses ending the episode (at 00:58:00-00:58:30, a servant admitting sin and taking refuge in God's pardon) are by Abu Nuwas as the host says; the source that would settle it is the diwan of Abu Nuwas.
