@@ -6,8 +6,8 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لداود بن نصير الطائي، زاهد الكوفة وتلميذ أبي حنيفة في القرن الثامن، توفي سنة ٧٨١م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Dawud ibn Nusayr al-Ta'i, the eighth-century Kufan ascetic and pupil of Abu Hanifa, d. 781; the biographical entry is not yet checked on the page."
+  ar: "داود بن نصير الطائي، أبو سليمان، من أئمة المتصوفين في أيام المهدي العباسي، أصله من خراسان ومولده بالكوفة، أخذ عن أبي حنيفة ببغداد ثم اعتزل الناس بالكوفة ولزم العبادة؛ توفي بها سنة 165 هـ الموافقة 781م."
+  en: "Dawud ibn Nusayr al-Ta'i, Abu Sulayman, one of the imams of the Sufis in the days of the Abbasid al-Mahdi, of Khurasani origin and born in Kufa, who took from Abu Hanifa in Baghdad and then withdrew from people in Kufa to worship; he died there in 165 AH (781 CE)."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
@@ -16,16 +16,16 @@ died: { edtf: "781", calendar: gregorian, precision: year, derived: true, note: 
 relations:
   - { type: born_in, target: place/kufa, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/kufa, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q19595664
   viaf: "90049755"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0025
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3

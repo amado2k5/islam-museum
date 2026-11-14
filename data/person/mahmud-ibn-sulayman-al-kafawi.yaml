@@ -6,25 +6,25 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لمحمود بن سليمان الكفوي، عالم وكاتب عثماني القرن السادس عشر صاحب كتائب أعيان الزمان، توفي سنة ١٥٨٢م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Mahmud ibn Sulayman al-Kafawi, the sixteenth-century Ottoman scholar author of Kata'ib A'yan al-Zaman, d. 1582; the biographical entry is not yet checked on the page."
+  ar: "محمود بن سليمان الحنفي الرومي الكفوي، قاض عالم بتراجم الحنفية من أهل كفه التركية، ولي قضاءها مدة وعاد إلى استانبول معزولاً وتوفي بها، وصاحب «كتائب أعلام الأخيار من فقهاء مذهب النعمان المختار»؛ توفي نحو سنة 990 هـ الموافقة نحو 1582م."
+  en: "Mahmud ibn Sulayman al-Hanafi al-Rumi al-Kafawi, a judge and scholar of the biographies of the Hanafis, from the Turkish town of Kafa, judge there for a time, dismissed and back in Istanbul where he died; author of Kata'ib A'lam al-Akhyar min Fuqaha' Madhhab al-Nu'man al-Mukhtar; he died about 990 AH (about 1582 CE)."
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
-died: { edtf: "1582", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Confirmed on 13 November 2026 against Wikidata Q116272458 (P570, a statement with a reference), item revision 2568872589.", sources: [source/wikidata] }
+died: { edtf: "1582~", calendar: gregorian, precision: year, derived: true, note: "Died about 990 AH = about 1582 CE per al-A'lam vol. 7 p. 95; the work is Kata'ib A'lam al-Akhyar, not Kata'ib A'yan al-Zaman as the earlier card said.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
   - { type: born_in, target: place/feodosiia, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
+sources: [source/dawlat-uthmaniyya-salabi, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q116272458
   viaf: "183795702"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Shalabi, al-Dawla al-Uthmaniyya — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0065
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3

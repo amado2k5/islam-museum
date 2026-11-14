@@ -1,20 +1,33 @@
 id: place/nicomedia
 class: place
 kind: city
-label: { ar: "نيقوميديا", en: "Nicomedia" }
+label:
+  ar: نيقوميديا
+  en: Nicomedia
 summary:
-  ar: "مدينة في تركيا الحديثة."
-  en: "Ancient city of Bithynia in modern-day Turkey."
-wings: [place]
-coordinates: [40.7625, 29.9175]
+  ar: مدينة في تركيا الحديثة.
+  en: Ancient city of Bithynia in modern-day Turkey.
+wings:
+- place
+coordinates:
+- 40.7625
+- 29.9175
 coordinate_precision: locality
-coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
-external_ids: { wikidata: "Q209349", pleiades: "511337" }
-sources: [source/wikidata, source/pleiades]
+coordinate_note: Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer.
+external_ids:
+  wikidata: Q209349
+  pleiades: '511337'
+sources:
+- source/wikidata
+- source/pleiades
 provenance:
   layer: own-research
-  source: "Wikidata item Q209349 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
-  generated_by: "Devin"
-  model: "Devin (Cognition)"
+  source: Wikidata item Q209349 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run.
+  generated_by: Devin
+  model: Devin (Cognition)
   run: battles-geo-places-1
-status: { review: draft, completeness: 1, generated_by: "Devin" }
+  note: Prose read from Pleiades place page https://pleiades.stoa.org/places/511337/json, accessed 14 Nov 2026 (Lane B1 packet 4).
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin

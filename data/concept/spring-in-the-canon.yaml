@@ -1,0 +1,18 @@
+id: concept/spring-in-the-canon
+class: concept
+kind: scientific
+label: { ar: "الربيع وأمراضه عند ابن سينا", en: "Spring and its diseases in the Canon", ur: "بہار اور اس کی بیماریاں قانون میں" }
+summary:
+  ar: "يصف ابن سينا الربيع المعتدل بأنه أفضل الفصول، ويذكر ما يهيج فيه من الأمراض المزمنة وما يخفف ضررها، وموافقته للصبيان {cite:canon-ibn-sina-print-v1 p.119}."
+  en: "Ibn Sina calls a spring that keeps to its temperament the best of the seasons, lists the chronic diseases it stirs and what eases them, and says it suits boys {cite:canon-ibn-sina-print-v1 p.119}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/disease, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, Ta'lim 2 on causes: seasons and air (scan pages 118 to 125), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-causes-8
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

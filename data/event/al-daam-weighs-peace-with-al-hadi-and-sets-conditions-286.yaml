@@ -1,0 +1,57 @@
+id: event/al-daam-weighs-peace-with-al-hadi-and-sets-conditions-286
+class: event
+kind: other
+label:
+  ar: الدعام يستشير أهل خيوان بعد وصول أخي أبي العتاهية ويشترط شروطاً على الهادي، المحرم 286هـ
+  en: Al-Da'am consults the people of Khiwan after the arrival of Abu al-Atahiya's brother and sets conditions to al-Hadi, Muharram 286 AH
+  ur: ابو العتاہیہ کے بھائی کی آمد کے بعد دعام کا اہل خیوان سے مشورہ اور ہادی کے سامنے شرائط، محرم 286ھ
+summary:
+  ar: بلغ الدعام أن أخا أبي العتاهية قدم إلى الهادي ومعه خمسون فارساً فغلظ عليه ذلك، وذُكر عنه أنه جمع أصحابه وأهل خيوان وقال لهم إن من العجب أنه أصبح مسوداً وأصبح أبو العتاهية مبيضاً، وإنه عزم على ألا يقاتل ابن رسول الله، فأشار عليه بعضهم بالقتال لئلا يدفع ملكاً قاتل عليه آل يعفر إلى العلوي مسلماً. وتروي الصفحة أن كتب الدعام كانت تأتي الهادي تشترط جباية بعض البلد وولاية على بعضه، فأجاب بأنه لو سرّه أن يوليه شبراً ما وفّى ولا جاز له إلا أن يتوب ويرجع إلى الحق.
+  en: It reached al-Da'am that Abu al-Atahiya's brother had come to al-Hadi with fifty horsemen, which weighed on him; it is said he gathered his companions and the people of Khiwan and told them it was strange that he had come to wear black while Abu al-Atahiya came to wear white, and that he had resolved not to fight the son of the Messenger of God; one of his men urged him to fight rather than hand over to the Alid, peacefully, a rule he had fought for against Al Ya'fur. The page also says that al-Da'am's letters kept coming to al-Hadi asking for the tax collection of part of the land and the governorship of part, and al-Hadi answered that he would not appoint him over even a span of land unless he repented and returned to the truth.
+  ur: دعام کو خبر پہنچی کہ ابو العتاہیہ کا بھائی پچاس سواروں کے ساتھ ہادی کے پاس آیا ہے تو اسے ناگوار گزرا؛ کہا جاتا ہے کہ اس نے اپنے ساتھیوں اور اہل خیوان کو جمع کر کے کہا کہ عجیب بات ہے کہ میں سیاہ پوش ہو گیا اور ابو العتاہیہ سفید پوش، اور میں نے طے کر لیا ہے کہ رسول اللہ کے بیٹے سے نہیں لڑوں گا؛ ان میں سے ایک نے اسے لڑنے کا مشورہ دیا کہ وہ اس سلطنت کو جس کے لیے وہ آل یعفر سے لڑا علوی کو امن سے نہ سونپے۔ صفحہ یہ بھی بتاتا ہے کہ دعام کے خطوط ہادی کو پہنچتے رہے جن میں علاقے کے بعض حصے کی وصولی اور بعض کی ولایت کی شرط ہوتی تھی، اور ہادی نے جواب دیا کہ وہ اسے ایک بالشت زمین کا بھی والی نہ بنائیں گے الا یہ کہ توبہ کر کے حق کی طرف لوٹے۔
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: 0899-02
+    hijri: 0286-01
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: أيام باقية من المحرم سنة 286هـ نحو 14 شباط 899م (جولياني) بالتقويم الجدولي؛ الشهر فقط؛ التحويل مشتق
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/khiwan
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/al-daam-ibn-ibrahim
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: related_to
+  target: group/banu-yafur
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص111 ⁦(الصفحة المطبوعة)⁩'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-14
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 111
