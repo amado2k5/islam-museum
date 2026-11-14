@@ -9,8 +9,8 @@ wings: [place]
 coordinates: [43.812761, 16.218756]
 coordinate_precision: approx
 coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
-external_ids: { wikidata: "Q528042" }
-sources: [source/wikidata]
+external_ids: { wikidata: "Q528042", nomisma: "dalmatia" }
+sources: [source/wikidata, source/nomisma]
 provenance:
   layer: own-research
   source: "Wikidata item Q528042 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."

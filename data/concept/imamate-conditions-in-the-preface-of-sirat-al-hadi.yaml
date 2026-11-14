@@ -1,0 +1,63 @@
+id: concept/imamate-conditions-in-the-preface-of-sirat-al-hadi
+class: concept
+kind: doctrine
+label:
+  ar: الإمامة وشروطها في مقدمة سيرة الهادي، الموقف الزيدي
+  en: The imamate and its conditions in the preface of Sirat al-Hadi, the Zaydi position
+  ur: سیرت الہادی کے مقدمے میں امامت اور اس کی شرائط، زیدی موقف
+summary:
+  ar: 'تعرض مقدمة الكتاب، برواية محمد بن سليمان الكوفي، موقفاً زيدياً: الإمامة في ولد الحسن والحسين، وتجب طاعة من قام منهم بالسيف داعياً إلى الكتاب والسنة وعدلاً زاهداً شجاعاً، ومن قعد في بيته تحت حكم الظالمين فليس إمام حق.'
+  en: 'The book''s preface, narrated through Muhammad ibn Sulayman al-Kufi, sets out a Zaydi position: the imamate belongs to the descendants of al-Hasan and al-Husayn, obedience is due to the one of them who rises with the sword calling to the Book and the sunna, just, ascetic and brave, and one who sits at home under unjust rulers is not a rightful imam.'
+  ur: 'کتاب کا مقدمہ، محمد بن سلیمان کوفی کی روایت سے، ایک زیدی موقف پیش کرتا ہے: امامت حسن اور حسین کی اولاد میں ہے، ان میں سے جو تلوار کے ساتھ اٹھ کر کتاب اور سنت کی طرف بلائے، عادل، زاہد اور بہادر ہو اس کی اطاعت واجب ہے، اور جو ظالموں کی حکومت میں گھر بیٹھا رہے وہ حق کا امام نہیں۔'
+wings:
+- ideas
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+themes:
+- sects-and-schools
+- creed
+sensitivity: contested
+perspectives:
+- tradition: sunni
+  id: sunni-imamate-choice
+  stance:
+    ar: الإمامة عند أهل السنة اختيار من الأمة لا نص معصوم
+    en: The Sunni view is that the imamate rests on the community's choice, not on a designation
+    ur: اہل سنت کے نزدیک امامت امت کے انتخاب پر ہے، کسی تعیین پر نہیں
+  summary:
+    ar: أهل السنة يجعلون الإمامة مفوضة إلى اختيار الأمة وشوراها {cite:duha-islam p. 850}.
+    en: Sunnis place the imamate in the community's choice and consultation {cite:duha-islam p. 850}.
+    ur: اہل سنت امامت کو امت کے انتخاب اور مشورے کے سپرد کرتے ہیں {cite:duha-islam p. 850}۔
+  sources:
+  - source/duha-islam
+- tradition: shia-zaydi
+  id: zaydi-preface-sira-hadi
+  stance:
+    ar: الإمامة في ولد الحسن والحسين لمن قام منهم بالسيف داعياً إلى الكتاب والسنة
+    en: The imamate belongs to those of the line of al-Hasan and al-Husayn who rise with the sword calling to the Book and the sunna
+    ur: امامت حسن اور حسین کی اولاد میں سے اس کے لیے ہے جو تلوار کے ساتھ اٹھ کر کتاب اور سنت کی طرف بلائے
+  summary:
+    ar: تنص مقدمة سيرة الهادي على أن من استوفى هذه الصفة من ولد الحسن والحسين فهو الإمام المفترضة طاعته، وأن من جلس في بيته وأرخى ستره ولم يأمر بمعروف ولم ينه عن منكر فليس إماماً حقاً {cite:sira-hadi-ila-al-haqq p.27} {cite:sira-hadi-ila-al-haqq p.28}.
+    en: The preface of Sirat al-Hadi states that whoever of the line of al-Hasan and al-Husayn meets these qualities is the imam whose obedience is obligatory, and that one who sits at home behind a drawn curtain and neither enjoins good nor forbids wrong is not a rightful imam {cite:sira-hadi-ila-al-haqq p.27} {cite:sira-hadi-ila-al-haqq p.28}.
+    ur: سیرت الہادی کا مقدمہ کہتا ہے کہ حسن اور حسین کی اولاد میں سے جو ان صفات کو پورا کرے وہی امام ہے جس کی اطاعت فرض ہے، اور جو گھر میں بیٹھ کر پردہ لٹکا لے اور نہ نیکی کا حکم دے نہ برائی سے روکے وہ حق کا امام نہیں {cite:sira-hadi-ila-al-haqq p.27} {cite:sira-hadi-ila-al-haqq p.28}۔
+  sources:
+  - source/sira-hadi-ila-al-haqq
+relations:
+- type: related_to
+  target: concept/imama
+  sources: &id001
+  - source/sira-hadi-ila-al-haqq
+  note: موقف زيدي في الإمامة كما يعرضه الكتاب
+sources: *id001
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص21-37 (الصفحة المطبوعة)'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-3
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 21-37

@@ -10,8 +10,8 @@ regions: [andalus-europe]
 coordinates: [38.5, 23]
 coordinate_precision: approx
 coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
-external_ids: { wikidata: "Q41" }
-sources: [source/wikidata]
+external_ids: { wikidata: "Q41", nomisma: "greece" }
+sources: [source/wikidata, source/nomisma]
 provenance:
   layer: own-research
   source: "Wikidata item Q41 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
