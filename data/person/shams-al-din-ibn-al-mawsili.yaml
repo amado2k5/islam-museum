@@ -1,29 +1,38 @@
 id: person/shams-al-din-ibn-al-mawsili
 class: person
-label:
-  ar: "شمس الدين ابن الموصلي"
-  en: "Shams al-Din ibn al-Mawsili"
+label: {ar: شمس الدين ابن الموصلي, en: Shams al-Din ibn al-Mawsili}
 roles: [scholar, poet]
 gender: male
-summary:
-  ar: "بطاقة أولية لشمس الدين ابن الموصلي، فقيه وأديب ولغوي القرن الرابع عشر، توفي سنة ١٣٧٢م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Shams al-Din ibn al-Mawsili, the fourteenth-century jurist, poet and philologist, d. 1372; the biographical entry is not yet checked on the page."
+summary: {ar: 'محمد بن محمد البعلي، شمس الدين، ابن الموصلي: أديب وعالم بالفقه، ولد في بعلبك وتعلم بها وبدمشق وحماة ومات بطرابلس، ٦٩٩ إلى ٧٧٤ هـ الموافقة ١٣٠٠ إلى ١٣٧٢ م، من كتبه «بهجة المجالس».', en: 'Muhammad ibn Muhammad al-Ba''li, Shams al-Din, Ibn al-Mawsili: a littérateur and scholar of jurisprudence, born in Baalbek, who studied there, in Damascus and in Hama and died in Tripoli, 699 to 774 AH (1300 to 1372 CE); among his books is «Bahjat al-Majalis».'}
 wings: [people]
 regions: [levant-iraq]
 periods: [period/mongol-post-mongol]
-sources: [source/al-aalam, source/wikidata]
-external_ids:
-  wikidata: Q57751059
-  viaf: "1492149368874985980005"
-provenance:
-  layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0071
-status:
-  review: draft
-  completeness: 1
-died: { edtf: "1372", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar" }
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
+external_ids: {wikidata: Q57751059, viaf: '1492149368874985980005'}
+provenance: {layer: own-research, source: 'al-Zirikli, al-A''lam, 15th ed. 2002, entry read in full from the local OpenITI text', generated_by: Claude Code (Lane B2 packet), model: claude-sonnet-5-5, run: web-b2-alam-2026-11-14}
+status: {review: draft, completeness: 3}
+died:
+  edtf: '1372'
+  calendar: gregorian
+  precision: year
+  derived: true
+  note: 'Per al-Zirikli, al-A''lam vol. 7 p. 29: died 774 AH = 1372 CE, in Tripoli.'
+  sources: &id001 [source/alam-zirikli-dar-al-ilm-2002]
 relations:
-  - { type: lived_in, target: place/mosul, confidence: low, note: "Association inferred from the nisba in the name 'Shams al-Din ibn al-Mawsili'; specific residence not individually documented.", sources: [source/al-aalam] }
+- type: born_in
+  target: place/baalbek
+  note: 'From al-A''lam: born in Baalbek.'
+  sources: *id001
+  confidence: medium
+- type: died_in
+  target: place/tripoli-al-sham
+  note: 'From al-A''lam: died in Tripoli (Tripoli of the Levant, by the places named around it).'
+  sources: *id001
+  confidence: medium
+born:
+  edtf: '1300'
+  calendar: gregorian
+  precision: year
+  derived: true
+  note: 'Per al-Zirikli, al-A''lam vol. 7 p. 29: born 699 AH = 1300 CE, in Baalbek.'
+  sources: *id001
