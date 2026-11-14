@@ -89,3 +89,6 @@ Institutions, schools and streets across Egypt bear her name; she was the subjec
 ## References
 - English Wikipedia article on Huda Sha'arawi (revision 1372745115); Arabic Wikipedia article «هدى شعراوي» (revision 76664694); Urdu Wikipedia article (revision 11793203); Wikidata item Q2423343; Encyclopaedia Britannica entry "Huda Sharawi" by Jennifer Jaffer.
 - The sources differ on two dates: the unveiling (1923 in the English article and Britannica, on her return from Rome; 1921 in the Arabic article, at Saad Zaghlul's reception) and the founding of the Egyptian Feminist Union (1923 in the English article and Britannica; a formal constitution in 1927 in the Arabic article). The museum presents both accounts and does not decide between them.
+
+## Works in the OpenITI corpus
+The OpenITI corpus holds 2 works under the author identifier 1367HudaShacrawi, among them: Mudhakkirat; Salam Calami. {cite:openiti-corpus 1367HudaShacrawi}

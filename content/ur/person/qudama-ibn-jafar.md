@@ -13,3 +13,6 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 
 ## دے خویہ کے ایڈیشن میں کتاب الخراج
 «ببلیوتھیکا جیوگرافورم عربیکورم» کی چھٹی جلد میں چھپے «کتاب الخراج وصنعۃ الکتابہ» کے اقتباسات ان کا نام ابو الفرج قدامہ بن جعفر، بغدادی کاتب، دیتے ہیں۔ {cite:masalik-mamalik-ibn-khurdadhbih p.192} پانچویں منزل کے گیارہویں باب میں وہ ڈاک کے دیوان کا حال لکھتے ہیں اور اس کے سربراہ کے لیے ثقہ اور محتاط ہونے کی شرط رکھتے ہیں، پھر مکہ کے راستے سے شروع کر کے سلطنت کے راستے منزل بہ منزل بیان کرتے ہیں؛ چھٹی منزل میں آباد زمین کو اقالیم میں تقسیم کرتے اور مغرب اور اندلس کے ذکر پر ختم کرتے ہیں۔ {cite:masalik-mamalik-ibn-khurdadhbih p.192} {cite:masalik-mamalik-ibn-khurdadhbih p.193} {cite:masalik-mamalik-ibn-khurdadhbih p.238} {cite:masalik-mamalik-ibn-khurdadhbih p.274} دیکھیے [[work/kitab-al-kharaj-qudama|کتاب الخراج]]۔
+
+## OpenITI مجموعے میں تصانیف
+OpenITI مجموعہ اس مصنف کے لیے شناخت 0337QudamaIbnJacfar کے تحت 2 تصانیف رکھتا ہے، جن میں یہ شامل ہیں: كتاب الخراج، نقد الشعر۔ {cite:openiti-corpus 0337QudamaIbnJacfar}

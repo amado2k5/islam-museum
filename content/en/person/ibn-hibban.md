@@ -38,3 +38,6 @@ For the preface, condition and invented arrangement of his *Sahih* see [[work/sa
 - **Sunni: al-Dhahabi and Ibn al-Salah**: an imam of hadith with errors and gross mistakes in his handling; silence on the "limit" is better; his saying on prophethood is acceptable if it means its pillars, rejected if it means exclusivity. {cite:mizan-itidal-bijawi-v3 p. 507} {cite:mizan-itidal-bijawi-v3 p. 508}
 - **Sunni: Yahya ibn Ammar and the people of Sijistan, as reported by Abu Isma'il al-Ansari**: much learning but little religion; expelled for denying the limit, and judged a heretic for his saying on prophethood. {cite:mizan-itidal-bijawi-v3 p. 507}
 :::
+
+## Works in the OpenITI corpus
+The OpenITI corpus holds 6 works under the author identifier 0354IbnHibbanBusti, among them: Majruhin; Mashahir Culama Amsar; Rawdat Cuqala; Salat. {cite:openiti-corpus 0354IbnHibbanBusti}

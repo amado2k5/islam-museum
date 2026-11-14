@@ -16,3 +16,6 @@ provenance: { generated_by: "Claude Code (OCR-harvest worker K)", model: claude-
 - وہ سلجوقی اقتدار کے دوران بغداد میں رہے، قائم سے مقتفی تک کے خلفا کا زمانہ پایا؛ لغت اور ادب خطیب تبریزی سے پڑھا، اور ابن الخشاب اور ابو البرکات انباری کے استاد تھے؛ ابو سعد سمعانی نے ان سے ثعلب کی امالی کا ایک حصہ پڑھا۔ {cite:amali-ibn-al-shajari-tanahi-khanji-1992 p. 17-19}
 - ابو البرکات انباری روایت کرتے ہیں کہ جب [[person/al-zamakhshari|زمخشری]] حج کے لیے بغداد آئے تو ابن الشجری انہیں مبارک باد دینے آئے اور ان کی تعریف میں اشعار سنائے، اور زمخشری نے زید الخیل کی حدیث سے جواب دیا۔ {cite:amali-ibn-al-shajari-tanahi-khanji-1992 p. 19}
 - ان کی سب سے مشہور کتاب چوراسی مجالس پر مشتمل [[work/amali-ibn-al-shajari|«الامالی»]] ہے، اور ان کے محقق انہیں نحو میں خالص بصری سمجھتے ہیں۔ {cite:amali-ibn-al-shajari-tanahi-khanji-1992 p. 8} {cite:amali-ibn-al-shajari-tanahi-khanji-1992 p. 189}
+
+## OpenITI مجموعے میں تصانیف
+OpenITI مجموعہ اس مصنف کے لیے شناخت 0542IbnCaliDiyaDinIbnShajari کے تحت 3 تصانیف رکھتا ہے، جن میں یہ شامل ہیں: أمالي ابن الشجري، ما لم ينشر من الأمالي الشجرية، مختارات شعراء العرب لابن الشجري۔ {cite:openiti-corpus 0542IbnCaliDiyaDinIbnShajari}

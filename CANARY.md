@@ -136,6 +136,7 @@ open a new block on top with the new version and today's date.
 - **A new source record for the full al-A'lam of al-Zirikli (Dar al-Ilm lil-Malayin, 15th edition, 2002)**, about 14,000 entries held locally as the OpenITI Shamela text, so biographies can cite it by volume and page.
 ### Data
 - **The coverage report is regenerated** after 52 more al-A'lam and Siyar biographies landed.
+- **Sixty-eight scholar pages gain a list of their works in the OpenITI corpus, in Arabic, English and Urdu.** Each section gives the author's OpenITI identifier, the number of works the corpus holds under it and up to four titles, with a citation to the corpus record (decision dec-20261114-277).
 
 ## v1.30.0 — 2026-11-14
 ### Added

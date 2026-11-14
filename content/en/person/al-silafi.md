@@ -9,3 +9,6 @@ The great hafiz and polymath, musnid of the world and most long-lived of the mem
 
 ## Alexandria
 He settled at Alexandria for some sixty-six years devoted to study, reading, copying and collecting books, and students heard from him for eighty years — "I know no one like him in this," says al-Dhahabi — passing a hundred years without doubt; he married a well-off Alexandrian woman and grew wealthy after poverty, and al-'Adil 'Ali ibn Aybak ibn al-Sallar built him a madrasa at Alexandria. He died at dawn on Friday 5 Rabi' al-Akhir 576. {cite:shadharat-dhahab p.735-736}
+
+## Works in the OpenITI corpus
+The OpenITI corpus holds 25 works under the author identifier 0576AbuTahirSilafi, among them: Ahadith Can Jacfar Sarraj; Ahadith Cidiyya; Ahadith Wa Hikayat; Arbacuna Buldaniyya. {cite:openiti-corpus 0576AbuTahirSilafi}

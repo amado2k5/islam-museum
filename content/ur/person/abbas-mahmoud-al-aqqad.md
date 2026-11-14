@@ -24,3 +24,5 @@ translators: []
 ## وفات
 ان کا انتقال قاہرہ میں مارچ 1964 میں ہوا — عربی مقالہ 26 شوال 1383ھ بمطابق 12 مارچ 1964 دیتا ہے، جب کہ انگریزی مقالے کے معلومات خانے اور وفات کے حصے میں 13 مارچ درج ہے — اور ان کی میت اسوان لے جا کر اسی دن دفن کی گئی۔ {cite:wikipedia-abbas-mahmoud-al-aqqad-ar} {cite:wikipedia-abbas-mahmoud-al-aqqad-en} {cite:wikidata-abbas-mahmoud-al-aqqad}
 
+## OpenITI مجموعے میں تصانیف
+OpenITI مجموعہ اس مصنف کے لیے شناخت 1383CabbasMahmudCaqqad کے تحت 76 تصانیف رکھتا ہے، جن میں یہ شامل ہیں: أبو العلاء، أبو نواس: الحسن بن هانئ، أبو الشهداء الحسين بن علي، أعاصير مغرب۔ {cite:openiti-corpus 1383CabbasMahmudCaqqad}

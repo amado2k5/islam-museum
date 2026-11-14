@@ -21,3 +21,5 @@ translators: []
 ## وفاته
 توفي في طنطا في مايو 1937 عن سبع وخمسين سنة — تعطي ويكيداتا اليوم العاشر من مايو، بينما يعطي صندوق معلومات المقالة الإنجليزية الأول من مايو. {cite:wikipedia-mustafa-sadiq-al-rafii-fr} {cite:wikidata-mustafa-sadiq-al-rafii} {cite:wikipedia-mustafa-sadiq-al-rafii-en}
 
+## أعمال في مدونة OpenITI
+تحفظ مدونة OpenITI لهذا المؤلف تحت المعرّف 1356MustafaSadiqRafici 11 من الأعمال، منها: أوراق الورد، حديث القمر، إعجاز القرآن والبلاغة النبوية، كتاب المساكين. {cite:openiti-corpus 1356MustafaSadiqRafici}

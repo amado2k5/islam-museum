@@ -28,3 +28,6 @@ Among his works: *Nihayat al-Matlab fi Dirayat al-Madhhab* in eight volumes, *al
 ## His death
 
 Overcome by fever he was carried to Bushtanqan for its mild air and grew weaker; he died on the night of Wednesday 25 Rabi' II 478 — 20 August 1085 — aged fifty-nine. He was carried that same night to the town and buried in his house, then transferred years later to the Husayn cemetery beside his father; his minbar in the congregational mosque was broken and the markets closed, and his nearly four hundred pupils broke their inkwells and pens and kept the mourning for a year {cite:tarikh-islam-dhahabi pp. 238-239} {cite:siyar-alam-nubala j.18 p. 2576} {cite:encyclopaedia-of-islam-2 vol. 2 p. 605}.
+
+## Works in the OpenITI corpus
+The OpenITI corpus holds 7 works under the author identifier 0478ImamHaramaynJuwayni, among them: Burhan Fi Usul Fiqh; Ghiyath Umam; Lamc Adilla; Nihayat Matlab. {cite:openiti-corpus 0478ImamHaramaynJuwayni}

@@ -24,3 +24,5 @@ translators: []
 ## وفاته
 توفي في القاهرة في 26 شوال 1383 هـ الموافق 12 مارس 1964 — بينما يعطي صندوق معلومات المقالة الإنجليزية وقسم وفاتها 13 مارس — ونُقل جثمانه إلى أسوان فدُفن فيها في اليوم نفسه. {cite:wikipedia-abbas-mahmoud-al-aqqad-ar} {cite:wikipedia-abbas-mahmoud-al-aqqad-en} وسُمّي شارع في حي مدينة نصر بالقاهرة باسمه، وأُنتج في مطلع الثمانينيات مسلسل مصري عن حياته بعنوان «العملاق». {cite:wikipedia-abbas-mahmoud-al-aqqad-en}
 
+## أعمال في مدونة OpenITI
+تحفظ مدونة OpenITI لهذا المؤلف تحت المعرّف 1383CabbasMahmudCaqqad 76 من الأعمال، منها: أبو العلاء، أبو نواس: الحسن بن هانئ، أبو الشهداء الحسين بن علي، أعاصير مغرب. {cite:openiti-corpus 1383CabbasMahmudCaqqad}
