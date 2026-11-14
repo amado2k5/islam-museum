@@ -2744,3 +2744,14 @@ Resume point: modakirate-iblis episode 22 (branch from origin/main). Work on epi
 | A mention of refugee crises in the account of the crisis fund | ep22 00:11:00-00:11:30 (part) | Modern conflict aside; the proposal itself is kept without it, held for the founder to decide | Content rule | Open |
 
 Resume point: modakirate-iblis episode 23 (branch from origin/main). Work on this series and the three following ones is covered by the founder approval dec-20261114-277.
+
+### modakirate-iblis ep23 (14 Nov 2026)
+
+12 points written for episode 23 (ar, en, ur); 6 needs_source marks in each language file for this episode; 5 new `about` edges. Quran verses referenced only through passage links (1-6, 1-7, 5-16, 6-153, 42-13, 2-128, 2-132, 2-133, 27-44, 72-14, 3-102, 39-45, 17-36, 5-54); none typed. Contested: the lecturer's remarks on Islamic groups and on early caliphal decisions are attributed to him; sensitivity stays contested.
+
+| Excluded (modakirate-iblis ep23) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greetings, the break and its trailer (advertisements for a Ramadan question programme with its sponsors), and the closing prayer | ep23 00:00:00, 00:11:00-00:12:30, 00:23:30 | Not lesson content | Content rule | Open |
+| Loops and garbled stretches (a repeated phrase over about thirty seconds, a stretch naming a medieval scholar, partial stretches on the Prophet's orchard) | ep23 00:03:30-00:04:00, 00:14:30 (part), 00:20:30-00:21:00, 00:22:00-00:22:30 | Not recoverable | Clarity, Loop check | Open |
+
+Resume point: modakirate-iblis episode 24 (branch from origin/main).
