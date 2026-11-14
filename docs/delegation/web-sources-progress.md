@@ -708,3 +708,18 @@ Nothing is registered this turn. Each registration needs the three-part commit i
 - Not linked: gjirokast-r (two iDAI results pass at 0.0 km, so the entry is ambiguous); the other 63 of the 80 had no passing result (not found, not a populated place, or farther than 1.5 km).
 - Not run: Papyri.info. A link from a place to a papyrus needs a Trismegistos or Pleiades place number on the HGV record plus a verified match, and no reliable crosswalk to our places exists without reading the repository record by record; left for a bounded pass.
 
+## 2026-11-14 (p42, Lane B) — Biblissima batch 3: 15 more persons linked; list for the founder
+
+- Approval: dec-20261114-277. Method as batch 2 (name search, then accept only when Biblissima's own Wikidata statement P112 equals the Wikidata id on our record; 3 s pause; no SPARQL). Candidates 71 to 160 in the order used before (our persons born 600 to 1500 CE with a Wikidata id, lowest Wikidata number first): 90 searched, 21 matched by id.
+- Linked (15, Biblissima ids): alfonso-vi-castile Q20973, al-bukhari Q12161, badr-al-din-al-ayni Q2052, al-nuwayri Q530, al-allama-al-hilli Q803, al-tirmidhi-muhammad-ibn-isa Q12215, oljaitu Q231675, abu-al-wafa-al-buzjani Q23308, abd-al-qadir-al-jilani Q12223, jami-abd-al-rahman Q16832, yaqut-al-hamawi Q16682, rashid-al-din-hamadani Q4604, abu-hamid-al-gharnati Q12206, abu-kamil-shuja-ibn-aslam Q105975, abu-said-abul-khayr Q316297.
+- FOR THE FOUNDER, matched by Wikidata id but left unlinked (14 in all). From batches 1 and 2: yuhanna-al-dimashqi (birth 676 ours, 650 Biblissima), jabir-ibn-hayyan (721~ and 737), muhammad-i-jalabi (1379 and 1387), ali-ibn-abi-talib (600~ and 596), husayn-ibn-ali (626~ and 625); jabir-ibn-abdullah, hasan-ibn-ali and alp-arslan (Biblissima holds no dates). From this batch: ali-ibn-ridwan (988 and 998), al-baydawi-abd-allah-ibn-umar (1172 and 1201), guy-de-lusignan (1150~ and 1159), abu-sahl-al-quhi (940~ and 901), kamal-al-din-behzad (1450~ and 1460?), mansa-musa (no dates). If the founder confirms any of these is the same person the id link can be added; the year differences may also mean our date needs a source check.
+- Date differences noticed in the 15, not changed: alfonso-vi-castile birth 1040 and 1042; oljaitu birth 1280 and 1282; rashid-al-din-hamadani birth 1247 and 1248; abu-said-abul-khayr death 1049 and 1050.
+- Measured Arabic share: 0 of the 21 matched records carries an Arabic-script label.
+
+## 2026-11-14 (p43, Lane B) — Nomisma batch 3: 3 places linked; Papyri.info not run
+
+- Approval: dec-20261114-277. Method: the 70 highest-importance city records of ours without a Nomisma id; for each, the concept `https://nomisma.org/id/<slug>.jsonld` (and the English label as a second try), 3 s pause. Accept rule: the concept is a mint, its point lies within 1.5 km of ours, and its definition does not describe an "ancient site" (kept off the Babil and Ascalon wording question).
+- Linked: harat -> harat (0.76 km), london -> london (0.19 km), valencia -> valencia (0.69 km; the concept is the medieval and modern Christian mint of the city, the same city as our record).
+- Not linked: constantinople (definition says "the mint at the ancient site", the wording kept for the founder); mashhad (3.95 km) and ankara (2.2 km, and the concept describes the modern city); the other 62 candidates had no concept under the tried identifiers.
+- Papyri.info: no link made. A document-to-place link needs the HGV record's place number and a verified identity per record; no crosswalk to our places exists without a record-by-record read of the data repository. Left for a bounded pass; no coin records were touched in this pass (the two coin objects were verified earlier, p24).
+
