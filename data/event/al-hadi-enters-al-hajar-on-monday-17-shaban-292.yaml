@@ -1,0 +1,59 @@
+id: event/al-hadi-enters-al-hajar-on-monday-17-shaban-292
+class: event
+kind: other
+label:
+  ar: "دخول الهادي قرية الهجر يوم الاثنين السابع عشر من شعبان، ص294"
+  en: "Al-Hadi enters the village of al-Hajar on Monday, 17 Sha'ban, p. 294"
+  ur: "ہادی کا پیر 17 شعبان کو بستی الہجر میں داخل ہونا، ص294"
+summary:
+  ar: "دخل الهادي قرية الهجر من نجران يوم الإثنين سبعة عشر من شعبان فأقام بها وأمّن الناس فاطمأنوا في منازلهم، ولم يكن ابن حميد قد وصل به."
+  en: "Al-Hadi entered the village of al-Hajar in Najran on Monday, the seventeenth of Sha'ban, stayed there and gave the people safety so that they settled in their homes; Ibn Humayd had not come to him."
+  ur: "ہادی پیر کے دن 17 شعبان کو نجران کی بستی الہجر میں داخل ہوئے، وہیں رہے اور لوگوں کو امان دی تو وہ اپنے گھروں میں مطمئن ہو گئے؛ ابن حمید ان کے پاس نہیں پہنچا تھا۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0905-06-24"
+    hijri: "0292-08-17"
+    calendar: julian
+    precision: day
+    status: tradition
+    derived: true
+    note: "يوم الإثنين سبعة عشر من شعبان سنة 292هـ؛ التحويل مشتق من التقويم الجدولي ⁦(24 حزيران 905م)⁩ ويوافق اليوم المذكور ⁦(الإثنين)⁩ فلا فرق بين التقويمين"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ibn-humayd-of-banu-al-harith-286
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-al-harith-ibn-kab
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/al-hajar-najran
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص294 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-33
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 294

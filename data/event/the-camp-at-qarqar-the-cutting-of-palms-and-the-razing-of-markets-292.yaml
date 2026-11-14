@@ -1,0 +1,75 @@
+id: event/the-camp-at-qarqar-the-cutting-of-palms-and-the-razing-of-markets-292
+class: event
+kind: other
+label:
+  ar: "المعسكر في قرقر وقطع النخيل وهدم أسواق بني الحارث وأمان ابن بسطام، ص292"
+  en: "The camp at Qarqar, the cutting of palms, the razing of Banu al-Harith's markets and Ibn Bustam's safe-conduct, p. 292"
+  ur: "قرقر کا پڑاؤ، کھجوروں کی کٹائی، بنو حارث کے بازاروں کی مسماری اور ابن بسطام کی امان، ص292"
+summary:
+  ar: "بعد أيام أمر الهادي بتهيئة الأسواق وإعداد الحديد وخرج إلى القرية فلم يخرج أحد، فنزل بقرقر قريباً من الهجر، وقطع عسكره النخيل وهدم الحصون والأسواق وغنم ما فيها بإشراف علي بن محمد، حتى استأمن ابن بسطام في آخر رجب وتحول ابن حميد إلى الهجر."
+  en: "After some days al-Hadi had the markets readied and iron prepared and went out toward the village, but no one came out, so he camped at Qarqar near al-Hajar; his troops cut palms, demolished fortresses and markets and took what was in them under Ali ibn Muhammad, until Ibn Bustam asked for safety at the end of Rajab and Ibn Humayd moved to al-Hajar."
+  ur: "کچھ دن بعد ہادی نے بازار تیار کروائے اور لوہا مہیا کیا اور بستی کی طرف نکلے مگر کوئی نہ نکلا، تو وہ الہجر کے قریب قرقر میں اترے؛ ان کے لشکر نے علی بن محمد کی نگرانی میں کھجوریں کاٹیں، قلعے اور بازار گرائے اور ان کا مال لیا، یہاں تک کہ رجب کے آخر میں ابن بسطام نے امان مانگی اور ابن حمید الہجر کو چلا گیا۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0905-05"
+    hijri: "0292-07"
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: "رجب سنة 292هـ؛ ينتهي الخبر بأمان ابن بسطام في آخر رجب فتُنسب الأحداث إلى هذا الشهر بدقة شهرية؛ التحويل مشتق من التقويم الجدولي"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ali-ibn-muhammad-ibn-ubaydallah-al-abbasi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abdullah-ibn-bustam
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ibn-humayd-of-banu-al-harith-286
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-al-harith-ibn-kab
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/qarqar-najran
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/al-hajar-najran
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/minas-najran
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص292 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-33
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 292

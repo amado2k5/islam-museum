@@ -1,0 +1,63 @@
+id: event/al-hadi-refuses-safety-to-ibn-humayd-until-he-comes-and-ibn-humayd-flees-292
+class: event
+kind: other
+label:
+  ar: "رفض الهادي أمان ابن حميد إلا أن يأتيه وفرار ابن حميد إلى البادية، ص294-295"
+  en: "Al-Hadi refuses Ibn Humayd safety unless he comes in person, and Ibn Humayd flees to the desert, pp. 294-295"
+  ur: "ہادی کا ابن حمید کو امان دینے سے انکار جب تک وہ خود نہ آئے، اور ابن حمید کا صحرا کو بھاگنا، ص294-295"
+summary:
+  ar: "في أيام بقيت من رمضان بلغ الهادي أن ابن حميد يجمع أعراباً من يأم وبني الحارث، فغدا إليه فلم يجده وقطع نخلاً كثيراً، فسألوه بنو الحارث الكفّ، وطلبوا الأمان لابن حميد فقال لا آمنه إلا أن يطأ بساطي، فلما بلغه ذلك سار إلى البادية."
+  en: "In the last days of Ramadan al-Hadi heard that Ibn Humayd was meeting bedouin of Yam and Banu al-Harith to gather them to disorder; he went out and did not find him and had many palms cut; Banu al-Harith asked him to stop and sought safety for Ibn Humayd, and he said he would not give it unless he stepped on his carpet; when this reached Ibn Humayd he left for the desert."
+  ur: "رمضان کے آخری دنوں میں ہادی کو خبر ملی کہ ابن حمید یام اور بنو حارث کے بدوؤں سے مل کر انہیں فساد کے لیے جمع کر رہا ہے؛ وہ اس کی طرف نکلے، وہ نہ ملا، انہوں نے بہت سی کھجوریں کٹوا دیں؛ بنو حارث نے رکنے کی درخواست کی اور ابن حمید کے لیے امان مانگی تو ہادی نے کہا کہ میں اسے امان نہ دوں گا جب تک وہ میرے فرش پر قدم نہ رکھے؛ جب یہ ابن حمید کو پہنچا تو وہ صحرا کو چلا گیا۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0905-07"
+    hijri: "0292-09"
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: "أيام بقيت من رمضان سنة 292هـ بنص الكتاب؛ الدقة شهرية؛ التحويل مشتق من التقويم الجدولي ⁦(يبدأ رمضان 292 في 7 تموز 905م)⁩"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ibn-humayd-of-banu-al-harith-286
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-al-harith-ibn-kab
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/yam-tribe
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/al-hajar-najran
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص294, ص295 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-33
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 294, 295
