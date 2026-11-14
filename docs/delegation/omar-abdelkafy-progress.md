@@ -3380,3 +3380,18 @@ Resume point: min-kunuz-al-sunnah episode 29 (branch from origin/main).
 | Stray final line | ep29 00:27:00 | One garbled token | Clarity, Loop check | Open |
 
 Resume point: min-kunuz-al-sunnah episode 30 (branch from origin/main).
+
+### min-kunuz-al-sunnah ep30 (14 Nov 2026)
+
+14 points written for episode 30 (ar, en, ur); 7 needs_source marks in each language file for this episode; 9 new `about` edges. Quran verses referenced only through passage links (3-110); none typed. Contested: He attributes to himself the ruling of sixty days for a deliberate break of the fast, the view that smoking harms body and money, and applications of the audit idea; the Umar and al-Abbas story and Aisha's description are given without chain.
+
+| Excluded (min-kunuz-al-sunnah ep30) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Greetings, opening prayer and thanks | ep30 00:00:00-00:01:00 | Greeting formula, not substantive | Content rule | Open |
+| Break joins and welcome back | ep30 00:08:30-00:09:30 and 00:18:30-00:19:30 | Programme break joins; Eid greeting | Content rule | Open |
+| Garbled stretch on prayer that omits the obligation and a reported saying on forty days | ep30 00:11:30-00:12:00 and 00:22:30-00:23:00 | ASR too garbled to recover | Clarity, Loop check | Open |
+| Remark about a wife's smile and teeth, and spoken scenes of family meals | ep30 00:16:30-00:17:00 and 00:25:30-00:26:30 | Joking asides, partly garbled | Voice rule | Open |
+| Closing prayers for countries and for current conflicts, thanks, closing prayer and farewell | ep30 00:27:30-00:30:00 | Prayers for peoples, states and modern conflicts; closing prayer | Content rule, Voice rule | Open |
+| Repeated filler tokens | ep30 00:30:30-00:30:30 | Loop, no content | Clarity, Loop check | Open |
+
+Resume point: min-kunuz-al-sunnah episode 31 (branch from origin/main).
