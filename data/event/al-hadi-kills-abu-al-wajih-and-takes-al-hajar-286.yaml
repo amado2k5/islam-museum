@@ -1,0 +1,63 @@
+id: event/al-hadi-kills-abu-al-wajih-and-takes-al-hajar-286
+class: event
+kind: other
+label:
+  ar: قتل الهادي أبا الوجيه وأخذه الحجر، ذو الحجة 286هـ
+  en: Al-Hadi kills Abu al-Wajih and takes al-Hajar, Dhu al-Hijja 286 AH
+  ur: ہادی کا ابو الوجیہ کو مارنا اور الحجر پر قبضہ، ذی الحجہ 286ھ
+summary:
+  ar: يطعن الهادي أبا الوجيه، أحد صناديد بني الحارث، وهو يتعلق بجدار قصير بين الزقاق والمسجد، ويقتله بعد أن ينكسر رمحه، فيحزّ أصحابه رأسه ويرسله إلى عبد الله بن الحسين فيلقيه إلى بني الحارث، فينهزمون ويدخل أهل الدروب فتؤخذ القرية ويؤتى بابن حميد.
+  en: Al-Hadi spears Abu al-Wajih, one of the chiefs of Banu al-Harith, as he climbs a low wall between the lane and the mosque, and kills him once his spear is broken; his companions cut off the head and it is sent to Abdullah ibn al-Husayn, who has it thrown to Banu al-Harith; they flee, the people of the lanes join in, the village is taken and Ibn Humayd is brought in.
+  ur: ہادی بنو حارث کے سرداروں میں سے ابو الوجیہ کو اس وقت نیزہ مارتے ہیں جب وہ گلی اور مسجد کے بیچ کی چھوٹی دیوار پر چڑھ رہا تھا، اور نیزہ ٹوٹ جانے کے بعد اسے قتل کرتے ہیں؛ ساتھی اس کا سر کاٹتے ہیں اور عبداللہ بن حسین کو بھیجتے ہیں جو اسے بنو حارث کی طرف پھنکوا دیتے ہیں؛ وہ بھاگتے ہیں، کوچوں والے شریک ہو جاتے ہیں، بستی لے لی جاتی ہے اور ابن حمید کو لایا جاتا ہے۔
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: 0899-12
+    hijri: 0286-12
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: ذو الحجة سنة 286هـ بحسب ترتيب السرد بعد خبر الحجر؛ الكتاب لا يعين اليوم؛ ذو الحجة يبدأ 8 كانون الأول 899م جولياني بالتقويم الجدولي؛ التحويل مشتق
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/najran
+- type: occurred_at
+  target: place/al-hajar-najran
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abdullah-ibn-al-husayn-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abu-al-wajih-of-banu-al-harith-killed-at-najran-286
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ibn-humayd-of-banu-al-harith-286
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص166 ⁦(الصفحة المطبوعة)⁩'
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-21
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 166
