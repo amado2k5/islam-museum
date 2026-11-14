@@ -4170,3 +4170,25 @@ Resume point: sharh-saheeh-al-bukhare episode 27 (branch from origin/main).
 | Second ASR pass: Whisper large-v3 (mlx) run on the Mac to resolve garbled words of the Qwen transcript; cites use the shared 30-second grid | ep27 whole | Qwen pass too garbled for a rich first pass | Clarity | Open |
 
 Resume point: sharh-saheeh-al-bukhare episode 28 (branch from origin/main).
+
+### sharh-saheeh-al-bukhare ep28 (14 Nov 2026)
+
+28 points written for episode 28 (ar, en, ur); 23 needs_source marks in each language file for this episode; 5 new `about` edges. Quran verses referenced only through passage links (71-10, 18-1, 17-1, 28-83, 33-56, 5-3, 3-144); none typed. Contested: He holds that the principle of what leads to the forbidden applies to all who share in wine, that non-Muslims in Muslim lands should respect Islam, that repeated forgiveness-seeking without leaving the sin is not repentance; these are his views. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep28) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greetings, praise and opening supplication, with looped "qooq" and "ya rabbana" stretches | ep28 00:00:00-00:05:30 | Greetings, supplication and repeated-phrase loops; a stretch of the opening supplication touching conflict dropped | Clarity, Loop check | Open |
+| Stretch on tourism, mosque visitors, Vatican and women's liberation remarks, sweeping claims about peoples and women | ep28 00:13:00-00:17:00 | Sweeping claims about women and peoples, garbled | Content rule, Clarity | Open |
+| Loops ("al-", "ba", "fu", "sah", "ayh", "min") and garbled stretches | ep28 00:09:30, 00:13:00, 00:29:00, 00:31:30, 00:34:00, 00:37:30, 00:40:00, 00:45:00, 00:48:30, 00:53:00 | Repeated-phrase loops and unrecoverable ASR | Clarity, Loop check | Open |
+| Remarks on who is the better servant and the kinship analogy about servanthood | ep28 00:26:30-00:28:00 | Too garbled to recover | Clarity | Open |
+| Description of the Prophet's character and Bilal anecdote, Companions' devotion | ep28 00:33:00-00:36:00, 00:38:30-00:39:30 | Too garbled and unreferenced to state faithfully | Clarity | Open |
+| Claim about the Prophet's wives gathering and the house where he was nursed (house named inconsistently) | ep28 00:43:00-00:43:30 | Garbled, names unclear | Clarity | Open |
+| Exact date of the Prophet's death | ep28 00:53:30-00:54:00 | Date garbled in the transcript | Clarity | Open |
+| Closing supplications for the community | ep28 01:09:00-01:10:00 | Closing prayer | Voice rule | Open |
+| Questions on a beard and on charity work, and the speaker's own listing of qualifications and affiliations | ep28 01:11:00-01:14:30 | Garbled, personal promotion, not substantive | Clarity | Open |
+| Claim that servanthood is a title of honour and the highest human rank | ep28 00:25:30-00:28:00 | Not clearly stated in the transcript | Clarity | Open |
+| Claim that people entered the religion in crowds after sixty-three years | ep28 00:32:00 | Garbled, unclear what the number refers to | Clarity | Open |
+| Remark that changing the religion by adding or removing makes it unreliable | ep28 00:38:30 | Garbled | Clarity | Open |
+| Detail that Uhud shook, and that the Baqi visit was at night or involved asking forgiveness | ep28 00:46:00-00:47:30 | Not in the transcript | Clarity | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 29 (branch from origin/main).
