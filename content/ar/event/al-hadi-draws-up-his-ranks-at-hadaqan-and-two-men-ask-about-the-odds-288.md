@@ -9,3 +9,5 @@ translators: []
 
 ## تفصيل
 واسم الخثعمي مطبوع أبو رفاعة ولم يدخل شخصاً. ويختلف العددان لأن أرقام الراوي تقريبية ورقم الحاشية مجموع متأخر، والمتحف يورد الاثنين. يسبقه [[event/abu-al-atahiya-writes-to-al-hadi-and-sends-the-jafatim-and-al-tarif-to-an-ambush-at-al-sirr-288]].
+
+ويتصل الخبر في [[event/al-hadi-answers-yazid-and-abu-rifaa-and-abu-al-atahiyas-army-appears-288|جواب الهادي ومجيء عسكر أبي العتاهية]] {cite:sira-hadi-ila-al-haqq p.206}.

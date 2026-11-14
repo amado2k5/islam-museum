@@ -6,16 +6,14 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لإبراهيم بن سعد بن أبي وقاص؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ibrahim ibn Sa'd ibn Abi Waqqas; the entry is not yet checked on the page."
+  ar: "إبراهيم بن سعد بن أبي وقاص الزهري المدني، ابن الصحابي سعد بن أبي وقاص، روى عن أبيه وعن أسامة بن زيد في حديث الطاعون، وأفرده البخاري بترجمة مستقلة عن إبراهيم بن سعد بن إبراهيم بن عبد الرحمن بن عوف الزهري؛ ولا تُعرف له سنة ولادة ولا وفاة في المصادر التي قُرئت {cite:tarikh-kabir-dabbasi-v1 p. 699}."
+  en: "Ibrahim ibn Sa'd ibn Abi Waqqas al-Zuhri al-Madani, a son of the Companion Sa'd ibn Abi Waqqas, narrated from his father and from Usama ibn Zayd the hadith on the plague. Al-Bukhari gives him an entry of his own, separate from Ibrahim ibn Sa'd ibn Ibrahim ibn 'Abd al-Rahman ibn 'Awf al-Zuhri, and the sources read give neither a birth nor a death date. The dates 726 to 799 formerly on this card belong to that other man (see person/ibrahim-ibn-sad-al-zuhri) {cite:tarikh-kabir-dabbasi-v1 p. 699}."
 wings: [people]
 regions: [arabia]
 periods: [period/umayyad]
-born: { edtf: "726", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal / al-Mizzi" }
-died: { edtf: "799", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal / al-Mizzi" }
 relations:
   - { type: lived_in, target: place/hijaz, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/al-aalam] }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/tarikh-kabir-dabbasi-v1]
 external_ids:
   wikidata: Q50186478
 provenance:
