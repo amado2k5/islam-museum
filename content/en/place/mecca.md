@@ -147,3 +147,6 @@ Mecca is the holiest city in Islam, the birthplace of the Prophet Muhammad, and 
 
 ## For Scholars
 Umm al-Qura (the Mother of Cities) and the holiest sanctuary in Islam, situated in a desert valley within the Hejaz mountains of western Arabia. Mecca encloses the Sacred Mosque and the Kaaba, the inaugural house of worship consecrated for humanity and the universal Qibla for Islamic prayer. Associated with Abraham, Hagar, and Ishmael, it flourished as a pre-Islamic commercial hub under Quraysh along the seasonal trade routes. The birthplace of the Prophet Muhammad and the cradle of Qur'anic revelation, the sanctuary is governed by inviolable sacred boundaries, hosting millions of pilgrims annually during the Hajj.
+
+## In the iDAI.gazetteer
+The iDAI.gazetteer lists this place under no. 2283160 with the preferred name «Mekka», classed as populated place; its parent in the hierarchy is «Saudi-Arabien», classed as administrative unit. Recorded names include «Makkah», «Macoraba» and «Mecca». {cite:idai-gazetteer 2283160}
