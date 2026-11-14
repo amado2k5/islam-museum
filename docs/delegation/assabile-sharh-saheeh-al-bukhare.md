@@ -277,3 +277,86 @@ EXCLUSION (proposal for the founder): | Qwen repetition loops and fillers (repla
 EXCLUSION (proposal for the founder): | Second ASR pass: Whisper large-v3 (mlx) run on the Mac to resolve garbled words of the Qwen transcript; cites use the shared 30-second grid | ep57 whole | Qwen pass garbled | Clarity | Open | - see row
 EXCLUSION (proposal for the founder): | Remark that not everything in books is sound and warning against speaking falsely of God | ep57 00:48:00-00:49:00 | Garbled in both passes, only the warning against twisting words is clear | Clarity | Open | - see row
 EXCLUSION (proposal for the founder): | Reminding of God as a step in the order of dealing with marital discord and the count of pronouncements before a court divorce | ep57 00:21:30-00:22:30 | Words differ and are garbled between the two passes | Clarity | Open | - see row
+
+### sharh-saheeh-al-bukhare ep58 (14 Nov 2026)
+
+28 points written for episode 58 (ar, en, ur); 18 needs_source marks in each language file for this episode; 9 new `about` edges. Quran verses referenced only through passage links (2-54, 2-156, 2-214, 3-50, 4-157, 5-27, 5-28, 5-30, 5-31, 7-128, 11-45, 11-46, 19-28, 19-30, 19-31, 21-87, 27-62, 28-83, 37-102, 37-106, 37-143, 37-144, 37-146, 37-147, 38-42, 39-74, 61-6, 66-10); none typed. Contested: He tells a story in which a Muslim scholar says he is with a Jew or Christian who believes in his scripture if God admits them to Paradise, and he offers two possibilities for Jesus's end (saved elsewhere and died, or raised), both attributed to him and contested among Muslim scholars; his numerical argument for the name Ahmad and his figures for prayer rewards are his own and unreferenced. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep58) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greeting, praise and blessings, series announcement | ep58 00:00:00-00:00:30 | Greeting formula, no teaching content | Content rule | Open |
+| Reference to a current war in the explanation of the nearness of help | ep58 00:05:00-00:05:30 | Sweeping claim about a modern conflict; the Qur'anic point was kept without it | Content rule | Open |
+| Garbled stretch on the rich man giving meat, a man and the date-stalk story | ep58 00:13:00-00:14:30 | Words unrecoverable in both passes | Clarity | Open |
+| Looping stretches in the Qwen pass | ep58 00:13:30-00:14:00, 00:17:30-00:18:00, 00:18:30-00:19:30, 00:21:30-00:22:00, 00:27:30-00:28:30 | Loops, recovered only where the Whisper pass was clear | Clarity, Loop check | Open |
+| Remarks on how many wives in a country are unfaithful | ep58 00:27:30-00:28:00 | Sweeping claim about women and a people | Voice rule | Open |
+| Remarks on dress of women and on women among themselves | ep58 00:30:30-00:31:30 | Garbled and a ruling-like generalisation about women | Clarity, Voice rule | Open |
+| Job's household anecdotes: his wife's work, the bank, the doctor, modern marriages | ep58 00:35:00-00:38:30 | Digression, garbled, not tied to a source | Clarity | Open |
+| Anecdotes on the farm, flies and pesticide, 1980s | ep58 00:48:30-00:50:00 | Garbled personal anecdote | Clarity | Open |
+| Garbled stretch on Abraham's father and the idols, and on Abraham's early years | ep58 00:51:30-00:52:30 | Words unrecoverable in both passes | Clarity | Open |
+| Garbled stretch on the long wait for a son and travel to the land | ep58 00:56:30-00:57:30 | Words unrecoverable in both passes | Clarity | Open |
+| Stretches on a wedding, lashing out, and a hadith on wailing compared to demolishing the Kaaba | ep58 01:09:30-01:10:00, 01:14:00-01:16:00 | Garbled and looping | Clarity, Loop check | Open |
+| Remarks on visiting Jerusalem, and claimed prayer rewards in a battle zone and a frontier post | ep58 01:18:30-01:20:00 | Statement tied to a modern political conflict and figures without a clear reading | Content rule, Clarity | Open |
+| Closing supplication, announcement about questions on Friday, and farewell | ep58 01:21:00-01:22:00 | Closing prayer and farewell formulas | Content rule | Open |
+| Names of the two sons of Adam (Cain, Abel) and their person links | ep58 00:16:30-00:23:30 | Neither pass reads the names clearly (only a garbled word); the story is kept as the sons of Adam | Clarity | Open |
+| Second ASR pass: Whisper large-v3 (mlx) run on the Mac to resolve garbled words of the Qwen transcript; cites use the shared 30-second grid | ep58 whole | Qwen pass garbled | Clarity | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 59 (branch from origin/main).
+GEMINI: ep58, who is the pious man who wept and addressed God about Pharaoh and Moses?, Qwen reads al-Shafii and Whisper reads a different garbled word at 00:11:00, a primary Arabic source (hilya or tabaqat) that records this supplication
+GEMINI: ep58, who was consoled with be patient and we will be patient with you, the patience of the flock after the shepherd?, both passes garble the name at 01:17:00-01:18:00 (Ibn Abbas on the death of al-Abbas is the likely report), the primary report in a hadith or adab collection
+GEMINI: ep58, what did Jibril push into Pharaoh's mouth as he drowned?, both passes read water at 00:12:00, the hadith on Jibril and Pharaoh in a primary hadith collection with its grading
+GEMINI: ep58, which hadith or athar is the saying that moderation in the sunna is better than striving in innovation attributed to Ibn Abbas and Ibn Masud?, both passes name them at 00:03:30, the primary athar collections
+
+### sharh-saheeh-al-bukhare ep59 (14 Nov 2026)
+
+27 points written for episode 59 (ar, en, ur); 15 needs_source marks in each language file for this episode; 7 new `about` edges. Quran verses referenced only through passage links (2-143, 2-214, 2-238, 2-275, 7-204, 24-28, 24-58, 87-1); none typed. Contested: He gives his own rulings and opinions on prayer in a vehicle, on reciting behind the imam (he presents the Shafi'i and Hanafi views and his own stronger view), on riba in exchanging gold, on keeping objects bearing God's name out of the toilet, on not singling out Rajab and on make-up prayers, and he offers unreferenced health and science claims (pig fat in makeup, gold and fertility, the siwak and bacteria) and several reports without chain; all are attributed to him and are contested or unverified. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep59) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greeting, praise, blessings and series announcement | ep59 00:00:00-00:00:30 | Greeting formula, no teaching content | Content rule | Open |
+| Closing greeting and closing prayer | ep59 01:17:30-01:18:00 | Greeting and closing prayer | Content rule | Open |
+| Looping stretches in the Qwen pass | ep59 00:03:00-00:03:30, 00:07:00-00:07:30, 00:12:00-00:12:30, 00:17:00-00:17:30, 00:18:30-00:19:00, 00:23:30-00:24:30, 00:41:00-00:41:30, 00:45:00-00:45:30, 00:47:30-00:48:00, 00:51:00-00:51:30, 00:54:30-00:55:00, 00:56:00-00:56:30, 01:00:30-01:01:00, 01:04:00-01:04:30, 01:07:00-01:07:30 | Loops, recovered only where the Whisper pass was clear | Clarity, Loop check | Open |
+| Looping stretches in the Whisper pass | ep59 00:19:00-00:19:30, 00:32:30-00:33:00 | Loops, recovered only where the Qwen pass was clear | Clarity, Loop check | Open |
+| Remarks on the temperaments of African, English and Scandinavian men and a joke about nations | ep59 00:14:30-00:15:00 | Sweeping generalisation about peoples | Voice rule | Open |
+| Anecdotes and jokes about a visit to Moscow, a tiger, Egyptians and a chick | ep59 00:16:00-00:16:30, 00:23:30-00:24:30 | Garbled jokes about peoples, not tied to a source | Voice rule, Clarity | Open |
+| Story of a household quarrel with Ali and Fatima and a man's jealousy | ep59 00:18:00-00:19:00 | Garbled, names rest on single unclear words | Clarity | Open |
+| Skins and tanning, and the pig's skin | ep59 00:11:30-00:12:00 | Hadith and ruling too garbled in both passes | Clarity | Open |
+| Remarks on a fiancé's phone calls and whether that is seclusion, and on calling at night | ep59 00:32:00-00:33:00 | Garbled and a ruling-like remark on women and engaged couples | Clarity, Voice rule | Open |
+| Personal remarks on sleep, a boss and a student after the night prayer | ep59 00:34:30-00:35:30 | Garbled personal anecdote | Clarity | Open |
+| Remarks on a veiled woman, perfume and dress | ep59 00:38:30-00:39:00 | Garbled, generalisation about women | Clarity, Voice rule | Open |
+| Story of Umar's grandson, the treasury and the household eating the lawful | ep59 00:40:30-00:41:30 | Garbled in both passes, names unclear | Clarity | Open |
+| Second adviser's words to Umar ibn Abd al-Aziz | ep59 00:45:00-00:45:30 | Qwen pass loops and Whisper reads a single garbled name | Clarity | Open |
+| Hours of daylight in far lands, the sun rising from the west and the Companions' question | ep59 00:51:00-00:53:00 | Garbled in both passes, figures disagree | Clarity | Open |
+| Advice on praying in public places, a strong-bodied man, Umar's strength and remarks to daughters and fathers | ep59 00:55:30-00:58:30 | Garbled, partly a generalisation about young women | Clarity, Voice rule | Open |
+| Hand and finger positions in bowing and the width of the feet | ep59 01:03:30-01:04:30 | Loop and garble in both passes | Clarity, Loop check | Open |
+| Hadith of giving charity to a brother by praying with him, repeating the prayer, and the sunna of Fajr after sunrise with the view attributed to Ahmad | ep59 01:06:00-01:08:00 | Garbled in both passes, application unclear | Clarity | Open |
+| Exact hours of the three parts of the night and the years needed to clear missed prayers | ep59 01:10:30-01:11:00, 01:16:00-01:16:30 | The two passes give conflicting hours and years | Clarity | Open |
+| Second ASR pass: Whisper large-v3 (mlx) run on the Mac to resolve garbled words of the Qwen transcript; cites use the shared 30-second grid | ep59 whole | Qwen pass garbled | Clarity | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 60 (branch from origin/main).
+GEMINI: ep59, which scholar did Harun al-Rashid ask to meet and who said how soft is this hand if only it escapes God's punishment, Qwen reads ibn Iyad and Whisper garbles the name at 00:46:00-00:47:00, the primary adab or hilya report of Harun and the scholar
+GEMINI: ep59, who is the third adviser of Umar ibn Abd al-Aziz who said the worst of shepherds is the crusher, Qwen reads Abu Hatim and Whisper reads Abu Hazim at 00:45:30, the primary report in a hadith or adab collection
+GEMINI: ep59, what strong-smelling item was shared among Muslims when Umar ibn Abd al-Aziz held his nose, both passes garble the object at 00:39:00-00:39:30, the primary report in Ibn Sa'd or Abu Nu'aym
+GEMINI: ep59, which hadith lists the washira, mutafalliqa and qashira and what are the narrations, the transcript names the terms at 00:12:30, a primary hadith collection with its grading
+GEMINI: ep59, which report names the four kinds of rulers (one like a fighter in God's cause, one in the Fire, one in the lowest depth), both passes garble the first kind at 00:39:30-00:40:30, the primary report and its grading
+
+Resume point: episode 60 (not drafted; the transcript at pass5-qwen/ep60.txt and the Whisper pass whisper/ep60.txt in the lane scratch dir are ready; build on current main after this packet lands). Tools: /private/tmp/claude-501/c1d (brief-ssb.md, review-ssb.md, mkpacket.sh, apply_pkt.py, wh.py).
+episode 59 section appended; see file
+EXCLUSION (proposal for the founder): | Opening greeting, praise, blessings and series announcement | ep59 00:00:00-00:00:30 | Greeting formula, no teaching content | Content rule | Open | - see row
+EXCLUSION (proposal for the founder): | Closing greeting and closing prayer | ep59 01:17:30-01:18:00 | Greeting and closing prayer | Content rule | Open | - see row
+EXCLUSION (proposal for the founder): | Looping stretches in the Qwen pass | ep59 00:03:00-00:03:30, 00:07:00-00:07:30, 00:12:00-00:12:30, 00:17:00-00:17:30, 00:18:30-00:19:00, 00:23:30-00:24:30, 00:41:00-00:41:30, 00:45:00-00:45:30, 00:47:30-00:48:00, 00:51:00-00:51:30, 00:54:30-00:55:00, 00:56:00-00:56:30, 01:00:30-01:01:00, 01:04:00-01:04:30, 01:07:00-01:07:30 | Loops, recovered only where the Whisper pass was clear | Clarity, Loop check | Open | - see row
+EXCLUSION (proposal for the founder): | Looping stretches in the Whisper pass | ep59 00:19:00-00:19:30, 00:32:30-00:33:00 | Loops, recovered only where the Qwen pass was clear | Clarity, Loop check | Open | - see row
+EXCLUSION (proposal for the founder): | Remarks on the temperaments of African, English and Scandinavian men and a joke about nations | ep59 00:14:30-00:15:00 | Sweeping generalisation about peoples | Voice rule | Open | - see row
+EXCLUSION (proposal for the founder): | Anecdotes and jokes about a visit to Moscow, a tiger, Egyptians and a chick | ep59 00:16:00-00:16:30, 00:23:30-00:24:30 | Garbled jokes about peoples, not tied to a source | Voice rule, Clarity | Open | - see row
+EXCLUSION (proposal for the founder): | Story of a household quarrel with Ali and Fatima and a man's jealousy | ep59 00:18:00-00:19:00 | Garbled, names rest on single unclear words | Clarity | Open | - see row
+EXCLUSION (proposal for the founder): | Skins and tanning, and the pig's skin | ep59 00:11:30-00:12:00 | Hadith and ruling too garbled in both passes | Clarity | Open | - see row
+EXCLUSION (proposal for the founder): | Remarks on a fiancé's phone calls and whether that is seclusion, and on calling at night | ep59 00:32:00-00:33:00 | Garbled and a ruling-like remark on women and engaged couples | Clarity, Voice rule | Open | - see row
+EXCLUSION (proposal for the founder): | Personal remarks on sleep, a boss and a student after the night prayer | ep59 00:34:30-00:35:30 | Garbled personal anecdote | Clarity | Open | - see row
+EXCLUSION (proposal for the founder): | Remarks on a veiled woman, perfume and dress | ep59 00:38:30-00:39:00 | Garbled, generalisation about women | Clarity, Voice rule | Open | - see row
+EXCLUSION (proposal for the founder): | Story of Umar's grandson, the treasury and the household eating the lawful | ep59 00:40:30-00:41:30 | Garbled in both passes, names unclear | Clarity | Open | - see row
+EXCLUSION (proposal for the founder): | Second adviser's words to Umar ibn Abd al-Aziz | ep59 00:45:00-00:45:30 | Qwen pass loops and Whisper reads a single garbled name | Clarity | Open | - see row
+EXCLUSION (proposal for the founder): | Hours of daylight in far lands, the sun rising from the west and the Companions' question | ep59 00:51:00-00:53:00 | Garbled in both passes, figures disagree | Clarity | Open | - see row
+EXCLUSION (proposal for the founder): | Advice on praying in public places, a strong-bodied man, Umar's strength and remarks to daughters and fathers | ep59 00:55:30-00:58:30 | Garbled, partly a generalisation about young women | Clarity, Voice rule | Open | - see row
+EXCLUSION (proposal for the founder): | Hand and finger positions in bowing and the width of the feet | ep59 01:03:30-01:04:30 | Loop and garble in both passes | Clarity, Loop check | Open | - see row
+EXCLUSION (proposal for the founder): | Hadith of giving charity to a brother by praying with him, repeating the prayer, and the sunna of Fajr after sunrise with the view attributed to Ahmad | ep59 01:06:00-01:08:00 | Garbled in both passes, application unclear | Clarity | Open | - see row
+EXCLUSION (proposal for the founder): | Exact hours of the three parts of the night and the years needed to clear missed prayers | ep59 01:10:30-01:11:00, 01:16:00-01:16:30 | The two passes give conflicting hours and years | Clarity | Open | - see row
+EXCLUSION (proposal for the founder): | Second ASR pass: Whisper large-v3 (mlx) run on the Mac to resolve garbled words of the Qwen transcript; cites use the shared 30-second grid | ep59 whole | Qwen pass garbled | Clarity | Open | - see row
