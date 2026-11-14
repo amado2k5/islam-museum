@@ -3887,6 +3887,22 @@ Resume point: sharh-saheeh-al-bukhare episode 18 (branch from origin/main).
 
 Resume point: sharh-saheeh-al-bukhare episode 19 (branch from origin/main).
 
+### alwaad-alhaq ep16 (14 Nov 2026)
+
+19 points written for episode 16 (ar, en, ur); 17 needs_source marks for this episode in each language file; 16 new `about` edges (ghulul, zakat, innovation, martyr, betrayal, trust, the unseen, tale-bearing, deviation, gifts to workers, the gift, purity, ongoing charity, Abd Allah ibn Rawaha, Abu al-Darda, Awf ibn Malik); Contested: his readings of the verses, the soul-and-body account, the decay figures and his views on gifts, innovation and funeral customs are marked as his. Quran verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
+
+| Excluded (alwaad-alhaq ep16) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Loop and garbled stretches | ep16 00:07:30, 00:15:30, 00:25:30, 00:29:30-00:30:30, 00:40:30-00:41:00, 00:43:00-00:43:30, 00:44:30-00:45:00, 00:46:00, 00:51:00-00:51:30 | Repeated tokens and noise, nothing recoverable | Clarity, Loop check | Open |
+| Names in the grave-aflame cloak report (Abd al-Rahman ibn Awf and a cemetery) | ep16 00:06:00-00:07:00 | Names unstable in the transcript, left unlinked pending the founder | Accuracy | Open |
+| Saying that the followers of innovation are dogs of Hell, and remarks on the funeral reciters' fees and a figure of one hundred thousand | ep16 00:27:30-00:29:30 | Sweeping and garbled, unreferenced figure | Voice rule, Clarity | Open |
+| Remark that people in the West each live as an isolated island | ep16 00:17:00-00:17:30 | Sweeping generalisation about a people | Voice rule | Open |
+| Report on the previous nations punished by general torment, and the sheikh's answer on whether the unbeliever is punished in the grave | ep16 00:09:30-00:10:00 | Garbled, only the clear sentence recorded | Clarity | Open |
+| Attribution to Ata ibn Abi Rabah about waiting for rain and for the stone, and the Ibn Hazm and Ibn Hajar remarks on the ruler's duty | ep16 00:30:30, 00:32:30-00:33:00 | Garbled and misattributed in the transcript | Accuracy | Open |
+| Remarks on objecting to God's words, the deceiver and schemer details | ep16 00:42:30-00:43:00, 00:47:30-00:48:30 | Garbled | Clarity | Open |
+| Opening greeting and closing farewell | ep16 00:00:30-00:01:30, 00:51:30-00:52:30 | Greeting, prayer and housekeeping | Content rule | Open |
+
+Resume point: alwaad-alhaq episode 17 (branch from origin/main).
 ### sharh-saheeh-al-bukhare ep19 (14 Nov 2026)
 
 29 points written for episode 19 (ar, en, ur); 21 needs_source marks in each language file for this episode; 3 new `about` edges. Quran verses referenced only through passage links (9-107, 9-108, 61-3, 51-56, 39-53); none typed. Contested: His account of Abu Hanifa on laughter in prayer, his fatwa that a low-paid employee with dependents may take zakat, his views on nail polish in prayer, the foot as awra, and his ruling on the imam's successor are his own and contested among jurists. Checked line by line against the transcript by a second reader before merge.
@@ -3933,3 +3949,23 @@ Resume point: sharh-saheeh-al-bukhare episode 20 (branch from origin/main).
 | Garbled remarks before the orphan line and loops after Qur'an teaching | ep20 01:13:00-01:13:30; 01:14:30; 01:17:00-01:18:00 | Garbled and loop | Clarity, Loop check | Open |
 
 Resume point: sharh-saheeh-al-bukhare episode 21 (branch from origin/main).
+
+### sharh-saheeh-al-bukhare ep21 (14 Nov 2026)
+
+19 points written for episode 21 (ar, en, ur); 10 needs_source marks in each language file for this episode; 9 new `about` edges. Quran verses referenced only through passage links (99-1, 105-5, 21-30, 3-31, 59-7); none typed. Contested: He says the Prophet's forbidding is like God's, that the Sunna is revelation alongside the Qur'an, and offers earthquakes, wind and illness as signs and reminders from God; these are his readings and are attributed to him. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep21) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening praise, supplications and the closing greetings and prayer | ep21 00:00:00-00:05:00; 01:15:30-01:16:00 | Greetings and prayer, not teaching content | Content rule | Open |
+| Long supplications for the sick and for the ill in hospitals | ep21 00:20:00-00:21:30 | Closing-style prayer, garbled | Content rule | Open |
+| Statistics on the share of earthquakes around the Pacific and comparisons with Muslim regions | ep21 00:11:30-00:12:30 | Inconsistent figures, garbled, unreferenced | Clarity, Loop check | Open |
+| Direct appeals to ministers, judges and the media, and a call to cut relations with a party and govern differently | ep21 00:12:30-00:13:30; 00:28:30-00:29:30 | Sweeping claims about modern politics and peoples | Voice rule | Open |
+| Repeated filler loops | ep21 00:13:30, 00:21:00, 00:33:30, 00:35:00, 00:43:30, 00:48:30, 00:54:30, 00:58:30-00:59:00, 01:01:30, 01:03:00, 01:04:00, 01:06:30, 01:14:00, 01:15:00 | Loop or repeated token, no content | Clarity, Loop check | Open |
+| Story of David, Solomon and the stone, and the claim about who dies by stones | ep21 00:40:00-00:42:00 | Too garbled to recover | Clarity | Open |
+| Claims about wives of prophets betraying and about wives sharing secrets, and sweeping claims about women | ep21 00:46:00-00:47:30 | Demeaning generalisations about women | Voice rule | Open |
+| Remarks on Lut's people, a country's statistics and a disease | ep21 00:48:00-00:50:30 | Sweeping claims about a group, unreferenced statistics | Voice rule, Content rule | Open |
+| Remarks on Palestine, maps and other peoples and countries | ep21 01:01:30-01:03:30; 01:05:00-01:06:00 | Sweeping claims about peoples and modern conflict, garbled | Voice rule | Open |
+| Stretches on hearts of scholars, teachers and a conference | ep21 00:59:00-01:00:30; 01:05:00-01:05:30 | Too garbled to recover | Clarity | Open |
+| Stretch about the pious and the hypocrite and a remark about trade | ep21 01:14:30; 00:29:30-00:30:00 | Garbled | Clarity | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 22 (branch from origin/main).
