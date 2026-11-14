@@ -4234,3 +4234,23 @@ Resume point: sharh-saheeh-al-bukhare episode 29 (branch from origin/main).
 | Detail dropped from three description bullets (speech pace and amount, chest, downhill gait) | ep29 00:49:00-00:49:30, 00:51:00, 00:58:30 | Not clearly supported by the garbled transcript | Clarity | Open |
 
 Resume point: sharh-saheeh-al-bukhare episode 30 (branch from origin/main).
+
+### sharh-saheeh-al-bukhare ep30 (14 Nov 2026)
+
+16 points written for episode 30 (ar, en, ur); 12 needs_source marks in each language file for this episode; 2 new `about` edges. Quran verses referenced only through passage links (28-76); none typed. Contested: His division of people into three kinds, his readings of poverty, fear and showing off, and his explanation of exultation are his own views; the hadiths, divine saying, supplication and reports he relates by sense carry no chain. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep30) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening praise, opening prayer and loops | ep30 00:00:00-00:03:00 | Greetings and prayer; a stretch dropped under the content-safety block | Content rule / Clarity, Loop check | Open |
+| Remarks on the first century, scholars' deaths and Palestine, with statistics | ep30 00:06:00-00:11:00 | Sweeping remarks on modern conflict, garbled figures | Voice rule / Clarity | Open |
+| Stories of a Companion woman and a smile, loops | ep30 00:16:00-00:23:00 | Too garbled to recover | Clarity, Loop check | Open |
+| Saying about seeing a man fly and walk on water, definition of the friends of God | ep30 00:24:30-00:25:30 | Too garbled to recover | Clarity | Open |
+| Medical analogy for poverty and illness, loops | ep30 00:26:30-00:29:00 | Garbled | Clarity, Loop check | Open |
+| Stories of angels, repeated words, trade analogies | ep30 00:31:00-00:37:30 | Garbled, loops | Clarity, Loop check | Open |
+| Story of a woman taunted over her origin, marriage asides | ep30 00:38:00-00:43:30 | Garbled, names unreliable | Clarity, Loop check | Open |
+| Lottery, compensation figures, stories of a poor man at a door and a wife's remarriage | ep30 00:44:00-00:53:30 | Garbled, unreliable stories and numbers | Clarity, Loop check | Open |
+| Advice on wives and children, loops | ep30 00:55:30-00:59:00 | Garbled, loops | Clarity, Loop check | Open |
+| Stories of a lute-player and the dead, the knowledge trial and Abu Hanifa questions | ep30 01:01:00-01:03:00 and 01:04:00-01:09:00 | Garbled, loops, unreliable names | Clarity, Loop check | Open |
+| Break join, closing remarks and prayer | ep30 01:10:00-01:10:30 | Greetings and closing prayer | Clarity | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 31 (branch from origin/main).
