@@ -2893,3 +2893,15 @@ Resume point: min-kunuz-al-sunnah episode 5 (branch from origin/main).
 | Garbled stretches (the cases of intention and finding in the discussion on breaking ablution, the long remark on the mother and a youth) | ep05 00:05:30-00:06:30 (part), 00:07:00 (part) | Not recoverable | Clarity | Open |
 
 Resume point: min-kunuz-al-sunnah episode 6 (branch from origin/main).
+
+### min-kunuz-al-sunnah ep06 (14 Nov 2026)
+
+12 points written for episode 6 (ar, en, ur); 8 needs_source marks in each language file for this episode; 8 new `about` edges. Quran verses referenced only through passage links (6-153, 42-49, 42-50, 2-228, 4-11, 24-30, 49-11, 49-12, 5-3); none typed.
+
+| Excluded (min-kunuz-al-sunnah ep06) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greetings, the break joins and the closing prayer | ep06 00:00:00, 00:08:00-00:08:30, 00:17:30-00:18:00, 00:27:00-00:27:30 | Not lesson content | Content rule | Open |
+| A sweeping claim that the shorter a woman's dress the less her reason | ep06 00:07:30-00:08:00 (part) | Demeaning generalisation about women, unsourced; not written in the museum's voice; held for the founder to decide | Content rule, Voice rule | Open |
+| Loops and garbled stretches (a repeated phrase on a saying attributed to Ali, a loop over the list of what he believes, a loop on the worker who wastes hours) | ep06 00:06:00-00:06:30, 00:10:30-00:11:00, 00:15:00-00:15:30 | Not recoverable | Clarity, Loop check | Open |
+
+Resume point: min-kunuz-al-sunnah episode 7 (branch from origin/main).
