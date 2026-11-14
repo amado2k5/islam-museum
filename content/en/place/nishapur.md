@@ -48,3 +48,6 @@ In 618 AH, 1221 CE, the Mongols under [[person/genghis-khan|Genghis Khan]] sacke
 
 ## Decline and the modern town
 Nishapur then slowly declined until a modest revival in the later nineteenth century. In 1890 G. N. Curzon found the region still fertile and the turquoise mines of Bar-i Madin, about fifty kilometres north-west, still worked, though the town walls were ruinous. {cite:encyclopaedia-of-islam-2 vol. 8 p. 74} The modern town lies at about 36 degrees 13 minutes north and 58 degrees 49 minutes east, at 1,193 metres, on the east side of a plain ringed by hills, below the ridge of Binalud-Kuh, whose streams irrigate its lands. The tombs of two of its famous sons, [[person/umar-khayyam|Umar Khayyam]] and [[person/farid-al-din-attar|Farid al-Din Attar]], are still shown there. The census of 1365 sh, 1986 CE, gave a population of 109,258. {cite:encyclopaedia-of-islam-2 vol. 8 p. 75}
+
+## In the iDAI.gazetteer
+The iDAI.gazetteer of the German Archaeological Institute records this place as no. 2368554, of type populated place, with the preferred name «Neyshabur», placed in its hierarchy under «Neyshabur». Recorded names include Neyshābūr, Nishapur and Nischapur. {cite:idai-gazetteer 2368554}
