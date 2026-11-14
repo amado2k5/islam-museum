@@ -4192,3 +4192,29 @@ Resume point: sharh-saheeh-al-bukhare episode 28 (branch from origin/main).
 | Detail that Uhud shook, and that the Baqi visit was at night or involved asking forgiveness | ep28 00:46:00-00:47:30 | Not in the transcript | Clarity | Open |
 
 Resume point: sharh-saheeh-al-bukhare episode 29 (branch from origin/main).
+
+### sharh-saheeh-al-bukhare ep29 (14 Nov 2026)
+
+28 points written for episode 29 (ar, en, ur); 24 needs_source marks in each language file for this episode; 5 new `about` edges. Quran verses referenced only through passage links (5-67); none typed. Contested: He holds that we live in a time of trials, relates Hind ibn Abi Hala's description of the Prophet as his preferred one (with his own account of Hind's kinship and age), and gives the rule that what leads to the forbidden is forbidden; all marked as his view. The recording says "his death" for the first part of the lesson but what follows is the Prophet's description, so the bullet says "the Prophet's person"; the word for the first kind of miracle is garbled and read as inanimate things from context. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep29) | Episode / time | Reason | Gate failed | Override |
+| Opening greeting, supplication and closing of the opening prayer | ep29 00:00:00-00:01:00 | Greeting and prayer, not teaching | Content rule | Open |
+| Repeated loop on a single word | ep29 00:05:30-00:05:30 | Looped filler, no content | Clarity, Loop check | Open |
+| Loop and garbled stretch after the Prophet's character | ep29 00:10:30-00:10:30 | Looped filler | Clarity, Loop check | Open |
+| Digression on names (Hind, names with abd, naming children) | ep29 00:12:30-00:16:30 | Garbled, partly looped, cannot be recovered faithfully | Clarity, Loop check | Open |
+| Garbled stretch on a Bedouin visitor, the face of liars, and the Qur'an wording of a Quraysh leader | ep29 00:19:30-00:21:30 | Too garbled; also involves Qur'an wording | Clarity, Loop check | Open |
+| Loop on one syllable and on the word "the face" | ep29 00:20:00-00:20:00, 00:25:30-00:25:30, 00:27:30-00:27:30 | Looped filler | Clarity, Loop check | Open |
+| Poetry and aside on faces of women | ep29 00:26:00-00:26:30, 00:31:00-00:31:30 | Aside with demeaning generalisation and unclear verse | Voice rule, Clarity | Open |
+| Garbled report of Umar and a visitor, and of the Dajjal sign and a man's questions | ep29 00:34:30-00:36:00 | Too garbled to recover | Clarity, Loop check | Open |
+| Aside on contemporary peoples and skin colours | ep29 00:39:00-00:40:00 | Sweeping claim about peoples, with garbled wording | Voice rule, Clarity | Open |
+| Vision of God, Bedouin questions and a modern aside | ep29 00:41:30-00:44:00 | Too garbled to recover; includes looped filler | Clarity, Loop check | Open |
+| Dialect digression and Yemeni visitors | ep29 00:46:00-00:48:30 | Garbled | Clarity | Open |
+| Garbled stretch on the arms, palms and chest | ep29 00:52:00-00:55:00 | Too garbled to recover | Clarity, Loop check | Open |
+| Aside on depression and suicide in other lands | ep29 00:59:00-01:01:30 | Sweeping claim about peoples and modern society, garbled | Voice rule, Clarity | Open |
+| Garbled and looped stretches on tears, a battle story and Companions | ep29 01:02:00-01:04:30 | Too garbled and looped to recover | Clarity, Loop check | Open |
+| Garbled stretch on greeting of non-Muslims | ep29 01:05:30-01:06:00 | Too garbled; only the first-to-greet point kept | Clarity | Open |
+| Garbled stretch on Ali, a camel and a prayer for safety | ep29 01:14:00-01:15:00 | Too garbled to recover | Clarity | Open |
+| Looped filler and garbled questions on names Muhammad and Awf | ep29 01:15:30-01:15:30, 01:17:30-01:17:30 | Looped or too garbled to recover; the transcript ends on a closing aside | Clarity, Loop check | Open |
+| Detail dropped from three description bullets (speech pace and amount, chest, downhill gait) | ep29 00:49:00-00:49:30, 00:51:00, 00:58:30 | Not clearly supported by the garbled transcript | Clarity | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 30 (branch from origin/main).
