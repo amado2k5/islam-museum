@@ -11,7 +11,7 @@ summary:
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/abbasid-fragmentation]
-sources: [source/al-aalam, source/siyar-alam-nubala-ideas-house]
+sources: [source/al-aalam, source/siyar-alam-nubala-ideas-house, source/siyar-alam-nubala]
 external_ids:
   wikidata: Q22688175
 provenance:
@@ -23,7 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 3
-born: { edtf: "906", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala (al-Dhahabi)" }
-died: { edtf: "999", calendar: gregorian, precision: year, derived: true, note: "Siyar A'lam al-Nubala (al-Dhahabi), p. 1706: d. Rabi' al-Akhir 389 AH" }
+born: { edtf: "906", hijri: "0294", calendar: gregorian, precision: year, derived: true, note: "Al-Dhahabi, Siyar A'lam al-Nubala' (Risala ed.) vol. 16 pp. 476-477, entry 352 (read 14 November 2026): born 294 AH and died Rabi' al-Akhir 389 AH aged 96. The year 294 AH runs from 22 October 906 to 11 October 907, so 906 is the start of the range, not a certain year." }
+died: { edtf: "999", hijri: "0389", calendar: gregorian, precision: year, derived: true, note: "Siyar A'lam al-Nubala (al-Dhahabi), Risala ed. vol. 16 p. 477 (read 14 November 2026; the one-volume edition p. 1706): d. Rabi' al-Akhir 389 AH, aged 96; Rabi' al-Akhir 389 AH is 22 March to 20 April 999 by the tabular calendar." }
 relations:
   - { type: lived_in, target: place/sarakhs, confidence: low, note: "Association inferred from the nisba 'السرخسي'; specific birthplace or residence is not individually documented.", sources: [source/al-aalam] }

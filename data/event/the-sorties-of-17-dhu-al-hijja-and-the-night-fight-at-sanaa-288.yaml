@@ -1,0 +1,64 @@
+id: event/the-sorties-of-17-dhu-al-hijja-and-the-night-fight-at-sanaa-288
+class: event
+kind: other
+label:
+  ar: "خروج الهادي في 17 من ذي الحجة والقتال الليلي، سنة 288هـ"
+  en: "Al-Hadi's sortie of 17 Dhu al-Hijja and the night fight, 288 AH"
+  ur: "ہادی کی 17 ذی الحجہ کی مہم اور رات کی لڑائی، 288ھ"
+summary:
+  ar: "في يوم السبت لسبع عشرة ماضية من ذي الحجة خرج الهادي إلى الميدان وبعث فرقة من خيله تعرضت للقوم فخرجوا إليهم من بيت بوس وحال الليل بينهم، ثم خرج في يوم الجمعة بعد الصلاة بجماعة من الخيل ومعها الرجالة إلى موضع سحدة فقتلوا نفراً من عسكر آل يعفر فيها، وأغارت عساكر القوم من بيت بوس وظهر وغيرها، فاشتد القتال حتى ذهب بعض الليل."
+  en: "On Saturday, seventeen days of Dhu al-Hijja gone, al-Hadi went out to the parade ground and sent a party of his horse that challenged the men, who came out to them from Bayt Bus until night came between them; then on a Friday after the prayer he went out with a number of horse, followed by foot, to a place called Sahda and they killed some men of the Al Ya'fur camp there; the men's armies raided from Bayt Bus, Zahr and elsewhere and the fight was hard until part of the night had passed."
+  ur: "ذی الحجہ کے سترہ دن گزرنے پر ہفتے کے دن ہادی میدان کی طرف نکلے اور اپنے سواروں کا ایک دستہ بھیجا جس نے مخالفوں کو للکارا تو وہ بیت بوس سے ان کی طرف نکلے یہاں تک کہ رات ان کے بیچ حائل ہو گئی؛ پھر جمعے کے دن نماز کے بعد وہ کچھ سواروں اور ان کے پیچھے پیادوں کے ساتھ سحدہ نامی جگہ نکلے اور وہاں آل یعفر کے پڑاؤ کے کچھ آدمی مارے، اور مخالفوں کے لشکر بیت بوس، ظہر اور دوسری جگہوں سے چڑھ آئے اور رات کا کچھ حصہ گزرنے تک لڑائی سخت رہی۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0901-11"
+    hijri: "0288-12"
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: "ذو الحجة سنة 288هـ بنص الكتاب؛ الدقة شهرية لأن أيام الأسبوع في الكتاب لا توافق دائماً التقويم الجدولي؛ التحويل مشتق"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/al-murtada-muhammad
+  role: "ابن الهادي، محتمل"
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-yafur
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/sanaa
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/bayt-bus-sanaa-yemen
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص235 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-27
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 235

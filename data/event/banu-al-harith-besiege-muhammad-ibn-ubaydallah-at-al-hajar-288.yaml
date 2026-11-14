@@ -1,0 +1,71 @@
+id: event/banu-al-harith-besiege-muhammad-ibn-ubaydallah-at-al-hajar-288
+class: event
+kind: other
+label:
+  ar: "بنو الحارث يحاصرون محمد بن عبيد الله بالهجر، رمضان 288هـ"
+  en: "Banu al-Harith besiege Muhammad ibn Ubaydallah at al-Hajar, Ramadan 288 AH"
+  ur: "بنو حارث ہجر میں محمد بن عبید اللہ کا محاصرہ کرتے ہیں، رمضان 288ھ"
+summary:
+  ar: "عسكر بنو الحارث على باب قرية الهجر في نحو ألف وخمسمائة راجل ومائة وثلاثين فارساً، وخرج إليهم محمد بن عبيد الله في خمسة عشر فارساً وخمسين راجلاً ومعه بنو عبد المدان، فحاصروه ثلاثة أيام في رمضان سنة 288هـ، وأمر ابن حميد وابن بسطام أصحابهما بالإفطار، ثم أتاه بنو عبد المدان بوجوه من أهل نجران وسألوه الخروج من قريتهم."
+  en: "Banu al-Harith camped at the gate of the village of al-Hajar with about fifteen hundred foot and a hundred and thirty horse, and Muhammad ibn Ubaydallah went out to them with fifteen horse and fifty foot, with Banu Abd al-Madan beside him; they besieged him three days in Ramadan of 288 AH, Ibn Humayd and Ibn Bustam told those with them to break the fast, and Banu Abd al-Madan then came to him with leading men of Najran and asked him to leave their village."
+  ur: "بنو حارث نے ہجر کی بستی کے دروازے پر قریباً پندرہ سو پیادوں اور ایک سو تیس سواروں کے ساتھ پڑاؤ ڈالا، اور محمد بن عبید اللہ پندرہ سواروں اور پچاس پیادوں کے ساتھ ان کی طرف نکلے، ان کے ساتھ بنو عبد المدان تھے؛ انہوں نے رمضان 288ھ میں تین دن ان کا محاصرہ کیا، ابن حمید اور ابن بسطام نے اپنے ساتھیوں کو روزہ توڑنے کا حکم دیا، پھر بنو عبد المدان نجران کے کچھ معززین کو لے کر ان کے پاس آئے اور ان سے اپنی بستی سے نکل جانے کی درخواست کی۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0901-08"
+    hijri: "0288-09"
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: "رمضان سنة 288هـ بنص الكتاب؛ الدقة شهرية لأن أيام الأسبوع في الكتاب لا توافق دائماً التقويم الجدولي؛ التحويل مشتق"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/abu-jafar-muhammad-ibn-ubaydallah-al-abbasi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abdullah-ibn-bustam
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ibn-humayd-of-banu-al-harith-286
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-al-harith-ibn-kab
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-abd-al-madan-najran
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/rabi-ibn-abi-al-rukud
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/al-hajar-najran
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص230 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-27
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 230

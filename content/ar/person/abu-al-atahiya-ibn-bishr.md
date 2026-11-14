@@ -15,3 +15,6 @@ translators: []
 
 ## في خبر ذي الحجة 285هـ والمحرم 286هـ
 يعرّفه الكتاب في الصفحة 110 باسم عبد الله بن بشر ويكنى أبا العتاهية، والي صنعاء ومخاليفها، وكان وزيره محمد بن أبي عباد من تميم، وكانا قد كاتبا الهادي ورغبا في عدله وقالا بإمامته {cite:sira-hadi-ila-al-haqq p.110}. ووعد أن يمده بخيل ورجال، ثم أرسل أخاه [[person/jarrah-ibn-bishr|جراحاً]] ومعه خمسون فارساً لأيام بقيت من المحرم سنة 286هـ بعد أن رأى كراهية الجند لقصد الهادي {cite:sira-hadi-ila-al-haqq p.111}. وفي فهرس الكتاب يُردّ «عبد الله بن بشر» إلى «أبو العتاهية» {cite:sira-hadi-ila-al-haqq p.450}. انظر [[event/abu-al-atahiya-promises-horse-and-sends-his-brother-jarrah-285]].
+
+## في حرب صنعاء، شعبان إلى شوال سنة 288هـ، ص227 إلى ص233
+يخرجه الهادي مساء ليلة السبت إلى عيمان فيقاتل بوراقتين وينحاز إلى نقم {cite:sira-hadi-ila-al-haqq p.227} {cite:sira-hadi-ila-al-haqq p.228} ⁦([[event/abu-al-atahiya-fights-at-ayman-and-warraqatayn-and-withdraws-to-nuqm-288|الخبر]])⁩، ويكون في ميسرة الهادي في القتال {cite:sira-hadi-ila-al-haqq p.232}، ويبيت بقلعة علب {cite:sira-hadi-ila-al-haqq p.232}، ثم يذكر الراوي أنه أُصيب بنشابة في حدين فمات {cite:sira-hadi-ila-al-haqq p.233} ⁦([[event/the-deaths-of-ali-ibn-sulayman-and-abu-al-atahiya-at-hidayn-288|مقتل علي بن سليمان وأبي العتاهية]])⁩. ولا يذكر النص تاريخ دفنه ولا عمره.

@@ -9,3 +9,7 @@ The heading in the original's margin reads: al-Hadi's entry into Sana'a the seco
 
 ## Detail
 This is the second entry after [[event/al-hadi-entry-into-sanaa-288|the first entry]] and it follows [[event/al-hadi-routs-al-yafur-and-al-tarif-before-sanaa-288]]. [[event/battle-of-al-rahba-288]] says al-Hadi entered Sana'a on a Friday with some days left of Rajab 288 AH, and the text on p. 226 gives only a Friday of the same year; the museum thinks it probably the same entry and does not assert it. The Aqili is not named. The heading is from the margin of the original, that is the copyist's.
+
+
+## See also
+[[event/the-people-wonder-at-al-hadis-steadfastness-and-his-prayer-in-battle-288|The rest of the sentence on p. 226: the people wonder at al-Hadi's steadfastness]].

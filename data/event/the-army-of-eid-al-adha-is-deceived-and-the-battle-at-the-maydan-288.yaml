@@ -1,0 +1,74 @@
+id: event/the-army-of-eid-al-adha-is-deceived-and-the-battle-at-the-maydan-288
+class: event
+kind: other
+label:
+  ar: "خديعة جيش يوم عيد النحر والقتال في ميدان صنعاء، ذو الحجة 288هـ"
+  en: "The army of the day of sacrifice is deceived and the battle on the parade ground of Sana'a, Dhu al-Hijja 288 AH"
+  ur: "عید الاضحیٰ کے دن لشکر کو فریب دیا جاتا ہے اور صنعاء کے میدان میں معرکہ، ذی الحجہ 288ھ"
+summary:
+  ar: "في يوم عيد النحر جمع آل يعفر وآل طريف عساكرهم وخدعوا الناس بأنهم صالحوا الهادي على أن يخلي لهم صنعاء، فاجتمع لهم عسكر ذُكر أنه عشرون ألفاً وساروا ليلاً إلى ميدان صنعاء، فقاتلهم الهادي في نحو ألف رجل، وبعد أن كُشف جناحاه وتقدم أمام أصحابه رجع جناحاه وهزم القوم، ثم أرسل رجلاً من خدمه يدعو ابن خلف إلى المبارزة فتأخر."
+  en: "On the day of sacrifice Al Ya'fur and Al Tarif gathered their armies and deceived the people by saying that they had agreed with al-Hadi that he would leave Sana'a to them; a great army, said to be twenty thousand, gathered to them and marched by night to the parade ground of Sana'a, and al-Hadi fought them with about a thousand men; after his wings gave way he went forward before his companions, his wings came back and the men were routed, and he then sent one of his servants to challenge Ibn Khalaf to single combat, who held back."
+  ur: "عید الاضحیٰ کے دن آل یعفر اور آل طریف نے اپنے لشکر جمع کیے اور لوگوں کو یہ کہہ کر فریب دیا کہ انہوں نے ہادی سے صلح کر لی ہے کہ وہ صنعاء ان کے لیے خالی کر دیں؛ ان کے پاس ایک بڑا لشکر جمع ہوا جس کے بارے میں بتایا گیا کہ بیس ہزار تھا اور وہ رات میں صنعاء کے میدان کی طرف چلے، اور ہادی نے قریباً ایک ہزار آدمیوں کے ساتھ ان سے جنگ کی؛ بازو ہٹ جانے کے بعد وہ ساتھیوں کے آگے بڑھے، بازو لوٹ آئے اور مخالف ہار گئے، پھر انہوں نے اپنے ایک خادم کو ابن خلف کو مبارزت کی دعوت دینے بھیجا جو پیچھے ہٹ گیا۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0901-11"
+    hijri: "0288-12"
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: "ذو الحجة سنة 288هـ بنص الكتاب؛ الدقة شهرية لأن أيام الأسبوع في الكتاب لا توافق دائماً التقويم الجدولي؛ التحويل مشتق"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-yafur
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-tarif
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ibrahim-ibn-khalaf-ibn-tarif
+  role: "محتمل"
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-hamdan
+  role: "في ميمنة الهادي"
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/madhhij
+  role: "في ميسرة الهادي"
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/sanaa
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص234 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-27
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 234
