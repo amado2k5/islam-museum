@@ -68,3 +68,9 @@ The constitutional movement of the early twentieth century reached Shiraz, thoug
 Al-Baladhuri reports that Abu Musa and Uthman ibn Abi al-As conquered Shiraz in the last years of Umar's caliphate. It lies in the land of Ardashir Khurra, and its people were kept as protected subjects who paid tribute, except those who chose to leave, and they were not to be killed or enslaved. {cite:futuh-buldan-maarif-1407 p.546}
 
 Idrisi describes Shiraz as a town of the district of Ardashir Khurra, and as the capital of Fars and the seat of its kingdom, where governors and officials lived and where the diwan and the tax office stood. He says it was an Islamic city founded by Muhammad ibn al-Qasim ibn Abi Aqil, a cousin of al-Hajjaj. Its name is explained as "the belly of the lion", because provisions were brought to it from every land and none left it. The Muslim army camped on its site until Istakhr and its district were taken, and then they built Shiraz there. {cite:nuzhat-al-mushtaq-2002 p.405}
+
+## In the Pleiades gazetteer
+Pleiades, the open gazetteer of ancient places, lists this place under the title «Qasr-i Abu Nasr/Seraz/Tirazzish?/Shiraz(zish)?» (Pleiades no. 922706), classed as a settlement, with activity attested from 1200 BCE to 2000 CE. Recorded names include Seraz, Tirazzish and Shirazzish. Its description only points to the Barrington Atlas map 94 C4 for the ancient place. {cite:pleiades 922706}
+
+## In the iDAI.gazetteer
+The German Archaeological Institute's iDAI.gazetteer holds this place as record 2109666, typed as a populated place, with the preferred name «Shiraz» and the parent «Shīrāz (Shahrestān)» in its hierarchy. Recorded names include Σιράζ (Greek), Şiraz (Turkish) and Xiraz (Basque). {cite:idai-gazetteer 2109666}
