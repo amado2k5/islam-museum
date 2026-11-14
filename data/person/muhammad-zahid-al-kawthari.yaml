@@ -6,25 +6,26 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لمحمد زاهد الكوثري، محدث الدولة العثمانية الأخير وناقد الحشوية؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Muhammad Zahid al-Kawthari, the late Ottoman hadith master and critic; his entry is not yet checked on the page."
+  ar: "محمد زاهد بن الحسن بن علي الكوثري، فقيه حنفي جركسي الأصل له اشتغال بالأدب والسير، ولد قرب دوزجة وتفقه في جامع الفاتح بالآستانة ثم هاجر إلى مصر سنة ١٣٤١هـ وتوفي بالقاهرة سنة ١٣٧١هـ؛ صاحب تأنيب الخطيب ومقالات الكوثري."
+  en: "Muhammad Zahid ibn al-Hasan ibn Ali al-Kawthari, a Hanafi jurist of Circassian origin who also busied himself with literature and biography, born near Duzce, trained at the Fatih mosque in Istanbul, who left for Egypt in 1341 AH (1922) and died in Cairo in 1371 AH (1952); author of Ta'nib al-Khatib and Maqalat al-Kawthari."
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/modern-era]
-died: { edtf: "1952", precision: year, status: tradition, derived: true }
+died: { edtf: "1952", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 6 p. 128: 1371 AH = 1952 CE.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
   - { type: born_in, target: place/d-zce, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q206885)" }
   - { type: died_in, target: place/cairo, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q85)" }
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q4702676
   viaf: "102409193"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
+born: { edtf: "1879", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 6 p. 128: 1296 AH = 1879 CE.", sources: [source/alam-zirikli-dar-al-ilm-2002] }

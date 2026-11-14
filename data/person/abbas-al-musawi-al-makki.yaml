@@ -6,25 +6,26 @@ label:
 roles: [scholar, poet, writer]
 gender: male
 summary:
-  ar: "بطاقة أولية لعباس بن علي الموسوي المكي، العالم والشاعر الحجازي، توفي سنة ١٧٦٥م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abbas ibn Ali al-Musawi al-Makki, the Hejazi scholar and poet, d. 1765; the biographical entry is not yet checked on the page."
+  ar: "عباس بن علي بن نور الدين المكي الحسيني الموسوي، أديب رحالة غزير العلم بالأخبار واللطائف، ولد وعاش بمكة وجال في العراق والهند واليمن واستقر في المخا سنة ١١٤٥هـ، ١١١١ إلى ١١٨٠هـ؛ صاحب نزهة الجليس ومنية الأديب الأنيس."
+  en: "Abbas ibn Ali ibn Nur al-Din al-Makki al-Husayni al-Musawi, a travelling man of letters rich in reports and anecdotes, born and raised in Mecca, who toured Iraq, India and Yemen and settled at al-Mokha in 1145 AH, 1111 to 1180 AH (1699 to 1766); author of Nuzhat al-jalis wa munyat al-adib al-anis."
 wings: [people]
 regions: [arabia]
 periods: [period/gunpowder-empires]
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q83378444
   viaf: "14648163"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0087
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
-born: { edtf: "1699", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Nafhat al-Rayhana (al-Muhibbi); al-A'lam (al-Zirikli: 1111–1180 AH)" }
-died: { edtf: "1766", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Nafhat al-Rayhana (al-Muhibbi); al-A'lam (al-Zirikli: 1111–1180 AH)" }
+  completeness: 3
+born: { edtf: "1699", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 3 p. 256: 1111 AH = 1699 CE.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+died: { edtf: "1766", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 3 p. 256: 1180 AH = 1766 CE (the card summary had 1765).", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
   - { type: lived_in, target: place/mecca, note: "Place association from the person's nisba/name (المكي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
+  - { type: born_in, target: place/mecca, note: "Al-Zirikli, al-A'lam vol. 3 p. 256: born and lived in Mecca.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }
