@@ -11,6 +11,11 @@ Scan 214-285: end of chapter 57, then the star catalogue of the Escorial text (s
 Resume point: scan page 25, chapter 5 tail and chapter 6 (the parallels, begins on scan 25). Next batch should start at scan 25 and run through chapter 8 or 9.
 The Zij is not finished.
 
+## Batch 2: scan 25-37, chapter 5 tail to chapter 11 (25 concepts, `concept/zij-sabi-*`)
+Chapters covered: 5 (closing lines only), 6 (spheres and inhabited earth, scan 25-32), 7 (33-34), 8 (34), 9 (35), 10 (35-37), 11 (37-38). Themes for chapter 6 geography: geography-and-cartography. Printed page = scan page minus 4.
+Resume point: scan page 38, chapter 12 (the meridian line; long chapter, scan 38-43), then chapter 13 (scan 43). The Zij is not finished.
+Page PNGs are not on the drive (pages-png is empty); garbled numbers could not be checked against images.
+
 ## Gaps and garbled OCR
 - Scan 24 is a leaf of the star catalogue (Capricornus figure table, header "من أسماء كواكب صورة الجدي", catalogue page number 262) misbound between the text pages 23 and 25; the printed text page 20 (the beginning of chapter 5, risings in the right sphere) is therefore missing from this scan, and chapter 5's heading never appears. Scan 25 opens with the tail of chapter 5. No chapter 5 concept written; the contents (scan 5) names its subject.
 - Scan 13-14: the OCR of the two multiplication tables (rows of fractions) is noise; only the instructions are used.
@@ -21,6 +26,12 @@ The Zij is not finished.
 - "إرخس" and "الخس" in the OCR (scan 11, 22) are read as Hipparchus (Ptolemy's predecessor named in the passage); the identification is the worker's reading of the name, not stated in the book. No person record created for him.
 - Qur'an quotations on scan 10 were described by subject only and not typed; the aya numbers in the apparatus are too garbled to link passages.
 
+- Batch 2: scan 29 total miles of the length of the inhabited earth is garbled (a half circle; "ثمانية عشر ألفاً" or "ثلاثة عشر ألفاً"); not given. Scan 32 gives about 65 miles to the degree (a two-day journey), flagged provisional because it does not clearly agree with that total.
+- Batch 2: scan 29 the latitude of the farther line with a four-month day is garbled; scan 28 says 69 deg 44 min with complement 20 deg 16 min (agrees with the declination at 30 deg from the solstice).
+- Batch 2: scan 30-31 gulf widths, the Mediterranean gulfs' names, the first of the five great Mediterranean islands (read "Qurni") and the Black Sea figures are partly garbled; only clear figures used. Names Tanais, Maetis, Laziqa follow the scan.
+- Batch 2: scan 33-38 the formulas of chapters 7, 8 and 11 are partly disordered; entries give the structure and say so. The term for the amplitude of the east is garbled ("ورسمة المشرق") and is read from context.
+- Batch 2: scan 32 the "Book of the Form of the Earth" is not attributed by the text; two works of that title exist in the graph (Ibn Hawqal, al-Khwarizmi); not linked.
+
 ## GEMINI lines
 GEMINI: person/hipparchus (not in the graph): the Zij (scan 11, 22) names "إرخس" as the earlier observer of the obliquity (47 deg 42 min arc between the solstices) and as the one Ptolemy corrected; confirm the identification with Hipparchus of Nicaea and the Wikidata and Pleiades-style identifiers, from a primary or Almagest source, before a person entity is created.
 GEMINI: scan 22: which observing instrument does al-Battani name before "the long ... and the instruments whose making is mentioned"? Nallino's Latin translation (Opus astronomicum Part I, chapter 4) would settle it.
@@ -28,3 +39,5 @@ GEMINI: scan 22: which observing instrument does al-Battani name before "the lon
 ## Process notes
 - harvest-register.yaml has no entry for this book; not updated (no entry to update).
 - Proposal: register zij-sabi-harrani in docs/library/harvest-register.yaml when the orchestrator next edits it.
+GEMINI: scan 32: which work does al-Battani mean by the well-known Book of the Form of the Earth (94 cities, longitudes from the Khalidat islands)? Settle from Nallino's Latin notes (Opus astronomicum, Part I, chapter 6 note) before any link to work/surat-al-ard-khwarizmi or work/surat-al-ard-ibn-hawqal.
+GEMINI: scan 30-31: confirm the place names the OCR gives (Taprobane/Sarandib, Gadira, Tanais, Maetis, Laziqa, Bahr al-Bab) against Nallino's Latin translation and notes.
