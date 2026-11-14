@@ -37,9 +37,10 @@ relations:
   - { type: born_in, target: place/cairo, sources: [source/encyclopaedia-of-islam-2] }
   - { type: died_in, target: place/damascus, sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
   - { type: lived_in, target: place/damascus, sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2, source/shadharat-dhahab, source/al-bidaya-wal-nihaya] }
-sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2, source/shadharat-dhahab, source/al-bidaya-wal-nihaya]
+sources: [source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2, source/shadharat-dhahab, source/al-bidaya-wal-nihaya, source/biblissima]
 external_ids:
   wikidata: Q12201802
+  biblissima: "Q317214"
 provenance:
   layer: own-research
   source: "Ibn Hajar, al-Durar al-Kamina, vol. 2, printed pp. 425-427, entry no. 2547 (harvest scan DurarKamina__drkamth2); Encyclopaedia of Islam 2nd ed. vol. 9, printed p. 745, art. al-Subki A no. 9; al-Bidaya wa-l-Nihaya s.a. 756 p. 263; earlier: Wikidata candidate, Shadharat al-Dhahab"

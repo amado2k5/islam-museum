@@ -885,3 +885,10 @@ Nothing is registered this turn. Each registration needs the three-part commit i
 - Approval: dec-20261114-277. Same rule as batch 5 (one populated place within 1.5 km, our GeoNames id or Arabic label among its names). The earlier search log was not kept, so all 397 cities with a GeoNames or Pleiades id and no iDAI id were searched again (274 done at this point; scan continues).
 - Linked: hama, al-rastan, anakkale, brest, brooklyn, chamchamal, d-zce, drama, giannitsa, i-znik, idlib, irbid, k-tahya, khoy, kolkata, manfalut, manisa, mardin, moscow, nakhchivan, patras, plovdiv, qayn, rize, rostov-on-don.
 - Not linked: fier, gjirokast-r, sarab, serres (two equally good results each); antakiya, sarqusta, shaizar (duplicate pair or Arabic-only weak match left for the next pass).
+
+## 2026-11-14 (p58, Lane B worker B1) — Biblissima batch 5: 15 more persons linked; founder list extended
+
+- Approval: dec-20261114-277. Same method as batches 2 to 4 (name search; accept only when Biblissima's own P112 statement equals the Wikidata id on our record). Candidates 431 to 738 of the list (persons born 600 to 1500 CE with a Wikidata id, lowest Wikidata number first): 308 searched, 18 matched by id.
+- Linked (Biblissima ids): zati Q16755, ibn-al-mulaqqin Q106028, ibn-hisham-al-ansari Q16816, molla-fenari Q317098, ahmedi-poet Q540, jalal-al-din-al-qazwini Q12207, al-sakhawi-alam Q411079, taj-al-din-al-subki Q317214, taqi-al-din-al-subki Q106025, safi-al-din-al-hilli Q16847, taskopruzade Q518, latifi Q218, al-khazin-al-baghdadi Q16866, burhan-al-din-al-marghinani Q16853, ibn-abi-zayd-al-qayrawani Q106011. Dates agree with ours (partial dates in Biblissima agree on the year given).
+- FOR THE FOUNDER, matched by id and left unlinked: terken-khatun (Biblissima holds no dates), abd-al-malik-ibn-habib (birth 790 ours, 796? Biblissima; death 853 on both), and ibrahim-al-halabi (already listed, 1460 and 1401). Together with the earlier lists 31 stay unlinked.
+- Date differences noticed, not changed: al-sakhawi-alam birth 1164 and 1163?; al-khazin-al-baghdadi birth 1279 and 1280.
