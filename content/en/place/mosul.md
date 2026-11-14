@@ -63,3 +63,6 @@ Mosul is a city on the west bank of the Tigris in northern Iraq, opposite the ru
 
 ## For Scholars
 Mosul is an Iraqi city on the west bank of the Tigris opposite the ruins of Nineveh, historically tied to the Jazira. The Muslims entered it in the early conquests, and in the middle ages it became a Zengid seat: Imad al-Din Zengi made it his capital in the twelfth century, and building, libraries and craft flourished there. Its most famous monument is the al-Nuri Mosque and its Hadba minaret, which leaned over centuries and was rebuilt after its destruction in 2017. Mosul remained a dry port linking Baghdad to Syria and Anatolia on the trade routes, and a passage between countries. In Ottoman and modern times it became a provincial capital; in the twenty-first century it suffered wide destruction under ISIS (2014–2017) followed by gradual rebuilding. Historians read it as a Jaziran city layering Assyrian, Abbasid, Zengid, Ottoman and modern strata.
+
+## In the Pleiades gazetteer
+Pleiades, the open gazetteer of ancient places, lists this place under the title «Mosul/‘Mespila’?» (Pleiades no. 874609), classed as settlement, with activity attested from 1600 BCE to 2000 CE. Recorded names include «Mespila», «al-Mawşil» and «Mevṣil». Its description calls it an ancient city across the Tigris from the site of Nineveh, today Mosul in Iraq. {cite:pleiades 874609}
