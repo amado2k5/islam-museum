@@ -3176,3 +3176,21 @@ Resume point: min-kunuz-al-sunnah episode 20 (branch from origin/main).
 | remarks on children preferring TV-drama dialect and on mixed foreign speech heard by a visitor | ep20 00:23:00-00:24:00 | garbled and anecdotal, leans on generalisations about groups | Voice rule, Clarity | Open |
 
 Resume point: min-kunuz-al-sunnah episode 21 (branch from origin/main).
+
+### min-kunuz-al-sunnah ep21 (14 Nov 2026)
+
+14 points written for episode 21 (ar, en, ur); 9 needs_source marks in each language file for this episode; 10 new `about` edges. Quran verses referenced only through passage links (1-4, 40-7, 28-78, 2-131); none typed. Contested: He holds that the Torah and Gospel were true before some people altered them, that looking at the righteous is a kind of worship per unnamed scholars, and he gives the palace story, the Yemeni man and the angel-function count without sources.
+
+| Excluded (min-kunuz-al-sunnah ep21) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Greetings and opening prayer | ep21 00:00:00-00:00:30 | Opening salutations and praise | Content rule | Open |
+| Break join and welcome back | ep21 00:07:30-00:08:30 | Restates the previous segment and welcomes viewers | Content rule | Open |
+| Break join and welcome back | ep21 00:16:30-00:17:00 | Welcome and recap after the break | Content rule | Open |
+| Closing prayer and farewell | ep21 00:24:30-00:25:00 | Closing supplication and salutations | Content rule | Open |
+| Claim that looking at sinners and the corrupt narrows the chest | ep21 00:10:00-00:10:30 | Sweeping generalisation about sinners | Voice rule | Open |
+| Comparison of a difficult manager to a named historical opponent | ep21 00:20:30-00:21:00 | Demeaning comparison with a named person | Voice rule | Open |
+| Young man who confessed a sin to a scholar and died of fear | ep21 00:23:30-00:24:00 | Garbled, cannot be recovered reliably | Clarity, Loop check | Open |
+| Story of the Yemeni man's name and companion exchange details | ep21 00:05:30-00:06:00 | Name and wording garbled by recognition errors | Clarity, Loop check | Open |
+| Third pillar of faith | ep21 00:12:00-00:13:00 | The third of the three pillars is not stated in the transcript | Clarity, Loop check | Open |
+
+Resume point: min-kunuz-al-sunnah episode 22 (branch from origin/main).
