@@ -6,8 +6,8 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لعبد الرحمن بن علي ابن الديبع الشيباني، محدث ومؤرخ اليمن صاحب «الفضل المزيد» في القرن السادس عشر، توفي سنة ١٥٣٧م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abd al-Rahman ibn Ali Ibn al-Dayba al-Shaybani, the sixteenth-century muhaddith and historian of Yemen author of al-Fadl al-Mazid, d. 1537; the biographical entry is not yet checked on the page."
+  ar: "عبد الرحمن بن علي بن محمد الشيباني الزبيدي الشافعي، وجيه الدين، المعروف بابن الديبع، مؤرخ محدث من أهل زبيد في اليمن، مولده ووفاته فيها، من سنة 866 إلى 944 هـ الموافقة 1461 إلى 1537 م."
+  en: "Abd al-Rahman ibn Ali ibn Muhammad al-Shaybani al-Zabidi al-Shafi'i, Wajih al-Din, known as Ibn al-Dayba, a historian and hadith scholar of Zabid in Yemen, born and died there, 866 to 944 AH (1461 to 1537 CE)."
 wings: [people]
 regions: [arabia]
 periods: [period/gunpowder-empires]
@@ -16,16 +16,16 @@ died: { edtf: "1537", calendar: gregorian, precision: year, derived: true, note:
 relations:
   - { type: born_in, target: place/zabid, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/zabid, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q6533520
   viaf: "69142749"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0051
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3

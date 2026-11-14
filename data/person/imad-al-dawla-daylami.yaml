@@ -6,25 +6,26 @@ label:
 roles: [ruler]
 gender: male
 summary:
-  ar: "بطاقة أولية لعلي بن بويه عماد الدولة، مؤسس الدولة البويهية الذي دخل شيراز وفارس ثم مضى إخوته إلى بغداد، توفي سنة ٩٤٩م؛ تذكره معاجم الدول الإسلامية ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ali ibn Buya, 'Imad al-Dawla', founder of the Buyid dynasty who took Shiraz and Fars while his brothers advanced on Baghdad, d. 949; the dynastic handbook entry is not yet checked on the page."
+  ar: "علي بن بويه بن فناخسرو الديلمي، أبو الحسن، عماد الدولة، أول من ملك من بني بويه، كانت له بلاد فارس وعاصمته شيراز، ومات بشيراز عقيما، من سنة 281 إلى 338 هـ الموافقة 894 إلى 949 م."
+  en: "Ali ibn Buya ibn Fanakhusraw al-Daylami, Abu al-Hasan, Imad al-Dawla, the first of the Buyids to rule; he held Fars with Shiraz as his capital, reigned sixteen years and died in Shiraz without children, 281 to 338 AH (894 to 949 CE)."
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/buyid-seljuk-fatimid-era]
-born: { edtf: "892~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica Confirmed on 13 November 2026 against Wikidata Q912259 (P569, a statement with a reference), item revision 2565484812.", sources: [source/wikidata] }
+born: { edtf: "894", calendar: gregorian, precision: year, derived: true, note: "al-A'lam entry: 281 AH = 894 CE; replaces the earlier 892~ estimate.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 died: { edtf: "949", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica Confirmed on 13 November 2026 against Wikidata Q912259 (P570, a statement with a reference), item revision 2565484812.", sources: [source/wikidata] }
 relations:
+  - { type: died_in, target: place/shiraz, note: "The entry: died in Shiraz.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }
   - { type: born_in, target: place/lahijan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: buried_in, target: place/istakhr, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/bosworth-new-islamic-dynasties-1996]
+sources: [source/bosworth-new-islamic-dynasties-1996, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q912259
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: Bosworth, The New Islamic Dynasties (1996) — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0016
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
