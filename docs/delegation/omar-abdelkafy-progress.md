@@ -3771,3 +3771,33 @@ Resume point: sharh-saheeh-al-bukhare episode 12 (branch from origin/main).
 | Loops at 00:27:30, 00:29:00, 00:36:00, 00:37:00, 00:40:30, 00:48:30, 00:50:00, 00:53:00, 00:57:00, 00:57:30, 01:00:00, 01:02:00, 01:03:00, 01:03:30, 01:06:30, 01:07:00, 01:09:30, 01:14:30, 01:16:30, 01:22:30 | ep12 various | Repeated words | Clarity, Loop check | Open |
 
 Resume point: sharh-saheeh-al-bukhare episode 13 (branch from origin/main).
+
+### sharh-saheeh-al-bukhare ep13 (14 Nov 2026)
+
+26 points written for episode 13 (ar, en, ur); 17 needs_source marks in each language file for this episode; 5 new `about` edges. Quran verses referenced only through passage links (28-26, 2-177, 6-61, 38-75, 2-255, 112-1, 16-66); none typed. Contested: He holds that the believer who resists temptation in a corrupt society is better in God's sight than one living in a society where disobedience is nearly impossible, and he attributes to unnamed European scholars a judgement on the Prophet's character; both are his views, and the reports he gives on angels and on Ibrahim are stated without a chain. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep13) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening supplication, greetings and invocations | ep13 00:00:00-00:00:30 | Greetings and opening prayer | Content rule | Open |
+| Closing supplication, break join and sign-off, second opening of a new hadith session | ep13 01:09:00-01:10:30, 01:18:00-01:24:30 | Closing prayers and invocations, repeated lines, break join | Content rule, Loop check | Open |
+| Credits and contact details of the publisher | ep13 01:28:00-01:29:00 | Promotional lines and sign-off | Content rule | Open |
+| Sweeping claims about rulers, wars and modern politics in the Muslim world | ep13 00:24:00-00:27:30, 01:08:30-01:09:00 | Sweeping claim about modern conflict and peoples, partly garbled | Content rule, Voice rule | Open |
+| Remarks on marriage customs, proposals and relatives, and on wives and in-laws | ep13 00:11:30-00:16:00, 00:21:00-00:22:00 | Garbled; sweeping advice about women and families not recoverable | Voice rule, Clarity | Open |
+| Story of Umar's household and sweets from the public treasury | ep13 00:08:00-00:10:00 | Garbled, speaker and details unclear | Clarity | Open |
+| Remarks on gossip and faults of people | ep13 00:17:00-00:19:30 | Garbled, referents unclear | Clarity | Open |
+| Hadith by sense on honouring a transgressor and on seeking knowledge | ep13 00:25:00-00:26:00 | Garbled; wording and referent not recoverable | Clarity | Open |
+| Story of Harun al-Rashid and a jar, and a visit story | ep13 00:30:00-00:32:30 | Garbled, plot not recoverable | Clarity | Open |
+| Remarks on a famous reciter and on a man who played with the mushaf | ep13 00:32:30-00:34:30 | Garbled, meaning not recoverable | Clarity | Open |
+| Remarks on reason, a lent coin and the glass half full | ep13 00:38:30-00:41:30 | Garbled, comparison unclear | Clarity | Open |
+| Daydreams, desire and imagined wealth | ep13 00:43:00-00:45:30 | Garbled, meaning not recoverable | Clarity | Open |
+| Remarks on angels and doctors, a doctor story and a prayer-rows story | ep13 00:51:00-00:52:00, 00:54:30-00:55:00 | Garbled, speaker and plot unclear | Clarity | Open |
+| Remarks on the Kaaba as the centre of the earth and satellite claims | ep13 00:58:00-00:58:30 | Unsupported factual claim stated without reference | Content rule, Clarity | Open |
+| Remarks on the Gospel, a woman and the nature of Isa | ep13 01:01:00-01:02:30 | Garbled, wording not recoverable | Clarity | Open |
+| Remarks on science, oil, resources of Muslim countries and the Hoopoe | ep13 01:05:30-01:08:30 | Garbled; sweeping claim about peoples | Content rule, Clarity | Open |
+| Questions on charity from doubtful money, maintenance of relatives and bank accounts | ep13 01:12:30-01:14:00 | Garbled; fiqh answers not recoverable | Clarity | Open |
+| Remark on death and the testimony and the burning of a mat or green | ep13 01:14:00-01:15:30 | Garbled, meaning not recoverable | Clarity | Open |
+| Remark on the Prophet's greatness compared with a named figure | ep13 01:27:00-01:28:00 | Garbled, name unclear | Clarity | Open |
+| Loop stretches of repeated syllables | ep13 00:02:30-00:03:00, 00:05:30-00:06:00, 00:07:30-00:08:30, 00:12:00-00:13:00, 00:19:00-00:20:30, 00:36:30-00:37:00, 00:38:00-00:38:30, 00:45:00-00:45:30, 00:50:30-00:51:00, 01:01:30-01:02:00, 01:05:00-01:05:30, 01:07:00-01:08:30, 01:10:00-01:10:30, 01:15:00-01:15:30, 01:21:30-01:24:00 | Repeated-token loops | Loop check | Open |
+| Throne-bearers' two praise formulas and the "shy" middle person in the three-people report | ep13 00:55:30-00:56:00, 01:17:00-01:17:30 | Garbled; wording not recoverable from the transcript | Clarity | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 14 (branch from origin/main).
