@@ -2997,6 +2997,19 @@ Resume point: alwaad-alhaq episode 2 (branch from origin/main).
 
 Resume point: min-kunuz-al-sunnah episode 13 (branch from origin/main).
 
+### alwaad-alhaq ep02 (14 Nov 2026)
+
+19 points written for episode 2 (ar, en, ur); 21 needs_source marks for this episode in each language file (39 in all in each file with episode 1); about edges added for will, inheritance, gifts, mourning and six persons. Quran verses only as passage links (21-96, 21-97, 12-8, 4-9, 19-6). The sheikh's rulings on gifts and bequests are recorded as his view, not as rulings (founder-held: opinion rulings).
+
+| Excluded (alwaad-alhaq ep02) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Repetition loops ("ya ukhti", "ma bi", "aysh hum", "na'ma") | ep02 00:23:30, 00:29:00, 00:31:00, 00:34:30, 00:36:00 | Not speech | Loop check | Open |
+| Supplication-length remarks, an account of a Companion's bequest of all his property that the loop destroys | ep02 00:29:00 | Garbled; replaced by the Umar ibn Abd al-Aziz report only | Clarity | Open |
+| A dialogue about a will for two flats and a family business (case discussion) | ep02 00:37:30, 00:38:30 to 00:40:00 | Garbled case facts; only the stated general rule kept | Clarity | Open |
+| Ali's advice to al-Hasan to study death | ep02 00:53:00 | Garbled and unattributed | Clarity | Open |
+| A verse-poem recited at the opening about the dying | ep02 00:01:00 | Unattributed poem fragment, garbled | Clarity, no source | Open |
+
+Resume point: alwaad-alhaq episode 3 (branch from origin/main).
 ### min-kunuz-al-sunnah ep12 review (14 Nov 2026)
 
 Episode 12 re-read against the transcript after merge (#6642): one wording corrected in ar, en, ur (the report on lying to a brother is among the greatest major sins, not "betrayal"); no marks or links changed. All later episodes are reviewed against the transcript before merge; see their notes.
