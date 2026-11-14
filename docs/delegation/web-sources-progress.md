@@ -1307,3 +1307,4 @@ GEMINI: person/al-mahdi-al-husayn - card/al-A'lam birth 384 AH; Wikipedia and Wi
 GEMINI: person/abu-al-abbas-al-sabti - card d. 1204 (al-Zirikli 524-601 AH, Wikidata Q2822099); Gemini 3 Jumada II 601 AH = 1205; Ibn al-Zayyat, al-Tashawwuf would settle it.
 GEMINI: person/muhammad-al-nafzawi - card born 1410~ died 1434~ (EI2); Gemini floruit c. 1410-1434; EI2 or the author's own work would settle it.
 GEMINI: person/yuhanna-al-dimashqi - card 675~ (Wikidata Q51884, circa); Gemini 676; the Oxford Dictionary of Byzantium would settle it.
+- Packet 70 (Yaqut place prose, 14 Nov 2026): skipped place/sur (Yaqut's Sur is Tyre in the Jordan district, our record is Oman), place/rumah (Yaqut's Ruma is the Medina well and land, our record is Rome), place/hungary (no headword; only "Majr" entries). GEMINI: place/sur, Yaqut has no Oman Sur entry on vol 3 pp.433-434; settle with Yaqut vol 3 index for Oman Sur or the Idrisi record.
