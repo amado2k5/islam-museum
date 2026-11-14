@@ -2697,3 +2697,16 @@ Resume point: modakirate-iblis episode 18 (branch from origin/main).
 | A political remark on the people holding Jerusalem since 1948 | ep18 00:01:30-00:02:00 (part) | Modern conflict aside; the lesson point on supplication and means is kept without it, held for the founder to decide | Content rule | Open |
 
 Resume point: modakirate-iblis episode 19 (branch from origin/main).
+
+### modakirate-iblis ep19 (14 Nov 2026)
+
+12 points written for episode 19 (ar, en, ur); 5 needs_source marks in each language file for this episode; 4 new `about` edges. Quran verses referenced only through passage links (42-27, 25-20, 28-7, 20-39, 13-13, 14-34, 113-4); none typed.
+
+| Excluded (modakirate-iblis ep19) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greetings, the break and its trailer (an advert for a television programme), and the closing prayer | ep19 00:00:00, 00:10:30-00:12:30, 00:23:30-00:24:00 | Not lesson content | Content rule | Open |
+| An unsourced anecdote about the death of a named wealthy banker linked to a political declaration, and sweeping remarks about a whole people and about the media | ep19 00:05:00-00:06:30 (part), 00:12:30 (part), 00:16:30-00:17:30 | Unsourced and a group generalisation; not written in the museum's voice; held for the founder to decide | Content rule, Voice rule | Open |
+| An unsourced claim about the eating of pork and loss of protective jealousy, and a prediction of the West's decline | ep19 00:17:30-00:19:00 | Unsourced and disparaging; held for the founder to decide | Content rule | Open |
+| Garbled and looping stretches | ep19 00:08:30-00:09:00, 00:18:00-00:18:30, 00:20:00 (part) | Not recoverable | Clarity, Loop check | Open |
+
+Resume point: modakirate-iblis episode 20 (branch from origin/main).
