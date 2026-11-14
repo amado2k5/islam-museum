@@ -3,28 +3,29 @@ class: person
 label:
   ar: "برهان الدين القيراطي"
   en: "Burhan al-Din al-Qirati"
-roles: [scholar, poet]
+roles: [poet, scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لبرهان الدين القيراطي، شاعر وفقيه وأديب القرن الرابع عشر، توفي سنة ١٣٧٩م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Burhan al-Din al-Qirati, the fourteenth-century poet, jurist and literary scholar, d. 1379; the biographical entry is not yet checked on the page."
+  ar: "إبراهيم بن عبد الله بن محمد بن عسكر الطائي، برهان الدين القيراطي، شاعر من أعيان القاهرة، اشتغل بالفقه والأدب وجاور بمكة وتوفي فيها سنة 781 هـ، له «مطلع النيرين» و«الوشاح المفصل»."
+  en: "Ibrahim ibn Abdallah ibn Muhammad ibn Askar al-Ta'i, Burhan al-Din al-Qirati, a poet among the notables of Cairo who studied law and letters, lived beside the sanctuary at Mecca and died there in 781 AH; author of the diwan Matla' al-Nayyirayn and the anthology al-Washah al-Mufassal."
 wings: [people]
 regions: [egypt-nile]
 periods: [period/mongol-post-mongol]
-born: { edtf: "1325", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar al-Kamina Confirmed on 13 November 2026 against Wikidata Q28713196 (P569, a statement with a reference), item revision 2523916528.", sources: [source/wikidata] }
-died: { edtf: "1379", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar al-Kamina Confirmed on 13 November 2026 against Wikidata Q28713196 (P570, a statement with a reference), item revision 2523916528.", sources: [source/wikidata] }
-relations:
-  - { type: born_in, target: place/cairo, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-  - { type: died_in, target: place/mecca, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/al-aalam]
+born: { edtf: "1325", hijri: "0726", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar al-Kamina. al-A'lam vol. 1 p. 49 prints 726 AH = 1326 CE; the card year 1325 is kept, see the ledger.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+died: { edtf: "1379", hijri: "0781", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar al-Kamina. al-A'lam vol. 1 p. 49 prints 781 AH = 1379 CE, agreeing with the card.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q28713196
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0061
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
+relations:
+  - { type: born_in, target: place/cairo, note: "Place link from Wikidata; pending a second source. al-A'lam vol. 1 p. 49 calls him one of the notables of Cairo.", sources: [source/wikidata], confidence: medium }
+  - { type: died_in, target: place/mecca, note: "al-Zirikli, al-A'lam, vol. 1 p. 49: he lived beside the sanctuary at Mecca and died there", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
+  - { type: lived_in, target: place/mecca, note: "al-Zirikli, al-A'lam, vol. 1 p. 49: he lived beside the sanctuary at Mecca", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }

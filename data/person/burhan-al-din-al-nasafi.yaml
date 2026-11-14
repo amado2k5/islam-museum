@@ -3,28 +3,30 @@ class: person
 label:
   ar: "برهان الدين النسفي"
   en: "Burhan al-Din al-Nasafi"
-roles: [scholar]
+roles: [scholar, faqih]
 gender: male
 summary:
-  ar: "بطاقة أولية لبرهان الدين النسفي، فقيه حنفي القرن الثالث عشر صاحب مدارك التنزيل، توفي سنة ١٢٨٩م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Burhan al-Din al-Nasafi, the thirteenth-century Hanafi jurist author of Madarik al-Tanzil, d. 1289; the biographical entry is not yet checked on the page."
+  ar: "محمد بن محمد بن محمد، أبو الفضل برهان الدين النسفي، عالم بالتفسير والأصول والكلام من الحنفية، سكن بغداد وتوفي بها، من كتبه «الواضح» في تلخيص تفسير الفخر الرازي و«المقدمة النسفية» في الخلاف."
+  en: "Muhammad ibn Muhammad ibn Muhammad, Abu al-Fadl Burhan al-Din al-Nasafi, a Hanafi scholar of exegesis, legal theory and theology who lived and died in Baghdad; author of al-Wadih, an abridgement of al-Fakhr al-Razi's commentary, and al-Muqaddima al-Nasafiyya on the law of disagreement."
 wings: [people]
-regions: [persia-central-asia]
+regions: [persia-central-asia, levant-iraq]
 periods: [period/crusades-ayyubid-mamluk]
-born: { edtf: "1204", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli) Confirmed on 13 November 2026 against Wikidata Q12177793 (P569, a statement with a reference), item revision 2528272909.", sources: [source/wikidata] }
-died: { edtf: "1288", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli) Confirmed on 13 November 2026 against Wikidata Q12177793 (P570, a statement with a reference), item revision 2528272909.", sources: [source/wikidata] }
-relations:
-  - { type: buried_in, target: place/al-khaisaran-cemetery, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/al-aalam, source/wikidata]
+born: { edtf: "1204", hijri: "0600", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli). al-A'lam vol. 7 p. 31 prints 600 AH = 1203 CE; the card year 1204 is kept, see the ledger.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+died: { edtf: "1288", hijri: "0687", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli). al-A'lam vol. 7 p. 31 prints 687 AH = 1289 CE; the card year 1288 is kept, see the ledger.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q12177793
   viaf: "68651846"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0058
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
+relations:
+  - { type: buried_in, target: place/al-khaisaran-cemetery, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/baghdad, note: "al-Zirikli, al-A'lam, vol. 7 p. 31: he lived in Baghdad", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
+  - { type: died_in, target: place/baghdad, note: "al-Zirikli, al-A'lam, vol. 7 p. 31: he died in Baghdad", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }

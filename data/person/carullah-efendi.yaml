@@ -3,27 +3,30 @@ class: person
 label:
   ar: "ولي الدين جار الله أفندي"
   en: "Veliyyuddin Carullah Efendi"
-roles: [scholar]
+roles: [scholar, faqih]
 gender: male
 summary:
-  ar: "بطاقة أولية لولي الدين جار الله أفندي، فقيه حنفي عثماني القرن الثامن عشر، توفي سنة ١٧٣٨م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Veliyyuddin Carullah Efendi, the eighteenth-century Ottoman Hanafi jurist, d. 1738; the source entry is not yet checked on the page."
+  ar: "ولي الدين بن مصطفى الينيشهري القسطنطيني، أبو عبد الله، الملقب بجار الله الرومي الحنفي، ولد في يني شهر وجاور بمكة سبع سنين وسكن إسطنبول وبنى فيها مدرسة ومكتبة ودفن في المدرسة، وتوفي سنة 1151 هـ."
+  en: "Veliyyuddin ibn Mustafa al-Yenishehri al-Qustantini, Abu Abdallah, called Jarullah al-Rumi al-Hanafi; born at Yenishehir, he stayed beside the sanctuary at Mecca for seven years, then settled in Istanbul where he built a madrasa and library near the Fatih mosque and was buried in the madrasa; died 1151 AH (1738)."
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
-died: { edtf: "1738", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi Confirmed on 13 November 2026 against Wikidata Q126362600 (P570, a statement with a reference), item revision 2517749910.", sources: [source/wikidata] }
-relations:
-  - { type: born_in, target: place/larissa, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-  - { type: died_in, target: place/edirne, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/dawlat-uthmaniyya-salabi]
+died: { edtf: "1738", hijri: "1151", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi. al-A'lam vol. 8 pp. 118-119 prints 1151 AH = 1738 CE, agreeing with the card.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+sources: [source/dawlat-uthmaniyya-salabi, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q126362600
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Shalabi, al-Dawla al-Uthmaniyya — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0068
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
+relations:
+  - { type: born_in, target: place/larissa, note: "Place link from Wikidata; pending a second source. al-A'lam vol. 8 pp. 118-119 says he was born at Yenishehir, the Turks' Yenisehir; the identification with the Larissa item rests on Wikidata, not on the entry.", sources: [source/wikidata], confidence: medium }
+  - { type: died_in, target: place/edirne, note: "Place link from Wikidata; pending a second source. al-A'lam vol. 8 pp. 118-119 names no place of death.", sources: [source/wikidata], confidence: medium }
+  - { type: traveled_to, target: place/mecca, note: "al-Zirikli, al-A'lam, vol. 8 pp. 118-119: he stayed beside the sanctuary at Mecca for seven years", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
+  - { type: lived_in, target: place/istanbul, note: "al-Zirikli, al-A'lam, vol. 8 pp. 118-119: he settled in Istanbul and built a madrasa and library there", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
+  - { type: buried_in, target: place/istanbul, note: "al-Zirikli, al-A'lam, vol. 8 pp. 118-119: he was buried in the madrasa he built in Istanbul", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
