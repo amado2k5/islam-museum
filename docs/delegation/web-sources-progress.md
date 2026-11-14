@@ -837,6 +837,11 @@ Nothing is registered this turn. Each registration needs the three-part commit i
 - Left: askalan (Ascalon, founder-held), atrabulus, baja, balad, biqa, dinavar-district, faran, hisn-fayd, hamadhan and cija (reasons as in the earlier notes).
 
 
+## 2026-11-14 (p54, Lane B worker B1) — Nomisma batch 8: 21 dynasties and 2 houses linked
+
+- Approval: dec-20261114-277. The Nomisma SPARQL query (one request, nomisma.org/query) was re-run for exactMatch to Wikidata; joined to our records without a Nomisma id (54 left). Linked where exactly one concept carries our Wikidata id: alawi, anushtegin, banu-hud, buyid, dulafid, ghurid, hafsid, hamdanid, hammudid, idrisid, ikhshidid, ilkhanate, marinid, mirdasid, rum-seljuk, saadi, sajid, seljuk-empire, tulunid, uqaylid, zand, group/banu-nasr (nasrids), group/al-sasan (sassanid_dynasty).
+- Not linked: records whose Wikidata id maps to several concepts (about 14 persons, artuqid-dynasty, rasulid-dynasty, spain); mongol-empire (concept is "Great Mongol Khaqans"); group/al-bu-said (concept is the Zanzibar branch); mikail (an archangel, not an issuer); modern states (italy, france, germany, denmark); kos and united-kingdom (held).
+- Process note: worktrees on the microSD are too slow with several workers; mine is on local disk.
 ## 2026-11-14 (p54, Lane B2) — Shamela reading: method, trust criteria, first skips (no entity written)
 
 - Source family: al-Maktaba al-Shamela (shamela.ws), read online through Claude in Chrome, one page at a time; no download. Book claimed in WORK-REGISTRY.md: Siyar A'lam al-Nubala, Risala edition, Shamela book 10906.
