@@ -1,0 +1,18 @@
+id: concept/nearness-of-foods-to-blood
+class: concept
+kind: scientific
+label: { ar: "قرب الأغذية من جوهر الدم عند ابن سينا", en: "The nearness of foods to the substance of blood in the Canon", ur: "قانون میں غذاؤں کا خون کے جوہر سے قرب" }
+summary:
+  ar: "يذكر ابن سينا أن من الأدوية الغذائية ما هو أقرب إلى الدوائية ومنها ما هو أقرب إلى الغذائية، وأن الأغذية نفسها متفاوتة في قربها من جوهر الدم {cite:canon-ibn-sina-print-v1 pp.133-134}."
+  en: "Ibn Sina notes that some medicinal foods lie nearer to being drugs and some nearer to being foods, and that foods themselves differ in how close they stand to the substance of blood {cite:canon-ibn-sina-print-v1 pp.133-134}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/disease, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, on food, drink, waters, retention and evacuation, and non-necessary causes (scan pages 131 to 140), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-fann2-food-water-1
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

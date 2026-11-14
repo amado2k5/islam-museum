@@ -1,0 +1,18 @@
+id: concept/action-by-element
+class: concept
+kind: scientific
+label: { ar: "الفعل بالعنصر عند ابن سينا", en: "Action by element in the Canon", ur: "قانون میں عنصر کے ذریعے عمل" }
+summary:
+  ar: "الفاعل بالعنصر عند ابن سينا هو ما إذا استحال عنصره عن جوهره استحالة توجبها قوة في البدن قام بدل ما يتحلل أولاً، وزكى الحرارة الغريزية بالزيادة في الدم ثانياً، وربما فعل أيضاً بالكيفية الباقية فيه ثالثاً {cite:canon-ibn-sina-print-v1 p.132}."
+  en: "For Ibn Sina, what acts by its element is that whose element, changed from its substance by a power in the body, first takes the place of what has dissolved, second fans the innate heat by adding to the blood, and sometimes third also acts by the quality that remains in it {cite:canon-ibn-sina-print-v1 p.132}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/disease, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, on food, drink, waters, retention and evacuation, and non-necessary causes (scan pages 131 to 140), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-fann2-food-water-1
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }

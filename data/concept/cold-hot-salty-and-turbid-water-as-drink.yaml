@@ -1,0 +1,18 @@
+id: concept/cold-hot-salty-and-turbid-water-as-drink
+class: concept
+kind: scientific
+label: { ar: "الماء البارد والحار والمالح والكدر شراباً عند ابن سينا", en: "Cold, hot, salty and turbid water as a drink in the Canon", ur: "قانون میں ٹھنڈا، گرم، کھارا اور گدلا پانی بطور مشروب" }
+summary:
+  ar: "يذكر ابن سينا أن الماء البارد المعتدل المقدار أوفق المياه للأصحاء، وإن كان قد يضر العصب وأصحاب أورام الأحشاء، وهو ينبه الشهوة ويشد المعدة {cite:canon-ibn-sina-print-v1 pp.137-138}."
+  en: "Ibn Sina says cold water of moderate quantity is the water most suited to the healthy, though it may harm the nerves and those with tumours of the viscera; it rouses the appetite and braces the stomach {cite:canon-ibn-sina-print-v1 pp.137-138}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/disease, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 2, on food, drink, waters, retention and evacuation, and non-necessary causes (scan pages 131 to 140), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-fann2-food-water-1
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }
