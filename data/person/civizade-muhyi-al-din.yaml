@@ -3,30 +3,32 @@ class: person
 label:
   ar: "جوي زاده محيي الدين"
   en: "Civizade Muhyi al-Din Mehmed"
-roles: [scholar]
+roles: [scholar, qadi]
 gender: male
 summary:
-  ar: "بطاقة أولية لجوي زاده محيي الدين محمد أفندي، شيخ الإسلام العثماني القرن السادس عشر، توفي سنة ١٥٤٧م؛ تذكره كتب التاريخ ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Civizade Muhyi al-Din Mehmed Efendi, the sixteenth-century Ottoman shaykh al-Islam, d. 1547; the source entry is not yet checked on the page."
+  ar: "محمد بن إلياس الحنفي الرومي، محيي الدين، المعروف بجوي زاده، قاض عثماني ولي القضاء بمصر ثم قضاء العساكر الأناضولية ثم الإفتاء بالقسطنطينية، فعزله السلطان بعد إنكاره بعض أقوال ابن العربي، وأعيد قاضيا لعساكر روم إيلي ومات فيها، سنة 954 هـ الموافقة 1547 م {cite:alam-zirikli-dar-al-ilm-2002 vol. 6 p. 40}."
+  en: "Muhammad ibn Ilyas al-Hanafi al-Rumi, Muhyi al-Din, known as Civizade, an Ottoman judge who served in Egypt, as judge of the Anatolian armies and as mufti at Constantinople, was removed from the iftā' office after objecting to some statements of Ibn al-Arabi, was restored as judge of the Rumelian armies and died in that post in 954 AH (1547 CE) {cite:alam-zirikli-dar-al-ilm-2002 vol. 6 p. 40}."
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
-died: { edtf: "1547", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi Confirmed on 13 November 2026 against Wikidata Q6087428 (P570, a statement with a reference), item revision 2533546850.", sources: [source/wikidata] }
+died: { edtf: "1547", hijri: "0954", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi Confirmed on 13 November 2026 against Wikidata Q6087428 (P570, a statement with a reference), item revision 2533546850. al-Zirikli prints 954 AH = 1547 CE {cite:alam-zirikli-dar-al-ilm-2002 vol. 6 p. 40}, agreeing with the card.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
 relations:
-  - { type: born_in, target: place/mu-la, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-  - { type: died_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/dawlat-uthmaniyya-salabi]
+  - { type: born_in, target: place/mu-la, confidence: medium, note: "Place link from Wikidata; pending a second source. al-A'lam gives no birthplace.", sources: [source/wikidata] }
+  - { type: died_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source. al-A'lam says only that he died as judge of the Rumelian armies, without naming a place.", sources: [source/wikidata] }
+  - { type: lived_in, target: place/misr, confidence: medium, note: "al-Zirikli, al-A'lam, vol. 6 p. 40: held the judgeship of Egypt", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+  - { type: lived_in, target: place/constantinople, confidence: medium, note: "al-Zirikli, al-A'lam, vol. 6 p. 40: appointed mufti at Constantinople", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+sources: [source/dawlat-uthmaniyya-salabi, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q6087428
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Shalabi, al-Dawla al-Uthmaniyya — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0056
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 occupations:
   - job: job/shaykh-al-islam
     kind: primary

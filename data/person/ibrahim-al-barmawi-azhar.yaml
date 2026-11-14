@@ -6,24 +6,24 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لإبراهيم البرماوي، فقيه مصر وثاني شيوخ الأزهر في القرن السابع عشر، توفي سنة ١٦٩٤م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ibrahim al-Barmawi, the seventeenth-century Egyptian jurist and second shaykh of al-Azhar, d. 1694; the biographical entry is not yet checked on the page."
+  ar: "إبراهيم بن محمد بن شهاب الدين بن خالد، برهان الدين البرماوي الأنصاري الأحمدي الأزهري، من فقهاء الشافعية وشيخ الجامع الأزهر، نسبته إلى برمة في غربية مصر، له حواش على شرح القرافي وشرح فتح الوهاب وشرح الرحبية وشرح غاية التقريب، توفي سنة 1106 هـ {cite:alam-zirikli-dar-al-ilm-2002 vol. 1 pp. 67-68}."
+  en: "Ibrahim ibn Muhammad ibn Shihab al-Din ibn Khalid, Burhan al-Din al-Barmawi al-Ansari al-Ahmadi al-Azhari, a Shafi'i jurist and shaykh of the mosque of al-Azhar, named for Barma in the Gharbiyya province of Egypt; he left glosses on commentaries including Fath al-Wahhab, al-Rahbiyya and Ghayat al-Taqrib, and died in 1106 AH (1695 CE) {cite:alam-zirikli-dar-al-ilm-2002 vol. 1 pp. 67-68}."
 wings: [people]
 regions: [egypt-nile]
 periods: [period/gunpowder-empires]
-died: { edtf: "1695", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam Confirmed on 13 November 2026 against Wikidata Q12181552 (P570, a statement with a reference), item revision 2461463376.", sources: [source/wikidata] }
+died: { edtf: "1695", hijri: "1106", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam Confirmed on 13 November 2026 against Wikidata Q12181552 (P570, a statement with a reference), item revision 2461463376. al-Zirikli prints 1106 AH {cite:alam-zirikli-dar-al-ilm-2002 vol. 1 p. 67}, which is 1694 to 1695 CE, agreeing with the card; the heading's own Gregorian figure 1894 is a misprint.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
 relations:
-  - { type: lived_in, target: place/misr, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/al-aalam] }
-sources: [source/al-aalam, source/wikidata]
+  - { type: lived_in, target: place/misr, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place. al-Zirikli, vol. 1 p. 68, names Barma in the Gharbiyya of Egypt as the origin of his nisba and calls him shaykh of al-Azhar.", sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002] }
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q12181552
   viaf: "299440862"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0044
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
