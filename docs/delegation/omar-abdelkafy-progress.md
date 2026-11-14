@@ -4795,6 +4795,23 @@ GEMINI: ep43, who composed the elegy on the fall of Andalusian cities he recites
 GEMINI: ep43, exact name of the practice he proposes to young people (read as a week of lowering the gaze: Qwen gives ghadb al-basar, Whisper gives a garbled form), the audio at 00:19:00 to settle the phrase
 GEMINI: ep43, who is the last king he says handed over the last stronghold and wept (both passes give Abdullah ibn al-Ahmar, which may be Muhammad XII of Granada), a history of the fall of Granada and the report attributed to his mother
 
+### alwaad-alhaq ep36 (14 Nov 2026)
+
+25 points written for episode 36 (ar, en, ur); 33 needs_source marks for this episode in each language file; 19 new persons, concepts and events linked as about edges on the series record. Quran verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
+
+| Excluded (alwaad-alhaq ep36) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Houri description and knocking segments | ep36 00:08:30-00:09:00, 00:11:00-00:12:00 | ASR loop and garbling | Clarity, Loop check | Open |
+| Passage on what to do when angry | ep36 00:28:00-00:29:30 | ASR loop repetition, not summarised | Loop check | Open |
+| Egoism passage and attributed saying of al-Hasan al-Basri | ep36 00:52:00-00:52:30 | garbled | Clarity | Open |
+| Names of the servant's master, the captive Companion, the rooftop man and the surety | ep36 ep36 various | garbled in transcript, not named | accuracy | Open |
+
+Resume point: alwaad-alhaq episode 37 (branch from origin/main).
+GEMINI: alwaad-alhaq ep36 00:19:00-00:23:00 the dream and death story told of Sa'id ibn Zayd (stray arrow at sunset while fasting); the transcript names him one of the ten and husband of Fatima bint al-Khattab, but standard accounts of his death differ; the source that would settle it is the biography of Sa'id ibn Zayd in Ibn Sa'd's Tabaqat or Ibn Hajar's Isaba and the origin of the story.
+GEMINI: alwaad-alhaq ep36 00:34:00 the bedouin, the orchard and the surety story: the transcript names the surety as Abu Hurayra, but the story is commonly told of another Companion in the time of Umar; the source that would settle it is a hadith-commentary or Tabari/Ibn Kathir passage on the guarantor of the condemned bedouin.
+GEMINI: alwaad-alhaq ep36 00:33:30 the master who answered the servant's recitation of the verse on restraining anger (the transcript reads like Harun al-Rashid but is garbled; commonly told of Ali ibn al-Husayn); the source that would settle it is an adab or tafsir work retelling the story (for example in the commentary on Al Imran 134).
+GEMINI: alwaad-alhaq ep36 00:51:00 the Companion captured by Quraysh who said he would not wish the Prophet pricked by a thorn in his place (the transcript gives a garbled name resembling Khabbab ibn Arat; the story is usually told of Zayd ibn al-Dathina at al-Raji); the source that would settle it is Ibn Ishaq/Ibn Hisham on the expedition of al-Raji.
+GEMINI: alwaad-alhaq ep36 00:40:30 the man who heard the verse on the submission of hearts on a rooftop and turned back (the transcript gives a garbled name, possibly Ibrahim ibn Adham, usually told of al-Fudayl ibn Iyad); the source that would settle it is the biography of al-Fudayl in Abu Nu'aym's Hilya.
 ### sharh-saheeh-al-bukhare ep44 (14 Nov 2026)
 
 27 points written for episode 44 (ar, en, ur); 21 needs_source marks in each language file for this episode; 6 new `about` edges. Quran verses referenced only through passage links (106-4, 34-15, 34-19, 3-128, 3-146, 11-6, 3-139, 16-126, 16-127, 3-147); none typed. Contested: His view that the Muslims were not defeated at Uhud, his calling the Prophet's yielding to the young men the democracy of the Messenger, his reading of the causes (disobedience, wahn, abasement), his advice on gathering around scholars, and the troop numbers, the number seventy killed by Khalid and the counts of wounded are given as his own, without reference, and are read differently by others. Checked line by line against the transcript by a second reader before merge.
@@ -4822,3 +4839,96 @@ GEMINI: ep44, names of the Companion who pulled the helmet rings from the Prophe
 GEMINI: ep44, name of the commander of the archers on the mountain and the count of those killed with him (Qwen gives Abdullah ibn Juwayra, Whisper gives Abdullah ibn Jubayh, and both give ten), Sahih al-Bukhari Kitab al-Maghazi chapter on Uhud
 GEMINI: ep44, the Muslim whose face was covered and sweet rush laid at his feet, with a sister seeking him (00:51:00-00:52:30), the Prophet's vow to mutilate thirty and the Companions' seventy (00:53:30; both passes give a form like Hamza) and the two Companions buried in one grave (00:56:00-00:56:30), Ibn Hisham's Sira and Sahih al-Bukhari on Uhud
 GEMINI: ep44, the narrator and collection of the supplication of praise he attributes to the Prophet after the battle (01:03:00-01:06:30) and the narrator of the report of the best of people and the people who come after (00:19:30-00:21:00), Musnad Ahmad and al-Adab al-Mufrad for the first, a Sahih collection for the second
+
+### alwaad-alhaq ep37 (14 Nov 2026)
+
+26 points written for episode 37 (ar, en, ur); 28 needs_source marks for this episode in each language file; linked to the gardens of Eden concept. Quran verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
+
+| Excluded (alwaad-alhaq ep37) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Looping audio about the needy and the poor | ep37 00:20:30 to 00:23:00 | ASR loop and garbled text | Faithfulness | Open |
+| Garbled passage on Ibn Taymiyya and men at his door | ep37 01:08:00 | Unintelligible transcript | Faithfulness | Open |
+| Garbled tale of a woman's prayer at Badr and Umm Ayman | ep37 00:33:30 | Unintelligible transcript | Faithfulness | Open |
+| Garbled couplet on bringing back yesterday | ep37 00:41:00 | Unintelligible transcript | Faithfulness | Open |
+| Abu Jahl and his wife exchange | ep37 00:12:00 | Garbled transcript, not summarised | Faithfulness | Open |
+
+Resume point: alwaad-alhaq episode 38 (branch from origin/main).
+GEMINI: alwaad-alhaq ep37 00:27:30: Does Ibn Hajar in Fath al-Bari count the hadith "actions are by intentions" as one of four pillars of hadith; transcript says so loosely; the source that would settle it is the introduction of Fath al-Bari.
+GEMINI: alwaad-alhaq ep37 00:36:00: Name of the imam flogged over the creation of the Qur'an who smiled ("he saw the Lord of servants"); transcript name garbled (Ahmad ibn Hamza?); source would be an account of the Mihna.
+GEMINI: alwaad-alhaq ep37 00:21:00: Ibn Abbas report that the poor enter Paradise half a day (five hundred years) before the rich, with a test of poverty; transcript garbled; the source that would settle it is a hadith or athar collection.
+### sharh-saheeh-al-bukhare ep45 (14 Nov 2026)
+
+23 points written for episode 45 (ar, en, ur); 15 needs_source marks in each language file for this episode; 8 new `about` edges. Quran verses referenced only through passage links (33-36, 2-68); none typed. Contested: His readings of the battles as renewal of creed and of truth always prevailing, his dating and naming of the sorties and incidents, the numbers he gives (nine campaigns, seventy sent, sixty-eight killed, seven kilometres) and the cause he gives for the name Dhat al-Riqa' are given as his own, without reference, and are read differently by historians. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep45) | Episode / time | Reason | Gate failed | Override |
+| Greetings, praise, the opening supplication, the closing supplication and farewell, and the opening announcement | ep45 00:00:00-00:04:00, 01:18:30 | Greetings, supplication and closing; not teaching content | Content rule | Open |
+| Supplication stretches naming modern conflicts and groups | ep45 00:02:00-00:03:00 | Sweeping claims about modern conflict and groups | Content rule | Open |
+| Remarks on negotiators, a modern negotiation and a modern conflict, with a comparison to a family quarrel | ep45 00:17:30-00:19:30 | Sweeping claims about modern states and a modern conflict | Content rule, Voice rule | Open |
+| The conversation about Aisha, the Prophet's wives and plural marriage, with an anecdote of Umar and a question about whether the Prophet married except by revelation | ep45 00:14:00-00:16:30 | Garbled in both passes and the speakers are not recoverable | Clarity | Open |
+| The anecdote of a companion with a person named in the sieve passage and the remark on a fraction of the early companions | ep45 00:10:30-00:11:30 | Names garbled in both passes and the passes disagree | Clarity | Open |
+| Claims about a people, its wealth, its media and the causes of the enmity against the Prophet, with readings of a chapter of the Qur'an and a hadith about the last days applied to a modern conflict | ep45 00:21:30-00:31:30 | Sweeping claims about a people and a modern conflict | Content rule, Voice rule | Open |
+| Remarks on secularists, communists, crusaders and a people as enemies everywhere, and a call for victory | ep45 00:32:00-00:33:30 | Sweeping claims about groups and a modern conflict | Content rule, Voice rule | Open |
+| The story of a rich man and a pious one on the way to Moses, and the dialogue about poverty and the cow | ep45 00:33:30-00:36:30 | Garbled in both passes and the passes disagree | Clarity | Open |
+| Remarks on a modern state, its cultural centre and the schooling of a people | ep45 00:39:30-00:41:00 | Sweeping claims about a people and modern states | Content rule, Voice rule | Open |
+| The story of a claimant to prophethood and a woman leader, with the dowry exchange, and the aside on the history of civilisations | ep45 00:42:00-00:43:30 | Garbled in both passes and the passes disagree | Clarity | Open |
+| The second sortie (an envoy sent alone against a tribal leader) and the Prophet's description of the man | ep45 00:46:00-00:48:30 | Names and details garbled in both passes and the passes disagree | Clarity | Open |
+| The remarks on the burial and mourning after Bi'r Ma'una, the Prophet's supplication against the tribes, and the reflection on those who object to the sorties | ep45 00:51:30-00:55:30 | Garbled in both passes and not stated | Clarity | Open |
+| Remarks on a modern war, on foreign states and on rich men withdrawing funds, and on those who kill Muslims | ep45 00:57:00-00:58:00 | Sweeping claims about modern states and a modern conflict | Content rule, Voice rule | Open |
+| The conversation with the captive before his execution and the remark on true love | ep45 00:59:30-01:00:30 | Garbled in both passes and the speakers are not recoverable | Clarity | Open |
+| The campaign of Dumat al-Jandal and the meeting there | ep45 01:02:30-01:03:30 | Garbled in both passes, the place name is not recoverable | Clarity | Open |
+| The details of the litter, the walk at night with a woman companion and the cursing of her son | ep45 01:05:30-01:07:30, 01:10:30-01:13:00 | Names and details garbled in both passes and the passes disagree | Clarity | Open |
+| Names of those who spread the rumour and the closing stretch on the revelation about the affair | ep45 01:07:30, 01:13:00-01:18:30 | Names garbled in both passes and the closing stretch loops | Clarity, Loop check | Open |
+| Loop stretches of repeated syllables and words | ep45 00:06:30, 00:08:30, 00:13:30, 00:27:00, 00:27:30, 00:30:00-00:31:30, 00:34:30, 00:38:30, 00:39:30, 00:43:30, 00:45:00, 00:45:30, 00:46:30, 00:48:00, 00:52:00, 00:53:30, 00:54:00, 00:54:30, 00:57:00, 01:02:30, 01:06:00, 01:12:00, 01:14:00, 01:14:30, 01:17:30, 01:18:00 | Looping ASR in the Qwen pass, little or none recoverable | Clarity, Loop check | Open |
+| Second ASR pass: Whisper large-v3 (mlx) run on the Mac to resolve garbled words of the Qwen transcript; cites use the shared 30-second grid | ep45 whole | Qwen pass garbled | Clarity | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 46 (branch from origin/main).
+GEMINI: ep45, the commander of the first sortie after Uhud against Banu Asad and the chief of that tribe (Qwen gives a form like Ali ibn Salama, Whisper a form like Abu Salama, and the chief's name is garbled in both), Ibn Hisham's Sira and al-Tabari on the year 4 sorties
+GEMINI: ep45, the chief who gave protection at Bi'r Ma'una and the figure of those killed (Qwen gives a form like Abu Umayr, Whisper a form like Abu Bara' Amir ibn Malik; both give sixty-eight), Sahih al-Bukhari Kitab al-Maghazi chapter on Bi'r Ma'una
+GEMINI: ep45, the name of the companion who prayed two units before being killed and the others taken at al-Raji' (Qwen gives a form like Khabbab ibn Abd, Whisper a form like Khattab ibn Ali; Abdullah ibn Tariq is given by both), Sahih al-Bukhari Kitab al-Maghazi chapter on al-Raji'
+GEMINI: ep45, the narrator and collection of the pledge on three matters and of the companion who got down to pick up what fell from his hand (00:07:30-00:08:30), Musnad Ahmad and Sahih Muslim
+GEMINI: ep45, the companion left behind to follow the army in the slander affair (Qwen gives a form like Sakhr ibn Atiyya, Whisper a form like Safwan ibn Mu'attal), Sahih al-Bukhari Kitab al-Maghazi chapter on the slander
+
+### sharh-saheeh-al-bukhare ep46 (14 Nov 2026)
+
+26 points written for episode 46 (ar, en, ur); 22 needs_source marks in each language file for this episode; 15 new `about` edges. Quran verses referenced only through passage links (28-77, 33-10, 33-11); none typed. Contested: His accounts of the supplication at al-Ta'if, the angel of the mountains, the dream of Umar's palace, the hadith on Sa'd's jealousy, the rock at the trench, the numbers (1,900 Muslims, 13,000 enemy, 650 horsemen, 300 Companions, forty-five believers in Mecca), the Shawwal of year four dating, the duel of Ali and the deaths of Khadija and Abu Talib are given as his own without chain or reference, and his readings of bribery, certainty and hardship as a mercy are his own views. Checked line by line against the transcript by a second reader before merge.
+
+| Excluded (sharh-saheeh-al-bukhare ep46) | Episode / time | Reason | Gate failed | Override |
+| Greetings, praise, the opening supplication, the closing supplication and farewell | ep46 00:00:00-00:05:00, 01:24:30 | Greetings, supplication and closing; not teaching content | Content rule | Open |
+| Supplication lines naming modern conflicts, peoples and fighters | ep46 00:03:30-00:04:30 | Sweeping claims about modern conflicts and peoples | Content rule, Voice rule | Open |
+| Remarks on veiled women and on the sweat of a veiled woman | ep46 00:10:00-00:10:30 | Comparison about a group of women; not needed for the point on effort | Voice rule | Open |
+| The competing of people over the world, with a bribe and a son placed in a post | ep46 00:11:30 | Garbled in both passes and the passes disagree | Clarity | Open |
+| Remarks on a stage dancer, on television and on the opera, and the aside on a client | ep46 00:15:30-00:17:00 | Sweeping remarks on the arts and garbled in both passes | Content rule, Clarity | Open |
+| Loop of repeated syllables in the Qwen pass | ep46 00:12:30, 00:17:00 | Looping ASR in the Qwen pass; the Whisper pass gives the sense | Clarity, Loop check | Open |
+| Remarks that parties in Muslim lands today are like the confederates of the trench | ep46 00:20:00-00:20:30 | Sweeping claim about modern parties and states | Content rule, Voice rule | Open |
+| Domestic asides on a husband's return and a wife's smile, and a remark on a school year | ep46 00:27:00-00:28:30 | Garbled in both passes and the passes disagree | Clarity | Open |
+| The comparison with a petitioner before a court head or a minister | ep46 00:33:30-00:34:00 | Garbled in both passes and the passes disagree | Clarity | Open |
+| Loop of repeated words in the Qwen pass | ep46 00:35:00 | Looping ASR in the Qwen pass; the Whisper pass gives only a garbled fragment | Clarity, Loop check | Open |
+| The remark that a people today still hate Islam, the Prophet and Muslims | ep46 00:36:00 | Sweeping claim about a people | Content rule, Voice rule | Open |
+| Remarks on a modern alliance and a decision of 1991 on the Muslim presence in Europe, and an address to an Arab negotiator | ep46 00:36:30-00:37:30 | Sweeping claims about modern states and a modern conflict | Content rule, Voice rule | Open |
+| Remarks that jihad today is by supplication only, on a modern conflict, on the sons in the mosques of a land and on a people as cowardly | ep46 00:40:00-00:41:00 | Sweeping claims about a people and a modern conflict | Content rule, Voice rule | Open |
+| The remark that hypocrites are in Muslim society today and how they are known | ep46 00:41:00-00:41:30 | Sweeping claim about Muslims today | Content rule, Voice rule | Open |
+| The remark on refusing the help of a polytheist against a polytheist, tied to a modern war and foreign soldiers | ep46 00:45:00-00:45:30 | Sweeping claim about a modern conflict, garbled with a loop in the Whisper pass | Content rule, Clarity, Loop check | Open |
+| The trench length and its width and depth | ep46 00:46:00, 00:52:30 | The figures differ between the two passes | Clarity | Open |
+| The remarks on a modern conscript and on a soldier on guard, with the loop that follows | ep46 00:49:00-00:51:00 | Garbled in both passes, with a loop in the Qwen pass | Clarity, Loop check | Open |
+| The name of the man left as deputy over Medina | ep46 00:48:00 | The name rests on one garbled word in each pass and the passes disagree (see GEMINI) | Clarity | Open |
+| The names of the four leaders of Ghatafan and the third blow's content | ep46 00:54:30, 01:14:30-01:15:00 | Names and details garbled in both passes and the passes disagree | Clarity | Open |
+| Remarks on a man looking at a woman, on animals and on Western customs and films | ep46 00:57:00-00:59:00 | Demeaning generalisations about women, animals and peoples and garbled | Voice rule, Content rule, Clarity | Open |
+| The exchange of Umar with a wife of the Prophet at night | ep46 01:01:00-01:01:30 | The name is garbled in the Qwen pass and the passes disagree | Clarity | Open |
+| The remarks on the age of a wife of the Prophet and on girls and schooling | ep46 01:05:30-01:06:30 | Sweeping remarks on women, and the age differs between the two passes | Voice rule, Clarity | Open |
+| The ages of Ali and of Sa'd ibn Mu'adh | ep46 01:04:00-01:04:30, 01:13:00, 01:16:00 | The ages differ between the two passes and are not recoverable | Clarity | Open |
+| Loop of repeated syllables and words | ep46 01:09:00, 01:14:00, 01:16:00, 01:19:00, 01:19:30, 01:20:00, 01:22:30 | Looping ASR in the Qwen pass; the Whisper pass gives the sense where used | Clarity, Loop check | Open |
+| The farewell hint at the next round with two tribes | ep46 01:24:30 | Closing; the names differ and carry no teaching | Clarity | Open |
+| The saying on God and Umar's heart and tongue | ep46 01:01:30 | The key verb is garbled in both passes (see GEMINI) | Clarity | Open |
+| The order and interval of the deaths of Khadija and Abu Talib | ep46 00:25:30, 00:27:00, 00:28:30 | The passes give opposite orders at 00:25:30 and 00:27:00 | Clarity | Open |
+| Second ASR pass: Whisper large-v3 (mlx) run on the Mac to resolve garbled words of the Qwen transcript; cites use the shared 30-second grid | ep46 whole | Qwen pass garbled | Clarity | Open |
+
+Resume point: sharh-saheeh-al-bukhare episode 47 (branch from origin/main).
+GEMINI: ep46, whether the saying about seeing God's hand write the answer belongs to al-Hasan al-Basri (Qwen gives a form like al-Hasan al-Batr, Whisper like al-Hasan al-Basr), a collection of al-Hasan's sayings such as Hilyat al-Awliya
+GEMINI: ep46, the full name and spelling of the horseman killed by Ali (Qwen gives a form like Amr ibn Wuth, Whisper like Amr ibn Wudd), Ibn Hisham's Sira and al-Tabari on the Trench
+GEMINI: ep46, the deputy the Prophet left over Medina during the Trench (Qwen gives a form like Abdullah ibn Umm al-Mu'minin, Whisper like Abdullah ibn Umm Maktub), Ibn Hisham's Sira or al-Tabari
+GEMINI: ep46, the Ghatafan leaders who negotiated with the Prophet over a third of Medina's fruits (Qwen gives a form like Amr al-Khazari, Whisper like Amr al-Fazari), Ibn Hisham's Sira on the Trench
+GEMINI: ep46, the narrator and collection of the Prophet's supplication at al-Ta'if and of the angel of the mountains (00:28:30-00:34:30), Sahih al-Bukhari and Sahih Muslim, and Ibn Hisham's Sira
+GEMINI: ep46, the narrator and collection of the Prophet's saying on Sa'd's jealousy and of the dream of the palace of Umar (00:59:30-01:01:30), Sahih al-Bukhari and Sahih Muslim
+GEMINI: ep46, the narrator and collection of the report of the man asked whether he would be given gifts had he sat in his parents' house (00:18:30), Sahih al-Bukhari and Sahih Muslim
+GEMINI: ep46, the identity of the scholar who rebuked a ruler of Egypt and called him a little mouse before his Lord (00:12:30-00:14:00), a biographical dictionary such as Siyar a'lam al-nubala
+GEMINI: ep46, the narrator and wording of the Prophet's saying about God and Umar's heart and tongue (01:01:30; the verb is garbled in both passes), Sahih al-Bukhari and Sahih Muslim, Jami al-Tirmidhi
