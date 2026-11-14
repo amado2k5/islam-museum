@@ -975,6 +975,11 @@ Nothing is registered this turn. Each registration needs the three-part commit i
 
 - Approval: dec-20261114-277. The scan finished: 308 searched in all, 19 matched by Wikidata id. Linked in p58 (15) and here (al-dimyati Q317200, dates 1217 and 1306 agree). Left for the founder: terken-khatun, abd-al-malik-ibn-habib, ibrahim-al-halabi (listed in p58). Candidates 739 onward do not exist (the list of persons born 600 to 1500 CE with a Wikidata id ends at 738).
 
+## 2026-11-14 (Lane B1 prose, packet 1)
+
+- Wrote ar, en, ur prose for 10 places: aksaray-q182025, sk-dar, dallas, erbil, sufetula, malayer, firuzabad, honolulu, larissa, acropolis-of-athens. Sources read 14 Nov 2026: Pleiades JSON (4), iDAI.gazetteer JSON (7), Yaqut Mu'jam al-buldan vols 1-2 scan pp. 176-178 (Erbil only; cited as scan p.176 and p.177).
+- Yaqut searched for the other nine names (Arabic spellings and variants) with no entry found in vols 1-2; those pages say so and rest on the gazetteers. Nothing skipped. Firuzabad overview reuses the existing Encyclopaedia of Islam 2 citation from its data card.
+- iDAI.gazetteer needs the header Accept: application/json on /place/<id>; the .json suffix returns 404.
 ## 2026-11-14 (Lane B1 place prose, packet 2)
 
 Wrote ar, en and ur prose for vila, th-nia, el-mahalla-el-kubra, ioannina, kirkuk, beaufort-castle, yerevan, plo-nik, dhi-as-sufal, tartus from Pleiades (page JSON, accessed 14 Nov 2026) and iDAI.gazetteer (accessed 14 Nov 2026). Yaqut vols 1-2 OCR searched: no entries for any of the ten (the OCR reaches only to about the letter thaa/dhal), so `source/mujam-al-buldan-yaqut` was not added. Skipped: none.
