@@ -1,0 +1,18 @@
+id: concept/canon-regimen-of-winter
+class: concept
+kind: scientific
+label: { ar: "تدبير الشتاء عند ابن سينا", en: "The regimen of winter in the Canon", ur: "موسم سرما کی تدبیر قانون میں" }
+summary:
+  ar: "في الشتاء يكثر ابن سينا التعب ويبسط الغذاء، فإن كان الشخص جنوبياً زيدت الرياضة وقلل الغذاء، ويشترط أن يكون قمح خبز الشتاء أقوى من قمح خبز الصيف، وتتخذ البقول كالكرنب والسلق والكرفس {cite:canon-ibn-sina-print-v1 pp.258-259}."
+  en: "In winter Ibn Sina increases toil and generosity of food; for a southerner exercise is raised and food reduced, winter bread is made of stronger wheat than summer bread, and vegetables such as cabbage, chard and celery are taken {cite:canon-ibn-sina-print-v1 pp.258-259}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/regimen-of-health, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 3 Ta'lim 5 and the regimen of travellers (scan pages 258 to 266), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-p258
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }
