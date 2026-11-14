@@ -2835,3 +2835,15 @@ Resume point: modakirate-iblis episode 30 (branch from origin/main).
 | Loops and garbled stretches (the sixties television anecdote, a stretch before the Midian story, the account of the Qasas conditions) | ep30 00:07:00-00:08:30, 00:10:00 (part), 00:11:00 (part) | Not recoverable | Clarity, Loop check | Open |
 
 Resume point: modakirate-iblis is finished (30 of 30 episodes). Next series in the lane order: min-kunuz-al-sunnah, from episode 1. Work covered by the founder approval dec-20261114-277.
+
+### min-kunuz-al-sunnah ep01 (14 Nov 2026)
+
+New record work/min-kunuz-al-sunnah (series record, sensitivity contested) with episode 1 written in ar, en and ur (draft, provenance); 15 points; 10 needs_source marks in each language file; 14 `about` edges. Quran verses referenced only through passage links (33-36, 4-65, 3-31, 9-111, 9-60, 20-117 to 20-119, 18-94, 18-95, 59-7, 5-90, 2-284, 2-285); none typed. The lecturer's views on zakat by analogy and on the veil are labelled as his; work covered by the founder approval dec-20261114-277.
+
+| Excluded (min-kunuz-al-sunnah ep01) | Episode / time | Reason | Gate failed | Override |
+|---|---|---|---|---|
+| Opening greetings and the Ramadan supplications, the break joins and the closing prayer | ep01 00:00:00, 00:01:30-00:02:30 (part), 00:10:30-00:11:00, 00:28:30-00:29:30 | Not lesson content | Content rule | Open |
+| A remark commending one named state's choice of administrators, and a supplication for the oppressed in the east and west of the earth | ep01 00:21:30-00:22:00 (part), 00:01:30-00:02:00 (part) | Modern political aside; held for the founder to decide | Content rule | Open |
+| Loops and garbled stretches (about Hafsa walking in Medina's street, a stretch of legal hesitation, the sale-purchase restatement) | ep01 00:08:30-00:09:00 (part), 00:26:00-00:26:30, 00:29:30 | Not recoverable | Clarity, Loop check | Open |
+
+Resume point: min-kunuz-al-sunnah episode 2 (branch from origin/main).
