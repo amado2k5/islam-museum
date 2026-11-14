@@ -953,3 +953,8 @@ Nothing is registered this turn. Each registration needs the three-part commit i
 ## 2026-11-14 (p67, Lane B worker B1) — VIAF batch 5: the rest of the saved scan
 
 - Approval: dec-20261114-277. Linked every remaining person from the scan of p65 (single P214 statement, number not already on another record). Persons with several or no P214 statements (3,650 of the 6,020) are not touched.
+
+## 2026-11-14 (p68, Lane B worker B1) — Pleiades batch 3: 22 places linked by Arabic name
+
+- Approval: dec-20261114-277. The hand-check set of p55 was settled by a stricter rule instead of a hand read: our Arabic label equals an Arabic-script name that Pleiades attests for the place (language ar or arb, diacritics folded), point within 1.5 km, exactly one such place. 27 matched; linked: kirkuk, beaufort-castle, tartus, tikrit, baalbek, qift, old-dongola, hama, baysan, shaizar, djerba, turbessel, setif, tuz-khormato, qafsa, al-ukhdud, nawa, tukra, tadmur, jubayl, tyre, ladhiqiyya.
+- Not linked: amman (the Pleiades record is a cuneiform findspot near the citadel), nihavand and nihawand (duplicate pair), nahr-al-kalb (the Pleiades record is the monuments, not the river), azeffoun (the Pleiades title carries a question mark). The other loose-name matches of p55 (names only attested in Greek or Latin) stay unlinked: their identity rests on an ancient name we do not hold, so they are left out rather than guessed.

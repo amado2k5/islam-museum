@@ -1,0 +1,18 @@
+id: concept/states-of-the-body-and-kinds-of-disease
+class: concept
+kind: scientific
+label: { ar: "أحوال البدن وأجناس المرض عند ابن سينا", en: "The states of the body and the kinds of disease in the Canon", ur: "قانون میں بدن کی حالتیں اور بیماریوں کی اقسام" }
+summary:
+  ar: "يعرض ابن سينا أحوال بدن الإنسان الثلاث عند جالينوس: الصحة والمرض وحالة ليست بصحة ولا مرض، ثم يقسم الأمراض إلى مفردة ومركبة، وأجناس المفردة ثلاثة: سوء المزاج وسوء التركيب وتفرق الاتصال {cite:canon-ibn-sina-print-v1 p.104}."
+  en: "Ibn Sina sets out the three states of the human body according to Galen, health, disease and a state that is neither, then divides diseases into simple and composite, the simple falling in three genera: bad temperament, bad composition and breaking of continuity {cite:canon-ibn-sina-print-v1 p.104}."
+wings: [ideas]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/disease, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1, Book I, Fann 1 end and Fann 2 opening (scan pages 99 to 105), Arabic printed edition (Dar al-Kutub al-Ilmiyya, 1999), read page by page"
+  generated_by: "Claude Sonnet 5.5"
+  model: claude-sonnet-5-5
+  run: canon-faculties-3
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (book mining, lane A2)" }
