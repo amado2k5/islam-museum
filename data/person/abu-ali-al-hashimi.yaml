@@ -6,24 +6,25 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لأبي علي ابن أبي موسى الهاشمي، فقيه حنبلي القرن الحادي عشر، توفي سنة ١٠٣٧م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abu Ali ibn Abi Musa al-Hashimi, the eleventh-century Hanbali jurist, d. 1037; the biographical entry is not yet checked on the page."
+  ar: "محمد بن أحمد بن أبي موسى الهاشمي، أبو علي، قاض من علماء الحنابلة من أهل بغداد مولداً ووفاة، كان أثيراً عند القادر بالله والقائم بأمر الله العباسيين، وله حلقة في جامع المنصور؛ من 345هـ الموافقة 957م إلى 428هـ الموافقة 1037م."
+  en: "Muhammad ibn Ahmad ibn Abi Musa al-Hashimi, Abu Ali, a judge and one of the Hanbali scholars, of Baghdad by birth and death, favoured by the Abbasid caliphs al-Qadir bi-llah and al-Qaim bi-amr Allah, with a teaching circle in the Mosque of al-Mansur; 345 AH, 957 CE, to 428 AH, 1037 CE."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/buyid-seljuk-fatimid-era]
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q130758511
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0059
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2-alam-2026-11-14
 status:
   review: draft
-  completeness: 1
-died: { edtf: "1037", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Abi Ya'la, Tabaqat al-Hanabila" }
+  completeness: 3
+died: { edtf: "1037", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 5 p. 290: 428 AH = 1037 CE.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+born: { edtf: "957", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 5 p. 290: 345 AH = 957 CE.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
   - { type: born_in, target: place/baghdad, note: "Wikidata Q1530 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: died_in, target: place/baghdad, note: "Wikidata Q1530 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }
