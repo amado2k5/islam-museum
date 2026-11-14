@@ -1,0 +1,56 @@
+id: event/the-tribes-turn-against-al-hadis-governors-and-he-decides-to-leave-shibam-288
+class: event
+kind: other
+label:
+  ar: "العشائر تخالف وتخرج عمال الهادي وهو يعزم على الخروج من شبام، جمادى الآخرة 288هـ"
+  en: "The tribes turn against al-Hadi's governors and he decides to leave Shibam, Jumada II 288 AH"
+  ur: "قبائل ہادی کے عاملوں کے خلاف اٹھتی ہیں اور وہ شبام سے نکلنے کا فیصلہ کرتے ہیں، جمادی الآخرہ 288ھ"
+summary:
+  ar: "لما علمت العشائر بإخراج علي بن سليمان خالفوا من كل المواضع وأخرجوا عمال الهادي وأخذوا ما معهم من دواب ومتاع، وكان مع الهادي بشبام كثير من النساء من آل النبي، فرأى بحسب الراوي ألا يخاطر بهن وخاف ألا يقيم معه عسكره، فعزم على الخروج وأمر يوم الجمعة بشد الإبل وحمل الأثاث والسلاح."
+  en: "When the clans learned that Ali ibn Sulayman had been put out they turned in every district, expelled al-Hadi's governors and took their animals and goods; al-Hadi had many women of the Prophet's household with him at Shibam, and the narrator says he judged it unwise to risk them and feared his troops would not stay, so he resolved to leave and on the Friday ordered the camels loaded with his furniture and arms."
+  ur: "جب قبائل کو علی بن سلیمان کے نکالے جانے کا علم ہوا تو ہر جگہ پھر گئیں، ہادی کے عاملوں کو نکال دیا اور ان کے جانور اور سامان لے لیا؛ ہادی کے ساتھ شبام میں آلِ نبی کی بہت سی خواتین تھیں، راوی کے بقول انہوں نے ان کو خطرے میں ڈالنا مناسب نہ سمجھا اور خوف کیا کہ لشکر ان کے ساتھ نہ ٹھہرے گا، سو نکلنے کا فیصلہ کیا اور جمعے کو اونٹ کسنے اور سامان و ہتھیار لادنے کا حکم دیا۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0901-05~"
+    hijri: "0288-06"
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: "جمادى الآخرة سنة 288هـ؛ بعد وثوب صنعاء؛ يوم الجمعة دون تحديد؛ التحويل مشتق"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/bayt-dhukhar
+  role: "الهادي مقيم بشبام"
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ali-ibn-sulayman-ibn-al-qasim
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص221-222 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-26
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 221-222

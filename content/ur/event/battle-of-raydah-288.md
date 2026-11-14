@@ -9,3 +9,6 @@ translators: ["Claude Sonnet 5.5 (claude-sonnet-5-5), draft translation"]
 
 ## معرکے کے بعد
 ہادی پھر خولان اور ہمدان کے بہت سے لشکروں کے ساتھ صنعاء کی طرف روانہ ہوئے {cite:sira-hadi-ila-al-haqq p.20}۔ دیکھیے [[event/battle-of-al-rahba-288]]۔
+
+## دیکھیے بھی
+اسی مرحلے کا دوسرا بیان [[event/al-hadi-leaves-shibam-fights-on-the-road-and-goes-by-najr-and-al-bawn-to-raydah-and-bayt-dhud-288]] اور [[event/al-hadi-fights-abu-ziyad-and-sasaa-at-al-ghayl-in-al-bawn-288]] میں بھی دیکھیے {cite:sira-hadi-ila-al-haqq p.222} {cite:sira-hadi-ila-al-haqq p.224}؛ عجائب گھر یہ دعویٰ نہیں کرتا کہ یہ ایک ہی لڑائی ہے۔

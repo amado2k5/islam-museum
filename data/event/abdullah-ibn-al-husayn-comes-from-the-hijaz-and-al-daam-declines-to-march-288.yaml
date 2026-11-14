@@ -1,0 +1,68 @@
+id: event/abdullah-ibn-al-husayn-comes-from-the-hijaz-and-al-daam-declines-to-march-288
+class: event
+kind: other
+label:
+  ar: "عبد الله بن الحسين يقدم من الحجاز والدعام يعتذر عن الخروج، سنة 288هـ"
+  en: "Abdullah ibn al-Husayn comes from the Hijaz and al-Da'am excuses himself from marching, 288 AH"
+  ur: "عبد اللہ بن حسین حجاز سے آتے ہیں اور دعام نکلنے سے معذرت کرتا ہے، 288ھ"
+summary:
+  ar: "جاء أبو العتاهية بعسكر من همدان فسار الهادي إلى مدر وأقام بها أياماً، ثم قدم عليه أخوه عبد الله بن الحسين في نحو ثمانين رجلاً من مضر ومعه نفر من العلويين من الحجاز، وصيّر حرمه بصعدة، فأمره الهادي أن يلقى الدعام ويسأله النصرة على بني طريف، فاعتل الدعام في خروجه وأخلف ما وعد."
+  en: "Abu al-Atahiya came with an army of Hamdan and al-Hadi went on to Madar and stayed some days; his brother Abdullah ibn al-Husayn then came to him with about eighty men of Mudar and some Alids from the Hijaz, leaving his women at Sa'da, and al-Hadi told him to meet al-Da'am and ask his help against Banu Tarif, but al-Da'am excused himself from marching and went back on what he had promised."
+  ur: "ابو العتاہیہ ہمدان کے ایک لشکر کے ساتھ آئے تو ہادی مدر گئے اور کئی دن ٹھہرے؛ پھر ان کے بھائی عبد اللہ بن حسین مضر کے قریباً اسّی آدمیوں اور حجاز کے کچھ علویوں کے ساتھ ان کے پاس آئے اور اپنی خواتین کو صعدہ میں رکھا، اور ہادی نے انہیں کہا کہ دعام سے مل کر بنو طریف کے خلاف مدد مانگیں، مگر دعام نے نکلنے سے معذرت کی اور وعدہ توڑ دیا۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0900~"
+    hijri: "0288"
+    calendar: julian
+    precision: year
+    status: tradition
+    derived: true
+    note: "سنة 288هـ؛ بعد خبر الغيل وقبل الدخول إلى صنعاء؛ لا يُذكر يوم؛ التحويل مشتق"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/madar-yemen
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abdullah-ibn-al-husayn-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/al-daam-ibn-ibrahim
+  role: "اعتذر عن الخروج"
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abu-al-atahiya-ibn-bishr
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-tarif
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص224-225 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-26
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 224-225

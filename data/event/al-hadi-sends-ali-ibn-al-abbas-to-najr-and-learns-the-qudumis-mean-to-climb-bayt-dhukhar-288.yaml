@@ -1,0 +1,74 @@
+id: event/al-hadi-sends-ali-ibn-al-abbas-to-najr-and-learns-the-qudumis-mean-to-climb-bayt-dhukhar-288
+class: event
+kind: other
+label:
+  ar: "الهادي يبعث علي بن العباس إلى نجر ويبلغه عزم القدميين على الطلوع إلى جبل بيت ذخار، جمادى الآخرة 288هـ"
+  en: "Al-Hadi sends Ali ibn al-Abbas to Najr and hears that the Qudumis mean to climb to Bayt Dhukhar, Jumada II 288 AH"
+  ur: "ہادی علی بن عباس کو نجر بھیجتے ہیں اور سنتے ہیں کہ قدمی بیت ذخار پر چڑھنا چاہتے ہیں، جمادی الآخرہ 288ھ"
+summary:
+  ar: "بعث الهادي علي بن العباس العلوي بعسكر إلى موضع من البون يقال له نجر وأقام هو بشبام وكتب إلى ابنه أبي القاسم أن يصير إليه، ثم بلغه يوم الجمعة لإحدى عشرة ليلة ماضية من جمادى الآخرة أن القدميين وأهل المصانع عزموا على الطلوع إلى جبل بيت ذخار، فاستنهض أهل صنعاء وأهل ظهر."
+  en: "Al-Hadi sent Ali ibn al-Abbas al-Alawi with a force to a place in al-Bawn called Najr while he stayed at Shibam and wrote to his son Abu al-Qasim to come to him; on a Friday, eleven nights gone of Jumada II, he heard that the Qudumis and the people of al-Masani had agreed to climb the mountain of Bayt Dhukhar, and he called up the men of Sana'a and Zahr."
+  ur: "ہادی نے علی بن عباس علوی کو لشکر کے ساتھ البون کی ایک جگہ نجر بھیجا اور خود شبام میں رہے اور بیٹے ابو القاسم کو لکھا کہ ان کے پاس آ جائیں؛ پھر جمادی الآخرہ کی گیارہ راتیں گزرنے پر جمعے کے دن انہیں خبر ملی کہ قدمی اور اہل المصانع بیت ذخار کے پہاڑ پر چڑھنے کا ارادہ کر چکے ہیں تو انہوں نے صنعاء اور ظہر کے لوگوں کو بلایا۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0901-05~"
+    hijri: "0288-06"
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: "يوم الجمعة لإحدى عشرة ليلة ماضية من جمادى الآخرة سنة 288هـ بنص الكتاب؛ لا يوافق اليوم الجدولي (الجمعة تقع في الحساب الجدولي في الرابع عشر)، فالدقة شهرية والتحويل مشتق"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/bayt-dhukhar
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ali-ibn-al-abbas-governor-of-the-mountain-288
+  role: "أُرسل إلى نجر"
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ali-ibn-sulayman-ibn-al-qasim
+  role: "نائب الهادي بصنعاء"
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ubaydallah-ibn-muhammad-al-hasani
+  role: "والي ظهر"
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/qudumis
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/al-murtada-muhammad
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص217 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-26
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 217
