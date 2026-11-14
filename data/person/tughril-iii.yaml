@@ -1,4 +1,5 @@
 id: person/tughril-iii
+external_ids: { wikidata: "Q280697" }
 class: person
 label: { ar: "السلطان طغرل الثالث بن أرسلان" , ur: "طغرل سوم", en: "Tughril III"}
 summary:
@@ -20,5 +21,5 @@ provenance:
 died: { edtf: "1194", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica" }
 relations:
   - { type: ruler_of, target: place/hamadhan, sources: [source/kamil-ibn-al-athir], confidence: low, note: "ar: 'السلطان طغرل بن أرسلان بن طغرل بن محمد بن ملكشاه بن ألب أرسلان السلجوقي، آخر سلاطين السلاجقة بالعراق والج" }
-sources: [source/kamil-ibn-al-athir]
+sources: [source/kamil-ibn-al-athir, source/wikidata-tughril-iii]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

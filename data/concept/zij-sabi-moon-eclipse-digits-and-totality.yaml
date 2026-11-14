@@ -1,0 +1,20 @@
+id: concept/zij-sabi-moon-eclipse-digits-and-totality
+class: concept
+kind: scientific
+label: { ar: "أصابع كسوف القمر والمكث", en: "Digits of a lunar eclipse and its stay", ur: "چاند گرہن کی انگلیاں اور مکث" }
+summary:
+  ar: "يُقسم قطر القمر إلى اثني عشر إصبعاً، ويُحسب عدد الأصابع المنكسفة بطرح عرض القمر من نصف القطرين وضرب الفضل في اثني عشر ثم قسمته على قطر القمر المعدّل. فإن بقي من النصف الفاضل ما يزيد على قطر القمر فإن للكسوف مكثاً، أي أن القمر يبقى في الظلمة كلها زمناً. وتُسمى الأصابع المنكسفة أصابع الكسوف، ويُستخرج ما يبقى دقائق المكث. {cite:zij-sabi-nallino-byblion pp.151-152}"
+  en: "The Moon's diameter is divided into twelve digits. The number of digits eclipsed is found by subtracting the Moon's latitude from the half-sum of the radii, multiplying the difference by twelve and dividing by the corrected diameter. If the remainder of the half-sum exceeds the Moon's diameter, the eclipse has a stay, that is a time in which the Moon lies wholly in the shadow; the minutes of this stay are what is left. {cite:zij-sabi-nallino-byblion pp.151-152}"
+  ur: "چاند کے قطر کو بارہ انگلیوں میں تقسیم کیا جاتا ہے۔ گرہن زدہ انگلیوں کی تعداد نصف المجموع میں سے چاند کا عرض گھٹا کر، فرق کو بارہ سے ضرب دے کر اور تصحیح شدہ قطر پر تقسیم کر کے نکالی جاتی ہے۔ اگر نصف المجموع کا بقیہ چاند کے قطر سے زیادہ ہو تو گرہن میں مکث ہوتا ہے، یعنی چاند کچھ وقت پورا سائے میں رہتا ہے؛ جو دقائق باقی بچیں وہ مکث کے دقائق ہیں۔ {cite:zij-sabi-nallino-byblion pp.151-152}"
+wings: [ideas]
+themes: [astronomy-and-timekeeping, mathematics]
+sources: [source/zij-sabi-nallino-byblion]
+relations:
+  - { type: part_of, target: work/al-zij-al-sabi, sources: [source/zij-sabi-nallino-byblion] }
+provenance:
+  layer: own-research
+  source: "Chapter 43, scan 151-153: the digits of the eclipse and the minutes of stay"
+  generated_by: "Claude Haiku 5.5"
+  model: claude-haiku-5-5
+  run: zij-sabi-a3-1
+status: { review: draft, completeness: 2, generated_by: "Claude Haiku 5.5 (book mining, lane A3)" }

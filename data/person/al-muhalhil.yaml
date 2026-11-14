@@ -1,4 +1,5 @@
 id: person/al-muhalhil
+external_ids: { wikidata: "Q19309" }
 class: person
 label: { ar: "المهلهل بن ربيعة", en: "al-Muhalhil ibn Rabi'a" }
 names:
@@ -18,7 +19,7 @@ relations:
   - { type: member_of, target: group/banu-taghlib, sources: [source/kamil-ibn-al-athir] }
   - { type: sibling_of, target: person/kulayb-ibn-rabia, sources: [source/kamil-ibn-al-athir] }
   - { type: fought, target: person/jasas-ibn-murra, note: "ثأر أخيه كليب", sources: [source/kamil-ibn-al-athir] }
-sources: [source/kamil-ibn-al-athir]
+sources: [source/kamil-ibn-al-athir, source/wikidata-al-muhalhil]
 provenance:
   layer: own-research
   source: "الكامل في التاريخ لابن الأثير — مقتل كليب، ص392"
