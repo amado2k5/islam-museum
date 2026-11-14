@@ -7,58 +7,869 @@ schema_version: 1
 updated: "2026-11-14"
 
 books:
-  # BEGIN books (example entry, kept as the shape to copy)
-  - id: example-book
-    title: "Example title (remove when real entries exist)"
-    author: null
-    editor_translator: null
-    edition: null
-    publisher: null
-    place: null
-    year: { hijri: null, ce: null }
-    volumes: null
+  # BEGIN books
+  # BEGIN books:adab-zuhd
+  - id: adab-katib-ibn-qutayba
+    title: 195125 - أدب الكاتب (+1 more scans)
+    category: adab-zuhd
+    volumes: 2 file(s)
+    files:
+    - {name: AAlexandrina-195125.pdf, bytes: 51747623, pages: 524, ocr_pages: 524, sha256: 051aa201af456219d89342e34f6a94a9d9dd28c20ea4cbf63f637ec3fe0623a6}
+    - {name: AAlexandrina-196408.pdf, bytes: 50412800, pages: 672, ocr_pages: 672, sha256: 2bd0e6a95cd32aec05277dbc5b837681fb6bc2d74e85a1af811ad4849989552d}
+    acquisition: {source: '2 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-18', by: library harvest (library/manifest.jsonl), bytes: 102160423, sha256_status: computed}
+    physical: {pages: 1196}
+    ocr: {state: complete, date: '2026-10-22', unzipped_location: books/adab-zuhd/adab-katib-ibn-qutayba/}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none)
+  - id: aghani-isfahani
+    title: كتاب الأغاني 3 (+1 more scans)
+    category: adab-zuhd
+    volumes: 2 file(s)
+    files:
+    - {name: al-aghani-03.pdf, bytes: 20643660, pages: 255, ocr_pages: 186, sha256: d6411a53792e26e4b09e1eb306960a8051fc21761a6b54d05e76d880bbe5dabd}
+    - {name: al-aghani-05.pdf, bytes: 24180700, pages: 286, ocr_pages: 213, sha256: 502a88fad5368151ec0763a5f0662c0b77e99d6cf585bf74799dbfa0a90bacb7}
+    acquisition: {source: '2 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-18', by: library harvest (library/manifest.jsonl), bytes: 44824360, sha256_status: computed}
+    physical: {pages: 541}
+    ocr: {state: partial, date: '2026-10-22', failed_pages: 142, unzipped_location: books/adab-zuhd/aghani-isfahani/}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: downloaded
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); ocr_pages 399 of 541 pages (pages without text may be blank)
+  - id: alaghani19abaluoft
+    title: alaghani19abaluoft
+    category: adab-zuhd
+    volumes: 1 file(s)
+    files:
+    - {name: alaghani19abaluoft.pdf, bytes: 40370815, pages: 576, ocr_pages: 6, sha256: 316539def7901671ebe3b9f9c4927a53df96f58c4fc5a94e11bccf37a19a4fa3}
+    acquisition: {file_name: alaghani19abaluoft.pdf, bytes: 40370815, sha256: 316539def7901671ebe3b9f9c4927a53df96f58c4fc5a94e11bccf37a19a4fa3, sha256_status: computed}
+    physical: {pages: 576}
+    ocr: {state: partial, date: '2026-10-22', failed_pages: 570, unzipped_location: books/adab-zuhd/alaghani19abaluoft/}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: downloaded
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - title
+    - year
+    notes: 'needs OCR zip (ocr_archive none); ocr_pages 6 of 576 pages (pages without text may be blank); title unknown: label is the archive.org or folder identifier'
+  - id: bayan-tabyin-jahiz
+    title: البيان والتبيين
+    author: Abu 'Uthman 'Amr ibn Bahr al-Jahiz
+    publisher: مكتبة الخانجي، القاهرة
+    edition: تحقيق وشرح عبد السلام محمد هارون، الطبعة السابعة 1418هـ/1998م
+    year: {ce: '{''date-parts'': [[1998]]}'}
     language: ar
-    category: seerah
-    acquisition:
-      source: null          # URL or site
-      date: null
-      by: null              # lane or agent
-      file_name: null
-      bytes: null
-      sha256: null
-      sha256_status: pending   # pending | computed | skipped-large
-    physical: { pages: null, offset: null, missing_or_duplicate: null }
-    ocr:
-      state: none           # none | partial | complete
-      engine: null
-      date: null
-      quality: null
-      failed_pages: null
-      unzipped_location: null   # relative folder holding loose OCR text today, or null
-    ocr_archive:
-      state: none           # none | partial | complete | verified
-      path: null            # ocr-archive/<category>/<book-id>.zip
-      bytes: null
-      sha256: null
-      pages_covered: null
-      zipped: null
-    mining:
-      state: none           # none | in_progress | mined
-      ranges_mined: null    # e.g. ["1-120", "130-410"]
-      skipped: null         # [{pages, reason}]
-      held: null            # [{pages, reason}]
-      entities: null
-      edges: null
-    ingestion:
-      state: none           # none | partial | ingested
-      prs: []
-      ledger: null
-      graph_ids: []         # e.g. source/..., work/...
-    work_registry: null     # claim state in WORK-REGISTRY.md
-    completion: downloaded  # claimed | downloaded | ocr_done | mining | mined | ingested | complete | deleted
-    deletion: null          # {date, deleted, kept: [ocr_archive], restore: {url, sha256}}
-    unverified: []
-    notes: null
+    category: adab-zuhd
+    volumes: 2 file(s)
+    files:
+    - {name: 20240524_20240524_0853.pdf, bytes: 6725552, pages: 412, ocr_pages: 412, sha256: a8bf5261776d8d79356c80c1a0e13b27bdc7edfb08ec11c73f81032b4118aff6}
+    - {name: al-Jahiz.pdf, bytes: 21457760, pages: 1523, ocr_pages: 1523, sha256: ccaf21d1862459f06dde3524ab1a46b0fb78652eda1ea6951bc16c1650a5352c}
+    acquisition: {source: '2 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-18', by: library harvest (library/manifest.jsonl), bytes: 28183312, sha256_status: computed}
+    physical: {pages: 1935}
+    ocr: {state: complete, date: '2026-10-22', unzipped_location: books/adab-zuhd/bayan-tabyin-jahiz/}
+    ocr_archive: {state: none}
+    mining: {state: in_progress, entities: 7 data files cite source/bayan-tabyin-harun-khanji-1998}
+    ingestion: {state: partial, prs: [2971, 2977, 2978, 3470], ledger: [docs/delegation/library/bayan-tabyin-jahiz.md], graph_ids: [source/bayan-tabyin-harun-khanji-1998]}
+    completion: mining
+    unverified:
+    - edition
+    - mining.ranges_mined
+    - mining.state_derived_from_ledger_text
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - year
+    notes: needs OCR zip (ocr_archive none)
+  - id: bulac-mustatraf
+    title: bulac mustatraf
+    category: adab-zuhd
+    volumes: 1 file(s)
+    files:
+    - {name: BULAC_RES_MON_8_62.pdf, bytes: 1173173259, pages: 698, ocr_pages: 13}
+    acquisition: {file_name: BULAC_RES_MON_8_62.pdf, bytes: 1173173259, sha256_status: pending}
+    physical: {pages: 698}
+    ocr: {state: partial, date: '2026-10-22', failed_pages: 685, unzipped_location: books/adab-zuhd/bulac-mustatraf/}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: downloaded
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - title
+    - year
+    notes: 'needs OCR zip (ocr_archive none); ocr_pages 13 of 698 pages (pages without text may be blank); title unknown: label is the archive.org or folder identifier'
+  - id: civ-3027
+    title: civ 3027
+    category: adab-zuhd
+    volumes: 1 file(s)
+    files:
+    - {name: civ-3027.pdf, bytes: 9633590, pages: 198, ocr_pages: 198, sha256: 25a994535c79e25ad0f130227af6db6cea43d8447f1df574a20b7ac0a0e1f67b}
+    acquisition: {file_name: civ-3027.pdf, bytes: 9633590, sha256: 25a994535c79e25ad0f130227af6db6cea43d8447f1df574a20b7ac0a0e1f67b, sha256_status: computed}
+    physical: {pages: 198}
+    ocr: {state: complete, date: '2026-10-23', unzipped_location: books/adab-zuhd/civ-3027/}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - title
+    - year
+    notes: 'needs OCR zip (ocr_archive none); title unknown: label is the archive.org or folder identifier'
+  - id: diwan-hassan-barquqi-1929
+    title: diwan hassan barquqi 1929
+    category: adab-zuhd
+    volumes: 1 file(s)
+    files:
+    - {name: AAlexandrina-074429.pdf, bytes: 46525167, pages: 416, ocr_pages: 416, sha256: 14ddadce3b64dc778a2bd01c992c7563f7c0134c4b3a1ba94db0e0b7be116943}
+    - {name: djvu.txt, bytes: 875058}
+    acquisition: {bytes: 47400225, sha256_status: computed}
+    physical: {pages: 416}
+    ocr: {state: complete, date: '2026-11-04', unzipped_location: books/adab-zuhd/diwan-hassan-barquqi-1929/}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    work_registry: 'download + read (archive.org AAlexandrina-074429, Sharh diwan Hassan ibn Thabit, al-Barquqi, Cairo 1929): active (claude-sonnet-5-5 / suspicious-shaw-bbfa03); ocr (apple vision, --force-ocr --no-png): done 2026-11-04 (claude-opus-5-5 / ocr-harvest-2026-11-04)'
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - title
+    - year
+    notes: 'needs OCR zip (ocr_archive none); OCR kept as 416 per-page txt files; title unknown: label is the archive.org or folder identifier'
+  - id: diwan-ibn-arabi
+    title: diwan ibn arabi
+    category: adab-zuhd
+    volumes: 1 file(s)
+    files:
+    - {name: diwan-ibn-arabi.pdf, bytes: 4763301, pages: 242, ocr_pages: 242, sha256: 23e115196bd8d7838648d5561e98ae0e49788927372b08bf77e602140ee0db85}
+    acquisition: {file_name: diwan-ibn-arabi.pdf, bytes: 4763301, sha256: 23e115196bd8d7838648d5561e98ae0e49788927372b08bf77e602140ee0db85, sha256_status: computed}
+    physical: {pages: 242}
+    ocr: {state: complete, date: '2026-10-18', unzipped_location: books/adab-zuhd/diwan-ibn-arabi/}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - title
+    - year
+    notes: 'needs OCR zip (ocr_archive none); title unknown: label is the archive.org or folder identifier'
+  - id: diwan-mutanabbi
+    title: diwan mutanabbi
+    category: adab-zuhd
+    volumes: 1 file(s)
+    files:
+    - {name: diwan-mutanabbi.pdf, bytes: 8848992, pages: 583, ocr_pages: 583, sha256: 1f355eec4df7f223cc443e4804496eb64e97587c18557e8f98bd53be1ad8a406}
+    acquisition: {file_name: diwan-mutanabbi.pdf, bytes: 8848992, sha256: 1f355eec4df7f223cc443e4804496eb64e97587c18557e8f98bd53be1ad8a406, sha256_status: computed}
+    physical: {pages: 583}
+    ocr: {state: complete, date: '2026-10-18', unzipped_location: books/adab-zuhd/diwan-mutanabbi/}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - title
+    - year
+    notes: 'needs OCR zip (ocr_archive none); title unknown: label is the archive.org or folder identifier'
+  - id: dli.ministry.26148
+    title: 'Progress: dli.ministry.26148 (adab-zuhd)'
+    category: adab-zuhd
+    volumes: 6 file(s)
+    files:
+    - {name: 19613.12926-%20%28part-1%29.pdf, bytes: 16224292, pages: 100, ocr_pages: 100, sha256: 01aad476965757e1f3a280b532ddfcea9a4a4939234043dd975c4a1118c950ee}
+    - {name: 19613.12926-%20%28part-2%29.pdf, bytes: 17510048, pages: 110, ocr_pages: 110, sha256: 6ba41ddc369806defeee525e964eb5dc7bbef6d5fc4a042affb2e1d269135940}
+    - {name: 19613.12926-%20%28part-3%29.pdf, bytes: 16993596, pages: 110, ocr_pages: 110, sha256: e91b6d19cdee50a827ad54bb46449c376a739b01c97a3d977610e4397abb1516}
+    - {name: 19613.12926-%20%28part-4%29.pdf, bytes: 16321900, pages: 110, ocr_pages: 110, sha256: 42f766d49068333b09918ee1a2afb88d6943327690f8ff18f6a8eb1366e85f7e}
+    - {name: 19613.12926-%20%28part-5%29.pdf, bytes: 20589787, pages: 110, ocr_pages: 110, sha256: 3ad0f0db7b90fa2c055e02b3833027548d6bfe5466b1c12186e9af9e95a6ed5f}
+    - {name: 19613.12926-%20%28part-6%29.pdf, bytes: 20756759, pages: 102, ocr_pages: 102, sha256: b42ba645ff3942bbd0f356d9ade1d687d4ebdc5127d9623a72c43dc235d4f9cb}
+    acquisition: {bytes: 108396382, sha256_status: computed}
+    physical: {pages: 642}
+    ocr: {state: complete, date: '2026-10-22', unzipped_location: books/adab-zuhd/dli.ministry.26148/}
+    ocr_archive: {state: none}
+    mining: {state: in_progress}
+    ingestion: {state: none, prs: [3444], ledger: [docs/delegation/library/dli.ministry.26148.md]}
+    completion: mining
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - mining.state_derived_from_ledger_text
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none)
+  - id: hamasa-abu-tammam-1916
+    title: hamasa abu tammam 1916
+    category: adab-zuhd
+    volumes: 1 file(s)
+    files:
+    - {name: AAlexandrina-206563.pdf, bytes: 50658451, pages: 792, ocr_pages: 792, sha256: 95ccb5b208aff76d43ce89b43faae3a6a7ac8c1ce353805a7bb7f371082782ac}
+    acquisition: {file_name: AAlexandrina-206563.pdf, bytes: 50658451, sha256: 95ccb5b208aff76d43ce89b43faae3a6a7ac8c1ce353805a7bb7f371082782ac, sha256_status: computed}
+    physical: {pages: 792}
+    ocr: {state: complete, date: '2026-11-04', unzipped_location: books/adab-zuhd/hamasa-abu-tammam-1916/}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    work_registry: 'download + read (archive.org AAlexandrina-206563, Diwan al-Hamasa, Abu Tammam, 1916): active (claude-sonnet-5-5 / suspicious-shaw-bbfa03); ocr (apple vision): done 2026-11-04 (claude-opus-5-5 / ocr-harvest-2026-11-04)'
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - title
+    - year
+    notes: 'needs OCR zip (ocr_archive none); OCR kept as 792 per-page txt files; title unknown: label is the archive.org or folder identifier'
+  - id: hayawan-jahiz
+    title: كتاب الحيوان — المجلد الأول
+    author: Abu 'Uthman 'Amr ibn Bahr al-Jahiz
+    publisher: دار الكتب العلمية، بيروت
+    edition: الطبعة الثانية، بحواشي محمد باسل عيون السود
+    year: {ce: '{''date-parts'': [[2003]]}'}
+    language: ar
+    category: adab-zuhd
+    volumes: 4 file(s)
+    files:
+    - {name: hayawan-jahid-01.pdf, bytes: 8550186, pages: 448, ocr_pages: 448, sha256: 47c6929602dca57fe3d85dbed9617c76512d5fbd8ca303c249da7255d2e42c81}
+    - {name: hayawan-jahid-02.pdf, bytes: 9912498, pages: 510, ocr_pages: 510, sha256: 70631b4cca30b5e3feffd3043be02c49045b4c0b2d2a0d776c51aca4997ee176}
+    - {name: hayawan-jahid-03.pdf, bytes: 18022965, pages: 599, ocr_pages: 599, sha256: 09a8006a4e737db38161276b39153c1e8c41a556fb828b9ab8c5565d0d5c153b}
+    - {name: hayawan-jahid-04.pdf, bytes: 8167737, pages: 511, ocr_pages: 511, sha256: f1c0263452f76f363867acea3114f5992bae3243a5c7c76c903db104f346d334}
+    acquisition: {bytes: 44653386, sha256_status: computed}
+    physical: {pages: 2068}
+    ocr: {state: complete, date: '2026-11-04', unzipped_location: books/adab-zuhd/hayawan-jahiz/}
+    ocr_archive: {state: none}
+    mining: {state: in_progress, entities: '31 data files cite source/hayawan-jahiz-ilmiyya-2003-v1,hayawan-jahiz-ilmiyya-2003-v2,hayawan-jahiz-ilmiyya-2003-v3'}
+    ingestion: {state: partial, prs: [3459], ledger: [docs/delegation/library/hayawan-jahiz.md], graph_ids: [source/hayawan-jahiz-ilmiyya-2003-v1, source/hayawan-jahiz-ilmiyya-2003-v2, source/hayawan-jahiz-ilmiyya-2003-v3, source/hayawan-jahiz-ilmiyya-2003-v4, source/farq-bayn-al-firaq-tawfiqiyya]}
+    completion: mining
+    unverified:
+    - edition
+    - mining.ranges_mined
+    - mining.state_derived_from_ledger_text
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - year
+    notes: 'needs OCR zip (ocr_archive none); other source ids: hayawan-jahiz-ilmiyya-2003-v2, hayawan-jahiz-ilmiyya-2003-v3, hayawan-jahiz-ilmiyya-2003-v4'
+  - id: hikam-ibn-ataillah
+    title: الحكم العطائية — شرح ابن عباد الرندي ⁦(مختارات)⁩
+    author: Taj al-Din Ahmad Ibn 'Ata' Allah al-Iskandari; Muhammad ibn Ibrahim Ibn 'Abbad al-Rundi
+    publisher: مركز الأهرام للترجمة والنشر، القاهرة
+    edition: الطبعة الأولى؛ إعداد ودراسة محمد عبد المقصود هيكل، إشراف ومراجعة عبد الصبور شاهين
+    year: {ce: '{''date-parts'': [[1988]]}'}
+    language: ar
+    category: adab-zuhd
+    volumes: 2 file(s)
+    files:
+    - {name: AAlexandrina-095550.pdf, bytes: 21134196, pages: 308, ocr_pages: 308, sha256: c77dd18551d36b337aa6ad3c6ba5b8d3a0efbdfcee0009efe530c015e49731f4}
+    - {name: Library.mmn_20150920.pdf, bytes: 1938040, pages: 176, ocr_pages: 1, sha256: 4e4cb5e5c1e9efce397a53846dc059152df8befc7af0f01a871b527051e9fc2f}
+    acquisition: {source: '2 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-18', by: library harvest (library/manifest.jsonl), bytes: 23072236, sha256_status: computed}
+    physical: {pages: 484}
+    ocr: {state: partial, date: '2026-10-22', failed_pages: 175, unzipped_location: books/adab-zuhd/hikam-ibn-ataillah/}
+    ocr_archive: {state: none}
+    mining: {state: in_progress, entities: '10 data files cite source/hikam-ibn-abbad-haykal-ahram-1988,minah-qudsiyya-sharqawi-ilmiyya'}
+    ingestion: {state: partial, prs: [3470], ledger: [docs/delegation/library/hikam-ibn-ataillah.md], graph_ids: [source/hikam-ibn-abbad-haykal-ahram-1988, source/minah-qudsiyya-sharqawi-ilmiyya]}
+    completion: mining
+    unverified:
+    - edition
+    - mining.ranges_mined
+    - mining.state_derived_from_ledger_text
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - year
+    notes: 'needs OCR zip (ocr_archive none); ocr_pages 309 of 484 pages (pages without text may be blank); other source ids: minah-qudsiyya-sharqawi-ilmiyya'
+  - id: ihya-ulum-din
+    title: إحياء علوم الدين
+    author: Abu Hamid Muhammad ibn Muhammad al-Tusi al-Ghazali
+    publisher: دار المعرفة، بيروت ⁦(نص المكتبة الشاملة)⁩
+    language: ar
+    category: adab-zuhd
+    volumes: 4 file(s)
+    files:
+    - {name: AAlexandrina-000467.pdf, bytes: 62841784, pages: 426, ocr_pages: 426, sha256: c5b40b182866e7bf10f3e61d741a162dd1a83926e14e6ef8650c901dc38344a2}
+    - {name: AAlexandrina-019110.pdf, bytes: 105901453, pages: 804, ocr_pages: 804, sha256: 36800affa6b65c9b062fc532827b1f093ef911172425cbdff25ee87f8e58a5f6}
+    - {name: aheaa-olom.pdf, bytes: 12850615, pages: 536, ocr_pages: 536, sha256: 16e019571b68178c88e6ff6fee278c23e5faf27ce05355886593279a7baac4e9}
+    - {name: phptop_gmail.pdf, bytes: 18360478, pages: 8992, ocr_pages: 0, sha256: 39a67f318a90d63a40814a64041e7aab3933557ad74b3139de109c8ef3157f2e}
+    acquisition: {source: '4 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-11', by: library harvest (library/manifest.jsonl), bytes: 199954330, sha256_status: computed}
+    physical: {pages: 10758}
+    ocr: {state: partial, date: '2026-10-14', failed_pages: 8992, unzipped_location: books/adab-zuhd/ihya-ulum-din/}
+    ocr_archive: {state: none}
+    mining: {state: in_progress, entities: '30 data files cite source/ihya-shamela-dar-al-marifa,ihya-dar-al-marifa-1982-v3,ihya-kitab-al-shab-pts13-16'}
+    ingestion: {state: partial, prs: [3427, 3428], ledger: [docs/delegation/library/ihya-ulum-din.md], graph_ids: [source/ihya-shamela-dar-al-marifa, source/ihya-dar-al-marifa-1982-v3, source/ihya-kitab-al-shab-pts13-16, source/ihya-tabana-v4]}
+    completion: mining
+    unverified:
+    - edition
+    - mining.ranges_mined
+    - mining.state_derived_from_ledger_text
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - year
+    notes: 'needs OCR zip (ocr_archive none); ocr_pages 1766 of 10758 pages (pages without text may be blank); other source ids: ihya-dar-al-marifa-1982-v3, ihya-kitab-al-shab-pts13-16, ihya-tabana-v4'
+  - id: in.ernet.dli.2015.322697
+    title: in.ernet.dli.2015.322697
+    category: adab-zuhd
+    volumes: 1 file(s)
+    files:
+    - {name: 2015.322697.Nihayat-Ul.pdf, bytes: 17361918, pages: 438, ocr_pages: 438, sha256: 142a081708c8977771135d202d36ab0a2a1f4c14906593553542d142ef73fb38}
+    acquisition: {file_name: 2015.322697.Nihayat-Ul.pdf, bytes: 17361918, sha256: 142a081708c8977771135d202d36ab0a2a1f4c14906593553542d142ef73fb38, sha256_status: computed}
+    physical: {pages: 438}
+    ocr: {state: complete, date: '2026-10-22', unzipped_location: books/adab-zuhd/in.ernet.dli.2015.322697/}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - title
+    - year
+    notes: 'needs OCR zip (ocr_archive none); title unknown: label is the archive.org or folder identifier'
+  - id: in.ernet.dli.2015.322767
+    title: in.ernet.dli.2015.322767
+    category: adab-zuhd
+    volumes: 1 file(s)
+    files:
+    - {name: 2015.322767.Tarasana-Nihayat.pdf, bytes: 17073165, pages: 330, ocr_pages: 330, sha256: f15dd97be168d67e6cb555a013d00b19bdf9c56a4c6d1e90a58a726c84666ae0}
+    acquisition: {file_name: 2015.322767.Tarasana-Nihayat.pdf, bytes: 17073165, sha256: f15dd97be168d67e6cb555a013d00b19bdf9c56a4c6d1e90a58a726c84666ae0, sha256_status: computed}
+    physical: {pages: 330}
+    ocr: {state: complete, date: '2026-10-22', unzipped_location: books/adab-zuhd/in.ernet.dli.2015.322767/}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - title
+    - year
+    notes: 'needs OCR zip (ocr_archive none); title unknown: label is the archive.org or folder identifier'
+  - id: in.ernet.dli.2015.488677
+    title: in.ernet.dli.2015.488677
+    category: adab-zuhd
+    volumes: 1 file(s)
+    files:
+    - {name: 2015.488677.Nihayat-Al.pdf, bytes: 15934120, pages: 359, ocr_pages: 359, sha256: 90f929e8a4054b66ad8132076e479716a132d54d8df39bba0d00a5573ce19867}
+    acquisition: {file_name: 2015.488677.Nihayat-Al.pdf, bytes: 15934120, sha256: 90f929e8a4054b66ad8132076e479716a132d54d8df39bba0d00a5573ce19867, sha256_status: computed}
+    physical: {pages: 359}
+    ocr: {state: complete, date: '2026-10-22', unzipped_location: books/adab-zuhd/in.ernet.dli.2015.488677/}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - title
+    - year
+    notes: 'needs OCR zip (ocr_archive none); title unknown: label is the archive.org or folder identifier'
+  - id: india.history.resource.41193
+    title: india.history.resource.41193
+    category: adab-zuhd
+    volumes: 1 file(s)
+    files:
+    - {name: 41193.pdf, bytes: 26863098, pages: 424, ocr_pages: 4, sha256: 41a0b38bff550e03d3f68d47af8ff0a22e705a81aa048d9b7b28af6380221d6f}
+    acquisition: {file_name: 41193.pdf, bytes: 26863098, sha256: 41a0b38bff550e03d3f68d47af8ff0a22e705a81aa048d9b7b28af6380221d6f, sha256_status: computed}
+    physical: {pages: 424}
+    ocr: {state: partial, date: '2026-10-22', failed_pages: 420, unzipped_location: books/adab-zuhd/india.history.resource.41193/}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: downloaded
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - title
+    - year
+    notes: 'needs OCR zip (ocr_archive none); ocr_pages 4 of 424 pages (pages without text may be blank); title unknown: label is the archive.org or folder identifier'
+  - id: india.history.resource.53365
+    title: india.history.resource.53365
+    category: adab-zuhd
+    volumes: 1 file(s)
+    files:
+    - {name: 53365.pdf, bytes: 55524646, pages: 466, ocr_pages: 7, sha256: e6b2eec421401b2d56917ae3a5ecc9253a962cfbc07d6bf9e7a37673fc2fba64}
+    acquisition: {file_name: 53365.pdf, bytes: 55524646, sha256: e6b2eec421401b2d56917ae3a5ecc9253a962cfbc07d6bf9e7a37673fc2fba64, sha256_status: computed}
+    physical: {pages: 466}
+    ocr: {state: partial, date: '2026-10-22', failed_pages: 459, unzipped_location: books/adab-zuhd/india.history.resource.53365/}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: downloaded
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - title
+    - year
+    notes: 'needs OCR zip (ocr_archive none); ocr_pages 7 of 466 pages (pages without text may be blank); title unknown: label is the archive.org or folder identifier'
+  - id: kashf-mahjub-hujwiri
+    title: كشف المحجوب — الجزء الأول
+    author: Abu al-Hasan 'Ali ibn 'Uthman al-Hujwiri
+    publisher: المجلس الأعلى للثقافة ⁦(المشروع القومي للترجمة)⁩، القاهرة
+    edition: دراسة وترجمة وتعليق إسعاد عبد الهادي قنديل؛ مراجعة وتقديم بديع جمعة
+    year: {ce: '{''date-parts'': [[2007]]}'}
+    language: ar
+    category: adab-zuhd
+    volumes: 2 file(s)
+    files:
+    - {name: ar117myst27.pdf, bytes: 8305459, pages: 402, ocr_pages: 401, sha256: 3cdd40a76d3964eb443b4679189c012fc3195b899a6e367632c15717399e73f0}
+    - {name: elshandawily519.pdf, bytes: 9550265, pages: 402, ocr_pages: 402, sha256: 502e128027a88f1779fd38fc0b48cd767cae18918a627b5ad68a0f20ef6fc027}
+    acquisition: {source: '2 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-18', by: library harvest (library/manifest.jsonl), bytes: 17855724, sha256_status: computed}
+    physical: {pages: 804}
+    ocr: {state: partial, date: '2026-10-22', failed_pages: 1, unzipped_location: books/adab-zuhd/kashf-mahjub-hujwiri/}
+    ocr_archive: {state: none}
+    mining: {state: in_progress, entities: 4 data files cite source/kashf-al-mahjub-qandil-2007-v1}
+    ingestion: {state: partial, prs: [3466], ledger: [docs/delegation/library/kashf-mahjub-hujwiri.md], graph_ids: [source/kashf-al-mahjub-qandil-2007-v1]}
+    completion: mining
+    unverified:
+    - edition
+    - mining.ranges_mined
+    - mining.state_derived_from_ledger_text
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - year
+    notes: needs OCR zip (ocr_archive none); ocr_pages 803 of 804 pages (pages without text may be blank)
+  - id: laifihcanareddn00narauoft
+    title: laifihcanareddn00narauoft
+    category: adab-zuhd
+    volumes: 1 file(s)
+    files:
+    - {name: laifihcanareddn00narauoft.pdf, bytes: 13195666, pages: 264, ocr_pages: 5, sha256: 1da3aa0dc72d395f4d574cd522d11426afc516605a8642903a5257227ab97264}
+    acquisition: {file_name: laifihcanareddn00narauoft.pdf, bytes: 13195666, sha256: 1da3aa0dc72d395f4d574cd522d11426afc516605a8642903a5257227ab97264, sha256_status: computed}
+    physical: {pages: 264}
+    ocr: {state: partial, date: '2026-10-22', failed_pages: 259, unzipped_location: books/adab-zuhd/laifihcanareddn00narauoft/}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: downloaded
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - title
+    - year
+    notes: 'needs OCR zip (ocr_archive none); ocr_pages 5 of 264 pages (pages without text may be blank); title unknown: label is the archive.org or folder identifier'
+  - id: luma-sarraj
+    title: اللمع
+    author: Abu Nasr 'Abd Allah ibn 'Ali al-Sarraj al-Tusi
+    publisher: دار الفتح للدراسات والنشر
+    edition: تحقيق محمد أديب الجادر
+    language: ar
+    category: adab-zuhd
+    volumes: 2 file(s)
+    files:
+    - {name: al-luma_fit_tasawwuf.pdf, bytes: 13574522, pages: 690, ocr_pages: 690, sha256: 32ac307ff708effc7a9ac049afdb4c216451b2367bf3c42af57cb386e2325425}
+    - {name: al-luma_fit_tasawwuf_202506.pdf, bytes: 32823254, pages: 716, ocr_pages: 716, sha256: 298e46b59362d14eb126b3c24b0872926cef8af1b7de01bb82308c58eb361311}
+    acquisition: {source: '2 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-18', by: library harvest (library/manifest.jsonl), bytes: 46397776, sha256_status: computed}
+    physical: {pages: 1406}
+    ocr: {state: complete, date: '2026-10-22', unzipped_location: books/adab-zuhd/luma-sarraj/}
+    ocr_archive: {state: none}
+    mining: {state: in_progress, entities: '13 data files cite source/luma-sarraj-jadir-dar-al-fath,luma-sarraj-nicholson-1914'}
+    ingestion: {state: partial, prs: [3459], ledger: [docs/delegation/library/luma-sarraj.md], graph_ids: [source/luma-sarraj-jadir-dar-al-fath, source/luma-sarraj-nicholson-1914]}
+    completion: mining
+    unverified:
+    - edition
+    - mining.ranges_mined
+    - mining.state_derived_from_ledger_text
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - year
+    notes: 'needs OCR zip (ocr_archive none); other source ids: luma-sarraj-nicholson-1914'
+  - id: maqamat-hariri
+    title: مقامات الحريري
+    category: adab-zuhd
+    volumes: 2 file(s)
+    files:
+    - {name: 20200714_20200714_1723.pdf, bytes: 5789295, pages: 340, ocr_pages: 4, sha256: f699d0ef389e3b4dc39e508ee002df5d60d747b57564aca294a709d9cceeb77a}
+    - {name: idmehmedefend-147.pdf, bytes: 208594150, pages: 375, ocr_pages: 375, sha256: b1208cd8bcf27608128d4358f2ea8e95fdd728110bfe460e48b9a34ad6e2e0f9}
+    acquisition: {source: '2 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-18', by: library harvest (library/manifest.jsonl), bytes: 214383445, sha256_status: computed}
+    physical: {pages: 715}
+    ocr: {state: partial, date: '2026-10-22', failed_pages: 336, unzipped_location: books/adab-zuhd/maqamat-hariri/}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    completion: downloaded
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: needs OCR zip (ocr_archive none); ocr_pages 379 of 715 pages (pages without text may be blank)
+  - id: miftah-falah-ibn-ataillah
+    title: مفتاح الفلاح ومصباح الأرواح
+    author: Taj al-Din Ibn 'Ata' Allah al-Iskandari
+    publisher: مطبعة السعادة، القاهرة
+    edition: الطبعة الأولى
+    year: {ce: '{''date-parts'': [[1914]]}'}
+    language: ar
+    category: adab-zuhd
+    volumes: 1 file(s)
+    files:
+    - {name: AAlexandrina-141685.pdf, bytes: 16449880, pages: 98, ocr_pages: 98, sha256: 8ccbdeff658cbceec6cf4a67a8b3bc681454e8a9c9880fb496d5ebff087b9ff8}
+    acquisition: {file_name: AAlexandrina-141685.pdf, bytes: 16449880, sha256: 8ccbdeff658cbceec6cf4a67a8b3bc681454e8a9c9880fb496d5ebff087b9ff8, sha256_status: computed}
+    physical: {pages: 98}
+    ocr: {state: complete, date: '2026-11-04', unzipped_location: books/adab-zuhd/miftah-falah-ibn-ataillah/}
+    ocr_archive: {state: none}
+    mining: {state: in_progress, entities: 4 data files cite source/miftah-al-falah-saada-1332}
+    ingestion: {state: partial, prs: [3463], ledger: [docs/delegation/library/miftah-falah-ibn-ataillah.md], graph_ids: [source/miftah-al-falah-saada-1332]}
+    completion: mining
+    unverified:
+    - edition
+    - mining.ranges_mined
+    - mining.state_derived_from_ledger_text
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - year
+    notes: needs OCR zip (ocr_archive none)
+  - id: muallaqat-zawzani-1921
+    title: muallaqat zawzani 1921
+    category: adab-zuhd
+    volumes: 1 file(s)
+    files:
+    - {name: AAlexandrina-204263.pdf, bytes: 27716722, pages: 218, ocr_pages: 218, sha256: 6ac77f44479122f7b5e1e5fe093cd1ab6e2ae4d407b92746d8e8db3fec37ac9a}
+    acquisition: {file_name: AAlexandrina-204263.pdf, bytes: 27716722, sha256: 6ac77f44479122f7b5e1e5fe093cd1ab6e2ae4d407b92746d8e8db3fec37ac9a, sha256_status: computed}
+    physical: {pages: 218}
+    ocr: {state: complete, date: '2026-11-04', unzipped_location: books/adab-zuhd/muallaqat-zawzani-1921/}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    work_registry: 'download + read (archive.org AAlexandrina-204263, Sharh al-Mu''allaqat al-sab'', al-Zawzani, Cairo 1921): active (claude-sonnet-5-5 / suspicious-shaw-bbfa03); ocr (apple vision): done 2026-11-04 (claude-opus-5-5 / ocr-harvest-2026-11-04)'
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - title
+    - year
+    notes: 'needs OCR zip (ocr_archive none); OCR kept as 218 per-page txt files; title unknown: label is the archive.org or folder identifier'
+  - id: mufaddaliyyat-1926
+    title: mufaddaliyyat 1926
+    category: adab-zuhd
+    volumes: 1 file(s)
+    files:
+    - {name: AAlexandrina-162009.pdf, bytes: 28490520, pages: 233, ocr_pages: 233, sha256: 843554d9e5c531713ac80e5579d653d5d1aecb884f5c67bdc1251412e4dd9a2f}
+    acquisition: {file_name: AAlexandrina-162009.pdf, bytes: 28490520, sha256: 843554d9e5c531713ac80e5579d653d5d1aecb884f5c67bdc1251412e4dd9a2f, sha256_status: computed}
+    physical: {pages: 233}
+    ocr: {state: complete, date: '2026-11-04', unzipped_location: books/adab-zuhd/mufaddaliyyat-1926/}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    work_registry: 'download + read (archive.org AAlexandrina-162009, al-Mufaddaliyyat, Cairo 1926): active (claude-sonnet-5-5 / suspicious-shaw-bbfa03); ocr (apple vision): done 2026-11-04 (claude-opus-5-5 / ocr-harvest-2026-11-04)'
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - title
+    - year
+    notes: 'needs OCR zip (ocr_archive none); OCR kept as 233 per-page txt files; title unknown: label is the archive.org or folder identifier'
+  - id: mustatraf
+    title: المستطرف في كل فن مستطرف
+    author: Shihab al-Din Muhammad ibn Ahmad al-Abshihi
+    language: ar
+    category: adab-zuhd
+    volumes: 1 file(s)
+    files:
+    - {name: mustatraf_01.pdf, bytes: 16533971, pages: 293, ocr_pages: 293, sha256: 691c2933103f32ee95e6d337ff7ccded63ad98e3eae5fed73dca3ab6a98cc7cb}
+    acquisition: {file_name: mustatraf_01.pdf, bytes: 16533971, sha256: 691c2933103f32ee95e6d337ff7ccded63ad98e3eae5fed73dca3ab6a98cc7cb, sha256_status: computed}
+    physical: {pages: 293}
+    ocr: {state: complete, date: '2026-10-22', unzipped_location: books/adab-zuhd/mustatraf/}
+    ocr_archive: {state: none}
+    mining: {state: in_progress, entities: '14 data files cite source/al-mustatraf-abshihi-scan-vol1,mustatraf-bulac-lithograph'}
+    ingestion: {state: partial, prs: [353, 367, 369, 374, 3438], ledger: [docs/delegation/library/mustatraf.md], graph_ids: [source/al-mustatraf-abshihi-scan-vol1, source/mustatraf-bulac-lithograph]}
+    completion: mining
+    unverified:
+    - edition
+    - mining.ranges_mined
+    - mining.state_derived_from_ledger_text
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: 'needs OCR zip (ocr_archive none); other source ids: mustatraf-bulac-lithograph'
+  - id: nihayat-al-arab
+    title: نهاية الأرب في فنون الأدب
+    author: Shihab al-Din Ahmad ibn Abd al-Wahhab al-Nuwayri
+    language: ar
+    category: adab-zuhd
+    volumes: 10 file(s)
+    files:
+    - {name: nefa00.pdf, bytes: 481054, pages: 1, ocr_pages: 1, sha256: 3b6b2419d5441195f0c778ec3c6305f707ac1317569a656e43bafba19e183a59}
+    - {name: nefa01.pdf, bytes: 7845092, pages: 432, ocr_pages: 432, sha256: a4d51190079ee276fd137bfa632c029621cbf69b7e451a72bce5b14a1afdd61b}
+    - {name: nefa02.pdf, bytes: 8176416, pages: 378, ocr_pages: 378, sha256: 3acb0df3a6ce4f5956cee0713132c67f70050c94d0a81f0c6cc20e77c93b9f68}
+    - {name: nefa03.pdf, bytes: 7881972, pages: 358, ocr_pages: 358, sha256: 4e74ef056e7d0e9aca08a4c44e91b9c736db5b720a537466952c9f84783e00ae}
+    - {name: nefa04.pdf, bytes: 7609270, pages: 319, ocr_pages: 319, sha256: a1b5b0dfda9d98a2a025607c3ea1bed258090915094015c2b8bba3abee4fb65e}
+    - {name: nefa05.pdf, bytes: 7550900, pages: 320, ocr_pages: 320, sha256: 5046f57cb739da52773d91d3ec07f78a3b4303dd16e3027b479724ab520f22aa}
+    - {name: nefa06.pdf, bytes: 6501587, pages: 266, ocr_pages: 266, sha256: be57f4ec0f309f9933e53953c2fc45013ff962189810cc18ca35cd132f0f5ca2}
+    - {name: nefa07.pdf, bytes: 5546930, pages: 236, ocr_pages: 236, sha256: c32f87ed3f74b61ebe07f34085cb449386a95bfc9930b922536ecfa2a431feee}
+    - {name: nefa08.pdf, bytes: 5424388, pages: 224, ocr_pages: 224, sha256: 6ef4769556a8754a6f4707749ad3c41f5b99055cd4447564c0942692d5a59811}
+    - {name: nefa09.pdf, bytes: 5909152, pages: 248, ocr_pages: 248, sha256: d3a76712ad0a459dc9ecfef3737964e9b14450a3274fcdcb85507eb9fa4743df}
+    acquisition: {bytes: 62926761, sha256_status: computed}
+    physical: {pages: 2782}
+    ocr: {state: complete, date: '2026-10-22', unzipped_location: books/adab-zuhd/nihayat-al-arab/}
+    ocr_archive: {state: none}
+    mining: {state: in_progress, entities: '47 data files cite source/nihayat-al-arab-nuwayri-vol4-scan,nihayat-al-arab-dar-al-kutub-v1-1923,nihayat-al-arab-nuwayri-vol6-turathuna'}
+    ingestion: {state: partial, prs: [377, 385, 392, 3444], ledger: [docs/delegation/library/nihayat-al-arab.md], graph_ids: [source/nihayat-al-arab-nuwayri-vol4-scan, source/nihayat-al-arab-dar-al-kutub-v1-1923, source/nihayat-al-arab-nuwayri-vol6-turathuna, source/nihayat-al-arab-dar-al-kutub-v14-1943]}
+    completion: mining
+    unverified:
+    - edition
+    - mining.ranges_mined
+    - mining.state_derived_from_ledger_text
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: 'needs OCR zip (ocr_archive none); other source ids: nihayat-al-arab-dar-al-kutub-v1-1923, nihayat-al-arab-nuwayri-vol6-turathuna, nihayat-al-arab-dar-al-kutub-v14-1943'
+  - id: risalat-qushayri
+    title: الرسالة القشيرية
+    author: Abu al-Qasim 'Abd al-Karim ibn Hawazin al-Qushayri
+    publisher: دار المنهاج
+    edition: الطبعة الأولى، الإصدار الثاني؛ عني به أنس محمد عدنان الشرفاوي
+    year: {ce: '{''date-parts'': [[2017]]}'}
+    language: ar
+    category: adab-zuhd
+    volumes: 2 file(s)
+    files:
+    - {name: Library.mmn_20160412.pdf, bytes: 18480217, pages: 455, ocr_pages: 210, sha256: 83d9eae5333d1eb79e86d27a4bc5867303cdf37a43099e737dab505f55dbc8f8}
+    - {name: rquchairya.pdf, bytes: 32820399, pages: 994, ocr_pages: 994, sha256: 896ede986cccabbad345021193c3dd9ddb119db8b49d814d8e3a1d8291cfd1e9}
+    acquisition: {source: '2 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-18', by: library harvest (library/manifest.jsonl), bytes: 51300616, sha256_status: computed}
+    physical: {pages: 1449}
+    ocr: {state: partial, date: '2026-10-22', failed_pages: 245, unzipped_location: books/adab-zuhd/risalat-qushayri/}
+    ocr_archive: {state: none}
+    mining: {state: in_progress, entities: '16 data files cite source/risala-qushayriyya-minhaj-2017,risala-qushayriyya-jawami-al-kalim'}
+    ingestion: {state: partial, prs: [3466], ledger: [docs/delegation/library/risalat-qushayri.md], graph_ids: [source/risala-qushayriyya-minhaj-2017, source/risala-qushayriyya-jawami-al-kalim]}
+    completion: mining
+    unverified:
+    - edition
+    - mining.ranges_mined
+    - mining.state_derived_from_ledger_text
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - year
+    notes: 'needs OCR zip (ocr_archive none); ocr_pages 1204 of 1449 pages (pages without text may be blank); other source ids: risala-qushayriyya-jawami-al-kalim'
+  - id: tabaqat-sufiyya-sulami
+    title: طبقات الصوفية
+    author: Abu 'Abd al-Rahman Muhammad ibn al-Husayn al-Sulami
+    publisher: مكتبة الخانجي، القاهرة
+    edition: الطبعة الثالثة، تحقيق نور الدين شريبة
+    year: {ce: '{''date-parts'': [[1986]]}'}
+    language: ar
+    category: adab-zuhd
+    volumes: 2 file(s)
+    files:
+    - {name: BBib-Alex-17435.pdf, bytes: 18438718, pages: 652, ocr_pages: 652, sha256: 21592ab9ab56d610ba64824985591e7d8a13d25b593c7575b61bd6bfb0d2af16}
+    - {name: TabakatSufiya.pdf, bytes: 17785575, pages: 641, ocr_pages: 641, sha256: f29df58a2a014eba60f4e9108247f914b5f9e07422937069ed36fa5ee1f7c8cc}
+    acquisition: {source: '2 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-18', by: library harvest (library/manifest.jsonl), bytes: 36224293, sha256_status: computed}
+    physical: {pages: 1293}
+    ocr: {state: complete, date: '2026-10-22', unzipped_location: books/adab-zuhd/tabaqat-sufiyya-sulami/}
+    ocr_archive: {state: none}
+    mining: {state: in_progress, entities: 5 data files cite source/tabaqat-sufiyya-sulami-khanji-1986}
+    ingestion: {state: partial, prs: [3466], ledger: [docs/delegation/library/tabaqat-sufiyya-sulami.md], graph_ids: [source/tabaqat-sufiyya-sulami-khanji-1986]}
+    completion: mining
+    unverified:
+    - edition
+    - mining.ranges_mined
+    - mining.state_derived_from_ledger_text
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - year
+    notes: needs OCR zip (ocr_archive none)
+  - id: uyun-akhbar
+    title: uyun akhbar
+    category: adab-zuhd
+    volumes: 1 file(s)
+    files:
+    - {name: Ouyoun_Alakhbar.pdf, bytes: 25077550, pages: 1836, ocr_pages: 1836, sha256: 03e86b992d4d314093b839d5017a19495e2453f9c5acf04e0cd281e4cfe1d630}
+    acquisition: {file_name: Ouyoun_Alakhbar.pdf, bytes: 25077550, sha256: 03e86b992d4d314093b839d5017a19495e2453f9c5acf04e0cd281e4cfe1d630, sha256_status: computed}
+    physical: {pages: 1836}
+    ocr: {state: complete, date: '2026-11-04', unzipped_location: books/adab-zuhd/uyun-akhbar/}
+    ocr_archive: {state: none}
+    mining: {state: none}
+    ingestion: {state: none}
+    work_registry: 'ocr: released 2026-11-04 16:30 (stopped mid-OCR, pages.partial.json kept) (claude-opus-5-5 / ocr-harvest-2026-11-04)'
+    completion: ocr_done
+    unverified:
+    - author
+    - edition
+    - mining.ranges_mined
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - title
+    - year
+    notes: 'needs OCR zip (ocr_archive none); title unknown: label is the archive.org or folder identifier'
+  - id: zuhd-ahmad
+    title: الزهد
+    author: Ahmad ibn Muhammad al-Shaybani Ibn Hanbal
+    publisher: دار الكتب العلمية، بيروت
+    edition: الطبعة الأولى 1403هـ/1983م
+    year: {ce: '{''date-parts'': [[1983]]}'}
+    language: ar
+    category: adab-zuhd
+    volumes: 4 file(s)
+    files:
+    - {name: 20250412_20250412_1622.pdf, bytes: 30214284, pages: 406, ocr_pages: 406, sha256: a0b9a090fd73ac0b4cc5eb96d6bd73c129a061c5a0725258604a5ac59ed8f523}
+    - {name: 20260306_20260306_0921.pdf, bytes: 57169414, pages: 612, ocr_pages: 612, sha256: 2ec3777fe9e691c9816cbc3a57ae0e158f51eed2d4cbe253899d8d9fe54a908a}
+    - {name: 880Pdf.pdf, bytes: 12378119, pages: 488, ocr_pages: 488, sha256: b1104e1b89a1fe2e5e7181b3ba18447592a2be594f0549b4c970e294cf660630}
+    - {name: alfirdwsiy2018_gmail_3528.pdf, bytes: 29371034, pages: 72, ocr_pages: 72, sha256: f2931d099d47d37c99e85d3955ab4aebf9e0288aa2ba0a2e22094f668ce70db0}
+    acquisition: {source: '4 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-12', by: library harvest (library/manifest.jsonl), bytes: 129132851, sha256_status: computed}
+    physical: {pages: 1578}
+    ocr: {state: complete, date: '2026-10-14', unzipped_location: books/adab-zuhd/zuhd-ahmad/}
+    ocr_archive: {state: none}
+    mining: {state: in_progress, entities: '17 data files cite source/zuhd-ahmad-dkim-1983,zuhd-ahmad-juz13-rayahin-2026'}
+    ingestion: {state: partial, prs: [3434], ledger: [docs/delegation/library/zuhd-ahmad.md], graph_ids: [source/zuhd-ahmad-dkim-1983, source/zuhd-ahmad-juz13-rayahin-2026]}
+    completion: mining
+    unverified:
+    - edition
+    - mining.ranges_mined
+    - mining.state_derived_from_ledger_text
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - year
+    notes: 'needs OCR zip (ocr_archive none); other source ids: zuhd-ahmad-juz13-rayahin-2026'
+  - id: zuhd-ibn-mubarak
+    title: الزهد والرقائق
+    author: Abd Allah al-Marwazi Ibn al-Mubarak
+    language: ar
+    category: adab-zuhd
+    volumes: 4 file(s)
+    files:
+    - {name: 20221013_20221013_0833.pdf, bytes: 3664809, pages: 235, ocr_pages: 0, sha256: 51257268c046625385459226937c8af5ad686815cfdc80da46c72dfeb59fff66}
+    - {name: 2_20260219_20260219_1945.pdf, bytes: 24847858, pages: 571, ocr_pages: 571, sha256: dd2f0f2c57bd0660a6d6d0db57f85569da23c703d2055397ac6b5fd939b9740b}
+    - {name: ar117myst53_202212.pdf, bytes: 16578426, pages: 1248, ocr_pages: 1248, sha256: 243beb00333662eb9021b02d2b349a5a02bb6ad403c8b59fa34c702cad491fe9}
+    - {name: zhdrqmobarak.pdf, bytes: 10284500, pages: 590, ocr_pages: 590, sha256: 32a0fa2546025bc90cac282a2cfd5aec204ddb01622db185f812044f47fdd943}
+    acquisition: {source: '4 archive.org items, see files (library/manifest.jsonl)', date: '2026-10-12', by: library harvest (library/manifest.jsonl), bytes: 55375593, sha256_status: computed}
+    physical: {pages: 2644}
+    ocr: {state: partial, date: '2026-10-14', failed_pages: 235, unzipped_location: books/adab-zuhd/zuhd-ibn-mubarak/}
+    ocr_archive: {state: none}
+    mining: {state: in_progress, entities: '23 data files cite source/zuhd-ibn-mubarak-azami-scan,zuhd-ibn-mubarak-farid-1995-v1,zuhd-ibn-mubarak-murshid-2022-v2'}
+    ingestion: {state: partial, prs: [3434], ledger: [docs/delegation/library/zuhd-ibn-mubarak.md], graph_ids: [source/zuhd-ibn-mubarak-azami-scan, source/zuhd-ibn-mubarak-farid-1995-v1, source/zuhd-ibn-mubarak-murshid-2022-v2, source/zuhd-ibn-mubarak-shamela]}
+    completion: mining
+    unverified:
+    - edition
+    - mining.ranges_mined
+    - mining.state_derived_from_ledger_text
+    - ocr.date_is_book_txt_mtime
+    - ocr.quality
+    - physical.offset
+    - publisher
+    - year
+    notes: 'needs OCR zip (ocr_archive none); ocr_pages 2409 of 2644 pages (pages without text may be blank); other source ids: zuhd-ibn-mubarak-farid-1995-v1, zuhd-ibn-mubarak-murshid-2022-v2, zuhd-ibn-mubarak-shamela'
+  # END books:adab-zuhd
   # END books
 
 # audio_series and video_series share one shape (media_type: audio | video | audio_video).
