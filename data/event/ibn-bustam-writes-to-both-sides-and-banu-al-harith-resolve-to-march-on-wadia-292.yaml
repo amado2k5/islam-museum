@@ -1,0 +1,71 @@
+id: event/ibn-bustam-writes-to-both-sides-and-banu-al-harith-resolve-to-march-on-wadia-292
+class: event
+kind: other
+label:
+  ar: "كتب ابن بسطام إلى الطرفين وعزم بنو الحارث على المسير إلى وادعة، ص286"
+  en: "Ibn Bustam writes to both sides and Banu al-Harith resolve to march on Wadi'a, p. 286"
+  ur: "ابن بسطام کا دونوں فریقوں کو لکھنا اور بنو حارث کا وادعہ پر چڑھائی کا عزم، ص286"
+summary:
+  ar: "لما بلغ بني الحارث شعر الهادي اغتموا واضطربت أمورهم، وكتب ابن بسطام إلى محمد بن عبيد الله بالمودة والعهد وإلى الهادي، وبعد خروج أبي جعفر من القرية أغارت بنو الحارث على ما فيها وأجمعوا على المسير إلى وادعة لإخراجه."
+  en: "When al-Hadi's verses reached Banu al-Harith they were deeply distressed and their affairs unsettled; Ibn Bustam wrote to Muhammad ibn Ubaydallah of his affection and pledge and kept writing to al-Hadi; after Abu Ja'far left the village, Banu al-Harith raided what was in it and agreed to march on Wadi'a to drive him out."
+  ur: "جب ہادی کے اشعار بنو حارث تک پہنچے تو وہ سخت غمگین ہوئے اور ان کے معاملات بگڑ گئے؛ ابن بسطام نے محمد بن عبید اللہ کو محبت اور عہد کا خط لکھا اور ہادی کو بھی لکھتا رہا؛ ابو جعفر کے بستی چھوڑنے کے بعد بنو حارث نے اس کے سامان پر چھاپہ مارا اور وادعہ پر چڑھائی کا ارادہ کیا تاکہ انہیں نکال دیں۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0905"
+    hijri: "0292"
+    calendar: julian
+    precision: year
+    status: tradition
+    derived: true
+    note: "سنة 292هـ؛ لا يذكر الكتاب يوماً ولا شهراً لهذه الأحداث وتُرتَّب بحسب سياق الرواية بعد حلف جمادى الأولى؛ التحويل مشتق"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abu-jafar-muhammad-ibn-ubaydallah-al-abbasi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abdullah-ibn-bustam
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ibn-humayd-of-banu-al-harith-286
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-al-harith-ibn-kab
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/yam-tribe
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/minas-najran
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص286 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: lib-sira-hadi-ila-al-haqq-33
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 286
