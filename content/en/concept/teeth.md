@@ -14,4 +14,4 @@ There are two central and two lateral incisors above and as many below for cutti
 The teeth have roots and pointed heads set in holes of the jawbones that carry them; on the edge of each hole a round projection grows around the tooth and holds it, and there are strong ligaments. Every tooth other than the molars has one root. A lower molar has at least two roots and sometimes three; an upper molar at least three and sometimes four. The molars have many roots because of their size and the extra work they do, and the upper ones have more because they hang {cite:canon-ibn-sina-print-v1 p.47}.
 
 ## Sensation
-Ibn Sina says no bone has sensation at all except the teeth, and reports Galen's view that experience shows they do feel, helped by a power that comes to them from the brain, so that they also tell hot from cold {cite:canon-ibn-sina-print-v1 p.47}.
+Ibn Sina says no bone has sensation at all except the teeth, and reports [[person/galen|Galen]]'s view that experience shows they do feel, helped by a power that comes to them from the brain, so that they also tell hot from cold {cite:canon-ibn-sina-print-v1 p.47}.

@@ -6,24 +6,24 @@ label:
 roles: [scholar, muqri]
 gender: male
 summary:
-  ar: "بطاقة أولية لزاهر بن أحمد السرخسي، فقيه ومقرئ ومحدث القرن العاشر، توفي سنة ٩٩٩م؛ تذكره معاجم الأعلام ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Zahir ibn Ahmad al-Sarakhsi, the tenth-century jurist, qari and muhaddith, d. 999; the biographical entry is not yet checked on the page."
+  ar: "زاهر بن أحمد بن محمد بن عيسى السرخسي، أبو علي، فقيه شافعي ومقرئ ومحدث خراسان وشيخ عصره فيها؛ توفي في ربيع الآخر سنة ٣٨٩هـ."
+  en: "Zahir ibn Ahmad ibn Muhammad ibn Isa al-Sarakhsi, Abu Ali, Shafi'i jurist, reciter and hadith scholar of Khurasan and the leading shaykh of his age there; he died in Rabi' al-Akhir 389 AH."
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/abbasid-fragmentation]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/siyar-alam-nubala-ideas-house]
 external_ids:
   wikidata: Q22688175
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0069
+  source: "al-Dhahabi, Siyar A'lam al-Nubala, one-volume edition (Bayt al-Afkar al-Dawliyya), entry read in full on the scanned pages (Apple Vision OCR on the harvest drive); the web page of the Risala edition on shamela.ws (book 10906) was used to confirm the work and its volume layout"
+  generated_by: "Claude Code (Lane B2, web-source and Shamela enrichment)"
+  model: claude-sonnet-5-5
+  run: web-b2-siyar-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
 born: { edtf: "906", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala (al-Dhahabi)" }
-died: { edtf: "1000", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala (al-Dhahabi)" }
+died: { edtf: "999", calendar: gregorian, precision: year, derived: true, note: "Siyar A'lam al-Nubala (al-Dhahabi), p. 1706: d. Rabi' al-Akhir 389 AH" }
 relations:
   - { type: lived_in, target: place/sarakhs, confidence: low, note: "Association inferred from the nisba 'السرخسي'; specific birthplace or residence is not individually documented.", sources: [source/al-aalam] }
