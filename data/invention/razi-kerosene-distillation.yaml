@@ -1,0 +1,109 @@
+id: invention/razi-kerosene-distillation
+class: invention
+label:
+  ar: "تقطير النفط إلى قطران أبيض عند الرازي"
+  en: "Al-Razi's distillation of petroleum into white naft"
+  ur: "رازی کی نفت کو سفید قطر میں آمیزش"
+names:
+  - { value: "kerosene distillation of al-Razi", kind: alternate, lang: en }
+  - { value: "naft distillation", kind: alternate, lang: en }
+summary:
+  ar: "يصف الرازي في «كتاب الأسرار» عملية تقطير النفط الخام في أوانٍ فخارية حتى ينتج «النفط الأبيض» — وقود صافٍ يشبه الكيروسين — وهي أقدم وصف مكتوب معروف لإنتاج مادة تشبه الكيروسين بالتقطير في المصادر المقروءة."
+  en: "In Kitab al-Asrar al-Razi describes distilling crude petroleum in clay vessels to produce 'white naft' — a clear fuel resembling kerosene — the earliest known written account of producing a kerosene-like substance by distillation in the sources read."
+  ur: "رازی «کتاب الاسرار» میں خام نفت کو مٹی کے برتنوں میں آمیزش کر کے «سفید نفت» پیدا کرنے کی صفت بیان کرتے ہیں — ایک صاف ایندھن جو مٹی کے تیل جیسا ہے — پڑھے گئے ماخذوں میں مٹی کے تیل جیسی مادہ بنانے کی قدیم ترین لکھی ہوئی صفت۔"
+domain: pharmacy-chemistry
+kind: process
+disciplines: [chemistry]
+wings: [ideas]
+regions: [persia-central-asia]
+periods: [period/abbasid-fragmentation]
+themes: [chemistry-and-alchemy]
+era:
+  origins: abbasid-golden
+  first_attested:
+    edtf: "0910~"
+    hijri: "0298~"
+    calendar: julian
+    precision: century
+    status: historical
+    note: "Kitab al-Asrar dates to al-Razi's lifetime (d. 925 CE); Bilkadi's Saudi Aramco World survey of oil in Islamic lands identifies this distillation account as the early description of kerosene production {cite:aramco-bilkadi-oil-weapons-1995}."
+    sources: [source/aramco-bilkadi-oil-weapons-1995]
+  status_today: transformed
+origin:
+  place: place/rayy
+  context:
+    ar: "الري وبغداد، حيث عمل الرازي طبيباً وكيميائياً ودبّج كتب العلوم العملية."
+    en: "Rayy and Baghdad, where al-Razi worked as physician and chemist writing the practical-science books."
+    ur: "ری اور بغداد، جہاں رازی طبیب اور کیمیا دان کے طور پر عملی علوم کی کتابیں لکھتے تھے۔"
+makers:
+  - person: person/al-razi-abu-bakr
+    role: describer
+    note: "Recorder of the process in Kitab al-Asrar; whether he devised the distillation himself or documented existing refinery practice is not settled in the sources read."
+    sources: [source/aramco-bilkadi-oil-weapons-1995]
+attribution:
+  status: original
+  claim:
+    ar: "أقدم وصف مكتوب معروف لتحويل النفط الخام إلى «نفط أبيض» بالتقطير — ما يعادل تقريباً إنتاج الكيروسين — مع التحفظ بأن الوصف قد يسجّل ممارسة قائمة لا اختراعاً جديداً."
+    en: "The earliest known written description of turning crude petroleum into 'white naft' by distillation — roughly the production of kerosene — with the caveat that the description may record existing refinery practice rather than a fresh invention."
+    ur: "خام نفت کو آمیزش سے «سفید نفت» میں بدلنے کی قدیم ترین معلوم لکھی صفت — تقریباً مٹی کے تیل کی پیداوار — اس تحفظ کے ساتھ کہ یہ صفت شاید موجود عمل کو درج کرتی ہے نہ کہ نئی ایجاد۔"
+  basis:
+    ar: "يذكر بلكادي في مجلة أرامكو أن كتاب الأسرار للرازي يصف تقطير النفط في أوان فخارية حتى ينتج النفط الأبيض، ويعتبر ذلك الوصف الأول المعروف لإنتاج الكيروسين {cite:aramco-bilkadi-oil-weapons-1995}."
+    en: "Bilkadi in Saudi Aramco World notes that al-Razi's Kitab al-Asrar describes distilling petroleum in clay vessels until white naft is produced, and treats it as the first known description of kerosene production {cite:aramco-bilkadi-oil-weapons-1995}."
+    ur: "ارامکو ورلڈ میں بلقادی بتاتے ہیں کہ رازی کا کتاب الاسرار مٹی کے برتنوں میں نفت کی آمیزش بیان کرتی ہے یہاں تک کہ سفید نفت بنے، اور اسے مٹی کے تیل کی پیداوار کی پہلی معلوم صفت سمجھتے ہیں {cite:aramco-bilkadi-oil-weapons-1995}۔"
+precursors:
+  - external:
+      ar: "استعمال النفط الخام والقار في دواء قديم وحرب، قبل التقطير."
+      en: "Use of crude petroleum and bitumen in ancient medicine and war, before distillation."
+      ur: "آمیزش سے پہلے قدیم دوائی اور جنگ میں خام نفت اور رال کا استعمال۔"
+    note: "The Aramco survey places oil use in the region well before Islam; al-Razi's step is refinement, not first use {cite:aramco-bilkadi-oil-weapons-1995}."
+    sources: [source/aramco-bilkadi-oil-weapons-1995]
+dependents:
+  - external:
+      ar: "صناعة الكيروسين الحديثة في القرن التاسع عشر، كمسار مستقل لا كتقنية منقولة مباشرة."
+      en: "The nineteenth-century kerosene industry, as an independent path rather than a directly transmitted technique."
+      ur: "انیسویں صدی کی مٹی کے تیل کی صنعت، ایک آزاد راستہ نہ کہ براہ راست منقولہ تکنیک۔"
+    note: "No direct transmission line to the modern industry is claimed; the record notes historical priority only."
+    sources: [source/aramco-bilkadi-oil-weapons-1995]
+spread: []
+impact:
+  fields: [pharmacy-chemistry, materials-industry]
+  changed:
+    ar: "حوّل النفط من مادة خام ذات استعمالات محدودة إلى وقود منقّى يمكن تخزينه وتوزيعه."
+    en: "Turned petroleum from a crude material of limited uses into a refined fuel that could be stored and distributed."
+    ur: "نفت کو محدود استعمال کی خام مادہ سے ایک صاف شدہ ایندھن میں بدل دیا جو ذخیرہ اور تقسیم کیا جا سکتا تھا۔"
+  history:
+    ar: "أقدم نص مقروء يسجل تقنية صار لاحقاً أساس صناعة عالمية — تكرير النفط."
+    en: "The earliest text read that records a technique later at the base of a global industry — petroleum refining."
+    ur: "قدیم ترین متن جو ایسی تکنیک درج کرتا ہے جو بعد میں عالمی صنعت کی بنیاد بنا — نفت کی صفائی۔"
+  significance: 4
+  why: "An early documented refining step on the path to kerosene and the modern petroleum industry; significance is historical, not a claim of direct descent."
+described_in: [work/kitab-al-asrar]
+examples: []
+sites: [place/rayy]
+concepts: []
+today:
+  form:
+    ar: "تطورت التقنية إلى أبراج التقطير العملاقة في المصافي الحديثة؛ مبدأ الفصل بالتبخير والتكثيف هو نفسه."
+    en: "The technique grew into the vast distillation towers of modern refineries; the principle of separation by vaporisation and condensation is the same."
+    ur: "یہ تکنیک جدید ریفائنریوں کے عظیم آمیزشی میناروں میں بدل گئی؛ بخارات اور تکثیف سے الگ کرنے کا اصول وہی ہے۔"
+  descendants:
+    ar: "صناعة تكرير النفط والكيروسين والبنزين والديزل — سلسلة كاملة بدأت من مبدأ التقطير نفسه."
+    en: "The petroleum-refining industry and kerosene, petrol and diesel — a whole chain grown from the same distillation principle."
+    ur: "نفت صفائی کی صنعت اور مٹی کا تیل، پٹرول اور ڈیزل — پوری زنجیر اسی آمیزش کے اصول سے بڑی۔"
+media:
+  image: media/kindi-pharmacy-jar-context
+  diagram: media/diagram-razi-kerosene-distillation
+kids:
+  ar: "قبل أكثر من ألف سنة كتب الرازي وصفة لصنع وقود صاف من النفط الأسود: غليّه في إناء فخاري وجمع ما يتبخر فيتحول إلى نفط أبيض صاف. هذا هو المبدأ نفسه الذي تصنع به مصافي النفط اليوم البنزين والكيروسين."
+  en: "More than a thousand years ago al-Razi wrote a recipe for making a clean fuel from black petroleum: boil it in a clay vessel and collect what evaporates so it becomes clear white naft. That is the very principle today's refineries use to make petrol and kerosene."
+  ur: "ہزار سے زیادہ برس پہلے رازی نے سیاہ نفت سے صاف ایندھن بنانے کی ترکیب لکھی: مٹی کے برتن میں ابالو اور جو بخار اٹھے اسے جمع کرو یہاں تک کہ صاف سفید نفت بن جائے۔ یہی اصول آج کی ریفائنریاں پٹرول اور مٹی کے تیل بنانے میں استعمال کرتی ہیں۔"
+sources:
+  - source/aramco-bilkadi-oil-weapons-1995
+  - source/encyclopaedia-of-islam-2
+status: { review: published, completeness: 2 }
+provenance:
+  layer: own-research
+  generated_by: devin-drafter-w2-21
+  model: SWE-2
+  run: inventions-w2-21
+  source: "Bilkadi, Saudi Aramco World 1995 oil-weapons survey, read 2026-11-16; EI2 for al-Razi context"

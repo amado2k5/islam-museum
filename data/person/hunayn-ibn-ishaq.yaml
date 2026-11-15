@@ -8,6 +8,11 @@ gender: male
 wings: [people]
 born: { edtf: "808", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Qifti (Tarikh al-Hukama)" }
 died: { edtf: "873", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Qifti (Tarikh al-Hukama)" }
+faith:
+  - value: christian
+    basis: documented
+    note: "Nestorian Christian of al-Hira, physician and translator in Abbasid Baghdad; his Christian identity is standard in the biographical literature (EI2) and consistent with the Syriac-Arabic translation milieu his sources describe."
+    sources: [source/encyclopaedia-of-islam-2, source/wellcome-hunayn-ten-treatises-eye-1928]
 relations:
   - { type: lived_in, target: place/rayy, confidence: low, note: "Associated with الري per the record's own text; relation type pending review.", sources: [source/muruj-al-dhahab] }
 provenance:
