@@ -1,0 +1,202 @@
+id: invention/al-aqalim-al-saba
+class: invention
+label:
+  ar: "الأقاليم السبعة"
+  en: "The seven climates"
+  ur: "سات اقلیمی خطے"
+names:
+  - { value: "al-aqalim al-saba'", kind: alternate, lang: ar }
+  - { value: "the seven iqlim", kind: alternate, lang: en }
+  - { value: "aqalim", kind: alternate, lang: ar }
+summary:
+  ar: "نظام جغرافي فلكي ورثته العلوم الإسلامية عن التقليد البطلمي، قسّم المعمورة إلى سبعة أقاليم يعادل كل منها أقصى طول للنهار
+    وبعد القطب عن الأفق، وقرن كل إقليم ببرج أو كوكب؛ دوّنه الفرغاني في فصليه الثامن والتاسع من «الجوامع في علم النجوم» قبل سنة
+    ٨٥٧م {cite:farghani-elements-astronomy pp. 92–100}، وعرضه المسعودي في «مروج الذهب» بقائمة الأقاليم وبروجها وكواكبها ومدّ الاستيطان {cite:muruj-al-dhahab pp. 519–522}."
+  en: "A geographical-astronomical system the Islamic sciences inherited from the Ptolemaic tradition, dividing the inhabited
+    quarter into seven climates each fixed by its longest day and pole height and paired with a zodiac sign and planet;
+    al-Farghani recorded it in the eighth and ninth chapters of his 'Jawami' 'ilm al-nujum' before 857 CE {cite:farghani-elements-astronomy
+    pp. 92–100}, and al-Mas'udi expounded it in Muruj al-Dhahab with the list of climates, their signs, planets and the
+    bounds of settlement {cite:muruj-al-dhahab pp. 519–522}."
+  ur: "ایک جغرافیائی فلکیاتی نظام جو اسلامی علوم نے بطلمیوسی روایت سے پایا، جس نے آباد любит کو سات اقلیمی خطوں میں تقسیم
+    کیا — ہر ایک کی حد اس کے طویل ترین دن اور قطب کی بلندی سے مقرر ہے اور ہر خطے کا جوڑا ایک برج اور سیارہ ہے؛ الفرغانی نے اسے اپنی
+    کتاب «الجوامع في علم النجوم» کے آٹھویں اور نویں ابواب میں 857ء سے پہلے لکھا {cite:farghani-elements-astronomy pp. 92–100}، اور
+    المسعودی نے «مروج الذهب» میں اقلیمی خطوں، ان کے بروج اور سیاروں اور آباد کاری کی حدود کے ساتھ پیش کیا {cite:muruj-al-dhahab
+    pp. 519–522}۔"
+domain: navigation-geography
+kind: concept
+disciplines: [geography, astronomy]
+wings: [ideas]
+regions: [global]
+periods: [period/abbasid-early]
+themes: [geography-and-cartography, astronomy-and-timekeeping]
+era:
+  origins: abbasid-golden
+  first_attested:
+    edtf: "0850~"
+    calendar: julian
+    precision: century
+    status: historical
+    note: "Al-Farghani's Elements of Astronomy, written before 857 CE per the edition read, already divides the inhabited
+      quarter into seven climates bounded by longest-day length and pole height and lists the countries of each {cite:farghani-elements-astronomy
+      pp. 92–100}; al-Mas'udi's Muruj al-Dhahab gives the full list with zodiac and planetary assignments {cite:muruj-al-dhahab
+      pp. 519–522}. The scheme itself is inherited and older; this is the earliest attestation inside the sources read, not
+      an invention date."
+    sources: [source/farghani-elements-astronomy, source/muruj-al-dhahab]
+  status_today: transformed
+origin:
+  place: place/baghdad
+  polity: polity/abbasid-caliphate
+  context:
+    ar: "دوّن الفرغاني نظام الأقاليم السبعة في «الجوامع في علم النجوم»، كتاب المنهج الفلكي العباسي الذي قرئ في حاضرة الخلافة
+      العباسية ومدارسها {cite:farghani-elements-astronomy pp. 92–100}؛ وعرض المسعودي النظام نفسه في مروج الذهب باعتباره بنية
+      معروفة لوصف المعمورة {cite:muruj-al-dhahab pp. 519–522}."
+    en: "Al-Farghani recorded the seven-climates scheme in the Jawami', the Abbasid astronomical curriculum read in the
+      caliphal capital's scholarly world {cite:farghani-elements-astronomy pp. 92–100}; al-Mas'udi presented the same scheme
+      in Muruj al-Dhahab as the received frame for describing the inhabited world {cite:muruj-al-dhahab pp. 519–522}."
+    ur: "الفرغانی نے سات اقلیمی خطوں کا نظام «الجوامع» میں لکھا — وہ عباسی فلکیاتی نصاب جو دار الخلافہ کے علمی ماحول میں پڑھا
+      جاتا تھا {cite:farghani-elements-astronomy pp. 92–100}؛ اور المسعودی نے «مروج الذهب» میں اسی نظام کو آباد دنیا بیان کرنے کے
+      موروث ڈھانچے کے طور پر پیش کیا {cite:muruj-al-dhahab pp. 519–522}۔"
+makers:
+  - person: person/al-farghani
+    role: describer
+    place: place/baghdad
+    note: "Al-Farghani's eighth chapter divides the inhabited quarter into seven climates bounded by longest-day length and
+      pole height, and the ninth lists the countries of each climate {cite:farghani-elements-astronomy pp. 92–100}; he
+      systematised a received scheme inside the hay'a curriculum, not invented it."
+    sources: [source/farghani-elements-astronomy, source/tdv-fergani-kaya]
+  - person: person/al-masudi
+    role: describer
+    note: "Al-Mas'udi's Muruj al-Dhahab lists the seven climates with their zodiac signs, ruling planets and contents, discusses
+      the settlement bound beyond the equator and calls the middle climate his homeland {cite:muruj-al-dhahab pp. 519–522};
+      a systematic exposition of the received scheme, not its originator."
+    sources: [source/muruj-al-dhahab]
+attribution:
+  status: transmission
+  claim:
+    ar: "تقسيم الأقاليم السبعة نظام جغرافي فلكي أقدم من الإسلام، يصل مباشرة إلى التقاليد البطلمية؛ المساهمة الموثقة في المصادر
+      المقروءة أن الفرغاني والمسعودي نظّما هذا النظام في العربية ونقلواه إلى كتب الفلك والجغرافيا المدرسية، لا أن أحدهما اخترعه."
+    en: "The seven-climates division is a pre-Islamic geographical-astronomical scheme reaching directly into the Ptolemaic
+      traditions; the documented Muslim contribution in the sources read is that al-Farghani and al-Mas'udi systematised
+      and transmitted it in Arabic through the schoolbooks of astronomy and geography — neither invented it."
+    ur: "سات اقلیمی خطوں کی تقسیم اسلام سے پہلے کا جغرافیائی فلکیاتی نظام ہے جو براہ راست بطلمیوسی روایت سے جڑی ہے؛ پڑھے گئے
+      ماخذوں میں مستند حصہ یہ ہے کہ الفرغانی اور المسعودی نے اسے عربی میں منظم کیا اور فلکیات و جغرافیہ کی کتابوں کے ذریعے
+      منتقل کیا — کسی ایک نے ایجاد نہیں کی۔"
+  basis:
+    ar: "يعرض الفرغاني في الفصل الثامن تقسيم المعمورة إلى سبعة أقاليم محدودة بأطول النهار وارتفاع القطب، ويعدّد في الفصل التاسع
+      بلدان كل إقليم {cite:farghani-elements-astronomy pp. 92–100}. ويعرض المسعودي في مروج الذهب قائمة الأقاليم السبعة مع
+      أبراجها وكواكبها ومقالاته عن بطلميوس وكتاب الجغرافيا، فيقرّ بقدمي النظام {cite:muruj-al-dhahab pp. 519–522} {cite:muruj-al-dhahab
+      p. 750–751}."
+    en: "Al-Farghani's eighth chapter divides the inhabited quarter into seven climates bounded by longest-day length and
+      pole height, and the ninth lists each climate's countries {cite:farghani-elements-astronomy pp. 92–100}. Al-Mas'udi
+      gives the seven-climates list with their signs and planets while discussing Ptolemy's Geography, acknowledging the
+      scheme's antiquity {cite:muruj-al-dhahab pp. 519–522} {cite:muruj-al-dhahab p. 750–751}."
+    ur: "الفرغانی کا آٹھواں باب آباد دنیا کو سات اقلیمی خطوں میں تقسیم کرتا ہے جن کی حدیں طویل ترین دن کی طوالت اور قطب کی
+      بلندی سے ہیں، اور نواں باب ہر خطے کے ممالک گنتا ہے {cite:farghani-elements-astronomy pp. 92–100}۔ المسعودی «مروج الذهب»
+      میں بروج اور سیاروں کے ساتھ سات اقلیمی خطوں کی فہرست دیتا ہے اور بطلميوس کی «جغرافیہ» کا ذکر کرتے ہوئے نظام کی قدامت
+      تسلیم کرتا ہے {cite:muruj-al-dhahab pp. 519–522} {cite:muruj-al-dhahab p. 750–751}۔"
+precursors:
+  - external:
+      ar: "نظام المناخ في علم الفلك البطلمي — تقسيم المعمورة إلى أقاليم محدودة بارتفاع الشمس وأطول النهار، وهو الإطار الذي
+        ورثه مؤلفو الجوامع."
+      en: "The climate system of Ptolemaic astronomy — the division of the inhabited world into zones bounded by solar altitude
+        and day length, the frame the Jawami' authors inherited."
+      ur: "بطلمیوسی فلکیات کا اقلیمی نظام — آباد دنیا کی خطوں میں تقسیم جو سورج کی بلندی اور دن کی طوالت سے محدود ہے، وہی
+        ڈھانچہ جو الجوامع کے مصنفین کو ملا۔"
+    note: "Al-Mas'udi discusses Ptolemy's Geography at length within Muruj al-Dhahab and measures the Earth through the
+      caliphal observation programme, treating the seven-climates frame as received ancient science {cite:muruj-al-dhahab
+      pp. 519–522}."
+    sources: [source/muruj-al-dhahab, source/farghani-elements-astronomy]
+dependents:
+  - external:
+      ar: "تقسيم المقدسي البديل للمعمورة إلى أربعة عشر إقليماً في «أحسن التقاسيم»، وهو تفرّع موثق عن الإطار السباعي في
+        الجغرافيا العربية."
+      en: "Al-Muqaddasi's alternative division of the inhabited world into fourteen regions in Ahsan al-Taqasim — a documented
+        offshoot of the seven-zone frame in Arabic geography."
+      ur: "مقدسی کی «احسن التقاسیم» میں آباد دنیا کی ایک متبادل چودہ خطوں کی تقسیم — عربی جغرافیہ میں سات خانے دار ڈھانچے کی
+        ایک مستند شاخ۔"
+    note: "Concept record concept/aqalim-al-muqaddasi exists for this variant; the seven-climates frame is the documented
+      parent tradition {cite:ahsan-al-taqasim} {cite:farghani-elements-astronomy pp. 92–100}."
+    sources: [source/ahsan-al-taqasim, source/farghani-elements-astronomy]
+  - external:
+      ar: "خرائط الإدريسي للعالم في نزهة المشتاق، التي نظّمت العالم المعروف في أقاليمها السبعة وربطتها بخريطة روجيه لروجر
+        لسنة ١١٥٤م."
+      en: "al-Idrisi's world maps in Nuzhat al-mushtaq, which organised the known world into its seven climates and fed the
+        1154 Rogerian map tradition."
+      ur: "ادریسی کی «نزهة المشتاق» میں دنیا کے نقشے جنہوں نے معلوم دنیا کو اس کے سات اقلیمی خطوں میں منظم کیا اور 1154ء کے
+        روجرین نقشے کی روایت کو بنیاد دی۔"
+    note: "The Bodleian's survey of medieval Islamic world maps records al-Idrisi's manuscripts organised by the seven
+      climates {cite:bodleian-idrisi-maps}; the surviving 1154 world map is in the public domain {cite:commons-idrisi-world-map}.
+      No map-matched spread entries are used per drafting addendum."
+    sources: [source/bodleian-idrisi-maps, source/commons-idrisi-world-map]
+spread: []
+impact:
+  fields: [navigation-geography]
+  changed:
+    ar: "أعطى المؤلفون المسلمين إطاراً موحداً لوصف العالم: كل إقليم له برجه وكوكبه وسكانه وموانئه، فصار وصف البلدان في
+      كتب الجغرافيا والفلك يتبع هذا القالب المتعارف."
+    en: "It gave Muslim authors a unified frame for describing the world: each climate had its zodiac sign, planet, peoples
+      and coasts, so descriptions of countries in geography and astronomy books followed this shared template."
+    ur: "اس نے مسلمان مصنفین کو دنیا بیان کرنے کا ایک متحد ڈھانچہ دیا: ہر خطے کا اپنا برج، سیارہ، اقوام اور ساحل تھے، اس لیے
+      جغرافیہ و فلکیات کی کتابوں میں ممالک کا بیان اسی مشترکہ سانچے پر چلا۔"
+  history:
+    ar: "ثبّت التقسيم السباعي في المنهج الفلكي والجغرافي العباسي، فدوّنه الفرغاني في فصول الجوامع وعرضه المسعودي في مروج الذهب،
+      وصار مرجعاً للمسالك والممالك حتى عصر الخرائط الإرديسية."
+    en: "It fixed the sevenfold division in the Abbasid astronomical and geographical curriculum — recorded by al-Farghani in
+      the Jawami' chapters and expounded by al-Mas'udi in Muruj al-Dhahab — and remained the reference frame for itinerary
+      and kingdom literature until the Idrisi map age."
+    ur: "اس نے سات خانے والی تقسیم کو عباسی فلکیاتی و جغرافیائی نصاب میں مستقل کیا — الفرغانی نے الجوامع کے ابواب میں اور
+      المسعودی نے «مروج الذهب» میں پیش کی — اور عمارتوں و سلطنتوں کے ادب کے لیے ایڈریسی دور کے نقشوں تک مرجع ڈھانچہ رہا۔"
+  significance: 3
+  why: "A transmitted system rather than an invention, but one that structured how medieval Arabic and Persian writers
+    organised the whole inhabited world; the rating reflects documented transmission and use, not a Muslim originator."
+described_in: [work/muruj-al-dhahab, work/jawami-ilm-al-nujum]
+examples: []
+sites: [place/baghdad]
+concepts: [concept/al-aqalim-al-saba]
+today:
+  form:
+    ar: "لم يعد التقسيم السباعي يُستخدم اليوم في الجغرافيا المدرسية؛ لكنه محفوظ في طبعات الجوامع ومروج الذهب والمخطوطات
+      الإرديسية، ويُعرض في الخرائط القديمة للعالم الإسلامي."
+    en: "The sevenfold division is no longer used in school geography, but it survives in editions of the Jawami' and Muruj
+      al-Dhahab and in Idrisi manuscripts, displayed on old Islamic world maps."
+    ur: "سات خانے والی تقسیم آج اسکولی جغرافیہ میں استعمال نہیں ہوتی، لیکن یہ الجوامع اور مروج الذهب کے ایڈیشنز اور ادریسی
+      مخطوطوں میں محفوظ ہے اور پرانے اسلامی نقشوں پر دکھائی جاتی ہے۔"
+  descendants:
+    ar: "انحدرت منه تقاسيم جغرافية لاحقة كأقاليم المقدسي الأربعة عشر، وأصبحت الأقاليم السبعة قالباً لتنظيم خرائط الإدريسي
+      للعالم المعروف في القرن السادس الهجري."
+    en: "Later geographical divisions descend from it, such as al-Muqaddasi's fourteen regions, and the seven climates
+      became the organising template for al-Idrisi's maps of the known world in the sixth century AH."
+    ur: "اس سے بعد کی جغرافیائی تقسیمیں نکلیں جیسے مقدسی کے چودہ خطے، اور سات اقلیمی خطے چھٹی صدی ہجری میں ادریسی کے معلوم
+      دنیا کے نقشوں کو منظم کرنے کا سانچہ بنے۔"
+media:
+  image: media/idrisi-world-map-1154
+  diagram: media/diagram-al-aqalim-al-saba
+kids:
+  ar: "تخيّل أن الفلكيين القدامى قسموا العالم إلى سبعة أقاليم كبيرة، لكل منها برج في السماء وكوكب يحكمه — مثل خريطة سماء فوق
+    خريطة أرض. علّم الفرغاني هذا النظام في كتابه قبل أكثر من ألف ومئة سنة، وعرضه المسعودي في تاريخه، ثم استخدمه الخرائطيون
+    كالإدريسي ليضعوا للعالم خرائط."
+  en: "Imagine that ancient astronomers divided the world into seven great climates, each with a sign in the sky and a planet
+    ruling it — like a sky-map laid over a land-map. Al-Farghani taught this system in his book more than eleven hundred
+    years ago, al-Mas'udi set it out in his history, and mapmakers like al-Idrisi used it to draw maps of the world."
+  ur: "سوچو کہ پرانے فلکیات دانوں نے دنیا کو سات بڑے اقلیمی خطوں میں تقسیم کیا، ہر ایک کا آسمان پر ایک برج اور ایک سیارہ
+    حاکم — جیسے زمین کے نقشے پر آسمان کا نقشہ چڑھا ہوا ہو۔ الفرغانی نے یہ نظام اپنی کتاب میں گیارہ سو سال سے زیادہ پہلے لکھا،
+    المسعودی نے اپنی تاریخ میں پیش کیا، اور ادریسی جیسے نقشہ سازوں نے اسے دنیا کے نقشے بنانے کے لیے استعمال کیا۔"
+sources:
+  - source/farghani-elements-astronomy
+  - source/muruj-al-dhahab
+  - source/ahsan-al-taqasim
+  - source/bodleian-idrisi-maps
+  - source/commons-idrisi-world-map
+status:
+  review: published
+  completeness: 3
+  generated_by: devin-drafter-w2-16
+provenance:
+  layer: own-research
+  generated_by: devin-drafter-w2-16
+  model: devin
+  run: inventions-w2-16
+  source: "Farghani Golius OCR pp. 92-100 ⁦(chapters 8-9, seven climates and their countries⁩; Muruj al-Dhahab OCR printed
+    pp. 519-522 ⁦(seven climates list, zodiac and planetary assignments, settlement bound⁩; Ahsan al-Taqasim concept record
+    for the al-Muqaddasi variant; Bodleian blog on Idrisi's seven-climate maps; Commons al-Idrisi 1154 world map file page.
+    Drafting addendum 2026-11-15: spread: []."

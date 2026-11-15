@@ -7,14 +7,23 @@ summary:
 gender: male
 wings: [people]
 periods: [period/buyid-seljuk-fatimid-era]
+faith:
+  - value: sunni
+    basis: tradition
+    note: "Muslim identity is the museum's default frame for a documented tenth-century scholar whose Muruj al-Dhahab is framed throughout by Qur'anic citation, hadith and the history of the prophets and nations; Encyclopaedia of Islam II treats him as a Muslim historian of the Buyid era. No personal madhhab is attested in the sources read; Sunni is recorded as the default frame, not a school declaration, and no contrary tradition is documented."
+    sources: [source/muruj-al-dhahab, source/encyclopaedia-of-islam-2]
+inventions:
+  - { invention: invention/al-aqalim-al-saba, role: describer, note: "Muruj al-Dhahab lists the seven climates with their zodiac signs, ruling planets and contents, discusses the settlement bound beyond the equator and calls the middle climate his homeland; systematic exposition of a received scheme, not its originator.", sources: [source/muruj-al-dhahab] }
 provenance:
   layer: own-research
   source: "المسعودي، مروج الذهب وأهل المعاجن"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch35
+  extensions:
+    - { generated_by: "devin-drafter-w2-16", model: "devin", run: "inventions-w2-16", source: "Added a sourced Sunni faith block ⁦(basis: tradition; Islamic framing of Muruj al-Dhahab and EI2's Muslim-historian treatment⁩ required for his describer role on invention/al-aqalim-al-saba, and the describer invention tie, after reading the Muruj OCR printed pp. 519-522 and 750-751 on 2026-11-15; earlier provenance, dates and relations preserved." }
 external_ids: { wikidata: Q168705 }
-sources: [source/muruj-al-dhahab, source/wikidata-al-masudi]
+sources: [source/muruj-al-dhahab, source/wikidata-al-masudi, source/encyclopaedia-of-islam-2]
 importance: 2
 status:
   review: published
@@ -22,4 +31,4 @@ status:
 born: { edtf: "896~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Mas'udi' / Ch. Pellat; d. 345 AH)" }
 died: { edtf: "956", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Mas'udi' / Ch. Pellat; d. 345 AH)" }
 relations:
-  - { type: lived_in, target: place/baghdad, note: "Place association from the person's nisba/name (البغدادي); denotes association, not proven residence.", sources: [source/muruj-al-dhahab], confidence: low }
+  - { type: lived_in, target: place/baghdad, note: "Place association from the person's nisba/name ⁦(البغدادي)⁩; denotes association, not proven residence.", sources: [source/muruj-al-dhahab], confidence: low }

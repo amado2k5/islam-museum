@@ -1,0 +1,30 @@
+id: media/diagram-femtochemistry
+class: media
+kind: illustration
+label:
+  ar: "سلسلة طريقة النبض المضخة والكاشفة"
+  en: "The pump-probe method chain"
+  ur: "پمپ-پروب طریقے کا سلسلہ"
+summary:
+  ar: "سلسلة تعليمية تبين كيف يضرب نبض المضخة الجزيء ليبدأ التفاعل، ثم يفحصه نبض الكاشفة بعد فاصل زمني متغير؛ لا تمثل تجربة تاريخية واحدة."
+  en: "A teaching chain showing how the pump pulse strikes the molecule to start the reaction, then the probe pulse examines it after a variable delay; it does not depict one historical experiment."
+  ur: "تدریسی سلسلہ جو دکھاتا ہے کہ پمپ پلس سالمہ کو ردعمل شروع کرنے کے لیے مارتا ہے، پھر پروب پلس متغیر وقفے کے بعد اسے جانچتا ہے؛ یہ کسی ایک تاریخی تجربے کی تصویر نہیں۔"
+license: CC0
+creator: "islam.museum"
+depicts: [invention/femtochemistry]
+alt:
+  ar: "شعاعان ليزريان: نبض مضخة قوي يثير الجزيء، ثم نبض كاشفة أضعف يتأخر عن الأول بفاصل قابل للضبط، فيسجل طيف الجزيء الأصلي أو المتحول."
+  en: "Two laser beams: a strong pump pulse excites the molecule, then a weaker probe pulse delayed by an adjustable interval records the spectrum of the original or transformed molecule."
+  ur: "دو لیزر شعاعیں: مضبوط پمپ پلس سالمہ کو جگاتی ہے، پھر کمزور پروب پلس پہلے سے متغیر وقفے کے بعد آتی ہے اور اصل یا بدلے ہوئے سالمے کا طیف ریکارڈ کرتی ہے۔"
+generated:
+  tool: "site/src/components/InventionDiagram.astro (generic chain drawn at build time)"
+  version: "1"
+  date: "2026-11-15"
+sources: [source/nobelprize-chemistry-1999-press-release]
+status: { review: published, completeness: 2, generated_by: "Devin drafter w2-13" }
+provenance:
+  layer: own-research
+  generated_by: "Devin drafter w2-13"
+  model: "devin"
+  run: "inventions-w2-13"
+  source: "Generic relationship diagram for the pump-probe method as described in the 1999 Nobel press release; not a reconstruction of Zewail's actual apparatus."
