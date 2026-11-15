@@ -15,7 +15,8 @@ died: { edtf: "554", calendar: gregorian, precision: year, derived: true, note: 
 relations:
   - { type: ruler_of, target: place/al-hira, note: "From text: ملك الحيرة", sources: [source/kamil-ibn-al-athir], confidence: low }
   - { type: related_to, target: group/kinda, sources: [source/kamil-ibn-al-athir] }
-sources: [source/kamil-ibn-al-athir]
+external_ids: { wikidata: Q220605 }
+sources: [source/kamil-ibn-al-athir, source/wikidata-al-mundhir-ibn-imri-al-qays]
 provenance:
   layer: own-research
   source: "الكامل في التاريخ لابن الأثير — أيام العرب، ص412"

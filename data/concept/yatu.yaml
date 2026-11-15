@@ -1,0 +1,23 @@
+id: concept/yatu
+class: concept
+kind: natural
+label:
+  ar: "يتّوع"
+  en: "Yatu' (the milky spurges)"
+  ur: "یتوع ⁦(دودھیا پودے)⁩"
+summary:
+  ar: "كل نبات له لبن حاد مسهّل مقطّع محرق؛ والمشهور منه سبعة، وأقواها لبنه، وهو مقرّح قتّال، يذكر الكتاب فوائده في إزالة الشعر والثآليل والكلف والبواسير ولا يُنقل فيه المقدار."
+  en: "Any plant with a sharp, purgative, cutting, burning milk. The book names seven well-known kinds; the milk is the strongest part and is ulcerating and deadly. Its uses named include removing hair, warts and piles, with the amounts left out."
+  ur: "ہر وہ پودا جس کا دودھ تیز، اسہال آور، کاٹنے والا اور جلانے والا ہو۔ کتاب سات مشہور اقسام بتاتی ہے؛ دودھ سب سے قوی حصہ ہے اور زخم کرنے والا اور جان لیوا ہے۔ اس کے فوائد میں بال، مسے اور بواسیر کا ذکر ہے، مقداریں نقل نہیں کی گئیں۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, scan pages 512 to 514, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, semen and desire reports kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), lane A4"
+  model: claude-haiku-5-5
+  run: a4-canon-book2-14
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (book mining, lane A4)" }

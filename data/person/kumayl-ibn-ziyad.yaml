@@ -13,7 +13,8 @@ relations:
   - { type: lived_in, target: place/kufa, confidence: low, note: "Companion of Ali at Kufa per the record's own text.", sources: [source/sallabi-ali-vol1] }
   - { type: participated_in, target: event/ali-counsel-to-kumayl, role: "المخاطَب في الوصية", sources: [source/sallabi-ali-vol1] }
   - {confidence: low, note: Associated with مرو per the record's own text; relation type pending review., sources: [source/muruj-al-dhahab], target: place/merv, type: lived_in}
-sources: [source/sallabi-ali-vol1, source/muruj-al-dhahab]
+external_ids: { wikidata: Q1112952 }
+sources: [source/sallabi-ali-vol1, source/muruj-al-dhahab, source/wikidata-kumayl-ibn-ziyad]
 provenance: { layer: own-research, source: "sallabi-ali-vol1 pp. 201-202", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "sallabi-ali-vol1-deep-pp201-250" }
 status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); mined from sallabi-ali-vol1 pp. 201-202" }
 names:
