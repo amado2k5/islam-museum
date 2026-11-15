@@ -21,8 +21,11 @@ open a new block on top with the new version and today's date.
 - `/api/v1/cosmos.json`, documented in the OpenAPI file, `docs/data/README.md` and `llms.txt`; the plan (`docs/plan/59-cosmos-browser.md`) and the acceptance spec with the founder's request verbatim (`docs/engineering/51-cosmos-browser-requirements.md`) are written so a later agent can validate the feature in production.
 ### Changed
 - 29 existing records (Gog and Magog, the Cave, the Trench, the Throne, Footstool, Tablet, Pen and Lote-tree, the seven heavens, `ghayb`, the Isra' and Mi'raj, 'Ad, Thamud, Saba', Iram, al-Hijr, Hud, Salih, the Two-Horned, the jinn and the celestial-body records) carry the `cosmos-browser` tags; nothing else in them changed.
+### Fixed
+- **In the 3D tour, the passing notice and the journey card no longer land on the top buttons or on the hall's name.** Both were drawn at a fixed height from the top of the screen, chosen for one row of top buttons. On screens where the buttons wrap into more rows, the notice ("The tour seems slow on this device") was drawn over buttons, and since the previous fix moved the hall's name under the buttons, the notice and the card covered that name while they showed. On screens up to 900 px wide both are now placed from the hall's name, a little under it, however many rows of buttons there are, and the card is kept inside the screen on short screens such as a phone held sideways. Wider than 900 px nothing changes. Checked on a sample build with an automated browser on one computer, at every width from 320 to 1280 px and at 17 phone and tablet screen sizes, in English, Arabic and Urdu, in the Grand Hall, a gallery and a time journey; not checked on a real phone.
 ### Tests
 - `features-api.test.ts` asserts the new export: reviewed verses in, unlisted verses out, and ordinary uses of «عاد» and «سد» not mistaken for the topic.
+- The 3D tour's test file now fails if the notice or the journey card is given a fixed height again on screens where the top buttons can wrap.
 ### Data
 - All new prose is draft until a human reads it; page numbers of the mined passages are OCR page markers, which can differ from printed pages. Nothing is live until the founder deploys.
 

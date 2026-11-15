@@ -626,23 +626,30 @@ body.touch #tour3d-root #hint { bottom: 214px; }
   font-size: 1.1rem; font-weight: 800; cursor: pointer; line-height: 1;
 }
 #tour3d-root[data-look="day"] #journeyCard .j-dismiss { background: #fffaf0; color: #5a3d0c; border-color: #a8741a; }
-/* Small screens: the card sits at the bottom so it never covers the scene's
-   centre, and the dismiss + back controls stay in thumb reach. */
-@media (max-width: 480px) {
-  #tour3d-root #journeyCard {
-    top: auto; bottom: 150px; max-height: 40vh;
-    transform: translateX(50%) translateY(12px);
-  }
-  #tour3d-root #journeyCard.show { transform: translateX(50%) translateY(0); }
-  #tour3d-root #toast { top: 140px; }
-}
 /* Where the top buttons can wrap (one to four rows, by width, language and
    scene; measured up to 774px wide), the bar takes its place in the flow and
    the location line, with no fixed top, sits 4px under the last row of
-   buttons, however many rows there are. Wider than this nothing changes. */
+   buttons, however many rows there are. The toast and the journey card follow
+   the line: tour.ts keeps its lower edge in --under-loc, and they stay 16px
+   under it; the card is also kept inside the screen. Wider than this nothing
+   changes. */
 @media (max-width: 900px) {
   #tour3d-root #topbar { position: relative; }
   #tour3d-root #loc { top: auto; margin-top: -8px; }
+  #tour3d-root #toast,
+  #tour3d-root #journeyCard { top: calc(var(--under-loc, 94px) + 16px); }
+  #tour3d-root #journeyCard { max-height: min(52vh, calc(100vh - var(--under-loc, 94px) - 32px)); }
+}
+/* Small screens: the card sits at the bottom so it never covers the scene's
+   centre, and the dismiss + back controls stay in thumb reach; it stops 8px
+   short of the location line. The toast sits 6px under the line. */
+@media (max-width: 480px) {
+  #tour3d-root #journeyCard {
+    top: auto; bottom: 150px; max-height: min(40vh, calc(100vh - var(--under-loc, 134px) - 158px));
+    transform: translateX(50%) translateY(12px);
+  }
+  #tour3d-root #journeyCard.show { transform: translateX(50%) translateY(0); }
+  #tour3d-root #toast { top: calc(var(--under-loc, 134px) + 6px); }
 }
 
 @media (prefers-reduced-motion: reduce) {
