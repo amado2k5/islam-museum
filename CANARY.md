@@ -13,6 +13,12 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v1.34.0 — 2026-11-16
+### Added
+- Four more records now appear in the Inventions Browser, completing the deferred w2-12 and w2-16 drafts with full trilingual prose. From Ibn Sina's Canon: his bounded classification of diseases — the definitions of cause, disease, symptom and sign that organise Book I — and his temperament method, the four qualities of heat, cold, moisture and dryness and the impossibility of true equilibrium. From the wider heritage: al-Razi's al-Hawi, the comprehensive medical compendium that gathered diseases, causes, drugs, treatments and earlier authorities' sayings into one referable work, preserved as a gathering project and not a claim that al-Razi invented its contents; and al-Bakri's Mu'jam ma Ista'jam, the alphabetically ordered geographical place-name dictionary of al-Andalus that gathered names from hadith, reports, histories and poetry with variant readings resolved — as far as the sources read show the first alphabetical geographical dictionary. Each stands in Arabic, English and Urdu with an inspected image and a generic diagram.
+
+---
+
 ## v1.33.0 — 2026-11-15
 ### Added
 - **The Hadith Library has its books.** Sahih al-Bukhari, Sahih Muslim, Sunan Abi Dawud, Jami' al-Tirmidhi, Sunan al-Nasa'i and Sunan Ibn Majah now open as their own books (kutub): 335 book records with Arabic, English and Urdu titles, in the division of the open hadith dataset the museum's reports were taken from. 2,919 reports are filed under their book, each only after its own text was matched to the dataset's report of that number; 37 whose text did not match are listed under "Not filed under a book" with the page-numbered excerpts, which no longer pose as books. A book with no report yet says so.

@@ -1,0 +1,70 @@
+id: invention/razi-hawi-comprehensive-compendium
+class: invention
+label: { ar: "الحاوي: جامع صناعة الطب عند الرازي", en: "Al-Hawi: al-Razi's comprehensive compendium of medicine", ur: "الحاوی: رازی کا طب کا جامع مجموعہ" }
+names:
+  - { kind: alternate, lang: ar, value: "الحاوي في الطب" }
+  - { kind: alternate, lang: ar, value: "كتاب الحاوي" }
+  - { kind: alternate, lang: en, value: "Kitab al-Hawi fi al-Tibb / Continens" }
+summary:
+  ar: "موسوعة طبية كبرى جمع فيها الرازي ما رآه في تأليفاته من أمراض وعلل وأدوية وعلاجات، مع مادة عن الماضيين والأقوال المنقولة عنهم؛ مشروع شامل لا اختراع علمي أول {cite:hawi-razi-dar-kutub-ilmiyya p.3}."
+  en: "A large medical encyclopedia in which al-Razi gathered what he saw in the body of medicine — diseases, causes, drugs, treatments — together with material on earlier authors and their sayings; a comprehensive project, not a first scientific invention {cite:hawi-razi-dar-kutub-ilmiyya p.3}."
+  ur: "طب کی ایک بڑی دائرۃ المعارف جس میں رازی نے طب کے مجمعے سے امراض، علل، ادویات اور علاج جمع کیے اور پہلے کے مصنفین اور ان کی اقوال کی مواد شامل کیا؛ یہ جامع منصوبہ ہے، پہلی سائنسی ایجاد نہیں {cite:hawi-razi-dar-kutub-ilmiyya p.3}۔"
+domain: medicine-surgery
+kind: system
+disciplines: [medicine]
+wings: [ideas]
+regions: [persia-central-asia, levant-iraq]
+periods: [period/abbasid-fragmentation]
+era:
+  origins: abbasid-golden
+  first_attested:
+    edtf: "08XX/09XX"
+    calendar: julian
+    precision: century
+    status: historical
+    note: "Broad eighth/ninth-century author-activity context only; the Fihrist of Ibn al-Nadim lists the work among al-Razi's books, and a Baghdad manuscript dated 30 November 1094 survives; exact composition span unsettled, no Hijri conversion invented."
+    sources: [source/hawi-razi-dar-kutub-ilmiyya, source/isaw-nlm-hawi-1094]
+  status_today: transformed
+origin:
+  place: place/tehran
+  context: { ar: "طهران وسياقاتها هي موضع الرازي الأثيري المتداول؛ كتاب الحاوي يتجاوز موضعاً واحداً لأنه يجمع مصادر طبية مختلطة {cite:sep-abu-bakr-al-razi}.", en: "Tehran and its sphere is the commonly circulated place of al-Razi; al-Hawi transcends one place because it gathers mixed medical sources {cite:sep-abu-bakr-al-razi}.", ur: "طہران اور اس کا دائرہ رازی کی عام مقبول جگہ ہے؛ الحاوی ایک جگہ سے باہر ہے کیونکہ وہ مخلوط طبی ماخذ جمع کرتا ہے {cite:sep-abu-bakr-al-razi}۔" }
+makers:
+  - { person: person/al-razi-abu-bakr, role: improver, note: "Author presenting a self-described comprehensive compilation of the body of medicine with prior authorities' sayings inside; not credited with inventing the diseases, drugs or treatments he gathered.", sources: [source/hawi-razi-dar-kutub-ilmiyya] }
+attribution:
+  status: improvement
+  claim: { ar: "جمع منهجي شامل لما رآه الرازي من المادة الطبية مع نصوص سابقة ونقله عنهم.", en: "Systematic comprehensive gathering of what al-Razi saw of medical materia medica with prior texts and transmission from them.", ur: "پہلے کے متون اور ان سے نقل کے ساتھ رازی کی دیکھی ہوئی طبی مواد کی منظم جامع جمع۔" }
+  basis: { ar: "في مقدمته يقول إن كتابه يجمع أمراض الجسد البشري وعلاجها وما يرد فيه من أقوال المتقدمين {cite:hawi-razi-dar-kutub-ilmiyya p.3}.", en: "In its preface he says the book gathers the diseases of the human body and their treatment together with the sayings of earlier authorities {cite:hawi-razi-dar-kutub-ilmiyya p.3}.", ur: "اپنے دیباچے میں وہ کہتا ہے کہ اس کتاب نے انسانی جسم کے امراض اور ان کے علاج کو پہلے مصنفین کی باتوں کے ساتھ جمع کیا {cite:hawi-razi-dar-kutub-ilmiyya p.3}۔" }
+  perspectives:
+    - tradition: sunni
+      stance: { ar: "وصف باحث متنازع بنسب الرازي", en: "Disputed-attribution scholar description", ur: "متنازع النسبة عالم کا وصف" }
+      summary: { ar: "سجل الشخص يعرض انتماءً دينياً مختلفاً فيه بترتيب سني أولاً؛ بريطانيا تسجل قراءات متعارضة عن هويته الدينية دون حكم {cite:britannica-al-razi opening}.", en: "The person record presents a debated religious identity in Sunni-first order; Britannica records conflicting readings about his religious identity without verdict {cite:britannica-al-razi opening}.", ur: "شخصی ریکارڈ ایک متنازعہ مذہبی نسبت کو سنی پہلے کے ترتیب میں پیش کرتا ہے؛ برطانوی دائرۃ المعارف متضاد قرأتیں بغیر حکم کے درج کرتی ہے {cite:britannica-al-razi opening}۔" }
+      sources: [source/britannica-al-razi, source/tdv-razi-ebu-bekir, source/sep-abu-bakr-al-razi]
+    - tradition: academic
+      stance: { ar: "موسوعة تراثية ضمن تقاليد طبية متعددة", en: "A heritage encyclopedia within multiple medical traditions", ur: "متعدد طبی روایتوں میں میراثی دائرۃ المعارف" }
+      summary: { ar: "الحاوي مشروع جمع شامل لا اختراع واحد؛ لا نعامله كإصدار طبي حديث ولا بروتوكول سريري {cite:hawi-razi-dar-kutub-ilmiyya pp.1–3}.", en: "Al-Hawi is a comprehensive-gathering project, not a single invention; we do not treat it as a modern medical edition or clinical protocol {cite:hawi-razi-dar-kutub-ilmiyya pp.1–3}.", ur: "الحاوی ایک جامع جمع کا منصوبہ ہے، کوئی ایک ایجاد نہیں؛ ہم اسے جدید طبی ایڈیشن یا کلینیکل پروٹوکول نہیں مانتے {cite:hawi-razi-dar-kutub-ilmiyya pp.1–3}۔" }
+      sources: [source/hawi-razi-dar-kutub-ilmiyya]
+precursors:
+  - external: { ar: "الكتب الطبية اليونانية واليونانية-السريانية والعربية والهندية قبل الحاوي", en: "Greek, Greco-Syriac, Arabic and Indian medical books before al-Hawi", ur: "الحاوی سے پہلے کی یونانی، یونانی-سریانی، عربی اور ہندی طبی کتابیں" }
+    note: "Britannica's biography records al-Razi drawing on earlier Greek, Syrian, Arabic and Indian medical material; the record claims the compendium's comprehensive organization, not the invention of its contents."
+    sources: [source/britannica-al-razi, source/hawi-razi-dar-kutub-ilmiyya]
+dependents: []
+spread: []
+impact:
+  fields: [medicine-surgery, institutions-systems]
+  changed: { ar: "جمع الطب في عمل واحد قابل للرجوع؛ حوّل مجموعة معارف متناثرة إلى مرجع {cite:hawi-razi-dar-kutub-ilmiyya p.3}.", en: "Gathered medicine into one referable work; turned scattered knowledge into a reference {cite:hawi-razi-dar-kutub-ilmiyya p.3}.", ur: "طب کو ایک قابلِ رجوع کام میں جمع کیا؛ بکھری ہوئی معلومات کو حوالہ بنایا {cite:hawi-razi-dar-kutub-ilmiyya p.3}۔" }
+  history: { ar: "الحاوي ظهر في الفهرست لابن النديم ضمن كتب الرازي، وظهر منه مخطوط بغداد بتاريخ 30 نوفمبر 1094 {cite:isaw-nlm-hawi-1094 fol.317v–318r}.", en: "Al-Hawi appears in Ibn al-Nadim's Fihrist among al-Razi's books, and a Baghdad manuscript dated 30 November 1094 survives from it {cite:isaw-nlm-hawi-1094 fol.317v–318r}.", ur: "الحاوی ابن الندیم کے فہرست میں رازی کی کتابوں میں درج ہے، اور اس کا ایک بغدادی مخطوط 30 نومبر 1094 کی تاریخ سے محفوظ ہے {cite:isaw-nlm-hawi-1094 fol.317v–318r}۔" }
+  significance: 3
+  why: "A directly read preface establishing its comprehensive-compilation scope plus a dated surviving manuscript; the record claims only that gathering system, not medical priority."
+described_in: [work/al-hawi-fi-al-tibb]
+examples: []
+sites: []
+concepts: [concept/medicine, concept/anatomy, concept/disease]
+today:
+  form: { ar: "مرجع تاريخي في تاريخ الطب الإسلامي؛ ليس مدخلاً للممارسة الحديثة {cite:hawi-razi-dar-kutub-ilmiyya pp.1–3}.", en: "A historical reference in Islamic medical history; not an entry to modern practice {cite:hawi-razi-dar-kutub-ilmiyya pp.1–3}.", ur: "اسلامی طبی تاریخ کا تاریخی حوالہ؛ جدید عمل کا دروازہ نہیں {cite:hawi-razi-dar-kutub-ilmiyya pp.1–3}۔" }
+  descendants: { ar: "تشابه أسئلة التوثيق الطبي لا يثبت نسباً مباشراً {cite:sep-abu-bakr-al-razi}.", en: "Similar medical-documentation questions do not prove direct descent {cite:sep-abu-bakr-al-razi}.", ur: "مشابہ طبی دستاویزی سوالات نسب ثابت نہیں کرتے {cite:sep-abu-bakr-al-razi}۔" }
+media: { image: media/razi-hawi-manuscript-wellcome, diagram: media/diagram-razi-hawi-compendium }
+kids: { ar: "كان الرازي طبيباً جمع آلاف النصوص الطبية في كتاب واحد اسمه الحاوي. لم يخترع كل ما فيه بل رتّب ما وجده من كتب أقدم وأقوال من سبقوه؛ النسخ من كتابه بقيت تُقرأ حتى اليوم.", en: "Al-Razi was a physician who gathered thousands of medical texts into one book called al-Hawi. He did not invent everything in it but organized what he found in older books and the sayings of those before him; copies of his book still survive to be read today.", ur: "رازی ایک طبیب تھے جنہوں نے ہزاروں طبی متون کو ایک کتاب الحاوی میں جمع کیا۔ انہوں نے اس میں موجود ہر چیز ایجاد نہیں کی بلکہ پرانی کتابوں اور ان سے پہلے کے مصنفین کی باتوں کو ترتیب دیا؛ ان کی کتاب کی نسخے آج بھی پڑھی جاتی ہیں۔" }
+tags: [tibb-browser, tibb-tibb]
+sources: [source/hawi-razi-dar-kutub-ilmiyya, source/isaw-nlm-hawi-1094, source/sep-abu-bakr-al-razi, source/britannica-al-razi, source/tdv-razi-ebu-bekir, source/wellcome-hawi-or123]
+status: { review: published, completeness: 3, generated_by: "Devin (SWE-2)" }
+provenance: { layer: own-research, generated_by: "Devin (SWE-2)", model: "SWE-2", run: "inventions-w2", source: "Dar al-Kutub al-Ilmiyya al-Hawi vol.1 OCR on the harvest drive: preface read at scan p.3 and volume contents at p.1; ISAW manuscript record for the Baghdad 1094 al-Hawi folios; Wellcome Collection manuscript page; Britannica/SEP/TDV al-Razi biographies." }
