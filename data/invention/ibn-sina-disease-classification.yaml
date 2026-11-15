@@ -1,0 +1,70 @@
+id: invention/ibn-sina-disease-classification
+class: invention
+label: { ar: "أمراض وأسباب وأعراض القانون: التعريفات وأجناس المرض", en: "Diseases, causes and symptoms in the Canon: definitions and genera", ur: "قانون کے امراض، اسباب اور اعراض: تعریفیں اور امراض کے اجناس" }
+names:
+  - { kind: alternate, lang: ar, value: "الفن الثاني من الكتاب الأول في ذكر الأمراض والأسباب والأعراض الكلية" }
+  - { kind: alternate, lang: ar, value: "أجناس الأمراض المفردة والمركبة" }
+  - { kind: alternate, lang: en, value: "Canon Book I Fann 2 Ta'lim 1 on diseases" }
+summary:
+  ar: "تعليم يبدأ بتعريف السبب والمرض والعرض والدلالة، ثم أحوال البدن الثلاث، ثم أقسام المرض: المفردة في ثلاثة أجناس والمرتكبة في أربعة وأمراض تفرّق الاتصال، والمركبة كالأورام {cite:canon-ibn-sina-print-v1 pp.103–107}."
+  en: "A teaching that begins by defining cause, disease, symptom and indication, then the three states of the body, then the divisions of disease: the simple in three genera, the structural in four genera plus diseases of solution of continuity, and the composite such as tumours {cite:canon-ibn-sina-print-v1 pp.103–107}."
+  ur: "ایک تعلیم جو پہلے علت، مرض، عرض اور دلالت کی تعریف کرتی ہے، پھر جسم کی تین حالتیں، پھر امراض کی تقسیم: مفردہ تین اجناس میں، ساختی چار اجناس اور تفرّق الاتصال کے امراض، اور مرکبة جیسے ورم {cite:canon-ibn-sina-print-v1 pp.103–107}۔"
+domain: medicine-surgery
+kind: system
+disciplines: [medicine]
+wings: [ideas]
+regions: [persia-central-asia]
+periods: [period/buyid-seljuk-fatimid-era]
+era:
+  origins: middle-period
+  first_attested:
+    edtf: "10XX"
+    calendar: julian
+    precision: century
+    status: historical
+    note: "Eleventh-century Canon text; disease categories inherit Greek school medicine and no Hijri conversion is invented."
+    sources: [source/canon-ibn-sina-print-v1]
+  status_today: transformed
+origin:
+  place: place/hamadan
+  context: { ar: "همدان سياق إتمام القانون لا موضع ثابت لهذا التعليم {cite:nasser-tibi-savage-smith-canon-rules-2009 p.78}.", en: "Hamadan is the Canon-completion context, not a fixed location for this teaching {cite:nasser-tibi-savage-smith-canon-rules-2009 p.78}.", ur: "ہمدان قانون کی تکمیل کا سیاق ہے، اس تعلیم کی ثابت جگہ نہیں {cite:nasser-tibi-savage-smith-canon-rules-2009 p.78}۔" }
+makers:
+  - { person: person/ibn-sina, role: improver, note: "Author of the definitions and genera inside Fann 2 Ta'lim 1–2; the humoral disease framework is inherited, the presentation is his.", sources: [source/canon-ibn-sina-print-v1] }
+attribution:
+  status: improvement
+  claim: { ar: "صياغة رصينة لتعريفات وأجناس أمراض داخل تراث طبي أقدم.", en: "Careful formulation of disease definitions and genera inside an older medical heritage.", ur: "پرانی طبی وراثت کے اندر امراض کی تعریفوں اور اجناس کی محتاط ترتیب۔" }
+  basis: { ar: "الفصل الثاني من التعليم الثاني يفتتح بتعريف السبب والمرض والعرض قبل أن يقسم أحوال البدن وأجناس المرض {cite:canon-ibn-sina-print-v1 pp.103–104}.", en: "Ta'lim 2 of Ta'lim 1 opens by defining cause, disease and symptom before dividing the states of the body and the genera of disease {cite:canon-ibn-sina-print-v1 pp.103–104}.", ur: "تعلیم دوم پہلے علت، مرض اور عرض کی تعریف سے شروع ہوتا ہے پھر جسم کی حالتوں اور امراض کے اجناس کی تقسیم کرتا ہے {cite:canon-ibn-sina-print-v1 pp.103–104}۔" }
+  perspectives:
+    - tradition: sunni
+      stance: { ar: "وصف معلن مع إقرار اختلاف النسب", en: "Declared description with acknowledged attribution disputes", ur: "معلن وصف، نسبتِ اختلافات کے ساتھ" }
+      summary: { ar: "بريطانيا تصف ابن سينا بهيئة صريحة مسلماً مع بقاء الاختلاف {cite:britannica-avicenna opening}؛ الپر يعارض نسبة شيعية مع بقاء القراءات الأخرى {cite:tdv-ibn-sina-alper affiliation-discussion}.", en: "Britannica describes Ibn Sina explicitly as a Muslim while disagreement remains {cite:britannica-avicenna opening}; Alper argues against a Shia attribution while other readings persist {cite:tdv-ibn-sina-alper affiliation-discussion}.", ur: "بریٹانیکا ابن سینا کو صریحاً مسلمان بیان کرتی ہے مگر اختلاف باقی {cite:britannica-avicenna opening}؛ الپر شیعی نسبت کے خلاف دلیل دیتے ہیں، دوسری قرأتیں باقی ہیں {cite:tdv-ibn-sina-alper affiliation-discussion}۔" }
+      sources: [source/britannica-avicenna, source/tdv-ibn-sina-alper]
+    - tradition: academic
+      stance: { ar: "نظام تعليمي داخل قاعدة الطب", en: "A teaching system inside the foundation of medicine", ur: "طب کی بنیاد میں ایک تعلیمی نظام" }
+      summary: { ar: "الأمراض هنا حالات بنيتها تعرض على ما يحدث فيها من اختلال، لا تصنيفاً إكلينيكياً حديثاً ولا مدخلاً للممارس {cite:canon-ibn-sina-print-v1 pp.103–107}.", en: "Diseases here are states of structure presented by their disturbance, not modern clinical taxonomy nor practitioner instruction {cite:canon-ibn-sina-print-v1 pp.103–107}.", ur: "یہاں امراض حالتِ ساخت ہیں جن کا عرض اپنی خرابی سے ہوتا ہے، جدید کلینیکل درجہ بندی یا معالج کی ہدایت نہیں {cite:canon-ibn-sina-print-v1 pp.103–107}۔" }
+      sources: [source/canon-ibn-sina-print-v1]
+precursors:
+  - external: { ar: "تقسيمات والتعريفات في الطب اليوناني-المشرقي قبل القانون", en: "Disease divisions and definitions in Greek-Eastern medicine before the Canon", ur: "قانون سے پہلے یونانی-مشرقی طب میں امراض کی تقسیم اور تعریفیں" }
+    note: "The humoral disease framework predates the Canon; the claim is only its four-kind, three-genus presentation inside Book I."
+    sources: [source/canon-ibn-sina-print-v1]
+dependents: []
+spread: []
+impact:
+  fields: [medicine-surgery, institutions-systems]
+  changed: { ar: "جعل تعريف المرض والعلّة والعرَض والعلامة خطوةً أولى في كل ما يأتي بعده {cite:canon-ibn-sina-print-v1 p.103}.", en: "Made the definition of disease, cause, symptom and sign the first step of everything after it {cite:canon-ibn-sina-print-v1 p.103}.", ur: "پہلے مرض، علت، عرض اور علامت کی تعریف کو اس کے بعد کی ہر چیز کا پہلا قدم بنایا {cite:canon-ibn-sina-print-v1 p.103}۔" }
+  history: { ar: "ضمن الكتاب الأول الذي ظل أساس التدريس الطبي نحو سبعة قرون {cite:encyclopaedia-of-islam-2 vol.3 pp.974–977}.", en: "Inside Book I, which served as the basis of medical teaching for about seven centuries {cite:encyclopaedia-of-islam-2 vol.3 pp.974–977}.", ur: "اس کتابِ اول میں جو تقریباً سات صدیوں تک طبی تدریس کی بنیاد رہی {cite:encyclopaedia-of-islam-2 vol.3 pp.974–977}۔" }
+  significance: 3
+  why: "Directly read definitions and genera with clear scope: a presentation system, not a claim of disease-taxonomy priority."
+described_in: [work/al-qanun-fi-al-tibb]
+examples: []
+sites: []
+concepts: [concept/disease, concept/cause-disease-and-symptom, concept/states-of-the-body-and-kinds-of-disease, concept/diseases-of-composition, concept/diseases-of-association-and-of-continuity, concept/composite-diseases-and-tumours]
+today:
+  form: { ar: "نظام تاريخي في معرفة المرض؛ ليس مدخلاً للطب السريري الحديث {cite:canon-ibn-sina-print-v1 pp.103–107}.", en: "A historical system of knowing disease; not an entry to modern clinical medicine {cite:canon-ibn-sina-print-v1 pp.103–107}.", ur: "معرفةِ مرض کا تاریخی نظام؛ جدید کلینیکل طب کا دروازہ نہیں {cite:canon-ibn-sina-print-v1 pp.103–107}۔" }
+  descendants: { ar: "تشابه أسئلة تصنيف المرض لا يثبت نسباً مباشراً {cite:encyclopaedia-of-islam-2 vol.3 pp.974–977}.", en: "Similar disease-classification questions do not prove direct descent {cite:encyclopaedia-of-islam-2 vol.3 pp.974–977}.", ur: "مشابہ امراض کی درجہ بندی کے سوالات نسب ثابت نہیں کرتے {cite:encyclopaedia-of-islam-2 vol.3 pp.974–977}۔" }
+media: { image: media/ibn-sina-disease-canon-agha-khan, diagram: media/diagram-ibn-sina-disease-classification }
+kids: { ar: "قبل أن يصف ابن سينا أي مرض يطلب من القارئ أن يعرف: ما المرض؟ ما علته؟ ما عرَضه؟ وما علامته؟ هذه تعريفاتٌ أولى تجعل كل ما بعده مفهوماً؛ وهي تاريخية ولا تُستعمل اليوم.", en: "Before Ibn Sina describes any disease he asks the reader to know: what is a disease? Its cause? Its symptom? Its sign? These first definitions make everything after them intelligible; they are historical and are not used today.", ur: "ابن سینا کسی مرض کی وضاحت سے پہلے قاری سے پوچھتے ہیں: مرض کیا ہے؟ اس کی علت کیا ہے؟ اس کا عرض کیا ہے؟ اور علامت کیا ہے؟ یہ ابتدائی تعریفیں اس کے بعد کی ہر چیز کو سمجھنے کے قابل بناتی ہیں؛ یہ تاریخی ہیں اور آج استعمال نہیں ہوتی۔" }
+tags: [tibb-browser, tibb-tibb]
+sources: [source/canon-ibn-sina-print-v1, source/encyclopaedia-of-islam-2, source/nasser-tibi-savage-smith-canon-rules-2009, source/tdv-ibn-sina-alper, source/britannica-avicenna, source/commons-canon-agha-khan-1052]
+status: { review: published, completeness: 3, generated_by: "Devin (SWE-2)" }
+provenance: { layer: own-research, generated_by: "Devin (SWE-2)", model: "SWE-2", run: "inventions-w2", source: "Dar al-Kutub al-Ilmiyya 1999 vol.1 OCR: Book I Fann 2 Ta'lim 1 definitions read at scan p.103 and Ta'lim 2 structural diseases at scan pp.104–107; concept/disease lead records; EI2 Ibn Sina article; Commons file page for the Aga Khan Canon manuscript dated 1052." }

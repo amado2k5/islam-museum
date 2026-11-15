@@ -13,6 +13,12 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v1.35.0 — 2026-11-16
+### Added
+- Four more records now appear in the Inventions Browser, completing the deferred w2-12 and w2-16 drafts with full trilingual prose. From Ibn Sina's Canon: his bounded classification of diseases — the definitions of cause, disease, symptom and sign that organise Book I — and his temperament method, the four qualities of heat, cold, moisture and dryness and the impossibility of true equilibrium. From the wider heritage: al-Razi's al-Hawi, the comprehensive medical compendium that gathered diseases, causes, drugs, treatments and earlier authorities' sayings into one referable work, preserved as a gathering project and not a claim that al-Razi invented its contents; and al-Bakri's Mu'jam ma Ista'jam, the alphabetically ordered geographical place-name dictionary of al-Andalus that gathered names from hadith, reports, histories and poetry with variant readings resolved — as far as the sources read show the first alphabetical geographical dictionary. Each stands in Arabic, English and Urdu with an inspected image and a generic diagram.
+
+---
+
 ## v1.34.0 — 2026-11-15
 ### Added
 - **The Cosmos Browser — «متصفح الكائنات الفضائية والأمم السابقة لبني البشر وأسرار الكون».** One page, `/{ar,en,ur}/cosmos/`, gathers what the Qur'an, the Sunnah and the harvested books say about creatures beyond the earth, the seven heavens and earths, who held the earth before Adam, the vanished and hidden peoples, the beginning of creation and the secrets of the cosmos, in eight themes. Qur'an verses come from a reviewed table; every other passage is found at build time by a guarded word list, so a book harvested later appears the day its passages land. A theme chart, a filter, a landing-page card and an Explore-menu entry (under the unseen group) come with it, in all three languages. The page says plainly that the sources do not speak of "aliens" in the modern sense and gives no verdict.

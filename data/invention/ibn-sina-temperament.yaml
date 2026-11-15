@@ -1,0 +1,70 @@
+id: invention/ibn-sina-temperament
+class: invention
+label: { ar: "المزاج والاعتدال في القانون: الكيفيات الأربع وثمانية اعتبارات", en: "Temperament and equilibrium in the Canon: the four qualities and eight considerations", ur: "قانون میں مزاج اور اعتدال: چار کیفیات اور آٹھ اعتبارات" }
+names:
+  - { kind: alternate, lang: ar, value: "تعليم الأمزجة في الكتاب الأول" }
+  - { kind: alternate, lang: ar, value: "الفصل الأول من التعليم الثالث في الفن الأول" }
+  - { kind: alternate, lang: en, value: "Canon Book I Fann 1 Ta'lim 3" }
+summary:
+  ar: "الفصل الأول من التعليم الثالث في الفن الأول يعرّف المزاج بأنه كيفية حاصلة من تفاعل الكيفيات المتضادة، ويعدّ القوى الأولية في الأركان أربعاً: الحرارة والبرودة والرطوبة واليبوسة؛ ثم يقرر استحالة الاعتدال الحقيقي ويشتق الاعتدال العملي بثمانية اعتبارات للقياس {cite:canon-ibn-sina-print-v1 pp.19–21}."
+  en: "The first chapter of Ta'lim 3 in Fann 1 defines temperament as a quality arising from the reaction of opposed qualities, and counts the primary forces in the elements as four: heat, cold, moisture and dryness; it then rules true equilibrium impossible and derives the practical equilibrium through eight considerations of measure {cite:canon-ibn-sina-print-v1 pp.19–21}."
+  ur: "فن اول کی تعلیم سوم کا پہلا باب مزاج کو متضاد کیفیات کے باہمی عمل سے پیدا ہونے والی خوبی بتاتا ہے اور ارکان کی بنیادی قوتیں چار گنتا ہے: حرارت، سردی، نم اور خشکی؛ پھر حقیقی اعتدال کی ناممکن قرار دیتا ہے اور آٹھ اعتبارات سے عملی اعتدال نکالتا ہے {cite:canon-ibn-sina-print-v1 pp.19–21}۔"
+domain: medicine-surgery
+kind: concept
+disciplines: [medicine]
+wings: [ideas]
+regions: [persia-central-asia]
+periods: [period/buyid-seljuk-fatimid-era]
+era:
+  origins: middle-period
+  first_attested:
+    edtf: "10XX"
+    calendar: julian
+    precision: century
+    status: historical
+    note: "Eleventh-century Canon text; humoral temperament theory is inherited from Greek medicine and no Hijri conversion is invented."
+    sources: [source/canon-ibn-sina-print-v1]
+  status_today: transformed
+origin:
+  place: place/hamadan
+  context: { ar: "همدان سياق إتمام القانون لا موضع ثابت لهذا التعليم {cite:nasser-tibi-savage-smith-canon-rules-2009 p.78}.", en: "Hamadan is the Canon-completion context, not a fixed location for this teaching {cite:nasser-tibi-savage-smith-canon-rules-2009 p.78}.", ur: "ہمدان قانون کی تکمیل کا سیاق ہے، اس تعلیم کی ثابت جگہ نہیں {cite:nasser-tibi-savage-smith-canon-rules-2009 p.78}۔" }
+makers:
+  - { person: person/ibn-sina, role: improver, note: "Author of the temperament treatment inside Fann 1; the four-humour frame is inherited, the organization is his.", sources: [source/canon-ibn-sina-print-v1] }
+attribution:
+  status: improvement
+  claim: { ar: "تنظيم مفاهيمي للخلطات داخل نسخة مدرّسية من نظرية الإخلاط اليونانية.", en: "Conceptual organization of humours inside a school text of the Greek humour theory.", ur: "یونانی اخلاطی نظریہ کے تعلیمی متن میں اخلاط کا مفہومی انتظام۔" }
+  basis: { ar: "يقول الفصل الأول إن المزاج كيفية حاصلة من تفاعل الكيفيات المتضادة إذا وقفت على حد ما، والقوى الأولية في الأركان المذكورة أربع {cite:canon-ibn-sina-print-v1 p.19}.", en: "Chapter 1 says temperament is a quality arising from the reaction of opposed qualities when they stand at a mean, and the primary forces in the mentioned elements are four {cite:canon-ibn-sina-print-v1 p.19}.", ur: "باب اول کہتا ہے کہ مزاج متضاد کیفیات کے باہمی عمل سے پیدا ہونے والی خوبی ہے جب وہ کسی حد پر آ کھڑی ہوں، اور مذکورہ ارکان کی بنیادی قوتیں چار ہیں {cite:canon-ibn-sina-print-v1 p.19}۔" }
+  perspectives:
+    - tradition: sunni
+      stance: { ar: "وصف معلن مع إقرار اختلاف النسب", en: "Declared description with acknowledged attribution disputes", ur: "معلن وصف، نسبتِ اختلافات کے ساتھ" }
+      summary: { ar: "بريطانيا تصف ابن سينا بهيئة صريحة مسلماً مع بقاء الاختلاف {cite:britannica-avicenna opening}؛ الپر يعارض نسبة شيعية مع بقاء القراءات الأخرى {cite:tdv-ibn-sina-alper affiliation-discussion}.", en: "Britannica describes Ibn Sina explicitly as a Muslim while disagreement remains {cite:britannica-avicenna opening}; Alper argues against a Shia attribution while other readings persist {cite:tdv-ibn-sina-alper affiliation-discussion}.", ur: "بریٹانیکا ابن سینا کو صریحاً مسلمان بیان کرتی ہے مگر اختلاف باقی {cite:britannica-avicenna opening}؛ الپر شیعی نسبت کے خلاف دلیل دیتے ہیں، دوسری قرأتیں باقی ہیں {cite:tdv-ibn-sina-alper affiliation-discussion}۔" }
+      sources: [source/britannica-avicenna, source/tdv-ibn-sina-alper]
+    - tradition: academic
+      stance: { ar: "نظرية وراثية في إطار تعليمي", en: "An inherited theory inside a teaching frame", ur: "تعلیمی فریم میں وراثتی نظریہ" }
+      summary: { ar: "الأمزجة هنا مفاهيم تشرح بنية الجسم والمرض، لا أنماطاً طبية حديثة ولا توصيفاً للشخص {cite:canon-ibn-sina-print-v1 p.19}.", en: "Temperaments here are theoretical concepts explaining body structure and disease, not modern medical types nor personality description {cite:canon-ibn-sina-print-v1 p.19}.", ur: "یہاں امزاج جسم کی ساخت اور مرض کی وضاحت کرنے والے نظریاتی مفاہیم ہیں، جدید طبی اقسام یا شخصیت کی تعریف نہیں {cite:canon-ibn-sina-print-v1 p.19}۔" }
+      sources: [source/canon-ibn-sina-print-v1]
+precursors:
+  - external: { ar: "نظرية الأمزجة الأخلاطية عند أبقراط وجالينوس", en: "The humoral temperament theory of Hippocrates and Galen", ur: "ابقراط اور جالینوس کا اخلاطی مزاجی نظریہ" }
+    note: "The four-humour frame is ancient Greek medicine; the claim is only the Canon's organized presentation."
+    sources: [source/canon-ibn-sina-print-v1]
+dependents: []
+spread: []
+impact:
+  fields: [medicine-surgery]
+  changed: { ar: "عرّف المزاج وكيفية نشوئه من الكيفيات الأربع، وقرر استحالة الاعتدال الحقيقي واشتق اعتدالاً عملياً بثمانية اعتبارات للقياس {cite:canon-ibn-sina-print-v1 pp.19–21}.", en: "Defined temperament and its arising from the four qualities, ruled true equilibrium impossible, and derived a practical equilibrium through eight considerations of measure {cite:canon-ibn-sina-print-v1 pp.19–21}.", ur: "مزاج اور چار کیفیات سے اس کے وجود کی تعریف کی، حقیقی اعتدال کی ناممکن قرار دی اور آٹھ اعتبارات سے عملی اعتدال نکالا {cite:canon-ibn-sina-print-v1 pp.19–21}۔" }
+  history: { ar: "ضمن الكتاب الأول الذي ظل أساس التدريس الطبي نحو سبعة قرون {cite:encyclopaedia-of-islam-2 vol.3 pp.974–977}.", en: "Inside Book I, which served as the basis of medical teaching for about seven centuries {cite:encyclopaedia-of-islam-2 vol.3 pp.974–977}.", ur: "اس کتابِ اول میں جو تقریباً سات صدیوں تک طبی تدریس کی بنیاد رہی {cite:encyclopaedia-of-islam-2 vol.3 pp.974–977}۔" }
+  significance: 3
+  why: "A directly read conceptual treatment with precise definitions, the impossibility argument and the eight-relativity scheme; bounded to the Canon's own frame."
+described_in: [work/al-qanun-fi-al-tibb]
+examples: []
+sites: []
+concepts: [concept/temperament, concept/four-elements, concept/health, concept/canon-ten-genera-of-signs-of-temperament, concept/canon-touch-as-a-sign-of-temperament, concept/canon-flesh-and-fat-as-signs-of-temperament, concept/canon-signs-of-the-balanced-temperament]
+today:
+  form: { ar: "نظام تاريخي في فهم الجسم؛ ليس تصنيفاً طبياً حديثاً ولا وصفاً للشخصية {cite:canon-ibn-sina-print-v1 p.19}.", en: "A historical system of understanding the body; not a modern medical classification nor personality description {cite:canon-ibn-sina-print-v1 p.19}.", ur: "جسم کو سمجھنے کا تاریخی نظام؛ جدید طبی درجہ بندی یا شخصیت کی تعریف نہیں {cite:canon-ibn-sina-print-v1 p.19}۔" }
+  descendants: { ar: "تشابه أسئلة المفهوم المزاجي لا يثبت نسباً مباشراً {cite:encyclopaedia-of-islam-2 vol.3 pp.974–977}.", en: "Similar temperament-concept questions do not prove direct descent {cite:encyclopaedia-of-islam-2 vol.3 pp.974–977}.", ur: "مشابہ مزاجی مفهوم کے سوالات نسب ثابت نہیں کرتے {cite:encyclopaedia-of-islam-2 vol.3 pp.974–977}۔" }
+media: { image: media/ibn-sina-temperament-viscera-wellcome, diagram: media/diagram-ibn-sina-temperament }
+kids: { ar: "تخيّل ابن سينا الجسم كأنه يمشي على أربعة أشياء متوازنة: حرارة، برودة، رطوبة، يبس. إذا اختل التوازن مرض؛ وإذا اعتدل سُلم. هذا كان إطاراً طبياً قديماً ندرسه تاريخاً.", en: "Ibn Sina imagined the body as moving on four balanced things: heat, cold, moisture, dryness. When the balance breaks, disease comes; when it holds, health holds. This was an old medical frame we study as history.", ur: "ابن سینا نے جسم کو چار متوازن چیزوں پر چلتے ہوئے سمجھا: حرارت، سردی، نم، خشکی۔ جب توازن ٹوٹتا ہے مرض آتا ہے؛ جب قائم رہتا ہے صحت رہتی ہے۔ یہ ایک پرانا طبی فریم ہے جو ہم تاریخ کے طور پر پڑھتے ہیں۔" }
+tags: [tibb-browser, tibb-tibb]
+sources: [source/canon-ibn-sina-print-v1, source/encyclopaedia-of-islam-2, source/nasser-tibi-savage-smith-canon-rules-2009, source/tdv-ibn-sina-alper, source/britannica-avicenna, source/wellcome-canon-viscera-l0029162]
+status: { review: published, completeness: 3, generated_by: "Devin (SWE-2)" }
+provenance: { layer: own-research, generated_by: "Devin (SWE-2)", model: "SWE-2", run: "inventions-w2", source: "Dar al-Kutub al-Ilmiyya 1999 vol.1 OCR: Book I Fann 1 Ta'lim 3 'temperaments' read at scan p.19; concept/temperament lead record; EI2 Ibn Sina article; Wellcome Collection Canon manuscript page." }
