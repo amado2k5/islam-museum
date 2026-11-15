@@ -1,0 +1,170 @@
+id: invention/hijri-lunar-calendar
+class: invention
+label:
+  ar: التقويم الهجري القمري
+  en: The Hijri lunar calendar
+  ur: ہجری قمری کیلنڈر
+names:
+- value: al-taqwim al-hijri al-qamari
+  kind: latinized
+  lang: ar
+- value: Islamic lunar calendar
+  kind: alternate
+  lang: en
+- value: تقويم هجري قمري
+  kind: alternate
+  lang: ar
+summary:
+  ar: تقويم قمري من اثني عشر شهراً بلا كبس لكنه يحدد الأشهر بالهلال المرئي ويبدأ تاريخه من هجرة النبي ⁦(١ هـ، نحو ٦٢٢ م)⁩؛
+    يعتمد على كتب حديثية وقانونية ومراجع تقويمية {cite:tdv-takvim-akgur sections} {cite:britannica-islamic-calendar} {cite:iranica-calendars-abdollahy
+    hijri section}.
+  en: A twelve-month lunar calendar with no intercalation whose months are fixed by the observed crescent and whose era begins
+    at the Prophet's migration (1 AH, about 622 CE); it rests on hadith, legal and calendrical sources {cite:tdv-takvim-akgur
+    sections} {cite:britannica-islamic-calendar} {cite:iranica-calendars-abdollahy hijri section}.
+  ur: بارہ ماہ کا قمری کیلنڈر جس میں کوئی اضافه ماہ نہیں، مہینے رؤیت ہلال سے طے ہوتے ہیں اور اس کا عہد ہجرتِ نبوی ⁦(1ھ، تقریباً
+    622ء)⁩ سے ہے؛ روایتی، قانونی اور تقویمی ماخذوں پر مبنی {cite:tdv-takvim-akgur sections} {cite:britannica-islamic-calendar}
+    {cite:iranica-calendars-abdollahy hijri section}۔
+domain: timekeeping
+kind: system
+disciplines:
+- astronomy
+- law
+- mathematics
+wings:
+- ideas
+- time
+regions:
+- arabia
+periods:
+- period/rashidun
+era:
+  origins: first-century
+  first_attested:
+    edtf: 0637/0639
+    calendar: julian
+    precision: year
+    status: tradition
+    note: Sources describe the era being fixed during the first caliphs' reigns, around 16–18 AH (637–639 CE), but they do
+      not give a single signed enactment document or a single day the first month was fixed; dates are a range from the consulted
+      material. The Hijri year count itself begins at 1 AH, about 622 CE.
+    sources:
+    - source/tdv-takvim-akgur
+    - source/iranica-calendars-abdollahy
+    - source/britannica-islamic-calendar
+  status_today: living
+origin:
+  polity: polity/rashidun-caliphate
+  context:
+    ar: سياق المدينة في عهد الخلفاء الراشدين، حيث أُلغي نسئ الجاهلية وحُدّد تاريخ التقويم بالهجرة النبوية؛ النصوص المقرؤة
+      تصف القرار ولا تقدم وثيقة تشريع بتاريخ محدد {cite:tdv-takvim-akgur sections} {cite:iranica-calendars-abdollahy hijri
+      section}.
+    en: The Medina context of the Rightly Guided caliphs, where pre-Islamic intercalation was abolished and the era anchored
+      to the Prophet's migration; the sources read describe the decision without giving a single dated enactment document
+      {cite:tdv-takvim-akgur sections} {cite:iranica-calendars-abdollahy hijri section}.
+    ur: راشدین کے دورِ حکومت میں مدینہ کا سیاق، جہاں جاهلیت کا نسئ ختم ہوا اور عہد هجرت سے طے ہوا؛ پڑھے ماخذ فیصلہ بیان کرتے
+      ہیں مگر ایک تاریخ دار دستاویز نہیں دیتے {cite:tdv-takvim-akgur sections} {cite:iranica-calendars-abdollahy hijri section}۔
+makers:
+- person: person/umar-ibn-al-khattab
+  role: commissioner
+  note: Hadith and calendar literature credit Umar with consulting the Companions and fixing the era from the Hijra; this
+    is a documented institutional act, not a modern calendrical formula.
+  sources:
+  - source/tdv-takvim-akgur
+  - source/iranica-calendars-abdollahy
+attribution:
+  status: improvement
+  claim:
+    ar: التقويم القمري من اثني عشر شهراً موجود قبل الإسلام؛ المساهمة الإسلامية الموثقة إلغاء النسئ والربط بالعهد الهجري وتثبيت
+      أسماء الأشهر.
+    en: The twelve-month lunar year existed before Islam; the documented Muslim contribution is abolishing intercalation,
+      anchoring the era to the Hijra and fixing month names.
+    ur: بارہ ماہوں کا قمری سال اسلام سے پہلے موجود تھا؛ مستند مسلم حصہ نسئ کا خاتمہ، عہد ہجری سے ربط اور مہینوں کے ناموں کا
+      تثبیت ہے۔
+  basis:
+    ar: مصادر التقويم والمدونات الحديثية تصف نسئ الجاهلية وقرار إلغائه في عهد عمر، مع بقاء الشهور القمرية؛ لا ننسب للصحابة
+      صيغة حسابية حديثة لم تُروَ {cite:tdv-takvim-akgur sections} {cite:iranica-calendars-abdollahy hijri section}.
+    en: Calendar and hadith sources describe pre-Islamic intercalation and its abolition under Umar, while the lunar months
+      remain; we do not credit the Companions with a modern computation they did not transmit.
+    ur: تقویم اور حدیثی ماخذ جاهلیت کے نسئ اور عمر کے دور میں اسے ختم ہونے کا بیان کرتے ہیں، قمری مہینے باقی رہے؛ ہم صحابہ
+      سے جدید حسابی صيغة منسوب نہیں کرتے جو انہوں نے منتقل نہیں کی۔
+precursors:
+- external:
+    ar: السنة القمرية الاثنا عشر شهراً مع نسئ يرفع الحُرُم
+    en: The twelve-month lunar year with nesî intercalation deferring the sacred months
+    ur: بارہ ماہوں کا قمری سال جس میں نسئ حرموں کی مؤخر کرتا تھا
+  note: Pre-Islamic Hijazi calendar; the Qur'an condemns nesî and the intercalated calendar was replaced by the purely lunar
+    Hijri year.
+  sources:
+  - source/tdv-takvim-akgur
+  - source/iranica-calendars-abdollahy
+dependents: []
+spread: []
+impact:
+  fields:
+  - timekeeping
+  - institutions-systems
+  changed:
+    ar: ربط السنن والأشهر والأعياد والمواعيد الشرعية بشهور قمرية تُثبت بالرؤية، فأصبح الوقت الاجتماعي والديني للمسلمين محسوباً
+      به {cite:tdv-takvim-akgur sections} {cite:iranica-calendars-abdollahy hijri section}.
+    en: It tied fasts, festivals, contracts and religious dates to lunar months fixed by sighting, making it the social and
+      religious clock of Muslim communities.
+    ur: اس نے روزوں، تہواروں، معاہدوں اور شرعی اوقات کو رؤیت سے طے ہونے والے قمری مہینوں سے جوڑ دیا، جو مسلم برادریوں کا سماجی
+      اور مذہبی گھڑی بن گیا۔
+  history:
+    ar: ألغى النسئ فجعله التقويم الميلادي الوحيد الذي لا يتغير عن الفصول، ونقل أمماً كاملة إلى توقيت قمري؛ استخدامه اليوم
+      في كبريات الدول الإسلامية لا يثبت صيغة واحدة منذ البداية {cite:tdv-takvim-akgur sections} {cite:iranica-calendars-abdollahy
+      hijri section}.
+    en: By abolishing intercalation it became the only major calendar that does not drift with the seasons, moving whole peoples
+      onto lunar time; its modern use does not prove a single formula from the start.
+    ur: نسئ ختم کر کے یہ واحد بڑا کیلنڈر بنا جو موسموں کے ساتھ نہیں بدلتا، اور پوری اقوام قمری وقت پر منتقل ہوئیں؛ آج کا استعمال
+      اس کا ایک ہی ابتدائی فارمولہ ثابت نہیں کرتا۔
+  significance: 5
+  why: The calendar structures worship, law and social time for more than a billion Muslims today; the evidence documents
+    its institutional fixing and enduring use, not a modern computation.
+described_in: []
+examples: []
+sites: []
+concepts:
+- concept/al-sana-al-arabiyya
+today:
+  form:
+    ar: لا يزال التقويم الهجري معتمداً رسمياً أو جزئياً في دول إسلامية كثيرة، وتُطبع منه تقويمات وقوائم مواقيت {cite:tdv-takvim-akgur
+      sections} {cite:iranica-calendars-abdollahy hijri section}.
+    en: The Hijri calendar remains officially or partly used in many Muslim-majority states and printed in calendars and prayer-time
+      listings.
+    ur: ہجری کیلنڈر آج بھی بہت سے مسلم اکثریتی ممالک میں سرکاری یا جزوی طور پر استعمال ہوتا ہے اور تقویموں و اوقاتِ نماز کی
+      فہرستوں میں چھپتا ہے۔
+  descendants:
+    ar: تحسب المراجع الفلكية اللاحقة مثل كتاب الفرغاني السنة القمرية ٣٥٤ يوماً وحدود رؤية الهلال، دون ادعاء اختراع التقويم
+      {cite:farghani-elements-astronomy pp. 130–131}.
+    en: Later astronomical texts such as al-Farghani compute the 354-day lunar year and crescent-visibility limits without
+      claiming to have invented the calendar.
+    ur: بعد کے فلکی متون جیسے الفرغاني ٣٥٤ دن کے قمری سال اور ہلال کی رؤیت کے حساب لگاتے ہیں مگر تقویم کی ایجاد کا دعویٰ نہیں
+      کرتے۔
+media:
+  image: media/photo-lunar-phases-al-biruni
+  diagram: media/diagram-hijri-lunar-calendar
+kids:
+  ar: 'الصلاة والصيام والأعياد كلها على شهور القمر: اثنا عشر شهراً، يُبدأ كل شهر حين يُرى هلاله بعد الغروب. السنة الهجرية
+    تبدأ من هجرة النبي سنة ست وخمسين ومئتين للميلاد تقريباً.'
+  en: 'Prayer, fasting and festivals all follow the Moon''s months: twelve of them, each starting when its crescent is seen
+    after sunset. The Hijri year begins from the Prophet''s migration, about 622 CE.'
+  ur: 'نماز، روزے اور تہوار سب چاند کے مہینوں پر ہیں: بارہ مہینے، ہر مہینہ غروبِ آفتاب کے بعد ہلال دکھنے سے شروع ہوتا ہے۔
+    ہجری سال تقریباً 622ء کی ہجرت سے شروع ہوتا ہے۔'
+sources:
+- source/tdv-takvim-akgur
+- source/britannica-islamic-calendar
+- source/iranica-calendars-abdollahy
+- source/farghani-elements-astronomy
+status:
+  review: published
+  completeness: 3
+  generated_by: Devin drafter w2-02
+provenance:
+  layer: own-research
+  generated_by: Devin drafter w2-02
+  model: devin
+  run: inventions-w2-02
+  source: TDV takvim article sections, Britannica Islamic calendar, Iranica calendars (Abdollahy), Farghani OCR pp.130–131
+    for later arithmetic only. No single dated enactment document, no invented formula or exact adoption day claimed; maker
+    role is institutional commissioner.

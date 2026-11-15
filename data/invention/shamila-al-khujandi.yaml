@@ -1,0 +1,101 @@
+id: invention/shamila-al-khujandi
+class: invention
+label: { ar: "الآلة الشاملة للخجندي", en: "Al-Khujandi's Comprehensive Instrument ⁦(al-āla al-shāmila)⁩", ur: "خجندی کا جامع آلہ ⁦(الآلہ الشاملہ)⁩" }
+names:
+  - { value: "الآلة الشاملة", kind: alternate, lang: ar }
+  - { value: "الآلة العامة", kind: alternate, lang: ar }
+  - { value: "al-āla al-shāmila", kind: alternate, lang: ar }
+  - { value: "al-āla al-ʿāmma", kind: alternate, lang: ar }
+  - { value: "al-Shamila", kind: alternate, lang: en }
+  - { value: "the Comprehensive Instrument", kind: alternate, lang: en }
+  - { value: "the universal instrument of al-Khujandi", kind: alternate, lang: en }
+  - { value: "شاملہ آلہ", kind: alternate, lang: ur }
+summary:
+  ar: "آلة رصد وصفها أبو محمود الخجندي في رسالته «في صناعة الآلة الشاملة» لتغني عند عرض واحد عن الأسطرلاب أو الربع؛ قيّدها تصميمه في عرض واحد، ثم وسّعها هبة الله بن الحسين الأسترلابي في تعليقه لتخدم جميع العروض. نصها لم يُطبع ولا تُرجم قط، ويبقى في مخطوطات متناثرة عبر خمسة بلدان {cite:van-brummelen-khujandi-bea comprehensive-instrument} {cite:jphogendijk-khujandi-works treatise} {cite:ismi-khujandi-ala-shamila witnesses}."
+  en: "An observing instrument described by Abu Mahmud al-Khujandi in his treatise on its construction to replace the astrolabe or a quadrant at a single latitude; Hibatallah ibn al-Husayn al-Asturlabi later widened it to serve all latitudes. The text was never printed or translated and survives in scattered manuscripts across five countries {cite:van-brummelen-khujandi-bea comprehensive-instrument} {cite:jphogendijk-khujandi-works treatise} {cite:ismi-khujandi-ala-shamila witnesses}."
+  ur: "ابو محمود خجندی نے اپنے رسالے میں اس رصدی آلے کی تعمیر بیان کی جو ایک عرض بلد پر اسطرلاب یا ربع کی جگہ لیتا؛ بعد میں ہبت اللہ بن الحسین الاسترلابی نے اسے تمام عرض بلدوں کے لیے وسیع کیا۔ متن کبھی شائع یا ترجمہ نہیں ہوا اور پانچ ممالک کی بکھری مخطوطات میں باقی ہے {cite:van-brummelen-khujandi-bea comprehensive-instrument} {cite:jphogendijk-khujandi-works treatise} {cite:ismi-khujandi-ala-shamila witnesses}۔"
+domain: astronomy-instruments
+kind: instrument
+disciplines: [astronomy, mathematics, engineering]
+wings: [objects, ideas]
+regions: [persia-central-asia]
+periods: [period/buyid-seljuk-fatimid-era]
+era:
+  origins: abbasid-golden
+  first_attested:
+    edtf: "10XX"
+    calendar: julian
+    precision: century
+    status: historical
+    derived: true
+    note: "No composition or witness date survives for the undated treatise; tenth-century horizon comes from the maker's reported floruit c.940-1000, not from a dated manuscript or a Hijri conversion."
+    sources: [source/van-brummelen-khujandi-bea, source/khujandi-mactutor, source/jphogendijk-khujandi-works]
+  status_today: extinct
+origin:
+  place: place/rayy
+  polity: polity/buyid-dynasty
+  context:
+    ar: "موثق عمل الخجندي في الري ضمن رعاية فخر الدولة البويهية؛ لا تثبت المصادر موضع صناعة الشاملة ولا تاريخاً لها، فنضبطها في محيط عمله لا في ورشة موثقة {cite:van-brummelen-khujandi-bea biography} {cite:jphogendijk-khujandi-works treatise}."
+    en: "Al-Khujandi's documented working milieu at Rayy under Buyid patronage; no source fixes a workshop or date for the shamila itself, so the setting is his milieu, not an attested construction site {cite:van-brummelen-khujandi-bea biography} {cite:jphogendijk-khujandi-works treatise}."
+    ur: "خجندی کا مستند کام کا ماحول رے میں بوئی سرپرستی میں تھا؛ کسی ماخذ نے شاملہ کی صنعت گاہ یا تاریخ متعین نہیں کی، اس لیے سیاق اس کا کام کا ماحول ہے، مصدقہ تعمیراتی مقام نہیں {cite:van-brummelen-khujandi-bea biography} {cite:jphogendijk-khujandi-works treatise}۔"
+makers:
+  - person: person/al-khujandi-abu-mahmud-hamid-ibn-al-khidr
+    role: inventor
+    note: "Designed and described the comprehensive instrument in his treatise; later bibliographers credit him with the invention. Muslim identification on the person record rests on MacTutor's explicit Islamic-astronomer description plus the museum's declared Sunni default frame, not on patronage inference. The treatise is unpublished and was not read here."
+    sources: [source/van-brummelen-khujandi-bea, source/jphogendijk-khujandi-works, source/ismi-khujandi-ala-shamila]
+attribution:
+  status: original
+  claim:
+    ar: "تنسب السيرة والمكتبة إلى الخجندي اختراع الآلة الشاملة ووصف صناعتها؛ يوثق هذا السجل تلك النسبة في الأدبيات الثانوية وبقاء رسالته، لا معاينة للنص الأصلي."
+    en: "Biographies and the bibliographic tradition credit al-Khujandi with inventing the comprehensive instrument and describing its construction; this record documents that attribution and the treatise's survival, not a reading of the original text."
+    ur: "سوانح اور کتابی روایت خجندی کو جامع آلہ کی ایجاد اور اس کی تعمیر کی وضاحت سے منسوب کرتی ہے؛ یہ اندراج اس نسبت اور رسالے کی بقا کو دستاویزی ثبوت دیتا ہے، اصل متن کی قراءت نہیں۔"
+  basis:
+    ar: "يسمي فان بروملن «الشامِلة» اختراعاً في رسالة «الآلة الشاملة» وأداة تحل محل الأسطرلاب أو الربع عند عرض محدود {cite:van-brummelen-khujandi-bea comprehensive-instrument}. يوثق هوغندايك عنوان الرسالة ومخطوطاتها وتعليق هبة الله اللاحق {cite:jphogendijk-khujandi-works treatise}."
+    en: "Van Brummelen calls the shamila an invention in The Comprehensive Instrument, an instrument to replace the astrolabe or a quadrant within a limited latitude range {cite:van-brummelen-khujandi-bea comprehensive-instrument}. Hogendijk documents the treatise's title, manuscripts and Hibatallah's later commentary {cite:jphogendijk-khujandi-works treatise}."
+    ur: "وان برملن شاملہ کو «جامع آلہ» کے رسالے میں ایجاد کہتا ہے، ایک محدود عرض البلد کے دائرے میں اسطرلاب یا ربع کی جگہ لینے والا آلہ {cite:van-brummelen-khujandi-bea comprehensive-instrument}۔ ہوگینڈائک رسالے کا عنوان، مخطوطات اور ہبت اللہ کا بعد کا حاشیہ بیان کرتا ہے {cite:jphogendijk-khujandi-works treatise}۔"
+  perspectives: []
+precursors:
+  - external: { ar: "الأسطرلاب الكوكبي وصفائحه لعرض البلد المحلي", en: "The planispheric astrolabe and its local-latitude plates", ur: "کروی اسطرلاب اور مقامی عرض البلد کی تختیاں" }
+    note: "The shamila was presented as an instrument intended to replace the astrolabe or a quadrant, not a claim to invent either; its exact relation to the astrolabe's interchangeable plates is unread because the treatise is unpublished."
+    sources: [source/van-brummelen-khujandi-bea, source/jphogendijk-khujandi-works]
+  - external: { ar: "الربع لقياس الزوايا", en: "The quadrant for angular measurement", ur: "زاویہ پیمائی کا ربع" }
+    note: "Named alongside the astrolabe as the instrument the shamila was meant to replace."
+    sources: [source/van-brummelen-khujandi-bea]
+dependents:
+  - external: { ar: "تعديل هبة الله بن الحسين الأسترلابي لتخدم جميع العروض", en: "Hibatallah ibn al-Husayn al-Asturlabi's modification to serve all latitudes", ur: "ہبت اللہ بن الحسین الاسترلابی کی تمام عرض البلدوں کے لیے توسیع" }
+    note: "The commentary survives with the original in Birmingham 560 and a Tehran autograph; bibliographers record that Khujandi's version served one latitude while Hibatallah's method served various latitudes."
+    sources: [source/jphogendijk-khujandi-works, source/ismi-khujandi-ala-shamila]
+spread: []
+impact:
+  fields: [astronomy-instruments]
+  changed:
+    ar: "قدّم تصميماً واحداً يقول إنه يغني عند عرض محدود عن أداتين، ثم وسّع معلقه نطاق العرض؛ لا نعرف الوظائف الدقيقة لأن النص لم يُقرأ بعد {cite:van-brummelen-khujandi-bea comprehensive-instrument} {cite:jphogendijk-khujandi-works treatise}."
+    en: "Offered a single design said to replace two instruments within a limited latitude, later widened by its commentator; exact functions stay unknown until the unpublished text is read {cite:van-brummelen-khujandi-bea comprehensive-instrument} {cite:jphogendijk-khujandi-works treatise}."
+    ur: "ایک ڈیزائن پیش کیا گیا جو محدود عرض البلد میں دو آلات کی جگہ لیتا، بعد میں اس کے حاشیہ نگار نے اس کی وسعت کی؛ عین افعال تب تک نامعلوم جب تک غیر شائع شدہ متن پڑھا نہ جائے {cite:van-brummelen-khujandi-bea comprehensive-instrument} {cite:jphogendijk-khujandi-works treatise}۔"
+  history:
+    ar: "لم يبقَ نموذج للآلة ولا طبعة لنصها؛ بقيت معرفتها عبر خمس مخطوطات وملخص المراكشي في كتابه في حساب الوقت ومعاودة أوسكار شيرمر لنسبة الاختراع عبر تاريخ الحكماء {cite:jphogendijk-khujandi-works transmission} {cite:ismi-khujandi-ala-shamila witnesses}."
+    en: "No example of the instrument and no edition of its text survive; knowledge persists through five manuscripts, al-Marrakushi's timekeeping compendium and Oskar Schirmer's attribution recovered via Ibn al-Qifti {cite:jphogendijk-khujandi-works transmission} {cite:ismi-khujandi-ala-shamila witnesses}."
+    ur: "آلے کا کوئی نمونہ اور اس کے متن کی کوئی اشاعت باقی نہیں؛ پہچان پانچ مخطوطات، مراکشی کی اوقات کی جامع کتاب اور ابن قفطی کی تاریخ الحکما کے ذریعے اوسکار شمر کی شناخت دیتی ہے {cite:jphogendijk-khujandi-works transmission} {cite:ismi-khujandi-ala-shamila witnesses}۔"
+  significance: 3
+  why: "A named author's instrument design preserved through five manuscripts, a later all-latitude commentary and a medieval abridgment, but unpublished, untranslated and without a surviving example — narrower documentary reach than the Fakhri sextant."
+described_in: [work/jami-al-mabadi-wal-ghayat]
+examples: []
+sites: []
+concepts: []
+today:
+  form:
+    ar: "لا مثال باقٍ معروف؛ أدرج سزكين إعادة بناء للنسخة الأصلية في فهرس آلاته ⁦(المجلد الثاني، الصفحات 151–153)⁩ دون أن نتحقق من بنيتها هنا {cite:jphogendijk-khujandi-works sezgin-reconstruction}."
+    en: "No known surviving example; Sezgin's instrument catalogue includes a reconstruction of the original version (vol. 2, pp. 151-153), whose construction we have not inspected here {cite:jphogendijk-khujandi-works sezgin-reconstruction}."
+    ur: "کوئی معلوم باقی نمونہ نہیں؛ سزگن کے آلات کے فہرست میں اصل نسخے کی تعمیر ⁦(جلد 2، صفحات 151–153)⁩ شامل ہے جس کی تفصیل ہم نے یہاں نہیں دیکھی {cite:jphogendijk-khujandi-works sezgin-reconstruction}۔"
+  descendants:
+    ar: "لا نسب مثبت إلى الأسطرلابات اللاحقة أو الصفيحة الزرقالية؛ ما وصلت إليه المصادر المقروءة أن الصفة «الشاملة» بقيت اسماً وموضوع تعليق، لا شجرة انتقال موثقة {cite:jphogendijk-khujandi-works hajji-khalifa} {cite:van-brummelen-khujandi-bea comprehensive-instrument}."
+    en: "No established descent to later astrolabes or al-Zarqali's universal plate; what the sources read reach is that the 'comprehensive' label survived as a name and a commentary subject, not a documented transmission tree {cite:jphogendijk-khujandi-works hajji-khalifa} {cite:van-brummelen-khujandi-bea comprehensive-instrument}."
+    ur: "بعد کے اسطرلابوں یا زرقالی کی جامع تختی تک ثابت نسب نہیں؛ پڑھے ماخذوں کی رسائی اتنی ہے کہ «شاملہ» نام اور حاشیے کا موضوع رہا، مستند سلسلہ نسب نہیں {cite:jphogendijk-khujandi-works hajji-khalifa} {cite:van-brummelen-khujandi-bea comprehensive-instrument}۔"
+media: { image: media/shamila-khujandi-astrolabe, diagram: media/diagram-shamila-al-khujandi }
+kids:
+  ar: "صمم عالم قديم آلة يقول إنها تغني عن أداتين، لكنها كانت تعمل عند عرض واحد فقط. لاحقاً وجد معلق طريقة لتخدم كل العروض. اليوم نعرف القصة من مخطوطات قديمة، ولا يوجد نموذج باقٍ منها."
+  en: "An old scientist designed an instrument he said could replace two tools, but it worked at only one latitude. A later commentator found a way to make it serve every latitude. We know the story from old manuscripts, and no example of it survives."
+  ur: "ایک پرانے سائنسدان نے ایسا آلہ بنایا جس کے بارے میں کہا گیا کہ وہ دو اوزار کی جگہ لے سکتا ہے، مگر وہ صرف ایک عرض البلد پر کام کرتا تھا۔ ایک بعد کے حاشیہ نگار نے اسے ہر عرض البلد کے لیے چلانے کا طریقہ پایا۔ آج ہم کہانی پرانی مخطوطات سے جانتے ہیں، اور اس کا کوئی نمونہ باقی نہیں۔"
+sources: [source/van-brummelen-khujandi-bea, source/khujandi-mactutor, source/jphogendijk-khujandi-works, source/ismi-khujandi-ala-shamila, source/commons-khujandi-astrolabe-bini]
+status: { review: published, completeness: 3, generated_by: "Devin subagent devin-drafter-w2-01" }
+provenance: { layer: own-research, generated_by: "Devin subagent devin-drafter-w2-01", model: "unknown", run: "inventions-w2", source: "Actually read: complete Van Brummelen BEA biography (ISMI), full Hogendijk works bibliography page, ISMI text record 106303 with its four witnesses, complete MacTutor biography (no shamila coverage); Commons file page for the signed astrolabe photo. Iranica and the Birmingham Fihrist page were reached only through search excerpts and are not cited." }

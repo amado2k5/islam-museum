@@ -1,0 +1,36 @@
+id: media/diagram-ibn-al-majdi-manhal-hilal
+class: media
+kind: illustration
+label:
+  {
+    ar: "مسار رسالة المنهل العذب الزلال",
+    en: "The path of the al-Manhal al-adhb al-zulal treatise",
+    ur: "المنہل العذب الزلال کے رسالے کا راستہ",
+  }
+summary:
+  ar: "سلسلة تعليمية تبين كيف جمع ابن المجدي علم الميقات المتعلم على المارديني في رسالة واحدة تربط حساب أوائل الشهور برؤية الهلال، من الأزهر إلى قرّاء مصر في القرن التاسع عشر؛ لا تدعي اختراع التقويم."
+  en: "A teaching chain showing how Ibn al-Majdi gathered the miqat science learned under al-Mardini into one treatise linking month-beginning calculation to crescent sighting, from al-Azhar to Egyptian readers of the nineteenth century; it claims no invention of the calendar."
+  ur: "تدریسی سلسلہ جو دکھاتا ہے کہ ابن المجدی نے الماردینی سے سیکھا میقات کا علم کیسے ایک رسالے میں جمع کیا جو ماہ کے آغاز کے حساب کو رؤیتِ ہلال سے جوڑتا ہے، ازہر سے انیسویں صدی کے مصری قارئین تک؛ کیلنڈر کی ایجاد کا دعویٰ نہیں۔"
+license: CC0
+creator: "islam.museum"
+depicts: [invention/ibn-al-majdi-manhal-hilal]
+alt:
+  ar: "علم الميقات المتعلم على المارديني يجمعه ابن المجدي في رسالة تربط حساب الشهور برؤية الهلال، من الأزهر إلى قرّاء مصر."
+  en: "The miqat science learned under al-Mardini gathered by Ibn al-Majdi into a treatise linking month calculation to crescent sighting, from al-Azhar to Egyptian readers."
+  ur: "الماردینی سے سیکھا میقات کا علم ابن المجدی نے ایک رسالے میں جمع کیا جو ماہ کے حساب کو رؤیت سے جوڑتا ہے، ازہر سے مصری قارئین تک۔"
+generated:
+  {
+    tool: "site/src/components/InventionDiagram.astro (generic chain drawn at build time)",
+    version: "1",
+    date: "2026-11-15",
+  }
+sources: [source/islamsci-ibn-al-majdi-bea, source/bibalex-azhar-astronomy-manuscripts-2006]
+status: { review: published, completeness: 2, generated_by: "Devin drafter w2-06" }
+provenance:
+  {
+    layer: own-research,
+    generated_by: "Devin drafter w2-06",
+    model: "devin",
+    run: "inventions-w2-06",
+    source: "Generic relationship diagram for the treatise's school-to-treatise-to-readership chain; not a reconstruction of historical instruments.",
+  }

@@ -1,0 +1,9 @@
+# Inventions wave-2 ledger (Devin orchestrator)
+
+Packets inventions-w2-* drafted/verified 15 November 2026; landed by the inventions train.
+
+2026-11-15 | inventions-w2-01 | invention/shamila-al-khujandi | drafting packet: 1 invention + 2 media + 3 sources, ar/en/ur 17-section prose; 6 slice leads skipped with reasons in manifest exclusions (D-009 mural quadrant/shamila bar noted for verifier; D-010 four Farghani concepts; D-011 qibla methods)
+2026-11-15 | inventions-w2-02 | invention/hijri-lunar-calendar, invention/battani-solstice-obliquity, invention/battani-equinox-precession | drafting packet: 3 inventions + 5 media + 2 sources, ar/en/ur 17-section prose; 4 slice leads skipped/deferred with reasons in manifest exclusions (fixed-stars and eclipses drafted then withdrawn for capacity; chess and generic astronomy genuine skips)
+2026-11-15 | inventions-w2-03 | invention/farghani-eccentric-orb, invention/farghani-epicycle-radii, invention/farghani-heliacal-visibility, invention/farghani-lunar-five-motions, invention/farghani-parallax-arc | drafting packet: 5 inventions + 9 media + 6 sources + 1 person update, ar/en/ur 17-section prose >=1500 words; 2 slice leads skipped with reasons (zodiac/ecliptic, khalwa)
+2026-11-15 | inventions-w2-04 | invention/ruju-al-kawakib, invention/nastaliq-script, invention/kurawiyyat-al-sama, invention/mayl-falak-al-buruj, invention/manazil-al-qamar | drafting packet: 5 inventions + 10 media + 6 sources + 2 person updates, ar/en/ur 17-section prose; 2 slice leads skipped with reasons (two Persian astrolabe object records)
+2026-11-15 | inventions-w2-06 | invention/battani-zij-sabi, invention/dairat-al-muaddil, invention/ibn-al-majdi-manhal-hilal | drafting packet: 3 inventions + 6 media + 6 sources + 2 person updates, ar/en/ur 17-section prose; 5 slice leads skipped with reasons (translation, glossary, two commentaries, one compendium without cited maker faith basis)

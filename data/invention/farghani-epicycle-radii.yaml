@@ -1,0 +1,160 @@
+id: invention/farghani-epicycle-radii
+class: invention
+label:
+  ar: جدول الفرغاني لأنصاف أقطار أفلاك التدوير
+  en: al-Farghani's table of epicycle radii
+  ur: فرغانی کا تدويری دائرے کے نصف قطر کا جدول
+names:
+- kind: alternate
+  lang: en
+  value: al-Farghani's planetary epicycle parameters
+- kind: alternate
+  lang: ar
+  value: مقادير أفلاك التدوير عند الفرغاني
+summary:
+  ar: في الفصل السادس عشر من جوامع علم النجوم يعطي الفرغاني أنصاف أقطار أفلاك التدوير للكواكب على مقياس موحد يكون فيه نصف
+    قطر الفلك الخارج المركز ستون جزءاً، ويذكر قيماً مثل ستة أجزاء ونصف للقمر واثنين وعشرين جزءاً ونصفاً لعطارد وستة أجزاء
+    وثلث لزحل وأحد عشر جزءاً ونصفاً للمشتري ⁦(قراءات OCR تحتاج تحققاً بصرياً)⁩ {cite:farghani-elements-astronomy p. 65}.
+  en: In chapter sixteen of his Jawami' al-Farghani gives the planets' epicycle radii on a unified scale where the eccentric
+    deferent radius is sixty parts, with values such as six and a half parts for the Moon, twenty-two and a half for Mercury,
+    six and a third for Saturn and eleven and a half for Jupiter ⁦(OCR readings needing visual check)⁩ {cite:farghani-elements-astronomy
+    p. 65}.
+  ur: جوامع کے باب سولہ میں فرغانی سیاروں کے تدويری دائرے کے نصف قطر ایک یگانہ پیمانے پر دیتے ہیں جس میں خارجِمرکزی دائرے
+    کا نصف قطر ساٹھ حصے ہے، مثلاً چاند کے لیے ساڑھے چھ، عطارد کے لیے بائیس اور آدھے، زحل کے لیے چھ کے ایک تہائی اور مشتری
+    کے لیے گیارہ اور آدھے حصے ⁦(OCR کی قراءتیں بصری تصدیق طلب ہیں)⁩ {cite:farghani-elements-astronomy p. 65}۔
+domain: astronomy-instruments
+kind: method
+disciplines:
+- astronomy
+- mathematics
+wings:
+- ideas
+regions:
+- levant-iraq
+periods:
+- period/abbasid-early
+era:
+  origins: abbasid-golden
+  first_attested:
+    edtf: ../0861
+    calendar: julian
+    precision: year
+    status: historical
+    note: 'Open latest bound only: TDV reports al-Farghani''s death after 247/861; the chapter''s composition date is not
+      established and this is not an asserted writing year. Printed numbers in the OCR need visual check against the scan
+      before being treated as final.'
+    sources:
+    - source/tdv-fergani-kaya
+  status_today: replaced
+origin:
+  place: place/samarra
+  context:
+    ar: فصل من كتاب الفرغاني في الحركات السماوية ضمن بلاط الخلافة العباسية بسامرا، لا تاريخ تأليف محدد.
+    en: A chapter of al-Farghani's treatise on celestial motions within the Abbasid caliphal milieu of Samarra; no exact composition
+      date is attested.
+    ur: سامرا کے عباسی دربار میں فرغانی کی آسمانی حرکات کی کتاب کا ایک باب؛ تالیف کی کوئی متعین تاریخ منقول نہیں۔
+makers:
+- person: person/al-farghani
+  role: transmitter
+  note: Transmits the epicycle-radii scheme of earlier planetary astronomy in a unified scale inside his Arabic summary; Muslim
+    basis is Iranica's 'Muslim astronomer' classification and TDV's Abbasid-court biography, with Sunni the museum default
+    frame.
+  sources:
+  - source/farghani-elements-astronomy
+  - source/tdv-fergani-kaya
+  - source/iranica-fargani-ahmad
+attribution:
+  status: transmission
+  claim:
+    ar: نقل جدول أنصاف أقطار أفلاك التدوير للكواكب إلى العربية على مقياس موحد، لا اختراع الفلك الصغير نفسه.
+    en: Transmission of the planets' epicycle radii into Arabic on a unified scale, not the invention of the small orb itself.
+    ur: سیاروں کے تدويری دائرے کے نصف قطر کو عربی میں یکساں پیمانے پر پہنچانا، چھوٹے دائرے کی ایجاد نہیں۔
+  basis:
+    ar: يعرض الفصل السادس عشر أنصاف أقطار أفلاك التدوير بمقدار يكون فيه نصف قطر الفلك الخارج المركز ستون جزءاً، مع آدوار الكواكب
+      وأقواس الرجوع {cite:farghani-elements-astronomy p. 65}{cite:farghani-elements-astronomy p. 67}.
+    en: Chapter sixteen gives the epicycle radii on a scale where the eccentric deferent radius is sixty parts, together with
+      the planets' periods and retrograde arcs {cite:farghani-elements-astronomy p. 65}{cite:farghani-elements-astronomy p.
+      67}.
+    ur: باب سولہ میں تدويری دائرے کے نصف قطر اس پیمانے پر دیے گئے ہیں جس میں خارجِمرکزی دائرے کا نصف قطر ساٹھ حصے ہے، ساتھ
+      سیاروں کے ادوار اور رجعتی قوسیں {cite:farghani-elements-astronomy p. 65}{cite:farghani-elements-astronomy p. 67}۔
+  perspectives: []
+precursors:
+- external:
+    ar: نماذج الكواكب ذات أفلاك التدوير في فلك بطليموس وما قبله
+    en: Epicycle-based planetary models in Ptolemy's astronomy and earlier traditions
+    ur: بطلیموس کی فلکیات اور پہلے کی روایات میں تدويری دائرے والے سیاروں کے نمونے
+  note: The treatise is described by TDV and Iranica as a summary of the Almagest; the radii table transmits an inherited
+    parameter set.
+  sources:
+  - source/tdv-fergani-kaya
+  - source/iranica-fargani-ahmad
+dependents:
+- external:
+    ar: كتب الفلك العربية واللاتينية التي نقلت عن جوامع علم النجوم
+    en: Arabic and Latin astronomical books that drew on the Jawami'
+    ur: جوامع علم النجوم سے مستفید عربی اور لاطینی فلکی کتابیں
+  note: TDV documents Latin translations of 1134 and 1175 and European use into the fifteenth century; the parameter chapters
+    fed that transmission.
+  sources:
+  - source/tdv-fergani-kaya
+spread: []
+impact:
+  fields:
+  - astronomy-instruments
+  - mathematics
+  changed:
+    ar: قدّم للقراء المسلمين واللاتينيين جدول معاملات موحداً لأفلاك التدوير، فسهّل حساب مواقف الكواكب في التقليد البطلمي.
+    en: Gave Muslim and Latin readers a unified parameter table for epicycles, easing planetary-position computation in the
+      Ptolemaic tradition.
+    ur: مسلم اور لاطینی قارئین کو تدويری دائرے کے لیے یکساں پیرامیٹر جدول دیا جس سے بطلیمی روایت میں سیاروں کے مقام کا حساب
+      آسان ہوا۔
+  history:
+    ar: جزء من كتاب أثّر في فلك أوروبا من القرن الثاني عشر إلى نهاية الخامس عشر وفق معجم TDV {cite:tdv-fergani-kaya transmission}.
+    en: Part of a book that influenced European astronomy from the twelfth to the end of the fifteenth century, per TDV {cite:tdv-fergani-kaya
+      transmission}.
+    ur: ایسی کتاب کا حصہ جس نے بارہویں سے پندرہویں صدی کے آخر تک یورپی فلکیات پر اثر ڈالا، TDV کے مطابق {cite:tdv-fergani-kaya
+      transmission}۔
+  significance: 3
+  why: Documented unified parameter table in an influential transmitted textbook; bounded because the epicycle itself and
+    its values descend from earlier astronomy.
+described_in:
+- work/jawami-ilm-al-nujum
+examples: []
+sites: []
+concepts:
+- concept/falak-al-tadwir
+today:
+  form:
+    ar: جدول معاملات تاريخي لدراسة النماذج الكوكبية قبل كوبرنيكوس.
+    en: A historical parameter table for studying pre-Copernican planetary models.
+    ur: قبل از کوپرنکس سیاروں کے نمونوں کے مطالعے کے لیے تاریخی پیرامیٹر جدول۔
+  descendants:
+    ar: لا نسب مباشر مثبت إلى حسابات الكواكب الحديثة.
+    en: No direct genealogy to modern planetary computation.
+    ur: جدید سیاروں کے حسابات تک براہ راست نسب ثابت نہیں۔
+media:
+  image: media/ptolemaic-deferent-epicycle
+  diagram: media/diagram-farghani-epicycle-radii
+kids:
+  ar: قبل الحاسبات الحديثة، كانت أرقام الجداول تخبر الفلكي أين يدور كل كوكب على دائرته الصغيرة؛ هذه الأرقام منقولة من فلك
+    أقدم وليست قياساً جديداً.
+  en: Before modern computing, table numbers told the astronomer where each planet rolled on its small circle; these figures
+    are carried over from older astronomy, not a new measurement.
+  ur: جدید کمپیوٹنگ سے پہلے جدول کے اعداد ماہر فلکیات کو بتاتے تھے کہ ہر سیارہ اپنے چھوٹے دائرے پر کہاں چلتا ہے؛ یہ اعداد
+    پرانی فلکیات سے منتقل ہیں، نئی پیمائش نہیں۔
+sources:
+- source/farghani-elements-astronomy
+- source/tdv-fergani-kaya
+- source/iranica-fargani-ahmad
+- source/commons-ptolemaic-deferent-epicycle
+status:
+  review: published
+  completeness: 3
+  generated_by: Devin (SWE-2 High)
+provenance:
+  layer: own-research
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: inventions-w2
+  source: Arabic and Latin OCR of the 1669 Golius edition read at the cited PDF pages (OCR numbers flagged); TDV FERGANI article
+    and Encyclopaedia Iranica excerpt read 2026-11-15; Commons deferent-epicycle file metadata checked.

@@ -1,0 +1,36 @@
+id: media/diagram-battani-zij-sabi
+class: media
+kind: illustration
+label:
+  {
+    ar: "سلسلة تأليف الزيج الصابي",
+    en: "The composition chain of al-Zij al-Sabi",
+    ur: "الزیج الصابی کی تالیف کا سلسلہ",
+  }
+summary:
+  ar: "سلسلة تعليمية تبين كيف تحول أرصاد البتاني في الرقة وأنطاكية إلى أبواب وجداول في الزيج، ثم ترجمته إلى اللاتينية والقشتالية؛ لا تدعي اختراع نوع الزيج."
+  en: "A teaching chain showing how al-Battani's observations at Raqqa and Antioch became the chapters and tables of the zij, then its Latin and Castilian transmission; it claims no invention of the zij genre."
+  ur: "تدریسی سلسلہ جو دکھاتا ہے کہ بتانی کے رقہ و انطاکیہ کے ارصاد کیسے زیج کے ابواب و جداول بنے، پھر لاطینی اور قشتالی ترسیل؛ زیج کی صنف کی ایجاد کا دعویٰ نہیں۔"
+license: CC0
+creator: "islam.museum"
+depicts: [invention/battani-zij-sabi]
+alt:
+  ar: "أرصاد البتاني في الرقة وأنطاكية تغذي أبواب الزيج وجداوله، ثم تترجم إلى اللاتينية والقشتالية."
+  en: "Al-Battani's observations at Raqqa and Antioch feed the zij's chapters and tables, then pass into Latin and Castilian."
+  ur: "بتانی کے رقہ و انطاکیہ کے ارصاد زیج کے ابواب و جداول کو کھلاتے ہیں، پھر لاطینی اور قشتالی میں منتقل ہوتے ہیں۔"
+generated:
+  {
+    tool: "site/src/components/InventionDiagram.astro (generic chain drawn at build time)",
+    version: "1",
+    date: "2026-11-15",
+  }
+sources: [source/nallino-albatenii-opus-astronomicum, source/zij-sabi-nallino-byblion]
+status: { review: published, completeness: 2, generated_by: "Devin drafter w2-06" }
+provenance:
+  {
+    layer: own-research,
+    generated_by: "Devin drafter w2-06",
+    model: "devin",
+    run: "inventions-w2-06",
+    source: "Generic relationship diagram for the zij's observational-to-table composition and transmission; not a reconstruction of historical instruments.",
+  }

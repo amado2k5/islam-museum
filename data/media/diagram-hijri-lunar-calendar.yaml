@@ -1,0 +1,19 @@
+id: media/diagram-hijri-lunar-calendar
+class: media
+kind: illustration
+label: { ar: "من السنة القمرية القديمة إلى التقويم الهجري", en: "From the old lunar year to the Hijri calendar", ur: "پرانے قمری سال سے ہجری کیلنڈر تک" }
+summary:
+  ar: "سلسلة تعليمية تبين النسئ الجاهلي وقرار إلغائه والربط بالعهد الهجري؛ لا تدعي صيغة حسابية واحدة منذ البداية."
+  en: "A teaching chain showing pre-Islamic intercalation, its abolition and the Hijra-era anchor; it claims no single computation from the start."
+  ur: "تدریسی سلسلہ جو جاهلیت کے نسئ، اس کے خاتمے اور عہدِ ہجرت کی ربط دکھاتا ہے؛ ابتدائی ایک ہی حسابی صيغة کا دعویٰ نہیں۔"
+license: CC0
+creator: "islam.museum"
+depicts: [invention/hijri-lunar-calendar]
+alt:
+  ar: "سنة قمرية قديمة مع شهر نسئي، ثم إلغاؤه في عهد عمر، ثم تقويم هجري باثني عشر شهراً هجرياً يبدأ من الهجرة."
+  en: "An old lunar year with an intercalary month, then its abolition under Umar, then a twelve-month Hijri calendar starting from the Hijra."
+  ur: "نسئی مہینے والا پرانا قمری سال، پھر عمر کے دور میں اس کا خاتمہ، پھر ہجرت سے شروع ہونے والا بارہ ماہوں کا ہجری کیلنڈر۔"
+generated: { tool: "site/src/components/InventionDiagram.astro (generic chain drawn at build time)", version: "1", date: "2026-11-15" }
+sources: [source/tdv-takvim-akgur, source/iranica-calendars-abdollahy]
+status: { review: published, completeness: 2, generated_by: "Devin drafter w2-02" }
+provenance: { layer: own-research, generated_by: "Devin drafter w2-02", model: "devin", run: "inventions-w2-02", source: "Generic relationship diagram for the Hijri calendar's documented institutional history; not a reconstruction of historical instruments." }

@@ -1,0 +1,98 @@
+id: invention/ruju-al-kawakib
+class: invention
+label: { ar: "رجوع الكواكب", en: "The retrograde motion of the planets", ur: "سیاروں کا رجوع" }
+names:
+  - { value: "rujūʿ al-kawākib", kind: alternate, lang: ar }
+  - { value: "retrograde motion", kind: alternate, lang: en }
+  - { value: "planetary retrogression", kind: alternate, lang: en }
+summary:
+  ar: "الحركة التي يظهر بها الكوكب الخارجي راجعاً في فلك البروج أحياناً؛ شرحها الفرغاني في فصله عن الكواكب بتركيب حركته على فلك التدوير مع حركة مركزه على الفلك الحامل، فبدا الكوكب راجعاً حين تغلبت حركته الخاصة على حركة مركزه، وأعظم رجوعاً عند الحضيض {cite:farghani-elements-astronomy pp. 193–195} {cite:tdv-ilm-i-felek}."
+  en: "The motion by which an outer planet sometimes appears to move backward along the zodiac; al-Farghani explains it by composing the planet's motion on the epicycle with the motion of its centre on the carrying circle, so the planet appears retrograde when its own motion outweighs the centre's, most strongly at perigee {cite:farghani-elements-astronomy pp. 193–195} {cite:tdv-ilm-i-felek}."
+  ur: "وہ حرکت جس میں بیرونی سیارہ کبھی کبھار بروج میں پیچھے جاتا نظر آتا ہے؛ الفرغانی نے اس کی وضاحت سیارے کی حرکت فلکِ تدویر پر اور اس کے مرکز کی حرکت حامل دائرے پر، ان کا امتزاج کر کے دی، تو جب سیارے کی اپنی حرکت مرکز کی حرکت پر غالب آئی تو وہ رجوعی نظر آیا، حضیض کے قریب سب سے زیادہ {cite:farghani-elements-astronomy pp. 193–195} {cite:tdv-ilm-i-felek}۔"
+domain: astronomy-instruments
+kind: concept
+disciplines: [astronomy]
+wings: [ideas]
+regions: [persia-central-asia]
+periods: [period/abbasid-early]
+era:
+  origins: abbasid-golden
+  first_attested:
+    edtf: "0850~"
+    calendar: julian
+    precision: century
+    status: historical
+    note: "Al-Farghani's Elements (before 857 CE) sets out the epicycle explanation of retrogression in its planetary chapter; the epicycle model descends from Ptolemy's Almagest."
+    sources: [source/farghani-elements-astronomy, source/commons-ptolemy-epicycles]
+  status_today: replaced
+origin:
+  place: place/baghdad
+  polity: polity/abbasid-caliphate
+  context:
+    ar: "شرح الفرغاني رجوع الكواكب في كتابه «الجوامع في علم النجوم»، في المنهج الفلكي الذي دوّن الحسابات الكوكبية التي تحتاجها الفلكية العباسية {cite:farghani-elements-astronomy pp. 193–195} {cite:tdv-ilm-i-felek}."
+    en: "Al-Farghani explains planetary retrogression in his 'Elements', within the astronomical curriculum that supplied the computations of Abbasid astronomy {cite:farghani-elements-astronomy pp. 193–195} {cite:tdv-ilm-i-felek}."
+    ur: "الفرغانی نے اپنی «الجوامع في علم النجوم» میں سیاروں کے رجوع کی وضاحت کی، عباسی فلکیات کے نصاب کے مطابق جو سیاروں کے حسابات فراہم کرتا تھا {cite:farghani-elements-astronomy pp. 193–195} {cite:tdv-ilm-i-felek}۔"
+makers:
+  - person: person/al-farghani
+    role: describer
+    place: place/baghdad
+    note: "Al-Farghani gives the epicycle-and-deferent explanation of retrograde motion, with the differing limits of Saturn, Jupiter, Mars, Venus and Mercury {cite:farghani-elements-astronomy pp. 193–195}. The geometric model is Ptolemaic; his role is exposition within the curriculum {cite:commons-ptolemy-epicycles} {cite:tdv-ilm-i-felek}."
+    sources: [source/farghani-elements-astronomy, source/commons-ptolemy-epicycles]
+attribution:
+  status: transmission
+  claim:
+    ar: "شرح الرجوع نقل عن النموذج البطلمي: الفلك التدويري والفلك الحامل؛ والفرغاني لم يخترع النموذج بل بيّنه بالعربية للطلبة، مع تفصيل حدود الرجوع لكل كوكب."
+    en: "The retrogression explanation is transmitted from the Ptolemaic model — the epicycle and the deferent; al-Farghani did not invent the model but explained it in Arabic for students, detailing each planet's limits of retrograde arc."
+    ur: "رجوع کی وضاحت بطلمیوسی ماڈل — فلکِ تدویر اور فلکِ مرجعی — سے منتقل ہے؛ الفرغانی نے ماڈل ایجاد نہیں کیا بلکہ طلبہ کے لیے اسے عربی میں بیان کیا، ہر سیارے کی رجوعی حد کی تفصیل کے ساتھ۔"
+  basis:
+    ar: "يشرح الفرغاني أن الكوكب يجري على الفلك الصغير إلى المغرب بينما يدور مركزه على الفلك الكبير إلى المشرق، فإذا غلبت حركة الكوكب على حركة المركز بدا راجعاً، وأن الرجوع أعظم عند الحضيض {cite:farghani-elements-astronomy pp. 193–195}. ويرسم نفس النموذج مخطط بطلميوس «كيف تفسر الأفلاك التدورية الرجوع» {cite:commons-ptolemy-epicycles}."
+    en: "Al-Farghani explains that the planet runs westward on the small circle while its centre travels eastward on the large one; when the planet's motion outweighs the centre's it appears retrograde, greatest at perigee {cite:farghani-elements-astronomy pp. 193–195}. The same epicycle model is drawn by the Ptolemy epicycles diagram {cite:commons-ptolemy-epicycles}."
+    ur: "الفرغانی وضاحتا ہے کہ سیارہ چھوٹے دائرے پر مغرب کی طرف چلتا ہے جبکہ اس کا مرکز بڑے دائرے پر مشرق کی طرف سفر کرتا ہے؛ جب سیارے کی حرکت مرکز کی حرکت پر غالب آئی تو وہ رجوعی نظر آیا، حضیض کے قریب سب سے زیادہ {cite:farghani-elements-astronomy pp. 193–195}۔ وہی فلکِ تدویر کا ماڈل بطلمیوس کے خاکے میں بھی دکھایا گیا ہے {cite:commons-ptolemy-epicycles}۔"
+precursors:
+  - external: { ar: "نموذج بطلميوس — الفلك التدويري والفلك الحامل", en: "Ptolemy's model — the epicycle and the deferent", ur: "بطلمیوس کا ماڈل — فلکِ تدویر اور فلکِ مرجعی" }
+    note: "The epicycle mechanism was Ptolemy's device for reproducing the observed planetary motions, transmitted into Arabic astronomy {cite:commons-ptolemy-epicycles} {cite:tdv-ilm-i-felek}."
+    sources: [source/commons-ptolemy-epicycles, source/tdv-ilm-i-felek]
+  - external: { ar: "ملاحظة الرجوع الفلكي القديمة", en: "The ancient observation of planetary retrogression", ur: "سیاروں کے رجوع کا قدیم مشاہدہ" }
+    note: "Greek astronomers had observed and modelled the planets' backward loops long before the Arabic exposition {cite:farghani-elements-astronomy pp. 193–195} {cite:commons-ptolemy-epicycles}."
+    sources: [source/farghani-elements-astronomy, source/commons-ptolemy-epicycles]
+dependents:
+  - external: { ar: "زيجات الحسابات الكوكبية", en: "The zij tables of planetary computation", ur: "سیاروں کے حساب کی زیج جداول" }
+    note: "The epicycle parameters al-Farghani details fed the zij tradition of planetary positions used for astrology and calendars {cite:farghani-elements-astronomy pp. 193–195} {cite:tdv-ilm-i-felek}."
+    sources: [source/farghani-elements-astronomy, source/tdv-ilm-i-felek]
+  - external: { ar: "النقد الكوبيرنيكي اللاحق للمدارات", en: "The later Copernican critique of the orbits", ur: "بعد کی کوپرنیکسی تنقید اور مداروں کی" }
+    note: "The epicycle model was eventually replaced by heliocentric ellipses; al-Farghani's text preserves the transmitted form {cite:farghani-elements-astronomy pp. 193–195} {cite:commons-ptolemy-epicycles}."
+    sources: [source/farghani-elements-astronomy, source/commons-ptolemy-epicycles]
+spread: []
+impact:
+  fields: [astronomy-instruments, mathematics]
+  changed:
+    ar: "منح المتعلمين المسلمين أداة هندسية موحدة لتفسير أقدم لغز في السماء: لماذا يبدو المريخ وأخواته يراجعون أحياناً."
+    en: "It gave Muslim students a unified geometric tool for explaining the sky's oldest puzzle: why Mars and its sisters sometimes seem to walk backward."
+    ur: "اس نے مسلم طلبہ کو آسمان کے قدیم ترین معمہ کی وضاحت کے لیے ایک متحد ہندسی آلہ دیا: مریخ اور اس کے ساتھی کیوں کبھی پیچھے جاتے نظر آتے ہیں۔"
+  history:
+    ar: "بقي نموذج الفلك التدويري هو الإطار الحسابي للسيارات حتى عصر النهضة الأوروبية؛ وحفظ الفرغاني بيانه العربي."
+    en: "The epicycle framework remained the computational frame for the planets until the European Renaissance; al-Farghani preserved its Arabic exposition."
+    ur: "فلکِ تدویر کا ماڈل یورپی نشاة تک سیاروں کا حسابی ڈھانچہ رہا؛ الفرغانی نے اس کا عربی بیان محفوظ کیا۔"
+  significance: 3
+  why: "A transmitted explanation, not an invention; al-Farghani's chapter made the Ptolemaic epicycle readable for the Abbasid curriculum and preserved its precise per-planet limits."
+described_in: []
+examples: []
+sites: []
+concepts: [concept/ruju-al-kawakib]
+today:
+  form:
+    ar: "ما زال شرح الأفلاك التدورية يُدرَّس في تواريخ الفلك ونماذج الحركة الكوكبية القديمة، مع ملاحظة أن النموذج استُبدل بالمدارات الإهليلجية."
+    en: "The epicycle explanation is still taught in histories of astronomy and models of ancient planetary motion, with the note that the model was superseded by ellipses."
+    ur: "فلکِ تدویر کی وضاحت آج بھی فلکیات کی تاریخ اور قدیم سیاروں کی حرکت کے نمونوں میں پڑھائی جاتی ہے، اس نوٹ کے ساتھ کہ یہ ماڈل بیضوی مداروں سے بدل گیا۔"
+  descendants:
+    ar: "قاد النموذج إلى نقاشات القياس الدقيق للمدارات، ومنها ما أدى في النهاية إلى نموذج كوبيرنيكوس."
+    en: "The model led to debates on precise orbital measurement, among them what eventually produced the Copernican system."
+    ur: "اس ماڈل نے مداروں کی درست پیمائش کے مباحث کو جنم دیا، جن میں سے ایک نے بالآخر کوپرنیکسی نظام پیدا کیا۔"
+media: { image: media/ptolemy-epicycles-svg, diagram: media/diagram-ruju-al-kawakib }
+kids:
+  ar: "من الأرض تبدو الكواكب أحياناً وكأنها تمشي إلى الوراء لأسابيع، ثم تعود إلى أمامها. عرف الفلكيون المسلمون هذا اللغز منذ ألف سنة. شرح الفرغاني أنه ليس وهماً: كل كوكب يسير على دائرة صغيرة مركزها يدور على دائرة كبيرة، فإذا سبق الكوكب مركزه بدا راجعاً."
+  en: "From Earth, the planets sometimes seem to walk backward for weeks, then go forward again. Muslim astronomers knew this puzzle a thousand years ago. Al-Farghani explained it is no trick: each planet rides a small circle whose centre travels a big circle, and when the planet outruns its centre it looks like it is going backward."
+  ur: "زمین سے سیارے کبھی کبھی ہفتوں پیچھے جاتے نظر آتے ہیں، پھر دوبارہ آگے۔ مسلم فلکیات دانوں کو یہ پہیلی ہزار سال پہلے معلوم تھی۔ الفرغانی نے وضاحت کی کہ یہ کوئی چال نہیں: ہر سیارہ ایک چھوٹے دائرے پر سوار ہے جس کا مرکز ایک بڑے دائرے پر چلتا ہے، اور جب سیارہ اپنے مرکز سے آگے نکل جائے تو وہ پیچھے جاتا نظر آتا ہے۔"
+sources: [source/farghani-elements-astronomy, source/commons-ptolemy-epicycles, source/tdv-ilm-i-felek]
+status: { review: published, completeness: 3 }
+provenance: { layer: own-research, generated_by: "devin-drafter-w2-04", model: "unknown", run: "inventions-w2", source: "Farghani OCR pp. 193-195; Commons Ptolemy Epicycles SVG file page; TDV ilm-i felek" }

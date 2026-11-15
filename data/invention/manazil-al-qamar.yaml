@@ -1,0 +1,98 @@
+id: invention/manazil-al-qamar
+class: invention
+label: { ar: "منازلُ القمرِ الثمانيةُ والعشرونَ", en: "The twenty-eight lunar mansions", ur: "چوبیس منازلِ قمر" }
+names:
+  - { value: "manāzil al-qamar", kind: alternate, lang: ar }
+  - { value: "lunar mansions", kind: alternate, lang: en }
+  - { value: "manzil", kind: alternate, lang: ar }
+summary:
+  ar: "نظام فلكي قسّم السماء إلى ثمانية وعشرين منزلاً قمرياً يسير فيها القمر في نحو يوم لكل منزل، استُقبل من النظام الهندي وطُوبق مع أنجماء الأنواء العربية، ودوّنه الفرغاني في فصله العشرين من كتابه {cite:kunitzsch-lunar-mansions-2008 pp. 1242–1243} {cite:farghani-elements-astronomy p. 53}. وبقي النظام مرجعاً في حساب الزمن ومعرفة الفراسة المرتبطة بالأنواء {cite:kunitzsch-lunar-mansions-2008 pp. 1242–1243}."
+  en: "An astronomical system dividing the heavens into twenty-eight lunar mansions through which the Moon passes in about a day each; received from the Indian system and matched to the Arabic anwā' asterisms, it was recorded by al-Farghani in the twentieth chapter of his book {cite:kunitzsch-lunar-mansions-2008 pp. 1242–1243} {cite:farghani-elements-astronomy p. 53}. The system remained a reference for time-reckoning and the mansion lore attached to the anwā' {cite:kunitzsch-lunar-mansions-2008 pp. 1242–1243}."
+  ur: "ایک فلکیاتی نظام جس نے آسمان کو اٹھائیس قمری منازل میں تقسیم کیا جن میں چاند تقریباً ایک دن میں ایک گزر دیتا ہے؛ یہ نظام ہند سے پایا گیا اور عربی انواء سے ملایا گیا، اور الفرغانی نے اسے اپنی کتاب کے بیسویں باب میں لکھا {cite:kunitzsch-lunar-mansions-2008 pp. 1242–1243} {cite:farghani-elements-astronomy p. 53}۔ یہ نظام وقت کے حساب اور انواء سے جڑی منزلوں کی روایات کا مرجع رہا {cite:kunitzsch-lunar-mansions-2008 pp. 1242–1243}۔"
+domain: astronomy-instruments
+kind: concept
+disciplines: [astronomy]
+wings: [ideas]
+regions: [persia-central-asia, arabia]
+periods: [period/abbasid-early]
+era:
+  origins: abbasid-golden
+  first_attested:
+    edtf: "0850~"
+    calendar: julian
+    precision: century
+    status: historical
+    note: "Al-Farghani's Elements of Astronomy (written before 857 CE per the edition read) already lists the 28 mansions; the system itself was received from India at an earlier, unrecorded date per Kunitzsch."
+    sources: [source/farghani-elements-astronomy, source/kunitzsch-lunar-mansions-2008]
+  status_today: transformed
+origin:
+  place: place/baghdad
+  polity: polity/abbasid-caliphate
+  context:
+    ar: "دوّن الفرغاني قائمة المنازل الثمانية والعشرين في بابه العشرين من كتابه «الجوامع في علم النجوم»، وهو كتاب منهجي في الفلك أُلّف في حاضرة الدولة العباسية وقرئ في مدارسها {cite:farghani-elements-astronomy p. 53} {cite:muruj-al-dhahab p. 519}."
+    en: "Al-Farghani recorded the list of twenty-eight mansions in the twentieth chapter of his 'Elements of Astronomy', a systematic treatise composed in the Abbasid capital's scholarly world and read in its schools {cite:farghani-elements-astronomy p. 53} {cite:muruj-al-dhahab p. 519}."
+    ur: "الفرغانی نے اٹھائیس منازل کی فہرست اپنی کتاب «الجوامع في علم النجوم» کے بیسویں باب میں لکھی؛ یہ کتاب عباسی دار الحکومت کے علمی ماحول میں لکھی گئی اور وہاں کے مدارس میں پڑھی گئی {cite:farghani-elements-astronomy p. 53} {cite:muruj-al-dhahab p. 519}۔"
+makers:
+  - person: person/al-farghani
+    role: describer
+    place: place/baghdad
+    note: "Al-Farghani lists the twenty-eight mansions in his twentieth chapter with their star groups and risings/settings {cite:farghani-elements-astronomy pp. 51–53}; Kunitzsch shows the Arabic list descends from the Indian system via the anwā' matching, so al-Farghani transmitted and fixed the received scheme rather than inventing it {cite:kunitzsch-lunar-mansions-2008 pp. 1242–1243}."
+    sources: [source/farghani-elements-astronomy, source/kunitzsch-lunar-mansions-2008]
+attribution:
+  status: transmission
+  claim:
+    ar: "لم يخترع العرب نظام المنازل؛ استقبلوه من النظام الهندي في زمن مبكر، وطابقوا كل منزل مع نجم أو مجمع من أنجماء الأنواء العربية، فصار للنظام شكل عربي موحّد دوّنه الفرغاني."
+    en: "The Arabs did not invent the mansion system; they received it from the Indian system at an early date, matched each mansion to an Arabic anwā' star or asterism, and al-Farghani fixed the unified Arabic form in his treatise."
+    ur: "عربوں نے منازل کا نظام ایجاد نہیں کیا؛ انہوں نے اسے ایک قدیم زمانے میں ہند کے نظام سے پایا، ہر منزل کو عربی انواء کے ستارے یا مجمع سے ملایا، اور الفرغانی نے اسے اپنی کتاب میں متحد عربی شکل دی۔"
+  basis:
+    ar: "يبيّن كونيتسش أن قائمة المنازل عند العرب تعود إلى النظام الهندي عبر المطابقة مع الأنواء، وأن الفرغاني في القرن الثالث الهجري يذكرها بوصفها تقليداً مستقراً لا اختراعاً شخصياً {cite:kunitzsch-lunar-mansions-2008 pp. 1242–1243}. ويفصّل الفرغاني أسماء المنازل الثمانية والعشرين ونجوم كل منها ومواقيت طلوعها وغروبها {cite:farghani-elements-astronomy pp. 51–53}."
+    en: "Kunitzsch shows the Arabic mansion list descends from the Indian system through the anwā' matching, and that al-Farghani in the third century AH lists it as an established tradition, not a personal invention {cite:kunitzsch-lunar-mansions-2008 pp. 1242–1243}. Al-Farghani details the twenty-eight names, each mansion's stars and its risings and settings {cite:farghani-elements-astronomy pp. 51–53}."
+    ur: "کونیتزش دکھاتے ہیں کہ عربوں کی منازل کی فہرست انواء کے ذریعے ہند کے نظام سے ماخوذ ہے، اور تیسری صدی ہجری کا الفرغانی اسے ایک قائم روایت کے طور پر بیان کرتا ہے، ذاتی ایجاد کے طور پر نہیں {cite:kunitzsch-lunar-mansions-2008 pp. 1242–1243}۔ الفرغانی اٹھائیس ناموں، ہر منزل کے ستاروں اور ان کے طلوع و غروب کے اوقات کو تفصیل سے بیان کرتا ہے {cite:farghani-elements-astronomy pp. 51–53}۔"
+precursors:
+  - external: { ar: "نظام المنازل الهندي — التقسيم القديم للسماوات إلى ثمانية وعشرين منزلاً", en: "The Indian mansion system — the older division of the heavens into twenty-eight stations", ur: "ہندی منازل کا نظام — آسمان کی اٹھائیس منازل میں قدیم تقسیم" }
+    note: "The twenty-eight-station scheme is attested in Indian astronomy before the Arabic reception; the Arabic list was fitted to it {cite:kunitzsch-lunar-mansions-2008 pp. 1242–1243}."
+    sources: [source/kunitzsch-lunar-mansions-2008]
+  - external: { ar: "أنجماء الأنواء — أسماء النجوم ومجاميعها التي عرفتها القبائل العربية قبل الإسلام", en: "The anwā' star-lore — the star names and asterisms known to the pre-Islamic Arab tribes", ur: "انواء کے ستارے — قبل از اسلام عرب قبائل کو معلوم ستاروں اور ان کے مجامع کے نام" }
+    note: "Each Arabic mansion was matched to an anwā' star or asterism, binding the received Indian scheme to indigenous Arab sky-knowledge {cite:kunitzsch-lunar-mansions-2008 pp. 1242–1243}."
+    sources: [source/kunitzsch-lunar-mansions-2008]
+dependents:
+  - external: { ar: "علم الأنواع والأحكام الفلكية المنسوبة إلى المنازل", en: "The lore of asterisms and judgments attached to the mansions", ur: "منزلوں سے منسوب اقسام و فلکی احکام کا علم" }
+    note: "Medieval Arabic texts attach weather, health and fate judgments to each mansion; the astronomical frame outlived the divinatory use {cite:kunitzsch-lunar-mansions-2008 pp. 1242–1243}."
+    sources: [source/kunitzsch-lunar-mansions-2008]
+  - external: { ar: "حساب الزمن والاتجاه في التراث الإسلامي", en: "Time and direction reckoning in the Islamic tradition", ur: "اسلامی تراث میں وقت و سمت کا حساب" }
+    note: "Rising and culminating of mansions served time reckoning; al-Farghani discusses mansion risings and settings in the chapters on the sphere's motions {cite:farghani-elements-astronomy pp. 36, 38}."
+    sources: [source/farghani-elements-astronomy]
+spread: []
+impact:
+  fields: [everyday-life]
+  changed:
+    ar: "أعطى التقويم العربي إطاراً فلكياً موحّداً، وربط معرفة النجوم الشعبية بحسابات علمية، وبقي مرجعاً في حسابات الوقت والاتجاه."
+    en: "It gave the Arabic calendar a unified astronomical frame, tied popular star-knowledge to scientific reckoning, and remained a reference for time and direction computation."
+    ur: "اس نے عربی تقویم کو ایک متحد فلکیاتی ڈھانچہ دیا، مقبول ستاروں کے علم کو علمی حساب سے جوڑا، اور وقت و سمت کے تعین کے لیے مرجع رہا۔"
+  history:
+    ar: "ثبّت قائمة المنازل في المنهج الفلكي العباسي، ودوّنها الفرغاني في القرن الثالث الهجري، فصارت مدخلاً أساسيًا في كتب الهيئة المتأخرة."
+    en: "It fixed the mansion list in the Abbasid astronomical curriculum; al-Farghani's third-century record made it a standard entry in later hay'a treatises."
+    ur: "اس نے عباسی فلکیاتی نصاب میں منازل کی فہرست کو مستقل کیا؛ تیسری صدی ہجری میں الفرغانی کا تحریر اسے بعد کی ہیئات کی کتابوں میں معیاری باب بنا گئی۔"
+  significance: 3
+  why: "A transmitted system rather than an invention, but one that structured a millennium of Arabic calendar, prayer-time and star-lore practice; significance rests on documented transmission and use, not on a Muslim inventor."
+described_in: []
+examples: []
+sites: []
+concepts: [concept/manazil-al-qamar]
+today:
+  form:
+    ar: "ما زالت أسماء المنازل معروفة في التراث الفلكي العربي، وتُعرض في الخرائط النجمية القديمة كمنازل القمر الثمانية والعشرين."
+    en: "The mansion names remain known in the Arabic astronomical tradition, displayed on old celestial charts as the twenty-eight lunar mansions."
+    ur: "منازل کے نام آج بھی عربی فلکیاتی تراث میں جانا جاتے ہیں اور پرانے آسمانی نقشوں پر چوبیس قمری منازل کے طور پر دکھائے جاتے ہیں۔"
+  descendants:
+    ar: "استمر استخدام أسماء المنازل في كتب الفراسة والأحكام، وفي خرائط الكواكب القديمة التي تحدد مواقع البروج والمنازل معاً."
+    en: "The mansion names persist in physiognomic and judgment literature and on old planetary charts that mark zodiac signs and mansions together."
+    ur: "منازل کے نام فِراسة و احکام کی کتب میں اور پرانے سیاروں کے نقشوں میں برقرار رہے جو بروج اور منازل دونوں کی پوزیشنیں دکھاتے ہیں۔"
+media: { image: media/commons-zubdat-celestial-map, diagram: media/diagram-manazil-al-qamar }
+kids:
+  ar: "منذ ألف سنة، قسّم الفلكيون السماء إلى ثمانية وعشرين منزلاً يسير فيها القمر في دورة شهرية، مثل محطات على طريق. كل منزل له اسم عربي جميل، كالشَّرَطان والحَوت. تعلّم الفرغاني، وهو عالم مسلم من زمان قديم، هذه القائمة في كتابه، فصارت مفتاحاً لحساب الأيام والاتجاهات."
+  en: "A thousand years ago, astronomers divided the sky into twenty-eight mansions the Moon passes through on its monthly journey, like stations on a road. Each has an Arabic name, like al-Sharatayn and al-Hut. Al-Farghani, an old Muslim scholar, wrote this list in his book, and it became a key for counting days and finding directions."
+  ur: "ہزار سال پہلے فلکیات دانوں نے آسمان کو اٹھائیس منازل میں تقسیم کیا جن میں چاند اپنی ماہانہ سیر میں گزرتا ہے، جیسے سڑک پر اسٹیشن۔ ہر منزل کا عربی نام ہے، جیسے الشَّرَطان اور الحَوت۔ الفرغانی، ایک قدیم مسلم عالم، نے یہ فہرست اپنی کتاب میں لکھی، اور وہ دن گننے اور سمتیں معلوم کرنے کی کنجی بن گئی۔"
+sources: [source/kunitzsch-lunar-mansions-2008, source/farghani-elements-astronomy, source/commons-zubdat-celestial-map]
+status: { review: published, completeness: 3 }
+provenance: { layer: own-research, generated_by: "devin-drafter-w2-04", model: "unknown", run: "inventions-w2", source: "Kunitzsch 2008 pp. 1242-1243; Farghani OCR pp. 36, 38, 51-53; Commons Zubdat al-Tawarikh map file page" }

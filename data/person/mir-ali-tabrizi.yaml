@@ -4,21 +4,30 @@ label: { ar: "مير علي التبريزي", en: "Mir Ali Tabrizi", ur: "می�
 summary:
   ar: "خطاط عمل في رعاية السلطان أحمد الجلائري، وتنسب إليه نورا تيتلي إتقان خط النستعليق، وكتب به مخطوطة قصائد خواجو كرماني سنة 1396م {cite:titley-persian-miniature-painting-1983 p. 27} {cite:titley-persian-miniature-painting-1983 p. 224}."
   en: "Calligrapher under the patronage of Sultan Ahmad Jalayir, credited by Norah Titley with perfecting the nasta'liq script, in which he wrote the 1396 manuscript of Khvaju Kirmani's poems {cite:titley-persian-miniature-painting-1983 p. 27} {cite:titley-persian-miniature-painting-1983 p. 224}."
-  ur: "سلطان احمد جلائری کی سرپرستی میں خطاط، جنہیں نورا ٹٹلی نستعلیق کو کمال تک پہنچانے کا سہرا دیتی ہیں؛ انہوں نے اسی خط میں 1396ء کا خواجو کرمانی کا مخطوطہ لکھا {cite:titley-persian-miniature-painting-1983 p. 27}."
+  ur: "سلطان احمد جلائری کی سرپرستی میں خطاط، جنہیں نورا ٹٹلی نستعلیق کو کمال دینے کا اعتراف کرتی ہیں؛ انہوں نے اسی خط میں 1396ء کا خواجو کرمانی کا مخطوطہ لکھا {cite:titley-persian-miniature-painting-1983 p. 27} {cite:titley-persian-miniature-painting-1983 p. 224}."
 gender: male
 roles: [calligrapher, artist]
 wings: [people]
 themes: [arts-of-the-book]
 regions: [persia-central-asia]
+faith:
+  - value: sunni
+    basis: tradition
+    note: "Recorded within the Muslim calligraphy tradition: Titley and Ekhtiar describe him as a leading calligrapher at the court of the Muslim Jalayirid sultan Ahmad in Tabriz {cite:titley-persian-miniature-painting-1983 p. 27} {cite:ekhtiar-how-to-read-islamic-calligraphy-2018 p. 27}, and the craft legend itself centres on Ali ibn Abi Talib appearing to him in a dream {cite:ekhtiar-how-to-read-islamic-calligraphy-2018 p. 27}. No personal madhhab or explicit self-declaration is attested in the sources read; the Sunni value is entered under the museum's declared frame for medieval Muslim artisans (docs/scope.md)."
+    sources: [source/titley-persian-miniature-painting-1983, source/ekhtiar-how-to-read-islamic-calligraphy-2018]
 died: { edtf: "1446~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Iranica" }
+inventions:
+  - { invention: invention/nastaliq-script, role: disputed, note: "Titley credits him with perfecting nasta'liq under Sultan Ahmad Jalayir and with the earliest signed manuscript in it (1396); Ekhtiar reports the dream legend naming him inventor alongside scholars' gradual-development view. Identity and role documented; priority contested.", sources: [source/titley-persian-miniature-painting-1983, source/ekhtiar-how-to-read-islamic-calligraphy-2018] }
 relations:
   - { type: lived_in, target: place/khurasan, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/titley-persian-miniature-painting-1983] }
   - { type: patronized_by, target: person/ahmad-jalayir, sources: [source/titley-persian-miniature-painting-1983] }
-sources: [source/titley-persian-miniature-painting-1983]
+sources: [source/titley-persian-miniature-painting-1983, source/ekhtiar-how-to-read-islamic-calligraphy-2018]
 provenance:
   layer: own-research
   source: "source/titley-persian-miniature-painting-1983 scan pp. 27, 224"
   generated_by: "Claude Code (OCR-harvest worker I)"
   model: claude-opus-5-5
   run: ocr-harvest-2026-11-04
+  extensions:
+    - { generated_by: "devin-drafter-w2-04", model: "unknown", run: "inventions-w2-04", source: "Added a sourced Sunni faith block (basis: tradition; Jalayirid-court calligrapher per Titley and Ekhtiar) required for his disputed role on invention/nastaliq-script, one disputed invention tie, the Ekhtiar source, and a p.224 citation for Urdu-summary parity; corrected a garbled Urdu verb in the summary. Verifier devin-verifier-w2-04b confirmed 2026-11-15." }
 status: { review: published, completeness: 2 }

@@ -1,0 +1,148 @@
+id: invention/battani-equinox-precession
+class: invention
+label:
+  ar: قياس البطاني لرجوع نقطتي الاعتدال
+  en: Al-Battani's measurement of the precession of the equinoxes
+  ur: بطانی کی اعتدالین کی رجوع کی پیمائش
+names:
+- value: رجوع الاعتدالين
+  kind: alternate
+  lang: ar
+- value: precession of the equinoxes
+  kind: alternate
+  lang: en
+summary:
+  ar: حدد البطاني سرعة رجوع نقطتي الاعتدال نحو درجة واحدة في ٦٦ سنة، مع اشتقاق طول السنة الاستوائية ٣٦٥ يوماً و٥ ساعات و٤٦
+    دقيقة و٢٤ ثانية من مشاهداته؛ موثق في سيرة المؤلفات الفلكية {cite:tdv-battani-muftuoglu biography} {cite:battani-mactutor}.
+  en: Al-Battani fixed the rate of the equinoxes' regression at about one degree per 66 years and derived a tropical year
+    of 365d 5h 46m 24s from his observations; documented in astronomical biographies {cite:tdv-battani-muftuoglu biography}
+    {cite:battani-mactutor}.
+  ur: بطانی نے اعتدالین کے رجوع کی رفتار تقریباً 66 سال میں ایک درجہ طے کی اور مشاہدات سے گرمائی سال 365 دن 5 گھنٹے 46 منٹ
+    24 سیکنڈ نکالا؛ فلکی سیرتوں میں مستند {cite:tdv-battani-muftuoglu biography} {cite:battani-mactutor}۔
+domain: astronomy-instruments
+kind: method
+disciplines:
+- astronomy
+- mathematics
+wings:
+- ideas
+regions:
+- levant-iraq
+periods:
+- period/abbasid-early
+era:
+  origins: abbasid-golden
+  first_attested:
+    edtf: 09XX
+    calendar: julian
+    precision: century
+    status: historical
+    note: Al-Battani's observational career ran in the late 9th and early 10th centuries; the Zij was composed in the early
+      10th century and the packet sources do not pin the precession derivation to a single year.
+    sources:
+    - source/tdv-battani-muftuoglu
+    - source/battani-mactutor
+  status_today: transformed
+origin:
+  place: place/raqqa
+  polity: polity/abbasid-caliphate
+  context:
+    ar: سياق عباسي غالباً في الرقة، حيث رصد البطاني مراراً مطالع ومسقط الشمس لتقدير رجوع الاعتدالين؛ المصادر لا تعطي إحداثيات
+      كل مشاهدة.
+    en: An Abbasid context, probably Raqqa, where al-Battani repeatedly observed risings and culminations to estimate the
+      equinoxes' regression; sources do not give coordinates for each sighting.
+    ur: عباسی سیاق غالباً رقہ، جہاں بطانی نے بار بار طلوع و درمیانی مقامات دیکھ کر اعتدالین کے رجوع کا تخمینہ لگایا؛ ماخذ
+      ہر مشاہدے کے مقام نہیں دیتے۔
+makers:
+- person: person/al-battani
+  role: improver
+  note: Documented astronomer whose zij fixed the equinox-regression rate; Muslim scholar per sourced biography.
+  sources:
+  - source/tdv-battani-muftuoglu
+  - source/battani-mactutor
+attribution:
+  status: improvement
+  claim:
+    ar: رجوع الاعتدالين معروف قبل البطاني؛ مساهمته الموثقة قياس سرعته ١° في ٦٦ سنة واشتقاق السنة الاستوائية من مشاهدات متكررة.
+    en: Equinox precession was known before al-Battani; his documented contribution is measuring its rate at 1° per 66 years
+      and deriving the tropical year from repeated observations.
+    ur: اعتدالین کا رجوع بطانی سے پہلے معلوم تھا؛ اس کا مستند حصہ 66 سال میں 1° کی رفتار کی پیمائش اور بار بار مشاہدات سے
+      گرمائی سال کا استنباط ہے۔
+  basis:
+    ar: يذكر المختصر أن البطاني وجد رجوع نقطتي الاعتدال درجة واحدة في ٦٦ سنة، ونال سنة استوائية ٣٦٥ يوماً و٥ ساعات و٤٦ دقيقة
+      و٢٤ ثانية؛ القيمة الحديثة للرجوع نحو ٥٠ ثانية في السنة، فيبقى قياسه شاهداً تاريخياً لا مطابقاً.
+    en: The biography states al-Battani found the equinox points regressing one degree per 66 years and obtained a tropical
+      year of 365d 5h 46m 24s; modern precession is about 50 arcseconds per year, so his figure remains a historical witness,
+      not a match.
+    ur: مختصر بتاتا ہے کہ بطانی نے اعتدال کے دو نقطوں کا رجوع 66 سال میں ایک درجہ پایا اور گرمائی سال 365 دن 5 گھنٹے 46 منٹ
+      24 سیکنڈ نکالا؛ جدید رجوع تقریباً 50 قوسی سیکنڈ فی سال ہے، اس لیے اس کی قیمت تاریخی گواہ ہے، مطابق نہیں۔
+precursors:
+- external:
+    ar: معرفة سابقة برجوع الاعتدالين وقياس أبطالميوس السابق
+    en: Earlier knowledge of equinox regression and Hipparchus' prior measurement
+    ur: اعتدالین کے رجوع کی سابق معلومات اور هیپارکس کی پہلے کی پیمائش
+  note: Precession was a known phenomenon; the packet sources name the phenomenon's antiquity but do not give Hipparchus'
+    rate in the inspected passages.
+  sources:
+  - source/tdv-battani-muftuoglu
+  - source/battani-mactutor
+dependents: []
+spread: []
+impact:
+  fields:
+  - astronomy-instruments
+  - mathematics
+  changed:
+    ar: حوّل الرجوع البطيء للاعتدالين من ظاهرة معروفة إلى معدل مقيس يدخل في حساب السنة والاستواء.
+    en: Turned the slow regression of the equinoxes from a known phenomenon into a measured rate entering year-length and
+      equinox calculations.
+    ur: اعتدالین کے سست رجوع کو معلوم خلل سے ایک ناپی ہوئی رفتار میں بدل دیا جو سال کی لمبائی اور اعتدال کے حساب میں داخل
+      ہوتی ہے۔
+  history:
+    ar: سجل مرحلة قياس أكثر دقة للظاهرة، لا أول اكتشاف للرجوع نفسه.
+    en: It records a stage of more precise measurement of the phenomenon, not its first discovery.
+    ur: یہ اس خلل کی زیادہ دقیق پیمائش کا مرحلہ بتاتا ہے، اس کا پہلا دریافت نہیں۔
+  significance: 4
+  why: A documented numerical rate derived from repeated observation, transmitted through zij literature; important for calendar
+    and astronomy history without overstating novelty.
+described_in: []
+examples: []
+sites: []
+concepts:
+- concept/al-itidalayn
+today:
+  form:
+    ar: يُقاس الرجوع اليوم بنحو ٥٠٫٣ قوسية في السنة مع تفاصيل مفصلة؛ رقم البطاني ٦٦ سنة لكل درجة أدق من بطلميوس لكن أقل من
+      القيمة الحديثة.
+    en: Today the rate is measured at about 50.3 arcseconds per year with detailed terms; al-Battani's 66-years-per-degree
+      is better than Ptolemy's but short of the modern value.
+    ur: آج رجوع تقریباً 50.3 قوسی سیکنڈ فی سال ناپا جاتا ہے؛ بطانی کا 66 سال فی درجہ بطلميوس سے بہتر مگر جدید قیمت سے کم ہے۔
+  descendants:
+    ar: لا يثبت البحث خطاً مباشراً من هذا القياس إلى الزيجات الحديثة؛ حسابات اليوم تستند إلى مشاهدات فلكية أوسع.
+    en: The research read shows no direct line from this measurement to modern ephemerides; today's calculations rest on broader
+      astronomical observations.
+    ur: پڑھی تحقیق اس پیمائش سے جدید تقویمی حسابات تک براہ راست نسب ثابت نہیں کرتی؛ آج کے حساب وسیع فلکی مشاہدات پر مبنی ہیں۔
+media:
+  image: media/photo-precession-equinox-field
+  diagram: media/diagram-battani-equinox-precession
+kids:
+  ar: نقطتا الاعتدال - حيث يتساوى الليل والنهار - تنجرفان ببطء عبر الأبراج بسبب تمايل محور الأرض. قاس البطاني هذا الانجراف
+    فوجده درجة كل ٦٦ سنة تقريباً، فصار حساب السنة أدق.
+  en: The two equinox points - where night and day are equal - slowly drift through the zodiac because Earth's axis tilts.
+    Al-Battani measured this drift at about one degree every 66 years, making the year calculation more accurate.
+  ur: دو اعتدال کے نقطے - جہاں رات اور دن برابر ہوتے ہیں - زمین کے محور کے جھکاؤ کی وجہ سے آہستہ آہستہ برجوں میں کھسکتے ہیں۔
+    بطانی نے یہ کھسکاؤ تقریباً ہر 66 سال میں ایک درجہ ناپا، جس سے سال کا حساب درست ہوا۔
+sources:
+- source/tdv-battani-muftuoglu
+- source/battani-mactutor
+status:
+  review: published
+  completeness: 3
+  generated_by: Devin drafter w2-02
+provenance:
+  layer: own-research
+  generated_by: Devin drafter w2-02
+  model: devin
+  run: inventions-w2-02
+  source: TDV Battani biography (1° per 66 years, tropical year 365d5h46m24s) and MacTutor Battani page. Century-precision
+    era; no single derivation year in packet sources.

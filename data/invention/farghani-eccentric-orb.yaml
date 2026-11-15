@@ -1,0 +1,162 @@
+id: invention/farghani-eccentric-orb
+class: invention
+label:
+  ar: بيان الفرغاني للأفلاك الخارجة عن المركز
+  en: al-Farghani's eccentric-orb account
+  ur: فرغانی کا خارجِمرکزی دائرہ بیان
+names:
+- kind: alternate
+  lang: en
+  value: al-Farghani's eccentric deferents
+- kind: alternate
+  lang: ar
+  value: الأفلاك الخارجة عن مركز الأرض عند الفرغاني
+summary:
+  ar: يشرح الفرغاني في فصول المقادير أن الشمس لها فلك واحد خارج المركز بُعد مركزه عن مركز الأرض جزءان ونصف من ستين جزءاً هي
+    نصف قطره، وأن للكواكب الخمسة المتحيرة مركزين خارجين عن مركز الأرض على خط مستقيم مع مركزها، ولعطارد مركزاً ثالثاً متحركاً،
+    وللقمر مركزين أحدهما ثابت والآخر متحرك {cite:farghani-elements-astronomy p. 66}{cite:farghani-elements-astronomy p. 84}.
+  en: In the chapters on dimensions al-Farghani explains that the Sun has one eccentric orb whose centre lies two and a half
+    parts off the Earth's centre when the orb's radius is sixty parts, that the five planets each have two centres off the
+    Earth's centre on a straight line through it, that Mercury has a third moving centre, and that the Moon has two centres,
+    one fixed and one moving {cite:farghani-elements-astronomy p. 66}{cite:farghani-elements-astronomy p. 84}.
+  ur: ابعاد کے ابواب میں فرغانی بیان کرتے ہیں کہ سورج کا ایک خارجِمرکزی دائرہ ہے جس کا مرکز زمین کے مرکز سے ڈھائی حصے دور
+    ہے جب دائرے کا نصف قطر ساٹھ حصے ہے، پانچ سیاروں کے دو مرکز زمین کے مرکز سے ہٹ کر ایک سیدھی لکیر پر ہیں، عطارد کا تیسرا
+    متحرک مرکز ہے، اور چاند کے دو مرکز ہیں ایک ساکن ایک متحرک {cite:farghani-elements-astronomy p. 66}{cite:farghani-elements-astronomy
+    p. 84}۔
+domain: astronomy-instruments
+kind: method
+disciplines:
+- astronomy
+- mathematics
+wings:
+- ideas
+regions:
+- levant-iraq
+periods:
+- period/abbasid-early
+era:
+  origins: abbasid-golden
+  first_attested:
+    edtf: ../0861
+    calendar: julian
+    precision: year
+    status: historical
+    note: 'Open latest bound only: TDV reports al-Farghani''s death after 247/861; the chapters'' composition date is not
+      established and this is not an asserted writing year. Printed numbers in the OCR need visual check against the scan
+      before being treated as final.'
+    sources:
+    - source/tdv-fergani-kaya
+  status_today: replaced
+origin:
+  place: place/samarra
+  context:
+    ar: فصول من كتاب الفرغاني في الحركات السماوية ضمن بلاط الخلافة العباسية بسامرا، لا تاريخ تأليف محدد.
+    en: Chapters of al-Farghani's treatise on celestial motions within the Abbasid caliphal milieu of Samarra; no exact composition
+      date is attested.
+    ur: سامرا کے عباسی دربار میں فرغانی کی آسمانی حرکات کی کتاب کے ابواب؛ تالیف کی کوئی متعین تاریخ منقول نہیں۔
+makers:
+- person: person/al-farghani
+  role: transmitter
+  note: Transmits the eccentric-orb scheme of earlier planetary astronomy inside his Arabic summary; Muslim basis is Iranica's
+    'Muslim astronomer' classification and TDV's Abbasid-court biography, with Sunni the museum default frame.
+  sources:
+  - source/farghani-elements-astronomy
+  - source/tdv-fergani-kaya
+  - source/iranica-fargani-ahmad
+attribution:
+  status: transmission
+  claim:
+    ar: نقل بنية الأفلاك الخارجة عن مركز الأرض إلى العربية مع مقاديرها، لا اختراع الدائرة التي مركزها غير مركز الأرض.
+    en: Transmission into Arabic of the off-centre orb structure with its parameters, not the invention of the circle whose
+      centre is not the Earth's.
+    ur: زمین کے مرکز سے ہٹ کر دائرے کی ساخت اور اس کے پیرامیٹرز کا عربی میں انتقال، زمین کے مرکز سے غیر مطابق دائرے کی ایجاد
+      نہیں۔
+  basis:
+    ar: يشرح الفصل السادس عشر أن الشمس لها فلكاً واحداً خارج المركز وبُعد مركزه جزءان ونصف من ستين، ويشرح الفصل اللاحق الأوج
+      والحضيض ودائرة الفلك الخارج {cite:farghani-elements-astronomy p. 66}{cite:farghani-elements-astronomy p. 84}.
+    en: Chapter sixteen explains that the Sun has one eccentric orb with its centre two and a half parts off out of sixty,
+      and a later chapter treats apogee, perigee and the deferent circle {cite:farghani-elements-astronomy p. 66}{cite:farghani-elements-astronomy
+      p. 84}.
+    ur: باب سولہ میں بیان ہے کہ سورج کا ایک خارجِمرکزی دائرہ ہے اور اس کا مرکز ساٹھ میں سے ڈھائی حصے دور ہے، اور بعد کا باب
+      اوج، حضیض اور خارجِمرکزی دائرے کا بیان کرتا ہے {cite:farghani-elements-astronomy p. 66}{cite:farghani-elements-astronomy
+      p. 84}۔
+  perspectives: []
+precursors:
+- external:
+    ar: نماذج الدوائر الخارجة عن المركز في فلك بطليموس وما قبله
+    en: Off-centre orb models in Ptolemy's astronomy and earlier traditions
+    ur: بطلیموس کی فلکیات اور پہلے کی روایات میں مرکز سے ہٹے دائروں کے نمونے
+  note: The treatise is described by TDV and Iranica as a summary of the Almagest; the eccentric structure is inherited and
+    transmitted here.
+  sources:
+  - source/tdv-fergani-kaya
+  - source/iranica-fargani-ahmad
+dependents:
+- external:
+    ar: كتب الفلك العربية واللاتينية التي نقلت عن جوامع علم النجوم
+    en: Arabic and Latin astronomical books that drew on the Jawami'
+    ur: جوامع علم النجوم سے مستفید عربی اور لاطینی فلکی کتابیں
+  note: TDV documents Latin translations of 1134 and 1175 and European use into the fifteenth century; the orb chapters fed
+    that transmission.
+  sources:
+  - source/tdv-fergani-kaya
+spread: []
+impact:
+  fields:
+  - astronomy-instruments
+  - mathematics
+  changed:
+    ar: ثبّت في العربية بنية الأفلاك الخارجة عن المركز للمشمس والكواكب مع مقاديرها، فغذّى حسابات مواقعها في التقليد البطلمي.
+    en: Fixed in Arabic the off-centre orb structure for the luminaries and planets with its parameters, feeding their position
+      computation in the Ptolemaic tradition.
+    ur: سورج اور سیاروں کے لیے مرکز سے ہٹ کر دائروں کی ساخت اور پیرامیٹرز کو عربی میں مستحکم کیا جس سے بطلیمی روایت میں ان
+      کے مقام کے حسابات کو تقویت ملی۔
+  history:
+    ar: جزء من كتاب أثّر في فلك أوروبا من القرن الثاني عشر إلى نهاية الخامس عشر وفق معجم TDV {cite:tdv-fergani-kaya transmission}.
+    en: Part of a book that influenced European astronomy from the twelfth to the end of the fifteenth century, per TDV {cite:tdv-fergani-kaya
+      transmission}.
+    ur: ایسی کتاب کا حصہ جس نے بارہویں سے پندرہویں صدی کے آخر تک یورپی فلکیات پر اثر ڈالا، TDV کے مطابق {cite:tdv-fergani-kaya
+      transmission}۔
+  significance: 3
+  why: Documented transmission of the eccentric-orb structure with explicit parameters in an influential textbook; bounded
+    because the structure descends from earlier astronomy.
+described_in:
+- work/jawami-ilm-al-nujum
+examples: []
+sites: []
+concepts:
+- concept/falak-kharij-al-markaz
+today:
+  form:
+    ar: بنية تاريخية لدراسة النماذج الكوكبية قبل كوبرنيكوس.
+    en: A historical structure for studying pre-Copernican planetary models.
+    ur: قبل از کوپرنکس سیاروں کے نمونوں کے مطالعے کے لیے تاریخی ساخت۔
+  descendants:
+    ar: لا نسب مباشر مثبت إلى حسابات الكواكب الحديثة.
+    en: No direct genealogy to modern planetary computation.
+    ur: جدید سیاروں کے حسابات تک براہ راست نسب ثابت نہیں۔
+media:
+  image: media/shatir-lunar-distance-context
+  diagram: media/diagram-farghani-eccentric-orb
+kids:
+  ar: يتخيل الفلكيون القدماء مدارات الكواكب كدوائر مركزها ليس بالضرورة مركز الأرض؛ هذا ترتيب حسابي قديم يفسر تغير البعد، لا
+    وصف لحركة الكواكب الحقيقية اليوم.
+  en: Old astronomers pictured planetary paths as circles whose centre need not be Earth's; that is an old computing arrangement
+    explaining changing distance, not today's real description of planetary motion.
+  ur: پرانے ماہرین فلکیات سیاروں کے راستے ایسے دائروں کے طور پرتے تھے جن کا مرکز لازم نہیں کہ زمین کا ہو؛ یہ بدلتے فاصلے کی
+    وضاحت کرنے والا پرانا حسابی طریقہ ہے، آج کی حقیقی سیاروی حرکت کا بیان نہیں۔
+sources:
+- source/farghani-elements-astronomy
+- source/tdv-fergani-kaya
+- source/iranica-fargani-ahmad
+status:
+  review: published
+  completeness: 3
+  generated_by: Devin (SWE-2 High)
+provenance:
+  layer: own-research
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: inventions-w2
+  source: Arabic and Latin OCR of the 1669 Golius edition read at the cited PDF pages (OCR numbers flagged); TDV FERGANI article
+    and Encyclopaedia Iranica excerpt read 2026-11-15; reused existing PD apogee/perigee context image.
