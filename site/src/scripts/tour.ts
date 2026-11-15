@@ -1718,6 +1718,17 @@ function init(
   const journeyPanel = $("#journeyPanel");
   const journeyCard = $("#journeyCard");
 
+  // On narrow screens the top buttons wrap and the location line moves down with
+  // them (Tour3D.astro). The toast and the journey card are placed from the line:
+  // its lower edge goes into --under-loc whenever the bar or the line changes
+  // size (the bar is as wide as the screen, so every change of width counts).
+  const underLoc = new ResizeObserver(() => {
+    root.style.setProperty("--under-loc", `${Math.round(locEl.getBoundingClientRect().bottom)}px`);
+  });
+  underLoc.observe($("#topbar"));
+  underLoc.observe(locEl);
+  cleanups.push(() => underLoc.disconnect());
+
   let journeyGroup: THREE.Group | null = null;
   // Museum lighting for the current look; journeys bring their own.
   function applyLight(): void {
