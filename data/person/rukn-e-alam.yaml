@@ -24,7 +24,7 @@ provenance:
 status:
   review: draft
   completeness: 1
-born: { edtf: "1251", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi (Rukn-i Alem)" }
-died: { edtf: "1335", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi (Rukn-i Alem)" }
+born: { edtf: "1251", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi (Rukn-i Alem) Agrees with Wikidata Q7378885 (P569, a statement without a reference), item revision 2511144667, read on 13 November 2026.", sources: [source/wikidata] }
+died: { edtf: "1335", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi (Rukn-i Alem) Agrees with Wikidata Q7378885 (P570, a statement without a reference), item revision 2511144667, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/multan, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/al-aalam] }

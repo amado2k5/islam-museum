@@ -13,7 +13,7 @@ wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
 sources: [source/al-aalam, source/taqrib-al-tahdhib, source/fihrist-ibn-al-nadim]
-born: { edtf: "738", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi)" }
+born: { edtf: "738", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi) Agrees with Wikidata Q31305124 (P569, a statement without a reference), item revision 2524845539, read on 13 November 2026.", sources: [source/wikidata] }
 died: { edtf: "799", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi)" }
 relations:
   - { type: lived_in, target: place/kufa, confidence: low, note: "Kufan qadi and traditionist (al-Taqrib; regions: levant-iraq).", sources: [source/al-aalam, source/taqrib-al-tahdhib] }

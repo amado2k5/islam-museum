@@ -1,0 +1,23 @@
+id: passage/nasai-kitab-27
+class: passage
+unit: chapter
+work: work/sunan-al-nasai
+ref: "kitab-27"
+label:
+  ar: "سنن النسائي، كتاب الطلاق"
+  en: "Sunan al-Nasa'i, Book 27: The Book of Divorce"
+  ur: "سنن نسائی، کتاب الطلاق"
+summary:
+  ar: "القسم 27 من سنن النسائي في تقسيم قاعدة بيانات الحديث المفتوحة التي أُخذت منها سجلات المتحف، وعنوانه «كتاب الطلاق»، ويضم فيها النصوص من 3389 إلى 3560 بترقيمها. يضع المتحف تحت هذا الكتاب ما عنده من سجلات هذه النصوص."
+  en: "Book 27 of Sunan al-Nasa'i (The Book of Divorce) in the division of the open hadith dataset the museum took its reports from: reports 3389 to 3560 in that dataset's numbering. The museum files its records of these reports under this book; printed editions divide and number the collection differently."
+  ur: "سنن نسائی کی کتاب 27، عنوان «کتاب الطلاق»، اس کھلے حدیث ڈیٹا سیٹ کی تقسیم کے مطابق جس سے میوزیم کے ریکارڈ لیے گئے: اس کی ترقیم میں روایات 3389 تا 3560۔ میوزیم ان روایات کے اپنے ریکارڈ اسی کتاب کے تحت رکھتا ہے۔"
+relations:
+  - { type: part_of, target: work/sunan-al-nasai }
+provenance:
+  layer: own-research
+  source: "fawazahmed0/hadith-api (Unlicense), edition eng-nasai: metadata.sections and section_details, book 27; Arabic title from AhmedBaset/hadith-json, nasai.json, matched by the English name"
+  generated_by: "Claude Code"
+  model: claude-fable-5-2
+  run: hadith-library-books-2026-11-15
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0, source/hadith-json-ahmedbaset]
+status: { review: published, completeness: 1, generated_by: "Claude Code (claude-fable-5-2), from the dataset's own division; no report text stored" }

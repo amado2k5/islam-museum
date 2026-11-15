@@ -51,7 +51,7 @@
   // ---------- state ----------
   var vw = 0, vh = 0, kMin = 0.5, kHome = 1.6;
   var cam = { k: 1, tx: 0, ty: 0 };
-  var st = { level: "world", region: -1, place: -1, ent: null, ah: C.startAh, filter: "all", page: 0, shown: 60, moved: false };
+  var st = { level: "world", region: -1, place: -1, ent: null, ah: C.startAh, filter: "all", onlyYear: false, page: 0, shown: 60, moved: false };
   var P = null;               // places, once places.json has arrived
   var grid = null, GRID = 6;  // spatial index over the world plane
   var files = {};             // fetched JSON, by file name
@@ -274,7 +274,7 @@
     else if (r) { for (var i = 0; i < C.regions.length; i++) if (C.regions[i].id === r[1]) goRegion(i, true); }
   }
   function enter(level) {
-    st.level = level; st.filter = "all"; st.page = 0; st.shown = 60; st.moved = false; current = null;
+    st.level = level; st.filter = "all"; st.onlyYear = false; st.page = 0; st.shown = 60; st.moved = false; current = null;
     closePop(); hideTip();
     if (narrow()) setPanel(level === "region");
     regionEls.forEach(function (el, i) { el.classList.toggle("is-sel", i === st.region && level !== "world"); });
@@ -343,6 +343,7 @@
   function visibleItems() {
     if (!current || !current.items) return [];
     var list = st.filter === "all" ? current.items : current.items.filter(function (it) { return it.cls === st.filter; });
+    if (st.onlyYear) list = list.filter(isActive);
     return sorted(list);
   }
 
@@ -481,7 +482,31 @@
       });
       body.appendChild(chips);
     }
+    // Audit of 13 November 2026, S26: a place's (or a record's) list can be cut down to the chosen year, and when
+    // nothing on the list is dated to that year the panel offers the nearest year that is. Undated records are never
+    // counted as of the year: the button's number is the dated records whose span holds it.
+    var dated = current.items.filter(function (it) { return it.from != null; });
+    if (dated.length && T.year_only) {
+      var inYear = current.items.filter(isActive).length, yt = yearText(st.ah), yrow = h("div", "pm-chips");
+      var yb2 = h("button", null, tpl(T.year_only, { year: yt[0] + " · " + yt[1] }) + " · " + nf.format(inYear)); yb2.type = "button"; yb2.dataset.key = "yearonly";
+      yb2.setAttribute("aria-pressed", String(!!st.onlyYear));
+      yb2.addEventListener("click", function () { st.onlyYear = !st.onlyYear; st.page = 0; st.shown = 60; renderPanel(); buildOrbit(); var again = q('.pm-chips [data-key="yearonly"]'); if (again) again.focus(); });
+      yrow.appendChild(yb2);
+      if (!inYear) {
+        var y0 = ceYear(), near = null;
+        dated.forEach(function (it) { var c = y0 < it.from ? it.from : it.to; if (near == null || Math.abs(c - y0) < Math.abs(near - y0)) near = c; });
+        var ahNear = null; for (var k = 0; k < C.ce.length; k++) if (C.ce[k] >= near) { ahNear = C.ahMin + k; break; }
+        if (ahNear != null) {
+          var nt = yearText(ahNear), jb = h("button", null, tpl(T.year_nearest, { year: nt[0] + " · " + nt[1] })); jb.type = "button"; jb.dataset.key = "yearnear";
+          jb.addEventListener("click", function () { stopPlay(); setYear(ahNear, false); var again = q('.pm-chips [data-key="yearonly"]'); if (again) again.focus(); });
+          yrow.appendChild(jb);
+        }
+      }
+      body.appendChild(yrow);
+      if (!inYear) body.appendChild(h("p", "pm-meta", tpl(T.year_none, { n: nf.format(dated.length) })));
+    }
     var items = visibleItems(), list = h("ul", "pm-rows");
+    if (st.onlyYear && !items.length) body.appendChild(h("p", "pm-wait", T.year_empty));
     items.slice(0, st.shown).forEach(function (it) {
       var now = isActive(it);
       list.appendChild(row({ cls: it.cls, text: it.label, sub: it.rels.concat(it.years ? [it.years] : []).join(" · "), now: now, dim: it.from != null && !now, go: function () { pendingName[it.id] = it; openItem(it.id); }, key: "e" + it.id }));

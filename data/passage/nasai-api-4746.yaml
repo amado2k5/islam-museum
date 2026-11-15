@@ -10,6 +10,7 @@ summary:
   en: "In Sunan al-Nasa'i; mention of writing or dispatching a letter."
   ur: "سنن النسائی میں؛ خط لکھنے یا بھیجنے کا ذکر."
 relations:
+  - { type: part_of, target: passage/nasai-kitab-45 }
   - { type: mentions, target: person/muhammad, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
   - { type: mentions, target: concept/al-mukatabat, sources: [source/sunan-al-nasai] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 4746 (book 45 hadith 41); matn excerpt of at most ~55 words", generated_by: "Devin (SWE-2 High)", run: "mukatabat-hadithapi-1" }

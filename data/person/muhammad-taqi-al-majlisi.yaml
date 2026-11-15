@@ -23,8 +23,8 @@ provenance:
 status:
   review: draft
   completeness: 3
-born: { edtf: "1594", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica; al-Amili (Amal al-Amil)" }
-died: { edtf: "1660", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica; al-Amili (Amal al-Amil)" }
+born: { edtf: "1594", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica; al-Amili (Amal al-Amil) Agrees with Wikidata Q16052580 (P569, a statement without a reference), item revision 2567624684, read on 13 November 2026.", sources: [source/wikidata] }
+died: { edtf: "1660", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica; al-Amili (Amal al-Amil) Agrees with Wikidata Q16052580 (P570, a statement without a reference), item revision 2567624684, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/isfahan, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/al-aalam] }
   - { type: born_in, target: place/isfahan, note: "Al-Zirikli, al-A'lam vol. 6 p. 62: born in Isfahan.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }

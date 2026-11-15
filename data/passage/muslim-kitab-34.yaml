@@ -1,0 +1,23 @@
+id: passage/muslim-kitab-34
+class: passage
+unit: chapter
+work: work/sahih-muslim
+ref: "kitab-34"
+label:
+  ar: "صحيح مسلم، كتاب الصيد والذبائح وما يؤكل من الحيوان"
+  en: "Sahih Muslim, Book 34: The Book of Hunting, Slaughter, and what may be Eaten"
+  ur: "صحیح مسلم، کتاب الصید والذبائح وما یؤکل من الحیوان"
+summary:
+  ar: "القسم 34 من صحيح مسلم في تقسيم قاعدة بيانات الحديث المفتوحة التي أُخذت منها سجلات المتحف، وعنوانه «كتاب الصيد والذبائح وما يؤكل من الحيوان»، ويضم فيها النصوص من 4972 إلى 5063 بترقيمها. يضع المتحف تحت هذا الكتاب ما عنده من سجلات هذه النصوص."
+  en: "Book 34 of Sahih Muslim (The Book of Hunting, Slaughter, and what may be Eaten) in the division of the open hadith dataset the museum took its reports from: reports 4972 to 5063 in that dataset's numbering. The museum files its records of these reports under this book; printed editions divide and number the collection differently."
+  ur: "صحیح مسلم کی کتاب 34، عنوان «کتاب الصید والذبائح وما یؤکل من الحیوان»، اس کھلے حدیث ڈیٹا سیٹ کی تقسیم کے مطابق جس سے میوزیم کے ریکارڈ لیے گئے: اس کی ترقیم میں روایات 4972 تا 5063۔ میوزیم ان روایات کے اپنے ریکارڈ اسی کتاب کے تحت رکھتا ہے۔"
+relations:
+  - { type: part_of, target: work/sahih-muslim }
+provenance:
+  layer: own-research
+  source: "fawazahmed0/hadith-api (Unlicense), edition eng-muslim: metadata.sections and section_details, book 34; Arabic title from AhmedBaset/hadith-json, muslim.json, matched by the English name"
+  generated_by: "Claude Code"
+  model: claude-fable-5-2
+  run: hadith-library-books-2026-11-15
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0, source/hadith-json-ahmedbaset]
+status: { review: published, completeness: 1, generated_by: "Claude Code (claude-fable-5-2), from the dataset's own division; no report text stored" }

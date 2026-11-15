@@ -1,0 +1,23 @@
+id: passage/ibnmajah-kitab-35
+class: passage
+unit: chapter
+work: work/sunan-ibn-majah
+ref: "kitab-35"
+label:
+  ar: "سنن ابن ماجه، كتاب تعبير الرؤيا"
+  en: "Sunan Ibn Majah, Book 35: Interpretation of Dreams"
+  ur: "سنن ابن ماجہ، کتاب تعبیر الرؤیا"
+summary:
+  ar: "القسم 35 من سنن ابن ماجه في تقسيم قاعدة بيانات الحديث المفتوحة التي أُخذت منها سجلات المتحف، وعنوانه «كتاب تعبير الرؤيا»، ويضم فيها النصوص من 3893 إلى 3926 بترقيمها. يضع المتحف تحت هذا الكتاب ما عنده من سجلات هذه النصوص."
+  en: "Book 35 of Sunan Ibn Majah (Interpretation of Dreams) in the division of the open hadith dataset the museum took its reports from: reports 3893 to 3926 in that dataset's numbering. The museum files its records of these reports under this book; printed editions divide and number the collection differently."
+  ur: "سنن ابن ماجہ کی کتاب 35، عنوان «کتاب تعبیر الرؤیا»، اس کھلے حدیث ڈیٹا سیٹ کی تقسیم کے مطابق جس سے میوزیم کے ریکارڈ لیے گئے: اس کی ترقیم میں روایات 3893 تا 3926۔ میوزیم ان روایات کے اپنے ریکارڈ اسی کتاب کے تحت رکھتا ہے۔"
+relations:
+  - { type: part_of, target: work/sunan-ibn-majah }
+provenance:
+  layer: own-research
+  source: "fawazahmed0/hadith-api (Unlicense), edition eng-ibnmajah: metadata.sections and section_details, book 35; Arabic title from AhmedBaset/hadith-json, ibnmajah.json, matched by the English name"
+  generated_by: "Claude Code"
+  model: claude-fable-5-2
+  run: hadith-library-books-2026-11-15
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0, source/hadith-json-ahmedbaset]
+status: { review: published, completeness: 1, generated_by: "Claude Code (claude-fable-5-2), from the dataset's own division; no report text stored" }

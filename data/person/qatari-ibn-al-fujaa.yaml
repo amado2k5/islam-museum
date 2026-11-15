@@ -9,9 +9,11 @@ wings: [people]
 died: { edtf: "697~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Katari b. al-Fudjaa)" }
 relations:
   - { type: traveled_to, target: place/kabul, sources: [source/futuh-buldan-maarif-1407, source/muruj-al-dhahab, source/khudari-umayyad-state, source/ush-kanz-umm-hajara-1972, source/nccah-islamic-coins-brochure] }
+  - {type: authored, target: work/hamasa-qatari-ibn-al-fujaa-la-yarkanna, sources: [source/hamasa-abu-tammam-ed-1916], note: 'Stated in the summary of work/hamasa-qatari-ibn-al-fujaa-la-yarkanna: "Qatari ibn al-Fuja''a al-Mazini said"'}
 sources: [source/futuh-buldan-maarif-1407, source/muruj-al-dhahab, source/khudari-umayyad-state, source/ush-kanz-umm-hajara-1972, source/nccah-islamic-coins-brochure]
 status: { review: draft, completeness: 1 }
 provenance:
+  source: "the record's cited sources (source/futuh-buldan-maarif-1407; source/muruj-al-dhahab; source/khudari-umayyad-state; source/ush-kanz-umm-hajara-1972; source/nccah-islamic-coins-brochure); field added 15 November 2026"
   layer: own-research
   generated_by: "Devin (SWE-2 High)"
   extraction_flow: "Apple Vision OCR -> manual extraction"

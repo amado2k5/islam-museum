@@ -6,6 +6,7 @@ import BaseLayout from "../../../../layouts/BaseLayout.astro";
 import PageHeader from "../../../../components/PageHeader.astro";
 import { ui, LANGS, fmt, type Lang } from "../../../../lib/i18n";
 import { byId, labelOf, realNodes, summaryOf } from "../../../../lib/graph";
+import { isKitab } from "../../../../lib/sunnah";
 
 export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
 const { lang } = Astro.props as { lang: Lang };
@@ -15,7 +16,7 @@ const hadiths = realNodes.filter((n) => n.class === "passage" && n.data.unit ===
 const byWork = new Map<string, number>();
 for (const h of hadiths) byWork.set(h.data.work, (byWork.get(h.data.work) ?? 0) + 1);
 const chapters = new Map<string, number>();
-for (const n of realNodes.filter((x) => x.class === "passage" && x.data.unit === "chapter")) chapters.set(n.data.work, (chapters.get(n.data.work) ?? 0) + 1);
+for (const n of realNodes.filter(isKitab)) chapters.set(n.data.work, (chapters.get(n.data.work) ?? 0) + 1);
 const collections = [...byWork.entries()]
   .map(([work, count]) => {
     const w = byId.get(work);

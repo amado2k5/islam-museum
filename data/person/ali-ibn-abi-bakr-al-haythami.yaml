@@ -24,7 +24,7 @@ provenance:
 status:
   review: published
   completeness: 1
-born: { edtf: "1335", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Daw' al-Lami" }
-died: { edtf: "1405", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Daw' al-Lami" }
+born: { edtf: "1335", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Daw' al-Lami Agrees with Wikidata Q4725309 (P569, a statement without a reference), item revision 2559132654, read on 13 November 2026.", sources: [source/wikidata] }
+died: { edtf: "1405", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Daw' al-Lami Agrees with Wikidata Q4725309 (P570, a statement without a reference), item revision 2559132654, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/cairo, note: "From text: of Cairo", sources: [source/shadharat-dhahab, source/daw-lami-jil-1992], confidence: low }

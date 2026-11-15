@@ -6,7 +6,7 @@ import BaseLayout from "../../../../../layouts/BaseLayout.astro";
 import PageHeader from "../../../../../components/PageHeader.astro";
 import { ui, LANGS, fmt, type Lang } from "../../../../../lib/i18n";
 import { byId, graph, href, labelOf, realNodes } from "../../../../../lib/graph";
-import { sunnahCollection, sunnahReport } from "../../../../../lib/sunnah";
+import { isKitab, sunnahCollection, sunnahReport } from "../../../../../lib/sunnah";
 
 const hadithsOf = (work: string) =>
   realNodes
@@ -14,7 +14,7 @@ const hadithsOf = (work: string) =>
     .sort((a, b) => a.slug.localeCompare(b.slug, "en", { numeric: true }));
 const kitabsOf = (work: string) =>
   realNodes
-    .filter((n) => n.class === "passage" && n.data.unit === "chapter" && n.data.work === work)
+    .filter((n) => isKitab(n) && n.data.work === work)
     .sort((a, b) => a.slug.localeCompare(b.slug, "en", { numeric: true }));
 
 export function getStaticPaths() {
@@ -47,6 +47,11 @@ for (const e of graph.edges) {
   if (kitabs.some((k) => k.id === e.to)) kitabCount.set(e.to, (kitabCount.get(e.to) ?? 0) + 1);
 }
 const kitabSlug = (k: any) => k.slug.replace(/^muwatta-/, "");
+// Reports no book holds (their text did not match the numbered report of the edition, or the collection has no
+// division yet), and the page-numbered excerpts filed as chapter records: listed under the books, never as books.
+const filed = new Set(graph.edges.filter((e) => e.type === "part_of" && !e.inverse && kitabs.some((k) => k.id === e.to)).map((e) => e.from));
+const excerpts = realNodes.filter((n) => n.class === "passage" && n.data.unit === "chapter" && n.data.work === work && !isKitab(n)).sort((x, y) => x.slug.localeCompare(y.slug, "en", { numeric: true }));
+const loose = kitabs.length > 0 ? [...hadiths.filter((h) => !filed.has(h.id)), ...excerpts] : [];
 const title = fmt(H.collection_title, { name: labelOf(workNode, lang) });
 ---
 <BaseLayout lang={lang} title={title} description={fmt(H.collection_lede, { n: String(hadiths.length) })} path={`/${lang}/words/hadith/${workSlug}/`}>
@@ -68,10 +73,17 @@ const title = fmt(H.collection_title, { name: labelOf(workNode, lang) });
       <ol class="grid-cards" style="list-style:none;margin:0;padding:0">
         {kitabs.map((k) => (
           <li>
-            <a class="card" href={`/${lang}/words/hadith/${workSlug}/${kitabSlug(k)}/`}>
-              <h2 class="card-title">{labelOf(k, lang)}</h2>
-              <span class="ui">{fmt(H.reports, { n: String(kitabCount.get(k.id) ?? 0) })}</span>
-            </a>
+            {(kitabCount.get(k.id) ?? 0) > 0 ? (
+              <a class="card" href={`/${lang}/words/hadith/${workSlug}/${kitabSlug(k)}/`}>
+                <h2 class="card-title">{labelOf(k, lang)}</h2>
+                <span class="ui">{fmt(H.reports, { n: String(kitabCount.get(k.id)) })}</span>
+              </a>
+            ) : (
+              <div class="card" style="opacity:.75">
+                <h2 class="card-title"><a href={href(lang, k.id)}>{labelOf(k, lang)}</a></h2>
+                <span class="ui muted">{H.no_reports}</span>
+              </div>
+            )}
           </li>
         ))}
       </ol>
@@ -86,6 +98,20 @@ const title = fmt(H.collection_title, { name: labelOf(workNode, lang) });
           </li>
         ))}
       </ol>
+    )}
+    {loose.length > 0 && (
+      <section aria-labelledby="hd-loose" style="margin-top:28px">
+        <h2 id="hd-loose" style="font-size:1.15rem">{H.loose_title} <span class="ui muted">· {String(loose.length)}</span></h2>
+        <p class="muted" style="max-width:var(--measure)">{H.loose_note}</p>
+        <ol class="hd-list">
+          {loose.map((h) => (
+            <li>
+              <a href={href(lang, h.id)} class="hd-ref">{h.data.ref}</a>
+              <a href={href(lang, h.id)}>{labelOf(h, lang)}</a>
+            </li>
+          ))}
+        </ol>
+      </section>
     )}
   </div>
 </BaseLayout>

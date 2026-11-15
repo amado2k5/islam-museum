@@ -18,6 +18,7 @@ relations:
   - { type: lived_in, target: place/anatolia, note: "Only the record-level region (anatolia-balkans) is attested; broad-region edge flagged for review.", sources: [source/dawlat-uthmaniyya-salabi], confidence: low }
   - { type: child_of, target: person/mahmud-ii-uthmani, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: successor_of, target: person/abd-al-majid-i-uthmani, sources: [source/dawlat-uthmaniyya-salabi] }
+  - {type: commissioned, target: building/beylerbeyi-palace, sources: [source/goodwin-ottoman-architecture-1971], note: 'Stated in the summary of building/beylerbeyi-palace: "built by Sarkis Balyan for Abdül Aziz in 1861-5"'}
 external_ids: { wikidata: "Q151500", nomisma: "abdulaziz", viaf: "122114473" }
 sources: [source/dawlat-uthmaniyya-salabi, source/nomisma, source/wikidata]
 provenance:

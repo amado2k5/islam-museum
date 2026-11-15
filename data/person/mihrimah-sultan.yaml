@@ -13,8 +13,8 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
-born: { edtf: "1522", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV" }
-died: { edtf: "1578", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV" }
+born: { edtf: "1522", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Agrees with Wikidata Q80764 (P569, a statement without a reference), item revision 2567682202, read on 13 November 2026.", sources: [source/wikidata] }
+died: { edtf: "1578", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Agrees with Wikidata Q80764 (P570, a statement without a reference), item revision 2567682202, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]

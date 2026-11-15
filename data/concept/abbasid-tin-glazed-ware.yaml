@@ -12,6 +12,7 @@ regions: [levant-iraq]
 relations:
   - { type: related_to, target: place/samarra, sources: [source/lane-early-islamic-pottery-1947] }
   - { type: related_to, target: concept/islamic-lustreware, sources: [source/lane-early-islamic-pottery-1947] }
+  - {type: practiced_in, target: place/iraq, sources: [source/lane-early-islamic-pottery-1947], note: 'Stated in the summary of concept/abbasid-tin-glazed-ware: "Ninth-century Iraqi pottery"'}
 sources: [source/lane-early-islamic-pottery-1947]
 provenance:
   layer: own-research

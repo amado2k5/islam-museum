@@ -22,6 +22,7 @@ story_roles:
 external_ids: { wikidata: "Q1046622", openiti: "0337QudamaIbnJacfar", viaf: "100625744" }
 relations:
   - { type: born_in, target: place/baghdad, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1530)" }
+  - {type: authored, target: work/kitab-al-kharaj-qudama, sources: [source/masalik-mamalik-ibn-khurdadhbih], note: 'Stated in the summary of work/kitab-al-kharaj-qudama: "A book by Abu al-Faraj Qudama ibn Ja''far"'}
 sources: [source/mawsuat-a3lam-ulama-adaba, source/masalik-mamalik-ibn-khurdadhbih, source/openiti-corpus, source/wikidata]
 status:
   review: published

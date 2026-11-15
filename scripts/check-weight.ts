@@ -120,6 +120,22 @@ export const LISTING_BUDGETS: Budget[] = [
   { family: "listing (audit S18)", route: "/ar/people/all/u0645/", html: 500 * KB, js: 24 * KB },
   { family: "listing (audit S18)", route: "/ar/time/all/c06/", html: 500 * KB, js: 24 * KB },
   { family: "listing (audit S18)", route: "/ar/browse/person/all/u0645/", html: 500 * KB, js: 24 * KB },
+  // Audit S18, second pass (15 November 2026): the pages the first pass listed as still over 500 KB. Themes list a class's
+  // first rows and continue on sub-pages; the art gallery, the all-events list, the references' book list and the poetry
+  // verses are cut into pages; a subject page of the Messengers and Genealogy browsers shows the first passages of each
+  // section and links the rest; the "new in the Modern browser" page shows the newest 400.
+  { family: "listing (audit S18)", route: "/ar/themes/law-and-courts/", html: 500 * KB, js: 24 * KB },
+  { family: "listing (audit S18)", route: "/ar/themes/scripture-and-its-sciences/", html: 500 * KB, js: 24 * KB },
+  { family: "listing (audit S18)", route: "/ar/art/", html: 500 * KB, js: 24 * KB },
+  { family: "listing (audit S18)", route: "/ar/ansab/muhammad/", html: 500 * KB, js: 24 * KB },
+  { family: "listing (audit S18)", route: "/ar/messengers/muhammad/", html: 500 * KB, js: 24 * KB },
+  { family: "listing (audit S18)", route: "/ar/timeline/events/", html: 500 * KB, js: 24 * KB },
+  { family: "listing (audit S18)", route: "/ar/modern/new/", html: 500 * KB, js: 24 * KB },
+  { family: "listing (audit S18)", route: "/ar/words/poetry/", html: 500 * KB, js: 24 * KB },
+  { family: "listing (audit S18)", route: "/ar/words/poetry/verses/", html: 500 * KB, js: 24 * KB },
+  { family: "listing (audit S18)", route: "/ar/references/", html: 500 * KB, js: 24 * KB },
+  { family: "listing (audit S18)", route: "/ar/akhlaq/trait/sabr/", html: 500 * KB, js: 24 * KB },
+  { family: "listing (audit S18)", route: "/ar/ibadat/act/salah/", html: 500 * KB, js: 24 * KB },
 ];
 
 export interface Measure { route: string; html: number; js: number; scripts: string[] }

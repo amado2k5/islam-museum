@@ -15,6 +15,7 @@ summary:
 themes: [creed]
 tags: [hadith-qudsi, qudsi-man-jaa-bil-hasana]
 relations:
+  - { type: part_of, target: passage/muslim-kitab-48 }
   - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
   - { type: mentions, target: concept/hadith-qudsi, sources: [source/sahih-muslim] }
   - { type: mentions, target: concept/al-sayyiat, sources: [source/sahih-muslim] }

@@ -18,7 +18,7 @@ story_roles:
   - { role: companion, status: tradition, sources: [source/mubarakpuri-raheeq] }
 faith:
   - { value: sunni, basis: tradition, note: "أنصاري من أهل بدر؛ يسجَّل في الإطار السني للمتحف." }
-born: { edtf: "591~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Sa'd (Tabaqat)" }
+born: { edtf: "591~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Sa'd (Tabaqat) Agrees with Wikidata Q4120044 (P569, a statement without a reference), item revision 2533540216, read on 13 November 2026.", sources: [source/wikidata] }
 died: { edtf: "0641", hijri: "0020", calendar: julian, precision: year, status: tradition, derived: true, note: "Al-Isaba (p. 283) reports he died in the caliphate of Umar (13-23 AH); 20 AH falls within it; CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
   - { type: born_in, target: place/medina, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

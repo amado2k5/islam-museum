@@ -1,0 +1,23 @@
+id: passage/tirmidhi-kitab-37
+class: passage
+unit: chapter
+work: work/jami-al-tirmidhi
+ref: "kitab-37"
+label:
+  ar: "جامع الترمذي، كتاب صفة القيامة والرقائق والورع عن رسول الله صلي الله"
+  en: "Jami' al-Tirmidhi, Book 37: Chapters on the description of the Day of Judgement, Ar-Riqaq, and Al-Wara'"
+  ur: "جامع ترمذی، کتاب صفۃ القیامۃ والرقائق والورع عن رسول اللہ صلی اللہ"
+summary:
+  ar: "القسم 37 من جامع الترمذي في تقسيم قاعدة بيانات الحديث المفتوحة التي أُخذت منها سجلات المتحف، وعنوانه «كتاب صفة القيامة والرقائق والورع عن رسول الله صلي الله»، ويضم فيها النصوص من 2415 إلى 2522 بترقيمها. يضع المتحف تحت هذا الكتاب ما عنده من سجلات هذه النصوص."
+  en: "Book 37 of Jami' al-Tirmidhi (Chapters on the description of the Day of Judgement, Ar-Riqaq, and Al-Wara') in the division of the open hadith dataset the museum took its reports from: reports 2415 to 2522 in that dataset's numbering. The museum files its records of these reports under this book; printed editions divide and number the collection differently."
+  ur: "جامع ترمذی کی کتاب 37، عنوان «کتاب صفۃ القیامۃ والرقائق والورع عن رسول اللہ صلی اللہ»، اس کھلے حدیث ڈیٹا سیٹ کی تقسیم کے مطابق جس سے میوزیم کے ریکارڈ لیے گئے: اس کی ترقیم میں روایات 2415 تا 2522۔ میوزیم ان روایات کے اپنے ریکارڈ اسی کتاب کے تحت رکھتا ہے۔"
+relations:
+  - { type: part_of, target: work/jami-al-tirmidhi }
+provenance:
+  layer: own-research
+  source: "fawazahmed0/hadith-api (Unlicense), edition eng-tirmidhi: metadata.sections and section_details, book 37; Arabic title from AhmedBaset/hadith-json, tirmidhi.json, matched by the English name"
+  generated_by: "Claude Code"
+  model: claude-fable-5-2
+  run: hadith-library-books-2026-11-15
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0, source/hadith-json-ahmedbaset]
+status: { review: published, completeness: 1, generated_by: "Claude Code (claude-fable-5-2), from the dataset's own division; no report text stored" }

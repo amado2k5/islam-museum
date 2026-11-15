@@ -1,0 +1,23 @@
+id: passage/nasai-kitab-18
+class: passage
+unit: chapter
+work: work/sunan-al-nasai
+ref: "kitab-18"
+label:
+  ar: "سنن النسائي، كتاب صلاة الخوف"
+  en: "Sunan al-Nasa'i, Book 18: The Book of the Fear Prayer"
+  ur: "سنن نسائی، کتاب صلاۃ الخوف"
+summary:
+  ar: "القسم 18 من سنن النسائي في تقسيم قاعدة بيانات الحديث المفتوحة التي أُخذت منها سجلات المتحف، وعنوانه «كتاب صلاة الخوف»، ويضم فيها النصوص من 1529 إلى 1555 بترقيمها. يضع المتحف تحت هذا الكتاب ما عنده من سجلات هذه النصوص."
+  en: "Book 18 of Sunan al-Nasa'i (The Book of the Fear Prayer) in the division of the open hadith dataset the museum took its reports from: reports 1529 to 1555 in that dataset's numbering. The museum files its records of these reports under this book; printed editions divide and number the collection differently."
+  ur: "سنن نسائی کی کتاب 18، عنوان «کتاب صلاۃ الخوف»، اس کھلے حدیث ڈیٹا سیٹ کی تقسیم کے مطابق جس سے میوزیم کے ریکارڈ لیے گئے: اس کی ترقیم میں روایات 1529 تا 1555۔ میوزیم ان روایات کے اپنے ریکارڈ اسی کتاب کے تحت رکھتا ہے۔"
+relations:
+  - { type: part_of, target: work/sunan-al-nasai }
+provenance:
+  layer: own-research
+  source: "fawazahmed0/hadith-api (Unlicense), edition eng-nasai: metadata.sections and section_details, book 18; Arabic title from AhmedBaset/hadith-json, nasai.json, matched by the English name"
+  generated_by: "Claude Code"
+  model: claude-fable-5-2
+  run: hadith-library-books-2026-11-15
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0, source/hadith-json-ahmedbaset]
+status: { review: published, completeness: 1, generated_by: "Claude Code (claude-fable-5-2), from the dataset's own division; no report text stored" }

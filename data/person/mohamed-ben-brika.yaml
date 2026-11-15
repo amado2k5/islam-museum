@@ -11,8 +11,8 @@ summary:
 wings: [people]
 regions: [maghreb]
 periods: [period/modern-era]
-born: { edtf: "1957", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: APS obituary" }
-died: { edtf: "2020", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: APS obituary" }
+born: { edtf: "1957", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: APS obituary Agrees with Wikidata Q109299231 (P569, a statement without a reference), item revision 2518981051, read on 13 November 2026.", sources: [source/wikidata] }
+died: { edtf: "2020", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: APS obituary Agrees with Wikidata Q109299231 (P570, a statement without a reference), item revision 2518981051, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/doucen, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/algiers, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

@@ -10,6 +10,7 @@ summary:
   en: "A report in Jami' al-Tirmidhi, no. 61 (The Book on Purification), that speaks of a stated number of good deeds, the writing of good deeds. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
   ur: "جامع ترمذی کی حدیث نمبر 61، جس میں نیکیوں کی مقررہ تعداد، نیکیوں کا لکھا جانا کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
 relations:
+  - { type: part_of, target: passage/tirmidhi-kitab-01 }
   - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
   - { type: mentions, target: concept/al-hasanat, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 61 (book 1 hadith 61); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }

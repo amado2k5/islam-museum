@@ -25,6 +25,6 @@ status:
   review: draft
   completeness: 1
 born: { edtf: "1603", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Muhibbi (Khulasat al-Athar) Confirmed on 13 November 2026 against Wikidata Q51886263 (P569, a statement with a reference), item revision 2566895052.", sources: [source/wikidata] }
-died: { edtf: "1660", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Muhibbi (Khulasat al-Athar)" }
+died: { edtf: "1660", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Muhibbi (Khulasat al-Athar) Agrees with Wikidata Q51886263 (P570, a statement without a reference), item revision 2566895052, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/medina, confidence: low, note: "Association inferred from the nisba in the name 'Muhammad Kibrit al-Madani'; specific residence not individually documented.", sources: [source/al-aalam] }

@@ -14,6 +14,7 @@ periods: [period/gunpowder-empires]
 died: { edtf: "1659", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam Confirmed on 13 November 2026 against Wikidata Q16123954 (P570, a statement with a reference), item revision 2566472580.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/qalyub, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q336724)" }
+  - {type: authored, target: work/al-hidaya-min-al-dalala-qalyubi, sources: [source/bibalex-azhar-astronomy-manuscripts-2006], note: 'Stated in the summary of work/al-hidaya-min-al-dalala-qalyubi: "Treatise by Shihab al-Din al-Qalyubi on finding prayer times"'}
 sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q16123954

@@ -8,8 +8,8 @@ summary:
 wings: [people]
 sources: [source/fihrist-ibn-al-nadim, source/al-aalam]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
-born: { edtf: "838", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Baghdad (al-Khatib al-Baghdadi)" }
-died: { edtf: "913", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Baghdad (al-Khatib al-Baghdadi)" }
+born: { edtf: "838", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Baghdad (al-Khatib al-Baghdadi) Agrees with Wikidata Q21994711 (P569, a statement without a reference), item revision 2562714613, read on 13 November 2026.", sources: [source/wikidata] }
+died: { edtf: "913", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Baghdad (al-Khatib al-Baghdadi) Agrees with Wikidata Q21994711 (P570, a statement without a reference), item revision 2562714613, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: ruled_over, target: place/khurasan, confidence: low, note: "Tahirid governor of Khurasan (al-Fihrist).", sources: [source/fihrist-ibn-al-nadim] }
   - {confidence: low, note: The only place named in the record; specific residence or role there is assumed from context but not separately documented., sources: [source/al-aalam], target: place/baghdad, type: lived_in}

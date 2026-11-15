@@ -11,8 +11,8 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/modern-era]
-born: { edtf: "1870", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: A'lam Filastin (al-Awdat)" }
-died: { edtf: "1958", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: A'lam Filastin (al-Awdat)" }
+born: { edtf: "1870", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: A'lam Filastin (al-Awdat) Agrees with Wikidata Q125886811 (P569, a statement without a reference), item revision 2545201842, read on 13 November 2026.", sources: [source/wikidata] }
+died: { edtf: "1958", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: A'lam Filastin (al-Awdat) Agrees with Wikidata Q125886811 (P570, a statement without a reference), item revision 2545201842, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/yafa, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q180294)" }
   - { type: died_in, target: place/zarqa, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q148062)" }

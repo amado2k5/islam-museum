@@ -24,7 +24,7 @@ provenance:
 status:
   review: draft
   completeness: 1
-born: { edtf: "1350", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Bustan (Ibn Maryam)" }
-died: { edtf: "1439", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Bustan (Ibn Maryam)" }
+born: { edtf: "1350", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Bustan (Ibn Maryam) Agrees with Wikidata Q3483230 (P569, a statement without a reference), item revision 2533308043, read on 13 November 2026.", sources: [source/wikidata] }
+died: { edtf: "1439", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Bustan (Ibn Maryam) Agrees with Wikidata Q3483230 (P570, a statement without a reference), item revision 2533308043, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/wahran, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/al-aalam] }

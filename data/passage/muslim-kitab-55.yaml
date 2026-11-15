@@ -1,0 +1,23 @@
+id: passage/muslim-kitab-55
+class: passage
+unit: chapter
+work: work/sahih-muslim
+ref: "kitab-55"
+label:
+  ar: "صحيح مسلم، كتاب الزهد والرقائق"
+  en: "Sahih Muslim, Book 55: The Book of Zuhd and Softening of Hearts"
+  ur: "صحیح مسلم، کتاب الزہد والرقائق"
+summary:
+  ar: "القسم 55 من صحيح مسلم في تقسيم قاعدة بيانات الحديث المفتوحة التي أُخذت منها سجلات المتحف، وعنوانه «كتاب الزهد والرقائق»، ويضم فيها النصوص من 7417 إلى 7522 بترقيمها. يضع المتحف تحت هذا الكتاب ما عنده من سجلات هذه النصوص."
+  en: "Book 55 of Sahih Muslim (The Book of Zuhd and Softening of Hearts) in the division of the open hadith dataset the museum took its reports from: reports 7417 to 7522 in that dataset's numbering. The museum files its records of these reports under this book; printed editions divide and number the collection differently."
+  ur: "صحیح مسلم کی کتاب 55، عنوان «کتاب الزہد والرقائق»، اس کھلے حدیث ڈیٹا سیٹ کی تقسیم کے مطابق جس سے میوزیم کے ریکارڈ لیے گئے: اس کی ترقیم میں روایات 7417 تا 7522۔ میوزیم ان روایات کے اپنے ریکارڈ اسی کتاب کے تحت رکھتا ہے۔"
+relations:
+  - { type: part_of, target: work/sahih-muslim }
+provenance:
+  layer: own-research
+  source: "fawazahmed0/hadith-api (Unlicense), edition eng-muslim: metadata.sections and section_details, book 55; Arabic title from AhmedBaset/hadith-json, muslim.json, matched by the English name"
+  generated_by: "Claude Code"
+  model: claude-fable-5-2
+  run: hadith-library-books-2026-11-15
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0, source/hadith-json-ahmedbaset]
+status: { review: published, completeness: 1, generated_by: "Claude Code (claude-fable-5-2), from the dataset's own division; no report text stored" }

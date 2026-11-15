@@ -24,7 +24,7 @@ status:
   review: draft
   completeness: 3
 born: { edtf: "1805", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Kattani (Fihris al-Faharis); al-Zirikli" }
-died: { edtf: "1859", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Kattani (Fihris al-Faharis); al-Zirikli" }
+died: { edtf: "1859", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Kattani (Fihris al-Faharis); al-Zirikli Agrees with Wikidata Q12178510 (P570, a statement without a reference), item revision 2500625265, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/maghreb, note: "Only the record-level region (maghreb) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }
   - { type: lived_in, target: place/fes, confidence: medium, note: "Al-Zirikli, al-A'lam vol. 1 p. 103: of the people of Fez.", sources: [source/alam-zirikli-dar-al-ilm-2002] }

@@ -11,7 +11,7 @@ roles: [ruler, military-commander]
 wings: [people]
 periods: [period/mongol-post-mongol]
 regions: [anatolia-balkans]
-died: { edtf: "1352", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
+died: { edtf: "1352", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi Agrees with Wikidata Q6041922 (P570, a statement without a reference), item revision 2447344674, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: died_in, target: place/kayseri, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: buried_in, target: building/kosk-medrese, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

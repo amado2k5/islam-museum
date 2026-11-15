@@ -11,8 +11,8 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
-born: { edtf: "840", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Kafi / al-Kulayni" }
-died: { edtf: "884", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Kafi / al-Kulayni" }
+born: { edtf: "840", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Kafi / al-Kulayni Agrees with Wikidata Q5951203 (P569, a statement without a reference), item revision 2487102977, read on 13 November 2026.", sources: [source/wikidata] }
+died: { edtf: "884", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Kafi / al-Kulayni Agrees with Wikidata Q5951203 (P570, a statement without a reference), item revision 2487102977, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/iraq, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/al-aalam] }
 sources: [source/al-aalam]

@@ -1,0 +1,23 @@
+id: passage/tirmidhi-kitab-14
+class: passage
+unit: chapter
+work: work/jami-al-tirmidhi
+ref: "kitab-14"
+label:
+  ar: "جامع الترمذي، كتاب البيوع عن رسول الله"
+  en: "Jami' al-Tirmidhi, Book 14: The Book on Business"
+  ur: "جامع ترمذی، کتاب البیوع عن رسول اللہ"
+summary:
+  ar: "القسم 14 من جامع الترمذي في تقسيم قاعدة بيانات الحديث المفتوحة التي أُخذت منها سجلات المتحف، وعنوانه «كتاب البيوع عن رسول الله»، ويضم فيها النصوص من 1205 إلى 1321 بترقيمها. يضع المتحف تحت هذا الكتاب ما عنده من سجلات هذه النصوص."
+  en: "Book 14 of Jami' al-Tirmidhi (The Book on Business) in the division of the open hadith dataset the museum took its reports from: reports 1205 to 1321 in that dataset's numbering. The museum files its records of these reports under this book; printed editions divide and number the collection differently."
+  ur: "جامع ترمذی کی کتاب 14، عنوان «کتاب البیوع عن رسول اللہ»، اس کھلے حدیث ڈیٹا سیٹ کی تقسیم کے مطابق جس سے میوزیم کے ریکارڈ لیے گئے: اس کی ترقیم میں روایات 1205 تا 1321۔ میوزیم ان روایات کے اپنے ریکارڈ اسی کتاب کے تحت رکھتا ہے۔"
+relations:
+  - { type: part_of, target: work/jami-al-tirmidhi }
+provenance:
+  layer: own-research
+  source: "fawazahmed0/hadith-api (Unlicense), edition eng-tirmidhi: metadata.sections and section_details, book 14; Arabic title from AhmedBaset/hadith-json, tirmidhi.json, matched by the English name"
+  generated_by: "Claude Code"
+  model: claude-fable-5-2
+  run: hadith-library-books-2026-11-15
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0, source/hadith-json-ahmedbaset]
+status: { review: published, completeness: 1, generated_by: "Claude Code (claude-fable-5-2), from the dataset's own division; no report text stored" }

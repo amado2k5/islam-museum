@@ -11,7 +11,7 @@ summary:
 wings: [people]
 regions: [arabia]
 periods: [period/gunpowder-empires]
-born: { edtf: "1465", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam)" }
+born: { edtf: "1465", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam) Agrees with Wikidata Q28713152 (P569, a statement without a reference), item revision 2533308118, read on 13 November 2026.", sources: [source/wikidata] }
 died: { edtf: "1524", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam) Confirmed on 13 November 2026 against Wikidata Q28713152 (P570, a statement with a reference), item revision 2533308118.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/seiyun, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

@@ -11,7 +11,7 @@ summary:
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/crusades-ayyubid-mamluk]
-born: { edtf: "1322", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (al-Taftazani)" }
+born: { edtf: "1322", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (al-Taftazani) Agrees with Wikidata Q764947 (P569, a statement without a reference), item revision 2564655239, read on 13 November 2026.", sources: [source/wikidata] }
 died: { edtf: "1390", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (al-Taftazani) Confirmed on 13 November 2026 against Wikidata Q764947 (P570, a statement with a reference), item revision 2564655239.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/taftazan, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q7675058)" }

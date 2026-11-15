@@ -14,7 +14,7 @@ wings: [people]
 regions: [south-asia]
 periods: [period/gunpowder-empires]
 born: { edtf: "1577", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Nur Djahan); Encyclopaedia Iranica Confirmed on 13 November 2026 against Wikidata Q541530 (P569, a statement with a reference), item revision 2565556802.", sources: [source/wikidata] }
-died: { edtf: "1645", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Nur Djahan); Encyclopaedia Iranica" }
+died: { edtf: "1645", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Nur Djahan); Encyclopaedia Iranica Agrees with Wikidata Q541530 (P570, a statement without a reference), item revision 2565556802, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: child_of, target: person/mirza-ghiyas-beg }
   - { type: born_in, target: place/kandahar, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q45604)" }

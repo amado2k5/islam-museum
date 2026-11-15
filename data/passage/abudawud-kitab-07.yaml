@@ -1,0 +1,23 @@
+id: passage/abudawud-kitab-07
+class: passage
+unit: chapter
+work: work/sunan-abi-dawud
+ref: "kitab-07"
+label:
+  ar: "سنن أبي داود، كتاب سجود القرآن"
+  en: "Sunan Abi Dawud, Book 7: Prayer (Kitab Al-Salat): Prostration while reciting the Qur'an"
+  ur: "سنن ابی داؤد، کتاب سجود القرآن"
+summary:
+  ar: "القسم 7 من سنن أبي داود في تقسيم قاعدة بيانات الحديث المفتوحة التي أُخذت منها سجلات المتحف، وعنوانه «كتاب سجود القرآن»، ويضم فيها النصوص من 1401 إلى 1415 بترقيمها. يضع المتحف تحت هذا الكتاب ما عنده من سجلات هذه النصوص."
+  en: "Book 7 of Sunan Abi Dawud (Prayer (Kitab Al-Salat): Prostration while reciting the Qur'an) in the division of the open hadith dataset the museum took its reports from: reports 1401 to 1415 in that dataset's numbering. The museum files its records of these reports under this book; printed editions divide and number the collection differently."
+  ur: "سنن ابی داؤد کی کتاب 7، عنوان «کتاب سجود القرآن»، اس کھلے حدیث ڈیٹا سیٹ کی تقسیم کے مطابق جس سے میوزیم کے ریکارڈ لیے گئے: اس کی ترقیم میں روایات 1401 تا 1415۔ میوزیم ان روایات کے اپنے ریکارڈ اسی کتاب کے تحت رکھتا ہے۔"
+relations:
+  - { type: part_of, target: work/sunan-abi-dawud }
+provenance:
+  layer: own-research
+  source: "fawazahmed0/hadith-api (Unlicense), edition eng-abudawud: metadata.sections and section_details, book 7; Arabic title from AhmedBaset/hadith-json, abudawud.json, matched by the English name"
+  generated_by: "Claude Code"
+  model: claude-fable-5-2
+  run: hadith-library-books-2026-11-15
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0, source/hadith-json-ahmedbaset]
+status: { review: published, completeness: 1, generated_by: "Claude Code (claude-fable-5-2), from the dataset's own division; no report text stored" }

@@ -24,7 +24,7 @@ provenance:
 status:
   review: draft
   completeness: 3
-died: { edtf: "1711", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Muhibbi; al-A'lam (al-Zirikli)" }
+died: { edtf: "1711", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Muhibbi; al-A'lam (al-Zirikli) Agrees with Wikidata Q87474494 (P570, a statement without a reference), item revision 2521337236, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/hama, confidence: low, note: "Association inferred from the nisba in the name 'Mustafa ibn Fathallah al-Hamawi'; specific residence not individually documented.", sources: [source/al-aalam] }
   - { type: died_in, target: place/dhamar, confidence: medium, note: "Al-Zirikli, al-A'lam vol. 7 p. 238: he died at Dhamar in Yemen.", sources: [source/alam-zirikli-dar-al-ilm-2002] }

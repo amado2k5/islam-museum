@@ -18,3 +18,7 @@ provenance:
   source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, PDF pp. 797-799, entry 'ATLAS' (unsigned in the harvest; the bibliography refers to the articles Morocco and Algeria) (EI2 entry, batch ei2-b013 part 53, seq 417); the elevations are those the entry gives"
   generated_by: "Claude Code (claude-haiku-5-5)"
 status: { review: published, completeness: 3 }
+relations:
+  - {type: located_in, target: place/morocco, sources: [source/encyclopaedia-of-islam-2], note: 'Stated in the summary of place/atlas-mountains: "in Morocco, Algeria and Tunisia"'}
+  - {type: located_in, target: place/algeria, sources: [source/encyclopaedia-of-islam-2], note: 'Stated in the summary of place/atlas-mountains: "in Morocco, Algeria and Tunisia"'}
+  - {type: located_in, target: place/tunisia, sources: [source/encyclopaedia-of-islam-2], note: 'Stated in the summary of place/atlas-mountains: "in Morocco, Algeria and Tunisia"'}

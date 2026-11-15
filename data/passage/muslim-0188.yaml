@@ -15,6 +15,7 @@ summary:
 themes: [afterlife-and-eschatology]
 tags: [hadith-qudsi, qudsi-adna-ahl-al-janna]
 relations:
+  - { type: part_of, target: passage/muslim-kitab-01 }
   - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
   - { type: mentions, target: concept/hadith-qudsi, sources: [source/sahih-muslim] }
   - { type: basis_for, target: practice/dua, sources: [source/sahih-muslim] }

@@ -11,8 +11,8 @@ summary:
 wings: [people]
 regions: [south-asia]
 periods: [period/modern-era]
-born: { edtf: "1900", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Pakistan Scholars Directory" }
-died: { edtf: "1986", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Pakistan Scholars Directory" }
+born: { edtf: "1900", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Pakistan Scholars Directory Agrees with Wikidata Q65280504 (P569, a statement without a reference), item revision 2521339421, read on 13 November 2026.", sources: [source/wikidata] }
+died: { edtf: "1986", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Pakistan Scholars Directory Agrees with Wikidata Q65280504 (P570, a statement without a reference), item revision 2521339421, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/pindi-gheb, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 sources: [source/al-aalam]

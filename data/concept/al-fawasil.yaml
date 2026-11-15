@@ -17,6 +17,7 @@ relations:
   - { type: related_to, target: concept/ijaz-al-quran, sources: [source/burhan-dar-al-hadith-2006] }
   - { type: related_to, target: person/abu-amr-al-dani, sources: [source/burhan-dar-al-hadith-2006] }
   - { type: related_to, target: person/al-baqillani, sources: [source/burhan-dar-al-hadith-2006] }
+  - {type: part_of, target: work/al-burhan-fi-ulum-al-quran-zarkashi, sources: [source/burhan-dar-al-hadith-2006], note: 'Stated in the summary of concept/al-fawasil: "al-Zarkashi''s third type"'}
 sources: [source/burhan-dar-al-hadith-2006]
 provenance:
   layer: own-research

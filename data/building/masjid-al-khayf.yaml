@@ -22,3 +22,5 @@ status:
   review: published
   completeness: 1
 location: place/mina
+relations:
+  - {type: located_in, target: place/mina, sources: [source/al-aalam], note: 'Stated in the summary of building/masjid-al-khayf: "The mosque of al-Khayf at Mina"'}

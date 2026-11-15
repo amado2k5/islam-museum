@@ -13,7 +13,7 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/gunpowder-empires]
-born: { edtf: "1494~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
+born: { edtf: "1494~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi Agrees with Wikidata Q178379 (P569, a statement without a reference), item revision 2565600813, read on 13 November 2026.", sources: [source/wikidata] }
 died: { edtf: "1556", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi Confirmed on 13 November 2026 against Wikidata Q178379 (P570, a statement with a reference), item revision 2565600813.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/aq-qoyunlu, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

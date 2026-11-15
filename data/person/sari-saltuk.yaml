@@ -12,7 +12,7 @@ wings: [people]
 regions: [anatolia-balkans]
 periods: [period/crusades-ayyubid-mamluk]
 themes: [spirituality-and-sufism]
-died: { edtf: "1297", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV" }
+died: { edtf: "1297", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Agrees with Wikidata Q4993555 (P570, a statement without a reference), item revision 2556476181, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/sinop, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q599416)" }
   - { type: died_in, target: place/babadag, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q386945)" }

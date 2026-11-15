@@ -23,7 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
-born: { edtf: "1600", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; Richards (The Mughal Empire)" }
-died: { edtf: "1699", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; Richards (The Mughal Empire)" }
+born: { edtf: "1600", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; Richards (The Mughal Empire) Agrees with Wikidata Q2822075 (P569, a statement without a reference), item revision 2547898344, read on 13 November 2026.", sources: [source/wikidata] }
+died: { edtf: "1699", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; Richards (The Mughal Empire) Agrees with Wikidata Q2822075 (P570, a statement without a reference), item revision 2547898344, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/india, note: "Only the record-level region (south-asia) is attested; broad-region edge flagged for review.", sources: [source/bosworth-new-islamic-dynasties-1996], confidence: low }

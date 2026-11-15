@@ -22,6 +22,7 @@ relations:
   - { type: participated_in, target: event/assassination-attempt-of-amir-and-arbad, role: "صاحب المؤامرة", sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq] }
   - { type: participated_in, target: event/death-of-amir-ibn-al-tufayl, role: "المتوفى", sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/incident-of-bir-mauna, role: "الغادر بالدعاة", sources: [source/mubarakpuri-raheeq] }
+  - {type: authored, target: work/hamasa-amir-ibn-al-tufayl-wa-lamma-laqina-usba, sources: [source/hamasa-abu-tammam-ed-1916], note: 'Stated in the summary of work/hamasa-amir-ibn-al-tufayl-wa-lamma-laqina-usba: "Amir ibn al-Tufayl said"'}
 provenance:
   layer: own-research
   source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, PDF p. 464, EI2 account (batch ei2-b010 part 3ej); the earlier sources are al-Raheeq al-Makhtum pp. 440-454 and the others listed"

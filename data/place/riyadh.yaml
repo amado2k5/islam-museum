@@ -40,3 +40,5 @@ provenance:
   - person-place-geo-c
   note: Semantic merge of duplicate records written by parallel enrichment runs.
   source: Wikidata item Q3692 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; GeoNames gazetteer entry and Wikidata Q3692; coordinates the city's gazetteer point
+relations:
+  - {type: located_in, target: place/al-arid, sources: [source/encyclopaedia-of-islam-2], note: 'Stated in the summary of place/al-arid: "and al-Riyad, their capital today"'}

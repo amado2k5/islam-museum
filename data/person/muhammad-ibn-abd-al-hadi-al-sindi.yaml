@@ -27,3 +27,4 @@ died: { edtf: "1726", calendar: gregorian, precision: year, derived: true, note:
 relations:
   - { type: lived_in, target: place/medina, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/al-aalam] }
   - { type: born_in, target: place/sind, note: "al-Zirikli, al-A'lam, vol. 6 p. 253: his family came from al-Sind and he was born there", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
+  - {type: authored, target: work/hashiyat-sindi-nasai, sources: [source/hashiyat-sindi-nasai-copy], note: 'Stated in the summary of work/hashiyat-sindi-nasai: "al-Sindi''s gloss on the Sunan of al-Nasa''i"'}

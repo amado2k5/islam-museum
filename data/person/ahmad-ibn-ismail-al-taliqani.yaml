@@ -24,7 +24,7 @@ provenance:
 status:
   review: draft
   completeness: 3
-born: { edtf: "1118", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala)" }
+born: { edtf: "1118", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala) Agrees with Wikidata Q23048324 (P569, a statement without a reference), item revision 2538762508, read on 13 November 2026.", sources: [source/wikidata] }
 died: { edtf: "1194", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala) Confirmed on 13 November 2026 against Wikidata Q23048324 (P570, a statement with a reference), item revision 2538762508.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/iran, note: "Only the record-level region (persia-central-asia) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }

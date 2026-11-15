@@ -23,8 +23,8 @@ provenance:
 status:
   review: draft
   completeness: 1
-born: { edtf: "873", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Khatib al-Baghdadi, Tarikh Baghdad; al-Dhahabi, Siyar" }
-died: { edtf: "965", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Khatib al-Baghdadi, Tarikh Baghdad; al-Dhahabi, Siyar" }
+born: { edtf: "873", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Khatib al-Baghdadi, Tarikh Baghdad; al-Dhahabi, Siyar Agrees with Wikidata Q22684067 (P569, a statement without a reference), item revision 2528725502, read on 13 November 2026.", sources: [source/wikidata] }
+died: { edtf: "965", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Khatib al-Baghdadi, Tarikh Baghdad; al-Dhahabi, Siyar Agrees with Wikidata Q22684067 (P570, a statement without a reference), item revision 2528725502, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: died_in, target: place/baghdad, note: "al-Zirikli: his long journey ended with settling and dying in Baghdad; also Wikidata Q1530 (P20).", sources: [source/alam-zirikli-dar-al-ilm-2002, source/wikidata], confidence: high }
   - { type: lived_in, target: place/abbasid-caliphate, note: "Wikidata Q12536 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }

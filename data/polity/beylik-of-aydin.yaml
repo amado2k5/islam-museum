@@ -22,3 +22,5 @@ provenance:
   model: claude-haiku-5-5
   run: wikidata-insertion-S1
 status: { review: published, completeness: 2 }
+relations:
+  - {type: located_in, target: place/anatolia, sources: [source/bosworth-new-islamic-dynasties-1996], note: 'Stated in the summary of polity/beylik-of-aydin: "emirate of the Aydın-oghlu in western Anatolia"'}

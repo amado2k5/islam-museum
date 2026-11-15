@@ -13,3 +13,5 @@ provenance:
   source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, PDF pp. 675-676, entry 'ARGHUN' (signed C. Collin Davies) (EI2 entry, batch ei2-b013 part 10, seq 342)"
   generated_by: "Claude Code (claude-haiku-5-5)"
 status: { review: published, completeness: 3 }
+relations:
+  - {type: ruled_over, target: place/sind, sources: [source/encyclopaedia-of-islam-2], note: 'Stated in the summary of polity/arghun-dynasty: "and then ruled Sind"'}

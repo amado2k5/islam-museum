@@ -193,15 +193,15 @@ Rows per sub-page: 75 in the browsers, 300 cards in the halls, 1,200 names in th
 | S15 | GREEN as labelling | Both populations named and defined; no published-only count introduced. |
 | S16 | GREEN, small residue | Public numbers computed; one meaning of "pages"; "300 pathways" still typed in four strings. |
 | S17 | GREEN except (b) | (b) did not reproduce: the sections are in server HTML on this tree. |
-| S18 | GREEN for the named pages | 13 other pages still over 500 KB, listed. |
+| S18 | GREEN (second pass, 15 November) | The remaining listings are paginated; three stated exceptions. |
 | S19 | GREEN | `index.json`, `chains.json`, `openapi.json`. |
 | S20 | Diagnosed | The notes were never written; counts per family reported; nothing fabricated. |
 | S21 | GREEN | Verified on the live UAT site. |
-| S22 | **NOT GREEN** | Diagnosed only. |
+| S22 | GREEN for the six books (second pass, 15 November) | 335 books, 2,919 reports filed; division is the dataset's; no narrator access. |
 | S23 | GREEN | Find box and subject axis. |
-| S24 | **Half GREEN** | Order done; promised axes not done. |
+| S24 | GREEN (second pass, 15 November) | Du'a by occasion, Akhlaq by virtue, vice and dealing, Ibadat by act of worship. |
 | S25 | GREEN | 11 of 11 end-to-end checks. |
-| S26 | **Half GREEN** | Typed year and an honest label; no per-place year filter. |
+| S26 | GREEN (second pass, 15 November) | A place's list can be cut to the chosen year; nearest dated year offered. |
 | S27 | GREEN | Names, cross-references, year access. |
 | S28 | GREEN within 1438–1458 AH | Static month and year pages. |
 | S29 | GREEN | Journeys landing. |
@@ -214,6 +214,8 @@ Rows per sub-page: 75 in the browsers, 300 cards in the halls, 1,200 names in th
 | S36 | GREEN | Loading and error states at the control. |
 
 Count: 26 GREEN (some with a stated residue), 3 half GREEN (S24, S26, and S15 as a labelling answer), 6 NOT GREEN in whole or part (S2, S6, S8, S12, S20 as a diagnosis, S22).
+
+After the second pass of 15 November 2026 (section at the end): S18, S22, S24 and S26 are GREEN with the limits stated there, and S2 was closed on 13 November. Still not green in whole or part: S6 (four disputed beings untyped, by decision), S8 (dates no source confirms stay held off timelines), S12 (restated as the subject-record measure), S20 (notes never written).
 
 ## Scorecard: every explorer named in the brief
 
@@ -330,3 +332,51 @@ The 74.3% quoted in the Part III section was measured before the duplicate merge
 **What "untested" now means on the site.** At graph build, a date from the pass that has no source, and whose year the record's own summary does not state (in CE or the corresponding Hijri year), is moved out of `born`/`died` into `unverified_dates`. Everything that places people in time reads `born`/`died` or the span computed from them, so those dates leave timelines, sorted lists, hall cards, contemporaries and JSON-LD at once; the person's own page prints them in a line that begins "Unverified". Today: 4,830 date fields on 3,723 persons (1,285 of them published), of whom about 3,250 have no dated position left. The data files keep every date; reversing this is deleting eleven lines in `scripts/build-graph.ts`.
 
 **Not done.** The 48 records whose Wikidata item is not a human being, and the 117 with a century's disagreement, should have their Wikidata ids checked. Ten records that this change touched lacked `provenance.source`; it was added from each record's own source list.
+
+## Second pass, 15 November 2026
+
+The founder asked for everything the ledger left open to be completed. What was done, what was measured, and what is still open. Judgement calls are recorded in `docs/decisions/inbox/audit-second-pass-2026-11-15.yaml`.
+
+| | State now | What was done |
+|---|---|---|
+| S18 page weight | GREEN, three stated exceptions | The theme pages list each class's first rows and continue on `/themes/<theme>/all/<class>/<n>/`; the art gallery, the list of all dated events (2,000 a page), the references' book list (400 a page) and the poetry verses (`/words/poetry/verses/<n>/`, poems never split) are cut into pages; a subject page of the Messengers and Genealogy browsers shows the first 60 passages of each section and links the rest (`/<browser>/<slug>/passages/<section>/<n>/`); "new in the Modern browser" shows the newest 400 and says so. Largest of these pages in Arabic on a scoped build: under 500 KB each (the heaviest theme sub-page 545 KB before theme cards were cut to the head of the summary, under 400 KB after). Twelve budget rows were added to `scripts/check-weight.ts`. **Exceptions, unchanged:** the changelog (the release notes, whole), `/place/` (617 KB: it carries the map's index of every place for readers without JavaScript), `/modern/figures/` (536 KB, under the 700 KB budget its own lane set). The record page of `person/muhammad` is a record, not a listing. |
+| S22 Hadith Library | GREEN for the six books; two things not done | 335 book records (`passage/<collection>-kitab-NN`, unit `chapter`, ref `kitab-NN`) for Sahih al-Bukhari (97), Sahih Muslim (57), Sunan Abi Dawud (43), Jami' al-Tirmidhi (49), Sunan al-Nasa'i (51) and Sunan Ibn Majah (38), in the division of the hadith-api dataset the reports came from, with Arabic titles from the hadith-json dataset matched by English name (335 of 335 matched), honorifics and vowel marks taken off. 2,919 reports gained a `part_of` to their book, each only after its own text was found in the dataset's report of that number (by the dataset's number, or its `arabicnumber` for records numbered the other way); 37 did not match and are listed on the collection page under "Not filed under a book" with the page-numbered excerpts, which are no longer listed as books (`isKitab`, `site/src/lib/sunnah.ts`). `scripts/audit/hadith-books.py` regenerates all of it. **Not done:** the division is the dataset's, not a printed edition's (the book records say so); access by narrator across collections needs chain data most reports do not carry. |
+| S24 passage browsers | GREEN | Du'a had its occasions axis; Akhlaq now has `/akhlaq/trait/<topic>/` (65 headings in four groups: virtues, vices, dealings, general words) and Ibadat `/ibadat/act/<topic>/` (11 acts: purification, prayer, zakat, fasting, hajj, then remembrance, supplication, recitation, repentance, ruqya, and worship as a general word). Each page lists the museum's own records first, then the passages by corpus, 75 a page, and says a passage is placed by its wording. The headings are the ones every row already carried as chips; no new classification was invented. |
+| S26 the map's time control | GREEN | In a place's (or a record's) panel, a button cuts the list to the records whose dated span holds the chosen year, with the count on the button; when nothing there is dated to that year the panel says so and offers the nearest dated year. Checked in a browser on Baghdad: 11 AH gives 0 of 707 dated records and offers 12 AH; the jump lists one record; turning the filter off restores the list. The bar still opens at 11 AH. |
+| S16 residue | GREEN, and one regression of the first pass repaired | The learning pathways are counted (`learnPaths` in `site/src/lib/numbers.ts`: the `exhibit/path-*` records, 300 today) and printed on the homepage and the Coverage page in the three languages. **Regression found and repaired:** the Part IV change had made the homepage's line of figures print the 12 school-curriculum pathways as "pathways" where it used to say 300. |
+
+### Wikidata ids and the dates held off timelines
+
+Of the 3,904 date fields compared on 13 November, the 1,197 that agree with a Wikidata statement carrying no reference were left untested under a reading stricter than `AGENTS.md`, which accepts a Wikidata date taken from a recorded revision and cited. On 15 November **1,085** of them were cited (`sources: [source/wikidata]`, the note naming the item, the property, the revision and the words "a statement without a reference"); the other 112 had already been settled from books by other lanes.
+
+The 117 dates more than a century from Wikidata's (93 records) and the records whose item is not a human being (28 still on file) were read against the item's own label and description:
+
+- **32 ids removed**, the item being something or someone else: `abdallah-al-ghalib-al-sadi` (Q2821059: Abdelhay Mellakh); `abu-al-mahasin-yusuf-al-fasi` (Q2897229: Philodendron melanochrysum); `abu-hasun-al-wattasi` (Q281527: Wan Chai); `ahmad-al-araj-al-sadi` (Q401747: El Eulma); `ahmad-al-mansur-al-sadi` (Q310575: Gymnocalycium carminanthum); `ahmad-al-wattasi` (Q3188827: Jules Ozenne); `al-hasan-ibn-muhammad-hafsi` (Q3127531: Harmoniflûte); `hasan-ibn-khayr-al-din` (Q1438784: Fort Victor-Emmanuel); `ismail-ibn-hammad-al-qadi` (Q138050163: Jaffali Mosque); `joao-iii-portugal` (Q130517: an item with no label); `muzna` (Q29441903: Muzna); `philip-ii-spain` (Q32917: 507); `piyale-pasha` (Q714741: Kieran Doherty); `turgut-reis` (Q315525: Amt Märkische Schweiz); `afonso-de-albuquerque` (Q7529: Ashkenaz); `ahmad-ibn-bayazid` (Q4692614: Agios Dimitrios); `ahmad-ibn-ismail-al-kurani` (Q206059: Zisser); `alexander-vi` (Q39036: Cardano al Campo); `baltaoghlu` (Q632560: Boitze); `charles-v` (Q154746: an item with no label); `don-antonio-portugal` (Q365352: Agustín Pedro Justo); `francis-i-france` (Q169856: Couronian colonization); `francisco-de-almeida` (Q275191: skeleton at the 2010 Winter Olympics); `gennadios-scolarios` (Q351640: Galena); `george-amiroutzes` (Q1507825: George Macartney); `giustiniani` (Q1112682: Memorial of relocation in Dorog); `hasan-veneziano` (Q5678817: HashClash); `ibrahim-pasha-franji` (Q357947: Dugald Clerk); `jean-de-la-foret` (Q1685562: Wolf In der Maur); `qalender-celebi` (Q5014562: CTFC); `stephen-iii-moldavia` (Q211354: pederasty); `vladislaus-ii-hungary` (Q160819: Gambia River).
+- **89 dates removed**, where the item bears the record's own name and gives a year more than a century away, so the date and not the id is wrong. Each removed line is in `docs/audit/data/dates-wikidata-ledger.json`.
+- **13 records left untouched**, because the record was created from its Wikidata item (so the id is its origin) or neither reading is safe: `abdallah-al-aydarus`, `al-anbari`, `anushtegin-gharchai`, `bahr-al-ulum-al-kabir`, `gurcu-mehmed-pasha`, `hamud-ibn-rabian-al-jabri`, `husayn-nizam-shah-i`, `ibn-abd-al-hadi-shams`, `ibn-sabiq-al-siqilli`, `ibrahim-i-shirvan`, `mohamed-khalil-al-qari`, `muhammad-mahdi-bahr-al-ulum`, `sad-al-dawla-hamdani`.
+
+### Connectedness
+
+`scripts/audit/subject-reach.py` now also counts the unconnected records that no typed field ties to another record either (a passage's `work`, an image's `depicts`, a question's `related` are links on the site but not relations). 1,207 relations were added to records that had none: 671 lines of verse to their poem and 42 images to what they show (restating a field), and 494 taken from the unconnected records' own summaries. For those, three reading passes proposed 508 relations; a program kept the 507 whose quoted sentence is found in the record's own text, whose ids exist and whose classes the predicate allows; 13 were then set aside (the text only ascribes, a loose reading, a date conflict). Each relation carries the sentence that states it. Measured on this tree after the changes (the book records of the Hadith Library are new published subject records and are counted):
+
+| Measure | Before (main, 15 November) | After |
+|---|---|---|
+| Published subject records within three hops of a cornerstone | 7,534 of 10,237 (73.6%) | 8,416 of 10,254 (82.1%) |
+| The Grand Tour's measure, for comparison | 39.4% | 44.0% |
+| Published subject records with no relation at all | 1,693 | 625 (media 224, listings 79, concepts 61, questions 60, groups 47, works 39, jobs 28, buildings 26) |
+| Of those, with no typed-field link to or from another record either | 461 | 245 |
+| Source records that no record cites | 113 of 9,496 | 113 of 9,496 |
+
+### Du'a occasions
+
+Seventeen more records written from al-Adhkar on the Shamela page images' text (book 1956), one for each division that still had unread pages: after the prayer row, completing the Qur'an, beginning a supplication with praise, fear of people or of a devil, fever and pain, the eclipse, seeing the Ka'ba and the tawaf, meeting the enemy, at sea and on the road, naming God at meals, sending and returning the greeting, childbirth and the newborn, congratulating parents and names, anger, guarding the tongue from backbiting, refuge and wellbeing, and the close of the book. Three divisions (praise, passing matters, fasting) had no unread pages left. One record was checked sentence by sentence against its page (the eclipse, p. 174); the rest were not re-read.
+
+### Still open after this pass
+
+- The Hadith Library's books follow a dataset, not a printed edition, and there is no access by narrator.
+- 13 doubtful Wikidata ids (listed above); the dates Wikidata does not carry or contradicts within a century remain held off timelines.
+- The unconnected records that remain have summaries that name nothing the graph holds.
+- Of the six pairs of events that looked like one event filed twice (Part IV), four were merged with `scripts/audit/merge-person.py --class event` (Bathys Ryax, Hims, Banu Qaynuqa, Acre 1831; in each the duplicate was a bare card). Two are left: the two Kirman records tell different campaigns from different books (al-Tabari under year 23, al-Baladhuri on a later one), and the two records of the killing of Qutayba ibn Muslim each carry their own prose from a different source, so joining them is an editing job.
+- The Urdu of the Developers, Why, Disclaimer, Method, Support, Changelog, Backstage and children's pages (244 strings) was translated by a model on 15 November and has not been read by an Urdu reader.
+- S20: the families with no footnotes have none written; nothing was fabricated.
+- The four disputed beings stay untyped by decision; the Signs door stays as built.

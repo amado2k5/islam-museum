@@ -19,3 +19,5 @@ provenance:
   model: claude-opus-5-5
   run: ocr-harvest-2026-11-04
 status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker H)" }
+relations:
+  - {type: located_in, target: place/dearborn, sources: [source/khalidi-donnellon-mosques-usa-canada-catalogue], note: 'Stated in the summary of building/islamic-center-of-america-dearborn: "Islamic Center of America, Dearborn"'}

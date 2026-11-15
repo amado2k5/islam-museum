@@ -16,3 +16,5 @@ provenance:
   source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, PDF p. 676, entry 'AL-'ARID' (signed R. Mantran; the same row also carries the 'ARIF article, not written here) (EI2 entry, batch ei2-b013 part 10, seq 343)"
   generated_by: "Claude Code (claude-haiku-5-5)"
 status: { review: published, completeness: 3 }
+relations:
+  - {type: located_in, target: place/najd, sources: [source/encyclopaedia-of-islam-2], note: 'Stated in the summary of place/al-arid: "The central district of Najd in Arabia"'}

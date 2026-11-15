@@ -1,0 +1,23 @@
+id: passage/abudawud-kitab-37
+class: passage
+unit: chapter
+work: work/sunan-abi-dawud
+ref: "kitab-37"
+label:
+  ar: "سنن أبي داود، كتاب الفتن والملاحم"
+  en: "Sunan Abi Dawud, Book 37: Trials and Fierce Battles (Kitab Al-Fitan Wa Al-Malahim)"
+  ur: "سنن ابی داؤد، کتاب الفتن والملاحم"
+summary:
+  ar: "القسم 37 من سنن أبي داود في تقسيم قاعدة بيانات الحديث المفتوحة التي أُخذت منها سجلات المتحف، وعنوانه «كتاب الفتن والملاحم»، ويضم فيها النصوص من 4240 إلى 4278 بترقيمها. يضع المتحف تحت هذا الكتاب ما عنده من سجلات هذه النصوص."
+  en: "Book 37 of Sunan Abi Dawud (Trials and Fierce Battles (Kitab Al-Fitan Wa Al-Malahim)) in the division of the open hadith dataset the museum took its reports from: reports 4240 to 4278 in that dataset's numbering. The museum files its records of these reports under this book; printed editions divide and number the collection differently."
+  ur: "سنن ابی داؤد کی کتاب 37، عنوان «کتاب الفتن والملاحم»، اس کھلے حدیث ڈیٹا سیٹ کی تقسیم کے مطابق جس سے میوزیم کے ریکارڈ لیے گئے: اس کی ترقیم میں روایات 4240 تا 4278۔ میوزیم ان روایات کے اپنے ریکارڈ اسی کتاب کے تحت رکھتا ہے۔"
+relations:
+  - { type: part_of, target: work/sunan-abi-dawud }
+provenance:
+  layer: own-research
+  source: "fawazahmed0/hadith-api (Unlicense), edition eng-abudawud: metadata.sections and section_details, book 37; Arabic title from AhmedBaset/hadith-json, abudawud.json, matched by the English name"
+  generated_by: "Claude Code"
+  model: claude-fable-5-2
+  run: hadith-library-books-2026-11-15
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0, source/hadith-json-ahmedbaset]
+status: { review: published, completeness: 1, generated_by: "Claude Code (claude-fable-5-2), from the dataset's own division; no report text stored" }

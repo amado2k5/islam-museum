@@ -14,3 +14,6 @@ provenance:
   source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, PDF pp. 342-343, entry 'AKHBAR MADJMU'A' (unsigned, by E. Levi-Provencal in the printed signature) (EI2 entry, batch ei2-b009 part 3da)"
   generated_by: "Claude Code (claude-haiku-5-5)"
 status: { review: published, completeness: 2 }
+relations:
+  - {type: set_in, target: place/al-andalus, sources: [source/encyclopaedia-of-islam-2], note: 'Stated in the summary of work/akhbar-majmua: "An anonymous chronicle of al-Andalus"'}
+  - {type: mentions, target: person/abd-al-rahman-iii-al-nasir, sources: [source/encyclopaedia-of-islam-2], note: 'Stated in the summary of work/akhbar-majmua: "to the reign of ''Abd al-Rahman III al-Nasir"'}

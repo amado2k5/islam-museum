@@ -15,3 +15,5 @@ periods: [period/prophetic-era]
 provenance: { layer: own-research, source: "البرقوقي، شرح ديوان حسان بن ثابت، المطبعة الرحمانية 1929 (أرقام الصفحات المطبوعة؛ البحر كما في رأس القصيدة)", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "poetry-hassan-diwan-2" }
 sources: [source/sharh-diwan-hassan-barquqi-1929]
 status: { review: published, completeness: 2 }
+relations:
+  - {type: mentions, target: person/hamza, sources: [source/sharh-diwan-hassan-barquqi-1929], note: 'Stated in the summary of work/hassan-diwan-elegy-for-hamza-tusail: "lamenting Hamza ibn Abd al-Muttalib"'}

@@ -23,7 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 3
-died: { edtf: "1369", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khaldun, Kitab al-Ibar; Brunschvig" }
+died: { edtf: "1369", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khaldun, Kitab al-Ibar; Brunschvig Agrees with Wikidata Q10949545 (P570, a statement without a reference), item revision 2529649212, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/maghreb, note: "Only the record-level region (maghreb) is attested; broad-region edge flagged for review.", sources: [source/bosworth-new-islamic-dynasties-1996], confidence: low }
   - { type: ruler_of, target: place/tunis, note: "al-Zirikli, al-A'lam, vol. 1 p. 34: Hafsid king in Tunis from 751 AH", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }

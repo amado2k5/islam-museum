@@ -1,0 +1,23 @@
+id: passage/nasai-kitab-24
+class: passage
+unit: chapter
+work: work/sunan-al-nasai
+ref: "kitab-24"
+label:
+  ar: "سنن النسائي، كتاب مناسك الحج"
+  en: "Sunan al-Nasa'i, Book 24: The Book of Hajj"
+  ur: "سنن نسائی، کتاب مناسک الحج"
+summary:
+  ar: "القسم 24 من سنن النسائي في تقسيم قاعدة بيانات الحديث المفتوحة التي أُخذت منها سجلات المتحف، وعنوانه «كتاب مناسك الحج»، ويضم فيها النصوص من 2619 إلى 3084 بترقيمها. يضع المتحف تحت هذا الكتاب ما عنده من سجلات هذه النصوص."
+  en: "Book 24 of Sunan al-Nasa'i (The Book of Hajj) in the division of the open hadith dataset the museum took its reports from: reports 2619 to 3084 in that dataset's numbering. The museum files its records of these reports under this book; printed editions divide and number the collection differently."
+  ur: "سنن نسائی کی کتاب 24، عنوان «کتاب مناسک الحج»، اس کھلے حدیث ڈیٹا سیٹ کی تقسیم کے مطابق جس سے میوزیم کے ریکارڈ لیے گئے: اس کی ترقیم میں روایات 2619 تا 3084۔ میوزیم ان روایات کے اپنے ریکارڈ اسی کتاب کے تحت رکھتا ہے۔"
+relations:
+  - { type: part_of, target: work/sunan-al-nasai }
+provenance:
+  layer: own-research
+  source: "fawazahmed0/hadith-api (Unlicense), edition eng-nasai: metadata.sections and section_details, book 24; Arabic title from AhmedBaset/hadith-json, nasai.json, matched by the English name"
+  generated_by: "Claude Code"
+  model: claude-fable-5-2
+  run: hadith-library-books-2026-11-15
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0, source/hadith-json-ahmedbaset]
+status: { review: published, completeness: 1, generated_by: "Claude Code (claude-fable-5-2), from the dataset's own division; no report text stored" }

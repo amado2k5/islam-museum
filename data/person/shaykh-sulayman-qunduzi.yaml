@@ -12,7 +12,7 @@ wings: [people]
 regions: [anatolia-balkans]
 periods: [period/modern-era]
 born: { edtf: "1805", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam Confirmed on 13 November 2026 against Wikidata Q12191488 (P569, a statement with a reference), item revision 2533514092.", sources: [source/wikidata] }
-died: { edtf: "1877", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam" }
+died: { edtf: "1877", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam Agrees with Wikidata Q12191488 (P570, a statement without a reference), item revision 2533514092, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/kunduz, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q108155)" }
   - { type: born_in, target: place/durrani-empire, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q467627)" }

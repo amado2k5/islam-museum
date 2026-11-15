@@ -29,6 +29,8 @@ export const NUMBERS = {
   nodeLines: nodes.length,
   edgeLines: forward.length,
   pathways: pathways().length,
+  /** Learning pathways of the Tour and Learn section: the `exhibit/path-*` records the homepage and /learn/ list. */
+  learnPaths: realNodes.filter((n) => n.class === "exhibit" && n.id.startsWith("exhibit/path-")).length,
   commits: graph.repo?.commits ?? null,
   pulls: graph.repo?.pulls ?? null,
 };

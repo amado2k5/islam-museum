@@ -23,7 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 3
-died: { edtf: "867", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar)" }
+died: { edtf: "867", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar) Agrees with Wikidata Q63121710 (P570, a statement without a reference), item revision 2360412127, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/sarakhs, note: "Wikidata Q765536 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: died_in, target: place/nishapur, note: "Wikidata Q131350 (P20); al-Safadi, al-Wafi, vol. 6 p. 241: returned to Nishapur and died there", sources: [source/wikidata, source/wafi-bi-l-wafayat-safadi-dar-ihya-2000], confidence: high }

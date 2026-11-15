@@ -18,3 +18,5 @@ provenance:
   source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, PDF p. 710, entry 'ARSHGUL' (signed as in the entry, unsigned in the queue; Ibn Hawkal, al-Bakri, al-Idrisi, Leo Africanus cited in its bibliography) (EI2 entry, batch ei2-b013 part 25, seq 353)"
   generated_by: "Claude Code (claude-haiku-5-5)"
 status: { review: published, completeness: 3 }
+relations:
+  - {type: located_in, target: place/algeria, sources: [source/encyclopaedia-of-islam-2], note: 'Stated in the summary of place/arshgul: "on the Algerian coast"'}

@@ -7,9 +7,10 @@
 // composed from the compiled graph at build time, so a mention in a book harvested later
 // appears here automatically.
 import BaseLayout from "../../../layouts/BaseLayout.astro";
-import { ui, LANGS, type Lang } from "../../../lib/i18n";
+import { ui, LANGS, fmt, type Lang } from "../../../lib/i18n";
 import { byId, href, labelOf, summaryRaw, stripNeedsSource, edgesFrom } from "../../../lib/graph";
 import { renderProse, newHonState } from "../../../lib/markdown";
+import { SUBJECT_ROWS } from "../../../lib/axis";
 import { ansabSubjects, ansabSlugById, passagesOfCorpus, relatedOf, ANSAB_PROPHET_CHAIN } from "../../../lib/ansab";
 
 export function getStaticPaths() {
@@ -97,11 +98,13 @@ const ansabSlug = (id: string) => { const s = ansabSlugById.get(id); return s ? 
       )}
     </div>
 
+    <span id="by-passages"></span>
     {corpus.quran.length > 0 && (
       <section aria-labelledby="pq" style="margin-top:1.6rem">
         <h2 id="pq">{N.corpora.quran.title} · {corpus.quran.length}</h2>
+        {corpus.quran.length > SUBJECT_ROWS && <p class="ui"><a class="chip" style="border:1px solid var(--gold)" href={`/${lang}/ansab/${ansabSlugById.get(n.id)}/passages/quran/`}>{fmt((T as any).paged.all, { n: String(corpus.quran.length), section: N.corpora.quran.title })}</a></p>}
         <ol role="list" style="list-style:none;padding:0;margin:0;display:grid;gap:12px">
-          {corpus.quran.map((p) => { const a = ayah(p); return (
+          {corpus.quran.slice(0, SUBJECT_ROWS).map((p) => { const a = ayah(p); return (
             <li class="panel" style="padding:14px 16px">
               <p lang="ar" dir="rtl" style="font-family:var(--ar-quran);font-size:1.35rem;line-height:2.1;margin:0">{a.text}</p>
               {a.tr && <p class="muted" style="margin:.5rem 0 0">{a.tr}</p>}
@@ -115,8 +118,9 @@ const ansabSlug = (id: string) => { const s = ansabSlugById.get(id); return s ? 
     {reportSections.map((sec) => (
       <section aria-labelledby={sec.id} style="margin-top:1.6rem">
         <h2 id={sec.id}>{N.corpora[sec.key]?.title ?? sec.id} · {sec.list.length}</h2>
+        {sec.list.length > SUBJECT_ROWS && <p class="ui"><a class="chip" style="border:1px solid var(--gold)" href={`/${lang}/ansab/${ansabSlugById.get(n.id)}/passages/${sec.key}/`}>{fmt((T as any).paged.all, { n: String(sec.list.length), section: N.corpora[sec.key]?.title ?? sec.id })}</a></p>}
         <ol role="list" style="list-style:none;padding:0;margin:0;display:grid;gap:12px">
-          {sec.list.map((p) => { const h = report(p); return (
+          {sec.list.slice(0, SUBJECT_ROWS).map((p) => { const h = report(p); return (
             <li class="panel" style="padding:14px 16px">
               <p style="margin:0;font-weight:600"><a href={h.href}>{h.label}</a></p>
               <p class="ui muted" style="margin:.15rem 0 0;font-size:.82rem" dir="auto">{workLabel(p)}{p.data.ref ? ` · ${p.data.ref}` : ""}</p>

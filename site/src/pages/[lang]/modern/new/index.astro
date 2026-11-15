@@ -11,6 +11,10 @@ const { lang } = Astro.props as { lang: Lang };
 const T = ui(lang);
 const M = T.modern;
 const base = `/${lang}/modern`;
+// The page lists the most recently changed records, newest first, up to a fixed number (audit S18: a busy month made it
+// 843 KB). Nothing becomes unreachable: every record is listed in its own section of the browser.
+const NEW_ROWS = 400;
+const shown = newEntries.slice(0, NEW_ROWS);
 ---
 <BaseLayout lang={lang} title={`${M.new_title} · ${M.title}`} description={M.new_lede} path={`${base}/new/`}>
   <div class="wrap" style="padding-block:10px 20px">
@@ -19,8 +23,9 @@ const base = `/${lang}/modern`;
       <p class="ui" style="color:var(--gold);margin:0 0 .2rem">{M.title}</p>
       <h1>{M.new_title} <span class="ui muted">{num(newEntries.length, lang)}</span></h1>
       <p style="max-width:var(--measure)">{M.new_lede} <span class="muted">({buildDate})</span></p>
+      {newEntries.length > NEW_ROWS && <p class="muted ui" style="max-width:var(--measure)">{M.new_capped.replace("{n}", num(NEW_ROWS, lang)).replace("{total}", num(newEntries.length, lang))}</p>}
     </div>
-    {newEntries.length === 0 ? <p class="panel ui">{M.new_none}</p> : <ModernList entries={newEntries} lang={lang} showSections id="new" />}
+    {newEntries.length === 0 ? <p class="panel ui">{M.new_none}</p> : <ModernList entries={shown} lang={lang} showSections id="new" />}
   </div>
   <script src="../../../../scripts/modern-filter.ts"></script>
 </BaseLayout>

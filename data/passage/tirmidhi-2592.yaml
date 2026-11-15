@@ -15,6 +15,7 @@ summary:
 themes: [afterlife-and-eschatology]
 tags: [hadith-qudsi, qudsi-ishtakat-al-nar]
 relations:
+  - { type: part_of, target: passage/tirmidhi-kitab-38 }
   - { type: mentions, target: person/muhammad, sources: [source/jami-al-tirmidhi] }
   - { type: mentions, target: concept/hadith-qudsi, sources: [source/jami-al-tirmidhi] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 2592; matn excerpt of at most 40 words, verified as hadith qudsi against al-Ahadith al-Qudsiyya (Supreme Council for Islamic Affairs, Cairo, 1417/1997) p. 439", generated_by: "Devin (SWE-2 Medium)", run: "hadith-qudsi-browser-2" }

@@ -11,7 +11,7 @@ summary:
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/modern-era]
-born: { edtf: "1912", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Modern Biography" }
+born: { edtf: "1912", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Modern Biography Agrees with Wikidata Q5948609 (P569, a statement without a reference), item revision 1424089756, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/khosrowshahr, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q2407931)" }
   - { type: died_in, target: place/tabriz, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q80053)" }

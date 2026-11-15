@@ -1,0 +1,23 @@
+id: passage/tirmidhi-kitab-03
+class: passage
+unit: chapter
+work: work/jami-al-tirmidhi
+ref: "kitab-03"
+label:
+  ar: "جامع الترمذي، أبواب الوتر"
+  en: "Jami' al-Tirmidhi, Book 3: The Book on Al-Witr"
+  ur: "جامع ترمذی، ابواب الوتر"
+summary:
+  ar: "القسم 3 من جامع الترمذي في تقسيم قاعدة بيانات الحديث المفتوحة التي أُخذت منها سجلات المتحف، وعنوانه «أبواب الوتر»، ويضم فيها النصوص من 452 إلى 487 بترقيمها. يضع المتحف تحت هذا الكتاب ما عنده من سجلات هذه النصوص."
+  en: "Book 3 of Jami' al-Tirmidhi (The Book on Al-Witr) in the division of the open hadith dataset the museum took its reports from: reports 452 to 487 in that dataset's numbering. The museum files its records of these reports under this book; printed editions divide and number the collection differently."
+  ur: "جامع ترمذی کی کتاب 3، عنوان «ابواب الوتر»، اس کھلے حدیث ڈیٹا سیٹ کی تقسیم کے مطابق جس سے میوزیم کے ریکارڈ لیے گئے: اس کی ترقیم میں روایات 452 تا 487۔ میوزیم ان روایات کے اپنے ریکارڈ اسی کتاب کے تحت رکھتا ہے۔"
+relations:
+  - { type: part_of, target: work/jami-al-tirmidhi }
+provenance:
+  layer: own-research
+  source: "fawazahmed0/hadith-api (Unlicense), edition eng-tirmidhi: metadata.sections and section_details, book 3; Arabic title from AhmedBaset/hadith-json, tirmidhi.json, matched by the English name"
+  generated_by: "Claude Code"
+  model: claude-fable-5-2
+  run: hadith-library-books-2026-11-15
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0, source/hadith-json-ahmedbaset]
+status: { review: published, completeness: 1, generated_by: "Claude Code (claude-fable-5-2), from the dataset's own division; no report text stored" }

@@ -19,3 +19,5 @@ provenance:
   model: "Devin (Cognition)"
   run: person-place-geo-b
 status: { review: draft, completeness: 1, generated_by: "Devin" }
+relations:
+  - {type: located_in, target: place/alti-shahr, sources: [source/encyclopaedia-of-islam-2], note: 'Stated in the summary of place/alti-shahr: "comprising Kucha, Aksu, Ush Turfan, Kashgar"'}

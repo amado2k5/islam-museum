@@ -15,6 +15,7 @@ summary:
 themes: [afterlife-and-eschatology]
 tags: [hadith-qudsi, qudsi-ana-al-malik]
 relations:
+  - { type: part_of, target: passage/muslim-kitab-52 }
   - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
   - { type: mentions, target: concept/hadith-qudsi, sources: [source/sahih-muslim] }
 provenance: { layer: own-research, source: "Sahih Muslim 2788 (Abd al-Baqi numbering), verified as hadith qudsi against al-Ahadith al-Qudsiyya (Supreme Council for Islamic Affairs, Cairo, 1417/1997) p. 330; matn excerpt of at most 40 words", generated_by: "Devin (SWE-2 Medium)", run: "hadith-qudsi-browser-2" }

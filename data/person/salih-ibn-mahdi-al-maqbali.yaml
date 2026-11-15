@@ -11,8 +11,8 @@ summary:
 wings: [people]
 regions: [arabia]
 periods: [period/gunpowder-empires]
-born: { edtf: "1637", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Badr al-Tali" }
-died: { edtf: "1696", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Badr al-Tali" }
+born: { edtf: "1637", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Badr al-Tali Agrees with Wikidata Q57253851 (P569, a statement without a reference), item revision 2533544814, read on 13 November 2026.", sources: [source/wikidata] }
+died: { edtf: "1696", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Badr al-Tali Agrees with Wikidata Q57253851 (P570, a statement without a reference), item revision 2533544814, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: died_in, target: place/mecca, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q5806)" }
 sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]

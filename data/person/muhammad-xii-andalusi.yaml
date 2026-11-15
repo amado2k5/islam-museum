@@ -16,8 +16,8 @@ periods: [period/crusades-ayyubid-mamluk]
 sources: [source/tarikh-islam-hasan-ibrahim, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q312763
-born: { edtf: "1459~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; L.P. Harvey" }
-died: { edtf: "1533", hijri: "0940", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; L.P. Harvey" }
+born: { edtf: "1459~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; L.P. Harvey Agrees with Wikidata Q312763 (P569, a statement without a reference), item revision 2565907060, read on 13 November 2026.", sources: [source/wikidata] }
+died: { edtf: "1533", hijri: "0940", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; L.P. Harvey Agrees with Wikidata Q312763 (P570, a statement without a reference), item revision 2565907060, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/granada, note: "al-Zirikli, al-A'lam, vol. 6 p. 290: he was born in Granada", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
   - { type: lived_in, target: place/fez, note: "al-Zirikli, al-A'lam, vol. 6 pp. 290-291: after leaving Granada he settled in Fez", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
