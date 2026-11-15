@@ -1,0 +1,23 @@
+id: concept/kabikaj
+class: concept
+kind: natural
+label:
+  ar: "كبيكج"
+  en: "Kabikaj (a plant the editor calls warad al-habb)"
+  ur: "کبیکج"
+summary:
+  ar: "الكبيكج أربعة أنواع عند ديسقوريدوس، كلها حار يابس إلى الثانية، حاد مقرح جلاء لذاع للجلد، ويُقلع الجرب والثاليل، وينفع من ضربان الأسنان."
+  en: "Kabikaj is, in Dioscorides' account, of four kinds, all hot and dry to the second degree, sharp, blistering, cleansing and irritant to the skin. It removes itch and warts, and its powder helps the throbbing of the teeth. The editor's footnote gives the name as warad al-habb."
+  ur: "کبیکج دیسقوریدوس کے بیان کے مطابق چار قسموں کا ہے، جو سب دوسرے درجے تک گرم اور خشک ہیں، تیز، آبلہ ڈالنے والے، صاف کرنے والے اور جلد میں جلن پیدا کرنے والے ہیں۔ یہ خارش اور مسّوں کو دور کرتا ہے، اور اس کا سفوف دانتوں کی ٹیسیں کم کرتا ہے۔ حاشیے میں اسے ورد الحب لکھا گیا ہے۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, scan pages 521, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, conception, semen and desire reports kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), lane A4"
+  model: claude-haiku-5-5
+  run: a4-canon-book2-15
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (book mining, lane A4)" }
