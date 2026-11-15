@@ -91,8 +91,8 @@ open a new block on top with the new version and today's date.
 - Twenty-four concept pages from the star catalogue at the end of al-Battani's Zij gain trilingual draft prose: the Great and Lesser Bears, the Dragon, Cepheus, the Guardian of the North, the Hen, Cassiopeia, Perseus, the Flying Eagle, Andromeda, the Triangle, the Dolphin, Cetus, the River, the Hare, the Dog, Centaurus, the Censer, the Southern Crown, the Southern Fish, and the zodiac figures of Cancer, Leo, Virgo and Libra. Each names the catalogue section that lists its stars and says where the figures sit in the printed pages; the star positions are not transcribed.
 ### Changed
 - The Safwan ibn al-Mu'attal page now points readers to the printed page 220 of al-Mubarakfuri's al-Raheeq al-Makhtum for his conduct on the Banu al-Mustaliq expedition, in Arabic, English and Urdu, so the account can be checked against the book as well as Sahih al-Bukhari.
-
-
+### Changed
+- **The reports on the sanctuaries of Makka and Madina stay in the Halal and Haram Browser.** The founder ruled on 15 November 2026 that they keep their own subject page. The lane notes record the ruling and which of a second reader's references were checked against the museum's records and which were not. Nothing on the site changes.
 
 ## v1.32.0 — 2026-11-14
 ### Added
