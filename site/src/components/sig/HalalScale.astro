@@ -1,0 +1,93 @@
+---
+// "The balance of the lawful and the unlawful, as the sources name them" (Halal and Haram Browser home): a bar and two
+// facing panels, nothing more. The bar is the passages by what they name — the lawful only, both, the unlawful only.
+// Each panel lists the terms of the browser's lexicon (the detector's signals, scripts/halal.ts) that matched at least
+// one passage on its side, with the passages of each term in the four corpora; the doubtful matters stand between the
+// two. Every number comes from lib/halal.ts at build time and every count links to the section that lists its
+// passages; the view needs no script. The build throws when the detector yields a term this view has no side or
+// label for, so the lexicon and the drawing cannot drift apart.
+import { ui, fmt, type Lang } from "../../lib/i18n";
+import { num } from "../../lib/nav";
+import { halalItems, halalSignals } from "../../lib/halal";
+import { HALAL_SIDE, HARAM_SIDE, NEUTRAL_SIDE } from "../../../../scripts/halal";
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const V = (ui(lang) as any).halal.viz;
+const K = (ui(lang) as any).halal.kinds;
+const CORPORA = ["quran", "sunnah", "seerah", "books"] as const;
+const known = new Set<string>([...HALAL_SIDE, ...HARAM_SIDE, ...NEUTRAL_SIDE]);
+const passages = halalItems.filter((i) => i.node.class === "passage" && i.kind !== null).map((i) => ({ i, sig: halalSignals(i.node) }));
+for (const p of passages) {
+  if (p.sig.length === 0) throw new Error(`HalalScale: ${p.i.node.id} matched no term`);
+  for (const s of p.sig) if (!known.has(s)) throw new Error(`HalalScale: the detector yields a term this view has no side for: ${s}`);
+  if (!(CORPORA as readonly string[]).includes(p.i.section)) throw new Error(`HalalScale: ${p.i.node.id} is in the section ${p.i.section}`);
+}
+for (const s of known) if (!V.terms[s]) throw new Error(`HalalScale: no label for the term ${s}`);
+for (const c of CORPORA) if (!V[`sec_${c}`]) throw new Error(`HalalScale: no label for the corpus ${c}`);
+const curated = halalItems.filter((i) => i.node.class !== "passage").length;
+const kinds = (["halal", "both", "haram"] as const).map((k) => ({ k, n: passages.filter((p) => p.i.kind === k).length }));
+if (kinds.reduce((a, b) => a + b.n, 0) !== passages.length) throw new Error("HalalScale: the kinds do not add up to the passages");
+const total = Math.max(1, passages.length);
+const rowsOf = (side: readonly string[]) =>
+  side
+    .map((s) => ({ s, by: CORPORA.map((c) => passages.filter((p) => p.i.section === c && p.sig.includes(s)).length) }))
+    .map((r) => ({ ...r, n: r.by.reduce((a, b) => a + b, 0) }))
+    .filter((r) => r.n > 0);
+const panels = [
+  { id: "halal", title: V.panel_halal, rows: rowsOf(HALAL_SIDE) },
+  { id: "between", title: V.panel_between, rows: rowsOf(NEUTRAL_SIDE) },
+  { id: "haram", title: V.panel_haram, rows: rowsOf(HARAM_SIDE) },
+].filter((p) => p.rows.length > 0);
+const COLOR: Record<string, string> = { halal: "#2e7d52", both: "#c5a059", haram: "#a8443a", between: "#c5a059" };
+---
+{passages.length > 0 && (
+  <section class="halal-scale" role="region" aria-label={V.region} data-pagefind-ignore>
+    <h2 style="font-size:1.15rem;margin:0 0 .3rem">{V.title}</h2>
+    <p class="muted" style="max-width:var(--measure);margin:0 0 .8rem">{V.note}</p>
+    <p class="ui muted" style="margin:0 0 .3rem;font-size:.85rem">{V.bar_label}</p>
+    <div class="hs-bar" role="list">
+      {kinds.filter((x) => x.n > 0).map((x) => (
+        <div role="listitem" class="hs-seg" style={`flex:${Math.max(x.n / total, 0.12)} 1 0;border-color:${COLOR[x.k]}`}>
+          <span class="hs-dot" style={`background:${COLOR[x.k]}`} aria-hidden="true"></span>
+          <span>{K[x.k]}</span> <strong>{fmt(V.passages, { n: num(x.n, lang) })}</strong>
+        </div>
+      ))}
+    </div>
+    <div class="hs-panels">
+      {panels.map((p) => (
+        <div class="panel hs-panel" style={`border-top:4px solid ${COLOR[p.id]}`}>
+          <table class="ui">
+            <caption>{p.title}</caption>
+            <thead>
+              <tr><th scope="col">{V.term}</th>{CORPORA.map((c) => <th scope="col">{V[`sec_${c}`]}</th>)}<th scope="col">{V.total}</th></tr>
+            </thead>
+            <tbody>
+              {p.rows.map((r) => (
+                <tr>
+                  <th scope="row" dir="auto">{V.terms[r.s]}</th>
+                  {r.by.map((n, ci) => <td>{n > 0 ? <a href={`#t-${CORPORA[ci]}`}>{num(n, lang)}</a> : <span class="muted" aria-hidden="true">·</span>}</td>)}
+                  <td><strong>{num(r.n, lang)}</strong></td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      ))}
+    </div>
+    {curated > 0 && <p class="ui muted" style="margin:.6rem 0 0"><a href="#t-curated">{fmt(V.curated, { n: num(curated, lang) })}</a></p>}
+  </section>
+)}
+<style>
+  .halal-scale { margin: 1.6rem 0 0; }
+  .hs-bar { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 1rem; }
+  .hs-seg { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 8px; min-width: 150px; padding: 8px 12px; border: 1px solid var(--line); border-bottom-width: 4px; border-radius: 10px; background: var(--card); font-size: .9rem; }
+  .hs-dot { width: 10px; height: 10px; border-radius: 50%; flex: none; }
+  .hs-panels { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 330px), 1fr)); gap: 12px; align-items: start; }
+  .hs-panel { padding: 12px 14px; overflow-x: auto; }
+  .hs-panel table { width: 100%; border-collapse: collapse; font-size: .88rem; }
+  .hs-panel caption { text-align: start; font-weight: 700; padding: 0 0 .4rem; }
+  .hs-panel th, .hs-panel td { padding: 5px 6px; border-bottom: 1px solid var(--line); text-align: center; }
+  .hs-panel th[scope="row"], .hs-panel thead th:first-child { text-align: start; font-weight: 500; }
+  .hs-panel td a { display: inline-block; min-width: 28px; min-height: 24px; }
+</style>

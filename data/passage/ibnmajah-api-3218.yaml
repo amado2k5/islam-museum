@@ -1,0 +1,16 @@
+id: passage/ibnmajah-api-3218
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "3218"
+label: { ar: "سنن ابن ماجه 3218 — ما أُحل", en: "Sunan Ibn Majah 3218 — what was made lawful", ur: "سنن ابن ماجہ 3218 — جو حلال کیا گیا" }
+text: "حَدَّثَنَا أَبُو مُصْعَبٍ، حَدَّثَنَا عَبْدُ الرَّحْمَنِ بْنُ زَيْدِ بْنِ أَسْلَمَ، عَنْ أَبِيهِ، عَنْ عَبْدِ اللَّهِ بْنِ عُمَرَ، أَنَّ رَسُولَ اللَّهِ ـ قَالَ \" أُحِلَّتْ لَنَا مَيْتَتَانِ الْحُوتُ وَالْجَرَادُ \"."
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 3218، يذكر ما أُحل. يجمعه متصفح الحلال والحرام مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في ما أُحل وما حُرّم."
+  en: "A report in Sunan Ibn Majah, no. 3218 (Chapters on Hunting), that mentions what was made lawful. The Halal and Haram Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on what is lawful and what is unlawful."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 3218، جس میں جو حلال کیا گیا کا ذکر ہے۔ حلال و حرام براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کی ان نصوص کے ساتھ جمع کرتا ہے جو حلال اور حرام بیان کرتی ہیں۔"
+relations:
+  - { type: mentions, target: concept/halal-haram, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 3218 (book 28 hadith 19); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

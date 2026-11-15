@@ -1,0 +1,16 @@
+id: passage/nasai-api-3415
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "3415"
+label: { ar: "سنن النسائي 3415 — ما أُحل، ما لا يحل", en: "Sunan al-Nasa'i 3415 — what was made lawful; what is not lawful", ur: "سنن نسائی 3415 — جو حلال کیا گیا، جو حلال نہیں" }
+text: "… غَيْلاَنَ، قَالَ حَدَّثَنَا وَكِيعٌ، قَالَ حَدَّثَنَا سُفْيَانُ، عَنْ عَلْقَمَةَ بْنِ مَرْثَدٍ، عَنْ رَزِينِ بْنِ سُلَيْمَانَ الأَحْمَرِيِّ، عَنِ ابْنِ عُمَرَ، قَالَ سُئِلَ النَّبِيُّ عَنِ الرَّجُلِ يُطَلِّقُ امْرَأَتَهُ ثَلاَثًا فَيَتَزَوَّجُهَا الرَّجُلُ فَيُغْلِقُ الْبَابَ وَيُرْخِي السِّتْرَ ثُمَّ يُطَلِّقُهَا قَبْلَ أَنْ يَدْخُلَ بِهَا قَالَ \" لاَ تَحِلُّ لِلأَوَّلِ حَتَّى يُجَامِعَهَا الآخَرُ \". قَالَ أَبُو عَبْدِ الرَّحْمَنِ هَذَا أَوْلَى بِالصَّوَابِ."
+summary:
+  ar: "حديث في سنن النسائي، رقم 3415، يذكر ما أُحل، وما لا يحل. يجمعه متصفح الحلال والحرام مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في ما أُحل وما حُرّم."
+  en: "A report in Sunan al-Nasa'i, no. 3415 (The Book of Divorce), that mentions what was made lawful, what is not lawful. The Halal and Haram Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on what is lawful and what is unlawful."
+  ur: "سنن نسائی کی حدیث نمبر 3415، جس میں جو حلال کیا گیا، جو حلال نہیں کا ذکر ہے۔ حلال و حرام براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کی ان نصوص کے ساتھ جمع کرتا ہے جو حلال اور حرام بیان کرتی ہیں۔"
+relations:
+  - { type: mentions, target: concept/halal-haram, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 3415 (book 27 hadith 27); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

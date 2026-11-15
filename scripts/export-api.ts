@@ -25,6 +25,7 @@ import { AKHLAQ_TAG, akhlaqCorpusOf, akhlaqKindOf, akhlaqKindsOf, akhlaqSignalsO
 import { IBADAT_TAG, ibadatCorpusOf, ibadatKindOf, ibadatSignalsOf, ibadatTagSection, ibadatTopicsOf, isIbadatPassage, type IbadatKind } from "./ibadat.js";
 import { NUBUWAT_TAG, nubuwatCorpusOf, nubuwatTagSection, nubuwatTagTopics, isNubuwatPassage, nubuwatTopicsOf } from "./nubuwat.js";
 import { SAYYIAT_TAG, sayyiatCorpusOf, sayyiatKindOf, sayyiatSignalsOf, sayyiatTagSection, isSayyiatPassage, type SayyiatKind } from "./sayyiat.js";
+import { HALAL_TAG, halalCorpusOf, halalKindOf, halalSignalsOf, halalTagSection, isHalalPassage } from "./halal.js";
 import { HUDUD_TAG, hududCorpusOf, hududKindOf, hududSignalsOf, hududTagSection, isHududPassage } from "./hudud.js";
 import { HISAB_TAG, hisabCorpusOf, hisabKindsOf, hisabSignalsOf, isHisabPassage, reckoningOf } from "./hisab.js";
 import { HASANAT_TAG, hasanatCorpusOf, hasanatKindOf, hasanatSignalsOf, hasanatTagSection, isHasanatPassage, type HasanatKind } from "./hasanat.js";
@@ -459,6 +460,17 @@ const FEATURE_EXPORTS: { file: string; feature: string; pick: (n: Node) => boole
         : sayyiatTagSection(n),
       sayyiat_kind: n.class === "passage" ? sayyiatKindOf(n) : null,
       signals: n.class === "passage" ? sayyiatSignalsOf(n) : [],
+    }) },
+  { file: "halal.json", feature: "halal-haram-browser",
+    pick: (n) => n.tags.includes(HALAL_TAG) || isHalalPassage(n),
+    fields: ["kind", "work", "ref", "unit", "text", "sura", "aya", "wings", "themes", "tags"],
+    extra: (n, ef, byId) => ({
+      section: n.class === "passage"
+        ? halalCorpusOf(n.data.work as string | undefined, byId?.get(n.data.work as string)?.data.genre as string[] | undefined, n.data.unit as string | undefined)
+        : halalTagSection(n),
+      // `halal` when the passage names only the lawful, `haram` only the unlawful, `both` the two
+      halal_kind: n.class === "passage" ? halalKindOf(n) : null,
+      signals: n.class === "passage" ? halalSignalsOf(n) : [],
     }) },
   { file: "hudud.json", feature: "hudud-browser",
     pick: (n) => n.tags.includes(HUDUD_TAG) || isHududPassage(n),

@@ -1,0 +1,16 @@
+id: passage/nasai-api-3084
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "3084"
+label: { ar: "سنن النسائي 3084 — ما أُحل", en: "Sunan al-Nasa'i 3084 — what was made lawful", ur: "سنن نسائی 3084 — جو حلال کیا گیا" }
+text: "أَخْبَرَنَا عَمْرُو بْنُ عَلِيٍّ، قَالَ حَدَّثَنَا يَحْيَى، قَالَ حَدَّثَنَا سُفْيَانُ، عَنْ سَلَمَةَ بْنِ كُهَيْلٍ، عَنِ الْحَسَنِ الْعُرَنِيِّ، عَنِ ابْنِ عَبَّاسٍ، قَالَ إِذَا رَمَى الْجَمْرَةَ فَقَدْ حَلَّ لَهُ كُلُّ شَىْءٍ إِلاَّ النِّسَاءَ. قِيلَ وَالطِّيبُ قَالَ أَمَّا أَنَا فَقَدْ رَأَيْتُ رَسُولَ اللَّهِ يَتَضَمَّخُ بِالْمِسْكِ أَفَطِيبٌ هُوَ"
+summary:
+  ar: "حديث في سنن النسائي، رقم 3084، يذكر ما أُحل. يجمعه متصفح الحلال والحرام مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في ما أُحل وما حُرّم."
+  en: "A report in Sunan al-Nasa'i, no. 3084 (The Book of Hajj), that mentions what was made lawful. The Halal and Haram Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on what is lawful and what is unlawful."
+  ur: "سنن نسائی کی حدیث نمبر 3084، جس میں جو حلال کیا گیا کا ذکر ہے۔ حلال و حرام براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کی ان نصوص کے ساتھ جمع کرتا ہے جو حلال اور حرام بیان کرتی ہیں۔"
+relations:
+  - { type: mentions, target: concept/halal-haram, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 3084 (book 24 hadith 467); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

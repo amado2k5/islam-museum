@@ -1,0 +1,16 @@
+id: passage/muslim-api-4052
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "4052"
+label: { ar: "صحيح مسلم 4052 — ما حُرّم", en: "Sahih Muslim 4052 — what was made unlawful", ur: "صحیح مسلم 4052 — جو حرام کیا گیا" }
+text: "حَدَّثَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ الْحَنْظَلِيُّ، أَخْبَرَنَا رَوْحُ بْنُ عُبَادَةَ، حَدَّثَنَا ابْنُ جُرَيْجٍ، أَخْبَرَنِي ابْنُ شِهَابٍ، عَنْ سَعِيدِ بْنِ الْمُسَيَّبِ، أَنَّهُ حَدَّثَهُ عَنْ أَبِي هُرَيْرَةَ، عَنْ رَسُولِ اللَّهِ قَالَ \" قَاتَلَ اللَّهُ الْيَهُودَ حَرَّمَ اللَّهُ عَلَيْهِمُ الشُّحُومَ فَبَاعُوهَا وَأَكَلُوا أَثْمَانَهَا\"."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 4052، يذكر ما حُرّم. يجمعه متصفح الحلال والحرام مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في ما أُحل وما حُرّم."
+  en: "A report in Sahih Muslim, no. 4052 (The Book of Musaqah), that mentions what was made unlawful. The Halal and Haram Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on what is lawful and what is unlawful."
+  ur: "صحیح مسلم کی حدیث نمبر 4052، جس میں جو حرام کیا گیا کا ذکر ہے۔ حلال و حرام براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کی ان نصوص کے ساتھ جمع کرتا ہے جو حلال اور حرام بیان کرتی ہیں۔"
+relations:
+  - { type: mentions, target: concept/halal-haram, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 4052 (book 22 hadith 91); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

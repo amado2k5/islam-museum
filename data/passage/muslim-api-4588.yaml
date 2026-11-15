@@ -1,0 +1,16 @@
+id: passage/muslim-api-4588
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "4588"
+label: { ar: "صحيح مسلم 4588 — الحلال، ما أُحل", en: "Sahih Muslim 4588 — the lawful; what was made lawful", ur: "صحیح مسلم 4588 — حلال، جو حلال کیا گیا" }
+text: "… لِبُكَائِكُمَا. فَقَالَ رَسُولُ اللَّهِ \" أَبْكِي لِلَّذِي عَرَضَ عَلَىَّ أَصْحَابُكَ مِنْ أَخْذِهِمُ الْفِدَاءَ لَقَدْ عُرِضَ عَلَىَّ عَذَابُهُمْ أَدْنَى مِنْ هَذِهِ الشَّجَرَةِ \". شَجَرَةٍ قَرِيبَةٍ مِنْ نَبِيِّ اللَّهِ. وَأَنْزَلَ اللَّهُ عَزَّ وَجَلَّ { مَا كَانَ لِنَبِيٍّ أَنْ يَكُونَ لَهُ أَسْرَى حَتَّى يُثْخِنَ فِي الأَرْضِ} إِلَى قَوْلِهِ { فَكُلُوا مِمَّا غَنِمْتُمْ حَلاَلاً طَيِّبًا} فَأَحَلَّ اللَّهُ الْغَنِيمَةَ لَهُمْ."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 4588، يذكر الحلال، وما أُحل، والطيبات. يجمعه متصفح الحلال والحرام مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في ما أُحل وما حُرّم."
+  en: "A report in Sahih Muslim, no. 4588 (The Book of Jihad and Expeditions), that mentions the lawful, what was made lawful, the good things. The Halal and Haram Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on what is lawful and what is unlawful."
+  ur: "صحیح مسلم کی حدیث نمبر 4588، جس میں حلال، جو حلال کیا گیا، پاکیزہ چیزیں کا ذکر ہے۔ حلال و حرام براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کی ان نصوص کے ساتھ جمع کرتا ہے جو حلال اور حرام بیان کرتی ہیں۔"
+relations:
+  - { type: mentions, target: concept/halal-haram, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 4588 (book 32 hadith 69); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

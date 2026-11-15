@@ -1,0 +1,16 @@
+id: passage/muslim-api-4363
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "4363"
+label: { ar: "صحيح مسلم 4363 — ما أُحل", en: "Sahih Muslim 4363 — what was made lawful", ur: "صحیح مسلم 4363 — جو حلال کیا گیا" }
+text: "حَدَّثَنَا عَبْدُ بْنُ حُمَيْدٍ، حَدَّثَنَا عَبْدُ الرَّزَّاقِ، أَخْبَرَنَا مَعْمَرٌ، عَنْ أَيُّوبَ، عَنْ أَبِي قِلاَبَةَ، عَنْ أَنَسٍ، أَنَّ رَجُلاً، مِنَ الْيَهُودِ قَتَلَ جَارِيَةً مِنَ الأَنْصَارِ عَلَى حُلِيٍّ لَهَا ثُمَّ أَلْقَاهَا فِي الْقَلِيبِ وَرَضَخَ رَأْسَهَا بِالْحِجَارَةِ فَأُخِذَ فَأُتِيَ بِهِ رَسُولُ اللَّهِ فَأَمَرَ بِهِ أَنْ يُرْجَمَ حَتَّى يَمُوتَ فَرُجِمَ حَتَّى مَاتَ."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 4363، يذكر ما أُحل. يجمعه متصفح الحلال والحرام مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في ما أُحل وما حُرّم."
+  en: "A report in Sahih Muslim, no. 4363 (The Book of Oaths, Muharibin, Qasas (Retaliation), and Diyat (Blood Money)), that mentions what was made lawful. The Halal and Haram Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on what is lawful and what is unlawful."
+  ur: "صحیح مسلم کی حدیث نمبر 4363، جس میں جو حلال کیا گیا کا ذکر ہے۔ حلال و حرام براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کی ان نصوص کے ساتھ جمع کرتا ہے جو حلال اور حرام بیان کرتی ہیں۔"
+relations:
+  - { type: mentions, target: concept/halal-haram, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 4363 (book 28 hadith 22); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

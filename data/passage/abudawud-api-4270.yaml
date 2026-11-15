@@ -1,0 +1,16 @@
+id: passage/abudawud-api-4270
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "4270"
+label: { ar: "سنن أبي داود 4270 — الحرام", en: "Sunan Abi Dawud 4270 — the unlawful", ur: "سنن ابی داؤد 4270 — حرام" }
+text: "… وَلاَ عَدْلاً \". قَالَ لَنَا خَالِدٌ ثُمَّ حَدَّثَنِي ابْنُ أَبِي زَكَرِيَّا عَنْ أُمِّ الدَّرْدَاءِ عَنْ أَبِي الدَّرْدَاءِ أَنَّ رَسُولَ اللَّهِ قَالَ \" لاَ يَزَالُ الْمُؤْمِنُ مُعْنِقًا صَالِحًا مَا لَمْ يُصِبْ دَمًا حَرَامًا فَإِذَا أَصَابَ دَمًا حَرَامًا بَلَّحَ \". وَحَدَّثَ هَانِئُ بْنُ كُلْثُومٍ عَنْ مَحْمُودِ بْنِ الرَّبِيعِ عَنْ عُبَادَةَ بْنِ الصَّامِتِ عَنْ رَسُولِ اللَّهِ مِثْلَهُ سَوَاءً."
+summary:
+  ar: "حديث في سنن أبي داود، رقم 4270، يذكر الحرام. يجمعه متصفح الحلال والحرام مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في ما أُحل وما حُرّم."
+  en: "A report in Sunan Abi Dawud, no. 4270 (Trials and Fierce Battles (Kitab Al-Fitan Wa Al-Malahim)), that mentions the unlawful. The Halal and Haram Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on what is lawful and what is unlawful."
+  ur: "سنن ابی داؤد کی حدیث نمبر 4270، جس میں حرام کا ذکر ہے۔ حلال و حرام براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کی ان نصوص کے ساتھ جمع کرتا ہے جو حلال اور حرام بیان کرتی ہیں۔"
+relations:
+  - { type: mentions, target: concept/halal-haram, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 4270 (book 37 hadith 31); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

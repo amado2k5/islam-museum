@@ -1,0 +1,17 @@
+id: passage/bukhari-api-1491
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "1491"
+label: { ar: "صحيح البخاري 1491 — منع الحسن بن علي من تمرة الصدقة", en: "Sahih al-Bukhari 1491 — al-Hasan ibn 'Ali stopped from eating a date of the charity", ur: "صحیح بخاری 1491 — حسن بن علی کو صدقے کی کھجور سے روکنا" }
+text: "حَدَّثَنَا آدَمُ، حَدَّثَنَا شُعْبَةُ، حَدَّثَنَا مُحَمَّدُ بْنُ زِيَادٍ، قَالَ سَمِعْتُ أَبَا هُرَيْرَةَ ـ قَالَ أَخَذَ الْحَسَنُ بْنُ عَلِيٍّما ـ تَمْرَةً مِنْ تَمْرِ الصَّدَقَةِ، فَجَعَلَهَا فِي فِيهِ، فَقَالَ النَّبِيُّ \" كِخٍ كِخٍ ـ لِيَطْرَحَهَا ثُمَّ قَالَ ـ أَمَا شَعَرْتَ أَنَّا لاَ نَأْكُلُ الصَّدَقَةَ \"."
+summary:
+  ar: "خبر في صحيح البخاري، رقم 1491، في منع الحسن بن علي من تمرة الصدقة. لا يرد فيه لفظ الحلال أو الحرام، ويجمعه متصفح الحلال والحرام مع أخبار الورع وتحرّي الحلال."
+  en: "A report in Sahih al-Bukhari, no. 1491, on al-Hasan ibn 'Ali stopped from eating a date of the charity. It does not use the words halal or haram; the Halal and Haram Browser lists it with the reports of scruple and of seeking the lawful."
+  ur: "صحیح بخاری کی روایت نمبر 1491: حسن بن علی کو صدقے کی کھجور سے روکنا۔ اس میں حلال یا حرام کا لفظ نہیں آیا؛ حلال و حرام براؤزر اسے ورع اور حلال کی جستجو کی روایات کے ساتھ جمع کرتا ہے۔"
+tags: [halal-haram-browser]
+relations:
+  - { type: mentions, target: concept/halal-haram, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 1491 (book 24 hadith 91); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

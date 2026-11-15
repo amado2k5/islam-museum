@@ -1,0 +1,16 @@
+id: passage/abudawud-api-3504
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "3504"
+label: { ar: "سنن أبي داود 3504 — ما لا يحل", en: "Sunan Abi Dawud 3504 — what is not lawful", ur: "سنن ابی داؤد 3504 — جو حلال نہیں" }
+text: "حَدَّثَنَا زُهَيْرُ بْنُ حَرْبٍ، حَدَّثَنَا إِسْمَاعِيلُ، عَنْ أَيُّوبَ، حَدَّثَنِي عَمْرُو بْنُ شُعَيْبٍ، حَدَّثَنِي أَبِي، عَنْ أَبِيهِ، عَنْ أَبِيهِ، حَتَّى ذَكَرَ عَبْدَ اللَّهِ بْنَ عَمْرٍو قَالَ قَالَ رَسُولُ اللَّهِ \" لاَ يَحِلُّ سَلَفٌ وَبَيْعٌ وَلاَ شَرْطَانِ فِي بَيْعٍ وَلاَ رِبْحُ مَا لَمْ تَضْمَنْ وَلاَ بَيْعُ مَا لَيْسَ عِنْدَكَ \"."
+summary:
+  ar: "حديث في سنن أبي داود، رقم 3504، يذكر ما لا يحل. يجمعه متصفح الحلال والحرام مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في ما أُحل وما حُرّم."
+  en: "A report in Sunan Abi Dawud, no. 3504 (Wages (Kitab Al-Ijarah)), that mentions what is not lawful. The Halal and Haram Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on what is lawful and what is unlawful."
+  ur: "سنن ابی داؤد کی حدیث نمبر 3504، جس میں جو حلال نہیں کا ذکر ہے۔ حلال و حرام براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کی ان نصوص کے ساتھ جمع کرتا ہے جو حلال اور حرام بیان کرتی ہیں۔"
+relations:
+  - { type: mentions, target: concept/halal-haram, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 3504 (book 24 hadith 89); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

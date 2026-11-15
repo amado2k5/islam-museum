@@ -1,0 +1,16 @@
+id: passage/ibnmajah-api-1637
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "1637"
+label: { ar: "سنن ابن ماجه 1637 — ما حُرّم", en: "Sunan Ibn Majah 1637 — what was made unlawful", ur: "سنن ابن ماجہ 1637 — جو حرام کیا گیا" }
+text: "… بْنِ نُسَىٍّ، عَنْ أَبِي الدَّرْدَاءِ، قَالَ قَالَ رَسُولُ اللَّهِ ـ \" أَكْثِرُوا الصَّلاَةَ عَلَىَّ يَوْمَ الْجُمُعَةِ فَإِنَّهُ مَشْهُودٌ تَشْهَدُهُ الْمَلاَئِكَةُ وَإِنَّ أَحَدًا لَنْ يُصَلِّيَ عَلَىَّ إِلاَّ عُرِضَتْ عَلَىَّ صَلاَتُهُ حَتَّى يَفْرُغَ مِنْهَا \". قَالَ قُلْتُ وَبَعْدَ الْمَوْتِ قَالَ \" وَبَعْدَ الْمَوْتِ إِنَّ اللَّهَ حَرَّمَ عَلَى الأَرْضِ أَنْ تَأْكُلَ أَجْسَادَ الأَنْبِيَاءِ \". فَنَبِيُّ اللَّهِ حَىٌّ يُرْزَقُ."
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 1637، يذكر ما حُرّم. يجمعه متصفح الحلال والحرام مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في ما أُحل وما حُرّم."
+  en: "A report in Sunan Ibn Majah, no. 1637 (Chapters Regarding Funerals), that mentions what was made unlawful. The Halal and Haram Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on what is lawful and what is unlawful."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 1637، جس میں جو حرام کیا گیا کا ذکر ہے۔ حلال و حرام براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کی ان نصوص کے ساتھ جمع کرتا ہے جو حلال اور حرام بیان کرتی ہیں۔"
+relations:
+  - { type: mentions, target: concept/halal-haram, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 1637 (book 6 hadith 205); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

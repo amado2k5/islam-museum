@@ -1,0 +1,17 @@
+id: passage/muwatta-api-606
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "606"
+label: { ar: "موطأ مالك 606 — ورع عمر بن الخطاب عن لبن من نعم الصدقة", en: "Muwatta Malik 606 — 'Umar ibn al-Khattab's scruple over milk from the charity camels", ur: "موطأ مالک 606 — صدقے کے اونٹوں کے دودھ سے عمر بن خطاب کا ورع" }
+text: "… أَسْلَمَ، أَنَّهُ قَالَ شَرِبَ عُمَرُ بْنُ الْخَطَّابِ لَبَنًا فَأَعْجَبَهُ فَسَأَلَ الَّذِي سَقَاهُ مِنْ أَيْنَ هَذَا اللَّبَنُ فَأَخْبَرَهُ أَنَّهُ وَرَدَ عَلَى مَاءٍ - قَدْ سَمَّاهُ - فَإِذَا نَعَمٌ مِنْ نَعَمِ الصَّدَقَةِ وَهُمْ يَسْقُونَ فَحَلَبُوا لِي مِنْ أَلْبَانِهَا فَجَعَلْتُهُ فِي سِقَائِي فَهُوَ هَذَا. فَأَدْخَلَ عُمَرُ بْنُ الْخَطَّابِ يَدَهُ فَاسْتَقَاءَهُ. قَالَ مَالِكٌ الأَمْرُ عِنْدَنَا أَنَّ كُلَّ مَنْ مَنَعَ …"
+summary:
+  ar: "خبر في موطأ مالك، رقم 606، في ورع عمر بن الخطاب عن لبن من نعم الصدقة. لا يرد فيه لفظ الحلال أو الحرام، ويجمعه متصفح الحلال والحرام مع أخبار الورع وتحرّي الحلال."
+  en: "A report in Muwatta Malik, no. 606, on 'Umar ibn al-Khattab's scruple over milk from the charity camels. It does not use the words halal or haram; the Halal and Haram Browser lists it with the reports of scruple and of seeking the lawful."
+  ur: "موطأ مالک کی روایت نمبر 606: صدقے کے اونٹوں کے دودھ سے عمر بن خطاب کا ورع۔ اس میں حلال یا حرام کا لفظ نہیں آیا؛ حلال و حرام براؤزر اسے ورع اور حلال کی جستجو کی روایات کے ساتھ جمع کرتا ہے۔"
+tags: [halal-haram-browser]
+relations:
+  - { type: mentions, target: concept/halal-haram, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 606 (book 17 hadith 29); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-hadithapi-1" }
+sources: [source/muwatta-malik, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

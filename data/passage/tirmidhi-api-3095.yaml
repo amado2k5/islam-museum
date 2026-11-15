@@ -1,0 +1,16 @@
+id: passage/tirmidhi-api-3095
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "3095"
+label: { ar: "جامع الترمذي 3095 — ما أُحل، ما حُرّم", en: "Jami' al-Tirmidhi 3095 — what was made lawful; what was made unlawful", ur: "جامع ترمذی 3095 — جو حلال کیا گیا، جو حرام کیا گیا" }
+text: "… فِي سُورَةِ بَرَاءَةََ : ( اتَّخَذُوا أَحْبَارَهُمْ وَرُهْبَانَهُمْ أَرْبَابًا مِنْ دُونِ اللَّهِ ) قَالَ \" أَمَا إِنَّهُمْ لَمْ يَكُونُوا يَعْبُدُونَهُمْ وَلَكِنَّهُمْ كَانُوا إِذَا أَحَلُّوا لَهُمْ شَيْئًا اسْتَحَلُّوهُ وَإِذَا حَرَّمُوا عَلَيْهِمْ شَيْئًا حَرَّمُوهُ \". قَالَ أَبُو عِيسَى هَذَا حَدِيثٌ غَرِيبٌ لاَ نَعْرِفُهُ إِلاَّ مِنْ حَدِيثِ عَبْدِ السَّلاَمِ بْنِ حَرْبٍ. وَغُطَيْفُ بْنُ أَعْيَنَ لَيْسَ بِمَعْرُوفٍ فِي الْحَدِيثِ."
+summary:
+  ar: "حديث في جامع الترمذي، رقم 3095، يذكر ما أُحل، وما حُرّم. يجمعه متصفح الحلال والحرام مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في ما أُحل وما حُرّم."
+  en: "A report in Jami' al-Tirmidhi, no. 3095 (Chapters on Tafsir), that mentions what was made lawful, what was made unlawful. The Halal and Haram Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on what is lawful and what is unlawful."
+  ur: "جامع ترمذی کی حدیث نمبر 3095، جس میں جو حلال کیا گیا، جو حرام کیا گیا کا ذکر ہے۔ حلال و حرام براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کی ان نصوص کے ساتھ جمع کرتا ہے جو حلال اور حرام بیان کرتی ہیں۔"
+relations:
+  - { type: mentions, target: concept/halal-haram, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 3095 (book 47 hadith 147); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

@@ -1,0 +1,16 @@
+id: passage/nasai-api-174
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "174"
+label: { ar: "سنن النسائي 174 — الحلال", en: "Sunan al-Nasa'i 174 — the lawful", ur: "سنن نسائی 174 — حلال" }
+text: "… الْمُعَلِّمِ، قَالَ حَدَّثَنِي يَحْيَى بْنُ أَبِي كَثِيرٍ، عَنْ عَبْدِ الرَّحْمَنِ بْنِ عَمْرٍو الأَوْزَاعِيِّ، أَنَّهُ سَمِعَ الْمُطَّلِبَ بْنَ عَبْدِ اللَّهِ بْنِ حَنْطَبٍ، يَقُولُ قَالَ ابْنُ عَبَّاسٍ أَتَوَضَّأُ مِنْ طَعَامٍ أَجِدُهُ فِي كِتَابِ اللَّهِ حَلاَلاً لأَنَّ النَّارَ مَسَّتْهُ فَجَمَعَ أَبُو هُرَيْرَةَ حَصًى فَقَالَ أَشْهَدُ عَدَدَ هَذَا الْحَصَى أَنَّ رَسُولَ اللَّهِ قَالَ \" تَوَضَّئُوا مِمَّا مَسَّتِ النَّارُ \"."
+summary:
+  ar: "حديث في سنن النسائي، رقم 174، يذكر الحلال. يجمعه متصفح الحلال والحرام مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في ما أُحل وما حُرّم."
+  en: "A report in Sunan al-Nasa'i, no. 174 (The Book of Purification), that mentions the lawful. The Halal and Haram Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on what is lawful and what is unlawful."
+  ur: "سنن نسائی کی حدیث نمبر 174، جس میں حلال کا ذکر ہے۔ حلال و حرام براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کی ان نصوص کے ساتھ جمع کرتا ہے جو حلال اور حرام بیان کرتی ہیں۔"
+relations:
+  - { type: mentions, target: concept/halal-haram, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 174 (book 1 hadith 175); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

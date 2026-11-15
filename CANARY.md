@@ -13,6 +13,15 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v1.31.0 — 2026-11-14
+### Added
+- **The Halal and Haram Browser (متصفح الحلال والحرام).** A new browser at `/ar/halal/`, `/en/halal/` and `/ur/halal/` gathers every mention of the lawful and the unlawful in the museum's sources: 1,871 items — 57 Qur'an ayahs, 1,132 Sunnah reports, 132 seerah excerpts, 519 excerpts from other books and 31 curated records. Each row opens the record's own page, with its source. A view at the top of the page shows how many passages name the lawful only, the unlawful only, or both, and which words they use in each body of sources. The browser has a box on the landing page and an entry in the Explore menu, and its full list is at `/api/v1/halal.json`. The museum describes what the sources say and names who says it; it gives no rulings. A book harvested later shows its mentions here the day its passages land.
+- Eight new records with full draft prose in Arabic, English and Urdu: who may declare a thing lawful or unlawful; the hadith "the lawful is clear and the unlawful is clear"; foods between the lawful and the unlawful; necessity; seeking the lawful; the accounts of the scruple of the Prophet, the Companions and the Successors; what the people of the Jahiliyya forbade and permitted; and the gradual revelation of the lawful and the unlawful.
+### Data
+- 880 hadith reports from the six collections and the Muwatta that name the lawful or the unlawful, and 808 cited excerpts of at most forty words from 25 seerah, Companion, Successor, fiqh, usul and zuhd books, join the graph as passage records. All are drafts until a human reads them.
+### Tests
+- The feature API test now covers the halal and haram detector: what it finds, what it leaves out (the Sacred Mosque, the name Haram, the state of ihram and others), and that a book added later is included.
+
 ## v1.30.1 — 2026-11-14
 ### Added
 - **A short film of the build and deploy speed work (marketing source only, nothing on the site changes).** `marketing/build-speed/` holds a 36-second HyperFrames film of what the November speed work with Claude Fable 5.2 measured: the build from 3 h 34 min to 1 h 22 min, the deploy from 3 h 13 min to 47 min, the artifact from 456,579 files to one, and the same pages byte for byte. Its README lists every number on screen with its source in the engineering record; the rendered video stays out of git.

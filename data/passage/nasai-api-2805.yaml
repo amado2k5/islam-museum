@@ -1,0 +1,16 @@
+id: passage/nasai-api-2805
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "2805"
+label: { ar: "سنن النسائي 2805 — الحرام", en: "Sunan al-Nasa'i 2805 — the unlawful", ur: "سنن نسائی 2805 — حرام" }
+text: "… لَحَلَلْتُ وَلَوِ اسْتَقْبَلْتُ مِنْ أَمْرِي مَا اسْتَدْبَرْتُ مَا أَهْدَيْتُ \". قَالَ وَقَدِمَ عَلِيٌّ مِنَ الْيَمَنِ فَقَالَ \" بِمَا أَهْلَلْتَ \". قَالَ بِمَا أَهَلَّ بِهِ النَّبِيُّ. قَالَ \" فَأَهْدِ وَامْكُثْ حَرَامًا كَمَا أَنْتَ \". قَالَ وَقَالَ سُرَاقَةُ بْنُ مَالِكِ بْنِ جُعْشُمٍ يَا رَسُولَ اللَّهِ أَرَأَيْتَ عُمْرَتَنَا هَذِهِ لِعَامِنَا هَذَا أَوْ لِلأَبَدِ قَالَ \" هِيَ لِلأَبَدِ \"."
+summary:
+  ar: "حديث في سنن النسائي، رقم 2805، يذكر الحرام. يجمعه متصفح الحلال والحرام مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في ما أُحل وما حُرّم."
+  en: "A report in Sunan al-Nasa'i, no. 2805 (The Book of Hajj), that mentions the unlawful. The Halal and Haram Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on what is lawful and what is unlawful."
+  ur: "سنن نسائی کی حدیث نمبر 2805، جس میں حرام کا ذکر ہے۔ حلال و حرام براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کی ان نصوص کے ساتھ جمع کرتا ہے جو حلال اور حرام بیان کرتی ہیں۔"
+relations:
+  - { type: mentions, target: concept/halal-haram, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 2805 (book 24 hadith 187); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

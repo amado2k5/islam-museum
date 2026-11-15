@@ -1,0 +1,16 @@
+id: passage/mudawwana-halal-1-200
+class: passage
+unit: chapter
+work: work/al-mudawwana-al-kubra
+ref: "1:200"
+label: { ar: "المدونة الكبرى، المجلد المصوَّر 1، ص 200 — الحلال، الحرام", en: "al-Mudawwana al-Kubra, scan volume 1, p. 200 — the lawful; the unlawful", ur: "المدونۃ الکبریٰ، اسکین جلد 1، ص 200 — حلال، حرام" }
+text: "… يتصدق بشئ من طعام لموضع الدواب التى فى الثياب والرأس رسم فى تقليم أظفار الحرم قلت لا بن القاسم ما قول مالك في محرم قلم أظفار حلال قال قال مالك لا باس بذلك قلت فان قلم أظفار حرام قال لم …"
+summary:
+  ar: "مقطع من المدونة الكبرى، المجلد المصوَّر 1، ص 200، يذكر الحلال، والحرام؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الحلال والحرام."
+  en: "An excerpt from al-Mudawwana al-Kubra, scan volume 1, p. 200, that mentions the lawful, the unlawful; from the machine-read scan, quoted within forty words per the sources policy. The Halal and Haram Browser lists it."
+  ur: "المدونۃ الکبریٰ، اسکین جلد 1، ص 200 کا اقتباس جس میں حلال، حرام کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ حلال و حرام براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/halal-haram, sources: [source/al-mudawwana-al-kubra] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan fiqh/mudawwana/AAlexandrina-224179, page 200; a window of at most 40 words chosen by the halal and haram detector (scripts/halal.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-ocr-1" }
+sources: [source/al-mudawwana-al-kubra]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

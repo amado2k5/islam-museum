@@ -1,0 +1,16 @@
+id: passage/muwatta-api-1243
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "1243"
+label: { ar: "موطأ مالك 1243 — ما لا يحل", en: "Muwatta Malik 1243 — what is not lawful", ur: "موطأ مالک 1243 — جو حلال نہیں" }
+text: "… الرَّحْمَنِ عَلَى أُمِّ سَلَمَةَ زَوْجِ النَّبِيِّ فَسَأَلَهَا عَنْ ذَلِكَ فَقَالَتْ أُمُّ سَلَمَةَ وَلَدَتْ سُبَيْعَةُ الأَسْلَمِيَّةُ بَعْدَ وَفَاةِ زَوْجِهَا بِنِصْفِ شَهْرٍ فَخَطَبَهَا رَجُلاَنِ أَحَدُهُمَا شَابٌّ وَالآخَرُ كَهْلٌ فَحَطَّتْ إِلَى الشَّابِّ فَقَالَ الشَّيْخُ لَمْ تَحِلِّي بَعْدُ. وَكَانَ أَهْلُهَا غَيَبًا وَرَجَا إِذَا جَاءَ أَهْلُهَا أَنْ يُؤْثِرُوهُ بِهَا فَجَاءَتْ رَسُولَ اللَّهِ فَقَالَ \" قَدْ حَلَلْتِ فَانْكِحِي مَنْ شِئْتِ \"."
+summary:
+  ar: "حديث في موطأ مالك، رقم 1243، يذكر ما لا يحل. يجمعه متصفح الحلال والحرام مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في ما أُحل وما حُرّم."
+  en: "A report in Muwatta Malik, no. 1243 (Divorce), that mentions what is not lawful. The Halal and Haram Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on what is lawful and what is unlawful."
+  ur: "موطأ مالک کی حدیث نمبر 1243، جس میں جو حلال نہیں کا ذکر ہے۔ حلال و حرام براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کی ان نصوص کے ساتھ جمع کرتا ہے جو حلال اور حرام بیان کرتی ہیں۔"
+relations:
+  - { type: mentions, target: concept/halal-haram, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 1243 (book 29 hadith 40); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-hadithapi-1" }
+sources: [source/muwatta-malik, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

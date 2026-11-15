@@ -1,0 +1,16 @@
+id: passage/bukhari-api-1572
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "1572"
+label: { ar: "صحيح البخاري 1572 — ما أُحل، ما لا يحل", en: "Sahih al-Bukhari 1572 — what was made lawful; what is not lawful", ur: "صحیح بخاری 1572 — جو حلال کیا گیا، جو حلال نہیں" }
+text: "… مَنْ قَلَّدَ الْهَدْىَ \". فَطُفْنَا بِالْبَيْتِ وَبِالصَّفَا وَالْمَرْوَةِ وَأَتَيْنَا النِّسَاءَ، وَلَبِسْنَا الثِّيَابَ وَقَالَ \" مَنْ قَلَّدَ الْهَدْىَ فَإِنَّهُ لاَ يَحِلُّ لَهُ حَتَّى يَبْلُغَ الْهَدْىُ مَحِلَّهُ \". ثُمَّ أَمَرَنَا عَشِيَّةَ التَّرْوِيَةِ أَنْ نُهِلَّ بِالْحَجِّ، فَإِذَا فَرَغْنَا مِنَ الْمَنَاسِكِ جِئْنَا فَطُفْنَا بِالْبَيْتِ وَبِالصَّفَا وَالْمَرْوَةِ فَقَدْ تَمَّ حَجُّنَا، وَعَلَيْنَا الْهَدْىُ كَمَا قَالَ اللَّهُ تَعَالَى {فَمَا اسْتَيْسَرَ مِنَ الْهَدْىِ …"
+summary:
+  ar: "حديث في صحيح البخاري، رقم 1572، يذكر ما أُحل، وما لا يحل. يجمعه متصفح الحلال والحرام مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في ما أُحل وما حُرّم."
+  en: "A report in Sahih al-Bukhari, no. 1572 (Hajj (Pilgrimage)), that mentions what was made lawful, what is not lawful. The Halal and Haram Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on what is lawful and what is unlawful."
+  ur: "صحیح بخاری کی حدیث نمبر 1572، جس میں جو حلال کیا گیا، جو حلال نہیں کا ذکر ہے۔ حلال و حرام براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کی ان نصوص کے ساتھ جمع کرتا ہے جو حلال اور حرام بیان کرتی ہیں۔"
+relations:
+  - { type: mentions, target: concept/halal-haram, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 1572 (book 25 hadith 58); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

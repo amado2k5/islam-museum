@@ -1,0 +1,16 @@
+id: passage/muslim-api-6116
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "6116"
+label: { ar: "صحيح مسلم 6116 — ما حُرّم", en: "Sahih Muslim 6116 — what was made unlawful", ur: "صحیح مسلم 6116 — جو حرام کیا گیا" }
+text: "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى، أَخْبَرَنَا إِبْرَاهِيمُ بْنُ سَعْدٍ، عَنِ ابْنِ شِهَابٍ، عَنْ عَامِرِ بْنِ، سَعْدٍ عَنْ أَبِيهِ، قَالَ قَالَ رَسُولُ اللَّهِ \" إِنَّ أَعْظَمَ الْمُسْلِمِينَ فِي الْمُسْلِمِينَ جُرْمًا مَنْ سَأَلَ عَنْ شَىْءٍ لَمْ يُحَرَّمْ عَلَى الْمُسْلِمِينَ فَحُرِّمَ عَلَيْهِمْ مِنْ أَجْلِ مَسْأَلَتِهِ \"."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 6116، يذكر ما حُرّم. يجمعه متصفح الحلال والحرام مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في ما أُحل وما حُرّم."
+  en: "A report in Sahih Muslim, no. 6116 (The Book of Virtues), that mentions what was made unlawful. The Halal and Haram Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on what is lawful and what is unlawful."
+  ur: "صحیح مسلم کی حدیث نمبر 6116، جس میں جو حرام کیا گیا کا ذکر ہے۔ حلال و حرام براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کی ان نصوص کے ساتھ جمع کرتا ہے جو حلال اور حرام بیان کرتی ہیں۔"
+relations:
+  - { type: mentions, target: concept/halal-haram, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 6116 (book 43 hadith 174); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

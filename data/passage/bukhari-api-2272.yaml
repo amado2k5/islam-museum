@@ -1,0 +1,16 @@
+id: passage/bukhari-api-2272
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "2272"
+label: { ar: "صحيح البخاري 2272 — ما أُحل", en: "Sahih al-Bukhari 2272 — what was made lawful", ur: "صحیح بخاری 2272 — جو حلال کیا گیا" }
+text: "… فَجَاءَتْنِي فَأَعْطَيْتُهَا عِشْرِينَ وَمِائَةَ دِينَارٍ عَلَى أَنْ تُخَلِّيَ بَيْنِي وَبَيْنَ نَفْسِهَا، فَفَعَلَتْ حَتَّى إِذَا قَدَرْتُ عَلَيْهَا قَالَتْ لاَ أُحِلُّ لَكَ أَنْ تَفُضَّ الْخَاتَمَ إِلاَّ بِحَقِّهِ. فَتَحَرَّجْتُ مِنَ الْوُقُوعِ عَلَيْهَا، فَانْصَرَفْتُ عَنْهَا وَهْىَ أَحَبُّ النَّاسِ إِلَىَّ وَتَرَكْتُ الذَّهَبَ الَّذِي أَعْطَيْتُهَا، اللَّهُمَّ إِنْ كُنْتُ فَعَلْتُ ذَلِكَ ابْتِغَاءَ وَجْهِكَ فَافْرُجْ عَنَّا مَا نَحْنُ فِيهِ. فَانْفَرَجَتِ الصَّخْرَةُ، غَيْرَ أَنَّهُمْ …"
+summary:
+  ar: "حديث في صحيح البخاري، رقم 2272، يذكر ما أُحل. يجمعه متصفح الحلال والحرام مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في ما أُحل وما حُرّم."
+  en: "A report in Sahih al-Bukhari, no. 2272 (Hiring), that mentions what was made lawful. The Halal and Haram Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on what is lawful and what is unlawful."
+  ur: "صحیح بخاری کی حدیث نمبر 2272، جس میں جو حلال کیا گیا کا ذکر ہے۔ حلال و حرام براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کی ان نصوص کے ساتھ جمع کرتا ہے جو حلال اور حرام بیان کرتی ہیں۔"
+relations:
+  - { type: mentions, target: concept/halal-haram, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 2272 (book 37 hadith 12); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

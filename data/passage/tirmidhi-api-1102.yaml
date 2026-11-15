@@ -1,0 +1,16 @@
+id: passage/tirmidhi-api-1102
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "1102"
+label: { ar: "جامع الترمذي 1102 — استحلال الشيء", en: "Jami' al-Tirmidhi 1102 — treating a thing as lawful", ur: "جامع ترمذی 1102 — کسی چیز کو حلال ٹھہرانا" }
+text: "… أَيُّمَا امْرَأَةٍ نُكِحَتْ بِغَيْرِ إِذْنِ وَلِيِّهَا فَنِكَاحُهَا بَاطِلٌ فَنِكَاحُهَا بَاطِلٌ فَنِكَاحُهَا بَاطِلٌ فَإِنْ دَخَلَ بِهَا فَلَهَا الْمَهْرُ بِمَا اسْتَحَلَّ مِنْ فَرْجِهَا فَإِنِ اشْتَجَرُوا فَالسُّلْطَانُ وَلِيُّ مَنْ لاَ وَلِيَّ لَهُ \". قَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ. وَقَدْ رَوَى يَحْيَى بْنُ سَعِيدٍ الأَنْصَارِيُّ وَيَحْيَى بْنُ أَيُّوبَ وَسُفْيَانُ الثَّوْرِيُّ وَغَيْرُ وَاحِدٍ مِنَ الْحُفَّاظِ عَنِ ابْنِ جُرَيْجٍ نَحْوَ …"
+summary:
+  ar: "حديث في جامع الترمذي، رقم 1102، يذكر استحلال الشيء. يجمعه متصفح الحلال والحرام مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في ما أُحل وما حُرّم."
+  en: "A report in Jami' al-Tirmidhi, no. 1102 (The Book on Marriage), that mentions treating a thing as lawful. The Halal and Haram Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on what is lawful and what is unlawful."
+  ur: "جامع ترمذی کی حدیث نمبر 1102، جس میں کسی چیز کو حلال ٹھہرانا کا ذکر ہے۔ حلال و حرام براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کی ان نصوص کے ساتھ جمع کرتا ہے جو حلال اور حرام بیان کرتی ہیں۔"
+relations:
+  - { type: mentions, target: concept/halal-haram, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 1102 (book 11 hadith 23); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

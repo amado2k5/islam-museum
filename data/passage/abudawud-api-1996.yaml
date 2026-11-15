@@ -1,0 +1,16 @@
+id: passage/abudawud-api-1996
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "1996"
+label: { ar: "سنن أبي داود 1996 — ما حُرّم", en: "Sunan Abi Dawud 1996 — what was made unlawful", ur: "سنن ابی داؤد 1996 — جو حرام کیا گیا" }
+text: "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا سَعِيدُ بْنُ مُزَاحِمِ بْنِ أَبِي مُزَاحِمٍ، حَدَّثَنِي أَبِي مُزَاحِمٌ، عَنْ عَبْدِ الْعَزِيزِ بْنِ عَبْدِ اللَّهِ بْنِ أَسِيدٍ، عَنْ مُحَرِّشٍ الْكَعْبِيِّ، قَالَ دَخَلَ النَّبِيُّ الْجِعْرَانَةَ فَجَاءَ إِلَى الْمَسْجِدِ فَرَكَعَ مَا شَاءَ اللَّهُ ثُمَّ أَحْرَمَ ثُمَّ اسْتَوَى عَلَى رَاحِلَتِهِ فَاسْتَقْبَلَ بَطْنَ سَرِفَ حَتَّى لَقِيَ طَرِيقَ الْمَدِينَةِ فَأَصْبَحَ بِمَكَّةَ كَبَائِتٍ."
+summary:
+  ar: "حديث في سنن أبي داود، رقم 1996، يذكر ما حُرّم. يجمعه متصفح الحلال والحرام مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في ما أُحل وما حُرّم."
+  en: "A report in Sunan Abi Dawud, no. 1996 (The Rites of Hajj (Kitab Al-Manasik Wa'l-Hajj)), that mentions what was made unlawful. The Halal and Haram Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on what is lawful and what is unlawful."
+  ur: "سنن ابی داؤد کی حدیث نمبر 1996، جس میں جو حرام کیا گیا کا ذکر ہے۔ حلال و حرام براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کی ان نصوص کے ساتھ جمع کرتا ہے جو حلال اور حرام بیان کرتی ہیں۔"
+relations:
+  - { type: mentions, target: concept/halal-haram, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 1996 (book 11 hadith 276); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

@@ -1,0 +1,16 @@
+id: passage/muslim-api-3978
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "3978"
+label: { ar: "صحيح مسلم 3978 — استحلال الشيء", en: "Sahih Muslim 3978 — treating a thing as lawful", ur: "صحیح مسلم 3978 — کسی چیز کو حلال ٹھہرانا" }
+text: "حَدَّثَنِي أَبُو الطَّاهِرِ، أَخْبَرَنَا ابْنُ وَهْبٍ، أَخْبَرَنِي مَالِكٌ، عَنْ حُمَيْدٍ الطَّوِيلِ، عَنْ أَنَسِ، بْنِ مَالِكٍ أَنَّ رَسُولَ اللَّهِ نَهَى عَنْ بَيْعِ الثَّمَرَةِ حَتَّى تُزْهِيَ قَالُوا وَمَا تُزْهِيَ قَالَ تَحْمَرُّ. فَقَالَ إِذَا مَنَعَ اللَّهُ الثَّمَرَةَ فَبِمَ تَسْتَحِلُّ مَالَ أَخِيكَ"
+summary:
+  ar: "حديث في صحيح مسلم، رقم 3978، يذكر استحلال الشيء. يجمعه متصفح الحلال والحرام مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في ما أُحل وما حُرّم."
+  en: "A report in Sahih Muslim, no. 3978 (The Book of Musaqah), that mentions treating a thing as lawful. The Halal and Haram Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on what is lawful and what is unlawful."
+  ur: "صحیح مسلم کی حدیث نمبر 3978، جس میں کسی چیز کو حلال ٹھہرانا کا ذکر ہے۔ حلال و حرام براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کی ان نصوص کے ساتھ جمع کرتا ہے جو حلال اور حرام بیان کرتی ہیں۔"
+relations:
+  - { type: mentions, target: concept/halal-haram, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 3978 (book 22 hadith 17); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

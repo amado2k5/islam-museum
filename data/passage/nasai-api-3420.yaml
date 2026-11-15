@@ -1,0 +1,16 @@
+id: passage/nasai-api-3420
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "3420"
+label: { ar: "سنن النسائي 3420 — ما أُحل، الحرام", en: "Sunan al-Nasa'i 3420 — what was made lawful; the unlawful", ur: "سنن نسائی 3420 — جو حلال کیا گیا، حرام" }
+text: "… اللَّهِ بْنُ عَبْدِ الصَّمَدِ بْنِ عَلِيٍّ الْمَوْصِلِيُّ، قَالَ حَدَّثَنَا مَخْلَدٌ، عَنْ سُفْيَانَ، عَنْ سَالِمٍ، عَنْ سَعِيدِ بْنِ جُبَيْرٍ، عَنِ ابْنِ عَبَّاسٍ، قَالَ أَتَاهُ رَجُلٌ فَقَالَ إِنِّي جَعَلْتُ امْرَأَتِي عَلَىَّ حَرَامًا. قَالَ كَذَبْتَ لَيْسَتْ عَلَيْكَ بِحَرَامٍ ثُمَّ تَلاَ هَذِهِ الآيَةَ { يَا أَيُّهَا النَّبِيُّ لِمَ تُحَرِّمُ مَا أَحَلَّ اللَّهُ لَكَ } عَلَيْكَ أَغْلَظُ الْكَفَّارَةِ عِتْقُ رَقَبَةٍ."
+summary:
+  ar: "حديث في سنن النسائي، رقم 3420، يذكر ما أُحل، والحرام. يجمعه متصفح الحلال والحرام مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في ما أُحل وما حُرّم."
+  en: "A report in Sunan al-Nasa'i, no. 3420 (The Book of Divorce), that mentions what was made lawful, the unlawful. The Halal and Haram Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on what is lawful and what is unlawful."
+  ur: "سنن نسائی کی حدیث نمبر 3420، جس میں جو حلال کیا گیا، حرام کا ذکر ہے۔ حلال و حرام براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کی ان نصوص کے ساتھ جمع کرتا ہے جو حلال اور حرام بیان کرتی ہیں۔"
+relations:
+  - { type: mentions, target: concept/halal-haram, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 3420 (book 27 hadith 32); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

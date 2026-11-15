@@ -1,0 +1,16 @@
+id: passage/muslim-api-6117
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "6117"
+label: { ar: "صحيح مسلم 6117 — ما حُرّم", en: "Sahih Muslim 6117 — what was made unlawful", ur: "صحیح مسلم 6117 — جو حرام کیا گیا" }
+text: "… عُمَرَ، قَالاَ حَدَّثَنَا سُفْيَانُ بْنُ عُيَيْنَةَ، عَنِ الزُّهْرِيِّ، ح وَحَدَّثَنَا مُحَمَّدُ بْنُ عَبَّادٍ، حَدَّثَنَا سُفْيَانُ، قَالَ - أَحْفَظُهُ كَمَا أَحْفَظُ بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ - الزُّهْرِيُّ عَنْ عَامِرِ بْنِ سَعْدٍ عَنْ أَبِيهِ قَالَ قَالَ رَسُولُ اللَّهِ \" أَعْظَمُ الْمُسْلِمِينَ فِي الْمُسْلِمِينَ جُرْمًا مَنْ سَأَلَ عَنْ أَمْرٍ لَمْ يُحَرَّمْ فَحُرِّمَ عَلَى النَّاسِ مِنْ أَجْلِ مَسْأَلَتِهِ \"."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 6117، يذكر ما حُرّم. يجمعه متصفح الحلال والحرام مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في ما أُحل وما حُرّم."
+  en: "A report in Sahih Muslim, no. 6117 (The Book of Virtues), that mentions what was made unlawful. The Halal and Haram Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on what is lawful and what is unlawful."
+  ur: "صحیح مسلم کی حدیث نمبر 6117، جس میں جو حرام کیا گیا کا ذکر ہے۔ حلال و حرام براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کی ان نصوص کے ساتھ جمع کرتا ہے جو حلال اور حرام بیان کرتی ہیں۔"
+relations:
+  - { type: mentions, target: concept/halal-haram, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 6117 (book 43 hadith 175); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

@@ -1,0 +1,16 @@
+id: passage/sira-ibn-hisham-halal-94
+class: passage
+unit: chapter
+work: work/sira-ibn-ishaq-ibn-hisham
+ref: "94"
+label: { ar: "السيرة النبوية لابن هشام، ص 94 — ما أُحل، ما لا يحل", en: "Ibn Hisham's Sira, p. 94 — what was made lawful; what is not lawful", ur: "سیرت ابن ہشام، ص 94 — جو حلال کیا گیا، جو حلال نہیں" }
+text: "… غيرها كما نُعَظَّمُها، نحن الْحُمْسُ : والْحُمْسُ أهل الحرم، ثُمَّ جعلُوا لِمَنْ ولدوا من العربِ من ساكنِ الحِلّ والحَرَمِ مثلَ الَّذِي لَهُمْ، بولادتهم إياهم، يحل لهم ما يحل لهم، ويحرم عليهم ما يحرم عليهم، وكانت كنانةُ وخُزَاعَةُ قَدْ دَخَلُوا مَعَهُم …"
+summary:
+  ar: "مقطع من السيرة النبوية لابن هشام، ص 94، يذكر ما أُحل، وما لا يحل، وما حُرّم؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الحلال والحرام."
+  en: "An excerpt from Ibn Hisham's Sira, p. 94, that mentions what was made lawful, what is not lawful, what was made unlawful; from the machine-read scan, quoted within forty words per the sources policy. The Halal and Haram Browser lists it."
+  ur: "سیرت ابن ہشام، ص 94 کا اقتباس جس میں جو حلال کیا گیا، جو حلال نہیں، جو حرام کیا گیا کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ حلال و حرام براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/halal-haram, sources: [source/ibn-hisham-sira] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan seerah/sira-ibn-hisham/20251231_20251231_0914, page 94; a window of at most 40 words chosen by the halal and haram detector (scripts/halal.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-ocr-1" }
+sources: [source/ibn-hisham-sira]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

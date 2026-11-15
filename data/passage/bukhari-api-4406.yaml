@@ -1,0 +1,16 @@
+id: passage/bukhari-api-4406
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "4406"
+label: { ar: "صحيح البخاري 4406 — الحرام", en: "Sahih al-Bukhari 4406 — the unlawful", ur: "صحیح بخاری 4406 — حرام" }
+text: "… يَوْمَ النَّحْرِ \". قُلْنَا بَلَى. قَالَ \" فَإِنَّ دِمَاءَكُمْ وَأَمْوَالَكُمْ ـ قَالَ مُحَمَّدٌ وَأَحْسِبُهُ قَالَ وَأَعْرَاضَكُمْ ـ عَلَيْكُمْ حَرَامٌ كَحُرْمَةِ يَوْمِكُمْ هَذَا، فِي بَلَدِكُمْ هَذَا، فِي شَهْرِكُمْ هَذَا وَسَتَلْقَوْنَ رَبَّكُمْ، فَسَيَسْأَلُكُمْ عَنْ أَعْمَالِكُمْ، أَلاَ فَلاَ تَرْجِعُوا بَعْدِي ضُلاَّلاً، يَضْرِبُ بَعْضُكُمْ رِقَابَ بَعْضٍ، أَلاَ لِيُبَلِّغِ الشَّاهِدُ الْغَائِبَ، فَلَعَلَّ بَعْضَ مَنْ يُبَلَّغُهُ أَنْ يَكُونَ أَوْعَى لَهُ مِنْ …"
+summary:
+  ar: "حديث في صحيح البخاري، رقم 4406، يذكر الحرام. يجمعه متصفح الحلال والحرام مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في ما أُحل وما حُرّم."
+  en: "A report in Sahih al-Bukhari, no. 4406 (Military Expeditions led by the Prophet (pbuh) (Al-Maghaazi)), that mentions the unlawful. The Halal and Haram Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on what is lawful and what is unlawful."
+  ur: "صحیح بخاری کی حدیث نمبر 4406، جس میں حرام کا ذکر ہے۔ حلال و حرام براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کی ان نصوص کے ساتھ جمع کرتا ہے جو حلال اور حرام بیان کرتی ہیں۔"
+relations:
+  - { type: mentions, target: concept/halal-haram, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 4406 (book 64 hadith 428); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

@@ -1,0 +1,16 @@
+id: passage/bukhari-api-4796
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "4796"
+label: { ar: "صحيح البخاري 4796 — ما حُرّم", en: "Sahih al-Bukhari 4796 — what was made unlawful", ur: "صحیح بخاری 4796 — جو حرام کیا گیا" }
+text: "… أَفْلَحَ أَخَا أَبِي الْقُعَيْسِ اسْتَأْذَنَ، فَأَبَيْتُ أَنْ آذَنَ حَتَّى أَسْتَأْذِنَكَ فَقَالَ النَّبِيُّ \" وَمَا مَنَعَكِ أَنْ تَأْذَنِي عَمُّكِ \". قُلْتُ يَا رَسُولَ اللَّهِ إِنَّ الرَّجُلَ لَيْسَ هُوَ أَرْضَعَنِي، وَلَكِنْ أَرْضَعَتْنِي امْرَأَةُ أَبِي الْقُعَيْسِ. فَقَالَ \" ائْذَنِي لَهُ فَإِنَّهُ عَمُّكِ، تَرِبَتْ يَمِينُكِ \". قَالَ عُرْوَةُ فَلِذَلِكَ كَانَتْ عَائِشَةُ تَقُولُ حَرِّمُوا مِنَ الرَّضَاعَةِ مَا تُحَرِّمُونَ مِنَ النَّسَبِ."
+summary:
+  ar: "حديث في صحيح البخاري، رقم 4796، يذكر ما حُرّم. يجمعه متصفح الحلال والحرام مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في ما أُحل وما حُرّم."
+  en: "A report in Sahih al-Bukhari, no. 4796 (Prophetic Commentary on the Qur'an (Tafseer of the Prophet (pbuh))), that mentions what was made unlawful. The Halal and Haram Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on what is lawful and what is unlawful."
+  ur: "صحیح بخاری کی حدیث نمبر 4796، جس میں جو حرام کیا گیا کا ذکر ہے۔ حلال و حرام براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کی ان نصوص کے ساتھ جمع کرتا ہے جو حلال اور حرام بیان کرتی ہیں۔"
+relations:
+  - { type: mentions, target: concept/halal-haram, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 4796 (book 65 hadith 318); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

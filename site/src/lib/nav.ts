@@ -14,7 +14,7 @@ export const wingCountLabel = (lang: Lang, w: Wing | string) => fmt(ui(lang).win
 /** The "{n} events" template of a counted wing, or null for a wing that shows a phrase (rendered as static text). */
 export const wingCountTemplate = (lang: Lang, w: Wing | string): string | null => { const t = ui(lang).wings.counts[w]; return typeof t === "string" && t.includes("{n}") ? t : null; };
 
-export interface ExplorePage { key: "quran" | "qudsi" | "tafsir" | "hadith" | "timeline" | "journeys" | "graph" | "revelation" | "surahmaps" | "cards" | "sighar" | "calendar" | "khutab" | "fatwa" | "timeexplorer" | "poetry" | "jobs" | "inventions" | "modern" | "map" | "asma" | "khulafa" | "battles" | "ghayb" | "companions" | "seerah" | "nature" | "angels" | "dreams" | "dua" | "sayyiat" | "hudud" | "hasanat" | "hisab" | "mukatabat" | "islamiceconomy" | "jinn-devils" | "magic" | "messengers" | "miracles" | "madhahib" | "bayt" | "signs" | "nubuwat" | "ibadat" | "places" | "nar" | "janna" | "qiyama" | "qurun" | "akhlaq" | "usra" | "tibb" | "ansab"; href: string; ready: boolean }
+export interface ExplorePage { key: "quran" | "qudsi" | "tafsir" | "hadith" | "timeline" | "journeys" | "graph" | "revelation" | "surahmaps" | "cards" | "sighar" | "calendar" | "khutab" | "fatwa" | "timeexplorer" | "poetry" | "jobs" | "inventions" | "modern" | "map" | "asma" | "khulafa" | "battles" | "ghayb" | "companions" | "seerah" | "nature" | "angels" | "dreams" | "dua" | "sayyiat" | "hudud" | "halal" | "hasanat" | "hisab" | "mukatabat" | "islamiceconomy" | "jinn-devils" | "magic" | "messengers" | "miracles" | "madhahib" | "bayt" | "signs" | "nubuwat" | "ibadat" | "places" | "nar" | "janna" | "qiyama" | "qurun" | "akhlaq" | "usra" | "tibb" | "ansab"; href: string; ready: boolean }
 
 /** The interactive explorers; `ready` flips as each phase ships, and an unfinished one links to the nearest page that exists. */
 export const explorePages = (lang: Lang): ExplorePage[] => [
@@ -50,6 +50,7 @@ export const explorePages = (lang: Lang): ExplorePage[] => [
   { key: "dua", href: `/${lang}/dua/`, ready: true },
   { key: "sayyiat", href: `/${lang}/sayyiat/`, ready: true },
   { key: "hudud", href: `/${lang}/hudud/`, ready: true },
+  { key: "halal", href: `/${lang}/halal/`, ready: true },
   { key: "hasanat", href: `/${lang}/hasanat/`, ready: true },
   { key: "hisab", href: `/${lang}/hisab/`, ready: true },
   { key: "mukatabat", href: `/${lang}/mukatabat/`, ready: true },
@@ -84,7 +85,7 @@ export const EXPLORE_GROUPS: { id: "texts" | "people" | "places" | "unseen" | "c
   { id: "people", keys: ["seerah", "companions", "khulafa", "messengers", "nubuwat", "bayt", "usra", "ansab", "madhahib", "qurun", "jobs", "modern"] },
   { id: "places", keys: ["timeline", "timeexplorer", "calendar", "map", "places", "journeys", "battles"] },
   { id: "unseen", keys: ["ghayb", "angels", "jinn-devils", "dreams", "magic", "miracles", "asma", "signs", "qiyama", "janna", "nar"] },
-  { id: "conduct", keys: ["ibadat", "akhlaq", "hasanat", "sayyiat", "hudud", "hisab", "islamiceconomy", "nature", "tibb", "inventions"] },
+  { id: "conduct", keys: ["ibadat", "akhlaq", "hasanat", "sayyiat", "halal", "hudud", "hisab", "islamiceconomy", "nature", "tibb", "inventions"] },
   { id: "tools", keys: ["graph", "cards", "sighar"] },
 ];
 export function exploreGroups(lang: Lang): { id: string; pages: ExplorePage[] }[] {

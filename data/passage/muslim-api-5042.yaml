@@ -1,0 +1,16 @@
+id: passage/muslim-api-5042
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "5042"
+label: { ar: "صحيح مسلم 5042 — ما حُرّم", en: "Sahih Muslim 5042 — what was made unlawful", ur: "صحیح مسلم 5042 — جو حرام کیا گیا" }
+text: "وَحَدَّثَنِي سَلَمَةُ بْنُ شَبِيبٍ، حَدَّثَنَا الْحَسَنُ بْنُ أَعْيَنَ، حَدَّثَنَا مَعْقِلٌ، عَنْ أَبِي الزُّبَيْرِ، قَالَ سَأَلْتُ جَابِرًا عَنِ الضَّبِّ، فَقَالَ لاَ تَطْعَمُوهُ. وَقَذِرَهُ وَقَالَ قَالَ عُمَرُ بْنُ الْخَطَّابِ إِنَّ النَّبِيَّ لَمْ يُحَرِّمْهُ. إِنَّ اللَّهَ عَزَّ وَجَلَّ يَنْفَعُ بِهِ غَيْرَ وَاحِدٍ فَإِنَّمَا طَعَامُ عَامَّةِ الرِّعَاءِ مِنْهُ وَلَوْ كَانَ عِنْدِي طَعِمْتُهُ."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 5042، يذكر ما حُرّم. يجمعه متصفح الحلال والحرام مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في ما أُحل وما حُرّم."
+  en: "A report in Sahih Muslim, no. 5042 (The Book of Hunting, Slaughter, and what may be Eaten), that mentions what was made unlawful. The Halal and Haram Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on what is lawful and what is unlawful."
+  ur: "صحیح مسلم کی حدیث نمبر 5042، جس میں جو حرام کیا گیا کا ذکر ہے۔ حلال و حرام براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کی ان نصوص کے ساتھ جمع کرتا ہے جو حلال اور حرام بیان کرتی ہیں۔"
+relations:
+  - { type: mentions, target: concept/halal-haram, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 5042 (book 34 hadith 71); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

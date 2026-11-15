@@ -1,0 +1,16 @@
+id: passage/bukhari-api-2433
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "2433"
+label: { ar: "صحيح البخاري 2433 — ما لا يحل", en: "Sahih al-Bukhari 2433 — what is not lawful", ur: "صحیح بخاری 2433 — جو حلال نہیں" }
+text: "وَقَالَ أَحْمَدُ بْنُ سَعِيدٍ حَدَّثَنَا رَوْحٌ، حَدَّثَنَا زَكَرِيَّاءُ، حَدَّثَنَا عَمْرُو بْنُ دِينَارٍ، عَنْ عِكْرِمَةَ، عَنِ ابْنِ عَبَّاسٍما ـ أَنَّ رَسُولَ اللَّهِ قَالَ \" لاَ يُعْضَدُ عِضَاهُهَا، وَلاَ يُنَفَّرُ صَيْدُهَا، وَلاَ تَحِلُّ لُقَطَتُهَا إِلاَّ لِمُنْشِدٍ، وَلاَ يُخْتَلَى خَلاَهَا \". فَقَالَ عَبَّاسٌ يَا رَسُولَ اللَّهِ إِلاَّ الإِذْخِرَ. فَقَالَ \" إِلاَّ الإِذْخِرَ \"."
+summary:
+  ar: "حديث في صحيح البخاري، رقم 2433، يذكر ما لا يحل. يجمعه متصفح الحلال والحرام مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في ما أُحل وما حُرّم."
+  en: "A report in Sahih al-Bukhari, no. 2433 (Lost Things Picked up by Someone (Luqatah)), that mentions what is not lawful. The Halal and Haram Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on what is lawful and what is unlawful."
+  ur: "صحیح بخاری کی حدیث نمبر 2433، جس میں جو حلال نہیں کا ذکر ہے۔ حلال و حرام براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کی ان نصوص کے ساتھ جمع کرتا ہے جو حلال اور حرام بیان کرتی ہیں۔"
+relations:
+  - { type: mentions, target: concept/halal-haram, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 2433 (book 45 hadith 8); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

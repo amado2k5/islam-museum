@@ -1,0 +1,16 @@
+id: passage/ihya-halal-2-95
+class: passage
+unit: chapter
+work: work/ihya-ulum-al-din
+ref: "2:95"
+label: { ar: "إحياء علوم الدين للغزالي، المجلد المصوَّر 2، ص 95 — الحلال، الحرام", en: "al-Ghazali's Ihya' 'Ulum al-Din, scan volume 2, p. 95 — the lawful; the unlawful", ur: "احیاء علوم الدین، غزالی، اسکین جلد 2، ص 95 — حلال، حرام" }
+text: "… : نمس المال، وغرض المعطى، وعرصه فى الأخذ. أما نفس المال. فيتبغى أن يكون حلالا خاليا عن الشبهات كلها. فإن كان فيه شبهة فليحترز من أخذه. وقد ذكرنا فى كتاب الحلال والحرام درجات الشبهة، وما يجب أجتنايه وما يستحب. وأما …"
+summary:
+  ar: "مقطع من إحياء علوم الدين للغزالي، المجلد المصوَّر 2، ص 95، يذكر الحلال، والحرام، والشبهات؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الحلال والحرام."
+  en: "An excerpt from al-Ghazali's Ihya' 'Ulum al-Din, scan volume 2, p. 95, that mentions the lawful, the unlawful, the doubtful matters; from the machine-read scan, quoted within forty words per the sources policy. The Halal and Haram Browser lists it."
+  ur: "احیاء علوم الدین، غزالی، اسکین جلد 2، ص 95 کا اقتباس جس میں حلال، حرام، مشتبہ امور کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ حلال و حرام براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/halal-haram, sources: [source/ihya-shamela-dar-al-marifa] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan adab-zuhd/ihya-ulum-din/AAlexandrina-019110, page 95; a window of at most 40 words chosen by the halal and haram detector (scripts/halal.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-ocr-1" }
+sources: [source/ihya-shamela-dar-al-marifa]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

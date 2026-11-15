@@ -1,0 +1,16 @@
+id: passage/nasai-api-4045
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "4045"
+label: { ar: "سنن النسائي 4045 — ما أُحل", en: "Sunan al-Nasa'i 4045 — what was made lawful", ur: "سنن نسائی 4045 — جو حلال کیا گیا" }
+text: "أَخْبَرَنَا يُوسُفُ بْنُ سَعِيدٍ، قَالَ حَدَّثَنَا حَجَّاجٌ، عَنِ ابْنِ جُرَيْجٍ، قَالَ أَخْبَرَنِي مَعْمَرٌ، عَنْ أَيُّوبَ، عَنْ أَبِي قِلاَبَةَ، عَنْ أَنَسٍ، أَنَّ رَجُلاً، قَتَلَ جَارِيَةً مِنَ الأَنْصَارِ عَلَى حُلِيٍّ لَهَا ثُمَّ أَلْقَاهَا فِي قَلِيبٍ وَرَضَخَ رَأْسَهَا بِالْحِجَارَةِ فَأَمَرَ النَّبِيُّ أَنْ يُرْجَمَ حَتَّى يَمُوتَ."
+summary:
+  ar: "حديث في سنن النسائي، رقم 4045، يذكر ما أُحل. يجمعه متصفح الحلال والحرام مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في ما أُحل وما حُرّم."
+  en: "A report in Sunan al-Nasa'i, no. 4045 (The Book of Fighting [The Prohibition of Bloodshed]), that mentions what was made lawful. The Halal and Haram Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on what is lawful and what is unlawful."
+  ur: "سنن نسائی کی حدیث نمبر 4045، جس میں جو حلال کیا گیا کا ذکر ہے۔ حلال و حرام براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کی ان نصوص کے ساتھ جمع کرتا ہے جو حلال اور حرام بیان کرتی ہیں۔"
+relations:
+  - { type: mentions, target: concept/halal-haram, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 4045 (book 37 hadith 80); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

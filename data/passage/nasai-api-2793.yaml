@@ -1,0 +1,16 @@
+id: passage/nasai-api-2793
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "2793"
+label: { ar: "سنن النسائي 2793 — ما أُحل", en: "Sunan al-Nasa'i 2793 — what was made lawful", ur: "سنن نسائی 2793 — جو حلال کیا گیا" }
+text: "أَخْبَرَنَا إِسْحَاقُ بْنُ مَنْصُورٍ، قَالَ حَدَّثَنَا عَبْدُ الرَّحْمَنِ، عَنْ مَالِكٍ، عَنْ عَبْدِ اللَّهِ بْنِ أَبِي بَكْرٍ، عَنْ عَمْرَةَ، عَنْ عَائِشَةَ، قَالَتْ كُنْتُ أَفْتِلُ قَلاَئِدَ هَدْىِ رَسُولِ اللَّهِ بِيَدَىَّ ثُمَّ يُقَلِّدُهَا رَسُولُ اللَّهِ بِيَدِهِ ثُمَّ يَبْعَثُ بِهَا مَعَ أَبِي فَلاَ يَدَعُ رَسُولُ اللَّهِ شَيْئًا أَحَلَّهُ اللَّهُ عَزَّ وَجَلَّ لَهُ حَتَّى يَنْحَرَ الْهَدْىَ."
+summary:
+  ar: "حديث في سنن النسائي، رقم 2793، يذكر ما أُحل. يجمعه متصفح الحلال والحرام مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في ما أُحل وما حُرّم."
+  en: "A report in Sunan al-Nasa'i, no. 2793 (The Book of Hajj), that mentions what was made lawful. The Halal and Haram Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on what is lawful and what is unlawful."
+  ur: "سنن نسائی کی حدیث نمبر 2793، جس میں جو حلال کیا گیا کا ذکر ہے۔ حلال و حرام براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کی ان نصوص کے ساتھ جمع کرتا ہے جو حلال اور حرام بیان کرتی ہیں۔"
+relations:
+  - { type: mentions, target: concept/halal-haram, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 2793 (book 24 hadith 175); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

@@ -4,6 +4,7 @@ import { featureApiData } from "./export-api.js";
 import { duaKindOf, duaSignalsOf } from "./dua.js";
 import { ibadatKindOf, ibadatSignalsOf, ibadatTopicsOf } from "./ibadat.js";
 import { sayyiatKindOf, sayyiatSignalsOf } from "./sayyiat.js";
+import { halalKindOf, halalSignalsOf } from "./halal.js";
 import { hududKindOf, hududSignalsOf } from "./hudud.js";
 import { hasanatKindOf, hasanatSignalsOf } from "./hasanat.js";
 import { hisabFold, hisabKindsOfSignals, hisabSignalsOfText } from "./hisab.js";
@@ -64,7 +65,7 @@ describe("one API export per browser or explorer (AGENTS.md: every feature is gr
 
   it("writes jobs, fatwa, khutab, poetry and screens with their fields, edges, prose languages and job holders", () => {
     const data = featureApiData(compiled);
-    expect(Object.keys(data).sort()).toEqual(["akhlaq.json", "angels.json", "ansab.json", "asma.json", "battles.json", "bayt.json", "companions.json", "dreams.json", "duas.json", "eschatology.json", "fatwa.json", "ghayb.json", "hasanats.json", "hisab.json", "hudud.json", "ibadat.json", "islamic-economy.json", "jannas.json", "jinn-devils.json", "jobs.json", "khulafa.json", "khutab.json", "madhahib.json", "magic.json", "messengers.json", "miracles.json", "mukatabat.json", "nar.json", "nature.json", "nubuwat.json", "places.json", "poetry.json", "qiyama.json", "qudsi.json", "qurun.json", "sayyiat.json", "screens.json", "tafsir.json", "tibb.json", "usra.json"]);
+    expect(Object.keys(data).sort()).toEqual(["akhlaq.json", "angels.json", "ansab.json", "asma.json", "battles.json", "bayt.json", "companions.json", "dreams.json", "duas.json", "eschatology.json", "fatwa.json", "ghayb.json", "halal.json", "hasanats.json", "hisab.json", "hudud.json", "ibadat.json", "islamic-economy.json", "jannas.json", "jinn-devils.json", "jobs.json", "khulafa.json", "khutab.json", "madhahib.json", "magic.json", "messengers.json", "miracles.json", "mukatabat.json", "nar.json", "nature.json", "nubuwat.json", "places.json", "poetry.json", "qiyama.json", "qudsi.json", "qurun.json", "sayyiat.json", "screens.json", "tafsir.json", "tibb.json", "usra.json"]);
     expect(data["qudsi.json"].items.map((i) => i.id)).toEqual(["passage/muslim-2577"]);
     expect(data["qudsi.json"].items[0]).toMatchObject({ work: "work/sahih-muslim", ref: "2577", hadith: "zulm", themes: ["ethics-and-character"] });
     expect(data["qudsi.json"].feature).toBe("hadith-qudsi-browser");
@@ -320,6 +321,48 @@ describe("one API export per browser or explorer (AGENTS.md: every feature is gr
     expect(hududSignalsOf(swordsFp as any)).toEqual([]);
     expect(hududSignalsOf(tazirFp as any)).toEqual([]);
     expect(hududSignalsOf(weakOnly as any)).toEqual([]);
+  });
+
+  it("exports halal: the lawful and the unlawful by corpus and kind, scope exclusions, gated weak signals, future-book inclusion", () => {
+    const mk = (id: string, work: string, text: string, extra: Record<string, unknown> = {}) => makeNode(id, "passage", { unit: work === "work/quran" ? "ayah" : "hadith", work, text, ...extra });
+    const haramAyah = mk("passage/quran-5-3x", "work/quran", "حرمت عليكم الميتة والدم ولحم الخنزير", { sura: 5, aya: 3 });
+    const bothAyah = mk("passage/quran-16-116x", "work/quran", "ولا تقولوا لما تصف ألسنتكم الكذب هذا حلال وهذا حرام", { sura: 16, aya: 116 });
+    const halalAyah = mk("passage/quran-5-5x", "work/quran", "اليوم أحل لكم الطيبات", { sura: 5, aya: 5 });
+    const numanHadith = mk("passage/bukhari-52x", "work/sahih-al-bukhari", "الحلال بين والحرام بين وبينهما مشتبهات", { ref: "52x" });
+    const laYahill = mk("passage/muslim-2560x", "work/sahih-muslim", "لا يحل لمسلم أن يهجر أخاه فوق ثلاث", { ref: "2560x" });
+    const pairGated = mk("passage/tabari-9-37x", "work/future-tafsir", "يحلونه عاما ويحرمونه عاما", { ref: "1" });
+    const futureBook = mk("passage/futurefiqh-halal-1", "work/future-hidaya", "وكل مسكر حرام عند الجمهور", { ref: "1" });
+    const sanctuaryFp = mk("passage/quran-17-1x", "work/quran", "سبحان الذي أسرى بعبده ليلا من المسجد الحرام إلى المسجد الأقصى", { sura: 17, aya: 1 });
+    const nameFp = mk("passage/bukhari-2788x", "work/sahih-al-bukhari", "كان يدخل على أم حرام بنت ملحان فتطعمه", { ref: "2788x" });
+    const ihramFp = mk("passage/abudawud-1837x", "work/sunan-abi-dawud", "احتجم وهو محرم على ظهر القدم من وجع كان به", { ref: "1837x" });
+    const fireFp = mk("passage/muslim-29x", "work/sahih-muslim", "من شهد أن لا إله إلا الله حرمه الله على النار", { ref: "29x" });
+    const oathFp = mk("passage/quran-9-56x", "work/quran", "ويحلفون بالله إنهم لمنكم", { sura: 9, aya: 56 });
+    const untieFp = mk("passage/abudawud-3732x", "work/sunan-abi-dawud", "فإن الشيطان لا يفتح بابا غلقا ولا يحل وكاء", { ref: "3732x" });
+    const weakOnly = mk("passage/muslim-2592x", "work/sahih-muslim", "من يحرم الرفق يحرم الخير", { ref: "2592x" });
+    const halalConcept = { ...makeNode("concept/halal-haram", "concept", { kind: "legal" }), tags: ["halal-haram-browser"] };
+    const data = featureApiData({ ...compiled, nodes: [...compiled.nodes, haramAyah, bothAyah, halalAyah, numanHadith, laYahill, pairGated, futureBook, sanctuaryFp, nameFp, ihramFp, fireFp, oathFp, untieFp, weakOnly, halalConcept] });
+    const items = data["halal.json"].items;
+    const ids = items.map((i) => i.id);
+    for (const id of ["passage/quran-5-3x", "passage/quran-16-116x", "passage/quran-5-5x", "passage/bukhari-52x", "passage/muslim-2560x", "passage/tabari-9-37x", "passage/futurefiqh-halal-1", "concept/halal-haram"]) expect(ids).toContain(id);
+    expect(ids).not.toContain("passage/quran-17-1x");      // «المسجد الحرام» the sanctuary
+    expect(ids).not.toContain("passage/bukhari-2788x");    // «أم حرام» a name
+    expect(ids).not.toContain("passage/abudawud-1837x");   // «وهو محرم» in ihram
+    expect(ids).not.toContain("passage/muslim-29x");       // «حرمه الله على النار» a reward wording
+    expect(ids).not.toContain("passage/quran-9-56x");      // «يحلفون» they swear
+    expect(ids).not.toContain("passage/abudawud-3732x");   // «لا يحل وكاء» does not untie
+    expect(ids).not.toContain("passage/muslim-2592x");     // «يحرم الرفق» deprived, a lone bare verb
+    expect(items.find((i) => i.id === "passage/quran-5-3x")).toMatchObject({ section: "quran", halal_kind: "haram" });
+    expect(items.find((i) => i.id === "passage/quran-16-116x")).toMatchObject({ section: "quran", halal_kind: "both" });
+    expect(items.find((i) => i.id === "passage/quran-5-5x")).toMatchObject({ section: "quran", halal_kind: "halal" });
+    expect(items.find((i) => i.id === "passage/bukhari-52x")).toMatchObject({ section: "sunnah", halal_kind: "both" });
+    expect(items.find((i) => i.id === "passage/futurefiqh-halal-1")).toMatchObject({ halal_kind: "haram" });
+    expect(items.find((i) => i.id === "passage/muslim-2560x")).toMatchObject({ section: "sunnah", halal_kind: "haram" }); // «لا يحل» is a prohibition
+    expect(items.find((i) => i.id === "concept/halal-haram")).toMatchObject({ section: "curated", halal_kind: null });
+    expect(featureApiData(compiled)["halal.json"].feature).toBe("halal-haram-browser");
+    expect(halalKindOf(pairGated as any)).toBe("both");
+    expect(halalSignalsOf(bothAyah as any)).toEqual(expect.arrayContaining(["halal", "haram"]));
+    expect(halalSignalsOf(sanctuaryFp as any)).toEqual([]);
+    expect(halalSignalsOf(weakOnly as any)).toEqual([]);
   });
 
   it("exports hasanats: detected passages by corpus and kind, gated false positives, future-book inclusion", () => {

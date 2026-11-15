@@ -1,0 +1,16 @@
+id: passage/tirmidhi-api-1168
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "1168"
+label: { ar: "جامع الترمذي 1168 — ما حُرّم", en: "Jami' al-Tirmidhi 1168 — what was made unlawful", ur: "جامع ترمذی 1168 — جو حرام کیا گیا" }
+text: "… عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ \" إِنَّ اللَّهَ يَغَارُ وَالْمُؤْمِنُ يَغَارُ وَغَيْرَةُ اللَّهِ أَنْ يَأْتِيَ الْمُؤْمِنُ مَا حَرَّمَ عَلَيْهِ \". قَالَ وَفِي الْبَابِ عَنْ عَائِشَةَ وَعَبْدِ اللَّهِ بْنِ عُمَرَ. قَالَ أَبُو عِيسَى حَدِيثُ أَبِي هُرَيْرَةَ حَدِيثٌ حَسَنٌ غَرِيبٌ. وَقَدْ رُوِيَ عَنْ يَحْيَى بْنِ أَبِي كَثِيرٍ عَنْ أَبِي سَلَمَةَ عَنْ عُرْوَةَ عَنْ أَسْمَاءَ بِنْتِ …"
+summary:
+  ar: "حديث في جامع الترمذي، رقم 1168، يذكر ما حُرّم. يجمعه متصفح الحلال والحرام مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في ما أُحل وما حُرّم."
+  en: "A report in Jami' al-Tirmidhi, no. 1168 (The Book on Suckling), that mentions what was made unlawful. The Halal and Haram Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on what is lawful and what is unlawful."
+  ur: "جامع ترمذی کی حدیث نمبر 1168، جس میں جو حرام کیا گیا کا ذکر ہے۔ حلال و حرام براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کی ان نصوص کے ساتھ جمع کرتا ہے جو حلال اور حرام بیان کرتی ہیں۔"
+relations:
+  - { type: mentions, target: concept/halal-haram, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 1168 (book 12 hadith 23); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

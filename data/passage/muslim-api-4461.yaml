@@ -1,0 +1,16 @@
+id: passage/muslim-api-4461
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "4461"
+label: { ar: "صحيح مسلم 4461 — ما حُرّم", en: "Sahih Muslim 4461 — what was made unlawful", ur: "صحیح مسلم 4461 — جو حرام کیا گیا" }
+text: "… فِي مَجْلِسٍ فَقَالَ \" تُبَايِعُونِي عَلَى أَنْ لاَ تُشْرِكُوا بِاللَّهِ شَيْئًا وَلاَ تَزْنُوا وَلاَ تَسْرِقُوا وَلاَ تَقْتُلُوا النَّفْسَ الَّتِي حَرَّمَ اللَّهُ إِلاَّ بِالْحَقِّ فَمَنْ وَفَى مِنْكُمْ فَأَجْرُهُ عَلَى اللَّهِ وَمَنْ أَصَابَ شَيْئًا مِنْ ذَلِكَ فَعُوقِبَ بِهِ فَهُوَ كَفَّارَةٌ لَهُ وَمَنْ أَصَابَ شَيْئًا مِنْ ذَلِكَ فَسَتَرَهُ اللَّهُ عَلَيْهِ فَأَمْرُهُ إِلَى اللَّهِ إِنْ شَاءَ عَفَا عَنْهُ وَإِنْ …"
+summary:
+  ar: "حديث في صحيح مسلم، رقم 4461، يذكر ما حُرّم. يجمعه متصفح الحلال والحرام مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في ما أُحل وما حُرّم."
+  en: "A report in Sahih Muslim, no. 4461 (The Book of Legal Punishments), that mentions what was made unlawful. The Halal and Haram Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on what is lawful and what is unlawful."
+  ur: "صحیح مسلم کی حدیث نمبر 4461، جس میں جو حرام کیا گیا کا ذکر ہے۔ حلال و حرام براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کی ان نصوص کے ساتھ جمع کرتا ہے جو حلال اور حرام بیان کرتی ہیں۔"
+relations:
+  - { type: mentions, target: concept/halal-haram, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 4461 (book 29 hadith 64); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

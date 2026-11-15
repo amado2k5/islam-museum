@@ -1,0 +1,16 @@
+id: passage/bukhari-api-3124
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "3124"
+label: { ar: "صحيح البخاري 3124 — ما أُحل", en: "Sahih al-Bukhari 3124 — what was made lawful", ur: "صحیح بخاری 3124 — جو حلال کیا گیا" }
+text: "… يَعْنِي النَّارَ ـ لِتَأْكُلَهَا، فَلَمْ تَطْعَمْهَا، فَقَالَ إِنَّ فِيكُمْ غُلُولاً، فَلْيُبَايِعْنِي مِنْ كُلِّ قَبِيلَةٍ رَجُلٌ. فَلَزِقَتْ يَدُ رَجُلٍ بِيَدِهِ فَقَالَ فِيكُمُ الْغُلُولُ. فَلْتُبَايِعْنِي قَبِيلَتُكَ، فَلَزِقَتْ يَدُ رَجُلَيْنِ أَوْ ثَلاَثَةٍ بِيَدِهِ فَقَالَ فِيكُمُ الْغُلُولُ، فَجَاءُوا بِرَأْسٍ مِثْلِ رَأْسِ بَقَرَةٍ مِنَ الذَّهَبِ فَوَضَعُوهَا، فَجَاءَتِ النَّارُ فَأَكَلَتْهَا، ثُمَّ أَحَلَّ اللَّهُ لَنَا الْغَنَائِمَ، رَأَى ضَعْفَنَا وَعَجْزَنَا فَأَحَلَّهَا لَنَا \"."
+summary:
+  ar: "حديث في صحيح البخاري، رقم 3124، يذكر ما أُحل. يجمعه متصفح الحلال والحرام مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في ما أُحل وما حُرّم."
+  en: "A report in Sahih al-Bukhari, no. 3124 (One-fifth of Booty to the Cause of Allah (Khumus)), that mentions what was made lawful. The Halal and Haram Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on what is lawful and what is unlawful."
+  ur: "صحیح بخاری کی حدیث نمبر 3124، جس میں جو حلال کیا گیا کا ذکر ہے۔ حلال و حرام براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کی ان نصوص کے ساتھ جمع کرتا ہے جو حلال اور حرام بیان کرتی ہیں۔"
+relations:
+  - { type: mentions, target: concept/halal-haram, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 3124 (book 57 hadith 33); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

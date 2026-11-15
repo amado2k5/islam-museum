@@ -1,0 +1,16 @@
+id: passage/tirmidhi-api-2013
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "2013"
+label: { ar: "جامع الترمذي 2013 — ما حُرّم", en: "Jami' al-Tirmidhi 2013 — what was made unlawful", ur: "جامع ترمذی 2013 — جو حرام کیا گیا" }
+text: "… ابْنِ أَبِي مُلَيْكَةَ، عَنْ يَعْلَى بْنِ مَمْلَكٍ، عَنْ أُمِّ الدَّرْدَاءِ، عَنْ أَبِي الدَّرْدَاءِ، عَنِ النَّبِيِّ قَالَ \" مَنْ أُعْطِيَ حَظَّهُ مِنَ الرِّفْقِ فَقَدْ أُعْطِيَ حَظَّهُ مِنَ الْخَيْرِ وَمَنْ حُرِمَ حَظَّهُ مِنَ الرِّفْقِ فَقَدْ حُرِمَ حَظَّهُ مِنَ الْخَيْرِ \". قَالَ أَبُو عِيسَى وَفِي الْبَابِ عَنْ عَائِشَةَ وَجَرِيرِ بْنِ عَبْدِ اللَّهِ وَأَبِي هُرَيْرَةَ. وَهَذَا حَدِيثٌ حَسَنٌ صَحِيحٌ."
+summary:
+  ar: "حديث في جامع الترمذي، رقم 2013، يذكر ما حُرّم. يجمعه متصفح الحلال والحرام مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في ما أُحل وما حُرّم."
+  en: "A report in Jami' al-Tirmidhi, no. 2013 (Chapters on Righteousness And Maintaining Good Relations With Relatives), that mentions what was made unlawful. The Halal and Haram Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on what is lawful and what is unlawful."
+  ur: "جامع ترمذی کی حدیث نمبر 2013، جس میں جو حرام کیا گیا کا ذکر ہے۔ حلال و حرام براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کی ان نصوص کے ساتھ جمع کرتا ہے جو حلال اور حرام بیان کرتی ہیں۔"
+relations:
+  - { type: mentions, target: concept/halal-haram, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 2013 (book 27 hadith 119); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

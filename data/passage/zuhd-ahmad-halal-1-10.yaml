@@ -1,0 +1,16 @@
+id: passage/zuhd-ahmad-halal-1-10
+class: passage
+unit: chapter
+work: work/kitab-al-zuhd-ahmad-ibn-hanbal
+ref: "1:10"
+label: { ar: "الزهد لأحمد بن حنبل، المجلد المصوَّر 1، ص 10 — ما حُرّم", en: "Ahmad ibn Hanbal's Kitab al-Zuhd, scan volume 1, p. 10 — what was made unlawful", ur: "کتاب الزہد، احمد بن حنبل، اسکین جلد 1، ص 10 — جو حرام کیا گیا" }
+text: "… من وفقه اللّٰه والمخذول من حرم عنايته وهداه. وبعد أيضًا... فمنذ أن نفدت الطبعة الأولى من كتاب البحر الرائق في الزهد والرقائق وذلك بعد أن تمَّ عرضها بمدة يسيرة على ما فيها من أخطاء مطبعية غفر اللّٰه لناشرها، وإخواننا يطلبون …"
+summary:
+  ar: "مقطع من الزهد لأحمد بن حنبل، المجلد المصوَّر 1، ص 10، يذكر ما حُرّم؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الحلال والحرام."
+  en: "An excerpt from Ahmad ibn Hanbal's Kitab al-Zuhd, scan volume 1, p. 10, that mentions what was made unlawful; from the machine-read scan, quoted within forty words per the sources policy. The Halal and Haram Browser lists it."
+  ur: "کتاب الزہد، احمد بن حنبل، اسکین جلد 1، ص 10 کا اقتباس جس میں جو حرام کیا گیا کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ حلال و حرام براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/halal-haram, sources: [source/zuhd-ahmad-dkim-1983] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan adab-zuhd/zuhd-ahmad/20250412_20250412_1622, page 10; a window of at most 40 words chosen by the halal and haram detector (scripts/halal.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-ocr-1" }
+sources: [source/zuhd-ahmad-dkim-1983]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

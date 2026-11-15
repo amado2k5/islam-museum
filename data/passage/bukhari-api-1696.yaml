@@ -1,0 +1,16 @@
+id: passage/bukhari-api-1696
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "1696"
+label: { ar: "صحيح البخاري 1696 — ما أُحل، ما حُرّم", en: "Sahih al-Bukhari 1696 — what was made lawful; what was made unlawful", ur: "صحیح بخاری 1696 — جو حلال کیا گیا، جو حرام کیا گیا" }
+text: "حَدَّثَنَا أَبُو نُعَيْمٍ، حَدَّثَنَا أَفْلَحُ، عَنِ الْقَاسِمِ، عَنْ عَائِشَةَا ـ قَالَتْ فَتَلْتُ قَلاَئِدَ بُدْنِ النَّبِيِّ بِيَدَىَّ، ثُمَّ قَلَّدَهَا وَأَشْعَرَهَا وَأَهْدَاهَا، فَمَا حَرُمَ عَلَيْهِ شَىْءٌ كَانَ أُحِلَّ لَهُ."
+summary:
+  ar: "حديث في صحيح البخاري، رقم 1696، يذكر ما أُحل، وما حُرّم. يجمعه متصفح الحلال والحرام مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في ما أُحل وما حُرّم."
+  en: "A report in Sahih al-Bukhari, no. 1696 (Hajj (Pilgrimage)), that mentions what was made lawful, what was made unlawful. The Halal and Haram Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on what is lawful and what is unlawful."
+  ur: "صحیح بخاری کی حدیث نمبر 1696، جس میں جو حلال کیا گیا، جو حرام کیا گیا کا ذکر ہے۔ حلال و حرام براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کی ان نصوص کے ساتھ جمع کرتا ہے جو حلال اور حرام بیان کرتی ہیں۔"
+relations:
+  - { type: mentions, target: concept/halal-haram, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 1696 (book 25 hadith 174); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }
