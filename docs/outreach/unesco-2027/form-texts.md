@@ -1,6 +1,6 @@
 # UNESCO–Sharjah Prize, 22nd edition: text for the nomination form
 
-_Draft for the founder, 15 November 2026. The form is at `https://ee-eu.kobotoolbox.org/single/aBjTEkQU` ("Nomination Form Prix Sharjah"). It was opened and read on 15 November; nothing was entered. Every figure below is the figure of that day: re-read it on the day of filing. The form can be filed by the nominator, or by the candidate holding the nominator's letter._
+_Draft for the founder, 15 November 2026, revised that evening. The form is at `https://ee-eu.kobotoolbox.org/single/aBjTEkQU` ("Nomination Form Prix Sharjah"). It was opened and read on 15 November; nothing was entered. Every figure below is the figure of that day: re-read it on the day of filing. The form can be filed by the nominator, or by the candidate holding the nominator's letter._
 
 ## 1. What the form asks, field by field
 
@@ -25,27 +25,27 @@ _Draft for the founder, 15 November 2026. The form is at `https://ee-eu.kobotool
 | D. Additional information (optional) | Leave empty, or one line pointing to Annex B of the dossier | |
 | **E.** Final declaration, signature (name), date | The person filing | "I certify that all information provided is accurate" |
 
-## 2. Short presentation (196 words)
+## 2. Short presentation (198 words)
 
 Ahmed Abdel Aal, a citizen of Canada and of Egypt living in Oakville, Ontario, is the founder of islam.museum, a free digital museum of Islamic history written in Arabic first and published also in English and Urdu. It opened on 11 October 2026.
 
-The museum is a knowledge graph of more than 63,000 entries (15 November 2026): people, places, events, buildings, objects, books and ideas, each with its sources, its Hijri and Gregorian dates and its ties to other entries. Readers enter through nine wings, a Grand Tour of forty stops across fourteen centuries, a learning hub with a Kids' Wing, and an Education Explorer that sets the museum's records beside 361 lessons of a public school curriculum.
+The museum is a knowledge graph of more than 63,000 records, drafts included (15 November 2026): people, places, events, buildings, objects, books and ideas, each with its sources, its Hijri and Gregorian dates and its ties to other records. Readers enter through nine wings, a Grand Tour of forty stops across fourteen centuries, a learning hub with a Kids' Wing, and an Education Explorer that sets the museum's records beside 361 lessons of a public school curriculum.
 
-He built it alone and pays for it himself. Artificial-intelligence tools research, draft, translate and cross-check the entries against cited sources under rules he wrote and published. The museum says this on its own pages, labels most entries as drafts, and marks about one in five as a preliminary card whose sources are not yet checked. Its data is in the public domain, its prose and code are openly licensed, and anyone may download and reuse it all.
+He built it alone and pays for it himself. Artificial-intelligence tools research, draft, translate and cross-check the records against cited sources under rules he wrote and published. The museum says this on its own pages, labels most records as drafts, and marks about one in five as a preliminary card whose sources are not yet checked. Its data is in the public domain, its prose and code are openly licensed, and anyone may download and reuse it all.
 
 ## 3. Contribution to Arab culture and intercultural dialogue
 
 islam.museum makes the written heritage of the Arabic historians and biographers easier to reach, in Arabic and beyond it.
 
-**Dissemination.** Arabic is the museum's first language: every entry carries its Arabic name and summary, and prose is written in Arabic before it is translated. Most of the books it draws on most are Arabic works, among them Malik's *Muwatta*, al-Suyuti's *Tarikh al-khulafa*, Ibn al-Imad's *Shadharat al-dhahab*, al-Baladhuri's *Futuh al-buldan*, al-Bukhari's *Sahih* and al-Zirikli's *al-A'lam*. What these books say about a scholar, a town or a year becomes an entry that a reader can find, follow to its neighbours and check against the page cited, in Arabic, English and Urdu, at no cost and with no account. On 15 November 2026 the museum held 11,642 entries on persons, 5,556 on events, 3,958 on places and 2,401 on works.
+**Dissemination.** Arabic is the museum's first language: every record carries its Arabic name and summary, and prose is written in Arabic before it is translated. Most of the books it draws on most are Arabic works, among them Malik's *Muwatta*, al-Suyuti's *Tarikh al-khulafa*, Ibn al-Imad's *Shadharat al-dhahab*, al-Baladhuri's *Futuh al-buldan*, al-Bukhari's *Sahih* and al-Zirikli's *al-A'lam*. What these books say about a scholar, a town or a year becomes a record that a reader can find, follow to its neighbours and check against the page cited, in Arabic, English and Urdu, at no cost and with no account. On 15 November 2026 its repository held 11,642 records on persons, 5,552 on events, 3,958 on places and 2,402 on works.
 
 **Preservation.** The museum documents heritage and holds none. Its documentation is plain text in open formats, in the public domain, deposited daily under a DOI, and Library and Archives Canada has taken the site into its web-preservation scope.
 
-**Dialogue.** The museum describes and does not prescribe. It states its frame, which is Sunni Islam, labels every other view before giving it, and shows contested questions as cited positions with no verdict. On 2 November 2026 the founder invited fifteen commentators and organisations publicly critical of Islam to send any factual error in writing, to be corrected in public with credit; none had sent one by 13 November. Its Education Explorer starts from what a public school class in Ontario already studies, in 65 courses from Grade 1 to Grade 12, and sets beside each lesson the part of the story that came through Islamic civilization.
+**Dialogue.** The museum describes and does not prescribe. It states its frame, which is Sunni Islam, labels every other view before giving it, and shows contested questions as cited positions with no verdict. On 2 November 2026 the founder invited fifteen commentators and organisations publicly critical of Islam to send any factual error in writing, to be corrected in public with credit; three had replied by 15 November, and none had sent one. Its Education Explorer starts from what a public school class in Ontario already studies, in 65 courses from Grade 1 to Grade 12, and sets beside each lesson the part of the story that came through Islamic civilization.
 
 **Impact so far, stated exactly.** The museum is five weeks old in public and does not track its readers. Professor Robert Hoyland of New York University wrote on 29 October 2026 that he is sure it "will be a wonderful resource for interested lay persons and students alike." OMNI Television's Arabic news reported on it on 30 October. The International Islamic Youth League confirmed on 14 November its interest in sharing it with youth and education networks in Africa. There is no user study yet.
 
-**Limits.** The museum's subject is Islamic history, which is wider than Arab culture and not identical with it. Its entries are written by AI tools from cited sources; most are labelled drafts; about one in five is a preliminary card. None of this is hidden on the site, and none is hidden here.
+**Limits.** The museum's subject is Islamic history, which is wider than Arab culture and not identical with it. Its records are written by AI tools from cited sources; most are labelled drafts; about one in five is a preliminary card. None of this is hidden on the site, and none is hidden here.
 
 ## 4. Motivation letter
 
@@ -53,7 +53,7 @@ To the Jury of the UNESCO–Sharjah Prize for Arab Culture
 
 I am an Egyptian and a Canadian, and a parent in Ontario. `[One or two sentences, the founder's own, on why he began. Not drafted here: no agent should supply his reasons for him.]` I built islam.museum so that a twelve-year-old in Oakville, a teacher in Freetown and a student in Cairo could open the same record of a scholar or a city, read it in their own language, and see where every statement comes from.
 
-I am one person. I could not have written sixty thousand entries, and I did not: I wrote the rules and directed AI tools that drafted and translated the entries from cited sources, and the museum says so on its own pages. Most entries are labelled drafts. A fifth are cards still waiting for their sources to be checked. I publish the gaps with the collection because a museum that hides its seams asks for a trust it has not earned.
+I am one person. I could not have written sixty thousand records, and I did not: I wrote the rules and directed AI tools that drafted and translated them from cited sources, and the museum says so on its own pages. Most records are labelled drafts. A fifth are cards still waiting for their sources to be checked. I publish the gaps with the collection because a museum that hides its seams asks for a trust it has not earned.
 
 What I can offer is openness without conditions. The data is in the public domain. The prose and the code are openly licensed. Nothing is behind an account, an advertisement or a tracker, and the whole museum can be copied by anyone who thinks they can do better with it. I pay its costs myself and I share its direction with no one, so that no funder and no authority stands between a reader and a source.
 
@@ -68,9 +68,9 @@ Founder, islam.museum
 Oakville, Ontario, Canada
 `[date]`
 
-## 5. Recommendation letter: two models
+## 5. Recommendation letter: the models
 
-_Article 6.3 of the Statutes asks that each nomination come with "a written recommendation, which shall include, in English or French, inter alia: (a) a description of the candidate's background and achievements; (b) a summary of the work or the results of the work, publications and other supporting documents of major importance, submitted for consideration; (c) a definition of the candidate's contribution to the Prize's objectives." The model sent on 2 and 8 November has none of the three headings, calls the entries "sourced", and gives a figure of 44,367. These models replace it. An endorser signs their own judgement: the bracketed parts are theirs to write, and nothing in the model should be signed if they do not hold it. Send as DOCX and PDF, not as a `.md` file._
+_Article 6.3 of the Statutes asks that each nomination come with "a written recommendation, which shall include, in English or French, inter alia: (a) a description of the candidate's background and achievements; (b) a summary of the work or the results of the work, publications and other supporting documents of major importance, submitted for consideration; (c) a definition of the candidate's contribution to the Prize's objectives." The model sent on 2 and 8 November has none of the three headings, calls the entries "sourced", and gives a figure of 44,367. These models replace it. An endorser signs their own judgement: the bracketed parts are theirs to write, and nothing in the model should be signed if they do not hold it. Send as DOCX and PDF, not as a `.md` file. The figure the endorser signs is a count of **records, drafts included** (63,078 on 15 November 2026, public API): never a count of finished or published articles. Which model for whom: [`endorsers.md`](endorsers.md). Why the wording of 5a changed: [`eligibility-memo.md`](eligibility-memo.md), section 4._
 
 ### 5a. From a person (a scholar, a former laureate)
 
@@ -84,17 +84,17 @@ _Article 6.3 of the Statutes asks that each nomination come with "a written reco
 >
 > Dear Secretariat,
 >
-> I write as `[title and institution; one line on my own work in Arab culture, Islamic history or dialogue between cultures]` to recommend Ahmed Abdel Aal for the UNESCO–Sharjah Prize for Arab Culture and to endorse his candidature under Article 6.2 of the Prize's Statutes.
+> I write as `[title and institution; one line on my own work in Arab culture, Islamic history or dialogue between cultures]`, and in the capacity of `[choose one, in the words of Article 6.2 of the Prize's Statutes: a person working in the field of Arab culture and for the advancement of peace and intercultural dialogue / a former laureate of the Prize (year) / an eminent personality in the field, should the Director-General so consider]`, to recommend Ahmed Abdel Aal for the UNESCO–Sharjah Prize for Arab Culture.
 >
 > **The candidate.** Mr Abdel Aal, a citizen of Canada and of Egypt living in Oakville, Ontario, conceived, built and personally funds islam.museum, which opened to the public on 11 October 2026.
 >
-> **The work.** islam.museum is a free digital museum of Islamic history, written in Arabic first and published also in English and Urdu. It holds some `[63,000: the figure on the day of signing]` entries on the people, places, events, books and ideas of fourteen centuries, each with its sources and its ties to other entries, and offers a Grand Tour, a learning hub for children and an Education Explorer for schools. Its data is in the public domain. `[How I know the museum: what I have read or used in it.]`
+> **The work.** islam.museum is a free digital museum of Islamic history, written in Arabic first and published also in English and Urdu. It holds some `[63,000: the figure on the day of signing]` records, drafts included, on the people, places, events, books and ideas of fourteen centuries, each with its sources and its ties to other records, and offers a Grand Tour, a learning hub for children and an Education Explorer for schools. Its data is in the public domain. `[How I know the museum: what I have read or used in it.]`
 >
-> I know how it is made. Mr Abdel Aal directs artificial-intelligence tools that draft and translate the entries from cited sources under rules he has published; most entries are labelled drafts, and the museum states its limits openly. `[My own assessment of what I have read, if I wish to give one.]`
+> I know how it is made. Mr Abdel Aal directs artificial-intelligence tools that draft and translate the records from cited sources under rules he has published; most records are labelled drafts, and the museum states its limits openly. `[My own assessment of what I have read, if I wish to give one.]`
 >
 > **Contribution to the Prize's objectives.** `[In my own words: what the museum does for the development and dissemination of Arab culture and for dialogue between cultures. For example: it makes the heritage of the Arabic historians and biographers findable and checkable for readers of Arabic, English and Urdu, free of charge, and presents Islamic history in a descriptive voice that serves understanding.]`
 >
-> In accordance with the Statutes and the Secretariat's guidance, and as I prefer not to manage the nomination process myself, I authorise Mr Abdel Aal to prepare and submit the nomination application on my behalf.
+> `[Either:]` In accordance with the Statutes and the Secretariat's guidance, and as I prefer not to manage the nomination process myself, I authorise Mr Abdel Aal to prepare and submit the nomination application on my behalf. `[Or:]` I am submitting this nomination myself through the Prize's online form.
 >
 > Yours faithfully,
 >
@@ -118,7 +118,7 @@ _Article 6.3 of the Statutes asks that each nomination come with "a written reco
 >
 > **The candidate.** Mr Abdel Aal, a citizen of Canada and of Egypt living in Oakville, Ontario, conceived, built and personally funds islam.museum, which opened to the public on 11 October 2026.
 >
-> **The work.** islam.museum is a free digital museum of Islamic history, written in Arabic first and published also in English and Urdu, with some `[63,000]` entries, each with its sources and its ties to other entries; its data is in the public domain. We understand that the entries are drafted and translated by artificial-intelligence tools from cited sources under rules the founder has published, that most are labelled drafts, and that the museum states its limits openly. `[How the organisation knows the museum.]`
+> **The work.** islam.museum is a free digital museum of Islamic history, written in Arabic first and published also in English and Urdu, with some `[63,000]` records, drafts included, each with its sources and its ties to other records; its data is in the public domain. We understand that the records are drafted and translated by artificial-intelligence tools from cited sources under rules the founder has published, that most are labelled drafts, and that the museum states its limits openly. `[How the organisation knows the museum.]`
 >
 > **Contribution to the Prize's objectives.** `[The organisation's own assessment.]`
 >
@@ -144,7 +144,7 @@ _Article 6.3 of the Statutes asks that each nomination come with "a written reco
 >
 > **Le candidat.** M. Abdel Aal, citoyen du Canada et de l'Égypte, établi à Oakville (Ontario), a conçu, réalisé et finance personnellement islam.museum, ouvert au public le 11 octobre 2026.
 >
-> **L'œuvre.** islam.museum est un musée numérique gratuit de l'histoire de l'Islam, rédigé d'abord en arabe et publié aussi en anglais et en ourdou : environ `[63 000]` notices, chacune accompagnée de ses sources et de ses liens avec les autres ; ses données sont versées dans le domaine public. Nous savons que les notices sont rédigées et traduites par des outils d'intelligence artificielle à partir de sources citées, selon des règles que le fondateur a publiées, que la plupart portent la mention « brouillon » et que le musée expose ouvertement ses limites. `[Comment l'organisation connaît le musée.]`
+> **L'œuvre.** islam.museum est un musée numérique gratuit de l'histoire de l'Islam, rédigé d'abord en arabe et publié aussi en anglais et en ourdou : environ `[63 000]` notices, brouillons compris, chacune accompagnée de ses sources et de ses liens avec les autres ; ses données sont versées dans le domaine public. Nous savons que les notices sont rédigées et traduites par des outils d'intelligence artificielle à partir de sources citées, selon des règles que le fondateur a publiées, que la plupart portent la mention « brouillon » et que le musée expose ouvertement ses limites. `[Comment l'organisation connaît le musée.]`
 >
 > **Contribution aux objectifs du Prix.** `[Appréciation propre à l'organisation.]`
 >
@@ -153,3 +153,31 @@ _Article 6.3 of the Statutes asks that each nomination come with "a written reco
 > Veuillez agréer, Madame, Monsieur, l'expression de notre considération distinguée.
 >
 > `[Signature, nom, fonction, organisation, pays, courriel, téléphone]`
+
+### 5d. Version française (modèle pour une personne)
+
+> `[En-tête, ou nom et adresse professionnelle]`
+> `[Date]`
+>
+> Au Secrétariat du Prix UNESCO-Sharjah pour la culture arabe
+> UNESCO, 7 place de Fontenoy, 75007 Paris
+>
+> **Recommandation et soutien : candidature d'Ahmed Abdel Aal (islam.museum), 22ᵉ édition**
+>
+> Madame, Monsieur,
+>
+> J'écris en ma qualité de `[titre et institution ; une ligne sur mes propres travaux]`, et à titre de `[au choix, selon l'article 6.2 des Statuts du Prix : personne œuvrant dans le domaine de la culture arabe et pour la paix et le dialogue interculturel / ancien lauréat du Prix (année) / personnalité éminente du domaine, si le Directeur général en juge ainsi]`, pour recommander Ahmed Abdel Aal pour le Prix UNESCO-Sharjah pour la culture arabe.
+>
+> **Le candidat.** M. Abdel Aal, citoyen du Canada et de l'Égypte, établi à Oakville (Ontario), a conçu, réalisé et finance personnellement islam.museum, ouvert au public le 11 octobre 2026.
+>
+> **L'œuvre.** islam.museum est un musée numérique gratuit de l'histoire de l'Islam, rédigé d'abord en arabe et publié aussi en anglais et en ourdou : environ `[63 000]` notices, brouillons compris, chacune accompagnée de ses sources et de ses liens avec les autres ; ses données sont versées dans le domaine public. `[Comment je connais le musée : ce que j'y ai lu ou utilisé.]`
+>
+> Je sais comment il est fait. M. Abdel Aal dirige des outils d'intelligence artificielle qui rédigent et traduisent les notices à partir de sources citées, selon des règles qu'il a publiées ; la plupart portent la mention « brouillon », et le musée expose ouvertement ses limites. `[Mon appréciation de ce que j'ai lu, si je souhaite en donner une.]`
+>
+> **Contribution aux objectifs du Prix.** `[En mes propres termes.]`
+>
+> `[Soit :]` Conformément aux Statuts et aux indications du Secrétariat, et préférant ne pas conduire moi-même la procédure, j'autorise M. Abdel Aal à préparer et à déposer le dossier de candidature en mon nom. `[Soit :]` Je dépose moi-même cette candidature au moyen du formulaire en ligne du Prix.
+>
+> Veuillez agréer, Madame, Monsieur, l'expression de ma considération distinguée.
+>
+> `[Signature, nom, fonction, institution, pays, courriel, téléphone]`
