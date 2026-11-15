@@ -40,18 +40,24 @@ relations:
   - { type: born_in, target: place/damanhur, sources: [source/wikipedia-ahmed-zewail-en, source/nobelprize-zewail-facts] }
   - { type: lived_in, target: place/alexandria, sources: [source/nobelprize-zewail-facts, source/wikipedia-ahmed-zewail-en] }
 faith:
-  - value: unknown
-    basis: unknown
-    note: "No source consulted names a school. English Wikipedia's categories describe him only as an Egyptian Muslim and an American Muslim; the Nobel Prize facts page and the Arabic article give no school, and his Cairo funeral — a military funeral with prayers led by the former Grand Mufti — is a state and family matter, not a school attestation. Not recorded until two independent sources name a school."
-    sources: [source/wikipedia-ahmed-zewail-en, source/nobelprize-zewail-facts, source/wikipedia-ahmed-zewail-ar]
+  - value: sunni
+    basis: self-identified
+    note: "His own repeated first-person profession of Islam, carried by two independent texts read for this record. In The Fountain magazine interview of issue 67 (January-February 2009) he says he is 'proud of the way I grew up as a Muslim in Egypt', describes the Sidi Ibrahim al-Desuqi mosque that 'defined my early childhood', studying schoolbooks in the mosque after prayer, and Al-Azhar as 'one of the centers of enlightenment of the world'; he states that religion and science do not conflict for him. Independently, the Caltech Archives oral history OH_Zewail_A (seven sessions, 2015, interviewed by Heidi Aspaturian) records his recollection of 'the moderate, intellectually rich Islam of his day', studying after school with friends in the local mosque and the imam blessing their pursuit of knowledge. No source read names a school or branch for him personally; he is an Egyptian of a Sunni polity and milieu where no other tradition is attested, so the value is recorded under the museum's Sunni default frame per docs/inventions/taxonomy.yaml inclusion.tradition.default, on his self-identification rather than on family, nationality or office. The earlier unknown reading rested on Wikipedia categories and infobox fields only, which never attest."
+    sources: [source/fountainmagazine-zewail-interview-2009, source/caltech-oral-history-zewail]
 external_ids: { wikidata: "Q106624", viaf: "95254701" }
 honours:
   - { award: award/nobel-prize, category: chemistry, result: won, year: 1999, note: "Nobel Prize in Chemistry 1999, awarded alone, for his studies of the transition states of chemical reactions using femtosecond spectroscopy", sources: [source/nobelprize-zewail-facts, source/wikipedia-ahmed-zewail-en] }
   - { award: award/king-faisal-prize, category: science, result: won, year: 1989, note: "King Faisal Prize in Science (physics), 1989, shared with Theodor W. Hänsch", sources: [source/wikipedia-king-faisal-prize-en] }
-sources: [source/wikipedia-ahmed-zewail-en, source/wikipedia-ahmed-zewail-ar, source/wikidata-ahmed-zewail, source/nobelprize-zewail-facts, source/zewail-voyage-through-time-2002, source/wikipedia-king-faisal-prize-en, source/wikidata]
+inventions:
+  - invention: invention/femtochemistry
+    role: inventor
+    place: place/california
+    note: "Founded femtochemistry at Caltech: the pump-probe femtosecond method that made chemical reaction transition states directly observable, recognized by the sole 1999 Nobel Prize in Chemistry."
+    sources: [source/nobelprize-chemistry-1999-press-release, source/nobelprize-zewail-facts, source/caltech-oral-history-zewail]
+sources: [source/wikipedia-ahmed-zewail-en, source/wikipedia-ahmed-zewail-ar, source/wikidata-ahmed-zewail, source/nobelprize-zewail-facts, source/zewail-voyage-through-time-2002, source/wikipedia-king-faisal-prize-en, source/wikidata, source/nobelprize-chemistry-1999-press-release, source/caltech-oral-history-zewail, source/fountainmagazine-zewail-interview-2009]
 provenance:
   layer: own-research
-  source: "English and Arabic Wikipedia, Wikidata Q106624, the Nobel Prize facts page for the 1999 Chemistry prize, and Zewail's autobiography Voyage Through Time (World Scientific, 2002) as listed by English Wikipedia, checked in Chrome on 26 Oct 2026"
-  generated_by: "Claude Code (claude-haiku-5-5)"
-  run: century-additions-1
-status: { review: published, generated_by: "Claude Code (claude-haiku-5-5)" }
+  source: "English and Arabic Wikipedia, Wikidata Q106624, the Nobel Prize facts page for the 1999 Chemistry prize, and Zewail's autobiography Voyage Through Time (World Scientific, 2002) as listed by English Wikipedia, checked in Chrome on 26 Oct 2026; extension 15 Nov 2026 by Devin drafter w2-13: Nobel Prize 1999 press release read in full, Caltech Archives oral history OH_Zewail_A landing page and transcript opening read, Fountain Magazine issue 67 interview read in full, and the Commons file page for the 1986 portrait read — used to settle his faith as self-identified Muslim under the Sunni default frame and to tie invention/femtochemistry."
+  generated_by: "Claude Code (claude-haiku-5-5); faith block and inventions tie extended by Devin drafter w2-13"
+  run: century-additions-1; inventions-w2-13
+status: { review: published, generated_by: "Claude Code (claude-haiku-5-5); faith block and inventions tie extended by Devin drafter w2-13" }
