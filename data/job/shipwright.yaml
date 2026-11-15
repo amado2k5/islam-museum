@@ -1,0 +1,50 @@
+id: job/shipwright
+class: job
+label: { ar: "القلفاط", en: "Shipwright (qalfat)", ur: "جہاز ساز" }
+names:
+  - { value: "نجار السفن", kind: alternate }
+  - { value: "صانع السفن", kind: alternate }
+  - { value: "gemici", kind: latinized, lang: tr }
+  - { value: "kalafat ustası", kind: latinized, lang: tr }
+summary:
+  ar: "القلفاط هو صانع السفن ومقوّمها في دار الصناعة ⁦(الترسانة)⁩: كان يبني السفن الحربية والتجارية ويقلّطها ويصلّحها تحت إشراف الدولة. يتابع المدخل هذه الصناعة من أول ترسانة إسلامية أقامها معاوية في جزيرة الروضة سنة ٥٤هـ، إلى ورش عكا وصور وإسكندرية وتونس والمهدية، ومراسلات والي مصر قرة بن شريك التي تذكر قلفاط الأستاذ والنجار والحدّاد، وحتى ترسانة علائية السلجوقية."
+  en: "The shipwright (qalfat, kalafat ustası) built, caulked and repaired war and merchant ships in the state arsenal (dâr al-ṣināʿa, tersane). The TDV entry follows the trade from Muʿāwiya's first Islamic arsenal on Rawza island in 54/674, through the yards of Acre, Tyre, Alexandria, Tunis and Mahdia — with the Umayyad governor Qurra b. Sharīk's papyri naming the kalafat master, carpenter and smith — to the Seljuk tersane of Alanya."
+  ur: "جہاز ساز ⁦(قلفاط، کلفت استاد)⁩ دار الصناعة ⁦(ترسانہ)⁩ میں جنگی اور تجارتی جہاز بناتا، ان کی کالا پتی کرتا اور مرمت کرتا تھا۔ ٹی ڈی وی کا مدخل اس پیشے کو معاویہ کے پہلے اسلامی ترسانے ⁦(جزیرہ روضہ، ۵۴ھ/۶۷۴ء)⁩ سے لے کر عکہ، صور، اسکندریہ، تونس اور مہدیہ کے ورشوں تک، اور قرة بن شریک کے پپائرس میں مذکور کلفت استاد، نجار اور حداد تک، سلجوقی ترسانہ علائیہ تک لے جاتا ہے۔"
+domain: trade-travel-sea
+kind: craft
+hirfa: true
+era:
+  origins: pre-islamic
+  status_today: transformed
+places:
+  - { place: place/alexandria, note: "The largest arsenal of the conquest era stood at Alexandria; Muʿāwiya sent it cedar timber from the Lebanese mountains.", sources: [source/tdv-tersane] }
+  - { place: place/cairo, note: "The first arsenal built by Muslims stood on Rawza island in the Nile (Sınâatü'r-Ravza, 54/674); the Tulunid, Ikhshidid and Fatimid yards at Fustat and Maqs followed.", sources: [source/tdv-tersane] }
+  - { place: place/akka, note: "Muʿāwiya gathered the shipwrights at Acre in 49/669 and housed the arsenal workers along the shore; the yard was later moved to Tyre and back.", sources: [source/tdv-tersane] }
+  - { place: place/tunis, note: "Hassān b. Nuʿmān founded the first North African arsenal at Tunis, staffed by a thousand Coptic shipwrights sent with their families from Egypt.", sources: [source/tdv-tersane] }
+  - { place: place/al-mahdiyya, note: "The Fatimids built a port and arsenal at Mahdia, later enlarged to build a hundred shūne-type ships; Abd al-Muʾmin built his 120-ship fleet there.", sources: [source/tdv-tersane] }
+  - { place: place/almeria, note: "Abd al-Raḥmān III built a great arsenal at al-Mariyya after the Fatimid raid, and al-Ḥakam II inspected and renewed it in 353/964.", sources: [source/tdv-tersane] }
+  - { place: place/alanya, note: "The Anatolian Seljuks built a tersane at Alanya after its conquest by Kayqubād I; Sinop and Antalya also had yards.", sources: [source/tdv-tersane] }
+regions: [levant-iraq, egypt-nile, maghreb, andalus-europe, anatolia-balkans]
+organization:
+  organized: court-office
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people, living]
+periods: [period/umayyad, period/abbasid-early, period/abbasid-fragmentation, period/crusades-ayyubid-mamluk, period/buyid-seljuk-fatimid-era]
+sources: [source/tdv-tersane]
+craft:
+  materials: [wood, textile]
+  techniques:
+    ar: "كان بناء السفينة يجري في دار الصناعة: تشغيل الورشة بتمويل الدولة، وتوريد الخشب ⁦(أرز لبنان وأخشاب الشام واليمن والأناضول وأفريقيا)⁩ والقار والزفت والمسامير والحديد وقماش الأشرعة والقنب للحبال من الخارج، وعمل فيها قلفاط الأستاذ والنجار والحدّاد كما تذكر برديات قرة بن شريك. وكان السلطان نفسه أحياناً يقف على الصنعة: يذكر المدخل أن الظاهر بيبرس استقبل سفراء صقلية في الترسانة وبيده آلة نجارة بين الأخشاب."
+    en: "Shipbuilding ran inside the dâr al-ṣināʿa: a state-funded yard that imported timber — cedar from Lebanon, wood from Syria, Yemen, Anatolia and Africa — plus pitch, tar, nails, iron, sailcloth and hemp for ropes. Qurra b. Sharīk's surviving papyri name the kalafat master, carpenter and smith employed for construction, fitting-out and maintenance. The sultan himself could watch the trade: Baybars received Sicilian envoys in the tersane, carpenter's tool in hand, seated among the timber."
+    ur: "جہاز سازی دار الصناعة میں ہوتی تھی: ریاستی اخراجات پر چلنے والی ورکشاپ جو لبنان کی دیوار کی لکڑی اور شام، یمن، اناطولیہ اور افریقہ کی سائو خشک لکڑی، رال، قیر، کیل، لوہا، پال کا کپڑا اور سن کی رسی باہر سے منگواتی تھی۔ قرة بن شریک کے بچ جانے والے پپائرس کلفت استاد، نجار اور حداد کا ذکر کرتے ہیں۔ سلطان خود بھی صنعت دیکھتا تھا: بے برس نے صقلیہ کے ایلچیوں کو ترسانے میں لکڑی کے درمیان نجار کا اوزار ہاتھ میں لیے ملاقات کی۔"
+  guild:
+    bodies: []
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-craft-2" }
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi, 'TERSANE' (Nebi Bozkurt, 2011), web edition read in full on 15 Nov 2026. The entry is a history of the arsenal institution; it names trades (kalafat master, carpenter, smith) but no individual shipwrights and no wage series."
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-craft-2-drafting"
