@@ -9,3 +9,12 @@ Kabul is a great city on the frontiers of India, according to al-Baladhuri. [[pe
 
 ## In the iDAI.gazetteer
 The German Archaeological Institute's gazetteer, iDAI.gazetteer, records this place as no. 2090085, typed as populated place, with the preferred name «Kabul» under «Kabul Province» in its hierarchy, and recorded names including Cabul, Kubha, Kabura. {cite:idai-gazetteer 2090085}
+
+## In Yaqut's Mu'jam al-buldan
+Yaqut places Kabul in the third climate and gives the astronomers' figures of 100 degrees of longitude and 28 of latitude. {cite:mujam-al-buldan-sader-1995 4 p.426}
+
+Quoting al-Istakhri, he describes the Khalaj as a Turkic people who settled the land of Kabul in ancient times, between India and Sijistan, behind Ghur. He notes that Kabul names both the region and its chief city. {cite:mujam-al-buldan-sader-1995 4 p.426}
+
+He cites a learned man of Sijistan who described Kabul as a province of large meadows between India and Ghazna, and Yaqut himself judges that attributing it to India is the better view. {cite:mujam-al-buldan-sader-1995 4 p.426}
+
+Quoting Ibn al-Faqih, he says Kabul was a frontier post of Tukharistan, with towns including Adhan, Khawash, Khushk and Juzah. Its produce included wood, coconut, saffron and myrobalan, because it bordered India. Its tribute was 2,500,000 dirhams, the Muslims conquered it in Marwanid times, and its people were Muslim. {cite:mujam-al-buldan-sader-1995 4 p.426}

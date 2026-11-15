@@ -13,3 +13,6 @@ al-Salabi says that the decline continued in his time. Austria took many positio
 He says that the grand vizier Mustafa ibn Mehmed Köprülü followed his father's path, and allowed the Christians of Istanbul to rebuild what had fallen of their churches. He adds that the people of the Morea rose against the Catholic Venetians, drove out their army, and placed themselves under the protection of the Ottoman state {cite:dawlat-uthmaniyya-salabi p.308-309}.
 
 The birth date rests on a single source, and needs an additional source.
+
+## His death and succession
+Sultan Suleiman II died on 26 Ramadan 1102 AH (23 June 1691 CE), leaving no heirs, at about fifty years of age. He had reigned three years and eight months. He was buried in the tomb of his grandfather Suleiman I, and his brother Ahmed II succeeded him. {cite:dawlat-uthmaniyya-salabi p. 309} In his reign the grand vizier Mustafa ibn Mehmed Koprulu was killed in battle against Austria in 1102 AH. {cite:dawlat-uthmaniyya-salabi p. 309}

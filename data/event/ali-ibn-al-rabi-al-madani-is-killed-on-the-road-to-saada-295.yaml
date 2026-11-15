@@ -1,0 +1,51 @@
+id: event/ali-ibn-al-rabi-al-madani-is-killed-on-the-road-to-saada-295
+class: event
+kind: other
+label:
+  ar: "مقتل علي بن الربيع المداني في الطريق إلى صعدة، سنة 295هـ، ص357-358"
+  en: "Ali ibn al-Rabi' al-Madani is killed on the road to Sa'da, 295 AH, pp. 357-358"
+  ur: "علی بن الربیع المداني کا صعدہ کے راستے میں قتل، 295ھ، ص357-358"
+summary:
+  ar: "طلب بنو الحارث إطلاق علي بن الربيع المداني، وكانوا قد عزموا على أخذ محمد بن عبيد الله رهينة به، فغضب الهادي. ويذكر الكتاب أن الهادي أمر نفراً من خدمه بأن يحملوه إلى صعدة فيقتلوه في الطريق، بعد أن سأل أولياء المقتول أن يقتلوه بصاحبهم، ففعلوا، فزادهم ذلك خوفاً."
+  en: "Banu al-Harith asked for the release of Ali ibn al-Rabi' al-Madani, after they had planned to take Muhammad ibn Ubaydallah as a hostage in exchange for him, and al-Hadi was angered. The book's account says al-Hadi ordered servants to take him toward Sa'da and kill him on the road; his victim's kin had asked for retaliation. The killing increased the fear of Banu al-Harith."
+  ur: "بنو حارث نے علی بن الربیع المداني کی رہائی کا مطالبہ کیا، جبکہ وہ اس کے بدلے محمد بن عبیداللہ کو یرغمال بنانے کا ارادہ رکھتے تھے، اور ہادی سخت ناراض ہوئے۔ کتاب کے بیان کے مطابق ہادی نے اپنے کچھ خادموں کو حکم دیا کہ اسے صعدہ کی طرف لے جائیں اور راستے میں قتل کر دیں؛ مقتول کے ورثاء نے بدلے کا مطالبہ کیا تھا۔ اس قتل سے بنو حارث کا خوف اور بڑھ گیا۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0908~"
+    hijri: "0295"
+    calendar: julian
+    precision: year
+    status: tradition
+    derived: true
+    note: "سنة 295هـ بحسب تسلسل الرواية بعد الحدث السابق؛ مشتق، والكتاب لا يذكر الشهر هنا. تعليل الفعل قول الراوي"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/ali-ibn-al-rabi-al-madani
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر. سيرة الهادي إلى الحق، تحقيق سهيل زكار، ص357-358 الصفحة المطبوعة"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5)"
+  model: claude-haiku-5-5
+  run: a1-sira-p355-362-1
+status:
+  review: draft
+  completeness: 2
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 355-362"

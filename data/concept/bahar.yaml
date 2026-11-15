@@ -1,0 +1,23 @@
+id: concept/bahar
+class: concept
+kind: natural
+label:
+  ar: "بهار"
+  en: "Bahar (eye-of-the-ox, a flowering herb)"
+  ur: "بہار ⁦(گاؤ چشم)⁩"
+summary:
+  ar: "هو الذي يسمّى كاوجشم، أي عين البقر، ورده أصفر، وورقه أحمر الوسط، وهو أسمن من ورق البابونج. حار في الثانية يابس في الأولى. ينفع شمّه من الرياح الغليظة في الرأس {cite:canon-ibn-sina-print-v1 p.400}."
+  en: "The plant the book calls kawjashm, meaning eye of the ox. Its flower is yellow and its leaf has a red middle, and it is fuller than chamomile leaf. Hot in the second degree and dry in the first. Smelling it helps thick wind in the head {cite:canon-ibn-sina-print-v1 p.400}."
+  ur: "یہ وہ پودا ہے جسے کاوجشم کہا جاتا ہے، یعنی گائے کی آنکھ۔ اس کا پھول زرد اور پتے کا درمیانی حصہ سرخ ہے، اور یہ بابونج کے پتے سے زیادہ موٹا ہے۔ دوسرے درجے میں گرم اور پہلے میں خشک۔ اسے سونگھنے سے سر کی گاڑھی ہوا میں نفع ہوتا ہے {cite:canon-ibn-sina-print-v1 p.400}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter ba, scan pages 400, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); the editor's footnotes are used only for identity and name; footnotes quoting modern herbal or nutrition books are not used; measured doses and weights are left out; garbled OCR lines are left out, not guessed"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), lane A4"
+  model: claude-haiku-5-5
+  run: a4-canon-book2-5
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (book mining, lane A4)" }

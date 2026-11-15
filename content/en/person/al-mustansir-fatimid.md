@@ -14,3 +14,6 @@ He was installed in 428 AH at the age of seven, and remained in the caliphate si
 In his days there was famine in Egypt, the like of which had not been known since the time of Joseph. It lasted seven years, until people ate one another. {cite:tarikh-khulafa-minhaj-1434 p.643-644}
 
 He was prayed for in the Mansur mosque in Baghdad in 450 AH, when al-Basasiri took it with his money. {cite:tarikh-khulafa-minhaj-1434 p.643-644}
+
+## The khutba in the Maghrib
+In 443 AH al-Mu'izz ibn Badis ended the khutba for the Ubaydids in the Maghrib and gave it for the Abbasids. {cite:tarikh-khulafa-minhaj-1434 p.644}

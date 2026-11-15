@@ -30,8 +30,9 @@ relations:
   - { type: participated_in, target: event/baqillani-mujaddid-fourth-century, role: "المجدد المعدود", sources: [source/shadharat-dhahab] }
   - { type: participated_in, target: event/death-al-baqillani-403, role: "المتوفَّى", sources: [source/wafayat-ayan, source/encyclopaedia-of-islam-2] }
   - {type: wrote_about, target: concept/sharia, sources: [source/encyclopaedia-of-islam-2], note: 'The sharia record''s own prose: al-Baqillani asked whether a prophet confirms or abrogates the law of an earlier one (EI2 vol. 9 p. 335). Audit S12, 13 Nov 2026.'}
-sources: [source/wafayat-ayan, source/shadharat-dhahab, source/encyclopaedia-of-islam-2]
+sources: [source/viaf-cluster-54946644, source/wafayat-ayan, source/shadharat-dhahab, source/encyclopaedia-of-islam-2]
 external_ids:
+  viaf: "54946644"
   wikidata: Q2608002
 provenance:
   layer: own-research

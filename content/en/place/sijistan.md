@@ -8,3 +8,10 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 Sijistan is a province in the east, which al-Baladhuri mentions among the reports of the flight from the conquest. He relates that Yazdegerd went to Sijistan, and its ruler honoured and magnified him. After some days Yazdegerd asked him for kharaj, and the ruler became hostile to him. When Yazdegerd saw this, he set out for Khurasan, and on reaching the border of Merv, Mahuya, its marzban, met him with honour and reverence. {cite:futuh-buldan-maarif-1407 p.441}
 
 Al-Baladhuri also mentions people of Sijistan among captives and scribes. Abu Salih, Salih ibn Abd al-Rahman, a client of Banu Tamim, came from the captives of Sijistan, and he wrote in Arabic and Persian before Zadhan Farrukh, until Zadhan Farrukh brought him to al-Hajjaj. {cite:futuh-buldan-maarif-1407 p.421} Under Sulayman ibn Abd al-Malik, while Salih ibn Abd al-Rahman al-Sijistani held the kharaj of Iraq, he built the governor's house with fired brick and gypsum, where it had been of mud-brick before. {cite:futuh-buldan-maarif-1407 p.485}
+
+## In Yaqut's Mu'jam al-buldan
+Yaqut describes Sijistan as a large region and wide province; some hold that the name belongs to the region and that its city is Zaranj. It lies about eighty farsakhs, or ten days, south of Herat. {cite:mujam-al-buldan-sader-1995 3 p.190}
+
+Quoting al-Istakhri, he describes a land of salt marsh and hot sand, without snow and without mountains except near Fara. Its winds never rest, so the people set up mills that move the sand from one place to another, and they build walls of brush around the drifts with a door at the base so the wind carries the sand upward. Without this, the sand would bury the towns and villages. {cite:mujam-al-buldan-sader-1995 3 p.190}
+
+On the name of Sijistan and Isfahan, Yaqut records Hamza al-Isfahani's view that the words asbah and sak both meant troops, since both cities were garrison towns; the older forms were Sakan and Sakastan. {cite:mujam-al-buldan-sader-1995 3 p.190}

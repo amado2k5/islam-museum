@@ -1,0 +1,52 @@
+id: "event/najran-rising-during-a-famine-and-abu-jafar-bans-arms-after-291"
+class: event
+kind: other
+label:
+  ar: "ثورة بني الحارث بنجران في زمن الحطمة، ومنع أبي جعفر حمل السلاح، بعد 291هـ"
+  en: "Banu al-Harith rise at Najran during a famine, and Abu Ja'far imprisons them and bans arms, after 291 AH, p. 374-375"
+  ur: "نجران میں قحط کے دوران بنو حارث کی بغاوت، ابو جعفر کی قید اور ہتھیار پر پابندی، 291ھ کے بعد، ص374-375"
+summary:
+  ar: "وقعت في اليمن مجاعة شديدة عمت البلاد حتى أكل الناس بعضهم بعضاً، فقام أهل الفساد من بني الحارث وثاروا على عامل الهادي إلى الحق بنجران، فشدّ عليهم أبو جعفر، فحبس من أمكنه منهم، ورفعهم إلى صعدة، وحرّم عليهم حمل السلاح من أعلى الوادي إلى أسفله، فسكن الناس وأمنت البلد وخضع أهل الباطل. ولم يكن معه في ذلك الوقت عسكر إلا خدم من همدان."
+  en: "A severe famine spread over Yemen until people ate one another. The troublemakers of Banu al-Harith rose against al-Hadi ila al-Haqq's agent at Najran. Abu Ja'far came down hard on them, imprisoned those he could reach, sent them up to Sa'da, and forbade them to carry arms from the top of the valley to the bottom. No one carried arms, the people mixed, the town was secured, and the men of falsehood submitted. He had no army with him at that time except servants from Hamdan."
+  ur: "یمن میں ایک سخت قحط پھیل گیا جو ملک بھر میں ایسا تھا کہ لوگ ایک دوسرے کو کھانے لگے۔ اس موقع پر بنو حارث کے فسادی لوگ نجران میں الہادی الی الحق کے عامل کے خلاف اٹھ کھڑے ہوئے۔ ابو جعفر ان پر سختی سے ٹوٹ پڑا، جن تک پہنچ سکا انہیں قید کیا، انہیں صعدہ بھیج دیا، اور انہیں وادی کے بالائی حصے سے نچلے حصے تک ہتھیار اٹھانے سے منع کر دیا۔ کوئی ہتھیار نہ اٹھاتا تھا، لوگ گھل مل گئے، شہر پرامن ہو گیا اور باطل پر چلنے والے جھک گئے۔ اس وقت اس کے ساتھ ہمدان کے خادموں کے سوا کوئی لشکر نہ تھا۔"
+wings:
+- time
+themes:
+- civil-wars-and-revolts
+- crime-and-punishment
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0903/0904"
+    hijri: "0291"
+    calendar: julian
+    precision: year
+    status: tradition
+    derived: true
+    note: "الكتاب لا يذكر سنة للحادثة؛ تأتي في السرد بعد الوصول إلى صعدة سنة 291، وهذه السنة ترجيح من ترتيب السرد لا تاريخ ثابت"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/abu-jafar-muhammad-ibn-ubaydallah-al-abbasi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/najran
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، الصفحات المطبوعة ص369-376، المسح 365-372"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5)"
+  model: claude-haiku-5-5
+  run: a1-sira-p369-376-1
+status:
+  review: draft
+  completeness: 2
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 369-376"

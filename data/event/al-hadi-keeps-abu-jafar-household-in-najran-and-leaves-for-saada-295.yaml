@@ -1,0 +1,57 @@
+id: event/al-hadi-keeps-abu-jafar-household-in-najran-and-leaves-for-saada-295
+class: event
+kind: other
+label:
+  ar: "الهادي يبقي عيال أبي جعفر في داره بنجران، ثم يخرج إلى صعدة، سنة 295هـ، ص361-362"
+  en: "Al-Hadi keeps Abu Ja'far's household in his house at Najran and then leaves for Sa'da, 295 AH, pp. 361-362"
+  ur: "ہادی کا ابو جعفر کے گھر والوں کو نجران میں اپنے گھر میں رکھنا، پھر صعدہ کی طرف روانگی، 295ھ، ص361-362"
+summary:
+  ar: "سأل أبو جعفر أن يعفيه من البلد لأن أهله أهل سوء، ثم سأل أن يصير عياله إلى الحصن عند همدان وهو يبقى مع بني الحارث، فأجابه الهادي. فلما وقع قتل ابن بسطام أرسل الهادي يمنعه من نقل عياله إلى الحصن لأن ذلك يوهن أمره، ويأمره أن يتركهم في داره. ثم خرج الهادي إلى صعدة وترك مع محمد ثلاثة وعشرين فارساً وخمسة وخمسين راجلاً."
+  en: "Abu Ja'far asked to be relieved of the town, saying its people were bad. He then asked that his household be placed at the fort among Hamdan while he stayed with Banu al-Harith, and al-Hadi agreed. After Ibn Bistam was killed, al-Hadi sent to forbid the move, saying it would weaken his position, and told Abu Ja'far to keep his household in the house where they were. Al-Hadi then left for Sa'da and left with Muhammad twenty-three horsemen and fifty-five foot soldiers."
+  ur: "ابو جعفر نے شہر کی ذمہ داری سے سبکدوش ہونے کی درخواست کی، کیونکہ ان کے بقول یہاں کے لوگ برے ہیں۔ پھر انہوں نے کہا کہ ان کے گھر والوں کو ہمدان کے قلعے میں رکھا جائے اور وہ خود بنو حارث کے ساتھ رہیں، ہادی نے منظور کیا۔ ابن بسطام کے قتل کے بعد ہادی نے یہ منتقلی روک دی، کیونکہ اس سے ان کی پوزیشن کمزور ہوتی، اور حکم دیا کہ گھر والے اسی گھر میں رہیں۔ پھر ہادی صعدہ روانہ ہوئے اور محمد کے ساتھ تئیس سوار اور پچپن پیادے چھوڑ گئے۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0908~"
+    hijri: "0295"
+    calendar: julian
+    precision: year
+    status: tradition
+    derived: true
+    note: "سنة 295هـ؛ الموافق المشتق لـ 5 ذي الحجة 295هـ هو ⁦(10 سبتمبر 908م)⁩؛ الكتاب يذكر يوم السبت «لخمس داخلة من ذي الحجة»، وهذا يتعارض مع ترتيب الأحداث بعد مقتل ابن بسطام في 27 ذي الحجة؛ يُسجّل الشهر والسنة كما وردا ويُعلَّم الفارق للتحقق من صورة الصفحة"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abu-jafar-muhammad-ibn-ubaydallah-al-abbasi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ali-ibn-muhammad-ibn-ubaydallah-al-abbasi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/najran
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر. سيرة الهادي إلى الحق، تحقيق سهيل زكار، ص361-362 الصفحة المطبوعة"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5)"
+  model: claude-haiku-5-5
+  run: a1-sira-p355-362-1
+status:
+  review: draft
+  completeness: 2
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 355-362"

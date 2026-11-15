@@ -32,6 +32,7 @@ sources:
 - source/geonames-gazetteer
 - source/nomisma
 - source/althurayya-gazetteer
+- source/mujam-al-buldan-sader-1995
 periods:
 - period/umayyad
 - period/abbasid-early
@@ -40,6 +41,7 @@ status:
   completeness: 1
   generated_by: Devin (SWE-2 High)
 provenance:
+  model: claude-haiku-5-5
   layer: own-research
   generated_by: Devin
   run: person-place-geo-merge

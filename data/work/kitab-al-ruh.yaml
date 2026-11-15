@@ -1,17 +1,19 @@
 id: work/kitab-al-ruh
 class: work
 kind: book
-label: { ar: "كتاب الروح", en: "Kitab al-Ruh" }
+label: { ar: "كتاب الروح", en: "Kitab al-Ruh", ur: "کتاب الروح" }
 summary:
-  ar: "بطاقة أولية لكتاب الروح لابن قيم الجوزية، أشهر ما صنف في أحوال الأرواح؛ لم تُراجع مصادرها على الصفحة بعد."
-  en: "Draft card for Kitab al-Ruh, Ibn Qayyim al-Jawziyya's celebrated work on the states of souls; its sources are not yet checked on the page."
+  ar: "كتاب الروح لابن قيم الجوزية ⁦(691–751هـ)⁩، رسالة في حقيقة الروح وأحوالها بعد الموت، تُعرض في إحدى وعشرين مسألة، من هل يعرف الميت زيارة الحي إلى هل النفس واحدة أم ثلاث، والنسخة المقروءة طبعة دار عطاءات العلم، الطبعة الثالثة ⁦(1440هـ/2019م)⁩ {cite:kitab-al-ruh-atta-2019 p. 4} {cite:kitab-al-ruh-atta-2019 p. 2}."
+  en: "Ibn Qayyim al-Jawziyya's (691–751 AH) treatise on the nature of the soul and its states after death, set out in twenty-one questions, from whether the dead know the visits of the living to whether the self is one or three. The copy read is the Dar Atta'at al-Ilm third edition (1440 AH / 2019 CE) {cite:kitab-al-ruh-atta-2019 p. 4} {cite:kitab-al-ruh-atta-2019 p. 2}."
+  ur: "ابن قیم الجوزیہ ⁦(691 تا 751ھ)⁩ کا رسالہ، روح کی حقیقت اور موت کے بعد اس کے احوال پر، جو اکیس مسائل میں پیش کیا گیا ہے: کیا میت زندوں کی زیارت پہچانتی ہے، سے لے کر کیا نفس ایک ہے یا تین۔ زیرِ مطالعہ نسخہ دار عطاءات العلم کا تیسرا ایڈیشن ہے ⁦(1440ھ / 2019ء)⁩ {cite:kitab-al-ruh-atta-2019 p. 4} {cite:kitab-al-ruh-atta-2019 p. 2}۔"
 wings: []
-sources: [source/al-aalam]
+authors: [person/ibn-qayyim-al-jawziyya]
+sources: [source/kitab-al-ruh-atta-2019, source/al-aalam]
 external_ids: { wikidata: "Q12187908" }
 provenance:
   layer: own-research
-  source: "Wikidata candidate; work attested in bibliographies — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: "Wikidata candidate (wave 2 import, as first recorded); prose and the twenty-one questions from source/kitab-al-ruh-atta-2019, pages read as listed in that source record; the earlier draft card (source/al-aalam) is kept as a cited source"
+  generated_by: "Claude Haiku 5.5"
+  model: "claude-haiku-5-5"
+  run: "c2-work-3"
+status: { review: draft, completeness: 2, generated_by: "Claude Haiku 5.5 (lane C2, packet c2-work-3)" }

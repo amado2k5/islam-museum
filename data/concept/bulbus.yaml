@@ -1,0 +1,23 @@
+id: concept/bulbus
+class: concept
+kind: natural
+label:
+  ar: "بُلْبوس"
+  en: "Bulbus (a small onion-like bulb)"
+  ur: "بلبوس"
+summary:
+  ar: "بصل مأكول صغار، يشبه بصل النرجس وورقه يشبه الكراث، ومنه ما يهيّج القيء. طبعه قريب من البصل، منفخ يفرّق ويخشن اللسان. يُطلى على الكلف في الشمس، ويخشن الحنك واللسان، وإذا اتُّخذ منه ضماد مع الخل نفع النقرس وأوجاع المفاصل، ويهيّج الباه {cite:canon-ibn-sina-print-v1 p.392}."
+  en: "A small edible bulb like the narcissus bulb, with leaves like the leek. One kind causes vomiting. Its nature is close to the onion's, with wind-producing, dispersing power that roughens the tongue. Applied to freckles in the sun it helps them; with vinegar as a poultice it helps gout and pains of the joints; and the book says it stirs desire {cite:canon-ibn-sina-print-v1 p.392}."
+  ur: "یہ ایک چھوٹا کھانے کا پیاز ہے جو نرگس کے پیاز جیسا ہے اور اس کے پتے گندنے جیسے ہیں۔ اس کی ایک قسم قے لاتی ہے۔ اس کی طبیعت پیاز کے قریب ہے، یہ ہوا پیدا کرتا اور منتشر کرتا ہے، اور زبان کو کھردرا کرتا ہے۔ دھوپ میں کلف پر ملنے اور سرکے کے ساتھ ضماد کے طور پر گٹھیا اور جوڑوں کے درد میں نفع دیتا ہے، اور کتاب کے مطابق شہوت بڑھاتا ہے {cite:canon-ibn-sina-print-v1 p.392}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter ba, scan pages 392, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); the editor's footnotes are used only for identity and name; footnotes quoting modern herbal or nutrition books are not used; measured doses and weights are left out; garbled OCR lines are left out, not guessed"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), lane A4"
+  model: claude-haiku-5-5
+  run: a4-canon-book2-5
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (book mining, lane A4)" }
