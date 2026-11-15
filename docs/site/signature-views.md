@@ -67,6 +67,7 @@ set bind every view listed here.
 | Mukatabat | Letters and their senders: a flow from sender class to kind to corpus | `sig/MukatabatFlow.astro` | `mukatabatItems` | every column sums to the records |
 | Islamic Economy | Coin, deed and endowment through time: three ledgers on one axis, dated records only | `sig/IeLedgers.astro` | `ieItems`, `IE_TOPICS` | every topic, class and section drawn |
 | Hudud | Limits and grave sins as the sources name them: a two-panel index of terms and references | `sig/HududIndex.astro` | `hududItems`, `hududSignals` | every term has a side and a label |
+| Halal and Haram | The balance of the lawful and the unlawful: a bar of passages by kind and two facing panels of lexicon terms with counts per corpus | `sig/HalalScale.astro` | `halalItems`, `halalSignals`, `HALAL_SIDE`/`HARAM_SIDE` | every term has a side and a label; the kinds add up to the passages |
 
 The Modern Islam Browser keeps its own year ribbon (`ol[data-modern-ribbon]`), built before this
 programme. A browser added later gets its view, and its row here, in the commit that mounts it.

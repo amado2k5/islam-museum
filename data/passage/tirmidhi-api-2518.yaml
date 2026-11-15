@@ -1,0 +1,17 @@
+id: passage/tirmidhi-api-2518
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "2518"
+label: { ar: "جامع الترمذي 2518 — ترك ما يريب إلى ما لا يريب", en: "Jami' al-Tirmidhi 2518 — leaving what gives doubt for what gives none", ur: "جامع ترمذی 2518 — شک والی چیز چھوڑ کر بے شک چیز اختیار کرنا" }
+text: "… بْنِ عَلِيٍّ مَا حَفِظْتَ مِنْ رَسُولِ اللَّهِ قَالَ حَفِظْتُ مِنْ رَسُولِ اللَّهِ \" دَعْ مَا يَرِيبُكَ إِلَى مَا لاَ يَرِيبُكَ فَإِنَّ الصِّدْقَ طُمَأْنِينَةٌ وَإِنَّ الْكَذِبَ رِيبَةٌ \". وَفِي الْحَدِيثِ قِصَّةٌ. قَالَ وَأَبُو الْحَوْرَاءِ السَّعْدِيُّ اسْمُهُ رَبِيعَةُ بْنُ شَيْبَانَ. قَالَ وَهَذَا حَدِيثٌ حَسَنٌ صَحِيحٌ. حَدَّثَنَا بُنْدَارٌ، حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، حَدَّثَنَا شُعْبَةُ، عَنْ بُرَيْدٍ، فَذَكَرَ نَحْوَهُ."
+summary:
+  ar: "خبر في جامع الترمذي، رقم 2518، في ترك ما يريب إلى ما لا يريب. لا يرد فيه لفظ الحلال أو الحرام، ويجمعه متصفح الحلال والحرام مع أخبار الورع وتحرّي الحلال."
+  en: "A report in Jami' al-Tirmidhi, no. 2518, on leaving what gives doubt for what gives none. It does not use the words halal or haram; the Halal and Haram Browser lists it with the reports of scruple and of seeking the lawful."
+  ur: "جامع ترمذی کی روایت نمبر 2518: شک والی چیز چھوڑ کر بے شک چیز اختیار کرنا۔ اس میں حلال یا حرام کا لفظ نہیں آیا؛ حلال و حرام براؤزر اسے ورع اور حلال کی جستجو کی روایات کے ساتھ جمع کرتا ہے۔"
+tags: [halal-haram-browser]
+relations:
+  - { type: mentions, target: concept/halal-haram, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 2518 (book 37 hadith 104); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

@@ -120,7 +120,12 @@ for (const book of BOOKS) {
     const slugNo = String(h.hadithnumber).replace(/\./g, "-");
     const file = join(OUT_DIR, `${book.prefix}-api-${slugNo}.yaml`);
     const id = `passage/${book.prefix}-api-${slugNo}`;
-    if (existsSync(file)) { skip("an api record of this hadith exists"); continue; }
+    if (existsSync(file)) {
+      // keep its wording in view, so a second run does not take a repeat of it for a new report
+      seen.push(halalFold(excerptOf(clean(h.text))));
+      skip("an api record of this hadith exists");
+      continue;
+    }
     const std = book.prefix === "muslim" ? parseInt(String(h.arabicnumber ?? ""), 10) : h.hadithnumber;
     if (book.prefix !== "muwatta" && siblings.has(`${book.prefix}-${std}`)) { skip("already in the graph under the plain id"); continue; }
     const text = excerptOf(clean(h.text));
@@ -169,5 +174,69 @@ for (const book of BOOKS) {
     perBook[book.prefix] = (perBook[book.prefix] ?? 0) + 1;
   }
 }
+
+/**
+ * Reports the lexicon cannot find because they act on the lawful and the unlawful without naming
+ * them: the scruple of the Prophet, the Companions and the Successors before a doubtful morsel,
+ * and the customs of the Jahiliyya that forbade what God had not. They are admitted by number,
+ * tagged `halal-haram-browser` (the curated escape hatch of scripts/halal.ts), and excerpted
+ * around the words given here.
+ */
+const PINNED: { file: string; n: number; at: string; ar: string; en: string; ur: string }[] = [
+  { file: "ara-bukhari", n: 3842, at: "كان لأبي بكر غلام", ar: "ورع أبي بكر عن طعام من كسب الكهانة", en: "Abu Bakr's scruple over food earned by soothsaying", ur: "کہانت کی کمائی کے کھانے سے ابوبکر کا ورع" },
+  { file: "ara-bukhari", n: 2055, at: "بتمرة", ar: "ترك التمرة خشية أن تكون من الصدقة", en: "leaving a fallen date for fear it was charity", ur: "صدقے کے اندیشے سے گری ہوئی کھجور چھوڑ دینا" },
+  { file: "ara-bukhari", n: 1491, at: "أخذ الحسن", ar: "منع الحسن بن علي من تمرة الصدقة", en: "al-Hasan ibn 'Ali stopped from eating a date of the charity", ur: "حسن بن علی کو صدقے کی کھجور سے روکنا" },
+  { file: "ara-bukhari", n: 5507, at: "إن قوما يأتونا", ar: "اللحم الذي لا يُدرى أذُكر اسم الله عليه", en: "meat of which it is not known whether God's name was said over it", ur: "وہ گوشت جس پر اللہ کا نام لینے کا علم نہ ہو" },
+  { file: "ara-bukhari", n: 3521, at: "البحيرة", ar: "البحيرة والسائبة وأول من سيّب السوائب", en: "the bahira, the sa'iba and the first to set animals loose for the idols", ur: "بحیرہ، سائبہ اور سب سے پہلے جانور بتوں کے نام چھوڑنے والا" },
+  { file: "ara-malik", n: 606, at: "شرب عمر", ar: "ورع عمر بن الخطاب عن لبن من نعم الصدقة", en: "'Umar ibn al-Khattab's scruple over milk from the charity camels", ur: "صدقے کے اونٹوں کے دودھ سے عمر بن خطاب کا ورع" },
+  { file: "ara-tirmidhi", n: 2518, at: "دع ما يريبك", ar: "ترك ما يريب إلى ما لا يريب", en: "leaving what gives doubt for what gives none", ur: "شک والی چیز چھوڑ کر بے شک چیز اختیار کرنا" },
+  { file: "ara-tirmidhi", n: 2451, at: "لا يبلغ العبد", ar: "ترك ما لا بأس به حذرا مما به بأس", en: "leaving what is harmless out of caution for what is harmful", ur: "جس میں حرج ہے اس کے ڈر سے بے حرج چیز چھوڑ دینا" },
+  { file: "ara-tirmidhi", n: 614, at: "لا يربو لحم", ar: "اللحم النابت من السحت", en: "flesh grown from unlawful gain", ur: "حرام کمائی سے پلا ہوا گوشت" },
+  { file: "ara-muslim", n: 6516, at: "البر حسن الخلق", ar: "الإثم ما حاك في الصدر", en: "sin as what wavers in the breast", ur: "گناہ وہ جو سینے میں کھٹکے" },
+];
+const fold = (x: string) => x.replace(/[ً-ٰٟۖ-ۭـ]/g, "");
+let pinned = 0;
+for (const pin of PINNED) {
+  const book = BOOKS.find((b) => b.file === pin.file)!;
+  const path = join(API_DIR, `${book.file}.json`);
+  if (!existsSync(path)) continue;
+  const edition: Edition = JSON.parse(readFileSync(path, "utf8"));
+  const h = edition.hadiths.find((x) => x.hadithnumber === pin.n);
+  if (!h?.text) throw new Error(`pinned hadith ${pin.file} ${pin.n} not found`);
+  const file = join(OUT_DIR, `${book.prefix}-api-${pin.n}.yaml`);
+  if (existsSync(file)) continue;
+  const words = clean(h.text).split(" ").filter(Boolean);
+  const at = fold(words.join(" ")).indexOf(pin.at);
+  if (at < 0) throw new Error(`pinned hadith ${pin.file} ${pin.n}: «${pin.at}» not in the text`);
+  const hitWord = fold(words.join(" ")).slice(0, at + 1).split(" ").length - 1;
+  const start = Math.max(0, Math.min(hitWord - 3, words.length - 55));
+  const end = Math.min(words.length, start + 55);
+  const text = (start > 0 ? "… " : "") + words.slice(start, end).join(" ") + (end < words.length ? " …" : "");
+  const src = `[${book.source}, source/hadith-api-fawazahmed0]`;
+  const ref = h.reference?.book !== undefined ? ` (book ${h.reference.book} hadith ${h.reference.hadith})` : "";
+  const yaml = [
+    `id: passage/${book.prefix}-api-${pin.n}`,
+    `class: passage`,
+    `unit: hadith`,
+    `work: ${book.work}`,
+    `ref: "${pin.n}"`,
+    `label: { ar: ${q(`${book.ar} ${pin.n} — ${pin.ar}`)}, en: ${q(`${book.en} ${pin.n} — ${pin.en}`)}, ur: ${q(`${book.ur} ${pin.n} — ${pin.ur}`)} }`,
+    `text: ${q(text)}`,
+    `summary:`,
+    `  ar: ${q(`خبر في ${book.ar}، رقم ${pin.n}، في ${pin.ar}. لا يرد فيه لفظ الحلال أو الحرام، ويجمعه متصفح الحلال والحرام مع أخبار الورع وتحرّي الحلال.`)}`,
+    `  en: ${q(`A report in ${book.en}, no. ${pin.n}, on ${pin.en}. It does not use the words halal or haram; the Halal and Haram Browser lists it with the reports of scruple and of seeking the lawful.`)}`,
+    `  ur: ${q(`${book.ur} کی روایت نمبر ${pin.n}: ${pin.ur}۔ اس میں حلال یا حرام کا لفظ نہیں آیا؛ حلال و حرام براؤزر اسے ورع اور حلال کی جستجو کی روایات کے ساتھ جمع کرتا ہے۔`)}`,
+    `tags: [halal-haram-browser]`,
+    `relations:`,
+    `  - { type: mentions, target: ${UMBRELLA}, sources: ${src} }`,
+    `provenance: { layer: own-research, source: ${q(`fawazahmed0/hadith-api (Unlicense), edition ${book.file}, hadith ${pin.n}${ref}; matn excerpt of at most 55 words, honorific formulas left out`)}, generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-hadithapi-1" }`,
+    `sources: ${src}`,
+    `status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }`,
+    ``,
+  ].join("\n");
+  if (!DRY) writeFileSync(file, yaml);
+  pinned++;
+}
+console.log(`${pinned} pinned reports ${DRY ? "(dry run)" : "written"}`);
 console.log(`${written} passages ${DRY ? "(dry run)" : "written"}`, perBook);
 console.log("skipped", why);

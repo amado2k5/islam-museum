@@ -542,6 +542,21 @@
         }
       }
     },
+    "/halal.json": {
+      "get": {
+        "operationId": "getHalal",
+        "summary": "Halal and Haram Browser dataset",
+        "description": "The Halal and Haram Browser dataset (متصفح الحلال والحرام): every mention of the lawful and the unlawful in Islam (what God permitted and what He forbade in food, drink, dress, marriage and earnings) in the Qur'an, Sunnah, seerah, the reports of the Companions and Successors and every harvested book — detected at build time plus the curated records tagged halal-haram-browser, each with its corpus section (quran, sunnah, seerah, books, curated), halal_kind (halal, haram or both), matched signals, work, ref, text excerpt, kind, themes, tags and edges.",
+        "responses": {
+          "200": {
+            "description": "Every halal and haram record with corpus section, kind, signals, work, ref, excerpt, themes and edges",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
     "/hudud.json": {
       "get": {
         "operationId": "getHudud",
