@@ -1,0 +1,23 @@
+id: concept/zij-sabi-catalogue-aquarius
+class: concept
+kind: natural
+label:
+  ar: "الدلو"
+  en: "Aquarius"
+  ur: "دلو"
+summary:
+  ar: "يذكر الجدول الثالث للكواكب الثابتة صورة الدلو بعنوانها، ثم يعدّ كواكبها مرتبة على مصبّ الماء: أوّله، ووسطه، وآخره. مواضع هذه الكواكب في جدول الطول والعرض لم تُنقل. {cite:zij-sabi-nallino-byblion pp.279}"
+  en: "The third fixed-star table gives the figure of al-Dalw, the Bucket, under its own heading and lists its stars in order along the outflow of water: the first, the middle and the last. Their positions in the longitude and latitude table are not transcribed here. {cite:zij-sabi-nallino-byblion pp.279}"
+  ur: "تیسرے ثابت ستاروں کے جدول میں دلو کی صورت اپنے عنوان کے تحت ہے، اور اس کے ستارے پانی کے بہاؤ کے ساتھ ترتیب سے درج ہیں: پہلا، درمیانی اور آخری۔ طول و عرض کے جدول میں ان کے مواضع یہاں نقل نہیں ہوئے۔ {cite:zij-sabi-nallino-byblion pp.279}"
+wings: [ideas]
+themes: [astronomy-and-timekeeping]
+sources: [source/zij-sabi-nallino-byblion]
+relations:
+  - { type: part_of, target: work/al-zij-al-sabi, sources: [source/zij-sabi-nallino-byblion] }
+provenance:
+  layer: own-research
+  source: "Third fixed-star table, scan 283 (printed p.279), read from the OCR of the local digital copy; the heading and the three outflow rows are legible, the star positions are not transcribed"
+  generated_by: "Claude Haiku 5.5 (lane A2 star-catalogue drafter, a2-zij-star-2)"
+  model: claude-haiku-5-5
+  run: zij-star-a2-2
+status: { review: draft, completeness: 2, generated_by: "Claude Haiku 5.5 (lane A2 star-catalogue drafter, a2-zij-star-2)" }

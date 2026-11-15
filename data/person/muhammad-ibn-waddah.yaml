@@ -3,28 +3,44 @@ class: person
 label:
   ar: "محمد بن وضاح القرطبي"
   en: "Muhammad ibn Waddah al-Qurtubi"
-roles: [scholar]
+names:
+  - { value: "محمد بن وضاح بن بزيع أبو عبد الله مولى عبد الرحمن بن معاوية بن هشام بن عبد الملك الأندلسي القرطبي", kind: full }
+roles: [scholar, muhaddith]
 gender: male
 summary:
-  ar: "بطاقة أولية لمحمد بن وضاح القرطبي، فقيه الأندلس ومحدثها صاحب كتاب البدع؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Muhammad ibn Waddah al-Qurtubi, the Andalusi jurist and hadith scholar author of the Kitab al-Bida'; his entry is not yet checked on the page."
+  ar: "محمد بن وضاح بن بزيع، أبو عبد الله القرطبي مولى عبد الرحمن بن معاوية بن هشام الأموي، رحل إلى المشرق رحلتين وسمع من نحو مائة وخمسة وستين شيخا وتفقه بسحنون، ونشر الحديث في الأندلس حتى قال ابن الفرضي إنه وبقي بن مخلد جعلا الأندلس دار حديث؛ ولد سنة 199 هـ على ما ذكر، وتوفي في المحرم سنة 287 هـ وقيل سنة 286 هـ، وأثنى عليه ابن الفرضي وغيره بالورع والزهد، وفي رواية أخرى عند ابن عساكر أُخذ عليه رده كثيرا من الأحاديث {cite:tarikh-dimashq-ibn-asakir-fikr-1995 vol. 56 pp. 179-183}."
+  en: "Muhammad ibn Waddah ibn Bazi', Abu Abd Allah al-Qurtubi, a client of the Umayyad Abd al-Rahman ibn Mu'awiya ibn Hisham, who made two journeys to the East, heard from about a hundred and sixty-five teachers and studied law under Sahnun, and spread hadith in al-Andalus until Ibn al-Faradi could say that he and Baqi ibn Makhlad made it a house of hadith. He was born in 199 AH according to the report, and died in Muharram 287 AH (others say 286 AH); the sources praise his scrupulousness and asceticism, and one report also records objections to his frequent rejection of hadiths {cite:tarikh-dimashq-ibn-asakir-fikr-1995 vol. 56 pp. 179-183}."
 wings: [people]
 regions: [andalus-europe]
 periods: [period/umayyad]
-born: { edtf: "0815", precision: year, status: tradition, derived: true }
-died: { edtf: "0900", precision: year, status: tradition, derived: true }
-sources: [source/al-aalam, source/wikidata]
+born: { edtf: "0815", hijri: "0199~", calendar: julian, precision: year, status: tradition, derived: true, note: "Ibn al-Faradi, quoted by Ibn Asakir, vol. 56 p. 183: born in 199 AH, at its beginning or end, though the narrator says he could not confirm it; 199 AH runs from August 814 to July 815 CE by the museum's conversion (derived); the card year 815 is kept.", sources: [source/tarikh-dimashq-ibn-asakir-fikr-1995] }
+died: { edtf: "0900", hijri: "0287-01", calendar: julian, precision: year, status: tradition, derived: true, note: "Ibn al-Faradi, quoted by Ibn Asakir, vol. 56 p. 183: died on the night of Saturday, four nights before the end of Muharram 287 AH (January to February 900 CE, derived), agreeing with the card year. Ibn Yunus (vol. 56 p. 182) and al-Humaydi (vol. 56 p. 181) give 286 AH (899 CE); Ibn Yunus also mentions 287; others say Dhu al-Hijja 286 (vol. 56 p. 183).", sources: [source/tarikh-dimashq-ibn-asakir-fikr-1995] }
+relations:
+  - { type: lived_in, target: place/cordoba, confidence: medium, note: "Ibn Asakir, vol. 56 p. 179: al-Andalusi al-Qurtubi, who heard in his own land before travelling east; the nisba is the basis, no residence is described", sources: [source/tarikh-dimashq-ibn-asakir-fikr-1995] }
+  - { type: traveled_to, target: place/damascus, confidence: high, note: "Ibn Asakir, vol. 56 p. 179: he heard in Damascus from Muhammad ibn al-Mubarak al-Suri, Hisham ibn Ammar, Duhaym and others", sources: [source/tarikh-dimashq-ibn-asakir-fikr-1995] }
+  - { type: traveled_to, target: place/ifriqiya, confidence: high, note: "Ibn Asakir, vol. 56 p. 181: he heard in Ifriqiya from Sahnun ibn Sa'id al-Tanukhi", sources: [source/tarikh-dimashq-ibn-asakir-fikr-1995] }
+  - { type: traveled_to, target: place/iraq, confidence: medium, note: "Ibn Asakir, vol. 56 p. 181: al-Walid ibn Abi Bakr says he heard in Iraq from Yusuf ibn Adi and Ibn Abi Shayba; the Baghdadis are also named among his teachers (p. 182)", sources: [source/tarikh-dimashq-ibn-asakir-fikr-1995] }
+  - { type: student_of, target: person/sahnun-ibn-said, confidence: high, note: "Ibn Asakir, vol. 56 p. 181: he studied law under Sahnun", sources: [source/tarikh-dimashq-ibn-asakir-fikr-1995] }
+  - { type: student_of, target: person/yahya-ibn-yahya-al-laythi, confidence: high, note: "Ibn Asakir, vol. 56 p. 181: he heard in al-Andalus from Yahya ibn Yahya al-Laythi, companion of Malik", sources: [source/tarikh-dimashq-ibn-asakir-fikr-1995] }
+  - { type: student_of, target: person/ahmad-ibn-hanbal, confidence: high, note: "Ibn Asakir, vol. 56 p. 179: among those he heard in the East", sources: [source/tarikh-dimashq-ibn-asakir-fikr-1995] }
+  - { type: student_of, target: person/yahya-ibn-main, confidence: high, note: "Ibn Asakir, vol. 56 pp. 179 and 181: among those he heard", sources: [source/tarikh-dimashq-ibn-asakir-fikr-1995] }
+  - { type: student_of, target: person/ibn-abi-shayba, confidence: medium, note: "Ibn Asakir, vol. 56 p. 179: Abu Bakr ibn Abi Shayba among those he heard (identity by name)", sources: [source/tarikh-dimashq-ibn-asakir-fikr-1995] }
+  - { type: student_of, target: person/warsh, confidence: medium, note: "Ibn Asakir, vol. 56 p. 179: he read the Qur'an to Uthman ibn Sa'id Warsh (identity by name and laqab)", sources: [source/tarikh-dimashq-ibn-asakir-fikr-1995] }
+  - { type: student_of, target: person/adam-ibn-abi-iyas, confidence: high, note: "Ibn Asakir, vol. 56 pp. 179 and 181: among those he heard", sources: [source/tarikh-dimashq-ibn-asakir-fikr-1995] }
+  - { type: student_of, target: person/said-ibn-mansur, confidence: high, note: "Ibn Asakir, vol. 56 p. 179: among those he heard", sources: [source/tarikh-dimashq-ibn-asakir-fikr-1995] }
+  - { type: student_of, target: person/al-harith-ibn-miskin, confidence: high, note: "Ibn Asakir, vol. 56 p. 179: among those he heard", sources: [source/tarikh-dimashq-ibn-asakir-fikr-1995] }
+  - { type: student_of, target: person/harmala-ibn-yahya, confidence: high, note: "Ibn Asakir, vol. 56 p. 179: among those he heard", sources: [source/tarikh-dimashq-ibn-asakir-fikr-1995] }
+  - { type: student_of, target: person/asbagh-ibn-al-faraj, confidence: medium, note: "Ibn Asakir, vol. 56 p. 179: Asbagh ibn al-Faraj among those he heard (identity by name)", sources: [source/tarikh-dimashq-ibn-asakir-fikr-1995] }
+sources: [source/al-aalam, source/wikidata, source/tarikh-dimashq-ibn-asakir-fikr-1995]
 external_ids:
   wikidata: Q6538147
   viaf: "64041024"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "Ibn Asakir, Tarikh Madinat Dimashq, entry Muhammad ibn Waddah ibn Bazi', vol. 56 pp. 179-183, read in full from the local OpenITI text (Dar al-Fikr 1995 numbering)"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2c-m02-2026-11-14
 status:
   review: draft
-  completeness: 1
-relations:
-  - { type: lived_in, target: place/cordoba, confidence: low, note: "Association inferred from the nisba 'القرطبي'; specific birthplace or residence is not individually documented.", sources: [source/al-aalam] }
+  completeness: 3

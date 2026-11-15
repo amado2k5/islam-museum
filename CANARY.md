@@ -15,9 +15,17 @@ open a new block on top with the new version and today's date.
 
 ## v1.32.1 — 2026-11-15
 ### Data
+- Nine more place pages gain their iDAI gazetteer identifier: Jakarta, Beirut, al-Hira, Riyadh, Mashhad, Oman, Tabuk, Amman and Gaza. Each link was checked by name in the gazetteer and by a distance under 7 km before it was added.
+- Four place pages gain their iDAI gazetteer identifier: Homs, Karachi, Harran and Al-Fustat (the early Islamic capital, now Old Cairo). Each link was checked by name in the gazetteer and by a distance under 7 km before it was added.
+- Four more person pages gain trilingual (Arabic, English, Urdu) draft prose: the Alexandrian Maliki jurist Ibn al-Mawwaz (Ibn Asakir vol. 51 pp. 197-198), the Medinan jurist Muhammad ibn Ibrahim ibn Dinar (al-Mizzi vol. 24 pp. 306-307), the Andalusi hadith scholar Muhammad ibn Waddah (Ibn Asakir vol. 56 pp. 179-183) and the logician Qutb al-Din al-Razi (Ibn Hajar vol. 6 pp. 99-100), with their teachers, students, works, assessments and the differing reports of their deaths.
 - **The three wine verses now lead the Drink page of the Halal and Haram Browser.** Qur'an 2:219, 5:90 and 5:91 speak of wine without using the words for lawful or unlawful, so the browser, which finds passages by those words, did not list them, and the Drink page opened with no ayah at all. The founder approved adding the three by hand. They now stand first among the sources on `/ar/halal/subject/drink/` (and in English and Urdu), and also under Speech and conduct, because the verses name the game of chance beside wine. The browser shows them without a "lawful" or "unlawful" label, since it takes that label only from a verse's own words. The Qur'an text itself is unchanged. The browser now holds 60 ayahs.
 ### Tests
 - The detector test checks that a tagged ayah without the two words is listed under its subject with no label.
+### Added
+- The cemetery al-Wardiya in Baghdad gains first trilingual prose from Yaqut's Mu'jam al-Buldan (Dar Sader 1995, volume 5 page 371): its place on the east side of the city, beyond Bab Abraz and near Bab al-Zafariyya. The page says that Yaqut gives no date or account of the cemetery and that its link to a modern cemetery of the same name comes from the place record, not from Yaqut.
+- Two more concept pages from the fixed-star tables at the end of al-Battani's Zij gain trilingual draft prose: Aquarius, named under its own heading in the third table with its stars listed along the outflow of water, and Gemini, whose name appears in the second table's list of star names. Star positions are not transcribed; the pages cite the printed pages.
+- Twenty-four concept pages from the star catalogue at the end of al-Battani's Zij gain trilingual draft prose: the Great and Lesser Bears, the Dragon, Cepheus, the Guardian of the North, the Hen, Cassiopeia, Perseus, the Flying Eagle, Andromeda, the Triangle, the Dolphin, Cetus, the River, the Hare, the Dog, Centaurus, the Censer, the Southern Crown, the Southern Fish, and the zodiac figures of Cancer, Leo, Virgo and Libra. Each names the catalogue section that lists its stars and says where the figures sit in the printed pages; the star positions are not transcribed.
+
 
 ## v1.32.0 — 2026-11-14
 ### Added
