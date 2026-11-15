@@ -1,0 +1,23 @@
+id: concept/kusila
+class: concept
+kind: natural
+label:
+  ar: "كسيلا"
+  en: "Kusila (cassia bark)"
+  ur: "کسیلا"
+summary:
+  ar: "الكسيلا قشر عيدان كالفوة يعلوه سواد، وهو عند الكتاب حار رطب في حدود الأولى، مغر يكسر قوة الأدوية الحارة كالصمغ، ويُقال إنه مسمن يحسن اللون والبشرة."
+  en: "Kusila is the bark of sticks, like fuwa, with a dark overlay. The book classes it as warm and moist at about the first degree; it is a softening agent that breaks down the force of hot medicines such as gum, and it is said to fatten and improve the complexion."
+  ur: "کسیلا لکڑی کی چھال ہے جو فوہ جیسی ہے اور اس پر سیاہی ہوتی ہے۔ کتاب اسے پہلے درجے کے قریب گرم اور تر بتاتی ہے؛ یہ ایسی نرم کرنے والی دوا ہے جو صمغ جیسی گرم دواؤں کی قوت توڑتی ہے، اور کہا جاتا ہے کہ یہ جسم بھرتی اور رنگت بہتر کرتی ہے۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, scan pages 520, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, conception, semen and desire reports kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), lane A4"
+  model: claude-haiku-5-5
+  run: a4-canon-book2-15
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (book mining, lane A4)" }

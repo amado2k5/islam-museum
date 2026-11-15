@@ -1,0 +1,23 @@
+id: concept/kundur
+class: concept
+kind: natural
+label:
+  ar: "الكندر"
+  en: "Kundur (incense resin)"
+  ur: "کندر"
+summary:
+  ar: "الكندر صمغ شجرة يُجلب من بلاد يذكرها الكتاب على البحر وفي الهند، وأجوده الأبيض الصلب الذي يلتهب بالنار، وهو عند الكتاب حار في الثانية مجفف في الأولى، ليس بقابض قوي، وينفع الجراح والقروح وحبس الدم."
+  en: "Kundur is the resin of a tree, brought from a sea port the book calls al-Murbat and from India. The best is the white, hard kind that catches fire. The book classes it as hot in the second degree and dry in the first; it is not strongly astringent, and it is used for wounds, ulcers and to stop bleeding."
+  ur: "کندر ایک درخت کا گوند ہے جو کتاب کے بیان کردہ سمندری بندرگاہ المرباط اور ہندوستان سے لایا جاتا ہے۔ سب سے اچھا سفید اور سخت قسم ہے جو آگ پکڑتی ہے۔ کتاب اسے دوسرے درجے میں گرم اور پہلے درجے میں خشک بتاتی ہے؛ یہ زیادہ کسیلا نہیں، اور زخموں، ناسوروں اور خون روکنے کے لیے کام آتا ہے۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, scan pages 515 to 517, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, conception, semen and desire reports kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), lane A4"
+  model: claude-haiku-5-5
+  run: a4-canon-book2-15
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (book mining, lane A4)" }

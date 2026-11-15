@@ -1,0 +1,24 @@
+id: media/diagram-ibn-al-haytham-moonlight
+class: media
+kind: illustration
+label: { ar: "من مرآة تعكس شعاعاً إلى قمر يبث في كل اتجاه", en: "From a mirror reflecting one ray to a Moon broadcasting in all directions", ur: "ایک سمت میں شعاع منعکس کرنے والے آئینے سے تمام سمتوں میں نشر کرنے والے چاند تک" }
+summary:
+  ar: "سلسلة تعليمية تبين مقارنة ابن الهيثم: مرآة تعكس شعاعاً واحداً من الشمس في اتجاه واحد، مقابل سطح قمري تبث كل نقطة فيه أشعة الضوء في كل الاتجاهات؛ لا ترسم الكواكب ولا تستعيد رسمة المخطوط."
+  en: "Teaching chain showing Ibn al-Haytham's contrast: a mirror reflecting a single solar ray in one direction, versus a lunar surface where every point broadcasts light rays in all directions; it draws no planets and reconstructs no manuscript figure."
+  ur: "تدریسی سلسلہ جو ابن الہیثم کا موازنہ دکھاتا ہے: آئینہ جو سورج کی ایک شعاع کو ایک ہی سمت میں منعکس کرتا ہے، بمقابلہ چاند کی وہ سطح جس کے ہر نقطے سے روشنی کی شعاعیں تمام سمتوں میں نکلتی ہیں؛ نہ سیارے بناتا ہے نہ مخطوطہ کی تصویر دوبارہ بناتا ہے۔"
+license: CC0
+creator: "islam.museum"
+depicts: [invention/ibn-al-haytham-moonlight]
+alt:
+  ar: "مقارنة من خطوتين: مرآة تعكس شعاعاً واحداً في اتجاه واحد؛ سطح قمري تبث كل نقطة فيه أشعة في كل الاتجاهات. لا أبعاد ولا رسومات أصلية."
+  en: "Two-step contrast: a mirror reflecting one ray in one direction; a lunar surface where every point emits rays in all directions. No dimensions or original diagrams."
+  ur: "دو مرحلوں کا موازنہ: آئینہ جو ایک شعاع ایک ہی سمت میں منعکس کرتا ہے؛ چاند کی سطح جس کا ہر نقطہ تمام سمتوں میں شعاعیں خارج کرتا ہے۔ کوئی پیمائش یا اصل خاکے نہیں۔"
+generated: { tool: "site/src/components/InventionDiagram.astro (generic chain drawn at build time)", version: "1", date: "2026-11-15" }
+sources: [source/ewb-ibn-al-haytham, source/ismi-daw-al-qamar]
+status: { review: published, completeness: 2, generated_by: "Devin drafter w2-10" }
+provenance:
+  layer: own-research
+  generated_by: "Devin drafter w2-10"
+  model: "SWE-2"
+  run: inventions-w2-10-drafting
+  source: "source/ewb-ibn-al-haytham astronomy section and source/ismi-daw-al-qamar record page read 2026-11-15; generic relationship diagram, not a reconstruction of the treatise's figures"

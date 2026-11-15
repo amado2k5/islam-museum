@@ -16,10 +16,22 @@ summary:
   ur: "ساتویں عباسی خلیفہ، جو 170ھ/786ء میں ہارون الرشید کے بیٹے کی حیثیت سے پیدا ہوئے۔ انھوں نے ولی عہد کی حیثیت سے خراسان سنبھالا، پھر بھائی امین کے خلاف خانہ جنگی جیتی جس میں امین 198ھ/813ء میں قتل ہوئے۔ انھوں نے علی الرضا کو جانشین نامزد کیا اور 204ھ/819ء میں بغداد لوٹے، اور اسلامی انسائیکلوپیڈیا کے مطابق ترجمے کی حوصلہ افزائی کی، بیت الحکمت قائم کی، معتزلہ سے قربت رکھی اور 218ھ/833ء میں محنہ قائم کی۔ ان کی وفات رجب 218ھ/اگست 833ء میں طرسوس کے قریب ہوئی اور بھائی معتصم جانشین بنے۔"
 wings: [people]
 gender: male
+faith:
+  - value: sunni
+    basis: tradition
+    note: "Al-Tabari's history and the Minhaj chronicle place him as the Abbasid caliph who fought and succeeded his brother al-Amin, designated Ali al-Rida heir, returned to Baghdad and died near Tarsus — a documented Muslim caliphal biography, not an inference from name or office alone. Sunni is the museum's default frame under docs/scope.md; his Mu'tazili leanings and the mihna are recorded as his documented policy, not as a contrary personal tradition."
+    sources: [source/tabari-tarikh-abu-al-fadl, source/tarikh-khulafa-minhaj-1434]
+inventions:
+  - invention: invention/mamun-meridian-degree-survey
+    role: commissioner
+    sources: [source/mactutor-biruni-coordinates, source/etymological-dictionary-mamun-method]
 roles: [caliph]
 external_ids: { wikidata: "Q61056", nomisma: "al-ma'mun", viaf: "20477658" }
-sources: [source/tabari-tarikh-abu-al-fadl, source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab, source/farghani-elements-astronomy, source/tarikh-khalifa-umari-1985, source/encyclopaedia-of-islam-2, source/nomisma, source/wikidata]
-provenance: { source: "Sources cited in the record (tabari-tarikh-abu-al-fadl, tarikh-khulafa-minhaj-1434, muruj-al-dhahab, farghani-elements-astronomy, tarikh-khalifa-umari-1985); officials table from Tarikh Khalifa (al-Umari ed. 1985)", layer: own-research, generated_by: "Claude (Haiku 5.5) from Apple Vision OCR of Tabari, batch 5", sources: [source/tabari-tarikh-abu-al-fadl], model: "claude-haiku-5-5", run: "farghani-389-577, lib-tarikh-khalifa-batch-2-2026-10-31", canon: "Encyclopaedia of Islam 2nd ed., vol. 6, article al-Ma'mun b. Harun al-Rashid, PDF pages 351-358, written by Claude Sonnet 5.5, run canon-cornerstones-20" }
+sources: [source/tabari-tarikh-abu-al-fadl, source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab, source/farghani-elements-astronomy, source/tarikh-khalifa-umari-1985, source/encyclopaedia-of-islam-2, source/nomisma, source/wikidata, source/mactutor-biruni-coordinates, source/etymological-dictionary-mamun-method]
+provenance: { source: "Sources cited in the record (tabari-tarikh-abu-al-fadl, tarikh-khulafa-minhaj-1434, muruj-al-dhahab, farghani-elements-astronomy, tarikh-khalifa-umari-1985); officials table from Tarikh Khalifa (al-Umari ed. 1985)", layer: own-research, generated_by: "Claude (Haiku 5.5) from Apple Vision OCR of Tabari, batch 5", sources: [source/tabari-tarikh-abu-al-fadl], model: "claude-haiku-5-5", run: "farghani-389-577, lib-tarikh-khalifa-batch-2-2026-10-31", canon: "Encyclopaedia of Islam 2nd ed., vol. 6, article al-Ma'mun b. Harun al-Rashid, PDF pages 351-358, written by Claude Sonnet 5.5, run canon-cornerstones-20",
+  extensions: [
+    { generated_by: "Devin drafter w2-11", model: "SWE-2", run: "inventions-w2-11-drafting", source: "Added faith block (sunni/tradition, caliphal-biography basis mirroring the harun-al-rashid precedent), the inventions tie to invention/mamun-meridian-degree-survey, and the two new source ids; every prior field preserved." }
+  ] }
 importance: 1
 status: { review: published, completeness: 2, generated_by: "body pages read; Claude (Haiku 5.5)" }
 kids:

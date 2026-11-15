@@ -1,0 +1,23 @@
+id: concept/kafur
+class: concept
+kind: natural
+label:
+  ar: "كافور"
+  en: "Kafur (camphor)"
+  ur: "کافور"
+summary:
+  ar: "الكافور أصناف تنبت شجرتها في نواحي الصين، وقد صنّفه الكتاب باردا يابسا في الثالثة، وذكر منافعه في الرعاف والحمّيات الحادة والرمد الحار وأورام الجلد."
+  en: "Kafur, camphor, comes in several kinds from a tree that the book places in the regions of China. The book classes it as cold and dry in the third degree and records its uses for nosebleed, acute fevers, hot ophthalmia and hot swellings of the skin."
+  ur: "کافور کئی قسموں کا ہوتا ہے، اور اس کا درخت چین کے علاقوں میں اگتا ہے۔ کتاب اسے تیسرے درجے میں ٹھنڈا اور خشک بتاتی ہے، اور نکسیر، حادّ بخاروں، گرم رمد اور جلد کے گرم ورم میں اس کے فائدے لکھتی ہے۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, scan pages 514 to 515, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, conception, semen and desire reports kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), lane A4"
+  model: claude-haiku-5-5
+  run: a4-canon-book2-15
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (book mining, lane A4)" }

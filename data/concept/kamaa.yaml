@@ -1,0 +1,23 @@
+id: concept/kamaa
+class: concept
+kind: natural
+label:
+  ar: "كمأة"
+  en: "Kamaa (truffle)"
+  ur: "کمأہ"
+summary:
+  ar: "الكمأة جنس من الفطر لا ورق له ولا ساق، ينبت في الربيع تحت الأرض، وهو عند الكتاب غليظ جدا، يغذو غذاء غليظا سوداويا، ويُخاف منه الفالج والسكتة والقولنج، وترياقه الشراب الصرف والتوابل."
+  en: "Kamaa, the truffle, is a fungus without leaves or stalk that grows underground in spring. The book calls it very thick: it gives a thick, black-bile food. The book warns of paralysis, apoplexy and colic from it, and names pure wine and spices as its antidote."
+  ur: "کمأہ ایک فنگس ہے جس کا نہ پتا ہوتا ہے نہ تنا، اور جو بہار میں زمین کے نیچے اگتا ہے۔ کتاب اسے بہت گاڑھا کہتی ہے اور اس سے گاڑھی سودا والی غذا بنتی ہے۔ کتاب اس سے فالج، سکتے اور قولنج کا خطرہ بتاتی ہے، اور اس کا تریاق خالص شراب اور مصالحے بتاتی ہے۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, scan pages 526 to 527, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, conception, semen and desire reports kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), lane A4"
+  model: claude-haiku-5-5
+  run: a4-canon-book2-15
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (book mining, lane A4)" }

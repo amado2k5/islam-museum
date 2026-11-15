@@ -1,0 +1,94 @@
+id: invention/battani-application-quantities
+class: invention
+label: { ar: "تحقيق أقدار الاتصالات عند البتاني", en: "Al-Battani's verification of application quantities", ur: "بطانی کا اتصال کی مقداروں کی تحقیق" }
+names:
+  - { value: "Risalat tahqiq aqdar al-ittisalat", kind: alternate, lang: en }
+  - { value: "تحقيق أقدار الاتصالات", kind: alternate, lang: ar }
+  - { value: "De quantitatibus applicationum", kind: alternate, lang: la }
+summary:
+  ar: "باب في حساب كميات الاتصالات الفلكية ضمن زيج البتاني، وعنه رسالة مستقلة بعنوانه عملها للوزير أبي الحسن علي بن محمد بن الفرات ومفقودة اليوم؛ قارن نالينو بحث البتاني بمبحث بطليموس في التطبيقات {cite:nallino-albatenii-opus-astronomicum p. 28} {cite:nallino-albatenii-opus-astronomicum ch. LIV}."
+  en: "A chapter on computing planetary application quantities in al-Battani's Zij, paired with a dedicated epistle of the same title written for the vizier Abu al-Hasan Ali ibn Muhammad ibn al-Furat and now lost; Nallino compares Battani's treatment with Ptolemy's chapter on applications {cite:nallino-albatenii-opus-astronomicum p. 28} {cite:nallino-albatenii-opus-astronomicum ch. LIV}."
+  ur: "بطانی کی زیج میں سیاروں کے اتصال کی مقداروں کے حساب کا ایک باب، جس کے ساتھ اسی عنوان کا ایک الگ رسالہ بھی تھا جو وزیر ابو الحسن علی بن محمد بن الفرات کے لیے لکھا گیا اور آج کھو چکا ہے؛ نالینو نے بطانی کے مباحث کا بطلیموس کے ابواب سے موازنہ کیا {cite:nallino-albatenii-opus-astronomicum p. 28} {cite:nallino-albatenii-opus-astronomicum ch. LIV}۔"
+domain: astronomy-instruments
+kind: method
+disciplines: [astronomy]
+wings: [ideas]
+regions: [levant-iraq]
+periods: [period/abbasid-early]
+era:
+  origins: abbasid-golden
+  first_attested:
+    edtf: "../0929"
+    calendar: julian
+    precision: year
+    status: historical
+    note: "Open latest-lifetime bound only, using the explicit317 AH/929 death pair reported for al-Battani; not an asserted composition or invention year. The epistle itself is lost and undated; the surviving carrier is the Zij's chapter LIV, also undated in the sources read. Hijri endpoint omitted because the Hijri field accepts a single date, not an open interval."
+    sources: [source/tdv-battani-muftuoglu, source/nallino-albatenii-opus-astronomicum]
+  status_today: transformed
+origin:
+  place: place/raqqa
+  context:
+    ar: "سياق العمل الفلكي العباسي في الرقة؛ الرسالة كُلّفت من الوزير أبي الحسن علي بن محمد بن الفرات على ما يذكر نالينو، ولا نعين يوماً أو ورشة لكتابتها {cite:nallino-albatenii-opus-astronomicum p. 28} {cite:tdv-battani-muftuoglu biography}."
+    en: "Abbasid astronomical context at Raqqa; the epistle was commissioned by the vizier Abu al-Hasan Ali ibn Muhammad ibn al-Furat according to Nallino, with no day or workshop invented for its writing {cite:nallino-albatenii-opus-astronomicum p. 28} {cite:tdv-battani-muftuoglu biography}."
+    ur: "رقہ میں عباسی فلکیات کا سیاق؛ نالینو کے مطابق یہ رسالہ وزیر ابو الحسن علی بن محمد بن الفرات کے لیے لکھا گیا، اور لکھنے کی کوئی تاریخ یا ورکشاپ نہیں گھڑی گئی {cite:nallino-albatenii-opus-astronomicum p. 28} {cite:tdv-battani-muftuoglu biography}۔"
+makers:
+  - person: person/al-battani
+    role: improver
+    place: place/raqqa
+    note: "Documented author of the Zij chapter and the lost commissioned epistle; his Arabic astronomical work and Nallino's argument document the Muslim basis, while the Sunni label is the museum's declared frame, not personal school testimony."
+    sources: [source/nallino-albatenii-opus-astronomicum, source/tdv-battani-muftuoglu]
+attribution:
+  status: improvement
+  claim:
+    ar: "تنظيم موثق لحساب كميات الاتصالات الفلكية في الزيج مع رسالة تحقيق مستقلة؛ لا أسبقية لمفهوم الاتصال نفسه."
+    en: "Documented organization of planetary-application computation in the Zij plus a dedicated verification epistle; no priority claimed for the concept of application itself."
+    ur: "زیج میں سیاروی اتصال کی مقداروں کے حساب کی مستند ترتیب اور ایک الگ تصدیقی رسالہ؛ اتصال کے تصور پر کوئی سبقت نہیں۔"
+  basis:
+    ar: "يقابل نالينو بحث البتاني في كميات التطبيقات بمبحث بطليموس الموازي، وذكر أن عنوان الرسالة المفقودة هو عنوان الباب الرابع والخمسين من الزيج في مطارح الشعاعات {cite:nallino-albatenii-opus-astronomicum ch. LIV; p. 28}."
+    en: "Nallino compares al-Battani's treatment of application quantities with Ptolemy's parallel chapter and notes that the lost epistle's title is that of chapter LIV of the Zij on the projection of rays {cite:nallino-albatenii-opus-astronomicum ch. LIV; p. 28}."
+    ur: "نالینو بطانی کے اتصال کی مقداروں کے مباحث کا بطلیموس کے متوازی باب سے موازنہ کرتا ہے اور لکھتا ہے کہ گمشدہ رسالے کا عنوان زیج کے باب LIV کا عنوان ہے {cite:nallino-albatenii-opus-astronomicum ch. LIV; p. 28}۔"
+  perspectives: []
+precursors:
+  - external: { ar: "مذهب بطليموس في أقواس الاتصال وأقداره", en: "Ptolemy's doctrine of application arcs and their quantities", ur: "بطلیموس کا اتصال کے قوسوں اور ان کی مقداروں کا مسلک" }
+    note: "The Tetrabiblos tradition supplies the quantities doctrine that Nallino's parallel chapter comparison presupposes; no claim that al-Battani originated the doctrine."
+    sources: [source/nallino-albatenii-opus-astronomicum]
+dependents: []
+spread: []
+impact:
+  fields: [astronomy-instruments]
+  changed:
+    ar: "ربط باب حسابي في الزيج برسالة مستقلة موجهة إلى الوزير للتحقق من الأقدار، موثقاً عناية المؤلف بصدق النتائج الحسابية {cite:nallino-albatenii-opus-astronomicum ch. LIV; p. 28}."
+    en: "Paired a computational chapter in the Zij with a standalone epistle addressed to the vizier for verifying quantities, documenting the author's care for computational accuracy {cite:nallino-albatenii-opus-astronomicum ch. LIV; p. 28}."
+    ur: "زیج کے حسابی باب کو وزیر کے لیے لکھی گئی ایک الگ رسالہ سے جوڑا، جو رسالہ مقداروں کی تصدیق چاہتی تھی؛ مصنف کی حسابی درستگی کی پابندی کی گواہی {cite:nallino-albatenii-opus-astronomicum ch. LIV; p. 28}۔"
+  history:
+    ar: "جزء من زيج مترجم ومؤثر، والرسالة المفقودة شاهد على اهتمام بالبناء المتخصص؛ لا نثبت انتقالاً مباشراً إلى كل تقنية فلكية لاحقة {cite:nallino-albatenii-opus-astronomicum} {cite:tdv-battani-muftuoglu Kitab al-Zij}."
+    en: "Part of an influential translated Zij; the lost epistle witnesses specialised verification work. No direct transmission to every later astronomical technique is established {cite:nallino-albatenii-opus-astronomicum} {cite:tdv-battani-muftuoglu Kitab al-Zij}."
+    ur: "مؤثر مترجم زیج کا حصہ؛ گمشدہ رسالہ خصوصی تصدیق کے کام کی گواہی ہے۔ ہر بعد کی فلکی تکنیک تک براہ راست منتقلی ثابت نہیں {cite:nallino-albatenii-opus-astronomicum} {cite:tdv-battani-muftuoglu Kitab al-Zij}۔"
+  significance: 3
+  why: "Bounded documented computational chapter plus commissioned verification epistle; the epistle is lost, so the record rests on Nallino's edition and preface rather than the full text."
+described_in: [work/risalat-tahqiq-aqdar-al-ittisalat, work/al-zij-al-sabi]
+examples: []
+sites: []
+concepts: []
+today:
+  form:
+    ar: "نموذج تاريخي لتنظيم مسائل حسابية في الزيج؛ لا صفحة من الأصل معروضة {cite:nallino-albatenii-opus-astronomicum ch. LIV} {cite:commons-trigonometry-triangle Description}."
+    en: "Historical example of organising computational problems in a zij; no original page is displayed {cite:nallino-albatenii-opus-astronomicum ch. LIV} {cite:commons-trigonometry-triangle Description}."
+    ur: "زیج میں حسابی مسائل کی ترتیب کی تاریخی مثال؛ اصل صفحہ نہیں دکھایا گیا {cite:nallino-albatenii-opus-astronomicum ch. LIV} {cite:commons-trigonometry-triangle Description}۔"
+  descendants:
+    ar: "لا نسب مباشر مثبت هنا إلى برامج فلكية أو تقنيات حديثة {cite:tdv-battani-muftuoglu Kitab al-Zij}."
+    en: "No direct lineage to modern astronomy software or techniques is established here {cite:tdv-battani-muftuoglu Kitab al-Zij}."
+    ur: "یہاں جدید فلکیاتی سافٹ ویئر یا تکنیک تک براہ راست نسب ثابت نہیں {cite:tdv-battani-muftuoglu Kitab al-Zij}۔"
+media: { image: media/battani-modern-triangle, diagram: media/diagram-battani-application-quantities }
+kids:
+  ar: "في السماء تقترب الكواكب أحياناً من بعضها في مشاهد مهمة. جمع البتاني في باب من زيجه طريقة لحساب مقدار هذا الاقتراب، وكتب رسالة مستقلة للوزير يتحقق فيها من تلك الأقدار؛ الرسالة ضاعت وبقي الباب في الزيج."
+  en: "Planets sometimes appear close together in the sky. Al-Battani gathered in one chapter of his Zij a way to compute the size of such closeness, and wrote a separate epistle to the vizier to verify those quantities; the epistle is lost and the chapter survives in the Zij."
+  ur: "آسمان پر سیارے کبھی کبھی ایک دوسرے کے قریب نظر آتے ہیں۔ بطانی نے اپنی زیج کے ایک باب میں اس قرب کی مقدار نکالنے کا طریقہ جمع کیا اور وزیر کے لیے ایک الگ رسالہ لکھی جس میں ان مقداروں کی تصدیق تھی؛ رسالہ کھو گئی اور باب زیج میں بچا۔"
+sources: [source/nallino-albatenii-opus-astronomicum, source/tdv-battani-muftuoglu, source/battani-mactutor, source/commons-trigonometry-triangle]
+status: { review: published, completeness: 2, generated_by: "Devin drafter w2-08" }
+provenance:
+  layer: own-research
+  generated_by: "Devin drafter w2-08"
+  model: "SWE-2"
+  run: inventions-w2-08-drafting
+  source: "Nallino Opus astronomicum Latin preface pp. 17-18, 26, 28-29 and chapter LIV treatment of application quantities; work record work/risalat-tahqiq-aqdar-al-ittisalat; selected TDV and MacTutor Battani biographical material; existing licensed modern trigonometry triangle. No composition year, epistle text or absolute-priority claim."

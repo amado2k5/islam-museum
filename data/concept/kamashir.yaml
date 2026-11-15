@@ -1,0 +1,23 @@
+id: concept/kamashir
+class: concept
+kind: natural
+label:
+  ar: "كماشير"
+  en: "Kamashir (a kind of Athamanta-like plant)"
+  ur: "کماشیر"
+summary:
+  ar: "كماشير في أحواله كالجاوشير لكنه أقوى بكثير، وهو عند الكتاب حار يابس في الثانية بقوة، مذيب محلل ملطف، يدر البول والطمث، ويسقط الجنين، وليس له نظير في إسهال المائية."
+  en: "Kamashir is like jawshir in its properties but much stronger. The book classes it as strongly hot and dry in the second degree, dissolving, resolving and thinning. It brings on urine and the menses, expels the foetus, and has no equal in purging watery matter."
+  ur: "کماشیر کی خاصیتیں جاوشیر جیسی ہیں مگر بہت زیادہ قوی ہیں۔ کتاب اسے دوسرے درجے میں قوت کے ساتھ گرم اور خشک، گھولنے، تحلیل کرنے اور پتلا کرنے والا بتاتی ہے۔ یہ پیشاب اور حیض لاتا، جنین کو خارج کرتا، اور پانی جیسی رطوبت کو خارج کرنے میں اس کا کوئی ثانی نہیں۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, scan pages 525, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, conception, semen and desire reports kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), lane A4"
+  model: claude-haiku-5-5
+  run: a4-canon-book2-15
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (book mining, lane A4)" }

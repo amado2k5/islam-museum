@@ -1,0 +1,23 @@
+id: concept/kashtbarkasht
+class: concept
+kind: natural
+label:
+  ar: "كشت بركشت"
+  en: "Kasht barkasht (a twining plant)"
+  ur: "کشت برکشت"
+summary:
+  ar: "كشت بركشت شيء يلتف بعضه على بعض في خيوط، وهو عند الكتاب حار يابس في الثانية، لطيف جدا، والكتاب يرى أن قوته قوة البدشكان."
+  en: "Kasht barkasht is a twining thing made of threads wound together, mostly five to a root. The book classes it as hot and dry in the second degree and very fine, and holds that its force is that of badshakan."
+  ur: "کشت برکشت ایک لپٹا ہوا شے ہے جو دھاگوں کی طرح ایک دوسرے پر لپٹی ہوئی ہوتی ہے، اکثر پانچ تک، اور ایک جڑ سے لپٹی ہوتی ہے۔ کتاب اسے دوسرے درجے میں گرم اور خشک اور نہایت باریک بتاتی ہے، اور اس کی قوت بدشکان جیسی مانتی ہے۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, scan pages 522, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, conception, semen and desire reports kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), lane A4"
+  model: claude-haiku-5-5
+  run: a4-canon-book2-15
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (book mining, lane A4)" }
