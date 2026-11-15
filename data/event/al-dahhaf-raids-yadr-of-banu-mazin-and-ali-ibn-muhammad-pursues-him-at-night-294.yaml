@@ -1,0 +1,55 @@
+id: event/al-dahhaf-raids-yadr-of-banu-mazin-and-ali-ibn-muhammad-pursues-him-at-night-294
+class: event
+kind: skirmish
+label:
+  ar: "الدهف يغير على يدر بني مازن بنجران وعلي بن محمد يطلبه ليلاً، ليلة النصف من رمضان 294هـ، ص344-345"
+  en: "Al-Dahhaf raids Yadr of Banu Mazin in Najran and Ali ibn Muhammad pursues him at night, the middle of Ramadan 294 AH, pp. 344-345"
+  ur: "دہف کا نجران میں بنی مازن کے یدر پر حملہ اور علی بن محمد کا رات کو تعاقب، رمضان کی پندرہویں رات 294ھ، ص344-345"
+summary:
+  ar: "في ليلة النصف من رمضان أغار الدهف بن موسى العمري من بني الحارث على يدر بني مازن، فطلبه محمد بن عبيد الله، فخرج علي بن محمد بابنه وإخوته في الليل، ووصل الصيرم عند الفجر."
+  en: "On the night of 15 Ramadan, al-Dahhaf ibn Musa al-Amri of Banu al-Harith raided Yadr of Banu Mazin. Muhammad ibn Ubaydallah wanted him, so Ali ibn Muhammad set out at night with his brother and a cousin and reached al-Sayrim at dawn."
+  ur: "رمضان کی پندرہویں رات بنی الحارث کے دہف بن موسی العمری نے بنی مازن کے یدر پر حملہ کیا۔ محمد بن عبید اللہ اسے ڈھونڈ رہے تھے، اس لیے علی بن محمد اپنے بھائی اور چچازاد کے ساتھ رات کو نکلے اور فجر کے وقت الصیرم پہنچے۔"
+wings:
+- time
+themes:
+- civil-wars-and-revolts
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0907-06-29"
+    hijri: "0294-09-15"
+    calendar: julian
+    precision: day
+    status: tradition
+    derived: true
+    note: "ليلة النصف من شهر رمضان سنة 294هـ بنص الكتاب؛ التحويل الجدولي 29 يونيو 907م مشتق، ويقع يوم الاثنين في الجدول. الهجوم على الصيرم عند الصباح التالي."
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/ali-ibn-muhammad-ibn-ubaydallah-al-abbasi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/al-dahhaf-ibn-musa-al-amri
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abu-jafar-muhammad-ibn-ubaydallah-al-abbasi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص344-345 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5)"
+  model: claude-haiku-5-5
+  run: a1-sira-p339-346-1
+status:
+  review: draft
+  completeness: 2
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 344-345"

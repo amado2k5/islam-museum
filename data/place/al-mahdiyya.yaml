@@ -9,7 +9,7 @@ summary:
 wings: [place]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [maghreb]
-external_ids: { wikidata: "Q466054" }
+external_ids: { wikidata: "Q466054" , idai: '2108772' }
 relations:
   - { type: part_of, target: place/ifriqiya, note: "على ساحل إفريقية", sources: [source/ahsan-al-taqasim] }
 coordinates: [35.5047, 11.0622]
@@ -21,5 +21,5 @@ provenance:
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-geo-ahsan-2
   extra_runs: ["farghani-389-577 (claude-haiku-5-5, Claude Code)"]
-sources: [source/ahsan-al-taqasim, source/tarikh-khulafa-minhaj-1434, source/farghani-elements-astronomy, source/wikidata]
+sources: [source/ahsan-al-taqasim, source/tarikh-khulafa-minhaj-1434, source/farghani-elements-astronomy, source/wikidata, source/idai-gazetteer]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

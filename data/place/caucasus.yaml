@@ -3,18 +3,13 @@ class: place
 kind: region
 label: { ar: "القوقاز", en: "Caucasus" }
 summary:
-  ar: "إقليم."
-  en: "Region spanning Europe and Asia."
+  ar: "سلسلة جبلية يسميها ياقوت القبق، تمتد من باب الأبواب على بحر الخزر إلى أطرابزندة على البحر الأسود. {cite:mujam-al-buldan-sader-1995 4 p.306} {cite:mujam-al-buldan-sader-1995 1 p.216}"
+  en: "The mountain range Yaqut calls al-Qabq, running from Bab al-Abwab on the Caspian to Trabzon on the Black Sea. {cite:mujam-al-buldan-sader-1995 4 p.306} {cite:mujam-al-buldan-sader-1995 1 p.216}"
 wings: [place]
 coordinates: [42.75, 44.5]
 coordinate_precision: approx
 coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
 external_ids: { wikidata: "Q18869" }
-sources: [source/wikidata]
-provenance:
-  layer: own-research
-  source: "Wikidata item Q18869 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
-  generated_by: "Devin"
-  model: "Devin (Cognition)"
-  run: battles-geo-places-1
+sources: [source/wikidata, source/mujam-al-buldan-sader-1995]
+provenance: { layer: own-research, source: "Wikidata item Q18869 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run.; Yaqut Mu'jam al-Buldan, Dar Sader 1995, vol. 4 p. 306, vol. 1 pp. 208 and 245 (prose added in packet b1-enrich-place-14)", generated_by: "Devin", model: "claude-haiku-5-5", run: "b1-enrich-place-14" }
 status: { review: draft, completeness: 1, generated_by: "Devin" }

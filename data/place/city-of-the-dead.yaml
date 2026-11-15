@@ -6,8 +6,9 @@ label:
   en: City of the Dead
   ur: القرافہ
 summary:
-  ar: موقع جغرافي.
-  en: City of the Dead; a place linked to persons via Wikidata claims.
+  ar: "مقبرة أهل مصر، وكانت خِطّة بالفسطاط نزلها بطن من المعافر ثم صارت مقبرة واسعة فيها قبر الإمام الشافعي. {cite:mujam-al-buldan-sader-1995 4 p.317}"
+  en: "The burial ground of Egypt, in origin a quarter of Fustat settled by a clan of the Mu'afir; in Yaqut's time it held the tomb of al-Shafi'i in a madrasa. {cite:mujam-al-buldan-sader-1995 4 p.317}"
+  ur: "مصر کا قبرستان، جو اصلاً فسطاط کا ایک محلہ تھا؛ یاقوت کے زمانے میں یہاں امام شافعی کا مزار ایک مدرسے میں تھا۔ {cite:mujam-al-buldan-sader-1995 4 p.317}"
 wings:
 - place
 regions:
@@ -21,6 +22,7 @@ external_ids:
   wikidata: Q2066414
 sources:
 - source/wikidata
+- source/mujam-al-buldan-sader-1995
 status:
   review: draft
   completeness: 1
@@ -33,4 +35,5 @@ provenance:
   - person-place-geo-b
   - person-place-geo-c
   note: Semantic merge of duplicate records written by parallel enrichment runs.
-  source: Wikidata item Q2066414 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q2066414 (labels, coordinates, description)
+  source: Wikidata item Q2066414 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q2066414 (labels, coordinates, description); Yaqut Mu'jam al-Buldan, Dar Sader 1995, vol. 4 pp. 317 and vol. 5 pp. 142-143, 176 (prose added in packet b1-enrich-place-14)
+  model: claude-haiku-5-5

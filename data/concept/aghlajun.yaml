@@ -1,0 +1,23 @@
+id: concept/aghlajun
+class: concept
+kind: natural
+label:
+  ar: "أغلاجون"
+  en: "Aghlajun (aloeswood)"
+  ur: "اغلاجون ⁦(عود)⁩"
+summary:
+  ar: "خشب عطر من الهند والغرب، يدخل في الزينة والبخور، ويذكر الكتاب أنه ينفع من قرحة الأمعاء والمغص {cite:canon-ibn-sina-print-v1 p.356}."
+  en: "Scented wood from India and the west, used for ornament and incense. The book says it helps ulcers of the intestines and gripes {cite:canon-ibn-sina-print-v1 p.356}."
+  ur: "ہندوستان اور مغرب کی خوشبودار لکڑی، جو زینت اور لوبان میں استعمال ہوتی ہے؛ کتاب کے مطابق یہ آنتوں کے زخم اور مروڑ میں فائدہ دیتی ہے {cite:canon-ibn-sina-print-v1 p.356}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, 1999), Book II, Jumla 2, letter alif, scan pages 356 to 371, read from the OCR on the harvest drive; the book's own notes are used only where the book itself gives the name, and garbled English glosses are left out"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), lane A4"
+  model: claude-haiku-5-5
+  run: a4-canon-book2-2
+status: { review: draft, completeness: 2, generated_by: "Claude Haiku 5.5 (book mining, lane A4)" }

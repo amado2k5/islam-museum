@@ -6,8 +6,9 @@ label:
   en: Shamakhi
   ur: شماخی
 summary:
-  ar: مدينة في أذربيجان.
-  en: City in Azerbaijan.
+  ar: "مدينة عامرة، قصبة بلاد شروان عند طرف أران، تعد من أعمال باب الأبواب. {cite:mujam-al-buldan-sader-1995 3 p.361}"
+  en: "A populous city, the capital of the land of Shirvan at the edge of Arran, counted among the districts of Bab al-Abwab. {cite:mujam-al-buldan-sader-1995 3 p.361}"
+  ur: "آباد شہر، شروان کے علاقے کا دارالحکومت، اران کے کنارے پر، باب الابواب کے علاقوں میں شمار۔ {cite:mujam-al-buldan-sader-1995 3 p.361}"
 wings:
 - place
 regions:
@@ -22,6 +23,7 @@ external_ids:
   geonames: '585156'
 sources:
 - source/wikidata
+- source/mujam-al-buldan-sader-1995
 status:
   review: draft
   completeness: 1
@@ -33,4 +35,5 @@ provenance:
   - person-place-geo-b
   - person-place-geo-c
   note: Semantic merge of duplicate records written by parallel enrichment runs.
-  source: Wikidata item Q388224 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q388224 (labels, coordinates, description)
+  source: Wikidata item Q388224 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q388224 (labels, coordinates, description); Yaqut Mu'jam al-Buldan, Dar Sader 1995, vol. 3 p. 361 and vol. 1 p. 382 (prose added in packet b1-enrich-place-14)
+  model: claude-haiku-5-5

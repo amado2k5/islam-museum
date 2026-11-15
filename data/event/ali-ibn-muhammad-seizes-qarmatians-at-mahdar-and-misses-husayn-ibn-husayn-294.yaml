@@ -1,0 +1,55 @@
+id: event/ali-ibn-muhammad-seizes-qarmatians-at-mahdar-and-misses-husayn-ibn-husayn-294
+class: event
+kind: raid
+label:
+  ar: "علي بن محمد يأخذ قرامطة بمحضر ويفوته داعيتهم حسين بن حسين، سنة 294هـ، ص340"
+  en: "Ali ibn Muhammad seizes Qarmatians at Mahdar and misses their missionary Husayn ibn Husayn, 294 AH, p. 340"
+  ur: "علی بن محمد کا محضر میں قرامطہ کو پکڑنا اور ان کے داعی حسین بن حسین کا نکل جانا، 294ھ، ص340"
+summary:
+  ar: "أمر الهادي محمد بن عبيد الله بطلب القرامطة، فخرج ابناه علي والقاسم بمائة رجل، فأخذ علي خمسة عشر قرمطياً في محضر، ولم يجد القاسم داعيتهم في منزله برجلاء."
+  en: "Al-Hadi ordered Muhammad ibn Ubaydallah to seek out the Qarmatians. His sons Ali and al-Qasim rode with a hundred men; Ali took fifteen Qarmatians at Mahdar, and al-Qasim did not find their missionary at his house in Rijla."
+  ur: "ہادی نے محمد بن عبید اللہ کو قرامطہ کی تلاش کا حکم دیا۔ ان کے بیٹے علی اور قاسم سو آدمیوں کے ساتھ نکلے؛ علی نے محضر میں پندرہ قرامطہ پکڑے، اور قاسم کو رجلاء میں ان کا داعی گھر پر نہیں ملا۔"
+wings:
+- time
+themes:
+- civil-wars-and-revolts
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0907~"
+    hijri: "0294"
+    calendar: julian
+    precision: year
+    status: tradition
+    derived: true
+    note: "من سياق الكتاب في سنة 294هـ بعد قتل العبد؛ الكتاب لا يذكر يوماً."
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/ali-ibn-muhammad-ibn-ubaydallah-al-abbasi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abu-jafar-muhammad-ibn-ubaydallah-al-abbasi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/husayn-ibn-husayn-al-hashidi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص340 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5)"
+  model: claude-haiku-5-5
+  run: a1-sira-p339-346-1
+status:
+  review: draft
+  completeness: 2
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 340"
