@@ -54,7 +54,7 @@ set bind every view listed here.
 | Nature | Six habitats: strata from cosmos to sea, a hexagon per concept sized by passages that mention it | `sig/NatureStrata.astro` | `natureItems`, `passagesOf` | strata equal the sections |
 | Jinn & Devils | Four circles that overlap: an overlap chart of the section combinations that occur | `sig/JinnOverlap.astro` | `jinnDevilsItems`, `groupOf` | combinations sum to the records |
 | Magic | A vocabulary of terms: a wheel of topics with chords for records that carry two | `sig/MagicWheel.astro` | `magicItems`, `MAGIC_TOPICS` | every topic and section named |
-| Cosmos | Eight themes by section: a bar per theme, split by the corpus its records sit in, every segment a link | `sig/CosmosThemes.astro` | `cosmosItems`, `COSMOS_TOPICS`, `COSMOS_SECTIONS` | every topic and section named |
+| Cosmos | An orrery: Earth at the centre, one orbit per theme, a linked dot per record coloured by section | `sig/CosmosThemes.astro` | `cosmosItems`, `COSMOS_TOPICS`, `COSMOS_SECTIONS` | every topic has an orbit and a name, every section a name |
 | Akhlaq | Virtues and vices, face to face: a butterfly chart, dealings apart | `sig/ButterflyVirtues.astro` | `akhlaqItems`, `AKHLAQ_TOPIC_KINDS` | every topic has a kind and a label |
 | Ibadat | The acts of worship: a rosette of petals by passages, beads for the practice records by obligation | `sig/RoseWindow.astro` | `ibadatItems`, the practice records' `ibadat-<topic>` tags | every topic has a label; bead rings clear the labels |
 | Du'a | The supplications by where they are found: 114 lamps, lit where a formula is recorded | `sig/LampStrings.astro` | `duaItems`, `surahs` | surahs 1 to 114; every item has its place |
