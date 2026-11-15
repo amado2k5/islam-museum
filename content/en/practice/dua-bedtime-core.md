@@ -1,0 +1,11 @@
+---
+id: practice/dua-bedtime-core
+lang: en
+source_lang: ar
+translators: ["Claude Fable 5.2 (claude-fable-5-2), draft translation"]
+---
+## Summary
+The first part of what al-Nawawi gives in the chapter on what is said when going to sleep: the wording about life and death, glorifying, praising and magnifying, shaking out the bed, the refuge surahs, the verse of the Throne, and al-Bara's supplication. {cite:al-adhkar-nawawi-arnaut-1994 p. 89}
+
+## What al-Nawawi gathers in al-Adhkar
+Al-Nawawi opens the chapter on going to sleep with a verse, [[passage/quran-3-190|Qur'an 3:190]], that speaks of those who remember God standing, sitting and lying on their sides {cite:al-adhkar-nawawi-arnaut-1994 p. 89}. In Sahih al-Bukhari, from Hudhayfa and Abu Dharr, [[person/muhammad|the Prophet]] said on going to bed «باسمك اللهم أحيا وأموت» {cite:al-adhkar-nawawi-arnaut-1994 p. 89}. In the two Sahihs, from Ali, the Prophet told him and Fatima, on going to bed, to magnify God thirty-three times, glorify thirty-three and praise thirty-three; Ali said he had not left it since he heard it, not even on the night of Siffin {cite:al-adhkar-nawawi-arnaut-1994 p. 89}. From Abu Hurayra, a person should shake out his bed with the inner edge of his lower garment and then say «باسمك ربي وضعت جنبي وبك أرفعه» {cite:al-adhkar-nawawi-arnaut-1994 p. 89}. From Aisha, the Prophet would blow into his hands, recite the refuge surahs and wipe his body with them, beginning with his head and face, three times {cite:al-adhkar-nawawi-arnaut-1994 p. 90}. From Abu Mas'ud al-Badri, whoever recites the last two verses of Surat al-Baqara in a night, they suffice him; al-Nawawi notes that scholars differ on what suffices and says both senses may be meant {cite:al-adhkar-nawawi-arnaut-1994 p. 90}. From al-Bara', one should make ablution, lie on the right side and say «اللهم أسلمت نفسي إليك وفوضت أمري إليك», making it the last words {cite:al-adhkar-nawawi-arnaut-1994 p. 90}. From Abu Hurayra in al-Bukhari, whoever recites the verse of the Throne on going to bed keeps a guardian from God with him, and al-Nawawi answers al-Humaydi's claim that the report is only suspended {cite:al-adhkar-nawawi-arnaut-1994 p. 91}. From Hafsa, the Prophet put his right hand under his cheek and said «اللهم قني عذابك يوم تبعث عبادك» three times {cite:al-adhkar-nawawi-arnaut-1994 p. 91}.
