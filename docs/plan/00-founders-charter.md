@@ -107,6 +107,109 @@ partners, sponsors, assistants and volunteers are named and thanked on the site 
 appropriate sections. This is the museum's standing posture, not a campaign: the graph
 belongs to the umma it describes, and the door is open.
 
+## Article 7 — Independence: one founder, no umbrella, no oversight
+
+*(Stated by the founder on 15 November 2026, as a permanent rule that does not change. It is
+recorded here, in GOVERNANCE.md and on the public Foundation page so that no one — partner,
+funder, institution or reader — need guess at it, and no collaboration can be misread.)*
+
+The museum is, and remains, the personal project of its founder, Ahmed Abdel Aal, who alone
+directs it:
+
+- **Direction is never shared.** The museum's management, ownership and decisions belong to
+  the founder alone, at all times. The museum is not for sale, and no one is given control
+  over it — not in part, not for a time, and not in exchange for funding, partnership or
+  support of any kind.
+- **The museum stands under no umbrella.** It will never be merged into another project,
+  and it will never fall under the coverage or oversight of any other body — no government,
+  no religious institution, no company, no foundation, no other project, of any
+  classification whatsoever.
+- **Help is welcome; direction is not part of it.** Anyone — a person, a company, a
+  government, a non-profit, a body of any classification — may help in the ways Article 6
+  names: feedback and corrections, volunteering, funding and fundraising, materials and
+  sources, testing, contributions to the code, writing about the museum and spreading the
+  word. Help of every kind is received with gratitude and credited, and it confers no
+  authority: no say over direction, no veto, no agenda of the helper's pursued through the
+  museum. A contribution, a donation or an agreement to work together changes none of this.
+- **Agreements are about work, never about the museum itself.** Where the museum agrees
+  with an institution to work together, the agreement covers a defined piece of joint work —
+  records built together, sources shared, a listing, an event — and nothing else. It does not
+  make the museum that institution's project, branch, responsibility or property.
+
+Article 6's invitation stands exactly as written: the door is open to every helper. This
+article states what the open door does not mean. The museum is from the people to the
+people, independent, under no one's control, oversight or direction but its founder's.
+
+## Article 8 — Free use, and the terms it comes with
+
+*(Stated by the founder on 15 November 2026, together with Article 7, and published on the
+public Foundation page. The accuracy, external-links and governing-law clauses were added
+the same day at the founder's request, on the pattern of the terms published by comparable
+libraries and encyclopedias.)*
+
+- **Everything is free to use, without asking.** Anyone may use all of the museum's data,
+  resources and services — present and future — in any way, shape or form, without limit
+  and without any control from the museum. Anyone may clone, fork or copy the whole
+  codebase and start a similar, modified or entirely new project; the founder will bring
+  no copyright claim and no legal attempt against such efforts. The licences (data CC0,
+  prose CC BY-SA 4.0, code MIT) already grant most of this; this article adds the founder's
+  pledge standing behind them.
+- **The museum may change anything, at any time.** The founder reserves the right to make
+  any change of any kind, at any level, at any time — to the website, its content, its code,
+  its hosting, its performance, its architecture and its deployment — without notice and
+  without anyone's permission.
+- **No service level, no warranty, no claims for downtime or change.** The museum offers
+  no service-level agreement and no warranty of any kind. If the website malfunctions, goes
+  down, is unavailable, or is modified or changed in any way, no one may claim anything
+  against the museum or its owner on that account.
+- **Use is the visitor's responsibility.** Neither the website nor its owner — nor the
+  hosting company — is liable or responsible, in any shape or capacity, for anyone's
+  behaviour, actions, adoption, application, reproduction or reuse of the published
+  content, nor for any misunderstanding, misrepresentation, misuse or other harm that
+  follows from a visitor's actions. What a person does with free knowledge is that person's
+  own responsibility.
+- **Accuracy is cited, not guaranteed.** Every record names its sources and shows its
+  review state, and the museum corrects errors in the open — but it does not guarantee that
+  any content is accurate, complete or current. The cited source is where a claim is
+  finally checked.
+- **External sites are their owners'.** The museum links to sources, libraries and other
+  sites it does not control; it is not responsible for their content or their availability.
+- **Rights-holders can always ask.** Any author or entity with a claim to any content may
+  request its removal or modification at any time; the site's report tools are always open
+  for exactly this, and such requests are answered ahead of routine corrections.
+- **Opinions are the founder's own.** All opinions and views expressed on this site are
+  solely the founder's own and do not reflect the views or opinions of his employer.
+- **Governing law.** These terms, like the museum itself, sit under the law of Ontario,
+  Canada (see GOVERNANCE.md).
+
+## Article 9 — Not for profit, not for an agenda; costs, help, and how to reach us
+
+*(Stated by the founder on 15 November 2026, with Articles 7 and 8, and published on the
+public Foundation, Support and Disclaimer pages.)*
+
+- **Not for profit, not for gain, not for an agenda.** This website is not intended for
+  profit or gain. It does not pursue an agenda of its founder's or anyone else's, and it
+  does not serve the needs of any government or any company. It exists to make Islamic
+  history and heritage freely available to everyone.
+- **Free for all, with no tracking and no data trade.** The museum is free for everyone:
+  no subscriptions, no paywall, no tracking, and no intention — now or ever — to use or
+  sell any user's information to anyone. The Privacy page states what the site does and
+  does not collect.
+- **The costs are real, and help is asked for openly.** Running this website and its
+  operations incurs substantial, continuing costs, which the founder carries personally.
+  Volunteers are warmly invited to help. Anyone who wishes may donate funds toward the
+  costs, as they wish — with no commitment and no obligation, and (per Article 7) no
+  control, say or agenda rights in return. The Support page lists the ways to give.
+- **A future gift shop, kept separate.** The museum plans, in the future, to open an
+  online gift shop / bazaar in its own clear, separate section of the website, where items
+  may be listed and sold for anyone who wishes to browse or shop there, to help toward the
+  costs. It will carry no ads, no spam and no soliciting, visiting it will always be
+  optional, and the museum itself remains free. Until it opens, there is no shop.
+- **How to reach the museum.** For press and media enquiries: **press@islam.museum**.
+  For copyright claims: **copyright@islam.museum** — rights-holders may also use the
+  site's report tools at any time (Article 8). For any other concerns:
+  **concerns@islam.museum**.
+
 ---
 
 ## What this charter confirms, and what it corrects

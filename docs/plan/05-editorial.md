@@ -89,11 +89,11 @@ Code of Conduct: Contributor Covenant plus a museum-specific clause: respect for
 ## 8. Governance
 
 - **Steward** (founder) holds the domain, the organisation and final say on charter questions; commits to open licenses irrevocably.
-- **Wing editors** (volunteers; initially the steward) own quality per wing.
-- **Editorial board** (target year 2): Sunni scholars and educators from different schools and regions; advisory on policy and disputes; names published.
+- **Wing editors** (volunteers; initially the steward) help review quality per wing; the founder decides.
+- **No editorial board** (corrected 15 November 2026, Founder's Charter Article 7): direction, management and decisions are the founder's alone, permanently. There is no board and none is planned; scholars and educators advise, and the founder decides. The museum is never merged into another project and never placed under any institution's umbrella or oversight.
 - **Decisions** are recorded as ADRs in `docs/adr/`; policy changes by PR to `docs/`.
-- **Disputes** about content go through the perspectives mechanism first, then the board.
-- **Legal home**: start as a personal project with clear licenses; move to a non-profit (or fiscal sponsorship) when donations or partnerships need it.
+- **Disputes** about content go through the perspectives mechanism first, then the founder.
+- **Legal home**: start as a personal project with clear licenses; move to a non-profit when donations or partnerships need it — the founder's own entity, never a fiscal sponsorship or another body's umbrella.
 - **Sustainability**: free infrastructure by design; optional sponsorship for translation and editorial grants; never ads, never paywalls.
 
 ## 9. Quality metrics
