@@ -96,7 +96,27 @@ al-Muhasibi, al-Makasib wa-l-Wara'; Ibn Abi al-Dunya, Kitab al-Wara' and Islah a
 al-Khallal, al-Hathth 'ala al-Tijara; al-Hakim al-Tirmidhi, Bayan al-Kasb; al-Ghazali, Ihya'
 books 13 and 14 (the Ihya' is already harvested); al-Walidi, Kitab al-Halal wa-l-Haram.
 
+## Subjects (14 November 2026, founder: "Yes, add subjects")
+
+The founder asked whether a visitor looking for what food is unlawful would be helped. The
+browser was arranged by source and by Arabic term only, so subjects were added: twelve, read at
+build time by `SUBJECT_RE` in `scripts/halal.ts`; curated concepts tagged `halal-subject-<id>`.
+
+Trust criteria for the word list: a word enters a subject only when a sample of its matches on
+the admitted passages was mostly about that subject. Dropped after sampling: «دينار»، «درهم»،
+«صرف»، «خراج» (earnings); «صلاة»، «مسجد»، «قرآن» (worship); «حمل» (family); «لعن»، «كذب»،
+«إثم» (conduct); «إناء»، «لحية» (dress); the bare verb «ذهب» is never gold. Records per subject
+at merge: principles 235, food 214, drink 164, hunting and slaughter 118, earnings 182,
+marriage and family 456, dress 103, life and honour 186, conduct about 170, worship 351,
+sanctuary 66, other about 370. A passage can stand under several.
+
+Known limits, held for the founder: the wine verses (2:219, 5:90, 5:91) are not on the Drink
+page because they do not use the two roots and no Qur'an record carries a tag; the subject list
+is a word match and can over-include a passage that names the word in passing.
+
 ## Open
+
+- The founder's ruling on tagging chosen Qur'an records into the browser (the wine verses).
 
 - The founder's ruling on the 10 records above and on the sanctuary reports.
 

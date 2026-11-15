@@ -4308,6 +4308,32 @@ halal:
     curated:
       title: "Records about halal and haram"
       desc: "The museum's detailed records on the subject itself: the lawful, the unlawful and the doubtful; the presumption of permissibility; who may declare lawful and unlawful; the good and the foul; forbidden foods and drinks; necessity; scruple; lawful earnings; and the accounts of the Companions and Successors seeking the lawful."
+  subjects_ui:
+    title: "Browse by subject"
+    note: "Choose what you are asking about. Each subject opens with the museum's own records and the Qur'an's ayahs, then the hadith reports, the seerah and the other books. The museum shows what the sources say and where they say it; it does not issue rulings, and a ruling on a personal case is a scholar's task, not the museum's."
+    region: "Twelve subjects of the lawful and the unlawful, each with the number of its records and how many name the lawful, the unlawful or both"
+    count: "{n} records"
+    bar: "{h} name the lawful, {b} both, {r} the unlawful"
+    all: "All subjects"
+    crumb: "Subjects"
+    status: "{n} records stand under this subject: {c} detailed records, {q} Qur'an ayahs, {s} Sunnah reports, {r} seerah excerpts and {b} excerpts from other books."
+    how_title: "How a record gets its subject"
+    how: "Subjects are assigned when the site is built, by a word list read over each passage: the words for foods, drinks, sales, marriage and the rest. A passage can stand under several subjects. The list can miss a passage or include one that only mentions the word in passing; passages no subject word matched are under «Other mentions». The subject says what the source speaks about and is never a ruling."
+    row: "Subjects"
+    other_subjects: "Other subjects"
+  subjects:
+    principles: { title: "Principles", desc: "Who may declare a thing lawful or unlawful, the clear and the doubtful, necessity, and what the sources say of forbidding what God permitted." }
+    food: { title: "Food", desc: "Carrion, blood, the pig, what was slaughtered for other than God, beasts of prey, domestic donkeys, and the good foods the sources name as lawful." }
+    drink: { title: "Drink", desc: "Wine, every intoxicant, nabidh and the vessels it was made in." }
+    hunting-slaughter: { title: "Hunting and slaughter", desc: "Game of land and sea, the trained dog, the slaughter of the People of the Book, sacrifice, and game for one in ihram." }
+    earnings: { title: "Earnings and trade", desc: "Riba, forbidden sales, bribery, the price of what is forbidden, the orphan's property, and earning from the lawful." }
+    marriage-family: { title: "Marriage and family", desc: "The women one may not marry, milk-kinship, divorce and return, forbidden forms of marriage, and mourning." }
+    dress: { title: "Dress and adornment", desc: "Silk and gold, rings, garments, vessels of gold and silver, and altering the body." }
+    life-honour: { title: "Life, property and honour", desc: "The inviolability of a Muslim's blood, property and honour, and the life God made sacred." }
+    conduct: { title: "Speech and conduct", desc: "Shunning a brother beyond three days, backbiting, wrongdoing, deceit, gambling, images and soothsaying." }
+    worship: { title: "Worship and vows", desc: "Charity and whom it is lawful for, fasting, the state of ihram and what it forbids, vows and oaths." }
+    sanctuary: { title: "The sanctuaries of Makka and Madina", desc: "The reports that declare Makka and Madina inviolable: their game, trees and lost property." }
+    other: { title: "Other mentions", desc: "Passages that name the lawful or the unlawful where no subject word was matched." }
   viz:
     title: "The balance of the lawful and the unlawful, as the sources name them"
     note: "These are the passages in the museum's sources where these words occur, and nothing beyond them. The bar shows how many passages name only the lawful, how many only the unlawful, and how many name both. The two panels list the lexicon terms the detector matched on each side, with the number of passages for each term in the Qur'an, the Sunnah, the seerah and the other books. A passage is counted under every term it contains."

@@ -4,7 +4,7 @@ import { featureApiData } from "./export-api.js";
 import { duaKindOf, duaSignalsOf } from "./dua.js";
 import { ibadatKindOf, ibadatSignalsOf, ibadatTopicsOf } from "./ibadat.js";
 import { sayyiatKindOf, sayyiatSignalsOf } from "./sayyiat.js";
-import { halalKindOf, halalSignalsOf } from "./halal.js";
+import { halalKindOf, halalSignalsOf, halalSubjectsOf, halalSubjectsOfText, halalFold, HALAL_SUBJECTS } from "./halal.js";
 import { hududKindOf, hududSignalsOf } from "./hudud.js";
 import { hasanatKindOf, hasanatSignalsOf } from "./hasanat.js";
 import { hisabFold, hisabKindsOfSignals, hisabSignalsOfText } from "./hisab.js";
@@ -378,6 +378,28 @@ describe("one API export per browser or explorer (AGENTS.md: every feature is gr
     // The same words in a ruling still count.
     expect(halalSignalsOf(mk("passage/sense-keep-1", "work/tabari", "لا يحل لامرأة أن تسافر إلا مع ذي محرم", { ref: "k1" }) as any)).toEqual(expect.arrayContaining(["la-yahill"]));
     expect(halalSignalsOf(mk("passage/sense-keep-2", "work/tabari", "خمس قتلهن حلال في الحرم", { ref: "k2" }) as any)).toEqual(["halal"]);
+    // Subjects: what the lawful or unlawful is about, read from the passage's own text; several may apply; `other` when none.
+    expect(items.find((i) => i.id === "passage/quran-5-3x")!.subjects).toEqual(["food"]);
+    expect(items.find((i) => i.id === "passage/quran-16-116x")!.subjects).toEqual(["principles"]);
+    expect(items.find((i) => i.id === "passage/bukhari-52x")!.subjects).toEqual(["principles"]);
+    expect(items.find((i) => i.id === "passage/muslim-2560x")!.subjects).toEqual(["conduct"]);
+    expect(items.find((i) => i.id === "passage/futurefiqh-halal-1")!.subjects).toEqual(["drink"]); // a book harvested later gets its subject with no tagging
+    expect(items.find((i) => i.id === "passage/tabari-9-37x")!.subjects).toEqual(["other"]);
+    expect(items.find((i) => i.id === "concept/halal-haram")!.subjects).toEqual(["other"]); // a curated record takes its subjects from tags only
+    const tagged = { ...makeNode("concept/khamr-x", "concept", { kind: "legal" }), tags: ["halal-haram-browser", "halal-subject-drink", "halal-subject-nonsense"] };
+    expect(halalSubjectsOf(tagged as any)).toEqual(["drink"]);
+    const subjectOf = (t: string) => halalSubjectsOfText(halalFold(t));
+    expect(subjectOf("إن الله ورسوله حرم بيع الخمر والميتة والخنزير والأصنام")).toEqual(["food", "drink", "earnings"]);
+    expect(subjectOf("أحل الله البيع وحرم الربا")).toEqual(["earnings"]);
+    expect(subjectOf("حرمت عليكم أمهاتكم وبناتكم")).toEqual(["marriage-family"]);
+    expect(subjectOf("حرام على ذكور أمتي الحرير والذهب")).toEqual(["dress"]);
+    expect(subjectOf("لا يحل دم امرئ مسلم إلا بإحدى ثلاث")).toEqual(["life-honour"]);
+    expect(subjectOf("أحل لكم صيد البحر وطعامه")).toEqual(["food", "hunting-slaughter"]);
+    expect(subjectOf("لا تحل الصدقة لغني")).toEqual(["worship"]);
+    expect(subjectOf("إن الله حرم مكة فلم تحل لأحد قبلي ولا يعضد شجرها")).toEqual(["sanctuary"]);
+    expect(subjectOf("ثم ذهب بعد ذلك إلى أهله")).toEqual([]); // «ذهب» the verb is not gold, «بعد» is not a sale
+    expect(new Set(items.flatMap((i) => i.subjects as string[])).size).toBeGreaterThan(3);
+    for (const i of items) for (const s of i.subjects as string[]) expect(HALAL_SUBJECTS as readonly string[]).toContain(s);
   });
 
   it("exports hasanats: detected passages by corpus and kind, gated false positives, future-book inclusion", () => {

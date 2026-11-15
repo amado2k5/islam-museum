@@ -83,6 +83,19 @@ cited to the museum's passage records, `status.review: draft`:
   menu), `site/src/components/Landing.astro` (the landing card),
   `i18n/{ar,en,ur}.yaml` (`explore.pages.halal`, `halal:`).
 
+### Subjects (added 14 November 2026)
+
+A visitor asks by subject, not by the verb a source used. Every record therefore also carries
+subjects: principles, food, drink, hunting and slaughter, earnings and trade, marriage and
+family, dress and adornment, life, property and honour, speech and conduct, worship and vows,
+the sanctuaries of Makka and Madina, and other. A second lexicon in `scripts/halal.ts`
+(`SUBJECT_RE`) reads the same folded text at build time; curated records take theirs from
+`halal-subject-<id>` tags. The landing opens with a board of subject tiles
+(`sig/HalalSubjects.astro`); each subject has its own paged page at
+`/[lang]/halal/subject/<id>/`, ordered answers first (records, Qur'an in mushaf order, Sunnah,
+seerah, other books). The pages state that the museum does not issue rulings. On the 1,820
+passages at merge, about one in five matched no subject word and is listed under "other".
+
 ## 7. API and search
 
 `/api/v1/halal.json` (`scripts/export-api.ts`): every item with `section`,

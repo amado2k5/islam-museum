@@ -12,11 +12,11 @@ import FullFilter from "../../../components/FullFilter.astro";
 import { pagedStaticPaths, pageView, renderedHeadline, curatedFirst, type PagedProps } from "../../../lib/paged";
 import DraftMark from "../../../components/DraftMark.astro";
 import HalalScale from "../../../components/sig/HalalScale.astro";
+import HalalSubjects from "../../../components/sig/HalalSubjects.astro";
+import HalalRow from "../../../components/HalalRow.astro";
 import { ui, LANGS, fmt, type Lang } from "../../../lib/i18n";
-import { byId, href, labelOf, stripNeedsSource } from "../../../lib/graph";
 import { num } from "../../../lib/nav";
-import { halalItems, HALAL_SECTIONS, type HalalKind, type HalalSection } from "../../../lib/halal";
-import type { Node } from "../../../../scripts/build-graph";
+import { halalItems, HALAL_SECTIONS, type HalalSection } from "../../../lib/halal";
 
 export function getStaticPaths() {
   // the landing, and a sub-page for every page of rows of each section longer than the landing shows (site/src/lib/paged.ts)
@@ -26,32 +26,12 @@ export function getStaticPaths() {
 const { lang } = Astro.props as { lang: Lang };
 const T = ui(lang);
 const G = (T as any).halal;
-const label = (n: Node) => labelOf(n, lang);
-const summaryText = (n: Node) => stripNeedsSource(n.summary?.[lang] ?? n.summary?.ar ?? n.summary?.en ?? "").replace(/\s*\{cite:[^}]*\}/g, "").replace(/\s+([.,؛،])/g, "$1"); // citation markers belong to the entity page's footnotes
-const EXCERPT = 220;
-const excerptOf = (n: Node) => {
-  const raw = n.class === "passage" ? String(n.data.text_search ?? n.data.text ?? "") : summaryText(n);
-  const clean = stripNeedsSource(raw).replace(/\s+/g, " ").trim();
-  return clean.length > EXCERPT ? `${clean.slice(0, EXCERPT)}…` : clean;
-};
-const workLabel = (n: Node) => (n.data.work ? labelOf(byId.get(n.data.work as string) ?? n, lang) : "");
-const refOf = (n: Node) => {
-  if (n.data.sura && n.data.aya) return `${n.data.sura}:${n.data.aya}`;
-  return n.data.ref ? String(n.data.ref) : (n.data.unit ? String(n.data.unit) : "");
-};
-const kindLabel = (k: HalalKind | null) => (k ? G.kinds?.[k] : null);
 const sectionIds: HalalSection[] = curatedFirst([...HALAL_SECTIONS]);
 const sections = sectionIds.map((id) => ({ id, items: halalItems.filter((i) => i.section === id) })).filter((s) => s.items.length > 0);
 const paged = pageView(sections, Astro.props as PagedProps, `/${lang}/halal/`);
 const pagedLabel = (s: { id: string }) => G.sections[s.id]?.title ?? s.id;
 const pagedTitle = paged.landing ? G.title : `${G.title} · ${pagedLabel(paged.sections[0])}${paged.pager && paged.pager.pageNo > 1 ? ` · ${paged.pager.pageNo}` : ""}`;
 const status = fmt(G.status, { n: num(renderedHeadline("halal", sections, [], halalItems), lang), s: num(sections.length, lang) });
-const searchText = (i: (typeof halalItems)[number]) =>
-  [
-    i.node.label.ar, i.node.label.en, i.node.label.ur,
-    summaryText(i.node), excerptOf(i.node), workLabel(i.node),
-    kindLabel(i.kind) ?? "",
-  ].filter(Boolean).join(" ");
 ---
 <BaseLayout lang={lang} title={pagedTitle} description={G.lede} path={paged.path}>
   <div class="wrap" style="padding-block:10px 20px">
@@ -61,6 +41,11 @@ const searchText = (i: (typeof halalItems)[number]) =>
       <h1>{G.title}</h1>
       <p style="font-size:1.2rem;max-width:var(--measure)">{G.lede}</p>
       <p class="panel ui" style="max-width:var(--measure);border:1px solid var(--gold)">{status}</p>
+    </div>
+
+{paged.landing && <HalalSubjects lang={lang} />}
+
+    <div data-pagefind-body={paged.landing || undefined}>
       <h2 id="method-title" style="font-size:1.1rem">{G.method_title}</h2>
       <p class="muted" style="max-width:var(--measure)">{G.method_note}</p>
       <p class="ui muted">{G.api} <a href="/api/v1/halal.json"><bdi dir="ltr">/api/v1/halal.json</bdi></a></p>
@@ -87,18 +72,7 @@ const searchText = (i: (typeof halalItems)[number]) =>
             <h3 id={`t-${s.id}`} style="font-size:1.1rem;margin:0 0 .2rem">{G.sections[s.id]?.title ?? s.id}</h3>
             <p class="muted" style="max-width:var(--measure);margin:0 0 .6rem">{G.sections[s.id]?.desc}</p>
             <ol role="list" style="list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px">
-              {s.items.map((i) => (
-                <li data-halal-row data-search={searchText(i)} class="panel" style="padding:14px 16px">
-                  <a href={href(lang, i.node.id)} style="font-weight:600">{label(i.node)}</a><DraftMark lang={lang} node={i.node} />
-                  {i.node.class === "passage" && (
-                    <p class="ui muted" style="margin:.15rem 0 0;font-size:.82rem" dir="auto">
-                      {workLabel(i.node)}{refOf(i.node) ? <bdi> · {refOf(i.node)}</bdi> : null}
-                      {kindLabel(i.kind) ? <> · <span class="chip" style="font-size:.75rem;padding:1px 8px">{kindLabel(i.kind)}</span></> : null}
-                    </p>
-                  )}
-                  <p class="muted" style="margin:.3rem 0 0;font-size:.92rem" dir="auto">{excerptOf(i.node)}</p>
-                </li>
-              ))}
+              {s.items.map((i) => <HalalRow lang={lang} item={i} />)}
             </ol>
             <PagedNav lang={lang} paged={paged} section={s} label={pagedLabel(s)} />
           </section>
