@@ -1,0 +1,23 @@
+id: concept/banafsaj
+class: concept
+kind: natural
+label:
+  ar: "بنفسج"
+  en: "Banafsaj (violet)"
+  ur: "بنفشہ"
+summary:
+  ar: "نبات زهري، أصله معروف وقريب من أفعاله؛ ورقه بارد رطب في الأولى، وقيل إنه يولد دماً معتدلاً. يسكن الأورام الحارة ضماداً، ودهنه طلاء جيد للجرب، ويسكن الصداع الدموي شماً وطلاء، وينفع من الرمد الحار والسعال الحار، ويليّن الصدر، وشرابه نافع من ذات الجنب والرئة، وشرابه يدرّ البول ويلين الطبيعة برفق {cite:canon-ibn-sina-print-v1 p.387}."
+  en: "A flowering plant whose root is well known and close in its actions to the rest of it. The leaf is cold and moist in the first degree; some say the plant produces a moderate blood. It calms hot swellings as a poultice, its oil is a good liniment for scabies, and it quiets bloody headache by smell and by application. It helps hot inflammation of the eye and hot cough, softens the chest, and its drink helps pleurisy and lung disease and promotes urine {cite:canon-ibn-sina-print-v1 p.387}."
+  ur: "یہ ایک پھولدار پودا ہے، جس کی جڑ معروف ہے اور اس کے افعال بھی اسی جیسے ہیں۔ اس کا پتہ پہلے درجے میں ٹھنڈا اور تر ہے، اور کہا گیا ہے کہ یہ معتدل خون پیدا کرتا ہے۔ یہ گرم ورموں کو سینک کے طور پر آرام دیتا ہے، اس کا تیل خارش کے لیے اچھا لیپ ہے، اور خونی سردرد کو سونگھنے اور لیپ کرنے سے سکون دیتا ہے۔ یہ گرم رمد اور گرم کھانسی میں نفع دیتا ہے، سینے کو نرم کرتا ہے، اور اس کا شربت ذات الجنب اور پھیپھڑوں کی بیماری میں نفع دیتا ہے اور پیشاب آور ہے {cite:canon-ibn-sina-print-v1 p.387}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter ba, scan pages 386 to 387, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); the editor's footnotes are used only for identity and name; footnotes quoting modern herbal or nutrition books are not used; measured doses and weights are left out; garbled OCR lines are left out, not guessed"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), lane A4"
+  model: claude-haiku-5-5
+  run: a4-canon-book2-5
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (book mining, lane A4)" }

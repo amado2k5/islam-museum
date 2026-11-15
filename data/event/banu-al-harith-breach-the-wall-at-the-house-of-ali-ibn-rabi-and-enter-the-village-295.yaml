@@ -1,0 +1,51 @@
+id: "event/banu-al-harith-breach-the-wall-at-the-house-of-ali-ibn-rabi-and-enter-the-village-295"
+class: event
+kind: other
+label:
+  ar: "بنو الحارث يفرضون السور عند دار علي بن ربيع ويدخلون القرية، 295هـ"
+  en: "Banu al-Harith breach the wall at the house of Ali ibn Rabi' and enter the village, 295 AH, p. 371"
+  ur: "بنو حارث علی بن ربیع کے گھر کے پاس دیوار توڑ کر بستی میں داخل ہوتے ہیں، 295ھ، ص371"
+summary:
+  ar: "أخبر أحد الحراس أبا جعفر بأن بني الحارث فرضوا السور من عند دار علي بن ربيع ودخلوا القرية، وأن من كان معه من بني عبد المدان وبني الحارث قد لقوهم وأدخلوهم. فأرسل أبو جعفر من يدعو بني عبد المدان ومواليهم إلى نصرته، فلم يأته منهم أحد."
+  en: "A sentry reported to Abu Ja'far that Banu al-Harith had breached the wall near the house of Ali ibn Rabi' and entered the village, and that the Banu Abd al-Madan and Banu al-Harith men who had been with him had met them and let them in. Abu Ja'far sent a servant to call on Banu Abd al-Madan and their clients to come to his support, and not one of them came."
+  ur: "ایک پہرے دار نے ابو جعفر کو خبر دی کہ بنو حارث نے علی بن ربیع کے گھر کے پاس سے دیوار توڑ دی ہے اور بستی میں داخل ہو گئے ہیں، اور جو بنو عبدالمدان اور بنو حارث کے لوگ اس کے ساتھ تھے وہ ان سے مل گئے اور انہیں اندر آنے دیا۔ ابو جعفر نے ایک خادم کو بنو عبدالمدان اور ان کے موالی کو مدد کے لیے بلانے بھیجا، مگر ان میں سے کوئی نہ آیا۔"
+wings:
+- time
+themes:
+- civil-wars-and-revolts
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0908-09-29"
+    hijri: "0295-12-24"
+    calendar: julian
+    precision: day
+    status: tradition
+    derived: true
+    note: "صبح 24 ذي الحجة 295هـ ، مستنتج؛ الكتاب لا يحدد الساعة"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/abu-jafar-muhammad-ibn-ubaydallah-al-abbasi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/najran
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، الصفحات المطبوعة ص369-376، المسح 365-372"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5)"
+  model: claude-haiku-5-5
+  run: a1-sira-p369-376-1
+status:
+  review: draft
+  completeness: 2
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 369-376"

@@ -1,0 +1,12 @@
+---
+id: "event/abu-jafar-wounded-refuses-the-safe-conduct-offered-by-banu-al-harith-295"
+lang: en
+source_lang: ar
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+---
+
+## Overview
+Banu al-Harith came to the door of the room, and Abu Ja'far went out and drove them back, then returned, and they stood between him and the door. A man of them named al-Harith ibn al-Harith, of a clan whose name is withheld in this record, called out and offered him a safe-conduct if he came out. Abu Ja'far refused and said he would go only on the path his pure forefathers had taken.
+
+## Detail
+When Banu al-Harith came to the door of the room, Abu Ja'far went out to meet them and charged, striking at them with his sword until he drove them from the place where they stood. He then returned to the room, and they came back and barred his way into the room. A man of Banu al-Harith called al-Harith ibn al-Harith, of a clan whose name is withheld in this record, called out: Abu Ja'far, come out to us and you have safe-conduct, the safe-conduct of God and of His messenger. He asked whether they meant it. They said yes. He said: by God, that will never be, and I will go only on the path my pure forefathers took. He came out and the men closed on him from every side. Al-Harith ibn al-Harith struck him in the face, and the text's Muhammad ibn Ubaydallah, which is Abu Ja'far himself, struck al-Harith on the shoulder, drove them from the place, and returned to his position. The printed text names both men Muhammad ibn Ubaydallah in one place and Abu Ja'far in another, and the record uses Abu Ja'far throughout. Banu al-Harith then gathered and blamed one another, saying one man had wounded them and reached their harm, so they should charge him together as one body. They did so, and he was caught among them, and they stabbed him with swords and pelted him with arrows and stones until he was wounded many times, but he kept fighting until he drove them back. He struck a man of theirs named Sulayman al-Abari in the belly, and Sulayman fell unconscious. A man named Jabr ibn Jabir al-Hujli lay in wait behind the door from outside and struck him on the upper arm, which weakened his right hand. He returned to his place, and Banu al-Harith called to the men on the roof to pull the roof down on him and on those inside with him, and they came to the door of the room. The account of the final blow continues on printed page 377, which lies outside this packet and is taken up by the next one.

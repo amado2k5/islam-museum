@@ -1,0 +1,23 @@
+id: concept/buzaydan
+class: concept
+kind: natural
+label:
+  ar: "بوزيدان"
+  en: "Buzaydan (an Indian woody drug)"
+  ur: "بوزیدان"
+summary:
+  ar: "دواء خشبي هندي فيه مشابهة لقوة البهمن. حار في الثانية يابس في الأولى، ملطّف. أجوده الأبيض الغليظ الكثير الخطوط الخشن، والأملس الدقيق العود القليل البياض رديء. ينفع من وجع المفاصل والنقرس، ويزيد في الباه، وينفع من السموم {cite:canon-ibn-sina-print-v1 p.399}، {cite:canon-ibn-sina-print-v1 p.400}."
+  en: "An Indian woody drug with some likeness to the power of bahman. Hot in the second degree and dry in the first; dissolving. The best is the thick, white, rough kind with many lines; the smooth, thin-stemmed and less white kind is poor, and it is adulterated with a Berber imitation. It helps pains of the joints and gout, increases desire, and helps against poisons {cite:canon-ibn-sina-print-v1 p.399}, {cite:canon-ibn-sina-print-v1 p.400}."
+  ur: "یہ ہندی لکڑی جیسی دوا ہے جو بہمن کی قوت سے کچھ مشابہت رکھتی ہے۔ دوسرے درجے میں گرم اور پہلے میں خشک، تحلیل کرنے والی۔ سب سے اچھی موٹی، سفید اور کھردری اور دھاریوں والی ہے؛ ملائم، باریک تنے والی اور کم سفید خراب ہے، اور اس میں بربری نقل ملائی جاتی ہے۔ یہ جوڑوں کے درد اور گٹھیا میں نفع دیتی ہے، شہوت بڑھاتی ہے، اور زہروں میں نفع دیتی ہے {cite:canon-ibn-sina-print-v1 p.399}، {cite:canon-ibn-sina-print-v1 p.400}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter ba, scan pages 399 to 400, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); the editor's footnotes are used only for identity and name; footnotes quoting modern herbal or nutrition books are not used; measured doses and weights are left out; garbled OCR lines are left out, not guessed"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), lane A4"
+  model: claude-haiku-5-5
+  run: a4-canon-book2-5
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (book mining, lane A4)" }

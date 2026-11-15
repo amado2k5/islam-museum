@@ -1,0 +1,23 @@
+id: concept/buyanis
+class: concept
+kind: natural
+label:
+  ar: "بويانس"
+  en: "Buyanis (a plant with a thick root)"
+  ur: "بویانس"
+summary:
+  ar: "يُستعمل أصله أكثر، وله صمغ وعصارة، وصمغه أقوى من عصارته. حار يابس في الثالثة، محلّل. يقشّر العظام الفاسدة وينقّي القروح، وموافق للعصب جداً، وينفع من الفضول الغليظة في الصدر ضماداً، وصلابة الطحال طلاءً أو مدوفاً بالماء الحار {cite:canon-ibn-sina-print-v1 p.393}."
+  en: "Mostly its root is used, and it also has a gum and a juice; the gum is stronger than the juice. Hot and dry in the third degree; dissolving. It scales away diseased bone and cleanses ulcers, suits the nerves very well, helps thick humours of the chest as a poultice, and helps hardness of the spleen when applied as it is or dissolved in hot water {cite:canon-ibn-sina-print-v1 p.393}."
+  ur: "زیادہ تر اس کی جڑ استعمال ہوتی ہے، اور اس کا گوند اور رس بھی ہوتا ہے؛ گوند رس سے زیادہ قوی ہے۔ تیسرے درجے میں گرم اور خشک، تحلیل کرنے والا۔ یہ خراب ہڈی کا چھلکا اتارتا اور زخموں کو صاف کرتا ہے، اعصاب کے لیے بہت موافق ہے، سینے کی گاڑھی رطوبتوں میں ضماد کے طور پر نفع دیتا ہے، اور تلی کی سختی میں جوں کا توں یا گرم پانی میں گھول کر لیپ کیا جاتا ہے {cite:canon-ibn-sina-print-v1 p.393}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter ba, scan pages 393, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); the editor's footnotes are used only for identity and name; footnotes quoting modern herbal or nutrition books are not used; measured doses and weights are left out; garbled OCR lines are left out, not guessed"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), lane A4"
+  model: claude-haiku-5-5
+  run: a4-canon-book2-5
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (book mining, lane A4)" }

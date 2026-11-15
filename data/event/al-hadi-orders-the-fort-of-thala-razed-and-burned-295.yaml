@@ -1,0 +1,49 @@
+id: event/al-hadi-orders-the-fort-of-thala-razed-and-burned-295
+class: event
+kind: other
+label:
+  ar: "الهادي يأمر بهدم حصن ثلا لبني الحارث وتحريقه، سنة 295هـ، ص355"
+  en: "Al-Hadi orders the Banu al-Harith fort of Thala razed and burned, 295 AH, p. 355"
+  ur: "ہادی کا بنو حارث کے قلعے ثلا کو ڈھانے اور جلانے کا حکم، 295ھ، ص355"
+summary:
+  ar: "نزل الهادي قرب حصن لبني الحارث يقال له ثلا، فأمر بهدمه وتحريقه، وبات تلك الليلة قريباً منه."
+  en: "Al-Hadi came close to a Banu al-Harith fort called Thala and ordered it pulled down and burned. He spent that night nearby."
+  ur: "ہادی بنو حارث کے ایک قلعے ثلا کے قریب پہنچے، اسے ڈھانے اور جلانے کا حکم دیا، اور اس رات قریب ہی ٹھہرے۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0908~"
+    hijri: "0295"
+    calendar: julian
+    precision: year
+    status: tradition
+    derived: true
+    note: "سنة 295هـ بحسب تسلسل الرواية؛ مشتق، والكتاب لا يذكر الشهر هنا"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/najran
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر. سيرة الهادي إلى الحق، تحقيق سهيل زكار، ص355 الصفحة المطبوعة"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5)"
+  model: claude-haiku-5-5
+  run: a1-sira-p355-362-1
+status:
+  review: draft
+  completeness: 2
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 355-362"

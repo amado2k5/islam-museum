@@ -11,3 +11,8 @@ Al-Zahir bi-Amr Allah Abu Nasr Muhammad ibn al-Nasir, an Abbasid caliph who rule
 Al-Suyuti relates from Ibn al-Athir that at his accession he showed such justice and generosity that he restored the custom of the two Umars. He returned much of the wealth taken and the properties seized in his father's days. He abolished the dues and ordered the old land-tax restored; among this, the tax on Baqubba, from which eighty thousand dinars had been taken, was returned to ten thousand. {cite:tarikh-khulafa-minhaj-1434 p.699-701}
 
 He released the people of the prisons, and on the night of the Feast of Sacrifice he distributed a hundred thousand dinars. He died on the thirteenth of Rajab 623 AH, so his caliphate lasted nine months and some days. {cite:tarikh-khulafa-minhaj-1434 p.699-701}
+
+## His rule in practice
+Al-Suyuti, citing Ibn al-Athir, records that al-Zahir found the treasury's weight heavier than the local weight by half a qirat to the mithqal, and ordered the treasury weight brought back to what people used. He also returned money taken by injustice to its owners; among it was more than a hundred thousand dinars brought from Wasit by a financial official. {cite:tarikh-khulafa-minhaj-1434 p.700}
+Al-Suyuti also quotes Sibt Ibn al-Jawzi that when al-Zahir entered the treasuries he said they had not been made to fill up but to be emptied and spent in the way of God. {cite:tarikh-khulafa-minhaj-1434 p.700}
+He had transmitted hadith from his father by licence, and Nasr Allah ibn Abd al-Razzaq ibn al-Shaykh Abd al-Qadir al-Jili transmitted from him. After his death the ruler of Mosul sent a letter of condolence by an envoy, Ibn al-Athir Nasr Allah. {cite:tarikh-khulafa-minhaj-1434 p.701}

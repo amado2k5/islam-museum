@@ -11,3 +11,10 @@ An additional source is needed: the coordinates come from the modern settlement 
 
 ## In the iDAI.gazetteer
 The German Archaeological Institute's gazetteer, iDAI.gazetteer, records this place as no. 2102125, typed as populated place, with the preferred name «Kerbela» under «Irak» in its hierarchy, and recorded names including Karbala, Kerbala, 卡爾巴拉. {cite:idai-gazetteer 2102125}
+
+## In Yaqut's Mu'jam al-buldan
+Yaqut's entry places Karbala at the edge of the open desert near Kufa, where al-Husayn ibn Ali was killed. {cite:mujam-al-buldan-sader-1995 4 p.445}
+
+He gives several derivations of the name: kirbila, softness in the feet; kurbala, wheat cleaned of grit; and kurbal, the name of a sour herb that grew there. {cite:mujam-al-buldan-sader-1995 4 p.445}
+
+He also reports that al-Husayn, told the place was called al-Aqr and disliking the name, asked for the land's name, was told Karbala, and said it was a land of anguish and affliction; he then wished to leave and was prevented. Yaqut adds that Khalid camped at Karbala during the conquest of al-Hira. {cite:mujam-al-buldan-sader-1995 4 p.445}
