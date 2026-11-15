@@ -192,6 +192,7 @@ back for the founder's decision are named as held, never as sent.
 - Islamic-projects ecosystem steps approved 13 November and in preparation: joining Deen Developers and its volunteer notice board, a Muslim Tech Fest speaker application, a LaunchGood campaign draft (its goal amount is the founder's call), and December preparation for the Barakat Trust's 2027 cycle (which opens 1 January 2027).
 - A Wikipedia Articles-for-Creation draft and a Wikidata escalation filing: both drafted 13 November, neither posted; the founder reviews first. (Independent coverage is still two or three pieces short of a safe submission — the draft exists so it is ready, not because it should go in today.)
 - Kazakhstan is the proposed next country pack; it has not been approved or sent.
+- A LinkedIn post on the build and deploy speed work with Claude Fable 5.2 (drafted 14 November, `linkedin-build-speed-post.md`), written to go out with the 36-second film in `marketing/build-speed/`. Draft only — not posted; the founder posts it from his own account.
 
 ## Record-keeping notes (what the 13 November Gmail sweep changed)
 
