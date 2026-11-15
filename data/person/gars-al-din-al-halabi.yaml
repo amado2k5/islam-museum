@@ -5,8 +5,32 @@ summary:
   ar: "فلكي شامي توفي سنة 971هـ بحسب زوتر، صاحب «تنبيه النقاد على ما في الهيئة المشهورة من الفساد» ⁦(958هـ)⁩ الذي نقد فيه أصولًا بطلمية ونقل عن ابن الشاطر ومؤيد الدين العرضي {cite:heinen-islamic-cosmology p. 31} {cite:heinen-islamic-cosmology p. 32}."
   en: "Syrian astronomer who died in 971 AH according to Suter, author of Tanbih al-naqqad (958 AH), critiquing Ptolemaic principles and citing Ibn al-Shatir and Mu'ayyad al-Din al-Urdi {cite:heinen-islamic-cosmology p. 31} {cite:heinen-islamic-cosmology p. 32}."
   ur: "شامی فلکیات دان، زوٹر کے مطابق 971ھ میں فوت، «تنبیہ النقاد» ⁦(958ھ)⁩ کے مصنف جس میں بطلیموسی اصولوں پر تنقید کی اور ابن الشاطر اور مؤید الدین عرضی سے نقل کیا {cite:heinen-islamic-cosmology p. 31}."
+faith:
+  - value: sunni
+    basis: debated
+    note: "Muslim basis is documented: he authored an Arabic treatise in the Islamic hay'a tradition critiquing Ptolemaic astronomy, in the Syrian scholarly milieu {cite:heinen-islamic-cosmology p. 31}. The 'sunni' value is the museum's declared frame; secondary compilations identify him with Ibnü'n-Nakib Garsüddin Halil al-Halabi (d. 971/1563), a Shafi'i scholar of Aleppo per TDV, but that identification is not verified here and no personal madhhab is asserted for the treatise's author {cite:tdv-ibnun-nakib-el-halebi}."
+    sources: [source/heinen-islamic-cosmology, source/tdv-ibnun-nakib-el-halebi]
+perspectives:
+  - tradition: sunni
+    id: sunni-frame-declared
+    stance: { ar: "إطار المتحف السني المعلن", en: "The museum's declared Sunni frame", ur: "میوزیم کا واضح سنی سیاق" }
+    summary:
+      ar: "يسجل المتحف المؤلف فلكياً شامياً كتب رسالة عربية في تقاليد الهيئة، ويحتفظ المطابقة مع مطابقة فقيه محتملة غير المحسومة كمسألة هوية لا كحكم على عقيدته."
+      en: "The museum records the author as a Syrian astronomer who wrote an Arabic hay'a treatise; the possible identification with a named jurist is kept as an open identity question, not a ruling on his creed."
+      ur: "میوزیم مصنف کو شامی فلکیات دان قرار دیتا ہے جس نے ہیئت کی روایت میں عربی رسالہ لکھا؛ کسی نامور فقیہ سے ہونے والی ممکنہ شناخت کو شناخت کا کھلا سوال رکھا جاتا ہے، اس کی عقیدے پر فیصلہ نہیں۔"
+    sources: [source/heinen-islamic-cosmology, source/tdv-ibnun-nakib-el-halebi]
+  - tradition: academic
+    id: academic-identification-open
+    stance: { ar: "مطابقة هوية مفتوحة", en: "Open identification question", ur: "کھلا شناخت کا سوال" }
+    summary:
+      ar: "ينقل هاينن أن غرس الدين الحلبي فلكي سوري توفي سنة 971هـ بحسب زوتر، بينما تعرفه معاجم TDV بابن النقيب غرس الدين خليل الحلبي الشافعي المتوفى سنة 971هـ/1563م؛ الربط بين الاسمين غير مثبت في هذا السجل ويُعرض كاحتمال بحثي {cite:heinen-islamic-cosmology p. 31} {cite:tdv-ibnun-nakib-el-halebi}."
+      en: "Heinen gives Gars al-Din al-Halabi as a Syrian astronomer who died in 971 AH per Suter, while TDV reference works name Ibn al-Naqib Gars al-Din Khalil al-Halabi, a Shafi'i scholar of Aleppo (d. 971/1563); the link between the two names is unproven here and is shown as a scholarly hypothesis {cite:heinen-islamic-cosmology p. 31} {cite:tdv-ibnun-nakib-el-halebi}."
+      ur: "ہائینن کے مطابق غرث الدین الحلبي زوتر کی رائے میں 971ھ میں فوت ہونے والا شامی فلکیات دان ہے، جبکہ TDV مراجع اسے حلب کے شافعی عالم ابن النقیب غرس الدین خلیل الحلبي ⁦(ت 971ھ/1563ء)⁩ سے جانتے ہیں؛ دونوں ناموں کا ربط یہاں غیر ثابت ہے اور علمی قیاس کے طور پر پیش کیا گیا ہے {cite:heinen-islamic-cosmology p. 31} {cite:tdv-ibnun-nakib-el-halebi}۔"
+    sources: [source/heinen-islamic-cosmology, source/tdv-ibnun-nakib-el-halebi]
 gender: male
 roles: [astronomer, writer]
+inventions:
+  - { invention: invention/gars-al-din-tanbih-al-naqqad, role: describer, note: "Bounded critical revision of the famous hay'a against observation with revised-model citations; no heliocentrism or modern-astronomy claim.", sources: [source/heinen-islamic-cosmology] }
 died: { edtf: "1563", hijri: "0971", calendar: gregorian, precision: year, status: tradition, derived: true, note: "سنة الوفاة عند زوتر كما ينقل هاينن {cite:heinen-islamic-cosmology p. 31}." }
 wings: [people]
 themes: [astronomy-and-timekeeping]
@@ -14,11 +38,11 @@ regions: [levant-iraq]
 relations:
   - { type: lived_in, target: place/iraq, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/heinen-islamic-cosmology] }
   - { type: authored, target: work/tanbih-al-naqqad, sources: [source/heinen-islamic-cosmology] }
-sources: [source/heinen-islamic-cosmology]
+sources: [source/heinen-islamic-cosmology, source/tdv-ibnun-nakib-el-halebi]
 provenance:
   layer: own-research
-  source: "source/heinen-islamic-cosmology scan pp. 31–32"
-  generated_by: "Claude Code (OCR-harvest worker I)"
-  model: claude-opus-5-5
-  run: ocr-harvest-2026-11-04
-status: { review: published, completeness: 2 }
+  source: "source/heinen-islamic-cosmology scan pp. 31–32; TDV Ibnü'n-Nakib al-Halebi article (biography, Shafi'i affiliation, critique tradition)"
+  generated_by: "Claude Code (OCR-harvest worker I); Devin drafter w2-08"
+  model: claude-opus-5-5; SWE-2
+  run: ocr-harvest-2026-11-04; inventions-w2-08-drafting
+status: { review: published, completeness: 3, generated_by: "Devin drafter w2-08" }

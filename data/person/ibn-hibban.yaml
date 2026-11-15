@@ -12,10 +12,17 @@ summary:
   ar: "أبو حاتم محمد بن حبان البستي الحافظ ⁦(ت 354هـ)⁩، صاحب «الأنواع» ومؤلف كتابي الجرح والتعديل. يصفه الذهبي في «ميزان الاعتدال» بأنه من أئمة زمانه، طلب العلم على رأس الثلاثمائة، وكتب بالشام والحجاز ومصر والعراق والجزيرة وخراسان، وولي قضاء سمرقند، وكان عارفاً بالطب والنجوم والكلام والفقه رأساً في معرفة الحديث؛ ويذكر ما أُخذ عليه من إنكار الحد وقوله «النبوة العلم والعمل»، وما ترتب على ذلك من إخراجه من سجستان {cite:mizan-itidal-bijawi-v3 p. 506-508}."
   en: "Abu Hatim Muhammad ibn Hibban al-Busti, the hadith master (d. 354 AH), author of al-Anwa' and of the two books on criticism and vindication. Al-Dhahabi's Mizan al-I'tidal calls him one of the imams of his time, who sought knowledge at the turn of the year 300, wrote in Syria, the Hijaz, Egypt, Iraq, the Jazira and Khurasan, served as judge of Samarqand, and knew medicine, astronomy, theology and law, being foremost in knowledge of hadith; it records what was held against him — his denial of the 'limit' and his saying 'prophethood is knowledge and action' — and his expulsion from Sijistan."
 died: { hijri: "0354", edtf: "0965", calendar: julian, precision: year, status: tradition, derived: true, note: "الذهبي: مات سنة أربع وخمسين وثلثمائة {cite:mizan-itidal-bijawi-v3 p. 508}؛ التحويل مشتق.", sources: [source/mizan-itidal-bijawi-v3] }
+faith:
+  - value: sunni
+    basis: debated
+    note: "Muslim basis is documented: he is a hadith master, judge of Samarqand and author of Arabic works in the Sunni hadith tradition, and al-Dhahabi calls him an imam of his time {cite:mizan-itidal-bijawi-v3 p. 506-508} {cite:sahih-ibn-hibban-shakir-maarif-v1 pp. 51-59}. The 'sunni' value is the museum's declared frame for a scholar inside the Sunni hadith milieu; his contested personal positions — the denial of the 'limit' and 'prophethood is knowledge and action' — are recorded on the perspectives below, not settled by this field."
+    sources: [source/mizan-itidal-bijawi-v3, source/sahih-ibn-hibban-shakir-maarif-v1]
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/buyid-seljuk-fatimid-era]
 themes: [scripture-and-its-sciences]
+inventions:
+  - { invention: invention/ibn-hibban-hadith-classification, role: inventor, note: "Bounded five-division, four-hundred-type classification of the hadith corpus arranged in his preface; no universal-priority claim over earlier hadith orderings.", sources: [source/sahih-ibn-hibban-shakir-maarif-v1] }
 relations:
   - { type: lived_in, target: place/bust, sources: [source/mizan-itidal-bijawi-v3] }
   - { type: lived_in, target: place/nishapur, sources: [source/mizan-itidal-bijawi-v3] }
@@ -53,12 +60,12 @@ external_ids:
   viaf: "27052522"
 provenance:
   layer: own-research
-  source: "Wikidata Q4794354; ميزان الاعتدال للذهبي، تحقيق البجاوي، القسم الثالث، ص 506–508 (الترجمة 7346)؛ صحيح ابن حبان بتحقيق شاكر ج1 ص 43، 51-54"
-  generated_by: "Devin (SWE-2 High); Claude Code (OCR-harvest worker F); Claude Code (OCR-harvest worker A)"
-  model: "SWE-2 High; claude-opus-5-5"
-  run: wikidata-import-0014, ocr-harvest-2026-11-04
+  source: "Wikidata Q4794354; ميزان الاعتدال للذهبي، تحقيق البجاوي، القسم الثالث، ص 506–508 ⁦(الترجمة 7346)⁩؛ صحيح ابن حبان بتحقيق شاكر ج1 ص 43، 51-54"
+  generated_by: "Devin (SWE-2 High); Claude Code (OCR-harvest worker F); Claude Code (OCR-harvest worker A); Devin drafter w2-08"
+  model: "SWE-2 High; claude-opus-5-5; SWE-2"
+  run: wikidata-import-0014, ocr-harvest-2026-11-04, inventions-w2-08-drafting
 importance: 2
 status:
   review: published
   completeness: 3
-  generated_by: "Claude Code (OCR-harvest worker F)"
+  generated_by: "Devin drafter w2-08"
