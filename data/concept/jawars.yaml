@@ -1,0 +1,23 @@
+id: concept/jawars
+class: concept
+kind: natural
+label:
+  ar: "جاورس"
+  en: "Jawars (millet)"
+  ur: "جاورس"
+summary:
+  ar: "نوع من الدخن، يشبه الأرز في قوته لكنه أقل غذاءً منه، وهو خير من الدخن في جميع أحواله إلا أنه أقوى قبضاً. فيه قبض وتجفيف بلا لذع، ويُكمّد به لتسكين الأوجاع، وغذاؤه قليل لزج، وطعامه بطيء في المعدة، ويُقال إن طبخه باللبن أو بنخالة السميذ يجوّد غذاءه {cite:canon-ibn-sina-print-v1 p.430} {cite:canon-ibn-sina-print-v1 p.431}."
+  en: "A kind of millet. Like rice in strength but less nourishing; in every state better than dukhn (millet), but more astringent. Astringent and drying without sting; a poultice to ease pains. Its nourishment is small and sticky, and it is slow in the stomach; cooked with milk or with fine bran it is said to improve its nourishment {cite:canon-ibn-sina-print-v1 p.430} {cite:canon-ibn-sina-print-v1 p.431}."
+  ur: "ایک قسم کا دخن، جو قوت میں چاول جیسا ہے مگر چاول سے کم غذائی ہے؛ ہر حال میں دخن سے بہتر، مگر زیادہ قابض۔ اس میں قبض اور خشکی بغیر جلن کے ہے؛ درد کم کرنے کے لیے کمپریس کیا جاتا ہے۔ غذا کم اور لیس دار ہے، اور معدے میں دیر سے ہضم ہوتی ہے؛ کہا جاتا ہے کہ دودھ یا میدے کی بھوسی کے ساتھ پکانے سے اس کی غذائیت بہتر ہو جاتی ہے {cite:canon-ibn-sina-print-v1 p.430} {cite:canon-ibn-sina-print-v1 p.431}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter jim (rest) and letter dal, scan pages 427-440, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); the editor's footnotes are used only for identity and name; footnotes quoting modern herbal or nutrition books are not used; measured doses, weights and quantities are left out; garbled OCR lines are left out, not guessed"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), lane A4"
+  model: claude-haiku-5-5
+  run: a4-canon-book2-8
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (book mining, lane A4)" }

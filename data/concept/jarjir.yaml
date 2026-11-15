@@ -1,0 +1,23 @@
+id: concept/jarjir
+class: concept
+kind: natural
+label:
+  ar: "جرجير"
+  en: "Jarjir (rocket)"
+  ur: "جرجیر"
+summary:
+  ar: "معروف، منه برّي ومنه بستاني، وبزره الذي يُستعمل في الطبيخ بدل الخردل. طبعه حار في الثالثة يابس في الأولى. مدرّ للبول وهاضم، وماؤه مع مرارة البقر لآثار القروح، وتُذكر فيه منافع للرأس والصدر، وإذا أُكل مع شراب ريحاني فهو ترياق لسم ابن عرس {cite:canon-ibn-sina-print-v1 p.430}."
+  en: "Known; there is a wild and a garden kind. Its seed, used in cooking in place of mustard. Hot in the third degree and dry in the first. It is a diuretic and aids digestion; its water with ox gall is used for marks of ulcers. The book lists it for the head and chest, and says that eaten with a rayhani wine it is a remedy against the weasel's poison {cite:canon-ibn-sina-print-v1 p.430}."
+  ur: "معروف ہے، اس کی جنگلی اور باغی دونوں قسمیں ہیں۔ اس کا بیج کھانے میں سرسوں کی جگہ استعمال ہوتا ہے۔ طبع تیسرے درجے میں گرم اور پہلے میں خشک۔ یہ مدرِّ بول اور ہاضم ہے؛ اس کا پانی گائے کے پت کے ساتھ زخموں کے نشانات کے لیے ہے۔ کتاب اسے سر اور سینے کے لیے بیان کرتی ہے، اور کہتی ہے کہ ریحانی شراب کے ساتھ کھانے سے یہ نیولے کے زہر کا تریاق ہے {cite:canon-ibn-sina-print-v1 p.430}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter jim (rest) and letter dal, scan pages 427-440, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); the editor's footnotes are used only for identity and name; footnotes quoting modern herbal or nutrition books are not used; measured doses, weights and quantities are left out; garbled OCR lines are left out, not guessed"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), lane A4"
+  model: claude-haiku-5-5
+  run: a4-canon-book2-8
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (book mining, lane A4)" }

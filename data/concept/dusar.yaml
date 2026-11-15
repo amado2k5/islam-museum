@@ -1,0 +1,23 @@
+id: concept/dusar
+class: concept
+kind: natural
+label:
+  ar: "دوسر"
+  en: "Dusar"
+  ur: "دوسر"
+summary:
+  ar: "حشيشة يشبه ورقها ورق الحنطة لكنه ألين، وثمرتها ذات حجابين أو ثلاثة عليها شبه الشعر، وعصارتها أفضل من حشيشها. حار في الأولى يابس في الثانية، مجفف محلّل، ويليّن الأورام التي أخذت تصلباً، وينفع العين من حالة يسميها الكتاب «الغرب» {cite:canon-ibn-sina-print-v1 p.439}."
+  en: "A herb whose leaf resembles wheat leaf but is softer; its fruit has two or three husks with a hair-like down, and its juice is better than the herb. Hot in the first degree, dry in the second; drying and dissolving; it softens swellings that have hardened, and helps an eye condition the book calls al-gharb {cite:canon-ibn-sina-print-v1 p.439}."
+  ur: "ایک بوٹی جس کا پتا گندم کے پتے جیسا مگر نرم ہے؛ اس کا پھل دو یا تین خول رکھتا ہے جن پر بال جیسا رواں ہے، اور اس کا رس بوٹی سے بہتر ہے۔ پہلے درجے میں گرم اور دوسرے میں خشک؛ خشک کرتا اور تحلیل کرتا ہے، سخت ہو جانے والی سوجن کو نرم کرتا ہے، اور آنکھ کی اس حالت میں مفید ہے جسے کتاب «غرب» کہتی ہے {cite:canon-ibn-sina-print-v1 p.439}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter jim (rest) and letter dal, scan pages 427-440, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); the editor's footnotes are used only for identity and name; footnotes quoting modern herbal or nutrition books are not used; measured doses, weights and quantities are left out; garbled OCR lines are left out, not guessed"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), lane A4"
+  model: claude-haiku-5-5
+  run: a4-canon-book2-8
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (book mining, lane A4)" }

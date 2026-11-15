@@ -1,0 +1,23 @@
+id: concept/jazr
+class: concept
+kind: natural
+label:
+  ar: "جزر"
+  en: "Jazr (carrot)"
+  ur: "جزر"
+summary:
+  ar: "معروف، وأقوى بزره البري. يُذكر له ثلاثة أصناف: برّي ورقه كورق الرازيانج، وبستاني شبيه بالكرفس الرومي، وثالث ورقه كورق الكزبرة. طبعه حار في آخر الثانية رطب في الأولى. ينفع القروح المتأكلة وذات الجنب والسعال المزمن، ويُذكر أنه يُدرّ الطمث ويهيّج الباه {cite:canon-ibn-sina-print-v1 p.429} {cite:canon-ibn-sina-print-v1 p.430}."
+  en: "Known, and its wild seed is the strongest. The book names three kinds: a wild one whose leaf resembles fennel, a garden one like Roman parsley, and a third whose leaf resembles coriander. Hot at the end of the second degree and moist in the first. It is listed for eating ulcers, pleurisy and chronic cough; the book also says it brings on the menses and stirs desire {cite:canon-ibn-sina-print-v1 p.429} {cite:canon-ibn-sina-print-v1 p.430}."
+  ur: "معروف ہے، اور اس کا جنگلی بیج سب سے زیادہ قوی ہے۔ کتاب اس کی تین قسمیں بیان کرتی ہے: جنگلی جس کا پتا رازیانج جیسا ہے، باغی جو رومی کرفس سے مشابہ ہے، اور تیسری جس کا پتا دھنیے جیسا ہے۔ طبع دوسرے درجے کے آخر میں گرم اور پہلے میں تر۔ کھانے والے زخموں، ذات الجنب اور پرانی کھانسی کے لیے بیان ہوا ہے؛ کتاب کہتی ہے کہ یہ حیض جاری کرتا ہے اور شہوت بڑھاتا ہے {cite:canon-ibn-sina-print-v1 p.429} {cite:canon-ibn-sina-print-v1 p.430}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter jim (rest) and letter dal, scan pages 427-440, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); the editor's footnotes are used only for identity and name; footnotes quoting modern herbal or nutrition books are not used; measured doses, weights and quantities are left out; garbled OCR lines are left out, not guessed"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), lane A4"
+  model: claude-haiku-5-5
+  run: a4-canon-book2-8
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (book mining, lane A4)" }

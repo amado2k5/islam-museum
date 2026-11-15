@@ -443,3 +443,242 @@ SKIPPED person/zamaa-ibn-al-aswad: no Wikidata item found by search on the card 
 SKIPPED person/ziyadat-allah-iii: Wikidata candidates did not agree on name, date and role with the card (Q207052 Aghlabid emir of Ifriqiya).
 EXCLUSION (proposal for the founder): Yahya ibn Khalid al-Barmaki (Q2724450) - item dates 701 and 806 conflict with the card (738 and 805); not linked, for the founder to rule if wanted
 EXCLUSION (proposal for the founder): Qatari ibn al-Fuja'a (Q11944153), Hormuzan (Q3777163), Ka'b ibn Asad (Q1719450), Abbas ibn Ubada (Q28716318) - name and one date agree but the card has no role field (Qatari, Hormuzan) or the item role is not an exact match (Ka'b: chief of a tribe against notable); not linked
+ACCEPTED person/abbas-ibn-mirdas = Q11904584: name matches (Al-Abbas ibn Mirdss); Wikidata 639 (death or birth year as on the card) agrees with the card; role poet agrees with the item. No sourced date changed.
+ACCEPTED person/khedive-ismail = Q159378: name matches (Isma'il Pasha); Wikidata 1830-12-31 (death or birth year as on the card) agrees with the card; role politician agrees with the item. No sourced date changed.
+ACCEPTED person/tutush = Q512593: name matches (Tutush I); Wikidata 1095 (death or birth year as on the card) agrees with the card; role ruler agrees with the item. No sourced date changed.
+ACCEPTED person/zayd-ibn-arqam = Q1113031: name matches (Zayd ibn Arqam); Wikidata 687 (death or birth year as on the card) agrees with the card; role companion agrees with the item. No sourced date changed.
+ACCEPTED person/atsiz-ibn-uwaq = Q4817748: name matches (Atsiz ibn Uvaq); Wikidata 1078 (death or birth year as on the card) agrees with the card; role military agrees with the item. No sourced date changed.
+ACCEPTED person/gaykhatu = Q470322: name matches (Gaykhatu); Wikidata 1295 (death or birth year as on the card) agrees with the card; role ruler agrees with the item. No sourced date changed.
+ACCEPTED person/ibrahim-ibn-muhammad = Q3505301: name matches (Ibrahim ibn Muhammad); Wikidata 632 (death or birth year as on the card) agrees with the card; role prophetic-family agrees with the item. No sourced date changed.
+ACCEPTED person/tarafa-ibn-al-abd = Q1047131: name matches (Tarafa); Wikidata 569 (death or birth year as on the card) agrees with the card; role poet agrees with the item. No sourced date changed.
+SKIPPED person/abaga-ibn-hulagu: no Wikidata item found by English or Arabic name search.
+SKIPPED person/abdullah-ibn-abi-hadrad: no Wikidata item found by English or Arabic name search.
+SKIPPED person/abdullah-ibn-abi-rabia: no Wikidata item carries a birth or death date that agrees with the card; not linked.
+SKIPPED person/abdullah-ibn-abi-umayya: no Wikidata item found by English or Arabic name search.
+SKIPPED person/abu-abd-al-rahman-al-sulami-al-muqri: no Wikidata item found by English or Arabic name search.
+SKIPPED person/abu-afak: death conflict: card 625 approximate, item 624.
+SKIPPED person/abu-al-abbas-ahmad-ibn-rushd: no Wikidata item found by English or Arabic name search.
+SKIPPED person/abu-barza-al-aslami: death conflict: card 684, item 685.
+SKIPPED person/abu-lahab: birth conflict: card 560, item 549; death 624 and role politician agree; not linked.
+SKIPPED person/abu-nasr-al-sarraj: death 988 agrees but card role scholar does not match item occupation Sufi; not linked.
+SKIPPED person/abu-qays-ibn-al-aslat: no Wikidata item found by English or Arabic name search.
+SKIPPED person/abu-ruhm-al-ghifari: no Wikidata item found by English or Arabic name search.
+SKIPPED person/adi-ibn-nadla: no Wikidata item found by English or Arabic name search.
+SKIPPED person/ahmad-ibn-abi-al-hawari: no Wikidata item found by English or Arabic name search.
+SKIPPED person/ahmad-ibn-umar-al-qurtubi-mufhim: no Wikidata item found by English or Arabic name search.
+SKIPPED person/aisha-bint-al-harith-ibn-khalid: no Wikidata item found by English or Arabic name search.
+SKIPPED person/al-adil-abdallah-almohad: no Wikidata item found by English or Arabic name search.
+SKIPPED person/al-aqra-ibn-habis: no Wikidata item carries a birth or death date that agrees with the card; not linked.
+SKIPPED person/al-as-ibn-wail: death conflict: card 622, item 620.
+SKIPPED person/al-ash-ath-ibn-qays: no Wikidata item found by English or Arabic name search.
+SKIPPED person/al-ashath-ibn-qays: death 661 agrees but the card role companion is not on the item (military commander); not linked.
+SKIPPED person/al-ashraf-khalil: birth conflict: card 1262, item 1263; death 1293 agrees.
+SKIPPED person/al-barqani-ahmad-ibn-muhammad: no Wikidata item found by English or Arabic name search.
+SKIPPED person/al-harith-ibn-abi-shamir: no Wikidata item found by English or Arabic name search.
+SKIPPED person/al-harith-ibn-khalid: death 700 agrees on Q124745796, but its occupation is poet and the card role is companion; not linked.
+SKIPPED person/al-jarud-al-abdi: death conflict: card 642, item 641.
+SKIPPED person/al-muhajir-ibn-abi-umayya: no Wikidata item found by English or Arabic name search.
+SKIPPED person/al-mustakfi-billah: no Wikidata item found by English or Arabic name search.
+SKIPPED person/al-mustansir-yusuf-almohad: no Wikidata item found by English or Arabic name search.
+SKIPPED person/al-mustasim-zakariya-cairo: no Wikidata item found by English or Arabic name search.
+SKIPPED person/al-muttalib-ibn-azhar: no Wikidata item carries a birth or death date that agrees with the card; not linked.
+SKIPPED person/al-rabi-ibn-ziyad-al-harithi: no Wikidata item found by English or Arabic name search.
+SKIPPED person/ama-bint-khalid: no Wikidata item carries a birth or death date that agrees with the card; not linked.
+SKIPPED person/amr-ibn-al-ahtam: no Wikidata item carries a birth or death date that agrees with the card; not linked.
+SKIPPED person/amr-ibn-hazm: death conflict: card 655 approximate, item 673.
+SKIPPED person/amr-ibn-kharija: no Wikidata item found by English or Arabic name search.
+SKIPPED person/amr-ibn-umayya-al-damri: no Wikidata item carries a birth or death date that agrees with the card; not linked.
+SKIPPED person/arbad-ibn-qays: no Wikidata item carries a birth or death date that agrees with the card; not linked.
+SKIPPED person/bishr-ibn-al-harith-sahmi: no Wikidata item found by English or Arabic name search.
+SKIPPED person/budayl-ibn-warqa: no Wikidata item carries a birth or death date that agrees with the card; not linked.
+SKIPPED person/dirar-ibn-al-azwar: no Wikidata item found by English or Arabic name search.
+SKIPPED person/farwa-ibn-musayk: no Wikidata item carries a birth or death date that agrees with the card; not linked.
+SKIPPED person/fatima-bint-al-harith-ibn-khalid: no Wikidata item found by English or Arabic name search.
+SKIPPED person/fatima-bint-al-mujallal: no Wikidata item carries a birth or death date that agrees with the card; not linked.
+SKIPPED person/habbar-ibn-sufyan: no Wikidata item carries a birth or death date that agrees with the card; not linked.
+SKIPPED person/hakim-ibn-hizam: birth conflict: card 560, item 599; death 674 agrees.
+SKIPPED person/haritha-ibn-al-numan: no Wikidata item found by English or Arabic name search.
+SKIPPED person/hasana-umm-shurahbil: no Wikidata item found by English or Arabic name search.
+SKIPPED person/hattab-ibn-al-harith: no Wikidata item found by English or Arabic name search.
+SKIPPED person/hind-ibn-abi-hala: death 656 agrees but the card role companion is not on the item; not linked.
+SKIPPED person/ibn-al-abbar: item Q3321466 is already linked on main to another card; not linked again.
+SKIPPED person/ibn-al-arabi-ahmad: no Wikidata item found by English or Arabic name search.
+SKIPPED person/ibn-al-athir-diya-al-din: no Wikidata item found by English or Arabic name search.
+SKIPPED person/ibn-al-athir-izz-al-din: no Wikidata item found by English or Arabic name search.
+SKIPPED person/ibn-al-muqaddam-shams-al-din: no Wikidata item found by English or Arabic name search.
+SKIPPED person/ibn-al-raffa-qari: no Wikidata item found by English or Arabic name search.
+SKIPPED person/ibn-sayyid-al-nas: hit is a disambiguation page only.
+SKIPPED person/ibrahim-ibn-uqba: no Wikidata item found by English or Arabic name search.
+SKIPPED person/imru-al-qays-ibn-hujr: birth conflict: card 530, item 501; death conflict: card 545, item 544.
+SKIPPED person/julaybib: no Wikidata item carries a birth or death date that agrees with the card; not linked.
+SKIPPED person/kab-ibn-al-ashraf: birth conflict: card 585 approximate, item 600; death 624 agrees.
+SKIPPED person/kulthum-ibn-al-hidm: no Wikidata item found by English or Arabic name search.
+SKIPPED person/mahmud-khattab-al-subki: birth conflict: card 1857, item 1858 (Q12241302, already in another packet).
+SKIPPED person/malik-ibn-al-namt: no Wikidata item found by English or Arabic name search.
+SKIPPED person/malik-ibn-nuwayra: death conflict: card 632 approximate, item 634.
+SKIPPED person/manuel-ii-palaiologos: no Wikidata item found by English or Arabic name search.
+SKIPPED person/marhab-al-yahudi: no Wikidata item found by English or Arabic name search.
+SKIPPED person/masud-ibn-mahmud: no Wikidata item found by English or Arabic name search.
+SKIPPED person/muawwidh-ibn-afra: no Wikidata item found by English or Arabic name search.
+SKIPPED person/muhammad-ibn-abi-hudhayfa: item carries no death date and no birth date that agrees with the card.
+SKIPPED person/muhammad-ibn-hatib: no Wikidata item carries a birth or death date that agrees with the card; not linked.
+SKIPPED person/muhayyisa-ibn-masud: no Wikidata item found by English or Arabic name search.
+SKIPPED person/musharrif-al-dawla: death 1025 agrees but the item has no occupation to match the card role sultan (item: Buyid amir of Iraq); not linked.
+SKIPPED person/nuaym-ibn-masud: death conflict: card 656, item 700.
+SKIPPED person/oljeitu: birth conflict: card 1282, item 1280; death 1316 agrees; not linked.
+SKIPPED person/plato-of-tivoli: birth conflict: card 1134, item 1110.
+SKIPPED person/rafi-ibn-umayra: no Wikidata item found by English or Arabic name search.
+SKIPPED person/rifaa-ibn-zayd-al-judhami: no Wikidata item found by English or Arabic name search.
+SKIPPED person/sahl-ibn-harun: death 830 agrees but card role scholar does not match item occupations poet and writer; not linked.
+SKIPPED person/said-ibn-khalid: death conflict: card 634, item 643.
+SKIPPED person/sallam-ibn-abi-al-huqayq: no Wikidata item found by English or Arabic name search.
+SKIPPED person/sharaf-al-din-qaraqush: death 1212 agrees but the item has no occupation matching the card role military; not linked.
+SKIPPED person/suwayd-ibn-al-samit: no Wikidata item carries a birth or death date that agrees with the card; not linked.
+SKIPPED person/thuwayba: death conflict: card 628 approximate, item 629.
+SKIPPED person/uwaym-ibn-saida: no Wikidata item carries a birth or death date that agrees with the card; not linked.
+SKIPPED person/uyayna-ibn-hisn: no Wikidata item carries a birth or death date that agrees with the card; not linked.
+SKIPPED person/zaynab-bint-al-harith-ibn-khalid: no Wikidata item found by English or Arabic name search.
+SKIPPED person/ziyad-ibn-labid-al-bayadi: no Wikidata item found by English or Arabic name search.
+SKIPPED person/mehmed-v-uthmani: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/abu-jafar-muhammad-ibn-ubaydallah-al-abbasi: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/ali-ibn-muhammad-ibn-ubaydallah-al-abbasi: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/ibrahim: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/abu-al-atahiya-ibn-bishr: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/selim-i-uthmani: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/abdullah-ibn-bustam: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/abu-ishaq-al-shirazi: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/muhammad-ibn-sulayman-al-kufi: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/ismail: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/ibrahim-ibn-khalaf-ibn-tarif: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/hajar: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/yusuf: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/sulayman: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/yunus: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/ayyub: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/dawud: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/ibn-humayd-of-banu-al-harith-286: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/nuh: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/al-mutasim-abi-ishaq: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/firawn: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/maryam: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/qarun: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/ahmad-ibn-abbad-al-akili: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/iblis: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/ali-ibn-sulayman-ibn-al-qasim: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/ibn-qadi-shuhba: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/muhammad-ibn-said-ibn-yusuf: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/rutbil: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/zakariyya: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/al-qaim-cairo: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/abu-ishaq-ibrahim-al-marwazi: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/dhu-al-qarnayn: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/umm-musa: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/kulayb-ibn-rabia: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/muhammadu-tambari: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/qabil: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/sulayman-al-mustain: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/ibn-al-dahhak-rebel-at-khiwan-286: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/harun: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/ibn-al-samani-abd-al-rahim: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/sahib-al-zanj: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/hilal-ibn-umayya: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/muhammadu-mai-turare: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/murara-ibn-al-rabi: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/sasaa-ibn-jafar-al-hamdani: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/umayr-ibn-wahb-al-jumahi: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/utba-ibn-farqad: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/abd-al-rahman-sokoto: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/boabdil-muhammad-xii: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/hatim-al-tai: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/lut: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/qatada-ibn-idris-al-alawi: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/qutuz: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/haman: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/kab-al-ahbar: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/qays-ibn-al-haytham: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/shams-al-dawla-turanshah: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/abd-al-wahid-ii-almohad: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/abu-jaafar-ibn-shirzad: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/al-hakam-ii: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/al-muqawqis: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/amina-bint-khalf: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/harim-ibn-hayyan: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/jochi-ibn-genghis: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/muhammad-al-amin: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/rukana: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/sabur-ibn-ardashir: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/sara: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/sultan-al-dawla: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/ukaydir-ibn-abd-al-malik: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/youssef-chahine: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/abdallah-al-yunini: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/al-mutawakkil-iii-cairo: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/hawwa: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/husayn-ibn-ali-sharif-makkah: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/mahmud-al-alusi: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/salih: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/abu-al-ghasham-ibn-tarif: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/abu-ubayd-ibn-masud: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/abu-umar-al-maqdisi: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/ahmad-ibn-muhammad-governor-of-najran: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/ismail-ibn-al-muslim-al-hamdani: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/majid-bin-said: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/muhammad-ibn-abbad-al-tamimi: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/muhammad-ibn-al-daam: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/salih-ibn-abd-al-rahman: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/sayf-al-din-ghazi-ii: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/sukman-ibn-artuq: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/yusuf-ibn-muhammad-al-hasani: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/abd-al-qadir-al-rahawi: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/abu-al-ushayra-ibn-al-ruwayya: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/ahmad-ibn-muhammad-ibn-qudama: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/al-mundhir-ibn-sawa: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/amr-ibn-uthman-al-makki: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/john-of-seville: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/musa-ibn-al-harith-ibn-khalid: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/raynald-de-chatillon: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/roger-of-sicily: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/sariya-ibn-zunaym: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/sila-ibn-ashyam: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/abd-al-rahman-ibn-nasir-al-sadi: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/abu-al-husayn-ibn-al-qattan: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/abu-bakr-atiku: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/abu-hamid-al-marwarudhi: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/abu-taglib-fadlallah: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/abu-umayya-ibn-al-mughira: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/al-asmai: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/al-junayd-ibn-abd-al-rahman: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/al-junayd-ibn-muhammad: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/al-mansur-ibn-abi-amir: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/al-muayyad-shaykh: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/al-muhallabi-al-wazir: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/al-mundhir-ibn-ma-al-sama: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/al-samiri-ibn-sinina: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/al-zaghal: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/baldwin-iv: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/dahir: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/dawud-ibn-ali: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/hani-ibn-masud: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/ibn-al-shajari: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/ibrahim-ibn-al-mahdi: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/ishaq-ibn-abd-allah-ibn-abi-talha: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/khosrow-i-anushirvan: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/kurayb-mawla-ibn-abbas: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/man-ibn-zaida: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/qaydar: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/rawh-ibn-hatim: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/sallam-ibn-ziyad: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/shajar-al-durr: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/yuhanna-ibn-rubah: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/zubayda-bint-jafar: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/abd-al-haqq-ibn-mahyu: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/abd-al-rahman-ibn-samura: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/abdallah-ibn-budayl: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/abdullah-ibn-al-husayn-al-futayimi: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/abu-abd-allah-al-shii: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/abu-al-dughaysh-al-shihabi: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/abu-bakr-ibn-mansur-al-samani: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/abu-jafar-al-saymari: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/abu-said-ilkhan: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/adnan: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+SKIPPED person/al-alqami: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
