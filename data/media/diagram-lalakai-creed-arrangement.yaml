@@ -1,0 +1,24 @@
+id: media/diagram-lalakai-creed-arrangement
+class: media
+kind: illustration
+label: { ar: "منهج الللكائي: من المروي إلى الخلاف إلى الحجة", en: "Al-Lalaka'i's method: from the transmitted report to the dispute to the argument", ur: "للاکائی کا طرز: مروی سے اختلاف اور دلیل تک" }
+summary:
+  ar: "سلسلة تعليمية تبين خطوتي كل باب في كتاب الللكائي: ذكر المروي ووقت الخلاف ومن بدأه، ثم الحجة من القرآن والحديث وأقوال السلف؛ لا ترسم نصاً."
+  en: "Teaching chain showing the two steps of each chapter in al-Lalaka'i's book: stating the transmitted report, the time and origin of the dispute, then argument from the Qur'an, hadith and sayings of the early generations; it draws no text."
+  ur: "تدریسی سلسلہ جو للاکائی کی کتاب کے ہر باب کے دو مراحل دکھاتا ہے: مروی کا ذکر، اختلاف کا وقت اور آغاز، پھر قرآن، حدیث اور سابقین کے اقوال سے دلیل؛ نہ متن۔"
+license: CC0
+creator: "islam.museum"
+depicts: [invention/lalakai-creed-arrangement]
+alt:
+  ar: "خطان للسبب: أولاً المروي ووقت الخلاف ومن بدأه؛ ثانياً الحجة من الأسانيد. لا فقرات كتاب."
+  en: "Two-step chain: first the transmitted report and the dispute's time and origin; second the isnad-based argument. No book paragraphs."
+  ur: "دو مرحلوں کا سلسلہ: پہلے مروی اور اختلاف کا وقت و آغاز؛ پھر سندی دلیل۔ کوئی کتاب کا پیرا نہیں۔"
+generated: { tool: "site/src/components/InventionDiagram.astro (generic chain drawn at build time)", version: "1", date: "2026-11-15" }
+sources: [source/sharh-usul-itiqad-basira]
+status: { review: published, completeness: 2, generated_by: "Devin drafter w2-08" }
+provenance:
+  layer: own-research
+  generated_by: "Devin drafter w2-08"
+  model: "SWE-2"
+  run: inventions-w2-08-drafting
+  source: "Basira edition description of the chapter method (what is transmitted, when the dispute arose, who began it, argument to the end); generic relationship diagram, not a reproduction of a chapter"

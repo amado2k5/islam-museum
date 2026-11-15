@@ -1,0 +1,24 @@
+id: media/diagram-ibn-hibban-hadith-classification
+class: media
+kind: illustration
+label: { ar: "الأقسام الخمسة وأنواعها الأربعمائة عند ابن حبان", en: "Ibn Hibban's five divisions and four hundred types", ur: "ابن حبان کے پانچ اقسام اور چار سو انواع" }
+summary:
+  ar: "سلسلة تعليمية تبين الأقسام الخمسة الكبرى — الأوامر والنواهي والأخبار والإباح والأفعال — وتفرعها إلى أربعمائة نوع؛ لا ترسم نصاً ولا تعداداً كاملاً."
+  en: "Teaching chain showing the five major divisions — commands, prohibitions, reports, permissions, actions — branching into four hundred types; it draws no text and no full enumeration."
+  ur: "تدریسی سلسلہ جو پانچ بڑے حصوں — احکام، منع، خبریں، اجازتیں، افعال — اور ان کی چار سو انواع میں تقسیم دکھاتا ہے؛ نہ متن نہ مکمل فہرست۔"
+license: CC0
+creator: "islam.museum"
+depicts: [invention/ibn-hibban-hadith-classification]
+alt:
+  ar: "خطان للسبب: أولاً الأقسام الخمسة؛ ثانياً تفرعها إلى أربعمائة نوع. لا نصوص أحاديث."
+  en: "Two-step chain: first the five divisions; second their branching into four hundred types. No hadith texts."
+  ur: "دو مرحلوں کا سلسلہ: پہلے پانچ اقسام؛ پھر ان کی چار سو انواع میں تقسیم۔ کوئی حدیثی متن نہیں۔"
+generated: { tool: "site/src/components/InventionDiagram.astro (generic chain drawn at build time)", version: "1", date: "2026-11-15" }
+sources: [source/sahih-ibn-hibban-shakir-maarif-v1]
+status: { review: published, completeness: 2, generated_by: "Devin drafter w2-08" }
+provenance:
+  layer: own-research
+  generated_by: "Devin drafter w2-08"
+  model: "SWE-2"
+  run: inventions-w2-08-drafting
+  source: "Shakir edition preface pp. 56-59, 109, 112-113 describing the five divisions and 400 types; generic relationship diagram, not a reproduction of the book's tables"

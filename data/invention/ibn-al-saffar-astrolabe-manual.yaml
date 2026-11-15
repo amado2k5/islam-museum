@@ -1,0 +1,96 @@
+id: invention/ibn-al-saffar-astrolabe-manual
+class: invention
+label: { ar: "رسالة ابن الصفار في العمل بالأسطرلاب", en: "Ibn al-Saffar's astrolabe operating manual", ur: "ابن الصفار کا اسطرلاب استعمال کا رہنما رسالہ" }
+names:
+  - { value: "Tuhfat al-tullab fi al-amal bil-asturlab", kind: alternate, lang: ar }
+  - { value: "Treatise on the uses of the astrolabe", kind: alternate, lang: en }
+summary:
+  ar: "رسالة أندلسية شاملة في استعمال الأسطرلاب ألفها أبو القاسم أحمد بن عبد الله ابن الصفار الغافقي، تلميذ مسلمة المجريطي في قرطبة، وصفها سعيد الأندلسي بأنها بلغة واضحة ومفهومة، وترجمت إلى اللاتينية نحو 1134م واستعملها فلكيو بلاط ألفونسو العاشر {cite:bibalex-azhar-astronomy-manuscripts-2006 p. 14} {cite:bea-ibn-al-saffar}."
+  en: "A comprehensive Andalusi treatise on using the astrolabe by Abu al-Qasim Ahmad ibn Abdallah Ibn al-Saffar al-Ghafiqi, pupil of Maslama al-Majriti at Cordoba; Sa'id al-Andalusi described it as clear and comprehensible, and it was translated into Latin about 1134 and used by Alfonso X's astronomers {cite:bibalex-azhar-astronomy-manuscripts-2006 p. 14} {cite:bea-ibn-al-saffar}."
+  ur: "ابو القاسم احمد بن عبد اللہ ابن الصفار الغافقی کا اندلسی کام اسطرلاب کے استعمال کا جامع رسالہ تھا، جو قرطبہ میں مسلمہ المجریطی کا شاگرد تھا؛ سعید الاندلسی نے اسے واضح اور قابل فہم زبان میں بیان کیا، اور یہ تقریباً 1134ء میں لاطینی ترجمہ ہوا اور الفانسو دہم کے ماہرین فلکیات نے استعمال کیا {cite:bibalex-azhar-astronomy-manuscripts-2006 p. 14} {cite:bea-ibn-al-saffar}۔"
+domain: astronomy-instruments
+kind: method
+disciplines: [astronomy]
+wings: [ideas]
+regions: [andalus-europe]
+periods: [period/buyid-seljuk-fatimid-era]
+era:
+  origins: abbasid-golden
+  first_attested:
+    edtf: "../1035"
+    calendar: julian
+    precision: year
+    status: tradition
+    note: "Open latest-lifetime bound only: the treatise is undated in the sources read, and the author's death is given as 426/1035 in the Azhar catalogue (which notes al-Maqrizi's later mention) and as 1035 in the Biographical Encyclopedia of Astronomers. Not an asserted composition year. Hijri endpoint omitted because the Hijri field accepts a single date, not an open interval."
+    sources: [source/bibalex-azhar-astronomy-manuscripts-2006, source/bea-ibn-al-saffar]
+  status_today: transformed
+origin:
+  place: place/cordoba
+  context:
+    ar: "سياق مدرسة مسلمة المجريطي في قرطبة، حيث درس ابن الصفار الحساب والهندسة والفلك وتخرج عليه تلاميذ، قبل انتقاله إلى دانية بسبب الفتنة الأهلية {cite:bea-ibn-al-saffar} {cite:bibalex-azhar-astronomy-manuscripts-2006 p. 14}."
+    en: "Context of Maslama al-Majriti's school at Cordoba, where Ibn al-Saffar taught arithmetic, geometry and astronomy to disciples, before moving to Denia amid civil war {cite:bea-ibn-al-saffar} {cite:bibalex-azhar-astronomy-manuscripts-2006 p. 14}."
+    ur: "قرطبہ میں مسلمہ المجریطی کے مکتب کا سیاق، جہاں ابن الصفار نے حساب، ہندسہ اور فلکیات پڑھائی اور طلبہ پیدا کیے، پھر خانہ جنگی کی وجہ سے دانیہ منتقل ہوئے {cite:bea-ibn-al-saffar} {cite:bibalex-azhar-astronomy-manuscripts-2006 p. 14}۔"
+makers:
+  - person: person/abu-al-qasim-ibn-al-saffar
+    role: describer
+    place: place/cordoba
+    note: "Documented author of the treatise on astrolabe use; his position in Maslama's Cordoban school and his Arabic scholarly works document the Muslim basis. The Sunni label is the museum's declared frame for an Andalusi scholar of the Sunni milieu; no personal madhhab is asserted beyond the record."
+    sources: [source/bibalex-azhar-astronomy-manuscripts-2006, source/bea-ibn-al-saffar]
+attribution:
+  status: improvement
+  claim:
+    ar: "دليل شامل وموثق لاستعمال الأسطرلاب بلغته واضحة، وترجم إلى اللاتينية والعبرية والإسبانية القديمة؛ لا ادعاء باختراع الأسطرلاب نفسه."
+    en: "A comprehensive, clearly written documented guide to astrolabe operation, translated into Latin, Hebrew and Old Spanish; no claim to have invented the astrolabe itself."
+    ur: "اسطرلاب کے استعمال کی جامع اور واضح زبان میں لکھی گئی مستند کتاب، جو لاطینی، عبرانی اور پرانی ہسپانوی میں ترجمہ ہوئی؛ اسطرلاب کی ایجاد کا کوئی دعویٰ نہیں۔"
+  basis:
+    ar: "يصف المعجم البيوغرافي ابن الصفار بأنه مؤلف أشهر كتبه رسالة في استعمال الأسطرلاب ظلت مستعملة في أوروبا حتى القرن الخامس عشر، وأن يوحنا اللخمي وأفلاطون الطليطلي ترجمها إلى اللاتينية وأن الملك ألفونسو العاشر كان من مستعمليها {cite:bea-ibn-al-saffar}."
+    en: "The Biographical Encyclopedia calls his treatise on the uses of the astrolabe his most popular work, still used in Europe in the fifteenth century, translated into Latin by Johannes Hispalensis and Plato of Tivoli, and used by Alfonso X's astronomers {cite:bea-ibn-al-saffar}."
+    ur: "بائیوگرافیکل انسائیکلوپیڈیا اس کے اسطرلاب کے استعمال کے رسالے کو ان کی مشہور ترین کتاب کہتا ہے جو پندرہویں صدی تک یورپ میں استعمال ہوتی رہی، یوحنا ہسپالینسس اور افلاطون طلیطلی نے لاطینی ترجمہ کیا اور الفانسو دہم کے ماہرین فلکیات اسے استعمال کرتے تھے {cite:bea-ibn-al-saffar}۔"
+  perspectives: []
+precursors:
+  - external: { ar: "أدبيات الأسطرلاب اليونانية والعربية السابقة", en: "Earlier Greek and Arabic astrolabe literature", ur: "پہلی یونانی اور عربی اسطرلاب کی کتب" }
+    note: "The astrolabe's projection principle descends from earlier instrument literature; Ibn al-Saffar's contribution is the comprehensive operating manual, not the instrument {cite:bea-ibn-al-saffar} {cite:bibalex-azhar-astronomy-manuscripts-2006 p. 14}."
+    sources: [source/bea-ibn-al-saffar, source/bibalex-azhar-astronomy-manuscripts-2006]
+dependents:
+  - external: { ar: "الترجمات اللاتينية والعبرية والإسبانية القديمة واستعمال فلكيي ألفونسو العاشر", en: "The Latin, Hebrew and Old Spanish translations and the use by Alfonso X's astronomers", ur: "لاطینی، عبرانی اور پرانی ہسپانوی تراجم اور الفانسو دہم کے ماہرین فلکیات کا استعمال" }
+    note: "Johannes Hispalensis' Latin version (later misattributed to Maslama because of a borrowed chapter) and Plato of Tivoli's translation, a Hebrew version by Jacob ben Makhir, an Old Spanish version, and use at Alfonso X's court are documented; the treatise was still used in Europe in the fifteenth century {cite:bea-ibn-al-saffar}."
+    sources: [source/bea-ibn-al-saffar]
+spread: []
+impact:
+  fields: [astronomy-instruments]
+  changed:
+    ar: "قدّم أسلوباً شاملاً وواضحاً لتعليم عمل الأسطرلاب فبلغ القارئ العربي ثم اللاتيني والعبراني والإسباني، مع بقاء استعماله في أوروبا حتى القرن الخامس عشر {cite:bea-ibn-al-saffar}."
+    en: "Offered a comprehensive, clear way of teaching astrolabe operation that reached Arabic, then Latin, Hebrew and Spanish readers, remaining in European use into the fifteenth century {cite:bea-ibn-al-saffar}."
+    ur: "اسطرلاب کے کام سکھانے کا جامع اور واضح طریقہ پیش کیا جو عربی، پھر لاطینی، عبرانی اور ہسپانوی قارئین تک پہنچا اور پندرہویں صدی تک یورپی استعمال میں رہا {cite:bea-ibn-al-saffar}۔"
+  history:
+    ar: "ترجماته أثبتت وصول العلم الأندلسي إلى أوروبا عبر اللاتينية، ونسبه الناقلون خطأً إلى معلمه مسلمة في نسخة واحدة بسبب فصل منقول في آخر الكتاب {cite:bea-ibn-al-saffar}."
+    en: "Its translations attest the passage of Andalusi science to Europe through Latin; in one version transmitters misattributed it to his teacher Maslama because of a borrowed final chapter {cite:bea-ibn-al-saffar}."
+    ur: "اس کے تراجم اندلسی علم کے لاطینی کے ذریعے یورپ پہنچنے کی گواہی ہیں؛ ایک نسخے میں ناقلوں نے کتاب کے آخر کے مستعار باب کی وجہ سے اسے اس کے استاد مسلمہ سے منسوب کر دیا {cite:bea-ibn-al-saffar}۔"
+  significance: 4
+  why: "A documented comprehensive manual whose clear style and wide translation record — Latin, Hebrew, Old Spanish, Alfonso X's court, fifteenth-century European use — give it unusually well-attested spread for an instrument treatise."
+described_in: [work/tuhfat-al-tullab-fi-al-amal-bil-asturlab]
+examples: []
+sites: []
+concepts: []
+today:
+  form:
+    ar: "نموذج تاريخي لرسالة تعليمية في آلة؛ الصورة المعروضة أسطرلاب أندلسي من متحف المتروبوليتان المفتوح، مثال سياقي من عائلة الآلات وليس نسخة من رسالته {cite:met-open-access}."
+    en: "Historical example of an instrument-teaching treatise; the displayed image is an Andalusi astrolabe from the Metropolitan Museum's open access — a contextual family example, not a page of his treatise {cite:met-open-access}."
+    ur: "آلات کے سیکھنے کے رسالے کی تاریخی مثال؛ دکھائی گئی تصویر میٹروپولیٹن میوزیم کے کھلے ذخیرے سے ایک اندلسی اسطرلاب ہے — خاندان کی سیاقی مثال، اس کے رسالے کا صفحہ نہیں {cite:met-open-access}۔"
+  descendants:
+    ar: "الأسطرلاب نفسه صار آلة متحفية وأثرية بعد أفول استعماله، لكن أسلوب الشروح العملية للآلات استمر في كتب لاحقة {cite:bea-ibn-al-saffar}."
+    en: "The astrolabe itself became a museum and antiquarian object after its working use faded, but the practical manual tradition for instruments continued in later books {cite:bea-ibn-al-saffar}."
+    ur: "اسطرلاب خود اپنے استعمال کے بعد عجائب گھر اور قدیم چیز بن گیا، مگر آلات کے عملی رہنما رسالوں کی روایت بعد کی کتابوں میں جاری رہی {cite:bea-ibn-al-saffar}۔"
+media: { image: media/photo-astrolabe-umar-ibn-yusuf, diagram: media/diagram-ibn-al-saffar-astrolabe-manual }
+kids:
+  ar: "كان الأسطرلاب آلة مسطحة تساعد على معرفة الوقت والجهات وارتفاع النجوم. كتب ابن الصفار رسالة تشرح كيف يُستعمل خطوة خطوة، فوصلت ترجماتها إلى أوروبا وبقيت تُقرأ هناك قروناً بعد موته."
+  en: "The astrolabe was a flat instrument that helped tell time, directions and star heights. Ibn al-Saffar wrote a treatise explaining how to use it step by step; its translations reached Europe and were still read there centuries after his death."
+  ur: "اسطرلاب ایک سپاٹ آلہ تھا جو وقت، سمتیں اور ستاروں کی بلندی معلوم کرنے میں مدد دیتا تھا۔ ابن الصفار نے اس کے استعمال کی قدم بہ قدم وضاحت کا رسالہ لکھا؛ اس کے تراجم یورپ پہنچے اور اس کی موت کے صدیوں بعد بھی وہاں پڑھے جاتے رہے۔"
+sources: [source/bibalex-azhar-astronomy-manuscripts-2006, source/bea-ibn-al-saffar, source/arabic-latin-corpus-saffar-astrolabe, source/met-open-access]
+status: { review: published, completeness: 2, generated_by: "Devin drafter w2-08" }
+provenance:
+  layer: own-research
+  generated_by: "Devin drafter w2-08"
+  model: "SWE-2"
+  run: inventions-w2-08-drafting
+  source: "Bibliotheca Alexandrina astronomy manuscripts book p. 14 (Azhar catalogue entry); Biographical Encyclopedia of Astronomers Ibn al-Saffar entry pp. 566-567 (school, treatise popularity, translations, qibla, sundial); Arabic-Latin Corpus transcription index for the treatise's chapter structure; existing Met open-access astrolabe photograph. Death year treated as a bound only; no composition date, instrument priority or unverified chapter details beyond the corpus index."
