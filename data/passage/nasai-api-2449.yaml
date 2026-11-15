@@ -1,0 +1,16 @@
+id: passage/nasai-api-2449
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "2449"
+label: { ar: "سنن النسائي 2449 — ما لا يحل", en: "Sunan al-Nasa'i 2449 — what is not lawful", ur: "سنن نسائی 2449 — جو حلال نہیں" }
+text: "… قَالَ حَدَّثَنَا مُعْتَمِرٌ، قَالَ سَمِعْتُ بَهْزَ بْنَ حَكِيمٍ، يُحَدِّثُ عَنْ أَبِيهِ، عَنْ جَدِّهِ، قَالَ سَمِعْتُ رَسُولَ اللَّهِ يَقُولُ \" فِي كُلِّ إِبِلٍ سَائِمَةٍ مِنْ كُلِّ أَرْبَعِينَ ابْنَةُ لَبُونٍ لاَ تُفَرَّقُ إِبِلٌ عَنْ حِسَابِهَا مَنْ أَعْطَاهَا مُؤْتَجِرًا لَهُ أَجْرُهَا وَمَنْ مَنَعَهَا فَإِنَّا آخِذُوهَا وَشَطْرَ إِبِلِهِ عَزْمَةً مِنْ عَزَمَاتِ رَبِّنَا لاَ يَحِلُّ لآلِ مُحَمَّدٍ مِنْهَا شَىْءٌ \"."
+summary:
+  ar: "حديث في سنن النسائي، رقم 2449، يذكر ما لا يحل. يجمعه متصفح الحلال والحرام مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في ما أُحل وما حُرّم."
+  en: "A report in Sunan al-Nasa'i, no. 2449 (The Book of Zakah), that mentions what is not lawful. The Halal and Haram Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on what is lawful and what is unlawful."
+  ur: "سنن نسائی کی حدیث نمبر 2449، جس میں جو حلال نہیں کا ذکر ہے۔ حلال و حرام براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کی ان نصوص کے ساتھ جمع کرتا ہے جو حلال اور حرام بیان کرتی ہیں۔"
+relations:
+  - { type: mentions, target: concept/halal-haram, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 2449 (book 23 hadith 15); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

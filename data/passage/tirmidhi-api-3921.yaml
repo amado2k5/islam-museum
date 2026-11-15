@@ -1,0 +1,16 @@
+id: passage/tirmidhi-api-3921
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "3921"
+label: { ar: "جامع الترمذي 3921 — الحرام", en: "Jami' al-Tirmidhi 3921 — the unlawful", ur: "جامع ترمذی 3921 — حرام" }
+text: "… شِهَابٍ، عَنْ سَعِيدِ بْنِ الْمُسَيِّبِ، عَنْ أَبِي هُرَيْرَةَ، أَنَّهُ كَانَ يَقُولُ لَوْ رَأَيْتُ الظِّبَاءَ تَرْتَعُ بِالْمَدِينَةِ مَا ذَعَرْتُهَا إِنَّ رَسُولَ اللَّهِ قَالَ \" مَا بَيْنَ لاَبَتَيْهَا حَرَامٌ \". وَفِي الْبَابِ عَنْ سَعْدٍ وَعَبْدِ اللَّهِ بْنِ زَيْدٍ وَأَنَسٍ وَأَبِي أَيُّوبَ وَزَيْدِ بْنِ ثَابِتٍ وَرَافِعِ بْنِ خَدِيجٍ وَسَهْلِ بْنِ حُنَيْفٍ وَجَابِرٍ. حَدِيثُ أَبِي هُرَيْرَةَ حَدِيثٌ حَسَنٌ صَحِيحٌ."
+summary:
+  ar: "حديث في جامع الترمذي، رقم 3921، يذكر الحرام. يجمعه متصفح الحلال والحرام مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في ما أُحل وما حُرّم."
+  en: "A report in Jami' al-Tirmidhi, no. 3921 (Chapters on Virtues), that mentions the unlawful. The Halal and Haram Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on what is lawful and what is unlawful."
+  ur: "جامع ترمذی کی حدیث نمبر 3921، جس میں حرام کا ذکر ہے۔ حلال و حرام براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کی ان نصوص کے ساتھ جمع کرتا ہے جو حلال اور حرام بیان کرتی ہیں۔"
+relations:
+  - { type: mentions, target: concept/halal-haram, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 3921 (book 49 hadith 321); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

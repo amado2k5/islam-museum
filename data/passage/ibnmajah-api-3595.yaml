@@ -1,0 +1,16 @@
+id: passage/ibnmajah-api-3595
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "3595"
+label: { ar: "سنن ابن ماجه 3595 — الحرام", en: "Sunan Ibn Majah 3595 — the unlawful", ur: "سنن ابن ماجہ 3595 — حرام" }
+text: "… مُحَمَّدِ بْنِ إِسْحَاقَ، عَنْ يَزِيدَ بْنِ أَبِي حَبِيبٍ، عَنْ عَبْدِ الْعَزِيزِ بْنِ أَبِي الصَّعْبَةِ، عَنْ أَبِي الأَفْلَحِ الْهَمْدَانِيِّ، عَنْ عَبْدِ اللَّهِ بْنِ زُرَيْرٍ الْغَافِقِيِّ، سَمِعْتُهُ يَقُولُ سَمِعْتُ عَلِيَّ بْنَ أَبِي طَالِبٍ، يَقُولُ أَخَذَ رَسُولُ اللَّهِ ـ حَرِيرًا بِشِمَالِهِ وَذَهَبًا بِيَمِينِهِ ثُمَّ رَفَعَ بِهِمَا يَدَيْهِ فَقَالَ \" إِنَّ هَذَيْنِ حَرَامٌ عَلَى ذُكُورِ أُمَّتِي حِلٌّ لإِنَاثِهِمْ \"."
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 3595، يذكر الحرام. يجمعه متصفح الحلال والحرام مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في ما أُحل وما حُرّم."
+  en: "A report in Sunan Ibn Majah, no. 3595 (Chapters on Dress), that mentions the unlawful. The Halal and Haram Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on what is lawful and what is unlawful."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 3595، جس میں حرام کا ذکر ہے۔ حلال و حرام براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کی ان نصوص کے ساتھ جمع کرتا ہے جو حلال اور حرام بیان کرتی ہیں۔"
+relations:
+  - { type: mentions, target: concept/halal-haram, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 3595 (book 32 hadith 46); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

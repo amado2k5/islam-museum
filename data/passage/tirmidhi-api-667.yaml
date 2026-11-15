@@ -1,0 +1,16 @@
+id: passage/tirmidhi-api-667
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "667"
+label: { ar: "جامع الترمذي 667 — ما أُحل", en: "Jami' al-Tirmidhi 667 — what was made lawful", ur: "جامع ترمذی 667 — جو حلال کیا گیا" }
+text: "… إِلاَّ مِنْ هَذَا الْوَجْهِ. وَعَبْدُ اللَّهِ بْنُ عَطَاءٍ ثِقَةٌ عِنْدَ أَهْلِ الْحَدِيثِ. وَالْعَمَلُ عَلَى هَذَا عِنْدَ أَكْثَرِ أَهْلِ الْعِلْمِ أَنَّ الرَّجُلَ إِذَا تَصَدَّقَ بِصَدَقَةٍ ثُمَّ وَرِثَهَا حَلَّتْ لَهُ. وَقَالَ بَعْضُهُمْ إِنَّمَا الصَّدَقَةُ شَيْءٌ جَعَلَهَا لِلَّهِ فَإِذَا وَرِثَهَا فَيَجِبُ أَنْ يَصْرِفَهَا فِي مِثْلِهِ. وَرَوَى سُفْيَانُ الثَّوْرِيُّ وَزُهَيْرُ بْنُ مُعَاوِيَةَ هَذَا الْحَدِيثَ عَنْ عَبْدِ اللَّهِ بْنِ عَطَاءٍ."
+summary:
+  ar: "حديث في جامع الترمذي، رقم 667، يذكر ما أُحل. يجمعه متصفح الحلال والحرام مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في ما أُحل وما حُرّم."
+  en: "A report in Jami' al-Tirmidhi, no. 667 (The Book on Zakat), that mentions what was made lawful. The Halal and Haram Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on what is lawful and what is unlawful."
+  ur: "جامع ترمذی کی حدیث نمبر 667، جس میں جو حلال کیا گیا کا ذکر ہے۔ حلال و حرام براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کی ان نصوص کے ساتھ جمع کرتا ہے جو حلال اور حرام بیان کرتی ہیں۔"
+relations:
+  - { type: mentions, target: concept/halal-haram, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 667 (book 7 hadith 51); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

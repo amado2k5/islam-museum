@@ -1,0 +1,16 @@
+id: passage/muslim-api-3422
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "3422"
+label: { ar: "صحيح مسلم 3422 — ما حُرّم", en: "Sahih Muslim 3422 — what was made unlawful", ur: "صحیح مسلم 3422 — جو حرام کیا گیا" }
+text: "… نُمَيْرٍ، حَدَّثَنَا أَبِي، حَدَّثَنَا عَبْدُ الْعَزِيزِ بْنُ عُمَرَ، حَدَّثَنِي الرَّبِيعُ بْنُ سَبْرَةَ الْجُهَنِيُّ، أَنَّ أَبَاهُ، حَدَّثَهُ أَنَّهُ، كَانَ مَعَ رَسُولِ اللَّهِ فَقَالَ \" يَا أَيُّهَا النَّاسُ إِنِّي قَدْ كُنْتُ أَذِنْتُ لَكُمْ فِي الاِسْتِمْتَاعِ مِنَ النِّسَاءِ وَإِنَّ اللَّهَ قَدْ حَرَّمَ ذَلِكَ إِلَى يَوْمِ الْقِيَامَةِ فَمَنْ كَانَ عِنْدَهُ مِنْهُنَّ شَىْءٌ فَلْيُخَلِّ سَبِيلَهُ وَلاَ تَأْخُذُوا مِمَّا آتَيْتُمُوهُنَّ شَيْئًا\"."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 3422، يذكر ما حُرّم. يجمعه متصفح الحلال والحرام مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في ما أُحل وما حُرّم."
+  en: "A report in Sahih Muslim, no. 3422 (The Book of Marriage), that mentions what was made unlawful. The Halal and Haram Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on what is lawful and what is unlawful."
+  ur: "صحیح مسلم کی حدیث نمبر 3422، جس میں جو حرام کیا گیا کا ذکر ہے۔ حلال و حرام براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کی ان نصوص کے ساتھ جمع کرتا ہے جو حلال اور حرام بیان کرتی ہیں۔"
+relations:
+  - { type: mentions, target: concept/halal-haram, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 3422 (book 16 hadith 25); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

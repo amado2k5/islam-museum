@@ -1,0 +1,16 @@
+id: passage/muslim-api-3305
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "3305"
+label: { ar: "صحيح مسلم 3305 — ما أُحل، ما لا يحل", en: "Sahih Muslim 3305 — what was made lawful; what is not lawful", ur: "صحیح مسلم 3305 — جو حلال کیا گیا، جو حلال نہیں" }
+text: "… فَحَمِدَ اللَّهَ وَأَثْنَى عَلَيْهِ ثُمَّ قَالَ \" إِنَّ اللَّهَ حَبَسَ عَنْ مَكَّةَ الْفِيلَ وَسَلَّطَ عَلَيْهَا رَسُولَهُ وَالْمُؤْمِنِينَ وَإِنَّهَا لَنْ تَحِلَّ لأَحَدٍ كَانَ قَبْلِي وَإِنَّهَا أُحِلَّتْ لِي سَاعَةً مِنْ نَهَارٍ وَإِنَّهَا لَنْ تَحِلَّ لأَحَدٍ بَعْدِي فَلاَ يُنَفَّرُ صَيْدُهَا وَلاَ يُخْتَلَى شَوْكُهَا وَلاَ تَحِلُّ سَاقِطَتُهَا إِلاَّ لِمُنْشِدٍ وَمَنْ قُتِلَ لَهُ قَتِيلٌ فَهُوَ بِخَيْرِ النَّظَرَيْنِ إِمَّا أَنْ يُفْدَى …"
+summary:
+  ar: "حديث في صحيح مسلم، رقم 3305، يذكر ما أُحل، وما لا يحل. يجمعه متصفح الحلال والحرام مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في ما أُحل وما حُرّم."
+  en: "A report in Sahih Muslim, no. 3305 (The Book of Pilgrimage), that mentions what was made lawful, what is not lawful. The Halal and Haram Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on what is lawful and what is unlawful."
+  ur: "صحیح مسلم کی حدیث نمبر 3305، جس میں جو حلال کیا گیا، جو حلال نہیں کا ذکر ہے۔ حلال و حرام براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کی ان نصوص کے ساتھ جمع کرتا ہے جو حلال اور حرام بیان کرتی ہیں۔"
+relations:
+  - { type: mentions, target: concept/halal-haram, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 3305 (book 15 hadith 509); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

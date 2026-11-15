@@ -1,0 +1,16 @@
+id: passage/bukhari-api-2051
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "2051"
+label: { ar: "صحيح البخاري 2051 — الحلال، الحرام", en: "Sahih al-Bukhari 2051 — the lawful; the unlawful", ur: "صحیح بخاری 2051 — حلال، حرام" }
+text: "… بْنُ كَثِيرٍ، أَخْبَرَنَا سُفْيَانُ، عَنْ أَبِي فَرْوَةَ، عَنِ الشَّعْبِيِّ، عَنِ النُّعْمَانِ بْنِ بَشِيرٍ ـ قَالَ قَالَ النَّبِيُّ \" الْحَلاَلُ بَيِّنٌ، وَالْحَرَامُ بَيِّنٌ وَبَيْنَهُمَا أُمُورٌ مُشْتَبِهَةٌ، فَمَنْ تَرَكَ مَا شُبِّهَ عَلَيْهِ مِنَ الإِثْمِ كَانَ لِمَا اسْتَبَانَ أَتْرَكَ، وَمَنِ اجْتَرَأَ عَلَى مَا يَشُكُّ فِيهِ مِنَ الإِثْمِ أَوْشَكَ أَنْ يُوَاقِعَ مَا اسْتَبَانَ، وَالْمَعَاصِي حِمَى اللَّهِ، مَنْ يَرْتَعْ حَوْلَ …"
+summary:
+  ar: "حديث في صحيح البخاري، رقم 2051، يذكر الحلال، والحرام. يجمعه متصفح الحلال والحرام مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في ما أُحل وما حُرّم."
+  en: "A report in Sahih al-Bukhari, no. 2051 (Sales and Trade), that mentions the lawful, the unlawful. The Halal and Haram Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on what is lawful and what is unlawful."
+  ur: "صحیح بخاری کی حدیث نمبر 2051، جس میں حلال، حرام کا ذکر ہے۔ حلال و حرام براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کی ان نصوص کے ساتھ جمع کرتا ہے جو حلال اور حرام بیان کرتی ہیں۔"
+relations:
+  - { type: mentions, target: concept/halal-haram, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 2051 (book 34 hadith 5); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

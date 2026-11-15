@@ -1,0 +1,16 @@
+id: passage/muslim-api-2986
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2986"
+label: { ar: "صحيح مسلم 2986 — ما لا يحل", en: "Sahih Muslim 2986 — what is not lawful", ur: "صحیح مسلم 2986 — جو حلال نہیں" }
+text: "حَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، حَدَّثَنَا يَحْيَى بْنُ سَعِيدٍ، عَنْ عُبَيْدِ اللَّهِ، قَالَ أَخْبَرَنِي نَافِعٌ، عَنِ ابْنِ عُمَرَ، عَنْ حَفْصَةَ، -م - قَالَتْ قُلْتُ لِلنَّبِيِّ مَا شَأْنُ النَّاسِ حَلُّوا وَلَمْ تَحِلَّ مِنْ عُمْرَتِكَ قَالَ \" إِنِّي قَلَّدْتُ هَدْيِي وَلَبَّدْتُ رَأْسِي فَلاَ أَحِلُّ حَتَّى أَحِلَّ مِنَ الْحَجِّ \"."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 2986، يذكر ما لا يحل. يجمعه متصفح الحلال والحرام مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في ما أُحل وما حُرّم."
+  en: "A report in Sahih Muslim, no. 2986 (The Book of Pilgrimage), that mentions what is not lawful. The Halal and Haram Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on what is lawful and what is unlawful."
+  ur: "صحیح مسلم کی حدیث نمبر 2986، جس میں جو حلال نہیں کا ذکر ہے۔ حلال و حرام براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کی ان نصوص کے ساتھ جمع کرتا ہے جو حلال اور حرام بیان کرتی ہیں۔"
+relations:
+  - { type: mentions, target: concept/halal-haram, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 2986 (book 15 hadith 194); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

@@ -1,0 +1,16 @@
+id: passage/abudawud-api-1716
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "1716"
+label: { ar: "سنن أبي داود 1716 — الحلال", en: "Sunan Abi Dawud 1716 — the lawful", ur: "سنن ابی داؤد 1716 — حلال" }
+text: "… فَجَاءَ بِهِ فَعَجَنَتْ وَنَصَبَتْ وَخَبَزَتْ وَأَرْسَلَتْ إِلَى أَبِيهَا فَجَاءَهُمْ فَقَالَتْ يَا رَسُولَ اللَّهِ أَذْكُرُ لَكَ فَإِنْ رَأَيْتَهُ لَنَا حَلاَلاً أَكَلْنَاهُ وَأَكَلْتَ مَعَنَا مِنْ شَأْنِهِ كَذَا وَكَذَا. فَقَالَ \" كُلُوا بِاسْمِ اللَّهِ \". فَأَكَلُوا فَبَيْنَمَا هُمْ مَكَانَهُمْ إِذَا غُلاَمٌ يَنْشُدُ اللَّهَ وَالإِسْلاَمَ الدِّينَارَ فَأَمَرَ رَسُولُ اللَّهِ فَدُعِيَ لَهُ فَسَأَلَهُ. فَقَالَ سَقَطَ مِنِّي فِي السُّوقِ. فَقَالَ النَّبِيُّ …"
+summary:
+  ar: "حديث في سنن أبي داود، رقم 1716، يذكر الحلال. يجمعه متصفح الحلال والحرام مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في ما أُحل وما حُرّم."
+  en: "A report in Sunan Abi Dawud, no. 1716 (The Book of Lost and Found Items), that mentions the lawful. The Halal and Haram Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on what is lawful and what is unlawful."
+  ur: "سنن ابی داؤد کی حدیث نمبر 1716، جس میں حلال کا ذکر ہے۔ حلال و حرام براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کی ان نصوص کے ساتھ جمع کرتا ہے جو حلال اور حرام بیان کرتی ہیں۔"
+relations:
+  - { type: mentions, target: concept/halal-haram, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 1716 (book 10 hadith 16); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

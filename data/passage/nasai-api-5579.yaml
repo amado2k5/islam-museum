@@ -1,0 +1,16 @@
+id: passage/nasai-api-5579
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "5579"
+label: { ar: "سنن النسائي 5579 — التحريم", en: "Sunan al-Nasa'i 5579 — prohibition", ur: "سنن نسائی 5579 — تحریم" }
+text: "أَخْبَرَنَا مُحَمَّدُ بْنُ الْعَلاَءِ، قَالَ أَنْبَأَنَا ابْنُ إِدْرِيسَ، عَنْ زَكَرِيَّا، وَأَبِي، حَيَّانَ عَنِ الشَّعْبِيِّ، عَنِ ابْنِ عُمَرَ، قَالَ سَمِعْتُ عُمَرَ بْنَ الْخَطَّابِ، عَلَى مِنْبَرِ رَسُولِ اللَّهِ يَقُولُ أَمَّا بَعْدُ فَإِنَّ الْخَمْرَ نَزَلَ تَحْرِيمُهَا وَهِيَ مِنْ خَمْسَةٍ مِنَ الْعِنَبِ وَالْحِنْطَةِ وَالشَّعِيرِ وَالتَّمْرِ وَالْعَسَلِ."
+summary:
+  ar: "حديث في سنن النسائي، رقم 5579، يذكر التحريم. يجمعه متصفح الحلال والحرام مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في ما أُحل وما حُرّم."
+  en: "A report in Sunan al-Nasa'i, no. 5579 (The Book of Drinks), that mentions prohibition. The Halal and Haram Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on what is lawful and what is unlawful."
+  ur: "سنن نسائی کی حدیث نمبر 5579، جس میں تحریم کا ذکر ہے۔ حلال و حرام براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کی ان نصوص کے ساتھ جمع کرتا ہے جو حلال اور حرام بیان کرتی ہیں۔"
+relations:
+  - { type: mentions, target: concept/halal-haram, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 5579 (book 51 hadith 41); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

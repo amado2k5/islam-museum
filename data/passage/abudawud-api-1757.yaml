@@ -1,0 +1,16 @@
+id: passage/abudawud-api-1757
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "1757"
+label: { ar: "سنن أبي داود 1757 — ما حُرّم", en: "Sunan Abi Dawud 1757 — what was made unlawful", ur: "سنن ابی داؤد 1757 — جو حرام کیا گیا" }
+text: "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مَسْلَمَةَ الْقَعْنَبِيُّ، حَدَّثَنَا أَفْلَحُ بْنُ حُمَيْدٍ، عَنِ الْقَاسِمِ، عَنْ عَائِشَةَ، قَالَتْ فَتَلْتُ قَلاَئِدَ بُدْنِ رَسُولِ اللَّهِ بِيَدَىَّ ثُمَّ أَشْعَرَهَا وَقَلَّدَهَا ثُمَّ بَعَثَ بِهَا إِلَى الْبَيْتِ وَأَقَامَ بِالْمَدِينَةِ فَمَا حَرُمَ عَلَيْهِ شَىْءٌ كَانَ لَهُ حِلاًّ."
+summary:
+  ar: "حديث في سنن أبي داود، رقم 1757، يذكر ما حُرّم. يجمعه متصفح الحلال والحرام مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في ما أُحل وما حُرّم."
+  en: "A report in Sunan Abi Dawud, no. 1757 (The Rites of Hajj (Kitab Al-Manasik Wa'l-Hajj)), that mentions what was made unlawful. The Halal and Haram Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on what is lawful and what is unlawful."
+  ur: "سنن ابی داؤد کی حدیث نمبر 1757، جس میں جو حرام کیا گیا کا ذکر ہے۔ حلال و حرام براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کی ان نصوص کے ساتھ جمع کرتا ہے جو حلال اور حرام بیان کرتی ہیں۔"
+relations:
+  - { type: mentions, target: concept/halal-haram, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 1757 (book 11 hadith 37); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

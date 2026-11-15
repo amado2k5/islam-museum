@@ -1,0 +1,16 @@
+id: passage/muslim-api-4383
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "4383"
+label: { ar: "صحيح مسلم 4383 — الحرام", en: "Sahih Muslim 4383 — the unlawful", ur: "صحیح مسلم 4383 — حرام" }
+text: "… \". قُلْنَا بَلَى يَا رَسُولَ اللَّهِ. قَالَ \" فَإِنَّ دِمَاءَكُمْ وَأَمْوَالَكُمْ - قَالَ مُحَمَّدٌ وَأَحْسِبُهُ قَالَ - وَأَعْرَاضَكُمْ حَرَامٌ عَلَيْكُمْ كَحُرْمَةِ يَوْمِكُمْ هَذَا فِي بَلَدِكُمْ هَذَا فِي شَهْرِكُمْ هَذَا وَسَتَلْقَوْنَ رَبَّكُمْ فَيَسْأَلُكُمْ عَنْ أَعْمَالِكُمْ فَلاَ تَرْجِعُنَّ بَعْدِي كُفَّارًا - أَوْ ضُلاَّلاً - يَضْرِبُ بَعْضُكُمْ رِقَابَ بَعْضٍ أَلاَ لِيُبَلِّغِ الشَّاهِدُ الْغَائِبَ فَلَعَلَّ بَعْضَ مَنْ يُبَلَّغُهُ يَكُونُ …"
+summary:
+  ar: "حديث في صحيح مسلم، رقم 4383، يذكر الحرام. يجمعه متصفح الحلال والحرام مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في ما أُحل وما حُرّم."
+  en: "A report in Sahih Muslim, no. 4383 (The Book of Oaths, Muharibin, Qasas (Retaliation), and Diyat (Blood Money)), that mentions the unlawful. The Halal and Haram Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on what is lawful and what is unlawful."
+  ur: "صحیح مسلم کی حدیث نمبر 4383، جس میں حرام کا ذکر ہے۔ حلال و حرام براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کی ان نصوص کے ساتھ جمع کرتا ہے جو حلال اور حرام بیان کرتی ہیں۔"
+relations:
+  - { type: mentions, target: concept/halal-haram, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 4383 (book 28 hadith 42); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

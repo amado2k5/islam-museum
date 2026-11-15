@@ -1,0 +1,16 @@
+id: passage/nasai-api-3204
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "3204"
+label: { ar: "سنن النسائي 3204 — ما أُحل", en: "Sunan al-Nasa'i 3204 — what was made lawful", ur: "سنن نسائی 3204 — جو حلال کیا گیا" }
+text: "أَخْبَرَنَا مُحَمَّدُ بْنُ مَنْصُورٍ، عَنْ سُفْيَانَ، قَالَ حَفِظْنَاهُ مِنْ عَمْرٍو عَنْ عَطَاءٍ، قَالَ قَالَتْ عَائِشَةُ مَا مَاتَ رَسُولُ اللَّهِ حَتَّى أُحِلَّ لَهُ النِّسَاءُ."
+summary:
+  ar: "حديث في سنن النسائي، رقم 3204، يذكر ما أُحل. يجمعه متصفح الحلال والحرام مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في ما أُحل وما حُرّم."
+  en: "A report in Sunan al-Nasa'i, no. 3204 (The Book of Marriage), that mentions what was made lawful. The Halal and Haram Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on what is lawful and what is unlawful."
+  ur: "سنن نسائی کی حدیث نمبر 3204، جس میں جو حلال کیا گیا کا ذکر ہے۔ حلال و حرام براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کی ان نصوص کے ساتھ جمع کرتا ہے جو حلال اور حرام بیان کرتی ہیں۔"
+relations:
+  - { type: mentions, target: concept/halal-haram, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 3204 (book 26 hadith 9); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

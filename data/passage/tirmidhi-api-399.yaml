@@ -1,0 +1,16 @@
+id: passage/tirmidhi-api-399
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "399"
+label: { ar: "جامع الترمذي 399 — التحريم", en: "Jami' al-Tirmidhi 399 — prohibition", ur: "جامع ترمذی 399 — تحریم" }
+text: "… تَكَلَّمَ فِي الصَّلاَةِ نَاسِيًا أَوْ جَاهِلاً أَوْ مَا كَانَ فَإِنَّهُ يُعِيدُ الصَّلاَةَ وَاعْتَلُّوا بِأَنَّ هَذَا الْحَدِيثَ كَانَ قَبْلَ تَحْرِيمِ الْكَلاَمِ فِي الصَّلاَةِ. قَالَ وَأَمَّا الشَّافِعِيُّ فَرَأَى هَذَا حَدِيثًا صَحِيحًا فَقَالَ بِهِ وَقَالَ هَذَا أَصَحُّ مِنَ الْحَدِيثِ الَّذِي رُوِيَ عَنِ النَّبِيِّ فِي الصَّائِمِ إِذَا أَكَلَ نَاسِيًا فَإِنَّهُ لاَ يَقْضِي وَإِنَّمَا هُوَ رِزْقٌ رَزَقَهُ اللَّهُ. قَالَ الشَّافِعِيُّ …"
+summary:
+  ar: "حديث في جامع الترمذي، رقم 399، يذكر التحريم. يجمعه متصفح الحلال والحرام مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في ما أُحل وما حُرّم."
+  en: "A report in Jami' al-Tirmidhi, no. 399 (The Book on Salat (Prayer)), that mentions prohibition. The Halal and Haram Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on what is lawful and what is unlawful."
+  ur: "جامع ترمذی کی حدیث نمبر 399، جس میں تحریم کا ذکر ہے۔ حلال و حرام براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کی ان نصوص کے ساتھ جمع کرتا ہے جو حلال اور حرام بیان کرتی ہیں۔"
+relations:
+  - { type: mentions, target: concept/halal-haram, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 399 (book 2 hadith 252); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

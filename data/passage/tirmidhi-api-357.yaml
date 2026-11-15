@@ -1,0 +1,16 @@
+id: passage/tirmidhi-api-357
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "357"
+label: { ar: "جامع الترمذي 357 — ما أُحل، ما لا يحل", en: "Jami' al-Tirmidhi 357 — what was made lawful; what is not lawful", ur: "جامع ترمذی 357 — جو حلال کیا گیا، جو حلال نہیں" }
+text: "… بْنُ صَالِحٍ، عَنْ يَزِيدَ بْنِ شُرَيْحٍ، عَنْ أَبِي حَىٍّ الْمُؤَذِّنِ الْحِمْصِيِّ، عَنْ ثَوْبَانَ، عَنْ رَسُولِ اللَّهِ قَالَ \" لاَ يَحِلُّ لاِمْرِئٍ أَنْ يَنْظُرَ فِي جَوْفِ بَيْتِ امْرِئٍ حَتَّى يَسْتَأْذِنَ فَإِنْ نَظَرَ فَقَدْ دَخَلَ وَلاَ يَؤُمَّ قَوْمًا فَيَخُصَّ نَفْسَهُ بِدَعْوَةٍ دُونَهُمْ فَإِنْ فَعَلَ فَقَدْ خَانَهُمْ وَلاَ يَقُومُ إِلَى الصَّلاَةِ وَهُوَ حَقِنٌ \". قَالَ وَفِي الْبَابِ عَنْ …"
+summary:
+  ar: "حديث في جامع الترمذي، رقم 357، يذكر ما أُحل، وما لا يحل. يجمعه متصفح الحلال والحرام مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في ما أُحل وما حُرّم."
+  en: "A report in Jami' al-Tirmidhi, no. 357 (The Book on Salat (Prayer)), that mentions what was made lawful, what is not lawful. The Halal and Haram Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on what is lawful and what is unlawful."
+  ur: "جامع ترمذی کی حدیث نمبر 357، جس میں جو حلال کیا گیا، جو حلال نہیں کا ذکر ہے۔ حلال و حرام براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کی ان نصوص کے ساتھ جمع کرتا ہے جو حلال اور حرام بیان کرتی ہیں۔"
+relations:
+  - { type: mentions, target: concept/halal-haram, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 357 (book 2 hadith 209); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

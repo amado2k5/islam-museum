@@ -1,0 +1,16 @@
+id: passage/bukhari-api-1641
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "1641"
+label: { ar: "صحيح البخاري 1641 — ما لا يحل", en: "Sahih al-Bukhari 1641 — what is not lawful", ur: "صحیح بخاری 1641 — جو حلال نہیں" }
+text: "… وَهَذَا ابْنُ عُمَرَ عِنْدَهُمْ فَلاَ يَسْأَلُونَهُ، وَلاَ أَحَدٌ مِمَّنْ مَضَى، مَا كَانُوا يَبْدَءُونَ بِشَىْءٍ حَتَّى يَضَعُوا أَقْدَامَهُمْ مِنَ الطَّوَافِ بِالْبَيْتِ، ثُمَّ لاَ يَحِلُّونَ، وَقَدْ رَأَيْتُ أُمِّي وَخَالَتِي، حِينَ تَقْدَمَانِ لاَ تَبْتَدِئَانِ بِشَىْءٍ أَوَّلَ مِنَ الْبَيْتِ، تَطُوفَانِ بِهِ، ثُمَّ لاَ تَحِلاَّنِ. وَقَدْ أَخْبَرَتْنِي أُمِّي، أَنَّهَا أَهَلَّتْ هِيَ وَأُخْتُهَا وَالزُّبَيْرُ وَفُلاَنٌ وَفُلاَنٌ بِعُمْرَةٍ، فَلَمَّا مَسَحُوا الرُّكْنَ حَلُّوا."
+summary:
+  ar: "حديث في صحيح البخاري، رقم 1641، يذكر ما لا يحل. يجمعه متصفح الحلال والحرام مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في ما أُحل وما حُرّم."
+  en: "A report in Sahih al-Bukhari, no. 1641, that mentions what is not lawful. The Halal and Haram Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on what is lawful and what is unlawful."
+  ur: "صحیح بخاری کی حدیث نمبر 1641، جس میں جو حلال نہیں کا ذکر ہے۔ حلال و حرام براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کی ان نصوص کے ساتھ جمع کرتا ہے جو حلال اور حرام بیان کرتی ہیں۔"
+relations:
+  - { type: mentions, target: concept/halal-haram, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 1641 (book 0 hadith 0); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

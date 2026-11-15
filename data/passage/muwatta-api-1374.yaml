@@ -1,0 +1,16 @@
+id: passage/muwatta-api-1374
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "1374"
+label: { ar: "موطأ مالك 1374 — الحلال، المكروه", en: "Muwatta Malik 1374 — the lawful; the disliked", ur: "موطأ مالک 1374 — حلال، مکروہ" }
+text: "… شَرْطٍ أَوْ وَأْىٍ أَوْ عَادَةٍ فَذَلِكَ مَكْرُوهٌ وَلاَ خَيْرَ فِيهِ. قَالَ وَذَلِكَ أَنَّ رَسُولَ اللَّهِ قَضَى جَمَلاً رَبَاعِيًا خِيَارًا مَكَانَ بَكْرٍ اسْتَسْلَفَهُ وَأَنَّ عَبْدَ اللَّهِ بْنَ عُمَرَ اسْتَسْلَفَ دَرَاهِمَ فَقَضَى خَيْرًا مِنْهَا فَإِنْ كَانَ ذَلِكَ عَلَى طِيبِ نَفْسٍ مِنَ الْمُسْتَسْلِفِ وَلَمْ يَكُنْ ذَلِكَ عَلَى شَرْطٍ وَلاَ وَأْىٍ وَلاَ عَادَةٍ كَانَ ذَلِكَ حَلاَلاً لاَ بَأْسَ بِهِ."
+summary:
+  ar: "حديث في موطأ مالك، رقم 1374، يذكر الحلال، والمكروه. يجمعه متصفح الحلال والحرام مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في ما أُحل وما حُرّم."
+  en: "A report in Muwatta Malik, no. 1374 (Business Transactions), that mentions the lawful, the disliked. The Halal and Haram Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on what is lawful and what is unlawful."
+  ur: "موطأ مالک کی حدیث نمبر 1374، جس میں حلال، مکروہ کا ذکر ہے۔ حلال و حرام براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کی ان نصوص کے ساتھ جمع کرتا ہے جو حلال اور حرام بیان کرتی ہیں۔"
+relations:
+  - { type: mentions, target: concept/halal-haram, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 1374 (book 31 hadith 36); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-hadithapi-1" }
+sources: [source/muwatta-malik, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

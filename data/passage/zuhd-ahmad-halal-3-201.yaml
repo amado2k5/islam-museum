@@ -1,0 +1,16 @@
+id: passage/zuhd-ahmad-halal-3-201
+class: passage
+unit: chapter
+work: work/kitab-al-zuhd-ahmad-ibn-hanbal
+ref: "3:201"
+label: { ar: "الزهد لأحمد بن حنبل، المجلد المصوَّر 3، ص 201 — الحلال، ما لا يحل", en: "Ahmad ibn Hanbal's Kitab al-Zuhd, scan volume 3, p. 201 — the lawful; what is not lawful", ur: "کتاب الزہد، احمد بن حنبل، اسکین جلد 3، ص 201 — حلال، جو حلال نہیں" }
+text: "… بذروته ولا يحل بذروته حتى يكون الفقر أحب إليه من النى والتواضع أحب إليه من الشرف وحتى يكون حامده وذامه عنده سواء قال ففسرها أصحاب عبداللّه قالوا حتى يكون الفقر في الحلال أحب إليه من الغنى في الحرام وحتى يكون …"
+summary:
+  ar: "مقطع من الزهد لأحمد بن حنبل، المجلد المصوَّر 3، ص 201، يذكر الحلال، وما لا يحل، والحرام؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الحلال والحرام."
+  en: "An excerpt from Ahmad ibn Hanbal's Kitab al-Zuhd, scan volume 3, p. 201, that mentions the lawful, what is not lawful, the unlawful; from the machine-read scan, quoted within forty words per the sources policy. The Halal and Haram Browser lists it."
+  ur: "کتاب الزہد، احمد بن حنبل، اسکین جلد 3، ص 201 کا اقتباس جس میں حلال، جو حلال نہیں، حرام کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ حلال و حرام براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/halal-haram, sources: [source/zuhd-ahmad-dkim-1983] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan adab-zuhd/zuhd-ahmad/880Pdf, page 201; a window of at most 40 words chosen by the halal and haram detector (scripts/halal.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-ocr-1" }
+sources: [source/zuhd-ahmad-dkim-1983]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

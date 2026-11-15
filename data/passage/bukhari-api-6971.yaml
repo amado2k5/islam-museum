@@ -1,0 +1,16 @@
+id: passage/bukhari-api-6971
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "6971"
+label: { ar: "صحيح البخاري 6971 — ما أُحل", en: "Sahih al-Bukhari 6971 — what was made lawful", ur: "صحیح بخاری 6971 — جو حلال کیا گیا" }
+text: "… مُلَيْكَةَ، عَنْ ذَكْوَانَ، عَنْ عَائِشَةَا ـ قَالَتْ قَالَ رَسُولُ اللَّهِ \" الْبِكْرُ تُسْتَأْذَنُ \". قُلْتُ إِنَّ الْبِكْرَ تَسْتَحْيِي قَالَ \" إِذْنُهَا صُمَاتُهَا \". وَقَالَ بَعْضُ النَّاسِ إِنْ هَوِيَ رَجُلٌ جَارِيَةً يَتِيمَةً أَوْ بِكْرًا، فَأَبَتْ فَاحْتَالَ فَجَاءَ بِشَاهِدَىْ زُورٍ عَلَى أَنَّهُ تَزَوَّجَهَا، فَأَدْرَكَتْ فَرَضِيَتِ الْيَتِيمَةُ، فَقَبِلَ الْقَاضِي شَهَادَةَ الزُّورِ، وَالزَّوْجُ يَعْلَمُ بِبُطْلاَنِ ذَلِكَ، حَلَّ لَهُ الْوَطْءُ."
+summary:
+  ar: "حديث في صحيح البخاري، رقم 6971، يذكر ما أُحل. يجمعه متصفح الحلال والحرام مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في ما أُحل وما حُرّم."
+  en: "A report in Sahih al-Bukhari, no. 6971 (Tricks), that mentions what was made lawful. The Halal and Haram Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on what is lawful and what is unlawful."
+  ur: "صحیح بخاری کی حدیث نمبر 6971، جس میں جو حلال کیا گیا کا ذکر ہے۔ حلال و حرام براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کی ان نصوص کے ساتھ جمع کرتا ہے جو حلال اور حرام بیان کرتی ہیں۔"
+relations:
+  - { type: mentions, target: concept/halal-haram, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 6971 (book 90 hadith 18); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

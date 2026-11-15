@@ -1,0 +1,16 @@
+id: passage/bukhari-api-1462
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "1462"
+label: { ar: "صحيح البخاري 1462 — ما أُحل", en: "Sahih al-Bukhari 1462 — what was made lawful", ur: "صحیح بخاری 1462 — جو حلال کیا گیا" }
+text: "… أَىُّ الزَّيَانِبِ \". فَقِيلَ امْرَأَةُ ابْنِ مَسْعُودٍ. قَالَ \" نَعَمِ ائْذَنُوا لَهَا \". فَأُذِنَ لَهَا قَالَتْ يَا نَبِيَّ اللَّهِ إِنَّكَ أَمَرْتَ الْيَوْمَ بِالصَّدَقَةِ، وَكَانَ عِنْدِي حُلِيٌّ لِي، فَأَرَدْتُ أَنْ أَتَصَدَّقَ بِهِ، فَزَعَمَ ابْنُ مَسْعُودٍ أَنَّهُ وَوَلَدَهُ أَحَقُّ مَنْ تَصَدَّقْتُ بِهِ عَلَيْهِمْ. فَقَالَ النَّبِيُّ \" صَدَقَ ابْنُ مَسْعُودٍ، زَوْجُكِ وَوَلَدُكِ أَحَقُّ مَنْ تَصَدَّقْتِ بِهِ عَلَيْهِمْ \"."
+summary:
+  ar: "حديث في صحيح البخاري، رقم 1462، يذكر ما أُحل. يجمعه متصفح الحلال والحرام مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في ما أُحل وما حُرّم."
+  en: "A report in Sahih al-Bukhari, no. 1462 (Obligatory Charity Tax (Zakat)), that mentions what was made lawful. The Halal and Haram Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on what is lawful and what is unlawful."
+  ur: "صحیح بخاری کی حدیث نمبر 1462، جس میں جو حلال کیا گیا کا ذکر ہے۔ حلال و حرام براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کی ان نصوص کے ساتھ جمع کرتا ہے جو حلال اور حرام بیان کرتی ہیں۔"
+relations:
+  - { type: mentions, target: concept/halal-haram, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 1462 (book 24 hadith 64); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

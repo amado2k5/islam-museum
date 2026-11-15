@@ -1,0 +1,16 @@
+id: passage/muslim-api-5217
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "5217"
+label: { ar: "صحيح مسلم 5217 — الحرام", en: "Sahih Muslim 5217 — the unlawful", ur: "صحیح مسلم 5217 — حرام" }
+text: "… شَرَابٍ يَشْرَبُونَهُ بِأَرْضِهِمْ مِنَ الذُّرَةِ يُقَالُ لَهُ الْمِزْرُ فَقَالَ النَّبِيُّ \" أَوَمُسْكِرٌ هُوَ \". قَالَ نَعَمْ. قَالَ رَسُولُ اللَّهِ \" كُلُّ مُسْكِرٍ حَرَامٌ إِنَّ عَلَى اللَّهِ عَزَّ وَجَلَّ عَهْدًا لِمَنْ يَشْرَبُ الْمُسْكِرَ أَنْ يَسْقِيَهُ مِنْ طِينَةِ الْخَبَالِ \". قَالُوا يَا رَسُولَ اللَّهِ وَمَا طِينَةُ الْخَبَالِ قَالَ \" عَرَقُ أَهْلِ النَّارِ أَوْ عُصَارَةُ أَهْلِ النَّارِ \"."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 5217، يذكر الحرام. يجمعه متصفح الحلال والحرام مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في ما أُحل وما حُرّم."
+  en: "A report in Sahih Muslim, no. 5217 (The Book of Drinks), that mentions the unlawful. The Halal and Haram Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on what is lawful and what is unlawful."
+  ur: "صحیح مسلم کی حدیث نمبر 5217، جس میں حرام کا ذکر ہے۔ حلال و حرام براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کی ان نصوص کے ساتھ جمع کرتا ہے جو حلال اور حرام بیان کرتی ہیں۔"
+relations:
+  - { type: mentions, target: concept/halal-haram, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 5217 (book 36 hadith 91); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

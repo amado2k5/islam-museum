@@ -1,0 +1,16 @@
+id: passage/abudawud-api-4914
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "4914"
+label: { ar: "سنن أبي داود 4914 — ما أُحل، ما لا يحل", en: "Sunan Abi Dawud 4914 — what was made lawful; what is not lawful", ur: "سنن ابی داؤد 4914 — جو حلال کیا گیا، جو حلال نہیں" }
+text: "حَدَّثَنَا مُحَمَّدُ بْنُ الصَّبَّاحِ الْبَزَّازُ، حَدَّثَنَا يَزِيدُ بْنُ هَارُونَ، أَخْبَرَنَا سُفْيَانُ الثَّوْرِيُّ، عَنْ مَنْصُورٍ، عَنْ أَبِي حَازِمٍ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ \" لاَ يَحِلُّ لِمُسْلِمٍ أَنْ يَهْجُرَ أَخَاهُ فَوْقَ ثَلاَثٍ فَمَنْ هَجَرَ فَوْقَ ثَلاَثٍ فَمَاتَ دَخَلَ النَّارَ \"."
+summary:
+  ar: "حديث في سنن أبي داود، رقم 4914، يذكر ما أُحل، وما لا يحل. يجمعه متصفح الحلال والحرام مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في ما أُحل وما حُرّم."
+  en: "A report in Sunan Abi Dawud, no. 4914 (General Behavior (Kitab Al-Adab)), that mentions what was made lawful, what is not lawful. The Halal and Haram Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on what is lawful and what is unlawful."
+  ur: "سنن ابی داؤد کی حدیث نمبر 4914، جس میں جو حلال کیا گیا، جو حلال نہیں کا ذکر ہے۔ حلال و حرام براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کی ان نصوص کے ساتھ جمع کرتا ہے جو حلال اور حرام بیان کرتی ہیں۔"
+relations:
+  - { type: mentions, target: concept/halal-haram, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 4914 (book 43 hadith 142); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

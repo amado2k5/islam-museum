@@ -1,0 +1,16 @@
+id: passage/bukhari-api-7416
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "7416"
+label: { ar: "صحيح البخاري 7416 — ما حُرّم", en: "Sahih al-Bukhari 7416 — what was made unlawful", ur: "صحیح بخاری 7416 — جو حرام کیا گیا" }
+text: "… رَسُولَ اللَّهِ فَقَالَ \" تَعْجَبُونَ مِنْ غَيْرَةِ سَعْدٍ، وَاللَّهِ لأَنَا أَغْيَرُ مِنْهُ، وَاللَّهُ أَغْيَرُ مِنِّي، وَمِنْ أَجْلِ غَيْرَةِ اللَّهِ حَرَّمَ الْفَوَاحِشَ مَا ظَهَرَ مِنْهَا وَمَا بَطَنَ، وَلاَ أَحَدَ أَحَبُّ إِلَيْهِ الْعُذْرُ مِنَ اللَّهِ، وَمِنْ أَجْلِ ذَلِكَ بَعَثَ الْمُبَشِّرِينَ وَالْمُنْذِرِينَ وَلاَ أَحَدَ أَحَبُّ إِلَيْهِ الْمِدْحَةُ مِنَ اللَّهِ وَمِنْ أَجْلِ ذَلِكَ وَعَدَ اللَّهُ الْجَنَّةَ \". وَقَالَ عُبَيْدُ …"
+summary:
+  ar: "حديث في صحيح البخاري، رقم 7416، يذكر ما حُرّم. يجمعه متصفح الحلال والحرام مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في ما أُحل وما حُرّم."
+  en: "A report in Sahih al-Bukhari, no. 7416 (Oneness, Uniqueness of Allah (Tawheed)), that mentions what was made unlawful. The Halal and Haram Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on what is lawful and what is unlawful."
+  ur: "صحیح بخاری کی حدیث نمبر 7416، جس میں جو حرام کیا گیا کا ذکر ہے۔ حلال و حرام براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کی ان نصوص کے ساتھ جمع کرتا ہے جو حلال اور حرام بیان کرتی ہیں۔"
+relations:
+  - { type: mentions, target: concept/halal-haram, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 7416 (book 97 hadith 44); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

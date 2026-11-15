@@ -1,0 +1,16 @@
+id: passage/abudawud-api-1476
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "1476"
+label: { ar: "سنن أبي داود 1476 — الحلال، الحرام", en: "Sunan Abi Dawud 1476 — the lawful; the unlawful", ur: "سنن ابی داؤد 1476 — حلال، حرام" }
+text: "حَدَّثَنَا مُحَمَّدُ بْنُ يَحْيَى بْنِ فَارِسٍ، حَدَّثَنَا عَبْدُ الرَّزَّاقِ، أَخْبَرَنَا مَعْمَرٌ، قَالَ قَالَ الزُّهْرِيُّ إِنَّمَا هَذِهِ الأَحْرُفُ فِي الأَمْرِ الْوَاحِدِ لَيْسَ تَخْتَلِفُ فِي حَلاَلٍ وَلاَ حَرَامٍ."
+summary:
+  ar: "حديث في سنن أبي داود، رقم 1476، يذكر الحلال، والحرام. يجمعه متصفح الحلال والحرام مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في ما أُحل وما حُرّم."
+  en: "A report in Sunan Abi Dawud, no. 1476 (Prayer (Kitab Al-Salat): Detailed Injunctions about Witr), that mentions the lawful, the unlawful. The Halal and Haram Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on what is lawful and what is unlawful."
+  ur: "سنن ابی داؤد کی حدیث نمبر 1476، جس میں حلال، حرام کا ذکر ہے۔ حلال و حرام براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کی ان نصوص کے ساتھ جمع کرتا ہے جو حلال اور حرام بیان کرتی ہیں۔"
+relations:
+  - { type: mentions, target: concept/halal-haram, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 1476 (book 8 hadith 61); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

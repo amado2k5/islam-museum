@@ -1,0 +1,16 @@
+id: passage/maghazi-waqidi-halal-1-201
+class: passage
+unit: chapter
+work: work/kitab-al-maghazi
+ref: "1:201"
+label: { ar: "المغازي للواقدي، المجلد المصوَّر 1، ص 201 — ما لا يحل", en: "al-Waqidi's Maghazi, scan volume 1, p. 201 — what is not lawful", ur: "المغازی، واقدی، اسکین جلد 1، ص 201 — جو حلال نہیں" }
+text: "… : فخرح فى العرب يجمعها، وهو يقول : يا بنى عبد مَناةَ الرُّزّامْ أَنتم حُماةٌ وأَبوكُمْ حامْ لا تعِدونى نَصْرَكُم بَعْدَ العامْ لا تُسْلِمونى لا يَحِلّ إسلامْ قال : وخرج معه النَّفَر فأَلِّبوا العرب وجمعوها،وبلغوا ثَقيفاً فأُوعبوا. فلمًا أَجمعوا المسير …"
+summary:
+  ar: "مقطع من المغازي للواقدي، المجلد المصوَّر 1، ص 201، يذكر ما لا يحل؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الحلال والحرام."
+  en: "An excerpt from al-Waqidi's Maghazi, scan volume 1, p. 201, that mentions what is not lawful; from the machine-read scan, quoted within forty words per the sources policy. The Halal and Haram Browser lists it."
+  ur: "المغازی، واقدی، اسکین جلد 1، ص 201 کا اقتباس جس میں جو حلال نہیں کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ حلال و حرام براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/halal-haram, sources: [source/al-waqidi-maghazi] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan seerah/maghazi-waqidi/AlMaghaziAlwaghidi, page 201; a window of at most 40 words chosen by the halal and haram detector (scripts/halal.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-ocr-1" }
+sources: [source/al-waqidi-maghazi]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

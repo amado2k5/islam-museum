@@ -1,0 +1,16 @@
+id: passage/bukhari-api-5588
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "5588"
+label: { ar: "صحيح البخاري 5588 — التحريم", en: "Sahih al-Bukhari 5588 — prohibition", ur: "صحیح بخاری 5588 — تحریم" }
+text: "… التَّيْمِيِّ، عَنِ الشَّعْبِيِّ، عَنِ ابْنِ عُمَرَما ـ قَالَ خَطَبَ عُمَرُ عَلَى مِنْبَرِ رَسُولِ اللَّهِ فَقَالَ إِنَّهُ قَدْ نَزَلَ تَحْرِيمُ الْخَمْرِ، وَهْىَ مِنْ خَمْسَةِ أَشْيَاءَ الْعِنَبِ وَالتَّمْرِ وَالْحِنْطَةِ وَالشَّعِيرِ وَالْعَسَلِ، وَالْخَمْرُ مَا خَامَرَ الْعَقْلَ، وَثَلاَثٌ وَدِدْتُ أَنَّ رَسُولَ اللَّهِ لَمْ يُفَارِقْنَا حَتَّى يَعْهَدَ إِلَيْنَا عَهْدًا الْجَدُّ وَالْكَلاَلَةُ وَأَبْوَابٌ مِنْ أَبْوَابِ الرِّبَا. قَالَ قُلْتُ يَا أَبَا عَمْرٍو …"
+summary:
+  ar: "حديث في صحيح البخاري، رقم 5588، يذكر التحريم. يجمعه متصفح الحلال والحرام مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في ما أُحل وما حُرّم."
+  en: "A report in Sahih al-Bukhari, no. 5588 (Drinks), that mentions prohibition. The Halal and Haram Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on what is lawful and what is unlawful."
+  ur: "صحیح بخاری کی حدیث نمبر 5588، جس میں تحریم کا ذکر ہے۔ حلال و حرام براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کی ان نصوص کے ساتھ جمع کرتا ہے جو حلال اور حرام بیان کرتی ہیں۔"
+relations:
+  - { type: mentions, target: concept/halal-haram, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 5588 (book 74 hadith 14); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

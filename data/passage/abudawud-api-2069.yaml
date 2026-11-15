@@ -1,0 +1,16 @@
+id: passage/abudawud-api-2069
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "2069"
+label: { ar: "سنن أبي داود 2069 — الحلال، الحرام", en: "Sunan Abi Dawud 2069 — the lawful; the unlawful", ur: "سنن ابی داؤد 2069 — حلال، حرام" }
+text: "… فَقَالَ \" إِنَّ فَاطِمَةَ مِنِّي وَأَنَا أَتَخَوَّفُ أَنْ تُفْتَنَ فِي دِينِهَا \". قَالَ ثُمَّ ذَكَرَ صِهْرًا لَهُ مِنْ بَنِي عَبْدِ شَمْسٍ فَأَثْنَى عَلَيْهِ فِي مُصَاهَرَتِهِ إِيَّاهُ فَأَحْسَنَ قَالَ \" حَدَّثَنِي فَصَدَقَنِي وَوَعَدَنِي فَوَفَّى لِي وَإِنِّي لَسْتُ أُحَرِّمُ حَلاَلاً وَلاَ أُحِلُّ حَرَامًا وَلَكِنْ وَاللَّهِ لاَ تَجْتَمِعُ بِنْتُ رَسُولِ اللَّهِ وَبِنْتُ عَدُوِّ اللَّهِ مَكَانًا وَاحِدًا أَبَدًا \"."
+summary:
+  ar: "حديث في سنن أبي داود، رقم 2069، يذكر الحلال، والحرام. يجمعه متصفح الحلال والحرام مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في ما أُحل وما حُرّم."
+  en: "A report in Sunan Abi Dawud, no. 2069 (Marriage (Kitab Al-Nikah)), that mentions the lawful, the unlawful. The Halal and Haram Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on what is lawful and what is unlawful."
+  ur: "سنن ابی داؤد کی حدیث نمبر 2069، جس میں حلال، حرام کا ذکر ہے۔ حلال و حرام براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کی ان نصوص کے ساتھ جمع کرتا ہے جو حلال اور حرام بیان کرتی ہیں۔"
+relations:
+  - { type: mentions, target: concept/halal-haram, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 2069 (book 12 hadith 24); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

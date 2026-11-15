@@ -1,0 +1,16 @@
+id: passage/abudawud-api-1999
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "1999"
+label: { ar: "سنن أبي داود 1999 — ما حُرّم، الرخصة", en: "Sunan Abi Dawud 1999 — what was made unlawful; the concession", ur: "سنن ابی داؤد 1999 — جو حرام کیا گیا، رخصت" }
+text: "… فَنَزَعَهُ مِنْ رَأْسِهِ وَنَزَعَ صَاحِبُهُ قَمِيصَهُ مِنْ رَأْسِهِ ثُمَّ قَالَ وَلِمَ يَا رَسُولَ اللَّهِ قَالَ \" إِنَّ هَذَا يَوْمٌ رُخِّصَ لَكُمْ إِذَا أَنْتُمْ رَمَيْتُمُ الْجَمْرَةَ أَنْ تَحِلُّوا \". يَعْنِي مِنْ كُلِّ مَا حَرُمْتُمْ مِنْهُ إِلاَّ النِّسَاءَ \" فَإِذَا أَمْسَيْتُمْ قَبْلَ أَنْ تَطُوفُوا هَذَا الْبَيْتَ صِرْتُمْ حُرُمًا كَهَيْئَتِكُمْ قَبْلَ أَنْ تَرْمُوا الْجَمْرَةَ حَتَّى تَطُوفُوا بِهِ \"."
+summary:
+  ar: "حديث في سنن أبي داود، رقم 1999، يذكر ما حُرّم، والرخصة. يجمعه متصفح الحلال والحرام مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في ما أُحل وما حُرّم."
+  en: "A report in Sunan Abi Dawud, no. 1999 (The Rites of Hajj (Kitab Al-Manasik Wa'l-Hajj)), that mentions what was made unlawful, the concession. The Halal and Haram Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on what is lawful and what is unlawful."
+  ur: "سنن ابی داؤد کی حدیث نمبر 1999، جس میں جو حرام کیا گیا، رخصت کا ذکر ہے۔ حلال و حرام براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کی ان نصوص کے ساتھ جمع کرتا ہے جو حلال اور حرام بیان کرتی ہیں۔"
+relations:
+  - { type: mentions, target: concept/halal-haram, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 1999 (book 11 hadith 279); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

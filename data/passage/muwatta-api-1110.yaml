@@ -1,0 +1,16 @@
+id: passage/muwatta-api-1110
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "1110"
+label: { ar: "موطأ مالك 1110 — ما لا يحل", en: "Muwatta Malik 1110 — what is not lawful", ur: "موطأ مالک 1110 — جو حلال نہیں" }
+text: "… الْقَاسِمَ بْنَ مُحَمَّدٍ، سُئِلَ عَنْ رَجُلٍ، طَلَّقَ امْرَأَتَهُ الْبَتَّةَ ثُمَّ تَزَوَّجَهَا بَعْدَهُ رَجُلٌ آخَرُ فَمَاتَ عَنْهَا قَبْلَ أَنْ يَمَسَّهَا هَلْ يَحِلُّ لِزَوْجِهَا الأَوَّلِ أَنْ يُرَاجِعَهَا فَقَالَ الْقَاسِمُ بْنُ مُحَمَّدٍ لاَ يَحِلُّ لِزَوْجِهَا الأَوَّلِ أَنْ يُرَاجِعَهَا. قَالَ مَالِكٌ فِي الْمُحَلِّلِ إِنَّهُ لاَ يُقِيمُ عَلَى نِكَاحِهِ ذَلِكَ حَتَّى يَسْتَقْبِلَ نِكَاحًا جَدِيدًا فَإِنْ أَصَابَهَا فِي ذَلِكَ فَلَهَا مَهْرُهَا."
+summary:
+  ar: "حديث في موطأ مالك، رقم 1110، يذكر ما لا يحل. يجمعه متصفح الحلال والحرام مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في ما أُحل وما حُرّم."
+  en: "A report in Muwatta Malik, no. 1110 (Marriage), that mentions what is not lawful. The Halal and Haram Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on what is lawful and what is unlawful."
+  ur: "موطأ مالک کی حدیث نمبر 1110، جس میں جو حلال نہیں کا ذکر ہے۔ حلال و حرام براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کی ان نصوص کے ساتھ جمع کرتا ہے جو حلال اور حرام بیان کرتی ہیں۔"
+relations:
+  - { type: mentions, target: concept/halal-haram, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 1110 (book 28 hadith 20); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-hadithapi-1" }
+sources: [source/muwatta-malik, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

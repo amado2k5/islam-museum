@@ -1,0 +1,16 @@
+id: passage/nasai-api-4318
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "4318"
+label: { ar: "سنن النسائي 4318 — الحرام", en: "Sunan al-Nasa'i 4318 — the unlawful", ur: "سنن نسائی 4318 — حرام" }
+text: "أَخْبَرَنَا إِسْمَاعِيلُ بْنُ مَسْعُودٍ، قَالَ حَدَّثَنَا خَالِدٌ، قَالَ حَدَّثَنَا شُعْبَةُ، عَنْ أَبِي بِشْرٍ، عَنْ سَعِيدِ بْنِ جُبَيْرٍ، عَنِ ابْنِ عَبَّاسٍ، قَالَ أَهْدَتْ خَالَتِي إِلَى رَسُولِ اللَّهِ أَقِطًا وَسَمْنًا وَأَضُبًّا فَأَكَلَ مِنَ الأَقِطِ وَالسَّمْنِ وَتَرَكَ الأَضُبَّ تَقَذُّرًا وَأُكِلَ عَلَى مَائِدَةِ رَسُولِ اللَّهِ وَلَوْ كَانَ حَرَامًا مَا أُكِلَ عَلَى مَائِدَةِ رَسُولِ اللَّهِ."
+summary:
+  ar: "حديث في سنن النسائي، رقم 4318، يذكر الحرام. يجمعه متصفح الحلال والحرام مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في ما أُحل وما حُرّم."
+  en: "A report in Sunan al-Nasa'i, no. 4318 (The Book of Hunting and Slaughtering), that mentions the unlawful. The Halal and Haram Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on what is lawful and what is unlawful."
+  ur: "سنن نسائی کی حدیث نمبر 4318، جس میں حرام کا ذکر ہے۔ حلال و حرام براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کی ان نصوص کے ساتھ جمع کرتا ہے جو حلال اور حرام بیان کرتی ہیں۔"
+relations:
+  - { type: mentions, target: concept/halal-haram, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 4318 (book 42 hadith 56); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

@@ -1,0 +1,16 @@
+id: passage/ibnmajah-api-2533
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "2533"
+label: { ar: "سنن ابن ماجه 2533 — ما لا يحل", en: "Sunan Ibn Majah 2533 — what is not lawful", ur: "سنن ابن ماجہ 2533 — جو حلال نہیں" }
+text: "… أَشْرَفَ عَلَيْهِمْ فَسَمِعَهُمْ وَهُمْ، يَذْكُرُونَ الْقَتْلَ فَقَالَ إِنَّهُمْ لَيَتَوَاعَدُونِي بِالْقَتْلِ فَلِمَ يَقْتُلُونِي وَقَدْ سَمِعْتُ رَسُولَ اللَّهِ يَقُولُ \" لا يَحِلُّ دَمُ امْرِئٍ مُسْلِمٍ إِلاَّ فِي إِحْدَى ثَلاَثٍ رَجُلٌ زَنَى وَهُوَ مُحْصَنٌ فَرُجِمَ أَوْ رَجُلٌ قَتَلَ نَفْسًا بِغَيْرِ نَفْسٍ أَوْ رَجُلٌ ارْتَدَّ بَعْدَ إِسْلاَمِهِ \". فَوَاللَّهِ مَا زَنَيْتُ فِي جَاهِلِيَّةٍ وَلاَ فِي إِسْلاَمٍ وَلاَ قَتَلْتُ نَفْسًا …"
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 2533، يذكر ما لا يحل. يجمعه متصفح الحلال والحرام مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في ما أُحل وما حُرّم."
+  en: "A report in Sunan Ibn Majah, no. 2533 (The Chapters on Legal Punishments), that mentions what is not lawful. The Halal and Haram Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on what is lawful and what is unlawful."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 2533، جس میں جو حلال نہیں کا ذکر ہے۔ حلال و حرام براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کی ان نصوص کے ساتھ جمع کرتا ہے جو حلال اور حرام بیان کرتی ہیں۔"
+relations:
+  - { type: mentions, target: concept/halal-haram, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 2533 (book 20 hadith 1); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

@@ -1,0 +1,16 @@
+id: passage/tirmidhi-api-1726
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "1726"
+label: { ar: "جامع الترمذي 1726 — الحلال، ما أُحل", en: "Jami' al-Tirmidhi 1726 — the lawful; what was made lawful", ur: "جامع ترمذی 1726 — حلال، جو حلال کیا گیا" }
+text: "… عَنْ سُلَيْمَانَ التَّيْمِيِّ، عَنْ أَبِي عُثْمَانَ، عَنْ سَلْمَانَ، قَالَ سُئِلَ رَسُولُ اللَّهِ عَنِ السَّمْنِ وَالْجُبْنِ وَالْفِرَاءِ. فَقَالَ \" الْحَلاَلُ مَا أَحَلَّ اللَّهُ فِي كِتَابِهِ وَالْحَرَامُ مَا حَرَّمَ اللَّهُ فِي كِتَابِهِ وَمَا سَكَتَ عَنْهُ فَهُوَ مِمَّا عَفَا عَنْهُ \". قَالَ أَبُو عِيسَى وَفِي الْبَابِ عَنِ الْمُغِيرَةِ. وَهَذَا حَدِيثٌ غَرِيبٌ لاَ نَعْرِفُهُ مَرْفُوعًا إِلاَّ مِنْ هَذَا الْوَجْهِ. …"
+summary:
+  ar: "حديث في جامع الترمذي، رقم 1726، يذكر الحلال، وما أُحل، والحرام، وما حُرّم. يجمعه متصفح الحلال والحرام مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في ما أُحل وما حُرّم."
+  en: "A report in Jami' al-Tirmidhi, no. 1726 (The Book on Clothing), that mentions the lawful, what was made lawful, the unlawful, what was made unlawful. The Halal and Haram Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on what is lawful and what is unlawful."
+  ur: "جامع ترمذی کی حدیث نمبر 1726، جس میں حلال، جو حلال کیا گیا، حرام، جو حرام کیا گیا کا ذکر ہے۔ حلال و حرام براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کی ان نصوص کے ساتھ جمع کرتا ہے جو حلال اور حرام بیان کرتی ہیں۔"
+relations:
+  - { type: mentions, target: concept/halal-haram, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 1726 (book 24 hadith 7); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

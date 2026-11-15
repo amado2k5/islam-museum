@@ -1,0 +1,16 @@
+id: passage/muslim-api-3001
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "3001"
+label: { ar: "صحيح مسلم 3001 — ما لا يحل", en: "Sahih Muslim 3001 — what is not lawful", ur: "صحیح مسلم 3001 — جو حلال نہیں" }
+text: "… سَلْ لِي عُرْوَةَ بْنَ الزُّبَيْرِ عَنْ رَجُلٍ يُهِلُّ بِالْحَجِّ فَإِذَا طَافَ بِالْبَيْتِ أَيَحِلُّ أَمْ لاَ فَإِنْ قَالَ لَكَ لاَ يَحِلُّ. فَقُلْ لَهُ إِنَّ رَجُلاً يَقُولُ ذَلِكَ - قَالَ - فَسَأَلْتُهُ فَقَالَ لاَ يَحِلُّ مَنْ أَهَلَّ بِالْحَجِّ إِلاَّ بِالْحَجِّ. قُلْتُ فَإِنَّ رَجُلاً كَانَ يَقُولُ ذَلِكَ. قَالَ بِئْسَ مَا قَالَ فَتَصَدَّانِي الرَّجُلُ فَسَأَلَنِي فَحَدَّثْتُهُ فَقَالَ فَقُلْ لَهُ …"
+summary:
+  ar: "حديث في صحيح مسلم، رقم 3001، يذكر ما لا يحل. يجمعه متصفح الحلال والحرام مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في ما أُحل وما حُرّم."
+  en: "A report in Sahih Muslim, no. 3001 (The Book of Pilgrimage), that mentions what is not lawful. The Halal and Haram Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on what is lawful and what is unlawful."
+  ur: "صحیح مسلم کی حدیث نمبر 3001، جس میں جو حلال نہیں کا ذکر ہے۔ حلال و حرام براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کی ان نصوص کے ساتھ جمع کرتا ہے جو حلال اور حرام بیان کرتی ہیں۔"
+relations:
+  - { type: mentions, target: concept/halal-haram, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 3001 (book 15 hadith 209); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

@@ -1,0 +1,16 @@
+id: passage/muslim-api-5032
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "5032"
+label: { ar: "صحيح مسلم 5032 — الحلال", en: "Sahih Muslim 5032 — the lawful", ur: "صحیح مسلم 5032 — حلال" }
+text: "وَحَدَّثَنَا عُبَيْدُ اللَّهِ بْنُ مُعَاذٍ، حَدَّثَنَا أَبِي، حَدَّثَنَا شُعْبَةُ، عَنْ تَوْبَةَ الْعَنْبَرِيِّ، سَمِعَ الشَّعْبِيَّ، سَمِعَ ابْنَ عُمَرَ، أَنَّ النَّبِيَّ كَانَ مَعَهُ نَاسٌ مِنْ أَصْحَابِهِ فِيهِمْ سَعْدٌ وَأُتُوا بِلَحْمِ ضَبٍّ فَنَادَتِ امْرَأَةٌ مِنْ نِسَاءِ النَّبِيِّ إِنَّهُ لَحْمُ ضَبٍّ فَقَالَ رَسُولُ اللَّهِ \" كُلُوا فَإِنَّهُ حَلاَلٌ وَلَكِنَّهُ لَيْسَ مِنْ طَعَامِي \"."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 5032، يذكر الحلال. يجمعه متصفح الحلال والحرام مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في ما أُحل وما حُرّم."
+  en: "A report in Sahih Muslim, no. 5032 (The Book of Hunting, Slaughter, and what may be Eaten), that mentions the lawful. The Halal and Haram Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on what is lawful and what is unlawful."
+  ur: "صحیح مسلم کی حدیث نمبر 5032، جس میں حلال کا ذکر ہے۔ حلال و حرام براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کی ان نصوص کے ساتھ جمع کرتا ہے جو حلال اور حرام بیان کرتی ہیں۔"
+relations:
+  - { type: mentions, target: concept/halal-haram, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 5032 (book 34 hadith 61); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "halal-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }
