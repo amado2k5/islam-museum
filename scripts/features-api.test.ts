@@ -340,7 +340,9 @@ describe("one API export per browser or explorer (AGENTS.md: every feature is gr
     const untieFp = mk("passage/abudawud-3732x", "work/sunan-abi-dawud", "فإن الشيطان لا يفتح بابا غلقا ولا يحل وكاء", { ref: "3732x" });
     const weakOnly = mk("passage/muslim-2592x", "work/sahih-muslim", "من يحرم الرفق يحرم الخير", { ref: "2592x" });
     const halalConcept = { ...makeNode("concept/halal-haram", "concept", { kind: "legal" }), tags: ["halal-haram-browser"] };
-    const data = featureApiData({ ...compiled, nodes: [...compiled.nodes, haramAyah, bothAyah, halalAyah, numanHadith, laYahill, pairGated, futureBook, sanctuaryFp, nameFp, ihramFp, fireFp, oathFp, untieFp, weakOnly, halalConcept] });
+    // An ayah that uses neither root, placed in the browser by its tag (the wine verses): no kind is claimed for it.
+    const taggedAyah = { ...mk("passage/quran-5-90x", "work/quran", "ذكر الخمر في هذه الآية", { sura: 5, aya: 90 }), tags: ["halal-haram-browser"] };
+    const data = featureApiData({ ...compiled, nodes: [...compiled.nodes, haramAyah, bothAyah, halalAyah, numanHadith, laYahill, pairGated, futureBook, sanctuaryFp, nameFp, ihramFp, fireFp, oathFp, untieFp, weakOnly, halalConcept, taggedAyah] });
     const items = data["halal.json"].items;
     const ids = items.map((i) => i.id);
     for (const id of ["passage/quran-5-3x", "passage/quran-16-116x", "passage/quran-5-5x", "passage/bukhari-52x", "passage/muslim-2560x", "passage/tabari-9-37x", "passage/futurefiqh-halal-1", "concept/halal-haram"]) expect(ids).toContain(id);
@@ -379,6 +381,7 @@ describe("one API export per browser or explorer (AGENTS.md: every feature is gr
     expect(halalSignalsOf(mk("passage/sense-keep-1", "work/tabari", "لا يحل لامرأة أن تسافر إلا مع ذي محرم", { ref: "k1" }) as any)).toEqual(expect.arrayContaining(["la-yahill"]));
     expect(halalSignalsOf(mk("passage/sense-keep-2", "work/tabari", "خمس قتلهن حلال في الحرم", { ref: "k2" }) as any)).toEqual(["halal"]);
     // Subjects: what the lawful or unlawful is about, read from the passage's own text; several may apply; `other` when none.
+    expect(items.find((i) => i.id === "passage/quran-5-90x")).toMatchObject({ section: "quran", halal_kind: null, signals: [], subjects: ["drink"] });
     expect(items.find((i) => i.id === "passage/quran-5-3x")!.subjects).toEqual(["food"]);
     expect(items.find((i) => i.id === "passage/quran-16-116x")!.subjects).toEqual(["principles"]);
     expect(items.find((i) => i.id === "passage/bukhari-52x")!.subjects).toEqual(["principles"]);

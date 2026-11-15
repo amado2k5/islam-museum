@@ -128,6 +128,7 @@ subjects ("Yes, add subjects").
 | HH-R63 | The board and every subject page say that the museum shows what the sources say and does not issue rulings | the text of `halal.subjects_ui.note` is on the page in all three languages |
 | HH-R64 | The subject is a description of what the source speaks about, never a ruling, and the page says how it is assigned and that the word list can miss or over-include | `halal.subjects_ui.how` on every subject page |
 | HH-R65 | Subject pages are searchable by title and description; all strings in ar, en and ur | Pagefind result for «الأطعمة»; `halal.subjects` in the three `i18n` files |
+| HH-R66 | Qur'an 2:219, 5:90 and 5:91 are in the browser by their `halal-haram-browser` tag, under Drink, with no kind and no matched term; their text is unchanged | `/api/v1/halal.json` has the three ids with `section: quran`, `halal_kind: null`, `signals: []`, `subjects` containing `drink`; `git diff` of the three files shows the `tags` line only |
 
 ## 6. Explicitly out of scope / known limits
 

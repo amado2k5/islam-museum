@@ -110,13 +110,20 @@ at merge: principles 235, food 214, drink 164, hunting and slaughter 118, earnin
 marriage and family 456, dress 103, life and honour 186, conduct about 170, worship 351,
 sanctuary 66, other about 370. A passage can stand under several.
 
-Known limits, held for the founder: the wine verses (2:219, 5:90, 5:91) are not on the Drink
-page because they do not use the two roots and no Qur'an record carries a tag; the subject list
-is a word match and can over-include a passage that names the word in passing.
+Known limit: the subject list is a word match and can over-include a passage that names the
+word in passing.
+
+The wine verses (founder's ruling, 15 November 2026): the founder approved placing Qur'an 2:219,
+5:90 and 5:91 in the browser. They do not use the two roots, so the detector does not find them;
+each record now carries `tags: [halal-haram-browser]` and nothing else in it changed (the Qur'an
+text is untouched). The word list puts them under Drink and under Speech and conduct (the game
+of chance named beside wine). They carry no lawful or unlawful kind and no matched term, because
+the browser claims a kind only from a verse's own words. The tag line is added by hand:
+`scripts/harvest/quran/generate.py` does not write it, so a regeneration of the Qur'an records
+must keep it. The ruling covers these three verses only; any other verse without the two roots
+is a new proposal to the founder. The browser now holds 60 ayahs and 1,864 records.
 
 ## Open
-
-- The founder's ruling on tagging chosen Qur'an records into the browser (the wine verses).
 
 - The founder's ruling on the 10 records above and on the sanctuary reports.
 
