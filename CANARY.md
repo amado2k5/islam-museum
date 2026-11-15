@@ -22,6 +22,7 @@ open a new block on top with the new version and today's date.
 ## v1.35.0 — 2026-11-16
 ### Added
 - Four more records now appear in the Inventions Browser, completing the deferred w2-12 and w2-16 drafts with full trilingual prose. From Ibn Sina's Canon: his bounded classification of diseases — the definitions of cause, disease, symptom and sign that organise Book I — and his temperament method, the four qualities of heat, cold, moisture and dryness and the impossibility of true equilibrium. From the wider heritage: al-Razi's al-Hawi, the comprehensive medical compendium that gathered diseases, causes, drugs, treatments and earlier authorities' sayings into one referable work, preserved as a gathering project and not a claim that al-Razi invented its contents; and al-Bakri's Mu'jam ma Ista'jam, the alphabetically ordered geographical place-name dictionary of al-Andalus that gathered names from hadith, reports, histories and poetry with variant readings resolved — as far as the sources read show the first alphabetical geographical dictionary. Each stands in Arabic, English and Urdu with an inspected image and a generic diagram.
+- Job Browser: the bath keeper (hammami) joins the trades — the Ottoman bath's staff (tellak, natar, hamam uşakları, laundry workers), its guild lore and kadılık discipline, and the fiqh of running baths, in Arabic, English and Urdu draft cited to the TDV 'HAMAM' entry.
 
 ---
 
