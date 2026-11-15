@@ -1,0 +1,41 @@
+id: job/engraver
+class: job
+label: { ar: "النقّاش", en: "Engraver / carver (naqqash, hakkak)", ur: "نقاش ⁦(کندہ کار)⁩" }
+names:
+  - { value: "حكّاك", kind: alternate }
+  - { value: "hakkâk", kind: latinized, lang: tr }
+  - { value: "مُهركُن", kind: alternate }
+  - { value: "mührkün", kind: latinized, lang: tr }
+summary:
+  ar: "الحفّار ⁦(النقّاش/حكّاك)⁩ ينقش الكتابة والزخرفة على الحجر والمعدن والعاج والخشب؛ وأرفع فروعه صناعة الأختام التي تُنقش معكوسة لتُقرأ مستقيمة عند الطبع، وكان أهلها يُنتقَون على الأمانة قبل المهارة لأن التزوير يهدّد الدولة والأفراد."
+  en: "The engraver (hakkâk/naqqash) carved script and ornament on stone, metal, ivory and wood; its most honoured branch was Ottoman seal-cutting, where text was engraved in mirror image to print correctly and craftsmen were vetted for trustworthiness before skill, since forgery could harm state and citizen alike."
+  ur: "نقاش ⁦(حقاک)⁩ پتھر، دھات، ہاتھی دانت اور لکڑی پر رسم الخط اور نقش کندہ کرتا ہے؛ اس کی معزز ترین شاخ عثمانی مہر سازی ہے جہاں رسم الخط الٹا کندہ ہوتا تھا تاکہ چھپنے پر سیدھا پڑھا جائے، اور کاریگر پہلے بھروسے کے لیے چنے جاتے تھے کیونکہ جعل سازی ریاست اور افراد کو نقصان پہنچا سکتی تھی۔"
+domain: arts-letters
+kind: craft
+hirfa: true
+era:
+  origins: pre-islamic
+  status_today: transformed
+places:
+  - { place: place/istanbul, note: "Evliya Çelebi counts three engraving guilds under Murad IV (30+50+15 shops); engravers later clustered at the Hakkâklar Çarşısı beside Beyazıt Mosque, now the Sahaflar book market.", sources: [source/tdv-hakkaklik] }
+regions: [anatolia-balkans]
+organization:
+  organized: guild
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people, living]
+periods: [period/crusades-ayyubid-mamluk, period/gunpowder-empires, period/modern-era]
+sources: [source/tdv-hakkaklik]
+craft:
+  materials: [stone, gold, silver, brass, ivory, wood]
+  guild:
+    bodies: []
+    shaykh_title: { ar: "بير", en: "pir", ur: "پیر" }
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-art-1" }
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi, 'HAKKÂKLIK' (Mehmet Zeki Kuşoğlu, 1997, print vol. 15 pp. 204-205), web edition read in full on 15 Nov 2026. Covers scope, training, Evliya Çelebi's guild census, tools, attribution practice and decline."
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-art-1-drafting"
