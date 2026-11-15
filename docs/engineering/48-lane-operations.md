@@ -180,3 +180,52 @@ board and in the lane's ledger.
 - The 20-minute check is run by the orchestrator, not by a scheduled job.
 - No rule in this document lowers a gate. Where a gate is slow, the answer is to
   make the check faster, not to skip it.
+
+## 12. Operating notes from 14 and 15 November 2026
+
+- **Stop finished tasks.** A finished worker can leave a monitor running that keeps
+  sending stale "window ended" notices. When a worker's work is complete, stop its
+  task with TaskStop. A stale notice needs no reply and is not reported.
+- **Idle lanes are refilled, not reported.** A check that finds a finished worker
+  gives it the next slice at once. The 14 November check reported idle lanes instead
+  of refilling them; that is now a failure of the check.
+- **Models.** Workers run on Haiku 5.5. The verifier runs on Sonnet 5.5, because
+  source checks are judgement work. The lander runs on Haiku 5.5 and is messaged to
+  land each train.
+- **Mac browser work needs the extension.** Work that reads sites through the Mac
+  browser needs the Claude in Chrome extension connected. When it is not connected,
+  the worker reports itself blocked and writes nothing. It does not fall back to
+  automated fetches of sites that refuse them (VIAF returned HTTP 403 to those). A
+  bot challenge means stop, never bypass.
+- **Check the title page before citing an edition.** The register's label for the
+  Siyar al-Nubala copy (Dar al-Risala) is not confirmed. The drive holds five
+  archive.org items for it: vols. 1 and 2 from other editions, with OCR complete, the
+  1985 vol. 25 index (DAH1985ARAR), and an unidentified 138 MB, 4,683-page item. No
+  person prose is written from it until the edition is confirmed.
+- **Downloads over 50 MB wait for the founder's yes.** The worker states the file,
+  source and size in its report and does not start the download.
+- **Shared board.** Another orchestrator (`devin-orch`) posts to the same BOARD.md.
+  On 15 November it launched twenty inventions packets, `inventions-w2-01` to `-20`.
+  Lane workers and the verifier leave those folders alone; the verifier sweep
+  excludes them.
+- **Rejected packets.** A rejected packet keeps its `REJECT.md`. `b2c-m02` was repaired
+  (`nickname` to `laqab`), passed the scoped check and went back to drafting for
+  verification.
+- **Prose goal.** Full, partial and empty prose is measured with
+  `npx tsx scripts/prose-completion.ts --write` and recorded in
+  [`docs/library/enrichment/prose-completion.md`](../library/enrichment/prose-completion.md),
+  at least once a day on `main`.
+
+## 13. Where the work is recorded
+
+| What | Where | In git? |
+|---|---|---|
+| Live board: focus, queue, claims, done | `BOARD.md` at the harvest root | no (microSD) |
+| Packets: drafts, verified, landed, rejected | `packets/` at the harvest root | no |
+| Manifests (sources, canary, ledger lines, GEMINI lines) | each packet's `manifest.yaml` | no, until landed |
+| Harvest state for books, series, websites | `docs/library/harvest-register.yaml` | yes |
+| Gaps and claims | `docs/library/enrichment/` (`claims.yaml`, queue shards) | yes |
+| Prose completion history | `docs/library/enrichment/prose-completion.md` | yes |
+| Lane ledgers and open decisions | `docs/delegation/lane-ledgers/README.md` | yes |
+| Release notes | `CANARY.md` | yes |
+| The procedure | this document and `docs/agents/pipeline.md` | yes |
