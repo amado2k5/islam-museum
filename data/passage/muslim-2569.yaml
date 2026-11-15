@@ -15,6 +15,7 @@ summary:
 themes: [care-for-the-vulnerable]
 tags: [hadith-qudsi, qudsi-maridtu-fa-lam-taudni]
 relations:
+  - { type: part_of, target: passage/muslim-kitab-45 }
   - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
   - { type: mentions, target: concept/hadith-qudsi, sources: [source/sahih-muslim] }
   - { type: basis_for, target: practice/dua, sources: [source/sahih-muslim] }

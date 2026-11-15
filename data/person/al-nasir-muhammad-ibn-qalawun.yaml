@@ -20,6 +20,8 @@ relations:
   - { type: participated_in, target: event/lajin-murder-698, role: "أُعيد من الكرك إلى السلطنة", sources: [source/shadharat-dhahab] }
   - { type: built, target: building/al-nasir-muhammad-mosque, sources: [source/yeomans-islamic-cairo-2006] }
   - { type: built, target: building/madrasa-of-al-nasir-muhammad, sources: [source/yeomans-islamic-cairo-2006] }
+  - {type: commissioned, target: building/ablaq-palace-cairo, sources: [source/tarikh-islam-hasan-ibrahim], note: 'Stated in the summary of building/ablaq-palace-cairo: "part of al-Nasir Muhammad''s palace complex"'}
+  - {type: built, target: building/al-jami-al-jadid-al-nasiri, sources: [source/khitat-maqrizi-1998], note: 'Stated in the summary of building/al-jami-al-jadid-al-nasiri: "built by al-Malik al-Nasir Muhammad ibn Qalawun"'}
 provenance:
   layer: own-research
   source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 723–734"

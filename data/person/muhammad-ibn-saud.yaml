@@ -13,7 +13,7 @@ summary:
 wings: [people]
 regions: [arabia]
 periods: [period/gunpowder-empires]
-died: { edtf: "1765", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; Ibn Bishr ('Unwan al-Majd)" }
+died: { edtf: "1765", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; Ibn Bishr ('Unwan al-Majd) Agrees with Wikidata Q1319659 (P570, a statement without a reference), item revision 2564050172, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/diriyah, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q277505)" }
   - { type: buried_in, target: place/al-oud-cemetery, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q4165313)" }

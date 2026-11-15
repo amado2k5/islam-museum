@@ -34,3 +34,5 @@ provenance:
   - person-place-geo-c
   note: Semantic merge of duplicate records written by parallel enrichment runs.
   source: Wikidata item Q851 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q851 (labels, coordinates, description)
+relations:
+  - {type: hosted, target: event/fifa-world-cup-2034, sources: [source/wikipedia-2034-fifa-world-cup-en], note: 'Stated in the summary of event/fifa-world-cup-2034: "to be hosted by Saudi Arabia"'}

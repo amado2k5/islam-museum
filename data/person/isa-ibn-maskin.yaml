@@ -11,8 +11,8 @@ summary:
 wings: [people]
 regions: [maghreb]
 periods: [period/abbasid-early]
-born: { edtf: "829", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tartib al-Madarik / Qadi Iyad" }
-died: { edtf: "908", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tartib al-Madarik / Qadi Iyad" }
+born: { edtf: "829", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tartib al-Madarik / Qadi Iyad Agrees with Wikidata Q20394461 (P569, a statement without a reference), item revision 2478958926, read on 13 November 2026.", sources: [source/wikidata] }
+died: { edtf: "908", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tartib al-Madarik / Qadi Iyad Agrees with Wikidata Q20394461 (P570, a statement without a reference), item revision 2478958926, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/maskin, confidence: low, note: "Associated with Maskin per the record's own summary text; relation type pending review.", sources: [source/al-aalam] }
 sources: [source/al-aalam, source/siyar-alam-nubala-ideas-house]

@@ -23,3 +23,4 @@ provenance: { layer: own-research, source: "ديوان الحماسة، طبعة
 died: { edtf: "700~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kitab al-Aghani" }
 relations:
   - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/hamasa-abu-tammam-ed-1916], confidence: low }
+  - {type: authored, target: work/hamasa-al-fadl-mahlan-bani-ammina, sources: [source/hamasa-abu-tammam-ed-1916], note: 'Stated in the summary of work/hamasa-al-fadl-mahlan-bani-ammina: "by al-Fadl ibn al-Abbas ibn Utba ibn Abi Lahab"'}

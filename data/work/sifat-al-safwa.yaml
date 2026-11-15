@@ -24,3 +24,5 @@ provenance:
   run: ocr-harvest-2026-11-04
 sources: [source/sifat-al-safwa-tartusi-2012, source/al-aalam]
 status: { review: published, completeness: 3 }
+relations:
+  - {type: relies_on, target: work/hilyat-al-awliya, sources: [source/sifat-al-safwa-tartusi-2012], note: 'Stated in the summary of work/sifat-al-safwa: "an abridgement and correction of Abu Nu''aym al-Isfahani''s Hilyat al-Awliya''"'}

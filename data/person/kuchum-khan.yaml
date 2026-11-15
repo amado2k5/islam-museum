@@ -13,7 +13,7 @@ summary:
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/gunpowder-empires]
-died: { edtf: "1601~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
+died: { edtf: "1601~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 Agrees with Wikidata Q138237 (P570, a statement without a reference), item revision 2562732314, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/khurasan, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/tarikh-islam-hasan-ibrahim] }
 sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]

@@ -27,8 +27,8 @@ provenance:
   model: "SWE-2"
   run: inventions-w2-10-drafting
 status: { review: draft, completeness: 2, generated_by: "body pages read; Claude (Haiku 5.5); faith/inventions added by Devin drafter w2-10" }
-born: { edtf: "770", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 / al-Tabari" }
-died: { edtf: "818", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 / al-Tabari" }
+born: { edtf: "770", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 / al-Tabari Agrees with Wikidata Q292178 (P569, a statement without a reference), item revision 2562784041, read on 13 November 2026.", sources: [source/wikidata] }
+died: { edtf: "818", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 / al-Tabari Agrees with Wikidata Q292178 (P570, a statement without a reference), item revision 2562784041, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/sarakhs, note: "Wikidata Q765536 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: died_in, target: place/sarakhs, note: "Wikidata Q765536 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }

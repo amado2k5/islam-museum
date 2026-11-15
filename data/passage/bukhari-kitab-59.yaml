@@ -1,0 +1,23 @@
+id: passage/bukhari-kitab-59
+class: passage
+unit: chapter
+work: work/sahih-al-bukhari
+ref: "kitab-59"
+label:
+  ar: "صحيح البخاري، كتاب بدء الخلق"
+  en: "Sahih al-Bukhari, Book 59: Beginning of Creation"
+  ur: "صحیح بخاری، کتاب بدء الخلق"
+summary:
+  ar: "القسم 59 من صحيح البخاري في تقسيم قاعدة بيانات الحديث المفتوحة التي أُخذت منها سجلات المتحف، وعنوانه «كتاب بدء الخلق»، ويضم فيها النصوص من 3190 إلى 3325 بترقيمها. يضع المتحف تحت هذا الكتاب ما عنده من سجلات هذه النصوص."
+  en: "Book 59 of Sahih al-Bukhari (Beginning of Creation) in the division of the open hadith dataset the museum took its reports from: reports 3190 to 3325 in that dataset's numbering. The museum files its records of these reports under this book; printed editions divide and number the collection differently."
+  ur: "صحیح بخاری کی کتاب 59، عنوان «کتاب بدء الخلق»، اس کھلے حدیث ڈیٹا سیٹ کی تقسیم کے مطابق جس سے میوزیم کے ریکارڈ لیے گئے: اس کی ترقیم میں روایات 3190 تا 3325۔ میوزیم ان روایات کے اپنے ریکارڈ اسی کتاب کے تحت رکھتا ہے۔"
+relations:
+  - { type: part_of, target: work/sahih-al-bukhari }
+provenance:
+  layer: own-research
+  source: "fawazahmed0/hadith-api (Unlicense), edition eng-bukhari: metadata.sections and section_details, book 59; Arabic title from AhmedBaset/hadith-json, bukhari.json, matched by the English name"
+  generated_by: "Claude Code"
+  model: claude-fable-5-2
+  run: hadith-library-books-2026-11-15
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0, source/hadith-json-ahmedbaset]
+status: { review: published, completeness: 1, generated_by: "Claude Code (claude-fable-5-2), from the dataset's own division; no report text stored" }

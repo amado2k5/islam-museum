@@ -7,12 +7,13 @@ summary:
 periods: [period/rashidun]
 wings: [people]
 external_ids: { wikidata: "Q8064535" }
-died: { edtf: "670~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Nafi' b. al-Harith); al-Isaba" }
+died: { edtf: "670~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Nafi' b. al-Harith); al-Isaba Agrees with Wikidata Q8064535 (P570, a statement without a reference), item revision 2533549875, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: traveled_to, target: place/al-ubulla, sources: [source/futuh-buldan-maarif-1407] }
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:
+  source: "the record's cited sources (source/futuh-buldan-maarif-1407); field added 15 November 2026"
   layer: own-research
   generated_by: "Devin (SWE-2 High)"
   extraction_flow: "Apple Vision OCR -> manual extraction"

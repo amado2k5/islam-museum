@@ -25,6 +25,6 @@ status:
   review: draft
   completeness: 3
 born: { edtf: "1681", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Jabarti (Aja'ib al-Athar) Confirmed on 13 November 2026 against Wikidata Q12223377 (P569, a statement with a reference), item revision 2518555826. al-A'lam gives 1091 AH = 1680; the card's 1681 falls in the same Hijri year and is kept.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
-died: { edtf: "1758", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Jabarti (Aja'ib al-Athar)" }
+died: { edtf: "1758", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Jabarti (Aja'ib al-Athar) Agrees with Wikidata Q12223377 (P570, a statement without a reference), item revision 2518555826, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/misr, note: "Only the record-level region (egypt-nile) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }

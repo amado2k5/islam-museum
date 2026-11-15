@@ -1,0 +1,23 @@
+id: passage/ibnmajah-kitab-18
+class: passage
+unit: chapter
+work: work/sunan-ibn-majah
+ref: "kitab-18"
+label:
+  ar: "سنن ابن ماجه، كتاب اللقطة"
+  en: "Sunan Ibn Majah, Book 18: The Chapters on Lost Property"
+  ur: "سنن ابن ماجہ، کتاب اللقطۃ"
+summary:
+  ar: "القسم 18 من سنن ابن ماجه في تقسيم قاعدة بيانات الحديث المفتوحة التي أُخذت منها سجلات المتحف، وعنوانه «كتاب اللقطة»، ويضم فيها النصوص من 2502 إلى 2511 بترقيمها. يضع المتحف تحت هذا الكتاب ما عنده من سجلات هذه النصوص."
+  en: "Book 18 of Sunan Ibn Majah (The Chapters on Lost Property) in the division of the open hadith dataset the museum took its reports from: reports 2502 to 2511 in that dataset's numbering. The museum files its records of these reports under this book; printed editions divide and number the collection differently."
+  ur: "سنن ابن ماجہ کی کتاب 18، عنوان «کتاب اللقطۃ»، اس کھلے حدیث ڈیٹا سیٹ کی تقسیم کے مطابق جس سے میوزیم کے ریکارڈ لیے گئے: اس کی ترقیم میں روایات 2502 تا 2511۔ میوزیم ان روایات کے اپنے ریکارڈ اسی کتاب کے تحت رکھتا ہے۔"
+relations:
+  - { type: part_of, target: work/sunan-ibn-majah }
+provenance:
+  layer: own-research
+  source: "fawazahmed0/hadith-api (Unlicense), edition eng-ibnmajah: metadata.sections and section_details, book 18; Arabic title from AhmedBaset/hadith-json, ibnmajah.json, matched by the English name"
+  generated_by: "Claude Code"
+  model: claude-fable-5-2
+  run: hadith-library-books-2026-11-15
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0, source/hadith-json-ahmedbaset]
+status: { review: published, completeness: 1, generated_by: "Claude Code (claude-fable-5-2), from the dataset's own division; no report text stored" }

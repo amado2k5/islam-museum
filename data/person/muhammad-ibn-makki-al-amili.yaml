@@ -25,7 +25,7 @@ status:
   review: draft
   completeness: 3
 born: { edtf: "1333", calendar: gregorian, precision: year, derived: true, note: "al-A'lam entry: 734 AH = 1333 CE; corrects the card's 1334.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
-died: { edtf: "1384", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; al-Hurr al-Amili (Amal al-Amil)" }
+died: { edtf: "1384", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; al-Hurr al-Amili (Amal al-Amil) Agrees with Wikidata Q4117198 (P570, a statement without a reference), item revision 2558521530, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/jezzine, note: "The entry: he settled in Jizzin in Lebanon.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }
   - { type: lived_in, target: place/mecca, confidence: low, note: "Association inferred from the nisba in the name 'Muhammad ibn Makki al-Amili'; specific residence not individually documented.", sources: [source/al-aalam] }

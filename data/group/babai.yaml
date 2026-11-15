@@ -16,3 +16,5 @@ provenance:
   source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, pp. 900-901, entry 'BABA'I' (queue seq 481, batch ei2-b020); the leader is the baba Ishak, whose person record (person/baba-ishaq) is not yet enriched from this article"
   generated_by: "Claude Code (claude-haiku-5-5)"
 status: { review: published, completeness: 2 }
+relations:
+  - {type: located_in, target: place/anatolia, sources: [source/encyclopaedia-of-islam-2], note: 'Stated in the summary of group/babai: "movement in Saljuq Anatolia"'}

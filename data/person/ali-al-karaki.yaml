@@ -23,7 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 3
-died: { edtf: "1534", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: A'yan al-Shi'a" }
+died: { edtf: "1534", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: A'yan al-Shi'a Agrees with Wikidata Q6402302 (P570, a statement without a reference), item revision 2558278640, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: died_in, target: place/najaf, note: "The entry: died at Najaf of Kufa.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }
   - { type: lived_in, target: place/iran, note: "Only the record-level region (persia-central-asia) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }

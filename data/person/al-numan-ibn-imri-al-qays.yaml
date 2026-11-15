@@ -17,3 +17,4 @@ status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
 died: { edtf: "418~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
 relations:
   - { type: ruler_of, target: place/al-hira, note: "From text: ملك الحيرة", sources: [source/futuh-buldan-maarif-1407], confidence: low }
+  - {type: commissioned, target: building/khawarnaq-palace, sources: [source/mujam-al-buldan], note: 'Stated in the summary of building/khawarnaq-palace: "ordered by al-Nu''man ibn Imri'' al-Qays"'}

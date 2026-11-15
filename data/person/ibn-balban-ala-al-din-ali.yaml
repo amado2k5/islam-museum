@@ -30,6 +30,7 @@ relations:
   - { type: lived_in, target: place/cairo, sources: [source/sahih-ibn-hibban-shakir-maarif-v1] }
   - { type: buried_in, target: building/bab-al-nasr, note: "دفن بتربته خارج باب النصر {cite:sahih-ibn-hibban-shakir-maarif-v1 p. 45}", sources: [source/sahih-ibn-hibban-shakir-maarif-v1] }
   - { type: related_to, target: work/al-mujam-al-kabir, note: "رتّب المعجم الكبير للطبراني على أبواب الفقه بإشارة القطب الحلبي، كما قال ابن حجر وابن أبي الوفاء {cite:sahih-ibn-hibban-shakir-maarif-v1 p. 45}", sources: [source/sahih-ibn-hibban-shakir-maarif-v1] }
+  - {type: authored, target: work/al-ihsan-fi-taqrib-sahih-ibn-hibban, sources: [source/sahih-ibn-hibban-shakir-maarif-v1], note: 'Stated in the summary of work/al-ihsan-fi-taqrib-sahih-ibn-hibban: "rearrangement by al-Amir ''Ala'' al-Din ''Ali ibn Balban al-Farisi"'}
 sources: [source/sahih-ibn-hibban-shakir-maarif-v1, source/mawsuat-a3lam-ulama-adaba]
 provenance:
   layer: own-research

@@ -13,8 +13,8 @@ summary:
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/gunpowder-empires]
-born: { edtf: "1514", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica" }
-died: { edtf: "1576", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica" }
+born: { edtf: "1514", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica Agrees with Wikidata Q298410 (P569, a statement without a reference), item revision 2560908718, read on 13 November 2026.", sources: [source/wikidata] }
+died: { edtf: "1576", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica Agrees with Wikidata Q298410 (P570, a statement without a reference), item revision 2560908718, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/shahabad-isfahan, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q5853894)" }
   - { type: died_in, target: place/qazvin, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q181578)" }

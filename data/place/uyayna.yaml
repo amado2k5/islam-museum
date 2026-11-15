@@ -32,3 +32,5 @@ provenance:
   - person-place-geo-c
   note: Semantic merge of duplicate records written by parallel enrichment runs.
   source: Wikidata item Q4166503 (labels, coordinates, description)
+relations:
+  - {type: located_in, target: place/al-arid, sources: [source/encyclopaedia-of-islam-2], note: 'Stated in the summary of place/al-arid: "Its towns include al-''Uyayna"'}

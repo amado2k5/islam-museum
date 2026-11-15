@@ -1,0 +1,23 @@
+id: passage/abudawud-kitab-15
+class: passage
+unit: chapter
+work: work/sunan-abi-dawud
+ref: "kitab-15"
+label:
+  ar: "سنن أبي داود، كتاب الجهاد"
+  en: "Sunan Abi Dawud, Book 15: Jihad (Kitab Al-Jihad)"
+  ur: "سنن ابی داؤد، کتاب الجہاد"
+summary:
+  ar: "القسم 15 من سنن أبي داود في تقسيم قاعدة بيانات الحديث المفتوحة التي أُخذت منها سجلات المتحف، وعنوانه «كتاب الجهاد»، ويضم فيها النصوص من 2477 إلى 2787 بترقيمها. يضع المتحف تحت هذا الكتاب ما عنده من سجلات هذه النصوص."
+  en: "Book 15 of Sunan Abi Dawud (Jihad (Kitab Al-Jihad)) in the division of the open hadith dataset the museum took its reports from: reports 2477 to 2787 in that dataset's numbering. The museum files its records of these reports under this book; printed editions divide and number the collection differently."
+  ur: "سنن ابی داؤد کی کتاب 15، عنوان «کتاب الجہاد»، اس کھلے حدیث ڈیٹا سیٹ کی تقسیم کے مطابق جس سے میوزیم کے ریکارڈ لیے گئے: اس کی ترقیم میں روایات 2477 تا 2787۔ میوزیم ان روایات کے اپنے ریکارڈ اسی کتاب کے تحت رکھتا ہے۔"
+relations:
+  - { type: part_of, target: work/sunan-abi-dawud }
+provenance:
+  layer: own-research
+  source: "fawazahmed0/hadith-api (Unlicense), edition eng-abudawud: metadata.sections and section_details, book 15; Arabic title from AhmedBaset/hadith-json, abudawud.json, matched by the English name"
+  generated_by: "Claude Code"
+  model: claude-fable-5-2
+  run: hadith-library-books-2026-11-15
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0, source/hadith-json-ahmedbaset]
+status: { review: published, completeness: 1, generated_by: "Claude Code (claude-fable-5-2), from the dataset's own division; no report text stored" }

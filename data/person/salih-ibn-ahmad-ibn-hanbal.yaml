@@ -11,7 +11,7 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
-born: { edtf: "818", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
+born: { edtf: "818", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar Agrees with Wikidata Q18325461 (P569, a statement without a reference), item revision 2567767180, read on 13 November 2026.", sources: [source/wikidata] }
 died: { edtf: "879", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar Confirmed on 13 November 2026 against Wikidata Q18325461 (P570, a statement with a reference), item revision 2567767180.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/baghdad, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1530)" }

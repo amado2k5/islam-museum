@@ -23,3 +23,5 @@ provenance:
   run: wikidata-import-wave2
   extra_runs: ["Claude Code (OCR-harvest worker H), claude-opus-5-5, ocr-harvest-2026-11-04: Yilmaz 2024 pp. 120-121, summary, dates and first prose"]
 status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker H)" }
+relations:
+  - {type: located_in, target: place/p-cs, sources: [source/tarikh-islam-hasan-ibrahim], note: 'Stated in the summary of building/turbe-of-idris-baba: "Türbe of İdris Baba, Pécs"'}

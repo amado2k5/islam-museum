@@ -11,8 +11,8 @@ summary:
 wings: [people]
 regions: [egypt-nile]
 periods: [period/abbasid-early]
-born: { edtf: "728", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala; Ma'rifat al-Qurra al-Kibar" }
-died: { edtf: "812", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala; Ma'rifat al-Qurra al-Kibar" }
+born: { edtf: "728", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala; Ma'rifat al-Qurra al-Kibar Agrees with Wikidata Q12250893 (P569, a statement without a reference), item revision 2554005406, read on 13 November 2026.", sources: [source/wikidata] }
+died: { edtf: "812", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala; Ma'rifat al-Qurra al-Kibar Agrees with Wikidata Q12250893 (P570, a statement without a reference), item revision 2554005406, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/qift, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q935454)" }
   - { type: died_in, target: place/al-fustat, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q839456)" }

@@ -17,3 +17,5 @@ provenance:
   source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, PDF p. 447, entry 'AL-'ALUSI' (signed S. M. Stern) (EI2 entry, batch ei2-b010 part 3ed; the ALWA entry printed at the end of the row is a separate headword and is logged, not written)"
   generated_by: "Claude Code (claude-haiku-5-5)"
 status: { review: published, completeness: 2 }
+relations:
+  - {type: located_in, target: place/baghdad, sources: [source/encyclopaedia-of-islam-2], note: 'Stated in the summary of group/al-alusi-family: "The al-Alusi family of Baghdad"'}

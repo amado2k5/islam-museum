@@ -22,6 +22,7 @@ relations:
   - { type: lived_in, target: place/misr, note: "Place association from the person's nisba/name (المصري); denotes association, not proven residence.", sources: [source/aqida-tahawiyya], confidence: low }
   - { type: authored, target: work/aqida-tahawiyya, sources: [source/aqida-tahawiyya] }
   - { type: authored, target: work/ahkam-al-quran-tahawi, sources: [source/kashf-zunun-furqan] }
+  - {type: authored, target: work/sharh-mushkil-al-athar, sources: [source/sharh-mushkil-al-athar-arnaout], note: 'Stated in the summary of work/sharh-mushkil-al-athar: "Abu Ja''far al-Tahawi''s (d. 321 AH) book"'}
 provenance: { layer: own-research, source: "العقيدة الطحاوية، طبعة دار ابن حزم 1995، ص 5 و7", generated_by: "Claude (maintainer session)", model: claude-sonnet-5-5, run: tahawiyya-1 }
 external_ids: { wikidata: "Q293771", openiti: "0321AbuJacfarTahawi", viaf: "10653417" }
 sources: [source/aqida-tahawiyya, source/openiti-corpus, source/wikidata]

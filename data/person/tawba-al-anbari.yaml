@@ -11,7 +11,7 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
-died: { edtf: "748", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Tahdhib (Ibn Hajar)" }
+died: { edtf: "748", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Tahdhib (Ibn Hajar) Agrees with Wikidata Q12203390 (P570, a statement without a reference), item revision 2409590006, read on 13 November 2026.", sources: [source/wikidata] }
 born: { edtf: "677", calendar: gregorian, precision: year, derived: true, note: "57 AH = 677 CE as printed in the entry; source: al-Zirikli, al-A'lam, 15th ed. 2002, vol. 2 p. 90", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
   - { type: born_in, target: place/al-yamama, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q2551267)" }

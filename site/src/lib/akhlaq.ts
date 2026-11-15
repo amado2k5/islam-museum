@@ -12,6 +12,8 @@ import {
   type AkhlaqKind, type AkhlaqSection, type AkhlaqTrack,
 } from "../../../scripts/akhlaq";
 import type { Node } from "../../../scripts/build-graph";
+import { AKHLAQ_TOPIC_KINDS as TOPIC_KINDS } from "../../../scripts/akhlaq";
+import { axisHeadings } from "./axis";
 
 export { AKHLAQ_SECTIONS, AKHLAQ_TOPIC_KINDS, type AkhlaqKind, type AkhlaqSection, type AkhlaqTrack } from "../../../scripts/akhlaq";
 
@@ -53,3 +55,17 @@ export const akhlaqItems: AkhlaqItem[] = realNodes
 
 /** Detector debug aid for tests and the API: the matched signal names of a passage. */
 export const akhlaqSignals = (n: Node): string[] => akhlaqSignalsOf(n);
+
+/** The group a heading stands in on the axis: virtues, vices, dealings, or the general words (`akhlaq`, `muamalat`). */
+export type AkhlaqGroup = "virtue" | "vice" | "dealing" | "general";
+export const akhlaqGroupOf = (topic: string): AkhlaqGroup => {
+  const k = TOPIC_KINDS[topic] ?? [];
+  return k.includes("virtue") ? "virtue" : k.includes("vice") ? "vice" : k.includes("dealing") ? "dealing" : "general";
+};
+const GROUP_ORDER: AkhlaqGroup[] = ["virtue", "vice", "dealing", "general"];
+/** The headings of the axis (audit S24): every topic that holds a record, virtues first, then vices, dealings and the general words; inside a group, the order of the detector's table. */
+export const akhlaqHeadings = axisHeadings(
+  akhlaqItems,
+  [...new Set([...Object.keys(TOPIC_KINDS), ...akhlaqItems.flatMap((i) => i.topics)])].sort((a, b) => GROUP_ORDER.indexOf(akhlaqGroupOf(a)) - GROUP_ORDER.indexOf(akhlaqGroupOf(b))),
+  akhlaqGroupOf,
+);

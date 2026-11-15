@@ -25,7 +25,7 @@ provenance:
 status:
   review: draft
   completeness: 1
-born: { edtf: "1468", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
+born: { edtf: "1468", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi Agrees with Wikidata Q4695880 (P569, a statement without a reference), item revision 2520989589, read on 13 November 2026.", sources: [source/wikidata] }
 died: { edtf: "1556", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi Confirmed on 13 November 2026 against Wikidata Q4695880 (P570, a statement with a reference), item revision 2520989589.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/anatolia, note: "From text: Ottoman (nationality adjective); broad association, flagged for review.", sources: [source/al-aalam], confidence: low }

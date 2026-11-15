@@ -24,6 +24,8 @@ relations:
   - { type: traveled_to, target: place/maldives, sources: [source/rihla-ibn-battuta-ihya-al-ulum-1987] }
   - { type: participated_in, target: event/ibn-battuta-journey-to-mali-1352, sources: [source/britannica-ibn-battuta] }
   - { type: participated_in, target: event/ibn-battuta-dictates-rihla-1353, sources: [source/britannica-ibn-battuta] }
+  - {type: traveled_to, target: place/iwalatan, sources: [source/rihla-ibn-battuta-khayriyya-1904], note: 'Stated in the summary of place/iwalatan: "A town which Ibn Battuta calls the first province of the Sudan"'}
+  - {type: traveled_to, target: place/takedda, sources: [source/rihla-ibn-battuta-khayriyya-1904], note: 'Stated in the summary of place/takedda: "A Saharan town Ibn Battuta visited on his way back from Mali"'}
 story_roles:
   - { role: traveller-observer, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
 external_ids: { wikidata: "Q7331", biblissima: Q12201, viaf: "90635782" }

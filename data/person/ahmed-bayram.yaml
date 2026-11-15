@@ -23,6 +23,6 @@ provenance:
 status:
   review: draft
   completeness: 1
-born: { edtf: "1875", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam)" }
+born: { edtf: "1875", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam) Agrees with Wikidata Q2827502 (P569, a statement without a reference), item revision 2521340455, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/maghreb, note: "Only the record-level region (maghreb) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }

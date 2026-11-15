@@ -11,7 +11,7 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/gunpowder-empires]
-born: { edtf: "1664", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Muradi (Silk al-Durar)" }
+born: { edtf: "1664", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Muradi (Silk al-Durar) Agrees with Wikidata Q107222342 (P569, a statement without a reference), item revision 2533250381, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/damascus, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q3766)" }
   - { type: buried_in, target: place/bab-al-saghir-cemetery, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q96372940)" }

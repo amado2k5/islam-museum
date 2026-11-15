@@ -12,7 +12,7 @@ wings: [people]
 regions: [maghreb]
 periods: [period/mongol-post-mongol]
 born: { edtf: "1282", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar" }
-died: { edtf: "1348", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar" }
+died: { edtf: "1348", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar Agrees with Wikidata Q119439097 (P570, a statement without a reference), item revision 2533513576, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/lamta-maghreb, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/al-aalam] }
   - { type: lived_in, target: place/damascus, confidence: medium, note: "Al-Zirikli, al-A'lam vol. 4 p. 86: of the people of Damascus.", sources: [source/alam-zirikli-dar-al-ilm-2002] }

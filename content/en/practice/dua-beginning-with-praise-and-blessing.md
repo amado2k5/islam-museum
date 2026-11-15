@@ -1,0 +1,11 @@
+---
+id: practice/dua-beginning-with-praise-and-blessing
+lang: en
+source_lang: ar
+translators: ["Claude Fable 5.2 (claude-fable-5-2), draft translation"]
+---
+## Summary
+What al-Nawawi gathers in the chapter on opening a supplication with praise of God and the blessing on the Prophet, and in the chapter on blessing the prophets and their families as followers. {cite:al-adhkar-nawawi-arnaut-1994 p. 117}
+
+## What al-Nawawi gathers in al-Adhkar
+Al-Nawawi says that whoever blesses [[person/muhammad|the Prophet]] should join the blessing with the greeting of peace and not use only one, and that a reader of hadith, or anyone like him, is encouraged to raise his voice when naming him, without excess {cite:al-adhkar-nawawi-arnaut-1994 p. 117}. In the chapter on opening a supplication he gives from the Sunan of Abu Dawud, al-Tirmidhi and al-Nasa'i, from Fadala ibn Ubayd, that the Prophet heard a man supplicating in his prayer who had neither glorified God nor blessed him, and said «عجل هذا», this man was hasty. He taught that one should begin by glorifying and praising his Lord, then bless the Prophet, then ask what he wishes. Al-Tirmidhi calls it good and sound {cite:al-adhkar-nawawi-arnaut-1994 p. 117}. From al-Tirmidhi's book he gives a saying of Umar ibn al-Khattab that supplication stays suspended between heaven and earth, and nothing of it rises until one blesses the Prophet {cite:al-adhkar-nawawi-arnaut-1994 p. 117}. He adds that the scholars agree it is recommended to begin a supplication with praise of God and then the blessing on the Prophet, and to end it with both {cite:al-adhkar-nawawi-arnaut-1994 p. 117}. In the next chapter he reports agreement on blessing the Prophet, and on its being permitted and recommended, on its own, for the other prophets and for angels, while most hold that others are not blessed on their own {cite:al-adhkar-nawawi-arnaut-1994 p. 118}. He says the sounder view, held by most, is that this is disliked in the mild sense, because it became the badge of innovators {cite:al-adhkar-nawawi-arnaut-1994 p. 118}. All agree that others may be included as followers of the prophets, such as the family, companions, wives, descendants and followers, and he says invoking God's pleasure or mercy upon the Companions, the Followers, scholars and worshippers is recommended {cite:al-adhkar-nawawi-arnaut-1994 p. 118}.

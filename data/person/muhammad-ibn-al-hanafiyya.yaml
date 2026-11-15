@@ -13,8 +13,8 @@ provenance:
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch30
 external_ids: { wikidata: "Q939884", viaf: "32857439" }
-born: { edtf: "637", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; Ibn Sa'd (al-Tabaqat al-Kubra)" }
-died: { edtf: "700", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; Ibn Sa'd (al-Tabaqat al-Kubra)" }
+born: { edtf: "637", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; Ibn Sa'd (al-Tabaqat al-Kubra) Agrees with Wikidata Q939884 (P569, a statement without a reference), item revision 2554143547, read on 13 November 2026.", sources: [source/wikidata] }
+died: { edtf: "700", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; Ibn Sa'd (al-Tabaqat al-Kubra) Agrees with Wikidata Q939884 (P570, a statement without a reference), item revision 2554143547, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/medina, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q35484)" }
 sources: [source/muruj-al-dhahab, source/bakr-umayyad-state-1134715, source/sallabi-ali-vol1, source/wikidata]

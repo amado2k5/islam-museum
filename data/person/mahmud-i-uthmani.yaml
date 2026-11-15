@@ -11,7 +11,7 @@ summary:
 wings: [people]
 periods: [period/gunpowder-empires]
 regions: [anatolia-balkans]
-born: { edtf: "1696", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV" }
+born: { edtf: "1696", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Agrees with Wikidata Q199481 (P569, a statement without a reference), item revision 2565443611, read on 13 November 2026.", sources: [source/wikidata] }
 died: { edtf: "1754", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Confirmed on 13 November 2026 against Wikidata Q199481 (P570, a statement with a reference), item revision 2565443611.", sources: [source/wikidata] }
 relations:
   - { type: ruled_over, target: polity/ottoman-empire, sources: [source/sicill-i-osmani] }

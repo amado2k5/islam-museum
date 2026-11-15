@@ -19,3 +19,4 @@ status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 High)"
 relations:
   - { type: lived_in, target: place/malatya, confidence: low, note: "Associated with ملطية per the record's own summary text; relation type pending review.", sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: built, target: building/khanqah-mausoleum-of-sultan-barsbay, sources: [source/yeomans-islamic-cairo-2006] }
+  - {type: commissioned, target: building/al-ashraf-barsbay-complex, sources: [source/al-aalam], note: 'Stated in the summary of building/al-ashraf-barsbay-complex: "The complex of Sultan al-Ashraf Barsbay in Cairo"'}

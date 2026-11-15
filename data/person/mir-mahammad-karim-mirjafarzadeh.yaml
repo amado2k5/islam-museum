@@ -11,8 +11,8 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/modern-era]
-born: { edtf: "1853", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Azerbaijan Natl. Enc." }
-died: { edtf: "1938", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Azerbaijan Natl. Enc." }
+born: { edtf: "1853", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Azerbaijan Natl. Enc. Agrees with Wikidata Q12836202 (P569, a statement without a reference), item revision 2530798409, read on 13 November 2026.", sources: [source/wikidata] }
+died: { edtf: "1938", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Azerbaijan Natl. Enc. Agrees with Wikidata Q12836202 (P570, a statement without a reference), item revision 2530798409, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/baku, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 sources: [source/al-aalam, source/wikidata]

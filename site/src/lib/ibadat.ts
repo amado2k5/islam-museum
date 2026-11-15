@@ -5,8 +5,9 @@
 // act of worship in a book harvested later appears here the day its passage record lands;
 // curated records join through the `ibadat-browser` tag. There is no side list.
 import { byId, realNodes } from "./graph";
-import { ibadatCorpusOf, ibadatKindOf, ibadatSignalsOf, ibadatTagSection, ibadatTopicsOf, IBADAT_TAG, isIbadatPassage, type IbadatKind, type IbadatSection, type IbadatTopic } from "../../../scripts/ibadat";
+import { ibadatCorpusOf, ibadatKindOf, ibadatSignalsOf, ibadatTagSection, ibadatTagTopics, ibadatTopicsOf, IBADAT_TAG, isIbadatPassage, type IbadatKind, type IbadatSection, type IbadatTopic } from "../../../scripts/ibadat";
 import type { Node } from "../../../scripts/build-graph";
+import { axisHeadings } from "./axis";
 
 export { IBADAT_SECTIONS, type IbadatKind, type IbadatSection, type IbadatTopic } from "../../../scripts/ibadat";
 
@@ -32,7 +33,7 @@ export const ibadatItems: IbadatItem[] = realNodes
       ? ibadatCorpusOf(n.data.work as string | undefined, genreOf(n.data.work as string | undefined), n.data.unit as string | undefined)
       : ibadatTagSection(n),
     kind: n.class === "passage" ? ibadatKindOf(n) : null,
-    topics: n.class === "passage" ? ibadatTopicsOf(n) : [],
+    topics: n.class === "passage" ? ibadatTopicsOf(n) : ibadatTagTopics(n),
     work: n.class === "passage" ? byId.get(n.data.work as string) : undefined,
   }))
   .sort((a, b) => {
@@ -42,3 +43,7 @@ export const ibadatItems: IbadatItem[] = realNodes
 
 /** Detector debug aid for tests and the API: the matched signal names of a passage. */
 export const ibadatSignals = (n: Node): string[] => ibadatSignalsOf(n);
+
+/** The acts of worship in the order the axis lists them (audit S24): purification, prayer, zakat, fasting and hajj as the fiqh manuals order them, then the remembrances, then worship as a general word. */
+export const IBADAT_AXIS_ORDER = ["tahara", "salah", "zakat", "sawm", "hajj", "dhikr", "dua", "tilawa", "tawba", "ruqya", "ibada"] as const;
+export const ibadatHeadings = axisHeadings(ibadatItems, IBADAT_AXIS_ORDER, () => "");

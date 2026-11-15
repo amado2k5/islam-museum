@@ -29,3 +29,4 @@ provenance:
   run: prose-fill-persons-batch49
 relations:
   - { type: lived_in, target: place/misr, note: "Place association from the person's nisba/name (مصري); denotes association, not proven residence.", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }
+  - {type: authored, target: work/al-mustatraf, sources: [source/mustatraf-bulac-lithograph], note: 'Stated in the summary of work/al-mustatraf: "Al-Abshihi''s literary encyclopaedia"'}

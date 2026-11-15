@@ -11,7 +11,7 @@ summary:
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/gunpowder-empires]
-born: { edtf: "1608", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Iranica" }
+born: { edtf: "1608", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Iranica Agrees with Wikidata Q5727594 (P569, a statement without a reference), item revision 2567625322, read on 13 November 2026.", sources: [source/wikidata] }
 died: { edtf: "1679", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Iranica Confirmed on 13 November 2026 against Wikidata Q5727594 (P570, a statement with a reference), item revision 2567625322.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/sabzevar, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q765553)" }

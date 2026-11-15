@@ -14,3 +14,5 @@ external_ids: { wikidata: "Q190948", geonames: "110690" }
 sources: [source/wikidata]
 provenance: { layer: own-research, source: "Wikidata item Q190948 (labels, coordinates, description)", generated_by: "Devin (SWE-2 High)", run: "person-place-geo-c" }
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+relations:
+  - {type: located_in, target: place/asir, sources: [source/encyclopaedia-of-islam-2], note: 'Stated in the summary of place/asir: "the highland capital is Abha"'}

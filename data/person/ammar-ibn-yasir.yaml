@@ -27,7 +27,7 @@ story_roles:
   - { role: companion, status: tradition }
 faith:
   - { value: sunni, basis: tradition, note: "Early Muslim; recorded under the museum's Sunni frame (docs/scope.md)." }
-born: { edtf: "570", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isti'ab / al-Isaba" }
+born: { edtf: "570", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isti'ab / al-Isaba Agrees with Wikidata Q1110653 (P569, a statement without a reference), item revision 2556123140, read on 13 November 2026.", sources: [source/wikidata] }
 died: { edtf: "0657", hijri: "0037", calendar: julian, precision: year, status: tradition, derived: true, note: "Martyred at Siffin, 37 AH, aged ninety-three (al-Isaba pp. 1068-1069); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
   - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/muruj-al-dhahab, source/assabile-mosaad-anwar, source/fadail-sahaba-ahmad-wasi-allah-1999, source/usd-ghaba], confidence: low }

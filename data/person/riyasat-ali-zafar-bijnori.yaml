@@ -23,7 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
-born: { edtf: "1940", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Darul Uloom Deoband Obituaries" }
-died: { edtf: "2017", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Darul Uloom Deoband Obituaries" }
+born: { edtf: "1940", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Darul Uloom Deoband Obituaries Agrees with Wikidata Q115517515 (P569, a statement without a reference), item revision 2532324941, read on 13 November 2026.", sources: [source/wikidata] }
+died: { edtf: "2017", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Darul Uloom Deoband Obituaries Agrees with Wikidata Q115517515 (P570, a statement without a reference), item revision 2532324941, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/zafar, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/al-aalam] }

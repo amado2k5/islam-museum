@@ -11,7 +11,7 @@ summary:
 wings: [people]
 regions: [egypt-nile]
 periods: [period/gunpowder-empires]
-died: { edtf: "1634", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Khulasat al-Athar" }
+died: { edtf: "1634", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Khulasat al-Athar Agrees with Wikidata Q105338234 (P570, a statement without a reference), item revision 2533353654, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/qus, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/cairo, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

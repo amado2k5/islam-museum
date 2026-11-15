@@ -20,6 +20,7 @@ relations:
   - { type: died_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: authored, target: work/seyahatname, sources: [source/evliya-narrative-hammer-v1] }
   - { type: born_in, target: place/istanbul, sources: [source/evliya-narrative-hammer-v1] }
+  - {type: wrote_about, target: building/akyazili-sultan-tekke-balchik, sources: [source/yilmaz-kiliseye-cevrilen-turk-eserleri-1-2023], note: 'Stated in the summary of building/akyazili-sultan-tekke-balchik: "described by Evliya Çelebi in 1652"'}
 sources: [source/al-aalam, source/evliya-narrative-hammer-v1, source/evliya-narrative-hammer-v2, source/wikidata]
 external_ids:
   wikidata: Q202308

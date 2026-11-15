@@ -11,7 +11,7 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
-born: { edtf: "1670", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
+born: { edtf: "1670", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi Agrees with Wikidata Q1584471 (P569, a statement without a reference), item revision 2562649588, read on 13 November 2026.", sources: [source/wikidata] }
 died: { edtf: "1711", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi Confirmed on 13 November 2026 against Wikidata Q1584471 (P570, a statement with a reference), item revision 2562649588.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/orlu, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

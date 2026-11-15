@@ -11,8 +11,8 @@ summary:
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/mongol-post-mongol]
-born: { edtf: "1329", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica" }
-died: { edtf: "1363", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica" }
+born: { edtf: "1329", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica Agrees with Wikidata Q1194934 (P569, a statement without a reference), item revision 2561016275, read on 13 November 2026.", sources: [source/wikidata] }
+died: { edtf: "1363", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica Agrees with Wikidata Q1194934 (P570, a statement without a reference), item revision 2561016275, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/ili-river, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q192567)" }
   - { type: died_in, target: place/moghulistan, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q1191125)" }

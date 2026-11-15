@@ -24,3 +24,6 @@ provenance:
   run: wikidata-import-wave2, ocr-harvest-2026-11-04
   mizan_section: "Claude Code (OCR-harvest worker F), claude-opus-5-5: tarikh-kabir-dabbasi-v1 pp. 7–22"
 status: { review: published, completeness: 3, generated_by: "Devin (SWE-2 High); Claude Code (OCR-harvest worker F)" }
+relations:
+  - {type: made_in, target: place/medina, sources: [source/al-aalam], note: 'Stated in the summary of work/al-tarikh-al-kabir: "wrote it in Medina by the Prophet''s grave"'}
+  - {type: influenced, target: work/al-jarh-wal-tadil, sources: [source/al-aalam], note: 'Stated in the summary of work/al-tarikh-al-kabir: "Ibn Abi Hatim''s al-Jarh wa-l-Ta''dil drew much of their material from it"'}

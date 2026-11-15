@@ -1,0 +1,11 @@
+---
+id: practice/dua-in-fever-pain-and-wishing-for-death
+lang: en
+source_lang: ar
+translators: ["Claude Fable 5.2 (claude-fable-5-2), draft translation"]
+---
+## Summary
+What al-Nawawi gathers in the chapters on what one with a headache or fever says, on a patient saying he is in severe pain, on disliking the wish for death because of harm, and on praying to die in the noble city. {cite:al-adhkar-nawawi-arnaut-1994 p. 137}
+
+## What al-Nawawi gathers in al-Adhkar
+Al-Nawawi gives from Ibn al-Sunni's book, from Ibn Abbas, that [[person/muhammad|the Prophet]] used to teach them, for all pains and for fever, to say «بسم الله الكبير، نعوذ بالله العظيم من شر عرق نعار ومن شر حر النار», in the name of God the Great, we seek refuge in God the Mighty from the evil of a throbbing vein and the heat of the fire {cite:al-adhkar-nawawi-arnaut-1994 p. 137}. He says the patient should recite over himself the opening sura, the sura of sincerity and the two refuge suras, blow into his hands, and use the supplication for distress given earlier {cite:al-adhkar-nawawi-arnaut-1994 p. 137}. In the chapter on a patient saying he is in severe pain, he says there is no dislike in it when it is not out of resentment or a show of impatience {cite:al-adhkar-nawawi-arnaut-1994 p. 137}. From the two Sahihs, from Ibn Mas'ud, he reports that he went in to the Prophet, who was in a fever, and said he was in a severe fever. The Prophet said «أجل كما يوعك رجلان منكم» {cite:al-adhkar-nawawi-arnaut-1994 p. 137}. In the chapter on disliking the wish for death, he gives from the two Sahihs, from Anas, the Prophet's words «لا يتمنين أحدكم الموت من ضر أصابه». If one must, he should say «اللهم أحيني ما كانت الحياة خيرا لي وتوفني إذا كانت الوفاة خيرا لي» {cite:al-adhkar-nawawi-arnaut-1994 p. 138}. The scholars say one who wishes for death out of fear for his religion, because of the corruption of the age, is not blamed {cite:al-adhkar-nawawi-arnaut-1994 p. 138}. In the chapter on praying to die in the noble city, he gives from Sahih al-Bukhari, from Hafsa, that Umar said «اللهم ارزقني شهادة في سبيلك واجعل موتي في بلد رسولك». She asked how this could be, and he said God would bring it when He wills {cite:al-adhkar-nawawi-arnaut-1994 p. 138}.

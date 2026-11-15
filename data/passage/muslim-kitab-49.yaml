@@ -1,0 +1,23 @@
+id: passage/muslim-kitab-49
+class: passage
+unit: chapter
+work: work/sahih-muslim
+ref: "kitab-49"
+label:
+  ar: "صحيح مسلم، كتاب الرقاق"
+  en: "Sahih Muslim, Book 49: The Book of Heart-Melting Traditions"
+  ur: "صحیح مسلم، کتاب الرقاق"
+summary:
+  ar: "القسم 49 من صحيح مسلم في تقسيم قاعدة بيانات الحديث المفتوحة التي أُخذت منها سجلات المتحف، وعنوانه «كتاب الرقاق»، ويضم فيها النصوص من 6937 إلى 6951 بترقيمها. يضع المتحف تحت هذا الكتاب ما عنده من سجلات هذه النصوص."
+  en: "Book 49 of Sahih Muslim (The Book of Heart-Melting Traditions) in the division of the open hadith dataset the museum took its reports from: reports 6937 to 6951 in that dataset's numbering. The museum files its records of these reports under this book; printed editions divide and number the collection differently."
+  ur: "صحیح مسلم کی کتاب 49، عنوان «کتاب الرقاق»، اس کھلے حدیث ڈیٹا سیٹ کی تقسیم کے مطابق جس سے میوزیم کے ریکارڈ لیے گئے: اس کی ترقیم میں روایات 6937 تا 6951۔ میوزیم ان روایات کے اپنے ریکارڈ اسی کتاب کے تحت رکھتا ہے۔"
+relations:
+  - { type: part_of, target: work/sahih-muslim }
+provenance:
+  layer: own-research
+  source: "fawazahmed0/hadith-api (Unlicense), edition eng-muslim: metadata.sections and section_details, book 49; Arabic title from AhmedBaset/hadith-json, muslim.json, matched by the English name"
+  generated_by: "Claude Code"
+  model: claude-fable-5-2
+  run: hadith-library-books-2026-11-15
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0, source/hadith-json-ahmedbaset]
+status: { review: published, completeness: 1, generated_by: "Claude Code (claude-fable-5-2), from the dataset's own division; no report text stored" }

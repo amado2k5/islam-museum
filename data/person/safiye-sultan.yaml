@@ -12,10 +12,11 @@ wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
 born: { edtf: "1550~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Confirmed on 13 November 2026 against Wikidata Q437197 (P569, a statement with a reference), item revision 2568512429.", sources: [source/wikidata] }
-died: { edtf: "1619~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV" }
+died: { edtf: "1619~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Agrees with Wikidata Q437197 (P570, a statement without a reference), item revision 2568512429, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: died_in, target: place/istanbul, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q406)" }
   - { type: buried_in, target: building/hagia-sophia, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q12506)" }
+  - {type: built, target: building/valide-sultan-bath-eger, sources: [source/yilmaz-ottoman-architecture-hungary-2024], note: 'Stated in the summary of building/valide-sultan-bath-eger: "built by Safiye Sultan, mother of Mehmed III"'}
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q437197

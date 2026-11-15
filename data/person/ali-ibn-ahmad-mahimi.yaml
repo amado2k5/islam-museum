@@ -24,7 +24,7 @@ provenance:
 status:
   review: draft
   completeness: 3
-died: { edtf: "1432", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam / Nuzhat al-Khawatir" }
+died: { edtf: "1432", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam / Nuzhat al-Khawatir Agrees with Wikidata Q6739378 (P570, a statement without a reference), item revision 2544087916, read on 13 November 2026.", sources: [source/wikidata] }
 born: { edtf: "1374", calendar: gregorian, precision: year, derived: true, note: "776 AH = 1374 CE as printed in the entry; source: al-Zirikli, al-A'lam, 15th ed. 2002, vol. 4 p. 257", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
   - { type: lived_in, target: place/india, note: "From text: Indian (nationality adjective); broad association, flagged for review.", sources: [source/al-aalam], confidence: low }

@@ -1,0 +1,23 @@
+id: passage/bukhari-kitab-20
+class: passage
+unit: chapter
+work: work/sahih-al-bukhari
+ref: "kitab-20"
+label:
+  ar: "صحيح البخاري، كتاب فضل الصلاة في مسجد مكة والمدينة"
+  en: "Sahih al-Bukhari, Book 20: Virtues of Prayer at Masjid Makkah and Madinah"
+  ur: "صحیح بخاری، کتاب فضل الصلاۃ فی مسجد مکۃ والمدینۃ"
+summary:
+  ar: "القسم 20 من صحيح البخاري في تقسيم قاعدة بيانات الحديث المفتوحة التي أُخذت منها سجلات المتحف، وعنوانه «كتاب فضل الصلاة في مسجد مكة والمدينة»، ويضم فيها النصوص من 1188 إلى 1197 بترقيمها. يضع المتحف تحت هذا الكتاب ما عنده من سجلات هذه النصوص."
+  en: "Book 20 of Sahih al-Bukhari (Virtues of Prayer at Masjid Makkah and Madinah) in the division of the open hadith dataset the museum took its reports from: reports 1188 to 1197 in that dataset's numbering. The museum files its records of these reports under this book; printed editions divide and number the collection differently."
+  ur: "صحیح بخاری کی کتاب 20، عنوان «کتاب فضل الصلاۃ فی مسجد مکۃ والمدینۃ»، اس کھلے حدیث ڈیٹا سیٹ کی تقسیم کے مطابق جس سے میوزیم کے ریکارڈ لیے گئے: اس کی ترقیم میں روایات 1188 تا 1197۔ میوزیم ان روایات کے اپنے ریکارڈ اسی کتاب کے تحت رکھتا ہے۔"
+relations:
+  - { type: part_of, target: work/sahih-al-bukhari }
+provenance:
+  layer: own-research
+  source: "fawazahmed0/hadith-api (Unlicense), edition eng-bukhari: metadata.sections and section_details, book 20; Arabic title from AhmedBaset/hadith-json, bukhari.json, matched by the English name"
+  generated_by: "Claude Code"
+  model: claude-fable-5-2
+  run: hadith-library-books-2026-11-15
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0, source/hadith-json-ahmedbaset]
+status: { review: published, completeness: 1, generated_by: "Claude Code (claude-fable-5-2), from the dataset's own division; no report text stored" }

@@ -16,3 +16,6 @@ provenance:
   source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, PDF pp. 193-194 (EI2 enrichment, batch ei2-b003 part 3al)"
   generated_by: "Claude Code (claude-haiku-5-5)"
 status: { review: published, completeness: 2 }
+relations:
+  - {type: located_in, target: place/danube, sources: [source/encyclopaedia-of-islam-2], note: 'Stated in the summary of place/ada-kale: "A small island in the Danube"'}
+  - {type: located_in, target: place/romania, sources: [source/encyclopaedia-of-islam-2], note: 'Stated in the summary of place/ada-kale: "Danube, now in Romania"'}

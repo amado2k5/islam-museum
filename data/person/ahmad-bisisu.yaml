@@ -24,8 +24,8 @@ provenance:
 status:
   review: draft
   completeness: 1
-born: { edtf: "1825", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam)" }
-died: { edtf: "1911", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam)" }
+born: { edtf: "1825", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam) Agrees with Wikidata Q123184230 (P569, a statement without a reference), item revision 2526787673, read on 13 November 2026.", sources: [source/wikidata] }
+died: { edtf: "1911", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam) Agrees with Wikidata Q123184230 (P570, a statement without a reference), item revision 2526787673, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/gaza, note: "Wikidata Q47492 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: died_in, target: place/gaza, note: "Wikidata Q47492 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }

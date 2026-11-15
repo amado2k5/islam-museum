@@ -1,0 +1,23 @@
+id: passage/bukhari-kitab-73
+class: passage
+unit: chapter
+work: work/sahih-al-bukhari
+ref: "kitab-73"
+label:
+  ar: "صحيح البخاري، كتاب الأضاحي"
+  en: "Sahih al-Bukhari, Book 73: Al-Adha Festival Sacrifice (Adaahi)"
+  ur: "صحیح بخاری، کتاب الاضاحی"
+summary:
+  ar: "القسم 73 من صحيح البخاري في تقسيم قاعدة بيانات الحديث المفتوحة التي أُخذت منها سجلات المتحف، وعنوانه «كتاب الأضاحي»، ويضم فيها النصوص من 5545 إلى 5574 بترقيمها. يضع المتحف تحت هذا الكتاب ما عنده من سجلات هذه النصوص."
+  en: "Book 73 of Sahih al-Bukhari (Al-Adha Festival Sacrifice (Adaahi)) in the division of the open hadith dataset the museum took its reports from: reports 5545 to 5574 in that dataset's numbering. The museum files its records of these reports under this book; printed editions divide and number the collection differently."
+  ur: "صحیح بخاری کی کتاب 73، عنوان «کتاب الاضاحی»، اس کھلے حدیث ڈیٹا سیٹ کی تقسیم کے مطابق جس سے میوزیم کے ریکارڈ لیے گئے: اس کی ترقیم میں روایات 5545 تا 5574۔ میوزیم ان روایات کے اپنے ریکارڈ اسی کتاب کے تحت رکھتا ہے۔"
+relations:
+  - { type: part_of, target: work/sahih-al-bukhari }
+provenance:
+  layer: own-research
+  source: "fawazahmed0/hadith-api (Unlicense), edition eng-bukhari: metadata.sections and section_details, book 73; Arabic title from AhmedBaset/hadith-json, bukhari.json, matched by the English name"
+  generated_by: "Claude Code"
+  model: claude-fable-5-2
+  run: hadith-library-books-2026-11-15
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0, source/hadith-json-ahmedbaset]
+status: { review: published, completeness: 1, generated_by: "Claude Code (claude-fable-5-2), from the dataset's own division; no report text stored" }

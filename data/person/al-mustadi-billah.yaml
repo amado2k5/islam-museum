@@ -17,8 +17,8 @@ external_ids: { wikidata: "Q293646", nomisma: "al-mustadi", viaf: "52625841" }
 sources: [source/tarikh-khulafa-minhaj-1434, source/shadharat-dhahab, source/nomisma, source/wikidata]
 importance: 2
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
-born: { edtf: "1142", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala" }
-died: { edtf: "1180", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala" }
+born: { edtf: "1142", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala Agrees with Wikidata Q293646 (P569, a statement without a reference), item revision 2553922387, read on 13 November 2026.", sources: [source/wikidata] }
+died: { edtf: "1180", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala Agrees with Wikidata Q293646 (P570, a statement without a reference), item revision 2553922387, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: ruled_over, target: polity/abbasid-caliphate, sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: successor_of, target: person/al-mustanjid-billah, sources: [source/tarikh-khulafa-minhaj-1434] }

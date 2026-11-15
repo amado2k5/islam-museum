@@ -23,3 +23,4 @@ provenance: { layer: own-research, source: "ديوان الحماسة، طبعة
 died: { edtf: "600~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Marzubani (Mu'jam al-Shu'ara)" }
 relations:
   - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/hamasa-abu-tammam-ed-1916], confidence: low }
+  - {type: authored, target: work/hamasa-al-harith-ibn-wala-qawmi-hum-qatalu, sources: [source/hamasa-abu-tammam-ed-1916], note: 'Stated in the summary of work/hamasa-al-harith-ibn-wala-qawmi-hum-qatalu: "by al-Harith ibn Wa''la al-Jarmi"'}

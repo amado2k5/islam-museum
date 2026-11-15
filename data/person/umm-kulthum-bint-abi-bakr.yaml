@@ -13,7 +13,7 @@ provenance:
   generated_by: "Devin (SWE-2 High) from djvu OCR text"
   run: lib-wafayat-batch-15
 external_ids: { wikidata: "Q7881640" }
-born: { edtf: "634~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal; al-Tabaqat al-Kubra" }
+born: { edtf: "634~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal; al-Tabaqat al-Kubra Agrees with Wikidata Q7881640 (P569, a statement without a reference), item revision 2505879310, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/medina, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q35484)" }
 sources: [source/wafayat-ayan, source/ibn-hajar-isaba]

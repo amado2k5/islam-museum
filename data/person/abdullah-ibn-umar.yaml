@@ -37,7 +37,7 @@ faith:
 - value: sunni
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
-born: { edtf: "610", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala)" }
+born: { edtf: "610", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala) Agrees with Wikidata Q2046261 (P569, a statement without a reference), item revision 2533521882, read on 13 November 2026.", sources: [source/wikidata] }
 died: { edtf: "0693", hijri: "0073", calendar: julian, precision: year, status: debated, derived: true, note: "Died in Dhu'l-Hijja 73 AH, aged eighty-seven (Damra, Abu Nu'aym, Yahya ibn Bukayr and the majority); al-Fallas gives 74 AH (al-Isaba p. 917); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
 - { type: lived_in, target: place/mecca, note: "Place association from the person's nisba/name (القرشي); denotes association, not proven residence.", sources: [source/ibn-hajar-isaba, source/sahih-muslim, source/al-masjid-fi-al-islam-azhar, source/assabile-omar-abdelkafy, source/fadail-sahaba-ahmad-wasi-allah-1999], confidence: low }

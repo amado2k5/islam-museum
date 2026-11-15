@@ -16,3 +16,6 @@ provenance:
   source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, PDF pp. 278-279, unsigned article 'Ahdath' (EI2 enrichment, batch ei2-b003 part 3by)"
   generated_by: "Claude Code (claude-haiku-5-5)"
 status: { review: published, completeness: 2 }
+relations:
+  - {type: practiced_in, target: place/aleppo, sources: [source/encyclopaedia-of-islam-2], note: 'Stated in the summary of concept/ahdath: "best known at Aleppo and Damascus"'}
+  - {type: practiced_in, target: place/damascus, sources: [source/encyclopaedia-of-islam-2], note: 'Stated in the summary of concept/ahdath: "best known at Aleppo and Damascus"'}

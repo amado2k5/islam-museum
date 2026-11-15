@@ -1,0 +1,11 @@
+---
+id: practice/dua-at-an-eclipse
+lang: en
+source_lang: ar
+translators: ["Claude Fable 5.2 (claude-fable-5-2), draft translation"]
+---
+## Summary
+What al-Nawawi gathers in the chapter on remembrance prescribed at an eclipse of the sun or moon: remembrance, supplication and charity, the eclipse prayer and its address, and the freeing of slaves. {cite:al-adhkar-nawawi-arnaut-1994 p. 174}
+
+## What al-Nawawi gathers in al-Adhkar
+In the chapter on remembrance prescribed at an eclipse, al-Nawawi says that at an eclipse of the sun or the moon, much remembrance of God and supplication are recommended, and that the prayer for it is a sunna by the agreement of the Muslims {cite:al-adhkar-nawawi-arnaut-1994 p. 174}. From the two Sahihs, from Aisha, he reports that [[person/muhammad|the Prophet]] said the sun and the moon are two signs of God that are not eclipsed for anyone's death or life, and that on seeing it people should call on God, magnify Him and give charity {cite:al-adhkar-nawawi-arnaut-1994 p. 174}. He notes that some versions in the two Sahihs read «فاذكروا الله تعالى», remember God. From Abu Musa al-Ash'ari they have «فافزعوا إلى ذكره ودعائه واستغفاره», turn in haste to His remembrance, supplication and seeking of forgiveness. From al-Mughira ibn Shu'ba they have «فادعوا الله وصلوا», and al-Bukhari gives it likewise from Abu Bakra {cite:al-adhkar-nawawi-arnaut-1994 p. 174}. From Sahih Muslim, from Abd al-Rahman ibn Samura, he reports that he came to the Prophet when the sun had been eclipsed, and found him standing in prayer with his hands raised, glorifying, praising, declaring God's oneness, magnifying and supplicating until it cleared {cite:al-adhkar-nawawi-arnaut-1994 p. 175}. Al-Nawawi says that long recitation is recommended in the eclipse prayer and long prostration too. He notes that most books of his school hold otherwise, but that the right view is to lengthen it, as established in the two Sahihs {cite:al-adhkar-nawawi-arnaut-1994 p. 175}. He says recitation is aloud for a lunar eclipse and silent for a solar one, and that two addresses follow the prayer urging obedience to God, charity and freeing slaves {cite:al-adhkar-nawawi-arnaut-1994 p. 175}. From al-Bukhari, from Asma, he reports that the Prophet ordered freeing slaves at a solar eclipse {cite:al-adhkar-nawawi-arnaut-1994 p. 175}.

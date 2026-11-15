@@ -34,3 +34,5 @@ provenance:
   - person-place-geo-c
   note: Semantic merge of duplicate records written by parallel enrichment runs.
   source: Wikidata item Q277505 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q277505 (labels, coordinates, description)
+relations:
+  - {type: located_in, target: place/al-arid, sources: [source/encyclopaedia-of-islam-2], note: 'Stated in the summary of place/al-arid: "al-Dir''iyya, the first capital of Al Sa''ud"'}

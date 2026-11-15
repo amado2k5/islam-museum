@@ -10,6 +10,7 @@ summary:
   en: "A report in Sahih Muslim, no. 4379 (The Book of Oaths, Muharibin, Qasas (Retaliation), and Diyat (Blood Money)), that speaks of bearing the burden of those who follow. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
   ur: "صحیح مسلم کی حدیث نمبر 4379، جس میں پیروی کرنے والوں کا بوجھ کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
 relations:
+  - { type: part_of, target: passage/muslim-kitab-28 }
   - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
   - { type: mentions, target: concept/al-sayyiat, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 4379 (book 28 hadith 38); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }

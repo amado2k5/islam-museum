@@ -23,6 +23,6 @@ occupations:
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/salabi-umayyad-state-2020]
-died: { edtf: "732", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala)" }
+died: { edtf: "732", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar A'lam al-Nubala) Agrees with Wikidata Q2357291 (P570, a statement without a reference), item revision 2551181548, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/mecca, note: "From text: أهل مكة", sources: [source/salabi-umayyad-state-2020, source/qiraat-inda-al-tabari-thesis-umm-al-qura], confidence: low }
