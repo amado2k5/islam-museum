@@ -363,6 +363,21 @@ describe("one API export per browser or explorer (AGENTS.md: every feature is gr
     expect(halalSignalsOf(bothAyah as any)).toEqual(expect.arrayContaining(["halal", "haram"]));
     expect(halalSignalsOf(sanctuaryFp as any)).toEqual([]);
     expect(halalSignalsOf(weakOnly as any)).toEqual([]);
+    // Senses measured on the admitted records on 14 November 2026: deprivation, the prayer's
+    // opening, the month in a date, the sanctuary as a place, leaving ihram, a debt falling due.
+    for (const [i, t] of [
+      "من حرمها فقد حرم الخير كله",
+      "ومن حرم حظه من الرفق فقد حرم حظه من الخير",
+      "أن تحريم الصلاة التكبير",
+      "لعشر خلون من المحرم على رأس سبعة وأربعين شهرا",
+      "يبعث نبي من الحرم على صفته",
+      "ما شأن الناس حلوا ولم تحل من عمرتك قال فلا أحل حتى أحل من الحج",
+      "يطوف الرجل بالبيت ما كان حلالا حتى يهل بالحج",
+      "وقلنا لا يحل الدين بالفلس",
+    ].entries()) expect(halalSignalsOf(mk(`passage/sensefp-${i}`, "work/tabari", t, { ref: String(i) }) as any)).toEqual([]);
+    // The same words in a ruling still count.
+    expect(halalSignalsOf(mk("passage/sense-keep-1", "work/tabari", "لا يحل لامرأة أن تسافر إلا مع ذي محرم", { ref: "k1" }) as any)).toEqual(expect.arrayContaining(["la-yahill"]));
+    expect(halalSignalsOf(mk("passage/sense-keep-2", "work/tabari", "خمس قتلهن حلال في الحرم", { ref: "k2" }) as any)).toEqual(["halal"]);
   });
 
   it("exports hasanats: detected passages by corpus and kind, gated false positives, future-book inclusion", () => {

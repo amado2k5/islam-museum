@@ -13,6 +13,13 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v1.31.1 — 2026-11-14
+### Fixed
+- **The Halal and Haram Browser no longer lists ten passages that use the same Arabic roots in another sense.** A second reader's list of other meanings of the two roots was measured against every passage the browser showed. Seven were real and are now left out: being deprived of a good, the opening takbir of the prayer, the month of Muharram in a date, the sanctuary as a place, leaving the state of ihram, a debt falling due, and the kin one may not marry. The browser goes from 1,830 detected passages to 1,820, and 23 others now carry a corrected list of matched terms.
+- The Arabic text of the record on the hadith "the lawful is clear and the unlawful is clear" now gives the wording of the report it cites (Abu Dawud 3330).
+### Tests
+- The detector test covers the seven new senses and checks that a ruling using the same words is still found.
+
 ## v1.31.0 — 2026-11-14
 ### Added
 - **The Halal and Haram Browser (متصفح الحلال والحرام).** A new browser at `/ar/halal/`, `/en/halal/` and `/ur/halal/` gathers every mention of the lawful and the unlawful in the museum's sources: 1,871 items — 57 Qur'an ayahs, 1,132 Sunnah reports, 132 seerah excerpts, 519 excerpts from other books and 31 curated records. Each row opens the record's own page, with its source. A view at the top of the page shows how many passages name the lawful only, the unlawful only, or both, and which words they use in each body of sources. The browser has a box on the landing page and an entry in the Explore menu, and its full list is at `/api/v1/halal.json`. The museum describes what the sources say and names who says it; it gives no rulings. A book harvested later shows its mentions here the day its passages land.
