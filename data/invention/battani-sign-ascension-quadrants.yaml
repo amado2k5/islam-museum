@@ -1,0 +1,112 @@
+id: invention/battani-sign-ascension-quadrants
+class: invention
+label:
+  { ar: "طريقة البتاني لمطالع البروج بين أرباع الفلك", en: "Al-Battani's method for sign ascensions between the sphere's quadrants", ur: "بتانی کا بروج کے مطالع کے لیے نظام" }
+names:
+  - { value: "Kitab ma'rifat matali' al-buruj fi ma bayna arba' al-falak", kind: alternate, lang: ar }
+  - { value: "De ascensionibus signorum in quadrantibus sphaerae", kind: alternate, lang: la }
+  - { value: "astrological direction computation", kind: alternate, lang: en }
+summary:
+  ar: "باب خامس وخمسون من الزيج مع رسالة مفقودة مدرجة في فهارس ابن النديم والقفطي وابن خلكان: منهج لحساب مطالع البروج وهبوطها في المساحات بين المطال الأربعة ⁦(السمتين والأفقين)⁩ لكل إقليم، بقاعدة تناسبية بين المطالع المستقيمة والمائلة، لحساب أزمنة طلوع البروج ومقادير الاتصالات التنجيمية {cite:nallino-albatenii-opus-astronomicum p. 28} {cite:nallino-albatenii-opus-astronomicum t. I pp. 131–135}."
+  en: "Chapter LV of the Zij together with a lost treatise listed by Ibn al-Nadim, al-Qifti and Ibn Khallikan: a scheme for computing sign ascensions and settings in the spaces between the four cusps (the meridians and horizons) of each climate, by proportional interpolation between right and oblique ascensions, to obtain rising times and the quantities of astrological directions {cite:nallino-albatenii-opus-astronomicum p. 28} {cite:nallino-albatenii-opus-astronomicum t. I pp. 131–135}."
+  ur: "زیج کا پچپن ویں باب اور ایک گمشدہ رسالہ جو ابن الندیم، قفطی اور ابن خلکان کی فہارس میں ہے: ہر خطے میں چار کناروں ⁦(خطوطِ زوال اور افق)⁩ کے درمیان بروج کے مطالع و مغیب کا حساب سیدھے اور ترچھے مطالع کے درمیان متناسب اصول سے، تاکہ طلوع کے اوقات اور نجومی اتصالوں کے مقدر نکلیں {cite:nallino-albatenii-opus-astronomicum p. 28} {cite:nallino-albatenii-opus-astronomicum t. I pp. 131–135}۔"
+domain: astronomy-instruments
+kind: method
+disciplines: [astronomy, mathematics]
+wings: [ideas]
+regions: [levant-iraq]
+periods: [period/abbasid-early]
+themes: [astronomy-and-timekeeping]
+era:
+  origins: abbasid-golden
+  first_attested:
+    edtf: "0900"
+    hijri: "0288"
+    calendar: julian
+    precision: year
+    status: historical
+    derived: true
+    note: "The Zij's first version predates 288 AH (its start 25 December 900 CE) per Nallino's argument from Thabit ibn Qurra's citation of chapter 52; the chapter and the lost treatise belong to that Abbasid Raqqa corpus. Not an asserted single composition day."
+    sources: [source/nallino-albatenii-opus-astronomicum]
+  status_today: transformed
+origin:
+  place: place/raqqa
+  polity: polity/abbasid-caliphate
+  context:
+    ar: "سياق الرقة العباسية حيث رصد البتاني وصنّف؛ الطريقة حسابية على الكرة السماوية تخدم حساب الاتجاهات التنجيمية، ولا تتطلب آلة رصد {cite:nallino-albatenii-opus-astronomicum t. I pp. 131–135} {cite:tdv-battani-muftuoglu biography}."
+    en: "The Abbasid Raqqa setting where al-Battani observed and composed; the method is spherical computation serving astrological directions and needs no observing instrument {cite:nallino-albatenii-opus-astronomicum t. I pp. 131–135} {cite:tdv-battani-muftuoglu biography}."
+    ur: "عباسی رقہ کا سیاق جہاں بتانی نے رصد کیا اور تصنیف کی؛ یہ طریقہ کروی حساب ہے جو نجومی سمتوں کی خدمت کرتا ہے اور کسی رصد آلہ کا تقاضا نہیں کرتا {cite:nallino-albatenii-opus-astronomicum t. I pp. 131–135} {cite:tdv-battani-muftuoglu biography}۔"
+makers:
+  - person: person/al-battani
+    role: improver
+    note: "Abbasid astronomer (d. 317 AH) who set the scheme out in chapter LV of his Zij and gave it a dedicated treatise, now lost; Muslim scholar per sourced biography."
+    sources: [source/nallino-albatenii-opus-astronomicum, source/tdv-battani-muftuoglu]
+attribution:
+  status: improvement
+  claim:
+    ar: "المطالع المستقيمة والمائلة في الأفقين معروفة سلفاً في فصول الزيج؛ المساهمة الموثقة للبتاني تعميم الحساب إلى المساحات بين المطال الأربعة بقاعدة تناسبية، ضمن تقليد فلكي إغريقي-هندي موروث، لا اختراع علم المطالع نفسه."
+    en: "Right ascensions and horizon ascensions were already known in earlier Zij chapters; al-Battani's documented contribution is extending the computation to the spaces between the four cusps by a proportional rule, inside an inherited Greco-Indian astronomical tradition — not the invention of ascensional astronomy itself."
+    ur: "سیدھے مطالع اور افقی مطالع زیج کے پہلے ابواب میں پہلے سے معلوم تھے؛ بتانی کا مستند حصہ چار کناروں کے درمیان کے حصوں کا حساب متناسب اصول سے عام کرنا ہے، موروثی یونانی-ہندوستانی فلکی روایت کے اندر — مطالع کے علم کی ایجاد نہیں۔"
+  basis:
+    ar: "يفتتح الباب نفسه بالتفريق: المعروفة سلفاً مطالع الكرة المستقيمة عند وسط السماء وتحت الأرض، ومطالع الأقاليم عند الأفقين؛ وما بقي هو المسافات بين هذه المطال، فيضع قاعدة التناسب ويضرب مثال الحمل كاملاً ثم يعمم القواعد على الدرجة والنجمة مع العرض وبدونه. ويختم بأن هذه المقادير تلزم في المواليد لتوجيه الدلائل، وهو موضوع التترابيبلوس عند بطلميوس."
+    en: "The chapter itself opens by distinguishing what was already known — right ascensions at the meridian and nadir cusps and climatal ascensions at the horizon cusps — from what remained: the spaces between those cusps. He gives the proportional rule with a worked Aries example, then general rules for degree and star with and without latitude, and closes by noting these quantities are needed in nativities for directing significators, the matter Ptolemy raises in the Tetrabiblos."
+    ur: "باب خود شروع میں بتاتا ہے کہ کیا پہلے سے معلوم تھا — وسط اور تحت الأرض کے کناروں پر سیدھے مطالع اور افقوں پر خطوں کے مطالع — اور کیا باقی تھا: ان کناروں کے درمیان کے حصے۔ وہ متناسب اصول اور برج الحمل کا مکمل نمونہ دیتا ہے، پھر عرض کے ساتھ اور بغیر درجہ و ستارے کے عام قواعد، اور آخر میں کہتا ہے یہ مقداریں مولودات کے لیے درکار ہیں تاکہ مدلل سمت دیے جا سکیں، جو بطلیموس کے Tetrabiblos کا موضوع ہے۔"
+  perspectives:
+    - tradition: sunni
+      id: sunni-museum-frame
+      standing: main
+      summary:
+        ar: "الإطار السني المعلن يحفظ المساهمة العباسية الموثقة؛ شخصية مذهبية لا تفصل تاريخ الفلك في هذا السجل."
+        en: "The declared Sunni frame preserves the documented Abbasid contribution; personal affiliation is not used to settle the history of astronomy in this record."
+        ur: "اعلان کردہ سنی سیاق عباسی حصہ کو محفوظ رکھتا ہے؛ اس اندراج میں فلکیات کی تاریخ کے لیے ذاتی مسلک استعمال نہیں ہوتا۔"
+      sources: [source/tdv-battani-muftuoglu, source/nallino-albatenii-opus-astronomicum]
+precursors:
+  - external: { ar: "فصول الزيج السابقة: المطالع المستقيمة في sphera recta والمطالع المائلة في الأقاليم عند الأفقين", en: "Earlier Zij chapters: right ascensions in the right sphere and oblique ascensions in climata at the horizons", ur: "زیج کے پہلے ابواب: سیدھے کرہ میں سیدھے مطالع اور خطوں میں افق پر ترچھے مطالع" }
+    note: "The chapter itself names these as already-known; they rest on Ptolemaic and Indian astronomical inheritance transmitted through Arabic zij literature."
+    sources: [source/nallino-albatenii-opus-astronomicum]
+  - external: { ar: "مسألة الاتجاهات في التترابيبلوس عند بطلميوس", en: "The problem of directions in Ptolemy's Tetrabiblos", ur: "بطلیموس کے Tetrabiblos میں سمتوں کا مسئلہ" }
+    note: "Al-Battani closes the chapter by tying the quantities to what Ptolemy mentions in the Tetrabiblos for nativities; the problem is inherited, the systematic quadrant scheme is his documented treatment."
+    sources: [source/nallino-albatenii-opus-astronomicum]
+dependents:
+  - external: { ar: "كتاب معرفة مطالع البروج المنسوب إلى البطاني ⁦(رسالة مفقودة غير باقية)⁩", en: "Kitab marifat matali' al-buruj ascribed to al-Battani (a lost treatise that did not survive)", ur: "بتانی سے منسوب کتاب معرفۃ مطالع البروج ⁦(ایک گمشدہ رسالہ جو باقی نہیں)⁩" }
+    note: "The lost dedicated treatise listed by Ibn al-Nadim, al-Qifti and Ibn Khallikan (Nallino, Opus astronomicum t. I p. 28) treats the same subject as this chapter; whether it offered a more exact geometrical solution than Ptolemy's is unknown because it did not survive."
+    sources: [source/nallino-albatenii-opus-astronomicum]
+spread: []
+impact:
+  fields: [astronomy-instruments, mathematics]
+  changed:
+    ar: "حوّل حساب مطالع البروج من قيمتين معروفتين عند طرفي الفلك إلى مخطط كامل بين المطال الأربعة، بقاعدة تناسبية قابلة للتطبيق على أي درجة أو نجم وعرض، لخدمة حساب أزمنة الاتصالات التنجيمية."
+    en: "Turned sign-ascension computation from two known values at the sphere's poles into a complete scheme between the four cusps, by a proportional rule applicable to any degree or star and latitude, serving the computation of astrological direction times."
+    ur: "بروج کے مطالع کا حساب کرہ کے دو کناروں کی دو معلوم قیمتوں سے چار کناروں کے درمیان مکمل نظام میں بدل دیا، متناسب اصول سے جو کسی بھی درجہ، ستارے اور عرض پر چلتا ہے، تاکہ نجومی اتصالوں کے اوقات نکلیں۔"
+  history:
+    ar: "شهد على عناية الفلك العباسي بالدقة الحسابية في خدمة التنجيم الرياضي؛ رسالته المخصصة لم تطلع، فيبقى الباب السابع والخمسون شاهداً على المنهج لا على سطحه كاملاً."
+    en: "Witnesses Abbasid astronomy's computational care in the service of mathematical astrology; his dedicated treatise did not survive, so chapter LV stands as the surviving witness to the scheme, not its full surface."
+    ur: "عباسی فلکیات کی ریاضیاتی دقت کی گواہی دیتا ہے جو ریاضیاتی نجومیات کی خدمت میں تھی؛ اس کا مخصوص رسالہ باقی نہیں، اس لیے باب LV اس نظام کا باقی شاہد ہے، اس کی پوری صورت نہیں۔"
+  significance: 3
+  why: "A documented, chapter-length systematic method with worked examples and named astrological purpose; bounded to one computational scheme inside the Zij tradition, with the dedicated treatise lost."
+described_in: [work/kitab-marifat-matali-al-buruj-battani, work/al-zij-al-sabi]
+examples: []
+sites: []
+concepts: []
+today:
+  form:
+    ar: "نموذج تاريخي لحساب مطالع البروج على الكرة؛ اليوم تُحسب المطالع والاتصالات بمعادلات كروية مباشرة، والباب درسا في تاريخ الفلك الرياضي."
+    en: "A historical model for computing sign ascensions on the sphere; today ascensions and directions are handled by direct spherical formulae, and the chapter is a lesson in the history of mathematical astronomy."
+    ur: "کرہ پر بروج کے مطالع کے حساب کا تاریخی نمونہ؛ آج مطالع اور سمتیں سیدھے کروی فارمولوں سے نکلتی ہیں، اور یہ باب ریاضیاتی فلکیات کی تاریخ کا سبق ہے۔"
+  descendants:
+    ar: "لا يثبت البحث المقروء انتقالاً مباشراً للقاعدة التناسبية إلى البرمجيات الحديثة؛ الفكرة العامة — مطالع تختلف بموضع الكرة — باقية في الفلك الكروي."
+    en: "The sources read establish no direct transmission of the proportional rule into modern software; the general idea — ascensions varying by position on the sphere — survives in spherical astronomy."
+    ur: "پڑھے ماخذ متناسب اصول کی براہ راست منتقلی جدید سافٹ ویئر تک ثابت نہیں کرتے؛ عمومی خیال — کرہ پر مقام کے ساتھ بدلتے مطالع — کروی فلکیات میں باقی ہے۔"
+media: { image: media/photo-suwar-kawakib-met, diagram: media/diagram-battani-sign-ascensions }
+kids:
+  ar: "الأبراج لا تشرق من الأفق بالمدة نفسها في كل مكان: قرب خط الاستواء تطول أقواسها وقرب القطبين تقصر. جمع البتاني هذا الفرق في جدول ووضع قاعدةً: كلما ابتعدت الدرجة عن المطلوب بقليل، غيّر مقدار المطالع بمقدار متناسب — فصار يستطيع أن يقول كم يستغرق كل برج ليشرق في أي بقعة من السماء."
+  en: "The signs do not rise for the same length of time everywhere: near the equator their arcs are longer and near the poles shorter. Al-Battani gathered this difference into a rule — the farther a degree sits from the reference point, the more its rising time changes in proportion — so he could say how long each sign takes to rise at any point of the sky."
+  ur: "بروج ہر جگہ ایک ہی وقت میں طلوع نہیں ہوتے: خطِ استوا کے قریب ان کے قوس لمبے اور قطبوں کے قریب چھوٹے ہوتے ہیں۔ بتانی نے اس فرق کو اصول میں ڈھالا — جتنا درجہ حوالہ نقطے سے دور، اتنا اس کا مطلع متناسب طور پر بدلے — تاکہ وہ کہہ سکے ہر برج کسی بھی آسمانی مقام پر کتنی دیر میں طلوع ہوتا ہے۔"
+sources: [source/nallino-albatenii-opus-astronomicum, source/tdv-battani-muftuoglu]
+status: { review: published, completeness: 2, generated_by: "Devin drafter w2-07" }
+provenance:
+  layer: own-research
+  generated_by: "Devin drafter w2-07"
+  model: "SWE-2"
+  run: inventions-w2-07-drafting
+  source: "Nallino chapter LV Latin text t.I pp.131-135 and preface §2 p.28 read in the archive.org OCR of the 1899-1907 edition on 2026-11-15; Nallino's direction explanation pp.315-317; work record kitab-marifat-matali-al-buruj-battani; TDV biography. No manuscript of the lost treatise inspected; no claim of priority over all ascensional methods"

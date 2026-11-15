@@ -1,0 +1,24 @@
+id: media/diagram-mizzi-mixed-projection
+class: media
+kind: illustration
+label: { ar: "من الإسقاط المعياري إلى الإسقاط المختلط عند المزي", en: "From standard projection to al-Mizzi's mixed variant", ur: "معیاری سٹیریوگرافک نقشے سے المزی کے مخلوط سٹیریوگرافک پروجیکشن والے متغیر تک" }
+summary:
+  ar: "سلسلة تعليمية تبين الإسقاط السٹیریوگرافک المعتاد حول قطب ثم إسقاط المزي المختلط حول القطبين؛ لا ترسم شبكة ولا تعيد بناء الأسطرلاب."
+  en: "Teaching chain from the usual stereographic projection about one pole to al-Mizzi's mixed projection about both poles; it draws no rete and rebuilds no astrolabe."
+  ur: "تدریسی سلسلہ جو ایک قطب کے گرد معیاری سٹیریوگرافک نقشے سے دونوں قطبوں کے گرد المزی کے ملے ہوئے سٹیریوگرافک پروجیکشن تک جاتا ہے؛ نہ جالی بناتا ہے نہ اسطرلاب دوبارہ بناتا ہے۔"
+license: CC0
+creator: "islam.museum"
+depicts: [invention/mizzi-mixed-projection-astrolabe]
+alt:
+  ar: "خطان للسبب: أولاً إسقاط سٹیریوگرافک معياري؛ ثانياً دمج شبكتين حول القطبين. لا إحداثيات ولا خطوط أسطرلاب."
+  en: "Two-step chain: first a standard stereographic projection; second combining grids about both poles. No coordinates or astrolabe lines."
+  ur: "دو مرحلوں کا سلسلہ: پہلے معیاری سٹیریوگرافک نقشہ؛ پھر دونوں قطبوں کے گرد جالیوں کا امتزاج۔ کوئی متناسقات یا اسطرلابی لکیریں نہیں۔"
+generated: { tool: "site/src/components/InventionDiagram.astro (generic chain drawn at build time)", version: "1", date: "2026-11-15" }
+sources: [source/isi-mizzi-bea]
+status: { review: published, completeness: 2, generated_by: "Devin drafter w2-07" }
+provenance:
+  layer: own-research
+  generated_by: "Devin drafter w2-07"
+  model: "SWE-2"
+  run: inventions-w2-07-drafting
+  source: "BEA biography passage on astrolabes with mixed projections read in full on 2026-11-15; generic relationship diagram, not a reconstruction of the instrument"

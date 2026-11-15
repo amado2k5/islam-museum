@@ -1,0 +1,105 @@
+id: invention/mizzi-mixed-projection-astrolabe
+class: invention
+label:
+  { ar: "إسطرلاب المزي بالإسقاطين المختلطين", en: "Al-Mizzi's astrolabe with mixed stereographic projections", ur: "مزی کا دو قطبی سٹیریوگرافک پروجیکشن والا اسطرلاب" }
+names:
+  - { value: "astrolabe with mixed projections about both poles", kind: alternate, lang: en }
+  - { value: "إسطرلاب المزي", kind: alternate, lang: ar }
+summary:
+  ar: "أسطرلاب صنعه الميقاتي الدمشقي شمس الدين المزي ⁦(نحو 1291–1349م)⁩ بإسقاطات ستيريوغرافية مختلطة عن القطبين معاً، على ما نقله عنه ابن العطار في القرن الخامس عشر الهجري؛ من أسطرلاباته المميزة المعروفة أيضاً مرтикаات مربعة بتوقيعه في المتحف البريطاني ورسالتان في الأسطرلاب والربع المقترح {cite:isi-mizzi-bea} {cite:bibalex-azhar-astronomy-manuscripts-2006 p. 20}."
+  en: "An astrolabe made by the Damascene muwaqqit Shams al-Din al-Mizzi (c. 1291–1349) with mixed stereographic projections about both poles, as reported of him by Ibn al-Attar in the fifteenth century AH; his known signed instruments include Damascus quadrants in the British Museum and treatises on the astrolabe and the sine quadrant {cite:isi-mizzi-bea} {cite:bibalex-azhar-astronomy-manuscripts-2006 p. 20}."
+  ur: "دمشقی میقاتی شمس الدین المزی ⁦(تقریباً 1291–1349م)⁩ کا اسطرلاب جس میں دونوں قطبوں سے ملے ہوئے سٹیریوگرافک پروجیکشن استعمال ہوئے، جیسا کہ پندرہویں صدی ہجری میں ابن العطار نے اس کے بارے میں نقل کیا؛ ان کے دستخط شدہ آلات میں برٹش میوزیم کے دمشق مرقیے اور اسطرلاب و ربع مقترح پر دو رسائل بھی شامل ہیں {cite:isi-mizzi-bea} {cite:bibalex-azhar-astronomy-manuscripts-2006 p. 20}۔"
+domain: astronomy-instruments
+kind: instrument
+disciplines: [astronomy, mathematics]
+wings: [objects]
+regions: [levant-iraq]
+periods: [period/crusades-ayyubid-mamluk]
+themes: [astronomy-and-timekeeping]
+era:
+  origins: middle-period
+  first_attested:
+    edtf: "1334"
+    hijri: "0734"
+    calendar: julian
+    precision: year
+    status: historical
+    derived: true
+    note: "A Damascus quadrant dated 734 AH (1333–34 CE) stands at the British Museum and falls inside his floruit, documenting the quadrant tradition he worked in; the mixed-projection astrolabes themselves carry no surviving dated example, so the dated quadrant is the closest attested anchor."
+    sources: [source/isi-mizzi-bea, source/commons-british-museum-quadrants]
+  status_today: transformed
+origin:
+  place: place/damascus
+  context:
+    ar: "دمشق في القرن الثامن الهجري، حيث كان المزي ميقاتاً في الجامع الأموي وصانعاً للأسطرلابات يبيعها؛ الجملة المصدرية تنسب إليه صنع أسطرلابات بإسقاطات مختلطة لا تسمية تاريخ اختراعها {cite:isi-mizzi-bea} {cite:bibalex-azhar-astronomy-manuscripts-2006 p. 20}."
+    en: "Damascus in the eighth century AH, where al-Mizzi was timekeeper at the Umayyad Mosque and an astrolabe-maker whose instruments sold for ten dinars; the source sentence attributes to him the making of mixed-projection astrolabes, not the invention of the variant."
+    ur: "آٹھویں صدی ہجری کا دمشق، جہاں المزی جامع اموی کے میقاتی اور اسطرلاب ساز تھے جن کے آلات دس دینار میں بکتے تھے؛ ماخذ جملہ اسے ملے ہوئے سٹیریوگرافک پروجیکشن والے اسطرلاب بنانے سے منسوب کرتا ہے، ایجادِ قسم سے نہیں۔"
+makers:
+  - person: person/shams-al-din-al-mizzi-al-miqati
+    role: improver
+    place: place/damascus
+    note: "Hanafi muwaqqit and instrument-maker of Damascus; documented by the BEA as having made astrolabes with mixed projections and by the Bibliotheca Alexandrina book as maker of unusual astrolabes and signer of a sundial."
+    sources: [source/isi-mizzi-bea, source/bibalex-azhar-astronomy-manuscripts-2006]
+attribution:
+  status: improvement
+  claim:
+    ar: "الإسقاط الستيغرافي عن القطبين أساسي في الأسطرلاب منذ نشأته؛ ما يوثقه المصدر هو أن المزي صنع أسطرلابات بإسقاطات مختلطة عن القطبين معاً، وأنه صنع مرقيةات مربعة ورسائل في الأسطرلاب والربع المقترح — وليس ادعاء اختراع الأسطرلاب أو نوع الإسقاط المختلط."
+    en: "Stereographic projection about the poles is basic to the astrolabe since its origins; what the source documents is that al-Mizzi made astrolabes combining projections about both poles, made quadrants and wrote treatises on the astrolabe and the sine quadrant — not an invention claim for the astrolabe or for mixed projection itself."
+    ur: "قطبوں سے سٹیریوگرافک پروجیکشن اسطرلاب میں ابتدا سے بنیادی ہیں؛ ماخذ وہی ثابت کرتا ہے کہ المزی نے دونوں قطبوں سے سٹیریوگرافک پروجیکشن والے اسطرلاب بنائے، مرقية بنائی اور اسطرلاب و ربع مقترح پر رسائل لکھے — اسطرلاب یا سٹیریوگرافک پروجیکشن کی ایجاد کا دعویٰ نہیں۔"
+  basis:
+    ar: "نقل BEA عن ابن العطار أن المزي «صنع أسطرلابات بإسقاطات مختلطة عن القطبين معاً»، ويضيف كتاب مكتبة الإسكندرية أنه اشتهر بصنع غرائب الأسطرلابات حتى بيع أسطرلابه بعشرة دنانير وأن مزولة بتوقيعه في المتحف البريطاني."
+    en: "The BEA reports Ibn al-Attar's note that al-Mizzi 'made astrolabes with mixed projections about both poles together', and the Bibliotheca Alexandrina book adds that he was famed for unusual astrolabes, one sold for ten dinars, and that a sundial bearing his signature is in the British Museum."
+    ur: "BEA ابن العطار کا قول نقل کرتا ہے کہ المزی نے «دونوں قطبوں سے ملے ہوئے سٹیریوگرافک پروجیکشن والے اسطرلاب بنائے»، اور کتاب الالکساندریا کے مطابق وہ عجیب و غریب اسطرلاب بنانے میں مشہور تھے جن میں سے ایک دس دینار میں بکا، اور برٹش میوزیم میں ان کے دستخط والی ایک دھوپ گھڑی بھی ہے۔"
+  perspectives:
+    - tradition: sunni
+      id: sunni-museum-frame
+      standing: main
+      summary:
+        ar: "الإطار السني المعلن يحفظ الصانع الدمشقي الموثق في جامع أموي سنية؛ الاسم يقول الحنفي صراحة في سيرة BEA."
+        en: "The declared Sunni frame preserves the documented Damascene maker at a Sunni institution; the BEA name itself says al-Hanafi."
+        ur: "اعلان کردہ سنی سیاق دمشقی صانع کو محفوظ رکھتا ہے؛ BEA کا نام خود «حنفی» کہتا ہے۔"
+      sources: [source/isi-mizzi-bea, source/bibalex-azhar-astronomy-manuscripts-2006]
+precursors:
+  - external: { ar: "أسطرلابات دمشقية متقدمة من تقليد ابن الشاطر وابن المطروح وابن الباسطي قبل المزي", en: "Earlier Damascene astrolabes of the Ibn al-Shatir, Ibn al-Mutruh and Ibn al-Basiti tradition before al-Mizzi", ur: "المزی سے پہلے ابن الشاطر، ابن المطروح اور ابن الباسطی کی قدیم دمشقی اسطرلاب روایت" }
+    note: "The standard mixed and single-projection astrolabe existed before him; his documented role is production within the tradition."
+    sources: [source/isi-mizzi-bea]
+dependents: []
+spread: []
+impact:
+  fields: [astronomy-instruments]
+  changed:
+    ar: "أنتج أسطرلابات بإسقاطات مختلطة مرقّاة بصانع ميقاتي مشهور، ورسائل تعليمية في الأسطرلاب والربع المقترح، في دمشق المملوكية."
+    en: "Produced mixed-projection astrolabes by a celebrated muwaqqit, plus educational treatises on the astrolabe and sine quadrant, in Mamluk Damascus."
+    ur: "مشہور میقاتی نے سٹیریوگرافک پروجیکشن والے اسطرلاب بنائے اور اسطرلاب و ربع مقترح پر تعلیمی رسائل لکھے، مملوک دمشق میں۔"
+  history:
+    ar: "بقيت مرقيةات مربعة بتوقيعه في المتحف البريطاني وأدلة على مشهرة صنعه؛ نقل ابن العطار ملاحظة القرن الخامس عشر عن نوع إسقاطه، والفرع التاريخي للتقنية أوسع من سيرة المصمم."
+    en: "Signed Damascus quadrants survive in the British Museum and attest his reputation as a maker; Ibn al-Attar's fifteenth-century note reports the mixed-projection variant, while the technology's history is wider than the maker's biography."
+    ur: "دستخط شدہ دمشق مرقية برٹش میوزیم میں باقی ہیں اور اس کی صانع شہرت کی گواہی ہیں؛ ابن العطار کا پندرہویں صدی کا قول سٹیریوگرافک پروجیکشن قسم بتاتا ہے، اور ٹیکنالوجی کی تاریخ ساز کی سوانح سے وسیع ہے۔"
+  significance: 3
+  why: "A documented specialist maker of an unusual astrolabe variant with surviving signed instruments and named treatises; bounded to production evidence, no dated mixed-projection example, no invention claim."
+described_in: [work/risalat-al-mizzi-fi-al-asturlab]
+examples: []
+sites: []
+concepts: []
+today:
+  form:
+    ar: "نموذج تاريخي لصناعة الأسطرلاب الدمشقي؛ اليوم تبنى نسخ تعليمية للعلماء، والصورة المعروضة ربعيات دمشقية من وقته لا نسخة من أسطرلابه المختلط."
+    en: "A historical model of Damascene astrolabe-making; today educational replicas serve scholars, and the displayed photograph shows Damascus quadrants of his era, not a copy of his mixed-projection astrolabe."
+    ur: "دمشقی اسطرلاب سازی کا تاریخی نمونہ؛ آج تعلیمی نقلیں علماء کی خدمت میں ہیں، اور دکھائی گئی تصویر اس کے زمانے کے دمشق مرقیے ہیں، اس کے سٹیریوگرافک پروجیکشن والے اسطرلاب کی نقل نہیں۔"
+  descendants:
+    ar: "لا يثبت البحث المقروء نسباً مباشراً من أسطرلابه إلى صناع اليوم؛ استمر تراث صنع الأسطرلاب في دمشق ومصر وغيرها عبر ورش لاحقة."
+    en: "The sources read establish no direct lineage from his astrolabe to today's makers; astrolabe craft continued in Damascus, Egypt and beyond through later workshops."
+    ur: "پڑھے ماخذ اس کے اسطرلاب سے آج کے صنّاع تک براہ راست نسب ثابت نہیں کرتے؛ اسطرلاب سازی کا تراث دمشق، مصر اور دیگر بلاد میں بعد کی ورکشاپس سے جاری رہا۔"
+media: { image: media/british-museum-damascus-quadrants, diagram: media/diagram-mizzi-mixed-projection }
+kids:
+  ar: "الأسطرلاب آلة نحاسية قديمة تقيس مواضع النجوم. اشتهر المزي في دمشق بأنه يصنع أسطرلابات «عجيبة» بطرق إسقاط مختلفة، فباع أسطرلابه بعشرة دنانير؛ تحفظ متاحف اليوم مربعاته الموقعة كأدلة على حرفته."
+  en: "The astrolabe is an old brass instrument that measures the stars' positions. Al-Mizzi was famous in Damascus for making 'wonderful' astrolabes in different projection ways, and one of his sold for ten dinars; museums today keep his signed quadrants as evidence of his craft."
+  ur: "اسطرلاب ایک پرانا پیتل کا آلہ ہے جو ستاروں کے مقامات ناپتا ہے۔ المزی دمشق میں «عجیب» اسطرلاب بنانے کے لیے مشہور تھے جو سٹیریوگرافک پروجیکشن کے مختلف طریقوں سے بنتے تھے، اور ان کا ایک اسطرلاب دس دینار میں بکا؛ آج عجائب گھر ان کی دستخط شدہ مرقية بطور اس کے ہنر کے شہادے محفوظ رکھتے ہیں۔"
+sources: [source/isi-mizzi-bea, source/bibalex-azhar-astronomy-manuscripts-2006, source/commons-british-museum-quadrants]
+status: { review: published, completeness: 2, generated_by: "Devin drafter w2-07" }
+provenance:
+  layer: own-research
+  generated_by: "Devin drafter w2-07"
+  model: "SWE-2"
+  run: inventions-w2-07-drafting
+  source: "BEA biography of al-Mizzi (Charette 2007, pp. 792-793) read in full on ismi.mpiwg-berlin.mpg.de on 2026-11-15; Bibliotheca Alexandrina astronomy manuscript book pp. 20-21 read as OCR; British Museum Damascus quadrants Commons file page and inspected photograph. No surviving mixed-projection example identified; no invention claim"
