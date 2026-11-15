@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1920, height=1080" />
+    <title>islam.museum — trailer</title>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+    <script src="assets/museum-data.js"></script>
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { margin: 0; width: 1920px; height: 1080px; overflow: hidden; background: #0a2533; }
+      #root { position: relative; width: 1920px; height: 1080px; overflow: hidden; }
+      #world { z-index: 1; }
+      #hook, #reveal, #proof, #wings, #claim, #end { z-index: 2; }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="38.4" data-width="1920" data-height="1080">
+      <!-- The one continuous world: every dot is a mapped record of the museum. -->
+      <div id="world" data-composition-id="world" data-composition-src="compositions/world.html" data-start="0" data-duration="38.4" data-track-index="1" data-track-kind="graphics" data-width="1920" data-height="1080"></div>
+
+      <div id="hook" data-composition-id="hook" data-composition-src="compositions/hook.html" data-start="0" data-duration="7.2" data-track-index="2" data-track-kind="graphics" data-width="1920" data-height="1080"></div>
+      <div id="reveal" data-composition-id="reveal" data-composition-src="compositions/reveal.html" data-start="7.2" data-duration="3.6" data-track-index="2" data-track-kind="graphics" data-width="1920" data-height="1080"></div>
+      <div id="proof" data-composition-id="proof" data-composition-src="compositions/proof.html" data-start="10.8" data-duration="14.4" data-track-index="2" data-track-kind="graphics" data-width="1920" data-height="1080"></div>
+      <div id="wings" data-composition-id="wings" data-composition-src="compositions/wings.html" data-start="25.2" data-duration="6" data-track-index="2" data-track-kind="graphics" data-width="1920" data-height="1080"></div>
+      <div id="claim" data-composition-id="claim" data-composition-src="compositions/claim.html" data-start="31.2" data-duration="2.4" data-track-index="2" data-track-kind="graphics" data-width="1920" data-height="1080"></div>
+      <div id="end" data-composition-id="end" data-composition-src="compositions/end.html" data-start="33.6" data-duration="4.8" data-track-index="2" data-track-kind="graphics" data-width="1920" data-height="1080"></div>
+
+      <!-- Sound: a synthesised percussion-and-drone bed, plus hits placed so each peak lands a frame after its picture. -->
+      <audio id="a-bed" src="assets/audio/bed.wav" data-start="0" data-duration="38.4" data-track-index="3" data-volume="0.55"></audio>
+      <audio id="a-hit-1" src="assets/sfx/impact-bass-1.mp3" data-start="0" data-duration="2.1" data-track-index="4" data-volume="0.45"></audio>
+      <audio id="a-hit-2" src="assets/sfx/impact-bass-1.mp3" data-start="1.16" data-duration="2.1" data-track-index="5" data-volume="0.45"></audio>
+      <audio id="a-hit-3" src="assets/sfx/impact-bass-1.mp3" data-start="2.36" data-duration="2.1" data-track-index="6" data-volume="0.5"></audio>
+      <audio id="a-name" src="assets/sfx/impact-bass-2.mp3" data-start="5.25" data-duration="2.59" data-track-index="4" data-volume="0.55"></audio>
+      <audio id="a-whoosh-map" src="assets/sfx/whoosh.mp3" data-start="13.1" data-duration="0.57" data-track-index="4" data-volume="0.34"></audio>
+      <audio id="a-whoosh-time" src="assets/sfx/whoosh.mp3" data-start="17.9" data-duration="0.57" data-track-index="4" data-volume="0.28"></audio>
+      <audio id="a-whoosh-wings" src="assets/sfx/whoosh-cinematic.mp3" data-start="22.7" data-duration="5.5" data-track-index="5" data-volume="0.45"></audio>
+      <audio id="a-free" src="assets/sfx/impact-bass-1.mp3" data-start="31.16" data-duration="2.1" data-track-index="4" data-volume="0.45"></audio>
+      <audio id="a-noads" src="assets/sfx/impact-bass-1.mp3" data-start="31.76" data-duration="2.1" data-track-index="5" data-volume="0.45"></audio>
+      <audio id="a-forever" src="assets/sfx/impact-bass-1.mp3" data-start="32.36" data-duration="2.1" data-track-index="6" data-volume="0.5"></audio>
+      <audio id="a-riser" src="assets/sfx/riser.mp3" data-start="30.16" data-duration="4.4" data-track-index="7" data-volume="0.5"></audio>
+      <audio id="a-mark" src="assets/sfx/impact-bass-1.mp3" data-start="33.56" data-duration="2.1" data-track-index="4" data-volume="0.55"></audio>
+    </div>
+    <script>
+      window.__timelines = window.__timelines || {};
+      const tl = gsap.timeline({ paused: true });
+      tl.to({}, { duration: 38.4 }, 0);
+      window.__timelines["main"] = tl;
+    </script>
+  </body>
+</html>
