@@ -13,6 +13,10 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v1.41.0 — 2026-11-16
+### Added
+- One more Inventions Browser record, with Arabic, English and Urdu prose: Ibn Juljul's Tabaqat al-Atibba — the earliest surviving biographical dictionary of physicians (Cordoba, c. 987 CE); plus work records for the Tabaqat and al-Khazini's Mizan al-Hikma, and person/ibn-juljul.
+
 ## v1.40.0 — 2026-11-16
 ### Added
 - Four more Inventions Browser records, each with Arabic, English and Urdu prose: Ulugh Beg's Samarqand observatory — the largest medieval observatory; his Zij-i Sultani star catalogue of 1,018 stars, the most accurate pre-Tycho tables; al-Zahrawi's lithotomy instruments including the al-Mishab urethral drill; and his vessel-ligation technique for haemorrhage control.
