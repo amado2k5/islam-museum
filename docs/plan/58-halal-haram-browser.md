@@ -95,7 +95,7 @@ are in `data-pagefind-body`.
 
 1,871 records: 31 curated, 57 Qur'an, 1,132 Sunnah,
 132 seerah, 519 other books. By kind among passages:
-475 lawful only, 551 unlawful only, 804 both.
+151 lawful only, 965 unlawful only, 714 both.
 
 ## 9. Next
 

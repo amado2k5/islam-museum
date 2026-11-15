@@ -356,6 +356,7 @@ describe("one API export per browser or explorer (AGENTS.md: every feature is gr
     expect(items.find((i) => i.id === "passage/quran-5-5x")).toMatchObject({ section: "quran", halal_kind: "halal" });
     expect(items.find((i) => i.id === "passage/bukhari-52x")).toMatchObject({ section: "sunnah", halal_kind: "both" });
     expect(items.find((i) => i.id === "passage/futurefiqh-halal-1")).toMatchObject({ halal_kind: "haram" });
+    expect(items.find((i) => i.id === "passage/muslim-2560x")).toMatchObject({ section: "sunnah", halal_kind: "haram" }); // «لا يحل» is a prohibition
     expect(items.find((i) => i.id === "concept/halal-haram")).toMatchObject({ section: "curated", halal_kind: null });
     expect(featureApiData(compiled)["halal.json"].feature).toBe("halal-haram-browser");
     expect(halalKindOf(pairGated as any)).toBe("both");

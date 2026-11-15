@@ -175,8 +175,8 @@ const WEAK: [RegExp, string][] = [
   [AR_RUKHSA, "rukhsa"],
 ];
 /** The signals on the lawful side and on the unlawful side; the rest are neighbours of both. */
-export const HALAL_SIDE = ["halal", "ahalla-li", "ahalla-allah", "la-yahill", "istihlal", "ahalla", "tayyibat", "mubah", "rukhsa"] as const;
-export const HARAM_SIDE = ["haram", "harrama-allah", "harrama-ala", "harramna", "tahrim", "muharramat", "harrama", "khabaith", "makruh"] as const;
+export const HALAL_SIDE = ["halal", "ahalla-li", "ahalla-allah", "istihlal", "ahalla", "tayyibat", "mubah", "rukhsa"] as const;
+export const HARAM_SIDE = ["haram", "la-yahill", "harrama-allah", "harrama-ala", "harramna", "tahrim", "muharramat", "harrama", "khabaith", "makruh"] as const;
 export const NEUTRAL_SIDE = ["shubuhat"] as const;
 const HALAL_SET = new Set<string>(HALAL_SIDE);
 const HARAM_SET = new Set<string>(HARAM_SIDE);
@@ -233,12 +233,23 @@ export function isHalalPassage(n: Node): boolean {
   return halalSignalsOf(n).length > 0;
 }
 
-/** `both` when the passage names the lawful and the unlawful, else the one side it names. */
+/** The negated permission with its beneficiary: «لا يحل له»، «لم تحل لأحد» — a prohibition worded with the permitting verb. */
+const NEGATED = new RegExp(`(?:لا|لم|ما|ليس|لن) (?:يحل|تحل|يحلان|يحللن|يحلون|تحلوا)[ء-ي]{0,3}(?: ${LAHU})?`, "g");
+
+/**
+ * `both` when the passage names the lawful and the unlawful, else the one side it names.
+ * «لا يحل» stands on the unlawful side, so the lawful side is read again with the negated
+ * permission blanked: «لا يحل لمسلم أن يهجر أخاه» is `haram`, not `both`.
+ */
 export function halalKindOf(n: Node): HalalKind | null {
   const s = halalSignalsOf(n);
   if (!s.length) return null;
-  const h = s.some((x) => HALAL_SET.has(x));
   const r = s.some((x) => HARAM_SET.has(x));
+  let h = s.some((x) => HALAL_SET.has(x));
+  if (h && s.includes("la-yahill")) {
+    const rest = halalSignalsOfText(halalTextOf(n).replace(NEGATED, (m) => m.replace(/\S/g, "·")));
+    h = rest.some((x) => HALAL_SET.has(x));
+  }
   if (h && r) return "both";
   if (r) return "haram";
   if (h) return "halal";
