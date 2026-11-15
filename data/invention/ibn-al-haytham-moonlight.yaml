@@ -1,0 +1,106 @@
+id: invention/ibn-al-haytham-moonlight
+class: invention
+label:
+  { ar: "رسالة «ضوء القمر» لابن الهيثم", en: "Ibn al-Haytham's treatise On the Light of the Moon", ur: "ابن الہیثم کا رسالہ «ضوء القمر»" }
+names:
+  - { value: "ضوء القمر", kind: alternate, lang: ar }
+  - { value: "Maqālah fī al-ḍawʾ al-qamar", kind: alternate, lang: ar }
+  - { value: "On the Light of the Moon", kind: alternate, lang: en }
+summary:
+  ar: "رسالة عربية لابن الهيثم البصري المصري في ضوء القمر، ألّفها قبل 7 آب 1031م وبقيت منها ثلاثة شهود مخطوطة {cite:ismi-daw-al-qamar}. يرد فيها على النظرية القديمة بأن القمر يعكس ضوء الشمس كالمرايا: كل نقطة على سطح القمر تبث أشعة الضوء في كل الاتجاهات، بينما تعكس مرآة شعاعاً من مصدر واحد في اتجاه واحد، ثم يستنتج أن أثراً فيزيائياً لأشعة الشمس على القمر يجعل لونه وضوءه مرئيين {cite:ewb-ibn-al-haytham}."
+  en: "An Arabic treatise by Ibn al-Haytham al-Basri al-Misri on the light of the Moon, composed before 7 August 1031 and surviving in three manuscript witnesses {cite:ismi-daw-al-qamar}. It refutes the ancient theory that the Moon reflects sunlight like a mirror: every point on the lunar surface broadcasts light rays in all directions, whereas a mirror reflects a ray from a single source in one direction, and it concludes that some physical effect of the sun's rays on the Moon renders its color — and thereby its light — visible {cite:ewb-ibn-al-haytham}."
+  ur: "ابن الہیثم البصری المصري کی چاند کی روشنی پر عربی رسالہ، 7 اگست 1031ء سے پہلے مرتب اور تین مخطوطہ گواہوں میں باقی {cite:ismi-daw-al-qamar}۔ اس میں قدیم نظریہ کا رد ہے کہ چاند شمس کی روشنی آئینے کی طرح منعکس کرتا ہے: چاند کی سطح کا ہر نقطہ روشنی کی شعاعیں تمام سمتوں میں نشر کرتا ہے، جبکہ آئینہ ایک ہی ماخذ کی شعاع کو ایک ہی سمت میں منعکس کرتا ہے، اور یہ نتیجہ دیتی ہے کہ سورج کی شعاعوں کا چاند پر کوئی طبعی اثر اس کا رنگ — اور اس کے ساتھ روشنی — مرئی بناتا ہے {cite:ewb-ibn-al-haytham}۔"
+domain: optics-physics
+kind: discovery
+disciplines: [optics, astronomy]
+wings: [ideas]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [egypt-nile]
+era:
+  origins: middle-period
+  first_attested:
+    edtf: "1031"
+    calendar: julian
+    precision: year
+    status: historical
+    note: "ISMI records the treatise as 'composed before 7 Aug. 1031' — an upper bound, not an exact date; the actual composition could be earlier within Ibn al-Haytham's Cairo years. 7 August 1031 falls in 422 AH, but the exact Hijri day is not fixed by the source, so only the Gregorian bound is given."
+    sources: [source/ismi-daw-al-qamar]
+  status_today: replaced
+origin:
+  place: place/cairo
+  context:
+    ar: "القاهرة الفاطمية بعد استقراره فيها ناسخاً للمخطوطات الرياضية؛ استدعاه الحاكم الفاطمي في أمر تنظيم مجرى النيل فأخفق وعُزل، وبقي في القاهرة ينسخ المخطوطات حتى وفاته {cite:ewb-ibn-al-haytham}."
+    en: "Fatimid Cairo after he settled there as a copyist of mathematical manuscripts; the Fatimid al-Hakim had summoned him over regulating the Nile, he failed and was disgraced, and he remained in Cairo copying manuscripts until his death {cite:ewb-ibn-al-haytham}."
+    ur: "فاطمی قاہرہ جہاں وہ ریاضیاتی مخطوطات کا نقل کار بنا رہا؛ فاطمی حاکم نے اسے نیل کے بہاؤ منظم کرنے کے معاملے میں بلایا تھا، وہ ناکام ہوا اور بے عزت ہوا، اور اپنی وفات تک قاہرہ میں مخطوطات نقل کرتا رہا {cite:ewb-ibn-al-haytham}۔"
+makers:
+  - person: person/ibn-al-haytham
+    role: improver
+    place: place/cairo
+    note: "Author of Ḍawʾ al-qamar as cataloged by ISMI; the treatise improves on the ancient mirror-reflection model of lunar light with a physical account grounded in his own ray theory. Muslim in his own words — the Manazir opens with the basmala — kept within the Sunni frame; school unattested."
+    sources: [source/ewb-ibn-al-haytham, source/ismi-daw-al-qamar]
+attribution:
+  status: improvement
+  claim:
+    ar: "في «ضوء القمر» حسّن ابن الهيثم النظرية القديمة في ضوء القمر: ردّ نموذج المرآة التي تعكس شعاعاً واحداً، واقترح أن كل نقطة على سطح القمر تبث أشعة الضوء في كل الاتجاهات وأن أثراً فيزيائياً لأشعة الشمس على القمر يجعل لونه وضوءه مرئيين؛ والتسجيل مقيد بحجة الرسالة هذه لا بادعاء فهم كامل حديث لضوء القمر."
+    en: "In On the Light of the Moon, Ibn al-Haytham improved on the ancient theory of lunar light: he rejected the mirror model reflecting a single ray and proposed that every point on the lunar surface broadcasts light rays in all directions, with some physical effect of the sun's rays on the Moon rendering its color and light visible; the record is bounded to this treatise's argument, not a claim to complete modern understanding of lunar light."
+    ur: "«ضوء القمر» میں ابن الہیثم نے چاند کی روشنی کے قدیم نظریہ کو بہتر بنایا: اس نے ایک شعاع منعکس کرنے والے آئینے کے ماڈل کو رد کیا اور تجویز کی کہ چاند کی سطح کا ہر نقطہ روشنی کی شعاعیں تمام سمتوں میں نشر کرتا ہے، اور سورج کی شعاعوں کا چاند پر کوئی طبعی اثر اس کا رنگ اور روشنی مرئی بناتا ہے؛ ریکارڈ اسی رسالے کے استدلال تک محدود ہے، چاند کی روشنی کی مکمل جدید تفہیم کا دعویٰ نہیں۔"
+  basis:
+    ar: "يصف المدخل «ضوء القمر» بأنه يعيد مسألة إدراك خسوف القمر والكسوف الشمسي على افتراض أن القمر والشمس أجسام فيزيائية صلبة، ثم يرد فيه على النظرية القديمة أن القمر يعكس ضوء الشمس كالمرايا، ويذهب إلى أن القمر جسم مضيء ذاتياً لأن كل نقطة على سطحه تبث أشعة في كل الاتجاهات بينما تعكس مرآة الشعاع في اتجاه واحد، ويستنتج أن أثراً فيزيائياً لأشعة الشمس على القمر يجعل لونه — وبالتالي ضوءه — مرئياً، ويفتح هذا باباً لمصالحة أرسطو وبطلميوس {cite:ewb-ibn-al-haytham}. وتسجله ISMI تأليفاً في البصريات ألّفه قبل 7 آب 1031م وبقيت منه ثلاثة شهود {cite:ismi-daw-al-qamar}."
+    en: "The entry describes On the Light of the Moon as taking up again the problem of perceiving lunar and solar eclipses on the assumption that Moon and Sun are solid physical bodies; it refutes the ancient theory that the Moon reflects sunlight like a mirror, holds the Moon to be a self-illuminating body because every point on its surface broadcasts rays in all directions while a mirror reflects a ray in one direction, and concludes that some physical effect of the sun's rays on the Moon renders its color — and thereby its light — visible, opening the way to reconcile Aristotle and Ptolemy {cite:ewb-ibn-al-haytham}. ISMI catalogs it as an optics composition written before 7 August 1031 with three surviving witnesses {cite:ismi-daw-al-qamar}."
+    ur: "مدخل «ضوء القمر» کو چاند اور سورج کی گرہن کے مشاہدے کے مسئلے کو دوبارہ اٹھانا بتاتا ہے اس مفروضے پر کہ چاند اور سورج ٹھوس مادی اجسام ہیں؛ اس میں قدیم نظریہ رد کیا گیا کہ چاند شمس کی روشنی آئینے کی طرح منعکس کرتا ہے، چاند کو خود منور جسم قرار دیا گیا کیونکہ اس کی سطح کا ہر نقطہ تمام سمتوں میں شعاعیں نشر کرتا ہے جبکہ آئینہ شعاع کو ایک ہی سمت میں منعکس کرتا ہے، اور یہ نتیجہ دیا گیا کہ سورج کی شعاعوں کا چاند پر کوئی طبعی اثر اس کا رنگ — اور اس کے ساتھ روشنی — مرئی بناتا ہے، جو ارسطو اور بطلمیوس کے صلح کا دروازہ کھولتا ہے {cite:ewb-ibn-al-haytham}۔ ISMI اسے بصریات کی تصنیف کے طور پر درج کرتی ہے جو 7 اگست 1031ء سے پہلے لکھی گئی اور تین گواہوں میں باقی ہے {cite:ismi-daw-al-qamar}۔"
+  perspectives:
+    - tradition: sunni
+      id: sunni-museum-frame
+      standing: main
+      summary:
+        ar: "ابن الهيثم مسلم في كلماته: تفتتح «المناظر» باسمه وبسم الله، ويرد في رسائله على الطاعنين في النبوة والمعتزلة؛ فلا تعارض في إطاره السني، والمذهب الفقهي غير مسمى في المصادر المقروءة."
+        en: "Ibn al-Haytham is a Muslim in his own words: the Manazir opens in his name with the basmala, and he wrote treatises answering critics of prophethood and the Mu'tazila; the Sunni frame creates no tension, and no legal school is named in the sources read."
+        ur: "ابن الہیثم اپنی ہی باتوں میں مسلمان ہیں: «المناظر» ان کے نام سے بسم اللہ سے کھلتی ہے، اور انہوں نے نبوت پر اعتراض کرنے والوں اور معتزلہ کے خلاف رسالے لکھے؛ سنی سیاق میں کوئی تعارض نہیں، اور پڑھے ماخذ میں کوئی فقہی مسلک نہیں بتایا گیا۔"
+      sources: [source/ewb-ibn-al-haytham]
+precursors:
+  - invention: invention/haytham-incoming-light-vision
+    note: "The moonlight argument presumes his own intromission theory — light proceeding from the visible object to the eye — developed in the Manazir; the vision record covers that theory, this record covers its application to the Moon."
+    sources: [source/ewb-ibn-al-haytham]
+  - external: { ar: "النظرية القديمة بأن القمر يعكس ضوء الشمس كالمرايا", en: "The ancient theory that the Moon reflects sunlight like a mirror", ur: "قدیم نظریہ کہ چاند شمس کی روشنی آئینے کی طرح منعکس کرتا ہے" }
+    note: "The treatise's target: the mirror-reflection model of lunar light current in the ancient astronomical tradition before his account."
+    sources: [source/ewb-ibn-al-haytham]
+dependents: []
+spread: []
+impact:
+  fields: [optics-physics]
+  changed:
+    ar: "حوّل سؤال «لماذا يضيء القمر؟» من مسألة انعكاس هندسي بسيط إلى مسألة فيزيائية عن طبيعة سطح القمر وتأثره بضوء الشمس، وربطها بنقاش أرسطو وبطلميوس عن العناصر السماوية."
+    en: "Turned the question 'why does the Moon shine?' from a simple geometric reflection problem into a physical question about the lunar surface's nature and its response to sunlight, tying it to the Aristotle-Ptolemy debate over heavenly elements."
+    ur: "«چاند کیوں چمکتا ہے؟» کے سوال کو سادہ ہندسی انعکاس کے مسئلے سے ایک طبعی سوال میں بدل دیا — چاند کی سطح کی نوعیت اور سورج کی روشنی سے اس کا تعلق — اور اسے ارسطو اور بطلمیوس کے آسمانی عناصر کی بحث سے جوڑا۔"
+  history:
+    ar: "بقيت الرسالة في ثلاثة شهود مخطوطة عبر حلب ولندن وسانت بطرسبورغ {cite:ismi-daw-al-qamar}. وحُفظ استدلالها في سيرة ابن الهيثم كمثال على ربطه بين البصريات والفيزياء الفلكية، لكن لا يوجد توثيق في المصادر المقروءة لنظرية «الضوء المنعكس» القمرية قبلها أو لتطورها بعدها."
+    en: "The treatise survives in three manuscript witnesses across Aleppo, London and St Petersburg {cite:ismi-daw-al-qamar}. Its argument is preserved in Ibn al-Haytham's biography as an example of joining optics with physical astronomy, but the sources read document no lunar-reflection theory before it or its later development."
+    ur: "رسالہ حلب، لندن اور سینٹ پیٹرزبرگ میں تین مخطوطہ گواہوں میں بچا ہے {cite:ismi-daw-al-qamar}۔ اس کا استدلال ابن الہیثم کی سوانح میں بصریات اور فلکیاتی طبیعیات کے ملاپ کی مثال کے طور پر محفوظ ہے، مگر پڑھے ماخذ اس سے پہلے یا بعد میں چاند کی روشنی کے کسی نظریے کا ارتقاء نہیں بتاتے۔"
+  significance: 2
+  why: "A bounded optics treatise surviving in three witnesses with a documented argument, valued as a window into Ibn al-Haytham's method of joining geometry with physical hypothesis; significance held at 2 because the secondary source summarizes the argument without the treatise text, and the modern lunar question is answered by other means."
+described_in: [work/daw-al-qamar]
+examples: []
+sites: []
+concepts: []
+today:
+  form:
+    ar: "لا توجد أداة مادية؛ بقي الشكل في رسالة «ضوء القمر» وفي سؤالها عن طبيعة ضوء القمر، والصورة المعروضة صورة حديثة من مركبة فضائية لسياق سطح القمر فقط."
+    en: "No physical object survives; the form lives in the treatise On the Light of the Moon and its question about the nature of lunar light, and the displayed image is a modern spacecraft photograph of the lunar surface for context only."
+    ur: "کوئی مادی چیز باقی نہیں؛ شکل «ضوء القمر» کے رسالے اور اس کے سوال میں باقی ہے — چاند کی روشنی کی نوعیت — اور دکھائی گئی تصویر صرف سیاق کے لیے جدید خلائی جہاز کی چاند کی تصویر ہے۔"
+  descendants:
+    ar: "لا يثبت في المصادر المقروءة نسل مباشر من حجة الرسالة إلى علم ضوء القمر الحديث؛ علم اليوم يشرح ضوء القمر بانعكاس ضوء الشمس عن تربة غبارية عاكسة، وهو جواب مختلف عن نموذج «الجسم المضيء ذاتياً» الذي اقترحه ابن الهيثم."
+    en: "The sources read establish no direct line from the treatise's argument to modern lunar-light science; today's science explains lunar light as sunlight reflected from a bright dusty regolith — a different answer from the 'self-illuminating body' model Ibn al-Haytham proposed."
+    ur: "پڑھے ماخذ اس رسالے کے استدلال سے جدید چاند کی روشنی کے علم تک براہ راست نسل ثابت نہیں کرتے؛ آج کا علم چاند کی روشنی کو چاند کی چمکتی غبار والی سطح سے سورج کی روشنی کے انعکاس سے سمجھاتا ہے — ابن الہیثم کے «خود منور جسم» کے ماڈل سے مختلف جواب۔"
+media: { image: media/galileo-moon-full, diagram: media/diagram-ibn-al-haytham-moonlight }
+kids:
+  ar: "قبل ألف سنة، اعتقد الناس أن القمر مثل مرآة كبيرة تعكس ضوء الشمس. لكن عالماً اسمه ابن الهيثم — وهو من أشهر علماء البصريات في التاريخ — كتب رسالة صغيرة اسمه «ضوء القمر» يقول فيها: لا، القمر ليس مرآة، لأن كل نقطة على سطحه تبعث الضوء في كل الاتجاهات، مثل مصباح مضاء من كل الجهات. وهو أول من فكر في ضوء القمر كمسألة علمية حقيقية، لا مجرد شيء نراه في السماء."
+  en: "A thousand years ago, people believed the Moon was like a giant mirror reflecting sunlight. But a scholar named Ibn al-Haytham — one of history's greatest students of light — wrote a small treatise called On the Light of the Moon saying: no, the Moon is not a mirror, because every point on its surface sends out light in every direction, like a lamp lit from all sides. He was among the first to treat moonlight as a real scientific question, not just something we see in the sky."
+  ur: "ایک ہزار سال پہلے لوگ سمجھتے تھے کہ چاند ایک بڑا آئینہ ہے جو سورج کی روشنی منعکس کرتا ہے۔ مگر ابن الہیثم نامی عالم — جو روشنی کے مطالعے میں تاریخ کے عظیم ترین علماء میں سے ہیں — نے «ضوء القمر» نامی ایک چھوٹا سا رسالہ لکھا جس میں کہا: نہیں، چاند آئینہ نہیں، کیونکہ اس کی سطح کا ہر نقطہ روشنی کو ہر سمت میں بھیجتا ہے، جیسے ہر طرف سے روشن لیمپ۔ وہ چاند کی روشنی کو ایک حقیقی سائنسی سوال سمجھنے والوں میں سے پہلے تھے، نہ کہ بس آسمان میں دکھنے والی چیز۔"
+sources: [source/ismi-daw-al-qamar, source/ewb-ibn-al-haytham, source/commons-galileo-moon-nasa]
+status: { review: published, completeness: 2, generated_by: "Devin drafter w2-10" }
+provenance:
+  layer: own-research
+  generated_by: "Devin drafter w2-10"
+  model: "SWE-2"
+  run: inventions-w2-10-drafting
+  source: "source/ismi-daw-al-qamar record page (title, author, subject, 'composed before 7 Aug. 1031', three witnesses) and source/ewb-ibn-al-haytham astronomy section read 2026-11-15; Commons file page + imageinfo for the Galileo Moon image. Bounded to the documented argument summarized by the secondary source; no treatise text inspected; modern lunar science distinguished from his model."

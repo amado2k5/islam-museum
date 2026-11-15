@@ -10,8 +10,8 @@ names:
   - { kind: laqab, lang: ar, value: "بدر الدين" }
 roles: [scholar, jurist, mathematician, astronomer]
 gender: male
-born: { edtf: "1698/1699", hijri: "1110", calendar: gregorian, precision: year, status: historical, note: "«ولدته في سنة عشر ومائة وألف» (عجائب الآثار 1، مسح ص503).", sources: [source/ajaib-al-athar-moreh-2013-v1] }
-died: { edtf: "1774-04-13", hijri: "1188-02-01", calendar: gregorian, precision: day, status: historical, note: "«توفي يوم الثلاثاء قبل الزوال غرة شهر صفر من السنة» 1188هـ، والتاريخ الميلادي (13 نيسان 1774) من المحقق، وله سبع وسبعون سنة (عجائب الآثار 1، مسح ص524).", sources: [source/ajaib-al-athar-moreh-2013-v1] }
+born: { edtf: "1698/1699", hijri: "1110", calendar: gregorian, precision: year, status: historical, note: "«ولدته في سنة عشر ومائة وألف» ⁦(عجائب الآثار 1، مسح ص503)⁩.", sources: [source/ajaib-al-athar-moreh-2013-v1] }
+died: { edtf: "1774-04-13", hijri: "1188-02-01", calendar: gregorian, precision: day, status: historical, note: "«توفي يوم الثلاثاء قبل الزوال غرة شهر صفر من السنة» 1188هـ، والتاريخ الميلادي ⁦(13 نيسان 1774)⁩ من المحقق، وله سبع وسبعون سنة ⁦(عجائب الآثار 1، مسح ص524)⁩.", sources: [source/ajaib-al-athar-moreh-2013-v1] }
 themes: [mathematics, astronomy-and-timekeeping, engineering-and-technology, law-and-courts]
 summary:
   ar: "حسن بن إبراهيم الجبرتي الزيلعي العقيلي الحنفي ⁦(1110–1188هـ)⁩، فقيه حنفي ورياضي وفلكي مصري، والد المؤرخ عبد الرحمن الجبرتي، ترجمه ابنه في «عجائب الآثار» ترجمة طويلة: اشتغل بالرياضيات من سنة 1144هـ، وأخذ الهيئة والهندسة عن حسام الدين الهندي، ورسم المزاول ونصبها في الأزهر وغيره، وحضر إليه طلاب من الإفرنج سنة 1159هـ فقرؤوا عليه الهندسة، وانتهت إليه الفتوى عند القضاة، وتوفي غرة صفر 1188هـ {cite:ajaib-al-athar-moreh-2013-v1 p.502} {cite:ajaib-al-athar-moreh-2013-v1 p.510} {cite:ajaib-al-athar-moreh-2013-v1 p.515} {cite:ajaib-al-athar-moreh-2013-v1 p.516} {cite:ajaib-al-athar-moreh-2013-v1 p.524}."
@@ -19,20 +19,30 @@ summary:
 wings: [people, ideas]
 regions: [egypt-nile]
 periods: [period/gunpowder-empires]
+faith:
+  - value: sunni-hanafi
+    basis: documented
+    note: "The obituary in Aja'ib al-athar opens by calling him 'the philosopher of Islam' and the authority of his age in Abu Hanifa's law, describes him as a Hanafi among the scholars of al-Azhar, and reports that the Muslims of the land of Jabart follow the Hanafi and Shafi'i schools; no other tradition is attested for him."
+    sources: [source/ajaib-al-athar-moreh-2013-v1]
 relations:
   - { type: born_in, target: place/zeila, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: buried_in, target: place/cairo, sources: [source/ajaib-al-athar-moreh-2013-v1] }
-sources: [source/al-aalam, source/ajaib-al-athar-moreh-2013-v1, source/wikidata]
+inventions:
+  - invention: invention/jabarti-square-instrument
+    role: inventor
+    note: "His son lists 'the square instrument' among the instruments he invented, 'for finding directions and azimuth'; a wider obituary recension adds 'inclinations by the easiest means and shortest way' and names 'the historical circle' and 'barqar al-daraja' among his invented instruments."
+    sources: [source/ajaib-al-athar-moreh-2013-v1, source/arabicgenius-ajaib-al-athar]
+sources: [source/al-aalam, source/ajaib-al-athar-moreh-2013-v1, source/arabicgenius-ajaib-al-athar, source/wikidata]
 external_ids:
   wikidata: Q5679896
   viaf: "90040744"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; source/ajaib-al-athar-moreh-2013-v1 scan pp. 502-524 (al-Jabarti's obituary of his father, year 1188)"
-  generated_by: "Devin (SWE-2 High); rewritten by Claude Code (OCR-harvest worker J)"
-  model: "claude-opus-5-5"
-  run: "wikidata-import-0046; ocr-harvest-2026-11-04"
+  source: "Wikidata candidate; source/ajaib-al-athar-moreh-2013-v1 scan pp. 502-524 (al-Jabarti's obituary of his father, year 1188); inventions-w2-09: additive faith block and inventions tie for invention/jabarti-square-instrument, sourced to the same obituary plus the wider obituary recension in the public-domain transcription (pp. 457-460)"
+  generated_by: "Devin (SWE-2 High); rewritten by Claude Code (OCR-harvest worker J); inventions-w2-09 additions by Devin drafter w2-09 (SWE-2)"
+  model: "claude-opus-5-5; SWE-2"
+  run: "wikidata-import-0046; ocr-harvest-2026-11-04; inventions-w2-09"
 status:
   review: published
   completeness: 3
-  generated_by: "Devin (SWE-2 High); Claude Code (OCR-harvest worker J)"
+  generated_by: "Devin (SWE-2 High); Claude Code (OCR-harvest worker J); inventions-w2-09 additions by Devin drafter w2-09"
