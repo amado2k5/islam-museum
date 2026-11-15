@@ -1,0 +1,48 @@
+id: dec-20261115-286
+kind: "decision"
+date: "2026-11-15"
+expires_at: "2027-11-15"
+question_hash: 30f17929baa0
+lane: "orchestrator"
+class: "process"
+modality: "repo"
+domain: "sources"
+mode: "conservative"
+question: "The founder ruled in chat on 15 November 2026: \"for the ai-change-gates, do not require a human to read, so anything can be published state if the ai lists its sources clearly and if the sources are difficult then mention that on the record itself and instead of draft say reader can verify and that the website has done its job in attempting to collect and present that material to the user, in the future we might be able to run other cycles and verify from other resources for that record.\" This supersedes the founder ruling of 8 November 2026 (decision records dec-20261108-152/161, restated in AGENTS.md) that AI output is draft-tier until a human reads it. The new rule: no human read is required for a record to stand as published; a record may be published when the AI lists its sources clearly; where sources are difficult, that difficulty is stated on the record itself; the status language is reframed from draft-as-awaiting-a-human to reader-can-verify — the website has done its job in attempting to collect and present the material, and future cycles may re-verify a record from other resources. Should the publication rule be amended accordingly — docs/ai-change-gates.md section 6 and docs/agents/publication-standard.md aligned to the ruling's full terms, and the 8 November ruling in AGENTS.md marked superseded? This question is reserved to the founder: the founder decides."
+options:
+  - "amend the publication rule as the founder ruled, align docs/ai-change-gates.md section 6 and docs/agents/publication-standard.md, and mark the 8 November ruling in AGENTS.md superseded"
+  - "amend the rule but leave the governing documents unchanged"
+  - "do not amend"
+evidence:
+  - "Founder's words in chat, 15 November 2026, quoted in full in the question"
+  - "The public-claims audit (docs/audit/public-claims-audit-2026-11-15.md, PR #7045): every published record is AI-written and no field records a human read of any of them, so the draft-tier rule no longer describes the museum as it stands"
+  - "docs/ai-change-gates.md section 6 already states that no review — human or agent — gates publication under the publication standard, while AGENTS.md and the status.review section of docs/agents/publication-standard.md still state the human-read gate: the documents disagreed, and this ruling resolves the disagreement"
+  - "No entity record, status value, site code or i18n string changes under this record: the site-wide status-language migration is a separate follow-on programme"
+  - "Reversible in form: a later founder ruling can restore a review tier; nothing in this record rewrites any existing record"
+status: founder-docket
+step: founder-reserved
+decision: "the question reserves this decision to the founder"
+confidence: n/a
+reversible: false
+rationale: ""
+review_sampled: false
+decided_by:
+  agent: poc-decide
+  pipeline: scripts/decisions/decide.ts
+  ruleset: docs/decisions/rules.yaml
+calibration_log:
+  deterministic_gates_all_pass: true
+  fired_rule_count: 0
+  rule_ids_fired: []
+  precedent_distance: null
+  top_precedent_id: null
+  top_precedent_status: null
+  founder_resolution:
+    verdict: approved
+    at: 2026-11-15
+    by: founder
+    note: 'Founder ruling in chat, 15 November 2026: "for the ai-change-gates, do
+      not require a human to read, so anything can be published state if the ai
+      lists its sources clearly" (the ruling is quoted in full in the question)'
+  founder_override: false
+  calibration_weight: 1
