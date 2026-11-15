@@ -1,0 +1,23 @@
+id: concept/tatiqas
+class: concept
+kind: natural
+label:
+  ar: "طاطيقس"
+  en: "Tatiqas (the cicada)"
+  ur: "طاطیقس ⁦(جھینگر یا ٹڈی نما کیڑا)⁩"
+summary:
+  ar: "حيوان يعيش في شجر الزيتون، يصيح أكثر الوقت بصرير، ويشوى على الطابق فينفع من أوجاع المثانة."
+  en: "An insect the book says lives on olive trees and sings most of the day with a creak; roasted on a flat pan it helps bladder pains."
+  ur: "ایک کیڑا جو زیتون کے درختوں پر رہتا ہے اور دن کا بیشتر حصہ چرچراتی آواز میں بولتا ہے؛ چپٹے توے پر بھون کر یہ مثانے کے درد میں فائدہ دیتا ہے۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, scan pages 507, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, semen and desire reports kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), lane A4"
+  model: claude-haiku-5-5
+  run: a4-canon-book2-14
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (book mining, lane A4)" }

@@ -786,3 +786,23 @@ SKIPPED: Q12194531 death 670 and name agree, but the item has no role; not linke
 SKIPPED: Q121321230 has no English label or description; role not agreed; not linked. person/ghulam-khalil
 NO ITEM: 59 slugs of this slice returned no Wikidata item for their English or Arabic name (not a rate-limit result); listed in the packet notes, not linked.
 NO AGREEING CANDIDATE: 57 slugs returned candidates but none had the card's name with a matching birth or death year; not linked.
+ACCEPTED person/aktham-ibn-sayfi = Q6825435: checked against Wikidata revision and English Wikipedia lead on 15 November 2026; name, one date and role agree with the card; no sourced date changed.
+ACCEPTED person/al-hujwiri = Q2733487: checked against Wikidata revision and English Wikipedia lead on 15 November 2026; name, one date and role agree with the card; no sourced date changed.
+ACCEPTED person/al-mundhir-ibn-imri-al-qays = Q220605: checked against Wikidata revision and English Wikipedia lead on 15 November 2026; name, one date and role agree with the card; no sourced date changed.
+ACCEPTED person/berke-khan = Q314056: checked against Wikidata revision and English Wikipedia lead on 15 November 2026; name, one date and role agree with the card; no sourced date changed.
+ACCEPTED person/durayd-ibn-al-simma = Q4120435: checked against Wikidata revision and English Wikipedia lead on 15 November 2026; name, one date and role agree with the card; no sourced date changed.
+ACCEPTED person/hamid-ibn-al-abbas = Q16160173: checked against Wikidata revision and English Wikipedia lead on 15 November 2026; name, one date and role agree with the card; no sourced date changed.
+ACCEPTED person/kumayl-ibn-ziyad = Q1112952: checked against Wikidata revision and English Wikipedia lead on 15 November 2026; name, one date and role agree with the card; no sourced date changed.
+ACCEPTED-DROPPED-FROM-B5-10 (carried, re-checked): the 6 links listed above were accepted in b5-wikidata-person-10 and are packed here; the other two (abu-ishaq-al-shatibi, al-rabi-ibn-sulayman-al-muradi) are DUPLICATES: Q2621743 is already on person/al-shatibi and Q12187688 on person/al-rabi-ibn-sulayman-al-muadhdhin on origin/main; not packed, not linked.
+ALREADY LINKED BY SOURCE, NOT PACKED: person/jassim-bin-mohammed-al-thani: Wikidata Q4116076 is recorded in source/wikidata-jassim-bin-mohammed-al-thani on main but the card has no external_ids line; not repacked here (card left untouched); founder or next packet may add the link. Q-id and dates re-checked (birth 1825, death 1913 agree).
+SKIPPED: person/umar-ibn-hubayra: item death 728 (and 701) against card 726, item birth 601 against card 720~; no date agrees within a year on the card basis, not linked.
+SKIPPED: person/khatun-of-bukhara: Q25524581 (Khutak Khatun) death 689 against card 690~; one year off, not linked.
+SKIPPED: person/zuhayr-ibn-janab-al-kalbi: Q27996349 name agrees but death 564 against card 540; not linked.
+SKIPPED: person/mukhallad-ibn-yazid: Q124773323 death 718 against card 809; Q138303333 has no dates; not linked.
+SKIPPED: person/al-harith-ibn-abd-al-muttalib (Q302272), person/umayma-bint-abd-al-muttalib (Q20390791): name agrees but the item has no date to agree with the card; not linked.
+SKIPPED: person/asiya: Q3240241 (Asiya bint Muzahim) name agrees but the card has no date and the role on the item is not in the card; not linked, for a second look.
+SKIPPED: person/khuzayma-ibn-jahm (Q12210465), person/yusuf-ibn-yaqub-al-qadi (Q109258408): name agrees but no date on the item; not linked.
+SKIPPED: person/al-kahina: item Q284295 is Dihya, Arabic label differs from card; not linked, founder review if wanted.
+NO ITEM: 17 of the 36 candidates returned no Wikidata item for their English or Arabic name (search answered without error; not a rate-limit result).
+NO AGREEING CANDIDATE: the remaining candidates returned items whose name or dates did not agree with the card; not linked.
+PACING: 36 slugs searched at about 5 seconds per request; HTTP 429 answers were retried after a wait and none ended in an error, so no slug was recorded as no item because of a 429.

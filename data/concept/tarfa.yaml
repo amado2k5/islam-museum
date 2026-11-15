@@ -1,0 +1,23 @@
+id: concept/tarfa
+class: concept
+kind: natural
+label:
+  ar: "طرفاء"
+  en: "Tarfa (tamarisk)"
+  ur: "طرفاء"
+summary:
+  ar: "شجرة تنبت عند المياه القائمة، ثمرها قابض يستعمل بدل العفص، وورقها وخشبها ودخانها تنفع من أمراض الفم والقروح والأورام والنفث."
+  en: "A tree that grows by standing water; its fruit is astringent and used in place of gall nut, and its leaf, wood and smoke help mouth ailments, ulcers, swellings and spitting of blood."
+  ur: "کھڑے پانی کے پاس اُگنے والا درخت؛ اس کا پھل قابض ہے اور عفص کی جگہ استعمال ہوتا ہے، اور اس کا پتّا، لکڑی اور دھواں منہ کی بیماریوں، زخموں، سوجن اور خون تھوکنے میں فائدہ دیتے ہیں۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, scan pages 499, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); editor footnotes used only for identity; measured doses left out; garbled OCR left out, not guessed; womb, menses, semen and desire reports kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), lane A4"
+  model: claude-haiku-5-5
+  run: a4-canon-book2-13
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (book mining, lane A4)" }
