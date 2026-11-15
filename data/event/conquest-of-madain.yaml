@@ -10,7 +10,7 @@ summary:
 wings: [time]
 relations:
   - { type: occurred_at, target: place/al-madain, sources: [source/kamil-ibn-al-athir] }
-  - { type: had_participant, target: person/sad-ibn-abi-waqqas, role: "قائد الجيش", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/saad-ibn-abi-waqqas, role: "قائد الجيش", sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/zuhra-ibn-hawiyya, sources: [source/kamil-ibn-al-athir] }
   - { type: had_participant, target: person/hashim-ibn-utba, sources: [source/kamil-ibn-al-athir] }
   - { type: during_reign, target: person/umar-ibn-al-khattab, sources: [source/tarikh-khulafa-minhaj-1434, source/watt-1956-medina] }
@@ -21,7 +21,7 @@ provenance:
   run: lib-kamil-v2-batch02
 sides:
   - label: { ar: "جيش سعد بن أبي وقاص", en: "Sad ibn Abi Waqqas's army" }
-    commanders: [person/sad-ibn-abi-waqqas]
+    commanders: [person/saad-ibn-abi-waqqas]
   - label: { ar: "المدائن", en: "al-Mada'in" }
 map:
   kind: battle

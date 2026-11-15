@@ -81,7 +81,9 @@ export const summaryRaw = (n: Pick<Node, "summary">, lang: Lang) => n.summary[la
 // URL segment per class: questions and exhibits are plural (docs/plan/03 §5)
 export const SEGMENT: Record<string, string> = { question: "questions", exhibit: "exhibits" };
 export const href = (lang: Lang, id: string) => {
-  const [cls, slug] = id.split("/");
+  // a former id (an alias) links to the record that now holds it: the Worker redirects the old address on the live
+  // site, but a link should not depend on a redirect, and the built files have none (site-checks, 15 November 2026)
+  const [cls, slug] = (byId.get(id)?.id ?? id).split("/");
   return `/${lang}/${SEGMENT[cls] ?? cls}/${slug}/`;
 };
 

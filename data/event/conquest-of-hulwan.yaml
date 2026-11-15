@@ -11,7 +11,7 @@ regions: [levant-iraq, persia-central-asia]
 relations:
   - { type: occurred_at, target: place/hulwan }
   - { type: had_participant, target: person/jarir-ibn-abd-allah-al-bajali, role: "الفاتح بالصلح", sources: [source/futuh-buldan-maarif-1407] }
-  - { type: had_participant, target: person/sad-ibn-abi-waqqas, role: "الآمر بالنهوض", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/saad-ibn-abi-waqqas, role: "الآمر بالنهوض", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/hashim-ibn-utba, role: "مضم الخيل", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/uzra-ibn-qays-al-bajali, role: "الخليفة على حلوان", sources: [source/futuh-buldan-maarif-1407] }
 provenance:
@@ -21,7 +21,7 @@ provenance:
   run: lib-futuh-buldan-batch-41
 sides:
   - label: { ar: "جيش جرير بن عبد الله البجلي", en: "جرير بن عبد الله البجلي's army" }
-    commanders: [person/jarir-ibn-abd-allah-al-bajali, person/sad-ibn-abi-waqqas, person/uzra-ibn-qays-al-bajali]
+    commanders: [person/jarir-ibn-abd-allah-al-bajali, person/saad-ibn-abi-waqqas, person/uzra-ibn-qays-al-bajali]
   - label: { ar: "حلوان", en: "Hulwan" }
 map:
   kind: campaign

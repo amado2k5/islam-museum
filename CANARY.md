@@ -26,6 +26,7 @@ open a new block on top with the new version and today's date.
 
 ## v1.31.1 — 2026-11-14
 ### Fixed
+- **Fifteen links on five battle pages no longer depend on a redirect.** The "sides" panel of the Battle of Jalula, the two records on the conquest of al-Mada'in, the conquest of Hulwan and Abu Yazid's siege of al-Mahdiyya linked Sa'd ibn Abi Waqqas and al-Mahdiyya by ids that were merged into other records in October. The live site redirected them, but the built files had no such page, and the new link check of the full build failed on them. Every link the site builds now resolves a former id to the record that holds it, and the six event records that still named the old ids name the current ones.
 - **The Halal and Haram Browser no longer lists ten passages that use the same Arabic roots in another sense.** A second reader's list of other meanings of the two roots was measured against every passage the browser showed. Seven were real and are now left out: being deprived of a good, the opening takbir of the prayer, the month of Muharram in a date, the sanctuary as a place, leaving the state of ihram, a debt falling due, and the kin one may not marry. The browser goes from 1,830 detected passages to 1,820, and 23 others now carry a corrected list of matched terms.
 - The Arabic text of the record on the hadith "the lawful is clear and the unlawful is clear" now gives the wording of the report it cites (Abu Dawud 3330).
 ### Tests
