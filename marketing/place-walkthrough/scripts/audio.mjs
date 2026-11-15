@@ -1,14 +1,15 @@
 // Lay the narration on the film's clock and set its level.
-//   node scripts/audio.mjs en|ar
+//   node scripts/audio.mjs en|ar [teaser]
 // Writes build/<lang>/audio/voice.wav (every sentence at its planned second, loudness set for social platforms) and
 // copies the music bed beside it. The music is the museum's own track "Fourteen Centuries"; it is not in git, so
 // the path to it is given in MUSIC (default: the founder's Music library).
 import { readFileSync, mkdirSync, existsSync } from "node:fs";
 import { spawnSync } from "node:child_process";
 import { ROOT } from "./units.mjs";
-const lang = process.argv[2];
-const plan = JSON.parse(readFileSync(`${ROOT}build/${lang}/plan.json`, "utf8"));
-const out = `${ROOT}build/${lang}/audio/`; mkdirSync(out, { recursive: true });
+import { CUTS } from "./scenes.mjs";
+const lang = process.argv[2], cut = process.argv[3] || "full", sfx = cut === "full" ? "" : "-" + cut;
+const plan = JSON.parse(readFileSync(`${ROOT}build/${lang}/plan${sfx}.json`, "utf8"));
+const out = `${ROOT}build/${lang}/audio${sfx}/`; mkdirSync(out, { recursive: true });
 const inputs = [], filters = [], labels = [];
 let i = 0;
 for (const s of plan.scenes) for (const [id, cue] of Object.entries(s.cues)) {
@@ -28,7 +29,8 @@ if (existsSync(music)) {
   const end = plan.scenes[plan.scenes.length - 1], lastCue = Object.values(end.cues).pop();
   const t1 = +(end.start + lastCue.at + lastCue.dur + 0.15).toFixed(2), under = 0.2, up = 0.62;
   const env = `volume='if(lt(t,${t1}),${under},if(lt(t,${t1 + 1.4}),${under}+(${up}-${under})*(t-${t1})/1.4,${up}))':eval=frame`;
-  const m = spawnSync("ffmpeg", ["-y", "-loglevel", "error", "-i", music, "-af",
+  // A short film starts the track at a fuller passage; its quiet opening would be over before it had begun.
+  const m = spawnSync("ffmpeg", ["-y", "-loglevel", "error", "-ss", String(CUTS[cut].musicStart), "-i", music, "-af",
     `loudnorm=I=-16:LRA=5:TP=-2,aresample=48000,${env},afade=t=in:d=0.6,afade=t=out:st=${(plan.dur - 1.7).toFixed(2)}:d=1.7`,
     "-ac", "2", "-t", String(plan.dur), out + "bed.wav"], { encoding: "utf8" });
   if (m.status !== 0) { console.error(m.stderr); process.exit(1); }

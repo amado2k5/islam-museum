@@ -1,13 +1,14 @@
 // Write the HyperFrames project of one film: film/<lang>-<shape>/ (index.html and one file per scene).
-//   node scripts/compose.mjs en|ar wide|tall
+//   node scripts/compose.mjs en|ar wide|tall [teaser]
 // Everything is laid out from build/<lang>/plan.json, so the picture, the captions and the voice share one clock.
 // The files it writes are plain HTML and can be edited by hand or in the HyperFrames app afterwards; running this
 // script again overwrites them.
 import { readFileSync, writeFileSync, mkdirSync, existsSync, rmSync, readdirSync, statSync, copyFileSync, constants } from "node:fs";
 import { ROOT } from "./units.mjs";
 
-const [lang, shape] = process.argv.slice(2);
-const plan = JSON.parse(readFileSync(`${ROOT}build/${lang}/plan.json`, "utf8"));
+const [lang, shape, cut = "full"] = process.argv.slice(2);
+const sfx = cut === "full" ? "" : "-" + cut;
+const plan = JSON.parse(readFileSync(`${ROOT}build/${lang}/plan${sfx}.json`, "utf8"));
 const tall = shape === "tall", ar = lang === "ar";
 const W = tall ? 1080 : 1920, H = tall ? 1920 : 1080;
 // Vertical: the phone recording (1080 x 1300) is shown at nine tenths, so the captions under it stay inside the band
@@ -16,7 +17,7 @@ const W = tall ? 1080 : 1920, H = tall ? 1920 : 1080;
 const WIN = tall ? { x: 54, y: 28, w: 972, h: 1170, r: 26 } : { x: 128, y: 24, w: 1664, h: 936, r: 14 };
 const CAP = tall ? { top: 1200, h: 118, max: 760, size: 44, chars: ar ? 54 : 56, hero: ar ? 66 : 60 }
                  : { top: 968, h: 104, max: 1640, size: ar ? 48 : 42, chars: ar ? 64 : 66, hero: ar ? 96 : 84 };
-const out = `${ROOT}film/${lang}-${shape}/`;
+const out = `${ROOT}film/${lang}-${shape}${sfx}/`;
 const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 const f = (n) => +(+n).toFixed(3);
 
@@ -151,7 +152,7 @@ function sceneFile(s, first) {
   </style>
   <div id="root" data-composition-id="${id}" data-width="${W}" data-height="${H}">
     <div id="${id}-win"><div id="${id}-in">
-      <video id="${id}-v" class="clip" data-start="0" data-duration="${d}" data-track-index="1" src="assets/footage/${id}.mp4" muted playsinline></video>
+      <video id="${id}-v" class="clip" data-start="0" data-duration="${d}" data-track-index="1" src="assets/footage/${s.src || id}.mp4"${s.mediaStart ? ` data-media-start="${s.mediaStart}"` : ""} muted playsinline></video>
     </div></div>
   </div>
   <script>
@@ -173,7 +174,7 @@ function numbersFile(s) {
   const stills = existsSync(`${ROOT}footage/${lang}/stills`) ? readdirSync(`${ROOT}footage/${lang}/stills`).filter((x) => x.endsWith(".jpg")).sort() : [];
   const cols = tall ? 3 : 4, rows = tall ? 5 : 4, tw = W / cols, th = tall ? 1340 / rows : H / rows;
   const tiles = Array.from({ length: cols * rows }, (_, i) => stills.length ? stills[i % stills.length] : null);
-  const band = tall ? { top: 520, h: 360 } : { top: 372, h: 336 };
+  const band = tall ? { top: 380, h: 360 } : { top: 372, h: 336 }; // vertical: above the height where TikTok's button column begins
   const big = tall ? 150 : 190, lab = tall ? 50 : 64;
   const tileHtml = tiles.map((t, i) => `      <div class="nb-tile" id="nb-t${i}" style="left:${f((i % cols) * tw)}px;top:${f(Math.floor(i / cols) * th)}px;width:${f(tw)}px;height:${f(th)}px">${t ? `<img src="assets/stills/${t}" alt="">` : ""}</div>`).join("\n");
   const line = (k, html) => `      <div class="nb-line" id="nb-l${k}">${html}</div>`;
@@ -234,19 +235,24 @@ ${line(3, `<span class="nb-lab">${esc(COPY.n4)}</span>`)}
 // ---------- the end card ----------
 function endFile(s) {
   const id = "end", d = s.dur, at = (u) => s.cues[u].at;
-  const cy = tall ? 450 : 300, mark = tall ? 300 : 250;
-  const Y = tall ? { name: 34, tag: 190, free: 290, langs: 420, small: 1190 } : { name: 30, tag: 186, free: 280, langs: 400, small: H - 96 };
+  // Vertical: everything sits in a 640 px column in the middle of the frame, clear of the apps' right-hand buttons
+  // and of the band they cover at the bottom.
+  // TikTok's button column takes the right fifth of the frame from about 800 px down, so the lines that matter sit
+  // above that and the small print below it is narrower.
+  const cy = tall ? 310 : 300, mark = tall ? 220 : 250;
+  const Y = tall ? { name: 20, tag: 140, free: 270, langs: 350, small: 870 } : { name: 30, tag: 186, free: 280, langs: 400, small: H - 96 };
+  const col = tall ? `left: 220px; width: 640px;` : `left: 0; width: ${W}px;`;
   return `<template>
   <style>
     ${FONTS}
     #root { position: absolute; inset: 0; }
     #end-mark { position: absolute; left: ${(W - mark) / 2}px; top: ${cy - mark / 2}px; width: ${mark}px; height: ${mark}px; }
     #end-mark img { width: 100%; height: 100%; display: block; }
-    #end-name { position: absolute; left: 0; width: ${W}px; top: ${cy + mark / 2 + Y.name}px; text-align: center; font-family: "Inter"; font-weight: 600; font-size: ${tall ? 104 : 120}px; line-height: 1.15; color: ${INK}; letter-spacing: -0.02em; direction: ltr; }
-    #end-tag { position: absolute; left: 0; width: ${W}px; top: ${cy + mark / 2 + Y.tag}px; text-align: center; font-family: ${DISPLAY}; font-weight: ${ar ? 700 : 600}; font-size: ${tall ? 46 : 50}px; line-height: 1.3; color: #cfc4a6; direction: ${ar ? "rtl" : "ltr"}; }
-    #end-free { position: absolute; left: 0; width: ${W}px; top: ${cy + mark / 2 + Y.free}px; text-align: center; font-family: ${DISPLAY}; font-weight: ${ar ? 700 : 600}; font-size: ${tall ? 64 : 72}px; line-height: 1.25; color: ${GOLD}; direction: ${ar ? "rtl" : "ltr"}; }
-    #end-langs { position: absolute; left: 0; width: ${W}px; top: ${cy + mark / 2 + Y.langs}px; text-align: center; font-family: "Noto Naskh Arabic", "Inter"; font-weight: 600; font-size: ${tall ? 40 : 38}px; color: ${INK}; }
-    #end-small { position: absolute; left: ${tall ? 90 : 160}px; width: ${W - (tall ? 180 : 320)}px; top: ${Y.small}px; text-align: center; font-family: ${BODY}; font-weight: ${ar ? 400 : 500}; font-size: ${tall ? 28 : 28}px; line-height: 1.5; color: #a9b8bd; direction: ${ar ? "rtl" : "ltr"}; text-wrap: balance; }
+    #end-name { position: absolute; ${col} top: ${cy + mark / 2 + Y.name}px; text-align: center; font-family: "Inter"; font-weight: 600; font-size: ${tall ? 88 : 120}px; line-height: 1.15; color: ${INK}; letter-spacing: -0.02em; direction: ltr; }
+    #end-tag { position: absolute; ${col} top: ${cy + mark / 2 + Y.tag}px; text-align: center; font-family: ${DISPLAY}; font-weight: ${ar ? 700 : 600}; font-size: ${tall ? 40 : 50}px; line-height: 1.3; color: #cfc4a6; text-wrap: balance; direction: ${ar ? "rtl" : "ltr"}; }
+    #end-free { position: absolute; ${col} top: ${cy + mark / 2 + Y.free}px; text-align: center; font-family: ${DISPLAY}; font-weight: ${ar ? 700 : 600}; font-size: ${tall ? 48 : 72}px; line-height: 1.25; color: ${GOLD}; direction: ${ar ? "rtl" : "ltr"}; }
+    #end-langs { position: absolute; ${col} top: ${cy + mark / 2 + Y.langs}px; text-align: center; font-family: "Noto Naskh Arabic", "Inter"; font-weight: 600; font-size: ${tall ? 40 : 38}px; color: ${INK}; }
+    #end-small { position: absolute; left: ${tall ? 280 : 160}px; width: ${tall ? 520 : W - 320}px; top: ${Y.small}px; text-align: center; font-family: ${BODY}; font-weight: ${ar ? 400 : 500}; font-size: 28px; line-height: 1.45; color: #a9b8bd; direction: ${ar ? "rtl" : "ltr"}; text-wrap: balance; }
     .end-w { display: inline-block; white-space: pre; }
   </style>
   <div id="root" data-composition-id="${id}" data-width="${W}" data-height="${H}">
@@ -336,18 +342,18 @@ mirror("fonts", `${ROOT}assets/fonts`);
 mirror("brand", `${ROOT}assets/brand`);
 mirror("footage", `${ROOT}footage/${lang}/${shape}`, (x) => x.endsWith(".mp4"));
 mirror("stills", `${ROOT}footage/${lang}/stills`, (x) => x.endsWith(".jpg"));
-mirror("audio", `${ROOT}build/${lang}/audio`, (x) => x === "voice.wav" || x === "bed.wav");
+mirror("audio", `${ROOT}build/${lang}/audio${sfx}`, (x) => x === "voice.wav" || x === "bed.wav");
 writeFileSync(out + "index.html", index);
 plan.scenes.forEach((s, i) => writeFileSync(out + `compositions/${s.id}.html`, s.id === "numbers" ? numbersFile(s) : s.id === "end" ? endFile(s) : sceneFile(s, i === 0)));
 writeFileSync(out + "compositions/captions.html", captionsFile);
 writeFileSync(out + "hyperframes.json", JSON.stringify({ $schema: "https://hyperframes.heygen.com/schema/hyperframes.json", registry: "https://raw.githubusercontent.com/heygen-com/hyperframes/main/registry", paths: { blocks: "compositions", components: "compositions/components", assets: "assets" }, media: { autoProxy: true } }, null, 2) + "\n");
-writeFileSync(out + "meta.json", JSON.stringify({ id: `place-walkthrough-${lang}-${shape}`, name: `place-walkthrough-${lang}-${shape}` }, null, 2) + "\n");
-writeFileSync(out + "package.json", JSON.stringify({ name: `place-walkthrough-${lang}-${shape}`, private: true, type: "module", scripts: { dev: "npx --yes hyperframes@0.9.52 preview", check: "npx --yes hyperframes@0.9.52 check", render: "npx --yes hyperframes@0.9.52 render" } }, null, 2) + "\n");
+writeFileSync(out + "meta.json", JSON.stringify({ id: `place-walkthrough-${lang}-${shape}${sfx}`, name: `place-walkthrough-${lang}-${shape}${sfx}` }, null, 2) + "\n");
+writeFileSync(out + "package.json", JSON.stringify({ name: `place-walkthrough-${lang}-${shape}${sfx}`, private: true, type: "module", scripts: { dev: "npx --yes hyperframes@0.9.52 preview", check: "npx --yes hyperframes@0.9.52 check", render: "npx --yes hyperframes@0.9.52 render" } }, null, 2) + "\n");
 
 // Subtitles for the platforms that take a file (YouTube, Facebook).
 const ts = (t) => { const ms = Math.round(t * 1000), h = Math.floor(ms / 3600000), m = Math.floor(ms / 60000) % 60, s2 = Math.floor(ms / 1000) % 60; return `${String(h).padStart(2, "0")}:${String(m).padStart(2, "0")}:${String(s2).padStart(2, "0")},${String(ms % 1000).padStart(3, "0")}`; };
 let n = 0; const srt = [];
 for (const s of plan.scenes) for (const [, cue] of Object.entries(s.cues)) srt.push(`${++n}\n${ts(s.start + cue.at)} --> ${ts(s.start + cue.at + cue.dur + 0.15)}\n${cue.show}\n`);
 mkdirSync(`${ROOT}renders`, { recursive: true });
-writeFileSync(`${ROOT}renders/islam-museum-place-walkthrough-${lang}.srt`, srt.join("\n"));
+writeFileSync(`${ROOT}renders/islam-museum-place-${cut === "full" ? "walkthrough" : cut}-${lang}.srt`, srt.join("\n"));
 console.log(`wrote ${out}  (${plan.scenes.length} scenes, ${groups.length} caption groups, ${plan.dur} s)`);
