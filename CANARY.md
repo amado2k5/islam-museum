@@ -117,6 +117,12 @@ open a new block on top with the new version and today's date.
 - **One passage in the Halal and Haram Browser no longer carries a "lawful and unlawful" label it did not earn.** In an excerpt from al-Mudawwana, Malik speaks of "the halal and the haram" meaning the person out of ihram and the person in it, where he dislikes cutting grass in the sanctuary. The browser read the two words as the lawful and the unlawful. It now reads them in their sense there; the excerpt stays on the page for the sanctuaries of Makka and Madina, without that label, and its title and summary now say what it reports. The same two words in a sentence about rulings are still found.
 ### Fixed
 - The Grand Tour's al-Khwarizmi stop lists the same sources as his record again. The record gained a VIAF source and the stop was not updated, which failed the tour test on every pull request.
+- **Kids' Wing breadcrumbs show one separator, not two.** Pages such as the reading shelf read "Kids' Wing › / › Reading shelf", because the page wrote a slash and the stylesheet drew a chevron. Only the chevron shows now.
+- **The label above the title on a Kids' Wing reading page can be read.** "Reading at your level" was dark gold on the dark blue banner, too faint to see. It now takes the banner's own white.
+- **A printed lesson no longer ends in an empty page.** A sheet of paper is as narrow as a phone, so the room the phone layout keeps for its toolbar was added at the foot of the print-out and could spill onto a blank sheet.
+- **Arabic and Urdu record pages no longer show the English word "self-identified".** The basis of a recorded faith had no label for that value, so the raw word appeared beside the Arabic or Urdu text. It now has a label in each language. No record's classification changed.
+### Removed
+- **The "More" menu no longer links to the gift shop,** which has nothing listed yet. The link in the footer and the gift-shop section of the front door stay as they are.
 
 ## v1.32.0 — 2026-11-14
 ### Added
