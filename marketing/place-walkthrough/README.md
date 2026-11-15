@@ -7,6 +7,7 @@ A narrated walkthrough of the Place map (`/ar/place/`, `/en/place/`) for social 
 | `islam-museum-place-walkthrough-en-16x9.mp4`, `-en-9x16.mp4` | 2:23 |
 | `islam-museum-place-walkthrough-ar-16x9.mp4`, `-ar-9x16.mp4` | 2:32 |
 | `islam-museum-place-walkthrough-en.srt`, `-ar.srt` | subtitles for the platforms that take a file |
+| `islam-museum-place-teaser-en-9x16.mp4`, `-ar-9x16.mp4` (and their `.srt`) | 0:36, 0:37 |
 
 ## What the film does
 
@@ -32,6 +33,15 @@ One example worked through, then the wider museum:
 | end | The mark, the name, the site's own line | islam.museum. Free, with no ads, forever |
 
 The full narration is in `script/en.json` and `script/ar.json` (`say` is what the voice reads, `show` is the caption).
+
+### The teaser
+
+A vertical cut of about 36 seconds for TikTok and Reels, made from the same recordings and the same spoken sentences, with nothing new said: the hook, the tap on Medina and its ring of 693 records, the close with the years running, and the end card. `scripts/scenes.mjs` (`TEASER`) names the part of each recording it shows; its music starts 62 seconds into the track, at a fuller passage.
+
+```bash
+node scripts/plan.mjs en teaser && node scripts/audio.mjs en teaser && node scripts/compose.mjs en tall teaser
+(cd film/en-tall-teaser && npx hyperframes check && npx hyperframes render --quality delivery --video-frame-format png -o ../../renders/islam-museum-place-teaser-en-9x16.mp4)
+```
 
 ## Every claim and where it is from
 
@@ -99,6 +109,7 @@ The bed is the museum's own track "Fourteen Centuries" (the file used is "Fourte
 ## Review notes
 
 - Storylines considered and not built: a single "one life on the map" film that follows Ibn Battuta's journey from end to end, and a fast 30-second montage with no narration. The walkthrough was chosen because the request was for a step-by-step demonstration.
-- Longest for a vertical platform: 2:23 and 2:32 are within every platform's limit, but long for TikTok and Reels. A 30 to 40 second cut of the hook, the Medina ring and the close could be made from the same footage.
+- The full films are within every platform's limit but long for TikTok and Reels (2:23 and 2:32); the teaser is the short form for those.
+- Vertical cuts: the end card and the number card sit above about 800 px from the top, where TikTok's button column begins, and `npx hyperframes check` reports no safe-area finding on them. The captions under the phone window sit between 1200 and 1318 px, inside the band the HyperFrames guide gives (168 to 1330 px) but below the checker's own stricter line, and are marked as placed there on purpose so the map above them stays uncovered.
 - `npx hyperframes check` passes with these kept on purpose: the captions file holds every caption group (one per sentence part), and the voice file is a few hundredths of a second shorter than its slot.
 - No Urdu cut.
