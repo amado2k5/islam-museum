@@ -1,0 +1,59 @@
+<template>
+  <style>
+    @font-face { font-family: "IM Inter"; font-weight: 900; src: url("assets/fonts/inter-latin-900-normal.woff2") format("woff2"); }
+    @font-face { font-family: "IM Inter"; font-weight: 500; src: url("assets/fonts/inter-latin-500-normal.woff2") format("woff2"); }
+    @font-face { font-family: "IM Serif"; font-weight: 600; src: url("assets/fonts/source-serif-4-latin-600-normal.woff2") format("woff2"); }
+    @font-face { font-family: "IM Kufi"; font-weight: 700; src: url("assets/fonts/reem-kufi-arabic-700-normal.woff2") format("woff2"); }
+    #root { position: absolute; inset: 0; font-family: "IM Inter", sans-serif; font-weight: 900; color: #f9f8f6; text-transform: uppercase; letter-spacing: -0.035em; line-height: 0.9; font-variant-numeric: tabular-nums; }
+    .clip { position: absolute; inset: 0; }
+    .abs { position: absolute; white-space: nowrap; }
+    .w { display: inline-block; white-space: pre; }
+    .rust { color: #d9765f; } .gold { color: #c5a059; }
+    .cap { position: absolute; left: 96px; bottom: 70px; font-weight: 500; font-size: 30px; letter-spacing: 0.05em; line-height: 1; color: #e6d5b8; white-space: nowrap; }
+    .tag { font-weight: 900; font-size: 40px; letter-spacing: 0.08em; line-height: 1; }
+    #hk-1-num { left: 96px; top: 250px; font-size: 380px; }
+    #hk-1-lab { left: 110px; top: 640px; font-size: 150px; color: #c5a059; }
+    #hk-2-in { left: 0; right: 0; top: 390px; text-align: center; font-size: 290px; }
+    #hk-3-lab { left: 96px; top: 150px; font-size: 120px; }
+    #hk-3-time { left: 96px; top: 290px; font-size: 250px; color: #d9765f; }
+    #hk-3-track { position: absolute; left: 96px; top: 640px; width: 1728px; height: 90px; background: rgba(249, 248, 246, 0.1); }
+    #hk-3-bar { position: absolute; left: 96px; top: 640px; width: 1027px; height: 90px; background: #d9765f; }
+    #hk-3-wall { position: absolute; left: 1816px; top: 590px; width: 8px; height: 190px; background: #f9f8f6; }
+    #hk-3-wall-lab { right: 96px; top: 800px; font-size: 44px; letter-spacing: 0.02em; text-align: right; }
+    #hk-3-warn { left: 96px; top: 800px; font-size: 64px; letter-spacing: -0.01em; color: #0a2533; background: #c5a059; padding: 14px 28px 18px; }
+  </style>
+  <div id="root" data-composition-id="hook" data-width="1920" data-height="1080">
+    <div id="hk-1" class="clip" data-start="0" data-duration="1.2">
+      <div id="hk-1-num" class="abs">202,253</div>
+      <div id="hk-1-lab" class="abs">pages</div>
+    </div>
+    <div id="hk-2" class="clip" data-start="1.2" data-duration="1.2"><div id="hk-2-in" class="abs">One build</div></div>
+    <div id="hk-3" class="clip" data-start="2.4" data-duration="2.4">
+      <div id="hk-3-lab" class="abs">The build took</div>
+      <div id="hk-3-time" class="abs">3 h 34 min</div>
+      <div id="hk-3-track"></div>
+      <div id="hk-3-bar"></div>
+      <div id="hk-3-wall"></div>
+      <div id="hk-3-wall-lab" class="abs">GitHub job limit: 6 h</div>
+      <div id="hk-3-warn" class="abs">and heading for the limit</div>
+    </div>
+  </div>
+  <script>
+    (function () {
+      const tl = gsap.timeline({ paused: true });
+      const hm = (m) => Math.floor(m / 60) + " h " + String(Math.round(m % 60)).padStart(2, "0") + " min";
+      tl.fromTo("#hk-1-num", { scale: 1.1, transformOrigin: "0% 50%" }, { scale: 1, duration: 0.5, ease: "expo.out" }, 0);
+      tl.fromTo("#hk-1-lab", { opacity: 0 }, { opacity: 1, duration: 0.1, ease: "none" }, 0.3);
+      tl.fromTo("#hk-2-in", { scale: 1.7, filter: "blur(14px)" }, { scale: 1, filter: "blur(0px)", duration: 0.26, ease: "expo.out" }, 1.2);
+      // the clock runs up with the bar
+      const el = document.getElementById("hk-3-time"), o = { m: 0 };
+      tl.fromTo(o, { m: 0 }, { m: 214, duration: 1.1, ease: "power2.out", onUpdate: () => { el.textContent = hm(o.m); } }, 2.4);
+      tl.fromTo("#hk-3-bar", { scaleX: 0, transformOrigin: "0% 50%" }, { scaleX: 1, duration: 1.1, ease: "power2.out" }, 2.4);
+      tl.fromTo("#hk-3-wall", { scaleY: 0 }, { scaleY: 1, duration: 0.2, ease: "power3.out" }, 3.1);
+      tl.fromTo("#hk-3-wall-lab", { opacity: 0 }, { opacity: 1, duration: 0.12, ease: "none" }, 3.2);
+      tl.fromTo("#hk-3-warn", { clipPath: "inset(0% 100% 0% 0%)" }, { clipPath: "inset(0% 0% 0% 0%)", duration: 0.3, ease: "power4.out" }, 3.3);
+      window.__timelines = window.__timelines || {};
+      window.__timelines["hook"] = tl;
+    })();
+  </script>
+</template>
