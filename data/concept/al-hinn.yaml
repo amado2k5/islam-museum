@@ -1,0 +1,24 @@
+id: concept/al-hinn
+class: concept
+kind: jinn
+label: { ar: "الحِنّ", en: "Al-Hinn", ur: "الحِنّ" }
+summary:
+  ar: "الحِنّ بالحاء اسم لصنف يذكره اللغويون مع الجن؛ ففي لسان العرب أنه حيّ من الجنّية أو ضرب من الجن، ونقل قول الفراء إنه خلق بين الجن والإنس {cite:lisan-al-arab-alexandria-137940-v15 scan p. 705}. وفي خبر الضحاك عن ابن عباس عند الطبري أن إبليس كان من حيّ من الملائكة يقال لهم الحِنّ خُلقوا من نار السموم، ويصحح محقق الطبري ضبط الكلمة بالحاء ويفرق بينهم وبين الجن المخلوقين من مارج من نار {cite:tafsir-tabari-shakir-v01 PDF p. 459}."
+  en: "Al-Hinn, spelled with ha', is a name for a class that the lexicographers mention beside the jinn: Lisan al-Arab calls it a clan of the jinn or a kind of jinn, and reports al-Farra' that it is a creation between the jinn and humans {cite:lisan-al-arab-alexandria-137940-v15 scan p. 705}. In al-Dahhak's report from Ibn Abbas in al-Tabari, Iblis was of a clan of angels called al-Hinn, created from the fire of the scorching wind; al-Tabari's editor corrects the spelling to ha' and distinguishes them from the jinn created from a flame of fire {cite:tafsir-tabari-shakir-v01 PDF p. 459}."
+  ur: "الحِنّ، حاء کے ساتھ، ایک صنف کا نام ہے جسے اہلِ لغت جنوں کے ساتھ ذکر کرتے ہیں؛ لسان العرب اسے جنّیہ کا ایک قبیلہ یا جن کی ایک قسم بتاتی ہے اور فراء کا قول نقل کرتی ہے کہ یہ جن اور انسان کے بیچ کی مخلوق ہے {cite:lisan-al-arab-alexandria-137940-v15 scan p. 705}۔ طبری میں ضحاک کی ابن عباس سے روایت کے مطابق ابلیس فرشتوں کے ایک قبیلے «الحِنّ» سے تھا جو لو کی آگ سے پیدا ہوا؛ طبری کے محقق لفظ کو حاء سے درست کرتے ہیں اور انہیں اس جن سے الگ بتاتے ہیں جو شعلۂ آتش سے پیدا ہوا {cite:tafsir-tabari-shakir-v01 PDF p. 459}۔"
+wings: [ideas]
+themes: [creed]
+tags: [cosmos-browser, cosmos-before-adam]
+relations:
+  - { type: related_to, target: concept/jinn, sources: [source/lisan-al-arab-alexandria-137940-v15] }
+  - { type: related_to, target: concept/earth-before-adam, sources: [source/tafsir-tabari-shakir-v01] }
+  - { type: related_to, target: person/iblis, sources: [source/tafsir-tabari-shakir-v01] }
+  - { type: related_to, target: concept/jinn-anwa, sources: [source/lisan-al-arab-alexandria-137940-v15] }
+sources: [source/tafsir-tabari-shakir-v01, source/lisan-al-arab-alexandria-137940-v15]
+provenance:
+  layer: own-research
+  source: "Tafsir al-Tabari (Shakir ed.) vol. 1 PDF pp. 459-462 with the editor's footnote on al-hinn; Lisan al-Arab vol. 15 scan p. 705; read in OCR. The pairing 'hinn and binn' was searched for and not found."
+  generated_by: "Claude Code (Sonnet 5.5 agent)"
+  model: claude-sonnet-5-5
+  run: cosmos-browser-1
+status: { review: draft, completeness: 2, generated_by: "Claude Code (Sonnet 5.5 agent)" }

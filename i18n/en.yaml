@@ -1812,6 +1812,10 @@ explore:
       title: "Magic and Magicians Browser"
       desc: "Every mention of magic and the magicians in the Qur'an, the Sunnah, the seerah and every harvested book — sorcery, soothsayers, ruqyah, the evil eye and envy — with every verse and report cited."
       menu: "Browse magic and magicians in the Qur'an and books"
+    cosmos:
+      title: "Cosmos Browser: Beings, Earlier Nations and the Secrets of the Universe"
+      desc: "What the Qur'an, the Sunnah and the books say of creatures beyond the earth, the seven heavens and earths, who held the earth before Adam, the vanished peoples and the secrets of the cosmos — every verse and report cited, every view labelled."
+      menu: "Browse beings, earlier nations and cosmic secrets"
     signs:
       title: "Signs of the Hour Browser"
       desc: "Every mention of the signs of the Hour, the Day of Judgment and all eschatology in the Qur'an, the Sunnah, the seerah and every harvested book — the major and minor signs, barzakh, resurrection, reckoning, Paradise and Hell — with every verse and report cited."
@@ -5196,6 +5200,48 @@ bayt:
     r_groups: "Groups"
     r_none: "No kinship edge to the chart yet."
     open: "Open the page"
+cosmos:
+  title: "Cosmos Browser: Beings, Earlier Nations and the Secrets of the Universe"
+  lede: "Everything the museum's sources say about what lies beyond the human story as we know it: creatures the Qur'an says God dispersed through the heavens as well as the earth, the seven heavens and the 'like of them' of the earth, who held the earth before Adam, the peoples that vanished, the people behind the barrier, and the secrets of the cosmos — the Throne, the Tablet, the Lote-tree and the keys of the unseen. Every verse, report and book passage is cited, and every view is labelled."
+  badge: Cosmos explorer
+  status: "This build holds {n} records in {s} sections; the texts are drafts until a human reads them."
+  method_title: The browser's method
+  method_note: "The sources do not speak of 'aliens' as a modern reader means the word; they speak of creatures dispersed in the heavens, of many worlds, of the jinn and angels, of earlier creation and vanished peoples. This browser gathers exactly those mentions and puts each beside the commentators who read it. It gives no verdict: where scholars differ, or a report's chain is disputed, the record says so and cites each side. Qur'an verses are chosen from a reviewed table; every other mention is found at build time by a guarded lexicon over the passage texts, so a mention in a book harvested later appears the day its passage lands."
+  api: "The whole set is available at"
+  sections_title: The browser's sections
+  filter_label: Filter cosmos records
+  filter_none: No matches.
+  empty: No cosmos records in this build yet.
+  topics:
+    beyond-earth: Creatures beyond the earth
+    many-worlds: The worlds and the seven earths
+    heavens: The heavens, orbits and stars
+    origins: The beginning of creation
+    before-adam: Who held the earth before Adam
+    lost-peoples: The vanished peoples
+    hidden-peoples: The hidden peoples
+    secrets: Secrets of the cosmos and the unseen
+  sections:
+    quran:
+      title: In the Qur'an
+      desc: "The verses on creatures dispersed through the heavens and the earth, the seven heavens and 'the like of them of the earth', the first creation, the earlier inhabitants, the peoples of 'Ad and Thamud, Gog and Magog and the barrier, and the verses on the unseen and its keys."
+    sunnah:
+      title: In the Sunnah
+      desc: "The reports on the seven earths, the heavens and their inhabitants, the beginning of creation, the sun under the Throne, and what the Prophet said of the earlier nations."
+    seerah:
+      title: In the seerah
+      desc: "What the seerah and history books carry on these themes — this section fills itself as new seerah texts with such mentions land."
+    books:
+      title: In the other books
+      desc: "Commentary, history, geography, wonders-of-creation and poetry: every harvested book beyond the Qur'an, the hadith and the seerah that speaks of these themes, and whatever comes next."
+    concepts:
+      title: The records on these themes
+      desc: "The museum's curated records: life beyond the earth in the sources, the seven earths, the earth before Adam, the vanished peoples, Gog and Magog, the Throne and the Tablet, and the questions each raises."
+  viz:
+    title: "The eight themes by section"
+    lede: "A bar for each theme, split by the corpus where its records sit. Every segment is a link to the theme's records below; a record with two themes counts in both."
+    records: "{n} records"
+    empty_theme: "No records yet"
 qudsi:
   title: "Hadith Qudsi Browser"
   lede: "A hadith qudsi is a report the Prophet relates from his Lord in words other than the Qur'an's. Here is every hadith qudsi in the six books and the Muwatta of Malik, gathered with its narrations in each collection and arranged by theme; every narration is a page in the museum."

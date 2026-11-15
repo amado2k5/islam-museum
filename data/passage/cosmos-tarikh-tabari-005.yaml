@@ -1,0 +1,25 @@
+id: passage/cosmos-tarikh-tabari-005
+class: passage
+unit: chapter
+work: work/tarikh-al-rusul-wa-al-muluk
+ref: "223"
+label:
+  ar: "تاريخ الرسل والملوك — الطبري — ص 223"
+  en: "تاريخ الرسل والملوك — الطبري — p. 223"
+text: "وولد للاوذ بن سام طسم وجديس وكان منزلهما اليمامة وولد للاوذ أيضاً عمليق … وكان منزله الحرم وأكناف مكة"
+summary:
+  ar: "يبين الطبري في أنساب ولد سام أن طسماً وجديساً كانا في اليمامة وأن عمليقاً كان منزله الحرم وأكناف مكة."
+  en: "In his genealogy of Shem's line, al-Tabari places Tasm and Jadis in al-Yamama and Amalek around the Sanctuary and the outskirts of Mecca."
+relations:
+  - { type: mentions, target: group/tasm, sources: [source/tarikh-al-tabari] }
+  - { type: mentions, target: group/jadis, sources: [source/tarikh-al-tabari] }
+  - { type: mentions, target: group/amaliq, sources: [source/tarikh-al-tabari] }
+provenance:
+  layer: own-research
+  source: "تاريخ الرسل والملوك — الطبري ص 223 — OCR على القرص المحلي، صفحة الملف رقم 223 — tareekh/tarikh-tabari/AAlexandrina-224129/book.txt"
+  generated_by: "Claude Code (Sonnet 5.5 agent)"
+  model: claude-sonnet-5-5
+  run: cosmos-browser-1
+tags: [cosmos-browser, cosmos-lost-peoples]
+sources: [source/tarikh-al-tabari]
+status: { review: draft, completeness: 1, generated_by: "Claude Code (Sonnet 5.5 agent)" }

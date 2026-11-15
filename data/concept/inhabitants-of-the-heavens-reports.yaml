@@ -1,0 +1,26 @@
+id: concept/inhabitants-of-the-heavens-reports
+class: concept
+kind: term
+label: { ar: "أخبار أهل السماوات وبنائها في الحديث", en: "Hadith reports on the heavens' inhabitants and structure", ur: "آسمانوں کے باشندوں اور ساخت کے بارے میں احادیث" }
+summary:
+  ar: "تتناول أحاديث متعددة امتلاء السماء بالملائكة الساجدين وأطيطها، وما بين السماوات من مسافات، وثقل الكرسي والعرش، والبيت المعمور ودخول سبعين ألف ملك إليه، والمعراج عبر السماوات السبع؛ وتتفاوت درجاتها عند العلماء بين الصحيحين والحسن والضعيف {cite:jami-al-tirmidhi 2312} {cite:sunan-abi-dawud 4723} {cite:sahih-al-bukhari 3207}."
+  en: "Several hadith reports speak of the sky being full of prostrating angels and groaning, the distances between the heavens, the Kursi and the Throne, the Bayt al-Ma'mur entered daily by seventy thousand angels, and the ascent through the seven heavens; scholars graded them differently, from the two Sahihs to hasan to weak {cite:jami-al-tirmidhi 2312} {cite:sunan-abi-dawud 4723} {cite:sahih-al-bukhari 3207}."
+  ur: "متعدد احادیث آسمان کے ساجد فرشتوں سے بھرے ہونے اور چرچرانے، آسمانوں کے درمیانی فاصلوں، کرسی و عرش، بیت المعمور میں روزانہ ستر ہزار فرشتوں کے داخل ہونے اور سات آسمانوں سے معراج کا ذکر کرتی ہیں؛ علما نے ان کے درجے مختلف بتائے، صحیحین سے لے کر حسن اور ضعیف تک {cite:jami-al-tirmidhi 2312} {cite:sunan-abi-dawud 4723} {cite:sahih-al-bukhari 3207}۔"
+wings: [ideas]
+themes: [creed]
+tags: [cosmos-browser, cosmos-heavens, cosmos-secrets]
+relations:
+  - { type: related_to, target: concept/al-samawat-al-sab, note: "The reports describe the seven heavens and what lies in them.", sources: [source/jami-al-tirmidhi, source/sunan-abi-dawud, source/sahih-al-bukhari] }
+  - { type: related_to, target: concept/bayt-al-mamur, note: "The house in the seventh heaven entered daily by seventy thousand angels.", sources: [source/sahih-al-bukhari, source/sahih-muslim] }
+  - { type: related_to, target: concept/kursi-allah, note: "The ring-in-a-desert report compares the heavens with the Kursi.", sources: [source/tafsir-ibn-kathir] }
+  - { type: related_to, target: concept/malaika, note: "The angels who fill the heavens in these reports.", sources: [source/jami-al-tirmidhi, source/sunan-ibn-majah] }
+  - { type: related_to, target: concept/sidrat-al-muntaha, note: "The Lote Tree reached after the seventh heaven in the ascent.", sources: [source/sahih-al-bukhari, source/sahih-muslim] }
+  - { type: related_to, target: event/isra-and-miraj, note: "The ascent through the seven heavens.", sources: [source/sahih-al-bukhari, source/sahih-muslim] }
+sources: [source/jami-al-tirmidhi, source/sunan-ibn-majah, source/sunan-abi-dawud, source/sahih-al-bukhari, source/sahih-muslim, source/tafsir-ibn-kathir, source/hadith-api-fawazahmed0]
+provenance:
+  layer: own-research
+  source: "Texts and per-scholar gradings of Tirmidhi 2312 and 3298, Ibn Majah 4190, Abu Dawud 4723 and 4724 and texts of Sahih al-Bukhari 3207 and Sahih Muslim 162 read in the hadith-api edition, 15 Nov 2026; Ibn Kathir on 2:255 (Quran.com API)"
+  generated_by: "Claude Code (Sonnet 5.5 agent)"
+  model: claude-sonnet-5-5
+  run: cosmos-browser-1
+status: { review: draft, completeness: 2, generated_by: "Claude Code (Sonnet 5.5 agent)" }

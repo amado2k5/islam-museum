@@ -1,0 +1,24 @@
+id: concept/sun-prostrates-under-the-throne
+class: concept
+kind: term
+label: { ar: "سجود الشمس تحت العرش ومستقرها", en: "The sun's prostration under the Throne and its resting place", ur: "سورج کا عرش کے نیچے سجدہ اور اس کا مستقر" }
+summary:
+  ar: "روى البخاري ومسلم عن أبي ذر أن الشمس تذهب بعد غروبها حتى تسجد تحت العرش وتستأذن في الطلوع، ثم يأتي يوم لا يُؤذن لها فتطلع من مغربها؛ واختلف الشراح في معنى المستقر وفي كيفية السجود، وأورد ابن كثير قولين في المستقر، المكاني تحت العرش والزماني إلى القيامة {cite:sahih-al-bukhari 3199} {cite:sahih-muslim 159} {cite:tafsir-ibn-kathir on 36:38}."
+  en: "Al-Bukhari and Muslim relate from Abu Dharr that after setting the sun travels until it prostrates under the Throne and asks leave to rise, until a day comes when it is not permitted and rises from its west; commentators differed on the meaning of its resting place and on how it prostrates, and Ibn Kathir gives two readings of the resting place, one of place under the Throne and one of time until the Day of Resurrection {cite:sahih-al-bukhari 3199} {cite:sahih-muslim 159} {cite:tafsir-ibn-kathir on 36:38}."
+  ur: "بخاری اور مسلم نے ابوذر سے روایت کی ہے کہ سورج غروب کے بعد چلتا ہے یہاں تک کہ عرش کے نیچے سجدہ کرتا اور طلوع کی اجازت مانگتا ہے، یہاں تک کہ ایک دن آئے گا جب اجازت نہ ملے گی اور وہ مغرب سے نکلے گا؛ شارحین نے اس کے مستقر اور سجدے کی کیفیت میں اختلاف کیا، اور ابن کثیر نے مستقر کے دو معنی ذکر کیے، مکانی یعنی عرش کے نیچے اور زمانی یعنی قیامت تک {cite:sahih-al-bukhari 3199} {cite:sahih-muslim 159} {cite:tafsir-ibn-kathir on 36:38}۔"
+wings: [ideas]
+themes: [creed, afterlife-and-eschatology]
+tags: [cosmos-browser, cosmos-heavens, cosmos-secrets]
+relations:
+  - { type: related_to, target: concept/al-arsh, note: "The sun's resting place is said to be under the Throne.", sources: [source/sahih-al-bukhari, source/sahih-muslim] }
+  - { type: related_to, target: concept/tulu-al-shams-min-al-maghrib, note: "The hadith ends with the day the sun is told to rise from its west.", sources: [source/sahih-al-bukhari, source/sahih-muslim] }
+  - { type: related_to, target: person/abu-dharr-al-ghifari, note: "The narrator of the hadith.", sources: [source/sahih-al-bukhari, source/sahih-muslim] }
+  - { type: related_to, target: person/ibn-kathir, note: "Gives two readings of the resting place.", sources: [source/tafsir-ibn-kathir] }
+sources: [source/sahih-al-bukhari, source/sahih-muslim, source/tafsir-ibn-kathir, source/quran-com-tafsir-api, source/fath-al-bari, source/sharh-sahih-muslim-al-nawawi, source/hadith-api-fawazahmed0]
+provenance:
+  layer: own-research
+  source: "Sahih al-Bukhari 3199 and Sahih Muslim 159 (hadith-api edition, 15 Nov 2026); Ibn Kathir on 36:38 and 18:86 and al-Qurtubi on 36:38 (Quran.com API); Ibn Hajar, Fath al-Bari, Kitab al-Tafsir, Surat Ya-Sin, and al-Nawawi, Sharh Muslim, on the hadith, read in the harvested OCR text on the microSD"
+  generated_by: "Claude Code (Sonnet 5.5 agent)"
+  model: claude-sonnet-5-5
+  run: cosmos-browser-1
+status: { review: draft, completeness: 2, generated_by: "Claude Code (Sonnet 5.5 agent)" }

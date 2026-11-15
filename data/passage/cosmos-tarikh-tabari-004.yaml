@@ -1,0 +1,26 @@
+id: passage/cosmos-tarikh-tabari-004
+class: passage
+unit: chapter
+work: work/tarikh-al-rusul-wa-al-muluk
+ref: "227"
+label:
+  ar: "تاريخ الرسل والملوك — الطبري — ص 227"
+  en: "تاريخ الرسل والملوك — الطبري — p. 227"
+text: "ولحقت ثمود بالحجر وما يليه فهلكوا ولحقت طسم وجديس باليمامة فهلكوا ولحقت أميم بأرض أبار فهلكوا بها وهي بين اليمامة والشحر ولا يصل إليها اليوم أحد غلبت عليها الجن"
+summary:
+  ar: "يذكر الطبري أين لحقت الأمم القديمة بعد التفرق، ويقول إن أرض أبار التي هلكت فيها أميم لا يصل إليها اليوم أحد لأن الجن غلبت عليها."
+  en: "Al-Tabari records where the ancient peoples settled and perished after the dispersal, and says no one can reach Abar, where Umaym died out, because the jinn overcame it."
+relations:
+  - { type: mentions, target: group/thamud, sources: [source/tarikh-al-tabari] }
+  - { type: mentions, target: group/tasm, sources: [source/tarikh-al-tabari] }
+  - { type: mentions, target: group/jadis, sources: [source/tarikh-al-tabari] }
+  - { type: mentions, target: concept/jinn, sources: [source/tarikh-al-tabari] }
+provenance:
+  layer: own-research
+  source: "تاريخ الرسل والملوك — الطبري ص 227 — OCR على القرص المحلي، صفحة الملف رقم 227 — tareekh/tarikh-tabari/AAlexandrina-224129/book.txt"
+  generated_by: "Claude Code (Sonnet 5.5 agent)"
+  model: claude-sonnet-5-5
+  run: cosmos-browser-1
+tags: [cosmos-browser, cosmos-lost-peoples, cosmos-hidden-peoples]
+sources: [source/tarikh-al-tabari]
+status: { review: draft, completeness: 1, generated_by: "Claude Code (Sonnet 5.5 agent)" }

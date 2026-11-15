@@ -1,0 +1,78 @@
+---
+// "The eight themes by section" (Cosmos Browser home): a bar per theme whose length is its number of records and
+// whose segments are the corpus sections the records sit in (a record with two themes counts in both). Every
+// segment is a real link to that section's list below, so the chart reads and works without JavaScript; themes with
+// no record are listed beneath, not drawn. Everything is computed at build time from lib/cosmos.ts, and the build
+// fails when the data holds a topic or section the chart cannot name (docs/site/signature-views.md, rules 1-6).
+import { ui, fmt, type Lang } from "../../lib/i18n";
+import { num } from "../../lib/nav";
+import { cosmosItems, COSMOS_TOPICS, COSMOS_SECTIONS } from "../../lib/cosmos";
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const G = (ui(lang) as any).cosmos;
+const V = G.viz;
+
+const topicName = (t: string) => { const s = G.topics?.[t]; if (!s) throw new Error(`CosmosThemes: topic ${t} has no name under cosmos.topics`); return s as string; };
+const secName = (s: string) => { const t = G.sections?.[s]?.title; if (!t) throw new Error(`CosmosThemes: section ${s} has no title`); return t as string; };
+for (const i of cosmosItems) {
+  for (const t of i.topics) if (!(COSMOS_TOPICS as readonly string[]).includes(t)) throw new Error(`CosmosThemes: ${i.node.id} carries unknown topic ${t}`);
+  if (!(COSMOS_SECTIONS as readonly string[]).includes(i.section)) throw new Error(`CosmosThemes: ${i.node.id} sits in unknown section ${i.section}`);
+}
+
+const rows = COSMOS_TOPICS.map((t) => {
+  const items = cosmosItems.filter((i) => i.topics.includes(t));
+  const segs = COSMOS_SECTIONS.map((s) => ({ s, n: items.filter((i) => i.section === s).length })).filter((x) => x.n > 0);
+  return { t, total: items.length, segs };
+});
+const drawn = rows.filter((r) => r.total > 0).sort((a, b) => b.total - a.total);
+const empty = rows.filter((r) => r.total === 0);
+const max = Math.max(1, ...drawn.map((r) => r.total));
+const home = `/${lang}/cosmos/`;
+---
+<section class="cs-themes" aria-labelledby="cs-themes-title" style="margin-top:2rem">
+  <div data-pagefind-body>
+    <h2 id="cs-themes-title">{V.title}</h2>
+    <p class="muted" style="max-width:var(--measure);margin:0 0 .8rem">{V.lede}</p>
+  </div>
+  <ul class="cs-legend ui" role="list" aria-hidden="true">
+    {COSMOS_SECTIONS.map((s) => <li><i class={`cs-sw s-${s}`}></i>{secName(s)}</li>)}
+  </ul>
+  <ol class="cs-rows" role="list">
+    {drawn.map((r) => (
+      <li class="cs-row">
+        <span class="cs-name ui">{topicName(r.t)}</span>
+        <span class="cs-bar" style={`--w:${((r.total / max) * 100).toFixed(2)}%`} role="group" aria-label={`${topicName(r.t)}: ${fmt(V.records, { n: num(r.total, lang) })}`}>
+          {r.segs.map((x) => (
+            <a class={`cs-seg s-${x.s}`} style={`flex:${x.n}`} href={`${home}#t-${x.s}`} title={`${secName(x.s)}: ${num(x.n, lang)}`}
+              aria-label={`${topicName(r.t)} · ${secName(x.s)}: ${num(x.n, lang)}`}></a>
+          ))}
+        </span>
+        <span class="cs-n ui">{num(r.total, lang)}</span>
+      </li>
+    ))}
+  </ol>
+  {empty.length > 0 && (
+    <p class="ui muted" style="margin:.6rem 0 0;font-size:.85rem">{empty.map((r) => `${topicName(r.t)} (${V.empty_theme})`).join(" · ")}</p>
+  )}
+</section>
+<style>
+  .cs-legend { display: flex; flex-wrap: wrap; gap: 6px 16px; list-style: none; padding: 0; margin: 0 0 .6rem; font-size: .82rem; }
+  .cs-legend li { display: inline-flex; align-items: center; gap: 6px; }
+  .cs-sw { display: inline-block; width: 12px; height: 12px; border-radius: 3px; }
+  .cs-rows { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; }
+  .cs-row { display: grid; grid-template-columns: minmax(120px, 220px) 1fr 3.2rem; align-items: center; gap: 10px; }
+  .cs-name { font-size: .92rem; }
+  .cs-bar { display: flex; width: var(--w); min-width: 6px; height: 26px; border-radius: 6px; overflow: hidden; gap: 2px; }
+  .cs-seg { min-width: 4px; display: block; }
+  .cs-seg:focus-visible { outline: 3px solid var(--gold, #c5a059); outline-offset: 1px; }
+  .cs-seg:hover { filter: brightness(1.15); }
+  .cs-n { text-align: end; font-variant-numeric: tabular-nums; }
+  .s-quran { background: #c5a059; }
+  .s-sunnah { background: #2a7b88; }
+  .s-seerah { background: #8e5aa8; }
+  .s-books { background: #4a6f9c; }
+  .s-concepts { background: #b0634a; }
+  @media (max-width: 560px) { .cs-row { grid-template-columns: 1fr 3rem; } .cs-name { grid-column: 1 / -1; } .cs-bar { grid-column: 1; } }
+  @media (prefers-reduced-motion: no-preference) { .cs-seg { transition: filter .15s; } }
+</style>

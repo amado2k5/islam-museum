@@ -1,0 +1,24 @@
+id: passage/cosmos-tarikh-tabari-001
+class: passage
+unit: chapter
+work: work/tarikh-al-rusul-wa-al-muluk
+ref: "87"
+label:
+  ar: "تاريخ الرسل والملوك — الطبري — ص 87"
+  en: "تاريخ الرسل والملوك — الطبري — p. 87"
+text: "وخلق الإنسان من طين فأول من سكن الأرض الجن فأفسدوا فيها وسفكوا الدماء وقتل بعضهم بعضاً قال فبعث الله إليهم إبليس في جند من الملائكة"
+summary:
+  ar: "يروي الطبري بإسناده عن ابن عباس أن أول من سكن الأرض الجن، فأفسدوا فيها فبعث الله إليهم إبليس في جند من الملائكة."
+  en: "Al-Tabari relays, with his chain, a report from Ibn Abbas that the first to dwell on the earth were the jinn, who spread corruption until God sent Iblis against them with a host of angels."
+relations:
+  - { type: mentions, target: concept/jinn, sources: [source/tarikh-al-tabari] }
+  - { type: mentions, target: person/iblis, sources: [source/tarikh-al-tabari] }
+provenance:
+  layer: own-research
+  source: "تاريخ الرسل والملوك — الطبري ص 87 — OCR على القرص المحلي، صفحة الملف رقم 87 — tareekh/tarikh-tabari/AAlexandrina-224129/book.txt"
+  generated_by: "Claude Code (Sonnet 5.5 agent)"
+  model: claude-sonnet-5-5
+  run: cosmos-browser-1
+tags: [cosmos-browser, cosmos-before-adam, cosmos-origins]
+sources: [source/tarikh-al-tabari]
+status: { review: draft, completeness: 1, generated_by: "Claude Code (Sonnet 5.5 agent)" }

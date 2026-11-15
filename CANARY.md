@@ -13,6 +13,21 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v1.34.0 — 2026-11-15
+### Added
+- **The Cosmos Browser — «متصفح الكائنات الفضائية والأمم السابقة لبني البشر وأسرار الكون».** One page, `/{ar,en,ur}/cosmos/`, gathers what the Qur'an, the Sunnah and the harvested books say about creatures beyond the earth, the seven heavens and earths, who held the earth before Adam, the vanished and hidden peoples, the beginning of creation and the secrets of the cosmos, in eight themes. Qur'an verses come from a reviewed table; every other passage is found at build time by a guarded word list, so a book harvested later appears the day its passages land. A theme chart, a filter, a landing-page card and an Explore-menu entry (under the unseen group) come with it, in all three languages. The page says plainly that the sources do not speak of "aliens" in the modern sense and gives no verdict.
+- **24 new records, each with Arabic, English and Urdu prose and cited sources:** life beyond the earth in the sources, the worlds, the seven earths, the hosts of your Lord, the earth before Adam, al-Hinn, the jinn created before man, later readings of "Adam before Adam", the Companions of al-Rass, Tubba' and his people, the Companions of the Thicket, the lost Arab peoples, readings of Iram, the Two-Horned's barrier, Gog and Magog in the hadith, al-Jassasa and Tamim al-Dari, shooting stars and the guarded heaven, creation in six days, smoke, rending and expansion, the sun under the Throne, reports on the heavens' inhabitants, modern alien and UFO claims in Islamic discourse, and two tension cards (*Is there life beyond the earth?*, *Who lived on the earth before Adam?*). Disputed reports are given with each named scholar's grading; none is endorsed.
+- **49 passages mined from the harvested books** (al-Bidaya wa-l-Nihaya, Tarikh al-Tabari, Tafsir Ibn Kathir, al-Qurtubi, al-Alusi, Qisas al-Anbiya, al-Athar al-Baqiya, Akhbar Makka and others), each a quotation of at most 40 words with its work and page marker; and 25 new source records for the editions read.
+- `/api/v1/cosmos.json`, documented in the OpenAPI file, `docs/data/README.md` and `llms.txt`; the plan (`docs/plan/59-cosmos-browser.md`) and the acceptance spec with the founder's request verbatim (`docs/engineering/51-cosmos-browser-requirements.md`) are written so a later agent can validate the feature in production.
+### Changed
+- 29 existing records (Gog and Magog, the Cave, the Trench, the Throne, Footstool, Tablet, Pen and Lote-tree, the seven heavens, `ghayb`, the Isra' and Mi'raj, 'Ad, Thamud, Saba', Iram, al-Hijr, Hud, Salih, the Two-Horned, the jinn and the celestial-body records) carry the `cosmos-browser` tags; nothing else in them changed.
+### Tests
+- `features-api.test.ts` asserts the new export: reviewed verses in, unlisted verses out, and ordinary uses of «عاد» and «سد» not mistaken for the topic.
+### Data
+- All new prose is draft until a human reads it; page numbers of the mined passages are OCR page markers, which can differ from printed pages. Nothing is live until the founder deploys.
+
+---
+
 ## v1.33.0 — 2026-11-15
 ### Added
 - **Du'a by occasion: weather, three prayers and the traveller's return.** Four more records from al-Adhkar in three languages, cited by printed page: wind, a falling star, thunder and lightning; rain; the tarawih, need and tasbih prayers; and arriving at a place and returning from travel. With these the second round is complete: 54 records, listed in the audit ledger with the pages still unread.

@@ -1,0 +1,24 @@
+id: passage/cosmos-qisas-anbiya-kisai-001
+class: passage
+unit: chapter
+work: work/qisas-al-anbiya-kisai
+ref: "18"
+label:
+  ar: "قصص الأنبياء — الكسائي — ص 18"
+  en: "قصص الأنبياء — الكسائي — p. 18"
+text: "وهي سبعة أرضين فالأولى اسمها الرمكة وتحتها الريح العقيم وقد زمت بسبعين ألف ملك وبها أهلك الله قوم عاد"
+summary:
+  ar: "يصف الكسائي في قصصه سبع أرضين لكل منها اسم وسكان، فالأولى مرتبطة بهلاك عاد؛ وهو سرد قصصي شعبي وليس حديثاً مسنداً."
+  en: "In his tales al-Kisai describes seven earths, each with a name and inhabitants, the first tied to the destruction of Ad; this is popular storytelling, not a chained hadith."
+relations:
+  - { type: mentions, target: group/aad, sources: [source/qisas-al-anbiya-kisai-kahana] }
+  - { type: mentions, target: concept/al-ard, sources: [source/qisas-al-anbiya-kisai-kahana] }
+provenance:
+  layer: own-research
+  source: "قصص الأنبياء — الكسائي ص 18 — OCR على القرص المحلي، صفحة الملف رقم 18 — seerah/qisas-anbiya-kisai/AAlexandrina-146548/book.txt"
+  generated_by: "Claude Code (Sonnet 5.5 agent)"
+  model: claude-sonnet-5-5
+  run: cosmos-browser-1
+tags: [cosmos-browser, cosmos-many-worlds, cosmos-lost-peoples]
+sources: [source/qisas-al-anbiya-kisai-kahana]
+status: { review: draft, completeness: 1, generated_by: "Claude Code (Sonnet 5.5 agent)" }
