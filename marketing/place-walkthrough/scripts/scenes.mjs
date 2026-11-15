@@ -27,3 +27,14 @@ export const SCENES = [
   { id: "end",    look: "card",   units: ["c3_0", "c3_1"], lead: 0.6, tail: 3.2, gap: { c3_0: 0.45 } },
 ];
 export const GAP = 0.32; // default silence between two sentences of a scene
+
+// The teaser: about 36 seconds cut from the same recordings and the same spoken sentences, for TikTok and Reels.
+// A scene with `src` shows part of a recording made for the full film: from `from` seconds (or from `lead` seconds
+// before the sentence `fromCue`) to `trimEnd` seconds before its end. The end card is timed afresh.
+export const TEASER = [
+  { id: "hook",  src: "hook",  look: "bleed",  from: 0, trimEnd: 0.45 },            // What happened here? ... every light is a place
+  { id: "place", src: "place", look: "window", fromCue: "d4_1", lead: 0.45, trimEnd: 0.3 }, // the tap on Medina and its ring
+  { id: "close", src: "close", look: "bleed",  from: 0.4, trimEnd: 0 },             // a whole new world ... come in
+  { id: "end",   look: "card",  units: ["c3_0", "c3_1"], lead: 0.5, tail: 1.9, gap: { c3_0: 0.45 } },
+];
+export const CUTS = { full: { musicStart: 0 }, teaser: { musicStart: 62 } };
