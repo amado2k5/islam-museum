@@ -1,0 +1,133 @@
+id: invention/mamun-meridian-degree-survey
+class: invention
+label:
+  ar: "مسح درجة خط الزوال في سهل سنجار في عهد المأمون"
+  en: "Al-Ma'mun's meridian-degree survey on the plain of Sinjar"
+  ur: "مامون کی سنجار کے میدان میں عرض البلد کی ڈگری کی پیمائش"
+names:
+  - { value: "Sinjar meridian survey", kind: alternate, lang: en }
+  - { value: "مسح سنجار للدرجة الأرضية", kind: alternate, lang: ar }
+summary:
+  ar: "مشروع قياس علمي في عهد المأمون: فريقان سارا شمالاً وجنوباً من نقطة واحدة على سهل سنجار نحو سبعين ميلاً غرب الموصل، يراقبان ارتفاع الشمس عن خط الزوال حتى تتغير درجته درجة واحدة مصححةً لتغير الميل، ويقيسان المسافات ويعيدان المسح ذهاباً وإياباً؛ فخرجت النتيجة 56 ميلاً ثم 56 وثلثي ميل للدرجة — وهو القيمة التي استعملها البيروني في حساباته {cite:mactutor-biruni-coordinates} {cite:farghani-elements-astronomy p. 316-317}."
+  en: "An Abbasid survey programme under al-Ma'mun: two parties marched north and south from one point on the plain of Sinjar about seventy miles west of Mosul, watching the sun's meridian altitude until it changed by one degree corrected for declination, measuring the ground and re-surveying on the way back; the result came out at 56 miles and then 56 2/3 miles per degree — the value al-Biruni later used in his own computations {cite:mactutor-biruni-coordinates} {cite:farghani-elements-astronomy p. 316-317}."
+  ur: "مامون کے عہد کا علمی منصوبہ: دو دستے سنجار کے میدان میں موصل سے تقریباً ستر میل مغرب ایک مقام سے شمال اور جنوب کی طرف چلے، سورج کی نصف النہاری اونچائی دیکھتے رہے یہاں تک کہ اس میں ایک ڈگری کی تبدیلی میل کی تبدیلی کے حساب سے درست ہوتے ہوئے ملی؛ انہوں نے فاصلہ ناپا اور واپسی پر دوبارہ پیمائش کی؛ نتیجہ ڈگری کے لیے 56 میل پھر 56 دو تہائی میل نکلا — وہی قیمت جو بعد میں بیرونی نے اپنے حسابوں میں استعمال کی {cite:mactutor-biruni-coordinates} {cite:farghani-elements-astronomy p. 316-317}۔"
+domain: navigation-geography
+kind: method
+disciplines: [mathematics, geography, astronomy]
+wings: [ideas]
+regions: [levant-iraq]
+periods: [period/abbasid-early]
+themes: [astronomy-and-timekeeping, geography-and-cartography]
+era:
+  origins: abbasid-golden
+  first_attested:
+    edtf: "0813/0833"
+    calendar: julian
+    precision: year
+    status: historical
+    note: "The cited accounts place the survey inside al-Ma'mun's reign (813-833 CE); none fixes a single year, so the reign interval is recorded rather than an invented date. No Hijri year is given because the sources do not give one."
+    sources: [source/mactutor-biruni-coordinates, source/farghani-elements-astronomy, source/britannica-al-khwarizmi]
+  status_today: transformed
+origin:
+  place: place/sinjar
+  context:
+    ar: "سهل سنجار في الجزيرة، نحو سبعين ميلاً غرب الموصل على ما ينقله حساب البيروني؛ سجل البلدة الموجود اليوم ما زال ينتظر التحقق من هويته مع الموضع الكلاسيكي."
+    en: "The plain of Sinjar in the Jazira, about seventy miles west of Mosul as MacTutor relays from al-Biruni's account; the existing modern-town place record still carries an unverified identification with the classical site."
+    ur: "جزیرہ میں سنجار کا میدان، بیرونی کے بیان کے مطابق ماک ٹیوٹر کے ذریعے موصل سے تقریباً ستر میل مغرب؛ موجودہ جدید قصبے کا ریکارڈ ابھی کلاسیکی مقام سے ملانے کی تصدیق کے منتظر ہے۔"
+makers:
+  - person: person/abd-allah-al-mamun
+    role: commissioner
+    note: "Ordered the new survey after finding the Greek stade's length unresolved for translators; his Muslim identity is recorded on the person record with the caliphal-biography basis."
+    sources: [source/mactutor-biruni-coordinates, source/etymological-dictionary-mamun-method]
+  - person: person/al-khwarizmi
+    role: co-inventor
+    note: "Documented participant in al-Ma'mun's project per Britannica; the primary accounts name 'a company of scholars' without listing every member, so co-inventor records shared execution of the programme, not sole authorship of degree-measurement."
+    sources: [source/britannica-al-khwarizmi, source/mactutor-biruni-coordinates]
+attribution:
+  status: improvement
+  claim:
+    ar: "تحسين على قراءة يونانية قديمة لدرجة خط الزوال ⁦(500 ستيج)⁩ بقياس عربي محلي في ذراع سوداء، لا اختراع مبدأ قياس القوس الأرضي."
+    en: "An improvement on an inherited Greek reading of the meridian degree (500 stadia) through a local measurement in black cubits, not the invention of arc measurement itself."
+    ur: "قدیم یونانی پڑھائی ⁦(500 سٹیڈیا)⁩ پر مقامی ذراع کی پیمائش کے ذریعے بہتری، زمینی قوس کی پیمائش کے اصول کی ایجاد نہیں۔"
+  basis:
+    ar: "يذكر البيروني في «Determining the Coordinates of Cities» أن المأمون قرأ في كتب يونانية أن الدرجة 500 ستيج، ثم وجد طول الستيج غير معلوم للترجمان، فأمر بمسح جديد في سهل سنجار؛ وأخرج المسح درجتين: 56 ميلاً و56 وثلثي ميل {cite:mactutor-biruni-coordinates}. وينقل الفرغاني عن أبي الفداء أن جماعة من العلماء اجتمعوا في صحراء سنجار في عهد المأمون فانقسموا فريقين شمالاً وجنوباً حتى ارتفع القطب درجة واحدة، فكان البعد 56 وثلثي ميل لبعضهم و56 بلا كسر لآخرين، وأخذ الأكبر {cite:farghani-elements-astronomy p. 316-317}."
+    en: "Al-Biruni's Coordinates account, relayed by MacTutor, has al-Ma'mun read in Greek books that a meridian degree equalled 500 stadia, then find the stade's length unresolved for the translators, so he ordered a new survey on the Sinjar plain; the survey produced two figures, 56 miles and 56 2/3 miles {cite:mactutor-biruni-coordinates}. Al-Farghani, transmitting Abu'l-Fida, reports a company of scholars gathering in the Sinjar desert in al-Ma'mun's reign, splitting north and south until the pole rose one degree, yielding 56 2/3 miles for some parties and 56 without fraction for others, the larger adopted {cite:farghani-elements-astronomy p. 316-317}."
+    ur: "بیرونی کا «Determining the Coordinates of Cities» بیان ماک ٹیوٹر کے ذریعے بتاتا ہے کہ مامون نے یونانی کتب میں پڑھا کہ نصف النہاری ڈگری 500 سٹیڈیا ہے، پھر سٹیڈیا کی لمبائی کا مترجمین کے لیے تعین نہ ہو سکا، تو اس نے سنجار کے میدان میں نئی پیمائش کا حکم دیا؛ پیمائش نے دو قدریں دیں: 56 میل اور 56 دو تہائی میل {cite:mactutor-biruni-coordinates}۔ فرغانی ابو الفدا سے نقل کرتے ہوئے بتاتے ہیں کہ مامون کے دور میں علماء کا ایک گروہ سنجار کے صحرا میں جمع ہوا، دو دستوں میں شمال و جنوب بٹا یہاں تک کہ قطب ایک ڈگری بلند ہوا، نتیجہ بعض کے لیے 56 دو تہائی اور بعض کے لیے 56 میل نکلا اور بڑی قدر اختیار کی گئی {cite:farghani-elements-astronomy p. 316-317}۔"
+  perspectives:
+    - tradition: sunni
+      id: sunni-museum-frame
+      standing: main
+      summary:
+        ar: "الإطار السني المعلن يضع البرنامج في سياقه الطبيعي: خلافة عباسية راعية للعلم، ومأمون من أعيان خلفائها المحفوظين في كتب التراجم، والبيروني وابنه المترجمين والراصدين من بيت الحكمة بغداد؛ والروايات المنقولة عن تحديد الدرجة تُعرض كما نُقلت، لا كقياس معاد اليوم."
+        en: "The museum's declared Sunni frame places the programme in its natural context: an Abbasid caliphate that patronised learning, al-Ma'mun among the caliphs preserved in the chronicles, and al-Biruni with his translated observatory staff in Baghdad's House of Wisdom; the transmitted accounts of the degree measurement are presented as transmitted, not re-measured today."
+        ur: "میوزیم کا واضح سنی سیاق اس پروگرام کو اس کے فطری تناظر میں رکھتا ہے: علم کی سرپرست عباسی خلافت، ترجمہ کی کتابوں میں محفوظ مامون، اور بیرونی اپنے مترجمین و ماہرین اور مترجم ارکان کے ساتھ بغداد کے بیت الحکمہ میں؛ ڈگری کی پیمائش کی منقول روایات جیسی منقول ہیں پیش کی جاتی ہیں، آج دوبارہ ناپی نہیں جاتیں۔"
+      sources: [source/mactutor-biruni-coordinates, source/etymological-dictionary-mamun-method, source/tabari-tarikh-abu-al-fadl]
+    - tradition: academic
+      id: survey-attested-multi-source
+      standing: main
+      summary:
+        ar: "شواهد متقاربة: البيروني ينقل عن هباشة أن خالداً أملى العدد على القاضي يحيى بن أكثم قاضي البصرة، والفرغاني ينقل رواية أبي الفداء عن انقسام فريقين ونتيجتين؛ هذا اتساق روايات متأخرة، لا سجل مرصدي مكتوب وقت الحدث."
+        en: "Convergent testimony: al-Biruni relays from Habash that Khalid dictated the figure to judge Yahya b. Aktham, chief justice of Basra, and al-Farghani transmits Abu'l-Fida's account of two parties and two figures; this is agreement among later reports, not a contemporary observational log."
+        ur: "متقارب شہادتیں: بیرونی ہبشہ سے نقل کرتے ہیں کہ خالد نے قاضی یحییٰ بن اکثم ⁦(قاضی بصرہ)⁩ کو تعداد سنائی، اور فرغانی ابو الفدا کی روایت میں دو دستے اور دو قدریں ہیں؛ یہ بعد کی روایات کا اتفاق ہے، عصری مشاہداتی ریکارڈ نہیں۔"
+      sources: [source/mactutor-biruni-coordinates, source/farghani-elements-astronomy]
+    - tradition: academic
+      id: modern-geodetic-context
+      standing: main
+      summary:
+        ar: "تقديرات حديثة تعتبر 6339.6 كم نصف قطر للأرض قيمة مأخوذة عن البيروني، مع تحفظ من دقة الرقم ووحدة الذراع؛ ولا يحول السجل القديم إلى قياس حديث."
+        en: "Modern estimates cite a 6339.6 km radius attributed to al-Biruni with cautions about the figure's accuracy and the unresolved cubit unit; the medieval record is not converted into a modern measurement here."
+        ur: "جدید تخمینیں بیرونی سے منسوب 6339.6 کلومیٹر نصف قطر بتاتی ہیں مگر اس کے دقت اور ذراع کی اکائی پر تحفظ ہے؛ قرون وسطیٰ کا ریکارڈ یہاں جدید پیمائش میں تبدیل نہیں کیا جاتا۔"
+      sources: [source/biruni-mactutor]
+precursors:
+  - external: { ar: "قراءة يونانية قديمة لدرجة خط الزوال بـ500 ستيج، وهي ما وجده المأمون في الكتب المترجمة", en: "The inherited Greek reading of a meridian degree as 500 stadia, which al-Ma'mun found in the translated books", ur: "قدیم یونانی پڑھائی جس میں نصف النہاری ڈگری 500 سٹیڈیا تھی، جو مامون کو مترجم کتب میں ملی" }
+    note: "The unresolved length of the Hellenistic stade is the explicit motive given in al-Biruni's account; the earlier arc-measurement tradition (Eratosthenes and after) is the wider background the accounts do not detail."
+    sources: [source/mactutor-biruni-coordinates]
+  - external: { ar: "قياسات أقواس سابقة من نوع إراتوستينس، كما يقابلها شرح البيروني للبديل الجبلي", en: "Earlier arc measurements of the Eratosthenes type, which al-Biruni's text contrasts with the mountain method", ur: "اراستھینیز جیسی سابق قوس کی پیمائشیں، جن کا موازنہ بیرونی کا متن پہاڑی طریقے سے کرتا ہے" }
+    note: "Precursor framing is generic: the museum record for al-Biruni's mountain-and-horizon method cites his own contrast with a surveyed terrestrial arc; no exclusive inventor of arc measurement is claimed."
+    sources: [source/biruni-tahdid-ali-translation]
+dependents:
+  - external: { ar: "اعتماد الفرغاني على 56 وثلثي ميل في حساب محيط الأرض وقطره", en: "Al-Farghani's adoption of 56 2/3 miles per degree in computing the earth's circumference and diameter", ur: "فرغانی کا زمین کے محیط اور قطر کے حساب میں 56 دو تہائی میل فی ڈگری کا استعمال" }
+    note: "The same value al-Ma'mun's survey produced is the one al-Farghani multiplies by 360 for a 20,400-mile circumference; transmission of the result, not proof of the survey's sole authorship."
+    sources: [source/farghani-elements-astronomy]
+  - external: { ar: "استعمال البيروني لقيمة 56 وثلثي ميل في حساباته اللاحقة", en: "Al-Biruni's later use of the 56 2/3 miles-per-degree value in his own computations", ur: "بیرونی کا بعد کے حسابوں میں 56 دو تہائی میل فی ڈگری قدر کا استعمال" }
+    note: "MacTutor states that al-Biruni uses the survey's second result in his own computations; the mountain-and-horizon measurement is a parallel method, not a descendant of this survey."
+    sources: [source/mactutor-biruni-coordinates]
+spread: []
+impact:
+  fields: [navigation-geography, mathematics]
+  changed:
+    ar: "حوّل مسألة «طول الستيج» غير المحسومة إلى قياس عربي محلي بالذراع، وأنتج قيمة درجة محددة استعملها جغرافيّو العالم الإسلامي في تقدير المحيط."
+    en: "Turned the unresolved question of the stade's length into a local measurement in cubits and produced a defined degree value that Islamic geographers used in estimating the circumference."
+    ur: "میل کی غیر متعین لمبائی کے سوال کو مقامی ذراع کی پیمائش میں بدل دیا اور ایک متعین ڈگری قدر پیدا کی جسے اسلامی جغرافیہ دانوں نے محیط کے تخمینے میں استعمال کیا۔"
+  history:
+    ar: "شاهد على أول مسح عربي كبير مدروس لدرجة من خط الزوال، مع تصحيح الميل وتكرار المسح؛ لا يثبت أسبقية عالمية ولا يحل محل الجيوديسيا الحديثة."
+    en: "A witness to an early large-scale Muslim meridian survey with declination correction and repeated measurement; it does not establish universal priority or replace modern geodesy."
+    ur: "میل کی تصحیح اور دوبارہ پیمائش کے ساتھ ابتدائی بڑی پیمائش کا شاہد؛ عالمی اولیت ثابت نہیں کرتا اور جدید ارض پیمائی کا متبادل نہیں ہے۔"
+  significance: 4
+  why: "Substantial documented programme with named patron, participant attestation, method detail and a numerical result reused by later authors; significance rests on that record, not on claims of firstness or modern accuracy."
+described_in: []
+examples: []
+sites: [place/sinjar]
+concepts: [concept/qiyas-al-ard]
+today:
+  form:
+    ar: "لم يبقَ أثر مادي للمسح؛ يبقى النهج — فريقان متقابلان ومراقبة زوالية وتصحيح ميل — نموذجاً تعليمياً لتاريخ القياس."
+    en: "No material trace of the survey survives; the approach — two opposed parties, meridian observation and declination correction — remains a teaching model for the history of measurement."
+    ur: "پیمائش کا کوئی مادی نشان نہیں بچا؛ طریقہ — دو روبرو دستے، نصف النہاری مشاہدہ اور میل کی تصحیح — پیمائش کی تاریخ کا تدریسی نمونہ ہے۔"
+  descendants:
+    ar: "لا يثبت البحث المقروء انتقالاً مباشراً إلى أساليب الجيوديسيا الحديثة؛ القيمة 56 وثلثي استمرت في الجداول الجغرافية الوسيطة."
+    en: "Sources read establish no direct transmission to modern geodetic methods; the 56 2/3 value persisted in medieval geographical tables."
+    ur: "پڑھے ماخذ جدید ارض پیمائی کے طریقوں تک براہ راست منتقلی ثابت نہیں کرتے؛ 56 دو تہائی قدر قرون وسطیٰ کی جغرافیائی جدولوں میں رہی۔"
+media: { image: media/sinjar-plains-balistan, diagram: media/diagram-mamun-meridian-survey }
+kids:
+  ar: "قبل ألف ومئتي سنة أراد الخليفة المأمون أن يعرف محيط الأرض بدقة. فجمع علماء في صحراء سنجار، ومشى فريق شمالاً وفريق جنوباً، وكلما ارتفع الشمس درجة واحدة قاسوا المسافة. النتيجة كانت نحو 56 ميلاً وثلثي للدرجة — رقم استخدمه العلماء بعدهم مئات السنين."
+  en: "More than a thousand years ago the caliph al-Ma'mun wanted to know Earth's size exactly. He gathered scholars on the plain of Sinjar; one team walked north and one south, and each time the sun's noon height rose by one degree they measured the ground. The answer came out near 56 and two-thirds miles per degree — a number later scholars used for centuries."
+  ur: "بارہ سو سال سے زیادہ پہلے خلیفہ مامون زمین کا حجم بالکل جاننا چاہتے تھے۔ انہوں نے سنجار کے میدان میں علماء جمع کیے؛ ایک دستہ شمال اور ایک جنوب چلا، اور جب بھی دوپہر کی سورج کی اونچائی ایک ڈگری بڑھتی وہ فاصلہ ناپتے۔ نتیجہ تقریباً 56 دو تہائی میل فی ڈگری نکلا — وہی تعداد بعد کے علماء نے صدیوں استعمال کی۔"
+sources: [source/mactutor-biruni-coordinates, source/farghani-elements-astronomy, source/britannica-al-khwarizmi, source/etymological-dictionary-mamun-method, source/biruni-mactutor, source/commons-sinjar-balistan]
+status: { review: published, completeness: 3, generated_by: "Devin drafter w2-11" }
+provenance:
+  layer: own-research
+  generated_by: "Devin drafter w2-11"
+  model: "SWE-2"
+  run: inventions-w2-11-drafting
+  source: "MacTutor Al-Biruni 'Coordinates of Cities' page read in full 2026-11-15 (account via al-Biruni quoting King & Kennedy); farghani-elements Golius 1669 pp.99-100, 162-164, 316-319 as documented in the existing concept/qiyas-al-ard record's OCR citations; Britannica participation claim via the existing event/meridian-degree-sinjar-827 record (Britannica page fetch blocked, ledger-registered); OBSPM Etymological Dictionary 'Mamun's method' entry read; Commons Sinjar plains photo inspected. No single survey year, eyewitness log or modern-unit conversion claimed."

@@ -1,0 +1,23 @@
+id: passage/bukhari-kitab-26
+class: passage
+unit: chapter
+work: work/sahih-al-bukhari
+ref: "kitab-26"
+label:
+  ar: "صحيح البخاري، كتاب العمرة"
+  en: "Sahih al-Bukhari, Book 26: `Umrah (Minor pilgrimage)"
+  ur: "صحیح بخاری، کتاب العمرۃ"
+summary:
+  ar: "القسم 26 من صحيح البخاري في تقسيم قاعدة بيانات الحديث المفتوحة التي أُخذت منها سجلات المتحف، وعنوانه «كتاب العمرة»، ويضم فيها النصوص من 1773 إلى 1805 بترقيمها. يضع المتحف تحت هذا الكتاب ما عنده من سجلات هذه النصوص."
+  en: "Book 26 of Sahih al-Bukhari (`Umrah (Minor pilgrimage)) in the division of the open hadith dataset the museum took its reports from: reports 1773 to 1805 in that dataset's numbering. The museum files its records of these reports under this book; printed editions divide and number the collection differently."
+  ur: "صحیح بخاری کی کتاب 26، عنوان «کتاب العمرۃ»، اس کھلے حدیث ڈیٹا سیٹ کی تقسیم کے مطابق جس سے میوزیم کے ریکارڈ لیے گئے: اس کی ترقیم میں روایات 1773 تا 1805۔ میوزیم ان روایات کے اپنے ریکارڈ اسی کتاب کے تحت رکھتا ہے۔"
+relations:
+  - { type: part_of, target: work/sahih-al-bukhari }
+provenance:
+  layer: own-research
+  source: "fawazahmed0/hadith-api (Unlicense), edition eng-bukhari: metadata.sections and section_details, book 26; Arabic title from AhmedBaset/hadith-json, bukhari.json, matched by the English name"
+  generated_by: "Claude Code"
+  model: claude-fable-5-2
+  run: hadith-library-books-2026-11-15
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0, source/hadith-json-ahmedbaset]
+status: { review: published, completeness: 1, generated_by: "Claude Code (claude-fable-5-2), from the dataset's own division; no report text stored" }

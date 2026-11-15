@@ -4,7 +4,8 @@
 // mention it (text from the frozen Tanzil and harvested passage records), and the other museum
 // records it links to. Everything is composed from the compiled graph at build time.
 import BaseLayout from "../../../layouts/BaseLayout.astro";
-import { ui, LANGS, type Lang } from "../../../lib/i18n";
+import { ui, LANGS, fmt, type Lang } from "../../../lib/i18n";
+import { SUBJECT_ROWS } from "../../../lib/axis";
 import { byId, href, labelOf, summaryRaw, stripNeedsSource } from "../../../lib/graph";
 import { renderProse, newHonState } from "../../../lib/markdown";
 import { messengerSubjects, relatedOf, type MessengerSubject } from "../../../lib/messengers";
@@ -79,12 +80,14 @@ const desc = stripNeedsSource(summaryRaw(n, lang)).replace(/\{cite:[^}]*\}/g, ""
       <p class="ui"><a class="chip" href={href(lang, n.id)}>{G.entity_page}</a> <a class="chip" href={`/${lang}/messengers/#subjects-title`}>{G.subjects_title}</a></p>
     </div>
 
+    <span id="by-passages"></span>
     {groups.map((g) => (
       <section aria-labelledby={`mg-${g.id}`} style="margin-top:1.6rem">
         <h2 id={`mg-${g.id}`}>{G.sections[g.id]?.title ?? G[`${g.id}_title`] ?? g.id} · {g.items.length}</h2>
+        {g.items.length > SUBJECT_ROWS && <p class="ui"><a class="chip" style="border:1px solid var(--gold)" href={`/${lang}/messengers/${n.id.split("/")[1]}/passages/${g.id}/`}>{fmt((T as any).paged.all, { n: String(g.items.length), section: G.sections[g.id]?.title ?? G[`${g.id}_title`] ?? g.id })}</a></p>}
         {g.id === "quran" ? (
           <ol role="list" style="list-style:none;padding:0;margin:0;display:grid;gap:12px">
-            {g.items.map((p) => { const a = ayah(p.node); return (
+            {g.items.slice(0, SUBJECT_ROWS).map((p) => { const a = ayah(p.node); return (
               <li class="panel" style="padding:14px 16px">
                 <p lang="ar" dir="rtl" style="font-family:var(--ar-quran);font-size:1.35rem;line-height:2.1;margin:0">{a.text}</p>
                 {a.tr && <p class="muted" style="margin:.5rem 0 0">{a.tr}</p>}
@@ -94,7 +97,7 @@ const desc = stripNeedsSource(summaryRaw(n, lang)).replace(/\{cite:[^}]*\}/g, ""
           </ol>
         ) : (
           <ol role="list" style="list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:12px">
-            {g.items.map((p) => { const h = report(p.node); return (
+            {g.items.slice(0, SUBJECT_ROWS).map((p) => { const h = report(p.node); return (
               <li class="panel" style="padding:14px 16px">
                 <p style="margin:0;font-weight:600"><a href={h.href}>{h.label}</a></p>
                 <p class="ui muted" style="margin:.15rem 0 0;font-size:.82rem" dir="auto">{h.work}{h.ref ? <bdi> · {h.ref}</bdi> : null}</p>

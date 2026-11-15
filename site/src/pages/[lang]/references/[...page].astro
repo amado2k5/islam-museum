@@ -1,0 +1,176 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { ui, LANGS, fmt, type Lang } from "../../../lib/i18n";
+import { repoPath } from "../../../lib/paths";
+import { readFileSync, readdirSync } from "node:fs";
+import { join } from "node:path";
+import { parse } from "yaml";
+
+// The landing shows every list; the books, the longest by far, show their first rows there and continue on
+// /references/books/<n>/ (audit S18: the one page was 611 KB).
+export function getStaticPaths() {
+  const bookCount = readdirSync(repoPath("data", "source")).filter((f) => f.endsWith(".yaml")).map((f) => parse(readFileSync(join(repoPath("data", "source"), f), "utf8"))).filter((r) => r?.type === "book").length;
+  const pages = Math.ceil(bookCount / 400);
+  return LANGS.flatMap((lang) => [
+    { params: { lang, page: undefined }, props: { lang, booksPage: 0 } },
+    ...Array.from({ length: pages }, (_x, k) => ({ params: { lang, page: k === 0 ? "books" : `books/${k + 1}` }, props: { lang, booksPage: k + 1 } })),
+  ]);
+}
+const { lang, booksPage } = Astro.props as { lang: Lang; booksPage: number };
+const T = ui(lang).references;
+
+// Every source record in data/source, read at build time.
+const sourceDir = repoPath("data", "source");
+// Read once a build, not once a page: the page is now several pages a language (the book list is paginated).
+const CACHE = globalThis as any;
+const records: any[] = (CACHE.__referencesRecords ??= readdirSync(sourceDir)
+  .filter((f) => f.endsWith(".yaml"))
+  .map((f) => parse(readFileSync(join(sourceDir, f), "utf8")))
+  .sort((a: any, b: any) => a.id.localeCompare(b.id)));
+const ofType = (t: string) => records.filter((r) => r.type === t);
+const authors = (r: any) => (r.author ?? []).map((a: any) => [a.given, a.family].filter(Boolean).join(" ")).join("، ");
+const year = (r: any) => r.issued?.["date-parts"]?.[0]?.[0] ?? "";
+const title = (r: any) => r.title ?? r.label?.en ?? r.id;
+
+// Every source id named anywhere under data/, to catch ids that have no record yet.
+const referenced: Set<string> = (CACHE.__referencesNamed ??= new Set<string>());
+const walk = (dir: string) => {
+  for (const e of readdirSync(dir, { withFileTypes: true })) {
+    const p = join(dir, e.name);
+    if (e.isDirectory()) walk(p);
+    else if (e.name.endsWith(".yaml")) for (const m of readFileSync(p, "utf8").matchAll(/(?<![\w/.-])source\/([a-z0-9-]+)/g)) referenced.add(m[1]);
+  }
+};
+if (referenced.size === 0) walk(repoPath("data"));
+const known = new Set(records.map((r) => r.id.replace("source/", "")));
+const unrecorded = [...referenced].filter((id) => !known.has(id)).sort();
+
+// Licensed texts and reference data, as recorded in docs/attribution.md.
+const resources = [
+  { name: "Tanzil Project (Qur'an text v1.1)", url: "https://tanzil.net", licence: "Tanzil terms of use", use: { ar: "نص القرآن في كل سجل آية، بلا تعديل", en: "The Qur'an text of every passage record, unaltered" } },
+  { name: "GeoNames", url: "https://www.geonames.org", licence: "CC BY 4.0", use: { ar: "معرّفات الأماكن والإحداثيات والأسماء البديلة", en: "Place identifiers, coordinates and alternate names" } },
+  { name: "Pleiades gazetteer", url: "https://pleiades.stoa.org", licence: "CC BY 3.0", use: { ar: "معرّفات الأماكن القديمة وأسماؤها", en: "Identifiers and ancient names of places" } },
+  { name: "Wikidata", url: "https://www.wikidata.org", licence: "CC0 1.0", use: { ar: "معرّفات وأسماء وتواريخ وعلاقات للمواد الأولى", en: "Identifiers, labels, dates and relations for seed entities" } },
+  { name: "The Metropolitan Museum of Art Open Access", url: "https://github.com/metmuseum/openaccess", licence: "CC0 1.0", use: { ar: "بيانات المقتنيات الفنية الإسلامية", en: "Object metadata from the Islamic Art department" } },
+  { name: "OpenITI Makhzan 2026.1.2", url: "https://zenodo.org/records/19861912", licence: "CC BY-NC-SA 4.0", use: { ar: "استخراج الوقائع والإحالات مع اقتباسات قصيرة، ولا يُعاد نشر النص", en: "Facts and bibliographic leads with short quotations; the text is never republished" } },
+  { name: "Wikipedia (all languages)", url: "https://www.wikipedia.org", licence: "CC BY-SA 4.0", use: { ar: "للبحث والسياق فقط، ولا تُعدّ مصدرًا", en: "Discovery and context only; never cited as a source" } },
+];
+
+// Software and libraries, with licences read from the installed packages.
+const deps = (file: string) => Object.keys(JSON.parse(readFileSync(repoPath(file), "utf8")).dependencies ?? {});
+const software = [...new Set([...deps("package.json"), ...deps("site/package.json")])].sort().map((name) => {
+  for (const base of [repoPath("site", "node_modules"), repoPath("node_modules")]) {
+    try {
+      const pkg = JSON.parse(readFileSync(join(base, name, "package.json"), "utf8"));
+      return { name, version: pkg.version, licence: typeof pkg.license === "string" ? pkg.license : pkg.license?.type ?? "" };
+    } catch {}
+  }
+  return { name, version: "", licence: "" };
+});
+
+const BOOKS_LANDING = 150, BOOKS_PER = 400; // BOOKS_PER is repeated in getStaticPaths, which cannot read this scope
+const books = ofType("book");
+const booksUrl = (n: number) => (n <= 1 ? `/${lang}/references/books/` : `/${lang}/references/books/${n}/`);
+const bookPages = Math.ceil(books.length / BOOKS_PER);
+const booksShown = booksPage === 0 ? books.slice(0, BOOKS_LANDING) : books.slice((booksPage - 1) * BOOKS_PER, booksPage * BOOKS_PER);
+const PG = (ui(lang) as any).paged;
+const dash = (v: any) => (v === undefined || v === null || v === "" ? "—" : String(v));
+---
+<BaseLayout lang={lang} title={booksPage > 0 ? `${T.title} · ${T.books}${booksPage > 1 ? ` · ${booksPage}` : ""}` : T.title} description={T.lede} path={booksPage > 0 ? booksUrl(booksPage) : `/${lang}/references/`}>
+  <div class="wrap" style="padding-block:10px 20px" data-pagefind-ignore>
+    <h1>{T.title}</h1>
+    <p style="font-size:1.2rem;max-width:var(--measure)">{T.lede}</p>
+
+    <h2 id="books">{T.books} <span class="ui muted">· {books.length}</span></h2>
+    {booksPage === 0 && books.length > BOOKS_LANDING && <p class="ui"><a class="chip" style="border:1px solid var(--gold)" href={booksUrl(1)}>{fmt(PG.all, { n: String(books.length), section: T.books })} <span class="flip" aria-hidden="true">→</span></a></p>}
+    <ol class="ui refs" start={booksPage > 0 ? (booksPage - 1) * BOOKS_PER + 1 : 1}>
+      {booksShown.map((r) => (
+        <li id={r.id.replace("/", "-")}>
+          <b>{title(r)}</b>
+          <div class="ui muted">
+            {authors(r) && <span>{T.author}: {authors(r)} · </span>}
+            {r.publisher && <span>{T.publisher}: {r.publisher} · </span>}
+            {r.edition && <span>{T.edition}: {r.edition} · </span>}
+            {year(r) && <span>{T.year}: {year(r)} · </span>}
+            {r.ISBN && <span>{T.isbn}: {r.ISBN} · </span>}
+            <span>{T.language}: {r.language}</span>
+            <span> · <code>{r.id.replace("source/", "")}</code></span>
+          </div>
+        </li>
+      ))}
+    </ol>
+    {booksPage > 0 && (
+      <nav class="ui paged-nav" aria-label={PG.nav_label} style="margin:1rem 0;display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px">
+        {booksPage > 1 ? <a class="chip" rel="prev" href={booksUrl(booksPage - 1)}>{PG.prev}</a> : null}
+        {Array.from({ length: bookPages }, (_x, n) => n + 1).map((n) => n === booksPage
+          ? <span class="chip" aria-current="page" style="border:1px solid var(--gold)">{n}</span>
+          : <a class="chip" href={booksUrl(n)} aria-label={fmt(PG.page_n, { n: String(n) })}>{n}</a>)}
+        {booksPage < bookPages ? <a class="chip" rel="next" href={booksUrl(booksPage + 1)}>{PG.next}</a> : null}
+        <a href={`/${lang}/references/#books`}>{PG.back}</a>
+      </nav>
+    )}
+    {booksPage === 0 && (<>
+
+    <h2>{T.web}</h2>
+    <ul class="ui refs">
+      {ofType("webpage").map((r) => (
+        <li>
+          <b>{title(r)}</b>
+          <div class="ui muted">
+            {r.publisher && <span>{T.publisher}: {r.publisher} · </span>}
+            {r.URL && <span>{T.url}: <a href={r.URL}>{r.URL}</a> · </span>}
+            <span>{T.licence}: {dash(r.open_access ? "open" : "")}</span>
+            <span> · <code>{r.id.replace("source/", "")}</code></span>
+          </div>
+        </li>
+      ))}
+    </ul>
+
+    <h2>{T.datasets}</h2>
+    <ul class="ui refs">
+      {ofType("dataset").map((r) => (
+        <li>
+          <b>{title(r)}</b>
+          <div class="ui muted">
+            {r.publisher && <span>{T.publisher}: {r.publisher} · </span>}
+            {r.URL && <span>{T.url}: <a href={r.URL}>{r.URL}</a> · </span>}
+            <span><code>{r.id.replace("source/", "")}</code></span>
+          </div>
+        </li>
+      ))}
+    </ul>
+
+    <h2>{T.resources}</h2>
+    <ul class="ui refs">
+      {resources.map((x) => (
+        <li>
+          <b>{x.name}</b>
+          <div class="ui muted">
+            <span>{T.licence}: {x.licence} · </span>
+            <span>{x.use[lang]} · </span>
+            <a href={x.url}>{x.url}</a>
+          </div>
+        </li>
+      ))}
+    </ul>
+
+    <h2>{T.unrecorded}</h2>
+    <p class="ui muted">{T.unrecorded_note}</p>
+    <ul class="ui refs">
+      {unrecorded.map((id) => <li><code>source/{id}</code></li>)}
+    </ul>
+
+    <h2>{T.software}</h2>
+    <ul class="ui refs">
+      {software.map((s) => (
+        <li><b>{s.name}</b> <span class="ui muted">{s.version} · {T.licence}: {dash(s.licence)}</span></li>
+      ))}
+    </ul>
+    </>)}
+  </div>
+</BaseLayout>
+
+<style>
+  .refs li { margin-block: 0 14px; }
+  .refs .muted { font-size: .9rem; }
+</style>

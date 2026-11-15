@@ -9,6 +9,7 @@ born: { edtf: "-384", calendar: gregorian, precision: year, derived: true, note:
 died: { edtf: "-322", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Stanford Encyclopedia of Philosophy" }
 relations:
   - { type: lived_in, target: place/athens, note: "The Peripatetic philosopher of Athens; flagged for review.", sources: [source/fihrist-ibn-al-nadim], confidence: medium }
+  - {type: authored, target: work/al-athar-al-ulwiyya, sources: [source/encyclopaedia-of-islam-2], note: 'Stated in the summary of work/al-athar-al-ulwiyya: "Aristotle''s Meteorology"'}
 sources: [source/fihrist-ibn-al-nadim, source/hayawan-jahiz-ilmiyya-2003-v1, source/hayawan-jahiz-ilmiyya-2003-v2]
 status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 High); enriched by Claude Code (OCR-harvest worker G)" }
 provenance:

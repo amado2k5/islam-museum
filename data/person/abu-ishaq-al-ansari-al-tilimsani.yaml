@@ -24,8 +24,8 @@ provenance:
 status:
   review: draft
   completeness: 3
-born: { edtf: "1212", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Qadi, Durrat al-Hijal; al-Zirikli, al-A'lam" }
-died: { edtf: "1298", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Qadi, Durrat al-Hijal; al-Zirikli, al-A'lam" }
+born: { edtf: "1212", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Qadi, Durrat al-Hijal; al-Zirikli, al-A'lam Agrees with Wikidata Q107356660 (P569, a statement without a reference), item revision 2541460147, read on 13 November 2026.", sources: [source/wikidata] }
+died: { edtf: "1298", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Qadi, Durrat al-Hijal; al-Zirikli, al-A'lam Agrees with Wikidata Q107356660 (P570, a statement without a reference), item revision 2541460147, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/tlemcen, note: "al-Zirikli, al-A'lam, vol. 1 pp. 33-34: born in Tlemcen", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
   - { type: lived_in, target: place/granada, note: "al-Zirikli, al-A'lam, vol. 1 pp. 33-34: three years in Granada", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }

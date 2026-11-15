@@ -10,6 +10,7 @@ periods: [period/mongol-post-mongol]
 died: { edtf: "1522", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 / Wafayat al-A'yan Confirmed on 13 November 2026 against Wikidata Q4116132 (P570, a statement with a reference), item revision 2497219448.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/marj-dabiq, confidence: low, note: "Associated with Marj Dabiq per the record's own summary text; relation type pending review.", sources: [source/shadharat-dhahab] }
+  - {type: commissioned, target: building/amir-khayrbak-complex, sources: [source/tarikh-islam-hasan-ibrahim], note: 'Stated in the summary of building/amir-khayrbak-complex: "The Amir Khayrbak funerary complex of Cairo"'}
 provenance:
   layer: own-research
   source: "شذرات الذهب لابن العماد ص 518-531"

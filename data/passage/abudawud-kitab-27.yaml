@@ -1,0 +1,23 @@
+id: passage/abudawud-kitab-27
+class: passage
+unit: chapter
+work: work/sunan-abi-dawud
+ref: "kitab-27"
+label:
+  ar: "سنن أبي داود، كتاب الأشربة"
+  en: "Sunan Abi Dawud, Book 27: Drinks (Kitab Al-Ashribah)"
+  ur: "سنن ابی داؤد، کتاب الاشربۃ"
+summary:
+  ar: "القسم 27 من سنن أبي داود في تقسيم قاعدة بيانات الحديث المفتوحة التي أُخذت منها سجلات المتحف، وعنوانه «كتاب الأشربة»، ويضم فيها النصوص من 3669 إلى 3735 بترقيمها. يضع المتحف تحت هذا الكتاب ما عنده من سجلات هذه النصوص."
+  en: "Book 27 of Sunan Abi Dawud (Drinks (Kitab Al-Ashribah)) in the division of the open hadith dataset the museum took its reports from: reports 3669 to 3735 in that dataset's numbering. The museum files its records of these reports under this book; printed editions divide and number the collection differently."
+  ur: "سنن ابی داؤد کی کتاب 27، عنوان «کتاب الاشربۃ»، اس کھلے حدیث ڈیٹا سیٹ کی تقسیم کے مطابق جس سے میوزیم کے ریکارڈ لیے گئے: اس کی ترقیم میں روایات 3669 تا 3735۔ میوزیم ان روایات کے اپنے ریکارڈ اسی کتاب کے تحت رکھتا ہے۔"
+relations:
+  - { type: part_of, target: work/sunan-abi-dawud }
+provenance:
+  layer: own-research
+  source: "fawazahmed0/hadith-api (Unlicense), edition eng-abudawud: metadata.sections and section_details, book 27; Arabic title from AhmedBaset/hadith-json, abudawud.json, matched by the English name"
+  generated_by: "Claude Code"
+  model: claude-fable-5-2
+  run: hadith-library-books-2026-11-15
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0, source/hadith-json-ahmedbaset]
+status: { review: published, completeness: 1, generated_by: "Claude Code (claude-fable-5-2), from the dataset's own division; no report text stored" }

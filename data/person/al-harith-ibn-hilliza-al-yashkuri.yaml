@@ -23,3 +23,4 @@ provenance: { layer: own-research, source: "الزوزني، شرح المعلق
 died: { edtf: "570~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam 2/154); EI2 ('al-Harith b. Hilliza')" }
 relations:
   - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/sharh-muallaqat-sab-zawzani-1921], confidence: low }
+  - {type: authored, target: work/muallaqat-al-harith-ibn-hilliza, sources: [source/sharh-muallaqat-sab-zawzani-1921], note: 'Stated in the summary of work/muallaqat-al-harith-ibn-hilliza: "The Mu''allaqa of al-Harith ibn Hilliza"'}

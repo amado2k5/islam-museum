@@ -16,3 +16,5 @@ provenance:
   source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, PDF pp. 255-256 (EI2 enrichment, batch ei2-b003 part 3bl; the article is inside the DURRANI row)"
   generated_by: "Claude Code (claude-haiku-5-5)"
 status: { review: published, completeness: 2 }
+relations:
+  - {type: located_in, target: place/najd, sources: [source/encyclopaedia-of-islam-2], note: 'Stated in the summary of place/al-aflaj: "A district of southern Nejd"'}

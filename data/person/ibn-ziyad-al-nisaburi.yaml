@@ -11,7 +11,7 @@ summary:
 wings: [people]
 regions: [persia-central-asia, levant-iraq]
 periods: [period/abbasid-fragmentation]
-born: { edtf: "852", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
+born: { edtf: "852", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar Agrees with Wikidata Q22684478 (P569, a statement without a reference), item revision 2426237313, read on 13 November 2026.", sources: [source/wikidata] }
 died: { edtf: "936", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar Confirmed on 13 November 2026 against Wikidata Q22684478 (P570, a statement with a reference), item revision 2426237313.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/khurasan, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/al-aalam] }

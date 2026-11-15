@@ -1,0 +1,23 @@
+id: concept/karawiya
+class: concept
+kind: natural
+label:
+  ar: "كراويا"
+  en: "Karawiya (caraway)"
+  ur: "کراویا"
+summary:
+  ar: "الكراويا بزر نبات معروف، تشبه أغصانه وورقه الرجلة، وقوته قريبة من الأنيسون، وهي حارة يابسة في الثانية، تطرد الرياح وتقطع القيء وتهضم، وتنفع من الفواق والخفقان."
+  en: "Karawiya is the seed of a known plant whose stems and leaves resemble purslane. Its force is close to that of anise. The book classes it as hot and dry in the second degree; it expels wind, stops vomiting that follows food, warms the stomach and helps digestion, and helps hiccup and palpitation."
+  ur: "کراویا ایک معروف پودے کا بیج ہے جس کی ٹہنیاں اور پتے رجلہ سے ملتے ہیں۔ اس کی قوت سونف کے قریب ہے۔ کتاب اسے دوسرے درجے میں گرم اور خشک بتاتی ہے؛ یہ ہوا کو خارج کرتا، کھانے کے بعد کی قے کو روکتا، معدے کو گرم اور ہضم کرتا ہے، اور ہچکی اور دھڑکن میں فائدہ دیتا ہے۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, scan pages 524, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, conception, semen and desire reports kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), lane A4"
+  model: claude-haiku-5-5
+  run: a4-canon-book2-15
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (book mining, lane A4)" }

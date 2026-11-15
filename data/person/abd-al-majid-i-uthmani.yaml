@@ -18,6 +18,7 @@ relations:
   - { type: lived_in, target: place/anatolia, note: "Only the record-level region (anatolia-balkans) is attested; broad-region edge flagged for review.", sources: [source/dawlat-uthmaniyya-salabi], confidence: low }
   - { type: child_of, target: person/mahmud-ii-uthmani, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: successor_of, target: person/mahmud-ii-uthmani, sources: [source/dawlat-uthmaniyya-salabi] }
+  - {type: commissioned, target: building/dolmabahce-palace, sources: [source/goodwin-ottoman-architecture-1971], note: 'Stated in the summary of building/dolmabahce-palace: "built for Abdül Mecit in 1844-55"'}
 external_ids:
   nomisma: "abdulmecid"
   wikidata: Q174772

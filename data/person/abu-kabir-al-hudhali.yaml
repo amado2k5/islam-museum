@@ -22,3 +22,4 @@ status: { review: published, generated_by: "Claude Code (claude-haiku-5-5)" }
 died: { edtf: "615~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isfahani, Kitab al-Aghani; al-Amidi, al-Mu'talif" }
 relations:
   - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/encyclopaedia-of-islam-2], confidence: low }
+  - {type: authored, target: work/hamasa-abu-kabir-al-hudhali-wa-laqad-sarayt, sources: [source/hamasa-abu-tammam-ed-1916], note: 'Stated in the summary of work/hamasa-abu-kabir-al-hudhali-wa-laqad-sarayt: "Abu Kabir al-Hudhali said"'}

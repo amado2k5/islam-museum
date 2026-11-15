@@ -11,7 +11,7 @@ summary:
 wings: [people]
 regions: [arabia]
 periods: [period/umayyad]
-died: { edtf: "754", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi)" }
+died: { edtf: "754", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi) Agrees with Wikidata Q12213123 (P570, a statement without a reference), item revision 2564486932, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/medina, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q35484)" }
   - { type: died_in, target: place/al-anbar, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q2829204)" }

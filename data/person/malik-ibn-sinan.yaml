@@ -8,7 +8,7 @@ gender: male
 wings: [people]
 periods: [period/pre-islamic-arabia, period/prophetic-era]
 regions: [arabia]
-died: { edtf: "625", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isti'ab" }
+died: { edtf: "625", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isti'ab Agrees with Wikidata Q22689468 (P570, a statement without a reference), item revision 2402815631, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/medina, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/uhud, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

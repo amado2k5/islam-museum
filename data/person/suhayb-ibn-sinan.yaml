@@ -17,7 +17,7 @@ story_roles:
   - { role: companion, status: tradition, note: "شاهد على أثر إسلام عمر (الرحيق ص105؛ ابن الجوزي ص13).", sources: [source/mubarakpuri-raheeq] }
 faith:
   - { value: sunni, basis: tradition, note: "Early Muslim; recorded under the museum's Sunni frame (docs/scope.md)." }
-born: { edtf: "587~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isti'ab" }
+born: { edtf: "587~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isti'ab Agrees with Wikidata Q1112992 (P569, a statement without a reference), item revision 2554202846, read on 13 November 2026.", sources: [source/wikidata] }
 died: { edtf: "0658", hijri: "0038", calendar: julian, precision: year, status: debated, derived: true, note: "Died at Medina in Shawwal 38 AH, aged seventy-three; also reported 39, and aged ninety — buried at al-Baqi' (al-Isti'ab p. 339); CE year converted from the Hijri", sources: [source/isti-ab-ibn-abd-al-barr] }
 relations:
   - { type: participated_in, target: event/islam-of-umar, role: "شهد أثر إسلامه", sources: [source/mubarakpuri-raheeq] }

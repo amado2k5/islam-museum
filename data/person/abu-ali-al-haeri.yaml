@@ -24,7 +24,7 @@ provenance:
 status:
   review: draft
   completeness: 1
-born: { edtf: "1746", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli, al-A'lam; Agha Buzurg, al-Dhari'a" }
-died: { edtf: "1801", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli, al-A'lam; Agha Buzurg, al-Dhari'a" }
+born: { edtf: "1746", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli, al-A'lam; Agha Buzurg, al-Dhari'a Agrees with Wikidata Q56676172 (P569, a statement without a reference), item revision 2550433602, read on 13 November 2026.", sources: [source/wikidata] }
+died: { edtf: "1801", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli, al-A'lam; Agha Buzurg, al-Dhari'a Agrees with Wikidata Q56676172 (P570, a statement without a reference), item revision 2550433602, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/iraq, note: "Place association from the person's nisba/name (عراقي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

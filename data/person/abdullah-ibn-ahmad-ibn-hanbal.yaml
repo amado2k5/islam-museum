@@ -27,6 +27,7 @@ relations:
   - { type: student_of, target: person/yahya-ibn-main, sources: [source/fadail-sahaba-ahmad-wasi-allah-1999] }
   - { type: sibling_of, target: person/salih-ibn-ahmad-ibn-hanbal, sources: [source/fadail-sahaba-ahmad-wasi-allah-1999] }
   - { type: lived_in, target: place/baghdad, sources: [source/fadail-sahaba-ahmad-wasi-allah-1999] }
+  - {type: authored, target: work/al-sunnah-ibn-hanbal, sources: [source/sunna-abdullah-ahmad-hamdan-1441], note: 'Stated in the summary of work/al-sunnah-ibn-hanbal: "by Abu Abd al-Rahman Abd Allah, son of Imam Ahmad ibn Hanbal"'}
 sources: [source/fadail-sahaba-ahmad-wasi-allah-1999, source/al-aalam, source/wikidata]
 external_ids:
   wikidata: Q12223448

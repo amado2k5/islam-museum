@@ -19,3 +19,6 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   run: ei2-b019
 status: { review: published, completeness: 2 }
+relations:
+  - {type: located_in, target: place/istanbul, sources: [source/encyclopaedia-of-islam-2], note: 'Stated in the summary of building/bab-i-humayun: "Topkapi Sarayi) at Istanbul"'}
+  - {type: during_reign, target: person/mehmed-ii, sources: [source/encyclopaedia-of-islam-2], note: 'Stated in the summary of building/bab-i-humayun: "the Serail wall was erected under Sultan Mehmed II"'}

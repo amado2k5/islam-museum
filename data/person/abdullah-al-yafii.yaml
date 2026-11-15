@@ -26,7 +26,7 @@ status:
   review: draft
   completeness: 3
 born: { edtf: "1298", hijri: "0698", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 4 p. 72: 698 AH = 1298 CE. Date-enrichment pass; source: Ibn Hajar (al-Durar al-Kamina) Confirmed on 13 November 2026 against Wikidata Q12223451 (P569, a statement with a reference), item revision 2558603691.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
-died: { edtf: "1367", hijri: "0768", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 4 p. 72: 768 AH = 1367 CE. Date-enrichment pass; source: Ibn Hajar (al-Durar al-Kamina)" }
+died: { edtf: "1367", hijri: "0768", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 4 p. 72: 768 AH = 1367 CE. Date-enrichment pass; source: Ibn Hajar (al-Durar al-Kamina) Agrees with Wikidata Q12223451 (P570, a statement without a reference), item revision 2558603691, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/yemen, note: "Place association from the person's nisba/name (yemeni); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
   - { type: born_in, target: place/aden, note: "Al-Zirikli, al-A'lam vol. 4 p. 72: born and raised in Aden.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }

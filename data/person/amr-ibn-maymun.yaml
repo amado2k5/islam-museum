@@ -10,10 +10,11 @@ sources: [source/tarikh-khulafa-minhaj-1434, source/wikidata]
 external_ids: { wikidata: "Q28715124" }
 status: { review: draft, completeness: 1 }
 provenance:
+  source: "the record's cited sources (source/tarikh-khulafa-minhaj-1434; source/wikidata); field added 15 November 2026"
   layer: own-research
   generated_by: "Devin (SWE-2 High)"
   extraction_flow: "Apple Vision OCR -> manual extraction"
-died: { edtf: "694", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal" }
+died: { edtf: "694", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal Agrees with Wikidata Q28715124 (P570, a statement without a reference), item revision 2551344735, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/yemen, note: "Wikidata Q805 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: lived_in, target: place/rashidun-caliphate, note: "Wikidata Q12490507 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }

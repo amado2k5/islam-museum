@@ -1,0 +1,23 @@
+id: passage/abudawud-kitab-42
+class: passage
+unit: chapter
+work: work/sunan-abi-dawud
+ref: "kitab-42"
+label:
+  ar: "سنن أبي داود، كتاب السنة"
+  en: "Sunan Abi Dawud, Book 42: Model Behavior of the Prophet (Kitab Al-Sunnah)"
+  ur: "سنن ابی داؤد، کتاب السنۃ"
+summary:
+  ar: "القسم 42 من سنن أبي داود في تقسيم قاعدة بيانات الحديث المفتوحة التي أُخذت منها سجلات المتحف، وعنوانه «كتاب السنة»، ويضم فيها النصوص من 4596 إلى 4772 بترقيمها. يضع المتحف تحت هذا الكتاب ما عنده من سجلات هذه النصوص."
+  en: "Book 42 of Sunan Abi Dawud (Model Behavior of the Prophet (Kitab Al-Sunnah)) in the division of the open hadith dataset the museum took its reports from: reports 4596 to 4772 in that dataset's numbering. The museum files its records of these reports under this book; printed editions divide and number the collection differently."
+  ur: "سنن ابی داؤد کی کتاب 42، عنوان «کتاب السنۃ»، اس کھلے حدیث ڈیٹا سیٹ کی تقسیم کے مطابق جس سے میوزیم کے ریکارڈ لیے گئے: اس کی ترقیم میں روایات 4596 تا 4772۔ میوزیم ان روایات کے اپنے ریکارڈ اسی کتاب کے تحت رکھتا ہے۔"
+relations:
+  - { type: part_of, target: work/sunan-abi-dawud }
+provenance:
+  layer: own-research
+  source: "fawazahmed0/hadith-api (Unlicense), edition eng-abudawud: metadata.sections and section_details, book 42; Arabic title from AhmedBaset/hadith-json, abudawud.json, matched by the English name"
+  generated_by: "Claude Code"
+  model: claude-fable-5-2
+  run: hadith-library-books-2026-11-15
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0, source/hadith-json-ahmedbaset]
+status: { review: published, completeness: 1, generated_by: "Claude Code (claude-fable-5-2), from the dataset's own division; no report text stored" }

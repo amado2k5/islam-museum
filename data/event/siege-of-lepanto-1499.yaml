@@ -14,6 +14,7 @@ relations:
   - { type: had_participant, target: person/bayazid-ii, role: "السلطان", sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: occurred_at, target: place/istanbul, sources: [] }
   - { type: during_reign, target: person/al-mustamsik-cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
+  - {type: occurred_at, target: place/aynabakhti, sources: [source/encyclopaedia-of-islam-2], note: 'Stated in the summary of place/aynabakhti: "was taken by the Ottomans in 1499"'}
 sides:
   - label: { ar: "جيش بايزيد الثاني", en: "Bayezid II's army" }
     commanders: [person/bayazid-ii]

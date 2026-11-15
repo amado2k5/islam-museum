@@ -34,6 +34,7 @@ relations:
   - { type: participated_in, target: event/nasai-leaves-misr-302, role: "الراحل المودِّع", sources: [source/tarikh-islam-dhahabi, source/tazkirat-al-huffaz] }
   - { type: participated_in, target: event/nasai-beating-damascus-303, role: "المعتدى عليه", sources: [source/tarikh-islam-dhahabi, source/wafayat-ayan] }
   - { type: participated_in, target: event/death-al-nasai-ramla-303, role: "المتوفَّى", sources: [source/tarikh-islam-dhahabi, source/tazkirat-al-huffaz] }
+  - {type: authored, target: work/sunan-al-kubra-nasai, sources: [source/sunan-al-kubra-nasai-arna-vol2], note: 'Stated in the summary of work/sunan-al-kubra-nasai: "Ahmad ibn Shu''ayb al-Nasa''i''s (d. 303 AH) larger collection"'}
 external_ids: { wikidata: "Q293535", openiti: "0303Nasai", viaf: "90044822" }
 sources: [source/sunan-al-nasai, source/tabaqat-shafiiyya-subki, source/tazkirat-al-huffaz, source/tarikh-islam-dhahabi, source/wafayat-ayan, source/encyclopaedia-of-islam-2, source/openiti-corpus, source/wikidata]
 provenance:

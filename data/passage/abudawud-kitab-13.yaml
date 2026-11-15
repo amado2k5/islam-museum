@@ -1,0 +1,23 @@
+id: passage/abudawud-kitab-13
+class: passage
+unit: chapter
+work: work/sunan-abi-dawud
+ref: "kitab-13"
+label:
+  ar: "سنن أبي داود، كتاب الطلاق"
+  en: "Sunan Abi Dawud, Book 13: Divorce (Kitab Al-Talaq)"
+  ur: "سنن ابی داؤد، کتاب الطلاق"
+summary:
+  ar: "القسم 13 من سنن أبي داود في تقسيم قاعدة بيانات الحديث المفتوحة التي أُخذت منها سجلات المتحف، وعنوانه «كتاب الطلاق»، ويضم فيها النصوص من 2175 إلى 2312 بترقيمها. يضع المتحف تحت هذا الكتاب ما عنده من سجلات هذه النصوص."
+  en: "Book 13 of Sunan Abi Dawud (Divorce (Kitab Al-Talaq)) in the division of the open hadith dataset the museum took its reports from: reports 2175 to 2312 in that dataset's numbering. The museum files its records of these reports under this book; printed editions divide and number the collection differently."
+  ur: "سنن ابی داؤد کی کتاب 13، عنوان «کتاب الطلاق»، اس کھلے حدیث ڈیٹا سیٹ کی تقسیم کے مطابق جس سے میوزیم کے ریکارڈ لیے گئے: اس کی ترقیم میں روایات 2175 تا 2312۔ میوزیم ان روایات کے اپنے ریکارڈ اسی کتاب کے تحت رکھتا ہے۔"
+relations:
+  - { type: part_of, target: work/sunan-abi-dawud }
+provenance:
+  layer: own-research
+  source: "fawazahmed0/hadith-api (Unlicense), edition eng-abudawud: metadata.sections and section_details, book 13; Arabic title from AhmedBaset/hadith-json, abudawud.json, matched by the English name"
+  generated_by: "Claude Code"
+  model: claude-fable-5-2
+  run: hadith-library-books-2026-11-15
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0, source/hadith-json-ahmedbaset]
+status: { review: published, completeness: 1, generated_by: "Claude Code (claude-fable-5-2), from the dataset's own division; no report text stored" }

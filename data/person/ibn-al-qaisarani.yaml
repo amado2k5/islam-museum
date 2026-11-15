@@ -11,7 +11,7 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/buyid-seljuk-fatimid-era]
-born: { edtf: "1056", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
+born: { edtf: "1056", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar Agrees with Wikidata Q4170178 (P569, a statement without a reference), item revision 2560961940, read on 13 November 2026.", sources: [source/wikidata] }
 died: { edtf: "1113", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar Confirmed on 13 November 2026 against Wikidata Q4170178 (P570, a statement with a reference), item revision 2560961940.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/jerusalem, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

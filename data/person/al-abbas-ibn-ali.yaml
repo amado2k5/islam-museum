@@ -18,7 +18,7 @@ status:
   review: published
   completeness: 3
 
-died: { edtf: "680", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
+died: { edtf: "680", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari Agrees with Wikidata Q293538 (P570, a statement without a reference), item revision 2567416148, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/medina, note: "Wikidata Q35484 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: died_in, target: place/karbala, note: "Wikidata Q199909 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }

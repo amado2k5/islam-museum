@@ -12,7 +12,7 @@ wings: [people]
 regions: [egypt-nile]
 periods: [period/gunpowder-empires]
 born: { edtf: "1455", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Sakhawi / al-Zirikli (al-A'lam) Confirmed on 13 November 2026 against Wikidata Q25454625 (P569, a statement with a reference), item revision 2568154883.", sources: [source/wikidata] }
-died: { edtf: "1512", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Sakhawi / al-Zirikli (al-A'lam)" }
+died: { edtf: "1512", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Sakhawi / al-Zirikli (al-A'lam) Agrees with Wikidata Q25454625 (P570, a statement without a reference), item revision 2568154883, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/gaza, sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q47492); al-Zirikli, al-A'lam, vol. 7 pp. 5-6: born and raised in Gaza" }
   - { type: lived_in, target: place/cairo, sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high, note: "al-Zirikli, al-A'lam, vol. 7 pp. 5-6: studied and settled in Cairo, held posts at al-Azhar" }

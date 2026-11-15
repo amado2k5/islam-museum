@@ -24,3 +24,4 @@ born: { edtf: "570~", calendar: gregorian, precision: year, derived: true, note:
 died: { edtf: "600~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam" }
 relations:
   - { type: lived_in, target: place/jazirat-al-arab, confidence: low, note: "Pre-Islamic poet of Banu Sa'd (al-Mufaddaliyyat); no specific town attested.", sources: [source/mufaddaliyyat-rahmaniyya-1926] }
+  - {type: authored, target: work/mufaddaliyyat-salama-awda-al-shabab, sources: [source/mufaddaliyyat-rahmaniyya-1926], note: 'Stated in the summary of work/mufaddaliyyat-salama-awda-al-shabab: "Salama ibn Jandal''s ode ''Youth has gone, praised"'}

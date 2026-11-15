@@ -15,7 +15,7 @@ import RoseWindow from "../../../components/sig/RoseWindow.astro";
 import { ui, LANGS, fmt, type Lang } from "../../../lib/i18n";
 import { byId, href, labelOf, stripNeedsSource } from "../../../lib/graph";
 import { num } from "../../../lib/nav";
-import { ibadatItems, IBADAT_SECTIONS, type IbadatKind, type IbadatSection, type IbadatTopic } from "../../../lib/ibadat";
+import { ibadatItems, ibadatHeadings, IBADAT_SECTIONS, type IbadatKind, type IbadatSection, type IbadatTopic } from "../../../lib/ibadat";
 import type { Node } from "../../../../scripts/build-graph";
 
 export function getStaticPaths() {
@@ -68,6 +68,15 @@ const searchText = (i: (typeof ibadatItems)[number]) =>
     </div>
 
     {paged.landing && <RoseWindow lang={lang} />}
+    {paged.landing && (
+      <section aria-labelledby="by-act" style="margin-top:2rem">
+        <h2 id="by-act">{G.axis.title}</h2>
+        <p class="muted" style="max-width:var(--measure)">{fmt(G.axis.note, { n: num(ibadatHeadings.length, lang) })}</p>
+        <ul class="ui" style="display:flex;flex-wrap:wrap;gap:6px;padding:0;margin:0;list-style:none">
+          {ibadatHeadings.map((h) => <li><a class="chip" href={`/${lang}/ibadat/act/${h.id}/`}>{G.topics?.[h.id] ?? h.id} · {num(h.items.length, lang)}</a></li>)}
+        </ul>
+      </section>
+    )}
     <DraftMark lang={lang} legend />
     <section aria-labelledby="sections-title" style="margin-top:2rem">
       <h2 id="sections-title">{G.sections_title}</h2>

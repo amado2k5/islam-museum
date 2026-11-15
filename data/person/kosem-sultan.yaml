@@ -13,10 +13,11 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
-born: { edtf: "1589~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
-died: { edtf: "1651", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
+born: { edtf: "1589~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi Agrees with Wikidata Q61127 (P569, a statement without a reference), item revision 2567700675, read on 13 November 2026.", sources: [source/wikidata] }
+died: { edtf: "1651", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi Agrees with Wikidata Q61127 (P570, a statement without a reference), item revision 2567700675, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/anatolia, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/dawlat-uthmaniyya-salabi] }
+  - {type: built, target: building/cinili-mosque-istanbul, sources: [source/goodwin-ottoman-architecture-1971], note: 'Stated in the summary of building/cinili-mosque-istanbul: "built in 1640 by the valide sultan Kösem"'}
 sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
 external_ids:
   wikidata: Q61127

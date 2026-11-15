@@ -22,7 +22,7 @@ import { QURUN_TAG, QURUN_SECTIONS, QURUN_SUBJECTS, QURUN_SUBJECT_SET, QURUN_TOP
 import { MIRACLES_TAG, MIRACLE_SECTIONS, MIRACLE_SUBJECTS, MIRACLE_SUBJECT_SET, MIRACLE_TOPIC_KIND, MIRACLE_TOPIC_SUBJECTS, miracleTopicsOf, miracleCorpusOf, miracleTagSection, type MiracleTopic } from "./miracles.js";
 import { DUA_TAG, duaCorpusOf, duaKindOf, duaOccasionOf, duaSignalsOf, duaTagSection, isDuaPassage, type DuaKind } from "./dua.js";
 import { AKHLAQ_TAG, akhlaqCorpusOf, akhlaqKindOf, akhlaqKindsOf, akhlaqSignalsOf, akhlaqTagSection, akhlaqTagTopics, akhlaqTopicsOf, akhlaqTracksOf, isAkhlaqPassage, type AkhlaqKind } from "./akhlaq.js";
-import { IBADAT_TAG, ibadatCorpusOf, ibadatKindOf, ibadatSignalsOf, ibadatTagSection, ibadatTopicsOf, isIbadatPassage, type IbadatKind } from "./ibadat.js";
+import { IBADAT_TAG, ibadatCorpusOf, ibadatKindOf, ibadatSignalsOf, ibadatTagSection, ibadatTagTopics, ibadatTopicsOf, isIbadatPassage, type IbadatKind } from "./ibadat.js";
 import { NUBUWAT_TAG, nubuwatCorpusOf, nubuwatTagSection, nubuwatTagTopics, isNubuwatPassage, nubuwatTopicsOf } from "./nubuwat.js";
 import { SAYYIAT_TAG, sayyiatCorpusOf, sayyiatKindOf, sayyiatSignalsOf, sayyiatTagSection, isSayyiatPassage, type SayyiatKind } from "./sayyiat.js";
 import { HALAL_TAG, halalCorpusOf, halalKindOf, halalSignalsOf, halalSubjectsOf, halalTagSection, isHalalPassage } from "./halal.js";
@@ -315,7 +315,7 @@ const FEATURE_EXPORTS: { file: string; feature: string; pick: (n: Node) => boole
         ? ibadatCorpusOf(n.data.work as string | undefined, byId?.get(n.data.work as string)?.data.genre as string[] | undefined, n.data.unit as string | undefined)
         : ibadatTagSection(n),
       ibadat_kind: n.class === "passage" ? ibadatKindOf(n) : null,
-      topics: n.class === "passage" ? ibadatTopicsOf(n) : [],
+      topics: n.class === "passage" ? ibadatTopicsOf(n) : ibadatTagTopics(n),
       signals: n.class === "passage" ? ibadatSignalsOf(n) : [],
     }) },
   { file: "nar.json", feature: "nar-browser",

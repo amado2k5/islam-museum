@@ -11,7 +11,7 @@ summary:
 wings: [people]
 regions: [egypt-nile]
 periods: [period/modern-era]
-born: { edtf: "1858", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam" }
+born: { edtf: "1858", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam Agrees with Wikidata Q12239760 (P569, a statement without a reference), item revision 2190990716, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/samalut, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q950924)" }
   - { type: died_in, target: place/rhoda-island, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q1094123)" }

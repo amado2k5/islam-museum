@@ -11,8 +11,8 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/modern-era]
-born: { edtf: "1882", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Bosniak biographical lexicon" }
-died: { edtf: "1918", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Bosniak biographical lexicon" }
+born: { edtf: "1882", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Bosniak biographical lexicon Agrees with Wikidata Q29578232 (P569, a statement without a reference), item revision 2567791127, read on 13 November 2026.", sources: [source/wikidata] }
+died: { edtf: "1918", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Bosniak biographical lexicon Agrees with Wikidata Q29578232 (P570, a statement without a reference), item revision 2567791127, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/zenica, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q184046)" }
 sources: [source/al-aalam]

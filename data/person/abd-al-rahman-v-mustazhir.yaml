@@ -24,8 +24,8 @@ provenance:
 status:
   review: draft
   completeness: 1
-born: { edtf: "1001", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Bayan al-Mughrib (Ibn Idhari: Caliph of Cordoba" }
-died: { edtf: "1024", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Bayan al-Mughrib (Ibn Idhari: Caliph of Cordoba" }
+born: { edtf: "1001", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Bayan al-Mughrib (Ibn Idhari: Caliph of Cordoba Agrees with Wikidata Q307458 (P569, a statement without a reference), item revision 2568631628, read on 13 November 2026.", sources: [source/wikidata] }
+died: { edtf: "1024", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Bayan al-Mughrib (Ibn Idhari: Caliph of Cordoba Agrees with Wikidata Q307458 (P570, a statement without a reference), item revision 2568631628, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: ruled_over, target: polity/umayyads-of-cordoba, sources: [source/bayan-mughrib-idhari] }
   - { type: successor_of, target: person/abd-al-rahman-iv-al-murtada, sources: [source/bayan-mughrib-idhari] }

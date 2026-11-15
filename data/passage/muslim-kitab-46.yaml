@@ -1,0 +1,23 @@
+id: passage/muslim-kitab-46
+class: passage
+unit: chapter
+work: work/sahih-muslim
+ref: "kitab-46"
+label:
+  ar: "صحيح مسلم، كتاب القدر"
+  en: "Sahih Muslim, Book 46: The Book of Destiny"
+  ur: "صحیح مسلم، کتاب القدر"
+summary:
+  ar: "القسم 46 من صحيح مسلم في تقسيم قاعدة بيانات الحديث المفتوحة التي أُخذت منها سجلات المتحف، وعنوانه «كتاب القدر»، ويضم فيها النصوص من 6723 إلى 6774 بترقيمها. يضع المتحف تحت هذا الكتاب ما عنده من سجلات هذه النصوص."
+  en: "Book 46 of Sahih Muslim (The Book of Destiny) in the division of the open hadith dataset the museum took its reports from: reports 6723 to 6774 in that dataset's numbering. The museum files its records of these reports under this book; printed editions divide and number the collection differently."
+  ur: "صحیح مسلم کی کتاب 46، عنوان «کتاب القدر»، اس کھلے حدیث ڈیٹا سیٹ کی تقسیم کے مطابق جس سے میوزیم کے ریکارڈ لیے گئے: اس کی ترقیم میں روایات 6723 تا 6774۔ میوزیم ان روایات کے اپنے ریکارڈ اسی کتاب کے تحت رکھتا ہے۔"
+relations:
+  - { type: part_of, target: work/sahih-muslim }
+provenance:
+  layer: own-research
+  source: "fawazahmed0/hadith-api (Unlicense), edition eng-muslim: metadata.sections and section_details, book 46; Arabic title from AhmedBaset/hadith-json, muslim.json, matched by the English name"
+  generated_by: "Claude Code"
+  model: claude-fable-5-2
+  run: hadith-library-books-2026-11-15
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0, source/hadith-json-ahmedbaset]
+status: { review: published, completeness: 1, generated_by: "Claude Code (claude-fable-5-2), from the dataset's own division; no report text stored" }

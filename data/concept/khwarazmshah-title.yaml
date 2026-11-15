@@ -18,3 +18,7 @@ provenance:
   model: claude-opus-5-5
   run: ocr-harvest-2026-11-04
 status: { review: published, completeness: 2 }
+relations:
+  - {type: practiced_in, target: polity/afrighid-dynasty, sources: [source/ismoilov-xorazmshohlar-tangalari-2025], note: 'Stated in the summary of concept/khwarazmshah-title: "borne by the Afrighids, Ma''munids, Altuntashids and Anushtegins"'}
+  - {type: practiced_in, target: polity/mamunid-dynasty-khwarazm, sources: [source/ismoilov-xorazmshohlar-tangalari-2025], note: 'Stated in the summary of concept/khwarazmshah-title: "borne by the Afrighids, Ma''munids, Altuntashids and Anushtegins"'}
+  - {type: practiced_in, target: polity/anushtegin-dynasty, sources: [source/ismoilov-xorazmshohlar-tangalari-2025], note: 'Stated in the summary of concept/khwarazmshah-title: "borne by the Afrighids, Ma''munids, Altuntashids and Anushtegins"'}

@@ -1,0 +1,107 @@
+id: invention/hisab-al-dawr
+class: invention
+label:
+  { ar: "حساب الدور في الوصايا", en: "Hisab al-dawr: circular reckoning for bequests", ur: "حساب الدور — وصایوں کی چکر دار گنتی" }
+names:
+  - { value: "حساب الدور", kind: alternate, lang: ar }
+  - { value: "circular reckoning in bequest problems", kind: alternate, lang: en }
+summary:
+  ar: "باب من «كتاب الوصايا» في «الجبر والمقابلة» للخوارزمي يعالج المسائل التي يتوقف فيها مقدار الوصية على مقدار التركة ويتوقف مقدار التركة على الوصية، فيجعل المجهول «شيئاً» ويتتبع ما يصير في أيدي الطرفين ثم يجبر ويقابل؛ أبوابه في طبعة القاهرة مسألة التزويج في المرض والعتق في المرض والمقرّ في الدور والسلم في المرض {cite:khwarizmi-jabr-cairo-1939 p.108} {cite:khwarizmi-jabr-cairo-1939 p.110} {cite:khwarizmi-jabr-cairo-1939 p.118} {cite:khwarizmi-jabr-cairo-1939 p.121}."
+  en: "A chapter of the Book of Bequests in al-Khwarizmi's al-Jabr wal-muqabala treating problems in which the amount of the bequest depends on the estate and the estate depends on the bequest; he makes the unknown a 'thing', traces what reaches each party's hands and then applies al-jabr and al-muqabala. Its sections in the Cairo edition are marriage in terminal illness, manumission in illness, the gift of a slave-girl in illness, and the salam contract in illness {cite:khwarizmi-jabr-cairo-1939 p.108} {cite:khwarizmi-jabr-cairo-1939 p.110} {cite:khwarizmi-jabr-cairo-1939 p.118} {cite:khwarizmi-jabr-cairo-1939 p.121}."
+  ur: "خوارزمی کے «الجبر والمقابلہ» کے کتاب الوصایا کا ایک باب ان مسائل پر ہے جن میں وصیت کی مقدار ترکہ پر اور ترکہ کی مقدار وصیت پر منحصر ہوتی ہے؛ وہ مجہول کو «شیء» بناتا ہے، دونوں فریقوں کے ہاتھوں میں پہنچنے والی رقم کا سراغ لگاتا ہے اور پھر جبر و مقابلہ کرتا ہے۔ قاہرہ ایڈیشن میں اس کے ابواب ہیں: مرضِ موت میں شادی، مرضِ موت میں آزاد کرنا، مرضِ موت میں مہرن/جاریہ کا اقرار اور مرضِ موت میں سلام {cite:khwarizmi-jabr-cairo-1939 p.108} {cite:khwarizmi-jabr-cairo-1939 p.110} {cite:khwarizmi-jabr-cairo-1939 p.118} {cite:khwarizmi-jabr-cairo-1939 p.121}۔"
+domain: mathematics
+kind: method
+disciplines: [mathematics, law]
+wings: [ideas]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+era:
+  origins: abbasid-golden
+  first_attested:
+    edtf: "0813/0833"
+    calendar: julian
+    precision: year
+    status: historical
+    derived: true
+    note: "The method appears inside the Book of Bequests of al-Jabr wal-muqabala, which gives no year; the preface names al-Ma'mun as commander of the faithful {cite:khwarizmi-jabr-cairo-1939 p. 29} and the Cairo editors give his reign as 813 to 833 CE {cite:khwarizmi-jabr-cairo-1939 p. 22}, so the range is that reign — the same dating as the parent treatise. A range cannot be written as a Hijri string, so only the EDTF range is given, marked derived."
+    sources: [source/khwarizmi-jabr-cairo-1939]
+  status_today: transformed
+origin:
+  place: place/baghdad
+  polity: polity/abbasid-caliphate
+  context:
+    ar: "بغداد في عهد المأمون؛ الخوارزمي منقطع إلى خزانة الحكمة، وكتابه «الجبر والمقابلة» ألّفه لحاجة الناس في المواريث والوصايا والتجارات ومساحة الأرضين {cite:khwarizmi-jabr-cairo-1939 p. 22} {cite:khwarizmi-jabr-cairo-1939 p. 29}."
+    en: "Baghdad under al-Ma'mun; al-Khwarizmi was attached to the treasury of wisdom, and he says he wrote his book for people's need in inheritances, bequests, trades and land measurement {cite:khwarizmi-jabr-cairo-1939 p. 22} {cite:khwarizmi-jabr-cairo-1939 p. 29}."
+    ur: "مامون کے عہد کی بغداد؛ خوارزمی خزانۂ حکمت سے وابستہ تھے، اور ان کے بقول انہوں نے اپنی کتاب لوگوں کی ضرورت کے لیے لکھی — میراث، وصیت، تجارت اور زمین کی پیمائش {cite:khwarizmi-jabr-cairo-1939 p. 22} {cite:khwarizmi-jabr-cairo-1939 p. 29}۔"
+makers:
+  - person: person/al-khwarizmi
+    role: improver
+    place: place/baghdad
+    note: "Author of the Book of Bequests inside al-Jabr wal-muqabala, written under al-Ma'mun; the circular-reckoning chapter applies his own algebra to bequest problems where estate and bequest are mutually dependent. The method is his documented procedure, not a claim to have invented algebra or Islamic inheritance law."
+    sources: [source/khwarizmi-jabr-cairo-1939]
+attribution:
+  status: improvement
+  claim:
+    ar: "وضع الخوارزمي في «كتاب الوصايا» طريقة حسابية لمسائل الوصية المتداخلة، بتطبيق الجبر والمقابلة على مجهول يجعل التركة والوصية كلتيهما تخرج منه؛ ولم يخترع بذلك الجبر ولا أحكام الوصية الفقهية التي أخذها مسلّمة."
+    en: "Al-Khwarizmi set out a calculation method for interlocking bequest problems in the Book of Bequests, applying al-jabr and al-muqabala to an unknown from which both estate and bequest come out; he did not thereby invent algebra or the legal rules of bequest, which he takes as given."
+    ur: "خوارزمی نے کتاب الوصایا میں باہم گتھی ہوئی وصیت کے مسائل کے لیے ایک حسابی طریقہ دیا، جس میں الجبر و مقابلہ ایک ایسے مجہول پر لاگو ہوتا ہے جس سے ترکہ اور وصیت دونوں نکلتے ہیں؛ اس سے انہوں نے نہ الجبر ایجاد کیا نہ وصیت کے فقہی احکام — وہ انہیں مسلم مان کر لیتے ہیں۔"
+  basis:
+    ar: "في طبعة القاهرة، تحت عنوان «حساب الدور» قبل مسائل التزويج في المرض، يأتي باب «كتاب الوصايا» وفيه مسائل يُحل فيها كل مجهول على الآخر؛ فمثلاً رجل تزوج امرأة في مرض موته على مائة درهم كلها ماله ومهر مثلها عشرة دراهم، ثم ماتت المرأة وأوصت بثلث مالها ثم مات الزوج، فيجعل وصيتها «شيئاً» ويجبر ويقابل حتى يخرج خمسة وثلاثين درهماً {cite:khwarizmi-jabr-cairo-1939 p.108} {cite:khwarizmi-jabr-cairo-1939 p.109}. وتحت العناوين «العتق في المرض» و«المقرّ في الدور» و«السلم في المرض» مسائل جارية وأعتق ومبايعات {cite:khwarizmi-jabr-cairo-1939 p.110} {cite:khwarizmi-jabr-cairo-1939 p.118} {cite:khwarizmi-jabr-cairo-1939 p.121}، ويختم الكتاب كله بمسألة من هذا الباب {cite:khwarizmi-jabr-cairo-1939 p.122}."
+    en: "In the Cairo edition, under the heading 'circular reckoning' before the problems of marriage in illness, the Book of Bequests opens with problems in which every unknown depends on another; for example a man marries a woman in his final illness for one hundred dirhams, all his wealth, whose mahr mithl is ten dirhams, then the woman dies leaving a bequest of a third of her wealth and the husband dies — he makes her bequest a 'thing', applies al-jabr and al-muqabala, and obtains thirty-five dirhams {cite:khwarizmi-jabr-cairo-1939 p.108} {cite:khwarizmi-jabr-cairo-1939 p.109}. Under the headings 'manumission in illness', 'the acknowledgement in the cycle' and 'the salam in illness' come problems of slave-girls, manumission and sales {cite:khwarizmi-jabr-cairo-1939 p.110} {cite:khwarizmi-jabr-cairo-1939 p.118} {cite:khwarizmi-jabr-cairo-1939 p.121}, and the whole book closes with a problem from this chapter {cite:khwarizmi-jabr-cairo-1939 p.122}."
+    ur: "قاہرہ ایڈیشن میں «گول گنتی» کے عنوان کے تحت مرضِ موت کی شادی کے مسائل سے پہلے کتاب الوصایا ایسے مسائل سے کھلتی ہے جن میں ہر مجہول دوسرے پر منحصر ہے؛ مثلاً ایک آدمی اپنی مرضِ موت میں ایک عورت سے سو درہم میں شادی کرتا ہے جو اس کی ساری دولت ہے، اس کے مثلِ مہر دس درہم ہیں، پھر عورت مر کر اپنی دولت کا ایک تہائی وصیت کرتی ہے اور شوہر بھی مر جاتا ہے — وہ اس کی وصیت کو «شیء» بناتا ہے، جبر و مقابلہ کرتا ہے اور پینتیس درہم نکالتا ہے {cite:khwarizmi-jabr-cairo-1939 p.108} {cite:khwarizmi-jabr-cairo-1939 p.109}۔ «مرض میں آزاد کرنا»، «دور میں اقرار» اور «مرض میں سلام» کے عنوانوں کے تحت جاریہ، آزاد کرنے اور بیع کے مسائل آتے ہیں {cite:khwarizmi-jabr-cairo-1939 p.110} {cite:khwarizmi-jabr-cairo-1939 p.118} {cite:khwarizmi-jabr-cairo-1939 p.121}، اور پوری کتاب اسی باب کے ایک مسئلے پر ختم ہوتی ہے {cite:khwarizmi-jabr-cairo-1939 p.122}۔"
+  perspectives:
+    - tradition: sunni
+      id: sunni-museum-frame
+      standing: main
+      summary:
+        ar: "الخوارزمي مسلم في كلماته هو: في مقدمة كتابه يذكر الله ويدعو على نبيه وعلى الأنبياء والمرسلين، ويسمي المأمون الإمام وأمير المؤمنين {cite:khwarizmi-jabr-cairo-1939 p. 29}، فلا تعارض في إطاره السني."
+        en: "Al-Khwarizmi is a Muslim in his own words: in his preface he invokes God, asks blessing on the Prophet and on all the prophets and messengers, and names al-Ma'mun the imam and commander of the faithful {cite:khwarizmi-jabr-cairo-1939 p. 29}, so the Sunni frame creates no tension."
+        ur: "خوارزمی اپنی ہی باتوں میں مسلمان ہیں: اپنے مقدمے میں اللہ کا ذکر، نبی پر درود اور تمام انبیاء و مرسلین کا ذکر کرتے ہیں، اور مامون کو امام اور امیر المؤمنین کہتے ہیں {cite:khwarizmi-jabr-cairo-1939 p. 29}؛ اس لیے سنی سیاق میں کوئی تعارض نہیں۔"
+      sources: [source/khwarizmi-jabr-cairo-1939]
+precursors:
+  - invention: invention/algebra
+    note: "The circular-reckoning chapter is an application inside al-Khwarizmi's own algebra: it uses the same unknown-as-thing and the same al-jabr and al-muqabala moves on bequest problems. The algebra record covers the science itself; this record covers the bequest application."
+    sources: [source/khwarizmi-jabr-cairo-1939]
+  - external: { ar: "أحكام الوصية والمعاملات في مرض الموت عند الفقهاء قبل الخوارزمي", en: "The jurists' rules of bequest and of transactions in terminal illness before al-Khwarizmi", ur: "خوارزمی سے پہلے فقہاء کے وصیت اور مرضِ موت کی عدل کے احکام" }
+    note: "The chapter takes the legal rules as given — disposals by the terminally ill treated as bequest, capped at one third of the estate — and supplies only the calculation. The fiqh itself is not this record's claim."
+    sources: [source/khwarizmi-jabr-cairo-1939]
+dependents: []
+spread: []
+impact:
+  fields: [mathematics, institutions-systems]
+  changed:
+    ar: "حوّل مسائل الوصايا المعقدة من حيرة المحاسبين إلى معادلات ذات مجهول واحد، فأظهر أن الجبر أداة عمل يومية في الدواوين والوراثة لا مجرد نظرية."
+    en: "Turned tangled bequest problems from a calculator's quandary into equations in a single unknown, showing that algebra was a working tool in chanceries and inheritances, not only a theory."
+    ur: "بہت الجھیلے ہوئے وصیائی مسائل کو ایک مجہول والی مساواتوں میں بدل دیا، اور دکھایا کہ الجبر دیوانوں اور وراثت میں روزمرہ کا اوزار تھا، محض نظریہ نہیں۔"
+  history:
+    ar: "بقيت الطريقة داخل كتاب الجبر نفسه حتى طبعة القاهرة 1939، ولا نعرف أنبوبيًا من طبّقها بعده خارج طلاب الكتاب؛ مكانتها أنها أقدم شهادة على استخدام الجبر في حسابات التركات الفعلية."
+    en: "The method survives inside the algebra book itself down to the 1939 Cairo edition; no independent later manual applying it is documented in the sources read. Its place is as the earliest surviving witness to algebra used in real estate-and-bequest reckoning."
+    ur: "طریقہ خود الجبر کی کتاب میں موجود ہے اور 1939 کی قاہرہ ایڈیشن تک پہنچا؛ پڑھے ماخذ میں اس کے بعد اسے لاگو کرنے والی کوئی آزاد کتاب معلوم نہیں۔ اس کی اہمیت یہ ہے کہ یہ وراثت کے حقیقی حساب میں الجبر کے استعمال کا قدیم ترین باقی گواہ ہے۔"
+  significance: 3
+  why: "A bounded but historically important application: the earliest surviving worked demonstration of algebra solving real inheritance problems, inside the book that founded the science; significance held at 3 because it is a chapter of an existing work rather than a standalone treatise."
+described_in: [work/al-jabr-wal-muqabala]
+examples: []
+sites: []
+concepts: [concept/hisab-al-dawr, concept/algebra, concept/wasiyya-fiqh]
+today:
+  form:
+    ar: "لا توجد أداة مادية؛ بقى الشكل في صورة مسائل محلولة في كتاب الجبر، وفي تعليمات اليوم يُحل مثلها بمعادلات أو بجداول ميراث."
+    en: "No physical object survives; the form lives as solved problems in the algebra book and, today, as equations or inheritance tables."
+    ur: "کوئی مادی چیز باقی نہیں؛ شکل الجبر کی کتاب کے حل شدہ مسائل میں اور آج مساواتوں یا میراثی جداول میں باقی ہے۔"
+  descendants:
+    ar: "لا يثبت في المصادر المقروءة نسل مباشر لهذه المسائل إلى حسابات اليوم؛ فكرة التعبير عن التركة والوصية بمجهول واحد تنتمي إلى الجبر نفسه الذي وُلد في نفس الكتاب."
+    en: "The sources read establish no direct line from these problems to today's calculations; the idea of expressing estate and bequest through one unknown belongs to the algebra born in the same book."
+    ur: "پڑھے ماخذ ان مسائل سے آج کی گنتی تک براہ راست نسل ثابت نہیں کرتے؛ ترکہ اور وصیت کو ایک مجہول سے بیان کرنے کا خیال اسی کتاب میں پیدا ہونے والے الجبر سے ہے۔"
+media: { image: media/bodleian-huntington-214-algebra, diagram: media/diagram-hisab-al-dawr }
+kids:
+  ar: "قبل مئة وعشرين سنة تقريباً، تعلّم عالم اسمه الخوارزمي طريقة جديدة لحل الألغاز العددية. في أحد أبواب كتابه كانت مسائل غريبة: رجل تزوج في مرضه ثم ماتت زوجته وأوصت بمال، فصار المال الذي يملكه يتغير حسب الوصية والوصية تتغير حسب المال. حلّها بوضع علامة استفهام على الرقم المجهول وكتابته حتى انحلّ كل شيء. هكذا صار كتابه الجبر أول كتاب يعلّم طريقة «شيء مجهول» ما زال اسمه مستعملاً اليوم."
+  en: "About twelve hundred years ago a scholar named al-Khwarizmi learned a new way to solve number puzzles. In one chapter of his book there were strange problems: a man married while dying, his wife died and left a bequest, and the money he owned changed with the bequest while the bequest changed with the money. He solved them by putting a question mark on the unknown number and writing it out until everything came clear. That is how his book became the first to teach the 'unknown thing' whose name we still use today."
+  ur: "بارہ سو سال پہلے الخوارزمی نامی عالم نے اعداد کے پہیلیاں حل کرنے کا ایک نیا طریقہ سیکھا۔ ان کی کتاب کے ایک باب میں عجیب مسائل تھے: ایک شخص اپنی موت کے قریب شادی کرتا ہے، اس کی بیوی مر کر وصیت کرتی ہے، اور اس کے پاس موجود پیسہ وصیت کے ساتھ بدلتا ہے اور وصیت اس پیسہ کے ساتھ۔ اس نے ہر چیز کو ایک «نامعلوم» کے نشان کے ساتھ لکھ کر حل کیا یہاں تک کہ سب واضح ہو گیا۔ اسی طرح ان کی کتاب پہلی بن گئی جس نے «نامعلوم چیز» کا طریقہ سکھایا — وہی نام جو آج بھی استعمال ہوتا ہے۔"
+sources: [source/khwarizmi-jabr-cairo-1939]
+status: { review: published, completeness: 2, generated_by: "Devin drafter w2-10" }
+provenance:
+  layer: own-research
+  generated_by: "Devin drafter w2-10"
+  model: "SWE-2"
+  run: inventions-w2-10-drafting
+  source: "source/khwarizmi-jabr-cairo-1939 scan pp. 22, 29, 108-122 read via the harvest-drive OCR and Arabic text on 2026-11-15; bounded to the Book of Bequests circular-reckoning chapter; no claim to invention of algebra or of inheritance law."

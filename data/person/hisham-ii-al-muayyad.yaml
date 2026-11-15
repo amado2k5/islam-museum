@@ -9,8 +9,8 @@ roles: [caliph]
 wings: [people]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [andalus-europe]
-born: { edtf: "965", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
-died: { edtf: "1013", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
+born: { edtf: "965", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 Agrees with Wikidata Q169640 (P569, a statement without a reference), item revision 2568500207, read on 13 November 2026.", sources: [source/wikidata] }
+died: { edtf: "1013", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 Agrees with Wikidata Q169640 (P570, a statement without a reference), item revision 2568500207, read on 13 November 2026.", sources: [source/wikidata] }
 story_roles:
   - { role: ruler, toward: polity/umayyads-of-cordoba, start: { edtf: "0976", calendar: julian, precision: year }, end: { edtf: "1009", calendar: julian, precision: year }, status: historical, sources: [source/bayan-mughrib-idhari, source/nafh-tib-maqqari] }
   - { role: ruler, toward: polity/umayyads-of-cordoba, start: { edtf: "1010", calendar: julian, precision: year }, end: { edtf: "1013", calendar: julian, precision: year }, status: historical, sources: [source/bayan-mughrib-idhari, source/nafh-tib-maqqari] }

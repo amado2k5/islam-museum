@@ -32,6 +32,9 @@ relations:
   - { type: participated_in, target: event/nuzhat-al-mushtaq-completed-549, role: "المؤلف", sources: [source/mawsuat-a3lam-ulama-adaba] }
   - { type: born_in, target: place/ceuta, sources: [source/mawsuat-a3lam-ulama-adaba] }
   - { type: authored, target: work/nuzhat-al-mushtaq }
+  - {type: wrote_about, target: place/al-manara-iskandariyya, sources: [source/nuzhat-al-mushtaq-2002], note: 'Stated in the summary of place/al-manara-iskandariyya: "Al-Idrisi gives its height as about three hundred cubits"'}
+  - {type: wrote_about, target: place/al-masalla-iskandariyya, sources: [source/nuzhat-al-mushtaq-2002], note: 'Stated in the summary of place/al-masalla-iskandariyya: "al-Idrisi reports from informants"'}
+  - {type: wrote_about, target: place/jabal-awras, sources: [source/nuzhat-al-mushtaq-2002], note: 'Stated in the summary of place/jabal-awras: "al-Idrisi compares its shape to a letter"'}
 story_roles:
   - { role: scientist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
 sources: [source/nuzhat-al-mushtaq-2002, source/mawsuat-a3lam-ulama-adaba, source/tdv-idrisi-serif]

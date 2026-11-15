@@ -1,0 +1,23 @@
+id: passage/bukhari-kitab-11
+class: passage
+unit: chapter
+work: work/sahih-al-bukhari
+ref: "kitab-11"
+label:
+  ar: "صحيح البخاري، كتاب الجمعة"
+  en: "Sahih al-Bukhari, Book 11: Friday Prayer"
+  ur: "صحیح بخاری، کتاب الجمعۃ"
+summary:
+  ar: "القسم 11 من صحيح البخاري في تقسيم قاعدة بيانات الحديث المفتوحة التي أُخذت منها سجلات المتحف، وعنوانه «كتاب الجمعة»، ويضم فيها النصوص من 876 إلى 941 بترقيمها. يضع المتحف تحت هذا الكتاب ما عنده من سجلات هذه النصوص."
+  en: "Book 11 of Sahih al-Bukhari (Friday Prayer) in the division of the open hadith dataset the museum took its reports from: reports 876 to 941 in that dataset's numbering. The museum files its records of these reports under this book; printed editions divide and number the collection differently."
+  ur: "صحیح بخاری کی کتاب 11، عنوان «کتاب الجمعۃ»، اس کھلے حدیث ڈیٹا سیٹ کی تقسیم کے مطابق جس سے میوزیم کے ریکارڈ لیے گئے: اس کی ترقیم میں روایات 876 تا 941۔ میوزیم ان روایات کے اپنے ریکارڈ اسی کتاب کے تحت رکھتا ہے۔"
+relations:
+  - { type: part_of, target: work/sahih-al-bukhari }
+provenance:
+  layer: own-research
+  source: "fawazahmed0/hadith-api (Unlicense), edition eng-bukhari: metadata.sections and section_details, book 11; Arabic title from AhmedBaset/hadith-json, bukhari.json, matched by the English name"
+  generated_by: "Claude Code"
+  model: claude-fable-5-2
+  run: hadith-library-books-2026-11-15
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0, source/hadith-json-ahmedbaset]
+status: { review: published, completeness: 1, generated_by: "Claude Code (claude-fable-5-2), from the dataset's own division; no report text stored" }

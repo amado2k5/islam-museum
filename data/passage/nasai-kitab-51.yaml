@@ -1,0 +1,23 @@
+id: passage/nasai-kitab-51
+class: passage
+unit: chapter
+work: work/sunan-al-nasai
+ref: "kitab-51"
+label:
+  ar: "سنن النسائي، كتاب الأشربة"
+  en: "Sunan al-Nasa'i, Book 51: The Book of Drinks"
+  ur: "سنن نسائی، کتاب الاشربۃ"
+summary:
+  ar: "القسم 51 من سنن النسائي في تقسيم قاعدة بيانات الحديث المفتوحة التي أُخذت منها سجلات المتحف، وعنوانه «كتاب الأشربة»، ويضم فيها النصوص من 5540 إلى 5758 بترقيمها. يضع المتحف تحت هذا الكتاب ما عنده من سجلات هذه النصوص."
+  en: "Book 51 of Sunan al-Nasa'i (The Book of Drinks) in the division of the open hadith dataset the museum took its reports from: reports 5540 to 5758 in that dataset's numbering. The museum files its records of these reports under this book; printed editions divide and number the collection differently."
+  ur: "سنن نسائی کی کتاب 51، عنوان «کتاب الاشربۃ»، اس کھلے حدیث ڈیٹا سیٹ کی تقسیم کے مطابق جس سے میوزیم کے ریکارڈ لیے گئے: اس کی ترقیم میں روایات 5540 تا 5758۔ میوزیم ان روایات کے اپنے ریکارڈ اسی کتاب کے تحت رکھتا ہے۔"
+relations:
+  - { type: part_of, target: work/sunan-al-nasai }
+provenance:
+  layer: own-research
+  source: "fawazahmed0/hadith-api (Unlicense), edition eng-nasai: metadata.sections and section_details, book 51; Arabic title from AhmedBaset/hadith-json, nasai.json, matched by the English name"
+  generated_by: "Claude Code"
+  model: claude-fable-5-2
+  run: hadith-library-books-2026-11-15
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0, source/hadith-json-ahmedbaset]
+status: { review: published, completeness: 1, generated_by: "Claude Code (claude-fable-5-2), from the dataset's own division; no report text stored" }

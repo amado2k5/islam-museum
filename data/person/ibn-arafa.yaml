@@ -11,8 +11,8 @@ summary:
 wings: [people]
 regions: [maghreb]
 periods: [period/mongol-post-mongol]
-born: { edtf: "1316", hijri: "0716", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 7 p. 43: 716 AH. Date-enrichment pass; source: EI2" }
-died: { edtf: "1401", hijri: "0803", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 7 p. 43: 803 AH (printed with 1400 CE; 803 AH runs from September 1400 to August 1401, so the card's 1401 is kept; the entry also reports a tomb inscription saying 800 AH). Date-enrichment pass; source: EI2" }
+born: { edtf: "1316", hijri: "0716", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 7 p. 43: 716 AH. Date-enrichment pass; source: EI2 Agrees with Wikidata Q3147436 (P569, a statement without a reference), item revision 2567405395, read on 13 November 2026.", sources: [source/wikidata] }
+died: { edtf: "1401", hijri: "0803", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 7 p. 43: 803 AH (printed with 1400 CE; 803 AH runs from September 1400 to August 1401, so the card's 1401 is kept; the entry also reports a tomb inscription saying 800 AH). Date-enrichment pass; source: EI2 Agrees with Wikidata Q3147436 (P570, a statement without a reference), item revision 2567405395, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/tunis, note: "Al-Zirikli, al-A'lam vol. 7 p. 43: born in Tunis.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }
   - { type: died_in, target: place/tunis, note: "Al-Zirikli, al-A'lam vol. 7 p. 43: died in Tunis.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }

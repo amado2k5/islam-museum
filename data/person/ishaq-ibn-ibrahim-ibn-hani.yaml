@@ -11,8 +11,8 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
-born: { edtf: "833", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tabaqat al-Hanabila / Ibn Abi Ya'la" }
-died: { edtf: "888", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tabaqat al-Hanabila / Ibn Abi Ya'la" }
+born: { edtf: "833", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tabaqat al-Hanabila / Ibn Abi Ya'la Agrees with Wikidata Q126423759 (P569, a statement without a reference), item revision 2302876884, read on 13 November 2026.", sources: [source/wikidata] }
+died: { edtf: "888", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tabaqat al-Hanabila / Ibn Abi Ya'la Agrees with Wikidata Q126423759 (P570, a statement without a reference), item revision 2302876884, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/baghdad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/baghdad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

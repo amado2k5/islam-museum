@@ -25,7 +25,7 @@ provenance:
 status:
   review: draft
   completeness: 3
-born: { edtf: "1073", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Amal al-Amil" }
+born: { edtf: "1073", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Amal al-Amil Agrees with Wikidata Q1990225 (P569, a statement without a reference), item revision 2557348556, read on 13 November 2026.", sources: [source/wikidata] }
 died: { edtf: "1153", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Amal al-Amil Confirmed on 13 November 2026 against Wikidata Q1990225 (P570, a statement with a reference), item revision 2557348556.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/khurasan, note: "Place association from the person's nisba/name (khurasani); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

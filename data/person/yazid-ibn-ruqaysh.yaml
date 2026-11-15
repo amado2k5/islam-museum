@@ -14,7 +14,7 @@ wings: [people]
 regions: [arabia]
 periods: [period/prophetic-era]
 sources: [source/al-aalam, source/ibn-hajar-isaba]
-died: { edtf: "632", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isti'ab (Ibn Abd al-Barr)" }
+died: { edtf: "632", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isti'ab (Ibn Abd al-Barr) Agrees with Wikidata Q12251788 (P570, a statement without a reference), item revision 2186042795, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/medina, confidence: low, note: "Companion in Ibn Hajar's Isaba (regions: arabia).", sources: [source/al-aalam, source/ibn-hajar-isaba] }
   - { type: member_of, target: group/sahaba, sources: [source/al-aalam, source/ibn-hajar-isaba]}

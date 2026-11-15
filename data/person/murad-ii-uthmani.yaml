@@ -21,6 +21,8 @@ relations:
   - { type: signed, target: event/treaty-szeged-848, role: "الطرف العثماني", sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: fought, target: person/hunyadi-janos, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: died_in, target: place/edirne, sources: [source/dawlat-uthmaniyya-salabi] }
+  - {type: commissioned, target: building/uzunkopru-bridge, sources: [source/freely-ottoman-architecture-2011], note: 'Stated in the summary of building/uzunkopru-bridge: "built for Murat II in 1444 by Hacı Ivaz Pasha"'}
+  - {type: ruled_over, target: place/ayasuluk, sources: [source/encyclopaedia-of-islam-2], note: 'Stated in the summary of place/ayasuluk: "under Murad II in 1425"'}
 external_ids:
   wikidata: Q131394
   nomisma: "murad_ii"

@@ -18,6 +18,7 @@ relations:
   - { type: died_in, target: place/istanbul, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q406)" }
   - { type: lived_in, target: place/edirne, sources: [source/wikidata], confidence: low, note: "Wikidata P551 residence (Wikidata Q43387)" }
   - { type: lived_in, target: place/constantinople, sources: [source/wikidata], confidence: low, note: "Wikidata P551 residence (Wikidata Q16869)" }
+  - {type: built, target: building/sultan-suleyman-mosque-szigetvar, sources: [source/yilmaz-ottoman-architecture-hungary-2024], note: 'Stated in the summary of building/sultan-suleyman-mosque-szigetvar: "built by Sokollu Mehmed Pasha in 1566"'}
 sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
 provenance:
   layer: own-research

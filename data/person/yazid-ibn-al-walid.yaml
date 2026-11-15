@@ -7,8 +7,8 @@ wings: [people]
 gender: male
 roles: [caliph]
 external_ids: { wikidata: "Q128413", viaf: "97025388" }
-born: { edtf: "701", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Rusul wa-al-Muluk (al-Tabari)" }
-died: { edtf: "744", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Rusul wa-al-Muluk (al-Tabari)" }
+born: { edtf: "701", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Rusul wa-al-Muluk (al-Tabari) Agrees with Wikidata Q128413 (P569, a statement without a reference), item revision 2548624597, read on 13 November 2026.", sources: [source/wikidata] }
+died: { edtf: "744", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Rusul wa-al-Muluk (al-Tabari) Agrees with Wikidata Q128413 (P570, a statement without a reference), item revision 2548624597, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: ruled_over, target: polity/umayyad-caliphate, sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: successor_of, target: person/al-walid-ibn-yazid, sources: [source/tarikh-khulafa-minhaj-1434] }

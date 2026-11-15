@@ -37,6 +37,7 @@ relations:
 - { type: child_of, target: person/humayun-mughal }
 - { type: child_of, target: person/hamida-banu-begum }
 - { type: successor_of, target: person/humayun-mughal }
+- {type: born_in, target: place/amarkot, sources: [source/encyclopaedia-of-islam-2], note: 'Stated in the summary of place/amarkot: "where Akbar was born on 5 Rajab 949/23 November 1542"'}
 sources:
 - source/wikidata
 - source/encyclopaedia-of-islam-2

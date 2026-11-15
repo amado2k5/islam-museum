@@ -1,0 +1,23 @@
+id: passage/abudawud-kitab-36
+class: passage
+unit: chapter
+work: work/sunan-abi-dawud
+ref: "kitab-36"
+label:
+  ar: "سنن أبي داود، كتاب الخاتم"
+  en: "Sunan Abi Dawud, Book 36: Signet-Rings (Kitab Al-Khatam)"
+  ur: "سنن ابی داؤد، کتاب الخاتم"
+summary:
+  ar: "القسم 36 من سنن أبي داود في تقسيم قاعدة بيانات الحديث المفتوحة التي أُخذت منها سجلات المتحف، وعنوانه «كتاب الخاتم»، ويضم فيها النصوص من 4214 إلى 4239 بترقيمها. يضع المتحف تحت هذا الكتاب ما عنده من سجلات هذه النصوص."
+  en: "Book 36 of Sunan Abi Dawud (Signet-Rings (Kitab Al-Khatam)) in the division of the open hadith dataset the museum took its reports from: reports 4214 to 4239 in that dataset's numbering. The museum files its records of these reports under this book; printed editions divide and number the collection differently."
+  ur: "سنن ابی داؤد کی کتاب 36، عنوان «کتاب الخاتم»، اس کھلے حدیث ڈیٹا سیٹ کی تقسیم کے مطابق جس سے میوزیم کے ریکارڈ لیے گئے: اس کی ترقیم میں روایات 4214 تا 4239۔ میوزیم ان روایات کے اپنے ریکارڈ اسی کتاب کے تحت رکھتا ہے۔"
+relations:
+  - { type: part_of, target: work/sunan-abi-dawud }
+provenance:
+  layer: own-research
+  source: "fawazahmed0/hadith-api (Unlicense), edition eng-abudawud: metadata.sections and section_details, book 36; Arabic title from AhmedBaset/hadith-json, abudawud.json, matched by the English name"
+  generated_by: "Claude Code"
+  model: claude-fable-5-2
+  run: hadith-library-books-2026-11-15
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0, source/hadith-json-ahmedbaset]
+status: { review: published, completeness: 1, generated_by: "Claude Code (claude-fable-5-2), from the dataset's own division; no report text stored" }

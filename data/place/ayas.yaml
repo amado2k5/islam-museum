@@ -18,3 +18,5 @@ provenance:
   source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, pp. 827-828, entry 'AYAS' (queue seq 436, batch ei2-b018); the population of 1935 and the coordinates are garbled in the scan and are not written"
   generated_by: "Claude Code (claude-haiku-5-5)"
 status: { review: published, completeness: 3 }
+relations:
+  - {type: located_in, target: place/cilicia, sources: [source/encyclopaedia-of-islam-2], note: 'Stated in the summary of place/ayas: "A town on the Cilician coast"'}

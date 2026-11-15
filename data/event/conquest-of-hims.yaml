@@ -1,4 +1,5 @@
 id: event/conquest-of-hims
+aliases: [event/conquest-of-emesa-636]   # the same event filed twice; merged (audit S7 and its second pass), the id still resolves
 class: event
 kind: conquest
 label: { ar: "فتح حمص", en: "The Conquest of Hims" }
@@ -40,3 +41,4 @@ map:
   sources: [source/futuh-buldan-maarif-1407]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+external_ids: {wikidata: Q3625476}

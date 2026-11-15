@@ -1,0 +1,23 @@
+id: passage/muslim-kitab-21
+class: passage
+unit: chapter
+work: work/sahih-muslim
+ref: "kitab-21"
+label:
+  ar: "صحيح مسلم، كتاب البيوع"
+  en: "Sahih Muslim, Book 21: The Book of Transactions"
+  ur: "صحیح مسلم، کتاب البیوع"
+summary:
+  ar: "القسم 21 من صحيح مسلم في تقسيم قاعدة بيانات الحديث المفتوحة التي أُخذت منها سجلات المتحف، وعنوانه «كتاب البيوع»، ويضم فيها النصوص من 3801 إلى 3961 بترقيمها. يضع المتحف تحت هذا الكتاب ما عنده من سجلات هذه النصوص."
+  en: "Book 21 of Sahih Muslim (The Book of Transactions) in the division of the open hadith dataset the museum took its reports from: reports 3801 to 3961 in that dataset's numbering. The museum files its records of these reports under this book; printed editions divide and number the collection differently."
+  ur: "صحیح مسلم کی کتاب 21، عنوان «کتاب البیوع»، اس کھلے حدیث ڈیٹا سیٹ کی تقسیم کے مطابق جس سے میوزیم کے ریکارڈ لیے گئے: اس کی ترقیم میں روایات 3801 تا 3961۔ میوزیم ان روایات کے اپنے ریکارڈ اسی کتاب کے تحت رکھتا ہے۔"
+relations:
+  - { type: part_of, target: work/sahih-muslim }
+provenance:
+  layer: own-research
+  source: "fawazahmed0/hadith-api (Unlicense), edition eng-muslim: metadata.sections and section_details, book 21; Arabic title from AhmedBaset/hadith-json, muslim.json, matched by the English name"
+  generated_by: "Claude Code"
+  model: claude-fable-5-2
+  run: hadith-library-books-2026-11-15
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0, source/hadith-json-ahmedbaset]
+status: { review: published, completeness: 1, generated_by: "Claude Code (claude-fable-5-2), from the dataset's own division; no report text stored" }

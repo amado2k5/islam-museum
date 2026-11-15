@@ -11,8 +11,8 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/gunpowder-empires]
-born: { edtf: "1570", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (al-Ghazzi); Khulasat al-Athar" }
-died: { edtf: "1651", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (al-Ghazzi); Khulasat al-Athar" }
+born: { edtf: "1570", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (al-Ghazzi); Khulasat al-Athar Agrees with Wikidata Q1963394 (P569, a statement without a reference), item revision 2548479543, read on 13 November 2026.", sources: [source/wikidata] }
+died: { edtf: "1651", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (al-Ghazzi); Khulasat al-Athar Agrees with Wikidata Q1963394 (P570, a statement without a reference), item revision 2548479543, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/damascus, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q3766)" }
 sources: [source/al-aalam, source/wikidata]

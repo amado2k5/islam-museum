@@ -17,7 +17,7 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch16
-died: { edtf: "735", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi: Abu al-Zinad's shaykh" }
+died: { edtf: "735", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi: Abu al-Zinad's shaykh Agrees with Wikidata Q6718538 (P570, a statement without a reference), item revision 2551153905, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/medina, note: "Wikidata Q35484 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: died_in, target: place/alexandria, note: "Wikidata Q87 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }

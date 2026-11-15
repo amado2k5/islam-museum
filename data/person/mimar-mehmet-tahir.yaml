@@ -11,9 +11,10 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
-died: { edtf: "1788", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV" }
+died: { edtf: "1788", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Agrees with Wikidata Q6062280 (P570, a statement without a reference), item revision 2544940295, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/anatolia, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/dawlat-uthmaniyya-salabi] }
+  - {type: built, target: building/laleli-mosque-istanbul, sources: [source/freely-ottoman-architecture-2011], note: 'Stated in the summary of building/laleli-mosque-istanbul: "founded by Mustafa III and built 1759-1763 CE by Mehmet Tahir Ağa"'}
 sources: [source/dawlat-uthmaniyya-salabi]
 external_ids:
   wikidata: Q6062280

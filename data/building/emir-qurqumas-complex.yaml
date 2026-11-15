@@ -27,3 +27,5 @@ status:
 built: { edtf: "1506/1507", calendar: julian, precision: year, status: historical, sources: [source/yeomans-islamic-cairo-2006], note: "Yeomans p. 217: complex of Amir Qurqumas (1506-7)." }
 status_now: standing
 location: place/eastern-cemetery-cairo
+relations:
+  - {type: located_in, target: place/cairo, sources: [source/tarikh-islam-hasan-ibrahim], note: 'Stated in the summary of building/emir-qurqumas-complex: "Emir Qurqumas Complex, Cairo"'}

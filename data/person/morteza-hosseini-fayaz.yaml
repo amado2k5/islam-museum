@@ -11,8 +11,8 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/modern-era]
-born: { edtf: "1928", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Hawzah News" }
-died: { edtf: "2014", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Hawzah News" }
+born: { edtf: "1928", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Hawzah News Agrees with Wikidata Q6914589 (P569, a statement without a reference), item revision 2499708789, read on 13 November 2026.", sources: [source/wikidata] }
+died: { edtf: "2014", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Hawzah News Agrees with Wikidata Q6914589 (P570, a statement without a reference), item revision 2499708789, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/najaf, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q168193)" }
 sources: [source/al-aalam]

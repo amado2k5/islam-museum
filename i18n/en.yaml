@@ -74,11 +74,11 @@ landing:
   entrances: Five ways in
   learn_title: Tour / Learn, in the making
   learn_text: Guided pathways, step by step, toward a goal you choose, so the museum never feels too big or confusing. Start with one of five pathways, or see all
-    300.
+    {learnPaths}.
   learn_cta: Find out more
   tour_title: Tour and learn
-  tour_lede: The museum is big. Start with one of these five pathways, or see all 300. Each has a clear goal and ordered steps.
-  plan_note: 300 pathways in total — your progress is kept in your browser alone, no account.
+  tour_lede: The museum is big. Start with one of these five pathways, or see all {learnPaths}. Each has a clear goal and ordered steps.
+  plan_note: "{learnPaths} pathways in total — your progress is kept in your browser alone, no account."
   all_paths: All pathways
   wings_title: Walk the wings
   wings_lede: Nine wings, each a door into a world.
@@ -441,6 +441,7 @@ modern:
   new_title: 'New in the last 30 days'
   new_none: 'No record was added or changed in the last 30 days.'
   new_lede: 'Records added or changed in the 30 days before this build, newest first.'
+  new_capped: "The {n} most recently changed of {total} are shown. Every record is also listed in its own section of the browser."
   top_title: 'Reach indices'
   top_note: 'How widely a work is documented, computed from cited inputs with the formula printed on each list. Never a ranking by taste.'
   top_lede: '{list}: {n} scored records, highest reach first.'
@@ -858,6 +859,9 @@ hadith:
   collection_lede: '{n} verified reports from this work in the museum.'
   kitab_lede: '{n} reports in this book of {name}.'
   kitab_page: The book's museum page
+  no_reports: "No report from this book is in the museum yet"
+  loose_title: "Not filed under a book"
+  loose_note: "Reports whose text could not be matched to a numbered report of the edition the books are taken from, and excerpts filed by printed page. They are part of the collection and wait for a book."
   on_sunnah: Browse this collection on Sunnah.com
   isnad: Chain of transmission
   isnad_from: from
@@ -938,7 +942,7 @@ exhibits:
 coverage:
   learn_title: Tour / Learn, in the making
   learn_text: A new section of guided learning pathways. Ready pathways will be counted here when they open, and each one will list the entries it still needs. Start
-    with one of the five open pathways, or browse all 300.
+    with one of the five open pathways, or browse all {learnPaths}.
   learn_ready: Pathways ready
   learn_planned: Pathways planned
   title: Coverage
@@ -1068,6 +1072,7 @@ basis:
   documented: documented
   debated: debated
   unknown: unknown
+  self-identified: self-identified
 entrances:
   title: Five ways in
   learn:
@@ -1261,7 +1266,11 @@ map:
     panel_show: Show the panel
     panel_hide: Hide the panel
     regions_h: Regions
-    time_note: "The year bar lights the places that have dated records in the chosen year and names the era of each region. It does not filter a place's own list."
+    time_note: "The year bar lights the places that have dated records in the chosen year and names the era of each region. Open a place and its list can be cut down to the records of that year."
+    year_only: "Only {year}"
+    year_nearest: "Go to {year}, the nearest dated year"
+    year_none: "None of the {n} dated records here falls in the chosen year."
+    year_empty: "No record here is dated to the chosen year. Undated records are not shown while the year filter is on."
     year_typed: "Go to year"
     year_calendar: "Calendar"
     year_ah_short: "AH"
@@ -4143,6 +4152,13 @@ ibadat:
   method_note: "Every record here is an ordinary museum record — with its sources and its three-language prose. Acts of worship and remembrance are found at build time by a guarded lexicon over the passage texts: the vocabulary of prayer, bowing and prostration, wudu, ghusl and tayammum, fasting, iftar, suhur and i'tikaf, zakat and charity, hajj, umrah, tawaf, sa'y, ihram, Arafat and the rites, remembrance of God, glorification, praise, tahlil, takbir, istighfar, blessings on the Prophet, hawqala and basmala, supplication through the Du'a Browser's own lexicon, recitation and tartil, repentance and turning back, and ruqya; worship of other than God («يعبدون الأصنام») and the argument sense of «احتجّ» are excluded, verified false positives are excluded by id, and every book harvested later brings its acts of worship here automatically once its passages land in the graph; curated records join through the ibadat-browser tag. Each passage is marked act when it performs or commands the worship and mention when it is only about it."
   api: "The whole set is available at"
   sections_title: The browser's sections
+  axis:
+    title: "By act of worship"
+    note: "{n} acts, each with its own page: the museum's own records first, then the passages in the order Qur'an, hadith, seerah, other books. Purification, prayer, zakat, fasting and hajj come first, in the order the fiqh manuals take them; then remembrance, supplication, recitation, repentance and ruqya; worship as a general word comes last."
+    page_title: "Worship: {topic}"
+    page_lede: "Everything the museum files under this act of worship: its own records first, then the passages in the order Qur'an, hadith, seerah, other books. A passage is placed by its wording, so this list is a finding aid and not a statement of what the passage means or rules."
+    page_count: "{own} museum records and {passages} passages."
+    back: "All acts of worship"
   filter_label: Filter worship and adhkar
   filter_none: No matches.
   empty: No worship records in this build yet.
@@ -5889,6 +5905,18 @@ akhlaq:
   method_note: "Every record here is an ordinary museum record — with its sources and its three-language prose. Ethics and dealings are found at build time by a guarded lexicon over the passage texts: the virtue words (truthfulness, trustworthiness, faithfulness, patience, gratitude, humility, excellence, modesty, forbearance, sincerity, repentance, generosity, kindness to parents, kinship, the neighbour's right, good advice, withholding harm, mastery, mercy, justice, contentment), the vice words (lying, treachery, pride, ostentation, envy, miserliness, backbiting, slander, indecency, insults, anger, injustice, disobedience to parents, hypocrisy, cheating) and the dealings words (sale, trade, riba, debt, loan, pledge, hire, bequest, inheritance, marriage, dower, nursing, divorce, release, waiting period, maintenance, custody, oaths, expiation, testimony, proof, judgement, scales, measure, short-measure, reconciliation, gifts, guarantee, surety, agency, partnership, qirad, mudaraba, muzara'a, musaqat, salam, istisna', transfer, loan, deposit, usurpation, found property, pre-emption, hoarding, coercion, interdiction, contract); the bay'ah allegiance, 'raba' as growth outside transaction, 'hukm' as wisdom, 'shahada' as the testimony of faith or martyrdom, 'ajr' as bare reward, 'qism' as portion, and the worship rites owned by the sibling Ibadat and Du'a browsers are left out, verified false positives are excluded by id, and every book harvested later brings its mentions here automatically once its passages land in the graph; curated records join through the akhlaq-browser tag. Each passage is marked with its track (akhlaq/mu'amalat), kind (virtue/vice/dealing/mention) and topics."
   api: "The full set is available at"
   sections_title: Browser sections
+  axis:
+    title: "By virtue, vice and dealing"
+    note: "{n} headings, each with its own page: the museum's own records first, then the passages in the order Qur'an, hadith, seerah, other books. A passage stands under a heading because its wording carries that heading's words, so one passage can stand under several headings."
+    groups:
+      virtue: "Virtues"
+      vice: "Vices"
+      dealing: "Dealings"
+      general: "General words"
+    page_title: "Ethics and dealings: {topic}"
+    page_lede: "Everything the museum files under this heading: its own records first, then the passages in the order Qur'an, hadith, seerah, other books. A passage is placed by its wording, so this list is a finding aid and not a statement of what the passage means or rules."
+    page_count: "{own} museum records and {passages} passages."
+    back: "All headings"
   filter_label: "Filter ethics and dealings"
   filter_none: "No matching results."
   empty: "No akhlaq or mu'amalat records in this build yet."
@@ -6211,6 +6239,12 @@ paged:
   filter_more: "Showing the first {n}; type more to narrow."
   filter_loading: "Searching the whole list…"
   filter_failed: "The full list could not be loaded. The rows on this page are still filtered."
+  subject:
+    title: "Sections"
+    page_title: "{topic}"
+    page_lede: "Every passage of this section that names the subject, in full. The subject's own page shows the first of them."
+    page_count: "{passages} passages."
+    back: "Back to the subject's page"
 
 journeys:
   title: "Journeys"

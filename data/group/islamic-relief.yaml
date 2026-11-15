@@ -21,6 +21,7 @@ footprint:
   catalogues: { uk_charity_commission: "328158" }
 relations:
   - { type: founded_by, target: person/hany-el-banna, note: "with fellow students of the University of Birmingham", sources: [source/wikipedia-islamic-relief-en] }
+  - {type: located_in, target: place/birmingham, sources: [source/wikipedia-islamic-relief-en], note: 'Stated in the summary of group/islamic-relief: "international headquarters in Birmingham"'}
 external_ids: { wikidata: "Q239714" }
 sources: [source/wikipedia-islamic-relief-en, source/wikidata]
 provenance:

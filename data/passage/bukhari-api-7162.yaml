@@ -10,6 +10,7 @@ summary:
   en: "In Sahih al-Bukhari; sending a letter or message to a party."
   ur: "صحیح بخاری میں؛ کسی فریق کو خط یا پیغام بھیجنا."
 relations:
+  - { type: part_of, target: passage/bukhari-kitab-93 }
   - { type: mentions, target: person/muhammad, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
   - { type: mentions, target: concept/al-mukatabat, sources: [source/sahih-al-bukhari] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 7162 (book 93 hadith 26); matn excerpt of at most ~55 words", generated_by: "Devin (SWE-2 High)", run: "mukatabat-hadithapi-1" }

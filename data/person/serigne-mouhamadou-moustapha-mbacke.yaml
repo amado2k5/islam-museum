@@ -11,8 +11,8 @@ summary:
 wings: [people]
 regions: [west-africa-sahel]
 periods: [period/modern-era]
-born: { edtf: "1888", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Modern Biography" }
-died: { edtf: "1945", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Modern Biography" }
+born: { edtf: "1888", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Modern Biography Agrees with Wikidata Q73672059 (P569, a statement without a reference), item revision 2566721050, read on 13 November 2026.", sources: [source/wikidata] }
+died: { edtf: "1945", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Modern Biography Agrees with Wikidata Q73672059 (P570, a statement without a reference), item revision 2566721050, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/senegal, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1041)" }
   - { type: died_in, target: place/touba, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q657072)" }

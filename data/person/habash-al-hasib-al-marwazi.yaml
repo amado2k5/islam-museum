@@ -15,8 +15,8 @@ wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
 traditions: [sunni]
-born: { edtf: "766~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia of Islam" }
-died: { edtf: "869~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia of Islam" }
+born: { edtf: "766~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia of Islam Agrees with Wikidata Q2475262 (P569, a statement without a reference), item revision 2567825146, read on 13 November 2026.", sources: [source/wikidata] }
+died: { edtf: "869~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia of Islam Agrees with Wikidata Q2475262 (P570, a statement without a reference), item revision 2567825146, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/merv, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/baghdad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

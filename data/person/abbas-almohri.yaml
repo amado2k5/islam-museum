@@ -24,7 +24,7 @@ provenance:
 status:
   review: draft
   completeness: 1
-born: { edtf: "1915", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Biographical compendia of Kuwaiti clerics" }
-died: { edtf: "1988", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Biographical compendia of Kuwaiti clerics" }
+born: { edtf: "1915", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Biographical compendia of Kuwaiti clerics Agrees with Wikidata Q5675744 (P569, a statement without a reference), item revision 2567429387, read on 13 November 2026.", sources: [source/wikidata] }
+died: { edtf: "1988", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Biographical compendia of Kuwaiti clerics Agrees with Wikidata Q5675744 (P570, a statement without a reference), item revision 2567429387, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }

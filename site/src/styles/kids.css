@@ -736,6 +736,12 @@ html[dir="rtl"] .kids .crumbs > * + *::before {
   content: "\2039"; /* ‹ in RTL */
 }
 
+/* Many kids pages also write a " / " between the links. The chevron above is the separator,
+   so the written one is hidden here; it still separates the links where this sheet is not loaded. */
+.kids .crumbs > span[aria-hidden="true"] {
+  display: none;
+}
+
 /* gold "coming soon" tone for the site-wide .chip inside kids pages */
 .kids .chip {
   background: var(--kids-tint-gold);

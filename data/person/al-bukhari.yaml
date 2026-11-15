@@ -24,6 +24,7 @@ relations:
   - { type: participated_in, target: event/bukhari-leaves-nishapur-250, role: "المُخرَج", sources: [source/tabaqat-shafiiyya-subki, source/encyclopaedia-of-islam-2] }
   - { type: participated_in, target: event/bukhari-expulsion-khartank-256, role: "المُخرَج", sources: [source/tabaqat-shafiiyya-subki, source/encyclopaedia-of-islam-2] }
   - { type: participated_in, target: event/death-al-bukhari-256, role: "المتوفَّى", sources: [source/tabaqat-shafiiyya-subki, source/encyclopaedia-of-islam-2] }
+  - {type: authored, target: work/al-tarikh-al-kabir, sources: [source/al-aalam], note: 'Stated in the summary of work/al-tarikh-al-kabir: "Al-Bukhari''s (d. 256 AH) dictionary of hadith transmitters"'}
 sources: [source/viaf-cluster-154679127, source/fihrist-ibn-al-nadim, source/sahih-al-bukhari, source/tabaqat-shafiiyya-subki, source/encyclopaedia-of-islam-2, source/biblissima]
 education:
   did_you_know:

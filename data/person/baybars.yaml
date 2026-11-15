@@ -27,6 +27,7 @@ relations:
   - { type: participated_in, target: event/siege-of-antioch-1268, role: "السلطان الفاتح", sources: [source/khitat-maqrizi-1998] }
   - { type: participated_in, target: event/fall-of-krak-des-chevaliers-1271, role: "السلطان الفاتح", sources: [source/khitat-maqrizi-1998] }
   - { type: built, target: building/mosque-of-al-zahir-baybars, sources: [source/yeomans-islamic-cairo-2006] }
+  - {type: commissioned, target: building/madrasa-of-al-zahir-baibars, sources: [source/khitat-maqrizi-1998], note: 'Stated in the summary of building/madrasa-of-al-zahir-baibars: "The Zahiriyya madrasa of Rukn al-Din Baybars al-Bunduqdari, Cairo"'}
 sources: [source/khitat-maqrizi-1998, source/shadharat-dhahab, source/tarikh-khulafa-minhaj-1434, source/yeomans-islamic-cairo-2006, source/encyclopaedia-of-islam-2, source/nomisma, source/wikidata]
 importance: 1
 status: { review: published, completeness: 3, generated_by: "Claude Haiku 5.5; the Zahiriyya's site and his exile with the amirs after Aqtay's killing are read from al-Maqrizi's Khitat (local scan, pp. 1032, 1081); the Suyuti and Ibn al-Imad sentences keep their citations" }

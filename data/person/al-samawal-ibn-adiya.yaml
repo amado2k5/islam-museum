@@ -16,6 +16,7 @@ provenance:
 died: { edtf: "560~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kitab al-Aghani" }
 relations:
   - { type: lived_in, target: place/tayma, note: "The Jewish poet of Tayma and its al-Ablaq castle.", sources: [source/muruj-al-dhahab, source/mubarakpuri-raheeq], confidence: medium }
+  - {type: authored, target: work/hamasa-al-samawal-idha-al-mar-lam-yudannis, sources: [source/hamasa-abu-tammam-ed-1916], note: 'Stated in the summary of work/hamasa-al-samawal-idha-al-mar-lam-yudannis: "ascribes to al-Samaw''al ibn Adiya"'}
 sources: [source/muruj-al-dhahab, source/mubarakpuri-raheeq]
 status:
   review: published

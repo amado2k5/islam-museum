@@ -12,7 +12,7 @@ wings: [people]
 regions: [south-asia]
 periods: [period/gunpowder-empires]
 born: { edtf: "1660~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Murshid Kuli Khan)" }
-died: { edtf: "1727", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Murshid Kuli Khan)" }
+died: { edtf: "1727", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Murshid Kuli Khan) Agrees with Wikidata Q3634642 (P570, a statement without a reference), item revision 2552925450, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/deccan-sultanates, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1183649)" }
   - { type: died_in, target: place/murshidabad, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q1017175)" }

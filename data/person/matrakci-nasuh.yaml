@@ -12,8 +12,8 @@ wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
 themes: [mathematics]
-born: { edtf: "1480~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV" }
-died: { edtf: "1564~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV" }
+born: { edtf: "1480~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Agrees with Wikidata Q4115413 (P569, a statement without a reference), item revision 2542620766, read on 13 November 2026.", sources: [source/wikidata] }
+died: { edtf: "1564~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Agrees with Wikidata Q4115413 (P570, a statement without a reference), item revision 2542620766, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/visoko, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 sources: [source/al-aalam, source/wikidata]

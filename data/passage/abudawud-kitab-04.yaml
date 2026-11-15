@@ -1,0 +1,23 @@
+id: passage/abudawud-kitab-04
+class: passage
+unit: chapter
+work: work/sunan-abi-dawud
+ref: "kitab-04"
+label:
+  ar: "سنن أبي داود، كتاب صلاة السفر"
+  en: "Sunan Abi Dawud, Book 4: Prayer (Kitab Al-Salat): Detailed Rules of Law about the Prayer during Journey"
+  ur: "سنن ابی داؤد، کتاب صلاۃ السفر"
+summary:
+  ar: "القسم 4 من سنن أبي داود في تقسيم قاعدة بيانات الحديث المفتوحة التي أُخذت منها سجلات المتحف، وعنوانه «كتاب صلاة السفر»، ويضم فيها النصوص من 1198 إلى 1249 بترقيمها. يضع المتحف تحت هذا الكتاب ما عنده من سجلات هذه النصوص."
+  en: "Book 4 of Sunan Abi Dawud (Prayer (Kitab Al-Salat): Detailed Rules of Law about the Prayer during Journey) in the division of the open hadith dataset the museum took its reports from: reports 1198 to 1249 in that dataset's numbering. The museum files its records of these reports under this book; printed editions divide and number the collection differently."
+  ur: "سنن ابی داؤد کی کتاب 4، عنوان «کتاب صلاۃ السفر»، اس کھلے حدیث ڈیٹا سیٹ کی تقسیم کے مطابق جس سے میوزیم کے ریکارڈ لیے گئے: اس کی ترقیم میں روایات 1198 تا 1249۔ میوزیم ان روایات کے اپنے ریکارڈ اسی کتاب کے تحت رکھتا ہے۔"
+relations:
+  - { type: part_of, target: work/sunan-abi-dawud }
+provenance:
+  layer: own-research
+  source: "fawazahmed0/hadith-api (Unlicense), edition eng-abudawud: metadata.sections and section_details, book 4; Arabic title from AhmedBaset/hadith-json, abudawud.json, matched by the English name"
+  generated_by: "Claude Code"
+  model: claude-fable-5-2
+  run: hadith-library-books-2026-11-15
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0, source/hadith-json-ahmedbaset]
+status: { review: published, completeness: 1, generated_by: "Claude Code (claude-fable-5-2), from the dataset's own division; no report text stored" }

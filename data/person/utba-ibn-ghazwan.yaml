@@ -37,8 +37,8 @@ faith:
 - value: sunni
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
-born: { edtf: "581~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; Tahdhib al-Kamal" }
-died: { edtf: "638", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; Tahdhib al-Kamal" }
+born: { edtf: "581~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; Tahdhib al-Kamal Agrees with Wikidata Q1145321 (P569, a statement without a reference), item revision 2562302798, read on 13 November 2026.", sources: [source/wikidata] }
+died: { edtf: "638", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; Tahdhib al-Kamal Agrees with Wikidata Q1145321 (P570, a statement without a reference), item revision 2562302798, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
 - { type: lived_in, target: place/abyssinia, sources: [source/ibn-hajar-isaba, source/rijal-hawl-al-rasul-muqattam-1994] }
 - { type: ruler_of, target: place/basra, sources: [source/ibn-hajar-isaba, source/rijal-hawl-al-rasul-muqattam-1994] }

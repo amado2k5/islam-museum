@@ -11,8 +11,8 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/modern-era]
-born: { edtf: "1882", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam" }
-died: { edtf: "1958", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam" }
+born: { edtf: "1882", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam Agrees with Wikidata Q105371002 (P569, a statement without a reference), item revision 1356585097, read on 13 November 2026.", sources: [source/wikidata] }
+died: { edtf: "1958", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam Agrees with Wikidata Q105371002 (P570, a statement without a reference), item revision 1356585097, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: died_in, target: place/damascus, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: buried_in, target: place/bab-al-saghir-cemetery, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

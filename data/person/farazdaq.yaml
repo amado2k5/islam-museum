@@ -13,7 +13,7 @@ summary:
 wings: [people]
 periods: [period/umayyad]
 regions: [levant-iraq]
-born: { edtf: "641", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khallikan (Wafayat)" }
+born: { edtf: "641", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khallikan (Wafayat) Agrees with Wikidata Q591558 (P569, a statement without a reference), item revision 2567249543, read on 13 November 2026.", sources: [source/wikidata] }
 died: { edtf: "728", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khallikan (Wafayat) Confirmed on 13 November 2026 against Wikidata Q591558 (P570, a statement with a reference), item revision 2567249543.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/basra, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

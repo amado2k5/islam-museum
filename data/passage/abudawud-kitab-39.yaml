@@ -1,0 +1,23 @@
+id: passage/abudawud-kitab-39
+class: passage
+unit: chapter
+work: work/sunan-abi-dawud
+ref: "kitab-39"
+label:
+  ar: "سنن أبي داود، كتاب الملاحم"
+  en: "Sunan Abi Dawud, Book 39: Battles (Kitab Al-Malahim)"
+  ur: "سنن ابی داؤد، کتاب الملاحم"
+summary:
+  ar: "القسم 39 من سنن أبي داود في تقسيم قاعدة بيانات الحديث المفتوحة التي أُخذت منها سجلات المتحف، وعنوانه «كتاب الملاحم»، ويضم فيها النصوص من 4291 إلى 4350 بترقيمها. يضع المتحف تحت هذا الكتاب ما عنده من سجلات هذه النصوص."
+  en: "Book 39 of Sunan Abi Dawud (Battles (Kitab Al-Malahim)) in the division of the open hadith dataset the museum took its reports from: reports 4291 to 4350 in that dataset's numbering. The museum files its records of these reports under this book; printed editions divide and number the collection differently."
+  ur: "سنن ابی داؤد کی کتاب 39، عنوان «کتاب الملاحم»، اس کھلے حدیث ڈیٹا سیٹ کی تقسیم کے مطابق جس سے میوزیم کے ریکارڈ لیے گئے: اس کی ترقیم میں روایات 4291 تا 4350۔ میوزیم ان روایات کے اپنے ریکارڈ اسی کتاب کے تحت رکھتا ہے۔"
+relations:
+  - { type: part_of, target: work/sunan-abi-dawud }
+provenance:
+  layer: own-research
+  source: "fawazahmed0/hadith-api (Unlicense), edition eng-abudawud: metadata.sections and section_details, book 39; Arabic title from AhmedBaset/hadith-json, abudawud.json, matched by the English name"
+  generated_by: "Claude Code"
+  model: claude-fable-5-2
+  run: hadith-library-books-2026-11-15
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0, source/hadith-json-ahmedbaset]
+status: { review: published, completeness: 1, generated_by: "Claude Code (claude-fable-5-2), from the dataset's own division; no report text stored" }

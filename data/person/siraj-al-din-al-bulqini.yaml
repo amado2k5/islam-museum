@@ -11,8 +11,8 @@ summary:
 wings: [people]
 regions: [egypt-nile]
 periods: [period/mongol-post-mongol]
-born: { edtf: "1324", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Daw' al-Lami" }
-died: { edtf: "1403", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Daw' al-Lami" }
+born: { edtf: "1324", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Daw' al-Lami Agrees with Wikidata Q6798541 (P569, a statement without a reference), item revision 2567787449, read on 13 November 2026.", sources: [source/wikidata] }
+died: { edtf: "1403", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Daw' al-Lami Agrees with Wikidata Q6798541 (P570, a statement without a reference), item revision 2567787449, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/bulqinah, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q12199116)" }
   - { type: died_in, target: place/cairo, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q85)" }
