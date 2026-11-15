@@ -1,0 +1,20 @@
+id: concept/zij-sabi-aspect-limits-by-the-chord-of-latitude
+class: concept
+kind: scientific
+label: { ar: "حدود الاتصال بوتر العرض", en: "The limits of an aspect by the chord of latitude", ur: "عرض کے وتر سے اتصال کی حدود" }
+summary:
+  ar: "لمعرفة على كم جزءاً يلقي الكوكب شعاعه من التسديس والتثليث على دائرة البروج إذا كان له عرض، يُؤخذ وتر ما بقي من الضلع الثاني في الجداول المنصفة، ويُضرب في نفسه، ويُؤخذ وتر عرض الكوكب التام، فيُطرح من مربع التسديس، فيخرج الضلع الثاني المعدل، ثم يُعرف الوتر المعدل ويُقوَّس فيخرج التسديس والتثليث على دائرة البروج. {cite:zij-sabi-nallino-byblion pp.200-201}"
+  en: "To find how many parts a body throws its ray of sextile or trine onto the ecliptic when it has a latitude, the chord of the remainder of the second side is taken from the half-chord tables, squared, and the full chord of the latitude is found and squared as well. The corrected second side is obtained by subtraction from the square of the full chord of the aspect, and the corrected chord is then turned into an arc, giving the sextile and trine on the ecliptic. {cite:zij-sabi-nallino-byblion pp.200-201}"
+  ur: "یہ معلوم کرنے کے لیے کہ جب ستارے کا عرض ہو تو وہ اپنی شعاع کا تسدیس اور تثلیث دائرۂ البروج پر کتنے اجزا پر ڈالتا ہے، نصف وتر جداول سے دوسرے ضلع کے باقی حصے کا وتر لیا جاتا ہے، اسے مربع کیا جاتا ہے، اور عرض کا کامل وتر لیا جاتا ہے اور اس کا مربع بھی۔ تصحیح شدہ دوسرا ضلع تسدیس کے کامل وتر کے مربع میں سے تفریق سے نکلتا ہے، پھر تصحیح شدہ وتر کو قوس میں بدلا جاتا ہے، تو دائرۂ البروج پر تسدیس اور تثلیث حاصل ہوتے ہیں۔ {cite:zij-sabi-nallino-byblion pp.200-201}"
+wings: [ideas]
+themes: [astronomy-and-timekeeping, mathematics]
+sources: [source/zij-sabi-nallino-byblion]
+relations:
+  - { type: part_of, target: work/al-zij-al-sabi, sources: [source/zij-sabi-nallino-byblion] }
+provenance:
+  layer: own-research
+  source: "Chapter 54, scan 200-201: the limits of sextile and trine by the chord of latitude"
+  generated_by: "Claude Haiku 5.5"
+  model: claude-haiku-5-5
+  run: zij-sabi-a3-4
+status: { review: draft, completeness: 2, generated_by: "Claude Haiku 5.5 (book mining, lane A3)" }

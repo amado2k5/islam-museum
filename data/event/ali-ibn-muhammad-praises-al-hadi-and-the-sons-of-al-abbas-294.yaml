@@ -1,0 +1,51 @@
+id: event/ali-ibn-muhammad-praises-al-hadi-and-the-sons-of-al-abbas-294
+class: event
+kind: other
+label:
+  ar: "قصيدة علي بن محمد في مدح الهادي وأبناء العباس، 294هـ، ص332-333"
+  en: "Ali ibn Muhammad's poem praising al-Hadi and the sons of al-Abbas, 294 AH, pp. 332-333"
+  ur: "علی بن محمد کا ہادی اور بنی عباس کی مدح میں قصیدہ، 294ھ، ص332-333"
+summary:
+  ar: "تمدح القصيدة الهادي بالسماحة والشجاعة والتقوى، وتذكر أبناء العباس أنصاراً له."
+  en: "The poem praises al-Hadi for generosity, courage and piety, and names the sons of al-Abbas as his helpers."
+  ur: "یہ نظم ہادی کی سخاوت، شجاعت اور تقویٰ کی تعریف کرتی ہے اور بنی عباس کو ان کے مددگار بتاتی ہے۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0907"
+    hijri: "0294"
+    calendar: julian
+    precision: year
+    status: tradition
+    derived: true
+    note: "سنة 294هـ بحسب عنوان السنة في ص330 ولا يذكر الكتاب يوماً ولا شهراً لهذا الحدث؛ التحويل مشتق من التقويم الجدولي."
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/ali-ibn-muhammad-ibn-ubaydallah-al-abbasi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص332-333 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5)"
+  model: claude-haiku-5-5
+  run: a1-sira-p331-338-1
+status:
+  review: draft
+  completeness: 2
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 332-333"

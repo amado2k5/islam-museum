@@ -6,27 +6,28 @@ label:
 roles: [scholar, writer]
 gender: male
 summary:
-  ar: "بطاقة أولية لعبد الحي بن أحمد ابن العماد الحنبلي، مؤرخ دمشق في القرن السابع عشر صاحب «شذرات الذهب»، توفي سنة ١٦٧٩م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abd al-Hayy ibn Ahmad Ibn al-Imad al-Hanbali, the seventeenth-century Damascene historian author of Shadharat al-Dhahab, d. 1679; the biographical entry is not yet checked on the page."
+  ar: "عبد الحي بن أحمد ابن العماد العكري الحنبلي، مؤرخ فقيه أديب، صاحب «شذرات الذهب»، ولد في صالحية دمشق، وتوفي بمكة حاجا سنة 1089 هـ {cite:alam-zirikli-dar-al-ilm-2002 vol. 3 p. 290}."
+  en: "Abd al-Hayy ibn Ahmad Ibn al-Imad al-Hanbali (al-Akri), historian, jurist and man of letters, author of Shadharat al-Dhahab; born in the Salihiyya quarter of Damascus and died in Mecca on the pilgrimage in 1089 AH (1679 CE) {cite:alam-zirikli-dar-al-ilm-2002 vol. 3 p. 290}."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/gunpowder-empires]
-born: { edtf: "1623", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Khulasat al-Athar Confirmed on 13 November 2026 against Wikidata Q6534150 (P569, a statement with a reference), item revision 2551135749.", sources: [source/wikidata] }
-died: { edtf: "1679", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Khulasat al-Athar Confirmed on 13 November 2026 against Wikidata Q6534150 (P570, a statement with a reference), item revision 2551135749.", sources: [source/wikidata] }
+born: { edtf: "1623", hijri: "1032", calendar: gregorian, precision: year, derived: true, note: "al-Zirikli, al-A'lam, vol. 3 p. 290, heading 1032-1089 AH = 1623-1679 CE, agrees with the earlier card (Khulasat al-Athar; Wikidata Q6534150).", sources: [source/alam-zirikli-dar-al-ilm-2002, source/wikidata] }
+died: { edtf: "1679", hijri: "1089", calendar: gregorian, precision: year, derived: true, note: "al-Zirikli, al-A'lam, vol. 3 p. 290, heading 1089 AH = 1679 CE, agrees with the earlier card (Khulasat al-Athar; Wikidata Q6534150).", sources: [source/alam-zirikli-dar-al-ilm-2002, source/wikidata] }
 relations:
-  - { type: born_in, target: place/al-salihiyya, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-  - { type: born_in, target: place/damascus, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-  - { type: died_in, target: place/mecca, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-  - { type: lived_in, target: place/cairo, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/al-aalam]
+  - { type: born_in, target: place/al-salihiyya, confidence: high, note: "al-Zirikli, vol. 3 p. 290: born in the Salihiyya quarter of Damascus", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+  - { type: born_in, target: place/damascus, confidence: high, note: "al-Zirikli, vol. 3 p. 290: Salihiyya is a quarter of Damascus", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+  - { type: died_in, target: place/mecca, confidence: high, note: "al-Zirikli, vol. 3 p. 290: died in Mecca on the pilgrimage", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+  - { type: lived_in, target: place/cairo, confidence: high, note: "al-Zirikli, vol. 3 p. 290: lived in Cairo for a long time", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q6534150
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0028
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002 (Shamela 12286), vol. 3 p. 290, entry read in full from the local OpenITI text; the earlier card (Wikidata Q6534150) agrees on both dates"
+  generated_by: "Claude Code (Lane B2 packet b2-m26)"
+  model: claude-haiku-5-5
+  run: b2-m26
 status:
   review: draft
-  completeness: 1
+  completeness: 2
+  generated_by: "Claude Code (Lane B2 packet b2-m26)"

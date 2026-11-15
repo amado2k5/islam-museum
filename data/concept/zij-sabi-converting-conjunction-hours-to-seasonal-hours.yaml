@@ -1,0 +1,20 @@
+id: concept/zij-sabi-converting-conjunction-hours-to-seasonal-hours
+class: concept
+kind: scientific
+label: { ar: "تحويل ساعات الاجتماع إلى ساعات زمانية", en: "Converting the conjunction hours into seasonal hours", ur: "اجتماع کے گھنٹوں کو موسمی گھنٹوں میں بدلنا" }
+summary:
+  ar: "يحول البتاني ساعات الاجتماع المعتدلة إلى ساعات زمانية بقسمتها على أزمان ساعات النهار أو الليل، فيخرج عدد الساعات الزمانية منذ طلوع الشمس أو غروبها، ويُحسب الجزء الباقي جزءاً من الساعة، ثم يُنقل إلى بلد آخر بفرق الطول في خمسة عشر. {cite:zij-sabi-nallino-byblion p.143}."
+  en: "Al-Battani turns the equated conjunction hours into seasonal hours by dividing them by the lengths of the day or night hours; the count of seasonal hours from sunrise or sunset comes out, and the remainder is a fraction of an hour. The result is then moved to another place by the difference in longitude divided by fifteen. {cite:zij-sabi-nallino-byblion p.143}."
+  ur: "البتانی معتدل اجتماعی گھنٹوں کو موسمی گھنٹوں میں بدلتے ہیں، انہیں دن یا رات کے گھنٹوں کے وقت پر تقسیم کر کے، تاکہ طلوعِ آفتاب یا غروبِ آفتاب سے موسمی گھنٹوں کی تعداد نکلے، اور باقی حصہ گھنٹے کا جزو ہو۔ پھر طول کے فرق کو پندرہ پر تقسیم کر کے نتیجہ کسی دوسرے شہر کی طرف منتقل کیا جاتا ہے۔ {cite:zij-sabi-nallino-byblion p.143}۔"
+wings: [ideas]
+themes: [astronomy-and-timekeeping, mathematics]
+sources: [source/zij-sabi-nallino-byblion]
+relations:
+  - { type: part_of, target: work/al-zij-al-sabi, sources: [source/zij-sabi-nallino-byblion] }
+provenance:
+  layer: own-research
+  source: "al-Zij al-Sabi, Arabic text ed. C. A. Nallino (Byblion, Jbeil 2005), OCR of the local copy, chapter 30 (scan pages 80 to 98, printed pages 76 to 94), read page by page"
+  generated_by: "Claude Haiku 5.5"
+  model: claude-haiku-5-5
+  run: zij-sabi-9
+status: { review: draft, completeness: 2, generated_by: "Claude Haiku 5.5 (book mining, lane A2)" }

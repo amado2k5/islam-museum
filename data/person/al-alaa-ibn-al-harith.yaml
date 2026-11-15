@@ -6,24 +6,26 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية للعلاء بن الحارث، من رواة الحديث؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for al-Ala ibn al-Harith, a hadith transmitter; his entry is not yet checked on the page."
+  ar: "العلاء بن الحارث بن عبد الوارث الحضرمي، أبو وهب، ويقال أبو محمد الدمشقي، من رواة الحديث وفقهاء الشام وأعلم أصحاب مكحول وأقدمهم كما يقول ابن سعد، روى له الجماعة سوى البخاري، ومات سنة 136 هـ {cite:tahdhib-kamal-mizzi-risala vol. 22 p. 482}."
+  en: "al-Ala ibn al-Harith ibn Abd al-Warith al-Hadrami, Abu Wahb, also called Abu Muhammad, of Damascus, a hadith transmitter and jurist of Syria, called by Ibn Sad the most knowledgeable and earliest of Makhul's companions; the Six Books other than al-Bukhari's narrate from him, and he died in 136 AH {cite:tahdhib-kamal-mizzi-risala vol. 22 p. 482}."
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/tahdhib-kamal-mizzi-risala, source/tabaqat-ibn-sad-khanji-2001]
 external_ids:
   wikidata: "Q12190366"
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "al-Mizzi, Tahdhib al-Kamal (Risala ed.), vol. 22 pp. 478-483, and Ibn Sad, al-Tabaqat al-Kubra (Khanji ed.), vol. 9 p. 467, entries read in full from the local OpenITI texts"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2c-m01-2026-11-14
 status:
   review: draft
-  completeness: 1
-died: { edtf: "753", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar)" }
+  completeness: 3
+born: { edtf: "685~", hijri: "0066", calendar: gregorian, precision: year, derived: true, note: "Estimated: al-Tamimi, quoted in Tahdhib al-Kamal vol. 22 p. 482, says he was seventy years old at death in 136 AH, which puts the birth about 66 AH (about 685 CE); the entries give no birth year", sources: [source/tahdhib-kamal-mizzi-risala] }
+died: { edtf: "753", hijri: "0136", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar). Tahdhib al-Kamal vol. 22 p. 482 and Ibn Sad vol. 9 p. 467 give 136 AH (July 753 to June 754 CE); Ibn Sad adds the end of the caliphate of Abu al-Abbas, which closed in Dhu al-Hijja 136 AH (June 754 CE), so the year 754 is also possible; the card year 753 is kept", sources: [source/tahdhib-kamal-mizzi-risala, source/tabaqat-ibn-sad-khanji-2001] }
 relations:
-  - { type: lived_in, target: place/hadramawt, note: "Wikidata Q1517159 (P551); corroboration recommended.", sources: [source/wikidata], confidence: medium }
-  - { type: lived_in, target: place/damascus, note: "Wikidata Q3766 (P551); corroboration recommended.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/hadramawt, note: "Wikidata Q1517159 (P551); corroboration recommended. The nisba al-Hadrami in al-Mizzi's heading, Tahdhib al-Kamal vol. 22 p. 478, is consistent but does not prove residence.", sources: [source/wikidata], confidence: medium }
+  - { type: lived_in, target: place/damascus, note: "Tahdhib al-Kamal vol. 22 p. 478 and p. 480: called al-Dimashqi, a Damascene; Wikidata Q3766 (P551) agrees", sources: [source/tahdhib-kamal-mizzi-risala, source/wikidata], confidence: high }
+  - { type: student_of, target: person/makhul-al-dimashqi, note: "Tahdhib al-Kamal vol. 22 p. 479 lists Makhul al-Shami among those he narrated from; Ibn Sad vol. 9 p. 467 calls him the most knowledgeable of Makhul's companions", sources: [source/tahdhib-kamal-mizzi-risala, source/tabaqat-ibn-sad-khanji-2001], confidence: high }

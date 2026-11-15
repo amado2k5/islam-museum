@@ -5162,3 +5162,45 @@ GEMINI: ep51, which daughter of the Prophet Abu Sufyan asked to intercede with h
 GEMINI: ep51, whether the detachment sent under Abu Ubayda ibn al-Jarrah to the Red Sea shore is the Khabt expedition and the story of the debt for camels that follows, the second pass has Khabt and Qays ibn Sa'd in garbled form, a Sira source on the expedition
 GEMINI: ep51, the exact wording and speaker of the verse about the crying out of Khuza'a (the man's name may be Amr ibn Salim) and the tribe that attacked Khuza'a, both passes garble them, a Sira source on the breach of the Hudaybiyya treaty
 GEMINI: ep51, who asked Aisha whether she knew the Prophet's intention before the march (Abu Bakr is likely) and which tribe entered the Prophet's alliance in the Hudaybiyya clauses (Khuza'a is likely), the first pass has no name and the second pass has garbled words, a Sira source on the Hudaybiyya clauses and on the preparations for the conquest of Mecca
+### sharh-saheeh-al-bukhare ep60 (14 Nov 2026)
+25 bullets written for episode 60 in ar, en and ur; 17 needs_source marks in each language file; 85 cites in each file; no new about edges (every linked entity is already in the series about relations). Quran verses referenced only through passage links (25 passages, all files confirmed on origin/main); none typed. Contested: his readings of God's adding to the sickness of hearts as justice, of silenced scholars and takfir, of the public-interest principle, of the stages of the heart and surrender, and his call on scholars are his own views; the reports and sayings given without a chain are unsourced.
+Series record: provenance episodes updated from 1-59 to 1-60 in data/work/sharh-saheeh-al-bukhare.yaml.
+Second ASR pass: the Whisper large-v3 (mlx) transcript is the base of this episode, on the shared 30-second grid; the Qwen pass was consulted for its opening only.
+| Excluded (sharh-saheeh-al-bukhare ep60) | Episode / time | Reason | Gate failed | Override |
+| Opening greetings, the long supplication and repeated words | ep60 00:00:00-00:02:00 | greetings, prayer and a loop | Clarity, Loop check | Open |
+| Sweeping remark on the Muslim community and a garbled list of practices | ep60 00:03:00-00:03:30 | garbled; generalisation about the whole community | Clarity, Voice rule | Open |
+| Remarks on hypocrites who attack scholars and religion, with a garbled dialogue | ep60 00:08:30-00:10:00 | garbled dialogue | Clarity, Loop check | Open |
+| Penal law, state enforcement of fasting and public order, comparisons of political systems | ep60 00:10:00-00:14:30 | prescriptive advocacy on penal law and the state; garbled | Voice rule, Clarity | Open |
+| Remarks on women's roles, a model wife, the number of children, the education of women | ep60 00:38:30-00:40:30 | sweeping claims about women | Voice rule | Open |
+| Anecdote of a father praying at dawn and a son's upbringing | ep60 00:40:30-00:41:30 | garbled; sweeping claim about upbringing | Clarity, Voice rule | Open |
+| Anecdote of Hajjaj ibn Yusuf and a woman named Hind; only the marriage saying is kept | ep60 00:34:30-00:38:00 | garbled beyond its moral; Hind not in the graph | Clarity | Open |
+| Dispute before a judge over a camel's dowry; general praise of judges | ep60 00:57:30-01:00:00 | garbled; praise not checked | Clarity | Open |
+| Stories of a drowning man, a student of Abu Hazim and a sick man | ep60 00:26:30-00:28:00 | garbled, names rest on single words | Clarity | Open |
+| Story of a man calling for help, an angel of the fourth heaven, a ship and a sea | ep60 00:49:30-00:52:00 | garbled beyond recovery | Clarity | Open |
+| Figure for the years of Noah's preaching | ep60 00:44:30 | garbled in both passes | Clarity | Open |
+| Figure for the kingdom given to the least in paradise | ep60 00:21:00-00:21:30 | garbled in both passes; report kept without the figure | Clarity | Open |
+| Remarks on the ark, Pharaoh, and attacks on named Arab leaders | ep60 00:46:00-00:47:30 | political attack on named leaders; garbled | Voice rule, Clarity | Open |
+| Remarks on the body, meals, fasting and blood sugar | ep60 01:13:30-01:17:00 | health and diet claims with no source | Content rule, Clarity | Open |
+| Jibril in his true form on the horizon | ep60 01:07:30-01:09:30 | garbled in both passes | Clarity | Open |
+| Call to enrage opponents and attack secularists and others | ep60 01:18:30-01:19:00 | sweeping labels for groups | Voice rule | Open |
+| Closing greeting, farewell and closing prayer | ep60 01:19:00-01:19:30 | closing prayer | Clarity | Open |
+| Loops and repeated words | ep60 00:21:30 and 00:32:00 | repeated words | Loop check | Open |
+Resume point: sharh-saheeh-al-bukhare episode 61 (branch from origin/main).
+EXCLUSION (proposal for the founder): Opening greetings, long supplication and repeated words (ep60 00:00:00-00:02:00) - greetings, prayer and a loop; Clarity, Loop check; Open
+EXCLUSION (proposal for the founder): Sweeping remark on the Muslim community and garbled list of practices (ep60 00:03:00-00:03:30) - garbled and a generalisation about the whole community; Clarity, Voice rule; Open
+EXCLUSION (proposal for the founder): Hypocrites who attack scholars, with garbled dialogue (ep60 00:08:30-00:10:00) - garbled dialogue; Clarity, Loop check; Open
+EXCLUSION (proposal for the founder): Penal law, state enforcement of fasting and public order, comparisons of political systems (ep60 00:10:00-00:14:30) - prescriptive advocacy on penal law and the state, garbled; Voice rule, Clarity; Open
+EXCLUSION (proposal for the founder): Remarks on women's roles, a model wife, number of children, education of women (ep60 00:38:30-00:40:30) - sweeping claims about women; Voice rule; Open
+EXCLUSION (proposal for the founder): Anecdote of a father praying at dawn and a son's upbringing (ep60 00:40:30-00:41:30) - garbled; sweeping claim about upbringing; Clarity, Voice rule; Open
+EXCLUSION (proposal for the founder): Anecdote of Hajjaj ibn Yusuf and a woman named Hind, hair-cutting and dinar (ep60 00:34:30-00:38:00); only the marriage saying is kept - garbled beyond its moral; Hind not in the graph, no id linked; Clarity; Open
+EXCLUSION (proposal for the founder): Dispute before a judge over a camel's dowry, and praise of judges (ep60 00:57:30-01:00:00) - garbled; praise not checked; Clarity; Open
+EXCLUSION (proposal for the founder): Stories of a drowning man, a student of Abu Hazim and a sick man (ep60 00:26:30-00:28:00) - garbled, names rest on single words; Clarity; Open
+EXCLUSION (proposal for the founder): Story of a man calling for help, an angel of the fourth heaven, a ship and a sea (ep60 00:49:30-00:52:00) - garbled beyond recovery; Clarity; Open
+EXCLUSION (proposal for the founder): Figure for the years of Noah's preaching (ep60 00:44:30) - garbled in both passes; Clarity; Open
+EXCLUSION (proposal for the founder): Figure for the kingdom given to the least in paradise (ep60 00:21:00-00:21:30) - garbled in both passes; report kept without the figure; Clarity; Open
+EXCLUSION (proposal for the founder): Ark, Pharaoh, and attacks on named Arab leaders (ep60 00:46:00-00:47:30) - political attack on named leaders; Voice rule, Clarity; Open
+EXCLUSION (proposal for the founder): Body, meals, fasting and blood sugar (ep60 01:13:30-01:17:00) - health and diet claims with no source; Content rule, Clarity; Open
+EXCLUSION (proposal for the founder): Jibril in his true form on the horizon (ep60 01:07:30-01:09:30) - garbled in both passes; Clarity; Open
+EXCLUSION (proposal for the founder): Call to enrage opponents and attack secularists and others (ep60 01:18:30-01:19:00) - sweeping labels for groups; Voice rule; Open
+EXCLUSION (proposal for the founder): Closing greeting, farewell and closing prayer (ep60 01:19:00-01:19:30) - closing prayer; Clarity; Open
+EXCLUSION (proposal for the founder): Loops and repeated words (ep60 00:21:30 and 00:32:00) - repeated words; Loop check; Open
