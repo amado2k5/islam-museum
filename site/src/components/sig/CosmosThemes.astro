@@ -1,0 +1,116 @@
+---
+// "The cosmos as orbits" (Cosmos Browser home): an orrery. Earth sits at the centre; the eight themes are orbits around
+// it, from the earth's own earlier inhabitants and vanished peoples inward-out to the heavens, the creatures beyond the
+// earth, the beginning of creation and the secrets of the unseen at the rim. Every record of a theme is a dot on its
+// orbit, coloured by the corpus section it sits in, and every dot is a real link to the record (a record with two
+// themes sits on both orbits). The numbered legend beneath is the text alternative and the keyboard route; the script
+// only reads the focused or hovered dot out loud in a line. Rings turn very slowly, and not at all under reduced
+// motion. Everything is computed at build time from lib/cosmos.ts; the build fails when the data holds a topic or
+// section the drawing cannot name (docs/site/signature-views.md, rules 1-6). Abstract geometry only.
+import { ui, fmt, type Lang } from "../../lib/i18n";
+import { href, labelOf } from "../../lib/graph";
+import { num } from "../../lib/nav";
+import { cosmosItems, COSMOS_TOPICS, COSMOS_SECTIONS } from "../../lib/cosmos";
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const G = (ui(lang) as any).cosmos;
+const V = G.viz;
+
+// inner to outer: the earth's own story first, then the heavens, then the beginning and the unseen
+const ORDER = ["before-adam", "lost-peoples", "hidden-peoples", "many-worlds", "heavens", "beyond-earth", "origins", "secrets"] as const;
+for (const t of COSMOS_TOPICS) if (!(ORDER as readonly string[]).includes(t)) throw new Error(`CosmosThemes: topic ${t} has no orbit`);
+const topicName = (t: string) => { const s = G.topics?.[t]; if (!s) throw new Error(`CosmosThemes: topic ${t} has no name under cosmos.topics`); return s as string; };
+const secName = (s: string) => { const t = G.sections?.[s]?.title; if (!t) throw new Error(`CosmosThemes: section ${s} has no title`); return t as string; };
+for (const i of cosmosItems) {
+  for (const t of i.topics) if (!(COSMOS_TOPICS as readonly string[]).includes(t)) throw new Error(`CosmosThemes: ${i.node.id} carries unknown topic ${t}`);
+  if (!(COSMOS_SECTIONS as readonly string[]).includes(i.section)) throw new Error(`CosmosThemes: ${i.node.id} sits in unknown section ${i.section}`);
+}
+const short = (n: any) => labelOf(n, lang).replace(/\s*⁦?\(.*$/, "").trim();
+
+const C = 320, R0 = 74, STEP = 29;
+const rings = ORDER.map((t, k) => {
+  const items = cosmosItems.filter((i) => i.topics.includes(t));
+  const n = items.length;
+  const r = R0 + k * STEP;
+  const dot = n > 120 ? 1.8 : n > 40 ? 2.5 : 3.6;
+  const sorted = [...items].sort((a, b) => COSMOS_SECTIONS.indexOf(a.section) - COSMOS_SECTIONS.indexOf(b.section) || a.node.id.localeCompare(b.node.id));
+  const dots = sorted.map((i, j) => {
+    const a = ((j + 0.5) / Math.max(1, n)) * 360 + k * 23 - 90;
+    const rad = (a * Math.PI) / 180;
+    return { i, x: +(C + r * Math.cos(rad)).toFixed(1), y: +(C + r * Math.sin(rad)).toFixed(1), read: `${topicName(t)} · ${secName(i.section)} · ${short(i.node)}` };
+  });
+  return { t, k, n, r, dot, dots, dur: 160 + k * 37 };
+});
+const total = new Set(cosmosItems.map((i) => i.node.id)).size;
+---
+<section class="cs-orrery" aria-labelledby="cs-orrery-title" style="margin-top:2rem" data-cs-orrery>
+  <div data-pagefind-body>
+    <h2 id="cs-orrery-title">{V.title}</h2>
+    <p class="muted" style="max-width:var(--measure);margin:0 0 .8rem">{V.lede}</p>
+  </div>
+  <ul class="cs-legend ui" role="list">
+    {COSMOS_SECTIONS.map((s) => <li><i class={`cs-sw s-${s}`}></i>{secName(s)}</li>)}
+  </ul>
+  <div class="cs-stage">
+    <svg viewBox="0 0 640 640" role="group" aria-label={`${V.title}: ${fmt(V.records, { n: num(total, lang) })}`} class="cs-svg">
+      <defs>
+        <radialGradient id="cs-core" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#e8c85a" stop-opacity=".95"/><stop offset=".55" stop-color="#2a7b88"/><stop offset="1" stop-color="#14374a"/></radialGradient>
+        <radialGradient id="cs-halo" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#2a7b88" stop-opacity=".38"/><stop offset="1" stop-color="#2a7b88" stop-opacity="0"/></radialGradient>
+      </defs>
+      <circle cx={C} cy={C} r={R0 + 7 * STEP + 26} fill="url(#cs-halo)" aria-hidden="true"/>
+      {rings.map((g) => <circle cx={C} cy={C} r={g.r} class={`cs-orbit${g.n === 0 ? " is-empty" : ""}`} aria-hidden="true"/>)}
+      <circle cx={C} cy={C} r={R0 - 24} fill="url(#cs-core)" aria-hidden="true"/>
+      <text x={C} y={C + 4} text-anchor="middle" class="cs-earth" aria-hidden="true">{V.earth}</text>
+      {rings.map((g) => (
+        <g class="cs-ring" style={`--dur:${g.dur}s;--dir:${g.k % 2 ? -1 : 1}`} data-ring={g.t}>
+          {g.dots.map((d) => (
+            <a href={href(lang, d.i.node.id)} aria-label={d.read} data-read={d.read}>
+              <circle cx={d.x} cy={d.y} r={g.dot} class={`cs-dot s-${d.i.section}`}><title>{d.read}</title></circle>
+              <circle cx={d.x} cy={d.y} r={Math.max(g.dot + 2.5, 5)} class="cs-hit"/>
+            </a>
+          ))}
+        </g>
+      ))}
+      {rings.map((g) => <text x={C} y={C - g.r + 3} text-anchor="middle" class="cs-num" aria-hidden="true">{num(g.k + 1, lang)}</text>)}
+    </svg>
+    <p class="cs-read ui" aria-live="polite" data-cs-line data-hint={V.hint}>{V.hint}</p>
+  </div>
+  <ol class="cs-key ui" role="list">
+    {rings.map((g) => (
+      <li class={g.n === 0 ? "is-empty" : ""}><b>{num(g.k + 1, lang)}</b> {topicName(g.t)} <span class="muted">{g.n > 0 ? fmt(V.records, { n: num(g.n, lang) }) : V.empty_theme}</span></li>
+    ))}
+  </ol>
+</section>
+<script src="../../scripts/sig-cosmos.ts"></script>
+<style>
+  .cs-legend { display: flex; flex-wrap: wrap; gap: 6px 16px; list-style: none; padding: 0; margin: 0 0 .6rem; font-size: .82rem; }
+  .cs-legend li { display: inline-flex; align-items: center; gap: 6px; }
+  .cs-sw { display: inline-block; width: 12px; height: 12px; border-radius: 50%; }
+  .cs-stage { background: radial-gradient(circle at 50% 45%, #0f2b3a 0%, #0a1824 70%, #070f18 100%); border-radius: 18px; padding: 8px 8px 12px; max-width: 700px; margin-inline: auto; }
+  .cs-svg { display: block; width: 100%; height: auto; }
+  .cs-orbit { fill: none; stroke: #8fb9c4; stroke-opacity: .28; stroke-width: 1; stroke-dasharray: 2 5; }
+  .cs-orbit.is-empty { stroke-opacity: .1; }
+  .cs-earth { fill: #fff; font: 600 13px system-ui, sans-serif; paint-order: stroke; stroke: #14374a; stroke-width: 3px; }
+  .cs-num { fill: #cfe3e8; font: 600 10px system-ui, sans-serif; opacity: .75; }
+  .cs-ring { transform-origin: 320px 320px; }
+  .cs-dot { stroke: #0a1824; stroke-width: .6; }
+  .cs-hit { fill: transparent; }
+  a:hover .cs-dot, a:focus-visible .cs-dot { stroke: #fff; stroke-width: 1.6; }
+  a:focus-visible { outline: none; }
+  .s-quran { background: #c5a059; fill: #e0b968; }
+  .s-sunnah { background: #2a7b88; fill: #43b3c4; }
+  .s-seerah { background: #8e5aa8; fill: #b684d1; }
+  .s-books { background: #4a6f9c; fill: #7ea6d6; }
+  .s-concepts { background: #b0634a; fill: #e58a6e; }
+  .cs-read { color: #cfe3e8; text-align: center; margin: .4rem .5rem 0; min-height: 1.5em; font-size: .9rem; }
+  .cs-key { list-style: none; padding: 0; margin: .9rem 0 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 6px 18px; font-size: .9rem; }
+  .cs-key b { display: inline-grid; place-items: center; width: 1.5em; height: 1.5em; border-radius: 50%; background: var(--panel); margin-inline-end: 6px; font-size: .8rem; }
+  .cs-key li.is-empty { opacity: .6; }
+  @media (prefers-reduced-motion: no-preference) {
+    .cs-ring { animation: cs-turn var(--dur) linear infinite; animation-direction: normal; }
+    .cs-ring:nth-of-type(even) { animation-direction: reverse; }
+    .cs-svg:hover .cs-ring, .cs-svg:focus-within .cs-ring { animation-play-state: paused; }
+    @keyframes cs-turn { to { transform: rotate(360deg); } }
+  }
+</style>

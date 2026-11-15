@@ -1,0 +1,25 @@
+id: passage/cosmos-tarikh-tabari-003
+class: passage
+unit: chapter
+work: work/tarikh-al-rusul-wa-al-muluk
+ref: "74"
+label:
+  ar: "تاريخ الرسل والملوك — الطبري — ص 74"
+  en: "تاريخ الرسل والملوك — الطبري — p. 74"
+text: "واسم التي بالمشرق بالسريانية مرقيسيا وبالعربية جابلق واسم التي بالمغرب بالسريانية برجيسيا وبالعربية جابرس ولكل مدينة منهما عشرة آلاف باب"
+summary:
+  ar: "في خبر طويل في تاريخ الطبري عن مسير الشمس يرد ذكر مدينتين إحداهما في المشرق والأخرى في المغرب، من بقايا عاد وثمود، وبعدهما أمم أخرى ثم يأجوج ومأجوج؛ ولم نفحص إسناده هنا ولا نحكم عليه."
+  en: "In a long report in al-Tabari on the sun's course, two cities are named, one in the east and one in the west, said to hold the remnants of Ad and Thamud, with other peoples and then Gog and Magog beyond; its chain was not examined here and no grading is given."
+relations:
+  - { type: mentions, target: group/aad, sources: [source/tarikh-al-tabari] }
+  - { type: mentions, target: group/thamud, sources: [source/tarikh-al-tabari] }
+  - { type: mentions, target: concept/yajuj-majuj, sources: [source/tarikh-al-tabari] }
+provenance:
+  layer: own-research
+  source: "تاريخ الرسل والملوك — الطبري ص 74 — OCR على القرص المحلي، صفحة الملف رقم 74 — tareekh/tarikh-tabari/AAlexandrina-224129/book.txt"
+  generated_by: "Claude Code (Sonnet 5.5 agent)"
+  model: claude-sonnet-5-5
+  run: cosmos-browser-1
+tags: [cosmos-browser, cosmos-hidden-peoples, cosmos-lost-peoples]
+sources: [source/tarikh-al-tabari]
+status: { review: draft, completeness: 1, generated_by: "Claude Code (Sonnet 5.5 agent)" }

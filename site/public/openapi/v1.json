@@ -632,6 +632,21 @@
         }
       }
     },
+    "/cosmos.json": {
+      "get": {
+        "operationId": "getCosmos",
+        "summary": "Cosmos Browser dataset",
+        "description": "The Cosmos Browser dataset (متصفح الكائنات الفضائية والأمم السابقة لبني البشر وأسرار الكون): every mention of creatures beyond the earth, the seven heavens and earths, who held the earth before Adam, the vanished and hidden peoples, the beginning of creation and the secrets of the cosmos in the Qur'an (verses from a reviewed table), Sunnah, seerah and harvested books (detected at build time) plus the curated records tagged cosmos-browser, each with its corpus section (quran, sunnah, seerah, books, concepts), topics (beyond-earth, many-worlds, heavens, origins, before-adam, lost-peoples, hidden-peoples, secrets), work, ref, text excerpt, kind, themes and edges.",
+        "responses": {
+          "200": {
+            "description": "Every cosmos record with corpus section, topics, work, ref, excerpt, kind, themes and edges",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
     "/nubuwat.json": {
       "get": {
         "operationId": "getNubuwat",

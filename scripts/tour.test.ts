@@ -236,6 +236,47 @@ describe("3d tour: page, component and nav", () => {
   });
 });
 
+describe("3d tour: location line and top buttons", () => {
+  it.skipIf(!HAS_COMPONENT)("where the top buttons can wrap, the location line follows the bar, not a fixed height", () => {
+    const comp = readFileSync("site/src/components/Tour3D.astro", "utf8");
+    // The five buttons wrap into one to four rows (by width, language and scene), so no fixed `top` clears them all.
+    // In the narrow layout the bar is in the flow and the line, with `top: auto`, takes its static position under it.
+    const narrow = /@media \(max-width: (\d+)px\) \{\s*#tour3d-root #topbar \{ position: relative; \}\s*#tour3d-root #loc \{ top: auto; margin-top: -8px; \}/.exec(comp);
+    expect(narrow, "narrow rule for #topbar and #loc").not.toBeNull();
+    // Measured on 15 November 2026: the buttons wrap up to 774px wide (Arabic, Living Islam gallery).
+    expect(Number(narrow![1])).toBeGreaterThanOrEqual(900);
+    // The only fixed top is the wide layout's, and it comes before the narrow rule (same specificity: the later one wins).
+    const fixed = [...comp.matchAll(/#tour3d-root #loc \{[^}]*\btop: \d+px/g)];
+    expect(fixed.length, "rules that give #loc a fixed top").toBe(1);
+    expect(fixed[0].index!).toBeLessThan(narrow!.index);
+    // The bar keeps 12px of padding under the buttons; -8px leaves the line 4px clear of the last row.
+    expect(comp).toMatch(/#tour3d-root #topbar \{[^}]*padding: 12px 16px;/);
+  });
+
+  it.skipIf(!HAS_COMPONENT || !HAS_SCRIPT)("the toast and the journey card are placed from the location line, not at a fixed height", () => {
+    const comp = readFileSync("site/src/components/Tour3D.astro", "utf8");
+    const src = readFileSync("site/src/scripts/tour.ts", "utf8");
+    // The script keeps the line's lower edge in --under-loc while the bar or the line changes size.
+    expect(src).toContain('root.style.setProperty("--under-loc"');
+    expect(src).toContain('underLoc.observe($("#topbar"));');
+    expect(src).toContain("underLoc.observe(locEl);");
+    expect(src).toContain("cleanups.push(() => underLoc.disconnect());");
+    // The narrow layouts read it: 16px under the line up to 900px wide, 6px for the toast on small screens.
+    expect(comp).toMatch(/#tour3d-root #toast,\s*#tour3d-root #journeyCard \{ top: calc\(var\(--under-loc, 94px\) \+ 16px\); \}/);
+    const smallToast = "#tour3d-root #toast { top: calc(var(--under-loc, 134px) + 6px); }";
+    expect(comp).toContain(smallToast);
+    // The 900px block comes first, so the small-screen rules (the card at the bottom, the toast's 6px) win where both apply.
+    expect(comp.indexOf("@media (max-width: 900px)")).toBeGreaterThan(-1);
+    expect(comp.indexOf("@media (max-width: 900px)")).toBeLessThan(comp.indexOf(smallToast));
+    // The only fixed tops left for the two are the wide layout's.
+    const fixed = [...comp.matchAll(/#tour3d-root #(toast|journeyCard) \{[^}]*\btop: \d+px/g)].map((m) => m[1]).sort();
+    expect(fixed).toEqual(["journeyCard", "toast"]);
+    // The card is kept inside the screen under the line, and short of the line when it sits at the bottom.
+    expect(comp).toContain("max-height: min(52vh, calc(100vh - var(--under-loc, 94px) - 32px));");
+    expect(comp).toContain("max-height: min(40vh, calc(100vh - var(--under-loc, 134px) - 158px));");
+  });
+});
+
 describe("3d tour: map, floor waypoints, room strip", () => {
   it.skipIf(!HAS_COMPONENT || !HAS_SCRIPT)("map dialog, strip nav and waypoints are wired; hidden in journeys", () => {
     const comp = readFileSync("site/src/components/Tour3D.astro", "utf8");

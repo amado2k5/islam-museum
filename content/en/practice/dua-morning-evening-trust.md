@@ -1,0 +1,11 @@
+---
+id: practice/dua-morning-evening-trust
+lang: en
+source_lang: ar
+translators: ["Claude Fable 5.2 (claude-fable-5-2), draft translation"]
+---
+## Summary
+How al-Nawawi closes the morning and evening chapter: the supplication against worry and debt, asking for a good day, calling on the Living, the Self-Sustaining, wordings of reliance, and the story of Abu al-Darda when told his house had burned. {cite:al-adhkar-nawawi-arnaut-1994 p. 82}
+
+## What al-Nawawi gathers in al-Adhkar
+Al-Nawawi reports from Abu Sa'id al-Khudri, in Abu Dawud, that [[person/muhammad|the Prophet]] found Abu Umama sitting in the mosque outside a prayer time, burdened by worries and debts, and taught him to say at morning and evening «اللهم إني أعوذ بك من الهم والحزن»; Abu Umama says he did so and God removed his worry and settled his debt {cite:al-adhkar-nawawi-arnaut-1994 p. 82}. From Abd Allah ibn Abi Awfa, in Ibn al-Sunni's book: «اللهم اجعل أول هذا النهار صلاحا وأوسطه نجاحا وآخره فلاحا», O God, make the start of this day righteousness, its middle success and its end triumph {cite:al-adhkar-nawawi-arnaut-1994 p. 82}. From Ma'qil ibn Yasar, in al-Tirmidhi and Ibn al-Sunni by a chain with weakness: whoever says three times at morning «أعوذ بالله السميع العليم من الشيطان الرجيم» and recites three verses of Surat al-Hashr has seventy thousand angels assigned to pray for him {cite:al-adhkar-nawawi-arnaut-1994 p. 82}. From Anas, in Ibn al-Sunni, the Prophet told Fatima to say at morning and evening «يا حي يا قيوم بك أستغيث فأصلح لي شأني كله» {cite:al-adhkar-nawawi-arnaut-1994 p. 83}. From Anas, the Prophet asked whether any of them could not be like Abu Damdam, who at morning would say that he gave his self and honour to God, so that he abused none who abused him {cite:al-adhkar-nawawi-arnaut-1994 p. 84}. From Abu al-Darda, in Ibn al-Sunni, a wording of reliance said seven times at morning and evening, after which God suffices him in what concerns him {cite:al-adhkar-nawawi-arnaut-1994 p. 84}. Then Talq ibn Habib's report that a man told Abu al-Darda his house had burned, and he said it had not, for he had heard words that protect whoever says them at the start of the day, and al-Nawawi quotes them, beginning «اللهم أنت ربي لا إله إلا أنت عليك توكلت» {cite:al-adhkar-nawawi-arnaut-1994 p. 85}.
