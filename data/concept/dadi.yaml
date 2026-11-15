@@ -1,0 +1,23 @@
+id: concept/dadi
+class: concept
+kind: natural
+label:
+  ar: "دادي"
+  en: "Dadi"
+  ur: "دادی"
+summary:
+  ar: "حبّ مثل الشعير إلى حمرة، زهره أطول وأدق، أدكن ومرّ. قابض يحفظ نبيذ التمر من الحموضة، وفيه تليين جيد للصلابات، ومسدّد للرأس، ونافع جداً لأوجاع المقعدة، وينفع البواسير والسموم، وبدله اللوز والأبهل إلا في الحبالى {cite:canon-ibn-sina-print-v1 p.435} {cite:canon-ibn-sina-print-v1 p.436}."
+  en: "A seed like barley tending to red; its flower is longer and finer, dark and bitter. Astringent; it keeps date wine from turning sour, softens hardened swellings, is strengthening for the head, and very useful for anal pains; it helps piles and poisons. Almond and abhal are the substitutes, except that abhal is not used for pregnant women {cite:canon-ibn-sina-print-v1 p.435} {cite:canon-ibn-sina-print-v1 p.436}."
+  ur: "جو کی طرح کا دانہ جس میں کچھ سرخی ہے؛ اس کا پھول لمبا اور باریک، گہرا اور کڑوا۔ قابض ہے اور کھجور کے نبیذ کو کھٹا ہونے سے بچاتا ہے، سخت سوجن کو نرم کرتا ہے، سر کو مضبوط کرتا ہے، مقعد کے دردوں کے لیے بہت مفید ہے، اور بواسیر اور زہروں میں نافع ہے۔ بدل بادام اور ابہل ہیں، مگر حاملہ عورتوں کو ابہل نہیں دیا جاتا {cite:canon-ibn-sina-print-v1 p.435} {cite:canon-ibn-sina-print-v1 p.436}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter jim (rest) and letter dal, scan pages 427-440, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); the editor's footnotes are used only for identity and name; footnotes quoting modern herbal or nutrition books are not used; measured doses, weights and quantities are left out; garbled OCR lines are left out, not guessed"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), lane A4"
+  model: claude-haiku-5-5
+  run: a4-canon-book2-8
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (book mining, lane A4)" }

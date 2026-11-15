@@ -1,0 +1,23 @@
+id: concept/jamsfarm
+class: concept
+kind: natural
+label:
+  ar: "جمسفرم"
+  en: "Jamsfarm"
+  ur: "جمسفرم"
+summary:
+  ar: "نبات قوته شبيهة بقوة الشيح مع عنب الثعلب، مفتّح مسكّن للنفخ والرياح خاصةً، يحلل الرطوبات اللزجة في المعدة، وينفع معدة الصبيان جداً. وفيه ذكر لرياح الأرحام {cite:canon-ibn-sina-print-v1 p.427}."
+  en: "A plant whose strength is like that of wormwood with the nightshade berry. It opens and soothes flatulence and winds in particular, dissolves sticky humours in the stomach, and is very good for children's stomachs. The book also lists it for womb winds {cite:canon-ibn-sina-print-v1 p.427}."
+  ur: "ایک پودا جس کی قوت شیح اور عنب الثعلب جیسی ہے۔ یہ خاص طور پر نفخ اور ہواؤں کو کھولتا اور سکون دیتا ہے، معدے کی لیس دار رطوبتوں کو تحلیل کرتا ہے، اور بچوں کے معدے کے لیے بہت مفید ہے۔ کتاب اسے رحم کی ہواؤں کے لیے بھی بیان کرتی ہے {cite:canon-ibn-sina-print-v1 p.427}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter jim (rest) and letter dal, scan pages 427-440, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); the editor's footnotes are used only for identity and name; footnotes quoting modern herbal or nutrition books are not used; measured doses, weights and quantities are left out; garbled OCR lines are left out, not guessed"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), lane A4"
+  model: claude-haiku-5-5
+  run: a4-canon-book2-8
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (book mining, lane A4)" }

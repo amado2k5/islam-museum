@@ -1,4 +1,5 @@
 id: person/tutush
+external_ids: { wikidata: "Q512593" }
 class: person
 label: { ar: "تاج الدولة تتش" }
 names:
@@ -15,7 +16,7 @@ regions: [levant-iraq]
 relations:
   - { type: child_of, target: person/alp-arslan, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: died_in, target: place/rayy, sources: [source/dawlat-uthmaniyya-salabi, source/shadharat-dhahab] }
-sources: [source/dawlat-uthmaniyya-salabi, source/shadharat-dhahab]
+sources: [source/dawlat-uthmaniyya-salabi, source/shadharat-dhahab, source/wikidata-tutush]
 provenance:
   layer: own-research
   source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 33"

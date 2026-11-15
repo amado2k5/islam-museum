@@ -1,0 +1,23 @@
+id: concept/jubn
+class: concept
+kind: natural
+label:
+  ar: "جبن"
+  en: "Jubn (cheese)"
+  ur: "جبن"
+summary:
+  ar: "الجبن يُتخذ من الحليب أو من الرائب، وهو المسمّى الأقط. الطريّ بارد رطب، والمملّح العتيق حار يابس. ينفع الكلف والقروح والجراحات وتشنج الوجه، ويكثر اللبن إذا طُبخ وسُقيت منه المرضعة، ويُذكر أن الإكثار منه يولّد الحصى في الكلية والمثانة {cite:canon-ibn-sina-print-v1 p.428} {cite:canon-ibn-sina-print-v1 p.429}."
+  en: "Cheese is made from milk or from buttermilk, and is called aqit. Fresh cheese is cold and moist; aged salted cheese is hot and dry. The book lists it for freckles, ulcers, wounds, facial spasm and, boiled, for nursing mothers' milk. It also says that much of it breeds stones in the kidney and bladder {cite:canon-ibn-sina-print-v1 p.428} {cite:canon-ibn-sina-print-v1 p.429}."
+  ur: "پنیر دودھ یا رائب سے بنتا ہے، اور اسے اقط کہا جاتا ہے۔ تازہ پنیر ٹھنڈا اور تر ہے، اور نمک لگا پرانا پنیر گرم اور خشک ہے۔ کتاب اسے کلف، زخموں، چہرے کی اینٹھن اور ابال کر دودھ پلانے والی ماں کے دودھ کے لیے بیان کرتی ہے، اور یہ بھی کہتی ہے کہ زیادہ کھانے سے گردے اور مثانے میں پتھری بنتی ہے {cite:canon-ibn-sina-print-v1 p.428} {cite:canon-ibn-sina-print-v1 p.429}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter jim (rest) and letter dal, scan pages 427-440, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); the editor's footnotes are used only for identity and name; footnotes quoting modern herbal or nutrition books are not used; measured doses, weights and quantities are left out; garbled OCR lines are left out, not guessed"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), lane A4"
+  model: claude-haiku-5-5
+  run: a4-canon-book2-8
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (book mining, lane A4)" }

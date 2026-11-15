@@ -1,0 +1,23 @@
+id: concept/dar-shishan
+class: concept
+kind: natural
+label:
+  ar: "دار شيشعان"
+  en: "Dar shishaan"
+  ur: "دار شیشعان"
+summary:
+  ar: "شجرة ذات غلظ وشوك كثير، قشرها حريف وزهرها حار وعودها عفص، ويستعملها العطارون في بعض الأدهان. ينفع القروح الساعية والمتعفنة، ويفيد استرخاء العصب، وينفع نتن الأنف، وطبيخه يمنع نفث الدم ويسكّن النفخ، ويُذكر أنه يُخرج الجنين {cite:canon-ibn-sina-print-v1 p.433} {cite:canon-ibn-sina-print-v1 p.434}."
+  en: "A thick tree with many thorns; its bark is pungent, its flower hot and its wood astringent. Used by herbalists in some oils. Helps spreading and putrid ulcers and the relaxation of the nerve; helps a foul nose; its decoction stops spitting blood and calms flatulence; the book also says it can expel a foetus {cite:canon-ibn-sina-print-v1 p.433} {cite:canon-ibn-sina-print-v1 p.434}."
+  ur: "موٹے تنے والا درخت جس پر بہت کانٹے ہیں؛ اس کا چھلکا تیز، پھول گرم اور لکڑی قابض ہے، اور عطار بعض تیلوں میں استعمال کرتے ہیں۔ پھیلنے والے اور سڑے ہوئے زخموں اور عصب کی سستی میں مفید ہے؛ بدبودار ناک کے لیے نافع ہے؛ جوشاندہ خون تھوکنا روکتا ہے اور نفخ کو سکون دیتا ہے؛ کتاب کہتی ہے کہ یہ حمل گرا سکتا ہے {cite:canon-ibn-sina-print-v1 p.433} {cite:canon-ibn-sina-print-v1 p.434}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter jim (rest) and letter dal, scan pages 427-440, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); the editor's footnotes are used only for identity and name; footnotes quoting modern herbal or nutrition books are not used; measured doses, weights and quantities are left out; garbled OCR lines are left out, not guessed"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), lane A4"
+  model: claude-haiku-5-5
+  run: a4-canon-book2-8
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (book mining, lane A4)" }

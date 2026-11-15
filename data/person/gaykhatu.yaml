@@ -1,4 +1,5 @@
 id: person/gaykhatu
+external_ids: { wikidata: "Q470322" }
 class: person
 label: { ar: "كيخاتو", en: "Gaykhatu", ur: "گیخاتو" }
 names:
@@ -30,7 +31,7 @@ provenance:
   model: claude-sonnet-5-5
   run: canon-missing-3
   canon: "Encyclopaedia of Islam, 2nd ed., vol. 2, article Gaykhatu, p. 1024; vol. 7 Mongols p. 260; vol. 5 Kirman (Kutlugh-Khanids) p. 593"
-sources: [source/encyclopaedia-of-islam-2]
+sources: [source/encyclopaedia-of-islam-2, source/wikidata-gaykhatu]
 importance: 2
 status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5" }
 kids:
