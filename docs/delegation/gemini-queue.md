@@ -328,3 +328,5 @@ GEMINI: concept/karsanna | the grain named al-malik is not identified in the tex
 GEMINI: concept/kamashir | the editor's Latin plant name is garbled in the OCR and cannot be read | the card keeps the book's description and no plant name | the Latin name in the Canon edition (vol. 1, Dar al-Kutub al-Ilmiyya, 1999) at scan 525, from a clean copy of the page
 GEMINI: concept/kals | the book suggests the Indian al-maghath; the identity of al-maghath al-hindi is not settled | the card keeps the book's suggestion as a suggestion | an Arabic materia medica entry on al-maghath al-hindi
 GEMINI: concept/kashim | the editor's note gives the name as the Roman inj'dan; the identity of the Roman inj'dan is not settled | the card keeps the note as the editor's identification | an Arabic materia medica entry on inj'dan rumi
+
+- GEMINI: slug work/wa-nal9a-al-aheba; question: the author of the study of Umar's political firsts (read as Dr. Ghalib al-Qarashi from the machine transcript at 00:04:00); what the card says: the speaker's list; what the source says: the transcript only; the source that would settle it: the book's title page
