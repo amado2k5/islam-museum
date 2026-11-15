@@ -1,0 +1,24 @@
+id: passage/cosmos-qisas-anbiya-ibn-kathir-001
+class: passage
+unit: chapter
+work: work/qisas-al-anbiya-ibn-kathir
+ref: "17"
+label:
+  ar: "قصص الأنبياء — ابن كثير — ص 17"
+  en: "قصص الأنبياء — ابن كثير — p. 17"
+text: "قيل علموا أن ذلك كائن بما رأوا ممن كان قبل آدم من الجن والبن قاله قتادة. وقال عبد الله بن عمر كانت الجن قبل آدم بألفي عام فسفكوا الدماء فبعث الله إليهم جنداً من الملائكة فطردوهم إلى جزائر البحور"
+summary:
+  ar: "يذكر ابن كثير في تفسير سؤال الملائكة عن خلق آدم قول قتادة بأنهم رأوا من كان قبل آدم من الجن والبن، وأثراً عن عبد الله بن عمر أن الجن سبقت آدم بألفي عام."
+  en: "Explaining the angels' question about Adam, Ibn Kathir gives Qatada's view that they had seen those before Adam, the jinn and the Bin, and a report from Abd Allah ibn Umar that the jinn preceded Adam by two thousand years."
+relations:
+  - { type: mentions, target: concept/jinn, sources: [source/qisas-al-anbiya-ibn-kathir-farmawi-1997] }
+  - { type: mentions, target: person/adam, sources: [source/qisas-al-anbiya-ibn-kathir-farmawi-1997] }
+provenance:
+  layer: own-research
+  source: "قصص الأنبياء — ابن كثير ص 17 — OCR على القرص المحلي، صفحة الملف رقم 17 — seerah/qisas-anbiya-ibn-kathir/iqraaEBook54/book.txt"
+  generated_by: "Claude Code (Sonnet 5.5 agent)"
+  model: claude-sonnet-5-5
+  run: cosmos-browser-1
+tags: [cosmos-browser, cosmos-before-adam]
+sources: [source/qisas-al-anbiya-ibn-kathir-farmawi-1997]
+status: { review: draft, completeness: 1, generated_by: "Claude Code (Sonnet 5.5 agent)" }

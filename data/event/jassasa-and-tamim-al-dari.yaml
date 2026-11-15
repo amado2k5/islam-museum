@@ -1,0 +1,40 @@
+id: event/jassasa-and-tamim-al-dari
+class: event
+kind: other
+label:
+  en: "The hadith of al-Jassasa: Tamim al-Dari's island account on the pulpit"
+  ar: "حديث الجساسة: خبر تميم الداري في الجزيرة على المنبر"
+  ur: "حدیثِ جساسہ: تمیم داری کی جزیرے کی روداد منبر پر"
+summary:
+  en: "In Sahih Muslim 2942, Fatima bint Qays relates that the Prophet gathered the people for prayer, sat on the pulpit and told them that Tamim al-Dari, newly Muslim, had described how a month at sea brought him and thirty men of Lakhm and Judham to an island, where a hairy creature called al-Jassasa sent them to a chained man who named himself the Messiah and asked about Baysan's palms, Lake Tiberias, the spring of Zughar and the Prophet {cite:sharh-nawawi-minhaj-risala on Muslim 2942}; al-Nawawi counts the report among Tamim's merits, and al-Suyuti names it the foundation example of a senior narrating from a junior {cite:tadrib-rawi-awwama-v5 p. 266}."
+  ar: "في صحيح مسلم 2942 تروي فاطمة بنت قيس أن النبي جمع الناس للصلاة وجلس على المنبر وحدثهم أن تميماً الداري، وقد أسلم حديثاً، أخبره أن موج البحر ألقاه شهراً مع ثلاثين رجلاً من لخم وجذام إلى جزيرة، فلقيتهم دابة كثيرة الشعر تسمى الجساسة دلتهم على رجل مقيد قال إنه المسيح وسأل عن نخل بيسان وبحيرة طبرية وعين زغر ونبي العرب {cite:sharh-nawawi-minhaj-risala on Muslim 2942}؛ وعدّ النووي الخبر من مناقب تميم، وجعله السيوطي الأصل في رواية الأكابر عن الأصاغر {cite:tadrib-rawi-awwama-v5 p. 266}."
+wings: [time]
+themes: [afterlife-and-eschatology]
+periods: [period/prophetic-era]
+regions: [arabia]
+tags: [cosmos-browser, cosmos-hidden-peoples, cosmos-secrets]
+date:
+  start: { edtf: "0631~", hijri: "0009~", calendar: julian, precision: year, status: tradition, derived: true, note: "The hadith gives no date for the sermon. Tamim al-Dari's conversion is dated 9 AH by Ibn al-Sakan as relayed in Ibn Hajar's al-Isaba (the attribution is read from a two-column OCR page and is unconfirmed), so the sermon is placed after that, approximately.", sources: [source/ibn-hajar-isaba] }
+relations:
+  - { type: occurred_at, target: place/medina, note: "The Prophet's mosque, where the gathering was called to prayer.", sources: [source/sharh-nawawi-minhaj-risala] }
+  - { type: had_participant, target: person/muhammad, role: "المحدِّث من المنبر بما رواه تميم", sources: [source/sharh-nawawi-minhaj-risala] }
+  - { type: had_participant, target: person/tamim-al-dari, role: "صاحب الخبر عن الجزيرة", sources: [source/sharh-nawawi-minhaj-risala, source/ibn-hajar-isaba] }
+  - { type: had_participant, target: person/fatima-bint-qays, role: "راوية الحديث وكانت في صف النساء", sources: [source/sharh-nawawi-minhaj-risala, source/ibn-hajar-isaba] }
+  - { type: related_to, target: concept/al-jassasa, note: "The creature in the account.", sources: [source/sharh-nawawi-minhaj-risala] }
+  - { type: related_to, target: concept/dajjal, note: "The chained man who named himself the Messiah.", sources: [source/sharh-nawawi-minhaj-risala] }
+  - { type: related_to, target: place/buhayrat-tabariyya, note: "One of the places the chained man asked about.", sources: [source/sharh-nawawi-minhaj-risala] }
+  - { type: related_to, target: concept/dabbat-al-ard, note: "Ibn Amr's report that the Jassasa is the beast of the earth, relayed by al-Nawawi and al-Qurtubi.", sources: [source/sharh-nawawi-minhaj-risala, source/mufhim-qurtubi-v7] }
+sources:
+  - source/sharh-nawawi-minhaj-risala
+  - source/sahih-muslim
+  - source/mufhim-qurtubi-v7
+  - source/ibn-hajar-isaba
+  - source/tadrib-rawi-awwama-v5
+  - source/muruj-al-dhahab
+provenance:
+  layer: own-research
+  source: "Muslim 2942 in al-Nawawi's al-Minhaj (kitab al-fitan, bab qissat al-Jassasa) and the Dar al-Ta'sil text of Sahih Muslim (3062 in its numbering); al-Qurtubi (Abu al-Abbas), al-Mufhim vol. 7 pp. 294-302; Ibn Hajar, al-Isaba (entries of Tamim al-Dari and Fatima bint Qays); al-Suyuti, Tadrib al-Rawi vol. 5 pp. 266-268 (Awwama ed.); read in the local OCR harvest 15 November 2026"
+  generated_by: "Claude Code (Sonnet 5.5 agent)"
+  model: claude-sonnet-5-5
+  run: cosmos-browser-1
+status: { review: draft, completeness: 2, generated_by: "Claude Code (Sonnet 5.5 agent)" }

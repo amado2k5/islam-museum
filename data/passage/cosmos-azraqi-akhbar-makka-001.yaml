@@ -1,0 +1,24 @@
+id: passage/cosmos-azraqi-akhbar-makka-001
+class: passage
+unit: chapter
+work: work/akhbar-makkah-al-azraqi
+ref: "75"
+label:
+  ar: "أخبار مكة — الأزرقي — ص 75"
+  en: "أخبار مكة — الأزرقي — p. 75"
+text: "وسكانها يومئذ الجن والشياطين فلا ينبغي لهم أن ينظروا إلى شيء من الجنة"
+summary:
+  ar: "في باب هبوط آدم يذكر الأزرقي أن ساكني الأرض عند نزوله كانوا الجن والشياطين، وأن الملائكة حرست خيمة آدم منهم."
+  en: "In his chapter on Adam's descent, al-Azraqi says the earth's inhabitants at that time were jinn and devils, and that angels guarded Adam's tent from them."
+relations:
+  - { type: mentions, target: concept/jinn, sources: [source/azraqi-akhbar-makka] }
+  - { type: mentions, target: person/adam, sources: [source/azraqi-akhbar-makka] }
+provenance:
+  layer: own-research
+  source: "أخبار مكة — الأزرقي ص 75 — OCR على القرص المحلي، صفحة الملف رقم 75 — geography/azraqi-akhbar-makka/azraqi/book.txt"
+  generated_by: "Claude Code (Sonnet 5.5 agent)"
+  model: claude-sonnet-5-5
+  run: cosmos-browser-1
+tags: [cosmos-browser, cosmos-before-adam]
+sources: [source/azraqi-akhbar-makka]
+status: { review: draft, completeness: 1, generated_by: "Claude Code (Sonnet 5.5 agent)" }

@@ -65,7 +65,7 @@ describe("one API export per browser or explorer (AGENTS.md: every feature is gr
 
   it("writes jobs, fatwa, khutab, poetry and screens with their fields, edges, prose languages and job holders", () => {
     const data = featureApiData(compiled);
-    expect(Object.keys(data).sort()).toEqual(["akhlaq.json", "angels.json", "ansab.json", "asma.json", "battles.json", "bayt.json", "companions.json", "dreams.json", "duas.json", "eschatology.json", "fatwa.json", "ghayb.json", "halal.json", "hasanats.json", "hisab.json", "hudud.json", "ibadat.json", "islamic-economy.json", "jannas.json", "jinn-devils.json", "jobs.json", "khulafa.json", "khutab.json", "madhahib.json", "magic.json", "messengers.json", "miracles.json", "mukatabat.json", "nar.json", "nature.json", "nubuwat.json", "places.json", "poetry.json", "qiyama.json", "qudsi.json", "qurun.json", "sayyiat.json", "screens.json", "tafsir.json", "tibb.json", "usra.json"]);
+    expect(Object.keys(data).sort()).toEqual(["akhlaq.json", "angels.json", "ansab.json", "asma.json", "battles.json", "bayt.json", "companions.json", "cosmos.json", "dreams.json", "duas.json", "eschatology.json", "fatwa.json", "ghayb.json", "halal.json", "hasanats.json", "hisab.json", "hudud.json", "ibadat.json", "islamic-economy.json", "jannas.json", "jinn-devils.json", "jobs.json", "khulafa.json", "khutab.json", "madhahib.json", "magic.json", "messengers.json", "miracles.json", "mukatabat.json", "nar.json", "nature.json", "nubuwat.json", "places.json", "poetry.json", "qiyama.json", "qudsi.json", "qurun.json", "sayyiat.json", "screens.json", "tafsir.json", "tibb.json", "usra.json"]);
     expect(data["qudsi.json"].items.map((i) => i.id)).toEqual(["passage/muslim-2577"]);
     expect(data["qudsi.json"].items[0]).toMatchObject({ work: "work/sahih-muslim", ref: "2577", hadith: "zulm", themes: ["ethics-and-character"] });
     expect(data["qudsi.json"].feature).toBe("hadith-qudsi-browser");
@@ -548,6 +548,25 @@ describe("one API export per browser or explorer (AGENTS.md: every feature is gr
     expect(ids).not.toContain("passage/muwatta-9999"); // «العين» watering crops is not the evil eye
     expect(items.find((i) => i.id === "passage/muslim-9999")).toMatchObject({ section: "sunnah", topics: ["sihr"] });
     expect(items.find((i) => i.id === "concept/sihr")).toMatchObject({ section: "concepts", topics: ["sihr"] });
+  });
+
+  it("exports cosmos: Qur'an verses from the reviewed table, lexicon passages by corpus and topic, tagged records, guarded lexemes", () => {
+    const earths = makeNode("passage/quran-42-29x", "passage", { unit: "ayah", work: "work/quran", sura: 42, aya: 29, text: "ومن آياته خلق السماوات والأرض وما بث فيهما من دابة" });
+    const notListed = makeNode("passage/quran-2-1x", "passage", { unit: "ayah", work: "work/quran", sura: 2, aya: 1, text: "الم" });
+    const sevenEarthsHadith = makeNode("passage/muslim-8888", "passage", { unit: "hadith", work: "work/sahih-muslim", ref: "8888", text: "من ظلم قيد شبر من الأرض طوقه من سبع أرضين" });
+    const returned = makeNode("passage/muwatta-8888", "passage", { unit: "hadith", work: "work/muwatta-malik", ref: "8888", text: "ثم عاد إلى بيته وسد الباب وأكل ستة أيام" });
+    const lostConcept = { ...makeNode("concept/ashab-al-rass", "concept", { kind: "term" }), tags: ["cosmos-browser", "cosmos-lost-peoples"] };
+    const data = featureApiData({ ...compiled, nodes: [...compiled.nodes, earths, notListed, sevenEarthsHadith, returned, lostConcept], edges: compiled.edges });
+    const items = data["cosmos.json"].items;
+    const ids = items.map((i) => i.id);
+    expect(ids).toContain("passage/quran-42-29x");
+    expect(ids).toContain("passage/muslim-8888");
+    expect(ids).toContain("concept/ashab-al-rass");
+    expect(ids).not.toContain("passage/quran-2-1x"); // a verse is in only because the reviewed table lists it
+    expect(ids).not.toContain("passage/muwatta-8888"); // «عاد»، «سد»، «ستة أيام» in ordinary prose are not the topic
+    expect(items.find((i) => i.id === "passage/quran-42-29x")).toMatchObject({ section: "quran", topics: ["beyond-earth"] });
+    expect(items.find((i) => i.id === "passage/muslim-8888")).toMatchObject({ section: "sunnah" });
+    expect(items.find((i) => i.id === "concept/ashab-al-rass")).toMatchObject({ section: "concepts", topics: ["lost-peoples"] });
   });
 
   it("exports qiyama: detected passages by corpus and kind, gated ambiguous lexemes, exclusions, future-book inclusion", () => {

@@ -1,0 +1,24 @@
+id: passage/cosmos-tafsir-ibn-kathir-001
+class: passage
+unit: chapter
+work: work/tafsir-ibn-kathir
+ref: "269"
+label:
+  ar: "تفسير ابن كثير — ص 269"
+  en: "Tafsir Ibn Kathir — p. 269"
+text: "وقال وهب بن منبه: لله ثمانية عشر ألف عالَم؛ الدُّنيا عالم منها. وقال مقاتل: العَوَالِمُ ثمانون ألفًا."
+summary:
+  ar: "ينقل ابن كثير عن البغوي أعداداً مروية لـ«العالمين»: عن وهب بن منبه ثمانية عشر ألف عالم وهذه الدنيا واحد منها، وعن مقاتل ثمانون ألفاً؛ وقد وصف في الصفحة نفسها قولاً مجاوراً بأنه غريب يحتاج إلى دليل صحيح، ونبّه محقق الطبعة إلى أن مثل هذه الأعداد لا دليل صحيح عليها."
+  en: "Ibn Kathir, relaying al-Baghawi, lists transmitted counts for the 'worlds' of the Fatiha: Wahb ibn Munabbih says eighteen thousand worlds, this one among them, and Muqatil says eighty thousand. On the same page he calls a neighbouring report strange and in need of sound evidence, and the edition's footnote says such numbers have no sound proof."
+relations:
+  - { type: mentions, target: person/wahb-ibn-munabbih, sources: [source/tafsir-ibn-kathir-azazi-islamiyya-2017] }
+  - { type: mentions, target: concept/jinn, sources: [source/tafsir-ibn-kathir-azazi-islamiyya-2017] }
+provenance:
+  layer: own-research
+  source: "تفسير ابن كثير، الصفحة 269 من ملف المسح، عنصر الحصاد tafsir/tafsir-ibn-kathir/0012994؛ المقتبس نص التعرّف الضوئي بحدود أربعين كلمة"
+  generated_by: "Claude Code (Sonnet 5.5 agent)"
+  model: claude-sonnet-5-5
+  run: cosmos-browser-1
+tags: [cosmos-browser, cosmos-many-worlds, quran-1-2]
+sources: [source/tafsir-ibn-kathir-azazi-islamiyya-2017]
+status: { review: draft, completeness: 1, generated_by: "Claude Code (Sonnet 5.5 agent)" }

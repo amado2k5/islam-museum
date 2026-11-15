@@ -1,0 +1,27 @@
+id: passage/cosmos-bidaya-nihaya-008
+class: passage
+unit: chapter
+work: work/al-bidaya-wal-nihaya
+ref: "124"
+label:
+  ar: "البداية والنهاية — ابن كثير — ص 124"
+  en: "البداية والنهاية — ابن كثير — p. 124"
+text: "العرب العاربة وهم قبائل كثيرة منهم عاد وثمود وجرهم وطسم وجديس وأميم ومدين وعملاق"
+summary:
+  ar: "يعدّ ابن كثير القبائل التي يسميها العرب العاربة، وهي الأمم القديمة التي سبقت إسماعيل، ومنها عاد وثمود وطسم وجديس وعملاق."
+  en: "Ibn Kathir lists the tribes called the original Arabs, the ancient peoples who came before Ismail, among them Ad, Thamud, Tasm, Jadis and Amalek."
+relations:
+  - { type: mentions, target: group/aad, sources: [source/al-bidaya-wal-nihaya] }
+  - { type: mentions, target: group/thamud, sources: [source/al-bidaya-wal-nihaya] }
+  - { type: mentions, target: group/tasm, sources: [source/al-bidaya-wal-nihaya] }
+  - { type: mentions, target: group/jadis, sources: [source/al-bidaya-wal-nihaya] }
+  - { type: mentions, target: group/amaliq, sources: [source/al-bidaya-wal-nihaya] }
+provenance:
+  layer: own-research
+  source: "البداية والنهاية — ابن كثير ص 124 — OCR على القرص المحلي، صفحة الملف رقم 124 — tareekh/bidaya-nihaya/AAlexandrina-074627/book.txt"
+  generated_by: "Claude Code (Sonnet 5.5 agent)"
+  model: claude-sonnet-5-5
+  run: cosmos-browser-1
+tags: [cosmos-browser, cosmos-lost-peoples]
+sources: [source/al-bidaya-wal-nihaya]
+status: { review: draft, completeness: 1, generated_by: "Claude Code (Sonnet 5.5 agent)" }
