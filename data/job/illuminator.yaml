@@ -1,0 +1,41 @@
+id: job/illuminator
+class: job
+label: { ar: "المذهّب", en: "Illuminator (mudhahhib)", ur: "مذہب ⁦(تذہیب کار)⁩" }
+names:
+  - { value: "مُذهّب", kind: alternate }
+  - { value: "müzehhib", kind: latinized, lang: tr }
+  - { value: "tezhipçi", kind: latinized, lang: tr }
+summary:
+  ar: "المذهّب ⁦(müzehhib)⁩ صاحب فن التذهيب: تزيين المخطوطات والألواح والمرقعات بورق الذهب المسحوق وبالألوان — ظهريّات وسرلوحات وعناوين سور ودوَرك آيات وورود هوامش — في أساليب تغيّرت من هرات إلى قونية إلى إستانبول."
+  en: "The illuminator (müzehhib) decorated manuscripts, calligraphy panels and albums with burnished gold leaf and colour — zahriye medallions, serlevha pages, sura-head panels, verse-stop rosettes and marginal ornament — in styles that shifted from Herat to Konya to Istanbul."
+  ur: "مذہب ⁦(تذہیب کار)⁩ وہ کاریگر ہے جو مخطوطات، خطاطی کے تختوں اور مرقعوں کو کڑیا ہوا ورقِ زر اور رنگوں سے آراستہ کرتا ہے — ظہریہ مدالے، سرلوحہ صفحات، سورت سرخیاں، آیت کے گل اور حاشیے کی آرائش — ہرات سے قونیہ سے استنبول تک بدلتی طرزوں میں۔"
+domain: arts-letters
+kind: craft
+hirfa: true
+era:
+  origins: medieval
+  status_today: living
+places:
+  - { place: place/istanbul, note: "Ottoman palace nakkaşhâne styles: Baba Nakkaş under Mehmed II, Şahkulu's Saz yolu, Kara Memi under Süleyman, Ali Üsküdârî's ruganî and Hezargradî Ahmed Atâ's pesend manner.", sources: [source/tdv-tezhip] }
+  - { place: place/cairo, note: "Mamluk Cairo produced master müzehhibs; İbrâhim el-Âmidî's mushaf under al-Malik al-Ashraf Sha'ban is counted a masterpiece.", sources: [source/tdv-tezhip] }
+regions: [anatolia-balkans, persia-central-asia, egypt-nile]
+organization:
+  organized: court-office
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people, living]
+periods: [period/crusades-ayyubid-mamluk, period/gunpowder-empires, period/modern-era]
+sources: [source/tdv-tezhip]
+craft:
+  materials: [gold, paper]
+  guild:
+    bodies: []
+    shaykh_title: { ar: "سرنقّاش", en: "sernakkaş (chief painter)", ur: "سرنقاش" }
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-art-1" }
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi, 'TEZHİP' (İnci Ayan Birol; Gülnur Duran; Fatma Çiçek Derman, 2012), web edition, all three sections read on 15 Nov 2026. Sections I motifs/design, II usage areas, III styles and masters used as citation anchors."
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-art-1-drafting"
