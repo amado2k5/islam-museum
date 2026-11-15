@@ -74,6 +74,10 @@ Every gap item is **open** unless a live claim covers it. `claimed`, `in_progres
 
 Held for the founder (agents skip them): the items in `docs/delegation/lane-ledgers/README.md` under "Not decided", recorded in `claims.yaml` as `blocked` with reason "needs founder". Questions that need outside research are logged in lane progress files as `GEMINI:` lines; they are `blocked, needs Gemini` until the orchestrator hands back a verified answer, which you still verify against a primary source.
 
+## Goal and daily check
+
+Founder goal (14 November 2026): every entity in the prose classes has full prose in Arabic, English and Urdu. The share of full prose is tracked in [prose-completion.md](prose-completion.md), which is regenerated with `npx tsx scripts/prose-completion.ts --write`. Regenerate it at least once a day on `main` and keep the history row for each day; the latest figures are in that file, not here.
+
 ## Counts (snapshot; regenerate with `npm run enrichment-queue`)
 
 <!-- COUNTS:START -->
