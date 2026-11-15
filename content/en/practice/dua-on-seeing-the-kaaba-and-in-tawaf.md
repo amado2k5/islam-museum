@@ -1,0 +1,11 @@
+---
+id: practice/dua-on-seeing-the-kaaba-and-in-tawaf
+lang: en
+source_lang: ar
+translators: ["Claude Fable 5.2 (claude-fable-5-2), draft translation"]
+---
+## Summary
+What al-Nawawi gathers on supplicating at the sight of the Ka'ba, in the section on remembrance during the circuits, and at the Multazam. {cite:al-adhkar-nawawi-arnaut-1994 p. 194}
+
+## What al-Nawawi gathers in al-Adhkar
+Al-Nawawi says that when a Muslim enters Mecca, sees the Ka'ba and reaches the mosque, it is recommended that he raise his hands and supplicate, since it has come down that his supplication is answered at the sight of the Ka'ba. He then says «اللهم زد هذا البيت تشريفا وتعظيما وتكريما ومهابة», O God, increase this House in honour, exaltation, noble standing and awe, and then «اللهم أنت السلام ومنك السلام، حينا ربنا بالسلام», and asks what he wishes {cite:al-adhkar-nawawi-arnaut-1994 p. 194}. In the section on remembrance during the circuits, he says that at touching the Black Stone and at the start of the circuit one says «بسم الله والله أكبر، اللهم إيمانا بك وتصديقا بكتابك ووفاء بعهدك واتباعا لسنة نبيك», repeating it at each circuit when facing the Stone {cite:al-adhkar-nawawi-arnaut-1994 p. 194}. In the brisk walking of the first three circuits one says «اللهم اجعله حجا مبرورا وذنبا مغفورا وسعيا مشكورا», and in the remaining four «اللهم اغفر وارحم واعف عما تعلم وأنت الأعز الأكرم», and then adds a supplication drawn from a verse he gives {cite:al-adhkar-nawawi-arnaut-1994 p. 194}. He reports from al-Shafi'i that the supplication of that verse is the one he loves most in the circuits, and that one may supplicate between circuits for what one wishes of religion and this world {cite:al-adhkar-nawawi-arnaut-1994 p. 195}. He relates from al-Hasan that supplication is answered in fifteen places there, among them the circuits, the Multazam and Zamzam {cite:al-adhkar-nawawi-arnaut-1994 p. 195}. He says that al-Shafi'i and most of his companions held reciting the Qur'an in the circuits to be recommended, that al-Halimi chose otherwise, and that the first view is the sound one {cite:al-adhkar-nawawi-arnaut-1994 p. 195}. In the section on the Multazam, between the Ka'ba and the Black Stone, he says supplication is answered there, and gives one beginning «اللهم لك الحمد حمدا يوافي نعمك ويكافئ مزيدك» {cite:al-adhkar-nawawi-arnaut-1994 p. 195}.

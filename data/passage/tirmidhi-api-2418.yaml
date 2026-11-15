@@ -10,6 +10,7 @@ summary:
   en: "A report in Jami' al-Tirmidhi, no. 2418 (Chapters on the description of the Day of Judgement, Ar-Riqaq, and Al-Wara'), that speaks of deeds settled between people. The Hasanat and Sayyi'at Ledger lists it with the texts that count, write, erase or weigh a deed."
   ur: "جامع ترمذی کی حدیث نمبر 2418، جس میں نیکیوں اور برائیوں سے بدلہ چکانا کا ذکر ہے۔ حسنات و سیئات کی فہرست اسے ان نصوص کے ساتھ جمع کرتی ہے جو عمل کو گنتے، لکھتے، مٹاتے یا تولتے ہیں۔"
 relations:
+  - { type: part_of, target: passage/tirmidhi-kitab-37 }
   - { type: mentions, target: concept/hisab-al-hasanat-wal-sayyiat, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
   - { type: mentions, target: concept/al-sayyiat, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 2418 (book 37 hadith 4); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "hisab-hadithapi-1" }

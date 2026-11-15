@@ -20,3 +20,5 @@ provenance:
   model: claude-opus-5-5
   run: ocr-harvest-2026-11-04
 status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker H)" }
+relations:
+  - {type: located_in, target: place/eger, sources: [source/yilmaz-ottoman-architecture-hungary-2024], note: 'Stated in the summary of building/kethuda-hamza-bey-minaret-eger: "Minaret of the Kethüda Hamza Bey Mosque, Eger"'}

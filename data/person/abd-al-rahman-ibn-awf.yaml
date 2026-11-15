@@ -23,7 +23,7 @@ story_roles:
   - { role: companion, start: { edtf: "0610~" }, status: tradition, note: "من السابقين الأولين في الدعوة السرية (الرحيق ص75-76).", sources: [source/mubarakpuri-raheeq] }
 faith:
   - { value: sunni, basis: tradition, note: "Early Muslim; recorded under the museum's Sunni frame (docs/scope.md)." }
-born: { edtf: "580", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi: c. 43 BH–32 AH)" }
+born: { edtf: "580", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi: c. 43 BH–32 AH) Agrees with Wikidata Q1647771 (P569, a statement without a reference), item revision 2568192791, read on 13 November 2026.", sources: [source/wikidata] }
 died: { edtf: "0652", hijri: "0032", calendar: julian, precision: year, status: debated, derived: true, note: "Died 32 AH aged seventy-two and buried at al-Baqi', Uthman leading the prayer; another report gives 31 AH (al-Isaba p. 817); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
 relations:
   - { type: lived_in, target: place/mecca, note: "Place association from the person's nisba/name (القرشي); denotes association, not proven residence.", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/ibn-hisham-saqqa, source/assabile-omar-abdelkafy, source/assabile-mosaad-anwar], confidence: low }

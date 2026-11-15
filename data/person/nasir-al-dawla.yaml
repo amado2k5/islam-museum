@@ -15,7 +15,7 @@ provenance:
   run: prose-fill-persons-batch40
 external_ids: { wikidata: "Q4164636", nomisma: "nasir_al-dawlah" }
 born: { edtf: "905~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Nasir al-Dawla Hamdani); Ibn al-Athir" }
-died: { edtf: "969", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Nasir al-Dawla Hamdani); Ibn al-Athir" }
+died: { edtf: "969", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Nasir al-Dawla Hamdani); Ibn al-Athir Agrees with Wikidata Q4164636 (P570, a statement without a reference), item revision 2562705375, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/mosul, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q83317)" }
   - { type: died_in, target: place/zakho-fort, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q12232925)" }

@@ -12,7 +12,7 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/mongol-post-mongol]
-born: { edtf: "1430", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Sakaoglu (Kadin Sultanlari)" }
+born: { edtf: "1430", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Sakaoglu (Kadin Sultanlari) Agrees with Wikidata Q21523650 (P569, a statement without a reference), item revision 2453208845, read on 13 November 2026.", sources: [source/wikidata] }
 died: { edtf: "1464", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Sakaoglu (Kadin Sultanlari)" }
 relations:
   - { type: lived_in, target: place/anatolia, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/dawlat-uthmaniyya-salabi] }

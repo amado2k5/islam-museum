@@ -16,6 +16,7 @@ born: { edtf: "525~", calendar: gregorian, precision: year, derived: true, note:
 died: { edtf: "608~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Diwan Antara / Aghani" }
 relations:
   - { type: lived_in, target: place/najd, note: "Knight and poet of Banu Abs of the Najd.", sources: [source/muruj-al-dhahab], confidence: medium }
+  - {type: authored, target: work/muallaqat-antara, sources: [source/sharh-muallaqat-sab-zawzani-1921], note: 'Stated in the summary of work/muallaqat-antara: "The Mu''allaqa of Antara ibn Shaddad"'}
 sources: [source/muruj-al-dhahab, source/mubarakpuri-raheeq, source/assabile-omar-abdelkafy]
 status:
   review: published

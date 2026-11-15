@@ -11,10 +11,11 @@ tags: [tibb-browser, tibb-tibb]
 sources: [source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab, source/wikidata]
 status: { review: draft, completeness: 1 }
 provenance:
+  source: "the record's cited sources (source/tarikh-khulafa-minhaj-1434; source/muruj-al-dhahab; source/wikidata); field added 15 November 2026"
   layer: own-research
   generated_by: "Devin (SWE-2 High)"
   extraction_flow: "Apple Vision OCR -> manual extraction"
-died: { edtf: "634~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Harith b. Kalada' / Pellat); Ibn Abi Usaybi'a" }
+died: { edtf: "634~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Harith b. Kalada' / Pellat); Ibn Abi Usaybi'a Agrees with Wikidata Q2056226 (P570, a statement without a reference), item revision 2533521893, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/taif, note: "Wikidata Q182640 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: died_in, target: place/medina, note: "Wikidata Q35484 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }

@@ -20,7 +20,7 @@ provenance:
   generated_by: Devin
   model: "unknown"
   run: "education-E3-facts-batch12"
-born: { edtf: "873", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; al-Dhahabi (Siyar)" }
-died: { edtf: "947", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; al-Dhahabi (Siyar)" }
+born: { edtf: "873", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; al-Dhahabi (Siyar) Agrees with Wikidata Q335488 (P569, a statement without a reference), item revision 2550860141, read on 13 November 2026.", sources: [source/wikidata] }
+died: { edtf: "947", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; al-Dhahabi (Siyar) Agrees with Wikidata Q335488 (P570, a statement without a reference), item revision 2550860141, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: ruler_of, target: place/qayrawan, note: "From text: استولى على القيروان ورقادة سنة 333هـ", sources: [source/tarikh-ibn-khaldun-ibar, source/kamil-ibn-al-athir, source/fihrist-ibn-al-nadim], confidence: low }

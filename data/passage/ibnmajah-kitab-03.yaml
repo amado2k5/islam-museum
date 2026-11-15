@@ -1,0 +1,23 @@
+id: passage/ibnmajah-kitab-03
+class: passage
+unit: chapter
+work: work/sunan-ibn-majah
+ref: "kitab-03"
+label:
+  ar: "سنن ابن ماجه، كتاب الأذان والسنة فيها"
+  en: "Sunan Ibn Majah, Book 3: The Book of the Adhan and the Sunnah Regarding It"
+  ur: "سنن ابن ماجہ، کتاب الاذان والسنۃ فیہا"
+summary:
+  ar: "القسم 3 من سنن ابن ماجه في تقسيم قاعدة بيانات الحديث المفتوحة التي أُخذت منها سجلات المتحف، وعنوانه «كتاب الأذان والسنة فيها»، ويضم فيها النصوص من 706 إلى 734 بترقيمها. يضع المتحف تحت هذا الكتاب ما عنده من سجلات هذه النصوص."
+  en: "Book 3 of Sunan Ibn Majah (The Book of the Adhan and the Sunnah Regarding It) in the division of the open hadith dataset the museum took its reports from: reports 706 to 734 in that dataset's numbering. The museum files its records of these reports under this book; printed editions divide and number the collection differently."
+  ur: "سنن ابن ماجہ کی کتاب 3، عنوان «کتاب الاذان والسنۃ فیہا»، اس کھلے حدیث ڈیٹا سیٹ کی تقسیم کے مطابق جس سے میوزیم کے ریکارڈ لیے گئے: اس کی ترقیم میں روایات 706 تا 734۔ میوزیم ان روایات کے اپنے ریکارڈ اسی کتاب کے تحت رکھتا ہے۔"
+relations:
+  - { type: part_of, target: work/sunan-ibn-majah }
+provenance:
+  layer: own-research
+  source: "fawazahmed0/hadith-api (Unlicense), edition eng-ibnmajah: metadata.sections and section_details, book 3; Arabic title from AhmedBaset/hadith-json, ibnmajah.json, matched by the English name"
+  generated_by: "Claude Code"
+  model: claude-fable-5-2
+  run: hadith-library-books-2026-11-15
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0, source/hadith-json-ahmedbaset]
+status: { review: published, completeness: 1, generated_by: "Claude Code (claude-fable-5-2), from the dataset's own division; no report text stored" }

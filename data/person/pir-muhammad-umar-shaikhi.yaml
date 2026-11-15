@@ -23,7 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 1
-born: { edtf: "1379~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica" }
-died: { edtf: "1409", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica" }
+born: { edtf: "1379~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica Agrees with Wikidata Q11818421 (P569, a statement without a reference), item revision 2530412810, read on 13 November 2026.", sources: [source/wikidata] }
+died: { edtf: "1409", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica Agrees with Wikidata Q11818421 (P570, a statement without a reference), item revision 2530412810, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/farghana, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/bosworth-new-islamic-dynasties-1996] }

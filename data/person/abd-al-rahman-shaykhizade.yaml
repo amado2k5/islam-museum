@@ -29,7 +29,7 @@ occupations:
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/al-aalam]
-died: { edtf: "1667", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 3 p. 332: 1078 AH = 1667 CE. Date-enrichment pass; source: Majma al-Anhur; Kashf al-Zunun (d. 1078 AH)" }
+died: { edtf: "1667", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 3 p. 332: 1078 AH = 1667 CE. Date-enrichment pass; source: Majma al-Anhur; Kashf al-Zunun (d. 1078 AH) Agrees with Wikidata Q31301096 (P570, a statement without a reference), item revision 2441353215, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/anatolia, note: "From text: Ottoman (nationality adjective); broad association, flagged for review.", sources: [source/al-aalam], confidence: low }
   - { type: lived_in, target: place/gallipoli, note: "Al-Zirikli, al-A'lam vol. 3 p. 332: of the people of Gallipoli (Kelibolu).", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }

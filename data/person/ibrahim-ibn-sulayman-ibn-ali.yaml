@@ -11,8 +11,8 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/gunpowder-empires]
-born: { edtf: "1659", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ulama Najd Khilal Sittat Qurun / al-Bassam" }
-died: { edtf: "1728", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ulama Najd Khilal Sittat Qurun / al-Bassam" }
+born: { edtf: "1659", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ulama Najd Khilal Sittat Qurun / al-Bassam Agrees with Wikidata Q124605024 (P569, a statement without a reference), item revision 2561465781, read on 13 November 2026.", sources: [source/wikidata] }
+died: { edtf: "1728", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ulama Najd Khilal Sittat Qurun / al-Bassam Agrees with Wikidata Q124605024 (P570, a statement without a reference), item revision 2561465781, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/iraq, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/al-aalam] }
 sources: [source/al-aalam]

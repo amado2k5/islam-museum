@@ -18,6 +18,7 @@ relations:
   - { type: lived_in, target: place/mecca, note: "From text: of Mecca", sources: [source/dawlat-uthmaniyya-salabi], confidence: low }
   - { type: child_of, target: person/abd-al-majid-i-uthmani, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: successor_of, target: person/murad-v-uthmani, sources: [source/dawlat-uthmaniyya-salabi] }
+  - {type: commissioned, target: building/yildiz-palace, sources: [source/goodwin-ottoman-architecture-1971], note: 'Stated in the summary of building/yildiz-palace: "chiefly Abdül Hamit II"'}
 external_ids:
   nomisma: "abdulhamid_ii"
   wikidata: Q134817

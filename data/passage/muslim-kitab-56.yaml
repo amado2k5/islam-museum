@@ -1,0 +1,23 @@
+id: passage/muslim-kitab-56
+class: passage
+unit: chapter
+work: work/sahih-muslim
+ref: "kitab-56"
+label:
+  ar: "صحيح مسلم، كتاب التفسير"
+  en: "Sahih Muslim, Book 56: The Book of Commentary on the Qur'an"
+  ur: "صحیح مسلم، کتاب التفسیر"
+summary:
+  ar: "القسم 56 من صحيح مسلم في تقسيم قاعدة بيانات الحديث المفتوحة التي أُخذت منها سجلات المتحف، وعنوانه «كتاب التفسير»، ويضم فيها النصوص من 7523 إلى 7563 بترقيمها. يضع المتحف تحت هذا الكتاب ما عنده من سجلات هذه النصوص."
+  en: "Book 56 of Sahih Muslim (The Book of Commentary on the Qur'an) in the division of the open hadith dataset the museum took its reports from: reports 7523 to 7563 in that dataset's numbering. The museum files its records of these reports under this book; printed editions divide and number the collection differently."
+  ur: "صحیح مسلم کی کتاب 56، عنوان «کتاب التفسیر»، اس کھلے حدیث ڈیٹا سیٹ کی تقسیم کے مطابق جس سے میوزیم کے ریکارڈ لیے گئے: اس کی ترقیم میں روایات 7523 تا 7563۔ میوزیم ان روایات کے اپنے ریکارڈ اسی کتاب کے تحت رکھتا ہے۔"
+relations:
+  - { type: part_of, target: work/sahih-muslim }
+provenance:
+  layer: own-research
+  source: "fawazahmed0/hadith-api (Unlicense), edition eng-muslim: metadata.sections and section_details, book 56; Arabic title from AhmedBaset/hadith-json, muslim.json, matched by the English name"
+  generated_by: "Claude Code"
+  model: claude-fable-5-2
+  run: hadith-library-books-2026-11-15
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0, source/hadith-json-ahmedbaset]
+status: { review: published, completeness: 1, generated_by: "Claude Code (claude-fable-5-2), from the dataset's own division; no report text stored" }

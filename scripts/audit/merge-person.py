@@ -22,7 +22,10 @@ import yaml
 ROOT = Path(__file__).resolve().parents[2]
 canon, dup = sys.argv[1], sys.argv[2]
 apply = "--apply" in sys.argv
-cid, did = f"person/{canon}", f"person/{dup}"
+# `--class event` (or any other class) merges two records of that class the same way; alternate names are a person field
+# and are carried for persons only.
+CLS = sys.argv[sys.argv.index("--class") + 1] if "--class" in sys.argv else "person"
+cid, did = f"{CLS}/{canon}", f"{CLS}/{dup}"
 cp, dp = ROOT / f"data/{cid}.yaml", ROOT / f"data/{did}.yaml"
 ct, dt = cp.read_text(encoding="utf8"), dp.read_text(encoding="utf8")
 c, d = yaml.safe_load(ct), yaml.safe_load(dt)
@@ -52,7 +55,7 @@ if "aliases" in c:
         raise SystemExit(f"{cid} has aliases in a shape this script does not edit: merge by hand")
     t = re.sub(r"(?m)^aliases: \[([^\]\n]*)\]", lambda m: f"aliases: [{m.group(1)}, {did}]", t, count=1)
 else:
-  t = re.sub(r"(?m)^(id: person/[a-z0-9-]+)[ \t]*$", lambda m: f"{m.group(1)}\naliases: [{did}]   # the same person filed twice; merged 13 Nov 2026 (audit S7), the id still resolves", t, count=1)
+  t = re.sub(rf"(?m)^(id: {CLS}/[a-z0-9-]+)[ \t]*$", lambda m: f"{m.group(1)}\naliases: [{did}]   # the same {CLS} filed twice; merged (audit S7 and its second pass), the id still resolves", t, count=1)
 # sources
 new_sources = [s for s in d.get("sources", []) if s not in c.get("sources", [])]
 if new_sources:
@@ -91,7 +94,7 @@ new_names = [n for n in d.get("names", []) if n.get("value") not in known]
 for lang, v in (d.get("label") or {}).items():
     if v not in known and v not in [n["value"] for n in new_names]:
         new_names.append({"value": v, "kind": "alternate"})
-if new_names:
+if new_names and CLS == "person":
     b = top_block(t, "names"); lines = t.split("\n")
     if b is None: lines[len(lines) - 1:len(lines) - 1] = ["names:"] + [f"  - {flow(n)}" for n in new_names]
     elif b[1] == b[0] + 1: raise SystemExit(f"{cid}: names is written inline; merge by hand")
@@ -120,7 +123,7 @@ for r in new_rel: assert any(x["type"] == r["type"] and x["target"] == r["target
 for k, v in new_ext.items(): assert after["external_ids"][k] == v
 for k in c:
     if k not in ("sources", "relations", "external_ids", "names", "aliases"): assert after[k] == c[k], k
-for n in new_names: assert any(x.get("value") == n["value"] for x in after["names"]), n
+for n in (new_names if CLS == "person" else []): assert any(x.get("value") == n["value"] for x in after["names"]), n
 
 # prose
 src = (d.get("sources") or [None])[0]

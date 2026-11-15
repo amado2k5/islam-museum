@@ -11,7 +11,7 @@ summary:
 wings: [people]
 regions: [anatolia-balkans, persia-central-asia]
 periods: [period/gunpowder-empires]
-born: { edtf: "1457~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi. Ibn al-Imad gives no birth year." }
+born: { edtf: "1457~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi. Ibn al-Imad gives no birth year. Agrees with Wikidata Q343494 (P569, a statement without a reference), item revision 2561677588, read on 13 November 2026.", sources: [source/wikidata] }
 died: { edtf: "1520", hijri: "0925~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi Confirmed on 13 November 2026 against Wikidata Q343494 (P570, a statement with a reference), item revision 2561677588. Ibn al-Imad, vol. 10 p. 184, lists him under 925 AH with the word approximately; 925 AH runs from January to December 1519 by the museum's conversion, one year before the card.", sources: [source/wikidata, source/shadharat-dhahab] }
 relations:
   - { type: born_in, target: place/bitlis, confidence: medium, note: "Place link from Wikidata; pending a second source. Ibn al-Imad gives the nisba al-Bidlisi, put between brackets by the editor from other sources, but no birthplace.", sources: [source/wikidata] }

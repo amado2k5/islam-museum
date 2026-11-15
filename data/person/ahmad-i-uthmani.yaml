@@ -34,5 +34,6 @@ relations:
   - { type: ruled_over, target: polity/ottoman-empire, sources: [source/sicill-i-osmani] }
   - { type: successor_of, target: person/mehmed-iii-uthmani, sources: [source/sicill-i-osmani] }
   - { type: lived_in, target: place/anatolia, note: "From text: Ottoman (nationality adjective); broad association, flagged for review.", sources: [source/dawlat-uthmaniyya-salabi, source/encyclopaedia-of-islam-2], confidence: low }
+  - {type: commissioned, target: building/blue-mosque, sources: [source/freely-ottoman-architecture-2011], note: 'Stated in the summary of building/blue-mosque: "Ahmed I directed the architect Mehmet Agha to begin it in 1609"'}
 story_roles:
   - { role: ruler, toward: polity/ottoman-empire, start: { edtf: "1603", calendar: julian, precision: year }, end: { edtf: "1617", calendar: julian, precision: year }, status: historical, sources: [source/sicill-i-osmani] }

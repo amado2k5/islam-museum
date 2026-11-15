@@ -11,8 +11,8 @@ summary:
 wings: [people]
 regions: [south-asia]
 periods: [period/gunpowder-empires]
-born: { edtf: "1587", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 / Tuzuk-i Jahangiri" }
-died: { edtf: "1622", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 / Tuzuk-i Jahangiri" }
+born: { edtf: "1587", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 / Tuzuk-i Jahangiri Agrees with Wikidata Q26177 (P569, a statement without a reference), item revision 2516836529, read on 13 November 2026.", sources: [source/wikidata] }
+died: { edtf: "1622", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 / Tuzuk-i Jahangiri Agrees with Wikidata Q26177 (P570, a statement without a reference), item revision 2516836529, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/india, confidence: low, note: "Mughal prince, son of Jahangir, per the record's own summary; precise seat pending review.", sources: [source/al-aalam] }
 sources: [source/al-aalam, source/wikidata]

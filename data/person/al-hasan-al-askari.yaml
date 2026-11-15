@@ -18,7 +18,7 @@ importance: 2
 status:
   review: published
   completeness: 3
-born: { edtf: "846", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Hasan al-Askari' / B. Lewis); al-Kulayni (al-Kafi)" }
-died: { edtf: "874", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Hasan al-Askari' / B. Lewis); al-Kulayni (al-Kafi)" }
+born: { edtf: "846", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Hasan al-Askari' / B. Lewis); al-Kulayni (al-Kafi) Agrees with Wikidata Q315920 (P569, a statement without a reference), item revision 2538155435, read on 13 November 2026.", sources: [source/wikidata] }
+died: { edtf: "874", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Hasan al-Askari' / B. Lewis); al-Kulayni (al-Kafi) Agrees with Wikidata Q315920 (P570, a statement without a reference), item revision 2538155435, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: died_in, target: place/samarra, note: "From text: died at Samarra", sources: [source/muruj-al-dhahab] }

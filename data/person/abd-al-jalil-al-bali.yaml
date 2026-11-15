@@ -31,7 +31,7 @@ occupations:
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/al-aalam]
 born: { edtf: "1669", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 3 p. 276: 1079 AH = 1669 CE.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
-died: { edtf: "1707", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Suhub al-Wabila ala Dara'ih al-Hanabila (Ibn Humayd: 1082–1119 AH)" }
+died: { edtf: "1707", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Suhub al-Wabila ala Dara'ih al-Hanabila (Ibn Humayd: 1082–1119 AH) Agrees with Wikidata Q140533674 (P570, a statement without a reference), item revision 2529264618, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/damascus, note: "Wikidata Q3766 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: died_in, target: place/damascus, note: "Wikidata Q3766 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }

@@ -11,7 +11,7 @@ summary:
 wings: [people]
 regions: [arabia]
 periods: [period/gunpowder-empires]
-died: { edtf: "1696", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam" }
+died: { edtf: "1696", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam Agrees with Wikidata Q6408496 (P570, a statement without a reference), item revision 2566394001, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/tubli, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: buried_in, target: place/tubli, note: "al-Zirikli, al-A'lam, vol. 8 p. 66: his tomb is in Tubli", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }

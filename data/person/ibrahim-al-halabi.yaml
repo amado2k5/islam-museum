@@ -11,7 +11,7 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/gunpowder-empires]
-born: { edtf: "1460~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam" }
+born: { edtf: "1460~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam Agrees with Wikidata Q4195341 (P569, a statement without a reference), item revision 2556913921, read on 13 November 2026.", sources: [source/wikidata] }
 died: { edtf: "1549", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam Confirmed on 13 November 2026 against Wikidata Q4195341 (P570, a statement with a reference), item revision 2556913921.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/aleppo, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

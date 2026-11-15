@@ -11,8 +11,8 @@ summary:
 wings: [people]
 regions: [maghreb]
 periods: [period/umayyad]
-born: { edtf: "1109", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
-died: { edtf: "1190", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
+born: { edtf: "1109", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar Agrees with Wikidata Q6535804 (P569, a statement without a reference), item revision 2536943999, read on 13 November 2026.", sources: [source/wikidata] }
+died: { edtf: "1190", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar Agrees with Wikidata Q6535804 (P570, a statement without a reference), item revision 2536943999, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/al-andalus, confidence: low, note: "Associated with al-Andalus per the record's own summary text; relation type pending review.", sources: [source/al-aalam] }
 sources: [source/al-aalam]

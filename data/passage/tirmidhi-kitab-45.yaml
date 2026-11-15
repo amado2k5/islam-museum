@@ -1,0 +1,23 @@
+id: passage/tirmidhi-kitab-45
+class: passage
+unit: chapter
+work: work/jami-al-tirmidhi
+ref: "kitab-45"
+label:
+  ar: "جامع الترمذي، كتاب ثواب القرآن عن رسول الله"
+  en: "Jami' al-Tirmidhi, Book 45: Chapters on The Virtues of the Qur'an"
+  ur: "جامع ترمذی، کتاب ثواب القرآن عن رسول اللہ"
+summary:
+  ar: "القسم 45 من جامع الترمذي في تقسيم قاعدة بيانات الحديث المفتوحة التي أُخذت منها سجلات المتحف، وعنوانه «كتاب ثواب القرآن عن رسول الله»، ويضم فيها النصوص من 2875 إلى 2926 بترقيمها. يضع المتحف تحت هذا الكتاب ما عنده من سجلات هذه النصوص."
+  en: "Book 45 of Jami' al-Tirmidhi (Chapters on The Virtues of the Qur'an) in the division of the open hadith dataset the museum took its reports from: reports 2875 to 2926 in that dataset's numbering. The museum files its records of these reports under this book; printed editions divide and number the collection differently."
+  ur: "جامع ترمذی کی کتاب 45، عنوان «کتاب ثواب القرآن عن رسول اللہ»، اس کھلے حدیث ڈیٹا سیٹ کی تقسیم کے مطابق جس سے میوزیم کے ریکارڈ لیے گئے: اس کی ترقیم میں روایات 2875 تا 2926۔ میوزیم ان روایات کے اپنے ریکارڈ اسی کتاب کے تحت رکھتا ہے۔"
+relations:
+  - { type: part_of, target: work/jami-al-tirmidhi }
+provenance:
+  layer: own-research
+  source: "fawazahmed0/hadith-api (Unlicense), edition eng-tirmidhi: metadata.sections and section_details, book 45; Arabic title from AhmedBaset/hadith-json, tirmidhi.json, matched by the English name"
+  generated_by: "Claude Code"
+  model: claude-fable-5-2
+  run: hadith-library-books-2026-11-15
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0, source/hadith-json-ahmedbaset]
+status: { review: published, completeness: 1, generated_by: "Claude Code (claude-fable-5-2), from the dataset's own division; no report text stored" }

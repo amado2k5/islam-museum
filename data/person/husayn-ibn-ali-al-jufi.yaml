@@ -11,7 +11,7 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
-born: { edtf: "737", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
+born: { edtf: "737", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar Agrees with Wikidata Q22687525 (P569, a statement without a reference), item revision 2557359450, read on 13 November 2026.", sources: [source/wikidata] }
 died: { edtf: "818", hijri: "0203", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar. al-Safadi, al-Wafi, vol. 13 p. 14, prints 203 AH, agreeing with the card.", sources: [source/wafi-bi-l-wafayat-safadi-dar-ihya-2000] }
 relations:
   - { type: born_in, target: place/kufa, confidence: medium, note: "Place link from Wikidata; pending a second source. al-Safadi, al-Wafi, vol. 13 p. 14, gives the nisba al-Kufi.", sources: [source/wikidata, source/wafi-bi-l-wafayat-safadi-dar-ihya-2000] }

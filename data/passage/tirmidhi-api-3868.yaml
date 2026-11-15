@@ -10,6 +10,7 @@ summary:
   en: "In Jami' al-Tirmidhi; mention of the chancery or the barid post."
   ur: "جامع ترمذی میں؛ دیوآن یا بریڈ کا ذکر."
 relations:
+  - { type: part_of, target: passage/tirmidhi-kitab-49 }
   - { type: mentions, target: person/muhammad, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
   - { type: mentions, target: concept/al-mukatabat, sources: [source/jami-al-tirmidhi] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 3868 (book 49 hadith 268); matn excerpt of at most ~55 words", generated_by: "Devin (SWE-2 High)", run: "mukatabat-hadithapi-1" }

@@ -1,0 +1,23 @@
+id: passage/bukhari-kitab-55
+class: passage
+unit: chapter
+work: work/sahih-al-bukhari
+ref: "kitab-55"
+label:
+  ar: "صحيح البخاري، كتاب الوصايا"
+  en: "Sahih al-Bukhari, Book 55: Wills and Testaments (Wasaayaa)"
+  ur: "صحیح بخاری، کتاب الوصایا"
+summary:
+  ar: "القسم 55 من صحيح البخاري في تقسيم قاعدة بيانات الحديث المفتوحة التي أُخذت منها سجلات المتحف، وعنوانه «كتاب الوصايا»، ويضم فيها النصوص من 2738 إلى 2781 بترقيمها. يضع المتحف تحت هذا الكتاب ما عنده من سجلات هذه النصوص."
+  en: "Book 55 of Sahih al-Bukhari (Wills and Testaments (Wasaayaa)) in the division of the open hadith dataset the museum took its reports from: reports 2738 to 2781 in that dataset's numbering. The museum files its records of these reports under this book; printed editions divide and number the collection differently."
+  ur: "صحیح بخاری کی کتاب 55، عنوان «کتاب الوصایا»، اس کھلے حدیث ڈیٹا سیٹ کی تقسیم کے مطابق جس سے میوزیم کے ریکارڈ لیے گئے: اس کی ترقیم میں روایات 2738 تا 2781۔ میوزیم ان روایات کے اپنے ریکارڈ اسی کتاب کے تحت رکھتا ہے۔"
+relations:
+  - { type: part_of, target: work/sahih-al-bukhari }
+provenance:
+  layer: own-research
+  source: "fawazahmed0/hadith-api (Unlicense), edition eng-bukhari: metadata.sections and section_details, book 55; Arabic title from AhmedBaset/hadith-json, bukhari.json, matched by the English name"
+  generated_by: "Claude Code"
+  model: claude-fable-5-2
+  run: hadith-library-books-2026-11-15
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0, source/hadith-json-ahmedbaset]
+status: { review: published, completeness: 1, generated_by: "Claude Code (claude-fable-5-2), from the dataset's own division; no report text stored" }

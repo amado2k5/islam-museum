@@ -132,6 +132,10 @@ A date is an object (`schema/_base.schema.json`, `$defs.date`) so that nothing i
 
 **Du'a occasions.** In `/api/v1/duas.json` each record carries `occasion`: the division of al-Nawawi's al-Adhkar it is filed under (`day`, `hardship`, `fasting`, `hajj`, `food`, `forgiveness`, … ; the full list is `DUA_OCCASIONS` in `scripts/dua.ts`), or null. A record is filed by its `dua-occ-<id>` tag, never by guesswork.
 
+**Akhlaq and Ibadat headings.** In `/api/v1/akhlaq.json` and `/api/v1/ibadat.json` each record carries `topics`: the virtues, vices and dealings, or the acts of worship, it stands under. A passage gets them from the wording detector (`scripts/akhlaq.ts`, `scripts/ibadat.ts`); a curated record states them in its `akhlaq-<topic>` or `ibadat-<topic>` tags. The site lists each heading at `/akhlaq/trait/<topic>/` and `/ibadat/act/<topic>/`.
+
+**Hadith books.** A book (kitab) of a hadith collection is a `passage` record with `unit: chapter` and `ref: kitab-<n>`; a report is filed under its book by a `part_of` relation. The books of the two Sahihs and the four Sunan follow the division of the hadith-api dataset the reports were taken from (`scripts/audit/hadith-books.py`), and a report is filed only when its own text matches the dataset's report of that number. A chapter record with any other `ref` is a page-numbered excerpt, not a book.
+
 ### Collection context
 
 Records are harvested from classical Arabic sources first (sira, hadith collections, tabaqat, chronicles, geographers) and from modern reference works, by human contributors and by AI-assisted pipelines working under `docs/agents/`. Every record names its sources; the provenance block says who or what wrote it. All records are currently in `draft` review status: nothing is marked `reviewed` until a person has checked it against its sources, and `docs/coverage.md` (regenerated on every content commit) reports the counts by review status. Read the data as a cited draft reference, not as a verified corpus.

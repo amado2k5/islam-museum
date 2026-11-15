@@ -12,7 +12,7 @@ wings: [people]
 regions: [egypt-nile]
 periods: [period/buyid-seljuk-fatimid-era]
 born: { edtf: "1166", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Itti'az al-Hunafa (al-Maqrizi)" }
-died: { edtf: "1207", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Itti'az al-Hunafa (al-Maqrizi)" }
+died: { edtf: "1207", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Itti'az al-Hunafa (al-Maqrizi) Agrees with Wikidata Q110589306 (P570, a statement without a reference), item revision 2554292175, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/misr, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/bosworth-new-islamic-dynasties-1996] }
 sources: [source/bosworth-new-islamic-dynasties-1996]

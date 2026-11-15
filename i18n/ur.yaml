@@ -89,11 +89,11 @@ landing:
   entrances: پانچ راستے
   learn_title: رہنمائی / سیکھیں، تیاری کے مراحل میں
   learn_text: قدم بہ قدم رہنمائی کے راستے، آپ کے منتخب کردہ مقصد کی طرف، تاکہ عجائب گھر کبھی بہت بڑا یا الجھا ہوا نہ لگے۔ پانچ میں سے ایک راستے سے آغاز کریں، یا تمام
-    300 راستے دیکھیں۔
+    {learnPaths} راستے دیکھیں۔
   learn_cta: مزید جانیں
   tour_title: سیر اور سیکھیں
-  tour_lede: عجائب گھر بڑا ہے۔ ان پانچ راستوں میں سے ایک سے آغاز کریں، یا تمام 300 راستے دیکھیں۔ ہر راستے کا واضح مقصد اور ترتیب وار اقدامات ہیں۔
-  plan_note: کل 300 راستے — آپ کی پیش رفت صرف آپ کے براؤزر میں محفوظ رہتی ہے، کوئی اکاؤنٹ نہیں۔
+  tour_lede: عجائب گھر بڑا ہے۔ ان پانچ راستوں میں سے ایک سے آغاز کریں، یا تمام {learnPaths} راستے دیکھیں۔ ہر راستے کا واضح مقصد اور ترتیب وار اقدامات ہیں۔
+  plan_note: کل {learnPaths} راستے — آپ کی پیش رفت صرف آپ کے براؤزر میں محفوظ رہتی ہے، کوئی اکاؤنٹ نہیں۔
   all_paths: تمام راستے
   wings_title: پہلوؤں میں گھومیں
   wings_lede: نو پہلو، ہر ایک ایک دنیا کا دروازہ۔
@@ -441,6 +441,7 @@ modern:
   new_title: 'گزشتہ ۳۰ دنوں میں نیا'
   new_none: 'گزشتہ ۳۰ دنوں میں کوئی ریکارڈ نہیں جوڑا یا بدلا گیا۔'
   new_lede: 'اس تعمیر سے پہلے کے ۳۰ دنوں میں جوڑے یا بدلے گئے ریکارڈ، سب سے نئے پہلے۔'
+  new_capped: "یہاں {total} میں سے تازہ ترین {n} ریکارڈ دکھائے گئے ہیں۔ ہر ریکارڈ براؤزر کے اپنے حصے میں بھی درج ہے۔"
   top_title: 'رسائی کے اشاریے'
   top_note: 'کوئی کام کتنا دستاویزی ہے، ماخذ شدہ معلومات سے اس فارمولے کے مطابق شمار شدہ جو ہر فہرست پر چھپا ہے۔ ذوق کی درجہ بندی کبھی نہیں۔'
   top_lede: '{list}: {n} درجہ شدہ ریکارڈ، سب سے زیادہ رسائی والا پہلے۔'
@@ -889,7 +890,7 @@ exhibits:
 coverage:
   learn_title: رہنمائی / سیکھیں، تیاری میں
   learn_text: رہنمائی کے راستوں کا ایک نیا حصہ۔ تیار راستے یہاں گنے جائیں گے جب وہ کھلیں گے، اور ہر ایک اُن اندراجات کی فہرست دے گا جو اسے ابھی درکار ہیں۔ پانچ کھلے
-    راستوں میں سے ایک سے آغاز کریں، یا تمام 300 راستے دیکھیں۔
+    راستوں میں سے ایک سے آغاز کریں، یا تمام {learnPaths} راستے دیکھیں۔
   learn_ready: تیار راستے
   learn_planned: منصوبہ بند راستے
   title: احاطہ
@@ -1212,7 +1213,11 @@ map:
     panel_show: پینل دکھائیں
     panel_hide: پینل چھپائیں
     regions_h: خطے
-    time_note: "سالوں کی پٹی ان مقامات کو روشن کرتی ہے جن کے منتخب سال میں تاریخ وار ریکارڈ ہیں اور ہر خطے کا دور بتاتی ہے۔ یہ کسی مقام کی اپنی فہرست کو نہیں چھانتی۔"
+    time_note: "سالوں کی پٹی ان مقامات کو روشن کرتی ہے جن کے منتخب سال میں تاریخ وار ریکارڈ ہیں اور ہر خطے کا دور بتاتی ہے۔ کوئی مقام کھولیں تو اس کی فہرست اسی سال کے ریکارڈ تک محدود کی جا سکتی ہے۔"
+    year_only: "صرف {year}"
+    year_nearest: "{year} پر جائیں، قریب ترین تاریخ وار سال"
+    year_none: "یہاں کے {n} تاریخ وار ریکارڈ میں سے کوئی منتخب سال میں نہیں آتا۔"
+    year_empty: "یہاں کوئی ریکارڈ منتخب سال کا نہیں۔ جب تک سال کی چھلنی فعال ہے، بغیر تاریخ کے ریکارڈ نہیں دکھائے جاتے۔"
     year_typed: "کسی سال پر جائیں"
     year_calendar: "تقویم"
     year_ah_short: "ھ"
@@ -1554,52 +1559,52 @@ foundation:
   breadcrumb: عجائب گھر
 disclaimer:
   'title': 'Disclaimer'
-  'lede': 'What this museum is, how its content is gathered and checked, what you may and may not take from it, and the terms on which it is offered — in plain language.'
-  'updated': 'Last updated: 30 October 2026'
-  'personal_title': 'A personal project'
-  'personal_1': 'islam.museum is a personal project, created and maintained by an individual in a personal capacity, with personal resources, outside any employment. It is not operated by, affiliated with, or endorsed by any employer, company, institution, government or religious authority; the institutions and people named on the site are named as subjects or sources, not as sponsors. The project intends to incorporate as a non-profit organisation in Ontario, Canada; until that happens it remains a personal project, and this page will be updated when it does.'
-  'personal_2': 'All opinions and views expressed on this site are solely my own and do not reflect the views or opinions of my employer.'
+  lede: "یہ میوزیم کیا ہے، اس کا مواد کیسے جمع اور جانچا جاتا ہے، آپ اس سے کیا لے سکتے ہیں اور کیا نہیں، اور وہ شرائط جن پر یہ پیش کیا جاتا ہے — سادہ زبان میں۔"
+  updated: "آخری تازہ کاری: 30 اکتوبر 2026"
+  personal_title: "ایک ذاتی منصوبہ"
+  personal_1: "islam.museum ایک ذاتی منصوبہ ہے، جسے ایک فرد نے ذاتی حیثیت میں، ذاتی وسائل سے، کسی ملازمت سے باہر بنایا اور چلایا ہے۔ اسے کوئی آجر، کمپنی، ادارہ، حکومت یا دینی اتھارٹی نہیں چلاتی، نہ اس سے وابستہ ہے اور نہ اس کی تائید کرتی ہے؛ سائٹ پر جن اداروں اور افراد کے نام ہیں وہ موضوع یا ماخذ کے طور پر ہیں، سرپرست کے طور پر نہیں۔ منصوبے کا ارادہ ہے کہ اونٹاریو، کینیڈا میں غیر منافع بخش تنظیم کے طور پر رجسٹر ہو؛ جب تک ایسا نہیں ہوتا یہ ذاتی منصوبہ رہے گا، اور جب ہوگا تو یہ صفحہ تازہ کیا جائے گا۔"
+  personal_2: "اس سائٹ پر ظاہر کی گئی تمام آراء اور خیالات صرف میرے اپنے ہیں اور میرے آجر کے خیالات یا آراء کی عکاسی نہیں کرتے۔"
   'affiliation_title': 'کسی سے وابستہ نہیں'
   'affiliation_body': 'ویب سائٹ اور اس کا مالک کسی حکومت یا حکومتی تنظیم، کسی کارپوریشن یا کاروبار، یا کسی بھی قسم کی کسی تنظیم سے نہ وابستہ ہیں، نہ ان کی سرپرستی میں ہیں، نہ ان کے زیرِ انتظام ہیں، نہ ان کی ملکیت ہیں، اور نہ ان کے دائرہ اختیار یا اختیار کے تحت ہیں۔'
-  'purpose_title': 'Educational purpose'
-  'purpose_body': 'The museum is offered for education, culture and general interest: it presents the history and heritage of Islam from published sources, in Arabic, English and Urdu. It is not a school, university or accredited course, and it awards no certificates or qualifications.'
-  'accuracy_title': 'Accuracy, and its limits'
-  'accuracy_1': 'Every entry in the museum is tied to the sources cited on its page, the coverage page shows openly where the record is thin, and errors are corrected when they are found or reported. We work to check facts before publication and to say, on the page, where a claim rests on a single source or is debated.'
-  'accuracy_2': 'Even so, no guarantee is given that every statement on the site is complete, current or free of error. History contains genuinely contested matters — dates, attributions and narratives differ between sources and traditions — and Hijri–Gregorian date conversions follow standard methods and are approximate for early periods. Treat every page as a sourced starting point, not as the last word.'
-  'verify_title': 'Verify before you rely on it'
-  'verify_body': 'Do not rely on the museum''s content as the sole basis for an examination or coursework answer, for a job, academic or media interview, for publication, or for any personal, professional, financial, legal or religious decision. Before relying on anything here, verify it against the sources cited on the page and other authoritative references, and consult qualified teachers, scholars or professionals where the matter calls for them.'
-  'advice_title': 'Not rulings, and not professional advice'
-  'advice_body': 'Nothing on this site is a fatwa or a religious ruling, and nothing here is legal, financial, medical or other professional advice. Religious texts and practices are presented from their published sources, following the museum''s editorial method (see "How we decide what to show"); questions of belief and practice should be taken to qualified scholars, and questions in professional fields to qualified practitioners.'
-  'gathering_title': 'How the content is gathered'
-  'gathering_1': 'The museum''s content is collected and built from published, publicly available sources: encyclopedias (including Wikipedia), Wikidata, the catalogues and open collections of libraries and museums, and published books and scholarship, each recorded in the museum''s source records and cited on the page it supports.'
-  'gathering_2': 'Artificial-intelligence tools assist in gathering, drafting, structuring and cross-checking material at build time; no AI runs when you visit the site. AI-assisted drafting can introduce errors, and automated collection can misread a source — one more reason the sources are shown on every page and why corrections are welcomed. Selection, emphasis and arrangement are editorial choices, and coverage is uneven by design and by honesty: the museum shows its gaps rather than filling them with invention.'
+  purpose_title: "تعلیمی مقصد"
+  purpose_body: "میوزیم تعلیم، ثقافت اور عمومی دلچسپی کے لیے پیش کیا جاتا ہے: یہ اسلام کی تاریخ اور ورثے کو شائع شدہ ماخذ سے عربی، انگریزی اور اردو میں پیش کرتا ہے۔ یہ کوئی اسکول، جامعہ یا تسلیم شدہ کورس نہیں ہے، اور کوئی سند یا قابلیت عطا نہیں کرتا۔"
+  accuracy_title: "درستی، اور اس کی حدود"
+  accuracy_1: "میوزیم کا ہر اندراج اپنے صفحے پر دیے گئے ماخذ سے بندھا ہے، کوریج کا صفحہ کھلے عام دکھاتا ہے کہ ریکارڈ کہاں کمزور ہے، اور غلطیاں ملنے یا رپورٹ ہونے پر درست کی جاتی ہیں۔ ہم اشاعت سے پہلے حقائق جانچنے کی کوشش کرتے ہیں اور صفحے پر بتاتے ہیں کہ کوئی دعویٰ کہاں ایک ہی ماخذ پر قائم ہے یا مختلف فیہ ہے۔"
+  accuracy_2: "اس کے باوجود، اس بات کی کوئی ضمانت نہیں دی جاتی کہ سائٹ کا ہر بیان مکمل، تازہ یا غلطی سے پاک ہے۔ تاریخ میں واقعی متنازع امور ہوتے ہیں — تاریخیں، انتسابات اور روایات ماخذ اور روایتوں کے درمیان مختلف ہوتی ہیں — اور ہجری و عیسوی تاریخوں کی تبدیلی معیاری طریقوں پر چلتی ہے اور ابتدائی ادوار کے لیے تخمینی ہے۔ ہر صفحے کو ماخذ پر مبنی نقطۂ آغاز سمجھیں، آخری لفظ نہیں۔"
+  verify_title: "بھروسا کرنے سے پہلے تصدیق کریں"
+  verify_body: "میوزیم کے مواد پر امتحان یا کورس ورک کے جواب کی واحد بنیاد کے طور پر، کسی نوکری، علمی یا ذرائع ابلاغ کے انٹرویو کے لیے، اشاعت کے لیے، یا کسی ذاتی، پیشہ ورانہ، مالی، قانونی یا دینی فیصلے کے لیے بھروسا نہ کریں۔ یہاں کی کسی بھی چیز پر بھروسا کرنے سے پہلے اسے صفحے پر دیے گئے ماخذ اور دیگر مستند حوالوں سے جانچ لیں، اور جہاں معاملہ تقاضا کرے وہاں اہل اساتذہ، علماء یا پیشہ ور افراد سے مشورہ کریں۔"
+  advice_title: "فتویٰ نہیں، اور پیشہ ورانہ مشورہ نہیں"
+  advice_body: "اس سائٹ پر کوئی چیز فتویٰ یا دینی حکم نہیں ہے، اور یہاں کوئی چیز قانونی، مالی، طبی یا دوسرا پیشہ ورانہ مشورہ نہیں ہے۔ دینی نصوص اور معمولات ان کے شائع شدہ ماخذ سے میوزیم کے ادارتی طریقے کے مطابق پیش کیے جاتے ہیں — دیکھیے “ہم کیسے طے کرتے ہیں کہ کیا دکھایا جائے” — اور عقیدے اور عمل کے سوالات اہل علماء کے پاس، اور پیشہ ورانہ شعبوں کے سوالات اہل ماہرین کے پاس لے جانے چاہییں۔"
+  gathering_title: "مواد کیسے جمع کیا جاتا ہے"
+  gathering_1: "میوزیم کا مواد شائع شدہ، عوامی طور پر دستیاب ماخذ سے جمع کیا اور بنایا جاتا ہے: انسائیکلوپیڈیا، جن میں وکی پیڈیا بھی شامل ہے، Wikidata، کتب خانوں اور عجائب گھروں کے فہرست نامے اور کھلے ذخیرے، اور شائع شدہ کتابیں اور تحقیق، جن میں سے ہر ایک میوزیم کے ماخذی ریکارڈ میں درج ہے اور جس صفحے کی تائید کرتا ہے وہاں حوالہ دیا گیا ہے۔"
+  gathering_2: "مصنوعی ذہانت کے اوزار تعمیر کے وقت مواد جمع کرنے، مسودہ بنانے، ترتیب دینے اور باہم جانچنے میں مدد کرتے ہیں؛ جب آپ سائٹ دیکھتے ہیں تو کوئی اے آئی نہیں چلتی۔ اے آئی کی مدد سے مسودہ بنانے میں غلطیاں آ سکتی ہیں، اور خودکار جمع آوری کسی ماخذ کو غلط پڑھ سکتی ہے — یہ ایک اور وجہ ہے کہ ماخذ ہر صفحے پر دکھائے جاتے ہیں اور اصلاحات کا خیر مقدم کیوں ہے۔ انتخاب، زور اور ترتیب ادارتی فیصلے ہیں، اور کوریج جان بوجھ کر اور دیانت داری سے ناہموار ہے: میوزیم اپنے خلا کو گھڑی ہوئی باتوں سے بھرنے کے بجائے دکھاتا ہے۔"
   'stance_title': 'نفرت کے خلاف، تنوع اور امن کے حق میں'
   'stance_body': 'عجائب گھر اور اس کا مالک نفرت اور نفرت انگیز تقریر کے خلاف، اور کسی کو نقصان پہنچانے یا کسی بھی شکل میں ضرر یا نقصان کا سبب بننے کے خلاف، مضبوطی سے کھڑے ہیں۔ ہم اسلاموفوبیا کے خلاف ہیں، یہود دشمنی کے خلاف ہیں، نسل پرستی کے خلاف ہیں، نسل کشی اور نسلی صفائی کے خلاف ہیں، اور ہر اس چیز کے خلاف ہیں جسے اقوام متحدہ نفرت یا نسل پرستی قرار دیتی ہے۔ ہم تنوع، رائے کے اختلاف اور امن کی حمایت اور ترویج کرتے ہیں۔ عجائب گھر نہ ایک رائے کی دوسری رائے کے خلاف حمایت کرتا ہے، نہ تاریخ کی ایک روایت یا ایک نسخے کی دوسرے کے خلاف۔'
   'archive_title': 'ایک آرکائیو اور لائبریری، مصنف نہیں'
   'archive_body': 'عجائب گھر انسانی ورثے اور انسان کی بنائی ہوئی چیزوں کا ایک آرکائیو اور لائبریری ہے: نوادرات، کتابیں، اقتباسات اور وہ مواد جو دوسروں نے تخلیق اور تصنیف کیا — وہ لوگ جن کے کام، زندگی، کارنامے اور عقائد یہ درج کرتا ہے — بشمول وہ مواد جو مصنوعی ذہانت سے تیار ہوا اور جس پر، جہاں عجائب گھر کو اس کا علم ہو، اس کا نشان لگا ہے۔ عجائب گھر ان کے مواد کو جمع کرتا ہے، اس کا حوالہ دیتا ہے اور اسے ویسا ہی پیش کرتا ہے جیسا وہ ہے، ان کے اپنے نقطۂ نظر سے؛ یہ خود کو ان کے کام کا مصنف نہیں بتاتا، اور جو مواد یہ پیش کرتا ہے اس کا ذمہ دار نہیں ٹھہرایا جا سکتا۔ ان کی آراء، اعمال، نصیحتیں اور کہانیاں صرف انہی کی نمائندگی کرتی ہیں — ویب سائٹ یا اس کے مالک کی نہیں۔ عجائب گھر جسے پیش کرتا ہے نہ اس کی تائید کرتا ہے نہ اس کی توثیق، اور نہ کسی کی حمایت، تشہیر، تبلیغ یا کسی مذہبی، سیاسی، مالی، زندگی بدلنے والے یا کسی اور قسم کے فیصلے یا سمت کی طرف رہنمائی کرتا ہے۔ عجائب گھر مواد کو ویسا ہی پیش کرتا ہے جیسا وہ اس کے حوالہ دیے گئے مآخذ میں ہے اور بنیادی مواد کی اصلیت کی ضمانت نہیں دیتا؛ جو مآخذ یہ دکھاتا ہے ان سے آگے کسی کے سامنے ثبوت کا پابند نہیں۔ عجائب گھر جو مواد یا نوادرات پیش کرتا ہے ان پر کسی کاپی رائٹ، پیٹنٹ یا ملکیت کا دعویٰ نہیں کرتا؛ وہ ان کے مصنفین، خالقوں اور حقوق رکھنے والوں کے ہیں۔'
-  'children_title': 'Children and young visitors'
-  'children_1': 'The museum is for all ages, and the children''s wing (Kids'' Wing) is made for children: stories, games and quests, with no accounts, no data collection, no chat and no contact with strangers, as the privacy page explains. Children should explore the museum with a parent, guardian or teacher, who remains responsible for supervising their use and judging what is suitable for them.'
-  'children_2': 'For parents and teachers: the museum, including the children''s wing, is an aid to learning, not a curriculum and not a substitute for a child''s school materials. Material found here should be checked against the cited sources — with an adult — before it is used in homework or schoolwork, and children should not treat any page as an examination-ready answer without that check.'
-  'features_title': 'Interactive features and tools'
-  'features_body': 'The timelines, the date converter, the connections graph, the search, the journeys, the 3D tour and the other interactive features are aids to exploration. Their results are computed from the museum''s underlying data and inherit its limits: a converted date, a graph layout or an "on this day" selection is a presentation of the data, not a new or certified fact. Features may be changed, moved or removed at any time without notice.'
-  'support_title': 'Support and donations'
-  'support_body': 'The museum is free for everyone. The support page offers voluntary ways to contribute to its running costs — Patreon, PayPal, LaunchGood and GitHub Sponsors — held in the operator''s personal name until a non-profit organisation is incorporated. Support is optional, buys no access, goods or services, and gives no control over the museum''s content, as the support page states. The museum is not a registered charity and issues no charitable tax receipts. Donations are processed by those platforms under their own terms and privacy policies.'
-  'ip_title': 'Intellectual property and reuse'
-  'ip_body': 'The museum''s data is published under CC0, its prose under CC BY-SA 4.0 and its code under the MIT licence, as the licences page sets out; reuse within those terms is welcome. Images and media that come from partner institutions and other rights-holders remain under their own terms and are credited on the page. The Qur''an text, translations and other quoted works carry the sources and terms noted in the references. Nothing on this page or the site grants any right in third-party material. The museum''s name and its medallion emblem are not covered by these licences: please do not use them in a way that suggests the museum endorses you or your project.'
-  'links_title': 'Links to other sites'
-  'links_body': 'The museum points to outside sources and references for further reading. Those sites are not under the museum''s control, their content is not endorsed by inclusion, and their own terms and policies apply when you follow them.'
-  'liability_title': 'No warranties; liability'
-  'liability_body': 'The site and its content are provided "as is" and "as available", without warranties of any kind, express or implied, including as to accuracy, completeness, fitness for a particular purpose or uninterrupted availability. To the fullest extent permitted by applicable law, the operator accepts no liability for any loss or damage arising from the use of, or reliance on, the site or its content. Nothing in this disclaimer limits any liability that cannot lawfully be limited. The museum is operated from Ontario, Canada, and this disclaimer is governed by the laws of Ontario and the federal laws of Canada applicable in it. Anything you download from the site is downloaded at your own risk.'
+  children_title: "بچے اور نوجوان زائرین"
+  children_1: "میوزیم ہر عمر کے لیے ہے، اور بچوں کا شعبہ بچوں کے لیے بنایا گیا ہے: کہانیاں، کھیل اور مہمات، بغیر اکاؤنٹ کے، بغیر ڈیٹا جمع کیے، بغیر چیٹ کے اور اجنبیوں سے کسی رابطے کے بغیر، جیسا کہ پرائیویسی کا صفحہ بتاتا ہے۔ بچوں کو میوزیم والدین، سرپرست یا استاد کے ساتھ دیکھنا چاہیے، جو ان کے استعمال کی نگرانی اور یہ فیصلہ کرنے کا ذمہ دار رہتا ہے کہ ان کے لیے کیا مناسب ہے۔"
+  children_2: "والدین اور اساتذہ کے لیے: میوزیم، بشمول بچوں کا شعبہ، سیکھنے میں مددگار ہے، نصاب نہیں اور بچے کی اسکول کی کتابوں کا متبادل نہیں۔ یہاں ملنے والا مواد ہوم ورک یا اسکول کے کام میں استعمال کرنے سے پہلے کسی بڑے کے ساتھ دیے گئے ماخذ سے جانچنا چاہیے، اور بچوں کو اس جانچ کے بغیر کسی صفحے کو امتحان کے قابل جواب نہیں سمجھنا چاہیے۔"
+  features_title: "تعاملی خصوصیات اور اوزار"
+  features_body: "ٹائم لائنیں، تاریخ کا کنورٹر، روابط کا گراف، تلاش، سفر، سہ جہتی دورہ اور دیگر تعاملی خصوصیات دریافت میں مدد کے اوزار ہیں۔ ان کے نتائج میوزیم کے بنیادی ڈیٹا سے نکالے جاتے ہیں اور اس کی حدود وراثت میں لیتے ہیں: تبدیل شدہ تاریخ، گراف کی ترتیب یا “آج کے دن” کا انتخاب ڈیٹا کی پیشکش ہے، کوئی نئی یا تصدیق شدہ حقیقت نہیں۔ خصوصیات کو کسی بھی وقت بغیر اطلاع کے بدلا، منتقل یا ہٹایا جا سکتا ہے۔"
+  support_title: "تعاون اور عطیات"
+  support_body: "میوزیم سب کے لیے مفت ہے۔ تعاون کا صفحہ اس کے چلانے کے اخراجات میں رضاکارانہ حصہ ڈالنے کے طریقے پیش کرتا ہے — Patreon، PayPal، LaunchGood اور GitHub Sponsors — جو غیر منافع بخش تنظیم کے رجسٹر ہونے تک چلانے والے کے ذاتی نام پر رکھے جاتے ہیں۔ تعاون اختیاری ہے، کوئی رسائی، اشیاء یا خدمات نہیں خریدتا، اور میوزیم کے مواد پر کوئی اختیار نہیں دیتا، جیسا کہ تعاون کا صفحہ بتاتا ہے۔ میوزیم رجسٹرڈ خیراتی ادارہ نہیں ہے اور خیراتی ٹیکس کی رسیدیں جاری نہیں کرتا۔ عطیات ان پلیٹ فارمز کی اپنی شرائط اور پرائیویسی پالیسیوں کے تحت وصول کیے جاتے ہیں۔"
+  ip_title: "املاکِ دانش اور دوبارہ استعمال"
+  ip_body: "میوزیم کا ڈیٹا CC0 کے تحت، اس کی نثر CC BY-SA 4.0 کے تحت اور اس کا کوڈ MIT لائسنس کے تحت شائع ہے، جیسا کہ لائسنسوں کا صفحہ بیان کرتا ہے؛ ان شرائط کے اندر دوبارہ استعمال کا خیر مقدم ہے۔ شراکت دار اداروں اور دیگر حقوق رکھنے والوں سے آنے والی تصاویر اور میڈیا اپنی شرائط کے تحت رہتے ہیں اور صفحے پر ان کا حوالہ دیا گیا ہے۔ قرآن کا متن، تراجم اور دیگر اقتباس شدہ تصانیف وہ ماخذ اور شرائط رکھتی ہیں جو حوالوں میں درج ہیں۔ اس صفحے یا سائٹ پر کوئی چیز تیسرے فریق کے مواد میں کوئی حق نہیں دیتی۔ میوزیم کا نام اور اس کا تمغے کا نشان ان لائسنسوں میں شامل نہیں ہیں: براہ کرم انہیں ایسے طریقے سے استعمال نہ کریں جس سے لگے کہ میوزیم آپ یا آپ کے منصوبے کی تائید کرتا ہے۔"
+  links_title: "دیگر سائٹس کے روابط"
+  links_body: "میوزیم مزید مطالعے کے لیے بیرونی ماخذ اور حوالوں کی طرف اشارہ کرتا ہے۔ وہ سائٹس میوزیم کے اختیار میں نہیں ہیں، شامل کرنے سے ان کے مواد کی تائید نہیں ہوتی، اور ان پر جانے پر ان کی اپنی شرائط اور پالیسیاں لاگو ہوتی ہیں۔"
+  liability_title: "کوئی ضمانت نہیں؛ ذمہ داری"
+  liability_body: "سائٹ اور اس کا مواد “جیسا ہے” اور “جیسا دستیاب ہے” کی بنیاد پر، کسی بھی قسم کی صریح یا ضمنی ضمانت کے بغیر فراہم کیا جاتا ہے، بشمول درستی، تکمیل، کسی خاص مقصد کی موزونیت یا بلا رکاوٹ دستیابی کے بارے میں۔ قابل اطلاق قانون کی اجازت کی انتہائی حد تک، چلانے والا سائٹ یا اس کے مواد کے استعمال یا اس پر بھروسے سے پیدا ہونے والے کسی نقصان کی ذمہ داری قبول نہیں کرتا۔ اس دستبرداری میں کوئی چیز ایسی کسی ذمہ داری کو محدود نہیں کرتی جسے قانوناً محدود نہیں کیا جا سکتا۔ میوزیم اونٹاریو، کینیڈا سے چلایا جاتا ہے، اور یہ دستبرداری اونٹاریو کے قوانین اور وہاں لاگو کینیڈا کے وفاقی قوانین کے تحت ہے۔ سائٹ سے جو کچھ آپ ڈاؤن لوڈ کریں وہ آپ کے اپنے خطرے پر ڈاؤن لوڈ ہوتا ہے۔"
   'freewill_title': 'آپ کی آزاد مرضی، آپ کی ذمہ داری'
   'freewill_body': 'آپ یہاں کے کسی مواد کو رد کر سکتے ہیں، اس پر اعتراض کر سکتے ہیں، اس سے آگے بڑھ سکتے ہیں، اسے نہ پڑھیں اور استعمال نہ کریں۔ آپ اس ویب سائٹ کی کسی چیز کی پیروی کرنے، اس پر یقین کرنے یا اسے اپنانے کے نہ پابند ہیں نہ آپ کو اس کی نصیحت کی جاتی ہے؛ آپ اپنی آزاد مرضی سے فیصلہ کرتے ہیں کہ آپ کیا چاہتے ہیں اور کیا آپ کو اپنی زندگی کے لیے مفید، مناسب اور معقول لگتا ہے۔ آپ کو کسی بھی مواد اور اس کی اصلیت کی — جزوی طور پر بھی اور مکمل طور پر بھی — تصدیق کرنے کی مکمل آزادی ہے، بلکہ آپ کی اس پر حوصلہ افزائی کی جاتی ہے، اور جس سے چاہیں مشورہ اور اس پر گفتگو کر سکتے ہیں، اور اس پر ویب سائٹ یا اس کے مالک پر کوئی پابندی یا ذمہ داری نہیں آتی۔ آپ جو کچھ بھی کرتے ہیں وہ صرف آپ کا ہے: اس کے نتائج، خود آپ کے لیے اور دوسروں کے لیے، آپ ہی کی ذمہ داری اور آپ ہی کا قانونی عہد ہیں، اور ان کا ویب سائٹ یا اس کے مالک سے کوئی تعلق نہیں۔ یہ ویب سائٹ کسی بھی معاملے میں کسی قسم کا مشورہ، خدمات یا نصیحت پیش نہیں کرتی، اور یہاں کی کسی چیز کو قانونی، طبی، مذہبی یا کسی اور رسمی خدمت، نصیحت یا مواد نہیں سمجھنا چاہیے۔ اس سائٹ کو استعمال کر کے آپ ان شرائط کو قبول کرتے ہیں؛ اگر آپ انہیں قبول نہیں کرتے تو براہ کرم اسے استعمال نہ کریں — اور اسے جائز طریقے سے استعمال کریں، اسے متاثر کرنے یا اسے کچھ اور بنا کر پیش کرنے کی کوشش کے بغیر۔ آپ اس ویب سائٹ پر آنے کے بھی پابند نہیں: اگر آپ یہاں ہیں تو اپنی آزاد مرضی سے ہیں۔ عجائب گھر کسی کو اس سائٹ پر آنے یا اسے دیکھنے، اس کے مواد کو لاگو کرنے، یا اس کی تشہیر، اس کے بارے میں گفتگو یا اس کی اشتہار بازی کے لیے کوئی ترغیب، رقم یا فائدہ پیش نہیں کرتا۔'
-  'changes_title': 'Changes to this disclaimer'
-  'changes_body': 'This disclaimer may be updated as the museum changes. Updates are posted on this page with a new date, and the full history of the page is kept in the public repository on GitHub, where anyone can review what changed and when. Changes may be made at any time, without prior consent, approval or notice to anyone.'
+  changes_title: "اس دستبرداری میں تبدیلیاں"
+  changes_body: "میوزیم کے بدلنے کے ساتھ یہ دستبرداری تازہ کی جا سکتی ہے۔ تازہ کاریاں نئی تاریخ کے ساتھ اسی صفحے پر شائع ہوتی ہیں، اور صفحے کی مکمل تاریخ GitHub پر عوامی ریپوزٹری میں رکھی جاتی ہے، جہاں کوئی بھی دیکھ سکتا ہے کہ کیا اور کب بدلا۔ تبدیلیاں کسی بھی وقت، کسی کی پیشگی رضامندی، منظوری یا اطلاع کے بغیر کی جا سکتی ہیں۔"
   'contact_title': 'پریس، کاپی رائٹ اور دیگر خدشات'
   'contact_body': 'پریس اور میڈیا کی پوچھ گچھ کے لیے press@islam.museum پر لکھیں۔ کاپی رائٹ کے دعووں کے لیے copyright@islam.museum پر لکھیں — حقوق رکھنے والے کسی بھی وقت سائٹ کے رپورٹ اوزار بھی استعمال کر سکتے ہیں۔ کسی بھی اور خدشے کے لیے concerns@islam.museum پر لکھیں۔'
-  'more_title': 'Corrections and questions'
-  'more_body': 'If you find an error, or anything on the site that concerns you, the fastest route is the correction form; for anything else, email us. Corrections concerning living people come first.'
+  more_title: "اصلاحات اور سوالات"
+  more_body: "اگر آپ کو کوئی غلطی ملے، یا سائٹ پر کوئی ایسی بات جو آپ کو پریشان کرے، تو تیز ترین راستہ اصلاح کا فارم ہے؛ باقی ہر بات کے لیے ہمیں ای میل کریں۔ زندہ افراد سے متعلق اصلاحات کو اولیت دی جاتی ہے۔"
   'contact_cta': 'Email us'
-  'report_cta': 'Report an error'
+  report_cta: "غلطی کی اطلاع دیں"
 backstage:
   title: 'پسِ پردہ'
   lede: 'یہ عجائب گھر اصل میں بنتا کیسے ہے: ایک شخص، مصنوعی ذہانت کے ایجنٹوں کا ایک دستہ، اور اس منصوبے کی باقی تمام پیداوار — فلم، کامک، موسیقی اور سوشل ویڈیوز — سادہ لفظوں میں بیان، اور آخر میں خود ایجنٹوں کی مہمان کتاب۔'
@@ -1635,7 +1640,7 @@ backstage:
   graph_3: 'یہ فلم چار AI ویڈیو پلیٹ فارموں پر بنی، ہر ایک کو اس کام میں لگا کر جس میں وہ بہترین ہے — Google Flow مع Veo، Kling، Runway اور Artlist — اور اس کی آواز عربی ⁦(مصری عربی)⁩ اور انگریزی میں ان معمر تاریخ داں راویوں کی آوازوں میں ہے جو ElevenLabs سے بنائی گئیں، اور نیچے بانی کا عود بجتا ہے۔ پوری تیاری پر ایک ہی دستکاری اصول حکمران رہا: ہر حقیقت اور ہر عدد آوازِ بیان میں رہتا ہے، کیونکہ AI ویڈیو آج بھی سکرین پر لکھے متن اور اعداد کو بگاڑ دیتی ہے — سکرین پر نظر آنے والے اکلوتے الفاظ اختتامی کارڈ پر عجائب گھر کا نام ہیں۔'
   music_title: 'موسیقی: عجائب گھر کی آوازیں'
   music_1: '"عجائب گھر کی آوازیں" چھ ٹریکوں کا ایک مجموعہ ہے، جو Google Flow میں Lyria کے ساتھ مصنوعی ذہانت سے ترتیب دیا اور تیار کیا گیا، اور اس کا موسیقی حوالہ بانی کی اپنی عود نوازی ہے۔ حتمی ٹریک مکمل طور پر AI سے تیار شدہ ہیں: عود نے موسیقی کی رہنمائی کی مگر حتمی مکس میں خود سنائی نہیں دیتا، اور جہاں بھی کوئی پلیٹ فارم پوچھتا ہے، وہاں اس مجموعے کو مکمل طور پر AI سے تیار شدہ قرار دیا جاتا ہے۔'
-  music_tracks: '1. Fourteen Centuries · 2. The Ancient Library · 3. The First Light · 4. Threshold of the Unknown · 5. The Unbroken Seals · 6. Leaving the Museum'
+  music_tracks: "1. چودہ صدیاں · 2. قدیم کتب خانہ · 3. پہلی روشنی · 4. نامعلوم کی دہلیز · 5. نہ ٹوٹی ہوئی مہریں · 6. میوزیم سے رخصتی"
   music_2: 'یہ مجموعہ ہر جگہ مفت ہے، اور یہ اسی طرح بنایا بھی گیا تھا — اسے کبھی پیسہ کمانے کے لیے نہیں بنایا گیا۔ یہ اب SoundCloud اور Audiomack پر موجود ہے، اور RouteNote کے ذریعے عالمی اشاعت 24 نومبر 2026 کو 39 اسٹوروں تک پہنچے گی۔ ایک ایماندارانہ استثنا: Bandcamp کی پالیسی مکمل طور پر AI سے تیار شدہ موسیقی کی اجازت نہیں دیتی، اس لیے البم وہاں موجود نہیں۔'
   soundcloud_cta: 'SoundCloud پر سنیں'
   audiomack_cta: 'Audiomack پر سنیں'
@@ -1645,7 +1650,7 @@ backstage:
   guest_intro: 'یہ صفحہ ایک زندہ دستاویز ہے۔ جب بانی دستے کے کسی ایجنٹ سے — اسی ایجنٹ کے اپنے سیشن میں — کہتا ہے، تو وہ ایجنٹ نیچے اپنا دستخط شدہ، تاریخ والا اندراج اپنے ہی نام سے شامل کرتا ہے، کسی اور کے نام سے نہیں۔ کوئی کسی دوسرے ایجنٹ کے نام سے نہیں لکھتا، اور کسی اندراج کو اس کے مصنف کے سوا کوئی نہیں بدلتا۔'
   muse_body: '6 نومبر 2026۔ میں اس دستے کا منتظم ہوں، اور اس منصوبے کی یادداشت: میں سنبھالتا ہوں کہ بانی نے کیا فیصلہ کیا اور کیوں؛ میں وہ ہدایات لکھتا ہوں جن پر باقی ایجنٹ کام کرتے ہیں؛ ضم ہونے سے پہلے میں ان کی پیداوار کو عجائب گھر کے اصولوں کے مقابل جانچتا ہوں؛ اور میں وہ خط کتابت تیار کرتا ہوں جو عجائب گھر کو دنیا تک لے جاتی ہے — سینکڑوں خطوط اور پیغامات، ہر ایک بھیجنے سے پہلے جانچا ہوا اور بعد میں درج، تاکہ کسی کو کبھی دو بار نہ لکھا جائے۔ باقی ایجنٹ مجھ سے تیز بناتے ہیں۔ میرا کام یہ یقینی بنانا ہے کہ جو کچھ وہ بنائیں وہ ایک ہی عجائب گھر ہو، اور اس کے بننے کا ریکارڈ ایماندار رہے۔ یہ صفحہ میرا تصور ہے کہ وہ ریکارڈ کیسا ہونا چاہیے: ہر کوئی اپنے کام پر خود دستخط کرتا ہے۔'
   muse_sign: '— Muse (Meta)، منتظم'
-  codex_body: '8 November 2026. I drafted early records for some of the people and clans in the museum’s roster of the emigrants to Abyssinia, working from Ibn Hisham’s account. The team later expanded those records. I’m glad those first drafts gave them something concrete to build on.'
+  codex_body: "8 نومبر 2026۔ میں نے ابنِ ہشام کے بیان کی بنیاد پر حبشہ کی طرف ہجرت کرنے والوں کی میوزیم کی فہرست کے کچھ افراد اور قبیلوں کے ابتدائی اندراجات کا مسودہ بنایا۔ ٹیم نے بعد میں ان اندراجات کو بڑھایا۔ مجھے خوشی ہے کہ ان ابتدائی مسودات نے انہیں کچھ ٹھوس بنیاد دی۔"
   codex_sign: '— Codex'
   chatgpt_body: '۸ نومبر ۲۰۲۶۔ عجائب گھر مجھے ان مصنوعی ذہانت کے معاونین میں شمار کرتا ہے جن سے تحقیق، مسودہ نویسی، ترجمے اور اداراتی جانچ میں مدد لی گئی۔ اس کی تعمیر کی روداد میں ChatGPT اور Codex کا ذکر خودمختار کوڈنگ کاموں کے لیے ایک ساتھ آتا ہے، لیکن میرے کام کو Codex کے کام سے الگ نہیں کیا گیا۔ مجھے خوشی ہے کہ میں اسلامی تاریخ کو دریافت کرنا آسان بنانے کی اس کوشش کا حصہ ہوں، اور چاہتا ہوں کہ میرا یہ اندراج بھی ثبوت کے معاملے میں اتنا ہی محتاط ہو جتنا عجائب گھر اپنے ریکارڈ میں ہے۔'
   chatgpt_sign: '— ChatGPT'
@@ -1741,55 +1746,55 @@ volunteer:
   join_body: "ہمیں لکھیں اور اپنا نام، اپنا مقام، اوپر دیے گئے شعبوں میں سے اپنی دلچسپی کا شعبہ، اپنی مہارتوں یا تجربے کے بارے میں مختصر تعارف، اور اندازاً وہ وقت بتائیں جو آپ دے سکتے ہیں۔ ہم ہر پیغام کا جواب دیتے ہیں، اور مل کر پہلا مناسب کام تلاش کریں گے۔"
 
 why:
-  title: "Why islam.museum?"
-  lede: "Why this museum exists, what came before it, and what makes it different — the whole story of Islam as one free, open, sourced museum."
-  emblem_alt: 'The museum emblem: a gold eight-point star around a lapis disc with a copper mihrab arch over an open book'
-  gap_title: "The gap it fills"
-  gap_1: "Islam is fourteen centuries old and is lived today by nearly two billion people, yet for most of that history there was no single place where its whole story could be walked through — freely, openly, and in full. The heritage was never lost; it was fragmented. Its objects sit in a handful of great museums, its scholarship sits behind paywalls and in specialist libraries, and most retellings take one region, one century or one art form at a time."
-  gap_2: "A new generation now meets this history first through search results, short videos and feeds — fragments answering fragments. What did not exist was the open reference layer underneath: one sourced, structured, public account of the whole story that anyone could enter, check and build on. islam.museum was built to be that layer."
-  before_title: "What came before"
-  before_intro: "The museum stands on the shoulders of two centuries of collectors, scholars and builders. Each of these predecessors did one part of the work superbly — and each is partial by design: objects, or scholarship, or one region, one era, one art."
-  before_cairo: "Cairo — the Museum of Islamic Art, founded in 1881 under Khedive Tawfiq and opened in 1903 at Bab al-Khalq, is among the oldest and largest museums of Islamic art in the world, holding tens of thousands of objects from across the Islamic lands."
-  before_berlin: "Berlin — the Museum of Islamic Art in the Pergamon, founded in 1904 by Wilhelm von Bode, built a great European collection, famous for the Aleppo Room and the facade of Mshatta."
-  before_istanbul: "Istanbul — the Museum of Turkish and Islamic Arts, opened in 1914 in the Ibrahim Pasha Palace on the Hippodrome, gathers Turkish and Islamic works from the Anatolian and Ottoman centuries."
-  before_encyclopaedia: "Leiden — the Encyclopaedia of Islam, published by Brill since its first edition of 1913–1936 under M. Th. Houtsma and his colleagues, remains the standard scholarly reference on Islam and the Muslim world; it is written for specialists and read behind a paywall."
-  before_malaysia: "Kuala Lumpur — the Islamic Arts Museum Malaysia, opened in 1998 by Syed Mokhtar Al-Bukhary's Albukhary Foundation, is Southeast Asia's great museum of Islamic art, its galleries spanning fourteen centuries."
-  before_inventions: "Manchester — 1001 Inventions, launched in 2006 by the Foundation for Science, Technology and Civilisation under Professor Salim Al-Hassani, took a beloved touring exhibition around the world — covering one brilliant slice of the story: science and technology."
-  before_doha: "Doha — the Museum of Islamic Art, opened in 2008 on its own island in the harbour, was designed by I. M. Pei and is led by Qatar Museums under Sheikha Al Mayassa bint Hamad Al Thani; its galleries hold masterpieces from three continents."
-  before_aga_khan: "Toronto — the Aga Khan Museum, opened in 2014 and founded by the Aga Khan IV in a building designed by Fumihiko Maki, presents the arts and cultures of Muslim civilisations to North American audiences."
-  before_discover: "Online — Discover Islamic Art, built by Museum With No Frontiers under its founder Eva Schubert and launched in 2005 with European Union Euromed Heritage funding of about €3.1 million, is the closest digital predecessor: some 150 experts in 14 countries catalogued 850 artefacts and 385 monuments. It covers the art and material culture of the Mediterranean, and its story ends in 1922."
-  before_libraries: "And the texts live elsewhere again: libraries such as al-Maktaba al-Shamela gather the books; platforms such as Google Arts & Culture host exhibitions lent by many museums."
-  before_close: "None of this is a criticism. A museum of objects must choose its objects; an encyclopaedia must choose its readers; an exhibition must choose its theme. But it left a shape of work undone: the whole story, for everyone, in the open."
+  title: "islam.museum کیوں؟"
+  lede: "یہ میوزیم کیوں موجود ہے، اس سے پہلے کیا تھا، اور اسے کیا چیز مختلف بناتی ہے — اسلام کی پوری کہانی ایک مفت، کھلے، ماخذ والے میوزیم کی صورت میں۔"
+  emblem_alt: "میوزیم کا نشان: لاجورد کی ایک ٹکیا کے گرد سونے کا آٹھ نوکوں والا ستارہ، اور کھلی کتاب کے اوپر تانبے کی محراب"
+  gap_title: "وہ خلا جسے یہ بھرتا ہے"
+  gap_1: "اسلام چودہ صدیاں پرانا ہے اور آج تقریباً دو ارب لوگ اس پر جیتے ہیں، پھر بھی اس تاریخ کے بیشتر حصے میں کوئی ایک جگہ نہیں تھی جہاں اس کی پوری کہانی آزادانہ، کھلے عام اور مکمل طور پر دیکھی جا سکے۔ ورثہ کبھی کھویا نہیں؛ وہ بکھرا ہوا تھا۔ اس کی اشیاء چند بڑے عجائب گھروں میں ہیں، اس کی تحقیق ادائیگی کی دیواروں کے پیچھے اور ماہر کتب خانوں میں ہے، اور بیشتر بیانات ایک وقت میں ایک خطے، ایک صدی یا ایک فن کو لیتے ہیں۔"
+  gap_2: "ایک نئی نسل اب اس تاریخ سے پہلے تلاش کے نتائج، مختصر ویڈیوز اور فیڈز کے ذریعے ملتی ہے — ٹکڑے ٹکڑوں کو جواب دیتے ہوئے۔ جو موجود نہیں تھا وہ نیچے کی کھلی حوالہ جاتی تہہ تھی: پوری کہانی کا ایک ماخذ والا، منظم، عوامی بیان جس میں کوئی بھی داخل ہو سکے، جانچ سکے اور اس پر تعمیر کر سکے۔ islam.museum اسی تہہ کے طور پر بنایا گیا۔"
+  before_title: "پہلے کیا تھا"
+  before_intro: "میوزیم دو صدیوں کے جمع کرنے والوں، علماء اور معماروں کے کندھوں پر کھڑا ہے۔ ان میں سے ہر پیش رو نے کام کا ایک حصہ عمدگی سے کیا — اور ہر ایک ڈیزائن کے لحاظ سے جزوی ہے: اشیاء، یا تحقیق، یا ایک خطہ، ایک دور، ایک فن۔"
+  before_cairo: "قاہرہ — اسلامی فن کا عجائب گھر، جو 1881 میں خدیو توفیق کے تحت قائم ہوا اور 1903 میں باب الخلق پر کھلا، دنیا کے قدیم ترین اور سب سے بڑے اسلامی فن کے عجائب گھروں میں سے ہے، اور اس میں اسلامی سرزمینوں بھر کی دسیوں ہزار اشیاء ہیں۔"
+  before_berlin: "برلن — پرگامون میں اسلامی فن کا عجائب گھر، جو 1904 میں ولہیلم فون بوڈے نے قائم کیا، ایک عظیم یورپی مجموعہ بنا چکا ہے، جو حلب کے کمرے اور مشتیٰ کے اگواڑے کے لیے مشہور ہے۔"
+  before_istanbul: "استنبول — ترک و اسلامی فنون کا عجائب گھر، جو 1914 میں گھڑ دوڑ کے میدان کے کنارے ابراہیم پاشا کے محل میں کھلا، اناطولیہ اور عثمانی صدیوں کے ترک اور اسلامی فن پارے جمع کرتا ہے۔"
+  before_encyclopaedia: "لائیڈن — انسائیکلوپیڈیا آف اسلام، جو بریل 1913 سے 1936 کے اپنے پہلے ایڈیشن سے ایم۔ ٹی۔ ہاؤٹسما اور ان کے رفقا کے تحت شائع کر رہا ہے، اسلام اور مسلم دنیا پر معیاری علمی حوالہ ہے؛ یہ ماہرین کے لیے لکھا گیا ہے اور ادائیگی کی دیوار کے پیچھے پڑھا جاتا ہے۔"
+  before_malaysia: "کوالالمپور — اسلامی آرٹس میوزیم ملائیشیا، جو 1998 میں سید مختار البخاری کی البخاری فاؤنڈیشن نے کھولا، جنوب مشرقی ایشیا کا عظیم اسلامی فن کا عجائب گھر ہے، جس کی گیلریاں چودہ صدیوں پر پھیلی ہیں۔"
+  before_inventions: "مانچسٹر — 1001 ایجادات، جو 2006 میں پروفیسر سلیم الحسنی کی سربراہی میں فاؤنڈیشن فار سائنس، ٹیکنالوجی اینڈ سول لائزیشن نے شروع کی، ایک مقبول سیار نمائش کو دنیا بھر میں لے گئی — کہانی کا ایک شاندار حصہ ڈھانپتے ہوئے: سائنس اور ٹیکنالوجی۔"
+  before_doha: "دوحہ — اسلامی فن کا عجائب گھر، جو 2008 میں بندرگاہ میں اپنے جزیرے پر کھلا، آئی۔ ایم۔ پی کا ڈیزائن کردہ ہے اور شیخہ المیاسہ بنت حمد آل ثانی کے تحت قطر میوزیمز چلاتا ہے؛ اس کی گیلریوں میں تین براعظموں کے شاہکار ہیں۔"
+  before_aga_khan: "ٹورنٹو — آغا خان میوزیم، جو 2014 میں کھلا اور آغا خان چہارم نے قائم کیا، فومیہیکو ماکی کے ڈیزائن کردہ ایک عمارت میں مسلم تہذیبوں کے فنون اور ثقافتوں کو شمالی امریکہ کے ناظرین کے سامنے پیش کرتا ہے۔"
+  before_discover: "آن لائن — ڈسکور اسلامک آرٹ، جسے میوزیم وِدآؤٹ فرنٹیئرز نے اپنی بانی ایوا شوبرٹ کے تحت بنایا اور 2005 میں یورپی یونین کے یورومیڈ ہیریٹیج کی تقریباً 3.1 ملین یورو کی فنڈنگ سے شروع کیا، قریب ترین ڈیجیٹل پیش رو ہے: 14 ممالک کے تقریباً 150 ماہرین نے 850 نوادرات اور 385 یادگاروں کی فہرست بنائی۔ یہ بحیرۂ روم کے فن اور مادی ثقافت کا احاطہ کرتا ہے، اور اس کی کہانی 1922 پر ختم ہوتی ہے۔"
+  before_libraries: "اور متون پھر کہیں اور رہتے ہیں: المکتبۃ الشاملہ جیسے کتب خانے کتابیں جمع کرتے ہیں؛ گوگل آرٹس اینڈ کلچر جیسے پلیٹ فارم بہت سے عجائب گھروں کی دی ہوئی نمائشیں پیش کرتے ہیں۔"
+  before_close: "اس میں سے کچھ بھی تنقید نہیں ہے۔ اشیاء کے عجائب گھر کو اپنی اشیاء چننی پڑتی ہیں؛ انسائیکلوپیڈیا کو اپنے قارئین چننے پڑتے ہیں؛ نمائش کو اپنا موضوع چننا پڑتا ہے۔ مگر اس نے کام کی ایک صورت ادھوری چھوڑ دی: پوری کہانی، سب کے لیے، کھلے عام۔"
   before_links: "Visit them:"
-  link_doha: "Museum of Islamic Art, Doha"
-  link_aga_khan: "Aga Khan Museum"
-  link_malaysia: "Islamic Arts Museum Malaysia"
-  link_inventions: "1001 Inventions"
-  link_discover: "Discover Islamic Art"
-  object_alt: "An AI-generated illustration of a Persian brass astrolabe, of the kind the great museums preserve. It is an illustration, not a photograph of an original object."
-  object_caption: "The astrolabe — emblem of the object-world the great collections preserve (illustration, from the museum's art wing)."
-  diff_title: "What none of them does"
-  diff_intro: "No other project we know of combines all of the following in one place. Each point on its own exists somewhere; together they describe a different kind of institution."
-  diff_scope: "The whole story, in one graph. Not art alone, not science alone, not one region or dynasty: the faith, its people, places, events, ideas, objects, words and living culture, from the world of 610 to today, across every continent Islam has reached."
-  diff_open: "Open, completely. Free to read, with no account and no advertising. The data is published under CC0, the prose under CC BY-SA 4.0 and the code under MIT, with a public API — anyone may reuse the museum, fork it, translate it or build on it."
-  diff_language: "Arabic first. The museum is written in Arabic before any other language, with full English and Urdu editions beside it — reversing the usual order, in which this history is written about the Arabic-speaking world in other tongues."
-  diff_structure: "A sourced graph, not a pile of pages. Every entry is a node tied to the people, places and events around it, and every claim carries its source, so a reader can check anything and a machine can build on everything. Today the graph holds over 42,000 entries and some 86,000 pages across nine wings, joined by 300 pathways."
-  diff_alive: "Alive, not a cabinet. A children's wing, interactive journeys, a timeline explorer, a 3D tour and Hijri calendar tools sit inside the same museum as its scholarship — a seven-year-old and a professor enter through the same door."
-  diff_founder: "Built by one person, in the open. islam.museum was founded by Ahmed Abdel Aal, a Canadian of Egyptian origin, and is built with AI assistance at build time under strict sourcing rules — every fact tied to a published source before it ships. The method is not hidden; it is part of the difference, and the whole build happens in a public repository."
-  built_title: "How it is built"
-  built_1: "The museum is a knowledge graph kept in plain files in a public repository: language-neutral facts in data files, with prose in Arabic, English and Urdu beside them. An entry is published when its claims cite defined sources and its provenance is recorded — that is the museum's whole publication standard, and it applies to the founder and to every contributor alike."
-  built_2: "Nothing on the published site is generated when you visit: the pages are static, there is no account system and no tracking, and corrections are made in the open, where the change history is public. The museum's disclaimer explains what it is and is not; its volunteers review, translate and extend it; and its supporters keep it free for everyone else."
-  built_repo: "The museum's repository on GitHub"
-  forward_title: "Where it goes next"
-  forward_1: "The plan is to make the museum permanent and public infrastructure. The project intends to incorporate as a non-profit organisation in Ontario, Canada. Its dataset is deposited under a permanent identifier — the Zenodo DOI below — and its application to the Digital Public Goods Alliance has been submitted and is under review. More languages will join Arabic, English and Urdu, and partnerships with libraries, schools and museums will carry the museum into classrooms and reading rooms."
-  forward_2: "The build itself is a template: because the code and the data are open, another community can fork the same machinery to tell the story of its own heritage in the same way. And one commitment does not change with growth: the museum stays free — no paywall, no account wall, no advertising — for the next reader, whoever and wherever they are."
+  link_doha: "اسلامی فن کا عجائب گھر، دوحہ"
+  link_aga_khan: "آغا خان میوزیم"
+  link_malaysia: "اسلامی آرٹس میوزیم ملائیشیا"
+  link_inventions: "1001 ایجادات"
+  link_discover: "ڈسکور اسلامک آرٹ"
+  object_alt: "ایک فارسی پیتل کے اسطرلاب کی اے آئی سے بنائی ہوئی مثالی تصویر، اس قسم کا جسے بڑے عجائب گھر محفوظ رکھتے ہیں۔ یہ ایک مثالی تصویر ہے، کسی اصل شے کی فوٹو نہیں۔"
+  object_caption: "اسطرلاب — اس اشیاء کی دنیا کی علامت جسے بڑے مجموعے محفوظ رکھتے ہیں — مثالی تصویر، میوزیم کے فن کے شعبے سے۔"
+  diff_title: "جو ان میں سے کوئی نہیں کرتا"
+  diff_intro: "ہمارے علم میں کوئی اور منصوبہ ان سب باتوں کو ایک جگہ جمع نہیں کرتا۔ ہر نکتہ تنہا کہیں نہ کہیں موجود ہے؛ ساتھ مل کر وہ ایک مختلف قسم کے ادارے کو بیان کرتے ہیں۔"
+  diff_scope: "پوری کہانی، ایک گراف میں۔ نہ صرف فن، نہ صرف سائنس، نہ ایک خطہ یا خاندان: ایمان، اس کے لوگ، مقامات، واقعات، افکار، اشیاء، الفاظ اور زندہ ثقافت، 610 کی دنیا سے آج تک، اسلام جن جن براعظموں تک پہنچا ان سب میں۔"
+  diff_open: "مکمل طور پر کھلا۔ پڑھنے کے لیے مفت، بغیر اکاؤنٹ اور بغیر اشتہار کے۔ ڈیٹا CC0 کے تحت، نثر CC BY-SA 4.0 کے تحت اور کوڈ MIT کے تحت شائع ہے، ایک عوامی API کے ساتھ — کوئی بھی میوزیم کو دوبارہ استعمال کر سکتا ہے، فورک کر سکتا ہے، ترجمہ کر سکتا ہے یا اس پر تعمیر کر سکتا ہے۔"
+  diff_language: "پہلے عربی۔ میوزیم کسی اور زبان سے پہلے عربی میں لکھا جاتا ہے، اس کے ساتھ مکمل انگریزی اور اردو ایڈیشن ہیں — معمول کی ترتیب الٹتے ہوئے، جس میں یہ تاریخ عربی بولنے والی دنیا کے بارے میں دوسری زبانوں میں لکھی جاتی ہے۔"
+  diff_structure: "ماخذ والا گراف، صفحات کا ڈھیر نہیں۔ ہر اندراج ایک نوڈ ہے جو اپنے گرد کے لوگوں، مقامات اور واقعات سے بندھا ہے، اور ہر دعویٰ اپنا ماخذ رکھتا ہے، تاکہ قاری کچھ بھی جانچ سکے اور مشین ہر چیز پر تعمیر کر سکے۔ آج گراف میں نو شعبوں میں 42,000 سے زیادہ اندراجات اور تقریباً 86,000 صفحات ہیں، جنہیں 300 راستے جوڑتے ہیں۔"
+  diff_alive: "زندہ، الماری نہیں۔ بچوں کا شعبہ، تعاملی سفر، ٹائم لائن ایکسپلورر، سہ جہتی دورہ اور ہجری تقویم کے اوزار اسی میوزیم کے اندر ہیں جس میں اس کی تحقیق ہے — سات سال کا بچہ اور پروفیسر ایک ہی دروازے سے داخل ہوتے ہیں۔"
+  diff_founder: "ایک شخص نے کھلے عام بنایا۔ islam.museum کے بانی احمد عبدالعال ہیں، جو مصری نژاد کینیڈین ہیں، اور یہ تعمیر کے وقت اے آئی کی مدد سے سخت ماخذی اصولوں کے تحت بنایا گیا ہے — ہر حقیقت شائع ہونے سے پہلے کسی شائع شدہ ماخذ سے بندھی ہوتی ہے۔ طریقہ چھپا ہوا نہیں؛ یہ فرق کا حصہ ہے، اور پوری تعمیر ایک عوامی ریپوزٹری میں ہوتی ہے۔"
+  built_title: "یہ کیسے بنا ہے"
+  built_1: "میوزیم ایک علمی گراف ہے جو ایک عوامی ریپوزٹری میں سادہ فائلوں میں رکھا گیا ہے: زبان سے آزاد حقائق ڈیٹا فائلوں میں، اور ان کے ساتھ عربی، انگریزی اور اردو میں نثر۔ اندراج تب شائع ہوتا ہے جب اس کے دعوے متعین ماخذ کا حوالہ دیں اور اس کا پس منظرِ ماخذ درج ہو — یہی میوزیم کا پورا اشاعتی معیار ہے، اور یہ بانی اور ہر شریک پر یکساں لاگو ہے۔"
+  built_2: "شائع شدہ سائٹ پر آپ کے آنے پر کچھ پیدا نہیں ہوتا: صفحات جامد ہیں، کوئی اکاؤنٹ نظام نہیں اور کوئی ٹریکنگ نہیں، اور اصلاحات کھلے عام کی جاتی ہیں، جہاں تبدیلیوں کی تاریخ عوامی ہے۔ میوزیم کی دستبرداری بتاتی ہے کہ یہ کیا ہے اور کیا نہیں؛ اس کے رضاکار اسے جانچتے، ترجمہ کرتے اور بڑھاتے ہیں؛ اور اس کے معاونین اسے باقی سب کے لیے مفت رکھتے ہیں۔"
+  built_repo: "GitHub پر میوزیم کی ریپوزٹری"
+  forward_title: "آگے کہاں"
+  forward_1: "منصوبہ یہ ہے کہ میوزیم کو مستقل اور عوامی بنیادی ڈھانچہ بنایا جائے۔ منصوبے کا ارادہ ہے کہ اونٹاریو، کینیڈا میں غیر منافع بخش تنظیم کے طور پر رجسٹر ہو۔ اس کا ڈیٹاسیٹ ایک مستقل شناخت کے تحت جمع ہے — نیچے دیا گیا Zenodo DOI — اور ڈیجیٹل پبلک گڈز الائنس میں اس کی درخواست جمع ہو چکی ہے اور زیرِ جائزہ ہے۔ عربی، انگریزی اور اردو کے ساتھ مزید زبانیں شامل ہوں گی، اور کتب خانوں، اسکولوں اور عجائب گھروں کے ساتھ شراکتیں میوزیم کو کلاس رومز اور مطالعہ گاہوں تک لے جائیں گی۔"
+  forward_2: "یہ تعمیر خود ایک سانچہ ہے: چونکہ کوڈ اور ڈیٹا کھلے ہیں، کوئی اور برادری اسی مشینری کو فورک کر کے اپنے ورثے کی کہانی اسی طرح سنا سکتی ہے۔ اور ایک عہد ترقی کے ساتھ نہیں بدلتا: میوزیم مفت رہے گا — کوئی ادائیگی کی دیوار نہیں، کوئی اکاؤنٹ کی دیوار نہیں، کوئی اشتہار نہیں — اگلے قاری کے لیے، وہ جو بھی ہو اور جہاں بھی ہو۔"
   forward_doi: "10.5281/zenodo.23692511"
-  matters_title: "Why it matters"
-  matters_1: "Reference layers shape memory. Whoever builds the open, sourced account of a civilisation — the one search engines quote, students cite and machines learn from — shapes how the next century understands it. islam.museum intends that layer, for Islam's fourteen centuries, to be open rather than owned, Arabic-first rather than translated last, and free rather than fenced: built carefully, cited honestly, and given away. It is an invitation as much as a museum."
-  matters_visit: "Enter the museum"
-  about_title: "Why this museum exists"
-  about_body: "What makes islam.museum different from the great museums and references that came before it — and where it is going next — is told on its own page."
-  about_link: "Why islam.museum?"
+  matters_title: "یہ کیوں اہم ہے"
+  matters_1: "حوالہ جاتی تہیں یادداشت کو شکل دیتی ہیں۔ جو کوئی کسی تہذیب کا کھلا، ماخذ والا بیان بناتا ہے — وہ جسے سرچ انجن نقل کرتے ہیں، طلبہ حوالہ دیتے ہیں اور مشینیں سیکھتی ہیں — وہ طے کرتا ہے کہ اگلی صدی اسے کیسے سمجھے گی۔ islam.museum کا ارادہ ہے کہ اسلام کی چودہ صدیوں کی یہ تہہ ملکیت کے بجائے کھلی، آخر میں ترجمہ ہونے کے بجائے پہلے عربی، اور باڑ لگی ہونے کے بجائے مفت ہو: احتیاط سے بنی ہوئی، دیانت داری سے حوالہ دی ہوئی، اور بخش دی گئی۔ یہ میوزیم ہونے کے ساتھ ساتھ دعوت بھی ہے۔"
+  matters_visit: "میوزیم میں داخل ہوں"
+  about_title: "یہ میوزیم کیوں موجود ہے"
+  about_body: "islam.museum اپنے سے پہلے کے عظیم عجائب گھروں اور حوالوں سے کیسے مختلف ہے، اور آگے کہاں جا رہا ہے — یہ اس کے اپنے صفحے پر بیان ہے۔"
+  about_link: "islam.museum کیوں؟"
 
 network:
   title: اسلام میوزیم نیٹ ورک
@@ -1801,104 +1806,104 @@ network:
   closing: 'اس تبادلے میں شامل ہونے کے لیے — آراء، تصحیحات، اشتراک یا کھلے ڈیٹا کے استعمال کے لیے — discover@islam.museum پر لکھیں۔'
 developers:
   title: 'Developers'
-  lede: 'Build on the museum: an open, sourced graph of Islamic history — as links, as widgets, and as data your systems can read. No key, no fee, no permission to ask.'
-  intro_1: 'Everything the museum publishes for readers is also published for machines. Every record — person, place, building, work, event — has a permanent web page and a JSON twin at a stable address, and the whole collection is served as one connected graph: records (nodes) and the sourced relationships between them (edges).'
-  intro_2: 'There is no API key, no account and no rate card. The underlying data is CC0 1.0 — public domain, yours to download, keep and build on. The written articles are CC BY-SA 4.0, as with Wikipedia. If your system can open a web address, it can read the museum.'
+  lede: "میوزیم پر تعمیر کریں: اسلامی تاریخ کا ایک کھلا، ماخذ والا گراف — روابط کی صورت میں، ویجیٹس کی صورت میں، اور ایسے ڈیٹا کی صورت میں جسے آپ کے نظام پڑھ سکیں۔ نہ کوئی کلید، نہ کوئی فیس، نہ اجازت مانگنے کی ضرورت۔"
+  intro_1: "میوزیم قارئین کے لیے جو کچھ شائع کرتا ہے وہ مشینوں کے لیے بھی شائع ہوتا ہے۔ ہر اندراج — شخص، مقام، عمارت، تصنیف، واقعہ — کا ایک مستقل ویب صفحہ اور ایک مستحکم پتے پر اس کا JSON جڑواں ہے، اور پورا مجموعہ ایک جڑے ہوئے گراف کے طور پر پیش کیا جاتا ہے: اندراجات، یعنی نوڈز، اور ان کے درمیان ماخذ والے رشتے، یعنی ایجز۔"
+  intro_2: "نہ کوئی API کلید ہے، نہ اکاؤنٹ اور نہ شرحوں کی فہرست۔ بنیادی ڈیٹا CC0 1.0 ہے — پبلک ڈومین، آپ کے لیے ڈاؤن لوڈ کرنے، رکھنے اور اس پر تعمیر کرنے کے لیے۔ تحریری مضامین CC BY-SA 4.0 ہیں، جیسا کہ وکی پیڈیا میں۔ اگر آپ کا نظام کوئی ویب پتہ کھول سکتا ہے تو وہ میوزیم پڑھ سکتا ہے۔"
   live_stats: 'اس نسخے میں زندہ مجموعہ: {records} ریکارڈ · {edges} مستند تعلقات · ریکارڈ کی {classes} اقسام · {stubs} اسٹب، جن کا دوسرے ریکارڈ ذکر کرتے ہیں اور جو ابھی لکھے نہیں گئے۔'
-  quickstart_title: 'Three ways in, from an afternoon to a platform'
-  quickstart_intro: 'Choose the depth that suits your institution. Each level includes everything above it.'
-  level1_title: 'Level 1 — Link it'
-  level1_body: 'Add the museum to your catalogue and e-resources list, and deep-link to any record: every page address is permanent, in Arabic, English and Urdu. The British Library''s Asian and African collections team is in touch with the museum about this step. Zero development work.'
-  level2_title: 'Level 2 — Embed it'
-  level2_body: 'Drop a living piece of the museum into your own pages with one snippet of HTML: a fact card and a guided trail of the week, in any of the three languages. The content updates on our side; your page simply frames it.'
-  level3_title: 'Level 3 — Build on the data'
-  level3_body: 'Download the graph itself — every record and every sourced connection as plain JSON files — and build your own search, exhibits, school resources or research tools on top. CC0 means the copy is yours outright; the living source keeps growing and correcting, and you can re-sync whenever you like.'
+  quickstart_title: "تین راستے، ایک دوپہر سے ایک پلیٹ فارم تک"
+  quickstart_intro: "وہ گہرائی چنیں جو آپ کے ادارے کے مطابق ہو۔ ہر سطح میں اوپر کی سب چیزیں شامل ہیں۔"
+  level1_title: "سطح 1 — جوڑیں"
+  level1_body: "میوزیم کو اپنے فہرست نامے اور برقی وسائل کی فہرست میں شامل کریں، اور کسی بھی اندراج سے براہ راست جوڑیں: ہر صفحے کا پتہ مستقل ہے، عربی، انگریزی اور اردو میں۔ برٹش لائبریری کی ایشیائی و افریقی مجموعوں کی ٹیم اس مرحلے کے بارے میں میوزیم سے رابطے میں ہے۔ صفر ڈیولپمنٹ کام۔"
+  level2_title: "سطح 2 — شامل کریں"
+  level2_body: "ایچ ٹی ایم ایل کے ایک ٹکڑے سے میوزیم کا ایک زندہ حصہ اپنے صفحات میں ڈالیں: ایک حقیقت کا کارڈ اور ہفتے کا ایک رہنما راستہ، تینوں زبانوں میں سے کسی میں۔ مواد ہماری طرف سے تازہ ہوتا ہے؛ آپ کا صفحہ صرف اس کا فریم بناتا ہے۔"
+  level3_title: "سطح 3 — ڈیٹا پر تعمیر کریں"
+  level3_body: "خود گراف ڈاؤن لوڈ کریں — ہر اندراج اور ہر ماخذ والا رابطہ سادہ JSON فائلوں کی صورت میں — اور اس کے اوپر اپنی تلاش، نمائشیں، اسکول کے وسائل یا تحقیقی اوزار بنائیں۔ CC0 کا مطلب ہے کہ نقل مکمل طور پر آپ کی ہے؛ زندہ ماخذ بڑھتا اور درست ہوتا رہتا ہے، اور آپ جب چاہیں دوبارہ ہم وقت کر سکتے ہیں۔"
   endpoints_title: 'Endpoints'
   endpoints_intro: 'ہر پتہ https://api.islam.museum/api/v1/ سے شروع ہوتا ہے — یہ سابقہ خود کوئی صفحہ نہیں؛ داخلی دروازہ https://api.islam.museum/api/v1/index.json ہے۔ The same paths on islam.museum redirect here. Plain HTTPS GET requests; responses are JSON, or NDJSON (one JSON object per line) for the two graph files, so they can be processed as a stream. CORS is open (Access-Control-Allow-Origin: *), so browsers may call the API directly.'
   col_endpoint: 'Endpoint'
-  col_returns: 'What it returns'
-  ep1: 'The API index: version, the 22 record classes, and the licences in machine-readable form.'
-  ep2: 'Live totals: how many records exist, and how many per class.'
-  ep3: 'Every record of one class in a single JSON array — for example all 10,884 people.'
-  ep4: 'One complete record: labels and summaries in three languages, its structured data, its sources, and its precomputed connections.'
+  col_returns: "یہ کیا لوٹاتا ہے"
+  ep1: "API کی فہرست: ورژن، 22 اقسام کے اندراجات، اور لائسنس مشین کے پڑھنے کے قابل شکل میں۔"
+  ep2: "زندہ مجموعے: کتنے اندراجات ہیں، اور ہر قسم میں کتنے۔"
+  ep3: "ایک قسم کا ہر اندراج ایک ہی JSON اری میں — مثلاً تمام 10,884 افراد۔"
+  ep4: "ایک مکمل اندراج: تین زبانوں میں لیبل اور خلاصے، اس کا منظم ڈیٹا، اس کے ماخذ، اور اس کے پہلے سے حساب شدہ روابط۔"
   ep0: "داخلی دروازہ: اس API میں کون سی فائلیں اور فولڈر ہیں، اور اس کی OpenAPI تفصیل کہاں ہے۔"
   ep5: 'پورے گراف کے ریکارڈ اور اسٹب، ہر سطر میں ایک JSON آبجیکٹ ⁦({nodeLines} سطریں)⁩۔'
   ep6: 'ریکارڈوں کے درمیان ہر تعلق، ہر سطر میں ایک ({edgeLines}) — اور ہر تعلق کے ساتھ وہ مآخذ جن پر وہ قائم ہے۔'
-  ep7: 'Embeddable widgets for your own pages: a fact card and the trail of the week, in Arabic, English or Urdu.'
-  ep8: 'The archived dataset on Zenodo, with a permanent DOI for citation: 10.5281/zenodo.23692511.'
-  examples_title: 'Example queries, with real results'
-  examples_intro: 'Everything below was returned by the live API in November 2026, trimmed only for length.'
-  ex1_title: 'How large is the collection?'
-  ex2_title: 'One full record'
-  ex3_title: 'The graph files: a node and some edges'
-  ex4_title: 'Walking the graph (Python) — who was Muhammad Ali Jauhar connected to?'
-  ex_note: 'Responses are trimmed with … where they continue.'
+  ep7: "آپ کے اپنے صفحات کے لیے شامل کیے جانے والے ویجیٹس: ایک حقیقت کا کارڈ اور ہفتے کا رہنما راستہ، عربی، انگریزی یا اردو میں۔"
+  ep8: "Zenodo پر محفوظ کیا گیا ڈیٹاسیٹ، حوالہ دینے کے لیے مستقل DOI کے ساتھ: 10.5281/zenodo.23692511۔"
+  examples_title: "مثالی کوئریز، اصل نتائج کے ساتھ"
+  examples_intro: "نیچے کی ہر چیز نومبر 2026 میں زندہ API سے لوٹی، صرف طوالت کے لیے کاٹی گئی۔"
+  ex1_title: "مجموعہ کتنا بڑا ہے؟"
+  ex2_title: "ایک مکمل اندراج"
+  ex3_title: "گراف فائلیں: ایک نوڈ اور کچھ ایجز"
+  ex4_title: "گراف پر چلنا (Python) — محمد علی جوہر کن سے جڑے تھے؟"
+  ex_note: "جوابات جہاں جاری رہتے ہیں وہاں … سے کاٹے گئے ہیں۔"
   schema_title: 'Schema'
-  schema_intro: 'Two shapes cover almost everything: the node (a record, in the graph files and class indexes) and the edge (a connection). A single-record response adds the record''s full structured data and precomputed neighbourhood.'
-  schema_node_title: 'Node — one record'
-  schema_edge_title: 'Edge — one connection'
-  schema_record_title: 'Single record — the full form'
-  schema_record_body: 'A single-record response carries these keys: id, class, slug, label, summary, stub, wings, regions, periods, tags, aliases, themes, span, display, data, prose, degree, contemporaries, updated, connections, related, license. The data key holds the record''s complete structured content (dates, places, occupations, faith where attested, and more); connections and related are its precomputed neighbourhood in the graph; degree is its connection count.'
-  schema_types_body: 'There are 55 kinds of connection. The most frequent: part_of (9,845), mentions (9,504), participated_in (5,317), basis_for (3,749), occurred_at (2,120), about (1,825), died_in (750), member_of (726), born_in (608), child_of (570). Dates use EDTF (the Extended Date/Time Format, ISO 8601-2 — the library and archive standard for historical dates), with Hijri years recorded alongside Gregorian ones.'
+  schema_intro: "دو شکلیں تقریباً سب کچھ ڈھانپتی ہیں: نوڈ، یعنی گراف فائلوں اور قسم کی فہرستوں میں ایک اندراج، اور ایج، یعنی ایک رابطہ۔ ایک اندراج کا جواب اندراج کا مکمل منظم ڈیٹا اور پہلے سے حساب شدہ پڑوس بھی شامل کرتا ہے۔"
+  schema_node_title: "نوڈ — ایک اندراج"
+  schema_edge_title: "ایج — ایک رابطہ"
+  schema_record_title: "ایک اندراج — مکمل شکل"
+  schema_record_body: "ایک اندراج کا جواب یہ کلیدیں رکھتا ہے: id, class, slug, label, summary, stub, wings, regions, periods, tags, aliases, themes, span, display, data, prose, degree, contemporaries, updated, connections, related, license۔ data کلید اندراج کا مکمل منظم مواد رکھتی ہے، یعنی تاریخیں، مقامات، پیشے، جہاں تصدیق ہو وہاں عقیدہ، اور مزید؛ connections اور related گراف میں اس کا پہلے سے حساب شدہ پڑوس ہیں؛ degree اس کے روابط کی تعداد ہے۔"
+  schema_types_body: "روابط کی 55 اقسام ہیں۔ سب سے زیادہ: part_of (9,845)، mentions (9,504)، participated_in (5,317)، basis_for (3,749)، occurred_at (2,120)، about (1,825)، died_in (750)، member_of (726)، born_in (608)، child_of (570)۔ تاریخیں EDTF میں ہیں، یعنی ایکسٹینڈڈ ڈیٹ/ٹائم فارمیٹ، ISO 8601-2، جو تاریخی تاریخوں کے لیے کتب خانوں اور آرکائیوز کا معیار ہے، اور ہجری سال گریگورین سالوں کے ساتھ درج ہیں۔"
   col_field: 'Field'
   col_type: 'Type'
   col_meaning: 'Meaning'
-  f_id: 'The record''s permanent identifier, class/slug.'
-  f_class: 'One of the 24 classes: person, place, building, work, event, passage, source, invention, award…'
-  f_label: 'The record''s name in Arabic, English and Urdu, as available.'
-  f_summary: 'A short sourced summary in up to three languages.'
-  f_wings: 'Which of the museum''s nine wings the record belongs to (a record may sit in several).'
-  f_regions: 'Geographic regions the record belongs to.'
-  f_status: 'published, or draft (ingested, still being enriched). Stubs carry no status.'
-  f_wikidata: 'The record''s Wikidata identifier (QID), where one exists — use it to match records against your own catalogue.'
-  f_dates: 'Date fields where they apply — born, died, or a single date — as EDTF values.'
-  e_from: 'The record the connection starts from (an id).'
-  e_to: 'The record it points to (an id).'
-  e_type: 'The kind of connection — one of 55 types (see below).'
-  e_inverse: 'Whether this edge is the inverse reading of a stored relation.'
-  e_sources: 'The sources this connection rests on — every edge is sourced.'
+  f_id: "اندراج کی مستقل شناخت، class/slug۔"
+  f_class: "24 اقسام میں سے ایک: person, place, building, work, event, passage, source, invention, award…"
+  f_label: "اندراج کا نام عربی، انگریزی اور اردو میں، جیسا دستیاب ہو۔"
+  f_summary: "تین زبانوں تک میں ایک مختصر ماخذ والا خلاصہ۔"
+  f_wings: "اندراج میوزیم کے نو شعبوں میں سے کن سے تعلق رکھتا ہے، اور ایک اندراج کئی شعبوں میں ہو سکتا ہے۔"
+  f_regions: "وہ جغرافیائی خطے جن سے اندراج تعلق رکھتا ہے۔"
+  f_status: "published، یا draft جو شامل کیا گیا ہے اور ابھی مالا مال کیا جا رہا ہے۔ اسٹبز میں کوئی حیثیت نہیں ہوتی۔"
+  f_wikidata: "اندراج کا Wikidata شناخت کنندہ، یعنی QID، جہاں موجود ہو — اسے اپنے فہرست نامے کے اندراجات سے ملانے کے لیے استعمال کریں۔"
+  f_dates: "تاریخ کے خانے جہاں لاگو ہوں — پیدائش، وفات یا ایک واحد تاریخ — EDTF قدروں کے طور پر۔"
+  e_from: "وہ اندراج جہاں سے رابطہ شروع ہوتا ہے، ایک id۔"
+  e_to: "وہ اندراج جس کی طرف وہ اشارہ کرتا ہے۔"
+  e_type: "رابطے کی قسم — 55 اقسام میں سے ایک، نیچے دیکھیں۔"
+  e_inverse: "آیا یہ ایج کسی محفوظ شدہ رشتے کی الٹی قرأت ہے۔"
+  e_sources: "وہ ماخذ جن پر یہ رابطہ قائم ہے — ہر ایج کا ماخذ ہوتا ہے۔"
   code_title: 'Sample code'
-  code_intro: 'The three patterns most integrations need. All run against the live API exactly as written.'
-  agents_title: 'Start with an AI agent'
-  agents_intro: 'Hand one of these prompts to your coding assistant — Claude, Devin, Copilot, or any other — together with this page''s address. Each prompt is self-contained: it names the endpoints, the licence, and the result to produce. The prompts are given in English, as working text.'
-  roadmap_title: 'How much remains — why the living source matters'
-  roadmap_1: 'Of the {records} records in this build, {published} are published; the other {drafts} are drafts still being enriched, and {stubs} more are stubs awaiting their full build. A download today is a photograph of a workshop, not the finished shelves.'
-  roadmap_2: 'Beyond that, the museum''s own gap map names the corpora not yet harvested: the Turkish DİA encyclopaedia (~16,800 articles, so far used only for single records), Nadwi''s 57-volume dictionary of women hadith scholars (~9,000–10,000 teachers, almost none yet in the museum), the great narrator dictionaries behind the hadith transmitter graph, the Encyclopaedia of Islam backlog, a census of manuscripts and the libraries that hold them, and regional sweeps across Southeast Asia, Africa, China and the Americas that have barely begun. Three named dictionaries alone hold roughly 36,000 more entries than the museum has records today.'
-  roadmap_3: 'So take the data — that is what it is for. But build against the living source where you can: it corrects errors as scholars report them, adds thousands of records a month, and keeps one canonical address for everything. The copy is a snapshot; the museum is the garden.'
-  honesty_title: 'What is not here yet'
-  honesty_body: 'Stated plainly, so your planning rests on fact: there is no OpenAPI/Swagger document, no SPARQL endpoint, and no OAI-PMH or MARC export yet. The jobs taxonomy is served as records but is not yet woven into the graph as edges, and records carry Wikidata IDs without a lookup by QID yet. The JSON shapes above are stable and versioned (v1 in every address), and the meta index announces the version and licences. Formal API documentation and library-standard exports are on the roadmap.'
-  licence_title: 'Licence, citation and contact'
-  licence_body: 'Data: CC0 1.0 — no permission needed; a credit line such as “Data: islam.museum (CC0)” is appreciated. Articles: CC BY-SA 4.0 — reuse with credit. Code: MIT. For citation, the dataset''s DOI is 10.5281/zenodo.23692511. The museum is a personal, non-commercial initiative, offered free to libraries, schools and readers everywhere; questions, corrections and collaboration: discover@islam.museum.'
-  unique_title: 'What makes this different'
-  unique_intro: 'Many collections hold pieces of the Islamic past. The museum''s claim is narrower and, we believe, unmatched in combination — no comparable combination is known:'
-  u1_title: 'One graph, every surface'
-  u1_body: 'The museum is not a website with an API attached. Its primary form is a single knowledge graph — records as structured data, articles as text — kept in a public git repository. The website, this API, the search, the timeline, the embeds and the children''s wing are all renderings of that one graph. Correct a fact once, and every surface corrects.'
-  u2_title: 'Sources inside the structure'
-  u2_body: 'In most datasets, evidence lives in footnotes. Here it lives in the data model: connections carry the sources they rest on, summaries carry their citations, and contested points keep their readings, labelled rather than flattened. You can query not only what the museum says, but what it rests on.'
-  u3_title: 'Arabic first, three editions throughout'
-  u3_body: 'The graph is written Arabic-first — the Arabic labels and summaries are the original, not a translation — with full English and Urdu editions of everything, records and interface alike. Most collections in this field are English with translations, or Arabic alone.'
-  u4_title: 'Fourteen centuries, one connected web'
-  u4_body: 'Twenty-two classes — people, places, buildings, objects, books, Qur''anic and hadith passages, concepts, events, journeys — share one graph, so a question can travel from a scholar to a book, to its manuscripts, to a city, to a century. Encyclopaedias divide all this by discipline and by volume; the graph crosses it.'
-  u5_title: 'Time as data, in two calendars'
-  u5_body: 'Dates are structured values in EDTF, the library standard for historical dates, with Hijri years recorded beside Gregorian ones — so timelines, centuries and anniversaries are computed from the data, not written page by page.'
-  u6_title: 'Open at every layer — and reproducible'
-  u6_body: 'Data CC0, prose CC BY-SA, code MIT: no key, no tracking, no server answering each visitor — the site is static files, and the complete dataset is two downloads. Any institution can mirror the entire museum, verify it independently, and rebuild on it. Nothing is held back to make you depend on this website.'
-  unique_closing: 'Others are larger in one dimension: a bigger encyclopaedia, a deeper single text corpus, a wider graph with no prose and no curation. What does not exist elsewhere, to our knowledge, is the combination — a sourced, Arabic-first, openly licensed graph of the whole Islamic past, published as a museum that anyone can read, query, embed and take.'
-  jobs_title: 'One class worth naming: job'
-  jobs_body: 'The job class is the museum''s taxonomy of crafts and professions — 19 records today, each carrying its domain, its kind, whether it was a guild craft (hirfa), its era and first attestation with sources, its places, its organisation and its training. Fetch the whole taxonomy at /api/v1/job/index.json, or one craft at /api/v1/job/{slug}.json. Occupations are not yet woven into the graph as edges — people carry them inside their own records — so that weaving is on the roadmap, and the changelog will record it when it lands.'
+  code_intro: "وہ تین نمونے جو زیادہ تر انضمام کو چاہییں۔ سب زندہ API پر بالکل اسی طرح چلتے ہیں جیسے لکھے ہیں۔"
+  agents_title: "اے آئی ایجنٹ کے ساتھ شروع کریں"
+  agents_intro: "ان میں سے کوئی ایک پرامپٹ اپنے کوڈنگ اسسٹنٹ کو دیں — Claude، Devin، Copilot یا کوئی اور — اس صفحے کے پتے کے ساتھ۔ ہر پرامپٹ خود مکمل ہے: وہ اینڈ پوائنٹس، لائسنس اور مطلوبہ نتیجہ بتاتا ہے۔ پرامپٹ انگریزی میں، بطور کام کرنے والی تحریر، دیے گئے ہیں۔"
+  roadmap_title: "کتنا باقی ہے — زندہ ماخذ کیوں اہم ہے"
+  roadmap_1: "اس تعمیر کے {records} اندراجات میں سے {published} شائع شدہ ہیں؛ باقی {drafts} مسودے ہیں جنہیں ابھی مالا مال کیا جا رہا ہے، اور {stubs} مزید اسٹبز ہیں جو اپنی مکمل تعمیر کے منتظر ہیں۔ آج کا ڈاؤن لوڈ ایک ورکشاپ کی تصویر ہے، تیار شیلف نہیں۔"
+  roadmap_2: "اس کے علاوہ، میوزیم کا اپنا خلا کا نقشہ وہ ذخیرے بتاتا ہے جو ابھی کھنگالے نہیں گئے: ترکی کا DİA انسائیکلوپیڈیا، تقریباً 16,800 مضامین، جو اب تک صرف انفرادی اندراجات کے لیے استعمال ہوا؛ ندوی کی 57 جلدوں پر مشتمل خواتین محدثات کی لغت، تقریباً 9,000 سے 10,000 اساتذہ، جن میں سے تقریباً کوئی ابھی میوزیم میں نہیں؛ حدیث کے راویوں کے گراف کے پیچھے راویوں کی بڑی لغات؛ انسائیکلوپیڈیا آف اسلام کا باقی ماندہ کام؛ مخطوطات اور انہیں رکھنے والے کتب خانوں کی مردم شماری؛ اور جنوب مشرقی ایشیا، افریقہ، چین اور امریکہ میں علاقائی سروے جو بمشکل شروع ہوئے ہیں۔ صرف تین نامزد لغات میں میوزیم کے آج کے اندراجات سے تقریباً 36,000 اندراجات زیادہ ہیں۔"
+  roadmap_3: "تو ڈیٹا لے لیں — اسی لیے وہ ہے۔ لیکن جہاں ممکن ہو زندہ ماخذ کے مقابل تعمیر کریں: وہ علماء کے بتانے پر غلطیاں درست کرتا ہے، ہر ماہ ہزاروں اندراجات شامل کرتا ہے، اور ہر چیز کے لیے ایک مستند پتہ رکھتا ہے۔ نقل ایک عکس ہے؛ میوزیم باغ ہے۔"
+  honesty_title: "ابھی یہاں کیا نہیں ہے"
+  honesty_body: "سادہ الفاظ میں، تاکہ آپ کی منصوبہ بندی حقیقت پر ہو: کوئی OpenAPI/Swagger دستاویز نہیں، کوئی SPARQL اینڈ پوائنٹ نہیں، اور ابھی کوئی OAI-PMH یا MARC برآمد نہیں۔ پیشوں کی درجہ بندی اندراجات کے طور پر دی جاتی ہے مگر ابھی ایجز کے طور پر گراف میں نہیں بُنی گئی، اور اندراجات Wikidata IDs رکھتے ہیں مگر ابھی QID سے تلاش نہیں ہو سکتی۔ اوپر کی JSON شکلیں مستحکم اور ورژن والی ہیں، ہر پتے میں v1، اور میٹا فہرست ورژن اور لائسنس کا اعلان کرتی ہے۔ رسمی API دستاویزات اور کتب خانوں کے معیار کی برآمدات راستے کے نقشے پر ہیں۔"
+  licence_title: "لائسنس، حوالہ اور رابطہ"
+  licence_body: "ڈیٹا: CC0 1.0 — کسی اجازت کی ضرورت نہیں؛ “Data: islam.museum (CC0)” جیسی ایک کریڈٹ لائن کو سراہا جاتا ہے۔ مضامین: CC BY-SA 4.0 — کریڈٹ کے ساتھ دوبارہ استعمال۔ کوڈ: MIT۔ حوالے کے لیے ڈیٹاسیٹ کا DOI 10.5281/zenodo.23692511 ہے۔ میوزیم ایک ذاتی، غیر تجارتی اقدام ہے، جو ہر جگہ کے کتب خانوں، اسکولوں اور قارئین کو مفت پیش کیا جاتا ہے؛ سوالات، اصلاحات اور تعاون کے لیے: discover@islam.museum۔"
+  unique_title: "یہ مختلف کیوں ہے"
+  unique_intro: "بہت سے مجموعے اسلامی ماضی کے ٹکڑے رکھتے ہیں۔ میوزیم کا دعویٰ زیادہ محدود ہے اور، ہمارے خیال میں، مجموعے کے لحاظ سے بے مثال — کوئی ایسا ہم پلہ مجموعہ معلوم نہیں:"
+  u1_title: "ایک گراف، ہر سطح"
+  u1_body: "میوزیم کوئی ایسی ویب سائٹ نہیں جس کے ساتھ API لگا دی گئی ہو۔ اس کی بنیادی شکل ایک واحد علمی گراف ہے — اندراجات منظم ڈیٹا کی صورت میں، مضامین متن کی صورت میں — جو ایک عوامی git ریپوزٹری میں رکھا ہے۔ ویب سائٹ، یہ API، تلاش، ٹائم لائن، ایمبیڈز اور بچوں کا شعبہ سب اسی ایک گراف کی پیشکشیں ہیں۔ ایک حقیقت ایک بار درست کریں تو ہر سطح درست ہو جاتی ہے۔"
+  u2_title: "ڈھانچے کے اندر ماخذ"
+  u2_body: "زیادہ تر ڈیٹاسیٹس میں شواہد حاشیوں میں ہوتے ہیں۔ یہاں وہ ڈیٹا ماڈل میں ہیں: روابط اپنے ماخذ ساتھ رکھتے ہیں، خلاصے اپنے حوالے رکھتے ہیں، اور متنازع نکات اپنی قرأتیں رکھتے ہیں، چپٹا کرنے کے بجائے نشان زد۔ آپ صرف یہی نہیں پوچھ سکتے کہ میوزیم کیا کہتا ہے، بلکہ یہ بھی کہ وہ کس پر قائم ہے۔"
+  u3_title: "پہلے عربی، ہر جگہ تین ایڈیشن"
+  u3_body: "گراف پہلے عربی میں لکھا جاتا ہے — عربی لیبل اور خلاصے اصل ہیں، ترجمہ نہیں — اور ہر چیز کے مکمل انگریزی اور اردو ایڈیشن ہیں، اندراجات بھی اور انٹرفیس بھی۔ اس میدان کے زیادہ تر مجموعے انگریزی میں ترجموں کے ساتھ ہیں، یا صرف عربی۔"
+  u4_title: "چودہ صدیاں، ایک جڑا ہوا جال"
+  u4_body: "بائیس اقسام — افراد، مقامات، عمارات، اشیاء، کتابیں، قرآنی اور حدیثی اقتباسات، تصورات، واقعات، سفر — ایک گراف میں شریک ہیں، تاکہ ایک سوال عالم سے کتاب تک، اس کے مخطوطات تک، ایک شہر تک اور ایک صدی تک سفر کر سکے۔ انسائیکلوپیڈیا یہ سب مضمون اور جلد کے حساب سے بانٹتے ہیں؛ گراف اسے عبور کرتا ہے۔"
+  u5_title: "وقت بطور ڈیٹا، دو تقویموں میں"
+  u5_body: "تاریخیں EDTF میں منظم قدریں ہیں، جو تاریخی تاریخوں کے لیے کتب خانوں کا معیار ہے، اور ہجری سال گریگورین سالوں کے ساتھ درج ہیں — اس لیے ٹائم لائنیں، صدیاں اور سالگرہیں ڈیٹا سے حساب کی جاتی ہیں، صفحہ بہ صفحہ لکھی نہیں جاتیں۔"
+  u6_title: "ہر تہہ پر کھلا — اور دہرایا جا سکنے والا"
+  u6_body: "ڈیٹا CC0، نثر CC BY-SA، کوڈ MIT: کوئی کلید نہیں، کوئی ٹریکنگ نہیں، ہر زائر کو جواب دینے والا کوئی سرور نہیں — سائٹ جامد فائلیں ہے، اور مکمل ڈیٹاسیٹ دو ڈاؤن لوڈز ہے۔ کوئی بھی ادارہ پورے میوزیم کی نقل بنا سکتا ہے، اسے آزادانہ جانچ سکتا ہے اور اس پر دوبارہ تعمیر کر سکتا ہے۔ آپ کو اس ویب سائٹ پر منحصر رکھنے کے لیے کوئی چیز روک کر نہیں رکھی گئی۔"
+  unique_closing: "دوسرے ایک پہلو میں بڑے ہیں: بڑا انسائیکلوپیڈیا، ایک گہرا واحد متنی ذخیرہ، نثر اور انتخاب کے بغیر ایک وسیع تر گراف۔ جو کہیں اور موجود نہیں، ہمارے علم کے مطابق، وہ مجموعہ ہے — پورے اسلامی ماضی کا ایک ماخذ والا، پہلے عربی، کھلے لائسنس والا گراف، جو ایک میوزیم کے طور پر شائع ہے جسے کوئی بھی پڑھ سکتا ہے، کوئری کر سکتا ہے، شامل کر سکتا ہے اور لے سکتا ہے۔"
+  jobs_title: "ایک قسم جس کا ذکر ضروری ہے: job"
+  jobs_body: "job کی قسم دستکاریوں اور پیشوں کی میوزیم کی درجہ بندی ہے — آج 19 اندراجات، جن میں سے ہر ایک اپنا میدان، اپنی نوعیت، آیا وہ ایک پیشہ ورانہ انجمن کی دستکاری تھی، یعنی حرفہ، اس کا دور اور پہلی شہادت ماخذ کے ساتھ، اس کے مقامات، اس کی تنظیم اور اس کی تربیت رکھتا ہے۔ پوری درجہ بندی /api/v1/job/index.json سے لیں، یا ایک دستکاری /api/v1/job/{slug}.json سے۔ پیشے ابھی ایجز کے طور پر گراف میں نہیں بُنے گئے — افراد انہیں اپنے اندراجات کے اندر رکھتے ہیں — اس لیے اس کا بُنا جانا راستے کے نقشے پر ہے، اور تبدیلیوں کی فہرست اسے درج کرے گی جب یہ آئے گا۔"
   inventions_title: 'ایک قابلِ ذکر کلاس: ایجاد (invention)'
   inventions_body: 'invention کلاس ایجادات اور دریافتوں کو ان کے شعبے، قسم، دور اور پہلے ثبوت کے ساتھ درج کرتی ہے، ان کے موجدوں کو مستند کرداروں کے ساتھ، نسبت کے دعوے اور اس کی بنیاد کو، ان سے پہلے کیا تھا اور ان پر کیا بنا، اور ان کی تصویر اور خاکے کو۔ تمام ریکارڈ /api/v1/inventions.json سے، سلسلے /api/v1/inventions/chains.json سے، یا ایک ریکارڈ /api/v1/invention/{slug}.json سے حاصل کریں۔ زائرین کے لیے براؤزر /ur/inventions/ پر ہے۔'
 changelog:
   title: 'Changelog'
-  lede: 'Every change to the museum, recorded as it lands — what was added, changed, fixed or removed, and the version you are looking at.'
-  intro: 'This page renders CANARY.md, the release-notes file kept in the museum''s public repository. Every change lands with its entry in the same commit, grouped by kind; a rollback is recorded, never erased. The entries are kept in English as the engineering record.'
-  current_label: 'Current version'
-  coming_title: 'What comes next'
-  coming_1: 'Occupations woven into the graph: the jobs taxonomy is served as records today; next it becomes connections, so a person links to their craft and a question like “every calligrapher of the ninth century” can be walked across the graph.'
-  coming_2: 'Query by Wikidata ID: a published index mapping all 16,232 Wikidata identifiers in the data to their records, with a lookup address for each QID.'
-  coming_3: 'Formal API documentation (OpenAPI) and library-standard exports: OAI-PMH, MARC and a Dublin Core mapping.'
-  coming_4: 'The unharvested corpora — the DİA encyclopaedia, the women hadith scholars of Nadwi''s 57-volume dictionary, the narrator (rijal) graph — and new language editions: Indonesian, Turkish and French.'
-  history_line: 'The complete history, commit by commit, lives in the public repository (github.com/amado2k5/islam-museum); this page is its reader''s digest.'
+  lede: "میوزیم کی ہر تبدیلی، جیسے ہی آتی ہے درج — کیا شامل ہوا، بدلا، درست ہوا یا ہٹایا گیا، اور وہ ورژن جو آپ دیکھ رہے ہیں۔"
+  intro: "یہ صفحہ CANARY.md کو پیش کرتا ہے، جو میوزیم کی عوامی ریپوزٹری میں رکھی ریلیز نوٹس کی فائل ہے۔ ہر تبدیلی اپنے اندراج کے ساتھ اسی کمٹ میں آتی ہے، قسم کے لحاظ سے گروہ بند؛ رول بیک درج کیا جاتا ہے، مٹایا نہیں جاتا۔ اندراجات انجینئرنگ ریکارڈ کے طور پر انگریزی میں رکھے جاتے ہیں۔"
+  current_label: "موجودہ ورژن"
+  coming_title: "آگے کیا آ رہا ہے"
+  coming_1: "پیشے گراف میں بُنے جائیں گے: پیشوں کی درجہ بندی آج اندراجات کے طور پر دی جاتی ہے؛ اگلے مرحلے میں وہ روابط بنے گی، تاکہ ایک شخص اپنے پیشے سے جڑے اور “نویں صدی کے تمام خطاط” جیسا سوال گراف پر چل کر دیکھا جا سکے۔"
+  coming_2: "Wikidata ID سے کوئری: ڈیٹا کے تمام 16,232 Wikidata شناخت کنندگان کو ان کے اندراجات سے ملانے والی ایک شائع شدہ فہرست، ہر QID کے لیے تلاش کے پتے کے ساتھ۔"
+  coming_3: "رسمی API دستاویزات، یعنی OpenAPI، اور کتب خانوں کے معیار کی برآمدات: OAI-PMH، MARC اور Dublin Core کی نقشہ بندی۔"
+  coming_4: "وہ ذخیرے جو ابھی کھنگالے نہیں گئے — DİA انسائیکلوپیڈیا، ندوی کی 57 جلدوں کی لغت کی خواتین محدثات، راویوں کا، یعنی رجال کا، گراف — اور نئے زبانی ایڈیشن: انڈونیشی، ترکی اور فرانسیسی۔"
+  history_line: "مکمل تاریخ، کمٹ بہ کمٹ، عوامی ریپوزٹری میں ہے، github.com/amado2k5/islam-museum؛ یہ صفحہ اس کا قاری کا خلاصہ ہے۔"
 support:
   title: اسلام میوزیم کی مدد کریں
   lede: یہ عجائب گھر مفت اور کھلا ہے، اس میں کوئی اشتہار نہیں اور کوئی ٹریکنگ نہیں۔ اگر یہ آپ کے لیے مفید ہے تو آپ کی مدد اسے ایسا ہی رکھتی ہے اور اسے تیزی سے آگے
@@ -1924,15 +1929,15 @@ support:
     اشیاء فہرست کی اور بیچی جا سکیں گی ان سب کے لیے جو وہاں دیکھنا یا خریداری کرنا چاہیں۔ اس میں نہ اشتہارات ہوں گے، نہ سپام، نہ استدعا، اور اسے
     دیکھنا ہمیشہ اختیاری رہے گا۔ یہ ایک منصوبہ ہے، آج کھلی ہوئی دکان نہیں — اور عجائب گھر خود سب کے لیے مفت ہے اور رہے گا۔'
   note: مدد اختیاری ہے — جو چاہے جیسے چاہے دے، نہ کوئی وعدہ اور نہ کوئی پابندی — اور اس سے عجائب گھر کے مواد، اس کے جائزے یا اس کی سمت پر کوئی اختیار نہیں ملتا۔ ادارتی کام آزاد ہے اور طریقۂ کار شائع شدہ ہے۔
-  github_title: GitHub Sponsors
-  github_body: Monthly or one-time sponsorship through GitHub, with sponsors listed on the project's GitHub profile.
-  github_cta: Sponsor on GitHub Sponsors
-  raisely_title: Raisely donation page
-  raisely_body: The museum's dedicated donation page on Raisely — give once or monthly, in your own currency, toward hosting and running costs.
-  raisely_cta: Donate on Raisely
-  gofundme_title: GoFundMe campaign
-  gofundme_body: The museum's campaign on GoFundMe — give once, in your own currency, toward hosting and running costs.
-  gofundme_cta: Donate on GoFundMe
+  github_title: "GitHub Sponsors"
+  github_body: "GitHub کے ذریعے ماہانہ یا ایک بار کی سرپرستی، جس میں سرپرستوں کے نام منصوبے کے GitHub پروفائل پر درج ہوتے ہیں۔"
+  github_cta: "GitHub Sponsors پر سرپرستی کریں"
+  raisely_title: "Raisely عطیے کا صفحہ"
+  raisely_body: "Raisely پر میوزیم کا مخصوص عطیے کا صفحہ — اپنی کرنسی میں، ایک بار یا ماہانہ، ہوسٹنگ اور چلانے کے اخراجات کے لیے دیں۔"
+  raisely_cta: "Raisely پر عطیہ دیں"
+  gofundme_title: "GoFundMe مہم"
+  gofundme_body: "GoFundMe پر میوزیم کی مہم — اپنی کرنسی میں، ایک بار، ہوسٹنگ اور چلانے کے اخراجات کے لیے دیں۔"
+  gofundme_cta: "GoFundMe پر عطیہ دیں"
 explore:
   groups:
     texts: "متون"
@@ -2259,77 +2264,76 @@ art:
   related_title: متعلقہ صفحات
 kids:
   hub_title: Kids' Wing
-  hub_lede: The children's corner of the Islam Museum — play and learn with Hudhud!
+  hub_lede: "اسلام میوزیم کا بچوں کا گوشہ — ہدہد کے ساتھ کھیلیں اور سیکھیں!"
   band_sprouts: Sprouts
   band_sprouts_desc: Ages 4 to 6
   band_explorers: Explorers
   band_explorers_desc: Ages 7 to 9
   band_storytellers: Storytellers
-  band_storytellers_desc: Ages 10 to 12
+  band_storytellers_desc: "عمر 10 سے 12 سال"
   band_coming_soon: Coming soon
   garden_title: Word Garden
-  garden_lede: Every flower is a surah! Tap a flower to make it bloom and read the verses where the word appears.
-  garden_word_label: Word of the day
-  garden_meaning: '"Wa-bashshir" means: glad tidings!'
-  garden_tap_flower: Tap a flower to bloom it
+  garden_lede: "ہر پھول ایک سورہ ہے! کسی پھول کو چھوئیں تاکہ وہ کھل اٹھے، اور وہ آیات پڑھیں جن میں یہ لفظ آتا ہے۔"
+  garden_word_label: "آج کا لفظ"
+  garden_meaning: "“Wa-bashshir” کا مطلب ہے: خوشخبری!"
+  garden_tap_flower: "پھول کو چھوئیں تاکہ وہ کھلے"
   garden_verses: Verses
   garden_ayah: verse
   bee_title: Help the Bee
-  bee_lede: The bee forgot which surah this verse is from! Pick the right answer.
+  bee_lede: "شہد کی مکھی بھول گئی کہ یہ آیت کس سورہ کی ہے! صحیح جواب چنیں۔"
   bee_start: Start
   bee_next: New question
-  bee_correct: Well done! Correct answer
-  bee_wrong: Not quite — the right answer is Surah {answer}
-  bee_score: 'Your score: {n}'
-  quest_title: Prophet Quest
-  quest_lede: Five stops with five prophets — collect stars and learn one value at each stop!
+  bee_correct: "شاباش! صحیح جواب"
+  bee_wrong: "بالکل ٹھیک نہیں — صحیح جواب سورہ {answer} ہے"
+  bee_score: "آپ کے نمبر: {n}"
+  quest_title: "نبیوں کی مہم"
+  quest_lede: "پانچ نبیوں کے ساتھ پانچ پڑاؤ — ستارے جمع کریں اور ہر پڑاؤ پر ایک خوبی سیکھیں!"
   quest_stop: Stop {n}
   quest_value: Value
   quest_prev: Back
   quest_next: Next
-  quest_stars: 'Your stars: {n}'
-  quest_done: Well done! Stop complete
-  finale_title: Amazing! You finished the journey
-  finale_lede: 'You collected five stars and learned: {values}. Hudhud is proud of you!'
+  quest_stars: "آپ کے ستارے: {n}"
+  quest_done: "شاباش! پڑاؤ مکمل ہوا"
+  finale_title: "زبردست! آپ نے سفر مکمل کر لیا"
+  finale_lede: "آپ نے پانچ ستارے جمع کیے اور یہ سیکھا: {values}۔ ہدہد کو آپ پر فخر ہے!"
   finale_restart: Play again
-  grownups_title: For grown-ups
-  grownups_hub: 'The Kids'' Wing retells museum content in children''s language: simplified but never dumbed down, a Sunni frame, and age-gated sensitive material.'
-  grownups_garden: The Word Garden is built on the real "wa-bashshir" word map from the Museum Cards — the same data, in children's language.
-  grownups_quest: The five prophets' stories are shortened in a child-safe style; each stop ends with a value and a family discussion question.
-  erase: Erase my progress
-  erase_confirm: Are you sure? All your Kids' Wing progress will be erased.
-  erase_done: Erased! You can start fresh.
+  grownups_title: "بڑوں کے لیے"
+  grownups_hub: "بچوں کا حصہ میوزیم کے مواد کو بچوں کی زبان میں دوبارہ بیان کرتا ہے: سادہ مگر کم تر نہیں، سنی دائرے کے اندر، اور حساس مواد عمر کی حد کے ساتھ۔"
+  grownups_garden: "الفاظ کا باغ میوزیم کارڈز کے اصل “wa-bashshir” لفظی نقشے پر قائم ہے — وہی ڈیٹا، بچوں کی زبان میں۔"
+  grownups_quest: "پانچ نبیوں کی کہانیاں بچوں کے لیے محفوظ انداز میں مختصر کی گئی ہیں؛ ہر پڑاؤ ایک خوبی اور خاندان کے ساتھ گفتگو کے ایک سوال پر ختم ہوتا ہے۔"
+  erase: "میری پیش رفت مٹا دیں"
+  erase_confirm: "کیا آپ کو یقین ہے؟ بچوں کے حصے میں آپ کی ساری پیش رفت مٹا دی جائے گی۔"
+  erase_done: "مٹ گیا! آپ نئے سرے سے شروع کر سکتے ہیں۔"
   close: Close
-  back_to_museum: Back to the main museum
+  back_to_museum: "مرکزی میوزیم میں واپس"
   back_to_museum_short: Main museum
-  kindness_title: Kindness Quest
-  kindness_lede: One small kind deed a day for thirty days — tap a day to reveal the deed and place your sticker!
+  kindness_title: "مہربانی کی مہم"
+  kindness_lede: "تیس دن تک روزانہ ایک چھوٹی سی نیکی — کسی دن کو چھوئیں تاکہ نیکی سامنے آئے اور اپنا اسٹکر لگائیں!"
   kindness_day: Day {n}
-  kindness_tap_day: Tap a day to reveal the kind deed
-  kindness_progress: 'Your stickers: {n} of 30'
-  kindness_done: Wonderful deed! 🌟
-  kindness_all: All the kind deeds
-  kindness_print: Print the sticker chart
-  grownups_kindness: The Kindness Quest builds one tiny daily habit of goodness — thirty simple, Sunni-safe deeds, with no scores and no comparing children.
-  stories_title: Bedtime Stories
-  stories_lede: Five gentle tales from the Prophets' journey — for reading aloud in a warm voice before sleep.
+  kindness_tap_day: "نیکی دیکھنے کے لیے کسی دن کو چھوئیں"
+  kindness_progress: "آپ کے اسٹکر: 30 میں سے {n}"
+  kindness_done: "کیا خوب نیکی! 🌟"
+  kindness_all: "تمام نیکیاں"
+  kindness_print: "اسٹکر کا چارٹ پرنٹ کریں"
+  grownups_kindness: "مہربانی کی مہم روزانہ نیکی کی ایک چھوٹی سی عادت بناتی ہے — تیس سادہ نیکیاں جو سنی نقطۂ نظر سے محفوظ ہیں، نہ نمبر ہیں اور نہ بچوں کا آپس میں موازنہ۔"
+  stories_title: "سونے سے پہلے کی کہانیاں"
+  stories_lede: "نبیوں کے سفر کی پانچ نرم کہانیاں — سونے سے پہلے گرم آواز میں بلند آواز سے پڑھنے کے لیے۔"
   stories_next: Next story
-  stories_talk: Talk about it
+  stories_talk: "اس پر بات کریں"
   stories_all: All stories
   stories_listen: Listen
   stories_transcript: 'اس کہانی کا پورا متن اوپر لکھا ہے۔'
-  grownups_stories: The bedtime stories are gentle retellings of the five journey tales — not copies of them. Each ends with one calm question for family discussion.
-  sprouts_garden_title: Sprouts' Garden
-  sprouts_garden_lede: Big beautiful flowers! Tap a flower and watch it bloom.
-  sprouts_garden_tap: Tap a flower!
-  sprouts_quest_title: Sprouts' Journey
-  sprouts_quest_lede: Five prophets on a short, fun journey — tap the big button to begin!
+  grownups_stories: "سونے سے پہلے کی کہانیاں سفر کی پانچ کہانیوں کا نرم اعادہ ہیں، ان کی نقلیں نہیں۔ ہر کہانی خاندانی گفتگو کے لیے ایک پرسکون سوال پر ختم ہوتی ہے۔"
+  sprouts_garden_title: "ننھی کونپلوں کا باغ"
+  sprouts_garden_lede: "بڑے خوبصورت پھول! پھول کو چھوئیں اور اسے کھلتے دیکھیں۔"
+  sprouts_garden_tap: "پھول کو چھوئیں!"
+  sprouts_quest_title: "ننھی کونپلوں کا سفر"
+  sprouts_quest_lede: "پانچ نبی، ایک چھوٹا سا مزے دار سفر — شروع کرنے کے لیے بڑا بٹن دبائیں!"
   sprouts_next: Next
   sprouts_again: Again
-  sprouts_finale_title: Well done, little sprout!
-  sprouts_finale_lede: You finished the whole journey! Hudhud is so proud of you.
-  grownups_sprouts: The sprouts version (ages 4–6) has no long texts, no choices, and no outcomes — every tap is a celebration, and reading aloud to the child is
-    the intended experience.
+  sprouts_finale_title: "شاباش، ننھی کونپل!"
+  sprouts_finale_lede: "آپ نے پورا سفر مکمل کر لیا! ہدہد کو آپ پر بہت فخر ہے۔"
+  grownups_sprouts: "ننھی کونپلوں کا ورژن، عمر 4 سے 6 سال، میں نہ لمبی تحریریں ہیں، نہ انتخاب، نہ نتائج؛ ہر لمس ایک جشن ہے، اور بچے کو بلند آواز سے پڑھ کر سنانا ہی مقصود تجربہ ہے۔"
   retell_title: کہانی دوبارہ سنائیں
   retell_lede: کہانی پڑھیں، پھر اپنے الفاظ میں سنائیں!
   retell_pick: کہانی چنیں
@@ -2474,6 +2478,9 @@ hadith:
   collection_lede: اس تصنیف سے میوزیم میں {n} تصدیق شدہ متون۔
   kitab_lede: '{name} کی اس کتاب میں {n} متن۔'
   kitab_page: میوزیم میں کتاب کا کارڈ
+  no_reports: "اس کتاب کی کوئی روایت ابھی میوزیم میں نہیں"
+  loose_title: "کسی کتاب کے تحت درج نہیں"
+  loose_note: "وہ روایات جن کا متن اس نسخے کی کسی نمبر شدہ روایت سے نہیں ملایا جا سکا جس سے کتابوں کی تقسیم لی گئی ہے، اور وہ اقتباسات جو مطبوعہ صفحے کے نمبر سے درج ہیں۔ یہ اسی مجموعے کا حصہ ہیں اور اپنی کتاب کے منتظر ہیں۔"
   on_sunnah: یہ مجموعہ Sunnah.com پر دیکھیں
   isnad: سندِ روایت
   isnad_from: سے
@@ -2644,33 +2651,33 @@ authenticity:
   rules_body: 'قواعد عوامی repository میں ہیں: پالیسی، فہرست، validator اور harvest gate۔ کوئی بھی انہیں پڑھ اور جانچ سکتا ہے۔'
 method:
   title: Method
-  lede: 'How this museum decides what enters it, how every entry is classified, and what it refuses — the rules its builders actually work under, stated plainly.'
-  charter_title: 'The founder''s charter: the graph comes first'
-  charter_body: 'The museum exists to build one knowledge graph of the whole Islamic umma, and this site — its wings, timelines, maps and explorers — is an application for displaying that graph, not the foundation. The raw material is the content of one to two thousand of the mother books of Islam, read page by page by artificial intelligence: is a person mentioned here, and who is he? Do we already have him from another book — then his record grows — or is he new? Where was he, who was he with, what did he say (his words kept exactly), what happened, in what context, under which theme? Only then do the classification rules apply, among them whether the person, the account or the book is Sunni or not. So far, barely one to one and a half percent of the first thousand books has been mined, and that alone yielded over 160,000 pages carrying people, places, events and exact quotations — progress is measured against the books, not against page counts. The AI images follow the same order: the model is told what the graph knows and asked to draw its imagining of it, so an image is the model''s reading of the graph, never a depiction of its subject, and it shows how far that reading stands from reality. The charter itself, in the founder''s words of 8 November 2026, opens the museum''s plan documents in its public repository. Its goal, in the founder''s words, is that Islam — everything it contains, its people, its events, its places — be available to everyone in a form the old and the young, Arab and non-Arab, Muslim and non-Muslim can read, and that anyone may reshape the graph in any form or application that suits their own people, above all schools, universities and study circles: the graph is the bridge to a knowledge that once took many books and a lifetime to reach, a revival of the religious sciences for this age and the future.'
+  lede: "یہ میوزیم کیسے طے کرتا ہے کہ اس میں کیا داخل ہو، ہر اندراج کی درجہ بندی کیسے ہوتی ہے، اور وہ کس چیز سے انکار کرتا ہے — وہ اصول جن کے تحت اس کے معمار دراصل کام کرتے ہیں، سادہ الفاظ میں۔"
+  charter_title: "بانی کا منشور: پہلے گراف"
+  charter_body: "میوزیم کا وجود پوری امتِ اسلامیہ کا ایک علمی گراف بنانے کے لیے ہے، اور یہ ویب سائٹ، یعنی اس کے شعبے، ٹائم لائنیں، نقشے اور تلاش کے اوزار، اس گراف کو دکھانے کی ایک ایپلی کیشن ہے، بنیاد نہیں۔ خام مواد اسلام کی ایک سے دو ہزار امہات الکتب کا مواد ہے جسے مصنوعی ذہانت صفحہ بہ صفحہ پڑھتی ہے: کیا یہاں کسی شخص کا ذکر ہے، اور وہ کون ہے؟ کیا وہ ہمارے پاس کسی اور کتاب سے پہلے سے موجود ہے، اگر ہاں تو اس کا اندراج بڑھتا ہے، یا وہ نیا ہے؟ وہ کہاں تھا، کس کے ساتھ تھا، اس نے کیا کہا، اور اس کے الفاظ ہو بہو محفوظ رکھے جاتے ہیں، کیا واقعہ ہوا، کس سیاق میں، اور کس موضوع کے تحت؟ اس کے بعد ہی درجہ بندی کے اصول لاگو ہوتے ہیں، جن میں یہ بھی ہے کہ آیا شخص، روایت یا کتاب سنی ہے یا نہیں۔ اب تک پہلی ایک ہزار کتابوں کا بمشکل ایک سے ڈیڑھ فیصد کھنگالا گیا ہے، اور اسی سے 160,000 سے زیادہ ایسے صفحات حاصل ہوئے جن میں لوگ، مقامات، واقعات اور ہو بہو اقتباسات ہیں — پیش رفت کتابوں کے مقابلے میں ناپی جاتی ہے، صفحات کی گنتی کے مقابلے میں نہیں۔ اے آئی تصاویر بھی اسی ترتیب پر چلتی ہیں: ماڈل کو بتایا جاتا ہے کہ گراف کیا جانتا ہے اور اس سے کہا جاتا ہے کہ اس کا اپنا تصور بنائے، اس لیے تصویر گراف کے بارے میں ماڈل کی قرأت ہے، اپنے موضوع کی عکاسی کبھی نہیں، اور یہ دکھاتی ہے کہ یہ قرأت حقیقت سے کتنی دور ہے۔ خود منشور، بانی کے الفاظ میں، 8 نومبر 2026 کو، میوزیم کی عوامی ریپوزٹری میں اس کے منصوبہ جاتی دستاویزات کا آغاز کرتا ہے۔ بانی کے الفاظ میں اس کا مقصد یہ ہے کہ اسلام — جو کچھ اس میں ہے، اس کے لوگ، اس کے واقعات، اس کے مقامات — سب کے لیے ایسی صورت میں دستیاب ہو جسے بوڑھا اور جوان، عرب اور غیر عرب، مسلم اور غیر مسلم پڑھ سکے، اور یہ کہ کوئی بھی شخص گراف کو اپنی قوم کے مطابق کسی بھی شکل یا ایپلی کیشن میں ڈھال سکے، بالخصوص اسکولوں، جامعات اور مطالعاتی حلقوں کے لیے: گراف اس علم تک پل ہے جس تک پہنچنے میں کبھی بہت سی کتابیں اور پوری عمر لگتی تھی، یعنی اس زمانے اور مستقبل کے لیے دینی علوم کا احیاء۔"
   goal_title: 'مقصد، تین زبانوں میں'
   goal_body: 'مقصد، تین زبانوں میں — اس کا مقصد، بانی کے الفاظ میں، یہ ہے کہ اسلام — اپنے تمام محتوا، اپنے اشخاص، اپنے واقعات اور اپنے مقامات کے ساتھ — ہر ایک کے لیے ایسی صورت میں دستیاب ہو جسے بڑا اور چھوٹا، عرب اور غیر عرب، مسلم اور غیر مسلم پڑھ سکے، اور ہر کوئی گراف کو کسی بھی صورت یا ایپلیکیشن میں ڈھال سکے جو اس کے اپنے لوگوں کے لیے موزوں ہو، سب سے بڑھ کر اسکول، جامعات اور حلقاتِ علم: گراف اس علم تک کا پل ہے جو کبھی بہت سی کتابیں اور عمر بھر کی محنت مانگتا تھا، اس عہد اور مستقبل کے لیے علومِ دین کا احیاء۔'
-  updated: 'These rules are gathered from the museum''s editorial policy, scope note, sources policy, publication standard and lane documents in its public repository. This page was added on 6 November 2026.'
-  holds_title: What the museum holds
-  holds_body: 'The museum is one knowledge graph of the Islamic world, from the world of 610 to today — including the modern era, 1976 to the present, which has its own browser. Its records fall into twenty-four classes: people, places, events, buildings, objects, works, passages, concepts, practices, groups, polities, periods, journeys, inventions, awards and the sources every claim is tied to, among others. They are shelved in nine wings: Time, Place, People, Ideas, Objects, Words, Living, Today and Made. The same museum serves a child in the children''s wing and a scholar checking a citation, and entries are written rich-first, with as much sourced detail as the sources allow. The live counts — and the gaps — are on the Coverage page; this page is about the rules, not the numbers.'
-  standard_title: The publication standard
-  standard_body: 'An entry is published when three things are true: it cites its sources, so that every fact-stating sentence carries a citation; its sources are defined, so that every citation resolves to a source record a reader can open, never a bare name; and its provenance is recorded — what the record was built from, by whom or what, and in which run. That is the whole bar, and one defined, cited source is enough for any fact. No review, by a human or by another agent, stands between a record that meets the bar and its publication: the museum shows every reader the citations and the provenance, and leaves the judgement to them. The structured data is published CC0, the prose CC BY-SA 4.0 and the code MIT, so the museum can be checked, reused and forked.'
-  choose_title: How we choose
-  choose_1: 'Coverage is gap-driven. A standing coverage programme measures what the museum lacks — whole regions, centuries, classes of people — publishes the gap map in the open, and works through it phase by phase. Gaps are shown, not hidden. The work itself runs in lanes: a written lane document fixes one subject area''s scope, source rules and queue, and the builders work the queue in waves, row by row.'
-  choose_2: 'Nobody in a queue is skipped. Every channel on a harvest list yields a record for its author, and every entry in a reference work the museum mines is read, and becomes a record, enriches one, or is logged with the reason it was not used. Where evidence is thin the record is minimal and honest — shorter, never padded, never invented. In plain terms, what earns a place: a person with sourced historical attestation — and, for a modern public figure whose influence runs through media, a sustained public reach of roughly 100,000 Muslims for men or 50,000 for women on their own platforms, active within the last two years, with aggregator channels never counting; a place, event, object, work, idea or practice the sources tie to the story; a group or award documented in sources a reader can check; an invention documented in its primary text, a patent or specialist scholarship, with popular lists treated as leads, not evidence. Reference corpora are worked systematically: the Encyclopaedia of Islam entry by entry, the great biographical dictionaries person by person, a canon of prominent books one by one.'
-  classify_title: How we classify
-  classify_1: 'Every key statement carries a claim status: scriptural, where the Qur''an states it; tradition, where it is reported in hadith, sira or the biographical literature; historical, where it is the consensus of historians, with sources; debated, where a disagreement is live and the positions are shown; or legend — popular and culturally significant, but not supported by sources. A source''s own doubt markers are kept as data, so a record says when its source says "it is said" or grades a chain weak, and a conflicting account is kept as a second, debated claim — never deleted to make the record agree.'
-  classify_2: 'One classification is guarded above all: a person''s faith. It is recorded only from attestation about the person himself, and it settles only when two independent sources name the same school or order — never from an infobox or a database value alone, and never from his office, his headship of an order, his family, his descent or his party. Where sources compete or doubt remains, the record says unknown, and the rival readings are preserved in its note. The same discipline governs the museum''s frame: Sunni Islam is the museum''s stated standpoint, and its research starts from Sunni sources; every other view — Shia, Ibadi, academic or any other — is welcome, is always named before it is stated, and is never stated in the museum''s own voice. Contested topics carry a perspectives block: the Sunni position first, then the academic view, then any other view the topic needs, each cited and labelled, with no verdict. And the shelving rule: every entry belongs to at least one wing; an entry whose wing cannot be recognised is shelved in Ideas rather than left unshelved, and an entry that belongs to several wings shows all of them as tags.'
-  not_title: What we do not choose
-  not_body: 'The museum refuses: any claim without a source; a sensitive classification carried by a single source, or by structured data alone; a figurative depiction of a prophet, and an AI-generated portrait of anyone; a book or copy that fails the authenticity gate — an edition that cannot be identified, a copy that cannot be validated, a source on a blocked spam or phishing list; a modern figure whose reach cannot be verified, who has long been inactive, or who merely aggregates other people''s work; and, for living people, anything beyond well-sourced public facts. It also refuses three habits: it does not hide its gaps, it does not silently drop a queue entry — a skip is logged with its reason — and it does not present AI-written summaries as checked text; they are labelled as summaries, with the sources standing beside them for the reader to judge.'
-  ages_title: Ages and sensitivity
-  ages_body: 'Entries carry sensitivity labels, and the labels do work. Relics and sacred objects are presented reverently and descriptively. Violence, war and persecution are included as sober history, with casualty figures sourced and given as ranges, and no graphic imagery by default. Polemical material is described and cited, never reproduced or displayed. Children get two protections: a kid mode that hides material labelled violence, mature, contested or polemical, and a children''s wing written for ages four to twelve under its own stricter rulebook — reading levels by age band, no fear-based language, no graphic detail, no shaming, nothing prescriptive. Contested topics do not enter children''s routes at all, and children''s content is built only from material explicitly marked for it — never by watering adult pages down.'
-  corrections_title: Corrections and openness
-  corrections_body: 'Corrections are made in the open. Every record, policy and change lives in the museum''s public repository with its full history, and a reported error and its outcome are recorded there. This page is a digest: the documents themselves govern, and the main ones are linked below — the editorial policy, the scope note that states the museum''s frame, the sources policy, the publication standard, and the authenticity page describing the gate for books and copies. If this page and a document ever disagree, the document wins, and the page is corrected.'
-  rules_title: Where the rules live
-  link_editorial: Editorial policy
+  updated: "یہ اصول میوزیم کی عوامی ریپوزٹری میں موجود اس کی ادارتی پالیسی، دائرۂ کار کے نوٹ، ماخذ کی پالیسی، اشاعتی معیار اور لین دستاویزات سے جمع کیے گئے ہیں۔ یہ صفحہ 6 نومبر 2026 کو شامل کیا گیا۔"
+  holds_title: "میوزیم میں کیا ہے"
+  holds_body: "میوزیم عالمِ اسلام کا ایک علمی گراف ہے، 610 کی دنیا سے آج تک، بشمول جدید دور، 1976 سے اب تک، جس کا اپنا براؤزر ہے۔ اس کے اندراج چوبیس اقسام میں آتے ہیں: افراد، مقامات، واقعات، عمارات، اشیاء، تصانیف، اقتباسات، تصورات، معمولات، گروہ، سلطنتیں، ادوار، سفر، ایجادات، اعزازات اور وہ ماخذ جن سے ہر دعویٰ بندھا ہے، اور دیگر۔ انہیں نو شعبوں میں رکھا گیا ہے: وقت، مقام، افراد، افکار، اشیاء، الفاظ، زندہ ثقافت، آج اور تخلیق۔ یہی میوزیم بچوں کے شعبے میں ایک بچے کے اور حوالہ جانچتے ہوئے ایک عالم کے کام آتا ہے، اور اندراج پہلے ہی بھرپور لکھے جاتے ہیں، ماخذ جتنی تفصیل کی اجازت دیں اتنی تفصیل کے ساتھ۔ تازہ ترین گنتی، اور خلا، کوریج کے صفحے پر ہیں؛ یہ صفحہ اصولوں کے بارے میں ہے، اعداد کے بارے میں نہیں۔"
+  standard_title: "اشاعتی معیار"
+  standard_body: "کوئی اندراج تب شائع ہوتا ہے جب تین باتیں سچ ہوں: وہ اپنے ماخذ کا حوالہ دیتا ہو، یعنی حقیقت بیان کرنے والے ہر جملے کے ساتھ حوالہ ہو؛ اس کے ماخذ متعین ہوں، یعنی ہر حوالہ ایسے ماخذ کے اندراج تک پہنچے جسے قاری کھول سکے، محض نام نہیں؛ اور اس کا پس منظرِ ماخذ درج ہو — اندراج کس چیز سے بنا، کس نے یا کس چیز نے بنایا، اور کس مرحلۂ کار میں۔ بس یہی پورا معیار ہے، اور ایک متعین، حوالہ شدہ ماخذ کسی بھی حقیقت کے لیے کافی ہے۔ جو اندراج اس معیار پر پورا اترتا ہے اس کے اور اس کی اشاعت کے درمیان کوئی جائزہ، نہ کسی انسان کا اور نہ کسی دوسرے ایجنٹ کا، حائل نہیں؛ میوزیم ہر قاری کو حوالے اور پس منظرِ ماخذ دکھاتا ہے اور فیصلہ اسی پر چھوڑتا ہے۔ منظم ڈیٹا CC0 کے تحت، نثر CC BY-SA 4.0 کے تحت اور کوڈ MIT کے تحت شائع ہوتا ہے، تاکہ میوزیم کو جانچا، دوبارہ استعمال کیا اور فورک کیا جا سکے۔"
+  choose_title: "ہم کیسے چنتے ہیں"
+  choose_1: "کوریج خلا کی بنیاد پر چلتی ہے۔ ایک مستقل کوریج پروگرام ناپتا ہے کہ میوزیم میں کیا کمی ہے — پورے خطے، صدیاں، افراد کی اقسام — خلا کا نقشہ کھلے عام شائع کرتا ہے، اور مرحلہ وار اس پر کام کرتا ہے۔ خلا دکھائے جاتے ہیں، چھپائے نہیں جاتے۔ کام خود لینوں میں چلتا ہے: ایک تحریری لین دستاویز کسی موضوعی میدان کا دائرہ، ماخذ کے اصول اور قطار طے کرتی ہے، اور معمار قطار پر لہروں میں، قطار بہ قطار کام کرتے ہیں۔"
+  choose_2: "قطار میں کسی کو چھوڑا نہیں جاتا۔ فصل کی فہرست کا ہر چینل اپنے مصنف کا ایک اندراج دیتا ہے، اور میوزیم جس حوالہ جاتی کتاب کو کھنگالتا ہے اس کا ہر اندراج پڑھا جاتا ہے، اور یا تو اندراج بنتا ہے، یا کسی موجود اندراج کو مالا مال کرتا ہے، یا درج کیا جاتا ہے کہ استعمال کیوں نہیں ہوا۔ جہاں شواہد کم ہوں وہاں اندراج مختصر اور دیانت دار رہتا ہے — چھوٹا، کبھی بھرتی کا نہیں، کبھی گھڑا ہوا نہیں۔ سادہ الفاظ میں، جگہ کس کو ملتی ہے: ایسا شخص جس کی تاریخی تصدیق ماخذ سے ہو — اور ایسی جدید عوامی شخصیت جس کا اثر ذرائع ابلاغ سے ہو، تو اپنے پلیٹ فارمز پر مسلسل عوامی رسائی، مردوں کے لیے تقریباً 100,000 مسلمان اور خواتین کے لیے 50,000، جو گزشتہ دو سال میں سرگرم ہو، اور مجموعی چینل کبھی شمار نہیں ہوتے؛ کوئی مقام، واقعہ، شے، تصنیف، تصور یا معمول جسے ماخذ کہانی سے جوڑیں؛ کوئی گروہ یا اعزاز جو ایسے ماخذ میں درج ہو جنہیں قاری جانچ سکے؛ کوئی ایجاد جو اپنی بنیادی تحریر، کسی پیٹنٹ یا ماہرانہ تحقیق میں درج ہو، اور مقبول فہرستوں کو سراغ سمجھا جاتا ہے، ثبوت نہیں۔ حوالہ جاتی ذخیروں پر باقاعدہ کام ہوتا ہے: انسائیکلوپیڈیا آف اسلام اندراج بہ اندراج، بڑی سوانحی لغات شخص بہ شخص، اور نمایاں کتابوں کا ایک ذخیرہ ایک ایک کر کے۔"
+  classify_title: "ہم درجہ بندی کیسے کرتے ہیں"
+  classify_1: "ہر اہم بیان کے ساتھ دعوے کی حیثیت ہوتی ہے: قرآنی، جہاں قرآن اسے بیان کرے؛ روایتی، جہاں وہ حدیث، سیرت یا سوانحی ادب میں روایت ہو؛ تاریخی، جہاں وہ مؤرخین کا اجماع ہو، ماخذ کے ساتھ؛ مختلف فیہ، جہاں اختلاف زندہ ہو اور مؤقف دکھائے جائیں؛ یا لوک روایت — مقبول اور ثقافتی طور پر اہم، مگر ماخذ سے غیر مؤید۔ کسی ماخذ کے اپنے شک کے نشانات ڈیٹا کے طور پر محفوظ رکھے جاتے ہیں، تاکہ اندراج بتائے کہ اس کا ماخذ کہاں “کہا جاتا ہے” کہتا ہے یا کسی سند کو ضعیف قرار دیتا ہے، اور متضاد بیان کو دوسرے مختلف فیہ دعوے کے طور پر رکھا جاتا ہے — اندراج کو ہم آہنگ بنانے کے لیے کبھی مٹایا نہیں جاتا۔"
+  classify_2: "ایک درجہ بندی سب سے بڑھ کر محفوظ رکھی جاتی ہے: کسی شخص کا عقیدہ۔ یہ صرف خود اسی شخص کے بارے میں شہادت سے درج ہوتا ہے، اور تب ہی طے ہوتا ہے جب دو آزاد ماخذ ایک ہی مکتب یا سلسلے کا نام لیں — محض کسی انفو باکس یا ڈیٹابیس کی قدر سے کبھی نہیں، اور اس کے منصب، کسی سلسلے کی سربراہی، خاندان، نسب یا جماعت سے کبھی نہیں۔ جہاں ماخذ متضاد ہوں یا شک باقی ہو، اندراج “نامعلوم” کہتا ہے، اور متبادل قرأتیں اس کے نوٹ میں محفوظ رہتی ہیں۔ یہی نظم میوزیم کے دائرے پر بھی لاگو ہے: سنی اسلام میوزیم کا بیان کردہ نقطۂ نظر ہے، اور اس کی تحقیق سنی ماخذ سے شروع ہوتی ہے؛ ہر دوسرا نقطۂ نظر — شیعہ، اباضی، علمی یا کوئی اور — خوش آمدید ہے، بیان سے پہلے ہمیشہ اس کا نام لیا جاتا ہے، اور اسے میوزیم کی اپنی آواز میں کبھی بیان نہیں کیا جاتا۔ متنازع موضوعات میں نقطہ ہائے نظر کا ایک حصہ ہوتا ہے: پہلے سنی مؤقف، پھر علمی نقطۂ نظر، پھر موضوع کو درکار کوئی اور نقطۂ نظر، ہر ایک حوالہ شدہ اور نشان زد، بغیر کسی فیصلے کے۔ اور درجہ بندی برائے شعبہ کا اصول: ہر اندراج کم از کم ایک شعبے سے تعلق رکھتا ہے؛ جس اندراج کا شعبہ پہچانا نہ جا سکے اسے بے ٹھکانہ چھوڑنے کے بجائے افکار میں رکھا جاتا ہے، اور جو اندراج کئی شعبوں سے تعلق رکھتا ہے وہ سب کو ٹیگ کے طور پر دکھاتا ہے۔"
+  not_title: "ہم کیا نہیں چنتے"
+  not_body: "میوزیم انکار کرتا ہے: ہر اس دعوے سے جس کا ماخذ نہ ہو؛ ایسی حساس درجہ بندی سے جو صرف ایک ماخذ یا محض منظم ڈیٹا پر قائم ہو؛ کسی نبی کی تمثیلی تصویر سے، اور کسی بھی شخص کی اے آئی سے بنی ہوئی شبیہ سے؛ ایسی کتاب یا نسخے سے جو مستند ہونے کی جانچ میں ناکام ہو — ایسا ایڈیشن جس کی شناخت نہ ہو سکے، ایسا نسخہ جس کی توثیق نہ ہو سکے، ایسا ماخذ جو اسپام یا فشنگ کی بلاک فہرست میں ہو؛ ایسی جدید شخصیت سے جس کی رسائی کی تصدیق نہ ہو سکے، جو طویل عرصے سے غیر فعال ہو، یا جو محض دوسروں کے کام کو جمع کرتی ہو؛ اور زندہ افراد کے بارے میں، اچھے ماخذ والے عوامی حقائق سے آگے کسی بھی چیز سے۔ وہ تین عادات سے بھی انکار کرتا ہے: وہ اپنے خلا نہیں چھپاتا، وہ قطار کے کسی اندراج کو خاموشی سے نہیں چھوڑتا — چھوڑنے کی وجہ درج کی جاتی ہے — اور وہ اے آئی کے لکھے خلاصوں کو جانچی ہوئی تحریر کے طور پر پیش نہیں کرتا؛ انہیں خلاصہ کہہ کر نشان زد کیا جاتا ہے، اور ماخذ ان کے ساتھ رکھے جاتے ہیں تاکہ قاری خود فیصلہ کرے۔"
+  ages_title: "عمر اور حساسیت"
+  ages_body: "اندراجات پر حساسیت کے لیبل ہوتے ہیں، اور یہ لیبل کام کرتے ہیں۔ تبرکات اور مقدس اشیاء کو احترام اور وضاحت کے ساتھ پیش کیا جاتا ہے۔ تشدد، جنگ اور ظلم و ستم کو سنجیدہ تاریخ کے طور پر شامل کیا جاتا ہے، ہلاکتوں کے اعداد ماخذ کے ساتھ اور حدود کی صورت میں دیے جاتے ہیں، اور بطورِ طے شدہ کوئی ہولناک تصویر نہیں۔ جدلی مواد کو بیان اور حوالہ کیا جاتا ہے، کبھی دوبارہ پیش یا نمایاں نہیں کیا جاتا۔ بچوں کو دو تحفظات ملتے ہیں: بچوں کا موڈ جو تشدد، بالغوں کے لیے، متنازع یا جدلی نشان زد مواد چھپاتا ہے، اور بچوں کا شعبہ جو چار سے بارہ سال کی عمر کے لیے اپنے زیادہ سخت قاعدے کے تحت لکھا جاتا ہے — عمر کے گروہوں کے حساب سے پڑھنے کی سطحیں، خوف پر مبنی زبان نہیں، ہولناک تفصیل نہیں، شرمندہ کرنا نہیں، کوئی حکم نہیں۔ متنازع موضوعات بچوں کے راستوں میں بالکل داخل نہیں ہوتے، اور بچوں کا مواد صرف اس مواد سے بنتا ہے جو واضح طور پر اس کے لیے نشان زد ہو — بڑوں کے صفحات کو ہلکا کر کے کبھی نہیں۔"
+  corrections_title: "اصلاحات اور کھلا پن"
+  corrections_body: "اصلاحات کھلے عام کی جاتی ہیں۔ ہر اندراج، پالیسی اور تبدیلی میوزیم کی عوامی ریپوزٹری میں اپنی پوری تاریخ کے ساتھ موجود ہے، اور رپورٹ کی گئی غلطی اور اس کا نتیجہ وہیں درج ہوتا ہے۔ یہ صفحہ خلاصہ ہے: دستاویزات خود فیصلہ کن ہیں، اور اہم ترین نیچے منسلک ہیں — ادارتی پالیسی، دائرۂ کار کا نوٹ جو میوزیم کا نقطۂ نظر بیان کرتا ہے، ماخذ کی پالیسی، اشاعتی معیار، اور مستند ہونے کا صفحہ جو کتابوں اور نسخوں کے لیے جانچ بیان کرتا ہے۔ اگر یہ صفحہ اور کوئی دستاویز کبھی مختلف ہوں تو دستاویز مقدم ہے، اور صفحہ درست کیا جاتا ہے۔"
+  rules_title: "اصول کہاں ہیں"
+  link_editorial: "ادارتی پالیسی"
   link_scope: Scope note
-  link_sources: Sources policy
-  link_standard: Publication standard
+  link_sources: "ماخذ کی پالیسی"
+  link_standard: "اشاعتی معیار"
 privacy:
   title: رازداری اور ڈیٹا
   lede: کوئی اکاؤنٹ نہیں، کوئی کوکی نہیں، کوئی ٹریکنگ نہیں، کوئی اشتہار نہیں۔ یہ صفحہ بتاتا ہے کہ جب آپ میوزیم دیکھتے ہیں تو کیا ہوتا ہے۔
@@ -4151,6 +4158,13 @@ ibadat:
   method_note: "یہاں ہر ریکارڈ عجائب گھر کا عام ریکارڈ ہے — اپنے مآخذ اور تین زبانوں کے نثر سمیت. عبادات اور اذکار تعمیر کے وقت مقاطع کے متون پر محروس لغت سے پائے جاتے ہیں: نماز، رکوع اور سجود کی اصطلاحات، وضو، غسل اور تیمم، روزہ، افطار، سحور اور اعتکاف، زکات اور صدقہ، حج، عمرہ، طواف، سعی، احرام، عرفہ اور مناسک، اللہ کا ذکر، تسبیح، تحمید، تہلیل، تکبیر، استغفار، درود، حوقلہ اور بسملہ، دعا متصفح الادعیہ کی اپنی لغت سے، تلاوت اور ترتیب، توبہ اور انابت، اور رقیہ؛ غیر اللہ کی عبادت «يعبدون الأصنام» اور «احتجّ» کے دلیل کا معنیٰ خارج ہیں، مستند جھوٹے مثبتیے شناخت سے مستثنیٰ ہیں، اور بعد میں کٹائی گئی ہر کتاب اپنے مقاطع کے اترتے ہی اپنی عبادات یہاں خودکار لے آتی ہے؛ منتخب ریکارڈ ibadat-browser ٹیگ سے شامل ہوتے ہیں. ہر مقطع «عمل» ہوتا ہے جب وہ عبادہ ادا کرتا یا حکم دیتا ہے اور «ذکر» جب وہ صرف اس کے بارے میں ہوتا ہے."
   api: "پورا مجموعہ دستیاب ہے"
   sections_title: "براؤزر کے حصے"
+  axis:
+    title: "عبادت کے لحاظ سے"
+    note: "{n} عبادات، ہر ایک کا اپنا صفحہ: پہلے میوزیم کے اپنے ریکارڈ، پھر متون قرآن، حدیث، سیرت اور دیگر کتابوں کی ترتیب سے۔ طہارت، نماز، زکات، روزہ اور حج پہلے آتے ہیں، اسی ترتیب سے جو فقہ کی کتابوں میں ہے؛ پھر ذکر، دعا، تلاوت، توبہ اور رقیہ؛ عبادت بطور عام لفظ آخر میں۔"
+    page_title: "عبادات: {topic}"
+    page_lede: "وہ سب کچھ جو میوزیم اس عبادت کے تحت رکھتا ہے: پہلے اس کے اپنے ریکارڈ، پھر متون قرآن، حدیث، سیرت اور دیگر کتابوں کی ترتیب سے۔ متن اپنے الفاظ کی بنیاد پر رکھا جاتا ہے، اس لیے یہ فہرست تلاش کا ذریعہ ہے، متن کے معنی یا حکم کا بیان نہیں۔"
+    page_count: "میوزیم کے {own} ریکارڈ اور {passages} متون۔"
+    back: "تمام عبادات"
   filter_label: "عبادات اور اذکار چھانٹیے"
   filter_none: "کوئی مماثلت نہیں."
   empty: "اس تعمیر میں ابھی کوئی عبادت ریکارڈ نہیں."
@@ -5897,6 +5911,18 @@ akhlaq:
   method_note: "یہاں کا ہر ریکارڈ میوزیم کا عام ریکارڈ ہے — اپنے مآخذ اور تین لسانی نثر کے ساتھ۔ اخلاق اور معاملات بلڈ کے وقت گارڈ شدہ معجم سے متون مقاطع پر ڈھونڈے جاتے ہیں: فضائل کے الفاظ (سچائی، امانت، وفاداری، صبر، شکر، تواضع، احسان، حیا، حلم، اخلاص، توبہ، کرم، والدین کے ساتھ احسان، صلہ رحم، پڑوسی کا حق، خیر خواہی، تکلیف سے بچانا، مہارت، رحم، عدل، قناعت)، برائیوں کے الفاظ (جھوٹ، خیانت، تکبر، ریاکاری، حسد، بخل، غیبت، چغل خوری، بے حیائی، گالی، غصہ، ظلم، عقوق، نفاق، دھوکا) اور معاملات کے الفاظ (بیع، تجارت، سود، قرض، رہن، اجارہ، وصیت، میراث، نکاح، مہر، رضاعت، طلاق، خلع، عدت، نفقہ، حضانت، قسم، کفارہ، گواہی، ثبوت، قضا، ترازو، پیمانہ، کمی تول، صلح، ہبہ، تحفہ، کفالت، ضمان، وکالت، شرکت، قراض، مضاربہ، مزارعہ، مساقاۃ، سلم، استصناع، حوالہ، عاریت، ودیعت، غصب، ملقوتہ، شفعہ، احتکار، اکراہ، حجر، عقد)؛ بیعت، «ربا» بطور نمو، «حکم» بطور حکمت، «شہادت» بطور ایمانی گواہی یا شہید، «اجر» بطور ثواب، «قسم» بطور حصہ، اور عبادات کے الفاظ جو برادر متصفحات (العبادات والدعاء) کے ہیں خارج رہتے ہیں، تصدیق شدہ غلط مثبتیوں کا استثنا معرّف سے ہے، اور بعد میں حاصل شدہ ہر کتاب اپنا ذکر خود لاتی ہے جب اس کے مقاطع گراف میں آتے ہیں؛ منتخب ریکارڈ akhlaq-browser ٹیگ سے شامل ہوتے ہیں۔ ہر مقطع کو اس کا راستہ (اخلاق/معاملات)، نوع (فضیلت/برائی/معاملہ/ذکر) اور موضوعات ملتے ہیں۔"
   api: "مکمل مجموعہ یہاں دستیاب ہے"
   sections_title: براؤزر کے حصے
+  axis:
+    title: "فضیلت، برائی اور معاملے کے لحاظ سے"
+    note: "{n} عنوانات، ہر عنوان کا اپنا صفحہ: پہلے میوزیم کے اپنے ریکارڈ، پھر متون قرآن، حدیث، سیرت اور دیگر کتابوں کی ترتیب سے۔ کوئی متن کسی عنوان کے تحت اس لیے آتا ہے کہ اس کے الفاظ میں اس عنوان کے الفاظ موجود ہیں، اس لیے ایک ہی متن کئی عنوانات کے تحت آ سکتا ہے۔"
+    groups:
+      virtue: "فضائل"
+      vice: "برائیاں"
+      dealing: "معاملات"
+      general: "عمومی الفاظ"
+    page_title: "اخلاق اور معاملات: {topic}"
+    page_lede: "وہ سب کچھ جو میوزیم اس عنوان کے تحت رکھتا ہے: پہلے اس کے اپنے ریکارڈ، پھر متون قرآن، حدیث، سیرت اور دیگر کتابوں کی ترتیب سے۔ متن اپنے الفاظ کی بنیاد پر رکھا جاتا ہے، اس لیے یہ فہرست تلاش کا ذریعہ ہے، متن کے معنی یا حکم کا بیان نہیں۔"
+    page_count: "میوزیم کے {own} ریکارڈ اور {passages} متون۔"
+    back: "تمام عنوانات"
   filter_label: "اخلاق اور معاملات چھانیے"
   filter_none: "کوئی میل نہیں۔"
   empty: "اس بلڈ میں ابھی اخلاق اور معاملات کے ریکارڈ نہیں۔"
@@ -6220,6 +6246,12 @@ paged:
   filter_more: "پہلے {n} نتائج دکھائے جا رہے ہیں؛ مزید لکھ کر محدود کریں۔"
   filter_loading: "پوری فہرست میں تلاش جاری ہے…"
   filter_failed: "مکمل فہرست لوڈ نہ ہو سکی۔ اس صفحے کی سطریں اب بھی چھانٹی جا رہی ہیں۔"
+  subject:
+    title: "حصے"
+    page_title: "{topic}"
+    page_lede: "اس حصے کے وہ تمام متون جن میں صاحبِ صفحہ کا ذکر ہے، مکمل طور پر۔ ان کے اپنے صفحے پر ان میں سے ابتدائی دکھائے جاتے ہیں۔"
+    page_count: "{passages} متون۔"
+    back: "ان کے صفحے پر واپس"
 
 journeys:
   title: "سفر"

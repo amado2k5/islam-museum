@@ -24,7 +24,7 @@ provenance:
 status:
   review: draft
   completeness: 3
-died: { edtf: "1639", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV İslâm Ansiklopedisi ('Abdülmecid Sivâsî': 975–1049 AH)" }
+died: { edtf: "1639", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV İslâm Ansiklopedisi ('Abdülmecid Sivâsî': 975–1049 AH) Agrees with Wikidata Q55147141 (P570, a statement without a reference), item revision 2533252445, read on 13 November 2026.", sources: [source/wikidata] }
 born: { edtf: "1564", calendar: gregorian, precision: year, derived: true, note: "From the A'lam entry, converted from the Hijri year it gives", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
   - { type: lived_in, target: place/anatolia, note: "From text: Ottoman (nationality adjective); broad association, flagged for review.", sources: [source/al-aalam], confidence: low }

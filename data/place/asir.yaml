@@ -18,3 +18,5 @@ provenance:
   source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, PDF pp. 756-759, entry 'ASIR' (the region; signed R. Headley, W. Mulligan, G. Rentz) (EI2 entry, batch ei2-b013 part 39, seq 389); the history section is not written, because its text in the scan is fragmentary and out of order"
   generated_by: "Claude Code (claude-haiku-5-5)"
 status: { review: published, completeness: 3 }
+relations:
+  - {type: located_in, target: place/arabian-peninsula, sources: [source/encyclopaedia-of-islam-2], note: 'Stated in the summary of place/asir: "A region of western Arabia"'}

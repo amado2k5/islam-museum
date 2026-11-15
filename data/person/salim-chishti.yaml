@@ -25,7 +25,8 @@ provenance:
 status:
   review: draft
   completeness: 1
-born: { edtf: "1478", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
-died: { edtf: "1572", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
+born: { edtf: "1478", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 Agrees with Wikidata Q127659 (P569, a statement without a reference), item revision 2553291056, read on 13 November 2026.", sources: [source/wikidata] }
+died: { edtf: "1572", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 Agrees with Wikidata Q127659 (P570, a statement without a reference), item revision 2553291056, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/fatehpur-sikri, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/al-aalam] }
+  - {type: buried_in, target: building/tomb-of-salim-chishti, sources: [source/tarikh-islam-hasan-ibrahim], note: 'Stated in the summary of building/tomb-of-salim-chishti: "The marble tomb of Shaykh Salim Chishti"'}

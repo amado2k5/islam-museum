@@ -11,8 +11,8 @@ summary:
 wings: [people]
 regions: [southeast-asia]
 periods: [period/crusades-ayyubid-mamluk]
-born: { edtf: "1344", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Sejarah Melayu" }
-died: { edtf: "1414", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Sejarah Melayu" }
+born: { edtf: "1344", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Sejarah Melayu Agrees with Wikidata Q3363540 (P569, a statement without a reference), item revision 2553207622, read on 13 November 2026.", sources: [source/wikidata] }
+died: { edtf: "1414", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Sejarah Melayu Agrees with Wikidata Q3363540 (P570, a statement without a reference), item revision 2553207622, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/palembang, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 sources: [source/bosworth-new-islamic-dynasties-1996, source/wikidata]

@@ -31,3 +31,5 @@ status:
   completeness: 3
 relations:
   - { type: lived_in, target: place/india, note: "Only the record-level region (south-asia) is attested; broad-region edge flagged for review.", sources: [source/tarikh-islam-hasan-ibrahim, source/encyclopaedia-of-islam-2, source/assabile-tareq-al-suwaidan], confidence: low }
+  - {type: buried_in, target: building/tomb-of-aurangzeb-khuldabad, sources: [source/brookes-gardens-of-paradise-1987], note: 'Stated in the summary of building/tomb-of-aurangzeb-khuldabad: "The grave of the emperor Aurangzeb at Khuldabad"'}
+  - {type: lived_in, target: place/awrangabad, sources: [source/encyclopaedia-of-islam-2], note: 'Stated in the summary of place/awrangabad: "who lived there during his second viceroyalty"'}

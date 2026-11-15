@@ -23,7 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 3
-born: { edtf: "1850", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam)" }
-died: { edtf: "1924", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam)" }
+born: { edtf: "1850", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam) Agrees with Wikidata Q129756469 (P569, a statement without a reference), item revision 2551267801, read on 13 November 2026.", sources: [source/wikidata] }
+died: { edtf: "1924", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam) Agrees with Wikidata Q129756469 (P570, a statement without a reference), item revision 2551267801, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/mecca, confidence: medium, note: "Al-Zirikli, al-A'lam vol. 4 p. 132: studied and taught in Mecca and was its Shafi'i mufti.", sources: [source/alam-zirikli-dar-al-ilm-2002] }

@@ -17,6 +17,7 @@ relations:
   - { type: born_in, target: place/kabul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/delhi, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: buried_in, target: building/humayun-tomb, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - {type: traveled_to, target: place/amarkot, sources: [source/encyclopaedia-of-islam-2], note: 'Stated in the summary of place/amarkot: "when Humayun had taken refuge there"'}
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج8، سنة 962)، قراءة آبل فيجن"

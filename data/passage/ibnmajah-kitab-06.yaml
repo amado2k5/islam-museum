@@ -1,0 +1,23 @@
+id: passage/ibnmajah-kitab-06
+class: passage
+unit: chapter
+work: work/sunan-ibn-majah
+ref: "kitab-06"
+label:
+  ar: "سنن ابن ماجه، كتاب الجنائز"
+  en: "Sunan Ibn Majah, Book 6: Chapters Regarding Funerals"
+  ur: "سنن ابن ماجہ، کتاب الجنائز"
+summary:
+  ar: "القسم 6 من سنن ابن ماجه في تقسيم قاعدة بيانات الحديث المفتوحة التي أُخذت منها سجلات المتحف، وعنوانه «كتاب الجنائز»، ويضم فيها النصوص من 1433 إلى 1637 بترقيمها. يضع المتحف تحت هذا الكتاب ما عنده من سجلات هذه النصوص."
+  en: "Book 6 of Sunan Ibn Majah (Chapters Regarding Funerals) in the division of the open hadith dataset the museum took its reports from: reports 1433 to 1637 in that dataset's numbering. The museum files its records of these reports under this book; printed editions divide and number the collection differently."
+  ur: "سنن ابن ماجہ کی کتاب 6، عنوان «کتاب الجنائز»، اس کھلے حدیث ڈیٹا سیٹ کی تقسیم کے مطابق جس سے میوزیم کے ریکارڈ لیے گئے: اس کی ترقیم میں روایات 1433 تا 1637۔ میوزیم ان روایات کے اپنے ریکارڈ اسی کتاب کے تحت رکھتا ہے۔"
+relations:
+  - { type: part_of, target: work/sunan-ibn-majah }
+provenance:
+  layer: own-research
+  source: "fawazahmed0/hadith-api (Unlicense), edition eng-ibnmajah: metadata.sections and section_details, book 6; Arabic title from AhmedBaset/hadith-json, ibnmajah.json, matched by the English name"
+  generated_by: "Claude Code"
+  model: claude-fable-5-2
+  run: hadith-library-books-2026-11-15
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0, source/hadith-json-ahmedbaset]
+status: { review: published, completeness: 1, generated_by: "Claude Code (claude-fable-5-2), from the dataset's own division; no report text stored" }

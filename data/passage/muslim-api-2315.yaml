@@ -10,6 +10,7 @@ summary:
   en: "In Sahih Muslim; a mention related to correspondence."
   ur: "صحیح مسلم میں؛ مکاتبات سے متعلق ذکر."
 relations:
+  - { type: part_of, target: passage/muslim-kitab-12 }
   - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
   - { type: mentions, target: concept/al-mukatabat, sources: [source/sahih-muslim] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 2315 (book 12 hadith 52); matn excerpt of at most ~55 words", generated_by: "Devin (SWE-2 High)", run: "mukatabat-hadithapi-1" }

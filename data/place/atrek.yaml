@@ -17,3 +17,5 @@ provenance:
   source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, PDF p. 798, entry 'ATREK' (signed W. Barthold and B. Spuler) (EI2 entry, batch ei2-b013 part 54, seq 418); the coordinates are the entry's approximate figures (37 degrees 16 minutes N, about 59 degrees E)"
   generated_by: "Claude Code (claude-haiku-5-5)"
 status: { review: published, completeness: 3 }
+relations:
+  - {type: located_in, target: place/khurasan, sources: [source/encyclopaedia-of-islam-2], note: 'Stated in the summary of place/atrek: "A river in the north of Khurasan"'}

@@ -30,7 +30,7 @@ occupations:
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/al-aalam]
 born: { edtf: "973", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar); al-Zirikli" }
-died: { edtf: "1037", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar); al-Zirikli" }
+died: { edtf: "1037", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar); al-Zirikli Agrees with Wikidata Q12178653 (P570, a statement without a reference), item revision 2526787565, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/baghdad, note: "al-Zirikli, al-A'lam, vol. 1 p. 212: born and died in Baghdad (replaces the earlier broad Iran association)", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
   - { type: died_in, target: place/baghdad, note: "al-Zirikli, al-A'lam, vol. 1 p. 212", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }

@@ -1,0 +1,24 @@
+id: source/hadith-json-ahmedbaset
+class: source
+kind: reference_data
+type: web
+label: { ar: "قاعدة بيانات الحديث hadith-json لأحمد باسط", en: "hadith-json (AhmedBaset): hadith collections as JSON" }
+summary:
+  ar: "مستودع على GitHub ينشر سبعة عشر كتابا من كتب الحديث، منها الكتب التسعة، في ملفات JSON بالعربية والإنجليزية، ومع كل كتاب قائمة بعناوين كتبه الداخلية بالعربية والإنجليزية. أخذ المتحف منه العناوين العربية لكتب الصحيحين والسنن الأربع فقط، ولم يأخذ منه نصا."
+  en: "A GitHub repository that publishes seventeen hadith collections, the nine books among them, as JSON files in Arabic and English, each with a list of its internal books by Arabic and English title. The museum took from it only the Arabic titles of the books of the two Sahihs and the four Sunan, and no text."
+  ur: "گٹ ہب کا ایک ذخیرہ جو حدیث کی سترہ کتابیں، جن میں کتبِ تسعہ شامل ہیں، عربی اور انگریزی میں JSON فائلوں کی صورت میں شائع کرتا ہے، اور ہر کتاب کے ساتھ اس کی اندرونی کتابوں کے عربی اور انگریزی عنوانات کی فہرست دیتا ہے۔ میوزیم نے اس سے صرف صحیحین اور سننِ اربعہ کی کتابوں کے عربی عنوانات لیے ہیں، کوئی متن نہیں لیا۔"
+title: "hadith-json: database of Prophet hadiths"
+author: [{ family: "Baset", given: "Ahmed" }]
+issued: { "date-parts": [[2026, 11, 15]] }
+publisher: "GitHub (AhmedBaset/hadith-json)"
+URL: "https://github.com/AhmedBaset/hadith-json"
+language: ar
+reliability_note: "The repository states no licence, so nothing but the titles of the books is taken from it: they are the collections' own headings, and a heading is a fact about the work. The titles were matched to the division of the hadith-api dataset by the English name of each book, and all 335 matched. The repository says its data was gathered from Sunnah.com; the titles were not checked against a printed edition. Read on 15 November 2026."
+open_access: true
+sources: [source/hadith-json-ahmedbaset]
+status: { review: published, generated_by: "Claude Code (claude-fable-5-2)" }
+provenance:
+  generated_by: "Claude Code"
+  model: claude-fable-5-2
+  run: hadith-library-books-2026-11-15
+  source: "The repository's description and its files db/by_book/the_9_books/*.json (the `chapters` lists), fetched on 15 November 2026."

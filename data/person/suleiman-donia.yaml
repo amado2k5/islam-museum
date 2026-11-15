@@ -11,8 +11,8 @@ summary:
 wings: [people]
 regions: [egypt-nile]
 periods: [period/modern-era]
-born: { edtf: "1910", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli)" }
-died: { edtf: "1985", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli)" }
+born: { edtf: "1910", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli) Agrees with Wikidata Q138844844 (P569, a statement without a reference), item revision 2534209762, read on 13 November 2026.", sources: [source/wikidata] }
+died: { edtf: "1985", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli) Agrees with Wikidata Q138844844 (P570, a statement without a reference), item revision 2534209762, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: died_in, target: place/cairo, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q85)" }
 sources: [source/al-aalam]

@@ -37,6 +37,7 @@ relations:
   - { type: participated_in, target: event/meridian-degree-sinjar-827, role: "العالم المشارك", sources: [source/britannica-al-khwarizmi] }
   - { type: participated_in, target: event/surat-al-ard-composed-833, role: "المؤلف", sources: [source/britannica-al-khwarizmi] }
   - { type: patronized_by, target: person/abd-allah-al-mamun, sources: [source/khwarizmi-jabr-cairo-1939] }
+  - {type: authored, target: work/surat-al-ard-khwarizmi, sources: [source/khwarizmi-jabr-cairo-1939], note: 'Stated in the summary of work/surat-al-ard-khwarizmi: "Al-Khwarizmi''s book on the coordinates of countries"'}
 story_roles:
   - { role: scientist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
 summary:

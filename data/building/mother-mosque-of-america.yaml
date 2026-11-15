@@ -22,3 +22,5 @@ provenance:
   run: wikidata-import-wave2
   extra_runs: ["Claude Code (OCR-harvest worker H), claude-opus-5-5, ocr-harvest-2026-11-04: Mosques in the USA and Canada catalogue pp. 4, summary, date and first prose"]
 status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker H)" }
+relations:
+  - {type: located_in, target: place/united-states, sources: [source/tarikh-islam-hasan-ibrahim], note: 'Stated in the summary of building/mother-mosque-of-america: "The first purpose-built mosque in the United States"'}

@@ -23,7 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 3
-born: { edtf: "1720", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Jabarti (Aja'ib al-Athar); al-Zirikli" }
+born: { edtf: "1720", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Jabarti (Aja'ib al-Athar); al-Zirikli Agrees with Wikidata Q12178775 (P569, a statement without a reference), item revision 2533513827, read on 13 November 2026.", sources: [source/wikidata] }
 died: { edtf: "1793", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Jabarti (Aja'ib al-Athar); al-Zirikli Confirmed on 13 November 2026 against Wikidata Q12178775 (P570, a statement with a reference), item revision 2533513827.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/misr, note: "Only the record-level region (egypt-nile) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }

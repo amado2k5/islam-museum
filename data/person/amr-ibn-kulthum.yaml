@@ -18,6 +18,7 @@ relations:
   - { type: member_of, target: group/banu-taghlib, sources: [source/kamil-ibn-al-athir] }
   - { type: related_to, target: person/al-muhalhil, note: "جده لأمه", sources: [source/kamil-ibn-al-athir] }
   - { type: related_to, target: person/kulayb-ibn-rabia, note: "عمه لأمه", sources: [source/kamil-ibn-al-athir] }
+  - {type: authored, target: work/muallaqat-amr-ibn-kulthum, sources: [source/sharh-muallaqat-sab-zawzani-1921], note: 'Stated in the summary of work/muallaqat-amr-ibn-kulthum: "The Mu''allaqa of Amr ibn Kulthum"'}
 sources: [source/kamil-ibn-al-athir, source/nihayat-al-arab-nuwayri-vol3-scan, source/wikidata-amr-ibn-kulthum]
 external_ids: { wikidata: "Q696929" }
 provenance:

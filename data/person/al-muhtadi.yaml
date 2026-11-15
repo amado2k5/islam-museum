@@ -12,8 +12,8 @@ sources: [source/tabari-tarikh-abu-al-fadl, source/tarikh-khulafa-minhaj-1434, s
 provenance: { layer: own-research, generated_by: "Claude (Haiku 5.5) from Apple Vision OCR of Tabari, batch 6", sources: [source/tabari-tarikh-abu-al-fadl] }
 importance: 2
 status: { review: draft, completeness: 2, generated_by: "body pages read; Claude (Haiku 5.5)" }
-born: { edtf: "825~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Muhtadi' / K. V. Zettersteen; caliph murdered 256 AH)" }
-died: { edtf: "870", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Muhtadi' / K. V. Zettersteen; caliph murdered 256 AH)" }
+born: { edtf: "825~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Muhtadi' / K. V. Zettersteen; caliph murdered 256 AH) Agrees with Wikidata Q293458 (P569, a statement without a reference), item revision 2553920733, read on 13 November 2026.", sources: [source/wikidata] }
+died: { edtf: "870", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Muhtadi' / K. V. Zettersteen; caliph murdered 256 AH) Agrees with Wikidata Q293458 (P570, a statement without a reference), item revision 2553920733, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: ruled_over, target: polity/abbasid-caliphate, sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: successor_of, target: person/al-mutazz, sources: [source/tarikh-khulafa-minhaj-1434] }

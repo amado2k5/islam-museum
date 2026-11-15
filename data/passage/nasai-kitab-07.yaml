@@ -1,0 +1,23 @@
+id: passage/nasai-kitab-07
+class: passage
+unit: chapter
+work: work/sunan-al-nasai
+ref: "kitab-07"
+label:
+  ar: "سنن النسائي، كتاب الأذان"
+  en: "Sunan al-Nasa'i, Book 7: The Book of the Adhan (The Call to Prayer)"
+  ur: "سنن نسائی، کتاب الاذان"
+summary:
+  ar: "القسم 7 من سنن النسائي في تقسيم قاعدة بيانات الحديث المفتوحة التي أُخذت منها سجلات المتحف، وعنوانه «كتاب الأذان»، ويضم فيها النصوص من 626 إلى 687 بترقيمها. يضع المتحف تحت هذا الكتاب ما عنده من سجلات هذه النصوص."
+  en: "Book 7 of Sunan al-Nasa'i (The Book of the Adhan (The Call to Prayer)) in the division of the open hadith dataset the museum took its reports from: reports 626 to 687 in that dataset's numbering. The museum files its records of these reports under this book; printed editions divide and number the collection differently."
+  ur: "سنن نسائی کی کتاب 7، عنوان «کتاب الاذان»، اس کھلے حدیث ڈیٹا سیٹ کی تقسیم کے مطابق جس سے میوزیم کے ریکارڈ لیے گئے: اس کی ترقیم میں روایات 626 تا 687۔ میوزیم ان روایات کے اپنے ریکارڈ اسی کتاب کے تحت رکھتا ہے۔"
+relations:
+  - { type: part_of, target: work/sunan-al-nasai }
+provenance:
+  layer: own-research
+  source: "fawazahmed0/hadith-api (Unlicense), edition eng-nasai: metadata.sections and section_details, book 7; Arabic title from AhmedBaset/hadith-json, nasai.json, matched by the English name"
+  generated_by: "Claude Code"
+  model: claude-fable-5-2
+  run: hadith-library-books-2026-11-15
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0, source/hadith-json-ahmedbaset]
+status: { review: published, completeness: 1, generated_by: "Claude Code (claude-fable-5-2), from the dataset's own division; no report text stored" }

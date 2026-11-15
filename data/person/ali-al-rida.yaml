@@ -28,7 +28,7 @@ provenance:
 status:
   review: published
   completeness: 3
-died: { edtf: "818", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala" }
+died: { edtf: "818", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala Agrees with Wikidata Q25105 (P570, a statement without a reference), item revision 2561585457, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/wafayat-ayan, source/kamil-ibn-al-athir], confidence: low }
   - {confidence: high, note: Died poisoned at Tus and buried there per al-Masudi., sources: [source/muruj-al-dhahab], target: place/tus, type: died_in}

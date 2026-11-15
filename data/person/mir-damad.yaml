@@ -11,7 +11,7 @@ summary:
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/gunpowder-empires]
-born: { edtf: "1561~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Iranica" }
+born: { edtf: "1561~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Iranica Agrees with Wikidata Q3315763 (P569, a statement without a reference), item revision 2558943490, read on 13 November 2026.", sources: [source/wikidata] }
 died: { edtf: "1631", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Iranica Confirmed on 13 November 2026 against Wikidata Q3315763 (P570, a statement with a reference), item revision 2558943490.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/gorgan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

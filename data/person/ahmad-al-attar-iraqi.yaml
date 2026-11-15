@@ -23,7 +23,7 @@ provenance:
 status:
   review: draft
   completeness: 3
-born: { edtf: "1713", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam); A'yan al-Shi'a. Card year kept: al-Zirikli prints 1127 AH = 1715 CE {cite:alam-zirikli-dar-al-ilm-2002 vol. 1 p. 244}, two years later (see the GEMINI line in the ledger)." }
+born: { edtf: "1713", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam); A'yan al-Shi'a. Card year kept: al-Zirikli prints 1127 AH = 1715 CE {cite:alam-zirikli-dar-al-ilm-2002 vol. 1 p. 244}, two years later (see the GEMINI line in the ledger). Agrees with Wikidata Q56605536 (P569, a statement without a reference), item revision 2550432697, read on 13 November 2026.", sources: [source/wikidata] }
 died: { edtf: "1800", hijri: "1215", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam); A'yan al-Shi'a. al-Zirikli prints 1215 AH = 1800 CE {cite:alam-zirikli-dar-al-ilm-2002 vol. 1 p. 244}.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
   - { type: lived_in, target: place/iraq, sources: [source/al-aalam], confidence: low, note: "Place association from the person's nisba/name ⁦(عراقي)⁩; denotes association, not proven residence." }

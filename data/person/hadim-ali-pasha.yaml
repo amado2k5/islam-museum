@@ -11,10 +11,11 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/crusades-ayyubid-mamluk]
-died: { edtf: "1511", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
+died: { edtf: "1511", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi Agrees with Wikidata Q2447460 (P570, a statement without a reference), item revision 2565465939, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/sarajevo, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/amasya, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
+  - {type: founder_of, target: building/vasat-atik-ali-pasha-mosque, sources: [source/goodwin-ottoman-architecture-1971], note: 'Stated in the summary of building/vasat-atik-ali-pasha-mosque: "founded about 1500 by Hadım Ali Pasha"'}
 sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
 external_ids:
   wikidata: Q2447460

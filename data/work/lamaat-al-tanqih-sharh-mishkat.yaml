@@ -20,3 +20,5 @@ provenance:
   model: "claude-haiku-5-5"
   run: "harvest-group-a-lamaat-14"
 status: { review: published, completeness: 1, generated_by: "Claude Haiku 5.5 from the OCR of the scan" }
+relations:
+  - {type: commentary_on, target: work/mishkat-al-masabih, sources: [source/lamaat-tanqih-dar-al-nawader-vol9], note: 'Stated in the summary of work/lamaat-al-tanqih-sharh-mishkat: "commentary on Mishkat al-masabih of al-Khatib al-Tibrizi"'}

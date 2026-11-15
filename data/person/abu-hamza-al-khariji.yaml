@@ -12,3 +12,4 @@ status: { review: draft, completeness: 2, generated_by: "body pages read; Claude
 died: { edtf: "748", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari, Tarikh; al-Isfahani, Kitab al-Aghani" }
 relations:
   - { type: ruler_of, target: place/balkh, note: "From text: ملك بن محمد بن عطية فقتل بلخاً بواد", sources: [source/tabari-tarikh-abu-al-fadl, source/muruj-al-dhahab, source/khudari-umayyad-state, source/bakr-umayyad-state-1134715] }
+  - {type: participated_in, target: event/abu-hamza-raid-on-medina, sources: [source/tabari-tarikh-abu-al-fadl], note: 'Stated in the summary of event/abu-hamza-raid-on-medina: "The Entry of Abu Hamza al-Khariji into Medina"'}

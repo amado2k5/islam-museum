@@ -16,3 +16,6 @@ provenance:
   source: "Encyclopaedia of Islam, 2nd ed. (Brill), vol. 1, p. 843, entry 'AYYAR' (signed Fr. Taeschner; queue seq 448, batch ei2-b018)"
   generated_by: "Claude Code (claude-haiku-5-5)"
 status: { review: published, completeness: 2 }
+relations:
+  - {type: practiced_in, target: place/baghdad, sources: [source/encyclopaedia-of-islam-2], note: 'Stated in the summary of concept/ayyar: "ruled the wealthy of Baghdad by terror"'}
+  - {type: practiced_in, target: place/iraq, sources: [source/encyclopaedia-of-islam-2], note: 'Stated in the summary of concept/ayyar: "organised bands of warriors in ''Iraq and Persia"'}

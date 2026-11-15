@@ -8,6 +8,7 @@ text: "قال أبو هريرة: جاء رجل إلى النبي فقال: يا 
 summary:
   ar: "رواية أبي هريرة في باب التعوذ بكلمات الله التامات من كتاب الذكر والدعاء في صحيح مسلم؛ الرجل الذي لدغته عقرب وإخباره أن الاستعاذة المسائية كانت تمنعه."
 relations:
+  - { type: part_of, target: passage/muslim-kitab-48 }
   - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
   - { type: mentions, target: person/abu-hurayra, sources: [source/sahih-muslim] }
   - { type: basis_for, target: practice/dua, sources: [source/sahih-muslim] }

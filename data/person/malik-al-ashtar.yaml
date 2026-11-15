@@ -6,12 +6,13 @@ summary:
   en: "Malik ibn al-Harith al-Ashtar al-Nakha'i, companion and commander of Ali; in al-Baladhuri's disputed account of the first crossing of the Darb: when Abu Ubayda sent Maysara ibn Masruq al-Absi who fell upon the Byzantines and their musta'riba of Ghassan, Tanukh and Iyad, Malik al-Ashtar came up to him as reinforcement from Abu Ubayda at Antioch."
 wings: [people]
 periods: [period/rashidun]
-died: { edtf: "657", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari / Siyar" }
+died: { edtf: "657", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari / Siyar Agrees with Wikidata Q1108678 (P570, a statement without a reference), item revision 2568026220, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/yemen-region, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/alexandria, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: buried_in, target: place/al-fustat, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: participated_in, target: event/first-crossing-of-darb-baghras, role: "المدد اللاحق بميسرة", sources: [source/futuh-buldan-maarif-1407] }
+  - {type: authored, target: work/hamasa-al-ashtar-al-nakhai-baqiitu-wafri, sources: [source/hamasa-abu-tammam-ed-1916], note: 'Stated in the summary of work/hamasa-al-ashtar-al-nakhai-baqiitu-wafri: "al-Ashtar al-Nakha''i said"'}
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 224; Encyclopaedia of Islam, 2nd ed., vol. 1, PDF p. 753, entry AL-ASHTAR (EI2 entry, batch ei2-b013 part 38, seq 388; the Malik al-Ashtar section is cited from it)"
