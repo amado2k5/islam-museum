@@ -1,0 +1,23 @@
+id: concept/insan
+class: concept
+kind: natural
+label:
+  ar: "إنسان"
+  en: "Insan (substances of the human body)"
+  ur: "انسان ⁦(انسانی جسم کے اجزا)⁩"
+summary:
+  ar: "مواد مأخوذة من جسم الإنسان، كالبول والمني واللبن والزبل والريق والشعر والعظم، ويعرضها الكتاب بصيغة النقل، ومنها ما يُنسب إلى الانتفاع بقروح العين والجلد والصدر والمعدة. وفيها ما يذكره الكتاب في الحيض والحبل وتنقية الرحم، فيُدرج هنا نقلاً عنه لا توصية به {cite:canon-ibn-sina-print-v1 p.373} {cite:canon-ibn-sina-print-v1 p.374}."
+  en: "Substances taken from the human body, such as urine, semen, milk, dung, saliva, hair and bone. The book presents them as reported sayings, and some are said to help eye, skin, chest and stomach complaints. Some entries concern menses, conception and cleansing of the womb; they are kept here as the book's listing, not a recommendation {cite:canon-ibn-sina-print-v1 p.373} {cite:canon-ibn-sina-print-v1 p.374}."
+  ur: "انسانی جسم سے لی گئی چیزیں، جیسے پیشاب، منی، دودھ، گوبر، لعاب، بال اور ہڈی۔ کتاب انہیں نقل شدہ اقوال کے طور پر پیش کرتی ہے، اور ان میں سے بعض کا تعلق آنکھ، جلد، سینے اور معدے کی بیماریوں سے بتایا گیا ہے۔ کچھ اندراجات حیض، حمل اور رحم کی صفائی سے متعلق ہیں؛ یہ یہاں کتاب کی فہرست کے طور پر رکھے گئے ہیں، کوئی سفارش نہیں {cite:canon-ibn-sina-print-v1 p.373} {cite:canon-ibn-sina-print-v1 p.374}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, 1999), Book II, Jumla 2, letter alif, scan pages 371 to 381, read from the OCR on the harvest drive; the book's own notes are used only where the book itself gives the name, and garbled English glosses are left out"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), lane A4"
+  model: claude-haiku-5-5
+  run: a4-canon-book2-3
+status: { review: draft, completeness: 2, generated_by: "Claude Haiku 5.5 (book mining, lane A4)" }

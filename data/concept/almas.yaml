@@ -1,0 +1,23 @@
+id: concept/almas
+class: concept
+kind: natural
+label:
+  ar: "الماس"
+  en: "Almas (diamond)"
+  ur: "الماس ⁦(ہیرا)⁩"
+summary:
+  ar: "حجر الماس، شديد الجلاء، وعدّه الكتاب من السموم القاتلة. نقل الكتاب عن قوم أنه يكسر الأسنان إذا أُمسك في الفم، وقولهم هذا يردّه، كما نقل قوماً آخرين قالوا إنه يفتّت الحصاة إذا أُوصل إلى المثانة، وهذا مما يستبعده الكتاب {cite:canon-ibn-sina-print-v1 p.372} {cite:canon-ibn-sina-print-v1 p.373}."
+  en: "The stone called almas, a very strong polisher, which the book counts among deadly poisons. The book reports that some say it breaks teeth if held in the mouth, and it rejects that claim; it also reports that others say it breaks a stone if carried to the bladder, which the book finds improbable {cite:canon-ibn-sina-print-v1 p.372} {cite:canon-ibn-sina-print-v1 p.373}."
+  ur: "پتھر الماس، جو نہایت تیز جلا دینے والا ہے۔ کتاب اسے مہلک زہروں میں شمار کرتی ہے۔ کتاب نقل کرتی ہے کہ بعض لوگ کہتے ہیں یہ منہ میں رکھنے سے دانت توڑ دیتا ہے، جسے کتاب رد کرتی ہے؛ اور کچھ لوگوں کے مطابق یہ مثانے تک پہنچے تو پتھری توڑ دیتا ہے، جسے کتاب بعید سمجھتی ہے {cite:canon-ibn-sina-print-v1 p.372} {cite:canon-ibn-sina-print-v1 p.373}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, 1999), Book II, Jumla 2, letter alif, scan pages 371 to 381, read from the OCR on the harvest drive; the book's own notes are used only where the book itself gives the name, and garbled English glosses are left out"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), lane A4"
+  model: claude-haiku-5-5
+  run: a4-canon-book2-3
+status: { review: draft, completeness: 2, generated_by: "Claude Haiku 5.5 (book mining, lane A4)" }

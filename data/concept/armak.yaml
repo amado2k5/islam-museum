@@ -1,0 +1,23 @@
+id: concept/armak
+class: concept
+kind: natural
+label:
+  ar: "أرماك"
+  en: "Armak (Yemeni fragrant wood)"
+  ur: "ارماک ⁦(یمنی خوشبودار لکڑی)⁩"
+summary:
+  ar: "خشبة يمانية عطرية تشبه القرفة في لونها، تطيّب النكهة، وتنفع الأورام الحارة والقروح المتسعة، وتقوي الدماغ واللثة والقلب، وأكلها ينفع من الرمد، وتعقل الطبيعة {cite:canon-ibn-sina-print-v1 p.373}."
+  en: "A fragrant Yemeni wood resembling cinnamon in colour. It sweetens the breath, helps hot swellings and spreading ulcers, strengthens the brain, gums and heart, its eating helps ophthalmia, and it binds the bowels {cite:canon-ibn-sina-print-v1 p.373}."
+  ur: "یمنی خوشبودار لکڑی جو رنگ میں دارچینی سے ملتی ہے۔ یہ سانس کی بو درست کرتی ہے، گرم سوجنوں اور پھیلتے ہوئے زخموں میں نفع دیتی ہے، دماغ، مسوڑھوں اور دل کو قوت دیتی ہے، کھانے سے آشوبِ چشم میں فائدہ دیتی ہے، اور پیٹ کو باندھتی ہے {cite:canon-ibn-sina-print-v1 p.373}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, 1999), Book II, Jumla 2, letter alif, scan pages 371 to 381, read from the OCR on the harvest drive; the book's own notes are used only where the book itself gives the name, and garbled English glosses are left out"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), lane A4"
+  model: claude-haiku-5-5
+  run: a4-canon-book2-3
+status: { review: draft, completeness: 2, generated_by: "Claude Haiku 5.5 (book mining, lane A4)" }

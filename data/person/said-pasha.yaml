@@ -1,4 +1,5 @@
 id: person/said-pasha
+external_ids: { wikidata: "Q366744" }
 class: person
 label: { ar: "سعيد باشا", en: "Sa'id Pasha", ur: "سعید پاشا" }
 names:
@@ -14,7 +15,7 @@ roles: [politician]
 wings: [people]
 periods: [period/modern-era]
 regions: [egypt-nile]
-born: { edtf: "1822", hijri: "1237", calendar: gregorian, precision: year, status: historical, derived: true, note: "born in 1822 per EI2; the Hijri year is derived {cite:encyclopaedia-of-islam-2 vol. 8 p. 924}", sources: [source/encyclopaedia-of-islam-2] }
+born: { edtf: "1822", hijri: "1237", calendar: gregorian, precision: year, status: historical, derived: true, note: "born in 1822 per EI2; the Hijri year is derived {cite:encyclopaedia-of-islam-2 vol. 8 p. 924}", sources: [source/encyclopaedia-of-islam-2, source/wikidata-said-pasha] }
 died: { edtf: "1863-01-17", hijri: "1279", calendar: gregorian, precision: day, status: historical, derived: true, note: "17 January 1863 per EI2; the Hijri year is derived {cite:encyclopaedia-of-islam-2 vol. 8 p. 925}", sources: [source/encyclopaedia-of-islam-2] }
 relations:
   - { type: child_of, target: person/muhammad-ali-pasha, sources: [source/encyclopaedia-of-islam-2] }
