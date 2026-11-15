@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1920, height=1080" />
+    <title>islam.museum — the build and deploy, before and after</title>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { margin: 0; width: 1920px; height: 1080px; overflow: hidden; background: #0a2533; }
+      #root { position: relative; width: 1920px; height: 1080px; overflow: hidden; }
+      #world { z-index: 1; }
+      #hook, #diag, #reveal, #proof, #claim, #end { z-index: 2; }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="36" data-width="1920" data-height="1080">
+      <div id="world" data-composition-id="world" data-composition-src="compositions/world.html" data-start="0" data-duration="36" data-track-index="1" data-track-kind="graphics" data-width="1920" data-height="1080"></div>
+      <div id="hook" data-composition-id="hook" data-composition-src="compositions/hook.html" data-start="0" data-duration="4.8" data-track-index="2" data-track-kind="graphics" data-width="1920" data-height="1080"></div>
+      <div id="diag" data-composition-id="diag" data-composition-src="compositions/diag.html" data-start="4.8" data-duration="4.8" data-track-index="2" data-track-kind="graphics" data-width="1920" data-height="1080"></div>
+      <div id="reveal" data-composition-id="reveal" data-composition-src="compositions/reveal.html" data-start="9.6" data-duration="2.4" data-track-index="2" data-track-kind="graphics" data-width="1920" data-height="1080"></div>
+      <div id="proof" data-composition-id="proof" data-composition-src="compositions/proof.html" data-start="12" data-duration="16.8" data-track-index="2" data-track-kind="graphics" data-width="1920" data-height="1080"></div>
+      <div id="claim" data-composition-id="claim" data-composition-src="compositions/claim.html" data-start="28.8" data-duration="2.4" data-track-index="2" data-track-kind="graphics" data-width="1920" data-height="1080"></div>
+      <div id="end" data-composition-id="end" data-composition-src="compositions/end.html" data-start="31.2" data-duration="4.8" data-track-index="2" data-track-kind="graphics" data-width="1920" data-height="1080"></div>
+      <audio id="a-bed" src="assets/audio/bed.wav" data-start="0" data-duration="36" data-track-index="3" data-volume="0.55"></audio>
+      <audio id="a-hit-1" src="assets/sfx/impact-bass-1.mp3" data-start="0" data-duration="2.1" data-track-index="4" data-volume="0.44"></audio>
+      <audio id="a-hit-2" src="assets/sfx/impact-bass-1.mp3" data-start="1.16" data-duration="2.1" data-track-index="5" data-volume="0.44"></audio>
+      <audio id="a-hit-3" src="assets/sfx/impact-bass-1.mp3" data-start="2.36" data-duration="2.1" data-track-index="6" data-volume="0.5"></audio>
+      <audio id="a-eight" src="assets/sfx/impact-bass-1.mp3" data-start="7.76" data-duration="2.1" data-track-index="4" data-volume="0.5"></audio>
+      <audio id="a-name" src="assets/sfx/impact-bass-2.mp3" data-start="7.65" data-duration="2.59" data-track-index="5" data-volume="0.55"></audio>
+      <audio id="a-whoosh-bars" src="assets/sfx/whoosh.mp3" data-start="14.3" data-duration="0.57" data-track-index="4" data-volume="0.33"></audio>
+      <audio id="a-whoosh-files" src="assets/sfx/whoosh.mp3" data-start="24.45" data-duration="0.57" data-track-index="4" data-volume="0.33"></audio>
+      <audio id="a-riser" src="assets/sfx/riser.mp3" data-start="27.76" data-duration="4.4" data-track-index="7" data-volume="0.5"></audio>
+      <audio id="a-same" src="assets/sfx/impact-bass-1.mp3" data-start="28.76" data-duration="2.1" data-track-index="4" data-volume="0.5"></audio>
+      <audio id="a-mark" src="assets/sfx/impact-bass-1.mp3" data-start="31.16" data-duration="2.1" data-track-index="5" data-volume="0.55"></audio>
+    </div>
+    <script>
+      window.__timelines = window.__timelines || {};
+      const tl = gsap.timeline({ paused: true });
+      tl.to({}, { duration: 36 }, 0);
+      window.__timelines["main"] = tl;
+    </script>
+  </body>
+</html>

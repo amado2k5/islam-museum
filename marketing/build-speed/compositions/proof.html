@@ -1,0 +1,136 @@
+<template>
+  <style>
+    @font-face { font-family: "IM Inter"; font-weight: 900; src: url("assets/fonts/inter-latin-900-normal.woff2") format("woff2"); }
+    @font-face { font-family: "IM Inter"; font-weight: 500; src: url("assets/fonts/inter-latin-500-normal.woff2") format("woff2"); }
+    @font-face { font-family: "IM Serif"; font-weight: 600; src: url("assets/fonts/source-serif-4-latin-600-normal.woff2") format("woff2"); }
+    @font-face { font-family: "IM Kufi"; font-weight: 700; src: url("assets/fonts/reem-kufi-arabic-700-normal.woff2") format("woff2"); }
+    #root { position: absolute; inset: 0; font-family: "IM Inter", sans-serif; font-weight: 900; color: #f9f8f6; text-transform: uppercase; letter-spacing: -0.035em; line-height: 0.9; font-variant-numeric: tabular-nums; }
+    .clip { position: absolute; inset: 0; }
+    .abs { position: absolute; white-space: nowrap; }
+    .w { display: inline-block; white-space: pre; }
+    .rust { color: #d9765f; } .gold { color: #c5a059; }
+    .cap { position: absolute; left: 96px; bottom: 70px; font-weight: 500; font-size: 30px; letter-spacing: 0.05em; line-height: 1; color: #e6d5b8; white-space: nowrap; }
+    .tag { font-weight: 900; font-size: 40px; letter-spacing: 0.08em; line-height: 1; }
+    .title { left: 96px; top: 84px; font-size: 96px; }
+    .row-lab { font-size: 40px; letter-spacing: 0.08em; }
+    .bar { position: absolute; left: 96px; height: 150px; }
+    .bar.old { background: #d9765f; } .bar.new { background: #c5a059; }
+    .val { font-size: 150px; }
+    /* 1 per page */
+    #p1-old { left: 96px; top: 215px; font-size: 250px; color: #d9765f; }
+    #p1-new { left: 96px; top: 500px; font-size: 420px; color: #c5a059; }
+    /* 2 rendering */
+    #p2-old-bar { top: 300px; width: 1728px; } #p2-new-bar { top: 610px; width: 399px; }
+    #p2-old-val { left: 130px; top: 310px; color: #0a2533; } #p2-new-val { left: 530px; top: 610px; color: #c5a059; }
+    #p2-old-lab { left: 96px; top: 250px; } #p2-new-lab { left: 96px; top: 560px; }
+    /* 3 build on the six-hour track */
+    #p3-track { position: absolute; left: 96px; top: 640px; width: 1728px; height: 90px; background: rgba(249, 248, 246, 0.1); }
+    #p3-old-bar { top: 640px; width: 1027px; height: 90px; } #p3-new-bar { top: 640px; width: 394px; height: 90px; }
+    #p3-wall { position: absolute; left: 1816px; top: 590px; width: 8px; height: 190px; background: #f9f8f6; }
+    #p3-wall-lab { right: 96px; top: 800px; font-size: 44px; letter-spacing: 0.02em; }
+    #p3-old-val { left: 96px; top: 230px; font-size: 130px; color: #d9765f; } #p3-new-val { left: 96px; top: 360px; font-size: 250px; color: #c5a059; }
+    /* 4 deploy, mirrored */
+    #p4 .title { left: auto; right: 96px; }
+    #p4-old-bar { top: 300px; width: 1728px; } #p4-new-bar { top: 610px; width: 421px; left: 1403px; }
+    #p4-old-val { right: 130px; top: 310px; color: #0a2533; } #p4-new-val { right: 560px; top: 610px; color: #c5a059; }
+    /* 5 R2 publish */
+    #p5-a-old { left: 96px; top: 290px; font-size: 130px; color: #d9765f; } #p5-a-new { left: 960px; top: 250px; font-size: 220px; color: #c5a059; }
+    #p5-b-old { left: 96px; top: 640px; font-size: 130px; color: #d9765f; } #p5-b-new { left: 960px; top: 600px; font-size: 220px; color: #c5a059; }
+    /* 6 artifact */
+    #p6-old { left: 96px; top: 250px; font-size: 150px; color: #d9765f; } #p6-old-b { left: 96px; top: 400px; font-size: 80px; color: #d9765f; }
+    #p6-new { left: 96px; top: 540px; font-size: 300px; color: #c5a059; } #p6-new-b { left: 104px; top: 820px; font-size: 80px; color: #c5a059; }
+    #p6-plate { position: absolute; left: 0; top: 0; width: 860px; height: 1080px; background: #0a2533; }
+    /* 7 place map page */
+    #p7-old { left: 96px; top: 280px; font-size: 220px; color: #d9765f; } #p7-new { left: 96px; top: 530px; font-size: 250px; color: #c5a059; }
+    #p7-frame { position: absolute; left: 1184px; top: 230px; width: 640px; height: 640px; border: 6px solid #d9765f; }
+    #p7-old-sq { position: absolute; left: 1184px; top: 230px; width: 640px; height: 640px; background: #d9765f; }
+    #p7-new-sq { position: absolute; left: 1184px; top: 772px; width: 98px; height: 98px; background: #c5a059; }
+  </style>
+  <div id="root" data-composition-id="proof" data-width="1920" data-height="1080">
+    <div id="p1" class="clip" data-start="0" data-duration="2.4">
+      <div class="abs title">Each record page</div>
+      <div id="p1-old" class="abs">53 ms</div>
+      <div id="p1-new" class="abs">7.5 ms</div>
+      <div class="cap">Build runs 42911617876 and 43300301847</div>
+    </div>
+    <div id="p2" class="clip" data-start="2.4" data-duration="2.4">
+      <div class="abs title">Rendering every page</div>
+      <div id="p2-old-bar" class="bar old"></div><div id="p2-old-val" class="abs val">3 h 6 min</div>
+      <div id="p2-new-bar" class="bar new"></div><div id="p2-new-val" class="abs val">43 min</div>
+      <div class="cap">Production, old code &middot; UAT, new code &middot; same content &middot; 12&ndash;13 Nov 2026</div>
+    </div>
+    <div id="p3" class="clip" data-start="4.8" data-duration="2.4">
+      <div class="abs title">The whole build</div>
+      <div id="p3-old-val" class="abs">3 h 34 min</div>
+      <div id="p3-new-val" class="abs">1 h 22 min</div>
+      <div id="p3-track"></div><div id="p3-old-bar" class="bar old"></div><div id="p3-new-bar" class="bar new"></div>
+      <div id="p3-wall"></div><div id="p3-wall-lab" class="abs">GitHub job limit: 6 h</div>
+      <div class="cap">Build runs 42911617876 and 43300358009</div>
+    </div>
+    <div id="p4" class="clip" data-start="7.2" data-duration="2.4">
+      <div class="abs title">The deploy</div>
+      <div id="p4-old-bar" class="bar old"></div><div id="p4-old-val" class="abs val">3 h 13 min</div>
+      <div id="p4-new-bar" class="bar new"></div><div id="p4-new-val" class="abs val">47 min</div>
+      <div class="cap">Deploy runs 43330494209 and 43334841849</div>
+    </div>
+    <div id="p5" class="clip" data-start="9.6" data-duration="2.4">
+      <div class="abs title">Publishing to R2</div>
+      <div id="p5-a-old" class="abs">99 min</div><div id="p5-a-new" class="abs">42 min</div>
+      <div id="p5-b-old" class="abs">678 retries</div><div id="p5-b-new" class="abs">13</div>
+      <div class="cap">307,693 operations before &middot; 441,087 after</div>
+    </div>
+    <div id="p6" class="clip" data-start="12" data-duration="2.4">
+      <div id="p6-plate"></div>
+      <div class="abs title">The build artifact</div>
+      <div id="p6-old" class="abs">456,579 files</div><div id="p6-old-b" class="abs">6.7 GB</div>
+      <div id="p6-new" class="abs">1 file</div><div id="p6-new-b" class="abs">1.15 GB</div>
+    </div>
+    <div id="p7" class="clip" data-start="14.4" data-duration="2.4">
+      <div class="abs title">The place map page</div>
+      <div id="p7-old" class="abs">25 MB</div>
+      <div id="p7-new" class="abs">601 KB</div>
+      <div id="p7-frame"></div><div id="p7-old-sq"></div><div id="p7-new-sq"></div>
+      <div class="cap">Commit 71866d7a80 &middot; 11 Nov 2026 &middot; squares to scale</div>
+    </div>
+  </div>
+  <script>
+    (function () {
+      const tl = gsap.timeline({ paused: true });
+      const L = { transformOrigin: "0% 50%" }, R = { transformOrigin: "100% 50%" };
+      // 1 · the old figure is pushed back as the new one slams in
+      tl.fromTo("#p1-old", { scale: 1.15, ...L }, { scale: 1, duration: 0.3, ease: "expo.out" }, 0);
+      tl.fromTo("#p1-old", { opacity: 1 }, { opacity: 0.45, duration: 0.2, ease: "power2.inOut", immediateRender: false }, 0.9);
+      tl.fromTo("#p1-new", { scale: 1.6, opacity: 0, ...L }, { scale: 1, opacity: 1, duration: 0.28, ease: "expo.out" }, 0.9);
+      // 2 · bars to scale
+      tl.fromTo("#p2-old-bar", { scaleX: 0, ...L }, { scaleX: 1, duration: 0.5, ease: "power3.out" }, 2.4);
+      tl.fromTo("#p2-old-val", { opacity: 0 }, { opacity: 1, duration: 0.1, ease: "none" }, 2.7);
+      tl.fromTo("#p2-new-bar", { scaleX: 0, ...L }, { scaleX: 1, duration: 0.22, ease: "power3.out" }, 3.3);
+      tl.fromTo("#p2-new-val", { opacity: 0, filter: "blur(10px)" }, { opacity: 1, filter: "blur(0px)", duration: 0.16, ease: "power2.out" }, 3.45);
+      // 3 · the bar from the opening retreats from the limit
+      tl.fromTo("#p3-old-bar", { opacity: 1 }, { opacity: 0.28, duration: 0.3, ease: "power2.inOut" }, 4.8 + 0.6);
+      tl.fromTo("#p3-new-bar", { scaleX: 2.607, ...L }, { scaleX: 1, duration: 0.6, ease: "expo.inOut" }, 4.8 + 0.4);
+      tl.fromTo("#p3-new-val", { opacity: 0, scale: 1.4, ...L }, { opacity: 1, scale: 1, duration: 0.26, ease: "expo.out" }, 4.8 + 0.75);
+      tl.fromTo("#p3-old-val", { opacity: 1 }, { opacity: 0.5, duration: 0.2, ease: "none" }, 4.8 + 0.75);
+      // 4 · mirrored, from the right edge
+      tl.fromTo("#p4-old-bar", { scaleX: 0, ...R }, { scaleX: 1, duration: 0.5, ease: "power3.out" }, 7.2);
+      tl.fromTo("#p4-old-val", { opacity: 0 }, { opacity: 1, duration: 0.1, ease: "none" }, 7.5);
+      tl.fromTo("#p4-new-bar", { scaleX: 0, ...R }, { scaleX: 1, duration: 0.22, ease: "power3.out" }, 8.1);
+      tl.fromTo("#p4-new-val", { opacity: 0, filter: "blur(10px)" }, { opacity: 1, filter: "blur(0px)", duration: 0.16, ease: "power2.out" }, 8.25);
+      // 5 · two pairs, the new figures drop in one after the other
+      tl.fromTo(["#p5-a-old", "#p5-b-old"], { opacity: 0 }, { opacity: 1, duration: 0.1, stagger: 0.12, ease: "none" }, 9.6);
+      tl.fromTo("#p5-a-new", { y: -300, opacity: 0 }, { y: 0, opacity: 1, duration: 0.3, ease: "expo.out" }, 9.6 + 0.6);
+      tl.fromTo("#p5-b-new", { y: -300, opacity: 0 }, { y: 0, opacity: 1, duration: 0.3, ease: "expo.out" }, 9.6 + 1.2);
+      // 6 · the files fold into one block (canvas); the words follow it
+      tl.fromTo(["#p6-old", "#p6-old-b"], { opacity: 0 }, { opacity: 1, duration: 0.1, stagger: 0.1, ease: "none" }, 12);
+      tl.fromTo("#p6-new", { scale: 1.5, opacity: 0, ...L }, { scale: 1, opacity: 1, duration: 0.28, ease: "expo.out" }, 12 + 1.4);
+      tl.fromTo("#p6-new-b", { opacity: 0 }, { opacity: 1, duration: 0.12, ease: "none" }, 12 + 1.7);
+      // 7 · the page's weight as an area
+      tl.fromTo("#p7-old-sq", { scale: 1, opacity: 1, transformOrigin: "0% 100%" }, { scale: 0.153, opacity: 0, duration: 0.5, ease: "expo.inOut" }, 14.4 + 0.7);
+      tl.fromTo("#p7-new-sq", { opacity: 0 }, { opacity: 1, duration: 0.08, ease: "none" }, 14.4 + 1.1);
+      tl.fromTo("#p7-new", { scale: 1.5, opacity: 0, ...L }, { scale: 1, opacity: 1, duration: 0.28, ease: "expo.out" }, 14.4 + 1.1);
+      tl.fromTo("#p7-old", { opacity: 1 }, { opacity: 0.5, duration: 0.2, ease: "none" }, 14.4 + 1.1);
+      window.__timelines = window.__timelines || {};
+      window.__timelines["proof"] = tl;
+    })();
+  </script>
+</template>

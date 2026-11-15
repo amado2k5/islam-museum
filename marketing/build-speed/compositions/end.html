@@ -1,0 +1,48 @@
+<template>
+  <style>
+    @font-face { font-family: "IM Inter"; font-weight: 900; src: url("assets/fonts/inter-latin-900-normal.woff2") format("woff2"); }
+    @font-face { font-family: "IM Inter"; font-weight: 500; src: url("assets/fonts/inter-latin-500-normal.woff2") format("woff2"); }
+    @font-face { font-family: "IM Serif"; font-weight: 600; src: url("assets/fonts/source-serif-4-latin-600-normal.woff2") format("woff2"); }
+    @font-face { font-family: "IM Kufi"; font-weight: 700; src: url("assets/fonts/reem-kufi-arabic-700-normal.woff2") format("woff2"); }
+    #root { position: absolute; inset: 0; font-family: "IM Inter", sans-serif; font-weight: 900; color: #f9f8f6; text-transform: uppercase; letter-spacing: -0.035em; line-height: 0.9; font-variant-numeric: tabular-nums; }
+    .clip { position: absolute; inset: 0; }
+    .abs { position: absolute; white-space: nowrap; }
+    .w { display: inline-block; white-space: pre; }
+    .rust { color: #d9765f; } .gold { color: #c5a059; }
+    .cap { position: absolute; left: 96px; bottom: 70px; font-weight: 500; font-size: 30px; letter-spacing: 0.05em; line-height: 1; color: #e6d5b8; white-space: nowrap; }
+    .tag { font-weight: 900; font-size: 40px; letter-spacing: 0.08em; line-height: 1; }
+    #en-1 { color: #0a2533; }
+    #en-mark { position: absolute; left: 384px; top: 250px; width: 280px; height: 280px; }
+    #en-mark img { width: 280px; height: 280px; display: block; }
+    #en-name { left: 716px; top: 258px; font-family: "IM Serif", serif; font-weight: 600; font-size: 150px; letter-spacing: -0.02em; text-transform: none; line-height: 1; color: #113f4e; }
+    #en-ar { left: 722px; top: 420px; font-family: "IM Kufi", sans-serif; font-weight: 700; font-size: 84px; letter-spacing: 0; line-height: 1.3; color: #7d5d1e; direction: rtl; }
+    #en-a { left: 0; right: 0; top: 610px; text-align: center; font-size: 60px; letter-spacing: 0; }
+    #en-a2 { left: 0; right: 0; top: 690px; text-align: center; font-size: 60px; letter-spacing: 0; }
+    #en-b { left: 0; right: 0; top: 800px; text-align: center; font-size: 60px; letter-spacing: 0; color: #7d5d1e; }
+    #en-c { left: 0; right: 0; top: 910px; text-align: center; font-weight: 500; font-size: 34px; letter-spacing: 0.02em; text-transform: none; line-height: 1.3; color: #113f4e; }
+  </style>
+  <div id="root" data-composition-id="end" data-width="1920" data-height="1080">
+    <div id="en-1" class="clip" data-start="0" data-duration="4.8">
+      <div id="en-mark"><img src="assets/brand/logo-mark.svg" alt="islam.museum" /></div>
+      <div id="en-name" class="abs">islam.museum</div>
+      <div id="en-ar" class="abs" lang="ar">متحف الإسلام</div>
+      <div id="en-a" class="abs">Build: 3 h 34 min to 1 h 22 min</div>
+      <div id="en-a2" class="abs">Deploy: 3 h 13 min to 47 min</div>
+      <div id="en-b" class="abs">Engineered with Claude Fable 5.2</div>
+      <div id="en-c" class="abs">Measured on UAT against production, 12&ndash;13 November 2026</div>
+    </div>
+  </div>
+  <script>
+    (function () {
+      const tl = gsap.timeline({ paused: true });
+      tl.fromTo("#en-mark", { scale: 2.4, opacity: 0, rotation: -22 }, { scale: 1, opacity: 1, rotation: 0, duration: 0.5, ease: "expo.out" }, 0.1);
+      tl.fromTo("#en-name", { clipPath: "inset(0% 100% 0% 0%)" }, { clipPath: "inset(0% 0% 0% 0%)", duration: 0.42, ease: "power3.out" }, 0.45);
+      tl.fromTo("#en-ar", { opacity: 0, filter: "blur(10px)" }, { opacity: 1, filter: "blur(0px)", duration: 0.2, ease: "power2.out" }, 0.75);
+      tl.fromTo(["#en-a", "#en-a2"], { opacity: 0, filter: "blur(8px)" }, { opacity: 1, filter: "blur(0px)", duration: 0.18, stagger: 0.15, ease: "power2.out" }, 1.0);
+      tl.fromTo("#en-b", { opacity: 0, filter: "blur(8px)" }, { opacity: 1, filter: "blur(0px)", duration: 0.18, ease: "power2.out" }, 1.6);
+      tl.fromTo("#en-c", { opacity: 0 }, { opacity: 1, duration: 0.2, ease: "none" }, 1.9);
+      window.__timelines = window.__timelines || {};
+      window.__timelines["end"] = tl;
+    })();
+  </script>
+</template>
