@@ -1,0 +1,101 @@
+id: invention/athar-al-baqiya-comparative-eras
+class: invention
+label: { ar: "منهج البيروني المقارن في حساب التواريخ والتقاويم", en: "Al-Biruni's comparative method for calendars and eras", ur: "تواریخ اور تقاویم کے لیے بیرونی کا تقابلی طریقہ" }
+names:
+  - { value: "Athar al-Baqiya 'an al-Qurun al-Khaliya", kind: alternate, lang: ar }
+  - { value: "Comparative chronology", kind: alternate, lang: en }
+summary:
+  ar: "منهج بيبليوغرافي-فلكي جمع فيه البيروني في «الآثار الباقية» حسابات تواريخ الأمم وتقاويمها وأعيادها ومنازل قمرها في إطار واحد قابل للمقارنة، جوابًا عن سؤال أديب عن تباين التقويمات {cite:athar-baqiya-thaqafa-2008 pp. 4–6} {cite:tdv-biruni-tumer works}."
+  en: "A bibliographical-astronomical method in which al-Biruni's Athar al-Baqiya gathers the era computations, calendars, festivals and lunar mansions of the nations into one comparable frame, answering a littérateur's question about divergent calendars {cite:athar-baqiya-thaqafa-2008 pp. 4–6} {cite:tdv-biruni-tumer works}."
+  ur: "ایک ببلیوگرافی-فلکیاتی طریقہ جس میں بیرونی کی «الآثار الباقیہ» اقوام کے تاریخ، تقویم، تہوار اور قمری منازل کا حساب ایک قابلِ تقابل ڈھانچے میں جمع کرتی ہے، ایک ادیب کے سوال کے جواب میں {cite:athar-baqiya-thaqafa-2008 pp. 4–6} {cite:tdv-biruni-tumer works}۔"
+domain: astronomy-instruments
+kind: method
+disciplines: [astronomy, history]
+wings: [ideas, words]
+regions: [persia-central-asia, south-asia]
+periods: [period/buyid-seljuk-fatimid-era]
+themes: [astronomy-and-timekeeping]
+era:
+  origins: abbasid-golden
+  first_attested:
+    edtf: "1001"
+    hijri: "0392"
+    calendar: julian
+    precision: year
+    status: debated
+    note: "TDV dates the work to al-Biruni's twenty-eighth year (~1001 CE); its dedication to Shams al-Ma'ali Qabus bounds it within the patron's reign. The hijri figure is a derived conversion, not a date stated in the text."
+    derived: true
+    sources: [source/tdv-biruni-tumer, source/athar-baqiya-thaqafa-2008]
+  status_today: transformed
+origin:
+  polity: polity/ziyarid-dynasty
+  place: place/jurjan
+  context:
+    ar: "ألّف البيروني الكتاب في سياقه العلمي ببلاط قابوس ثم الغزنوي؛ يذكر نص التحقيق أن سببه سؤال أديب عن التقاويم التي تستعملها الأمم واختلاف مبادئها وشهورها وسنيها وأعيادها {cite:athar-baqiya-thaqafa-2008 pp. 4–6} {cite:tdv-biruni-tumer biography}."
+    en: "Al-Biruni composed the book within his scholarly setting at Qabus's court and later Ghazna; the edition's text reports that its occasion was a littérateur's question about the calendars nations used and their divergent epochs, months, years and feasts {cite:athar-baqiya-thaqafa-2008 pp. 4–6} {cite:tdv-biruni-tumer biography}."
+    ur: "بیرونی نے یہ کتاب قابوس کے دربار اور پھر غزنوی سیاق میں لکھی؛ ایڈیشن کا متن بتاتا ہے کہ اس کا سبب ایک ادیب کا وہ سوال تھا کہ اقوام کن تقاویم اور کن مختلف آغاز، ماہ، سال اور تہواروں کو استعمال کرتی ہیں {cite:athar-baqiya-thaqafa-2008 pp. 4–6} {cite:tdv-biruni-tumer biography}۔"
+makers:
+  - person: person/al-biruni-muhammad-ibn-ahmad
+    role: improver
+    note: "Author of the comparative treatise and its era computations; his Muslim identity and disputed affiliation are documented on the person record, which lists the labelled perspectives."
+    sources: [source/athar-baqiya-thaqafa-2008, source/tdv-biruni-tumer]
+attribution:
+  status: improvement
+  claim:
+    ar: "جمع منهجي لتقاويم الأمم في مرجع واحد، لا اختراع التقويم أو أول مقارنة تاريخية بين الأمم."
+    en: "A systematic gathering of the nations' calendars into one reference, not the invention of the calendar or of the first cross-cultural comparison."
+    ur: "اقوام کے تقاویم کا ایک ماخذ میں منظم جمع، نہ تقویم کی ایجاد اور نہ اقوام کے درمیان پہلی تقابلی تاریخ نگاری۔"
+  basis:
+    ar: "يصف الكتاب نفسه أنه جواب عن سؤال في تباين التقاويم، ويورد معلومات سابقة عن التواريخ؛ لا يدّعي المتن أن لا أحد سبقه إلى أي معرفة تقويمية {cite:athar-baqiya-thaqafa-2008 pp. 4–6} {cite:kashf-zunun-furqan p. 179}."
+    en: "The book presents itself as an answer to a question about divergent calendars and reports earlier calendrical knowledge; the text claims no absolute priority in any calendrical fact {cite:athar-baqiya-thaqafa-2008 pp. 4–6} {cite:kashf-zunun-furqan p. 179}."
+    ur: "کتاب خود کو مختلف تقاویم کے سوال کا جواب بتاتی ہے اور سابق قمری معلومات نقل کرتی ہے؛ متن کسی قمری حقیقت میں مطلق سبقت کا دعویٰ نہیں کرتا {cite:athar-baqiya-thaqafa-2008 pp. 4–6} {cite:kashf-zunun-furqan p. 179}۔"
+  perspectives: []
+precursors:
+  - external: { ar: "معارف التقاويم الفارسية واليونانية والرومية المتداولة قبل الكتاب", en: "Persian, Greek and Roman calendrical knowledge circulating before the book", ur: "کتاب سے پہلے رائج فارسی، یونانی اور رومی قمری معلومات" }
+    note: "The treatise synthesises material transmitted across cultures; it does not name a single source for every calendar it compares."
+    sources: [source/athar-baqiya-thaqafa-2008, source/kashf-zunun-furqan]
+dependents:
+  - external: { ar: "أعمال التواريخ والمقارنات اللاحقة التي استخدمت معلوماته", en: "Later chronological and comparative works that used its information", ur: "بعد کی تاریخ نگاری اور تقابلی تصانیف جنہوں نے اس کی معلومات استعمال کیں" }
+    note: "The book's calendrical tables were cited by later bibliographers; no single named descendant work is asserted here."
+    sources: [source/kashf-zunun-furqan]
+spread: []
+impact:
+  fields: [astronomy-instruments, mathematics]
+  changed:
+    ar: "وفّر مرجعًا واحدًا تشتمل فيه حسابات تواريخ الأمم وتقاويمها ومنازل قمرها، فيسهل استخراج تاريخ من آخر ومقارنة أعياد الأمم {cite:athar-baqiya-thaqafa-2008 pp. 407–409} {cite:athar-baqiya-thaqafa-2008 pp. 416–417}."
+    en: "Provided one reference containing the era computations, calendars and lunar mansions of the nations, easing the conversion of one date into another and the comparison of their feasts {cite:athar-baqiya-thaqafa-2008 pp. 407–409} {cite:athar-baqiya-thaqafa-2008 pp. 416–417}."
+    ur: "ایک ماخذ فراہم کیا جس میں اقوام کے تواریخ، تقاویم اور قمری منازل کا حساب تھا، جس سے ایک تاریخ کو دوسری میں بدلنا اور تہواروں کا تقابل آسان ہوا {cite:athar-baqiya-thaqafa-2008 pp. 407–409} {cite:athar-baqiya-thaqafa-2008 pp. 416–417}۔"
+  history:
+    ar: "يعدّ الكتاب أول مؤلف في بابه الجامع لتقاويم الأمم، وهو شهادة على العناية الإسلامية بعلوم الزمن قبل التقاويم الحديثة {cite:athar-baqiya-thaqafa-2008 p. 4} {cite:kashf-zunun-furqan p. 179}."
+    en: "The book is counted the first comprehensive work of its kind gathering the nations' calendars, and a witness to Muslim attention to time sciences before modern calendrics {cite:athar-baqiya-thaqafa-2008 p. 4} {cite:kashf-zunun-furqan p. 179}."
+    ur: "یہ کتاب اپنی نوعیت میں اقوام کے تقاویم جمع کرنے والی پہلی جامع تصنیف شمار ہوتی ہے، اور جدید قمریات سے پہلے مسلم توجۂ وقت کا شاہد {cite:athar-baqiya-thaqafa-2008 p. 4} {cite:kashf-zunun-furqan p. 179}۔"
+  significance: 4
+  why: "A substantial, well-documented comparative system whose occasion, structure and tables are attested in the edited text and classical bibliography; its dating rests on an age statement rather than an explicit year."
+described_in: [work/al-athar-al-baqiya]
+examples: []
+sites: []
+concepts: [concept/hijri-calendar, concept/manazil-al-qamar]
+today:
+  form:
+    ar: "موضوع في تاريخ حساب التقويمات والمقارنة بين التقاليد الزمنية؛ تظل جداوله مرجعًا دراسيًا لا أداةً جارية {cite:athar-baqiya-thaqafa-2008 pp. 407–409}."
+    en: "A subject in the history of calendrical computation and cross-traditional comparison; its tables remain a study reference rather than a working tool {cite:athar-baqiya-thaqafa-2008 pp. 407–409}."
+    ur: "قمری حساب اور روایات کے درمیان تقابل کی تاریخ کا موضوع؛ اس کی جداول آج بھی مطالعے کے ماخذ ہیں، کام کرنے والے آلے نہیں {cite:athar-baqiya-thaqafa-2008 pp. 407–409}۔"
+  descendants:
+    ar: "لا يثبت هذا السجل تسلسلًا مباشراً إلى برمجيات أو جداول تقويم معاصرة {cite:athar-baqiya-thaqafa-2008 pp. 407–409}."
+    en: "This record establishes no direct line to contemporary calendar software or tables {cite:athar-baqiya-thaqafa-2008 pp. 407–409}."
+    ur: "یہ ریکارڈ آج کے تقویمی سافٹ ویئر یا جداول تک براہ راست تسلسل ثابت نہیں کرتا {cite:athar-baqiya-thaqafa-2008 pp. 407–409}۔"
+media:
+  image: media/biruni-athar-ms161-f1r
+  diagram: media/diagram-athar-al-baqiya-comparative-eras
+kids:
+  ar: "كل أمة كان لها تقويمها وأعيادها. جمع البيروني تواريخ الأمم في كتاب واحد ليسهل تحويل تاريخ من تقويم إلى آخر."
+  en: "Every nation had its own calendar and feasts. Al-Biruni gathered the nations' dates in one book so a date could be moved from one calendar to another."
+  ur: "ہر قوم کا اپنا تقویم اور اپنے تہوار تھے۔ بیرونی نے اقوام کی تواریخ ایک کتاب میں جمع کیں تاکہ ایک تاریخ کو ایک تقویم سے دوسرے میں بدلا جا سکے۔"
+sources: [source/athar-baqiya-thaqafa-2008, source/tdv-biruni-tumer, source/kashf-zunun-furqan, source/commons-edinburgh-biruni-ms161]
+status: { review: published, completeness: 3 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (Cognition) subagent devin-drafter-w2-05"
+  model: "claude-sonnet-4-5"
+  run: inventions-w2
+  source: "Read the Athar al-Baqiya Cairo 2008 edition text pp. 4–6, 86–92, 407–409, 416–417 in the local harvest; the TDV Bîrûnî entry's works list and age statement; and Hajji Khalifa's Kashf al-Zunun entry 57 at scan p. 179; no other manuscript witness inspected. Inspected the Edinburgh Or MS 161 f.1r miniature on Wikimedia Commons for the hero image."
