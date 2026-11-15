@@ -237,6 +237,10 @@ html:lang(en) .pm-rname small { font-family: var(--sans); }
 .pm-x:hover { background: var(--pm-wash); }
 .pm.is-on .pm-status:not([hidden]):not(:empty) { display: flex !important; }
 .pm-status { position: absolute; z-index: 4; top: 12px; left: 50%; transform: translateX(-50%); align-items: center; gap: 10px; margin: 0; padding: 6px 14px; font-size: 0.85rem; color: var(--pm-text); background: var(--pm-chrome); border: 1px solid var(--pm-edge); border-radius: 999px; white-space: nowrap; }
+/* With no text the line stays in the page (a status region should be there before its text arrives) but draws no box:
+   the general rule for script-only parts above shows it as a block, and its padding and border used to make an empty
+   pill at the top of the map, which on a narrow screen lay over the first search result and took the tap. */
+.pm-status:empty { padding: 0; border: 0; pointer-events: none; }
 .pm-status button { font: inherit; color: var(--pm-accent); background: none; border: 0; padding: 4px 6px; min-height: 28px; text-decoration: underline; cursor: pointer; }
 
 /* ---- narrow screens: the panel becomes a sheet above the year bar ---- */

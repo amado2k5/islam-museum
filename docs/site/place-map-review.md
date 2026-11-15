@@ -183,6 +183,16 @@ Removing the packages changed no built file, and removing the strings changed on
 
 A reader gains a little on every entity page: the depth dial now loads 4 script files, 38.9 KB (16.0 KB compressed), where it loaded 7 files, 53.4 KB (22.1 KB compressed), because Svelte runtime code that only the old map needed is no longer in the shared files. The courses page goes from 52.5 KB to 42.8 KB of script. `_astro/` holds 8 scripts and 74 KB where it held 13 and 217 KB.
 
+### The empty status line over the search results (15 November 2026)
+
+Seen while filming the walkthrough at 540 px wide (`marketing/place-walkthrough/README.md`): a tap on the first search result chose nothing. Reproduced on the live site in a phone-size viewport (390 px wide, touch emulation), in the page and in full screen: with "Cordoba" typed, `document.elementFromPoint` at the centre of the first item of `#pm-results` returned `p.pm-status`, and a tap there closed the list with no place opened. Measured the same at 540 and 760 px; at 800 px and wider the list hangs from the search box at the side and the two do not meet.
+
+Why: `.pm-status` is meant to show only while it has text (`.pm.is-on .pm-status:not([hidden]):not(:empty)` sets `display: flex`). With no text that rule does not apply, and the general rule that shows the script's parts once it has started (`.pm.is-on .pm-js:not([hidden]) { display: revert !important; }`) gives the paragraph back its `display: block`. Its padding and border then drew an empty pill, 30 by 14 px, 12 px under the top of the stage, in the middle, at every width. `.pm-top` (which holds the list) and `.pm-status` both have `z-index: 4` in the map's stacking context, the status line comes later in the page, so the pill was painted over the list and took the pointer.
+
+The fix is one rule in `site/public/shell/place-map.css`: `.pm-status:empty { padding: 0; border: 0; pointer-events: none; }`. The empty line stays in the page as the status region (so what assistive technology sees does not change) but has no box. With text it is styled and announced as before. The stacking order is unchanged: the line has text only while the places are loading or have failed to load, and the search gives no list until they have loaded, so a line with text and an open list do not occur together. `scripts/place-map.test.ts` fails if the rule goes.
+
+Not checked on a real phone, in Safari or Firefox, or with a screen reader (see "Left, and why").
+
 ### Left, and why
 
 | What | Why it was left |

@@ -30,6 +30,9 @@ open a new block on top with the new version and today's date.
 ### Fixed
 - 32 person records carried the Wikidata id of something else (a plant, a town, an asteroid, another person); the ids are removed. 89 dates that an automated pass had written, and that the record's own Wikidata item contradicts by more than a century under the same name, are removed and logged. 1,085 dates from the same pass that agree with Wikidata are now cited to the item and its revision, so they return to timelines.
 - In the API, a curated record of the Ibadat Browser now carries its acts of worship (`topics`), as passages do.
+- **On a phone, a tap on the first search result of the Place map now opens the place.** The map's status line, when it had no text, was still drawn as a small empty pill at the top of the map. On a narrow screen (measured at 390, 540 and 760 px wide) the list of search results drops over that spot, the pill lay on top of the first result, and a tap there closed the list without choosing anything, in the page and in full screen alike (seen while filming the walkthrough, reproduced on the live site in a phone-size browser window; not checked on a real phone). The empty line now draws no box and takes no tap; with text ("Loading the places…", the load error and its retry button) it shows and is announced as before. The stray pill is gone from the map at every width. Only the map's stylesheet changes, so a deploy re-uploads that file and the three Place pages that name it by fingerprint.
+### Tests
+- The Place map's test file now fails if the empty status line is given a box again.
 ### Data
 - `docs/audit/data/dates-wikidata-ledger.json` records each of those date decisions; 13 doubtful Wikidata ids are left untouched and listed in the audit ledger.
 
