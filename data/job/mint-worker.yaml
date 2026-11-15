@@ -1,0 +1,49 @@
+id: job/mint-worker
+class: job
+label: { ar: "الضرّاب", en: "Mint worker / die-cutter (darrab / sakkak)", ur: "سکہ ساز" }
+names:
+  - { value: "سكّاك", kind: alternate }
+  - { value: "حقّاق", kind: alternate }
+  - { value: "sikkegen", kind: latinized, lang: tr }
+  - { value: "sâhib-i ayâr", kind: latinized, lang: tr }
+summary:
+  ar: "الضرّاب هو عامل دار الضرب ⁦(ضربخانة)⁩ الذي يسكّ الدينار من ذهب والدرهم من فضة والفلس من نحاس. يفصّل المدخل طواقم الصنّاع داخل الدار: السبّاك المُذيب والحدّاد المرمّم والمدّاد المُمرّر والقطّاع والغسّال والمجلّي والحلّال المُصفّي بالتيزاب والكوركجي وسيّد العيار، وخارجها الحقّاق ناقش السكة وخدم الالتزام من الملتزم إلى الكاتب والأمين."
+  en: "The darrab is the mint craftsman who struck dinars of gold, dirhams of silver and fals of copper in the darphâne. The entry details the staff inside: the sebbâk melter, haddâd tool-repairer, meddâd bar-drawer, kattâ cutter, gassâl washer, polisher, hallâl refiner with nitric acid, körükçü bellows-man, zincirci collar-engraver and the sâhib-i ayâr who answered for weight and fineness — and outside, the hakkâk/sikkegen die-cutters serving the state under three-year iltizam contracts."
+  ur: "ضراب دار الضرب ⁦(ضرب خانہ)⁩ کا کاریگر ہے جو سونے کا دینار، چاندی کا درہم اور تانبے کا فلس ٹھپتا تھا۔ مدخل اندر کا عملہ گناتا ہے: پگھلانے والا سباک، اوزار بنانے والا حداد، بار کھینچنے والا مداد، کاٹنے والا قطاع، دھونے والا غسال، چمکانے والا، تیزاب سے صاف کرنے والا حلال، دھونکنی والا کورکجی، زنجیر کندہ کرنے والا زنجرکلی اور صاحب عیار جو وزن اور خالص پن کا ذمہ دار تھا — اور باہر حقاق/سکہ گن ڈائی تراش جو ریاست کے لیے تین سالہ التزام کے تحت کام کرتے تھے۔"
+domain: building-making
+kind: craft
+hirfa: true
+era:
+  origins: pre-islamic
+  status_today: transformed
+places:
+  - { place: place/damascus, note: "Abd al-Malik struck the first Islamic dinar at Damascus after al-Ḥajjāj's dirham at Kufa (694-697); Umayyad mints also ran at Baalbek, Homs and Tiberias.", sources: [source/tdv-darphane] }
+  - { place: place/kufa, note: "Al-Ḥajjāj struck the first Islamic dirham at Kufa on Abd al-Malik's order.", sources: [source/tdv-darphane] }
+  - { place: place/al-fustat, note: "Abd al-Azīz b. Marwān struck dirhams at Fustat; later Ayyubid and Ottoman mints ran at Cairo, whose gold coins set the weight standard North African mints undercut.", sources: [source/tdv-darphane] }
+  - { place: place/istanbul, note: "The Istanbul darphâne struck the first Ottoman gold in 1478, moved from Beyazıt to Tavşantaşı and then beside Hagia Irene in Topkapı's grounds, and took the rakkas striking machine from 1689.", sources: [source/tdv-darphane] }
+  - { place: place/bursa, note: "Orhan Bey's first Ottoman coin was cut at Bursa; Süleyman Paşa cut coin at Ipsala, and coins were struck at Amasya, Edirne, Serez and Ayasuluk under the sons of Bayezid.", sources: [source/tdv-darphane] }
+  - { place: place/qayrawan, note: "North African mints ran at Kairouan and Fustat; the Fatimids later founded mints at Raqqada, Mahdia, Mansuriyya, Fez and Palermo.", sources: [source/tdv-darphane] }
+regions: [levant-iraq, egypt-nile, anatolia-balkans, maghreb, andalus-europe, persia-central-asia]
+organization:
+  organized: court-office
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people, living]
+periods: [period/umayyad, period/abbasid-early, period/abbasid-fragmentation, period/crusades-ayyubid-mamluk, period/gunpowder-empires, period/modern-era]
+sources: [source/tdv-darphane]
+craft:
+  materials: [gold, silver, copper]
+  techniques:
+    ar: "كانت الضربة تمرّ بمراحل: يُذاب المعدن في البواتق على قياس السكة ثم يُصبّ قضباناً، فتُبسَّط إلى سماكة السكة وتُقطّع مربعات ثم تُدوَّر أقراصاً ⁦(pul)⁩ توضع بين قالبين؛ السفلي «كورسو» مثبّت على جذع والعلوي «جليك» يُضرب بالمطرقة. ويعدد المدخل صنّاع دار مصر في القرن الثامن عشر: السبّاك والحدّاد والمدّاد والقطّاع والغسّال والمجلّي والحلّال والكوركجي والزنجركلي، كلّهم يأخذ أجره من نوبة المعدن بترتيب سيّد العيار. ثم جاء آلة الرقّاس الميكانيكية عام ١٦٨٩م فنقلت الضرب من المطرقة إلى البُرغي."
+    en: "Striking ran in stages: the metal was melted in crucibles to mint fineness, cast into bars, flattened to coin thickness, cut into squares and rounded into blanks (pul), then set between dies — the lower 'kürsü' fixed on a block, the upper 'çelik' struck with a hammer. The entry lists the eighteenth-century Egypt mint's crew — sebbâk, haddâd, meddâd, kattâ, gassâl, polisher, hallâl, körükçü, zincirci — each paid from the nevbet (a furnace-load of metal) by the sâhib-i ayâr. From 1689 the rakkas screw-press moved striking from the hammer to the screw."
+    ur: "سکہ کئی مراحل سے گزرتا تھا: دھات کو سکہ عیار تک پگھلا کر سلاخیں ڈھالتے، سکہ موٹائی تک چپٹا کرتے، مربع کاٹ کر گول چپے ⁦(پل)⁩ بناتے اور دو ڈائیوں کے درمیان رکھتے تھے — نیچلی «کورسو» تنے پر جڑی، اوپر «چلک» ہتھوڑے سے ماری جاتی۔ مدخل اٹھارویں صدی کے مصر کے ضرب خانے کا عملہ گناتا ہے: سباک، حداد، مداد، قطاع، غسال، چمکانے والا، حلال، کورکجی، زنجرکلی — سب کی اجرت صاحب عیار نوبت ⁦(بھٹی بھر دھات)⁩ سے ادا کرتا تھا۔ ۱۶۸۹ء میں رقاس نامی سکرو پریس نے ہتھوڑے کی جگہ سکرو لگا دی۔"
+  guild:
+    bodies: []
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-craft-2" }
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi, 'DARPHÂNE' (Halil Sahillioğlu, 1993), web edition read in full on 15 Nov 2026. Covers mint history, iltizam administration, workshop staff and the striking process; individual workers are named only where contracts name them (e.g. the 1546 Istanbul tahvil of Yasef b. Yasef)."
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-craft-2-drafting"
