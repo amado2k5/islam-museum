@@ -1,0 +1,109 @@
+id: invention/kindi-frequency-analysis
+class: invention
+label:
+  ar: "تحليل التكرار في فكّ الرموز عند الكندي"
+  en: "Al-Kindi's frequency analysis for decipherment"
+  ur: "کندی کا تعددی تجزیہ برائے رمز شکنی"
+names:
+  - { value: "frequency analysis", kind: alternate, lang: en }
+  - { value: "cryptanalysis of al-Kindi", kind: alternate, lang: en }
+summary:
+  ar: "يصف الكندي في رسالته «في استخراج المعمى» طريقة لكسر التعمية الاستبدالية بإحصاء تكرار الحروف في اللغة ومطابقة النص المشفّر — أقدم وصف مكتوب معروف لتحليل التكرار، وهو الأساس الذي قامت عليه علمية تحليل الشفرات لاحقاً."
+  en: "In his treatise on extracting the crypted, al-Kindi describes breaking substitution ciphers by counting letter frequencies in the language and matching them to the ciphertext — the earliest known written account of frequency analysis, the method on which scientific cryptanalysis was later built."
+  ur: "کندی نے اپنے رسالے «فی استخراج المعمى» میں بدلی کے رمز توڑنے کا طریقہ بیان کیا: زبان میں حروف کی تکرار گن کر مشفر متن سے میلانا — تعددی تجزیے کی قدیم ترین معلوم تحریری صفت، وہ طریقہ جس پر بعد میں علمی رمز شکنی قائم ہوئی۔"
+domain: mathematics
+kind: method
+disciplines: [mathematics]
+wings: [ideas]
+regions: [levant-iraq]
+periods: [period/abbasid-early]
+themes: [mathematics, linguistics]
+era:
+  origins: abbasid-golden
+  first_attested:
+    edtf: "0850~"
+    hijri: "0236~"
+    calendar: julian
+    precision: century
+    status: historical
+    note: "Al-Kindi (d. c. 873 CE) wrote the treatise in the ninth century; the modern edition of his cryptanalytic text is the 1987 Mrayati et al. publication {cite:kindi-cryptanalysis-1987}."
+    sources: [source/kindi-cryptanalysis-1987]
+  status_today: transformed
+origin:
+  place: place/baghdad
+  context:
+    ar: "بغداد العباسية، مركز فيلسوفها الأول الكندي وبيئة الترجمة والرسائل."
+    en: "Abbasid Baghdad, seat of its first philosopher al-Kindi and of the translation-and-correspondence milieu."
+    ur: "عباسی بغداد، پہلے فلسفی کندی کا مرکز اور ترجمہ و مکاتبات کا ماحول۔"
+makers:
+  - person: person/al-kindi
+    role: inventor
+    note: "Author of the treatise on decipherment; his Sunni-frame record is on the person file."
+    sources: [source/kindi-cryptanalysis-1987]
+attribution:
+  status: original
+  claim:
+    ar: "أقدم وصف مكتوب معروف لطريقة تحليل التكرار في كسر الشفرات الاستبدالية."
+    en: "The earliest known written description of the frequency-analysis method for breaking substitution ciphers."
+    ur: "بدلی کے رمز توڑنے کے لیے تعددی تجزیے کے طریقے کی قدیم ترین معلوم تحریری صفت۔"
+  basis:
+    ar: "طبعة 1987 الحديثة للرسالة تنشر نصّ الكندي في إحصاء تكرار الحروف ومطابقة النص المشفر {cite:kindi-cryptanalysis-1987}."
+    en: "The 1987 modern edition publishes al-Kindi's text on counting letter frequencies and matching ciphertext {cite:kindi-cryptanalysis-1987}."
+    ur: "1987ء کی جدید طباعت کندی کے متن شائع کرتی ہے جو حروف کی تکرار گننے اور مشفر متن سے میلانے کی صفت دیتا ہے {cite:kindi-cryptanalysis-1987}۔"
+precursors:
+  - external:
+      ar: "تقنيات التعمية الاستبدالية نفسها — شيفرة قيصر وما شابهها — التي كانت الهدف."
+      en: "Substitution-cipher techniques themselves — Caesar-type ciphers — which were the target."
+      ur: "خود بدلی رمز کے طریقے — قیصر طرز کے رمز — جو ہدف تھے۔"
+    note: "Ciphers predate analysis; al-Kindi's step is the analytic counter-method, not the cipher."
+    sources: [source/kindi-cryptanalysis-1987]
+dependents:
+  - external:
+      ar: "علم تحليل الشفرات الحديث — من التحليل التكراري في عصر النهضة إلى التحليل الإحصائي الحاسوبي."
+      en: "Modern cryptanalysis — from Renaissance frequency methods to computational statistical analysis."
+      ur: "جدید رمز شکنی — نشاۃ ثانیہ کے تعددی طریقوں سے کمپیوٹری شماریاتی تجزیے تک۔"
+    note: "The method reappeared independently in Europe; the record notes priority, not a documented transmission line."
+    sources: [source/kindi-cryptanalysis-1987]
+spread: []
+impact:
+  fields: [mathematics]
+  changed:
+    ar: "حوّل فكّ الرموز من محاولة ذكية إلى إجراء إحصائي قابل للتعليم والتطبيق على أي لغة."
+    en: "Turned decipherment from clever guessing into a statistical procedure teachable and applicable to any language."
+    ur: "رمز شکنی کو ذہین اندازے سے ایک شماریاتی طریقہ بنا دیا جو سکھایا اور ہر زبان پر لگو کیا جا سکتا تھا۔"
+  history:
+    ar: "أقدم نص مقروء يجعل تحليل الشفرات علماً — إحصاء لا حدس."
+    en: "The earliest text read that makes cryptanalysis a science — counting, not intuition."
+    ur: "پڑھا گیا قدیم ترین متن جو رمز شکنی کو علم بناتا ہے — گنتی، اندازہ نہیں۔"
+  significance: 4
+  why: "A documented ninth-century method that is the conceptual foundation of cryptanalysis; priority is textual, not descent-claimed."
+described_in: []
+examples: []
+sites: [place/baghdad]
+concepts: []
+today:
+  form:
+    ar: "يبقى المبدأ حياً في كل محلل شفرات: الاختلافات الإحصائية في توزيع الرموز هي أول أدوات كسر أي نص مشفر."
+    en: "The principle lives in every cipher break: statistical skew in symbol distribution is the first tool against any ciphertext."
+    ur: "اصول ہر رمز توڑنے میں زندہ ہے: علامات کی تقسیم کا شماریاتی انحراف ہر مشفر متن کے خلاف پہلا اوزار ہے۔"
+  descendants:
+    ar: "تحليل التكرار الحاسوبي وأدوات التعلم الآلي لفكّ التعمية — امتداد طبيعي للفكرة نفسها."
+    en: "Computational frequency analysis and machine-learning decipherment — a natural extension of the same idea."
+    ur: "کمپیوٹری تعددی تجزیہ اور مشین لرننگ رمز شکنی — اسی خیال کا فطری امتداد۔"
+media:
+  image: media/kindi-cryptanalysis-manuscript
+  diagram: media/diagram-kindi-frequency-analysis
+kids:
+  ar: "تخيّل رسالة سرية كُتبت بحروف بديلة. قال الكندي قبل ألف ومئة سنة: احسب أي حرف يتكرر أكثر في اللغة — في العربية مثلاً الألف واللام — وابدأ بمطابقة أكثر الرموز تكراراً. هكذا وُلدت طريقة كسر الشفرات بالإحصاء."
+  en: "Imagine a secret message written in swapped letters. A thousand and a hundred years ago al-Kindi said: count which letter occurs most in the language — in Arabic, alif and lam — and start matching the most frequent symbols. That is how code-breaking by statistics was born."
+  ur: "سوچو ایک خفیہ خط بدلے حروف میں لکھا ہوا ہے۔ گیارہ سو سال پہلے کندی نے کہا: زبان میں کون سا حرف سب سے زیادہ آتا ہے گنو — عربی میں علیف اور لام — اور سب سے زیادہ آنے والی علامتوں سے میلانا شروع کرو۔ اسی طرح شماریات سے رمز توڑنا پیدا ہوا۔"
+sources:
+  - source/kindi-cryptanalysis-1987
+  - source/encyclopaedia-of-islam-2
+status: { review: published, completeness: 2 }
+provenance:
+  layer: own-research
+  generated_by: devin-orchestrator-solo
+  model: SWE-2
+  run: inventions-w2-22
+  source: "Mrayati et al. 1987 edition of al-Kindi's cryptanalysis treatise, source record read 2026-11-16; EI2 for the Baghdad milieu"

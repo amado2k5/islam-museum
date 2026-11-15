@@ -13,6 +13,12 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v1.37.0 — 2026-11-16
+### Added
+- Four more Inventions Browser records, each with Arabic, English and Urdu prose: al-Kindi's frequency analysis — the earliest written cipher-breaking method; al-Jazari's elephant clock, the most famous documented medieval automaton; al-Razi's smallpox-and-measles treatise, the first known written differentiation of two diseases; and al-Zahrawi's catgut sutures, the earliest recorded absorbable surgical thread.
+
+---
+
 ## v1.36.0 — 2026-11-16
 ### Added
 - Four more Inventions Browser records from the medical and chemical heritage, each with Arabic, English and Urdu prose: al-Zahrawi's surgical-instrument corpus in al-Tasrif; the soporific sponge, the contested anaesthetic carrier; Hunayn ibn Ishaq's Ten Treatises on the Eye, the earliest known systematic ophthalmology textbook; and al-Razi's distillation of petroleum into white naft in Kitab al-Asrar, the earliest written account read of producing a kerosene-like fuel.
