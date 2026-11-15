@@ -1,0 +1,70 @@
+id: invention/ibn-sina-health-regimen
+class: invention
+label: { ar: "تدبير حفظ الصحة المشترك للبالغين عند ابن سينا", en: "Ibn Sina's shared regimen of health for adults", ur: "بالغوں کے لیے ابن سینا کا مشترک تدبیرِ صحت" }
+names:
+  - { kind: alternate, lang: ar, value: "التدبير المشترك للبالغين في القانون" }
+  - { kind: alternate, lang: ar, value: "التعليم الثاني من الفن الثالث في سبب الصحة والمرض" }
+  - { kind: alternate, lang: en, value: "Canon Book I, Fann 3 Ta'lim 2 regimen chapters" }
+summary:
+  ar: "سبعة عشر فصلاً في التدبير المشترك للبالغين: معظم تدبير حفظ الصحة أن يرتاض ثم تدبير الغذاء ثم تدبير النوم؛ فصول في الرياضة وأنواعها وأوقاتها، والدلك، والاستحمام، وتدبير المأكول والماء، والنوم واليقظة، والإعياء وما يتبعه {cite:canon-ibn-sina-print-v1 pp.221–231}."
+  en: "Seventeen chapters on the shared regimen for adults: most of the regimen of preserving health is exercising, then regulating food, then regulating sleep; chapters on exercise and its kinds and timing, massage, bathing, the regimen of food and water, sleep and wakefulness, and fatigue and what follows it {cite:canon-ibn-sina-print-v1 pp.221–231}."
+  ur: "بالغوں کے لیے مشترکہ تدبیر کے سترہ ابواب: صحت کی حفاظت کے تدبیر کا زیادہ تر حصہ ورزش، پھر غذا کا تدبیر، پھر نیند کا تدبیر ہے؛ ورزش کی اقسام و اوقات، ملش، غسل، کھانا اور پانی کا تدبیر، نیند اور بیداری، اور تھکن اور اس کے بعد کے حالات کے ابواب {cite:canon-ibn-sina-print-v1 pp.221–231}۔"
+domain: medicine-surgery
+kind: method
+disciplines: [medicine]
+wings: [ideas]
+regions: [persia-central-asia]
+periods: [period/buyid-seljuk-fatimid-era]
+era:
+  origins: middle-period
+  first_attested:
+    edtf: "10XX"
+    calendar: julian
+    precision: century
+    status: historical
+    note: "Eleventh-century Canon text; the regimen chapters carry no separate composition date and no exact Hijri conversion is invented."
+    sources: [source/canon-ibn-sina-print-v1, source/nasser-tibi-savage-smith-canon-rules-2009]
+  status_today: transformed
+origin:
+  place: place/hamadan
+  context: { ar: "همدان سياق إتمام القانون في الدراسة؛ لا موضع ثابت لكتابة هذا التعليم تحديداً {cite:nasser-tibi-savage-smith-canon-rules-2009 p.78}.", en: "Hamadan is the study's Canon-completion context, not an established location for this particular section {cite:nasser-tibi-savage-smith-canon-rules-2009 p.78}.", ur: "ہمدان مطالعے میں قانون کی تکمیل کا سیاق ہے، اس خاص تعلیمی حصے کی ثابت جگہ نہیں {cite:nasser-tibi-savage-smith-canon-rules-2009 p.78}۔" }
+makers:
+  - { person: person/ibn-sina, role: improver, note: "Author presenting the adult regimen inside Book I Fann 3; not credited with inventing exercise, diet, sleep or preventive medicine.", sources: [source/canon-ibn-sina-print-v1] }
+attribution:
+  status: improvement
+  claim: { ar: "تنظيم منهجي لتدبير الصحة داخل تقاليد طبية أقدم.", en: "Systematic organization of health regimen within older medical traditions.", ur: "پرانی طبی روایتوں کے اندر صحت کے تدبیر کی منظم ترتیب۔" }
+  basis: { ar: "يفتتح التعليـم بأن معظم تدبير حفظ الصحة أن يرتاض ثم تدبير الغذاء ثم تدبير النوم {cite:canon-ibn-sina-print-v1 p.221}.", en: "Ta'lim 2 opens by stating that most of the regimen of preserving health is exercising, then regulating food, then regulating sleep {cite:canon-ibn-sina-print-v1 p.221}.", ur: "تعلیم کا آغاز اس بات سے ہوتا ہے کہ صحت کی حفاظت کے تدبیر کا زیادہ تر حصہ ورزش، پھر غذا کا تدبیر، پھر نیند کا تدبیر ہے {cite:canon-ibn-sina-print-v1 p.221}۔" }
+  perspectives:
+    - tradition: sunni
+      stance: { ar: "إطار معلن وانتماء مختلف فيه", en: "Declared frame and disputed affiliation", ur: "معلن سیاق اور متنازع نسبت" }
+      summary: { ar: "وصف بريتانيكا الصريح له مسلماً أساس فردي مع إبقاء الخلاف {cite:britannica-avicenna opening}؛ ألبَر يعارض التصنيف الشيعي مع بقاء القراءات المخالفة منسوبة {cite:tdv-ibn-sina-alper affiliation-discussion}.", en: "Britannica's explicit Muslim description is an individual basis while disagreement remains {cite:britannica-avicenna opening}; Alper argues against Shia classification with contrary readings retained {cite:tdv-ibn-sina-alper affiliation-discussion}.", ur: "بریٹانیکا کا صریح مسلم وصف انفرادی بنیاد ہے مگر اختلاف باقی {cite:britannica-avicenna opening}؛ الپر شیعی نسبت کے خلاف دلیل دیتے ہیں، مخالف قرأتیں محفوظ ہیں {cite:tdv-ibn-sina-alper affiliation-discussion}۔" }
+      sources: [source/britannica-avicenna, source/tdv-ibn-sina-alper]
+    - tradition: academic
+      stance: { ar: "نص تاريخي ضمن تراث أقدم", en: "Historical text within an older tradition", ur: "پرانی روایت میں تاریخی متن" }
+      summary: { ar: "الفصول تقرأ في الأصل العربي المطبوع وتخلط مقاييس الأمزجة بتوجيهات التدبير، لا بروتوكولاً طبياً حديثاً ولا إرشاداً للزوار {cite:canon-ibn-sina-print-v1 pp.221–231}.", en: "The chapters are read in the printed Arabic original and mix humoral measures of bodies with regimen advice; not a modern protocol or visitor guidance {cite:canon-ibn-sina-print-v1 pp.221–231}.", ur: "ابواب مطبوعہ عربی اصل میں پڑھے گئے اور اخلاطی انداز میں بدنوں کے تدبیر کا موازنہ کرتے ہیں؛ جدید پروٹوکول یا ملاقاتی ہدایت نہیں {cite:canon-ibn-sina-print-v1 pp.221–231}۔" }
+      sources: [source/canon-ibn-sina-print-v1]
+precursors:
+  - external: { ar: "تقاليد تدبير الصحة عند أبقراط وجالينوس ومن سبقهم في الطب", en: "Regimen traditions of Hippocrates, Galen and earlier physicians", ur: "ابقراط، جالینوس اور پہلے کے اطباء کی تدبیرِ صحت کی روایتیں" }
+    note: "The regimen-of-health topic predates the Canon; the record claims only the systematic seventeen-chapter adult scheme inside it, not the invention of prevention or hygiene."
+    sources: [source/canon-ibn-sina-print-v1, source/encyclopaedia-of-islam-2]
+dependents: []
+spread: []
+impact:
+  fields: [medicine-surgery, everyday-life]
+  changed: { ar: "جعل حفظ الصحة خطة ليوم كامل: رياضة ثم غذاء ثم نوم ثم ماء ثم راحة، مع فصول للإعياء وما يتبعه {cite:canon-ibn-sina-print-v1 pp.221–231}.", en: "Made health-keeping a plan for the whole day: exercise, then food, then sleep, then drink, then rest, with chapters on fatigue and what follows it {cite:canon-ibn-sina-print-v1 pp.221–231}.", ur: "صحت کی حفاظت کو پورے دن کا منصوبہ بنایا: ورزش پھر غذا پھر نیند پھر مشروب پھر آرام، اور تھکن اور اس کے بعد کے حالات کے ابواب کے ساتھ {cite:canon-ibn-sina-print-v1 pp.221–231}۔" }
+  history: { ar: "ضمن الكتاب الأول الذي ظل أساس التدريس الطبي نحو سبعة قرون في المدرسة والطبعة اللاتينية {cite:encyclopaedia-of-islam-2 vol.3 pp.974–977}.", en: "Inside Book I of the work that served as the basis of medical teaching for about seven centuries in school and Latin translation {cite:encyclopaedia-of-islam-2 vol.3 pp.974–977}.", ur: "اس کتابِ اول میں جو تقریباً سات صدیوں تک اسکول اور لاطینی ترجمے میں طبی تدریس کی بنیاد رہی {cite:encyclopaedia-of-islam-2 vol.3 pp.974–977}۔" }
+  significance: 3
+  why: "Seventeen directly read chapters give a bounded, citable systematization of adult health regimen inside the Canon's general medicine; the inherited tradition and modern limits stay explicit."
+described_in: [work/al-qanun-fi-al-tibb]
+examples: []
+sites: []
+concepts: [concept/regimen-of-health, concept/health, concept/medical-treatment, concept/how-exercise-guards-health, concept/canon-seven-matters-to-regulate-in-preserving-health, concept/canon-what-preserving-health-can-guarantee, concept/canon-general-regimen-of-the-old]
+today:
+  form: { ar: "وثيقة تاريخية لتدبير الصحة في إطار الأخلاط؛ ليس إرشاداً طبياً للجمهور {cite:canon-ibn-sina-print-v1 pp.221–231}.", en: "A historical document of health regimen inside the humoral frame; not public medical guidance {cite:canon-ibn-sina-print-v1 pp.221–231}.", ur: "اخلاطی فریم میں صحتِ تدبیر کا تاریخی دستاویز؛ عوامی طبی ہدایت نہیں {cite:canon-ibn-sina-print-v1 pp.221–231}۔" }
+  descendants: { ar: "تشابه أسئلة نمط الحياة مع طب العافية الحديث لا يثبت نسباً مباشراً للتعليم {cite:encyclopaedia-of-islam-2 vol.3 pp.974–977}.", en: "Similar lifestyle-medicine questions do not by themselves prove a direct descent from this teaching {cite:encyclopaedia-of-islam-2 vol.3 pp.974–977}.", ur: "طرزِ زندگی کی طب کے مشابہ سوالات خود بخود اس تعلیم کا براہ راست نسب ثابت نہیں کرتے {cite:encyclopaedia-of-islam-2 vol.3 pp.974–977}۔" }
+media: { image: media/ibn-sina-regimen-canon-strasbourg, diagram: media/diagram-ibn-sina-health-regimen }
+kids: { ar: "في الكتاب الأول من القانون يصف ابن سينا يوماً صحياً منظماً: أولاً الرياضة ثم الغذاء ثم النوم. نفهم منه أن الصحة في نظر قدماء الأطباء نظامٌ يتكرر لا شيء يحدث مرة واحدة؛ ولا نستعمل وصفاته الطبية اليوم.", en: "In Book I of the Canon Ibn Sina describes an organized healthy day: first exercise, then food, then sleep. It shows us that health, in the view of the old physicians, was a repeating system, not something that happened once; we do not use his medical prescriptions today.", ur: "قانون کی پہلی کتاب میں ابن سینا ایک منظم صحت مند دن بیان کرتے ہیں: پہلے ورزش پھر خوراک پھر نیند۔ اس سے سمجھ آتا ہے کہ پرانے اطباء کی نظر میں صحت ایک دہرائی جانے والی ترتیب تھی، ایک بار کی بات نہیں؛ آج ہم ان کی طبی ہدایات استعمال نہیں کرتے۔" }
+tags: [tibb-browser, tibb-tibb]
+sources: [source/canon-ibn-sina-print-v1, source/encyclopaedia-of-islam-2, source/nasser-tibi-savage-smith-canon-rules-2009, source/tdv-ibn-sina-alper, source/britannica-avicenna, source/commons-canon-strasbourg-book1]
+status: { review: published, completeness: 3, generated_by: "Devin (SWE-2)" }
+provenance: { layer: own-research, generated_by: "Devin (SWE-2)", model: "SWE-2", run: "inventions-w2", source: "Dar al-Kutub al-Ilmiyya 1999 vol.1 OCR on the harvest drive: Book I Fann 3 Ta'lim 2 regimen chapters read at scan pp.221–231 (exercise, massage, bathing, food, drink, sleep, fatigue, non-fine temperaments); concept/regimen-of-health lead record; EI2 Ibn Sina article for Canon reception; Commons file page for the Strasbourg Canon book-1 folio." }
