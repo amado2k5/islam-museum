@@ -123,9 +123,26 @@ the browser claims a kind only from a verse's own words. The tag line is added b
 must keep it. The ruling covers these three verses only; any other verse without the two roots
 is a new proposal to the founder. The browser now holds 60 ayahs and 1,864 records.
 
+## The sanctuary reports stay (founder's ruling, 15 November 2026)
+
+The founder ruled that the reports on the inviolability of Makka and Madina stay in the browser
+under their own subject, `sanctuary`, as built. Passages that only name the sanctuary as a place
+remain out of scope. A second reader (Gemini, 15 November 2026) was asked where the classical
+books place these reports and how the commentators read the wording. Checked against the graph:
+its numbers for the Abu Shurayh report (Bukhari 104, Muslim 1354), the "made lawful to me for an
+hour" report (Bukhari 2434 and 6880, Abu Dawud 2017) and the sheet of Ali (Abu Dawud 2034,
+Tirmidhi 2127) match the records' texts. Not checked, and not to be cited from this note:
+Bukhari 1870 and 6755 and Muslim 1355 and 1370 (not in the graph), the chapter titles, the
+glosses ascribed to Ibn Hajar and al-Nawawi, and the positions of the four schools on Madina,
+which rested on one secondary web page. Leads from the answer, not acted on: in
+`passage/mudawwana-halal-1-223` the phrase «للحلال والحرام» means the non-pilgrim and the
+pilgrim in ihram, so its `both` kind comes from another sense; the classical chapter titles
+for the subject are «حرمة مكة والمدينة» and «تحريم مكة والمدينة».
+
 ## Open
 
-- The founder's ruling on the 10 records above and on the sanctuary reports.
+
+- The founder's ruling on the 10 records above.
 
 - A human read of every draft record.
 - The items in the table above.
