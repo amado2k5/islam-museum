@@ -1,0 +1,23 @@
+id: concept/jabsin
+class: concept
+kind: natural
+label:
+  ar: "جبسين"
+  en: "Jabsin (gypsum, the editor says)"
+  ur: "جبسین ⁦(جفصین)⁩"
+summary:
+  ar: "حجر الجص صفائحي أبيض مشفّ، وإذا أُحرق ازداد لطافة؛ بارد يابس، مغرّ يُوضع على النزوف، ويُطلى به الجبهة فيحبس الرعاف، ويُخلط ببياض البيض ضماداً للرمد الدموي؛ وعُدّ الكتاب له من السموم الخانقة {cite:canon-ibn-sina-print-v1 p.424}."
+  en: "Gypsum stone, white, flaky and translucent; when burnt it becomes finer. Cold and dry, astringent, placed on bleeding. Spread on the forehead, or wrapped around the head, it stops nosebleed. Mixed with egg white and applied, it is for bloody ophthalmia. The book counts it among the choking poisons {cite:canon-ibn-sina-print-v1 p.424}."
+  ur: "جص کا پتھر، سفید، تہہ دار اور شفاف؛ جلانے پر زیادہ باریک ہوتا ہے۔ ٹھنڈا اور خشک، مغرّ، خون بہنے کی جگہ رکھا جاتا ہے؛ پیشانی پر لگانے یا سر پر لپیٹنے سے ناک کا خون رکتا ہے۔ انڈے کی سفیدی میں ملا کر خونی آشوبِ چشم پر لگایا جاتا ہے؛ کتاب اسے گلا گھونٹنے والے زہروں میں شمار کرتی ہے {cite:canon-ibn-sina-print-v1 p.424}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter ba and jim, scan pages 424, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); the editor's footnotes are used only for identity and name; footnotes quoting modern herbal or nutrition books are not used; measured doses and weights are left out; garbled OCR lines are left out, not guessed"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), lane A4"
+  model: claude-haiku-5-5
+  run: a4-canon-book2-7
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (book mining, lane A4)" }

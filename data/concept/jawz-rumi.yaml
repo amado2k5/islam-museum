@@ -1,0 +1,23 @@
+id: concept/jawz-rumi
+class: concept
+kind: natural
+label:
+  ar: "جوز رومي"
+  en: "Jawz rumi (the book's akiros, amber)"
+  ur: "جوز رومی ⁦(اکیروس، کہربا)⁩"
+summary:
+  ar: "ويسمّى أكيروس، وهو صمغ شجرة الجوز الرومي الذي يجمد في النهر، ويُسمّى الكهربا عند المحقق؛ حار شديد التسخين، وينفع من الصرع بثمره مع الخل ومن الضربان النقرسي بورقه، ويمنع سيلان الأمعاء بصمغه {cite:canon-ibn-sina-print-v1 p.422} {cite:canon-ibn-sina-print-v1 p.423}."
+  en: "Also called akiros. The book says the Roman walnut tree grows by a river and its gum hardens in the water. The editor's footnote identifies the gum as amber (kahraba) and says the name akiros is unexplained. The book, citing Dioscorides, lists its fruit with vinegar for epilepsy, its leaf with vinegar for gouty pulsing, and its gum for flux of the intestines {cite:canon-ibn-sina-print-v1 p.422} {cite:canon-ibn-sina-print-v1 p.423}."
+  ur: "اسے اکیروس بھی کہتے ہیں۔ کتاب کے مطابق رومی اخروٹ کا درخت دریا کے کنارے اگتا ہے اور اس کا صمغ پانی میں جم جاتا ہے؛ حاشیے کے مطابق یہ کہربا ہے، اور اکیروس کا معنی معلوم نہیں ہو سکا۔ کتاب دیوسقوریدوس کے حوالے سے اس کا پھل سرکے کے ساتھ مرگی میں، پتا سرکے کے ساتھ نقرسی ضربان میں، اور صمغ آنتوں کے سیلان میں بیان کرتی ہے {cite:canon-ibn-sina-print-v1 p.422} {cite:canon-ibn-sina-print-v1 p.423}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter ba and jim, scan pages 422-423, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); the editor's footnotes are used only for identity and name; footnotes quoting modern herbal or nutrition books are not used; measured doses and weights are left out; garbled OCR lines are left out, not guessed"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), lane A4"
+  model: claude-haiku-5-5
+  run: a4-canon-book2-7
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (book mining, lane A4)" }

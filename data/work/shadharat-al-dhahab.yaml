@@ -1,17 +1,20 @@
 id: work/shadharat-al-dhahab
 class: work
 kind: book
-label: { ar: "شذرات الذهب في أخبار من ذهب", en: "Shadharat al-Dhahab fi Akhbar man Dhahab" }
+label: { ar: "شذرات الذهب في أخبار من ذهب", en: "Shadharat al-Dhahab fi Akhbar man Dhahab", ur: "شذرات الذہب فی اخبار من ذہب" }
 summary:
-  ar: "تاريخ ابن العماد الحنبلي في تراجم العلماء والدول والملوك؛ يقع فيه كثير من أخبار المكاتبات الديوانية وكتب الأمراء."
-  en: "Ibn al-Imad al-Hanbali's annalistic history of scholars, dynasties and kings; it transmits many reports of chancery correspondence and princely letters."
+  ar: "تاريخ حولي لابن العماد الحنبلي ⁦(ت ١٠٨٩هـ)⁩ يسرد الأخبار سنة سنة مع تراجم من توفوا في كل سنة؛ الجزء الثالث المقروء منه يبدأ بسنة ٣٥٠هـ {cite:shadharat-dhahab vol. 3 p. 9} {cite:shadharat-dhahab vol. 3 p. 10}."
+  en: "Ibn al-Imad al-Hanbali's (d. 1089 AH) annalistic history, which gives events year by year with the obituaries of the year's dead; the third volume read here opens with the year 350 AH {cite:shadharat-dhahab vol. 3 p. 9} {cite:shadharat-dhahab vol. 3 p. 10}."
+  ur: "ابن العماد الحنبلی ⁦(م ١٠٨٩ھ)⁩ کی سالانہ تاریخ، جو ہر سال کے واقعات اور اس سال وفات پانے والوں کے تذکرے ایک ایک سال کر کے بیان کرتی ہے؛ یہاں پڑھی گئی تیسری جلد سنہ ۳۵۰ھ سے شروع ہوتی ہے {cite:shadharat-dhahab vol. 3 p. 9} {cite:shadharat-dhahab vol. 3 p. 10}۔"
 wings: []
 authors: [person/ibn-al-imad-al-hanbali]
 sources: [source/shadharat-dhahab]
 genre: [history]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Flash High)" }
+external_ids: {}
+status: { review: draft, completeness: 2, generated_by: "Claude Haiku 5.5 (lane C2, packet c2-work-5)" }
 provenance:
   layer: own-research
-  source: "title page of the scanned book on the harvest shelf"
-  generated_by: "Devin (SWE-2 Flash High)"
-  run: mukatabat-books-mining-1
+  source: "Title page and opening year of volume 3 (scan pp. 9 and 10 of AAlexandrina-223861.pdf, the Dar al-Kutub and Amir Abd al-Qadir copy collated edition, printed 1350 AH), read from the Apple Vision OCR on the microSD; the rest of the volume was not read"
+  generated_by: "Claude Haiku 5.5"
+  model: "claude-haiku-5-5"
+  run: "c2-work-5"
