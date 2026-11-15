@@ -1,0 +1,24 @@
+id: media/diagram-farghani-parallax-arc
+class: media
+kind: illustration
+label:
+  {
+    ar: "حساب الفرغاني لاختلاف المنظر",
+    en: "al-Farghani's parallax computation",
+    ur: "فرغانی کا اختلافِ منظر کا حساب"
+  }
+summary:
+  ar: "سلسلة تعليمية تبين انتقال معالجة اختلاف المنظر إلى الملخص العربي للفرغاني ثم إلى ترجماته اللاتينية؛ لا تثبت دقة أرقامه ولا سبقه على معالجات أقدم."
+  en: "A teaching chain showing the parallax treatment passing into al-Farghani's Arabic summary and its Latin translations; it proves neither the accuracy of his figures nor priority over older treatments."
+  ur: "تدریسی سلسلہ جو اختلافِ منظر کے مباحث کے فرغانی کے عربی خلاصے اور اس کے لاطینی تراجم میں پہنچنے کو دکھاتا ہے؛ نہ اس کے اعداد کی درستی ثابت کرتا ہے نہ پرانی مباحث پر سبقت۔"
+license: CC0
+creator: "islam.museum"
+depicts: [invention/farghani-parallax-arc]
+alt:
+  ar: "خمسة عناصر متسلسلة: معالجات المنظر السابقة، ثم فصول الفرغاني عن قوس الانحراف من دايرة الارتفاع وأرقامه القصوى للقمر، ثم ترجمة إيطالهي، ثم ترجمة جيراردوس كريمنوننسيس، ثم طبعة غوليوس 1669."
+  en: "Five linked items: earlier parallax treatments, then al-Farghani's chapters deriving the deviation arc from the vertical circle with the Moon's maxima, then Johannes Hispalensis's version, then Gerardus Cremonensis, then Golius's 1669 edition."
+  ur: "پانچ سلسلہ وار آئٹمز: پہلے کے اختلافِ منظر مباحث، پھر فرغانی کے ابواب جو سمت الرأسی کے دائرے سے انحراف کا قوس اور چاند کی حداکثری قدریں نکالتے ہیں، پھر جوہانس ہسپالنسس کی نقل، پھر جیرارڈس کریمونینسس، پھر گولیوس کا 1669 ایڈیشن۔"
+generated: { tool: "site/src/components/InventionDiagram.astro (generic chain drawn at build time)", version: "1", date: "2026-11-15" }
+sources: [source/farghani-elements-astronomy, source/tdv-fergani-kaya]
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+provenance: { layer: own-research, generated_by: "Devin (SWE-2 High)", model: "SWE-2 High", run: "inventions-w2", source: "Primary OCR pages and TDV transmission dates; generic relationship diagram, not a reconstruction of historical instruments" }

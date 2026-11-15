@@ -1,0 +1,36 @@
+id: media/diagram-dairat-al-muaddil
+class: media
+kind: illustration
+label:
+  {
+    ar: "بنية دائرة المعدل",
+    en: "Structure of da'irat al-mu'addil",
+    ur: "دائرۃ المعدل کی ساخت",
+  }
+summary:
+  ar: "سلسلة تعليمية تبين كيف يجمع القرص الواحد بوصلة مغناطيسية ومزولة وخطوط قبلات المدن، من اختراع الوفائي إلى نسخه العثمانية؛ لا تدعي أول قرص مركب في التاريخ."
+  en: "A teaching chain showing how one disc combines a magnetic compass, a sundial and city qibla lines, from al-Wafa'i's invention to its Ottoman copies; it claims no first compound disc in history."
+  ur: "تدریسی سلسلہ جو دکھاتا ہے کہ ایک قرص میں مقناطیسی قطب نما، مزولہ اور شہروں کے قبلہ کے خطوط کیسے جمع ہوئے، الوفائی کی ایجاد سے عثمانی نقلوں تک؛ تاریخ میں پہلے مرکب قرص کا دعویٰ نہیں۔"
+license: CC0
+creator: "islam.museum"
+depicts: [invention/dairat-al-muaddil]
+alt:
+  ar: "قرص واحد يجمع بوصلة ومزولة وخطوط قبلات، من اختراع الوفائي إلى نسخه العثمانية."
+  en: "One disc combining compass, sundial and qibla lines, from al-Wafa'i's invention to its Ottoman copies."
+  ur: "ایک قرص جس میں قطب نما، مزولہ اور قبلہ کے خطوط جمع ہیں، الوفائی کی ایجاد سے عثمانی نقلوں تک۔"
+generated:
+  {
+    tool: "site/src/components/InventionDiagram.astro (generic chain drawn at build time)",
+    version: "1",
+    date: "2026-11-15",
+  }
+sources: [source/oriental-art-auctions-dairat-muaddil, source/khalili-collections]
+status: { review: published, completeness: 2, generated_by: "Devin drafter w2-06" }
+provenance:
+  {
+    layer: own-research,
+    generated_by: "Devin drafter w2-06",
+    model: "devin",
+    run: "inventions-w2-06",
+    source: "Generic relationship diagram for the compound-disc instrument's components and transmission; not a reconstruction of the historical instrument.",
+  }

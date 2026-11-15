@@ -7,13 +7,32 @@ summary:
 gender: male
 wings: [people]
 periods: [period/abbasid-early]
+faith:
+  - value: sunni
+    basis: documented
+    note: "Muslim basis: the treatise's own opening leaves in the 1669 Golius edition carry the basmala and the author's self-naming ⁦(بسم الله الرحمن الرحيم ابتدا كتاب محمد بن كثير الفرغاني)⁩; Encyclopaedia Iranica's entry identifies him as a Muslim astronomer, and TDV places him among the leading Abbasid mathematicians and astronomers in the service of the caliphs al-Ma'mun through al-Mutawakkil. Sunni is the museum's default frame for this documented Abbasid setting, not a personal madhhab declaration; no contrary tradition is attested in the sources read. Verifier devin-verifier-w2-03 added the primary-text opening citation on 2026-11-15."
+    sources: [source/farghani-elements-astronomy, source/iranica-fargani-ahmad, source/tdv-fergani-kaya]
 provenance:
   layer: own-research
   source: "المسعودي، مروج الذهب وأهل المعاجن"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch31
-sources: [source/muruj-al-dhahab, source/farghani-elements-astronomy]
+  extensions:
+    - { generated_by: "Devin (SWE-2 High)", model: "SWE-2 High", run: "inventions-w2-03", source: "Added documented Sunni faith block (Iranica 'Muslim astronomer' + TDV Abbasid-court biography) and five transmitter invention ties after reading the 1669 Golius OCR at the cited pages, the TDV FERGANI article and the Encyclopaedia Iranica excerpt on 2026-11-15; earlier provenance, dates and relations preserved." }
+    - { generated_by: "devin-verifier-w2-03", model: "devin", run: "inventions-w2-03 verify", source: "Verifier fix 2026-11-15: added the primary-text citation for the Muslim basis — the treatise's opening leaves in the 1669 Golius edition carry the basmala and the author's self-naming (OCR opening leaves, book p.1) — to the faith note and sources; wrapped the pre-existing Arabic parenthetical in the lived_in relation note per the Arabic-parentheses rule." }
+    - { generated_by: "devin-drafter-w2-04", model: "unknown", run: "inventions-w2-04", source: "Added a sourced Sunni faith block (basis: tradition; al-Mas'udi's list of sphere-science scholars and the Islamic hay'a character of the Elements) required for his describer role on four new invention records, and four describer invention ties; wrapped the pre-existing Arabic parenthetical in the lived_in relation note per the Arabic-parentheses rule. Verifier devin-verifier-w2-04b confirmed 2026-11-15." }
+inventions:
+  - { invention: invention/farghani-eccentric-orb, role: transmitter, note: "Chapter-sixteen account of the Sun's eccentric orb and the planets' centres on a unified scale inside the Jawami'; inherited structure presented, not invented.", sources: [source/farghani-elements-astronomy, source/tdv-fergani-kaya, source/iranica-fargani-ahmad] }
+  - { invention: invention/farghani-epicycle-radii, role: transmitter, note: "Unified-scale table of epicycle radii for the Moon and planets in chapter sixteen; parameters carried from earlier astronomy.", sources: [source/farghani-elements-astronomy, source/tdv-fergani-kaya, source/iranica-fargani-ahmad] }
+  - { invention: invention/farghani-heliacal-visibility, role: transmitter, note: "Chapters on the planets' risings, settings and concealment in the sun's rays with approximate elongation distances.", sources: [source/farghani-elements-astronomy, source/tdv-fergani-kaya, source/iranica-fargani-ahmad] }
+  - { invention: invention/farghani-lunar-five-motions, role: transmitter, note: "Five-circular-motion composition of the Moon's apparent motion along the zodiac, documented at the cited OCR pages.", sources: [source/farghani-elements-astronomy, source/tdv-fergani-kaya, source/iranica-fargani-ahmad] }
+  - { invention: invention/farghani-parallax-arc, role: transmitter, note: "Computational account of the surface-versus-centre viewing difference with the Moon's maxima, inside the treatise's judgement chapters.", sources: [source/farghani-elements-astronomy, source/tdv-fergani-kaya, source/iranica-fargani-ahmad] }
+  - { invention: invention/ruju-al-kawakib, role: describer, note: "Dedicated chapter explaining retrograde motion of the five wandering stars through the epicycle-and-deferent composition, with per-planet limits; exposition of a Ptolemaic model inside the curriculum, not invention.", sources: [source/farghani-elements-astronomy, source/commons-ptolemy-epicycles, source/tdv-ilm-i-felek] }
+  - { invention: invention/kurawiyyat-al-sama, role: describer, note: "Chapter-two account of the spherical heavens with its observational proofs and the parallel/intersecting circles; systematised a received ancient doctrine rather than discovering it.", sources: [source/farghani-elements-astronomy, source/tdv-ilm-i-felek] }
+  - { invention: invention/mayl-falak-al-buruj, role: describer, note: "Records Ptolemy's 23°51' and the al-Ma'mun-era verified measurement of 23°35' in two places of the treatise; transmitter of the measurement tradition, not the measurer.", sources: [source/farghani-elements-astronomy, source/tdv-ilm-i-felek] }
+  - { invention: invention/manazil-al-qamar, role: describer, note: "Lists the twenty-eight lunar mansions with their star groups and risings/settings in his twentieth chapter; transmitted and fixed the received scheme that descends from the Indian system via the anwā'.", sources: [source/farghani-elements-astronomy, source/kunitzsch-lunar-mansions-2008] }
+sources: [source/muruj-al-dhahab, source/farghani-elements-astronomy, source/tdv-fergani-kaya, source/iranica-fargani-ahmad, source/tdv-ilm-i-felek, source/commons-ptolemy-epicycles, source/kunitzsch-lunar-mansions-2008]
 status:
   review: published
   completeness: 3
@@ -21,4 +40,4 @@ status:
 external_ids: { wikidata: Q336550 }
 died: { edtf: "861~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 / Ibn al-Nadim Confirmed on 13 November 2026 against Wikidata Q336550 (P570, a statement with a reference), item revision 2544755420.", sources: [source/wikidata] }
 relations:
-  - { type: lived_in, target: place/farghana, note: "Place association from the person's nisba/name (الفرغاني); denotes association, not proven residence.", sources: [source/muruj-al-dhahab, source/farghani-elements-astronomy], confidence: low }
+  - { type: lived_in, target: place/farghana, note: "Place association from the person's nisba/name ⁦(الفرغاني)⁩; denotes association, not proven residence.", sources: [source/muruj-al-dhahab, source/farghani-elements-astronomy], confidence: low }

@@ -12,17 +12,29 @@ wings: [people]
 themes: [astronomy-and-timekeeping, mathematics]
 periods: [period/mongol-post-mongol]
 regions: [egypt-nile]
-born: { edtf: "1366~", hijri: "0767", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد بالقاهرة 767 {cite:shadharat-dhahab p. 268}", sources: [source/shadharat-dhahab] }
-died: { edtf: "1447-02-09~", hijri: "0850-11-21", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي ليلة السبت 21 ذي القعدة 850 {cite:shadharat-dhahab p. 268}", sources: [source/shadharat-dhahab] }
+faith:
+  - value: sunni-shafii
+    basis: documented
+    note: "His full name in the sources carries 'al-Shafi'i' and the TDV biography documents his Shafi'i legal study; BEA records a traditional religious education in Quranic studies, hadith, fiqh and Arabic at Cairo's religious institutions. Shafi'i is the documented tradition, not inferred from name or place alone."
+    sources: [source/tdv-ibnul-mecdi, source/islamsci-ibn-al-majdi-bea]
+born: { edtf: "1366~", hijri: "0767", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد بالقاهرة 767 {cite:shadharat-dhahab p. 268}; BEA gives August 1366.", sources: [source/shadharat-dhahab, source/islamsci-ibn-al-majdi-bea] }
+died: { edtf: "1447-02-09~", hijri: "0850-11-21", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي ليلة السبت 21 ذي القعدة 850 {cite:shadharat-dhahab p. 268}; BEA gives 27/28 January 1447.", sources: [source/shadharat-dhahab, source/islamsci-ibn-al-majdi-bea] }
 relations:
   - { type: lived_in, target: place/cairo, confidence: low, note: "Associated with Cairo per the record's own summary text; relation type pending review.", sources: [source/shadharat-dhahab] }
+inventions:
+  - invention: invention/ibn-al-majdi-manhal-hilal
+    role: improver
+    note: "Author of al-Manhal al-adhb al-zulal, a short treatise gathering miqat computation and crescent-sighting methods; an improvement within the school tradition, not a new calendar theory."
+    sources: [source/bibalex-azhar-astronomy-manuscripts-2006, source/tdv-ibnul-mecdi]
+sources: [source/shadharat-dhahab, source/islamsci-ibn-al-majdi-bea, source/tdv-ibnul-mecdi]
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 850)، قراءة آبل فيجن"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch80
-sources: [source/shadharat-dhahab]
+  extensions:
+    - { generated_by: "Devin drafter w2-06", model: "devin", run: "inventions-w2-06", source: "Added documented sunni-shafii faith block (TDV Shafi'i legal study + BEA religious education), an improver invention tie to invention/ibn-al-majdi-manhal-hilal, BEA birth/death corroboration appended to the date notes, and source extensions, after reading the BEA Ibn al-Majdi entry and the TDV İbnü'l-Mecid article on 2026-11-15; earlier provenance, dates and relations preserved." }
 status:
   review: published
   completeness: 3

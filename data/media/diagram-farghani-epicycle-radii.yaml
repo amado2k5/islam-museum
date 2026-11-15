@@ -1,0 +1,24 @@
+id: media/diagram-farghani-epicycle-radii
+class: media
+kind: illustration
+label:
+  {
+    ar: "جدول أنصاف أقطار أفلاك التدوير عند الفرغاني",
+    en: "al-Farghani's epicycle-radii table",
+    ur: "فرغانی کا تدويری دائرے کے نصف قطر کا جدول"
+  }
+summary:
+  ar: "سلسلة تعليمية تبين انتقال جدول معاملات أفلاك التدوير إلى الملخص العربي للفرغاني ثم إلى ترجماته اللاتينية؛ لا تثبت أسبقية القيم ولا صحة كل رقم OCR."
+  en: "A teaching chain showing the epicycle-parameter table passing into al-Farghani's Arabic summary and its Latin translations; it proves neither the values' priority nor the correctness of every OCR figure."
+  ur: "تدریسی سلسلہ جو تدويری دائرے کے پیرامیٹر جدول کے فرغانی کے عربی خلاصے اور اس کے لاطینی تراجم میں پہنچنے کو دکھاتا ہے؛ نہ اقدار کی سبقت ثابت کرتا ہے نہ ہر OCR عدد کی صحت۔"
+license: CC0
+creator: "islam.museum"
+depicts: [invention/farghani-epicycle-radii]
+alt:
+  ar: "خمسة عناصر متسلسلة: معاملات الفلك السابق، ثم جدول الفرغاني بأنصاف أقطار التدوير في الفصل السادس عشر، ثم ترجمة إيطالهي اللاتينية، ثم ترجمة جيراردوس كريمنوننسيس، ثم طبعة غوليوس 1669."
+  en: "Five linked items: the earlier astronomical parameters, then al-Farghani's epicycle-radii table in chapter sixteen, then Johannes Hispalensis's Latin version, then Gerardus Cremonensis, then Golius's 1669 edition."
+  ur: "پانچ سلسلہ وار آئٹمز: پہلے کے فلکی پیرامیٹرز، پھر باب سولہ میں فرغانی کا تدويری نصف قطر جدول، پھر جوہانس ہسپالنسس کی لاطینی نقل، پھر جیرارڈس کریمونینسس، پھر گولیوس کا 1669 ایڈیشن۔"
+generated: { tool: "site/src/components/InventionDiagram.astro (generic chain drawn at build time)", version: "1", date: "2026-11-15" }
+sources: [source/farghani-elements-astronomy, source/tdv-fergani-kaya]
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+provenance: { layer: own-research, generated_by: "Devin (SWE-2 High)", model: "SWE-2 High", run: "inventions-w2", source: "Primary OCR pages and TDV transmission dates; generic relationship diagram, not a reconstruction of historical instruments" }

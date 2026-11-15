@@ -1,0 +1,165 @@
+id: invention/farghani-heliacal-visibility
+class: invention
+label:
+  ar: معايير الفرغاني لظهور الكواكب من شعاع الشمس
+  en: al-Farghani's criteria for planetary rising out of the sun's rays
+  ur: فرغانی کے معیارات برائے سیاروں کا شعاعِ آفتاب سے طلوع ہونا
+names:
+- kind: alternate
+  lang: en
+  value: al-Farghani's heliacal rising and setting rules
+- kind: alternate
+  lang: ar
+  value: مشاريق ومغاريب الكواكب عند الفرغاني
+summary:
+  ar: 'يفرد الفرغاني فصلاً في جوامع علم النجوم لمشاريق الكواكب ومغاريبها واختفائها بشعاع الشمس: للكواكب الخارجة مشرق بالمغرب
+    بالعشايا ومشرق بالمشرق بالغدوات، وللزهر والعطارد طلوعان ومغيبان بالعشيات والغدوات لأنهما أسرع من الشمس، ويعطي أبعاداً
+    تقريبية بين الشمس والكوكب تحدد الرؤية على الأمر الوسط ويعلل تفاوتها بسرعة الكوكب وموضعه في البروج {cite:farghani-elements-astronomy
+    p. 41}{cite:farghani-elements-astronomy p. 30}{cite:farghani-elements-astronomy p. 33}.'
+  en: 'al-Farghani devotes a chapter of his Jawami'' to the planets'' morning and evening risings and settings and their concealment
+    in the sun''s rays: the superior planets set in the west at dusk and rise in the east before dawn, Venus and Mercury have
+    both phenomena because they move faster than the Sun, and he gives approximate Sun-planet distances that set the visibility
+    limit on the mean, explaining their variation by the planet''s speed and its position among the signs {cite:farghani-elements-astronomy
+    p. 41}{cite:farghani-elements-astronomy p. 30}{cite:farghani-elements-astronomy p. 33}.'
+  ur: 'فرغانی جوامع میں ایک باب سیاروں کی صبح و شام طلوع و غروب اور شعاعِ آفتاب میں ان کے چھپنے کے لیے خالی کرتے ہیں: بیرونی
+    سیارے شام کو مغرب میں غائب اور صبح مشرق میں ظاہر ہوتے ہیں، زہرہ اور عطارد دونوں کے مظاہر رکھتے ہیں کیونکہ وہ سورج سے تیز
+    چلتے ہیں، اور وہ تقریبی فاصلوں سے درکار رویت کی حد مقرر کرتے ہیں اور ان کے تفاوت کو سیارے کی رفتار اور بروج میں مقام سے
+    سمجھاتے ہیں {cite:farghani-elements-astronomy p. 41}{cite:farghani-elements-astronomy p. 30}{cite:farghani-elements-astronomy
+    p. 33}۔'
+domain: astronomy-instruments
+kind: method
+disciplines:
+- astronomy
+- mathematics
+wings:
+- ideas
+regions:
+- levant-iraq
+periods:
+- period/abbasid-early
+era:
+  origins: abbasid-golden
+  first_attested:
+    edtf: ../0861
+    calendar: julian
+    precision: year
+    status: historical
+    note: 'Open latest bound only: TDV reports al-Farghani''s death after 247/861; the chapter''s composition date is not
+      established and this is not an asserted writing year. Printed elongation figures in the OCR need visual check against
+      the scan before being treated as final.'
+    sources:
+    - source/tdv-fergani-kaya
+  status_today: transformed
+origin:
+  place: place/samarra
+  context:
+    ar: فصل من كتاب الفرغاني في الحركات السماوية ضمن بلاط الخلافة العباسية بسامرا، لا تاريخ تأليف محدد.
+    en: A chapter of al-Farghani's treatise on celestial motions within the Abbasid caliphal milieu of Samarra; no exact composition
+      date is attested.
+    ur: سامرا کے عباسی دربار میں فرغانی کی آسمانی حرکات کی کتاب کا ایک باب؛ تالیف کی کوئی متعین تاریخ منقول نہیں۔
+makers:
+- person: person/al-farghani
+  role: transmitter
+  note: Transmits the heliacal-visibility scheme of earlier planetary astronomy inside his Arabic summary; Muslim basis is
+    Iranica's 'Muslim astronomer' classification and TDV's Abbasid-court biography, with Sunni the museum default frame.
+  sources:
+  - source/farghani-elements-astronomy
+  - source/tdv-fergani-kaya
+  - source/iranica-fargani-ahmad
+attribution:
+  status: transmission
+  claim:
+    ar: نقل معايير ظهور الكواكب من شعاع الشمس إلى العربية داخل ملخص مؤثر، لا اختراع ظاهرة الاختفاء خلف الشمس.
+    en: Transmission into Arabic of the planets' reappearance from the sun's rays inside an influential summary, not the invention
+      of concealment behind the Sun.
+    ur: مؤثر خلاصے کے اندر سیاروں کے شعاعِ آفتاب سے دوبارہ ظاہر ہونے کے معیارات کا عربی میں انتقال، سورج کے پیچھے چھپنے کا
+      ایجاد نہیں۔
+  basis:
+    ar: يفرد الفصل الرابع والعشرين لمشاريق الكواكب وتغاريبها واختفائها بشعاع الشمس، ويذكر أبعاداً للعمل بها على الأمر الوسط
+      وأخرى مما عمل به بطليموس {cite:farghani-elements-astronomy p. 41}{cite:farghani-elements-astronomy p. 30}.
+    en: Chapter twenty-four is devoted to the planets' risings, settings and concealment in the sun's rays, and gives distances
+      for use on the mean as well as those Ptolemy worked on {cite:farghani-elements-astronomy p. 41}{cite:farghani-elements-astronomy
+      p. 30}.
+    ur: باب چوبیس سیاروں کی طلوع و غروب اور شعاعِ آفتاب میں چھپنے کے لیے مخصوص ہے، اور وسطی حساب کے لیے فواصل دیتا ہے اور
+      وہ بھی جو بطلیموس نے کام میں لیے {cite:farghani-elements-astronomy p. 41}{cite:farghani-elements-astronomy p. 30}۔
+  perspectives: []
+precursors:
+- external:
+    ar: معايير الرؤية عند الشروق والغروب في فلك بطليموس وما قبله
+    en: Visibility criteria at dawn and dusk in Ptolemy's astronomy and earlier traditions
+    ur: بطلیموس کی فلکیات اور پہلے کی روایات میں طلوع و غروب کے وقت رویت کے معیارات
+  note: The chapter itself distinguishes its mean working distances from Ptolemy's, which it also records; the scheme is inherited
+    and transmitted here.
+  sources:
+  - source/farghani-elements-astronomy
+dependents:
+- external:
+    ar: كتب الفلك العربية واللاتينية التي نقلت عن جوامع علم النجوم
+    en: Arabic and Latin astronomical books that drew on the Jawami'
+    ur: جوامع علم النجوم سے مستفید عربی اور لاطینی فلکی کتابیں
+  note: TDV documents Latin translations of 1134 and 1175 and European use into the fifteenth century; the visibility chapters
+    fed calendar and observational practice.
+  sources:
+  - source/tdv-fergani-kaya
+spread: []
+impact:
+  fields:
+  - astronomy-instruments
+  - timekeeping
+  changed:
+    ar: ثبّت في العربية قاعدة تقريبية لمتى يظهر الكوكب بعد احتجابه بالشمس، فغذّت حسابات المراقبة والتقاويم.
+    en: Fixed in Arabic an approximate rule for when a planet reappears after solar concealment, feeding observation and calendar
+      computation.
+    ur: عربی میں ایک تقریبی اصول مقرر کیا کہ سیارہ شمسی پوشیدگی کے بعد کب ظاہر ہوتا ہے، جس سے مشاہداتی اور تقویمی حسابات کو
+      تقویت ملی۔
+  history:
+    ar: جزء من كتاب أثّر في فلك أوروبا من القرن الثاني عشر إلى نهاية الخامس عشر وفق معجم TDV {cite:tdv-fergani-kaya transmission}.
+    en: Part of a book that influenced European astronomy from the twelfth to the end of the fifteenth century, per TDV {cite:tdv-fergani-kaya
+      transmission}.
+    ur: ایسی کتاب کا حصہ جس نے بارہویں سے پندرہویں صدی کے آخر تک یورپی فلکیات پر اثر ڈالا، TDV کے مطابق {cite:tdv-fergani-kaya
+      transmission}۔
+  significance: 3
+  why: A whole chapter devoted to visibility criteria with explicit elongation figures in an influential transmitted textbook;
+    bounded because the criteria descend from earlier astronomy.
+described_in:
+- work/jawami-ilm-al-nujum
+examples: []
+sites: []
+concepts:
+- concept/heliacal-rising
+today:
+  form:
+    ar: معيار تاريخي لدراسة ظهور النجوم والكواكب صباحاً ومساءً.
+    en: A historical criterion for studying morning and evening appearances of stars and planets.
+    ur: ستاروں اور سیاروں کی صبح و شام ظہور کے مطالعے کا تاریخی معیار۔
+  descendants:
+    ar: أبحاث أرشيوية فلكية حديثة تستعمل ظاهرة الاختفاء والظهور، لا نسبة مباشرة للمعايير القديمة.
+    en: Modern archaeoastronomical work uses concealment and reappearance phenomena; no direct lineage to these old figures
+      is established.
+    ur: جدید قدیم فلکیات چھپنے اور ظاہر ہونے کے مظاہر استعمال کرتی ہے؛ ان پرانے اعداد تک براہ راست نسب ثابت نہیں۔
+media:
+  image: media/crescent-moon-first-visibility
+  diagram: media/diagram-farghani-heliacal-visibility
+kids:
+  ar: قبل التلسكوبات، كان الفلكيون يتوقعون متى يخرج الكوكب من وراء الشمس فيراه الناس فجراً أو مساءً؛ هذا تخمين نجمي قديم من
+    جداول، لا جهاز رصد حديث.
+  en: Before telescopes, astronomers predicted when a planet would slip out from behind the Sun so people could see it at
+    dawn or dusk; that is an old star-table guess, not a modern observing instrument.
+  ur: دوربینوں سے پہلے ماہرین فلکیات اندازہ لگاتے تھے کہ سیارہ کب سورج کے پیچھے سے نکل کر صبح یا شام نظر آئے گا؛ یہ پرانے
+    ستاروں کے جدول کا اندازہ ہے، جدید رصد کا آلہ نہیں۔
+sources:
+- source/farghani-elements-astronomy
+- source/tdv-fergani-kaya
+- source/iranica-fargani-ahmad
+- source/commons-crescent-moon-2023
+status:
+  review: published
+  completeness: 3
+  generated_by: Devin (SWE-2 High)
+provenance:
+  layer: own-research
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: inventions-w2
+  source: Arabic and Latin OCR of the 1669 Golius edition read at the cited PDF pages (elongation figures flagged as OCR readings);
+    TDV FERGANI article and Encyclopaedia Iranica excerpt read 2026-11-15; Commons crescent file metadata checked.

@@ -1,0 +1,187 @@
+id: invention/battani-zij-sabi
+class: invention
+label:
+  ar: الزيج الصابي ⁦(زيج البتاني)⁩
+  en: Al-Zij al-Sabi (al-Battani's Zij)
+  ur: الزیج الصابی ⁦(زیج البتانی)⁩
+names:
+- value: Zij al-Battani
+  kind: alternate
+  lang: en
+- value: الزيج الصابئ
+  kind: alternate
+  lang: ar
+summary:
+  ar: زيج محمد بن جابر البتاني في سبعة وخمسين باباً وجداول، جمع أرصاده للشمس والقمر في الرقة وأنطاكية وصحّح حركاتهما وحركات
+    الكواكب الخمسة عن بطلميوس؛ نُقل إلى اللاتينية والقشتالية، وتشير مصادره إلى نسخة أولى قبل ٢٨٨هـ ونسخة ثانية بأرصاد أنطاكية
+    في يناير وأغسطس ٩٠١م {cite:nallino-albatenii-opus-astronomicum p. 17} {cite:nallino-albatenii-opus-astronomicum p. 40}
+    {cite:nallino-albatenii-opus-astronomicum p. 41}.
+  en: Muhammad ibn Jabir al-Battani's zij in fifty-seven chapters with tables, gathering his observations of the Sun and Moon
+    at al-Raqqa and Antioch and correcting their motions and those of the five planets from Ptolemy; translated into Latin
+    and Castilian, with sources indicating a first version before 288 AH and a second carrying Antioch observations of January
+    and August 901 CE {cite:nallino-albatenii-opus-astronomicum p. 17} {cite:nallino-albatenii-opus-astronomicum p. 40} {cite:nallino-albatenii-opus-astronomicum
+    p. 41}.
+  ur: محمد بن جابر البتانی کی زیج، ستاون ابواب اور جدولوں پر مشتمل، جس میں رقہ اور انطاکیہ کے ارصاد اور بطلميوس سے حرکات کی
+    تصحیح ہے؛ لاطینی اور قشتالی میں منتقل ہوئی، ماخذ پہلی نقل 288ھ سے پہلے اور دوسری جنوری اور اگست 901ء کے انطاکیہ ارصاد
+    کے ساتھ بتاتے ہیں {cite:nallino-albatenii-opus-astronomicum p. 40} {cite:nallino-albatenii-opus-astronomicum p. 41}۔
+domain: astronomy-instruments
+kind: method
+disciplines:
+- astronomy
+- mathematics
+wings:
+- ideas
+regions:
+- levant-iraq
+periods:
+- period/abbasid-early
+themes:
+- astronomy-and-timekeeping
+- mathematics
+era:
+  origins: abbasid-golden
+  first_attested:
+    edtf: "0900"
+    hijri: "0288"
+    calendar: julian
+    precision: year
+    status: historical
+    derived: true
+    note: Nallino argues the first version predates 288 AH (its start 25 December 900 CE) because Thabit ibn Qurra, who died
+      February 901, cited its chapter 52; the Escorial recension and Plato of Tivoli's translation carry Antioch observations
+      of January and August 901 CE, marking a second version. Not an asserted single composition day.
+    sources:
+    - source/nallino-albatenii-opus-astronomicum
+    - source/zij-sabi-nallino-byblion
+  status_today: transformed
+origin:
+  place: place/raqqa
+  polity: polity/abbasid-caliphate
+  context:
+    ar: سياق الرقة العباسية حيث رصد البتاني مراراً؛ جمع الكتاب أرصاداً من الرقة وأنطاكية على مدى سنين، ولا تعطي المصادر يوماً
+      أو ورشة واحدة للنسخة.
+    en: The Abbasid Raqqa setting where al-Battani observed repeatedly; the book gathers observations from Raqqa and Antioch
+      over years, and sources give no single day or workshop for a version.
+    ur: عباسی رقہ کا سیاق جہاں بتانی نے بار بار رصد کیا؛ کتاب رقہ اور انطاکیہ کے برسوں کے ارصاد جمع کرتی ہے، اور ماخذ کسی
+      ایک دن یا ورکشاپ کی نشاندہی نہیں کرتے۔
+makers:
+- person: person/al-battani
+  role: improver
+  note: Abbasid astronomer (d. 317 AH) whose zij rests on his own observations at Raqqa and Antioch and corrects Ptolemaic
+    parameters; Muslim scholar per sourced biography.
+  sources:
+  - source/tdv-battani-muftuoglu
+  - source/battani-mactutor
+attribution:
+  status: improvement
+  claim:
+    ar: نوع الزيج وطرائق الجداول فلكية قديمة؛ المساهمة الموثقة لزيج البتاني جمع أرصاد جديدة من الرقة وأنطاكية وتصحيح حركات
+      الشمس والقمر والكواكب الخمسة عن المجسطي، لا اختراع الجدول الفلكي نفسه.
+    en: The zij genre and table methods are older astronomy; al-Battani's documented contribution is gathering fresh observations
+      from Raqqa and Antioch and correcting the motions of the Sun, Moon and five planets from the Almagest - not the invention
+      of the astronomical table itself.
+    ur: زیج کی صنف اور جدولی طریقے قدیم فلکیات ہیں؛ بتانی کا مستند حصہ رقہ اور انطاکیہ کے نئے ارصاد جمع کرنا اور المجسطي سے
+      سورج، چاند اور پانچ سیاروں کی حرکات کی تصحیح ہے - فلکی جدول کی ایجاد نہیں۔
+  basis:
+    ar: يعرض ملخص العمل سبعة وخمسين باباً وجداول وأرصاداً للشمس والقمر في الرقة وأنطاكية وتصحيحاً لحركاتهما وحركات الكواكب
+      الخمسة كما في المجسطي؛ ونالينو يبين نسختين زمنيتين. هذا عمل تحسيني داخل تقليد الزيج، لا أصل النوع.
+    en: The work summary records fifty-seven chapters with tables, Sun and Moon observations at Raqqa and Antioch, and corrections
+      of their motions and the five planets' motions as given in the Almagest; Nallino distinguishes two chronological versions.
+      This is an improvement inside the zij tradition, not an original genre.
+    ur: کام کا خلاصہ ستاون ابواب، جدول، رقہ و انطاکیہ کے ارصاد اور المجسطي کے مقابلے میں حرکات کی تصحیح بتاتا ہے؛ نالینو دو
+      نسخے زمانے کے لحاظ سے الگ کرتا ہے۔ یہ زیج کی روایت میں بہتری ہے، صنف کی ایجاد نہیں۔
+precursors:
+- external:
+    ar: المجسطي لبطلميوس والزيجات السابقة عليه، التي صحّح البتاني ثوابتها بأرصدته الجديدة
+    en: Ptolemy's Almagest and earlier zijes, whose constants al-Battani corrected with his new observations
+    ur: بطلميوس کا المجسطي اور اس سے پہلے کی زیجیں، جن کے مقررہ اعداد بتانی نے اپنے نئے ارصاد سے درست کیے
+  note: The zij's own record carries a relies_on edge to work/al-majisti; the correction-by-observation relationship is documented
+    in the work summary and Nallino's edition.
+  sources:
+  - source/nallino-albatenii-opus-astronomicum
+  - source/zij-sabi-nallino-byblion
+dependents:
+- external:
+    ar: ترجمة أفلاطون التيفولي اللاتينية والنسخة القشتالية، وشرح البيروني «جلاء الأذهان في زيجه»، وكلها نتاج قراءة لاحقة للزيج
+    en: Plato of Tivoli's Latin translation and the Castilian version, plus al-Biruni's reported commentary Jala' al-adhhan,
+      all later readings of the zij
+    ur: افلاطون ٹیویلوی کا لاطینی ترجمہ اور قشتالی نسخہ، نیز البیرونی کی «جلاء اذہان» تمام بعد کے مطالعے ہیں
+  note: 'Work-level ties already exist: work/al-zij-al-sabi translated_as work/de-motu-stellarum-plato-tiburtinus and has_commentary
+    work/jala-al-adhhan-fi-zij-al-battani. The invention-level dependent is the later zij tradition that inherited its corrected
+    parameters.'
+  sources:
+  - source/nallino-albatenii-opus-astronomicum
+  - source/zij-sabi-nallino-byblion
+spread: []
+impact:
+  fields:
+  - mathematics
+  - astronomy-instruments
+  changed:
+    ar: حوّل أرصاداً عربية جديدة إلى مرجع حسابي موحد لمواضع الكواكب والكسوف والخسوف والمواقيت، وصحّح ثوابت بطلميوس حيث خالفته
+      المشاهدات.
+    en: Turned fresh Arabic observations into a unified computational reference for planetary positions, eclipses and timekeeping,
+      correcting Ptolemaic constants where observations disagreed.
+    ur: نئے عربی ارصاد کو سیاروں کے مقام، گرہنوں اور اوقات کے حساب کے لیے ایک متحد عددی ماخذ بنایا، اور مشاہدات کی بنیاد پر
+      بطلميوس کے مقررہ اعداد کی تصحیح کی۔
+  history:
+    ar: أثبت أن الزيج يمكن أن يقوم على أرصاد محلية جديدة لا على النقل وحده، وفتح طريق التصحيح الرصدي الذي اتبعته الزيجات اللاحقة.
+    en: Showed a zij could rest on new local observations rather than transmission alone, opening the observational-correction
+      path later zijes followed.
+    ur: دکھایا کہ زیج محض ترسیل پر نہیں بلکہ نئے مقامی ارصاد پر بھی بن سکتی ہے، اور وہ راہ کھولی جس پر بعد کی زیجیں گئیں۔
+  significance: 5
+  why: A named zij of fifty-seven chapters with its own observation programme, the standard Muslim astronomical handbook transmitted
+    into Latin and Castilian; the rating reflects its documented role in the zij tradition, not invention of the genre.
+described_in:
+- work/al-zij-al-sabi
+examples: []
+sites:
+- place/raqqa
+- place/antioch
+concepts:
+- concept/zij
+today:
+  form:
+    ar: لا يُحسب اليوم بالزيج الصابي؛ لكنه محفوظ نصاً في طبعة نالينو وبترجمة أفلاطون، وقراءته تُظهر كيف بُنيت جداول الفلك
+      الإسلامي.
+    en: Nobody computes with al-Zij al-Sabi today, but it survives in Nallino's edition and Plato's translation, and reading
+      it shows how Islamic astronomical tables were built.
+    ur: آج کوئی زیج الصابی سے حساب نہیں کرتا، لیکن یہ نالینو کے ایڈیشن اور افلاطون کے ترجمے میں محفوظ ہے، اور پڑھنے سے معلوم
+      ہوتا ہے کہ اسلامی فلکی جداول کیسے بنے۔
+  descendants:
+    ar: أثرت جداوله في الزيجات اللاحقة وفي الترجمة اللاتينية التي قرأها علماء أوروبا؛ ولا يوجد خط إنتاجي مباشر منها إلى الحاسبات
+      الحديثة.
+    en: Its tables influenced later zijes and the Latin translation read by European scholars; there is no direct production
+      line from it to modern computers.
+    ur: اس کے جداول بعد کی زیجوں اور لاطینی ترجمے پر اثر انداز ہوئے جسے یورپی علماء نے پڑھا؛ اس سے جدید کمپیوٹروں تک کوئی
+      سیدھا تسلسل نہیں۔
+media:
+  image: media/photo-battani-zij-phases
+  diagram: media/diagram-battani-zij-sabi
+kids:
+  ar: 'تخيّل كتاباً فلكياً قديماً فيه ٥٧ باباً: البتاني، عالم مسلم من الرقة، قاس مكان الشمس والقمر مراراً بعيونه وآلاته، ثم
+    صحّح أرقام كتاب بطلميوس القديم وكتب كل شيء في جداول. سمّاه الناس «زيج البتاني»، ونُقل إلى لغات أوروبا فقرأه العلماء هناك.'
+  en: 'Imagine an old astronomy book with 57 chapters: al-Battani, a Muslim scientist from Raqqa, measured the Sun and Moon''s
+    positions again and again with his own eyes and instruments, then corrected the numbers in Ptolemy''s ancient book and
+    wrote everything in tables. People called it ''al-Battani''s Zij'', and it was carried into European languages so scholars
+    there could read it.'
+  ur: 'سوچو ایک پرانا فلکیاتی کتاب جس میں 57 ابواب ہیں: بتانی، رقہ کا ایک مسلمان عالم، نے اپنے آنکھوں اور آلات سے سورج اور
+    چاند کے مقامات بار بار ناپیں، پھر بطلميوس کی پرانی کتاب کے نمبر ٹھیک کیے اور سب کچھ جداول میں لکھا۔ لوگوں نے اسے «زیج
+    البتانی» کہا، اور یہ یورپی زبانوں میں پہنچا تاکہ وہاں کے علماء اسے پڑھ سکیں۔'
+sources:
+- source/nallino-albatenii-opus-astronomicum
+- source/zij-sabi-nallino-byblion
+- source/tdv-battani-muftuoglu
+- source/battani-mactutor
+- source/commons-battani-zij-phases
+status:
+  review: published
+  completeness: 3
+  generated_by: Devin drafter w2-06
+provenance:
+  layer: own-research
+  generated_by: Devin drafter w2-06
+  model: devin
+  run: inventions-w2-06
+  source: Nallino Opus astronomicum (scan pp. 17, 40, 41; Arabic text p. 870; Latin print p. 59), Byblion reprint, TDV Battani
+    biography, MacTutor Battani page; work/al-zij-al-sabi record relations.

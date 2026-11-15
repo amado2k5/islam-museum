@@ -1,0 +1,19 @@
+id: media/diagram-battani-solstice-obliquity
+class: media
+kind: illustration
+label: { ar: "من قيمة بطلميوس إلى قياس البطاني للانحراف", en: "From Ptolemy's value to al-Battani's obliquity measurement", ur: "بطلميوس کی قیمت سے بطانی کی رجحان کی پیمائش تک" }
+summary:
+  ar: "سلسلة تعليمية تبين وراثة بطلميوس وقياس المأمون المقيس واشتقاق البطاني الموسمي؛ لا تثبت أسبقية أولى."
+  en: "A teaching chain showing Ptolemy's inheritance, al-Ma'mun's tested measurement and al-Battani's seasonal derivation; it claims no absolute priority."
+  ur: "تدریسی سلسلہ جو بطلميوس کی وراثت، مامون کی پیمائش اور بطانی کا موسمی استنباط دکھاتا ہے؛ مطلق سبقت کا دعویٰ نہیں۔"
+license: CC0
+creator: "islam.museum"
+depicts: [invention/battani-solstice-obliquity]
+alt:
+  ar: "قيمة بطلميوس ٢٣°٥١′، ثم قياس المأمون المقيس نحو ٢٣°٣٥′، ثم اشتقاق البطاني من فصول السنة؛ بلا سهم إلى أجهزة حديثة."
+  en: "Ptolemy's 23°51′, al-Ma'mun's tested ~23°35′, then al-Battani's derivation from the seasons; no arrow to modern instruments."
+  ur: "بطلميوس کی 23°51′، مامون کی پیمائش ~23°35′، پھر بطانی کا فصول سے استنباط؛ جدید آلات کی طرف کوئی تیر نہیں۔"
+generated: { tool: "site/src/components/InventionDiagram.astro (generic chain drawn at build time)", version: "1", date: "2026-11-15" }
+sources: [source/tdv-battani-muftuoglu, source/farghani-elements-astronomy]
+status: { review: published, completeness: 2, generated_by: "Devin drafter w2-02" }
+provenance: { layer: own-research, generated_by: "Devin drafter w2-02", model: "devin", run: "inventions-w2-02", source: "Generic relationship diagram for the obliquity-measurement lineage; not a reconstruction of historical instruments." }

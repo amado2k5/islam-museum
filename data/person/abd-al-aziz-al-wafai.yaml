@@ -10,17 +10,29 @@ themes: [astronomy-and-timekeeping]
 regions: [egypt-nile]
 gender: male
 roles: [scholar]
+faith:
+  - value: sunni
+    basis: documented
+    note: "Documented service as muwaqqit (mosque timekeeper) at the Mu'ayyad Mosque in Mamluk Cairo per the Azhar catalogue; the catalogue and auction literature describe him only in an Islamic scholarly context. Sunni is the museum's default frame for a documented Mamluk-era Sunni-polity milieu; no personal madhhab declaration is attested in the sources read."
+    sources: [source/bibalex-azhar-astronomy-manuscripts-2006, source/oriental-art-auctions-dairat-muaddil]
 periods: [period/crusades-ayyubid-mamluk]
 born: { edtf: "1408", hijri: "0811", calendar: julian, precision: year, status: historical, derived: true, sources: [source/bibalex-azhar-astronomy-manuscripts-2006] }
 died: { edtf: "1474", hijri: "0879", calendar: julian, precision: year, status: historical, derived: true, sources: [source/bibalex-azhar-astronomy-manuscripts-2006] }
 relations:
   - { type: authored, target: work/risala-fi-dairat-al-muaddil, sources: [source/bibalex-azhar-astronomy-manuscripts-2006] }
   - { type: lived_in, target: place/cairo, sources: [source/bibalex-azhar-astronomy-manuscripts-2006] }
-sources: [source/bibalex-azhar-astronomy-manuscripts-2006]
+inventions:
+  - invention: invention/dairat-al-muaddil
+    role: inventor
+    note: "Instrument literature and the auction record credit him with inventing da'irat al-mu'addil; his surviving treatise describes it."
+    sources: [source/oriental-art-auctions-dairat-muaddil, source/bibalex-azhar-astronomy-manuscripts-2006]
+sources: [source/bibalex-azhar-astronomy-manuscripts-2006, source/oriental-art-auctions-dairat-muaddil]
 provenance:
   layer: own-research
   source: "source/bibalex-azhar-astronomy-manuscripts-2006 scan pp. 24"
   generated_by: "Claude Code (OCR-harvest worker I)"
   model: claude-opus-5-5
   run: ocr-harvest-2026-11-04
+  extensions:
+    - { generated_by: "Devin drafter w2-06", model: "devin", run: "inventions-w2-06", source: "Added documented Sunni faith block and an inventor invention tie to invention/dairat-al-muaddil, extending sources with the Oriental Art Auctions ART3004238 object page, after reading the Azhar catalogue pp. 24-25 and the auction record on 2026-11-15; earlier provenance, dates and relations preserved." }
 status: { review: published, completeness: 2 }

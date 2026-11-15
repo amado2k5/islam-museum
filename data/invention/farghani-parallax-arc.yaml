@@ -1,0 +1,163 @@
+id: invention/farghani-parallax-arc
+class: invention
+label:
+  ar: قياس الفرغاني لاختلاف المنظر في مواضع الكواكب
+  en: al-Farghani's account of parallax in planetary positions
+  ur: سیاروں کے مقامات میں فرغانی کا اختلافِ منظر بیان
+names:
+- kind: alternate
+  lang: en
+  value: al-Farghani's deviation-of-vision calculation
+- kind: alternate
+  lang: ar
+  value: انحراف المنظر عند الفرغاني
+summary:
+  ar: يعالج الفرغاني في فصول مبكرة من جوامع علم النجوم اختلاف المنظر بين موضع الجرم كما يُرى من سطح الأرض وموضعه الحقيقي،
+    فيبين قوس الانحراف من دائرة الارتفاع ويعطي أقصى ما يجتمع له من الانحراف للقمر نحو درجة وأربع دقائق في الطول، ويعلل أن
+    الكواكب العلوية فوق الشمس لا يحس لها من هذا الانحراف شيء، وأن أقصى ما يجتمع للشمس عند الأفق ثلث دقيقة لا يحس بالقباس {cite:farghani-elements-astronomy
+    p. 27}{cite:farghani-elements-astronomy p. 28}.
+  en: In early chapters of his Jawami' al-Farghani treats the difference between a body's position as seen from the earth's
+    surface and its true position, derives the arc of deviation from the vertical circle, and gives the largest deviation
+    for the Moon as about one degree four minutes in longitude; he explains that the superior planets above the Sun have no
+    perceptible deviation and that the Sun's own maximum at the horizon is about a third of a minute, imperceptible to measure
+    {cite:farghani-elements-astronomy p. 27}{cite:farghani-elements-astronomy p. 28}.
+  ur: جوامع کے ابتدائی ابواب میں فرغانی زمین کی سطح سے نظر آنے والے اور حقیقی مقام کے فرق کو بیان کرتے ہیں، سمت الرأسی کے
+    دائرے سے انحراف کا قوس نکالتے ہیں، اور چاند کے لیے زیادہ سے زیادہ انحراف تقریباً ایک ڈگری چار منٹ بتاتے ہیں؛ وہ واضح کرتے
+    ہیں کہ سورج سے اوپر کے سیاروں کا یہ انحراف محسوس نہیں ہوتا اور سورج کا حداکثر افق پر تقریباً ایک تہائی منٹ ہے جو پیمائش
+    سے محسوس نہیں ہوتا {cite:farghani-elements-astronomy p. 27}{cite:farghani-elements-astronomy p. 28}۔
+domain: astronomy-instruments
+kind: method
+disciplines:
+- astronomy
+- mathematics
+wings:
+- ideas
+regions:
+- levant-iraq
+periods:
+- period/abbasid-early
+era:
+  origins: abbasid-golden
+  first_attested:
+    edtf: ../0861
+    calendar: julian
+    precision: year
+    status: historical
+    note: 'Open latest bound only: TDV reports al-Farghani''s death after 247/861; the chapters'' composition date is not
+      established and this is not an asserted writing year. Printed figures in the OCR need visual check against the scan
+      before being treated as final.'
+    sources:
+    - source/tdv-fergani-kaya
+  status_today: transformed
+origin:
+  place: place/samarra
+  context:
+    ar: فصول من كتاب الفرغاني في الحركات السماوية ضمن بلاط الخلافة العباسية بسامرا، لا تاريخ تأليف محدد.
+    en: Chapters of al-Farghani's treatise on celestial motions within the Abbasid caliphal milieu of Samarra; no exact composition
+      date is attested.
+    ur: سامرا کے عباسی دربار میں فرغانی کی آسمانی حرکات کی کتاب کے ابواب؛ تالیف کی کوئی متعین تاریخ منقول نہیں۔
+makers:
+- person: person/al-farghani
+  role: describer
+  note: Describes the surface-versus-centre deviation with computed maxima inside his Arabic summary; Muslim basis is Iranica's
+    'Muslim astronomer' classification and TDV's Abbasid-court biography, with Sunni the museum default frame.
+  sources:
+  - source/farghani-elements-astronomy
+  - source/tdv-fergani-kaya
+  - source/iranica-fargani-ahmad
+attribution:
+  status: transmission
+  claim:
+    ar: وصف حسابي لاختلاف المنظر بأرقامه القصوى داخل ملخص عربي مؤثر، لا اكتشاف الأثر المنظوري نفسه.
+    en: A computational description of parallax with its maximum figures inside an influential Arabic summary, not the discovery
+      of the parallax effect itself.
+    ur: مؤثر عربی خلاصے کے اندر حداکثری اعداد کے ساتھ اختلافِ منظر کی حسابی وضاحت، اختلافِ منظر کے اثر کی دریافت نہیں۔
+  basis:
+    ar: يفسر الفرغاني قوس الانحراف من دايرة الارتفاع ويعطي للقمر نحو درجة وأربع دقائق في الطول عند أقرب أفلاكه، وللزهر وعطارد
+      والقمر انحرافاً محسوساً، ويقول إنه لا يوجد للكوكب العلوية فوق الشمس من هذا الانحراف شيء {cite:farghani-elements-astronomy
+      p. 27}{cite:farghani-elements-astronomy p. 28}.
+    en: al-Farghani derives the deviation arc from the vertical circle, gives the Moon about one degree four minutes in longitude
+      at its nearest orbit, finds a perceptible deviation for Venus, Mercury and the Moon, and says the superior planets above
+      the Sun have none {cite:farghani-elements-astronomy p. 27}{cite:farghani-elements-astronomy p. 28}.
+    ur: فرغانی سمت الرأسی کے دائرے سے انحراف کا قوس نکالتے ہیں، چاند کے قریب ترین دائرے میں طول پر تقریباً ایک ڈگری چار منٹ
+      بتاتے ہیں، زہرہ، عطارد اور چاند کے لیے محسوس ہونے والا انحراف پاتے ہیں، اور کہتے ہیں کہ سورج سے اوپر کے سیاروں کا ایسا
+      انحراف نہیں {cite:farghani-elements-astronomy p. 27}{cite:farghani-elements-astronomy p. 28}۔
+  perspectives: []
+precursors:
+- external:
+    ar: معالجة المنظر واختلافه في فلك بطليموس وما قبله
+    en: Treatments of the parallax effect in Ptolemy's astronomy and earlier traditions
+    ur: بطلیموس کی فلکیات اور پہلے کی روایات میں اختلافِ منظر کے مباحث
+  note: The parallax effect itself is ancient; the treatise transmits a computational description into Arabic.
+  sources:
+  - source/farghani-elements-astronomy
+dependents:
+- external:
+    ar: كتب الفلك العربية واللاتينية التي نقلت عن جوامع علم النجوم
+    en: Arabic and Latin astronomical books that drew on the Jawami'
+    ur: جوامع علم النجوم سے مستفید عربی اور لاطینی فلکی کتابیں
+  note: TDV documents Latin translations of 1134 and 1175 and European use into the fifteenth century; the early chapters
+    fed observational correction practice.
+  sources:
+  - source/tdv-fergani-kaya
+spread: []
+impact:
+  fields:
+  - astronomy-instruments
+  - mathematics
+  changed:
+    ar: ثبّت في العربية حساباً لفرق المنظر بين السطح ومركز الأرض بأرقامه القصوى، فغذّى تصحيح مواقع الأجرام القريبة.
+    en: Fixed in Arabic a computation of the surface-versus-centre viewing difference with its maxima, feeding corrections
+      of nearby bodies' positions.
+    ur: سطح اور مرکزِ زمین کے درمیان نظر کے فرق کا حساب اور اس کی حداکثری قدریں عربی میں مقرر کیں جس سے قریبی اجرام کے مقامات
+      کی اصلاح کو تقویت ملی۔
+  history:
+    ar: جزء من كتاب أثّر في فلك أوروبا من القرن الثاني عشر إلى نهاية الخامس عشر وفق معجم TDV {cite:tdv-fergani-kaya transmission}.
+    en: Part of a book that influenced European astronomy from the twelfth to the end of the fifteenth century, per TDV {cite:tdv-fergani-kaya
+      transmission}.
+    ur: ایسی کتاب کا حصہ جس نے بارہویں سے پندرہویں صدی کے آخر تک یورپی فلکیات پر اثر ڈالا، TDV کے مطابق {cite:tdv-fergani-kaya
+      transmission}۔
+  significance: 2
+  why: A documented computational account of an ancient effect inside an influential textbook; bounded because neither the
+    effect nor its figures are new to this tradition.
+described_in:
+- work/jawami-ilm-al-nujum
+examples: []
+sites: []
+concepts:
+- concept/ikhtilaf-al-manzar
+today:
+  form:
+    ar: مفهوم رياضي-فلكي حي يُقاس اليوم بدقة أكبر بكثير.
+    en: A living mathematical-astronomical concept now measured far more precisely.
+    ur: آج بہت زیادہ درستگی سے ماپا جانے والا زندہ ریاضیاتی-فلکی تصور۔
+  descendants:
+    ar: قياسات اختلاف المنظر الحديثة في الفلك النجمي لا تدّعي نسباً مباشراً إلى هذه الأرقام القديمة.
+    en: Modern parallax measurements in astrophysics claim no direct descent from these old figures.
+    ur: جدید فلکیات میں اختلافِ منظر کی پیمائشیں ان پرانے اعداد سے براہ راست نسب کا دعویٰ نہیں کرتیں۔
+media:
+  image: media/parallax-proper-motion-context
+  diagram: media/diagram-farghani-parallax-arc
+kids:
+  ar: كلما نظرنا إلى القمر من مكان مختلف على الأرض بدا في موضع مختلف قليلاً؛ هذا الفرق الصغير كان يحتاج حساباً قديماً لتصحيح
+    المواقع.
+  en: Seen from different places on Earth the Moon seems to sit in a slightly different spot; that small difference needed
+    an old calculation to correct positions.
+  ur: زمین کی مختلف جگہوں سے دیکھنے پر چاند تھوڑے سے مختلف مقام پر نظر آتا ہے؛ مقامات کی اصلاح کے لیے اس معمولی فرق کو پرانے
+    حساب کی ضرورت تھی۔
+sources:
+- source/farghani-elements-astronomy
+- source/tdv-fergani-kaya
+- source/iranica-fargani-ahmad
+- source/commons-parallax-proper-motion
+status:
+  review: published
+  completeness: 3
+  generated_by: Devin (SWE-2 High)
+provenance:
+  layer: own-research
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: inventions-w2
+  source: Arabic and Latin OCR of the 1669 Golius edition read at the cited PDF pages (figures flagged as OCR readings); TDV
+    FERGANI article and Encyclopaedia Iranica excerpt read 2026-11-15; Commons parallax file metadata checked.
