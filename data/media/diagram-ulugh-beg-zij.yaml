@@ -1,0 +1,19 @@
+id: media/diagram-ulugh-beg-zij
+class: media
+kind: illustration
+label: { ar: "مخطط علاقات السجل", en: "Record relationship chain", ur: "ریکارڈ کا تعلقاتی سلسلہ" }
+summary:
+  ar: "سلسلة علاقات يرسمها الموقع عند البناء؛ ليست إعادة بناء تقنية ولا تعليمات عمل."
+  en: "Build-time relationship chain drawn by the site; not a technical reconstruction or working instructions."
+  ur: "تعمیر کے وقت سائٹ کا بنایا تعلقاتی سلسلہ؛ تکنیکی تعمیر نو یا عملی ہدایات نہیں۔"
+license: CC0
+creator: "islam.museum"
+depicts: [invention/ulugh-beg-zij]
+alt:
+  ar: "سلسلة نصية من الأسلاف إلى السجل إلى ما بُني عليه، ترسم عند البناء."
+  en: "A text chain from precursors to the record to its dependents, drawn at build time."
+  ur: "اسلاف سے ریکارڈ اور اس کے تابعین تک ایک متنی سلسلہ، تعمیر کے وقت بنتا ہے۔"
+generated: { tool: "site/src/components/InventionDiagram.astro (generic chain drawn at build time)", version: "1", date: "2026-11-16" }
+sources: [source/encyclopaedia-of-islam-2]
+status: { review: published, completeness: 2 }
+provenance: { layer: own-research, generated_by: devin-orchestrator-solo, model: SWE-2, run: inventions-w2-23, source: "Published record distinctions; no technical reconstruction" }

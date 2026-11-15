@@ -1,0 +1,109 @@
+id: invention/samarqand-observatory
+class: invention
+label:
+  ar: "مرصد سمرقند لأولوغ بك"
+  en: "Ulugh Beg's Samarqand observatory"
+  ur: "الغ بیگ کی سمرقند رصد خانہ"
+names:
+  - { value: "ulugh beg observatory", kind: alternate, lang: en }
+  - { value: "observatory of samarkand", kind: alternate, lang: en }
+summary:
+  ar: "أنشأ الحاكم-الفلكي أولوغ بك في سمرقند نحو 823هـ/1420م أكبر مرصد معروف في عصره — مؤسسة دائمة برصديين مقيمين وأدوات ضخمة في مقدمتها قوس السدس الفخري — وأنتجت جداول نجمية هي الأدق حتى عصر تيكو براهي. هي نموذج المؤسسة الرصدية التي تلخص قرنين من الفلك الإسلامي."
+  en: "The ruler-astronomer Ulugh Beg founded at Samarqand c. 823 AH/1420 CE the largest known observatory of his age — a permanent institution with resident astronomers and giant instruments, crowned by the Fakhri sextant — whose star tables were the most accurate until Tycho Brahe. It is the model institutional observatory summing two centuries of Islamic astronomy."
+  ur: "حاکم-ماہرِ فلکیات الغ بیگ نے سمرقند میں823ھ/1420ء کے قریب اپنے زمانے کی سب سے بڑی معلوم رصد خانہ قائم کی — مستقل ادارہ جس میں مقیم ماہرینِ فلک اور عظیم آلات تھے، فخری سیکسٹنٹ سب سے نمایاں — جس کے نجومی جدول ٹائکو براہے تک درست ترین تھے۔ یہ ادارہ جاتی رصد خانہ کا وہ نمونہ ہے جو دو صدیوں کی اسلامی فلکیات کو سمیٹتا ہے۔"
+domain: astronomy-instruments
+kind: institution
+disciplines: [astronomy]
+wings: [ideas]
+regions: [persia-central-asia]
+periods: [period/mongol-post-mongol]
+themes: [astronomy-and-timekeeping]
+era:
+  origins: middle-period
+  first_attested:
+    edtf: "1420~"
+    hijri: "0823~"
+    calendar: julian
+    precision: decade
+    status: historical
+    note: "Founded c. 1420 under Ulugh Beg's patronage; MacTutor dates the observatory programme and the Zij to his Samarqand years {cite:mactutor-ulugh-beg}."
+    sources: [source/mactutor-ulugh-beg]
+  status_today: extinct
+origin:
+  place: place/samarqand
+  context:
+    ar: "سمرقند التيمورية، عاصمة علم وعمارة."
+    en: "Timurid Samarqand, capital of learning and building."
+    ur: "تیموری سمرقند، علم اور تعمیر کا دارالحکومت۔"
+makers:
+  - person: person/ulugh-beg
+    role: commissioner
+    note: "Founder-patron and working astronomer; his Muslim identity is recorded on the person record."
+    sources: [source/mactutor-ulugh-beg, source/encyclopaedia-of-islam-2]
+attribution:
+  status: improvement
+  claim:
+    ar: "أكبر مؤسسة رصدية وأكملها في تراثها — بناءً على نموذج المرصد المراغي والبغدادي، لكن بأدوات أكبر وجداول أدق."
+    en: "The largest and most complete observational institution of its heritage — built on the Maragha and Baghdad observatory model, but with bigger instruments and more accurate tables."
+    ur: "اپنے ورثے کا سب سے بڑا اور مکمل ترین رصد ادارہ — مراغہ اور بغداد کے نمونے پر، مگر بڑے آلات اور درست تر جدولوں کے ساتھ۔"
+  basis:
+    ar: "يذكر MacTutor أن مرصد أولوغ بك جمع فريقاً من العلماء وأنتج جداول تجاوزت دقتها ما سبقها حتى عصر تيكو {cite:mactutor-ulugh-beg}."
+    en: "MacTutor records that Ulugh Beg's observatory gathered a team of scholars and produced tables whose accuracy was unsurpassed until Tycho {cite:mactutor-ulugh-beg}."
+    ur: "میک ٹیوٹر لکھتا ہے کہ الغ بیگ کی رصد خانہ نے علماء کی ٹیم جمع کی اور ایسے جدول پیدا کیے جن کی درستی ٹائکو تک بے مثال رہی {cite:mactutor-ulugh-beg}۔"
+precursors:
+  - external:
+      ar: "مرصد مراغة لنصير الدين الطوسي والمراصد العباسية السابقة."
+      en: "The Maragha observatory of Nasir al-Din al-Tusi and the earlier Abbasid observatories."
+      ur: "نصیر الدین طوسی کی مراغہ رصد خانہ اور اس سے پہلے عباسی رصد خانے۔"
+    note: "The institutional-observatory model descends from Maragha; Samarqand is its largest realisation."
+    sources: [source/mactutor-ulugh-beg]
+dependents:
+  - external:
+      ar: "نموذج المرصد-المؤسسة في الحضارة الإسلامية، وقربان تاريخي لمراصد أوروبا الأولى."
+      en: "The institutional-observatory model in Islamic civilisation, and a historical neighbour to Europe's first observatories."
+      ur: "اسلامی تہذیب میں ادارہ جاتی رصد خانہ کا نمونہ، اور یورپ کی پہلی رصد خانوں کا تاریخی ہمسایہ۔"
+    note: "Tycho's Uraniborg stands in the same institutional lineage two centuries later; no direct transmission is claimed."
+    sources: [source/mactutor-ulugh-beg]
+spread: []
+impact:
+  fields: [astronomy-instruments]
+  changed:
+    ar: "حوّل الفلك الرصدي من أعمال مؤقتة إلى مؤسسة دائمة بفريق وأدوات عملاقة."
+    en: "Turned observational astronomy from ad-hoc projects into a permanent institution with a team and giant instruments."
+    ur: "مشاہداتی فلکیات کو عارضی کاموں سے ایک مستقل ادارے میں بدلا جس کی ٹیم اور عظیم آلات تھے۔"
+  history:
+    ar: "آخر وأكبر مراصد العصر الوسيط الإسلامي — ذروة المؤسسة الرصدية قبل النموذج الأوروبي."
+    en: "The last and greatest of medieval Islamic observatories — the peak of the institution before the European model."
+    ur: "قرون وسطیٰ کی اسلامی رصد خانوں میں آخری اور عظیم ترین — یورپی نمونے سے پہلے ادارے کی چوٹی۔"
+  significance: 5
+  why: "The era's largest observatory with documented instruments and output tables still quoted in history of astronomy."
+described_in: []
+examples: []
+sites: [place/samarqand]
+concepts: []
+today:
+  form:
+    ar: "بقايا الموقع — قوس فخري تحت الأرض — محفوظة ومزار في سمرقند، ومعروض في متاحف الفلك."
+    en: "The site's remains — the underground Fakhri arc — are preserved and visited at Samarqand and shown in astronomy museums."
+    ur: "مقام کی باقیات — زیر زمین فخری قوس — سمرقند میں محفوظ اور زیارت کے قابل ہیں اور فلکیاتی عجائب گھروں میں دکھائی جاتی ہیں۔"
+  descendants:
+    ar: "مراصد الدولة الحديثة — مفهوم المؤسسة الرصدية العامة المستقلة."
+    en: "Modern state observatories — the concept of the independent public research observatory."
+    ur: "جدید سرکاری رصد خانے — آزاد عوامی تحقیقی رصد خانہ کا تصور۔"
+media:
+  image: media/photo-jarra-samarqand
+  diagram: media/diagram-samarqand-observatory
+kids:
+  ar: "قبل ستمائة سنة بنى ملك يحب النجوم أكبر مرصد في العالم في سمرقند: آلات ضخمة مثبتة في الأرض تقيس مواضع النجوم بدقة لم يسبقها أحد. اسمه أولوغ بك، وكان يجلس مع علمائه يرصدون الليل بعد الليل حتى صنعوا أدق جدول نجوم في زمانهم."
+  en: "Six hundred years ago a king who loved the stars built the world's biggest observatory at Samarqand: giant instruments fixed in the ground measuring star positions more accurately than anyone before. His name was Ulugh Beg, and he sat with his scholars night after night until they made the most accurate star table of their age."
+  ur: "چھ سو سال پہلے نجوم سے محبت کرنے والے بادشاہ نے سمرقند میں دنیا کی سب سے بڑی رصد خانہ بنائی: زمین میں جڑے عظیم آلات جو ستاروں کی پوزیشنیں پہلے کے کسی سے زیادہ درست ناپتے۔ اس کا نام الغ بیگ تھا، اور وہ اپنے علماء کے ساتھ رات در رات بیٹھ کر رصد کرتا یہاں تک کہ اپنے زمانے کا درست ترین ستاروں کا جدول بنایا۔"
+sources:
+  - source/mactutor-ulugh-beg
+  - source/encyclopaedia-of-islam-2
+status: { review: published, completeness: 2 }
+provenance:
+  layer: own-research
+  generated_by: devin-orchestrator-solo
+  model: SWE-2
+  run: inventions-w2-23
+  source: "MacTutor Ulugh Beg biography, consulted 2026-11-16; EI2 for Timurid context"

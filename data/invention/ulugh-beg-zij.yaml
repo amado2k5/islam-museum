@@ -1,0 +1,109 @@
+id: invention/ulugh-beg-zij
+class: invention
+label:
+  ar: "الزيج السلطاني لأولوغ بك"
+  en: "Ulugh Beg's Zij-i Sultani star catalogue"
+  ur: "الغ بیگ کا زنج سلطانی ستاروں کا جدول"
+names:
+  - { value: "zij-i sultani", kind: alternate, lang: fa }
+  - { value: "gurgani zij", kind: alternate, lang: en }
+summary:
+  ar: "أنتج مرصد سمرقند بقيادة أولوغ بك وفريقه ⁦(الكاشي والرومي)⁩ زيجاً سلطانياً يضم جداول الكواكب وفهرساً لألف وثمانية عشر نجماً بمواضعها — أول فهرس نجمي إسلامي جديد منذ زيج الصوفي، وأدق جداول عصره، بقيت مرجعاً أوروبياً حتى قرنين."
+  en: "Ulugh Beg's Samarqand observatory and his team (al-Kashi, al-Rumi) produced the Sultanic Zij with planetary tables and a catalogue of 1,018 stars with positions — the first new Islamic star catalogue since al-Sufi's zij, and the most accurate tables of their age, remaining a European reference for two centuries."
+  ur: "الغ بیگ کی سمرقند رصد خانہ اور اس کی ٹیم ⁦(کاشی، رومی)⁩ نے سلطانی زنج پیش کیا جس میں سیاروں کے جدول اور1,018 ستاروں کی پوزیشنوں کا فہرست ہے — صوفی کے زنج کے بعد پہلا نیا اسلامی ستارہ فہرست، اور اپنے زمانے کے درست ترین جدول، جو دو صدیوں یورپی مرجع رہے۔"
+domain: astronomy-instruments
+kind: system
+disciplines: [astronomy]
+wings: [ideas]
+regions: [persia-central-asia]
+periods: [period/mongol-post-mongol]
+themes: [astronomy-and-timekeeping]
+era:
+  origins: middle-period
+  first_attested:
+    edtf: "1437~"
+    hijri: "0841~"
+    calendar: julian
+    precision: decade
+    status: historical
+    note: "The Zij was completed c. 1437–1447; MacTutor gives the catalogue and its 1,018 stars {cite:mactutor-ulugh-beg}."
+    sources: [source/mactutor-ulugh-beg]
+  status_today: transformed
+origin:
+  place: place/samarqand
+  context:
+    ar: "سمرقند، مقر المرصد الفخري."
+    en: "Samarqand, seat of the Fakhri observatory."
+    ur: "سمرقند، فخری رصد خانہ کا مرکز۔"
+makers:
+  - person: person/ulugh-beg
+    role: inventor
+    note: "Director and named author of the Zij; al-Kashi and al-Rumi led its computation under him."
+    sources: [source/mactutor-ulugh-beg]
+attribution:
+  status: improvement
+  claim:
+    ar: "فهرس نجمي إسلامي جديد بقياسات رصدية حديثة — تحسين على فهارس بطليموس والصوفي، لا اكتشاف النجوم نفسها."
+    en: "A new Islamic star catalogue on fresh observations — an improvement on the Ptolemaic and al-Sufi catalogues, not a discovery of the stars themselves."
+    ur: "تازہ مشاہدوں پر اسلامی ستاروں کا نیا فہرست — بطلیموسی اور صوفی فہارس پر بہتری، خود ستاروں کی دریافت نہیں۔"
+  basis:
+    ar: "يذكر MacTutor أن الزيج احتوى فهرس 1,018 نجماً بقياسات مرصد سمرقند، وأن دقته فاقت ما سبق حتى عصر تيكو {cite:mactutor-ulugh-beg}."
+    en: "MacTutor records that the Zij held a catalogue of 1,018 stars measured at Samarqand, and that its accuracy exceeded all before it until Tycho {cite:mactutor-ulugh-beg}."
+    ur: "میک ٹیوٹر لکھتا ہے کہ زنج میں سمرقند کی پیمائش پر1,018 ستاروں کا فہرست تھا، اور اس کی درستی ٹائکو تک سب سے بڑھ کر رہی {cite:mactutor-ulugh-beg}۔"
+precursors:
+  - external:
+      ar: "فهرس بطليموس النجمي وزيج الصوفي ⁦(صور الكواكب)⁩ — الجدولان السابقان اللذان قيس عليهما."
+      en: "Ptolemy's star catalogue and al-Sufi's zij — the two previous catalogues it measured against."
+      ur: "بطلیموس کا ستارہ فہرست اور صوفی کا زنج — دو سابقہ فہارس جن سے اس نے ناپا۔"
+    note: "The catalogue is explicitly a re-measurement of the inherited list."
+    sources: [source/mactutor-ulugh-beg]
+dependents:
+  - external:
+      ar: "اعتماد فلكيي أوروبا على جداول الزيج في القرنين السادس عشر والسابع عشر."
+      en: "European astronomers' reliance on the Zij's tables in the sixteenth and seventeenth centuries."
+      ur: "سولہویں اور سترہویں صدی میں یورپی ماہرینِ فلک کا زنج جدولوں پر انحصار۔"
+    note: "The Zij circulated in European oriental collections and was consulted into the age of Tycho."
+    sources: [source/mactutor-ulugh-beg]
+spread: []
+impact:
+  fields: [astronomy-instruments]
+  changed:
+    ar: "رفع دقة جداول النجوم إلى مستوى لم يسبقه إلا تيكو براهي بعد قرنين."
+    en: "Raised star-table accuracy to a level matched only by Tycho Brahe two centuries later."
+    ur: "ستاروں کے جدولوں کی درستی اس مقام تک بڑھائی جہاں صرف ٹائکو براہے دو صدیاں بعد پہنچا۔"
+  history:
+    ar: "آخر ذروة في سلسلة الزيج الإسلامية — من بطليموس إلى الصوفي إلى أولوغ بك."
+    en: "The final peak of the Islamic zij tradition — from Ptolemy to al-Sufi to Ulugh Beg."
+    ur: "اسلامی زنج روایت کی آخری چوٹی — بطلیموس سے صوفی سے الغ بیگ تک۔"
+  significance: 5
+  why: "The age's most accurate star tables, cited as the pre-Tycho benchmark in the history of astronomy."
+described_in: []
+examples: []
+sites: [place/samarqand]
+concepts: []
+today:
+  form:
+    ar: "يبقى الزيج مصدراً تاريخياً؛ نسخه المخطوطة في مكتبات العالم، ومواضعه تقارن اليوم بالقيم الفلكية الحديثة."
+    en: "The Zij remains a historical source; its manuscripts sit in world libraries, and its positions are compared today to modern values."
+    ur: "زنج ایک تاریخی ماخذ رہ گیا؛ اس کے مخطوطے دنیا کی لائبریریوں میں ہیں، اور اس کی پوزیشنیں آج جدید قدروں سے ناپی جاتی ہیں۔"
+  descendants:
+    ar: "فهارس النجوم الحديثة — غايا وهيبارخوس — تفوق بدقة القياس الفضائي لكنها نفس المشروع: سماء مفهرسة."
+    en: "Modern star catalogues — Gaia, Hipparcos — exceed it by space measurement, but it is the same project: a catalogued sky."
+    ur: "جدید ستارہ فہارس — گایا، ہپارخوس — خلائی پیمائش سے آگے ہیں، مگر یہ وہی منصوبہ ہے: فہرست شدہ آسمان۔"
+media:
+  image: media/photo-jarra-samarqand
+  diagram: media/diagram-ulugh-beg-zij
+kids:
+  ar: "قبل ستمائة سنة، أراد عالم اسمه أولوغ بك أن يعرف مواضع كل النجوم بدقة. بنى أعظم مرصد في سمرقند، وقاس هو وفريقه ألفاً وثمانية عشر نجماً — فصار جدولهم أدق ما صُنع في زمانهم، وبقي مرجعاً لمئتي سنة."
+  en: "Six hundred years ago, a scholar named Ulugh Beg wanted to know every star's exact place. He built the greatest observatory at Samarqand, and with his team measured 1,018 stars — making the most accurate table of their age, and a reference for two hundred years."
+  ur: "چھ سو سال پہلے، الغ بیگ نامی عالم نے ہر ستارے کی ٹھیک جگہ جاننا چاہی۔ اس نے سمرقند میں عظیم ترین رصد خانہ بنائی، اور اپنی ٹیم کے ساتھ1,018 ستارے ناپے — اور ان کا جدول اپنے زمانے کا درست ترین بنا اور دو سو سال مرجع رہا۔"
+sources:
+  - source/mactutor-ulugh-beg
+  - source/encyclopaedia-of-islam-2
+status: { review: published, completeness: 2 }
+provenance:
+  layer: own-research
+  generated_by: devin-orchestrator-solo
+  model: SWE-2
+  run: inventions-w2-23
+  source: "MacTutor Ulugh Beg biography, consulted 2026-11-16"

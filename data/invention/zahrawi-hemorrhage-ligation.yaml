@@ -1,0 +1,110 @@
+id: invention/zahrawi-hemorrhage-ligation
+class: invention
+label:
+  ar: "ربط الأوعية النازفة عند الزهراوي"
+  en: "Al-Zahrawi's vessel ligation for haemorrhage"
+  ur: "الزہراوی کی نالی بند خون روکنے کا طریقہ"
+names:
+  - { value: "arterial ligation", kind: alternate, lang: en }
+  - { value: "haemorrhage control of al-Tasrif", kind: alternate, lang: en }
+summary:
+  ar: "يوصي «التصريف» بربط الأوعية الدموية النازفة بالخيط — ربط الشريان — لوقف النزيف في العمليات الكبرى، بديلاً عن الاعتماد على الكيّ وحده؛ وهي أقدم توصية جراحية مقروءة بالربط الوريدي/الشرياني وتبقى أساس إيقاف النزف الحديث."
+  en: "Al-Tasrif recommends tying bleeding vessels with thread — arterial ligation — to stop haemorrhage in major operations, an alternative to cautery alone; it is the earliest surgical recommendation of vessel ligation in the texts read and remains the basis of modern bleeding control."
+  ur: "التصریف بڑے عملوں میں خون بہنے والی نالیوں کو دھاگے سے باندھنے — شریان کا ربط — کی ہدایت دیتی ہے، صرف داغ پر انحصار کے بدلے؛ پڑھے گئے متون میں نالی باندھنے کی قدیم ترین جراحی سفارش اور جدید خون کنٹرول کی بنیاد۔"
+domain: medicine-surgery
+kind: technique
+disciplines: [medicine]
+wings: [ideas]
+regions: [andalus-europe]
+periods: [period/buyid-seljuk-fatimid-era]
+themes: [medicine]
+era:
+  origins: middle-period
+  first_attested:
+    edtf: "1000"
+    hijri: "0390"
+    calendar: julian
+    precision: century
+    status: historical
+    note: "Al-Tasrif dates to al-Zahrawi's lifetime (d. c. 1013 CE); Spink & Lewis's edition records the ligation instruction {cite:zahrawi-spink-lewis-1973}."
+    sources: [source/zahrawi-spink-lewis-1973]
+  status_today: transformed
+origin:
+  place: place/cordoba
+  context:
+    ar: "قرطبة الأموية."
+    en: "Umayyad Cordoba."
+    ur: "اموی قرطبہ۔"
+makers:
+  - person: person/al-zahrawi
+    role: inventor
+    note: "Documented in al-Tasrif; his Muslim identity is recorded on the person record."
+    sources: [source/zahrawi-spink-lewis-1973, source/tdv-tasrif-zehravi]
+attribution:
+  status: original
+  claim:
+    ar: "أقدم نص جراحي مقروء يوصي بربط الأوعية النازفة خيطاً — تقنية إيقاف النزف قبل الكيّ."
+    en: "The earliest surgical text read recommending thread-ligation of bleeding vessels — haemorrhage control before cautery."
+    ur: "پڑھا گیا قدیم ترین جراحی متن جو بہتی نالیوں کو دھاگے سے باندھنے کی سفارش کرتا ہے — داغ سے پہلے خون بند کرنے کی تکنیک۔"
+  basis:
+    ar: "تنص طبعة Spink & Lewis للجزء الجراحي على تعليم الربط لإيقاف النزف {cite:zahrawi-spink-lewis-1973}."
+    en: "Spink & Lewis's edition of the surgical treatise states the ligation instruction for stopping haemorrhage {cite:zahrawi-spink-lewis-1973}."
+    ur: "Spink & Lewis کی طباعت جراحی مقالے میں خون روکنے کے لیے ربط کی ہدایت بیان کرتی ہے {cite:zahrawi-spink-lewis-1973}۔"
+precursors:
+  - external:
+      ar: "الكيّ بالنار والضغط لإيقاف النزيف في الطب القديم — تقنيات أعمّ وأخطر."
+      en: "Fire cautery and compression for bleeding in ancient medicine — broader and riskier techniques."
+      ur: "قدیم طب میں خون کے لیے داغ اور دباؤ — زیادہ عمومی اور خطرناک تکنیکیں۔"
+    note: "Bleeding control existed; the specific thread-ligation of vessels is the documented step."
+    sources: [source/zahrawi-spink-lewis-1973]
+dependents:
+  - external:
+      ar: "ربط الشريان الحديث — من باريه إلى مشابك العمليات وخيوط اليوم."
+      en: "Modern arterial ligation — from Paré to today's vessel clips and sutures."
+      ur: "جدید شریان کا ربط — پارے سے آج کی نالی کلپوں اور سلائیوں تک۔"
+    note: "Paré's sixteenth-century revival of ligation is the famous landmark; al-Tasrif's earlier text is the record's depth."
+    sources: [source/zahrawi-spink-lewis-1973]
+spread: []
+impact:
+  fields: [medicine-surgery]
+  changed:
+    ar: "قدّم بديلاً أدقّ عن الكيّ العام — ربط الوعاء ذاته — فقلّل النزيف دون إحراق النسيج المحيط."
+    en: "Offered a more precise alternative to general cautery — tying the vessel itself — reducing bleeding without burning surrounding tissue."
+    ur: "عام داغ کے بدلے زیادہ صحیح راستہ دیا — خود نالی باندھنا — آس پاس کے ٹشو جلائے بغیر خون کم کیا۔"
+  history:
+    ar: "أقدم شاهد مقروء على إيقاف النزف بالربط — الفكرة التي أعادها باريه بعد خمسة قرون."
+    en: "The earliest read witness to ligation bleeding control — the idea Paré revived five centuries later."
+    ur: "ربط سے خون روکنے کی پڑھی ہوئی قدیم ترین گواہی — وہ خیال جو پارے نے پانچ صدیوں بعد دوبارہ زندہ کیا۔"
+  significance: 4
+  why: "A documented haemorrhage-control technique with a famous later revival; firstness is textual."
+described_in: [work/al-tasrif-fi-al-tibb]
+examples: []
+sites: [place/cordoba]
+concepts: []
+today:
+  form:
+    ar: "يبقى الربط — بخيوط أو مشابك تيتانيوم — قاعدة إيقاف النزف في كل غرفة عمليات."
+    en: "Ligation — by sutures or titanium clips — remains the rule of bleeding control in every operating room."
+    ur: "ربط — سلائیوں یا ٹائٹینیم کلپوں سے — ہر آپریشن روم میں خون کنٹرول کا اصول رہتا ہے۔"
+  descendants:
+    ar: "كل تقنية إيقاف نزف بالربط أو الإطباق الحديثة."
+    en: "Every modern ligation or vessel-clipping haemorrhage technique."
+    ur: "ہر جدید ربط یا نالی بند کرنے کی تکنیک۔"
+media:
+  image: media/zahrawi-instruments-context
+  diagram: media/diagram-zahrawi-hemorrhage-ligation
+kids:
+  ar: "عندما تنزف الأوعية الدموية في عملية كبيرة، كيف توقف الدم؟ فكّر الزهراوي قبل ألف سنة: اربط الوعاء بخيط — كما تربط حبلاً — فيقف النزف دون حرق. هذه فكرة «ربط الشريان» التي ما زالت تنقذ الأرواح في كل عملية."
+  en: "When blood vessels bleed in a big operation, how do you stop it? Al-Zahrawi thought a thousand years ago: tie the vessel with thread — as you tie a rope — and the bleeding stops without burning. That is the 'arterial ligation' idea still saving lives in every operation."
+  ur: "جب بڑے آپریشن میں نالیاں خون بہاتی ہیں، اسے کیسے روکو؟ الزہراوی نے ہزار سال پہلے سوچا: نالی کو دھاگے سے باندھو — جیسے رسی باندھتے ہو — اور خون بغیر جلائے رک جائے گا۔ یہی «شریان کا ربط» کا خیال ہے جو آج بھی ہر آپریشن میں جان بچاتا ہے۔"
+sources:
+  - source/zahrawi-spink-lewis-1973
+  - source/zahrawi-leclerc-chirurgie-1861
+  - source/tdv-tasrif-zehravi
+status: { review: published, completeness: 2 }
+provenance:
+  layer: own-research
+  generated_by: devin-orchestrator-solo
+  model: SWE-2
+  run: inventions-w2-23
+  source: "Spink & Lewis 1973 and Leclerc 1861 texts via source records; TDV et-TASRÎF"
