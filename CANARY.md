@@ -13,6 +13,12 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v1.32.1 — 2026-11-15
+### Data
+- **The three wine verses now lead the Drink page of the Halal and Haram Browser.** Qur'an 2:219, 5:90 and 5:91 speak of wine without using the words for lawful or unlawful, so the browser, which finds passages by those words, did not list them, and the Drink page opened with no ayah at all. The founder approved adding the three by hand. They now stand first among the sources on `/ar/halal/subject/drink/` (and in English and Urdu), and also under Speech and conduct, because the verses name the game of chance beside wine. The browser shows them without a "lawful" or "unlawful" label, since it takes that label only from a verse's own words. The Qur'an text itself is unchanged. The browser now holds 60 ayahs.
+### Tests
+- The detector test checks that a tagged ayah without the two words is listed under its subject with no label.
+
 ## v1.32.0 — 2026-11-14
 ### Added
 - **The Halal and Haram Browser can now be browsed by subject.** A visitor who wants to know what the sources say about food, drink, earnings or marriage no longer has to search by Arabic word. The browser's home opens with a board of twelve subjects — principles, food, drink, hunting and slaughter, earnings and trade, marriage and family, dress and adornment, life, property and honour, speech and conduct, worship and vows, the sanctuaries of Makka and Madina, and other mentions — each with its own drawing, its number of records and a bar showing how many passages name the lawful, the unlawful or both. Each subject has its own page (`/ar/halal/subject/food/` and the like, in Arabic, English and Urdu) that puts answers first: the museum's own records, then the Qur'an's ayahs in mushaf order, then the hadith reports, the seerah and the other books. Every card links to its other subjects. The pages say plainly that the museum shows what the sources say and does not issue rulings.
