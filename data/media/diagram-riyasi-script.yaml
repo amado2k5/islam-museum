@@ -1,0 +1,24 @@
+id: media/diagram-riyasi-script
+class: media
+kind: illustration
+label: { ar: "من أقلام الثقال إلى قلم الرياسي", en: "From the heavy pens to the Riyasi pen", ur: "بھاری اقلام سے ریاسی قلم تک" }
+summary:
+  ar: "سلسلة تعليمية تبين ترتيب ابن النديم لأقلام الثقال في ديوان المأمون ثم إضافة الفضل بن سهل قلم الرياسي وأفراعه؛ لا ترسم الحروف ولا تستعيد شكله."
+  en: "Teaching chain showing Ibn al-Nadim's ranking of the heavy chancery pens under al-Ma'mun, then al-Fadl ibn Sahl's added Riyasi pen and its branches; it draws no letters and reconstructs no script form."
+  ur: "تدریسی سلسلہ جو ابن ندیم کی مامون کے دور کی بھاری دیوانی اقلام کی ترتیب اور پھر فضل بن سهل کے ریاسی قلم اور اس کی شاخوں کو دکھاتا ہے؛ نہ حروف بناتا ہے نہ خط کی شکل دوبارہ بناتا ہے۔"
+license: CC0
+creator: "islam.museum"
+depicts: [invention/riyasi-script]
+alt:
+  ar: "خطوتان: أولاً أقلام الثقال المرتبة عند ابن النديم؛ ثانياً قلم الرياسي المنسوب إلى الفضل بن سهل وأفراعه. لا نموذج خطي ولا حروف."
+  en: "Two steps: first Ibn al-Nadim's ranked heavy pens; second the Riyasi pen attributed to al-Fadl ibn Sahl and its branches. No script specimen or letters."
+  ur: "دو مراحل: پہلے ابن ندیم کی ترتیب دی گئی بھاری اقلام؛ پھر فضل بن سهل سے منسوب ریاسی قلم اور اس کی شاخیں۔ کوئی خطی نمونہ یا حروف نہیں۔"
+generated: { tool: "site/src/components/InventionDiagram.astro (generic chain drawn at build time)", version: "1", date: "2026-11-15" }
+sources: [source/fihrist-ibn-al-nadim]
+status: { review: published, completeness: 2, generated_by: "Devin drafter w2-10" }
+provenance:
+  layer: own-research
+  generated_by: "Devin drafter w2-10"
+  model: "SWE-2"
+  run: inventions-w2-10-drafting
+  source: "source/fihrist-ibn-al-nadim scan pp. 18-19 describing the heavy pens and the Riyasi with its branches; generic relationship diagram, not a reconstruction of the script"
