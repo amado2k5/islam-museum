@@ -1,0 +1,23 @@
+id: concept/diyudar
+class: concept
+kind: natural
+label:
+  ar: "ديودار"
+  en: "Diyudar (Indian pine)"
+  ur: "دیودار"
+summary:
+  ar: "جنس من الأبهل يُقال له الصنوبر الهندي، ولبنه حار حريف يُعطّش. {cite:canon-ibn-sina-print-v1 p.440}"
+  en: "A kind of pine called the Indian pine; its milk is hot, pungent and thirst-causing. {cite:canon-ibn-sina-print-v1 p.440}"
+  ur: "یہ ایک قسم کا چیڑ ہے جسے ہندی صنوبر کہتے ہیں؛ اس کا دودھ گرم، تیز اور پیاس بڑھانے والا ہے۔ {cite:canon-ibn-sina-print-v1 p.440}"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter dal (end) and letter ha, letter waw, scan pages 440, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); the editor's footnotes are used only for identity and name; footnotes quoting modern herbal or nutrition books are not used; measured doses, weights and quantities are left out; garbled OCR lines are left out, not guessed"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), lane A4"
+  model: claude-haiku-5-5
+  run: a4-canon-book2-9
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (book mining, lane A4)" }

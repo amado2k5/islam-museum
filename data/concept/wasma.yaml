@@ -1,0 +1,23 @@
+id: concept/wasma
+class: concept
+kind: natural
+label:
+  ar: "وسمة"
+  en: "Wasma (indigo leaves)"
+  ur: "وسمہ ⁦(نیل کے پتے)⁩"
+summary:
+  ar: "الوسمة ورق النيل، أحسنه الخراساني، وفيه قبض وجلاء، ويخضّب الشعر. {cite:canon-ibn-sina-print-v1 p.451}"
+  en: "Wasma is the leaf of indigo; the Khurasani kind is the best; it has astringency and cleansing, and it dyes hair. {cite:canon-ibn-sina-print-v1 p.451}"
+  ur: "وسمہ نیل کا پتا ہے؛ خراسانی قسم سب سے اچھی ہے؛ اس میں قبض اور جِلا ہے، اور یہ بال رنگتا ہے۔ {cite:canon-ibn-sina-print-v1 p.451}"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter dal (end) and letter ha, letter waw, scan pages 451, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); the editor's footnotes are used only for identity and name; footnotes quoting modern herbal or nutrition books are not used; measured doses, weights and quantities are left out; garbled OCR lines are left out, not guessed"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), lane A4"
+  model: claude-haiku-5-5
+  run: a4-canon-book2-9
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (book mining, lane A4)" }

@@ -14,3 +14,8 @@ Zoroastrianism was mostly among the Arabs neighbouring Persia: in the Arabs' Ira
 
 ## For young visitors
 Bahrayn is an old name for the peninsula's eastern coast — not only today's small island; many tribes lived in it.
+
+## In Yaqut's Mu'jam al-buldan
+Yaqut describes Bahrayn as a general name for lands on the shore of the Indian sea between Basra and Oman. Some say that Hajar was its capital, while others hold that Hajar was the capital of Bahrayn and was counted by some as a Yemeni district. {cite:mujam-al-buldan-sader-1995 1 p.346}
+
+He records that Ibn Abbas placed Bahrayn in the province of Iraq, bounded on the Oman side at a place called Jarfar, with al-Yamama on its mountains. Yaqut also cites Ibn al-Faqih that under the Abbasids Oman, Bahrayn and al-Yamama were treated as a single district. {cite:mujam-al-buldan-sader-1995 1 p.347}

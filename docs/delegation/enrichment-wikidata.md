@@ -682,3 +682,62 @@ SKIPPED person/abu-jafar-al-saymari: the card has no birth or death date togethe
 SKIPPED person/abu-said-ilkhan: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
 SKIPPED person/adnan: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
 SKIPPED person/al-alqami: the card has no birth or death date together with a role, so no Wikidata item could be checked against it; not searched.
+ACCEPTED person/al-sirafi = Q20384183 (rev 2567996745): name matches (Hasan ibn ʻAbd Allah al-Sirafi); Arabic label identical to the card (أبو سعيد السيرافي); death 979 agrees with card died 0979~ (year); role grammarian agrees with item description Arab grammarian. Item birth 893 not on card, not added. No sourced date changed.
+ACCEPTED person/haifaa-al-mansour = Q386131 (rev 2568136739): name matches (Haifaa al-Mansour); name identical; birth 1974-08-10 agrees with card born 1974-08-10; role film director agrees with item description Saudi Arabian film director. No sourced date changed.
+ACCEPTED person/nadine-labaki = Q266539 (rev 2546543161): name matches (Nadine Labaki); name identical; birth 1974-02-18 agrees with card born 1974-02-18; role film director and actress agrees with item description Lebanese actress and film director. No sourced date changed.
+ACCEPTED person/qays-ibn-al-khatim = Q12233989 (rev 2536102288): name matches (Qays ibn al-Khatim); Arabic label identical (قيس بن الخطيم); death 620 agrees with card died 620~; role poet agrees with item occupation poet (Q49757). No sourced date changed.
+ACCEPTED person/abdullah-ibn-muhammad = Q2401633 (rev 2539833374): name matches (Abd-Allah ibn Muhammad); Arabic label identical (عبد الله بن محمد); death 615 agrees with card died 615~; role prophetic-family agrees with item description one of the sons of Muhammad and Khadija. Item birth 610 not on card, not added. No sourced date changed.
+ACCEPTED person/al-jubbai = Q4115307 (rev 2544814453): name matches (Al-Jubba'i); Arabic label carries al-Jubba'i; birth 849 and death 915 agree with card 0849~ and 0915~; role theologian agrees with item occupation theologian (Q1234713). No sourced date changed.
+ACCEPTED person/ayyash-ibn-abi-rabia = Q16151319 (rev 2439416456): name matches (Ayyash ibn Abi Rabi'a); Arabic label identical (عياش بن أبي ربيعة); death 0636-01-01 agrees with card died 0636 (year); role companion agrees with item description Sahabah. No sourced date changed.
+SKIPPED person/al-dahhak-ibn-sufyan: item death 632 against card died 650~ (date conflict); not linked
+SKIPPED person/al-harith-ibn-hisham: item Q12186047 death 639 against card died 634 (date conflict); not linked
+SKIPPED person/al-malik-al-rahim: no Wikidata human item found by search on the card name (English and Arabic)
+SKIPPED person/al-nasir-hasan: no Wikidata human item found by search on the card name (English and Arabic)
+SKIPPED person/al-salih-ismail-ibn-al-adil: no Wikidata human item found by search on the card name (English and Arabic)
+SKIPPED person/al-samhudi: name and dates agree with Q12188541, but the item describes a philosopher and the card has historian and jurist (role not agreed); not linked
+SKIPPED person/alqama-ibn-mujazziz: item Q12227630 death 641 agrees, but its nisba is al-Kinani and the item role is early Muslim commander against card companion (al-Mudliji); not linked
+SKIPPED person/amra-bint-al-saadi: no Wikidata human item found by search on the card name (English and Arabic)
+SKIPPED person/asma-bint-marwan: item Q464937 death 624-03-21 against card died 625~ (one year off); not linked
+SKIPPED person/ayman-ibn-ubayd: item Q66789549 death 630 and role agree, but its Arabic label is ayman ibn umm ayman, not the card name; identity not settled, not linked
+SKIPPED person/choban: Wikidata candidates did not agree on name, date and role with the card (Q2565464 (Crimean Tatar intellectual (1893–1937), birth ['+1893'], death ['+1937'])); not linked
+SKIPPED person/fatima-bint-abi-hubaysh: Wikidata candidates did not agree on name, date and role with the card (Q104723222 (no description, birth none, death none)); not linked
+SKIPPED person/fatima-bint-safwan: Wikidata candidates did not agree on name, date and role with the card (Q22689017 (no description, birth none, death none)); not linked
+SKIPPED person/fukayha-bint-yasar: item Q20409556 role female companion agrees and name agrees, but the item has no date; not linked
+SKIPPED person/hisham-ibn-amr: no Wikidata human item found by search on the card name (English and Arabic)
+SKIPPED person/husayn-al-kurdi: Wikidata candidates did not agree on name, date and role with the card (Q4117075 (Egyptian politician, birth none, death none)); not linked
+SKIPPED person/ibn-abidin: Wikidata candidates did not agree on name, date and role with the card (Q4166497 (Ottoman jurisprudence expert, birth ['+1783'], death ['+1836']); Q141127492 (no description, birth ['+1828'], death ['+1889']); Q141126033 (no description, birth ['+1823'], death ['+1889'])); not linked
+SKIPPED person/ibn-al-muslima: item Q61064197 death 1059-02-16 agrees, but its role is poet against card vizier and the Arabic name differs; not linked
+SKIPPED person/ibn-balban-ala-al-din-ali: no Wikidata human item found by search on the card name (English and Arabic)
+SKIPPED person/iyas-ibn-muadh: Wikidata candidates did not agree on name, date and role with the card (Q64265157 (no description, birth none, death none)); not linked
+SKIPPED person/kamal-al-din-al-farisi: item Q426523 birth 1265 and death 1319 against card 1260~ and 1320~ (date conflict); not linked
+SKIPPED person/malik-ibn-rabi: Wikidata candidates did not agree on name, date and role with the card (Q141127716 (no description, birth none, death none); Q29513503 (no description, birth none, death none)); not linked
+SKIPPED person/mangli: no Wikidata human item found by search on the card name (English and Arabic)
+SKIPPED person/maqil-ibn-qays: item Q20424021 death 663 agrees, but it has no role and the card role is military; not linked
+SKIPPED person/mustafa-ibn-bayezid: no Wikidata human item found by search on the card name (English and Arabic)
+SKIPPED person/nawfal-ibn-muawiya: no Wikidata human item found by search on the card name (English and Arabic)
+SKIPPED person/qubilay-khan: no Wikidata human item found by search on the card name (English and Arabic)
+SKIPPED person/sahla-bint-suhayl: item Q7399676 has no date or role on the item; not linked
+SKIPPED person/shah-abd-al-aziz-dihlawi: no Wikidata human item found by search on the card name (English and Arabic)
+SKIPPED person/umm-muni-asma-bint-amr: no Wikidata human item found by search on the card name (English and Arabic)
+SKIPPED person/unayf-ibn-milla: no Wikidata human item found by search on the card name (English and Arabic)
+SKIPPED person/yusuf-i-nasrid: no Wikidata human item found by search on the card name (English and Arabic)
+SKIPPED person/zuhayr-ibn-abi-umayya: Wikidata candidates did not agree on name, date and role with the card (Q106927513 (no description, birth none, death none)); not linked
+SKIPPED person/zura-dhu-yazan: no Wikidata human item found by search on the card name (English and Arabic)
+SKIPPED person/abu-abs-ibn-jabr: Wikidata candidates did not agree on name, date and role with the card (Q61075824 (no description, birth none, death none)); not linked
+SKIPPED person/abu-al-abbas-ibn-al-nahhas-al-misri: no Wikidata human item found by search on the card name (English and Arabic)
+SKIPPED person/abu-ali-ibn-abi-hurayra: no Wikidata human item found by search on the card name (English and Arabic)
+SKIPPED person/abu-ishaq-al-sabii: item Q12228526 death 745 agrees, birth 654 against card 653, and no description or role is confirmed; not linked
+SKIPPED person/abu-masud-al-razi: no Wikidata human item found by search on the card name (English and Arabic)
+SKIPPED person/al-ashraf-inal: no Wikidata human item found by search on the card name (English and Arabic)
+SKIPPED person/al-hutat-ibn-yazid: no Wikidata human item found by search on the card name (English and Arabic)
+SKIPPED person/al-numan-ibn-adi: Wikidata candidates did not agree on name, date and role with the card (Q20409047 (no description, birth none, death ['+0650'])); not linked
+SKIPPED person/al-qasim-ibn-muhammad: item Q4702822 (Mansur-Billah, Imam of Yemen, 1559-1620) agrees on both dates, but the item is a Zaydi imam and the card role is prophetic-family; not linked; for the founder to rule
+SKIPPED person/al-sakran-ibn-amr: Wikidata candidates did not agree on name, date and role with the card (Q20729488 (no description, birth none, death none)); not linked
+SKIPPED person/amr-ibn-salim: item Q90696746 death 630 against card died 632~ (date conflict); not linked
+SKIPPED person/amr-ibn-uthman-taymi: Wikidata candidates did not agree on name, date and role with the card (Q12228529 (Son of Uthman ibn Affan and military leader, birth ['+0635'], death none); Q22688932 (no description, birth none, death none); Q983355 (Persian grammarian from Basra (c.760–796), birth ['+0760'], death ['+0797'])); not linked
+SKIPPED person/asad-al-mayhani: no Wikidata human item found by search on the card name (English and Arabic)
+SKIPPED person/bad-al-kurdi: no Wikidata human item found by search on the card name (English and Arabic)
+SKIPPED person/badr-al-din-simawi: no Wikidata human item found by search on the card name (English and Arabic)
+SKIPPED person/badreddin-al-hasani: item Q12197662 death 1935 agrees, birth 1851 against card 1850, and the item role is writer against card scholar and teacher; not linked
+SKIPPED person/abu-l-ala-al-maarri: Wikidata item Q277073 agrees on name, both dates and role, but the card's existing summary.ar contains an ellipsis, which the scoped check rejects; the card is left unchanged on main and not packed here; the card owner must fix the ellipsis first
+EXCLUSION (proposal for the founder): al-Qasim ibn Muhammad (Q4702822) - item Q4702822 (Mansur-Billah, Imam of Yemen, 1559-1620) agrees on both dates, but the item is a Zaydi imam and the card role is prophetic-family; not linked; for the founder to rule

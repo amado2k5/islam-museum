@@ -1,0 +1,23 @@
+id: concept/dam
+class: concept
+kind: natural
+label:
+  ar: "دم"
+  en: "Blood (dam)"
+  ur: "خون ⁦(دم)⁩"
+summary:
+  ar: "الدم المستعمل في الأدوية يُؤخذ من حيوان سليم، وأكثر ما يُنقل عنه غير معتمد، والكتاب يذكره بهذا التحفظ. {cite:canon-ibn-sina-print-v1 p.442}"
+  en: "The blood used in remedies is taken from a healthy animal; much of what is reported about blood is not reliable, and the book records it with that caution. {cite:canon-ibn-sina-print-v1 p.442}"
+  ur: "دوا میں استعمال ہونے والا خون صحت مند جانور کا ہونا چاہیے؛ خون کے بارے میں جو کچھ نقل ہوتا ہے اس کا بیشتر حصہ قابل اعتماد نہیں، اور کتاب اسے اسی احتیاط سے لکھتی ہے۔ {cite:canon-ibn-sina-print-v1 p.442}"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter dal (end) and letter ha, letter waw, scan pages 442 to 443, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); the editor's footnotes are used only for identity and name; footnotes quoting modern herbal or nutrition books are not used; measured doses, weights and quantities are left out; garbled OCR lines are left out, not guessed"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), lane A4"
+  model: claude-haiku-5-5
+  run: a4-canon-book2-9
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (book mining, lane A4)" }

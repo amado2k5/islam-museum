@@ -1,0 +1,23 @@
+id: concept/durraj
+class: concept
+kind: natural
+label:
+  ar: "دُرّاج"
+  en: "Durraj (partridge meat)"
+  ur: "دراج ⁦(تیتر کا گوشت)⁩"
+summary:
+  ar: "لحم الدُّرّاج، وهو أبو الحجاج بالعامية، أفضل من لحم القبج والفواخت، وأعدل وألطف، وأيبس من لحم التدرج. {cite:canon-ibn-sina-print-v1 p.446}"
+  en: "Durraj is the partridge; its flesh is better than the flesh of the kabj and the fawakh, more balanced and lighter, and drier than the tadarruj. {cite:canon-ibn-sina-print-v1 p.446}"
+  ur: "دراج تیتر کو کہتے ہیں؛ اس کا گوشت قبج اور فواخت سے بہتر، زیادہ معتدل اور ہلکا، اور تدرج کے گوشت سے زیادہ خشک ہے۔ {cite:canon-ibn-sina-print-v1 p.446}"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter dal (end) and letter ha, letter waw, scan pages 446, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); the editor's footnotes are used only for identity and name; footnotes quoting modern herbal or nutrition books are not used; measured doses, weights and quantities are left out; garbled OCR lines are left out, not guessed"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), lane A4"
+  model: claude-haiku-5-5
+  run: a4-canon-book2-9
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (book mining, lane A4)" }
