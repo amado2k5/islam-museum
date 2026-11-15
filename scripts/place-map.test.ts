@@ -146,6 +146,13 @@ describe("place map: what the script does on a reader's device", () => {
     expect(styles).toMatch(/:root\[data-theme="dark"\] \.pm/);
     expect(styles).toMatch(/@media \(prefers-color-scheme: dark\)/);
   });
+  it("draws no box for the status line while it has no text", () => {
+    // An empty status line with its padding and border was a 30 by 14 px pill at the top of the map; on a narrow
+    // screen it lay over the first search result and took the tap (seen 15 November 2026).
+    expect(styles).toMatch(/^\.pm-status:empty \{[^}]*\bpadding: 0;[^}]*\bborder: 0;[^}]*\bpointer-events: none;[^}]*\}/m);
+    // with text it is shown as before
+    expect(styles).toContain(".pm.is-on .pm-status:not([hidden]):not(:empty) { display: flex !important; }");
+  });
 });
 
 describe("place map: a page, its script, its styles and its data come from one build", () => {
