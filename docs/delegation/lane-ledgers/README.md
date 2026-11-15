@@ -33,6 +33,15 @@ The per-lane working ledgers inside the repo stay where they are
 - Policy for records known only by an epithet (laqab).
 - Identity of Muhammad ibn Yusuf ibn Ma'dan (second notice on the 662 record).
 
+## Added 15 November 2026 (open for the founder)
+
+- Citation convention: Zij al-Sabi packets cite printed pages (scan minus 4) and the Zij scan packets cite scan numbers; Canon Book II follows the printed-page reading pending the same ruling. One ruling covers the series.
+- Register-only packets (for example lanec-register-fix-1) fail the scoped check by design. Decide whether they land by hand or the check accepts a manifest-only packet.
+- Siyar al-Nubala edition: the register's Dar al-Risala label is unconfirmed; see section 12 of docs/engineering/48-lane-operations.md.
+- VIAF access: the Claude in Chrome extension must be connected on the Mac, or Wikidata P214 alone is accepted.
+- Canon Book II: reports that a drug brings on menses or expels a foetus, kept as the book's listing or excluded.
+- Sirat al-Hadi: the clan name at pages 345 to 346 stays withheld pending the firewall ruling.
+
 ## To do, by lane
 
 **Lane A (microSD books).**
