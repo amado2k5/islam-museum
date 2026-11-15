@@ -1,0 +1,23 @@
+id: concept/al-sifani
+class: concept
+kind: natural
+label:
+  ar: "السفاني"
+  en: "Al-sifani (thought to be camel pasture)"
+  ur: "السفانی ⁦(اونٹ کا چارہ سمجھا جاتا ہے)⁩"
+summary:
+  ar: "يُظن أنه رعي الإبل، وهو ينقّي الكليتين جداً، وشديد النفع من عضّة الكلب الكَلِب {cite:canon-ibn-sina-print-v1 p.375} {cite:canon-ibn-sina-print-v1 p.376}."
+  en: "Thought to be camel pasture. It cleanses the kidneys strongly and is very useful against the bite of a rabid dog {cite:canon-ibn-sina-print-v1 p.375} {cite:canon-ibn-sina-print-v1 p.376}."
+  ur: "خیال کیا جاتا ہے کہ یہ اونٹ کا چارہ ہے۔ یہ گردوں کو خوب صاف کرتا ہے اور باؤلے کتے کے کاٹے میں بہت مفید ہے {cite:canon-ibn-sina-print-v1 p.375} {cite:canon-ibn-sina-print-v1 p.376}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, 1999), Book II, Jumla 2, letter alif, scan pages 371 to 381, read from the OCR on the harvest drive; the book's own notes are used only where the book itself gives the name, and garbled English glosses are left out"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), lane A4"
+  model: claude-haiku-5-5
+  run: a4-canon-book2-3
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (book mining, lane A4)" }

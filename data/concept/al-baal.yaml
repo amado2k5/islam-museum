@@ -1,0 +1,23 @@
+id: concept/al-baal
+class: concept
+kind: natural
+label:
+  ar: "ألبعل"
+  en: "Al-baal (a sea plant)"
+  ur: "البعل ⁦(سمندری پودا)⁩"
+summary:
+  ar: "دواء بحري يشبه القتّ، ينبت في الربيع، حار، ينفع الطحال جداً، ويدرّ البول {cite:canon-ibn-sina-print-v1 p.375}."
+  en: "A sea drug resembling qatt (dried green fodder), which sprouts in spring. Hot; very helpful for the spleen, and it drives out urine {cite:canon-ibn-sina-print-v1 p.375}."
+  ur: "ایک سمندری دوا جو قت سے ملتی ہے اور بہار میں اگتی ہے۔ گرم ہے؛ تلی کے لیے بہت مفید ہے اور پیشاب لاتی ہے {cite:canon-ibn-sina-print-v1 p.375}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, 1999), Book II, Jumla 2, letter alif, scan pages 371 to 381, read from the OCR on the harvest drive; the book's own notes are used only where the book itself gives the name, and garbled English glosses are left out"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), lane A4"
+  model: claude-haiku-5-5
+  run: a4-canon-book2-3
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (book mining, lane A4)" }

@@ -1,4 +1,5 @@
 id: person/ahmad-amin
+external_ids: { wikidata: "Q2762564" }
 class: person
 label: { ar: "أحمد أمين", en: "Ahmad Amin" }
 names:
@@ -17,7 +18,7 @@ relations:
   - { type: lived_in, target: place/misr, note: "Place association from the person's nisba/name (مصري); denotes association, not proven residence.", sources: [source/duha-islam, source/encyclopaedia-of-islam-2, source/fajr-al-islam-dar-al-kitab-al-arabi-1969], confidence: low }
   - { type: authored, target: work/duha-al-islam, sources: [source/duha-islam] }
   - { type: authored, target: work/fajr-al-islam, sources: [source/fajr-al-islam-dar-al-kitab-al-arabi-1969] }
-sources: [source/duha-islam, source/encyclopaedia-of-islam-2, source/fajr-al-islam-dar-al-kitab-al-arabi-1969]
+sources: [source/duha-islam, source/encyclopaedia-of-islam-2, source/fajr-al-islam-dar-al-kitab-al-arabi-1969, source/wikidata-ahmad-amin]
 provenance:
   layer: own-research
   source: "ضحى الإسلام لأحمد أمين (ط مؤسسة هنداوي)"

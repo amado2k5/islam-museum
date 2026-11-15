@@ -1,0 +1,23 @@
+id: concept/labakh
+class: concept
+kind: natural
+label:
+  ar: "لبخ"
+  en: "Labakh (a large tree)"
+  ur: "لبخ ⁦(بڑا درخت)⁩"
+summary:
+  ar: "شجرة كبيرة يقال إنها السدر، نُقلت إلى مصر فتغيّر طبعها وطعمها، فصار ثمرها يؤكل ولا يضرّ، ويمنع النزف إذا ذُرّ ورقها على موضع يسيل منه الدم {cite:canon-ibn-sina-print-v1 p.373}."
+  en: "A large tree said to be the lote tree, which was moved to Egypt where its taste changed, so that its fruit is eaten without harm. Its leaf, sprinkled on a place where blood flows, stops the bleeding {cite:canon-ibn-sina-print-v1 p.373}."
+  ur: "ایک بڑا درخت، جسے کہا گیا ہے کہ یہ سدر ہے۔ اسے مصر لے جایا گیا تو اس کا ذائقہ بدل گیا اور اب اس کا پھل بغیر نقصان کے کھایا جاتا ہے۔ جہاں خون بہتا ہو وہاں اس کے پتے چھڑکنے سے خون بند ہوتا ہے {cite:canon-ibn-sina-print-v1 p.373}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, 1999), Book II, Jumla 2, letter alif, scan pages 371 to 381, read from the OCR on the harvest drive; the book's own notes are used only where the book itself gives the name, and garbled English glosses are left out"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), lane A4"
+  model: claude-haiku-5-5
+  run: a4-canon-book2-3
+status: { review: draft, completeness: 2, generated_by: "Claude Haiku 5.5 (book mining, lane A4)" }

@@ -1,0 +1,23 @@
+id: concept/ausbid
+class: concept
+kind: natural
+label:
+  ar: "أوسبيد"
+  en: "Ausbid (a kind of Indian water lily)"
+  ur: "اوسبید ⁦(ہندی نیلوفر کی ایک قسم)⁩"
+summary:
+  ar: "ضرب من النيلوفر الهندي، وهو فارسي، وقال ابن ماسرجويه إنه حار يابس {cite:canon-ibn-sina-print-v1 p.378}."
+  en: "A kind of Indian water lily, of Persian origin. Ibn Masarjawayh says it is hot and dry {cite:canon-ibn-sina-print-v1 p.378}."
+  ur: "ہندی نیلوفر کی ایک قسم، جو فارسی ہے۔ ابن ماسرجویہ کہتے ہیں کہ یہ گرم اور خشک ہے {cite:canon-ibn-sina-print-v1 p.378}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, 1999), Book II, Jumla 2, letter alif, scan pages 371 to 381, read from the OCR on the harvest drive; the book's own notes are used only where the book itself gives the name, and garbled English glosses are left out"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), lane A4"
+  model: claude-haiku-5-5
+  run: a4-canon-book2-3
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (book mining, lane A4)" }

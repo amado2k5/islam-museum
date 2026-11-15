@@ -299,3 +299,73 @@ person/zayd-al-khayl: accepted Q4165731 (revision 2558241141); agreeing facts: c
 person/al-ala-ibn-al-hadrami: accepted Q1148040 (revision 2535695571); agreeing facts: death 635 and governor of Bahrain; Wikidata's second death year 642 is not added. Wikidata also gives 642 as a death date; the card's 635 is kept, not added.
 person/al-khansa: accepted Q2420369 (revision 2565753996); agreeing facts: birth 575, death 645 and the occupation poet. Wikidata's father link (Q109629287) is not used.
 person/bahira: accepted Q551599 (revision 2553940642); agreeing facts: 6th-century monk, prophecy about Muhammad (description), Christian religion. Wikidata death 700 differs from the card's 582, not added.
+ACCEPTED person/al-muizz-ibn-badis = Q293658: card died 1062 matches Wikidata death 1062; ruler of the Zirids matches the card (lord of the Maghrib). Card has no birth date.
+ACCEPTED person/abu-tahir-al-qarmati = Q325220 (Abu Tahir al-Jannabi, ruler of the Qarmatian state): born 906 and died 944 match the card; role matches.
+ACCEPTED person/malikshah = Q311482: card died 1092 matches Wikidata death 1092; Seljuk sultan matches the card. CONFLICT (ledger only): Wikidata born 1055, card has no birth date, nothing added.
+ACCEPTED person/said-pasha = Q366744: born 1822 and died 1863 match the card; Wali of Egypt matches the card (politician, ruler).
+ACCEPTED person/izz-al-din-aybak = Q327441: card died 1257 matches Wikidata death 1257; Mamluk sultan of Egypt matches the card.
+skipped person/youssef-chahine: Q312611 (film director, 1926 to 2008) matches the card dates and role, but the card's provenance note says no external id was recorded; that note needs revising by the verifier, so the link is held, not written.
+DUPLICATE PAIR person/oljeitu and person/oljaitu: Wikidata Q297065 is already on main as data/person/oljaitu.yaml (external id). Not merged; flagged for the founder's merge list.
+DUPLICATE PAIR person/muhammad-al-amin and person/al-amin: Wikidata Q293495 is already on main as data/person/al-amin.yaml. Not merged; flagged. Dates match (787 to 813).
+HELD person/sultan-al-dawla: Q659354 (Sultan al-Dawla, 993 to 1024) matches the card dates, but Q659354 already appears in the landed packet lane-c-wikidata-person-4-b (as the father of abu-kalijar). Skipped under the no-repeat rule; the lander or the next B5 pass can link it once that packet is settled.
+skipped person/murara-ibn-al-rabi: candidates Q31312005 and Q124773335 carry no birth or death date; card died 640 cannot be agreed.
+skipped person/kulthum-ibn-al-hidm: Q1791554 (Kulthum ibn Hadam) died 624, card 623: date conflict.
+skipped person/lut: card has no date; Q40574 (Lot) has no dates.
+skipped person/qatada-ibn-idris-al-alawi: Q3825145 died 1220, card 1221: date conflict.
+skipped person/qutuz: no person item found by search (rate-limited, retried, no hit).
+skipped person/abdullah-ibn-abi-hadrad: candidates not human items; no person item found.
+skipped person/al-adil-abdallah-almohad: no item found by search.
+skipped person/al-muhajir-ibn-abi-umayya: no item found by search.
+skipped person/al-mustansir-yusuf-almohad: no item found by search.
+skipped person/amr-ibn-hazm: no item found by search.
+skipped person/fatima-bint-al-mujallal: no candidate with a death near 630 and the companion role.
+skipped person/haman: card has no date; no item found.
+skipped person/hasana-umm-shurahbil: no person item found.
+skipped person/ibn-al-arabi-ahmad: Q11926357 (8th-century philologist) born 767, died 846; card 860 and 951: conflict.
+skipped person/kab-al-ahbar: no item found by search.
+skipped person/malik-ibn-nuwayra: no item found by search.
+skipped person/masud-ibn-mahmud: no item found (rate-limited, retried).
+skipped person/qays-ibn-al-haytham: candidates carry no dates; card died 684 cannot be agreed.
+skipped person/shams-al-dawla-turanshah: no person item for Turanshah ibn Ayyub found.
+skipped person/abd-al-wahid-ii-almohad: candidates are not human items.
+skipped person/abu-jaafar-ibn-shirzad: no candidate with a death near 950.
+skipped person/al-barqani-ahmad-ibn-muhammad: no item found by search.
+skipped person/al-hakam-ii: Q284531 (caliph of Cordoba, 915 to 976) found, but the card has no birth or death date to agree with.
+skipped person/al-muqawqis: no item found by search.
+skipped person/al-muttalib-ibn-azhar: candidates carry no dates; card died 630 cannot be agreed.
+skipped person/amina-bint-khalf: card has no date.
+skipped person/budayl-ibn-warqa: candidates are not human items with dates.
+skipped person/harim-ibn-hayyan: Q12249912 died 647, card 665: date conflict.
+skipped person/hattab-ibn-al-harith: no person item with a death near 620.
+skipped person/ibrahim-ibn-uqba: no item found by search with a death near 738.
+skipped person/imru-al-qays-ibn-hujr: candidate not a human item.
+skipped person/jochi-ibn-genghis: no item found by search.
+skipped person/malik-ibn-al-namt: no candidate with a death near 633.
+skipped person/rukana: no item found by search.
+skipped person/sabur-ibn-ardashir: no candidate with birth 947 and death 1025.
+skipped person/sara: no person item; candidates are the biblical matriarch and given-name items.
+skipped person/suwayd-ibn-al-samit: Q20388830 (Ansari companion) has no death date to agree with the card (620).
+skipped person/ukaydir-ibn-abd-al-malik: candidates are not human items.
+skipped person/uwaym-ibn-saida: Q20393410 has no dates; card died 636 cannot be agreed.
+skipped person/ziyad-ibn-labid-al-bayadi: no item found by search.
+skipped person/abbas-ibn-mirdas: candidates are not human items.
+Dates kept, not overwritten: person/malikshah (no birth on card), person/said-pasha and person/youssef-chahine (dates unchanged).
+Not in the batch: 66 of the queue's 120 slugs were already in a packet manifest; the batch is the first 50 of the other 54 (the last four, abdallah-al-yunini, abraha, abu-barza-al-aslami, abu-sulayman-al-darani, remain for the next pass).
+ACCEPTED person/ahmad-amin = Q2762564: name matches (ar and en), card born 1886 and died 1954 match Wikidata 1886-10-01 and 1954-05-29; role scholar matches historian and writer.
+ACCEPTED person/ibn-al-shatir = Q718169: Arabic label matches; card born 1304~ and died 1375 match Wikidata 1304 and 1375; role scholar matches astronomer and clockmaker.
+ACCEPTED person/abraha = Q323363 (Aksumite general): name matches; card died 0570~ matches Wikidata death 570; role general matches. CONFLICT (ledger only): Wikidata born +0600, card born 0520~; card kept, nothing overwritten. Verifier to check the birth conflict.
+DUPLICATE CHECK person/abraha: Q323363 is not on main; the sibling candidate items Q12177617 (Abrahah Dhu'l-Manar, king) and Q20383437 (no label) are different people or unlabelled and were not linked.
+skipped person/oljeitu: Q297065 is already on main as data/person/oljaitu.yaml (external id); DUPLICATE, not written here, flagged for the founder's merge list.
+skipped person/muhammad-al-amin: Q293495 is already on main as data/person/al-amin.yaml; DUPLICATE, flagged for the founder's merge list.
+skipped person/youssef-chahine: Q312611 matches card dates and role, but it is held in packet b5-wikidata-person-4 (provenance note); not written here, no duplicate.
+skipped person/al-muizz-ibn-badis, person/abu-tahir-al-qarmati, person/malikshah, person/said-pasha, person/izz-al-din-aybak: accepted in packet b5-wikidata-person-4 (BOARD line 51); not written here.
+skipped person/kulthum-ibn-al-hidm: Q1791554 (Kulthum ibn Hadam, Arabic label matches) died 624, card 623: date conflict.
+skipped person/qatada-ibn-idris-al-alawi: Q3825145 died 1220, card 1221: date conflict.
+skipped person/ibn-al-arabi-ahmad: Q11926357 born 767, died 846; card 860 and 951: conflict.
+skipped person/harim-ibn-hayyan: Q12249912 died 647, card 665: date conflict.
+skipped person/ukaydir-ibn-abd-al-malik: Q11904684 died 633, card 634: date conflict.
+skipped person/abu-barza-al-aslami: Q4670108 died 685, card 684: date conflict.
+skipped person/al-as-ibn-wail: Q12189926 died 620, card 622: date conflict.
+skipped person/imru-al-qays-ibn-hujr: Q1051776 (Imru' al-Qais, 501 to 544) is a different dated profile from the card (530~ to 545~); not linked.
+skipped person/qutuz, qays-ibn-al-haytham, al-muhajir-ibn-abi-umayya, abdullah-ibn-abi-hadrad, al-mustansir-yusuf-almohad, amr-ibn-hazm, masud-ibn-mahmud, ibrahim-ibn-uqba, jochi-ibn-genghis, malik-ibn-al-namt, al-barqani-ahmad-ibn-muhammad, al-muqawqis, budayl-ibn-warqa, sabur-ibn-ardashir, abbas-ibn-mirdas, ziyad-ibn-labid-al-bayadi, suwayd-ibn-al-samit, ukaydir-ibn-abd-al-malik, uwaym-ibn-saida, abu-sulayman-al-darani, al-muttalib-ibn-azhar, jahm-ibn-zahr, al-qaim-bi-amr-illah, shams-al-dawla-turanshah, abd-al-wahid-ii-almohad, abu-jaafar-ibn-shirzad, al-hakam-ii, amina-bint-khalf, al-mutawakkil-iii-cairo, husayn-ibn-ali-sharif-makkah, abdallah-al-yunini, sara, muhammad-al-amin: no Wikidata person item with a sourced date that agrees, or the card has no date or role to agree with; not linked.
+Dates kept, not overwritten: person/abraha (birth 0520~, Wikidata +0600 conflict noted above); person/ibn-al-shatir and person/ahmad-amin (no change).
