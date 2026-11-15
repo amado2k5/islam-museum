@@ -1,0 +1,23 @@
+id: concept/jawshir
+class: concept
+kind: natural
+label:
+  ar: "جاوشير"
+  en: "Jawshir (the editor's cow's-milk tree)"
+  ur: "جاوشیر ⁦(لبن البقر)⁩"
+summary:
+  ar: "شجرة ورقها قريب من الأرض وتُستخرج صمغتها من أصلها، وفي الهامش أنها لبن البقر؛ محلّل للرياح، ينفع من الصلابات والأورام والمفاصل والنقرس والصداع والصرع، ويذكر الكتاب فيها ما يخص الحيض والجنين {cite:canon-ibn-sina-print-v1 p.418} {cite:canon-ibn-sina-print-v1 p.419}."
+  en: "A plant with leaves low to the ground, whose gum is drawn from its root; the editor's footnote calls it the cow's-milk tree. The book says it dissolves wind and helps hard swellings, joint pains, gout, headache and epilepsy. The book also lists its use for the menses and the foetus {cite:canon-ibn-sina-print-v1 p.418} {cite:canon-ibn-sina-print-v1 p.419}."
+  ur: "ایک پودا جس کے پتے زمین کے قریب ہیں اور جس کی جڑ سے صمغ نکالا جاتا ہے؛ حاشیے کے مطابق یہ لبن البقر ہے۔ کتاب کے مطابق یہ ہوا کو تحلیل کرتا ہے اور سخت ورموں، جوڑوں کے درد، نقرس، سردرد اور مرگی میں مفید ہے۔ کتاب حیض اور جنین کے بارے میں بیانات بھی درج کرتی ہے {cite:canon-ibn-sina-print-v1 p.418} {cite:canon-ibn-sina-print-v1 p.419}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter ba and jim, scan pages 418-419, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); the editor's footnotes are used only for identity and name; footnotes quoting modern herbal or nutrition books are not used; measured doses and weights are left out; garbled OCR lines are left out, not guessed"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), lane A4"
+  model: claude-haiku-5-5
+  run: a4-canon-book2-7
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (book mining, lane A4)" }

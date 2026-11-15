@@ -1,0 +1,23 @@
+id: concept/jawzbu
+class: concept
+kind: natural
+label:
+  ar: "جوزبوا"
+  en: "Jawzbu (nutmeg, the editor's identification)"
+  ur: "جوزبوا ⁦(جوز الطیب)⁩"
+summary:
+  ar: "جوز في مقدار العفص، سهل الكسر، رقيق القشر، طيب الرائحة، حاد؛ وفي الهامش أنه جوز الطيب {cite:canon-ibn-sina-print-v1 p.416}."
+  en: "A nut the size of a gall-nut, easy to break, thin-shelled, fragrant and sharp; the editor's footnote gives it as nutmeg {cite:canon-ibn-sina-print-v1 p.416}."
+  ur: "ایک گری جو مازو کے برابر ہے، آسانی سے ٹوٹتی ہے، پتلے چھلکے والی، خوشبودار اور تیز ہے؛ حاشیے کے مطابق یہ جوزالطیب ہے {cite:canon-ibn-sina-print-v1 p.416}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter ba and jim, scan pages 416, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); the editor's footnotes are used only for identity and name; footnotes quoting modern herbal or nutrition books are not used; measured doses and weights are left out; garbled OCR lines are left out, not guessed"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), lane A4"
+  model: claude-haiku-5-5
+  run: a4-canon-book2-7
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (book mining, lane A4)" }

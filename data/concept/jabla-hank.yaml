@@ -1,0 +1,23 @@
+id: concept/jabla-hank
+class: concept
+kind: natural
+label:
+  ar: "جبلا هنك"
+  en: "Jabla hank (the plant the editor links to a Latin name)"
+  ur: "جبلا ہنک"
+summary:
+  ar: "نبات يقرب فعله من الخربق؛ قيل إنه بزر التربد الأسود وقشور أصله، وقيل إنه التربد الأصفر المنعوت بالصغد، والجيد منه الهندي. مُقيء، ويسهّل، وفيه قوة سمية، وذكر الكتاب أن بعضهم سقى منه المفلوج فعُوفي {cite:canon-ibn-sina-print-v1 p.421} {cite:canon-ibn-sina-print-v1 p.422}."
+  en: "A plant whose action is close to hellebore's. Some say it is the seed of black turbith and its root rind; others say yellow turbith, described as Soghdian; the best is the Indian kind. It causes vomiting and purging, has a poisonous power, and the book reports that some gave it to paralysed patients and they recovered {cite:canon-ibn-sina-print-v1 p.421} {cite:canon-ibn-sina-print-v1 p.422}."
+  ur: "ایک پودا جس کا عمل خربق کے قریب ہے۔ بعض کے نزدیک یہ کالے تربد کا بیج اور اس کی جڑ کا چھلکا ہے، اور دوسروں کے نزدیک زرد تربد جسے صغدی کہا جاتا ہے، اور اس کی بہترین قسم ہندی ہے۔ یہ قے لاتا ہے، مسہل ہے اور زہریلی قوت رکھتا ہے۔ کتاب بیان کرتی ہے کہ بعض نے اسے فالج زدہ مریضوں کو دیا اور وہ شفایاب ہوئے {cite:canon-ibn-sina-print-v1 p.421} {cite:canon-ibn-sina-print-v1 p.422}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter ba and jim, scan pages 421-422, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); the editor's footnotes are used only for identity and name; footnotes quoting modern herbal or nutrition books are not used; measured doses and weights are left out; garbled OCR lines are left out, not guessed"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), lane A4"
+  model: claude-haiku-5-5
+  run: a4-canon-book2-7
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (book mining, lane A4)" }

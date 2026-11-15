@@ -109,3 +109,5 @@ only red check is the pre-existing Lighthouse performance budget on main):
 **Book fully mined.** Remaining known issues: ~199 non-blocking validation
 warnings (missing prose in parallel-lane entities, duplicate titles) and the
 Lighthouse performance budget (0.80–0.89 vs 0.95) which fails every PR.
+B2 packet b2-m34, 15 Nov 2026: person/safwan-ibn-al-muattal, added printed p. 220 to the Banu al-Mustaliq sentence (ar/en/ur); the sentence text is unchanged and was checked against p. 220.
+B2 packet b2-m34, 15 Nov 2026: 13 other queue persons (sami-yusuf, yusuf-islam, mirza-ghalib, al-zahir-fatimid, muhammad-al-nasir-almohad, badr-al-din-lulu, izz-al-din-masud, ubayd-allah-ibn-ziyad, uthman-ibn-mazun, abdullah-ibn-jafar, abdullah-ibn-abi-bakr, abu-al-hasan-al-marini, hanzala-ibn-abi-amir) not written: no printed page confirmed in the drive OCR for the cited edition (sami-yusuf, yusuf-islam and mirza-ghalib have Wikidata or Wikipedia sources only); hanzala cites p. 262 but the colocr edition has him at p. 174, a citation to check.

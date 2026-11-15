@@ -1,0 +1,23 @@
+id: concept/jummayz
+class: concept
+kind: natural
+label:
+  ar: "جمّيز"
+  en: "Jummayz (the tree the book compares to the fig)"
+  ur: "جمیز ⁦(انجیر سے مشابہ درخت)⁩"
+summary:
+  ar: "شجرة عظيمة تشبه التين، لها لبن كثير، تثمر أكثر من مرة في السنة؛ قليلة الغذاء رديئة للمعدة عند ديسقوريدوس، وفيها قوة مليّنة محلّلة، ونُسب إليها تلطيف الأورام العسرة وتطهير الجراح والإسهال وإقشعرار الحمّيات {cite:canon-ibn-sina-print-v1 p.425} {cite:canon-ibn-sina-print-v1 p.426}."
+  en: "A great tree like the fig, with much milky sap, bearing several times a year. Dioscorides says it gives little nourishment and is bad for the stomach. It has a softening and dissolving power; its sap is said to soften stubborn swellings and wounds, purge the belly and help the shivering of fevers {cite:canon-ibn-sina-print-v1 p.425} {cite:canon-ibn-sina-print-v1 p.426}."
+  ur: "انجیر سے مشابہ ایک بڑا درخت، جس میں بہت سا دودھیا رس ہوتا ہے اور جو سال میں کئی بار پھل دیتا ہے۔ دیسقوریدوس کے مطابق اس کی غذا کم ہے اور معدے کے لیے بری ہے؛ اس میں نرم کرنے اور تحلیل کرنے کی قوت ہے، اور کہا گیا ہے کہ اس کا رس سخت ورموں اور زخموں کو نرم کرتا، پیٹ کو مسہل کرتا اور بخار کی کپکپی میں مفید ہے {cite:canon-ibn-sina-print-v1 p.425} {cite:canon-ibn-sina-print-v1 p.426}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter ba and jim, scan pages 425-426, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); the editor's footnotes are used only for identity and name; footnotes quoting modern herbal or nutrition books are not used; measured doses and weights are left out; garbled OCR lines are left out, not guessed"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), lane A4"
+  model: claude-haiku-5-5
+  run: a4-canon-book2-7
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (book mining, lane A4)" }

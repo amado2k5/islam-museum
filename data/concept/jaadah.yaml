@@ -1,0 +1,23 @@
+id: concept/jaadah
+class: concept
+kind: natural
+label:
+  ar: "جعدة"
+  en: "Jaadah (a kind of wormwood)"
+  ur: "جعدہ ⁦(شیح کی ایک قسم)⁩"
+summary:
+  ar: "نوع من الشيح فيه حرارة وحدّة يسيرة؛ الكبير منه يفتح السدد ويدمل الجراحات الطرية، والصغير أحدّ، ويُطلى بالخل لورم الطحال، ويدرّ البول ويسهّل، وينفع من الاستسقاء والحمّيات المزمنة، وهو عموماً رديء للمعدة {cite:canon-ibn-sina-print-v1 p.424} {cite:canon-ibn-sina-print-v1 p.425}."
+  en: "A kind of wormwood with a little heat and sharpness. The larger kind opens deep blockages and heals fresh wounds; the smaller is sharper. With vinegar it is applied to a swollen spleen. The book says it moves urine, purges, helps dropsy, yellow jaundice and chronic fevers, and that in general it is bad for the stomach {cite:canon-ibn-sina-print-v1 p.424} {cite:canon-ibn-sina-print-v1 p.425}."
+  ur: "شیح کی ایک قسم جس میں تھوڑی گرمی اور تیزی ہے؛ بڑی قسم اندرونی رکاوٹیں کھولتی اور تازہ زخم بھرتی ہے، چھوٹی زیادہ تیز ہے۔ سرکے کے ساتھ تلی کے ورم پر لیپ کیا جاتا ہے۔ کتاب کے مطابق یہ پیشاب جاری کرتی، مسہل ہے، استسقا، کالے یرقان اور دائمی بخار میں مفید ہے، اور عمومی طور پر معدے کے لیے بری ہے {cite:canon-ibn-sina-print-v1 p.424} {cite:canon-ibn-sina-print-v1 p.425}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter ba and jim, scan pages 424-425, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); the editor's footnotes are used only for identity and name; footnotes quoting modern herbal or nutrition books are not used; measured doses and weights are left out; garbled OCR lines are left out, not guessed"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), lane A4"
+  model: claude-haiku-5-5
+  run: a4-canon-book2-7
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (book mining, lane A4)" }
