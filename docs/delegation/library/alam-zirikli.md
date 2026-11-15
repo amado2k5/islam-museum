@@ -20,3 +20,5 @@ Dates: only those in the running text or clearly legible heads are used (head da
 ## Next
 
 Continue page by page from PDF p. 56, same check-first rule.
+B2 packet b2-m37, 15 Nov 2026: person/qadi-khan (al-A'lam vol. 2 p. 223; ar/en/ur), person/muhammad-ibn-ahmad-al-ahsai (al-A'lam vol. 6 p. 11; ar/en/ur), person/qurayt-ibn-unayf (al-A'lam vol. 5 p. 195; ar/en/ur), person/salama-ibn-jandal-al-saadi (al-A'lam vol. 3 p. 106; ar/en/ur). Page reads are from the Shamela 0012286 OCR markers; the printed edition page were checked against the Shamela page markers by the verifier.
+B2 packet b2-m37, 15 Nov 2026, verifier correction: the existing cites mufaddaliyyat-rahmaniyya-1926 p. 46 (person/salama-ibn-jandal-al-saadi) and hamasa-abu-tammam-ed-1916 p. 6 (person/qurayt-ibn-unayf) are correct on the printed page numbers the source records use; the earlier 'wrong cite' note read the scan file index (p0046, p0006) instead of the printed number (printed 46 = scan 68, where the ode follows the heading 'Salama ibn Jandal al-Sa'di said'; printed 6 = scan 10, which names Qurayt ibn Unayf). No change needed to the records.

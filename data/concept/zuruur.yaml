@@ -1,0 +1,23 @@
+id: concept/zuruur
+class: concept
+kind: natural
+label:
+  ar: "الزعرور"
+  en: "Zu'rur (a thorny fruit tree)"
+  ur: "زعرور ⁦(کانٹے دار درخت)⁩"
+summary:
+  ar: "الزعرور شجرة مشوّكة، ثمرها صغير شبيه بالتفاح، لذيذ الحمرة، عفص الطعم؛ قابض يقمع الصفراء ويحبس السيلان، ومصدّع، ورديء للمعدة. {cite:canon-ibn-sina-print-v1 p.466}"
+  en: "Zu'rur is a thorny tree with small fruit like the apple, pleasant and red, astringent in taste. It is astringent, checks yellow bile and flows, causes headache, and is bad for the stomach. {cite:canon-ibn-sina-print-v1 p.466}"
+  ur: "زعرور ایک کانٹے دار درخت ہے جس کا پھل سیب سے چھوٹا، مزیدار اور سرخ، کسیلا ذائقہ؛ یہ قابض ہے، پیلے پت کو دباتا اور بہاؤ روکتا ہے، سر درد کرتا اور معدے کے لیے بُرا ہے۔ {cite:canon-ibn-sina-print-v1 p.466}"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter waw (end), letter zay, scan pages 466 to 467, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); the editor's footnotes are used only for identity and name; footnotes quoting modern herbal or nutrition books are not used; measured doses, weights and quantities are left out; garbled OCR lines are left out, not guessed"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), lane A4"
+  model: claude-haiku-5-5
+  run: a4-canon-book2-10
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (book mining, lane A4)" }

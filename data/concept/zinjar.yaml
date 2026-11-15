@@ -1,0 +1,23 @@
+id: concept/zinjar
+class: concept
+kind: natural
+label:
+  ar: "الزنجار"
+  en: "Zinjar (verdigris)"
+  ur: "زنجار ⁦(زنگار)⁩"
+summary:
+  ar: "الزنجار مادة خضراء تتكوّن من تفاعل حامض الخلّ مع النحاس، حار يابس إلى الرابعة، جلاء أكّال؛ يمنع القروح الساعية، وينفع الأذن والعين والبواسير، ومع العلك والنطرون ينفع الجرب المتقرّح والبرص والبهق. {cite:canon-ibn-sina-print-v1 p.465}"
+  en: "Zinjar, verdigris, is a green matter formed when vinegar acts on copper. Hot and dry to the fourth degree, it is a sharp cleanser that eats flesh; it stops running ulcers, helps the ear, the eye and piles, and with mastic and natron helps ulcerating scabies, baras and white patches. {cite:canon-ibn-sina-print-v1 p.465}"
+  ur: "زنجار ایک سبز مادہ ہے جو سرکے کا تانبے پر عمل کرنے سے بنتا ہے۔ چوتھے درجے تک گرم اور خشک؛ تیز صفائی کرنے والا اور گوشت گلانے والا ہے؛ یہ بہتے السر روکتا، کان، آنکھ اور بواسیر میں مفید ہے، اور کندر اور نطرون کے ساتھ خارش زدہ زخم، برص اور بہق میں مفید ہے۔ {cite:canon-ibn-sina-print-v1 p.465}"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter waw (end), letter zay, scan pages 464 to 465, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); the editor's footnotes are used only for identity and name; footnotes quoting modern herbal or nutrition books are not used; measured doses, weights and quantities are left out; garbled OCR lines are left out, not guessed"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), lane A4"
+  model: claude-haiku-5-5
+  run: a4-canon-book2-10
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (book mining, lane A4)" }

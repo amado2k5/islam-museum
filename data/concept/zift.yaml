@@ -1,0 +1,23 @@
+id: concept/zift
+class: concept
+kind: natural
+label:
+  ar: "الزفت"
+  en: "Zift (pitch)"
+  ur: "زفت ⁦(رال)⁩"
+summary:
+  ar: "الزفت صنفان: بحري أسود سيّال يدخل في المراهم، وجبلي برّي من سيلان شجر التنوب والصنوبر؛ منضج مسخّن، والرطب أشدّ إنضاجاً، واليابس أشدّ تجفيفاً؛ يليّن الأورام الصلبة، ويذهب القوابي، وينبت اللحم في القروح العميقة. {cite:canon-ibn-sina-print-v1 p.463}"
+  en: "Pitch has two kinds: a black, flowing sea pitch that enters ointments, and a mountain pitch from the resin of the fir and other pines. It ripens and warms; the moist kind ripens more and the dry kind dries more. It softens hard swellings, clears scabs, and grows flesh in deep ulcers. {cite:canon-ibn-sina-print-v1 p.463}"
+  ur: "زفت کی دو قسمیں ہیں: سمندری، سیاہ اور رواں، جو مرہموں میں داخل ہوتا ہے، اور پہاڑی، جو تنوب اور صنوبر کے درختوں کے رس سے ہوتا ہے۔ یہ پکاتا اور گرم کرتا ہے؛ گیلا زیادہ پکاتا ہے اور خشک زیادہ خشک کرتا ہے۔ یہ سخت سوجن کو نرم کرتا، کھرنڈ دور کرتا، اور گہرے السر میں گوشت اگاتا ہے۔ {cite:canon-ibn-sina-print-v1 p.463}"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter waw (end), letter zay, scan pages 463, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); the editor's footnotes are used only for identity and name; footnotes quoting modern herbal or nutrition books are not used; measured doses, weights and quantities are left out; garbled OCR lines are left out, not guessed"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), lane A4"
+  model: claude-haiku-5-5
+  run: a4-canon-book2-10
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (book mining, lane A4)" }
