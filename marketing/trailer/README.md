@@ -1,6 +1,6 @@
 # islam.museum trailer
 
-A 38.4-second social trailer (1920×1080, 30 fps) built with [HyperFrames](https://hyperframes.heygen.com): HTML, CSS and a seekable GSAP timeline rendered to MP4. Requested by the founder on 14 November 2026.
+A 38.4-second social trailer in two cuts, landscape (1920×1080) and vertical (1080×1920, in `vertical/`), both at 30 fps, built with [HyperFrames](https://hyperframes.heygen.com): HTML, CSS and a seekable GSAP timeline rendered to MP4. Requested by the founder on 14 November 2026.
 
 ## Render it
 
@@ -11,6 +11,7 @@ node scripts/build-audio.mjs                         # writes assets/audio/bed.w
 cp ~/.claude/skills/media-use/audio/assets/sfx/{impact-bass-1,impact-bass-2,riser,whoosh,whoosh-cinematic}.mp3 assets/sfx/
 npm run check                                        # lint, layout, motion, contrast
 npm run render -- --quality delivery -o renders/islam-museum-trailer.mp4
+cd vertical && npm run check && npm run render -- --quality delivery -o ../renders/islam-museum-trailer-vertical.mp4
 ```
 
 The MP4, `bed.wav` and the five effect files are not in git (`.gitignore`): video and audio are media, and the effects are HyperFrames' bundled Pixabay sounds, which may be used in a video but not redistributed as files (`assets/sfx/CREDITS.md`).
@@ -36,6 +37,10 @@ Nothing on screen is invented. `scripts/build-data.mjs` reads the graph and writ
 | 31.2–33.6 | Free / No ads / Forever |
 | 33.6–38.4 | The dots collapse into the mark; name, button, languages |
 
+## The vertical cut
+
+`vertical/` is the same film recomposed for 9:16, not a crop: its own `index.html` and scenes, sharing `assets/` through a symlink. Words sit between 168 px and 1330 px from the top, the band the apps leave free; below it there are only dots. The map is cropped to 18°W–105°E so it fills the width, the timeline labels every fourth century, and the end card stacks the mark over the name. A change to the copy, the numbers or the timing is made in both folders. `npm run check` still warns that the widest centred words ("Until now", "No ads", the name) and the timeline's year labels touch the edge of one app's safe area or another; they were kept at that size on purpose.
+
 ## Sound
 
 A synthesised bed (`scripts/build-audio.mjs`): sub booms, a low brass-like swell, frame-drum hits on the beat and a drone, with no melody. Bundled impact, whoosh and riser effects sit on the cuts. Measured on the render: −13.3 LUFS integrated, −1.1 dBFS peak, hits on the beat grid. It was measured, not listened to, by the agent that built it.
@@ -45,4 +50,4 @@ A synthesised bed (`scripts/build-audio.mjs`): sub booms, a low brass-like swell
 - Not built: a version on real screens of the site (search, a record page, the Time Browser), and a single endless zoom from one record out to the whole graph.
 - Weakest shot: the sources shelves read as bars more than books.
 - Kept on purpose: each wing is on screen 0.4 s, a montage, shorter than a comfortable read of both languages.
-- English with Arabic titles only; an Arabic-first and an Urdu cut, and a 9:16 recomposition, are not made yet.
+- English with Arabic titles only; an Arabic-first and an Urdu cut are not made yet.

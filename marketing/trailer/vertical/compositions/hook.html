@@ -1,0 +1,43 @@
+<template>
+  <style>
+    @font-face { font-family: "IM Inter"; font-weight: 900; src: url("assets/fonts/inter-latin-900-normal.woff2") format("woff2"); }
+    @font-face { font-family: "IM Inter"; font-weight: 500; src: url("assets/fonts/inter-latin-500-normal.woff2") format("woff2"); }
+    @font-face { font-family: "IM Serif"; font-weight: 600; src: url("assets/fonts/source-serif-4-latin-600-normal.woff2") format("woff2"); }
+    @font-face { font-family: "IM Kufi"; font-weight: 700; src: url("assets/fonts/reem-kufi-arabic-700-normal.woff2") format("woff2"); }
+    #root { position: absolute; inset: 0; font-family: "IM Inter", sans-serif; font-weight: 900; color: #f9f8f6; text-transform: uppercase; letter-spacing: -0.035em; line-height: 0.86; }
+    .clip { position: absolute; inset: 0; }
+    .w { display: inline-block; white-space: pre; }
+    #hk-1, #hk-2, #hk-3, #hk-4 { display: flex; flex-direction: column; justify-content: center; padding: 168px 110px 590px; }
+    #hk-1 { font-size: 128px; text-align: center; }
+    #hk-2 { font-size: 240px; }
+    #hk-2-in, #hk-4-in { width: 100%; text-align: center; }
+    #hk-2 .gold { color: #c5a059; }
+    #hk-3 { font-size: 128px; text-align: center; }
+    #hk-4 { font-size: 240px; }
+  </style>
+  <div id="root" data-composition-id="hook" data-width="1080" data-height="1920">
+    <div id="hk-1" class="clip" data-start="0" data-duration="1.2"><div id="hk-1-in"><div>Fourteen</div><div>centuries</div></div></div>
+    <div id="hk-2" class="clip" data-start="1.2" data-duration="1.2"><div id="hk-2-in"><div>One</div><div class="gold">story</div></div></div>
+    <div id="hk-3" class="clip" data-start="2.4" data-duration="2.4"><div id="hk-3-in">
+      <div><span class="w hk3w">Scattered</span></div>
+      <div><span class="w hk3w">across </span><span class="w hk3w">a</span></div>
+      <div><span class="w hk3w">thousand</span></div>
+      <div><span class="w hk3w">books</span></div>
+    </div></div>
+    <div id="hk-4" class="clip" data-start="4.8" data-duration="2.4"><div id="hk-4-in"><div>Until</div><div>now</div></div></div>
+  </div>
+  <script>
+    (function () {
+      const tl = gsap.timeline({ paused: true });
+      // Frame 0 is the thumbnail: the line is already on screen and settles.
+      tl.fromTo("#hk-1-in", { scale: 1.12, transformOrigin: "50% 50%" }, { scale: 1, duration: 0.5, ease: "expo.out" }, 0);
+      tl.fromTo("#hk-2-in", { scale: 1.7, filter: "blur(14px)" }, { scale: 1, filter: "blur(0px)", duration: 0.26, ease: "expo.out" }, 1.2);
+      tl.fromTo(".hk3w", { opacity: 0, filter: "blur(10px)" }, { opacity: 1, filter: "blur(0px)", duration: 0.14, stagger: 0.08, ease: "power2.out" }, 2.4);
+      tl.fromTo("#hk-4-in", { scale: 0.7, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.22, ease: "expo.out" }, 4.8);
+      // The line is pulled into the same point as every dot behind it.
+      tl.fromTo("#hk-4-in", { scale: 1, filter: "blur(0px)" }, { scale: 0, filter: "blur(6px)", duration: 1.0, ease: "power4.in", immediateRender: false }, 6.14);
+      window.__timelines = window.__timelines || {};
+      window.__timelines["hook"] = tl;
+    })();
+  </script>
+</template>

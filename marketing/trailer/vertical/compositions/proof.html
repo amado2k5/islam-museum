@@ -1,0 +1,80 @@
+<template>
+  <style>
+    @font-face { font-family: "IM Inter"; font-weight: 900; src: url("assets/fonts/inter-latin-900-normal.woff2") format("woff2"); }
+    @font-face { font-family: "IM Inter"; font-weight: 500; src: url("assets/fonts/inter-latin-500-normal.woff2") format("woff2"); }
+    @font-face { font-family: "IM Serif"; font-weight: 600; src: url("assets/fonts/source-serif-4-latin-600-normal.woff2") format("woff2"); }
+    @font-face { font-family: "IM Kufi"; font-weight: 700; src: url("assets/fonts/reem-kufi-arabic-700-normal.woff2") format("woff2"); }
+    #root { position: absolute; inset: 0; font-family: "IM Inter", sans-serif; font-weight: 900; color: #f9f8f6; text-transform: uppercase; letter-spacing: -0.035em; line-height: 0.86; }
+    .clip { position: absolute; inset: 0; }
+    .w { display: inline-block; white-space: pre; }
+    .num { font-variant-numeric: tabular-nums; display: block; }
+    .slab { position: absolute; background: #c5a059; color: #0a2533; padding: 30px 44px 34px; }
+    .slab .num { font-size: 160px; }
+    .slab .lab { font-size: 64px; letter-spacing: -0.01em; line-height: 1; margin-top: 24px; }
+    .note { font-weight: 500; font-size: 34px; letter-spacing: 0.06em; line-height: 1.1; margin-top: 16px; }
+    #pf-1 { display: flex; flex-direction: column; justify-content: center; padding: 168px 110px 590px; text-align: center; align-items: center; }
+    #pf-1 .num { font-size: 240px; }
+    #pf-1-lab { font-size: 54px; letter-spacing: 0; color: #0a2533; background: #c5a059; padding: 16px 36px 20px; margin-top: 26px; line-height: 1; }
+    #pf-2-slab { left: 90px; top: 280px; }
+    #pf-3-slab { right: 130px; top: 280px; text-align: right; }
+    #pf-4-slab { left: 90px; top: 280px; background: none; color: #f9f8f6; padding: 0; }
+    #pf-4-slab .lab { font-size: 50px; }
+    #pf-4-slab .num { color: #c5a059; }
+    .axis { position: absolute; top: 1296px; width: 104px; text-align: center; font-size: 30px; letter-spacing: 0; color: #e6d5b8; line-height: 1; }
+    #pf-5 { display: flex; flex-direction: column; justify-content: center; padding: 168px 110px 590px; text-align: center; align-items: center; }
+    #pf-5 .num { font-size: 168px; color: #c5a059; }
+    #pf-5-lab { font-size: 70px; letter-spacing: 0.02em; margin-top: 14px; line-height: 1; }
+    #pf-6-slab { right: 130px; top: 280px; text-align: right; }
+  </style>
+  <div id="root" data-composition-id="proof" data-width="1080" data-height="1920">
+    <div id="pf-1" class="clip" data-start="0" data-duration="2.4">
+      <div id="pf-1-in"><span id="pf-1-num" class="num">61,382</span></div>
+      <div id="pf-1-lab">records in one graph</div>
+    </div>
+    <div id="pf-2" class="clip" data-start="2.4" data-duration="2.4">
+      <div id="pf-2-slab" class="slab"><span class="num">3,878</span><div class="lab">places on the map</div><div class="note">Every dot is a real record</div></div>
+    </div>
+    <div id="pf-3" class="clip" data-start="4.8" data-duration="2.4">
+      <div id="pf-3-slab" class="slab"><span id="pf-3-num" class="num">81,533</span><div class="lab">connections</div></div>
+    </div>
+    <div id="pf-4" class="clip" data-start="7.2" data-duration="2.4">
+      <div id="pf-4-slab" class="slab"><span class="num">5,390</span><div class="lab">events, century by century</div></div>
+      <div id="pf-4-axis">
+        <div class="axis" style="left: 76.2px">500</div><div class="axis" style="left: 311.5px">900</div><div class="axis" style="left: 546.8px">1300</div><div class="axis" style="left: 782.1px">1700</div>
+      </div>
+    </div>
+    <div id="pf-5" class="clip" data-start="9.6" data-duration="2.4">
+      <div id="pf-5-in"><span class="num">11,640</span></div>
+      <div id="pf-5-lab">people</div>
+    </div>
+    <div id="pf-6" class="clip" data-start="12" data-duration="2.4">
+      <div id="pf-6-slab" class="slab"><span class="num">9,387</span><div class="lab">sources</div><div class="note">Every claim sourced</div></div>
+    </div>
+  </div>
+  <script>
+    (function () {
+      const tl = gsap.timeline({ paused: true });
+      const fmt = (v) => Math.round(v).toLocaleString("en-US");
+      const roll = (id, to, at, dur) => { const el = document.getElementById(id), o = { v: to * 0.08 }; tl.fromTo(o, { v: to * 0.08 }, { v: to, duration: dur, ease: "expo.out", onUpdate: () => { el.textContent = fmt(o.v); } }, at); };
+      // 1 · the count rolls up as the grid sweeps in
+      roll("pf-1-num", 61382, 0, 0.9);
+      tl.fromTo("#pf-1-in", { scale: 1.25 }, { scale: 1, duration: 0.5, ease: "expo.out" }, 0);
+      tl.fromTo("#pf-1-lab", { clipPath: "inset(0% 100% 0% 0%)" }, { clipPath: "inset(0% 0% 0% 0%)", duration: 0.3, ease: "power3.out" }, 0.5);
+      // 2 · slab wipes in from the left while the grid becomes the map
+      tl.fromTo("#pf-2-slab", { clipPath: "inset(0% 100% 0% 0%)" }, { clipPath: "inset(0% 0% 0% 0%)", duration: 0.32, ease: "power4.out" }, 2.4 + 0.3);
+      // 3 · slab drops from the top edge; the count rolls with the arcs
+      tl.fromTo("#pf-3-slab", { y: -420 }, { y: 0, duration: 0.34, ease: "expo.out" }, 4.8);
+      roll("pf-3-num", 81533, 4.8, 1.5);
+      // 4 · blur-in, then the axis ticks in left to right
+      tl.fromTo("#pf-4-slab", { opacity: 0, filter: "blur(12px)" }, { opacity: 1, filter: "blur(0px)", duration: 0.18, ease: "power2.out" }, 7.2 + 0.25);
+      tl.fromTo("#pf-4-axis .axis", { opacity: 0 }, { opacity: 1, duration: 0.08, stagger: 0.05, ease: "none" }, 7.2 + 0.5);
+      // 5 · punches in from large inside the rings
+      tl.fromTo("#pf-5-in", { scale: 2.2, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.3, ease: "expo.out" }, 9.6 + 0.3);
+      tl.fromTo("#pf-5-lab", { opacity: 0 }, { opacity: 1, duration: 0.12, ease: "none" }, 9.6 + 0.6);
+      // 6 · slab wipes in from the right
+      tl.fromTo("#pf-6-slab", { clipPath: "inset(0% 0% 0% 100%)" }, { clipPath: "inset(0% 0% 0% 0%)", duration: 0.32, ease: "power4.out" }, 12 + 0.3);
+      window.__timelines = window.__timelines || {};
+      window.__timelines["proof"] = tl;
+    })();
+  </script>
+</template>
