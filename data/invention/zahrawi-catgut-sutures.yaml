@@ -1,0 +1,110 @@
+id: invention/zahrawi-catgut-sutures
+class: invention
+label:
+  ar: "خيوط الأمعاء ⁦(catgut)⁩ للزهراوي"
+  en: "Al-Zahrawi's catgut sutures"
+  ur: "الزہراوی کی آنتوں کی سلائیاں"
+names:
+  - { value: "catgut sutures", kind: alternate, lang: en }
+  - { value: "gut sutures of al-Tasrif", kind: alternate, lang: en }
+summary:
+  ar: "نصّ «التصريف» على استعمال خيوط من أمعاء الحيوان ⁦(catgut)⁩ لخياطة الجروح الداخلية — خيط يمتصه الجسم فلا يحتاج نزعه — وهي أقدم صيغة مكتوبة معروفة لاستعمال الخيوط القابلة للامتصاص في الجراحة، وما زال مبدأها يعمل في خيوط اليوم."
+  en: "Al-Tasrif specifies sutures made from animal gut — thread the body absorbs so it need not be removed — the earliest known written use of absorbable sutures in surgery, and the principle still works in today's sutures."
+  ur: "التصریف میں جانوروں کی آنتوں کے بنے دھاگے ⁦(catgut)⁩ سے اندرونی زخموں کی سلائی متعین ہے — دھاگا جسے جسم جذب کرتا ہے نکالنے کی ضرورت نہیں — جراحی میں جذب ہونے والی سلائیوں کے قدیم ترین معلوم تحریری استعمال، اور اصول آج بھی چلتا ہے۔"
+domain: medicine-surgery
+kind: technique
+disciplines: [medicine]
+wings: [ideas]
+regions: [andalus-europe]
+periods: [period/buyid-seljuk-fatimid-era]
+themes: [medicine]
+era:
+  origins: middle-period
+  first_attested:
+    edtf: "1000"
+    hijri: "0390"
+    calendar: julian
+    precision: century
+    status: historical
+    note: "Al-Tasrif's surgical treatise dates to al-Zahrawi's lifetime (d. c. 1013 CE); Spink & Lewis's edition is the modern witness {cite:zahrawi-spink-lewis-1973}."
+    sources: [source/zahrawi-spink-lewis-1973]
+  status_today: transformed
+origin:
+  place: place/cordoba
+  context:
+    ar: "قرطبة الأموية، بلاط الخلفاء الأندلسيين."
+    en: "Umayyad Cordoba, the Andalusi caliphal court."
+    ur: "اموی قرطبہ، اندلسی خلفا کا دربار۔"
+makers:
+  - person: person/al-zahrawi
+    role: inventor
+    note: "Documented in al-Tasrif; his Muslim identity is recorded on the person record."
+    sources: [source/zahrawi-spink-lewis-1973, source/tdv-tasrif-zehravi]
+attribution:
+  status: original
+  claim:
+    ar: "أقدم نص جراحي مقروء يصف خيوطاً قابلة للامتصاص ⁦(خيوط الأمعاء)⁩ للجروح الداخلية."
+    en: "The earliest surgical text read that describes absorbable sutures (gut thread) for internal wounds."
+    ur: "پڑھا گیا قدیم ترین جراحی متن جو اندرونی زخموں کے لیے جذب ہونے والی سلائی ⁦(آنت کا دھاگا)⁩ بیان کرتا ہے۔"
+  basis:
+    ar: "تنص ترجمة وطبعة Spink & Lewis للجزء الجراحي على خيوط الأمعاء في الخياطة الداخلية؛ ويذكر Leclerc نصّه اللاتيني {cite:zahrawi-spink-lewis-1973} {cite:zahrawi-leclerc-chirurgie-1861}."
+    en: "Spink & Lewis's edition of the surgical treatise records gut thread for internal suturing; Leclerc prints the Latin text {cite:zahrawi-spink-lewis-1973} {cite:zahrawi-leclerc-chirurgie-1861}."
+    ur: "Spink & Lewis کی طباعت جراحی مقالے میں اندرونی سلائی کے لیے آنت کا دھاگا درج کرتی ہے؛ Leclerc لاطینی متن چھاپتا ہے {cite:zahrawi-spink-lewis-1973} {cite:zahrawi-leclerc-chirurgie-1861}۔"
+precursors:
+  - external:
+      ar: "خياطة الجروح بخيوط النبات والحرير في الطب القديم — خيوط لا تُمتص."
+      en: "Wound suturing with plant and silk threads in ancient medicine — non-absorbable thread."
+      ur: "قدیم طب میں پودوں اور ریشم کے دھاگوں سے زخم کی سلائی — نا جذب ہونے والا دھاگا۔"
+    note: "Sutures existed; the step is the absorbable gut material for internal work."
+    sources: [source/zahrawi-spink-lewis-1973]
+dependents:
+  - external:
+      ar: "خيوط الجراحة القابلة للامتصاص الحديثة — catgut المعالج ثم الاصطناعية (vicryl, PDS)."
+      en: "Modern absorbable surgical sutures — treated catgut then synthetics (vicryl, PDS)."
+      ur: "جدید جذب ہونے والی جراحی سلائیاں — صاف شدہ catgut پھر مصنوعی ⁦(vicryl، PDS)⁩۔"
+    note: "The material continued; the synthetic absorbable line replaces gut today."
+    sources: [source/zahrawi-spink-lewis-1973]
+spread: []
+impact:
+  fields: [medicine-surgery]
+  changed:
+    ar: "جعل خياطة الجروح الداخلية ممكنة دون فتح ثانٍ لنزع الخيط — الخيط يمتصه الجسم."
+    en: "Made internal wound suturing possible without a second opening to remove the thread — the body absorbs it."
+    ur: "اندرونی زخم کی سلائی ممکن بنائی بغیر دوسرے شق کے دھاگہ نکالنے کے لیے — جسم اسے جذب کرتا ہے۔"
+  history:
+    ar: "أقدم شاهد مكتوب على مادة الخياطة القابلة للامتصاص — الفكرة التي بنى عليها خط الخيوط الحديث."
+    en: "The earliest written witness to an absorbable suture material — the idea on which the modern suture line was built."
+    ur: "جذب ہونے والے سلائی مادے کی قدیم ترین تحریری گواہی — وہ خیال جس پر جدید سلائی لائن بنی۔"
+  significance: 4
+  why: "A documented surgical-material innovation with a living descendant; firstness is textual."
+described_in: [work/al-tasrif-fi-al-tibb]
+examples: []
+sites: [place/cordoba]
+concepts: []
+today:
+  form:
+    ar: "حلّت الخيوط الاصطناعية القابلة للامتصاص محل الأمعاء الحقيقية — لكن مبدأ «خيط يزول من تلقاء نفسه» هو نفسه."
+    en: "Synthetic absorbable sutures have replaced real gut — but the 'thread that removes itself' principle is the same."
+    ur: "مصنوعی جذب ہونے والی سلائیوں نے اصل آنت کی جگہ لے لی — لیکن «خود غائب ہونے والا دھاگا» کا اصول وہی ہے۔"
+  descendants:
+    ar: "vicryl وPDS وخيوط الجراحة المجهرية — كلها بنت المبدأ نفسه."
+    en: "vicryl, PDS and microsurgical sutures — all children of the same principle."
+    ur: "vicryl، PDS اور خرد جراحی سلائیاں — سب اسی اصول کی اولاد۔"
+media:
+  image: media/zahrawi-instruments-context
+  diagram: media/diagram-zahrawi-catgut-sutures
+kids:
+  ar: "عندما يُجرَّح الجسم من الداخل، كيف يخيطه الطبيب ثم يُخرج الخيط؟ فكّر الزهراوي قبل ألف سنة: استعمل خيطاً من أمعاء الحيوان يذوب في الجسم — فيُخيط ولا يحتاج أن يفتح مرة ثانية. هذه فكرة الخيوط القابلة للامتصاص التي ما زالت تعمل اليوم."
+  en: "When the body is cut inside, how does the doctor stitch it and then take the thread out? Al-Zahrawi thought a thousand years ago: use a thread of animal gut that dissolves in the body — stitch once and no second opening needed. That is the absorbable-suture idea still working today."
+  ur: "جب جسم اندر سے کٹتا ہے، ڈاکٹر اسے کیسے سلائے اور پھر دھاگہ کیسے نکالے؟ الزہراوی نے ہزار سال پہلے سوچا: جانور کی آنت کا دھاگا استعمال کرو جو جسم میں گھل جائے — ایک بار سلاؤ، دوسرا شق نہیں چاہیے۔ یہی جذب ہونے والی سلائی کا خیال آج بھی چلتا ہے۔"
+sources:
+  - source/zahrawi-spink-lewis-1973
+  - source/zahrawi-leclerc-chirurgie-1861
+  - source/tdv-tasrif-zehravi
+status: { review: published, completeness: 2 }
+provenance:
+  layer: own-research
+  generated_by: devin-orchestrator-solo
+  model: SWE-2
+  run: inventions-w2-22
+  source: "Spink & Lewis 1973 and Leclerc 1861 surgical texts via source records; TDV et-TASRÎF entry"

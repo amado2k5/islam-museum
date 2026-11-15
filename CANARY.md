@@ -13,10 +13,15 @@ open a new block on top with the new version and today's date.
 
 ---
 
-## v1.38.0 — 2026-11-15
+## v1.39.0 — 2026-11-15
 ### Added
 - Job Browser: two more crafts join the trades — the butcher (qassab/jazzar), under the strictest hisba supervision of slaughter, skinning and sale, and the goldsmith (sa'igh/zerger), from the Topkapı workshop registers to Evliya Çelebi's three-thousand-shop Istanbul guild and its twenty-year festival — in Arabic, English and Urdu draft cited to the TDV 'KASAP' and 'KUYUMCULUK' entries.
 
+---
+
+## v1.38.0 — 2026-11-16
+### Added
+- Four more Inventions Browser records, each with Arabic, English and Urdu prose: al-Kindi's frequency analysis — the earliest written cipher-breaking method; al-Jazari's elephant clock, the most famous documented medieval automaton; al-Razi's smallpox-and-measles treatise, the first known written differentiation of two diseases; and al-Zahrawi's catgut sutures, the earliest recorded absorbable surgical thread.
 ---
 
 ## v1.37.0 — 2026-11-15
