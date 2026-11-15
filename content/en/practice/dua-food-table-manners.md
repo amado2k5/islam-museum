@@ -1,0 +1,11 @@
+---
+id: practice/dua-food-table-manners
+lang: en
+source_lang: ar
+translators: ["Claude Fable 5.2 (claude-fable-5-2), draft translation"]
+---
+## Summary
+What al-Nawawi gathers in al-Adhkar in the chapters on food: saying one does not care for a dish, praising the food, the fasting guest, one who follows the invited, and counsel to one who eats badly. {cite:al-adhkar-nawawi-arnaut-1994 p. 232}
+
+## What al-Nawawi gathers in al-Adhkar
+Al-Nawawi reports in the two Sahihs, from Khalid ibn al-Walid in the report of the lizard, that when asked whether it was forbidden [[person/muhammad|the Prophet]] said «لا، ولكنه لم يكن بأرض قومي فأجدني أعافه», no, but it was not found in my people's land and I find I dislike it, under a chapter he titles the permissibility of saying one does not care for a food when need calls for it {cite:al-adhkar-nawawi-arnaut-1994 p. 232}. On praising food he reports in Sahih Muslim from Jabir that the Prophet asked his family for a relish, they said they had only vinegar, and he ate of it saying «نعم الأدم الخل», what a fine relish is vinegar {cite:al-adhkar-nawawi-arnaut-1994 p. 232}. For one who attends a meal while fasting he reports in Sahih Muslim from Abu Hurayra: «إذا دعي أحدكم فليجب فإن كان صائما فليصل», saying scholars take "pray" to mean supplicate, and in Ibn al-Sunni's book he supplicates for blessing {cite:al-adhkar-nawawi-arnaut-1994 p. 232}. From Abu Mas'ud al-Ansari in the two Sahihs: a man invited him as one of five and another followed, and the Prophet told the host to admit him if he wished or he would turn back, and the host admitted him {cite:al-adhkar-nawawi-arnaut-1994 p. 232}. On correcting bad manners he reports from Umar ibn Abi Salama in the two Sahihs that his hand wandered over the dish and the Prophet said «يا غلام سم الله وكل بيمينك وكل مما يليك» {cite:al-adhkar-nawawi-arnaut-1994 p. 232} {cite:al-adhkar-nawawi-arnaut-1994 p. 233}; from Ibn Umar in the two Sahihs the prohibition on taking two dates in one mouthful unless one asks one's brother's leave {cite:al-adhkar-nawawi-arnaut-1994 p. 233}; and from Salama ibn al-Akwa in Sahih Muslim the man who ate with his left hand and was told «كل بيمينك», whom al-Nawawi identifies as the Companion Busr ibn Ra'i al-Ayr {cite:al-adhkar-nawawi-arnaut-1994 p. 233}.
