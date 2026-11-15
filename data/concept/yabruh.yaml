@@ -1,0 +1,23 @@
+id: concept/yabruh
+class: concept
+kind: natural
+label:
+  ar: "يبروح"
+  en: "Yabruh (mandrake)"
+  ur: "یبروح ⁦(منڈریک)⁩"
+summary:
+  ar: "أصل اللفاح البري الذي يشبه صورة الإنسان، مخدِّر منوِّم خطر يصفه الكتاب بأوصاف الأدوية المسكنة، ويعالج الكتاب تسممه بالعسل والسمن والتقيؤ."
+  en: "Mandrake, the root of the wild mandrake plant, shaped like a human figure. The book describes it as narcotic and sleep-inducing and dangerous, and gives honey, ghee and vomiting as its treatment in poisoning."
+  ur: "منڈریک، جنگلی پودے کی جڑ جو انسانی صورت جیسی ہوتی ہے۔ کتاب اسے سکون آور، نیند لانے والی اور خطرناک بتاتی ہے، اور زہر کی صورت میں شہد، گھی اور قے کو علاج بتاتی ہے۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, scan pages 509 to 511, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, semen and desire reports kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), lane A4"
+  model: claude-haiku-5-5
+  run: a4-canon-book2-14
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (book mining, lane A4)" }

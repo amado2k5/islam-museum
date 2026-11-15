@@ -1,0 +1,23 @@
+id: concept/hayya
+class: concept
+kind: natural
+label:
+  ar: "حيّة"
+  en: "Hayya (the snake)"
+  ur: "حیہ ⁦(سانپ)⁩"
+summary:
+  ar: "الحيّة أصناف كثيرة، يُستعمل لحمها مطبوخاً ومرقها وسلخها. لحم الأنثى أجود، وسلخ الذكر أجود. تجفيفها في لحمها قوي، وسلخها أشدّ تجفيفاً. ويذكر الكتاب أن لحمها يطيل العمر ويقوّي القوة ويحفظ الحواس، وينفع من الجذام، ويعالج داء الثعلب، وأن مرقها وسلخها ينفعان في الرأس والأذن والسنّ والعين. وما ينسب إلى الخيوط والخنق بالأفعى من طلاسم وتعاويذ متروك."
+  en: "The snake comes in many kinds; its flesh, broth and skin are used. The female's flesh and the male's skin are best. Its flesh dries strongly, and its skin dries more strongly still. The book says its flesh prolongs life, strengthens bodily strength, preserves the senses, helps leprosy and helps alopecia greatly; its broth and skin help the head, the ear, the tooth and the eye. The threads and strangling of a viper that the book attributes to a remedy of charm are left out."
+  ur: "سانپ کی بہت سی قسمیں ہیں؛ اس کا گوشت، شوربہ اور کھال استعمال ہوتے ہیں۔ مادہ کا گوشت اور نر کی کھال بہتر ہے۔ اس کا گوشت شدید خشک کرتا ہے اور کھال اس سے بھی زیادہ۔ کتاب کہتی ہے کہ اس کا گوشت عمر بڑھاتا، قوت دیتا، حواس محفوظ رکھتا، جذام میں مفید ہے اور داء الثعلب میں بہت مفید ہے؛ اس کا شوربہ اور کھال سر، کان، دانت اور آنکھ میں مفید ہیں۔ تعویذ جیسے ٹوٹکوں کے دھاگے اور سانپ کا گلا گھونٹنے کا بیان چھوڑ دیا گیا ہے۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, scan pages 494 to 495, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); the editor's footnotes are used only for identity and name; footnotes quoting modern herbal or nutrition books are not used; measured doses, weights and quantities are left out; garbled OCR lines are left out, not guessed; womb, menses, foetus, afterbirth, semen and desire reports are kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), lane A4"
+  model: claude-haiku-5-5
+  run: a4-canon-book2-12
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (book mining, lane A4)" }

@@ -1,0 +1,23 @@
+id: concept/hajar-al-rahi
+class: concept
+kind: natural
+label:
+  ar: "حجر الرحى"
+  en: "Hajar al-rahi (the millstone)"
+  ur: "حجر الرحیٰ ⁦(چکی کا پتھر)⁩"
+summary:
+  ar: "حجر الرحى هو ما تُجرش به الحبوب، وهكذا يعرّفه المحقّق. بخار الخلّ عنه يمنع النزف، ويمنع الأورام الحارة."
+  en: "The millstone is the stone that grinds grain, as the editor states. The vapour of vinegar over it stops bleeding and prevents hot swellings."
+  ur: "چکی کا پتھر وہ ہے جس سے غلہ پیسا جاتا ہے، جیسا کہ مدوّن نے بتایا ہے۔ اس پر سرکے کی بھاپ خون بہنا روکتی ہے اور گرم سوجن کو روکتی ہے۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, scan pages 496, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); the editor's footnotes are used only for identity and name; footnotes quoting modern herbal or nutrition books are not used; measured doses, weights and quantities are left out; garbled OCR lines are left out, not guessed; womb, menses, foetus, afterbirth, semen and desire reports are kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), lane A4"
+  model: claude-haiku-5-5
+  run: a4-canon-book2-12
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (book mining, lane A4)" }

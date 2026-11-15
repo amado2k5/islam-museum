@@ -1,0 +1,23 @@
+id: concept/hajar-asali
+class: concept
+kind: natural
+label:
+  ar: "حجر عسلي"
+  en: "Hajar asali (the honey stone)"
+  ur: "حجر عسلی"
+summary:
+  ar: "الحجر العسلي له حكاكة شديدة الحلاوة، وهو كالحجر اللبني في جميع أفعاله، وله قوة الشادنج، وفيه حرارة ما، ويعدّونه من الأدوية."
+  en: "The honey stone has a very sweet rubbing. It is like the milky stone in all its actions, has the strength of shadhanj, has some heat, and is counted among the drugs."
+  ur: "شہد جیسا یہ پتھر بہت میٹھی رگڑ رکھتا ہے۔ یہ اپنے تمام افعال میں حجر لبنی جیسا ہے، شادنج کی قوت رکھتا ہے، اس میں کچھ گرمی ہے، اور اسے دواؤں میں شمار کیا جاتا ہے۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, scan pages 496, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); the editor's footnotes are used only for identity and name; footnotes quoting modern herbal or nutrition books are not used; measured doses, weights and quantities are left out; garbled OCR lines are left out, not guessed; womb, menses, foetus, afterbirth, semen and desire reports are kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), lane A4"
+  model: claude-haiku-5-5
+  run: a4-canon-book2-12
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (book mining, lane A4)" }

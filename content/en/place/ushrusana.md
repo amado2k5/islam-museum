@@ -22,3 +22,10 @@ According to al-Baladhuri, Qutayba ibn Muslim took Yakand, Kish, Nasaf and al-Sh
 Nasr ibn Sayyar raided Ushrusana in the days of Marwan ibn Muhammad and took nothing from it. {cite:futuh-buldan-maarif-1407 p. 436}
 
 In al-Ma'mun's time his forces raided Sughd and Ushrusana. Its ruler Kawus had asked al-Fadl ibn Sahl for peace in return for tribute, but refused to keep it when al-Ma'mun reached Madinat al-Salam. When al-Ma'mun's army encamped before his city, Kawus submitted, declared Islam, and was confirmed by al-Ma'mun in his lands; his son Haydar, known as al-Afshin, succeeded him. {cite:futuh-buldan-maarif-1407 p. 437} {cite:futuh-buldan-maarif-1407 p. 438}
+
+## In Yaqut's Mu'jam al-buldan
+Yaqut calls Ushrusana a large town beyond the river, in the lands of the Hephthalites, lying between the Sayhun and Samarkand and twenty-six farsakhs from Samarkand. He places it in the fourth climate, gives its longitude as ninety-one degrees and a sixth and its latitude as thirty-six and two-thirds degrees. {cite:mujam-al-buldan-sader-1995 1 p.197}
+
+He reports al-Istakhri's view that Ushrusana is the name of a region, as al-Sughd is the name of a region, and that no single place bears the name. Its land is mostly mountain. Farghana lies to its east, the borders of Samarkand to its west, al-Shash and part of Farghana to the north, and parts of Kish, al-Saghaniyan, Shuman, Washjird and Rashti to the south. Its greatest city is called by a local name, and the governors live in Banikat. Other towns it names are Sabat, Zamin, Dizak and Kharqana. {cite:mujam-al-buldan-sader-1995 1 p.197}
+
+Yaqut lists scholars who took their name from the region, among them Abu Talha Hakim ibn Nasr. {cite:mujam-al-buldan-sader-1995 1 p.197}

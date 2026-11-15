@@ -1,0 +1,23 @@
+id: concept/talq
+class: concept
+kind: natural
+label:
+  ar: "طلق"
+  en: "Talq (talc)"
+  ur: "طلق"
+summary:
+  ar: "حجر براق، قابض حابس للدم، يستعمل في النورة، والمكلس منه أقوى وألطف، وسقيه فيه خطر."
+  en: "A shining stone, astringent and blood-stopping; used in depilatory paste; the calcined form is stronger and finer, and drinking it carries risk."
+  ur: "یہ چمکدار پتھر ہے، قابض اور خون روکنے والا؛ نوره میں استعمال ہوتا ہے، مکلس شدہ زیادہ قوی اور لطیف ہے، اور اسے پینے میں خطرہ ہے۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, scan pages 500, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); editor footnotes used only for identity; measured doses left out; garbled OCR left out, not guessed; womb, menses, semen and desire reports kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), lane A4"
+  model: claude-haiku-5-5
+  run: a4-canon-book2-13
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (book mining, lane A4)" }

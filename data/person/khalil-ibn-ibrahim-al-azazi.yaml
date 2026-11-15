@@ -5,6 +5,11 @@ summary:
   ar: "فلكي مصري شافعي من أواخر القرن الثالث عشر الهجري، صاحب رسالة في المزاول وفي خطوط فضل الدائر {cite:bibalex-azhar-astronomy-manuscripts-2006 p. 18}."
   en: "Egyptian Shafi'i astronomer of the late thirteenth century AH, author of a treatise on sundials and the lines of fadl al-da'ir {cite:bibalex-azhar-astronomy-manuscripts-2006 p. 18}."
   ur: "تیرھویں صدی ہجری کے اواخر کے مصری شافعی ماہرِ فلکیات، دھوپ گھڑیوں اور فضل الدائر کے خطوط پر رسالے کے مصنف {cite:bibalex-azhar-astronomy-manuscripts-2006 p. 18}۔"
+faith:
+  - value: sunni-shafii
+    basis: documented
+    note: "The Bibliotheca Alexandrina manuscript book describes him explicitly as a Shafi'i Egyptian astronomer of the late thirteenth century AH; Arabic treatise on sundials and qibla lines is the documented scholarly work."
+    sources: [source/bibalex-azhar-astronomy-manuscripts-2006]
 wings: [people]
 themes: [astronomy-and-timekeeping]
 regions: [egypt-nile]
@@ -19,8 +24,8 @@ relations:
 sources: [source/bibalex-azhar-astronomy-manuscripts-2006]
 provenance:
   layer: own-research
-  source: "source/bibalex-azhar-astronomy-manuscripts-2006 scan pp. 18"
-  generated_by: "Claude Code (OCR-harvest worker I)"
-  model: claude-opus-5-5
-  run: ocr-harvest-2026-11-04
+  source: "source/bibalex-azhar-astronomy-manuscripts-2006 scan pp. 18; faith block added by Devin drafter w2-07"
+  generated_by: "Claude Code (OCR-harvest worker I); faith block added by Devin drafter w2-07"
+  model: "SWE-2"
+  run: inventions-w2-07-drafting
 status: { review: published, completeness: 2 }
