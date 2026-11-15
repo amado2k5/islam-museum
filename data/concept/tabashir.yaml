@@ -1,0 +1,23 @@
+id: concept/tabashir
+class: concept
+kind: natural
+label:
+  ar: "طباشير"
+  en: "Tabashir (bamboo concretion)"
+  ur: "طباشیر"
+summary:
+  ar: "أصول القنا المخرقة، تُبرد وتقبض، ينفع من القلاع والقيء والتهاب المعدة وأورام العين الحارة."
+  en: "The roots of perforated cane; cooling and astringent, it helps thrush, vomiting, stomach inflammation and hot swellings of the eye."
+  ur: "چھیدوار سرکنڈے کی جڑیں؛ ٹھنڈک اور قبض والی، قلاع، قے، معدے کی سوزش اور آنکھ کی گرم سوجن میں فائدہ دیتی ہیں۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, scan pages 498, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); editor footnotes used only for identity; measured doses left out; garbled OCR left out, not guessed; womb, menses, semen and desire reports kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), lane A4"
+  model: claude-haiku-5-5
+  run: a4-canon-book2-13
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (book mining, lane A4)" }
