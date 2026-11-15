@@ -1,0 +1,51 @@
+id: event/al-hadi-has-the-slave-ibn-bilal-killed-and-crucified-at-al-darb-gate-294
+class: event
+kind: other
+label:
+  ar: "الهادي يأمر بقتل العبد ابن بلال وصلبه على باب الدرب، سنة 294هـ، ص340"
+  en: "Al-Hadi orders the slave Ibn Bilal killed and crucified at the gate of al-Darb, 294 AH, p. 340"
+  ur: "ہادی کا غلام ابن بلال کو قتل کرنے اور باب الدرب پر صلیب دینے کا حکم، 294ھ، ص340"
+summary:
+  ar: "أخرج الهادي عبداً من الحبس، فأمر الحريني بقتله بسيفه، ثم صُلبت جثته على باب الدرب، فاطمأنت البلد وهابها أهلها بحسب الكتاب."
+  en: "Al-Hadi had a slave taken out of prison, gave his sword to al-Huraini to kill him, and the body was crucified at the gate of al-Darb. According to the book the town grew calm and was in awe of the order."
+  ur: "ہادی نے ایک غلام کو قید سے نکلوایا اور حریبی کو اپنی تلوار دے کر اسے قتل کرنے کا حکم دیا، پھر لاش باب الدرب پر صلیب دی گئی۔ کتاب کے مطابق شہر پرسکون ہوا اور لوگ اس حکم سے مرعوب ہوئے۔"
+wings:
+- time
+themes:
+- crime-and-punishment
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0907~"
+    hijri: "0294"
+    calendar: julian
+    precision: year
+    status: tradition
+    derived: true
+    note: "من سياق الكتاب في سنة 294هـ؛ الكتاب لا يذكر يوماً."
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ali-ibn-muhammad-ibn-ubaydallah-al-abbasi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص340 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5)"
+  model: claude-haiku-5-5
+  run: a1-sira-p339-346-1
+status:
+  review: draft
+  completeness: 2
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 340"

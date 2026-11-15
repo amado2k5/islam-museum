@@ -1,0 +1,51 @@
+id: event/al-hadi-releases-the-yaam-prisoners-in-dhu-al-qada-294-and-seventeen-diyas-are-carried-to-the-wadia
+class: event
+kind: other
+label:
+  ar: "الهادي يطلق أسرى اليأميين في ذي القعدة 294هـ، وتُحمل سبع عشرة دية إلى الوادعيين، ص346"
+  en: "Al-Hadi releases the Ya'am prisoners in Dhu al-Qa'da 294 AH and seventeen blood-money payments are carried to the Wada'a, p. 346"
+  ur: "ہادی کا ذوالقعدہ 294ھ میں یامیین کے قیدی رہا کرنا اور وادعیین کو سترہ دیت پہنچانا، ص346"
+summary:
+  ar: "في ذي القعدة خرج محمد بن عبد الملك إلى الهادي فكلمه في أسرى اليأميين الذين حُبسوا لأجل الوادعيين، فأطلقهم، وحُملت سبع عشرة دية على عدد قتلى الوادعيين."
+  en: "In Dhu al-Qa'da Muhammad ibn Abd al-Malik went to al-Hadi and spoke for the Ya'am prisoners held over the Wada'a. Al-Hadi released them, and seventeen blood-money payments, matching the number of the Wada'a dead, were carried."
+  ur: "ذوالقعدہ میں محمد بن عبد الملک ہادی کے پاس گئے اور ان یامیین قیدیوں کے بارے میں بات کی جو وادعیین کے سبب قید تھے۔ ہادی نے انہیں رہا کیا، اور وادعیین کے مقتولوں کی تعداد کے مطابق سترہ دیت پہنچائی گئی۔"
+wings:
+- time
+themes:
+- crime-and-punishment
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0907-08/0907-09"
+    hijri: "0294-11"
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: "ذو القعدة سنة 294هـ بنص الكتاب؛ التحويل الشهري مشتق من التقويم الجدولي."
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ali-ibn-muhammad-ibn-ubaydallah-al-abbasi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص346 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5)"
+  model: claude-haiku-5-5
+  run: a1-sira-p339-346-1
+status:
+  review: draft
+  completeness: 2
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 346"

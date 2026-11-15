@@ -1,0 +1,55 @@
+id: event/qarmatians-taken-at-thala-and-al-dahhaf-taken-at-al-muwaqqiha-294
+class: event
+kind: raid
+label:
+  ar: "أسر قرامطة في حصن ثلا وأسر الدهف في الموقحة، سنة 294هـ، ص345"
+  en: "Qarmatians are taken at the fort of Thala and al-Dahhaf is taken at al-Muwaqqiha, 294 AH, p. 345"
+  ur: "حصن ثلا میں قرامطہ کا پکڑا جانا اور الموقحہ میں دہف کی گرفتاری، 294ھ، ص345"
+summary:
+  ar: "بلغ محمد بن عبيد الله أن قرامطة في حصن ثلا عند نفر من بني الحارث، فأرسل ابنيه علياً والقاسم فظفرا برجلين منهم، ثم ظفر علي بالدهف ورفاقه في الموقحة من قرى نجران وأودعهم الحبس."
+  en: "Muhammad ibn Ubaydallah learned that some Qarmatians were in the fort of Thala with men of Banu al-Harith. He sent his sons Ali and al-Qasim, who took two Qarmatians. Then Ali took al-Dahhaf and his companions at al-Muwaqqiha, a village of Najran, and had them put in prison."
+  ur: "محمد بن عبید اللہ کو خبر ملی کہ حصن ثلا میں بنی الحارث کے کچھ لوگوں کے پاس قرامطہ ہیں۔ انہوں نے بیٹوں علی اور قاسم کو بھیجا جنہوں نے دو قرامطہ پکڑے۔ پھر علی نے نجران کے گاؤں الموقحہ میں دہف اور اس کے ساتھیوں کو پکڑ کر قید کر دیا۔"
+wings:
+- time
+themes:
+- civil-wars-and-revolts
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0907~"
+    hijri: "0294"
+    calendar: julian
+    precision: year
+    status: tradition
+    derived: true
+    note: "من سياق الكتاب في رمضان 294هـ أو بعده بقليل؛ الكتاب لا يذكر يوماً."
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/abu-jafar-muhammad-ibn-ubaydallah-al-abbasi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ali-ibn-muhammad-ibn-ubaydallah-al-abbasi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/al-dahhaf-ibn-musa-al-amri
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص345 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5)"
+  model: claude-haiku-5-5
+  run: a1-sira-p339-346-1
+status:
+  review: draft
+  completeness: 2
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 345"

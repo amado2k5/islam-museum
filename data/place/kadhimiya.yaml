@@ -6,8 +6,9 @@ label:
   en: Kadhimiya
   ur: کاظمیہ
 summary:
-  ar: مدينة في العراق.
-  en: Neighbourhood in Kādhmiyyah, Baghdad, Iraq.
+  ar: "محلة ببغداد عند مشهد موسى الكاظم؛ ياقوت يذكر المكان باسم باب التبن ومقابر قريش، ولا يذكر اسم الكاظمية. {cite:mujam-al-buldan-sader-1995 1 p.306}"
+  en: "A quarter of Baghdad at the shrine of Musa al-Kazim. Yaqut describes the place as Bab al-Tibn with the Quraysh cemeteries and does not use the name Kadhimiya. {cite:mujam-al-buldan-sader-1995 1 p.306}"
+  ur: "بغداد کا ایک محلہ، جو موسیٰ کاظم کے مزار کے پاس ہے؛ یاقوت اس جگہ کو باب التبن اور مقابر قریش کے نام سے بیان کرتے ہیں، کاظمیہ کا نام نہیں لیتے۔ {cite:mujam-al-buldan-sader-1995 1 p.306}"
 wings:
 - place
 regions:
@@ -22,6 +23,7 @@ external_ids:
   geonames: '99172'
 sources:
 - source/wikidata
+- source/mujam-al-buldan-sader-1995
 status:
   review: draft
   completeness: 1
@@ -33,4 +35,5 @@ provenance:
   - person-place-geo-b
   - person-place-geo-c
   note: Semantic merge of duplicate records written by parallel enrichment runs.
-  source: Wikidata item Q311315 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q311315 (labels, coordinates, description)
+  source: Wikidata item Q311315 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q311315 (labels, coordinates, description); Yaqut Mu'jam al-Buldan, Dar Sader 1995, vol. 1 pp. 306 and 457, vol. 4 p. 337 (prose added in packet b1-enrich-place-14)
+  model: claude-haiku-5-5

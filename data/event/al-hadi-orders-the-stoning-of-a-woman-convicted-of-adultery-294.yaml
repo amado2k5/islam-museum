@@ -1,0 +1,51 @@
+id: event/al-hadi-orders-the-stoning-of-a-woman-convicted-of-adultery-294
+class: event
+kind: court-ruling
+label:
+  ar: "الهادي يأمر برجم امرأة أقرت بالزنا بعد شهادة الشهود، سنة 294هـ، ص338-339"
+  en: "Al-Hadi orders the stoning of a woman who confessed to adultery after the witnesses testified, 294 AH, pp. 338-339"
+  ur: "ہادی کا گواہوں کی شہادت کے بعد زنا کا اقرار کرنے والی عورت کو سنگسار کرنے کا حکم، 294ھ، ص338-339"
+summary:
+  ar: "شهد الشهود على امرأة بالزنا، فأقرت بزيجات سابقة، فأقام عليها الهادي حدّ مائة جلدة ثم أمر برجمها، ويعرض الكتاب الخبر بتفصيله ويعدّه من أحكام الإمام."
+  en: "Witnesses testified against a woman and she confessed to earlier marriages. Al-Hadi had the hadd of a hundred lashes applied and then ordered her stoned; the book gives the procedure in full."
+  ur: "گواہوں نے ایک عورت کے خلاف گواہی دی اور اس نے پچھلے نکاحوں کا اقرار کیا۔ ہادی نے سو کوڑوں کی حد جاری کی اور پھر سنگساری کا حکم دیا؛ کتاب پورا طریقہ بیان کرتی ہے۔"
+wings:
+- time
+themes:
+- crime-and-punishment
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0907~"
+    hijri: "0294"
+    calendar: julian
+    precision: year
+    status: tradition
+    derived: true
+    note: "من سياق الكتاب، في سنة 294هـ بعد أحداث شعبان؛ لا يذكر الكتاب يوماً لهذه الواقعة."
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ali-ibn-muhammad-ibn-ubaydallah-al-abbasi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص338-339 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5)"
+  model: claude-haiku-5-5
+  run: a1-sira-p339-346-1
+status:
+  review: draft
+  completeness: 2
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 338-339"

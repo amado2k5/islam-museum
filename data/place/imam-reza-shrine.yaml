@@ -6,8 +6,9 @@ label:
   en: Imam Reza Shrine
   ur: مزار امام علی رضا
 summary:
-  ar: موقع في إيران.
-  en: Shrine in Mashhad, Iranian national heritage site.
+  ar: "مزار علي بن موسى الرضا في خراسان؛ يذكر ياقوت قبره في طوس وفي قرية سناباذ قربها. {cite:mujam-al-buldan-sader-1995 4 p.49}"
+  en: "The shrine of Ali ibn Musa al-Rida in Khurasan. Yaqut places his grave at Tus and at the village of Sanabadh near it. {cite:mujam-al-buldan-sader-1995 4 p.49}"
+  ur: "خراسان میں علی بن موسیٰ الرضا کا مزار؛ یاقوت ان کی قبر طوس اور اس کے قریب سناباد گاؤں میں بتاتے ہیں۔ {cite:mujam-al-buldan-sader-1995 4 p.49}"
 wings:
 - place
 regions:
@@ -21,6 +22,7 @@ external_ids:
   wikidata: Q1791841
 sources:
 - source/wikidata
+- source/mujam-al-buldan-sader-1995
 status:
   review: draft
   completeness: 1
@@ -32,4 +34,5 @@ provenance:
   - person-place-geo-b
   - person-place-geo-c
   note: Semantic merge of duplicate records written by parallel enrichment runs.
-  source: Wikidata item Q1791841 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q1791841 (labels, coordinates, description)
+  source: Wikidata item Q1791841 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q1791841 (labels, coordinates, description); Yaqut Mu'jam al-Buldan, Dar Sader 1995, vol. 4 p. 49 and vol. 3 p. 259 (prose added in packet b1-enrich-place-14)
+  model: claude-haiku-5-5

@@ -1,0 +1,51 @@
+id: event/ali-ibn-muhammad-ambushes-a-clan-of-troublemakers-at-sawhan-294
+class: event
+kind: raid
+label:
+  ar: "علي بن محمد يكمن لجماعة مفسدة من قبيلة في سوحان ويأسر اثنين، سنة 294هـ، ص345-346"
+  en: "Ali ibn Muhammad lays an ambush at Sawhan for a group of troublemakers from a clan and takes two of them, 294 AH, pp. 345-346"
+  ur: "علی بن محمد کا سوحان میں ایک قبیلے کے فسادیوں کے لیے گھات لگانا اور دو کو پکڑنا، 294ھ، ص345-346"
+summary:
+  ar: "بلغ محمد بن عبيد الله أن نفراً من قوم مفسدين يبيتون في سوحان، فكمن لهم علي بن محمد على جبل مطل عليها، فظفر برجلين، وانصرف محمد بن عبيد الله إلى الهجر بعد أن هدم منازل من لم يُظفر بهم."
+  en: "Muhammad ibn Ubaydallah was told that a group of troublemakers from a clan spent the night at Sawhan. Ali ibn Muhammad lay in ambush on a mountain above the village and took two of them. His father then demolished the houses of those who had not been caught, and the army returned to al-Hijr."
+  ur: "محمد بن عبید اللہ کو خبر ملی کہ ایک قبیلے کے فسادی لوگ سوحان میں رات گزارتے ہیں۔ علی بن محمد نے اس کے اوپر پہاڑ پر گھات لگائی اور دو آدمی پکڑے۔ ان کے والد نے جو نہ پکڑے گئے ان کے گھر گرا دیے، اور لشکر الہجر لوٹ آیا۔"
+wings:
+- time
+themes:
+- civil-wars-and-revolts
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0907~"
+    hijri: "0294"
+    calendar: julian
+    precision: year
+    status: tradition
+    derived: true
+    note: "من سياق الكتاب في رمضان 294هـ أو بعده؛ الكتاب لا يذكر يوماً."
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/ali-ibn-muhammad-ibn-ubaydallah-al-abbasi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abu-jafar-muhammad-ibn-ubaydallah-al-abbasi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص345-346 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5)"
+  model: claude-haiku-5-5
+  run: a1-sira-p339-346-1
+status:
+  review: draft
+  completeness: 2
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 345-346"
