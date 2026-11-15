@@ -1,0 +1,23 @@
+id: concept/hasasis
+class: concept
+kind: natural
+label:
+  ar: "حاسيس"
+  en: "Hasasis (an Armenian drug)"
+  ur: "حاسیس ⁦(ارمنی دوا)⁩"
+summary:
+  ar: "حاسيس دواء أرمني، ويقال أيضاً فارسي، ذكر الكتاب أن أحد من ينقل عنهم أنه أقوى من الأفربيون، وأنه محرق للمعدة مقيء. والكمية المميتة متروكة."
+  en: "Hasasis is a drug the book calls Armenian, and also Persian. One authority the book quotes says it is stronger than euphorbium, and the book says it burns the stomach and brings on vomiting. The quantity that kills is left out."
+  ur: "حاسیس ایک ارمنی دوا ہے، جسے فارسی بھی کہا جاتا ہے۔ کتاب کا ایک ماخذ اسے افربیون سے زیادہ طاقتور بتاتا ہے، اور کتاب کے مطابق یہ معدے کو جلاتی ہے اور قے لاتی ہے۔ جان لیوا مقدار چھوڑ دی گئی ہے۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, scan pages 488 to 489, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); the editor's footnotes are used only for identity and name; footnotes quoting modern herbal or nutrition books are not used; measured doses, weights and quantities are left out; garbled OCR lines are left out, not guessed; womb, menses, foetus, afterbirth, semen and desire reports are kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), lane A4"
+  model: claude-haiku-5-5
+  run: a4-canon-book2-12
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (book mining, lane A4)" }

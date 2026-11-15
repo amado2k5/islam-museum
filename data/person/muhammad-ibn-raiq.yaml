@@ -18,7 +18,8 @@ relations:
   - { type: ruler_of, target: place/wasit, sources: [source/wikidata], confidence: low, note: "en: 'Amir of Wasit; in 324 he prevailed over the state — the vizierate lapsed, the money flowed to him, al-Rad" }
   - { type: traveled_to, target: place/mosul, sources: [source/tarikh-khulafa-minhaj-1434], confidence: low, note: "ar: 'أمير واسط ونواحيها، تغلب سنة أربع وعشرين وحكم على البلاد وبطل أمر الوزارة والدواوين وصارت الأموال تحمل إل" }
   - { type: traveled_to, target: place/daylam, sources: [source/tarikh-khulafa-minhaj-1434], confidence: low, note: "Driven out by Bajkam, he returned, beat Kurtakin the Daylamite and took the amirate of amirs, then fled al-Bar" }
-sources: [source/tarikh-khulafa-minhaj-1434]
+external_ids: { wikidata: Q3827609 }
+sources: [source/tarikh-khulafa-minhaj-1434, source/wikidata-muhammad-ibn-raiq]
 status:
   review: published
   completeness: 3
