@@ -1,0 +1,111 @@
+id: invention/zahrawi-lithotomy-forceps
+class: invention
+label:
+  ar: "مثقاب وكلاليب الحصاة عند الزهراوي"
+  en: "Al-Zahrawi's lithotomy instruments"
+  ur: "الزہراوی کے پتھری کے اوزار"
+names:
+  - { value: "al-mishab drill", kind: alternate, lang: en }
+  - { value: "lithotomy of al-Tasrif", kind: alternate, lang: en }
+summary:
+  ar: "يصف «التصريف» استخراج حصاة المثانة بكلاليب خاصة، ويصف مثقابه المسمّى «المشعب» لحصاة الإحليل — أدوات يوثّقها النص برسوم، وهي أقدم سجل جراحي مقروء لأدوات استخراج الحصاة المتخصصة، ومهّدت لجراحة المسالك."
+  en: "Al-Tasrif describes removing bladder stones with special forceps, and his drill called al-Mishab for urethral stones — instruments the text documents with drawings, the earliest surgical record read of specialised stone-extraction tools, and a foundation for urological surgery."
+  ur: "التصریف مثانے کی پتھری نکالنے کے لیے خاص کلیپوں کا ذکر کرتی ہے، اور پیشاب کی نالی کی پتھری کے لیے اپنا مثقب «المشعب» — آلات جو متن خاکوں کے ساتھ دستاویز کرتا ہے، پتھری نکالنے کے مخصوص اوزاروں کا پڑھا گیا قدیم ترین جراحی ریکارڈ، اور پیشابی جراحی کی بنیاد۔"
+domain: medicine-surgery
+kind: instrument
+disciplines: [medicine]
+wings: [ideas]
+regions: [andalus-europe]
+periods: [period/buyid-seljuk-fatimid-era]
+themes: [medicine]
+era:
+  origins: middle-period
+  first_attested:
+    edtf: "1000"
+    hijri: "0390"
+    calendar: julian
+    precision: century
+    status: historical
+    note: "Al-Tasrif's surgical treatise dates to al-Zahrawi's lifetime (d. c. 1013 CE); the mishab account is in Leclerc's Latin text and Spink & Lewis's edition {cite:zahrawi-leclerc-chirurgie-1861} {cite:zahrawi-spink-lewis-1973}."
+    sources: [source/zahrawi-leclerc-chirurgie-1861, source/zahrawi-spink-lewis-1973]
+  status_today: replaced
+origin:
+  place: place/cordoba
+  context:
+    ar: "قرطبة الأموية."
+    en: "Umayyad Cordoba."
+    ur: "اموی قرطبہ۔"
+makers:
+  - person: person/al-zahrawi
+    role: inventor
+    note: "Documented in al-Tasrif; his Muslim identity is recorded on the person record."
+    sources: [source/zahrawi-spink-lewis-1973, source/tdv-tasrif-zehravi]
+attribution:
+  status: original
+  claim:
+    ar: "أقدم نص جراحي مقروء يصف أدوات متخصصة لاستخراج الحصاة — كلاليب المثانة ومثقاب الإحليل ⁦(المشعب)⁩ — برسوم."
+    en: "The earliest surgical text read describing specialised stone-extraction instruments — bladder forceps and the urethral drill (al-Mishab) — with drawings."
+    ur: "پڑھا گیا قدیم ترین جراحی متن جو پتھری نکالنے کے مخصوص اوزار — مثانے کی کلیپیں اور نالی کا مثقب ⁦(مشعب)⁩ — خاکوں کے ساتھ بیان کرتا ہے۔"
+  basis:
+    ar: "يصف عبد الحليم في دراسته لحساة الزهراوي أن «التصريف» يوثّق مثقاب الإحليل وكلاليب الاستخراج برسم وأسلوب استعمال {cite:alzahrawi-stones-abdelhalim-2003}."
+    en: "Abdelhalim's study of al-Zahrawi's stone chapter records the Tasrif documenting the urethral drill and extraction forceps with drawing and technique {cite:alzahrawi-stones-abdelhalim-2003}."
+    ur: "عبد الحلیم کی الزہراوی کے پتھری باب کی تحقیق درج کرتی ہے کہ التصریف نالی کے مثقب اور نکالنے کی کلیپوں کو خاکے اور طریقے کے ساتھ دستاویز کرتی ہے {cite:alzahrawi-stones-abdelhalim-2003}۔"
+precursors:
+  - external:
+      ar: "شقّ الحصاة في الطب القديم — عملية موصوفة منذ أقسام أبوقراط — بلا أدوات متخصصة موثقة."
+      en: "Ancient lithotomy — an operation described since the Hippocratic corpus — without documented specialised tools."
+      ur: "قدیم پتھری شق — ہپوکریٹی متون سے بیان شدہ عمل — بغیر دستاویزی مخصوص اوزار کے۔"
+    note: "The operation was old; the specialised instrumentarium is the step documented here."
+    sources: [source/alzahrawi-stones-abdelhalim-2003]
+dependents:
+  - external:
+      ar: "أدوات استخراج الحصاة الجراحية اللاحقة — كلاليب ومناظير — حتى نظيرات الليزر الحديثة."
+      en: "Later surgical stone-removal tools — forceps and scopes — up to modern laser lithotripsy."
+      ur: "بعد کے جراحی پتھری نکالنے والے اوزار — کلیپیں اور دوربینیں — جدید لیزر توڑنے تک۔"
+    note: "The principle of instrument-assisted stone removal continued; the drill itself was replaced."
+    sources: [source/alzahrawi-stones-abdelhalim-2003]
+spread: []
+impact:
+  fields: [medicine-surgery]
+  changed:
+    ar: "حوّل استخراج الحصاة من عملية عامة إلى إجراء بأدوات متخصصة — أول خطوة نحو جراحة المسالك البولية."
+    en: "Turned stone removal from a general operation into a specialised-instrument procedure — the first step toward urological surgery."
+    ur: "پتھری نکالنے کو عمومی عمل سے مخصوص اوزار کے طریقے میں بدلا — پیشابی جراحی کی طرف پہلا قدم۔"
+  history:
+    ar: "أقدم توثيق مقروء لآلات متخصصة في علاج الحصاة — أساس مبكر للحرفة البولية."
+    en: "The earliest read documentation of specialised stone-treatment instruments — an early foundation of the urological craft."
+    ur: "پتھری کے علاج کے مخصوص اوزاروں کی پڑھی ہوئی قدیم ترین دستاویز — پیشابی کاریگری کی ابتدائی بنیاد۔"
+  significance: 4
+  why: "A documented specialised-instrument invention inside al-Tasrif's instrument corpus."
+described_in: [work/al-tasrif-fi-al-tibb]
+examples: []
+sites: [place/cordoba]
+concepts: []
+today:
+  form:
+    ar: "حلّت مناظير المثانة والليزر محلّ المثقاب، لكن فكرة الآلة المتخصصة لكل حالة باقية."
+    en: "Cystoscopes and lasers replaced the drill, but the idea of a specialised tool per condition remains."
+    ur: "سیسٹوسکوپ اور لیزر نے مثقب کی جگہ لے لی، لیکن ہر حالت کے لیے مخصوص اوزار کا خیال باقی ہے۔"
+  descendants:
+    ar: "أدوات المسالك البولية الحديثة — كلها تتبع المبدأ نفسه: آلة مصممة لمهمة واحدة."
+    en: "Modern urological instruments — all following the same principle: a tool designed for one job."
+    ur: "جدید پیشابی اوزار — سب اسی اصول پر: ایک کام کے لیے ڈیزائن کیا اوزار۔"
+media:
+  image: media/zahrawi-instruments-context
+  diagram: media/diagram-zahrawi-lithotomy-forceps
+kids:
+  ar: "حصاة صغيرة داخل الجسم تسبب ألماً كبيراً — وقبل ألف سنة كان علاجها خطراً. صنع الزهراوي أدوات خاصة: ملقط يمسك الحصاة ومثقاب يفتتها في مكانها. لم يعد يحتاج الجراح أن يكسرها بيده فقط — صار عنده آلة لكل مهمة."
+  en: "A small stone inside the body causes great pain — and a thousand years ago treating it was dangerous. Al-Zahrawi made special tools: forceps that grip the stone and a drill that breaks it in place. The surgeon no longer relied on his hand alone — he had a tool for each task."
+  ur: "جسم کے اندر چھوٹی پتھری بڑا درد دیتی ہے — اور ہزار سال پہلے اس کا علاج خطرناک تھا۔ الزہراوی نے خاص اوزار بنائے: کلیپ جو پتھری پکڑے اور مثقب جو اسے وہیں توڑے۔ جراح کو اب صرف اپنے ہاتھ پر بھروسہ نہیں — ہر کام کے لیے اوزار ہے۔"
+sources:
+  - source/zahrawi-spink-lewis-1973
+  - source/zahrawi-leclerc-chirurgie-1861
+  - source/alzahrawi-stones-abdelhalim-2003
+  - source/tdv-tasrif-zehravi
+status: { review: published, completeness: 2 }
+provenance:
+  layer: own-research
+  generated_by: devin-orchestrator-solo
+  model: SWE-2
+  run: inventions-w2-23
+  source: "Abdelhalim 2003 stone-chapter study; Spink & Lewis and Leclerc texts via source records"

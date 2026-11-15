@@ -20,5 +20,10 @@ external_ids: { wikidata: "Q486088", viaf: "66844656" }
 sources: [source/shadharat-dhahab, source/wikidata]
 importance: 2
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+faith:
+  - value: sunni
+    basis: tradition
+    note: "Documented Muslim ruler of the Timurid line; the biographical record names no contrary tradition. Sunni is the museum's explicit default frame (docs/scope.md), not a newly attested personal school."
+    sources: [source/encyclopaedia-of-islam-2]
 relations:
   - { type: lived_in, target: place/samarqand, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/shadharat-dhahab] }
