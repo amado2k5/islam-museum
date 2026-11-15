@@ -14,7 +14,7 @@ periods: [period/gunpowder-empires]
 died: { edtf: "1788", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam Confirmed on 13 November 2026 against Wikidata Q12237231 (P570, a statement with a reference), item revision 2386397629.", sources: [source/wikidata] }
 relations:
   - { type: born_in, target: place/erzurum, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-  - { type: died_in, target: place/aleppo, confidence: medium, note: "Al-Zirikli, al-A'lam vol. 5 p. 241: he died in Aleppo.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+  - { type: died_in, target: place/aleppo, confidence: medium, note: "Al-Zirikli, al-A'lam vol. 5 p. 243: he died in Aleppo.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q12237231

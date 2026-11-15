@@ -1,0 +1,32 @@
+id: source/khulasat-athar-muhibbi-sadir
+class: source
+kind: primary
+type: book
+label:
+  ar: المحبي، خلاصة الأثر في أعيان القرن الحادي عشر ⁦(دار صادر، بيروت)⁩
+  en: al-Muhibbi, Khulasat al-Athar fi Ayan al-Qarn al-Hadi Ashar (Dar Sadir, Beirut)
+summary:
+  ar: خلاصة الأثر للمحبي ⁦(ت 1111 هـ)⁩، تراجم أعيان القرن الحادي عشر الهجري، في نص الشاملة ⁦(الكتاب رقم 6678)⁩ المحفوظ محلياً بصيغة OpenITI.
+  en: al-Muhibbi's Khulasat al-Athar (d. 1111 AH), biographies of the notables of the eleventh century AH, in the Shamela text (book 6678) held locally in OpenITI form.
+title: خلاصة الأثر في أعيان القرن الحادي عشر
+author:
+- family: المحبي
+  given: محمد أمين بن فضل الله
+- family: al-Muhibbi
+  given: Muhammad Amin ibn Fadl Allah
+publisher: دار صادر
+language: ar
+reliability_note: 'Local text: books/tareekh/khulasat-athar-openiti/1111MuhammadAminMuhibbi.KhulasatAthar.Shamela0006678-ara1 (OpenITI 2025.1.9 export; Shamela 6678; edition as recorded in the corpus metadata: Dar Sadir, Beirut). The text marks pages as PageVnnPnnn (volume and printed page); citations give "vol. N p. M" using the page whose marker closes the text cited (the first marker at or after the passage), a rule tested on shamela.ws page images on 14 November 2026 (see docs/delegation/library/lib-openiti-page-convention.md). Dates in entries are as printed (AH).'
+open_access: false
+sources:
+- source/openiti-corpus
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Code (Lane B2)
+provenance:
+  layer: copyrighted-reference
+  source: OpenITI text (Shamela 6678) held on the harvest drive, extracted from the OpenITI 2025.1.9 data release
+  generated_by: Claude Code (Lane B2 packet)
+  model: claude-sonnet-5-5
+  run: web-b2c-khulasa-2026-11-14

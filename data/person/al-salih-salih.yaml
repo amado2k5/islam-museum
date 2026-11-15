@@ -6,24 +6,26 @@ label:
 roles: [ruler]
 gender: male
 summary:
-  ar: "بطاقة أولية للملك الصالح صلاح الدين صالح بن محمد بن قلاوون، سلطان مصر المملوكي الذي ولي بين سنة ١٣٥١م و١٣٥٤م بين عهدي أخويه، توفي سنة ١٣٦٠م؛ تذكره كتب التراجم المملوكية ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for al-Malik al-Salih Salah al-Din Salih ibn Muhammad ibn Qalawun, Mamluk sultan of Egypt between 1351 and 1354, d. 1360; the dynastic handbook entry is not yet checked on the page."
+  ar: "صالح بن محمد بن قلاوون، الملك الصالح بن الناصر بن المنصور، المعروف بابن التنكزية لأن أمه بنت تنكز نائب الشام، ولي سلطنة مصر بعد خلع الناصر حسن في جمادى الآخرة سنة 752 هـ وخلع في شوال سنة 755 هـ ومات محبوساً بالقلعة في صفر سنة 762 هـ ولم يكمل أربعاً وعشرين سنة {cite:durar-kamina-hyderabad-1972 vol. 2 p. 361}."
+  en: "Salih ibn Muhammad ibn Qalawun, al-Malik al-Salih, son of al-Nasir and known as Ibn al-Tankiziyya because his mother was a daughter of Tankiz, governor of Syria; he took the sultanate after al-Nasir Hasan was deposed in Jumada II 752 AH, was himself deposed in Shawwal 755 AH and died a prisoner in the citadel in Safar 762 AH, before completing twenty-four years {cite:durar-kamina-hyderabad-1972 vol. 2 p. 361}."
 wings: [people]
 regions: [egypt-nile]
 periods: [period/crusades-ayyubid-mamluk]
-sources: [source/bosworth-new-islamic-dynasties-1996, source/tarikh-khulafa-minhaj-1434]
+sources: [source/bosworth-new-islamic-dynasties-1996, source/tarikh-khulafa-minhaj-1434, source/durar-kamina-hyderabad-1972]
 external_ids:
   wikidata: Q288013
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book sources: Bosworth, The New Islamic Dynasties (1996); al-Suyuti, Tarikh al-Khulafa (Minhaj ed.) — entries not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0019
+  source: "Ibn Hajar, al-Durar al-Kamina (Hyderabad 1972), vol. 2 pp. 360-361, entry read in full from the local OpenITI text; card sources not re-read"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2c-m01-2026-11-14
 status:
   review: draft
-  completeness: 1
-born: { edtf: "1337", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar al-Kamina" }
-died: { edtf: "1360", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar al-Kamina" }
+  completeness: 3
+born: { edtf: "1337", hijri: "0738", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar al-Kamina. The entry prints his birth as Rabi I of a year abbreviated to 38, read 738 AH, which falls in October 1337 CE by the tabular calendar; the card year 1337 agrees {cite:durar-kamina-hyderabad-1972 vol. 2 p. 361}.", sources: [source/durar-kamina-hyderabad-1972] }
+died: { edtf: "1360", hijri: "0762", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar al-Kamina. The entry prints Safar 762 AH, which falls between mid-December 1360 and mid-January 1361 CE by the tabular calendar; the card year 1360 is kept {cite:durar-kamina-hyderabad-1972 vol. 2 p. 361}.", sources: [source/durar-kamina-hyderabad-1972] }
 relations:
-  - { type: ruler_of, target: place/misr, note: "From text: sultan of Egypt", sources: [source/bosworth-new-islamic-dynasties-1996, source/tarikh-khulafa-minhaj-1434] }
+  - { type: ruler_of, target: place/misr, note: "From text: sultan of Egypt; al-Durar al-Kamina, vol. 2 p. 360, says he took the sultanate and returned to Egypt after the Syrian journey", sources: [source/bosworth-new-islamic-dynasties-1996, source/tarikh-khulafa-minhaj-1434, source/durar-kamina-hyderabad-1972] }
+  - { type: child_of, target: person/al-nasir-muhammad-ibn-qalawun, confidence: high, note: "Ibn Hajar, al-Durar al-Kamina, vol. 2 p. 360: Salih ibn Muhammad ibn Qalawun, al-Malik al-Salih ibn al-Nasir ibn al-Mansur", sources: [source/durar-kamina-hyderabad-1972] }
+  - { type: traveled_to, target: place/damascus, confidence: high, note: "Ibn Hajar, vol. 2 p. 360: reached Damascus at the start of Ramadan with the armies in pursuit of Bibghaurus", sources: [source/durar-kamina-hyderabad-1972] }

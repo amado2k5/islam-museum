@@ -1,0 +1,38 @@
+id: person/abdallah-ibn-bistam-al-harithi
+class: person
+label:
+  ar: "عبد الله بن بسطام الحارثي"
+  en: "Abdallah ibn Bistam al-Harithi"
+  ur: "عبداللہ بن بسطام الحارثی"
+summary:
+  ar: "من بني ربيعة، لقي الهادي بيولس سنة 294هـ، ومع الوادعيين أمر بالغارة على راحة، ثم جاء بالحماسيين مستأمنين فأمنهم الهادي."
+  en: "Of Banu Rabi'a, he met al-Hadi at Yulis in 294 AH; with Wada'a he ordered the raid on Raha, and later brought the Hamasiyin seeking safety, whom al-Hadi granted safety."
+  ur: "بنی ربیعہ میں سے؛ 294ھ میں یولس میں ہادی سے ملے، وادعہ کے ساتھ راحہ پر حملے کا حکم دیا، اور بعد میں الحماسیین کو امان طلب کرتے ہوئے لائے جنہیں ہادی نے امان دی۔"
+gender: male
+roles:
+- politician
+wings:
+- people
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+story_roles:
+- { role: interlocutor, status: tradition, sources: [source/sira-hadi-ila-al-haqq] }
+relations:
+- type: allied_with
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص336-338 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5)"
+  model: claude-haiku-5-5
+  run: a1-sira-p331-338-1
+status:
+  review: draft
+  completeness: 2
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 336-338"

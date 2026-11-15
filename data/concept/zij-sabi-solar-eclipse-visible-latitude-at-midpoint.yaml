@@ -1,0 +1,20 @@
+id: concept/zij-sabi-solar-eclipse-visible-latitude-at-midpoint
+class: concept
+kind: scientific
+label: { ar: "عرض القمر المرئي لوسط كسوف الشمس", en: "The visible latitude of the Moon at the middle of a solar eclipse", ur: "سورج گرہن کے وسط میں چاند کا مرئی عرض" }
+summary:
+  ar: "يُقام الطالع لوسط الكسوف، ثم يُعرف عرض القمر الحقيقي بحركة العرض المقوّمة لوسط الكسوف، ويُعرف اختلاف المنظر في العرض على الرسم نفسه. فإن كان العرض الحقيقي واختلاف منظره في العرض في جهة واحدة جُمعا، وإن اختلفا نُقص الأقل من الأكثر، ويُعرف الباقي وجهته، فيخرج عرض القمر المرئي لوسط الكسوف. {cite:zij-sabi-nallino-byblion pp.164-165}"
+  en: "The ascendant is erected for the middle of the eclipse. The Moon's true latitude is found from the latitude motion corrected to that moment, and its parallax in latitude is found on the same figure. If the two lie on the same side they are added; if not, the smaller is subtracted from the larger and the side of the remainder is kept. The result is the visible latitude of the Moon at mid-eclipse. {cite:zij-sabi-nallino-byblion pp.164-165}"
+  ur: "گرہن کے وسط کے لیے طالع قائم کیا جاتا ہے، پھر وسط کے لیے تصحیح شدہ عرضی حرکت سے چاند کا حقیقی عرض معلوم ہوتا ہے، اور اسی شکل پر عرض میں اختلافِ منظر۔ اگر دونوں ایک ہی جانب ہوں تو جمع کیے جاتے ہیں؛ ورنہ چھوٹے کو بڑے میں سے گھٹایا جاتا ہے اور باقی کی سمت رکھی جاتی ہے۔ نتیجہ وسط گرہن میں چاند کا مرئی عرض ہے۔ {cite:zij-sabi-nallino-byblion pp.164-165}"
+wings: [ideas]
+themes: [astronomy-and-timekeeping, mathematics]
+sources: [source/zij-sabi-nallino-byblion]
+relations:
+  - { type: part_of, target: work/al-zij-al-sabi, sources: [source/zij-sabi-nallino-byblion] }
+provenance:
+  layer: own-research
+  source: "Chapter 44, scan 164-165: the visible latitude of the Moon at mid-eclipse"
+  generated_by: "Claude Haiku 5.5"
+  model: claude-haiku-5-5
+  run: zij-sabi-a3-2
+status: { review: draft, completeness: 2, generated_by: "Claude Haiku 5.5 (book mining, lane A3)" }

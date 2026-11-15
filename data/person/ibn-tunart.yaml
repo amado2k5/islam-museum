@@ -11,10 +11,10 @@ summary:
 wings: [people]
 regions: [maghreb]
 periods: [period/buyid-seljuk-fatimid-era]
-born: { edtf: "1092", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 6 p. 179: 485 AH = 1092 CE (the card had 1085, tradition).", sources: [source/alam-zirikli-dar-al-ilm-2002] }
-died: { edtf: "1130", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 6 p. 179: 524 AH = 1130 CE; he died on the Tinmal mountain.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+born: { edtf: "1092", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 6 pp. 228-229: 485 AH = 1092 CE (the card had 1085, tradition).", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+died: { edtf: "1130", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 6 pp. 228-229: 524 AH = 1130 CE; he died on the Tinmal mountain.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
-  - { type: died_in, target: place/tinmal, note: "Al-Zirikli, al-A'lam vol. 6 p. 179: died on the Tinmal mountain, before taking Marrakesh.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }
+  - { type: died_in, target: place/tinmal, note: "Al-Zirikli, al-A'lam vol. 6 pp. 228-229: died on the Tinmal mountain, before taking Marrakesh.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }
 sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q107601073

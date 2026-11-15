@@ -1,0 +1,20 @@
+id: concept/zij-sabi-moon-eclipse-fall-and-stay-times
+class: concept
+kind: scientific
+label: { ar: "زمنا سقوط القمر ومكثه في الكسوف", en: "The hours of fall and of stay of the Moon", ur: "چاند کے سقوط اور مکث کے اوقات" }
+summary:
+  ar: "تُقسم دقائق السقوط على سبق القمر، أي حركته المختلفة في الساعة، فيخرج ساعات السقوط. ثم تُنقص ساعات السقوط من ساعات وسط الكسوف فيبقى زمن بدء الكسوف، وتُزاد عليها فيكون زمن تمام الانجلاء. وإن كان للقمر مكث أُضيف زمن المكث إلى الساعات نفسها ليُعرف زمن بدء المكث وزمن بدء الانجلاء. {cite:zij-sabi-nallino-byblion pp.152-153}"
+  en: "The minutes of fall are divided by the Moon's hourly motion to give the hours of fall. Subtracting these from the hours of mid-eclipse gives the time of the beginning, and adding them gives the time of the end of the eclipse. Where there is a stay, its hours are added to or taken from the same figures to fix the beginning and end of totality. {cite:zij-sabi-nallino-byblion pp.152-153}"
+  ur: "سقوط کے دقائق کو چاند کی فی گھنٹہ حرکت پر تقسیم کیا جاتا ہے تو سقوط کے گھنٹے نکلتے ہیں۔ انہیں وسط گرہن کے گھنٹوں میں سے گھٹانے سے آغاز کا وقت ملتا ہے، اور جمع کرنے سے اختتام کا۔ جہاں مکث ہو وہاں اس کے گھنٹے انہی اعداد میں جمع یا تفریق کر کے کلی گرہن کا آغاز اور اختتام طے کیا جاتا ہے۔ {cite:zij-sabi-nallino-byblion pp.152-153}"
+wings: [ideas]
+themes: [astronomy-and-timekeeping, mathematics]
+sources: [source/zij-sabi-nallino-byblion]
+relations:
+  - { type: part_of, target: work/al-zij-al-sabi, sources: [source/zij-sabi-nallino-byblion] }
+provenance:
+  layer: own-research
+  source: "Chapter 43, scan 152-153: fall and stay converted into clock hours"
+  generated_by: "Claude Haiku 5.5"
+  model: claude-haiku-5-5
+  run: zij-sabi-a3-1
+status: { review: draft, completeness: 2, generated_by: "Claude Haiku 5.5 (book mining, lane A3)" }

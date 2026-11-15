@@ -11,8 +11,8 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/modern-era]
-born: { edtf: "1855", precision: year, status: tradition, derived: true, note: "Al-Zirikli, al-A'lam vol. 3 p. 286: 1272 AH = 1855 CE." }
-died: { edtf: "1916", precision: year, status: tradition, derived: true, note: "Al-Zirikli, al-A'lam vol. 3 p. 286: 1334 AH = 1916 CE; hanged at Damascus." }
+born: { edtf: "1855", precision: year, status: tradition, derived: true, note: "Al-Zirikli, al-A'lam vol. 3 p. 288: 1272 AH = 1855 CE." }
+died: { edtf: "1916", precision: year, status: tradition, derived: true, note: "Al-Zirikli, al-A'lam vol. 3 p. 288: 1334 AH = 1916 CE; hanged at Damascus." }
 sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q12222602
@@ -28,4 +28,4 @@ status:
   completeness: 3
 relations:
   - { type: lived_in, target: place/al-sham, note: "From text: Syrian (nationality adjective); broad association, flagged for review.", sources: [source/tarikh-islam-hasan-ibrahim], confidence: low }
-  - { type: born_in, target: place/homs, note: "Al-Zirikli, al-A'lam vol. 3 p. 286: born at Homs.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }
+  - { type: born_in, target: place/homs, note: "Al-Zirikli, al-A'lam vol. 3 p. 288: born at Homs.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }

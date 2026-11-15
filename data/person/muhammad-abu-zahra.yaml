@@ -12,7 +12,7 @@ wings: [people]
 regions: [egypt-nile]
 periods: [period/modern-era]
 died: { edtf: "1974", precision: year, status: tradition, derived: true }
-born: { edtf: "1898", calendar: gregorian, precision: year, derived: true, note: "1316 AH = 1898 CE as printed in the entry; source: al-Zirikli, al-A'lam, 15th ed. 2002, vol. 6 p. 23", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+born: { edtf: "1898", calendar: gregorian, precision: year, derived: true, note: "1316 AH = 1898 CE as printed in the entry; source: al-Zirikli, al-A'lam, 15th ed. 2002, vol. 6 pp. 25-26", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
   - { type: born_in, target: place/misr, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q79)" }
 sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]

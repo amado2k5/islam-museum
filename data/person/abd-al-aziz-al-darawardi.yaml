@@ -11,7 +11,7 @@ summary:
 wings: [people]
 regions: [arabia]
 periods: [period/abbasid-early]
-died: { edtf: "0802", hijri: "0186", precision: year, status: tradition, derived: true, sources: [source/alam-zirikli-dar-al-ilm-2002], note: "Al-Zirikli, al-A'lam vol. 4 p. 10: 186 AH = 802 CE; the card said 803." }
+died: { edtf: "0802", hijri: "0186", precision: year, status: tradition, derived: true, sources: [source/alam-zirikli-dar-al-ilm-2002], note: "Al-Zirikli, al-A'lam vol. 4 p. 25: 186 AH = 802 CE; the card said 803." }
 sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q106650836
@@ -32,5 +32,5 @@ occupations:
     sources: [source/al-aalam]
 relations:
   - { type: lived_in, target: place/medina, note: "Place association from the person's nisba/name (المدني); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
-  - { type: born_in, target: place/medina, confidence: medium, note: "Al-Zirikli, al-A'lam vol. 4 p. 10: born in Medina.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
-  - { type: died_in, target: place/medina, confidence: medium, note: "Al-Zirikli, al-A'lam vol. 4 p. 10: died in Medina.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+  - { type: born_in, target: place/medina, confidence: medium, note: "Al-Zirikli, al-A'lam vol. 4 p. 25: born in Medina.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+  - { type: died_in, target: place/medina, confidence: medium, note: "Al-Zirikli, al-A'lam vol. 4 p. 25: died in Medina.", sources: [source/alam-zirikli-dar-al-ilm-2002] }

@@ -1,0 +1,32 @@
+id: source/tahdhib-kamal-mizzi-risala
+class: source
+kind: primary
+type: book
+label:
+  ar: المزي، تهذيب الكمال في أسماء الرجال ⁦(تحقيق بشار عواد معروف، مؤسسة الرسالة، بيروت)⁩
+  en: al-Mizzi, Tahdhib al-Kamal fi Asma al-Rijal (ed. Bashshar Awwad Ma'ruf, Mu'assasat al-Risala, Beirut)
+summary:
+  ar: معجم ضخم لرجال الكتب الستة ألّفه جمال الدين المزي ⁦(ت 742 هـ)⁩ على الحروف، في نص الشاملة ⁦(الكتاب رقم 3722)⁩ المحفوظ محلياً بصيغة OpenITI.
+  en: al-Mizzi's large dictionary of the transmitters of the six canonical hadith books (al-Mizzi d. 742 AH), arranged alphabetically, in the Shamela text (book 3722) held locally in OpenITI form.
+title: تهذيب الكمال في أسماء الرجال
+author:
+- family: المزي
+  given: يوسف بن عبد الرحمن
+- family: al-Mizzi
+  given: Yusuf ibn Abd al-Rahman
+publisher: مؤسسة الرسالة
+language: ar
+reliability_note: 'Local text: books/rijal/tahdhib-kamal-openiti/0742Mizzi.TahdhibKamal.Shamela0003722-ara1.mARkdown (OpenITI 2025.1.9 export; Shamela 3722; edition as recorded in the corpus metadata: ed. Bashshar Awwad Ma''ruf, Mu''assasat al-Risala, Beirut). The text marks pages as PageVnnPnnn (volume and printed page); citations give "vol. N p. M" using the page whose marker closes the text cited (the first marker at or after the passage), a rule tested on shamela.ws page images on 14 November 2026 (see docs/delegation/library/lib-openiti-page-convention.md). Dates in entries are as printed (AH).'
+open_access: false
+sources:
+- source/openiti-corpus
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Code (Lane B2)
+provenance:
+  layer: copyrighted-reference
+  source: OpenITI text (Shamela 3722) held on the harvest drive, extracted from the OpenITI 2025.1.9 data release
+  generated_by: Claude Code (Lane B2 packet)
+  model: claude-sonnet-5-5
+  run: web-b2c-tahdhib-2026-11-14

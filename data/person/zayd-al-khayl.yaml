@@ -1,4 +1,5 @@
 id: person/zayd-al-khayl
+external_ids: { wikidata: "Q4165731" }
 class: person
 aliases: [person/zayd-al-khayr]   # merged 4 Nov 2026 (Abdelkafy lesson card); duplicate file removed, the id still resolves
 label: { en: "Zayd al-Khayl", ar: "زيد الخيل", ur: "زید الخیل" }
@@ -31,5 +32,5 @@ relations:
   - { type: died_in, target: place/farda, sources: [source/ibn-hisham-saqqa] }
   - { type: traveled_to, target: place/medina, sources: [source/mubarakpuri-raheeq, source/zad-al-maad, source/ibn-hisham-saqqa, source/suwar-min-hayat-al-sahaba-nafais-1992, source/assabile-omar-abdelkafy] }
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 224; al-Raheeq al-Makhtum p. 453; Suwar min Hayat al-Sahaba (Nafa'is 1992) pp. 124–131", generated_by: "Claude Code (OCR-harvest worker E)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, note: "first by Devin, extended by Claude Fable 5.1 (ibn-hisham-batch-9a); al-Basha section and merge of person/zayd-al-khayr (Claude Sonnet subagent, omar-tafsir-bundle-7) by worker E" }
-sources: [source/mubarakpuri-raheeq, source/zad-al-maad, source/ibn-hisham-saqqa, source/suwar-min-hayat-al-sahaba-nafais-1992, source/assabile-omar-abdelkafy]
+sources: [source/mubarakpuri-raheeq, source/zad-al-maad, source/ibn-hisham-saqqa, source/suwar-min-hayat-al-sahaba-nafais-1992, source/assabile-omar-abdelkafy, source/wikidata-zayd-al-khayl]
 status: { review: published, completeness: 3 }

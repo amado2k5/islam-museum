@@ -1,4 +1,5 @@
 id: person/bahira
+external_ids: { wikidata: "Q551599" }
 education:
   did_you_know:
     ar: "بحيرا راهب ببصرى في الشام عرف الفتى محمداً بعلامات نبوته حين نزل ركب أبي طالب، كما تروي كتب السيرة."
@@ -26,7 +27,7 @@ died: { edtf: "582~", calendar: gregorian, precision: year, derived: true, note:
 relations:
   - { type: lived_in, target: place/busra }
   - { type: participated_in, target: event/bahira-encounter, role: "عرف النبي بخاتم النبوة", sources: [source/mubarakpuri-raheeq] }
-sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/muruj-al-dhahab, source/mukhtasar-sirat-al-rasul-al-najdi, source/zad-al-maad, source/tuhfat-al-ahwadhi]
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/muruj-al-dhahab, source/mukhtasar-sirat-al-rasul-al-najdi, source/zad-al-maad, source/tuhfat-al-ahwadhi, source/wikidata-bahira]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 58-59" }
 provenance:
   layer: own-research

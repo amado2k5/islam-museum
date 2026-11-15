@@ -1,0 +1,56 @@
+id: event/ali-ibn-al-rabi-al-madani-is-held-in-chains-at-al-hijr-for-twelve-days-294
+class: event
+kind: other
+label:
+  ar: "حبس علي بن الربيع المدانيّ في الحديد اثني عشر يوماً بالهجر، 294هـ، ص336"
+  en: "Ali ibn al-Rabi' al-Madani is held in irons for twelve days at al-Hijr, 294 AH, p. 336"
+  ur: "علی بن الربیع المدانی کا الہجر میں بارہ دن زنجیروں میں قید رہنا، 294ھ، ص336"
+summary:
+  ar: "أمر الهادي بحبس علي بن الربيع المداني في الحديد اثني عشر يوماً بالهجر، وفق ما يذكر الكتاب."
+  en: "Al-Hadi ordered Ali ibn al-Rabi' al-Madani held in irons for twelve days at al-Hijr, as the book reports."
+  ur: "ہادی نے علی بن الربیع المدانی کو الہجر میں بارہ دن زنجیروں میں رکھنے کا حکم دیا، جیسا کہ کتاب بیان کرتی ہے۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+- civil-wars-and-revolts
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0907"
+    hijri: "0294"
+    calendar: julian
+    precision: year
+    status: tradition
+    derived: true
+    note: "سنة 294هـ بحسب عنوان السنة في ص330 ولا يذكر الكتاب يوماً ولا شهراً لهذا الحدث؛ التحويل مشتق من التقويم الجدولي."
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ali-ibn-al-rabi-al-madani
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/najran
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص336 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5)"
+  model: claude-haiku-5-5
+  run: a1-sira-p331-338-1
+status:
+  review: draft
+  completeness: 2
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 336"

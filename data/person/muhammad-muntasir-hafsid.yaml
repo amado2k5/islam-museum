@@ -7,8 +7,8 @@ roles:
 - ruler
 gender: male
 summary:
-  ar: بطاقة أولية لأبي عبد الله محمد المنتصر الثاني، خليفة الحفصيين من سنة ١٤٣٤م إلى ١٤٣٥م؛ تذكره معاجم الدول الإسلامية ولم تُراجع ترجمته على الصفحة بعد.
-  en: Draft card for Abu Abd Allah Muhammad al-Muntasir II, the Hafsid caliph of 1434–1435; the dynastic handbook entry is not yet checked on the page.
+  ar: "محمد المنتصر بن محمد المنصور الحفصي، من ملوك الدولة الحفصية بتونس، بويع سنة 837 هـ بعد وفاة جده عزوز، ومدة حكمه سنة و71 يوما، وتوفي سنة 839 هـ في سانية باردو، وبدأ بناء المدرسة المنتصرية بتونس {cite:alam-zirikli-dar-al-ilm-2002 vol. 7 p. 46}."
+  en: "Muhammad al-Muntasir ibn Muhammad al-Mansur, Hafsid ruler of Tunis: acknowledged in 837 AH after his grandfather Azzuz died, reigned one year and 71 days, died at Sanyat Bardo in 839 AH (1435 CE), and began the Muntasiriyya madrasa in Tunis {cite:alam-zirikli-dar-al-ilm-2002 vol. 7 p. 46}."
 wings:
 - people
 regions:
@@ -17,20 +17,27 @@ periods:
 - period/crusades-ayyubid-mamluk
 sources:
 - source/bosworth-new-islamic-dynasties-1996
+- source/alam-zirikli-dar-al-ilm-2002
 external_ids:
   wikidata: Q11937796
 provenance:
   layer: own-research
-  source: 'Wikidata candidate; book source: Bosworth, The New Islamic Dynasties (1996) — entry not yet read on the page'
-  generated_by: Devin (SWE-2 High)
-  model: SWE-2 High
-  run: wikidata-import-0034
+  source: "al-Zirikli, al-A'lam, 15th ed. 2002 (Shamela 12286), vol. 7 p. 46, entry read in full from the local OpenITI text; the heading gives 839 AH (1435 CE), agreeing with the earlier card's death year"
+  generated_by: "Claude Code (Lane B2 packet b2-m26)"
+  model: claude-haiku-5-5
+  run: b2-m26
 status:
   review: draft
-  completeness: 1
-died: { edtf: "1435", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; Brunschvig (La Berberie orientale)" }
+  completeness: 2
+died: { edtf: "1435", hijri: "0839", calendar: gregorian, precision: year, derived: true, note: "al-Zirikli, al-A'lam, vol. 7 p. 46, heading 839 AH = 1435 CE; the earlier note (EI2; Brunschvig, La Berberie orientale) agrees.", sources: [source/alam-zirikli-dar-al-ilm-2002, source/bosworth-new-islamic-dynasties-1996] }
 relations:
 - type: ruled_over
   target: place/ifriqiya
   sources:
   - source/bosworth-new-islamic-dynasties-1996
+- type: died_in
+  target: place/tunis
+  confidence: medium
+  note: "al-Zirikli, vol. 7 p. 46: died at Sanyat Bardo (the Bardo district of Tunis, as the entry names it)"
+  sources:
+  - source/alam-zirikli-dar-al-ilm-2002

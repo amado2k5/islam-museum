@@ -6,24 +6,27 @@ label:
 roles: [scholar]
 gender: male
 summary:
-  ar: "بطاقة أولية لعبد الله بن أبي طلحة الأنصاري؛ لم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Abd Allah ibn Abi Talha al-Ansari; the entry is not yet checked on the page."
+  ar: "عبد الله بن أبي طلحة زيد بن سهل الأنصاري، أخو أنس بن مالك لأمه، ولد بعد غزوة حنين وحنكه النبي بتمرة، وأقام بالمدينة وكان قليل الحديث يروي عن أبيه وأخيه أنس، واختلف في موته فقيل استشهد بفارس وقيل مات بالمدينة سنة 84 هـ {cite:isaba-bajawi-jil-1992 vol. 5 p. 15}."
+  en: "Abd Allah ibn Abi Talha Zayd ibn Sahl al-Ansari, maternal brother of Anas ibn Malik, born after the battle of Hunayn and given the first taste of a date by the Prophet; he lived in Medina, transmitted little hadith from his father and from Anas, and his death is reported both as martyrdom in Fars and as a death in Medina in 84 AH {cite:isaba-bajawi-jil-1992 vol. 5 p. 15}."
 wings: [people]
 regions: [arabia]
 periods: [period/umayyad]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/isaba-bajawi-jil-1992]
 external_ids:
   wikidata: Q89384455
 provenance:
   layer: own-research
-  source: "Wikidata candidate; entry not yet read on the page in a book source"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
+  source: "Ibn Hajar, al-Isaba fi Tamyiz al-Sahaba (Bajawi ed., Dar al-Jil 1992), vol. 5 p. 15, entry read in full from the local OpenITI text"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2c-m01-2026-11-14
 status:
   review: draft
-  completeness: 1
-born: { edtf: "630", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi: 8–84 AH)" }
-died: { edtf: "703", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi: 8–84 AH)" }
+  completeness: 3
+born: { edtf: "630", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi: 8-84 AH). al-Isaba vol. 5 p. 15 gives no year, only that he was born after the battle of Hunayn (Shawwal 8 AH, January 630 CE), which agrees with the card.", sources: [source/isaba-bajawi-jil-1992] }
+died: { edtf: "703", hijri: "0084", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi: 8-84 AH). al-Isaba vol. 5 p. 15: one report says he died in Medina in 84 AH (703 CE); Abu Nuaym al-Isbahani says he was martyred in Fars, without a year.", sources: [source/isaba-bajawi-jil-1992] }
 relations:
-  - { type: lived_in, target: place/medina, note: "Place association from the person's nisba/name (الأنصاري); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
+  - { type: lived_in, target: place/medina, note: "Ibn Hajar, al-Isaba vol. 5 p. 15, quoting Ibn Sad: he stayed in Medina", sources: [source/isaba-bajawi-jil-1992], confidence: high }
+  - { type: child_of, target: person/abu-talha-al-ansari, note: "al-Isaba vol. 5 p. 15: son of Abu Talha Zayd ibn Sahl al-Ansari", sources: [source/isaba-bajawi-jil-1992], confidence: high }
+  - { type: child_of, target: person/umm-sulaym, note: "al-Isaba vol. 5 p. 15: Umm Sulaym bore him and sent him to the Prophet with Anas", sources: [source/isaba-bajawi-jil-1992], confidence: high }
+  - { type: sibling_of, target: person/anas-ibn-malik, note: "al-Isaba vol. 5 p. 15: brother of Anas ibn Malik through their mother", sources: [source/isaba-bajawi-jil-1992], confidence: high }

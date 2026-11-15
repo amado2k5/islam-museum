@@ -29,5 +29,5 @@ born: { edtf: "1073", calendar: gregorian, precision: year, derived: true, note:
 died: { edtf: "1153", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Amal al-Amil Confirmed on 13 November 2026 against Wikidata Q1990225 (P570, a statement with a reference), item revision 2557348556.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/khurasan, note: "Place association from the person's nisba/name (khurasani); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
-  - { type: died_in, target: place/sabzevar, confidence: medium, note: "Al-Zirikli, al-A'lam vol. 5 p. 145: died in Sabzevar.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
-  - { type: buried_in, target: place/mashhad, confidence: low, note: "Al-Zirikli, al-A'lam vol. 5 p. 145: carried to the shrine city of Mashhad of al-Ridha (the entry does not use the word burial).", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+  - { type: died_in, target: place/sabzevar, confidence: medium, note: "Al-Zirikli, al-A'lam vol. 5 p. 148: died in Sabzevar.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+  - { type: buried_in, target: place/mashhad, confidence: low, note: "Al-Zirikli, al-A'lam vol. 5 p. 148: carried to the shrine city of Mashhad of al-Ridha (the entry does not use the word burial).", sources: [source/alam-zirikli-dar-al-ilm-2002] }

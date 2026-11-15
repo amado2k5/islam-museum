@@ -1,0 +1,67 @@
+id: event/al-hadi-reaches-najran-at-al-hisn-and-muhammad-ibn-ubaydallah-meets-him-at-al-kathib-294
+class: event
+kind: other
+label:
+  ar: "وصول الهادي إلى نجران ونزوله بالحصن، ولقاؤه محمد بن عبيد الله بالكثيب، 294هـ، ص335"
+  en: "Al-Hadi reaches Najran, alights at al-Hisn, and Muhammad ibn Ubaydallah meets him at al-Kathib, 294 AH, p. 335"
+  ur: "ہادی کا نجران پہنچنا، الحصن میں ٹھہرنا، اور الکثیب پر محمد بن عبید اللہ سے ملاقات، 294ھ، ص335"
+summary:
+  ar: "وصل الهادي نجران فنزل بالحصن، ثم التقى محمد بن عبيد الله به في الكثيب، ولم يبق معه أحد من بني الحارث."
+  en: "Al-Hadi reached Najran and alighted at al-Hisn; Muhammad ibn Ubaydallah met him at al-Kathib, and none of Banu al-Harith remained with him."
+  ur: "ہادی نجران پہنچے اور الحصن میں ٹھہرے؛ محمد بن عبید اللہ الکثیب پر ان سے ملے، اور بنی الحارث میں سے ان کے ساتھ کوئی باقی نہ رہا۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0907-05-09"
+    hijri: "0294-07-23"
+    calendar: julian
+    precision: day
+    status: tradition
+    derived: true
+    note: "سبع بقين من رجب سنة 294هـ ⁦(ص335)⁩، وعُدّت ثلاثاً وعشرين من رجب؛ التحويل الجدولي 9 مايو 907م مشتق."
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/najran
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abu-jafar-muhammad-ibn-ubaydallah-al-abbasi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-shakir
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/thaqif
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/al-ahlaf-najran
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص335 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5)"
+  model: claude-haiku-5-5
+  run: a1-sira-p331-338-1
+status:
+  review: draft
+  completeness: 2
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 335"
