@@ -22,11 +22,12 @@ Stated in full in the Founder's Charter, Article 7, and repeated here so no part
 
 Stated in full in the Founder's Charter, Article 8, and published on the Foundation page:
 
-- **Free use.** Anyone may use all of the museum's data, resources and services, present and future, in any way, without limit and without any control from the museum. Anyone may clone, fork or copy the whole codebase and start a similar, modified or entirely new project; the founder will bring no copyright claim and no legal attempt against such efforts.
-- **Change.** The founder may change anything — the website, its content, code, hosting, performance, architecture and deployment — at any time, without notice and without anyone's permission.
-- **No warranty, no liability.** There is no service-level agreement and no warranty of any kind; downtime, malfunction, unavailability or modification gives no one a claim against the museum or its owner. Neither the site, nor its owner, nor the hosting company is liable for anyone's behaviour, actions, adoption, application, reproduction or reuse of the content, nor for any misunderstanding, misrepresentation, misuse or resulting harm. Accuracy is cited, not guaranteed; external sites are their owners' responsibility.
+- **Free use.** Anyone may use all of the museum's data, resources and services, present and future, in any way, without limit and without any control from the museum. Anyone may clone, fork or copy the whole codebase and start a similar, modified or entirely new project; the founder will bring no copyright claim and no legal attempt against such efforts. The museum's name and medallion emblem are not part of the grant: reuse may not use them to suggest the museum endorses the reuser or their project.
+- **Change.** The founder may change anything — the website, its content, code, hosting, performance, architecture and deployment — at any time, without prior consent, without approval, and without notice to anyone.
+- **No warranty, no liability.** There is no service-level agreement and no warranty of any kind; downtime, malfunction, unavailability or modification gives no one a claim against the museum or its owner. Neither the site, nor its owner, nor the hosting company is liable for anyone's behaviour, actions, adoption, application, reproduction or reuse of the content, nor for any misunderstanding, misrepresentation, misuse or resulting harm. Accuracy is cited, not guaranteed; external sites are their owners' responsibility. Downloads are taken at the downloader's own risk.
 - **Removal and modification requests.** Any author or entity with a claim to any content may request its removal or modification at any time through the site's report tools, which are always open; such requests are answered ahead of routine corrections.
 - **Opinions.** All opinions and views expressed on the site are solely the founder's own and do not reflect the views or opinions of his employer.
+- **Acceptance.** Using the museum means accepting these terms; use the site lawfully, and do not attempt to disrupt it or misrepresent what it is. If any single clause of these terms is ever held unenforceable, the rest stand.
 
 ## Purpose, support and contact (founder rule, 15 November 2026)
 
@@ -36,6 +37,14 @@ Stated in full in the Founder's Charter, Article 9, and published on the Foundat
 - **Costs, volunteers and donations.** The museum's operations incur substantial continuing costs, carried personally by the founder. Volunteers are welcome, and anyone may donate as they wish, with no commitment and no obligation — and no control in return.
 - **Future gift shop.** An online gift shop / bazaar is planned for the future in its own clear, separate section of the site, with no ads, no spam and no soliciting; visiting it is optional and the museum itself remains free. Until it opens, there is no shop.
 - **Contact.** Press and media: press@islam.museum. Copyright claims: copyright@islam.museum. Any other concerns: concerns@islam.museum.
+
+## What the museum is not (founder rule, 15 November 2026)
+
+Stated in full in the Founder's Charter, Article 10, and published on the Foundation and Disclaimer pages:
+
+- **Affiliated with no one.** The website and its owner are not affiliated with, sponsored by, managed by, owned by, or under the jurisdiction or control of any government or government organisation, corporation, business, or organisation of any type.
+- **Against hate; for diversity and peace.** The museum stands firmly against hate, hate speech and harming anyone; against Islamophobia, antisemitism, racism, genocide, ethnic cleansing and anything the United Nations classifies as hate or racism. It supports and promotes diversity, difference of opinion and peace, and supports no opinion or narration of history against another.
+- **An archive, not an author, and no endorsement.** The museum is an archive and library of human heritage presenting others' content — including labelled AI-generated material — as it is, from their own point of view; their opinions, actions, advice and stories represent themselves, not the owner. The museum does not condone or endorse anyone it presents, does not preach or guide anyone toward any decision, offers no consultation, services or advice of any kind, and cannot be held liable for the content it presents. Authenticity rests with the cited sources; visitors are free — and encouraged — to verify any content and its authenticity, in part or in whole, with anyone, to discard or not use any content, and their own actions and consequences are theirs alone. The museum claims no copyright, patent or ownership over any material or artifact it presents; no one is obligated to visit the site at all — anyone who comes, comes by their own free will — and the museum offers no incentive, money or gain to anyone to visit, view, apply, market, talk about or advertise its content.
 
 ## Ownership and legal status (17 October 2026)
 

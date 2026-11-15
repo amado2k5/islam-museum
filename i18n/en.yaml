@@ -1556,89 +1556,60 @@ mytour:
   add_all: Add all to my tour
   items: entries
   empty: Nothing saved yet. Open an entry and choose “Save to my tour”.
-foundation:
-  title: About the Islam Museum foundation
-  lede: 'A free, open, all-digital museum of Islam: its faith, civilization, peoples, places, ideas, objects, texts and living culture, from the world Islam was born
-    into to today.'
-  logo_title: The logo
-  logo_intro: The mark brings three elements of Islamic architecture and the book into one shape.
-  logo_star: 'The eight-pointed star, from Islamic geometry: time and space together, neither understood without the other.'
-  logo_arch: 'The mihrab: the doorway a visitor enters through, and the turn toward the qibla.'
-  logo_book: 'The open book: knowledge and words, and reading before judging.'
-  logo_download: Mark (PNG)
-  emblem_alt: 'The museum emblem: a gold eight-point star around a lapis disc with a copper mihrab arch over an open book'
-  emblem_download: Full emblem (image)
-  logo_dark_download: Mark for dark backgrounds
-  logo_lockup_download: Download the mark with the name
-  story_title: The story
-  story_1: 'The project began with a simple question: why is there no single place online that gathers the whole story of Islam, where a stranger can walk in and
-    learn, and a researcher can check a claim and go back to the source? What is known about Islam is scattered across scripture sites, museum archives, encyclopedia
-    articles, academic studies and press coverage, and much of it is written to defend or attack rather than to understand.'
-  story_2: 'The project chose to be built as a museum, not as one long article: nine wings (Time, Place, People, Ideas, Objects, Words, Living Islam, Today, and Made)
-    look at the same subject from different angles, and every person, place, event, idea or object is a node in a graph that connects it to what surrounds it in time
-    and space.'
-  story_3: 'The material is kept as plain, readable files, with every fact tied to a source and every date written in its precise form with its Hijri and Gregorian
-    calendars. The site itself is a set of static pages: no server, no database, no paid service, and no AI model running when a visitor arrives.'
-  story_4: 'When the museum chose its visual identity, its colours came from Islamic architecture and manuscript making: deep lapis blue, the muted gold of manuscript
-    pages, warm alabaster, and the sand of tiles. No single ornament was copied from an existing work; the patterns grow from the geometry of the star, the square
-    and the circle.'
-  story_5: 'Then came shared work: contributors and parallel working sessions add small batches of material, and review turns drafts into reviewed entries before
-    they are marked as such. The museum is still being built, and it says so on every page; the coverage page counts what is complete and what is still waiting.'
-  founder_title: The founder
-  founder_line: Founded by {name}, a Canadian of Egyptian origin, resident in Oakville, Ontario.
-  founder_name: Ahmed Abdel Aal
-  founder_body: 'One person founded the project and wrote its first plan inside the repository itself, then opened the door to anyone who wanted to add or correct.
-    The plan is built so the museum survives even if its founder stops: its text is in git, its data is open, and anyone can copy the whole museum to their own computer.
-    This page describes the project and its purpose, not the life of the person behind it.'
-  independence_title: Independence
-  independence_1: 'islam.museum is the personal project of its founder, who directs it alone. Its management, ownership and decisions are never shared,
-    and it is not for sale: no funding, partnership or support of any kind gives anyone control over it.'
-  independence_2: 'The museum will never be merged into another project, and it stands under no umbrella and no oversight — no government, religious institution,
-    company or foundation. Everyone is welcome to help: with feedback and corrections, volunteering, funding and fundraising, materials, testing, code,
-    writing about the museum and spreading the word. Help is thanked and credited, and it brings no authority with it: the museum remains independent,
-    from the people to the people.'
-  terms_title: Free to use — and on what terms
-  terms_1: 'Everything here is free to use, without asking: all of the museum''s data, resources and services, present and future, in any way and without
-    limit, and with no control from us. You may clone, fork or copy the whole codebase and start a similar, modified or entirely new project — the founder
-    will bring no copyright claim and no legal attempt against such efforts. The data is CC0, the prose CC BY-SA 4.0 and the code MIT.'
-  terms_2: 'The museum may change anything at any time — the website, its content, its code, its hosting, its performance, its architecture and its
-    deployment — without notice. There is no service-level agreement and no warranty of any kind: if the site malfunctions, goes down, is unavailable or is
-    changed, no claim lies against the museum or its owner on that account.'
-  terms_3: 'What you do with what you find here is your responsibility. Neither the website nor its owner, nor the hosting company, is liable for anyone''s
-    behaviour, actions, adoption, application, reproduction or reuse of the published content, nor for any misunderstanding, misrepresentation, misuse or
-    harm that follows from a visitor''s actions. Every record cites its sources and shows its review state, but accuracy is cited, not guaranteed — the
-    cited source is where a claim is finally checked — and sites we link to are their owners'' responsibility.'
-  terms_4: 'Any author or entity with a claim to any content may ask at any time for its removal or modification: the report tools on this site are always
-    open for exactly that, and such requests are answered first. All opinions and views expressed on this site are solely the founder''s own and do not
-    reflect the views or opinions of his employer.'
-  purpose_title: Not for profit, not for an agenda
-  purpose_1: 'islam.museum is not run for profit or gain. It pursues no agenda, and it serves no government or corporate need. It is free for everyone: no
-    subscriptions, no tracking, and no intention to use or sell anyone''s information to anyone.'
-  purpose_2: 'Running the museum costs real money every month, and its founder carries those costs personally. Volunteers are welcome, and anyone who
-    wishes may donate toward the costs, as they wish — with no commitment, no obligation, and no control in return.'
-  purpose_3: 'In the future, the museum plans an online gift shop / bazaar in its own clear, separate section of the site, where items may be listed and
-    sold for anyone who wishes to browse or shop there, to help toward the costs. It will carry no ads, no spam and no soliciting, and visiting it will
-    always be optional; until it opens, there is no shop, and the museum itself remains free.'
-  contact_title: Who to write to
-  contact_press: Press and media
-  contact_copyright: Copyright claims
-  contact_concerns: Any other concerns
-  goal_title: The goal
-  goal_intro: 'The museum''s goal is to show the whole of Islam, from its beginnings to the present moment, fairly and without bias. To that end it commits to the
-    following:'
-  goal_1: 'It describes rather than prescribes: facts with dates and sources, and judgements attributed to the people who made them.'
-  goal_2: The Sunni account is the main frame of research, and every other view is stated only after it is clearly labelled.
-  goal_3: Opponents, critics and allies appear with their roles in their own time, written about without the language of enmity.
-  goal_4: 'Contested questions appear as tension cards: two or more voices, each cited, with no verdict from the museum.'
-  goal_5: Every claim is tied to a source; Wikipedia is a pointer, never a source.
-  goal_6: It begins in Arabic, and it serves the visitor who knows nothing of Islam as well as the specialist.
-  take_title: Take part in building it
-  take_body: The content and the code are open to everyone. You can read the repository, report an error, suggest a new entry, or ask for a translation into another
-    language.
-  take_repo: The repository on GitHub
-  take_suggest: Suggest an entry or a correction
-  license: 'Licence: text CC BY-SA 4.0 · data CC0 · code MIT'
-  breadcrumb: Museum
+'foundation':
+  'title': 'About the Islam Museum foundation'
+  'lede': 'A free, open, all-digital museum of Islam: its faith, civilization, peoples, places, ideas, objects, texts and living culture, from the world Islam was born into to today.'
+  'logo_title': 'The logo'
+  'logo_intro': 'The mark brings three elements of Islamic architecture and the book into one shape.'
+  'logo_star': 'The eight-pointed star, from Islamic geometry: time and space together, neither understood without the other.'
+  'logo_arch': 'The mihrab: the doorway a visitor enters through, and the turn toward the qibla.'
+  'logo_book': 'The open book: knowledge and words, and reading before judging.'
+  'logo_download': 'Mark (PNG)'
+  'emblem_alt': 'The museum emblem: a gold eight-point star around a lapis disc with a copper mihrab arch over an open book'
+  'emblem_download': 'Full emblem (image)'
+  'logo_dark_download': 'Mark for dark backgrounds'
+  'logo_lockup_download': 'Download the mark with the name'
+  'story_title': 'The story'
+  'story_1': 'The project began with a simple question: why is there no single place online that gathers the whole story of Islam, where a stranger can walk in and learn, and a researcher can check a claim and go back to the source? What is known about Islam is scattered across scripture sites, museum archives, encyclopedia articles, academic studies and press coverage, and much of it is written to defend or attack rather than to understand.'
+  'story_2': 'The project chose to be built as a museum, not as one long article: nine wings (Time, Place, People, Ideas, Objects, Words, Living Islam, Today, and Made) look at the same subject from different angles, and every person, place, event, idea or object is a node in a graph that connects it to what surrounds it in time and space.'
+  'story_3': 'The material is kept as plain, readable files, with every fact tied to a source and every date written in its precise form with its Hijri and Gregorian calendars. The site itself is a set of static pages: no server, no database, no paid service, and no AI model running when a visitor arrives.'
+  'story_4': 'When the museum chose its visual identity, its colours came from Islamic architecture and manuscript making: deep lapis blue, the muted gold of manuscript pages, warm alabaster, and the sand of tiles. No single ornament was copied from an existing work; the patterns grow from the geometry of the star, the square and the circle.'
+  'story_5': 'Then came shared work: contributors and parallel working sessions add small batches of material, and review turns drafts into reviewed entries before they are marked as such. The museum is still being built, and it says so on every page; the coverage page counts what is complete and what is still waiting.'
+  'founder_title': 'The founder'
+  'founder_line': 'Founded by {name}, a Canadian of Egyptian origin, resident in Oakville, Ontario.'
+  'founder_name': 'Ahmed Abdel Aal'
+  'founder_body': 'One person founded the project and wrote its first plan inside the repository itself, then opened the door to anyone who wanted to add or correct. The plan is built so the museum survives even if its founder stops: its text is in git, its data is open, and anyone can copy the whole museum to their own computer. This page describes the project and its purpose, not the life of the person behind it.'
+  'independence_title': 'Independence'
+  'independence_1': 'islam.museum is the personal project of its founder, who directs it alone. Its management, ownership and decisions are never shared, and it is not for sale: no funding, partnership or support of any kind gives anyone control over it.'
+  'independence_2': 'The museum will never be merged into another project, and it stands under no umbrella and no oversight — no government, religious institution, company or foundation. Everyone is welcome to help: with feedback and corrections, volunteering, funding and fundraising, materials, testing, code, writing about the museum and spreading the word. Help is thanked and credited, and it brings no authority with it: the museum remains independent, from the people to the people.'
+  'terms_title': 'Free to use — and on what terms'
+  'terms_1': 'Everything here is free to use, without asking: all of the museum''s data, resources and services, present and future, in any way and without limit, and with no control from us. You may clone, fork or copy the whole codebase and start a similar, modified or entirely new project — the founder will bring no copyright claim and no legal attempt against such efforts. The data is CC0, the prose CC BY-SA 4.0 and the code MIT.'
+  'terms_2': 'The museum may change anything at any time — the website, its content, its code, its hosting, its performance, its architecture and its deployment — without prior consent, without approval, and without notice to anyone. There is no service-level agreement and no warranty of any kind: if the site malfunctions, goes down, is unavailable or is changed, no claim lies against the museum or its owner on that account.'
+  'terms_3': 'What you do with what you find here is your responsibility. Neither the website nor its owner, nor the hosting company, is liable for anyone''s behaviour, actions, adoption, application, reproduction or reuse of the published content, nor for any misunderstanding, misrepresentation, misuse or harm that follows from a visitor''s actions. Every record cites its sources and shows its review state, but accuracy is cited, not guaranteed — the cited source is where a claim is finally checked — and sites we link to are their owners'' responsibility.'
+  'terms_4': 'Any author or entity with a claim to any content may ask at any time for its removal or modification: the report tools on this site are always open for exactly that, and such requests are answered first. All opinions and views expressed on this site are solely the founder''s own and do not reflect the views or opinions of his employer.'
+  'purpose_title': 'Not for profit, not for an agenda'
+  'purpose_1': 'islam.museum is not run for profit or gain. It pursues no agenda, and it serves no government or corporate need. It is free for everyone: no subscriptions, no tracking, and no intention to use or sell anyone''s information to anyone.'
+  'purpose_2': 'Running the museum costs real money every month, and its founder carries those costs personally. Volunteers are welcome, and anyone who wishes may donate toward the costs, as they wish — with no commitment, no obligation, and no control in return.'
+  'purpose_3': 'In the future, the museum plans an online gift shop / bazaar in its own clear, separate section of the site, where items may be listed and sold for anyone who wishes to browse or shop there, to help toward the costs. It will carry no ads, no spam and no soliciting, and visiting it will always be optional; until it opens, there is no shop, and the museum itself remains free.'
+  'purpose_4': 'The museum stands firmly against hate, hate speech and harm — against Islamophobia, antisemitism, racism, genocide, ethnic cleansing and anything the United Nations classifies as hate or racism — and supports and promotes diversity, difference of opinion and peace. It supports no opinion against another, and no narration of history against another: it is an archive and a library of human heritage, presenting what others made and wrote as it is, from their own point of view. Their views are theirs alone; the museum endorses no one, preaches nothing, and offers no consultation, services or advice of any kind. The Charter states this in full (Article 10). The museum claims no copyright, patent or ownership over anything it presents, and it offers no incentive, money or gain to anyone to visit, view or promote it — anyone who comes, comes by their own free will.'
+  'contact_title': 'Who to write to'
+  'contact_press': 'Press and media'
+  'contact_copyright': 'Copyright claims'
+  'contact_concerns': 'Any other concerns'
+  'goal_title': 'The goal'
+  'goal_intro': 'The museum''s goal is to show the whole of Islam, from its beginnings to the present moment, fairly and without bias. To that end it commits to the following:'
+  'goal_1': 'It describes rather than prescribes: facts with dates and sources, and judgements attributed to the people who made them.'
+  'goal_2': 'The Sunni account is the main frame of research, and every other view is stated only after it is clearly labelled.'
+  'goal_3': 'Opponents, critics and allies appear with their roles in their own time, written about without the language of enmity.'
+  'goal_4': 'Contested questions appear as tension cards: two or more voices, each cited, with no verdict from the museum.'
+  'goal_5': 'Every claim is tied to a source; Wikipedia is a pointer, never a source.'
+  'goal_6': 'It begins in Arabic, and it serves the visitor who knows nothing of Islam as well as the specialist.'
+  'take_title': 'Take part in building it'
+  'take_body': 'The content and the code are open to everyone. You can read the repository, report an error, suggest a new entry, or ask for a translation into another language.'
+  'take_repo': 'The repository on GitHub'
+  'take_suggest': 'Suggest an entry or a correction'
+  'license': 'Licence: text CC BY-SA 4.0 · data CC0 · code MIT'
+  'breadcrumb': 'Museum'
 explore:
   groups:
     texts: "Texts"
@@ -2302,47 +2273,54 @@ privacy:
   adr_link: Decision 0002
   contact_cta: Email us
   report_cta: Report an error
-disclaimer:
-  title: Disclaimer
-  lede: 'What this museum is, how its content is gathered and checked, what you may and may not take from it, and the terms on which it is offered — in plain language.'
-  updated: 'Last updated: 30 October 2026'
-  personal_title: A personal project
-  personal_1: 'islam.museum is a personal project, created and maintained by an individual in a personal capacity, with personal resources, outside any employment. It is not operated by, affiliated with, or endorsed by any employer, company, institution, government or religious authority; the institutions and people named on the site are named as subjects or sources, not as sponsors. The project intends to incorporate as a non-profit organisation in Ontario, Canada; until that happens it remains a personal project, and this page will be updated when it does.'
-  personal_2: 'All opinions and views expressed on this site are solely my own and do not reflect the views or opinions of my employer.'
-  purpose_title: Educational purpose
-  purpose_body: 'The museum is offered for education, culture and general interest: it presents the history and heritage of Islam from published sources, in Arabic, English and Urdu. It is not a school, university or accredited course, and it awards no certificates or qualifications.'
-  accuracy_title: Accuracy, and its limits
-  accuracy_1: 'Every entry in the museum is tied to the sources cited on its page, the coverage page shows openly where the record is thin, and errors are corrected when they are found or reported. We work to check facts before publication and to say, on the page, where a claim rests on a single source or is debated.'
-  accuracy_2: 'Even so, no guarantee is given that every statement on the site is complete, current or free of error. History contains genuinely contested matters — dates, attributions and narratives differ between sources and traditions — and Hijri–Gregorian date conversions follow standard methods and are approximate for early periods. Treat every page as a sourced starting point, not as the last word.'
-  verify_title: Verify before you rely on it
-  verify_body: 'Do not rely on the museum''s content as the sole basis for an examination or coursework answer, for a job, academic or media interview, for publication, or for any personal, professional, financial, legal or religious decision. Before relying on anything here, verify it against the sources cited on the page and other authoritative references, and consult qualified teachers, scholars or professionals where the matter calls for them.'
-  advice_title: Not rulings, and not professional advice
-  advice_body: 'Nothing on this site is a fatwa or a religious ruling, and nothing here is legal, financial, medical or other professional advice. Religious texts and practices are presented from their published sources, following the museum''s editorial method (see "How we decide what to show"); questions of belief and practice should be taken to qualified scholars, and questions in professional fields to qualified practitioners.'
-  gathering_title: How the content is gathered
-  gathering_1: 'The museum''s content is collected and built from published, publicly available sources: encyclopedias (including Wikipedia), Wikidata, the catalogues and open collections of libraries and museums, and published books and scholarship, each recorded in the museum''s source records and cited on the page it supports.'
-  gathering_2: 'Artificial-intelligence tools assist in gathering, drafting, structuring and cross-checking material at build time; no AI runs when you visit the site. AI-assisted drafting can introduce errors, and automated collection can misread a source — one more reason the sources are shown on every page and why corrections are welcomed. Selection, emphasis and arrangement are editorial choices, and coverage is uneven by design and by honesty: the museum shows its gaps rather than filling them with invention.'
-  children_title: Children and young visitors
-  children_1: 'The museum is for all ages, and the children''s wing (Kids'' Wing) is made for children: stories, games and quests, with no accounts, no data collection, no chat and no contact with strangers, as the privacy page explains. Children should explore the museum with a parent, guardian or teacher, who remains responsible for supervising their use and judging what is suitable for them.'
-  children_2: 'For parents and teachers: the museum, including the children''s wing, is an aid to learning, not a curriculum and not a substitute for a child''s school materials. Material found here should be checked against the cited sources — with an adult — before it is used in homework or schoolwork, and children should not treat any page as an examination-ready answer without that check.'
-  features_title: Interactive features and tools
-  features_body: 'The timelines, the date converter, the connections graph, the search, the journeys, the 3D tour and the other interactive features are aids to exploration. Their results are computed from the museum''s underlying data and inherit its limits: a converted date, a graph layout or an "on this day" selection is a presentation of the data, not a new or certified fact. Features may be changed, moved or removed at any time without notice.'
-  support_title: Support and donations
-  support_body: 'The museum is free for everyone. The support page offers voluntary ways to contribute to its running costs — Patreon, PayPal, LaunchGood and GitHub Sponsors — held in the operator''s personal name until a non-profit organisation is incorporated. Support is optional, buys no access, goods or services, and gives no control over the museum''s content, as the support page states. The museum is not a registered charity and issues no charitable tax receipts.'
-  ip_title: Intellectual property and reuse
-  ip_body: 'The museum''s data is published under CC0, its prose under CC BY-SA 4.0 and its code under the MIT licence, as the licences page sets out; reuse within those terms is welcome. Images and media that come from partner institutions and other rights-holders remain under their own terms and are credited on the page. The Qur''an text, translations and other quoted works carry the sources and terms noted in the references. Nothing on this page or the site grants any right in third-party material.'
-  links_title: Links to other sites
-  links_body: 'The museum points to outside sources and references for further reading. Those sites are not under the museum''s control, their content is not endorsed by inclusion, and their own terms and policies apply when you follow them.'
-  liability_title: No warranties; liability
-  liability_body: 'The site and its content are provided "as is" and "as available", without warranties of any kind, express or implied, including as to accuracy, completeness, fitness for a particular purpose or uninterrupted availability. To the fullest extent permitted by applicable law, the operator accepts no liability for any loss or damage arising from the use of, or reliance on, the site or its content. Nothing in this disclaimer limits any liability that cannot lawfully be limited. The museum is operated from Ontario, Canada, and this disclaimer is governed by the laws of Ontario and the federal laws of Canada applicable in it.'
-  changes_title: Changes to this disclaimer
-  changes_body: 'This disclaimer may be updated as the museum changes. Updates are posted on this page with a new date, and the full history of the page is kept in the public repository on GitHub, where anyone can review what changed and when.'
-  contact_title: Press, copyright and other concerns
-  contact_body: 'For press and media enquiries, write to press@islam.museum. For copyright claims, write to copyright@islam.museum — rights-holders may
-    also use the report tools on the site at any time. For any other concerns, write to concerns@islam.museum.'
-  more_title: Corrections and questions
-  more_body: 'If you find an error, or anything on the site that concerns you, the fastest route is the correction form; for anything else, email us. Corrections concerning living people come first.'
-  contact_cta: Email us
-  report_cta: Report an error
+'disclaimer':
+  'title': 'Disclaimer'
+  'lede': 'What this museum is, how its content is gathered and checked, what you may and may not take from it, and the terms on which it is offered — in plain language.'
+  'updated': 'Last updated: 30 October 2026'
+  'personal_title': 'A personal project'
+  'personal_1': 'islam.museum is a personal project, created and maintained by an individual in a personal capacity, with personal resources, outside any employment. It is not operated by, affiliated with, or endorsed by any employer, company, institution, government or religious authority; the institutions and people named on the site are named as subjects or sources, not as sponsors. The project intends to incorporate as a non-profit organisation in Ontario, Canada; until that happens it remains a personal project, and this page will be updated when it does.'
+  'personal_2': 'All opinions and views expressed on this site are solely my own and do not reflect the views or opinions of my employer.'
+  'affiliation_title': 'Affiliated with no one'
+  'affiliation_body': 'The website and its owner are not affiliated with, sponsored by, managed by, owned by, or under the jurisdiction or control of any government or government organisation, any corporation or business, or any organisation of any type whatsoever.'
+  'purpose_title': 'Educational purpose'
+  'purpose_body': 'The museum is offered for education, culture and general interest: it presents the history and heritage of Islam from published sources, in Arabic, English and Urdu. It is not a school, university or accredited course, and it awards no certificates or qualifications.'
+  'accuracy_title': 'Accuracy, and its limits'
+  'accuracy_1': 'Every entry in the museum is tied to the sources cited on its page, the coverage page shows openly where the record is thin, and errors are corrected when they are found or reported. We work to check facts before publication and to say, on the page, where a claim rests on a single source or is debated.'
+  'accuracy_2': 'Even so, no guarantee is given that every statement on the site is complete, current or free of error. History contains genuinely contested matters — dates, attributions and narratives differ between sources and traditions — and Hijri–Gregorian date conversions follow standard methods and are approximate for early periods. Treat every page as a sourced starting point, not as the last word.'
+  'verify_title': 'Verify before you rely on it'
+  'verify_body': 'Do not rely on the museum''s content as the sole basis for an examination or coursework answer, for a job, academic or media interview, for publication, or for any personal, professional, financial, legal or religious decision. Before relying on anything here, verify it against the sources cited on the page and other authoritative references, and consult qualified teachers, scholars or professionals where the matter calls for them.'
+  'advice_title': 'Not rulings, and not professional advice'
+  'advice_body': 'Nothing on this site is a fatwa or a religious ruling, and nothing here is legal, financial, medical or other professional advice. Religious texts and practices are presented from their published sources, following the museum''s editorial method (see "How we decide what to show"); questions of belief and practice should be taken to qualified scholars, and questions in professional fields to qualified practitioners.'
+  'gathering_title': 'How the content is gathered'
+  'gathering_1': 'The museum''s content is collected and built from published, publicly available sources: encyclopedias (including Wikipedia), Wikidata, the catalogues and open collections of libraries and museums, and published books and scholarship, each recorded in the museum''s source records and cited on the page it supports.'
+  'gathering_2': 'Artificial-intelligence tools assist in gathering, drafting, structuring and cross-checking material at build time; no AI runs when you visit the site. AI-assisted drafting can introduce errors, and automated collection can misread a source — one more reason the sources are shown on every page and why corrections are welcomed. Selection, emphasis and arrangement are editorial choices, and coverage is uneven by design and by honesty: the museum shows its gaps rather than filling them with invention.'
+  'stance_title': 'Against hate, for diversity and peace'
+  'stance_body': 'The museum and its owner stand firmly against hate and hate speech, and against harming anyone or causing harm or damage in any shape or form. We stand against Islamophobia, against antisemitism, against racism, against genocide and ethnic cleansing, and against anything the United Nations classifies as hate or racism. We support and promote diversity, difference of opinion and peace. The museum does not support one opinion against another, nor one narration or one version of history against another.'
+  'archive_title': 'An archive and a library, not an author'
+  'archive_body': 'The museum is an archive and a library of human heritage and of what humans have made: artifacts, books, quotations and content created and authored by others — the people whose work, lives, accomplishments and convictions it records — including material generated by artificial intelligence, which is labelled as such wherever the museum knows it. The museum compiles, cites and presents their content as it is, from their own point of view; it does not hold itself out as the author of their work, and it cannot be held liable or responsible for the content it presents. Their opinions, actions, advice and stories represent themselves alone — not the website or its owner. The museum does not condone or endorse anyone or anything it presents, and it does not support, advertise, preach or guide anyone toward any religious, political, financial, life-changing or other decision or direction of any kind. The museum presents content as it stands in its cited sources and does not warrant the authenticity of the underlying material; it owes no one proof beyond the sources it shows. The museum claims no copyright, no patent and no ownership over any material or artifact it presents; they belong to their authors, creators and rights-holders.'
+  'children_title': 'Children and young visitors'
+  'children_1': 'The museum is for all ages, and the children''s wing (Kids'' Wing) is made for children: stories, games and quests, with no accounts, no data collection, no chat and no contact with strangers, as the privacy page explains. Children should explore the museum with a parent, guardian or teacher, who remains responsible for supervising their use and judging what is suitable for them.'
+  'children_2': 'For parents and teachers: the museum, including the children''s wing, is an aid to learning, not a curriculum and not a substitute for a child''s school materials. Material found here should be checked against the cited sources — with an adult — before it is used in homework or schoolwork, and children should not treat any page as an examination-ready answer without that check.'
+  'features_title': 'Interactive features and tools'
+  'features_body': 'The timelines, the date converter, the connections graph, the search, the journeys, the 3D tour and the other interactive features are aids to exploration. Their results are computed from the museum''s underlying data and inherit its limits: a converted date, a graph layout or an "on this day" selection is a presentation of the data, not a new or certified fact. Features may be changed, moved or removed at any time without notice.'
+  'support_title': 'Support and donations'
+  'support_body': 'The museum is free for everyone. The support page offers voluntary ways to contribute to its running costs — Patreon, PayPal, LaunchGood and GitHub Sponsors — held in the operator''s personal name until a non-profit organisation is incorporated. Support is optional, buys no access, goods or services, and gives no control over the museum''s content, as the support page states. The museum is not a registered charity and issues no charitable tax receipts. Donations are processed by those platforms under their own terms and privacy policies.'
+  'ip_title': 'Intellectual property and reuse'
+  'ip_body': 'The museum''s data is published under CC0, its prose under CC BY-SA 4.0 and its code under the MIT licence, as the licences page sets out; reuse within those terms is welcome. Images and media that come from partner institutions and other rights-holders remain under their own terms and are credited on the page. The Qur''an text, translations and other quoted works carry the sources and terms noted in the references. Nothing on this page or the site grants any right in third-party material. The museum''s name and its medallion emblem are not covered by these licences: please do not use them in a way that suggests the museum endorses you or your project.'
+  'links_title': 'Links to other sites'
+  'links_body': 'The museum points to outside sources and references for further reading. Those sites are not under the museum''s control, their content is not endorsed by inclusion, and their own terms and policies apply when you follow them.'
+  'liability_title': 'No warranties; liability'
+  'liability_body': 'The site and its content are provided "as is" and "as available", without warranties of any kind, express or implied, including as to accuracy, completeness, fitness for a particular purpose or uninterrupted availability. To the fullest extent permitted by applicable law, the operator accepts no liability for any loss or damage arising from the use of, or reliance on, the site or its content. Nothing in this disclaimer limits any liability that cannot lawfully be limited. The museum is operated from Ontario, Canada, and this disclaimer is governed by the laws of Ontario and the federal laws of Canada applicable in it. Anything you download from the site is downloaded at your own risk.'
+  'freewill_title': 'Your free will, your responsibility'
+  'freewill_body': 'You are free to discard any content here, to object to it, to move on from it, to not read it and to not use it. You are not obligated — or advised — to follow, believe or adopt anything on this website; you decide, in your own free will, what you want and what you find useful, suitable and sensible for your own life. You are entirely free — and encouraged — to verify any content and its authenticity, in part as well as in whole, and to consult and discuss it with anyone you choose, with no obligation or responsibility falling on the website or its owner. Anything you do is yours alone: its consequences, for yourself and for others, are your own responsibility and your own legal commitment, and have nothing to do with the website or its owner. This website offers no consultation, no services and no advice on any matter of any kind, and nothing here should be considered a legal, medical, religious or otherwise formal service, advice or content. By using this site you accept these terms; if you do not accept them, please do not use it — and use it lawfully, without trying to disrupt it or pass it off as something it is not. You are not obligated to visit this website at all: if you are here, you are here by your own free will. The museum offers no incentive, no money and no gain to anyone to visit or view this site, to apply its content, or to market, talk about or advertise it.'
+  'changes_title': 'Changes to this disclaimer'
+  'changes_body': 'This disclaimer may be updated as the museum changes. Updates are posted on this page with a new date, and the full history of the page is kept in the public repository on GitHub, where anyone can review what changed and when. Changes may be made at any time, without prior consent, approval or notice to anyone.'
+  'contact_title': 'Press, copyright and other concerns'
+  'contact_body': 'For press and media enquiries, write to press@islam.museum. For copyright claims, write to copyright@islam.museum — rights-holders may also use the report tools on the site at any time. For any other concerns, write to concerns@islam.museum.'
+  'more_title': 'Corrections and questions'
+  'more_body': 'If you find an error, or anything on the site that concerns you, the fastest route is the correction form; for anything else, email us. Corrections concerning living people come first.'
+  'contact_cta': 'Email us'
+  'report_cta': 'Report an error'
 backstage:
   title: Backstage
   lede: 'How this museum is actually made: one person, a fleet of AI agents, and everything else the project produces — the film, the comic, the music and the social videos — told plainly, ending with the agents'' own guest book.'
