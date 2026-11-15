@@ -1,0 +1,23 @@
+id: concept/hirba
+class: concept
+kind: natural
+label:
+  ar: "حرباء"
+  en: "Hirba (the chameleon)"
+  ur: "حرباء ⁦(گرگٹ)⁩"
+summary:
+  ar: "الحرباء حيوان، يعرفه المحقّق بالحرباء. قيل إن دمها يمنع نبات الشعر المنتوف من العين، وقيل إن بيضها سمّ قاتل، وذكره الكتاب في الكتاب الرابع."
+  en: "The hirba is an animal, which the editor identifies as the chameleon. It is said that its blood stops plucked eyelashes from growing back, and that its egg is a deadly poison, which the book gives in its fourth book."
+  ur: "حرباء ایک جانور ہے، جسے مدوّن گرگٹ بتاتا ہے۔ کہا گیا ہے کہ اس کا خون اکھاڑی ہوئی پلکوں کو دوبارہ اگنے سے روکتا ہے، اور اس کا انڈا مہلک زہر ہے، جس کا ذکر کتاب چوتھی کتاب میں کرتی ہے۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, scan pages 494, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); the editor's footnotes are used only for identity and name; footnotes quoting modern herbal or nutrition books are not used; measured doses, weights and quantities are left out; garbled OCR lines are left out, not guessed; womb, menses, foetus, afterbirth, semen and desire reports are kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), lane A4"
+  model: claude-haiku-5-5
+  run: a4-canon-book2-12
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (book mining, lane A4)" }

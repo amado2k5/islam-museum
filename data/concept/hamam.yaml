@@ -1,0 +1,23 @@
+id: concept/hamam
+class: concept
+kind: natural
+label:
+  ar: "حمام"
+  en: "Hamam (the dove)"
+  ur: "حمام ⁦(کبوتر)⁩"
+summary:
+  ar: "الحمام طير معروف؛ فراخه فيها حرارة ورطوبة فضلية، والنواهض أخفّ هضماً، وبيضه حار جداً. ودمه يقطع الرعاف الذي من حجاب الدماغ، وزبله نافع للبياض العارض بعد اندمال قرحة في القرنية."
+  en: "The dove is a well-known bird. Its nestlings are hot with a surplus of moisture, the fledged birds are lighter to digest, and its eggs are very hot. Its blood stops nosebleed from the membrane of the brain, and its dung helps the white spot left after an ulcer of the cornea has healed."
+  ur: "کبوتر ایک معروف پرندہ ہے۔ اس کے بچے گرم اور زائد تری والے ہیں، پر نکلے ہوئے پرندے ہضم میں ہلکے ہیں، اور اس کے انڈے بہت گرم ہیں۔ اس کا خون دماغ کی جھلی سے آنے والی نکسیر روکتا ہے، اور اس کی بیٹ قرنیہ کے زخم بھرنے کے بعد کے سفید داغ میں مفید ہے۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, scan pages 492, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); the editor's footnotes are used only for identity and name; footnotes quoting modern herbal or nutrition books are not used; measured doses, weights and quantities are left out; garbled OCR lines are left out, not guessed; womb, menses, foetus, afterbirth, semen and desire reports are kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), lane A4"
+  model: claude-haiku-5-5
+  run: a4-canon-book2-12
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (book mining, lane A4)" }
