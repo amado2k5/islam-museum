@@ -1,0 +1,23 @@
+id: concept/zij-sabi-catalogue-canis-major
+class: concept
+kind: natural
+label:
+  ar: "الكلب"
+  en: "The Dog"
+  ur: "کتا"
+summary:
+  ar: "يذكر الفهرس صورة الكلب، ثم يُدرج تحت عنوان فرعي كواكب يقول النص إنها ليست من صورته، ثم يذكر كواكب مُقدَّم الكلب. {cite:zij-sabi-nallino-byblion pp.270}"
+  en: "The catalogue gives the figure of al-Kalb, the Dog, then a sub-list of stars that the text says are not part of its figure, and then the stars of the forepart of the Dog. {cite:zij-sabi-nallino-byblion pp.270}"
+  ur: "فہرست کلب یعنی کتے کی صورت کے ستارے دیتی ہے، پھر ایک ذیلی فہرست جن کے بارے میں متن کہتا ہے کہ وہ اس صورت کا حصہ نہیں، اور پھر کتے کے اگلے حصے کے ستارے۔ {cite:zij-sabi-nallino-byblion pp.270}"
+wings: [ideas]
+themes: [astronomy-and-timekeeping]
+sources: [source/zij-sabi-nallino-byblion]
+relations:
+  - { type: part_of, target: work/al-zij-al-sabi, sources: [source/zij-sabi-nallino-byblion] }
+provenance:
+  layer: own-research
+  source: "Star catalogue after chapter 57, scans 249-278 (printed pp.245-274), read from the OCR of the local digital copy"
+  generated_by: "Claude Haiku 5.5 (lane A2 star-catalogue drafter, a2-zij-star-1)"
+  model: claude-haiku-5-5
+  run: zij-star-a2-1
+status: { review: draft, completeness: 2, generated_by: "Claude Haiku 5.5 (lane A2 star-catalogue drafter, a2-zij-star-1)" }

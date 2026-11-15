@@ -5,26 +5,34 @@ label:
   ar: "محمد بن إبراهيم بن دينار"
   en: "Muhammad ibn Ibrahim ibn Dinar"
   ur: "محمد بن ابراہیم بن دینار"
-roles: [jurist]
+names:
+  - { value: "محمد بن إبراهيم بن دينار المدني أبو عبد الله الجهني", kind: full }
+  - { value: "صندل", kind: laqab }
+roles: [jurist, muhaddith]
 gender: male
 summary:
-  ar: "محمد بن إبراهيم بن دينار المدني، من كبار أصحاب مالك؛ درس معه علي بن حربان، وقال الشافعي «ما رأيت في فتيان مالك أفقه من محمد بن دينار»، وتوفي سنة اثنتين وثمانين ومائة بعد مالك بثلاث سنين {cite:tabaqat-fuqaha-abbas-1981 p.124}."
-  en: "Muhammad ibn Ibrahim ibn Dinar of Medina, among Malik's senior students; he studied with him and 'Ali ibn Harban, and al-Shafi'i said 'I never saw among Malik's young companions anyone more learned than Muhammad ibn Dinar'; he died 182, three years after Malik {cite:tabaqat-fuqaha-abbas-1981 p.124}."
+  ar: "محمد بن إبراهيم بن دينار المدني، أبو عبد الله الجهني ويقال الأنصاري، من ولد دينار بن النجار، ولقبه صندل؛ فقيه من فقهاء المدينة نحو مالك روى عن ابن أبي ذئب وابن عجلان وموسى بن عقبة وغيرهم، وروى عنه أبو مصعب الزهري وعبد الله بن وهب، وقال أبو حاتم كان من فقهاء المدينة نحو مالك وكان ثقة، وقال ابن عبد البر كان مفتي أهل المدينة مع مالك؛ وتوفي سنة 182 هـ بعد مالك بثلاث سنين {cite:tahdhib-kamal-mizzi-risala vol. 24 pp. 306-307} {cite:tabaqat-fuqaha-abbas-1981 p.124}."
+  en: "Muhammad ibn Ibrahim ibn Dinar of Medina, Abu Abd Allah al-Juhani (some say al-Ansari), of the line of Dinar ibn al-Najjar and nicknamed Sandal; a jurist of Medina in Malik's circle who transmitted from Ibn Abi Dhi'b, Ibn Ajlan, Musa ibn Uqba and others and from whom Abu Mus'ab al-Zuhri and Abd Allah ibn Wahb narrated. Abu Hatim called him one of Medina's jurists like Malik and reliable, and Ibn Abd al-Barr called him a mufti of Medina alongside Malik; he died in 182 AH, three years after Malik {cite:tahdhib-kamal-mizzi-risala vol. 24 pp. 306-307} {cite:tabaqat-fuqaha-abbas-1981 p.124}."
   ur: "محمد بن ابراہیم بن دینار مدینہ کا باشندہ، مالک کے بڑے شاگردوں میں سے؛ شافعی کا قول «مالک کے ساتھیوں میں میں نے اس سے زیادہ فقیہ نہیں دیکھا» مشہور ہے، اور مالک کے تین سال بعد 182 میں وفات پائی {cite:tabaqat-fuqaha-abbas-1981 p.124}."
 wings: [people]
 regions: [arabia]
 periods: [period/abbasid-early]
-died: { hijri: "0182", edtf: "0798~", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي سنة اثنتين وثمانين ومائة بعد مالك بثلاث سنين {cite:tabaqat-fuqaha-abbas-1981 p.124}؛ التحويل مشتق.", sources: [source/tabaqat-fuqaha-abbas-1981] }
+died: { hijri: "0182", edtf: "0798~", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي سنة اثنتين وثمانين ومائة بعد مالك بثلاث سنين {cite:tabaqat-fuqaha-abbas-1981 p.124}؛ التحويل مشتق. ولا يذكر المزي في ترجمته سنة وفاته {cite:tahdhib-kamal-mizzi-risala vol. 24 p. 307}.", sources: [source/tabaqat-fuqaha-abbas-1981] }
 relations:
   - { type: student_of, target: person/malik-ibn-anas, sources: [source/tabaqat-fuqaha-abbas-1981] }
   - { type: member_of, target: group/maliki-madhhab, sources: [source/tabaqat-fuqaha-abbas-1981] }
-sources: [source/tabaqat-fuqaha-abbas-1981]
+  - { type: lived_in, target: place/medina, confidence: high, note: "al-Mizzi, Tahdhib al-Kamal, vol. 24 p. 306: the nisba al-Madani; Abu Hatim and Ibn Abd al-Barr (vol. 24 p. 307) call him one of the jurists and muftis of Medina", sources: [source/tahdhib-kamal-mizzi-risala] }
+  - { type: student_of, target: person/ibn-abi-dhib, confidence: medium, note: "al-Mizzi, vol. 24 p. 306: he narrated from Muhammad ibn Abd al-Rahman ibn Abi Dhi'b (identity by name)", sources: [source/tahdhib-kamal-mizzi-risala] }
+  - { type: student_of, target: person/muhammad-ibn-ajlan, confidence: medium, note: "al-Mizzi, vol. 24 p. 306: he narrated from Muhammad ibn Ajlan (identity by name)", sources: [source/tahdhib-kamal-mizzi-risala] }
+  - { type: student_of, target: person/musa-ibn-uqba, confidence: medium, note: "al-Mizzi, vol. 24 p. 306: he narrated from Musa ibn Uqba (identity by name)", sources: [source/tahdhib-kamal-mizzi-risala] }
+sources: [source/tabaqat-fuqaha-abbas-1981, source/tahdhib-kamal-mizzi-risala]
 provenance:
   layer: own-research
-  source: "طبقات الفقهاء لابن عبد البر، تحقيق عبد العزيز العباس (دار المعارف 1981)، ترجمة محمد بن دينار ص 124"
-  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: madhahib-wave3-tabaqat
-status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+  source: "طبقات الفقهاء لابن عبد البر، تحقيق عبد العزيز العباس (دار المعارف 1981)، ترجمة محمد بن دينار ص 124؛ المزي، تهذيب الكمال، ترجمة 5024، ج24 ص 306-307، قرئت كاملة من نص OpenITI المحلي"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2c-m02-2026-11-14
+status: { review: draft, completeness: 3 }
 kids:
   ar: "محمد بن دينار تلميذ مالك الذي قال فيه الشافعي «ما رأيت في فتيان مالك أفقه منه»."
   en: "Malik's student Muhammad ibn Dinar, of whom al-Shafi'i said 'I saw none more learned among Malik's companions'."

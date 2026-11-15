@@ -1,0 +1,23 @@
+id: concept/zij-sabi-catalogue-gemini
+class: concept
+kind: natural
+label:
+  ar: "الجوزاء"
+  en: "Gemini"
+  ur: "جوزا"
+summary:
+  ar: "يرد اسم الجوزاء في قائمة أسماء الكواكب التي يذكرها الجدول الثاني للكواكب الثابتة، في الصفحة المطبوعة 277، دون أن تُنقل مواضع كواكبها. {cite:zij-sabi-nallino-byblion pp.277}"
+  en: "The name al-Jawza', Gemini, appears in the list of star names that the second fixed-star table gives, on printed page 277. The positions of its stars are not transcribed here. {cite:zij-sabi-nallino-byblion pp.277}"
+  ur: "جوزا کا نام دوسرے ثابت ستاروں کے جدول کی ستاروں کے ناموں کی فہرست میں صفحہ 277 پر آتا ہے۔ اس کے ستاروں کے مواضع یہاں نقل نہیں ہوئے۔ {cite:zij-sabi-nallino-byblion pp.277}"
+wings: [ideas]
+themes: [astronomy-and-timekeeping]
+sources: [source/zij-sabi-nallino-byblion]
+relations:
+  - { type: part_of, target: work/al-zij-al-sabi, sources: [source/zij-sabi-nallino-byblion] }
+provenance:
+  layer: own-research
+  source: "Second fixed-star table, the name list on scan 281 (printed p.277), read from the OCR of the local digital copy; the name reads clearly, the surrounding rows are garbled and are not used"
+  generated_by: "Claude Haiku 5.5 (lane A2 star-catalogue drafter, a2-zij-star-2)"
+  model: claude-haiku-5-5
+  run: zij-star-a2-2
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (lane A2 star-catalogue drafter, a2-zij-star-2)" }

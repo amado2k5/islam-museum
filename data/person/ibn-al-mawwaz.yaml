@@ -3,28 +3,33 @@ class: person
 label:
   ar: "ابن المواز"
   en: "Ibn al-Mawwaz"
-roles: [scholar]
+names:
+  - { value: "محمد بن إبراهيم بن زياد أبو عبد الله الإسكندراني الفقيه المالكي المعروف بابن المواز", kind: full }
+roles: [scholar, jurist]
 gender: male
 summary:
-  ar: "بطاقة أولية لابن المواز، فقيه مالكي مصري القرن التاسع، توفي سنة ٨٨٢م؛ تذكره كتب التراجم ولم تُراجع ترجمته على الصفحة بعد."
-  en: "Draft card for Ibn al-Mawwaz, the ninth-century Maliki jurist of Egypt, d. 882; the biographical entry is not yet checked on the page."
+  ar: "محمد بن إبراهيم بن زياد، أبو عبد الله الإسكندراني مولى قيس، الفقيه المالكي المعروف بابن المواز، صاحب تصانيف في الفقه على مذهب مالك؛ تفقه بالإسكندرية بابن الماجشون وابن عبد الحكم واعتمد على أصبغ، وقدم دمشق مع أحمد بن طولون سنة 269 هـ وتوفي بها في السنة نفسها بحسب ابن يونس، وفي رواية الشيرازي سنة 281 هـ {cite:tarikh-dimashq-ibn-asakir-fikr-1995 vol. 51 pp. 197-198}."
+  en: "Muhammad ibn Ibrahim ibn Ziyad, Abu Abd Allah al-Iskandarani, a client of Qays and the Maliki jurist known as Ibn al-Mawwaz, who wrote works of law on Malik's school; he studied in Alexandria under Ibn al-Majishun and Ibn Abd al-Hakam and relied on Asbagh, came to Damascus with Ahmad ibn Tulun in 269 AH and died there that year according to Ibn Yunus, while al-Shirazi gives 281 AH {cite:tarikh-dimashq-ibn-asakir-fikr-1995 vol. 51 pp. 197-198}."
 wings: [people]
 regions: [egypt-nile]
 periods: [period/abbasid-fragmentation]
-born: { edtf: "796~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
-died: { edtf: "882", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
+born: { edtf: "796~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar. Ibn Asakir's entry gives no birth year." }
+died: { edtf: "882", hijri: "0269", calendar: julian, precision: year, status: tradition, derived: true, note: "Ibn Yunus, quoted by Ibn Asakir, vol. 51 p. 198: died in Damascus in 269 AH (July 882 to June 883 CE by the museum's conversion, derived), agreeing with the card year; al-Shirazi, quoted in the same entry, says he died in 281 AH (894 CE).", sources: [source/tarikh-dimashq-ibn-asakir-fikr-1995] }
 relations:
-  - { type: born_in, target: place/alexandria, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-  - { type: died_in, target: place/damascus, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/al-aalam]
+  - { type: born_in, target: place/alexandria, confidence: medium, note: "Place link from Wikidata; Ibn Asakir, vol. 51 pp. 197-198, calls him al-Iskandarani and says he was in Alexandria but names no birthplace.", sources: [source/wikidata] }
+  - { type: lived_in, target: place/alexandria, confidence: high, note: "Ibn Asakir, vol. 51 p. 197: he was in Alexandria and studied law there (al-Walid ibn Bakr); the nisba al-Iskandarani", sources: [source/tarikh-dimashq-ibn-asakir-fikr-1995] }
+  - { type: traveled_to, target: place/damascus, confidence: high, note: "Ibn Asakir, vol. 51 p. 197: he came to Damascus with Ahmad ibn Tulun in 269 AH", sources: [source/tarikh-dimashq-ibn-asakir-fikr-1995] }
+  - { type: died_in, target: place/damascus, confidence: high, note: "Ibn Asakir, vol. 51 p. 198: Ibn Yunus says he died in Damascus; al-Shirazi says he fled to a fort in Syria and stayed there until he died", sources: [source/tarikh-dimashq-ibn-asakir-fikr-1995, source/wikidata] }
+  - { type: member_of, target: group/maliki-madhhab, confidence: high, note: "Ibn Asakir, vol. 51 p. 197: author on the school of Malik ibn Anas; listed among Malik's companions by al-Walid ibn Bakr", sources: [source/tarikh-dimashq-ibn-asakir-fikr-1995] }
+sources: [source/al-aalam, source/tarikh-dimashq-ibn-asakir-fikr-1995]
 external_ids:
   wikidata: Q6534665
 provenance:
   layer: own-research
-  source: "Wikidata candidate; book source: al-Zirikli, al-A'lam — entry not yet read on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-0056
+  source: "Ibn Asakir, Tarikh Madinat Dimashq, entry Muhammad ibn Ibrahim ibn Ziyad al-Iskandarani al-Maliki, vol. 51 pp. 197-198, read in full from the local OpenITI text (Dar al-Fikr 1995 numbering)"
+  generated_by: "Claude Code (Lane B2 packet)"
+  model: claude-sonnet-5-5
+  run: web-b2c-m02-2026-11-14
 status:
   review: draft
-  completeness: 1
+  completeness: 3
