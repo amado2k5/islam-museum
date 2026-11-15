@@ -1,0 +1,55 @@
+id: "event/banu-rabia-of-hamdan-send-a-letter-and-ask-ali-ibn-muhammad-to-march-with-them-and-he-declines-295"
+class: event
+kind: other
+label:
+  ar: "بنو ربيعة من همدان يطلبون من علي بن محمد المسير معهم فيأبى، 295هـ، ص381-382"
+  en: "Banu Rabi'a of Hamdan ask Ali ibn Muhammad to march with them and he declines, 295 AH, pp. 381-382"
+  ur: "همدان کی بنو ربیعہ علی بن محمد سے اپنے ساتھ چلنے کا مطالبہ کرتے ہیں اور وہ انکار کرتا ہے، 295ھ، ص381-382"
+summary:
+  ar: "أتاه يزيد بن علي الجعدي ومحمد بن أيوب في البقيرة بكتاب من بني ربيعة يدعونه إلى المسير معهما، فأبى حتى يرى القتال مع عدوه، ثم رجع إلى الحصن، وأغار من بقي من بني ربيعة في ميناس إلى القرية."
+  en: "At al-Buqayra, Yazid ibn Ali and Muhammad ibn Ayyub gave Ali ibn Muhammad a letter from Banu Rabi'a of Hamdan asking him to march with them. He refused until he saw them fighting the enemy, and went back to the fort. The narrator says Banu Rabi'a meant treachery, and the Banu Rabi'a who stayed at Minas raided toward the village to join their companions."
+  ur: "البقیرہ میں یزید بن علی الجعدی اور محمد بن ایوب علی بن محمد کے پاس بنو ربیعہ کا خط لے کر آئے جس میں اسے اپنے ساتھ چلنے کی دعوت تھی۔ اس نے انکار کیا جب تک وہ دشمن سے لڑتے ہوئے نہ دیکھے، پھر حصن کو واپس لوٹ گیا۔ راوی کے مطابق بنو ربیعہ نے دھوکا دینے کا ارادہ کیا تھا، اور جو بنو ربیعہ میناس میں رہ گئے تھے انہوں نے اپنے ساتھیوں سے ملنے کے لیے گاؤں پر حملہ کیا۔"
+wings:
+- time
+themes:
+- civil-wars-and-revolts
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0908"
+    hijri: "0295"
+    calendar: julian
+    precision: year
+    status: tradition
+    derived: true
+    note: "الكتاب لا يذكر يوماً؛ السياق بعد وصول علي بن محمد إلى البقيرة"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/ali-ibn-muhammad-ibn-ubaydallah-al-abbasi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-rabia-hamdan
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/najran
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، الصفحات المطبوعة pp. 381-382"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5)"
+  model: claude-haiku-5-5
+  run: a1-sira-p377-384-1
+status:
+  review: draft
+  completeness: 2
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 381-382"

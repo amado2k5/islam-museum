@@ -383,3 +383,63 @@ SKIPPED person/al-hajj-umar-tal and person/al-uthmaniyya: Wikidata lookup found 
 SKIPPED person/nasir-al-din-qabacha, person/nur-al-din-itr, person/baha-al-din-naqshband, person/baha-al-din-zakariya, person/ahmad-ibn-al-nadr, person/abd-al-aziz-uyun-al-sud and other cards without a Wikipedia item link: no item found by the Wikipedia link; Wikidata search was rate-limited (HTTP 429) and is to be retried later.
 SKIPPED person/hafiz-osman: Q5963076 already on main; the Wikipedia link leads to a footballer, not the calligrapher; not re-linked.
 Note: 11 further candidates (Shams Tabrizi, Sunan Ampel, Haci Bayram Veli, Nazir Ayyad, Khalifah bin Said, Nadir Shah, Khalil Ahmad Saharanpuri, Ahmad Ali Saharanpuri, Ulugh, Henry Corbin and others) had item ids that agreed with their card dates and roles, but each of them already carries that same Q-id on origin/main; nothing was written for them.
+ACCEPTED person/ferdinand-de-lesseps = Q209169: name matches (Ferdinand de Lesseps); Wikidata 1805 and 1894 (year) agrees with the card; role diplomat and entrepreneur agrees with the item (French diplomat and entrepreneur, developer of the Suez Canal (1805–1894)). No sourced date changed.
+ACCEPTED person/haram-ibn-milhan = Q12207408: name matches (Haram bin Milhan); Wikidata death 625 agrees with the card; role companion agrees with the item (Muhammad's Companion). No sourced date changed.
+ACCEPTED person/al-harith-ibn-amr-al-kindi = Q11904627: name matches (Al-Hàrith ibn Amr al-Kindí); Wikidata death 528 agrees with the card; role ruler (item occupation monarch) agrees with the item (chief of the Kinda). No sourced date changed.
+ACCEPTED person/harb-ibn-umayya = Q12207444: name matches (Harb ibn Umayya); Wikidata death 595 agrees with the card; role commander (item occupation military leader) agrees with the item (father of Abu Sufyan and Arwa). No sourced date changed.
+ACCEPTED person/gerard-of-cremona = Q367240: name matches (Gerard of Cremona); Wikidata birth 1114 and death 1187 (years) agrees with the card; role translator agrees with the item (Italian translator and astrologer (c. 1114 – 1187)). No sourced date changed.
+SKIPPED person/abdullah-ibn-atik: Wikidata candidates did not agree on name, date and role with the card (Q12223538 no description).
+SKIPPED person/abdullah-ibn-judan: no Wikidata item found by search on the card name.
+SKIPPED person/abdullah-ibn-sufyan-makhzumi: no Wikidata item found by search on the card name.
+SKIPPED person/abdullah-ibn-urayqit: no Wikidata item found by search on the card name.
+SKIPPED person/abdullah-ibn-zayd-ibn-asim: Wikidata candidates did not agree on name, date and role with the card (Q116187995 no description).
+SKIPPED person/abu-al-bakhtari-ibn-hisham: no Wikidata item found by search on the card name.
+SKIPPED person/abu-al-husayn-ibn-al-labban-al-basri: no Wikidata item found by search on the card name.
+SKIPPED person/abu-muwayhiba: no Wikidata item found by search on the card name.
+SKIPPED person/abu-sulayman-al-darani: no Wikidata item found by search on the card name.
+SKIPPED person/al-abbas-ibn-ubada: Wikidata candidates did not agree on name, date and role with the card (Q28716318 no description).
+SKIPPED person/al-idrisi-muhammad-ibn-abd-allah: Wikidata candidates did not agree on name, date and role with the card (Q173441 andalusian geographer (1100–1165), Q101914845 ship built in 2012).
+SKIPPED person/al-malik-al-nasir-salah-al-din-dawud: no Wikidata item found by search on the card name.
+SKIPPED person/al-qaim-bi-amr-illah: no Wikidata item found by search on the card name.
+SKIPPED person/al-rabi-ibn-khuthaym: no Wikidata item found by search on the card name.
+SKIPPED person/al-shayma-bint-al-harith: no Wikidata item found by search on the card name.
+SKIPPED person/al-wathiq-ibrahim-cairo: no Wikidata item found by search on the card name.
+SKIPPED person/ali-ibn-ghaniya: no Wikidata item found by search on the card name.
+SKIPPED person/amr-ibn-amir-muzayqiya: no Wikidata item found by search on the card name.
+SKIPPED person/amr-ibn-jahm: Wikidata candidates did not agree on name, date and role with the card (Q22688928 no description).
+SKIPPED person/amr-ibn-luhayy: Wikidata candidates did not agree on name, date and role with the card (Q2804863 Pre-islamic tribal chief).
+SKIPPED person/awf-ibn-malik-al-ashjai: no Wikidata item found by search on the card name.
+SKIPPED person/bakhtiyar-izz-al-dawla: no Wikidata item found by search on the card name.
+SKIPPED person/barquq: no Wikidata item found by search on the card name.
+SKIPPED person/baybars-al-jashankir: no Wikidata item found by search on the card name.
+SKIPPED person/farwa-ibn-amr-al-judhami: Wikidata candidates did not agree on name, date and role with the card (Q12230656 no description).
+SKIPPED person/fatima-bint-amr: no Wikidata item found by search on the card name.
+SKIPPED person/hasan-aga-al-tushi: no Wikidata item found by search on the card name.
+SKIPPED person/hormuzan: Wikidata candidates did not agree on name, date and role with the card (Q3777163 Sasanian general).
+SKIPPED person/jahm-ibn-zahr: no Wikidata item found by search on the card name.
+SKIPPED person/kaab-ibn-asad: Wikidata candidates did not agree on name, date and role with the card (Q1719450 chief of a Jewish tribe in Medina).
+SKIPPED person/kafur-al-ikhshidi: no Wikidata item found by search on the card name.
+SKIPPED person/khazim-ibn-khuzayma: Wikidata candidates did not agree on name, date and role with the card (Q16200446 Abbasid military leader).
+SKIPPED person/kurz-ibn-jabir-al-fihri: Wikidata candidates did not agree on name, date and role with the card (Q12234695 companion of Muhammad).
+SKIPPED person/malik-ibn-murra-al-rahawi: no Wikidata item found by search on the card name.
+SKIPPED person/marzuban-ibn-muhammad: no Wikidata item found by search on the card name.
+SKIPPED person/musa-ibn-abdallah-ibn-khazim: no Wikidata item found by search on the card name.
+SKIPPED person/nur-al-din-arslan-shah: Wikidata candidates did not agree on name, date and role with the card (Q20101351 no description, Q20101352 no description).
+SKIPPED person/qatari-ibn-al-fujaa: Wikidata candidates did not agree on name, date and role with the card (Q11944153 Father of Death).
+SKIPPED person/rabia-ibn-umayya-ibn-khalaf: Wikidata candidates did not agree on name, date and role with the card (Q1108555 no description).
+SKIPPED person/ramla-bint-abi-awf: Wikidata candidates did not agree on name, date and role with the card (Q20414937 no description).
+SKIPPED person/said-ibn-amir-al-jumahi: no Wikidata item found by search on the card name.
+SKIPPED person/salama-ibn-al-harith-al-taghlibi: no Wikidata item found by search on the card name.
+SKIPPED person/shurahbil-ibn-al-harith: no Wikidata item found by search on the card name.
+SKIPPED person/surad-ibn-abdullah-al-azdi: no Wikidata item found by search on the card name.
+SKIPPED person/thabit-ibn-aqram: Wikidata candidates did not agree on name, date and role with the card (Q12203678 Companions of the prophet).
+SKIPPED person/ubaydullah-ibn-jahsh: no Wikidata item found by search on the card name.
+SKIPPED person/ubayy-ibn-khalaf: no Wikidata item found by search on the card name.
+SKIPPED person/umayr-ibn-sad: Wikidata candidates did not agree on name, date and role with the card (Q37129 simplest organic molecule with one carbon atom and four hydrogen, Q1849138 American record label, owned by Warner Music Group, and based in New York City).
+SKIPPED person/umm-maabad: no Wikidata item found by search on the card name.
+SKIPPED person/utarid-ibn-hajib: Wikidata candidates did not agree on name, date and role with the card (Q108403244 no description).
+SKIPPED person/yahya-ibn-khalid-al-barmaki: no Wikidata item found by search on the card name.
+SKIPPED person/zamaa-ibn-al-aswad: no Wikidata item found by search on the card name.
+SKIPPED person/ziyadat-allah-iii: Wikidata candidates did not agree on name, date and role with the card (Q207052 Aghlabid emir of Ifriqiya).
+EXCLUSION (proposal for the founder): Yahya ibn Khalid al-Barmaki (Q2724450) - item dates 701 and 806 conflict with the card (738 and 805); not linked, for the founder to rule if wanted
+EXCLUSION (proposal for the founder): Qatari ibn al-Fuja'a (Q11944153), Hormuzan (Q3777163), Ka'b ibn Asad (Q1719450), Abbas ibn Ubada (Q28716318) - name and one date agree but the card has no role field (Qatari, Hormuzan) or the item role is not an exact match (Ka'b: chief of a tribe against notable); not linked

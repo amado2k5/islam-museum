@@ -1,0 +1,23 @@
+id: concept/bunjankasht
+class: concept
+kind: natural
+label:
+  ar: "بنجنكشت"
+  en: "Banjankasht (a plant with a Persian name)"
+  ur: "بنجنکشت"
+summary:
+  ar: "نبات قريب من الشجر، ينبت قرب المياه، أغصانه صلبة وورقه كورق الزيتون، لطيف حرّيف عفِص، حار في الأولى يابس في الثالثة، ملطّف محلّل مفشّش للرياح، ينفع الصداع، ويفتح سدد الكبد والطحال {cite:canon-ibn-sina-print-v1 p.406}، {cite:canon-ibn-sina-print-v1 p.407}."
+  en: "A plant nearly the size of a tree, growing near water, with firm stems and a leaf like the olive's but softer. It is light, sharp and astringent, hot in the first degree and dry in the third. It thins, dissolves and releases wind, helps headache, and opens blockages of the liver and spleen {cite:canon-ibn-sina-print-v1 p.406}, {cite:canon-ibn-sina-print-v1 p.407}."
+  ur: "ایک پودا جو تقریباً درخت جتنا ہوتا ہے، پانی کے قریب اگتا ہے، اس کی ٹہنیاں سخت اور پتا زیتون کے پتے جیسا مگر نرم۔ یہ ہلکا، تیز اور قابض ہے، پہلے درجے میں گرم اور تیسرے میں خشک۔ یہ پتلا کرتا، تحلیل کرتا اور ہوا نکالتا ہے، سردرد میں مفید اور جگر اور تلی کی رکاوٹیں کھولتا ہے {cite:canon-ibn-sina-print-v1 p.406}، {cite:canon-ibn-sina-print-v1 p.407}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter ba, scan pages 406-407, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); the editor's footnotes are used only for identity and name; footnotes quoting modern herbal or nutrition books are not used; measured doses and weights are left out; garbled OCR lines are left out, not guessed"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), lane A4"
+  model: claude-haiku-5-5
+  run: a4-canon-book2-6
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (book mining, lane A4)" }

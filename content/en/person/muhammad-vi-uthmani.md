@@ -13,3 +13,6 @@ Al-Salabi describes him as remaining in Istanbul, submissive to the humiliation 
 
 ## Notes for researchers
 - The entry is based on al-Salabi's summary of the Ottoman state, and his evaluation of the sultan's stance is the author's own. We have not yet gone back to the newspapers he relays from.
+
+## Izmir and the resistance, as al-Salabi tells it
+Al-Salabi records that the Allies and the Greeks occupied Izmir in 1338 AH with British consent, and that Mustafa Kemal then roused the spirit of jihad against the occupation. {cite:dawlat-uthmaniyya-salabi p.468}

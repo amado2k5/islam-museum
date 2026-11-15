@@ -1,0 +1,55 @@
+id: "event/abu-jafar-kills-ali-ibn-al-harith-al-qaynani-and-takes-leave-of-his-household-295"
+class: event
+kind: other
+label:
+  ar: "أبو جعفر يقتل علي بن الحارث القيناني ويودع أهله، 295هـ، ص377"
+  en: "Abu Ja'far kills Ali ibn al-Harith al-Qaynani and takes leave of his household, 295 AH, p. 377"
+  ur: "ابو جعفر علی بن الحارث القیناني کو قتل کرتا ہے اور اپنے گھر والوں کو الوداع کہتا ہے، 295ھ، ص377"
+summary:
+  ar: "قتل أبو جعفر، وهو مجروح، مهاجمه علي بن الحارث القيناني بأن طعنه بسيفه بعد أن عجز عن حمله بيده، ثم ودّع حرمه وصبيانه وأوصاهم، وسأل الله أن يبلغه ما وعد به أولياءه."
+  en: "Wounded, Abu Ja'far killed his attacker Ali ibn al-Harith al-Qaynani by thrusting his sword into him, then took leave of his women and children and commended them to God."
+  ur: "زخمی حالت میں ابو جعفر نے اپنے حملہ آور علی بن الحارث القیناني کو تلوار سے مار گرایا، پھر گھر کی خواتین اور بچوں کو الوداع کہا اور انہیں اللہ کے سپرد کیا۔"
+wings:
+- time
+themes:
+- civil-wars-and-revolts
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0908-09-29"
+    hijri: "0295-12-24"
+    calendar: julian
+    precision: day
+    status: tradition
+    derived: true
+    note: "صبح 24 ذي الحجة 295هـ، مستنتج من تسلسل الرواية (الواقعة متصلة بما قبلها في الصفحة 376)"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/abu-jafar-muhammad-ibn-ubaydallah-al-abbasi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-al-harith
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/najran
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، الصفحات المطبوعة pp. 377"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5)"
+  model: claude-haiku-5-5
+  run: a1-sira-p377-384-1
+status:
+  review: draft
+  completeness: 2
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 377"

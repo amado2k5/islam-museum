@@ -1,0 +1,23 @@
+id: concept/basbasa
+class: concept
+kind: natural
+label:
+  ar: "بسباسة"
+  en: "Basbasa (nutmeg, the editor's jawz al-tib)"
+  ur: "بسباسہ ⁦(جوزِ طیب)⁩"
+summary:
+  ar: "قشور متغضنة يابسة تُجلب من بلاد الصين، تحلّل النفخ، وفيها قبض، وتقوّي الكبد والمعدة، وتطيّب النكهة، ومع دهن البنفسج يُستعط به للصداع من الرياح الغليظة والشقيقة، وتحلّل الصلابات الغليظة، وتُعقل المبطونين وتنفع من السحج {cite:canon-ibn-sina-print-v1 p.409}."
+  en: "Wrinkled dry shells brought from China. They dissolve wind and have astringency, strengthen the liver and stomach, sweeten the breath, and with violet oil are used as a snuff for headache from thick wind and migraine. They dissolve thick hardness and bind the bowel in cases of flux {cite:canon-ibn-sina-print-v1 p.409}."
+  ur: "چین سے لائے جانے والے سکڑے ہوئے خشک چھلکے۔ یہ ہوا کو تحلیل کرتے اور ان میں قبض ہے، جگر اور معدے کو قوت دیتے ہیں، سانس کو خوشبودار کرتے ہیں، اور بنفشے کے تیل کے ساتھ گاڑھی ہوا کے سردرد اور شقیقہ میں ناک میں ڈالے جاتے ہیں۔ یہ موٹی سختی کو تحلیل کرتے اور پیچش میں پیٹ کو باندھتے ہیں {cite:canon-ibn-sina-print-v1 p.409}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter ba, scan pages 409, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); the editor's footnotes are used only for identity and name; footnotes quoting modern herbal or nutrition books are not used; measured doses and weights are left out; garbled OCR lines are left out, not guessed"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), lane A4"
+  model: claude-haiku-5-5
+  run: a4-canon-book2-6
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (book mining, lane A4)" }

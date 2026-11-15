@@ -1,0 +1,59 @@
+id: "event/ali-ibn-muhammad-rides-out-with-ten-horsemen-after-ya-am-and-wadaa-decline-to-help-295"
+class: event
+kind: other
+label:
+  ar: "علي بن محمد يخرج في عشرة فرسان من شاكر وثقيف بعد أن رفض يأم ووادعة نصرته، 295هـ، ص381"
+  en: "Ali ibn Muhammad rides out with ten horsemen of Shakir and Thaqif after Ya'am and Wada'a refuse help, 295 AH, p. 381"
+  ur: "یأم اور وادعہ کے انکار کے بعد علی بن محمد شاکر اور ثقیف کے دس گھڑ سواروں کے ساتھ نکلتا ہے، 295ھ، ص381"
+summary:
+  ar: "أرسل علي بن محمد إلى يأم ووادعة يطلب نصرتهم ليغير بهم على بني الحارث، فاعتذروا بفتنة بين عشائرهم، فخرج في عشرة فرسان من شاكر وثقيف إلى البقيرة."
+  en: "Ali ibn Muhammad asked Ya'am and Wada'a to join him in a raid on Banu al-Harith. They declined, citing feuds among their own clans, so he rode out with about ten horsemen of Shakir and Thaqif to al-Buqayra."
+  ur: "علی بن محمد نے یأم اور وادعہ سے بنو حارث پر مشترکہ حملے کے لیے مدد مانگی۔ انہوں نے اپنے قبیلوں کے اندرونی جھگڑے کا عذر کیا، تو وہ شاکر اور ثقیف کے تقریباً دس گھڑ سواروں کے ساتھ البقیرہ کی طرف نکلا۔"
+wings:
+- time
+themes:
+- civil-wars-and-revolts
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0908"
+    hijri: "0295"
+    calendar: julian
+    precision: year
+    status: tradition
+    derived: true
+    note: "الكتاب لا يذكر يوماً؛ السياق بعد الليلة نفسها"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/ali-ibn-muhammad-ibn-ubaydallah-al-abbasi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/shakir-hamdan-tribe
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/thaqif
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/najran
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، الصفحات المطبوعة pp. 381"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5)"
+  model: claude-haiku-5-5
+  run: a1-sira-p377-384-1
+status:
+  review: draft
+  completeness: 2
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 381"

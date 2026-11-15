@@ -1,0 +1,23 @@
+id: concept/bunj
+class: concept
+kind: natural
+label:
+  ar: "بنج"
+  en: "Bunj (the editor identifies it as hemlock)"
+  ur: "بنج ⁦(شوکران)⁩"
+summary:
+  ar: "نبات مخدّر ومسكّن، أردؤه الأسود ثم الأحمر، والأبيض أسلمه وهو المستعمل. يسكّن الأوجاع ويقطع النزف، ويُنبَّه الكتاب إلى أن أكل كمية من ورقه يخلط العقل {cite:canon-ibn-sina-print-v1 p.401}، {cite:canon-ibn-sina-print-v1 p.402}."
+  en: "A narcotic, pain-easing plant. The black is the worst, then the red, and the white is the safest and the one used. It eases pain and stops bleeding, and the book warns that a sizeable amount of its leaf confuses the mind {cite:canon-ibn-sina-print-v1 p.401}, {cite:canon-ibn-sina-print-v1 p.402}."
+  ur: "ایک نشہ آور اور درد کم کرنے والا پودا۔ کالا سب سے بدتر، پھر سرخ، اور سفید سب سے محفوظ اور استعمال ہونے والا ہے۔ یہ درد کم کرتا اور خون بہنا روکتا ہے، اور کتاب خبردار کرتی ہے کہ اس کے پتے کی زیادہ مقدار عقل کو متاثر کرتی ہے {cite:canon-ibn-sina-print-v1 p.401}، {cite:canon-ibn-sina-print-v1 p.402}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter ba, scan pages 401-402, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); the editor's footnotes are used only for identity and name; footnotes quoting modern herbal or nutrition books are not used; measured doses and weights are left out; garbled OCR lines are left out, not guessed"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), lane A4"
+  model: claude-haiku-5-5
+  run: a4-canon-book2-6
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (book mining, lane A4)" }

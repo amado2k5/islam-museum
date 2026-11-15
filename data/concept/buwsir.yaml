@@ -1,0 +1,23 @@
+id: concept/buwsir
+class: concept
+kind: natural
+label:
+  ar: "بوصير"
+  en: "Buwsir (bear's ears)"
+  ur: "بوصیر ⁦(آذان الدب)⁩"
+summary:
+  ar: "حشيشة محلّلة يُنتفع بطبيخها في الأورام والجراح وأوجاع الأسنان والرمد الحار والسعال المزمن، ويحمّر زهرها البري الشعر {cite:canon-ibn-sina-print-v1 p.401}."
+  en: "A dissolving herb. Its decoction is used for swellings, wounds, toothache, hot ophthalmia and chronic cough, and the wild kind with its golden flower is said to redden hair {cite:canon-ibn-sina-print-v1 p.401}."
+  ur: "ایک تحلیل کرنے والی جڑی بوٹی۔ اس کا جوشاندہ ورموں، زخموں، دانت کے درد، گرم آشوبِ چشم اور پرانی کھانسی میں کام آتا ہے، اور اس کی جنگلی قسم، جس کے پھول سنہری ہیں، بالوں کو سرخ کرتی ہے {cite:canon-ibn-sina-print-v1 p.401}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter ba, scan pages 401, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); the editor's footnotes are used only for identity and name; footnotes quoting modern herbal or nutrition books are not used; measured doses and weights are left out; garbled OCR lines are left out, not guessed"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), lane A4"
+  model: claude-haiku-5-5
+  run: a4-canon-book2-6
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (book mining, lane A4)" }

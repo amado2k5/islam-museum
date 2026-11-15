@@ -1,0 +1,23 @@
+id: concept/babulus
+class: concept
+kind: natural
+label:
+  ar: "بابلس"
+  en: "Babulus (poppy)"
+  ur: "بابلس ⁦(پوست)⁩"
+summary:
+  ar: "الخشخاش الوبري والزبدي، ويفعل فعل اليتوع في إسهاله، حار جداً، ويُسهّل كاليتوعات {cite:canon-ibn-sina-print-v1 p.412}."
+  en: "The book calls it the wild and cream poppy. It acts like the yatu' in loosening the bowel, is very hot, and purges like the yatu'at {cite:canon-ibn-sina-print-v1 p.412}."
+  ur: "کتاب اسے وحشی اور کریمی پوست کہتی ہے۔ یہ یتوع کی طرح پیٹ ڈھیلا کرتی ہے، بہت گرم ہے، اور یتوعات کی طرح مسہل ہے {cite:canon-ibn-sina-print-v1 p.412}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter ba, scan pages 412, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); the editor's footnotes are used only for identity and name; footnotes quoting modern herbal or nutrition books are not used; measured doses and weights are left out; garbled OCR lines are left out, not guessed"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), lane A4"
+  model: claude-haiku-5-5
+  run: a4-canon-book2-6
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (book mining, lane A4)" }

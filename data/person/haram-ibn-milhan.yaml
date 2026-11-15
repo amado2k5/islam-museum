@@ -1,4 +1,5 @@
 id: person/haram-ibn-milhan
+external_ids: { wikidata: "Q12207408" }
 class: person
 label: { en: "Haram ibn Milhan", ar: "حرام بن ملحان", ur: "حرام بن ملحان" }
 names:
@@ -27,7 +28,7 @@ relations:
   - { type: member_of, target: group/banu-al-najjar, note: "al-Isaba p. 304", sources: [source/ibn-hajar-isaba] }
   - { type: participated_in, target: event/incident-of-bir-mauna, role: "رسول النبي المطعون غدراً", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-sira]}
-sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/sahih-muslim, source/ibn-hisham-sira, source/ibn-hajar-isaba]
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/sahih-muslim, source/ibn-hisham-sira, source/ibn-hajar-isaba, source/wikidata-haram-ibn-milhan]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 293–294" }
 provenance:
   layer: own-research
