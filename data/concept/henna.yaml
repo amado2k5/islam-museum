@@ -1,0 +1,23 @@
+id: concept/henna
+class: concept
+kind: natural
+label:
+  ar: "الحناء"
+  en: "Henna"
+  ur: "حنّاء"
+summary:
+  ar: "الحناء شجرة ورقها شبيه بورق الزيتون وأوسع وألين، وبزرها أسود؛ طبيعتها باردة في الأولى يابسة في الثانية، وتُذكر لها منافع في الشعر والأورام والجراح والمفاصل والصداع وقروح الفم، ومن بينها منفعة رحمية مُعلَّمة."
+  en: "Henna is a tree with leaves like olive but wider and softer, and a black seed. It is cold in the first degree and dry in the second. The book lists uses for hair, swellings, wounds, joints, headache and mouth sores, and one labelled womb listing."
+  ur: "حنّاء ایک درخت ہے جس کے پتے زیتون جیسے مگر چوڑے اور نرم ہیں، اور بیج سیاہ ہے؛ یہ پہلے درجے میں ٹھنڈی اور دوسرے میں خشک ہے۔ کتاب بالوں، سوجن، زخموں، جوڑوں، سردرد اور منہ کے چھالوں کے فوائد درج کرتی ہے، اور رحم کے درد کی ایک مُعلَّم فہرست بھی ہے۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, scan pages 474 to 475, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); the editor's footnotes are used only for identity and name; footnotes quoting modern herbal or nutrition books are not used; measured doses, weights and quantities are left out; garbled OCR lines are left out, not guessed"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), lane A4"
+  model: claude-haiku-5-5
+  run: a4-canon-book2-11
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (book mining, lane A4)" }

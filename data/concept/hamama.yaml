@@ -1,0 +1,23 @@
+id: concept/hamama
+class: concept
+kind: natural
+label:
+  ar: "الحماما"
+  en: "Hamama"
+  ur: "حماما"
+summary:
+  ar: "الحماما شجرة خشبها كالعناقيد، ولونه كالذهب، وطيّب الرائحة؛ الجيّد الذهبي الطريّ الأرمني المرّ، وفيها تحليل ونضج وقبض، وتُذكر لها منافع في الأورام والمفاصل والصداع والعين والصدر والكبد والرحم، ومن بينها مُعلَّمات."
+  en: "Hamama is a tree with woody clusters, golden in colour and fragrant. The best is the fresh golden Armenian bitter kind; it dissolves, ripens and binds. The book lists uses for swellings, joints, headache, the eye, the chest, the liver and the womb, and some of the womb uses are labelled listings."
+  ur: "حماما ایک درخت ہے جس کی لکڑی گچھوں جیسی، رنگ سونے جیسا اور خوشبو تیز ہے؛ بہترین سنہری، تازہ، ارمنی اور کڑوی قسم ہے۔ اس میں تحلیل، پکانا اور گرفت ہے، اور سوجن، جوڑ، سردرد، آنکھ، سینے، جگر اور رحم کے فوائد درج ہیں، جن میں سے کچھ رحم کے فوائد مُعلَّم فہرست ہیں۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, scan pages 475 to 476, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); the editor's footnotes are used only for identity and name; footnotes quoting modern herbal or nutrition books are not used; measured doses, weights and quantities are left out; garbled OCR lines are left out, not guessed"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), lane A4"
+  model: claude-haiku-5-5
+  run: a4-canon-book2-11
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (book mining, lane A4)" }

@@ -1,0 +1,23 @@
+id: concept/harf
+class: concept
+kind: natural
+label:
+  ar: "الحرف"
+  en: "Harf"
+  ur: "حرف"
+summary:
+  ar: "الحرف، وهو في هامش المحقق حبّ الرشاد؛ أجوده البابلي، وهو حار يابس في الثالثة، يسخّن ويحلّل وينضج، ويُذكر له نفع في الأورام البلغمية والجرب والقوابي وعرق النسا وأوجاع الصدر والربو والكبد والطحال، ومنه مُعلَّمات في الرحم والطمث."
+  en: "Harf, which the editor's footnote identifies as hab al-rashad, is best from Babylon. It is hot and dry in the third degree, warming, dissolving and ripening. The book lists uses for phlegmy swellings, scabies, ulcers, sciatica, chest pains, asthma, the liver and the spleen, and some womb and menses claims as labelled listings."
+  ur: "حرف، جسے محقق کے حاشیے میں حب الرشاد کہا گیا ہے، بابل کا بہترین ہے؛ یہ تیسرے درجے میں گرم اور خشک ہے، گرم کرتا، تحلیل اور پکاتا ہے۔ کتاب بلغمی سوجن، جرب، قوابی، عرق النسا، سینے کے درد، دمہ، جگر اور تلی کے فوائد درج کرتی ہے، اور رحم و حیض کے کچھ دعوے مُعلَّم فہرست ہیں۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, scan pages 476 to 477, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); the editor's footnotes are used only for identity and name; footnotes quoting modern herbal or nutrition books are not used; measured doses, weights and quantities are left out; garbled OCR lines are left out, not guessed"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), lane A4"
+  model: claude-haiku-5-5
+  run: a4-canon-book2-11
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (book mining, lane A4)" }
