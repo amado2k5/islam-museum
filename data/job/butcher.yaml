@@ -1,0 +1,41 @@
+id: job/butcher
+class: job
+label: { ar: "الجزّار", en: "Butcher (jazzar / qassab)", ur: "قصاب" }
+names:
+  - { value: "قصّاب", kind: alternate }
+  - { value: "لحّام", kind: alternate }
+  - { value: "kasap", kind: latinized, lang: tr }
+  - { value: "etçi", kind: latinized, lang: tr }
+summary:
+  ar: "الجزّار ⁦(القصّاب، اللحّام)⁩ حِرفي الذبح والسلخ وبيع اللحم في المدن الإسلامية؛ لأن اللحم غذاء أساسي سريع الفساد خضع عمله لأشدّ رقابات الحسبة: شروط القصّاب، حضور المُحتسِب عند الذبح، قواعد السلخ والنظافة، ومنع خلط الأنواع والأقدم بالجديد."
+  en: "The butcher (qassâb, jazzâr, lahhâm) slaughtered, skinned and sold meat in Islamic cities; because meat is a staple that spoils quickly the trade drew the strictest hisba supervision: qualifications of the butcher, the muhtasib's presence at slaughter, rules of skinning and cleanliness, and bans on mixing species or old with fresh."
+  ur: "قصاب ⁦(جزّار، لحّام)⁩ اسلامی شہروں میں ذبح، کھال اتارنے اور گوشت بیچنے والا کاریگر ہے؛ گوشت بنیادی اور جلد خراب ہونے والی خوراک ہونے کے سبب اس پیشے پر حسابے کی سخت ترین نگرانی رہی: قصاب کی شرائط، ذبح پر محتسب کی موجودگی، کھال اتارنے اور صفائی کے اصول، اور نسلوں یا پرانے-تازہ گوشت ملانے کی ممانعت۔"
+domain: building-making
+kind: craft
+hirfa: true
+era:
+  origins: pre-islamic
+  status_today: living
+places:
+  - { place: place/istanbul, note: "Ottoman nizamnames regulated butchers (tel dolap, shop sizes, separate goat/sheep butchers); butchers marched in guild processions as painted in the 1582 Surnâme-i Hümâyun.", sources: [source/tdv-kasap] }
+regions: [anatolia-balkans, egypt-nile, levant-iraq, arab-world]
+organization:
+  organized: guild
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people, living]
+periods: [period/crusades-ayyubid-mamluk, period/gunpowder-empires, period/modern-era]
+sources: [source/tdv-kasap]
+craft:
+  materials: [leather]
+  guild:
+    bodies: []
+    shaykh_title: { ar: "بير", en: "pir", ur: "پیر" }
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-mak-1" }
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi, 'KASAP' (Nebi Bozkurt, 2001), web edition read in full on 15 Nov 2026. The entry centres hisba regulation and Ottoman practice; no wage series or named individual butchers."
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-mak-1-drafting"
