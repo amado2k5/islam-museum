@@ -1,0 +1,55 @@
+id: "event/abu-jafar-is-struck-from-behind-at-the-door-and-killed-among-banu-al-harith-295"
+class: event
+kind: other
+label:
+  ar: "الحارث بن الحارث يضرب أبا جعفر من خلفه عند الباب ويُقتل، 295هـ، ص377"
+  en: "Al-Harith ibn al-Harith strikes Abu Ja'far from behind at the door and he is killed, 295 AH, p. 377"
+  ur: "حارث بن حارث دروازے پر ابو جعفر کو پیچھے سے وار کر کے گرا دیتا ہے اور وہ قتل ہو جاتا ہے، 295ھ، ص377"
+summary:
+  ar: "ضربه الحارث بن الحارث من ورائه بعد أن اختبأ خلف الباب، فسقط أبو جعفر بين بني الحارث، فضربوه بالسيوف حتى قُتل، ونزعوا سلاحه وثيابه وتوزعوا ما عليه."
+  en: "Al-Harith ibn al-Harith hid behind the door and struck Abu Ja'far from behind; he fell among Banu al-Harith, who struck him with swords until he died, and then stripped his arms, mount and goods."
+  ur: "حارث بن حارث دروازے کے پیچھے چھپا تھا، اس نے پیچھے سے ابو جعفر کی گردن پر وار کیا، وہ بنو حارث کے درمیان گر پڑا، انہوں نے تلواروں سے اسے قتل کیا اور اس کا ہتھیار اور سامان اتار لیا۔"
+wings:
+- time
+themes:
+- civil-wars-and-revolts
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0908-09-29"
+    hijri: "0295-12-24"
+    calendar: julian
+    precision: day
+    status: tradition
+    derived: true
+    note: "صبح 24 ذي الحجة 295هـ، مستنتج من تسلسل الرواية"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/abu-jafar-muhammad-ibn-ubaydallah-al-abbasi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-al-harith
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/najran
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، الصفحات المطبوعة pp. 377"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5)"
+  model: claude-haiku-5-5
+  run: a1-sira-p377-384-1
+status:
+  review: draft
+  completeness: 2
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 377"

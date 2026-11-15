@@ -1,0 +1,23 @@
+id: concept/bardi
+class: concept
+kind: natural
+label:
+  ar: "بردي"
+  en: "Bardi (papyrus)"
+  ur: "بردی ⁦(پیپرس)⁩"
+summary:
+  ar: "نبات معروف يُصنع منه القرطاس، وهو في قوته، والمحرق منهما أشدّ تجفيفاً، بارد يابس، ينفع من النزف ويمنعه رماده، ويدمل الجراحات الطرية إذا ذُرّ عليها، ويُدخل في الناصور والقروح الساعية، ورماده نافع من أكلة الفم ويحبس نفث الدم {cite:canon-ibn-sina-print-v1 p.410}، {cite:canon-ibn-sina-print-v1 p.411}."
+  en: "A known plant from which paper is made; its power is that of paper, and the burnt form dries more. Cold and dry. It helps bleeding, and its ash stops it; sprinkled on fresh wounds it closes them; it enters into treatment of fistula and spreading ulcers. Its ash helps mouth sores and holds back spitting of blood {cite:canon-ibn-sina-print-v1 p.410}, {cite:canon-ibn-sina-print-v1 p.411}."
+  ur: "ایک معروف پودا جس سے کاغذ بنایا جاتا ہے؛ اس کی قوت کاغذ جیسی ہے، اور جلایا ہوا زیادہ خشک کرتا ہے۔ سرد اور خشک۔ یہ خون بہنے میں مفید ہے، اور اس کی راکھ اسے روکتی ہے؛ تازہ زخموں پر چھڑکنے سے وہ بھر جاتے ہیں؛ ناسور اور رینگنے والے زخموں کے علاج میں داخل ہے۔ اس کی راکھ منہ کے زخموں میں مفید اور خون تھوکنا روکتی ہے {cite:canon-ibn-sina-print-v1 p.410}، {cite:canon-ibn-sina-print-v1 p.411}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter ba, scan pages 410-411, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); the editor's footnotes are used only for identity and name; footnotes quoting modern herbal or nutrition books are not used; measured doses and weights are left out; garbled OCR lines are left out, not guessed"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), lane A4"
+  model: claude-haiku-5-5
+  run: a4-canon-book2-6
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (book mining, lane A4)" }

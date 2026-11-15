@@ -34,10 +34,11 @@ relations:
   - { type: participated_in, target: event/abu-dawud-muwaffaq-basra-272, role: "المطلوب إليه", sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2] }
   - { type: participated_in, target: event/death-abu-dawud-basra-275, role: "المتوفَّى", sources: [source/tarikh-islam-dhahabi] }
 external_ids:
+  viaf: "268705676"
   wikidata: Q336558
   biblissima: "Q15590"
   openiti: "0275AbuDawudSijistani"
-sources: [source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2, source/sunan-abi-dawud, source/biblissima, source/openiti-corpus]
+sources: [source/viaf-cluster-268705676, source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2, source/sunan-abi-dawud, source/biblissima, source/openiti-corpus]
 importance: 1
 status: { review: published, completeness: 4, generated_by: "Devin (SWE-2 Medium)" }
 provenance:

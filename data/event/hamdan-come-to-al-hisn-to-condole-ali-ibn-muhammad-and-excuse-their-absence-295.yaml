@@ -1,0 +1,55 @@
+id: "event/hamdan-come-to-al-hisn-to-condole-ali-ibn-muhammad-and-excuse-their-absence-295"
+class: event
+kind: other
+label:
+  ar: "همدان تعزي علي بن محمد في أبيه في الحصن وتعتذر عن تخلفها، 295هـ، ص383"
+  en: "Hamdan come to Ali ibn Muhammad at the fort to condole him on his father and excuse their absence, 295 AH, p. 383"
+  ur: "ہمدان حصن میں علی بن محمد کے پاس باپ کی تعزیت کے لیے آتے ہیں اور اپنی غیر حاضری کا عذر کرتے ہیں، 295ھ، ص383"
+summary:
+  ar: "لما وصل علي بن محمد إلى الحصن أقبلت همدان إليه يعزّونه في أبيه، ويعتذرون عن تخلفهم عن نصرته."
+  en: "When Ali ibn Muhammad reached the fort, the men of Hamdan came to him to condole him on his father and apologised for having stayed away from helping him."
+  ur: "علی بن محمد جب حصن پہنچا تو ہمدان کے لوگ اس کے پاس باپ کی تعزیت کے لیے آئے اور اس کی مدد کو نہ آنے پر معذرت کی۔"
+wings:
+- time
+themes:
+- civil-wars-and-revolts
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0908"
+    hijri: "0295"
+    calendar: julian
+    precision: year
+    status: tradition
+    derived: true
+    note: "الكتاب لا يذكر يوماً؛ بعد وصول علي بن محمد إلى الحصن"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/ali-ibn-muhammad-ibn-ubaydallah-al-abbasi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-hamdan
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/najran
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، الصفحات المطبوعة pp. 383"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5)"
+  model: claude-haiku-5-5
+  run: a1-sira-p377-384-1
+status:
+  review: draft
+  completeness: 2
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 383"

@@ -1,0 +1,23 @@
+id: concept/badhruj
+class: concept
+kind: natural
+label:
+  ar: "باذروج"
+  en: "Badhruj (the book's al-hawk)"
+  ur: "باذروج"
+summary:
+  ar: "الكتاب يسمّيه الحوك، وهو معروف، ودهنه في قوة دهن المرزنجوش لكنه أضعف، وفيه قوى متضادة: قابض ومسهّل، محلّل ومولّد للسوداء، ينفع الرعاف والضربان في العين، ويقوّي القلب {cite:canon-ibn-sina-print-v1 p.403}، {cite:canon-ibn-sina-print-v1 p.404}."
+  en: "The book calls it al-hawk, a well-known herb. Its oil is like marjoram oil but weaker, and it has opposing powers: astringent and laxative, dissolving but producing black bile. It helps nosebleed and throbbing of the eye, and strengthens the heart {cite:canon-ibn-sina-print-v1 p.403}, {cite:canon-ibn-sina-print-v1 p.404}."
+  ur: "کتاب اسے الحوک کہتی ہے، جو معروف ہے۔ اس کا تیل مرزنجوش کے تیل جیسا مگر کمزور ہے، اور اس میں متضاد قوتیں ہیں: قابض اور مسہل، تحلیل کرنے والا اور سودا پیدا کرنے والا۔ یہ ناک سے خون بہنے اور آنکھ کی دھڑکن میں مفید ہے، اور دل کو قوت دیتا ہے {cite:canon-ibn-sina-print-v1 p.403}، {cite:canon-ibn-sina-print-v1 p.404}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter ba, scan pages 403-404, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); the editor's footnotes are used only for identity and name; footnotes quoting modern herbal or nutrition books are not used; measured doses and weights are left out; garbled OCR lines are left out, not guessed"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), lane A4"
+  model: claude-haiku-5-5
+  run: a4-canon-book2-6
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (book mining, lane A4)" }

@@ -1,0 +1,23 @@
+id: concept/bayluun
+class: concept
+kind: natural
+label:
+  ar: "بيلون"
+  en: "Bayluun (the wild 'arfaj)"
+  ur: "بیلون ⁦(جنگلی عرفج)⁩"
+summary:
+  ar: "الكتاب يقول إنه العرفج البري، وهو من اليتوعات، وبزره ناري كاليتوعات، ويسهّل البطن {cite:canon-ibn-sina-print-v1 p.404}."
+  en: "The book says it is the wild 'arfaj. It belongs to the yatu'at group, its seed is hot like theirs, and it loosens the bowel {cite:canon-ibn-sina-print-v1 p.404}."
+  ur: "کتاب کے مطابق یہ جنگلی عرفج ہے۔ یہ یتوعات کی جنس سے ہے، اس کا بیج ان کی طرح گرم ہے، اور یہ پیٹ کو ڈھیلا کرتا ہے {cite:canon-ibn-sina-print-v1 p.404}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter ba, scan pages 404, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); the editor's footnotes are used only for identity and name; footnotes quoting modern herbal or nutrition books are not used; measured doses and weights are left out; garbled OCR lines are left out, not guessed"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), lane A4"
+  model: claude-haiku-5-5
+  run: a4-canon-book2-6
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (book mining, lane A4)" }

@@ -13,3 +13,6 @@ Al-Salabi says that in his reign the Islamic advance began to retreat from Easte
 
 ## Deposition
 The Janissaries demanded the removal of the Grand Vizier and the sultan refused, so they decided to depose him. He died four months later at the age of thirty-nine. {cite:dawlat-uthmaniyya-salabi p.310}
+
+## Al-Salabi's explanation of the retreat
+Al-Salabi attributes the retreat of the Islamic advance from Eastern Europe in his reign to weakened faith, a weakened spirit of jihad and the severity of Crusader attacks. This is the author's explanation and is presented here as his view. {cite:dawlat-uthmaniyya-salabi p.310}

@@ -1,0 +1,23 @@
+id: concept/bish
+class: concept
+kind: natural
+label:
+  ar: "بيش"
+  en: "Bish (aconite, a deadly poison)"
+  ur: "بیش ⁦(زہرِ قاتل)⁩"
+summary:
+  ar: "سمّ قاتل، في غاية الحرارة واليبوسة، وفيه ما يذكره الكتاب من إذهاب البرص بطلاء أو شرب، لكنه يفسخ شاربه، وترياقه فأر البيش ومعجون المسك على ما ذكر الكتاب {cite:canon-ibn-sina-print-v1 p.408}."
+  en: "A deadly poison, extremely hot and dry. The book lists its use for leprosy by application or drink, but it destroys the drinker, and its antidotes are the bish-mouse and a musk-based electuary {cite:canon-ibn-sina-print-v1 p.408}."
+  ur: "ایک جان لیوا زہر، انتہائی گرم اور خشک۔ کتاب اس کا برص میں لیپ یا پینے سے استعمال درج کرتی ہے، مگر یہ پینے والے کو ہلاک کر دیتا ہے؛ اس کے تریاق فأرِ البیش اور مشک کا معجون ہیں {cite:canon-ibn-sina-print-v1 p.408}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter ba, scan pages 408, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); the editor's footnotes are used only for identity and name; footnotes quoting modern herbal or nutrition books are not used; measured doses and weights are left out; garbled OCR lines are left out, not guessed"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), lane A4"
+  model: claude-haiku-5-5
+  run: a4-canon-book2-6
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (book mining, lane A4)" }

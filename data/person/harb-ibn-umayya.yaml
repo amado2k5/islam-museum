@@ -1,4 +1,5 @@
 id: person/harb-ibn-umayya
+external_ids: { wikidata: "Q12207444" }
 class: person
 label: { en: "Harb ibn Umayya", ar: "حرب بن أمية" }
 names:
@@ -22,5 +23,5 @@ relations:
   - { type: member_of, target: group/quraysh }
   - { type: child_of, target: person/umayya-ibn-abd-shams }
   - { type: participated_in, target: event/harb-al-fijar, role: "قائد حلف قريش وكنانة", sources: [source/mubarakpuri-raheeq] }
-sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/muruj-al-dhahab, source/muhadarat-tarikh-al-umam-al-islamiyya]
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/muruj-al-dhahab, source/muhadarat-tarikh-al-umam-al-islamiyya, source/wikidata-harb-ibn-umayya]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum p. 59" }

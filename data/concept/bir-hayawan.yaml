@@ -1,0 +1,23 @@
+id: concept/bir-hayawan
+class: concept
+kind: natural
+label:
+  ar: "بعر الحيوان"
+  en: "Bi'r hayawan (animal dung)"
+  ur: "بعرِ حیوان ⁦(جانوروں کی مینگنی)⁩"
+summary:
+  ar: "بعر الضبّ والجمل والماعز والغنم، يُستعمل للبرص والكلف والحزاز والرعاف والبثور والقروح والخنازير والحمّى وأوجاع المفاصل، والنزف، وبعر الماعز يابساً بصوفة يمنع سيلان الرحم، ويُذكر للسموم أيضاً {cite:canon-ibn-sina-print-v1 p.413}، {cite:canon-ibn-sina-print-v1 p.414}."
+  en: "The dung of the lizard, camel, goat and sheep, used for white patches, freckles, lichen, nosebleed, pustules, ulcers, scrofula, fever and joint pain. The book also lists dried goat dung with wool for stopping a uterine discharge, and uses against poisons {cite:canon-ibn-sina-print-v1 p.413}, {cite:canon-ibn-sina-print-v1 p.414}."
+  ur: "گوہ، اونٹ، بکری اور بھیڑ کی مینگنی، جو برص، جھائیوں، کائی کی بیماری، ناک کے خون، پھنسیوں، زخموں، غدودی سختی، بخار اور جوڑوں کے درد میں استعمال ہوتی ہے۔ کتاب خشک بکری کی مینگنی کو اون کے ساتھ رحم کے بہاؤ روکنے کے لیے، اور زہروں کے لیے بھی بیان کرتی ہے {cite:canon-ibn-sina-print-v1 p.413}، {cite:canon-ibn-sina-print-v1 p.414}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter ba, scan pages 413-414, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); the editor's footnotes are used only for identity and name; footnotes quoting modern herbal or nutrition books are not used; measured doses and weights are left out; garbled OCR lines are left out, not guessed"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), lane A4"
+  model: claude-haiku-5-5
+  run: a4-canon-book2-6
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (book mining, lane A4)" }
