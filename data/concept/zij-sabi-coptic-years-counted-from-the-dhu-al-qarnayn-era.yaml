@@ -1,0 +1,20 @@
+id: concept/zij-sabi-coptic-years-counted-from-the-dhu-al-qarnayn-era
+class: concept
+kind: scientific
+label: { ar: "سنو القبط محسوبة من سني ذي القرنين", en: "Coptic years counted from the years of Dhu al-Qarnayn", ur: "قبطی سال ذو القرنین کے سالوں سے شمار" }
+summary:
+  ar: "يحوّل البتاني التاريخ القبطي من سني ذي القرنين: يُنقص من السنين التامة مائتين وسبعة وثمانين، ويُقسم الباقي على الأرباع، فإذا وقع كسر ولم يكن سباط فالسنة كبيسة، وتُحسب الأيام من توت. {cite:zij-sabi-nallino-byblion p.103}."
+  en: "Al-Battani converts a Coptic date from the years of Dhu al-Qarnayn: he subtracts 287 from the completed years, divides what remains by four for the quarter days, and when a fraction occurs and it is not the leap month the year is taken as leap, and the days are counted from Tut. {cite:zij-sabi-nallino-byblion p.103}."
+  ur: "البتانی قبطی تاریخ ذو القرنین کے سالوں سے بدلتے ہیں: مکمل سالوں میں سے 287 گھٹاتے ہیں، باقی کو چوتھائی دنوں کے لیے چار پر تقسیم کرتے ہیں، اور جب کسر آئے اور شباط نہ ہو تو سال کبیسہ شمار ہوتا ہے، اور دن توت سے گنے جاتے ہیں۔ {cite:zij-sabi-nallino-byblion p.103}۔"
+wings: [ideas]
+themes: [astronomy-and-timekeeping, mathematics]
+sources: [source/zij-sabi-nallino-byblion]
+relations:
+  - { type: part_of, target: work/al-zij-al-sabi, sources: [source/zij-sabi-nallino-byblion] }
+provenance:
+  layer: own-research
+  source: "al-Zij al-Sabi, Arabic text ed. C. A. Nallino (Byblion, Jbeil 2005), OCR of the local copy, chapter 30 (scan pages 80 to 98, printed pages 76 to 94), read page by page"
+  generated_by: "Claude Haiku 5.5"
+  model: claude-haiku-5-5
+  run: zij-sabi-7
+status: { review: draft, completeness: 2, generated_by: "Claude Haiku 5.5 (book mining, lane A2)" }

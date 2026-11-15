@@ -1,0 +1,20 @@
+id: concept/zij-sabi-conjunction-needs-latitude-agreement
+class: concept
+kind: scientific
+label: { ar: "المقارنة تحتاج إلى تطابق العرض", en: "Conjunction requires agreement in latitude", ur: "مقارنہ کے لیے عرض کی مطابقت ضروری ہے" }
+summary:
+  ar: "إذا تجاور كوكبان في الطول دون العرض لم تكن مقارنتهما صحيحة، فلا تُدرك مقارنة كاملة إلا إذا اتفقا في الطول والعرض والجهة، ثم لا يزالان مقترنين حتى يبعد أحدهما عن صاحبه بمقدار نصف جرميهما. وإذا كانا في جهتين مختلفتين فإنه لا يُعد لهما اقتران. {cite:zij-sabi-nallino-byblion pp.198}"
+  en: "If two bodies are close in longitude but not in latitude their conjunction is not true; a full conjunction needs agreement in longitude, latitude and side. They stay conjoined until one lies from the other by half the sum of their discs. If they are on opposite sides no conjunction is counted. {cite:zij-sabi-nallino-byblion p.198}"
+  ur: "اگر دو اجسام طول میں قریب ہوں مگر عرض میں نہ ہوں تو ان کا اقتران درست نہیں؛ مکمل اقتران کے لیے طول، عرض اور سمت تینوں میں مطابقت لازم ہے۔ وہ اس وقت تک متصل رہتے ہیں جب تک ایک دوسرے سے اپنے دونوں جرموں کے مجموعے کے نصف کے برابر دور نہ ہو جائے۔ اگر وہ مختلف جانبوں میں ہوں تو ان کا اقتران شمار نہیں ہوتا۔ {cite:zij-sabi-nallino-byblion p.198}"
+wings: [ideas]
+themes: [astronomy-and-timekeeping, mathematics]
+sources: [source/zij-sabi-nallino-byblion]
+relations:
+  - { type: part_of, target: work/al-zij-al-sabi, sources: [source/zij-sabi-nallino-byblion] }
+provenance:
+  layer: own-research
+  source: "Chapter 54, scan 198: conjunction requires agreement in latitude"
+  generated_by: "Claude Haiku 5.5"
+  model: claude-haiku-5-5
+  run: zij-sabi-a3-4
+status: { review: draft, completeness: 2, generated_by: "Claude Haiku 5.5 (book mining, lane A3)" }

@@ -1,0 +1,38 @@
+id: person/abdallah-ibn-al-khattab-al-hakami
+class: person
+label:
+  ar: "عبد الله بن الخطاب الحكمي"
+  en: "Abdallah ibn al-Khattab al-Hakami"
+  ur: "عبداللہ بن الخطاب الحکمی"
+summary:
+  ar: "من الحكميين، وفد على الهادي بجماعة من الخيل والرجال سنة 294هـ فراراً من خوف ابن عمه الغطريف بن محمد الأشج، وخرج معه إلى نجران."
+  en: "Of the Hakam, he came to al-Hadi in 294 AH with a band of horsemen and men, fleeing for fear of his cousin al-Futayf ibn Muhammad al-Ashajj, and went with him to Najran."
+  ur: "حکمی قبیلے سے؛ 294ھ میں ہادی کے پاس گھوڑسواروں اور آدمیوں کے گروہ کے ساتھ آئے، اپنے چچا زاد الغطریف بن محمد الاشج کے خوف سے بھاگ کر، اور ان کے ساتھ نجران گئے۔"
+gender: male
+roles:
+- politician
+wings:
+- people
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+story_roles:
+- { role: ally, status: tradition, sources: [source/sira-hadi-ila-al-haqq] }
+relations:
+- type: allied_with
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص335 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5)"
+  model: claude-haiku-5-5
+  run: a1-sira-p331-338-1
+status:
+  review: draft
+  completeness: 2
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 335"

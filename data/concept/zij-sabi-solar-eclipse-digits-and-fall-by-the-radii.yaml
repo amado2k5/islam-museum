@@ -1,0 +1,20 @@
+id: concept/zij-sabi-solar-eclipse-digits-and-fall-by-the-radii
+class: concept
+kind: scientific
+label: { ar: "أصابع كسوف الشمس ودقائق سقوطه", en: "The digits of a solar eclipse and its fall minutes", ur: "سورج گرہن کی انگلیاں اور سقوط کے دقائق" }
+summary:
+  ar: "تُضرب دقائق نصف القطرين المطلقة في نفسها، وتُطرح من عرض القمر المرئي مضروباً في مثله، ويؤخذ جذر الباقي فيخرج دقائق السقوط المطلقة، ثم يُقسم على سبق القمر لساعة ليصير ساعات السقوط. وتُطرح ساعات السقوط من ساعات وسط الكسوف لبدء الكسوف المطلق، وتُزاد عليها لتمام الانجلاء المطلق. وتصير الأصابع بضرب الفضل في عدد الأصابع المعتاد من قطر الشمس. {cite:zij-sabi-nallino-byblion pp.165-166}"
+  en: "The absolute half-sum of the radii is multiplied by itself and the square of the visible latitude is subtracted from it; the root of the remainder gives the absolute minutes of fall. Divided by the Moon's hourly motion they give the hours of fall, which subtracted from the hours of mid-eclipse fix the absolute beginning, and added fix the absolute end. The digits are the difference between the half-sum and the latitude, multiplied by twelve and divided by the Sun's diameter. {cite:zij-sabi-nallino-byblion pp.165-166}"
+  ur: "مطلق نصف المجموع کو اپنے آپ سے ضرب دے کر اس میں سے مرئی عرض کا مربع گھٹایا جاتا ہے، اور باقی کا جذر مطلق سقوط کے دقائق دیتا ہے۔ انہیں چاند کی فی گھنٹہ حرکت پر تقسیم کرنے سے سقوط کے گھنٹے ملتے ہیں، جو وسط کے گھنٹوں میں سے گھٹانے سے مطلق آغاز اور جمع کرنے سے مطلق اختتام طے کرتے ہیں۔ انگلیاں نصف المجموع اور عرض کے فرق کو بارہ سے ضرب دے کر سورج کے قطر پر تقسیم کرنے سے نکلتی ہیں۔ {cite:zij-sabi-nallino-byblion pp.165-166}"
+wings: [ideas]
+themes: [astronomy-and-timekeeping, mathematics]
+sources: [source/zij-sabi-nallino-byblion]
+relations:
+  - { type: part_of, target: work/al-zij-al-sabi, sources: [source/zij-sabi-nallino-byblion] }
+provenance:
+  layer: own-research
+  source: "Chapter 44, scan 165-167: digits and fall for the solar eclipse"
+  generated_by: "Claude Haiku 5.5"
+  model: claude-haiku-5-5
+  run: zij-sabi-a3-2
+status: { review: draft, completeness: 2, generated_by: "Claude Haiku 5.5 (book mining, lane A3)" }

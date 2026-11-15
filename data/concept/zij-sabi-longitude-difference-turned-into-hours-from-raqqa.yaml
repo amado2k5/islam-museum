@@ -1,0 +1,20 @@
+id: concept/zij-sabi-longitude-difference-turned-into-hours-from-raqqa
+class: concept
+kind: scientific
+label: { ar: "فرق الطول من الرقة مُحوَّلاً إلى ساعات", en: "The longitude difference from Raqqa turned into hours", ur: "رقہ سے طول کا فرق گھنٹوں میں" }
+summary:
+  ar: "إذا أردت ساعات بلد غير الرقة، تأخذ الفرق بين طوله وطول الرقة من جداول أطوال المدن، وتقسمه على خمسة عشر، فيخرج ساعات البُعد. فإن كان طول المدينة أكثر من طول الرقة نقصت ساعات البُعد من الساعات المعتدلة، لأن المدينة تقع إلى ناحية المشرق، وإن كان أقل زيدت. {cite:zij-sabi-nallino-byblion p.109}."
+  en: "To get the hours of another place than Raqqa, take the difference between its longitude and Raqqa's from the table of city longitudes and divide it by fifteen; the result is the hours of distance. If the city's longitude is greater than Raqqa's, the hours of distance are subtracted from the equated hours, since the city lies to the east; if it is less, they are added. {cite:zij-sabi-nallino-byblion p.109}."
+  ur: "اگر رقہ کے علاوہ کسی اور شہر کے گھنٹے چاہیں تو شہروں کے طول کے جدول سے اس کے اور رقہ کے طول کا فرق لیں اور اسے پندرہ سے تقسیم کریں، تو حاصل فاصلے کے گھنٹے ہوں گے۔ اگر شہر کا طول رقہ سے زیادہ ہو تو یہ گھنٹے معتدل گھنٹوں سے گھٹائے جاتے ہیں، کیونکہ وہ شہر مشرق کی طرف ہے؛ اور اگر کم ہو تو جمع کیے جاتے ہیں۔ {cite:zij-sabi-nallino-byblion p.109}۔"
+wings: [ideas]
+themes: [astronomy-and-timekeeping, mathematics]
+sources: [source/zij-sabi-nallino-byblion]
+relations:
+  - { type: part_of, target: work/al-zij-al-sabi, sources: [source/zij-sabi-nallino-byblion] }
+provenance:
+  layer: own-research
+  source: "al-Zij al-Sabi, Arabic text ed. C. A. Nallino (Byblion, Jbeil 2005), OCR of the local copy, chapter 30 (scan pages 80 to 98, printed pages 76 to 94), read page by page"
+  generated_by: "Claude Haiku 5.5"
+  model: claude-haiku-5-5
+  run: zij-sabi-8
+status: { review: draft, completeness: 2, generated_by: "Claude Haiku 5.5 (book mining, lane A2)" }

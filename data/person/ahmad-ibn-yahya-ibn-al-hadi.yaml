@@ -1,0 +1,38 @@
+id: person/ahmad-ibn-yahya-ibn-al-hadi
+class: person
+label:
+  ar: "أحمد بن يحيى، ابن الهادي"
+  en: "Ahmad ibn Yahya, son of al-Hadi"
+  ur: "احمد بن یحییٰ، ہادی کے بیٹے"
+summary:
+  ar: "ابن الإمام الهادي، صحبه إلى نجران سنة 294هـ، وأرسله لصرف بني ربيعة من راحة فصرفهم وجاء بهم إليه."
+  en: "Son of the imam al-Hadi, who accompanied him to Najran in 294 AH; sent to turn Banu Rabi'a away from Raha, he brought them back to his father."
+  ur: "امام ہادی کے بیٹے؛ 294ھ میں نجران میں ان کے ساتھ گئے، اور بنی ربیعہ کو راحہ سے موڑنے کے لیے بھیجے گئے تو انہیں واپس ہادی کے پاس لائے۔"
+gender: male
+roles:
+- general
+wings:
+- people
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+story_roles:
+- { role: commander, status: tradition, sources: [source/sira-hadi-ila-al-haqq] }
+relations:
+- type: child_of
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص336-338 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5)"
+  model: claude-haiku-5-5
+  run: a1-sira-p331-338-1
+status:
+  review: draft
+  completeness: 2
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 336-338"

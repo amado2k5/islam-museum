@@ -1,0 +1,56 @@
+id: event/wada-and-banu-rabia-raid-raha-and-ahmad-ibn-yahya-disperses-them-sha-ban-294
+class: event
+kind: other
+label:
+  ar: "غارة بني ربيعة والوادعيين على راحة، وصرف أحمد بن يحيى لهم، شعبان 294هـ، ص337-338"
+  en: "The raid of Banu Rabi'a and Wada'a on Raha, and Ahmad ibn Yahya disperses them, Sha'ban 294 AH, pp. 337-338"
+  ur: "بنی ربیعہ اور وادعہ کا راحہ پر حملہ، اور احمد بن یحییٰ کا انہیں منتشر کرنا، شعبان 294ھ، ص337-338"
+summary:
+  ar: "أمر عبد الله بن بسطام والوادعيون بالغارة على راحة، فاشتبك الفريقان، فأرسل الهادي ابنه أحمد بن يحيى فصرف بني ربيعة ومن معهم إليه."
+  en: "Abdallah ibn Bistam and Wada'a ordered a raid on Raha, the sides fought, and al-Hadi sent his son Ahmad ibn Yahya, who turned Banu Rabi'a and their companions back to his father."
+  ur: "عبداللہ بن بسطام اور وادعہ نے راحہ پر حملے کا حکم دیا، دونوں فریق لڑ پڑے، اور ہادی نے بیٹے احمد بن یحییٰ کو بھیجا جنہوں نے بنی ربیعہ اور ان کے ساتھیوں کو واپس موڑ کر والد کے پاس لایا۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+- civil-wars-and-revolts
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0907-05"
+    hijri: "0294-08"
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: "شعبان سنة 294هـ؛ يبدأ الشهر الجدولي في 17 مايو 907م ويمتد إلى يونيو؛ الشهر مشتق من التقويم الجدولي ولا يحدد الكتاب يوماً إلا في موضع واحد."
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/abdallah-ibn-bistam-al-harithi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ahmad-ibn-yahya-ibn-al-hadi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-shakir
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص337-338 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5)"
+  model: claude-haiku-5-5
+  run: a1-sira-p331-338-1
+status:
+  review: draft
+  completeness: 2
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 337-338"

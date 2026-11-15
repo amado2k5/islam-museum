@@ -1,0 +1,20 @@
+id: concept/zij-sabi-rising-time-difference-between-two-degrees
+class: concept
+kind: scientific
+label: { ar: "فرق زمن المطالع بين درجتين", en: "The difference in rising time between two degrees", ur: "دو درجوں کے مطالع کے وقت کا فرق" }
+summary:
+  ar: "لمعرفة ما بين درجتين من زمن معدل النهار، تُعرف أولاً بعد الدرجة المقدمة عن الوتد، ثم تُعرف الدرجة التالية فإن كانت في نصف الفلك الشرقي أُخذ بعد ما بين الدرجتين بمطالع الفلك المستقيم وبمطالع الإقليم المحدود، فإن استوى المددان فهو بعد الدرجة المقدمة عن التالية، وإن اختلفا أُخذ الفضل وأُخذ سدسه، وهو حصة الساعة الواحدة من الاختلاف، فاضرب في ساعات بعد الدرجة المقدمة عن الوتد المختار. {cite:zij-sabi-nallino-byblion pp.204-206}"
+  en: "To find the interval in straight-sphere time between two degrees, the distance of the earlier degree from a cusp is found first, and then the next degree. If both lie in the eastern half of the sphere, the interval between them is taken in straight-sphere risings and again in the risings of the limited clime. If the two figures agree the interval is the distance between the two degrees; if they differ, the difference is taken, its sixth found, which is the share of one hour of difference, and this is multiplied by the hours of the earlier degree from the chosen cusp. {cite:zij-sabi-nallino-byblion pp.204-206}"
+  ur: "دو درجوں کے درمیان فلکِ مستقیم کے وقت کا فرق معلوم کرنے کے لیے پہلے مقدم درجے کا وتد سے فاصلہ اور پھر اگلا درجہ معلوم کیا جاتا ہے۔ اگر دونوں فلک کے مشرقی نصف میں ہوں تو ان کا فاصلہ فلکِ مستقیم کے مطالع اور متعین اقلیم کے مطالع دونوں سے لیا جاتا ہے۔ اگر دونوں عدد برابر ہوں تو وہ دو درجوں کا فاصلہ ہے؛ اگر مختلف ہوں تو فرق لے کر اس کا سدس نکالا جاتا ہے، جو ایک گھنٹے کے فرق کا حصہ ہے، اور اسے مقدم درجے کے چُنے ہوئے وتد سے فاصلے کے گھنٹوں سے ضرب دیا جاتا ہے۔ {cite:zij-sabi-nallino-byblion pp.204-206}"
+wings: [ideas]
+themes: [astronomy-and-timekeeping, mathematics]
+sources: [source/zij-sabi-nallino-byblion]
+relations:
+  - { type: part_of, target: work/al-zij-al-sabi, sources: [source/zij-sabi-nallino-byblion] }
+provenance:
+  layer: own-research
+  source: "Chapter 55, scan 204-206: the rising time difference between two degrees"
+  generated_by: "Claude Haiku 5.5"
+  model: claude-haiku-5-5
+  run: zij-sabi-a3-4
+status: { review: draft, completeness: 2, generated_by: "Claude Haiku 5.5 (book mining, lane A3)" }

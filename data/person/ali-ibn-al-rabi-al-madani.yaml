@@ -1,0 +1,38 @@
+id: person/ali-ibn-al-rabi-al-madani
+class: person
+label:
+  ar: "علي بن الربيع المداني"
+  en: "Ali ibn al-Rabi' al-Madani"
+  ur: "علی بن الربیع المدانی"
+summary:
+  ar: "رجل بنسبة «المداني» وصفه كتاب الزيدية بأنه من أهل الفساد والإدغال على الإمام الهادي؛ أمر الهادي بحبسه في الحديد اثني عشر يوماً بالهجر ⁦(294هـ)⁩."
+  en: "A man of the nisba al-Madani, whom the Zaydi book describes as one of the people of corruption and sedition against the imam al-Hadi. Al-Hadi ordered him held in irons for twelve days at al-Hijr (294 AH)."
+  ur: "نسبت «المدانی» والا ایک شخص جسے زیدی کتاب امام ہادی کے خلاف فساد اور بدامنی کرنے والوں میں شمار کرتی ہے؛ ہادی نے اسے الہجر میں بارہ دن زنجیروں میں رکھنے کا حکم دیا ⁦(294ھ)⁩۔"
+gender: male
+roles:
+- politician
+wings:
+- people
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+story_roles:
+- { role: opponent, status: tradition, sources: [source/sira-hadi-ila-al-haqq] }
+relations:
+- type: opposed
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص336 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5)"
+  model: claude-haiku-5-5
+  run: a1-sira-p331-338-1
+status:
+  review: draft
+  completeness: 2
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 336"

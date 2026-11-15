@@ -1,0 +1,55 @@
+id: event/ali-ibn-muhammad-names-the-qarmatians-and-asks-the-imam-to-strike-them-294
+class: event
+kind: other
+label:
+  ar: "قصيدة علي بن محمد في القرامطة ودعوة الإمام إلى قتالهم، 294هـ، ص334-335"
+  en: "Ali ibn Muhammad's poem on the Qarmatians and the call to the imam to fight them, 294 AH, pp. 334-335"
+  ur: "علی بن محمد کا قرامطہ کے بارے میں قصیدہ اور امام سے ان سے لڑنے کی درخواست، 294ھ، ص334-335"
+summary:
+  ar: "تذكر القصيدة القرامطة بالفساد في الأرض وتدعو الإمام إلى الخروج لقتالهم ووعده بالنصر."
+  en: "The poem names the Qarmatians as the source of corruption in the land and calls the imam to march against them, promising him victory."
+  ur: "نظم قرامطہ کو زمین میں فساد کا سبب بتاتی ہے اور امام کو ان سے لڑنے کے لیے نکلنے اور فتح کے وعدے کی دعوت دیتی ہے۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0907"
+    hijri: "0294"
+    calendar: julian
+    precision: year
+    status: tradition
+    derived: true
+    note: "سنة 294هـ بحسب عنوان السنة في ص330 ولا يذكر الكتاب يوماً ولا شهراً لهذا الحدث؛ التحويل مشتق من التقويم الجدولي."
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/ali-ibn-muhammad-ibn-ubaydallah-al-abbasi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/qaramita
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص334-335 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5)"
+  model: claude-haiku-5-5
+  run: a1-sira-p331-338-1
+status:
+  review: draft
+  completeness: 2
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 334-335"

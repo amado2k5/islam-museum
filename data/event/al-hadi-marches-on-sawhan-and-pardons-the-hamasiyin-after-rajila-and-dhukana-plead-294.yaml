@@ -1,0 +1,55 @@
+id: event/al-hadi-marches-on-sawhan-and-pardons-the-hamasiyin-after-rajila-and-dhukana-plead-294
+class: event
+kind: other
+label:
+  ar: "الهادي يتوجه إلى سوحان فيعفو عن الحماسيين بعد شفاعة رجيلة وذكانة، شعبان 294هـ، ص338"
+  en: "Al-Hadi marches on Sawhan and pardons the Hamasiyin after Rajila and Dhukana plead, Sha'ban 294 AH, p. 338"
+  ur: "ہادی کا سوحان کی طرف بڑھنا اور رجیلہ و ذکانہ کی سفارش پر الحماسیین کو معاف کرنا، شعبان 294ھ، ص338"
+summary:
+  ar: "توجه الهادي إلى سوحان لهدمها، فشفع فيه رجيلة وذكانة، ثم عفا عن الحماسيين الذين جاء بهم ابن بسطام مستأمنين."
+  en: "Al-Hadi marched on Sawhan to raze it; Rajila and Dhukana pleaded with him, and he later pardoned the Hamasiyin, whom Ibn Bistam brought to him seeking safety."
+  ur: "ہادی سوحان کو گرانے کے لیے بڑھے؛ رجیلہ اور ذکانہ نے سفارش کی، اور بعد میں انہوں نے الحماسیین کو معاف کیا جنہیں ابن بسطام امان طلب کرتے ہوئے لائے تھے۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0907-05"
+    hijri: "0294-08"
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: "شعبان سنة 294هـ؛ يبدأ الشهر الجدولي في 17 مايو 907م ويمتد إلى يونيو؛ الشهر مشتق من التقويم الجدولي ولا يحدد الكتاب يوماً إلا في موضع واحد."
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: occurred_at
+  target: place/sawhan-najran
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abdallah-ibn-bistam-al-harithi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص338 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5)"
+  model: claude-haiku-5-5
+  run: a1-sira-p331-338-1
+status:
+  review: draft
+  completeness: 2
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 338"

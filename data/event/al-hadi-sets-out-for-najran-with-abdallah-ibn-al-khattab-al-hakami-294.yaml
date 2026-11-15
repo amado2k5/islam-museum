@@ -1,0 +1,59 @@
+id: event/al-hadi-sets-out-for-najran-with-abdallah-ibn-al-khattab-al-hakami-294
+class: event
+kind: other
+label:
+  ar: "خروج الهادي إلى نجران ومعه عبد الله بن الخطاب الحكمي، 294هـ، ص335"
+  en: "Al-Hadi sets out for Najran with Abdallah ibn al-Khattab al-Hakami, 294 AH, p. 335"
+  ur: "ہادی کا عبداللہ بن الخطاب الحکمی کے ساتھ نجران کی طرف روانہ ہونا، 294ھ، ص335"
+summary:
+  ar: "خرج الهادي إلى نجران في رجب 294هـ بعساكره وأوليائه من همدان وخولان، ومعه عبد الله بن الخطاب الحكمي الوافد عليه."
+  en: "Al-Hadi set out for Najran in Rajab 294 AH with his troops and supporters from Hamdan and Khawlan, and with Abdallah ibn al-Khattab al-Hakami, who had come to him."
+  ur: "ہادی رجب 294ھ میں اپنے لشکر اور همدان و خولان کے حامیوں کے ساتھ نجران کی طرف روانہ ہوئے، ان کے ساتھ عبداللہ بن الخطاب الحکمی بھی تھے جو ان کے پاس آئے تھے۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0907-05-06"
+    hijri: "0294-07-20"
+    calendar: julian
+    precision: day
+    status: tradition
+    derived: true
+    note: "عشر بقين من رجب سنة 294هـ ⁦(ص335)⁩، وعُدّت عشرين من رجب؛ التحويل الجدولي 6 مايو 907م مشتق، والكتاب يجعل أيام الأسبوع أسبق بيوم من الجدول."
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abdallah-ibn-al-khattab-al-hakami
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-hamdan
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/khawlan-tribe
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص335 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5)"
+  model: claude-haiku-5-5
+  run: a1-sira-p331-338-1
+status:
+  review: draft
+  completeness: 2
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 335"

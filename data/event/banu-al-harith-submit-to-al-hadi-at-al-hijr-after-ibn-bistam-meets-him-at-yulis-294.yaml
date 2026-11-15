@@ -1,0 +1,56 @@
+id: event/banu-al-harith-submit-to-al-hadi-at-al-hijr-after-ibn-bistam-meets-him-at-yulis-294
+class: event
+kind: other
+label:
+  ar: "عبد الله بن بسطام يلقى الهادي بيولس، وبنو الحارث يقبلون طاعته بالهجر، 294هـ، ص336"
+  en: "Abdallah ibn Bistam meets al-Hadi at Yulis, and Banu al-Harith submit to him at al-Hijr, 294 AH, p. 336"
+  ur: "عبداللہ بن بسطام کا یولس میں ہادی سے ملنا، اور بنی الحارث کا الہجر میں اطاعت قبول کرنا، 294ھ، ص336"
+summary:
+  ar: "لقي الهادي عبد الله بن بسطام بيولس، ثم أقبلت بنو الحارث إليه بالطاعة سوى الحارث بن حميد والحماسيين."
+  en: "Al-Hadi met Abdallah ibn Bistam at Yulis; then Banu al-Harith came to him in submission, except al-Harith ibn Humayd and the Hamasiyin."
+  ur: "ہادی کی یولس میں عبداللہ بن بسطام سے ملاقات ہوئی؛ پھر بنی الحارث سوائے الحارث بن حمید اور الحماسیین کے اطاعت کے ساتھ ان کے پاس آئے۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+- civil-wars-and-revolts
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0907-05"
+    hijri: "0294-08"
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: "شعبان سنة 294هـ؛ يبدأ الشهر الجدولي في 17 مايو 907م ويمتد إلى يونيو؛ الشهر مشتق من التقويم الجدولي ولا يحدد الكتاب يوماً إلا في موضع واحد."
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abdallah-ibn-bistam-al-harithi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: group/banu-al-harith-ibn-kab
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص336 ⁦(الصفحة المطبوعة)⁩"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5)"
+  model: claude-haiku-5-5
+  run: a1-sira-p331-338-1
+status:
+  review: draft
+  completeness: 2
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 336"

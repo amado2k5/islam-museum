@@ -1,0 +1,20 @@
+id: concept/zij-sabi-solar-eclipse-approximate-table-method
+class: concept
+kind: scientific
+label: { ar: "كسوف الشمس بالجداول تقريباً", en: "The approximate table method for a solar eclipse", ur: "سورج گرہن کا جدولی تقریبی طریقہ" }
+summary:
+  ar: "لمعرفة كسوف الشمس بالجدول تقريباً تُؤخذ ساعات الاجتماع الحقيقية المعدلة عن وقت انتصاف النهار في البلد، فإن كان الاجتماع قبل انتصاف النهار نُقصت الساعات من أربع وعشرين ساعة، وإن كان بعده أُخذت الساعات بينها. ثم يُعرف اختلاف منظر القمر في الطول بالجدول الرابع المرسوم فيه اختلاف المنظر في الأقاليم، ويُقام على مسير القمر في الساعة، فيخرج ساعات الاختلاف الأول. {cite:zij-sabi-nallino-byblion pp.170-172}"
+  en: "For an approximate reading from the tables the corrected true hours of conjunction are counted from local midday. If the conjunction is before midday the hours are subtracted from twenty-four; if after, the hours between are taken. The parallax in longitude is then read from the fourth table of parallax by clime and multiplied by the Moon's hourly motion, giving the first hours of parallax. {cite:zij-sabi-nallino-byblion pp.170-172}"
+  ur: "جدولی تقریبی طریقے سے سورج گرہن معلوم کرنے کے لیے اجتماع کے تصحیح شدہ حقیقی گھنٹے مقامی دوپہر سے لیے جاتے ہیں۔ اگر اجتماع دوپہر سے پہلے ہو تو گھنٹے چوبیس میں سے گھٹائے جاتے ہیں، اور بعد ہو تو درمیانی گھنٹے لیے جاتے ہیں۔ پھر چوتھے جدول سے، جس میں اقالیم کے لحاظ سے اختلافِ منظر درج ہے، طول میں اختلافِ منظر پڑھا جاتا ہے اور چاند کی فی گھنٹہ حرکت سے ضرب دے کر پہلے اختلاف کے گھنٹے ملتے ہیں۔ {cite:zij-sabi-nallino-byblion pp.170-172}"
+wings: [ideas]
+themes: [astronomy-and-timekeeping, mathematics]
+sources: [source/zij-sabi-nallino-byblion]
+relations:
+  - { type: part_of, target: work/al-zij-al-sabi, sources: [source/zij-sabi-nallino-byblion] }
+provenance:
+  layer: own-research
+  source: "Chapter 44, scan 170-172: the approximate table method for a solar eclipse"
+  generated_by: "Claude Haiku 5.5"
+  model: claude-haiku-5-5
+  run: zij-sabi-a3-2
+status: { review: draft, completeness: 2, generated_by: "Claude Haiku 5.5 (book mining, lane A3)" }

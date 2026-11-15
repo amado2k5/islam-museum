@@ -1,0 +1,20 @@
+id: concept/zij-sabi-hijri-date-to-day-count-rule
+class: concept
+kind: scientific
+label: { ar: "قاعدة تحويل التاريخ الهجري إلى عدد الأيام", en: "The rule for turning a Hijri date into a day count", ur: "ہجری تاریخ کو دنوں کی گنتی میں بدلنے کا قاعدہ" }
+summary:
+  ar: "يعطي البتاني قاعدة لتحويل التاريخ الهجري إلى عدد الأيام: تضرب السنين التامة في ثلاثمائة وأربعة وخمسين يوماً وخمسة أسداس يوم، وتُضاف أيام الشهور الماضية، فإن بلغ المجموع المطلوب فهو عدد الأيام منذ أول الهجرة. {cite:zij-sabi-nallino-byblion p.101}."
+  en: "Al-Battani gives a rule for turning a Hijri date into a count of days: multiply the completed years by 354 and five-sixths of a day, add the days of the months that have passed, and the sum is the number of days since the start of the Hijra. {cite:zij-sabi-nallino-byblion p.101}."
+  ur: "البتانی ہجری تاریخ کو دنوں کی گنتی میں بدلنے کا قاعدہ دیتے ہیں: مکمل سالوں کو 354 دن اور پانچ چھٹے دن سے ضرب دو، گزرے ہوئے مہینوں کے دن جمع کرو، تو حاصل ہجرت کے آغاز سے اب تک کے دنوں کی تعداد ہے۔ {cite:zij-sabi-nallino-byblion p.101}۔"
+wings: [ideas]
+themes: [astronomy-and-timekeeping, mathematics]
+sources: [source/zij-sabi-nallino-byblion]
+relations:
+  - { type: part_of, target: work/al-zij-al-sabi, sources: [source/zij-sabi-nallino-byblion] }
+provenance:
+  layer: own-research
+  source: "al-Zij al-Sabi, Arabic text ed. C. A. Nallino (Byblion, Jbeil 2005), OCR of the local copy, chapter 30 (scan pages 80 to 98, printed pages 76 to 94), read page by page"
+  generated_by: "Claude Haiku 5.5"
+  model: claude-haiku-5-5
+  run: zij-sabi-7
+status: { review: draft, completeness: 2, generated_by: "Claude Haiku 5.5 (book mining, lane A2)" }
