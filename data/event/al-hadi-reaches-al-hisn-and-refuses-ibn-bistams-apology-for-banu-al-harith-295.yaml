@@ -1,0 +1,58 @@
+id: event/al-hadi-reaches-al-hisn-and-refuses-ibn-bistams-apology-for-banu-al-harith-295
+class: event
+kind: other
+label:
+  ar: "الهادي يصل الحصن ويرفض اعتذار ابن بسطام عن بني الحارث، شوال سنة 295هـ، ص354"
+  en: "Al-Hadi reaches al-Hisn and refuses Ibn Bistam's apology for Banu al-Harith, Shawwal 295 AH, p. 354"
+  ur: "ہادی کا الحصن پہنچنا اور بنو الحارث کی طرف سے ابن بسطام کی معذرت مسترد کرنا، شوال 295ھ، ص354"
+summary:
+  ar: "وصل الهادي إلى الحصن في شوال سنة 295هـ، فلقيه ابن بسطام معتذراً عن بني الحارث، فلم يقبل منه الإمام دون مسألة أبي جعفر محمد بن عبيد الله وكشف الأمور، فرجع ابن بسطام مغموماً، ثم دخل الهادي القرية ونزل في داره."
+  en: "Al-Hadi reached al-Hisn in Shawwal 295. Ibn Bistam met him and apologised for Banu al-Harith, but al-Hadi would not accept the apology without questioning Abu Ja'far Muhammad ibn Ubaydallah and clarifying the whole matter. Ibn Bistam went home downcast. Al-Hadi then entered the village and lodged in a house there."
+  ur: "ہادی شوال 295ھ میں الحصن پہنچا۔ ابن بسطام نے بنو الحارث کی طرف سے معذرت کی، مگر ابو جعفر محمد بن عبیداللہ سے پوچھ گچھ اور معاملات واضح کیے بغیر ہادی نے معذرت قبول نہ کی۔ ابن بسطام افسردہ ہو کر لوٹ گیا، پھر ہادی بستی میں داخل ہوا اور ایک گھر میں ٹھہرا۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+- battles
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0908-07/0908-08"
+    hijri: "0295-10"
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: "شوال سنة 295هـ؛ الكتاب لا يذكر يوم الوصول، والتحويل الشهري مشتق"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abdallah-ibn-bistam-al-harithi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abu-jafar-muhammad-ibn-ubaydallah-al-abbasi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/najran
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر. سيرة الهادي إلى الحق، تحقيق سهيل زكار، ص354 الصفحة المطبوعة"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5)"
+  model: claude-haiku-5-5
+  run: a1-sira-p347-354-1
+status:
+  review: draft
+  completeness: 2
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 347-354"

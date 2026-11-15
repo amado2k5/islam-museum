@@ -1,0 +1,57 @@
+id: event/al-hadi-writes-caution-and-promises-aid-to-muhammad-and-ali-295
+class: event
+kind: other
+label:
+  ar: "كتاب الهادي إلى محمد وعلي بالحزم والوعد بالنصرة، سنة 295هـ، ص351"
+  en: "Al-Hadi writes to Muhammad and Ali urging caution and promising aid, 295 AH, p. 351"
+  ur: "ہادی کا محمد اور علی کو احتیاط اور مدد کے وعدے کا خط لکھنا، 295ھ، ص351"
+summary:
+  ar: "كتب الهادي إلى محمد بن عبيد الله وابنه علي يأمرهما بالحزم والاحتراس ومدافعة القوم، ويعدهما بالنصرة، ويأمرهما بالصبر عند الشدة، فاطمأنت نفوسهما."
+  en: "Al-Hadi wrote to Muhammad ibn Ubaydallah and his son Ali ordering them to be vigilant, to hold off the rebels, to be patient in hardship, and promising them support. Their minds were eased."
+  ur: "ہادی نے محمد بن عبیداللہ اور ان کے بیٹے علی کو لکھا کہ ہوشیار رہیں، باغیوں کو روکیں، سختی میں صبر کریں، اور مدد کا وعدہ کیا۔ ان دونوں کے دل مطمئن ہو گئے۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0908~"
+    hijri: "0295"
+    calendar: julian
+    precision: year
+    status: tradition
+    derived: true
+    note: "سنة 295هـ بحسب تسلسل الرواية بعد أربعة أشهر من ذي الحجة 294هـ؛ مشتق، والكتاب لا يذكر السنة هنا"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abu-jafar-muhammad-ibn-ubaydallah-al-abbasi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ali-ibn-muhammad-ibn-ubaydallah-al-abbasi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/najran
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر. سيرة الهادي إلى الحق، تحقيق سهيل زكار، ص351 الصفحة المطبوعة"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5)"
+  model: claude-haiku-5-5
+  run: a1-sira-p347-354-1
+status:
+  review: draft
+  completeness: 2
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 347-354"

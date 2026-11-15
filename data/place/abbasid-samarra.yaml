@@ -6,8 +6,8 @@ label:
   en: Abbasid Samarra
   ur: عباسی سامراء
 summary:
-  ar: سامراء العباسية.
-  en: Abbasid Samarra; a place linked to persons via Wikidata claims.
+  ar: "مدينة بين بغداد وتكريت على شرقي دجلة، كان يقال لها سر من رأى."
+  en: "City between Baghdad and Tikrit on the east bank of the Tigris, called Sur man ra'a."
 wings:
 - place
 regions:
@@ -20,16 +20,14 @@ coordinate_note: Wikidata Q20717633 (ID held on the matching polity entity).
 external_ids:
   wikidata: Q20717633
 sources:
+- source/mujam-al-buldan-sader-1995
 - source/wikidata
 status:
   review: draft
-  completeness: 1
+  completeness: 2
 provenance:
   layer: own-research
-  generated_by: Devin
-  run: person-place-geo-merge
-  merged_from:
-  - person-place-geo-a
-  - person-place-geo-b
-  note: Semantic merge of duplicate records written by parallel enrichment runs.
-  source: Wikidata item Q20717633 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run.
+  generated_by: "Claude Haiku 5.5 (lane worker B1)"
+  model: "claude-haiku-5-5"
+  run: "b1-enrich-place-16"
+  source: "Yaqut al-Hamawi, Mu'jam al-buldan, Dar Sader 1995, vol 3 p.173 and vol 4 p.449, read in full; labels and coordinates from Wikidata Q20717633 (earlier merge run person-place-geo-merge)."

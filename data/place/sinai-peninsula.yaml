@@ -3,14 +3,14 @@ class: place
 kind: region
 label: { en: "Sinai Peninsula", ar: "شبه جزيرة سيناء" }
 summary:
-  en: "Peninsula in the Red Sea."
-  ar: "منطقة في مصر."
+  en: "Peninsula in the Red Sea; Yaqut's entry is for Sina and Tur Sina."
+  ar: "شبه الجزيرة، وعند ياقوت الجبل المعروف بالطور وموضع سينا."
 wings: [place]
 regions: [levant-iraq]
 coordinates: [29.5, 34]
 coordinate_precision: approx
 coordinate_note: "Representative point from the Wikidata item."
 external_ids: { wikidata: "Q36755", geonames: "347930" }
-sources: [source/wikidata]
-provenance: { layer: own-research, source: "Wikidata item Q36755 (labels, coordinates, description)", generated_by: "Devin (SWE-2 High)", run: "person-place-geo-c" }
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+sources: [source/mujam-al-buldan-sader-1995, source/wikidata]
+provenance: { layer: own-research, source: "Yaqut al-Hamawi, Mu'jam al-buldan, Dar Sader 1995, vol 3 p.300 and vol 4 p.48, read in full; labels and coordinates from Wikidata Q36755.", generated_by: "Claude Haiku 5.5 (lane worker B1)", model: "claude-haiku-5-5", run: "b1-enrich-place-16" }
+status: { review: draft, completeness: 2, generated_by: "Claude Haiku 5.5 (lane worker B1)" }

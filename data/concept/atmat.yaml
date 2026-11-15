@@ -1,0 +1,23 @@
+id: concept/atmat
+class: concept
+kind: natural
+label:
+  ar: "أطماط"
+  en: "Atmat (an Indian drug)"
+  ur: "اطماط ⁦(ایک ہندی دوا)⁩"
+summary:
+  ar: "دواء هندي في قوّة البوزندان، حار رطب، يزيد في الباه بحسب الكتاب، ويجب التثبّت منه حتى لا يُخلط بأطيوط {cite:canon-ibn-sina-print-v1 p.379}."
+  en: "An Indian drug with the power of buzandan. Hot and moist; the book says it increases the desire for intercourse, and warns that it must not be confused with atiyut {cite:canon-ibn-sina-print-v1 p.379}."
+  ur: "ایک ہندی دوا جس کی قوت بوزندان جیسی ہے۔ طبیعت میں گرم اور تر؛ کتاب کے مطابق یہ جماع کی رغبت بڑھاتی ہے، اور خبردار کرتی ہے کہ اسے اطیوط سے خلط نہ کیا جائے {cite:canon-ibn-sina-print-v1 p.379}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, 1999), Book II, Jumla 2, letter alif, scan page 379, read from the OCR on the harvest drive; the editor's footnote is used only for the name's identification as the Indian nut"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), lane A4"
+  model: claude-haiku-5-5
+  run: a4-canon-book2-4
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (book mining, lane A4)" }

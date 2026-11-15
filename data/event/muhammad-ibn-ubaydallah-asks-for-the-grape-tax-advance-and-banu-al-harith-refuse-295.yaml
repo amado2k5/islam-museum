@@ -1,0 +1,53 @@
+id: event/muhammad-ibn-ubaydallah-asks-for-the-grape-tax-advance-and-banu-al-harith-refuse-295
+class: event
+kind: other
+label:
+  ar: "محمد بن عبيد الله يطلب استلاف جباية العنب، وبنو الحارث يرفضون، سنة 295هـ، ص352"
+  en: "Muhammad ibn Ubaydallah asks for an advance on the grape tax and Banu al-Harith refuse, 295 AH, p. 352"
+  ur: "محمد بن عبیداللہ کا انگور کے محصول کی پیشگی وصولی مانگنا اور بنو الحارث کا انکار، 295ھ، ص352"
+summary:
+  ar: "طلب محمد بن عبيد الله من الهادي أن يُستلف نصف جباية العنب لإنزال العسكر في نجران، فأمر الهادي بذلك من الرعية كلها، فرفضت بنو الحارث وقالت إن الهادي صالحها على ألا يأخذ منها شيئاً."
+  en: "Muhammad ibn Ubaydallah asked al-Hadi how to pay the army quartered at Najran. Al-Hadi ordered that half the grape tax be taken early from all the people. Banu al-Harith refused and said that al-Hadi had made peace with them and would take nothing from them."
+  ur: "محمد بن عبیداللہ نے ہادی سے پوچھا کہ نجران میں ٹھہرے لشکر کا خرچ کیسے پورا ہو۔ ہادی نے تمام لوگوں سے انگور کے محصول کا نصف پیشگی لینے کا حکم دیا۔ بنو الحارث نے انکار کیا اور کہا کہ ہادی نے ان سے صلح کی تھی کہ کچھ نہیں لیا جائے گا۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0908~"
+    hijri: "0295"
+    calendar: julian
+    precision: year
+    status: tradition
+    derived: true
+    note: "سنة 295هـ بحسب تسلسل الرواية؛ الكتاب لا يذكر تاريخاً لهذا الطلب"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abu-jafar-muhammad-ibn-ubaydallah-al-abbasi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/najran
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر. سيرة الهادي إلى الحق، تحقيق سهيل زكار، ص352 الصفحة المطبوعة"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5)"
+  model: claude-haiku-5-5
+  run: a1-sira-p347-354-1
+status:
+  review: draft
+  completeness: 2
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 347-354"
