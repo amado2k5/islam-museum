@@ -1,0 +1,51 @@
+id: event/ibn-humayd-meets-abu-jafars-collecting-party-and-kills-nine-foot-soldiers-295
+class: event
+kind: skirmish
+label:
+  ar: "ابن حميد يلقى فرقة تحصيل أبي جعفر فيقتل تسعة من رجالتها ويأخذ ثلاثة أفراس، 295هـ"
+  en: "Ibn Humayd meets Abu Ja'far's collecting party, kills nine of its foot soldiers and takes three horses, 295 AH, pp. 365-366"
+  ur: "ابن حمید کا ابو جعفر کی وصولی ٹولی سے مقابلہ، نو پیادوں کا قتل اور تین گھوڑوں کا قبضہ، 295ھ، ص365-366"
+summary:
+  ar: "لما حان أجل أرزاق الجند ولم يصل من الجباية شيء، أشار الحسن بن أحمد البعداني ببقايا الصلح على بني الحارث، فأُرسل إليهم ثلاثة فرسان وخمسة عشر راجلاً، فلقيهم ابن حميد فقتل منهم تسعة من الرجالة، وأخذ ثلاثة أفراس، وأصاب رجلاً منهم بجراح كثيرة هو صالح بن أبي الطيب، وأفلت الباقون."
+  en: "When the soldiers' pay fell due and no revenue had come in, Hasan ibn Ahmad al-Ba'dani advised that the remnants of an old settlement be collected from Banu al-Harith. A party of three horsemen and fifteen foot soldiers was sent. Ibn Humayd met them, killed nine of the foot soldiers, took three horses, and wounded a man named Salih ibn Abi al-Tayyib badly; the rest escaped."
+  ur: "جب لشکر کی تنخواہوں کا وقت آیا اور جباہی سے کچھ نہ آیا، تو حسن بن احمد البعدانی نے مشورہ دیا کہ بنو حارث پر باقی رہ جانے والی پرانی صلح کی رقم وصول کی جائے۔ تین گھڑسوار اور پندرہ پیادے بھیجے گئے، ابن حمید نے ان سے مقابلہ کیا، نو پیادوں کو قتل کیا، تین گھوڑے لے لیے، اور صالح بن ابی الطیب نامی ایک شخص کو شدید زخمی کیا؛ باقی بچ نکلے۔"
+wings:
+- time
+themes:
+- battles
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0908-09/0908-10"
+    hijri: "0295-12"
+    calendar: julian
+    precision: month
+    status: tradition
+    derived: true
+    note: "بعد مطالبة الجند ببقايا الجباية وقبل دخول ابن حميد مكرابا؛ الكتاب لا يذكر تاريخاً يومياً هنا"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/abu-jafar-muhammad-ibn-ubaydallah-al-abbasi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/najran
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، الصفحات المطبوعة ص365-366، المسح 361-362"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5)"
+  model: claude-haiku-5-5
+  run: a1-sira-p362-369-1
+status:
+  review: draft
+  completeness: 2
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 362-369"

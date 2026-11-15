@@ -1,0 +1,60 @@
+id: event/ibn-bistam-fortifies-maynas-and-writes-to-muhammad-ibn-ubaydallah-294
+class: event
+kind: other
+label:
+  ar: "ابن بسطام يحصن ميناس ويكتب إلى محمد بن عبيد الله، سنة 294-295هـ، ص348"
+  en: "Ibn Bistam fortifies Maynas and writes to Muhammad ibn Ubaydallah, 294 to 295 AH, p. 348"
+  ur: "ابن بسطام کا میناس کو مضبوط کرنا اور محمد بن عبیداللہ کو خط لکھنا، 294 تا 295ھ، ص348"
+summary:
+  ar: "حصّن ابن بسطام ميناس، وكتب إلى محمد بن عبيد الله أنه ليس مع بني الحارث ويأم، وأنه حصّن ميناس للهادي ليقاتل فيه بني الحارث إن حدثت."
+  en: "Ibn Bistam fortified Maynas and wrote to Muhammad ibn Ubaydallah that he was not with Banu al-Harith and Ya'am, and that he had fortified Maynas for al-Hadi, so that al-Hadi could fight Banu al-Harith there if they rose."
+  ur: "ابن بسطام نے میناس کو مضبوط کیا اور محمد بن عبیداللہ کو لکھا کہ وہ بنو الحارث اور یأم کے ساتھ نہیں، اور اس نے میناس ہادی کے لیے مضبوط کیا ہے تاکہ بغاوت کی صورت میں ہادی وہیں بنو الحارث سے لڑ سکے۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0907/0908"
+    hijri: "0294"
+    calendar: julian
+    precision: year
+    status: tradition
+    derived: true
+    note: "سنة 294هـ أو 295هـ بحسب ترتيب الرواية؛ الكتاب لا يذكر تاريخاً لهذا الخطاب"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+  end:
+    hijri: "0295"
+    calendar: julian
+    precision: year
+    status: tradition
+    derived: true
+    note: "سنة 295هـ بحسب ترتيب الرواية؛ الكتاب لا يحدد السنة، والتحويل مشتق"
+relations:
+- type: had_participant
+  target: person/abdallah-ibn-bistam-al-harithi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abu-jafar-muhammad-ibn-ubaydallah-al-abbasi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/minas-najran
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر. سيرة الهادي إلى الحق، تحقيق سهيل زكار، ص348 الصفحة المطبوعة"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5)"
+  model: claude-haiku-5-5
+  run: a1-sira-p347-354-1
+status:
+  review: draft
+  completeness: 2
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 347-354"

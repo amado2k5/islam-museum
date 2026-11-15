@@ -1,0 +1,49 @@
+id: event/al-hadi-frees-the-prisoners-at-the-plea-of-two-men-of-his-circle-294
+class: event
+kind: other
+label:
+  ar: "إطلاق الهادي الأسرى بشفاعة رجلين من خاصته، سنة 294هـ، ص347"
+  en: "Al-Hadi frees the prisoners at the plea of two men of his circle, 294 AH, p. 347"
+  ur: "ہادی کا اپنے دو قریبی ساتھیوں کی سفارش پر قیدیوں کو رہا کرنا، 294ھ، ص347"
+summary:
+  ar: "شفع محمد بن الهيثم وأحمد بن الأربد المسربالي في عبد الله بن موسى الدهف العمري وأصحابه وفي الجاسيين، فأطلقهم الهادي، فصار أهل الحدث كلهم في وادي نجران وازدادوا حنقاً."
+  en: "Muhammad ibn al-Haytham and Ahmad ibn al-Arbad al-Masrabani, who had shown loyalty to al-Hadi, pleaded for Abdallah ibn Musa al-Dahhaf al-Amri, his companions and the men of the Jasiyin. Al-Hadi freed them. The men of trouble then gathered in Wadi Najran and grew more resentful."
+  ur: "محمد بن الہیثم اور احمد بن الاربد المسربانی نے، جو ہادی کے خیرخواہ تھے، عبداللہ بن موسیٰ الدہف العمری، اس کے ساتھیوں اور جاسیین کی سفارش کی۔ ہادی نے انہیں رہا کیا، مگر فتنہ انگیز لوگ وادی نجران میں جمع ہو کر مزید برہم ہو گئے۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0907~"
+    hijri: "0294"
+    calendar: julian
+    precision: year
+    status: tradition
+    derived: true
+    note: "سنة 294هـ بحسب ترتيب الكتاب بعد إطلاق القرامطة؛ الكتاب لا يذكر يوماً"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/najran
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر. سيرة الهادي إلى الحق، تحقيق سهيل زكار، ص347 الصفحة المطبوعة"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5)"
+  model: claude-haiku-5-5
+  run: a1-sira-p347-354-1
+status:
+  review: draft
+  completeness: 2
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 347-354"

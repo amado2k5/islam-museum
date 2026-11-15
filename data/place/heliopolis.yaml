@@ -3,19 +3,19 @@ class: place
 kind: site
 label: { ar: "مصر الجديدة", en: "Heliopolis", ur: "عین شمس" }
 summary:
-  ar: "موقع جغرافي."
-  en: "Site (Wikidata Q2739389)."
+  ar: "عين شمس القديمة شمال شرق الفسطاط، وتعيينها بمصر الجديدة من السجل."
+  en: "Site (Wikidata Q2739389); Yaqut describes the ancient city of Ayn Shams."
 wings: [place]
 regions: [egypt-nile]
 coordinates: [30.133333333333, 31.3]
 coordinate_precision: approx
 coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
 external_ids: { wikidata: "Q2739389" }
-sources: [source/wikidata]
+sources: [source/mujam-al-buldan-sader-1995, source/wikidata]
 provenance:
   layer: own-research
-  source: "Wikidata item Q2739389 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
-  generated_by: "Devin"
-  model: "Devin (Cognition)"
-  run: person-place-geo-b
-status: { review: draft, completeness: 1, generated_by: "Devin" }
+  source: "Yaqut al-Hamawi, Mu'jam al-buldan, Dar Sader 1995, vol 4 pp.178-179, read in full; labels and coordinates from Wikidata Q2739389 (earlier geo-enrichment run)."
+  generated_by: "Claude Haiku 5.5 (lane worker B1)"
+  model: "claude-haiku-5-5"
+  run: "b1-enrich-place-16"
+status: { review: draft, completeness: 2, generated_by: "Claude Haiku 5.5 (lane worker B1)" }

@@ -1,0 +1,23 @@
+id: concept/itabas
+class: concept
+kind: natural
+label:
+  ar: "إيطاباس"
+  en: "Itabas (the gharb tree)"
+  ur: "ایطاباس ⁦(غرب کا درخت)⁩"
+summary:
+  ar: "شجرة الغرب، وقد ذكرها الكتاب في باب الغين، وموضعها هنا يحدّد ماهيتها فقط {cite:canon-ibn-sina-print-v1 p.379}."
+  en: "The gharb tree, which the book discusses under the letter ghayn; this entry gives its identity only {cite:canon-ibn-sina-print-v1 p.379}."
+  ur: "غرب کا درخت، جس کا ذکر کتاب باب غین میں کرتی ہے؛ یہاں صرف اس کی ماہیت بیان ہوئی ہے {cite:canon-ibn-sina-print-v1 p.379}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, 1999), Book II, Jumla 2, letter alif, scan page 379, read from the OCR on the harvest drive; the editor's footnote identifies the tree as the gharb tree"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), lane A4"
+  model: claude-haiku-5-5
+  run: a4-canon-book2-4
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (book mining, lane A4)" }

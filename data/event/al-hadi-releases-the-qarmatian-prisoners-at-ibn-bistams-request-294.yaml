@@ -1,0 +1,51 @@
+id: event/al-hadi-releases-the-qarmatian-prisoners-at-ibn-bistams-request-294
+class: event
+kind: other
+label:
+  ar: "إطلاق الهادي القرامطة الأسرى بطلب ابن بسطام، سنة 294هـ، ص347"
+  en: "Al-Hadi releases the Qarmatian prisoners at Ibn Bistam's request, 294 AH, p. 347"
+  ur: "ابن بسطام کی درخواست پر ہادی کا قرامطہ قیدیوں کو رہا کرنا، 294ھ، ص347"
+summary:
+  ar: "بعد أن لم يجب الهادي ابن بسطام إلى إطلاق علي بن الربيع، طلب القرامطة الذين أخذهم الهادي، فأطلقهم وردّ معهم سفير ابن بسطام."
+  en: "After al-Hadi did not grant Ibn Bistam's request to free Ali ibn al-Rabi', Ibn Bistam asked for the Qarmatian prisoners whom al-Hadi had taken. Al-Hadi released them and sent Ibn Bistam's envoy back with them."
+  ur: "ہادی نے ابن بسطام کی علی بن الربیع کو رہا کرنے کی درخواست نہیں مانی تو ابن بسطام نے وہ قرامطی قیدی مانگے جنہیں ہادی نے پکڑا تھا۔ ہادی نے انہیں رہا کیا اور ابن بسطام کا ایلچی انہی کے ساتھ واپس بھیج دیا۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0907~"
+    hijri: "0294"
+    calendar: julian
+    precision: year
+    status: tradition
+    derived: true
+    note: "ترتيب الرواية في سنة 294هـ؛ الكتاب لا يذكر يوماً أو شهراً لهذه الواقعة"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/abdallah-ibn-bistam-al-harithi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر. سيرة الهادي إلى الحق، تحقيق سهيل زكار، ص347 الصفحة المطبوعة"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5)"
+  model: claude-haiku-5-5
+  run: a1-sira-p347-354-1
+status:
+  review: draft
+  completeness: 2
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 347-354"

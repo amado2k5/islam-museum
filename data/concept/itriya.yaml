@@ -1,0 +1,23 @@
+id: concept/itriya
+class: concept
+kind: natural
+label:
+  ar: "إطرية"
+  en: "Itriya (a strand noodle of dough)"
+  ur: "اطریہ ⁦(آٹے کی دھاگہ نما غذا)⁩"
+summary:
+  ar: "نوع من المطبوخ من العجين يُشبه السيور، يُطبخ في الماء باللحم أو بغيره، حارّة الطبع مفرطة الرطوبة، بطيئة الانهضام والانحدار عن المعدة، وتنفع الرئة والسعال ونفث الدم إذا طُبخت ببقلة الحمقاء {cite:canon-ibn-sina-print-v1 p.380}."
+  en: "A cooked food of dough, strand-shaped, boiled in water with or without meat. Hot, with excessive moisture; slow to digest and to leave the stomach. The book says it helps the lung, cough and spitting of blood, especially when cooked with hamqa' greens {cite:canon-ibn-sina-print-v1 p.380}."
+  ur: "آٹے سے بنی ہوئی ایک پکی ہوئی غذا، دھاگوں کی شکل کی، جو گوشت کے ساتھ یا بغیر پانی میں پکائی جاتی ہے۔ طبیعت میں گرم اور رطوبت حد سے زیادہ؛ ہضم اور معدے سے اترنے میں سست۔ کتاب کے مطابق یہ پھیپھڑے، کھانسی اور خون تھوکنے میں نفع دیتی ہے، خاص کر بقلۃ الحمقاء کے ساتھ پکائی جائے {cite:canon-ibn-sina-print-v1 p.380}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, 1999), Book II, Jumla 2, letter alif, scan page 380, read from the OCR on the harvest drive; the editor's footnote gives the short identity 'a flour food like threads'; the OCR line on its excretory effect is garbled and is left out"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), lane A4"
+  model: claude-haiku-5-5
+  run: a4-canon-book2-4
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (book mining, lane A4)" }

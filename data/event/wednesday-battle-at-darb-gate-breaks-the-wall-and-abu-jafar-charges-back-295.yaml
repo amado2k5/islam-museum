@@ -1,0 +1,55 @@
+id: event/wednesday-battle-at-darb-gate-breaks-the-wall-and-abu-jafar-charges-back-295
+class: event
+kind: battle
+label:
+  ar: "القتال عند باب الدرب يوم الأربعاء: هدم الجدار وحملة أبي جعفر، 295هـ"
+  en: "Battle at the Darb gate on Wednesday, 21 Dhu al-Hijja 295 AH: the wall breaks and Abu Ja'far's men charge back, p. 368"
+  ur: "بدھ کو درب کے دروازے پر لڑائی: دیوار کا ٹوٹنا اور ابو جعفر کے لوگوں کا جوابی حملہ، 21 ذوالحجہ 295ھ، ص368"
+summary:
+  ar: "يوم الأربعاء سار ابن حميد بجميع بني الحارث، فالتحم القتال عند باب الدرب، وهدموا جانباً من القرية فتحول القتال إليه، وأبلى فيه أحمد بن عبد الله. ثم حمل أبو جعفر بجماعة من خدمه فطردوا القوم من الجدار، وأعادوا بناء ما هدموه بعد انصرافهم."
+  en: "On Wednesday Ibn Humayd led all of Banu al-Harith forward, and the fighting at the Darb gate became general. They broke down part of the village wall, and the fighting moved to the breach. Ahmad ibn Abdallah distinguished himself there. Abu Ja'far then charged with a group of his servants and drove the enemy back from the wall; after they withdrew, the defenders rebuilt what had been broken."
+  ur: "بدھ کو ابن حمید نے بنو حارث کے سب آدمیوں کو لے کر پیش قدمی کی، اور درب کے دروازے پر لڑائی عام ہو گئی۔ انہوں نے گاؤں کی دیوار کا ایک حصہ توڑ دیا اور لڑائی اس ٹوٹے ہوئے حصے کی طرف منتقل ہو گئی۔ وہاں احمد بن عبداللہ نے نمایاں کارکردگی دکھائی۔ پھر ابو جعفر اپنے کچھ خدمت گاروں کے ساتھ حملہ آور ہوا اور دشمن کو دیوار سے ہٹا دیا؛ ان کے واپس جانے کے بعد ٹوٹا ہوا حصہ دوبارہ بنایا گیا۔"
+wings:
+- time
+themes:
+- battles
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0908-09-26"
+    hijri: "0295-12-21"
+    calendar: julian
+    precision: day
+    status: tradition
+    derived: true
+    note: "يوم الأربعاء 21 ذي الحجة 295هـ، مشتق من تسلسل الأيام في النص"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/abu-jafar-muhammad-ibn-ubaydallah-al-abbasi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/ali-ibn-muhammad-ibn-ubaydallah-al-abbasi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/najran
+  sources:
+  - source/sira-hadi-ila-al-haqq
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، الصفحات المطبوعة ص368، المسح 364-364"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5)"
+  model: claude-haiku-5-5
+  run: a1-sira-p362-369-1
+status:
+  review: draft
+  completeness: 2
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 362-369"

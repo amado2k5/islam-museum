@@ -1,0 +1,50 @@
+id: event/al-hadi-moves-against-the-fort-of-al-liwa-on-2-dhu-al-qada-295
+class: event
+kind: other
+label:
+  ar: "الهادي يتوجه إلى حصن اللواء يوم الأحد 2 ذي القعدة سنة 295هـ، ص354"
+  en: "Al-Hadi moves against the fort of al-Liwa on Sunday, 2 Dhu al-Qa'da 295 AH, p. 354"
+  ur: "ہادی کا اتوار 2 ذوالقعدہ 295ھ کو اللواء کے قلعے کی طرف جانا، ص354"
+summary:
+  ar: "بعد أيام في الهجر خرج الهادي يوم الأحد في ذي القعدة إلى الموضع الذي تحصنت فيه بنو الحارث، وهو جبل وعر يقال له اللواء، وكانت بنو الحارث تظن أنه لا يقدر عليها فيه أحد."
+  en: "After some days at al-Hijr, al-Hadi went out on Sunday, two days into Dhu al-Qa'da, to the place where Banu al-Harith had fortified themselves, a rugged mountain called al-Liwa, which they believed no one could reach."
+  ur: "الہجر میں کچھ دن ٹھہرنے کے بعد ہادی ذوالقعدہ کی دو تاریخ، اتوار کو اس جگہ کی طرف نکلا جہاں بنو الحارث نے پناہ لی تھی، یعنی اللواء نامی ایک دشوار گزار پہاڑ، جس کے بارے میں ان کا خیال تھا کہ وہاں کوئی نہیں پہنچ سکتا۔"
+wings:
+- time
+themes:
+- battles
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0908-08-03"
+    hijri: "0295-11-02"
+    calendar: julian
+    precision: day
+    status: tradition
+    derived: true
+    note: "الكتاب يذكر يوم الأحد لليومين الداخلين من ذي القعدة سنة 295هـ؛ التحويل الجدولي يعطي 3 أغسطس 908م وهو يوم الأربعاء، فيُسجل اليوم كما ورد في الكتاب والفرق مذكور في ملاحظات المدقق"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+relations:
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/najran
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر. سيرة الهادي إلى الحق، تحقيق سهيل زكار، ص354 الصفحة المطبوعة"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5)"
+  model: claude-haiku-5-5
+  run: a1-sira-p347-354-1
+status:
+  review: draft
+  completeness: 2
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 347-354"

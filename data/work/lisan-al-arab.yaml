@@ -1,17 +1,18 @@
 id: work/lisan-al-arab
 class: work
 kind: book
-label: { ar: "لسان العرب", en: "Lisan al-Arab" }
+label: { ar: "لسان العرب", en: "Lisan al-Arab", ur: "لسان العرب" }
 summary:
-  ar: "بطاقة أولية للسان العرب لابن منظور، أوسع معاجم اللغة العربية من القرن الثالث عشر؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for Ibn Manzur's Lisan al-Arab, the largest dictionary of the Arabic language from the thirteenth century; its sources are not yet checked on the page."
+  ar: "لسان العرب لابن منظور، معجم اللغة العربية الكبير الذي جمع فيه مؤلفه، كما تذكر ترجمته، بين التهذيب والمحكم والصحاح والجمهرة والنهاية وحاشية الصحاح، ورتّبه على ترتيب الصحاح؛ وقد قرأ هذا التحرير المقدمات والتراجم فقط من طبعة دار صادر {cite:lisan-al-arab-dar-sadir p. 4}."
+  en: "Ibn Manzur's Lisan al-Arab, a large dictionary of the Arabic language that, as its author's biographers record, gathers the Tahdhib, the Muhkam, the Sihah, the Jamhara, the Nihaya and the margins of the Sihah, arranged in the order of the Sihah. This draft reads only the front matter of the Dar Sadir edition {cite:lisan-al-arab-dar-sadir p. 4}."
 wings: []
-sources: [source/al-aalam, source/al-mutun-al-ilmiyya-azhar]
+authors: [person/ibn-manzur]
+sources: [source/lisan-al-arab-dar-sadir, source/al-aalam, source/al-mutun-al-ilmiyya-azhar]
 external_ids: { wikidata: "Q3786648" }
 provenance:
   layer: own-research
-  source: "Wikidata candidate; work attested in lexicographic histories — entry not yet checked on the page"
-  generated_by: "Devin (SWE-2 High)"
-  model: "SWE-2 High"
-  run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  source: "Wikidata candidate (wave 2 import, as first recorded); front matter read in packet c2-work-4 from source/lisan-al-arab-dar-sadir (title page, publishers' note, biography and first-edition preface); the earlier draft card (source/al-aalam) is kept as a cited source"
+  generated_by: "Claude Haiku 5.5"
+  model: "claude-haiku-5-5"
+  run: "c2-work-4"
+status: { review: draft, completeness: 2, generated_by: "Claude Haiku 5.5 (lane C2, packet c2-work-4)" }

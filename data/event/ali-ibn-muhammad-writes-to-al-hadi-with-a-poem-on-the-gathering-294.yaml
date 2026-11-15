@@ -1,0 +1,64 @@
+id: event/ali-ibn-muhammad-writes-to-al-hadi-with-a-poem-on-the-gathering-294
+class: event
+kind: other
+label:
+  ar: "علي بن محمد يكتب إلى الهادي بقصيدة عن الاجتماع، سنة 294-295هـ، ص348-350"
+  en: "Ali ibn Muhammad writes to al-Hadi with a poem on the gathering of the tribes, 294 to 295 AH, pp. 348 to 350"
+  ur: "علی بن محمد کا ہادی کو اجتماع کے بارے میں خط اور نظم لکھنا، 294 تا 295ھ، ص348 تا 350"
+summary:
+  ar: "كتب علي بن محمد إلى الهادي بخبر اجتماع بني الحارث ويأم، وكتب في أسفل كتابه قصيدة يستعجله فيها إلى نجران قبل أن يستحكم أمر القوم، ويعدّد القبائل المجتمعة عليهم والقبائل الناصرة لأهل البيت."
+  en: "Ali ibn Muhammad wrote to al-Hadi about the gathering of Banu al-Harith and Ya'am, and added at the foot of the letter a poem urging al-Hadi to come to Najran before the rebels could consolidate. It names the tribes gathered against them and the tribes that support the family of the Prophet."
+  ur: "علی بن محمد نے ہادی کو بنو الحارث اور یأم کے اجتماع کی خبر لکھی اور خط کے آخر میں ایک نظم شامل کی جس میں ہادی سے جلد نجران پہنچنے کی درخواست ہے، قبل اس کے کہ باغی مضبوط ہو جائیں۔ نظم میں ان قبیلوں کے نام ہیں جو ان کے خلاف جمع ہوئے اور جو اہلِ بیت کی مدد کرتے ہیں۔"
+wings:
+- time
+themes:
+- politics-governance-and-authority
+periods:
+- period/abbasid-fragmentation
+regions:
+- arabia
+date:
+  start:
+    edtf: "0907/0908"
+    hijri: "0294"
+    calendar: julian
+    precision: year
+    status: tradition
+    derived: true
+    note: "بعد خبر ذي الحجة 294هـ؛ الكتاب لا يذكر تاريخ الخطاب"
+    sources:
+    - source/sira-hadi-ila-al-haqq
+  end:
+    hijri: "0295"
+    calendar: julian
+    precision: year
+    status: tradition
+    derived: true
+    note: "سنة 295هـ بحسب ترتيب الرواية؛ الكتاب لا يحدد السنة، والتحويل مشتق"
+relations:
+- type: had_participant
+  target: person/ali-ibn-muhammad-ibn-ubaydallah-al-abbasi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/abu-jafar-muhammad-ibn-ubaydallah-al-abbasi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: had_participant
+  target: person/al-hadi-yahya-al-rassi
+  sources:
+  - source/sira-hadi-ila-al-haqq
+- type: occurred_at
+  target: place/najran
+sources:
+- source/sira-hadi-ila-al-haqq
+provenance:
+  layer: own-research
+  source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر. سيرة الهادي إلى الحق، تحقيق سهيل زكار، ص348 إلى ص350 الصفحات المطبوعة"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5)"
+  model: claude-haiku-5-5
+  run: a1-sira-p347-354-1
+status:
+  review: draft
+  completeness: 2
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5); from Sirat al-Hadi ila al-Haqq, ed. Suhayl Zakkar, printed pp. 347-354"

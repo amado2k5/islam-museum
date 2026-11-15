@@ -3,18 +3,18 @@ class: place
 kind: city
 label: { ar: "قيصرية ⁦(مزاكا)⁩", en: "Caesarea of Cappadocia" }
 summary:
-  ar: "مدينة في تركيا الحديثة."
+  ar: "مدينة كبيرة في بلاد الروم، كرسي ملوك السلاجقة بالروم عند ياقوت."
   en: "Ancient city of Cappadocia in modern-day Turkey."
 wings: [place]
 coordinates: [38.722500000000004, 35.487500000000004]
 coordinate_precision: locality
 coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
 external_ids: { wikidata: "Q10439273" }
-sources: [source/wikidata]
+sources: [source/mujam-al-buldan-sader-1995, source/wikidata]
 provenance:
   layer: own-research
-  source: "Wikidata item Q10439273 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
-  generated_by: "Devin"
-  model: "Devin (Cognition)"
-  run: battles-geo-places-1
-status: { review: draft, completeness: 1, generated_by: "Devin" }
+  source: "Yaqut al-Hamawi, Mu'jam al-buldan, Dar Sader 1995, vol 4 p.421, read in full; labels, description and coordinates from Wikidata Q10439273."
+  generated_by: "Claude Haiku 5.5 (lane worker B1)"
+  model: "claude-haiku-5-5"
+  run: "b1-enrich-place-16"
+status: { review: draft, completeness: 2, generated_by: "Claude Haiku 5.5 (lane worker B1)" }
