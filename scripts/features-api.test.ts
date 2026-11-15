@@ -375,10 +375,12 @@ describe("one API export per browser or explorer (AGENTS.md: every feature is gr
       "يبعث نبي من الحرم على صفته",
       "ما شأن الناس حلوا ولم تحل من عمرتك قال فلا أحل حتى أحل من الحج",
       "يطوف الرجل بالبيت ما كان حلالا حتى يهل بالحج",
+      "وقال مالك أكره للحلال والحرام أن يحتش في الحرم",
       "وقلنا لا يحل الدين بالفلس",
     ].entries()) expect(halalSignalsOf(mk(`passage/sensefp-${i}`, "work/tabari", t, { ref: String(i) }) as any)).toEqual([]);
     // The same words in a ruling still count.
     expect(halalSignalsOf(mk("passage/sense-keep-1", "work/tabari", "لا يحل لامرأة أن تسافر إلا مع ذي محرم", { ref: "k1" }) as any)).toEqual(expect.arrayContaining(["la-yahill"]));
+    expect(halalSignalsOf(mk("passage/sense-keep-3", "work/tabari", "هذا بيان للحلال والحرام في البيوع", { ref: "k3" }) as any)).toEqual(["halal", "haram"]);
     expect(halalSignalsOf(mk("passage/sense-keep-2", "work/tabari", "خمس قتلهن حلال في الحرم", { ref: "k2" }) as any)).toEqual(["halal"]);
     // Subjects: what the lawful or unlawful is about, read from the passage's own text; several may apply; `other` when none.
     expect(items.find((i) => i.id === "passage/quran-5-90x")).toMatchObject({ section: "quran", halal_kind: null, signals: [], subjects: ["drink"] });

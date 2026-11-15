@@ -104,6 +104,8 @@ open a new block on top with the new version and today's date.
 - The Safwan ibn al-Mu'attal page now points readers to the printed page 220 of al-Mubarakfuri's al-Raheeq al-Makhtum for his conduct on the Banu al-Mustaliq expedition, in Arabic, English and Urdu, so the account can be checked against the book as well as Sahih al-Bukhari.
 - **The reports on the sanctuaries of Makka and Madina stay in the Halal and Haram Browser.** The founder ruled on 15 November 2026 that they keep their own subject page. The lane notes record the ruling and which of a second reader's references were checked against the museum's records and which were not. Nothing on the site changes.
 - `AGENTS.md` gains a rule that never bends, on the founder's instruction of 15 November 2026: truth in every public claim. Anything written about the museum for an outside reader states only what the repository and the live site support that day, with figures re-read from their source and dated. Every agent checks the audit's findings for itself and updates its ledger when a change moves a figure or a claim.
+### Fixed
+- **One passage in the Halal and Haram Browser no longer carries a "lawful and unlawful" label it did not earn.** In an excerpt from al-Mudawwana, Malik speaks of "the halal and the haram" meaning the person out of ihram and the person in it, where he dislikes cutting grass in the sanctuary. The browser read the two words as the lawful and the unlawful. It now reads them in their sense there; the excerpt stays on the page for the sanctuaries of Makka and Madina, without that label, and its title and summary now say what it reports. The same two words in a sentence about rulings are still found.
 
 ## v1.32.0 — 2026-11-14
 ### Added
