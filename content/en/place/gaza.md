@@ -15,3 +15,8 @@ Gaza is a city on the coast of Palestine. The Prophet's grandfather Hashim died 
 
 ## In Nomisma
 The Nomisma numismatic vocabulary links this entry to the concept «gaza», and its linked collections record 71 coins or coin types that name it as issuer, authority or mint. {cite:nomisma gaza}
+
+## In Yaqut's Mu'jam al-buldan
+Yaqut places Gaza in the third climate, with a longitude and latitude he gives from the tables, and notes that al-Muhallabi put it with Ramla in the fourth. He describes it as a city at the far end of Syria on the Egyptian side, two farsakhs or less from Ascalon, in Palestine west of Ascalon. {cite:mujam-al-buldan-sader-1995 4 p.202}
+
+He records that Hashim ibn Abd Manaf died there and was buried there, which is why it was called Gaza of Hashim. He quotes two verses of Abu Nuwas that use the name, and reports from Ahmad ibn Yahya ibn Jabir that Hashim died at Gaza aged twenty-five, though another account gives twenty. {cite:mujam-al-buldan-sader-1995 4 p.202}

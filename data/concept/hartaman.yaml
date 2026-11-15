@@ -1,0 +1,23 @@
+id: concept/hartaman
+class: concept
+kind: natural
+label:
+  ar: "هرطمان"
+  en: "Hartaman (oats)"
+  ur: "ہرطمان ⁦(جئی)⁩"
+summary:
+  ar: "هرطمان حبّه قوته قوة الشعير، وهو متوسط بين الحنطة والشعير، وسويقه أقبض من سويق الشعير، ويجفف بلا لذع وفيه تحليل وقبض. {cite:canon-ibn-sina-print-v1 p.450}"
+  en: "Hartaman is oats; its grain has the strength of barley and sits between wheat and barley; its gruel is more astringent than barley gruel, and it dries without sting, resolving and astringent together. {cite:canon-ibn-sina-print-v1 p.450}"
+  ur: "ہرطمان جئی ہے؛ اس کا دانہ جو کی قوت رکھتا ہے اور گیہوں اور جو کے درمیان ہے؛ اس کا ستو جو کے ستو سے زیادہ قابض ہے، اور بغیر جلن کے خشک کرتا ہے، اس میں تحلیل اور قبض دونوں ہیں۔ {cite:canon-ibn-sina-print-v1 p.450}"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter dal (end) and letter ha, letter waw, scan pages 450, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); the editor's footnotes are used only for identity and name; footnotes quoting modern herbal or nutrition books are not used; measured doses, weights and quantities are left out; garbled OCR lines are left out, not guessed"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), lane A4"
+  model: claude-haiku-5-5
+  run: a4-canon-book2-9
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (book mining, lane A4)" }

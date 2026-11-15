@@ -14,7 +14,8 @@ regions: [arabia]
 died: { edtf: "620~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kitab al-Aghani (Abu al-Faraj)" }
 relations:
   - { type: lived_in, target: place/medina, sources: [source/kamil-ibn-al-athir] }
-sources: [source/kamil-ibn-al-athir]
+external_ids: { wikidata: Q12233989 }
+sources: [source/kamil-ibn-al-athir, source/wikidata-qays-ibn-al-khatim]
 provenance:
   layer: own-research
   source: "الكامل في التاريخ لابن الأثير — الحرب بين بني عمرو بن عوف، ص492"

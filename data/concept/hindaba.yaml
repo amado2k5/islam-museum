@@ -1,0 +1,23 @@
+id: concept/hindaba
+class: concept
+kind: natural
+label:
+  ar: "هندبا"
+  en: "Hindaba (endive)"
+  ur: "ہندبا ⁦(کاسنی کی قسم)⁩"
+summary:
+  ar: "الهندبا صنفان، بري وبستاني، ويجري مجرى الخسّ، وأنفعه للكبد أمرّه، ويضمّد به النقرس، ويسكّن الغثي ويقوي المعدة. {cite:canon-ibn-sina-print-v1 p.449}"
+  en: "Hindaba has two kinds, wild and garden; it is like lettuce, the most bitter is best for the liver, it is applied to gout, and it soothes nausea and strengthens the stomach. {cite:canon-ibn-sina-print-v1 p.449}"
+  ur: "ہندبا کی دو قسمیں ہیں، جنگلی اور باغی؛ یہ سلاد کے پتے کی طرح ہے، جگر کے لیے سب سے کڑی قسم بہتر ہے، گاؤٹ پر لگایا جاتا ہے، اور متلی کو سکون دیتا اور معدے کو مضبوط کرتا ہے۔ {cite:canon-ibn-sina-print-v1 p.449}"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter dal (end) and letter ha, letter waw, scan pages 449, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); the editor's footnotes are used only for identity and name; footnotes quoting modern herbal or nutrition books are not used; measured doses, weights and quantities are left out; garbled OCR lines are left out, not guessed"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), lane A4"
+  model: claude-haiku-5-5
+  run: a4-canon-book2-9
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (book mining, lane A4)" }

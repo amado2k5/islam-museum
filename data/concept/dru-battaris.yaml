@@ -1,0 +1,23 @@
+id: concept/dru-battaris
+class: concept
+kind: natural
+label:
+  ar: "درو بطارس"
+  en: "Dru battaris (oak fern)"
+  ur: "درو بطارس ⁦(بلوط کا سرخس)⁩"
+summary:
+  ar: "شيء يلتفّ على شجر البلوط العتيق يشبه السرخس، أصغر منه، وهو حار يابس، وقيل إنه ينفع من الفالج واللقوة. {cite:canon-ibn-sina-print-v1 p.446}"
+  en: "A thing that twines round old oak trees, like fern but smaller; it is hot and dry, and some say it helps paralysis and facial palsy. {cite:canon-ibn-sina-print-v1 p.446}"
+  ur: "یہ ایک پودا ہے جو پرانے بلوط کے درختوں پر لپٹتا ہے، سرخس جیسا مگر چھوٹا؛ یہ گرم اور خشک ہے، اور کہا گیا ہے کہ فالج اور لقوہ میں مفید ہے۔ {cite:canon-ibn-sina-print-v1 p.446}"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter dal (end) and letter ha, letter waw, scan pages 446 to 447, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); the editor's footnotes are used only for identity and name; footnotes quoting modern herbal or nutrition books are not used; measured doses, weights and quantities are left out; garbled OCR lines are left out, not guessed"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), lane A4"
+  model: claude-haiku-5-5
+  run: a4-canon-book2-9
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (book mining, lane A4)" }
