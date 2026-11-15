@@ -1,0 +1,104 @@
+id: invention/toledan-tables
+class: invention
+label: { ar: "الجداول الطليطلية", en: "The Toledan Tables", ur: "جداولِ طلیطلہ الفلکیاتی" }
+names:
+  - { value: "Tabulae Toletanae", kind: alternate, lang: la }
+  - { value: "زيج طليطلة", kind: alternate, lang: ar }
+summary:
+  ar: "جداول فلكية جُمعت في طليطلة من رصد الزرقالي وأقرانه نحو منتصف القرن الخامس الهجري، فوصلت أوروبا في صيغ لاتينية فصارت أساس الجداول الألفونسية؛ لا أصل عربي باقٍ تُحسم منه حصة كل عالم {cite:zarqali-mactutor biography} {cite:wikipedia-al-zarqali-en Toledo tables paragraph}."
+  en: "Astronomical tables assembled at Toledo from al-Zarqali's observations and his colleagues' around the mid-eleventh century, reaching Europe in Latin versions and becoming the basis of the Alfonsine Tables; no surviving Arabic original settles each scholar's share {cite:zarqali-mactutor biography} {cite:wikipedia-al-zarqali-en Toledo tables paragraph}."
+  ur: "طلیطلہ میں تقریباً وسط گیارہویں صدی میں زرقالی اور ساتھیوں کے ارصاد سے تیار فلکیاتی جداول جو لاطینی صورتوں میں یورپ پہنچیں اور الفونسین جداول کی بنیاد بنیں؛ عربی اصل کے نہ بچنے سے ہر عالم کا حصہ طے نہیں {cite:zarqali-mactutor biography} {cite:wikipedia-al-zarqali-en Toledo tables paragraph}۔"
+domain: astronomy-instruments
+kind: method
+disciplines: [astronomy]
+wings: [ideas]
+regions: [andalus-europe]
+periods: [period/buyid-seljuk-fatimid-era]
+themes: [astronomy-and-timekeeping]
+era:
+  origins: middle-period
+  first_attested:
+    edtf: "1050"
+    hijri: "0441"
+    calendar: julian
+    precision: year
+    status: debated
+    derived: true
+    note: "Approximate start of the solar-observation programme reported for Toledo; the hijri figure is a derived conversion. Not a composition date for the tables as a compiled work, which is later and not fixed in the sources read."
+    sources: [source/zarqali-mactutor, source/wikipedia-al-zarqali-en]
+  status_today: replaced
+origin:
+  place: place/tulaytula
+  context:
+    ar: "طليطلة مدينة أندلسية، عمل فيها الزرقالي على حسابات فلكية مبنية على رصد شمسي منذ نحو 1050 على ما تذكره المصادر؛ لم يُحدد السجل مرصدًا أو مختبرًا بعينه {cite:zarqali-mactutor biography} {cite:wikipedia-al-zarqali-en Toledo tables paragraph}."
+    en: "Toledo, an Andalusian city where al-Zarqali worked on astronomical calculations built on solar observation from about 1050, as the sources report; no particular observatory or workshop is identified {cite:zarqali-mactutor biography} {cite:wikipedia-al-zarqali-en Toledo tables paragraph}."
+    ur: "طلیطلہ، اندلس کا شہر جہاں زرقالی نے سورج کے رصد پر مبنی فلکیاتی حسابات پر کام کیا، ماخذ کے مطابق تقریباً 1050ء سے؛ کوئی خاص رصدگاہ متعین نہیں {cite:zarqali-mactutor biography} {cite:wikipedia-al-zarqali-en Toledo tables paragraph}۔"
+makers:
+  - person: person/al-zarqali
+    role: improver
+    place: place/tulaytula
+    note: "Reported builder of instruments and observer of the sun at Toledo for about a quarter century from 1050; contributor to the tables tradition, not sole author of a surviving text. His Muslim identity is documented on the person record; no personal madhhab is attested."
+    sources: [source/zarqali-mactutor, source/wikipedia-al-zarqali-en]
+attribution:
+  status: improvement
+  claim:
+    ar: "تحسين جداول فلكية سابقة برصد جديد في طليطلة، لا إنشاء فن الجداول أو أول رصد شمسي منظم."
+    en: "Improvement of earlier astronomical tables through new observation at Toledo, not the invention of tabular astronomy or of organised solar observation."
+    ur: "طلیطلہ میں نئے ارصاد سے سابق فلکیاتی جداول میں بہتری، جدولوں کی فن یا منظم شمسی رصد کی ایجاد نہیں۔"
+  basis:
+    ar: "تصف السيرة صنعه الآلات في طليطلة منذ نحو 1048–1049 وملاحظاته الشمسية نحو ربع قرن من 1050، وتذكر أن الجداول المنسوبة إليه وإلى مدرسته نُقلت لاتينية وصارت أساس الجداول الألفونسية؛ لا تبقى نسخة عربية تُحسم منها حصة كل عالم {cite:zarqali-mactutor biography} {cite:wikipedia-al-zarqali-en Toledo tables paragraph}."
+    en: "The biography reports him making instruments at Toledo from about 1048–49 and observing the sun for some quarter century from 1050, and that the tables attributed to him and his school were carried into Latin and became the basis of the Alfonsine Tables; no Arabic copy survives to settle each scholar's share {cite:zarqali-mactutor biography} {cite:wikipedia-al-zarqali-en Toledo tables paragraph}."
+    ur: "سوانح بتاتی ہیں کہ اس نے تقریباً 1048–49 سے طلیطلہ میں آلات بنائے اور 1050 سے تقریباً پچیس سال شمسی رصد کیے، اور ان اور ان کے مکتب سے منسوب جداول لاطینی میں منتقل ہو کر الفونسین جداول کی بنیاد بنے؛ عربی نسخہ نہ بچنے سے ہر عالم کا حصہ طے نہیں {cite:zarqali-mactutor biography} {cite:wikipedia-al-zarqali-en Toledo tables paragraph}۔"
+  perspectives: []
+precursors:
+  - external: { ar: "الزيج والجداول الفلكية السابقة في الإسلام والأندلس", en: "Earlier zij and astronomical tables in Islam and al-Andalus", ur: "اسلام اور اندلس میں سابق زیج اور فلکیاتی جداول" }
+    note: "The Toledo programme revised an existing tabular tradition; no single earlier table is named as its direct parent in the sources read."
+    sources: [source/zarqali-mactutor]
+  - external: { ar: "زيج البتاني ⁦(الزيج الصابي)⁩", en: "Al-Battani's Zij (the Sabian Zij)", ur: "البتانی کی زیج ⁦(الزیج الصابی)⁩" }
+    note: "Al-Battani's zij was the most influential earlier Arabic tabular model in the same tradition; the Toledo work adapts rather than replaces its methods. The museum's work record is work/al-zij-al-sabi."
+    sources: [source/zarqali-mactutor]
+dependents:
+  - external: { ar: "الجداول الألفونسية التي بنت على جداول طليطلة", en: "The Alfonsine Tables built on the Toledan Tables", ur: "الفونسین جداول جو طلیطلہ کی جداول پر مبنی ہیں" }
+    note: "Latin compilers of Alfonso X's court used the Toledan material as their basis, as the sources report."
+    sources: [source/zarqali-mactutor, source/wikipedia-al-zarqali-en]
+spread: []
+impact:
+  fields: [astronomy-instruments]
+  changed:
+    ar: "نقلت جداول طليطلة حسابات فلكية مبنية على رصد جديد من الأندلس إلى الجداول الألفونسية اللاتينية، فصارت مرجعًا أوروبيًا لأجيال {cite:wikipedia-al-zarqali-en Toledo tables paragraph} {cite:zarqali-mactutor biography}."
+    en: "The Toledan Tables carried astronomy computed from new Andalusian observation into the Latin Alfonsine Tables, which served European readers for generations {cite:wikipedia-al-zarqali-en Toledo tables paragraph} {cite:zarqali-mactutor biography}."
+    ur: "طلیطلہ کی جداول نے اندلس کے نئے ارصاد پر مبنی فلکیاتی حساب کو لاطینی الفونسین جداول تک پہنچایا، جو یورپی قارئین کے لیے نسلوں تک رہیں {cite:wikipedia-al-zarqali-en Toledo tables paragraph} {cite:zarqali-mactutor biography}۔"
+  history:
+    ar: "شاهد على انتقال علم الفلك الإسلامي-الأندلسي إلى أوروبا اللاتينية عبر الترجمة، لا على أول جداول فلكية في التاريخ {cite:zarqali-mactutor biography} {cite:wikipedia-al-zarqali-en Toledo tables paragraph}."
+    en: "A witness to the transfer of Andalusian astronomy into Latin Europe through translation, not the first astronomical tables in history {cite:zarqali-mactutor biography} {cite:wikipedia-al-zarqali-en Toledo tables paragraph}."
+    ur: "ترجمے کے ذریعے اندلسی فلکیات کے لاطینی یورپ میں منتقلی کا شاہد، تاریخ کی پہلی فلکیاتی جداول نہیں {cite:zarqali-mactutor biography} {cite:wikipedia-al-zarqali-en Toledo tables paragraph}۔"
+  significance: 3
+  why: "A documented observation programme whose tables demonstrably fed the Alfonsine tradition, while the lost Arabic original and collective authorship limit precision about individual contribution."
+described_in: []
+examples: []
+sites: [place/tulaytula]
+concepts: [concept/zij]
+today:
+  form:
+    ar: "موضوع في تاريخ الفلك القديم؛ تُعرض جداوله اليوم كخلفية للجداول الألفونسية الحديثة التراجم، لا كأداة حسابية جارية {cite:wikipedia-al-zarqali-en Toledo tables paragraph} {cite:zarqali-mactutor biography}."
+    en: "A subject in the history of ancient astronomy; its tables are presented today as background to the Alfonsine tradition, not as a working calculation tool {cite:wikipedia-al-zarqali-en Toledo tables paragraph} {cite:zarqali-mactutor biography}."
+    ur: "قدیم فلکیات کی تاریخ کا موضوع؛ آج اس کی جداول الفونسین روایت کے پس منظر کے طور پر پیش ہوتی ہیں، کام کرنے والے حسابی آلے کے طور پر نہیں {cite:wikipedia-al-zarqali-en Toledo tables paragraph} {cite:zarqali-mactutor biography}۔"
+  descendants:
+    ar: "لا يثبت السجل تسلسلًا مباشراً إلى أدوات فلكية معاصرة محددة {cite:wikipedia-al-zarqali-en Toledo tables paragraph} {cite:zarqali-mactutor biography}."
+    en: "The record establishes no direct line to any named modern astronomical instrument {cite:wikipedia-al-zarqali-en Toledo tables paragraph} {cite:zarqali-mactutor biography}."
+    ur: "یہ ریکارڈ کسی نام زدہ جدید فلکیاتی آلے تک براہ راست تسلسل ثابت نہیں کرتا {cite:wikipedia-al-zarqali-en Toledo tables paragraph} {cite:zarqali-mactutor biography}۔"
+media:
+  image: media/alfonsine-tables-pages
+  diagram: media/diagram-toledan-tables
+kids:
+  ar: "صنع الزرقالي آلات في طليطلة وقاس مواضع الشمس سنين طويلة، ثم جُمعت حساباته في جداول ساعدت الجداول الألفونسية الأوروبية."
+  en: "Al-Zarqali made instruments at Toledo and measured the Sun's positions for many years; his calculations were gathered into tables that helped Europe's Alfonsine Tables."
+  ur: "زرقالی نے طلیطلہ میں آلات بنائے اور برسوں سورج کے مقامات ناپے؛ ان کے حسابات کی جداول نے یورپ کی الفونسین جداول کی مدد کی۔"
+sources: [source/zarqali-mactutor, source/wikipedia-al-zarqali-en, source/commons-alfonsine-tables]
+status: { review: published, completeness: 3 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (Cognition) subagent devin-drafter-w2-05"
+  model: "claude-sonnet-4-5"
+  run: inventions-w2
+  source: "Read MacTutor al-Zarqali biography and Wikipedia en al-Zarqali article (life, science and Toledo-tables sections), plus existing person record and source definitions; inspected the Wikimedia Commons Alfonsine tables pages for the hero image; no Arabic original of the tables inspected."
