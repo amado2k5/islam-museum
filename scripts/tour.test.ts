@@ -236,6 +236,24 @@ describe("3d tour: page, component and nav", () => {
   });
 });
 
+describe("3d tour: location line and top buttons", () => {
+  it.skipIf(!HAS_COMPONENT)("where the top buttons can wrap, the location line follows the bar, not a fixed height", () => {
+    const comp = readFileSync("site/src/components/Tour3D.astro", "utf8");
+    // The five buttons wrap into one to four rows (by width, language and scene), so no fixed `top` clears them all.
+    // In the narrow layout the bar is in the flow and the line, with `top: auto`, takes its static position under it.
+    const narrow = /@media \(max-width: (\d+)px\) \{\s*#tour3d-root #topbar \{ position: relative; \}\s*#tour3d-root #loc \{ top: auto; margin-top: -8px; \}\s*\}/.exec(comp);
+    expect(narrow, "narrow rule for #topbar and #loc").not.toBeNull();
+    // Measured on 15 November 2026: the buttons wrap up to 774px wide (Arabic, Living Islam gallery).
+    expect(Number(narrow![1])).toBeGreaterThanOrEqual(900);
+    // The only fixed top is the wide layout's, and it comes before the narrow rule (same specificity: the later one wins).
+    const fixed = [...comp.matchAll(/#tour3d-root #loc \{[^}]*\btop: \d+px/g)];
+    expect(fixed.length, "rules that give #loc a fixed top").toBe(1);
+    expect(fixed[0].index!).toBeLessThan(narrow!.index);
+    // The bar keeps 12px of padding under the buttons; -8px leaves the line 4px clear of the last row.
+    expect(comp).toMatch(/#tour3d-root #topbar \{[^}]*padding: 12px 16px;/);
+  });
+});
+
 describe("3d tour: map, floor waypoints, room strip", () => {
   it.skipIf(!HAS_COMPONENT || !HAS_SCRIPT)("map dialog, strip nav and waypoints are wired; hidden in journeys", () => {
     const comp = readFileSync("site/src/components/Tour3D.astro", "utf8");
