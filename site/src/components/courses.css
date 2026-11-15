@@ -221,4 +221,7 @@ html.cx-present body { padding-bottom: 70px; }
   .page-banner { overflow: visible; }
   .page-banner { background: none !important; color: #000; padding-block: 0 8px; }
   .page-banner h1, .page-banner .page-lede { color: #000; }
+  /* A printed page is as narrow as a phone, so the phone layout's room for its fixed toolbar (global.css,
+     body 72px and main 76px) applies on paper and can push an empty last page out of the printer. */
+  body, main { padding-bottom: 0 !important; }
 }

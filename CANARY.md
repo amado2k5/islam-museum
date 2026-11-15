@@ -91,6 +91,13 @@ open a new block on top with the new version and today's date.
 - Twenty-four concept pages from the star catalogue at the end of al-Battani's Zij gain trilingual draft prose: the Great and Lesser Bears, the Dragon, Cepheus, the Guardian of the North, the Hen, Cassiopeia, Perseus, the Flying Eagle, Andromeda, the Triangle, the Dolphin, Cetus, the River, the Hare, the Dog, Centaurus, the Censer, the Southern Crown, the Southern Fish, and the zodiac figures of Cancer, Leo, Virgo and Libra. Each names the catalogue section that lists its stars and says where the figures sit in the printed pages; the star positions are not transcribed.
 ### Changed
 - The Safwan ibn al-Mu'attal page now points readers to the printed page 220 of al-Mubarakfuri's al-Raheeq al-Makhtum for his conduct on the Banu al-Mustaliq expedition, in Arabic, English and Urdu, so the account can be checked against the book as well as Sahih al-Bukhari.
+### Fixed
+- **Kids' Wing breadcrumbs show one separator, not two.** Pages such as the reading shelf read "Kids' Wing › / › Reading shelf", because the page wrote a slash and the stylesheet drew a chevron. Only the chevron shows now.
+- **The label above the title on a Kids' Wing reading page can be read.** "Reading at your level" was dark gold on the dark blue banner, too faint to see. It now takes the banner's own white.
+- **A printed lesson no longer ends in an empty page.** A sheet of paper is as narrow as a phone, so the room the phone layout keeps for its toolbar was added at the foot of the print-out and could spill onto a blank sheet.
+- **Arabic and Urdu record pages no longer show the English word "self-identified".** The basis of a recorded faith had no label for that value, so the raw word appeared beside the Arabic or Urdu text. It now has a label in each language. No record's classification changed.
+### Removed
+- **The "More" menu no longer links to the gift shop,** which has nothing listed yet. The link in the footer and the gift-shop section of the front door stay as they are.
 
 
 
