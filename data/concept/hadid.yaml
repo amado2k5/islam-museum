@@ -1,0 +1,23 @@
+id: concept/hadid
+class: concept
+kind: natural
+label:
+  ar: "حديد"
+  en: "Hadid (iron)"
+  ur: "حدید ⁦(لوہا)⁩"
+summary:
+  ar: "الحديد عند الكتاب ثلاثة أصناف: السابورقان وهو الفولاذ الطبيعي، والبرماهن، والفولاذ المصنوع من البرماهن. زنجاره قابض أكّال، وصدؤه بالشراب ينفع الجمرة والبثور والنقرس، وسحقه بخلّ ثقيف ينفع القيح المزمن من الأذن. وما يذكره الكتاب عن نزف الرحم والحيض والباه تقرير مُعلَّم يُعرض على الحكم."
+  en: "The book names three kinds of iron: sabur-qan, which is natural steel; barmahn; and wrought steel made from barmahn. Its rust is binding and biting. Its rust with wine helps the carbuncle, pustules and gout; crushed and boiled in strong vinegar, the vinegar helps chronic discharge from the ear. The book's report on bleeding of the womb, menses and sexual power is a labelled listing set aside for the founder's ruling."
+  ur: "کتاب لوہے کی تین قسمیں بتاتی ہے: سابورقان، جو قدرتی فولاد ہے؛ برماہن؛ اور برماہن سے بنا ہوا فولاد۔ اس کا زنگار قابض اور کاٹنے والا ہے۔ شراب کے ساتھ زنگ جمرہ، پھنسیوں اور گٹھیا میں مفید ہے؛ تیز سرکے میں کوٹ کر ابالنے سے وہ سرکہ کان کی دیرینہ رطوبت میں مفید ہے۔ رحم کے خون، حیض اور باہ کے بارے میں کتاب کا بیان نشان زدہ ہے اور بانی کے فیصلے کے لیے رکھا گیا ہے۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, scan pages 491 to 492, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); the editor's footnotes are used only for identity and name; footnotes quoting modern herbal or nutrition books are not used; measured doses, weights and quantities are left out; garbled OCR lines are left out, not guessed; womb, menses, foetus, afterbirth, semen and desire reports are kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), lane A4"
+  model: claude-haiku-5-5
+  run: a4-canon-book2-12
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (book mining, lane A4)" }
