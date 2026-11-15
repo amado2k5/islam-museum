@@ -1,0 +1,86 @@
+---
+// A subject of the Halal and Haram Browser (docs/plan/58-halal-haram-browser.md): everything the museum's sources
+// say of the lawful and the unlawful about one subject — food, drink, earnings, marriage and the rest — answers
+// first: the museum's own records, then the Qur'an's ayahs in mushaf order, then the hadith reports, the seerah and
+// the other books. Subjects are read at build time by the lexicon in scripts/halal.ts, so a book harvested later
+// lands under its subjects with no tagging step. Long subjects run over numbered pages, each a real URL readable
+// without JavaScript:  /<lang>/halal/subject/<id>/  and  /<lang>/halal/subject/<id>/<n>/ .
+import BaseLayout from "../../../../layouts/BaseLayout.astro";
+import DraftMark from "../../../../components/DraftMark.astro";
+import HalalRow from "../../../../components/HalalRow.astro";
+import HalalSubjects from "../../../../components/sig/HalalSubjects.astro";
+import { ui, LANGS, fmt, type Lang } from "../../../../lib/i18n";
+import { num } from "../../../../lib/nav";
+import { PAGE_ROWS, pageWindow } from "../../../../lib/paged";
+import { halalSubjectGroups, type HalalSection } from "../../../../lib/halal";
+
+export function getStaticPaths() {
+  return LANGS.flatMap((lang) => halalSubjectGroups.filter((g) => g.items.length > 0).flatMap((g) =>
+    Array.from({ length: Math.ceil(g.items.length / PAGE_ROWS) }, (_x, k) => ({
+      params: { lang, rest: k === 0 ? g.id : `${g.id}/${k + 1}` },
+      props: { lang, subject: g.id, pageNo: k + 1 },
+    }))));
+}
+const { lang, subject, pageNo } = Astro.props as { lang: Lang; subject: string; pageNo: number };
+const T = ui(lang);
+const G = (T as any).halal;
+const U = G.subjects_ui;
+const P = (T as any).paged;
+const S = G.subjects[subject];
+const group = halalSubjectGroups.find((g) => g.id === subject)!;
+const pages = Math.ceil(group.items.length / PAGE_ROWS);
+const from = (pageNo - 1) * PAGE_ROWS;
+const rows = group.items.slice(from, from + PAGE_ROWS);
+const base = `/${lang}/halal/subject/${subject}/`;
+const url = (n: number) => (n <= 1 ? base : `${base}${n}/`);
+const count = (s: HalalSection) => group.items.filter((i) => i.section === s).length;
+const status = fmt(U.status, { n: num(group.items.length, lang), c: num(count("curated"), lang), q: num(count("quran"), lang), s: num(count("sunnah"), lang), r: num(count("seerah"), lang), b: num(count("books"), lang) });
+// the rows of this page, cut into runs of one section so each run gets its heading
+const runs: { id: HalalSection; items: typeof rows }[] = [];
+for (const r of rows) { const last = runs[runs.length - 1]; if (last && last.id === r.section) last.items.push(r); else runs.push({ id: r.section, items: [r] }); }
+const title = `${S.title} · ${G.title}${pageNo > 1 ? ` · ${num(pageNo, lang)}` : ""}`;
+---
+<BaseLayout lang={lang} title={title} description={S.desc} path={url(pageNo)}>
+  <div class="wrap" style="padding-block:10px 20px">
+    <nav class="ui muted" aria-label={T.entity.breadcrumb} style="margin:0 0 .6rem"><a href={`/${lang}/`}>{T.entity.breadcrumb}</a> › <a href={`/${lang}/halal/`}>{G.title}</a> › <a href={`/${lang}/halal/#subjects-title`}>{U.crumb}</a> › {S.title}</nav>
+    <div data-pagefind-body={pageNo === 1 || undefined}>
+      <h1>{S.title}</h1>
+      <p style="font-size:1.2rem;max-width:var(--measure)">{S.desc}</p>
+      <p class="panel ui" style="max-width:var(--measure);border:1px solid var(--gold)">{status}</p>
+      <p class="muted" style="max-width:var(--measure)">{U.note}</p>
+    </div>
+    <DraftMark lang={lang} legend />
+    <p class="ui" style="display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;margin:1rem 0">
+      <label for="halal-filter">{G.filter_label}</label>
+      <input id="halal-filter" type="search" data-halal-filter autocomplete="off" style="font:inherit;min-height:44px;min-width:min(100%,260px);padding:6px 12px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--fg)" />
+    </p>
+    <div data-pagefind-ignore>
+      {runs.map((run) => (
+        <section data-halal-section aria-labelledby={`t-${run.id}`} style="margin:1.4rem 0">
+          <h2 id={`t-${run.id}`} style="font-size:1.1rem;margin:0 0 .6rem">{G.sections[run.id]?.title ?? run.id}</h2>
+          <ol role="list" style="list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px">
+            {run.items.map((i) => <HalalRow lang={lang} item={i} current={subject} />)}
+          </ol>
+        </section>
+      ))}
+    </div>
+    <p class="panel ui" data-halal-none hidden>{G.filter_none}</p>
+    {pages > 1 && (
+      <nav class="ui paged-nav" aria-label={P.nav_label} style="margin:1rem 0;display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px">
+        <span class="muted">{fmt(P.range, { from: num(from + 1, lang), to: num(from + rows.length, lang), total: num(group.items.length, lang) })}</span>
+        {pageNo > 1 ? <a class="chip" rel="prev" href={url(pageNo - 1)}>{P.prev}</a> : null}
+        <span style="display:inline-flex;flex-wrap:wrap;gap:4px">
+          {pageWindow(pageNo, pages).map((n) => n === pageNo
+            ? <span class="chip" aria-current="page" style="border:1px solid var(--gold)">{num(n, lang)}</span>
+            : <a class="chip" href={url(n)} aria-label={fmt(P.page_n, { n: num(n, lang) })}>{num(n, lang)}</a>)}
+        </span>
+        {pageNo < pages ? <a class="chip" rel="next" href={url(pageNo + 1)}>{P.next}</a> : null}
+      </nav>
+    )}
+    <HalalSubjects lang={lang} current={subject} compact />
+    <h2 style="font-size:1.05rem;margin:1.6rem 0 .3rem">{U.how_title}</h2>
+    <p class="muted" style="max-width:var(--measure)">{U.how}</p>
+    <p class="ui"><a href={`/${lang}/halal/`}>{G.title}</a></p>
+  </div>
+  <script src="../../../../scripts/halal-filter.ts"></script>
+</BaseLayout>

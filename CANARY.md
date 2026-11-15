@@ -13,6 +13,17 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v1.32.0 — 2026-11-14
+### Added
+- **The Halal and Haram Browser can now be browsed by subject.** A visitor who wants to know what the sources say about food, drink, earnings or marriage no longer has to search by Arabic word. The browser's home opens with a board of twelve subjects — principles, food, drink, hunting and slaughter, earnings and trade, marriage and family, dress and adornment, life, property and honour, speech and conduct, worship and vows, the sanctuaries of Makka and Madina, and other mentions — each with its own drawing, its number of records and a bar showing how many passages name the lawful, the unlawful or both. Each subject has its own page (`/ar/halal/subject/food/` and the like, in Arabic, English and Urdu) that puts answers first: the museum's own records, then the Qur'an's ayahs in mushaf order, then the hadith reports, the seerah and the other books. Every card links to its other subjects. The pages say plainly that the museum shows what the sources say and does not issue rulings.
+- `/api/v1/halal.json` gives each record its `subjects`.
+### Changed
+- Subjects are found when the site is built, by a word list read over each passage, so a book harvested later lands under its subjects with no extra step. About one passage in five matches no subject word and is listed under "Other mentions"; the list can also include a passage that names a word only in passing, and each subject page says so.
+### Fixed
+- Cards in the Halal and Haram Browser no longer show raw link markup inside a record's summary.
+### Tests
+- The detector test covers the subjects: one case for each, a passage with several subjects, a later book, and words that must not match.
+
 ## v1.31.1 — 2026-11-14
 ### Fixed
 - **The Halal and Haram Browser no longer lists ten passages that use the same Arabic roots in another sense.** A second reader's list of other meanings of the two roots was measured against every passage the browser showed. Seven were real and are now left out: being deprived of a good, the opening takbir of the prayer, the month of Muharram in a date, the sanctuary as a place, leaving the state of ihram, a debt falling due, and the kin one may not marry. The browser goes from 1,830 detected passages to 1,820, and 23 others now carry a corrected list of matched terms.

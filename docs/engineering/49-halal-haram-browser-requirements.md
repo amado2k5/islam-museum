@@ -111,6 +111,24 @@ the Sayyi'at Browser, and trade and money to the Islamic Economy Browser.
 | HH-R55 | Judgment calls recorded for the founder's audit | `docs/decisions/inbox/halal-haram-browser-scope-and-harvest.yaml` |
 | HH-R56 | Deploy readiness: nothing is live until the founder deploys; on deploy the card, the menu entry, the pages and the API appear together | post-deploy check HH-R30/R38/R40 |
 
+## 5a. Browsing by subject (added 14 November 2026)
+
+The founder asked whether a visitor who wants to know which foods are unlawful, or whether an
+act is lawful, would be helped by the browser and find it easy to use, and approved adding
+subjects ("Yes, add subjects").
+
+| ID | Requirement | How to test |
+|---|---|---|
+| HH-R57 | Every record carries one or more subjects from a fixed list of twelve: principles, food, drink, hunting-slaughter, earnings, marriage-family, dress, life-honour, conduct, worship, sanctuary, other | `subjects` in `/api/v1/halal.json` is a non-empty array of those ids on every item |
+| HH-R58 | A passage's subjects are read from its own text at build time by `SUBJECT_RE` in `scripts/halal.ts`; no per-passage tagging; a book harvested later gets its subjects the day it lands | the `features-api` test (the future-book case); no `halal-subject-` tag on any passage record |
+| HH-R59 | A curated record's subjects come from `halal-subject-<id>` tags in the graph | `grep -l halal-subject- data/concept/*.yaml` |
+| HH-R60 | The landing shows the board of subjects above the method note: one tile per subject with a drawing, a record count and a bar of lawful / both / unlawful; each tile links to the subject's page | open `/{lang}/halal/`; twelve tiles, each a link to `/{lang}/halal/subject/<id>/` |
+| HH-R61 | A subject page lists answers first: the museum's records, then the Qur'an in mushaf order, then Sunnah, seerah and other books; 75 rows a page, each page a real URL readable without JavaScript | open `/{lang}/halal/subject/food/` and `/2/`; first rows are the curated records, then ayahs from al-Baqara onward |
+| HH-R62 | Each card shows its other subjects as links | a card on the food page for the report on selling wine, carrion and swine links to Drink and to Earnings and trade |
+| HH-R63 | The board and every subject page say that the museum shows what the sources say and does not issue rulings | the text of `halal.subjects_ui.note` is on the page in all three languages |
+| HH-R64 | The subject is a description of what the source speaks about, never a ruling, and the page says how it is assigned and that the word list can miss or over-include | `halal.subjects_ui.how` on every subject page |
+| HH-R65 | Subject pages are searchable by title and description; all strings in ar, en and ur | Pagefind result for «الأطعمة»; `halal.subjects` in the three `i18n` files |
+
 ## 6. Explicitly out of scope / known limits
 
 - **Not a fatwa or ruling**: the browser lists what the sources say and who

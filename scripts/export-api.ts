@@ -25,7 +25,7 @@ import { AKHLAQ_TAG, akhlaqCorpusOf, akhlaqKindOf, akhlaqKindsOf, akhlaqSignalsO
 import { IBADAT_TAG, ibadatCorpusOf, ibadatKindOf, ibadatSignalsOf, ibadatTagSection, ibadatTopicsOf, isIbadatPassage, type IbadatKind } from "./ibadat.js";
 import { NUBUWAT_TAG, nubuwatCorpusOf, nubuwatTagSection, nubuwatTagTopics, isNubuwatPassage, nubuwatTopicsOf } from "./nubuwat.js";
 import { SAYYIAT_TAG, sayyiatCorpusOf, sayyiatKindOf, sayyiatSignalsOf, sayyiatTagSection, isSayyiatPassage, type SayyiatKind } from "./sayyiat.js";
-import { HALAL_TAG, halalCorpusOf, halalKindOf, halalSignalsOf, halalTagSection, isHalalPassage } from "./halal.js";
+import { HALAL_TAG, halalCorpusOf, halalKindOf, halalSignalsOf, halalSubjectsOf, halalTagSection, isHalalPassage } from "./halal.js";
 import { HUDUD_TAG, hududCorpusOf, hududKindOf, hududSignalsOf, hududTagSection, isHududPassage } from "./hudud.js";
 import { HISAB_TAG, hisabCorpusOf, hisabKindsOf, hisabSignalsOf, isHisabPassage, reckoningOf } from "./hisab.js";
 import { HASANAT_TAG, hasanatCorpusOf, hasanatKindOf, hasanatSignalsOf, hasanatTagSection, isHasanatPassage, type HasanatKind } from "./hasanat.js";
@@ -470,6 +470,8 @@ const FEATURE_EXPORTS: { file: string; feature: string; pick: (n: Node) => boole
         : halalTagSection(n),
       // `halal` when the passage names only the lawful, `haram` only the unlawful, `both` the two
       halal_kind: n.class === "passage" ? halalKindOf(n) : null,
+      // what the lawful or unlawful is about: food, drink, earnings, marriage-family … `other` when no subject word matched
+      subjects: halalSubjectsOf(n),
       signals: n.class === "passage" ? halalSignalsOf(n) : [],
     }) },
   { file: "hudud.json", feature: "hudud-browser",
