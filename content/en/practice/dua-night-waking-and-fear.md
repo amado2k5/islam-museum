@@ -1,0 +1,11 @@
+---
+id: practice/dua-night-waking-and-fear
+lang: en
+source_lang: ar
+translators: ["Claude Fable 5.2 (claude-fable-5-2), draft translation"]
+---
+## Summary
+What al-Nawawi gathers in three chapters: for one who wakes in the night and means to sleep again, for one restless in bed who cannot sleep, and for one frightened in his sleep. {cite:al-adhkar-nawawi-arnaut-1994 p. 95}
+
+## What al-Nawawi gathers in al-Adhkar
+In the chapter on what a person says on waking in the night and wanting to sleep again, al-Nawawi says it is recommended to remember God until sleep overcomes him {cite:al-adhkar-nawawi-arnaut-1994 p. 95}. In Sahih al-Bukhari, from Ubada ibn al-Samit, [[person/muhammad|the Prophet]] said that whoever wakes in the night and says «لا إله إلا الله وحده لا شريك له» and the rest, then says «اللهم اغفر لي» or otherwise supplicates, is answered, and if he makes ablution his prayer is accepted {cite:al-adhkar-nawawi-arnaut-1994 p. 96}. From Aisha, in Abu Dawud by a chain he did not weaken: «لا إله إلا أنت سبحانك اللهم أستغفرك لذنبي وأسألك رحمتك» {cite:al-adhkar-nawawi-arnaut-1994 p. 96}. In al-Tirmidhi by a good chain, from Abu Hurayra, one who rises from his bed in the night and returns should shake it out three times {cite:al-adhkar-nawawi-arnaut-1994 p. 96}. In Malik's Muwatta', Abu al-Darda used to rise in the depth of the night and say «نامت العيون وغارت النجوم وأنت حي قيوم» {cite:al-adhkar-nawawi-arnaut-1994 p. 97}. In the chapter for one restless in bed, he reports in Ibn al-Sunni that Zayd ibn Thabit complained of sleeplessness and the Prophet taught him words that begin «اللهم غارت النجوم وهدأت العيون»; Zayd says God removed what he felt {cite:al-adhkar-nawawi-arnaut-1994 p. 97}. Khalid ibn al-Walid likewise complained and the Prophet told him to seek refuge, at sleep, in God's perfect words from His anger and the evil of His servants, which al-Nawawi calls a mursal report, and al-Tirmidhi has another by a weak chain, which he weakened {cite:al-adhkar-nawawi-arnaut-1994 p. 97}. In the chapter on fright in sleep, from Amr ibn Shu'ayb, from his father, from his grandfather, the Prophet taught them against fright «أعوذ بكلمات الله التامة من غضبه وشر عباده», and al-Tirmidhi called it good {cite:al-adhkar-nawawi-arnaut-1994 p. 98}.

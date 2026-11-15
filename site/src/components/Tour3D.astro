@@ -634,9 +634,15 @@ body.touch #tour3d-root #hint { bottom: 214px; }
     transform: translateX(50%) translateY(12px);
   }
   #tour3d-root #journeyCard.show { transform: translateX(50%) translateY(0); }
-  /* The wrapped topbar is about 100px tall; the location line sits under it. */
-  #tour3d-root #loc { top: 104px; }
   #tour3d-root #toast { top: 140px; }
+}
+/* Where the top buttons can wrap (one to four rows, by width, language and
+   scene; measured up to 774px wide), the bar takes its place in the flow and
+   the location line, with no fixed top, sits 4px under the last row of
+   buttons, however many rows there are. Wider than this nothing changes. */
+@media (max-width: 900px) {
+  #tour3d-root #topbar { position: relative; }
+  #tour3d-root #loc { top: auto; margin-top: -8px; }
 }
 
 @media (prefers-reduced-motion: reduce) {

@@ -1,0 +1,11 @@
+---
+id: practice/dua-maghrib-and-witr
+lang: en
+source_lang: ar
+translators: ["Claude Fable 5.2 (claude-fable-5-2), draft translation"]
+---
+## Summary
+What al-Nawawi gathers in the chapters on the sunset call, after the sunset prayer and the witr prayer: the wording at the call, ten tahlils, what is recited in witr and what is said after its greeting and at its end. {cite:al-adhkar-nawawi-arnaut-1994 p. 88}
+
+## What al-Nawawi gathers in al-Adhkar
+Al-Nawawi reports in Abu Dawud and al-Tirmidhi, from Umm Salama, that [[person/muhammad|the Prophet]] taught her to say at the sunset call «اللهم هذا إقبال ليلك وإدبار نهارك وأصوات دعاتك فاغفر لي» {cite:al-adhkar-nawawi-arnaut-1994 p. 88}. In the chapter on what is said after the sunset prayer, he says that the worshipper says after every prayer the earlier remembrances, and that it is recommended to add more after the sunna prayer of sunset {cite:al-adhkar-nawawi-arnaut-1994 p. 88}. In Ibn al-Sunni's book, from Umm Salama, that when the Prophet left the sunset prayer he went in and prayed two rak'as and then, among his supplications, asked that hearts be made firm in His religion {cite:al-adhkar-nawawi-arnaut-1994 p. 88}. In al-Tirmidhi's book, from Umara ibn Shabib: whoever says ten times after the sunset prayer «لا إله إلا الله وحده لا شريك له» and the rest, God sends guards to protect him from the devil until morning {cite:al-adhkar-nawawi-arnaut-1994 p. 88}. Al-Nawawi notes al-Tirmidhi's remark that he knows of no hearing by Umara from the Prophet, and that al-Nasa'i has two routes, the second, through a man of the Ansar, being the sounder according to Ibn Asakir {cite:al-adhkar-nawawi-arnaut-1994 p. 88}. In the witr chapter he says the sunna for three rak'as is to recite three surahs, which he names by their opening words, adding the two surahs of refuge in the third {cite:al-adhkar-nawawi-arnaut-1994 p. 88}. From Ubayy ibn Ka'b, by a sound chain in Abu Dawud and al-Nasa'i, after the greeting of witr the Prophet said «سبحان الملك القدوس», three times in al-Nasa'i's and Ibn al-Sunni's version {cite:al-adhkar-nawawi-arnaut-1994 p. 89}. From Ali, at the end of his witr: «اللهم إني أعوذ برضاك من سخطك وأعوذ بمعافاتك من عقوبتك»; al-Tirmidhi called it good {cite:al-adhkar-nawawi-arnaut-1994 p. 89}.
