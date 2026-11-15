@@ -63,7 +63,7 @@ Before anything is pushed: `npm run validate` reports 0 errors, `npm test` passe
 
 The charter in `AGENTS.md` is non-negotiable and is restated here only so that no agent can claim this document replaced it:
 
-- AI output is published under `docs/agents/publication-standard.md`: it enters as `status.review: published` with a `provenance` block once it cites defined sources. No review — human or agent — gates publication.
+- AI output is published under `docs/agents/publication-standard.md`: it enters as `status.review: published` with a `provenance` block once it cites defined sources, and its sources are listed clearly on the record. No review — human or agent — gates publication, and no human read is required for a record to stand as published (founder ruling, 15 November 2026 — decision record dec-20261115-286, superseding the draft-tier ruling of 8 November 2026). Where a record's sources are difficult, that difficulty is stated on the record itself. The status language is reader-can-verify, not draft-as-awaiting-a-human: the website has done its job in attempting to collect and present the material, and future cycles may re-verify a record from other resources.
 - Qur'an text is never typed, completed or corrected; it comes only from the frozen Tanzil files and is referenced as `[[passage/quran-<sura>-<aya>|label]]`.
 - No honorifics typed anywhere; the UI renders them.
 - Arabic first: `label.ar` and `summary.ar` required; new prose goes in `content/ar/` first; English and Urdu are translations.
