@@ -1,0 +1,23 @@
+id: concept/zanjabil
+class: concept
+kind: natural
+label:
+  ar: "الزنجبيل"
+  en: "Zanjabil (ginger)"
+  ur: "زنجبیل ⁦(ادرک)⁩"
+summary:
+  ar: "الزنجبيل أصوله صغار تشبه أصول السعد، طعمه شبيه بالفلفل وأقل لطافة منه، وطبعه حار في آخر الثالثة يابس في الثانية؛ يعين على الهضم، ويحلّل النفخ، ويحفظ الذهن، وينفع من سموم الهوام. {cite:canon-ibn-sina-print-v1 p.455}"
+  en: "Zanjabil has small roots like those of sa'd, a taste like pepper but less subtle; it is hot at the end of the third degree and dry in the second. It aids digestion, dissolves flatulence, strengthens memory, and helps against the venom of vermin. {cite:canon-ibn-sina-print-v1 p.455}"
+  ur: "زنجبیل کی جڑیں سعد کی جڑوں جیسی چھوٹی ہوتی ہیں، ذائقہ کالی مرچ جیسا مگر اس سے کم لطیف؛ مزاج تیسرے درجے کے آخر میں گرم اور دوسرے میں خشک ہے۔ یہ ہضم میں مدد دیتا ہے، ہوا کو تحلیل کرتا ہے، حافظہ بڑھاتا ہے، اور زہریلے کیڑوں کے زہر میں مفید ہے۔ {cite:canon-ibn-sina-print-v1 p.455}"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter waw (end), letter zay, scan pages 455 to 456, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); the editor's footnotes are used only for identity and name; footnotes quoting modern herbal or nutrition books are not used; measured doses, weights and quantities are left out; garbled OCR lines are left out, not guessed"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), lane A4"
+  model: claude-haiku-5-5
+  run: a4-canon-book2-10
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (book mining, lane A4)" }

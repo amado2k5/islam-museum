@@ -741,3 +741,16 @@ SKIPPED person/badr-al-din-simawi: no Wikidata human item found by search on the
 SKIPPED person/badreddin-al-hasani: item Q12197662 death 1935 agrees, birth 1851 against card 1850, and the item role is writer against card scholar and teacher; not linked
 SKIPPED person/abu-l-ala-al-maarri: Wikidata item Q277073 agrees on name, both dates and role, but the card's existing summary.ar contains an ellipsis, which the scoped check rejects; the card is left unchanged on main and not packed here; the card owner must fix the ellipsis first
 EXCLUSION (proposal for the founder): al-Qasim ibn Muhammad (Q4702822) - item Q4702822 (Mansur-Billah, Imam of Yemen, 1559-1620) agrees on both dates, but the item is a Zaydi imam and the card role is prophetic-family; not linked; for the founder to rule
+ACCEPTED person/ashinas-al-turki = Q1957622 (rev 2526149572): name matches (Ashinas); Arabic label identical (أشناس التركي); death 844 agrees with card died 844; role Abbasid army commander agrees with the card role (al-Mu'tasim's mawla and commander). No sourced date changed.
+ACCEPTED person/amalric-i = Q311808 (rev 2557730353): name matches (Amalric I of Jerusalem against card Amalric I); death 1174-07-11 falls inside the card range 1173/1174; role King of Jerusalem agrees. Arabic label differs in transliteration only (card مري, item عموري). No sourced date changed.
+ACCEPTED person/ibn-hud-al-judhami = Q562333 (rev 2553828710): name matches (Arabic label identical, محمد بن يوسف بن هود); death 1238-01-13 agrees with card died 1238; role emir (ruler) agrees with the card. Not confused with other Ibn Huds because the Arabic label is identical. No sourced date changed.
+SKIPPED person/ali-ibn-al-jahm: item Q12227988 agrees on name, death 863 and role poet, but the card summary.en on main contains an ellipsis, which the scoped check rejects; the card is left unchanged and not packed here; the card owner must fix the ellipsis first
+SKIPPED person/al-khayzuran: item Q642283 death 789-11-20 agrees with card died 789 and name agrees, but the item describes a wife of al-Mahdi and de facto ruler, and does not state the card role mother of the caliphs; role not agreed; not linked, for a second look
+SKIPPED person/dhu-nuwas: item Q878766 death 530-02 against card died 525 (date conflict); not linked
+SKIPPED person/al-nasir-yusuf: no Wikidata human item matches the card name and dates (Q284750, Q293505 and Q286956 are other rulers); not linked
+SKIPPED person/al-zubayr-ibn-abd-al-muttalib: Q4831972 name agrees but the item has no date and no role on the item; not linked
+SKIPPED person/arhab-ibn-al-daam: Q124744259 has no date and no role; not linked
+SKIPPED person/balam-ibn-baura: no Wikidata human item with dates or role found by search on the card name; not linked
+SKIPPED person/husayn-ibn-al-hasan-al-alawi: no Wikidata human item with dates or role found by search on the card name; not linked
+SKIPPED person/imran-ibn-musa-al-barmaki: Q11926580 name agrees but the item has no date and no role; not linked
+NOT LOOKED UP (rate limit): the remaining 123 queue candidates of this slice were not looked up because the Wikidata API kept answering HTTP 429 from a sustained run; they stay open for the next packet and are not recorded as having no item
