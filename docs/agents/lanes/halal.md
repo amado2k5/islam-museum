@@ -134,10 +134,14 @@ hour" report (Bukhari 2434 and 6880, Abu Dawud 2017) and the sheet of Ali (Abu D
 Tirmidhi 2127) match the records' texts. Not checked, and not to be cited from this note:
 Bukhari 1870 and 6755 and Muslim 1355 and 1370 (not in the graph), the chapter titles, the
 glosses ascribed to Ibn Hajar and al-Nawawi, and the positions of the four schools on Madina,
-which rested on one secondary web page. Leads from the answer, not acted on: in
-`passage/mudawwana-halal-1-223` the phrase «للحلال والحرام» means the non-pilgrim and the
-pilgrim in ihram, so its `both` kind comes from another sense; the classical chapter titles
-for the subject are «حرمة مكة والمدينة» and «تحريم مكة والمدينة».
+which rested on one secondary web page. Acted on at the founder's word (15 November 2026): in `passage/mudawwana-halal-1-223` the
+phrase «أكره للحلال والحرام أن يحتش» means the person out of ihram and the person in it, so
+the phrasing joined the detector's other-sense list (only after a verb of dislike; «بيان للحلال
+والحرام» still counts). The passage then has no matched term, so it stays in the browser by a
+`halal-haram-browser` tag, under the sanctuary subject, with no kind; its label and summary
+were rewritten to say what it reports. A re-run of `scripts/harvest-halal-ocr.ts` must keep
+the tag and the new label. The Arabic subject title was checked against the classical chapter
+titles «حرمة مكة والمدينة» and «تحريم مكة والمدينة»: it already reads «حرمة مكة والمدينة».
 
 ## Open
 
