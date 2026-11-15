@@ -1,0 +1,105 @@
+id: invention/abu-al-salt-equatorium
+class: invention
+label:
+  { ar: "الصفيحة الجامعة لأبي الصلت ⁦(إكواتوريوم أندلسي ثالث)⁩", en: "Abu al-Salt's universal plate (a third Andalusian equatorium)", ur: "ابو الصلت کی جامع صفیحہ ⁦(تیسرا اندلسی ایکواتوریوم)⁩" }
+names:
+  - { value: "Sifat 'amal al-safiha al-jami'a", kind: alternate, lang: ar }
+  - { value: "universal plate", kind: alternate, lang: en }
+summary:
+  ar: "رسالة أبي الصلت أمية بن عبد العزيز الداني الأندلسي ⁦(ت 529هـ)⁩ في بناء واستعمال «الصفيحة الجامعة» التي تقوّم بها حركات الكواكب السبعة جميعاً؛ يصفها معجم BEA بأنها آخر الإكواتوريومات الأندلسية المعروفة الثلاثة وربما حلقة وصل بالإكواتوريومات الشرقية {cite:isi-abu-al-salt-bea works} {cite:wafayat-ayan}."
+  en: "Abu al-Salt Umayya ibn Abd al-Aziz al-Dani al-Andalusi's (d. 529 AH) treatise on building and using the 'universal plate' by which the motions of all seven planets are computed; the BEA calls it the last of the three known Andalusian equatoria and a possible link to the eastern equatoria {cite:isi-abu-al-salt-bea works} {cite:wafayat-ayan}."
+  ur: "ابو الصلت امیہ بن عبد العزیز دانی اندلسی ⁦(529ھ)⁩ کا رسالہ «جامع صفیحہ» کی تعمیر و استعمال پر جس سے ساتوں سیاروں کی حرکتیں گنی جاتی ہیں؛ BEA اسے تین معلوم اندلسی ایکواتوریومات میں آخری اور مشرقی ایکواتوریومات سے ممکنہ کڑی قرار دیتا ہے {cite:isi-abu-al-salt-bea works} {cite:wafayat-ayan}۔"
+domain: astronomy-instruments
+kind: instrument
+disciplines: [astronomy, mathematics]
+wings: [objects, ideas]
+regions: [andalus-europe, maghreb]
+periods: [period/crusades-ayyubid-mamluk]
+themes: [astronomy-and-timekeeping]
+era:
+  origins: middle-period
+  first_attested:
+    edtf: "1113~"
+    hijri: "0507~"
+    calendar: julian
+    precision: year
+    status: tradition
+    derived: true
+    note: "The treatise belongs to his writings composed after release from the Alexandria prison; the BEA dates his arrival at Mahdiyya to 1112/1113 and most of his work to the captivity and its aftermath. No exact composition date is asserted."
+    sources: [source/isi-abu-al-salt-bea]
+  status_today: transformed
+origin:
+  place: place/al-mahdiyya
+  context:
+    ar: "ألّف أبو الصلت كثيراً من كتبه في الأسر بالإسكندرية ثم استقر بالمهدية دار الزيريين؛ السياق فاطمي-زيري-حمادي لمؤسسات إسلامية سنية، والرسالة من مصنفات التي انتقلت إلى أوروبا بترجمات {cite:isi-abu-al-salt-bea biography} {cite:wafayat-ayan}."
+    en: "Abu al-Salt wrote much in Alexandria captivity then settled at Zirid Mahdiyya; the context is Fatimid-Zirid-Hammadid Islamic courts, and the treatise is among the works translated into Latin and Hebrew that carried his astronomy to Europe {cite:isi-abu-al-salt-bea biography} {cite:wafayat-ayan}."
+    ur: "ابو الصلت نے اسکندریہ کی قید میں بہت کچھ لکھا پھر زيري مہدیہ میں آباد ہوئے؛ سیاق فاطمی-زيري-حمادی دربار ہیں، اور یہ رسالہ ان تصانیف میں ہے جو لاطینی اور عبرانی ترجموں کے ذریعے یورپ پہنچیں {cite:isi-abu-al-salt-bea biography} {cite:wafayat-ayan}۔"
+makers:
+  - person: person/abu-al-salt-al-andalusi
+    role: improver
+    place: place/al-mahdiyya
+    note: "Andalusi polymath (c. 1068–1134) who described the construction and use of the universal plate in his own treatise; the equatorium family already existed (al-Khazin in 10th-century Khurasan, two earlier Andalusian instruments), so this is a documented variant within an inherited instrument family."
+    sources: [source/isi-abu-al-salt-bea, source/wafayat-ayan]
+attribution:
+  status: improvement
+  claim:
+    ar: "صمّم أبو الصلت صفيحة جامعة واحدة تقوّم بها حركات الكواكب السبعة، وهي آخر الإكواتوريومات الأندلسية الثلاثة المعروفة؛ ليست أول إكواتوريوم ولا ادعاء أولوية على كل الصفائح الموحدة."
+    en: "Abu al-Salt designed a single universal plate on which the motions of the seven planets are computed — the last of the three known Andalusian equatoria; not the first equatorium and no claim of priority over every universal plate."
+    ur: "ابو الصلت نے ایک جامع صفیحہ بنائی جس سے ساتوں سیاروں کی حرکتیں گنی جاتی ہیں — تین معلوم اندلسی ایکواتوریومات میں آخری؛ نہ پہلا ایکواتوریوم ہے نہ ہر جامع صفیحہ پر سبقت کا دعویٰ۔"
+  basis:
+    ar: "يصف BEA رسالته «صفة عمل صفيحة جامعة تقوّم بها جميع الكواكب السبعة» بوصفها آخر الإكواتوريومات الأندلسية المعروفة الثلاثة، ويلاحظ أن أبا جعفر الخازن وصف إكواتوريوماً في خراسان القرن العاشر، ولا يدعي له إبداعاً عاماً في الفلك."
+    en: "The BEA describes his treatise 'Description of the construction and use of a single plate with which the totality of the motions of the seven planets can be calculated' as the last of the three known Andalusian equatoria, notes that Abu Ja'far al-Khazin had already described an equatorium in 10th-century Khurasan, and judges Comes that he was accomplished though not innovative overall."
+    ur: "BEA اس کے رسالے «صفت عمل صفیحہ جامعہ تقوّم بہا جمیع الکواکب السبعة» کو تین معلوم اندلسی ایکواتوریومات میں آخری کہتا ہے، نوٹ کرتا ہے کہ ابو جعفر خازن نے دسویں صدی میں خراسان میں ایکواتوریوم بیان کیا تھا، اور کامس کا جائزہ ہے کہ وہ فہم مند مگر مجموعی طور پر موجد نہیں تھے۔"
+  perspectives:
+    - tradition: sunni
+      id: sunni-museum-frame
+      standing: main
+      summary:
+        ar: "الإطار السني المعلن يحفظ المساهمة المسلمة الموثقة لمؤلف عربي في بلاطات إسلامية سنية؛ لا مذهب شخصي مثبت في المصادر المقروءة."
+        en: "The declared Sunni frame preserves the documented Muslim contribution of an Arabic author at Sunni Islamic courts; no personal madhhab is attested in the sources read."
+        ur: "اعلان کردہ سنی سیاق مسلم حصہ کو محفوظ رکھتا ہے — عرب مصنف کی کارنامہ جو سنی درباروں میں wrote — پڑھے ماخذ میں ذاتی مسلک ثابت نہیں ہوتا۔"
+      sources: [source/isi-abu-al-salt-bea, source/wafayat-ayan]
+precursors:
+  - external: { ar: "إكواتوريوم الخازن في خراسان القرن العاشر وإكواتوريومات ابن السمح والزرقالي الأندلسية السابقة", en: "Al-Khazin's 10th-century Khurasan equatorium and the earlier Andalusian equatoria of Ibn al-Samh and al-Zarqali", ur: "خازن کا دسویں صدی کا خراسانی ایکواتوریوم اور ابن السمح و زرقالی کے پہلے اندلسی ایکواتوریوم" }
+    note: "The BEA explicitly places his plate last of the three known Andalusian equatoria and possibly links it to the eastern tradition; no direct copying is claimed."
+    sources: [source/isi-abu-al-salt-bea]
+dependents: []
+spread: []
+impact:
+  fields: [astronomy-instruments]
+  changed:
+    ar: "جمع حساب حركات الكواكب السبعة في صفيحة واحدة موصوفة البناء والاستعمال، ضمن تقليد الإكواتوريوم الذي اختصر به الأسطرلاب للتنبؤات الفلكية."
+    en: "Gathered the computation of the seven planets' motions into a single described plate, within the equatorium tradition that condensed the astrolabe's role in astronomical prediction."
+    ur: "ساتوں سیاروں کی حرکتوں کا حساب ایک بیان شدہ صفیحہ میں جمع کیا، ایکواتوریوم کی روایت کے اندر جس نے اسطرلاب کے فلکیاتی پیش گوئی کے کردار کو سمیٹا۔"
+  history:
+    ar: "آخر الإكواتوريومات الأندلسية المعروفة في سرد BEA، ورسالة مصنفة ترجمت علومه إلى اللاتينية والعبرانية فنقلت إلى أوروبا؛ لا قطعة باقية مؤكدة لها."
+    en: "Last of the known Andalusian equatoria in the BEA account, in a treatise whose science was carried to Europe through Latin and Hebrew translation; no surviving instrument is securely identified for it."
+    ur: "BEA کے بیانیے میں آخری معلوم اندلسی ایکواتوریوم، جس کا رسالہ لاطینی و عبرانی ترجموں سے یورپ پہنچا؛ کوئی باقی آلہ یقینی طور پر منسوب نہیں۔"
+  significance: 3
+  why: "A named author's dedicated construction-and-use treatise for a documented instrument variant, with institutional transmission evidence; bounded to one plate design, no piece and no priority claim."
+described_in: [work/sifat-amal-al-safiha-jami-abu-al-salt]
+examples: []
+sites: []
+concepts: []
+today:
+  form:
+    ar: "نموذج تاريخي لأسرة الإكواتوريوم؛ اليوم تحسب حركات الكواكب برمجيات فلكية، والصورة المعروضة آلة عائلة متأخرة لا نسختها."
+    en: "A historical model of the equatorium family; today planetary motions are computed by astronomical software, and the displayed photograph shows a later family instrument, not a copy of his plate."
+    ur: "ایکواتوریوم خاندان کا تاریخی نمونہ؛ آج سیاروں کی حرکتیں فلکیاتی سافٹ ویئر نکالتا ہے، اور دکھائی گئی تصویر خاندان کا بعد کا آلہ ہے، اس کی صفیحہ کی نقل نہیں۔"
+  descendants:
+    ar: "لا يثبت البحث المقروء نسباً مباشراً من صفيحته إلى برمجيات اليوم؛ انتقلت فكرة الأداة الواحدة الجامعة عبر الإكواتوريومات اللاحقة والترجمات."
+    en: "The sources read establish no direct lineage from his plate to today's software; the idea of one gathering instrument travelled through later equatoria and translations."
+    ur: "پڑھے ماخذ اس کی صفیحہ سے آج کے سافٹ ویئر تک براہ راست نسب ثابت نہیں کرتے؛ ایک جمع کرنے والے آلے کا خیال بعد کے ایکواتوریوم اور ترجموں سے گزرا۔"
+media: { image: media/istanbul-equatorium-brewbooks, diagram: media/diagram-abu-al-salt-equatorium }
+kids:
+  ar: "قبل آلة الحاسوب، جمع الفلكيون حسابات الكواكب في آلات نحاسية مسطحة. بنى أبو الصلت «صفيحة» واحدة يصف فيها كيف ترسم خطوط الكواكب السبعة ويقرأ منها مواقعها؛ بقيت أفكاره في رسائل قرئت في العالم الإسلامي وأوروبا."
+  en: "Before computers, astronomers gathered planetary calculations in flat brass instruments. Abu al-Salt built and described a single 'plate' on which the seven planets' lines are drawn and their positions read; his ideas travelled in treatises read across the Islamic world and Europe."
+  ur: "کمپیوٹر سے پہلے ماہرین فلکیات سیاروں کے حساب پیتل کے سپاٹ آلات میں جمع کرتے تھے۔ ابو الصلت نے ایک «صفیحہ» بنائی اور اس کا طریقہ لکھا جس پر ساتوں سیاروں کی لکیریں کھینچی جاتی ہیں اور ان کے مقام پڑھے جاتے ہیں؛ اس کے خیالات ایسے رسائل میں سفر کرتے رہے جو عالم اسلام اور یورپ میں پڑھے گئے۔"
+sources: [source/isi-abu-al-salt-bea, source/wafayat-ayan, source/commons-istanbul-equatorium]
+status: { review: published, completeness: 2, generated_by: "Devin drafter w2-07" }
+provenance:
+  layer: own-research
+  generated_by: "Devin drafter w2-07"
+  model: "SWE-2"
+  run: inventions-w2-07-drafting
+  source: "BEA biography works paragraph and life details read in full on ismi.mpiwg-berlin.mpg.de on 2026-11-15; wafayat-ayan via existing source; Istanbul equatorium Commons file page and inspected photograph. No manuscript of the safiha treatise inspected; no surviving instrument identified; no priority over earlier equatoria claimed"

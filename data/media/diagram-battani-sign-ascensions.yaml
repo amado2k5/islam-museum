@@ -1,0 +1,24 @@
+id: media/diagram-battani-sign-ascensions
+class: media
+kind: illustration
+label: { ar: "من مطالع مستقيمة إلى مطالع البتاني في أرباع الفلك", en: "From right ascensions to al-Battani's quadrant scheme", ur: "سیدھے مطالع سے بتانی کے چار کناروں کے نظام تک" }
+summary:
+  ar: "سلسلة تعليمية تبين المطالع المستقيمة والمائلة المعروفة سلفاً ثم القاعدة التناسبية للبتاني بين المطال الأربعة؛ لا ترسم مخطوطه ولا تعيد بناء جداوله."
+  en: "Teaching chain showing the earlier right and horizon ascensions, then al-Battani's proportional rule between the four cusps; it does not reproduce his manuscript or rebuild his tables."
+  ur: "تدریسی سلسلہ جو پہلے سیدھے اور افقی مطالع، پھر بتانی کے متناسب اصول کو چار کناروں کے درمیان دکھاتا ہے؛ نہ اس کا مخطوطہ نقل ہے نہ جدولوں کی بازتعمیر۔"
+license: CC0
+creator: "islam.museum"
+depicts: [invention/battani-sign-ascension-quadrants]
+alt:
+  ar: "خطان للسبب: أولاً مطالع مستقيمة ومائلة معروفة سلفاً؛ ثانياً قاعدة البتاني التناسبية للدرجات بين المطال الأربعة. لا إحداثيات ولا أرقام جدولية."
+  en: "Two-step chain: first the previously known right and oblique ascensions; second al-Battani's proportional rule for degrees between the four cusps. No coordinates or table values."
+  ur: "دو مرحلوں کا سلسلہ: پہلے پہلے سے معلوم سیدھے اور ترچھے مطالع؛ پھر چار کناروں کے درمیان درجوں کے لیے بتانی کا متناسب اصول۔ کوئی متناسقات یا جدولی اعداد نہیں۔"
+generated: { tool: "site/src/components/InventionDiagram.astro (generic chain drawn at build time)", version: "1", date: "2026-11-15" }
+sources: [source/nallino-albatenii-opus-astronomicum]
+status: { review: published, completeness: 2, generated_by: "Devin drafter w2-07" }
+provenance:
+  layer: own-research
+  generated_by: "Devin drafter w2-07"
+  model: "SWE-2"
+  run: inventions-w2-07-drafting
+  source: "Nallino ch. LV text (t.I pp.131-135) read in the archive.org OCR of the 1899-1907 edition; generic relationship diagram, not a reconstruction of historical tables"
