@@ -1,0 +1,24 @@
+id: media/diagram-hisab-al-dawr
+class: media
+kind: illustration
+label: { ar: "من الوصية المجهولة إلى جواب محلول", en: "From the unknown bequest to a solved answer", ur: "نامعلوم وصیت سے حل شدہ جواب تک" }
+summary:
+  ar: "سلسلة تعليمية تبين كيف يجعل الخوارزمي الوصية «شيئاً» مجهولاً، يتتبع ما يصير في أيدي الزوجين والورثة، ثم يجبر ويقابل؛ لا ترسم المعادلة ولا تستبدل خطواته الأصلية."
+  en: "Teaching chain showing how al-Khwarizmi makes the bequest an unknown 'thing', traces what reaches the spouses' and heirs' hands, then applies al-jabr and al-muqabala; it draws no equation and replaces none of his steps."
+  ur: "تدریسی سلسلہ جو دکھاتا ہے کہ خوارزمی وصیت کو مجہول «شیء» کیسے بناتے ہیں، دونوں فریقوں اور ورثاء کے ہاتھوں میں پہنچنے والا مال کیسے ٹریس کرتے ہیں، پھر جبر و مقابلہ کرتے ہیں؛ نہ مساوات بناتا ہے نہ ان کے مراحل بدلتا ہے۔"
+license: CC0
+creator: "islam.museum"
+depicts: [invention/hisab-al-dawr]
+alt:
+  ar: "ثلاث خطوات: الوصية مجهولة «شيء»؛ تتبع ما يصير في أيدي الطرفين؛ ثم الجبر والمقابلة فيخرج الرقم. لا أرقام من المسألة الأصلية."
+  en: "Three steps: the bequest as an unknown 'thing'; tracing what reaches each party's hands; then al-jabr and al-muqabala giving the number. No figures from the original problem."
+  ur: "تین مراحل: وصیت کو مجہول «شیء» بنانا؛ دونوں طرف پہنچنے والے مال کا سراغ؛ پھر جبر و مقابلہ سے عدد نکلنا۔ اصل مسئلے کے اعداد نہیں۔"
+generated: { tool: "site/src/components/InventionDiagram.astro (generic chain drawn at build time)", version: "1", date: "2026-11-15" }
+sources: [source/khwarizmi-jabr-cairo-1939]
+status: { review: published, completeness: 2, generated_by: "Devin drafter w2-10" }
+provenance:
+  layer: own-research
+  generated_by: "Devin drafter w2-10"
+  model: "SWE-2"
+  run: inventions-w2-10-drafting
+  source: "source/khwarizmi-jabr-cairo-1939 scan pp. 108-109, 118-121 describing the unknown-thing and tracing method; generic relationship diagram, not a reconstruction of his arithmetic"

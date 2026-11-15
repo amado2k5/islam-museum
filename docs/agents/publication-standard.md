@@ -22,8 +22,8 @@ One source is enough for any fact, **dated or not**. A second source strengthens
 
 ## `status.review`
 
-- **`published`** is the state of museum content a human has read. Human-written records enter as `status.review: published` as soon as they meet the bar above.
-- **`draft`** is the entry state of all AI-generated prose and machine translations (founder ruling, 8 November 2026): they carry a `provenance` block and are promoted to `published` only after a human read. No agent may self-promote AI output. Draft is a review state, not a judgement on quality.
+- **`published`** is the state of museum content that meets the bar above. No human read is required for a record to stand as published (founder ruling, 15 November 2026 — decision record dec-20261115-286). Human-written records enter as `status.review: published` as soon as they meet the bar.
+- **`draft`** no longer means a record awaiting a human read: the founder ruling of 8 November 2026 that made it the entry state of AI output, promotable only after a human read, is superseded by the ruling of 15 November 2026 (dec-20261115-286). Read the label as reader-can-verify: the record lists its sources clearly, any difficulty with those sources is stated on the record itself, and the reader can check them — the website has done its job in attempting to collect and present the material, and future cycles may re-verify the record from other resources. AI output still carries a `provenance` block, and an agent publishes it when it meets the bar above.
 - **`reviewed` / `verified`** remain in the enum as truthful labels for work that was in fact reviewed by someone; nothing requires them and nothing waits for them.
 
 Records written under the old rules still carry `draft` values. Read such a value as "written before this standard," nothing more; it does not make the record unpublished, unpublishable or second-class.
