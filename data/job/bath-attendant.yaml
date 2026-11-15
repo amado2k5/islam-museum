@@ -1,0 +1,44 @@
+id: job/bath-attendant
+class: job
+label: { ar: "الحمّامي", en: "Bath keeper (hammami)", ur: "حمامی" }
+names:
+  - { value: "صاحب الحمام", kind: alternate }
+  - { value: "hamamcı", kind: latinized, lang: tr }
+summary:
+  ar: "الحمّامي هو صاحب الحمّام أو مشغّله في العهد العثماني وما قبله: يشرف على تسخين الماء والوقود والأجور وخدم الحمّام من التلّاكين والنواطر وغيرهم. يذكر المدخل أن حمّامات المدن الإسلامية كانت كثيراً ما تكون وقفاً درّياً يخدم جمهور المسجد، وأن قاهرة القرن الثامن عشر عرفت لونجة للحمّامجية، وأن قوانين القضاء رتّبت العاملين تحت كفالة متسلسلة يمسك عنها أقدم الخدم، «سرنوبت تلّاك»."
+  en: "The hammami is the owner or keeper who runs a public bath. The TDV entry shows city baths as waqf income-buildings serving mosque congregations, records an eighteenth-century Cairo bath-keepers' guild, and lists the staff under the keeper: the tellak washer in men's baths, the natar in women's, other bath servants and laundry workers, all bound under the kadılık nizamnamesi by chained surety with the senior servant, the sernöbet tellak, answerable."
+  ur: "حمامی وہ مالک یا نگران ہے جو عوامی غسل خانے کو چلاتا ہے۔ ٹی ڈی وی کا مدخل شہر کے حماموں کو مسجد کی جماعت کی خدمت کرنے والا وقفی آمدنی عمارت بتاتا ہے، اٹھارویں صدی کے قاہرہ میں حمام والوں کی لونجہ درج کرتا ہے، اور نگران کے ماتحت عملہ گناتا ہے: مردوں کے حمام میں دلاک ⁦(تلاک)⁩، عورتوں کے حمام میں ناطر، دیگر خدمت گار اور دھونے سکھانے والے، جن سب کو قاضی کے نظام نامے نے زنجیری زمانت میں باندھا اور بڑے خادم «سر نوبت تلاک» کو جواب دار ٹھہرایا۔"
+domain: building-making
+kind: service
+hirfa: true
+era:
+  origins: pre-islamic
+  status_today: transformed
+places:
+  - { place: place/istanbul, note: "The culture section describes Istanbul hamams, their staff, the sernöbet tellak and the guild pirs Evliya Çelebi records.", sources: [source/tdv-hamam] }
+  - { place: place/cairo, note: "The history section counts Cairo's hamams across the periods and cites a hamamcılar loncası in Raymond's eighteenth-century study.", sources: [source/tdv-hamam] }
+regions: [anatolia-balkans, egypt-nile]
+organization:
+  organized: guild
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people, living]
+periods: [period/crusades-ayyubid-mamluk, period/gunpowder-empires, period/modern-era]
+sources: [source/tdv-hamam]
+craft:
+  materials: [wood, textile]
+  techniques:
+    ar: "يتولى الحمّامي تشغيل الحمّام: إشعال الكولهانة وتسخين الماء، وضبط الأجور، واستخدام الخدم ومحاسبتهم. ويعدد المدخل العاملين: التلّاك للرجال والناطر للنساء، وخدم الحمّام المعروفين بالكولهانجي والميدانجي والبشطمالجي والجقمجي والقهوجي، والغسّالين الذين يغسلون المناشف والبشطمالات ويعلّقونها على القفص للتنشيف."
+    en: "The keeper ran the bath: firing the kulhane and heating the water, fixing the fees, and hiring and answering for the staff. The entry lists the tellak for men and the natar for women, the servants called hamam uşakları — kulhancı, meydancı, peştamalcı, çıkmacı, kahveci — and laundry workers who washed towels and peştamals and hung them to dry on the kafes."
+    ur: "نگران حمام چلاتا ہے: کل خانے میں آگ جلا کر پانی گرم کرنا، اجرت مقرر کرنا، خادم رکھنا اور ان کی نگرانی کرنا۔ مدخل عملہ گناتا ہے: مردوں کے لیے دلاک ⁦(تلاک)⁩، عورتوں کے لیے ناطر، «حمام اوشاق» کہلانے والے خدمت گار — کلخانجی، میدانجی، پشتمالجی، چقماقی، قہوجی — اور دھوبی جو تولیے اور پشتمال دھو کر کافیس پر لٹکا کر سکھاتے تھے۔"
+  guild:
+    bodies: []
+    shaykh_title: { ar: "بير", en: "pir", ur: "پیر" }
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-service-1" }
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi, 'HAMAM' (Eyice; Uzun & Albayrak; Yaşaroğlu, 1997), web edition read on 15 Nov 2026, sections I-III. The entry describes the bath institution and its Ottoman staff; it gives no separate biography of the hammami and no wage series."
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-service-1-drafting"

@@ -13,11 +13,18 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v1.36.0 — 2026-11-16
+### Added
+- Four more Inventions Browser records from the medical and chemical heritage, each with Arabic, English and Urdu prose: al-Zahrawi's surgical-instrument corpus in al-Tasrif; the soporific sponge, the contested anaesthetic carrier; Hunayn ibn Ishaq's Ten Treatises on the Eye, the earliest known systematic ophthalmology textbook; and al-Razi's distillation of petroleum into white naft in Kitab al-Asrar, the earliest written account read of producing a kerosene-like fuel.
+
+---
+
 ## v1.35.0 — 2026-11-16
 ### Added
 - Four more records now appear in the Inventions Browser, completing the deferred w2-12 and w2-16 drafts with full trilingual prose. From Ibn Sina's Canon: his bounded classification of diseases — the definitions of cause, disease, symptom and sign that organise Book I — and his temperament method, the four qualities of heat, cold, moisture and dryness and the impossibility of true equilibrium. From the wider heritage: al-Razi's al-Hawi, the comprehensive medical compendium that gathered diseases, causes, drugs, treatments and earlier authorities' sayings into one referable work, preserved as a gathering project and not a claim that al-Razi invented its contents; and al-Bakri's Mu'jam ma Ista'jam, the alphabetically ordered geographical place-name dictionary of al-Andalus that gathered names from hadith, reports, histories and poetry with variant readings resolved — as far as the sources read show the first alphabetical geographical dictionary. Each stands in Arabic, English and Urdu with an inspected image and a generic diagram.
 - Eleven place pages gain a section from Yaqut's Mu'jam al-buldan in Arabic, English and Urdu, cited by volume and printed page: Massisa and Amorium gain full English and Urdu pages for the first time, and Ubulla, Madinat al-Mubarak, Afshana, al-Kudayd, Armant, Qarmuniyya, Ramhurmuz, Suruj and Zawila gain their Yaqut entries. Each section gives what the geographer records of the place's name, position, history and the local reports he preserves.
 - Wa Nalqa al-Ahibba, Amr Khaled (lecture series, Assabile archive): episode 9 added to the Umar ibn al-Khattab section, on his strength, justice and mercy together: the extent of his rule, the old man and the poll tax, the pulpit question, the night visit to a mother and her children, the sack from the treasury, the Copt in the horse race and Amr ibn al-As's son, the musk and the judge Shurayh, in Arabic, English and Urdu drafts, each statement cited to the recording by timestamp and the speaker's accounts labelled as such.
+- Job Browser: the bath keeper (hammami) joins the trades — the Ottoman bath's staff (tellak, natar, hamam uşakları, laundry workers), its guild lore and kadılık discipline, and the fiqh of running baths, in Arabic, English and Urdu draft cited to the TDV 'HAMAM' entry.
 ### Data
 - Four more person cards (Harthama ibn A'yan, Hassan ibn al-Nu'man, Isa ibn Musa and John Hunyadi) now link to their Wikidata items, each with a source record; each link was accepted because the item's name, a sourced date and a role agree with the card, and no sourced date was changed.
 
