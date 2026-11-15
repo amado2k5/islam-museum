@@ -1,0 +1,23 @@
+id: concept/hammad
+class: concept
+kind: natural
+label:
+  ar: "الحمّاض"
+  en: "Sorrel (hammad)"
+  ur: "حماض ⁦(ترشک)⁩"
+summary:
+  ar: "الحمّاض أصناف كثيرة؛ هو الحميضة بالعامية في هامش المحقق. بارد يابس في الثانية، وفيه قبض، والحامض أقوى، ويُذكر أنه يقمع الصفراء، وله منافع في الجرب المتقرّح والقوابي والأسنان والطحال وسيلان الرحم، ومنه أحكام في العقل وإسهال البزر."
+  en: "Hammad has many kinds; the editor's footnote gives the colloquial name humayda (sorrel). It is cold and dry in the second degree, has some binding, and the sour kind is stronger. The book says it checks yellow bile and lists uses for scabies, ulcers, teeth, the spleen and flow of the womb. Some claims on the seed are labelled."
+  ur: "حماض کی کئی قسمیں ہیں؛ محقق کے حاشیے میں اسے عامی زبان میں حمیضہ کہا گیا ہے۔ یہ دوسرے درجے میں ٹھنڈا اور خشک ہے، اس میں کسیلاپن ہے، اور کھٹی قسم زیادہ قوی ہے۔ کتاب کہتی ہے کہ یہ صفرا کو دباتا ہے، اور اس کے فوائد جرب کے زخموں، قوابی، دانتوں، تلی اور رحم کے بہاؤ میں درج کرتی ہے۔ بیج کے کچھ دعوے مُعلَّم ہیں۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, scan pages 483 to 484, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); the editor's footnotes are used only for identity and name; footnotes quoting modern herbal or nutrition books are not used; measured doses, weights and quantities are left out; garbled OCR lines are left out, not guessed"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), lane A4"
+  model: claude-haiku-5-5
+  run: a4-canon-book2-11
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (book mining, lane A4)" }

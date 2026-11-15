@@ -1,0 +1,23 @@
+id: concept/hasha
+class: concept
+kind: natural
+label:
+  ar: "الحاشا"
+  en: "Hasha"
+  ur: "حاشا"
+summary:
+  ar: "الحاشا نبات صغير شوكي، حار يابس في الثالثة، يحلّل ويقطع حتى الدم المنعقد، ويُذكر أنه يمنع اقشعرار الشتاء، وينفع من الأورام البلغمية وعرق النسا وأوجاع الصدر والهضم، ويُذكر أنه يدرّ البول والطمث ويطرد الديدان."
+  en: "Hasha is a small thorny plant, hot and dry in the third degree. It dissolves and cuts even clotted blood, and the book says it stops winter shivering. It helps phlegmy swellings, sciatica, chest pains and digestion, and it is said to bring urine and the menses and expel worms."
+  ur: "حاشا ایک چھوٹا کانٹے دار پودا ہے، تیسرے درجے میں گرم اور خشک۔ یہ جمے ہوئے خون تک کو تحلیل اور کاٹتا ہے، اور کتاب کہتی ہے کہ یہ سردی کی کپکپی روکتا ہے۔ بلغمی سوجن، عرق النسا، سینے کے درد اور ہضم میں مفید ہے، اور کہا گیا ہے کہ یہ پیشاب اور حیض لاتا اور کیڑے نکالتا ہے۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, scan pages 477, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); the editor's footnotes are used only for identity and name; footnotes quoting modern herbal or nutrition books are not used; measured doses, weights and quantities are left out; garbled OCR lines are left out, not guessed"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), lane A4"
+  model: claude-haiku-5-5
+  run: a4-canon-book2-11
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (book mining, lane A4)" }
