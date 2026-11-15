@@ -1,4 +1,5 @@
 id: event/death-of-qutayba-ibn-muslim
+aliases: [event/qutayba-death]   # the same event filed twice; merged (audit S7 and its second pass), the id still resolves
 class: event
 kind: death
 label: { ar: "مقتل قتيبة بن مسلم", en: "Killing of Qutayba ibn Muslim" }
@@ -8,6 +9,15 @@ summary:
 wings: [time]
 date:
   start: { hijri: "0096", precision: year, status: historical, note: "فهرس الجزء السادس ص633", sources: [source/tabari-tarikh-abu-al-fadl] }
-sources: [source/tabari-tarikh-abu-al-fadl, source/salabi-umayyad-state-2020]
+sources: [source/tabari-tarikh-abu-al-fadl, source/salabi-umayyad-state-2020, source/futuh-buldan-maarif-1407]
 provenance: { layer: own-research, generated_by: "Claude (Haiku 5.5) from Apple Vision OCR of Tabari, Tarikh al-Rusul wa'l-Muluk (Dar al-Ma'arif), batch 3", sources: [source/tabari-tarikh-abu-al-fadl] }
 status: { review: draft, completeness: 2, generated_by: "body pages read; Claude (Haiku 5.5)" }
+relations:
+  - {role: المقتول, sources: [source/futuh-buldan-maarif-1407], target: person/qutayba-ibn-muslim, type: had_participant}
+  - {role: قائد الخارجين, sources: [source/futuh-buldan-maarif-1407], target: person/waki-ibn-hassan, type: had_participant}
+  - {role: حاز الرأس, sources: [source/futuh-buldan-maarif-1407], target: person/abdallah-ibn-alwan, type: had_participant}
+  - {role: القاتل في رواية, sources: [source/futuh-buldan-maarif-1407], target: person/jahm-ibn-zahr, type: had_participant}
+  - {role: الناجي, sources: [source/futuh-buldan-maarif-1407], target: person/dirar-ibn-muslim, type: had_participant}
+  - {role: حامل الرأس إلى سليمان, sources: [source/futuh-buldan-maarif-1407], target: person/salit-ibn-atta, type: had_participant}
+  - {target: place/marw, type: occurred_at}
+periods: [period/umayyad]
