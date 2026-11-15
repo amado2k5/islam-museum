@@ -1,0 +1,11 @@
+---
+id: practice/dua-afternoon-to-sunset
+lang: en
+source_lang: ar
+translators: ["Claude Fable 5.2 (claude-fable-5-2), draft translation"]
+---
+## Summary
+What al-Nawawi gathers in the chapters on what is said from noon to the afternoon prayer and from the afternoon prayer to sunset: more remembrance after noon and after the afternoon prayer, and the merit of sitting with those who remember God. {cite:al-adhkar-nawawi-arnaut-1994 p. 86}
+
+## What al-Nawawi gathers in al-Adhkar
+In the chapter on what is said from noon to the afternoon prayer, al-Nawawi says that what is said when putting on a garment, leaving home, entering the privy, performing ablution, heading to the mosque, hearing the call to prayer, and in the prayer and after it, has already been given, and that all of it is shared by every prayer; he says it is recommended to do more remembrance and other acts of worship after noon {cite:al-adhkar-nawawi-arnaut-1994 p. 86}. He reports in al-Tirmidhi's book from Abd Allah ibn al-Sa'ib that [[person/muhammad|the Prophet]] prayed four rak'as after the sun passed its zenith before the noon prayer, saying that it is an hour when the gates of heaven are opened and he liked a righteous deed to rise in it; al-Tirmidhi called it good {cite:al-adhkar-nawawi-arnaut-1994 p. 87}. He says abundant remembrance is recommended after the noon prayer, and that the people of the language say that al-ashiyy runs from the sun's decline to its setting, citing al-Azhari to the same effect {cite:al-adhkar-nawawi-arnaut-1994 p. 87}. In the chapter on what is said after the afternoon prayer, he says abundant remembrance at that prayer is strongly recommended because it is the middle prayer according to groups of early and later scholars, that the dawn prayer likewise deserves added care, and that the end of the day calls for more, and he cites verses on glorifying God before sunrise and sunset, and morning and evening {cite:al-adhkar-nawawi-arnaut-1994 p. 87}. From Anas, in Ibn al-Sunni's book by a weak chain, the Prophet said that sitting with people who remember God from the afternoon prayer until sunset is dearer to him than freeing eight of Ishmael's descendants {cite:al-adhkar-nawawi-arnaut-1994 p. 87}.
