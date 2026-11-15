@@ -27,11 +27,12 @@ open a new block on top with the new version and today's date.
 - **244 interface strings are now Urdu.** The Developers, Why, Disclaimer, Method, Support, Changelog and Backstage pages and the children's corner carried English text on their Urdu pages; they are translated, with code, addresses and licence names left as they are.
 - The number of learning pathways on the homepage and the Coverage page is computed at build time; "300" is no longer typed into the text. The homepage's line of figures had been printing the 12 school-curriculum pathways as "pathways" since the audit change of 13 November; it prints the learning pathways again (300 today).
 - Four events that were filed twice are one record each (the battle of Bathys Ryax, the conquest of Hims, the siege of Banu Qaynuqa, the siege of Acre in 1831); the old addresses still resolve.
+- The killing of Qutayba ibn Muslim, filed once from al-Tabari and once from al-Baladhuri, is one record that keeps both accounts, each under the name of its source; the old address still resolves.
 ### Fixed
-- 32 person records carried the Wikidata id of something else (a plant, a town, an asteroid, another person); the ids are removed. 89 dates that an automated pass had written, and that the record's own Wikidata item contradicts by more than a century under the same name, are removed and logged. 1,085 dates from the same pass that agree with Wikidata are now cited to the item and its revision, so they return to timelines.
+- 38 person records carried the Wikidata id of something else (a plant, a town, an asteroid, another person); the ids are removed. 93 dates that an automated pass had written, and that the record's own Wikidata item contradicts by more than a century under the same name, are removed and logged. 1,085 dates from the same pass that agree with Wikidata are now cited to the item and its revision, so they return to timelines.
 - In the API, a curated record of the Ibadat Browser now carries its acts of worship (`topics`), as passages do.
 ### Data
-- `docs/audit/data/dates-wikidata-ledger.json` records each of those date decisions; 13 doubtful Wikidata ids are left untouched and listed in the audit ledger.
+- `docs/audit/data/dates-wikidata-ledger.json` records each of those date decisions; five doubtful Wikidata ids are left untouched and listed in the audit ledger.
 
 ## v1.32.1 — 2026-11-15
 ### Added
