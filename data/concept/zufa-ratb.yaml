@@ -1,0 +1,23 @@
+id: concept/zufa-ratb
+class: concept
+kind: natural
+label:
+  ar: "زوفا رَطب"
+  en: "Moist zufa (grime from sheep wool in Armenia)"
+  ur: "تر زوفا ⁦(آرمینیا کی بھیڑوں کے اون کا میل)⁩"
+summary:
+  ar: "الزوفا الرطب وسخ يجتمع على أصواف أليات الضأن بأرمينية، ويأخذ قوى الحشائش التي ينجرّ عليها، وهو منضج محلّل، ينفع الأورام الصلبة والطحال، ويحلّل ما في ناحية المثانة والرحم من صلابات. {cite:canon-ibn-sina-print-v1 p.456}"
+  en: "Moist zufa is grime gathered on the wool of sheep tails in Armenia, taking the strength of the grasses it drips on. It ripens and dissolves; it helps hard swellings and the spleen, and dissolves hardenings near the bladder and the womb. {cite:canon-ibn-sina-print-v1 p.456}"
+  ur: "تر زوفا آرمینیا میں بھیڑوں کی دم کے اون پر جمع ہونے والا میل ہے جو اس گھاس کی قوت لیتا ہے جس پر ٹپکتا ہے۔ یہ پکاتا اور تحلیل کرتا ہے؛ سخت سوجن اور تلی میں مفید ہے، اور مثانے اور رحم کے قریب کی سختیوں کو تحلیل کرتا ہے۔ {cite:canon-ibn-sina-print-v1 p.456}"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter waw (end), letter zay, scan pages 456, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); the editor's footnotes are used only for identity and name; footnotes quoting modern herbal or nutrition books are not used; measured doses, weights and quantities are left out; garbled OCR lines are left out, not guessed"
+  generated_by: "Claude Haiku 5.5 (claude-haiku-5-5), lane A4"
+  model: claude-haiku-5-5
+  run: a4-canon-book2-10
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (book mining, lane A4)" }
