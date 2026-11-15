@@ -1,0 +1,131 @@
+id: invention/baylatan-of-tulaytula
+class: invention
+label:
+  ar: "بيلتا طليطلة — حوضا ماء يتبعان الشهر القمري"
+  en: "Baylatan of Toledo — twin water basins that followed the lunar month"
+  ur: "بيلتا طلیطلہ — قمری مہینے کے ساتھ بھرنے اور سکڑنے والے دو حوض"
+names:
+  - { value: "البيلتان بطليطلة", kind: full, lang: ar }
+  - { value: "al-billitan bi-Tulaytula", kind: alternate, lang: ar }
+  - { value: "ساعتا الزرقالي المائيتان", kind: alternate, lang: ar }
+  - { value: "Toledo water clocks", kind: alternate, lang: en }
+  - { value: "Azarquiel's clepsydrae", kind: alternate, lang: en }
+summary:
+  ar: "حوضان مائيان منقولان في طليطلة كانا يمتلئان وينحسران مع زياد القمر ونقصانه على نحو لا تصفه الآلية؛ تنسبهما أقدم شهادة مفصلة، لابن الزهري المتوفى 1137م، إلى أبي القاسم عبد الرحمن الملقب بالزرقالي، وتؤرخ قلعهما المروي إلى سنة 528هـ، وتبقى الآلية والمصير موضع خلاف علمي {cite:nafh-tib-maqqari pp. 242–243} {cite:roth-relojes-agua-toledo-1992 abstract and pp. 151–152} {cite:cihar-zarqali-lunar-water-clock al-Zuhri quotation} {cite:kan-baylatan-2023 abstract}."
+  en: "Two reported water basins in Toledo that filled and ebbed with the waxing and waning moon in a way no mechanism describes; the earliest detailed account, al-Zuhri's (d. 1137), preserved by al-Maqqari, names Abu al-Qasim Abd al-Rahman known as al-Zarqali, dates the reported uprooting to 528 AH, and the mechanism and fate remain contested {cite:nafh-tib-maqqari pp. 242–243} {cite:roth-relojes-agua-toledo-1992 abstract and pp. 151–152} {cite:cihar-zarqali-lunar-water-clock al-Zuhri quotation} {cite:kan-baylatan-2023 abstract}."
+  ur: "طلیطلہ میں منقولہ دو آبی حوض جو چاند کی صورتی اور کہیتی کے ساتھ بھرنے اور کم ہونے کے انداز میں تھے جسے کوئی طریقہ بیان نہیں کرتا؛ قدیم ترین تفصیلی روایت، زُہری کی (d. 1137) جو مقری نے محفوظ کی، ابو القاسم عبد الرحمٰن المعروف الزرقالی کو اس کا بناتا کہتی ہے، تخریب 528ھ بتاتی ہے، اور طریقہ اور انجام مختلف فیہ ہیں {cite:nafh-tib-maqqari pp. 242–243} {cite:roth-relojes-agua-toledo-1992 abstract and pp. 151–152} {cite:cihar-zarqali-lunar-water-clock al-Zuhri quotation} {cite:kan-baylatan-2023 abstract}۔"
+domain: mechanics-automata
+kind: device
+disciplines: [engineering, astronomy]
+wings: [ideas, made]
+regions: [andalus-europe]
+era:
+  origins: middle-period
+  first_attested:
+    edtf: "1137"
+    calendar: julian
+    precision: year
+    status: historical
+    derived: true
+    note: "Earliest detailed surviving account is al-Zuhri's (Granadan geographer, d. 1137 CE per Roth and the CIHAR repost), preserved through later transmission into al-Maqqari's Nafh al-Tib; no Hijri pairing asserted because 1137 CE spans 531-532 AH at year precision. The claimed construction belongs inside the attributed maker's Toledo years (his biography places him there from 1048 CE) and the reported uprooting is dated 528 AH inside the tale — both are story-internal dates, not independently verified construction or destruction dates."
+    sources: [source/roth-relojes-agua-toledo-1992, source/cihar-zarqali-lunar-water-clock, source/nafh-tib-maqqari]
+  status_today: extinct
+origin:
+  place: place/tulaytula
+  context:
+    ar: "طليطلة الأندلسية على ضفة نهر تاجة، في عصر ولاياتها بعد سقوط الخلافة الأموية؛ الحوضان المرويَّان وُضعا في بيت مجوف عند باب الدباغين، والخبر لا يسمي والياً ولا آمراً بصنعهما {cite:nafh-tib-maqqari pp. 242–243} {cite:cihar-zarqali-lunar-water-clock al-Zuhri quotation}."
+    en: "Toledo in al-Andalus on the Tagus bank, in the taifa era after the Umayyad caliphate's fall; the reported basins stood in a hollow chamber at the Tanners' Gate, and the account names no patron or commissioning authority {cite:nafh-tib-maqqari pp. 242–243} {cite:cihar-zarqali-lunar-water-clock al-Zuhri quotation}."
+    ur: "اندلس کا طلیطلہ، تاجة کے کنارے، اموی خلافت کے زوال کے بعد کے معاصر دور میں؛ منقولہ حوض باب الدباغین پر ایک کھوکھلے گھر میں تھے، اور روایت نہ کوئی سرپرست یا حکم دیتا ہے {cite:nafh-tib-maqqari pp. 242–243} {cite:cihar-zarqali-lunar-water-clock al-Zuhri quotation}۔"
+makers:
+  - person: person/al-zarqali
+    role: improver
+    note: "Named as maker by the earliest detailed account preserved through al-Zuhri (d. 1137) into al-Maqqari, whose Rabat manuscript identifies 'Abd al-Rahman' as Abu al-Qasim Abd al-Rahman al-Zarqali; the tale frames the pair as an answer to a reported Indian water talisman of Arin, so improver rather than certified inventor, and attribution stays contested because no mechanism, remains or independent confirmation survive."
+    sources: [source/nafh-tib-maqqari, source/roth-relojes-agua-toledo-1992, source/cihar-zarqali-lunar-water-clock, source/kan-baylatan-2023]
+attribution:
+  status: contested
+  claim:
+    ar: "ينسب الحوضان إلى أبي القاسم عبد الرحمن الملقب بالزرقالي في أقدم شهادة مفصلة؛ لكن الخبر كله رواية عجيبة منقولة بلا آلية موصوفة ولا أثر باقٍ، وتعدد الروايات في سبب إفسادهما، فتُوثَّق النسبة المنقولة لا اختراع محقق."
+    en: "The basins are attributed to Abu al-Qasim Abd al-Rahman known as al-Zarqali in the earliest detailed account; but the whole tale is a transmitted wonder-report with no described mechanism and no surviving remains, and the destruction accounts multiply, so the record documents the transmitted attribution, not a verified invention."
+    ur: "حوضوں کی نسبت قدیم ترین تفصیلی روایت میں ابو القاسم عبد الرحمٰن المعروف الزرقالی کو دی گئی ہے؛ مگر پوری کہانی ایک منقولہ عجائب نامہ ہے جس میں نہ طریقہ بیان ہے نہ باقی آثار، اور تباہی کی روایات متعدد ہیں، اس لیے یہ منقولہ نسبت درج ہے، تصدیق شدہ ایجاد نہیں۔"
+  basis:
+    ar: "ابن الزهري الجغرافي المتوفى 1137م يصف الحوضين ويعدهما من عجائب طليطلة، ويحفظ المقري روايته مضيفاً تعليق مخطوطة الرباط الذي يطابق عبد الرحمن بالزرقالي وخبر الطلسم الهندي؛ ويحلل نورمان روث سلسلة النقل ويلاحظ اختلاف اسم المنجم اليهودي بين روايتي الزهري والمقري وصنعة قصيدة مزعومة؛ وتصف دراسة كان 2023 الحوضين بلغز هندسي عجزت تقانة الأجيال اللاحقة عن تفسيره {cite:nafh-tib-maqqari pp. 242–243} {cite:roth-relojes-agua-toledo-1992 abstract and pp. 151–152} {cite:cihar-zarqali-lunar-water-clock al-Zuhri quotation} {cite:kan-baylatan-2023 abstract}."
+    en: "The Granadan geographer al-Zuhri (d. 1137) describes the pair as Toledo's marvels and al-Maqqari preserves his account adding the Rabat manuscript note identifying Abd al-Rahman as al-Zarqali and the Indian talisman story; Norman Roth analyses the transmission and notes the Jewish astrologer's name differs between al-Zuhri and al-Maqqari plus a fabricated attributed poem; the 2023 Kān study calls the pair an engineering puzzle later technology failed to explain {cite:nafh-tib-maqqari pp. 242–243} {cite:roth-relojes-agua-toledo-1992 abstract and pp. 151–152} {cite:cihar-zarqali-lunar-water-clock al-Zuhri quotation} {cite:kan-baylatan-2023 abstract}."
+    ur: "غرناطہ کا جغرافیہ دان زُہری (d. 1137) دونوں حوضوں کو طلیطلہ کا عجوبہ بتاتا ہے اور مقری ان کی روایت محفوظ کرتا ہے جس میں رباط مخطوطے کا حاشیہ عبد الرحمٰن کو الزرقالی سے ملاتا ہے اور بحر ہند کے تعویذ کی خبر آتی ہے؛ نارمن Roth منتقلی کا سلسلہ بیان کرتا ہے اور اس میں یہودی منجم کے نام کی روایتی اختلاف اور ایک منسوب اصل نظم کو نوٹ کرتا ہے؛ 2023 کا Kān مطالعہ دونوں کو ایک انجینئرنگ پہیلی بتاتا ہے جسے بعد کی تقنیات نہ سمجھ سکیں {cite:nafh-tib-maqqari pp. 242–243} {cite:roth-relojes-agua-toledo-1992 abstract and pp. 151–152} {cite:cihar-zarqali-lunar-water-clock al-Zuhri quotation} {cite:kan-baylatan-2023 abstract}۔"
+  perspectives:
+    - tradition: sunni
+      id: sunni-museum-frame
+      standing: main
+      summary:
+        ar: "الإطار السني المعلن يحفظ نسبة الصنعة إلى الزرقالي الأندلسي كما في أقدم شهادة؛ لا يُستنتج مذهب من الاسم أو المكان، وقاعدة المتحف هي بيان المساهمة المسلمة لا الدفاع عن وجود الجهاز {cite:roth-relojes-agua-toledo-1992 abstract and pp. 151–152} {cite:nafh-tib-maqqari pp. 242–243}."
+        en: "The declared Sunni frame preserves the craft attribution to the Andalusian al-Zarqali as in the earliest account; no school is inferred from name or place, and the museum's rule is to record the Muslim contribution, not to defend the device's existence {cite:roth-relojes-agua-toledo-1992 abstract and pp. 151–152} {cite:nafh-tib-maqqari pp. 242–243}."
+        ur: "اعلانیہ سنی سیاق قدیم ترین روایت کے مطابق الزرقالی اندلسی کو منسوب کام محفوظ رکھتا ہے؛ نام یا مقام سے مسلک نہیں نکالا جاتا، اور میوزیم کا اصول مسلم حصہ درج کرنا ہے، آلہ کے وجود کا دفاع نہیں {cite:roth-relojes-agua-toledo-1992 abstract and pp. 151–152} {cite:nafh-tib-maqqari pp. 242–243}۔"
+      sources: [source/roth-relojes-agua-toledo-1992, source/nafh-tib-maqqari]
+    - tradition: academic
+      id: academic-unverified-mechanism
+      standing: main
+      summary:
+        ar: "تصف دراسة كان 2023 الحوضين بأنه سر هندسي لم تفسره تقانة الأجيال، وتعرض الفرضية الأثرية لتينيرياس كمصدر مائي محتمل غير مثبت؛ فالواقع والأسطورة يبقيان متوازيين {cite:kan-baylatan-2023 abstract} {cite:cihar-zarqali-lunar-water-clock archaeology hypothesis}."
+        en: "The 2023 Kān study calls the pair an engineering secret later technology failed to explain, and the Las Tinerías archaeology hypothesis is offered only as an unproven candidate water source; reality and legend remain parallel {cite:kan-baylatan-2023 abstract} {cite:cihar-zarqali-lunar-water-clock archaeology hypothesis}."
+        ur: "2023 کا Kān مطالعہ دونوں کو ایک انجینئرنگ راز بتاتا ہے جسے بعد کی تقنیات نہ سمجھ سکیں، اور لاس تینیریاس کے آثارِ قدیمہ کی قیاس کو صرف ایک غیر طے شدہ پانی کے ماخذ کے طور پر پیش کرتا ہے؛ حقیقت اور افسانہ متوازی رہتے ہیں {cite:kan-baylatan-2023 abstract} {cite:cihar-zarqali-lunar-water-clock archaeology hypothesis}۔"
+      sources: [source/kan-baylatan-2023, source/cihar-zarqali-lunar-water-clock]
+    - tradition: academic
+      id: academic-destruction-variants
+      standing: main
+      summary:
+        ar: "تتعدد روايات الإفساد: أمر ملك قشتالي بقلع إحداهما سنة 528هـ في رواية المقري، ونسب روث إلى الزهري اسم هاميس بن زبارة بدل حنين مع قصة الحمام سنة 527هـ، ويحذر من قصيدة مزعومة لابن ازرا؛ فالمصير نفسه رواية لا نتيجة محققة {cite:nafh-tib-maqqari pp. 242–243} {cite:roth-relojes-agua-toledo-1992 abstract and pp. 151–152}."
+        en: "The sabotage accounts multiply: a Castilian king's order to lift one basin in 528 AH in al-Maqqari's version, Roth's reading of al-Zuhri naming Hamis b. Zabara rather than Hunayn with the 527 AH pigeon episode, and a warning against a fabricated Ibn Ezra poem; the fate itself is narrative, not verified outcome {cite:nafh-tib-maqqari pp. 242–243} {cite:roth-relojes-agua-toledo-1992 abstract and pp. 151–152}."
+        ur: "تباہی کی روایات متعدد ہیں: مقری کے ورژن میں 528ھ میں قشتالی بادشاہ کا حکم ایک حوض اکھاڑنے کا، Roth کی زہری پڑھائی میں حنین کے بجائے هامس بن زبارہ نام اور 527ھ کے کبوتروں کا واقعہ، اور ایک منسوب ابن ازرا نظم سے خبردار؛ انجام خود ایک بیانیہ ہے، تصدیق شدہ نتیجہ نہیں {cite:nafh-tib-maqqari pp. 242–243} {cite:roth-relojes-agua-toledo-1992 abstract and pp. 151–152}۔"
+      sources: [source/nafh-tib-maqqari, source/roth-relojes-agua-toledo-1992]
+precursors:
+  - external:
+      ar: "الطلسم المائي في مدينة أرين من أرض الهند الذي ذكره المسعودي"
+      en: "The water talisman of Arin in the land of India reported by al-Mas'udi"
+      ur: "بحر ہند کی شہر اَرِن میں المسعودی کا بیان کردہ آبی تعویذ"
+    note: "The tale's stated inspiration: al-Maqqari reports that al-Mas'udi mentioned a talisman in Arin that turned with its finger from dawn to sunset; al-Mas'udi's own text was not read in this packet, and the device itself is unverified."
+    sources: [source/nafh-tib-maqqari]
+  - external:
+      ar: "صناعة النوافير والساعات المائية في الأندلس قبل طليطلة"
+      en: "The Andalusian fountain and water-clock tradition before Toledo"
+      ur: "طلیطلہ سے پہلے اندلس میں فواروں اور آبی گھڑیوں کی صنعت"
+    note: "The 2023 Kān study situates the basins inside a documented Andalusian water-engineering tradition without naming a specific earlier device as their model; no direct lineage is claimed."
+    sources: [source/kan-baylatan-2023]
+dependents: []
+spread: []
+impact:
+  fields: [mechanics-automata, timekeeping]
+  changed:
+    ar: "في الخبر المنقول، مكّن الحوضان أهل طليطلة من معرفة الساعة والنهار من الليل واليوم القمري؛ هذا أثر سردي داخل الرواية، لا طريق انتشار موثق {cite:cihar-zarqali-lunar-water-clock al-Zuhri quotation} {cite:nafh-tib-maqqari pp. 242–243}."
+    en: "Within the transmitted account, the pair let Toledo's people read the hour, tell day from night and reckon the lunar day; this is narrative effect inside the tale, not a documented diffusion route {cite:cihar-zarqali-lunar-water-clock al-Zuhri quotation} {cite:nafh-tib-maqqari pp. 242–243}."
+    ur: "منقولہ روایت میں دونوں حوضوں نے طلیطلہ کے لوگوں کو گھنٹہ، دن رات میں امتیاز اور قمری دن جاننے کی اجازت دی؛ یہ کہانی کے اندر بیانیہ اثر ہے، موثق منتقلی راستہ نہیں {cite:cihar-zarqali-lunar-water-clock al-Zuhri quotation} {cite:nafh-tib-maqqari pp. 242–243}۔"
+  history:
+    ar: "شاهد نصي على طموح هندسة المياه الأندلسي وعلى كيفية انتقال أخبار العجائب؛ لا نسب تقني مباشر إلى ساعات مائية لاحقة ولا برهان على وجود الجهاز {cite:kan-baylatan-2023 abstract} {cite:roth-relojes-agua-toledo-1992 abstract and pp. 151–152}."
+    en: "A textual witness to Andalusian water-engineering ambition and to how wonder accounts transmit; no direct technical lineage to later water clocks and no proof the device existed {cite:kan-baylatan-2023 abstract} {cite:roth-relojes-agua-toledo-1992 abstract and pp. 151–152}."
+    ur: "اندلسی آبی انجینئرنگ کی لالچ اور عجائب ناموں کی منتقلی کا ایک تحریری شاہد؛ بعد کی آبی گھڑیوں سے براہ راست تکنیکی نسب نہیں اور آلہ کے وجود کا ثبوت نہیں {cite:kan-baylatan-2023 abstract} {cite:roth-relojes-agua-toledo-1992 abstract and pp. 151–152}۔"
+  significance: 3
+  why: "A richly attested reported device — near-contemporary description, preserved transmission, modern scholarly and archaeological attention — whose mechanism is never described and whose remains are unverified; significance rests on the documentation chain, not on certified engineering."
+described_in: []
+examples: [object/baylatan-of-tulaytula]
+sites: [place/tulaytula]
+concepts: [concept/moon]
+today:
+  form:
+    ar: "لا يوجد أثر باقٍ؛ يبقى الخبر نصاً ومشروعاً أثرياً حياً — فرضية نبع لاس تينيرياس المبلّغة سنة 2023 — والرسم في المتحف سلسلة مفاهيمية لا إعادة إنشاء {cite:cihar-zarqali-lunar-water-clock archaeology hypothesis} {cite:kan-baylatan-2023 abstract}."
+    en: "No surviving object; the account remains text plus a live archaeological hypothesis — the Las Tinerías spring reported in 2023 — and the museum diagram is a conceptual chain, not a reconstruction {cite:cihar-zarqali-lunar-water-clock archaeology hypothesis} {cite:kan-baylatan-2023 abstract}."
+    ur: "کوئی باقی آلہ نہیں؛ خبر ایک متن اور ایک زندہ أثری قیاس — 2023 میں لاس تینیریاس چشمے سے متعلق گمان — رہتی ہے، اور میوزیم کا خاکہ ایک مفہومی سلسلہ ہے، نقشہ نہیں {cite:cihar-zarqali-lunar-water-clock archaeology hypothesis} {cite:kan-baylatan-2023 abstract}۔"
+  descendants:
+    ar: "لا يذكر أي مصدر مقروء جهازاً لاحقاً مبنياً عليه؛ الساعات المائية الحديثة تقانة مستقلة، والفرضية الأثرية تعني مصدر ماء محتمل لا نسخة عاملة {cite:kan-baylatan-2023 abstract} {cite:cihar-zarqali-lunar-water-clock archaeology hypothesis}."
+    en: "No read source names a later device built on it; modern water clocks are an independent technology, and the archaeological hypothesis concerns a possible water source, not a working replica {cite:kan-baylatan-2023 abstract} {cite:cihar-zarqali-lunar-water-clock archaeology hypothesis}."
+    ur: "کوئی پڑھا ہوا ماخذ اس پر بنے بعد کے آلہ کا نام نہیں لیتا؛ جدید آبی گھڑیاں ایک آزاد تکنیک ہیں، اور أثری قیاس ایک ممکنہ پانی کے ماخذ کی بات ہے، کام کرنے والی نقل نہیں {cite:kan-baylatan-2023 abstract} {cite:cihar-zarqali-lunar-water-clock archaeology hypothesis}۔"
+media: { image: media/toledo-tajo-context, diagram: media/diagram-baylatan-of-tulaytula }
+kids:
+  ar: "تخيل حوضين كبيرين في بيت على ضفة نهر، يمتلئ أحدهما بينما ينحسر الآخر مع تغيّر القمر — هكذا وصفت كتب الأندلس «بيلتا طليطلة» المنسوبة إلى الزرقالي. لا أحد اليوم يعرف كيف كانتا تعملان فعلاً، وربما لم تكونا موجودتين أصلاً؛ القصة نفسها جزء من تاريخ طليطلة."
+  en: "Imagine two big basins in a riverside house, one filling while the other empties as the moon changes — that is how Andalusian books described the 'Baylatan of Toledo' attributed to al-Zarqali. Nobody today knows how they really worked, and they may never have existed; the story itself is part of Toledo's history."
+  ur: "تصور کرو دریا کے کنارے ایک گھر میں دو بڑے حوض، چاند بدلتے ہی ایک بھرتا اور دوسرا خالی ہوتا — اندلس کی کتابیں «بيلتا طلیطلہ» کو اسی طرح بیان کرتی ہیں جو الزرقالی سے منسوب ہے۔ آج کوئی نہیں جانتا کہ وہ واقعی کیسے کام کرتے تھے، اور شاید بنے ہی نہیں تھے؛ کہانی خود طلیطلہ کی تاریخ کا حصہ ہے۔"
+sources:
+  - source/nafh-tib-maqqari
+  - source/roth-relojes-agua-toledo-1992
+  - source/cihar-zarqali-lunar-water-clock
+  - source/kan-baylatan-2023
+  - source/commons-toledo-tajo-gaguilarq
+status: { review: published, completeness: 3, generated_by: "Devin drafter w2-15" }
+provenance: { layer: own-research, generated_by: "Devin drafter w2-15", model: "SWE-2", run: inventions-w2-15-drafting, source: "Local al-Maqqari OCR pp. 242-243 (printed 206-207) read in full; Roth 1992 article and landing text; CIHAR Arabic repost in full; Kān 2023 abstract/bibliographic record only; Commons API metadata for the Toledo-Tagus photo. No mechanism description, physical remains or independent construction date exists in the sources read" }
