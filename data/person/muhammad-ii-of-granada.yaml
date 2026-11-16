@@ -36,6 +36,12 @@ died:
   note: "The English article gives his death on 8 April 1302 and equates the day with 8 Shaban 701 AH; the Arabic article's reign dates, 671-701 AH, end in the same Hijri year. Neither text read states a place of death, so no died_in edge is written."
   sources: [source/wikipedia-muhammad-ii-of-granada-en, source/wikipedia-muhammad-ii-of-granada-ar, source/wikidata-muhammad-ii-of-granada]
 
+occupations:
+  - job: job/emir
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'emir', Job Browser linking wave"
+    sources: [source/wikipedia-muhammad-ii-of-granada-en, source/wikipedia-muhammad-ii-of-granada-ar, source/wikidata-muhammad-ii-of-granada]
 relations:
   - { type: child_of, target: person/muhammad-i-ibn-al-ahmar, sources: [source/wikipedia-muhammad-ii-of-granada-en, source/wikipedia-muhammad-ii-of-granada-ar] }
   - { type: successor_of, target: person/muhammad-i-ibn-al-ahmar, sources: [source/wikipedia-muhammad-ii-of-granada-en, source/wikipedia-muhammad-ii-of-granada-ar] }

@@ -11,6 +11,12 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
+occupations:
+  - job: job/diplomat
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'diplomat', Job Browser linking wave"
+    sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
 relations:
   - { type: died_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]

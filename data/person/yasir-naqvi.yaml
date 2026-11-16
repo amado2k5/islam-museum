@@ -30,6 +30,12 @@ faith:
     sources: [source/wikipedia-yasir-naqvi-en, source/wikipedia-yasir-naqvi-fr, source/wikidata-yasir-naqvi]
 wings: [people, living]
 external_ids: { wikidata: Q8049806 }
+occupations:
+  - job: job/lawyer
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'lawyer', Job Browser linking wave"
+    sources: [source/wikipedia-yasir-naqvi-en, source/wikipedia-yasir-naqvi-fr, source/wikidata-yasir-naqvi]
 relations:
   - { type: born_in, target: place/karachi, sources: [source/wikidata-yasir-naqvi], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q8660)" }
   - { type: lived_in, target: place/ottawa, sources: [source/wikidata-yasir-naqvi], confidence: low, note: "Wikidata P551 residence (Wikidata Q1930)" }

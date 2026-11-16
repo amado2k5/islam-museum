@@ -21,6 +21,12 @@ born:
   derived: true
   note: "Gregorian date from English Wikipedia and Wikidata (Q21524665); the Hijri year 1405 is the tabular conversion of 4 May 1985 and is marked derived."
   sources: [source/wikipedia-canan-dagdeviren-en, source/wikidata-canan-dagdeviren]
+occupations:
+  - job: job/engineer
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'inventor', Job Browser linking wave"
+    sources: [source/wikipedia-canan-dagdeviren-en, source/wikipedia-canan-dagdeviren-tr, source/wikidata-canan-dagdeviren]
 relations:
   - { type: born_in, target: place/istanbul, sources: [source/wikipedia-canan-dagdeviren-en, source/wikidata-canan-dagdeviren] }
 faith:
