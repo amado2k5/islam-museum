@@ -13,6 +13,10 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v1.84.0 — 2026-11-17
+### Added
+- Job Browser linking wave 10: 35 `occupations:` edges on 25 person records — the dai pool fully linked, sufi-shaykh 8/9, plus sultan, caliph, alim, preacher and poet links on Ottoman and West African rulers.
+
 ## v1.83.0 — 2026-11-17
 ### Added
 - Job Browser linking wave 9: 38 `occupations:` edges on 25 person records — adib, katib, shaykh-al-islam, poet, architect, sultan and six more; the adib, shaykh-al-islam and architect merge-map pools are now fully linked.

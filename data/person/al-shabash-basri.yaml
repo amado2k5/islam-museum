@@ -19,5 +19,11 @@ provenance:
   run: prose-fill-persons-batch48
 status: { review: published, completeness: 3 }
 died: { edtf: "850~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Baghdad" }
+occupations:
+  - job: job/dai
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'missionary', Job Browser linking wave"
+    sources: [source/muntazam-ibn-al-jawzi]
 relations:
   - { type: lived_in, target: place/basra, note: "From text: settled at Basra", sources: [source/muntazam-ibn-al-jawzi] }

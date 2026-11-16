@@ -45,6 +45,12 @@ died:
   note: "Place: Tiznit, Morocco — Died at Tiznit on 23 October 1910; the English and French articles and Wikidata (day precision) agree, and he is buried at Tiznit, his tomb a pilgrimage site. CONFLICT: the Arabic article pairs the Hijri date 17 Shawwal 1328 with '25 October 1910', although that Hijri date converts to about 21–22 October 1910 — its own pairing disagrees with its Hijri date; both are recorded here. The Hijri year is the Arabic article's own (17 Shawwal 1328 AH), not a conversion."
   sources: [source/wikipedia-ma-al-aynayn-en, source/wikipedia-ma-al-aynayn-fr, source/wikidata-ma-al-aynayn, source/wikipedia-ma-al-aynayn-ar]
 
+occupations:
+  - job: job/sufi-shaykh
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'sufi master', Job Browser linking wave"
+    sources: [source/wikidata-ma-al-aynayn, source/wikipedia-ma-al-aynayn-ar, source/wikipedia-ma-al-aynayn-en, source/wikipedia-ma-al-aynayn-fr]
 relations:
   - { type: born_in, target: place/hodh, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-ma-al-aynayn] }
   - type: member_of

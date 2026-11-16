@@ -30,6 +30,17 @@ faith:
     basis: unknown
     note: "Neither source names a school, madhhab or branch for Attahiru II personally. The English article identifies him by descent — great-grandson of Usman dan Fodio and son of Ali Babba bin Bello, the fourth Sultan — and by his office as thirteenth Sultan; descent and office never attest a school. The article makes no statement of his religion in its text or infobox, and Wikidata carries no religion value for him. Under the doubt rule the value stays unknown."
     sources: [source/wikipedia-muhammadu-attahiru-ii-en, source/wikidata-muhammadu-attahiru-ii]
+occupations:
+  - job: job/sultan
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'sultan', Job Browser linking wave"
+    sources: [source/wikipedia-muhammadu-attahiru-ii-en, source/wikidata-muhammadu-attahiru-ii]
+  - job: job/caliph
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'caliph', Job Browser linking wave"
+    sources: [source/wikipedia-muhammadu-attahiru-ii-en, source/wikidata-muhammadu-attahiru-ii]
 relations:
   - { type: ruler_of, target: polity/sokoto-caliphate, sources: [source/wikipedia-muhammadu-attahiru-ii-en] }
   - { type: successor_of, target: person/muhammadu-attahiru-i, sources: [source/wikipedia-muhammadu-attahiru-ii-en] }

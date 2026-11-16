@@ -12,6 +12,12 @@ wings: [people]
 regions: [south-asia]
 periods: [period/crusades-ayyubid-mamluk]
 died: { edtf: "1236", precision: year, status: tradition, derived: true }
+occupations:
+  - job: job/sufi-shaykh
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'sufi master', Job Browser linking wave"
+    sources: [source/duha-islam]
 relations:
   - { type: born_in, target: place/sistan-and-baluchestan-province, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q939575)" }
   - { type: died_in, target: place/ajmer, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q200049)" }

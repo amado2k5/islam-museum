@@ -42,6 +42,17 @@ died:
   sources:
     - source/wikipedia-jalaluddin-surkh-posh-bukhari-en
     - source/wikidata-jalaluddin-surkh-posh-bukhari
+occupations:
+  - job: job/sufi-shaykh
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'sufi master', Job Browser linking wave"
+    sources: [source/wikipedia-jalaluddin-surkh-posh-bukhari-en, source/wikipedia-jalaluddin-surkh-posh-bukhari-ar, source/wikipedia-jalaluddin-surkh-posh-bukhari-ur, source/wikidata-jalaluddin-surkh-posh-bukhari, source/khan-constructing-islam-on-the-indus-2016]
+  - job: job/preacher
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'preacher', Job Browser linking wave"
+    sources: [source/wikipedia-jalaluddin-surkh-posh-bukhari-en, source/wikipedia-jalaluddin-surkh-posh-bukhari-ar, source/wikipedia-jalaluddin-surkh-posh-bukhari-ur, source/wikidata-jalaluddin-surkh-posh-bukhari, source/khan-constructing-islam-on-the-indus-2016]
 relations:
   - { type: died_in, target: place/uch, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-jalaluddin-surkh-posh-bukhari] }
   - { type: born_in, target: place/bukhara, sources: [source/wikipedia-jalaluddin-surkh-posh-bukhari-en, source/khan-constructing-islam-on-the-indus-2016] }

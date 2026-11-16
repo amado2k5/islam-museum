@@ -11,6 +11,12 @@ periods: [period/umayyad]
 regions: [levant-iraq]
 themes: [sects-and-schools]
 died: { edtf: "725~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari" }
+occupations:
+  - job: job/dai
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'agent', Job Browser linking wave"
+    sources: [source/tarikh-dawla-abbasiyya-taqqush]
 relations:
   - { type: lived_in, target: place/al-abbasiyya, confidence: low, note: "Associated with العباسية per the record's own summary text; relation type pending review.", sources: [source/tarikh-dawla-abbasiyya-taqqush] }
 sources: [source/tarikh-dawla-abbasiyya-taqqush]
