@@ -1,0 +1,23 @@
+id: concept/dharariih
+class: concept
+kind: natural
+label:
+  ar: "ذراريح"
+  en: "Dharariih"
+  ur: "ذراریح"
+summary:
+  ar: "ذراريح في الكتاب حيوان يشبه الفسافس إلا أنه أحمر، حار حريف معفن محرق، ينقل الكتاب أنه يقلع الثآليل ويطلى به على الأورام السرطانية والجرب والقوابي، وقيل إنه يقلع الظفرة، وفيه تقارير عن أثر القليل منه في البول وعن ضرره الشديد في المثانة والبدن؛ وفيه نقل موسوم عن الطمث في قسم معلق لحكم المؤسس {cite:canon-ibn-sina-print-v1 p.720}"
+  en: "Dharariih is in the book an animal that resembles the fasafis except that it is red, hot, acrid, putrefying and burning; the book reports that it removes warts and is applied to cancerous swellings, scab and qawabi, it is said to remove pterygium, and it carries reports on its action on urine in small amounts and on its severe harm to the bladder and body; it has a labelled listing on menses in a section held for the founder's ruling {cite:canon-ibn-sina-print-v1 p.720}"
+  ur: "ذراریح کتاب میں ایک جانور ہے جو فسافس سے مشابہ ہے مگر سرخ ہے، گرم، تیز، سڑانے والا اور جلانے والا؛ کتاب نقل کرتی ہے کہ یہ مسوں کو ہٹاتا ہے اور سرطانی ورموں، جرب اور قوابی پر لگایا جاتا ہے، کہا گیا کہ یہ ناخنہ کو دور کرتا ہے، اور اس کے تھوڑے سے پیشاب پر اثر اور مثانے اور بدن کو شدید نقصان کی رپورٹیں اس میں ہیں؛ حیض کے بارے میں ایک موسوم نقل بانی کے فیصلے کے لیے موقوف قسم میں ہے {cite:canon-ibn-sina-print-v1 p.720}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, scan pages 720, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image rendered and read by eye for every heading and doubtful clause; editor footnotes used only for identity; measured doses, weights, counts, times and preparation methods left out; unclear lines left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-32
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

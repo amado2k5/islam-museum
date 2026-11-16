@@ -36,3 +36,6 @@ He died in Cairo on 6 February 1963, just after Algerian independence completed 
 ## References
 
 The defined source entities cited above, recorded in `data/source/`.
+
+## In The Oxford Dictionary of Islam
+The Oxford Dictionary of Islam presents Abd el-Krim, who died in 1963, as a Moroccan Islamic reformer and the leader of the Rif Rebellion, the first-born of a respected family in a northern Moroccan tribe that spoke Berber. It says his forces beat the Spanish under General Silvestre at Anual in 1921, which set the rebellion going, and that, influenced by Salafi ideas, he proclaimed a republic on the basis of Islamic law in 1923 and tried to root out Sufism. At its widest the state took in most of the Spanish zone and part of the French one; Spanish and French armies defeated him in 1926, the republic was dissolved, and he died in self-imposed exile in Cairo. {cite:oxford-dictionary-of-islam e12} The date of 1923 for the proclamation comes from the Dictionary alone.

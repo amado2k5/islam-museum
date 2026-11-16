@@ -15,3 +15,8 @@ The preface to the edition says he heard from Abd Allah ibn Salih al-Ijli, Abu a
 
 ## An opinion of him
 The preface quotes Ubayd Allah ibn Ahmad ibn Abi Tahir as saying that he had good books, and that he was the author of "Kitab al-Buldan", which he composed and composed well. {cite:futuh-buldan-maarif-1407 p.3-7}
+
+## In The Oxford Dictionary of Islam
+The Oxford Dictionary of Islam describes al-Baladhuri, who died in 892, as an early Muslim historian. It says the Futuh al-Buldan is arranged by the areas conquered and based on documents, extracts of which are included, and that it is an important source for local administration and for the chief Muslim families. {cite:oxford-dictionary-of-islam e283}
+
+It adds that his Ansab al-Ashraf contains extensive biographical information that stresses lineage and family custom as grounds for loyalty and as models for descendants, that his accounts of the rise and fall of powerful dynasties give a political moral, and that his comments on method are sparse apart from assertions of accuracy. {cite:oxford-dictionary-of-islam e283} The year 892 agrees with those who put his death in 279 AH in the edition's preface above; the conversion is derived. See [[work/ansab-al-ashraf|Ansab al-Ashraf]].

@@ -15,3 +15,8 @@ The rock of al-Lat, its building and its curtains among Thaqif; the Thaqif deleg
 
 ## For young visitors
 Al-Lat is the idol of the people of Ta'if, one of the three greatest idols of the Arabs before Islam.
+
+## In The Oxford Dictionary of Islam
+The Oxford Dictionary of Islam lists al-Lat as one of three pre-Islamic goddesses worshipped at the Kaaba in [[place/mecca|Mecca]] and says the name means goddess. This differs from the place this record gives for al-Lat, [[place/taif|Ta'if]], so it is entered here as the entry's wording alone and not decided. {cite:oxford-dictionary-of-islam e1332}
+
+The entry says she was identified as a daughter of Allah because she was thought to be the child of Allah's marriage to a jinn, that she may have been considered Allah's consort, that she was usually shown in human shape, that her idol was destroyed in 630 as Muhammad and the Muslims took Mecca, and that the Qur'an denounced her at [[passage/quran-53-19|53:19]] and [[passage/quran-53-20|20]]. {cite:oxford-dictionary-of-islam e1332} The date and occasion of the destruction differ from the account of al-Raheeq al-Makhtum, which places it after the Thaqif delegation; the difference is recorded and not settled here. The description of her parentage is the Dictionary's wording and not evidence of what her worshippers believed.

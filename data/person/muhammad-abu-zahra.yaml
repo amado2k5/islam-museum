@@ -15,7 +15,7 @@ died: { edtf: "1974", precision: year, status: tradition, derived: true }
 born: { edtf: "1898", calendar: gregorian, precision: year, derived: true, note: "1316 AH = 1898 CE as printed in the entry; source: al-Zirikli, al-A'lam, 15th ed. 2002, vol. 6 pp. 25-26", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 relations:
   - { type: born_in, target: place/misr, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q79)" }
-sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002, source/oxford-dictionary-of-islam]
 external_ids:
   wikidata: Q718677
   viaf: "201126558"
@@ -25,6 +25,7 @@ provenance:
   generated_by: "Claude Code (Lane B2 packet)"
   model: claude-sonnet-5-5
   run: web-b2-alam-2026-11-14
+  oxford_captures: "t125/e41: http://www.oxfordislamicstudies.com/article/opr/t125/e41 ; https://web.archive.org/web/20161112222506/http://www.oxfordislamicstudies.com:80/article/opr/t125/e41"
 status:
   review: draft
   completeness: 3

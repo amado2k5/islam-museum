@@ -17,3 +17,8 @@ His works include theological writings (Abkar al-afkar, a refutation of philosop
 
 ## Works in the OpenITI corpus
 The OpenITI corpus holds 3 works under the author identifier 0631SayfDinAmidi, among them: Ghayat Maram; Ihkam Fi Usul Ahkam. {cite:openiti-corpus 0631SayfDinAmidi}
+
+## In The Oxford Dictionary of Islam
+The Oxford Dictionary of Islam describes al-Amidi, who died in 1233, as an influential Shafi'i jurist who integrated theology, kalam, with the methods of jurisprudence. It says he was raised and educated in Baghdad and Damascus, went to Egypt young, where he became famous, was accused of adopting heretical rationalist methods, and returned to [[place/damascus|Damascus]], where he died. Its most famous work named is al-Ihkam fi Usul al-Ahkam. {cite:oxford-dictionary-of-islam e147}
+
+Its course of his life differs from the record above, which has him studying in Baghdad, teaching in Egypt and then coming to Damascus: the entry adds Damascus to the places of his schooling. The difference is recorded from the Dictionary's wording and not settled. The year 1233 agrees with the death year 631 AH in the first source. See [[work/al-ihkam-fi-usul-al-ahkam|al-Ihkam fi Usul al-Ahkam]].

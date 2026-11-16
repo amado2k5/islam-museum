@@ -1,0 +1,23 @@
+id: concept/dhanab-al-khayl
+class: concept
+kind: natural
+label:
+  ar: "ذنب الخيل"
+  en: "Dhanab al-khayl"
+  ur: "ذنب الخیل"
+summary:
+  ar: "ذنب الخيل في الكتاب نبات ينبت في الحفائر والخنادق، بارد في الأولى يابس في الثانية، قابض وخصوصا عصارته شديدة التجفيف بلا لذع، نافع جدا لنزف الدم، يدمل القروح والجراحات ولو كان فيها عصب، وينفع من شدخ أوساط العضل ويضمر قيلة الأمعاء وأورام المعدة والكبد والاستسقاء {cite:canon-ibn-sina-print-v1 pp.719-720}"
+  en: "Dhanab al-khayl is in the book a plant that grows in pits and ditches, cold in the first degree and dry in the second, astringent, its sap especially strongly drying without sting and very beneficial for bleeding; it heals ulcers and wounds even where a nerve is in them, and benefits bruising of the middle of the muscles, hernia of the intestines, and swellings of the stomach and liver, and dropsy {cite:canon-ibn-sina-print-v1 pp.719-720}"
+  ur: "ذنب الخیل کتاب میں ایک پودا ہے جو گڑھوں اور خندقوں میں اگتا ہے، پہلے درجے میں ٹھنڈا اور دوسرے میں خشک، قابض، اور خاص طور پر اس کا رس بغیر چبھن کے بہت خشک کرنے والا ہے اور خون کے بہنے میں بہت نافع؛ زخموں اور جراحتوں کو بھر دیتا ہے چاہے ان میں عصب ہو، اور پٹھوں کے درمیانی حصے کے کچلنے، آنتوں کے فتق، اور معدے اور جگر کے ورموں اور استسقاء میں نافع ہے {cite:canon-ibn-sina-print-v1 pp.719-720}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, scan pages 719-720, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image rendered and read by eye for every heading and doubtful clause; editor footnotes used only for identity; measured doses, weights, counts, times and preparation methods left out; unclear lines left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-32
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

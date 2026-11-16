@@ -18,3 +18,6 @@ No retaliation is due for a blow that removes reason, but blood-money is due for
 
 ## Where to look further
 Blood-money is treated under «diyat», obligation under «taklif», and capacity under «ahliyya» {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11772}.
+
+## In The Oxford Dictionary of Islam
+The Oxford Dictionary of Islam glosses aql as intelligence and then lists its senses field by field. In theology it is the knowledge people have by nature; in philosophy it means the intellect, and in Neoplatonic speculation the first thing God created; in Ismaili thought, an emanation from God; and in jurisprudence, reason as a source of the sharia. It says modern reformers treat aql, understood as rationality, as an integral part of Islam, so that Islam is not opposed to reason. {cite:oxford-dictionary-of-islam e178} These are broad senses across Islamic thought, while the record above deals with reason as the condition of legal responsibility among the jurists; the two are set next to each other.

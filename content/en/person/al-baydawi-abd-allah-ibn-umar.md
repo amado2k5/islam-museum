@@ -16,3 +16,8 @@ The cover of part 4 of the Dar al-Kutub al-Arabiyya al-Kubra printing (Cairo, 13
 
 ## In Tafsir al-Manar
 [[person/rashid-rida|Muhammad Rashid Rida]] quotes al-Baydawi at the opening of the qibla passage of al-Baqara ([[passage/quran-2-142|al-Baqara 142]]): the "foolish" are those whose judgement is light, who make light of imitation and of turning away from reflection. {cite:tafsir-manar-v02 p.3}
+
+## In The Oxford Dictionary of Islam
+The Oxford Dictionary of Islam describes al-Baydawi as a Shafii jurist and Ashari theologian, trained in Baghdad and living in Shiraz, and says he died probably in 1286, possibly as late as 1316. It is best known, it says, for a compact Qur'an commentary with particular attention to grammar and the variant readings, titled Anwar al-Tanzil wa-Asrar al-Ta'wil, which builds on the Kashshaf of [[person/al-zamakhshari|al-Zamakhshari]] (died 1144). {cite:oxford-dictionary-of-islam e319}
+
+The Dictionary says the work became standard across the Muslim world, drew many supercommentaries, is studied in madrasa courses on interpretation, and was among the first Qur'an commentaries printed in Europe, in 1846-48. It also credits him with writing in history, law, grammar and theology. {cite:oxford-dictionary-of-islam e319} The year 1286 agrees with the death date in the record; 1316 is a later alternative the record does not carry.

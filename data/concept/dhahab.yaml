@@ -1,0 +1,23 @@
+id: concept/dhahab
+class: concept
+kind: natural
+label:
+  ar: "ذهب"
+  en: "Dhahab"
+  ur: "ذہب"
+summary:
+  ar: "ذهب في الكتاب جوهر شريف لطيف معتدل، تدخل سحالته في أدوية السوداء وأفضل الكي وأسرعه برءا ما كان بمكوى من ذهب، وإمساكه في الفم يزيل البخر، وتدخل سحالته في أدوية داء الثعلب وداء الحية، ويقوي العين كحلا، وينفع من أوجاع القلب والخفقان وحديث النفس {cite:canon-ibn-sina-print-v1 p.719}"
+  en: "Dhahab is in the book a noble substance, subtle and balanced; its filings enter the drugs for melancholy, the best and quickest-healing cautery is that made with a cautery iron of gold, holding it in the mouth removes foul breath, its filings enter the drugs for da' al-tha'lab and da' al-hayya, it strengthens the eye as kohl, and it benefits pains of the heart, palpitation and hadith al-nafs {cite:canon-ibn-sina-print-v1 p.719}"
+  ur: "ذہب کتاب میں ایک شریف جوہر ہے، لطیف اور معتدل؛ اس کا برادہ سودا کی دواؤں میں داخل ہوتا ہے، اور بہترین اور سب سے جلد شفا دینے والا داغنا وہ ہے جو سونے کی سلاخ سے ہو، اسے منہ میں رکھنا بدبو دور کرتا ہے، اس کا برادہ داء الثعلب اور داء الحیہ کی دواؤں میں داخل ہوتا ہے، سرمے کی صورت میں آنکھ کو قوت دیتا ہے، اور دل کے دردوں، دھڑکن اور حدیث النفس میں نافع ہے {cite:canon-ibn-sina-print-v1 p.719}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, scan pages 719, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image rendered and read by eye for every heading and doubtful clause; editor footnotes used only for identity; measured doses, weights, counts, times and preparation methods left out; unclear lines left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-32
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

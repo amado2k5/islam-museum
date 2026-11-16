@@ -18,3 +18,6 @@ Agnates take priority in washing and praying over the dead, in the guardianship 
 
 ## Where to look further
 Inheritance is treated under «inheritance», custody under «hadana», and the paternal group under «aqila» {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11641}.
+
+## In The Oxford Dictionary of Islam
+The Oxford Dictionary of Islam treats asaba as a legal term for the male relatives who inherit when a man of the family dies, and gives the usual order: sons and grandsons first, then the father and brothers, then uncles and cousins, then the descendants of the deceased's grandfather. It also notes a second use tied to blood money, speaking of those who hold the right to claim it after bodily injury. {cite:oxford-dictionary-of-islam e201} The Kuwaiti Encyclopaedia of Fiqh, used in the record above, speaks instead of agnates sharing in the payment; the two statements touch one subject in different terms.

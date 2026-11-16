@@ -31,3 +31,6 @@ He died on 26 November 1938 at Karol Bagh in Delhi and was buried near the Jama 
 
 - The defined source entities cited above, recorded in `data/source/`.
 - Revisions of this article must be dated, and must name the source that changed each fact.
+
+## In The Oxford Dictionary of Islam
+The Oxford Dictionary of Islam describes Shaukat Ali as one of the two heads of India's Khilafat movement and of the Society of the Servants of the Kaaba, which brought Muslims together to defend Mecca, Medina and Jerusalem during the First World War. It says he opposed the British administration's practice of dividing India's people along confessional lines, and that, as a leader of the Muslim League, he stressed Muslim solidarity beyond India and working together with the Indian National Congress. {cite:oxford-dictionary-of-islam e119}
