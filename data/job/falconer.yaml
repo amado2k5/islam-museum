@@ -1,0 +1,44 @@
+id: job/falconer
+class: job
+label: { ar: "البيّاز ⁦(دوغانجي)⁩", en: "Falconer (doğancı / bâzdâr)", ur: "بازدار ⁦(دوغانجی)⁩" }
+names:
+  - { value: "doğancı", kind: latinized, lang: tr }
+  - { value: "bâzdâr", kind: latinized }
+  - { value: "bayzara", kind: latinized }
+  - { value: "sayyâd", kind: latinized }
+  - { value: "şahinci", kind: latinized, lang: tr }
+  - { value: "çakırcı", kind: latinized, lang: tr }
+  - { value: "atmacacı", kind: latinized, lang: tr }
+summary:
+  ar: "الدوغانجي يربّي الصقر — الدّوغان من كلمة تركية ⁦(توغان)⁩ — ويصيد به، ويسمّى أيضاً البازدار. كان صيد الجوارح قديماً قبل التاريخ، وعند دول الترك والإسلام قوّام للصيد: أمير شكار عند السلاجقة بمرتبة أمير، وعند مماليك مصر أمير عشرة مع حراسة الطير والهايوندار. وعند العثمانيين صارت الصقّارة دوغانجيلر: غرفة في إندرون يقودها الدوغانجي باشي من سنة 1478، وفي الولايات أكثر من ألفي مربٍّ موقوف معفى من الضرائب يتوارثها الآباء عن الأبناء، حتى ألغى محمود الثاني التنظيم سنة 1830."
+  en: "The doğancı rears the falcon — doğan from Turkish togan — and hunts with it; he is also called bâzdâr. Falconry reaches back before history, and the Turkish-Islamic states kept hunt officers: the emîr-i şikâr of the Seljuks held amir's rank, and Mamluk Egypt had a hunt emir of ten with the hirâsetü't-tayr and hayvandar beside him. Under the Ottomans the falconers became the doğancıs: an Enderun ward led by the doğancıbaşı from 1478, and in the provinces more than two thousand timar-holding, tax-exempt bird-keepers whose berats passed father to son — until Mahmud II abolished the institution in 1830."
+  ur: "دوغانجی شکرے کو پالتا اور اس سے شکار کرتا ہے — دوغان ترکی لفظ توغان سے — اور اسے بازدار بھی کہتے ہیں۔ بازداری تاریخ سے پہلے کی ہے، اور ترک-اسلامی سلطنتوں میں شکار کے افسر تھے: سلجوقوں کا امیرِ شکار امیر کے درجے کا تھا، اور مملوک مصر میں شکار کا امیر دہری جس کے ساتھ حراست الطیر اور حیوندار تھے۔ عثمانیوں میں بازدار دوغانجی بنے: 1478 سے اندرون کی کوٹھڑی جس کا سردار دوغانجی باشی، اور صوبوں میں دو ہزار سے زائد تیمار دار، محصول سے معاف پرندہ پال جن کی برات باپ سے بیٹے کو منتقل ہوتی تھی — یہاں تک کہ سلطان محمود ثانی نے 1830 میں یہ ادارہ ختم کیا۔"
+domain: land-water
+kind: office
+hirfa: false
+era:
+  origins: pre-islamic
+  status_today: transformed
+places:
+  - { place: place/istanbul, note: "The doğancı ward stood in Topkapı's third court between the treasury and the Has Oda; in the early seventeenth century the palace şikâr people — doğancı, şahinci, atmacacı — numbered 592, of whom thirty were doğancıs.", sources: [source/tdv-doganci] }
+  - { place: place/uskudar, note: "The quarter where the men who looked after the hunting birds were settled is still called Doğancılar; armies marching east were feasted on that meydan.", sources: [source/tdv-doganci] }
+regions: [anatolia-balkans, persia-central-asia, egypt-nile, levant-iraq, arabia]
+organization:
+  organized: court-office
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people]
+periods: [period/pre-islamic-arabia, period/umayyad, period/abbasid-early, period/abbasid-fragmentation, period/buyid-seljuk-fatimid-era, period/crusades-ayyubid-mamluk, period/mongol-post-mongol, period/gunpowder-empires, period/modern-era]
+sources: [source/tdv-doganci, source/tdv-avci]
+training:
+  mode: mixed
+  certification: "Two lines. In the palace, devşirme acemi oğlanlar were picked, served a time at the Edirne, Galata and İbrahim Paşa palaces, and entered Enderun as doğancı şâkirdi to continue their training; the twelve senior doğancıs held the privileges of the treasury-room staff. In the provinces the craft ran in families — doğancılık generally passed father to son, falling to the nearest kinsman when there was no son — under berats renewed each accession."
+  duration: "The bird had to be caught, manned and flown: the provincial raiser learned beside his father among the gürenceci, kayacı, kümeci, sayyâd, tuzakçı and yuvacı specialists."
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-land-1" }
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi, 'DOĞANCI' and 'AVCI' (Özcan 1994; Işık 1991), web editions read on 16 Nov 2026"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-land-1-drafting"

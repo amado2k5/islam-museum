@@ -1,0 +1,46 @@
+id: job/camel-driver
+class: job
+label: { ar: "الجمّال", en: "Camel-driver (deveci / sarbân)", ur: "اونٹ بان ⁦(سربان)⁩" }
+names:
+  - { value: "جمّال", kind: alternate }
+  - { value: "سائق الإبل", kind: alternate }
+  - { value: "deveci", kind: latinized, lang: tr }
+  - { value: "şütürbân", kind: latinized, lang: tr }
+  - { value: "sârbân", kind: latinized }
+  - { value: "sarvân", kind: latinized }
+  - { value: "buğurcu", kind: latinized, lang: tr }
+  - { value: "mekkâr", kind: latinized }
+  - { value: "hâdî", kind: alternate }
+summary:
+  ar: "الجمّال يسوق الإبل في القوافل والعساكر والحج. عند العثمانيين كانت فرق الجمالة ⁦(شطربان)⁩ من أوائل ينكچري: خمس وعشرون أورطة جمّالة في منتصف القرن السابع عشر، أقدمها «باش دوه جي»، ودُفع لهم أرزاق بثمانية وعشرين ألف أقچة في القرن السادس عشر؛ وفي القصر ساربان للإبل — ساربان ماده للإناث وساربان نر للذكور — وألف كتار في الحظيرة الخاصة. ويقود الجمّال الكتار بخيط في منخر كل ناقة معقود بعجز التي قبلها، ويطلق نغمات الهداء التي كان الصحابي أنجشة ماهراً فيها."
+  en: "The cameleer drives camels in caravans, armies and the pilgrimage. Among the Ottomans the camel-men's companies (şütürbân) stood inside the Janissary corps: twenty-five cameleer ortas by the mid-seventeenth century, the most senior under the başdeveci, granted zeâmets of 28,000 akçe in the sixteenth; the palace kept its sârbân — sârbân-ı mâde over the females and sârbân-ı ner over the males — and a thousand katars in the Has Ahır. The driver led the katar by a thread through each camel's nostril knotted to the rump of the one before, sounding the hidā riding-songs in which the Companion Anjasha was skilled."
+  ur: "اونٹ بان قافلوں، لشکر اور حج کی راہ میں اونٹ ہانکتا ہے۔ عثمانیوں میں اونٹ والوں کی کمپنیاں ⁦(شطربان)⁩ ینی چری فوج کا حصہ تھیں: سترہویں صدی کے وسط میں پچیس اونٹچی اورتا، سردار باشدوہ جی، سولہویں صدی میں انہیں اٹھائیس ہزار آقچہ کے زعامت دیے گئے؛ محل میں اونٹوں کے ساربان — مادہ اونٹوں کے ساربانِ مادہ اور نر اونٹوں کے ساربانِ نر — اور خاص آخر میں ایک ہزار کتار۔ ڈرائیور ہر اونٹ کی نتھنے میں ڈالی گئی ڈور کو آگے والے کی کمر سے باندھ کر کتار چلاتا اور ہداء کے گیت گاتا، جن میں صحابی انجشہ ماہر تھے۔"
+domain: land-water
+kind: service
+hirfa: false
+era:
+  origins: pre-islamic
+  status_today: transformed
+places:
+  - { place: place/istanbul, note: "Evliya counts a thousand camel-drivers (Shuturban, Sarban) attendant on the pilgrimage caravan in the procession, their patron Weis-ul-Karni of Yemen; the DEVE entry gives twenty-five cameleer ortas in the Janissary corps and a thousand katars in the Has Ahır.", sources: [source/evliya-seyahatname-hammer, source/tdv-deve] }
+  - { place: place/mecca, note: "The surre alays were sent to the Hejaz by camel and the people went on hajj by camel; Evliya's cameleers marched in armour with drums and fifes beside the sacred camel's litter.", sources: [source/tdv-deve, source/evliya-seyahatname-hammer] }
+regions: [arabia, anatolia-balkans, persia-central-asia, egypt-nile, levant-iraq, maghreb, south-asia, west-africa-sahel]
+organization:
+  organized: mixed
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people, living]
+periods: [period/pre-islamic-arabia, period/prophetic-era, period/umayyad, period/abbasid-early, period/abbasid-fragmentation, period/buyid-seljuk-fatimid-era, period/crusades-ayyubid-mamluk, period/mongol-post-mongol, period/gunpowder-empires, period/modern-era]
+sources: [source/tdv-deve, source/evliya-seyahatname-hammer]
+training:
+  mode: hereditary-family
+  certification: "The state hired Turkmen tribesmen for the campaigns' baggage camels and held the buğurcu families obliged to breed camels for it; the palace sârbân and the Janissary şütürbân learned inside their ortas. The craft itself — the nose-rope katar, the pack-saddles, the tar-and-grease püse treatment, the hidā songs — was carried in the caravan and the family herd."
+  duration: "Learned on the march; a campaign began with fattening and greasing the camels, and the drivers were held to the state of their animals."
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-land-1" }
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi, 'DEVE' (Önkal & Bozkurt; Öğüt, 1994), web edition read on 16 Nov 2026; Evliya Çelebi, Narrative of Travels, tr. Hammer, vol. I pt II (1846), section 90"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-land-1-drafting"
