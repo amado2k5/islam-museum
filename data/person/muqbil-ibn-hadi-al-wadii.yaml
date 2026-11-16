@@ -15,6 +15,17 @@ themes: [scripture-and-its-sciences]
 regions: [arabia]
 born: { edtf: "1933", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Official Biography / Tarjamah Dhatiyya" }
 died: { edtf: "2001", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Official Biography / Tarjamah Dhatiyya" }
+occupations:
+  - job: job/muhaddith
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'muhaddith', Job Browser linking wave"
+    sources: [source/mustadrak-haramayn-1997-v1, source/wikidata-muqbil-ibn-hadi-al-wadii]
+  - job: job/alim
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave"
+    sources: [source/mustadrak-haramayn-1997-v1, source/wikidata-muqbil-ibn-hadi-al-wadii]
 relations:
   - { type: lived_in, target: place/yemen, sources: [source/mustadrak-haramayn-1997-v1] }
   - { type: lived_in, target: place/mecca, sources: [source/mustadrak-haramayn-1997-v1] }

@@ -15,6 +15,17 @@ regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
 born: { edtf: "1520", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Agrees with Wikidata Q717115 (P569, a statement without a reference), item revision 2566907970, read on 13 November 2026.", sources: [source/wikidata] }
 died: { edtf: "1596", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Confirmed on 13 November 2026 against Wikidata Q717115 (P570, a statement with a reference), item revision 2566907970.", sources: [source/wikidata] }
+occupations:
+  - job: job/grand-vizier
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'grand-vizier', Job Browser linking wave"
+    sources: [source/dawlat-uthmaniyya-salabi]
+  - job: job/commander
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'military-leader', Job Browser linking wave"
+    sources: [source/dawlat-uthmaniyya-salabi]
 relations:
   - { type: born_in, target: place/dib-r-district, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q192123)" }
   - { type: died_in, target: place/istanbul, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q406)" }

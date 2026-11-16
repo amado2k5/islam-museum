@@ -40,6 +40,17 @@ died:
   note: "Both articles close his life about 1554 and the English infobox names Tunis as the place of death, but the end is not documented and the English article sets out three theories: that he stayed in Rome and died there about 1550; that he left before the Sack of Rome in 1527, returned to North Africa and lived in Tunis until some time after 1550; and that after Charles V's capture of Tunis in 1535 he moved on to Morocco, his second home. Wikidata's death values (1548, 1550, and even 1600) restate the same uncertainty. No Hijri year is recorded."
   sources: [source/wikipedia-leo-africanus-en, source/wikipedia-leo-africanus-ar, source/wikidata-leo-africanus]
 
+occupations:
+  - job: job/geographer
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'geographer', Job Browser linking wave"
+    sources: [source/wikipedia-leo-africanus-en, source/wikipedia-leo-africanus-ar, source/wikidata-leo-africanus, source/wikidata]
+  - job: job/diplomat
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'diplomat', Job Browser linking wave"
+    sources: [source/wikipedia-leo-africanus-en, source/wikipedia-leo-africanus-ar, source/wikidata-leo-africanus, source/wikidata]
 relations:
   - { type: born_in, target: place/granada, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-leo-africanus] }
   - { type: born_in, target: place/granada, sources: [source/wikipedia-leo-africanus-en, source/wikipedia-leo-africanus-ar] }
