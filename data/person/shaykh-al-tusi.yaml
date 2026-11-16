@@ -22,6 +22,22 @@ faith:
 - { value: shia-twelver, basis: tradition, note: "head of the Imami school ('shaykh al-ta'ifa') per the biographical tradition {cite:encyclopaedia-of-islam-2 vol. 10 p. 745}" }
 story_roles:
   - { role: scholar, status: tradition, sources: [source/encyclopaedia-of-islam-2] }
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 29"
+    sources: [source/encyclopaedia-of-islam-2, source/tarikh-islam-dhahabi, source/muntazam-ibn-al-jawzi, source/al-aalam, source/musawat-atabat, source/openiti-corpus, source/wikidata]
+  - job: job/mutakallim
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'theologian', Job Browser linking wave 29"
+    sources: [source/encyclopaedia-of-islam-2, source/tarikh-islam-dhahabi, source/muntazam-ibn-al-jawzi, source/al-aalam, source/musawat-atabat, source/openiti-corpus, source/wikidata]
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'jurist', Job Browser linking wave 29"
+    sources: [source/encyclopaedia-of-islam-2, source/tarikh-islam-dhahabi, source/muntazam-ibn-al-jawzi, source/al-aalam, source/musawat-atabat, source/openiti-corpus, source/wikidata]
 relations:
   - { type: student_of, target: person/al-shaykh-al-mufid, sources: [source/encyclopaedia-of-islam-2, source/tarikh-islam-dhahabi] }
   - { type: student_of, target: person/al-sharif-al-murtada, sources: [source/encyclopaedia-of-islam-2] }
@@ -45,14 +61,13 @@ external_ids:
   wikidata: Q4116347
   openiti: "0460ShaykhTusi"
   viaf: "111538165"
-sources: [source/encyclopaedia-of-islam-2, source/tarikh-islam-dhahabi, source/muntazam-ibn-al-jawzi, source/al-aalam, source/musawat-atabat, source/openiti-corpus, source/wikidata, source/oxford-dictionary-of-islam]
+sources: [source/encyclopaedia-of-islam-2, source/tarikh-islam-dhahabi, source/muntazam-ibn-al-jawzi, source/al-aalam, source/musawat-atabat, source/openiti-corpus, source/wikidata]
 provenance:
   layer: own-research
   source: "Encyclopaedia of Islam 2nd ed. vol. 10 art. AL-TUSI, MUHAMMAD B. AL-HASAN B. 'ALI printed pp. 744-745 (harvest OCR); al-Dhahabi, Tarikh al-Islam s.a. 460 printed pp. 490-491 (harvest OCR); al-Muntazam j.8 pp. 514, 521; al-Zirikli, al-A'lam; Mawsu'at al-Atabat"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: explorer-shaykh-al-tusi-1
-  oxford_captures: "t125/e2407: http://oxfordislamicstudies.com/article/opr/t125/e2407 ; https://web.archive.org/web/20160822002625/http://oxfordislamicstudies.com/article/opr/t125/e2407"
 status:
   review: published
   completeness: 2

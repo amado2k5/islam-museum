@@ -32,6 +32,11 @@ occupations:
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/tarikh-islam-hasan-ibrahim]
+  - job: job/emir
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'emir', Job Browser linking wave 29"
+    sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 born: { edtf: "1671", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Nizam al-Mulk Asaf Jah I) Agrees with Wikidata Q29896 (P569, a statement without a reference), item revision 2562783742, read on 13 November 2026.", sources: [source/wikidata] }
 died: { edtf: "1748", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Nizam al-Mulk Asaf Jah I) Agrees with Wikidata Q29896 (P570, a statement without a reference), item revision 2562783742, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
