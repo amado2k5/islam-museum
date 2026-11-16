@@ -1,0 +1,33 @@
+id: concept/su-al-tanaffus
+class: concept
+kind: scientific
+label:
+  ar: "سوء التنفس"
+  en: "Faulty breathing"
+  ur: "خراب تنفس"
+summary:
+  ar: "سوء التنفس يعم الأحوال الخارجة عن الطبيعة في التنفس التي لا تتبع أعراضاً صحية بل أعراضاً مرضية آلية وذلك مثل عسر النفس وضيق النفس وتضاعف النفس وانقطاع النفس ونفس الانتصاب، وقد يعرض لأنواع سوء المزاج والامتلاء والسدد ومجاورة ضواغط وأورام وأوجاع ولموانع للحركة ولقروح في الحجاب ونواحي الصدر وسقوط القوة من أمراض ناهكة وحميات حادة وبائية وسموم مشروبة، وكل سوء تنفس وضيقه وعسره لمادة فإنه يزداد عند الاستلقاء ويكون وسطاً عند الاضطجاع على جنب ويخف مع الانتصاب وفي الخوانيق يشتد {cite:canon-ibn-sina-print-v2 p.312}"
+  en: "Faulty breathing covers all the states departing from the natural in breathing that follow no healthy signs but sick instrumental ones — such as the hard breath, the narrow breath, the doubled breath, the cut breath and the upright breath. It may arise for the kinds of bad temperament, fullness and blockages; for the neighbourhood of pressing things, tumours and pains; for hindrances to motion; for ulcers in the diaphragm and the chest's quarters; and for the power's falling from wasting diseases, acute and epidemic fevers, and drunk poisons. Every faulty breathing — its narrowness and its hardness that is from matter — worsens on lying flat, is middling lying on a side, and lightens with sitting upright; and in the quinsies it is at its strongest {cite:canon-ibn-sina-print-v2 p.312}"
+  ur: "خراب تنفس تنفس کی ان تمام حالتوں کا نام ہے جو فطرت سے خارج ہیں اور صحیح اعراض کی نہیں بلکہ آلی مرضی اعراض کی پیروی کرتی ہیں جیسے عسر النفس تنگ نفس دہری نفس منقطع نفس اور کھڑی نفس؛ یہ بد مزاج کی اقسام امتلاء اور سدد سے ہو سکتا ہے دبانے والی چیزوں سوجنوں اور دردوں کے قرب سے حرکت کے موانع سے حجاب اور سینے کے اطراف میں قروح سے اور قوت کے گرنے سے خشک کرنے والی بیماریوں شدید اور وبائی بخاروں اور پئے ہوئے زہروں سے؛ اور ہر خراب تنفس اس کی تنگی اور دشواری جو مادہ سے ہو لیٹنے پر بڑھتی ہے پہلو پر لیٹنے پر درمیانی رہتی ہے اور کھڑے ہونے پر ہلکی ہوتی ہے اور خوانق میں وہ سب سے سخت ہوتی ہے {cite:canon-ibn-sina-print-v2 p.312}"
+wings:
+- living
+tags:
+- tibb-browser
+- tibb-tibb
+sources:
+- source/canon-ibn-sina-print-v2
+relations:
+- type: part_of
+  target: concept/disease
+  sources:
+  - source/canon-ibn-sina-print-v2
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 10 (the lung and the chest, five maqalas), maqala 1, 'fasl fi kalam kulli fi su al-tanaffus', scan pages 312, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json, copied to /tmp before reading); the edition's English parenthetical glosses ignored as apparatus; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes and application forms left out; venesection, cupping and operative sites carried only as named by the book; the tools' and hands' works carried only as the book's descriptions, not as procedures; unclear OCR words carried as printed, not guessed; transmitted sayings, tried-remedy reports and named attributions carried as the book's attributions and labelled; animal-derived and unclean lines kept only as labelled listings set aside for the founder's ruling"
+  generated_by: Devin subagent (SWE-2 Medium, Lane A4 worker)
+  model: swe-2-medium
+  run: a4-canon-book3-16
+status:
+  review: published
+  completeness: 1
+  generated_by: Devin subagent (SWE-2 Medium, book mining, lane A4)

@@ -1,0 +1,33 @@
+id: concept/al-adwiya-al-sadriyya
+class: concept
+kind: scientific
+label:
+  ar: "الأدوية الصدرية"
+  en: "The chest drugs"
+  ur: "صدری ادویہ"
+summary:
+  ar: "الأدوية الصدرية هي الأدوية التي تنقي الصدر وهي على مراتب الأولى أضعفها ثم ما فوقها قوة إلى أقواها وفيها من ينفث الأخلاط الغليظة والمدة ومنها الحبوب والمشارب والمعاجين والمباخر والمركبات التي سماها الكتاب بأسماء أصحابها ⁦(والكتاب يعدد المفردات والمركبات بأسمائها ونسخها ومقاديرها وما جرب فيها ولا ينقل شيء منها بحسب القاعدة بل تذكر المراتب والهيئات فقط)⁩ {cite:canon-ibn-sina-print-v2 p.305}"
+  en: "The chest drugs are the drugs that cleanse the chest, and they are in ranks: the first rank the weakest, then what is above it in strength, up to the strongest; among them is what raises the thick humours and the pus, and among them are the pills, the draughts, the electuaries and the fumigations, and compounds the book names by their authors' names (the book lists the simples and the compounds by name, formula and measure, and what was tried of them; none of that is carried, per the rule — only the ranks and the forms are told) {cite:canon-ibn-sina-print-v2 p.305}"
+  ur: "صدری ادویہ وہ ہیں جو سینے کو صاف کریں اور وہ درجوں میں ہیں پہلا درجہ کمزور ترین پھر اس سے اوپر قوت میں بڑھتے ہوئے مضبوط ترین تک؛ ان میں کچھ ہیں جو گاڑھے اخلاط اور مدہ اٹھوائیں اور ان میں گولیاں مشروبات معاجین اور دھونیاں ہیں اور ایسے مرکب بھی جنہیں کتاب نے ان کے واضعین کے ناموں سے موسوم کیا ⁦(کتاب مفردات اور مرکبات کو نام نسخہ اور مقدار کے ساتھ شمار کرتی ہے اور ان میں آزمائے ہوئے بھی؛ ان میں سے کچھ بھی اصول کے مطابق نہیں لایا گیا — صرف درجے اور صورتیں بیان کی گئیں)⁩ {cite:canon-ibn-sina-print-v2 p.305}"
+wings:
+- living
+tags:
+- tibb-browser
+- tibb-tibb
+sources:
+- source/canon-ibn-sina-print-v2
+relations:
+- type: part_of
+  target: concept/medical-treatment
+  sources:
+  - source/canon-ibn-sina-print-v2
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 10 (the lung and the chest, five maqalas), maqala 1, 'fasl fi al-adwiya al-sadriyya al-mufrada wa-al-murakkaba wa-wajhat istimaliha', scan pages 305-306, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json, copied to /tmp before reading); the edition's English parenthetical glosses ignored as apparatus; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes and application forms left out; venesection, cupping and operative sites carried only as named by the book; the tools' and hands' works carried only as the book's descriptions, not as procedures; unclear OCR words carried as printed, not guessed; transmitted sayings, tried-remedy reports and named attributions carried as the book's attributions and labelled; animal-derived and unclean lines kept only as labelled listings set aside for the founder's ruling"
+  generated_by: Devin subagent (SWE-2 Medium, Lane A4 worker)
+  model: swe-2-medium
+  run: a4-canon-book3-16
+status:
+  review: published
+  completeness: 1
+  generated_by: Devin subagent (SWE-2 Medium, book mining, lane A4)

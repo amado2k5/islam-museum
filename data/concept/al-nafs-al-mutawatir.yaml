@@ -1,0 +1,33 @@
+id: concept/al-nafs-al-mutawatir
+class: concept
+kind: scientific
+label:
+  ar: "النفس المتواتر"
+  en: "The frequent breath"
+  ur: "متواتر سانس"
+summary:
+  ar: "النفس المتواتر هو الذي يقصر الزمان بينه وبين الذي قبله ومن أسبابه شدة الحاجة إذا لم تنقض بالعظم والسرعة لأنها أكثر من البلوغ إليه بهما لأن دونهما حائل من وجع أو ورم أو ضيق لمواد كثيرة أو انضغاط أو انصباب قيح أو شيء آخر من أسباب الضيق، والنفس المتواتر على ما شهد أبقراط يستتبع آفة لتجفيف الرئة وأتعاب أعضاء النفس ⁦(قول منسوب على لفظ الكتاب)⁩ {cite:canon-ibn-sina-print-v2 p.311}"
+  en: "The frequent breath is the breath where the time between it and the one before is short; among its causes is the need's intensity when it is not finished off by largeness and swiftness — for the need is more than what those two can reach, since short of them stands a bar: a pain, a tumour, a narrowness from many matters, a compression, a pouring-in of pus, or another of the narrowness's causes. The frequent breath — as Hippocrates testified — entails a harm, for the drying of the lung and the tiring of the breath's organs (a saying carried on the book's wording) {cite:canon-ibn-sina-print-v2 p.311}"
+  ur: "متواتر سانس وہ ہے جس میں اس اور اس سے پہلی سانس کے درمیان زمانہ کم ہوتا ہے؛ اس کے اسباب میں ضرورت کی شدت ہے جب وہ بڑائی اور تیزی سے پوری نہ ہو کیونکہ ضرورت ان دونوں کی پہنچ سے زیادہ ہے اور ان کے آگے کوئی حائل کھڑا ہے: درد سوجن کثیر مواد کی تنگی دباؤ صديد کا انصباب یا تنگی کا کوئی اور سبب؛ اور متواتر سانس — جیسا کہ بقراط نے گواہی دی — آفت کا پیروکار ہوتی ہے پھیپھڑے کے خشک ہونے اور تنفس کے اعضاء کے تھک جانے کی وجہ سے ⁦(کتاب کے لفظ پر منسوب قول)⁩ {cite:canon-ibn-sina-print-v2 p.311}"
+wings:
+- living
+tags:
+- tibb-browser
+- tibb-tibb
+sources:
+- source/canon-ibn-sina-print-v2
+relations:
+- type: part_of
+  target: concept/symptoms-and-signs
+  sources:
+  - source/canon-ibn-sina-print-v2
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 10 (the lung and the chest, five maqalas), maqala 1, 'fasl fi al-nafs al-mutawatir', scan pages 311, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json, copied to /tmp before reading); the edition's English parenthetical glosses ignored as apparatus; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes and application forms left out; venesection, cupping and operative sites carried only as named by the book; the tools' and hands' works carried only as the book's descriptions, not as procedures; unclear OCR words carried as printed, not guessed; transmitted sayings, tried-remedy reports and named attributions carried as the book's attributions and labelled; animal-derived and unclean lines kept only as labelled listings set aside for the founder's ruling"
+  generated_by: Devin subagent (SWE-2 Medium, Lane A4 worker)
+  model: swe-2-medium
+  run: a4-canon-book3-16
+status:
+  review: published
+  completeness: 1
+  generated_by: Devin subagent (SWE-2 Medium, book mining, lane A4)

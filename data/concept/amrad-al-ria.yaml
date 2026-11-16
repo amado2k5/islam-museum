@@ -1,0 +1,33 @@
+id: concept/amrad-al-ria
+class: concept
+kind: scientific
+label:
+  ar: "الأمراض التي تعرض للرئة"
+  en: "The diseases that befall the lung"
+  ur: "بیماریاں جو پھیپھڑے کو عارض ہوتی ہیں"
+summary:
+  ar: "تعرض للرئة الأمراض المختصة بالمتشابهة الأجزاء والأمراض الآلية وخصوصاً السدد في عروقها وأجزاء قصبتها وخصوصاً العروق الخشنة وفي خلخلة جرمها وقد تكون لأسباب السدد كلها حتى الانطباق والأمراض المشتركة، وقد تكثر أمراض الرئة في الشتاء والخريف لكثرة النوازل وخصوصاً في خريف مطير بعد صيف يابس شمالي، والهواء البارد ضار بالرئة إلا أن تكون متأذية بالحر الشديد، وكثيراً ما تؤدي أمراض الرئة إلى أمراض الكبد كما تؤدي شدة بردها وشدة حرها إلى الاستسقاء وكذلك الحجاب {cite:canon-ibn-sina-print-v2 p.305}"
+  en: "There befall the lung the diseases proper to the like-parts and the instrumental diseases — above all the blockages in its vessels and the parts of its windpipe, especially the rough vessels, and in the sponginess of its body, and these may arise for every cause of blockage up to apposition — and the shared diseases. The lung's diseases may multiply in winter and autumn for the many catarrhs, above all in a rainy autumn after a dry northerly summer; cold air harms the lung unless it is already afflicted by fierce heat; and the lung's diseases often lead to the liver's diseases, as the fierceness of its cold and its heat lead to dropsy — and so does the diaphragm's {cite:canon-ibn-sina-print-v2 p.305}"
+  ur: "پھیپھڑے کو وہ بیماریاں ہوتی ہیں جو متماثل الاجزاء کے اعضاء کو مخصوص ہیں اور آلی بیماریاں — خصوصاً اس کی عروق اور قصبہ کے اجزاء میں سدد بالخصوص کھردری عروق میں اور اس کے جسم کے متخلخل ہونے میں اور یہ تمام اسباب سدہ سے حتی کہ انطباق تک ہو سکتی ہیں — اور مشترک بیماریاں بھی؛ پھیپھڑے کی بیماریاں سردی اور خزاں میں نوازل کی کثرت سے بڑھ سکتی ہیں خصوصاً ایسی خزاں میں جو شمالی خشک گرمی کے بعد برساتی ہو؛ ٹھنڈی ہوا پھیپھڑے کو نقصان دیتی ہے مگر یہ کہ وہ پہلے ہی سخت گرمی سے متاثر ہو؛ اور پھیپھڑے کی بیماریاں اکثر جگر کی بیماریوں کی طرف لے جاتی ہیں جیسا کہ اس کی سخت ٹھنڈ اور سخت گرمی استسقا کی طرف — اور حجاب کی بھی {cite:canon-ibn-sina-print-v2 p.305}"
+wings:
+- living
+tags:
+- tibb-browser
+- tibb-tibb
+sources:
+- source/canon-ibn-sina-print-v2
+relations:
+- type: part_of
+  target: concept/disease
+  sources:
+  - source/canon-ibn-sina-print-v2
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 10 (the lung and the chest, five maqalas), maqala 1, 'fasl fi al-amrad allati taridu lil-ria', scan pages 305, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json, copied to /tmp before reading); the edition's English parenthetical glosses ignored as apparatus; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes and application forms left out; venesection, cupping and operative sites carried only as named by the book; the tools' and hands' works carried only as the book's descriptions, not as procedures; unclear OCR words carried as printed, not guessed; transmitted sayings, tried-remedy reports and named attributions carried as the book's attributions and labelled; animal-derived and unclean lines kept only as labelled listings set aside for the founder's ruling"
+  generated_by: Devin subagent (SWE-2 Medium, Lane A4 worker)
+  model: swe-2-medium
+  run: a4-canon-book3-16
+status:
+  review: published
+  completeness: 1
+  generated_by: Devin subagent (SWE-2 Medium, book mining, lane A4)
