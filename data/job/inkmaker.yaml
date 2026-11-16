@@ -1,0 +1,39 @@
+id: job/inkmaker
+class: job
+label: { ar: "صانع الحبر", en: "Inkmaker", ur: "روشنائی ساز" }
+names:
+  - { value: "مُرَكَّبجي", kind: alternate }
+  - { value: "mürekkepçi", kind: latinized, lang: tr }
+summary:
+  ar: "صانع الحبر ⁦(مُرَكَّبجي)⁩ هو الحِرفي الذي يُعدّ مواد الكتابة السائلة للخطّاطين والنسّاخ: أهمّها حبر الإس، وهو سُخام يُستخرج من حرق زيوت وشموع ثم يُمزج بمحلول الصمغ العربي ويُدقّ في هاون حجري أياماً حتى يذوب تماماً، ويُصفَّى ويُخفَّف بقوام مختلف لكل خط."
+  en: "The inkmaker (mürekkepçi) prepared liquid writing materials for calligraphers and copyists, above all soot (is) ink: lampblack from controlled burning of oils and waxes, worked into a gum-arabic solution, pounded in a stone mortar for days until it dissolved, then strained and diluted to a different consistency for each script."
+  ur: "روشنائی ساز ⁦(مُرکّبچی)⁩ وہ کاریگر ہے جو خطاطوں اور نساخوں کے لیے سیاہی تیار کرتا ہے؛ اہم ترین دھویں ⁦(اس)⁩ کی سیاہی ہے: کنٹرول شدہ حالت میں تیل اور موم جلا کر ملنے والا کالک جسے گوند عربی کے محلول میں پیس کر پتھر کی اوکھلی میں دنوں کُٹا جاتا، پھر چھان کر ہر خط کے لیے الگ قوام پر پتلا کیا جاتا۔"
+domain: arts-letters
+kind: craft
+hirfa: true
+era:
+  origins: pre-islamic
+  status_today: transformed
+places:
+  - { place: place/istanbul, note: "Ottoman soot-burners (is esnafı) kept ishâne workshops by the Tekfur Sarayı in Eğrikapı; Süleymaniye Mosque preserves its is odası collecting lampblack from olive-oil lamps.", sources: [source/tdv-murekkep] }
+regions: [anatolia-balkans]
+organization:
+  organized: guild
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people, living]
+periods: [period/crusades-ayyubid-mamluk, period/gunpowder-empires, period/modern-era]
+sources: [source/tdv-murekkep]
+craft:
+  materials: [ink, ceramic, wood]
+  guild:
+    bodies: []
+    shaykh_title: { ar: "بير", en: "pir", ur: "پیر" }
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-art-1" }
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi, 'MÜREKKEP' (M. Uğur Derman, 2006), web edition read in full on 15 Nov 2026. The entry describes ink materials, recipes, manufacture and the Ottoman trade; it gives no guild census for ink-makers and no wage series."
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-art-1-drafting"

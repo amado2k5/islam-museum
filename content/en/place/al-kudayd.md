@@ -13,3 +13,11 @@ The spot is bound to the traveller's licence to break the fast in Ramadan, after
 
 ## For young visitors
 A water-well between Asfan and Mecca where the army camped while fasting; the Prophet drank the water to teach people that long travel carries a licence to break the fast.
+
+## In Yaqut's Mu'jam al-buldan
+
+Yaqut records two readings of the name, one with a raised first letter and a kasra on the second, with a yā' and a final dāl. The word means fine dust that clings to the legs of a beast, and some say rough ground. Abu Ubayda says it is ground that forms valleys or is wider than them. It is a place in the Hijaz forty-two miles from Mecca, and there is a Day of al-Kudayd among the days of the Arabs. {cite:mujam-al-buldan-sader-1995 4 p.442}
+
+Yaqut quotes Ibn Ishaq that the Prophet set out for Mecca in Ramadan and fasted, and his companions fasted with him, until when he reached al-Kudayd, between Usfan and Amaj, he broke his fast. {cite:mujam-al-buldan-sader-1995 4 p.442}
+
+Yaqut also records al-Kudayda, a water belonging to Abu Bakr ibn Kilab, an ancient well from the age of ignorance (jahiliyya). {cite:mujam-al-buldan-sader-1995 4 p.442}

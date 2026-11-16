@@ -1,0 +1,110 @@
+id: invention/razi-smallpox-treatise
+class: invention
+label:
+  ar: "رسالة الرازي في الجدري والحصبة"
+  en: "Al-Razi's treatise on smallpox and measles"
+  ur: "رازی کا چیچک اور خسرہ پر رسالہ"
+names:
+  - { value: "de variolis et morbillis", kind: alternate, lang: la }
+  - { value: "smallpox-measles differentiation", kind: alternate, lang: en }
+summary:
+  ar: "رسالة الرازي «في الجدري والحصبة» أول كتاب معروف يفصل بين مرضين كان الناس يخلطونهما — الجدري والحصبة — فيصف أعراض كل منهما وأسبابه وعلاجه؛ نقلت إلى اللاتينية وطبعت منذ القرن الخامس عشر وظلّت مرجعاً في التشخيص التفريقي."
+  en: "Al-Razi's treatise on smallpox and measles is the first known book to separate two diseases people had conflated — describing each one's symptoms, causes and treatment; it passed into Latin, was printed from the fifteenth century and remained a reference in differential diagnosis."
+  ur: "رازی کا چیچک اور خسرہ پر رسالہ پہلی معلوم کتاب ہے جس نے دو بیماریوں الگ کیں جو لوگ ملا کر دیکھتے تھے — ہر ایک کی علامات، اسباب اور علاج بیان کرتے ہوئے؛ یہ لاطینی میں منتقل ہوئی، پندرہویں صدی سے چھپتی رہی اور تفریق تشخیص کا مرجع رہی۔"
+domain: medicine-surgery
+kind: method
+disciplines: [medicine]
+wings: [ideas]
+regions: [persia-central-asia]
+periods: [period/abbasid-fragmentation]
+themes: [medicine]
+era:
+  origins: abbasid-golden
+  first_attested:
+    edtf: "0910~"
+    hijri: "0298~"
+    calendar: julian
+    precision: century
+    status: historical
+    note: "Written in al-Razi's lifetime (d. 925 CE); Greenhill's 1848 English translation is the standard modern witness {cite:razi-greenhill-smallpox-1848}."
+    sources: [source/razi-greenhill-smallpox-1848]
+  status_today: replaced
+origin:
+  place: place/rayy
+  context:
+    ar: "الري وبغداد، حيث عمل الرازي رئيساً للبيمارستان."
+    en: "Rayy and Baghdad, where al-Razi directed the hospital."
+    ur: "ری اور بغداد، جہاں رازی ہسپتال کا سربراہ تھا۔"
+makers:
+  - person: person/al-razi-abu-bakr
+    role: inventor
+    note: "Author of the differentiation treatise; his Sunni-frame record is on the person file."
+    sources: [source/razi-greenhill-smallpox-1848]
+attribution:
+  status: original
+  claim:
+    ar: "أول فصل مكتوب معروف بين الجدري والحصبة كمرضين مستقلين — خطوة في التشخيص التفريقي لا في علم الأوبئة."
+    en: "The first known written separation of smallpox and measles as distinct diseases — a step in differential diagnosis, not epidemiology."
+    ur: "چیچک اور خسرے کو الگ بیماریوں کے طور پر پہلی معلوم تحریری الگیدگی — تفریق تشخیص کا قدم، علم الاوبہ نہیں۔"
+  basis:
+    ar: "طبعة غرينهيل 1848 تقدم ترجمة النص العربي بمقدمة تؤرخه وتثبت فضل الفصل بين المرضين؛ ومنظمة الصحة تؤرخ الجدري كمرض مُعرَّف لاحقاً بالرسالة {cite:razi-greenhill-smallpox-1848} {cite:who-smallpox-overview}."
+    en: "Greenhill's 1848 edition translates the Arabic text with a dated introduction establishing the credit of separation; the WHO overview treats the treatise as the identification landmark {cite:razi-greenhill-smallpox-1848} {cite:who-smallpox-overview}."
+    ur: "گرینہل کا1848ء ایڈیشن عربی متن کا ترجمہ تاریخی پیش لفظ کے ساتھ پیش کرتا ہے جو الگیدگی کا سہرا ثابت کرتا ہے؛ WHO کا جائزہ رسالے کو شناختی سنگ میل سمجھتا ہے {cite:razi-greenhill-smallpox-1848} {cite:who-smallpox-overview}۔"
+precursors:
+  - external:
+      ar: "الملاحظة السريرية للجدري والحصبة في الطب العربي واليوناني — مادتان معروفتان لكن غير مفصولتين."
+      en: "Clinical observation of smallpox and measles in Arabic and Greek medicine — known entities but not separated."
+      ur: "عربی اور یونانی طب میں چیچک اور خسرہ کا طبی مشاہدہ — معلوم مگر غیر الگ۔"
+    note: "The diseases were observed before; the treatise's step is the systematic differentiation."
+    sources: [source/razi-greenhill-smallpox-1848]
+dependents:
+  - external:
+      ar: "تقليد التشخيص التفريقي في الطب — فكرة فصل الأمراض المتشابهة بعلامات مميزة."
+      en: "The differential-diagnosis tradition in medicine — the idea of separating similar diseases by distinctive signs."
+      ur: "طب میں تفریق تشخیص کی روایت — ملتی بیماریوں کو ممکن علامات سے الگ کرنے کا خیال۔"
+    note: "The treatise's influence runs through Latin printings into European practice."
+    sources: [source/razi-greenhill-smallpox-1848]
+spread: []
+impact:
+  fields: [medicine-surgery]
+  changed:
+    ar: "نقل التشخيص من وصف المرض العام إلى فصل الأمراض المتشابهة — أساس ما صار لاحقاً «التشخيص التفريقي»."
+    en: "Moved diagnosis from generic disease description to separating look-alike diseases — the basis of what became 'differential diagnosis'."
+    ur: "تشخیص کو عمومی مرض کے بیان سے ملتی بیماریوں کی الگیدگی تک پہنچایا — وہ بنیاد جو بعد میں «تفریق تشخیص» بنی۔"
+  history:
+    ar: "أقدم شاهد مكتوب على فصل مرضين مشهورين؛ حجر الأساس لعلم الأوبئة الوصفي لاحقاً."
+    en: "The earliest written witness to separating two famous diseases; the foundation stone of later descriptive epidemiology."
+    ur: "دو معروف بیماریوں کی الگیدگی کی قدیم ترین تحریری گواہی؛ بعد کے وضعی علم الاوبہ کی بنیادی رکنیت۔"
+  significance: 5
+  why: "The first printed medical text in Europe (1470s) and the landmark differentiation; attestation complete."
+described_in: []
+examples: []
+sites: [place/rayy]
+concepts: []
+today:
+  form:
+    ar: "يبقى نصاً تاريخياً؛ الجدري استؤصل عالمياً ⁦(WHO 1980)⁩ والحصبة يُعالج باللقاح — لكن مبدأ التشخيص التفريقي حيّ."
+    en: "It remains a historical text; smallpox is eradicated (WHO 1980) and measles is vaccine-managed — but the differential principle lives."
+    ur: "یہ تاریخی متن رہ گیا؛ چیچک عالمی سطح پر ختم ⁦(WHO 1980)⁩ اور خسرہ ویکسین سے قابو — لیکن تفریق کا اصول زندہ ہے۔"
+  descendants:
+    ar: "كل كتاب تشخيص تفريقي حديث يعمل على الفكرة نفسها: علامات مميزة تفصل الأمراض."
+    en: "Every modern differential-diagnosis textbook works the same idea: distinctive signs separate diseases."
+    ur: "ہر جدید تفریق تشخیص کتاب اسی خیال پر چلتی ہے: ممکن علامات بیماریاں الگ کرتی ہیں۔"
+media:
+  image: media/razi-greenhill-smallpox-title
+  diagram: media/diagram-razi-smallpox-treatise
+kids:
+  ar: "قبل ألف ومئة سنة كان الناس يخلطون بين مرضين مخيفين: الجدري والحصبة. كتب الرازي رسالة صغيرة قال فيها: انظر إلى علامات كل واحد — الحمى، الطفح، مساره — وستعرف أيّهما هو. صارت هذه أول طريقة معروفة للتفريق بين الأمراض المتشابهة."
+  en: "Eleven hundred years ago people mixed up two scary diseases: smallpox and measles. Al-Razi wrote a short treatise saying: look at each one's signs — the fever, the rash, its course — and you will know which is which. That became the first known method for telling similar diseases apart."
+  ur: "گیارہ سو سال پہلے لوگ دو خوفناک بیماریوں ملاتے تھے: چیچک اور خسرہ۔ رازی نے ایک چھوٹا رسالہ لکھا کہ ہر ایک کی علامات دیکھو — بخار، دانے، اس کا راستہ — تمہیں معلوم ہو جائے گا کون سی ہے۔ یہی ملتی بیماریوں میں فرق کی پہلی معلوم روش بنی۔"
+sources:
+  - source/razi-greenhill-smallpox-1848
+  - source/who-smallpox-overview
+  - source/encyclopaedia-of-islam-2
+status: { review: published, completeness: 2 }
+provenance:
+  layer: own-research
+  generated_by: devin-orchestrator-solo
+  model: SWE-2
+  run: inventions-w2-22
+  source: "Greenhill 1848 translation via source record, read 2026-11-16; WHO smallpox overview for the disease landmark"

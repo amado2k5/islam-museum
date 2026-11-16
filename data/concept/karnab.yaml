@@ -1,0 +1,23 @@
+id: concept/karnab
+class: concept
+kind: natural
+label:
+  ar: "كرنب"
+  en: "Karnab (cabbage)"
+  ur: "کرنب"
+summary:
+  ar: "الكرنب بقل معروف حار في الأولى يابس في الثانية، بستاني وبري ومائي، منضج مليّن يجفف، ينفع الأورام والجراح والمفاصل، وفيه ذكر لنفعه من لسع الأفعى وعضة الكلب {cite:canon-ibn-sina-print-v1 p.531} {cite:canon-ibn-sina-print-v1 p.532}."
+  en: "Cabbage is a known pot-herb, hot in the first degree and dry in the second, garden, wild and water kinds. It ripens, softens and dries, and the book lists uses for swellings, wounds and joints, and for viper stings and the bite of a rabid dog {cite:canon-ibn-sina-print-v1 p.531} {cite:canon-ibn-sina-print-v1 p.532}."
+  ur: "کرنب ایک معروف ترکاری ہے، پہلے درجے میں گرم اور دوسرے میں خشک، باغی، جنگلی اور آبی قسمیں۔ یہ پکاتا، نرم کرتا اور خشک کرتا ہے، اور کتاب ورموں، زخموں اور جوڑوں میں اس کے فائدے اور افعی کے ڈسنے اور باؤلے کتے کے کاٹے میں نفع گنواتی ہے {cite:canon-ibn-sina-print-v1 p.531} {cite:canon-ibn-sina-print-v1 p.532}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letters kaf and lam, scan pages 531 to 532, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen and desire reports kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-16
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

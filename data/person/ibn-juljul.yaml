@@ -1,0 +1,64 @@
+id: person/ibn-juljul
+class: person
+label:
+  ar: "ابن جلجل"
+  en: "Ibn Juljul"
+  ur: "ابن جلجل"
+names:
+  - { value: "سليمان بن حسان بن جلجل", kind: full, lang: ar }
+  - { value: "Sulayman ibn Hassan Ibn Juljul", kind: full, lang: en }
+  - { value: "Ibn Djuldjul", kind: alternate, lang: en }
+gender: male
+roles: [physician, scholar]
+occupations:
+  - job: job/physician
+    kind: primary
+    status: historical
+    sources: [source/encyclopaedia-of-islam-2]
+traditions: [sunni]
+faith:
+  - value: sunni
+    basis: tradition
+    note: "A documented Andalusi Muslim scholar and physician of Cordoba; Sunni is the museum's default frame of docs/scope.md for the documented Andalusi milieu, not an attested personal school declaration."
+    sources: [source/encyclopaedia-of-islam-2]
+summary:
+  ar: "طبيب ومؤرخ أندلسي من أهل قرطبة، وُلد نحو سنة 332هـ/944م وتوفي بعد 384هـ/994م؛ صاحب «طبقات الأطباء والحكماء»، أقدم معجم باقٍ لتراجم الأطباء في التراث الإسلامي {cite:encyclopaedia-of-islam-2}."
+  en: "Andalusi physician and historian of Cordoba, born about 332 AH/944 CE, died after 384 AH/994 CE; author of the Tabaqat al-atibba wa-l-hukama, the earliest surviving biographical dictionary of physicians in the Islamic tradition {cite:encyclopaedia-of-islam-2}."
+  ur: "قرطبہ کا اندلسی طبیب و مؤرخ، تقریباً 332ھ/944ء میں پیدا ہوا اور 384ھ/994ء کے بعد فوت ہوا؛ طبقات الاطباء و الحکماء کا مصنف، جو اسلامی روایت میں اطباء کی تراجم کا قدیم ترین باقی ماندہ معجم ہے {cite:encyclopaedia-of-islam-2}۔"
+born:
+  edtf: "0944~"
+  hijri: "0332"
+  calendar: julian
+  precision: year
+  status: tradition
+  note: "Reported about 332 AH/944 CE at Cordoba; a conventional biographical date, not independently established."
+  sources: [source/encyclopaedia-of-islam-2]
+died:
+  edtf: "0994?"
+  hijri: "0384"
+  calendar: julian
+  precision: year
+  status: tradition
+  note: "Reported after 384 AH/994 CE; the exact death year is not firmly established in the reference read."
+  sources: [source/encyclopaedia-of-islam-2]
+wings: [people]
+regions: [andalus-europe]
+periods: [period/buyid-seljuk-fatimid-era]
+relations:
+  - { type: lived_in, target: place/cordoba, sources: [source/encyclopaedia-of-islam-2] }
+inventions:
+  - invention: invention/ibn-juljul-maqala
+    role: inventor
+    place: place/cordoba
+    note: "Author of the Tabaqat al-atibba wa-l-hukama."
+    sources: [source/encyclopaedia-of-islam-2]
+sources: [source/encyclopaedia-of-islam-2, source/tabaqat-ibn-juljul-sayyid-1955]
+provenance:
+  layer: own-research
+  generated_by: devin-orchestrator-solo
+  model: SWE-2
+  run: inventions-w2-24
+  source: "Encyclopaedia of Islam 2nd ed. article Ibn Djuldjul; Sayyid 1955 edition record"
+status:
+  review: published
+  completeness: 2

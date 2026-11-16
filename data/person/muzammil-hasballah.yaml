@@ -1,0 +1,35 @@
+id: person/muzammil-hasballah
+class: person
+names:
+  - { kind: full, value: "Muzammil Hasballah" }
+  - { kind: alternate, value: "Muzammil Hasballah, S.T." }
+label: { ar: "مزمل حسب الله", en: "Muzammil Hasballah", ur: "مزمل حسب اللہ" }
+summary:
+  ar: "قارئ قرآن إندونيسي من آتشيه، وُلد في سيغلي في 21 سبتمبر 1993، وتخرّج في الهندسة المعمارية بمعهد باندونغ للتكنولوجيا سنة 2015، وكان إمامًا في مسجد سلمان بالمعهد أثناء دراسته ثم في مسجد اللطيف بباندونغ. بلغت قناته على يوتيوب 4,120,000 مشترك و608,396,619 مشاهدة و1,042 مقطعًا بحسب vidIQ كما في 12 نوفمبر 2026، وأسّس منصة نجايلاه لتعليم القرآن."
+  en: "Indonesian Qur'an reciter from Aceh, born in Sigli on 21 September 1993; he graduated in architecture from the Bandung Institute of Technology (ITB) in 2015 and served as imam at the institute's Salman Mosque while a student, and afterwards at the Al Lathif Mosque in Bandung. His YouTube channel counted 4,120,000 subscribers, 608,396,619 views and 1,042 videos as read by vidIQ on 12 November 2026, and he founded the Ngajilah.id Qur'an-learning platform."
+  ur: "آچے سے تعلق رکھنے والے انڈونیشی قاریِ قرآن، جو 21 ستمبر 1993ء کو سگلی میں پیدا ہوئے؛ انہوں نے 2015ء میں بانڈونگ انسٹی ٹیوٹ آف ٹیکنالوجی (ITB) سے آرکیٹیکچر میں گریجویشن کی اور طالب علمی کے زمانے میں ادارے کی سلمان مسجد کے امام رہے، بعد ازاں بانڈونگ کی مسجد اللطیف میں بھی امامت کی۔ 12 نومبر 2026ء کی vidIQ قرأت کے مطابق ان کے یوٹیوب چینل کے سبسکرائبر 4,120,000، ویوز 608,396,619 اور ویڈیوز 1,042 تھیں، اور انہوں نے قرآن سیکھنے کا پلیٹ فارم Ngajilah.id قائم کیا۔"
+gender: male
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No text read in this build attests a school or order for Muzammil Hasballah himself. The Indonesian Wikipedia article and the academic writing read (a 2020 Ulul Albab journal study and a 2026 journal article on his digital da'wah) discuss his recitation, his imamate and his reception only, and name no school; neither does his channel. Under this lane's two-text rule his school therefore stays unknown."
+    sources: [source/wikipedia-muzammil-hasballah-id, source/youtube-muzammilhb]
+roles: [reciter]
+wings: [people, living]
+born:
+  edtf: "1993-09-21"
+  calendar: gregorian
+  precision: day
+  note: "Date and place (Sigli, Pidie, Aceh) from the Indonesian Wikipedia infobox and lead; no place record for Sigli exists in the tree, so no born_in relation is recorded."
+  sources: [source/wikipedia-muzammil-hasballah-id]
+relations:
+  - { type: lived_in, target: place/bandung, sources: [source/wikipedia-muzammil-hasballah-id] }
+reach:
+  - { platform: youtube, metric: subscribers, value: 4120000, date: "2026-11-12", note: "@muzammilhb: 4,120,000 subscribers, 608,396,619 views and 1,042 videos as read by vidIQ on 12 November 2026 (figures as of that date, read in the wave-200 harvest on 15 November 2026); a speakrj snapshot read on 15 November 2026 showed the same subscriber count. The figure is a dated platform count, not a museum-verified fact", sources: [source/vidiq-muzammil-hasballah, source/youtube-muzammilhb] }
+sources: [source/wikipedia-muzammil-hasballah-id, source/youtube-muzammilhb, source/vidiq-muzammil-hasballah, source/muzammil-hasballah-app-profile]
+provenance:
+  layer: own-research
+  source: "Built from the wave-200 (Indonesian/Malay scene) harvest §2.2 (researched 15 November 2026) and this build's own reads of the same date: the Indonesian Wikipedia article 'Muzammil Hasballah' (read in full, 15 November 2026; no Arabic or English article exists, and no Wikidata item was found in this build's checks, so neither is registered), his own channel, its vidIQ statistics page and a speakrj snapshot. Qualification rests on his YouTube channel @muzammilhb: 4,120,000 subscribers, 608,396,619 views and 1,042 videos as read by vidIQ on 12 November 2026 — a dated platform figure above the men's bar; the harvest also noted Instagram at about five million followers by post metadata of August 2026, which is not printed as a reach entry because it rests on post metadata rather than a statistics read. The article's facts are used only where it cites a source (Tempo 2016, Republika 2017, Detik 2017, Liputan 6 2020); the Al Lathif Mosque imamate, which the article does not state, rests on the app-profile biography registered as source/muzammil-hasballah-app-profile and is carried in the prose with that attribution. A 2020 academic journal (Ulul Albab, UIN Malang) already documented him at 1.56 million YouTube subscribers, so the present count is sustained growth, not a spike. The harvest's adjacency screen was run on him and is documented in the wave-200 harvest file: no designated-organisation tie found. De-duplicated against the tree: no muzammil-hasballah record existed (the aggregator channel that carries his recitations as content is a separate matter and does not make him its operator)."
+  generated_by: "Muse (Muse Wonder)"
+  run: "modern-figures-wave-200-A"
+status: { review: published, completeness: 2 }

@@ -1,6 +1,6 @@
 # Project status and how to resume
 
-_Last updated 14 November 2026._ Read this first in a new session, then `docs/plan/00-README.md` (the plan) and `CLAUDE.md` (the rules)._
+_Last updated 15 November 2026._ Read this first in a new session, then `docs/plan/00-README.md` (the plan) and `CLAUDE.md` (the rules)._
 
 ## Reach — the Tranco ranking log
 
@@ -14,8 +14,10 @@ Tranco (tranco-list.eu) is a research ranking of popular domains, recomputed dai
 | 2026-11-11 | 1,412,824 |
 | 2026-11-12 | 1,328,397 |
 | 2026-11-13 | 1,259,190 |
+| 2026-11-14 | 1,179,447 |
+| 2026-11-15 | 1,112,567 |
 
-Latest, checked 14 November 2026: **#1,259,190** on the list dated 13 November 2026 — up 69,207 places in a day from #1,328,397 (list of 12 November), and 259,190 places short of the top 1,000,000.
+Latest, checked 15 November 2026: **#1,112,567** on the list dated 15 November 2026 — up 66,880 places in a day from #1,179,447 (list of 14 November), and 112,567 places short of the top 1,000,000. The 15 November rank was read from the published list file itself (list JZWZY) before the API carried it.
 
 ## What exists
 

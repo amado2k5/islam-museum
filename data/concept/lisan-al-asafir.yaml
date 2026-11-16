@@ -1,0 +1,23 @@
+id: concept/lisan-al-asafir
+class: concept
+kind: natural
+label:
+  ar: "لسان العصافير"
+  en: "Lisan al-asafir (bird's tongue)"
+  ur: "لسان العصافیر"
+summary:
+  ar: "لسان العصافير حار في الثالثة رطب في الأولى، في ورقه قبض وتنقية وإلحام، يدمل القروح الرطبة وينفع الخفقان ويزيد في الباه {cite:canon-ibn-sina-print-v1 p.541}."
+  en: "Lisan al-asafir is hot in the third degree and moist in the first; its leaf has astringency, cleansing and joining, healing wet ulcers; it helps palpitation and, the book says, increases desire {cite:canon-ibn-sina-print-v1 p.541}."
+  ur: "لسان العصافیر تیسرے درجے میں گرم اور پہلے میں تر ہے؛ اس کے پتے میں قبض، تنقیہ اور جوڑنا ہے، تر زخم بھرتا ہے اور دھڑکن میں مفید ہے، اور کتاب کے مطابق باہ بڑھاتا ہے {cite:canon-ibn-sina-print-v1 p.541}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letters kaf and lam, scan pages 541, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen and desire reports kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-16
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

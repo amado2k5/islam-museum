@@ -13,7 +13,7 @@ open a new block on top with the new version and today's date.
 
 ---
 
-## v1.37.0 — 2026-11-15
+## v1.46.0 — 2026-11-15
 ### Added
 - **The Qur'an Readings, Orthography, Scripts and Dotting Browser — «متصفح قراءات القرآن والرسم الإملائي والخطوط والتنقيط».** One page, `/{ar,en,ur}/qiraat/`, gathers what the Qur'an, the Sunnah, the seerah, the reports of the Companions and Successors and the harvested books say about how the Qur'an is read and how it is written, in seven topics: the seven ahruf, the readings, the readers and their transmitters, the collection of the Qur'an and the codices, the orthography of the mushaf (with the debate over writing it in ordinary spelling), its dots and vowel marks, and its scripts. On the day it was built it listed 1,523 records in nine sections: 104 Qur'an verses, 295 hadith reports, 44 seerah passages, 728 passages of other books, and 352 records of the museum's own (54 sciences, events and questions; 185 readers, scribes and calligraphers; 27 scripts; 33 books; 53 mushafs). Qur'an verses come from a reviewed table (verses on recitation, the kept Book and the pen, and a selection of verses in which the readers or the codices of the cities differ); every other passage is found at build time by a guarded word list, so a book harvested later appears the day its passages land. The museum prefers no reading and no script and gives no ruling; a variant reading is described in words, never typed.
 - **A page dressed as a manuscript.** The browser has its own look: an illuminated title panel with the Arabic title in a display hand, headings marked with the rhombic dot scribes measured letters by, and cards ruled like a page. Four views sit above the lists: *The art of Arabic writing* (the scripts side by side on one strip, then script by script with photographs of real folios, each with its credit and licence, and the celebrated mushafs); *The ruled page* (a line per topic with a dot per section, sized by its records); *The ten imams: who read to whom* (each imam of the ten readings with the teachers he read to and those who read to him, from the graph's own links); and a timeline of the dated records from the first pages to the later masters. A filter, a landing-page card and an Explore-menu entry (under the texts group) come with it, in all three languages.
@@ -30,6 +30,54 @@ open a new block on top with the new version and today's date.
 - `features-api.test.ts` asserts the new export: reviewed verses in, unlisted verses out, fully vowelled hadith text matched, and the recitation in prayer, a drawn line, a sermon, a narrator named Nafi', a bare «الحرف» and a bare «النقطة» not mistaken for the topic.
 ### Data
 - All of this prose was written by AI agents from the cited sources and has not been read by a human. Page numbers of the mined passages and of most citations are the page markers of the scanned files, which can differ from printed pages; the OCR text of an excerpt is not corrected, and a few excerpts still carry OCR noise. One name needs a check against the page image: the first name of Ibn Dhakwan, which the OCR of al-Nashr reads differently from other references (the record says so). Nothing is live until the founder deploys.
+## v1.45.0 — 2026-11-16
+### Added
+- Job Browser: six more trades join the professions — the cook (tabbakh) of the market cook-shops, the sweet-maker (halwani) and his sugar confections, the dyer (sabbagh) watched for false dyeing, the cobbler (iskafi) forbidden old-leather tricks, the coppersmith (nahhas), and the candle-maker (shamma') — in Arabic, English and Urdu draft cited to the hisba chapters of al-Shayzari's *Nihayat al-Rutba* (Buckley tr.), Lane's *Modern Egyptians*, and Evliya Çelebi's guild procession (von Hammer tr.).
+
+## v1.44.0 — 2026-11-16
+### Added
+- Five more Inventions Browser records from harvested texts (Smith & Karpinski 1911, Partington's Greek Fire and Gunpowder, Lane's Early Islamic Pottery, EI2 entries read in the corpus), each with Arabic, English and Urdu prose: the Hindu-Arabic numerals' transmission through al-Khwarizmi to Latin Europe; al-Hasan al-Rammah's gunpowder-recipe treatise; fritware stonepaste ceramics; medieval sugar refining; and the counterweight trebuchet in the Islamic world.
+
+## v1.43.0 — 2026-11-16
+### Added
+- Job Browser: five more trades join the professions — the tailor (khayyat), the barber (hallaq/muzayyin) who also shaved, cupped and circumcised, the water-carrier (saqqa) of the kirbeh skins and public sebils, the baker (farran/khabbaz) under hisba's heaviest daily watch, and the blacksmith (haddad/qayn) — in Arabic, English and Urdu draft cited to al-Shayzari's *Nihayat al-Rutba* (Buckley tr.), Lane's *Manners and Customs of the Modern Egyptians*, and Evliya Çelebi's *Seyahatname* (von Hammer tr.), the first Job Browser packet harvested from books rather than the TDV.
+
+## v1.42.0 — 2026-11-16
+### Added
+- Four more Inventions Browser records from harvested sources (Carter on printing and paper, Ukers on coffee, Ibn Abi Usaybi'a on the 931 licensing, a Federal Reserve paper on the cheque, al-Khwarizmi's Mafatih al-Ulum), each with Arabic, English and Urdu prose: Samarqand papermaking and the paper revolution; coffee in Yemen and its Sufi institutionalisation; the sakk payment order ancestor of the cheque; and the Baghdad physician licensing of 931.
+- Four more Indonesian and Malaysian figures join the modern-figures collection, each with Arabic, English and Urdu prose and its sources showing: the Malaysian preacher Kazim Elias, the Rumaysho teacher Muhammad Abduh Tuasikal, the sholawat singer Habib Syech bin Abdul Qadir Assegaf, and the writer-preacher Salim A. Fillah (wave 200, section B).
+
+## v1.41.0 — 2026-11-16
+### Added
+- Nine place pages that had no prose now have full pages in Arabic, English and Urdu built from Yaqut's Mu'jam al-buldan, cited by volume and printed page: Ray, Humayma, Ascalon, Khujand, Ecija (Istijja), Mount Qasiyun, al-Imadiyya (Amad), Kharpoot (Hisn Ziyad) and Ayn al-Warda. Each gives what the geographer records of the name, position, history and local reports, and says where he gives a report as hearsay.
+- Nine place pages that had no prose now have full pages in Arabic, English and Urdu built from Yaqut's Mu'jam al-buldan, cited by volume and printed page: Azaz, Firozkoh, Erci (Arjish), the Diyala River, the Biqa', Eastern Arabia (al-Bahrayn), the Persian Gulf (Bahr Faris), Dayr al-Jathaliq and Darzijan. Each gives what the geographer records of the place's name, position, history and the local reports he preserves, and says where his entry is silent.
+- Twenty-five more entries from Ibn Sina's Canon, Book II on simple drugs: from kabar (the caper) at the end of the letter kaf through karnab (cabbage), karrath (leek), kuzbara (coriander), kummathra (pear) and karm (the vine), and into the letter lam from ladhan (ladanum) to lisan al-haml (plantain), scan pages 527 to 543. Each entry gives the book's account of nature, temperament, properties and uses by organ, cited to the printed page. The book's reports on the womb, menses, foetus, semen and desire are kept as labelled book listings, not as advice, for the founder's ruling; measured doses, weights and preparation methods are left out.
+- One more Inventions Browser record, with Arabic, English and Urdu prose: Ibn Juljul's Tabaqat al-Atibba — the earliest surviving biographical dictionary of physicians (Cordoba, c. 987 CE); plus work records for the Tabaqat and al-Khazini's Mizan al-Hikma, and person/ibn-juljul.
+- Four Indonesian teachers and preachers join the modern-figures collection, each with Arabic, English and Urdu prose and its sources showing: Muhammad Nuzul Dzikri, the Qur'an reciter Muzammil Hasballah, Gus Iqdam of Blitar, and Oemar Mita — the first pass over the Indonesian and Malay scene (wave 200, section A).
+
+## v1.40.0 — 2026-11-16
+### Added
+- Four more Inventions Browser records, each with Arabic, English and Urdu prose: Ulugh Beg's Samarqand observatory — the largest medieval observatory; his Zij-i Sultani star catalogue of 1,018 stars, the most accurate pre-Tycho tables; al-Zahrawi's lithotomy instruments including the al-Mishab urethral drill; and his vessel-ligation technique for haemorrhage control.
+
+## v1.40.0 — 2026-11-15
+### Added
+- Job Browser: four more crafts join the trades — the shipwright of the tersane yards, the mint-worker (darphane) who struck the coinage, the luthier behind the oud, and the glassmaker (camcı) — in Arabic, English and Urdu draft cited to the TDV 'TERSANE', 'DARPHÂNE', 'UD' and 'CAM' entries.
+
+---
+
+## v1.39.0 — 2026-11-15
+### Added
+- Job Browser: two more crafts join the trades — the butcher (qassab/jazzar), under the strictest hisba supervision of slaughter, skinning and sale, and the goldsmith (sa'igh/zerger), from the Topkapı workshop registers to Evliya Çelebi's three-thousand-shop Istanbul guild and its twenty-year festival — in Arabic, English and Urdu draft cited to the TDV 'KASAP' and 'KUYUMCULUK' entries.
+
+---
+## v1.38.0 — 2026-11-16
+### Added
+- Four more Inventions Browser records, each with Arabic, English and Urdu prose: al-Kindi's frequency analysis — the earliest written cipher-breaking method; al-Jazari's elephant clock, the most famous documented medieval automaton; al-Razi's smallpox-and-measles treatise, the first known written differentiation of two diseases; and al-Zahrawi's catgut sutures, the earliest recorded absorbable surgical thread.
+---
+
+## v1.37.0 — 2026-11-15
+### Added
+- Job Browser: three book-art crafts join the trades — the illuminator (mudhahhib) who gilded manuscripts from Herat to Istanbul, the inkmaker (mürekkepçi) whose soot ink never fades, and the engraver (hakkak) who cut seals in mirror image under guild discipline — in Arabic, English and Urdu draft cited to the TDV 'TEZHİP', 'MÜREKKEP' and 'HAKKÂKLIK' entries.
 
 ---
 
@@ -42,7 +90,11 @@ open a new block on top with the new version and today's date.
 ## v1.35.0 — 2026-11-16
 ### Added
 - Four more records now appear in the Inventions Browser, completing the deferred w2-12 and w2-16 drafts with full trilingual prose. From Ibn Sina's Canon: his bounded classification of diseases — the definitions of cause, disease, symptom and sign that organise Book I — and his temperament method, the four qualities of heat, cold, moisture and dryness and the impossibility of true equilibrium. From the wider heritage: al-Razi's al-Hawi, the comprehensive medical compendium that gathered diseases, causes, drugs, treatments and earlier authorities' sayings into one referable work, preserved as a gathering project and not a claim that al-Razi invented its contents; and al-Bakri's Mu'jam ma Ista'jam, the alphabetically ordered geographical place-name dictionary of al-Andalus that gathered names from hadith, reports, histories and poetry with variant readings resolved — as far as the sources read show the first alphabetical geographical dictionary. Each stands in Arabic, English and Urdu with an inspected image and a generic diagram.
+- Eleven place pages gain a section from Yaqut's Mu'jam al-buldan in Arabic, English and Urdu, cited by volume and printed page: Massisa and Amorium gain full English and Urdu pages for the first time, and Ubulla, Madinat al-Mubarak, Afshana, al-Kudayd, Armant, Qarmuniyya, Ramhurmuz, Suruj and Zawila gain their Yaqut entries. Each section gives what the geographer records of the place's name, position, history and the local reports he preserves.
+- Wa Nalqa al-Ahibba, Amr Khaled (lecture series, Assabile archive): episode 9 added to the Umar ibn al-Khattab section, on his strength, justice and mercy together: the extent of his rule, the old man and the poll tax, the pulpit question, the night visit to a mother and her children, the sack from the treasury, the Copt in the horse race and Amr ibn al-As's son, the musk and the judge Shurayh, in Arabic, English and Urdu drafts, each statement cited to the recording by timestamp and the speaker's accounts labelled as such.
 - Job Browser: the bath keeper (hammami) joins the trades — the Ottoman bath's staff (tellak, natar, hamam uşakları, laundry workers), its guild lore and kadılık discipline, and the fiqh of running baths, in Arabic, English and Urdu draft cited to the TDV 'HAMAM' entry.
+### Data
+- Four more person cards (Harthama ibn A'yan, Hassan ibn al-Nu'man, Isa ibn Musa and John Hunyadi) now link to their Wikidata items, each with a source record; each link was accepted because the item's name, a sourced date and a role agree with the card, and no sourced date was changed.
 
 ---
 
@@ -56,6 +108,7 @@ open a new block on top with the new version and today's date.
 - **The UNESCO–Sharjah working package now has its campaign half, and the draft dossier is corrected** (`docs/outreach/unesco-2027/`, drafts for the founder; nothing is sent or filed by an agent). New: a memorandum on who may nominate, quoted from the Prize's Statutes and from the Executive Board decision that approved them in April 2026; a ranked list of thirteen possible endorsers with the letter and the model for each, and the threads deliberately held back; three deadline-week nudges, each with a judgement on whether it helps or harms. Corrected after the founder's review: the draft dossier no longer calls him a candidate before anyone has nominated him, says which figures are live and which are from the repository, explains the home page's page count, and gives pathway, cost and correspondence statements from their sources. The letter models now have an endorser sign a count of records, drafts included, never of finished articles. Why it matters: a recommendation is only worth having if the person who signs it was told exactly what the museum is. Nothing on the site changes.
 ### Changed
 - 29 existing records (Gog and Magog, the Cave, the Trench, the Throne, Footstool, Tablet, Pen and Lote-tree, the seven heavens, `ghayb`, the Isra' and Mi'raj, 'Ad, Thamud, Saba', Iram, al-Hijr, Hud, Salih, the Two-Horned, the jinn and the celestial-body records) carry the `cosmos-browser` tags; nothing else in them changed.
+- **The Tranco ranking log in `docs/status.md` is current again:** #1,179,447 on the list of 14 November 2026 and #1,112,567 on the list of 15 November 2026 — the 15 November rank read from the published list file itself (list JZWZY) before Tranco's API carried it. The museum is now 112,567 places short of the top 1,000,000 the project watches. Why it matters: the log is the project's own record of its reach, and it is only worth keeping if it is kept current.
 ### Fixed
 - **In the 3D tour, the passing notice and the journey card no longer land on the top buttons or on the hall's name.** Both were drawn at a fixed height from the top of the screen, chosen for one row of top buttons. On screens where the buttons wrap into more rows, the notice ("The tour seems slow on this device") was drawn over buttons, and since the previous fix moved the hall's name under the buttons, the notice and the card covered that name while they showed. On screens up to 900 px wide both are now placed from the hall's name, a little under it, however many rows of buttons there are, and the card is kept inside the screen on short screens such as a phone held sideways. Wider than 900 px nothing changes. Checked on a sample build with an automated browser on one computer, at every width from 320 to 1280 px and at 17 phone and tablet screen sizes, in English, Arabic and Urdu, in the Grand Hall, a gallery and a time journey; not checked on a real phone.
 ### Tests

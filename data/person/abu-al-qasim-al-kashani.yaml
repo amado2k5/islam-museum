@@ -1,0 +1,31 @@
+id: person/abu-al-qasim-al-kashani
+class: person
+label: { ar: "أبو القاسم الكاشاني", en: "Abu al-Qasim al-Kashani", ur: "ابو القاسم کاشانی" }
+names:
+  - { value: "أبو القاسم عبد الله بن علي بن محمد بن أبي طاهر الكاشاني", kind: full, lang: ar }
+  - { value: "Abu'l-Qasim of the Abu Tahir family of Kashan", kind: alternate, lang: en }
+summary:
+  ar: "كاتب فارسي من عائلة أبي طاهر للفخار بكاشان، ألّف نحو 700هـ/1301م رسالة «عرائس الجواهر ونفائس الأطايب» التي حفظت صيغة الفخار الفريتي ⁦(الحجر الصلصالي)⁩ — أقدم توثيق تقني مكتوب لها {cite:lane-early-islamic-pottery-1947}."
+  en: "Persian writer of Kashan's Abu Tahir potters' family who composed c. 700/1301 the treatise Arayis al-jawahir wa-nafayis al-atayib preserving the fritware ⁦(stonepaste)⁩ recipe — its earliest written technical documentation {cite:lane-early-islamic-pottery-1947}."
+  ur: "کاشان کے ابو طاہر سفال گر خاندان کا فارسی مصنف جس نے تقریباً700ھ/1301ء رسالہ «عرائس الجواہر و نفائس الاطائب» لکھا جس میں فریٹویئر ⁦(سٹون پیسٹ)⁩ کی ترکیب محفوظ ہے — اس کی قدیم ترین تحریری تکنیکی دستاویز {cite:lane-early-islamic-pottery-1947}۔"
+faith:
+  - value: sunni
+    basis: tradition
+    note: "Member of Kashan's documented Muslim potters' lineage (the Abu Tahir family); Sunni is the museum's default frame where no contrary tradition is named."
+    sources: [source/lane-early-islamic-pottery-1947]
+born: { edtf: "1250~", calendar: gregorian, precision: century, derived: true, note: "Active c. 1301; birth year estimated from the treatise date.", sources: [source/lane-early-islamic-pottery-1947] }
+died: { edtf: "1330~", calendar: gregorian, precision: century, derived: true, note: "Died after the 1301 treatise; date estimated.", sources: [source/lane-early-islamic-pottery-1947] }
+roles: [potter, katib]
+regions: [persia-central-asia]
+periods: [period/mongol-post-mongol]
+relations:
+  - { type: lived_in, target: place/kashan, confidence: high, sources: [source/lane-early-islamic-pottery-1947] }
+importance: 2
+status: { review: published, completeness: 2 }
+sources: [source/lane-early-islamic-pottery-1947]
+provenance:
+  layer: own-research
+  generated_by: devin-orchestrator-solo
+  model: SWE-2
+  run: inventions-w2-26
+  source: "Lane, Early Islamic Pottery (1947), Abu'l-Qasim 1301 chapter — text in hand on microSD"

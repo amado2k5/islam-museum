@@ -1,0 +1,109 @@
+id: invention/jazari-elephant-clock
+class: invention
+label:
+  ar: "ساعة الفيل للجزري"
+  en: "Al-Jazari's elephant clock"
+  ur: "جزری کا ہاتھی والی گھڑی"
+names:
+  - { value: "al-jazari elephant water clock", kind: alternate, lang: en }
+  - { value: "castle clock", kind: alternate, lang: en }
+summary:
+  ar: "ساعة مائية ميكانيكية صنعها الجزري نحو 602هـ/1206م لناصر الدين محمد أرتق: فيل يحمل صندوقاً وهيكلاً، وفوقه طائر يغني وكاتب يتحرك قلمه مع الوقت وثعبان يهبط ليطعم ترتيباً حركياً معقداً — أشهر آلاته الموثقة في كتابه «الجامع بين العلم والعمل النافع»."
+  en: "A mechanical water clock built by al-Jazari c. 602 AH/1206 CE for the Artuqid ruler Nasir al-Din Muhammad: an elephant bearing castle and figures, a singing bird on top, a scribe whose pen moves with the hours and a dragon that dips to feed, a complex kinetic pageant — his most famous documented machine in 'the Book of Knowledge of Ingenious Mechanical Devices'."
+  ur: "جزری کی602ھ/1206ء میں ارطقی حکمران ناصر الدین محمد کے لیے بنائی میکانکی پانی گھڑی: قلعہ اور مجسمے اٹھائے ہاتھی، چوٹی پر گانے والا پرندہ، کاتب جس کا قلم گھنٹوں کے ساتھ چلتا، اور اتر کر چارہ دینے والا اژدہا — اس کی کتاب «الجامع بین العلم والعمل النافع» میں دستاویزی مشہور ترین مشین۔"
+domain: mechanics-automata
+kind: machine
+disciplines: [engineering]
+wings: [ideas]
+regions: [anatolia-balkans]
+periods: [period/crusades-ayyubid-mamluk]
+themes: [engineering-and-technology]
+era:
+  origins: middle-period
+  first_attested:
+    edtf: "1206"
+    hijri: "0602"
+    calendar: julian
+    precision: decade
+    status: historical
+    note: "Built c. 1206 for the Artuqid ruler; Hill's 1974 edition documents the clock from al-Jazari's own manuscript {cite:jazari-hill-1974}."
+    sources: [source/jazari-hill-1974]
+  status_today: transformed
+origin:
+  place: place/diyarbak-r
+  context:
+    ar: "ديار بكر، بلاط الأرتقيين، حيث عمل الجزري مهندساً للبلاط ربع قرن."
+    en: "Diyarbakir, the Artuqid court, where al-Jazari served as court engineer for a quarter-century."
+    ur: "دیار بکر، ارطقی دربار، جہاں جزری چوتھائی صدی دربار کا انجینیر رہا۔"
+makers:
+  - person: person/al-jazari-engineer
+    role: inventor
+    note: "Builder and documenter of the clock in his own book; his Muslim identity is recorded on the person record."
+    sources: [source/jazari-hill-1974, source/tdv-kindi-kaya]
+attribution:
+  status: original
+  claim:
+    ar: "ساعة مائية أصلية التصميم تجمع قياس الماء بعرض ميكانيكي متعدد الأجزاء — لا نسخة من آلة سابقة."
+    en: "An originally designed water clock combining water measurement with a multi-part mechanical pageant — not a copy of any earlier machine."
+    ur: "اصلی ڈیزائن کی پانی گھڑی جو پانی کی پیمائش کو کثیر حصہ میکانکی تماشے سے ملاتی ہے — کسی سابقہ مشین کی نقل نہیں۔"
+  basis:
+    ar: "يقدّم هل في طبعته نصّ الجزري نفسه في وصف بنائها وتركيبها؛ والساعة مشهورة في مخطوطات الكتاب {cite:jazari-hill-1974}."
+    en: "Hill's edition presents al-Jazari's own text describing its construction and gearing; the clock is the famous illustration of the book's manuscripts {cite:jazari-hill-1974}."
+    ur: "ہل کی طباعت جزری کا اپنا متن پیش کرتی ہے جس میں اس کا بنانہ اور گیئرنگ بیان ہے؛ یہ گھڑی کتاب کے مخطوطوں کی مشہور مثال ہے {cite:jazari-hill-1974}۔"
+precursors:
+  - external:
+      ar: "ساعات الماء الهلنستية — كليبسيدرا أرخيميدس وفتيل كتيسيبيوس — وقبلها ميرا آب الهندية والفارسية."
+      en: "Hellenistic water clocks — the clepsydra of Archimedes and Ctesibius — and before them Indian and Persian water timekeepers."
+      ur: "ہیلنسٹک پانی گھڑیاں — ارشمیدس اور کتیسیبیوس کی کلیپسڈرا — اور ان سے پہلے ہندوستانی و فارسی پانی گھڑیاں۔"
+    note: "The water-clock principle is ancient; al-Jazari's contribution is the automated pageant and mechanisms, not time-by-water itself."
+    sources: [source/jazari-hill-1974]
+dependents:
+  - external:
+      ar: "تقاليد الساعات الأوتوماتية الأوروبية وعروض الآلات المتحركة اللاحقة."
+      en: "European automaton-clock traditions and later moving-figure displays."
+      ur: "یورپی خودکار گھڑی روایات اور بعد کے حرکت کرنے والے مجسموں کے تماشے۔"
+    note: "No direct transmission line is claimed; the clock stands as the medieval summit of automaton-clock design."
+    sources: [source/jazari-hill-1974]
+spread: []
+impact:
+  fields: [mechanics-automata, timekeeping]
+  changed:
+    ar: "حوّل قياس الوقت من وظيفة هادئة إلى عرض هندسي متحرك — آلة تحسب الوقت وتمثّله."
+    en: "Turned timekeeping from a quiet utility into a moving engineering display — a machine that counts and performs time."
+    ur: "وقت کی پیمائش کو خاموش افادیت سے حرکت پذیر انجینئرنگ تماشے میں بدلا — مشین جو وقت گنتی اور پیش کرتی ہے۔"
+  history:
+    ar: "أعظم وثيقة قرون-وسطى في الآلات الذاتية الحركة — مخطوط مصوّر لمهندس عربي مسلم يصف آلاته بنفسه."
+    en: "The greatest medieval document of automata — an illustrated manuscript by a Muslim Arab engineer describing his own machines."
+    ur: "خودکار آلات کی عظیم ترین قرون وسطیٰ دستاویز — مسلمان عرب انجینیر کا مصور مخطوطہ جو اپنی مشینیں خود بیان کرتا ہے۔"
+  significance: 5
+  why: "The book's centerpiece and the era's most complex documented automaton; primary-source attestation is complete."
+described_in: []
+examples: []
+sites: [place/diyarbak-r]
+concepts: []
+today:
+  form:
+    ar: "نماذج مقلدة في متاحف العالم ⁦(متحف متروبوليتان، إسطنبول، دبي)⁩ تعرض الآلية، والمخطوطات مصورة."
+    en: "Working replicas in world museums (the Met, Istanbul, Dubai) demonstrate the mechanism; the manuscripts are illustrated."
+    ur: "دنیا کے عجائب گھروں ⁦(میٹ، استنبول، دبئی)⁩ میں کام کرتی نقلیں مشین دکھاتی ہیں؛ مخطوطے مصور ہیں۔"
+  descendants:
+    ar: "ساعات الأوتوماتا الحديثة وأجهزة الروبوتيك التعليمية — الدمج بين الحساب والحركة."
+    en: "Modern automaton clocks and educational robotics — the same joining of counting and motion."
+    ur: "جدید خودکار گھڑیاں اور تعلیمی روبوٹکس — گنتی اور حرکت کا وہی امتزاج۔"
+media:
+  image: media/elephant-clock-met-575123
+  diagram: media/diagram-jazari-elephant-clock
+kids:
+  ar: "تخيّل ساعة كبيرة فوقها فيل! كل نصف ساعة يتحرك كل شيء: الطائر يغني، والثعبان ينزل ليأكل، والكاتب يدير قلمه. صنعها مهندس اسمه الجزري قبل ثمانمائة سنة، وكان يشرح كل آلتها في كتاب مصور يمكنك تقليده."
+  en: "Imagine a big clock with an elephant on top! Every half hour everything moves: the bird sings, the dragon dips down to feed, and the scribe turns his pen. An engineer named al-Jazari built it eight hundred years ago, and he explained every one of its mechanisms in a picture book you can copy."
+  ur: "سوچو ایک بڑی گھڑی جس پر ہاتھی بٹھا ہو! ہر آدھے گھنٹے سب کچھ ہلتا ہے: پرندہ گاتا، اژدہا اتر کر چارہ کھاتا، اور کاتب اپنا قلم گھماتا۔ اسے جزری نامی انجینیر نے آٹھ سو سال پہلے بنایا، اور اس نے اپنی ہر مشین کی وضاحت ایک مصور کتاب میں کی جسے تم نقل سکتے ہو۔"
+sources:
+  - source/jazari-hill-1974
+  - source/tdv-kindi-kaya
+status: { review: published, completeness: 2 }
+provenance:
+  layer: own-research
+  generated_by: devin-orchestrator-solo
+  model: SWE-2
+  run: inventions-w2-22
+  source: "Hill 1974 edition of al-Jazari's book, source record read 2026-11-16; TDV for the engineer's milieu"

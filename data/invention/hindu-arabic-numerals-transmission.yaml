@@ -1,0 +1,138 @@
+id: invention/hindu-arabic-numerals-transmission
+class: invention
+label:
+  ar: "الأرقام الهندية العربية: رحلة النظام العشري من الهند عبر العالم الإسلامي إلى أوروبا"
+  en: "The Hindu-Arabic numerals: the decimal system's journey from India through the Islamic world to Europe"
+  ur: "ہندو عربی ہندسے: اعشاری نظام کا سفر ہند سے عالمِ اسلام کے راستے یورپ تک"
+names:
+  - { value: "الأرقام الهندية", kind: alternate, lang: ar }
+  - { value: "أرقام الغبار", kind: alternate, lang: ar }
+  - { value: "huruf al-ghubar (dust numerals)", kind: alternate, lang: en }
+  - { value: "ghubar numerals", kind: alternate, lang: en }
+  - { value: "Arabic numerals", kind: alternate, lang: en }
+  - { value: "الاعداد الهندی", kind: alternate, lang: ur }
+summary:
+  ar: "الأرقام العشرية ذات القيمة المكانية جاءت من الهند؛ فلما دخلت بغداد مع كتب الفلك الهندية تبنّاها علماء الحساب في العالم الإسلامي، وكتب فيها الكندي وسند بن علي والخوارزمي وغيرهم، ومن ترجمة كتاب الخوارزمي لاتينياً نحو سنة ⁦(1130م)⁩ ثم «ليبر أباتشي» لليوناردو البيزي ⁦(1202م)⁩ انتقلت إلى أوروبا {cite:smith-karpinski-hindu-arabic-1911}."
+  en: "The decimal place-value numerals came from India; when they reached Baghdad with Indian astronomical books, the reckoning scholars of the Islamic world adopted them, with al-Kindi, Sanad ibn Ali and al-Khwarizmi among the writers. Through the Latin translation of al-Khwarizmi's arithmetic about ⁦(1130)⁩ and then Leonardo of Pisa's Liber Abbaci ⁦(1202)⁩ they passed to Europe {cite:smith-karpinski-hindu-arabic-1911}."
+  ur: "اعشاری مقامی ہندسے ہند سے آئے؛ جب وہ ہندوستانی فلکیاتی کتابوں کے ساتھ بغداد پہنچے تو عالمِ اسلام کے ماہرینِ حساب نے انہیں اپنا لیا، جن میں کندی، سند بن علی اور خوارزمی شامل ہیں۔ خوارزمی کی کتابِ حساب کے لاطینی ترجمے ⁦(تقریباً 1130ء)⁩ اور پھر لیونارڈو آف پیسا کی لیبر اباچی ⁦(1202ء)⁩ سے یہ یورپ پہنچے {cite:smith-karpinski-hindu-arabic-1911}۔"
+domain: mathematics
+kind: system
+disciplines: [mathematics]
+wings: [ideas, words]
+regions: [levant-iraq]
+periods: [period/abbasid-early, period/crusades-ayyubid-mamluk]
+themes: [mathematics, education, trade-and-finance]
+era:
+  origins: abbasid-golden
+  first_attested:
+    edtf: "0820~"
+    hijri: "0205~"
+    calendar: julian
+    precision: year
+    status: historical
+    note: "Approximate date for al-Khwarizmi's book on Indian reckoning, written under al-Ma'mun; Indian numerals had entered Baghdad earlier with the Sindhind astronomy (about 770 CE), while the Latin translation belongs to about 1130 and Fibonacci's Liber Abbaci to 1202 {cite:smith-karpinski-hindu-arabic-1911}. The date marks the Islamic-world adoption treatise, not the Indian invention."
+    sources: [source/smith-karpinski-hindu-arabic-1911]
+  status_today: living
+origin:
+  place: place/baghdad
+  polity: polity/abbasid-caliphate
+  context:
+    ar: "بغداد المأمونية، حيث جمعت خزانة الحكمة العلماء، وحيث كان الخوارزمي منقطعاً إليها؛ وكانت كتب الفلك الهندية ⁦(السند هند)⁩ قد دخلت المدينة في عهد المنصور قبل ذلك {cite:smith-karpinski-hindu-arabic-1911}."
+    en: "Al-Ma'mun's Baghdad, where the house of wisdom gathered the scholars and where al-Khwarizmi worked; the Indian astronomical books (the Sindhind) had already entered the city under al-Mansur {cite:smith-karpinski-hindu-arabic-1911}."
+    ur: "المأمون کا بغداد، جہاں بیت الحکمت نے علماء کو جمع کیا اور جہاں خوارزمی کام کرتا تھا؛ ہندوستانی فلکیاتی کتابیں ⁦(سند ہند)⁩ اس سے پہلے المنصور کے عہد میں شہر میں داخل ہو چکی تھیں {cite:smith-karpinski-hindu-arabic-1911}۔"
+makers:
+  - person: person/al-khwarizmi
+    role: transmitter
+    place: place/baghdad
+    note: "His lost Arabic book on Indian reckoning, surviving in the Latin 'Algoritmi de numero Indorum', carried the decimal numerals westward; a systematiser and transmitter, not the numerals' inventor."
+    sources: [source/smith-karpinski-hindu-arabic-1911]
+  - person: person/al-kindi
+    role: transmitter
+    place: place/baghdad
+    note: "Wrote books on arithmetic and on the Indian method of reckoning before al-Khwarizmi's book, per Smith and Karpinski's survey of the Arabic testimony."
+    sources: [source/smith-karpinski-hindu-arabic-1911]
+  - person: person/sanad-ibn-ali
+    role: transmitter
+    place: place/baghdad
+    note: "Al-Ma'mun's astronomer, credited with a work on the Hindu method of reckoning, though some works ascribed to him may be al-Khwarizmi's."
+    sources: [source/smith-karpinski-hindu-arabic-1911]
+  - person: person/fibonacci
+    role: transmitter
+    place: place/bejaia
+    note: "Leonardo of Pisa learned the numerals at Bugia where his father was a commercial agent, and his Liber Abbaci ⁦(1202, revised 1228)⁩ spread them through Latin Europe."
+    sources: [source/smith-karpinski-hindu-arabic-1911]
+attribution:
+  status: transmission
+  claim:
+    ar: "دور العالم الإسلامي موثق: تبنّى الأرقام الهندية وعلّمها وطوّر الحساب عليها وحملها إلى أوروبا؛ ولا يُدَّعى اختراع الأرقام التي يعترف الكتاب العرب أنفسهم بأنها هندية."
+    en: "The Islamic world's documented role: it adopted the Indian numerals, taught and developed the reckoning built on them, and carried them to Europe; no invention of the numerals is claimed, which the Arabic writers themselves acknowledged as Hindu."
+    ur: "عالمِ اسلام کا موثق کردار: ہندو ہندسوں کو اپنایا، ان پر مبنی حساب سکھایا اور ترقی دی، اور انہیں یورپ پہنچایا؛ ہندسوں کی ایجاد کا دعویٰ نہیں، جنہیں خود عرب مصنفین نے ہندو قرار دیا۔"
+  basis:
+    ar: "سميث وكاربينسكي: الكتاب العرب منذ مطلع القرن التاسع أقروا بالأصل الهندي؛ وكتاب الخوارزمي المفقود عربياً بقيت ترجمته اللاتينية «Algoritmi de numero Indorum» ⁦(نحو 1130)⁩، ثم ليبر أباتشي 1202 نشر النظام في أوروبا {cite:smith-karpinski-hindu-arabic-1911}."
+    en: "Smith and Karpinski: Arabic writers from the early ninth century acknowledged the Indian origin; al-Khwarizmi's lost book survives as the Latin 'Algoritmi de numero Indorum' ⁦(c. 1130)⁩, then the Liber Abbaci of 1202 spread the system in Europe {cite:smith-karpinski-hindu-arabic-1911}."
+    ur: "اسمتھ اور کارپنسکی: نویں صدی کے شروع سے عرب مصنفین نے ہندوستانی اصل تسلیم کی؛ خوارزمی کی گمشدہ کتاب لاطینی «Algoritmi de numero Indorum» ⁦(تقریباً 1130ء)⁩ میں باقی ہے، پھر 1202ء کی لیبر اباچی نے نظام یورپ میں پھیلایا {cite:smith-karpinski-hindu-arabic-1911}۔"
+  perspectives:
+    - tradition: sunni
+      stance: { ar: "الموقف التقليدي في المصادر العربية", en: "The traditional position in the Arabic sources", ur: "عربی مآخذوں کا روایتی موقف" }
+      summary: { ar: "الموقف التقليدي في المصادر العربية — The numerals are Indian; Arabic writers called the science ilm hindi and the signs Hindu figures and said so openly.", en: "The numerals are Indian; Arabic writers called the science ilm hindi and the signs Hindu figures and said so openly.", ur: "عربی مآخذوں کا روایتی موقف — The numerals are Indian; Arabic writers called the science ilm hindi and the signs Hindu figures and said so openly." }
+      sources: [source/smith-karpinski-hindu-arabic-1911]
+    - tradition: academic
+      stance: { ar: "التاريخ الحديث للانتقال", en: "The modern transmission account", ur: "انتقال کی جدید روایت" }
+      summary: { ar: "التاريخ الحديث للانتقال — The numerals reached Europe through the Islamic world in two branches — the eastern forms and the Maghribi-Andalusi ghubar forms — with al-Khwarizmi's Latin translation and Fibonacci's Liber Abbaci as the documented nodes; details of the routes remain studied.", en: "The numerals reached Europe through the Islamic world in two branches — the eastern forms and the Maghribi-Andalusi ghubar forms — with al-Khwarizmi's Latin translation and Fibonacci's Liber Abbaci as the documented nodes; details of the routes remain studied.", ur: "انتقال کی جدید روایت — The numerals reached Europe through the Islamic world in two branches — the eastern forms and the Maghribi-Andalusi ghubar forms — with al-Khwarizmi's Latin translation and Fibonacci's Liber Abbaci as the documented nodes; details of the routes remain studied." }
+      sources: [source/smith-karpinski-hindu-arabic-1911]
+precursors:
+  - external: { ar: "الأرقام والنظام العشري الهنديان", en: "The Indian numerals and decimal place-value system", ur: "ہندوستانی ہندسے اور اعشاری مقامی نظام" }
+    note: "The numerals and the place-value decimal system were developed in India; Arabic writers acknowledged the origin and called it 'ilm hindi."
+    sources: [source/smith-karpinski-hindu-arabic-1911]
+  - external: { ar: "كتب الفلك الهندية ⁦(السند هند)⁩ في بغداد", en: "The Indian astronomical books (the Sindhind) in Baghdad", ur: "بغداد میں ہندوستانی فلکیاتی کتابیں ⁦(سند ہند)⁩" }
+    note: "The Sindhind reached al-Mansur's Baghdad about 770 CE with an Indian delegation, carrying the numerals into the city's scholarly milieu before the reckoning treatises."
+    sources: [source/smith-karpinski-hindu-arabic-1911]
+dependents:
+  - invention: invention/algorism
+    note: "The reckoning method built on the numerals — recorded separately."
+    sources: [source/smith-karpinski-hindu-arabic-1911]
+  - invention: invention/decimal-fractions-al-uqlidisi
+    note: "Al-Uqlidisi's decimal-fraction notation extended the same decimal notation; a separate record."
+    sources: [source/encyclopaedia-of-islam-2]
+  - external: { ar: "الحساب الأوروبي وكلمة «الخوارزمية»", en: "European algorism and the word 'algorithm'", ur: "یورپی الگورزم اور لفظ «الگورتھم»" }
+    note: "The Latin 'Algoritmi' writings and then Fibonacci's Liber Abbaci spread the numerals and the reckoning; al-Khwarizmi's Latinized name gave both 'algorism' and 'algorithm'."
+    sources: [source/smith-karpinski-hindu-arabic-1911]
+spread: []
+impact:
+  fields: [mathematics, institutions-systems]
+  changed:
+    ar: "جعلت القيمة المكانية والصفر أساس الحساب المكتوب في العالم الإسلامي ثم في أوروبا، فاستبدلت تدريجياً الحساب بالأحرف والمعداد {cite:smith-karpinski-hindu-arabic-1911}."
+    en: "Place value and the zero became the basis of written reckoning in the Islamic world and then in Europe, gradually displacing letter numerals and the abacus {cite:smith-karpinski-hindu-arabic-1911}."
+    ur: "مقامی قدر اور صفر عالمِ اسلام میں اور پھر یورپ میں تحریری حساب کی بنیاد بنے، اور حرفی ہندسوں اور گنتارے کی جگہ بتدریج لے لی {cite:smith-karpinski-hindu-arabic-1911}۔"
+  history:
+    ar: "من أنجح حلقات النقل العلمي في التاريخ: نظام هندي حُفظ وعُلّم وطُوّر في العالم الإسلامي قبل أن يصبح كتابة العدد العالمية {cite:smith-karpinski-hindu-arabic-1911}."
+    en: "One of history's most consequential transmissions: an Indian system kept, taught and developed in the Islamic world before becoming the world's way of writing number {cite:smith-karpinski-hindu-arabic-1911}."
+    ur: "تاریخ کا ایک نہایت مؤثر علمی انتقال: ہندوستانی نظام عالمِ اسلام میں محفوظ، سکھایا اور ترقی پذیر ہوا، پھر دنیا کا معیاری رقم الکتاب بنا {cite:smith-karpinski-hindu-arabic-1911}۔"
+  significance: 5
+  why: "The documented carrier of the decimal place-value system from India to Europe — the transmission on which the world's notation of number still runs."
+described_in: [work/kitab-al-hisab-al-khwarizmi]
+examples: []
+sites: []
+concepts: []
+today:
+  form:
+    ar: "الأرقام العربية الحديثة ⁦(0-9)⁩ في اللاتينية والأرقام الشرقية ⁦(٠-٩)⁩ في العربية كلتاهما سليل النظام نفسه؛ والمتحف يسجل الخطين معاً {cite:smith-karpinski-hindu-arabic-1911}."
+    en: "The modern Western digits ⁦(0-9)⁩ and the Eastern Arabic digits ⁦(٠-٩)⁩ are both descendants of the same system; the museum records the two lines together {cite:smith-karpinski-hindu-arabic-1911}."
+    ur: "جدید مغربی ہندسے ⁦(0-9)⁩ اور مشرقی عربی ہندسے ⁦(٠-٩)⁩ دونوں اسی نظام کی اولاد ہیں؛ عجائب گھر دونوں لکیریں ایک ساتھ لکھتا ہے {cite:smith-karpinski-hindu-arabic-1911}۔"
+  descendants:
+    ar: "كل حساب رقمي يومي — مدارس، أسواق، حواسيب — يقوم على النظام الذي مرّ بهذه الرحلة {cite:smith-karpinski-hindu-arabic-1911}."
+    en: "All daily digital reckoning — schools, markets, computers — runs on the system that travelled this route {cite:smith-karpinski-hindu-arabic-1911}."
+    ur: "ہر روزمرہ رقمی حساب — مدارس، بازار، کمپیوٹر — اسی نظام پر چلتا ہے جو اس راستے سے گزرا {cite:smith-karpinski-hindu-arabic-1911}۔"
+media: { image: media/dixit-algorizmi-cambridge, diagram: media/diagram-hindu-arabic-numerals-transmission }
+kids:
+  ar: "الأرقام التي نكتب بها اليوم جاءت من الهند، وحملها علماء بغداد في كتبهم، ثم تعلّمها الأوروبيون من كتاب الخوارزمي ومن كتاب فيبوناتشي. حتى كلمة «الخوارزمية» ⁦(algorithm)⁩ جاءت من اسم الخوارزمي."
+  en: "The numerals we write today came from India; Baghdad's scholars carried them in their books, and Europeans learned them from al-Khwarizmi's book and Fibonacci's book. Even the word 'algorithm' comes from al-Khwarizmi's name."
+  ur: "جو ہندسے ہم آج لکھتے ہیں وہ ہند سے آئے؛ بغداد کے علماء نے انہیں اپنی کتابوں میں پہنچایا، اور یورپیوں نے خوارزمی اور فبوناچی کی کتابوں سے سیکھے۔ یہاں تک کہ «الگورتھم» کا لفظ خوارزمی کے نام سے بنا۔"
+sources: [source/smith-karpinski-hindu-arabic-1911, source/encyclopaedia-of-islam-2]
+status: { review: published, completeness: 2 }
+provenance:
+  layer: own-research
+  generated_by: devin-drafter-w2-26
+  model: SWE-2
+  run: inventions-w2-26
+  source: "Smith & Karpinski, The Hindu-Arabic Numerals 1911, archive.org hinduarabicnumer00smitrich djvu OCR in hand; EI2 AL-KINDI and related entries for the treatise bibliography. Existing repo records invention/algorism and invention/decimal-fractions-al-uqlidisi linked as dependents, not duplicated."
