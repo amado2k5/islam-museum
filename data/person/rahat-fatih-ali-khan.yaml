@@ -26,6 +26,12 @@ themes: [music, spirituality-and-sufism]
 reach:
   - { platform: youtube, metric: views, value: 1000000000, date: "2021-01-05", note: "'Zaroori Tha' (album Back 2 Love, 2014), crossing one billion views, as reported by The Times of India on 5 January 2021", sources: [source/wikipedia-rahat-fatih-ali-khan-en] }
 external_ids: { wikidata: "Q691490", viaf: "27374742" }
+occupations:
+  - job: job/singer
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'singer', Job Browser linking wave 19"
+    sources: [source/wikipedia-rahat-fatih-ali-khan-en, source/wikidata-rahat-fatih-ali-khan, source/wikidata]
 relations:
   - { type: born_in, target: place/faisalabad, sources: [source/wikidata-rahat-fatih-ali-khan], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q173985)" }
   - { type: born_in, target: place/punjab, sources: [source/wikidata-rahat-fatih-ali-khan], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q4478)" }

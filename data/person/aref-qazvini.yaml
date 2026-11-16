@@ -39,6 +39,17 @@ faith:
     basis: unknown
     note: "No source read attests a faith or a school for him personally. English Wikipedia records that his ancestors two generations back were Zoroastrians - family background, which never counts - and that as a youth his father made him attend sermons, perform noha recitation and wear a turban, all of which he dropped on his father's death: practice imposed in youth, not attestation. Encyclopaedia Iranica records that a takfir was issued against him by others and describes his drinking and profligacy; others' judgements and a man's conduct are not attestation in any direction. Persian Wikipedia makes no statement of his religion and Wikidata carries no religion value."
     sources: [source/wikipedia-aref-qazvini-en, source/wikipedia-aref-qazvini-fa, source/iranica-aref-qazvini, source/wikidata-aref-qazvini]
+occupations:
+  - job: job/poet
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'poet', Job Browser linking wave 19"
+    sources: [source/wikipedia-aref-qazvini-en, source/wikipedia-aref-qazvini-fa, source/wikidata-aref-qazvini, source/iranica-aref-qazvini]
+  - job: job/musician
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'musician', Job Browser linking wave 19"
+    sources: [source/wikipedia-aref-qazvini-en, source/wikipedia-aref-qazvini-fa, source/wikidata-aref-qazvini, source/iranica-aref-qazvini]
 relations:
   - { type: born_in, target: place/qazvin, sources: [source/wikipedia-aref-qazvini-en, source/wikipedia-aref-qazvini-fa] }
   - { type: died_in, target: place/hamadan, sources: [source/wikipedia-aref-qazvini-en, source/wikipedia-aref-qazvini-fa, source/iranica-aref-qazvini] }

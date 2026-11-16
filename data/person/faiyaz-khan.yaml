@@ -34,6 +34,12 @@ died:
   derived: true
   note: "The English article gives his death from tuberculosis on 5 November 1950 at Baroda. The Hijri year (1370) is a conversion. No place entity exists for Baroda, so no died_in edge is written."
   sources: [source/wikipedia-faiyaz-khan-en]
+occupations:
+  - job: job/musician
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'musician', Job Browser linking wave 19"
+    sources: [source/wikipedia-faiyaz-khan-en]
 relations:
   - { type: born_in, target: place/agra, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikipedia-faiyaz-khan-en] }
 faith:

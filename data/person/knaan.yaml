@@ -20,6 +20,12 @@ born:
   derived: true
   note: "Born Keinan Abdi Warsame in Mogadishu, Somalia; the English article gives 1 February 1978, which the record follows. CONFLICT: his Wikidata item carries three birth-date values — 1 February 1978, 16 April 1978 (marked preferred) and 30 May 1978. The day is therefore carried as debated; the year and place are agreed. The Hijri year (1398) is derived by tabular conversion from the followed date."
   sources: [source/wikipedia-knaan-en, source/wikidata-knaan]
+occupations:
+  - job: job/singer
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'rapper', Job Browser linking wave 19"
+    sources: [source/wikipedia-knaan-en, source/wikipedia-knaan-ar, source/wikipedia-knaan-ur, source/wikidata-knaan, source/wikidata]
 relations:
   - { type: born_in, target: place/mogadishu, sources: [source/wikipedia-knaan-en, source/wikidata-knaan] }
 faith:

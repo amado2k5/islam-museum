@@ -34,5 +34,16 @@ provenance:
   generated_by: "Muse (Muse Spark 1.3)"
   run: century-additions-26
 status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
+occupations:
+  - job: job/singer
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'singer', Job Browser linking wave 19"
+    sources: [source/wikipedia-alpha-blondy-en, source/wikipedia-alpha-blondy-fr, source/wikipedia-alpha-blondy-ar, source/wikidata-alpha-blondy, source/wikidata]
+  - job: job/musician
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'musician', Job Browser linking wave 19"
+    sources: [source/wikipedia-alpha-blondy-en, source/wikipedia-alpha-blondy-fr, source/wikipedia-alpha-blondy-ar, source/wikidata-alpha-blondy, source/wikidata]
 relations:
   - { type: lived_in, target: place/ivory-coast, note: "From text: Ivorian (nationality adjective); broad association, flagged for review.", sources: [source/wikipedia-alpha-blondy-en, source/wikipedia-alpha-blondy-fr, source/wikipedia-alpha-blondy-ar, source/wikidata-alpha-blondy], confidence: low }
