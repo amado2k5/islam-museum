@@ -1,0 +1,46 @@
+id: job/locksmith
+class: job
+label: { ar: "القفّال", en: "Locksmith (qaffal / çilingir)", ur: "قفل ساز" }
+names:
+  - { value: "çilingir", kind: alternate, lang: tr }
+  - { value: "Kilidjian", kind: latinized, lang: tr }
+  - { value: "صانع الأقفال", kind: alternate }
+summary:
+  ar: "القفّال صانع الأقفال ومفاتيحها، وصناعته أمانة لأن فيها حفظ الأموال وصون الحُرَم. يضبط ابن الأخوة النجّارين الذين يعملون الأقفال: أن يُقام عليهم رجل أمين خبير بصنعتهم، وأن يُمنعوا من عمل مفتاح على مثال مفتاح غيرهم إلا لشريكين معروفين بالأمانة، وألا يُثقَب رأس القطعة التي تثبت فيها الأسنان بل تُنقَر ويُجعَل للأسنان فيها مكان، وأن تكون أعالي الأسنان مربّعة وأطرافها مستديرة مبردة ملساء، وأن تُخالَف صور الأقفال بعضها عن بعض. وفي إسطنبول عدّ إوليا صنّاع الأقفال ألف رجل بخمسمئة دكان بيرهم داود وعزيز الدين صمالي الذي قلّده سلمان الفارسي وقبره بشيراز، يزيّنون دكاكينهم بالأقفال والمفاتيح والحلق والصغائر من عمل الحديد بعضها مذهّب وبعضها مقلّى، وبجوارهم صنّاع القفل الصغير ⁦(كليدجيان)⁩ مئتان بمئة دكان بيرهم زيد الهندي؛ وادّعى البياطرة التقدّم عليهم لكونهم ألزم الطوائف في الحرب فقُضي بجعلهم تبعاً لهم."
+  en: "The qaffal made locks and their keys, and his craft is a trust, for in it lies the security of wealth and the protection of the household. Ibn al-Ukhuwwa regulates the carpenters who make locks: an honest man experienced in their craft is set over them; they are forbidden to make a key after the pattern of another's unless both keys are for partners known for their honour; the head of the piece holding the movable teeth must be morticed, not pierced, with a place hollowed for the teeth; the teeth squared at their upper ends, rounded and filed smooth at the tips; and the locks themselves differentiated in pattern from one another. In Evliya's Istanbul the locksmiths were a thousand men in five hundred shops under the patrons David and Aziz-ud-din Samahi, who was girded by Selman Pak and lies at Shiraz; they adorned their shops with locks, keys, rings and small ironwork, some gilt, some tinned. Beside them marched the locket-smiths (Kilidjian), two hundred men in a hundred shops, whose patron was Zeid the Indian; the farriers claimed precedence over the locksmiths as a guild indispensable in wartime, but were ranked as their assistants."
+  ur: "قفل ساز قفل اور چابیاں بنانے والا ہے، اور یہ ہنر امانت ہے کہ اسی میں مال اور گھر کی حفاظت ہے۔ ابن الاخوہ قفل بنانے والے بڑھئیوں پر شرط لگاتا ہے: ان پر ایماندار اور ہنر شناس نگران مقرر ہو؛ کسی اور کی چابی کی نقشے پر چابی بنانا ممنوع سوائے شراکت دار معروف بہ امانت کے؛ جس ٹکڑے میں متحرک دندانے بیٹھتے ہیں اس کا سرا سوراخ نہ ہو بلکہ کھود کر دندانوں کی جگہ بنائی جائے؛ دندانوں کے اوپری سرے چوکور اور نوکیاں گول، مبرد سے صاف اور چمکیلی؛ اور قفلوں کے نقشے ایک دوسرے سے مختلف رکھے جائیں۔ اولیاء کے استنبول میں قفل ساز ایک ہزار آدمی پانچ سو دکانیں، ان کے پیر داؤد اور عزیز الدین صمالی ہیں جسے سلمان پاک نے کمر بند پہنائی اور شیراز میں مدفون ہے؛ وہ اپنی دکانیں قفلوں، چابیوں، حلقوں اور لوہے کے چھوٹے سامان سے سجاتے، کچھ زر بفت کچھ قلعی نشان؛ ساتھ لاکیٹ ساز ⁦(کلیدجیان)⁩ دو سو آدمی سو دکانیں جن کا پیر زید ہندی ہے؛ نعلبندوں نے قفل سازوں پر رتبے کا دعویٰ کیا کہ جنگ کے وقت وہ ناگزیر انجمن ہیں، مگر انہیں ان ہی کا تابع ٹھہرایا گیا۔"
+domain: building-making
+kind: craft
+hirfa: true
+era:
+  origins: pre-islamic
+  status_today: living
+places:
+  - { place: place/istanbul, note: "Evliya counts the locksmiths at a thousand men in five hundred shops displaying locks, keys, rings and small gilt or tinned ironwork, the locket-smiths at two hundred men in a hundred shops, and the farriers ranked as the locksmiths' assistants after claiming precedence as a guild indispensable in war.", sources: [source/evliya-seyahatname-hammer] }
+  - { place: place/shiraz, note: "The locksmiths' patron Aziz-ud-din Samahi, girded by Selman Pak, is buried at Shiraz; from him, Evliya writes, all locksmiths and workers of small iron articles derive their skill.", sources: [source/evliya-seyahatname-hammer] }
+  - { place: place/cairo, note: "Lane describes the wooden dabbeh lock on every Cairo door: small iron pins dropping into holes of the sliding bolt, the key's pins pushing them up to draw it; about fourteen inches on a street door, seven to nine on rooms and cupboards.", sources: [source/lane-modern-egyptians] }
+regions: [anatolia-balkans, egypt-nile, levant-iraq, persia-central-asia]
+organization:
+  organized: guild
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people, living]
+periods: [period/crusades-ayyubid-mamluk, period/gunpowder-empires, period/modern-era]
+sources: [source/ibn-ukhuwwa-maalim-levy, source/evliya-seyahatname-hammer, source/lane-modern-egyptians]
+craft:
+  materials: [brass, wood]
+  techniques:
+    ar: "يفصّل ابن الأخوة قواعد قفل الخشب: يُنصَب على صنّاعه من النجّارين رجل أمين خبير بالحرفة لأنها مهمّة، ففيها حفظ المال وصون الحريم؛ ويُمنعون من عمل مفتاح على مثال مفتاح آخر إلا إن كانا لشريكين معروفين بالأمانة؛ ولا يُثقَب رأس القطعة التي تثبت فيها الأسنان لئلا تُرمى، بل تُنقَر القطعة ويُحفَر للأسنان فيها موضع؛ وتكون أعالي الأسنان مربّعة وأسافلها مستديرة تُبرَد حتى تستوي أطرافها ملساء، وكذلك أسنان المفتاح لئلا تضرّ نتوءات القفل من فوق أو من تحت؛ وتُخالَف صور الأقفال بعضها عن بعض. ويصف لين قفل «الدبّة» الخشبي على أبواب القاهرة: مسامير حديد صغيرة تهبط في ثقوب المزلاج المتحرّك ما إن يُدفَع في حلقة الباب، وعلى المفتاح مسامير تدخل تلك الثقوب فترفع المسامير فينسحب المزلاج؛ طول قفل باب الدار نحو أربع عشرة بوصة وأقفال الحجرات والدواليب سبع أو ثمان أو تسع، وأقفال أبواب الحارات والمباني العامة من هذا الضرب."
+    en: "Ibn al-Ukhuwwa details the rules of the wooden lock: the carpenters who make locks have an honest man experienced in their craft set over them, for it is an important one — in it lies the security of wealth and protection for the household; they must not make a key after the pattern of another's unless both are for partners known for their honour; the head of the piece in which the movable teeth are fixed must not be pierced lest the teeth be thrown out, but the piece morticed and a place hollowed for the teeth; the upper ends of the teeth squared, the other ends round, filed smooth and flat at the tip — and likewise the teeth of the key — so that the projecting parts of the lock are not harmed from above or below; and the locks themselves must be differentiated in pattern from one another. Lane describes the wooden dabbeh of the Cairo door: a number of small iron pins drop into corresponding holes in the sliding bolt as soon as it is pushed into the staple of the door-post, and the key carries pins that enter those holes and push the pins up so the bolt can be drawn back; the street-door lock is commonly about fourteen inches long, those of rooms and cupboards seven, eight or nine, and the locks of quarter-gates and public buildings are of the same kind."
+    ur: "ابن الاخوہ لکڑی کے قفل کے اصول تفصیل سے بتاتا ہے: قفل بنانے والے بڑھئیوں پر ایماندار اور ہنر شناس نگران ہو کہ یہ اہم پیشہ ہے — اسی میں مال کی حفاظت اور گھر کی عصمت ہے؛ دوسرے کے نقشے پر چابی بنانا ممنوع سوائے معروف بہ امانت شراکت داروں کے؛ جس ٹکڑے میں متحرک دندانے بیٹھتے ہیں اس کا سرا سوراخ نہ ہو کہ دندانے باہر نہ گریں، بلکہ ٹکڑا کھود کر ان کے لیے جگہ نکالی جائے؛ دندانوں کے اوپری سرے چوکور، نیچے والے گول اور نوک مبرد سے ہموار؛ اسی طرح چابی کے دندانے بھی تاکہ قفل کے ابھرے حصے اوپر یا نیچے سے ضرر نہ پہنچائیں؛ اور قفلوں کے نقشے آپس میں مختلف رکھے جائیں۔ لین قاہرہ کے دروازے کے لکڑی کے «دبّہ» قفل کو بیان کرتا ہے: چھوٹے لوہے کے کیل دروازے کی چوکھٹ کی کُنڈی میں سلائیڈنگ بولٹ کے سوراخوں میں گر جاتے ہیں، اور چابی کی کِیلیاں ان سوراخوں میں گھس کر کیلوں کو اوپر دھکیلتی ہیں تب بولٹ کھِمچتا ہے؛ محلے کے دروازے کا قفل عام طور پر چودہ انچ، کوٹھڑیوں اور الماریوں کے سات، آٹھ یا نو انچ؛ اور حاروں اور عمومی عمارتوں کے دروازوں کے قفل بھی اسی قسم کے۔"
+  guild:
+    bodies: []
+    shaykh_title: { ar: "شيخ طائفة القفّالين", en: "Sheykh of the locksmiths' guild", ur: "طائفۃ القفّالین کا شیخ" }
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-trades-2" }
+provenance:
+  layer: own-research
+  source: "Ibn al-Ukhuwwa/Levy ch. LXVIII pp. 95-96 (carpenters who make locks); Evliya (von Hammer) I,2 sec. 282 p. 185 (locksmiths), sec. 285 p. 185 (locket-smiths), sec. 296 pp. 186-187 (farriers' precedence claim); Lane, Modern Egyptians, Introduction pp. 19-20 (the wooden dabbeh) — read on 16 Nov 2026 from the downloaded scans"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-trades-2-drafting"
