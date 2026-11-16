@@ -15,6 +15,18 @@ wings: [people]
 traditions: [sunni]
 born: { edtf: "1399", hijri: "0801-09", calendar: julian, precision: year, status: tradition, derived: true, note: "في العشر الأخير من رمضان سنة 801هـ بالإسكندرية؛ التحويل مشتق {cite:al-shifa-ilmiyya-shumunni p.6}", sources: [source/al-shifa-ilmiyya-shumunni] }
 died: { edtf: "1468", hijri: "0872-12-17", calendar: julian, precision: year, status: tradition, derived: true, note: "ليلة الأحد سابع عشر ذي الحجة سنة 872هـ بمنزله في تربة قانباي الجركسي بالقاهرة ودفن بها؛ التحويل مشتق {cite:al-shifa-ilmiyya-shumunni p.7}", sources: [source/al-shifa-ilmiyya-shumunni] }
+occupations:
+  - job: job/muhaddith
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'muhaddith', Job Browser linking wave"
+    sources: [source/al-aalam, source/al-shifa-ilmiyya-shumunni]
+  - job: job/grammarian
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'grammarian', Job Browser linking wave"
+    sources: [source/al-aalam, source/al-shifa-ilmiyya-shumunni]
+
 relations:
   - { type: authored, target: work/muzil-al-khafa-an-alfaz-al-shifa, sources: [source/al-shifa-ilmiyya-shumunni] }
   - { type: born_in, target: place/alexandria, sources: [source/al-shifa-ilmiyya-shumunni] }

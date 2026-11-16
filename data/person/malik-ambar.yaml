@@ -11,6 +11,23 @@ regions: [south-asia]
 gender: male
 roles: [vizier, general, patron]
 died: { edtf: "1626", calendar: gregorian, precision: year, status: historical, note: "مات فجأة سنة 1626م {cite:zebrowski-deccani-painting-1983 p. 35}." }
+occupations:
+  - job: job/vizier
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'vizier', Job Browser linking wave"
+    sources: [source/zebrowski-deccani-painting-1983]
+  - job: job/commander
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'general', Job Browser linking wave"
+    sources: [source/zebrowski-deccani-painting-1983]
+  - job: job/patron
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'patron', Job Browser linking wave"
+    sources: [source/zebrowski-deccani-painting-1983]
+
 relations:
   - { type: lived_in, target: place/ahmadnagar, sources: [source/zebrowski-deccani-painting-1983] }
 sources: [source/zebrowski-deccani-painting-1983]

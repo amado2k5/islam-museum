@@ -16,6 +16,18 @@ regions: [levant-iraq]
 faith:
   - value: sunni
     basis: tradition
+occupations:
+  - job: job/sultan
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'sultan', Job Browser linking wave"
+    sources: [source/shadharat-dhahab]
+  - job: job/emir
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'emir', Job Browser linking wave"
+    sources: [source/shadharat-dhahab]
+
 relations:
   - { type: died_in, target: place/aleppo, sources: [source/shadharat-dhahab] }
 sources: [source/shadharat-dhahab]

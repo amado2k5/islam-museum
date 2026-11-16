@@ -25,6 +25,23 @@ footprint:
 honours:
   - { award: award/king-faisal-prize, category: service-to-islam, result: won, year: 2002, sources: [source/king-faisal-prize-laureates] }
 external_ids: { wikidata: "Q754778", viaf: "2560099" }
+occupations:
+  - job: job/emir
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'emir', Job Browser linking wave"
+    sources: [source/wikipedia-sultan-al-qasimi-ruler-en, source/wikidata-sultan-bin-muhammad-al-qasimi, source/king-faisal-prize-laureates, source/wikidata]
+  - job: job/historian
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'historian', Job Browser linking wave"
+    sources: [source/wikipedia-sultan-al-qasimi-ruler-en, source/wikidata-sultan-bin-muhammad-al-qasimi, source/king-faisal-prize-laureates, source/wikidata]
+  - job: job/patron
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'patron', Job Browser linking wave"
+    sources: [source/wikipedia-sultan-al-qasimi-ruler-en, source/wikidata-sultan-bin-muhammad-al-qasimi, source/king-faisal-prize-laureates, source/wikidata]
+
 relations:
   - { type: born_in, target: place/sharjah, sources: [source/wikidata-sultan-bin-muhammad-al-qasimi], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q289693)" }
 sources: [source/wikipedia-sultan-al-qasimi-ruler-en, source/wikidata-sultan-bin-muhammad-al-qasimi, source/king-faisal-prize-laureates, source/wikidata]

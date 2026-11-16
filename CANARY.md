@@ -13,6 +13,10 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v1.77.0 — 2026-11-17
+### Added
+- Job Browser linking wave 3: 59 `occupations:` edges on 25 person records, prioritising the high-count jobs — commander, emir, muhaddith, vizier, merchant — plus alim, patron, historian, poet and eleven more.
+
 ## v1.76.0 — 2026-11-17
 ### Added
 - Job Browser linking wave 2: 75 `occupations:` edges on 25 more person records — alim, faqih, qadi, mutakallim, muhaddith, historian, qari, poet, teacher, physician and twelve more jobs, including the wave-1-deferred muhaddith, commander, calligrapher and grammarian.

@@ -23,6 +23,18 @@ periods: [period/abbasid-fragmentation]
 regions: [andalus-europe]
 born: { edtf: "0993", calendar: julian, precision: year, status: tradition, derived: false, note: "993 as given with the death year 1056 in the article on the cup-bearer (saki), EI2 vol. 8 p. 949; no Hijri birth date is given.", sources: [source/encyclopaedia-of-islam-2] }
 died: { edtf: "1056", hijri: "0448", calendar: julian, precision: year, status: tradition, derived: false, note: "EI2 vol. 11 p. 199 gives 448/1056-7; vol. 8 p. 949 gives 1056.", sources: [source/encyclopaedia-of-islam-2] }
+occupations:
+  - job: job/vizier
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'vizier', Job Browser linking wave"
+    sources: [source/encyclopaedia-of-islam-2]
+  - job: job/poet
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'poet', Job Browser linking wave"
+    sources: [source/encyclopaedia-of-islam-2]
+
 relations:
   - { type: lived_in, target: place/granada, sources: [source/encyclopaedia-of-islam-2] }
   - { type: debated_with, target: person/ibn-hazm, note: "Ibn Hazm wrote a refutation of him; EI2 vol. 3 p. 828 and vol. 4 p. 1023.", sources: [source/encyclopaedia-of-islam-2] }

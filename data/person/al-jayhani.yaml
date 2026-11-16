@@ -21,5 +21,17 @@ provenance:
   run: ocr-harvest-2026-11-04
 status: { review: published, completeness: 2 }
 died: { edtf: "922~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Djayhani' / C. E. Bosworth; fl. 301–310 AH)" }
+occupations:
+  - job: job/vizier
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'vizier', Job Browser linking wave"
+    sources: [source/muqaddasi-ahsan-taqasim-bga-1877]
+  - job: job/geographer
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'geographer', Job Browser linking wave"
+    sources: [source/muqaddasi-ahsan-taqasim-bga-1877]
+
 relations:
   - { type: ruler_of, target: place/khurasan, note: "From text: amir of Khurasan", sources: [source/muqaddasi-ahsan-taqasim-bga-1877] }

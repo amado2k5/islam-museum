@@ -25,5 +25,17 @@ provenance:
 status:
   review: published
   completeness: 2
+occupations:
+  - job: job/sultan
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'sultan', Job Browser linking wave"
+    sources: [source/tarikh-islam-hasan-ibrahim, source/encyclopaedia-of-islam-2, source/wikidata]
+  - job: job/commander
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'military-leader', Job Browser linking wave"
+    sources: [source/tarikh-islam-hasan-ibrahim, source/encyclopaedia-of-islam-2, source/wikidata]
+
 relations:
   - { type: lived_in, target: place/iran, note: "Only the record-level region (persia-central-asia) is attested; broad-region edge flagged for review.", sources: [source/tarikh-islam-hasan-ibrahim, source/encyclopaedia-of-islam-2], confidence: low }
