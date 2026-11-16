@@ -1,0 +1,47 @@
+id: job/bookbinder
+class: job
+label: { ar: "المجلّد", en: "Bookbinder (mujallid)", ur: "جلد ساز ⁦(مجلّد)⁩" }
+names:
+  - { value: "Mujellidan", kind: latinized, lang: tr }
+  - { value: "mücellit", kind: alternate, lang: tr }
+summary:
+  ar: "المجلّد هو من يجمع الكراريس ويشدّها بالغراء ويكسوها الألواح والجلد المزخرف. يذكر غرومان أن الجلاد صناعتهم في اليمن كانت مزدهرة حتى إن زبيداً عُرفت بجلدها الأحمر وصنعاء بعدة دبّاغات، وأن المقدسي الجغرافي المجلّد نفسه فُتن بصنعته هناك حتى أخذ على أجمل مجلداته دينارين عن المصحف الواحد، وأن كراريس اليمن كانت تُلصق بنشا القمح. وأحصى الفهرستُ أسماء مجلدين في بغداد المأمون، وفي تركيا قامت للمجلّدين طائفة معترف بها يُقال إنها أُسست في عهد بايزيد الثاني، ومرّت في موكب إوليا بأربعمئة رجل ومئة دكان."
+  en: "The mujallid gathered the quires, glued them and cased the book in boards and decorated leather. Grohmann records how the South Arabian leather industry fed the craft — Zabid's red kid, San'a's tanneries, Ta'if's Cordovan and its praised bindings — and that the geographer al-Muqaddasi, himself a bookbinder, received as much as two dinars for a fine Qur'an binding on his Yemen journey, the quires being glued there with wheat-starch rather than the asphodel paste of Palestine. Ibn al-Nadim's Fihrist names bookbinders who worked in al-Ma'mun's library. In Turkey the bookbinders formed a recognised guild said to have been established under Bayezid II, and in Evliya's procession the Mujellidan pass four hundred men with a hundred shops."
+  ur: "مجلّد جلدے جوڑ کر گلو سے باندھتا اور کتاب کو تختوں اور نقش دار چمڑے میں ملبوس کرتا تھا۔ گروہمان بتاتا ہے کہ جنوبی عرب کی چمڑے کی صنعت نے اس ہنر کو پرورش دی — زبید کا سرخ چمڑا، صنعا کی دباغ خانے، طائف کی قرطبی چمڑی اور اس کی معروف جلدیں — اور جغرافیہ دان المقدسی، جو خود مجلّد تھا، اپنے یمن کے سفر میں ایک نفیس جلد پر دو دینار تک پایا، وہاں جلدے گندم کے نشاستے سے جوڑی جاتی تھیں نہ کہ فلسطین کے شیرمردار ⁦(اسفوڈل)⁩ گوند سے۔ ابن الندیم کے فہرست میں مأمون کی لائبریری کے مجلدوں کے نام ہیں۔ ترکی میں جلد سازوں کی تسلیم شدہ انجمن تھی جسے بایزید ثانی کے عہد میں قائم کہا جاتا ہے، اور اولیہ کے جلوس میں مجلّدان چار سو آدمی اور سو دکانوں کے ساتھ گزرے۔"
+domain: arts-letters
+kind: craft
+hirfa: true
+broader: job/copyist
+era:
+  origins: early-caliphate
+  status_today: living
+places:
+  - { place: place/yemen, note: "Zabid was noted for its red kid-leather, San'a had thirteen tanneries working in 381/991-92, and the bookbinder-geographer al-Muqaddasi was proud of the fine bindings he made there for as much as two dinars a Qur'an; the quires were glued with wheat-starch.", sources: [source/arnold-grohmann-islamic-book-1929] }
+  - { place: place/baghdad, note: "Ibn al-Nadim's Fihrist (987-88) names the famous bookbinders of the Abbasid capital — Ibn Abi'l-Harith who worked in al-Ma'mun's library, Dimyana al-A'sar b. al-Hajjam, Ibrahim and his son Muhammad, al-Husayn b. al-Saffar and others.", sources: [source/arnold-grohmann-islamic-book-1929] }
+  - { place: place/taif, note: "Ta'if produced the celebrated striped Cordovan leather and excellent bindings; al-Raghib al-Isfahani praised a Kufic Qur'an bound in two boards from the town.", sources: [source/arnold-grohmann-islamic-book-1929] }
+  - { place: place/istanbul, note: "The Turkish bookbinders formed a recognised guild said to have been established under Bayezid II (1481-1512); in Evliya's procession the Mujellidan pass four hundred men with one hundred shops, their patron Abdullah Taymi.", sources: [source/arnold-grohmann-islamic-book-1929, source/evliya-seyahatname-hammer] }
+regions: [levant-iraq, arabia, egypt-nile, maghreb, andalus-europe, persia-central-asia, anatolia-balkans]
+organization:
+  organized: guild
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people, living]
+periods: [period/abbasid-early, period/abbasid-fragmentation, period/buyid-seljuk-fatimid-era, period/crusades-ayyubid-mamluk, period/mongol-post-mongol, period/gunpowder-empires]
+sources: [source/arnold-grohmann-islamic-book-1929, source/evliya-seyahatname-hammer]
+craft:
+  materials: [leather, paper, parchment, wood, gold]
+  techniques:
+    ar: "يصف غرومان حرفة المجلّد من مادتها الأولى: جلود اليمن والطائف والمغرب، وألواح خشب الأرز أو لبابة البردي في مصر، ونشا القمح في اليمن مقابل غراء الأسفودل في فلسطين. وعند ابن النديم أسماء مجلدين من عصر المأمون لم يبقَ لهم عمل، لكن أغلفة نادرة بقيت: غلاف خشب أرز بفسيفساء عاج وعظم وأخشاب ملونة في متحف برلين، وأغلفة مصاحف المملوكية، ثم أغلفة العصر المغولي في إيران ذات البساطة الهندسية الشديدة من غير ذهب، ثم الجلد المثقوب فوق أرضية زرقاء مذهّبة في بغداد سنة 1407، وأغلفة التيموريين المنقوشة بالذهب حتى حُسب على أحد أغلفة سنة 838هـ خمسمئة وخمسون ألف ضربة نقش احتاجت سنتين أو ثلاثاً، وألواح الورق المفرّغ منتصف القرن السادس عشر، ثم الأغلفة المطلية على الورق المقوى المجصّص حتى عمل الحاج محمد تقي في 1270هـ ⁦(1854م)⁩. وفي إسطنبول مرّ المجلّدان أربعمئة رجل بمئة دكان، ومرّ المذهّبون يذهّبون المصاحف والكتب في دكاكينهم."
+    en: "Grohmann traces the binder's craft from its raw material: the leathers of Yemen, Ta'if and the Maghreb, boards of cedar wood or of papyrus pulp in Egypt, wheat-starch paste in Yemen where Palestine used asphodel. Ibn al-Nadim names binders of al-Ma'mun's age whose work is lost, but rare covers survive: a cedar-wood cover inlaid with a mosaic of ivory, bone and coloured woods in the Berlin museum; the splendid Mamluk Qur'an bindings; the austere, goldless geometric covers made for Mongol princes of Persia; the perforated leather laid over blue and gold that appears at Baghdad in 1407; the Timurid tooled-gold covers on which one binding of 838 AH (1434) was calculated to carry some 550,000 impressions of the binder's tool, a work of two or three years; the panels of paper cut into delicate lace from the mid-sixteenth century; and the painted lacquer covers on gessoed papier-mâché down to Haji Muhammad Taqi's design of 1270 AH (1854). In Istanbul the bookbinders passed four hundred men with a hundred shops, and the gilders passed gilding Qur'ans and other books in theirs."
+    ur: "گروہمان جلد ساز کے ہنر کو اس کے خام مال سے بیان کرتا ہے: یمن، طائف اور مغرب کے چمڑے، مصر میں دیار یا پاپیرس گٹے کی تختیاں، یمن میں گندم کا نشاستہ جہاں فلسطین میں شیرمردار کا گوند چلتا تھا۔ ابن الندیم مأمون کے عہد کے مجلدوں کے نام دیتا ہے جن کا کوئی کام باقی نہیں، مگر چند جلدیں بچی ہیں: برلن کے عجائب گھر میں عاج، ہڈی اور رنگین لکڑیوں کی موزائیک شدہ دیار کی جلد؛ مملوک مصحفوں کی نفیس جلدیں؛ ایران کے مغول شہزادوں کے لیے بنی بے زر ہندسی جلدیں؛ بغداد میں ۱۴۰۷ء کی نقشِ مثقوب چمڑی نیلی و زرینی زمین پر؛ تیموری زربفت جلدیں جن میں ۸۳۸ھ ⁦(۱۴۳۴ء)⁩ کی ایک جلد پر پانچ لاکھ پچاس ہزار ضربِ نقش شمار کیں گئیں، دو تین سال کا کام؛ سولہویں صدی کے وسط کی جالی دار کاغذی پٹیوں والی جلدیں؛ اور گیسو لیتیے پاپیے ماشے پر رنگین لاکر جلدیں تا حاجی محمد تقی کی ۱۲۷۰ھ ⁦(۱۸۵۴ء)⁩ کی جلد۔ استنبول میں مجلّد چار سو آدمی اور سو دکانوں کے ساتھ گزرے اور مذهّب کش اپنی دکانوں میں مصحف اور کتابیں مذهّب کرتے گزرے۔"
+  guild:
+    bodies: []
+    shaykh_title: { ar: "شيخ طائفة المجلّدين", en: "Sheykh of the bookbinders' guild", ur: "جلد سازوں کی انجمن کا شیخ" }
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-harvest-5" }
+provenance:
+  layer: own-research
+  source: "Arnold & Grohmann, The Islamic Book pp. 30-36 (Grohmann, Bindings: the leather trade, al-Muqaddasi, the Fihrist binders, early covers) and pp. 97-100 (Arnold, Islamic Bookcraft: the guild, Timurid and lacquer bindings); Evliya (von Hammer) I,2 secs. 450-451 p. 218 — read on 16 Nov 2026 from the downloaded scans"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-harvest-5-drafting"

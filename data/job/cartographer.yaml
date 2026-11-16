@@ -1,0 +1,40 @@
+id: job/cartographer
+class: job
+label: { ar: "رسّام الخرائط", en: "Cartographer / map-maker", ur: "نقشہ ساز" }
+names:
+  - { value: "صاحب الصور", kind: alternate }
+summary:
+  ar: "رسّام الخرائط هو من يرسم صور الأرض في الكتب الجغرافية وعلى الألواح الملكية. يذكر كريمرز أن الخوارزمي جرّب بطلميوس نحو 830م بخريطة رافقت نصّه وضاعت، وأن المأمون أمر سبعين عالماً برسم «صورة الأرض» وقياس درجة الطول في بادية الشام؛ وأن مدرسة البلخي في القرن العاشر أنتجت خرائط العالم الدائرية التي مركزها مكة يحيط بها المحيط، ونصوصها شرح لخرائطها عند الإسطخري وابن حوقل والمقدسي، وهي خرائط بلا صور آدميين ولا بهائم على خلاف خرائط أوروبا آنذاك؛ وأن الإدريسي رسم لروجر الثاني ملك صقلية سبعين خريطة تُركَّب مستطيلاً واحداً عرضه الأقاليم السبعة."
+  en: "The cartographer drew the 'images' of the earth in geographical books and on royal plates. Kramers records that al-Khwarizmi adapted Ptolemy about 830 with a map that accompanied his text and is lost; that al-Ma'mun ordered seventy scholars to execute an 'image of the earth' and had a geographical degree measured in the Syrian desert; that the tenth-century Balkhi school produced circular world-maps centred on Mecca and girdled by the encircling ocean, their texts a commentary on the maps, in the works of al-Istakhri, Ibn Hawqal and al-Maqdisi — maps without pictures of men and animals, unlike contemporary European maps; and that al-Idrisi drew for Roger II of Sicily seventy maps which fit together into a single oblong quadrangle arranged by the seven climates."
+  ur: "نقشہ ساز جغرافیائی کتب اور شاہی تختوں پر زمین کی «صورتیں» ترتیب دیتا تھا۔ کریمرز لکھتا ہے کہ خوارزمی نے ۸۳۰ء کے قریب بطلمیوس کی تالیف کے ساتھ ایک نقشہ لگایا جو کھو گیا؛ مأمون نے ستر علماء سے «صورتِ ارض» بنوائی اور صحرائے شام میں جغرافیائی درجے کی پیمائش کرائی؛ دسویں صدی کے بلخی مکتب نے مکہ کو مرکز رکھ کر گول عالمی نقشے بنائے جنہیں بحرِ محیط گھیرے تھا اور جن کا متن نقشوں کی شرح تھا — الاسطخری، ابن حوقل اور مقدسی کی تصانیف میں — اور ان نقشوں میں انسانوں اور جانوروں کی تصویریں نہیں تھیں برعکس اس زمانے کے یورپی نقشوں کے؛ اور الادریسی نے سسلی کے شاہ روجر دوم کے لیے ستر نقشے بنائے جو مل کر ایک لمبا چوکور بناتے ہیں اور سات اقالیم کی ترتیب رکھتے ہیں۔"
+domain: sciences-numbers
+kind: scholarly
+hirfa: true
+broader: job/astronomer
+era:
+  origins: classical
+  status_today: transformed
+places:
+  - { place: place/baghdad, note: "Al-Ma'mun's court commissioned the 'image of the earth' executed by seventy scholars including al-Khwarizmi, and the measurement of a geographical degree in the Syrian desert.", sources: [source/legacy-of-islam-1931] }
+  - { place: place/cordoba, note: "In the west the school of descriptive geography flourished in al-Andalus with al-Bakri (wrote c. 1067) and the detailed coast-line itineraries.", sources: [source/legacy-of-islam-1931] }
+regions: [levant-iraq, persia-central-asia, maghreb, andalus-europe, egypt-nile]
+organization:
+  organized: none-known
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people]
+periods: [period/abbasid-early, period/abbasid-fragmentation, period/buyid-seljuk-fatimid-era, period/crusades-ayyubid-mamluk]
+sources: [source/legacy-of-islam-1931]
+craft:
+  techniques:
+    ar: "يميّز كريمرز بين جغرافيا الفلكيين وجغرافيا الكتّاب الرحّالة: فالفلكيون أمثال الفرغاني والبتاني وابن يونس والبيروني وضعوا جداول الطول والعرض على منهاج الأقاليم السبعة، بينما كتب «المسالك والممالك» وصفاً إدارياً وطرقاً عند ابن خرداذبه واليعقوبي وابن الفقيه وابن رسته. ثم جاءت مدرسة البلخي بمصاحبة الخرائط للنص: خريطة عالم دائرية مركزها مكة يحيط بها بحر محيط يدخل منه خليجان يكادان يلتقيان عند برزخ السويس، ثم خرائط الأقاليم بالترتيب؛ وهي خرائط بلا صور ذوات الأرواح على عادة المنع، وإن أخذت السواحل والأنهار أشكالاً اصطلاحية فجاءت البحر المتوسط عند الإسطخري دائرة أو قطعاً ناقصاً. وعمل الإدريسي لروجر الثاني سبعين خريطة جزءاً من أقاليم سبعة، وخريطة عالم دائرية تتقدمها، وخط ساحلها للبحر الأبيض أقرب إلى الحقيقة من كل سابقيه."
+    en: "Kramers distinguishes the astronomers' geography from that of the writing travellers: the astronomers such as al-Farghani, al-Battani, Ibn Yunus and al-Biruni gave tables of longitude and latitude arranged by the seven climates, while the Books of Roads and Kingdoms — Ibn Khurradadhbih, al-Ya'qubi, Ibn al-Faqih, Ibn Rusta — gave administrative description and itineraries. Then the Balkhi school made the text a description of its maps: a circular world-map with Mecca at its centre girdled by the encircling ocean from which two gulfs enter and nearly meet at the isthmus of Suez, then the regional maps in their order. The maps carry no pictures of living beings, in keeping with the prohibition, though coasts and rivers take conventionalised forms, the Mediterranean in the Istakhri maps appearing as a circle or ellipse. Al-Idrisi made for Roger II seventy maps dividing the seven climates, preceded by a circular world-map, and his Mediterranean coast-line answered reality better than any previous Islamic map."
+    ur: "کریمرز ماہرِ فلکیات کے جغرافیے کو مسافر مصنفوں کے جغرافیے سے الگ کرتا ہے: الفرغانی، البتانی، ابن یونس اور البیرونی جیسے منجّموں نے سات اقالیم کے منہج پر طول و عرض کے جدول دیے، جب کہ «مسالک و ممالک» کی کتب — ابن خردادبہ، الیعقوبی، ابن فقیہ، ابن رستہ — انتظامی تفصیل اور راستے بیان کرتی ہیں۔ پھر بلخی مکتب نے متن کو نقشوں کی شرح بنایا: گول عالمی نقشہ جس کے مرکز مکہ ہے اور بحرِ محیط اسے گھیرے ہے جس سے دو خلیجیں داخل ہو کر برخائے سوئس کے قریب ملتی ہیں، پھر علاقائی نقشے ترتیب سے۔ نقشوں میں جانداروں کی تصویر نہیں، ممنوعہ کے مطابق، لیکن ساحل اور دریا قراردادی شکلیں لیتے ہیں — اسطخری کے نقشوں میں بحیرہ روم دائرہ یا بیضہ ہے۔ الادریسی نے روجر دوم کے لیے سات اقالیم پر ستر نقشے بنائے جن سے پہلے گول عالمی نقشہ ہے، اور اس کا بحیرہ روم کا ساحل کسی بھی سابق اسلامی نقشے سے زیادہ حقیقت سے میل کھاتا ہے۔"
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-harvest-5" }
+provenance:
+  layer: own-research
+  source: "Arnold & Guillaume (eds), The Legacy of Islam, Kramers, Geography and Commerce pp. 84-93 — read on 16 Nov 2026 from the downloaded scan"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-harvest-5-drafting"
