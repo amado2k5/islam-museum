@@ -12,6 +12,12 @@ wings: [people]
 periods: [period/mongol-post-mongol]
 regions: [anatolia-balkans]
 died: { edtf: "1462~", hijri: "0866", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي 866 {cite:shadharat-dhahab p. 307}", sources: [source/shadharat-dhahab] }
+occupations:
+  - job: job/emir
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'emir', Job Browser linking wave 35"
+    sources: [source/shadharat-dhahab]
 relations:
   - { type: lived_in, target: place/anatolia, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/shadharat-dhahab] }
 provenance:
