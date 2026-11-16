@@ -1,0 +1,16 @@
+id: passage/muslim-api-3035
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "3035"
+label: { ar: "صحيح مسلم 3035 — دفن وقبر ومرقد", en: "Sahih Muslim 3035 — a burial, grave or resting place", ur: "صحیح مسلم 3035 — تدفین، قبر اور مرقد" }
+text: "… ابْنُ جُرَيْجٍ، قَالَ سَمِعْتُ عَطَاءً، يُخْبِرُ قَالَ أَخْبَرَنِي عُرْوَةُ بْنُ الزُّبَيْرِ، قَالَ كُنْتُ أَنَا وَابْنُ، عُمَرَ مُسْتَنِدَيْنِ إِلَى حُجْرَةِ عَائِشَةَ وَإِنَّا لَنَسْمَعُ ضَرْبَهَا بِالسِّوَاكِ تَسْتَنُّ - قَالَ - فَقُلْتُ يَا أَبَا عَبْدِ الرَّحْمَنِ أَعْتَمَرَ النَّبِيُّ فِي رَجَبٍ قَالَ نَعَمْ. فَقُلْتُ لِعَائِشَةَ أَىْ أُمَّتَاهُ أَلاَ تَسْمَعِينَ مَا يَقُولُ أَبُو عَبْدِ الرَّحْمَنِ قَالَتْ وَمَا يَقُولُ قُلْتُ يَقُولُ …"
+summary:
+  ar: "حديث في صحيح مسلم، رقم 3035، يذكر دفن وقبر ومرقد. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sahih Muslim, no. 3035 (The Book of Pilgrimage), that mentions a burial, grave or resting place. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
+  ur: "صحیح مسلم کی حدیث نمبر 3035، جس میں تدفین، قبر اور مرقد کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ziyarat-al-qubur, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 3035 (book 15 hadith 242); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

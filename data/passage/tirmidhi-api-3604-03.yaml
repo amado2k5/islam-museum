@@ -1,0 +1,16 @@
+id: passage/tirmidhi-api-3604-03
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "3604.03"
+label: { ar: "جامع الترمذي 3604.03 — وصية أو عهد أخير", en: "Jami' al-Tirmidhi 3604.03 — a testament or parting counsel", ur: "جامع ترمذی 3604.03 — وصیت یا آخری نصیحت" }
+text: "حَدَّثَنَا يَحْيَى بْنُ مُوسَى، أَخْبَرَنَا وَكِيعٌ، أَخْبَرَنَا أَبُو فَضَالَةَ الْفَرَجُ بْنُ فَضَالَةَ، عَنْ أَبِي سَعِيدٍ الْمَقْبُرِيِّ، أَنَّ أَبَا هُرَيْرَةَ، قَالَ دُعَاءٌ حَفِظْتُهُ مِنْ رَسُولِ اللَّهِ لاَ أَدَعُهُ \" اللَّهُمَّ اجْعَلْنِي أُعَظِّمُ شُكْرَكَ وَأُكْثِرُ ذِكْرَكَ وَأَتَّبِعُ نَصِيحَتَكَ وَأَحْفَظُ وَصِيَّتَكَ \". هَذَا حَدِيثٌ غَرِيبٌ."
+summary:
+  ar: "حديث في جامع الترمذي، رقم 3604.03، يذكر وصية أو عهد أخير. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Jami' al-Tirmidhi, no. 3604.03 (Chapters on Supplication), that mentions a testament or parting counsel. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
+  ur: "جامع ترمذی کی حدیث نمبر 3604.03، جس میں وصیت یا آخری نصیحت کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-wasiyya, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 3604.03 (book 48 hadith 237); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

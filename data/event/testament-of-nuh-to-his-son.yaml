@@ -1,0 +1,52 @@
+id: event/testament-of-nuh-to-his-son
+class: event
+kind: death
+label:
+  ar: وصية نوح لابنه عند وفاته
+  en: Testament of Nuh to his son
+  ur: نوح کی اپنے بیٹے کو وصیت
+summary:
+  ar: 'يروي ابن كثير حديثاً بإسناد يصفه بالصحيح أن نوحاً لما حضرته الوفاة قال لابنه: آمرك باثنتين وأنهاك عن اثنتين، فأمره بـ«لا إله إلا الله» و«سبحان الله وبحمده» ونهاه عن الشرك والكبر {cite:qisas-al-anbiya-ibn-kathir-iqra-ebook scan p. 120} {cite:al-bidaya-wal-nihaya scan vol. 2 p. 123}؛ ويذكر الخلاف في عمره وأن قبره بالمسجد الحرام أقوى مما قيل إنه بكرك نوح في البقاع {cite:qisas-al-anbiya-ibn-kathir-iqra-ebook scan p. 121}.'
+  en: 'Ibn Kathir gives a hadith whose chain he calls sound: when death came to Nuh he told his son ''I command you two things and forbid you two'', commanding ''there is no god but God'' and ''glory be to God and His praise'' and forbidding shirk and pride {cite:qisas-al-anbiya-ibn-kathir-iqra-ebook scan p. 120} {cite:al-bidaya-wal-nihaya scan vol. 2 p. 123}. He discusses Nuh''s age and says the report that his grave is in the Sacred Mosque is stronger than the claim for Karak Nuh in the Bekaa {cite:qisas-al-anbiya-ibn-kathir-iqra-ebook scan p. 121}.'
+  ur: 'ابن کثیر ایک حدیث لاتے ہیں جس کی سند کو وہ صحیح کہتے ہیں: وفات کے وقت نوح نے بیٹے سے کہا کہ میں دو باتوں کا حکم دیتا اور دو سے روکتا ہوں، «لا الہ الا اللہ» اور «سبحان اللہ وبحمدہ» کا حکم دیا اور شرک و تکبر سے روکا {cite:qisas-al-anbiya-ibn-kathir-iqra-ebook scan p. 120} {cite:al-bidaya-wal-nihaya scan vol. 2 p. 123}؛ وہ عمر کا اختلاف بیان کرتے ہیں اور کہتے ہیں کہ قبر مسجدِ حرام میں ہونے کی روایت بقاع کے کرک نوح کے دعوے سے مضبوط ہے {cite:qisas-al-anbiya-ibn-kathir-iqra-ebook scan p. 121}۔'
+wings:
+- time
+- people
+themes:
+- prophets
+tags:
+- wasaya-browser
+- wasaya-prophets
+- wasaya-wasiyya
+- wasaya-ihtidar
+- wasaya-marqad
+relations:
+- type: had_participant
+  target: person/nuh
+  role: الموصي
+  sources:
+  - source/qisas-al-anbiya-ibn-kathir-iqra-ebook
+  - source/al-bidaya-wal-nihaya
+- type: mentions
+  target: person/abdullah-ibn-amr-ibn-al-as
+  sources:
+  - source/qisas-al-anbiya-ibn-kathir-iqra-ebook
+  - source/al-bidaya-wal-nihaya
+- type: mentions
+  target: building/masjid-al-haram
+  sources:
+  - source/qisas-al-anbiya-ibn-kathir-iqra-ebook
+sources:
+- source/qisas-al-anbiya-ibn-kathir-iqra-ebook
+- source/al-bidaya-wal-nihaya
+provenance:
+  layer: own-research
+  source: قصص الأنبياء لابن كثير ط. اقرأ ⁦(مسح iqraaEBook54، ص 120-121)⁩ والبداية والنهاية ⁦(مسح AAlexandrina-074627، ص 123)⁩؛ أرقام الصفحات علامات صفحات المسح
+  generated_by: Claude (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: wasaya-browser-1
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude (claude-sonnet-5-5); wasaya-browser-1
+importance: 2

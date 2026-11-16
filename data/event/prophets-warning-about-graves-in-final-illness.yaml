@@ -1,0 +1,30 @@
+id: event/prophets-warning-about-graves-in-final-illness
+class: event
+kind: declaration
+tags: [wasaya-browser, wasaya-prophets, wasaya-wasiyya, wasaya-ihtidar, wasaya-marqad]
+label: { ar: "تحذير النبي من اتخاذ القبور مساجد في مرض وفاته", en: "The Prophet's warning about graves in his final illness", ur: "مرضِ وفات میں قبروں کو سجدہ گاہ بنانے سے نبی کی تنبیہ" }
+summary:
+  ar: "تروي عائشة وابن عباس أن النبي لما نزل به الموت طفق يطرح خميصة على وجهه فإذا اغتم كشفها وقال لعنة الله على اليهود والنصارى اتخذوا قبور أنبيائهم مساجد، يحذّر ما صنعوا {cite:al-bidaya-wal-nihaya scan vol. 3 p. 263}. ويروي مالك مرسلاً أنه دعا ألا يجعل الله قبره وثناً يعبد وأن غضب الله اشتد على قوم اتخذوا قبور أنبيائهم مساجد {cite:muwatta-maruf-1997 p.243}. وتقول عائشة، فيما ينقله ابن كثير عن البخاري، إنه لولا ذلك لأبرز قبره غير أنه خشي أن يتخذ مسجداً {cite:al-bidaya-wal-nihaya scan vol. 3 p. 295}، وتتصل الأخبار باختلاف الصحابة في موضع الدفن واحتجاج أبي بكر بأن النبي لا يدفن إلا حيث يقبض {cite:al-bidaya-wal-nihaya scan vol. 3 p. 295}."
+  en: "Aisha and Ibn Abbas report that when death came upon the Prophet he began to throw a cloak over his face and, when he was distressed, to uncover it, saying: God's curse on the Jews and Christians, who took the graves of their prophets as places of prayer, warning against what they had done {cite:al-bidaya-wal-nihaya scan vol. 3 p. 263}. Malik reports in a mursal narration that he prayed that God not make his grave an idol that is worshipped, and that God's anger is fierce against a people who took their prophets' graves as places of prayer {cite:muwatta-maruf-1997 p.243}. Aisha says, as Ibn Kathir quotes al-Bukhari, that but for this his grave would have been put in the open, but he feared it would be taken as a place of prayer {cite:al-bidaya-wal-nihaya scan vol. 3 p. 295}; the reports are joined to the Companions' disagreement about where to bury him and Abu Bakr's citing that a prophet is buried only where he is taken {cite:al-bidaya-wal-nihaya scan vol. 3 p. 295}."
+  ur: "عائشہ اور ابن عباس روایت کرتے ہیں کہ جب نبی پر موت کا وقت آیا تو آپ اپنے چہرے پر چادر ڈالنے لگے اور جب گھبراہٹ ہوتی تو اسے ہٹا دیتے اور فرماتے: یہود و نصاریٰ پر اللہ کی لعنت، انھوں نے اپنے انبیا کی قبروں کو سجدہ گاہ بنایا، آپ ان کے کیے سے ڈرا رہے تھے {cite:al-bidaya-wal-nihaya scan vol. 3 p. 263}۔ مالک مرسلاً روایت کرتے ہیں کہ آپ نے دعا کی کہ اللہ آپ کی قبر کو ایسا بت نہ بنائے جس کی پوجا ہو، اور یہ کہ اللہ کا غضب اس قوم پر شدید ہوا جس نے اپنے انبیا کی قبروں کو سجدہ گاہ بنایا {cite:muwatta-maruf-1997 p.243}۔ عائشہ کہتی ہیں، جیسا کہ ابن کثیر بخاری سے نقل کرتے ہیں، کہ اگر یہ بات نہ ہوتی تو آپ کی قبر کھلی جگہ پر بنائی جاتی، مگر خدشہ تھا کہ اسے سجدہ گاہ بنا لیا جائے {cite:al-bidaya-wal-nihaya scan vol. 3 p. 295}؛ اور یہ روایات صحابہ کے مقامِ دفن پر اختلاف اور ابوبکر کے اس استدلال سے جڑی ہیں کہ نبی وہیں دفن ہوتا ہے جہاں اس کی روح قبض ہو {cite:al-bidaya-wal-nihaya scan vol. 3 p. 295}۔"
+wings: [time]
+themes: [prophets, creed]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { hijri: "0011", precision: year, status: tradition, note: "ابن كثير يورد الأخبار في أحداث سنة 11هـ {cite:al-bidaya-wal-nihaya scan vol. 3 p. 263}", sources: [source/al-bidaya-wal-nihaya] }
+relations:
+  - { type: had_participant, target: person/muhammad, role: "صاحب التحذير" }
+  - { type: had_participant, target: person/aisha, role: "راوية التحذير وربطه بموضع الدفن", sources: [source/al-bidaya-wal-nihaya] }
+  - { type: had_participant, target: person/abdullah-ibn-abbas, role: "راوي التحذير مع عائشة", sources: [source/al-bidaya-wal-nihaya] }
+  - { type: had_participant, target: person/abu-bakr, role: "من احتج بأن النبي يدفن حيث يقبض", sources: [source/al-bidaya-wal-nihaya] }
+  - { type: had_participant, target: person/umar-ibn-abd-al-aziz, role: "راوي رواية الموطأ المرسلة", sources: [source/al-bidaya-wal-nihaya, source/muwatta-maruf-1997] }
+  - { type: occurred_at, target: place/medina }
+  - { type: related_to, target: event/last-minbar-sermon }
+  - { type: related_to, target: event/burial-of-the-prophet }
+  - { type: related_to, target: event/death-of-the-prophet }
+  - { type: related_to, target: event/prophets-last-counsels-in-final-illness }
+  - { type: related_to, target: concept/grave-veneration }
+sources: [source/al-bidaya-wal-nihaya, source/muwatta-maruf-1997]
+provenance: { layer: own-research, source: "Ibn Kathir, al-Bidaya wa-l-Nihaya, scan vol. 3 pp. 263, 295-296, 398; Muwatta (Ma'ruf 1997) hadith 475 at PDF p. 243 via passage/muwatta-1-475 and hadith 2606 at p. 470 via passage/muwatta-31-2606 (page numbers are scan pages)", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "wasaya-browser-1" }
+status: { review: draft, completeness: 2, generated_by: "Claude (claude-sonnet-5-5); wasaya-browser-1" }

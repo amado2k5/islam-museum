@@ -20,6 +20,7 @@ import { madhahibItems } from "./madhahib";
 import { magicItems } from "./magic";
 import { cosmosItems } from "./cosmos";
 import { qiraatItems } from "./qiraat";
+import { wasayaItems } from "./wasaya";
 import { messengerItems } from "./messengers";
 import { miracleItems } from "./miracles";
 import { mukatabatItems } from "./mukatabat";
@@ -57,7 +58,7 @@ export const CLASS_SLUGS = BROWSE_CLASSES.filter((c) => entriesOf(c).length > CL
 export const BROWSER_ROWS: Record<string, readonly Row[]> = {
   akhlaq: akhlaqItems, angels: angelsItems, arkan: arkanItems, bayt: baytItems, dreams: dreamItems, dua: duaItems, ghayb: ghaybItems,
   halal: halalItems, hasanat: hasanatItems, hisab: hisabItems, hudud: hududItems, ibadat: ibadatItems, "islamic-economy": ieItems,
-  janna: jannaItems, madhahib: madhahibItems, magic: magicItems, cosmos: cosmosItems, qiraat: qiraatItems, messengers: messengerItems, miracles: miracleItems,
+  janna: jannaItems, madhahib: madhahibItems, magic: magicItems, cosmos: cosmosItems, qiraat: qiraatItems, wasaya: wasayaItems, messengers: messengerItems, miracles: miracleItems,
   mukatabat: mukatabatItems, nar: narItems, nature: natureItems, nubuwat: nubuwatItems, places: placesItems,
   qiyama: qiyamaItems, qurun: qurunItems, sayyiat: sayyiatItems, "signs-all": eschItems, usra: usraItems, tibb: tibbItems, ansab: ansabSubjects, battles: battleNodes.map((node) => ({ node })), fatwa: fatwas.map((node) => ({ node })),
 };

@@ -1,0 +1,28 @@
+id: event/deathbed-and-burial-of-abu-bakr
+class: event
+kind: death
+tags: [wasaya-browser, wasaya-caliphs, wasaya-ihtidar, wasaya-mirath, wasaya-marqad]
+label: { ar: "احتضار أبي بكر وما خلّفه ودفنه", en: "Last hours, estate and burial of Abu Bakr", ur: "ابو بکر کے آخری لمحات، ترکہ اور تدفین" }
+summary:
+  ar: "توفي أبو بكر ليلة الثلاثاء لثمان ليال بقين من جمادى الآخرة سنة ثلاث عشرة وهو ابن ثلاث وستين {cite:kamil-ibn-al-athir scan vol. 1 p. 262}. أوصى أن تغسله زوجته أسماء بنت عميس وابنه عبد الرحمن، وأن يُكفَّن في ثوبيه مع ثالث {cite:kamil-ibn-al-athir scan vol. 1 p. 262}، وأمر برد ما زاد في ماله منذ ولي إلى عمر، فبعثوا عبداً وناضحاً {cite:sifat-al-safwa-tartusi-2012 scan vol. 1 p. 102}، وردّ ما نحله عائشة إلى الميراث {cite:kamil-ibn-al-athir scan vol. 1 p. 265}. وصلى عليه عمر ونزل في قبره عمر وعثمان وطلحة وابنه عبد الرحمن، ودُفن ليلاً إلى جنب النبي {cite:kamil-ibn-al-athir scan vol. 1 p. 262} {cite:riyad-nadira-ilmiyya-1984 scan vol. 3 p. 258}."
+  en: "Abu Bakr died on the night of Tuesday with eight nights left of Jumada II 13 AH, aged sixty-three {cite:kamil-ibn-al-athir scan vol. 1 p. 262}. He ordered that his wife Asma bint Umays and his son wash him and that he be shrouded in his own two garments with a third {cite:kamil-ibn-al-athir scan vol. 1 p. 262}; he had what had increased in his property since taking office sent to Umar, a slave and a water-camel {cite:sifat-al-safwa-tartusi-2012 scan vol. 1 p. 102}, and the gift he had made to Aisha returned to the inheritance {cite:kamil-ibn-al-athir scan vol. 1 p. 265}. Umar prayed over him; Umar, Uthman, Talha and his son Abd al-Rahman went down into the grave, and he was buried by night beside the Prophet {cite:kamil-ibn-al-athir scan vol. 1 p. 262} {cite:riyad-nadira-ilmiyya-1984 scan vol. 3 p. 258}."
+  ur: "ابو بکر منگل کی رات، جمادی الآخرہ سنہ 13ھ کی آٹھ راتیں باقی تھیں، تریسٹھ برس کی عمر میں فوت ہوئے {cite:kamil-ibn-al-athir scan vol. 1 p. 262}۔ انھوں نے وصیت کی کہ ان کی بیوی اسماء بنت عمیس اور بیٹا انھیں غسل دیں اور اپنے دو کپڑوں کے ساتھ تیسرے میں کفن دیا جائے {cite:kamil-ibn-al-athir scan vol. 1 p. 262}؛ خلافت کے بعد مال میں جو اضافہ ہوا وہ عمر کو بھیجا گیا، ایک غلام اور ایک پانی کھینچنے والا اونٹ {cite:sifat-al-safwa-tartusi-2012 scan vol. 1 p. 102}، اور عائشہ کو دیا ہوا عطیہ میراث میں لوٹا دیا گیا {cite:kamil-ibn-al-athir scan vol. 1 p. 265}۔ عمر نے نماز پڑھائی؛ عمر، عثمان، طلحہ اور بیٹا عبد الرحمن قبر میں اترے اور انھیں رات کو نبی کے پہلو میں دفن کیا گیا {cite:kamil-ibn-al-athir scan vol. 1 p. 262} {cite:riyad-nadira-ilmiyya-1984 scan vol. 3 p. 258}۔"
+wings: [time]
+periods: [period/rashidun]
+date:
+  start: { hijri: "0013-06", precision: month, status: historical, note: "ليلة الثلاثاء لثمان ليال بقين من جمادى الآخرة سنة 13 {cite:kamil-ibn-al-athir scan vol. 1 p. 262}", sources: [source/kamil-ibn-al-athir, source/sifat-al-safwa-tartusi-2012] }
+relations:
+  - { type: had_participant, target: person/abu-bakr, role: "المتوفى", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/asma-bint-umays, role: "غاسلة", sources: [source/kamil-ibn-al-athir, source/sifat-al-safwa-tartusi-2012] }
+  - { type: had_participant, target: person/abd-al-rahman-ibn-abi-bakr, role: "غاسل ونازل في القبر", sources: [source/kamil-ibn-al-athir, source/riyad-nadira-ilmiyya-1984] }
+  - { type: had_participant, target: person/umar-ibn-al-khattab, role: "إمام الصلاة ونازل في القبر", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/uthman-ibn-affan, role: "نازل في القبر", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/talha-ibn-ubaydullah, role: "نازل في القبر", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/aisha, role: "ابنته وراوية وصيته وصاحبة البيت", sources: [source/sifat-al-safwa-tartusi-2012, source/riyad-nadira-ilmiyya-1984] }
+  - { type: occurred_at, target: place/medina, sources: [source/kamil-ibn-al-athir] }
+  - { type: mentions, target: event/death-of-abu-bakr, sources: [source/kamil-ibn-al-athir] }
+  - { type: mentions, target: event/testament-of-abu-bakr-designating-umar, sources: [source/kamil-ibn-al-athir] }
+  - { type: mentions, target: event/last-counsel-of-abu-bakr-to-umar, sources: [source/kamil-ibn-al-athir] }
+sources: [source/kamil-ibn-al-athir, source/sifat-al-safwa-tartusi-2012, source/riyad-nadira-ilmiyya-1984]
+provenance: { layer: own-research, source: "kamil-ibn-al-athir scan vol. 1 pp. 262-263, 265-266; sifat-al-safwa-tartusi-2012 scan vol. 1 pp. 102-103, 307; riyad-nadira-ilmiyya-1984 scan vol. 3 pp. 258-265; page numbers are scan pages", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "wasaya-browser-1" }
+status: { review: draft, completeness: 2, generated_by: "Claude (claude-sonnet-5-5); wasaya-browser-1" }

@@ -1,0 +1,17 @@
+id: passage/muntazam-wasaya-4-244
+class: passage
+unit: chapter
+work: work/al-muntazam-ibn-al-jawzi
+ref: "4:244"
+label: { ar: "المنتظم لابن الجوزي، المجلد المصوَّر 4، ص 244 — وصية أو عهد أخير، دفن وقبر ومرقد", en: "Ibn al-Jawzi's al-Muntazam, scan volume 4, p. 244 — a testament or parting counsel; a burial, grave or resting place", ur: "المنتظم، ابن الجوزی، اسکین جلد 4، ص 244 — وصیت یا آخری نصیحت، تدفین، قبر اور مرقد" }
+text: "… يجوز ان يمكن • من اسلم من الارتداد. ذكر من توفى فى هذه السنة من الاكابر - أحمل بن ابراهيم ابو العياس الضي. توفى فى صفر هذه السنة وكان اوصى ان يدفن فى مشهد كربلاء وبعث ابنه الى أبى بكرا …"
+summary:
+  ar: "مقطع من المنتظم لابن الجوزي، المجلد المصوَّر 4، ص 244، يذكر وصية أو عهد أخير، ودفن وقبر ومرقد؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الوصايا والمواريث والآثار والمراقد."
+  en: "An excerpt from Ibn al-Jawzi's al-Muntazam, scan volume 4, p. 244, that mentions a testament or parting counsel, a burial, grave or resting place; from the machine-read scan, quoted within forty words per the sources policy. The Testaments Browser lists it."
+  ur: "المنتظم، ابن الجوزی، اسکین جلد 4، ص 244 کا اقتباس جس میں وصیت یا آخری نصیحت، تدفین، قبر اور مرقد کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-wasiyya, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: mentions, target: concept/ziyarat-al-qubur, sources: [source/muntazam-ibn-al-jawzi] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan tareekh/muntazam/AAlexandrina-224011, page 244; a window of at most 40 words chosen by the testaments detector (scripts/wasaya.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-ocr-1" }
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

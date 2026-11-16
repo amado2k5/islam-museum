@@ -1,0 +1,16 @@
+id: passage/nasai-api-2596
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "2596"
+label: { ar: "سنن النسائي 2596 — دفن وقبر ومرقد", en: "Sunan al-Nasa'i 2596 — a burial, grave or resting place", ur: "سنن نسائی 2596 — تدفین، قبر اور مرقد" }
+text: "… مَالِكٌ، عَنْ زَيْدِ بْنِ أَسْلَمَ، عَنْ عَطَاءِ بْنِ يَسَارٍ، عَنْ رَجُلٍ، مِنْ بَنِي أَسَدٍ قَالَ نَزَلْتُ أَنَا وَأَهْلِي، بِبَقِيعِ الْغَرْقَدِ فَقَالَتْ لِي أَهْلِي اذْهَبْ إِلَى رَسُولِ اللَّهِ فَسَلْهُ لَنَا شَيْئًا نَأْكُلْهُ. فَذَهَبْتُ إِلَى رَسُولِ اللَّهِ فَوَجَدْتُ عِنْدَهُ رَجُلاً يَسْأَلُهُ وَرَسُولُ اللَّهِ يَقُولُ \" لاَ أَجِدُ مَا أُعْطِيكَ \". فَوَلَّى الرَّجُلُ عَنْهُ وَهُوَ مُغْضَبٌ وَهُوَ يَقُولُ …"
+summary:
+  ar: "حديث في سنن النسائي، رقم 2596، يذكر دفن وقبر ومرقد. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan al-Nasa'i, no. 2596 (The Book of Zakah), that mentions a burial, grave or resting place. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
+  ur: "سنن نسائی کی حدیث نمبر 2596، جس میں تدفین، قبر اور مرقد کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ziyarat-al-qubur, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 2596 (book 23 hadith 162); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

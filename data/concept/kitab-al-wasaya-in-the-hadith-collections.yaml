@@ -1,0 +1,69 @@
+id: concept/kitab-al-wasaya-in-the-hadith-collections
+class: concept
+kind: term
+tags:
+- wasaya-browser
+- wasaya-works
+- wasaya-wasiyya
+label:
+  ar: كتاب الوصايا في كتب الحديث
+  en: The Book of Wills (Kitab al-Wasaya) in the hadith collections
+  ur: حدیث کی کتابوں میں «کتاب الوصایا»
+summary:
+  ar: '«كتاب الوصايا» باب في الكتب الستة وموطأ مالك يجمع الأحاديث والآثار في الوصية: وفي البخاري الأحاديث 2738-2781 {cite:hadith-api-fawazahmed0 Bukhari book 55, reports 2738-2781}، وفي مسلم 4204-4234 {cite:hadith-api-fawazahmed0 Muslim book 25, reports 4204-4234}، وفي الموطأ ستة وعشرون نصاً من 2214 إلى 2239 {cite:muwatta-maruf-1997 vol. 2 pdf pp. 309-321}. ومن أمثلته حديث سعد بن أبي وقاص وسؤاله عن الوصية بماله كله والشطر والثلث {cite:sahih-al-bukhari 2742}. والأرقام ترقيم قاعدة بيانات الحديث لا الطبعات المطبوعة.'
+  en: 'The Book of Wills is a chapter of the six canonical collections and Malik''s Muwatta that gathers reports and rulings on bequest: in al-Bukhari reports 2738-2781 {cite:hadith-api-fawazahmed0 Bukhari book 55, reports 2738-2781}, in Muslim 4204-4234 {cite:hadith-api-fawazahmed0 Muslim book 25, reports 4204-4234}, in the Muwatta twenty-six texts, 2214 to 2239 {cite:muwatta-maruf-1997 vol. 2 pdf pp. 309-321}. An example is Sa''d ibn Abi Waqqas asking about bequeathing all his property, half or a third {cite:sahih-al-bukhari 2742}. The numbers are those of the hadith database, not of printed editions.'
+  ur: '«کتاب الوصایا» صحاح ستہ اور موطا مالک کا ایک باب ہے جو وصیت کی روایات اور اقوال جمع کرتا ہے: بخاری میں روایات 2738-2781 {cite:hadith-api-fawazahmed0 Bukhari book 55, reports 2738-2781}، مسلم میں 4204-4234 {cite:hadith-api-fawazahmed0 Muslim book 25, reports 4204-4234}، موطا میں 2214 تا 2239 کے چھبیس متن {cite:muwatta-maruf-1997 vol. 2 pdf pp. 309-321}۔ ایک مثال سعد بن ابی وقاص کا پورے مال، نصف اور تہائی کی وصیت کے بارے میں پوچھنا ہے {cite:sahih-al-bukhari 2742}۔ نمبر ڈیٹا بیس کے ہیں، مطبوعہ نسخوں کے نہیں۔'
+wings:
+- ideas
+relations:
+- type: related_to
+  target: passage/bukhari-kitab-55
+  sources:
+  - source/hadith-api-fawazahmed0
+- type: related_to
+  target: passage/muslim-kitab-25
+  sources:
+  - source/hadith-api-fawazahmed0
+- type: related_to
+  target: passage/tirmidhi-kitab-30
+  sources:
+  - source/hadith-api-fawazahmed0
+- type: related_to
+  target: passage/nasai-kitab-30
+  sources:
+  - source/hadith-api-fawazahmed0
+- type: related_to
+  target: passage/abudawud-kitab-18
+  sources:
+  - source/hadith-api-fawazahmed0
+- type: related_to
+  target: passage/ibnmajah-kitab-22
+  sources:
+  - source/hadith-api-fawazahmed0
+- type: related_to
+  target: passage/muwatta-kitab-23-wasiyya
+  sources:
+  - source/muwatta-maruf-1997
+- type: related_to
+  target: concept/al-wasiyya
+  sources:
+  - source/hadith-api-fawazahmed0
+sources:
+- source/hadith-api-fawazahmed0
+- source/sahih-al-bukhari
+- source/sahih-muslim
+- source/jami-al-tirmidhi
+- source/sunan-al-nasai
+- source/sunan-abi-dawud
+- source/sunan-ibn-majah
+- source/muwatta-maruf-1997
+provenance:
+  layer: own-research
+  source: Passage records of the museum for the wills chapters (passage/bukhari-kitab-55, muslim-kitab-25, tirmidhi-kitab-30, nasai-kitab-30, abudawud-kitab-18, ibnmajah-kitab-22, muwatta-kitab-23-wasiyya) and the passage records bukhari-api-2742, 2758, 2766 and muwatta-23-2218, 2221, 2228; chapter ranges are those of the open hadith database fawazahmed0
+  generated_by: Claude (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: wasaya-browser-1
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude (claude-sonnet-5-5); wasaya-browser-1

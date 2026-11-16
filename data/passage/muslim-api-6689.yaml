@@ -1,0 +1,16 @@
+id: passage/muslim-api-6689
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "6689"
+label: { ar: "صحيح مسلم 6689 — وصية أو عهد أخير", en: "Sahih Muslim 6689 — a testament or parting counsel", ur: "صحیح مسلم 6689 — وصیت یا آخری نصیحت" }
+text: "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا ابْنُ إِدْرِيسَ، أَخْبَرَنَا شُعْبَةُ، ح وَحَدَّثَنَا أَبُو كُرَيْبٍ حَدَّثَنَا ابْنُ إِدْرِيسَ، أَخْبَرَنَا شُعْبَةُ، عَنْ أَبِي عِمْرَانَ الْجَوْنِيِّ، عَنْ عَبْدِ اللَّهِ بْنِ الصَّامِتِ، عَنْ أَبِي ذَرٍّ، قَالَ إِنَّ خَلِيلِي أَوْصَانِي \" إِذَا طَبَخْتَ مَرَقًا فَأَكْثِرْ مَاءَهُ ثُمَّ انْظُرْ أَهْلَ بَيْتٍ مِنْ جِيرَانِكَ فَأَصِبْهُمْ مِنْهَا بِمَعْرُوفٍ \"."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 6689، يذكر وصية أو عهد أخير. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sahih Muslim, no. 6689 (The Book of Virtue, Enjoining Good Manners, and Joining of the Ties of Kinship), that mentions a testament or parting counsel. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
+  ur: "صحیح مسلم کی حدیث نمبر 6689، جس میں وصیت یا آخری نصیحت کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-wasiyya, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 6689 (book 45 hadith 186); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

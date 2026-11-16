@@ -1,0 +1,16 @@
+id: passage/abudawud-api-3241
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "3241"
+label: { ar: "سنن أبي داود 3241 — دفن وقبر ومرقد", en: "Sunan Abi Dawud 3241 — a burial, grave or resting place", ur: "سنن ابی داؤد 3241 — تدفین، قبر اور مرقد" }
+text: "حَدَّثَنَا عُثْمَانُ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا جَرِيرٌ، عَنْ مَنْصُورٍ، عَنِ الْحَكَمِ، عَنْ سَعِيدِ بْنِ جُبَيْرٍ، عَنِ ابْنِ عَبَّاسٍ، قَالَ وَقَصَتْ بِرَجُلٍ مُحْرِمٍ نَاقَتُهُ فَقَتَلَتْهُ فَأُتِيَ بِهِ رَسُولُ اللَّهِ فَقَالَ \" اغْسِلُوهُ وَكَفِّنُوهُ وَلاَ تُغَطُّوا رَأْسَهُ وَلاَ تُقَرِّبُوهُ طِيبًا فَإِنَّهُ يُبْعَثُ يُهِلُّ \"."
+summary:
+  ar: "حديث في سنن أبي داود، رقم 3241، يذكر دفن وقبر ومرقد. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan Abi Dawud, no. 3241 (Funerals (Kitab Al-Jana'iz)), that mentions a burial, grave or resting place. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
+  ur: "سنن ابی داؤد کی حدیث نمبر 3241، جس میں تدفین، قبر اور مرقد کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ziyarat-al-qubur, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 3241 (book 21 hadith 153); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

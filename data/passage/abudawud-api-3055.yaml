@@ -1,0 +1,16 @@
+id: passage/abudawud-api-3055
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "3055"
+label: { ar: "سنن أبي داود 3055 — ما خلّفه من تركة وميراث", en: "Sunan Abi Dawud 3055 — what was left behind: estate and inheritance", ur: "سنن ابی داؤد 3055 — ترکہ اور میراث" }
+text: "… الأَرْبَعَ \". فَقُلْتُ بَلَى. فَقَالَ \" إِنَّ لَكَ رِقَابَهُنَّ وَمَا عَلَيْهِنَّ فَإِنَّ عَلَيْهِنَّ كِسْوَةً وَطَعَامًا أَهْدَاهُنَّ إِلَىَّ عَظِيمُ فَدَكَ فَاقْبِضْهُنَّ وَاقْضِ دَيْنَكَ \". فَفَعَلْتُ فَذَكَرَ الْحَدِيثَ ثُمَّ انْطَلَقْتُ إِلَى الْمَسْجِدِ فَإِذَا رَسُولُ اللَّهِ قَاعِدٌ فِي الْمَسْجِدِ فَسَلَّمْتُ عَلَيْهِ فَقَالَ \" مَا فَعَلَ مَا قِبَلَكَ \". قُلْتُ قَدْ قَضَى اللَّهُ كُلَّ شَىْءٍ كَانَ عَلَى رَسُولِ اللَّهِ …"
+summary:
+  ar: "حديث في سنن أبي داود، رقم 3055، يذكر ما خلّفه من تركة وميراث. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan Abi Dawud, no. 3055 (Tribute, Spoils, and Rulership (Kitab Al-Kharaj, Wal-Fai' Wal-Imarah)), that mentions what was left behind: estate and inheritance. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
+  ur: "سنن ابی داؤد کی حدیث نمبر 3055، جس میں ترکہ اور میراث کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/tarika-estate, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 3055 (book 20 hadith 128); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

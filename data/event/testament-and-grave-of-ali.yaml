@@ -1,0 +1,29 @@
+id: event/testament-and-grave-of-ali
+class: event
+kind: death
+tags: [wasaya-browser, wasaya-caliphs, wasaya-wasiyya, wasaya-ihtidar, wasaya-mirath, wasaya-marqad]
+label: { ar: "وصية علي بن أبي طالب وغسله ودفنه وموضع قبره", en: "Testament, burial and grave of Ali ibn Abi Talib", ur: "علی بن ابی طالب کی وصیت، تدفین اور قبر" }
+summary:
+  ar: "بعد أن ضربه ابن ملجم أمر علي بحبسه، فإن مات قُتل ولا يُمثَّل به {cite:riyad-nadira-ilmiyya-1984 scan vol. 3 p. 677}، وأوصى ابنيه الحسن والحسين بتقوى الله والصلاة والزكاة وكظم الغيظ وصلة الرحم وغيرها، وكتب وصية فيها الله الله في الأيتام والجيران والقرآن والصلاة {cite:al-bidaya-wal-nihaya scan vol. 4 p. 318} {cite:al-bidaya-wal-nihaya scan vol. 4 p. 319}. وتوفي ليلة الأحد، وغسله الحسن والحسين وعبد الله بن جعفر وصلى عليه الحسن {cite:al-bidaya-wal-nihaya scan vol. 4 p. 319}. والمشهور عند ابن كثير أنه دُفن بدار الإمارة بالكوفة ليلاً وعُمّي قبره خوف الخوارج {cite:al-bidaya-wal-nihaya scan vol. 4 p. 320}، وتُنقل أقوال أخرى في موضع القبر منها البقيع والنجف {cite:al-bidaya-wal-nihaya scan vol. 4 p. 321}. وما خلّفه سبعمائة درهم من عطائه {cite:riyad-nadira-ilmiyya-1984 scan vol. 3 p. 596}."
+  en: "After Ibn Muljam struck him Ali ordered him held, to be killed if he died but not mutilated {cite:riyad-nadira-ilmiyya-1984 scan vol. 3 p. 677}. He charged his sons al-Hasan and al-Husayn to fear God, pray, pay zakat, restrain anger and keep family ties, and wrote a testament commending orphans, neighbours, the Qur'an and prayer {cite:al-bidaya-wal-nihaya scan vol. 4 p. 318} {cite:al-bidaya-wal-nihaya scan vol. 4 p. 319}. He died on the night of Sunday; al-Hasan, al-Husayn and Abd Allah ibn Ja'far washed him and al-Hasan prayed over him {cite:al-bidaya-wal-nihaya scan vol. 4 p. 319}. Ibn Kathir holds that he was buried by night in the Dar al-Imara at Kufa and the grave hidden for fear of the Kharijites {cite:al-bidaya-wal-nihaya scan vol. 4 p. 320}; other statements about the grave, including al-Baqi' and Najaf, are given with their sources {cite:al-bidaya-wal-nihaya scan vol. 4 p. 321}. He left seven hundred dirhams of his stipend {cite:riyad-nadira-ilmiyya-1984 scan vol. 3 p. 596}."
+  ur: "ابن ملجم کے وار کے بعد علی نے حکم دیا کہ اسے قید رکھا جائے، وہ مر جائیں تو اسے قتل کیا جائے مگر مثلہ نہ ہو {cite:riyad-nadira-ilmiyya-1984 scan vol. 3 p. 677}۔ انھوں نے بیٹوں حسن اور حسین کو تقویٰ، نماز، زکاۃ، غصہ پینے اور صلہ رحمی وغیرہ کی وصیت کی اور ایک وصیت لکھوائی جس میں یتیموں، پڑوسیوں، قرآن اور نماز کے بارے میں تاکید ہے {cite:al-bidaya-wal-nihaya scan vol. 4 p. 318} {cite:al-bidaya-wal-nihaya scan vol. 4 p. 319}۔ وہ اتوار کی رات فوت ہوئے؛ حسن، حسین اور عبد اللہ بن جعفر نے غسل دیا اور حسن نے نماز پڑھائی {cite:al-bidaya-wal-nihaya scan vol. 4 p. 319}۔ ابن کثیر کے نزدیک انھیں رات کو کوفہ کے دار الامارہ میں دفن کیا گیا اور خوارج کے خوف سے قبر چھپا دی گئی {cite:al-bidaya-wal-nihaya scan vol. 4 p. 320}؛ قبر کے مقام کے دوسرے اقوال، بشمول بقیع اور نجف، ان کے ناقلین کے ساتھ دیے گئے ہیں {cite:al-bidaya-wal-nihaya scan vol. 4 p. 321}۔ انھوں نے اپنے وظیفے کے سات سو درہم چھوڑے {cite:riyad-nadira-ilmiyya-1984 scan vol. 3 p. 596}۔"
+wings: [time]
+periods: [period/rashidun]
+date:
+  start: { hijri: "0040-09", precision: month, status: historical, note: "ضُرب صبيحة الجمعة لسبع عشرة خلت من رمضان سنة 40 على المشهور {cite:al-bidaya-wal-nihaya scan vol. 4 p. 321}", sources: [source/al-bidaya-wal-nihaya] }
+relations:
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "صاحب الوصية", sources: [source/al-bidaya-wal-nihaya, source/riyad-nadira-ilmiyya-1984] }
+  - { type: had_participant, target: person/hasan-ibn-ali, role: "الموصى والمصلي عليه", sources: [source/al-bidaya-wal-nihaya] }
+  - { type: had_participant, target: person/husayn-ibn-ali, role: "الموصى والغاسل", sources: [source/al-bidaya-wal-nihaya] }
+  - { type: had_participant, target: person/abdullah-ibn-jafar, role: "غاسل", sources: [source/al-bidaya-wal-nihaya, source/sifat-al-safwa-tartusi-2012] }
+  - { type: had_participant, target: person/muhammad-ibn-al-hanafiyya, role: "الموصى بتعظيمه", sources: [source/al-bidaya-wal-nihaya] }
+  - { type: had_participant, target: person/abd-al-rahman-ibn-muljam, role: "قاتله", sources: [source/al-bidaya-wal-nihaya] }
+  - { type: occurred_at, target: place/kufa, sources: [source/al-bidaya-wal-nihaya] }
+  - { type: occurred_at, target: building/qasr-al-imara-kufa, sources: [source/al-bidaya-wal-nihaya, source/riyad-nadira-ilmiyya-1984] }
+  - { type: mentions, target: place/najaf, sources: [source/al-bidaya-wal-nihaya] }
+  - { type: mentions, target: building/imam-ali-shrine, sources: [source/al-bidaya-wal-nihaya] }
+  - { type: mentions, target: place/baqi-al-gharqad, sources: [source/al-bidaya-wal-nihaya] }
+  - { type: mentions, target: event/death-of-ali-ibn-abi-talib, sources: [source/al-bidaya-wal-nihaya] }
+sources: [source/al-bidaya-wal-nihaya, source/riyad-nadira-ilmiyya-1984, source/sifat-al-safwa-tartusi-2012]
+provenance: { layer: own-research, source: "al-bidaya-wal-nihaya scan vol. 4 pp. 318-322; riyad-nadira-ilmiyya-1984 scan vol. 3 pp. 596, 675-679; sifat-al-safwa-tartusi-2012 scan vol. 4 p. 133; page numbers are scan pages", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "wasaya-browser-1" }
+status: { review: draft, completeness: 2, generated_by: "Claude (claude-sonnet-5-5); wasaya-browser-1" }

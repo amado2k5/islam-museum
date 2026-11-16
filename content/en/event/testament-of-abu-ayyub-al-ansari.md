@@ -1,0 +1,28 @@
+---
+id: event/testament-of-abu-ayyub-al-ansari
+lang: en
+source_lang: ar
+translators: ["Claude Code (claude-sonnet-5-5), draft translation"]
+provenance: { generated_by: "Claude Code (claude-sonnet-5-5)", model: claude-sonnet-5-5, run: wasaya-browser-1, source: "الذهبي سير أعلام النبلاء، وابن كثير البداية والنهاية، وابن عبد البر الاستيعاب، والكاندهلوي حياة الصحابة؛ أرقام الصفحات هي صفحات المسح كما في النص المقروء" }
+status: { review: published }
+---
+## Summary
+[[person/abu-ayyub-al-ansari|Abu Ayyub al-Ansari]] was the Madinan with whom the Prophet lodged on arriving at Medina; he fought on after the Prophet's death until he died on a campaign against Constantinople. {cite:isti-ab-ibn-abd-al-barr scan vol. 2 p. 197} This card gathers what the biographical and historical books say about his request to be carried into enemy land and buried there, his burial by the walls of [[place/constantinople|Constantinople]], and what is reported of the grave afterwards.
+
+## Background
+Ibn Abd al-Barr says Abu Ayyub was with Ali ibn Abi Talib in all his wars, and then died at Constantinople in the land of the Romans in Mu'awiya's time, on a campaign under the banner of [[person/yazid-ibn-muawiya|Yazid]], their commander then, in 50 or 51 or, in the majority view, 52. {cite:isti-ab-ibn-abd-al-barr scan vol. 2 p. 197} Al-Dhahabi quotes al-Walid from Sa'id ibn Abd al-Aziz that Mu'awiya sent his son out in 55 by land and sea until they crossed the strait and fought the people of Constantinople at its gate before turning back. {cite:siyar-alam-nubala scan vol. 1 p. 1596}
+
+## The testament and what it said
+Al-Dhahabi relates from al-A'mash from Abu Zibyan that Abu Ayyub raided in Mu'awiya's time and when death came said: when you line up against the enemy, bury me under your feet. {cite:siyar-alam-nubala scan vol. 1 p. 1595} In a second report, which al-Dhahabi gives through Jarir from Qabus ibn Abi Zibyan from his father, death came to Abu Ayyub at the end of the campaign where the enemy could see them; he called the Companions and the people and said: when I am taken, let the horses be mounted and ride until you meet the enemy, who will turn you back; then dig for me, bury me and level the grave, and let horses and men trample it so that it is not known; and when you return tell people that the Messenger of God told me that no one who says there is no god but God will enter the Fire. {cite:siyar-alam-nubala scan vol. 1 p. 1596} Al-Kandahlawi gives, from Ibn Abd al-Barr, Abu Zibyan's report that he told his companions to carry him and bury him under their feet when they faced the enemy. {cite:hayat-al-sahaba-kandahlawi-sabbani scan vol. 2 p. 465} From Ahmad, as Ibn Kathir has it, he adds that he raided with Yazid ibn Mu'awiya and said: when I die take me into the enemy's land and bury me under your feet where you meet the enemy; then he related that whoever dies associating nothing with God enters Paradise. {cite:hayat-al-sahaba-kandahlawi-sabbani scan vol. 2 p. 466}
+
+## What he said as death came
+Ibn Kathir quotes Ahmad, from Abu Sirma, that when death came to Abu Ayyub he said: I had kept something from you that I heard from the Messenger of God; I heard him say that if you did not sin God would create a people who sin so that He forgives them. {cite:al-bidaya-wal-nihaya scan vol. 4 p. 424} Ibn Kathir adds his own view that this report and the one before it led Yazid ibn Mu'awiya to a degree of irja'; that is Ibn Kathir's judgement alone and is not needed to read the testament.
+
+## Prayer, burial and grave
+Al-Waqidi, as al-Dhahabi quotes him, says Abu Ayyub died in 52, Yazid prayed over him and he was buried at the foot of the fortress of Constantinople, and that it had reached him that the Romans tend his grave and seek rain by it. {cite:siyar-alam-nubala scan vol. 1 p. 1596} Al-Dhahabi quotes al-Asma'i from his father that he was buried with the wall of Constantinople and a structure built over him; in the morning the Romans said: Arabs, something happened to you last night. They said: a man of the great Companions of our Prophet died, and by God if he is dug up the bell will be struck in Arab lands. So whenever drought came they uncovered his grave and rain fell. {cite:siyar-alam-nubala scan vol. 1 p. 1596} Ibn Kathir gives al-Waqidi's report that he died in the land of Rome, was buried at Constantinople and that the Romans seek rain at his grave, and adds a report that he lies in the wall of Constantinople with a shrine and mosque over his grave that they venerate. {cite:al-bidaya-wal-nihaya scan vol. 4 p. 424} For the later tradition in Istanbul about the grave's site, see the record of the [[building/eyup-sultan-mosque|Eyüp Sultan Mosque]].
+
+## Where the reports differ
+His death year is given as 52, by al-Waqidi and Yahya ibn Bukayr; 50, by Khalifa; and 55, by Abu Zur'a al-Dimashqi, whom Ibn Kathir finds less sound than the first. {cite:siyar-alam-nubala scan vol. 1 p. 1596} {cite:al-bidaya-wal-nihaya scan vol. 4 p. 424} There are two forms of the request: burial under the army's feet where they meet the enemy, and burial in a place hidden by having the horses trample it. The reports also differ on whether the Romans came to know and tend the grave or it was concealed. The books read do not say what he left, nor who washed him.
+
+## Sources and documentation
+The card rests on al-Dhahabi's Siyar a'lam al-nubala', Ibn Kathir's al-Bidaya wa-l-nihaya, Ibn Abd al-Barr's al-Isti'ab and al-Kandahlawi's Hayat al-sahaba. Page numbers are scan pages as read. The text of Ahmad's Musnad and of Ibn Sa'd's Tabaqat was not read.

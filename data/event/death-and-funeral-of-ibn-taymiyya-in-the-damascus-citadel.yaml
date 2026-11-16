@@ -1,0 +1,75 @@
+id: event/death-and-funeral-of-ibn-taymiyya-in-the-damascus-citadel
+class: event
+kind: death
+tags:
+- wasaya-browser
+- wasaya-righteous
+- wasaya-ihtidar
+- wasaya-marqad
+- wasaya-wasiyya
+label:
+  ar: وفاة ابن تيمية بقلعة دمشق وجنازته ودفنه
+  en: Death and funeral of Ibn Taymiyya in the Damascus citadel
+  ur: قلعۂ دمشق میں ابن تیمیہ کی وفات، جنازہ اور تدفین
+summary:
+  ar: توفي ابن تيمية بقلعة دمشق في القاعة التي كان محبوساً بها ليلة الاثنين العشرين من ذي القعدة سنة 728هـ {cite:al-bidaya-wal-nihaya scan vol. 1 p. 531}، وكان قد قرأ مع أخيه ثمانين ختمة منذ دخل القلعة {cite:al-bidaya-wal-nihaya scan vol. 1 p. 534}. واجتمع لجنازته جمع حُزر في الخبر بين ستين ألف رجل ومئتي ألف، وصُلي عليه في القلعة والجامع الأموي وسوق الخيل {cite:al-bidaya-wal-nihaya scan vol. 1 p. 532}. ودُفن في مقبرة الصوفية إلى جانب أخيه شرف الدين عبد الله {cite:al-bidaya-wal-nihaya scan vol. 1 p. 531}.
+  en: Ibn Taymiyya died in the Damascus citadel, in the hall where he was held, on the night of Monday 20 Dhu al-Qa'da 728 AH {cite:al-bidaya-wal-nihaya scan vol. 1 p. 531}; his brother said they had read eighty complete Qur'ans since entering the citadel {cite:al-bidaya-wal-nihaya scan vol. 1 p. 534}. The account estimates the men at his funeral between sixty thousand and two hundred thousand, with prayers in the citadel, the Umayyad Mosque and the horse market {cite:al-bidaya-wal-nihaya scan vol. 1 p. 532}. He was buried in the Sufi cemetery beside his brother Sharaf al-Din Abd Allah {cite:al-bidaya-wal-nihaya scan vol. 1 p. 531}.
+  ur: ابن تیمیہ دمشق کے قلعے میں اسی ہال میں جہاں وہ قید تھے، 728ھ کی بیس ذی القعدہ کی پیر کی رات فوت ہوئے {cite:al-bidaya-wal-nihaya scan vol. 1 p. 531}؛ ان کے بھائی کے مطابق قلعے میں آنے کے بعد دونوں نے قرآن کے اسّی ختم مکمل کیے {cite:al-bidaya-wal-nihaya scan vol. 1 p. 534}۔ بیان میں جنازے پر مردوں کا اندازہ ساٹھ ہزار سے دو لاکھ تک ہے اور نماز قلعے، جامع اموی اور سوقِ خیل میں ہوئی {cite:al-bidaya-wal-nihaya scan vol. 1 p. 532}۔ وہ صوفیہ کے قبرستان میں اپنے بھائی شرف الدین عبد اللہ کے پہلو میں دفن ہوئے {cite:al-bidaya-wal-nihaya scan vol. 1 p. 531}۔
+wings:
+- time
+periods:
+- period/mongol-post-mongol
+regions:
+- levant-iraq
+date:
+  start:
+    hijri: '0728-11-20'
+    precision: day
+    status: historical
+    note: توفي ليلة الاثنين العشرين من ذي القعدة 728هـ عن البرزالي {cite:al-bidaya-wal-nihaya scan vol. 1 p. 531}، وكان موته في سحر تلك الليلة {cite:al-bidaya-wal-nihaya scan vol. 1 p. 533}
+relations:
+- type: occurred_at
+  target: place/damascus
+  sources:
+  - source/al-bidaya-wal-nihaya
+- type: had_participant
+  target: person/ibn-taymiyya
+  role: المتوفّى
+  sources:
+  - source/al-bidaya-wal-nihaya
+- type: mentions
+  target: person/al-birzali
+  sources:
+  - source/al-bidaya-wal-nihaya
+- type: mentions
+  target: person/jamal-al-din-al-mizzi
+  sources:
+  - source/al-bidaya-wal-nihaya
+- type: mentions
+  target: person/ibn-qayyim-al-jawziyya
+  sources:
+  - source/al-bidaya-wal-nihaya
+- type: mentions
+  target: place/sufism-cemetery
+  sources:
+  - source/al-bidaya-wal-nihaya
+- type: mentions
+  target: work/al-wasiyya-al-jamia-li-ibn-taymiyya
+  sources:
+  - source/al-bidaya-wal-nihaya
+- type: part_of
+  target: event/ibn-taymiyya-final-imprisonment-726
+  sources:
+  - source/al-bidaya-wal-nihaya
+sources:
+- source/al-bidaya-wal-nihaya
+provenance:
+  layer: own-research
+  source: Ibn Kathir, al-Bidaya wa'l-Nihaya, events of 728 AH, scan vol. 1 pp. 531-535 (relaying al-Birzali and an attending narrator); page numbers are scan pages. No description of al-Wasiyya al-Jami'a was found in the pages read
+  generated_by: Claude (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: wasaya-browser-1
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude (claude-sonnet-5-5); wasaya-browser-1

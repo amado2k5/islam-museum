@@ -1,0 +1,18 @@
+id: passage/musannaf-ibn-abi-shayba-wasaya-3-358
+class: passage
+unit: chapter
+work: work/al-musannaf-ibn-abi-shayba
+ref: "3:358"
+label: { ar: "مصنف ابن أبي شيبة، المجلد المصوَّر 3، ص 358 — وصية أو عهد أخير، ساعة الاحتضار والوفاة", en: "the Musannaf of Ibn Abi Shayba, scan volume 3, p. 358 — a testament or parting counsel; a deathbed and last hours", ur: "مصنف ابن ابی شیبہ، اسکین جلد 3، ص 358 — وصیت یا آخری نصیحت، وقتِ وفات اور آخری لمحات" }
+text: "… بن هشام عن سفيان عن رجل ان خيثمة اوصى ان يدفن فى مقبرة فقراء تؤمة. حدثنا أبو اسامة حدثنا اسماعيل بن ابى خالد عن قيس قال قالت عائشة لما حضرتها الوفاة ادفنونى مع ازواج النبى فانى كنت احدث بعده. حدثنا …"
+summary:
+  ar: "مقطع من مصنف ابن أبي شيبة، المجلد المصوَّر 3، ص 358، يذكر وصية أو عهد أخير، وساعة الاحتضار والوفاة، ودفن وقبر ومرقد؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الوصايا والمواريث والآثار والمراقد."
+  en: "An excerpt from the Musannaf of Ibn Abi Shayba, scan volume 3, p. 358, that mentions a testament or parting counsel, a deathbed and last hours, a burial, grave or resting place; from the machine-read scan, quoted within forty words per the sources policy. The Testaments Browser lists it."
+  ur: "مصنف ابن ابی شیبہ، اسکین جلد 3، ص 358 کا اقتباس جس میں وصیت یا آخری نصیحت، وقتِ وفات اور آخری لمحات، تدفین، قبر اور مرقد کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-wasiyya, sources: [source/al-musannaf-ibn-abi-shayba] }
+  - { type: mentions, target: concept/ihtidar, sources: [source/al-musannaf-ibn-abi-shayba] }
+  - { type: mentions, target: concept/ziyarat-al-qubur, sources: [source/al-musannaf-ibn-abi-shayba] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan hadith/musannaf-ibn-abi-shayba/AAlexandrina-045199, page 358; a window of at most 40 words chosen by the testaments detector (scripts/wasaya.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-ocr-1" }
+sources: [source/al-musannaf-ibn-abi-shayba]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

@@ -1,0 +1,16 @@
+id: passage/muwatta-api-534
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "534"
+label: { ar: "موطأ مالك 534 — دفن وقبر ومرقد", en: "Muwatta Malik 534 — a burial, grave or resting place", ur: "موطأ مالک 534 — تدفین، قبر اور مرقد" }
+text: "… - فَقَالَ رَسُولُ اللَّهِ \" إِذَا مَاتَتْ فَآذِنُونِي بِهَا \". فَخُرِجَ بِجَنَازَتِهَا لَيْلاً فَكَرِهُوا أَنْ يُوقِظُوا رَسُولَ اللَّهِ فَلَمَّا أَصْبَحَ رَسُولُ اللَّهِ أُخْبِرَ بِالَّذِي كَانَ مِنْ شَأْنِهَا فَقَالَ \" أَلَمْ آمُرْكُمْ أَنْ تُؤْذِنُونِي بِهَا \". فَقَالُوا يَا رَسُولَ اللَّهِ كَرِهْنَا أَنْ نُخْرِجَكَ لَيْلاً وَنُوقِظَكَ. فَخَرَجَ رَسُولُ اللَّهِ حَتَّى صَفَّ بِالنَّاسِ عَلَى قَبْرِهَا وَكَبَّرَ أَرْبَعَ تَكْبِيرَاتٍ."
+summary:
+  ar: "حديث في موطأ مالك، رقم 534، يذكر دفن وقبر ومرقد. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Muwatta Malik, no. 534 (Burials), that mentions a burial, grave or resting place. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
+  ur: "موطأ مالک کی حدیث نمبر 534، جس میں تدفین، قبر اور مرقد کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ziyarat-al-qubur, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 534 (book 16 hadith 15); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }
+sources: [source/muwatta-malik, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

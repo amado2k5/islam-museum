@@ -66,7 +66,7 @@ describe("one API export per browser or explorer (AGENTS.md: every feature is gr
 
   it("writes jobs, fatwa, khutab, poetry and screens with their fields, edges, prose languages and job holders", () => {
     const data = featureApiData(compiled);
-    expect(Object.keys(data).sort()).toEqual(["akhlaq.json", "angels.json", "ansab.json", "arkan.json", "asma.json", "battles.json", "bayt.json", "companions.json", "cosmos.json", "dreams.json", "duas.json", "eschatology.json", "fatwa.json", "ghayb.json", "halal.json", "hasanats.json", "hisab.json", "hudud.json", "ibadat.json", "islamic-economy.json", "jannas.json", "jinn-devils.json", "jobs.json", "khulafa.json", "khutab.json", "madhahib.json", "magic.json", "messengers.json", "miracles.json", "mukatabat.json", "nar.json", "nature.json", "nubuwat.json", "places.json", "poetry.json", "qiraat.json", "qiyama.json", "qudsi.json", "qurun.json", "sayyiat.json", "screens.json", "tafsir.json", "tibb.json", "usra.json"]);
+    expect(Object.keys(data).sort()).toEqual(["akhlaq.json", "angels.json", "ansab.json", "arkan.json", "asma.json", "battles.json", "bayt.json", "companions.json", "cosmos.json", "dreams.json", "duas.json", "eschatology.json", "fatwa.json", "ghayb.json", "halal.json", "hasanats.json", "hisab.json", "hudud.json", "ibadat.json", "islamic-economy.json", "jannas.json", "jinn-devils.json", "jobs.json", "khulafa.json", "khutab.json", "madhahib.json", "magic.json", "messengers.json", "miracles.json", "mukatabat.json", "nar.json", "nature.json", "nubuwat.json", "places.json", "poetry.json", "qiraat.json", "qiyama.json", "qudsi.json", "qurun.json", "sayyiat.json", "screens.json", "tafsir.json", "tibb.json", "usra.json", "wasaya.json"]);
     expect(data["qudsi.json"].items.map((i) => i.id)).toEqual(["passage/muslim-2577"]);
     expect(data["qudsi.json"].items[0]).toMatchObject({ work: "work/sahih-muslim", ref: "2577", hadith: "zulm", themes: ["ethics-and-character"] });
     expect(data["qudsi.json"].feature).toBe("hadith-qudsi-browser");
@@ -631,6 +631,32 @@ describe("one API export per browser or explorer (AGENTS.md: every feature is gr
     expect(items.find((i) => i.id === "person/hafs-x")).toMatchObject({ section: "people", topics: ["readers"] });
     expect(items.find((i) => i.id === "concept/kufic-x")).toMatchObject({ section: "scripts", topics: ["khatt"] });
     expect(items.find((i) => i.id === "work/sab-a-x")).toMatchObject({ section: "works", topics: ["readings"] }); // no section tag: filed by class
+  });
+
+  it("exports wasaya: Qur'an verses from the reviewed table, lexicon passages by corpus and topic, tagged records by section, guarded lexemes", () => {
+    const yaqub = makeNode("passage/quran-2-133x", "passage", { unit: "ayah", work: "work/quran", sura: 2, aya: 133, text: "x" });
+    const notListed = makeNode("passage/quran-2-1z", "passage", { unit: "ayah", work: "work/quran", sura: 2, aya: 1, text: "الم" });
+    const notInherited = makeNode("passage/muslim-7771w", "passage", { unit: "hadith", work: "work/sahih-muslim", ref: "7771w", text: "لاَ نُورَثُ مَا تَرَكْنَا صَدَقَةٌ" });
+    const umar = makeNode("passage/tabaqat-x-1", "passage", { unit: "chapter", work: "work/al-tabaqat-al-kubra-ibn-sad", ref: "1", text: "لما طعن عمر أوصى الخليفة من بعده بالمهاجرين ثم قال ادفنوني مع صاحبي" });
+    const generic = makeNode("passage/muwatta-7772w", "passage", { unit: "hadith", work: "work/muwatta-malik", ref: "7772w", text: "باب عذاب القبر: خصوصية الميراث للعصبة وما تركه الرجل من الأثر وعهد الله" });
+    const minedElsewhere = { ...makeNode("passage/bukhari-api-7773w", "passage", { unit: "hadith", work: "work/sahih-al-bukhari", ref: "7773w", text: "كان يأمر بالحجامة", provenance: { run: "tibb-hadithapi-1" } }), label: { ar: "وصية أو عهد أخير", en: "a testament" }, summary: { ar: "يجمعه متصفح الوصايا", en: "The Testaments Browser lists it." } };
+    const will = { ...makeNode("event/testament-x", "event", { kind: "other" }), tags: ["wasaya-browser", "wasaya-caliphs", "wasaya-wasiyya", "wasaya-marqad"] };
+    const relic = { ...makeNode("object/burda-x", "object", { kind: "relic" }), tags: ["wasaya-browser", "wasaya-athar"] };
+    const cemetery = { ...makeNode("place/baqi-x", "place", { kind: "site" }), tags: ["wasaya-browser", "wasaya-marqad"] };
+    const data = featureApiData({ ...compiled, nodes: [...compiled.nodes, yaqub, notListed, notInherited, umar, generic, minedElsewhere, will, relic, cemetery], edges: compiled.edges });
+    const items = data["wasaya.json"].items;
+    const ids = items.map((i) => i.id);
+    expect(data["wasaya.json"].feature).toBe("wasaya-browser");
+    expect(ids).toContain("passage/quran-2-133x");
+    expect(ids).not.toContain("passage/quran-2-1z"); // a verse is in only because the reviewed table lists it
+    expect(ids).not.toContain("passage/muwatta-7772w"); // the trial of the grave, «خصوصية», a bare «الميراث», «تركه», «الأثر» and «عهد» are not the topic
+    expect(ids).not.toContain("passage/bukhari-api-7773w"); // a mining tool's own label and summary are not the passage's text
+    expect(items.find((i) => i.id === "passage/quran-2-133x")).toMatchObject({ section: "quran", topics: ["wasiyya", "ihtidar"] });
+    expect(items.find((i) => i.id === "passage/muslim-7771w")).toMatchObject({ section: "sunnah", topics: ["mirath"] }); // vowel marks are folded before matching
+    expect(items.find((i) => i.id === "passage/tabaqat-x-1")).toMatchObject({ section: "books", topics: ["wasiyya", "ihtidar", "marqad"] });
+    expect(items.find((i) => i.id === "event/testament-x")).toMatchObject({ section: "caliphs", topics: ["wasiyya", "marqad"] });
+    expect(items.find((i) => i.id === "object/burda-x")).toMatchObject({ section: "legacy", topics: ["athar"] }); // no section tag: an object is filed under legacy
+    expect(items.find((i) => i.id === "place/baqi-x")).toMatchObject({ section: "graves", topics: ["marqad"] }); // and a place under graves
   });
 
   it("exports qiyama: detected passages by corpus and kind, gated ambiguous lexemes, exclusions, future-book inclusion", () => {

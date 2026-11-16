@@ -1,0 +1,16 @@
+id: passage/tirmidhi-api-1683
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "1683"
+label: { ar: "جامع الترمذي 1683 — أثر من الآثار المحفوظة", en: "Jami' al-Tirmidhi 1683 — a relic kept after its owner", ur: "جامع ترمذی 1683 — محفوظ آثار و تبرکات" }
+text: "… عُبَيْدَةَ الْحَدَّادُ، عَنْ عُثْمَانَ بْنِ سَعْدٍ، عَنِ ابْنِ سِيرِينَ، قَالَ صَنَعْتُ سَيْفِي عَلَى سَيْفِ سَمُرَةَ بْنِ جُنْدَبٍ وَزَعَمَ سَمُرَةُ أَنَّهُ صَنَعَ سَيْفَهُ عَلَى سَيْفِ رَسُولِ اللَّهِ وَكَانَ حَنَفِيًّا. قَالَ أَبُو عِيسَى هَذَ حَدِيثٌ غَرِيبٌ لاَ نَعْرِفُهُ إِلاَّ مِنْ هَذَا الْوَجْهِ. وَقَدْ تَكَلَّمَ يَحْيَى بْنُ سَعِيدٍ الْقَطَّانُ فِي عُثْمَانَ بْنِ سَعْدٍ الْكَاتِبِ وَضَعَّفَهُ مِنْ قِبَلِ حِفْظِهِ."
+summary:
+  ar: "حديث في جامع الترمذي، رقم 1683، يذكر أثر من الآثار المحفوظة. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Jami' al-Tirmidhi, no. 1683 (The Book on Jihad), that mentions a relic kept after its owner. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
+  ur: "جامع ترمذی کی حدیث نمبر 1683، جس میں محفوظ آثار و تبرکات کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/tabarruk, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 1683 (book 23 hadith 14); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

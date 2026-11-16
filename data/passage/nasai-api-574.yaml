@@ -1,0 +1,16 @@
+id: passage/nasai-api-574
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "574"
+label: { ar: "سنن النسائي 574 — ما خلّفه من تركة وميراث", en: "Sunan al-Nasa'i 574 — what was left behind: estate and inheritance", ur: "سنن نسائی 574 — ترکہ اور میراث" }
+text: "أَخْبَرَنَا عُبَيْدُ اللَّهِ بْنُ سَعِيدٍ، قَالَ حَدَّثَنَا يَحْيَى، عَنْ هِشَامٍ، قَالَ أَخْبَرَنِي أَبِي قَالَ، قَالَتْ عَائِشَةُ مَا تَرَكَ رَسُولُ اللَّهِ السَّجْدَتَيْنِ بَعْدَ الْعَصْرِ عِنْدِي قَطُّ."
+summary:
+  ar: "حديث في سنن النسائي، رقم 574، يذكر ما خلّفه من تركة وميراث. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan al-Nasa'i, no. 574 (The Book of the Times (of Prayer)), that mentions what was left behind: estate and inheritance. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
+  ur: "سنن نسائی کی حدیث نمبر 574، جس میں ترکہ اور میراث کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/tarika-estate, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 574 (book 6 hadith 81); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

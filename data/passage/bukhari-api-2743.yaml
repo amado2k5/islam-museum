@@ -1,0 +1,17 @@
+id: passage/bukhari-api-2743
+class: passage
+tags: [wasaya-browser, wasaya-wasiyya]
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "2743"
+label: { ar: "صحيح البخاري 2743 — وصية أو عهد أخير", en: "Sahih al-Bukhari 2743 — a testament or parting counsel", ur: "صحیح بخاری 2743 — وصیت یا آخری نصیحت" }
+text: "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا سُفْيَانُ، عَنْ هِشَامِ بْنِ عُرْوَةَ، عَنْ أَبِيهِ، عَنِ ابْنِ عَبَّاسٍما ـ قَالَ لَوْ غَضَّ النَّاسُ إِلَى الرُّبْعِ، لأَنَّ رَسُولَ اللَّهِ قَالَ \" الثُّلُثُ، وَالثُّلُثُ كَثِيرٌ أَوْ كَبِيرٌ \"."
+summary:
+  ar: "حديث في صحيح البخاري، رقم 2743، يذكر وصية أو عهد أخير. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sahih al-Bukhari, no. 2743 (Wills and Testaments (Wasaayaa)), that mentions a testament or parting counsel. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
+  ur: "صحیح بخاری کی حدیث نمبر 2743، جس میں وصیت یا آخری نصیحت کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-wasiyya, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 2743 (book 55 hadith 6); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

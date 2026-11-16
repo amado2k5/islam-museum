@@ -1,0 +1,17 @@
+id: passage/tarikh-islam-dhahabi-wasaya-12-25
+class: passage
+unit: chapter
+work: work/tarikh-islam-dhahabi
+ref: "12:25"
+label: { ar: "تاريخ الإسلام للذهبي، المجلد المصوَّر 12، ص 25 — وصية أو عهد أخير، ساعة الاحتضار والوفاة", en: "al-Dhahabi's Tarikh al-Islam, scan volume 12, p. 25 — a testament or parting counsel; a deathbed and last hours", ur: "تاریخ الاسلام، ذہبی، اسکین جلد 12، ص 25 — وصیت یا آخری نصیحت، وقتِ وفات اور آخری لمحات" }
+text: "… بنو ابنتِه، وأما ما فخرت به من عليّ، وسابقتِه، فقد حضرتْ رسولَ اللّٰه الوفاةُ فأمر غيرَه بالصلاة، ثم أخذ الناس رجلاً بعد رجل فلم يأخذوه، وكان في ستة أهل الشورى فتركوه، ثم قُتل عثمان وهو به مُتَّهمٌ، وقاتله طلحة والزبير، …"
+summary:
+  ar: "مقطع من تاريخ الإسلام للذهبي، المجلد المصوَّر 12، ص 25، يذكر وصية أو عهد أخير، وساعة الاحتضار والوفاة؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الوصايا والمواريث والآثار والمراقد."
+  en: "An excerpt from al-Dhahabi's Tarikh al-Islam, scan volume 12, p. 25, that mentions a testament or parting counsel, a deathbed and last hours; from the machine-read scan, quoted within forty words per the sources policy. The Testaments Browser lists it."
+  ur: "تاریخ الاسلام، ذہبی، اسکین جلد 12، ص 25 کا اقتباس جس میں وصیت یا آخری نصیحت، وقتِ وفات اور آخری لمحات کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-wasiyya, sources: [source/tarikh-islam-dhahabi] }
+  - { type: mentions, target: concept/ihtidar, sources: [source/tarikh-islam-dhahabi] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan tareekh/tarikh-islam-dhahabi/volume-12, page 25; a window of at most 40 words chosen by the testaments detector (scripts/wasaya.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-ocr-1" }
+sources: [source/tarikh-islam-dhahabi]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

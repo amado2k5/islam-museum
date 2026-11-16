@@ -1,0 +1,16 @@
+id: passage/muslim-api-1935
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "1935"
+label: { ar: "صحيح مسلم 1935 — ما خلّفه من تركة وميراث", en: "Sahih Muslim 1935 — what was left behind: estate and inheritance", ur: "صحیح مسلم 1935 — ترکہ اور میراث" }
+text: "حَدَّثَنَا زُهَيْرُ بْنُ حَرْبٍ، حَدَّثَنَا جَرِيرٌ، ح وَحَدَّثَنَا ابْنُ نُمَيْرٍ، حَدَّثَنَا أَبِي جَمِيعًا، عَنْ هِشَامِ بْنِ عُرْوَةَ، عَنْ أَبِيهِ، عَنْ عَائِشَةَ، قَالَتْ مَا تَرَكَ رَسُولُ اللَّهِ رَكْعَتَيْنِ بَعْدَ الْعَصْرِ عِنْدِي قَطُّ."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 1935، يذكر ما خلّفه من تركة وميراث. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sahih Muslim, no. 1935 (The Book of Prayer - Travellers), that mentions what was left behind: estate and inheritance. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
+  ur: "صحیح مسلم کی حدیث نمبر 1935، جس میں ترکہ اور میراث کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/tarika-estate, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 1935 (book 6 hadith 363); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

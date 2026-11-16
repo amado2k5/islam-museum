@@ -1,0 +1,16 @@
+id: passage/bukhari-api-5166
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "5166"
+label: { ar: "صحيح البخاري 5166 — دفن وقبر ومرقد", en: "Sahih al-Bukhari 5166 — a burial, grave or resting place", ur: "صحیح بخاری 5166 — تدفین، قبر اور مرقد" }
+text: "… رَهْطٌ مِنْهُمْ عِنْدَ النَّبِيِّ فَأَطَالُوا الْمُكْثَ، فَقَامَ النَّبِيُّ فَخَرَجَ وَخَرَجْتُ مَعَهُ لِكَىْ يَخْرُجُوا، فَمَشَى النَّبِيُّ وَمَشَيْتُ، حَتَّى جَاءَ عَتَبَةَ حُجْرَةِ عَائِشَةَ، ثُمَّ ظَنَّ أَنَّهُمْ خَرَجُوا فَرَجَعَ وَرَجَعْتُ مَعَهُ، حَتَّى إِذَا دَخَلَ عَلَى زَيْنَبَ فَإِذَا هُمْ جُلُوسٌ لَمْ يَقُومُوا، فَرَجَعَ النَّبِيُّ وَرَجَعْتُ مَعَهُ، حَتَّى إِذَا بَلَغَ عَتَبَةَ حُجْرَةِ عَائِشَةَ، وَظَنَّ أَنَّهُمْ خَرَجُوا، فَرَجَعَ وَرَجَعْتُ مَعَهُ فَإِذَا …"
+summary:
+  ar: "حديث في صحيح البخاري، رقم 5166، يذكر دفن وقبر ومرقد. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sahih al-Bukhari, no. 5166 (Wedlock, Marriage (Nikaah)), that mentions a burial, grave or resting place. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
+  ur: "صحیح بخاری کی حدیث نمبر 5166، جس میں تدفین، قبر اور مرقد کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ziyarat-al-qubur, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 5166 (book 67 hadith 101); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

@@ -1,0 +1,18 @@
+id: passage/tarikh-islam-dhahabi-wasaya-5-700
+class: passage
+unit: chapter
+work: work/tarikh-islam-dhahabi
+ref: "5:700"
+label: { ar: "تاريخ الإسلام للذهبي، المجلد المصوَّر 5، ص 700 — ساعة الاحتضار والوفاة، ما خلّفه من تركة وميراث", en: "al-Dhahabi's Tarikh al-Islam, scan volume 5, p. 700 — a deathbed and last hours; what was left behind: estate and inheritance", ur: "تاریخ الاسلام، ذہبی، اسکین جلد 5، ص 700 — وقتِ وفات اور آخری لمحات، ترکہ اور میراث" }
+text: "… احتضر وَالِ باب وفاته وَالالهِ تاريخ وفاته وَلِ يم باب عمره وَل مْ باب غسله وكفنه ودفنه ذِكر الصلاة عليه صفة قبره. باب أنّ النبيّ لم يستخلف باب تركة رسول اللّٰه وَلِعِ عدد أزواجه وَلِ عمْ فهارس السيرة النبوية. ® …"
+summary:
+  ar: "مقطع من تاريخ الإسلام للذهبي، المجلد المصوَّر 5، ص 700، يذكر ساعة الاحتضار والوفاة، وما خلّفه من تركة وميراث، ودفن وقبر ومرقد؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الوصايا والمواريث والآثار والمراقد."
+  en: "An excerpt from al-Dhahabi's Tarikh al-Islam, scan volume 5, p. 700, that mentions a deathbed and last hours, what was left behind: estate and inheritance, a burial, grave or resting place; from the machine-read scan, quoted within forty words per the sources policy. The Testaments Browser lists it."
+  ur: "تاریخ الاسلام، ذہبی، اسکین جلد 5، ص 700 کا اقتباس جس میں وقتِ وفات اور آخری لمحات، ترکہ اور میراث، تدفین، قبر اور مرقد کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ihtidar, sources: [source/tarikh-islam-dhahabi] }
+  - { type: mentions, target: concept/tarika-estate, sources: [source/tarikh-islam-dhahabi] }
+  - { type: mentions, target: concept/ziyarat-al-qubur, sources: [source/tarikh-islam-dhahabi] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan tareekh/tarikh-islam-dhahabi/volume-5, page 700; a window of at most 40 words chosen by the testaments detector (scripts/wasaya.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-ocr-1" }
+sources: [source/tarikh-islam-dhahabi]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

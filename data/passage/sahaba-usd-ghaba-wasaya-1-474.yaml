@@ -1,0 +1,17 @@
+id: passage/sahaba-usd-ghaba-wasaya-1-474
+class: passage
+unit: chapter
+work: work/usd-al-ghaba
+ref: "1:474"
+label: { ar: "أسد الغابة لابن الأثير، المجلد المصوَّر 1، ص 474 — وصية أو عهد أخير، ساعة الاحتضار والوفاة", en: "Ibn al-Athir's Usd al-Ghaba, scan volume 1, p. 474 — a testament or parting counsel; a deathbed and last hours", ur: "اسد الغابہ، ابن الاثیر، اسکین جلد 1، ص 474 — وصیت یا آخری نصیحت، وقتِ وفات اور آخری لمحات" }
+text: "… فقاتلوا الفرس بجلولاء فهزموهم، وهو الذي فتح المدائن مدائن كسرى بالعراق، وهو الذي بنى الكوفة، وولي العراق، ثم عزله، فلما حضرت عمر الوفاة جعله أحد أصحاب الشورى، وقال: إن ولي سعد الإمارة فذاك، وإلا فأوصي الخليفة بعدي أن يستعمله، فإني …"
+summary:
+  ar: "مقطع من أسد الغابة لابن الأثير، المجلد المصوَّر 1، ص 474، يذكر وصية أو عهد أخير، وساعة الاحتضار والوفاة؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الوصايا والمواريث والآثار والمراقد."
+  en: "An excerpt from Ibn al-Athir's Usd al-Ghaba, scan volume 1, p. 474, that mentions a testament or parting counsel, a deathbed and last hours; from the machine-read scan, quoted within forty words per the sources policy. The Testaments Browser lists it."
+  ur: "اسد الغابہ، ابن الاثیر، اسکین جلد 1، ص 474 کا اقتباس جس میں وصیت یا آخری نصیحت، وقتِ وفات اور آخری لمحات کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-wasiyya, sources: [source/usd-al-ghaba] }
+  - { type: mentions, target: concept/ihtidar, sources: [source/usd-al-ghaba] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan sahaba/usd-ghaba/20191216_20191216_1124, page 474; a window of at most 40 words chosen by the testaments detector (scripts/wasaya.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-ocr-1" }
+sources: [source/usd-al-ghaba]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

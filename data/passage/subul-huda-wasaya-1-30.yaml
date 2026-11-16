@@ -1,0 +1,17 @@
+id: passage/subul-huda-wasaya-1-30
+class: passage
+unit: chapter
+work: work/subul-al-huda-wa-al-rashad
+ref: "1:30"
+label: { ar: "سبل الهدى والرشاد للصالحي، المجلد المصوَّر 1، ص 30 — وصية أو عهد أخير، دفن وقبر ومرقد", en: "al-Salihi's Subul al-Huda wa-l-Rashad, scan volume 1, p. 30 — a testament or parting counsel; a burial, grave or resting place", ur: "سبل الہدیٰ والرشاد، صالحی، اسکین جلد 1، ص 30 — وصیت یا آخری نصیحت، تدفین، قبر اور مرقد" }
+text: "… سيرته في دفن الميت وما يلتحق بذلك وفيه أَنواع. باب: سيرته في زيارة القبور وفيه أَنواع. باب: سيرته في الشهداء والموتى. جماع أبواب سيرته في الضَّدَقةِ باب: بعثه العمال لأخذها من الأغنياء وردها على الفقراء ووصيته عماله بالعدل. باب: وصيته …"
+summary:
+  ar: "مقطع من سبل الهدى والرشاد للصالحي، المجلد المصوَّر 1، ص 30، يذكر وصية أو عهد أخير، ودفن وقبر ومرقد؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الوصايا والمواريث والآثار والمراقد."
+  en: "An excerpt from al-Salihi's Subul al-Huda wa-l-Rashad, scan volume 1, p. 30, that mentions a testament or parting counsel, a burial, grave or resting place; from the machine-read scan, quoted within forty words per the sources policy. The Testaments Browser lists it."
+  ur: "سبل الہدیٰ والرشاد، صالحی، اسکین جلد 1، ص 30 کا اقتباس جس میں وصیت یا آخری نصیحت، تدفین، قبر اور مرقد کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-wasiyya, sources: [source/subul-huda-salihi] }
+  - { type: mentions, target: concept/ziyarat-al-qubur, sources: [source/subul-huda-salihi] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan seerah/subul-huda/00_20260711, page 30; a window of at most 40 words chosen by the testaments detector (scripts/wasaya.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-ocr-1" }
+sources: [source/subul-huda-salihi]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

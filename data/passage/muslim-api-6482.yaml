@@ -1,0 +1,16 @@
+id: passage/muslim-api-6482
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "6482"
+label: { ar: "صحيح مسلم 6482 — ساعة الاحتضار والوفاة", en: "Sahih Muslim 6482 — a deathbed and last hours", ur: "صحیح مسلم 6482 — وقتِ وفات اور آخری لمحات" }
+text: "حَدَّثَنِيهِ مُحَمَّدُ بْنُ حَاتِمٍ، حَدَّثَنَا مُحَمَّدُ بْنُ بَكْرٍ، أَخْبَرَنَا ابْنُ جُرَيْجٍ، بِهَذَا الإِسْنَادِ وَلَمْ يَذْكُرْ قَبْلَ مَوْتِهِ بِشَهْرٍ."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 6482، يذكر ساعة الاحتضار والوفاة. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sahih Muslim, no. 6482 (The Book of the Merits of the Companions), that mentions a deathbed and last hours. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
+  ur: "صحیح مسلم کی حدیث نمبر 6482، جس میں وقتِ وفات اور آخری لمحات کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ihtidar, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 6482 (book 44 hadith 311); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

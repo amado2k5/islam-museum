@@ -1,0 +1,17 @@
+id: passage/jami-ulum-hikam-wasaya-2-9
+class: passage
+unit: chapter
+work: work/jami-ulum-hikam
+ref: "2:9"
+label: { ar: "جامع العلوم والحكم لابن رجب، المجلد المصوَّر 2، ص 9 — ساعة الاحتضار والوفاة، دفن وقبر ومرقد", en: "Ibn Rajab's Jami' al-'Ulum wa-l-Hikam, scan volume 2, p. 9 — a deathbed and last hours; a burial, grave or resting place", ur: "جامع العلوم والحکم، ابن رجب، اسکین جلد 2، ص 9 — وقتِ وفات اور آخری لمحات، تدفین، قبر اور مرقد" }
+text: "… الدمشقي : ولقد حدثني من حفر لحد ابن رجب أنَّ الشيخ زين الدين ابن رجب جاءه قبل أن يموت بأيام فقال لي : احفر لي هاهنا لحداً، وأشار إلى البقعة التي دفن فيها قال فحفرت له، فلما فرغ نزل في …"
+summary:
+  ar: "مقطع من جامع العلوم والحكم لابن رجب، المجلد المصوَّر 2، ص 9، يذكر ساعة الاحتضار والوفاة، ودفن وقبر ومرقد؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الوصايا والمواريث والآثار والمراقد."
+  en: "An excerpt from Ibn Rajab's Jami' al-'Ulum wa-l-Hikam, scan volume 2, p. 9, that mentions a deathbed and last hours, a burial, grave or resting place; from the machine-read scan, quoted within forty words per the sources policy. The Testaments Browser lists it."
+  ur: "جامع العلوم والحکم، ابن رجب، اسکین جلد 2، ص 9 کا اقتباس جس میں وقتِ وفات اور آخری لمحات، تدفین، قبر اور مرقد کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ihtidar, sources: [source/ibn-rajab-jami-ulum-hikam] }
+  - { type: mentions, target: concept/ziyarat-al-qubur, sources: [source/ibn-rajab-jami-ulum-hikam] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan hadith/jami-ulum-hikam/jami3_al_3olom_wal_7ekam_al_arba3oon_al_nawaiya, page 9; a window of at most 40 words chosen by the testaments detector (scripts/wasaya.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-ocr-1" }
+sources: [source/ibn-rajab-jami-ulum-hikam]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

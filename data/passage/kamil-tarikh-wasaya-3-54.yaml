@@ -1,0 +1,17 @@
+id: passage/kamil-tarikh-wasaya-3-54
+class: passage
+unit: chapter
+work: work/al-kamil-fi-al-tarikh
+ref: "3:54"
+label: { ar: "الكامل في التاريخ لابن الأثير، المجلد المصوَّر 3، ص 54 — وصية أو عهد أخير، دفن وقبر ومرقد", en: "Ibn al-Athir's al-Kamil fi al-Tarikh, scan volume 3, p. 54 — a testament or parting counsel; a burial, grave or resting place", ur: "الکامل فی التاریخ، ابن الاثیر، اسکین جلد 3، ص 54 — وصیت یا آخری نصیحت، تدفین، قبر اور مرقد" }
+text: "… فإنهم قالوا: لم تزل القبة التي جعل اللّٰه لآدم مكان البيت إلى أيام الطوفان فرفعها اللّٰه حين أرسل الطوفان. وقيل: إن شيئًا لما مرض أوصى إلى ابنه أنوش ومات فدفن مع أبويه بغار أبي قبيس، وكان مولده لمضي مائتي سنة …"
+summary:
+  ar: "مقطع من الكامل في التاريخ لابن الأثير، المجلد المصوَّر 3، ص 54، يذكر وصية أو عهد أخير، ودفن وقبر ومرقد؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الوصايا والمواريث والآثار والمراقد."
+  en: "An excerpt from Ibn al-Athir's al-Kamil fi al-Tarikh, scan volume 3, p. 54, that mentions a testament or parting counsel, a burial, grave or resting place; from the machine-read scan, quoted within forty words per the sources policy. The Testaments Browser lists it."
+  ur: "الکامل فی التاریخ، ابن الاثیر، اسکین جلد 3، ص 54 کا اقتباس جس میں وصیت یا آخری نصیحت، تدفین، قبر اور مرقد کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-wasiyya, sources: [source/kamil-ibn-al-athir] }
+  - { type: mentions, target: concept/ziyarat-al-qubur, sources: [source/kamil-ibn-al-athir] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan tareekh/kamil-tarikh/AAlexandrina-155607, page 54; a window of at most 40 words chosen by the testaments detector (scripts/wasaya.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-ocr-1" }
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

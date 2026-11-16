@@ -1,0 +1,75 @@
+id: event/testament-of-fatima-bint-muhammad
+class: event
+kind: death
+label:
+  ar: وصية فاطمة بنت النبي في غسلها ونعشها ودفنها
+  en: Testament of Fatima bint Muhammad about her washing, bier and burial
+  ur: غسل، تابوت اور دفن کے بارے میں فاطمہ بنتِ محمد کی وصیت
+summary:
+  ar: "تروي كتب السير أن فاطمة قالت لأسماء بنت عميس إنها تكره أن يُطرح على المرأة الثوب فيصفها، فأرتها نعشاً من جريد رطب رأته بالحبشة فأعجبها وأوصتها أن تغسلها هي وعلي وألا يدخل عليها أحد، حتى جاءت عائشة فمنعتها أسماء وأقرّها أبو بكر {cite:siyar-alam-nubala scan vol. 3 p. 98}. وتذكر الكتب أن علياً غسلها وأن أسماء ومعها سلمى أم رافع شاركتا، وقيل العباس، ودُفنت ليلاً، واختلفت الروايات فيمن صلى عليها بين علي والعباس وأبي بكر {cite:al-bidaya-wal-nihaya scan vol. 3 p. 717} {cite:isaba scan vol. 2 p. 1942}. وفي موضع قبرها خلاف: يقول الناس إنه بالبقيع، وينقل الواقدي أنه في زاوية من دار عقيل، بينه وبين الطريق سبعة أذرع {cite:isaba scan vol. 2 p. 1942}."
+  en: "The biographical books report that Fatima told Asma bint Umays that she disliked the cloth being thrown over a woman so that it outlined her, whereupon Asma showed her a bier of fresh palm fronds she had seen in Abyssinia; Fatima liked it and asked Asma to wash her together with Ali and that no one else enter, until Aisha came and Asma refused her entry and Abu Bakr upheld Asma {cite:siyar-alam-nubala scan vol. 3 p. 98}. The books say Ali washed her, with Asma and Salma Umm Rafi taking part, and in one account al-Abbas, and that she was buried by night; the reports differ over who prayed over her, Ali, al-Abbas or Abu Bakr {cite:al-bidaya-wal-nihaya scan vol. 3 p. 717} {cite:isaba scan vol. 2 p. 1942}. The place of her grave is disputed: people say it is in al-Baqi, while al-Waqidi relays that it is in a corner of the house of Aqil, seven cubits from the road {cite:isaba scan vol. 2 p. 1942}."
+  ur: "سیرت کی کتابیں بتاتی ہیں کہ فاطمہ نے اسماء بنت عمیس سے کہا کہ انھیں یہ ناپسند ہے کہ عورت پر کپڑا ڈال دیا جائے اور وہ اس کے جسم کا نقشہ ظاہر کرے، تو اسماء نے انھیں حبشہ میں دیکھا ہوا تازہ کھجور کی شاخوں کا تابوت دکھایا؛ فاطمہ کو پسند آیا اور انھوں نے وصیت کی کہ اسماء انھیں علی کے ساتھ مل کر غسل دیں اور کوئی اور اندر نہ آئے، یہاں تک کہ عائشہ آئیں تو اسماء نے انھیں روک دیا اور ابوبکر نے اسماء کی بات برقرار رکھی {cite:siyar-alam-nubala scan vol. 3 p. 98}. کتابوں کے مطابق علی نے انھیں غسل دیا، اسماء اور سلمیٰ ام رافع نے ساتھ دیا، ایک قول میں عباس بھی، اور وہ رات کو دفن ہوئیں؛ جنازے کی امامت میں علی، عباس اور ابوبکر کے اقوال مختلف ہیں {cite:al-bidaya-wal-nihaya scan vol. 3 p. 717} {cite:isaba scan vol. 2 p. 1942}. قبر کے مقام میں اختلاف ہے: لوگ کہتے ہیں بقیع میں ہے، جبکہ واقدی کے واسطے سے نقل ہے کہ وہ دارِ عقیل کے ایک کونے میں ہے، سڑک سے سات ہاتھ کے فاصلے پر {cite:isaba scan vol. 2 p. 1942}."
+wings: [time, people, words]
+tags: [wasaya-browser, wasaya-companions, wasaya-wasiyya, wasaya-ihtidar, wasaya-marqad]
+periods:
+- period/rashidun
+regions:
+- arabia
+date:
+  start: { hijri: "0011-09", precision: month, status: tradition, note: "ليلة الثلاثاء لثلاث خلون من رمضان سنة 11هـ عند الواقدي {cite:isaba scan vol. 2 p. 1942} وابن كثير، والصحيح عنده أنها عاشت بعد النبي ستة أشهر {cite:al-bidaya-wal-nihaya scan vol. 3 p. 717}، وفي الأقوال الأخرى شهران أو ثلاثة أو ثمانية أشهر", sources: [source/isaba, source/al-bidaya-wal-nihaya, source/siyar-alam-nubala] }
+relations:
+- type: had_participant
+  target: person/fatima
+  role: صاحبة الوصية والمتوفاة
+  sources: [source/siyar-alam-nubala, source/isaba]
+- type: had_participant
+  target: person/asma-bint-umays
+  role: الموصى إليها بالغسل وصاحبة فكرة النعش
+  sources: [source/siyar-alam-nubala, source/al-bidaya-wal-nihaya, source/isaba]
+- type: had_participant
+  target: person/ali-ibn-abi-talib
+  role: غسّلها ودفنها، وصلّى عليها في رواية
+  sources: [source/siyar-alam-nubala, source/isaba, source/al-bidaya-wal-nihaya]
+- type: had_participant
+  target: person/abbas-ibn-abd-al-muttalib
+  role: صلّى عليها ونزل في قبرها في رواية
+  sources: [source/siyar-alam-nubala, source/isaba]
+- type: had_participant
+  target: person/al-fadl-ibn-al-abbas
+  role: نزل في قبرها في رواية
+  sources: [source/siyar-alam-nubala, source/isaba]
+- type: had_participant
+  target: person/abu-bakr
+  role: أقرّ أسماء على منع الدخول، وصلّى عليها في رواية ضعّفها ابن حجر
+  sources: [source/siyar-alam-nubala, source/isaba, source/al-bidaya-wal-nihaya]
+- type: had_participant
+  target: person/aisha
+  role: جاءت لتدخل فمُنعت
+  sources: [source/siyar-alam-nubala]
+- type: related_to
+  target: event/death-of-fatima-bint-muhammad
+  sources: [source/siyar-alam-nubala, source/isaba]
+- type: related_to
+  target: event/fatima-inheritance-claim-fadak
+  sources: [source/al-bidaya-wal-nihaya, source/siyar-alam-nubala]
+- type: occurred_at
+  target: place/medina
+  sources: [source/al-bidaya-wal-nihaya, source/isaba]
+- type: occurred_at
+  target: place/al-baqi
+  sources: [source/isaba, source/al-bidaya-wal-nihaya]
+sources:
+- source/siyar-alam-nubala
+- source/isaba
+- source/al-bidaya-wal-nihaya
+- source/sifat-al-safwa-tartusi-2012
+provenance:
+  layer: own-research
+  source: "سير أعلام النبلاء ⁦(مجلد 3 ص 97-99)⁩، الإصابة ⁦(مجلد 2 ص 1942)⁩، البداية والنهاية ⁦(مجلد 3 ص 717 ومجلد 4 ص 321)⁩، صفة الصفوة ⁦(مجلد 4 ص 331)⁩؛ أرقام الصفحات صفحات المسح"
+  generated_by: "Claude (claude-sonnet-5-5)"
+  model: claude-sonnet-5-5
+  run: wasaya-browser-1
+status:
+  review: draft
+  completeness: 2
+  generated_by: "Claude (claude-sonnet-5-5); wasaya-browser-1"

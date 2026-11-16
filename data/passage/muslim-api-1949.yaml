@@ -1,0 +1,16 @@
+id: passage/muslim-api-1949
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "1949"
+label: { ar: "صحيح مسلم 1949 — أثر من الآثار المحفوظة", en: "Sahih Muslim 1949 — a relic kept after its owner", ur: "صحیح مسلم 1949 — محفوظ آثار و تبرکات" }
+text: "… الرِّقَاعِ قَالَ كُنَّا إِذَا أَتَيْنَا عَلَى شَجَرَةٍ ظَلِيلَةٍ تَرَكْنَاهَا لِرَسُولِ اللَّهِ - قَالَ - فَجَاءَ رَجُلٌ مِنَ الْمُشْرِكِينَ وَسَيْفُ رَسُولِ اللَّهِ مُعَلَّقٌ بِشَجَرَةٍ فَأَخَذَ سَيْفَ نَبِيِّ اللَّهِ فَاخْتَرَطَهُ فَقَالَ لِرَسُولِ اللَّهِ أَتَخَافُنِي قَالَ \" لاَ \". قَالَ فَمَنْ يَمْنَعُكَ مِنِّي قَالَ \" اللَّهُ يَمْنَعُنِي مِنْكَ \". قَالَ فَتَهَدَّدَهُ أَصْحَابُ رَسُولِ اللَّهِ فَأَغْمَدَ السَّيْفَ وَعَلَّقَهُ - …"
+summary:
+  ar: "حديث في صحيح مسلم، رقم 1949، يذكر أثر من الآثار المحفوظة. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sahih Muslim, no. 1949 (The Book of Prayer - Travellers), that mentions a relic kept after its owner. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
+  ur: "صحیح مسلم کی حدیث نمبر 1949، جس میں محفوظ آثار و تبرکات کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/tabarruk, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 1949 (book 6 hadith 377); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }
