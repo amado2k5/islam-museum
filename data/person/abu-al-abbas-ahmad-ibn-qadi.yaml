@@ -13,6 +13,17 @@ periods: [period/gunpowder-empires]
 regions: [maghreb]
 born: { edtf: "1553", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Ifrani (Safwat man Intashar)" }
 died: { edtf: "1616", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Ifrani (Safwat man Intashar)" }
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave"
+    sources: [source/dawlat-uthmaniyya-salabi]
+  - job: job/diplomat
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'diplomat', Job Browser linking wave"
+    sources: [source/dawlat-uthmaniyya-salabi]
 relations:
   - { type: lived_in, target: place/algiers, note: "From text: of Algiers", sources: [source/dawlat-uthmaniyya-salabi], confidence: low }
   - { type: corresponded_with, target: person/selim-i-ottoman, sources: [source/dawlat-uthmaniyya-salabi] }

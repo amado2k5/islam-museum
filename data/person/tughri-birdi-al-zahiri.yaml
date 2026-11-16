@@ -18,6 +18,17 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch77
+occupations:
+  - job: job/emir
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'emir', Job Browser linking wave"
+    sources: [source/shadharat-dhahab]
+  - job: job/commander
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'general', Job Browser linking wave"
+    sources: [source/shadharat-dhahab]
 relations:
   - { type: ruled_over, target: place/damascus, sources: [source/shadharat-dhahab] }
   - { type: ruled_over, target: place/aleppo, sources: [source/shadharat-dhahab] }

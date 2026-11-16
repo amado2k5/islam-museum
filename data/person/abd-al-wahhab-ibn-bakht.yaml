@@ -24,6 +24,17 @@ status:
   review: draft
   completeness: 3
 died: { edtf: "731", hijri: "0113", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi: martyred at Byzantine border 113 AH). al-Safadi, al-Wafi vol. 19 p. 197, and Ibn al-Athir, al-Kamil vol. 4 p. 403, both place his death in 113 AH; the Gregorian year is the museum's conversion and agrees with the card.", sources: [source/wafi-bi-l-wafayat-safadi-dar-ihya-2000, source/kamil-ibn-al-athir] }
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave"
+    sources: [source/al-aalam, source/wikidata, source/wafi-bi-l-wafayat-safadi-dar-ihya-2000, source/kamil-ibn-al-athir]
+  - job: job/muhaddith
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'muhaddith', Job Browser linking wave"
+    sources: [source/al-aalam, source/wikidata, source/wafi-bi-l-wafayat-safadi-dar-ihya-2000, source/kamil-ibn-al-athir]
 relations:
   - { type: lived_in, target: place/medina, note: "Wikidata Q35484 (P551); al-Safadi, vol. 19 p. 197: left Medina for the raids.", sources: [source/wikidata, source/wafi-bi-l-wafayat-safadi-dar-ihya-2000], confidence: medium }
   - { type: lived_in, target: place/mecca, note: "al-Safadi, vol. 19 p. 197: min ahl Makka (of the people of Mecca).", sources: [source/wafi-bi-l-wafayat-safadi-dar-ihya-2000], confidence: medium }
