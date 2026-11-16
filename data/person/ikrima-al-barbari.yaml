@@ -11,6 +11,12 @@ summary:
 wings: [people]
 regions: [arabia, maghreb]
 periods: [period/umayyad]
+occupations:
+  - job: job/muhaddith
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'muhaddith', Job Browser linking wave 38"
+    sources: [source/al-aalam, source/wikidata]
 relations:
   - { type: lived_in, target: place/hijaz, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/al-aalam] }
 sources: [source/al-aalam, source/wikidata]

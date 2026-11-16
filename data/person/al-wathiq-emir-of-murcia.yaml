@@ -24,5 +24,11 @@ status:
   review: draft
   completeness: 1
 died: { edtf: "1266~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kitab al-Ibar" }
+occupations:
+  - job: job/emir
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'amir', Job Browser linking wave 38"
+    sources: [source/al-aalam]
 relations:
   - { type: ruler_of, target: place/murcia, note: "From text: emir of Murcia", sources: [source/al-aalam] }
