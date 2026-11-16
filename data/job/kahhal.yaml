@@ -1,0 +1,48 @@
+id: job/kahhal
+class: job
+label: { ar: "الكحّال", en: "Oculist (kahhal)", ur: "کحّال" }
+names:
+  - { value: "kehhâl", kind: latinized, lang: tr }
+  - { value: "kohhal", kind: latinized, lang: tr }
+summary:
+  ar: "الكحّال هو طبيب العيون: يعالج الأغشية والظفرة والرمد، ويركّب الكحل والشيافات. يأمر ابن الأخوة والشيزري المحتسب أن يمتحن الكحّالين في كتاب حنين بن إسحاق «المقالات العشر في العين»: فمن عرف طبقات العين السبع وأخلاطها الثلاثة وأمراضها الثلاثة وتشعّباتها، وعرف تركيب الأكحال ومزج الأدوية، أُذن له في علاج العيون؛ وعليه ألا يُهمل آلات صناعته من شنابير لقلع الصَّبَل والظفرة، ومباضع للفصد، وعلبة مكاحل. ويحذّر الكتابان من كحّالي الطريق الذين لا دين لهم ولا تجربة: يصنعون أكحالاً من نشا وصمغ يصبغونها بالزنجفر والكركم والنيلة وقرن الأكاسيا والزعفران، ومن الخشخاش القرني والميروبالان المحروق مع الفلفل. وفي إسطنبول إوليا ثمانون كحّالاً في أربعين دكاناً، يعرضون في الموكب أدهانهم ومكاحلهم وآلاتهم تحت راية الكحّال باشي خلف الحكيم باشي."
+  en: "The kahhal is the eye-doctor: he treats films, pterygia and ophthalmia, and compounds the kuhls and collyria. Ibn al-Ukhuwwa and al-Shayzari order the muhtasib to examine the oculists on Hunayn ibn Ishaq's 'Ten Treatises on the Eye': whoever knows the eye's seven layers, its three humours, the three diseases and their ramifications, and how to compound the kuhls and mix the drugs, is licensed to treat eyes; he must not neglect the instruments of his craft — hooks for removing sabal and pterygium, a scour for scabs, lancets for bleeding, and a case of kuhl-pencils. Both manuals warn against the oculists of the roads, who have neither honesty nor experience: they make salves of starch and gum dyed red with vermilion, green with turmeric and indigo, black with acacia-pods and yellow with saffron, or pastes of the horned poppy and of burnt myrobalan stones with pepper. In Evliya's Istanbul eighty oculists keep forty shops and show their unguents, collyria and instruments on litters in the procession, under the kohhal-bashı behind the hekimbaşı."
+  ur: "کحّال آنکھوں کا معالج ہے: پردے، ناخونے اور رمد کا علاج کرتا، سرمے اور انجن ترکیب دیتا ہے۔ ابن الاخوہ اور الشیزری محتسب کو حکم دیتے ہیں کہ کحّالوں کا امتحان حنین بن اسحاق کی «عین کے دس مقالات» پر لے: جو آنکھ کی سات تہیں، تین اخلاط، تین بیماریاں اور ان کی شاخیں جانتا ہو اور سرمے ترکیب دینا اور ادویہ ملانا آتا ہو، اسے علاج کی اجازت ملے؛ اور اسے اپنے پیشے کے اوزار — صبل اور ناخونہ اُتارنے کی آؤڑیں، خربچ اترنے کا آلہ، فصد کے نشر اور سرما دان — فراموش نہ کرنے چاہئیں۔ دونوں کتابیں راہ چلتے کحّالوں سے خبردار کرتی ہیں کہ نہ ان میں دیانت ہے نہ تجربہ: نشاستے اور گوند کے سرمے بناتے اور زنجفر سے سرخ، ہلدی و نیل سے سبز، ببول کی پھلیوں سے سیاہ اور زعفران سے پیلے رنگتے، یا سیرے والے خشخاش اور جلے ہرے کے گولیوں اور مرچ کے انجن بناتے ہیں۔ اولیاء چلبی کے استنبول میں اسی کحّال چالیس دکانوں میں ہیں اور جلوس میں سواریاں پر اپنے انجن، سرمے اور اوزار دکھاتے، کحّال باشی کے تحت حکیم باشی کے پیچھے چلتے ہیں۔"
+domain: medicine-care
+kind: medical
+hirfa: true
+era:
+  origins: pre-islamic
+  status_today: transformed
+  successor_jobs: []
+places:
+  - { place: place/cairo, note: "Ibn al-Ukhuwwa's muhtasib examines the oculists on Hunayn's Ten Discourses on the Eye, licenses only those who know the seven layers, three humours and three diseases of the eye and the compounding of kuhls, and is to stop the itinerant eye-doctors' frauds.", sources: [source/ibn-ukhuwwa-maalim-levy] }
+  - { place: place/istanbul, note: "Evliya passes the eye-doctors (kohhal) at eighty men in forty shops, showing unguents, collyria and instruments on litters, and a hundred merchants of collyrium; they march under the kohhal-bashı behind the hekimbaşı.", sources: [source/evliya-seyahatname-hammer] }
+regions: [egypt-nile, levant-iraq, anatolia-balkans, andalus-europe, persia-central-asia]
+organization:
+  organized: guild
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people, living]
+periods: [period/crusades-ayyubid-mamluk, period/gunpowder-empires]
+sources: [source/ibn-ukhuwwa-maalim-levy, source/shayzari-nihaya-buckley, source/evliya-seyahatname-hammer, source/tdv-cerrahlik]
+training:
+  mode: apprenticeship
+  certification: "Muhtasib's licence after examination on Hunayn ibn Ishaq's 'Ten Treatises on the Eye' and the compounding of kuhls"
+craft:
+  materials: []
+  techniques:
+    ar: "آلات الكحّال كما في كتابي الحسبة: شنابير لإزالة الصَّبَل والظفرة عن بياض العين، وكاشطة لإزالة القشور عن الأجفان من داخلها، ومباضع للفصد، وعلبة لمكاحل الكحل. ومن غشّ المتجوّلين: شياف أساسه نشا وصمغ يُصبغ بالزنجفر أحمر وبالكركم والنيلة أخضر وبعصارة قرن الأكاسيا أسود وبالزعفران أصفر، وشيافات من الخشخاش القرني بعجينة الصمغ، وكحل من أحجار الميروبالان المحروقة والفلفل."
+    en: "The oculist's kit in the hisba books: hooks for removing the sabal film and the pterygium from the white of the eye, a scour for lifting the rust-like scabs inside the lids, lancets for bleeding, and a case of kuhl-pencils. The itinerants' frauds: salves on a base of starch and gum dyed red with vermilion, green with turmeric and indigo, black with the juice of acacia-pods and yellow with saffron; pastes of the horned poppy; and kuhls of burnt myrobalan stones with pepper."
+    ur: "حسبہ کی کتابوں میں کحّال کے اوزار: آنکھ کی سفیدی سے صبل کا پردہ اور ناخونہ اُتارنے کی آؤڑیں، پلکوں کے اندر کی زنگ نما خربچ اترنے کا آلہ، فصد کے نشر اور سرمہ دان۔ راہ چلتوں کے دھوکھے: نشاستہ اور گوند کی بنیاد کے انجن جنھیں زنجفر سے سرخ، ہلدی و نیل سے سبز، ببول کی پھلی کے رس سے سیاہ اور زعفران سے پیلا رنگتے ہیں؛ سیرے والے خشخاش کے گوند ملے انجن؛ اور جلے ہرے کے گولیوں اور مرچ کے سرمے۔"
+  guild:
+    bodies: []
+    shaykh_title: { ar: "كحّال باشي ⁦(رئيس الكحّالين)⁩", en: "kohhal-bashı — the head of the oculists", ur: "کحّال باشی ⁦(کحّالوں کا سردار)⁩" }
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-med-1" }
+provenance:
+  layer: own-research
+  source: "Ibn al-Ukhuwwa/Levy ch. XLV pp. 58-59 (oculists); al-Shayzari/Buckley ch. 37 pp. 115-117 (eye-doctors); Evliya/Hammer vol. 1 pt. 2 secs. 53-54, 59 pp. 117-118; TDV 'CERRAHLIK' section I (kehhâller as eye surgeons in Turkish hospitals) — read on 16 Nov 2026"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-med-1-drafting"
