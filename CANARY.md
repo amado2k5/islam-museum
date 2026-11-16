@@ -15,6 +15,7 @@ open a new block on top with the new version and today's date.
 
 ## v2.10.0 — 2026-11-17
 ### Added
+- Modern-figures wave 203, section C: two Turkish-scene group records from the wave-202 Tier 2 re-check — MyMecra (1.27M subscribers) and Semerkand TV (421K on its former-handle channel, now presented as KEFTV) — each with Arabic, English and Urdu pages and dated channel counts.
 - Job Browser linking wave 36: 29 `occupations:` edges on 25 person records — twelve emirs, eight muhaddiths, plus alim, faqih, mutakallim, mufti and qadi links.
 
 ## v2.09.0 — 2026-11-17
