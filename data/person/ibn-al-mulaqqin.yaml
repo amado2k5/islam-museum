@@ -18,6 +18,17 @@ regions: [egypt-nile]
 periods: [period/mongol-post-mongol]
 born: { edtf: "1323-03", hijri: "0723-03", calendar: julian, precision: month, status: tradition, derived: true, note: "يوم السبت رابع عشر ربيع الأول سنة ثلاث وعشرين وسبعمائة بالقاهرة {cite:shadharat-dhahab 7/44}؛ مولده سنة ثلاث وعشرين {cite:durar-kamina-jil-1993 dhayl p. 123}؛ التحويل مشتق.", sources: [source/shadharat-dhahab, source/durar-kamina-jil-1993] }
 died: { edtf: "1401-10-13", hijri: "0804-03-06", calendar: julian, precision: day, status: tradition, derived: true, note: "مات في سادس شهر ربيع الأول بالقاهرة سنة ٨٠٤هـ ودفن على والده بحوش الصوفية خارج باب النصر {cite:shadharat-dhahab 7/45}؛ مات في شهر ربيع الأول وعاش إحدى وثمانين سنة {cite:durar-kamina-jil-1993 dhayl p. 123}؛ التحويل مشتق.", sources: [source/shadharat-dhahab, source/durar-kamina-jil-1993] }
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 32"
+    sources: [source/viaf-cluster-90050738, source/shadharat-dhahab, source/durar-kamina-jil-1993, source/biblissima]
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'jurist', Job Browser linking wave 32"
+    sources: [source/viaf-cluster-90050738, source/shadharat-dhahab, source/durar-kamina-jil-1993, source/biblissima]
 relations:
   - { type: born_in, target: place/cairo, sources: [source/shadharat-dhahab], note: "فولد له بها سراج الدين هذا {cite:shadharat-dhahab 7/44}" }
   - { type: died_in, target: place/cairo, sources: [source/shadharat-dhahab], note: "مات بالقاهرة ودفن بحوش الصوفية خارج باب النصر {cite:shadharat-dhahab 7/45}" }

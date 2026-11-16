@@ -23,6 +23,17 @@ periods: [period/buyid-seljuk-fatimid-era]
 themes: [scripture-and-its-sciences]
 inventions:
   - { invention: invention/ibn-hibban-hadith-classification, role: inventor, note: "Bounded five-division, four-hundred-type classification of the hadith corpus arranged in his preface; no universal-priority claim over earlier hadith orderings.", sources: [source/sahih-ibn-hibban-shakir-maarif-v1] }
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 32"
+    sources: [source/wafayat-ayan, source/mizan-itidal-bijawi-v3, source/sahih-ibn-hibban-shakir-maarif-v1, source/openiti-corpus, source/wikidata]
+  - job: job/qadi
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'qadi', Job Browser linking wave 32"
+    sources: [source/wafayat-ayan, source/mizan-itidal-bijawi-v3, source/sahih-ibn-hibban-shakir-maarif-v1, source/openiti-corpus, source/wikidata]
 relations:
   - { type: lived_in, target: place/bust, sources: [source/mizan-itidal-bijawi-v3] }
   - { type: lived_in, target: place/nishapur, sources: [source/mizan-itidal-bijawi-v3] }
