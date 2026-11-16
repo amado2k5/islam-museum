@@ -20,6 +20,7 @@ open a new block on top with the new version and today's date.
 ## v1.42.0 — 2026-11-16
 ### Added
 - Four more Inventions Browser records from harvested sources (Carter on printing and paper, Ukers on coffee, Ibn Abi Usaybi'a on the 931 licensing, a Federal Reserve paper on the cheque, al-Khwarizmi's Mafatih al-Ulum), each with Arabic, English and Urdu prose: Samarqand papermaking and the paper revolution; coffee in Yemen and its Sufi institutionalisation; the sakk payment order ancestor of the cheque; and the Baghdad physician licensing of 931.
+- Four more Indonesian and Malaysian figures join the modern-figures collection, each with Arabic, English and Urdu prose and its sources showing: the Malaysian preacher Kazim Elias, the Rumaysho teacher Muhammad Abduh Tuasikal, the sholawat singer Habib Syech bin Abdul Qadir Assegaf, and the writer-preacher Salim A. Fillah (wave 200, section B).
 
 ## v1.41.0 — 2026-11-16
 ### Added

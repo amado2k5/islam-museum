@@ -1,0 +1,47 @@
+id: person/kazim-elias
+education:
+  did_you_know:
+    ar: "كاظم إلياس داعية ماليزي مستقل وُلد في فيراك سنة 1972، أسّس مركز البركة التعليمي في إيبوه ويرأسه، واشتهر في ماليزيا بمحاضراته المرحة ذات الموضوعات الأسرية والتحفيزية."
+    en: "Kazim Elias is a Malaysian independent preacher born in Perak in 1972; he founded and heads the Al Barakah Education Centre in Ipoh and is known across Malaysia for his humorous, family-themed lectures."
+    ur: "کاظم الیاس، ملائیشیا کے آزاد مبلغ جو 1972ء میں پیراک میں پیدا ہوا، ایپوہ میں البرکہ تعلیمی مرکز کا بانی اور سربراہ ہے اور اپنے پُرمزاح، خاندانی موضوعات والے خطبات کے لیے پورے ملائیشیا میں جانا جاتا ہے۔"
+    sources: [source/wikipedia-kazim-elias-en, source/wikipedia-kazim-elias-ms]
+class: person
+label: { ar: "كاظم إلياس", en: "Kazim Elias", ur: "کاظم الیاس" }
+names:
+  - { value: "محمد كاظم بن إلياس", kind: full }
+  - { value: "Mohammad Kazim bin Elias", kind: full }
+  - { value: "Kazim Elias", kind: alternate }
+  - { value: "Ustaz Kazim Elias", kind: alternate }
+  - { value: "DUKE", kind: alternate }
+gender: male
+summary:
+  ar: "داعية ماليزي مستقل وكاتب ومحاضر، وُلد في 28 نوفمبر 1972 في مقيم سلاما بولاية فيراك. أسّس مركز البركة التعليمي في إيبوه ويرأسه، وهو مركز لتحفيظ القرآن والدراسات الدينية قاعدةً لدعوته. عُرف بأسلوب مرح ميسّر في المحاضرة وبموضوعات الأسرة والتحفيز، وبحضور واسع في التلفزيون والإذاعة الماليزيين ووسائل التواصل؛ بلغ حسابه في إنستغرام 1,009,954 متابعًا بحسب إحصاءات SPEAKRJ المؤرخة في 3 نوفمبر 2026."
+  en: "Malaysian independent preacher, writer and lecturer, born on 28 November 1972 in Mukim Selama, Perak. He founded and heads the Al Barakah Education Centre in Ipoh, a tahfiz and religious-studies centre that is the base of his preaching. He is known for a relaxed, humorous lecture style and for family and motivation themes, with a wide presence on Malaysian television and radio and on social media; his Instagram account counted 1,009,954 followers by SPEAKRJ statistics dated 3 November 2026."
+  ur: "ملائیشیا کے آزاد مبلغ، مصنف اور مدرس، جو 28 نومبر 1972ء کو پیراک کے موکیم سلاما میں پیدا ہوا۔ اس نے ایپوہ میں البرکہ تعلیمی مرکز قائم کیا اور اس کا سربراہ ہے، جو تحفیظ و دینی تعلیم کا مرکز اور اس کی دعوت کی بنیاد ہے۔ وہ اپنے سہل اور پُرمزاح اندازِ خطابت اور خاندانی و تحریکی موضوعات کے لیے جانا جاتا ہے، اور ملائیشیائی ٹیلی ویژن، ریڈیو اور سوشل میڈیا پر اس کی وسیع موجودگی ہے؛ اس کے انسٹاگرام اکاؤنٹ کے فالوور SPEAKRJ کے 3 نومبر 2026ء کے اعداد و شمار کے مطابق 1,009,954 تھے۔"
+roles: [preacher, writer, presenter]
+wings: [people, living]
+regions: [southeast-asia]
+born:
+  edtf: "1972-11-28"
+  calendar: gregorian
+  precision: day
+  status: historical
+  note: "The English article gives Mukim Selama, Perak; the Malay article gives the fuller Kampung Paya, Batu Kurau, Mukim Selama, Perak; Wikidata gives the date."
+  sources: [source/wikipedia-kazim-elias-en, source/wikipedia-kazim-elias-ms, source/wikidata-kazim-elias]
+relations:
+  - { type: born_in, target: place/perak, sources: [source/wikipedia-kazim-elias-en, source/wikipedia-kazim-elias-ms] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The English Wikipedia infobox gives his religion as Islam only; the Malay article and his Wikidata item name no school or order, and no prose source read in this build names one for him. Under this lane's two-source rule his school therefore stays unknown."
+    sources: [source/wikipedia-kazim-elias-en, source/wikipedia-kazim-elias-ms, source/wikidata-kazim-elias]
+reach:
+  - { platform: instagram, metric: followers, value: 1009954, date: "2026-11-03", note: "@datoustazkazim (handle confirmed by his Wikidata item Q12697956): 1,009,954 followers by SPEAKRJ live statistics dated 3 November 2026, as read by the wave-200 harvest on 15 November 2026; a direct re-read in this build was refused by the tracker's bot wall, so the harvest's dated read is the observation of record. The figure is a dated platform count, not a museum-verified fact", sources: [source/speakrj-kazim-elias] }
+external_ids: { wikidata: "Q12697956" }
+sources: [source/wikipedia-kazim-elias-en, source/wikipedia-kazim-elias-ms, source/wikidata-kazim-elias, source/speakrj-kazim-elias, source/astro-awani-kazim-elias]
+provenance:
+  layer: own-research
+  source: "Built from the wave-200 (Indonesian/Malay scene) harvest §2.5 and build-time checks of 15 November 2026: English Wikipedia 'Kazim Elias' (revision of 14 June 2026), Malay Wikipedia 'Mohammad Kazim Elias' (revision of 7 September 2026; 'Kazim Elias' is a redirect to it), Wikidata Q12697956, SPEAKRJ live statistics for @datoustazkazim dated 3 November 2026, and Astro Awani's coverage. Qualification rests on his Instagram: 1,009,954 followers (SPEAKRJ, dated 3 November 2026) — above the men's bar; the harvest also recorded Facebook at 1.9M followers from a 2024 UiTM journal table and a February 2026 post carrying '2.1M followers' metadata, neither of which is printed as a reach entry here because neither was re-read in this build. The two screen flags ride on the record exactly as attributed press reporting, per the harvest: Astro Awani reported (November 2022) that he withdrew as the Barisan Nasional parliamentary candidate for Larut, and Astro Awani reported that he denied a molestation allegation connected to his tahfiz school — the allegation is press-reported and denied by him, and no verdict is stated in the museum's voice. No school is named for him by any source read, so his faith stays unknown. De-duplicated against the tree: kazim-jawad-al-arada and the classical Kazim namesakes are different people."
+  generated_by: "Muse (Muse Wonder)"
+  run: modern-figures-wave-200-B
+status: { review: published, completeness: 2 }
