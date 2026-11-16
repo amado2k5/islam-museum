@@ -1,0 +1,10 @@
+---
+id: concept/tashrih-al-fam-wa-al-lisan
+lang: en
+source_lang: ar
+translators: [ai]
+---
+## The mouth's place and benefit
+The mouth is a necessary organ for conveying nourishment to the lower cavity, shares in conveying air to the upper cavity, and serves to cast out the wastes gathered at the mouth of the stomach when their downward expulsion is impossible or hard; it is the general vessel of the organs of speech in man, and of vocalisation in the other voiced animals from the blast {cite:canon-ibn-sina-print-v2 p.253}
+## The tongue's structure
+The tongue is an organ among the instruments that turn the chewed food, cut the voice and bring out the letters, and to it belongs the discernment of taste; the skin of its lower surface is continuous with the skin of the oesophagus and the inside of the stomach, and the skin of the palate is halved beside the sagittal suture with sharing between them in ligaments and connection. The best tongue for well-formed speech is the one moderate in length and breadth tapering at its tip; were it very great and wide, or small like the convulsed, its owner would not be capable of speech. The tongue's substance is soft white flesh wrapped round by small interlaced blood vessels that redden it, some veins and some arteries, and it has many nerves branching from four emergent nerves already named in the anatomy of the nerves, and it has more vessels and nerves than its like would suggest. Beneath it are two openings admitting the probe, the source of the saliva, leading to the glandular flesh at its root called the saliva-begetter; these two springs are called the two saliva-pourers and keep the tongue's moistness. The membrane running on it is continuous with the membrane of the whole mouth and with the oesophagus and the stomach, and under the tongue are two great greenish veins from which many vessels spread, called the sardayn (the palate is the roof of the throat and the sardayn are two veins under the tongue, by the copyists' explanation) {cite:canon-ibn-sina-print-v2 p.253}

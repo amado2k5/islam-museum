@@ -1,0 +1,33 @@
+id: concept/baqa-al-fam-maftuhan
+class: concept
+kind: scientific
+label:
+  ar: بقاء الفم مفتوحاً
+  en: The mouth staying open
+  ur: منہ کا کھلا رہنا
+summary:
+  ar: الفم يبقى مفتوحاً إما لشدة الحاجة إلى التنفس العظيم أو للالتهاب الملهب أو للضيق والخناق أو لضعف عضل الفم فلا تعمل عملها في النوم وذلك في الأمراض الحادة رديء وأما ألوان اللسان وعند ذكر الأمراض الحادة {cite:canon-ibn-sina-print-v2 p.265}
+  en: 'The mouth stays open either from the great need for strong breathing, or for an inflamed inflammation, or for straitness and quinsy, or for weakness of the mouth''s muscles so they do not do their work in sleep — and that in the acute diseases is a bad sign; the tongue''s colours are treated where the acute diseases are told {cite:canon-ibn-sina-print-v2 p.265}'
+  ur: 'منہ کھلا رہ جاتا ہے یا تو زور دار سانس کی شدید ضرورت سے، یا بھڑکتی ہوئی سوزش سے، یا تنگی اور گھٹن سے، یا منہ کے پٹھوں کی کمزوری سے کہ وہ نیند میں اپنا کام نہیں کرتے — اور یہ حاد امراض میں برا ہے؛ اور زبان کے رنگوں کا ذکر وہاں ہے جہاں حاد امراض بیان ہوتے ہیں {cite:canon-ibn-sina-print-v2 p.265}'
+wings:
+- living
+tags:
+- tibb-browser
+- tibb-tibb
+sources:
+- source/canon-ibn-sina-print-v2
+relations:
+- type: part_of
+  target: concept/disease
+  sources:
+  - source/canon-ibn-sina-print-v2
+provenance:
+  layer: own-research
+  source: Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 6 (the mouth and the tongue, one maqala), scan page 265, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json, copied to /tmp before reading); editor footnotes used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping, cautery and operative sites and application methods left out; the frenum-cutting, the thread-needling and the hand-works carried only as the book's descriptions, not as procedures; unclear OCR words carried as printed, not guessed; case reports and named attributions carried as the book's attributions and labelled; animal-derived lines kept only as labelled listings set aside for the founder's ruling
+  generated_by: Devin subagent (SWE-2 Medium, Lane A4 worker)
+  model: swe-2-medium
+  run: a4-canon-book3-13
+status:
+  review: published
+  completeness: 1
+  generated_by: Devin subagent (SWE-2 Medium, book mining, lane A4)

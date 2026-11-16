@@ -76,3 +76,9 @@ Pleiades, the open gazetteer of ancient places, lists this place under the title
 
 ## In the iDAI.gazetteer
 The iDAI.gazetteer lists this place under no. 2280212 with the preferred name «Aleppo», classed as populated place; its parent in the hierarchy is «Nahiyat Markaz Jabal Samʿan». Recorded names include «Halep», «Beroea» and «Ḩalab». {cite:idai-gazetteer 2280212}
+
+## In Yaqut's Mu'jam al-buldan
+Yaqut records Halab with haraka; a great, wide city of many blessings, sweet air, healthy soil and water, qasaba of the jund of Qinnasrin in his day. Halab in the language is the masdar of "I milked", also milk itself, and a levy like sadaqa. Al-Zajjaji said it was named because Ibrahim used to milk his flocks there on Fridays and give it away, the poor crying "halab, halab"; Yaqut remarks "there is room for doubt here", for Ibrahim and the people of Syria in his day were not Arabs — Arabic belongs to the sons of his son Isma'il and Qahtan — though if the word had a root in Hebrew or Syriac that would pass, so much of their speech resembling Arabic. Others said Halab, Hims and Bardha'a were brothers of the Amaliq, each founding a city named for him; he records the mountain of Banu Sanam, worshipped at the place known today as Kafr Nabu, and that Halab ibn al-Mihr of the Amaliq marked out the city which was named for him, with the ancients' chronologies he transmits. {cite:mujam-al-buldan-sader-1995 2 p.282-283}
+
+## The museum's identification
+The record's Aleppo is Yaqut's own qasaba of jund Qinnasrin. All the naming stories are carried with their tellers — al-Zajjaji's milking of Ibrahim, the Amaliq brothers — and his own reservation "there is room for doubt" is kept with the report; the Banu Sanam and Kafr Nabu material belongs to the entry, not the museum's inference.
