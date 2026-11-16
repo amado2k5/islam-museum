@@ -1,0 +1,42 @@
+id: job/rawi
+class: job
+label: { ar: "الراوية", en: "Poetry transmitter (rawi)", ur: "راوی ⁦(شعر)⁩" }
+names:
+  - { value: "رواة", kind: alternate }
+  - { value: "râvî", kind: latinized, lang: tr }
+  - { value: "ruvât", kind: alternate, lang: tr }
+summary:
+  ar: "الراوية من حفظ ما سمعه وأدّاه بألفاظ الأداء المتعارفة. في الشعر العربي القديم كان لكل شاعر راوية أو رواة خاصون يحفظون شعره ويبلّغونه بمنهج الأستاذ والتلميذ حتى صارت الرواية مدرسة ذات تقاليد. وفي علم الحديث هو من تعلّم الحديث ونقله بسنده، ووُضعت لقبول روايته شرطتا العدالة والضبط، فمن استوفاهما سُمّي ثقةً، وصنّف العلماء الرواة طبقات: الصحابة ثم التابعون ثم تابعوهم، وأحصى الذهبي نحو ٢٤٢٤ راوياً وحافظاً حتى عصره في ثمانٍ وعشرين طبقة."
+  en: "The rawi is the one who learns what he hears and passes it on with the received formulas of transmission. In ancient Arabic poetry every poet had his own râvî or râvîs who memorised and carried his verse by a master-apprentice method, until râvilik became a school with its own tradition. In the science of hadith the râvî is the one who learns a report and transmits it with its isnad; the scholars tested him by two qualities, adala (uprightness) and dabt (precision), and the one who fulfilled both was called thiqa (trustworthy). They arranged the transmitters in generations — Companions, Followers, then the followers of the Followers — and al-Dhahabi counted some 2,424 hadith memorisers and transmitters down to his own age in twenty-eight ranks."
+  ur: "راوی وہ ہے جو سنا ہوا متن حفظ کر کے روایت کے مستقر الفاظ کے ساتھ آگے منتقل کرے۔ قدیم عربی شاعری میں ہر شاعر کا اپنا راوی یا راویاں ہوتے جو استاد شاگرد کے طریقے سے اس کا کلام یاد کر کے پہنچاتے، یہاں تک کہ روایت ایک روایت والا مکتب بن گئی۔ علم حدیث میں راوی وہ ہے جو حدیث سیکھ کر اسے سند سمیت نقل کرے؛ علماء نے اسے عدالت اور ضبط دو صفات سے آزمایا اور دونوں پوری کرنے والے کو ثقہ کہا، اور راووں کو طبقات میں رکھا: صحابہ، تابعین، تبع تابعین؛ ذہبی نے اپنے زمانے تک تقریباً ۲۴۲۴ حفاظ و راووں کو اٹھائیس طبقوں میں گنا۔"
+domain: arts-letters
+kind: artistic
+hirfa: false
+broader: job/poet
+era:
+  origins: pre-islamic
+  status_today: transformed
+places:
+  - { place: place/mecca, note: "From the first generations the Companions counted it a religious duty to pass on what they had heard from the Prophet; the entry names Abdullah ibn Amr ibn al-As, Ibn Abbas, Ibn Umar, Abu Sa'id al-Khudri, Jabir ibn Abdullah and Anas ibn Malik among the Companions who laboured to preserve the reports against fabrication.", sources: [source/tdv-ravi] }
+  - { place: place/medina, note: "The Followers' generation — Abu al-Aliya al-Riyahi, Sa'id ibn al-Musayyib, Ibrahim al-Nakha'i, al-Sha'bi and Muhammad ibn Sirin among them — began asking for the isnad and investigating the standing of the râvîs.", sources: [source/tdv-ravi] }
+  - { place: place/baghdad, note: "Through the second century the hadith authorities — Ibn Shihab al-Zuhri, Malik ibn Anas, Sufyan al-Thawri, al-Shafi'i and their peers — travelled to learn reports from living râvîs, and biographical literature grew up to test their reliability.", sources: [source/tdv-ravi] }
+regions: [arabia, levant-iraq, egypt-nile, maghreb, andalus-europe, persia-central-asia, anatolia-balkans, south-asia, global]
+organization:
+  organized: informal
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people]
+periods: [period/pre-islamic-arabia, period/prophetic-era, period/rashidun, period/umayyad, period/abbasid-early, period/abbasid-fragmentation, period/buyid-seljuk-fatimid-era, period/crusades-ayyubid-mamluk]
+sources: [source/tdv-ravi, source/tdv-siir]
+training:
+  mode: ijaza-chain
+  certification: "The transmitter's warrant was the chain itself: a report counted only when received by one of the eight recognised ways of tahammul (receiving) from the traditionists, and the râvî's own reliability was fixed by the two tests of adala — Muslim, adult, sane, God-fearing and free of bad conduct — and dabt, perfect memorisation or carefully checked and preserved writing with no change of meaning."
+  duration: "Lifelong. The entry describes students seeking out living râvîs and facing every hardship to learn the report from them; in the poetry tradition the râvî attached himself to one poet, memorised his verse and transmitted it as his recognised bearer."
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-arts-1" }
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi, 'RÂVİ' (Efendioğlu, 2007) and 'ŞİİR' (Örs; Okay & Kahraman; Kanar; Kurtuluş; Durmuş, 2010), web editions read on 16 Nov 2026"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-arts-1-drafting"
