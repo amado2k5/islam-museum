@@ -26,6 +26,8 @@ open a new block on top with the new version and today's date.
 ## v2.22.0 — 2026-11-17
 ### Added
 - Job Browser linking wave 48: 33 `occupations:` edges on 25 person records — finishes the grammarian and mufti pools (Ibn Khalawayh, Mufti Ghulam Sarwar Lahori) plus six commanders and poet, alim, historian links.
+- Ukhuwwa Browser (متصفح الأخوة في الإسلام): a new trilingual browser for brotherhood — including sisterhood — in Islam at `/{lang}/ukhuwwa/`, with a guarded-lexicon detector over every compiled passage (Qur'an, Sunnah, seerah, books; ≈444 records in six topical families), a `UkhuwwaBonds` signature view over `sibling_of` edges and the mu'akhat event, five new cited concept records (mu'akhat, love for God's sake, brothers' rights, altruism, mutual hatred and estrangement) plus two mu'akhat pair event records, an Explore-menu entry, a landing-page card and `/api/v1/ukhuwwa.json`. Future harvested books enter automatically.
+
 
 ## v2.21.0 — 2026-11-17
 ### Added
