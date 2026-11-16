@@ -1,0 +1,39 @@
+id: person/fatih-citlak
+class: person
+label: { ar: "فاتح تشيتلاك", en: "Fatih Çıtlak", ur: "فاتح چتلاک" }
+names:
+  - { value: "Mehmed Fatih Çıtlak", kind: full }
+  - { value: "M. Fatih Çıtlak", kind: alternate }
+  - { value: "فاتح تشيتلاك", kind: full }
+gender: male
+summary:
+  ar: "كاتب ومقدّم تلفزيوني تركي في موضوعات التصوف، وُلد سنة 1966 في حي الفاتح بإسطنبول، درس في ثانوية الفاتح للإمام الخطيب وقسم التركولوجيا بجامعة مرمرة، وألّف كتبًا في الإسلام والتصوف، وقدّم برامج إذاعية وتلفزيونية منها قراءات المثنوي وبرامج السحور، وهو رئيس دراويش فرقة إسطنبول للموسيقى التركية التاريخية التابعة لوزارة الثقافة. بلغت قناته على يوتيوب 141,000 مشترك كما في 16 نوفمبر 2026 بحسب vidIQ، وهو عدد منصّة مؤرخ لا حقيقة متحقق منها متحفيًا."
+  en: "Turkish author and television presenter on Sufi topics, born in 1966 in Istanbul's Fatih district. He studied at Fatih Imam Hatip High School and Marmara University's Turkology department, wrote books on Islam and Sufism, presented radio and television programmes including Mesnevi readings and sahur programmes, and is the head of the dervishes of the Istanbul Historical Turkish Music Ensemble affiliated with the Ministry of Culture. His YouTube channel counted 141,000 subscribers as of 16 November 2026 per vidIQ — a dated platform count, not a museum-verified fact."
+  ur: "تصوف کے موضوعات پر ترک مصنف اور ٹیلی ویژن میزبان، جو 1966ء میں استنبول کے ضلع فاتح میں پیدا ہوئے، فاتح امام خطیب ہائی سکول اور مرمرہ یونیورسٹی کے شعبۂ ترکولوجی میں پڑھا، اسلام اور تصوف پر کتابیں لکھیں، مثنوی خوانی اور سحری پروگرام پیش کیے، اور استنبول تاریخی ترک موسیقی جماعت کے درویشوں کے سربراہ ہیں۔ vidIQ کے مطابق 16 نومبر 2026ء کو ان کے یوٹیوب چینل کے سبسکرائبر 141,000 تھے — یہ ایک مؤرخہ منصّہ عدد ہے، عجائب گھر کی تصدیق شدہ حقیقت نہیں۔"
+roles: [writer, television-presenter]
+wings: [people, living]
+regions: [anatolia-balkans]
+born:
+  edtf: "1966"
+  calendar: gregorian
+  precision: year
+  status: historical
+  note: "Born in 1966 in the Fatih district of Istanbul, per the English Wikipedia article and his official website; the Wikidata item's description gives 1967, which conflicts with both, and 1966 is followed here. No source read gives a day or month, so no fuller date is recorded."
+  sources: [source/wikipedia-fatih-citlak-en, source/official-site-fatih-citlak]
+relations:
+  - { type: born_in, target: place/istanbul, sources: [source/wikipedia-fatih-citlak-en, source/official-site-fatih-citlak], note: "Born in Fatih, a district of Istanbul; the edge is written to the Istanbul place record." }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No two prose texts attest a school for Fatih Çıtlak himself. The English article's infobox records denomination, jurisprudence and creed values — structured data, which never settles faith. The prose texts read — the article's body and his official website biography — name no school; his Sufi programme topics are his professional field, his spiritual education in conversation circles is formation, and his ceremonial role in sema and devran programmes and his headship of the ensemble's dervishes are practice and office; none of these counts. Under the doubt rule the value stays unknown."
+    sources: [source/wikipedia-fatih-citlak-en, source/official-site-fatih-citlak]
+reach:
+  - { platform: youtube, metric: subscribers, value: 141000, date: "2026-11-16", note: "@mfatihcitlak: 141,000 subscribers, 29,818,379 views and 1,982 videos as of 16 November 2026 per vidIQ, recorded by the wave-203 harvest — a dated platform count, not a museum-verified fact.", sources: [source/vidiq-fatih-citlak, source/youtube-fatih-citlak] }
+external_ids: { wikidata: "Q114259154" }
+sources: [source/wikipedia-fatih-citlak-en, source/wikidata-fatih-citlak, source/official-site-fatih-citlak, source/vidiq-fatih-citlak, source/youtube-fatih-citlak]
+provenance:
+  layer: own-research
+  source: "Built from the wave-203 slice-B harvest (Fatih Çıtlak entry) and build-time checks of 16 November 2026: the English Wikipedia article 'Mehmed Fatih Çıtlak' read in full, his official website biography read in full, Wikidata item Q114259154 verified by fetching wikidata.org (three Wikipedia sitelinks; the English article was the one read, and the item's 1967 birth-year description conflicts with the article's and the official site's 1966, which is followed), and the harvest's vidIQ read of his YouTube channel @mfatihcitlak (141,000 subscribers as of 16 November 2026). Qualification rests on that dated count, above the men's bar. The designation re-screen at build found no verified link, endorsement or financial tie to any designated organisation, and no blocked organisation is named anywhere in this record. No prose text read names a school for him, so his faith stays unknown; the infobox values are recorded in the faith note as structured data only."
+  generated_by: "Muse (Muse Wonder)"
+  run: modern-figures-wave-203-b
+status: { review: published, completeness: 3 }

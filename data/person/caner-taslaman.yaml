@@ -1,0 +1,39 @@
+id: person/caner-taslaman
+class: person
+label: { ar: "جانر تسلمان", en: "Caner Taslaman", ur: "جانر تسلمان" }
+names:
+  - { value: "Caner Taslaman", kind: full }
+  - { value: "Osman Caner Uygun", kind: full }
+  - { value: "جانر تسلمان", kind: full }
+gender: male
+summary:
+  ar: "أكاديمي تركي وأستاذ فلسفة الدين في جامعة يلدز التقنية وباحث في القرآن وكاتب، وُلد سنة 1968 في إسطنبول، عُرف بكتاباته وبرامجه في العلاقة بين العلم والدين، من نظرية الانفجار العظيم وبنية القرآن إلى نظرية التطور والفيزياء الكمومية. بلغت قناته على يوتيوب 244,000 مشترك كما في 16 نوفمبر 2026 بحسب vidIQ، وهو عدد منصّة مؤرخ لا حقيقة متحقق منها متحفيًا."
+  en: "Turkish academic, professor of philosophy of religion at Yıldız Technical University, Qur'an researcher and writer, born in 1968 in Istanbul, known for his writings and programmes on the relation of science and religion, from the Big Bang theory and the structure of the Qur'an to the evolution theory and quantum physics. His YouTube channel counted 244,000 subscribers as of 16 November 2026 per vidIQ — a dated platform count, not a museum-verified fact."
+  ur: "ترک ماہرِ تعلیم، یلدز ٹیکنیکل یونیورسٹی میں فلسفۂ مذہب کے استاد، قرآن کے محقق اور مصنف، جو 1968ء میں استنبول میں پیدا ہوئے، سائنس اور مذہب کے تعلق پر اپنی تحریروں اور پروگراموں کے لیے جانے جاتے ہیں۔ vidIQ کے مطابق 16 نومبر 2026ء کو ان کے یوٹیوب چینل کے سبسکرائبر 244,000 تھے — یہ ایک مؤرخہ منصّہ عدد ہے، عجائب گھر کی تصدیق شدہ حقیقت نہیں۔"
+roles: [professor, writer]
+wings: [people, living]
+regions: [anatolia-balkans]
+born:
+  edtf: "1968"
+  calendar: gregorian
+  precision: year
+  status: historical
+  note: "Born in 1968 in Istanbul, per the English and Turkish Wikipedia articles and the Wikidata item Q20643332; no source read gives a day or month, so no fuller date is recorded."
+  sources: [source/wikipedia-caner-taslaman-en, source/wikipedia-caner-taslaman-tr, source/wikidata-caner-taslaman]
+relations:
+  - { type: born_in, target: place/istanbul, sources: [source/wikipedia-caner-taslaman-en, source/wikipedia-caner-taslaman-tr], note: "Born in Istanbul; the edge is written to the Istanbul place record." }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No two prose texts attest a school for Caner Taslaman himself. The English article's infobox records his religion as Islam and gives a denomination value, and the Turkish article's infobox characterises the views he is known for in Qur'an-centred terms — structured data and infobox characterisation, which never settle faith. The prose texts read — both articles' bodies — name no school; his formation (sociology at Boğaziçi, graduate theses at Marmara, a second doctorate at Istanbul University) is formation, and his Yıldız Technical University professorship is office; neither counts. Under the doubt rule the value stays unknown."
+    sources: [source/wikipedia-caner-taslaman-en, source/wikipedia-caner-taslaman-tr]
+reach:
+  - { platform: youtube, metric: subscribers, value: 244000, date: "2026-11-16", note: "@caner.taslaman: 244,000 subscribers, 64,461,728 views and 3,667 videos as of 16 November 2026 per vidIQ, recorded by the wave-203 harvest — a dated platform count, not a museum-verified fact.", sources: [source/vidiq-caner-taslaman, source/youtube-caner-taslaman] }
+external_ids: { wikidata: "Q20643332" }
+sources: [source/wikipedia-caner-taslaman-en, source/wikipedia-caner-taslaman-tr, source/wikidata-caner-taslaman, source/vidiq-caner-taslaman, source/youtube-caner-taslaman]
+provenance:
+  layer: own-research
+  source: "Built from the wave-203 slice-A harvest (Caner Taslaman entry) and build-time checks of 16 November 2026: the English and Turkish Wikipedia articles 'Caner Taslaman' read in full, Wikidata item Q20643332 verified by fetching wikidata.org (five Wikipedia sitelinks; the English and Turkish articles were the ones read), and the harvest's vidIQ read of his YouTube channel @caner.taslaman (244,000 subscribers as of 16 November 2026). Qualification rests on that dated count, above the men's bar. The designation re-screen at build found no verified link, endorsement or financial tie to any designated organisation, and no blocked organisation is named anywhere in this record. No prose text read names a school for him, so his faith stays unknown; the infobox denomination value is recorded in the faith note as structured data only."
+  generated_by: "Muse (Muse Wonder)"
+  run: modern-figures-wave-203-b
+status: { review: published, completeness: 3 }
