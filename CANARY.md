@@ -13,6 +13,13 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v1.55.1 — 2026-11-16
+### Added
+- Oxford Islamic Studies Online (OUP), read through Wayback Machine captures, is registered as a source family, with The Oxford Dictionary of Islam as its first work, and a general family for defunct sites preserved by the Internet Archive. Posture: facts in our own words, link-only for text, nothing captured stored. Readers can now follow citations to an entry's stable id.
+### Data
+- Eight records gained a cited section from three Oxford Dictionary of Islam entries, in Arabic, English and Urdu: the five pillars, shahada, salah, zakat, Ramadan fasting and hajj (from the entry Pillars of Islam), Ahmad Dahlan (where the Dictionary's account of his training differs from ours, shown as its own wording) and Necip Fazil Kisakurek.
+- The list of Oxford Dictionary of Islam entry ids and the archive enumeration recipe are recorded for later enrichment lanes.
+
 ## v1.55.0 — 2026-11-16
 ### Added
 - Job Browser: six ruler offices — the caliph of the hilafet, the sultan who held the sword of the state, the emir commander-governor of the provinces, the wali provincial governor, the khan of the steppe dynasties, and the shah — in Arabic, English and Urdu draft cited to the TDV entries HİLÂFET, SULTAN, EMÎR (idareci), VALİ, HAN (hükümdar) and ŞAH (hükümdar).
