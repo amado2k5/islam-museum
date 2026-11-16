@@ -1,0 +1,23 @@
+id: concept/turbud
+class: concept
+kind: natural
+label:
+  ar: "تربد"
+  en: "Turbud"
+  ur: "تربد"
+summary:
+  ar: "تربد في الكتاب قطع خشب غلاظ ودقاق يؤتى بها من الهند، أجوده الأبيض غير المسوس الملتف كأنابيب القصب الدقيقة، الأملس السريع التفتت، ويورث استعماله يبسا وجفافا في البدن لأنه يخرج الرطوبات الرقيقة، ويسهل بلغما كثيرا وشيئا من الأخلاط المحرقة قليلا إذا أخذ مسحوقا وبالعكس مطبوخا، وفي الكتاب خلاف في ما يسهله من الأخلاط {cite:canon-ibn-sina-print-v1 p.692}"
+  en: "Turbud is in the book pieces of wood, thick and thin, brought from India; the best is the white, unspoiled by worms, rolled like tubes of thin reed, smooth and quick to crumble; its use brings dryness and desiccation to the body because it draws out the thin moistures; it purges much phlegm and a little of the burnt humours when taken powdered, and the reverse when boiled, and the book gives differing views on which humours it loosens {cite:canon-ibn-sina-print-v1 p.692}"
+  ur: "تربد کتاب میں لکڑی کے موٹے اور پتلے ٹکڑے ہیں جو ہندوستان سے لائے جاتے ہیں؛ سب سے اچھا سفید ہے جسے گھن نہ لگا ہو، باریک نرکل کی نلیوں کی طرح لپٹا ہوا، ہموار اور جلد ٹوٹنے والا؛ اس کا استعمال بدن میں خشکی اور سوکھاپن لاتا ہے کیونکہ یہ پتلی رطوبتوں کو نکالتا ہے؛ پسا ہوا لیں تو بہت بلغم اور جلی ہوئی خلطوں میں سے کچھ تھوڑا دست سے نکالتا ہے اور پکا کر اس کے برعکس، اور کتاب میں اس بارے میں اختلاف ہے کہ یہ کون سی خلطیں نکالتا ہے {cite:canon-ibn-sina-print-v1 p.692}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, scan page 692, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for doubtful headings; editor footnotes used only for identity; measured doses, weights, counts, times and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-30
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

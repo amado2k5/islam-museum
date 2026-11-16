@@ -1,0 +1,23 @@
+id: concept/tanin-bahri
+class: concept
+kind: natural
+label:
+  ar: "تنين بحري"
+  en: "Tanin bahri"
+  ur: "تنین بحری"
+summary:
+  ar: "تنين بحري في الكتاب لا يذكر له وصف ولا طبع ولا اختيار، وإنما يرد في باب السموم، ينقل الكتاب عن جالينوس أنه يشق ويوضع على عضته فينفع، وأن حيوانا يقال له طريغلن يوضع على ضربة التنين البحري فينفع، وكل ذلك نقل منسوب إلى الكتاب لا توصية {cite:canon-ibn-sina-print-v1 p.689}"
+  en: "Tanin bahri is in the book given no description, temperament or choice; it appears only under poisons, where the book reports from Galen that it is split and laid on its own bite with benefit, and that an animal called tarighlin laid on the sting of the tanin bahri benefits; all of this is a report attributed to the book, not a recommendation {cite:canon-ibn-sina-print-v1 p.689}"
+  ur: "تنین بحری کتاب میں بغیر وصف، مزاج اور انتخاب کے آیا ہے؛ یہ صرف زہروں کے باب میں آتا ہے جہاں کتاب جالینوس سے نقل کرتی ہے کہ اسے چیر کر اسی کے کاٹے پر رکھا جائے تو نفع دیتا ہے، اور طریغلن نام کا ایک جانور تنین بحری کے ڈنک پر رکھا جائے تو نفع دیتا ہے؛ یہ سب کتاب سے منسوب نقل ہے، سفارش نہیں {cite:canon-ibn-sina-print-v1 p.689}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, scan page 689, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for doubtful headings; editor footnotes used only for identity; measured doses, weights, counts, times and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-30
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

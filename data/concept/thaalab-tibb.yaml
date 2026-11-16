@@ -1,0 +1,23 @@
+id: concept/thaalab-tibb
+class: concept
+kind: natural
+label:
+  ar: "ثعلب"
+  en: "Thaalab (entry on the fox)"
+  ur: "ثعلب"
+summary:
+  ar: "ثعلب في الكتاب حيوان فيه تحليل وفراؤه أسخن الفراء ينتفع بها المرطوبون لتحليلها؛ وينقل الكتاب أن طبخه في الماء أو في الزيت وطلاء المفاصل الوجعة به ينفع، وأن شحمه يسكن وجع الأذن، وأن رئته المجففة نافعة لصاحب الربو، وكل ما ورد هنا نقل منسوب إلى الكتاب لا توصية {cite:canon-ibn-sina-print-v1 p.698}"
+  en: "Tha'lab is in the book an animal with a dissolving power, its fur the hottest of furs and of use to the moist for its dissolving; the book reports that cooking it in water or in oil and applying this to painful joints benefits, that its fat calms earache, and that its dried lung is of benefit to the asthmatic; everything given here is a report attributed to the book, not a recommendation {cite:canon-ibn-sina-print-v1 p.698}"
+  ur: "ثعلب کتاب میں ایک جانور ہے جس میں تحلیل کی قوت ہے اور اس کی کھال سب کھالوں سے گرم ہے اور تر مزاج لوگ اس کی تحلیل کی وجہ سے اس سے نفع اٹھاتے ہیں؛ کتاب نقل کرتی ہے کہ اسے پانی یا تیل میں پکا کر دردناک جوڑوں پر لگانا نفع دیتا ہے، اس کی چربی کان کے درد کو تسکین دیتی ہے، اور اس کا خشک پھیپھڑا دمے کے مریض کے لیے نافع ہے؛ یہاں جو کچھ آیا وہ کتاب سے منسوب نقل ہے، سفارش نہیں {cite:canon-ibn-sina-print-v1 p.698}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, scan page 698, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for doubtful headings; editor footnotes used only for identity; measured doses, weights, counts, times and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-30
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

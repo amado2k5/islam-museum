@@ -1,0 +1,23 @@
+id: concept/tarsi
+class: concept
+kind: natural
+label:
+  ar: "ترسي"
+  en: "Tarsi"
+  ur: "ترسی"
+summary:
+  ar: "ترسي في الكتاب إحالة فقط: يقول الكتاب إنه الوسن، وإنه فرغ من بيان أفعاله في فصل الألف عند ذكره للوسن، فلا يزيد هذا الموضع على ذلك {cite:canon-ibn-sina-print-v1 p.695}"
+  en: "Tarsi is in the book a cross-reference only: the book says it is the wasan and that it has finished giving its actions in the chapter of alif at the entry for the wasan, so this place adds nothing to that {cite:canon-ibn-sina-print-v1 p.695}"
+  ur: "ترسی کتاب میں صرف حوالہ ہے: کتاب کہتی ہے کہ یہ وسن ہے اور یہ کہ اس کے افعال حرف الف کے باب میں وسن کے ذکر پر بیان کر چکی، چنانچہ یہ مقام اس پر کچھ اضافہ نہیں کرتا {cite:canon-ibn-sina-print-v1 p.695}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, scan page 695, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for doubtful headings; editor footnotes used only for identity; measured doses, weights, counts, times and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-30
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }
