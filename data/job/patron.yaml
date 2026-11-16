@@ -1,0 +1,42 @@
+id: job/patron
+class: job
+label: { ar: "الحامي ⁦(حفير القوم)⁩", en: "Protector-patron (hāmi, hafīr)", ur: "سرپرست ⁦(حامی، حفیر)⁩" }
+names:
+  - { value: "حامي", kind: alternate }
+  - { value: "hâmi", kind: latinized }
+  - { value: "hafîr", kind: latinized }
+  - { value: "حفير القوم", kind: alternate }
+  - { value: "حامي الحميى", kind: alternate }
+  - { value: "hâmi'l-humeyyâ", kind: latinized }
+summary:
+  ar: "الحامي — وقيل له حفير القوم وحامي الحميى — كان في الجاهلية من يمنح الحماية لشخص أو عائلة أو قافلة: لا سلطان مركزي في جزيرة العرب، فدخل التجار في حماية شيخ أو شريف من مشايخ القبائل على طريقهم ودفعوا «حق المرور» فيمشون آمنين في أرضها. اشترطوا أن يتكافأ طالب الحماية وحاميه شرفاً ونسباً، وتفاخرت القبائل بمن تحميهم وعدّت إجارة المستجير شرفاً للبيت، حتى عاهد أشراف مكة على أخذ حق المظلوم من الظالم في حلف الفضول الذي شهده النبي قبل البعثة. وفي الإسلام بقي الاسم: حمى أبو طالب النبي حتى مات، ودخل تحت حماية معتصم بن عدي راجعاً من الطائف، وحمى ابن الدغنة أبا بكر من المشركين حتى ردّها إليه وسكن إلى حماية الله."
+  en: "The hāmi — also hafîr, 'the people's protector', or hâmi'l-humeyyâ — was the patron who granted protection in stateless Arabia: with no central authority, merchants entered the himaye of a tribe's chief or eşraf along their route, paid the toll called hakku'l-mürûr, and crossed its lands under the patron's guarantee. Patron and protected had to match in honour and descent, tribes boasted of those they sheltered, and guarding a guest showed the house's honour; at its height the Meccan notables swore the Hilf al-Fudul to win back the wronged person's due — a pact the Prophet himself witnessed before his mission. The institution lived into Islam: Abu Talib kept the Prophet under his himaye till death, Mut'im ibn Adi took him into protection on the return from Ta'if, and Ibn al-Dughunna protected Abu Bakr until he handed the himaye back and took refuge in God's."
+  ur: "حامی — جسے حفیرِ قوم یا حامی الحمیٰ بھی کہتے تھے — بے ریاست عرب میں تحفظ دینے والا سرپرست تھا: مرکزی اختیار نہ ہونے کی وجہ سے تاجر راستے کی کسی قبیلے کے سردار یا اشراف کی حمایت میں داخل ہوتے، «حق المرور» کا محصول دیتے اور اس کی سرزمین سے امن سے گزرتے۔ سرپرست اور حمایت پانے والے میں شرافت و نسب کا توازن شرط تھا؛ قبیلے اپنے پناہ گزینوں پر فخر کرتے اور مہمان کی حفاظت گھرانے کی عزت سمجھی جاتی؛ مکہ کے سرداروں نے حلف الفضول کی قسم کھائی کہ مظلوم کا حق ظالم سے دلوائیں گے — وہ عہد جسے نبی نے بعثت سے پہلے دیکھا۔ اسلام کے زمانے میں بھی یہ مؤسسہ رہا: ابوطالب نے موت تک نبی کی حمایت کی، طائف سے لوٹتے ہوئے معطم بن عدی نے انہیں اپنے امان میں لیا، اور ابن الدغنہ نے ابوبکر کی مشرکین سے حمایت کی یہاں تک کہ ابوبکر نے حمایت لوٹا دی اور اللہ کی پناہ اختیار کی۔"
+domain: patronage-public-life
+kind: service
+hirfa: false
+era:
+  origins: pre-islamic
+  status_today: transformed
+places:
+  - { place: place/mecca, note: "The Meccan merchants had treaties with the tribes on the northern and southern caravan roads for the himaye of their caravans; the Hilf al-Fudul was sworn at Mecca to defend the wronged, Abu Talib kept the Prophet under his himaye, and Mut'im ibn Adi granted him protection so he could re-enter the city from Ta'if.", sources: [source/tdv-himaye] }
+regions: [arabia]
+organization:
+  organized: informal
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people]
+periods: [period/pre-islamic-arabia, period/prophetic-era, period/rashidun]
+sources: [source/tdv-himaye]
+training:
+  mode: hereditary-family
+  certification: "No licence: the hāmi's qualification was standing — honour and lineage had to match the person seeking protection, and the office ran in the line of tribal chiefs and eşraf. The fee was negotiated: the hakku'l-mürûr toll for passage, or the hafâre — protection for a stated price by covenant."
+  duration: "A himaye lasted as long as the passage or the need; the aman granted to a lone traveller was a bounded grant, while the pact of tribal protection could run by covenant."
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-sport-1" }
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi, 'HİMAYE' (Bozkurt, 1998), web edition read on 16 Nov 2026"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-sport-1-drafting"

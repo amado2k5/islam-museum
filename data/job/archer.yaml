@@ -1,0 +1,46 @@
+id: job/archer
+class: job
+label: { ar: "الرامي ⁦(كمانكش)⁩", en: "Archer (kemankeş)", ur: "تیر انداز ⁦(کمانکش)⁩" }
+names:
+  - { value: "رامي", kind: alternate }
+  - { value: "okçu", kind: latinized, lang: tr }
+  - { value: "kemankeş", kind: latinized, lang: tr }
+  - { value: "tîrendâz", kind: latinized, lang: tr }
+  - { value: "نبّال", kind: alternate }
+  - { value: "نشّاب", kind: alternate }
+  - { value: "solak", kind: latinized, lang: tr }
+summary:
+  ar: "الرامي صاحب القوس والسهم، وكان عند المسلمين أكثر من حرفة: ربط النبي القوة بالرمي ودعا إلى تعليم النشء إياه فاكتسب التصويب مكانة دينية، وعدّ ابن القيم الرماية فرعاً من فروع الفروسية الأربعة. وعند العثمانيين صار الكمانكش نظاماً مضبوطاً: لا يقبل أحد في سجل الرماة حتى يحقق «أخذ القبضة» ⁦(أخذ-ي قبضة)⁩ بإصابة الأهداف ورمي سهم البيشرو تسعمئة غز ⁦(gez)⁩ وسهم العزمايش ثمانمئة، وسجّل أوق ميداني أرقام المنزل بأعمدة، وكان الرماة يقرؤون الفاتحة والإخلاص ويذكرون سعد بن أبي وقاص بير الكمانكش قبل كل مباراة أو امتحان."
+  en: "The archer — the Ottoman kemankeş, tîrendâz or solak — held a calling with a religious warrant: the Prophet glossed the command to prepare strength with 'shooting', called archery a father's duty to his child, and told Sa'd ibn Abi Waqqas 'shoot, Sa'd'. Ibn Qayyim counted archery one of the four branches of furusiyya. Under the Ottomans it became a regulated discipline: no one entered the archers' register until he had 'taken the grip' (ahz-ı kabza) — hitting the targets and casting the pişrev arrow past 900 gez and the azmayiş past 800 — after which he was named a 'candidate for the record' (tâlib-i menzil). The Okmeydanı ground kept the record pillars, Evliya saw the bowmen's convent there whose patron was Sa'd ibn Abi Waqqas, and the archers' prayer over each contest joined the Companions, the three masters of the shooting manuals and the kavsnâme authors."
+  ur: "تیر انداز — عثمانی کمانکش، تیر انداز یا سولاق — ایک ایسا پیشہ تھا جسے دینی سند حاصل تھی: نبی نے «قوت» کی آیت کو رمی یعنی تیر اندازی سے بیان کیا، اسے والد کا حق قرار دیا اور سعد بن ابی وقاص سے «مارو سعد!» فرمایا۔ ابن قیم نے فروسیت کی چار شاخوں میں تیر اندازی شمار کی۔ عثمانیوں نے اسے منضبط نظام بنایا: رماوں کے رجسٹر میں داخلہ «اخذ قبضہ» پر موقوف تھا — ہدف مارنا اور پیشرو کا تیر 900 گیز اور عزمائش کا 800 گیز سے آگے پھینکنا — جس کے بعد وہ «منزل کا طالب» کہلاتا۔ اوق میدانی میں ریکارڈ کے ستون رکھتے تھے، اولیا نے وہاں تیر اندازوں کی ٹکیہ دیکھی جس کے پیر سعد بن ابی وقاص تھے، اور ہر مقابلے سے پہلے صحابہ، فنِ تیر اندازی کے تین استادوں اور قوسنامہ مصنفین کو دعاؤں میں یاد کیا جاتا۔"
+domain: sport
+kind: military
+hirfa: false
+era:
+  origins: pre-islamic
+  status_today: transformed
+places:
+  - { place: place/mecca, note: "The Prophet, himself reckoned an able bowman, told his shooting Companions to rival their ancestor Ismail, counted shooting among the lawful games, and addressed Sa'd ibn Abi Waqqas at Uhud: 'Shoot, Sa'd — may my father and mother be your ransom'.", sources: [source/tdv-ok] }
+  - { place: place/istanbul, note: "The Okmeydanı archery-ground held the menzil record pillars; Evliya walked the bowmen's convent there whose fakirs kept three arrows each left by passing bowmen, and counted Istanbul's arrow-makers at 300 in 200 shops and the bowyers at 500 in 200 shops.", sources: [source/evliya-narrative-hammer-v2, source/tdv-ok] }
+  - { place: place/edirne, note: "The arrow-heads (temren) of the Ottoman army were made at Edirne.", sources: [source/tdv-ok] }
+  - { place: place/gallipoli, note: "The arrows for the Cebeci Ocağı's supply of the army were made by the esnaf of Gallipoli and Istanbul.", sources: [source/tdv-ok] }
+regions: [arabia, anatolia-balkans, persia-central-asia, levant-iraq, egypt-nile, south-asia]
+organization:
+  organized: court-office
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people]
+periods: [period/pre-islamic-arabia, period/prophetic-era, period/umayyad, period/abbasid-early, period/abbasid-fragmentation, period/buyid-seljuk-fatimid-era, period/crusades-ayyubid-mamluk, period/mongol-post-mongol, period/gunpowder-empires, period/modern-era]
+sources: [source/tdv-ok, source/evliya-narrative-hammer-v2, source/elgood-islamic-arms-armour-1979]
+training:
+  mode: state-licence
+  certification: "The kemankeş's licence was the ahz-ı kabza, 'taking the grip': hitting the marks and casting the pişrev arrow past 900 gez and the azmayiş past 800; the licensed archer entered the archers' register and was called tâlib-i menzil or müstahıkk-ı menzil. Breaking a menzil record and raising a stone pillar were governed by their own rules."
+  duration: "The tâlimhâne drilled the solaks and kemankeşler of the kapıkulu; the tâlimhâneci instructor's duty to train them was written into the kanun."
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-sport-1" }
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi, 'OK' (Bozkurt, 2007), web edition read on 16 Nov 2026; Evliya Çelebi, Narrative of Travels vol. 2 (Hammer translation); Latham & Paterson, 'Archery in the lands of Eastern Islam', in Elgood (ed.), Islamic Arms and Armour, 1979"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-sport-1-drafting"
