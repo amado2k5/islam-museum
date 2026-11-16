@@ -1,0 +1,16 @@
+id: passage/muslim-api-2610
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2610"
+label: { ar: "صحيح مسلم 2610 — الأب والأبوة", en: "Sahih Muslim 2610 — the father and fatherhood", ur: "صحیح مسلم 2610 — باپ اور والدیت" }
+text: "حَدَّثَنِي مُحَمَّدُ بْنُ الْمُثَنَّى، حَدَّثَنَا عَبْدُ الْوَهَّابِ، - يَعْنِي ابْنَ عَبْدِ الْمَجِيدِ - حَدَّثَنَا جَعْفَرٌ، عَنْ أَبِيهِ، عَنْ جَابِرِ بْنِ عَبْدِ اللَّهِ، -ما - أَنَّ رَسُولَ اللَّهِ خَرَجَ عَامَ الْفَتْحِ إِلَى مَكَّةَ فِي رَمَضَانَ فَصَامَ حَتَّى بَلَغَ كُرَاعَ الْغَمِيمِ فَصَامَ النَّاسُ ثُمَّ دَعَا بِقَدَحٍ مِنْ مَاءٍ فَرَفَعَهُ حَتَّى نَظَرَ النَّاسُ إِلَيْهِ ثُمَّ شَرِبَ فَقِيلَ لَهُ …"
+summary:
+  ar: "حديث في صحيح مسلم، رقم 2610، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sahih Muslim, no. 2610 (The Book of Fasting), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "صحیح مسلم کی حدیث نمبر 2610، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 2610 (book 13 hadith 116); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

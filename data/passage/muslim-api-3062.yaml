@@ -1,0 +1,16 @@
+id: passage/muslim-api-3062
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "3062"
+label: { ar: "صحيح مسلم 3062 — الأب والأبوة", en: "Sahih Muslim 3062 — the father and fatherhood", ur: "صحیح مسلم 3062 — باپ اور والدیت" }
+text: "وَحَدَّثَنِي أَبُو الطَّاهِرِ، وَحَرْمَلَةُ، قَالَ أَبُو الطَّاهِرِ أَخْبَرَنَا عَبْدُ اللَّهِ بْنُ وَهْبٍ، أَخْبَرَنِي يُونُسُ، عَنِ ابْنِ شِهَابٍ، عَنْ سَالِمٍ، عَنْ أَبِيهِ، قَالَ لَمْ يَكُنْ رَسُولُ اللَّهِ يَسْتَلِمُ مِنْ أَرْكَانِ الْبَيْتِ إِلاَّ الرُّكْنَ الأَسْوَدَ وَالَّذِي يَلِيهِ مِنْ نَحْوِ دُورِ الْجُمَحِيِّينَ."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 3062، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sahih Muslim, no. 3062 (The Book of Pilgrimage), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "صحیح مسلم کی حدیث نمبر 3062، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 3062 (book 15 hadith 268); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

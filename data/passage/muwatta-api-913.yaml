@@ -1,0 +1,16 @@
+id: passage/muwatta-api-913
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "913"
+label: { ar: "موطأ مالك 913 — الأب والأبوة", en: "Muwatta Malik 913 — the father and fatherhood", ur: "موطأ مالک 913 — باپ اور والدیت" }
+text: "وَحَدَّثَنِي عَنْ مَالِكٍ، عَنْ هِشَامِ بْنِ عُرْوَةَ، عَنْ أَبِيهِ، أَنَّهُ قَالَ فِي الْبَيْتُوتَةِ بِمَكَّةَ لَيَالِيَ مِنًى لاَ يَبِيتَنَّ أَحَدٌ إِلاَّ بِمِنًى."
+summary:
+  ar: "حديث في موطأ مالك، رقم 913، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Muwatta Malik, no. 913 (Hajj), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "موطأ مالک کی حدیث نمبر 913، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 913 (book 20 hadith 209); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/muwatta-malik, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

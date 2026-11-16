@@ -1,0 +1,16 @@
+id: passage/nasai-api-5219
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "5219"
+label: { ar: "سنن النسائي 5219 — الأب والأبوة", en: "Sunan al-Nasa'i 5219 — the father and fatherhood", ur: "سنن نسائی 5219 — باپ اور والدیت" }
+text: "… أَبِي الْعَاصِ - قَالَ حَدَّثَنَا إِبْرَاهِيمُ بْنُ أَبِي الْوَزِيرِ، قَالَ حَدَّثَنَا نَافِعُ بْنُ عُمَرَ الْجُمَحِيُّ، عَنْ أَبِي بَكْرِ بْنِ أَبِي شَيْخٍ، قَالَ كُنْتُ جَالِسًا مَعَ سَالِمٍ فَمَرَّ بِنَا رَكْبٌ لأُمِّ الْبَنِينَ مَعَهُمْ أَجْرَاسٌ فَحَدَّثَ نَافِعًا سَالِمٌ عَنْ أَبِيهِ أَنَّ النَّبِيَّ قَالَ \" لاَ تَصْحَبُ الْمَلاَئِكَةُ رَكْبًا مَعَهُمْ جُلْجُلٌ \". كَمْ تَرَى مَعَ هَؤُلاَءِ مِنَ الْجُلْجُلِ."
+summary:
+  ar: "حديث في سنن النسائي، رقم 5219، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan al-Nasa'i, no. 5219 (The Book of Adornment), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "سنن نسائی کی حدیث نمبر 5219، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 5219 (book 48 hadith 180); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

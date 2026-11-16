@@ -1,0 +1,16 @@
+id: passage/nasai-api-417
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "417"
+label: { ar: "سنن النسائي 417 — الأب والأبوة", en: "Sunan al-Nasa'i 417 — the father and fatherhood", ur: "سنن نسائی 417 — باپ اور والدیت" }
+text: "حَدَّثَنَا هَنَّادُ بْنُ السَّرِيِّ، عَنْ وَكِيعٍ، عَنْ مِسْعَرٍ، وَسُفْيَانَ، عَنْ إِبْرَاهِيمَ بْنِ مُحَمَّدِ بْنِ الْمُنْتَشِرِ، عَنْ أَبِيهِ، قَالَ سَمِعْتُ ابْنَ عُمَرَ، يَقُولُ لأَنْ أُصْبِحَ مُطَّلِيًا بِقَطِرَانٍ أَحَبُّ إِلَىَّ مِنْ أَنْ أُصْبِحَ مُحْرِمًا أَنْضَخُ طِيبًا. فَدَخَلْتُ عَلَى عَائِشَةَ فَأَخْبَرْتُهَا بِقَوْلِهِ فَقَالَتْ طَيَّبْتُ رَسُولَ اللَّهِ فَطَافَ عَلَى نِسَائِهِ ثُمَّ أَصْبَحَ مُحْرِمًا."
+summary:
+  ar: "حديث في سنن النسائي، رقم 417، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan al-Nasa'i, no. 417 (The Book of Ghusl and Tayammum), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "سنن نسائی کی حدیث نمبر 417، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 417 (book 4 hadith 22); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

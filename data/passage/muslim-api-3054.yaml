@@ -1,0 +1,16 @@
+id: passage/muslim-api-3054
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "3054"
+label: { ar: "صحيح مسلم 3054 — الأب والأبوة", en: "Sahih Muslim 3054 — the father and fatherhood", ur: "صحیح مسلم 3054 — باپ اور والدیت" }
+text: "وَحَدَّثَنِي أَبُو الطَّاهِرِ، أَخْبَرَنَا عَبْدُ اللَّهِ بْنُ وَهْبٍ، أَخْبَرَنِي مَالِكٌ، وَابْنُ، جُرَيْجٍ عَنْ جَعْفَرِ بْنِ مُحَمَّدٍ، عَنْ أَبِيهِ، عَنْ جَابِرِ بْنِ عَبْدِ اللَّهِ، أَنَّ رَسُولَ اللَّهِ رَمَلَ الثَّلاَثَةَ أَطْوَافٍ مِنَ الْحَجَرِ إِلَى الْحَجَرِ."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 3054، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sahih Muslim, no. 3054 (The Book of Pilgrimage), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "صحیح مسلم کی حدیث نمبر 3054، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 3054 (book 15 hadith 260); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

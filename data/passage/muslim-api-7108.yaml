@@ -1,0 +1,16 @@
+id: passage/muslim-api-7108
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "7108"
+label: { ar: "صحيح مسلم 7108 — الأب والأبوة", en: "Sahih Muslim 7108 — the father and fatherhood", ur: "صحیح مسلم 7108 — باپ اور والدیت" }
+text: "… وَإِسْحَاقُ بْنُ إِبْرَاهِيمَ، قَالَ إِسْحَاقُ أَخْبَرَنَا وَقَالَ، عُثْمَانُ حَدَّثَنَا جَرِيرٌ، عَنْ مَنْصُورٍ، عَنْ سَالِمِ بْنِ أَبِي الْجَعْدِ، عَنْ أَبِيهِ، عَنْ عَبْدِ اللَّهِ بْنِ مَسْعُودٍ، قَالَ قَالَ رَسُولُ اللَّهِ \" مَا مِنْكُمْ مِنْ أَحَدٍ إِلاَّ وَقَدْ وُكِّلَ بِهِ قَرِينُهُ مِنَ الْجِنِّ \". قَالُوا وَإِيَّاكَ يَا رَسُولَ اللَّهِ قَالَ \" وَإِيَّاىَ إِلاَّ أَنَّ اللَّهَ أَعَانَنِي عَلَيْهِ فَأَسْلَمَ …"
+summary:
+  ar: "حديث في صحيح مسلم، رقم 7108، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sahih Muslim, no. 7108 (Characteristics of the Day of Judgment, Paradise, and Hell), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "صحیح مسلم کی حدیث نمبر 7108، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 7108 (book 52 hadith 62); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

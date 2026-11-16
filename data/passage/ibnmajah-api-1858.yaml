@@ -1,0 +1,16 @@
+id: passage/ibnmajah-api-1858
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "1858"
+label: { ar: "سنن ابن ماجه 1858 — الأب والأبوة", en: "Sunan Ibn Majah 1858 — the father and fatherhood", ur: "سنن ابن ماجہ 1858 — باپ اور والدیت" }
+text: "حَدَّثَنَا يَحْيَى بْنُ حَكِيمٍ، حَدَّثَنَا يَحْيَى بْنُ سَعِيدٍ، عَنْ عُبَيْدِ اللَّهِ بْنِ عُمَرَ، عَنْ سَعِيدِ بْنِ أَبِي سَعِيدٍ، عَنْ أَبِيهِ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ رَسُولَ اللَّهِ ـ قَالَ \" تُنْكَحُ النِّسَاءُ لأَرْبَعٍ لِمَالِهَا وَلِحَسَبِهَا وَلِجَمَالِهَا وَلِدِينِهَا. فَاظْفَرْ بِذَاتِ الدِّينِ تَرِبَتْ يَدَاكَ \"."
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 1858، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan Ibn Majah, no. 1858 (The Chapters on Marriage), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 1858، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 1858 (book 9 hadith 14); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

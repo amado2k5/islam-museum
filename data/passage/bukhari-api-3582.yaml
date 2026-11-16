@@ -1,0 +1,16 @@
+id: passage/bukhari-api-3582
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "3582"
+label: { ar: "صحيح البخاري 3582 — تربية الأب ووصيته", en: "Sahih al-Bukhari 3582 — the father raising and counselling", ur: "صحیح بخاری 3582 — باپ کی تربیت اور نصیحت" }
+text: "… فَهَاجَتْ رِيحٌ أَنْشَأَتْ سَحَابًا ثُمَّ اجْتَمَعَ، ثُمَّ أَرْسَلَتِ السَّمَاءُ عَزَالِيَهَا، فَخَرَجْنَا نَخُوضُ الْمَاءَ حَتَّى أَتَيْنَا مَنَازِلَنَا، فَلَمْ نَزَلْ نُمْطَرُ إِلَى الْجُمُعَةِ الأُخْرَى، فَقَامَ إِلَيْهِ ذَلِكَ الرَّجُلُ ـ أَوْ غَيْرُهُ ـ فَقَالَ يَا رَسُولَ اللَّهِ، تَهَدَّمَتِ الْبُيُوتُ، فَادْعُ اللَّهَ يَحْبِسْهُ. فَتَبَسَّمَ ثُمَّ قَالَ \" حَوَالَيْنَا وَلاَ عَلَيْنَا \". فَنَظَرْتُ إِلَى السَّحَابِ تَصَدَّعَ حَوْلَ الْمَدِينَةِ كَأَنَّهُ إِكْلِيلٌ."
+summary:
+  ar: "حديث في صحيح البخاري، رقم 3582، يذكر تربية الأب ووصيته. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sahih al-Bukhari, no. 3582 (Virtues and Merits of the Prophet (pbuh) and his Companions), that mentions the father raising and counselling. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "صحیح بخاری کی حدیث نمبر 3582، جس میں باپ کی تربیت اور نصیحت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 3582 (book 61 hadith 91); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

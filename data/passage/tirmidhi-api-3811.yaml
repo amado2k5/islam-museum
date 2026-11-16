@@ -1,0 +1,17 @@
+id: passage/tirmidhi-api-3811
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "3811"
+label: { ar: "جامع الترمذي 3811 — الأب والأبوة، النسب والانتساب", en: "Jami' al-Tirmidhi 3811 — the father and fatherhood; paternity and lineage", ur: "جامع ترمذی 3811 — باپ اور والدیت، نسب اور انتساب" }
+text: "… الْخَيْرَ وَأَطْلُبُهُ. قَالَ أَلَيْسَ فِيكُمْ سَعْدُ بْنُ مَالِكٍ مُجَابُ الدَّعْوَةِ وَابْنُ مَسْعُودٍ صَاحِبُ طَهُورِ رَسُولِ اللَّهِ وَنَعْلَيْهِ وَحُذَيْفَةُ صَاحِبُ سِرِّ رَسُولِ اللَّهِ وَعَمَّارُ الَّذِي أَجَارَهُ اللَّهُ مِنَ الشَّيْطَانِ عَلَى لِسَانِ نَبِيِّهِ وَسَلْمَانُ صَاحِبُ الْكِتَابَيْنِ. قَالَ قَتَادَةُ وَالْكِتَابَانِ الإِنْجِيلُ وَالْقُرْآنُ. هَذَا حَدِيثٌ حَسَنٌ صَحِيحٌ غَرِيبٌ. وَخَيْثَمَةُ هُوَ ابْنُ عَبْدِ الرَّحْمَنِ بْنِ أَبِي سَبْرَةَ نُسِبَ إِلَى جَدِّهِ."
+summary:
+  ar: "حديث في جامع الترمذي، رقم 3811، يذكر الأب والأبوة، والنسب والانتساب. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Jami' al-Tirmidhi, no. 3811 (Chapters on Virtues), that mentions the father and fatherhood, paternity and lineage. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "جامع ترمذی کی حدیث نمبر 3811، جس میں باپ اور والدیت، نسب اور انتساب کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/intisab, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 3811 (book 49 hadith 211); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

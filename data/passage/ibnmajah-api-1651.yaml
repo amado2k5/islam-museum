@@ -1,0 +1,16 @@
+id: passage/ibnmajah-api-1651
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "1651"
+label: { ar: "سنن ابن ماجه 1651 — الأب والأبوة", en: "Sunan Ibn Majah 1651 — the father and fatherhood", ur: "سنن ابن ماجہ 1651 — باپ اور والدیت" }
+text: "حَدَّثَنَا أَحْمَدُ بْنُ عَبْدَةَ، حَدَّثَنَا عَبْدُ الْعَزِيزِ بْنُ مُحَمَّدٍ، ح وَحَدَّثَنَا هِشَامُ بْنُ عَمَّارٍ، حَدَّثَنَا مُسْلِمُ بْنُ خَالِدٍ، قَال: حَدَّثَنَا الْعَلاَءُ بْنُ عَبْدِ الرَّحْمَنِ، عَنْ أَبِيهِ، عَنْ أَبِي هُرَيْرَةَ، قَالَ: قَالَ رَسُولُ اللَّهِ ـ \" إِذَا كَانَ النِّصْفُ مِنْ شَعْبَانَ فَلاَ صَوْمَ حَتَّى يَجِيءَ رَمَضَانُ \"."
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 1651، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan Ibn Majah, no. 1651 (Fasting), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 1651، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 1651 (book 7 hadith 14); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

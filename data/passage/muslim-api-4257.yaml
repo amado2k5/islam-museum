@@ -1,0 +1,16 @@
+id: passage/muslim-api-4257
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "4257"
+label: { ar: "صحيح مسلم 4257 — الأب والأبوة", en: "Sahih Muslim 4257 — the father and fatherhood", ur: "صحیح مسلم 4257 — باپ اور والدیت" }
+text: "… قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا لَيْثٌ، ح وَحَدَّثَنَا مُحَمَّدُ بْنُ رُمْحٍ، - وَاللَّفْظُ لَهُ - أَخْبَرَنَا اللَّيْثُ، عَنْ نَافِعٍ، عَنْ عَبْدِ اللَّهِ، عَنْ رَسُولِ اللَّهِ أَنَّهُ أَدْرَكَ عُمَرَ بْنَ الْخَطَّابِ فِي رَكْبٍ وَعُمَرُ يَحْلِفُ بِأَبِيهِ فَنَادَاهُمْ رَسُولُ اللَّهِ \" أَلاَ إِنَّ اللَّهَ عَزَّ وَجَلَّ يَنْهَاكُمْ أَنْ تَحْلِفُوا بِآبَائِكُمْ فَمَنْ كَانَ حَالِفًا فَلْيَحْلِفْ بِاللَّهِ أَوْ لِيَصْمُتْ \""
+summary:
+  ar: "حديث في صحيح مسلم، رقم 4257، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sahih Muslim, no. 4257 (The Book of Oaths), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "صحیح مسلم کی حدیث نمبر 4257، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 4257 (book 27 hadith 4); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

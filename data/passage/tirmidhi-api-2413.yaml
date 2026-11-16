@@ -1,0 +1,16 @@
+id: passage/tirmidhi-api-2413
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "2413"
+label: { ar: "جامع الترمذي 2413 — الأب والأبوة", en: "Jami' al-Tirmidhi 2413 — the father and fatherhood", ur: "جامع ترمذی 2413 — باپ اور والدیت" }
+text: "حَدَّثَنَا مُحَمَّدُ بْنُ بَشَّارٍ، حَدَّثَنَا جَعْفَرُ بْنُ عَوْنٍ، حَدَّثَنَا أَبُو الْعُمَيْسِ، عَنْ عَوْنِ بْنِ أَبِي جُحَيْفَةَ، عَنْ أَبِيهِ، قَالَ آخَى رَسُولُ اللَّهِ بَيْنَ سَلْمَانَ وَبَيْنَ أَبِي الدَّرْدَاءِ فَزَارَ سَلْمَانُ أَبَا الدَّرْدَاءِ فَرَأَى أُمَّ الدَّرْدَاءِ مُتَبَذِّلَةً فَقَالَ مَا شَأْنُكِ مُتَبَذِّلَةً قَالَتْ إِنَّ أَخَاكَ أَبَا الدَّرْدَاءِ لَيْسَ لَهُ حَاجَةٌ فِي الدُّنْيَا. قَالَ فَلَمَّا جَاءَ أَبُو الدَّرْدَاءِ قَرَّبَ …"
+summary:
+  ar: "حديث في جامع الترمذي، رقم 2413، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Jami' al-Tirmidhi, no. 2413 (Chapters On Zuhd), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "جامع ترمذی کی حدیث نمبر 2413، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 2413 (book 36 hadith 111); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

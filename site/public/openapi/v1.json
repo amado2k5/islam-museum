@@ -1034,6 +1034,27 @@
         ]
       }
     },
+    "/ubuwwa.json": {
+      "get": {
+        "summary": "Ubuwwa Browser — Fatherhood in Islam dataset",
+        "description": "The Ubuwwa Browser dataset (متصفح الأبوة في الإسلام): every mention of the father and fatherhood in Islam — the Qur'anic fathers and their counsel, dutifulness to the parents (birr) and disobedience ('uquq), the Prophet as a father, fathers raising and counselling children, paternity and lineage (nasab), and the orphan whose father is lost — in the Qur'an, Sunnah, seerah, Companion and Tabi'in reports and every harvested book — passages detected at build time by a guarded lexicon (the kunya «أبو فلان» never counts, child vocabulary gated on a father word in the same window, false positives excluded by id) plus the curated ubuwwa-browser records — each with its section (quran, sunnah, seerah, books, curated), topical topics (ab, birr, tarbiyya, nasab, yatm), matched signals, work, ref, text excerpt, kind, themes, tags and edges.",
+        "responses": {
+          "200": {
+            "description": "Ubuwwa dataset",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "tags": [
+          "ubuwwa"
+        ]
+      }
+    },
     "/openapi.json": {
       "get": {
         "operationId": "getOpenApi",

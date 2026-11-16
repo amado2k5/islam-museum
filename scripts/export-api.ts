@@ -39,6 +39,7 @@ import { NAR_TAG, narKindOf, narSectionOf, narSignalsOf, narTagSection, isNarPas
 import { QIYAMA_TAG, qiyamaCorpusOf, qiyamaKindOf, qiyamaSignalsOf, qiyamaTagSection, isQiyamaPassage, type QiyamaKind } from "./qiyama.js";
 import { TIBB_TAG, tibbCorpusOf, tibbSignalsOf, tibbTagSection, tibbTagTopics, tibbTopicsOfSignals } from "./tibb.js";
 import { USRA_TAG, usraCorpusOf, usraSignalsOf, usraTagSection, usraTopicsOf, isUsraPassage } from "./usra.js";
+import { UBUWWA_TAG, ubuwwaCorpusOf, ubuwwaSignalsOf, ubuwwaTagSection, ubuwwaTopicsOf, isUbuwwaPassage } from "./ubuwwa.js";
 import { IE_TAG, ieCorpusOf, ieSignalsOf, ieTagSection, ieTagTopics, ieTopicsOf, isIslamicEconomyPassage } from "./islamic-economy.js";
 import { isGhazwaNode, MUHAMMAD } from "./ghazwa.js";
 import { PLACES_TAG, PLACE_CORPORA, placeCorpusOf, placeSectionOf, type PlaceCorpus } from "./places.js";
@@ -403,6 +404,16 @@ const FEATURE_EXPORTS: { file: string; feature: string; pick: (n: Node) => boole
         : usraTagSection(n),
       topics: n.class === "passage" ? usraTopicsOf(n) : [],
       signals: n.class === "passage" ? usraSignalsOf(n) : [],
+    }) },
+  { file: "ubuwwa.json", feature: "ubuwwa-browser",
+    pick: (n) => n.tags.includes(UBUWWA_TAG) || isUbuwwaPassage(n),
+    fields: ["kind", "work", "ref", "unit", "text", "sura", "aya", "wings", "themes", "tags"],
+    extra: (n, ef, byId) => ({
+      section: n.class === "passage"
+        ? ubuwwaCorpusOf(n.data.work as string | undefined, byId?.get(n.data.work as string)?.data.genre as string[] | undefined, n.data.unit as string | undefined)
+        : ubuwwaTagSection(n),
+      topics: n.class === "passage" ? ubuwwaTopicsOf(n) : [],
+      signals: n.class === "passage" ? ubuwwaSignalsOf(n) : [],
     }) },
   { file: "hisab.json", feature: "hisab-browser",
     pick: (n) => n.tags.includes(HISAB_TAG) || isHisabPassage(n),

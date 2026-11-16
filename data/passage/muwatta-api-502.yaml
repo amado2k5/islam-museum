@@ -1,0 +1,16 @@
+id: passage/muwatta-api-502
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "502"
+label: { ar: "موطأ مالك 502 — تربية الأب ووصيته", en: "Muwatta Malik 502 — the father raising and counselling", ur: "موطأ مالک 502 — باپ کی تربیت اور نصیحت" }
+text: "وَحَدَّثَنِي عَنْ مَالِكٍ، عَنْ أَبِي الزُّبَيْرِ الْمَكِّيِّ، عَنْ طَاوُسٍ الْيَمَانِيِّ، عَنْ عَبْدِ اللَّهِ بْنِ عَبَّاسٍ، أَنَّ رَسُولَ اللَّهِ كَانَ يُعَلِّمُهُمْ هَذَا الدُّعَاءَ كَمَا يُعَلِّمُهُمُ السُّورَةَ مِنَ الْقُرْآنِ يَقُولُ \" اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنْ عَذَابِ جَهَنَّمَ وَأَعُوذُ بِكَ مِنْ عَذَابِ الْقَبْرِ وَأَعُوذُ بِكَ مِنْ فِتْنَةِ الْمَسِيحِ الدَّجَّالِ وَأَعُوذُ بِكَ مِنْ فِتْنَةِ الْمَحْيَا وَالْمَمَاتِ \"."
+summary:
+  ar: "حديث في موطأ مالك، رقم 502، يذكر تربية الأب ووصيته. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Muwatta Malik, no. 502 (The Qur'an), that mentions the father raising and counselling. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "موطأ مالک کی حدیث نمبر 502، جس میں باپ کی تربیت اور نصیحت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 502 (book 15 hadith 33); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/muwatta-malik, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

@@ -1,0 +1,16 @@
+id: passage/bukhari-api-5091
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "5091"
+label: { ar: "صحيح البخاري 5091 — الأب والأبوة", en: "Sahih al-Bukhari 5091 — the father and fatherhood", ur: "صحیح بخاری 5091 — باپ اور والدیت" }
+text: "حَدَّثَنَا إِبْرَاهِيمُ بْنُ حَمْزَةَ، حَدَّثَنَا ابْنُ أَبِي حَازِمٍ، عَنْ أَبِيهِ، عَنْ سَهْلٍ، قَالَ مَرَّ رَجُلٌ عَلَى رَسُولِ اللَّهِ فَقَالَ \" مَا تَقُولُونَ فِي هَذَا \". قَالُوا حَرِيٌّ إِنْ خَطَبَ أَنْ يُنْكَحَ، وَإِنْ شَفَعَ أَنْ يُشَفَّعَ، وَإِنْ قَالَ أَنْ يُسْتَمَعَ. قَالَ ثُمَّ سَكَتَ فَمَرَّ رَجُلٌ مِنَ فُقَرَاءِ الْمُسْلِمِينَ فَقَالَ \" مَا تَقُولُونَ فِي هَذَا \". قَالُوا …"
+summary:
+  ar: "حديث في صحيح البخاري، رقم 5091، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sahih al-Bukhari, no. 5091 (Wedlock, Marriage (Nikaah)), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "صحیح بخاری کی حدیث نمبر 5091، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 5091 (book 67 hadith 29); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

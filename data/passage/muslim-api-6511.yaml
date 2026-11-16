@@ -1,0 +1,16 @@
+id: passage/muslim-api-6511
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "6511"
+label: { ar: "صحيح مسلم 6511 — الأب والأبوة، بر الوالدين أو عقوقهما", en: "Sahih Muslim 6511 — the father and fatherhood; dutifulness to the parents or disobedience to them", ur: "صحیح مسلم 6511 — باپ اور والدیت، والدین کے ساتھ نیکی یا نافرمانی" }
+text: "حَدَّثَنَا زُهَيْرُ بْنُ حَرْبٍ، حَدَّثَنَا جَرِيرٌ، عَنْ سُهَيْلٍ، عَنْ أَبِيهِ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ \" رَغِمَ أَنْفُهُ ثُمَّ رَغِمَ أَنْفُهُ ثُمَّ رَغِمَ أَنْفُهُ \". قِيلَ مَنْ يَا رَسُولَ اللَّهِ قَالَ \" مَنْ أَدْرَكَ وَالِدَيْهِ عِنْدَ الْكِبَرِ أَحَدَهُمَا أَوْ كِلَيْهِمَا ثُمَّ لَمْ يَدْخُلِ الْجَنَّةَ \"."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 6511، يذكر الأب والأبوة، وبر الوالدين أو عقوقهما. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sahih Muslim, no. 6511 (The Book of Virtue, Enjoining Good Manners, and Joining of the Ties of Kinship), that mentions the father and fatherhood, dutifulness to the parents or disobedience to them. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "صحیح مسلم کی حدیث نمبر 6511، جس میں باپ اور والدیت، والدین کے ساتھ نیکی یا نافرمانی کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 6511 (book 45 hadith 11); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

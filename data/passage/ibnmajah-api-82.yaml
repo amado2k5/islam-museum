@@ -1,0 +1,17 @@
+id: passage/ibnmajah-api-82
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "82"
+label: { ar: "سنن ابن ماجه 82 — الأب والأبوة، النسب والانتساب", en: "Sunan Ibn Majah 82 — the father and fatherhood; paternity and lineage", ur: "سنن ابن ماجہ 82 — باپ اور والدیت، نسب اور انتساب" }
+text: "… أُمِّ الْمُؤْمِنِينَ، قَالَتْ دُعِيَ رَسُولُ اللَّهِ ـ إِلَى جِنَازَةِ غُلاَمٍ مِنَ الأَنْصَارِ فَقُلْتُ يَا رَسُولَ اللَّهِ طُوبَى لِهَذَا عُصْفُورٌ مِنْ عَصَافِيرِ الْجَنَّةِ لَمْ يَعْمَلِ السُّوءَ وَلَمْ يُدْرِكْهُ. قَالَ \" أَوَ غَيْرُ ذَلِكَ يَا عَائِشَةُ إِنَّ اللَّهَ خَلَقَ لِلْجَنَّةِ أَهْلاً خَلَقَهُمْ لَهَا وَهُمْ فِي أَصْلاَبِ آبَائِهِمْ وَخَلَقَ لِلنَّارِ أَهْلاً خَلَقَهُمْ لَهَا وَهُمْ فِي أَصْلاَبِ آبَائِهِمْ \"."
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 82، يذكر الأب والأبوة، والنسب والانتساب. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan Ibn Majah, no. 82 (The Book of the Sunnah), that mentions the father and fatherhood, paternity and lineage. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 82، جس میں باپ اور والدیت، نسب اور انتساب کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/intisab, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 82 (book 0 hadith 82); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

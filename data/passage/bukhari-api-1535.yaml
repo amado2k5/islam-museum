@@ -1,0 +1,16 @@
+id: passage/bukhari-api-1535
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "1535"
+label: { ar: "صحيح البخاري 1535 — الأب والأبوة", en: "Sahih al-Bukhari 1535 — the father and fatherhood", ur: "صحیح بخاری 1535 — باپ اور والدیت" }
+text: "… بْنُ أَبِي بَكْرٍ، حَدَّثَنَا فُضَيْلُ بْنُ سُلَيْمَانَ، حَدَّثَنَا مُوسَى بْنُ عُقْبَةَ، قَالَ حَدَّثَنِي سَالِمُ بْنُ عَبْدِ اللَّهِ، عَنْ أَبِيهِ ـ عَنِ النَّبِيِّ أَنَّهُ رُئِيَ وَهُوَ فِي مُعَرَّسٍ بِذِي الْحُلَيْفَةِ بِبَطْنِ الْوَادِي قِيلَ لَهُ إِنَّكَ بِبَطْحَاءَ مُبَارَكَةٍ. وَقَدْ أَنَاخَ بِنَا سَالِمٌ، يَتَوَخَّى بِالْمُنَاخِ الَّذِي كَانَ عَبْدُ اللَّهِ يُنِيخُ، يَتَحَرَّى مُعَرَّسَ رَسُولِ اللَّهِ وَهُوَ أَسْفَلُ مِنَ الْمَسْجِدِ …"
+summary:
+  ar: "حديث في صحيح البخاري، رقم 1535، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sahih al-Bukhari, no. 1535 (Hajj (Pilgrimage)), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "صحیح بخاری کی حدیث نمبر 1535، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 1535 (book 25 hadith 23); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

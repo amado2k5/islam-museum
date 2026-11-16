@@ -1,0 +1,16 @@
+id: passage/abudawud-api-5210
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "5210"
+label: { ar: "سنن أبي داود 5210 — الأب والأبوة", en: "Sunan Abi Dawud 5210 — the father and fatherhood", ur: "سنن ابی داؤد 5210 — باپ اور والدیت" }
+text: "… عَلِيٍّ، حَدَّثَنَا عَبْدُ الْمَلِكِ بْنُ إِبْرَاهِيمَ الْجُدِّيُّ، حَدَّثَنَا سَعِيدُ بْنُ خَالِدٍ الْخُزَاعِيُّ، قَالَ حَدَّثَنِي عَبْدُ اللَّهِ بْنُ الْمُفَضَّلِ، حَدَّثَنَا عُبَيْدُ اللَّهِ بْنُ أَبِي رَافِعٍ، عَنْ عَلِيِّ بْنِ أَبِي طَالِبٍ، - قَالَ أَبُو دَاوُدَ رَفَعَهُ الْحَسَنُ بْنُ عَلِيٍّ - قَالَ \" يُجْزِئُ عَنِ الْجَمَاعَةِ، إِذَا مَرُّوا أَنْ يُسَلِّمَ، أَحَدُهُمْ وَيُجْزِئُ عَنِ الْجُلُوسِ أَنْ يَرُدَّ أَحَدُهُمْ \"."
+summary:
+  ar: "حديث في سنن أبي داود، رقم 5210، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan Abi Dawud, no. 5210 (General Behavior (Kitab Al-Adab)), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "سنن ابی داؤد کی حدیث نمبر 5210، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 5210 (book 43 hadith 438); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

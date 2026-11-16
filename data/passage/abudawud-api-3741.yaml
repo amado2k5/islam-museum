@@ -1,0 +1,16 @@
+id: passage/abudawud-api-3741
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "3741"
+label: { ar: "سنن أبي داود 3741 — النسب والانتساب", en: "Sunan Abi Dawud 3741 — paternity and lineage", ur: "سنن ابی داؤد 3741 — نسب اور انتساب" }
+text: "حَدَّثَنَا مُسَدَّدٌ، حَدَّثَنَا دُرُسْتُ بْنُ زِيَادٍ، عَنْ أَبَانَ بْنِ طَارِقٍ، عَنْ طَارِقٍ، عَنْ نَافِعٍ، قَالَ قَالَ عَبْدُ اللَّهِ بْنُ عُمَرَ قَالَ رَسُولُ اللَّهِ \" مَنْ دُعِيَ فَلَمْ يُجِبْ فَقَدْ عَصَى اللَّهَ وَرَسُولَهُ وَمَنْ دَخَلَ عَلَى غَيْرِ دَعْوَةٍ دَخَلَ سَارِقًا وَخَرَجَ مُغِيرًا \". قَالَ أَبُو دَاوُدَ أَبَانُ بْنُ طَارِقٍ مَجْهُولٌ."
+summary:
+  ar: "حديث في سنن أبي داود، رقم 3741، يذكر النسب والانتساب. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan Abi Dawud, no. 3741 (Foods (Kitab Al-At'imah)), that mentions paternity and lineage. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "سنن ابی داؤد کی حدیث نمبر 3741، جس میں نسب اور انتساب کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/intisab, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 3741 (book 28 hadith 6); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

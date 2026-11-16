@@ -1,0 +1,16 @@
+id: passage/abudawud-api-3885
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "3885"
+label: { ar: "سنن أبي داود 3885 — الأب والأبوة", en: "Sunan Abi Dawud 3885 — the father and fatherhood", ur: "سنن ابی داؤد 3885 — باپ اور والدیت" }
+text: "… يُوسُفَ بْنِ مُحَمَّدٍ، - وَقَالَ ابْنُ صَالِحٍ مُحَمَّدِ بْنِ يُوسُفَ بْنِ ثَابِتِ بْنِ قَيْسِ بْنِ شَمَّاسٍ - عَنْ أَبِيهِ، عَنْ جَدِّهِ، عَنْ رَسُولِ اللَّهِ أَنَّهُ دَخَلَ عَلَى ثَابِتِ بْنِ قَيْسٍ - قَالَ أَحْمَدُ - وَهُوَ مَرِيضٌ فَقَالَ \" اكْشِفِ الْبَاسَ رَبَّ النَّاسِ \". عَنْ ثَابِتِ بْنِ قَيْسٍ ثُمَّ أَخَذَ تُرَابًا مِنْ بَطْحَانَ فَجَعَلَهُ فِي قَدَحٍ …"
+summary:
+  ar: "حديث في سنن أبي داود، رقم 3885، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan Abi Dawud, no. 3885 (Medicine (Kitab Al-Tibb)), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "سنن ابی داؤد کی حدیث نمبر 3885، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 3885 (book 29 hadith 31); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

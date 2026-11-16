@@ -1,0 +1,16 @@
+id: passage/ibnmajah-api-2100
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "2100"
+label: { ar: "سنن ابن ماجه 2100 — الأب والأبوة", en: "Sunan Ibn Majah 2100 — the father and fatherhood", ur: "سنن ابن ماجہ 2100 — باپ اور والدیت" }
+text: "حَدَّثَنَا عَمْرُو بْنُ رَافِعٍ الْبَجَلِيُّ، حَدَّثَنَا الْفَضْلُ بْنُ مُوسَى، عَنِ الْحُسَيْنِ بْنِ وَاقِدٍ، عَنْ عَبْدِ اللَّهِ بْنِ بُرَيْدَةَ، عَنْ أَبِيهِ، قَالَ قَالَ رَسُولُ اللَّهِ ـ \" مَنْ قَالَ إِنِّي بَرِيءٌ مِنَ الإِسْلاَمِ فَإِنْ كَانَ كَاذِبًا فَهُوَ كَمَا قَالَ وَإِنْ كَانَ صَادِقًا لَمْ يَعُدْ إِلَيْهِ الإِسْلاَمُ سَالِمًا \"."
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 2100، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan Ibn Majah, no. 2100 (The Chapters on Expiation), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 2100، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 2100 (book 11 hadith 11); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

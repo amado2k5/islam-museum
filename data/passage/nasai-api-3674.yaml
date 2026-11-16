@@ -1,0 +1,16 @@
+id: passage/nasai-api-3674
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "3674"
+label: { ar: "سنن النسائي 3674 — تربية الأب ووصيته", en: "Sunan al-Nasa'i 3674 — the father raising and counselling", ur: "سنن نسائی 3674 — باپ کی تربیت اور نصیحت" }
+text: "… حَدَّثَنَا الْوَلِيدُ بْنُ مُسْلِمٍ، قَالَ حَدَّثَنَا الأَوْزَاعِيُّ، عَنِ الزُّهْرِيِّ، عَنْ حُمَيْدِ بْنِ عَبْدِ الرَّحْمَنِ، وَعَنْ مُحَمَّدِ بْنِ النُّعْمَانِ، عَنِ النُّعْمَانِ بْنِ بَشِيرٍ، أَنَّ أَبَاهُ، بَشِيرَ بْنَ سَعْدٍ جَاءَ بِابْنِهِ النُّعْمَانِ فَقَالَ يَا رَسُولَ اللَّهِ إِنِّي نَحَلْتُ ابْنِي هَذَا غُلاَمًا كَانَ لِي. فَقَالَ رَسُولُ اللَّهِ \" أَكُلَّ بَنِيكَ نَحَلْتَ \". قَالَ لاَ. قَالَ \" فَارْجِعْهُ \"."
+summary:
+  ar: "حديث في سنن النسائي، رقم 3674، يذكر تربية الأب ووصيته. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan al-Nasa'i, no. 3674 (The Book of Presents), that mentions the father raising and counselling. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "سنن نسائی کی حدیث نمبر 3674، جس میں باپ کی تربیت اور نصیحت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 3674 (book 31 hadith 3); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

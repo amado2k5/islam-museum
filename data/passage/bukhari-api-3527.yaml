@@ -1,0 +1,16 @@
+id: passage/bukhari-api-3527
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "3527"
+label: { ar: "صحيح البخاري 3527 — الأب والأبوة", en: "Sahih al-Bukhari 3527 — the father and fatherhood", ur: "صحیح بخاری 3527 — باپ اور والدیت" }
+text: "… الزِّنَادِ، عَنِ الأَعْرَجِ، عَنْ أَبِي هُرَيْرَةَ ـ أَنَّ النَّبِيَّ قَالَ \" يَا بَنِي عَبْدِ مَنَافٍ، اشْتَرُوا أَنْفُسَكُمْ مِنَ اللَّهِ، يَا بَنِي عَبْدِ الْمُطَّلِبِ اشْتَرُوا أَنْفُسَكُمْ مِنَ اللَّهِ، يَا أُمَّ الزُّبَيْرِ بْنِ الْعَوَّامِ عَمَّةَ رَسُولِ اللَّهِ، يَا فَاطِمَةُ بِنْتَ مُحَمَّدٍ، اشْتَرِيَا أَنْفُسَكُمَا مِنَ اللَّهِ، لاَ أَمْلِكُ لَكُمَا مِنَ اللَّهِ شَيْئًا، سَلاَنِي مِنْ مَالِي مَا شِئْتُمَا \"."
+summary:
+  ar: "حديث في صحيح البخاري، رقم 3527، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sahih al-Bukhari, no. 3527 (Virtues and Merits of the Prophet (pbuh) and his Companions), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "صحیح بخاری کی حدیث نمبر 3527، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 3527 (book 61 hadith 37); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), its only signal a father-context child word, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

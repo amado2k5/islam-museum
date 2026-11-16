@@ -1,0 +1,16 @@
+id: passage/tirmidhi-api-2695
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "2695"
+label: { ar: "جامع الترمذي 2695 — الأب والأبوة", en: "Jami' al-Tirmidhi 2695 — the father and fatherhood", ur: "جامع ترمذی 2695 — باپ اور والدیت" }
+text: "حَدَّثَنَا قُتَيْبَةُ، حَدَّثَنَا ابْنُ لَهِيعَةَ، عَنْ عَمْرِو بْنِ شُعَيْبٍ، عَنْ أَبِيهِ، عَنْ جَدِّهِ، أَنَّ رَسُولَ اللَّهِ قَالَ \" لَيْسَ مِنَّا مَنْ تَشَبَّهَ بِغَيْرِنَا لاَ تَشَبَّهُوا بِالْيَهُودِ وَلاَ بِالنَّصَارَى فَإِنَّ تَسْلِيمَ الْيَهُودِ الإِشَارَةُ بِالأَصَابِعِ وَتَسْلِيمَ النَّصَارَى الإِشَارَةُ بِالأَكُفِّ \". قَالَ أَبُو عِيسَى هَذَا حَدِيثٌ إِسْنَادُهُ ضَعِيفٌ. وَرَوَى ابْنُ الْمُبَارَكِ هَذَا الْحَدِيثَ عَنِ ابْنِ لَهِيعَةَ فَلَمْ يَرْفَعْهُ."
+summary:
+  ar: "حديث في جامع الترمذي، رقم 2695، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Jami' al-Tirmidhi, no. 2695 (Chapters on Seeking Permission), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "جامع ترمذی کی حدیث نمبر 2695، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 2695 (book 42 hadith 8); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

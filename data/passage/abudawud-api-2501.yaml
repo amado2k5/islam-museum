@@ -1,0 +1,16 @@
+id: passage/abudawud-api-2501
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "2501"
+label: { ar: "سنن أبي داود 2501 — الأب والأبوة", en: "Sunan Abi Dawud 2501 — the father and fatherhood", ur: "سنن ابی داؤد 2501 — باپ اور والدیت" }
+text: "… : يَا رَسُولَ اللَّهِ إِنِّي انْطَلَقْتُ بَيْنَ أَيْدِيكُمْ حَتَّى طَلَعْتُ جَبَلَ كَذَا وَكَذَا فَإِذَا أَنَا بِهَوَازِنَ عَلَى بَكْرَةِ آبَائِهِمْ بِظُعُنِهِمْ وَنَعَمِهِمْ وَشَائِهِمُ اجْتَمَعُوا إِلَى حُنَيْنٍ. فَتَبَسَّمَ رَسُولُ اللَّهِ وَقَالَ : \" تِلْكَ غَنِيمَةُ الْمُسْلِمِينَ غَدًا إِنْ شَاءَ اللَّهُ \". ثُمَّ قَالَ : \" مَنْ يَحْرُسُنَا اللَّيْلَةَ \". قَالَ أَنَسُ بْنُ أَبِي مَرْثَدٍ الْغَنَوِيُّ : أَنَا …"
+summary:
+  ar: "حديث في سنن أبي داود، رقم 2501، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan Abi Dawud, no. 2501 (Jihad (Kitab Al-Jihad)), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "سنن ابی داؤد کی حدیث نمبر 2501، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 2501 (book 15 hadith 25); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

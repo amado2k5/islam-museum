@@ -1,0 +1,16 @@
+id: passage/muslim-api-2679
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2679"
+label: { ar: "صحيح مسلم 2679 — الأب والأبوة", en: "Sahih Muslim 2679 — the father and fatherhood", ur: "صحیح مسلم 2679 — باپ اور والدیت" }
+text: "وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا مُحَمَّدُ بْنُ سَابِقٍ، حَدَّثَنَا إِبْرَاهِيمُ بْنُ طَهْمَانَ، عَنْ أَبِي الزُّبَيْرِ، عَنِ ابْنِ كَعْبِ بْنِ مَالِكٍ، عَنْ أَبِيهِ، أَنَّهُ حَدَّثَهُ أَنَّ رَسُولَ اللَّهِ بَعَثَهُ وَأَوْسَ بْنَ الْحَدَثَانِ أَيَّامَ التَّشْرِيقِ فَنَادَى \" أَنَّهُ لاَ يَدْخُلُ الْجَنَّةَ إِلاَّ مُؤْمِنٌ. وَأَيَّامُ مِنًى أَيَّامُ أَكْلٍ وَشُرْبٍ \"."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 2679، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sahih Muslim, no. 2679 (The Book of Fasting), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "صحیح مسلم کی حدیث نمبر 2679، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 2679 (book 13 hadith 185); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }
