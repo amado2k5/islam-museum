@@ -13,6 +13,10 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v2.08.0 — 2026-11-17
+### Added
+- Job Browser linking wave 34: 31 `occupations:` edges on 25 person records — eleven emirs, eight muhaddiths, plus mutakallim, grammarian, lexicographer and scholar multi-links (al-Zamakhshari, Ibn Khaldun, al-Tahawi, al-Firuzabadi).
+
 ## v2.07.0 — 2026-11-17
 ### Added
 - Twenty-two more records of Ibn Sina's Canon, Book III (the diseases of each organ, head to foot), volume 2, scan pages 196 to 213, the eye fann: the rest of maqala 3 on lid diseases (stye, the sharnaq fatty lid growth, the tuta mulberry flesh, the small stony lid tumour, lid ulcers and laceration, lid itch and scab, lid puffiness and its four kinds, frequent blinking, shedding of lashes, inverted and superfluous lashes, adhesion of lashes) and maqala 4 on the visual power (weakness of sight — its causes by body, brain, spirit, layers, humours, pupil and nerve; its signs; the principles of its treatment; the things harmful to sight; night blindness; day blindness; the khayalat floaters and which of them herald the water; widening of the pupil; narrowing of the pupil). Each is a trilingual concept in the Medicine Browser cited to the printed page; the book's lines on coitus are kept as labelled listings for the founder's ruling; recipes, doses, drug and plant names, vein, cupping and cautery sites and operative hand-work are not reproduced.
