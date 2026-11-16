@@ -22,5 +22,11 @@ status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (Nihay
 provenance: { layer: pd, source: "archive.org nefa04 (Nihayat al-Arab vol. 4), pages 49-50", generated_by: "Claude Haiku 5.5", model: "claude-haiku-5-5", run: "lib-nihayat-batch-06" }
 born: { edtf: "760~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kitab al-Aghani" }
 died: { edtf: "800~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kitab al-Aghani" }
+occupations:
+  - job: job/singer
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'singer', Job Browser linking wave 20"
+    sources: [source/nihayat-al-arab-nuwayri-vol4-scan]
 relations:
   - { type: lived_in, target: place/baghdad, note: "Blind singer in a drinking-majlis anecdote of the Abbasid capital. Inferred.", sources: [source/nihayat-al-arab-nuwayri-vol4-scan], confidence: low }

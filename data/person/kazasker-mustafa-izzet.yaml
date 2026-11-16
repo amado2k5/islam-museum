@@ -14,6 +14,22 @@ roles: [calligrapher, musician, qadi]
 periods: [period/colonial-era]
 born: { edtf: "1801", calendar: gregorian, precision: year, status: historical }
 died: { edtf: "1876", calendar: gregorian, precision: year, status: historical }
+occupations:
+  - job: job/calligrapher
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'calligrapher', Job Browser linking wave 20"
+    sources: [source/blair-islamic-calligraphy-2006]
+  - job: job/musician
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'musician', Job Browser linking wave 20"
+    sources: [source/blair-islamic-calligraphy-2006]
+  - job: job/qadi
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'qadi', Job Browser linking wave 20"
+    sources: [source/blair-islamic-calligraphy-2006]
 relations:
   - { type: lived_in, target: place/istanbul, sources: [source/blair-islamic-calligraphy-2006] }
   - { type: exemplifies, target: concept/thuluth-script, sources: [source/blair-islamic-calligraphy-2006] }

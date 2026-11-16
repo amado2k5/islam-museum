@@ -15,6 +15,12 @@ faith:
 roles: [singer]
 wings: [people, living]
 regions: [east-africa]
+occupations:
+  - job: job/singer
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'singer', Job Browser linking wave 20"
+    sources: [source/vidiq-muaz-habib, source/youtube-muaz-habib]
 relations:
   - { type: lived_in, target: place/malay, sources: [source/wikidata], confidence: low, note: "Nisba ملايي attested in the record." }
 sources: [source/vidiq-muaz-habib, source/youtube-muaz-habib]

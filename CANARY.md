@@ -13,6 +13,10 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v1.94.0 — 2026-11-17
+### Added
+- Job Browser linking wave 20: 31 `occupations:` edges on 25 person records — fifteen singers and ten musicians plus poet, alim, teacher, calligrapher and qadi links (kazasker Mustafa İzzet gained three).
+
 ## v1.93.0 — 2026-11-17
 ### Added
 - Job Browser linking wave 19: 38 `occupations:` edges on 25 person records — seventeen musicians (Amjad Ali Khan, Alpha Blondy, DJ Khaled) and sixteen singers (Akon, K'naan, Rahat Fateh Ali Khan) plus poet, actor and preacher links.
