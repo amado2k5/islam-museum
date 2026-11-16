@@ -13,6 +13,10 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v1.70.0 — 2026-11-16
+### Added
+- Job Browser: six more market and craft trades — the fan-maker (mirwaḥī), the bird-seller (kushbāz), the horse-dealer (janbāzān-i esb), the coffee-merchant (kahveci), the rose-water-seller (gulābjī) and the henna-seller (kinnājī) — in Arabic, English and Urdu draft cited to Evliya Çelebi's guild procession, al-Shayzari, Ibn al-Ukhuwwa and Lane.
+
 ## v1.69.0 — 2026-11-16
 ### Added
 - Job Browser: six more trades beyond the original hirfa list — the tinsmith (ṣamkrī/kalayjī), the charcoal-burner (faḥḥām/kömürcü), the parchment-maker, the button-maker (duğmajī/düğmeci), the tent-maker (khayyāmī) and the scissor-maker (maqaṣṣātī) — in Arabic, English and Urdu draft cited to Evliya Çelebi's guild procession, Ibn al-Ukhuwwa, al-Shayzari, Lane and Arnold & Grohmann's Islamic Book.
