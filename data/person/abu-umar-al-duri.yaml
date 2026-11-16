@@ -16,6 +16,17 @@ wings: [people]
 periods: [period/abbasid-early]
 regions: [levant-iraq]
 died: { edtf: "0860", hijri: "0246", calendar: julian, precision: year, status: tradition, derived: true, note: "Year as printed in al-Nashr; Julian year derived by tabular conversion.", sources: [source/nashr-dahman-damascus-1345-v1] }
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 25"
+    sources: [source/nashr-dahman-damascus-1345-v1]
+  - job: job/teacher
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'teacher', Job Browser linking wave 25"
+    sources: [source/nashr-dahman-damascus-1345-v1]
 relations:
   - { type: student_of, target: person/yahya-ibn-al-mubarak-al-yazidi, confidence: high, note: "Ibn al-Jazari, al-Nashr, pp. 140, 144: al-Duri is a transmitter of Abu Amr's reading through al-Yazidi.", sources: [source/nashr-dahman-damascus-1345-v1] }
   - { type: student_of, target: person/al-kisai, confidence: medium, note: "Ibn al-Jazari, al-Nashr, p. 183, lists al-Duri among the transmitters of al-Kisa'i.", sources: [source/nashr-dahman-damascus-1345-v1] }

@@ -37,5 +37,16 @@ provenance:
 status:
   review: published
   completeness: 3
+occupations:
+  - job: job/preacher
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'preacher', Job Browser linking wave 25"
+    sources: [source/wikipedia-abdullah-gymnastiar-en]
+  - job: job/teacher
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'teacher', Job Browser linking wave 25"
+    sources: [source/wikipedia-abdullah-gymnastiar-en]
 relations:
   - { type: born_in, target: place/bandung, note: "From text: born in Bandung", sources: [source/wikipedia-abdullah-gymnastiar-en] }

@@ -15,6 +15,12 @@ regions: [egypt-nile]
 roles: [reciter]
 born: { edtf: "1926-12-17", calendar: gregorian, precision: day, status: historical, derived: false, note: "Born at the village of Shubra Bas, Shibin El Kom district, Monufia (English article; Wikidata gives the same day). No place entity for the village exists, so no birthplace relation is written.", sources: [source/wikipedia-mahmud-ali-al-banna-en, source/wikidata-mahmud-ali-al-banna] }
 died: { edtf: "1985-07-20", calendar: gregorian, precision: day, status: historical, derived: false, note: "Died in Cairo (Wikidata; the English article gives the day and cites al-Ahram's obituary of 21 July 1985, p. 17).", sources: [source/wikipedia-mahmud-ali-al-banna-en, source/wikidata-mahmud-ali-al-banna] }
+occupations:
+  - job: job/qari
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'reciter', Job Browser linking wave 25"
+    sources: [source/wikipedia-mahmud-ali-al-banna-en, source/wikidata-mahmud-ali-al-banna]
 relations:
   - { type: died_in, target: place/cairo, sources: [source/wikidata-mahmud-ali-al-banna, source/wikipedia-mahmud-ali-al-banna-en] }
 faith:
