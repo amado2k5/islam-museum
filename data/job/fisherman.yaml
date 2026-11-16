@@ -1,0 +1,45 @@
+id: job/fisherman
+class: job
+label: { ar: "الصيّاد ⁦(بلقجي)⁩", en: "Fisherman (balıkçı / sayyād)", ur: "ماہی گیر ⁦(بلقچی)⁩" }
+names:
+  - { value: "صيّاد", kind: alternate }
+  - { value: "صيّاد السمك", kind: alternate }
+  - { value: "balıkçı", kind: latinized, lang: tr }
+  - { value: "balıkji", kind: latinized, lang: tr }
+  - { value: "dalyanji", kind: latinized, lang: tr }
+  - { value: "ığrıpcı", kind: latinized, lang: tr }
+  - { value: "sıpkancı", kind: latinized, lang: tr }
+  - { value: "غرّاب", kind: alternate }
+summary:
+  ar: "الصيّاد يصطاد السمك بالشباك والسنانير والدّلايات. يعدّ إوليا جلبي صيّادي إسطنبول عشر طوائف: صيّادو الصرای ثلاثمائة تحت أمين المصيد الإمبراطوري الذي يُزارع بسبعة ملايين أقچة في السنة وبيرهم يونس، ومراقبو الدّاليان سبعمائة يفرّعون السمك إلى الشبكة من الصواري العالية، وأصحاب الإغرب ثلاثمائة، وصيّادو القراطية والشبك والسَّتشمة والخيط والحراب والقدور والسلال؛ وبعض اليونان المعفّين الذين فتح أجدادهم باب بتري لمحمد الفاتح كانوا يصطادون الدلافين دواءً للسلطان."
+  en: "The fisherman takes fish with nets, lines, harpoons and lookout towers. Evliya counts ten fishermen's guilds of Istanbul: the Serai balıkjis, three hundred under the inspector of the Imperial fishery farmed each year for seven million aspers, their patron Jonas; seven hundred dalian watchmen who scare the swordfish into nets from high masts by dropping stones; three hundred men on the great ığrıp net with two hundred dragging each wing; and the karatia, common-net, satshma, line, harpoon, pot and basket fishers. Ten Greek fishermen whose ancestors opened the Petri gate to Mehmed II paid no tithe and were bound to hunt dolphins for the Sultan's medicine."
+  ur: "ماہی گیر جال، کنڈی، برچھی اور دیکھ بھال برجوں سے مچھلی پکڑتا ہے۔ اولیاء چلبی استنبول کے ماہی گیروں کی دس جماعتیں گنتا ہے: سرائے کے بلقجی تین سو، شاہی مصیّد کے ناظر کے ماتحت جو ہر سال ستر لاکھ آقچہ میں ٹھیکے پر دی جاتی، پیر یونس؛ سات سو دلیان نگران جو اونچے مستول سے پتھر ڈال کر تلوار مچھلی کو جال میں ڈالتے؛ تین سو اغرب جال کے آدمی جن کے دونوں پہلو دو سو آدمی گھسیٹتے؛ اور قراطیہ، عام جال، ساچمہ، ڈوری، برچھی، ہانڈی اور ٹوکری والے۔ دس یونانی ماہی گیر جن کے باپ دادا نے محمد فاتح کے لیے پتری دروازہ کھولا، عشر نہ دیتے اور سلطان کی دوا کے لیے ڈولفن کا شکار کرتے۔"
+domain: land-water
+kind: service
+hirfa: false
+era:
+  origins: pre-islamic
+  status_today: living
+places:
+  - { place: place/istanbul, note: "Evliya lists the fishermen's kar-khanah outside the Flour-hall at the old fish-market on the sea-shore, the dalian look-outs on the Bosphorus at Begkos and along the canal, and the hundred and fifty karatia nets from the Serai point to Eyyub.", sources: [source/evliya-seyahatname-hammer] }
+  - { place: place/baghdad, note: "Ibn al-Ukhuwwa counts fishermen among the humble crafts over whose admissibility as witnesses the jurists gave three views, and orders the fish-fryers to wash their baskets daily and salt them nightly.", sources: [source/ibn-ukhuwwa-maalim-levy] }
+regions: [anatolia-balkans, egypt-nile, levant-iraq, arabia, maghreb, andalus-europe, persia-central-asia, southeast-asia, east-africa]
+organization:
+  organized: guild
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people, living]
+periods: [period/pre-islamic-arabia, period/prophetic-era, period/umayyad, period/abbasid-early, period/abbasid-fragmentation, period/buyid-seljuk-fatimid-era, period/crusades-ayyubid-mamluk, period/mongol-post-mongol, period/gunpowder-empires, period/modern-era]
+sources: [source/evliya-seyahatname-hammer, source/ibn-ukhuwwa-maalim-levy]
+training:
+  mode: hereditary-family
+  certification: "The Istanbul fisherman learned his gear inside the guild and the family — Evliya notes the karatia Greeks holding their exemption by descent, and the fish-raiser trades of the shore passing their licences and standings down. The muhtasib's rules reached the trade through the fish-fryers' chapter: daily washing of baskets and trays, fresh fish never mingled with overnight stock, corrupt fish thrown outside the town."
+  duration: "A boyhood on the shore among the nets."
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-land-1" }
+provenance:
+  layer: own-research
+  source: "Evliya Çelebi, Narrative of Travels, tr. Hammer, vol. I pt II (1846), sections 200-210; Ibn al-Ukhuwwa, Ma'alim al-Qurba (Levy, 1938), fish-fryers chapter and the witnesses passage — read 16 Nov 2026"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-land-1-drafting"

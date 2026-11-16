@@ -1,0 +1,44 @@
+id: job/farmer
+class: job
+label: { ar: "الفلّاح", en: "Farmer (fellah / çiftçi)", ur: "کسان ⁦(فلّاح)⁩" }
+names:
+  - { value: "فلّاح", kind: alternate }
+  - { value: "حرّاث", kind: alternate }
+  - { value: "زّارع", kind: alternate }
+  - { value: "müzte'ib", kind: latinized, lang: tr }
+  - { value: "çiftçi", kind: latinized, lang: tr }
+  - { value: "fellah", kind: latinized }
+  - { value: "felâhîn", kind: latinized }
+summary:
+  ar: "الفلّاح من يزرع الأرض ويسقيها. يصف أندرو واطسون في مدخل «زراعة» ثورة زراعية إسلامية مبكرة: محاصيل جديدة انتشرت من الهند إلى الأندلس — قصب السكر والقطن والأرز الآسيوي والحمضيات والموز والبطيخ والسبانخ — وتقنيات ريّ قديمة عمّمت كالشادوف والدولاب والقنوات الجوفية، ففتحت موسمَ صيفٍ جديداً وأبطلت بور الأرض. ويروي لين فلّاحي مصر وأقواتهم ونساءهم اللواتي يلتقطن الماء ويغزلن ويعجنّ الجِلّة، وصرامة جباة الضرائب عليهم."
+  en: "The fellah tills and waters the soil. Andrew Watson's entry ZİRAAT describes an early Islamic agricultural revolution: new crops spread from India to al-Andalus — sugarcane, cotton, Asian rice, the citrus fruits, banana, watermelon, spinach — and old irrigation techniques generalised, the shaduf, the dulab waterwheel and the underground kanat, opening a new summer season and ending the year's fallow. Lane records Egypt's fellaheen, their food, their women fetching water and spinning and kneading the gelleh fuel-cakes, and the harshness of the tax gatherers upon them."
+  ur: "فلّاح وہ ہے جو زمین جوتتا اور سینچتا ہے۔ اینڈریو واٹسن کے مضمون «زراعت» میں ابتدائی اسلامی زرعی انقلاب بیان ہے: ہندوستان سے اندلس تک نئی فصلیں پھیلیں — گنّا، کپاس، ایشیائی چاول، کھٹے پھل، کیلا، تربوز، پالک — اور پرانی آبپاشی کی تکنیکیں عام ہوئیں، شادوف، دولاب چرخ اور زیرِ زمین کانات، جنھوں نے صرف ایک نیا گرمیوں کا موسم کھولا اور سال بھر کی بنجر چھوٹی ختم کی۔ لین مصر کے فلّاحوں کی خوراک، ان کی عورتوں کے پانی بھرنے، روئی کاتنے اور ایندھن کی جِلّہ گوندھنے اور محصلوں کی سختی بیان کرتا ہے۔"
+domain: land-water
+kind: service
+hirfa: false
+era:
+  origins: pre-islamic
+  status_today: transformed
+places:
+  - { place: place/cairo, note: "Lane observes Egypt's lower orders as mostly fellaheen (agriculturists), describes their diet and household labours, and the fellaheen's complaints against the mamoors who collected taxes with the courbash.", sources: [source/lane-modern-egyptians] }
+  - { place: place/nile-delta, note: "Watson notes Mehmed Ali's reign brought deepening of Nile irrigation canals, new dams and heavy cotton production to Egypt, and that Egypt's cotton output fed the British textile industry in the nineteenth century.", sources: [source/tdv-ziraat] }
+regions: [egypt-nile, levant-iraq, arabia, maghreb, andalus-europe, anatolia-balkans, persia-central-asia, south-asia, southeast-asia, west-africa-sahel]
+organization:
+  organized: informal
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people, living]
+periods: [period/pre-islamic-arabia, period/umayyad, period/abbasid-early, period/abbasid-fragmentation, period/buyid-seljuk-fatimid-era, period/crusades-ayyubid-mamluk, period/mongol-post-mongol, period/gunpowder-empires, period/modern-era]
+sources: [source/tdv-ziraat, source/lane-modern-egyptians]
+training:
+  mode: hereditary-family
+  certification: "No licence and no diploma: Lane shows sons assisting their fathers in the operations of agriculture and children of five or six already tending the flocks; Watson's village farmers learned the new rotations and the local irrigation practice inside the family plot. Agricultural schooling arrived only in the late nineteenth century — the Halkalı Ziraat Mektebi of 1892 in the Ottoman lands and Egypt's ziraat school of 1890, later folded into Cairo University."
+  duration: "A childhood in the fields; the seasonal round itself was the training."
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-land-1" }
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi, 'ZİRAAT' (Watson, 2013), web edition read on 16 Nov 2026; Lane, Modern Egyptians (1860), ch. VII and scattered chapters read on 16 Nov 2026"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-land-1-drafting"

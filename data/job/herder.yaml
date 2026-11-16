@@ -1,0 +1,44 @@
+id: job/herder
+class: job
+label: { ar: "الراعي", en: "Herder (çoban / shepherd)", ur: "چرواہا ⁦(رعّائی)⁩" }
+names:
+  - { value: "راعي", kind: alternate }
+  - { value: "رعّاء", kind: alternate }
+  - { value: "çoban", kind: latinized, lang: tr }
+  - { value: "itayan", kind: latinized, lang: tr }
+  - { value: "mandraji", kind: latinized, lang: tr }
+  - { value: "sütçü", kind: latinized, lang: tr }
+summary:
+  ar: "الراعي يسوس الغنم والماعز والبقر والجاموس في المراعي. يعدّ إوليا جلبي في موكب الصنائع بإسطنبول طائفة الرعاة ⁦(جوبان)⁩ تسعمائة رجل، أول بيرهم موسى، وفي زمن النبي أعن بن شادق الذي شمّره سلمان الفارسي وقبره باليمن؛ ومعهم لبّانو الجواموس ألف رجل بمائتي دكان وبيرهم سفيان ثور، ولبّانو الضأن ثمانمائة رجل وبيرهم شعيب. ويمضي الرعاة في الموكب يطلقون البنادق ويعزفون الناي «قاوال» ويقودون كلاباً بحجم الحمير شرسة كالأسود، ينزل من نسلها كلب أهل الكهف، ويأكلون معها من الصحفة نفسها."
+  en: "The herder pastures sheep, goats, oxen and buffaloes. Evliya Çelebi's guild procession counts the Shepherds (Choban) nine hundred men — their first patron Moses, and in the Prophet's time A'n ben Shadck girded by Selman Pak and buried in Yemen — beside the buffalo milkmen, a thousand men with two hundred shops under their patron Sofian Thun, and the sheeps'-milk sellers, eight hundred under Jethro. The shepherds march firing muskets and playing the kawal pipe, leading herd-dogs the size of asses and fierce as lions — the breed that descends, Evliya says, from the dog of the cave of the Seven Sleepers — and they eat from the same dish as their dogs."
+  ur: "چرواہا بھیڑ بکریاں، گائے اور بھینس چراتا ہے۔ اولیاء چلبی کی دستکاروں کی جلوس میں چرواہوں ⁦(چوبان)⁩ کی جماعت نو سو آدمی ہے — ان کا پہلا پیر موسیٰ اور نبی کے زمانے میں اعن بن شادق جسے سلمان پاک نے کمربند باندھا اور جس کی قبر یمن میں ہے — ان کے ساتھ بھینسوں کے دودھ والے ایک ہزار آدمی اور دو سو دکانیں، پیر سفیان ثور، اور بھیڑوں کا دودھ بیچنے والے آٹھ سو، پیر شعیب۔ چرواہے جلوس میں بندوقیں چلاتے اور قاول بانسری بجاتے گزرتے ہیں، گدھے کے جسم اور شیر کی سی شرارت والے کتوں کو لے کر — اولیاء کے قول وہ نسل اصحابِ کہف کے کتے سے چلی — اور اپنے کتوں کے ساتھ ایک ہی تھالی سے کھاتے ہیں۔"
+domain: land-water
+kind: service
+hirfa: false
+era:
+  origins: pre-islamic
+  status_today: living
+places:
+  - { place: place/istanbul, note: "In Evliya's procession the shepherds' corporation is nine hundred men; he also lists the buffalo-milk sellers at a thousand men with two hundred shops and the sheep's-milk sellers at eight hundred, all marching dressed as shepherds with their animals.", sources: [source/evliya-seyahatname-hammer] }
+  - { place: place/mecca, note: "The milkmen of buffaloes name Sofian Thun as their patron, girded by Selman and buried in the upper town of Mecca; the sheeps'-milk sellers name Jethro, and in the Prophet's time Abder Wornid Lebani, buried at the foot of Mount Uhud.", sources: [source/evliya-seyahatname-hammer] }
+  - { place: place/yemen, note: "The shepherds' patron in the Prophet's time was A'n ben Shadck, girded by Selman Pak and buried in Yemen.", sources: [source/evliya-seyahatname-hammer] }
+regions: [anatolia-balkans, arabia, egypt-nile, levant-iraq, persia-central-asia, maghreb, west-africa-sahel, south-asia]
+organization:
+  organized: guild
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people, living]
+periods: [period/pre-islamic-arabia, period/prophetic-era, period/umayyad, period/abbasid-early, period/abbasid-fragmentation, period/buyid-seljuk-fatimid-era, period/crusades-ayyubid-mamluk, period/mongol-post-mongol, period/gunpowder-empires, period/modern-era]
+sources: [source/evliya-seyahatname-hammer, source/tdv-deve]
+training:
+  mode: hereditary-family
+  certification: "A boy learned by following the flock; Lane notes Egyptian children of five or six were already of use tending flocks and herds. The guild kept its own lore — Evliya gives the shepherds patrons (Moses, then A'n ben Shadck girded by Selman) and a specialist knowledge of the herd-dog breeds whose purity they guarded."
+  duration: "From childhood beside the animals."
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-land-1" }
+provenance:
+  layer: own-research
+  source: "Evliya Çelebi, Narrative of Travels, tr. Hammer, vol. I pt II (1846), sections 137-140 and the shepherd-dog passage; TDV İslâm Ansiklopedisi, 'DEVE' (1994) — read 16 Nov 2026"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-land-1-drafting"

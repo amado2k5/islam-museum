@@ -1,0 +1,44 @@
+id: job/gardener
+class: job
+label: { ar: "البستاني", en: "Palace gardener (bostancı)", ur: "باغبان ⁦(بستانجی)⁩" }
+names:
+  - { value: "بستاني", kind: alternate }
+  - { value: "بستانجي", kind: alternate }
+  - { value: "bostancı", kind: latinized, lang: tr }
+  - { value: "bostancıbaşı", kind: latinized, lang: tr }
+  - { value: "bâğbân", kind: latinized }
+  - { value: "gılmânân-ı bostâniyân", kind: latinized }
+  - { value: "jannān", kind: latinized }
+summary:
+  ar: "البستانجي يعمل في بساتين القصر وبساتين السلطان. كانت فرقة البستانجي أُوجاغي العثمانية — من عهد مراد الأول — تُجنَّد من أقوى غلمان الدّوشرمة، وشغلها الأول بساتين طوب قاپي والحدائق السلطانية وقوارب السلطان؛ من عمل داخل القصر «غلمانان باغچه خاصّه» ومن خدم الخارج «غلمانان بستانيان». ثم جمعت الفرقة إلى جنت الأرض أمنَ العاصمة: رئيسها البستانجي باشي يمسك دفة قارب السلطان، وينفّذ أحكام الإعدام، ولا تُبنى يالي على البوسفور والخليج إلا بإذنه، حتى أُلغيت الفرقة سنة 1826."
+  en: "The bostancı worked the palace gardens and the sultan's grounds. The Ottoman Bostancı Ocağı — reaching back to Murad I — was recruited from the strongest devşirme boys, its first work the gardens and bağs of Topkapı and the imperial bostans and the sultan's own kayıks; the insiders were gılmânân-ı bağçe-i hâssa, the outsiders in the imperial gardens gılmânân-ı bostâniyân. Then the corps added policing to horticulture: the bostancıbaşı helmed the sultan's barge, carried out executions, kept the register of every yalı on the Bosphorus and the Golden Horn — none could be built without his leave — until the corps was abolished in 1826."
+  ur: "بستانجی شاہی باغات اور سلطان کے میدانوں میں کام کرتا تھا۔ عثمانی بستانجی اوجاغی — مراد اول کے زمانے تک پہنچنے والی — مضبوط دوشرمہ لڑکوں سے بھرتی ہوتی، اس کا پہلا کام طوپ قاپی کے باغ اور شاہی بستان اور سلطان کی کشتی تھیں؛ اندر والے «غلمانان باغچہ خاصہ» اور باہر شاہی باغوں والے «غلمانان بستانیان»۔ پھر اس دستے نے باغبانی کے ساتھ سیکورٹی بھی سنبھالی: بستانجی باشی سلطان کی کشتی کی پتوار تھامتا، سزائے موت نافذ کرتا، بوسفور اور خلیج کی ہر یالی کا دفتر رکھتا — اس کی اجازت کے بغیر کوئی یالی نہ بن سکتی — یہاں تک کہ 1826 میں یہ دستہ ختم ہوا۔"
+domain: land-water
+kind: office
+hirfa: false
+era:
+  origins: medieval
+  status_today: extinct
+places:
+  - { place: place/istanbul, note: "The Topkapı bostancıs formed twenty bölüks; in the late sixteenth century the has-bahçe men numbered 645 and the other bostancıs about 971, under the bostancıbaşı whose watch covered Topkapı, the Bosphorus and Golden Horn shores and the Princes' Islands.", sources: [source/tdv-bostanci] }
+  - { place: place/edirne, note: "Edirne had a second, fully independent Bostancı Ocağı of about ten bölüks tending the has bahçes and keeping order in the city.", sources: [source/tdv-bostanci] }
+regions: [anatolia-balkans]
+organization:
+  organized: court-office
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk, period/mongol-post-mongol, period/gunpowder-empires, period/modern-era]
+sources: [source/tdv-bostanci, source/evliya-seyahatname-hammer]
+training:
+  mode: apprenticeship
+  certification: "Recruits came from the devşirme boys — the strong and handsome ones preferred, especially the Bosnian Poturoğulları — and grew up inside the corps' bölüks under the usta reisler, who also stood as local inzibat officers over the outside cemaats of twenty, thirty or a hundred men."
+  duration: "A career inside the ocak: a bostancı rose from nefer to haseki, and the bostancı kethüdası stood next in line to the bostancıbaşı."
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-land-1" }
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi, 'BOSTANCI' (Özcan, 1992), web edition read on 16 Nov 2026; Evliya Çelebi, Narrative of Travels, tr. Hammer, vol. I pt II (1846), section 203 (the Bostanji-bashi's jurisdiction over the harbour Greeks)"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-land-1-drafting"
