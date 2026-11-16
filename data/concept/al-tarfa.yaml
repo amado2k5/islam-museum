@@ -1,0 +1,33 @@
+id: "concept/al-tarfa"
+class: "concept"
+kind: "scientific"
+label:
+  ar: "الطرفة"
+  en: "Tarfa (blood spot in the eye)"
+  ur: "طرفہ"
+summary:
+  ar: "الطرفة نقطة من دم طري أحمر أو عتيق مائت أكبد أسود قد سال عن بعض العروق المنفجرة في العين بضربة مثلاً أو لسبب آخر مفجر للعروق من امتلاء أو ورم حتى يعتق فيه، وربما كان عن غليان الدم في العروق، وربما حدث عن الطرفة الضربية خرق لطيف في الحدقة والذي في الملتحمة من الخرق أسلم ⁦(أسماء الأدوية والأكحال والأضمدة لا تحمل)⁩ {cite:canon-ibn-sina-print-v2 p.187}"
+  en: "The tarfa is a spot of blood — fresh and red, or old, dying, dark and black — that has flowed from a burst vessel in the eye, by a blow for example or another vessel-bursting cause, from repletion or swelling till it settles in it; it may be from the blood's boiling in the vessels; the traumatic tarfa may cause a fine rupture in the pupil, while a rupture in the conjunctiva is safer ⁦(the drug, kohl and poultice names are not carried)⁩ {cite:canon-ibn-sina-print-v2 p.187}"
+  ur: "طرفہ خون کا ایک دھبہ ہے — تازہ سرخ یا پرانا مردہ گہرا سیاہ — جو آنکھ میں کسی پھٹی رگ سے بہا ہو مثلاً کسی ضرب سے یا رگوں پھاڑنے والے کسی اور سبب سے، امتلاء یا ورم سے یہاں تک کہ وہ اس میں جم جائے؛ اور رگوں میں خون کے ابال سے بھی ہو سکتا ہے؛ اور ضربی طرفہ حدقہ میں باریک خرق بھی پیدا کر سکتا ہے جبکہ ملتحمہ میں خرق زیادہ سلامت ہے ⁦(ادویہ، سرموں اور ضمادوں کے نام منقول نہیں)⁩ {cite:canon-ibn-sina-print-v2 p.187}"
+wings:
+- "living"
+tags:
+- "tibb-browser"
+- "tibb-tibb"
+sources:
+- "source/canon-ibn-sina-print-v2"
+relations:
+- type: "part_of"
+  target: "concept/disease"
+  sources:
+  - "source/canon-ibn-sina-print-v2"
+provenance:
+  layer: "own-research"
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 3 (the eye's anatomy, states and diseases), maqala 2 end and maqala 3 (the states of the lid and what adjoins it), scan pages 187-188, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json, copied to /tmp before reading); editor glosses used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping, cautery and excision sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, lochia, semen, coitus and nursing listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Devin subagent (SWE-2 Medium, Lane A4 worker)"
+  model: "swe-2-medium"
+  run: "a4-canon-book3-9"
+status:
+  review: "published"
+  completeness: 1
+  generated_by: "Devin subagent (SWE-2 Medium, book mining, lane A4)"

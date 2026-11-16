@@ -1,0 +1,33 @@
+id: "concept/ghilz-al-ajfan"
+class: "concept"
+kind: "scientific"
+label:
+  ar: "غلظ الأجفان"
+  en: "Thickness of the eyelids"
+  ur: "پلکوں کا گاڑھا پن"
+summary:
+  ar: "غلظ الأجفان مرض يتبع الجرب وربما أورثه الأطلية الباردة على الجفن، وعلاجه الاكتحال بأدوية جالية واستعمال الحمام دائماً واجتناب النبيذ وقد يحك كثيراً بالميل والشياف الأحمر اللين، وأما الحك بالسكر فربما هاج أو جرب به ⁦(أسماء الأدوية لا تحمل)⁩ {cite:canon-ibn-sina-print-v2 p.194}"
+  en: "Thickness of the lids is a disease that follows the itch-scab and cold applications on the lid may bequeath it; its treatment is collyriation with polishing drugs, always using the bath and avoiding wine; it may be much rubbed with the probe and the soft red collyrium, while rubbing with sugar may inflame it or scab over ⁦(drug names are not carried)⁩ {cite:canon-ibn-sina-print-v2 p.194}"
+  ur: "پلکوں کا گاڑھا پن ایک مرض ہے جو خارش کے پیچھے آتا ہے اور پلک پر ٹھنڈے طلاء اسے چھوڑ بھی سکتے ہیں؛ اس کا علاج جلا دینے والی ادویہ سے سرمہ، ہمیشہ حمام اور نبیذ سے پرہیز ہے؛ اور اسے میل اور نرم سرخ شیاف سے بہت مالا جا سکتا ہے، جبکہ شکر سے مالنا اسے بھڑکا یا خارش دار بھی کر سکتا ہے ⁦(ادویہ کے نام منقول نہیں)⁩ {cite:canon-ibn-sina-print-v2 p.194}"
+wings:
+- "living"
+tags:
+- "tibb-browser"
+- "tibb-tibb"
+sources:
+- "source/canon-ibn-sina-print-v2"
+relations:
+- type: "part_of"
+  target: "concept/disease"
+  sources:
+  - "source/canon-ibn-sina-print-v2"
+provenance:
+  layer: "own-research"
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 3 (the eye's anatomy, states and diseases), maqala 2 end and maqala 3 (the states of the lid and what adjoins it), scan pages 194, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json, copied to /tmp before reading); editor glosses used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping, cautery and excision sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, lochia, semen, coitus and nursing listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Devin subagent (SWE-2 Medium, Lane A4 worker)"
+  model: "swe-2-medium"
+  run: "a4-canon-book3-9"
+status:
+  review: "published"
+  completeness: 1
+  generated_by: "Devin subagent (SWE-2 Medium, book mining, lane A4)"

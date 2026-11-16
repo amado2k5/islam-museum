@@ -1,0 +1,11 @@
+---
+id: concept/al-zafara
+lang: en
+source_lang: ar
+translators: [ai]
+---
+## Its definition and kinds
+It is an increase of the conjunctiva or of the membrane surrounding the eye, mostly beginning at the canthus and always running over the conjunctiva; it may cover the cornea and pass over it till it covers the hole. Some of it is harder and some softer; it may be yellow, red or liver-coloured. Of the pterygium, some adjoin the conjunctiva with an adherent adjoining and are scraped quickly with the least hooking; some have a union adjoining and need stripping {cite:canon-ibn-sina-print-v2 p.186}
+
+## The treatment
+Its best treatment is scraping with iron, especially the soft; as for the hard, scraping it ungently leads to harm, so it must be lifted with hooks — if it catches it is easily snipped; if it resists it is stripped with a hair or silk passed under it with a needle or a fine quill shaft, needed in one place or two; if that is not enough a gentle stripping with unsharp iron is needed; what can be extirpated should be, without exposing the canthus flesh, lest tearing occur — the colour distinguishes them ⁦(the scraping, snipping and stripping carried as the book's description, not as procedure)⁩. If what cuts the adhesion is not used, the conjunctiva adheres to the lid; the patient must therefore turn the eye constantly; then after three days the sharp collyria are used to extirpate the remainder. As for applying drugs to it, there is little use for them in the thickened pterygium, yet they are not without harm to the pupil by their sharpness, so they must be strongly polishing mixed with the antiseptic ⁦(kohl, collyrium and drip names are not carried)⁩. Before using the drugs one should lean over hot-water vapour till the eye warms and the face reddens, or enter the bath; and in my view he should lean over boiled-wine vapour or drink a little mixed wine, then the pterygium is rubbed with it ⁦(the 'in my view' is the author's own view in the book)⁩. And I have myself tried, on one who had an old thick red pterygium, a drug triturated in very hot water, mixed thoroughly till the colour turned greenish, and used it and found it most beneficial ⁦(a trial report in the book attributed to the author himself, the drug unnamed)⁩ {cite:canon-ibn-sina-print-v2 p.186} {cite:canon-ibn-sina-print-v2 p.187}

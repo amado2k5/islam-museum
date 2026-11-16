@@ -1,0 +1,33 @@
+id: "concept/ziyadat-lahm-al-mawq-wa-nuqsanuh"
+class: "concept"
+kind: "scientific"
+label:
+  ar: "زيادة لحم الموق ونقصانه"
+  en: "Increase and decrease of the canthus flesh"
+  ur: "مآق کے گوشت کا بڑھنا اور گھٹنا"
+summary:
+  ar: "قد تعظم لحمة الموق حتى تمنع البصر وقد تنقص جداً حتى تخفى فلا تمنع الدمعة، وأكثره عند خطأ الطبيب في قطع الظفرة؛ فأما الزيادة فتعالج بأدوية الظفرة ولا تستأصل فتحدث الدمعة، وأما النقصان الحادث عن القطع فلا علاج له، وإن كان من جهة أخرى فربما أمكن أن يعالج بالأدوية المنبتة للحم التي فيها قبض وتجفيف ⁦(أسماء الأدوية لا تحمل)⁩ {cite:canon-ibn-sina-print-v2 p.183} {cite:canon-ibn-sina-print-v2 p.184}"
+  en: "The canthus flesh may enlarge till it blocks sight, and may decrease till it hides and no longer bars the tears; most of it comes at the physician's error in cutting the pterygium. The increase is treated with the pterygium drugs and is not extirpated lest tearing occur; the decrease caused by cutting has no treatment; if from another cause it may perhaps be treated with the flesh-growing drugs in which there is astringency and drying ⁦(the drug names are not carried)⁩ {cite:canon-ibn-sina-print-v2 p.183} {cite:canon-ibn-sina-print-v2 p.184}"
+  ur: "مآق کا گوشت اتنا بڑھ سکتا ہے کہ بینائی روک دے، اور اتنا گھٹ سکتا ہے کہ چھپ جائے تا آنسو نہ روکے؛ اور یہ اکثر ظفرہ کاٹنے میں طبیب کی غلطی سے ہوتا ہے۔ بڑھا ہوا ظفرہ کی ادویہ سے علاج ہوتا ہے اور جڑ سے نہیں کاٹا جاتا تا آنسو نہ ہونے لگے؛ اور کاٹنے سے ہونے والے گھٹاؤ کا کوئی علاج نہیں؛ اور اگر دوسری طرف سے ہو تو شاید گوشت اگانے والی قابض و مجفف ادویہ سے علاج ممکن ہو ⁦(ادویہ کے نام منقول نہیں)⁩ {cite:canon-ibn-sina-print-v2 p.183} {cite:canon-ibn-sina-print-v2 p.184}"
+wings:
+- "living"
+tags:
+- "tibb-browser"
+- "tibb-tibb"
+sources:
+- "source/canon-ibn-sina-print-v2"
+relations:
+- type: "part_of"
+  target: "concept/disease"
+  sources:
+  - "source/canon-ibn-sina-print-v2"
+provenance:
+  layer: "own-research"
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 3 (the eye's anatomy, states and diseases), maqala 2 end and maqala 3 (the states of the lid and what adjoins it), scan pages 183-184, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json, copied to /tmp before reading); editor glosses used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping, cautery and excision sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, lochia, semen, coitus and nursing listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Devin subagent (SWE-2 Medium, Lane A4 worker)"
+  model: "swe-2-medium"
+  run: "a4-canon-book3-9"
+status:
+  review: "published"
+  completeness: 1
+  generated_by: "Devin subagent (SWE-2 Medium, book mining, lane A4)"
