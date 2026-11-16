@@ -27,6 +27,17 @@ importance: 2
 status:
   review: published
   completeness: 2
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 40"
+    sources: [source/al-aalam, source/encyclopaedia-of-islam-2, source/wikidata]
+  - job: job/mutakallim
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'theologian', Job Browser linking wave 40"
+    sources: [source/al-aalam, source/encyclopaedia-of-islam-2, source/wikidata]
 relations:
   - { type: born_in, target: place/sirhind, note: "From text: born at Sirhind", sources: [source/encyclopaedia-of-islam-2] }
   - { type: buried_in, target: place/sirhind, note: "From text: buried at Sirhind", sources: [source/al-aalam, source/encyclopaedia-of-islam-2] }

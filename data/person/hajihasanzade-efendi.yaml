@@ -24,6 +24,17 @@ provenance:
 status:
   review: draft
   completeness: 3
+occupations:
+  - job: job/faqih
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'faqih', Job Browser linking wave 40"
+    sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
+  - job: job/alim
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 40"
+    sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 relations:
   - { type: born_in, target: place/bal-kesir, note: "Place link from Wikidata; pending a second source. al-A'lam vol. 7 p. 99 names no birthplace.", sources: [source/wikidata], confidence: medium }
   - { type: died_in, target: place/istanbul, note: "Place link from Wikidata; pending a second source. al-A'lam vol. 7 p. 99 names no place of death.", sources: [source/wikidata], confidence: medium }

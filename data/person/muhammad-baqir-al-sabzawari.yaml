@@ -13,6 +13,12 @@ regions: [persia-central-asia]
 periods: [period/gunpowder-empires]
 born: { edtf: "1608", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Iranica Agrees with Wikidata Q5727594 (P569, a statement without a reference), item revision 2567625322, read on 13 November 2026.", sources: [source/wikidata] }
 died: { edtf: "1679", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Iranica Confirmed on 13 November 2026 against Wikidata Q5727594 (P570, a statement with a reference), item revision 2567625322.", sources: [source/wikidata] }
+occupations:
+  - job: job/faqih
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'jurist', Job Browser linking wave 40"
+    sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 relations:
   - { type: born_in, target: place/sabzevar, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q765553)" }
   - { type: died_in, target: place/isfahan, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q42053)" }
