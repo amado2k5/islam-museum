@@ -40,6 +40,7 @@ open a new block on top with the new version and today's date.
 ## v1.47.0 — 2026-11-16
 ### Added
 - Job Browser: six more trades join the professions — the miller (tahhan), the oil-presser (zayyat), the cupper (hajjam) under hisba's strict surgical rules, the carpenter (najjar) with his wages and lock-making, the mat-maker (hassar) whose Cairo weavers struck in 1907, and the perfumer (attar) with his musk and ambergris fraud tests — in Arabic, English and Urdu draft cited to Ibn al-Ukhuwwa's *Ma'alim al-Qurba* (Levy's English abstract), al-Shayzari, Lane, Evliya Çelebi, and Chalcraft's *Striking Cabbies of Cairo*.
+- Five more Inventions Browser records built from the EI2 OCR corpus and downloaded primary literature, each with Arabic, English and Urdu prose: Ibn Sahl's geometrical treatment of refraction; the vertical-axis windmills of Sistan; the norias of Hama; the world map of Piri Reis; and lustre-painted pottery.
 
 ## v1.46.0 — 2026-11-16
 ### Added
