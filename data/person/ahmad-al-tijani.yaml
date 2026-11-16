@@ -17,7 +17,7 @@ periods: [period/gunpowder-empires]
 regions: [maghreb]
 story_roles:
   - { role: saint, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
-sources: [source/mawsuat-a3lam-ulama-adaba]
+sources: [source/mawsuat-a3lam-ulama-adaba, source/oxford-dictionary-of-islam]
 status:
   review: published
   completeness: 3
@@ -27,5 +27,6 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch48
+  oxford_captures: "t125/e2383: http://www.oxfordislamicstudies.com/article/opr/t125/e2383 ; https://web.archive.org/web/20190327021041/http://www.oxfordislamicstudies.com/article/opr/t125/e2383"
 relations:
   - { type: lived_in, target: place/maghreb, note: "Only the record-level region (maghreb) is attested; broad-region edge flagged for review.", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }

@@ -17,3 +17,9 @@ Qudayd is a town on the coast road between Mecca and Medina. The idol Manat stoo
 
 ## In the introduction to The Sealed Nectar
 Among the oldest idols of the Arabs was [[object/manat|Manat]]. It stood at al-Mushallal on the Red Sea coast, near Qudayd {cite:mubarakpuri-raheeq p.35} {cite:mukhtasar-sirat-al-rasul p.12}.
+
+## In Yaqut's Mu'jam al-buldan
+Yaqut vowels the name Qudayd as the diminutive of al-qadd, and makes it the name of a place near Mecca; he relates from Ibn al-Kalbi that Tubba' camped at it when he returned from fighting the people of Medina, and a wind rose and tore his companions' tents, so it was named Qudayd, and he quotes two verses of 'Ubayd Allah ibn Qays al-Ruqayyat naming it, and records that Hizam ibn Hisham al-Khuza'i was given the nisba al-Qudaydi and was a trustworthy transmitter. {cite:mujam-al-buldan-sader-1995 4 p.313-314} This entry does not name Manat or the treaty with Banu Damra; but the entry on Manat makes the idol, on Ibn al-Kalbi's authority, a rock of Hudhayl at Qudayd, and on Abu al-Mundhir's authority a statue set up on the sea shore at al-Mushallal by Qudayd, and the text as printed says it stood seven miles from Medina, while the entry on al-Mushallal makes it a mountain from which one descends to Qudayd on the sea side. {cite:mujam-al-buldan-sader-1995 5 p.204, p.136}
+
+## The museum's identification
+The record makes Qudayd a town on the sea coast between Mecca and Medina, with Manat, the idol of the Aws and the Khazraj, in its quarter, and the Prophet's treaty with Banu Damra concluded there. The Qudayd entry (vol 4 p.313-314) mentions neither the idol nor the treaty, but the Manat and al-Mushallal entries (vol 5 p.204, p.136) attest the idol's connexion with Qudayd on the two reports cited; the Damra treaty rests on what the record takes from al-Waqidi, not on Yaqut. The record's point (22.25, 39.3) is 106.8 km from the museum's Mecca point. See [[place/mecca|Mecca]].

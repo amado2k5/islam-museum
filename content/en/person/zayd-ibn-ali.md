@@ -14,3 +14,6 @@ al-Salabi's book reports that a group of the people of Kufa broke their allegian
 
 ## His pupilage
 According to al-Shahrastani and others, Zayd was the pupil of [[person/wasil-ibn-ata|Wasil ibn Ata]], head of the Mu'tazila. Ahmad Amin builds on this that the Shi'a took from the Mu'tazila, although some Shi'a claim that Wasil was a pupil of [[person/jafar-al-sadiq|Ja'far al-Sadiq]]. Abu al-Faraj al-Isfahani reports that Ja'far ibn Muhammad used to hold the stirrup for Zayd {cite:duha-islam p. 892-893}.
+
+## In The Oxford Dictionary of Islam
+Zayd ibn Ali (died 740), grandson of Husayn and son of Ali Zayn al-Abidin, is presented by The Oxford Dictionary of Islam as the figure the Zaydi sect counts as its fifth imam. Refusing the idea of a Hidden Imam, he took the activist road against the Umayyads and rose in rebellion in 740 — the first of Husayn's line to do so openly — dying violently in the rising. Out of his stand, the entry says, grew the Zaydi doctrine that any offspring of Fatimah and Ali may claim the imamate by publicly asserting it, not by order of birth; and he endures for Shiis as an emblem of activism rather than passive endurance before suffering, injustice and oppression. {cite:oxford-dictionary-of-islam e2566}

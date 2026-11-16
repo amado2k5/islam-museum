@@ -1,0 +1,33 @@
+id: "concept/al-khadar"
+class: "concept"
+kind: "scientific"
+label:
+  ar: "الخدر"
+  en: "Numbness (khadar)"
+  ur: "خدر"
+summary:
+  ar: "لفظة الخدر تستعمل في الكتب استعمالاً مختلفاً فربما جعلت لفظة الخدر مرادفة للفظة الرعشة، وأما ابن سينا وكثير من الناس فيستعملونها على هذا الوجه: الخدر علة آلية تحدث للحس اللمسي آفة إما بطلاناً وإما نقصاناً مع رعشة إن كان ⁦(فصل مفتوح، يستكمل في الحزمة التالية)⁩ {cite:canon-ibn-sina-print-v2 p.158}"
+  en: "The word khadar is used variously in the books: sometimes the word numbness is made synonymous with the word tremor; but Ibn Sina and many people use it in this sense: khadar is an instrumental disorder producing a lesion in the tactile sense, either abolition or lessening, with tremor if — (the chapter opens here and continues in the next packet) {cite:canon-ibn-sina-print-v2 p.158}"
+  ur: "خدر کا لفظ کتابوں میں مختلف طرح استعمال ہوتا ہے، تو کبھی خدر کے لفظ کو رعشہ کے لفظ کا مرادف بنایا جاتا ہے؛ اور ابن سینا اور بہت سے لوگ اسے اسی معنی پر استعمال کرتے ہیں: خدر ایک آلی علت ہے جو لمسی حس میں آفت پیدا کرتی ہے، یا باطل کر کے یا کم کر کے، رعشہ کے ساتھ اگر ہو ⁦(یہ فصل یہاں کھلتا ہے اور اگلی حزم میں جاری رہے گا)⁩ {cite:canon-ibn-sina-print-v2 p.158}۔"
+wings:
+- "living"
+tags:
+- "tibb-browser"
+- "tibb-tibb"
+sources:
+- "source/canon-ibn-sina-print-v2"
+relations:
+- type: "part_of"
+  target: "concept/disease"
+  sources:
+  - "source/canon-ibn-sina-print-v2"
+provenance:
+  layer: "own-research"
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 2 (nerve diseases), maqala 1, scan pages 158, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json); editor glosses used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping and cautery sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Devin subagent (SWE-2 Medium, Lane A4 worker)"
+  model: "swe-2-medium"
+  run: "a4-canon-book3-7"
+status:
+  review: "published"
+  completeness: 1
+  generated_by: "Devin subagent (SWE-2 Medium, book mining, lane A4)"

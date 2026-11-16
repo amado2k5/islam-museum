@@ -1,0 +1,33 @@
+id: "concept/al-falij-hasab-mawdi-al-illa"
+class: "concept"
+kind: "scientific"
+label:
+  ar: "الفالج بحسب موضع الآفة"
+  en: "Palsy by the seat of the lesion"
+  ur: "فالج آفت کے موضع کے لحاظ سے"
+summary:
+  ar: "إذا كانت الآفة والمادة الفاعلة للفالج في شقّ من بطون الدماغ عمّ شقّ البدن كله وشقّ الوجه معه، وإن كانت عند منبت النخاع كان البدن كله مفلوجاً دون أعضاء الوجه، وإن كانت في شقّ من منبت النخاع استرخى الشقّ كله دون الوجه، وإن كانت في عصب استرخى ما يخصّ ذلك العصب {cite:canon-ibn-sina-print-v2 p.138}"
+  en: "If the lesion and the matter making the palsy is in one side of the brain's ventricles, the whole half of the body is covered with the half of the face; if at the root of the spinal cord the whole body is palsied without the face's organs; if in one side of the cord's root that whole side relaxes without the face; if in a nerve, what belongs to that nerve relaxes {cite:canon-ibn-sina-print-v2 p.138}"
+  ur: "اگر آفت اور فالج بنانے والا مادہ دماغ کے بطون کے ایک شق میں ہو تو بدن کا سارا شق چہرے کے شق سمیت محاط ہوتا ہے، اور اگر نخاع کے منبت پر ہو تو سارا بدن چہرے کے اعضا کے بغیر مفلوج ہوتا ہے، اور اگر نخاع کے منبت کے ایک شق میں ہو تو سارا شق چہرے کے بغیر مسترخی ہوتا ہے، اور اگر کسی عصب میں ہو تو اس عصب کا مخصوص حصہ مسترخی ہوتا ہے {cite:canon-ibn-sina-print-v2 p.138}۔"
+wings:
+- "living"
+tags:
+- "tibb-browser"
+- "tibb-tibb"
+sources:
+- "source/canon-ibn-sina-print-v2"
+relations:
+- type: "part_of"
+  target: "concept/disease"
+  sources:
+  - "source/canon-ibn-sina-print-v2"
+provenance:
+  layer: "own-research"
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 2 (nerve diseases), maqala 1, scan pages 138 to 139, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json); editor glosses used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping and cautery sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Devin subagent (SWE-2 Medium, Lane A4 worker)"
+  model: "swe-2-medium"
+  run: "a4-canon-book3-7"
+status:
+  review: "published"
+  completeness: 1
+  generated_by: "Devin subagent (SWE-2 Medium, book mining, lane A4)"

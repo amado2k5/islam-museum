@@ -1,0 +1,34 @@
+id: "concept/mabadi-ilaj-amrad-al-asab"
+class: "concept"
+kind: "scientific"
+label:
+  ar: "مبادئ علاج أمراض العصب"
+  en: "Principles of treating nerve diseases"
+  ur: "اعصاب کے امراض کے علاج کے اصول"
+summary:
+  ar: "وجه العلاج في تنقية الأعصاب وتبديل أمزجتها؛ وأكثر ما يحتاج استفراغه عنها من المواد الباردة بمستفرغات قوية وألطفها الحمّام اليابس والرياضة المعتدلة؛ والرياضة بعد التنقية أفضل مبدّل لمزاجها يُبدأ بالأرفق ويُتدرّج إلى المعتدل {cite:canon-ibn-sina-print-v2 p.135}"
+  en: "The way of treatment is purifying the nerves and changing their temperaments; what most needs evacuating from them is the cold materials, by strong evacuants whose gentlest are the dry bath and moderate exercise; exercise after purification is the best changer of their temperament, begun gently and increased to the moderate {cite:canon-ibn-sina-print-v2 p.135}"
+  ur: "علاج کا راستہ اعصاب کی تنقی اور ان کے امزجہ کی تبدیلی میں ہے؛ جن میں سے جن چیزوں کے استفراغ کی سب سے زیادہ ضرورت ہے وہ سرد مواد ہیں، مضبوط مستفرغات سے جن کا لطیف ترین خشک حمام اور معتدل ورزش ہے؛ اور تنقی کے بعد ورزش ان کے مزاج کی بہترین بدلنے والی ہے، نرم سے شروع ہو کر معتدل تک بڑھتی {cite:canon-ibn-sina-print-v2 p.135}۔"
+wings:
+- "living"
+tags:
+- "tibb-browser"
+- "tibb-tibb"
+- "tibb-tadawi"
+sources:
+- "source/canon-ibn-sina-print-v2"
+relations:
+- type: "part_of"
+  target: "concept/medical-treatment"
+  sources:
+  - "source/canon-ibn-sina-print-v2"
+provenance:
+  layer: "own-research"
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 1, maqala 5 and the opening of Fann 2, scan pages 135, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json); editor glosses used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping and cautery sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Devin subagent (SWE-2 Medium, Lane A4 worker)"
+  model: "swe-2-medium"
+  run: "a4-canon-book3-6"
+status:
+  review: "published"
+  completeness: 1
+  generated_by: "Devin subagent (SWE-2 Medium, book mining, lane A4)"

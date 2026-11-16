@@ -1,0 +1,33 @@
+id: "concept/mal-al-falij"
+class: "concept"
+kind: "scientific"
+label:
+  ar: "مآل الفالج وانتقالاته"
+  en: "Outcome and transitions of palsy"
+  ur: "فالج کا انجام اور اس کی منتقلی"
+summary:
+  ar: "الفالج الحادث عن زوال الفقار قابل في الأكثر، والذي عن صدمة لم يدق العصب دقاً شديداً فقد يبرأ، فإن أفرط لم يرج أن يبرأ؛ وقد ينتقل إلى الفالج من السكتة ومن الصرع ومن القولنج ومن الحميات المزمنة على سبيل البحران {cite:canon-ibn-sina-print-v2 p.139}"
+  en: "Palsy arising from a displaced vertebra is mostly curable; that from a shock that did not crush the nerve badly may heal, but if excessive it is not expected to heal; palsy may follow on apoplexy, epilepsy, colic and chronic fevers by way of crisis {cite:canon-ibn-sina-print-v2 p.139}"
+  ur: "مہرے کے سرکنے سے پیدا ہونے والا فالج اکثر قابل علاج ہے، اور صدمے سے ہونے والا جس نے عصب کو سخت ن چوٹ پہنچائی ہو شفا پا سکتا ہے، لیکن اگر حد سے بڑھ جائے تو اس کی شفا کی امید نہیں؛ اور فالج سکتہ، صرع، قولنج اور دائمی بخاروں سے بحران کی صورت میں منتقل ہو سکتا ہے {cite:canon-ibn-sina-print-v2 p.139}۔"
+wings:
+- "living"
+tags:
+- "tibb-browser"
+- "tibb-tibb"
+sources:
+- "source/canon-ibn-sina-print-v2"
+relations:
+- type: "part_of"
+  target: "concept/disease"
+  sources:
+  - "source/canon-ibn-sina-print-v2"
+provenance:
+  layer: "own-research"
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 2 (nerve diseases), maqala 1, scan pages 139, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json); editor glosses used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping and cautery sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Devin subagent (SWE-2 Medium, Lane A4 worker)"
+  model: "swe-2-medium"
+  run: "a4-canon-book3-7"
+status:
+  review: "published"
+  completeness: 1
+  generated_by: "Devin subagent (SWE-2 Medium, book mining, lane A4)"

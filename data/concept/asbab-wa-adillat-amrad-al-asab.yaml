@@ -1,0 +1,33 @@
+id: "concept/asbab-wa-adillat-amrad-al-asab"
+class: "concept"
+kind: "scientific"
+label:
+  ar: "أسباب أمراض العصب وأدلّتها"
+  en: "Causes and indications of nerve diseases"
+  ur: "اعصاب کے امراض کے اسباب اور دلائل"
+summary:
+  ar: "الحركات العنيفة مدخل عظيم في إحداث علل العصب فوق ما في غيرها لأنها آلات الحركات؛ والاستدلال على أحوال العصب من أفعال الحس والحركة ومن الملمس في اللين والصلابة ومن مشاركة الدماغ والفقار إياه؛ وإن عرض المرض دفعة لم يُشكّ أنه رطب {cite:canon-ibn-sina-print-v2 p.135}"
+  en: "Violent motions are a great inlet for producing nerve lesions, more than elsewhere, because nerves are the instruments of motion; nerve states are inferred from the acts of sense and motion, from touch in softness and hardness, and from the brain's and spine's sharing with it; if the illness comes suddenly it is doubtless moist {cite:canon-ibn-sina-print-v2 p.135}"
+  ur: "عنيف حرکتیں اعصاب کی علتیں پیدا کرنے میں عظیم مداخلت ہیں، غیر اعضا سے زیادہ، کیونکہ اعصاب حرکتوں کی آلتیں ہیں؛ عصب کی حالتوں کا استدلال حس اور حرکت کے افعال سے، لمس میں نرمی اور سختی سے اور دماغ اور فقار کی اس میں شرکت سے ہوتا ہے؛ اور اگر مرض دفعتاً گزرے تو شبہ نہیں کہ وہ مرطوب ہے {cite:canon-ibn-sina-print-v2 p.135}۔"
+wings:
+- "living"
+tags:
+- "tibb-browser"
+- "tibb-tibb"
+sources:
+- "source/canon-ibn-sina-print-v2"
+relations:
+- type: "part_of"
+  target: "concept/disease"
+  sources:
+  - "source/canon-ibn-sina-print-v2"
+provenance:
+  layer: "own-research"
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 1, maqala 5 and the opening of Fann 2, scan pages 135, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json); editor glosses used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping and cautery sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Devin subagent (SWE-2 Medium, Lane A4 worker)"
+  model: "swe-2-medium"
+  run: "a4-canon-book3-6"
+status:
+  review: "published"
+  completeness: 1
+  generated_by: "Devin subagent (SWE-2 Medium, book mining, lane A4)"

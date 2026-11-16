@@ -15,3 +15,6 @@ A son would be either a creature, and so not a god, or a god, and then there wou
 
 ## Limits of this block
 This section records Sha'rawi's view alone, from these pages. The classical replies of exegetes and theologians, the academic history of the claim among the People of the Book, and other views are not yet entered.
+
+## In The Oxford Dictionary of Islam
+Tanzih, the doctrine of divine exemption, holds God to be utterly singular, resembling nothing created; it is the ground of the ban on anthropomorphism. The entry reports the Sufi reading: the believer must empty himself of every image and prior notion of God so that mystical experience can disclose Him. Bound to tawhid, the doctrine fed the eighteenth-century Sufi turn toward union with Muhammad's spirit instead of God — since the union of two unlike beings was held impossible — though some earlier mystics had allowed such communion on the strength of the creator-created relation. {cite:oxford-dictionary-of-islam e2333}

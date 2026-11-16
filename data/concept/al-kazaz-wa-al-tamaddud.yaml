@@ -1,0 +1,33 @@
+id: "concept/al-kazaz-wa-al-tamaddud"
+class: "concept"
+kind: "scientific"
+label:
+  ar: "الكزاز والتمدد"
+  en: "Tetanus (kazaz) and extension"
+  ur: "كزاز اور تمدد"
+summary:
+  ar: "التمدد مرض آلي يمنع القوة المحركة عن قبض الأعضاء التي من شأنها أن تنقبض لآفة في العضل؛ والتمدد بالحقيقة ضد التشنج، فإذا اجتمع تشنجان في جهتين متضادتين صارا تمدداً، ولما كان هذا التمدد تشنجاً مضاعفاً وجب أن يكون أحدّ من التشنج البسيط فيكون بحرانه أسرع {cite:canon-ibn-sina-print-v2 p.150}"
+  en: "Extension is an instrumental disease barring the motive power from contracting the organs meant to contract, for a lesion in the muscles; extension in truth is the opposite of convulsion, so when two convulsions meet in two opposite directions they become extension, and since this extension is a doubled convulsion it must be sharper than the simple convulsion and its crisis quicker {cite:canon-ibn-sina-print-v2 p.150}"
+  ur: "تمدد ایک آلی مرض ہے جو محرک قوت کو ان اعضا کے قبض سے روکتا ہے جن کا شان یہ ہے کہ منقبض ہوں، عضل میں آفت کے سبب؛ اور تمدد حقیقت میں تشنج کی ضد ہے، تو جب دو متضاد جهتوں میں دو تشنج جمع ہوں تو وہ تمدد بن جاتے ہیں، اور چونکہ یہ تمدد دوگنا تشنج ہے تو اسے سادہ تشنج سے زیادہ تیز ہونا چاہیے تو اس کا بحران جلد ہوتا ہے {cite:canon-ibn-sina-print-v2 p.150}۔"
+wings:
+- "living"
+tags:
+- "tibb-browser"
+- "tibb-tibb"
+sources:
+- "source/canon-ibn-sina-print-v2"
+relations:
+- type: "part_of"
+  target: "concept/disease"
+  sources:
+  - "source/canon-ibn-sina-print-v2"
+provenance:
+  layer: "own-research"
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 2 (nerve diseases), maqala 1, scan pages 150, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json); editor glosses used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping and cautery sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Devin subagent (SWE-2 Medium, Lane A4 worker)"
+  model: "swe-2-medium"
+  run: "a4-canon-book3-7"
+status:
+  review: "published"
+  completeness: 1
+  generated_by: "Devin subagent (SWE-2 Medium, book mining, lane A4)"

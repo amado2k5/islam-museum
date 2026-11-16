@@ -1,0 +1,33 @@
+id: "concept/mal-al-sakta"
+class: "concept"
+kind: "scientific"
+label:
+  ar: "مآل السكتة"
+  en: "The outcome of apoplexy"
+  ur: "سکتہ کا انجام"
+summary:
+  ar: "أكثر ما تعرض السكتة لذوي الأسنان والأبدان والتدابير الرطبة؛ وقلما تعرض عن حرارة؛ وإذا انبسطت مادة الفالج في الجانبين أحدثت سكتة وإذا انقبضت مادة السكتة إلى جانب أحدثت فالجاً؛ والحمّى معها توقّف إلى اثنين وسبعين ساعة {cite:canon-ibn-sina-print-v2 p.131} {cite:canon-ibn-sina-print-v2 p.132} {cite:canon-ibn-sina-print-v2 p.134}"
+  en: "Apoplexy mostly befalls those of moist constitutions, bodies and regimens; it seldom comes of heat; if the matter of palsy spreads in both sides it makes apoplexy, and if the matter of apoplexy contracts to one side it makes palsy; a fever with it warrants waiting up to seventy-two hours {cite:canon-ibn-sina-print-v2 p.131} {cite:canon-ibn-sina-print-v2 p.132} {cite:canon-ibn-sina-print-v2 p.134}"
+  ur: "سکتہ اکثر مرطوب مسن، بدن اور تدبیر والوں پر گزرتا ہے؛ یہ کم ہی حرارت سے ہوتا ہے؛ اگر فالج کا مادہ دونوں طرف پھیلے تو سکتہ پیدا کرتی اور اگر سکتہ کا مادہ ایک طرف سمٹے تو فالج پیدا کرتی؛ اور اس کے ساتھ بخار ہو تو بہتر گھنٹے تک ٹھہرا جائے {cite:canon-ibn-sina-print-v2 p.131} {cite:canon-ibn-sina-print-v2 p.132} {cite:canon-ibn-sina-print-v2 p.134}۔"
+wings:
+- "living"
+tags:
+- "tibb-browser"
+- "tibb-tibb"
+sources:
+- "source/canon-ibn-sina-print-v2"
+relations:
+- type: "part_of"
+  target: "concept/disease"
+  sources:
+  - "source/canon-ibn-sina-print-v2"
+provenance:
+  layer: "own-research"
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 1, maqala 5 and the opening of Fann 2, scan pages 131 to 134, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json); editor glosses used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping and cautery sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Devin subagent (SWE-2 Medium, Lane A4 worker)"
+  model: "swe-2-medium"
+  run: "a4-canon-book3-6"
+status:
+  review: "published"
+  completeness: 1
+  generated_by: "Devin subagent (SWE-2 Medium, book mining, lane A4)"

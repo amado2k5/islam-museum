@@ -1,0 +1,33 @@
+id: "concept/asbab-al-sar"
+class: "concept"
+kind: "scientific"
+label:
+  ar: "أسباب الصرع"
+  en: "Causes of epilepsy"
+  ur: "صرع کے اسباب"
+summary:
+  ar: "أسباب الصرع عند ابن سينا: خلط غير كامل يحدث سدّة في بطن الدماغ أو أصول منابت العصب، أو حركة موجية في الخلط، أو غليان حرارة مفرطة، أو ريح غليظة محتبسة في منافذ الروح، أو قبض الدماغ لدفع المؤذي {cite:canon-ibn-sina-print-v2 p.118} {cite:canon-ibn-sina-print-v2 p.119} {cite:canon-ibn-sina-print-v2 p.120}"
+  en: "Ibn Sina's causes of epilepsy: an incompleteness of humour making an obstruction in a brain ventricle or the nerve roots, a wave-like motion in the humour, an excessive boiling heat, a thick wind held in the pneuma passages (Aristotle's view), or a contraction of the brain to expel the harmful {cite:canon-ibn-sina-print-v2 p.118} {cite:canon-ibn-sina-print-v2 p.119} {cite:canon-ibn-sina-print-v2 p.120}"
+  ur: "ابن سینا کے نزدیک صرع کے اسباب: نامکمل خلط جو دماغ کے بطن یا اعصاب کی جڑوں میں سدا پیدا کرے، خلط میں لہر نما حرکت، حرارت کا غلیان، منافذ الروح میں محبوس موٹی ہوا ⁦(ارسطو کی رائے)⁩، یا دماغ کا نقصان پہنچانے والے کو دفع کرنے کے لیے سکڑنا {cite:canon-ibn-sina-print-v2 p.118} {cite:canon-ibn-sina-print-v2 p.119} {cite:canon-ibn-sina-print-v2 p.120}۔"
+wings:
+- "living"
+tags:
+- "tibb-browser"
+- "tibb-tibb"
+sources:
+- "source/canon-ibn-sina-print-v2"
+relations:
+- type: "part_of"
+  target: "concept/disease"
+  sources:
+  - "source/canon-ibn-sina-print-v2"
+provenance:
+  layer: "own-research"
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 1, maqala 5 and the opening of Fann 2, scan pages 118 to 120, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json); editor glosses used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping and cautery sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Devin subagent (SWE-2 Medium, Lane A4 worker)"
+  model: "swe-2-medium"
+  run: "a4-canon-book3-6"
+status:
+  review: "published"
+  completeness: 1
+  generated_by: "Devin subagent (SWE-2 Medium, book mining, lane A4)"

@@ -15,3 +15,6 @@ In the sectarian riots after Tughril Beg's takeover, the Shi'i quarters were att
 
 ## Works in the OpenITI corpus
 The OpenITI corpus holds 14 works under the author identifier 0460ShaykhTusi, among them: al-Fihrist; Iḫtiyār Maʿrifaŧ al-riǧāl. {cite:openiti-corpus 0460ShaykhTusi}
+
+## In The Oxford Dictionary of Islam
+Muhammad ibn al-Hasan al-Tusi (died 1067), of Khurasan, is presented by The Oxford Dictionary of Islam as a leading Twelver Shii jurist, theologian, traditionist, bibliographer and Quran commentator. Two of the four canonical Twelver books are his compilations, and in the crucial century after the Great Occultation — the last imam's disappearance in 940 — he did much to build a Twelver jurisprudence and theology that could stand independent of the imam, steering between rationalism and traditionalism. His exacting hadith collections, his fihrist of Shii writings and his many books earned him, the entry says, the title Shaykh al-Taifah, "master of the sect." {cite:oxford-dictionary-of-islam e2407}

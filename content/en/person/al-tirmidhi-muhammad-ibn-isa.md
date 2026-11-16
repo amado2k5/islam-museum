@@ -39,3 +39,6 @@ Abu 'Isa al-Tirmidhi wrote the book "al-Jami'", known as the Sunan of al-Tirmidh
 
 ## In the Biblissima authority file
 The French Biblissima authority file records this person under the identifier Q12215 with the name form «Muḥammad ibn ʿIsá ibn Sawraẗ al- Tirmiḏī (0825-0892)», the form including the years of birth and death as the file gives them. {cite:biblissima Q12215}
+
+## In The Oxford Dictionary of Islam
+Al-Tirmidhi (died 892) is presented by The Oxford Dictionary of Islam as the compiler of Sahih al-Tirmidhi, one of the six canonical hadith collections of Sunni Islam. Collecting traditions took him through Khurasan, Iraq and the Hejaz; his teachers included Ahmad ibn Hanbal, al-Bukhari and Abu Daud al-Sijistani. The entry notes that numerous writings are ascribed to him, of which not all survive, treating law and theology, devotion and popular beliefs, manners, schooling and the lives of holy figures. His book holds fewer reports than Muslim's or al-Bukhari's, yet with less repetition and more variety among the transmitters, and it carries his own annotations on the chains, on where the law schools part, and on the intellectual and practical currents of his age. {cite:oxford-dictionary-of-islam e2387}

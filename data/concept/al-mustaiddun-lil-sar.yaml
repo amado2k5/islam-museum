@@ -1,0 +1,33 @@
+id: "concept/al-mustaiddun-lil-sar"
+class: "concept"
+kind: "scientific"
+label:
+  ar: "المتهيّئون للصرع"
+  en: "Those prone to epilepsy"
+  ur: "صرع کے مستعد"
+summary:
+  ar: "يعرض الصرع للمرطوبين بأسنانهم كالصبيان والأطفال، والمرطوبين بتدبيرهم كأصحاب التخم، والذين يسكنون بلاداً جنوبية الريح لأنها تملأ الرأس وتقبض العروق أقلّ {cite:canon-ibn-sina-print-v2 p.122}"
+  en: "Epilepsy befalls those moist by age, like infants and children, those moist by regimen, like people of indigestions, and those who live in lands of the south wind, because it fills the head and contracts the vessels less {cite:canon-ibn-sina-print-v2 p.122}"
+  ur: "صرع ان لوگوں پر گزرتا ہے جو سنی کے لحاظ سے مرطوب ہوں جیسے بچے اور طفل، جو تدبیر کے لحاظ سے مرطوب ہوں جیسے تُخمہ خور، اور جو جنوبی ہوا والے ملکوں میں رہتے ہوں کیونکہ وہ سر کو بھرتی اور عروق کو کم قبض کرتی ہے {cite:canon-ibn-sina-print-v2 p.122}۔"
+wings:
+- "living"
+tags:
+- "tibb-browser"
+- "tibb-tibb"
+sources:
+- "source/canon-ibn-sina-print-v2"
+relations:
+- type: "part_of"
+  target: "concept/disease"
+  sources:
+  - "source/canon-ibn-sina-print-v2"
+provenance:
+  layer: "own-research"
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 1, maqala 5 and the opening of Fann 2, scan pages 121 to 122, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json); editor glosses used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping and cautery sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Devin subagent (SWE-2 Medium, Lane A4 worker)"
+  model: "swe-2-medium"
+  run: "a4-canon-book3-6"
+status:
+  review: "published"
+  completeness: 1
+  generated_by: "Devin subagent (SWE-2 Medium, book mining, lane A4)"
