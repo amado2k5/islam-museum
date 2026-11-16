@@ -14,6 +14,17 @@ themes: [mathematics, education]
 regions: [egypt-nile]
 born: { edtf: "1898", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli)" }
 died: { edtf: "1950", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam (al-Zirikli)" }
+occupations:
+  - job: job/mathematician
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'mathematician', Job Browser linking wave 28"
+    sources: [source/khwarizmi-jabr-cairo-1939]
+  - job: job/teacher
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'teacher', Job Browser linking wave 28"
+    sources: [source/khwarizmi-jabr-cairo-1939]
 relations:
   - { type: lived_in, target: place/murcia, note: "Place association from the person's nisba/name (مرسي); denotes association, not proven residence.", sources: [source/khwarizmi-jabr-cairo-1939], confidence: low }
   - { type: wrote_about, target: work/al-jabr-wal-muqabala, sources: [source/khwarizmi-jabr-cairo-1939] }

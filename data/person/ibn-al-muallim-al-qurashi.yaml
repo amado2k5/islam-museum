@@ -12,6 +12,22 @@ wings: [people]
 regions: [egypt-nile]
 periods: [period/mongol-post-mongol]
 died: { edtf: "1325", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar" }
+occupations:
+  - job: job/qari
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'qari', Job Browser linking wave 28"
+    sources: [source/al-aalam, source/wikidata]
+  - job: job/poet
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'poet', Job Browser linking wave 28"
+    sources: [source/al-aalam, source/wikidata]
+  - job: job/alim
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 28"
+    sources: [source/al-aalam, source/wikidata]
 relations:
   - { type: died_in, target: place/damascus, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 sources: [source/al-aalam, source/wikidata]

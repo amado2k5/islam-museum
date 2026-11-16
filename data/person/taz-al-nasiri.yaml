@@ -14,6 +14,12 @@ wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [egypt-nile, levant-iraq]
 died: { edtf: "1362", hijri: "0763", calendar: julian, precision: year, status: historical, derived: true, note: "Ibn Hajar gives 20 Dhu al-Hijja 763 {cite:durar-kamina-jil-1993 2/214}; Ibn Taghribirdi records the death under 763 in Jerusalem {cite:nujum-zahira 11/15}, while Ibn Hajar says he had been moved to Damascus at the end of 762. Birth date is not given in the sources read.", sources: [source/durar-kamina-jil-1993, source/nujum-zahira] }
+occupations:
+  - job: job/emir
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'emir', Job Browser linking wave 28"
+    sources: [source/nujum-zahira, source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2]
 relations:
   - { type: lived_in, target: place/aleppo, note: "Governor of Aleppo after 755; Nujum 10/302; Durar 2/214.", sources: [source/nujum-zahira, source/durar-kamina-jil-1993] }
   - { type: lived_in, target: place/jerusalem, note: "Lived in Jerusalem after release by Yalbugha; Nujum 11/4 and 11/15.", sources: [source/nujum-zahira] }

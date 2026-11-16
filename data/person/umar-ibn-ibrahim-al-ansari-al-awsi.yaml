@@ -12,6 +12,12 @@ summary:
 wings: [people]
 regions: [andalus-europe]
 periods: [period/crusades-ayyubid-mamluk]
+occupations:
+  - job: job/qari
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'muqri', Job Browser linking wave 28"
+    sources: [source/al-aalam]
 relations:
   - { type: lived_in, target: place/al-andalus, sources: [source/al-aalam] }
 sources: [source/al-aalam]
