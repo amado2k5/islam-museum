@@ -1,0 +1,33 @@
+id: concept/hikka-al-anf
+class: concept
+kind: scientific
+label:
+  ar: حكة الأنف
+  en: The itch of the nose
+  ur: ناک کی خارش
+summary:
+  ar: حكة الأنف قد تكون لبخار حاد أو نزلة حادة كانت أو تكون أو لنزلة قوية السيلان وإن كانت باردة وقد تكون لبثور وقد تكون لحركة الرعاف وهي من دلائل البحران ومن دلائل الجدري والحصبة على ما يذكر في موضعه وعلاج كل واحد من ذلك بما عرف من الأصول سهل {cite:canon-ibn-sina-print-v2 p.252}
+  en: The nose's itch may be from a sharp vapour, or a sharp catarrh that was or is to be, or a strongly flowing catarrh even if cold; it may be from pustules, or from the stirring of a nosebleed. It is among the signs of crisis and among the signs of smallpox and measles, as will be told in their place; and the treatment of each by the known principles is easy {cite:canon-ibn-sina-print-v2 p.252}
+  ur: ناک کی خارش کسی تیز بخار سے ہو سکتی ہے یا تیز نزلے سے جو گزرا ہو یا آنے والا ہو یا سخت بہنے والے نزلے سے خواہ سرد ہو؛ اور دانوں سے بھی ہو سکتی ہے اور نکسیر کی حرکت سے بھی؛ یہ بحران کی علامتوں میں سے ہے اور جدری اور خسرے کی علامتوں میں بھی جیسا اپنی جگہ ذکر آئے گا؛ اور ہر ایک کا علاج معروف اصولوں سے آسان ہے {cite:canon-ibn-sina-print-v2 p.252}
+wings:
+- living
+tags:
+- tibb-browser
+- tibb-tibb
+sources:
+- source/canon-ibn-sina-print-v2
+relations:
+- type: part_of
+  target: concept/disease
+  sources:
+  - source/canon-ibn-sina-print-v2
+provenance:
+  layer: own-research
+  source: Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 5 (the nose, two maqalas), scan pages 252, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json, copied to /tmp before reading); editor footnotes used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping, cautery and operative sites and application methods left out; the scraping, sawing, cutting and cautery hand-works carried only as the book's descriptions, not as procedures; unclear OCR words carried as printed, not guessed; case reports and named attributions carried as the book's attributions and labelled; reproductive and animal-derived lines kept only as labelled listings set aside for the founder's ruling
+  generated_by: Devin subagent (SWE-2 Medium, Lane A4 worker)
+  model: swe-2-medium
+  run: a4-canon-book3-12
+status:
+  review: published
+  completeness: 1
+  generated_by: Devin subagent (SWE-2 Medium, book mining, lane A4)

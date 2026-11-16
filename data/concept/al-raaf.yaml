@@ -1,0 +1,33 @@
+id: concept/al-raaf
+class: concept
+kind: scientific
+label:
+  ar: الرعاف
+  en: Nosebleed
+  ur: نکسیر
+summary:
+  ar: الرعاف قد يكون قطرات وقد يكون هائجاً لحقن شديد بسبب غلبة من الدم العالي بقوة، وربما كان الانفجار عن شبكة عروق الدماغ وشرايينه وهو غير قابل في الأكثر للعلاج، وأكثره يكون عقيب صداع والتهاب ومرض لا محالة وربما كان لبخارات حارة متصعدة؛ والكائن عن الشرايين يتميز عن الكائن عن الأوردة برقته وحمرته وحرارته، وسيلانه ينفع ويضر، وهو بحران كثير في الأمراض الحادة كالجدري والحصبة، وإن أسرف فأعقب صفرة أو رصاصية أو كمودة مع اسوداد وذبول وبرد أطراف فعاقبته محذورة وإن احتبس {cite:canon-ibn-sina-print-v2 p.236} {cite:canon-ibn-sina-print-v2 p.237}
+  en: Nosebleed may come as drops or as a violent torrent from a strong domination of high blood; sometimes it bursts from the network of the brain's vessels and arteries and is mostly untreatable. It most often follows headache, inflammation and illness, and may arise from hot rising vapours. The arterial kind is told from the venous by its thinness, redness and heat. Its flow both benefits and harms, and it is a frequent crisis in many acute diseases like smallpox and measles; if it runs to excess and is followed by an unaccustomed yellowness, leadenness or duskiness with blackness, exceeding wasting and cold extremities, its outcome is to be feared even if it stops {cite:canon-ibn-sina-print-v2 p.236} {cite:canon-ibn-sina-print-v2 p.237}
+  ur: نکسیر کبھی قطرہ قطرہ ہوتی ہے اور کبھی بلند خون کے غلبے سے شدید سیل کی صورت؛ کبھی دماغ کی شریانوں اور عروق کے جال کے پھٹنے سے ہوتی ہے جو اکثر علاج قبول نہیں کرتی؛ زیادہ تر سر درد، سوجن اور بیماری کے بعد آتی ہے اور کبھی گرم اٹھتے بخاروں سے؛ شریانی نکسیر نسوں والی سے باریکی، سرخی اور گرمی سے پہچانی جاتی ہے؛ اس کا بہنا نفع بھی دیتا ہے اور نقصان بھی؛ اور یہ جدری اور خسرہ جیسے کئی شدید امراض میں بحران کا کام کرتی ہے؛ اگر حد سے بڑھ جائے اور پھر غیر معمولی زردی، سیسہ پن یا سیاہی مایل رنگ، دبلاپن اور ہاتھ پاؤں کی ٹھنڈک آئے تو انجام کا خدشہ ہے خواہ بند بھی ہو جائے {cite:canon-ibn-sina-print-v2 p.236} {cite:canon-ibn-sina-print-v2 p.237}
+wings:
+- living
+tags:
+- tibb-browser
+- tibb-tibb
+sources:
+- source/canon-ibn-sina-print-v2
+relations:
+- type: part_of
+  target: concept/disease
+  sources:
+  - source/canon-ibn-sina-print-v2
+provenance:
+  layer: own-research
+  source: Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 5 (the nose, two maqalas), scan pages 236-237, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json, copied to /tmp before reading); editor footnotes used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping, cautery and operative sites and application methods left out; the scraping, sawing, cutting and cautery hand-works carried only as the book's descriptions, not as procedures; unclear OCR words carried as printed, not guessed; case reports and named attributions carried as the book's attributions and labelled; reproductive and animal-derived lines kept only as labelled listings set aside for the founder's ruling
+  generated_by: Devin subagent (SWE-2 Medium, Lane A4 worker)
+  model: swe-2-medium
+  run: a4-canon-book3-12
+status:
+  review: published
+  completeness: 1
+  generated_by: Devin subagent (SWE-2 Medium, book mining, lane A4)

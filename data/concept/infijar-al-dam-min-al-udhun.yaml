@@ -1,0 +1,33 @@
+id: "concept/infijar-al-dam-min-al-udhun"
+class: "concept"
+kind: "scientific"
+label:
+  ar: "انفجار الدم من الأذن"
+  en: "Blood bursting from the ear"
+  ur: "کان سے خون کا پھٹنا"
+summary:
+  ar: "انفجار الدم من الأذن قد يكون منه ما يجري مجرى الرعاف في أنه بحراني، وربما كان عن امتلاء أدى إلى انشقاق عرق أو انقطاعه أو انفتاحه، وربما كان عن صدمة أو ضربة؛ فأما البحراني فلا يجوز أن يحبس إن لم يؤد إلى ضعف وغشي، وأما غير ذلك فيحبس إما بالقابضات وإما بالكاويات وإما بالمبردات ⁦⁦(أسماء الأدوية لا تحمل)⁩⁩ {cite:canon-ibn-sina-print-v2 p.229}"
+  en: "Blood bursting from the ear may run the course of nosebleed — a crisis kind; it may come of a repletion leading a vessel to split, break or open; or of a collision or blow. The crisis kind must not be checked unless it leads to weakness and fainting; the rest is checked, by astringents, caustics or coolants ⁦(drug names are not carried)⁩ {cite:canon-ibn-sina-print-v2 p.229}"
+  ur: "کان سے خون کا پھٹنا نکسیر کے حکم میں ہو سکتا ہے یعنی بحرانی؛ اور امتلاء سے بھی ہو سکتا ہے جو کسی عرق کو چاک، توڑ یا کھول دے؛ یا ٹکر یا ضرب سے؛ بحرانی کو روکنا جائز نہیں جب تک کمزوری اور غش تک نہ پہنچائے؛ اور باقی قابضوں، جلانے والوں یا ٹھنڈا کرنے والوں سے روکا جاتا ہے ⁦⁦(ادویہ کے نام منقول نہیں)⁩⁩ {cite:canon-ibn-sina-print-v2 p.229}"
+wings:
+- "living"
+tags:
+- "tibb-browser"
+- "tibb-tibb"
+sources:
+- "source/canon-ibn-sina-print-v2"
+relations:
+- type: "part_of"
+  target: "concept/disease"
+  sources:
+  - "source/canon-ibn-sina-print-v2"
+provenance:
+  layer: "own-research"
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, end of Fann 3 (the eye) and Fann 4 (the ear, one maqala), scan pages 229, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json, copied to /tmp before reading); editor footnotes used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping, cautery and operative sites and application methods left out; the couching and incision hand-works carried only as the book's descriptions, not as procedures; unclear OCR words carried as printed, not guessed; case reports carried as the book's transmitted reports and labelled; coitus and woman's-milk lines kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Devin subagent (SWE-2 Medium, Lane A4 worker)"
+  model: "swe-2-medium"
+  run: "a4-canon-book3-11"
+status:
+  review: "published"
+  completeness: 1
+  generated_by: "Devin subagent (SWE-2 Medium, book mining, lane A4)"

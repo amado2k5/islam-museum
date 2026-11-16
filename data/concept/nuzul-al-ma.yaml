@@ -1,0 +1,33 @@
+id: "concept/nuzul-al-ma"
+class: "concept"
+kind: "scientific"
+label:
+  ar: "نزول الماء في العين"
+  en: "The descent of water in the eye (nuzul al-ma')"
+  ur: "آنکھ میں پانی کا نزول"
+summary:
+  ar: "نزول الماء مرض سدّي: رطوبة غريبة تقف في الثقبة العنبية بين الرطوبة البيضية والصفاق القرني فتمنع نفوذ الأشباح إلى البصر، وتختلف في الكم — فربما سدّت جميع الثقبة فلا ترى العين شيئاً وربما سدّت جهة وخلت جهة — وتختلف في الكيف قواماً ولوناً، وأقبلها للعلاج الهوائي والأبيض اللؤلؤي وما إلى الزرقة قليلاً والفيروزجي، وأما الجصي والأخضر والكدر والشديد السواد والأصفر فلا يقبل القدح {cite:canon-ibn-sina-print-v2 p.213}"
+  en: "The descent of water is an occluding disease: a foreign moisture that stands in the uveal aperture between the vitreous humour and the corneal tunic and keeps the images from reaching the sight; it differs in amount — sometimes blocking the whole aperture so the eye sees nothing, sometimes blocking one side — and in quality, in consistency and in colour; the most amenable to treatment are the air-coloured, the pearl-white, the slightly bluish and the turquoise, while the gypsum-white, green, turbid, deep black and yellow do not accept the couching {cite:canon-ibn-sina-print-v2 p.213}"
+  ur: "پانی کا نزول ایک سدی مرض ہے: ایک غریب رطوبت جو عنبی ثقبے میں بیضیہ رطوبت اور قرنی صفاق کے درمیان کھڑی ہو کر اشباح کے بصر تک پہنچنے سے روک دیتی ہے؛ یہ مقدار میں مختلف ہوتی ہے — کبھی سارا ثقبہ سد دیتی ہے تو آنکھ کچھ نہیں دیکھتی اور کبھی ایک طرف — اور کیفیت میں قوام اور رنگ سے؛ علاج کے زیادہ قابل ہوا رنگ، مرواریدی سفید، قدرے نیلا اور فیروزجی ہے، جبکہ جبسی، سبز، کدورت والا، نہایت سیاہ اور زرد قدح قبول نہیں کرتے {cite:canon-ibn-sina-print-v2 p.213}"
+wings:
+- "living"
+tags:
+- "tibb-browser"
+- "tibb-tibb"
+sources:
+- "source/canon-ibn-sina-print-v2"
+relations:
+- type: "part_of"
+  target: "concept/disease"
+  sources:
+  - "source/canon-ibn-sina-print-v2"
+provenance:
+  layer: "own-research"
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, end of Fann 3 (the eye) and Fann 4 (the ear, one maqala), scan pages 213-214, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json, copied to /tmp before reading); editor footnotes used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping, cautery and operative sites and application methods left out; the couching and incision hand-works carried only as the book's descriptions, not as procedures; unclear OCR words carried as printed, not guessed; case reports carried as the book's transmitted reports and labelled; coitus and woman's-milk lines kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Devin subagent (SWE-2 Medium, Lane A4 worker)"
+  model: "swe-2-medium"
+  run: "a4-canon-book3-11"
+status:
+  review: "published"
+  completeness: 1
+  generated_by: "Devin subagent (SWE-2 Medium, book mining, lane A4)"

@@ -1,0 +1,33 @@
+id: concept/turuq-istimal-al-adwiya-lil-anf
+class: concept
+kind: scientific
+label:
+  ar: كيفية طرق استعمال الأدوية للأنف
+  en: The ways of applying medicines to the nose
+  ur: ناک کے لیے ادویہ استعمال کرنے کے طریقے
+summary:
+  ar: معالجات الأنف منها ما لا يختص بطريق الأنف كالغراغر والأطلية على الرأس، ومنها ما يختص به كالبخورات والشمومات والسعوطات وهي أجسام رطبة تقطر في الأنف، والنشوقات وهي أجسام رطبة تجتذب بجذب الهواء، والنفوخات وهي أشياء يابسة تنفخ في الأنف بأنبوب؛ وتدبير التسعيط أن يملأ العليل فمه ماء ويستلقي منكساً رأسه إلى خلف ثم يقطر وينشق إلى فوق ⁦(أسماء الأدوية لا تحمل)⁩ {cite:canon-ibn-sina-print-v2 p.234} {cite:canon-ibn-sina-print-v2 p.235}
+  en: 'Some treatments of the nose do not belong to the nasal route at all — gargles and head embrocations — and some are its own: fumigations, smellings, snuffs ⁦(wet bodies dripped in)⁩, inhalations ⁦(wet bodies drawn up with the air)⁩ and insufflations ⁦(dry things blown in through a tube)⁩. The manner of snuffing: the patient fills his mouth with water, lies down with head bent back, then the drops are dripped and drawn upward. Drug names are not carried {cite:canon-ibn-sina-print-v2 p.234} {cite:canon-ibn-sina-print-v2 p.235}'
+  ur: 'ناک کی بعض معالجات ناک کے راستے سے تعلق نہیں رکھتیں جیسے غرارے اور سر کے تیل مساج، اور بعض اسی کے مخصوص ہیں: بخور، سونگھنے کی چیزیں، سعوط ⁦(تر اجسام جو ناک میں ٹپکائے جاتے ہیں)⁩، نشوق ⁦(تر اجسام جو ہوا کے کھینچنے سے اندر کھینچی جاتی ہیں)⁩ اور نفوخ ⁦(خشک چیزیں جو نلکی سے پھونکی جاتی ہیں)⁩۔ سعوط کا طریقہ یہ ہے کہ مریض منہ میں پانی بھرے، لیٹ کر سر پیچھے جھکائے، پھر قطرے ٹپکا کر اوپر کھینچے؛ ادویہ کے نام نہیں لیے گئے {cite:canon-ibn-sina-print-v2 p.234} {cite:canon-ibn-sina-print-v2 p.235}'
+wings:
+- living
+tags:
+- tibb-browser
+- tibb-tibb
+sources:
+- source/canon-ibn-sina-print-v2
+relations:
+- type: part_of
+  target: concept/medical-treatment
+  sources:
+  - source/canon-ibn-sina-print-v2
+provenance:
+  layer: own-research
+  source: Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 5 (the nose, two maqalas), scan pages 234-235, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json, copied to /tmp before reading); editor footnotes used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping, cautery and operative sites and application methods left out; the scraping, sawing, cutting and cautery hand-works carried only as the book's descriptions, not as procedures; unclear OCR words carried as printed, not guessed; case reports and named attributions carried as the book's attributions and labelled; reproductive and animal-derived lines kept only as labelled listings set aside for the founder's ruling
+  generated_by: Devin subagent (SWE-2 Medium, Lane A4 worker)
+  model: swe-2-medium
+  run: a4-canon-book3-12
+status:
+  review: published
+  completeness: 1
+  generated_by: Devin subagent (SWE-2 Medium, book mining, lane A4)

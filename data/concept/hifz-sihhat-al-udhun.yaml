@@ -1,0 +1,33 @@
+id: "concept/hifz-sihhat-al-udhun"
+class: "concept"
+kind: "scientific"
+label:
+  ar: "حفظ صحة الأذن"
+  en: "Preserving the health of the ear"
+  ur: "کان کی صحت کا تحفظ"
+summary:
+  ar: "يجب أن يعتنى بالأذن فتوقى الحر والبرد والرياح والأشياء الغريبة المفرطة لئلا يدخلها شيء من المياه والحيوانات، وأن ينقى وسخها، وأن يدام تقطير ما يعرف فيها في كل أسبوع مرة، وأن يراعى لئلا يتولد فيها أورام وبثور وقروح فإنها مفسدة للأذن؛ ومما يضر الأذن وسائر الحواس التخمة والامتلاء وخصوصاً النوم على الامتلاء {cite:canon-ibn-sina-print-v2 p.217} {cite:canon-ibn-sina-print-v2 p.218}"
+  en: "The ear must be cared for: guarded from heat, cold, winds and extreme foreign things lest waters or animals enter it; its dirt cleaned away; the known oil dropped in once a week; watch kept lest swellings, pustules and ulcers breed in it, for they corrupt the ear. What harms the ear and all the senses is indigestion and repletion, above all sleeping on repletion {cite:canon-ibn-sina-print-v2 p.217} {cite:canon-ibn-sina-print-v2 p.218}"
+  ur: "کان کی دیکھ بھال ضروری ہے: گرمی، سردی، ہواؤں اور غیر معمولی بیرونی چیزوں سے بچایا جائے کہ پانی یا جانور اس میں نہ داخل ہوں؛ اس کی میل صاف رکھی جائے؛ ہر ہفتے ایک بار معروف تیل ٹپکایا جائے؛ اور نگہبانی رہے کہ اس میں ورم، دانے اور پھوڑے نہ پیدا ہوں کہ وہ کان کو بگاڑتے ہیں؛ اور کان اور تمام حواس کو نقصان دیتا ہے بدہضمی اور امتلاء، خصوصاً امتلاء پر سونا {cite:canon-ibn-sina-print-v2 p.217} {cite:canon-ibn-sina-print-v2 p.218}"
+wings:
+- "living"
+tags:
+- "tibb-browser"
+- "tibb-tibb"
+sources:
+- "source/canon-ibn-sina-print-v2"
+relations:
+- type: "part_of"
+  target: "concept/regimen-of-health"
+  sources:
+  - "source/canon-ibn-sina-print-v2"
+provenance:
+  layer: "own-research"
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, end of Fann 3 (the eye) and Fann 4 (the ear, one maqala), scan pages 217-218, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json, copied to /tmp before reading); editor footnotes used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping, cautery and operative sites and application methods left out; the couching and incision hand-works carried only as the book's descriptions, not as procedures; unclear OCR words carried as printed, not guessed; case reports carried as the book's transmitted reports and labelled; coitus and woman's-milk lines kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Devin subagent (SWE-2 Medium, Lane A4 worker)"
+  model: "swe-2-medium"
+  run: "a4-canon-book3-11"
+status:
+  review: "published"
+  completeness: 1
+  generated_by: "Devin subagent (SWE-2 Medium, book mining, lane A4)"

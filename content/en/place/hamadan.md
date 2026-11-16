@@ -24,3 +24,9 @@ Pleiades, the open gazetteer of ancient places, lists this place under the title
 
 ## In the iDAI.gazetteer
 The German Archaeological Institute's gazetteer, iDAI.gazetteer, records this place as no. 2043471, typed as populated place, with the preferred name «Hamadan» under «Hamadān (Ostan)» in its hierarchy, and recorded names including Hamedān, Хамадан, همدان. {cite:idai-gazetteer 2043471}
+
+## In Yaqut's Mu'jam al-buldan
+Yaqut records Hamadhan with haraka and a dotted dhal, in the fourth clime, longitude from the west 73 degrees, latitude 36 degrees. From Hisham ibn al-Kalbi: it was named for Hamadhan ibn al-Faluj ibn Sam ibn Nuh, Hamadhan and Isbahan two brothers who each built a town; in a Syriac book of kings and cities its builder is Karmis ibn Halimun; and some Persian scholars said its name was nadima, "the beloved". From Shu'ba: "the Jibal are an army and Hamadhan its fairest, the sweetest of its water and the best of its air". On its conquest, Rabi'a ibn Uthman said it fell in Jumada I six months after the killing of Umar ibn al-Khattab, taken by al-Mughira ibn Shu'ba in year 24; another strand has al-Mughira send Jarir ibn Abdallah al-Bajali against it in year 23, the town resisting until Jarir's eye was struck by an arrow, and its affair running like Nahavand's, al-Mughira attaching it to Kathir ibn Shihab governor of Dinawar. Of its early days he records that it was the greatest city of the Jibal, four farsakhs square, and that Bukht Nassar's commander Saqlab dammed its spring waters for a year then released them to breach the walls and drown most of its people. {cite:mujam-al-buldan-sader-1995 5 p.410-411}
+
+## The museum's identification
+Yaqut's Hamadhan is the record's Hamadan, city of the Jibal; he gives the conquest in two strands as printed (Jarir ibn Abdallah in year 23 and al-Mughira ibn Shu'ba in year 24) and the Syriac and Persian naming accounts as transmitted, all reports of the same city.

@@ -1,0 +1,33 @@
+id: "concept/al-dawi-wa-al-tanin"
+class: "concept"
+kind: "scientific"
+label:
+  ar: "الدوي والطنين والصفير"
+  en: "Ringing, buzzing and whistling in the ear"
+  ur: "کان میں گونج، بھنبھناہٹ اور سیٹی"
+summary:
+  ar: "الدوي والطنين صوت لا يزال الإنسان يسمعه من غير سبب خارج، وقياسه إلى السمع قياس الخيالات والظلم التي يبصرها الإنسان من غير سبب من خارج إلى العين؛ ولما كان الصوت سببه تموج يعرض في الهواء يتأدى إلى الحاسة وجب أن يكون فيه حركة من الهواء، وإذ ليس ذلك الهواء هواء خارجاً فهو الداخل وهو البخار المصبوب في التجاويف، وهذا التموج إما خفي لا يكاد يعرف وإما أكثر، فإن كان خفياً فإما لذكاء الحس أو لضعفه، وإن كان فوق ذلك فسببه محرك للبخار ومموج له فوق المعتاد {cite:canon-ibn-sina-print-v2 p.225}"
+  en: "Ringing and buzzing are a sound a man keeps hearing with no outside cause — their measure against hearing is the measure of the phantasms and darknesses the eye sees with no outside cause. Since sound's cause is a waving arising in air reaching the sense, there must here be a movement of air; that air, not being outside air, is the inner air — the vapour poured into the cavities. This waving is either faint, scarce known, or more; if faint, it is from acuteness of the sense or its weakness — the weak being affected by the least waving; if beyond that, its cause is a mover waving the vapour beyond the usual {cite:canon-ibn-sina-print-v2 p.225}"
+  ur: "گونج اور بھنبھناہٹ ایک آواز ہے جو انسان بغیر کسی بیرونی سبب کے مسلسل سنتا رہتا ہے — سماعت کے نسبت اس کی پیمائش وہی ہے جو خیالات اور تاریکیوں کی ہے جو انسان بغیر بیرونی سبب آنکھ سے دیکھتا ہے؛ اور چونکہ آواز کا سبب ہوا میں پیدا ہونے والی لہر ہے جو حاسہ تک پہنچتی ہے، لازم ہے کہ اس میں ہوا کی حرکت ہو؛ اور وہ ہوا باہر کی نہیں بل اندرونی ہے — جوفوں میں ڈھلی ہوئی بھاپ؛ یہ لہر یا اتنی لطیف ہے کہ شاذ ہی معلوم ہو یا اس سے زیادہ؛ اگر لطیف ہو تو حس کی تیزی سے یا اس کے ضعف سے — کمزور ہلکی لہر سے بھی متاثر ہو جاتا ہے؛ اور اگر اس سے بڑھ کر ہو تو سبب بھاپ کو معتاد سے زیادہ ہلانے اور موج دینے والا محرک ہے {cite:canon-ibn-sina-print-v2 p.225}"
+wings:
+- "living"
+tags:
+- "tibb-browser"
+- "tibb-tibb"
+sources:
+- "source/canon-ibn-sina-print-v2"
+relations:
+- type: "part_of"
+  target: "concept/disease"
+  sources:
+  - "source/canon-ibn-sina-print-v2"
+provenance:
+  layer: "own-research"
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, end of Fann 3 (the eye) and Fann 4 (the ear, one maqala), scan pages 225-226, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json, copied to /tmp before reading); editor footnotes used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping, cautery and operative sites and application methods left out; the couching and incision hand-works carried only as the book's descriptions, not as procedures; unclear OCR words carried as printed, not guessed; case reports carried as the book's transmitted reports and labelled; coitus and woman's-milk lines kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Devin subagent (SWE-2 Medium, Lane A4 worker)"
+  model: "swe-2-medium"
+  run: "a4-canon-book3-11"
+status:
+  review: "published"
+  completeness: 1
+  generated_by: "Devin subagent (SWE-2 Medium, book mining, lane A4)"

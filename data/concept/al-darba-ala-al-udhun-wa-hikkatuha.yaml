@@ -1,0 +1,33 @@
+id: "concept/al-darba-ala-al-udhun-wa-hikkatuha"
+class: "concept"
+kind: "scientific"
+label:
+  ar: "الضربة على الأذن وحكتها"
+  en: "A blow on the ear, and its itch"
+  ur: "کان پر ضرب اور اس کی خارش"
+summary:
+  ar: "في المرض يعرض للأذن والضربة: أما بقراط فيرى أن لا تعالج بشيء، وأما من بعده فمما يعالجون به ما يتخذ منه لطوخ؛ وفي حكة الأذن يؤخذ ما يعرف ويصب أو يقطر ⁦⁦(قول بقراط منقول كرأي منسوب إليه، وأسماء الأدوية لا تحمل)⁩⁩ {cite:canon-ibn-sina-print-v2 p.230}"
+  en: "On the ailment befalling the ear and the blow: Hippocrates holds it should be treated with nothing; those after him treat it with things made into smears. On the ear's itch, the known is taken and poured or dropped ⁦(Hippocrates' view is transmitted as an opinion attributed to him; drug names are not carried)⁩ {cite:canon-ibn-sina-print-v2 p.230}"
+  ur: "کان کو پہنچنے والے مرض اور ضرب کے بارے میں: بقراط کی رائے ہے کہ اسے کسی چیز سے علاج نہ کیا جائے؛ اور بعد والے لوگ اسے ایسی چیزوں سے علاج کرتے ہیں جن سے لپوٹ بنایا جائے؛ اور کان کی خارش میں معروف چیز لی جائے اور ڈالی یا ٹپکائی جائے ⁦⁦(بقراط کی رائے اس کی طرف منسوب کے طور پر منقول؛ ادویہ کے نام منقول نہیں)⁩⁩ {cite:canon-ibn-sina-print-v2 p.230}"
+wings:
+- "living"
+tags:
+- "tibb-browser"
+- "tibb-tibb"
+sources:
+- "source/canon-ibn-sina-print-v2"
+relations:
+- type: "part_of"
+  target: "concept/disease"
+  sources:
+  - "source/canon-ibn-sina-print-v2"
+provenance:
+  layer: "own-research"
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, end of Fann 3 (the eye) and Fann 4 (the ear, one maqala), scan pages 230, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json, copied to /tmp before reading); editor footnotes used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping, cautery and operative sites and application methods left out; the couching and incision hand-works carried only as the book's descriptions, not as procedures; unclear OCR words carried as printed, not guessed; case reports carried as the book's transmitted reports and labelled; coitus and woman's-milk lines kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Devin subagent (SWE-2 Medium, Lane A4 worker)"
+  model: "swe-2-medium"
+  run: "a4-canon-book3-11"
+status:
+  review: "published"
+  completeness: 1
+  generated_by: "Devin subagent (SWE-2 Medium, book mining, lane A4)"

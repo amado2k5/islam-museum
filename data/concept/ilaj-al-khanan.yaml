@@ -1,0 +1,33 @@
+id: concept/ilaj-al-khanan
+class: concept
+kind: scientific
+label:
+  ar: علاج الخنان
+  en: The treatment of the khanan (the foul-running nose)
+  ur: خنان کا علاج
+summary:
+  ar: من معالجة الخنان أن يسعط ويغرغر بدواء من جنس ما يعرف نسخته ما عرف ويستعمل سعوطاً وغيره أياماً، ومما يعالج به أن يجعل في الأنف تنكار بشمع ودهن من جنس ما يعرف لا يزال يستعمل حتى يبرأ ⁦(النسخ والأسماء تحمل جنسها)⁩ {cite:canon-ibn-sina-print-v2 p.248}
+  en: 'Among the treatments of the khanan: to snuff and gargle with a drug of the known kind, used as snuff and otherwise for days; and among its treatments is to place in the nose a dressing with wax and an oil of the known kind, used continually till it heals ⁦(the recipes and names are carried only by kind)⁩ {cite:canon-ibn-sina-print-v2 p.248}'
+  ur: خنان کے علاج میں یہ ہے کہ معروف جنس کی دوا سے سعوط اور غرارہ کیا جائے اور وہ کئی دن سعوط اور دیگر صورتوں میں استعمال ہو؛ اور اس کے علاج میں یہ بھی ہے کہ ناک میں موم اور معروف جنس کے تیل کا تنکار رکھا جائے جو شفا تک استعمال رہے ⁦(نسخے اور نام صرف جنس کے اعتبار سے)⁩ {cite:canon-ibn-sina-print-v2 p.248}
+wings:
+- living
+tags:
+- tibb-browser
+- tibb-tibb
+sources:
+- source/canon-ibn-sina-print-v2
+relations:
+- type: part_of
+  target: concept/medical-treatment
+  sources:
+  - source/canon-ibn-sina-print-v2
+provenance:
+  layer: own-research
+  source: Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 5 (the nose, two maqalas), scan pages 248, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json, copied to /tmp before reading); editor footnotes used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping, cautery and operative sites and application methods left out; the scraping, sawing, cutting and cautery hand-works carried only as the book's descriptions, not as procedures; unclear OCR words carried as printed, not guessed; case reports and named attributions carried as the book's attributions and labelled; reproductive and animal-derived lines kept only as labelled listings set aside for the founder's ruling
+  generated_by: Devin subagent (SWE-2 Medium, Lane A4 worker)
+  model: swe-2-medium
+  run: a4-canon-book3-12
+status:
+  review: published
+  completeness: 1
+  generated_by: Devin subagent (SWE-2 Medium, book mining, lane A4)
