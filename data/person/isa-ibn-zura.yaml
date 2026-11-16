@@ -17,6 +17,18 @@ periods: [period/buyid-seljuk-fatimid-era]
 regions: [levant-iraq]
 born: { edtf: "0943-08", hijri: "0331-12", calendar: julian, precision: month, status: tradition, derived: true, note: "Dhu l-Hijja 331 / August 943 per the Encyclopaedia of Islam article; the conversion is the article's {cite:encyclopaedia-of-islam-2 vol. 3 p. 1011}." }
 died: { edtf: "1008-04-16", hijri: "0398-08-06", calendar: julian, precision: day, status: tradition, derived: true, note: "6 Sha'ban 398 / 16 April 1008 per the Encyclopaedia of Islam article, which rejects the dates 371/981 and 448/1056 given by Ibn Abi Usaybi'a {cite:encyclopaedia-of-islam-2 vol. 3 p. 1011}." }
+occupations:
+  - job: job/philosopher
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'philosopher', Job Browser linking wave"
+    sources: [source/encyclopaedia-of-islam-2]
+  - job: job/merchant
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'merchant', Job Browser linking wave"
+    sources: [source/encyclopaedia-of-islam-2]
+
 relations:
   - { type: student_of, target: person/yahya-ibn-adi, note: "Studied philosophy under his direction.", sources: [source/encyclopaedia-of-islam-2] }
   - { type: born_in, target: place/baghdad, sources: [source/encyclopaedia-of-islam-2] }

@@ -23,6 +23,23 @@ roles: [scholar, muhaddith, jurist]
 wings: [people]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [andalus-europe]
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave"
+    sources: [source/tamhid-furqan-2017-v1, source/wafayat-ayan, source/shadharat-dhahab, source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2, source/kashf-zunun-furqan, source/nafh-tib-maqqari, source/istidhkar-qalaji-1993-v1, source/biblissima, source/openiti-corpus, source/wikidata]
+  - job: job/muhaddith
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'muhaddith', Job Browser linking wave"
+    sources: [source/tamhid-furqan-2017-v1, source/wafayat-ayan, source/shadharat-dhahab, source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2, source/kashf-zunun-furqan, source/nafh-tib-maqqari, source/istidhkar-qalaji-1993-v1, source/biblissima, source/openiti-corpus, source/wikidata]
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'jurist', Job Browser linking wave"
+    sources: [source/tamhid-furqan-2017-v1, source/wafayat-ayan, source/shadharat-dhahab, source/tarikh-islam-dhahabi, source/encyclopaedia-of-islam-2, source/kashf-zunun-furqan, source/nafh-tib-maqqari, source/istidhkar-qalaji-1993-v1, source/biblissima, source/openiti-corpus, source/wikidata]
+
 relations:
   - { type: born_in, target: place/cordoba, sources: [source/tarikh-islam-dhahabi] }
   - { type: died_in, target: place/shatiba, sources: [source/wafayat-ayan, source/tarikh-islam-dhahabi] }

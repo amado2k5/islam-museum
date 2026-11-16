@@ -15,6 +15,18 @@ regions: [south-asia]
 periods: [period/gunpowder-empires]
 born: { edtf: "1550", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Radhey Shyam (Kingdom of Ahmadnagar) Agrees with Wikidata Q468192 (P569, a statement without a reference), item revision 2563962627, read on 13 November 2026.", sources: [source/wikidata] }
 died: { edtf: "1599", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Radhey Shyam (Kingdom of Ahmadnagar) Confirmed on 13 November 2026 against Wikidata Q468192 (P570, a statement with a reference), item revision 2563962627.", sources: [source/wikidata] }
+occupations:
+  - job: job/regent
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'regent', Job Browser linking wave"
+    sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
+  - job: job/commander
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'military-leader', Job Browser linking wave"
+    sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
+
 relations:
   - { type: born_in, target: place/ahmadnagar, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/ahmadnagar, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

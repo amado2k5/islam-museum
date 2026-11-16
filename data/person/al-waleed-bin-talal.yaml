@@ -21,6 +21,18 @@ born:
   derived: true
   note: "Born 7 March 1955 in Jeddah, attested by the English and Arabic articles and by Wikidata's birth statement. The hijri year is a tabular derived conversion of the Gregorian date, which is why derived is true; the date falls inside 1374 AH."
   sources: [source/wikipedia-al-waleed-bin-talal-en, source/wikipedia-al-waleed-bin-talal-ar, source/wikidata-al-waleed-bin-talal]
+occupations:
+  - job: job/merchant
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'businessman', Job Browser linking wave"
+    sources: [source/wikipedia-al-waleed-bin-talal-en, source/wikipedia-al-waleed-bin-talal-ar, source/wikidata-al-waleed-bin-talal, source/wikidata]
+  - job: job/patron
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'patron', Job Browser linking wave"
+    sources: [source/wikipedia-al-waleed-bin-talal-en, source/wikipedia-al-waleed-bin-talal-ar, source/wikidata-al-waleed-bin-talal, source/wikidata]
+
 relations:
   - { type: born_in, target: place/jeddah, sources: [source/wikipedia-al-waleed-bin-talal-en, source/wikipedia-al-waleed-bin-talal-ar] }
 faith:

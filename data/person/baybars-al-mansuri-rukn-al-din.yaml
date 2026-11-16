@@ -18,6 +18,18 @@ periods: [period/mongol-post-mongol]
 regions: [egypt-nile]
 story_roles:
   - { role: commander, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+occupations:
+  - job: job/commander
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'commander', Job Browser linking wave"
+    sources: [source/mawsuat-a3lam-ulama-adaba]
+  - job: job/historian
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'historian', Job Browser linking wave"
+    sources: [source/mawsuat-a3lam-ulama-adaba]
+
 relations:
   - { type: lived_in, target: place/misr, confidence: low, note: "Associated with Egypt per the record's own summary text; relation type pending review.", sources: [source/mawsuat-a3lam-ulama-adaba] }
 sources: [source/mawsuat-a3lam-ulama-adaba]
