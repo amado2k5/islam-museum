@@ -1,0 +1,23 @@
+id: concept/qittha
+class: concept
+kind: natural
+label:
+  ar: "قثاء"
+  en: "Qittha'"
+  ur: "قثاء"
+summary:
+  ar: "القثاء في الكتاب بارد رطب إلى الثانية، بزره خير من بزر الخيار وأفضله النضيج، يسكن الحرارة والصفراء لكن كيموسه رديء مستعد للعفونة، ويسكن العطش، وفيه إدرار وتليين، وورقه ينفع من عضة الكلب الكلب {cite:canon-ibn-sina-print-v1 pp.656-657}"
+  en: "Qittha' is in the book cold and moist up to the second degree; its seed is better than the seed of khiyar and the ripe is the best; it calms heat and bile, but its chyme is bad and prone to putrefaction; it quenches thirst, drives urine and softens, and its leaf benefits the bite of a rabid dog {cite:canon-ibn-sina-print-v1 pp.656-657}"
+  ur: "قثاء کتاب میں دوسرے درجے تک ٹھنڈا تر ہے، اس کا بیج خیار کے بیج سے بہتر ہے اور بہترین پکا ہوا ہے؛ گرمی اور صفرا کو تسکین دیتا ہے مگر اس کا کیموس برا اور سڑنے کے قریب ہے؛ پیاس بجھاتا، پیشاب جاری کرتا اور نرم کرتا ہے، اور اس کا پتا باؤلے کتے کے کاٹنے میں نافع ہے {cite:canon-ibn-sina-print-v1 pp.656-657}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter qaf (the nineteenth chapter), scan pages 656, 657, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for doubtful headings; editor footnotes used only for identity; measured doses, weights, counts, times and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-26
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }
