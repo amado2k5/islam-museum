@@ -13,6 +13,10 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v1.79.0 — 2026-11-17
+### Added
+- Job Browser linking wave 5: 37 `occupations:` edges on 25 person records — actor, singer, diplomat, engineer, lawyer, wali, commander, plus first-ever links for musician, preacher, translator and mathematician.
+
 ## v1.78.0 — 2026-11-17
 ### Added
 - Job Browser linking wave 4: 45 `occupations:` edges on 25 person records — first-ever links for singer, actor, diplomat, engineer, lawyer and wali, plus commander, emir and muhaddith.

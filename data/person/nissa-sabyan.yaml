@@ -22,6 +22,17 @@ born:
   derived: false
   note: "Gregorian date from the English and Arabic Wikipedia articles. The articles' infoboxes give the birthplace as Lumajang, East Java, while the English article's biography text gives Bandung, West Java; the two disagree, there is no museum place record for Lumajang, and so no born_in edge is written."
   sources: [source/wikipedia-nissa-sabyan-en, source/wikipedia-nissa-sabyan-ar]
+occupations:
+  - job: job/singer
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'singer', Job Browser linking wave"
+    sources: [source/wikipedia-nissa-sabyan-en, source/wikipedia-nissa-sabyan-ar, source/vidiq-nissa-sabyan, source/youtube-nissasabyanofficialchannel]
+  - job: job/actor
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'actor', Job Browser linking wave"
+    sources: [source/wikipedia-nissa-sabyan-en, source/wikipedia-nissa-sabyan-ar, source/vidiq-nissa-sabyan, source/youtube-nissasabyanofficialchannel]
 relations:
   - { type: lived_in, target: place/jakarta, sources: [source/wikipedia-nissa-sabyan-en], note: "The English article says she moved to Jakarta after primary school; the group she sings with is based in Jakarta." }
 faith:

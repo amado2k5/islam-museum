@@ -36,6 +36,12 @@ died:
   derived: true
   note: "Died of a heart attack in Jeddah, Saudi Arabia, on 27 March 1982, aged 52, while a general partner at Skidmore, Owings & Merrill; buried at Graceland Cemetery, Chicago. The Hijri year (1402) is derived by tabular conversion."
   sources: [source/wikipedia-fazlur-rahman-khan-en, source/wikidata-fazlur-rahman-khan]
+occupations:
+  - job: job/engineer
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'engineer', Job Browser linking wave"
+    sources: [source/wikipedia-fazlur-rahman-khan-en, source/wikipedia-fazlur-rahman-khan-ar, source/wikipedia-fazlur-rahman-khan-ur, source/wikidata-fazlur-rahman-khan, source/khan-art-of-the-skyscraper-2001, source/wikidata]
 relations:
   - { type: born_in, target: place/dhaka, sources: [source/wikipedia-fazlur-rahman-khan-en, source/wikidata-fazlur-rahman-khan] }
   - { type: died_in, target: place/jeddah, sources: [source/wikipedia-fazlur-rahman-khan-en] }

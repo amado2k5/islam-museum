@@ -20,6 +20,12 @@ born:
   derived: true
   note: "Born on 2 November 1965 in New Delhi (English, Arabic and Urdu articles, Britannica and Wikidata agree), into a Muslim family. The museum's place/delhi entity grounds the born_in relation. The Hijri year (1385) is derived by tabular conversion."
   sources: [source/wikipedia-shah-rukh-khan-en, source/britannica-shah-rukh-khan, source/wikidata-shah-rukh-khan]
+occupations:
+  - job: job/actor
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'actor', Job Browser linking wave"
+    sources: [source/wikipedia-shah-rukh-khan-en, source/wikipedia-shah-rukh-khan-ar, source/wikipedia-shah-rukh-khan-ur, source/wikidata-shah-rukh-khan, source/britannica-shah-rukh-khan, source/wikidata]
 relations:
   - { type: born_in, target: place/delhi, sources: [source/wikipedia-shah-rukh-khan-en, source/wikidata-shah-rukh-khan] }
 faith:
