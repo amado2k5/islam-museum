@@ -1,0 +1,23 @@
+id: concept/mal-al-malinkhuliya
+class: concept
+kind: scientific
+label:
+  ar: "مآل المالنخوليا"
+  en: "Course and outlook of melancholia"
+  ur: "مالنخولیا کا انجام"
+summary:
+  ar: "يذكر ابن سينا ما يدل في المالنخوليا على الخير أو الموت: أسلمها ما كان عن عكر الدم ومع فرح، وانحلالها بالبواسير والدوالي، وظهور السوداء المتحركة في القيء والبراز، والقروح علامة موت قريب {cite:canon-ibn-sina-print-v2 p.105} {cite:canon-ibn-sina-print-v2 p.110} {cite:canon-ibn-sina-print-v2 p.111}"
+  en: "Ibn Sina gives what points in melancholia to good or to death: the safest is from the dregs of blood and with joy, it resolves by piles and varicose veins, black bile that moves shows in the vomit and stool, and sores on the body are a sign of near death {cite:canon-ibn-sina-print-v2 p.105} {cite:canon-ibn-sina-print-v2 p.110} {cite:canon-ibn-sina-print-v2 p.111}"
+  ur: "ابن سینا بتاتا ہے کہ مالنخولیا میں کیا بھلائی یا موت کی طرف اشارہ کرتا ہے: سب سے محفوظ وہ ہے جو خون کی تلچھٹ سے ہو اور خوشی کے ساتھ ہو، یہ بواسیر اور دوالی سے حل ہوتا ہے، حرکت کرنے والا سودا قے اور فضلے میں ظاہر ہوتا ہے، اور بدن پر پھوڑے قریبی موت کی علامت ہیں {cite:canon-ibn-sina-print-v2 p.105} {cite:canon-ibn-sina-print-v2 p.110} {cite:canon-ibn-sina-print-v2 p.111}۔"
+wings: [living]
+tags: [tibb-browser, tibb-tibb]
+sources: [source/canon-ibn-sina-print-v2]
+relations:
+  - { type: part_of, target: concept/disease, sources: [source/canon-ibn-sina-print-v2] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 1, maqala 4 and 5, scan pages 105 to 111, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json) with the PDF page images rendered with pdftoppm and read by eye against the OCR for every cited page (lists of signs and unclear words at 200 to 220 dpi); editor footnotes used only for glosses and labelled as the editor's; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein and cupping sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book3-5
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

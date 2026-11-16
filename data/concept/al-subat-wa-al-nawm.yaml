@@ -1,0 +1,23 @@
+id: concept/al-subat-wa-al-nawm
+class: concept
+kind: scientific
+label:
+  ar: "السبات والنوم"
+  en: "Coma (al-subat) and sleep"
+  ur: "غنودگی ⁦(السبات)⁩ اور نیند"
+summary:
+  ar: "يفتتح ابن سينا المقالة الرابعة بفصل السبات والنوم: يعرّف السبات بأنه النوم المفرط الثقيل في المدة والكيفية، ويعرّف النوم برجوع الروح النفساني عن آلات الحس والحركة، ويفصّل النوم الطبيعي وأنواع النوم غير الطبيعي {cite:canon-ibn-sina-print-v2 p.89} {cite:canon-ibn-sina-print-v2 p.90}"
+  en: "Ibn Sina opens the fourth maqala with the chapter on coma and sleep: he defines coma as excessive sleep that is heavy in both length and kind, defines sleep as the return of the psychic pneuma from the instruments of sense and movement, and sets out natural sleep and the kinds of sleep that are not natural {cite:canon-ibn-sina-print-v2 p.89} {cite:canon-ibn-sina-print-v2 p.90}"
+  ur: "ابن سینا چوتھا مقالہ سبات اور نیند کے باب سے شروع کرتا ہے: سبات کو مدت اور کیفیت دونوں میں بھاری حد سے بڑھی نیند بتاتا ہے، نیند کو روحِ نفسانی کے حس اور حرکت کے آلات سے لوٹنے سے تعریف کرتا ہے، اور فطری نیند اور غیر فطری نیند کی قسمیں بیان کرتا ہے {cite:canon-ibn-sina-print-v2 p.89} {cite:canon-ibn-sina-print-v2 p.90}۔"
+wings: [living]
+tags: [tibb-browser, tibb-tibb]
+sources: [source/canon-ibn-sina-print-v2]
+relations:
+  - { type: part_of, target: concept/disease, sources: [source/canon-ibn-sina-print-v2] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 1, maqala 3 and 4, scan pages 89-90, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json) with the PDF page images rendered with pdftoppm and read by eye against the OCR for every cited page; editor footnotes used only for glosses and labelled as the editor's; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein and cupping sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book3-3
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

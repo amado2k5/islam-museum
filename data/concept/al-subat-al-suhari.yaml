@@ -1,0 +1,23 @@
+id: concept/al-subat-al-suhari
+class: concept
+kind: scientific
+label:
+  ar: "السبات السهري"
+  en: "Sleepless coma (al-subat al-suhari)"
+  ur: "جاگتی غنودگی ⁦(السبات السہری)⁩"
+summary:
+  ar: "يصف ابن سينا السبات السهري بأنه علة سرسامية مركبة من السرسام البارد والحار، ورمها من البلغم والصفراء معاً، وسببها الامتلاء من النهم، ويذكر علامات غلبة كل خلط، وما يفارق به ليثرغس وقرانيطس؛ وفيه سطر موسوم في قسم معلق لحكم المؤسس {cite:canon-ibn-sina-print-v2 p.87} {cite:canon-ibn-sina-print-v2 p.88}"
+  en: "Ibn Sina describes the sleepless coma as a sarsam-like illness made of the cold and the hot sarsam, its swelling from phlegm and bile together, its cause fullness from gluttony; he gives the signs of the prevailing of each humour and how it differs from lithargus and qaranitus; the record has a labelled line in a section held for the founder's ruling {cite:canon-ibn-sina-print-v2 p.87} {cite:canon-ibn-sina-print-v2 p.88}"
+  ur: "ابن سینا سبات سہری کو سرسامی بیماری بتاتا ہے جو ٹھنڈے اور گرم سرسام سے مرکب ہے، اس کی سوجن بلغم اور صفراء دونوں سے ہے، اور اس کا سبب پیٹ بھرنے کی حرص سے بھراؤ ہے؛ ہر خلط کے غالب ہونے کی علامات بتاتا ہے اور یہ کہ وہ لیثرغس اور قرانیطس سے کیسے مختلف ہے؛ اس میں ایک موسوم سطر بانی کے فیصلے کے لیے موقوف قسم میں ہے {cite:canon-ibn-sina-print-v2 p.87} {cite:canon-ibn-sina-print-v2 p.88}۔"
+wings: [living]
+tags: [tibb-browser, tibb-tibb]
+sources: [source/canon-ibn-sina-print-v2]
+relations:
+  - { type: part_of, target: concept/disease, sources: [source/canon-ibn-sina-print-v2] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 1, maqala 3, scan pages 87-88, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json) with the PDF page images rendered with pdftoppm and read by eye against the OCR for every cited page; editor footnotes used only for glosses and labelled as the editor's; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein and cupping sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book3-3
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

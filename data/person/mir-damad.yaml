@@ -18,7 +18,7 @@ relations:
   - { type: buried_in, target: building/imam-ali-shrine, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 faith:
 - { value: shia-twelver, basis: tradition, note: "Safavid Imami philosopher per the biographical tradition" }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/oxford-dictionary-of-islam]
 external_ids:
   wikidata: Q3315763
 provenance:
@@ -27,6 +27,7 @@ provenance:
   generated_by: "Devin (SWE-2 High)"
   model: "SWE-2 High"
   run: wikidata-import-0016
+  oxford_captures: "t125/e1522: http://www.oxfordislamicstudies.com/article/opr/t125/e1522 ; https://web.archive.org/web/20170620101502/http://www.oxfordislamicstudies.com:80/article/opr/t125/e1522"
 status:
   review: draft
   completeness: 1

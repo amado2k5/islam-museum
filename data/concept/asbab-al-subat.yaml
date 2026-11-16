@@ -1,0 +1,23 @@
+id: concept/asbab-al-subat
+class: concept
+kind: scientific
+label:
+  ar: "أسباب السبات"
+  en: "The causes of coma"
+  ur: "غنودگی کے اسباب"
+summary:
+  ar: "يعدّد ابن سينا أسباب السبات: البرد والرطوبة، واشتداد نوائب الحمى، ورداءة الأخلاط والبخارات المتصاعدة إلى مقدم الدماغ، والديدان، وانضغاط الدماغ بالضربة، وشدة الوجع، وضعف الروح وتحلله، ويستدل منها على أن الآفة في مقدّم الدماغ؛ وفيه سطر موسوم في قسم معلق لحكم المؤسس {cite:canon-ibn-sina-print-v2 p.90} {cite:canon-ibn-sina-print-v2 p.91}"
+  en: "Ibn Sina lists the causes of coma: cold and moisture, the intensifying of the fits of fever, badness of humours and vapours rising to the front of the brain, worms, pressure on the brain from a blow, severe pain, and weakness and dissolving of the pneuma, and reasons from them that the disorder is in the front of the brain; the record has a labelled line in a section held for the founder's ruling {cite:canon-ibn-sina-print-v2 p.90} {cite:canon-ibn-sina-print-v2 p.91}"
+  ur: "ابن سینا غنودگی کے اسباب گنواتا ہے: سردی اور رطوبت، بخار کے دوروں کا تیز ہونا، اخلاط کی خرابی اور دماغ کے اگلے حصے کی طرف چڑھنے والے بخارات، کیڑے، ضرب سے دماغ کا دبنا، سخت درد، اور روح کی کمزوری اور تحلیل، اور ان سے استدلال کرتا ہے کہ خرابی دماغ کے اگلے حصے میں ہے؛ اس میں ایک موسوم سطر بانی کے فیصلے کے لیے موقوف قسم میں ہے {cite:canon-ibn-sina-print-v2 p.90} {cite:canon-ibn-sina-print-v2 p.91}۔"
+wings: [living]
+tags: [tibb-browser, tibb-tibb]
+sources: [source/canon-ibn-sina-print-v2]
+relations:
+  - { type: part_of, target: concept/disease, sources: [source/canon-ibn-sina-print-v2] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 1, maqala 3 and 4, scan pages 90-91, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json) with the PDF page images rendered with pdftoppm and read by eye against the OCR for every cited page; editor footnotes used only for glosses and labelled as the editor's; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein and cupping sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book3-3
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

@@ -1,0 +1,23 @@
+id: concept/al-ma-wa-al-awram-fi-al-ras-dakhil-al-qahf-wa-kharijih
+class: concept
+kind: scientific
+label:
+  ar: "الماء والأورام في الرأس داخل القحف وخارجه"
+  en: "Water and swellings in the head, inside and outside the skull"
+  ur: "سر میں پانی اور سوجنیں، کھوپڑی کے اندر اور باہر"
+summary:
+  ar: "يذكر ابن سينا الماء الذي يجتمع داخل القحف وعلاماته، والأورام الحارة والباردة في الحجب الخارجة والماء بين القحف والجلد وكيف يُفرَّق بينهما، وعطاس الصبيان؛ وفيه سطر موسوم في قسم معلق لحكم المؤسس {cite:canon-ibn-sina-print-v2 p.86} {cite:canon-ibn-sina-print-v2 p.87}"
+  en: "Ibn Sina treats the water that gathers inside the skull and its signs, the hot and cold swellings of the outer membranes and the water between skull and skin and how they are told apart, and the sneezing of infants; the record has a labelled line in a section held for the founder's ruling {cite:canon-ibn-sina-print-v2 p.86} {cite:canon-ibn-sina-print-v2 p.87}"
+  ur: "ابن سینا کھوپڑی کے اندر جمع ہونے والا پانی اور اس کی علامات، بیرونی جھلیوں کی گرم اور ٹھنڈی سوجنیں اور کھوپڑی اور کھال کے درمیان کا پانی اور ان کا فرق، اور بچوں کی چھینک بیان کرتا ہے؛ اس میں ایک موسوم سطر بانی کے فیصلے کے لیے موقوف قسم میں ہے {cite:canon-ibn-sina-print-v2 p.86} {cite:canon-ibn-sina-print-v2 p.87}۔"
+wings: [living]
+tags: [tibb-browser, tibb-tibb]
+sources: [source/canon-ibn-sina-print-v2]
+relations:
+  - { type: part_of, target: concept/disease, sources: [source/canon-ibn-sina-print-v2] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 1, maqala 3, scan pages 86-87, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json) with the PDF page images rendered with pdftoppm and read by eye against the OCR for every cited page; editor footnotes used only for glosses and labelled as the editor's; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein and cupping sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book3-3
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

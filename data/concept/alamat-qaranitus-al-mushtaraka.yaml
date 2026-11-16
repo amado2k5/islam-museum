@@ -1,0 +1,23 @@
+id: concept/alamat-qaranitus-al-mushtaraka
+class: concept
+kind: scientific
+label:
+  ar: "العلامات المشتركة لقرانيطس"
+  en: "The common signs of qaranitus"
+  ur: "قرانیطس کی مشترک علامات"
+summary:
+  ar: "يعدّد ابن سينا العلامات المشتركة لأصناف قرانيطس الحقيقية من الحمى اللازمة اليابسة والهذيان واختلاط العقل وعبث الأطراف والنوم المضطرب وطباع العليل وأقواله وأبواله ونبضه {cite:canon-ibn-sina-print-v2 p.77} {cite:canon-ibn-sina-print-v2 p.78}"
+  en: "Ibn Sina lists the signs common to the true kinds of qaranitus: the continued dry fever, raving, confusion of mind, plucking of the limbs, troubled sleep, and the patient's temper, speech, urine and pulse {cite:canon-ibn-sina-print-v2 p.77} {cite:canon-ibn-sina-print-v2 p.78}"
+  ur: "ابن سینا قرانیطس کی حقیقی قسموں کی مشترک علامات گنواتا ہے: لازم خشک بخار، ہذیان، عقل کا اختلاط، اطراف کا ٹٹولنا، بے چین نیند، اور مریض کا مزاج، گفتگو، پیشاب اور نبض {cite:canon-ibn-sina-print-v2 p.77} {cite:canon-ibn-sina-print-v2 p.78}۔"
+wings: [living]
+tags: [tibb-browser, tibb-tibb]
+sources: [source/canon-ibn-sina-print-v2]
+relations:
+  - { type: part_of, target: concept/symptoms-and-signs, sources: [source/canon-ibn-sina-print-v2] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 1, maqala 3, scan pages 77-78, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json) with the PDF page images rendered with pdftoppm and read by eye against the OCR for every cited page; editor footnotes used only for glosses and labelled as the editor's; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein and cupping sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book3-3
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

@@ -1,0 +1,23 @@
+id: concept/ilaj-ikhtilat-al-dhihn
+class: concept
+kind: scientific
+label:
+  ar: "علاج اختلاط الذهن"
+  en: "Treatment of confusion of the mind"
+  ur: "ذہن کی گڑبڑ کا علاج"
+summary:
+  ar: "يذكر ابن سينا مبادئ علاج اختلاط الذهن بحسب سببه: الإحالة إلى باب المالنخوليا، وتعديل الدم، والاستفراغ وتبديل المزاج في الصفراء، وتقوية الرأس عند مشاركة عضو، ويحيل صعبه إلى تدبير مانيا؛ ولا تُنقل الوصفات ولا طرق الاستعمال {cite:canon-ibn-sina-print-v2 p.98}"
+  en: "Ibn Sina gives the principles of treating confusion of the mind by its cause: referral to the chapter on melancholia, tempering the blood, evacuation and change of temperament for yellow bile, strengthening the head where another organ shares, and treating the severe as mania; recipes and methods of application are not reproduced {cite:canon-ibn-sina-print-v2 p.98}"
+  ur: "ابن سینا ذہن کی گڑبڑ کے علاج کے اصول سبب کے مطابق بتاتا ہے: مالنخولیا کے باب کا حوالہ، خون کو معتدل کرنا، صفراء میں استفراغ اور مزاج کی تبدیلی، کسی عضو کی شرکت میں سر کو قوت دینا، اور شدید کو مانیا کی تدبیر پر رکھنا؛ نسخے اور استعمال کے طریقے نقل نہیں کیے گئے {cite:canon-ibn-sina-print-v2 p.98}۔"
+wings: [living]
+tags: [tibb-browser, tibb-tibb, tibb-tadawi]
+sources: [source/canon-ibn-sina-print-v2]
+relations:
+  - { type: part_of, target: concept/medical-treatment, sources: [source/canon-ibn-sina-print-v2] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 1, maqala 4, scan pages 98, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json) with the PDF page images rendered with pdftoppm and read by eye against the OCR for every cited page (lists of signs and doubtful lines at 200 dpi); editor footnotes used only for glosses and labelled as the editor's; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein and cupping sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book3-4
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

@@ -1,0 +1,23 @@
+id: concept/al-shajja-wa-qat-jild-al-ras
+class: concept
+kind: scientific
+label:
+  ar: "الشجة وقطع جلد الرأس وما يجري مجراه"
+  en: "Head wounds and cuts of the scalp and the like"
+  ur: "سر کے زخم اور کھال کا کٹنا اور اس جیسی چیزیں"
+summary:
+  ar: "يذكر ابن سينا أقسام التفرق الواقع في الرأس في الجلد واللحم والعظم، وما يحدث في الجراحات الواصلة إلى غشاء الدماغ، وأيّ بطون الدماغ أقرب إلى السلامة، ومذهبي الأطباء في علاج كسر القحف المنقلع؛ وتُحال التفاصيل إلى مواضعها ولا تُنقل الأدوية {cite:canon-ibn-sina-print-v2 p.89}"
+  en: "Ibn Sina names the kinds of break of continuity in the head, in skin and flesh and in bone, what comes in wounds that reach the membrane of the brain, which ventricles of the brain are nearer to safety, and the two schools of physicians on the treatment of the displaced fracture of the skull; the particulars are referred to their places and the remedies are not reproduced {cite:canon-ibn-sina-print-v2 p.89}"
+  ur: "ابن سینا سر میں اتصال ٹوٹنے کی قسمیں بتاتا ہے، کھال اور گوشت میں اور ہڈی میں، ان زخموں میں جو دماغ کی جھلی تک پہنچیں کیا ہوتا ہے، دماغ کے کون سے خانے سلامتی کے زیادہ قریب ہیں، اور کھوپڑی کے اکھڑے ہوئے ٹوٹنے کے علاج میں اطبا کے دو مذاہب؛ تفصیلات اپنے مقامات کی طرف لوٹائی گئی ہیں اور دوائیں نقل نہیں کی گئیں {cite:canon-ibn-sina-print-v2 p.89}۔"
+wings: [living]
+tags: [tibb-browser, tibb-tibb]
+sources: [source/canon-ibn-sina-print-v2]
+relations:
+  - { type: part_of, target: concept/disease, sources: [source/canon-ibn-sina-print-v2] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 1, maqala 3 and 4, scan pages 89, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json) with the PDF page images rendered with pdftoppm and read by eye against the OCR for every cited page; editor footnotes used only for glosses and labelled as the editor's; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein and cupping sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book3-3
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

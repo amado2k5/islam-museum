@@ -1,0 +1,23 @@
+id: concept/ilaj-fasad-al-dhikr
+class: concept
+kind: scientific
+label:
+  ar: "علاج فساد الذكر"
+  en: "Treatment of corruption of memory"
+  ur: "یاد کے بگاڑ کا علاج"
+summary:
+  ar: "يذكر ابن سينا مبادئ علاج فساد الذكر بحسب سببه: الغذاء المرطب من اليبس، والاستفراغ بعد الإنضاج مع التدرج في التجفيف من المادة الباردة الرطبة، وأن يُجتنب ما يضر الروح الحاس، ويحيل الورم إلى علاج قرانيطس وليثرغس والسبات السهري؛ ولا تُنقل الوصفات ولا طرق الاستعمال {cite:canon-ibn-sina-print-v2 p.99} {cite:canon-ibn-sina-print-v2 p.100}"
+  en: "Ibn Sina gives the principles of treating corruption of memory by its cause: moistening food for dryness; for the cold moist matter, evacuation after ripening and gradual drying; avoiding what harms the sensing spirit; and, for a swelling, the treatment of qaranitus, lithargus and the sleepless coma; recipes and methods of application are not reproduced {cite:canon-ibn-sina-print-v2 p.99} {cite:canon-ibn-sina-print-v2 p.100}"
+  ur: "ابن سینا یاد کے بگاڑ کے علاج کے اصول سبب کے مطابق بتاتا ہے: خشکی میں تر کرنے والی غذا؛ ٹھنڈے تر مادے میں پکانے کے بعد استفراغ اور آہستہ آہستہ خشک کرنا؛ اس سے بچنا جو حس والی روح کو نقصان دے؛ اور سوجن میں قرانیطس، لیثرغس اور جاگتی غنودگی کا علاج؛ نسخے اور استعمال کے طریقے نقل نہیں کیے گئے {cite:canon-ibn-sina-print-v2 p.99} {cite:canon-ibn-sina-print-v2 p.100}۔"
+wings: [living]
+tags: [tibb-browser, tibb-tibb, tibb-tadawi]
+sources: [source/canon-ibn-sina-print-v2]
+relations:
+  - { type: part_of, target: concept/medical-treatment, sources: [source/canon-ibn-sina-print-v2] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 1, maqala 4, scan pages 99 to 100, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json) with the PDF page images rendered with pdftoppm and read by eye against the OCR for every cited page (lists of signs and doubtful lines at 200 dpi); editor footnotes used only for glosses and labelled as the editor's; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein and cupping sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book3-4
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

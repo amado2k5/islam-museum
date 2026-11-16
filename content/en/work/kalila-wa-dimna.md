@@ -12,3 +12,6 @@ Ibn al-Nadim reports that opinions differ about it. Some said that it was made b
 
 ## Its versions in verse and its abridgements
 Abban ibn Abd al-Hamid al-Raqqashi, Ali ibn Dawud, secretary to Zubayda, and Ishaq ibn al-Mu'tadid rendered it into verse. Ibn al-Nadim saw in one copy two added chapters. Ibn al-Muqaffa, Sahl ibn Harun, Sahl, the keeper of the House of Wisdom, and al-Mard al-Aswad, whom al-Mutawakkil summoned from Persia, made collections and extracts from it. {cite:fihrist-ibn-al-nadim p.423-424}
+
+## In The Oxford Dictionary of Islam
+The Oxford Dictionary of Islam describes Kalila wa Dimna as an allegory that began in India and is told by two jackals; its stories aim to steer people toward ethical and moral behaviour in matters from bringing up children to making policy. The Pahlavi manuscript it came from was rendered into Arabic, the entry says, by Ibn al-Muqaffa (died 759). {cite:oxford-dictionary-of-islam e1231}

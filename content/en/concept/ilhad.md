@@ -24,3 +24,6 @@ Digging a lahd (niche) in the grave is a sunna for the Hanafis and Hanbalis, fol
 ## Ilhad in religion and its effects
 - The one who commits ilhad may be a polytheist by origin, whose case falls under polytheism; a dhimmi who attacks the religion openly, whose covenant is then broken; or a Muslim, who takes the rulings of apostasy or heresy. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3319}
 - A Muslim who turns to ilhad is asked to repent by those who hold that view. If he repents he regains his acts of worship and his contracts; if he does not, he is treated as an executed apostate. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3319}
+
+## In The Oxford Dictionary of Islam
+The Oxford Dictionary of Islam defines ilhad as a heresy that twists the basic teachings of Islam, above all from within the community. Conduct, it says, only counts as ilhad once it appears openly as rebellion or blasphemy, and the word is nearly always found in polemical writing or polemical settings. {cite:oxford-dictionary-of-islam e996}

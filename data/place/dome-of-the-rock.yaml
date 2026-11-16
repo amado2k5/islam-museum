@@ -12,11 +12,12 @@ coordinate_precision: approx
 coordinate_note: "Matched to Wikidata Q172077 by name; coordinates approximate until verified against a gazetteer."
 relations:
   - { type: located_in, target: place/jerusalem }
-sources: [source/bayt-al-maqdis-fi-al-islam-azhar, source/wikidata]
+sources: [source/bayt-al-maqdis-fi-al-islam-azhar, source/wikidata, source/oxford-dictionary-of-islam]
 provenance:
   layer: own-research
   source: "Bayt al-Maqdis fi al-Islam (Academy, Scientific Series), PDF pp. 17, 43, 52, 93"
   generated_by: "Claude Code (Haiku 5.5)"
   model: claude-haiku-5-5
   run: azhar-bayt-al-maqdis-fi-al-islam-azhar
+  oxford_captures: "t125/e1939: http://www.oxfordislamicstudies.com/article/opr/t125/e1939 ; https://web.archive.org/web/20161106134112/http://www.oxfordislamicstudies.com:80/article/opr/t125/e1939"
 status: { review: draft, completeness: 1, generated_by: "Claude Code (Haiku 5.5); the 685-691 dates need a second source before review" }
