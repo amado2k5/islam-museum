@@ -6,6 +6,12 @@ summary:
   en: "Nasir al-Din Muhammad ibn Muhammad ibn al-Hasan al-Tusi (d. AH 672/1274 CE) was a prolific scholar of astronomy, mathematics, philosophy, theology and ethics, born at Tus, who served the Isma'ili courts of Quhistan and Alamut and then the entourage of Hulagu, and directed the Maragha observatory. The Encyclopaedia of Islam credits him with an original planetary model, the Tusi couple, and with the Tajrid al-i'tiqad, an authoritative Twelver Shi'i theological text. He composed his Persian Akhlaq-i Nasiri in Quhistan for its amir {cite:kashf-zunun-furqan p. 268}."
   ur: "نصیر الدین محمد بن محمد بن الحسن الطوسی، متوفی 672ھ/1274ء، فلکیات، ریاضی، فلسفہ، کلام اور اخلاق کے کثیر التصنیف عالم تھے، طوس میں پیدا ہوئے، قہستان اور الموت کے اسماعیلی درباروں اور پھر ہلاکو کی مجلس میں رہے، اور مراغہ کی رصدگاہ کے ناظم بنے۔ دائرۃ المعارف الاسلامیہ ان سے سیاروں کی حرکت کا اصیل ماڈل، جو طوسی جوڑا کہلاتا ہے، اور اثنا عشری شیعہ کلام کی مستند کتاب تجرید الاعتقاد منسوب کرتی ہے۔ انہوں نے اپنی فارسی کتاب اخلاقِ ناصری قہستان کے امیر کے لیے لکھی {cite:kashf-zunun-furqan p. 268}۔"
 gender: male
+traditions: [shia-twelver]
+faith:
+  - value: shia-twelver
+    basis: documented
+    note: "EI2 (already cited on this record) calls his Tajrid al-i'tiqad an authoritative Twelver Shi'i theological text and his service to the Isma'ili courts of Quhistan and Alamut is part of the same documented account; the affiliation is recorded, not inferred from name or patrons."
+    sources: [source/encyclopaedia-of-islam-2, source/kashf-zunun-furqan]
 wings: [people]
 periods: [period/mongol-post-mongol]
 regions: [persia-central-asia]
@@ -16,6 +22,7 @@ relations:
   - { type: lived_in, target: place/tus, confidence: low, note: "Association inferred from the nisba 'الطوسي'; specific birthplace or residence is not individually documented.", sources: [source/kashf-zunun-furqan, source/encyclopaedia-of-islam-2] }
 provenance:
   layer: own-research
+  model: devin
   source: "كشف الظنون لحاجي خليفة (ط الفرقان) ج١ ص 268 مدخل 374"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-kashf-batch-2

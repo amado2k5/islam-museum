@@ -13,6 +13,10 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v1.52.0 — 2026-11-16
+### Added
+- Five more Inventions Browser records built from recorded Wikipedia revisions and open-access scholarship (Schmidl's BEA entry read in full, Szostakowski-Smitham-Khan 2017), each with Arabic, English and Urdu prose: the zij as an astronomical genre; the sine quadrant; al-Urdi's lemma; Muslim work on Euclid's parallel postulate; and the plaster-and-stiffened cast in fracture care.
+
 ## v1.51.0 — 2026-11-16
 ### Added
 - Citation infrastructure for researchers: a new “Cite the museum” page (`/{lang}/cite/`, in Arabic, English and Urdu, linked from the footer of every page) states the museum's citation policy — always cite the dataset's Zenodo concept DOI (10.5281/zenodo.23692511), never a single day's version DOI, so citations aggregate on one record — and gives the copy-ready citation plus BibTeX and RIS for reference managers. The page carries the site's schema.org `Dataset` markup (identifier, creator with ORCID, CC0 licence and the graph/API/Zenodo downloads), so dataset indexes such as Google Dataset Search can read the dataset as a dataset. A `CITATION.cff` at the repository root gives GitHub a “Cite this repository” entry whose preferred citation is the same concept DOI.

@@ -1,0 +1,240 @@
+id: invention/sine-quadrant
+class: invention
+label:
+  ar: الربع المجيب، ربع الجيب الحاسوبي
+  en: The sine quadrant (rub mujayyab), a computational astrolabe-quadrant
+  ur: ربعِ مجیب، حسابی اسطرلابی چوتھائی
+names:
+- value: الربع المجيب
+  kind: alternate
+  lang: ar
+- value: ربع مجيب
+  kind: alternate
+  lang: ar
+- value: sine quadrant
+  kind: alternate
+  lang: en
+- value: sinecal quadrant
+  kind: alternate
+  lang: en
+summary:
+  ar: ربع دائرة من خشب أو نحاس مقسّم القوس إلى تسعين درجة وبضلعيه المستقيمين شبكة
+    جيبية بالستينات، بخيط ثقال ⁦(الخيط)⁩ ولوحتي تصويب ثقبيتين؛ يقيس ارتفاع الشمس والأجرام
+    ويعيّن الوقت والاتجاهات ويجري حسابات مثلثية بالخيط المنزلق. وصفه الخوارزمي ببغداد
+    القرن التاسع واستُعمل عبر العالم الإسلامي لتحديد أوقات الصلاة {cite:wikipedia-sine-quadrant-en}
+    {cite:king-islamic-astronomy-1999}.
+  en: A quarter-circle of wood or brass whose arc is divided into ninety degrees and
+    whose straight sides carry a sexagesimal sine grid, with a weighted plumb cord
+    (khait) and two pinhole sighting plates; it measures the altitude of the sun and
+    celestial bodies, tells time and direction, and performs trigonometric computation
+    by the sliding cord. Al-Khwarizmi described it in ninth-century Baghdad, and it
+    was used across the Islamic world for determining prayer times {cite:wikipedia-sine-quadrant-en}
+    {cite:king-islamic-astronomy-1999}.
+  ur: لکڑی یا پیتل کی چوتھائی دائرہ جس کا قوس نوے درجوں میں بٹا اور مستقیم ضلعوں پر
+    سٹھ کی گنتی کی جیبی جال؛ ثقلی ڈور ⁦(خیت)⁩ اور دو سوراخی نظر پٹیوں سے مزین؛ سورج
+    اور آسمانی اجرام کا بلندی زاویہ ناپتا، وقت اور سمت بتاتا، اور سلائیڈنگ ڈور سے
+    مثلثیاتی حساب کرتا۔ خوارزمی نے نویں صدی کے بغداد میں اس کا وصف کیا اور اسلامی
+    دنیا بھر میں اوقاتِ نماز کے لیے مستعمل رہا {cite:wikipedia-sine-quadrant-en} {cite:king-islamic-astronomy-1999}۔
+domain: astronomy-instruments
+kind: instrument
+disciplines:
+- astronomy
+- mathematics
+wings:
+- objects
+regions:
+- levant-iraq
+- persia-central-asia
+- andalus-europe
+- egypt-nile
+- anatolia-balkans
+periods:
+- period/abbasid-early
+- period/buyid-seljuk-fatimid-era
+- period/crusades-ayyubid-mamluk
+- period/gunpowder-empires
+themes:
+- astronomy-and-timekeeping
+- worship-and-the-pillars
+era:
+  origins: abbasid-golden
+  first_attested:
+    edtf: 0820/0860
+    hijri: "0205~"
+    calendar: julian
+    precision: decade
+    status: historical
+    note: 'Anchor: the ninth-century description by al-Khwarizmi reported by King;
+      the span covers his Baghdad working life, not a dated invention event. Hijri
+      figures are derived conversions.'
+    derived: true
+    sources:
+    - source/wikipedia-sine-quadrant-en
+    - source/king-islamic-astronomy-1999
+  status_today: replaced
+origin:
+  polity: polity/abbasid-caliphate
+  place: place/baghdad
+  context:
+    ar: الشاهد الأول المسمى وصف الخوارزمي للآلة في بغداد القرن التاسع؛ والأرجح أن
+      الشبكة الجيبية نضجت من تقاطع القوس المقسّم القديم مع جداول الجيب التي جاءت من
+      الهند، قبل أن تصير أداة الموقت اليومية {cite:wikipedia-sine-quadrant-en} {cite:king-islamic-astronomy-1999}.
+    en: The first named witness is al-Khwarizmi's description of the instrument in
+      ninth-century Baghdad; the sine grid most plausibly matured where the old graduated
+      arc met the Indian sine tables, before becoming the timekeeper's everyday tool
+      {cite:wikipedia-sine-quadrant-en} {cite:king-islamic-astronomy-1999}.
+    ur: پہلا نامزد شاہد نویں صدی کے بغداد میں خوارزمی کی تحریر ہے؛ جیبی جال غالباً
+      قدیم مدرج قوس اور ہندوستانی جیب جدولوں کے سنگم سے پکی، پھر یہ مقت کا روزمرہ
+      آلہ بنا {cite:wikipedia-sine-quadrant-en} {cite:king-islamic-astronomy-1999}۔
+makers:
+- person: person/al-khwarizmi
+  role: describer
+  place: place/baghdad
+  note: Described the sine quadrant in ninth-century Baghdad per King's account; a
+    widely shared instrument has no single inventor, so he is recorded as the earliest
+    named witness, not a sole maker.
+  sources:
+  - source/wikipedia-sine-quadrant-en
+  - source/king-islamic-astronomy-1999
+- person: person/ibn-al-shatir
+  role: improver
+  place: place/damascus
+  note: The fourteenth-century Damascus muwaqqit Ibn al-Shatir is catalogued in the
+    museum for his complete quadrant, which united the instrument traditions on one
+    plate; his Muslim identity is documented on the person record.
+  sources:
+  - source/king-ibn-shatir-bea
+attribution:
+  status: original
+  claim:
+    ar: الآلة عربية المنشأ بشهادة الوصف الخوارزمي البغدادي المبكر والاستعمال الإسلامي
+      الواسع؛ لا يُدَّعى لها مخترع واحد {cite:wikipedia-sine-quadrant-en}.
+    en: An Arabic-born instrument on the evidence of the early Baghdad description
+      and its wide Islamic use; no single inventor is claimed {cite:wikipedia-sine-quadrant-en}.
+    ur: ابتدائی بغدادی وصف اور وسیع اسلامی استعمال کی بنیاد پر عربی نژاد آلہ؛ کسی
+      واحد مخترع کا دعویٰ نہیں {cite:wikipedia-sine-quadrant-en}۔
+  basis:
+    ar: 'تقوم المطالبة على كينغ ⁦(1999)⁩ عبر المراجعة المسجلة: وصف الخوارزمي في القرن
+      التاسع والخدمة المستمرة لتحديد الصلاة؛ وصف الآلة عينها ⁦(شبكة الجيب، الخيط،
+      الثقبان)⁩ يطابق ما تحفظه المتاحف {cite:wikipedia-sine-quadrant-en} {cite:king-islamic-astronomy-1999}.'
+    en: 'The claim rests on King (1999) via the recorded revision: al-Khwarizmi''s
+      ninth-century description and the instrument''s continuing service to prayer
+      times; the described device (sine grid, cord, pinholes) matches museum specimens
+      {cite:wikipedia-sine-quadrant-en} {cite:king-islamic-astronomy-1999}.'
+    ur: 'دعویٰ کنگ ⁦(1999)⁩ پر قائم ہے بطور محفوظ ریویژن: خوارزمی کی نویں صدی کی تحریر
+      اور نماز کے اوقات میں مسلسل خدمت؛ بیان شدہ آلہ ⁦(جیبی جال، ڈور، سوراخ)⁩ عجائب
+      گھر کے نمونوں سے میل کھاتا ہے {cite:wikipedia-sine-quadrant-en} {cite:king-islamic-astronomy-1999}۔'
+precursors:
+- external:
+    ar: جداول الجيب الهندية
+    en: The Indian sine tables
+    ur: ہندوستانی جیب جدول
+  note: The sine function and its tables reached Baghdad with the Sindhind material;
+    the quadrant's grid is that table drawn on brass.
+  sources:
+  - source/wikipedia-sine-quadrant-en
+- external:
+    ar: الربع المدرج والأسطرلاب المستوي
+    en: The graduated altitude quadrant and the plane astrolabe
+    ur: مدرج ارتفاعی چوتھائی اور مستوی اسطرلاب
+  note: The older quarter-circle sighting frame and the astrolabe's projection supplied
+    the sighting and computation habits the sine quadrant condensed.
+  sources:
+  - source/wikipedia-sine-quadrant-en
+dependents:
+- invention: invention/shatir-complete-quadrant
+  note: Ibn al-Shatir's complete quadrant already catalogued in the museum — the fourteenth-century
+    culmination of the quadrant family.
+  sources:
+  - source/king-ibn-shatir-bea
+- external:
+    ar: الربع الملاحي الأوروبي
+    en: The European navigational quadrant
+    ur: یورپی ملاحی چوتھائی
+  note: The skeletal sea-going version for taking the sun's altitude, cousin of the
+    Arabic maritime form described as hollowed to spare the hand from wind.
+  sources:
+  - source/wikipedia-sine-quadrant-en
+spread: []
+impact:
+  fields:
+  - astronomy-instruments
+  - timekeeping
+  changed:
+    ar: 'وضع حساب المثلثات في جيب الموقت: بخيط منزلق على شبكة الجيب يُستخرج الجيب
+      وجيب التمام والظل بصرياً، فصار تحديد أوقات الصلاة واتجاه القبلة عملاً ميدانياً
+      لا مكتبياً {cite:wikipedia-sine-quadrant-en}.'
+    en: 'It pocketed trigonometry for the prayer-timekeeper: the sliding cord on the
+      sine grid reads off sines, cosines and shadows visually, so fixing prayer times
+      and direction became fieldwork, not desk work {cite:wikipedia-sine-quadrant-en}.'
+    ur: 'مقت کی جیب میں مثلثیات ڈال دی: سلائیڈنگ ڈور جیبی جال پر جیب، جیبِ تمام اور
+      سایہ بصری طور پر دیتا، تو اوقاتِ نماز اور سمت کا تعین میدانی کام بنا نہ کہ میزی
+      {cite:wikipedia-sine-quadrant-en}۔'
+  history:
+    ar: خدمت الآلة من بغداد القرن التاسع إلى المقاييس العثمانية المصنوعة من الخشب
+      والنحاس في القرن التاسع عشر؛ ومن أنواعها نسخة ملاحية مجردة لتجنب الريح، وجمعها
+      ابن الشاطر بدمشق في «الربع الكامل» {cite:wikipedia-sine-quadrant-en} {cite:king-ibn-shatir-bea}.
+    en: The instrument served from ninth-century Baghdad to nineteenth-century Ottoman
+      wooden and brass specimens; its family includes a skeletal maritime form and
+      Ibn al-Shatir's complete quadrant at Damascus {cite:wikipedia-sine-quadrant-en}
+      {cite:king-ibn-shatir-bea}.
+    ur: نویں صدی کے بغداد سے انیسویں صدی کے عثمانی لکڑی اور پیتل کے نمونوں تک آلہ
+      خدمت کرتا رہا؛ خاندان میں ملاحی مجوف صورت اور ابن الشاطر کا «مکمل چوتھائی» دمشق
+      میں شامل ہے {cite:wikipedia-sine-quadrant-en} {cite:king-ibn-shatir-bea}۔
+  significance: 3
+  why: A pocket computer of medieval Islamic astronomy — the sine grid that turned
+    table-based trigonometry into a field instrument and served the daily needs of
+    prayer timing for a thousand years.
+described_in: []
+examples: []
+sites:
+- place/baghdad
+- place/damascus
+concepts: []
+today:
+  form:
+    ar: تعرض نماذج عثمانية من الخشب والنحاس في مقتنيات الآلات العلمية، ويعيد هواة
+      الأسطرلاب صنعها من الوصف الأثري {cite:wikipedia-sine-quadrant-en}.
+    en: Ottoman wood-and-brass specimens sit in scientific-instrument collections,
+      and astrolabe enthusiasts rebuild them from the documented description {cite:wikipedia-sine-quadrant-en}.
+    ur: عثمانی لکڑی و پیتل کے نمونے آلات سائنس کے مجموعوں میں ہیں اور اسطرلاب کے شائقین
+      دستاویزی وصف سے انہیں دوبارہ بناتے ہیں {cite:wikipedia-sine-quadrant-en}۔
+  descendants:
+    ar: بقيت فكرة القراءة البيانية للدوال المثلثية حتى حلول الآلة الحاسبة؛ وتعيش الشبكة
+      في أدوات تعليم الجيب اليوم {cite:wikipedia-sine-quadrant-en}.
+    en: The graphical reading of trigonometric functions survived until the electronic
+      calculator; the grid lives on in teaching instruments {cite:wikipedia-sine-quadrant-en}.
+    ur: مثلثیاتی دالوں کی بصری قراءت برقی کیلکولیٹر تک زندہ رہی؛ جال آج بھی تعلیمی
+      آلات میں موجود ہے {cite:wikipedia-sine-quadrant-en}۔
+media:
+  diagram: media/diagram-sine-quadrant
+  image: media/diagram-sine-quadrant
+kids:
+  ar: 'خذ ربع قرص خشبي معلقاً بخيط صغير: وجّه طرفه نحو الشمس وانظر أين يقع الخيط على
+    القوس المدرج — هذا هو ارتفاع الشمس. بهذه اللعبة البسيطة كان المسلمون يعرفون وقت
+    الصلاة قبل ألف سنة.'
+  en: 'Take a wooden quarter-disc with a little hanging string: point its edge at
+    the sun and see where the string falls on the marked curve — that is the sun''s
+    height. With this simple trick Muslims found the times of prayer a thousand years
+    ago.'
+  ur: 'ایک لکڑی کا چوتھائی ڈسک لو جس سے چھوٹی ڈور لٹک رہی ہو: کنارہ سورج کی طرف کرو
+    اور دیکھو ڈور مدرج قوس پر کہاں گرتے ہیں — یہی سورج کی اونچائی ہے۔ اسی آسان ترکیب
+    سے مسلمان ہزار سال پہلے نماز کے اوقات جانتے تھے۔'
+sources:
+- source/wikipedia-sine-quadrant-en
+- source/king-islamic-astronomy-1999
+- source/king-ibn-shatir-bea
+status:
+  review: published
+  completeness: 2
+provenance:
+  layer: own-research
+  generated_by: devin-drafter-w2-30
+  model: devin
+  run: inventions-w2-30
+  source: 'English Wikipedia "Sine quadrant" revision 1381117610 (entity facts only):
+    rub mujayyab etymology, 90-degree arc, khait plumb cord, two 60-division straight
+    sides in sexagesimal, pinhole sighting plates (hadafatani), al-Khwarizmi 9th-c
+    Baghdad description and prayer-time use per King in Walker 1999 pp. 167-168, skeletal
+    maritime version, Ottoman wooden specimen images. King 1999 and the Ibn al-Shatir
+    BEA source are registered/bibliographic records.'

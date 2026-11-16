@@ -1,0 +1,19 @@
+id: media/diagram-zij-as-genre
+class: media
+kind: illustration
+label: { ar: "مخطط علاقات السجل", en: "Record relationship chain", ur: "ریکارڈ کا تعلقاتی سلسلہ" }
+summary:
+  ar: "سلسلة علاقات يرسمها الموقع عند البناء؛ ليست إعادة بناء تقنية ولا تعليمات عمل."
+  en: "Build-time relationship chain drawn by the site; not a technical reconstruction or working instructions."
+  ur: "تعمیر کے وقت سائٹ کا بنایا تعلقاتی سلسلہ؛ تکنیکی تعمیر نو یا عملی ہدایات نہیں۔"
+license: CC0
+creator: "islam.museum"
+depicts: [invention/zij-as-genre]
+alt:
+  ar: "سلسلة نصية من الأسلاف إلى السجل إلى ما بُني عليه، ترسم عند البناء."
+  en: "A text chain from precursors to the record to its dependents, drawn at build time."
+  ur: "اسلاف سے ریکارڈ اور اس کے تابعین تک ایک متنی سلسلہ، تعمیر کے وقت بنتا ہے۔"
+generated: { tool: "site/src/components/InventionDiagram.astro (generic chain drawn at build time)", version: "1", date: "2026-11-23" }
+sources: [source/wikipedia-zij-en]
+status: { review: published, completeness: 2 }
+provenance: { layer: own-research, generated_by: devin-drafter-w2-30, model: devin, run: inventions-w2-30, source: "Published record distinctions; no technical reconstruction" }
