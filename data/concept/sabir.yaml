@@ -1,0 +1,23 @@
+id: concept/sabir
+class: concept
+kind: natural
+label:
+  ar: "صبر"
+  en: "Sabir (aloes)"
+  ur: "صبر"
+summary:
+  ar: "الصبر في الكتاب عصارة جامدة بين حمرة وشقرة، منه أسقوطري ومنه عربي ومنه سمنجاني، وأجوده الأسقوطري، حار إلى الثانية يابس فيها، قابض مجفف منوم، ينفع في الأورام والقروح العسرة الاندمال والصداع وقروح العين، وينقي الفضول الصفراوية والبلغمية في المعدة ويسهل البطن، وأصلح مسهل للمعدة، وسقيه في أيام البرد خطر {cite:canon-ibn-sina-print-v1 pp.640-641}"
+  en: "Sabir is in the book a congealed juice between red and fair, of which there is the Socotran, the Arabian and the Samanjani, the Socotran the best; hot to the second degree and dry in it, astringent, drying and sleep-inducing, it benefits swellings, ulcers that are slow to heal, headache and ulcers of the eye, cleanses the bilious and phlegmatic superfluities in the stomach and loosens the belly, being the best laxative for the stomach, though giving it in cold days is dangerous {cite:canon-ibn-sina-print-v1 pp.640-641}"
+  ur: "صبر کتاب میں جما ہوا رس ہے جو سرخی اور سنہرے پن کے بیچ ہے، اس کی ایک قسم اسقوطری، ایک عربی اور ایک سمنجانی ہے، سب سے اچھا اسقوطری؛ دوسرے درجے تک گرم اور اس میں خشک، قابض، خشک کرنے والا اور نیند لانے والا؛ ورموں، دیر سے بھرنے والے زخموں، سر درد اور آنکھ کے زخموں میں نافع ہے، معدے کے صفراوی اور بلغمی فضلات صاف کرتا اور پیٹ کھولتا ہے، معدے کے لیے سب سے مناسب مسہل ہے، اور سردی کے دنوں میں پلانا خطرناک ہے {cite:canon-ibn-sina-print-v1 pp.640-641}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter sad (the eighteenth chapter), scan pages 640, 641, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for doubtful headings; editor footnotes used only for identity; measured doses, weights, counts and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-24
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

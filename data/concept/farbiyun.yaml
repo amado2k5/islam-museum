@@ -1,0 +1,23 @@
+id: concept/farbiyun
+class: concept
+kind: natural
+label:
+  ar: "فربيون"
+  en: "Farbiyun (euphorbium, a gum)"
+  ur: "فربیون"
+summary:
+  ar: "الفربيون في الكتاب صمغ شجرة شبيهة بالقثاء مفرط الحرافة والحرارة، يستخرجه مستخرجوه من بعد خوفا من حرارته، وجيده الحديث الصافي الأصفر إلى الشقرة، حار فيه قوة محرقة جلاءة، ينفع من عرق النسا ويجلو العين ويسهل البلغم، ويحذر الكتاب من أنه قاتل بالتقريح {cite:canon-ibn-sina-print-v1 pp.628-629}"
+  en: "Farbiyun is in the book the gum of a tree like the cucumber in shape, excessively pungent and hot, which gatherers take from a distance for fear of its heat; the best is the new, clear one, yellow to fair; it is hot, with a burning, cleansing power, benefits sciatica, cleanses the eye and loosens phlegm, and the book warns that it kills by ulcerating {cite:canon-ibn-sina-print-v1 pp.628-629}"
+  ur: "فربیون کتاب میں ککڑی سے ملتے جلتے درخت کا گوند ہے، حد سے زیادہ تیز اور گرم، جسے جمع کرنے والے اس کی گرمی کے ڈر سے دور سے نکالتے ہیں؛ بہترین نیا، صاف، زردی سے سنہری مائل ہے؛ گرم ہے، جلانے اور جلاء دینے کی قوت رکھتا ہے، عرق النسا میں نافع ہے، آنکھ کو صاف کرتا اور بلغم نکالتا ہے، اور کتاب خبردار کرتی ہے کہ زخم بنا کر ہلاک کرتا ہے {cite:canon-ibn-sina-print-v1 pp.628-629}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter fa (the seventeenth chapter), scan pages 628, 629, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for doubtful headings; editor footnotes used only for identity; measured doses, weights, counts and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-24
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

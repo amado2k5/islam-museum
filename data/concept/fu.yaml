@@ -1,0 +1,23 @@
+id: concept/fu
+class: concept
+kind: natural
+label:
+  ar: "فو"
+  en: "Fu"
+  ur: "فو"
+summary:
+  ar: "الفو في الكتاب نبات له ورق كورق الكرفس وساق أملس أرجواني ذو عقد وزهر كالنرجس وأصل عطري قوته شبيهة بالسنبل ولذلك يسميه قوم ناردين بريا، قوة أصله مسخنة، ينفع من وجع الجنب ويدر البول، ويذكر الكتاب أنه يدر الطمث {cite:canon-ibn-sina-print-v1 pp.624-625}"
+  en: "Fu is in the book a plant with a leaf like celery, a smooth purple jointed stem, a flower like the narcissus and an aromatic root whose power resembles spikenard, so some call it wild nard; its root is warming, benefits pain in the side and promotes urine, and the book lists it as promoting the menses {cite:canon-ibn-sina-print-v1 pp.624-625}"
+  ur: "فو کتاب میں ایک پودا ہے جس کے پتے کرفس جیسے، تنا ہموار ارغوانی اور گرہ دار، پھول نرگس جیسا اور جڑ خوشبودار ہے جس کی قوت سنبل سے ملتی ہے اس لیے کچھ لوگ اسے ناردین بری کہتے ہیں؛ اس کی جڑ گرم کرنے والی ہے، پہلو کے درد میں نافع ہے اور پیشاب جاری کرتی ہے، اور کتاب اسے حیض جاری کرنے والی بتاتی ہے {cite:canon-ibn-sina-print-v1 pp.624-625}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter fa, scan pages 624, 625, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for doubtful headings; editor footnotes used only for identity; measured doses, weights, counts and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-23
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

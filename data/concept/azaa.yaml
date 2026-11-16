@@ -1,0 +1,23 @@
+id: concept/azaa
+class: concept
+kind: natural
+label:
+  ar: "عظاءة"
+  en: "Azaa (the lizard)"
+  ur: "عظاءة"
+summary:
+  ar: "العظاءة في الكتاب حيوان يشبه سام أبرص أخضر بطيء الحركة، وينقل عن ديسقوريدوس أن قوتها ضعيفة، تدخل في مراهم مأكلة وملائمة، وينفع من الجرب، ويحلق ذنبها الشعر {cite:canon-ibn-sina-print-v1 pp.620-621}"
+  en: "Azaa is in the book an animal like the gecko, green and slow, whose power, as reported from Dioscorides, is weak; it enters corrosive and soothing ointments, benefits scab, and its tail removes hair {cite:canon-ibn-sina-print-v1 pp.620-621}"
+  ur: "عظاءة کتاب میں ایک جانور ہے جو چھپکلی سے ملتا جلتا، سبز اور سست رفتار ہے، دیسقوریدوس سے نقل ہے کہ اس کی قوت کمزور ہے؛ یہ کھانے اور نرم کرنے والے مرہموں میں شامل ہوتی ہے، خارش میں نافع ہے اور اس کی دم بال اتارتی ہے {cite:canon-ibn-sina-print-v1 pp.620-621}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter ayn, scan pages 620, 621, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for doubtful headings; editor footnotes used only for identity; measured doses, weights, counts and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-23
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

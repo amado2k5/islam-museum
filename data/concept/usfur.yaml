@@ -1,0 +1,23 @@
+id: concept/usfur
+class: concept
+kind: natural
+label:
+  ar: "عصفر"
+  en: "Usfur (safflower)"
+  ur: "عصفر"
+summary:
+  ar: "العصفر في الكتاب نبات ينقل عن ديسقوريدوس وصفه، حار في الأولى يابس في الثانية، فيه قبض معتدل مع إنضاج، ينقي الكلف والبهق، ويستعمل زهره في الطعام {cite:canon-ibn-sina-print-v1 p.611}"
+  en: "Usfur is in the book a plant whose description is reported from Dioscorides, hot in the first degree and dry in the second, with a moderate astringency and a ripening power, cleansing freckles and vitiligo, its flower being used in food {cite:canon-ibn-sina-print-v1 p.611}"
+  ur: "عصفر کتاب میں ایک پودا ہے جس کا وصف دیسقوریدوس سے نقل ہے، پہلے درجے میں گرم اور دوسرے میں خشک، اس میں معتدل قبض اور پکانے کی قوت ہے، جھائیوں اور برص کو صاف کرتا ہے، اور اس کا پھول کھانے میں استعمال ہوتا ہے {cite:canon-ibn-sina-print-v1 p.611}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letters sin and ayn, scan pages 611, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for garbled headings; editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-22
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

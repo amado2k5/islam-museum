@@ -1,0 +1,23 @@
+id: concept/fasafis
+class: concept
+kind: natural
+label:
+  ar: "فسافس"
+  en: "Fasafis (the bedbug)"
+  ur: "فسافس"
+summary:
+  ar: "فسافس في الكتاب حيوان كالقراد معروف بالشام يكون في الأسرة، وفي حاشية المحقق أنه البق، ويذكر الكتاب فيه أخبارا في إخراج العلق من الحلق واختناق الرحم وعسر البول وحمى الربع ولسع الهوام، تنقل هنا منسوبة إلى الكتاب لا نصيحة {cite:canon-ibn-sina-print-v1 635}"
+  en: "Fasafis is in the book an animal like the tick, known in Syria, found in beds, and the editor's footnote says it is the bedbug; the book gives reports on it for bringing a leech out of the throat, for suffocation of the womb, difficulty in urination, quartan fever and the stings of vermin, passed on here as the book's attributed reports, not advice {cite:canon-ibn-sina-print-v1 635}"
+  ur: "فسافس کتاب میں چیچڑی جیسا جانور ہے جو شام میں معروف ہے اور بستروں میں ہوتا ہے، اور مدقق کے حاشیے میں ہے کہ یہ کھٹمل ہے؛ کتاب اس کے بارے میں جونک کو حلق سے نکالنے، رحم کے گھٹنے، پیشاب کی دشواری، چوتھیا بخار اور زہریلے جانوروں کے ڈنک کی خبریں دیتی ہے، جو یہاں کتاب سے منسوب اطلاعات کے طور پر نقل ہیں، نصیحت کے طور پر نہیں {cite:canon-ibn-sina-print-v1 635}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter fa (the seventeenth chapter), scan pages 635, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for doubtful headings; editor footnotes used only for identity; measured doses, weights, counts and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-24
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

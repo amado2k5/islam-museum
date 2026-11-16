@@ -1,0 +1,23 @@
+id: concept/azn
+class: concept
+kind: natural
+label:
+  ar: "عزن"
+  en: "Azn"
+  ur: "عزن"
+summary:
+  ar: "عزن في الكتاب نبات ينقل عن ديسقوريدوس أن ورقه شبيه بورق العدس الصغير وزهره أحمر، ينبت في أماكن بطيئة معطلة، وورقه يدر العرق مع الزيت ويحلل الخراجات والبثور الملتهبة، ويشرب بالشراب لتقطير البول {cite:canon-ibn-sina-print-v1 p.623}"
+  en: "Azn is in the book a plant whose leaf, as reported from Dioscorides, is like the leaf of the small lentil and whose flower is red, growing in neglected, idle places; its leaf with oil brings sweat and dissolves abscesses and inflamed pustules, and drunk with wine it is used for dribbling of urine {cite:canon-ibn-sina-print-v1 p.623}"
+  ur: "عزن کتاب میں ایک پودا ہے جس کے پتے، دیسقوریدوس سے نقل کے مطابق، چھوٹے عدس کے پتوں جیسے اور پھول سرخ ہے، اور یہ سست اور ویران جگہوں میں اگتا ہے؛ اس کے پتے تیل کے ساتھ پسینہ لاتے اور پھوڑوں اور سوجی ہوئی پھنسیوں کو تحلیل کرتے ہیں، اور شراب کے ساتھ پیشاب کے قطرے قطرے آنے میں پیا جاتا ہے {cite:canon-ibn-sina-print-v1 p.623}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter ayn, scan pages 623, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for doubtful headings; editor footnotes used only for identity; measured doses, weights, counts and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-23
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

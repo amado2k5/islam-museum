@@ -1,0 +1,23 @@
+id: concept/asal-tibb
+class: concept
+kind: natural
+label:
+  ar: "عسل"
+  en: "Asal (honey), as a drug"
+  ur: "عسل"
+summary:
+  ar: "العسل في الكتاب طل خفي يقع على الزهر وغيره فيلقطه النحل، حار يابس في الثانية، جال مفتح لأفواه العروق محلل للرطوبات مانع للعفن، يستعمل في القروح والأذن والخوانيق ولعقه علاج لبعض السموم، وفيه جنس حريف سمي يحذر منه {cite:canon-ibn-sina-print-v1 pp.619-620}"
+  en: "Asal is in the book a hidden dew that falls on flowers and other things and is gathered by the bees; hot and dry in the second degree, cleansing, opening the mouths of the vessels, dissolving moistures and preventing putrefaction, it is used on ulcers, in the ear and in quinsy, and licked it is a remedy for certain poisons; there is also a pungent poisonous kind against which the book warns {cite:canon-ibn-sina-print-v1 pp.619-620}"
+  ur: "عسل کتاب میں ایک مخفی شبنم ہے جو پھولوں اور دوسری چیزوں پر گرتی ہے اور شہد کی مکھیاں اسے چن لیتی ہیں؛ دوسرے درجے میں گرم خشک، جلاء دینے والا، رگوں کے دہانے کھولنے والا، رطوبتوں کو تحلیل کرنے والا اور سڑاند روکنے والا ہے، قروح، کان اور خناق میں استعمال ہوتا ہے، چاٹنا بعض زہروں کا علاج ہے، اور ایک تیز زہریلی قسم بھی ہے جس سے کتاب خبردار کرتی ہے {cite:canon-ibn-sina-print-v1 pp.619-620}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter ayn, scan pages 619, 620, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for doubtful headings; editor footnotes used only for identity; measured doses, weights, counts and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-23
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

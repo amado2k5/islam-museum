@@ -1,0 +1,23 @@
+id: concept/ulayq
+class: concept
+kind: natural
+label:
+  ar: "عليق"
+  en: "Ulayq (the bramble)"
+  ur: "علیق"
+summary:
+  ar: "العليق في الكتاب نبات معروف ينقل عن ديسقوريدوس أنه غير العوسج، بارد يابس وثمرته النضيجة فيها حرارة ما، قابض مجفف بجميع أجزائه، ينفع من القروح والقلاع ونفث الدم ويقوي المعدة الضعيفة ويفتت الحصى، وفي الكتاب نقل موسوم في سيلان الرحم {cite:canon-ibn-sina-print-v1 p.616}"
+  en: "Ulayq is in the book a well-known plant which, as reported from Dioscorides, is other than awsaj, cold and dry, its ripe fruit having some heat; astringent and drying in all its parts, it benefits ulcers, thrush and spitting of blood, strengthens a weak stomach and breaks up stones, and the book gives a labelled listing on a discharge from the womb {cite:canon-ibn-sina-print-v1 p.616}"
+  ur: "علیق کتاب میں ایک معروف پودا ہے جس کے بارے میں دیسقوریدوس سے نقل ہے کہ یہ عوسج سے الگ ہے، سرد خشک اور اس کے پکے ہوئے پھل میں کچھ گرمی ہے؛ اپنے تمام اجزاء میں قابض اور خشک کرنے والا، زخموں، چھالوں اور خون تھوکنے میں فائدہ دیتا ہے، کمزور معدے کو قوت دیتا اور پتھری کو توڑتا ہے، اور کتاب میں رحم سے رطوبت کے بہنے کے بارے میں ایک موسوم نقل ہے {cite:canon-ibn-sina-print-v1 p.616}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letters sin and ayn, scan pages 616 to 617, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for garbled headings; editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-22
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

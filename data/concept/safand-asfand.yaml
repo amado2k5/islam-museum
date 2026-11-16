@@ -1,0 +1,23 @@
+id: concept/safand-asfand
+class: concept
+kind: natural
+label:
+  ar: "سفندأسفند"
+  en: "Safand asfand"
+  ur: "سفندأسفند"
+summary:
+  ar: "سفندأسفند في الكتاب دواء حار يابس في الثالثة حريف حاد ينفع من السموم كلها {cite:canon-ibn-sina-print-v1 p.608}"
+  en: "Safand asfand is in the book a drug hot and dry in the third degree, pungent and sharp, which benefits against all poisons {cite:canon-ibn-sina-print-v1 p.608}"
+  ur: "سفندأسفند کتاب میں ایک دوا ہے جو تیسرے درجے میں گرم خشک، تیز اور تند ہے اور تمام زہروں میں فائدہ دیتی ہے {cite:canon-ibn-sina-print-v1 p.608}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letters sin and ayn, scan pages 608, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for garbled headings; editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-22
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

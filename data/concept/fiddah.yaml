@@ -1,0 +1,23 @@
+id: concept/fiddah
+class: concept
+kind: natural
+label:
+  ar: "فضة"
+  en: "Fiddah (silver)"
+  ur: "فضہ"
+summary:
+  ar: "الفضة في الكتاب معدن مشهور مبرد مجفف، خبثها قابض جدا فيه جذب وتجفيف، وسحالتها تنفع مع الأخلاط من الرطوبات اللزجة والخفقان والبخر، وتنفع للجرب والحكة ويزيد الاكتحال بميل منها في البصر {cite:canon-ibn-sina-print-v1 p.624}"
+  en: "Fiddah is in the book silver, a well-known metal, cooling and drying; its dross is very astringent with drawing and drying, and its filings, mixed with other drugs, benefit viscous moistures, palpitation and foul breath, are very good for scab and itch, and a silver kohl stick used for the eye increases sight {cite:canon-ibn-sina-print-v1 p.624}"
+  ur: "فضہ کتاب میں چاندی ہے، ایک مشہور دھات، ٹھنڈک اور خشکی دینے والی؛ اس کا میل بہت قابض ہے جس میں کھینچنے اور خشک کرنے کی قوت ہے، اور اس کا برادہ دوسری دواؤں کے ساتھ لیس دار رطوبتوں، دھڑکن اور منہ کی بدبو میں نافع ہے، خارش اور کھجلی کے لیے بہت اچھی ہے، اور چاندی کی سلائی سے سرمہ لگانا بینائی بڑھاتا ہے {cite:canon-ibn-sina-print-v1 p.624}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter fa, scan pages 624, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for doubtful headings; editor footnotes used only for identity; measured doses, weights, counts and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-23
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

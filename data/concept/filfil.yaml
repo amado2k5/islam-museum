@@ -1,0 +1,23 @@
+id: concept/filfil
+class: concept
+kind: natural
+label:
+  ar: "فلفل"
+  en: "Filfil (pepper)"
+  ur: "فلفل"
+summary:
+  ar: "الفلفل في الكتاب ثمر يقال إن أول طلوعه دار فلفل ثم ينفصل عنه حب الفلفل، حار يابس إلى الرابعة، فيه جذب وتحليل وجلاء، يقلع البلغم اللزج ويسخن العصب والعضل، والأبيض أصلح للمعدة، ويدخل الأبيض في الأكحال والترياقات، ويذكر الكتاب فيه أفعالا في الجنين والمني والباه {cite:canon-ibn-sina-print-v1 pp.626-627}"
+  en: "Filfil is in the book the pepper, whose fruit first comes out as long pepper and then the grain of pepper separates from it; hot and dry to the fourth degree, with drawing, dissolving and cleansing, it removes viscous phlegm and warms nerves and muscles, the white is better for the stomach, the white enters eye salves and theriacs, and the book lists in it actions on the foetus, the semen and desire {cite:canon-ibn-sina-print-v1 pp.626-627}"
+  ur: "فلفل کتاب میں کالی مرچ ہے جس کا پھل پہلے دارفلفل بن کر نکلتا ہے پھر اس سے دانۂ فلفل الگ ہو جاتا ہے؛ چوتھے درجے تک گرم خشک ہے، اس میں کھینچنے، تحلیل اور جلاء کی قوت ہے، لیس دار بلغم کو اکھاڑتی اور اعصاب و عضلات کو گرم کرتی ہے، سفید معدے کے لیے بہتر ہے، سفید سرمہ جات اور تریاقوں میں شامل ہوتی ہے، اور کتاب اس میں جنین، منی اور باہ پر اثرات بھی بتاتی ہے {cite:canon-ibn-sina-print-v1 pp.626-627}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter fa, scan pages 626, 627, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for doubtful headings; editor footnotes used only for identity; measured doses, weights, counts and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-23
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

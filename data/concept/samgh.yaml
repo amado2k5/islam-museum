@@ -1,0 +1,23 @@
+id: concept/samgh
+class: concept
+kind: natural
+label:
+  ar: "صمغ"
+  en: "Samgh (gum)"
+  ur: "صمغ"
+summary:
+  ar: "الصمغ في الكتاب أنواعه كلها حارة جدا، وأجوده العربي الصافي القليل الخشب، قابض ومغر مع تجفيف وتقوية، وصمغ الأقاقيا أقوى جدا ولذلك يقع في الترياقات، يلين السعال الحار ويدفع ضرر قروح الرئة ويصفي الصوت ويقوي المعدة {cite:canon-ibn-sina-print-v1 639}"
+  en: "Samgh is in the book gum, all its kinds very hot, the best being the clear Arabian with little wood; astringent and glutinous with drying and strengthening, acacia gum being much stronger and so entering theriacs; it softens hot cough, repels the harm of ulcers of the lung, clears the voice and strengthens the stomach {cite:canon-ibn-sina-print-v1 639}"
+  ur: "صمغ کتاب میں گوند ہے، اس کی سب قسمیں بہت گرم ہیں، بہترین عربی صاف اور کم لکڑی والا؛ قابض اور چپکانے والا، خشکی اور قوت کے ساتھ، اور کیکر کا گوند بہت زیادہ قوی ہے اس لیے تریاقوں میں شامل ہوتا ہے؛ گرم کھانسی کو نرم کرتا، پھیپھڑے کے زخموں کا ضرر دور کرتا، آواز صاف کرتا اور معدے کو قوت دیتا ہے {cite:canon-ibn-sina-print-v1 639}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter sad (the eighteenth chapter), scan pages 639, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for doubtful headings; editor footnotes used only for identity; measured doses, weights, counts and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-24
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

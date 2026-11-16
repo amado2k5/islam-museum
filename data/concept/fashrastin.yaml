@@ -1,0 +1,23 @@
+id: concept/fashrastin
+class: concept
+kind: natural
+label:
+  ar: "فاشرستين"
+  en: "Fashrastin (a kind of fashra)"
+  ur: "فاشرستین"
+summary:
+  ar: "فاشرستين في الكتاب من جنس الفاشرا له ورق كورق اللبلاب الكبير وأصله أسود الخارج أصفر الداخل، يفعل مثل أفعالها لكنه أضعف قليلا، وينفع من الفالج والصرع وينقي الصدر {cite:canon-ibn-sina-print-v1 628}"
+  en: "Fashrastin is in the book of the genus of fashra, with a leaf like the large ivy and a root black outside and yellow within; it acts as fashra does but a little more weakly, and it benefits palsy and epilepsy and cleanses the chest {cite:canon-ibn-sina-print-v1 628}"
+  ur: "فاشرستین کتاب میں فاشرا کی جنس سے ہے، اس کا پتا بڑی بیل کے پتے جیسا ہے اور جڑ باہر سے کالی اور اندر سے پیلی؛ یہ فاشرا ہی کی طرح عمل کرتی ہے مگر ذرا کمزور، اور فالج اور صرع میں نافع ہے اور سینہ صاف کرتی ہے {cite:canon-ibn-sina-print-v1 628}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter fa (the seventeenth chapter), scan pages 628, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for doubtful headings; editor footnotes used only for identity; measured doses, weights, counts and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-24
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

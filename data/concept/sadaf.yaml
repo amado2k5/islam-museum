@@ -1,0 +1,23 @@
+id: concept/sadaf
+class: concept
+kind: natural
+label:
+  ar: "صدف"
+  en: "Sadaf (shells and snails)"
+  ur: "صدف"
+summary:
+  ar: "الصدف في الكتاب لحم الصدف وأغطيته وقشوره والحلزون، منه البري ومنه الفرفيري، والمحرق منه جلاء مفشٍّ وتجفيف قوي، يجلو البهق ويمسك تساقط الشعر ويذيل الجرب ويدمل القروح وينفع في النقرس وجلاء الأسنان والأكحال وأمراض المعدة، ويذكر الكتاب فيه أخبارا في اختناق الرحم والمشيمة والطمث {cite:canon-ibn-sina-print-v1 pp.638-639}"
+  en: "Sadaf is in the book the flesh, the covers and the shells of molluscs and the snail, the wild kind and the purple kind; burnt, it has a cleansing and dispersing power and a strong drying; it clears vitiligo, holds back falling hair, removes scab, heals ulcers and benefits gout, the cleansing of teeth, eye salves and diseases of the stomach, and the book gives reports on suffocation of the womb, the afterbirth and the menses {cite:canon-ibn-sina-print-v1 pp.638-639}"
+  ur: "صدف کتاب میں سیپیوں کا گوشت، ان کے ڈھکن اور خول اور گھونگا ہے، جس میں جنگلی بھی ہے اور ارغوانی بھی؛ جلایا ہوا جلاء اور پھیلانے والی قوت اور قوی خشکی رکھتا ہے؛ برص کو صاف کرتا، بالوں کا گرنا روکتا، خارش دور کرتا، زخم بھرتا اور نقرس، دانت صاف کرنے، سرمہ جات اور معدے کی بیماریوں میں نافع ہے، اور کتاب اس میں رحم کے گھٹنے، آنول اور حیض کے بارے میں خبریں دیتی ہے {cite:canon-ibn-sina-print-v1 pp.638-639}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter sad (the eighteenth chapter), scan pages 638, 639, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for doubtful headings; editor footnotes used only for identity; measured doses, weights, counts and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-24
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

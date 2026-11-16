@@ -1,0 +1,23 @@
+id: concept/fashra
+class: concept
+kind: natural
+label:
+  ar: "فاشرا"
+  en: "Fashra (the white vine, hazarjashan)"
+  ur: "فاشرا"
+summary:
+  ar: "الفاشرا في الكتاب كما قال قوم هو الهزارجشان وهو الكرمة البيضاء، حار يابس إلى الثالثة، حاد حريف يجلو ويجفف ويلطف، ينفع أصله ضمادا للبثور والثآليل والقروح الرديئة والطحال ويذكر الكتاب فيه أفعالا في الرحم والجنين {cite:canon-ibn-sina-print-v1 pp.627-628}"
+  en: "Fashra is in the book, as some said, hazarjashan, the white vine; hot and dry to the third degree, sharp and pungent, cleansing, drying and attenuating; its root is used as a poultice on pustules, warts, bad ulcers and the spleen, and the book lists in it actions on the womb and the foetus {cite:canon-ibn-sina-print-v1 pp.627-628}"
+  ur: "فاشرا کتاب میں، جیسا کچھ لوگوں نے کہا، ہزارجشان یعنی سفید بیل ہے؛ تیسرے درجے تک گرم خشک، تیز اور چرپرا، جلاء، خشکی اور لطافت دینے والی؛ اس کی جڑ پھنسیوں، مسوں، بُرے زخموں اور تلی پر ضماد کے طور پر آتی ہے، اور کتاب اس میں رحم اور جنین پر اثرات بھی بتاتی ہے {cite:canon-ibn-sina-print-v1 pp.627-628}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter fa (the seventeenth chapter), scan pages 627, 628, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for doubtful headings; editor footnotes used only for identity; measured doses, weights, counts and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-24
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

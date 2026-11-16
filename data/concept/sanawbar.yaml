@@ -1,0 +1,23 @@
+id: concept/sanawbar
+class: concept
+kind: natural
+label:
+  ar: "صنوبر"
+  en: "Sanawbar (the pine tree)"
+  ur: "صنوبر"
+summary:
+  ar: "الصنوبر في الكتاب شجرة معروفة، ويتناول الكتاب هنا سائر أجزائها غير حبها الذي ذكر في حرف الحاء، لحاؤه نافع من القروح الحرفية ومدمل، وحبه ينفع من السعال العتيق ويحبس البطن، ودخانه نافع للعين، والدود الأخضر الذي فيه في طبع الذراريح {cite:canon-ibn-sina-print-v1 640}"
+  en: "Sanawbar is in the book a well-known tree, and the book here treats its other parts, apart from its nut, which was spoken of under the letter ha; its bark benefits corrosive ulcers and heals, its nut benefits old cough and binds the bowels, its smoke benefits the eye, and the green worm in it is of the nature of cantharides {cite:canon-ibn-sina-print-v1 640}"
+  ur: "صنوبر کتاب میں معروف درخت ہے، اور کتاب یہاں اس کے باقی حصوں کا ذکر کرتی ہے، سوائے اس کے دانے کے جو حرف حاء میں آ چکا ہے؛ اس کی چھال حرفی زخموں میں نافع اور زخم بھرنے والی ہے، اس کا دانہ پرانی کھانسی میں نافع ہے اور پیٹ کو روکتا ہے، اس کا دھواں آنکھ کے لیے نافع ہے، اور اس میں رہنے والا ہرا کیڑا ذراریح کی طبیعت کا ہے {cite:canon-ibn-sina-print-v1 640}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter sad (the eighteenth chapter), scan pages 640, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for doubtful headings; editor footnotes used only for identity; measured doses, weights, counts and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-24
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }
