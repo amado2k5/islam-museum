@@ -15,6 +15,7 @@ open a new block on top with the new version and today's date.
 
 ## v1.83.0 — 2026-11-17
 ### Added
+- The modern-figures lane progress record now names the wave 201 pull request (PR #7163) that completed the lane's 2026-11-16 resume, alongside wave 200 sections C (PR #7153) and D (PR #7159).
 - Job Browser linking wave 9: 38 `occupations:` edges on 25 person records — adib, katib, shaykh-al-islam, poet, architect, sultan and six more; the adib, shaykh-al-islam and architect merge-map pools are now fully linked.
 
 ## v1.82.0 — 2026-11-17
