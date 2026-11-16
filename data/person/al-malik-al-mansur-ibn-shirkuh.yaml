@@ -15,6 +15,12 @@ regions: [levant-iraq]
 faith:
   - value: sunni
     basis: tradition
+occupations:
+  - job: job/emir
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'emir', Job Browser linking wave 30"
+    sources: [source/shadharat-dhahab]
 relations:
   - { type: child_of, target: person/asad-al-din-shirkuh-homs, sources: [source/shadharat-dhahab] }
   - { type: died_in, target: place/damascus, sources: [source/shadharat-dhahab] }
