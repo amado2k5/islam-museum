@@ -67,6 +67,8 @@ set bind every view listed here.
 | Household | The household: a family chart from kinship edges only, and a dated strip of events | `sig/BaytHousehold.astro` | `baytItems`, `child_of`, `spouse_of`, `sibling_of`, `member_of` | every drawn line is an edge |
 | Usra | Marriages on record: a knot diagram of `spouse_of` edges | `sig/UsraKnots.astro` | `usraCouples` | drawn marriages equal the edges |
 | Ukhuwwa | Sibling and brothered pairs on record: bonds drawn over `sibling_of` edges and the mu'akhat event | `sig/UkhuwwaBonds.astro` | `ukhuwwaPairs` | drawn bonds equal the edges |
+| Umuma | The six lines of motherhood: a line per topic, a disc per corpus section sized by records | `sig/UmumaLines.astro` | `umumaItems` | every topic and section named |
+| Bunuwwa | The lines of sonship: a ruled line per filial topic, a disc per corpus section sized by its records | `sig/BunuwwaLines.astro` | `bunuwwaItems`, `BUNUWWA_TOPICS`, `BUNUWWA_SECTIONS` | every topic and section named |
 | Medicine | The apothecary's jars: six shelves, a jar per remedy, disease or procedure filled by the passages that name it; gold lids open records | `sig/TibbJars.astro` | `tibbShelves`, `TIBB_JARS` | every signal in one jar; named records exist; every admitted passage in a jar |
 | Ansab | The tree of tribes: trees from `part_of`, `member_of` and `founder_of` edges between group subjects | `sig/AnsabTribes.astro` | `ansabSubjects`, group edges | no loop, no second parent, every connector an edge |
 | Mukatabat | Letters and their senders: a flow from sender class to kind to corpus | `sig/MukatabatFlow.astro` | `mukatabatItems` | every column sums to the records |
