@@ -11,6 +11,17 @@ summary:
 wings: [people]
 born: { edtf: "1862", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Notice sur la vie et les travaux de M. Paul Casanova" }
 died: { edtf: "1926", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Notice sur la vie et les travaux de M. Paul Casanova" }
+occupations:
+  - job: job/orientalist
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'orientalist', Job Browser linking wave"
+    sources: [source/al-islam-kama-yarahu-al-urubiyyun-azhar]
+  - job: job/alim
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave"
+    sources: [source/al-islam-kama-yarahu-al-urubiyyun-azhar]
 relations:
   - { type: lived_in, target: place/misr, sources: [source/wikidata], confidence: low, note: "Nisba مصري attested in the record." }
 sources: [source/al-islam-kama-yarahu-al-urubiyyun-azhar]

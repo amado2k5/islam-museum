@@ -12,6 +12,17 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
+occupations:
+  - job: job/grand-vizier
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'grand-vizier', Job Browser linking wave"
+    sources: [source/dawlat-uthmaniyya-salabi, source/encyclopaedia-of-islam-2, source/wikidata]
+  - job: job/commander
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'military-leader', Job Browser linking wave"
+    sources: [source/dawlat-uthmaniyya-salabi, source/encyclopaedia-of-islam-2, source/wikidata]
 relations:
   - { type: born_in, target: place/albania, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/istanbul, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

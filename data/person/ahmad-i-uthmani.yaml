@@ -30,6 +30,17 @@ importance: 2
 status:
   review: draft
   completeness: 1
+occupations:
+  - job: job/sultan
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'sultan', Job Browser linking wave"
+    sources: [source/dawlat-uthmaniyya-salabi, source/encyclopaedia-of-islam-2, source/nomisma, source/wikidata]
+  - job: job/caliph
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'caliph', Job Browser linking wave"
+    sources: [source/dawlat-uthmaniyya-salabi, source/encyclopaedia-of-islam-2, source/nomisma, source/wikidata]
 relations:
   - { type: ruled_over, target: polity/ottoman-empire, sources: [source/sicill-i-osmani] }
   - { type: successor_of, target: person/mehmed-iii-uthmani, sources: [source/sicill-i-osmani] }
