@@ -1,0 +1,23 @@
+id: concept/alamat-al-malinkhuliya-al-dimaghiyya-wa-al-badaniyya
+class: concept
+kind: scientific
+label:
+  ar: "علامات المالنخوليا الدماغية وبمشاركة البدن"
+  en: "Signs of brain melancholia and of melancholia by sharing of the whole body"
+  ur: "دماغی مالنخولیا اور پورے بدن کی شرکت سے مالنخولیا کی علامات"
+summary:
+  ar: "يذكر ابن سينا علامات ما كان خاصاً بالدماغ ⁦(إفراط الفكرة ودوام الوسواس ولون الرأس والوجه)⁩ وما كان بمشاركة البدن كله ⁦(سواد البدن واحتباس ما كان يستفرغ)⁩، وفيه سطر موسوم في قسم معلق لحكم المؤسس {cite:canon-ibn-sina-print-v2 p.106}"
+  en: "Ibn Sina gives the signs of what is particular to the brain (excess of thought, constant obsession, the colour of the head and face) and of what comes by sharing of the whole body (blackness of the body, holding back of what used to be emptied); the record has a labelled line in a section held for the founder's ruling {cite:canon-ibn-sina-print-v2 p.106}"
+  ur: "ابن سینا دماغ سے خاص مرض کی علامات ⁦(فکر کی زیادتی، مسلسل وسوسہ، سر اور چہرے کا رنگ)⁩ اور پورے بدن کی شرکت سے ہونے والے مرض کی علامات ⁦(بدن کی سیاہی، جو خارج ہوتا تھا اس کا رک جانا)⁩ بتاتا ہے؛ اس میں ایک موسوم سطر بانی کے فیصلے کے لیے موقوف قسم میں ہے {cite:canon-ibn-sina-print-v2 p.106}۔"
+wings: [living]
+tags: [tibb-browser, tibb-tibb]
+sources: [source/canon-ibn-sina-print-v2]
+relations:
+  - { type: part_of, target: concept/symptoms-and-signs, sources: [source/canon-ibn-sina-print-v2] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 1, maqala 4 and 5, scan page 106, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json) with the PDF page images rendered with pdftoppm and read by eye against the OCR for every cited page (lists of signs and unclear words at 200 to 220 dpi); editor footnotes used only for glosses and labelled as the editor's; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein and cupping sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book3-5
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

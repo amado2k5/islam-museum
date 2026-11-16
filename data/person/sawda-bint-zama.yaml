@@ -42,7 +42,7 @@ relations:
   - { type: born_in, target: place/mecca }
   - { type: lived_in, target: place/abyssinia, sources: [source/mubarakpuri-raheeq, source/ibn-sad-tabaqat-bewley, source/sahih-al-bukhari, source/ibn-hisham-saqqa, source/nisa-hawl-alrasul, source/ibn-hajar-isaba, source/assabile-mustafa-hosny] }
 external_ids: { wikidata: "Q1943555", viaf: "90057373" }
-sources: [source/mubarakpuri-raheeq, source/ibn-sad-tabaqat-bewley, source/sahih-al-bukhari, source/ibn-hisham-saqqa, source/nisa-hawl-alrasul, source/ibn-hajar-isaba, source/assabile-mustafa-hosny, source/wikidata]
+sources: [source/mubarakpuri-raheeq, source/ibn-sad-tabaqat-bewley, source/sahih-al-bukhari, source/ibn-hisham-saqqa, source/nisa-hawl-alrasul, source/ibn-hajar-isaba, source/assabile-mustafa-hosny, source/wikidata, source/oxford-dictionary-of-islam]
 importance: 2
 status: { review: draft, completeness: 3, generated_by: "Devin; al-Raheeq al-Makhtum pp. 117-118; Nisa' Hawl al-Rasul pp. 49-58 added by Devin (SWE-2 High), lib-nisa-hawl-rasul" }
 provenance:
@@ -56,6 +56,7 @@ provenance:
     model: unknown
     run: explorer-sixth-40-stories-2026-11-04
     source: Additive metadata from the existing Arabic museum record and its defined citations. Original facts, dates, relations, statuses and attribution are preserved; no new source-page research.
+  oxford_captures: "t125/e2116: http://www.oxfordislamicstudies.com/article/opr/t125/e2116 ; https://web.archive.org/web/20180910003135/http://www.oxfordislamicstudies.com:80/article/opr/t125/e2116"
 occupations:
   - job: job/tanner
     kind: episodic

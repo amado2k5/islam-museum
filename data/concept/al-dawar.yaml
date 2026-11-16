@@ -1,0 +1,23 @@
+id: concept/al-dawar
+class: concept
+kind: scientific
+label:
+  ar: "الدوار والسدر"
+  en: "Vertigo (dawar) and giddiness (sadar)"
+  ur: "دوار اور سدر"
+summary:
+  ar: "يبدأ ابن سينا المقالة الخامسة بالدوار: أن يتخيل لصاحبه أن الأشياء تدور عليه وأن دماغه وبدنه يدور فلا يملك أن يثبت، ويفرق بينه وبين الصرع وبين السدر {cite:canon-ibn-sina-print-v2 p.113}"
+  en: "Ibn Sina opens the fifth maqala with dawar: the person imagines that things are turning around him and that his brain and body are turning, so that he cannot stand firm; he separates it from epilepsy and from sadar {cite:canon-ibn-sina-print-v2 p.113}"
+  ur: "ابن سینا پانچویں مقالے کا آغاز دوار سے کرتا ہے: مریض کو خیال ہوتا ہے کہ چیزیں اس پر گھوم رہی ہیں اور اس کا دماغ اور بدن گھوم رہا ہے، چنانچہ وہ ٹھہر نہیں سکتا؛ وہ اسے صرع اور سدر سے ممتاز کرتا ہے {cite:canon-ibn-sina-print-v2 p.113}۔"
+wings: [living]
+tags: [tibb-browser, tibb-tibb]
+sources: [source/canon-ibn-sina-print-v2]
+relations:
+  - { type: part_of, target: concept/disease, sources: [source/canon-ibn-sina-print-v2] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 1, maqala 4 and 5, scan page 113, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json) with the PDF page images rendered with pdftoppm and read by eye against the OCR for every cited page (lists of signs and unclear words at 200 to 220 dpi); editor footnotes used only for glosses and labelled as the editor's; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein and cupping sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book3-5
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

@@ -1,0 +1,23 @@
+id: concept/asbab-al-malinkhuliya-al-dimaghiyya
+class: concept
+kind: scientific
+label:
+  ar: "أسباب المالنخوليا في الدماغ نفسه"
+  en: "Causes of melancholia in the brain itself"
+  ur: "خود دماغ میں مالنخولیا کے اسباب"
+summary:
+  ar: "يذكر ابن سينا أن سبب المالنخوليا في الدماغ إما سوء مزاج بارد يابس بلا مادة، وإما مع مادة في العروق أو متشربة في جرم الدماغ أو مؤذية بكيفيتها، وأنها كثيراً ما تكون انتقالاً من الصرع {cite:canon-ibn-sina-print-v2 p.103}"
+  en: "Ibn Sina says the cause of melancholia in the brain is either a cold, dry bad temperament without matter, or a matter in the vessels, soaked into the body of the brain or harmful by its quality, and that it is often a passing over from epilepsy {cite:canon-ibn-sina-print-v2 p.103}"
+  ur: "ابن سینا کہتا ہے کہ دماغ میں مالنخولیا کا سبب یا تو مادے کے بغیر سرد خشک بدمزاجی ہے، یا مادہ ہے جو رگوں میں ہو، دماغ کے جرم میں رچا ہو یا اپنی کیفیت سے نقصان دے، اور یہ اکثر صرع سے منتقل ہو کر آتا ہے {cite:canon-ibn-sina-print-v2 p.103}۔"
+wings: [living]
+tags: [tibb-browser, tibb-tibb]
+sources: [source/canon-ibn-sina-print-v2]
+relations:
+  - { type: part_of, target: concept/disease, sources: [source/canon-ibn-sina-print-v2] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 1, maqala 4 and 5, scan page 103, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json) with the PDF page images rendered with pdftoppm and read by eye against the OCR for every cited page (lists of signs and unclear words at 200 to 220 dpi); editor footnotes used only for glosses and labelled as the editor's; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein and cupping sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book3-5
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

@@ -1,0 +1,23 @@
+id: concept/alamat-asbab-al-sahar
+class: concept
+kind: scientific
+label:
+  ar: "علامات أسباب السهر"
+  en: "Signs of the causes of sleeplessness"
+  ur: "بے خوابی کے اسباب کی علامات"
+summary:
+  ar: "يذكر ابن سينا علامة كل سبب من أسباب السهر: اليبس الساذج، والحرارة، وبورقية الأخلاط، والضوء والغذاء، والورم السوداوي، والوجع والفكر والحميات {cite:canon-ibn-sina-print-v2 p.94}"
+  en: "Ibn Sina gives the sign of each cause of sleeplessness: simple dryness, heat, the nitrous quality of the humours, light and food, the melancholic swelling, pain, thought and fevers {cite:canon-ibn-sina-print-v2 p.94}"
+  ur: "ابن سینا بے خوابی کے ہر سبب کی علامت بتاتا ہے: سادہ خشکی، گرمی، اخلاط کی نمکینی، روشنی اور غذا، سوداوی سوجن، درد، فکر اور بخار {cite:canon-ibn-sina-print-v2 p.94}۔"
+wings: [living]
+tags: [tibb-browser, tibb-tibb]
+sources: [source/canon-ibn-sina-print-v2]
+relations:
+  - { type: part_of, target: concept/symptoms-and-signs, sources: [source/canon-ibn-sina-print-v2] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 1, maqala 4, scan pages 94, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json) with the PDF page images rendered with pdftoppm and read by eye against the OCR for every cited page (lists of signs and doubtful lines at 200 dpi); editor footnotes used only for glosses and labelled as the editor's; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein and cupping sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book3-4
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

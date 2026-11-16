@@ -1,0 +1,23 @@
+id: concept/al-kabus
+class: concept
+kind: scientific
+label:
+  ar: "الكابوس"
+  en: "Al-kabus (incubus)"
+  ur: "کابوس"
+summary:
+  ar: "يصف ابن سينا الكابوس، ويسمى الخانق والجاثوم والنيدلان، بأنه مرض يحس فيه الإنسان عند دخوله في النوم خيالاً ثقيلاً يقع عليه ويعصره، وأنه مقدمة للصرع أو السكتة أو المانيا إذا كان من مواد مزدحمة، ويذكر أسبابه {cite:canon-ibn-sina-print-v2 p.117} {cite:canon-ibn-sina-print-v2 p.118}"
+  en: "Ibn Sina describes al-kabus, also called the strangler, al-jathum and al-nidalan, as an illness in which, on entering sleep, a person senses a heavy image fall on him and squeeze him, a forerunner of epilepsy, apoplexy or mania when it is from crowded matter, and gives its causes {cite:canon-ibn-sina-print-v2 p.117} {cite:canon-ibn-sina-print-v2 p.118}"
+  ur: "ابن سینا کابوس کو، جسے خانق، جاثوم اور نیدلان بھی کہتے ہیں، ایسا مرض بتاتا ہے جس میں انسان نیند میں داخل ہوتے وقت ایک بھاری خیال اپنے اوپر گرتا اور اسے بھینچتا محسوس کرتا ہے، جو ہجوم کیے ہوئے مواد سے ہو تو صرع، سکتے یا مانیا کی تمہید ہے، اور اس کے اسباب بیان کرتا ہے {cite:canon-ibn-sina-print-v2 p.117} {cite:canon-ibn-sina-print-v2 p.118}۔"
+wings: [living]
+tags: [tibb-browser, tibb-tibb]
+sources: [source/canon-ibn-sina-print-v2]
+relations:
+  - { type: part_of, target: concept/disease, sources: [source/canon-ibn-sina-print-v2] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 1, maqala 4 and 5, scan pages 117 to 118, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json) with the PDF page images rendered with pdftoppm and read by eye against the OCR for every cited page (lists of signs and unclear words at 200 to 220 dpi); editor footnotes used only for glosses and labelled as the editor's; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein and cupping sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book3-5
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }
