@@ -36,6 +36,12 @@ faith:
 roles: [politician, engineer]
 wings: [people]
 regions: [levant-iraq]
+occupations:
+  - job: job/engineer
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'engineer', Job Browser linking wave"
+    sources: [source/wikipedia-raghib-al-nashashibi-en, source/wikipedia-raghib-al-nashashibi-ar, source/wikidata-raghib-al-nashashibi, source/wikidata]
 relations:
   - type: born_in
     target: place/jerusalem

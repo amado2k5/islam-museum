@@ -33,6 +33,12 @@ faith:
     basis: unknown
     note: "No source consulted names a school of Islam for him. Seventeen years as secretary of the Punjab Muslim League and the presidency of a government commission on Muslim family law are offices and affiliations, which never count as attestation of a school; nothing further is recorded, so the value is unknown, unflagged."
     sources: [source/iqbal-review-malik-survey-1953, source/fazle-omer-muslim-family-laws-thesis]
+occupations:
+  - job: job/lawyer
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'lawyer', Job Browser linking wave"
+    sources: [source/iqbal-review-malik-survey-1953, source/wikipedia-speaker-punjab-assembly-en, source/wikipedia-badshahi-mosque-en, source/fazle-omer-muslim-family-laws-thesis]
 relations:
   - { type: lived_in, target: place/lahore, sources: [source/iqbal-review-malik-survey-1953, source/wikipedia-speaker-punjab-assembly-en] }
 summary:
