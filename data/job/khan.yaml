@@ -1,0 +1,40 @@
+id: job/khan
+class: job
+label: { ar: "خان", en: "Khan (ruler's title)", ur: "خان" }
+names:
+  - { value: "قاغان", kind: alternate }
+  - { value: "خاقان", kind: alternate }
+  - { value: "gürhan", kind: latinized, lang: tr }
+  - { value: "hâkān", kind: latinized, lang: tr }
+summary:
+  ar: "الخان لقب الحكّام الترك منذ ما قبل الإسلام؛ كان الكاغان يقود الدولة الرحلية ويعيّن أقاربه خواناً على العشائر، ثم استقل اللقب ليكافئ الإمبراطور والشاه والسلطان، وحمله جنكيز خان وأبناؤه والقراخانيون والإيلخانيون وخانات القرم وخيوة وبخارى وخوقند، وأدخله العثمانيون في صيغتهم «سلطان البرّين وخاقان البحرين»."
+  en: "Khan was the ruler's title of the Turkic peoples since before Islam; the khagan headed the nomadic state and appointed kinsmen as khans over its oymaks, then the title itself rose to mean emperor, shah and sultan, borne by Chinggis Khan and his sons, the Karakhanids, Ilkhanids, and the khanates of Crimea, Khiva, Bukhara and Kokand, while the Ottomans folded it into 'sultan of the two lands and khakan of the two seas'."
+  ur: "خان اسلام سے پہلے سے ترک اقوام کے حکمرانوں کا لقب رہا؛ قاغان خانقاہی ریاست کا سربراہ تھا جو اپنے عزیزوں کو او یماقوں پر خان بنا کر مقرر کرتا، بعد میں یہ لقب خود شہنشاہ، شاہ اور سلطان کے مترادف ہو گیا، چنگیز خان اور اس کے بیٹوں، قراخانیوں، ایلخانیوں اور کریمیا، خیوہ، بخارا اور خوقند کے خانات نے اٹھایا، جبکہ عثمانیوں نے اسے 'سلطان البرین و خاقان البحرین' میں سمیٹا۔"
+domain: governance-law
+kind: office
+hirfa: false
+era:
+  origins: pre-islamic
+  status_today: transformed
+places:
+  - { place: place/bukhara, note: "The khanates of Khiva, Bukhara and Kokand bore the title into the nineteenth century, each state known simply as a 'khanate' after its ruler.", sources: [source/tdv-han-hukumdar] }
+  - { place: place/istanbul, note: "Among the Ottoman padishahs Murad I first adopted 'khan' as a sovereign title; Yildirim Bayezid put it in his tughra and Mehmed I on his coinage, and from Mehmed II it stood inside the formula 'sultan al-barrayn wa-khakan al-bahrayn'.", sources: [source/tdv-han-hukumdar] }
+regions: [persia-central-asia, anatolia-balkans, china-east-asia, south-asia]
+organization:
+  organized: court-office
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era, period/crusades-ayyubid-mamluk, period/mongol-post-mongol, period/gunpowder-empires, period/colonial-era]
+sources: [source/tdv-han-hukumdar]
+training:
+  mode: hereditary-family
+  certification: "The khaganate and khanate were hereditary within ruling lineages; the khagan appointed his own kinsmen as khans over the subject oymaks, and scribes were ordered to use the title in official correspondence."
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-gov-1" }
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi, 'HAN' --hükümdar (Taneri, 1997; print vol. 15, pp. 517-518), web edition read on 16 Nov 2026: shanyü to khagan, khan and khakan across Turkic, Mongol, Ottoman and Central Asian usage"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-gov-1-drafting"

@@ -1,0 +1,41 @@
+id: job/sultan
+class: job
+label: { ar: "سلطان", en: "Sultan", ur: "سلطان" }
+names:
+  - { value: "السلطان المعظم", kind: alternate }
+  - { value: "سلطان الإسلام", kind: alternate }
+  - { value: "سلاطين", kind: alternate }
+  - { value: "sultân", kind: latinized, lang: tr }
+summary:
+  ar: "السلطان لقب الحكّام المسلمين منذ القرن الخامس الهجري؛ كان أصل الكلمة اسماً مجرداً للسلطة، ويقال إن هارون الرشيد أول من أعطاها لقباً سياسياً لوزيره جعفر البرمكي، ثم عمّت مع غزنوي محمود وثبتت على النقود مع طغرل بك السلجوقي سنة ٤٣٥هـ، ومنها انتشرت في الأيوبيين والمماليك والإيلخانيين والعثمانيين."
+  en: "Sultan was the standard title of Muslim rulers from the fifth/eleventh century; the word began as an abstract noun for power, Harun al-Rashid is said first to have bestowed it as a political title on his vizier Ja'far al-Barmaki, it spread with Mahmud of Ghazna, and was fixed on coinage with Tughril Beg in 435/1043-44, whence it passed to the Ayyubids, Mamluks, Ilkhanids and Ottomans."
+  ur: "سلطان پانچویں ہجری صدی سے مسلم حکمرانوں کا معیاری لقب بنا؛ اصل میں یہ قوت و اختیار کے لیے محض اصطلاح تھی، ہارون الرشید نے پہلی بار اسے اپنے وزیر جعفر برمکی کو سیاسی لقب کے طور پر دیا، محمود غزنوی کے ساتھ پھیلا اور 435ھ میں طغرل بیگ کے سِکّوں پر ثبت ہوا، پھر ایوبیوں، مملوکوں، ایلخانیوں اور عثمانیوں میں رائج ہوا۔"
+domain: governance-law
+kind: office
+hirfa: false
+era:
+  origins: medieval
+  status_today: transformed
+places:
+  - { place: place/baghdad, note: "In 449/1058 the caliph al-Qa'im enthroned Tughril Beg in Baghdad and gave him the title 'sultan of East and West', sealing the sultanate as the caliph-recognised political arm.", sources: [source/tdv-sultan] }
+  - { place: place/isfahan, note: "The local ruler Abu Mansur Faramurz had already struck Tughril Beg's name as 'al-sultan al-mu'azzam' on coins at Isfahan in 434/1042-43, the earliest numismatic attestation.", sources: [source/tdv-sultan] }
+  - { place: place/istanbul, note: "Ottoman padishahs used the title from Orhan Gazi's coins onward, intensified from the fifteenth century into 'sultan of the sultans' and 'sultan of the two lands and the two seas'.", sources: [source/tdv-sultan] }
+regions: [levant-iraq, egypt-nile, persia-central-asia, anatolia-balkans, maghreb, andalus-europe, south-asia, arabia]
+organization:
+  organized: court-office
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era, period/crusades-ayyubid-mamluk, period/mongol-post-mongol, period/gunpowder-empires, period/colonial-era]
+sources: [source/tdv-sultan]
+training:
+  mode: hereditary-family
+  certification: "The sultanate ran in dynasties; legitimacy was confirmed by the caliph's recognition — the khutba read and coins struck in the caliph's name, and the investiture titles and robes he conferred."
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-gov-1" }
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi, 'SULTAN' (Özgüdenli, 2009), web edition read on 16 Nov 2026: the word's history, Ghaznavid and Seljuk attestation, spread to later dynasties, the caliph–sultan relation"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-gov-1-drafting"

@@ -1,0 +1,41 @@
+id: job/wali
+class: job
+label: { ar: "والٍ", en: "Wali (governor)", ur: "والی" }
+names:
+  - { value: "عامل", kind: alternate }
+  - { value: "أمير", kind: alternate }
+  - { value: "vâlî", kind: latinized, lang: tr }
+  - { value: "إمارة الاستكفاء", kind: alternate }
+summary:
+  ar: "الوالي من يعيّنه الحاكم لتدبير مدينة أو إقليم خارج العاصمة؛ عُرف في البدء بالأمير أو العامل، وجمع الإمامة في الصلاة والقضاء وجباية الضرائب وقيادة الجيش وحفظ الأمن، وعُيّن بعهد مكتوب يبيّن حقوقه وواجباته، وخضع لتفتيش الدولة وسؤال المحتسبين، ودام عمله ما لم يُعزل أو يستقل."
+  en: "The wali was the official the ruler appointed to run a city or province beyond the capital; at first called emir or 'amil, he combined leading the prayer, judging disputes, collecting taxes, commanding the army and keeping order, appointed by a written deed (ahd) that fixed his rights and duties, inspected by the state's envoys, and holding office until dismissed, resigned or driven out."
+  ur: "والی وہ افسر تھا جسے حکمران دارالحکومت سے باہر کسی شہر یا صوبے کی نظامت کے لیے مقرر کرتا؛ ابتدا میں امیر یا عامل کہلاتا، نماز کی امامت، فیصلے، محصول کی وصولی، فوج کی قیادت اور امن کے فرائض جمع کرتا، تحریری عہد نامہ ⁦(عہد)⁩ سے مقرر ہوتا جس میں حقوق و فرائض لکھی جاتیں، ریاست کے معائنہ کار اس کی جانچ کرتے، اور عہدہ اس وقت تک رہتا جب تک معزول، مستعفی یا مخالفین نہ نکالیں۔"
+domain: governance-law
+kind: office
+hirfa: false
+era:
+  origins: prophetic
+  status_today: transformed
+places:
+  - { place: place/medina, note: "The Prophet appointed governors over tribes and cities, preferring local men — often already-Muslim former chiefs — then increasingly sending governors from the centre as the polity grew.", sources: [source/tdv-vali] }
+  - { place: place/damascus, note: "Under the Umayyads the governors' names mattered more than the caliphs': they chose their own provincial officers, supervised the mint and struck silver in their own names, and named deputies when they left their provinces.", sources: [source/tdv-vali] }
+  - { place: place/baghdad, note: "Under the Abbasids governors came from the Persian and later Turkish elites as well as the Arabs, while the finance 'amil and the sahib al-mazalim check trimmed the office's powers.", sources: [source/tdv-vali] }
+regions: [arabia, levant-iraq, egypt-nile, maghreb, andalus-europe, persia-central-asia, anatolia-balkans, south-asia]
+organization:
+  organized: court-office
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people]
+periods: [period/prophetic-era, period/rashidun, period/umayyad, period/abbasid-early, period/abbasid-fragmentation, period/buyid-seljuk-fatimid-era, period/crusades-ayyubid-mamluk, period/gunpowder-empires, period/colonial-era, period/modern-era]
+sources: [source/tdv-vali]
+training:
+  mode: state-licence
+  certification: "Appointed by a written deed (al-ahd, al-kitab) resembling a modern decree, drawn up after weighing the province's wishes; the required qualities were competence, trustworthiness, justice, mercy and freedom from ambition for office; gifts and trade were forbidden and wealth was declared before taking office."
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-gov-1" }
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi, 'VALİ' (Kılıç, 2012), web edition read on 16 Nov 2026: definition, duties and qualities, the ahd deed, inspection and dismissal, history from the Prophet to the Ottomans"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-gov-1-drafting"
