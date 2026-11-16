@@ -1,0 +1,33 @@
+id: "concept/al-khayalat"
+class: "concept"
+kind: "scientific"
+label:
+  ar: "الخيالات"
+  en: "Floaters before the sight (al-khayalat)"
+  ur: "نظر کے سامنے خیالات"
+summary:
+  ar: "الخيالات ألوان يحس أمام البصر كأنها مبثوثة في الجو، وسببها وقوف شيء غير شفاف بين الجليدية والمبصرات: إما ما لا يدرك في العادة إلا للقوي البصر من هباءات الجو وآثار أبخرة الباطن وهذا لا ينسب إلى مضرة، وإما ما يدركه الوسط من آثار خفية على القرنية أو من تغير الرطوبات أو بخارات واردة تتمكن فتنذر بالماء {cite:canon-ibn-sina-print-v2 p.207} {cite:canon-ibn-sina-print-v2 p.208}"
+  en: "Khayalat are hues sensed before the sight as though scattered in the air; their cause is something non-transparent standing between the ice-like humour and the objects seen: either what only the very keen sight perceives — motes of the air or traces of inner vapours, not counted a harm — or what ordinary sights perceive: faint traces on the cornea, or a change in the humours, or incoming vapours that settle and herald the water {cite:canon-ibn-sina-print-v2 p.207} {cite:canon-ibn-sina-print-v2 p.208}"
+  ur: "خیالات وہ رنگ ہیں جو بینائی کے سامنے فضا میں بکھرے محسوس ہوتے ہیں؛ ان کا سبب جلیدیہ اور مرئیات کے درمیان غیر شفاف شے کا آنا ہے: یا تو وہ شے جو صرف بہت تیز بصارت محسوس کرتی ہے — ہوا کے ذرات یا باطنی بخارات کے آثار، اور یہ مضرت شمار نہیں ہوتی — یا وہ جو عام بصارتیں محسوس کریں: قرنیہ پر لطیف آثار، یا رطوبتوں کی تبدیلی، یا آنے والی بخارات جو ٹھہرتیں اور پانی کی پیش بندی کرتی ہیں {cite:canon-ibn-sina-print-v2 p.207} {cite:canon-ibn-sina-print-v2 p.208}۔"
+wings:
+- "living"
+tags:
+- "tibb-browser"
+- "tibb-tibb"
+sources:
+- "source/canon-ibn-sina-print-v2"
+relations:
+- type: "part_of"
+  target: "concept/disease"
+  sources:
+  - "source/canon-ibn-sina-print-v2"
+provenance:
+  layer: "own-research"
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 3 (the anatomy, states and diseases of the eye), maqala 4, scan pages 207 to 209, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json); editor glosses used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping and cautery sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Devin subagent (SWE-2 Medium, Lane A4 worker)"
+  model: "swe-2-medium"
+  run: "a4-canon-book3-10"
+status:
+  review: "published"
+  completeness: 1
+  generated_by: "Devin subagent (SWE-2 Medium, book mining, lane A4)"

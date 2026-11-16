@@ -1,0 +1,33 @@
+id: "concept/al-sha-ira"
+class: "concept"
+kind: "scientific"
+label:
+  ar: "الشعيرة"
+  en: "The stye (sha'ira)"
+  ur: "شعیرہ"
+summary:
+  ar: "الشعيرة ورم مستطيل يظهر على حرف الجفن يشبه الشعير في شكله، ومادته في الأكثر دم غالب، ويعالج بالفصد والاستفراغ ثم بما يوصف عليه من كمادات ولطوخ {cite:canon-ibn-sina-print-v2 p.196}"
+  en: "The stye is an oblong swelling appearing on the edge of the eyelid, resembling a barley grain in shape; its matter is mostly predominating blood, and it is treated by venesection and evacuation, then by the compresses and liniments described for it {cite:canon-ibn-sina-print-v2 p.196}"
+  ur: "شعیرہ پلک کے کنارے پر ظاہر ہونے والی ایک لمبی سوجن ہے جو صورت میں جو کے دانے جیسی ہوتی ہے، اور اس کی مادہ اکثر غالب خون ہوتی ہے؛ اس کا علاج فصد اور استفراغ سے ہے، پھر وہ کمڑیاں اور لطوخ جو اس پر مقرر کی گئی ہیں {cite:canon-ibn-sina-print-v2 p.196}۔"
+wings:
+- "living"
+tags:
+- "tibb-browser"
+- "tibb-tibb"
+sources:
+- "source/canon-ibn-sina-print-v2"
+relations:
+- type: "part_of"
+  target: "concept/disease"
+  sources:
+  - "source/canon-ibn-sina-print-v2"
+provenance:
+  layer: "own-research"
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 3 (the anatomy, states and diseases of the eye), maqala 3, scan pages 196, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json); editor glosses used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping and cautery sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Devin subagent (SWE-2 Medium, Lane A4 worker)"
+  model: "swe-2-medium"
+  run: "a4-canon-book3-10"
+status:
+  review: "published"
+  completeness: 1
+  generated_by: "Devin subagent (SWE-2 Medium, book mining, lane A4)"

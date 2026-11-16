@@ -1,0 +1,33 @@
+id: "concept/asbab-da-f-al-basar"
+class: "concept"
+kind: "scientific"
+label:
+  ar: "أسباب ضعف البصر"
+  en: "Causes of weakness of sight"
+  ur: "بینائی کے ضعف کے اسباب"
+summary:
+  ar: "أسباب ضعف البصر إما من مزاج عام في البدن، أو من مرض في الدماغ كالضربة الضاغطة، أو من شأن الروح الباصر فيرق أو يكثف أو يقل، أو من طبقة أو رطوبة أو ثقبة أو عصبة {cite:canon-ibn-sina-print-v2 p.201} {cite:canon-ibn-sina-print-v2 p.202} {cite:canon-ibn-sina-print-v2 p.203}"
+  en: "The causes of weakness of sight are either a general temperament of the body, or a disease of the brain such as a compressing blow, or a state of the visual spirit itself — thinning, thickening or dwindling — or of a layer, a humour, the pupil or the nerve {cite:canon-ibn-sina-print-v2 p.201} {cite:canon-ibn-sina-print-v2 p.202} {cite:canon-ibn-sina-print-v2 p.203}"
+  ur: "بینائی کے ضعف کے اسباب یا تو بدن کے عمومی مزاج سے ہیں، یا دماغ کی بیماری سے جیسے دبانے والی ضربت، یا خود باصر روح کے حال سے — پتلا، گاڑھا یا کم ہو جانا — یا کسی طبقہ، رطوبت، ثقبہ یا عصب سے {cite:canon-ibn-sina-print-v2 p.201} {cite:canon-ibn-sina-print-v2 p.202} {cite:canon-ibn-sina-print-v2 p.203}۔"
+wings:
+- "living"
+tags:
+- "tibb-browser"
+- "tibb-tibb"
+sources:
+- "source/canon-ibn-sina-print-v2"
+relations:
+- type: "part_of"
+  target: "concept/disease"
+  sources:
+  - "source/canon-ibn-sina-print-v2"
+provenance:
+  layer: "own-research"
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 3 (the anatomy, states and diseases of the eye), maqala 4, scan pages 201 to 203, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json); editor glosses used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping and cautery sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Devin subagent (SWE-2 Medium, Lane A4 worker)"
+  model: "swe-2-medium"
+  run: "a4-canon-book3-10"
+status:
+  review: "published"
+  completeness: 1
+  generated_by: "Devin subagent (SWE-2 Medium, book mining, lane A4)"

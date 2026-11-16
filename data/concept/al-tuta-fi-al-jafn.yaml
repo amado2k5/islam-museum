@@ -1,0 +1,33 @@
+id: "concept/al-tuta-fi-al-jafn"
+class: "concept"
+kind: "scientific"
+label:
+  ar: "التوتة في الجفن"
+  en: "The tuta (mulberry-like flesh in the lid)"
+  ur: "پلک میں توتہ"
+summary:
+  ar: "التوتة لحم رخو يحدث في باطن الجفن فلا يزال يسيل منه دم أحمر وأسود وأخضر، وعلاجها التنقية بالمجففات الآكلة ثم الأدوية المنبتة للحم على ما يقال في قروح الأجفان {cite:canon-ibn-sina-print-v2 p.197}"
+  en: "The tuta is soft flesh arising inside the eyelid, from which red, black and green blood keeps flowing; its treatment is cleansing with eating desiccants, then the flesh-growing medicines spoken of under the ulcers of the lids {cite:canon-ibn-sina-print-v2 p.197}"
+  ur: "توتہ پلک کے اندر پیدا ہونے والا نرم گوشت ہے جس سے سرخ، سیاہ اور سبز خون مسلسل بہتا رہتا ہے؛ اس کا علاج چبانے والے مجففات سے تنقیہ ہے، پھر وہ ادویہ جو پلک کے قروح کے باب میں گوشت اگانے کے لیے کہی گئی ہیں {cite:canon-ibn-sina-print-v2 p.197}۔"
+wings:
+- "living"
+tags:
+- "tibb-browser"
+- "tibb-tibb"
+sources:
+- "source/canon-ibn-sina-print-v2"
+relations:
+- type: "part_of"
+  target: "concept/disease"
+  sources:
+  - "source/canon-ibn-sina-print-v2"
+provenance:
+  layer: "own-research"
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 3 (the anatomy, states and diseases of the eye), maqala 3, scan pages 197, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json); editor glosses used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping and cautery sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Devin subagent (SWE-2 Medium, Lane A4 worker)"
+  model: "swe-2-medium"
+  run: "a4-canon-book3-10"
+status:
+  review: "published"
+  completeness: 1
+  generated_by: "Devin subagent (SWE-2 Medium, book mining, lane A4)"

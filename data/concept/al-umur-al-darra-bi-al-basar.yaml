@@ -1,0 +1,33 @@
+id: "concept/al-umur-al-darra-bi-al-basar"
+class: "concept"
+kind: "scientific"
+label:
+  ar: "الأمور الضارة بالبصر"
+  en: "Things harmful to sight"
+  ur: "بینائی کے لیے مضر چیزیں"
+summary:
+  ar: "الأمور الضارة بالبصر منها أفعال وحركات ومنها أغذية ومنها حال التصرف في الأغذية: فمن الأفعال ما يجفف وطول النظر إلى المشرقات وقراءة الدقيق بإفراط والنوم على الامتلاء والعشاء، ومن الأغذية المالحة والحريفة والمفجرة وما يؤذي فم المعدة {cite:canon-ibn-sina-print-v2 p.206}"
+  en: "The things harmful to sight are of deeds and motions, of foods, and of the handling of foods: among deeds, all that dries, long gazing at bright things, excessive reading of fine script, sleeping on a full stomach and late supper; among foods, the salty, the acrid, the wind-releasing and what hurts the mouth of the stomach {cite:canon-ibn-sina-print-v2 p.206}"
+  ur: "بینائی کے لیے مضر چیزیں بعض اعمال و حرکات سے ہیں، بعض اغذیہ سے اور بعض اغذیہ کے استعمال کے طریقے سے: اعمال میں ہر خشک کرنے والی چیز، روشن چیزوں کی طرف طویل نظر، باریک نوشته کا مفرط مطالعہ، سیر ہو کر سونا اور دیر کا کھانا؛ اور اغذیہ میں نمکین، تیز، ہوا پھوڑنے والے اور جو معدہ کے منہ کو تکلیف دیں {cite:canon-ibn-sina-print-v2 p.206}۔"
+wings:
+- "living"
+tags:
+- "tibb-browser"
+- "tibb-tibb"
+sources:
+- "source/canon-ibn-sina-print-v2"
+relations:
+- type: "part_of"
+  target: "concept/disease"
+  sources:
+  - "source/canon-ibn-sina-print-v2"
+provenance:
+  layer: "own-research"
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 3 (the anatomy, states and diseases of the eye), maqala 4, scan pages 206, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json); editor glosses used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping and cautery sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Devin subagent (SWE-2 Medium, Lane A4 worker)"
+  model: "swe-2-medium"
+  run: "a4-canon-book3-10"
+status:
+  review: "published"
+  completeness: 1
+  generated_by: "Devin subagent (SWE-2 Medium, book mining, lane A4)"

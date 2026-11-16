@@ -1,0 +1,33 @@
+id: "concept/al-sharnaq"
+class: "concept"
+kind: "scientific"
+label:
+  ar: "الشرناق"
+  en: "The sharnaq (a fatty growth of the upper lid)"
+  ur: "شرناق"
+summary:
+  ar: "الشرناق زيادة من مادة شحمية تحدث في الجفن الأعلى فتثقله عن الانفتاح وتجعله كالمسترخي، وهو ملتحج لا يتحرك تحرك السلعة، وأكثر ما يعرض للصبيان والمرطوبين ومن تكثر بهم الدمعة والرمد {cite:canon-ibn-sina-print-v2 p.196}"
+  en: "Sharnaq is an excess of fatty matter arising in the upper eyelid, weighing the lid down from opening and leaving it as though relaxed; it is a firm mass that does not move as a fatty wart does, and it mostly befalls boys, the moist-tempered, and those with much tearing and ophthalmia {cite:canon-ibn-sina-print-v2 p.196}"
+  ur: "شرناق چربی کے مادہ کی ایک زیادتی ہے جو اوپر والی پلک میں پیدا ہوتی ہے اور پلک کو کھولنے سے بھاری کر کے بے جان سا کر دیتی ہے؛ یہ ایک سخت ماسہ ہے جو سلعہ کی طرح حرکت نہیں کرتا، اور یہ زیادہ تر بچوں، تر مزاجوں اور جن میں آنسو اور رمد زیادہ ہو، پر عرض کرتا ہے {cite:canon-ibn-sina-print-v2 p.196}۔"
+wings:
+- "living"
+tags:
+- "tibb-browser"
+- "tibb-tibb"
+sources:
+- "source/canon-ibn-sina-print-v2"
+relations:
+- type: "part_of"
+  target: "concept/disease"
+  sources:
+  - "source/canon-ibn-sina-print-v2"
+provenance:
+  layer: "own-research"
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 3 (the anatomy, states and diseases of the eye), maqala 3, scan pages 196 to 197, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json); editor glosses used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping and cautery sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Devin subagent (SWE-2 Medium, Lane A4 worker)"
+  model: "swe-2-medium"
+  run: "a4-canon-book3-10"
+status:
+  review: "published"
+  completeness: 1
+  generated_by: "Devin subagent (SWE-2 Medium, book mining, lane A4)"

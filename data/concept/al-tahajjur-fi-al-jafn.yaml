@@ -1,0 +1,33 @@
+id: "concept/al-tahajjur-fi-al-jafn"
+class: "concept"
+kind: "scientific"
+label:
+  ar: "التحجر في الجفن"
+  en: "The tahajjur (small hardening lid tumour)"
+  ur: "پلک کا تحجر"
+summary:
+  ar: "التحجر ورم صغير يدمي ويتحجر، وقد يخلص منه عمل اليد ثم تستعمل الأدوية المجففة {cite:canon-ibn-sina-print-v2 p.197}"
+  en: "Tahajjur is a small tumour that bleeds and turns stony; the hand's work may clear it, and then the desiccant medicines are used {cite:canon-ibn-sina-print-v2 p.197}"
+  ur: "تحجر ایک چھوٹی سوجن ہے جو خون بہاتی اور پتھر سی ہو جاتی ہے؛ دستی عمل اسے نکال سکتا ہے اور پھر مجفف ادویہ استعمال ہوتی ہیں {cite:canon-ibn-sina-print-v2 p.197}۔"
+wings:
+- "living"
+tags:
+- "tibb-browser"
+- "tibb-tibb"
+sources:
+- "source/canon-ibn-sina-print-v2"
+relations:
+- type: "part_of"
+  target: "concept/disease"
+  sources:
+  - "source/canon-ibn-sina-print-v2"
+provenance:
+  layer: "own-research"
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 3 (the anatomy, states and diseases of the eye), maqala 3, scan pages 197, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json); editor glosses used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping and cautery sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Devin subagent (SWE-2 Medium, Lane A4 worker)"
+  model: "swe-2-medium"
+  run: "a4-canon-book3-10"
+status:
+  review: "published"
+  completeness: 1
+  generated_by: "Devin subagent (SWE-2 Medium, book mining, lane A4)"
