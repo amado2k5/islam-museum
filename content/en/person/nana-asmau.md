@@ -44,3 +44,6 @@ In 2019 the governor of Sokoto State directed that land be provided for a planne
 ## Sources
 - The defined source entities cited above, recorded in `data/source/`.
 - Revisions of this article must be dated, and must name the source that changed each fact.
+
+## In The Oxford Dictionary of Islam
+The Oxford Dictionary of Islam lists Nana Asma'u, who died in 1864, as a daughter of [[person/usman-dan-fodio|Usman dan Fodio]] and a leader in the Sokoto Caliphate. It says she gathered, edited and translated her father's writings and wrote works that were foundational for the thinking behind the jihad movement in West Africa, and describes her as a leading figure in scholarship, Sufi piety and politics. {cite:oxford-dictionary-of-islam e222}

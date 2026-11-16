@@ -1,0 +1,23 @@
+id: concept/ghalyun
+class: concept
+kind: natural
+label:
+  ar: "غاليون"
+  en: "Ghalyun"
+  ur: "غالیون"
+summary:
+  ar: "غاليون في الكتاب دواء طيب الرائحة، مجفف يجمد اللبن وفيه يسير حدة ويمنع من انفجار الدم، وينفع من حرق النار {cite:canon-ibn-sina-print-v1 p.726}"
+  en: "Ghalyun is in the book a sweet-smelling drug, drying, which congeals milk, with a little sharpness in it, and it prevents the bursting forth of blood and benefits a burn by fire {cite:canon-ibn-sina-print-v1 p.726}"
+  ur: "غالیون کتاب میں ایک خوشبودار دوا ہے، خشک کرنے والی، جو دودھ کو جماتی ہے، اس میں تھوڑی تیزی ہے، اور خون کے پھوٹ پڑنے کو روکتی ہے اور آگ کے جلنے میں نافع ہے {cite:canon-ibn-sina-print-v1 p.726}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, scan pages 726, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image rendered and read by eye for every heading and doubtful clause; editor footnotes used only for identity; measured doses, weights, counts, times and preparation methods left out; unclear lines left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-32
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

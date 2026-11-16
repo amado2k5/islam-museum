@@ -40,3 +40,8 @@ Wikidata listed articles on him in nine Wikipedia editions on 7 November 2026. {
 - Wikidata item Q6403143. {cite:wikidata-khurshid-ahmad-economist}
 
 - The laureate's page on the King Faisal Prize's official site, read on 7 November 2026. {cite:king-faisal-prize-laureates professor-khurshid-ahmed}
+
+## In The Oxford Dictionary of Islam
+The Oxford Dictionary of Islam introduces Khurshid Ahmad, born 1932, as a scholar, campaigner and economist from Pakistan who tried to build an Islamic economics on Qur'anic values as a third way between capitalism and socialism. It says he teaches that social responsibility outranks individual rights, favours cooperation and mutual obligation over competition, makes the development of human resources an aim of economic policy, and is critical of the West while accepting that science and technology matter. {cite:oxford-dictionary-of-islam e81}
+
+It calls him a lifelong follower of [[person/abul-ala-maududi|Abul Ala Maududi]] and the translator of his main works into English, and lists his posts: minister of planning under General Zia-ul-Haq's military government, first chairman of the Leicester Islamic Foundation and of the Institute of Policy Studies in Islamabad, vice-president of Jamaat-i Islami Pakistan, and a member of the Senate. {cite:oxford-dictionary-of-islam e81} The entry was written in his lifetime; the death date in the record is later than it.

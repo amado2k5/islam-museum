@@ -1,0 +1,23 @@
+id: concept/dar-tibb
+class: concept
+kind: natural
+label:
+  ar: "ضرع"
+  en: "Dar'"
+  ur: "ضرع"
+summary:
+  ar: "ضرع في الكتاب بارد يابس بسبب العصب الكبير الذي فيه، وغذاء الضرع الممتلئ لبنا إذا استمرئ قريب من غذاء اللحم، وأحمده ما يكون فيه لبن، وبالأفاويه فإنها تعجل بانحداره، وهو من الحيوان الجيد اللحم جدا جيد الخلط غليظه قويه {cite:canon-ibn-sina-print-v1 p.721}"
+  en: "Dar' is in the book cold and dry because of the large nerve in it; the nourishment of the udder filled with milk, when digested, is near the nourishment of meat, and the most praiseworthy is the one with milk in it, with spices, for they hasten its descent; it is from the animals of very good flesh, good in humour, thick and strong {cite:canon-ibn-sina-print-v1 p.721}"
+  ur: "ضرع کتاب میں بڑی عصب کی وجہ سے ٹھنڈا اور خشک ہے، اور دودھ سے بھرے ضرع کی غذا، جب ہضم ہو جائے، گوشت کی غذا کے قریب ہے، اور سب سے قابل تعریف وہ ہے جس میں دودھ ہو، مسالوں کے ساتھ کیونکہ وہ اس کے اترنے کو تیز کرتے ہیں، یہ بہت اچھے گوشت والے جانوروں میں سے ہے، اچھی خلط والا، گاڑھا اور قوی {cite:canon-ibn-sina-print-v1 p.721}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, scan pages 721, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image rendered and read by eye for every heading and doubtful clause; editor footnotes used only for identity; measured doses, weights, counts, times and preparation methods left out; unclear lines left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-32
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

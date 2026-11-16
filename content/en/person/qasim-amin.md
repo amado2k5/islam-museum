@@ -49,3 +49,8 @@ Amin died in Cairo in 1908, aged 44. The Arabic article and Wikidata date his de
 
 ## References
 - English Wikipedia article on Qasim Amin (revision 1380784547); Arabic Wikipedia article (revision 76322621); Wikidata item Q740282. No source names a school of Islam for him; Wikidata records his religion as Islam only, and his school remains unknown in the museum's record. The English article conflicts with the Arabic article and Wikidata on his day of death (12 April vs 23 April 1908).
+
+## In The Oxford Dictionary of Islam
+The Oxford Dictionary of Islam introduces Qasim Amin, who died in 1908, as an Egyptian lawyer, writer and advocate of women's rights, who took his legal licence in Cairo and Montpellier and held judicial posts. It names his books Tahrir al-Mar'a (1899) and al-Mar'a al-Jadida (1900), says they argued for wider rights for women and set off a great debate across the Arab world, and says he criticised veiling, seclusion, early marriage and the lack of schooling, looking to a reshaping of Egyptian culture and to legal reform as the remedy. {cite:oxford-dictionary-of-islam e149}
+
+The Dictionary adds that he has long been seen as an early champion of feminism in Egypt, while revisionist scholarship has called his work pro-Western and faulted it for treating Egyptian women as the objects over which nationalist questions were argued. {cite:oxford-dictionary-of-islam e149} This fits the record's remark that the label "first feminist" is contested among scholars.

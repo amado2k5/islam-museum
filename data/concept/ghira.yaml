@@ -1,0 +1,23 @@
+id: concept/ghira
+class: concept
+kind: natural
+label:
+  ar: "غراء"
+  en: "Ghira'"
+  ur: "غراء"
+summary:
+  ar: "غراء في الكتاب غراء الجلود حار يابس في الأولى وغراء السمك أقل حرارة لكنه يابس، لكل غراء قوة مغرية مجففة، ويقع غراء السمك في الغمرة وأدوية البرص ومراهم الجرب المتقرح وقروح الرأس، ويطلى غراء الجلود على السعفة ويمنع تنفط الحرق، ويسقى غراء السمك بالخل لنفث الدم {cite:canon-ibn-sina-print-v1 pp.725-726}"
+  en: "Ghira' is in the book: hide glue is hot and dry in the first degree and fish glue less hot but dry, every glue has an adhesive, drying power, fish glue enters the ghumra and the drugs for baras and the salves for ulcerated scab and for ulcers of the head, hide glue is applied to sa'fa and prevents blistering of a burn, and fish glue is given with vinegar for spitting of blood {cite:canon-ibn-sina-print-v1 pp.725-726}"
+  ur: "غراء کتاب میں: کھالوں کا غراء پہلے درجے میں گرم خشک ہے اور مچھلی کا غراء کم گرم مگر خشک، ہر غراء میں چپکانے اور خشک کرنے والی قوت ہے، مچھلی کا غراء غمرہ اور برص کی دواؤں اور قرحہ زدہ جرب اور سر کے زخموں کے مرہموں میں داخل ہوتا ہے، کھالوں کا غراء سعفہ پر لگایا جاتا ہے اور جلنے کے آبلے بننے کو روکتا ہے، اور مچھلی کا غراء سرکے کے ساتھ خون تھوکنے کے لیے دیا جاتا ہے {cite:canon-ibn-sina-print-v1 pp.725-726}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, scan pages 725-726, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image rendered and read by eye for every heading and doubtful clause; editor footnotes used only for identity; measured doses, weights, counts, times and preparation methods left out; unclear lines left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-32
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

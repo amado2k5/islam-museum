@@ -23,6 +23,7 @@ external_ids:
 sources:
 - source/wikidata
 - source/geonames-gazetteer
+- source/oxford-dictionary-of-islam
 status:
   review: draft
   completeness: 1
@@ -36,3 +37,4 @@ provenance:
   - person-place-geo-c
   note: Semantic merge of duplicate records written by parallel enrichment runs.
   source: Wikidata item Q16 (labels, coordinates), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q16 (labels, coordinates, description)
+  oxford_captures: "t125/e407: http://www.oxfordislamicstudies.com/article/opr/t125/e407 ; https://web.archive.org/web/20220520133122/http://www.oxfordislamicstudies.com/article/opr/t125/e407"

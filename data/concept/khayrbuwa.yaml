@@ -1,0 +1,23 @@
+id: concept/khayrbuwa
+class: concept
+kind: natural
+label:
+  ar: "خيربوا"
+  en: "Khayrbuwa"
+  ur: "خیربوا"
+summary:
+  ar: "خيربوا في الكتاب حب صغار مثل القاقلة الصغار يجلب من السفالة، حار يابس في الثالثة، قوته قوة القرنفل يجلو ويلطف وهو ألطف من القاقلة، وهو جيد للمعدة والكبد الباردتين ويحبس القيء {cite:canon-ibn-sina-print-v1 p.718}"
+  en: "Khayrbuwa is in the book small grains like small qaqulla brought from al-safala, hot and dry in the third degree, its strength the strength of the clove, cleansing and subtilising and subtler than qaqulla, and good for the cold stomach and liver and stops vomiting {cite:canon-ibn-sina-print-v1 p.718}"
+  ur: "خیربوا کتاب میں چھوٹے دانے ہیں جیسے چھوٹی قاقلہ، السفالہ سے لائے جاتے ہیں، تیسرے درجے میں گرم خشک، اس کی قوت لونگ کی قوت ہے، جلا دیتا اور لطیف کرتا ہے اور قاقلہ سے زیادہ لطیف ہے، اور ٹھنڈے معدے اور جگر کے لیے اچھا ہے اور قے کو روکتا ہے {cite:canon-ibn-sina-print-v1 p.718}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, scan pages 718, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image rendered and read by eye for every heading and doubtful clause; editor footnotes used only for identity; measured doses, weights, counts, times and preparation methods left out; unclear lines left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-32
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

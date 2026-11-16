@@ -25,3 +25,6 @@ Under his government Islam became the religion of the federation in 1960; he fou
 ## Sources
 - The defined source entities cited above, recorded in `data/source/`.
 - Revisions of this article must be dated, and must name the source that changed each fact.
+
+## In The Oxford Dictionary of Islam
+The Oxford Dictionary of Islam describes Tunku Abdul Rahman as independent Malaysia's first prime minister and the head of UMNO, the United Malays National Organization, committed to a secular vision of the nation and to sharing power with the Chinese and Indians. It says he was blamed for the worsening position of the Malays and for the racial riots of 1969, and that after 1969 he led PERKIM and won a Faisal Award for his work in bringing Islam to non-Muslims at home. {cite:oxford-dictionary-of-islam e16} The blame is reported as the Dictionary's statement, not as a judgement of this record.

@@ -26,3 +26,6 @@ He died at Cairo in March 1964 — the Arabic article gives 26 Shawwal 1383, cor
 
 ## Works in the OpenITI corpus
 The OpenITI corpus holds 76 works under the author identifier 1383CabbasMahmudCaqqad, among them: Abu Cala; Abu Nuwas; Abu Shuhada Husayn Ibn Cali; Acasir Maghrib. {cite:openiti-corpus 1383CabbasMahmudCaqqad}
+
+## In The Oxford Dictionary of Islam
+The Oxford Dictionary of Islam counts al-Aqqad, who died in 1964, among the Egyptian Islamic modernist thinkers. It says he discussed Islam's place in the history of religions, wrote about Muhammad, the early Muslim leaders and the heroic age of Islam, and joined the discussions of nationalism, the position of women and wider social and cultural matters. It also records that he was the teacher of [[person/sayyid-qutb|Sayyid Qutb]], who later rejected his teaching as too intellectualised. {cite:oxford-dictionary-of-islam e179} This describes his reach into Islamic thought, while the record above centres on his literary career.

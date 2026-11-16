@@ -1,0 +1,23 @@
+id: concept/ghalimun
+class: concept
+kind: natural
+label:
+  ar: "غالمون"
+  en: "Ghalimun"
+  ur: "غالمون"
+summary:
+  ar: "غالمون في الكتاب دواء طيب الرائحة لونه لون السفرجل، يجمد اللبن وقوته مجففة مع حدة يسيرة، وزهره نافع لانفجار الدم، ويذكر الكتاب أنه قد يظن أنه يشفي من حرق؛ وبه يختم حرف الغين وهو آخر الكتاب الثاني {cite:canon-ibn-sina-print-v1 p.727}"
+  en: "Ghalimun is in the book a sweet-smelling drug the colour of the quince, which congeals milk, its power drying with a little sharpness, and its flower is beneficial for the bursting forth of blood; the book says it may be thought that it heals from a burn; with it the letter ghayn closes, and with it the end of Book II {cite:canon-ibn-sina-print-v1 p.727}"
+  ur: "غالمون کتاب میں ایک خوشبودار دوا ہے جس کا رنگ بہی کا سا ہے، دودھ کو جماتی ہے اور اس کی قوت خشک کرنے والی ہے اور تھوڑی تیزی کے ساتھ، اور اس کا پھول خون کے پھوٹ پڑنے کے لیے فائدہ مند ہے؛ کتاب کہتی ہے کہ گمان کیا جاتا ہے کہ یہ جلنے سے شفا دیتی ہے؛ اس پر حرف غین ختم ہوتا ہے اور کتاب دوم کا اختتام {cite:canon-ibn-sina-print-v1 p.727}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, scan pages scan page 727, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image rendered with pdftoppm and read by eye for every heading and doubtful clause; editor footnotes used only for identity; measured doses, weights, counts, times and preparation methods left out; unclear lines left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-33
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

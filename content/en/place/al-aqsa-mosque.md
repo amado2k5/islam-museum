@@ -12,3 +12,8 @@ The Sheikh holds that the cause of al-Aqsa Mosque unites all Muslims, that any o
 
 ## In the Pleiades gazetteer
 Pleiades, the open gazetteer of ancient places, lists this place under the title «Al-Aqsa Mosque» (Pleiades no. 195824089), classed as a mosque, with activity attested from 661 CE to 2099 CE. Names recorded there include Beyt-i Maḳdis,Beyt-i Maqdis, Mescid-i Aksa Camii, Al-Aqsa Mosque. {cite:pleiades 195824089}
+
+## In The Oxford Dictionary of Islam
+The Oxford Dictionary of Islam presents al-Aqsa as a mosque of the 600s within the Haram al-Sharif in Jerusalem, called the Farther Mosque to set it apart from the Holy Mosque at Mecca, and mentioned in connection with the Night Journey ([[passage/quran-17-1|17:1]]). It says a first building went up in about 637, once Jerusalem had been taken; that al-Walid, an Umayyad caliph, raised a far bigger one in 715 on the Haram's southern side, which was later destroyed and rebuilt; and that the standing structure is mostly of the eleventh century. {cite:oxford-dictionary-of-islam e180}
+
+It adds that in 1969 a fire set by an arsonist destroyed the twelfth-century pulpit given to the mosque by Saladin. {cite:oxford-dictionary-of-islam e180} The record above credits Abd al-Malik ibn Marwan with building both the Dome and al-Aqsa, while the Dictionary names al-Walid and the year 715; the two attributions are not reconciled here.

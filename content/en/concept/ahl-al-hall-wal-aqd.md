@@ -28,3 +28,6 @@ Justice that meets the conditions for testimony, knowledge by which the one enti
 - The Hanbalis require most of them in every town; a report from Ahmad says the imam is the one all agree upon. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3613}
 - Another view: at least five, or one with the consent of four. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3613}
 - The Hanafis and Shafi'is set no fixed number, and accept the appointment by a group of them. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.3613}
+
+## In The Oxford Dictionary of Islam
+The Oxford Dictionary of Islam defines ahl al-hall wa al-aqd as the people with authority to choose a caliph, or remove him, for the community. In medieval political theory, it says, they were legal scholars whose task was to put the caliphate to the most suitable person, a task that was largely formal in practice, since rulers usually named their own successors. It adds that certain modern writers have sought to match this function with a parliament's. {cite:oxford-dictionary-of-islam e73} The record above describes them more widely, as men of power among scholars and notables; the two descriptions are set side by side.

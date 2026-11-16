@@ -23,3 +23,6 @@ Al-Mas'udi counted him among those who called to God and warned their people abo
 
 ## For young visitors
 Bahira was a monk who lived in the town of Busra in Syria. When the boy Muhammad passed by him with his uncle in a trading caravan, he recognised that Muhammad would be a prophet. He asked the uncle to protect him and bring him back to Mecca.
+
+## In The Oxford Dictionary of Islam
+The Oxford Dictionary of Islam presents Bahira as a Christian monk who is believed to have spotted in the boy Muhammad the marks of a coming prophet, and it reads the story as affirming that his prophethood continues the line of Moses and Jesus, and that his message continues the Jewish and Christian scriptures. {cite:oxford-dictionary-of-islam e277} This is the Dictionary's wording for an account held by belief; the story itself, in detail, is in the sources cited above.

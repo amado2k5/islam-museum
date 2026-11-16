@@ -1,0 +1,23 @@
+id: concept/ghushna
+class: concept
+kind: natural
+label:
+  ar: "غوشنة"
+  en: "Ghushna"
+  ur: "غوشنہ"
+summary:
+  ar: "غوشنة في الكتاب جنس من الكمأة والفطر يجفف فينضم كالغضروف، شكله شكل كأس على كرش صغيرة متشنجة، ويؤكل في الحموضات، وليس في برد سائر الكمأة، وليس برديء الخلط كالكمأة {cite:canon-ibn-sina-print-v1 p.726}"
+  en: "Ghushna is in the book a kind of truffle and mushroom which dries and so contracts like cartilage, its shape the shape of a cup on a small, shrivelled stomach (kirsh), and it is eaten among the sours; it is not in the coldness of the other truffles, and it is not bad in humour as the truffle is {cite:canon-ibn-sina-print-v1 p.726}"
+  ur: "غوشنہ کتاب میں کمأۃ اور فطر کی ایک قسم ہے جو خشک ہوتی ہے تو غضروف کی طرح سمٹ جاتی ہے، اس کی شکل ایک چھوٹے سکڑے ہوئے کرش پر پیالے کی سی ہے، اور وہ کھٹی چیزوں میں کھائی جاتی ہے؛ وہ باقی کمأۃ کی ٹھنڈک میں نہیں، اور کمأۃ کی طرح بری خلط والی نہیں {cite:canon-ibn-sina-print-v1 p.726}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, scan pages scan page 726, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image rendered with pdftoppm and read by eye for every heading and doubtful clause; editor footnotes used only for identity; measured doses, weights, counts, times and preparation methods left out; unclear lines left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-33
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

@@ -40,3 +40,8 @@ Wikidata listed articles on her in twenty-five Wikipedia editions on 7 November 
 - Wikidata item Q3502921. {cite:wikidata-aisha-abd-al-rahman}
 
 - King Faisal Prize laureate list, revision of 31 October 2026. {cite:wikipedia-king-faisal-prize-en}
+
+## In The Oxford Dictionary of Islam
+The Oxford Dictionary of Islam lists Aisha Abd al-Rahman, born in 1913 and also known as Bint al-Shati, as an Egyptian author who was a professor of Arabic language and literature and of Qur'anic studies. It credits her with over sixty books, on Arabic literature, interpretation of the Qur'an, women of the first Muslim generations (above all those of Muhammad's household) and present-day social questions, and also with fiction, and says she is esteemed across the Arab world. {cite:oxford-dictionary-of-islam e7}
+
+It describes her approach to exegesis as literary rather than traditional: she argues for a single interpretation of a verse in place of several, based on how the word is used in the Qur'an as a whole, rejects the use of outside sources in interpretation, and insists that women's liberation does not mean abandoning traditional Islamic values. {cite:oxford-dictionary-of-islam e7} The record above says she wrote more than forty books and the Dictionary says over sixty; the difference is recorded as two differing statements and is not settled here.

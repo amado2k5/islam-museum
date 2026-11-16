@@ -1,0 +1,23 @@
+id: concept/dharira
+class: concept
+kind: natural
+label:
+  ar: "ذريرة"
+  en: "Dharira"
+  ur: "ذریرہ"
+summary:
+  ar: "ذريرة في الكتاب مدخل يحيل إلى ما قيل في فصل القاف عند قصب الذريرة ثم يضيف أنه قيل لا شيء أفضل منها لحرق النار بدهن ورد وخل، وأنها تنفع من أورام المعدة والأمعاء والكبد ومن الاستسقاء {cite:canon-ibn-sina-print-v1 p.719}"
+  en: "Dharira is in the book an entry that refers to what was said in the chapter of the letter qaf at qasab al-dharira and then adds that it was said that nothing is better than it for a burn by fire, with rose oil and vinegar, and that it benefits swellings of the stomach and intestines and of the liver, and dropsy {cite:canon-ibn-sina-print-v1 p.719}"
+  ur: "ذریرہ کتاب میں ایک اندراج ہے جو اس بات کی طرف رجوع کرتا ہے جو حرف قاف کے باب میں قصب الذریرہ کے ذکر پر کہی گئی، پھر اضافہ کرتا ہے کہ کہا گیا کہ آگ کے جلنے کے لیے گلاب کے تیل اور سرکے کے ساتھ اس سے بہتر کچھ نہیں، اور یہ معدے، آنتوں اور جگر کے ورموں اور استسقاء میں نافع ہے {cite:canon-ibn-sina-print-v1 p.719}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, scan pages 719, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image rendered and read by eye for every heading and doubtful clause; editor footnotes used only for identity; measured doses, weights, counts, times and preparation methods left out; unclear lines left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-32
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }
