@@ -31,6 +31,32 @@ died:
   precision: day
   sources: [source/wikipedia-fayz-kashani-en, source/wikipedia-fayz-kashani-ar]
   note: "Died at Kashan on 22 Rabi' II 1091 / 22 May 1680 and was buried there in the cemetery he had himself bought and endowed (Arabic article). No place record for Kashan exists on main, so no died_in or buried_in edge is written."
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave"
+    sources: [source/wikipedia-fayz-kashani-en, source/wikipedia-fayz-kashani-ar, source/iranica-fayz-kasani, source/wikidata-fayz-kashani, source/al-aalam, source/wikidata]
+  - job: job/poet
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'poet', Job Browser linking wave"
+    sources: [source/wikipedia-fayz-kashani-en, source/wikipedia-fayz-kashani-ar, source/iranica-fayz-kasani, source/wikidata-fayz-kashani, source/al-aalam, source/wikidata]
+  - job: job/mutakallim
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'theologian', Job Browser linking wave"
+    sources: [source/wikipedia-fayz-kashani-en, source/wikipedia-fayz-kashani-ar, source/iranica-fayz-kasani, source/wikidata-fayz-kashani, source/al-aalam, source/wikidata]
+  - job: job/philosopher
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'philosopher', Job Browser linking wave"
+    sources: [source/wikipedia-fayz-kashani-en, source/wikipedia-fayz-kashani-ar, source/iranica-fayz-kasani, source/wikidata-fayz-kashani, source/al-aalam, source/wikidata]
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'jurist', Job Browser linking wave"
+    sources: [source/wikipedia-fayz-kashani-en, source/wikipedia-fayz-kashani-ar, source/iranica-fayz-kasani, source/wikidata-fayz-kashani, source/al-aalam, source/wikidata]
 relations:
   - {type: student_of, target: person/mulla-sadra, sources: [source/wikipedia-fayz-kashani-en, source/wikipedia-fayz-kashani-ar, source/iranica-fayz-kasani]}
   - {type: student_of, target: person/mir-damad, sources: [source/wikipedia-fayz-kashani-en]}

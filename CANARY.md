@@ -13,6 +13,10 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v1.75.0 — 2026-11-17
+### Added
+- Job Browser linking wave 1: 96 `occupations:` edges added on 25 person records via the taxonomy roles merge map — scholars and office-holders linked to alim, poet, philosopher, faqih, mutakallim, historian, teacher, preacher, physician, astronomer, qadi, mufassir, mathematician, professor, caliph and nine more jobs, each link carrying the person's own sources.
+
 ## v1.74.0 — 2026-11-17
 ### Added
 - Job Browser: six more provision and building trades — the grain-merchant (ḥabbāb), the flour-merchant (daqqāq), the greengrocer (khuḍārī), the poulterer (dajjāj), the brick-maker (ajurrī) and the leather-bottle-maker (qirrāb) — in Arabic, English and Urdu draft cited to al-Shayzari, Ibn al-Ukhuwwa, Evliya Çelebi, Lane and Creswell's Early Muslim Architecture.

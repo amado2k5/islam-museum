@@ -29,6 +29,27 @@ died:
   precision: year
   sources: [source/teis-seyhulislam-yahya, source/wikipedia-zekeriyazade-yahya-efendi]
   note: "Died at Istanbul on 18 Dhu'l-Hijja 1053 / 27 February 1644 (TEIS), still holding the Shaykh al-Islamate in his third term, and was buried in the cemetery of his father Bayramzade Zekeriya Efendi's medrese by Sultan Selim."
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave"
+    sources: [source/wikipedia-zekeriyazade-yahya-efendi, source/wikipedia-de-zekeriyazade-yahya, source/teis-seyhulislam-yahya, source/wikidata-zekeriyazade-yahya, source/dawlat-uthmaniyya-salabi]
+  - job: job/poet
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'poet', Job Browser linking wave"
+    sources: [source/wikipedia-zekeriyazade-yahya-efendi, source/wikipedia-de-zekeriyazade-yahya, source/teis-seyhulislam-yahya, source/wikidata-zekeriyazade-yahya, source/dawlat-uthmaniyya-salabi]
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'jurist', Job Browser linking wave"
+    sources: [source/wikipedia-zekeriyazade-yahya-efendi, source/wikipedia-de-zekeriyazade-yahya, source/teis-seyhulislam-yahya, source/wikidata-zekeriyazade-yahya, source/dawlat-uthmaniyya-salabi]
+  - job: job/teacher
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'teacher', Job Browser linking wave"
+    sources: [source/wikipedia-zekeriyazade-yahya-efendi, source/wikipedia-de-zekeriyazade-yahya, source/teis-seyhulislam-yahya, source/wikidata-zekeriyazade-yahya, source/dawlat-uthmaniyya-salabi]
 relations:
   - {type: child_of, target: person/bayramzade-zekeriya-efendi, sources: [source/teis-seyhulislam-yahya, source/wikipedia-zekeriyazade-yahya-efendi]}
   - {type: born_in, target: place/istanbul, sources: [source/teis-seyhulislam-yahya, source/wikipedia-zekeriyazade-yahya-efendi]}
