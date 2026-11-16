@@ -1,0 +1,46 @@
+id: job/admiral
+class: job
+label: { ar: "أمير البحر ⁦(قبودان باشا)⁩", en: "Admiral (kapudan pasha / kapudân-ı deryâ)", ur: "امیر البحر ⁦(قپودان پاشا)⁩" }
+names:
+  - { value: "قبودان باشا", kind: alternate }
+  - { value: "kapudan paşa", kind: latinized, lang: tr }
+  - { value: "قبودان دريا", kind: alternate }
+  - { value: "kapudân-ı deryâ", kind: latinized, lang: tr }
+  - { value: "amîrü'l-bahr", kind: latinized }
+  - { value: "mîrimîrân-ı deryâ", kind: latinized, lang: tr }
+  - { value: "emîr-i deryâ", kind: latinized, lang: tr }
+  - { value: "أمير البحر", kind: alternate }
+summary:
+  ar: "أمير البحر العثماني ⁦(قبودان باشا، ثم قبودان دريا)⁩ قائد الأسطول ومدبّر شؤون البحرية. أولهم على الأرجح سارجة باشا الذي كلفه يلدرم بايزيد سنة 1390 بإنشاء الترسانة والأسطول بصفته بيه گليبولو، وظل القبودانون بمقام صنجق بيه گليبولو حتى عيّن سليمان القانوني خير الدين بربروس سنة 1534 بيلر بيه جزائر بحر سفيد فصار اللقب باشا. كان يجوب البحر كل صيف لحماية السواحل والجزر وتجارة البحر من الكفار والحرامي واللوند، ثم يعود إلى إسطنبول في الشتاء؛ ويشرف على الترسانة ودفاترها، ويعيّن دريا بيلر وقبودان وريّس، وينصب قضاءه حيث نزل. ألغي اللقب سنة 1867 مع تأسيس نظارة البحرية."
+  en: "The kapudan pasha — the Italian capitán turned Ottoman, later styled kapudân-ı deryâ — was head and administrator of the Ottoman sea power. The first was probably Sarıca Pasha, whom Bayezid I charged in 1390 with building the dockyard and fleet as sancak beyi of Gelibolu; the kapudans kept the Gelibolu sancak rank until Süleyman made Barbaros Hayreddin beylerbeyi of Cezâyir-i Bahr-i Sefîd in 1534, when the title rose to pasha. He put to sea every year to guard the coasts, islands and sea trade against infidel, harami and levent ships, wintering back in Istanbul; he oversaw the dockyard and its accounts, appointed the derya beys, kapudans and reises, granted the eyalet's timars, and held court wherever he landed. In the sailing-ship age he flew three lanterns and three flags from his başkapudane galleon. The title died with the founding of the Bahriye Nezâreti in 1867."
+  ur: "قپودان پاشا — اطالوی capitán کا عثمانی روپ، بعد میں قپودانِ دریا — عثمانی بحری قوت کا سردار اور منتظم تھا۔ پہلا غالباً سارجا پاشا تھا جسے بایزید اول نے 1390 میں گلیبولو کے صنجق بیگی کے طور پر ترسانہ اور بیڑا بنانے کا حکم دیا؛ قپودان 1534 تک گلیبولو صنجق بیگ کے مرتبے پر رہے جب سلیمان نے بربروس خیر الدین کو جزائر بحر سفید کا بیلربیگی بنایا اور لقب پاشا ہوا۔ وہ ہر سال سمندر میں نکل کر ساحل، جزائر اور سمندری تجارت کی حفاظت کرتا اور موسم گزرنے پر استنبول لوٹتا؛ ترسانہ اور اس کے حسابوں کی نگرانی، دریا بیگوں، قپودانوں اور رئیسوں کی تقرری، ایالت کے تیمار دینا اور جہاں اترتا عدالت لگانا اس کے کام تھے۔ جہاز رانی کے زمانے میں اس کے بڑے گیلین باشقپودانے پر تین فانوس اور تین جھنڈے ہوتے۔ 1867 میں بحریہ نظارت کے قیام سے لقب ختم ہوا۔"
+domain: war-command
+kind: military
+hirfa: false
+era:
+  origins: medieval
+  status_today: replaced
+places:
+  - { place: place/gallipoli, note: "Gelibolu was the kapudan's first seat: every kapudan from Sarıca Pasha (1390) to Barbarossa commanded the fleet as sancak beyi of Gelibolu, and the Cezâyir-i Bahr-i Sefîd eyalet's centre was later moved from Rhodes back to Gelibolu.", sources: [source/tdv-kapudan-pasa] }
+  - { place: place/istanbul, note: "The kapudan pasha had his own divanhâne inside the Istanbul dockyard (Tersane), received the sultan's hil'at at the Yalı Köşkü when the fleet sailed and returned, drew the Galata mukâtaa among his revenues, and in winter returned to the capital while his derya beys guarded the coasts.", sources: [source/tdv-kapudan-pasa] }
+  - { place: place/algiers, note: "The eyalet created for Barbaros Hayreddin in 1534 was Cezâyir-i Bahr-i Sefîd — the 'Algiers of the White (Aegean) Sea' — whose beylerbeyi was thereafter the kapudan pasha; the eyalet's six sancaks ran from Gelibolu to Eğriboz, Karlı-ili, İnebahtı, Rhodes and Midilli.", sources: [source/tdv-kapudan-pasa] }
+regions: [anatolia-balkans, maghreb, egypt-nile, levant-iraq]
+organization:
+  organized: court-office
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people]
+periods: [period/mongol-post-mongol, period/gunpowder-empires, period/colonial-era, period/modern-era]
+sources: [source/tdv-kapudan-pasa]
+training:
+  mode: state-licence
+  certification: "The office carried a berat: early kapudans held the Gelibolu sancak beyi rank, then after Barbarossa the beylerbeyi and eventually vezir rank. Lutfi Pasha held the kapudan should be chosen old, corsair-bred and sea-tried, and Kâtib Çelebi advised even a landsman kapudan to consult veteran corsairs on the sea and sea war; in practice the post went by court appointment to seamen and palace men alike."
+  duration: "Appointment, not schooling — promotion from sancak beyi to beylerbeyi and vezir."
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-war-1" }
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi, 'KAPUDAN PAŞA' (Bostan, 2001; print vol. 24, pp. 354-355), web edition read on 16 Nov 2026"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-war-1-drafting"
