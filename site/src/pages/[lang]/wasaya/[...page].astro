@@ -1,0 +1,168 @@
+---
+// The Testaments Browser's home (docs/plan/61-wasaya-browser.md): everything the museum's sources say of the last
+// testaments and parting counsels of the prophets, the caliphs, the Companions, the Successors, the imams and the
+// righteous, of their last hours, of what they left behind, of their relics and of their graves — plus the curated
+// records about them, over the one graph. Qur'an verses come from the reviewed table in scripts/wasaya.ts and every
+// other passage from its guarded lexicon at build time, so a mention in a book harvested later appears the day its
+// passage record lands; curated records join through the `wasaya-browser` tag. Counts are read from the graph at
+// build time and appear on this page only.
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import PagedNav from "../../../components/PagedNav.astro";
+import FullFilter from "../../../components/FullFilter.astro";
+import { pagedStaticPaths, pageView, renderedHeadline, curatedFirst, type PagedProps } from "../../../lib/paged";
+import DraftMark from "../../../components/DraftMark.astro";
+import { ui, LANGS, fmt, type Lang } from "../../../lib/i18n";
+import { byId, href, labelOf, stripNeedsSource } from "../../../lib/graph";
+import { num } from "../../../lib/nav";
+import { wasayaItems, WASAYA_SECTIONS, WASAYA_TOPICS, type WasayaSection, type WasayaTopic } from "../../../lib/wasaya";
+import type { Node } from "../../../../scripts/build-graph";
+import WasayaLines from "../../../components/sig/WasayaLines.astro";
+import WasayaTimeline from "../../../components/sig/WasayaTimeline.astro";
+
+export function getStaticPaths() {
+  // the landing, and a sub-page for every page of rows of each section longer than the landing shows (site/src/lib/paged.ts)
+  const ids = [...WASAYA_SECTIONS];
+  return pagedStaticPaths(LANGS, ids.map((id) => ({ id: String(id), count: wasayaItems.filter((i) => i.section === id).length })));
+}
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const G = (T as any).wasaya;
+const AR = (ui("ar") as any).wasaya; // the Arabic names, set in the Kufic and naskh display faces on every language's page
+const label = (n: Node) => labelOf(n, lang);
+const summaryText = (n: Node) => stripNeedsSource(n.summary?.[lang] ?? n.summary?.ar ?? n.summary?.en ?? "").replace(/\s*\{cite:[^}]*\}/g, "").replace(/\s+([.,؛،])/g, "$1"); // citation markers belong to the entity page's footnotes
+const EXCERPT = 220;
+const excerptOf = (n: Node) => {
+  const raw = n.class === "passage" ? String(n.data.text_search ?? n.data.text ?? "") : summaryText(n);
+  const clean = stripNeedsSource(raw).replace(/\s+/g, " ").trim();
+  return clean.length > EXCERPT ? `${clean.slice(0, EXCERPT)}…` : clean;
+};
+const workLabel = (n: Node) => (n.data.work ? labelOf(byId.get(n.data.work as string) ?? n, lang) : "");
+const refOf = (n: Node) => {
+  if (n.data.sura && n.data.aya) return `${n.data.sura}:${n.data.aya}`;
+  return n.data.ref ? String(n.data.ref) : (n.data.unit ? String(n.data.unit) : "");
+};
+const topicLabel = (t: WasayaTopic) => G.topics?.[t] ?? t;
+const sectionIds: WasayaSection[] = curatedFirst([...WASAYA_SECTIONS]);
+const sections = sectionIds.map((id) => ({ id, items: wasayaItems.filter((i) => i.section === id) })).filter((s) => s.items.length > 0);
+const paged = pageView(sections, Astro.props as PagedProps, `/${lang}/wasaya/`);
+const pagedLabel = (s: { id: string }) => G.sections[s.id]?.title ?? s.id;
+const pagedTitle = paged.landing ? G.title : `${G.title} · ${pagedLabel(paged.sections[0])}${paged.pager && paged.pager.pageNo > 1 ? ` · ${paged.pager.pageNo}` : ""}`;
+const status = fmt(G.status, { n: num(renderedHeadline("wasaya", sections, [], wasayaItems), lang), s: num(sections.length, lang) });
+const searchText = (i: (typeof wasayaItems)[number]) =>
+  [
+    i.node.label.ar, i.node.label.en, i.node.label.ur,
+    summaryText(i.node), excerptOf(i.node), workLabel(i.node),
+    ...i.topics.map(topicLabel),
+  ].filter(Boolean).join(" ");
+---
+<BaseLayout lang={lang} title={pagedTitle} description={G.lede} path={paged.path}>
+  <div class="wrap wr" style="padding-block:10px 20px">
+    <nav class="ui muted" aria-label={T.entity.breadcrumb} style="margin:0 0 .6rem"><a href={`/${lang}/`}>{T.entity.breadcrumb}</a> › {G.title}</nav>
+    <div data-pagefind-body={paged.landing || undefined}>
+      <header class="wr-hero">
+        <div class="wr-frame">
+          <p class="wr-kufi" lang="ar" dir="rtl" aria-hidden="true">{AR.hero_kufi}</p>
+          <div class="wr-nuqat" aria-hidden="true"><i></i><i></i><i></i></div>
+          <h1>{G.title}</h1>
+          <p class="wr-naskh" lang="ar" dir="rtl" aria-hidden="true">{AR.hero_naskh}</p>
+          <p class="wr-lede">{G.lede}</p>
+          <p class="ui wr-status">{status}</p>
+        </div>
+      </header>
+      <h2 id="topics-title" class="wr-h2">{G.topics_title}</h2>
+      <ul class="wr-topics" role="list">
+        {WASAYA_TOPICS.map((t) => (
+          <li>
+            {lang !== "ar" && <span class="wr-topic-ar" lang="ar" dir="rtl" aria-hidden="true">{AR.topics[t]}</span>}
+            <strong>{topicLabel(t)}</strong>
+            <span class="muted">{G.topics_desc?.[t]}</span>
+          </li>
+        ))}
+      </ul>
+      <h2 id="method-title" class="wr-h2">{G.method_title}</h2>
+      <p class="muted" style="max-width:var(--measure)">{G.method_note}</p>
+      <p class="ui muted">{G.api} <a href="/api/v1/wasaya.json"><bdi dir="ltr">/api/v1/wasaya.json</bdi></a></p>
+    </div>
+
+    {paged.landing && <WasayaLines lang={lang} />}
+    {paged.landing && <WasayaTimeline lang={lang} />}
+
+    <DraftMark lang={lang} legend />
+    <section aria-labelledby="sections-title" style="margin-top:2rem">
+      <h2 id="sections-title" class="wr-h2">{G.sections_title}</h2>
+      <nav aria-label={G.sections_title} class="ui" style="margin:0 0 1rem">
+        <ul style="display:flex;flex-wrap:wrap;gap:6px;padding:0;margin:0;list-style:none">
+          {sections.map((s) => <li><a class="chip" href={`${paged.home}#t-${s.id}`}>{G.sections[s.id]?.title ?? s.id} · {num(s.items.length, lang)}</a></li>)}
+        </ul>
+      </nav>
+      <p class="ui" style="display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;margin:0 0 1rem">
+        <label for="wasaya-filter">{G.filter_label}</label>
+        <input id="wasaya-filter" type="search" data-wasaya-filter autocomplete="off" style="font:inherit;min-height:44px;min-width:min(100%,260px);padding:6px 12px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--fg)" />
+      </p>
+      <FullFilter lang={lang} slug="wasaya" />
+      <div data-pagefind-ignore>
+        {paged.sections.map((s) => (
+          <section data-wasaya-section aria-labelledby={`t-${s.id}`} style="margin:1.4rem 0">
+            <h3 id={`t-${s.id}`} style="font-size:1.1rem;margin:0 0 .2rem">{G.sections[s.id]?.title ?? s.id}</h3>
+            <p class="muted" style="max-width:var(--measure);margin:0 0 .6rem">{G.sections[s.id]?.desc}</p>
+            <ol role="list" style="list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px">
+              {s.items.map((i) => (
+                <li data-wasaya-row data-search={searchText(i)} class="panel" style="padding:14px 16px">
+                  <a href={href(lang, i.node.id)} style="font-weight:600">{label(i.node)}</a><DraftMark lang={lang} node={i.node} />
+                  {i.node.class === "passage" && (
+                    <p class="ui muted" style="margin:.15rem 0 0;font-size:.82rem" dir="auto">
+                      {workLabel(i.node)}{refOf(i.node) ? <bdi> · {refOf(i.node)}</bdi> : null}
+                    </p>
+                  )}
+                  {i.topics.length > 0 && (
+                    <p class="ui muted" style="margin:.25rem 0 0;font-size:.78rem" dir="auto">
+                      {i.topics.map((t) => topicLabel(t)).join(" · ")}
+                    </p>
+                  )}
+                  <p class="muted" style="margin:.3rem 0 0;font-size:.92rem" dir="auto">{excerptOf(i.node)}</p>
+                </li>
+              ))}
+            </ol>
+            <PagedNav lang={lang} paged={paged} section={s} label={pagedLabel(s)} />
+          </section>
+        ))}
+      </div>
+      <p class="panel ui" data-wasaya-none hidden>{G.filter_none}</p>
+      {wasayaItems.length === 0 && <p class="panel ui">{G.empty}</p>}
+    </section>
+  </div>
+  <script src="../../../scripts/wasaya-filter.ts"></script>
+<style is:global>
+  /* The browser's own dress (this page only): a sealed testament — a dark green leaf with a gold rule, headings marked
+     by a round seal, and cards with a folded corner like a kept document. Faces already shipped: Reem Kufi and Amiri. */
+  .wr .wr-hero { margin: 0 0 1.8rem; padding: 10px; border-radius: 20px; background: #0e1a15; background-image: radial-gradient(ellipse at 50% 0%, #1f3a2e 0%, #0e1a15 72%); }
+  .wr .wr-frame { position: relative; padding: clamp(22px, 5vw, 56px) clamp(16px, 5vw, 64px); border: 1px solid #c5a059; border-radius: 14px; outline: 1px solid #4c5a3a; outline-offset: -7px; text-align: center; color: #eef0e4; }
+  .wr .wr-frame::before, .wr .wr-frame::after { content: ""; position: absolute; inset-block-end: 14px; inline-size: 20px; block-size: 20px; border: 2px solid #c5a059; border-radius: 50%; }
+  .wr .wr-frame::before { inset-inline-start: 14px; } .wr .wr-frame::after { inset-inline-end: 14px; }
+  .wr .wr-kufi { margin: 0; font-family: "Reem Kufi", "Amiri", serif; font-weight: 500; font-size: clamp(1.7rem, 5.6vw, 3.8rem); line-height: 1.4; color: #e8c85a; letter-spacing: 0; }
+  .wr .wr-nuqat { display: flex; justify-content: center; gap: 14px; margin: 14px 0 12px; }
+  .wr .wr-nuqat i { inline-size: 11px; block-size: 11px; border-radius: 50%; background: #c5a059; }
+  .wr .wr-nuqat i:nth-child(2) { background: #8fb39a; }
+  .wr .wr-hero h1 { margin: 0; color: #f4f1dc; font-size: clamp(1.15rem, 2.4vw, 1.7rem); line-height: 1.6; }
+  .wr .wr-naskh { margin: .5rem 0 0; font-family: "Amiri", "Noto Naskh Arabic", serif; font-size: clamp(1.2rem, 2.8vw, 1.9rem); line-height: 1.9; color: #cfd8c0; }
+  .wr .wr-lede { margin: 1.2rem auto 0; max-width: 64ch; font-size: 1.08rem; line-height: 1.9; color: #e2e6d6; }
+  .wr .wr-status { margin: 1.2rem auto 0; max-width: 64ch; font-size: .85rem; color: #c3cbb4; border-block-start: 1px solid #4c5a3a; padding-block-start: .9rem; }
+  .wr .wr-h2, .wr section > div > h2, .wr section > h2 { position: relative; padding-inline-start: 26px; }
+  .wr .wr-h2::before, .wr section > div > h2::before, .wr section > h2::before { content: ""; position: absolute; inset-inline-start: 4px; inset-block-start: .45em; inline-size: 12px; block-size: 12px; border-radius: 50%; border: 2px solid var(--gold, #c5a059); }
+  html:is([lang="ar"], [lang="ur"]) .wr .wr-h2, html[lang="ar"] .wr section > div > h2, html[lang="ar"] .wr section > h2 { font-family: "Reem Kufi", var(--ar-display); font-weight: 500; }
+  .wr .wr-topics { list-style: none; margin: 0 0 1.6rem; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 12px; }
+  .wr .wr-topics li { display: grid; gap: 4px; align-content: start; padding: 16px 16px 14px; border-radius: 12px; background: var(--panel); border: 1px solid var(--line); border-block-start: 3px solid #2f6b4f; }
+  .wr .wr-topics strong { font-size: 1.05rem; }
+  html[lang="ar"] .wr .wr-topics strong { font-family: "Reem Kufi", var(--ar-display); font-weight: 500; font-size: 1.3rem; color: var(--gold, #c5a059); }
+  .wr .wr-topics .muted { font-size: .9rem; line-height: 1.7; }
+  .wr .wr-topic-ar { font-family: "Reem Kufi", "Amiri", serif; font-weight: 500; font-size: 1.35rem; color: var(--gold, #c5a059); line-height: 1.5; }
+  /* cards: a kept document with a green margin rule */
+  .wr [data-wasaya-row] { border: 1px solid var(--line); border-inline-start: 3px solid #2f6b4f; border-radius: 4px 12px 12px 4px; }
+  html:is([lang="ar"], [lang="ur"]) .wr [data-wasaya-row] > a { font-family: var(--ar-display); font-size: 1.12rem; }
+  .wr [data-wasaya-section] > h3 { display: flex; align-items: center; gap: 10px; font-size: 1.25rem !important; }
+  .wr [data-wasaya-section] > h3::after { content: ""; flex: 1; block-size: 1px; background: linear-gradient(to left, transparent, var(--gold, #c5a059)); }
+  html[dir="rtl"] .wr [data-wasaya-section] > h3::after { background: linear-gradient(to right, transparent, var(--gold, #c5a059)); }
+  html[lang="ar"] .wr [data-wasaya-section] > h3 { font-family: "Reem Kufi", var(--ar-display); font-weight: 500; }
+  .wr .chip { border: 1px solid color-mix(in srgb, var(--gold, #c5a059) 55%, transparent); }
+</style>
+</BaseLayout>

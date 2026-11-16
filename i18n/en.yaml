@@ -1820,6 +1820,10 @@ explore:
       title: "Qur'an Readings, Orthography, Scripts and Dotting Browser"
       desc: "The seven ahruf, the readings and their imams, the collection of the Qur'an and the copying of the codices, the orthography of the mushaf and the debate over ordinary spelling, its dots and vowel marks, and the scripts it was written in — every verse and report cited, every view attributed."
       menu: "Browse the readings, rasm, scripts and dotting of the Qur'an"
+    wasaya:
+      title: "Testaments Browser: Last Counsels, Legacies, Relics and Resting Places"
+      desc: "The last testaments of the prophets, the caliphs, the Companions, the Successors, the imams and the righteous before their deaths; what they left behind; their relics; and their graves — in the Qur'an, the Sunnah, the seerah and every harvested book, each verse and report cited."
+      menu: "Browse the testaments, legacies, relics and graves"
     signs:
       title: "Signs of the Hour Browser"
       desc: "Every mention of the signs of the Hour, the Day of Judgment and all eschatology in the Qur'an, the Sunnah, the seerah and every harvested book — the major and minor signs, barzakh, resurrection, reckoning, Paradise and Hell — with every verse and report cited."
@@ -5267,6 +5271,83 @@ cosmos:
     earth: "Earth"
     records: "{n} records"
     empty_theme: "No records yet"
+wasaya:
+  title: "Testaments Browser: the Last Counsels of the Prophets, Caliphs, Companions, Successors, Imams and the Righteous, Their Legacies, Relics and Resting Places"
+  lede: "Everything the museum's sources say about how the prophets and messengers, the caliphs, the Companions, the Successors, the imams and the righteous took their leave: what they enjoined on those they left, what they said in their last hours, what they left behind, which of their belongings were kept after them, and where the books say they were buried. Every item is a verse, a report or a record with its source."
+  badge: Testaments explorer
+  hero_kufi: "Testaments · Legacies · Relics · Graves"
+  hero_naskh: "What they enjoined before they died, what they left, and where they rest"
+  status: "This build holds {n} records in {s} sections; each record lists its sources, and the texts were written by AI agents from those sources and have not yet been read by a human."
+  method_title: The browser's method
+  method_note: "This browser gathers what is said and written on five connected matters: testaments and parting counsels, last hours, estates and what was left, relics, and burials and graves. Qur'an verses come from a reviewed table (the testaments of Ibrahim and Ya'qub, Luqman's counsels, the verses on bequest and inheritance, on relics and on death and burial); the verse text is the frozen Tanzil text and is never retyped. Every other passage — hadith, seerah, history, biography — is found at build time by a guarded word list, so a passage from a book harvested later appears here the day it lands. Book excerpts are machine-read from scans, quoted within forty words and not corrected. The jurists' general rules of inheritance are not gathered here: only the estates of named people and the Prophet's own words on inheritance. The identification of a grave is always the statement of the source cited, not of the museum. Sunni sources are the frame; any other view is labelled."
+  api: "The whole set is available at"
+  topics_title: The browser's five topics
+  sections_title: The browser's sections
+  filter_label: Filter the testament records
+  filter_none: No matches.
+  empty: No testament records in this build yet.
+  topics:
+    wasiyya: Testaments and counsels
+    ihtidar: Last hours
+    mirath: Estates and inheritance
+    athar: Relics and traces
+    marqad: Burials and graves
+  topics_desc:
+    wasiyya: "What they enjoined before death: the testaments of the prophets to their sons, the Prophet's parting counsels, the caliphs' covenants and counsels to their successors, written wills, and the rules of the bequest in the Qur'an and Sunnah."
+    ihtidar: "The last illness and the deathbed: the last words, who was present, what was recited, and how the books report the hour of death."
+    mirath: "What they left: money, land, weapons, books and debts; heirs and executors; and the Prophet's saying that the prophets are not inherited from."
+    athar: "Belongings kept after their owners — the mantle, the ring, the sword, the hair — and the traces the Qur'an names, such as the Ark and the Station of Ibrahim."
+    marqad: "Washing, shrouding, the funeral prayer and burial; the graves and cemeteries the sources name, and where reports differ on a grave's place."
+  sections:
+    quran:
+      title: In the Qur'an
+      desc: "The verses on the testaments of the prophets and the righteous, on the bequest and its witnesses, on inheritance among the prophets and the shares of an estate, on relics and traces, and on death, burial and the resting place."
+    sunnah:
+      title: In the Sunnah
+      desc: "The books of bequests in the hadith collections, the Prophet's counsels and the reports of his last illness, death and burial, what he left, and the reports of the Companions' own testaments."
+    seerah:
+      title: In the seerah
+      desc: "What the seerah books carry on the Farewell Pilgrimage, the last illness, the death and burial of the Prophet, his belongings, and the deaths and graves of those around him."
+    books:
+      title: In the other books
+      desc: "History, biography, the books of the Companions and the ascetics, commentary and law: every harvested book beyond the Qur'an, the hadith and the seerah that reports a testament, a deathbed, an estate, a relic or a grave, and whatever comes next."
+    prophets:
+      title: The prophets and messengers
+      desc: "The museum's records on the testaments, last hours and graves of the prophets, from Adam to the Prophet Muhammad's own parting counsels."
+    caliphs:
+      title: The caliphs
+      desc: "The covenants, counsels, last hours, estates and graves of the Rightly Guided Caliphs and the caliphs and rulers after them."
+    companions:
+      title: The Companions
+      desc: "The testaments, deathbeds, estates and graves of the Companions, men and women, as the books of biography report them."
+    successors:
+      title: The Successors and the imams
+      desc: "The testaments, last hours and graves of the Successors and the imams of the schools of law."
+    righteous:
+      title: The righteous and the scholars
+      desc: "The last counsels, deaths and graves of ascetics and scholars of later generations, and the museum's records on death, the good end and the bequest."
+    legacy:
+      title: Legacies and relics
+      desc: "What was left behind: estates and charitable lands, weapons and belongings, and the relics kept after their owners."
+    graves:
+      title: Graves and resting places
+      desc: "The burial chambers, cemeteries, tombs and shrines the museum describes; every identification is attributed to its source."
+    works:
+      title: The books
+      desc: "The books of testaments and of the dying, and the histories of the graves and of Medina, that the museum describes."
+  viz:
+    title: "The five lines of the testament"
+    lede: "A line for each topic, and on each line a seal for every section that holds records of it, sized by their number. Every seal is a link to that section's list below; a record with two topics is counted on both lines."
+    topic_col: Topic
+    total_col: Total
+    records: "{n} records"
+    empty_topic: "No records yet"
+    untopiced: "{n} records in the browser are not filed under a single topic; they are in the lists below."
+  timeline:
+    title: "From the first testament to the last"
+    lede: "The browser's dated records on one line: testaments, deaths and burials at their date, books at their composition."
+    caption: "{n} dated records; {u} undated records are in the lists below."
+    century: "Century {c} CE"
 qiraat:
   title: "Qur'an Readings, Orthography, Scripts and Dotting Browser"
   lede: "Everything the museum's sources say about how the Qur'an is read and how it is written: the seven ahruf, the canonical readings, their imams and transmitters; the collection of the Qur'an under Abu Bakr and the copying of the codices under 'Uthman; the orthography (rasm) of the mushaf and the debate over writing it in ordinary (imla'i) spelling; its dots, vowel marks and other signs; and the scripts it has been written in, from Hijazi and Kufic to naskh, thuluth and Maghribi. Every verse, report and book passage is cited, and every opinion is attributed to the one who held it."

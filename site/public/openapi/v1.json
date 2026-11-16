@@ -662,6 +662,21 @@
         }
       }
     },
+    "/wasaya.json": {
+      "get": {
+        "operationId": "getWasaya",
+        "summary": "Testaments Browser dataset",
+        "description": "The Testaments Browser dataset (متصفح وصايا الأنبياء والمرسلين والصالحين والأئمة والتابعين والخلفاء والصحابة قبل وفاتهم ومورثاتهم وأثرهم ومراقدهم): every mention of the last testaments and parting counsels of the prophets, the caliphs, the Companions, the Successors, the imams and the righteous, of their last hours, of what they left behind (estates and inheritance), of their relics and of their graves — Qur'an verses from a reviewed table, hadith, seerah and harvested-book passages detected at build time, plus the curated records tagged wasaya-browser — each with its section (quran, sunnah, seerah, books, prophets, caliphs, companions, successors, righteous, legacy, graves, works), topics (wasiyya, ihtidar, mirath, athar, marqad), work, ref, text excerpt, kind, date, themes and edges.",
+        "responses": {
+          "200": {
+            "description": "Every testament, deathbed, estate, relic and grave record with section, topics, work, ref, excerpt, kind, date, themes and edges",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
     "/nubuwat.json": {
       "get": {
         "operationId": "getNubuwat",
