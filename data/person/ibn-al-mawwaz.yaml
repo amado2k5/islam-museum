@@ -15,6 +15,17 @@ regions: [egypt-nile]
 periods: [period/abbasid-fragmentation]
 born: { edtf: "796~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar. Ibn Asakir's entry gives no birth year. Agrees with Wikidata Q6534665 (P569, a statement without a reference), item revision 2523530516, read on 13 November 2026.", sources: [source/wikidata] }
 died: { edtf: "882", hijri: "0269", calendar: julian, precision: year, status: tradition, derived: true, note: "Ibn Yunus, quoted by Ibn Asakir, vol. 51 p. 198: died in Damascus in 269 AH (July 882 to June 883 CE by the museum's conversion, derived), agreeing with the card year; al-Shirazi, quoted in the same entry, says he died in 281 AH (894 CE).", sources: [source/tarikh-dimashq-ibn-asakir-fikr-1995] }
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 38"
+    sources: [source/al-aalam, source/tarikh-dimashq-ibn-asakir-fikr-1995]
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'jurist', Job Browser linking wave 38"
+    sources: [source/al-aalam, source/tarikh-dimashq-ibn-asakir-fikr-1995]
 relations:
   - { type: born_in, target: place/alexandria, confidence: medium, note: "Place link from Wikidata; Ibn Asakir, vol. 51 pp. 197-198, calls him al-Iskandarani and says he was in Alexandria but names no birthplace.", sources: [source/wikidata] }
   - { type: lived_in, target: place/alexandria, confidence: high, note: "Ibn Asakir, vol. 51 p. 197: he was in Alexandria and studied law there (al-Walid ibn Bakr); the nisba al-Iskandarani", sources: [source/tarikh-dimashq-ibn-asakir-fikr-1995] }

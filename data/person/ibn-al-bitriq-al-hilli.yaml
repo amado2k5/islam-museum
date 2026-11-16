@@ -13,6 +13,22 @@ regions: [levant-iraq]
 periods: [period/crusades-ayyubid-mamluk]
 born: { edtf: "1138", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Amal al-Amil. al-Zirikli prints 523 AH = 1129 CE {cite:alam-zirikli-dar-al-ilm-2002 vol. 8 p. 141}, nine years earlier than the card; the card year is kept pending an outside source.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 died: { edtf: "1204", hijri: "0600", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Amal al-Amil. al-Zirikli prints 600 AH = 1204 CE {cite:alam-zirikli-dar-al-ilm-2002 vol. 8 p. 141}, agreeing with the card.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 38"
+    sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
+  - job: job/poet
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'poet', Job Browser linking wave 38"
+    sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
+  - job: job/mutakallim
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'theologian', Job Browser linking wave 38"
+    sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 relations:
   - { type: born_in, target: place/hilla, confidence: medium, note: "Place link from Wikidata; pending a second source. al-Zirikli, vol. 8 p. 141, calls him one of the people of Hilla.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
   - { type: died_in, target: place/hilla, confidence: medium, note: "Place link from Wikidata; pending a second source. al-Zirikli gives no place of death.", sources: [source/wikidata] }

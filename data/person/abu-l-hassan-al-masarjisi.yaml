@@ -25,6 +25,17 @@ status:
   completeness: 3
 born: { edtf: "909", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Subki, Tabaqat al-Shafi'iyya; al-Dhahabi, Siyar. Card year kept: Ibn Khallikan and Ibn al-Imad give his age at death in 384 AH as seventy-six, which would put his birth about 308 AH, about 920 CE (derived), eleven years later (see the GEMINI line in the ledger)." }
 died: { edtf: "994", hijri: "0384", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Subki, Tabaqat al-Shafi'iyya; al-Dhahabi, Siyar. Ibn Khallikan prints 384 AH, the sixth of Jumada II {cite:wafayat-ayan vol. 4 p. 202}; Ibn al-Imad also gives 384 AH {cite:shadharat-dhahab vol. 4 p. 443-444}; Ibn al-Athir lists him among those who died in 383 AH {cite:kamil-ibn-al-athir vol. 7 p. 464}.", sources: [source/wafayat-ayan, source/shadharat-dhahab, source/kamil-ibn-al-athir] }
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 38"
+    sources: [source/al-aalam, source/wafayat-ayan, source/shadharat-dhahab, source/kamil-ibn-al-athir]
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'jurist', Job Browser linking wave 38"
+    sources: [source/al-aalam, source/wafayat-ayan, source/shadharat-dhahab, source/kamil-ibn-al-athir]
 relations:
   - { type: lived_in, target: place/nishapur, sources: [source/wafayat-ayan, source/shadharat-dhahab], confidence: high, note: "Ibn Khallikan, Wafayat al-A'yan, vol. 4 p. 202: he returned to Khurasan in 344 AH and taught in Nishapur" }
   - { type: traveled_to, target: place/baghdad, sources: [source/wafayat-ayan], confidence: high, note: "Ibn Khallikan, Wafayat al-A'yan, vol. 4 p. 202: he returned to Baghdad after Abu Ishaq al-Marwazi died" }

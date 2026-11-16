@@ -16,6 +16,17 @@ periods: [period/abbasid-early]
 sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002, source/shadharat-dhahab, source/wafi-bi-l-wafayat-safadi-dar-ihya-2000]
 born: { edtf: "835", hijri: "0220", calendar: gregorian, precision: year, derived: true, note: "al-Zirikli, al-A'lam, vol. 3 pp. 46-47, prints 220 AH = 835 CE.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 died: { edtf: "920", hijri: "0307", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala (al-Dhahabi) Confirmed on 13 November 2026 against Wikidata Q12214486 (P570, a statement with a reference), item revision 2411565940. al-Zirikli, vol. 3 pp. 46-47, prints 307 AH = 920 CE; Ibn al-Imad, vol. 4 p. 36, and al-Safadi, vol. 14 pp. 136-137, also give 307 AH.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002, source/shadharat-dhahab, source/wafi-bi-l-wafayat-safadi-dar-ihya-2000] }
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 38"
+    sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002, source/shadharat-dhahab, source/wafi-bi-l-wafayat-safadi-dar-ihya-2000]
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'jurist', Job Browser linking wave 38"
+    sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002, source/shadharat-dhahab, source/wafi-bi-l-wafayat-safadi-dar-ihya-2000]
 relations:
   - { type: lived_in, target: place/basra, confidence: high, note: "al-Zirikli, vol. 3 pp. 46-47: al-Basri, muhaddith of Basra; Ibn al-Imad, vol. 4 p. 36: muhaddith of Basra", sources: [source/alam-zirikli-dar-al-ilm-2002, source/shadharat-dhahab] }
   - { type: died_in, target: place/basra, confidence: high, note: "al-Zirikli, vol. 3 pp. 46-47, and Ibn al-Imad, vol. 4 p. 36: he died at Basra", sources: [source/alam-zirikli-dar-al-ilm-2002, source/shadharat-dhahab] }

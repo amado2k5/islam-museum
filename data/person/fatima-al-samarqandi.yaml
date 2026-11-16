@@ -18,6 +18,17 @@ themes: [law-and-courts, women]
 regions: [persia-central-asia, levant-iraq]
 periods: [period/crusades-ayyubid-mamluk]
 died: { edtf: "1185~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Adim (Bughya)" }
+occupations:
+  - job: job/faqih
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'jurist', Job Browser linking wave 38"
+    sources: [source/badai-sanai-ilmiyya-v1, source/al-aalam]
+  - job: job/alim
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 38"
+    sources: [source/badai-sanai-ilmiyya-v1, source/al-aalam]
 relations:
   - { type: born_in, target: place/samarqand, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: child_of, target: person/ala-al-din-al-samarqandi, sources: [source/badai-sanai-ilmiyya-v1] }

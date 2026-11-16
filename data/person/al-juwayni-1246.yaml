@@ -23,6 +23,12 @@ provenance:
 status:
   review: published
   completeness: 3
+occupations:
+  - job: job/muhaddith
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'muhaddith', Job Browser linking wave 38"
+    sources: [source/al-aalam]
 relations:
   - { type: lived_in, target: place/khurasan, note: "From text: shaykh of Khurasan", sources: [source/al-aalam] }
   - { type: died_in, target: place/iraq, note: "From text: died in Iraq.", sources: [source/al-aalam] }
