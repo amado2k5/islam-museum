@@ -1,0 +1,16 @@
+id: passage/tirmidhi-api-3890
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "3890"
+label: { ar: "جامع الترمذي 3890 — الأب والأبوة", en: "Jami' al-Tirmidhi 3890 — the father and fatherhood", ur: "جامع ترمذی 3890 — باپ اور والدیت" }
+text: "حَدَّثَنَا أَحْمَدُ بْنُ عَبْدَةَ الضَّبِّيُّ، قَالَ حَدَّثَنَا الْمُعْتَمِرُ بْنُ سُلَيْمَانَ، عَنْ حُمَيْدٍ، عَنْ أَنَسٍ قَالَ قِيلَ يَا رَسُولَ اللَّهِ مَنْ أَحَبُّ النَّاسِ إِلَيْكَ قَالَ \" عَائِشَةُ \". قِيلَ مِنَ الرِّجَالِ قَالَ \" أَبُوهَا \". هَذَا حَدِيثٌ حَسَنٌ صَحِيحٌ غَرِيبٌ مِنْ هَذَا الْوَجْهِ مِنْ حَدِيثِ أَنَسٍ."
+summary:
+  ar: "حديث في جامع الترمذي، رقم 3890، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Jami' al-Tirmidhi, no. 3890 (Chapters on Virtues), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "جامع ترمذی کی حدیث نمبر 3890، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 3890 (book 49 hadith 290); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

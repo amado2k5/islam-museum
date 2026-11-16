@@ -1,0 +1,16 @@
+id: passage/tirmidhi-api-1832
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "1832"
+label: { ar: "جامع الترمذي 1832 — الأب والأبوة", en: "Jami' al-Tirmidhi 1832 — the father and fatherhood", ur: "جامع ترمذی 1832 — باپ اور والدیت" }
+text: "… الْمُقَدَّمِيُّ، حَدَّثَنَا مُسْلِمُ بْنُ إِبْرَاهِيمَ، حَدَّثَنَا مُحَمَّدُ بْنُ فَضَاءٍ، حَدَّثَنِي أَبِي، عَنْ عَلْقَمَةَ بْنِ عَبْدِ اللَّهِ الْمُزَنِيِّ، عَنْ أَبِيهِ، قَالَ قَالَ النَّبِيُّ \" إِذَا اشْتَرَى أَحَدُكُمْ لَحْمًا فَلْيُكْثِرْ مَرَقَتَهُ فَإِنْ لَمْ يَجِدْ لَحْمًا أَصَابَ مَرَقَةً وَهُوَ أَحَدُ اللَّحْمَيْنِ \". وَفِي الْبَابِ عَنْ أَبِي ذَرٍّ. قَالَ أَبُو عِيسَى هَذَا حَدِيثٌ غَرِيبٌ لاَ نَعْرِفُهُ إِلاَّ مِنْ هَذَا …"
+summary:
+  ar: "حديث في جامع الترمذي، رقم 1832، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Jami' al-Tirmidhi, no. 1832 (The Book on Food), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "جامع ترمذی کی حدیث نمبر 1832، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 1832 (book 25 hadith 48); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

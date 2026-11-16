@@ -1,0 +1,16 @@
+id: passage/bukhari-api-7303
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "7303"
+label: { ar: "صحيح البخاري 7303 — الأب والأبوة", en: "Sahih al-Bukhari 7303 — the father and fatherhood", ur: "صحیح بخاری 7303 — باپ اور والدیت" }
+text: "حَدَّثَنَا إِسْمَاعِيلُ، حَدَّثَنِي مَالِكٌ، عَنْ هِشَامِ بْنِ عُرْوَةَ، عَنْ أَبِيهِ، عَنْ عَائِشَةَ أُمِّ الْمُؤْمِنِينَ، أَنَّ رَسُولَ اللَّهِ قَالَ فِي مَرَضِهِ \" مُرُوا أَبَا بَكْرٍ يُصَلِّي بِالنَّاسِ \". قَالَتْ عَائِشَةُ قُلْتُ إِنَّ أَبَا بَكْرٍ إِذَا قَامَ فِي مَقَامِكَ لَمْ يُسْمِعِ النَّاسَ مِنَ الْبُكَاءِ، فَمُرْ عُمَرَ فَلْيُصَلِّ. فَقَالَ \" مُرُوا أَبَا بَكْرٍ فَلْيُصَلِّ بِالنَّاسِ \". فَقَالَتْ عَائِشَةُ …"
+summary:
+  ar: "حديث في صحيح البخاري، رقم 7303، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sahih al-Bukhari, no. 7303 (Holding Fast to the Qur'an and Sunnah), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "صحیح بخاری کی حدیث نمبر 7303، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 7303 (book 96 hadith 34); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

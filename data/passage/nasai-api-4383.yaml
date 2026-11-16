@@ -1,0 +1,16 @@
+id: passage/nasai-api-4383
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "4383"
+label: { ar: "سنن النسائي 4383 — الأب والأبوة", en: "Sunan al-Nasa'i 4383 — the father and fatherhood", ur: "سنن نسائی 4383 — باپ اور والدیت" }
+text: "أَخْبَرَنَا هَنَّادُ بْنُ السَّرِيِّ، فِي حَدِيثِهِ عَنْ أَبِي الأَحْوَصِ، عَنِ عَاصِمِ بْنِ كُلَيْبٍ، عَنْ أَبِيهِ، قَالَ كُنَّا فِي سَفَرٍ فَحَضَرَ الأَضْحَى فَجَعَلَ الرَّجُلُ مِنَّا يَشْتَرِي الْمُسِنَّةَ بِالْجَذَعَتَيْنِ وَالثَّلاَثَةِ فَقَالَ لَنَا رَجُلٌ مِنْ مُزَيْنَةَ كُنَّا مَعَ رَسُولِ اللَّهِ فِي سَفَرٍ فَحَضَرَ هَذَا الْيَوْمُ فَجَعَلَ الرَّجُلُ يَطْلُبُ الْمُسِنَّةَ بِالْجَذَعَتَيْنِ وَالثَّلاَثَةِ فَقَالَ رَسُولُ اللَّهِ \" إِنَّ الْجَذَعَ يُوفِي …"
+summary:
+  ar: "حديث في سنن النسائي، رقم 4383، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan al-Nasa'i, no. 4383 (The Book of ad-Dahaya (Sacrifices)), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "سنن نسائی کی حدیث نمبر 4383، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 4383 (book 43 hadith 23); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

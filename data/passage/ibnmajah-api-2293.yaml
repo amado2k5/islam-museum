@@ -1,0 +1,16 @@
+id: passage/ibnmajah-api-2293
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "2293"
+label: { ar: "سنن ابن ماجه 2293 — الأب والأبوة", en: "Sunan Ibn Majah 2293 — the father and fatherhood", ur: "سنن ابن ماجہ 2293 — باپ اور والدیت" }
+text: "… بَكْرِ بْنُ أَبِي شَيْبَةَ، وَعَلِيُّ بْنُ مُحَمَّدٍ، وَأَبُو عُمَرَ الضَّرِيرُ قَالُوا حَدَّثَنَا وَكِيعٌ، حَدَّثَنَا هِشَامُ بْنُ عُرْوَةَ، عَنْ أَبِيهِ، عَنْ عَائِشَةَ، قَالَتْ جَاءَتْ هِنْدٌ إِلَى النَّبِيِّ ـ فَقَالَتْ يَا رَسُولَ اللَّهِ إِنَّ أَبَا سُفْيَانَ رَجُلٌ شَحِيحٌ وَلاَ يُعْطِينِي مَا يَكْفِينِي وَوَلَدِي إِلاَّ مَا أَخَذْتُ مِنْ مَالِهِ وَهُوَ لاَ يَعْلَمُ. فَقَالَ \" خُذِي مَا يَكْفِيكِ وَوَلَدَكِ …"
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 2293، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan Ibn Majah, no. 2293 (The Chapters on Business Transactions), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 2293، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 2293 (book 12 hadith 157); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

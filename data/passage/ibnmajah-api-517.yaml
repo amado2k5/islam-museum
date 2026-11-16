@@ -1,0 +1,16 @@
+id: passage/ibnmajah-api-517
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "517"
+label: { ar: "سنن ابن ماجه 517 — الأب والأبوة", en: "Sunan Ibn Majah 517 — the father and fatherhood", ur: "سنن ابن ماجہ 517 — باپ اور والدیت" }
+text: "… مُحَمَّدُ بْنُ إِسْحَاقَ، عَنْ مُحَمَّدِ بْنِ جَعْفَرِ بْنِ الزُّبَيْرِ، عَنْ عُبَيْدِ اللَّهِ بْنِ عَبْدِ اللَّهِ بْنِ عُمَرَ، عَنْ أَبِيهِ، قَالَ سَمِعْتُ رَسُولَ اللَّهِ ـ سُئِلَ عَنِ الْمَاءِ يَكُونُ بِالْفَلاَةِ مِنَ الأَرْضِ وَمَا يَنُوبُهُ مِنَ الدَّوَابِّ وَالسِّبَاعِ فَقَالَ رَسُولُ اللَّهِ ـ \" إِذَا بَلَغَ الْمَاءُ قُلَّتَيْنِ لَمْ يُنَجِّسْهُ شَىْءٌ \". حَدَّثَنَا عَمْرُو بْنُ رَافِعٍ، حَدَّثَنَا عَبْدُ …"
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 517، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan Ibn Majah, no. 517 (The Book of Purification and its Sunnah), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 517، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 517 (book 1 hadith 251); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

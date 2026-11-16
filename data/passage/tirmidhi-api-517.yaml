@@ -1,0 +1,16 @@
+id: passage/tirmidhi-api-517
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "517"
+label: { ar: "جامع الترمذي 517 — الأب والأبوة", en: "Jami' al-Tirmidhi 517 — the father and fatherhood", ur: "جامع ترمذی 517 — باپ اور والدیت" }
+text: "… فَلاَ تَقُومُوا حَتَّى تَرَوْنِي \". قَالَ مُحَمَّدٌ وَيُرْوَى عَنْ حَمَّادِ بْنِ زَيْدٍ قَالَ كُنَّا عِنْدَ ثَابِتٍ الْبُنَانِيِّ فَحَدَّثَ حَجَّاجٌ الصَّوَّافُ عَنْ يَحْيَى بْنِ أَبِي كَثِيرٍ عَنْ عَبْدِ اللَّهِ بْنِ أَبِي قَتَادَةَ عَنْ أَبِيهِ عَنِ النَّبِيِّ قَالَ \" إِذَا أُقِيمَتِ الصَّلاَةُ فَلاَ تَقُومُوا حَتَّى تَرَوْنِي \". فَوَهِمَ جَرِيرٌ فَظَنَّ أَنَّ ثَابِتًا حَدَّثَهُمْ عَنْ أَنَسٍ عَنِ النَّبِيِّ."
+summary:
+  ar: "حديث في جامع الترمذي، رقم 517، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Jami' al-Tirmidhi, no. 517 (The Book on the Day of Friday), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "جامع ترمذی کی حدیث نمبر 517، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 517 (book 4 hadith 30); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

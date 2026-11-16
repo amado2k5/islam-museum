@@ -1,0 +1,16 @@
+id: passage/muwatta-api-1006
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "1006"
+label: { ar: "موطأ مالك 1006 — النسب والانتساب", en: "Muwatta Malik 1006 — paternity and lineage", ur: "موطأ مالک 1006 — نسب اور انتساب" }
+text: "… الْجِهَادِ دُعِيَ مِنْ بَابِ الْجِهَادِ وَمَنْ كَانَ مِنْ أَهْلِ الصَّدَقَةِ دُعِيَ مِنْ بَابِ الصَّدَقَةِ وَمَنْ كَانَ مِنْ أَهْلِ الصِّيَامِ دُعِيَ مِنْ بَابِ الرَّيَّانِ \". فَقَالَ أَبُو بَكْرٍ الصِّدِّيقُ يَا رَسُولَ اللَّهِ مَا عَلَى مَنْ يُدْعَى مِنْ هَذِهِ الأَبْوَابِ مِنْ ضَرُورَةٍ فَهَلْ يُدْعَى أَحَدٌ مِنْ هَذِهِ الأَبْوَابِ كُلِّهَا قَالَ \" نَعَمْ وَأَرْجُو أَنْ تَكُونَ مِنْهُمْ \"."
+summary:
+  ar: "حديث في موطأ مالك، رقم 1006، يذكر النسب والانتساب. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Muwatta Malik, no. 1006 (Jihad), that mentions paternity and lineage. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "موطأ مالک کی حدیث نمبر 1006، جس میں نسب اور انتساب کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/intisab, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 1006 (book 21 hadith 48); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/muwatta-malik, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

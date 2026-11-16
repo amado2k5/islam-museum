@@ -1,0 +1,16 @@
+id: passage/nasai-api-610
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "610"
+label: { ar: "سنن النسائي 610 — بر الوالدين أو عقوقهما", en: "Sunan al-Nasa'i 610 — dutifulness to the parents or disobedience to them", ur: "سنن نسائی 610 — والدین کے ساتھ نیکی یا نافرمانی" }
+text: "أَخْبَرَنَا عَمْرُو بْنُ عَلِيٍّ، قَالَ حَدَّثَنَا يَحْيَى، قَالَ حَدَّثَنَا شُعْبَةُ، قَالَ أَخْبَرَنِي الْوَلِيدُ بْنُ الْعَيْزَارِ، قَالَ سَمِعْتُ أَبَا عَمْرٍو الشَّيْبَانِيَّ، يَقُولُ حَدَّثَنَا صَاحِبُ، هَذِهِ الدَّارِ وَأَشَارَ إِلَى دَارِ عَبْدِ اللَّهِ قَالَ سَأَلْتُ رَسُولَ اللَّهِ أَىُّ الْعَمَلِ أَحَبُّ إِلَى اللَّهِ تَعَالَى قَالَ \" الصَّلاَةُ عَلَى وَقْتِهَا وَبِرُّ الْوَالِدَيْنِ وَالْجِهَادُ فِي سَبِيلِ اللَّهِ عَزَّ وَجَلَّ \"."
+summary:
+  ar: "حديث في سنن النسائي، رقم 610، يذكر بر الوالدين أو عقوقهما. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan al-Nasa'i, no. 610 (The Book of the Times (of Prayer)), that mentions dutifulness to the parents or disobedience to them. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "سنن نسائی کی حدیث نمبر 610، جس میں والدین کے ساتھ نیکی یا نافرمانی کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 610 (book 6 hadith 117); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

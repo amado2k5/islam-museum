@@ -1,0 +1,16 @@
+id: passage/ibnmajah-api-1666
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "1666"
+label: { ar: "سنن ابن ماجه 1666 — الأب والأبوة", en: "Sunan Ibn Majah 1666 — the father and fatherhood", ur: "سنن ابن ماجہ 1666 — باپ اور والدیت" }
+text: "حَدَّثَنَا إِبْرَاهِيمُ بْنُ الْمُنْذِرِ الْحِزَامِيُّ، حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مُوسَى التَّيْمِيُّ، عَنْ أُسَامَةَ بْنِ زَيْدٍ، عَنِ ابْنِ شِهَابٍ، عَنْ أَبِي سَلَمَةَ بْنِ عَبْدِ الرَّحْمَنِ، عَنْ أَبِيهِ عَبْدِ الرَّحْمَنِ بْنِ عَوْفٍ، قَالَ: قَالَ رَسُولُ اللَّهِ ـ \" صَائِمُ رَمَضَانَ فِي السَّفَرِ كَالْمُفْطِرِ فِي الْحَضَرِ \".قالَ أَبُو إِسْحاقَ: هَذاالْحَديثُ لَيْسَ بِشَيْءٍ"
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 1666، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan Ibn Majah, no. 1666 (Fasting), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 1666، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 1666 (book 7 hadith 29); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

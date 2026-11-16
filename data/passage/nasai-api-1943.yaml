@@ -1,0 +1,16 @@
+id: passage/nasai-api-1943
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "1943"
+label: { ar: "سنن النسائي 1943 — الأب والأبوة", en: "Sunan al-Nasa'i 1943 — the father and fatherhood", ur: "سنن نسائی 1943 — باپ اور والدیت" }
+text: "أَخْبَرَنِي أَحْمَدُ بْنُ بَكَّارٍ الْحَرَّانِيُّ، قَالَ حَدَّثَنَا بِشْرُ بْنُ السَّرِيِّ، عَنْ سَعِيدٍ الثَّقَفِيِّ، عَنْ عَمِّهِ، زِيَادِ بْنِ جُبَيْرِ بْنِ حَيَّةَ عَنْ أَبِيهِ، عَنِ الْمُغِيرَةِ بْنِ شُعْبَةَ، قَالَ قَالَ رَسُولُ اللَّهِ \" الرَّاكِبُ خَلْفَ الْجَنَازَةِ وَالْمَاشِي حَيْثُ شَاءَ مِنْهَا وَالطِّفْلُ يُصَلَّى عَلَيْهِ \"."
+summary:
+  ar: "حديث في سنن النسائي، رقم 1943، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan al-Nasa'i, no. 1943 (The Book of Funerals), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "سنن نسائی کی حدیث نمبر 1943، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 1943 (book 21 hadith 126); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

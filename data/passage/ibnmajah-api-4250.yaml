@@ -1,0 +1,16 @@
+id: passage/ibnmajah-api-4250
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "4250"
+label: { ar: "سنن ابن ماجه 4250 — الأب والأبوة", en: "Sunan Ibn Majah 4250 — the father and fatherhood", ur: "سنن ابن ماجہ 4250 — باپ اور والدیت" }
+text: "حَدَّثَنَا أَحْمَدُ بْنُ سَعِيدٍ الدَّارِمِيُّ، حَدَّثَنَا مُحَمَّدُ بْنُ عَبْدِ اللَّهِ الرَّقَاشِيُّ، حَدَّثَنَا وُهَيْبُ بْنُ خَالِدٍ، حَدَّثَنَا مَعْمَرٌ، عَنْ عَبْدِ الْكَرِيمِ، عَنْ أَبِي عُبَيْدَةَ بْنِ عَبْدِ اللَّهِ، عَنْ أَبِيهِ، قَالَ قَالَ رَسُولُ اللَّهِ ـ : \" التَّائِبُ مِنَ الذَّنْبِ كَمَنْ لاَ ذَنْبَ لَهُ \"."
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 4250، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan Ibn Majah, no. 4250 (Zuhd), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 4250، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 4250 (book 37 hadith 151); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

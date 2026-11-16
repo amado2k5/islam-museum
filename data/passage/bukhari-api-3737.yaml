@@ -1,0 +1,16 @@
+id: passage/bukhari-api-3737
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "3737"
+label: { ar: "صحيح البخاري 3737 — اليتيم وفقد الأب", en: "Sahih al-Bukhari 3737 — the orphan and the father lost", ur: "صحیح بخاری 3737 — یتیم اور باپ کی موت" }
+text: "… عَبْدِ اللَّهِ بْنِ عُمَرَ إِذْ دَخَلَ الْحَجَّاجُ بْنُ أَيْمَنَ فَلَمْ يُتِمَّ رُكُوعَهُ وَلاَ سُجُودَهُ، فَقَالَ أَعِدْ. فَلَمَّا وَلَّى قَالَ لِي ابْنُ عُمَرَ مَنْ هَذَا قُلْتُ الْحَجَّاجُ بْنُ أَيْمَنَ ابْنِ أُمِّ أَيْمَنَ. فَقَالَ ابْنُ عُمَرَ لَوْ رَأَى هَذَا رَسُولُ اللَّهِ لأَحَبَّهُ، فَذَكَرَ حُبَّهُ وَمَا وَلَدَتْهُ أُمُّ أَيْمَنَ. قَالَ وَحَدَّثَنِي بَعْضُ أَصْحَابِي عَنْ سُلَيْمَانَ وَكَانَتْ حَاضِنَةَ النَّبِيِّ."
+summary:
+  ar: "حديث في صحيح البخاري، رقم 3737، يذكر اليتيم وفقد الأب. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sahih al-Bukhari, no. 3737 (Companions of the Prophet), that mentions the orphan and the father lost. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "صحیح بخاری کی حدیث نمبر 3737، جس میں یتیم اور باپ کی موت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/yatim-fiqh, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 3737 (book 62 hadith 84); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

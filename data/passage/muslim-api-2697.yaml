@@ -1,0 +1,16 @@
+id: passage/muslim-api-2697
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2697"
+label: { ar: "صحيح مسلم 2697 — الأب والأبوة", en: "Sahih Muslim 2697 — the father and fatherhood", ur: "صحیح مسلم 2697 — باپ اور والدیت" }
+text: "… السَّعْدِيُّ، حَدَّثَنَا عَلِيُّ بْنُ مُسْهِرٍ أَبُو الْحَسَنِ، عَنْ عَبْدِ اللَّهِ، بْنِ عَطَاءٍ عَنْ عَبْدِ اللَّهِ بْنِ بُرَيْدَةَ، عَنْ أَبِيهِ، - - قَالَ بَيْنَا أَنَا جَالِسٌ، عِنْدَ رَسُولِ اللَّهِ إِذْ أَتَتْهُ امْرَأَةٌ فَقَالَتْ إِنِّي تَصَدَّقْتُ عَلَى أُمِّي بِجَارِيَةٍ وَإِنَّهَا مَاتَتْ - قَالَ - فَقَالَ \" وَجَبَ أَجْرُكِ وَرَدَّهَا عَلَيْكِ الْمِيرَاثُ \". قَالَتْ يَا رَسُولَ اللَّهِ إِنَّهُ …"
+summary:
+  ar: "حديث في صحيح مسلم، رقم 2697، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sahih Muslim, no. 2697 (The Book of Fasting), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "صحیح مسلم کی حدیث نمبر 2697، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 2697 (book 13 hadith 203); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

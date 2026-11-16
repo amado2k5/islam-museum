@@ -1,0 +1,16 @@
+id: passage/bukhari-api-6671
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "6671"
+label: { ar: "صحيح البخاري 6671 — اليتيم وفقد الأب", en: "Sahih al-Bukhari 6671 — the orphan and the father lost", ur: "صحیح بخاری 6671 — یتیم اور باپ کی موت" }
+text: "… مِنْهَا ـ قَالَ مَنْصُورٌ لاَ أَدْرِي إِبْرَاهِيمُ وَهِمَ أَمْ عَلْقَمَةُ ـ قَالَ قِيلَ يَا رَسُولَ اللَّهِ أَقَصُرَتِ الصَّلاَةُ أَمْ نَسِيتَ قَالَ \" وَمَا ذَاكَ \". قَالُوا صَلَّيْتَ كَذَا وَكَذَا. قَالَ فَسَجَدَ بِهِمْ سَجْدَتَيْنِ ثُمَّ قَالَ \" هَاتَانِ السَّجْدَتَانِ لِمَنْ لاَ يَدْرِي، زَادَ فِي صَلاَتِهِ أَمْ نَقَصَ، فَيَتَحَرَّى الصَّوَابَ، فَيُتِمُّ مَا بَقِيَ، ثُمَّ يَسْجُدُ سَجْدَتَيْنِ \"."
+summary:
+  ar: "حديث في صحيح البخاري، رقم 6671، يذكر اليتيم وفقد الأب. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sahih al-Bukhari, no. 6671 (Oaths and Vows), that mentions the orphan and the father lost. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "صحیح بخاری کی حدیث نمبر 6671، جس میں یتیم اور باپ کی موت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/yatim-fiqh, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 6671 (book 83 hadith 49); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

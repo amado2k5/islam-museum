@@ -1,0 +1,16 @@
+id: passage/bukhari-api-192
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "192"
+label: { ar: "صحيح البخاري 192 — الأب والأبوة", en: "Sahih al-Bukhari 192 — the father and fatherhood", ur: "صحیح بخاری 192 — باپ اور والدیت" }
+text: "حَدَّثَنَا سُلَيْمَانُ بْنُ حَرْبٍ، قَالَ حَدَّثَنَا وُهَيْبٌ، قَالَ حَدَّثَنَا عَمْرُو بْنُ يَحْيَى، عَنْ أَبِيهِ، قَالَ شَهِدْتُ عَمْرَو بْنَ أَبِي حَسَنٍ سَأَلَ عَبْدَ اللَّهِ بْنَ زَيْدٍ عَنْ وُضُوءِ النَّبِيِّ، فَدَعَا بِتَوْرٍ مِنْ مَاءٍ، فَتَوَضَّأَ لَهُمْ، فَكَفَأَ عَلَى يَدَيْهِ فَغَسَلَهُمَا ثَلاَثًا، ثُمَّ أَدْخَلَ يَدَهُ فِي الإِنَاءِ، فَمَضْمَضَ وَاسْتَنْشَقَ، وَاسْتَنْثَرَ ثَلاَثًا بِثَلاَثِ غَرَفَاتٍ مِنْ مَاءٍ، ثُمَّ أَدْخَلَ يَدَهُ …"
+summary:
+  ar: "حديث في صحيح البخاري، رقم 192، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sahih al-Bukhari, no. 192 (Ablutions (Wudu')), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "صحیح بخاری کی حدیث نمبر 192، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 192 (book 4 hadith 58); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

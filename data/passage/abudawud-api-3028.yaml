@@ -1,0 +1,16 @@
+id: passage/abudawud-api-3028
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "3028"
+label: { ar: "سنن أبي داود 3028 — الأب والأبوة", en: "Sunan Abi Dawud 3028 — the father and fatherhood", ur: "سنن ابی داؤد 3028 — باپ اور والدیت" }
+text: "… عَبْدِ اللَّهِ، أَنَّ عَبْدَ اللَّهِ بْنَ الزُّبَيْرِ، حَدَّثَهُمْ حَدَّثَنَا فَرَجُ بْنُ سَعِيدٍ، حَدَّثَنِي عَمِّي، ثَابِتُ بْنُ سَعِيدٍ عَنْ أَبِيهِ، سَعِيدٍ - يَعْنِي ابْنَ أَبْيَضَ - عَنْ جَدِّهِ، أَبْيَضَ بْنِ حَمَّالٍ أَنَّهُ كَلَّمَ رَسُولَ اللَّهِ فِي الصَّدَقَةِ حِينَ وَفَدَ عَلَيْهِ فَقَالَ \" يَا أَخَا سَبَإٍ لاَ بُدَّ مِنْ صَدَقَةٍ \". فَقَالَ إِنَّمَا زَرْعُنَا الْقُطْنُ يَا رَسُولَ …"
+summary:
+  ar: "حديث في سنن أبي داود، رقم 3028، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan Abi Dawud, no. 3028 (Tribute, Spoils, and Rulership (Kitab Al-Kharaj, Wal-Fai' Wal-Imarah)), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "سنن ابی داؤد کی حدیث نمبر 3028، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 3028 (book 20 hadith 101); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

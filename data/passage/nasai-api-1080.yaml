@@ -1,0 +1,16 @@
+id: passage/nasai-api-1080
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "1080"
+label: { ar: "سنن النسائي 1080 — الأب والأبوة", en: "Sunan al-Nasa'i 1080 — the father and fatherhood", ur: "سنن نسائی 1080 — باپ اور والدیت" }
+text: "أَخْبَرَنَا قُتَيْبَةُ، عَنْ خَلَفٍ، - وَهُوَ ابْنُ خَلِيفَةَ - عَنْ أَبِي مَالِكٍ الأَشْجَعِيِّ، عَنْ أَبِيهِ، قَالَ صَلَّيْتُ خَلْفَ رَسُولِ اللَّهِ فَلَمْ يَقْنُتْ وَصَلَّيْتُ خَلْفَ أَبِي بَكْرٍ فَلَمْ يَقْنُتْ وَصَلَّيْتُ خَلْفَ عُمَرَ فَلَمْ يَقْنُتْ وَصَلَّيْتُ خَلْفَ عُثْمَانَ فَلَمْ يَقْنُتْ وَصَلَّيْتُ خَلْفَ عَلِيٍّ فَلَمْ يَقْنُتْ ثُمَّ قَالَ يَا بُنَىَّ إِنَّهَا بِدْعَةٌ."
+summary:
+  ar: "حديث في سنن النسائي، رقم 1080، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan al-Nasa'i, no. 1080 (The Book of The At-Tatbiq (Clasping One's Hands Together)), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "سنن نسائی کی حدیث نمبر 1080، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 1080 (book 12 hadith 52); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

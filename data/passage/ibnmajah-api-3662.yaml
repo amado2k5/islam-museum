@@ -1,0 +1,16 @@
+id: passage/ibnmajah-api-3662
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "3662"
+label: { ar: "سنن ابن ماجه 3662 — بر الوالدين أو عقوقهما", en: "Sunan Ibn Majah 3662 — dutifulness to the parents or disobedience to them", ur: "سنن ابن ماجہ 3662 — والدین کے ساتھ نیکی یا نافرمانی" }
+text: "حَدَّثَنَا هِشَامُ بْنُ عَمَّارٍ، حَدَّثَنَا صَدَقَةُ بْنُ خَالِدٍ، حَدَّثَنَا عُثْمَانُ بْنُ أَبِي الْعَاتِكَةِ، عَنْ عَلِيِّ بْنِ يَزِيدَ، عَنِ الْقَاسِمِ، عَنْ أَبِي أُمَامَةَ، أَنَّ رَجُلاً، قَالَ يَا رَسُولَ اللَّهِ مَا حَقُّ الْوَالِدَيْنِ عَلَى وَلَدِهِمَا قَالَ \" هُمَا جَنَّتُكَ وَنَارُكَ \"."
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 3662، يذكر بر الوالدين أو عقوقهما. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan Ibn Majah, no. 3662 (Etiquette), that mentions dutifulness to the parents or disobedience to them. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 3662، جس میں والدین کے ساتھ نیکی یا نافرمانی کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 3662 (book 33 hadith 6); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

@@ -1,0 +1,16 @@
+id: passage/bukhari-api-6272
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "6272"
+label: { ar: "صحيح البخاري 6272 — الأب والأبوة", en: "Sahih al-Bukhari 6272 — the father and fatherhood", ur: "صحیح بخاری 6272 — باپ اور والدیت" }
+text: "حَدَّثَنَا مُحَمَّدُ بْنُ أَبِي غَالِبٍ، أَخْبَرَنَا إِبْرَاهِيمُ بْنُ الْمُنْذِرِ الْحِزَامِيُّ، حَدَّثَنَا مُحَمَّدُ بْنُ فُلَيْحٍ، عَنْ أَبِيهِ، عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَما ـ قَالَ رَأَيْتُ رَسُولَ اللَّهِ بِفِنَاءِ الْكَعْبَةِ مُحْتَبِيًا بِيَدِهِ هَكَذَا."
+summary:
+  ar: "حديث في صحيح البخاري، رقم 6272، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sahih al-Bukhari, no. 6272 (Asking Permission), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "صحیح بخاری کی حدیث نمبر 6272، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 6272 (book 79 hadith 46); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

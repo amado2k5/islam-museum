@@ -1,0 +1,16 @@
+id: passage/bukhari-api-5514
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "5514"
+label: { ar: "صحيح البخاري 5514 — الأب والأبوة", en: "Sahih al-Bukhari 5514 — the father and fatherhood", ur: "صحیح بخاری 5514 — باپ اور والدیت" }
+text: "حَدَّثَنَا أَحْمَدُ بْنُ يَعْقُوبَ، أَخْبَرَنَا إِسْحَاقُ بْنُ سَعِيدِ بْنِ عَمْرٍو، عَنْ أَبِيهِ، أَنَّهُ سَمِعَهُ يُحَدِّثُ، عَنِ ابْنِ عُمَرَما ـ أَنَّهُ دَخَلَ عَلَى يَحْيَى بْنِ سَعِيدٍ وَغُلاَمٌ مِنْ بَنِي يَحْيَى رَابِطٌ دَجَاجَةً يَرْمِيهَا، فَمَشَى إِلَيْهَا ابْنُ عُمَرَ حَتَّى حَلَّهَا، ثُمَّ أَقْبَلَ بِهَا وَبِالْغُلاَمِ مَعَهُ فَقَالَ ازْجُرُوا غُلاَمَكُمْ عَنْ أَنْ يَصْبِرَ هَذَا الطَّيْرَ لِلْقَتْلِ، فَإِنِّي سَمِعْتُ النَّبِيَّ …"
+summary:
+  ar: "حديث في صحيح البخاري، رقم 5514، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sahih al-Bukhari, no. 5514 (Hunting, Slaughtering), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "صحیح بخاری کی حدیث نمبر 5514، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 5514 (book 72 hadith 40); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

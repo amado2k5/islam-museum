@@ -1,0 +1,17 @@
+id: passage/bukhari-api-3413
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "3413"
+label: { ar: "صحيح البخاري 3413 — الأب والأبوة، النسب والانتساب", en: "Sahih al-Bukhari 3413 — the father and fatherhood; paternity and lineage", ur: "صحیح بخاری 3413 — باپ اور والدیت، نسب اور انتساب" }
+text: "حَدَّثَنَا حَفْصُ بْنُ عُمَرَ، حَدَّثَنَا شُعْبَةُ، عَنْ قَتَادَةَ، عَنْ أَبِي الْعَالِيَةِ، عَنِ ابْنِ عَبَّاسٍما ـ عَنِ النَّبِيِّ قَالَ \" مَا يَنْبَغِي لِعَبْدٍ أَنْ يَقُولَ إِنِّي خَيْرٌ مِنْ يُونُسَ بْنِ مَتَّى \". وَنَسَبَهُ إِلَى أَبِيهِ."
+summary:
+  ar: "حديث في صحيح البخاري، رقم 3413، يذكر الأب والأبوة، والنسب والانتساب. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sahih al-Bukhari, no. 3413 (Prophets), that mentions the father and fatherhood, paternity and lineage. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "صحیح بخاری کی حدیث نمبر 3413، جس میں باپ اور والدیت، نسب اور انتساب کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/intisab, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 3413 (book 60 hadith 86); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

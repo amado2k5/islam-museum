@@ -1,0 +1,17 @@
+id: passage/tirmidhi-api-2113
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "2113"
+label: { ar: "جامع الترمذي 2113 — الأب والأبوة، النسب والانتساب", en: "Jami' al-Tirmidhi 2113 — the father and fatherhood; paternity and lineage", ur: "جامع ترمذی 2113 — باپ اور والدیت، نسب اور انتساب" }
+text: "حَدَّثَنَا قُتَيْبَةُ، قال حَدَّثَنَا ابْنُ لَهِيعَةَ، عَنْ عَمْرِو بْنِ شُعَيْبٍ، عَنْ أَبِيهِ، عَنْ جَدِّهِ، أَنَّ رَسُولَ اللَّهِ قَالَ \" أَيُّمَا رَجُلٍ عَاهَرَ بِحُرَّةٍ أَوْ أَمَةٍ فَالْوَلَدُ وَلَدُ زِنَا لاَ يَرِثُ وَلاَ يُورَثُ \". قَالَ أَبُو عِيسَى وَقَدْ رَوَى غَيْرُ ابْنِ لَهِيعَةَ هَذَا الْحَدِيثَ عَنْ عَمْرِو بْنِ شُعَيْبٍ. وَالْعَمَلُ عَلَى هَذَا عِنْدَ أَهْلِ الْعِلْمِ أَنَّ وَلَدَ …"
+summary:
+  ar: "حديث في جامع الترمذي، رقم 2113، يذكر الأب والأبوة، والنسب والانتساب. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Jami' al-Tirmidhi, no. 2113 (Chapters On Inheritance), that mentions the father and fatherhood, paternity and lineage. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "جامع ترمذی کی حدیث نمبر 2113، جس میں باپ اور والدیت، نسب اور انتساب کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/intisab, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 2113 (book 29 hadith 24); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

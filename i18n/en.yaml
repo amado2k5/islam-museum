@@ -1780,6 +1780,10 @@ explore:
       title: "Family and Marriages Browser"
       desc: "The famous marriages in Islam, the Muslim family and its daily life — every mention of marriage, spouses and children, dwellings, livelihood and social customs in the Qur'an, the Sunnah, the seerah and every harvested book, with every verse and report cited."
       menu: "Browse marriages, families and daily life in the Qur'an and books"
+    ubuwwa:
+      title: "Fatherhood in Islam Browser"
+      desc: "Every mention of the father and fatherhood in Islam — the Qur'anic fathers and their counsel, dutifulness and disobedience to the parents, the Prophet as a father, paternity and lineage, and the orphan whose father is lost — in the Qur'an, the Sunnah, the seerah, Companion and Tabi'in reports and every harvested book, with every verse and report cited."
+      menu: "Browse the father and fatherhood in the Qur'an and books"
     ukhuwwa:
       title: "Brotherhood in Islam Browser"
       desc: "Brotherhood and sisterhood in Islam — every mention of brothers and sisters in the faith, the mu'akhat of the Muhajirun and the Ansar, love for God's sake, altruism and aid, the rights a Muslim owes a Muslim and what breaks brotherhood — in the Qur'an, the Sunnah, the seerah and every harvested book, with every verse and report cited."
@@ -4096,6 +4100,42 @@ usra:
     sources: "Sources:"
     note_label: "Note on the record:"
     and: "⇄"
+ubuwwa:
+  title: "Fatherhood in Islam Browser"
+  lede: "The father and fatherhood in the museum's sources: the fathers of the Qur'an — Ibrahim and his du'a, Ya'qub and Yusuf, Luqman's counsel to his son, Zakariyya's prayer, 'Imran's house — dutifulness to the parents (birr al-walidayn) and the warning of 'uquq, the Prophet as a father with his children and grandchildren, paternity and lineage (nasab), the fathers' testaments and raising of children, and the orphan whose father is lost — in the Qur'an, the two Sahihs, the Muwatta and the Sunan, the seerah books, the reports of the Companions and the Successors, and every harvested book — sourced records that grow as new texts land."
+  badge: Fatherhood explorer
+  status: "This build holds {n} records in {s} sections; the texts are drafts until a human reads them."
+  method_title: The browser's method
+  method_note: "Every record here is an ordinary museum record — with its sources and its three-language prose. Fatherhood mentions are found at build time by a guarded lexicon over the passage texts in five families: the father himself (أبوة، أبوه، أبيه، أبونا، آباء، والده، يا أبت), dutifulness and disobedience to the parents (بر الوالدين، بالوالدين إحساناً، عقوق، رضا الوالدين), raising and counsel (لقمان، يا بني، تربية، وصية أبيه، علموا أولادكم), paternity and lineage (نسب، انتساب، ادعاء، الولد للفراش), and the orphan (يتيم، يتامى، كفالة اليتيم). The ambiguous words are guarded: the kunya «أبو فلان» names a man and reports no fatherhood, so bare «أبو» never counts — only possessed, plural and vocative father forms; child vocabulary counts only beside a father word in the same window (God's «يا بني آدم» drops out); and verified false positives are excluded by id. Every book harvested later brings its fatherhood mentions here automatically, and curated records join through the ubuwwa-browser tag. The famous fathers are read from the graph's own parent_of and child_of edges."
+  api: "The whole set is available at"
+  sections_title: The browser's sections
+  fathers_title: "The famous fathers"
+  fathers_desc: "Father–child pairs from the museum's own graph: every record joined to its child by a cited parent_of or child_of edge — the fathers of the prophets, the Prophet and his children, and the fathers of the Companions and the books; a recorded mother never enters this list."
+  filter_label: Filter fatherhood records
+  filter_none: No matches.
+  empty: No fatherhood records in this build yet.
+  topics:
+    ab: "The father"
+    birr: "Dutifulness to the parents"
+    tarbiyya: "Raising and counsel"
+    nasab: "Paternity and lineage"
+    yatm: "The orphan"
+  sections:
+    quran:
+      title: "In the Qur'an"
+      desc: "The father and fatherhood in the Qur'an: the commands of kindness to the parents in al-Baqara, al-Isra', Luqman and al-Ahqaf; Ibrahim's prayer for his father and his offspring; Ya'qub's counsel and his sons; Luqman's seven counsels; Zakariyya's prayer for a son; the house of 'Imran; Yusuf raising his parents upon the throne; and the orphan the Qur'an shelters."
+    sunnah:
+      title: "In the Sunnah"
+      desc: "The father in the two Sahihs, the Muwatta and the Sunan: the Prophet as a father to Fatima and his sons, carrying al-Hasan on his shoulder, 'the best of you is the best to his family'; the reports of birr al-walidayn — the father as the middle gate of Paradise — and the warnings of 'uquq; the father teaching his children; paternity verdicts ('the child is for the bed'); and the care of the orphan."
+    seerah:
+      title: "In the seerah"
+      desc: "What the seerah and history books carry of fathers and children — Abd al-Muttalib and 'Abdullah, the Prophet's upbringing as an orphan, Abu Bakr's emigration with his family, Hamza and 'Ali at Hudaybiyya's aftermath, the fathers of the Companions and the Tabi'in — this section fills itself as new seerah texts land."
+    books:
+      title: "In the other books"
+      desc: "Fatherhood reports in every harvested work beyond the Qur'an, hadith and seerah — fiqh of paternity and custody, adab of birr and 'uquq, biography, history and poetry — classified by the work's genre the day its passages land."
+    curated:
+      title: "Records about the father"
+      desc: "The museum's curated records about fatherhood itself: ubuwwa, the rights of parents and of children, birr, 'uquq, the aqiqa, custody (hadana), paternity and lineage (nasab), and the orphan's kafala."
 ukhuwwa:
   title: "Brotherhood in Islam Browser"
   lede: "Brotherhood and sisterhood in Islam in the museum's sources: the brotherhood of the believers — 'the believers are but brothers', 'a Muslim is a Muslim's brother' — the brothers and sisters themselves, the Prophet's pairing of the Emigrants and the Helpers and every pairing among the Companions and the Successors, love for God's sake and loving one another in Him, altruism and coming to a brother's aid and need, the rights a Muslim owes a brother — visiting the sick, blessing the sneezer, answering the invitation, returning the greeting — and what severs brotherhood: envy, mutual hatred, estrangement, suspicion and backbiting — in the Qur'an, the two Sahihs, the Muwatta and the Sunan, the seerah books, the reports of the Companions and the Successors, and every harvested book — sourced records that grow as new texts land."

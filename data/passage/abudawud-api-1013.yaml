@@ -1,0 +1,16 @@
+id: passage/abudawud-api-1013
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "1013"
+label: { ar: "سنن أبي داود 1013 — الأب والأبوة", en: "Sunan Abi Dawud 1013 — the father and fatherhood", ur: "سنن ابی داؤد 1013 — باپ اور والدیت" }
+text: "… رَوَاهُ يَحْيَى بْنُ أَبِي كَثِيرٍ وَعِمْرَانُ بْنُ أَبِي أَنَسٍ عَنْ أَبِي سَلَمَةَ بْنِ عَبْدِ الرَّحْمَنِ وَالْعَلاَءُ بْنُ عَبْدِ الرَّحْمَنِ عَنْ أَبِيهِ جَمِيعًا عَنْ أَبِي هُرَيْرَةَ بِهَذِهِ الْقِصَّةِ وَلَمْ يَذْكُرْ أَنَّهُ سَجَدَ السَّجْدَتَيْنِ. قَالَ أَبُو دَاوُدَ وَرَوَاهُ الزُّبَيْدِيُّ عَنِ الزُّهْرِيِّ عَنْ أَبِي بَكْرِ بْنِ سُلَيْمَانَ بْنِ أَبِي حَثْمَةَ عَنِ النَّبِيِّ قَالَ فِيهِ وَلَمْ يَسْجُدْ سَجْدَتَىِ السَّهْوِ."
+summary:
+  ar: "حديث في سنن أبي داود، رقم 1013، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan Abi Dawud, no. 1013 (Prayer (Kitab Al-Salat)), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "سنن ابی داؤد کی حدیث نمبر 1013، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 1013 (book 2 hadith 624); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

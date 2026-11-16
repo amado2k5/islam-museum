@@ -1,0 +1,16 @@
+id: passage/ibnmajah-api-1332
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "1332"
+label: { ar: "سنن ابن ماجه 1332 — الأب والأبوة", en: "Sunan Ibn Majah 1332 — the father and fatherhood", ur: "سنن ابن ماجہ 1332 — باپ اور والدیت" }
+text: "… بْنِ الصَّبَّاحِ، وَالْعَبَّاسُ بْنُ جَعْفَرٍ، وَمُحَمَّدُ بْنُ عَمْرٍو الْحَدَثَانِيُّ، قَالُوا حَدَّثَنَا سُنَيْدُ بْنُ دَاوُدَ، حَدَّثَنَا يُوسُفُ بْنُ مُحَمَّدِ بْنِ الْمُنْكَدِرِ، عَنْ أَبِيهِ، عَنْ جَابِرِ بْنِ عَبْدِ اللَّهِ، قَالَ قَالَ رَسُولُ اللَّهِ ـ \" قَالَتْ أُمُّ سُلَيْمَانَ بْنِ دَاوُدَ لِسُلَيْمَانَ يَا بُنَىَّ لاَ تُكْثِرِ النَّوْمَ بِاللَّيْلِ فَإِنَّ كَثْرَةَ النَّوْمِ بِاللَّيْلِ تَتْرُكُ الرَّجُلَ فَقِيرًا يَوْمَ الْقِيَامَةِ \"."
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 1332، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan Ibn Majah, no. 1332 (Establishing the Prayer and the Sunnah Regarding Them), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 1332، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 1332 (book 5 hadith 530); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

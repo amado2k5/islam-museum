@@ -1,0 +1,16 @@
+id: passage/nasai-api-2926
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "2926"
+label: { ar: "سنن النسائي 2926 — الأب والأبوة", en: "Sunan al-Nasa'i 2926 — the father and fatherhood", ur: "سنن نسائی 2926 — باپ اور والدیت" }
+text: "أَخْبَرَنَا مُحَمَّدُ بْنُ آدَمَ، عَنْ عَبْدَةَ، عَنْ هِشَامِ بْنِ عُرْوَةَ، عَنْ أَبِيهِ، عَنْ أُمِّ سَلَمَةَ، قَالَتْ يا رَسُولَ اللَّهِ وَاللَّهِ مَا طُفْتُ طَوَافَ الْخُرُوجِ. فَقَالَ النَّبِيُّ \" إِذَا أُقِيمَتِ الصَّلاَةُ فَطُوفِي عَلَى بَعِيرِكِ مِنْ وَرَاءِ النَّاسِ \". عُرْوَةُ لَمْ يَسْمَعْهُ مِنْ أُمِّ سَلَمَةَ."
+summary:
+  ar: "حديث في سنن النسائي، رقم 2926، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan al-Nasa'i, no. 2926 (The Book of Hajj), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "سنن نسائی کی حدیث نمبر 2926، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 2926 (book 24 hadith 309); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

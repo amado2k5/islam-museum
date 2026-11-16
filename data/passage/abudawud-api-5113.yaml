@@ -1,0 +1,17 @@
+id: passage/abudawud-api-5113
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "5113"
+label: { ar: "سنن أبي داود 5113 — الأب والأبوة، النسب والانتساب", en: "Sunan Abi Dawud 5113 — the father and fatherhood; paternity and lineage", ur: "سنن ابی داؤد 5113 — باپ اور والدیت، نسب اور انتساب" }
+text: "… حَدَّثَنِي سَعْدُ بْنُ مَالِكٍ، قَالَ سَمِعَتْهُ أُذُنَاىَ، وَوَعَاهُ، قَلْبِي مِنْ مُحَمَّدٍ أَنَّهُ قَالَ \" مَنِ ادَّعَى إِلَى غَيْرِ أَبِيهِ وَهُوَ يَعْلَمُ أَنَّهُ غَيْرُ أَبِيهِ فَالْجَنَّةُ عَلَيْهِ حَرَامٌ \". قَالَ فَلَقِيتُ أَبَا بَكْرَةَ فَذَكَرْتُ ذَلِكَ لَهُ فَقَالَ سَمِعَتْهُ أُذُنَاىَ وَوَعَاهُ قَلْبِي مِنْ مُحَمَّدٍ. قَالَ عَاصِمٌ فَقُلْتُ يَا أَبَا عُثْمَانَ لَقَدْ شَهِدَ عِنْدَكَ رَجُلاَنِ أَيُّمَا رَجُلَيْنِ. فَقَالَ …"
+summary:
+  ar: "حديث في سنن أبي داود، رقم 5113، يذكر الأب والأبوة، والنسب والانتساب. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan Abi Dawud, no. 5113 (General Behavior (Kitab Al-Adab)), that mentions the father and fatherhood, paternity and lineage. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "سنن ابی داؤد کی حدیث نمبر 5113، جس میں باپ اور والدیت، نسب اور انتساب کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/intisab, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 5113 (book 43 hadith 341); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

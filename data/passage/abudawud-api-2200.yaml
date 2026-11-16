@@ -1,0 +1,16 @@
+id: passage/abudawud-api-2200
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "2200"
+label: { ar: "سنن أبي داود 2200 — الأب والأبوة", en: "Sunan Abi Dawud 2200 — the father and fatherhood", ur: "سنن ابی داؤد 2200 — باپ اور والدیت" }
+text: "حَدَّثَنَا أَحْمَدُ بْنُ صَالِحٍ، حَدَّثَنَا عَبْدُ الرَّزَّاقِ، أَخْبَرَنَا ابْنُ جُرَيْجٍ، أَخْبَرَنِي ابْنُ طَاوُسٍ، عَنْ أَبِيهِ، أَنَّ أَبَا الصَّهْبَاءِ، قَالَ لاِبْنِ عَبَّاسٍ أَتَعْلَمُ إِنَّمَا كَانَتِ الثَّلاَثُ تُجْعَلُ وَاحِدَةً عَلَى عَهْدِ النَّبِيِّ وَأَبِي بَكْرٍ وَثَلاَثًا مِنْ إِمَارَةِ عُمَرَ قَالَ ابْنُ عَبَّاسٍ نَعَمْ."
+summary:
+  ar: "حديث في سنن أبي داود، رقم 2200، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan Abi Dawud, no. 2200 (Divorce (Kitab Al-Talaq)), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "سنن ابی داؤد کی حدیث نمبر 2200، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 2200 (book 13 hadith 26); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

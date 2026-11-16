@@ -1,0 +1,16 @@
+id: passage/bukhari-api-5311
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "5311"
+label: { ar: "صحيح البخاري 5311 — الأب والأبوة", en: "Sahih al-Bukhari 5311 — the father and fatherhood", ur: "صحیح بخاری 5311 — باپ اور والدیت" }
+text: "… كَاذِبٌ، فَهَلْ مِنْكُمَا تَائِبُ \". فَأَبَيَا. فَقَالَ \" اللَّهُ يَعْلَمُ أَنَّ أَحَدَكُمَا كَاذِبٌ، فَهَلْ مِنْكُمَا تَائِبٌ \" فَأَبَيَا فَفَرَّقَ بَيْنَهُمَا. قَالَ أَيُّوبُ فَقَالَ لِي عَمْرُو بْنُ دِينَارٍ إِنَّ فِي الْحَدِيثِ شَيْئًا لاَ أَرَاكَ تُحَدِّثُهُ قَالَ قَالَ الرَّجُلُ مَالِي قَالَ قِيلَ لاَ مَالَ لَكَ، إِنْ كُنْتَ صَادِقًا فَقَدْ دَخَلْتَ بِهَا، وَإِنْ كُنْتَ كَاذِبًا فَهْوَ أَبْعَدُ مِنْكَ."
+summary:
+  ar: "حديث في صحيح البخاري، رقم 5311، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sahih al-Bukhari, no. 5311 (Divorce), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "صحیح بخاری کی حدیث نمبر 5311، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 5311 (book 68 hadith 60); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

@@ -1,0 +1,16 @@
+id: passage/abudawud-api-1380
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "1380"
+label: { ar: "سنن أبي داود 1380 — الأب والأبوة", en: "Sunan Abi Dawud 1380 — the father and fatherhood", ur: "سنن ابی داؤد 1380 — باپ اور والدیت" }
+text: "… حَدَّثَنَا زُهَيْرٌ، أَخْبَرَنَا مُحَمَّدُ بْنُ إِسْحَاقَ، حَدَّثَنَا مُحَمَّدُ بْنُ إِبْرَاهِيمَ، عَنِ ابْنِ عَبْدِ اللَّهِ بْنِ أُنَيْسٍ الْجُهَنِيِّ، عَنْ أَبِيهِ، قَالَ قُلْتُ يَا رَسُولَ اللَّهِ إِنَّ لِي بَادِيَةً أَكُونُ فِيهَا وَأَنَا أُصَلِّي فِيهَا بِحَمْدِ اللَّهِ فَمُرْنِي بِلَيْلَةٍ أَنْزِلُهَا إِلَى هَذَا الْمَسْجِدِ. فَقَالَ \" انْزِلْ لَيْلَةَ ثَلاَثٍ وَعِشْرِينَ \". فَقُلْتُ لاِبْنِهِ كَيْفَ كَانَ أَبُوكَ يَصْنَعُ قَالَ كَانَ …"
+summary:
+  ar: "حديث في سنن أبي داود، رقم 1380، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan Abi Dawud, no. 1380 (Prayer (Kitab Al-Salat): Detailed Injunctions about Ramadan), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "سنن ابی داؤد کی حدیث نمبر 1380، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 1380 (book 6 hadith 10); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

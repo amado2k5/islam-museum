@@ -1,0 +1,16 @@
+id: passage/bukhari-api-824
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "824"
+label: { ar: "صحيح البخاري 824 — اليتيم وفقد الأب", en: "Sahih al-Bukhari 824 — the orphan and the father lost", ur: "صحیح بخاری 824 — یتیم اور باپ کی موت" }
+text: "… مَسْجِدِنَا هَذَا فَقَالَ إِنِّي لأُصَلِّي بِكُمْ، وَمَا أُرِيدُ الصَّلاَةَ، وَلَكِنْ أُرِيدُ أَنْ أُرِيَكُمْ كَيْفَ رَأَيْتُ النَّبِيَّ يُصَلِّي. قَالَ أَيُّوبُ فَقُلْتُ لأَبِي قِلاَبَةَ وَكَيْفَ كَانَتْ صَلاَتُهُ قَالَ مِثْلَ صَلاَةِ شَيْخِنَا هَذَا ـ يَعْنِي عَمْرَو بْنَ سَلِمَةَ ـ قَالَ أَيُّوبُ وَكَانَ ذَلِكَ الشَّيْخُ يُتِمُّ التَّكْبِيرَ، وَإِذَا رَفَعَ رَأْسَهُ عَنِ السَّجْدَةِ الثَّانِيَةِ جَلَسَ وَاعْتَمَدَ عَلَى الأَرْضِ، ثُمَّ قَامَ."
+summary:
+  ar: "حديث في صحيح البخاري، رقم 824، يذكر اليتيم وفقد الأب. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sahih al-Bukhari, no. 824 (Call to Prayers (Adhaan)), that mentions the orphan and the father lost. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "صحیح بخاری کی حدیث نمبر 824، جس میں یتیم اور باپ کی موت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/yatim-fiqh, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 824 (book 10 hadith 218); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

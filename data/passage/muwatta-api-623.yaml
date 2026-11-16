@@ -1,0 +1,16 @@
+id: passage/muwatta-api-623
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "623"
+label: { ar: "موطأ مالك 623 — الأب والأبوة", en: "Muwatta Malik 623 — the father and fatherhood", ur: "موطأ مالک 623 — باپ اور والدیت" }
+text: "حَدَّثَنِي يَحْيَى، عَنْ مَالِكٍ، عَنْ زَيْدِ بْنِ أَسْلَمَ، عَنْ أَبِيهِ، أَنَّهُ قَالَ سَمِعْتُ عُمَرَ بْنَ الْخَطَّابِ، وَهُوَ يَقُولُ حَمَلْتُ عَلَى فَرَسٍ عَتِيقٍ فِي سَبِيلِ اللَّهِ - وَكَانَ الرَّجُلُ الَّذِي هُوَ عِنْدَهُ قَدْ أَضَاعَهُ - فَأَرَدْتُ أَنْ أَشْتَرِيَهُ مِنْهُ وَظَنَنْتُ أَنَّهُ بَائِعُهُ بِرُخْصٍ فَسَأَلْتُ عَنْ ذَلِكَ رَسُولَ اللَّهِ فَقَالَ \" لاَ تَشْتَرِهِ وَإِنْ أَعْطَاكَهُ بِدِرْهَمٍ وَاحِدٍ …"
+summary:
+  ar: "حديث في موطأ مالك، رقم 623، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Muwatta Malik, no. 623 (Zakat), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "موطأ مالک کی حدیث نمبر 623، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 623 (book 17 hadith 46); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/muwatta-malik, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

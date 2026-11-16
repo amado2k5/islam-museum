@@ -1,0 +1,16 @@
+id: passage/abudawud-api-3150
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "3150"
+label: { ar: "سنن أبي داود 3150 — الأب والأبوة", en: "Sunan Abi Dawud 3150 — the father and fatherhood", ur: "سنن ابی داؤد 3150 — باپ اور والدیت" }
+text: "حَدَّثَنَا الْحَسَنُ بْنُ الصَّبَّاحِ الْبَزَّارُ، حَدَّثَنَا إِسْمَاعِيلُ، - يَعْنِي ابْنَ عَبْدِ الْكَرِيمِ - حَدَّثَنِي إِبْرَاهِيمُ بْنُ عَقِيلِ بْنِ مَعْقِلٍ، عَنْ أَبِيهِ، عَنْ وَهْبٍ، - يَعْنِي ابْنَ مُنَبِّهٍ - عَنْ جَابِرٍ، قَالَ سَمِعْتُ رَسُولَ اللَّهِ يَقُولُ \" إِذَا تُوُفِّيَ أَحَدُكُمْ فَوَجَدَ شَيْئًا فَلْيُكَفَّنْ فِي ثَوْبٍ حِبَرَةٍ \"."
+summary:
+  ar: "حديث في سنن أبي داود، رقم 3150، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan Abi Dawud, no. 3150 (Funerals (Kitab Al-Jana'iz)), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "سنن ابی داؤد کی حدیث نمبر 3150، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 3150 (book 21 hadith 62); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }
