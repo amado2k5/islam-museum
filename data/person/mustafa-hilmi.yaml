@@ -17,6 +17,17 @@ periods: [period/modern-era]
 regions: [egypt-nile]
 story_roles:
   - { role: philosopher, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+occupations:
+  - job: job/philosopher
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'philosopher', Job Browser linking wave 47"
+    sources: [source/mawsuat-a3lam-ulama-adaba]
+  - job: job/alim
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 47"
+    sources: [source/mawsuat-a3lam-ulama-adaba]
 relations:
   - { type: lived_in, target: place/misr, sources: [source/mawsuat-a3lam-ulama-adaba] }
 sources: [source/mawsuat-a3lam-ulama-adaba]

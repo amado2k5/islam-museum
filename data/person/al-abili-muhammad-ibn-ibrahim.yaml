@@ -28,5 +28,16 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch49
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 47"
+    sources: [source/mawsuat-a3lam-ulama-adaba]
+  - job: job/philosopher
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'philosopher', Job Browser linking wave 47"
+    sources: [source/mawsuat-a3lam-ulama-adaba]
 relations:
   - { type: lived_in, target: place/maghreb, note: "Place association from the person's nisba/name (مغربي); denotes association, not proven residence.", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }

@@ -13,6 +13,10 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v2.21.0 — 2026-11-17
+### Added
+- Job Browser linking wave 47: 38 `occupations:` edges on 25 person records — finishes the philosopher pool (al-Sharif al-Jurjani, Abd al-Rahman Badawi, Sati al-Husri) plus grammarian, mufti, alim, poet and historian links.
+
 ## v2.20.0 — 2026-11-17
 ### Added
 - Job Browser linking wave 46: 34 `occupations:` edges on 25 person records — nine philosophers (Ibn Tufayl, Ibn Bajja), eight muftis, eight grammarians, plus alim, poet and physician links.
