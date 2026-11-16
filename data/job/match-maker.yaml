@@ -1,0 +1,44 @@
+id: job/match-maker
+class: job
+label: { ar: "الفتيلجي ⁦(صانع الفتيل الناري)⁩", en: "Match-maker (fitilji)", ur: "فتیلجی ⁦(فتیتا ساز)⁩" }
+names:
+  - { value: "fitilci", kind: alternate, lang: tr }
+  - { value: "Fitiljian", kind: latinized, lang: tr }
+  - { value: "فتيلجي", kind: alternate }
+summary:
+  ar: "الفتيلجي يغزل فتيل البندقية الناري — الحبل البطيء الاحتراق الذي يُشعَل في قفل الفتيل لإطلاق البارود. في موكب إسطنبول عدّ إوليا صنّاع الفتيل ⁦(فتيلجيان)⁩ خمسين رجلاً بثلاثين دكاناً، بيرهم النبي — يقول إوليا لأنه أول من أحرق حبلاً على هيئة فتيل — وهم يمرّون يغزلون فتائل من سبعة خيوط قطنية؛ ويتبعهم رئيس صنّاع القِسيّ ورئيس البندقجية مع مشايخهم وكياهيهم وجاوشهم على الخيل العربية، ومعاونو رئيس البندقجية كلهم عسكريون، فالفتيل سلاح لا حلية. ويصف إلغود في فصل أسلحة بخارا البندقية ذات فتيل ⁦(ملتوق)⁩ ذات الشوكة الطويلة المعلّقة بالسبطانة لتكون مسنداً — وهي البندقية التي كان فتيلها يُقتَطع من مثل هؤلاء الصنّاع."
+  en: "The fitilji twisted the gunner's match — the slow-burning cord clamped in the matchlock's jaws to fire the powder. In Evliya's Istanbul procession the match-makers (Fitiljian) were fifty men in thirty shops; their patron is the Prophet — because, Evliya says, he first burned a rope in the shape of a match — and they pass twisting matches of seven cotton strings. They march among the arms-makers: after them come the head of the shaft-makers and the head of the gun-makers with their seniors, sheykhs, kyayas and chaushes on Arabian horses, and the gun-makers' assistants are all military men — the match was a munition, not an ornament. Elgood's account of Bukharan arms describes the matchlock (miltyk), its long fork attached to the barrel as a rest — the very gun whose burning cord was cut from cord such as these makers twisted."
+  ur: "فتیلجی توپچی کا فتیتا مروڑتا ہے — وہ آہستہ جلنے والی رسی جو فتیتہ دار بندوق کے چڑیا میں کس کر بارود جلاتی ہے۔ اولیاء کے استنبول کے جلوس میں فتیتا ساز ⁦(فتیلجیان)⁩ پچاس آدمی تیس دکانیں ہیں؛ اولیاء کے بقول ان کا پیر نبی ہے کیونکہ اسی نے پہلے رسی کو فتیتے کی شکل میں جلایا، اور وہ سات سوترے دھاگوں کے فتیتے مروڑتے نکلتے۔ انہی کے پیچھے ساختہ سازوں کے سردار اور بندوق سازوں کے سردار اپنے بزرگوں، شیخوں، قیّہوں اور چاوشوں کے ساتھ عرب گھوڑوں پر آتے، اور بندوق ساز سردار کے معاون سب فوجی ہیں — فتیتا اسلحہ ہے، زینت نہیں۔ ایلگڈ بخارا کے اسلحے میں فتیتہ دار بندوق ⁦(ملتوق)⁩ بتاتا ہے جس کے نال سے ایک لمبی کانٹا آرا چوکی لگی ہوتی — وہی بندوق جس کی جلتی رسی ایسے ہی دستکاروں کے مروڑے رسیوں سے کٹی جاتی۔"
+domain: war-command
+kind: craft
+hirfa: true
+era:
+  origins: early-modern
+  status_today: transformed
+places:
+  - { place: place/istanbul, note: "Evliya counts the match-makers (Fitiljian) at fifty men in thirty shops, passing in the arms-makers' procession twisting matches of seven cotton strings, ahead of the shaft-makers' and gun-makers' chiefs.", sources: [source/evliya-seyahatname-hammer] }
+regions: [anatolia-balkans, levant-iraq, persia-central-asia]
+organization:
+  organized: guild
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people, objects]
+periods: [period/gunpowder-empires, period/modern-era]
+sources: [source/evliya-seyahatname-hammer, source/elgood-islamic-arms-armour-1979]
+craft:
+  materials: [cotton, textile]
+  techniques:
+    ar: "الصنعة غزل الفتيل: سبعة خيوط قطنية تُفتَل حبلاً بطيء الاحتراق يُشعَل طرفه ويُثَبَّت في فكّ قفل الفتيل حتى يصل إلى مقبض البارود فيطلق النار. وعند إوليا يعرض الصنّاع غزلهم وهم يمرّون في الموكب بين صنّاع القِسيّ والبنادق."
+    en: "The craft is the twisting of the match: seven cotton strings laid into a slow-burning cord whose lit end is clamped in the jaws of the matchlock until it reaches the powder pan and fires. In Evliya the makers show their twisting as they pass in the procession between the shaft-makers and the gun-makers."
+    ur: "ہنر فتیتہ مروڑنا ہے: سات سوترے دھاگے ایسی آہستہ جلنے والی رسی میں لپیٹے جاتے جس کا دہکتا سرا فتیتہ دار قفل کے چڑیا میں کسا جاتا یہاں تک کہ بارود کے طشتری تک پہنچ کر فائر کرے۔ اولیاء میں دستکار جلوس میں چلتے ہوئے اپنی مروڑ دکھاتے، ساختہ سازوں اور بندوق سازوں کے درمیان۔"
+  guild:
+    bodies: []
+    shaykh_title: { ar: "شيخ طائفة الفتيلجية", en: "Sheykh of the match-makers' guild", ur: "طائفۃ فتیلجیوں کا شیخ" }
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-trades-5" }
+provenance:
+  layer: own-research
+  source: "Evliya (von Hammer) I,2 sec. 270 pp. 152-153 (the Fitiljian, fifty men in thirty shops, patron the Prophet who first burned a rope in the shape of a match, twisting matches of seven cotton strings); Elgood (ed.) 1979, Flindt 'Some nineteenth-century arms from Bukhara' p. 28 (the matchlock miltyk with its long fork attached to the barrel as a rest) — read on 16 Nov 2026 from the downloaded scans"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-trades-5-drafting"

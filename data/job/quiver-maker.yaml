@@ -1,0 +1,45 @@
+id: job/quiver-maker
+class: job
+label: { ar: "التركَشجي ⁦(صانع الجعبة)⁩", en: "Quiver-maker (tirkeşci)", ur: "ترکشجی ⁦(ترکش ساز)⁩" }
+names:
+  - { value: "tirkeşci", kind: alternate, lang: tr }
+  - { value: "Tirkeshjian", kind: latinized, lang: tr }
+  - { value: "gudelejci", kind: alternate, lang: tr }
+  - { value: "جعبة ساز", kind: alternate }
+summary:
+  ar: "التركَشجي يصنع الجُعبة التي تُحمَل فيها السهام. في موكب إسطنبول عدّ إوليا ثلاث طوائف متجاورة: صنّاع الجُعب ⁦(تركشجيان)⁩ ستون رجلاً بثلاثين دكاناً بيرهم طوختمش خان الجنكيزي وحمزة عمّ النبي الذي أُحزِم من يد النبي نفسه وقبره عند سفح أُحُد بالمدينة؛ وصنّاع الجُدلج ⁦(جودلجيان)⁩ وهي جعبة خاصة، اثنا عشر رجلاً بدكانين بيرهم تلميذ لحمزة مدفون بعينتاب؛ وصنّاع الجاب ⁦(جابجيان)⁩ ثلاثون رجلاً بعشر دكاكين كلهم أرناؤوط، والجاب كالجودلج غلاف للقوس والسهام. وهي صنعة سروجية في الأصل: جلد يُقطَع ويُخاط ويُشدّ ليحمل ثلاثين سهماً كما يذكر نيكول في عدة الفارس المملوكي — قوسان وثلاثون سهماً في جعبة جلدية وكيس فيه أوتار احتياطية — ويذكر إلغود أن صنّاع السلاح في كرمان كانوا يصوغون الجُعب وغيرها على النمط المحلي."
+  en: "The tirkeşci made the quiver that carries the arrows. In Evliya's Istanbul procession three neighbouring guilds march together: the quiver-makers (Tirkeshjian), sixty men in thirty shops, their patrons old Tokhtamish khan of the Jenguiz family and Hamza, the Prophet's uncle, who received the girdle from the Prophet himself and is buried at the foot of mount Ohod at Medina; the makers of a particular kind of quiver called Gudelej, twelve men in two shops, patronised by a disciple of Hamza buried at Aintab; and the workmen of the Jab, thirty men in ten shops, all Albanese — the jab, like the gudelej, a case for bow and arrows. It is a saddler's craft at root: leather cut, sewn and stiffened to carry thirty shafts, as Nicolle lists in the Mamluk horseman's kit — two bows, thirty arrows in a leather quiver, a pouch with spare strings — and Elgood records that the armourers of Kerman forged quivers and other weapons after the local fashion."
+  ur: "ترکشجی تیر رکھنے والا ترکش بناتا ہے۔ اولیاء کے استنبول کے جلوس میں تین ملتق طائفے ایک ساتھ چلتے: ترکش ساز ⁦(ترکشجیان)⁩ ساٹھ آدمی تیس دکانیں، پیر بوڑھا طوختمش خان چنگیزی خاندان سے اور عمِ نبی حمزہ جسے خود نبی نے کمر بند پہنایا اور مدینہ میں احد کے دامن میں دفن ہے؛ جدلج ساز ⁦(جودلجیان)⁩ — ایک خاص قسم کا ترکش — بارہ آدمی دو دکانیں، پیر حمزہ کا ایک شاگرد جو عینتاب میں دفن؛ اور جاب بنانے والے ⁦(جابجیان)⁩ تیس آدمی دس دکانیں سب البانی — جاب بھی جدلج کی طرح کمان اور تیر کا غلاف ہے۔ بنیاد میں یہی سراج کا ہنر ہے: چمڑا کاٹ کر سلائی اور سخت کیا جاتا کہ تیس تیر سنوارے، جیسا نیکول مملوک سوار کے ساز میں گنواتا ہے — دو کمان، چمڑے کے ترکش میں تیس تیر، اور اضافی ڈوروں کی تھیلی — اور ایلگڈ روایت رکھتا ہے کہ کرمان کے اسلحہ ساز ترکش اور دوسرے ہتھیار مقامی روش پر بناتے تھے۔"
+domain: war-command
+kind: craft
+hirfa: true
+era:
+  origins: pre-islamic
+  status_today: transformed
+places:
+  - { place: place/istanbul, note: "Evliya counts three quiver guilds in the saddlers' procession: the Tirkeshjian at sixty men in thirty shops, the Gudelejjian at twelve men in two shops, and the Jabjian, thirty Albanese men in ten shops.", sources: [source/evliya-seyahatname-hammer] }
+regions: [anatolia-balkans, levant-iraq, persia-central-asia, arabia]
+organization:
+  organized: guild
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people, objects]
+periods: [period/prophetic-era, period/crusades-ayyubid-mamluk, period/gunpowder-empires]
+sources: [source/evliya-seyahatname-hammer, source/elgood-islamic-arms-armour-1979]
+craft:
+  materials: [leather]
+  techniques:
+    ar: "الصنعة من صنائع السروج: جلد يُقطَع على قياس السهام ويُخاط ويُكوَّن ويُشدّ في صندوق أو غلاف يعلّق بالركب أو المنطقة، وأصنافه عند إسطنبول ثلاثة: التركش العام، والجُدلج، والجاب غلاف القوس والسهام معاً. وفي عدة الفارس التي يعدّدها نيكول جعبة جلدية فيها ثلاثون سهماً وكيس للأوتار الاحتياطية."
+    en: "The craft is a saddler's work: leather cut to the arrows' measure, sewn, shaped and stiffened into a case hung at the saddle or the belt. Istanbul knew three kinds — the common tirkeş quiver, the gudelej, and the jab, a combined case for bow and arrows together. In the horseman's kit Nicolle enumerates, the leather quiver holds thirty arrows beside a pouch of spare strings."
+    ur: "ہنر سراج کا کام ہے: چمڑا تیروں کے ناپ سے کاٹا، سلائی، ڈھالا اور سخت کیا جاتا کہ زین یا کمر بند سے لٹکنے والا غلاف بنے۔ استنبول میں تین اقسام — عام ترکش، جدلج، اور جاب جو کمان اور تیر دونوں کا غلاف ہے۔ نیکول کے گنوائے سوار کے ساز میں چمڑے کا ترکش تیس تیر اور اضافی ڈوروں کی تھیلی کے ساتھ رکھتا ہے۔"
+  guild:
+    bodies: []
+    shaykh_title: { ar: "شيخ طائفة التركشجية", en: "Sheykh of the quiver-makers' guild", ur: "طائفۃ ترکشجیوں کا شیخ" }
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-trades-5" }
+provenance:
+  layer: own-research
+  source: "Evliya (von Hammer) I,2 secs. 392-394 pp. 207-208 (the Tirkeshjian quiver-makers, sixty men in thirty shops, patrons Tokhtamish khan and Hamza; the Gudelejjian, twelve men in two shops; the Jabjian, thirty Albanese men in ten shops); Elgood (ed.) 1979, Nicolle 'An introduction to arms and warfare in classical Islam' p. 162 (the Mamluk horseman's kit: thirty arrows in a leather quiver and a pouch with spare strings) and p. 210 (the armourers of Kerman forging quivers after the local fashion) — read on 16 Nov 2026 from the downloaded scans"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-trades-5-drafting"

@@ -13,6 +13,10 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v1.71.0 — 2026-11-16
+### Added
+- Job Browser: six more trades — the public weigher (qabbānī/kantarjī), the sail-maker (yelkencī), the bow-ring maker (zehgīrjī), the shagreen-maker (saghrījī), the match-maker (fiṭiljī) and the quiver-maker (tirkeşjī) — in Arabic, English and Urdu draft cited to Evliya Çelebi, Ibn al-Ukhuwwa, al-Shayzari, Chalcraft, Kunz's Book of the Pearl and Elgood's Islamic Arms and Armour.
+
 ## v1.70.0 — 2026-11-16
 ### Added
 - Job Browser: six more market and craft trades — the fan-maker (mirwaḥī), the bird-seller (kushbāz), the horse-dealer (janbāzān-i esb), the coffee-merchant (kahveci), the rose-water-seller (gulābjī) and the henna-seller (kinnājī) — in Arabic, English and Urdu draft cited to Evliya Çelebi's guild procession, al-Shayzari, Ibn al-Ukhuwwa and Lane.
