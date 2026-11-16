@@ -1,0 +1,34 @@
+id: person/gus-iqdam
+class: person
+names:
+  - { kind: full, value: "Agus Muhammad Iqdam Kholid" }
+  - { kind: alternate, value: "Muhammad Iqdam Kholid" }
+  - { kind: alternate, value: "Gus Iqdam" }
+label: { ar: "غوس إقدام", en: "Gus Iqdam", ur: "گس اقدام" }
+summary:
+  ar: "داعية إندونيسي شاب من بليتار بجاوة الشرقية، وُلد في 27 سبتمبر 1994، وهو مشرف معهد مامباول هيكام الثاني ومؤسس مجلس تعليم سبيل التوبة سنة 2018، الذي نما من سبعة أعضاء إلى 66,000. يخاطب الشباب والفئات المهمشة بلغة جاوية غير رسمية يغلب عليها المزاح، وبلغت قناته على يوتيوب 1,720,000 مشترك و231,969,719 مشاهدة و1,404 مقاطع بحسب vidIQ كما في 15 نوفمبر 2026."
+  en: "Young Indonesian preacher from Blitar, East Java, born on 27 September 1994; he is a caretaker of the Mamba'ul Hikam II pesantren and the founder, in 2018, of the Sabilu Taubah study assembly, which grew from seven members to 66,000. He addresses young people and marginalised groups in an informal, humour-led Javanese register; his YouTube channel counted 1,720,000 subscribers, 231,969,719 views and 1,404 videos as read by vidIQ on 15 November 2026."
+  ur: "مشرقی جاوا کے بلیٹار سے تعلق رکھنے والے نوجوان انڈونیشی مبلغ، جو 27 ستمبر 1994ء کو پیدا ہوئے؛ وہ مامباؤل حکام دوم مدرسے کے نگران ہیں اور 2018ء میں قائم کردہ مجلسِ تعلیم سبیل التوبہ کے بانی ہیں، جو سات اراکین سے بڑھ کر 66,000 تک پہنچی۔ وہ نوجوانوں اور پسماندہ طبقات سے غیر رسمی، مزاح سے بھرپور جاوی زبان میں خطاب کرتے ہیں؛ 15 نومبر 2026ء کی vidIQ قرأت کے مطابق ان کے یوٹیوب چینل کے سبسکرائبر 1,720,000، ویوز 231,969,719 اور ویڈیوز 1,404 تھیں۔"
+gender: male
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Academic prose places Gus Iqdam in the Nahdlatul Ulama community: the Al-Hikmah journal article calls him a young preacher and leader within the NU community and his assembly popular among Nahdliyin, and a UIN Antasari thesis calls him NU-affiliated. That is organisational affiliation and milieu, not an attestation of a school of law or theology for the man himself, and his pesantren family background never counts under this lane's rules. No source read names a school for him, so under the two-source rule his school stays unknown."
+    sources: [source/alhikmah-gus-iqdam-2024, source/uinsa-proceedings-gus-iqdam-2025]
+roles: [preacher]
+wings: [people, living]
+born:
+  edtf: "1994-09-27"
+  calendar: gregorian
+  precision: day
+  note: "Date and place (Blitar, East Java) from the ICONDAC proceedings paper and the Al-Hikmah and Al-Jamahiria journal articles; one UIN Antasari thesis gives 7 September 1994 instead — the 27 September date is the one the journal literature and the Indonesian Wikipedia lead agree on, and the variant is recorded here rather than silently dropped. No place record for Blitar exists in the tree, so no born_in relation is recorded."
+  sources: [source/uinsa-proceedings-gus-iqdam-2025, source/alhikmah-gus-iqdam-2024]
+reach:
+  - { platform: youtube, metric: subscribers, value: 1720000, date: "2026-11-15", note: "Gus Iqdam Official (@gusiqdamofficial1024), started 1 April 2020: 1,720,000 subscribers, 231,969,719 views and 1,404 videos as read by vidIQ on 15 November 2026, with daily-view figures still rising. The figure is a dated platform count, not a museum-verified fact", sources: [source/vidiq-gus-iqdam, source/youtube-gus-iqdam-official] }
+sources: [source/uinsa-proceedings-gus-iqdam-2025, source/alhikmah-gus-iqdam-2024, source/youtube-gus-iqdam-official, source/vidiq-gus-iqdam]
+provenance:
+  layer: own-research
+  source: "Built from the wave-200 (Indonesian/Malay scene) harvest §2.3 (researched 15 November 2026) and this build's own reads of the same date: two peer-reviewed Indonesian journal sources (the ICONDAC 2025 proceedings paper on his rhetoric and the Jurnal Al-Hikmah 2024 article on his Sabilu Taubah preaching, both read on 15 November 2026), his own channel and its vidIQ statistics page. An Indonesian Wikipedia article 'Gus Iqdam' existed at a revision of 15 August 2023 (oldid 24019931) and is cited by later academic journals, whose lead text they mirror; the article itself could not be re-read in this build's session, so no fact in this record rests on it and no Wikipedia source entity is registered — if a later pass re-reads it, the entity can be registered then. No Arabic or English article and no Wikidata item was found in this build's checks. Qualification rests on his YouTube channel Gus Iqdam Official (@gusiqdamofficial1024): 1,720,000 subscribers, 231,969,719 views and 1,404 videos as read by vidIQ on 15 November 2026 — a dated platform figure above the men's bar. The assembly's growth figure (seven members at its 2018 founding to 66,000) is the proceedings paper's, resting on its fieldwork and on Musthofa (2023) as cited in the Al-Jamahiria article. His full name is given as Agus Muhammad Iqdam Kholid in the harvest and the proceedings paper; some profiles shorten it to Muhammad Iqdam Kholid, which is recorded as an alternate. The harvest's adjacency screen was run on him and is documented in the wave-200 harvest file: no designated-organisation tie found. De-duplicated against the tree: no gus-iqdam record existed."
+  generated_by: "Muse (Muse Wonder)"
+  run: "modern-figures-wave-200-A"
+status: { review: published, completeness: 2 }

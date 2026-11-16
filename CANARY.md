@@ -16,6 +16,7 @@ open a new block on top with the new version and today's date.
 ## v1.41.0 — 2026-11-16
 ### Added
 - One more Inventions Browser record, with Arabic, English and Urdu prose: Ibn Juljul's Tabaqat al-Atibba — the earliest surviving biographical dictionary of physicians (Cordoba, c. 987 CE); plus work records for the Tabaqat and al-Khazini's Mizan al-Hikma, and person/ibn-juljul.
+- Four Indonesian teachers and preachers join the modern-figures collection, each with Arabic, English and Urdu prose and its sources showing: Muhammad Nuzul Dzikri, the Qur'an reciter Muzammil Hasballah, Gus Iqdam of Blitar, and Oemar Mita — the first pass over the Indonesian and Malay scene (wave 200, section A).
 
 ## v1.40.0 — 2026-11-16
 ### Added
