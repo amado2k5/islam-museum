@@ -1,0 +1,43 @@
+id: job/sufi-shaykh
+class: job
+label: { ar: "شيخ التصوف", en: "Sufi shaykh (murshid, guide of the path)", ur: "صوفی شیخ" }
+names:
+  - { value: "مرشد", kind: alternate }
+  - { value: "پير", kind: alternate, lang: fa }
+  - { value: "شيخ التربية", kind: alternate }
+  - { value: "hâce", kind: latinized, lang: tr }
+  - { value: "ata", kind: latinized, lang: tr }
+  - { value: "baba", kind: latinized, lang: tr }
+  - { value: "dede-baba", kind: latinized, lang: tr }
+summary:
+  ar: "شيخ التصوف هو المرشد الذي يربّي المريدين على طريق الطريقة؛ اكتسب اللقب معناه الصوفي من منتصف القرن الرابع الهجري في مؤلّفات السرّاج والكلاباذي والسلمي. الشيخ كامل المنهج يجمع الشريعة والطريقة والحقيقة، يربّي المريد بالتلقين والصحبة والنظر حتى يستوفي سيره، فيعطيه الإجازة ويلبسه خلافة الإرشاد ثم يصير خليفته حاملاً الطريقة من بعده؛ وتسمّيه الأمصار خواجه وأتا وإيشان وبابا ودده بابا."
+  en: "The Sufi shaykh is the murshid who trains murids on the order's path; the title took on its Sufi sense from the middle of the fourth century AH in the works of al-Sarraj, al-Kalabadhi and al-Sulami. The complete shaykh joins shari'a, tariqa and haqiqa, trains the murid by instruction, companionship and gaze until his suluk is finished, then grants him the ijaza and the cloak of guidance and he becomes his khalifa carrying the order after him; the regions name him hoca, ata, ishan, baba and dede-baba."
+  ur: "صوفی شیخ وہ مرشد ہے جو مریدوں کو سلسلے کے راستے پر تربیت دیتا ہے؛ یہ لقب چوتھی صدی ہجری کے وسط سے سراج، کلاباذی اور سلمی کی تصانیف میں صوفیانہ مفہوم پانے لگا۔ مکمل شیخ شریعت، طریقت اور حقیقت کو جمع کرتا ہے، مرید کی تلقین، صحبت اور نظر سے تربیت کرتا ہے، اور پورا ہونے پر اجازت اور خلافت کی کھڑقا دے کر اپنا خلیفہ بناتا ہے؛ علاقوں میں اسے خواجہ، آتا، ایشان، بابا اور ددہ بابا کہا جاتا ہے۔"
+domain: faith-preaching
+kind: religious
+hirfa: false
+era:
+  origins: classical
+  status_today: living
+places:
+  - { place: place/baghdad, note: "The Sufi sense of 'shaykh' spread from the mid-fourth century AH in the classical manuals: al-Sarraj's Luma' calls the early masters — Bishr al-Hafi, Dhu'l-Nun, Junayd of Baghdad, Shibli — al-mashayikh.", sources: [source/tdv-seyh-tasavvuf] }
+  - { place: place/konya, note: "Anatolian orders preferred Turkish names for the office — baba, dede-baba among the Bektashis — while the Naqshbandi order used hoca and the Yasawi line ata.", sources: [source/tdv-seyh-tasavvuf] }
+regions: [persia-central-asia, anatolia-balkans, levant-iraq, arabia, egypt-nile, maghreb, south-asia, southeast-asia, west-africa-sahel, andalus-europe, global]
+organization:
+  organized: association
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era, period/crusades-ayyubid-mamluk, period/mongol-post-mongol, period/gunpowder-empires, period/modern-era, period/contemporary-era]
+sources: [source/tdv-seyh-tasavvuf]
+training:
+  mode: ijaza-chain
+  certification: "The murid completes the suluk under his shaykh, then receives the ijaza of guidance and is invested with the khilafat or icazet cloak; only then is he his shaykh's khalifa, authorised to guide others within the silsile."
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-faith-1" }
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi, 'ŞEYH' tasavvuf section (Öngören, 2010), web edition read on 16 Nov 2026: the office of the murshid, kinds of shaykh, ijaza and investiture, feyz chain and regional names"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-faith-1-drafting"

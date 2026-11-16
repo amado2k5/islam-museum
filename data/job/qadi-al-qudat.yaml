@@ -1,0 +1,43 @@
+id: job/qadi-al-qudat
+class: job
+label: { ar: "قاضي القضاة", en: "Qadi al-qudat (chief judge)", ur: "قاضی القضاۃ" }
+names:
+  - { value: "قاضي الخليفة", kind: alternate }
+  - { value: "قاضي الممالك", kind: alternate }
+  - { value: "قاضي الآفاق", kind: alternate }
+  - { value: "القاضي الكبير", kind: alternate }
+  - { value: "قاضي الجماعة", kind: alternate }
+  - { value: "kādılkudât", kind: latinized, lang: tr }
+summary:
+  ar: "قاضي القضاة رأس الجهاز القضائي في الدول الإسلامية؛ نشأ المنصب في بغداد العباسية حين نصب هارون الرشيد أبا يوسف أوّل قاضي قضاة، وكان في البدء لقب شرف لقاضي العاصمة ثم غدا صاحبه الوالي الأعلى على قضاة الأمصار يعيّنهم نوّاباً له. شابهه في المغرب والأندلس قاضي الجماعة، واستمر في الفاطميين والأيوبيين والمماليك حتى صار عند المماليك قاضي قضاة لكل مذهب من المذاهب الأربعة، وقابله عند العثمانيين القاضي عسكر."
+  en: "The qadi al-qudat stood at the head of the Islamic judiciary; the office arose in Abbasid Baghdad when Harun al-Rashid made Abu Yusuf the first qadi al-qudat, at first an honourable title for the capital's judge, then the superior who appointed the provinces' qadis as his own deputies. Its Maghribi counterpart was the qadi al-jama'a; it ran on under the Fatimids, Ayyubids and Mamluks, where it became one chief judge for each of the four schools, and the Ottomans answered it with the kazasker."
+  ur: "قاضی القضاۃ اسلامی عدلیہ کا سربراہ تھا؛ یہ منصب عباسی بغداد میں پیدا ہوا جب ہارون الرشید نے ابو یوسف کو پہلا قاضی القضاۃ مقرر کیا، پہلے دارالخلافہ کے قاضی کا اعزازی لقب تھا پھر ایسا اعلٰی منصب جس کے نیچے صوبوں کے قاضی اس کے نائب بن کر تعینات ہوتے۔ مغرب اور اندلس میں اس کا ہم منصب قاضی الجماعہ تھا؛ یہ منصب فاطمی، ایوبی اور مملوک دور میں چلا جہاں چاروں مذاہب کے لیے الگ قاضی القضاۃ بن گیا، اور عثمانیوں میں اس کا جواب قاضی عسکر تھا۔"
+domain: governance-law
+kind: office
+hirfa: false
+era:
+  origins: classical
+  status_today: transformed
+places:
+  - { place: place/baghdad, note: "The office was founded in Baghdad: Harun al-Rashid appointed Abu Yusuf the first qadi al-qudat, and later chiefs like Abu'l-Bakhtari dismissed provincial qadis, as when he removed the qadi of Egypt in 184/800 on the caliph's instruction.", sources: [source/tdv-kadilkudat] }
+  - { place: place/cairo, note: "The Mamluks appointed a qadi al-qudat for each of the four schools, the Shafi'i taking precedence; in 678/1280 the Shafi'i chief received the right to name all Egypt's qadis, and the new chief's deed was read from the minbar of the capital's mosque.", sources: [source/tdv-kadilkudat] }
+  - { place: place/cordoba, note: "In al-Andalus, the Maghrib and the realms that followed them the title was qadi al-jama'a, the chief judge of the capital, older there than the eastern qadi al-qudat.", sources: [source/tdv-kadilkudat] }
+regions: [levant-iraq, egypt-nile, maghreb, andalus-europe, persia-central-asia, anatolia-balkans, arabia]
+organization:
+  organized: court-office
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people]
+periods: [period/abbasid-early, period/buyid-seljuk-fatimid-era, period/crusades-ayyubid-mamluk, period/mongol-post-mongol, period/gunpowder-empires]
+sources: [source/tdv-kadilkudat]
+training:
+  mode: state-licence
+  certification: "Appointed by the caliph or sultan; the requirements of the qadi applied to him unchanged, and the Mamluk accession was sealed by a public reading of the appointment deed from the minbar of the capital's mosque before the qadis."
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-faith-1" }
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi, 'KĀDILKUDÂT' (Özen, 2001), web edition read on 16 Nov 2026: Abu Yusuf's appointment, growth of the office, qadi al-jama'a, the four-school Mamluk system, the kazasker comparison"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-faith-1-drafting"
