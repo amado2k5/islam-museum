@@ -1,0 +1,76 @@
+id: person/ibn-sayyar-al-warraq
+class: person
+label:
+  ar: ابن سيار الوراق
+  en: Ibn Sayyar al-Warraq
+  ur: ابن سیار وراق
+names:
+- value: أبو محمد المظفر بن نصر بن سيار الوراق
+  kind: full
+  lang: ar
+- value: Abu Muhammad al-Muzaffar ibn Nasr ibn Sayyar al-Warraq
+  kind: full
+  lang: en
+- value: Ibn Sayyar
+  kind: alternate
+  lang: en
+gender: male
+roles:
+- writer
+summary:
+  ar: 'كاتب عراقي من بغداد القرن العاشر، جامع «كتاب الطبيخ» — أقدم
+    كتاب طبخ عربي باقٍ بأكثر من 600 وصفة في 132 باباً — ويُظن أنه
+    أعدّه لبلاط الحمداني سيف الدولة بحلب {cite:wikipedia-ibn-sayyar-en}
+    {cite:wikipedia-kitab-al-tabikh-en}.'
+  en: 'An Iraqi author of tenth-century Baghdad, compiler of the
+    Kitab al-Tabikh — the earliest surviving Arabic cookbook with
+    more than 600 recipes in 132 chapters — which may have been
+    prepared for the court of the Hamdanid Sayf al-Dawla at Aleppo
+    {cite:wikipedia-ibn-sayyar-en} {cite:wikipedia-kitab-al-tabikh-en}.'
+  ur: 'دسویں صدی کا بغدادی عراقی مصنف، کتاب الطبیخ کا مرتب — سب سے
+    قدیم بچی عربی کتابِ طبخ جس میں 132 بابوں میں چھ سو سے زائد
+    ترکیبیں — جو ممکن ہے حمدانی سید الدولہ کے حلبی دربار کے لیے
+    تیار ہوئی {cite:wikipedia-ibn-sayyar-en}
+    {cite:wikipedia-kitab-al-tabikh-en}۔'
+faith:
+- value: sunni
+  basis: tradition
+  note: 'A documented tenth-century Baghdadi compiler of an Abbasid
+    court cookbook; Sunni is the museum''s default frame for the
+    documented Muslim author of the caliphate''s kitchens, not a
+    school declaration, and no contrary tradition is attested in
+    the recorded revisions read.'
+  sources:
+  - source/wikipedia-ibn-sayyar-en
+wings:
+- people
+regions:
+- levant-iraq
+periods:
+- period/buyid-seljuk-fatimid-era
+inventions:
+- invention: invention/recipe-book-genre-ibn-sayyar
+  role: describer
+  note: 'Compiler of the earliest surviving Arabic cookbook; a
+    describer and preserver of the Abbasid kitchen tradition, not
+    claimed inventor of cookery.'
+  sources:
+  - source/wikipedia-kitab-al-tabikh-en
+  - source/wikipedia-ibn-sayyar-en
+sources:
+- source/wikipedia-ibn-sayyar-en
+- source/wikipedia-kitab-al-tabikh-en
+status:
+  review: published
+  completeness: 2
+provenance:
+  layer: own-research
+  generated_by: devin-drafter-w2-32
+  model: devin
+  run: inventions-w2-32
+  source: 'English Wikipedia "Ibn Sayyar al-Warraq" revision
+    1383559119 and "Kitāb al-Ṭabīkh (10th-century cookbook)"
+    revision 1383039212 (entity facts only): full name, Iraqi
+    author of Baghdad, 600+ recipes in 132 chapters, earliest
+    Arabic cookbook, Oehrnberg-Mroueh 1987 edition and Nasrallah
+    2007 translation.'
