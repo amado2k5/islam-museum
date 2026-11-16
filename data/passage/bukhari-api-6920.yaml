@@ -1,0 +1,16 @@
+id: passage/bukhari-api-6920
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "6920"
+label: { ar: "صحيح البخاري 6920 — بر الوالدين أو عقوقهما", en: "Sahih al-Bukhari 6920 — dutifulness to the parents or disobedience to them", ur: "صحیح بخاری 6920 — والدین کے ساتھ نیکی یا نافرمانی" }
+text: "… الشَّعْبِيِّ، عَنْ عَبْدِ اللَّهِ بْنِ عَمْرٍوما ـ قَالَ جَاءَ أَعْرَابِيٌّ إِلَى النَّبِيِّ فَقَالَ يَا رَسُولَ اللَّهِ مَا الْكَبَائِرُ قَالَ \" الإِشْرَاكُ بِاللَّهِ \". قَالَ ثُمَّ مَاذَا قَالَ \" ثُمَّ عُقُوقُ الْوَالِدَيْنِ \". قَالَ ثُمَّ مَاذَا قَالَ \" الْيَمِينُ الْغَمُوسُ \". قُلْتُ وَمَا الْيَمِينُ الْغَمُوسُ قَالَ \" الَّذِي يَقْتَطِعُ مَالَ امْرِئٍ مُسْلِمٍ هُوَ فِيهَا كَاذِبٌ \"."
+summary:
+  ar: "حديث في صحيح البخاري، رقم 6920، يذكر بر الوالدين أو عقوقهما. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sahih al-Bukhari, no. 6920 (Apostates), that mentions dutifulness to the parents or disobedience to them. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "صحیح بخاری کی حدیث نمبر 6920، جس میں والدین کے ساتھ نیکی یا نافرمانی کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 6920 (book 88 hadith 3); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

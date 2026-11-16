@@ -1,0 +1,16 @@
+id: passage/muslim-api-4388
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "4388"
+label: { ar: "صحيح مسلم 4388 — الأب والأبوة", en: "Sahih Muslim 4388 — the father and fatherhood", ur: "صحیح مسلم 4388 — باپ اور والدیت" }
+text: "… مُحَمَّدُ بْنُ حَاتِمٍ، حَدَّثَنَا سَعِيدُ بْنُ سُلَيْمَانَ، حَدَّثَنَا هُشَيْمٌ، أَخْبَرَنَا إِسْمَاعِيلُ، بْنُ سَالِمٍ عَنْ عَلْقَمَةَ بْنِ وَائِلٍ، عَنْ أَبِيهِ، قَالَ أُتِيَ رَسُولُ اللَّهِ بِرَجُلٍ قَتَلَ رَجُلاً فَأَقَادَ وَلِيَّ الْمَقْتُولِ مِنْهُ فَانْطَلَقَ بِهِ وَفِي عُنُقِهِ نِسْعَةٌ يَجُرُّهَا فَلَمَّا أَدْبَرَ قَالَ رَسُولُ اللَّهِ \" الْقَاتِلُ وَالْمَقْتُولُ فِي النَّارِ \". فَأَتَى رَجُلٌ الرَّجُلَ فَقَالَ لَهُ مَقَالَةَ رَسُولِ اللَّهِ …"
+summary:
+  ar: "حديث في صحيح مسلم، رقم 4388، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sahih Muslim, no. 4388 (The Book of Oaths, Muharibin, Qasas (Retaliation), and Diyat (Blood Money)), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "صحیح مسلم کی حدیث نمبر 4388، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 4388 (book 28 hadith 47); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

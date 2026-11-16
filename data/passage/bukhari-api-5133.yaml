@@ -1,0 +1,16 @@
+id: passage/bukhari-api-5133
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "5133"
+label: { ar: "صحيح البخاري 5133 — الأب والأبوة", en: "Sahih al-Bukhari 5133 — the father and fatherhood", ur: "صحیح بخاری 5133 — باپ اور والدیت" }
+text: "حَدَّثَنَا مُحَمَّدُ بْنُ يُوسُفَ، حَدَّثَنَا سُفْيَانُ، عَنْ هِشَامٍ، عَنْ أَبِيهِ، عَنْ عَائِشَةَا ـ أَنَّ النَّبِيَّ تَزَوَّجَهَا وَهْىَ بِنْتُ سِتِّ سِنِينَ، وَأُدْخِلَتْ عَلَيْهِ وَهْىَ بِنْتُ تِسْعٍ، وَمَكَثَتْ عِنْدَهُ تِسْعًا."
+summary:
+  ar: "حديث في صحيح البخاري، رقم 5133، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sahih al-Bukhari, no. 5133 (Wedlock, Marriage (Nikaah)), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "صحیح بخاری کی حدیث نمبر 5133، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 5133 (book 67 hadith 69); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

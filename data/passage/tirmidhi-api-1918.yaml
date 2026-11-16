@@ -3,18 +3,17 @@ class: passage
 unit: hadith
 work: work/jami-al-tirmidhi
 ref: "1918"
-label: { ar: "جامع الترمذي 1918 — أنا وكافل اليتيم", en: "Jami' al-Tirmidhi 1918 — I and the orphan's sponsor, like these two", ur: "جامع ترمذی 1918 — میں اور یتیم کا کفیل جنت میں یوں" }
-text: "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ عِمْرَانَ أَبُو الْقَاسِمِ الْمَكِّيُّ الْقُرَشِيُّ، حَدَّثَنَا عَبْدُ الْعَزِيزِ بْنُ أَبِي حَازِمٍ، عَنْ أَبِيهِ، عَنْ سَهْلِ بْنِ سَعْدٍ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏ \"‏ أَنَا وَكَافِلُ الْيَتِيمِ فِي الْجَنَّةِ كَهَاتَيْنِ ‏\"‏ ‏.‏ وَأَشَارَ بِأُصْبُعَيْهِ يَعْنِي السَّبَّابَةَ وَالْوُسْطَى ‏.‏ قَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ صَحِيحٌ ‏.‏"
+label: { ar: "جامع الترمذي 1918 — الأب والأبوة، اليتيم وفقد الأب", en: "Jami' al-Tirmidhi 1918 — the father and fatherhood; the orphan and the father lost", ur: "جامع ترمذی 1918 — باپ اور والدیت، یتیم اور باپ کی موت" }
+text: "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ عِمْرَانَ أَبُو الْقَاسِمِ الْمَكِّيُّ الْقُرَشِيُّ، حَدَّثَنَا عَبْدُ الْعَزِيزِ بْنُ أَبِي حَازِمٍ، عَنْ أَبِيهِ، عَنْ سَهْلِ بْنِ سَعْدٍ، قَالَ قَالَ رَسُولُ اللَّهِ \" أَنَا وَكَافِلُ الْيَتِيمِ فِي الْجَنَّةِ كَهَاتَيْنِ \". وَأَشَارَ بِأُصْبُعَيْهِ يَعْنِي السَّبَّابَةَ وَالْوُسْطَى. قَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ صَحِيحٌ."
 summary:
-  ar: "قال: أنا وكافل اليتيم في الجنة كهاتين وأشار بأصبعيه السبابة والوسطى."
-  en: "«I and the orphan's sponsor in Paradise are like these two« — and he joined his forefinger and middle finger."
-  ur: "«میں اور یتیم کا کفیل جنت میں اس طرح ہوں گے» — اور شہادت اور درمیانی انگلی سے اشارہ کیا۔"
+  ar: "حديث في جامع الترمذي، رقم 1918، يذكر الأب والأبوة، واليتيم وفقد الأب. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Jami' al-Tirmidhi, no. 1918 (Chapters on Righteousness And Maintaining Good Relations With Relatives), that mentions the father and fatherhood, the orphan and the father lost. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "جامع ترمذی کی حدیث نمبر 1918، جس میں باپ اور والدیت، یتیم اور باپ کی موت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
 relations:
-  - { type: part_of, target: passage/tirmidhi-kitab-27 }
+  - { type: mentions, target: concept/ubuwwa, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
   - { type: mentions, target: concept/yatim-fiqh, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
-  - { type: mentions, target: concept/bunuwwa, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
-  - { type: mentions, target: person/muhammad, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
-tags: [bunuwwa-browser]
-provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 1918 (book-section 27); full text as published", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "bunuwwa-enrich-1" }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 1918 (book 27 hadith 24); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
 sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the hadith-api Arabic edition; label and summary are the museum's own words" }
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }
+
+tags: [bunuwwa-browser]

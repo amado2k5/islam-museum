@@ -1,0 +1,16 @@
+id: passage/ibnmajah-api-56
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "56"
+label: { ar: "سنن ابن ماجه 56 — تربية الأب ووصيته", en: "Sunan Ibn Majah 56 — the father raising and counselling", ur: "سنن ابن ماجہ 56 — باپ کی تربیت اور نصیحت" }
+text: "حَدَّثَنَا سُوَيْدُ بْنُ سَعِيدٍ، حَدَّثَنَا ابْنُ أَبِي الرِّجَالِ، عَنْ عَبْدِ الرَّحْمَنِ بْنِ عَمْرٍو الأَوْزَاعِيِّ، عَنْ عَبْدَةَ بْنِ أَبِي لُبَابَةَ، عَنْ عَبْدِ اللَّهِ بْنِ عَمْرِو بْنِ الْعَاصِ، قَالَ سَمِعْتُ رَسُولَ اللَّهِ ـ يَقُولُ \" لَمْ يَزَلْ أَمْرُ بَنِي إِسْرَائِيلَ مُعْتَدِلاً حَتَّى نَشَأَ فِيهِمُ الْمُوَلَّدُونَ أَبْنَاءُ سَبَايَا الأُمَمِ فَقَالُوا بِالرَّأْىِ فَضَلُّوا وَأَضَلُّوا \"."
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 56، يذكر تربية الأب ووصيته. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan Ibn Majah, no. 56 (The Book of the Sunnah), that mentions the father raising and counselling. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 56، جس میں باپ کی تربیت اور نصیحت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 56 (book 0 hadith 56); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

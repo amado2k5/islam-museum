@@ -1,0 +1,16 @@
+id: passage/nasai-api-2100
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "2100"
+label: { ar: "سنن النسائي 2100 — الأب والأبوة", en: "Sunan al-Nasa'i 2100 — the father and fatherhood", ur: "سنن نسائی 2100 — باپ اور والدیت" }
+text: "أَخْبَرَنَا مُحَمَّدُ بْنُ خَالِدٍ، قَالَ حَدَّثَنَا بِشْرُ بْنُ شُعَيْبٍ، عَنْ أَبِيهِ، عَنِ الزُّهْرِيِّ، قَالَ حَدَّثَنِي ابْنُ أَبِي أَنَسٍ، مَوْلَى التَّيْمِيِّينَ أَنَّ أَبَاهُ، حَدَّثَهُ أَنَّهُ، سَمِعَ أَبَا هُرَيْرَةَ، يَقُولُ قَالَ رَسُولُ اللَّهِ \" إِذَا جَاءَ رَمَضَانُ فُتِّحَتْ أَبْوَابُ الرَّحْمَةِ وَغُلِّقَتْ أَبْوَابُ جَهَنَّمَ وَسُلْسِلَتِ الشَّيَاطِينُ \"."
+summary:
+  ar: "حديث في سنن النسائي، رقم 2100، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan al-Nasa'i, no. 2100 (The Book of Fasting), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "سنن نسائی کی حدیث نمبر 2100، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 2100 (book 22 hadith 11); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

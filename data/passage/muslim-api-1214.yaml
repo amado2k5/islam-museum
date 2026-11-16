@@ -1,0 +1,16 @@
+id: passage/muslim-api-1214
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "1214"
+label: { ar: "صحيح مسلم 1214 — الأب والأبوة، تربية الأب ووصيته", en: "Sahih Muslim 1214 — the father and fatherhood; the father raising and counselling", ur: "صحیح مسلم 1214 — باپ اور والدیت، باپ کی تربیت اور نصیحت" }
+text: "حَدَّثَنِي أَبُو الطَّاهِرِ، أَخْبَرَنَا ابْنُ وَهْبٍ، عَنْ مَخْرَمَةَ بْنِ بُكَيْرٍ، ح قَالَ وَحَدَّثَنَا هَارُونُ بْنُ سَعِيدٍ الأَيْلِيُّ، حَدَّثَنَا ابْنُ وَهْبٍ، أَخْبَرَنِي مَخْرَمَةُ، عَنْ أَبِيهِ، عَنْ عَمْرِو بْنِ سُلَيْمٍ الزُّرَقِيِّ، قَالَ سَمِعْتُ أَبَا قَتَادَةَ الأَنْصَارِيَّ، يَقُولُ رَأَيْتُ رَسُولَ اللَّهِ يُصَلِّي لِلنَّاسِ وَأُمَامَةُ بِنْتُ أَبِي الْعَاصِ عَلَى عُنُقِهِ فَإِذَا سَجَدَ وَضَعَهَا."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 1214، يذكر الأب والأبوة، وتربية الأب ووصيته. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sahih Muslim, no. 1214 (The Book of Mosques and Places of Prayer), that mentions the father and fatherhood, the father raising and counselling. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "صحیح مسلم کی حدیث نمبر 1214، جس میں باپ اور والدیت، باپ کی تربیت اور نصیحت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 1214 (book 5 hadith 54); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

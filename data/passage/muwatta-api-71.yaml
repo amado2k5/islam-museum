@@ -1,0 +1,16 @@
+id: passage/muwatta-api-71
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "71"
+label: { ar: "موطأ مالك 71 — الأب والأبوة", en: "Muwatta Malik 71 — the father and fatherhood", ur: "موطأ مالک 71 — باپ اور والدیت" }
+text: "حَدَّثَنِي يَحْيَى، عَنْ مَالِكٍ، عَنِ ابْنِ شِهَابٍ، عَنْ عَبَّادِ بْنِ زِيَادٍ، مِنْ وَلَدِ الْمُغِيرَةِ بْنِ شُعْبَةَ عَنْ أَبِيهِ، عَنِ الْمُغِيرَةِ بْنِ شُعْبَةَ، أَنَّ رَسُولَ اللَّهِ ذَهَبَ لِحَاجَتِهِ فِي غَزْوَةِ تَبُوكَ - قَالَ الْمُغِيرَةُ - فَذَهَبْتُ مَعَهُ بِمَاءٍ فَجَاءَ رَسُولُ اللَّهِ فَسَكَبْتُ عَلَيْهِ الْمَاءَ فَغَسَلَ وَجْهَهُ ثُمَّ ذَهَبَ يُخْرِجُ يَدَيْهِ مِنْ كُمَّىْ جُبَّتِهِ فَلَمْ يَسْتَطِعْ مِنْ …"
+summary:
+  ar: "حديث في موطأ مالك، رقم 71، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Muwatta Malik, no. 71 (Purity), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "موطأ مالک کی حدیث نمبر 71، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 71 (book 2 hadith 40); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/muwatta-malik, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

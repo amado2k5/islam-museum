@@ -1,0 +1,16 @@
+id: passage/bukhari-api-1358
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "1358"
+label: { ar: "صحيح البخاري 1358 — الأب والأبوة", en: "Sahih al-Bukhari 1358 — the father and fatherhood", ur: "صحیح بخاری 1358 — باپ اور والدیت" }
+text: "… عَلَى كُلِّ مَوْلُودٍ مُتَوَفًّى وَإِنْ كَانَ لِغَيَّةٍ، مِنْ أَجْلِ أَنَّهُ وُلِدَ عَلَى فِطْرَةِ الإِسْلاَمِ، يَدَّعِي أَبَوَاهُ الإِسْلاَمَ أَوْ أَبُوهُ خَاصَّةً، وَإِنْ كَانَتْ أُمُّهُ عَلَى غَيْرِ الإِسْلاَمِ، إِذَا اسْتَهَلَّ صَارِخًا صُلِّيَ عَلَيْهِ، وَلاَ يُصَلَّى عَلَى مَنْ لاَ يَسْتَهِلُّ مِنْ أَجْلِ أَنَّهُ سِقْطٌ، فَإِنَّ أَبَا هُرَيْرَةَ ـ كَانَ يُحَدِّثُ قَالَ النَّبِيُّ \" مَا مِنْ مَوْلُودٍ إِلاَّ يُولَدُ …"
+summary:
+  ar: "حديث في صحيح البخاري، رقم 1358، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sahih al-Bukhari, no. 1358 (Funerals (Al-Janaa'iz)), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "صحیح بخاری کی حدیث نمبر 1358، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 1358 (book 23 hadith 111); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

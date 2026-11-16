@@ -1,0 +1,16 @@
+id: passage/nasai-api-2640
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "2640"
+label: { ar: "سنن النسائي 2640 — الأب والأبوة", en: "Sunan al-Nasa'i 2640 — the father and fatherhood", ur: "سنن نسائی 2640 — باپ اور والدیت" }
+text: "… عَنْ يَحْيَى بْنِ أَبِي إِسْحَاقَ، عَنْ سُلَيْمَانَ بْنِ يَسَارٍ، عَنْ عَبْدِ اللَّهِ بْنِ عَبَّاسٍ، أَنَّ رَجُلاً، سَأَلَ النَّبِيَّ أَنَّ أَبِي أَدْرَكَهُ الْحَجُّ وَهُوَ شَيْخٌ كَبِيرٌ لاَ يَثْبُتُ عَلَى رَاحِلَتِهِ فَإِنْ شَدَدْتُهُ خَشِيتُ أَنْ يَمُوتَ أَفَأَحُجُّ عَنْهُ قَالَ \" أَرَأَيْتَ لَوْ كَانَ عَلَيْهِ دَيْنٌ فَقَضَيْتَهُ أَكَانَ مُجْزِئًا \". قَالَ نَعَمْ. قَالَ \" فَحُجَّ عَنْ أَبِيكَ \"."
+summary:
+  ar: "حديث في سنن النسائي، رقم 2640، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan al-Nasa'i, no. 2640 (The Book of Hajj), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "سنن نسائی کی حدیث نمبر 2640، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 2640 (book 24 hadith 22); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

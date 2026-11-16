@@ -1,0 +1,16 @@
+id: passage/ibnmajah-api-1227
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "1227"
+label: { ar: "سنن ابن ماجه 1227 — الأب والأبوة", en: "Sunan Ibn Majah 1227 — the father and fatherhood", ur: "سنن ابن ماجہ 1227 — باپ اور والدیت" }
+text: "حَدَّثَنَا أَبُو مَرْوَانَ الْعُثْمَانِيُّ، حَدَّثَنَا عَبْدُ الْعَزِيزِ بْنُ أَبِي حَازِمٍ، عَنْ هِشَامِ بْنِ عُرْوَةَ، عَنْ أَبِيهِ، عَنْ عَائِشَةَ، قَالَتْ مَا رَأَيْتُ رَسُولَ اللَّهِ ـ يُصَلِّي فِي شَىْءٍ مِنْ صَلاَةِ اللَّيْلِ إِلاَّ قَائِمًا حَتَّى دَخَلَ فِي السِّنِّ فَجَعَلَ يُصَلِّي جَالِسًا حَتَّى إِذَا بَقِيَ عَلَيْهِ مِنْ قِرَاءَتِهِ أَرْبَعُونَ آيَةً أَوْ ثَلاَثُونَ آيَةً قَامَ فَقَرَأَهَا وَسَجَدَ."
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 1227، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan Ibn Majah, no. 1227 (Establishing the Prayer and the Sunnah Regarding Them), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 1227، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 1227 (book 5 hadith 425); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

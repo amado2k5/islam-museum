@@ -1,0 +1,16 @@
+id: passage/ibnmajah-api-2797
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "2797"
+label: { ar: "سنن ابن ماجه 2797 — الأب والأبوة", en: "Sunan Ibn Majah 2797 — the father and fatherhood", ur: "سنن ابن ماجہ 2797 — باپ اور والدیت" }
+text: "حَدَّثَنَا حَرْمَلَةُ بْنُ يَحْيَى، وَأَحْمَدُ بْنُ عِيسَى الْمِصْرِيَّانِ، قَالاَ حَدَّثَنَا عَبْدُ اللَّهِ بْنُ وَهْبٍ، حَدَّثَنِي أَبُو شُرَيْحٍ عَبْدُ الرَّحْمَنِ بْنُ شُرَيْحٍ، أَنَّ سَهْلَ بْنَ أَبِي أُمَامَةَ بْنِ سَهْلِ بْنِ حُنَيْفٍ، حَدَّثَهُ عَنْ أَبِيهِ، عَنْ جَدِّهِ، أَنَّ النَّبِيَّ قَالَ \" مَنْ سَأَلَ اللَّهَ الشَّهَادَةَ بِصِدْقٍ مِنْ قَلْبِهِ بَلَّغَهُ اللَّهُ مَنَازِلَ الشُّهَدَاءِ وَإِنْ مَاتَ عَلَى فِرَاشِهِ \"."
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 2797، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan Ibn Majah, no. 2797 (The Chapters on Jihad), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 2797، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 2797 (book 24 hadith 45); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

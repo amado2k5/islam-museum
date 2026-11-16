@@ -1,0 +1,17 @@
+id: passage/ibnmajah-api-1236
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "1236"
+label: { ar: "سنن ابن ماجه 1236 — الأب والأبوة، اليتيم وفقد الأب", en: "Sunan Ibn Majah 1236 — the father and fatherhood; the orphan and the father lost", ur: "سنن ابن ماجہ 1236 — باپ اور والدیت، یتیم اور باپ کی موت" }
+text: "… حَدَّثَنَا ابْنُ أَبِي عَدِيٍّ، عَنْ حُمَيْدٍ، عَنْ بَكْرِ بْنِ عَبْدِ اللَّهِ، عَنْ حَمْزَةَ بْنِ الْمُغِيرَةِ بْنِ شُعْبَةَ، عَنْ أَبِيهِ، قَالَ تَخَلَّفَ رَسُولُ اللَّهِ ـ فَانْتَهَيْنَا إِلَى الْقَوْمِ وَقَدْ صَلَّى بِهِمْ عَبْدُ الرَّحْمَنِ بْنُ عَوْفٍ رَكْعَةً فَلَمَّا أَحَسَّ بِالنَّبِيِّ ـ ذَهَبَ يَتَأَخَّرُ فَأَوْمَأَ إِلَيْهِ النَّبِيُّ ـ أَنْ يُتِمَّ الصَّلاَةَ قَالَ \" وَقَدْ أَحْسَنْتَ كَذَلِكَ فَافْعَلْ \"."
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 1236، يذكر الأب والأبوة، واليتيم وفقد الأب. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan Ibn Majah, no. 1236 (Establishing the Prayer and the Sunnah Regarding Them), that mentions the father and fatherhood, the orphan and the father lost. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 1236، جس میں باپ اور والدیت، یتیم اور باپ کی موت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/yatim-fiqh, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 1236 (book 5 hadith 434); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

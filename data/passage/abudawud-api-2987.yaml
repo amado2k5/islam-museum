@@ -1,0 +1,16 @@
+id: passage/abudawud-api-2987
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "2987"
+label: { ar: "سنن أبي داود 2987 — اليتيم وفقد الأب", en: "Sunan Abi Dawud 2987 — the orphan and the father lost", ur: "سنن ابی داؤد 2987 — یتیم اور باپ کی موت" }
+text: "… اللَّهِ فَشَكَوْنَا إِلَيْهِ مَا نَحْنُ فِيهِ وَسَأَلْنَاهُ أَنْ يَأْمُرَ لَنَا بِشَىْءٍ مِنَ السَّبْىِ. فَقَالَ رَسُولُ اللَّهِ \" سَبَقَكُنَّ يَتَامَى بَدْرٍ لَكِنْ سَأَدُلُّكُنَّ عَلَى مَا هُوَ خَيْرٌ لَكُنَّ مِنْ ذَلِكَ تُكَبِّرْنَ اللَّهَ عَلَى أَثَرِ كُلِّ صَلاَةٍ ثَلاَثًا وَثَلاَثِينَ تَكْبِيرَةً وَثَلاَثًا وَثَلاَثِينَ تَسْبِيحَةً وَثَلاَثًا وَثَلاَثِينَ تَحْمِيدَةً وَلاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ لَهُ الْمُلْكُ وَلَهُ …"
+summary:
+  ar: "حديث في سنن أبي داود، رقم 2987، يذكر اليتيم وفقد الأب. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan Abi Dawud, no. 2987 (Tribute, Spoils, and Rulership (Kitab Al-Kharaj, Wal-Fai' Wal-Imarah)), that mentions the orphan and the father lost. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "سنن ابی داؤد کی حدیث نمبر 2987، جس میں یتیم اور باپ کی موت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/yatim-fiqh, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 2987 (book 20 hadith 60); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

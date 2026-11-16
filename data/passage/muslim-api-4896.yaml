@@ -1,0 +1,16 @@
+id: passage/muslim-api-4896
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "4896"
+label: { ar: "صحيح مسلم 4896 — الأب والأبوة", en: "Sahih Muslim 4896 — the father and fatherhood", ur: "صحیح مسلم 4896 — باپ اور والدیت" }
+text: "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ عَوْنٍ الْهِلاَلِيُّ، حَدَّثَنَا أَبُو إِسْحَاقَ الْفَزَارِيُّ، إِبْرَاهِيمُ بْنُ مُحَمَّدٍ عَنْ سُهَيْلِ بْنِ أَبِي صَالِحٍ، عَنْ أَبِيهِ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ \" لاَ يَجْتَمِعَانِ فِي النَّارِ اجْتِمَاعًا يَضُرُّ أَحَدُهُمَا الآخَرَ \". قِيلَ مَنْ هُمْ يَا رَسُولَ اللَّهِ قَالَ \" مُؤْمِنٌ قَتَلَ كَافِرًا ثُمَّ سَدَّدَ \"."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 4896، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sahih Muslim, no. 4896 (The Book on Government), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "صحیح مسلم کی حدیث نمبر 4896، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 4896 (book 33 hadith 192); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

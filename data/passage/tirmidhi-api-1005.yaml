@@ -1,0 +1,16 @@
+id: passage/tirmidhi-api-1005
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "1005"
+label: { ar: "جامع الترمذي 1005 — الأب والأبوة", en: "Jami' al-Tirmidhi 1005 — the father and fatherhood", ur: "جامع ترمذی 1005 — باپ اور والدیت" }
+text: "… فَانْطَلَقَ بِهِ إِلَى ابْنِهِ إِبْرَاهِيمَ فَوَجَدَهُ يَجُودُ بِنَفْسِهِ فَأَخَذَهُ النَّبِيُّ فَوَضَعَهُ فِي حِجْرِهِ فَبَكَى فَقَالَ لَهُ عَبْدُ الرَّحْمَنِ أَتَبْكِي أَوَلَمْ تَكُنْ نَهَيْتَ عَنِ الْبُكَاءِ قَالَ \" لاَ وَلَكِنْ نَهَيْتُ عَنْ صَوْتَيْنِ أَحْمَقَيْنِ فَاجِرَيْنِ صَوْتٍ عِنْدَ مُصِيبَةٍ خَمْشِ وُجُوهٍ وَشَقِّ جُيُوبٍ وَرَنَّةِ شَيْطَانٍ \". وَفِي الْحَدِيثِ كَلاَمٌ أَكْثَرُ مِنْ هَذَا. قَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ."
+summary:
+  ar: "حديث في جامع الترمذي، رقم 1005، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Jami' al-Tirmidhi, no. 1005 (The Book on Jana''iz (Funerals)), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "جامع ترمذی کی حدیث نمبر 1005، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 1005 (book 10 hadith 41); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), its only signal a father-context child word, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

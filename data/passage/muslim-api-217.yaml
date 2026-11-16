@@ -1,0 +1,17 @@
+id: passage/muslim-api-217
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "217"
+label: { ar: "صحيح مسلم 217 — الأب والأبوة، النسب والانتساب", en: "Sahih Muslim 217 — the father and fatherhood; paternity and lineage", ur: "صحیح مسلم 217 — باپ اور والدیت، نسب اور انتساب" }
+text: "… عَنِ ابْنِ بُرَيْدَةَ، عَنْ يَحْيَى بْنِ يَعْمَرَ، أَنَّ أَبَا الأَسْوَدِ، حَدَّثَهُ عَنْ أَبِي ذَرٍّ، أَنَّهُ سَمِعَ رَسُولَ اللَّهِ يَقُولُ \" لَيْسَ مِنْ رَجُلٍ ادَّعَى لِغَيْرِ أَبِيهِ وَهُوَ يَعْلَمُهُ إِلاَّ كَفَرَ وَمَنِ ادَّعَى مَا لَيْسَ لَهُ فَلَيْسَ مِنَّا وَلْيَتَبَوَّأْ مَقْعَدَهُ مِنَ النَّارِ وَمَنْ دَعَا رَجُلاً بِالْكُفْرِ أَوْ قَالَ عَدُوَّ اللَّهِ. وَلَيْسَ كَذَلِكَ إِلاَّ حَارَ عَلَيْهِ \"."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 217، يذكر الأب والأبوة، والنسب والانتساب. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sahih Muslim, no. 217 (The Book of Faith), that mentions the father and fatherhood, paternity and lineage. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "صحیح مسلم کی حدیث نمبر 217، جس میں باپ اور والدیت، نسب اور انتساب کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/intisab, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 217 (book 1 hadith 123); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

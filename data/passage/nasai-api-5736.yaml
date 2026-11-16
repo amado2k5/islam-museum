@@ -1,0 +1,16 @@
+id: passage/nasai-api-5736
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "5736"
+label: { ar: "سنن النسائي 5736 — الأب والأبوة", en: "Sunan al-Nasa'i 5736 — the father and fatherhood", ur: "سنن نسائی 5736 — باپ اور والدیت" }
+text: "أَخْبَرَنَا عِيسَى بْنُ مُحَمَّدٍ أَبُو عُمَيْرِ بْنُ النَّحَّاسِ، عَنْ ضَمْرَةَ، عَنِ الشَّيْبَانِيِّ، عَنِ ابْنِ الدَّيْلَمِيِّ، عَنْ أَبِيهِ، قَالَ قُلْنَا يَا رَسُولَ اللَّهِ إِنَّ لَنَا أَعْنَابًا فَمَاذَا نَصْنَعُ بِهَا قَالَ \" زَبِّبُوهَا \". قُلْنَا فَمَا نَصْنَعُ بِالزَّبِيبِ قَالَ \" انْبِذُوهُ عَلَى غَدَائِكُمْ وَاشْرَبُوهُ عَلَى عَشَائِكُمْ وَانْبِذُوهُ عَلَى عَشَائِكُمْ وَاشْرَبُوهُ عَلَى غَدَائِكُمْ وَانْبِذُوهُ فِي الشِّنَانِ وَلاَ تَنْبِذُوهُ …"
+summary:
+  ar: "حديث في سنن النسائي، رقم 5736، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan al-Nasa'i, no. 5736 (The Book of Drinks), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "سنن نسائی کی حدیث نمبر 5736، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 5736 (book 51 hadith 198); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

@@ -1,0 +1,16 @@
+id: passage/abudawud-api-2510
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "2510"
+label: { ar: "سنن أبي داود 2510 — الأب والأبوة", en: "Sunan Abi Dawud 2510 — the father and fatherhood", ur: "سنن ابی داؤد 2510 — باپ اور والدیت" }
+text: "… وَهْبٍ، أَخْبَرَنِي عَمْرُو بْنُ الْحَارِثِ، عَنْ يَزِيدَ بْنِ أَبِي حَبِيبٍ، عَنْ يَزِيدَ بْنِ أَبِي سَعِيدٍ، مَوْلَى الْمَهْرِيِّ عَنْ أَبِيهِ، عَنْ أَبِي سَعِيدٍ الْخُدْرِيِّ، : أَنَّ رَسُولَ اللَّهِ بَعَثَ إِلَى بَنِي لِحْيَانَ وَقَالَ : \" لِيَخْرُجْ مِنْ كُلِّ رَجُلَيْنِ رَجُلٌ \". ثُمَّ قَالَ لِلْقَاعِدِينَ : \" أَيُّكُمْ خَلَفَ الْخَارِجَ فِي أَهْلِهِ وَمَالِهِ بِخَيْرٍ كَانَ لَهُ مِثْلُ …"
+summary:
+  ar: "حديث في سنن أبي داود، رقم 2510، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan Abi Dawud, no. 2510 (Jihad (Kitab Al-Jihad)), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "سنن ابی داؤد کی حدیث نمبر 2510، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 2510 (book 15 hadith 34); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

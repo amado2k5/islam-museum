@@ -1,0 +1,16 @@
+id: passage/bukhari-api-3909
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "3909"
+label: { ar: "صحيح البخاري 3909 — الأب والأبوة", en: "Sahih al-Bukhari 3909 — the father and fatherhood", ur: "صحیح بخاری 3909 — باپ اور والدیت" }
+text: "حَدَّثَنِي زَكَرِيَّاءُ بْنُ يَحْيَى، عَنْ أَبِي أُسَامَةَ، عَنْ هِشَامِ بْنِ عُرْوَةَ، عَنْ أَبِيهِ، عَنْ أَسْمَاءَا ـ أَنَّهَا حَمَلَتْ بِعَبْدِ اللَّهِ بْنِ الزُّبَيْرِ، قَالَتْ فَخَرَجْتُ وَأَنَا مُتِمٌّ، فَأَتَيْتُ الْمَدِينَةَ، فَنَزَلْتُ بِقُبَاءٍ، فَوَلَدْتُهُ بِقُبَاءٍ، ثُمَّ أَتَيْتُ بِهِ النَّبِيَّ فَوَضَعْتُهُ فِي حَجْرِهِ، ثُمَّ دَعَا بِتَمْرَةٍ، فَمَضَغَهَا، ثُمَّ تَفَلَ فِي فِيهِ، فَكَانَ أَوَّلَ شَىْءٍ دَخَلَ جَوْفَهُ رِيقُ رَسُولِ اللَّهِ، …"
+summary:
+  ar: "حديث في صحيح البخاري، رقم 3909، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sahih al-Bukhari, no. 3909 (Merits of the Helpers in Madinah (Ansaar)), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "صحیح بخاری کی حدیث نمبر 3909، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 3909 (book 63 hadith 134); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

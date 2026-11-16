@@ -1780,6 +1780,18 @@ explore:
       title: "Family and Marriages Browser"
       desc: "The famous marriages in Islam, the Muslim family and its daily life — every mention of marriage, spouses and children, dwellings, livelihood and social customs in the Qur'an, the Sunnah, the seerah and every harvested book, with every verse and report cited."
       menu: "Browse marriages, families and daily life in the Qur'an and books"
+    ubuwwa:
+      title: "Fatherhood in Islam Browser"
+      desc: "Every mention of the father and fatherhood in Islam — the Qur'anic fathers and their counsel, dutifulness and disobedience to the parents, the Prophet as a father, paternity and lineage, and the orphan whose father is lost — in the Qur'an, the Sunnah, the seerah, Companion and Tabi'in reports and every harvested book, with every verse and report cited."
+      menu: "Browse the father and fatherhood in the Qur'an and books"
+    ukhuwwa:
+      title: "Brotherhood in Islam Browser"
+      desc: "Brotherhood and sisterhood in Islam — every mention of brothers and sisters in the faith, the mu'akhat of the Muhajirun and the Ansar, love for God's sake, altruism and aid, the rights a Muslim owes a Muslim and what breaks brotherhood — in the Qur'an, the Sunnah, the seerah and every harvested book, with every verse and report cited."
+      menu: "Browse brotherhood, mu'akhat and brothers' rights in the Qur'an and books"
+    umuma:
+      title: "Motherhood in Islam Browser"
+      desc: "Everything the sources mention about motherhood — the mother and her standing, pregnancy, childbirth, nursing, custody and raising children, and dutifulness to parents — in the Qur'an, Sunnah, seerah and every harvested book, each verse and report with its source."
+      menu: "Browse motherhood and mothers in the Qur'an and the books"
     bunuwwa:
       title: "Sonhood and Daughterhood in Islam Browser"
       desc: "Everything the sources mention about sons and daughters, offspring and the filial bond — in the Qur'an, the Sunnah, the seerah, the reports of the Companions and the Successors, and every harvested book: kindness to parents and its opposite, orphans and suckling, the rights of the child, and the named sons and daughters of the stories — with every verse and report cited."
@@ -4088,6 +4100,141 @@ usra:
     sources: "Sources:"
     note_label: "Note on the record:"
     and: "⇄"
+ubuwwa:
+  title: "Fatherhood in Islam Browser"
+  lede: "The father and fatherhood in the museum's sources: the fathers of the Qur'an — Ibrahim and his du'a, Ya'qub and Yusuf, Luqman's counsel to his son, Zakariyya's prayer, 'Imran's house — dutifulness to the parents (birr al-walidayn) and the warning of 'uquq, the Prophet as a father with his children and grandchildren, paternity and lineage (nasab), the fathers' testaments and raising of children, and the orphan whose father is lost — in the Qur'an, the two Sahihs, the Muwatta and the Sunan, the seerah books, the reports of the Companions and the Successors, and every harvested book — sourced records that grow as new texts land."
+  badge: Fatherhood explorer
+  status: "This build holds {n} records in {s} sections; the texts are drafts until a human reads them."
+  method_title: The browser's method
+  method_note: "Every record here is an ordinary museum record — with its sources and its three-language prose. Fatherhood mentions are found at build time by a guarded lexicon over the passage texts in five families: the father himself (أبوة، أبوه، أبيه، أبونا، آباء، والده، يا أبت), dutifulness and disobedience to the parents (بر الوالدين، بالوالدين إحساناً، عقوق، رضا الوالدين), raising and counsel (لقمان، يا بني، تربية، وصية أبيه، علموا أولادكم), paternity and lineage (نسب، انتساب، ادعاء، الولد للفراش), and the orphan (يتيم، يتامى، كفالة اليتيم). The ambiguous words are guarded: the kunya «أبو فلان» names a man and reports no fatherhood, so bare «أبو» never counts — only possessed, plural and vocative father forms; child vocabulary counts only beside a father word in the same window (God's «يا بني آدم» drops out); and verified false positives are excluded by id. Every book harvested later brings its fatherhood mentions here automatically, and curated records join through the ubuwwa-browser tag. The famous fathers are read from the graph's own parent_of and child_of edges."
+  api: "The whole set is available at"
+  sections_title: The browser's sections
+  fathers_title: "The famous fathers"
+  fathers_desc: "Father–child pairs from the museum's own graph: every record joined to its child by a cited parent_of or child_of edge — the fathers of the prophets, the Prophet and his children, and the fathers of the Companions and the books; a recorded mother never enters this list."
+  filter_label: Filter fatherhood records
+  filter_none: No matches.
+  empty: No fatherhood records in this build yet.
+  topics:
+    ab: "The father"
+    birr: "Dutifulness to the parents"
+    tarbiyya: "Raising and counsel"
+    nasab: "Paternity and lineage"
+    yatm: "The orphan"
+  sections:
+    quran:
+      title: "In the Qur'an"
+      desc: "The father and fatherhood in the Qur'an: the commands of kindness to the parents in al-Baqara, al-Isra', Luqman and al-Ahqaf; Ibrahim's prayer for his father and his offspring; Ya'qub's counsel and his sons; Luqman's seven counsels; Zakariyya's prayer for a son; the house of 'Imran; Yusuf raising his parents upon the throne; and the orphan the Qur'an shelters."
+    sunnah:
+      title: "In the Sunnah"
+      desc: "The father in the two Sahihs, the Muwatta and the Sunan: the Prophet as a father to Fatima and his sons, carrying al-Hasan on his shoulder, 'the best of you is the best to his family'; the reports of birr al-walidayn — the father as the middle gate of Paradise — and the warnings of 'uquq; the father teaching his children; paternity verdicts ('the child is for the bed'); and the care of the orphan."
+    seerah:
+      title: "In the seerah"
+      desc: "What the seerah and history books carry of fathers and children — Abd al-Muttalib and 'Abdullah, the Prophet's upbringing as an orphan, Abu Bakr's emigration with his family, Hamza and 'Ali at Hudaybiyya's aftermath, the fathers of the Companions and the Tabi'in — this section fills itself as new seerah texts land."
+    books:
+      title: "In the other books"
+      desc: "Fatherhood reports in every harvested work beyond the Qur'an, hadith and seerah — fiqh of paternity and custody, adab of birr and 'uquq, biography, history and poetry — classified by the work's genre the day its passages land."
+    curated:
+      title: "Records about the father"
+      desc: "The museum's curated records about fatherhood itself: ubuwwa, the rights of parents and of children, birr, 'uquq, the aqiqa, custody (hadana), paternity and lineage (nasab), and the orphan's kafala."
+ukhuwwa:
+  title: "Brotherhood in Islam Browser"
+  lede: "Brotherhood and sisterhood in Islam in the museum's sources: the brotherhood of the believers — 'the believers are but brothers', 'a Muslim is a Muslim's brother' — the brothers and sisters themselves, the Prophet's pairing of the Emigrants and the Helpers and every pairing among the Companions and the Successors, love for God's sake and loving one another in Him, altruism and coming to a brother's aid and need, the rights a Muslim owes a brother — visiting the sick, blessing the sneezer, answering the invitation, returning the greeting — and what severs brotherhood: envy, mutual hatred, estrangement, suspicion and backbiting — in the Qur'an, the two Sahihs, the Muwatta and the Sunan, the seerah books, the reports of the Companions and the Successors, and every harvested book — sourced records that grow as new texts land."
+  badge: Brotherhood in Islam explorer
+  status: "This build holds {n} records in {s} sections; the texts are drafts until a human reads them."
+  method_title: The browser's method
+  method_note: "Every record here is an ordinary museum record — with its sources and its three-language prose. Brotherhood mentions are found at build time by a guarded lexicon over the passage texts in six families: the brothers and sisters (أخوة، إخوة، إخوان، أخوات، المؤمنون إخوة، المسلم أخو المسلم), the brothering (آخى، يؤاخي، مؤاخاة، الإخاء، the Emigrants and Helpers beside a brother word), love for God's sake (أحب في الله، الحب في الله، تحابوا، متحابين، يحب لأخيه), altruism and aid (يؤثرون، إيثار، انصر أخاك، في حاجة أخيه، كالبنيان، كالجسد), the brother's rights (حق أخيه، حق المسلم على المسلم، عيادة المريض، تشميت العاطس، إجابة الدعوة، رد السلام) and the warnings against breaking brotherhood (تحاسدوا، تباغضوا، هجران، ظن السوء، غيبة الأخ). The ambiguous words are guarded: bare «أخ» counts only possessed or in a defined construct, «عن أخيه» in a pure isnad does not count unless another brother word stands in the passage, «عيادة/تشميت» count only beside the rights context, «حسد/غيبة/هجر» only beside a brother word, and verified false positives are excluded by id; every book harvested later brings its brotherhood reports here automatically when its passages land in the graph, and curated records join through the ukhuwwa-browser tag. The siblings on record are read from the graph's own sibling_of edges."
+  api: "The whole set is available at"
+  sections_title: The browser's sections
+  pairs_title: "The siblings on record"
+  pairs_desc: "Brothers and sisters from the museum's own graph: every record joined to its sibling by a cited sibling_of edge — the brothers and sisters of the Companions and the Successors, of the Prophet's household, of commanders and scholars."
+  filter_label: Filter brotherhood records
+  filter_none: No matches.
+  empty: No brotherhood records in this build yet.
+  topics:
+    ikwha: "Brotherhood"
+    muakhat: "The brothering"
+    hubb: "Love for God's sake"
+    ithar: "Altruism and aid"
+    huquq: "The brother's rights"
+    tahdhir: "What breaks brotherhood"
+  sections:
+    quran:
+      title: "In the Qur'an"
+      desc: "Brotherhood in the Qur'an: 'the believers are but brothers', 'hold fast to the rope of God together and do not divide', 'He united their hearts', 'they prefer others over themselves', the brothers of the prophets and the nations, Moses' sister and brother, Joseph's brothers, and siblings in the rulings and the inheritance."
+    sunnah:
+      title: "In the Sunnah"
+      desc: "Brotherhood in the two Sahihs, the Muwatta and the Sunan: 'be servants of God, brothers', 'a Muslim is a Muslim's brother, he does not wrong him nor fail him', 'whoever attends to his brother's need, God attends to his', 'help your brother, wronging or wronged', 'like a building whose parts brace one another', 'the likeness of the believers in their love and mercy', the six rights of a Muslim, and the estrangement forbidden past three nights."
+    seerah:
+      title: "In the seerah"
+      desc: "What the seerah and history books carry of brothering and brotherhood — the Prophet's pairing of the Emigrants and the Helpers in Anas's house, Abd al-Rahman ibn Awf and Sa'd ibn al-Rabi' sharing half, and the Companions' brotherhood in ease and hardship — filling itself as the seerah passages are harvested."
+    books:
+      title: "In the harvested books"
+      desc: "Reports of brotherhood, brothers and sisters in every other harvested work — jurisprudence, letters, history, biography and poetry — entering automatically the day their passages land."
+    curated:
+      title: "Records about brotherhood in Islam"
+      desc: "The museum's own selected records on brotherhood itself: the concept of Muslim brotherhood, the pairing of the Emigrants and the Helpers, love for God's sake, altruism, the rights a Muslim owes a Muslim, and what opposes them — envy and estrangement."
+  viz:
+    title: "Siblings on record"
+    note: "A knot diagram of the siblings recorded in the knowledge graph: every person a node, every brotherhood or sisterhood an arc between two nodes. {n} bonds join {p} people. The groups the records connect are drawn in {c} clusters, largest first, each centred on the person with most recorded siblings; then {k} pairs of just two people follow in the grid. The most siblings recorded for one person is {m}, and that is {name}."
+    legend_title: "The key"
+    lg_m: "male on record"
+    lg_f: "female on record"
+    lg_n: "not recorded"
+    lg_arc: "sibling bond"
+    hint: "Point at, focus or tap an arc to read the two siblings and the sources written on their bond, with its note when one exists in this language. A node's colour is the gender the record states, nothing else."
+    centre: "Centre:"
+    cl_count: "{n} bonds, {p} people"
+    cl_label: "The siblings around {name}"
+    pairs_title: "{n} pairs of siblings"
+    close: "Close"
+    sources: "Sources:"
+    note_label: "Note on the record:"
+    and: "⇄"
+umuma:
+  title: "Motherhood in Islam Browser"
+  lede: "Motherhood in the museum's sources: the mother and her standing and the duty owed to her, pregnancy and childbirth, nursing, the custody and raising of children, and the mothers of prophets, Companions and Tabi'in — in the Qur'an, the two Sahihs, the Muwatta and the Sunan, the seerah books, Companion and Tabi'in reports and every harvested book — records with their sources that grow as each new text lands."
+  badge: Motherhood explorer
+  status: "This build holds {n} records in {s} sections; texts are drafts until a human reads them."
+  method_title: How this browser works
+  method_note: "Every record here is an ordinary museum record with its sources and three-language prose. Motherhood mentions are found at build time by a guarded lexicon over the passage texts in six families: the mother and her standing (أمه، أمها، أمهات، والدة، أمومة، أمهات المؤمنين), pregnancy (حامل، حوامل، حملت، وهن على وهن), childbirth (ولادة، ولدت، تلد، مولود، وضعت، مخاض، نفاس), nursing (رضاعة، أرضعت، مرضعة، رضيع، فطام، فصال), custody and raising (حضانة، حاضنة، تربية، فلذة، كفالة اليتيم) and dutifulness to parents (بر، إحسان، صلة الرحم). The ambiguous words are guarded: bare «أم» counts only beside family vocabulary (أم القرى and أم الكتاب excluded), «حمل» counts in the pregnancy sense only beside pregnancy vocabulary (carrying and transport excluded), «ولد» the boy is out and only the birth forms count, «بر» counts only beside parent vocabulary (برّ the land excluded), and verified false positives are excluded by id. Every book harvested later brings its motherhood mentions here automatically; curated records join through the umuma-browser tag; the mothers on record are read from the graph's own child_of edges to female parents."
+  api: "The whole set is available at"
+  sections_title: The browser's sections
+  mothers_title: "Mothers on record"
+  mothers_desc: "Mothers from the museum's own graph: each mother is joined to her child by a sourced child_of edge — mothers of prophets, Companions and Tabi'in and mothers from the books."
+  filter_label: Filter the motherhood records
+  filter_none: No results.
+  empty: No motherhood records in this build yet.
+  topics:
+    umm: "The mother and her standing"
+    haml: "Pregnancy"
+    wilada: "Childbirth"
+    radaa: "Nursing"
+    tarbiya: "Custody and raising"
+    birr: "Dutifulness to parents"
+  sections:
+    quran:
+      title: "In the Qur'an"
+      desc: "Motherhood in the Qur'an: «his mother carried him with hardship upon hardship», «We have enjoined upon man care for his parents», «and your mother», the nursing and weaning verses, the prohibition of marrying mothers, the mother of Moses casting her infant into the river, and Mary and her delivery."
+    sunnah:
+      title: "In the Sunnah"
+      desc: "Motherhood in the two Sahihs, the Muwatta and the Sunan: «your mother, then your mother, then your mother», «Paradise lies beneath mothers' feet», dutifulness to the mother placed ahead, the rulings of pregnancy, delivery, nursing and custody, the mothers of the believers, and every hadith about a mother and her child."
+    seerah:
+      title: "In the Seerah"
+      desc: "What the seerah and history books carry about mothers — Amina bint Wahb the Prophet's mother, Hajar the mother of Isma'il, Sumayya the mother of Ammar, and the mothers of Companions and Tabi'in — and it fills itself as seerah passages are harvested."
+    books:
+      title: "In the harvested books"
+      desc: "Motherhood reports in every other harvested work — fiqh, adab, history, biography and poetry — entering automatically the day their passages land."
+    curated:
+      title: "Curated records on motherhood"
+      desc: "The museum's selected records about the mother, pregnancy, childbirth, nursing, custody and dutifulness themselves: motherhood, pregnancy, childbirth, custody, birr al-umm, the mothers of the believers, the aqiqa and the sponsorship of orphans."
+  viz:
+    title: "The six lines of motherhood"
+    lede: "Six ruled lines, one per motherhood topic — the mother and her standing, pregnancy, childbirth, nursing, custody and raising, and dutifulness to parents — and on each line a disc for every section holding records of that topic, its area in proportion to their number, each disc a link to the section's list below."
+    topic_col: "Topic"
+    total_col: "Total"
+    records: "{n} records"
+    empty_topic: "No records yet"
+    untopiced: "{n} records carry no topic chip (curated records, not passages)."
 nar:
   viz:
     title: "The two abodes, surah by surah"

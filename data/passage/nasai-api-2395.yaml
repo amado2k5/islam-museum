@@ -1,0 +1,16 @@
+id: passage/nasai-api-2395
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "2395"
+label: { ar: "سنن النسائي 2395 — الأب والأبوة", en: "Sunan al-Nasa'i 2395 — the father and fatherhood", ur: "سنن نسائی 2395 — باپ اور والدیت" }
+text: "أَخْبَرَنَا مُحَمَّدُ بْنُ عَبْدِ الأَعْلَى، قَالَ حَدَّثَنَا الْمُعْتَمِرُ، عَنْ أَبِيهِ، قَالَ حَدَّثَنَا أَبُو الْعَلاَءِ، عَنْ مُطَرِّفٍ، عَنِ ابْنِ أَبِي رَبِيعَةَ، عَنْ عَبْدِ اللَّهِ بْنِ عَمْرٍو، قَالَ ذَكَرْتُ لِلنَّبِيِّ الصَّوْمَ فَقَالَ \" صُمْ مِنْ كُلِّ عَشْرَةِ أَيَّامٍ يَوْمًا وَلَكَ أَجْرُ تِلْكَ التِّسْعَةِ \". فَقُلْتُ إِنِّي أَقْوَى مِنْ ذَلِكَ. قَالَ \" صُمْ مِنْ كُلِّ تِسْعَةِ أَيَّامٍ يَوْمًا …"
+summary:
+  ar: "حديث في سنن النسائي، رقم 2395، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan al-Nasa'i, no. 2395 (The Book of Fasting), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "سنن نسائی کی حدیث نمبر 2395، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 2395 (book 22 hadith 306); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

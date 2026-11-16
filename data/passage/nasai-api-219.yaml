@@ -1,0 +1,17 @@
+id: passage/nasai-api-219
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "219"
+label: { ar: "سنن النسائي 219 — الأب والأبوة، النسب والانتساب", en: "Sunan al-Nasa'i 219 — the father and fatherhood; paternity and lineage", ur: "سنن نسائی 219 — باپ اور والدیت، نسب اور انتساب" }
+text: "أَخْبَرَنَا أَبُو الأَشْعَثِ، قَالَ حَدَّثَنَا خَالِدُ بْنُ الْحَارِثِ، قَالَ سَمِعْتُ هِشَامَ بْنَ عُرْوَةَ، عَنْ أَبِيهِ، عَنْ عَائِشَةَ، أَنَّ بِنْتَ أَبِي حُبَيْشٍ، قَالَتْ يَا رَسُولَ اللَّهِ إِنِّي لاَ أَطْهُرُ أَفَأَتْرُكُ الصَّلاَةَ قَالَ \" لاَ إِنَّمَا هُوَ عِرْقٌ \". قَالَ خَالِدٌ فِيمَا قَرَأْتُ عَلَيْهِ \" وَلَيْسَتْ بِالْحَيْضَةِ فَإِذَا أَقْبَلَتِ الْحَيْضَةُ فَدَعِي الصَّلاَةَ وَإِذَا أَدْبَرَتْ فَاغْسِلِي عَنْكِ الدَّمَ …"
+summary:
+  ar: "حديث في سنن النسائي، رقم 219، يذكر الأب والأبوة، والنسب والانتساب. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan al-Nasa'i, no. 219 (The Book of Purification), that mentions the father and fatherhood, paternity and lineage. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "سنن نسائی کی حدیث نمبر 219، جس میں باپ اور والدیت، نسب اور انتساب کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/intisab, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 219 (book 1 hadith 220); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

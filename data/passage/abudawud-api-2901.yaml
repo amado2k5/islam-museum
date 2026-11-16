@@ -1,0 +1,16 @@
+id: passage/abudawud-api-2901
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "2901"
+label: { ar: "سنن أبي داود 2901 — الأب والأبوة", en: "Sunan Abi Dawud 2901 — the father and fatherhood", ur: "سنن ابی داؤد 2901 — باپ اور والدیت" }
+text: "حَدَّثَنَا عَبْدُ السَّلاَمِ بْنُ عَتِيقٍ الدِّمَشْقِيُّ، حَدَّثَنَا مُحَمَّدُ بْنُ الْمُبَارَكِ، حَدَّثَنَا إِسْمَاعِيلُ بْنُ عَيَّاشٍ، عَنْ يَزِيدَ بْنِ حُجْرٍ، عَنْ صَالِحِ بْنِ يَحْيَى بْنِ الْمِقْدَامِ، عَنْ أَبِيهِ، عَنْ جَدِّهِ، قَالَ سَمِعْتُ رَسُولَ اللَّهِ يَقُولُ \" أَنَا وَارِثُ مَنْ لاَ وَارِثَ لَهُ أَفُكُّ عَانِيَهُ وَأَرِثُ مَالَهُ وَالْخَالُ وَارِثُ مَنْ لاَ وَارِثَ لَهُ يَفُكُّ عَانِيَهُ وَيَرِثُ مَالَهُ \"."
+summary:
+  ar: "حديث في سنن أبي داود، رقم 2901، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan Abi Dawud, no. 2901 (Shares of Inheritance (Kitab Al-Fara'id)), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "سنن ابی داؤد کی حدیث نمبر 2901، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 2901 (book 19 hadith 17); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

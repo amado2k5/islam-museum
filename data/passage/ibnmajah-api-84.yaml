@@ -1,0 +1,16 @@
+id: passage/ibnmajah-api-84
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "84"
+label: { ar: "سنن ابن ماجه 84 — الأب والأبوة", en: "Sunan Ibn Majah 84 — the father and fatherhood", ur: "سنن ابن ماجہ 84 — باپ اور والدیت" }
+text: "… بْنُ إِسْمَاعِيلَ، حَدَّثَنَا يَحْيَى بْنُ عُثْمَانَ، مَوْلَى أَبِي بَكْرٍ حَدَّثَنَا يَحْيَى بْنُ عَبْدِ اللَّهِ بْنِ أَبِي مُلَيْكَةَ، عَنْ أَبِيهِ، أَنَّهُ دَخَلَ عَلَى عَائِشَةَ فَذَكَرَ لَهَا شَيْئًا مِنَ الْقَدَرِ فَقَالَتْ سَمِعْتُ رَسُولَ اللَّهِ ـ يَقُولُ \" مَنْ تَكَلَّمَ فِي شَىْءٍ مِنَ الْقَدَرِ سُئِلَ عَنْهُ يَوْمَ الْقِيَامَةِ وَمَنْ لَمْ يَتَكَلَّمْ فِيهِ لَمْ يُسْأَلْ عَنْهُ \". قَالَ أَبُو …"
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 84، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan Ibn Majah, no. 84 (The Book of the Sunnah), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 84، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 84 (book 0 hadith 84); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

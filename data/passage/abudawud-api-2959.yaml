@@ -1,0 +1,16 @@
+id: passage/abudawud-api-2959
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "2959"
+label: { ar: "سنن أبي داود 2959 — الأب والأبوة", en: "Sunan Abi Dawud 2959 — the father and fatherhood", ur: "سنن ابی داؤد 2959 — باپ اور والدیت" }
+text: "حَدَّثَنَا هِشَامُ بْنُ عَمَّارٍ، حَدَّثَنَا سُلَيْمُ بْنُ مُطَيْرٍ، - مِنْ أَهْلِ وَادِي الْقُرَى - عَنْ أَبِيهِ، أَنَّهُ حَدَّثَهُ قَالَ سَمِعْتُ رَجُلاً، يَقُولُ سَمِعْتُ رَسُولَ اللَّهِ فِي حَجَّةِ الْوَدَاعِ فَأَمَرَ النَّاسَ وَنَهَاهُمْ ثُمَّ قَالَ \" اللَّهُمَّ هَلْ بَلَّغْتُ \". قَالُوا اللَّهُمَّ نَعَمْ. ثُمَّ قَالَ \" إِذَا تَجَاحَفَتْ قُرَيْشٌ عَلَى الْمُلْكِ فِيمَا بَيْنَهَا وَعَادَ الْعَطَاءُ أَوْ كَانَ …"
+summary:
+  ar: "حديث في سنن أبي داود، رقم 2959، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan Abi Dawud, no. 2959 (Tribute, Spoils, and Rulership (Kitab Al-Kharaj, Wal-Fai' Wal-Imarah)), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "سنن ابی داؤد کی حدیث نمبر 2959، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 2959 (book 20 hadith 32); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

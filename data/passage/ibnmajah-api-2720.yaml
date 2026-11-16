@@ -1,0 +1,16 @@
+id: passage/ibnmajah-api-2720
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "2720"
+label: { ar: "سنن ابن ماجه 2720 — الأب والأبوة", en: "Sunan Ibn Majah 2720 — the father and fatherhood", ur: "سنن ابن ماجہ 2720 — باپ اور والدیت" }
+text: "… النَّبِيِّ فَقَالَتْ يَا رَسُولَ اللَّهِ هَاتَانِ ابْنَتَا سَعْدٍ قُتِلَ مَعَكَ يَوْمَ أُحُدٍ وَإِنَّ عَمَّهُمَا أَخَذَ جَمِيعَ مَا تَرَكَ أَبُوهُمَا وَإِنَّ الْمَرْأَةَ لاَ تُنْكَحُ إِلاَّ عَلَى مَالِهَا. فَسَكَتَ رَسُولُ اللَّهِ حَتَّى أُنْزِلَتْ آيَةُ الْمِيرَاثِ فَدَعَا رَسُولُ اللَّهِ أَخَا سَعْدِ بْنِ الرَّبِيعِ فَقَالَ \" أَعْطِ ابْنَتَىْ سَعْدٍ ثُلُثَىْ مَالِهِ وَأَعْطِ امْرَأَتَهُ الثُّمُنَ وَخُذْ أَنْتَ مَا بَقِيَ \"."
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 2720، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan Ibn Majah, no. 2720 (Chapters on Shares of Inheritance), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 2720، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 2720 (book 23 hadith 2); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

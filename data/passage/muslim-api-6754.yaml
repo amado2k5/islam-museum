@@ -1,0 +1,16 @@
+id: passage/muslim-api-6754
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "6754"
+label: { ar: "صحيح مسلم 6754 — الأب والأبوة", en: "Sahih Muslim 6754 — the father and fatherhood", ur: "صحیح مسلم 6754 — باپ اور والدیت" }
+text: "… إِبْرَاهِيمَ، وَعَبْدُ بْنُ حُمَيْدٍ، - وَاللَّفْظُ لإِسْحَاقَ - قَالاَ أَخْبَرَنَا عَبْدُ الرَّزَّاقِ، حَدَّثَنَا مَعْمَرٌ، عَنِ ابْنِ طَاوُسٍ، عَنْ أَبِيهِ، عَنِ ابْنِ عَبَّاسٍ، قَالَ مَا رَأَيْتُ شَيْئًا أَشْبَهَ بِاللَّمَمِ مِمَّا قَالَ أَبُو هُرَيْرَةَ أَنَّ النَّبِيَّ قَالَ \" إِنَّ اللَّهَ كَتَبَ عَلَى ابْنِ آدَمَ حَظَّهُ مِنَ الزِّنَى أَدْرَكَ ذَلِكَ لاَ مَحَالَةَ فَزِنَى الْعَيْنَيْنِ النَّظَرُ وَزِنَى اللِّسَانِ النُّطْقُ …"
+summary:
+  ar: "حديث في صحيح مسلم، رقم 6754، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sahih Muslim, no. 6754 (The Book of Destiny), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "صحیح مسلم کی حدیث نمبر 6754، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 6754 (book 46 hadith 32); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

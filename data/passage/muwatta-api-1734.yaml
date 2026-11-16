@@ -1,0 +1,16 @@
+id: passage/muwatta-api-1734
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "1734"
+label: { ar: "موطأ مالك 1734 — اليتيم وفقد الأب", en: "Muwatta Malik 1734 — the orphan and the father lost", ur: "موطأ مالک 1734 — یتیم اور باپ کی موت" }
+text: "وَحَدَّثَنِي عَنْ مَالِكٍ، عَنْ صَفْوَانَ بْنِ سُلَيْمٍ، أَنَّهُ بَلَغَهُ أَنَّ النَّبِيَّ قَالَ \" أَنَا وَكَافِلُ الْيَتِيمِ لَهُ أَوْ لِغَيْرِهِ فِي الْجَنَّةِ كَهَاتَيْنِ إِذَا اتَّقَى \". وَأَشَارَ بِإِصْبُعَيْهِ الْوُسْطَى وَالَّتِي تَلِي الإِبْهَامَ."
+summary:
+  ar: "حديث في موطأ مالك، رقم 1734، يذكر اليتيم وفقد الأب. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Muwatta Malik, no. 1734 (Hair), that mentions the orphan and the father lost. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "موطأ مالک کی حدیث نمبر 1734، جس میں یتیم اور باپ کی موت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/yatim-fiqh, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 1734 (book 51 hadith 5); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/muwatta-malik, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

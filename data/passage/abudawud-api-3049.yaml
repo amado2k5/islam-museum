@@ -1,0 +1,16 @@
+id: passage/abudawud-api-3049
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "3049"
+label: { ar: "سنن أبي داود 3049 — الأب والأبوة", en: "Sunan Abi Dawud 3049 — the father and fatherhood", ur: "سنن ابی داؤد 3049 — باپ اور والدیت" }
+text: "… السَّائِبِ، عَنْ حَرْبِ بْنِ عُبَيْدِ اللَّهِ بْنِ عُمَيْرٍ الثَّقَفِيِّ، عَنْ جَدِّهِ، - رَجُلٍ مِنْ بَنِي تَغْلِبَ - قَالَ أَتَيْتُ النَّبِيَّ فَأَسْلَمْتُ وَعَلَّمَنِي الإِسْلاَمَ وَعَلَّمَنِي كَيْفَ آخُذُ الصَّدَقَةَ مِنْ قَوْمِي مِمَّنْ أَسْلَمَ ثُمَّ رَجَعْتُ إِلَيْهِ فَقُلْتُ يَا رَسُولَ اللَّهِ كُلُّ مَا عَلَّمْتَنِي قَدْ حَفِظْتُهُ إِلاَّ الصَّدَقَةَ أَفَأُعَشِّرُهُمْ قَالَ \" لاَ إِنَّمَا الْعُشُورُ عَلَى النَّصَارَى وَالْيَهُودِ \"."
+summary:
+  ar: "حديث في سنن أبي داود، رقم 3049، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan Abi Dawud, no. 3049 (Tribute, Spoils, and Rulership (Kitab Al-Kharaj, Wal-Fai' Wal-Imarah)), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "سنن ابی داؤد کی حدیث نمبر 3049، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 3049 (book 20 hadith 122); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

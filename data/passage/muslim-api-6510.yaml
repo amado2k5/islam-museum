@@ -3,18 +3,16 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "6510"
-label: { ar: "صحيح مسلم — رغم أنفه", en: "Sahih Muslim — May his nose be rubbed in dust", ur: "صحیح مسلم — اس کی ناک مٹی میں رگڑی جائے" }
-text: "حَدَّثَنَا شَيْبَانُ بْنُ فَرُّوخَ، حَدَّثَنَا أَبُو عَوَانَةَ، عَنْ سُهَيْلٍ، عَنْ أَبِيهِ، عَنْ أَبِي هُرَيْرَةَ، عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ رَغِمَ أَنْفُ ثُمَّ رَغِمَ أَنْفُ ثُمَّ رَغِمَ أَنْفُ ‏\"‏ ‏.‏ قِيلَ مَنْ يَا رَسُولَ اللَّهِ قَالَ ‏\"‏ مَنْ أَدْرَكَ أَبَوَيْهِ عِنْدَ الْكِبَرِ أَحَدَهُمَا أَوْ كِلَيْهِمَا فَلَمْ يَدْخُلِ الْجَنَّةَ ‏\"‏ ‏.‏"
+label: { ar: "صحيح مسلم 6510 — الأب والأبوة، بر الوالدين أو عقوقهما", en: "Sahih Muslim 6510 — the father and fatherhood; dutifulness to the parents or disobedience to them", ur: "صحیح مسلم 6510 — باپ اور والدیت، والدین کے ساتھ نیکی یا نافرمانی" }
+text: "حَدَّثَنَا شَيْبَانُ بْنُ فَرُّوخَ، حَدَّثَنَا أَبُو عَوَانَةَ، عَنْ سُهَيْلٍ، عَنْ أَبِيهِ، عَنْ أَبِي هُرَيْرَةَ، عَنِ النَّبِيِّ قَالَ \" رَغِمَ أَنْفُ ثُمَّ رَغِمَ أَنْفُ ثُمَّ رَغِمَ أَنْفُ \". قِيلَ مَنْ يَا رَسُولَ اللَّهِ قَالَ \" مَنْ أَدْرَكَ أَبَوَيْهِ عِنْدَ الْكِبَرِ أَحَدَهُمَا أَوْ كِلَيْهِمَا فَلَمْ يَدْخُلِ الْجَنَّةَ \"."
 summary:
-  ar: "قال: رغم أنفه، من أدرك أبويه عند الكبر أحدهما أو كليهما فلم يدخل الجنة."
-  en: "«May his nose be rubbed in dust« — whoever catches his parents in old age, one or both, and does not enter Paradise."
-  ur: "«اس کی ناک مٹی میں رگڑی جائے» — جو اپنے والدین کو بڑھاپے میں پائے، ایک یا دونوں، پھر جنت میں نہ داخل ہو۔"
+  ar: "حديث في صحيح مسلم، رقم 6510، يذكر الأب والأبوة، وبر الوالدين أو عقوقهما. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sahih Muslim, no. 6510 (The Book of Virtue, Enjoining Good Manners, and Joining of the Ties of Kinship), that mentions the father and fatherhood, dutifulness to the parents or disobedience to them. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "صحیح مسلم کی حدیث نمبر 6510، جس میں باپ اور والدیت، والدین کے ساتھ نیکی یا نافرمانی کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
 relations:
-  - { type: part_of, target: passage/muslim-kitab-45 }
-  - { type: mentions, target: concept/uquq-al-walidayn, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
-  - { type: mentions, target: concept/huquq-al-walidayn, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
-  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
-tags: [bunuwwa-browser]
-provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 6510 (book-section 45); full text as published", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "bunuwwa-enrich-1" }
+  - { type: mentions, target: concept/ubuwwa, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 6510 (book 45 hadith 10); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
 sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the hadith-api Arabic edition; label and summary are the museum's own words" }
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }
+
+tags: [bunuwwa-browser]

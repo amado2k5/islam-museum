@@ -1,0 +1,16 @@
+id: passage/nasai-api-2439
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "2439"
+label: { ar: "سنن النسائي 2439 — النسب والانتساب", en: "Sunan al-Nasa'i 2439 — paternity and lineage", ur: "سنن نسائی 2439 — نسب اور انتساب" }
+text: "… دُعِيَ مِنْ بَابِ الْجِهَادِ وَمَنْ كَانَ مِنْ أَهْلِ الصَّدَقَةِ دُعِيَ مِنْ بَابِ الصَّدَقَةِ وَمَنْ كَانَ مِنْ أَهْلِ الصِّيَامِ دُعِيَ مِنْ بَابِ الرَّيَّانِ \". قَالَ أَبُو بَكْرٍ هَلْ عَلَى مَنْ يُدْعَى مِنْ تِلْكَ الأَبْوَابِ مِنْ ضَرُورَةٍ فَهَلْ يُدْعَى مِنْهَا كُلِّهَا أَحَدٌ يَا رَسُولَ اللَّهِ قَالَ \" نَعَمْ وَإِنِّي أَرْجُو أَنْ تَكُونَ مِنْهُمْ \". يَعْنِي أَبَا بَكْرٍ."
+summary:
+  ar: "حديث في سنن النسائي، رقم 2439، يذكر النسب والانتساب. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan al-Nasa'i, no. 2439 (The Book of Zakah), that mentions paternity and lineage. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "سنن نسائی کی حدیث نمبر 2439، جس میں نسب اور انتساب کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/intisab, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 2439 (book 23 hadith 5); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

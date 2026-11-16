@@ -1,0 +1,16 @@
+id: passage/bukhari-api-4235
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "4235"
+label: { ar: "صحيح البخاري 4235 — الأب والأبوة", en: "Sahih al-Bukhari 4235 — the father and fatherhood", ur: "صحیح بخاری 4235 — باپ اور والدیت" }
+text: "حَدَّثَنَا سَعِيدُ بْنُ أَبِي مَرْيَمَ، أَخْبَرَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، قَالَ أَخْبَرَنِي زَيْدٌ، عَنْ أَبِيهِ، أَنَّهُ سَمِعَ عُمَرَ بْنَ الْخَطَّابِ ـ يَقُولُ أَمَا وَالَّذِي نَفْسِي بِيَدِهِ، لَوْلاَ أَنْ أَتْرُكَ آخِرَ النَّاسِ بَبَّانًا لَيْسَ لَهُمْ شَىْءٌ، مَا فُتِحَتْ عَلَىَّ قَرْيَةٌ إِلاَّ قَسَمْتُهَا كَمَا قَسَمَ النَّبِيُّ خَيْبَرَ، وَلَكِنِّي أَتْرُكُهَا خِزَانَةً لَهُمْ يَقْتَسِمُونَهَا."
+summary:
+  ar: "حديث في صحيح البخاري، رقم 4235، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sahih al-Bukhari, no. 4235 (Military Expeditions led by the Prophet (pbuh) (Al-Maghaazi)), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "صحیح بخاری کی حدیث نمبر 4235، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 4235 (book 64 hadith 273); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

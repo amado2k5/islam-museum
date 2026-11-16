@@ -1,0 +1,16 @@
+id: passage/nasai-api-1508
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "1508"
+label: { ar: "سنن النسائي 1508 — الأب والأبوة", en: "Sunan al-Nasa'i 1508 — the father and fatherhood", ur: "سنن نسائی 1508 — باپ اور والدیت" }
+text: "… عُبَيْدِ بْنِ مُحَمَّدٍ، قَالَ حَدَّثَنَا حَاتِمُ بْنُ إِسْمَاعِيلَ، عَنْ هِشَامِ بْنِ إِسْحَاقَ بْنِ عَبْدِ اللَّهِ بْنِ كِنَانَةَ، عَنْ أَبِيهِ، قَالَ سَأَلْتُ ابْنَ عَبَّاسٍ عَنْ صَلاَةِ، رَسُولِ اللَّهِ فِي الاِسْتِسْقَاءِ فَقَالَ خَرَجَ رَسُولُ اللَّهِ مُتَبَذِّلاً مُتَوَاضِعًا مُتَضَرِّعًا فَجَلَسَ عَلَى الْمِنْبَرِ فَلَمْ يَخْطُبْ خُطْبَتَكُمْ هَذِهِ وَلَكِنْ لَمْ يَزَلْ فِي الدُّعَاءِ وَالتَّضَرُّعِ وَالتَّكْبِيرِ وَصَلَّى رَكْعَتَيْنِ كَمَا كَانَ يُصَلِّي …"
+summary:
+  ar: "حديث في سنن النسائي، رقم 1508، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan al-Nasa'i, no. 1508 (The Book of Praying for Rain (Al-Istisqa')), that mentions the father and fatherhood. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "سنن نسائی کی حدیث نمبر 1508، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ubuwwa, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 1508 (book 17 hadith 5); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

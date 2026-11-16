@@ -1,0 +1,16 @@
+id: passage/muwatta-api-342
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "342"
+label: { ar: "موطأ مالك 342 — اليتيم وفقد الأب", en: "Muwatta Malik 342 — the orphan and the father lost", ur: "موطأ مالک 342 — یتیم اور باپ کی موت" }
+text: "… يَقْصُرُ الصَّلاَةَ فِي مِثْلِ مَا بَيْنَ مَكَّةَ وَالطَّائِفِ وَفِي مِثْلِ مَا بَيْنَ مَكَّةَ وَعُسْفَانَ وَفِي مِثْلِ مَا بَيْنَ مَكَّةَ وَجُدَّةَ. قَالَ مَالِكٌ وَذَلِكَ أَرْبَعَةُ بُرُدٍ وَذَلِكَ أَحَبُّ مَا تُقْصَرُ إِلَىَّ فِيهِ الصَّلاَةُ. قَالَ مَالِكٌ لاَ يَقْصُرُ الَّذِي يُرِيدُ السَّفَرَ الصَّلاَةَ حَتَّى يَخْرُجَ مِنْ بُيُوتِ الْقَرْيَةِ وَلاَ يُتِمُّ حَتَّى يَدْخُلَ أَوَّلَ بُيُوتِ الْقَرْيَةِ أَوْ يُقَارِبُ ذَلِكَ."
+summary:
+  ar: "حديث في موطأ مالك، رقم 342، يذكر اليتيم وفقد الأب. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Muwatta Malik, no. 342 (Shortening the Prayer), that mentions the orphan and the father lost. The Fatherhood in Islam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the father."
+  ur: "موطأ مالک کی حدیث نمبر 342، جس میں یتیم اور باپ کی موت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/yatim-fiqh, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 342 (book 9 hadith 17); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }
+sources: [source/muwatta-malik, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }
