@@ -1,0 +1,23 @@
+id: concept/kummathra
+class: concept
+kind: natural
+label:
+  ar: "كمثرى"
+  en: "Kummathra (pear)"
+  ur: "کمثریٰ"
+summary:
+  ar: "الكمثرى فيها أرضية ومائية، قابضة تدخل في ضمادات حبس المواد، والصيني بارد يابس في الأولى والثانية، والشاه أمرود الخراساني معتدل رطب مليّن، وفيها خاصية إحداث القولنج {cite:canon-ibn-sina-print-v1 p.534} {cite:canon-ibn-sina-print-v1 p.535}."
+  en: "The pear has earthy and watery parts and is astringent, entering poultices that hold back matter. The Chinese kind is cold in the first degree and dry in the second; the Khurasani shah amrud is moderate and moist and loosening. The book names a property of bringing on colic {cite:canon-ibn-sina-print-v1 p.534} {cite:canon-ibn-sina-print-v1 p.535}."
+  ur: "ناشپاتی میں ارضی اور آبی اجزا ہیں اور یہ قابض ہے، مادوں کو روکنے والے لیپوں میں داخل ہوتی ہے۔ چینی قسم پہلے درجے میں ٹھنڈی اور دوسرے میں خشک ہے؛ خراسانی شاہ امرود معتدل، تر اور نرم کرنے والا ہے۔ کتاب اس کی ایک خاصیت قولنج پیدا کرنا بتاتی ہے {cite:canon-ibn-sina-print-v1 p.534} {cite:canon-ibn-sina-print-v1 p.535}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letters kaf and lam, scan pages 534 to 535, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen and desire reports kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-16
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

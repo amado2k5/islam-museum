@@ -1,0 +1,23 @@
+id: concept/karm
+class: concept
+kind: natural
+label:
+  ar: "كرم"
+  en: "Karm (the vine)"
+  ur: "کرم"
+summary:
+  ar: "الكرم عند ابن سينا النبات المعروف، البري والبستاني، وفيه ذكر لعصارة ورقه ودمعته ورماد قضبانه وثمرته في الجراح والمفاصل والرأس والمعدة والسموم، وينقل وصف ديسقوريدوس للكرم البري {cite:canon-ibn-sina-print-v1 p.535} {cite:canon-ibn-sina-print-v1 p.536}."
+  en: "Karm in the Canon is the vine, wild and garden. The book lists uses of its leaf juice, its sap, the ash of its shoots and its fruit for wounds, joints, head, stomach and poisons, and quotes Dioscorides's description of the wild vine {cite:canon-ibn-sina-print-v1 p.535} {cite:canon-ibn-sina-print-v1 p.536}."
+  ur: "قانون میں کرم بیل ہے، جنگلی اور باغی۔ کتاب اس کے پتے کے رس، گوند، ٹہنیوں کی راکھ اور پھل کے زخموں، جوڑوں، سر، معدے اور زہروں میں فائدے گنواتی ہے، اور جنگلی بیل کا دیسقوریدوس کا بیان نقل کرتی ہے {cite:canon-ibn-sina-print-v1 p.535} {cite:canon-ibn-sina-print-v1 p.536}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letters kaf and lam, scan pages 535 to 536, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen and desire reports kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-16
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

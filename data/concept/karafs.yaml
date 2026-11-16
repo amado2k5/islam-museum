@@ -1,0 +1,23 @@
+id: concept/karafs
+class: concept
+kind: natural
+label:
+  ar: "كرفس"
+  en: "Karafs (celery)"
+  ur: "کرفس"
+summary:
+  ar: "الكرفس أصناف: جبلي وبري وبستاني ومائي وسمرنيون، حار في أول الدرجة يابس في الثانية، محلل للنفخ مفتح للسدد معرق مسكن للأوجاع، ويُحذر للمصروع والحامل {cite:canon-ibn-sina-print-v1 p.529} {cite:canon-ibn-sina-print-v1 p.530}."
+  en: "Celery has many kinds: mountain, wild, garden, water, and the smyrnion. It is hot in the first degree and dry in the second, dispels wind, opens obstructions, brings sweat and soothes pains; the book warns against it for the epileptic and the pregnant {cite:canon-ibn-sina-print-v1 p.529} {cite:canon-ibn-sina-print-v1 p.530}."
+  ur: "کرفس کی کئی قسمیں ہیں: پہاڑی، جنگلی، باغی، پانی کی اور سمرنیون۔ پہلے درجے میں گرم اور دوسرے میں خشک ہے، ریاح کو تحلیل کرتا ہے، رکاوٹیں کھولتا ہے، پسینہ لاتا ہے اور دردوں کو تسکین دیتا ہے؛ کتاب مرگی والے اور حاملہ کے لیے اس سے خبردار کرتی ہے {cite:canon-ibn-sina-print-v1 p.529} {cite:canon-ibn-sina-print-v1 p.530}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letters kaf and lam, scan pages 528 to 530, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen and desire reports kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-16
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }
