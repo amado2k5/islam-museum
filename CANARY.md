@@ -13,6 +13,10 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v2.23.0 — 2026-11-17
+### Added
+- The Bunuwwa Browser (متصفح البنوة في الإسلام · Sonhood and Daughterhood in Islam): a new front door listing everything the sources mention about sons, daughters, offspring, kindness and disobedience to parents, orphans and suckling, the rights of the child and the named children of the stories — Qur'an verses, hadith reports, seerah books and every harvested work, detected at build time by a guarded lexicon so future books join automatically. It carries a signature view (six ruled lines of the filial topics), a famous-parents-and-children section read from the graph's child_of edges, sixteen tagged-in-place records and nineteen person records plus four new cited concepts (البنوة، الرضاعة، الموءودة، الذرية) with trilingual prose, an Explore-menu entry, a landing card and the `/api/v1/bunuwwa.json` export.
+
 ## v2.22.0 — 2026-11-17
 ### Added
 - Job Browser linking wave 48: 33 `occupations:` edges on 25 person records — finishes the grammarian and mufti pools (Ibn Khalawayh, Mufti Ghulam Sarwar Lahori) plus six commanders and poet, alim, historian links.
