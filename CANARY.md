@@ -20,6 +20,7 @@ open a new block on top with the new version and today's date.
 ## v1.55.0 — 2026-11-16
 ### Added
 - Job Browser: six ruler offices — the caliph of the hilafet, the sultan who held the sword of the state, the emir commander-governor of the provinces, the wali provincial governor, the khan of the steppe dynasties, and the shah — in Arabic, English and Urdu draft cited to the TDV entries HİLÂFET, SULTAN, EMÎR (idareci), VALİ, HAN (hükümdar) and ŞAH (hükümdar).
+- Five more Inventions Browser records built from the EI2 OCR corpus (ARCHITECTURE, THALLADJ, BADGIR, TA'AM, MATBAKH, KIRAD) and recorded Wikipedia revisions, each with Arabic, English and Urdu prose: the pointed arch's transmission to Gothic Europe (contested); the yakhchal ice house; the windcatcher; Ibn Sayyar al-Warraq's recipe-book genre; and mudaraba's debated path to the European commenda (contested).
 
 ## v1.54.0 — 2026-11-16
 ### Added
