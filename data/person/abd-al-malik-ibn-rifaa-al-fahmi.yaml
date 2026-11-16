@@ -15,5 +15,11 @@ provenance:
   generated_by: "Claude (Haiku 5.5, subagent)"
 status: { review: draft, completeness: 1, generated_by: "en label draft (Claude Haiku 5.5, batch 1); Claude (subagent), extracted from salabi-umayyad-state-2020 p. 388 (citing Ibn Taghri Bardi)" }
 died: { edtf: "727", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Kindi (Wulat Misr: d. 109 AH)" }
+occupations:
+  - job: job/emir
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'emir', Job Browser linking wave 34"
+    sources: [source/salabi-umayyad-state-2020]
 relations:
   - { type: ruler_of, target: place/misr, note: "From text: governor of Egypt. The", sources: [source/salabi-umayyad-state-2020] }
