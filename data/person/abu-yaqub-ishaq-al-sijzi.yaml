@@ -24,5 +24,16 @@ provenance:
 status: { review: published, completeness: 2 }
 born: { edtf: "910~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica (same as Abu Ya'qub al-Sijistani)" }
 died: { edtf: "971~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica (same as Abu Ya'qub al-Sijistani)" }
+occupations:
+  - job: job/philosopher
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'philosopher', Job Browser linking wave 38"
+    sources: [source/encyclopaedia-of-islam-2]
+  - job: job/mutakallim
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'theologian', Job Browser linking wave 38"
+    sources: [source/encyclopaedia-of-islam-2]
 relations:
   - { type: lived_in, target: place/sijistan, note: "Place association from the person's nisba/name (السجزي); denotes association, not proven residence.", sources: [source/encyclopaedia-of-islam-2], confidence: low }

@@ -23,5 +23,11 @@ provenance:
 status:
   review: draft
   completeness: 1
+occupations:
+  - job: job/emir
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'amir', Job Browser linking wave 38"
+    sources: [source/al-aalam, source/wikidata]
 relations:
   - { type: lived_in, target: place/taifa-of-arcos, note: "Wikidata Q2390604 (P27); corroboration recommended.", sources: [source/wikidata], confidence: medium }
