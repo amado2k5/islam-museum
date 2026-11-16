@@ -1,0 +1,41 @@
+id: job/historian
+class: job
+label: { ar: "المؤرّخ", en: "Historian (müverrih; Ottoman official vak'anüvis)", ur: "مؤرخ" }
+names:
+  - { value: "مؤرّخون", kind: alternate }
+  - { value: "vak‘anüvis", kind: latinized, lang: tr }
+  - { value: "vekāyi‘nüvîs", kind: latinized, lang: tr }
+  - { value: "müverrih", kind: latinized, lang: tr }
+  - { value: "شهنامه نويس", kind: alternate }
+summary:
+  ar: "المؤرّخ في الدولة العثمانية هو الوقعة نويس: الموظف الرسمي المكلّف بكتابة وقائع عصره ضمن دواوين الديوان الهمايوني. استُخدم اللقب أولاً لأدباء مثل طالعكي زاده ونركيسي، ثم صار وظيفة دائمة حين عيّن الصدر الأعظم أم جازادة حسين باشا نعيمة لتحرير مسودات شارح المنار زاده أحمد أفندي بأوقاف سنة وبرات وراتب قدره ١٢٠ أقجة يومياً، واستقرّت رسمياً منذ راشد محمد أفندي ⁦(ت ١١٤٨هـ)⁩؛ وكان الوقعة نويس يتلقى الأخبار والإحالات من دواوين الدولة، ويكمل نواقص سابقيه من مسوداتهم ووثائقهم، ويقدّم جزء كل سنة إلى السلطان عبر الصدارة."
+  en: "The historian in the Ottoman state was the vak'anüvis: the official charged with writing the events of his age within the offices of the Divan-i Hümayun. The title was first used of literary figures like Talikizade and Nergisi, then became a permanent state service when Grand Vizier Amcazade Hüseyin Pasha appointed Naima to edit Şârihülmenârzâde Ahmed Efendi's draft histories with a grant, a berat and a daily salary of 120 akçe; from Raşid Mehmed Efendi (d. 1148 AH) it settled as a continuous office. The vak'anüvis received reports and ilmühaber minutes from the state's bureaux, completed his predecessors' gaps from their notes and papers, and submitted each year's fascicle to the sultan through the grand vizierate."
+  ur: "سلطنت عثمانیہ میں مؤرخ «وقعہ نویس» کہلاتا تھا: دیوان ہمایوں کے دفاتر میں اپنے عہد کے واقعات لکھنے والا سرکاری ملازم۔ یہ لقب پہلے طالقی زادہ اور نرگیسی جیسے ادیبوں کے لیے بولا جاتا تھا، پھر مستقل ملازمت بنا جب صدراعظم امجازادہ حسین پاشا نے نعیمہ کو شارح المنار زادہ احمد افندی کی مسودات مرتب کرنے پر مقرر کیا، عطیہ، برات اور روزانہ ١٢٠ اقچہ تنخواہ کے ساتھ؛ راشد محمد افندی ⁦(وفات ١١٤٨ھ)⁩ سے یہ منصب مسلسل ہو گیا۔ وقعہ نویس کو سرکاری دفاتر سے اطلاعات اور علم حبر صورتیں ملتیں، اپنے پیشروں کی کمی بیشی ان کے نوٹوں اور کاغذات سے پوری کرتا، اور ہر سال کی جلد صدارت کے ذریعے سلطان کو پیش کرتا۔"
+domain: scholarship-teaching
+kind: scholarly
+hirfa: false
+era:
+  origins: early-modern
+  status_today: transformed
+places:
+  - { place: place/istanbul, note: "The office belonged to the Divan-i Hümayun at the capital: Naima's appointment under Amcazade Hüseyin Pasha made historiography a state service in the early eighteenth century, and the later vak'anüvis line ran from Istanbul until the post lapsed.", sources: [source/tdv-vakanuvis] }
+regions: [anatolia-balkans]
+organization:
+  organized: court-office
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people]
+periods: [period/gunpowder-empires, period/modern-era]
+sources: [source/tdv-vakanuvis]
+training:
+  mode: state-licence
+  certification: "Appointment came by berat: Naima received a purse of gift-money, 120 akçe a day and a commission deed when the grand vizier set him to work on Şârihülmenârzâde's drafts. Appointees were sought for 'skill and learning, comprehension, continuous composition and occupation with the spread of the sciences'; the office was filled from the divan bureaux's inşa masters and poets or from the ilmiye, and the choice could be scrutinised at the top — Mahmud II hesitated over names until the 'capable and suitable' Sahaflar Şeyhizade Esad Efendi was chosen."
+  duration: "The office ran continuously from Raşid Mehmed Efendi (d. 1148/1735); holders usually kept a primary post in the divan bureaux or the ilmiye and drew an extra allowance for the vak'anüvislik."
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-scholar-1" }
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi, 'VAK‘ANÜVİS' (Kütükoğlu, 2012), web edition read on 16 Nov 2026: the title, the office's foundation, appointment qualities, reporting channels, salaries and the succession of holders"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-scholar-1-drafting"

@@ -1,0 +1,39 @@
+id: job/hakam
+class: job
+label: { ar: "الحَكَم", en: "Hakam (arbiter chosen by the parties)", ur: "حکم" }
+names:
+  - { value: "محكَّم", kind: alternate }
+  - { value: "حكّام", kind: alternate }
+  - { value: "hakem", kind: latinized, lang: tr }
+summary:
+  ar: "الحَكَم من يختاره المتخاصمان بإرادتهما ليفصل نزاعهما؛ كان حرفة أهل السؤدد في الجاهلية الحجازية حين لا سلطة مركزية، فتحكّم حكماء القبائل في أسواق كعكاظ ومنهم نساء كسُهْن بنت لقمان، وتحكّم النبي قبل النبوة في وضع الحجر الأسود. أقرّه الفقه طريقاً تكميلياً للقضاء الرسمي: ولايته بقدر ما حُوّل إليه، يعزله الطرفان قبل الحكم، ويُشترط فيه ما يُشترط في القاضي من عقل وبلوغ وعدالة وعلم."
+  en: "The hakam is the arbiter whom disputing parties choose of their own will to settle their quarrel; the office belonged to the notables of pre-Islamic Hijaz, where there was no central power, and tribal arbiters — among them women like Suhn bint Luqman — judged between tribes at markets such as Ukaz, while the Prophet himself arbitrated the placing of the Black Stone before his mission. Fiqh kept him as a complement to the official court: his writ runs only over what is submitted to him, the parties may dismiss him before the ruling, and the jurists require of him what they require of the qadi — reason, majority, probity and knowledge."
+  ur: "حکم وہ شخص ہے جسے جھگڑنے والے فریق اپنی مرضی سے جھگڑا نپٹانے کے لیے چنتے ہیں؛ یہ منصب جاہلی حجاز کے بزرگوں کا تھا جہاں مرکزی طاقت نہ تھی، قبائلی حکماء عکاظ جیسے بازاروں میں فیصلے کرتے جن میں سہن بنت لقمان جیسی خواتین بھی تھیں، اور نبی نے بھی بعثت سے پہلے حجر اسود کے نصب میں حکمی کی۔ فقہ نے اسے رسمی عدالت کا معاون قرار دیا: اس کا اختیار صرف اتنا جتنا سونپا جائے، فیصلے سے پہلے فریق اسے برطرف کر سکتے ہیں، اور قاضی کے لیے جو شرائط ہیں — عقل، بلوغت، عدالت اور علم — وہی حکم کے لیے چاہئیں۔"
+domain: governance-law
+kind: office
+hirfa: false
+era:
+  origins: pre-islamic
+  status_today: living
+places:
+  - { place: place/ukaz, note: "The arbiters of the Tamim tribe long held an accepted judging authority over the tribes at the Ukaz fair, and the sources name the famous hakams of each tribe, from Aktham ibn Sayfi to women hakams like Suhn bint Luqman and Hind bint Hus.", sources: [source/tdv-hakem] }
+  - { place: place/mecca, note: "Before his mission the Prophet, then thirty-five, arbitrated the clans' dispute over who should set the Black Stone back in the rebuilt Ka'ba — the best-known act of a working hakam.", sources: [source/tdv-hakem] }
+regions: [arabia, levant-iraq, egypt-nile, maghreb, andalus-europe, anatolia-balkans, persia-central-asia, south-asia, global]
+organization:
+  organized: informal
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people]
+periods: [period/pre-islamic-arabia, period/prophetic-era, period/rashidun, period/umayyad, period/abbasid-early, period/buyid-seljuk-fatimid-era, period/crusades-ayyubid-mamluk, period/gunpowder-empires, period/modern-era, period/contemporary-era]
+sources: [source/tdv-hakem, source/tdv-tahkim]
+training:
+  mode: mouth-to-mouth
+  certification: "No licence and no curriculum: the pre-Islamic hakam held his writ by reputation, experience and the parties' consent; the jurists later required of him the qadi's qualifications — being of full legal capacity, of probity, and versed in fiqh — and a court could confirm a chosen hakam as its own deputy."
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-faith-1" }
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi, 'HAKEM' (Akgündüz, 1997) and 'TAHKÎM' fiqh section (Yıldırım, 2010), web editions read on 16 Nov 2026: the tribal hakams, the Black Stone arbitration, hakam vs qadi, and the fiqh of arbitration"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-faith-1-drafting"

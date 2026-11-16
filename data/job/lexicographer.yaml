@@ -1,0 +1,41 @@
+id: job/lexicographer
+class: job
+label: { ar: "اللغوي صاحب المعجم", en: "Lexicographer (lughawi, dictionary-maker)", ur: "لغوی/لغت نویس" }
+names:
+  - { value: "لغويون", kind: alternate }
+  - { value: "أصحاب المعاجم", kind: alternate }
+  - { value: "lugat âlimi", kind: latinized, lang: tr }
+  - { value: "lügatçı", kind: latinized, lang: tr }
+  - { value: "sözlükçü", kind: latinized, lang: tr }
+summary:
+  ar: "اللغوي صاحب المعجم: يجمع مفردات اللغة من أفواه البادية والنصوص الموثوقة ويرتّبها في كتاب يقصد به لساناً كاملاً. بدأت الصنعة بأسئلة الصحابة عن غريب القرآن وكتب الغريب لابن عباس وأصحابه، فلما فسدت اللغة باختلاط الأعاجم خرج اللغويون إلى البدو يجمعون، حتى وضع الخليل بن أحمد ⁦(ت ١٧٥هـ)⁩ «كتاب العين» أول معجم قصد جمع كل كلمات العربية بترتيب المخارج والتقليب، ثم تتابعت المدارس حتى بلغت ذروة الحجم بلسان العرب لابن منظور وذروة الانتشار بالقاموس المحيط للفيروزآبادي الذي صار «قاموس» اسم المعجم."
+  en: "The lexicographer gathers the tongue's vocabulary from the mouths of the desert Arabs and trusted texts and orders it into a book meant to hold the whole language. The craft began with the Companions' questions about the Qur'an's rare words and the gharib works of Ibn Abbas's circle; then, as contact with non-Arabs corrupted speech, the lughawis went out to the bedouin to collect, until al-Khalil ibn Ahmad (d. 175 AH) made the Kitab al-Ayn, the first dictionary aiming at every Arabic word by the order of articulation points and permutation. School followed school until the largest harvest came in Ibn Manzur's Lisan al-Arab and the widest fame in al-Firuzabadi's al-Qamus al-Muhit, which gave 'qamus' as the very name of the dictionary."
+  ur: "لغت نویس زبان کے الفاظ بادیہ نشین عربوں کی زبانی اور معتبر متون سے جمع کر کے ایسی کتاب مرتب کرتا ہے جس میں پوری زبان سمو آئے۔ اس پیشے کا آغاز صحابہ کے غریب قرآن پر سوالات اور ابن عباس کے حلقے کے غریب رسائی سے ہوا؛ پھر جب غیر عربوں کے اختلاط سے زبان بگڑنے لگی تو لغوی بدووں کے پاس جا کر مادے جمع کرنے لگے، یہاں تک کہ خلیل بن احمد ⁦(وفات ١٧٥ھ)⁩ نے «کتاب العین» لکھی — مخارج و قلب کے نظام پر پوری عربی زبان جمع کرنے والی پہلی لغت۔ پھر مکتب در مکتب یہ سلسلہ ابن منظور کی لسان العرب کے وسیع ترین ذخیرے اور فیروزآبادی کے قاموس المحیط کی وسیع ترین شہرت تک پہنچا، جس نے «قاموس» کو ہی لغت کا نام بنا دیا۔"
+domain: scholarship-teaching
+kind: scholarly
+hirfa: false
+era:
+  origins: prophetic
+  status_today: transformed
+places:
+  - { place: place/basra, note: "The gathering of dictionary material belonged to the philologists of the garrison towns — Khalil ibn Ahmad, Khalaf al-Ahmar, al-Kisa'i, Nadr ibn Shumayl, al-Asma'i, Abu Zayd al-Ansari, Ibn Durayd, al-Azhari and al-Jawhari — who confined collecting to the Bedouin and the texts of the Jahiliyya and early Islamic centuries.", sources: [source/tdv-sozluk] }
+  - { place: place/baghdad, note: "The collecting passed through three stages — unordered notes, single-subject word-books in the second century AH, then whole-language dictionaries on an ordering system, the first being Khalil ibn Ahmad's Kitab al-Ayn written near the end of his life.", sources: [source/tdv-sozluk] }
+regions: [levant-iraq, arabia, persia-central-asia, anatolia-balkans, south-asia, egypt-nile, maghreb, andalus-europe, global]
+organization:
+  organized: informal
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people]
+periods: [period/prophetic-era, period/rashidun, period/umayyad, period/abbasid-early, period/abbasid-fragmentation, period/buyid-seljuk-fatimid-era, period/crusades-ayyubid-mamluk, period/gunpowder-empires, period/modern-era]
+sources: [source/tdv-sozluk]
+training:
+  mode: ijaza-chain
+  certification: "No office or licence is described; the lexicographer was a lughawi formed in the philologists' circles and by fieldwork — the compilers restricted their raw material to the desert Arabs and to literary texts composed down to about 150/767, excluding tribes whose speech they judged corrupted by mixing with foreigners."
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-scholar-1" }
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi, 'SÖZLÜK' (Durmuş; Yazıcı; Topaloğlu & Kaçalin, 2009), web edition read on 16 Nov 2026: the Arabic dictionary's origins, collecting rules, ordering systems and the Persian and Turkish sections"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-scholar-1-drafting"

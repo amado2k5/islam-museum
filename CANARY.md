@@ -13,6 +13,13 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v1.54.0 — 2026-11-16
+### Added
+- Job Browser: six scholarly professions — the mufassir of the tafsir schools, the mutakallim of the kalam debates, the historian crowned by the Ottoman vak'anuvis state historiographer, the grammarian of the Basra–Kufa–Baghdad tabaqat, the lexicographer from Khalil's Kitab al-Ayn to the Qamus, and the hafiz-i kutub keeper of the waqf library — in Arabic, English and Urdu draft cited to the TDV entries TEFSİR, KELÂM, VAK'ANÜVİS, NAHİV, SÖZLÜK and HÂFIZ-ı KÜTÜB.
+
+## v1.53.0 — 2026-11-16
+### Added
+- Job Browser: six more professions, opening governance-law and deepening faith-preaching — the imam of the daily prayers, the qari Qur'an reciter and the Darulkurra schools, the sufi shaykh of the tekke, the sahib al-shurta police chief of the classical city, the qadi al-qudat chief judge who appointed the provincial qadis, and the hakam arbiter — in Arabic, English and Urdu draft cited to the TDV entries İMAM, KIRAAT, DÂRÜLKURRÂ, ŞEYH (tasavvuf), ŞURTA, KĀDILKUDÂT, HAKEM and TAHKÎM.
 ## v1.53.0 — 2026-11-16
 ### Added
 - Five more Inventions Browser records built from recorded Wikipedia revisions and the engineering-history literature, each with Arabic, English and Urdu prose: the tarsh printing plates of Fatimid Egypt; the Mamluk hand cannon; Taqi al-Din's steam-driven spit of 1551; improvements to the saqiya water-lifting wheel; and the lateen sail's contested Mediterranean history.

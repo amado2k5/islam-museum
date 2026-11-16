@@ -1,0 +1,42 @@
+id: job/sahib-al-shurta
+class: job
+label: { ar: "صاحب الشرطة", en: "Sahib al-shurta (chief of the urban police)", ur: "صاحب شرطہ" }
+names:
+  - { value: "أمير الشرطة", kind: alternate }
+  - { value: "صاحب الأحداث", kind: alternate }
+  - { value: "والي الأحداث", kind: alternate }
+  - { value: "صاحب المدينة", kind: alternate }
+  - { value: "شحنة", kind: alternate }
+summary:
+  ar: "صاحب الشرطة رئيس جهاز أمن المدينة في الدول الإسلامية؛ بدأ المنصب بأول تعيينٍ في عهد عثمان لابن كنفذ ثم استقل عن القضاء وتوسّع في الدولتين الأموية والعباسية حتى صار من أركان البيروقراطية الأربعة ومقدَّماً على الوزراء في البرتوكول. كان يختار من أثقاء الخليفة أو الوالي، يلبس الخلعة والمنطقة والشاشية يوم التولية، يعقّب المجرمين ويدير السجون وينفّذ الأحكام ويرفع تقرير الأمن إلى الخليفة، ويتقاضى في العهد العباسي ألف دينار."
+  en: "The sahib al-shurta headed the shurta, the urban security force of the Islamic states; the office began with Uthman's appointment of Ibn Kunfudh, broke free of the qadi's department, and grew under the Umayyads and Abbasids until Mansur counted it one of the four pillars of government and its chief walked directly before the caliph in protocol. Chosen from the ruler's most trusted men, invested with the khil'a, mintaqa and shashiyya at his accession, he hunted criminals, ran the prisons, executed sentences, reported on security to the caliph and drew a thousand dinars under the Abbasids."
+  ur: "صاحب شرطہ اسلامی ریاستوں میں شہر کی سیکورٹی فورس شرطہ کا سربراہ تھا؛ یہ منصب عثمان کے عہد میں ابن کنفذ کی تقرری سے شروع ہوا، عدالت سے الگ ہوا اور اموی و عباسی دور میں اتنا بڑا کہ منصور نے اسے حکومت کے چار ستونوں میں شمار کیا اور اس کا سردار پروٹوکول میں خلیفہ کے بالکل آگے چلتا تھا۔ وہ حکمران کے قریب ترین لوگوں میں سے چنا جاتا، تقرری پر خلعت، منطقہ اور شاشیہ پہنتا، مجرموں کا پیچھا کرتا، جیل چلاتا، سزائیں نافذ کرتا اور خلیفہ کو سیکورٹی رپورٹ پیش کرتا؛ عباسی دور میں اس کی تنخواہ ایک ہزار دینار تھی۔"
+domain: governance-law
+kind: office
+hirfa: false
+era:
+  origins: early-caliphate
+  status_today: transformed
+places:
+  - { place: place/medina, note: "The first sahib al-shurta on record is Abdullah (Muhajir) ibn Kunfudh al-Taymi, appointed by the caliph Uthman at Medina; the office then spread to the other great cities of his caliphate.", sources: [source/tdv-surta] }
+  - { place: place/baghdad, note: "Abbasid Baghdad divided its shurta into shurtat al-asima and shurtat al-jisr, then one for each bank; the sahib al-shurta ranked with the emir, preceded the caliph in protocol, often rose to the vizierate and drew a thousand dinars.", sources: [source/tdv-surta] }
+  - { place: place/al-fustat, note: "Egypt's shurta stood as the province's second office after the emir: Fustat kept two shurta buildings (al-sufla and al-ulya) under chiefs named by the governor, and the force included a five-hundred-man fire service and checked travellers' identity papers.", sources: [source/tdv-surta] }
+regions: [arabia, levant-iraq, egypt-nile, maghreb, anatolia-balkans, persia-central-asia, andalus-europe, south-asia]
+organization:
+  organized: court-office
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people]
+periods: [period/rashidun, period/umayyad, period/abbasid-early, period/buyid-seljuk-fatimid-era, period/crusades-ayyubid-mamluk]
+sources: [source/tdv-surta]
+training:
+  mode: state-licence
+  certification: "Appointment by the caliph or governor from among his most trusted men and kinsmen; at the accession ceremony he was invested with the khil'a, the mintaqa belt and the shashiyya head-cloth, the uniform in which he attended the ruler's presence."
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-faith-1" }
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi, 'ŞURTA' (Yılmaz, 2010), web edition read on 16 Nov 2026: first appointments, the Umayyad and Abbasid organisation, judicial powers, personnel, uniform and arms"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-faith-1-drafting"
