@@ -1,0 +1,46 @@
+id: job/parchment-maker
+class: job
+label: { ar: "صانع الرُّقوق", en: "Parchment-maker (raqqaq / keiderji)", ur: "رقّ ساز" }
+names:
+  - { value: "keiderci", kind: alternate, lang: tr }
+  - { value: "Keiderjian", kind: latinized, lang: tr }
+  - { value: "رقّاق", kind: alternate }
+summary:
+  ar: "صانع الرُّقوق مُعِدُّ جلود البهائم صحفاً للكتابة: ينزع الشعر ويملّس الجلد حتى يقبل المداد، وكان الرُّقّ صحيفة المصاحف والدواوين قبل أن يعمّ الكاغد. عدّ إوليا الكيدرجية ⁦(صنّاع الرُّقوق)⁩ في إسطنبول ثلاثمئة رجل بثمانين دكاناً كلّهم يهود ومصنعهم عند خوجة باشا، وخلفهم مشى مصوّرو الرُّقوق ⁦(طورشجيان)⁩ يزيّنون دكاكينهم وأنفسهم بالرقوق المدهشة المصبوغة. ويصف أرنولد وغروهمان بقايا هذه الصنعة: مصحف مكتبة القاهرة المنسوب إلى الإمام جعفر بن محمد الصادق في مئتين وتسع ورقات من رقّ الغزلان، كُتب نحو سنة 720 م في تقدير شتيرن، وأوراق الرُّقوق التي لُزقت ظهور المصاحف وأغلفتها في مصر الفاطمية، والرقّ الأبيض الذي بقيت عليه مخطوطات بردية راينر. فلمّا راج الكاغد على صناعة الرُّقّ لم تمت، بل تحوّلت إلى صحف الفرمانات والمصاحف الجليلة."
+  en: "The parchment-maker prepared the skins of animals into leaves for writing: he stripped the hair and dressed the skin until it took the ink, and the riqq was the leaf of Qur'an codices and chancery rolls before paper spread. Evliya counts the parchment-makers (Keiderjian) of Istanbul at three hundred men in eighty shops, all Jews, their manufactory at Khoja-pasha, and behind them walked the parchment-painters (Turshejian) adorning their shops and their own clothes with painted parchments. Arnold and Grohmann show what the craft left behind: the Cairo Library's codex ascribed to the Imam Ja'far b. Muhammad al-Sadiq on two hundred and nine leaves of gazelle parchment, dated by Stern to about 720 A.D.; the parchment leaves pasted into the covers of Fatimid-era Egyptian bindings; and the white parchments on which the Rainer-collection manuscripts survive. When paper rose the riqq trade did not die, but narrowed to the leaves of firmans and noble codices."
+  ur: "رقّ ساز جانوروں کی کھالوں کو تحریر کے قابل صفحے بناتا تھا: بال اتار کر کھال کو اس وقت تک مہکاتا یہاں تک کہ سیاہی قبول کرے، اور کاغذ کے عام ہونے سے پہلے رق مصاحف اور فرمانوں کا کاغذ تھا۔ اولیاء استنبول کے رق سازوں ⁦(کیدرجیان)⁩ کو تین سو آدمی اسی دکانیں گنتا، سب یہودی، ان کی کارخانہ خوجہ پاشا کے پاس، اور ان کے پیچھے رقّ پر نقش بنانے والے ⁦(طورشجیان)⁩ چلے جو اپنی دکانیں اور اپنے کپڑے رنگین رقّوں سے سجاتے تھے۔ آرنلڈ اور گروہمان اس صنعت کی باقیات دکھاتے ہیں: قاہرہ لائبریری کا امام جعفر بن محمد صادق سے منسوب مصحف دو سو نو ہرن کے رق کے ورقوں پر، جسے شٹیرن نے تقریباً 720ء کا ٹھہرایا؛ فاطمی دور کی مصر کی جلدوں میں چسپاں رق کے ورق؛ اور وہ سفید رق جن پر رائنر ذخیرے کی کتابیں بچیں۔ جب کاغذ چلا تو رق کی صنعت مری نہیں بلکہ فرمانوں اور نفیس مصاحف کے صفحوں تک محدود ہو گئی۔"
+domain: building-making
+kind: craft
+hirfa: true
+era:
+  origins: pre-islamic
+  status_today: replaced
+  successor_jobs: [job/papermaker]
+places:
+  - { place: place/istanbul, note: "Evliya counts the parchment-makers (Keiderjian) at three hundred men in eighty shops, all Jews, their manufactory at Khoja-pasha; the parchment-painters (Turshejian) follow with painted parchments on their shops and their clothes.", sources: [source/evliya-seyahatname-hammer] }
+  - { place: place/cairo, note: "The Egyptian Library's codex ascribed to Ja'far al-Sadiq holds the first half of the Qur'an on 209 leaves of gazelle parchment, dated by Stern to about 720 A.D.; Grohmann found parchment leaves pasted inside the covers of early Egyptian bindings.", sources: [source/arnold-grohmann-islamic-book-1929] }
+regions: [anatolia-balkans, egypt-nile, levant-iraq]
+organization:
+  organized: guild
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people]
+periods: [period/prophetic-era, period/rashidun, period/umayyad, period/abbasid-early, period/buyid-seljuk-fatimid-era, period/crusades-ayyubid-mamluk, period/gunpowder-empires]
+sources: [source/evliya-seyahatname-hammer, source/arnold-grohmann-islamic-book-1929]
+craft:
+  materials: [parchment, leather]
+  techniques:
+    ar: "يبقى من صنع الرُّقّ عندنا ما في الكتب لا ما في الرزنامة الحِرفية، لكن أثره قائم: يذكر أرنولد وغروهمان أن خشبتي الغلاف استُعملتا على عهد النبوة لضمّ الأوراق السائبة التي كُتبت عليها سُوَر القرآن، وأن فكرة الأغلفة الخشبية جاءت على الأرجح من الحبشة حيث كانت الكتب تجلَّد في أغلفة خشبية من قديم؛ ويصف مصحف جعفر الصادق المكتوب على مئتين وتسع ورقات من رقّ الغزلان وأغلفة الخشب المصمتة سنتمتراً بكسوة جلد بنيّ، وأوراق الرقّ الملصوقة داخل أغلفة المخطوطات المصرية الأولى، والرقّ الأصفر الجميل الذي يحفظ متوناً قبطية من القرن السابع، وحِزام الرقّ الذي تُشَدّ منه قطع في الزخرفة المفرّغة."
+    en: "The making of parchment itself survives for us in books rather than in a guild manual, but its traces stand: Arnold and Grohmann relate that two wooden boards were used even in the Prophet's lifetime to enclose the loose leaves on which the sections of the Qur'an were written, and that the idea of wooden covers probably came from Abyssinia, where books had long been bound in wooden covers; they describe the Ja'far al-Sadiq codex written on 209 leaves of gazelle parchment, its centimetre-thick wooden boards in a brown leather cover; parchment leaves pasted inside the covers of early Egyptian manuscripts; the fine yellow parchment preserving Coptic texts of the seventh century; and the strips of parchment drawn through slits for openwork ornament."
+    ur: "رق بنانے کی صنعت ہم تک دستورِ صنعت میں نہیں بلکہ کتابوں میں پہنچی، مگر اس کے آثار قائم ہیں: آرنلڈ اور گروہمان بتاتے ہیں کہ نبوت کے زمانے میں بھی دو لکڑی کی تختیاں قرآن کی سورتوں والے کھلے ورقوں کو جوڑنے کے لیے استعمال ہوتیں، اور لکڑی کی جلد کا تصور غالباً حبشہ سے آیا جہاں کتابیں پہلے سے لکڑی کی جلدوں میں بندتیں؛ وہ جعفر صادق کے مصحف کو بیان کرتے ہیں جو دو سو نو ہرن کے رق کے ورقوں پر ہے، ایک سینٹی میٹر موٹی لکڑی کی تختیوں میں بھوری چمڑے کی جلد؛ ابتدائی مصری کتابوں کی جلدوں کے اندر چسپاں رق کے ورق؛ ساتویں صدی کے قبطی متن سہولت سفید زرد رق پر؛ اور فریت کاری کے لیے شگافوں سے گزرنے والی رق کی پٹیاں۔"
+  guild:
+    bodies: []
+    shaykh_title: { ar: "شيخ طائفة الكيدرجية", en: "Sheykh of the parchment-makers' guild", ur: "طائفۃ رقّ سازوں کا شیخ" }
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-trades-3" }
+provenance:
+  layer: own-research
+  source: "Evliya (von Hammer) I,2 secs. 351-352, p. 207 area (the Keiderjian parchment-makers and the Turshejian parchment-painters); Arnold & Grohmann, The Islamic Book, Pegasus Press 1929, pp. 30-44 (wooden covers in the Prophet's lifetime and from Abyssinia; the Ja'far al-Sadiq codex on 209 gazelle-parchment leaves dated by Stern c. 720; parchment end-papers and pasted parchment leaves in early Egyptian bindings) — read on 16 Nov 2026 from the downloaded scans"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-trades-3-drafting"

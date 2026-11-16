@@ -1,0 +1,46 @@
+id: job/tent-maker
+class: job
+label: { ar: "الخَيَّامِيّ", en: "Tent-maker (khayyami / khaimeji)", ur: "خیمہ ساز" }
+names:
+  - { value: "khaimeji", kind: alternate, lang: tr }
+  - { value: "Khaimejian", kind: latinized, lang: tr }
+  - { value: "çadırcı", kind: alternate, lang: tr }
+  - { value: "Tanabjian", kind: latinized, lang: tr }
+summary:
+  ar: "الخَيَّامِيّ صانع الخيام والمضارب وصناعتها من أقدم الصنائع عند إوليا، إذ يجعل مبتدعها جمشيد الذي صنع أول خيمة، وبيرها زمن النبوة ناصر بن عبد الله المكيّ الخيّام الذي قلّده سلمان وصنع خيمة النبي من الإحرام أي ثياب الحجّ الغليظة. يمرّ الخيّامجية ⁦(صنّاع الخيام)⁩ في الموكب وقد نصبوا خياماً فاخرة على محفّات، وفي داخلها غلمان حسان يعملون ويمازح بعضهم بعضاً، وبعضهم يمدّ الشنّ ⁦(السایبان)⁩ والناموسيات ⁦(ناموسية)⁩؛ ومعهم صنّاع أطناب الخيام ⁦(طنبجيان)⁩ مئة رجل بأربعين دكاناً يزيّنون خيامهم بأطناب من القطن بألوان مختلفة. وفي إسطنبول حيٌّ يُسمّى محلة الأوتاقجية ⁦(الخياميين)⁩ نسبةً إلى خيّامي العسكر الذين نزلوا فيه حين خُيّطت الحرب على الروملي."
+  en: "The khayyami made tents and pavilions, and in Evliya's telling the craft is among the oldest: its inventor is Jemshid, who made the first tent, and its patron in the Prophet's time is Nassir ibn Abdallah al-Makki the tent-maker, girded by Selman, who made the Prophet's tent of ihram — the coarse cloth of the pilgrim's dress. The tent-makers (Khaimejian) passed in the procession with fine tents dressed on litters, fine boys seen working inside them and playing tricks with each other, some busy setting up awnings and mosquito-nets (Sayeban, Namusie); with them marched the tent-rope-makers (Tanabjian), a hundred men in forty shops, adorning their tents with tent-ropes of cotton in different colours. And Istanbul kept a quarter named Mohalle Otakjian after the tent-pitchers of the army, who had their station there when war was made against Rumeli."
+  ur: "خیمہ ساز خیمے اور ڈیرے بنانے والا ہے، اور اولیاء کی روایت میں یہ صنعت قدیم ترین میں ہے: اس کی ایجاد جمشید نے کی جس نے پہلا خیمہ بنایا، اور نبوت کے زمانے میں اس کا پیر ناصر بن عبد اللہ مکی خیمہ ساز ہے جسے سلمان نے کمر بند پہنائی اور جس نے نبی کا خیمہ احرام کے موٹے کپڑے سے بنایا۔ خیمہ ساز ⁦(خیمہ جیان)⁩ جلوس میں محفوں پر سجے خوبصورت خیمے لے کر چلے، جن میں حسین لڑکے کام کرتے اور آپس میں چھیڑ چھاڑ کرتے، کچھ سایہ بان ⁦(سایبان)⁩ اور مچھردانیاں ⁦(ناموسیہ)⁩ لگاتے؛ ان کے ساتھ خیمے کی رسیاں بنانے والے ⁦(طنبجیان)⁩ سو آدمی چالیس دکانیں جو اپنے خیموں کو مختلف رنگوں کی سوت کی رسیوں سے سجاتے۔ اور استنبول میں محلہ اوتاقجیان کا نام فوج کے خیمہ کُشوں کے پڑاؤ سے پڑا جب روملی پر جنگ تی ہوئی۔"
+domain: building-making
+kind: craft
+hirfa: true
+era:
+  origins: pre-islamic
+  status_today: transformed
+places:
+  - { place: place/istanbul, note: "Evliya's procession shows the Khaimejian dressing fine tents on litters with boys at work inside, and the Tanabjian rope-makers at a hundred men in forty shops; the Otakjian quarter is named for the army's tent-pitchers stationed there for the Rumeli wars.", sources: [source/evliya-seyahatname-hammer] }
+  - { place: place/medina, note: "The guild's patron Nassir ibn Abdallah al-Makki, girded by Selman, made the Prophet's tent of ihram, the coarse cloth of the pilgrim's dress.", sources: [source/evliya-seyahatname-hammer] }
+regions: [anatolia-balkans, arabia, persia-central-asia, levant-iraq]
+organization:
+  organized: guild
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people]
+periods: [period/prophetic-era, period/rashidun, period/crusades-ayyubid-mamluk, period/gunpowder-empires, period/modern-era]
+sources: [source/evliya-seyahatname-hammer]
+craft:
+  materials: [textile, wool, cotton]
+  techniques:
+    ar: "يصف إوليا عرض الطائفة: خيام فاخرة منصوبة على محفّات يُرى في داخلها الغلمان يشتغلون، وبعضهم يمدّ السایبان والناموسيات، وهي الظّلل والناموسيات التي تُكسو بها الخيام؛ وصنّاع الأطناب يزيّنون خيامهم بأطناب القطن الملوّنة المختلفة؛ وبير زمن النبوة ناصر المكيّ صنع خيمة النبي من قماش الإحرام الغليظ. ويبقى في المدينة أثر قديم لهم هو حيّ الأوتاقجية حيث كان معسكر خيّامي العسكر قبيل حروب الروملي، كما سُمّي حيّ الطوبجية بالمدفعجية."
+    en: "Evliya describes the guild's display: fine tents dressed on litters, the boys seen working inside, some setting up the sayeban and namusie — the awnings and mosquito-nets with which tents are hung; the rope-makers adorning their tents with tent-ropes of cotton in different colours; and the patron of the Prophet's time, Nassir al-Makki, made the Prophet's tent of the coarse ihram cloth. The city keeps their old trace in the Otakjian quarter, where the army's tent-pitchers were stationed before the Rumeli wars, just as the Topjian quarter is named for the artillerymen."
+    ur: "اولیاء انجمن کی نمائش بیان کرتا ہے: محفوں پر سجے خوبصورت خیمے جن کے اندر لڑکے کام کرتے دکھائی دیتے، کچھ سایبان اور ناموسیہ یعنی خیموں کی چھائیاں اور مچھردانیاں لگاتے؛ رسیاں بنانے والے اپنے خیمے مختلف رنگوں کی سوت کی رسیوں سے سجاتے؛ اور نبوت کے زمانے کا پیر ناصر مکی نے نبی کا خیمہ احرام کے موٹے کپڑے سے بنایا۔ شہر میں ان کا پرانا نشان اوتاقجیان کا محلہ ہے جہاں روملی کی جنگوں سے پہلے فوج کے خیمہ کش پڑاؤ کرتے، جیسے توپجیان محلہ توپ خانوں کے نام پر ہے۔"
+  guild:
+    bodies: []
+    shaykh_title: { ar: "شيخ طائفة الخيّامجية", en: "Sheykh of the tent-makers' guild", ur: "طائفۃ خیمہ سازوں کا شیخ" }
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-trades-3" }
+provenance:
+  layer: own-research
+  source: "Evliya (von Hammer) I,2 secs. 370-371 p. 201-202 area (Khaimejian tent-makers, Tanabjian tent-rope-makers), and the Mohalle Otakjian quarter description — read on 16 Nov 2026 from the downloaded scan"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-trades-3-drafting"

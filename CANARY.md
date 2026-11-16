@@ -13,6 +13,10 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v1.69.0 — 2026-11-16
+### Added
+- Job Browser: six more trades beyond the original hirfa list — the tinsmith (ṣamkrī/kalayjī), the charcoal-burner (faḥḥām/kömürcü), the parchment-maker, the button-maker (duğmajī/düğmeci), the tent-maker (khayyāmī) and the scissor-maker (maqaṣṣātī) — in Arabic, English and Urdu draft cited to Evliya Çelebi's guild procession, Ibn al-Ukhuwwa, al-Shayzari, Lane and Arnold & Grohmann's Islamic Book.
+
 ## v1.68.0 — 2026-11-16
 ### Added
 - Job Browser: six new trades beyond the original hirfa list — the furrier (farrāʾ), the locksmith (qaffāl/çilingir), the needle-maker (ibrajī/iğneci), the sieve-maker (ghirbālī/elekçi), the fishmonger (sammāk) and the fruit-seller (fākihjī/yemişçi) — in Arabic, English and Urdu draft cited to Evliya Çelebi's guild procession, Ibn al-Ukhuwwa's and al-Shayzari's hisba chapters, and Lane.
