@@ -15,6 +15,11 @@ importance: 2
 status: { review: draft, completeness: 2, generated_by: "body pages read; Claude (Haiku 5.5)" }
 born: { edtf: "895", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Muktadir bi'llah' / H. Kennedy; 282–320 AH) Agrees with Wikidata Q201465 (P569, a statement without a reference), item revision 2553832862, read on 13 November 2026.", sources: [source/wikidata] }
 died: { edtf: "932", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Muktadir bi'llah' / H. Kennedy; 282–320 AH) Agrees with Wikidata Q201465 (P570, a statement without a reference), item revision 2553832862, read on 13 November 2026.", sources: [source/wikidata] }
+faith:
+  - value: sunni
+    basis: tradition
+    note: "Abbasid caliph; Sunni is the museum's explicit default frame for the caliphate."
+    sources: [source/tarikh-khulafa-minhaj-1434]
 relations:
   - { type: ruled_over, target: polity/abbasid-caliphate, sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: successor_of, target: person/al-muktafi-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
