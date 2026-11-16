@@ -33,6 +33,23 @@ wings: [people]
 themes: [scripture-and-its-sciences, sects-and-schools]
 periods: [period/modern-era]
 regions: [arabia]
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave"
+    sources: [source/al-aalam, source/fath-al-qadir-dar-al-marifa, source/fath-al-qadir-dar-al-wafa-v1, source/irshad-al-fuhul-dar-al-fikr, source/viaf-cluster-10652621]
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'jurist', Job Browser linking wave"
+    sources: [source/al-aalam, source/fath-al-qadir-dar-al-marifa, source/fath-al-qadir-dar-al-wafa-v1, source/irshad-al-fuhul-dar-al-fikr, source/viaf-cluster-10652621]
+  - job: job/qadi
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'judge', Job Browser linking wave"
+    sources: [source/al-aalam, source/fath-al-qadir-dar-al-marifa, source/fath-al-qadir-dar-al-wafa-v1, source/irshad-al-fuhul-dar-al-fikr, source/viaf-cluster-10652621]
+
 relations:
   - { type: lived_in, target: place/sanaa, note: "From text: judge of Sana'a", sources: [source/al-aalam, source/fath-al-qadir-dar-al-marifa, source/fath-al-qadir-dar-al-wafa-v1, source/irshad-al-fuhul-dar-al-fikr] }
   - { type: died_in, target: place/sanaa, note: "From text: died in Sana'a", sources: [source/fath-al-qadir-dar-al-marifa, source/fath-al-qadir-dar-al-wafa-v1, source/al-aalam] }

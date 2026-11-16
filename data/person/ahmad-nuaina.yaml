@@ -15,6 +15,23 @@ wings: [people, living]
 regions: [egypt-nile]
 roles: [reciter, physician, judge]
 born: { edtf: "1954-03-15", calendar: gregorian, precision: day, status: historical, derived: false, note: "Born at Metoubes, Kafr El Sheikh (English article; Wikidata gives the same day and place). No place entity for Metoubes exists, so no birthplace relation is written.", sources: [source/wikipedia-ahmad-nuaina-en, source/wikidata-ahmad-nuaina] }
+occupations:
+  - job: job/qari
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'reciter', Job Browser linking wave"
+    sources: [source/wikipedia-ahmad-nuaina-en, source/wikidata-ahmad-nuaina, source/wikidata]
+  - job: job/physician
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'physician', Job Browser linking wave"
+    sources: [source/wikipedia-ahmad-nuaina-en, source/wikidata-ahmad-nuaina, source/wikidata]
+  - job: job/qadi
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'judge', Job Browser linking wave"
+    sources: [source/wikipedia-ahmad-nuaina-en, source/wikidata-ahmad-nuaina, source/wikidata]
+
 relations:
   - { type: lived_in, target: place/alexandria, note: "Studied and practised medicine at Alexandria University; regular reciter at al-Samak Mosque for about ten years", sources: [source/wikipedia-ahmad-nuaina-en] }
 faith:

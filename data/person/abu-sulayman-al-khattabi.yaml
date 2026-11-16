@@ -21,6 +21,23 @@ wings: [people]
 themes: [scripture-and-its-sciences]
 regions: [persia-central-asia]
 periods: [period/buyid-seljuk-fatimid-era]
+occupations:
+  - job: job/muhaddith
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'muhaddith', Job Browser linking wave"
+    sources: [source/sunan-abi-dawud-ibn-hazm-1997-v1, source/al-aalam, source/wikidata]
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'faqih', Job Browser linking wave"
+    sources: [source/sunan-abi-dawud-ibn-hazm-1997-v1, source/al-aalam, source/wikidata]
+  - job: job/alim
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave"
+    sources: [source/sunan-abi-dawud-ibn-hazm-1997-v1, source/al-aalam, source/wikidata]
+
 relations:
   - { type: born_in, target: place/bust, sources: [source/sunan-abi-dawud-ibn-hazm-1997-v1] }
   - { type: died_in, target: place/bust, sources: [source/sunan-abi-dawud-ibn-hazm-1997-v1] }
