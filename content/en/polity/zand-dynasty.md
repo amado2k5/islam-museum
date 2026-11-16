@@ -15,3 +15,6 @@ Karim Khan made no provision for his succession and his four sons became pawns i
 
 ## In the Nomisma vocabulary
 Nomisma holds a concept record for the family under the identifier «zand», with the alternative labels Zand Dynasty and Zandiyeh Dynasty; at the query of 14 November 2026 one membership record was attached to it by the organisation relation, and no coin or coin type. {cite:nomisma zand}
+
+## In The Oxford Dictionary of Islam
+The entry on the Zand dynasty describes chieftains ruling Iran's west and south between 1751 and 1794. Karim Khan Zand, its founder, controlled everything but Khurasan. What began — the Dictionary says — as restoring the Safavids turned into an independent bid for order and prosperity: trade was rebuilt and redirected across Iran, coins were struck for the Hidden Imam, a mosque rose in Shiraz, and the rulers never asked clerics to endorse their power. Karim Khan's memory endures as the Islamic era's most humane Iranian sovereign; the Qajars overthrew his descendants. {cite:oxford-dictionary-of-islam e2561}

@@ -1,0 +1,14 @@
+---
+id: concept/aghshiyat-al-ayn-wa-al-jufn
+lang: en
+source_lang: ar
+translators: [ai]
+---
+## The net-like coat and the spider-web separator
+The nerve's end holds the glass-like and ice-like humours as a net holds the catch, hence its name net-like (retina); from its end grows a spider-web tissue from which a thin peritoneum arises, a separator between the ice-like and the white-of-egg — so that between the subtle and the dense there is a barrier, while nourishment reaches the ice-like from in front through the net-like and choroid; it is thin as a spider's web because a dense coat standing before the ice-like might block the light from it through the white-of-egg {cite:canon-ibn-sina-print-v2 p.161} {cite:canon-ibn-sina-print-v2 p.162}
+
+## The choroid and the grape-like coat
+The thin membrane's end fills and weaves vessels like an afterbirth, for it is the true passage of nourishment — the choroid; what goes past that limit forward thickens into an azure-coloured tunic between white and black, to gather the sight and moderate the light — our sight's closing between the moistures and the very hard cornea — standing as a just mean and feeding the cornea what reaches it from the choroid; its enclosure is not completed in front, lest it bar the transmission of the forms: it leaves an aperture, and when that is blocked vision stops; inside this grape-like coat is a fleece where it meets the ice-like, made loose and soft to lessen the harm of contact; its hardest part is its front where it meets the cornea; the aperture is full of moisture and of spirit, shown by the wasting of what parallels the aperture near death {cite:canon-ibn-sina-print-v2 p.162}
+
+## The cornea, conjunctiva, lid and lashes
+The second veil is very dense, to hold fast; its rear is the hard thick tunic, its front surrounds the whole pupil and is transparent not to bar vision — in the colour of thinned horn, hence cornea; its weakest part is the foremost, built as of four thin layers like stacked shells — if one peels off the harm does not spread — though some say three coats; the part level with the aperture most needs cover and protection; the third admixes with the pupil's muscle of motion and is full of white greasy flesh to soften eye and lid and keep them from drying — its whole is the conjunctiva; the lashes were made to drive off what flies or descends to the eye from the head and to moderate light with their blackness, black gathering the light of sight, set in a cartilage-like membrane so they stand well and serve the opening muscle as a bone-like stay; the eyelid's parts are skin, one tarsal plate, fat, muscle, then the other tarsus — the upper; the lower is bound from muscular parts, and the dangerous spot to cut is what lies at its mooring by the muscle's origin {cite:canon-ibn-sina-print-v2 p.162} {cite:canon-ibn-sina-print-v2 p.163}

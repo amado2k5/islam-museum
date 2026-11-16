@@ -1,0 +1,33 @@
+id: "concept/mabadi-ilaj-al-khadar"
+class: "concept"
+kind: "scientific"
+label:
+  ar: "مبادئ إيلاج الخدر"
+  en: "Principles of treating numbness"
+  ur: "خدر کے علاج کے اصول"
+summary:
+  ar: "علاج الخدر على ما قيل في الرعشة بعينه، إلا أنه إن كان عن دم غالب وقامت دلالة الامتلاء نفع الفصد البالغ في الأكثر وحده مع إصلاح التدبير وتجفيف الغذاء، ولا يقتصر على معالجة الموضع بل يعالج مبدأ العصب السالك إليه، ومن النافع رياضة العضو ودوام تحريكه {cite:canon-ibn-sina-print-v2 p.159} {cite:canon-ibn-sina-print-v2 p.160}"
+  en: "Numbness's treatment is the very one given under tremor; but when it is from prevailing blood with the proofs of repletion standing, a thorough venesection mostly removes it alone, with correction of regimen and drying of food; one must not treat only the spot but the origin of the nerve reaching it, and among the useful is exercising the organ and keeping it moving {cite:canon-ibn-sina-print-v2 p.159} {cite:canon-ibn-sina-print-v2 p.160}"
+  ur: "خدر کا علاج وہی ہے جو رعشہ میں کہا گیا؛ لیکن اگر وہ غالب خون سے ہو اور امتلاء کی دلیلیں قائم ہوں تو غالباً مکمل فصد ہی اسے دور کر دیتا ہے، تدبیر کی اصلاح اور غذا کی خشکی کے ساتھ؛ صرف مقام کے علاج پر اکتفا نہیں کیا جاتا بلکہ اس عصب کی ابتدا کا علاج کیا جاتا ہے جو وہاں جاتی ہے، اور مفید میں عضو کی ریاضت اور اسے مسلسل حرکت دینا ہے {cite:canon-ibn-sina-print-v2 p.159} {cite:canon-ibn-sina-print-v2 p.160}"
+wings:
+- "living"
+tags:
+- "tibb-browser"
+- "tibb-tibb"
+sources:
+- "source/canon-ibn-sina-print-v2"
+relations:
+- type: "part_of"
+  target: "concept/medical-treatment"
+  sources:
+  - "source/canon-ibn-sina-print-v2"
+provenance:
+  layer: "own-research"
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 2 (nerve diseases) end of maqala 1 and Fann 3 (the eye's anatomy, states and diseases) maqalat 1-2, scan pages 159-160, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json); editor glosses used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping, cautery and artery sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, semen, coitus and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Devin subagent (SWE-2 Medium, Lane A4 worker)"
+  model: "swe-2-medium"
+  run: "a4-canon-book3-8"
+status:
+  review: "published"
+  completeness: 1
+  generated_by: "Devin subagent (SWE-2 Medium, book mining, lane A4)"

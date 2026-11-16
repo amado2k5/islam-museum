@@ -1,0 +1,33 @@
+id: "concept/al-buthur-fi-al-ayn"
+class: "concept"
+kind: "scientific"
+label:
+  ar: "البثور في العين"
+  en: "Pustules in the eye"
+  ur: "آنکھ میں بثور"
+summary:
+  ar: "البثور في العين ما كان على القرنية يكون إلى البياض وما كان على الملتحمة يكون إلى الحمرة، وعلاجه الفصد وتقطير الدم في العين على ما يذكر في باب الطرفة وتضميد العين بصوفة مغموسة بما يلينها ⁦(أسماء الأدوية والشيافات لا تحمل)⁩ {cite:canon-ibn-sina-print-v2 p.180}"
+  en: "The eye's pustules: what is on the cornea tends to whiteness, what is on the conjunctiva to redness; its treatment is venesection and dripping blood into the eye as told in the chapter of the tarfa, and poulticing the eye with wool soaked in what softens it ⁦(drug and collyrium names are not carried)⁩ {cite:canon-ibn-sina-print-v2 p.180}"
+  ur: "آنکھ میں بثور: جو قرنیہ پر ہو وہ سفیدی کی طرف ہوتا ہے اور جو ملتحمہ پر ہو وہ سرخی کی طرف؛ اس کا علاج فصد اور طرفہ کے باب کے طریقے پر آنکھ میں خون ٹپکانا اور آنکھ پر ایسے میں بھیجی اون کی پٹی رکھنا ہے جو اسے نرم کرے ⁦(ادویہ اور شیافوں کے نام منقول نہیں)⁩ {cite:canon-ibn-sina-print-v2 p.180}"
+wings:
+- "living"
+tags:
+- "tibb-browser"
+- "tibb-tibb"
+sources:
+- "source/canon-ibn-sina-print-v2"
+relations:
+- type: "part_of"
+  target: "concept/disease"
+  sources:
+  - "source/canon-ibn-sina-print-v2"
+provenance:
+  layer: "own-research"
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 2 (nerve diseases) end of maqala 1 and Fann 3 (the eye's anatomy, states and diseases) maqalat 1-2, scan pages 180, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json); editor glosses used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping, cautery and artery sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, semen, coitus and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Devin subagent (SWE-2 Medium, Lane A4 worker)"
+  model: "swe-2-medium"
+  run: "a4-canon-book3-8"
+status:
+  review: "published"
+  completeness: 1
+  generated_by: "Devin subagent (SWE-2 Medium, book mining, lane A4)"

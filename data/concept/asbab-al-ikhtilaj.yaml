@@ -1,0 +1,33 @@
+id: "concept/asbab-al-ikhtilaj"
+class: "concept"
+kind: "scientific"
+label:
+  ar: "أسباب الاختلاج"
+  en: "Causes of ikhtilaj"
+  ur: "اختلاج کے اسباب"
+summary:
+  ar: "أسباب الاختلاج قوة مبردة ومادة رطبة وقد يعرض من الأعراض النفسانية كثيراً خصوصاً من الفرح وكذلك من الغم والغضب لأن الحركة من الروح قد تحلل المواد رياحاً، وإذا عم البدن أنذر بسكتة أو كزاز وإذا دام بالمراق أنذر بالمالنخوليا وإذا دام بالوجه أنذر باللقوة {cite:canon-ibn-sina-print-v2 p.160}"
+  en: "The causes of ikhtilaj are a cooled power and a moist matter; it often arises from psychical events, especially joy, likewise grief and anger, for the spirit's motion can dissolve matters into winds; generalised it warns of apoplexy or tetanus; persistent in the temples it warns of melancholy; persistent in the face, of facial palsy {cite:canon-ibn-sina-print-v2 p.160}"
+  ur: "اختلاج کے اسباب ٹھنڈی کی ہوئی قوت اور مرطوب مادہ ہیں؛ وہ نفسانی عوارض سے بھی اکثر ہوتا ہے، بالخصوص خوشی سے، اور اسی طرح غم اور غصے سے، کیونکہ روح کی حرکت مادوں کو ہواؤں میں تحلیل کر سکتی ہے؛ سارے بدن میں پھیل جائے تو سکتے یا کزاز کی پیش خبری ہے؛ مآق پر قائم رہے تو مالیخولیا کی؛ چہرے پر قائم رہے تو لقوہ کی {cite:canon-ibn-sina-print-v2 p.160}"
+wings:
+- "living"
+tags:
+- "tibb-browser"
+- "tibb-tibb"
+sources:
+- "source/canon-ibn-sina-print-v2"
+relations:
+- type: "part_of"
+  target: "concept/disease"
+  sources:
+  - "source/canon-ibn-sina-print-v2"
+provenance:
+  layer: "own-research"
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 2 (nerve diseases) end of maqala 1 and Fann 3 (the eye's anatomy, states and diseases) maqalat 1-2, scan pages 160, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json); editor glosses used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping, cautery and artery sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, semen, coitus and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Devin subagent (SWE-2 Medium, Lane A4 worker)"
+  model: "swe-2-medium"
+  run: "a4-canon-book3-8"
+status:
+  review: "published"
+  completeness: 1
+  generated_by: "Devin subagent (SWE-2 Medium, book mining, lane A4)"

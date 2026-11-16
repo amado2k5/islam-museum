@@ -300,3 +300,6 @@ Abu Yusuf transmits differing allocations, with the printed48editorial note expl
 ## From Sheikh Omar Abdelkafy's Sharh Ketab Al-Fawaed lectures (episode 7)
 
 The Sheikh relates that Umar ibn al-Khattab answered Abu Sufyan ibn Harb about the hadd for theft and showed it to him, and Abu Sufyan said: praise be to God who honours the lowly through his obedience. {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep7 00:24:30} ⁦(needs_source: the recording wording is partly garbled)⁩
+
+## In The Oxford Dictionary of Islam
+The entry on Umar ibn al-Khattab presents the second Sunni caliph (r. 634–644), Companion of Muhammad, who guided the empire's huge expansion and took 'Commander of the Faithful' as his title. A great commander, he turned the Arab conquerors into an elite military caste governing new lands yet kept from farming and trade; let subject peoples keep their faiths for a poll tax instead of forced conversion; was a prolific and especially trusted hadith transmitter; and set up the committee electing his successor, its choice sealed with clasped hands and oaths of allegiance. {cite:oxford-dictionary-of-islam e2419}

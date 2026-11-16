@@ -49,3 +49,6 @@ Omar Abdelkafy says that people used to make way for Ali Zayn al-Abidin at the c
 
 ## From Omar Abdelkafy's programme Bustan al-Amal
 The Sheikh relates that Ali Zayn al-Abidin ibn al-Husayn was in Kufa for forty years, and the poor opened their doors at dawn to find food, drink, clothing and money without knowing who left them, until he died and it stopped, and they knew it had been he; he tells it as an example of secret charity (needs_source: the place and duration as the Sheikh gives them). {cite:assabile-omar-abdelkafy bustan-el-amal/ep22 00:08:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep22 00:08:30}
+
+## In The Oxford Dictionary of Islam
+The entry on Ali Zayn al-Abidin presents the fourth Shii imam (d. about 713), great-grandson of Muhammad, and Husayn's only son to come through Karbala alive — spared, the entry says, because Husayn's sister Zaynab persuaded Yazid's soldiers to leave him, keeping an heir for the imamate. He grew into a respected Hejazi scholar given to prayer. His restraint toward the Umayyads pushed many Shiis toward Ali's third son, born of a Hanafi woman — a break with the earlier assumption that the imamate belonged only to the line of Ali and Fatimah — and twentieth-century readers have cast him as an emblem of patient endurance against long odds. {cite:oxford-dictionary-of-islam e2568}

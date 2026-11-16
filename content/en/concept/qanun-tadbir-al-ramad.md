@@ -1,0 +1,17 @@
+---
+id: concept/qanun-tadbir-al-ramad
+lang: en
+source_lang: ar
+translators: [ai]
+---
+## The general regimen
+The shared canon in the regimen of material ramad and the eye's other material diseases: lessen and lighten the food, choose what breeds a laudable humour, shun every vaporous and ill-digesting thing, shun motion, oiling the head and wine, shun the sour, salty and acrid, keep the bowels loose, and venesection ⁦(its site is not carried)⁩ — for it suits all kinds {cite:canon-ibn-sina-print-v2 p.170}
+
+## Sight, house, sleep and hair
+The ramad patient's sight must not fall on white or on glare; what is spread for him and surrounds him should be black and green, a black cloth hung before his face waving at his eye — black in illness, azure in health; his dwelling should tend to darkness; sleep must be brought to him, for it is a good treatment; the hair must not be left loose at its root, for it takes part by drying the moistures, drawing to its own nourishment; if the body is clean and the ramad-making humour is born in the veins of the blood kind ⁦(the wine measures and details are not carried)⁩; and the bath after evacuation is the best treatment of ramad, especially when fomentation calms the pain {cite:canon-ibn-sina-print-v2 p.170}
+
+## The method of derivation and evacuation, tending the rheum, early venesection
+If the matter rises from an organ it must be evacuated from that organ and drawn to the opposite side by whatever serves ⁦(artery venesection, artery excision, the thread procedure, cupping, leeching and all their sites are procedures not carried)⁩; if the disease lengthens ⁦(persists)⁩ the mentioned procedures are not carried; if the source is the inner membranes the treatment is strong evacuations plus what strengthens the head of the poultices ⁦(their names are not carried)⁩; drops must not be left long in the eye but renewed at intervals — except white of egg, which need not be renewed and may be left an hour unharmed, better than milk, joining to its softening and smoothing that it neither penetrates nor blocks the pores; in general the drug used in the eye, especially in ramad, must have no harshness nor strong taste — bitter, sour or acrid — and be well pounded to remove the harshness; sternutatives and gargles are used when drawing another matter to the eye is not feared; and the rheum must be cleansed away with a gentleness that does not hurt the eye {cite:canon-ibn-sina-print-v2 p.171} {cite:canon-ibn-sina-print-v2 p.172}
+
+## Severe ramad, delaying the collyria, shunning the condensers
+If the ramad is severe, venesect until syncope is feared — letting much blood cures on the spot; the use of collyria must be delayed as far as possible to three days, keeping to the said regimen of evacuations, drawing matter to the extremities and the said places and states; looseness of nature is a must — even looseness of the bowels for the humour mastering the blood after venesection; there is no good in fomenting before cleansing, nor in the bath either, lest it draw much matter by piercing the eye's coats; strong condensers and harsh astringents must not be used at the start, lest they thicken the coat, bar dissolution and enlarge the pain; weak astringents at the start also fail to check the matter and harm by thickening the outer coat and congesting matter in it — if any of this happens it is mended by always fomenting with hot water; and dissolvents are strongly shunned at the beginning {cite:canon-ibn-sina-print-v2 p.172} {cite:canon-ibn-sina-print-v2 p.172}
