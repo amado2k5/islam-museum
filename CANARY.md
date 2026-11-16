@@ -33,6 +33,14 @@ open a new block on top with the new version and today's date.
 - `features-api.test.ts` asserts the new export: reviewed verses in, unlisted verses out, fully vowelled hadith text matched, and the recitation in prayer, a drawn line, a sermon, a narrator named Nafi', a bare «الحرف» and a bare «النقطة» not mistaken for the topic.
 ### Data
 - All of this prose was written by AI agents from the cited sources and has not been read by a human. Page numbers of the mined passages and of most citations are the page markers of the scanned files, which can differ from printed pages; the OCR text of an excerpt is not corrected, and a few excerpts still carry OCR noise. One name needs a check against the page image: the first name of Ibn Dhakwan, which the OCR of al-Nashr reads differently from other references (the record says so). Nothing is live until the founder deploys.
+## v1.47.0 — 2026-11-16
+### Added
+- Job Browser: six more trades join the professions — the miller (tahhan), the oil-presser (zayyat), the cupper (hajjam) under hisba's strict surgical rules, the carpenter (najjar) with his wages and lock-making, the mat-maker (hassar) whose Cairo weavers struck in 1907, and the perfumer (attar) with his musk and ambergris fraud tests — in Arabic, English and Urdu draft cited to Ibn al-Ukhuwwa's *Ma'alim al-Qurba* (Levy's English abstract), al-Shayzari, Lane, Evliya Çelebi, and Chalcraft's *Striking Cabbies of Cairo*.
+
+## v1.46.0 — 2026-11-16
+### Added
+- Five more Inventions Browser records from harvested sources (King's Synchrony, Farmer's musical-instrument studies, Ukers and Hattox on coffee, EI2 entries read in corpus), each with Arabic, English and Urdu prose: the spherical astrolabe; the oud's transmission to Europe as the lute; the Yemeni coffeehouse as a new social institution; the caravanserai network of the Islamic road; and the reservoir pen made for the Fatimid caliph al-Mu'izz.
+
 ## v1.45.0 — 2026-11-16
 ### Added
 - Job Browser: six more trades join the professions — the cook (tabbakh) of the market cook-shops, the sweet-maker (halwani) and his sugar confections, the dyer (sabbagh) watched for false dyeing, the cobbler (iskafi) forbidden old-leather tricks, the coppersmith (nahhas), and the candle-maker (shamma') — in Arabic, English and Urdu draft cited to the hisba chapters of al-Shayzari's *Nihayat al-Rutba* (Buckley tr.), Lane's *Modern Egyptians*, and Evliya Çelebi's guild procession (von Hammer tr.).
