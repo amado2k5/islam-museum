@@ -18,6 +18,17 @@ wings: [people]
 regions: [arabia]
 periods: [period/abbasid-early]
 died: { hijri: "0182", edtf: "0798~", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي سنة اثنتين وثمانين ومائة بعد مالك بثلاث سنين {cite:tabaqat-fuqaha-abbas-1981 p.124}؛ التحويل مشتق. ولا يذكر المزي في ترجمته سنة وفاته {cite:tahdhib-kamal-mizzi-risala vol. 24 p. 307}.", sources: [source/tabaqat-fuqaha-abbas-1981] }
+occupations:
+  - job: job/faqih
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'jurist', Job Browser linking wave"
+    sources: [source/tabaqat-fuqaha-abbas-1981, source/tahdhib-kamal-mizzi-risala]
+  - job: job/muhaddith
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'muhaddith', Job Browser linking wave"
+    sources: [source/tabaqat-fuqaha-abbas-1981, source/tahdhib-kamal-mizzi-risala]
 relations:
   - { type: student_of, target: person/malik-ibn-anas, sources: [source/tabaqat-fuqaha-abbas-1981] }
   - { type: member_of, target: group/maliki-madhhab, sources: [source/tabaqat-fuqaha-abbas-1981] }

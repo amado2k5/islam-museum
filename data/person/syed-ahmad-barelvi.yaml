@@ -37,6 +37,17 @@ died:
   derived: false
   note: "Killed at Balakot, in the Mansehra district, on Friday 6 May 1831, agreed as a Gregorian date by the English, Arabic and Urdu articles and by Wikidata, fighting the Sikh forces of Sher Singh alongside Shah Ismail Dehlvi and the movement's other leaders. The Hijri day is given as 24 Dhu al-Qa'da 1246 by the Arabic and Urdu articles and as 23 Dhu al-Qa'da 1246 by the English article; the record carries the Hijri year 1246, on which all agree. Balakot has no place entity in the museum yet, so no died_in relation is written."
   sources: [source/wikipedia-syed-ahmad-barelvi-en, source/wikipedia-ahmad-irfan-ar, source/wikipedia-syed-ahmad-barelvi-ur, source/wikidata-syed-ahmad-barelvi]
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave"
+    sources: [source/wikipedia-syed-ahmad-barelvi-en, source/wikipedia-ahmad-irfan-ar, source/wikipedia-syed-ahmad-barelvi-ur, source/wikidata-syed-ahmad-barelvi, source/encyclopaedia-of-islam-2, source/wikidata]
+  - job: job/commander
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'military-leader', Job Browser linking wave"
+    sources: [source/wikipedia-syed-ahmad-barelvi-en, source/wikipedia-ahmad-irfan-ar, source/wikipedia-syed-ahmad-barelvi-ur, source/wikidata-syed-ahmad-barelvi, source/encyclopaedia-of-islam-2, source/wikidata]
 relations:
   - { type: student_of, target: person/shah-abd-al-aziz-dihlawi, sources: [source/wikipedia-syed-ahmad-barelvi-en, source/wikipedia-ahmad-irfan-ar, source/wikipedia-syed-ahmad-barelvi-ur] }
   - { type: lived_in, target: place/delhi, sources: [source/wikipedia-syed-ahmad-barelvi-en, source/wikipedia-ahmad-irfan-ar] }

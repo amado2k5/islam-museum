@@ -13,6 +13,17 @@ regions: [levant-iraq]
 periods: [period/crusades-ayyubid-mamluk]
 born: { edtf: "1205", hijri: "0602", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar Confirmed on 13 November 2026 against Wikidata Q27665732 (P569, a statement with a reference), item revision 2408190004. al-A'lam vol. 4 p. 315 prints 602 AH = 1205 CE, agreeing with the card.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
 died: { edtf: "1258", hijri: "0656", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar Confirmed on 13 November 2026 against Wikidata Q27665732 (P570, a statement with a reference), item revision 2408190004. al-A'lam vol. 4 p. 315 prints 656 AH = 1258 CE, agreeing with the card.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
+occupations:
+  - job: job/poet
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'poet', Job Browser linking wave"
+    sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
+  - job: job/emir
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'emir', Job Browser linking wave"
+    sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 relations:
   - { type: born_in, target: place/al-fustat, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q839456); al-A'lam vol. 4 p. 315 says only that he was born in Egypt" }
   - { type: died_in, target: place/damascus, sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002], confidence: high, note: "Wikidata P20 place of death (Wikidata Q3766); al-A'lam vol. 4 p. 315: he died in Damascus" }

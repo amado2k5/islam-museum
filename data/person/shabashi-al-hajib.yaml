@@ -9,6 +9,17 @@ regions: [levant-iraq]
 roles: [general, patron]
 died:
   { edtf: "1017-10~", hijri: "0408-10", calendar: julian, precision: month, status: tradition, derived: true, note: "شوال 408هـ؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.289}" }
+occupations:
+  - job: job/commander
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'general', Job Browser linking wave"
+    sources: [source/muntazam-ibn-al-jawzi]
+  - job: job/patron
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'patron', Job Browser linking wave"
+    sources: [source/muntazam-ibn-al-jawzi]
 relations:
   - { type: patron_of, target: building/bimaristan-adudi, role: "وقف جباية قناطر الخندق والياسرية والزياتين عليه", sources: [source/muntazam-ibn-al-jawzi] }
   - { type: buried_in, target: place/baghdad, role: "مقبرة الإمام أحمد", sources: [source/muntazam-ibn-al-jawzi] }

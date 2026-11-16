@@ -14,6 +14,17 @@ wings: [people]
 regions: [maghreb]
 periods: [period/gunpowder-empires]
 died: { edtf: "1588~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Algiers)" }
+occupations:
+  - job: job/wali
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'governor', Job Browser linking wave"
+    sources: [source/dawlat-uthmaniyya-salabi]
+  - job: job/commander
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'military-leader', Job Browser linking wave"
+    sources: [source/dawlat-uthmaniyya-salabi]
 relations:
   - { type: ruled_over, target: place/algiers, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: successor_of, target: person/kilic-ali-pasha, sources: [source/dawlat-uthmaniyya-salabi], note: "خلَفه قبوداناً للبحر" }

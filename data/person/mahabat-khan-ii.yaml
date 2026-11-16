@@ -27,6 +27,17 @@ died:
   note: "The English article and Wikidata give 2 January 1675, in the Punjab; place/punjab has no entity on main, so no died_in edge is written. The harvest queue's dates for him, 1610–1678, are not supported by any text read: the article gives no birth date at all and a death in 1675, not 1678, and both queue figures are corrected here. No birth block is built, no source read giving his birth date."
   sources: [source/wikipedia-mahabat-khan-ii-en, source/wikidata-mahabat-khan-ii]
 
+occupations:
+  - job: job/commander
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'general', Job Browser linking wave"
+    sources: [source/wikipedia-mahabat-khan-ii-en, source/wikidata-mahabat-khan-ii]
+  - job: job/wali
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'governor', Job Browser linking wave"
+    sources: [source/wikipedia-mahabat-khan-ii-en, source/wikidata-mahabat-khan-ii]
 relations:
   - { type: died_in, target: place/punjab, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikipedia-mahabat-khan-ii-en, source/wikidata-mahabat-khan-ii] }
   - { type: child_of, target: person/mahabat-khan, sources: [source/wikipedia-mahabat-khan-ii-en, source/wikidata-mahabat-khan-ii] }
