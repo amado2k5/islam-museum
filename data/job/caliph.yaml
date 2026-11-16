@@ -1,0 +1,43 @@
+id: job/caliph
+class: job
+label: { ar: "خليفة", en: "Caliph", ur: "خلیفہ" }
+names:
+  - { value: "أمير المؤمنين", kind: alternate }
+  - { value: "الإمام الأعظم", kind: alternate }
+  - { value: "خليفة رسول الله", kind: alternate }
+  - { value: "hilâfet", kind: latinized, lang: tr }
+  - { value: "imâmet-i kübrâ", kind: latinized, lang: tr }
+summary:
+  ar: "الخليفة رأس الدولة الإسلامية ومن يخلف النبي في تدبير شؤون الأمة؛ قام المنصب حين بايعت الصحابة أبا بكر في سقيفة بني ساعدة، وجُرّب فيه الاختيار والبيعة والشورى ثم استقر سلطنةً وراثية عند الأمويين والعباسيين والعثمانيين، حتى أُلغيت الخلافة في أنقرة سنة ١٩٢٤."
+  en: "The caliph was the head of the Islamic polity, succeeding the Prophet in managing the community's affairs; the office began with the pledge to Abu Bakr at the Saqifa of Banu Sa'ida, moved through election, public bay'a and consultative succession, then settled as hereditary monarchy under the Umayyads, Abbasids and Ottomans, until the caliphate was abolished at Ankara in 1924."
+  ur: "خلیفہ اسلامی ریاست کا سربراہ تھا جو نبی کے بعد امت کے معاملات چلاتا؛ منصب اس وقت قائم ہوا جب صحابہ نے سقیفہ بنی ساعدہ میں ابوبکر کی بیعت کی، پہلے انتخاب، بیعت اور شورٰی کے طریقے آزمائے گئے پھر اموی، عباسی اور عثمانی دور میں وراثی سلطنت بن گئی، بالآخر ۱۹۲۴ میں انقرہ میں خلافت منسوخ کر دی گئی۔"
+domain: governance-law
+kind: office
+hirfa: false
+era:
+  origins: prophetic
+  status_today: extinct
+places:
+  - { place: place/medina, note: "The office arose at Medina: the pledge to Abu Bakr at the Saqifa, the general bay'a in the Prophet's mosque, and the consultative successions of Umar and Uthman all happened there.", sources: [source/tdv-hilafet] }
+  - { place: place/damascus, note: "Under the Umayyads the caliphate turned into hereditary monarchy seated in Damascus, and the holders began to be styled 'khalifat Allah'.", sources: [source/tdv-hilafet] }
+  - { place: place/baghdad, note: "Al-Mansur founded Baghdad as the seat of the Abbasid caliphate; from Samarra and Baghdad the office later passed under Buyid and Seljuk tutelage while remaining the source of legitimacy.", sources: [source/tdv-hilafet] }
+  - { place: place/istanbul, note: "From Istanbul the Ottoman sultans held the caliphate as the last major dynasty to bear it until its abolition in 1924.", sources: [source/tdv-hilafet] }
+regions: [arabia, levant-iraq, egypt-nile, maghreb, andalus-europe, persia-central-asia, anatolia-balkans, south-asia]
+organization:
+  organized: court-office
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people]
+periods: [period/prophetic-era, period/rashidun, period/umayyad, period/abbasid-early, period/abbasid-fragmentation, period/buyid-seljuk-fatimid-era, period/crusades-ayyubid-mamluk, period/mongol-post-mongol, period/gunpowder-empires, period/modern-era]
+sources: [source/tdv-hilafet]
+training:
+  mode: mixed
+  certification: "Under the Rashidun the caliph was chosen by pledge (bay'a) of the community and its leading men — the ahl al-hall wa-l-'aqd of later doctrine — after nomination or a shura council; from Mu'awiya onward the office passed hereditarily within a dynasty, still sealed by a public bay'a."
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-gov-1" }
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi, 'HİLÂFET' (Avcı & Özcan, 1998), web edition read on 16 Nov 2026: concept and conditions, Rashidun successions, Umayyad and Abbasid monarchy, Ottoman period and abolition"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-gov-1-drafting"

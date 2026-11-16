@@ -13,6 +13,10 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v1.55.0 — 2026-11-16
+### Added
+- Job Browser: six ruler offices — the caliph of the hilafet, the sultan who held the sword of the state, the emir commander-governor of the provinces, the wali provincial governor, the khan of the steppe dynasties, and the shah — in Arabic, English and Urdu draft cited to the TDV entries HİLÂFET, SULTAN, EMÎR (idareci), VALİ, HAN (hükümdar) and ŞAH (hükümdar).
+
 ## v1.54.0 — 2026-11-16
 ### Added
 - Job Browser: six scholarly professions — the mufassir of the tafsir schools, the mutakallim of the kalam debates, the historian crowned by the Ottoman vak'anuvis state historiographer, the grammarian of the Basra–Kufa–Baghdad tabaqat, the lexicographer from Khalil's Kitab al-Ayn to the Qamus, and the hafiz-i kutub keeper of the waqf library — in Arabic, English and Urdu draft cited to the TDV entries TEFSİR, KELÂM, VAK'ANÜVİS, NAHİV, SÖZLÜK and HÂFIZ-ı KÜTÜB.
