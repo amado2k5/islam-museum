@@ -1,0 +1,37 @@
+id: person/mehmet-okuyan
+class: person
+label: { ar: "محمد أوكويان", en: "Mehmet Okuyan", ur: "محمد اوکویان" }
+names:
+  - { value: "Mehmet Okuyan", kind: full }
+  - { value: "محمد أوكويان", kind: full }
+gender: male
+summary:
+  ar: "عالم تركي في تفسير القرآن وأستاذ جامعي وكاتب، وُلد سنة 1965 في تشايكارا بولاية طرابزون، وقضى دراسته ومسيرته الأكاديمية كلها في كلية الإلهيات بجامعة أوندوكوز مايس حتى صار أستاذًا في قسم التفسير سنة 2008، ويُعرف ببرامجه التلفزيونية الدينية وبمؤلفاته الكثيرة في التفسير. بلغت قناته على يوتيوب 485,000 مشترك كما في 15 نوفمبر 2026 بحسب vidIQ، وهو عدد منصّة مؤرخ لا حقيقة متحقق منها متحفيًا."
+  en: "Turkish Qur'an-commentary (tafsir) scholar, professor and writer, born in 1965 in Çaykara, Trabzon. His whole education and academic career ran at Ondokuz Mayıs University's theology faculty, where he became professor in the tafsir department in 2008; he is known for his religious television programmes and his many books on tafsir. His YouTube channel counted 485,000 subscribers as of 15 November 2026 per vidIQ — a dated platform count, not a museum-verified fact."
+  ur: "ترک مفسرِ قرآن، استاد اور مصنف، جو 1965ء میں طرابزون کے علاقے چائیکارا میں پیدا ہوئے، ان کی تمام تعلیم اور تدریسی زندگی اوندوکوز مایس یونیورسٹی کے شعبۂ الہیات میں گزری جہاں وہ 2008ء میں شعبۂ تفسیر کے پروفیسر بنے، اور وہ اپنے دینی ٹیلی ویژن پروگراموں اور تفسیر پر اپنی کثیر کتابوں کے لیے جانے جاتے ہیں۔ vidIQ کے مطابق 15 نومبر 2026ء کو ان کے یوٹیوب چینل کے سبسکرائبر 485,000 تھے — یہ ایک مؤرخہ منصّہ عدد ہے، عجائب گھر کی تصدیق شدہ حقیقت نہیں۔"
+roles: [scholar, writer]
+wings: [people, living]
+regions: [anatolia-balkans]
+born:
+  edtf: "1965"
+  calendar: gregorian
+  precision: year
+  status: historical
+  note: "Born in 1965 in Çaykara, a district of Trabzon, per the Turkish Wikipedia article, which gives no day or month, so no fuller date is recorded. No place record for Çaykara exists in the museum, so the born_in edge is written to Trabzon."
+  sources: [source/wikipedia-mehmet-okuyan-tr]
+relations:
+  - { type: born_in, target: place/trabzon, sources: [source/wikipedia-mehmet-okuyan-tr], note: "Born in Çaykara, a district of Trabzon province; the edge is written to the Trabzon place record." }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No two prose texts attest a school for Mehmet Okuyan himself. The Turkish article carries no religion or denomination field at all, and the prose texts read — the article's body and his university AVESİS profile — name no school; his formation (a theology degree and a doctorate at Ondokuz Mayıs University, on a Sufi tafsir as a research topic) is formation and research subject, and his professorship and faculty offices are office; none of it counts. Critics' polemics about his positions are not an attestation. Under the doubt rule the value stays unknown."
+    sources: [source/wikipedia-mehmet-okuyan-tr, source/omu-avesis-mehmet-okuyan]
+reach:
+  - { platform: youtube, metric: subscribers, value: 485000, date: "2026-11-15", note: "@okuyanmehmet: 485,000 subscribers, 197,378,955 views and 4,646 videos as of 15 November 2026 per vidIQ, recorded by the wave-203 harvest — a dated platform count, not a museum-verified fact.", sources: [source/vidiq-mehmet-okuyan, source/youtube-mehmet-okuyan] }
+sources: [source/wikipedia-mehmet-okuyan-tr, source/omu-avesis-mehmet-okuyan, source/vidiq-mehmet-okuyan, source/youtube-mehmet-okuyan]
+provenance:
+  layer: own-research
+  source: "Built from the wave-203 (Turkish scene) harvest slice B §1 and build-time checks of 16 November 2026: the Turkish Wikipedia article 'Mehmet Okuyan' read in full (the slice-B harvest reported no Wikipedia article for him; a Turkish article exists and was read at build, and that correction is recorded on the source entity), his Ondokuz Mayıs University AVESİS profile, and the harvest's vidIQ read of his YouTube channel @okuyanmehmet (485,000 subscribers as of 15 November 2026). Qualification rests on that dated count, above the men's bar. The designation screen at build found no verified link, endorsement or financial tie to any designated organisation. The article's criticism section is carried as attributed reporting only, in general terms, with no verdict. No source read names a school for him in prose, so his faith stays unknown. No Wikidata item was verified in this build — web searches returned no Wikidata item for him and a direct Wikidata search request was refused (HTTP 403), as the harvest also found — so no external identifier is recorded and the absence is recorded here explicitly."
+  generated_by: "Muse (Muse Wonder)"
+  run: modern-figures-wave-203-a
+status: { review: published, completeness: 3 }
