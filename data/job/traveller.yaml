@@ -1,0 +1,41 @@
+id: job/traveller
+class: job
+label: { ar: "السيّاح", en: "Traveller (seyyâh)", ur: "سیّاح ⁦(سیاحت کرنے والا)⁩" }
+names:
+  - { value: "سيّاح", kind: alternate }
+  - { value: "رحّالة", kind: alternate }
+  - { value: "مسافر", kind: alternate }
+  - { value: "seyyâh", kind: latinized, lang: tr }
+  - { value: "siyya", kind: latinized }
+summary:
+  ar: "السيّاح محترف الأسفار في العالم الإسلامي، وأسمى نموذج له أوليا جلبي الذي لقّب نفسه بأسمائه الثلاثة: أوليا وحافظ وسيّاح، وسمّى كتابه سياحتنامه. يذكر فون هامر أنه في ليلة عاشوراء من عامه الحادي والعشرين رأى في المنام في جامع آخي چلبي النبيَّ والصالحين، فأراد أن يسأل الشفاعة فسبق لسانه إلى السياحة، فقيل له: أُعطيت الشفاعة والسياحة معاً بصحة وسلام، وأمره سعد بن أبي وقاص أن يدون ما يرى من بلدان وقلاع وعجائب ومنتجات وفنون ومساحات أقاليم وطول أيامها فيذكرةً لائقة به. وخرج أوليا إلى أرجاء الدنيا وصار يذكر بين المسافرين دراويش تجوّلوا ثم اعتزلوا، وعجائز قاربت أعمارهم مئة وخمسين سنة، والمكّاريين والكرّائيين الذين يكرون الدواب للتجار والجنود وسائر المسافرين."
+  en: "The seyyâh is the professional wayfarer of the Islamic world, and its standing model is Evliya Çelebi, who named himself by three names — Evliya, Hafiz, Siyyah — and called his work the Seyahatname, the history of the traveller. Von Hammer records that in the night of Ashura of his twenty-first year he saw in a dream, in the mosque of Akhî Çelebi, the Prophet and the saints; meaning to ask for intercession he slipped and asked for siyâhat, travelling, and was told that shifa'at and siyâhat were both granted him in health and peace. Sa'd ibn Abi Waqqas charged him to record the countries, castles, wonders, products, arts, provinces and day-lengths he would pass through, as a monument worthy of him. Evliya then went through the world, and his pages remember fellow travellers: wandering dervishes who retired after great journeys, centenarian travellers, and the mekkari and kiraji horse-jobbers who let mounts to merchants, soldiers and other travellers."
+  ur: "سیّاح اسلامی دنیا کا پیشہ ور مسافر ہے، اور اس کی معیاری تصویر اولیاء چلبی ہے جس نے اپنے تین نام رکھے — اولیاء، حافظ، سیّاح — اور اپنی کتاب کا نام سیاحت نامہ، مسافر کی تاریخ۔ فون ہامر لکھتا ہے کہ اس کی اکیسویں سال کی عاشورہ کی رات اس نے آخی چلبی مسجد میں خواب میں نبی اور صالحین کو دیکھا؛ شفاعت مانگنا چاہتا تھا مگر زبان پھسل کر سیاحت مانگ بیٹھا، تو کہا گیا کہ شفاعت اور سیاحت دونوں اسے عافیت کے ساتھ عنایت ہوئیں۔ سعد بن ابی وقاص نے حکم دیا کہ وہ ممالک، قلعے، عجائبات، پیداواریں، فنون، صوبوں کی وسعت اور دنوں کی لمبائی قلم بند کرے تاکہ اس کے لائق یادگار رہے۔ پھر اولیاء دنیا بھر میں نکلا، اور اس کے صفحات اپنے ہم سفر مسافروں کو یاد رکھتے ہیں: بڑے سفر کے بعد خلوت گزین بنے درویش، ڈیڑھ سو سالہ بزرگ مسافر، اور مکاری و کرائی گھوڑے کرایہ دینے والے جو تاجروں، سپاہیوں اور دیگر مسافروں کو سواریاں دیتے۔"
+domain: trade-travel-sea
+kind: service
+hirfa: false
+era:
+  origins: medieval
+  status_today: transformed
+places:
+  - { place: place/istanbul, note: "Evliya's call came in the Akhî Çelebi mosque dream; he began his travels with excursions through Constantinople and its environs, whose descriptions fill his first volume.", sources: [source/evliya-narrative-hammer-v1] }
+regions: [anatolia-balkans, arabia, levant-iraq, persia-central-asia]
+organization:
+  organized: informal
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era, period/mongol-post-mongol, period/gunpowder-empires, period/colonial-era, period/modern-era]
+sources: [source/evliya-narrative-hammer-v1, source/evliya-seyahatname-hammer]
+training:
+  mode: mouth-to-mouth
+  certification: "No licence made the seyyah: Evliya's own credential was a calling — the Ashura dream, the interpretation given by the dream-reader Ibrahim Efendi, and the seven historical works the Mevlevi sheikh Abdullah Dedeh put in his hands before sending him off with prayers."
+  duration: "A life on the road: von Hammer calls Evliya 'a traveller all his days'."
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-sea-2" }
+provenance:
+  layer: own-research
+  source: "Evliya Çelebi, Narrative of Travels vol. I (von Hammer, 1834), biographical sketch pp. v-vi and the Ashura dream pp. 1-4, and vol. I part II (1846) guild catalogue; scans read on 16 Nov 2026"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-sea-2-drafting"

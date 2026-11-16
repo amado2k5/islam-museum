@@ -1,0 +1,44 @@
+id: job/monk-priest
+class: job
+label: { ar: "الراهب والقسّيس", en: "Monk and priest (râhib / qissîs / keşîş)", ur: "راہب اور قسّیس" }
+names:
+  - { value: "راهب", kind: alternate }
+  - { value: "رهبان", kind: alternate }
+  - { value: "قسّيس", kind: alternate }
+  - { value: "كاهن", kind: alternate }
+  - { value: "keşîş", kind: latinized, lang: tr }
+  - { value: "papaz", kind: latinized, lang: tr }
+  - { value: "qissîs", kind: latinized }
+summary:
+  ar: "الراهب والقسّيس رجل الدين النصراني كما تعرفه كتب المسلمين: الراهب ⁦(جمعه رهبان)⁩ من يخلو للعبادة والتزهّد في الصومعة، والقسّيس أو الكاهن ⁦(والتركية كشيش وباباز)⁩ من يقيم الشعائر باسم جماعته ويعلّمها ويفسّر كتابها. تعرض التفاسير الرهبان في آيات المدح على أنهم الجماعة النصرانية العابدة المتواضعة لينة القلوب، وتذكر من بدأ الرهبانية هرباً من الفتنة إلى الجبال والمغاور، وتنقل ما ذُمّ فيهم من كسب المال بغير الحق واتّخاذهم أرباباً حين تقادَ أحكامهم على أحكام الله. والكهنوت وراثي عند بعض الأديان ⁦(الكهنة والخوري والدستور)⁩ اختياري عند النصارى، والامتناع عن الزواج أصل في الغرب اللاتيني لا يلزم في كنائس الشرق، ومراتبه الأسقف فالقسيس فالشمّاس."
+  en: "The monk and the priest are the Christian religious vocation as the Islamic world's books know it: the râhib (plural ruhbân) who withdraws to worship and live ascetically in the monastery, and the qissîs or kâhin (Turkish keşiş, papaz) who performs the rites in his congregation's name, teaches it and interprets its book. The tafsirs present the praised monks of the Qur'anic verses as the worshipping, humble, tender-hearted Christian group, record how some began the monastic life fleeing tribulation into the mountains and caves, and transmit what was blamed in them: devouring wealth unjustly and being taken as lords when their rulings displaced God's. The priesthood is hereditary in some religions (kohen, khoury, dastur), elective among Christians; celibacy is the rule in the Latin West but not binding in the Eastern churches, and its grades run bishop, presbyter, deacon."
+  ur: "راہب اور قسّیس مسیحی دینی پیشہ ہے جیسا کہ مسلمانوں کی کتابیں جانتی ہیں: راہب ⁦(جمع رهبان)⁩ عبادت اور زهد کے لیے صومعے میں پناہ لینے والا، اور قسّیس یا کہن ⁦(ترکی میں كشیش اور پاپاز)⁩ اپنی جماعت کی طرف سے عبادات قائم کرنے، سکھانے اور کتاب کی تعبیر کرنے والا۔ تفاسیر آیاتِ مدح کے رهبان کو عبادت گزار، عاجز، نرم دل مسیحی جماعت بتاتی ہیں، واضح کرتی ہیں کہ بعض نے فتنے سے بچ کر پہاڑوں اور غاروں میں رہبانہ زندگی اختیار کی، اور ان میں جو ملامت منقول ہے وہ ناحق مال کھانے اور اپنے احکام کو اللہ کے احکام پر مقدم کر کے ربّ بنے جانے کی ہے۔ کچھ مذاہب میں کہانت وراثتی ہے ⁦(کوہن، خوری، دستور)⁩، مسیحیوں میں انتخابی؛ مغربی لاطینی کلیسا میں عزوبت اصول ہے مگر مشرقی کلیساؤں میں لازم نہیں، اور اس کے درجے اسقف، قس، شمّاس ہیں۔"
+domain: faith-preaching
+kind: religious
+hirfa: false
+era:
+  origins: pre-islamic
+  status_today: living
+places:
+  - { place: place/sinai-peninsula, note: "Monasticism spread from Egypt to the Sinai peninsula, Palestine and Syria, and these lands remained important monastic centres after the Muslim conquest.", sources: [source/tdv-kesis] }
+  - { place: place/istanbul, note: "In Anatolia monasticism spread through the work of Basil of Caesarea and his sister Macrina; Istanbul, and from the tenth century Mount Athos, became centres of the monastic life.", sources: [source/tdv-kesis] }
+regions: [levant-iraq, egypt-nile, anatolia-balkans, persia-central-asia]
+organization:
+  organized: mixed
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people, ideas]
+periods: [period/pre-islamic-arabia, period/prophetic-era, period/rashidun, period/umayyad, period/abbasid-early, period/abbasid-fragmentation, period/buyid-seljuk-fatimid-era, period/crusades-ayyubid-mamluk, period/mongol-post-mongol, period/gunpowder-empires, period/colonial-era, period/modern-era, period/contemporary-era]
+sources: [source/tdv-ruhban, source/tdv-kesis]
+training:
+  mode: mixed
+  certification: "The monk enters by a stated rite, takes the distinctive dress and sometimes the tonsure, and binds himself to poverty, humility, celibacy and obedience to the rule and the superior (TDV KEŞİŞ). The priest is ordained into a hierarchy that runs bishop (episkopos), presbyter or senior priest (presbuteros), deacon (diakonos); in the hereditary priesthoods marriage was required, in the elective Christian priesthood celibacy was the norm in the Latin West but not in the Eastern churches (TDV RUHBAN)."
+  duration: "The monastic calling was meant for life, though some traditions knew temporary monasticism."
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-sea-2" }
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi 'RUHBAN' (Gürkan, 2008; vol. 35 pp. 204-205) and 'KEŞİŞ' (Gündüz, 2022; vol. 25 pp. 322-324), web editions read on 16 Nov 2026"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-sea-2-drafting"
