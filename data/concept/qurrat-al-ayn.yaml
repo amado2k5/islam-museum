@@ -1,0 +1,23 @@
+id: concept/qurrat-al-ayn
+class: concept
+kind: natural
+label:
+  ar: "قرة العين"
+  en: "Qurrat al-ayn (water-cress, as the book says)"
+  ur: "قرۃ العین"
+summary:
+  ar: "قرة العين في الكتاب هو جرجير الماء ويقال له أيضا كرفس الماء، عطر الرائحة ينبت في المياه الراكدة، مسخن محلل، ويفتت الحصاة في الكلى وينفع من قروح الأمعاء، ويذكر الكتاب أنه يدر الطمث {cite:canon-ibn-sina-print-v1 pp.655-656}"
+  en: "Qurrat al-ayn is in the book water-cress, also called water celery, of a fragrant smell and growing in still waters; it is heating and dissolving, breaks the stone in the kidneys and benefits ulcers of the intestines; the book lists that it brings on the menses {cite:canon-ibn-sina-print-v1 pp.655-656}"
+  ur: "قرۃ العین کتاب میں جرجیر الماء ہے جسے کرفس الماء بھی کہا جاتا ہے، خوشبودار اور ٹھہرے پانیوں میں اگنے والا؛ گرم کرنے والا اور گھلانے والا ہے، گردے کی پتھری توڑتا اور آنتوں کے قرحوں میں نافع ہے؛ کتاب میں درج ہے کہ یہ حیض جاری کرتا ہے {cite:canon-ibn-sina-print-v1 pp.655-656}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter qaf (the nineteenth chapter), scan pages 655, 656, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for doubtful headings; editor footnotes used only for identity; measured doses, weights, counts, times and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-26
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }
