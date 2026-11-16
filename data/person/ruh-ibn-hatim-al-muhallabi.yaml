@@ -41,6 +41,17 @@ provenance:
   model: claude-sonnet-5-5
   run: web-b2-alam-2026-11-14
 died: { edtf: "791", calendar: gregorian, precision: year, derived: true, note: "al-Zirikli, al-A'lam, vol. 3 p. 34: died 174 AH = 791 CE in Qayrawan", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+occupations:
+  - job: job/emir
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'emir', Job Browser linking wave"
+    sources: [source/nihayat-al-arab-nuwayri-vol4-scan, source/alam-zirikli-dar-al-ilm-2002]
+  - job: job/commander
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'commander', Job Browser linking wave"
+    sources: [source/nihayat-al-arab-nuwayri-vol4-scan, source/alam-zirikli-dar-al-ilm-2002]
 relations:
 - type: ruled_over
   target: place/ifriqiya

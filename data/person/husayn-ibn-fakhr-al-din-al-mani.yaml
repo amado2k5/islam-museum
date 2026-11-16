@@ -11,6 +11,17 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/gunpowder-empires]
+occupations:
+  - job: job/emir
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'amir', Job Browser linking wave"
+    sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002, source/wikidata]
+  - job: job/diplomat
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'diplomat', Job Browser linking wave"
+    sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002, source/wikidata]
 relations:
   - { type: died_in, target: place/istanbul, confidence: high, note: "al-Zirikli, al-A'lam, vol. 2 p. 251: he died in Istanbul", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
   - { type: lived_in, target: place/galata, confidence: high, note: "al-Zirikli, al-A'lam, vol. 2 p. 251: he grew up in the Galata palace", sources: [source/alam-zirikli-dar-al-ilm-2002] }

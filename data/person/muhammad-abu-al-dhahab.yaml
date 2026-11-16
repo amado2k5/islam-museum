@@ -14,6 +14,17 @@ wings: [people]
 periods: [period/modern-era]
 regions: [egypt-nile]
 died: { edtf: "1775-06-08", hijri: "1189-04-08", calendar: gregorian, precision: day, status: historical, note: "8 Rabi II 1189 / 8 June 1775, so al-Jabarti, i, 414, as cited in EI2", sources: [source/encyclopaedia-of-islam-2] }
+occupations:
+  - job: job/emir
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'emir', Job Browser linking wave"
+    sources: [source/encyclopaedia-of-islam-2, source/wikidata]
+  - job: job/commander
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'general', Job Browser linking wave"
+    sources: [source/encyclopaedia-of-islam-2, source/wikidata]
 relations:
   - { type: died_in, target: place/akka, sources: [source/encyclopaedia-of-islam-2] }
   - { type: opposed, target: person/ali-bey-al-kabir, note: "broke with his master in 1771-2 and drove him from Egypt", sources: [source/encyclopaedia-of-islam-2] }

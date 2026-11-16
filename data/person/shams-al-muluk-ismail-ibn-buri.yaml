@@ -19,6 +19,17 @@ died:
   status: tradition
   derived: true
   note: "قتلته دخاتون بقلعة دمشق في ربيع الأول بتدبير أمه زمر دخاتون {cite:shadharat-dhahab p. 571}؛ التحويل مشتق."
+occupations:
+  - job: job/emir
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'emir', Job Browser linking wave"
+    sources: [source/shadharat-dhahab]
+  - job: job/commander
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'general', Job Browser linking wave"
+    sources: [source/shadharat-dhahab]
 relations:
   - { type: ruler_of, target: polity/burid-dynasty, sources: [source/shadharat-dhahab] }
   - { type: died_in, target: place/damascus, sources: [source/shadharat-dhahab] }

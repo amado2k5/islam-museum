@@ -39,6 +39,17 @@ died:
   note: "The manner and year of his death are genuinely contested between the sources. The French article states that he was assassinated on 4 April 1807 in a plot organised by the Jagoordo, the assembly of electors, and Wikidata's death value is the same day at day precision. The English article instead reports that in 1806, after repeated French raids, Bundu and Kaarta invaded Futa Toro and Abdul Kader was shot by the Almaami of Bundu on his prayer mat at the losing battle of Gouriki, and its summary line dates the death 26 April 1806. The record builds 4 April 1807 on the two agreeing sources and carries the English account here in full, under the status debated. The Hijri year 1222 is the tabular conversion of the built date, marked derived."
   sources: [source/wikipedia-abdul-kader-kane-fr, source/wikidata-abdul-kader-kane, source/wikipedia-abdul-kader-kane-en]
 
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave"
+    sources: [source/wikipedia-abdul-kader-kane-en, source/wikipedia-abdul-kader-kane-fr, source/wikipedia-abdul-kader-kane-ur, source/wikidata-abdul-kader-kane]
+  - job: job/commander
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'general', Job Browser linking wave"
+    sources: [source/wikipedia-abdul-kader-kane-en, source/wikipedia-abdul-kader-kane-fr, source/wikipedia-abdul-kader-kane-ur, source/wikidata-abdul-kader-kane]
 relations:
   - { type: lived_in, target: place/france, note: "From text: French (nationality adjective); broad association, flagged for review.", sources: [source/wikipedia-abdul-kader-kane-en, source/wikipedia-abdul-kader-kane-fr, source/wikipedia-abdul-kader-kane-ur, source/wikidata-abdul-kader-kane], confidence: low }
   - { type: successor_of, target: person/sulayman-bal, sources: [source/wikipedia-abdul-kader-kane-en, source/wikipedia-abdul-kader-kane-fr, source/wikipedia-abdul-kader-kane-ur] }
