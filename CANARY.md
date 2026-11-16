@@ -13,6 +13,10 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v1.49.0 — 2026-11-16
+### Added
+- Five more Inventions Browser records drawn from the EI2 OCR corpus, King's Synchrony and recorded Wikipedia revisions, each with Arabic, English and Urdu prose: the torquetum; the kamal, the Arab pilot's altitude instrument; the hawala remittance system; muqarnas vaulting; and the muwaqqit's prayer-time tables.
+
 ## v1.48.0 — 2026-11-16
 ### Added
 - Job Browser: six more trades join the professions — the builder (banna) and his sworn lime, the stonecutter (hajjar), the plasterer (jabbas) bound by oath to a fair mix, the cloth merchant (bazzaz) under the draper's rules, the soap-maker (sabuni) whose soap kept the bath floor, and the embroiderer (tarraz) of the menseg frames — in Arabic, English and Urdu draft cited to Ibn al-Ukhuwwa's *Ma'alim al-Qurba*, al-Shayzari, Lane, Evliya Çelebi, and Chalcraft.
