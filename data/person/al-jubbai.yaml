@@ -14,6 +14,17 @@ summary:
   ur: "ابو علی محمد بن عبد الوہاب بن سلام بن خالد جبّائی معتزلہ کے ائمہ میں سے تھے؛ وہ علمِ کلام کے امام اور اپنے عہد کے رئیس المتکلمین تھے۔ انہوں نے یہ علم بصرہ کے معتزلی سردار ابو یوسف یعقوب بن عبد اللہ شحام بصری سے لیا، اور انھی سے ابو الحسن اشعری نے علمِ کلام پڑھا {cite:wafayat-ayan}۔ ابن الندیم کے نزدیک انہی نے کلام کو آسان کیا اور اپنے زمانے میں بصریوں کی قیادت انہی تک پہنچی؛ پیدائش 235ھ، وفات 303ھ، اور ان کے بیٹے ابو ہاشم نے انہیں جبا میں دفنایا {cite:fihrist-ibn-al-nadim p. 530}۔"
 wings: [people]
 periods: [period/abbasid-early]
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 35"
+    sources: [source/wafayat-ayan, source/fihrist-ibn-al-nadim, source/siyar-alam-nubala, source/wikidata-al-jubbai]
+  - job: job/mutakallim
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'theologian', Job Browser linking wave 35"
+    sources: [source/wafayat-ayan, source/fihrist-ibn-al-nadim, source/siyar-alam-nubala, source/wikidata-al-jubbai]
 relations:
   - { type: died_in, target: place/basra, role: "«مات بالبصرة سنة ثلاث وثلاثمائة» عند الذهبي؛ والفهرست يذكر حمله إلى جبا ودفنه بها", sources: [source/siyar-alam-nubala, source/fihrist-ibn-al-nadim] }
 provenance:

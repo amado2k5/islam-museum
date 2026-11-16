@@ -12,6 +12,12 @@ wings: [people]
 periods: [period/mongol-post-mongol]
 regions: [maghreb]
 died: { edtf: "1436~", hijri: "0839", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي سنة 839 {cite:shadharat-dhahab p. 230}", sources: [source/shadharat-dhahab] }
+occupations:
+  - job: job/emir
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'emir', Job Browser linking wave 35"
+    sources: [source/shadharat-dhahab]
 relations:
   - { type: lived_in, target: place/tunis, note: "From text: of Tunis", sources: [source/shadharat-dhahab], confidence: low }
   - { type: child_of, target: person/abu-faris-hafsi, sources: [source/shadharat-dhahab] }
