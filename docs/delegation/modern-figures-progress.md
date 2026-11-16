@@ -949,4 +949,4 @@ Lander fix landed with this wave: group/aql-islamic-center gains its group-side 
 
 ## Lane resumed 2026-11-16
 
-The lane was stopped on 2026-11-15 (~21:06 EST) and **resumed on 2026-11-16 at the founder's direction — "resume the waves, non stop, until i ask you to stop."** The resume landed, in order: wave 200 §C (PR #7153), wave 200 §D (PR #7159) and wave 201 (this PR). Lane totals after landing, counted on origin/main: **2,187 persons / 436 groups** (before this resume: 2,170 persons / 423 groups).
+The lane was stopped on 2026-11-15 (~21:06 EST) and **resumed on 2026-11-16 at the founder's direction — "resume the waves, non stop, until i ask you to stop."** The resume landed, in order: wave 200 §C (PR #7153), wave 200 §D (PR #7159) and wave 201 (PR #7163). Lane totals after landing, counted on origin/main: **2,187 persons / 436 groups** (before this resume: 2,170 persons / 423 groups).
