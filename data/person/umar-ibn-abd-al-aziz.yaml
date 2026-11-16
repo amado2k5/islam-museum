@@ -11,6 +11,12 @@ roles: [caliph]
 external_ids: { wikidata: "Q298403", viaf: "48091386" }
 born: { edtf: "682~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; Tarikh al-Islam (al-Dhahabi) Agrees with Wikidata Q298403 (P569, a statement without a reference), item revision 2560154435, read on 13 November 2026.", sources: [source/wikidata] }
 died: { edtf: "720", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2; Tarikh al-Islam (al-Dhahabi) Agrees with Wikidata Q298403 (P570, a statement without a reference), item revision 2560154435, read on 13 November 2026.", sources: [source/wikidata] }
+occupations:
+  - job: job/caliph
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'caliph', Job Browser linking wave"
+    sources: [source/umayyad-birth-to-fall-2006, source/tabari-tarikh-abu-al-fadl, source/muruj-al-dhahab, source/tabari-khayyat-part2, source/khudari-umayyad-state, source/bakr-umayyad-state-1134715, source/salabi-umayyad-state-2020, source/assabile-omar-abdelkafy, source/tarikh-khalifa-umari-1985, source/assabile-ragheb-el-sergani, source/assabile-tareq-al-suwaidan, source/encyclopaedia-of-islam-2, source/wikidata]
 relations:
   - { type: ruled_over, target: polity/umayyad-caliphate, sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: successor_of, target: person/sulayman-ibn-abd-al-malik, sources: [source/tarikh-khulafa-minhaj-1434] }

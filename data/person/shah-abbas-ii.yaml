@@ -35,6 +35,12 @@ died:
   note: "The English article's lead and death section, the Persian article and Wikidata's first statement give 26 October 1666, at Khosrowabad near Damghan — the Arabic article names the palace of Khosrow Abad at Damghan, and Wikidata names Damghan as the place of death. The English article's reign narrative once gives 25 September 1666 instead, and Wikidata carries a second statement of 5 October 1666; both rival readings are preserved here. The English article's death section says Behshahr, against the Arabic, Persian and Wikidata Damghan reading, and the Damghan reading is the one the died_in edge follows. He was buried at Qom, which has no place entity on main. The Arabic article gives his death year as 1078 AH, or 1077 AH by another reading, so no Hijri year is built."
   sources: [source/wikipedia-shah-abbas-ii-en, source/wikipedia-shah-abbas-ii-ar, source/wikipedia-shah-abbas-ii-fa, source/wikidata-shah-abbas-ii]
 
+occupations:
+  - job: job/sultan
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'sultan', Job Browser linking wave"
+    sources: [source/wikipedia-shah-abbas-ii-en, source/wikipedia-shah-abbas-ii-ar, source/wikipedia-shah-abbas-ii-ur, source/wikipedia-shah-abbas-ii-fa, source/wikidata-shah-abbas-ii]
 relations:
   - { type: born_in, target: place/qazvin, sources: [source/wikipedia-shah-abbas-ii-en, source/wikipedia-shah-abbas-ii-ur, source/wikidata-shah-abbas-ii] }
   - { type: died_in, target: place/damghan, sources: [source/wikipedia-shah-abbas-ii-ar, source/wikipedia-shah-abbas-ii-fa, source/wikidata-shah-abbas-ii] }
