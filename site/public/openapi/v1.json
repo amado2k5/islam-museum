@@ -1034,6 +1034,27 @@
         ]
       }
     },
+    "/bunuwwa.json": {
+      "get": {
+        "summary": "Bunuwwa Browser — Sonhood and Daughterhood in Islam dataset",
+        "description": "The Bunuwwa Browser dataset (متصفح البنوة في الإسلام): everything the museum's sources mention about sons and daughters, offspring, filial piety and disobedience to parents, orphans and suckling, the rights of the child and the named children of the stories in the Qur'an, Sunnah, seerah, Companion and Tabi'in reports and every harvested book — passages detected at build time by a guarded lexicon (possessed-only gating on «ابن», children-context gating on «ميراث», false positives excluded by id) plus the curated bunuwwa-browser records — each with its section (quran, sunnah, seerah, books, curated), topical topics (banun, dhurriyya, birr, yatim, huquq, qisas), matched signals, work, ref, text excerpt, kind, themes, tags and edges.",
+        "responses": {
+          "200": {
+            "description": "Bunuwwa dataset",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "tags": [
+          "bunuwwa"
+        ]
+      }
+    },
     "/openapi.json": {
       "get": {
         "operationId": "getOpenApi",

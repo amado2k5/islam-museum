@@ -1,0 +1,32 @@
+id: concept/radaa
+class: concept
+kind: social
+label:
+  ar: "الرضاعة"
+  en: "Suckling (rada'a)"
+  ur: "رضاعت"
+summary:
+  ar: "الرضاعة في الإسلام ليست طعاماً فحسب بل نسب ثان: «يحرم من الرضاعة ما يحرم من النسب» كما في الحديث عند البخاري ومسلم، فتنشأ المحرمية بين الصغير وأهل المرضعة، وتتحدد مدة الفطام في القرآن بحولين كاملين لمن أراد أن يتم الرضاعة، وتقوم أحكامها على الرضيع والمرضعة والوالدين معاً."
+  en: "Suckling in Islam is not merely feeding but a second kinship: 'what is forbidden through nursing is what is forbidden through lineage', in the hadith of both Sahihs, so the nursed child becomes mahram to the nurse and her household; the Qur'an sets the weaning span at two full years for whoever wishes to complete the nursing, and its rulings bind infant, nurse and both parents together."
+  ur: "اسلام میں رضاعت محض خوراک نہیں بلکہ دوسرا رشتہ ہے: «دودھ سے وہی حرام ہوتا ہے جو نسب سے حرام ہوتا ہے» صحیحین کی حدیث کے مطابق، اس طرح دودھ پینے والا بچہ دایہ اور اس کے گھر والوں کا محرم بن جاتا ہے؛ قرآن نے دودھ چھڑانے کی مدت دو سال مقرر کی، اور اس کے احکام بچے، دایہ اور دونوں والدین پر مل کر قائم ہیں۔"
+wings: [living]
+themes: [family-marriage-kinship]
+tags: [bunuwwa-browser, bunuwwa-concepts]
+relations:
+- type: based_on
+  target: passage/quran-2-233
+  sources: [source/tanzil-quran]
+- type: based_on
+  target: passage/quran-4-23
+  sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/sahih-al-bukhari, source/sahih-muslim, source/fiqh-mawsua-kuwaitiyya-noor-v3]
+provenance:
+  layer: own-research
+  source: "القرآن ⁦(تنزيل)⁩ البقرة ٢٣٣ والنساء ٢٣؛ صحيح البخاري وصحيح مسلم كتاب الرضاع"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: swe-2-medium
+  run: bunuwwa-browser-b1
+status:
+  review: draft
+  completeness: 1
+  generated_by: "Devin (SWE-2 Medium); seed record for the Bunuwwa Browser, cited to Tanzil and the Sahihs"
