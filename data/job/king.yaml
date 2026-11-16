@@ -1,0 +1,45 @@
+id: job/king
+class: job
+label: { ar: "الملك", en: "King (malik)", ur: "بادشاہ ⁦(ملک)⁩" }
+names:
+  - { value: "melik", kind: latinized, lang: tr }
+  - { value: "ملوك", kind: alternate }
+  - { value: "ملك الملوك", kind: alternate }
+  - { value: "melikü'l-mülûk", kind: latinized }
+  - { value: "ملكة", kind: alternate }
+summary:
+  ar: "الملك لقب قديم في اللغات السامية ظهر في نقائش جنوب الجزيرة وشمالها قبل الإسلام، ثم أحجم المسلمون الأوائل عنه ورضوا بالخلافة وإمارة المؤمنين، حتى عاد مع السامانيين والبويهيين لقباً للحكام وانتشر في السلاجقة والزنكيين والأيوبيين والمماليك، وغدا لقباً لأمراء الأقاليم والوزراء حتى تضخم، ثم اندثر في العثمانيين وعاد في القرن العشرين مع ممالك الحجاز والعراق ومصر والمغرب وغيرها."
+  en: "Malik (king) is an old Semitic title attested in pre-Islamic inscriptions of South and North Arabia. The first Muslims declined it in favour of khalifa and amir al-mu'minin; it returned with the Samanids and Buyids as a royal title, spread under the Seljuks, Zengids, Ayyubids and Mamluks, and was handed to provincial princes and viziers until it inflated. The Ottomans scarcely used it; in the twentieth century it revived as the standard title of the new kingdoms of the Hijaz, Iraq, Egypt, Morocco and others."
+  ur: "ملک قدیم سامی زبانوں کا لقب ہے جو اسلام سے پہلے جنوبی و شمالی عرب کی کتبوں میں ملتا ہے۔ ابتدائی مسلمانوں نے اسے چھوڑ کر خلیفہ اور امیر المؤمنین اختیار کیا؛ پھر یہ سامانیوں اور بویہیوں کے ساتھ شاہی لقب بن کر لوٹا، سلجوقیوں، زنگیوں، ایوبیوں اور مملوکوں میں پھیلا، اور صوبائی شہزادوں اور وزیروں تک پہنچ کر اتنا عام ہوا کہ قدر گھٹ گئی۔ عثمانیوں نے کم ہی استعمال کیا؛ بیسویں صدی میں یہ حجاز، عراق، مصر اور مراکش کی نئی بادشاہتوں کا لقب بن کر زندہ ہوا۔"
+domain: governance-law
+kind: office
+hirfa: false
+era:
+  origins: pre-islamic
+  status_today: transformed
+places:
+  - { place: place/medina, note: "After the Prophet's death the community did not adopt the royal title: the Rashidun, the Umayyads and the Abbasid heads of state called themselves khalifa, amir al-mu'minin and, rarely, imam.", sources: [source/tdv-melik] }
+  - { place: place/bukhara, note: "The Samanids of Khurasan and Transoxiana were the first Muslim dynasty to take the malik title to mark a degree of independence: Nuh b. Nasr ⁦(943-954)⁩ struck 'al-Malik al-Mu'ayyad' on his coins.", sources: [source/tdv-melik] }
+  - { place: place/baghdad, note: "In 429/1038 the Buyid amir Jalal al-Dawla asked the Abbasid caliph in Baghdad for permission to use 'shahanshah al-a'zam malik al-muluk', and the scholar-official Hezaresb offered 100,000 dinars for the malik title and was told it could be given only to Seljuk dynasts.", sources: [source/tdv-melik] }
+  - { place: place/cairo, note: "Under the Fatimids malik belonged to amirs and above all to viziers — Ridwan b. Walakhshi took 'al-sayyid al-ajall al-malik al-afdal' in 530/1136 — and under the Mamluks the sultans compounded it: al-Malik al-Mu'izz Aybak, al-Muzaffar Qutuz, al-Qahir Baybars.", sources: [source/tdv-melik] }
+  - { place: place/delhi, note: "Raziyya of Delhi, the only female ruler of Muslim India, preferred the malika title to the sultan used by the rest of her dynasty; Shajar al-Durr had likewise been styled malikat al-Islam in Mamluk Egypt.", sources: [source/tdv-melik] }
+regions: [arabia, levant-iraq, egypt-nile, maghreb, persia-central-asia, anatolia-balkans, south-asia]
+organization:
+  organized: court-office
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people]
+periods: [period/pre-islamic-arabia, period/prophetic-era, period/rashidun, period/umayyad, period/abbasid-early, period/abbasid-fragmentation, period/buyid-seljuk-fatimid-era, period/crusades-ayyubid-mamluk, period/mongol-post-mongol, period/colonial-era, period/contemporary-era]
+sources: [source/tdv-melik]
+training:
+  mode: hereditary-family
+  certification: "Kingship ran in dynasties and was sealed by the marks of sovereignty the entry lists: the khutba read and coins struck in the ruler's name, the caliph's permission or investiture for a disputed title, and the ceremonial nevbet — the great sultan beat five watches a day while a provincial malik might beat no more than three."
+  duration: "A malik ruling a province under a greater sultan kept a court modelled on the capital — his own vizier, treasury, commanders and divan — and his authority was confirmed or renewed by a new manshur whenever sultan or malik changed."
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-gov-2" }
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi, 'MELİK' (Güner, 2004, vol. 29, pp. 51-53), web edition read on 16 Nov 2026"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-gov-2-drafting"

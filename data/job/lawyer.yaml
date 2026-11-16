@@ -1,0 +1,44 @@
+id: job/lawyer
+class: job
+label: { ar: "الوكيل", en: "Legal agent (wakil)", ur: "وکیل" }
+names:
+  - { value: "vekîl", kind: latinized, lang: tr }
+  - { value: "وکيل الدعوى", kind: alternate }
+  - { value: "dava vekili", kind: latinized, lang: tr }
+  - { value: "وكيل", kind: alternate }
+  - { value: "مفوّض", kind: alternate }
+  - { value: "müfavvad vekil", kind: latinized, lang: tr }
+summary:
+  ar: "الوكيل من فوّض إليه صاحب عملٍ القيام به نيابة عنه — شراءً وبيعاً وخصومة وزواجاً — بعقد الوكالة الذي رتّبه الفقهاء: إيجاب من الموكّل وقبول صريح أو ضمني، وأهلية في الطرفين، وموضوع داخل في اختصاص الموكّل معلوم مقدار ما تقتضيه الغاية. ومن الوكالة وكالة الدعوى التي يمثل فيها الوكيل موكّله أمام القاضي؛ لزمت الوكالة تدبير مصلحة الموكّل بأمانة، واستحق الأجرة عند اشتراطها أو جريان العرف بها، وانتهت بالعزل أو الاستقالة أو الموت أو فقد الأهلية."
+  en: "The wakīl is the person his principal commissions to act for him — buying and selling, litigating, marrying — under the contract of agency (wakāla) as the jurists built it: offer by the principal, express or implied acceptance, capacity in both parties, and a mandate within the principal's own authority and known enough for its purpose. One form is litigation agency, in which the agent represents his principal before the kadi; the contract bound the agent to his principal's interest, earned him a fee when stipulated or customary, and ended with dismissal, resignation, death or loss of capacity."
+  ur: "وکیل وہ شخص ہے جسے اس کا موکل کسی کام — خرید و فروخت، مقدمہ بازی، نکاح — کے لیے اپنی طرف سے مقرر کرے، عقدِ وکالت کے تحت جسے فقہاء نے ترتیب دیا: موکل کی طرف سے ایجاب، صریح یا ضمنی قبول، دونوں فریقوں کی اہلیت، اور موکل کے اپنے اختیار میں کوئی معلوم کام۔ اس کی ایک قسم دعویٰ کی وکالت ہے جس میں وکیل قاضی کے سامنے موکل کی نمائندگی کرتا ہے؛ عقد وکیل کو موکل کے مفاد کے حسن تدبیر کا پابند کرتا، شرط یا عرف پر اجر مستحق ٹھہراتا، اور عزل، استعفیٰ، موت یا اہلیت کے زوال سے ختم ہوتا۔"
+domain: governance-law
+kind: service
+hirfa: false
+era:
+  origins: prophetic
+  status_today: living
+places:
+  - { place: place/medina, note: "Agency answered social needs in every society, the entry says, and the fiqh books made it a defined contract from the earliest schools; the hadith of Unays is cited by the Hanbalis as allowing agency even to prove hadd offences like drinking.", sources: [source/tdv-vekalet] }
+  - { place: place/baghdad, note: "The four schools' definitions are recorded from their classics — the Hanafis taking the Samarkandi line 'entrusting the authority of legal transaction and its protection to the agent', the Shafi'is 'delegating to another a delegable act within one's competence', the Hanbalis and Malikis their own — making Baghdad's and the schools' fiqh the charter of the profession.", sources: [source/tdv-vekalet] }
+  - { place: place/istanbul, note: "Ottoman codification kept the old rules: the Mecelle (art. 1467) held the agent entitled to a fee when it was stipulated at the contract or when he customarily worked for a fee.", sources: [source/tdv-vekalet] }
+regions: [arabia, levant-iraq, egypt-nile, maghreb, andalus-europe, persia-central-asia, anatolia-balkans, south-asia]
+organization:
+  organized: informal
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people]
+periods: [period/prophetic-era, period/rashidun, period/umayyad, period/abbasid-early, period/abbasid-fragmentation, period/buyid-seljuk-fatimid-era, period/crusades-ayyubid-mamluk, period/mongol-post-mongol, period/gunpowder-empires, period/modern-era, period/contemporary-era]
+sources: [source/tdv-vekalet]
+training:
+  mode: apprenticeship
+  certification: "No licence is recorded in the entry — capacity, not a diploma, makes the agent: he must be capable of the transaction himself, and his authority comes from the principal's own. The profession's rules are the fiqh of the contract, learned within the schools."
+  duration: "Per mandate: the wakāla is non-binding on either side, so a principal may dismiss at will and the agent may resign — save where a third party's right has attached — and it ends of itself at death, at loss of capacity, or when performance becomes impossible."
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-gov-2" }
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi, 'VEKÂLET' (Aybakan, 2013, vol. 43, pp. 1-6), web edition read on 16 Nov 2026"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-gov-2-drafting"

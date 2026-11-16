@@ -1,0 +1,46 @@
+id: job/regent
+class: job
+label: { ar: "النائب", en: "Deputy / regent (naib)", ur: "نائب ⁦(نائب السلطنت)⁩" }
+names:
+  - { value: "nâib", kind: latinized, lang: tr }
+  - { value: "نُوّاب", kind: alternate }
+  - { value: "نائب السلطنة", kind: alternate }
+  - { value: "nevab", kind: latinized }
+  - { value: "navvab", kind: latinized }
+  - { value: "kaymakam", kind: latinized, lang: tr }
+summary:
+  ar: "النائب من يتولى مسؤولية منصب مكان صاحبه لوقت مؤقت؛ أناب النبي ابن أم مكتوم ومحمد بن مسلمة على المدينة في غيابه، وتتابع النواب على الولاية والقضاء والتدريس والإمامة في الدول الإسلامية حتى صار لكل ديوان سلجوقي نائب يحتل ثاني المقامات، ولسلطان المماليك نواب في مصر والشام يحكمون باسمه. وفي العثمانيين كان النائب القاضي الشرعي المدرب في المدرسة يجلس محل القاضي في الكازا، برزت مدرسة «معلمخانه نواب» عام ١٨٥٥ لتأهيله، وانتهت الوظيفة بإلغاء المحاكم الشرعية."
+  en: "The nāib carries an office's responsibility in the holder's place for a time. The Prophet left Ibn Umm Maktum and Muhammad b. Maslama as deputies in Medina, and deputies followed in governorships, judgesthips, professorships and imamates, until every Seljuk divan had a nāib in its second seat and the Mamluk sultan's nāibs ruled Egypt and Syria in his name. In Ottoman lands the nāib was the medrese-trained legist who sat for the kadı in the kaza; a dedicated school, Muallimhane-i Nüvvâb, opened in 1855 to qualify them, and the office ended with the abolition of the şerʿî courts."
+  ur: "نائب وہ ہے جو عہدے کی ذمہ داری کچھ عرصے کے لیے اصل صاحب کی جگہ نبھاتا ہے۔ نبی نے مدینہ میں اپنی غیر موجودگی میں ابن ام مکتوم اور محمد بن مسلمہ کو نائب چھوڑا؛ پھر گورنری، قضا، تدریس اور امامت میں نواب رہے، یہاں تک کہ ہر سلجوقی دیوان میں نائب دوسرے درجے کا افسر تھا اور مملوک سلطان کے نائب مصر و شام میں اس کے نام پر حکومت کرتے تھے۔ عثمانیوں میں نائب مدرسہ پڑھا ہوا فقیہ تھا جو قضے میں قاضی کی جگہ بیٹھتا تھا؛ 1855ء میں معلم خانہ نواب مکتب کھلا، اور شرعی عدالتوں کے خاتمے کے ساتھ یہ عہدہ ختم ہوا۔"
+domain: governance-law
+kind: office
+hirfa: false
+era:
+  origins: prophetic
+  status_today: transformed
+places:
+  - { place: place/medina, note: "Whenever the Prophet left Medina he appointed a deputy — Ibn Umm Maktum, Abu Ruhm Kulthum b. Husayn or Muhammad b. Maslama — and the Rashidun kept the custom.", sources: [source/tdv-naib] }
+  - { place: place/baghdad, note: "Appointed to Egypt to remove him from the centre, the Abbasid governor Bayik Bey sent his stepson Ahmad b. Tulun as his nāib — the accidental beginning of the Tulunids; with the qadi al-qudat office under Harun al-Rashid, judges won the right to name their own nāibs.", sources: [source/tdv-naib] }
+  - { place: place/merv, note: "In the Great Seljuk divans and their provincial branches the nāib held the second seat after the divan chief, and a favoured divan nāib could eclipse the other dignitaries, even the vizier.", sources: [source/tdv-naib] }
+  - { place: place/cairo, note: "Ayyubid and Mamluk nāibs of Egypt and Syria wielded the sultan's own powers — they appointed and dismissed in his name, consulting him only on the gravest matters, and the Syrian nāibs bore the title malik al-umara.", sources: [source/tdv-naib] }
+  - { place: place/istanbul, note: "In eighteenth-century Istanbul about twenty-five nāibs sat: the Bab Mahkemesi nāib at the head, then the court nāibs of the Istanbul, Galata, Eyüp and Üsküdar jurisdictions, plus itinerant market and inspection nāibs such as the ayak, kapan, yağ and avarız nāibs.", sources: [source/tdv-naib] }
+regions: [arabia, levant-iraq, egypt-nile, maghreb, persia-central-asia, anatolia-balkans, south-asia]
+organization:
+  organized: court-office
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people]
+periods: [period/prophetic-era, period/rashidun, period/umayyad, period/abbasid-early, period/abbasid-fragmentation, period/buyid-seljuk-fatimid-era, period/crusades-ayyubid-mamluk, period/mongol-post-mongol, period/gunpowder-empires, period/modern-era]
+sources: [source/tdv-naib]
+training:
+  mode: formal-schooling
+  certification: "An Ottoman nāib was an ilmiye man trained in the medrese to a level able to settle disputes in his own kaza; the kadı chose him and the kazasker of Anatolia or Rumelia confirmed him, in Istanbul the kadı of Istanbul. Nizam al-Mulk had earlier advised paying nāibs a treasury salary so they would neither burden the people nor resort to unlawful gain. From 1855 the Muallimhane-i Nüvvâb school — later Mekteb-i Nüvvâb (1883), Mekteb-i Kudât (1908) and Medresetü'l-kudât — trained kadıs and nāibs."
+  duration: "Nāibs were generally appointed sine die, with periodic reshuffles; exceptionally a man held the same niyabet for twenty-five or thirty years."
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-gov-2" }
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi, 'NÂİB' (Avcı & İpşirli, 2006, vol. 32, pp. 311-313), web edition read on 16 Nov 2026"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-gov-2-drafting"
