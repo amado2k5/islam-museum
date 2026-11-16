@@ -1,0 +1,33 @@
+id: "concept/al-dama"
+class: "concept"
+kind: "scientific"
+label:
+  ar: "الدمعة"
+  en: "Epiphora (dam'a)"
+  ur: "دمعة"
+summary:
+  ar: "الدمعة أن تكون العين دائماً رطبة برطوبة مائية فربما سالت دمعة، ومنه مولود ومنه عارض، ومن العارض لازم في الصحة ومنه تابع لمرض إن زال زال كما يكون في الحميات؛ والسبب في العارض ضعف الماسكة أو الهاضمة المنضجة أو نقصان من الموق في الطبع أو بسبب استعمال دواء حاد أو عقيب قطع الظفرة، ومبدأ تلك الرطوبات الدماغ يسيل منه إلى العين في أحد الطريقين المتكرر ذكرهما مراراً، والمولود منه عسر ما يقبل العلاج {cite:canon-ibn-sina-print-v2 p.188} {cite:canon-ibn-sina-print-v2 p.189}"
+  en: "Epiphora is that the eye is always wet with a watery moisture and a tear may flow; some of it is congenital, some incidental; of the incidental some is necessary in health and some follows a disease and ceases when it ceases, as in the fevers; the cause of the incidental is weakness of the holding or the digesting-concocting power, or a decrease of the canthus in nature, or from using a sharp drug, or after cutting the pterygium; the source of those moistures is the brain, flowing from it to the eye in one of the two paths repeatedly mentioned; the congenital hardly accepts treatment {cite:canon-ibn-sina-print-v2 p.188} {cite:canon-ibn-sina-print-v2 p.189}"
+  ur: "دمعة یہ ہے کہ آنکھ ہمیشہ پانی جیسی رطوبت سے تر رہے اور آنسو بہ سکے؛ اس میں سے کچھ پیدائشی اور کچھ عارضی ہے؛ عارضی میں سے کچھ صحت میں لازم ہے اور کچھ کسی مرض کی پیروی کرتا ہے تو جس کے جانے سے جائے جیسا بخاروں میں ہوتا ہے؛ عارضی کا سبب ماسکہ یا ہاضمہ منضجہ قوت کا ضعف ہے یا فطرت میں مآق کا گھٹنا یا تیز دوا کے استعمال سے یا ظفرہ کاٹنے کے بعد؛ اور ان رطوبتوں کا مبدأ دماغ ہے جو ان میں سے کسی ایک راہ سے آنکھ کو بہاتا ہے جس کا ذکر بار بار آیا؛ اور پیدائشی علاج مشکل سے قبول کرتی ہے {cite:canon-ibn-sina-print-v2 p.188} {cite:canon-ibn-sina-print-v2 p.189}"
+wings:
+- "living"
+tags:
+- "tibb-browser"
+- "tibb-tibb"
+sources:
+- "source/canon-ibn-sina-print-v2"
+relations:
+- type: "part_of"
+  target: "concept/disease"
+  sources:
+  - "source/canon-ibn-sina-print-v2"
+provenance:
+  layer: "own-research"
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 3 (the eye's anatomy, states and diseases), maqala 2 end and maqala 3 (the states of the lid and what adjoins it), scan pages 188-189, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json, copied to /tmp before reading); editor glosses used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping, cautery and excision sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, lochia, semen, coitus and nursing listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Devin subagent (SWE-2 Medium, Lane A4 worker)"
+  model: "swe-2-medium"
+  run: "a4-canon-book3-9"
+status:
+  review: "published"
+  completeness: 1
+  generated_by: "Devin subagent (SWE-2 Medium, book mining, lane A4)"

@@ -1,0 +1,33 @@
+id: "concept/iltisaq-al-jafnayn"
+class: "concept"
+kind: "scientific"
+label:
+  ar: "التصاق الجفن بالمقلة"
+  en: "Adhesion of the lid to the eyeball"
+  ur: "پلک کا مقلہ سے چپکنا"
+summary:
+  ar: "قد يعرض للجفن أن يلتصق بالمقلة إما بالملتحمة وإما بالقرنية وإما بكليهما وقد يكون في أحد جانبي الموق وقد يكون إلى الوسط كما قد يكون شاملاً، والسبب فيه إما قروح حديثة وإما خرق الكحال إذا لقط من المقلة سبلاً أو كشط ظفرة أو حك من الجفن جرباً ثم لم يكو بما يكوى به ولم يراع كل وقت ما يجب أن يراعى فيه حتى التصق {cite:canon-ibn-sina-print-v2 p.195}"
+  en: "The lid may come to adhere to the eyeball, either at the conjunctiva, the cornea, or both; it may be on one side of the canthus, or toward the middle, or total; its cause is either recent ulcers, or the oculist's error when he excised a sabal from the ball, scraped a pterygium or rubbed a scab from the lid and then did not cauterise with the strong cautery described and did not watch every moment what had to be watched till it adhered {cite:canon-ibn-sina-print-v2 p.195}"
+  ur: "پلک مقلہ سے چپک سکتی ہے یا ملتحمہ سے یا قرنیہ سے یا دونوں سے؛ اور مآق کے ایک جانب ہو سکتا ہے یا وسط کی طرف یا مکمل؛ اس کا سبب یا تو نئے قرحے ہیں یا کحال کی غلطی جب وہ مقلہ سے سبل لقط کرے یا ظفرہ کھرچے یا پلک سے جرب مالے اور پھر مذکور سخت داغ سے نہ داغے اور ہر وقت اس کی رعایت نہ کرے جو رعایت چاہیے یہاں تک کہ چپک جائے {cite:canon-ibn-sina-print-v2 p.195}"
+wings:
+- "living"
+tags:
+- "tibb-browser"
+- "tibb-tibb"
+sources:
+- "source/canon-ibn-sina-print-v2"
+relations:
+- type: "part_of"
+  target: "concept/disease"
+  sources:
+  - "source/canon-ibn-sina-print-v2"
+provenance:
+  layer: "own-research"
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 3 (the eye's anatomy, states and diseases), maqala 2 end and maqala 3 (the states of the lid and what adjoins it), scan pages 195, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json, copied to /tmp before reading); editor glosses used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping, cautery and excision sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, lochia, semen, coitus and nursing listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Devin subagent (SWE-2 Medium, Lane A4 worker)"
+  model: "swe-2-medium"
+  run: "a4-canon-book3-9"
+status:
+  review: "published"
+  completeness: 1
+  generated_by: "Devin subagent (SWE-2 Medium, book mining, lane A4)"

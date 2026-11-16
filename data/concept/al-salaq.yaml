@@ -1,0 +1,33 @@
+id: "concept/al-salaq"
+class: "concept"
+kind: "scientific"
+label:
+  ar: "السلاق"
+  en: "Salaq (lid-margin thickening)"
+  ur: "سلاق"
+summary:
+  ar: "السلاق ويسمى باليونانية أنيوسيما غلظ في الأجفان عن مادة غليظة رديئة أكالة بورقية تحمر لها الأجفان وينتثر الهدب ويؤدي إلى تقرح أشفار الجفن ويتبعه فساد العين، ومنه عتيق رديء؛ فالحديث ينتفع بضمادات وإدمان الحمام من أنفع المعالجات له، وأما العتيق المزمن فيجب فيه التنقية والاستفراغ وإدامة الحمام ⁦(مواضع الحجامة والفصد وأسماء الأدوية ونسخها لا تحمل)⁩ {cite:canon-ibn-sina-print-v2 p.193}"
+  en: "Salaq — called in the book's Greek anyusima — is a thickening in the lids from a thick, bad, eating, boracic matter by which the lids redden, the lashes fall out and it leads to ulceration of the lid margins, eye corruption following; some of it is old and bad; the recent benefits from poultices and constant bathing is among its most beneficial treatments, while the old chronic needs cleansing, evacuation and constant bathing ⁦(cupping and venesection sites, drug names and recipes are not carried)⁩ {cite:canon-ibn-sina-print-v2 p.193}"
+  ur: "سلاق — جسے کتاب میں یونانی نام أنيوسيما سے پکارا گیا — پلکوں میں گاڑھا پن ہے ایک موٹے بُرے کاٹنے والے بورقی مادے سے جس سے پلکیں سرخ ہوتی ہیں، ہدب جھڑتا ہے اور پلک کے کناروں کا قرحہ تک پہنچتا ہے اور آنکھ کی خرابی اس کے پیچھے آتی ہے؛ اس میں سے کچھ پرانا بُرا ہوتا ہے؛ نیا ضمادوں سے فائدہ اٹھاتا ہے اور مسلسل حمام اس کے مفید ترین علاجوں میں ہے، جبکہ پرانا مزمن تنقیہ، استفراغ اور مسلسل حمام چاہتا ہے ⁦(حجامت و فصد کے مقامات، ادویہ کے نام اور نسخے منقول نہیں)⁩ {cite:canon-ibn-sina-print-v2 p.193}"
+wings:
+- "living"
+tags:
+- "tibb-browser"
+- "tibb-tibb"
+sources:
+- "source/canon-ibn-sina-print-v2"
+relations:
+- type: "part_of"
+  target: "concept/disease"
+  sources:
+  - "source/canon-ibn-sina-print-v2"
+provenance:
+  layer: "own-research"
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 3 (the eye's anatomy, states and diseases), maqala 2 end and maqala 3 (the states of the lid and what adjoins it), scan pages 193, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json, copied to /tmp before reading); editor glosses used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping, cautery and excision sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, lochia, semen, coitus and nursing listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Devin subagent (SWE-2 Medium, Lane A4 worker)"
+  model: "swe-2-medium"
+  run: "a4-canon-book3-9"
+status:
+  review: "published"
+  completeness: 1
+  generated_by: "Devin subagent (SWE-2 Medium, book mining, lane A4)"

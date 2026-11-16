@@ -1,0 +1,33 @@
+id: "concept/jasa-al-ajfan"
+class: "concept"
+kind: "scientific"
+label:
+  ar: "جسا الأجفان"
+  en: "Dryness of the eyelids (jasa)"
+  ur: "پلکوں کا جسا"
+summary:
+  ar: "الجسا أن يعرض للأجفان عسر حركة إلى التغميض عن انفتاحه وإلى الانفتاح عن تغميضه مع وجع وحمرة بلا رطوبة في الأكثر ويلزمه كثيراً أن لا يجيب إلى الانفتاح مع الانتباه عن النوم وأكثره لا يخلو عن تفاريق رمص يابس صلب ولا يكون معه سيلان إلا بالعرض لأنه عن يبس أو خلط لزج مائل إلى اليبوسة جداً، وإذا كانت حكة بلا مادة تنصب إليها سميت يبوسة العين، ويدام تكميد العين بإسفنجة مغموسة في ماء فاتر وإدمان الاستحمام بالماء العذب المعتدل {cite:canon-ibn-sina-print-v2 p.194}"
+  en: "Jasa is that the lids get difficulty moving toward closing from opening and toward opening from closing, with pain and redness, mostly without moisture; it often does not answer opening on waking from sleep, mostly with separations of dry hard eye-sordes and no flowing except incidentally, for it is from dryness or a very drying viscid humour; if there is itching with no matter flowing to it, it is called dryness of the eye; constant fomentation of the eye with a sponge soaked in tepid water and frequent bathing with moderate fresh water is kept up {cite:canon-ibn-sina-print-v2 p.194}"
+  ur: "جسا یہ ہے کہ پلکوں کو کھلی حالت سے بند ہونے اور بند سے کھلنے میں دشواری عرض ہو، درد اور سرخی کے ساتھ، اکثر بغیر رطوبت؛ اور اکثر نیند سے بیدار ہونے پر کھلنے کا جواب نہیں دیتا، اور زیادہ تر خشک سخت رمص کے ٹکڑوں کے بغیر نہیں ہوتا اور ساتھ بہاؤ صرف اتفاقاً ہوتا ہے کیونکہ یہ خشکی یا نہایت خشک چکنا خلط سے ہوتا ہے؛ اور اگر خارش ہو بغیر مادے کے بہنے کے تو اسے آنکھ کی خشکی کہتے ہیں؛ اور آنکھ پر نیم گرم پانی میں بگھوئی اسفنجہ سے تكمید اور معتدل شیریں پانی سے مسلسل غسل جاری رکھا جاتا ہے {cite:canon-ibn-sina-print-v2 p.194}"
+wings:
+- "living"
+tags:
+- "tibb-browser"
+- "tibb-tibb"
+sources:
+- "source/canon-ibn-sina-print-v2"
+relations:
+- type: "part_of"
+  target: "concept/disease"
+  sources:
+  - "source/canon-ibn-sina-print-v2"
+provenance:
+  layer: "own-research"
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 3 (the eye's anatomy, states and diseases), maqala 2 end and maqala 3 (the states of the lid and what adjoins it), scan pages 194, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json, copied to /tmp before reading); editor glosses used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping, cautery and excision sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, lochia, semen, coitus and nursing listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Devin subagent (SWE-2 Medium, Lane A4 worker)"
+  model: "swe-2-medium"
+  run: "a4-canon-book3-9"
+status:
+  review: "published"
+  completeness: 1
+  generated_by: "Devin subagent (SWE-2 Medium, book mining, lane A4)"

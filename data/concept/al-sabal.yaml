@@ -1,0 +1,33 @@
+id: "concept/al-sabal"
+class: "concept"
+kind: "scientific"
+label:
+  ar: "السبل"
+  en: "Sabal (the woven veil of the eye)"
+  ur: "سبل"
+summary:
+  ar: "السبل غشاوة تعرض للعين من انتفاخ عروقها الظاهرة في سطح الملتحمة والقرنية وانتساج شيء فيما بينها كالدخان، وسببه امتلاء تلك العروق إما عن مواد تسيل إليها من طريق الغشاء الظاهر أو من طريق الغشاء الباطن لامتلاء الرأس وضعف العين، وقد يعرض معه حكة ودمعة وغشاوة وتأذ من ضوء الشمس وضوء السراج فيضعف البصر فيهما، والقوي منه لا يستغنى عن اللقط ⁦(صفة اللقط منقولة كوصف الكتاب لا كعمل)⁩ {cite:canon-ibn-sina-print-v2 p.185} {cite:canon-ibn-sina-print-v2 p.186}"
+  en: "Sabal is a veil occurring to the eye from swelling of its vessels visible on the surface of the conjunctiva and cornea, something weaving between them like smoke; its cause is the filling of those vessels, either from materials flowing to them by way of the outer membrane or by way of the inner membrane from the head's repletion and the eye's weakness; it may come with itch, tearing, veiling and hurt from sunlight and lamplight weakening sight in both; the strong one cannot do without excision ⁦(the excision carried as the book's description, not as procedure)⁩ {cite:canon-ibn-sina-print-v2 p.185} {cite:canon-ibn-sina-print-v2 p.186}"
+  ur: "سبل ایک غشاوت ہے جو آنکھ کو عرض ہوتی ہے اس کی رگوں کے ورم سے جو ملتحمہ اور قرنیہ کی سطح پر ظاہر ہوتی ہیں اور ان کے درمیان دھوئیں کی طرح کچھ بنا ہوا ہو؛ اس کا سبب ان رگوں کا بھر جانا ہے یا تو ایسی مادوں سے جو ظاہر غشاء کی راہ سے بہہ کر آئیں یا باطن غشاء کی راہ سے سر کے امتلاء اور آنکھ کے ضعف سے؛ اور ساتھ خارش، آنسو، غشاوت اور آفتاب اور چراغ کی روشنی سے تکلیف ہو سکتی ہے جس سے دونوں میں نظر کمزور پڑے؛ اور سخت کو لقط کے بغیر چارہ نہیں ⁦(لقط کی صفت کتاب کی روایت کے طور پر آئی، عمل کے طور پر نہیں)⁩ {cite:canon-ibn-sina-print-v2 p.185} {cite:canon-ibn-sina-print-v2 p.186}"
+wings:
+- "living"
+tags:
+- "tibb-browser"
+- "tibb-tibb"
+sources:
+- "source/canon-ibn-sina-print-v2"
+relations:
+- type: "part_of"
+  target: "concept/disease"
+  sources:
+  - "source/canon-ibn-sina-print-v2"
+provenance:
+  layer: "own-research"
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 3 (the eye's anatomy, states and diseases), maqala 2 end and maqala 3 (the states of the lid and what adjoins it), scan pages 185-186, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json, copied to /tmp before reading); editor glosses used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping, cautery and excision sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, lochia, semen, coitus and nursing listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Devin subagent (SWE-2 Medium, Lane A4 worker)"
+  model: "swe-2-medium"
+  run: "a4-canon-book3-9"
+status:
+  review: "published"
+  completeness: 1
+  generated_by: "Devin subagent (SWE-2 Medium, book mining, lane A4)"

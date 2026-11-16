@@ -1,0 +1,33 @@
+id: "concept/tahayyuj-al-ajfan"
+class: "concept"
+kind: "scientific"
+label:
+  ar: "تهيج الأجفان"
+  en: "Irritation of the eyelids"
+  ur: "پلکوں کا تهیج"
+summary:
+  ar: "يقع تهيج الأجفان لمواد رقيقة وبخارات ولضعف الهضم وسوئه كما يكون في السهر والحميات السهرية وقد يكون في أوائل الاستسقاء وسوء القنية ولأورام رطبة مثل ذات الرئة ومثل ليثرغس، وإذا حدث بالناقهين أنذر كثيراً بالنكس خصوصاً إذا أطاف بها من سائر الأعضاء ضمور وبقيت هي متهيجة منتفخة، والعلاج قطع السبب والتكميد {cite:canon-ibn-sina-print-v2 p.194}"
+  en: "Irritation of the lids occurs for fine materials and vapours and for weakness and badness of digestion, as in sleeplessness and the sleepless fevers; it may be in the beginnings of dropsy and bad cachexia, and for moist swellings like pneumonia and lethargus; when it occurs in convalescents it warns much of relapse, especially if wasting of the other organs surrounds it while the lids stay irritated and swollen; the treatment is cutting the cause and fomentation {cite:canon-ibn-sina-print-v2 p.194}"
+  ur: "پلکوں کا تهیج باریک مادوں اور بخارات اور ہضم کے ضعف و بدی سے ہوتا ہے جیسا بے خوابی اور بے خوابی والے بخاروں میں ہوتا ہے؛ اور استسقاء اور بد قنیہ کی ابتدا میں بھی ہو سکتا ہے اور تر ورموں کے لیے جیسے ذات الریہ اور ليثرغس؛ اور جب ناقہوں میں ہو تو نکس کی سخت دھمکی دیتا ہے بالخصوص جب اردگرد کے اعضا میں ضمور ہو اور پلکیں متهجہ سوجھی رہیں؛ علاج سبب کاٹنا اور تكمید ہے {cite:canon-ibn-sina-print-v2 p.194}"
+wings:
+- "living"
+tags:
+- "tibb-browser"
+- "tibb-tibb"
+sources:
+- "source/canon-ibn-sina-print-v2"
+relations:
+- type: "part_of"
+  target: "concept/disease"
+  sources:
+  - "source/canon-ibn-sina-print-v2"
+provenance:
+  layer: "own-research"
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 3 (the eye's anatomy, states and diseases), maqala 2 end and maqala 3 (the states of the lid and what adjoins it), scan pages 194-195, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json, copied to /tmp before reading); editor glosses used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping, cautery and excision sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, lochia, semen, coitus and nursing listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Devin subagent (SWE-2 Medium, Lane A4 worker)"
+  model: "swe-2-medium"
+  run: "a4-canon-book3-9"
+status:
+  review: "published"
+  completeness: 1
+  generated_by: "Devin subagent (SWE-2 Medium, book mining, lane A4)"

@@ -1,0 +1,33 @@
+id: "concept/ilaj-al-mudda-taht-al-safaq"
+class: "concept"
+kind: "scientific"
+label:
+  ar: "علاج المدة تحت الصفاق"
+  en: "Treating the pus under the conjunctiva"
+  ur: "صفاق کے نیچے مدہ کا علاج"
+summary:
+  ar: "ينقل الكتاب عن بولس أن المدة تحت الصفاق تعالج إذا أزمنت وغلظت بمثل شراب العسل وعصارة الحلبة وشياف الكندر بالزعفران أو تفتح بإكليل الملك ولعاب بزر الكتان إن لم يمنع رمد وتنقى بمثل شياف المر والشاهترج وإن لم تكن قرحة استعملت هذا الشياف وأيضاً دواء المغناطيس المتخذ للظفرة ودواء طين ساموس المذكور في باب النفاخات ⁦(قول بولس منقول عن الكتاب كخبر والنسخ ومقاديرها لا تحمل)⁩ {cite:canon-ibn-sina-print-v2 p.181}"
+  en: "The book transmits from Paulus that the pus under the conjunctiva is treated, when chronic and thickened, with the like of honey drink and fenugreek juice and the frankincense collyrium with saffron, or it is opened with rosemary and flaxseed mucilage unless ophthalmia prevents, and it is cleansed with the like of the myrrh and shahtaraj collyrium; if there is no ulcer this collyrium is used, and also the magnet drug made for pterygium and the Samos clay drug mentioned in the watery-bladders chapter ⁦(Paulus's word transmitted as the book's report; recipes and measures are not carried)⁩ {cite:canon-ibn-sina-print-v2 p.181}"
+  ur: "کتاب پولس سے منقول کرتی ہے کہ صفاق کے نیچے کا مدہ جب پرانا اور گاڑھا ہو جائے تو شہد کے شراب اور میتھی کے رس اور کندر کے شیاف زعفران کے ساتھ علاج ہوتا ہے، یا اکلیل الملک اور کتان کے بیج کے لعاب سے کھولا جاتا ہے بشرطیکہ رمد نہ روکے، اور مر اور شاہترج جیسے شیاف سے صاف کیا جاتا ہے؛ اگر قرحہ نہ ہو تو یہی شیاف استعمال ہوتا ہے، اور ساتھ ہی ظفرہ کے لیے بنایا گیا مقناطیس والا دوا اور نفاخات کے باب میں مذکور طین ساموس کا دوا ⁦(پولس کا قول کتاب کے خبر کے طور پر منقول؛ نسخے اور مقدار منقول نہیں)⁩ {cite:canon-ibn-sina-print-v2 p.181}"
+wings:
+- "living"
+tags:
+- "tibb-browser"
+- "tibb-tibb"
+sources:
+- "source/canon-ibn-sina-print-v2"
+relations:
+- type: "part_of"
+  target: "concept/medical-treatment"
+  sources:
+  - "source/canon-ibn-sina-print-v2"
+provenance:
+  layer: "own-research"
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 3 (the eye's anatomy, states and diseases), maqala 2 end and maqala 3 (the states of the lid and what adjoins it), scan pages 180-181, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json, copied to /tmp before reading); editor glosses used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping, cautery and excision sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, lochia, semen, coitus and nursing listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Devin subagent (SWE-2 Medium, Lane A4 worker)"
+  model: "swe-2-medium"
+  run: "a4-canon-book3-9"
+status:
+  review: "published"
+  completeness: 1
+  generated_by: "Devin subagent (SWE-2 Medium, book mining, lane A4)"

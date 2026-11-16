@@ -1,0 +1,11 @@
+---
+id: concept/ilaj-al-gharb
+lang: en
+source_lang: ar
+translators: [ai]
+---
+## Managing the recent and the chronic
+The gharb is a chronic swelling, the lightest of it the recent; the recent is treated with the resolving drugs we name, and the true treatment of the chronic is the cautery we describe or what stands in its place. If a drug other than cautery is wanted, the best is to squeeze till what is inside comes out, then wash with an astringent drink dropped into it; if it is too little to come out it is left two or three days bound till something of measure gathers, then washed, and then the gharb collyrium that Muhammad ibn Zakariya attributed to himself is dropped into it — especially the portion triturated in galls-water ⁦(the attributed collyrium transmitted as the book's report, without recipe)⁩. The best dripping is drop after drop an hour between every two drops. Among its best management is probing its depth with a probe, winding cotton on the probe soaked in the drugs and placing it inside, whether the drug is liquid or powder; when a drug is used it must be bound with a bandage and kept still {cite:canon-ibn-sina-print-v2 p.182}
+
+## Cleansing and the hand-work when it reaches the bone
+Once it has become a gharb, the canon is to cleanse it first then treat; among what cleanses it is taking the reed pith found inside it, soaking it in honey and laying it on the gharb, then washing the place with a sponge soaked in honey-water {cite:canon-ibn-sina-print-v2 p.182}. If it reaches the bone and drugs do not help, there is no help but incising it, laying open its inside and taking the dead flesh until the bone is reached; then managing it afterward in three ways: if the bone is sound, a blackness appearing on it is scraped and it is filled with a cicatrising drug, bound and left a while; if the matter is greater, cautery is unavoidable, and sometimes the corrupt flesh must be perforated with a penetrating hole aiming so the cautery is deepest at the bottom of the socket inclining neither to nose nor to eye; the eyeball must be held firmly, then cauterised and drugs sprinkled and it is bandaged; sometimes cautery spares the perforation, and it is kept to as much as possible ⁦(the hand-work, cautery and perforation carried as the book's description, not as procedure)⁩ {cite:canon-ibn-sina-print-v2 p.183}
