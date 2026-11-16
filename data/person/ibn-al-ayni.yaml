@@ -13,6 +13,12 @@ regions: [levant-iraq]
 periods: [period/mongol-post-mongol]
 born: { edtf: "1434", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Daw' al-Lami Agrees with Wikidata Q57259185 (P569, a statement without a reference), item revision 2512614030, read on 13 November 2026.", sources: [source/wikidata] }
 died: { edtf: "1488", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Daw' al-Lami Agrees with Wikidata Q57259185 (P570, a statement without a reference), item revision 2512614030, read on 13 November 2026.", sources: [source/wikidata] }
+occupations:
+  - job: job/grammarian
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'grammarian', Job Browser linking wave 47"
+    sources: [source/shadharat-dhahab]
 relations:
   - { type: born_in, target: place/damascus, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/damascus, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
