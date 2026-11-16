@@ -29,6 +29,17 @@ born:
   derived: true
   note: "Born 24 October 1982 in Lahore, per his Minhaj University Lahore profile. Hijri year derived from the Gregorian date."
   sources: [source/mul-hussain-qadri-profile]
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 26"
+    sources: [source/mul-hussain-qadri-profile, source/minhaj-hussain-qadri-dclg-meeting, source/minhaj-hussain-qadri-phd, source/minhaj-hassan-phd, source/vidiq-drhussainqadri]
+  - job: job/teacher
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'teacher', Job Browser linking wave 26"
+    sources: [source/mul-hussain-qadri-profile, source/minhaj-hussain-qadri-dclg-meeting, source/minhaj-hussain-qadri-phd, source/minhaj-hassan-phd, source/vidiq-drhussainqadri]
 relations:
   - { type: born_in, target: place/lahore, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/mul-hussain-qadri-profile] }
   - type: child_of

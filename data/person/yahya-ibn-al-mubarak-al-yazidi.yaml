@@ -15,6 +15,17 @@ wings: [people]
 periods: [period/abbasid-early]
 regions: [levant-iraq]
 died: { edtf: "0818", hijri: "0202", calendar: julian, precision: year, status: tradition, derived: true, note: "Year as printed in al-Nashr; Julian year derived by tabular conversion.", sources: [source/nashr-dahman-damascus-1345-v1] }
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 26"
+    sources: [source/nashr-dahman-damascus-1345-v1]
+  - job: job/teacher
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'teacher', Job Browser linking wave 26"
+    sources: [source/nashr-dahman-damascus-1345-v1]
 relations:
   - { type: student_of, target: person/abu-amr-ibn-al-ala, confidence: high, note: "Ibn al-Jazari, al-Nashr, p. 144: al-Yazidi transmits from Abu Amr; ten thousand leaves dictated from memory on Abu Amr's authority.", sources: [source/nashr-dahman-damascus-1345-v1] }
 sources: [source/nashr-dahman-damascus-1345-v1]
