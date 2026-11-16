@@ -1,0 +1,23 @@
+id: concept/ratta
+class: concept
+kind: natural
+label:
+  ar: "رتة"
+  en: "Ratta"
+  ur: "رتّہ"
+summary:
+  ar: "الرتة في الكتاب هو البندق الهندي، ثمرة في عظم البندق متخشخش تنفلق عن حب كالنارجيل، حارة يابسة، تطلى على الخنازير بالخل، وتنفع من الجرب والحكة، وتكسر الرياح المؤذية في الظهر، ويسعط بها في اللقوة والشقيقة والصداع {cite:canon-ibn-sina-print-v1 p.662}"
+  en: "Ratta is in the book the Indian hazelnut, a fruit in a rattling shell of the hazelnut that splits open on a seed like the coconut; it is hot and dry, smeared with vinegar on scrofula, it benefits scab and itching, breaks the harmful winds in the back, and is used as a snuff for facial palsy, migraine and headache {cite:canon-ibn-sina-print-v1 p.662}"
+  ur: "رتہ کتاب میں ہندی بندق ہے، بندق کے خول میں کھڑکھڑانے والا ایک پھل جو ناریل جیسے دانے پر پھٹتا ہے؛ گرم خشک ہے، سرکے کے ساتھ خنازیر پر لگایا جاتا ہے، خارش اور کھجلی میں نافع ہے، پیٹھ کی تکلیف دہ ریاح کو توڑتا ہے، اور لقوے، آدھے سر کے درد اور سر درد میں نسوار کے طور پر استعمال ہوتا ہے {cite:canon-ibn-sina-print-v1 p.662}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter ra (the twentieth chapter), scan page 662, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for doubtful headings; editor footnotes used only for identity; measured doses, weights, counts, times and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-27
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

@@ -1,0 +1,23 @@
+id: concept/rabitha
+class: concept
+kind: natural
+label:
+  ar: "ربيثا"
+  en: "Rabitha"
+  ur: "ربیثا"
+summary:
+  ar: "الربيثا في الكتاب قال ابن ماسويه إنها أسخن من الروبيان، وهي نافعة للمعدة تجفف رطوباتها، ولا سيما إذا أكلت مع السذاب والشونيز والكرفس والزيت، ويذكر الكتاب نقلا موسوما أنها عون على الباه {cite:canon-ibn-sina-print-v1 p.669}"
+  en: "Rabitha is in the book, Ibn Masawayh said, hotter than the rubyan; it is beneficial for the stomach and dries its moistures, above all when it is eaten with rue, nigella, celery and oil; and the book lists, as a labelled report, that it is a help to desire {cite:canon-ibn-sina-print-v1 p.669}"
+  ur: "ربیثا کتاب میں ہے؛ ابن ماسویہ نے کہا کہ یہ روبیان سے زیادہ گرم ہے، اور معدے کے لیے نافع ہے، اس کی رطوبتوں کو خشک کرتی ہے، خاص طور پر جب سداب، شونیز، اجوائن اور تیل کے ساتھ کھائی جائے؛ اور کتاب منقول فہرست کے طور پر درج کرتی ہے کہ یہ باہ میں مددگار ہے {cite:canon-ibn-sina-print-v1 p.669}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter ra (the twentieth chapter), scan pages 669, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for doubtful headings; editor footnotes used only for identity; measured doses, weights, counts, times and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-28
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

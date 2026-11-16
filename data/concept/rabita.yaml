@@ -1,0 +1,23 @@
+id: concept/rabita
+class: concept
+kind: natural
+label:
+  ar: "ربيتاع"
+  en: "Rabita'"
+  ur: "ربیتاع"
+summary:
+  ar: "الربيتاع في الكتاب حجر كالسرطان، بارد رطب في الثانية، ينشف ويجلو، ويحد البصر، وبه يختم الكتاب كلامه في حرف الراء ويذكر أن جملة ما ذكر فيه من الأدوية خمسة وعشرون {cite:canon-ibn-sina-print-v1 p.670}"
+  en: "Rabita' is in the book a stone like the crab, cold and moist in the second degree, drying and cleansing, and it sharpens sight; with it the book ends its discourse on the letter ra and states that the sum of the drugs mentioned in it is twenty-five {cite:canon-ibn-sina-print-v1 p.670}"
+  ur: "ربیتاع کتاب میں کیکڑے جیسا ایک پتھر ہے، دوسرے درجے میں ٹھنڈا تر، خشک کرنے والا اور جلا دینے والا، اور بینائی تیز کرتا ہے؛ اس کے ساتھ کتاب حرف را کا کلام ختم کرتی ہے اور بتاتی ہے کہ اس میں ذکر کی گئی دواؤں کا مجموعہ پچیس ہے {cite:canon-ibn-sina-print-v1 p.670}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter ra (the twentieth chapter), scan pages 670, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for doubtful headings; editor footnotes used only for identity; measured doses, weights, counts, times and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-28
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

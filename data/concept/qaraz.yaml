@@ -1,0 +1,23 @@
+id: concept/qaraz
+class: concept
+kind: natural
+label:
+  ar: "قرظ"
+  en: "Qaraz"
+  ur: "قرظ"
+summary:
+  ar: "القرظ في الكتاب، نقلا عن ديسقوريدوس، عصارة شجرة شوكية تنبت بمصر وغيرها يسميها بعض الناس أقاقيا، ومنها يكون الصمغ العربي، ويذكر الكتاب علامات جيدها ورديئها وصنفا آخر أصغر ينبت في قيادوقيا أضعف قوة، وأن قوتها مغرية تقمع حدة الأدوية الحارة إذا خلطت بها {cite:canon-ibn-sina-print-v1 pp.660-661}"
+  en: "Qaraz is in the book, on the authority of Dioscorides, the sap of a thorny tree that grows in Egypt and elsewhere, which some people call aqaqiya; gum arabic comes from the same thorn; the book gives the marks of its good and poor kinds, and another, smaller kind that grows in Cappadocia and is weaker, and says that its power is gluey and curbs the sharpness of hot drugs when mixed with them {cite:canon-ibn-sina-print-v1 pp.660-661}"
+  ur: "قرظ کتاب میں، دیسقوریدوس کے حوالے سے، ایک کانٹے دار درخت کا عرق ہے جو مصر اور دوسری جگہوں میں اگتا ہے اور بعض لوگ اسے اقاقیا کہتے ہیں؛ گوند عربی اسی کانٹے دار درخت سے ہوتی ہے؛ کتاب اس کی اچھی اور ناقص قسموں کی علامتیں اور قیادوقیا میں اگنے والی ایک چھوٹی اور کمزور قسم بتاتی ہے، اور یہ کہ اس کی قوت چپکنے والی ہے جو گرم دواؤں میں ملانے پر ان کی تیزی کو دباتی ہے {cite:canon-ibn-sina-print-v1 pp.660-661}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter qaf (the nineteenth chapter), scan pages 660-661, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for doubtful headings; editor footnotes used only for identity; measured doses, weights, counts, times and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-27
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

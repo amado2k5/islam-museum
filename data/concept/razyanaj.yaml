@@ -1,0 +1,23 @@
+id: concept/razyanaj
+class: concept
+kind: natural
+label:
+  ar: "رازيانج"
+  en: "Razyanaj"
+  ur: "رازیانج"
+summary:
+  ar: "الرازيانج في الكتاب بزره يشبه بزر الكرفس، قريب القوة من البري لكنه أضعف، والبري أشد حرارة ويبسا وأولى بالثالثة والبستاني في الثانية، يفتح السدد ويحد البصر، وينفع من الغثيان والتهاب المعدة ومن الحميات المزمنة ومن نهش الهوام، ويذكر الكتاب في الطمث والنفساء نقلا موسوما {cite:canon-ibn-sina-print-v1 p.664}"
+  en: "Razyanaj is in the book a plant whose seed resembles celery seed, near the wild kind in power but weaker; the wild is hotter and drier and belongs to the third degree, and the garden kind is in the second; it opens obstructions and sharpens sight, benefits nausea and burning of the stomach, chronic fevers and the bites of vermin, and the book lists a labelled report on menses and the woman after childbirth {cite:canon-ibn-sina-print-v1 p.664}"
+  ur: "رازیانج کتاب میں ایک پودا ہے جس کا بیج کرفس کے بیج جیسا ہے، قوت میں جنگلی کے قریب مگر اس سے کمزور؛ جنگلی زیادہ گرم اور خشک ہے اور تیسرے درجے کے زیادہ قریب، اور باغی دوسرے درجے میں ہے؛ رکاوٹیں کھولتا ہے اور بینائی تیز کرتا ہے، متلی اور معدے کی جلن، پرانے بخاروں اور زہریلے جانوروں کے کاٹنے میں نافع ہے، اور کتاب حیض اور زچہ کے بارے میں منقول فہرست درج کرتی ہے {cite:canon-ibn-sina-print-v1 p.664}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter ra (the twentieth chapter), scan page 664, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for doubtful headings; editor footnotes used only for identity; measured doses, weights, counts, times and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-27
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }
