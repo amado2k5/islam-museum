@@ -1,0 +1,8 @@
+---
+id: concept/ilaj-awram-al-halq
+lang: en
+source_lang: ar
+translators: [ai]
+---
+## The graduation, the specific property and the pressing
+What also helps in this: shaving the crown then painting it with what he described — this at first — then graduating to the suppuratives, then to the strong openers, up to the degree of what he described; and sneezing helped by what he described. Of the tried things that work by their specific property in the tumours of the quinsies, the uvula and the tonsils — the throat's organs in sum — with a great benefit: threads, above all dyed with the sea-purple, are taken, a viper strangled with them, then the neck of him who has these tumours is ringed with them — it benefits him a strong, great, wondrous benefit beyond the expected measure (the book's saying among the tried things working by specific property, carried on its attribution as it came and set before the founder). Milk is among the noble drugs. One ends with what repels, softens and calms the pains; and in using what astringes or resolves or ripens the body's state in looseness and hardness must be watched — the strong made stronger in the hard, softened in the loose — and likewise age, temperament, season and habit are regarded; the tumours of the uvula and the tonsils and their relaxation may be singled out for cutting, a chapter set apart for it. Of the ways of treatment is pressing on the place, and its places are three: when the vertebra is displaced; in lifting the uvula and the tonsils needing lifting from their fall; and in the phlegmatic tumours when they narrow the two passages, pressing being used to clear and thin them {cite:canon-ibn-sina-print-v2 p.291}

@@ -1,0 +1,33 @@
+id: concept/al-ghass-bi-al-taam
+class: concept
+kind: scientific
+label:
+  ar: "الغصّ بالطعام"
+  en: "Choking on food"
+  ur: "خوراک میں گھٹن"
+summary:
+  ar: "الغصّ بالطعام وما يجري مجراه إذا نشب شيء له حجم يجب أن يبدأ فيلكم العنق وما بين الكتفين ضرباً بعد ضرب فإن لم يغن أعين بالقيء وربما كان في ذلك خطر ⁦(محمول على أنه وصف الكتاب لا عملية)⁩ {cite:canon-ibn-sina-print-v2 p.285}"
+  en: "Choking on food and what runs its course: if a body of some bulk sticks fast, one must begin by cuffing the neck and what is between the shoulders, strike after strike; if that does not avail, he is helped by vomiting — and there may be danger in that (carried as the book's description, not a procedure) {cite:canon-ibn-sina-print-v2 p.285}"
+  ur: "خوراک میں گھٹن اور اس جنس کی چیز: اگر حجم والی کوئی چیز پھنس جائے تو آغاز گردن اور دونوں کندھوں کے درمیان تھپکیاں دینے سے ہونا چاہیے، ایک کے بعد ایک؛ اگر وہ نہ سودا کرے تو قے سے مدد لی جاتی ہے اور اس میں خطر بھی ہو سکتا ہے ⁦(کتاب کے وصف پر محمول، طریقہ نہیں)⁩ {cite:canon-ibn-sina-print-v2 p.285}"
+wings:
+- living
+tags:
+- tibb-browser
+- tibb-tibb
+sources:
+- source/canon-ibn-sina-print-v2
+relations:
+- type: part_of
+  target: concept/disease
+  sources:
+  - source/canon-ibn-sina-print-v2
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, the last fasls of Fann 8 (the gums and the lips, one maqala) and the whole of Fann 9 (the throat, one maqala), scan pages 285, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json, copied to /tmp before reading); editor footnotes used only as the editor's glosses and labelled; the edition's English parenthetical glosses ignored as apparatus; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes and application forms left out; venesection, cupping, cautery and operative sites carried only as named by the book; the tools' and hands' works (extraction, excision, trachea-slitting, pressing, scarification and the snare) carried only as the book's descriptions, not as procedures; unclear OCR words carried as printed, not guessed; transmitted sayings, tried-remedy reports and named attributions carried as the book's attributions and labelled; animal-derived and unclean lines kept only as labelled listings set aside for the founder's ruling"
+  generated_by: Devin subagent (SWE-2 Medium, Lane A4 worker)
+  model: swe-2-medium
+  run: a4-canon-book3-15
+status:
+  review: published
+  completeness: 1
+  generated_by: Devin subagent (SWE-2 Medium, book mining, lane A4)
