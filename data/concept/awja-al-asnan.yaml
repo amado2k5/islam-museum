@@ -1,0 +1,33 @@
+id: concept/awja-al-asnan
+class: concept
+kind: scientific
+label:
+  ar: أوجاع الأسنان
+  en: The toothaches
+  ur: دانتوں کے درد
+summary:
+  ar: الأسنان قد توجع بسبب وجع في جوهرها أو لسبب وجع في العصبة التي في أصلها أو لسبب وجع في اللثة ورم كان أو زيادة لحم نابت فيها يقبل المادة أو لاسترخائها وترهلها فتقبل المواد الرديئة فتعفن فيها وتؤذي الأسنان وتجعلها قلقة، وقد بعسر على كثير من المتألمين التمييز بينها وأنواع علاجها مختلفة، وأسبابها إما سوء مزاج ساذج من برد أو حر أو جفاف لعدم الغذاء كما في المشايخ أو مع مادة أو ريح، والمادة إما أن توجع بالكثرة أو بالغلظ أو بالحدة وقد تكون مورمة للسن نفسها أو مؤكلة وربما ولدت دوداً، ومبدأ المادة إما من المعدة أو من الدماغ فإن المجرى من البدن إلى الأسنان من هذين الطريقين {cite:canon-ibn-sina-print-v2 p.269-271}
+  en: The teeth may ache from a pain in their substance, or a pain in the nerve at their root, or a pain in the gum — a tumour or extra flesh grown in it that receives matter, or its relaxation and slackness receiving the bad matters that putrefy in it, hurting the teeth and making them loose; many sufferers can hardly tell these apart and their treatments differ. The causes are either a simple bad temperament — cold, heat, or dryness for want of nourishment as in the aged — or with a matter, or a wind; the matter pains by abundance, thickness or sharpness, and may tumour the tooth itself or corrode it, and may breed worms; the matter's origin is from the stomach or the brain, the body's two routes to the teeth {cite:canon-ibn-sina-print-v2 p.269-271}
+  ur: دانتوں میں درد یا ان کے جوہر میں ہو سکتا ہے یا ان کی جڑ کے اعصاب میں یا مسوڑھے میں — وہاں ورم ہو یا اگا ہوا اضافی گوشت جو مواد قبول کرے، یا اس کی شل اور ڈھیلاپن جس سے بری مواد قبول ہو کر سڑ جائے اور دانتوں کو تکلیف دے اور ڈگمگا دے؛ بہت سے درد مندوں کو ان میں فرق کرنا مشکل ہوتا ہے اور علاج کے طریقے مختلف ہیں؛ اسباب یا تو محض خراب مزاج ہے — سرد، گرم، یا غذا کے نہ ہونے سے خشکی جیسے بزرگوں میں — یا مواد کے ساتھ یا پھر ہوا؛ مواد درد کثرت، گاڑھپن یا تیزی سے کرتی ہے اور وہ خود دانت کو ورم دے سکتی ہے یا اسے کاٹ سکتی ہے اور بعض اوقات کیڑے پیدا کر سکتی ہے؛ مواد کا مبدأ معدہ یا دماغ ہے کیونکہ بدن سے دانتوں تک یہی دو راستے ہیں {cite:canon-ibn-sina-print-v2 p.269-271}
+wings:
+- living
+tags:
+- tibb-browser
+- tibb-tibb
+sources:
+- source/canon-ibn-sina-print-v2
+relations:
+- type: part_of
+  target: concept/disease
+  sources:
+  - source/canon-ibn-sina-print-v2
+provenance:
+  layer: own-research
+  source: Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 7 (the teeth, one maqala) and the first fasls of Fann 8 (the gums and the lips), scan pages 269-271, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json, copied to /tmp before reading); editor footnotes used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping, cautery and operative sites and application methods left out; the tooth's drilling, filing, drawing, cautery and extraction carried only as the book's descriptions, not as procedures; unclear OCR words carried as printed, not guessed; case reports and named attributions carried as the book's attributions and labelled; animal-derived and unclean lines kept only as labelled listings set aside for the founder's ruling
+  generated_by: Devin subagent (SWE-2 Medium, Lane A4 worker)
+  model: swe-2-medium
+  run: a4-canon-book3-14
+status:
+  review: published
+  completeness: 1
+  generated_by: Devin subagent (SWE-2 Medium, book mining, lane A4)
