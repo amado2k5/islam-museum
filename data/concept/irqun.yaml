@@ -1,0 +1,23 @@
+id: concept/irqun
+class: concept
+kind: natural
+label:
+  ar: "عرقون"
+  en: "Irqun"
+  ur: "عرقون"
+summary:
+  ar: "عرقون في الكتاب نبات ينقل عن ديسقوريدوس أن ورقه كورق شقائق النعمان وأصله مستدير حماس يؤكل، يحلل الرياح، ويذكر صنفا آخر ورقه كالملوخية ولا فائدة له في الطب عند الكتاب {cite:canon-ibn-sina-print-v1 p.621}"
+  en: "Irqun is in the book a plant whose leaf, as reported from Dioscorides, is like that of the anemone and whose root is round and pungent and eaten; it dissolves wind, and the book mentions a second kind with a leaf like mallow that has no use in medicine {cite:canon-ibn-sina-print-v1 p.621}"
+  ur: "عرقون کتاب میں ایک پودا ہے جس کے پتے، دیسقوریدوس سے نقل کے مطابق، شقائق النعمان کے پتوں جیسے اور جڑ گول تیز ذائقے والی کھائی جانے والی ہے؛ ہوا کو تحلیل کرتا ہے، اور کتاب ایک اور قسم کا ذکر کرتی ہے جس کے پتے ملوخیہ جیسے ہیں اور طب میں اس کا کوئی فائدہ نہیں {cite:canon-ibn-sina-print-v1 p.621}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter ayn, scan pages 621, 622, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for doubtful headings; editor footnotes used only for identity; measured doses, weights, counts and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-23
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

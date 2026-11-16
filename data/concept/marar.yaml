@@ -1,0 +1,23 @@
+id: concept/marar
+class: concept
+kind: natural
+label:
+  ar: "مرعر"
+  en: "Mar'ar (the mountain cypress)"
+  ur: "مرعر"
+summary:
+  ar: "المرعر في الكتاب هو السرو الجبلي منه صغير ومنه كبير، حبه حار في الأولى يابس في الثانية، مسخن ملطف مفش، ينفع الصدر والمعدة والنفخ، ويدفع ضرر لسع الهوام ويطرد الهوام والذباب، وفي الكتاب نقل موسوم في اختناق الرحم {cite:canon-ibn-sina-print-v1 p.609}"
+  en: "Mar'ar is in the book the mountain cypress, some small and some large, its fruit hot in the first degree and dry in the second, warming, thinning and dispersing; it benefits the chest, the stomach and flatulence, wards off the harm of the stings of vermin and drives away vermin and flies, and the book gives a labelled listing on suffocation of the womb {cite:canon-ibn-sina-print-v1 p.609}"
+  ur: "مرعر کتاب میں پہاڑی سرو ہے، کچھ چھوٹے اور کچھ بڑے، اس کا دانہ پہلے درجے میں گرم اور دوسرے میں خشک ہے، گرم کرنے والا، لطیف کرنے والا اور منتشر کرنے والا؛ سینے، معدے اور نفخ میں فائدہ دیتا ہے، موذی جانوروں کے ڈنک کے ضرر کو دور کرتا ہے اور موذی جانوروں اور مکھیوں کو بھگاتا ہے، اور کتاب میں رحم کے گھٹنے کے بارے میں ایک موسوم نقل ہے {cite:canon-ibn-sina-print-v1 p.609}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letters sin and ayn, scan pages 609 to 610, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for garbled headings; editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-22
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

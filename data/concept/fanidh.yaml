@@ -1,0 +1,23 @@
+id: concept/fanidh
+class: concept
+kind: natural
+label:
+  ar: "فانيذ"
+  en: "Fanidh (thick cane sugar)"
+  ur: "فانیذ"
+summary:
+  ar: "الفانيذ في الكتاب عصارة قصب مطبوخة إلى أن تثخن، لا يعمل إلا ببلاد مكران من ناحية كرمان ويحمل منها إلى البلاد، أجوده الأبيض الرقاق الحراني، حار رطب في الأولى، أغلظ من السكر وأحر، جيد للسعال ومليّن للبطن {cite:canon-ibn-sina-print-v1 p.624}"
+  en: "Fanidh is in the book the juice of cane cooked until it thickens, made only in the land of Makran in the region of Kirman and carried from there to other lands; the best is the white, thin, Harrani kind, hot and moist in the first degree, thicker than sugar and much hotter, good for cough and softening the bowels {cite:canon-ibn-sina-print-v1 p.624}"
+  ur: "فانیذ کتاب میں گنے کا رس ہے جو گاڑھا ہونے تک پکایا جائے، صرف کرمان کے علاقے میں مکران کے ملک میں بنایا جاتا اور وہاں سے دوسرے ملکوں کو لایا جاتا ہے؛ بہترین سفید، پتلا حرانی ہے، پہلے درجے میں گرم تر ہے، شکر سے گاڑھا اور بہت گرم ہے، کھانسی کے لیے اچھا اور پیٹ کو نرم کرنے والا ہے {cite:canon-ibn-sina-print-v1 p.624}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter fa, scan pages 624, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for doubtful headings; editor footnotes used only for identity; measured doses, weights, counts and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-23
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

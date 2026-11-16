@@ -1,0 +1,23 @@
+id: concept/salikha
+class: concept
+kind: natural
+label:
+  ar: "سليخة"
+  en: "Salikha (a bark like cinnamon)"
+  ur: "سليخة"
+summary:
+  ar: "السليخة في الكتاب أصناف، والجيد منها قشر شجرة شبيهة بشجرة الدارصيني تجلب من ناحية الصين وقوته قوة دارصيني ضعيف، حارة يابسة في الثالثة، تحلل الرياح الغليظة والأورام في الأحشاء وتقوي الأعضاء، وفي الكتاب نقل موسوم في الرحم {cite:canon-ibn-sina-print-v1 p.604}"
+  en: "Salikha is in the book of many kinds, the good one being the bark of a tree like the cinnamon tree brought from the direction of China, with the power of a weak cinnamon; hot and dry in the third degree, it dissolves thick winds and swellings in the viscera and strengthens the organs, and the book gives a labelled listing on the womb {cite:canon-ibn-sina-print-v1 p.604}"
+  ur: "سلیخہ کتاب میں کئی قسموں کی ہے اور اچھی قسم دارچینی کے درخت جیسے درخت کی چھال ہے جو چین کی طرف سے لائی جاتی ہے اور اس کی قوت کمزور دارچینی جیسی ہے؛ تیسرے درجے میں گرم خشک ہے، موٹی ہواؤں اور انتڑیوں کے ورموں کو گھلاتی اور اعضاء کو قوت دیتی ہے، اور کتاب میں رحم کے بارے میں ایک موسوم نقل ہے {cite:canon-ibn-sina-print-v1 p.604}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letters sin and ayn, scan pages 603 to 604, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for garbled headings; editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-22
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

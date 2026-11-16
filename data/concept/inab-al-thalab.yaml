@@ -1,0 +1,23 @@
+id: concept/inab-al-thalab
+class: concept
+kind: natural
+label:
+  ar: "عنب الثعلب"
+  en: "Inab al-tha'lab (nightshade)"
+  ur: "عنب الثعلب"
+summary:
+  ar: "عنب الثعلب في الكتاب خمسة أنواع ينقل وصفها عن ديسقوريدوس، منها البستاني المأكول ومنها المنوم ومنها المجنن ومنها القاتل، بارد في الأولى يابس في الثانية، ينفع من الأورام الحارة والصداع وأوجاع العين، وفيه تحذير صريح من أن المخدر منه يحدث الجنون إذا أكثر منه وأن بعضه قاتل {cite:canon-ibn-sina-print-v1 p.612}"
+  en: "Inab al-tha'lab is in the book of five kinds whose descriptions are reported from Dioscorides, among them the garden kind that is eaten, the sleep-inducing, the maddening and the deadly; cold in the first degree and dry in the second, it benefits hot swellings, headache and pains of the eye, and the book carries a plain warning that the narcotic kind causes madness in excess and that some kinds kill {cite:canon-ibn-sina-print-v1 p.612}"
+  ur: "عنب الثعلب کتاب میں پانچ اقسام کا ہے جن کا وصف دیسقوریدوس سے نقل ہے، ان میں باغی جو کھایا جاتا ہے، نیند لانے والا، پاگل کرنے والا اور قاتل ہیں؛ پہلے درجے میں سرد اور دوسرے میں خشک، گرم ورموں، سر درد اور آنکھ کے دردوں میں فائدہ دیتا ہے، اور کتاب میں واضح تنبیہ ہے کہ نشہ آور قسم زیادہ لینے سے جنون پیدا کرتی ہے اور بعض اقسام مار ڈالتی ہیں {cite:canon-ibn-sina-print-v1 p.612}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letters sin and ayn, scan pages 612 to 613, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for garbled headings; editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-22
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

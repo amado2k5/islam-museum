@@ -1,0 +1,23 @@
+id: concept/fustuq
+class: concept
+kind: natural
+label:
+  ar: "فستق"
+  en: "Fustuq (the pistachio)"
+  ur: "فستق"
+summary:
+  ar: "الفستق في الكتاب شجرة معروفة موجودة في بعض البلاد، حار في آخر الثانية وفيه رطوبة، يفتح سدد الكبد لمرارته وعطريته وفيه عفوصة وغذاؤه يسير جدا، جيد للمعدة، ودهنه ينفع من وجع الكبد، ولا يليّن البطن ولا يعقله، وينفع من نهش الهوام {cite:canon-ibn-sina-print-v1 pp.634-635}"
+  en: "Fustuq is in the book a well-known tree found in some lands, hot at the end of the second degree with some moisture; it opens obstructions of the liver by its bitterness and its fragrance, has some astringency, and its nourishment is very little; it is good for the stomach, its oil benefits pain of the liver, it neither softens nor binds the bowels, and it benefits the bites of vermin {cite:canon-ibn-sina-print-v1 pp.634-635}"
+  ur: "فستق کتاب میں مشہور درخت ہے جو بعض ملکوں میں پایا جاتا ہے، دوسرے درجے کے آخر میں گرم اور کچھ نمی والا؛ اپنی تلخی اور خوشبو سے جگر کی رکاوٹیں کھولتا ہے، اس میں کچھ قبض ہے اور غذائیت بہت تھوڑی؛ معدے کے لیے اچھا ہے، اس کا تیل جگر کے درد میں نافع ہے، پیٹ کو نہ نرم کرتا ہے نہ روکتا ہے، اور زہریلے جانوروں کے ڈنک میں نافع ہے {cite:canon-ibn-sina-print-v1 pp.634-635}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter fa (the seventeenth chapter), scan pages 634, 635, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for doubtful headings; editor footnotes used only for identity; measured doses, weights, counts and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-24
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

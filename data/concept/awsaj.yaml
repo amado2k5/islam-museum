@@ -1,0 +1,23 @@
+id: concept/awsaj
+class: concept
+kind: natural
+label:
+  ar: "عوسج"
+  en: "Awsaj (boxthorn)"
+  ur: "عوسج"
+summary:
+  ar: "العوسج في الكتاب شجرة شائكة ينقل وصفها عن ديسقوريدوس، وفيه أن قوماً قالوا إنه العليق، وله ثمرة مثل التوت تؤكل ومنبته في البلاد الباردة أكثر، وورق جميع أصنافه نافع من الحمرة والنملة ضماداً، وفيه أن قوماً زعموا أنه يبطل عمل السحرة إذا علق {cite:canon-ibn-sina-print-v1 p.617}"
+  en: "Awsaj is in the book a thorny tree whose description is reported from Dioscorides, the book noting that some said it is the ulayq; it has a fruit like the mulberry that is eaten and grows more in cold lands, the leaf of all its kinds is useful as a poultice for erysipelas and herpes, and the book adds that some people claimed that hung up it nullifies the work of sorcerers {cite:canon-ibn-sina-print-v1 p.617}"
+  ur: "عوسج کتاب میں ایک کانٹے دار درخت ہے جس کا وصف دیسقوریدوس سے نقل ہے، اور کتاب بتاتی ہے کہ بعض نے کہا کہ یہ علیق ہے؛ اس کا پھل شہتوت جیسا ہے جو کھایا جاتا ہے اور سرد ملکوں میں زیادہ اگتا ہے، اس کی تمام قسموں کا پتا پٹی کے طور پر حمرہ اور نملہ میں مفید ہے، اور کتاب میں ہے کہ بعض لوگوں نے دعویٰ کیا کہ لٹکانے سے یہ جادوگروں کے عمل کو باطل کرتا ہے {cite:canon-ibn-sina-print-v1 p.617}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letters sin and ayn, scan pages 617, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for garbled headings; editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-22
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

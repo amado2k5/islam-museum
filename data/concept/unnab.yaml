@@ -1,0 +1,23 @@
+id: concept/unnab
+class: concept
+kind: natural
+label:
+  ar: "عناب"
+  en: "Unnab (jujube)"
+  ur: "عناب"
+summary:
+  ar: "العناب في الكتاب ثمرة شجرة معروفة أكثرها بجرجان، بارد إلى الأولى معتدل في اليبوسة والرطوبة، وينقل قول جالينوس إنه لم يجد له أثراً في الصحة ولا في المرض غير أنه عسر الهضم قليل الغذاء، ويقول إنه جيد للصدر والرئة رديء للمعدة {cite:canon-ibn-sina-print-v1 p.615}"
+  en: "Unnab is in the book the fruit of a well-known tree, found mostly at Jurjan, cold toward the first degree and moderate in dryness and moisture; the book relates the saying of Galen that he found no effect of it in health or in illness, only that it is hard to digest and of little nourishment, and says it is good for the chest and the lung and bad for the stomach {cite:canon-ibn-sina-print-v1 p.615}"
+  ur: "عناب کتاب میں ایک معروف درخت کا پھل ہے جو زیادہ تر جرجان میں ہوتا ہے، پہلے درجے تک سرد اور خشکی اور تری میں معتدل؛ کتاب جالینوس کا قول نقل کرتی ہے کہ اس نے اس کا کوئی اثر نہ صحت میں پایا نہ بیماری میں سوائے اس کے کہ یہ دیر ہضم اور کم غذا ہے، اور کہتی ہے کہ یہ سینے اور پھیپھڑے کے لیے اچھا اور معدے کے لیے برا ہے {cite:canon-ibn-sina-print-v1 p.615}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letters sin and ayn, scan pages 615, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for garbled headings; editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-22
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

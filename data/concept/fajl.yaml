@@ -1,0 +1,23 @@
+id: concept/fajl
+class: concept
+kind: natural
+label:
+  ar: "فجل"
+  en: "Fajl (the radish)"
+  ur: "فجل"
+summary:
+  ar: "الفجل في الكتاب أقوى ما فيه بزره ثم قشره ثم ورقه ثم لحمه، أصله حار في الأولى رطب وبزره حار في الثالثة، يولد الرياح لكن بزره يحللها، وفيه تلطيف قوي، وهو رديء للمعدة يجشي ويسهل القيء، ويفتح سدد الكبد، وينفع من الخناق والسعال المزمن ومن عض الأفعى والعقرب {cite:canon-ibn-sina-print-v1 pp.633-634}"
+  en: "Fajl is in the book the radish, whose strongest part is its seed, then its peel, then its leaf, then its flesh; the root hot in the first degree and moist, the seed hot in the third; it engenders winds but its seed dissolves them, it has a strong attenuating power, it is bad for the stomach, causes belching and eases vomiting, opens obstructions of the liver, and benefits quinsy, chronic cough and the bite of the viper and the scorpion {cite:canon-ibn-sina-print-v1 pp.633-634}"
+  ur: "فجل کتاب میں مولی ہے، جس کی سب سے قوی چیز اس کا بیج ہے، پھر چھلکا، پھر پتا، پھر گودا؛ جڑ پہلے درجے میں گرم تر اور بیج تیسرے میں گرم؛ ہوائیں پیدا کرتی ہے مگر اس کا بیج انھیں تحلیل کرتا ہے، اس میں قوی لطافت ہے، معدے کے لیے بُری ہے، ڈکار لاتی اور قے آسان کرتی ہے، جگر کی رکاوٹیں کھولتی ہے، اور خناق، پرانی کھانسی، سانپ اور بچھو کے کاٹنے میں نافع ہے {cite:canon-ibn-sina-print-v1 pp.633-634}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter fa (the seventeenth chapter), scan pages 633, 634, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for doubtful headings; editor footnotes used only for identity; measured doses, weights, counts and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-24
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }
