@@ -1,0 +1,47 @@
+id: job/baqqal
+class: job
+label: { ar: "البقّال", en: "Grocer (baqqal)", ur: "بقّال" }
+names:
+  - { value: "Bakkal", kind: latinized, lang: tr }
+  - { value: "Attaran", kind: latinized, lang: tr }
+  - { value: "عطّار", kind: alternate }
+summary:
+  ar: "البقّال بائع المآكل والمشارب بالتجزئة: التمر والزبيب والتين والفستق والبندق والعسل والسمن والتوابل، والعطّار عند العثمانيين بائع العطرية والعقاقير من زنجبيل وفلفل وهيل وقرفة وقرنفل وراوند وناردين وعود. يعدّ إوليا البقّالين في مقدّمة موكب الطوائف لأنهم يبيعون المآكل والمشارب، وبيرهم عاصم بن النّبّاش الذي قلّده سلمان الفارسي وهو أول البقّالين عاش مئة وعشرين سنة وقبره في القدس؛ ويجتازون على عربات نصبت عليها خيام يلقون البندق والفستق والزبيب والتين على المتفرجين، وبعضهم يلبس أثواباً من البصل والتمر ويتعمّم قرون الماعز ويسبّح بمسبحة من الجوز؛ وعطّارو إسطنبول ثلاثة آلاف دكان بيرهم حسام الدين بن عبد الله البصري، والعطّارون المصريون خارج باب السجن يسوقون عربات محمّلة بثلاثة آلاف صنف وعيد في تذكرة داوود. وفي قاهرة لين تجاور في شارع السوق العطّار والزيّات الذي يبيع السمن والجبن والعسل مع الزيت والفكهاني والنقلي بائع الفواكه المجففة والخضري."
+  en: "The baqqal sold food and drink by retail: dates, raisins, figs, pistachios, hazel-nuts, honey, clarified butter and spices, while the Ottoman attar sold the aromatics and drugs — ginger, pepper, cardamom, cinnamon, cloves, rhubarb, spikenard and aloes. Evliya gives the grocers precedence in the guild procession because they sell eatables and drinkables; their patron Asim Ibn al-Nabbash was girded by Selman Pak, was the first of all bakkals, lived a hundred and twenty years and is buried at Jerusalem. They pass in tents pitched on wagons, throwing hazel-nuts, pistachios, raisins and figs among the spectators, some dressed in robes made of onions and dates, wearing goats' horns on their heads and telling rosaries of nuts; the grocers of aromatics (Attaran) keep three thousand shops under their patron Hussam al-Din Ibn Abdullah of Basra, the Egyptian grocers outside the prison-gate driving wagons loaded with the three thousand articles that are enumerated in the Tezkeret of David. In Lane's Cairo the market street sets the 'attar beside the zeiyat who sells butter, cheese and honey with his oil, the fruiterer, the seller of dried fruits and the greengrocer."
+  ur: "بقّال خوردنی اشیاء تھوک میں بیچتا تھا: کھجوریں، کشمش، انجیر، پستے، فندق، شہد، گھی اور مصالحے، جب کہ عثمانی عطار خوشبودار اور دوائی اشیاء — ادرک، مرچ، الائچی، دارچینی، لونگ، ریوند، سمبل الطیب اور عود — بیچتا تھا۔ اولیاء بقّالوں کو جلوس میں پہلا درجہ دیتا ہے کہ وہ خورد و نوش بیچتے ہیں؛ ان کا پیر عاصم بن نبّاش ہے جسے سلمان پاک نے کمر بند پہنائی، وہ سب بقّالوں کا پہلا تھا، ایک سو بیس برس جیا اور قدس میں دفن ہے۔ وہ گاڑیوں پر کھڑے خیموں میں نکلتے اور تماشائیوں پر فندق، پستا، کشمش اور انجیر اچھالتے، بعض پیاز اور کھجوروں کے بنے لباس پہنتے، سروں پر بکری کے سینگ رکھتے اور گری دار میووں کی تسبیح پھیرتے؛ عطار ⁦(مصالحہ فروش)⁩ تین ہزار دکانیں رکھتے ہیں جن کے پیر بصرہ کے حسام الدین بن عبد اللہ ہیں، اور مصری عطار قید خانے کے دروازے سے باہر گاڑیاں ہانکتے جن میں تین ہزار اشیاء ہیں جو تذکرۂ داؤد میں گنی گئی ہیں۔ لین کے قاہرہ میں بازار کی گلی میں عطار کے ساتھ زیّات ہے جو تیل کے ساتھ مکھن، پنیر اور شہد بیچتا، فروٹ فروش، خشک میوہ فروش اور سبزی فروش۔"
+domain: trade-travel-sea
+kind: commercial
+hirfa: true
+broader: job/merchant
+era:
+  origins: pre-islamic
+  status_today: living
+places:
+  - { place: place/istanbul, note: "Evliya gives the bakkals precedence in the procession and a chief, the Bakkal-bashi, whose rich grocers ride Arabian horses; the leblebi merchants of four hundred men in a hundred shops are the grocers' assistants, and the Attaran keep three thousand shops.", sources: [source/evliya-seyahatname-hammer] }
+  - { place: place/cairo, note: "Lane places the 'attar, the zeiyat oilman who also sells butter, cheese and honey, the fruiterer, the dried-fruit seller and the khudari greengrocer together in the Cairo market street.", sources: [source/lane-modern-egyptians] }
+  - { place: place/jerusalem, note: "The tomb of Asim Ibn al-Nabbash, the grocers' patron and the first of all bakkals, stood at Jerusalem near Abd-ul-jerrah.", sources: [source/evliya-seyahatname-hammer] }
+regions: [anatolia-balkans, levant-iraq, egypt-nile, arabia]
+organization:
+  organized: guild
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people, living]
+periods: [period/crusades-ayyubid-mamluk, period/gunpowder-empires, period/modern-era]
+sources: [source/evliya-seyahatname-hammer, source/lane-modern-egyptians, source/shayzari-nihaya-buckley]
+craft:
+  materials: []
+  techniques:
+    ar: "يحصي إوليا بضائع البقّال في العرض: سلال البندق والفستق والزبيب والتين تلقى على الناس، وكل ما تؤمَّ البقالة له من مأكول ومشروب من فستق الشام واللوز والجوز والعنّاب والتمر والكرز المجفف؛ وتجّار اللبلبي ⁦(حمص محمّص)⁩ أربعمئة بمئة دكان يحمّصون اللبلبي ويطحنونه دقيقاً برحى يدوية صغيرة ويخلط بعضهم دقيقه بالغراء عجينة لرؤوس العصي، وهو غذاء صحّي للعسكر لمن يشكو استرخاء البطن. ويأمر الشيزري الخضريّ ببيع البقول مغسولة من السباخ خالية من الحشائش، وقطع أصول الجرجير والفجل، وينهى عن غسل البصل والثوم الطازج لأن الماء يزيد حدّتهما ونتنهما، وعن خلط ما بات عندهم بالجديد، وعن بيع البطيخ والخيار والتين الدودي وما فرط نضجه."
+    en: "Evliya inventories the grocer's stock on show: baskets of hazel-nuts, pistachios, raisins and figs thrown to the crowd, and whatever eatables and drinkables the grocery may be resorted to for — pistachios from Syria, almonds, hazelnuts, jujubes, dates and dried cherries; the leblebi merchants, four hundred men in a hundred shops, roast the chickpeas and grind them to flour on small hand-mills, some kneading the flour with glue into a paste for club-heads, leblebis being a wholesome food in camp for those with relaxed bowels. Al-Shayzari orders the greengrocer to sell his produce washed of manure and free of grass and weeds, to cut the roots off lettuce and radishes, forbids washing fresh onions and garlic because water increases their pungency and offensive smell, forbids mixing yesterday's stock with the day's picking, and forbids worm-eaten melons, cucumbers and figs and anything so over-ripe that its skin has broken."
+    ur: "اولیاء بقّال کے سامان کی گنتی جلوس میں کرتا ہے: فندق، پستا، کشمش اور انجیر کی ٹوکریاں ہجوم پر اچھالی جاتی ہیں، اور جو کچھ خورد و نوش کے لیے بقّال کے پاس جایا جائے — شامی پستا، بادام، فندق، عناب، کھجور اور خشک چیری؛ لبلبی ⁦(بُنے چنے)⁩ کے سوداگر چار سو آدمی سو دکانیں چنے بُنتے اور چھوٹی ہاتھ چکیوں پر آٹا پیسے کچھ اس میں گوند ملا کر ڈنڈوں کے سرے کی معجون بناتے، اور لشکر میں یہ انہی کا صحیح خوراک ہے جنہیں پیٹ ڈھیلا ہو۔ الشیزری سبزی فروش کو حکم دیتا ہے کہ مال کھاد سے دھو کر اور گھاس پھوس سے پاک بیچے، سلاد اور مولی کی جڑیں کاٹ دے، تازہ پیاز اور لہسن دھونے سے منع کرتا ہے کہ پانی ان کی تیزی اور بدبو بڑھاتا ہے، رات کا بچا مال تازہ میں نہ ملائے، اور کیڑے کھائے خربوزہ، کھیرا اور انجیر اور وہ بھی نہ بیچے جو اتنا پک گیا کہ چھلکا پھٹ گیا۔"
+  guild:
+    bodies: []
+    shaykh_title: { ar: "بقّال باشي", en: "Bakkal-bashi, head of the grocers", ur: "بقّال باشی، سردارِ بقّال" }
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-harvest-6" }
+provenance:
+  layer: own-research
+  source: "Evliya (von Hammer) I,2 sixteenth section pp. 175-176 (the bakkals, with the dried-beef and leblebi merchants in their train), secs. 416-417 pp. 212-213 (the Attaran and aloe/ambergris merchants); Lane ch. XIV p. 318 (the Cairo market street); al-Shayzari/Buckley ch. 40 pp. 133-134 (greengrocers) — read on 16 Nov 2026 from the downloaded scans"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-harvest-6-drafting"

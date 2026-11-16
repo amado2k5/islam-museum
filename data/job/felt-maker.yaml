@@ -1,0 +1,45 @@
+id: job/felt-maker
+class: job
+label: { ar: "اللُّبّود", en: "Felt-maker (lubbud, keçeci)", ur: "لبّاد ⁦(نمدہ ساز)⁩" }
+names:
+  - { value: "لبدّاد", kind: alternate }
+  - { value: "Ketshejian", kind: latinized, lang: tr }
+  - { value: "Gebejian", kind: latinized, lang: tr }
+summary:
+  ar: "اللُّبّود من يلبّد الصوف لبداً فيصنع منه القلانس والعباءات والفرش وبيوت الشعر. يضبط ابن الأخوة مادته: لا يُستعمل صوف الميتة ويعرف بلينه ورائحته الخبيثة، ولا صوف الرؤوس ويعرف بخشونته، واللباد الأحمر وزنه أربعة أرطال والأزرق رطل ونصف، ويُمنع غسل اللباد في الحمّامات لأن رائحته تؤذي الناس. وفي إسطنبول إوليا لصنّاع اللباد ⁦(كتشه جيان)⁩ ألف رجل وخمسة بأربعمئة دكان بيرهم أبو سعيد الناعي الذي قلّده سلمان الفارسي، ولصنّاع عباءات وقلانس البُرْك مئة رجل بأربعين دكاناً عند سوق الخيل، وللبّادين ملحقين بالإنكشارية ستون بعشر دكاكين في الثكنتين يصنعون قلنسوة الإنكشارية؛ وقلانس كتشه التي تباع في سوق بيالة باشا لا يضاهي إتقانها إلا ما يُعمل في ماغنيزيا وقونية."
+  en: "The lubbud matted wool into felt for caps, cloaks, mats and tents. Ibn al-Ukhuwwa polices his material: no wool of animals that died of themselves, known by its softness and ill odour, and no wool from heads, known by its roughness; a red felt weighs four ratls and a blue one a ratl and a half, and felt may not be washed in the baths because the smell injures people. In Evliya's Istanbul the felt-makers (Ketshejian) were a thousand and five men in four hundred shops under their patron Abu Said Nadi, who was girded by Selman Pak; the burk-makers made capots and caps of burk felt in a hundred men with forty shops at the horse-market; the Janissaries' felt-makers, sixty men in ten shops inside both barracks, produced the Janissary felt cap; and the keche caps sold in the market of Pialeh Pasha were worked so neatly that only Magnesia and Konia could rival them."
+  ur: "لبّاد اون کو دبا کر نمدہ بناتا تھا جس سے ٹوپیاں، عبائیں، چٹائیاں اور خیمے تیار ہوتے۔ ابن الاخوہ اس کے مال کی نگرانی کرتا ہے: مردار کی اون حرام، جو نرمی اور بدبو سے پہچانی جائے، اور سر والی اون بھی نہیں جو خردری پن سے معلوم ہو؛ سرخ نمدہ چار رطل اور نیلا ڈیڑھ رطل وزن کا ہو، اور حمام میں نمدہ دھونا ممنوع کہ اس کی بو سے لوگوں کو تکلیف ہوتی ہے۔ اولیاء کے استنبول میں نمدہ ساز ⁦(کچہ جیان)⁩ ایک ہزار پانچ آدمی چار سو دکانیں جن کے پیر ابو سعید ناعی ہیں جنہیں سلمان پاک نے کمر بند پہنائی؛ برک ساز سو آدمی چالیس دکانیں گھوڑے کے بازار میں برک نمدے کے قبا اور ٹوپیاں بناتے؛ ینی چریوں کے نمدہ ساز ساٹھ آدمی دس دکانیں دونوں بیرک میں ینی چریوں کی نمدہ ٹوپی بناتے؛ اور پیالہ پاشا کے بازار میں بکنے والی کچہ ٹوپیاں اتنی باریک کاری کی ہیں کہ صرف مغنیسہ اور قونیہ ان کا ثانی ہیں۔"
+domain: building-making
+kind: craft
+hirfa: true
+era:
+  origins: pre-islamic
+  status_today: transformed
+places:
+  - { place: place/istanbul, note: "Evliya counts the felt-makers at a thousand and five men in four hundred shops, the burk-makers at a hundred men in forty shops at the horse-market, and the Janissaries' felt-makers at sixty men in ten shops in the two barracks; the coarse-felt merchants march separately with three hundred men in a hundred shops.", sources: [source/evliya-seyahatname-hammer] }
+  - { place: place/karbala, note: "Abu Said Nadi, patron of the felt-makers, was killed at Kerbela and his tomb there is a place of pilgrimage.", sources: [source/evliya-seyahatname-hammer] }
+  - { place: place/konya, note: "Only Magnesia and Konia, Evliya writes, rival the keche caps worked in the market of Pialeh Pasha at Kassim Pasha.", sources: [source/evliya-seyahatname-hammer] }
+regions: [anatolia-balkans, levant-iraq, egypt-nile, persia-central-asia]
+organization:
+  organized: guild
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk, period/gunpowder-empires, period/modern-era]
+sources: [source/ibn-ukhuwwa-maalim-levy, source/evliya-seyahatname-hammer]
+craft:
+  materials: [wool, textile]
+  techniques:
+    ar: "يحرّم ابن الأخوة صوف الميتة، يُعرف بلينه ونتن رائحته، وصوف الرؤوس، يُعرف بخشونته، ويوجب أن يزن اللباد الأحمر أربعة أرطال والأزرق رطلاً ونصفاً، وأن يكون خيط اللبدات كلها جيد الفتل، وأن يُبلّ الغراء من غير زغب الصوف، وينهى الحُذّاء واللبّادين عن غسل اللباد أو الجلد في الحمّامات لأن الناس يتأذّون بالرائحة. ويصف إوليا المنتجات: اللباد بأنواعه تعمل في الدكاكين أثناء الموكب، وعباءات وقلانس البُرْك، وقلنسوة الإنكشارية اللبادية، وتجّار اللباد الخشن ⁦(كبه جيان)⁩ ثلاثمئة بمئة دكان، ويذكر أن الياكمة التابعين للحمّام إذا ساروا مع العسكر صنعوا حمّامات من اللباد تُحمّى بالجمر للجيش حيث وجدوا موضعاً صالحاً."
+    en: "Ibn al-Ukhuwwa bans the wool of animals that died of themselves, recognised by its softness and foul smell, and wool from heads, recognised by its roughness; he requires the red felt to weigh four ratls and the blue a ratl and a half, the thread of all felts to be well twisted, and the gum to be moistened free of wool-flock; and he forbids shoemakers and felt-makers to wash felt or leather in the baths because people are injured by the smell. Evliya shows the products: different kinds of felt worked in the shops as they pass, the burk capots and caps, the Janissary felt cap, and the coarse-felt merchants, three hundred men in a hundred shops; and he notes that the bath attendants, when they follow the camp, make baths out of felt heated with coals for the army wherever they find a suitable spot."
+    ur: "ابن الاخوہ مردار کی اون ممنوع کرتا ہے جو نرمی اور بدبو سے پہچانی جائے، اور سر کی اون بھی جو خردری سے معلوم ہو؛ حکم ہے کہ سرخ نمدہ چار رطل اور نیلا ڈیڑھ رطل وزن کا ہو، ہر نمدے کا سوتر اچھے جوٹ کا ہو، اور گوند بغیر اون کے روئیں بگھوائی جائے؛ اور جُتی سازوں اور نمدہ سازوں کو حمام میں نمدہ یا چمڑا دھونے سے روکتا ہے کہ بو سے لوگوں کو نقصان پہنچتا ہے۔ اولیاء مصنوعات دکھاتا ہے: دکانوں میں چلتے ہی مختلف قسم کے نمدے بنتے ہیں، برک کے قبا اور ٹوپیاں، ینی چریوں کی نمدہ ٹوپی، اور موٹے نمدے کے سوداگر تین سو آدمی سو دکانیں؛ اور بتاتا ہے کہ حمام کے خادم لشکر کے ساتھ چلتے تو جہاں موزوں جگہ ملے فوج کے لیے نمدے کے حمام بنا کر انگاروں سے گرم کرتے۔"
+  guild:
+    bodies: []
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-harvest-6" }
+provenance:
+  layer: own-research
+  source: "Ibn al-Ukhuwwa/Levy ch. LXIV p. 93 (felt-makers' material rules), ch. XLII pp. 50-51 (no washing felt or leather in the baths); Evliya (von Hammer) I,2 secs. 383-385 pp. 206-207 (felt-makers, burk-makers, Janissary felt-makers), sec. 488 p. 224 (coarse-felt merchants), p. 47 (the Pialeh Pasha keche caps), p. 217 (felt campaign baths) — read on 16 Nov 2026 from the downloaded scans"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-harvest-6-drafting"
