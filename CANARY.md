@@ -13,6 +13,10 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v2.11.0 — 2026-11-17
+### Added
+- Job Browser linking wave 37: 25 `occupations:` edges on 25 person records — twelve emirs and thirteen muhaddiths grinding both pools toward completion.
+
 ## v2.10.0 — 2026-11-17
 ### Added
 - Job Browser linking wave 36: 29 `occupations:` edges on 25 person records — twelve emirs, eight muhaddiths, plus alim, faqih, mutakallim, mufti and qadi links.
