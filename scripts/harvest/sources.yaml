@@ -272,6 +272,27 @@ sources:
       quotation_max_words: 40
       note: 'PDFs, OCR text, page images and entry splits stay in the harvest workspace, never in git'
     status: enabled
+  oxford-islamic-studies-online:
+    name: "Oxford Islamic Studies Online (OUP), read through Wayback Machine captures"
+    url: https://web.archive.org/web/2012/http://www.oxfordislamicstudies.com/
+    licence: "OUP proprietary, All Rights Reserved; live terms unverified (16 Nov 2026); Wayback copy is not a licence. Facts only in the museum's own words, each cited by article id"
+    layer: copyrighted-reference
+    method: CDX API enumeration (collapse=urlkey, status 200); single-capture fetch with a generic user agent and a pause of two seconds; text read by hand, nothing stored in git
+    limits:
+      pause_seconds: 2
+      quotation_max_words: 40
+      note: 'captured pages stay out of git; confirm the capture holds the entry text, not a login or paywall page'
+    status: enabled
+  internet-archive-defunct-sites:
+    name: "Defunct sites preserved by the Internet Archive (Wayback Machine)"
+    url: https://web.archive.org
+    licence: "per original site; the capture is an access path and no licence. Facts only in the museum's own words"
+    layer: copyrighted-reference
+    method: CDX API enumeration; single-capture fetches with a generic user agent and a pause of two seconds; each site judged on the eight criteria before use
+    limits:
+      pause_seconds: 2
+      note: 'captured pages, OCR and images stay out of git'
+    status: enabled
   assabile-omar-abdelkafy:
     name: Assabile archive of Omar Abdelkafy's lectures (audio and video)
     url: https://www.assabile.com/omar-abdelkafy

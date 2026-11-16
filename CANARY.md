@@ -13,6 +13,13 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v1.56.1 — 2026-11-16
+### Added
+- Oxford Islamic Studies Online (OUP), read through Wayback Machine captures, is registered as a source family, with The Oxford Dictionary of Islam as its first work, and a general family for defunct sites preserved by the Internet Archive. Posture: facts in our own words, link-only for text, nothing captured stored. Readers can now follow citations to an entry's stable id.
+### Data
+- Eight records gained a cited section from three Oxford Dictionary of Islam entries, in Arabic, English and Urdu: the five pillars, shahada, salah, zakat, Ramadan fasting and hajj (from the entry Pillars of Islam), Ahmad Dahlan (where the Dictionary's account of his training differs from ours, shown as its own wording) and Necip Fazil Kisakurek.
+- The list of Oxford Dictionary of Islam entry ids and the archive enumeration recipe are recorded for later enrichment lanes.
+
 ## v1.56.0 — 2026-11-16
 ### Added
 - Job Browser: five medical professions — the surgeon (jarrah) examined on his kit by the muhtasib, the oculist (kahhal) drilled on Hunayn's Ten Treatises, the pharmacist (saydalani) of the Abbasid drug trade and the Ottoman eczahane, the veterinarian (baytar) bled and shod under hisba rules, and the midwife (qabila) of the kursee el-wilâdeh — in Arabic, English and Urdu draft cited to the TDV entries CERRAHLIK and ECZACILIK, the hisba manuals of Ibn al-Ukhuwwa and al-Shayzari, Evliya Çelebi's guild procession and Lane's Cairo.
