@@ -1,0 +1,33 @@
+id: "concept/qawanin-ilajat-al-ayn"
+class: "concept"
+kind: "scientific"
+label:
+  ar: "قوانين كلية في معالجات العين"
+  en: "General canons for treating the eye"
+  ur: "آنکھ کے علاج کے کلی قوانین"
+summary:
+  ar: "معالجات العين مقابلة لأمراضها: استفراغ المواد إما صرفاً عنها من البدن ثم الدماغ ثم النقل من طريق الأنف والعروق القريبة وإما تحليباً منها بالأدوية المدمعة، وتبديل المزاج بالأدوية الخاصية، وإصلاح الهيئة كما في الجحوظ، وعلاج تفرق الاتصال بما له تجفيف بعيد من اللذع، مع تقليل الغذاء واجتناب المبخر وسوء الهضم {cite:canon-ibn-sina-print-v2 p.164} {cite:canon-ibn-sina-print-v2 p.165}"
+  en: "The eye's treatments answer its diseases: evacuating the matters either by turning them away — from the body first, then the brain, then diverting them by way of the nose and the veins near the eye — or by milking them out with tear-drawing drugs; changing the temper with propriety drugs; mending the shape as in protrusion; and treating the solution of continuity with what dries without biting — all with reducing food and shunning the vaporous and the ill-digested {cite:canon-ibn-sina-print-v2 p.164} {cite:canon-ibn-sina-print-v2 p.165}"
+  ur: "آنکھ کے علاج اس کے امراض کے مطابق ہیں: مادوں کا استفراغ یا تو انھیں موڑ کر — پہلے بدن سے، پھر دماغ سے، پھر ناک اور آنکھ کے قریبی رگوں کے راستے منتقل کر کے — یا آنسو لانے والی ادویہ سے انھیں دھو نکال کر؛ خاصیت والی ادویہ سے مزاج بدلنا؛ شکل کی اصلاح جیسے جحوظ میں؛ اور تفرق الاتصال کا علاج ایسے سے جو خشک کرے مگر چبھن سے دور ہو — یہ سب غذا کم کرنے، مبخر اور سوء ہضم سے بچنے کے ساتھ {cite:canon-ibn-sina-print-v2 p.164} {cite:canon-ibn-sina-print-v2 p.165}"
+wings:
+- "living"
+tags:
+- "tibb-browser"
+- "tibb-tibb"
+sources:
+- "source/canon-ibn-sina-print-v2"
+relations:
+- type: "part_of"
+  target: "concept/medical-treatment"
+  sources:
+  - "source/canon-ibn-sina-print-v2"
+provenance:
+  layer: "own-research"
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 2 (nerve diseases) end of maqala 1 and Fann 3 (the eye's anatomy, states and diseases) maqalat 1-2, scan pages 164-166, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json); editor glosses used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping, cautery and artery sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, semen, coitus and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Devin subagent (SWE-2 Medium, Lane A4 worker)"
+  model: "swe-2-medium"
+  run: "a4-canon-book3-8"
+status:
+  review: "published"
+  completeness: 1
+  generated_by: "Devin subagent (SWE-2 Medium, book mining, lane A4)"

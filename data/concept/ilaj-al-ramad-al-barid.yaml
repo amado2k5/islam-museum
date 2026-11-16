@@ -1,0 +1,33 @@
+id: "concept/ilaj-al-ramad-al-barid"
+class: "concept"
+kind: "scientific"
+label:
+  ar: "علاج الرمد البارد"
+  en: "Treating the cold ophthalmia"
+  ur: "سرد رمد کا علاج"
+summary:
+  ar: "الرمد الكائن من الأسباب الباردة يستفرغ الخلط البارد وربما احتيج إلى التكرير مشروباً أو محتقناً أو غرغرة وأول العلاج بالرادعات التي ليست بالباردة جداً ولكن التي فيها تلطيف ما ثم ما يسخن برفق ⁦(أسماء الأدوية والشيافات والمياه والمقادير لا تحمل)⁩ والتدبير اللطيف والحمام والشراب الصرف الأبيض ينفع هؤلاء {cite:canon-ibn-sina-print-v2 p.174} {cite:canon-ibn-sina-print-v2 p.175}"
+  en: "Ramad arising from cold causes: the cold humour is evacuated, repetition of drink, clyster or gargle being sometimes needed; treatment opens with repellents that are not too cold yet carry some attenuation, then gentle warmers ⁦(drug, collyrium and water names and measures are not carried)⁩; the gentle regimen, the bath and pure white wine benefit them {cite:canon-ibn-sina-print-v2 p.174} {cite:canon-ibn-sina-print-v2 p.175}"
+  ur: "سرد اسباب سے ہونے والا رمد: سرد خلط کا استفراغ کیا جاتا ہے اور کبھی مشروب، محتقن یا غرارے کی تکرار ضرورت پڑتی ہے؛ علاج کا آغاز ایسے روادع سے ہوتا ہے جو نہایت سرد نہ ہوں مگر جن میں کچھ تلطیف ہو، پھر نرم مسخنات ⁦(ادویہ، شیافوں اور پانیوں کے نام اور مقدار منقول نہیں)⁩؛ نرم تدبیر، حمام اور خالص سفید شراب ان کو نفع دیتی ہے {cite:canon-ibn-sina-print-v2 p.174} {cite:canon-ibn-sina-print-v2 p.175}"
+wings:
+- "living"
+tags:
+- "tibb-browser"
+- "tibb-tibb"
+sources:
+- "source/canon-ibn-sina-print-v2"
+relations:
+- type: "part_of"
+  target: "concept/medical-treatment"
+  sources:
+  - "source/canon-ibn-sina-print-v2"
+provenance:
+  layer: "own-research"
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 2 (nerve diseases) end of maqala 1 and Fann 3 (the eye's anatomy, states and diseases) maqalat 1-2, scan pages 174-175, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json); editor glosses used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping, cautery and artery sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, semen, coitus and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Devin subagent (SWE-2 Medium, Lane A4 worker)"
+  model: "swe-2-medium"
+  run: "a4-canon-book3-8"
+status:
+  review: "published"
+  completeness: 1
+  generated_by: "Devin subagent (SWE-2 Medium, book mining, lane A4)"

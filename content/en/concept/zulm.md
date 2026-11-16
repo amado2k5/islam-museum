@@ -53,3 +53,6 @@ The Sheikh closes the programme speaking of good tidings: God is forbearing and 
 
 ## From Omar Abdelkafy's programme Bustan al-Amal
 The Sheikh holds that the worst of servants is one who wrongs a person whose only helper is God, applies this to domestic workers, mentions that God answers the prayer of the wronged even if he is an unbeliever and that two misfortunes show their consequence in this world, injustice and undutifulness to parents, and calls on everyone entrusted with responsibility, from the home to the state, to review his accounts. {cite:assabile-omar-abdelkafy bustan-el-amal/ep05 00:02:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep05 00:03:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep05 00:03:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep05 00:04:00} See: [[concept/al-tughyan|tyranny]].
+
+## In The Oxford Dictionary of Islam
+The entry on zulm defines it as wrong done to God, to others or to oneself; from the Middle Ages onward the term stood for oppression and tyranny, particularly a ruler's over his subjects, and it serves as justice's opposite in Islamic political writing and mirrors for princes. Jurists use it for what oversteps legal bounds; in Shii memory it voices the ethos of suffering and tyranny lived under the Sunni community. {cite:oxford-dictionary-of-islam e2585}

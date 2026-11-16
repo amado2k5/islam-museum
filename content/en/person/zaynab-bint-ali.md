@@ -18,3 +18,6 @@ In both Sunni and Shia memory Zaynab carries the story of Karbala past the battl
 
 ## For young visitors
 After a terrible battle, Zaynab was brought before the rulers as a prisoner. Instead of staying silent, she stood up and told them the truth about what they had done.
+
+## In The Oxford Dictionary of Islam
+The entry on Zaynab bint Ali presents Fatimah and Ali's daughter (d. 681), married to Abd Allah ibn Jafar and mother of three sons and two daughters. She went with Husayn her brother to Karbala in 680; after he was killed she played a decisive part in rescuing his little son Ali Zayn al-Abidin — later the fourth imam for Twelver Shiis. Her bravery at Karbala earned the title 'heroine [batalah] of Karbala'. {cite:oxford-dictionary-of-islam e2569}

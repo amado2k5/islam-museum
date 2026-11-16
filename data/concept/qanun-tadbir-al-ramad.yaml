@@ -1,0 +1,33 @@
+id: "concept/qanun-tadbir-al-ramad"
+class: "concept"
+kind: "scientific"
+label:
+  ar: "قانون تدبير الرمد والنوازل إلى العين"
+  en: "The shared regimen for ophthalmia and catarrhs to the eye"
+  ur: "رمد اور آنکھ کی طرف نوازل کی مشترک تدبیر"
+summary:
+  ar: "القانون المشترك في تدبير الرمد وسائر أمراض العين المادية تقليل الغذاء وتخفيفه واختيار ما يولد خلطاً محموداً واجتناب كل مبخر وسوء هضم وإدامة لين الطبيعة والفصد الموافق لجميع أنواعه، وصرف البصر عن البياض والشعاع والبيت الظليم والنوم، والحمام بعد الاستفراغ أفضل علاجه، واجتناب تدهين الرأس وتقطير الدهن في الأذن واستفراغ مبدأ المادة وجذبها إلى ضد الجهة {cite:canon-ibn-sina-print-v2 p.170}"
+  en: "The shared canon in the regimen of ramad and the eye's material diseases: lessen and lighten food, choose what breeds a laudable humour, shun every vaporous and ill-digesting thing, keep the bowels loose, and venesection — which suits all its kinds; turn the sight from white and glare, keep a darkened house and bring sleep; the bath after evacuation is its best treatment; shun oiling the head and dripping oil into the ear; evacuate the matter's source and draw it to the opposite side {cite:canon-ibn-sina-print-v2 p.170}"
+  ur: "رمد اور آنکھ کے مادی امراض کی مشترک تدبیر کا قانون: غذا کم اور ہلکی کرنا، محمود خلط پیدا کرنے والی چننا، ہر مبخر اور سوء ہضم سے بچنا، قیام طبیعت برقرار رکھنا، اور فصد جو اس کی تمام اقسام کو موافق ہے؛ بینائی کو سفیدی اور چمک سے ہٹانا، گھر تاریک اور نیند برقرار؛ استفراغ کے بعد حمام اس کا بہترین علاج ہے؛ سر میں تیل ملنا اور کان میں تیل ٹپکانا بچنا؛ مادے کے ماخذ کا استفراغ اور اسے مخالف جانب کھینچنا {cite:canon-ibn-sina-print-v2 p.170}"
+wings:
+- "living"
+tags:
+- "tibb-browser"
+- "tibb-tibb"
+sources:
+- "source/canon-ibn-sina-print-v2"
+relations:
+- type: "part_of"
+  target: "concept/medical-treatment"
+  sources:
+  - "source/canon-ibn-sina-print-v2"
+provenance:
+  layer: "own-research"
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 2 (nerve diseases) end of maqala 1 and Fann 3 (the eye's anatomy, states and diseases) maqalat 1-2, scan pages 170-173, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json); editor glosses used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping, cautery and artery sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, semen, coitus and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Devin subagent (SWE-2 Medium, Lane A4 worker)"
+  model: "swe-2-medium"
+  run: "a4-canon-book3-8"
+status:
+  review: "published"
+  completeness: 1
+  generated_by: "Devin subagent (SWE-2 Medium, book mining, lane A4)"

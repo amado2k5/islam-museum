@@ -77,7 +77,7 @@ translators: ["Claude Sonnet 5.5 (claude-sonnet-5-5), draft translation"]
 
 مصنف کے نزدیک حقیقی زہد کسب، محنت اور پیداوار سے نہیں روکتا، زہد حرام ذریعۂ آمدنی سے بچنے یا اسے حرام میں خرچ کرنے سے متعلق ہے، اور دولت کی آزمائش غربت کی آزمائش سے سخت ہے {cite:usul-iqtisad-islami-0660 p. 120} {cite:usul-iqtisad-islami-0660 p. 122}۔
 
-## شیخ عمر عبد الکافی کے شرح کتاب الفوائد کے درس (قسط 5)
+## شیخ عمر عبد الکافی کے شرح کتاب الفوائد کے درس ⁦(قسط 5)⁩
 
 شیخ کہتے ہیں کہ جب دل دنیا کے دسترخوان سے بے رغبت ہوتے ہیں تو وہ آخرت کے دسترخوان پر بیٹھتے ہیں {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep05 00:15:30}۔
 
@@ -87,8 +87,11 @@ translators: ["Claude Sonnet 5.5 (claude-sonnet-5-5), draft translation"]
 شیخ کے نزدیک زہد کو غلطی سے فقر سمجھا گیا، جبکہ انسان اربوں کا مالک ہو کر زاہد ہو سکتا ہے، اور چند درہم کا مالک ہو کر دنیا کا حریص؛ وہ حدیث ذکر کرتے ہیں کہ اگر ابنِ آدم کے پاس سونے کی ایک وادی ہو تو دوسری کی تمنا کرے۔ {cite:assabile-omar-abdelkafy bustan-el-amal/ep13 00:07:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep13 00:08:00}
 
 ## یوسف قرضاوی کے دروس «تأملات قرآنیہ» میں
-[[person/yusuf-al-qaradawi|یوسف قرضاوی]] کہتے ہیں کہ مال دار شخص «اہل دنیا» میں سے نہیں اگر دنیا اس کے ہاتھ میں ہو، دل میں نہیں، اور قرآن نتائج کو انسان کے ارادے پر مرتب کرتا ہے ([[passage/quran-17-18|الاسراء 18]])۔ {cite:assabile-yusuf-al-qaradawi taamolat-qurania-2/ep08 00:03:30} {cite:assabile-yusuf-al-qaradawi taamolat-qurania-2/ep08 00:04:00} وہ سلف میں سے ایک کا قول نقل کرتے ہیں کہ دنیا سے بے رغبتی اس کے کم فائدے، زیادہ مشقت اور جلد فنا ہونے کی وجہ سے ہے، اور علی سے منسوب قول کہ اس کا آغاز رونا، درمیان مشقت اور انجام فنا ہے۔ {cite:assabile-yusuf-al-qaradawi taamolat-qurania-2/ep08 00:11:00} {cite:assabile-yusuf-al-qaradawi taamolat-qurania-2/ep08 00:12:00} وہ کہتے ہیں کہ یوسف، داؤد اور سلیمان کو بادشاہت دی گئی، اور عثمان اور عبد الرحمن بن عوف جیسے مال دار صحابہ دنیا کے مالک تھے مگر دنیا ان کی مالک نہ تھی۔ {cite:assabile-yusuf-al-qaradawi taamolat-qurania-2/ep08 00:17:30} {cite:assabile-yusuf-al-qaradawi taamolat-qurania-2/ep08 00:18:00}
+[[person/yusuf-al-qaradawi|یوسف قرضاوی]] کہتے ہیں کہ مال دار شخص «اہل دنیا» میں سے نہیں اگر دنیا اس کے ہاتھ میں ہو، دل میں نہیں، اور قرآن نتائج کو انسان کے ارادے پر مرتب کرتا ہے ⁦([[passage/quran-17-18|الاسراء 18]])⁩۔ {cite:assabile-yusuf-al-qaradawi taamolat-qurania-2/ep08 00:03:30} {cite:assabile-yusuf-al-qaradawi taamolat-qurania-2/ep08 00:04:00} وہ سلف میں سے ایک کا قول نقل کرتے ہیں کہ دنیا سے بے رغبتی اس کے کم فائدے، زیادہ مشقت اور جلد فنا ہونے کی وجہ سے ہے، اور علی سے منسوب قول کہ اس کا آغاز رونا، درمیان مشقت اور انجام فنا ہے۔ {cite:assabile-yusuf-al-qaradawi taamolat-qurania-2/ep08 00:11:00} {cite:assabile-yusuf-al-qaradawi taamolat-qurania-2/ep08 00:12:00} وہ کہتے ہیں کہ یوسف، داؤد اور سلیمان کو بادشاہت دی گئی، اور عثمان اور عبد الرحمن بن عوف جیسے مال دار صحابہ دنیا کے مالک تھے مگر دنیا ان کی مالک نہ تھی۔ {cite:assabile-yusuf-al-qaradawi taamolat-qurania-2/ep08 00:17:30} {cite:assabile-yusuf-al-qaradawi taamolat-qurania-2/ep08 00:18:00}
 
-## شیخ عمر عبد الکافی کے شرح کتاب الفوائد کے درس (قسط 7)
+## شیخ عمر عبد الکافی کے شرح کتاب الفوائد کے درس ⁦(قسط 7)⁩
 
 شیخ کہتے ہیں کہ جو شخص دنیا کی لذتوں میں سے کوئی لذت اللہ کے لیے چھوڑ دے اسے آخرت میں بدل ملتا ہے، اور زاہدوں نے بھوک، بیماری اور موت کو پسند کیا۔ {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep7 00:04:00} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep7 01:13:30} ⁦(needs_source: ریکارڈنگ کی عبارت واضح نہیں)⁩
+
+## آکسفرڈ ڈکشنری آف اسلام میں
+آکسفرڈ ڈکشنری آف اسلام کا مضمون «زہد» اسے ریاضت و بے نیازی بتاتا ہے: ذاتی غور و فکر اور مراقبے کے لیے مادی آرائشوں کو چھوڑ دینا، جس میں تقویٰ، بے رغبتی اور لاعلقی کے مفاہیم شامل ہیں۔ مضمون کے مطابق کچھ صوفی سلسلے اسے اختیار کرتے ہیں، جن میں سے بعض نے زہد کی علامت کے طور پر مخصوص لباس اپنایا، اور یہ خاص طور پر درقاوی طریقت میں نمایاں ہے۔ {cite:oxford-dictionary-of-islam e2581}

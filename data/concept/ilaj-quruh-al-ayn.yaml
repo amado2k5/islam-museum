@@ -1,0 +1,33 @@
+id: "concept/ilaj-quruh-al-ayn"
+class: "concept"
+kind: "scientific"
+label:
+  ar: "علاج قروح العين"
+  en: "Treating the eye's ulcers"
+  ur: "آنکھ کے قرحوں کا علاج"
+summary:
+  ar: "متى كانت القرحة في العين اليمنى نام على اليسرى أو بالعكس ويلطف تدبيره أولاً فإذا انفجرت قل التدبير إلى الأطراف ولم يمتلئ ولم يعطس ولم يدخل الحمام قبل نضج العلة، والعمدة تنقية الرأس بالاستفراغات الجاذبة إلى أسفل وإدامة لين الطبيعة، وقانون اختيار الأدوية فيه كل ما يجفف بلا لذع ⁦(مواضع الفصد والحجامة وأسماء الشيافات والنسخ لا تحمل)⁩ {cite:canon-ibn-sina-print-v2 p.178}"
+  en: "When the ulcer is in the right eye he sleeps on the left, and the reverse; his regimen is first gentle, and once the ulcer bursts the treatment turns to the extremities — no repletion, no sneezing, no bath before the disease ripens; the mainstay is cleansing the head by evacuations drawing downward and keeping the bowels loose; the canon of drug choice here is all that dries without biting ⁦(venesection and cupping sites, collyrium names and recipes are not carried)⁩ {cite:canon-ibn-sina-print-v2 p.178}"
+  ur: "جب قرحہ دائیں آنکھ میں ہو تو بائیں آنکھ پر سوئے اور اس کے برعکس؛ پہلے اس کی تدبیر نرم ہو اور جب قرحہ پھٹ جائے تو علاج اطراف کی طرف ہو — نہ امتلاء، نہ چھینک، نہ علت پخت ہونے سے پہلے حمام؛ بنیاد سر کی تنقیہ نیچے کھینچنے والے استفراغات اور قیام طبیعت کے برقرار رکھنے سے ہے؛ اور یہاں دوا چننے کا قانون ہر وہ چیز ہے جو بغیر چبھن کے خشک کرے ⁦(فصد و حجامت کے مقامات، شیافوں کے نام اور نسخے منقول نہیں)⁩ {cite:canon-ibn-sina-print-v2 p.178}"
+wings:
+- "living"
+tags:
+- "tibb-browser"
+- "tibb-tibb"
+sources:
+- "source/canon-ibn-sina-print-v2"
+relations:
+- type: "part_of"
+  target: "concept/medical-treatment"
+  sources:
+  - "source/canon-ibn-sina-print-v2"
+provenance:
+  layer: "own-research"
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 2 (nerve diseases) end of maqala 1 and Fann 3 (the eye's anatomy, states and diseases) maqalat 1-2, scan pages 178, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json); editor glosses used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping, cautery and artery sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, semen, coitus and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Devin subagent (SWE-2 Medium, Lane A4 worker)"
+  model: "swe-2-medium"
+  run: "a4-canon-book3-8"
+status:
+  review: "published"
+  completeness: 1
+  generated_by: "Devin subagent (SWE-2 Medium, book mining, lane A4)"

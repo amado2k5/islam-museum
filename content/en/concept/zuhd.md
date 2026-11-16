@@ -93,3 +93,6 @@ The Sheikh holds that renunciation has been misunderstood as poverty, while a pe
 ## From Sheikh Omar Abdelkafy's Sharh Ketab Al-Fawaed lectures (episode 7)
 
 The Sheikh says whoever renounces a pleasure of this world for God is compensated in the Hereafter, and that the ascetics loved hunger, illness and death. {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep7 00:04:00} {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep7 01:13:30} ⁦(needs_source: the recording wording is partly garbled)⁩
+
+## In The Oxford Dictionary of Islam
+The entry on zuhd gives it as asceticism — refusing material comfort for the sake of contemplation and meditation, embracing piety, self-denial and renunciation. Some Sufi orders practise it; certain ones took a special dress as an outward mark of asceticism, and it stands out especially in the Darqawi tariqah. {cite:oxford-dictionary-of-islam e2581}

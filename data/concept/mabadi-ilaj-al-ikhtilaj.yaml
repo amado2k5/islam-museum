@@ -1,0 +1,33 @@
+id: "concept/mabadi-ilaj-al-ikhtilaj"
+class: "concept"
+kind: "scientific"
+label:
+  ar: "مبادئ إيلاج الاختلاج"
+  en: "Principles of treating ikhtilaj"
+  ur: "اختلاج کے علاج کے اصول"
+summary:
+  ar: "يعالج الاختلاج المتواتر بالكمادات المسخنة فإن لم يزل استعملت الأدهان المحللة من الأضعف إلى الأقوى ثم المسهل ودام تمريخ العضو بالمسخنة ⁦(أسماء الأدوية والمقادير لا تحمل)⁩ ويمنع ماء الجمد والخمر الكثير وما له نفخ وتبريد، وهو ختام الفن الثاني وأجلت الأورام وتفرقات الاتصال إلى الكتاب الرابع {cite:canon-ibn-sina-print-v2 p.160}"
+  en: "Recurrent ikhtilaj is treated with heated compresses; if it does not clear, dissolving oils are used from the weaker to the stronger, then the laxative, and anointing the organ with warmers is kept up ⁦(drug names and measures are not carried)⁩; iced water, much wine and anything flatulent and cooling are withheld; this closes Fann 2, whose author defers the tumours and the solutions of continuity to Book IV {cite:canon-ibn-sina-print-v2 p.160}"
+  ur: "مسلسل اختلاج کا علاج گرم کمادات سے ہوتا ہے؛ نہ جائے تو تحلیل دینے والے روغن کمزور سے مضبوط تک، پھر مسہل، اور عضو پر مسخنات کی مالش جاری رکھی جاتی ہے ⁦(ادویہ کے نام اور مقدار منقول نہیں)⁩؛ جمے ہوئے پانی، زیادہ شراب اور ہر نفاخ اور ٹھنڈی چیز سے منع کیا جاتا ہے؛ یہ فن دوم کا اختتام ہے جس میں مؤلف نے اورام اور تفرقات الاتصال کتاب چہارم تک مؤجل کیے {cite:canon-ibn-sina-print-v2 p.160}"
+wings:
+- "living"
+tags:
+- "tibb-browser"
+- "tibb-tibb"
+sources:
+- "source/canon-ibn-sina-print-v2"
+relations:
+- type: "part_of"
+  target: "concept/medical-treatment"
+  sources:
+  - "source/canon-ibn-sina-print-v2"
+provenance:
+  layer: "own-research"
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 2 (nerve diseases) end of maqala 1 and Fann 3 (the eye's anatomy, states and diseases) maqalat 1-2, scan pages 160, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json); editor glosses used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping, cautery and artery sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, semen, coitus and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Devin subagent (SWE-2 Medium, Lane A4 worker)"
+  model: "swe-2-medium"
+  run: "a4-canon-book3-8"
+status:
+  review: "published"
+  completeness: 1
+  generated_by: "Devin subagent (SWE-2 Medium, book mining, lane A4)"
