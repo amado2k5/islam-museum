@@ -1034,6 +1034,27 @@
         ]
       }
     },
+    "/umuma.json": {
+      "get": {
+        "summary": "Umuma Browser — Motherhood in Islam dataset",
+        "description": "The Umuma Browser dataset (متصفح الأمومة في الإسلام): everything the museum's sources mention about motherhood — the mother and her standing, pregnancy, childbirth, nursing, custody and raising of children and dutifulness to parents — in the Qur'an, Sunnah, seerah, Companion and Tabi'in reports and every harvested book — passages detected at build time by a guarded lexicon (family-context gating on bare «أم» with أم القرى/أم الكتاب excluded, pregnancy-context gating on «حمل», boy-sense «ولد» excluded, parent-context gating on «بر», false positives by id) plus the curated umuma-browser records — each with its section (quran, sunnah, seerah, books, curated), topical topics (umm, haml, wilada, radaa, tarbiya, birr), matched signals, work, ref, text excerpt, kind, themes, tags and edges.",
+        "responses": {
+          "200": {
+            "description": "Umuma dataset",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "tags": [
+          "umuma"
+        ]
+      }
+    },
     "/openapi.json": {
       "get": {
         "operationId": "getOpenApi",

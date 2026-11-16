@@ -1,0 +1,32 @@
+id: concept/umuma
+class: concept
+kind: social
+label:
+  ar: "الأمومة"
+  en: "Motherhood"
+  ur: "مامتا"
+summary:
+  ar: "الأمومة في الإسلام صلة رحم مقرونة بفضل مضاعف: تحمل الأم حملها وهنا على وهن، ورضاعها حولين كاملين، وبرها مقدم ثلاث مرات على بر الأب، والجنة تحت أقدام الأمهات، وفي فقهها أحكام الحمل والوضع والرضاعة والحضانة والنفقة والميراث."
+  en: "Motherhood in Islam is a bond of womb joined to a multiplied honour: the mother bears her child in weakness upon weakness, nurses him two full years, her dutifulness is named three times before the father's, Paradise lies beneath mothers' feet, and its fiqh carries the rulings of pregnancy, delivery, nursing, custody, maintenance and inheritance."
+  ur: "اسلام میں مامتا رحم کا رشتہ ہے جس کے ساتھ بڑا اعزاز جڑا ہے: ماں اولاد کو مشقت پر مشقت اٹھاتی ہے، دو برس دودھ پلاتی ہے، اس کے ساتھ نیکی باپ سے تین بار مقدم ہے، جنت ماؤں کے قدموں تلے ہے، اور اس کے فقہ میں حمل، ولادت، دودھ، حضانت، نفقہ اور میراث کے احکام ہیں۔"
+wings: [living]
+themes: [family-marriage-kinship]
+tags: [umuma-browser, umuma-concepts]
+relations:
+- type: based_on
+  target: passage/quran-31-14
+  sources: [source/tanzil-quran]
+- type: based_on
+  target: passage/quran-46-15
+  sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/sahih-al-bukhari, source/sahih-muslim, source/fiqh-mawsua-kuwaitiyya-noor-v3]
+provenance:
+  layer: own-research
+  source: "القرآن ⁦(تنزيل)⁩ لقمان ١٤ والأحقاف ١٥؛ صحيح البخاري وصحيح مسلم كتابا البر والرضاع"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: swe-2-medium
+  run: umuma-browser-b1
+status:
+  review: draft
+  completeness: 1
+  generated_by: "Devin (SWE-2 Medium); seed record for the Umuma Browser, cited to Tanzil, the two Sahihs and the Kuwaiti Fiqh Encyclopaedia"

@@ -1780,6 +1780,10 @@ explore:
       title: "Family and Marriages Browser"
       desc: "The famous marriages in Islam, the Muslim family and its daily life — every mention of marriage, spouses and children, dwellings, livelihood and social customs in the Qur'an, the Sunnah, the seerah and every harvested book, with every verse and report cited."
       menu: "Browse marriages, families and daily life in the Qur'an and books"
+    umuma:
+      title: "Motherhood in Islam Browser"
+      desc: "Everything the sources mention about motherhood — the mother and her standing, pregnancy, childbirth, nursing, custody and raising children, and dutifulness to parents — in the Qur'an, Sunnah, seerah and every harvested book, each verse and report with its source."
+      menu: "Browse motherhood and mothers in the Qur'an and the books"
     islamiceconomy:
       title: "Islamic Economy Browser"
       desc: "Every mention of money and Islamic economics, deeds and covenants, and endowment in the Qur'an, the Sunnah, the seerah and every harvested book — currencies, usury, debt, trade contracts, weights and measures, fiscal dues, waqf and sadaqa jariya — with every verse and report cited."
@@ -4039,6 +4043,51 @@ usra:
     sources: "Sources:"
     note_label: "Note on the record:"
     and: "⇄"
+umuma:
+  title: "Motherhood in Islam Browser"
+  lede: "Motherhood in the museum's sources: the mother and her standing and the duty owed to her, pregnancy and childbirth, nursing, the custody and raising of children, and the mothers of prophets, Companions and Tabi'in — in the Qur'an, the two Sahihs, the Muwatta and the Sunan, the seerah books, Companion and Tabi'in reports and every harvested book — records with their sources that grow as each new text lands."
+  badge: Motherhood explorer
+  status: "This build holds {n} records in {s} sections; texts are drafts until a human reads them."
+  method_title: How this browser works
+  method_note: "Every record here is an ordinary museum record with its sources and three-language prose. Motherhood mentions are found at build time by a guarded lexicon over the passage texts in six families: the mother and her standing (أمه، أمها، أمهات، والدة، أمومة، أمهات المؤمنين), pregnancy (حامل، حوامل، حملت، وهن على وهن), childbirth (ولادة، ولدت، تلد، مولود، وضعت، مخاض، نفاس), nursing (رضاعة، أرضعت، مرضعة، رضيع، فطام، فصال), custody and raising (حضانة، حاضنة، تربية، فلذة، كفالة اليتيم) and dutifulness to parents (بر، إحسان، صلة الرحم). The ambiguous words are guarded: bare «أم» counts only beside family vocabulary (أم القرى and أم الكتاب excluded), «حمل» counts in the pregnancy sense only beside pregnancy vocabulary (carrying and transport excluded), «ولد» the boy is out and only the birth forms count, «بر» counts only beside parent vocabulary (برّ the land excluded), and verified false positives are excluded by id. Every book harvested later brings its motherhood mentions here automatically; curated records join through the umuma-browser tag; the mothers on record are read from the graph's own child_of edges to female parents."
+  api: "The whole set is available at"
+  sections_title: The browser's sections
+  mothers_title: "Mothers on record"
+  mothers_desc: "Mothers from the museum's own graph: each mother is joined to her child by a sourced child_of edge — mothers of prophets, Companions and Tabi'in and mothers from the books."
+  filter_label: Filter the motherhood records
+  filter_none: No results.
+  empty: No motherhood records in this build yet.
+  topics:
+    umm: "The mother and her standing"
+    haml: "Pregnancy"
+    wilada: "Childbirth"
+    radaa: "Nursing"
+    tarbiya: "Custody and raising"
+    birr: "Dutifulness to parents"
+  sections:
+    quran:
+      title: "In the Qur'an"
+      desc: "Motherhood in the Qur'an: «his mother carried him with hardship upon hardship», «We have enjoined upon man care for his parents», «and your mother», the nursing and weaning verses, the prohibition of marrying mothers, the mother of Moses casting her infant into the river, and Mary and her delivery."
+    sunnah:
+      title: "In the Sunnah"
+      desc: "Motherhood in the two Sahihs, the Muwatta and the Sunan: «your mother, then your mother, then your mother», «Paradise lies beneath mothers' feet», dutifulness to the mother placed ahead, the rulings of pregnancy, delivery, nursing and custody, the mothers of the believers, and every hadith about a mother and her child."
+    seerah:
+      title: "In the Seerah"
+      desc: "What the seerah and history books carry about mothers — Amina bint Wahb the Prophet's mother, Hajar the mother of Isma'il, Sumayya the mother of Ammar, and the mothers of Companions and Tabi'in — and it fills itself as seerah passages are harvested."
+    books:
+      title: "In the harvested books"
+      desc: "Motherhood reports in every other harvested work — fiqh, adab, history, biography and poetry — entering automatically the day their passages land."
+    curated:
+      title: "Curated records on motherhood"
+      desc: "The museum's selected records about the mother, pregnancy, childbirth, nursing, custody and dutifulness themselves: motherhood, pregnancy, childbirth, custody, birr al-umm, the mothers of the believers, the aqiqa and the sponsorship of orphans."
+  viz:
+    title: "The six lines of motherhood"
+    lede: "Six ruled lines, one per motherhood topic — the mother and her standing, pregnancy, childbirth, nursing, custody and raising, and dutifulness to parents — and on each line a disc for every section holding records of that topic, its area in proportion to their number, each disc a link to the section's list below."
+    topic_col: "Topic"
+    total_col: "Total"
+    records: "{n} records"
+    empty_topic: "No records yet"
+    untopiced: "{n} records carry no topic chip (curated records, not passages)."
 nar:
   viz:
     title: "The two abodes, surah by surah"
