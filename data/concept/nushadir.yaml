@@ -1,0 +1,23 @@
+id: concept/nushadir
+class: concept
+kind: natural
+label:
+  ar: "نوشادر"
+  en: "Nushadir (sal ammoniac)"
+  ur: "نوشادر"
+summary:
+  ar: "النوشادر في الكتاب أجوده البيكالي الصافي البلوري، حار يابس في آخر الثالثة، ملطف مذيب، ينفع من بياض العين ويرفع اللهاة الساقطة وينفع من الخوانيق {cite:canon-ibn-sina-print-v1 p.580}."
+  en: "Nushadir is in the book best when it is the clear crystalline bikali, hot and dry at the end of the third degree, thinning and dissolving; it helps whiteness of the eye, lifts the fallen uvula and helps quinsy {cite:canon-ibn-sina-print-v1 p.580}."
+  ur: "نوشادر کتاب میں بہترین وہ ہے جو صاف بلوری بیکالی ہو، تیسرے درجے کے آخر میں گرم خشک، لطیف کرنے اور گھلانے والا؛ آنکھ کی سفیدی، گرے ہوئے کوّے ⁦(لہات)⁩ کو اٹھانے اور خوانیق میں مفید ہے {cite:canon-ibn-sina-print-v1 p.580}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letters mim and nun, scan pages 580, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-19
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

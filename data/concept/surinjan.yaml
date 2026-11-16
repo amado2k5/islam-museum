@@ -1,0 +1,23 @@
+id: concept/surinjan
+class: concept
+kind: natural
+label:
+  ar: "سورنجان"
+  en: "Surinjan (the root called surinjan)"
+  ur: "سورنجان"
+summary:
+  ar: "السورنجان في الكتاب أصل نبات له ورد أبيض وأصفر يظهر أول ما يظهر في سفوح الجبال، أجوده الأبيض داخلاً الصلب المكسر، حار يابس إلى الثانية، فيه قوة مسهلة، ينفع من النقرس ويسكن الوجع في الوقت ضماداً، ويضعف المعدة، والأحمر والأسود منه سم، ويذكر له نقلاً موسوماً في الباه {cite:canon-ibn-sina-print-v1 p.589}."
+  en: "Surinjan is in the book the root of a plant with white and yellow flowers appearing first on the slopes of mountains, best when white within and hard when broken, hot and dry to the second degree, with a purgative power; it helps gout and calms its pain at once as a poultice, but weakens the stomach, and the red and black are poison; the book gives a labelled listing on desire {cite:canon-ibn-sina-print-v1 p.589}."
+  ur: "سورنجان کتاب میں ایک پودے کی جڑ ہے جس کا پھول سفید اور زرد ہے اور پہاڑوں کے دامن میں سب سے پہلے نمودار ہوتا ہے، بہترین وہ جو اندر سے سفید اور توڑنے میں سخت ہو، دوسرے درجے تک گرم خشک، مسہل قوت رکھتا ہے؛ نقرس میں مفید ہے اور لیپ سے فوراً درد کو تسکین دیتا ہے، مگر معدے کو کمزور کرتا ہے، اور سرخ اور سیاہ زہر ہیں؛ کتاب باہ کے بارے میں اس کی ایک موسوم نقل دیتی ہے {cite:canon-ibn-sina-print-v1 p.589}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letters nun and sin, scan pages 589 to 590, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for garbled headings; editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-20
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

@@ -1,0 +1,23 @@
+id: concept/nana
+class: concept
+kind: natural
+label:
+  ar: "نعناع"
+  en: "Nana (mint)"
+  ur: "نعناع"
+summary:
+  ar: "النعناع في الكتاب حار يابس في الثانية وفيه رطوبة فضلية، قوة مسخنة قابضة، من ألطف البقول جوهراً، لا يتجبن اللبن معه، ويقوي المعدة ويسكن الفواق ويمنع القيء، ويذكر له نقلاً موسوماً في الباه والحبل {cite:canon-ibn-sina-print-v1 p.577}."
+  en: "Nana, mint, is in the book hot and dry in the second degree with a superfluous moisture, of a warming, astringent power, one of the finest herbs in substance, not curdling milk; it strengthens the stomach, calms hiccup and checks vomiting, and the book gives it a labelled listing on desire and conception {cite:canon-ibn-sina-print-v1 p.577}."
+  ur: "نعناع کتاب میں دوسرے درجے میں گرم خشک ہے اور اس میں فاضل رطوبت ہے، گرم کرنے اور قبض کرنے کی قوت رکھتا ہے، سبزیوں میں جوہر کے لحاظ سے سب سے لطیف میں سے ہے، اس کے ساتھ دودھ نہیں پھٹتا؛ معدہ مضبوط کرتا، ہچکی کو تسکین دیتا اور قے روکتا ہے، اور کتاب باہ اور حمل کے بارے میں اس کی ایک موسوم نقل دیتی ہے {cite:canon-ibn-sina-print-v1 p.577}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letters mim and nun, scan pages 577-578, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-19
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

@@ -1,0 +1,23 @@
+id: concept/nakhl
+class: concept
+kind: natural
+label:
+  ar: "نخل"
+  en: "Nakhl (the date palm)"
+  ur: "نخل"
+summary:
+  ar: "النخل في الكتاب شجرة التمر المعروفة، وجميع أجزائها قابضة، وقد مضى القول في التمر في موضعه {cite:canon-ibn-sina-print-v1 p.580}."
+  en: "Nakhl is in the book the well known date tree, all its parts astringent, the account of the date having been given in its place {cite:canon-ibn-sina-print-v1 p.580}."
+  ur: "نخل کتاب میں کھجور کا معروف درخت ہے، اس کے سب اجزا قابض ہیں، اور کھجور کا بیان اپنی جگہ گزر چکا {cite:canon-ibn-sina-print-v1 p.580}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letters mim and nun, scan pages 580, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-19
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

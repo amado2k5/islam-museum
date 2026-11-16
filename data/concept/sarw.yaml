@@ -1,0 +1,23 @@
+id: concept/sarw
+class: concept
+kind: natural
+label:
+  ar: "سرو"
+  en: "Sarw (the cypress)"
+  ur: "سرو"
+summary:
+  ar: "السرو في الكتاب شجرة طويلة معروفة لا يسقط ورقها في الخريف والشتاء، حار في الأولى يابس في الثانية، قابض محلل للرطوبات مع إلزاق وقطع للدم، وجوزه أقوى من ورقه، ينفع الجراحات والحمرة والفتق والأعصاب والأسنان وأورام العين ونفث الدم والسعال المزمن وعسر البول {cite:canon-ibn-sina-print-v1 p.586}."
+  en: "Sarw is in the book the tall, well-known tree whose leaf does not fall in autumn and winter, hot in the first degree and dry in the second, astringent and dissolving moistures with a gluing and blood-stopping power; its cone is stronger than its leaf; it helps wounds, erysipelas, hernia, the sinews, the teeth, swellings of the eye, spitting of blood, old cough and difficulty of urine {cite:canon-ibn-sina-print-v1 p.586}."
+  ur: "سرو کتاب میں ایک لمبا معروف درخت ہے جس کا پتا خزاں اور سردی میں نہیں گرتا، پہلے درجے میں گرم اور دوسرے میں خشک، قابض، رطوبتوں کو تحلیل کرتا ہے، جوڑنے اور خون روکنے کی قوت رکھتا ہے؛ اس کا پھل پتے سے زیادہ قوی ہے؛ زخموں، حمرہ، فتق، پٹھوں، دانتوں، آنکھ کے ورموں، خون تھوکنے، پرانی کھانسی اور پیشاب کی دشواری میں مفید ہے {cite:canon-ibn-sina-print-v1 p.586}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letters nun and sin, scan pages 586 to 587, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for garbled headings; editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-20
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

@@ -1,0 +1,23 @@
+id: concept/sawsan
+class: concept
+kind: natural
+label:
+  ar: "سوسن"
+  en: "Sawsan (the iris)"
+  ur: "سوسن"
+summary:
+  ar: "السوسن في الكتاب نبات ذو ورق شبيه بورق الكسيقون أعرض منه، له ساق عليها زهر منحن بألوان مختلفة من بياض وصفرة وأرجوان ولون السماء، وله أصول صلبة عقدية طيبة الرائحة، والأبيض البستاني منه حار يابس إلى الثانية، يجلو ويجفف باعتدال، وينفع من الكلف والنمش ومن عرق النسا وقروح الرأس والصدر، وفي الكتاب نقل موسوم في الرحم والطمث {cite:canon-ibn-sina-print-v1 p.590}."
+  en: "Sawsan is in the book a plant whose leaf resembles that of kasiqun but is broader, with a stem bearing a drooping flower in several colours, white, yellow, purple and the colour of the sky, and hard knotted roots of good scent; the white garden kind is hot and dry to the second degree, cleanses and dries with moderation, and the book lists it for freckles and spots, sciatica and pains of the joints, scalp ulcers and the chest, with a labelled listing on the womb and menses {cite:canon-ibn-sina-print-v1 p.590}."
+  ur: "سوسن کتاب میں ایک پودا ہے جس کا پتا کسیقون کے پتے جیسا مگر اس سے چوڑا ہے، اس کے تنے پر جھکا ہوا پھول ہے جس کے رنگ مختلف ہیں: سفید، زرد، ارغوانی اور آسمانی؛ اس کی جڑیں سخت، گانٹھ دار اور خوشبودار ہیں؛ سفید باغی قسم دوسرے درجے تک گرم خشک ہے، اعتدال سے جلا دیتی اور خشک کرتی ہے؛ کتاب اسے جھائیوں اور چھائیوں، عرق النسا اور جوڑوں کے درد، سر کے زخموں، اور سینے کے لیے گنواتی ہے، اور رحم و حیض کے بارے میں ایک موسوم نقل دیتی ہے {cite:canon-ibn-sina-print-v1 p.590}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter sin, scan pages 590 to 591, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for garbled headings; editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-21
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

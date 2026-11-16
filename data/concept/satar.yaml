@@ -1,0 +1,23 @@
+id: concept/satar
+class: concept
+kind: natural
+label:
+  ar: "صعتر"
+  en: "Sa'tar (the herb the book names sa'tar)"
+  ur: "صعتر"
+summary:
+  ar: "الصعتر في الكتاب نبات هو في قوة الحاشا وشرابه كشراب الحاشا أيضاً، أقواه البري، حار يابس في الثالثة، محلل مقشر ملطف، ينفع من أوجاع الوركين، ويمضغ فيسكن وجع السن ويشفي اللثة المترهلة لقوته المحرقة {cite:canon-ibn-sina-print-v1 p.591}، ودهنه ينفع الصدر والرئة والكبد والمعدة ويخرج الديدان {cite:canon-ibn-sina-print-v1 p.592}."
+  en: "Sa'tar is in the book a plant of the same power as hasha, its drink like the drink of hasha, the wild the strongest, hot and dry in the third degree, dissolving, peeling and thinning; it helps pains of the hips, and chewed it calms toothache and heals the slack gums through its burning power {cite:canon-ibn-sina-print-v1 p.591}; its oil helps the chest, lung, liver and stomach, and it expels worms {cite:canon-ibn-sina-print-v1 p.592}."
+  ur: "صعتر کتاب میں ایک پودا ہے جو قوت میں حاشا جیسا ہے اور اس کا شربت بھی حاشا کے شربت جیسا ہے، جنگلی سب سے قوی، تیسرے درجے میں گرم خشک، گھلانے والا، چھیلنے والا اور لطیف کرنے والا؛ کولہوں کے دردوں میں مفید ہے، اور چبایا جائے تو دانت کے درد کو تسکین دیتا اور ڈھیلے مسوڑھوں کو اپنی جلانے والی قوت سے شفا دیتا ہے {cite:canon-ibn-sina-print-v1 p.591}؛ اس کا تیل سینے، پھیپھڑے، جگر اور معدے کو فائدہ دیتا اور کیڑوں کو خارج کرتا ہے {cite:canon-ibn-sina-print-v1 p.592}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter sin, scan pages 591 to 592, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for garbled headings; editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-21
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

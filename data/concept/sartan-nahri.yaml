@@ -1,0 +1,23 @@
+id: concept/sartan-nahri
+class: concept
+kind: natural
+label:
+  ar: "سرطان نهري"
+  en: "Sartan nahri (the river crab)"
+  ur: "سرطان نہری"
+summary:
+  ar: "السرطان النهري في الكتاب حيوان عسير الهضم كثير الغذاء يصلحه الطبخ بالماش، يخرج الأزجة والشوك، ورماده مع العسل المطبوخ جيد لشقاق الرجلين، ويحلل الأورام الجاسية، ولحمه ينفع من السل، وينفع من لسع العقارب {cite:canon-ibn-sina-print-v1 p.587}."
+  en: "Sartan nahri, the river crab, is in the book an animal hard to digest and rich in nourishment, improved by cooking with mung beans; it draws out splinters and thorns, its ash with cooked honey is good for cracked feet, it dissolves hard swellings, its flesh helps consumption, and it helps the sting of scorpions {cite:canon-ibn-sina-print-v1 p.587}."
+  ur: "سرطان نہری کتاب میں ایک جانور ہے جو دیر ہضم اور بہت غذائیت والا ہے، ماش کے ساتھ پکانے سے سنورتا ہے؛ کانٹے اور پھانس نکالتا ہے، اس کی راکھ پکے ہوئے شہد کے ساتھ پھٹی ایڑیوں کے لیے اچھی ہے، سخت ورموں کو تحلیل کرتا ہے، اس کا گوشت سل میں مفید ہے، اور بچھو کے ڈنک میں نفع دیتا ہے {cite:canon-ibn-sina-print-v1 p.587}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letters nun and sin, scan pages 587 to 588, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for garbled headings; editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-20
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

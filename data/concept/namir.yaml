@@ -1,0 +1,23 @@
+id: concept/namir
+class: concept
+kind: natural
+label:
+  ar: "نمر"
+  en: "Namir (the tiger)"
+  ur: "نمر"
+summary:
+  ar: "النمر في الكتاب حيوان معروف، نقل عن الخوزي أن شحمه من أعظم الأدوية للفالج، وأن مرارته قاتلة من ساعتها، وبه ينتهي حرف النون في ستة وعشرين دواء {cite:canon-ibn-sina-print-v1 p.583}."
+  en: "Namir is in the book a well-known animal; al-Khuzi is reported to have said its fat is among the greatest drugs for palsy, and its gall is deadly at once; with it the letter nun ends, in twenty-six drugs in all {cite:canon-ibn-sina-print-v1 p.583}."
+  ur: "نمر کتاب میں ایک معروف جانور ہے؛ خوزی سے منقول ہے کہ اس کی چربی فالج کی بڑی دواؤں میں سے ہے، اور اس کا پتا فوراً مہلک ہے؛ اسی پر حرف نون ختم ہوتا ہے، کل چھبیس دواؤں کے ساتھ {cite:canon-ibn-sina-print-v1 p.583}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letters nun and sin, scan pages 583, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for garbled headings; editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-20
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

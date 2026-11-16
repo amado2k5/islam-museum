@@ -1,0 +1,23 @@
+id: concept/sumuqutun
+class: concept
+kind: natural
+label:
+  ar: "سومقوطون"
+  en: "Sumuqutun (the drug the book names sumuqutun)"
+  ur: "سومقوطون"
+summary:
+  ar: "السومقوطون في الكتاب قيل إنه حي العالم وقيل ضرب من اللفاح، وهو نوعان صخري وغير صخري، الغالب عليه البرد واليبس وفيه لطف يقطع ولزوجة تجمع وتقبض، ولا رائحة له ولا حلاوة، ويشفي خشونة الحلق ويمنع النفث من الدم وينفع من قروح الأمعاء والسحج وأوجاع الكلية {cite:canon-ibn-sina-print-v1 p.597}."
+  en: "Sumuqutun is in the book said to be the houseleek, or else a kind of mandrake, in two kinds, rocky and not rocky, with cold and dryness prevailing and a fineness that cuts and a viscosity that binds and constricts, without scent or sweetness; it heals roughness of the throat, checks spitting of blood and helps ulcers of the intestines, abrasion and pains of the kidney {cite:canon-ibn-sina-print-v1 p.597}."
+  ur: "سومقوطون کتاب میں کہا گیا کہ یہ حی العالم ہے اور کہا گیا کہ لفاح کی ایک قسم ہے، اس کی دو قسمیں ہیں: پتھریلی اور غیر پتھریلی؛ اس پر سردی اور خشکی غالب ہے، اس میں لطافت ہے جو کاٹتی ہے اور لزوجت ہے جو جوڑتی اور سکیڑتی ہے، نہ بو ہے نہ مٹھاس؛ حلق کی کھردرا پن دور کرتا، خون تھوکنا روکتا اور آنتوں کے زخموں، چھلنے اور گردے کے دردوں میں مفید ہے {cite:canon-ibn-sina-print-v1 p.597}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter sin, scan pages 596 to 597, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for garbled headings; editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-21
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

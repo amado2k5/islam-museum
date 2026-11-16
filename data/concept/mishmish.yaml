@@ -1,0 +1,23 @@
+id: concept/mishmish
+class: concept
+kind: natural
+label:
+  ar: "مشمش"
+  en: "Mishmish (apricot)"
+  ur: "مشمش"
+summary:
+  ar: "المشمش فاكهة باردة رطبة في الثانية ودهن نواته حار يابس في الثالثة، وأجوده الأرمني الذي لا يسرع إليه الفساد والحموضة، ويذكر الكتاب أن نقيعه يسكن العطش وأنه يولد الحميات لسرعة تعفنه {cite:canon-ibn-sina-print-v1 p.572}."
+  en: "Mishmish, the apricot, is cold and moist in the second degree and its kernel oil hot and dry in the third; the Armenian is the best, which does not quickly spoil or sour, and the book says its infusion quenches thirst while the fruit breeds fevers through its quick putrefaction {cite:canon-ibn-sina-print-v1 p.572}."
+  ur: "مشمش دوسرے درجے میں سرد تر ہے اور اس کی گٹھلی کا تیل تیسرے درجے میں گرم خشک؛ بہترین ارمنی ہے جو جلد خراب یا کھٹا نہیں ہوتا، اور کتاب کے مطابق اس کا نقیع پیاس بجھاتا ہے جبکہ پھل جلد سڑنے کی وجہ سے بخار پیدا کرتا ہے {cite:canon-ibn-sina-print-v1 p.572}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letters mim and nun, scan pages 572, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-19
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

@@ -1,0 +1,23 @@
+id: concept/mandrus
+class: concept
+kind: natural
+label:
+  ar: "مندروس"
+  en: "Mandrus (the gum called sandarus)"
+  ur: "مندروس"
+summary:
+  ar: "المندروس في الكتاب صمغ شجرة في بلاد العرب والهند فيه شبه يسير من المر كريه الطعم، حار يابس في الثانية، قابض يحبس الدم ويستعمله المصارعون ليخفوا ويقووا، وينفع الأسنان واللثة والخفقان والإسهال المزمن وضعف البصر {cite:canon-ibn-sina-print-v1 p.584}."
+  en: "Mandrus is in the book the gum of a tree in the lands of the Arabs and India, with a slight likeness to myrrh and a disagreeable taste, hot and dry in the second degree and astringent, stopping blood; wrestlers use it to be light and strong, and it helps the teeth and gums, palpitation, long-standing diarrhoea and weak sight {cite:canon-ibn-sina-print-v1 p.584}."
+  ur: "مندروس کتاب میں عرب اور ہند کے ایک درخت کا گوند ہے جس میں مر سے ہلکی مشابہت اور ناگوار ذائقہ ہے، دوسرے درجے میں گرم خشک، قابض، خون روکتا ہے؛ پہلوان اسے ہلکا اور طاقتور رہنے کے لیے برتتے ہیں، اور دانتوں، مسوڑھوں، دھڑکن، پرانے اسہال اور کمزور نظر میں مفید ہے {cite:canon-ibn-sina-print-v1 p.584}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letters nun and sin, scan pages 584 to 585, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for garbled headings; editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-20
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

@@ -1,0 +1,23 @@
+id: concept/sarakhs
+class: concept
+kind: natural
+label:
+  ar: "سرخس"
+  en: "Sarakhs (the fern)"
+  ur: "سرخس"
+summary:
+  ar: "السرخس في الكتاب نبات بلا ورق ظاهر ولا زهر ولا ثمر عند ديسقوريدوس، ذكر وأنثى، حار يابس في الثانية، يجفف بلا لذع، يدمل القروح ويقتل الديدان وحب القرع، وقد يؤكل ورقه أول طلوعه مطبوخاً فيليّن البطن، ويذكر له نقلاً موسوماً في الحبل والجنين {cite:canon-ibn-sina-print-v1 p.585}."
+  en: "Sarakhs is in the book the fern, which Dioscorides describes as a plant without ordinary leaf, flower or fruit, male and female kinds; hot and dry in the second degree, drying without sting, it heals ulcers and kills worms and tapeworm, and its leaf when it first appears may be eaten cooked and loosens the belly; the book gives a labelled listing on conception and the foetus {cite:canon-ibn-sina-print-v1 p.585}."
+  ur: "سرخس کتاب میں فرن ہے جسے دیسقوریدوس بغیر ظاہری پتے، پھول اور پھل کے بتاتا ہے، نر اور مادہ دو قسمیں؛ دوسرے درجے میں گرم خشک، بغیر چبھن کے خشک کرتا ہے، زخم بھرتا اور کیڑے اور کدو دانے مارتا ہے، اور اس کا نکلتا ہوا پتا پکا کر کھایا جائے تو پیٹ نرم کرتا ہے، اور کتاب حمل اور جنین کے بارے میں اس کی ایک موسوم نقل دیتی ہے {cite:canon-ibn-sina-print-v1 p.585}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letters nun and sin, scan pages 585, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for garbled headings; editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-20
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

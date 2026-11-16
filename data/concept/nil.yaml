@@ -1,0 +1,23 @@
+id: concept/nil
+class: concept
+kind: natural
+label:
+  ar: "نيل"
+  en: "Nil (as the Canon lists it)"
+  ur: "نیل"
+summary:
+  ar: "النيل في الكتاب منه بستاني ومنه بري وفعله فعل البستاني، حار في الأولى يابس في الثانية، قابض يمنع النزف ويجفف بلا لذع، وينفع الجراحات والأورام وسعال الصبيان والطحال {cite:canon-ibn-sina-print-v1 p.575}."
+  en: "Nil is in the book of two kinds, garden and wild, the wild acting as the garden does; hot in the first degree and dry in the second, astringent and stopping bleeding, drying without sting, and helpful for wounds, swellings, the cough of children and the spleen {cite:canon-ibn-sina-print-v1 p.575}."
+  ur: "نیل کتاب میں دو قسم کا ہے، باغی اور جنگلی، اور جنگلی کا فعل باغی جیسا ہے؛ پہلے درجے میں گرم اور دوسرے میں خشک، قابض اور خون بہنا روکنے والا، بغیر جلن کے خشک کرتا ہے، اور زخموں، ورموں، بچوں کی کھانسی اور تلی میں مفید ہے {cite:canon-ibn-sina-print-v1 p.575}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letters mim and nun, scan pages 575-576, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-19
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

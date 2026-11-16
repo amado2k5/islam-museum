@@ -1,0 +1,23 @@
+id: concept/sumani
+class: concept
+kind: natural
+label:
+  ar: "سماني"
+  en: "Sumani (the quail)"
+  ur: "سمانی"
+summary:
+  ar: "السماني في الكتاب طائر معروف، يخاف من أكل لحمه التمدد والتشنج، لا لأنه يأكل الخربق فقط بل لأن في جوهره هذه القوة {cite:canon-ibn-sina-print-v1 p.601}."
+  en: "Sumani is in the book a well-known bird; eating its meat is feared to cause stretching and spasm, not only because it eats hellebore but because this power is in its substance {cite:canon-ibn-sina-print-v1 p.601}."
+  ur: "سمانی کتاب میں ایک معروف پرندہ ہے؛ اس کا گوشت کھانے سے کھنچاؤ اور تشنج کا خوف رہتا ہے، صرف اس لیے نہیں کہ یہ خربق کھاتا ہے بلکہ اس لیے کہ اس کے جوہر میں یہ قوت ہے {cite:canon-ibn-sina-print-v1 p.601}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter sin, scan pages 601, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for garbled headings; editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-21
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

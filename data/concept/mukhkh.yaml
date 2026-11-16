@@ -1,0 +1,23 @@
+id: concept/mukhkh
+class: concept
+kind: natural
+label:
+  ar: "مخ"
+  en: "Mukhkh (marrow)"
+  ur: "مخ"
+summary:
+  ar: "المخ في الكتاب مسخن مليّن جالٍ كثير الغذاء إن استمرئ، وأوفقه مخ العجل والأيل، ثم الثور والماعز والضأن، وهو جيد للصلابات والتحجر، ويلطخ المعدة ويذهب بالشهوة {cite:canon-ibn-sina-print-v1 p.573}."
+  en: "Mukhkh, marrow, is in the book warming, softening, cleansing and very nourishing if digested; the most suitable is the marrow of the calf and the deer, then ox, goat and sheep, and it is good for hardnesses and petrification but coats the stomach and takes away appetite {cite:canon-ibn-sina-print-v1 p.573}."
+  ur: "مخ ⁦(گودا)⁩ کتاب میں گرم کرنے والا، نرم کرنے والا، جلا دینے والا اور ہضم ہو جائے تو بہت غذائیت والا ہے؛ سب سے موافق بچھڑے اور ہرن کا گودا ہے، پھر بیل، بکری اور بھیڑ کا، اور یہ سختیوں اور پتھرا جانے میں مفید ہے مگر معدے پر چکناہٹ چڑھاتا اور بھوک ختم کرتا ہے {cite:canon-ibn-sina-print-v1 p.573}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letters mim and nun, scan pages 573, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-19
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }
