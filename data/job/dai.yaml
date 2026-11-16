@@ -1,0 +1,46 @@
+id: job/dai
+class: job
+label: { ar: "الداعي", en: "Missionary (da'i)", ur: "داعی" }
+names:
+  - { value: "داعية", kind: alternate }
+  - { value: "dâî", kind: latinized, lang: tr }
+  - { value: "داعي الدعاة", kind: alternate }
+  - { value: "dâi'd-duât", kind: latinized }
+  - { value: "داعي البلاغ", kind: alternate }
+  - { value: "داعي مطلق", kind: alternate }
+  - { value: "داعي مأذون", kind: alternate }
+  - { value: "جناح", kind: alternate }
+summary:
+  ar: "الداعي من يدعو الناس إلى دينه أو مذهبه؛ وإن راج اللفظ في مذاهب شتى فأشهر استخدامه في الدعوة الإسماعيلية، حيث كان الداعي موظفاً يعينه الإمام في مرتبة بعد الحجة، ضمن سلسلة مراتب تبدأ بداعي الدعاة المتحدث باسم الإمام فداعي البلاغ فالمطلق فالمأذون فالمحدود فالجناح. تلقى الداعي تعليماً واسعاً في القرآن والتأويل والفقه والحديث ونظرية الدعوة والمناظرة والفلسفة، ولم يكن مجرد داعية: قبض العهد والبيعة باسم الإمام، وأدار، وقاد جيوشاً — منهم ابن حوشب في اليمن وأبو عبد الله الشيعي مؤسس دولة الفاطميين وأبو سعيد الجنابي في البحرين."
+  en: "The dāʿī calls people to his religion or doctrine. The word circulated in several traditions, but its classic home is the Ismaili daʿwa, where the dai was an officer appointed by the imam in a rank below the hujja, inside a hierarchy running from the dāʿī al-duʿāt — the imam's spokesman — through the dāʿī al-balāgh, the dāʿī mutlaq, the dāʿī ma'zūn and the dāʿī mahdūd down to the janāḥ. He was schooled in Qur'an, ta'wil, fiqh, hadith, da'wa theory, disputation and philosophy, and he was no mere preacher: he took covenant and bay'a in the imam's name, administered and led armies — Ibn Hawshab in Yemen, Abu Abdallah al-Shi'i who prepared the Fatimid state, and Abu Sa'id al-Jannabi in Bahrain."
+  ur: "داعی وہ ہے جو لوگوں کو اپنے دین یا مسلک کی طرف بلاتا ہے۔ لفظ کئی روایات میں آیا، مگر اس کا کلاسیکی گھر اسماعیلی دعوت ہے، جہاں داعی امام کا مقرر کردہ افسر تھا، حجت کے بعد کے درجے میں، داعی الدعات سے داعی البلاغ، داعی مطلق، داعی مأذون اور داعی محدود ہوتے ہوئے جناح تک کی درجہ بندی میں۔ وہ قرآن، تأویل، فقہ، حدیث، دعوت کے نظریے، مناظرے اور فلسفہ پڑھاتا، اور محض واعظ نہ تھا: امام کے نام پر عہد و بیعت لیتا، انتظام چلاتا اور فوج کی قیادت کرتا — یمن میں ابن حوشب، فاطمی ریاست کی بنیاد رکھنے والا ابو عبدالله الشیعی اور بحرین میں ابو سعید جنابی۔"
+domain: faith-preaching
+kind: religious
+hirfa: false
+era:
+  origins: early-caliphate
+  status_today: transformed
+places:
+  - { place: place/yemen, note: "Ibn Hawshab, called Mansur al-Yaman, founded the first Ismaili state in Yemen as a dai; the Tayyibi-Musta'li branch later made the dāʿī mutlaq the community's supreme authority in the imam's concealment, his seat at San'a and his counterpart of the Da'udi branch at Bombay.", sources: [source/tdv-dai] }
+  - { place: place/cairo, note: "In the Fatimid state the dāʿī al-duʿāt held a rank equal to vizier for religious affairs, and Fatimid-era dais were trained in Qur'an, ta'wil, fiqh, all branches of hadith, da'wa theory, disputation, religious tales, philosophy — especially emanation — and logic.", sources: [source/tdv-dai] }
+  - { place: place/alamut, note: "Among the Nizaris after the move to Iran, when no manifest imam was present the dai of Isfahan led the community; from Hasan Sabbah until the appearance of Hasan Ala Zikrihi's-Salam in 1164 the lords of Alamut stood as the hidden imam's natural dai, Hasan himself reckoned above the dailik as hujja.", sources: [source/tdv-dai] }
+regions: [arabia, levant-iraq, egypt-nile, maghreb, persia-central-asia, south-asia]
+organization:
+  organized: association
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people]
+periods: [period/umayyad, period/abbasid-early, period/abbasid-fragmentation, period/buyid-seljuk-fatimid-era, period/crusades-ayyubid-mamluk, period/gunpowder-empires, period/contemporary-era]
+sources: [source/tdv-dai]
+training:
+  mode: formal-schooling
+  certification: "Appointed by the imam and answerable up the hierarchy; trained on a curriculum meant to leave him able to answer any questioner without embarrassment — the handbook al-Alim wa'l-ghulam attributed to Ibn Hawshab or his son Ja'far b. Mansur al-Yaman and Abu Hatim al-Razi's Kitab al-Zina served as the dais' manuals."
+  duration: "Beyond learning, the dai had to be a model of piety and virtue, capable in organisation and command, loyal in obedience to the imam or his superior; he drew a salary and handled da'wa funds he was forbidden to spend on himself."
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-gov-2" }
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi, 'DÂÎ' (Öz, 1993, vol. 8, pp. 420-421), web edition read on 16 Nov 2026"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-gov-2-drafting"

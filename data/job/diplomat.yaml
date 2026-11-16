@@ -1,0 +1,46 @@
+id: job/diplomat
+class: job
+label: { ar: "السفير", en: "Envoy (rasul / elçi)", ur: "سفیر ⁦(رسول / ایلچی)⁩" }
+names:
+  - { value: "رسول", kind: alternate }
+  - { value: "elçi", kind: latinized, lang: tr }
+  - { value: "sefir", kind: latinized, lang: tr }
+  - { value: "وفد", kind: alternate }
+  - { value: "resuldar", kind: latinized }
+  - { value: "qasid", kind: latinized }
+summary:
+  ar: "السفير من يحمل رسالة سلطانه ويعود بجوابها؛ حرمة الرسول من أقدم قواعد العلاقات بين الدول، فالنبي قال لرسل مسيلمة: لولا أنكم رسل لأمرت بضرب أعناقكم. أرسل النبي ستة رسل برسائل الدعوة إلى حكام عصره بعد الحديبية، وازدهرت السفارة في العهدين الأموي والعباسي مع بيزنطة، ثم عند السلاجقة والغزنويين والأيوبيين والمماليك والعثمانيين، الذين جعلوا استقبال السفراء مهرجاناً لعرض قوة الدولة، ولم يقيموا سفارات دائمة في الغرب حتى أواخر القرن الثامن عشر."
+  en: "The envoy carries his sovereign's letter and brings back the answer; the envoy's inviolability is one of the oldest rules between states — the Prophet told Musaylima's envoys that had they not been envoys he would have had them beheaded. After Hudaybiya he sent six envoys with his call to the rulers of his age; diplomacy flourished under the Umayyads and Abbasids with Byzantium, then under the Seljuks, Ghaznavids, Ayyubids, Mamluks and Ottomans, who turned the ambassador's reception into a display of state power, yet kept no permanent embassies in the West until the end of the eighteenth century."
+  ur: "سفیر اپنے حکمران کا خط لے کر جاتا اور اس کا جواب لاتا ہے؛ قاصد کی حرمت ریاستوں کے تعلقات کے قدیم ترین اصولوں میں ہے — نبی نے مسیلمہ کے قاصدوں سے فرمایا کہ اگر تم قاصد نہ ہوتے تو تمہاری گردنیں ماروا دیتا۔ حدیبیہ کے بعد اس نے اپنے دور کے حکمرانوں کو دعوت کے خطوط چھ قاصدوں کے ذریعے بھیجے؛ اموی اور عباسی دور میں بازنطین کے ساتھ سفارتکاری پھلی، پھر سلجوقی، غزنوی، ایوبی، مملوک اور عثمانیوں کے ہاں، جنہوں نے سفیر کے استقبال کو ریاستی قوت کے مظاہرے کا موقع بنایا، مگر مغرب میں اٹھارویں صدی کے آخر تک مستقل سفارتخانے نہیں رکھے۔"
+domain: governance-law
+kind: office
+hirfa: false
+era:
+  origins: pre-islamic
+  status_today: living
+places:
+  - { place: place/medina, note: "The Prophet received embassies at the 'column of the delegations' in the mosque, had a house built for their lodging, ordered them met at the border and escorted, and among his deathbed instructions was not to neglect the envoys' care.", sources: [source/tdv-elci] }
+  - { place: place/abyssinia, note: "True diplomatic activity began, the entry says, when the Prophet sent Amr b. Umayya al-Damri to the Najashi to frustrate the Meccan embassy demanding the surrender of the emigrant Muslims.", sources: [source/tdv-elci] }
+  - { place: place/baghdad, note: "Under the Abbasids envoy exchange doubled as commerce and scholarship: al-Ma'mun sent a mission to Byzantium to bring back the classics for translation, and the caliph al-Qa'im sent the qadi al-qudat Mawardi as envoy to Tughril Beg.", sources: [source/tdv-elci] }
+  - { place: place/cairo, note: "Mamluk Cairo, midway between the Far East and the Mediterranean, saw constant envoy traffic — Ilkhanid, Golden Horde, Timurid, Ottoman, Byzantine and papal; the Golden Horde embassy of 1314 arrived with 174 persons and rich gifts.", sources: [source/tdv-elci] }
+  - { place: place/istanbul, note: "The Ottomans staged the envoy's reception in the Divan-i Hümayun and the Arz Odası as a theatre of power, hosted the first resident embassy (Venice, 1454) long before sending their own, and opened permanent embassies in London, Paris and Vienna only in 1793.", sources: [source/tdv-elci] }
+regions: [arabia, levant-iraq, egypt-nile, maghreb, persia-central-asia, anatolia-balkans, andalus-europe, south-asia, global]
+organization:
+  organized: court-office
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people]
+periods: [period/pre-islamic-arabia, period/prophetic-era, period/rashidun, period/umayyad, period/abbasid-early, period/abbasid-fragmentation, period/buyid-seljuk-fatimid-era, period/crusades-ayyubid-mamluk, period/mongol-post-mongol, period/gunpowder-empires, period/colonial-era, period/contemporary-era]
+sources: [source/tdv-elci]
+training:
+  mode: mixed
+  certification: "The Prophet chose envoys for character and bearing — good looks, persuasiveness, quick understanding, honesty, learning and eloquence — and preferred men who already knew the country and its language, ordering Zayd b. Thabit to learn Hebrew. The Seljuk ideal in Nizam al-Mulk's Siyasatname and the Qarakhanid mirror Kutadgu Bilig ask for an envoy who is intelligent, learned, distinguished, brave, well-read and a speaker of many tongues."
+  duration: "No fixed course: envoys were picked per mission from kadis, commanders, physicians and chancery men — the Ayyubids sent the khatib Shams al-Din al-Ba'labakki and the qadi Ziya al-Din al-Shahrazuri — until the Ottoman Translation Office ⁦(Bâbıâli Tercüme Odası, 1821)⁩ began training a Muslim diplomatic corps in earnest."
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-gov-2" }
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi, 'ELÇİ' (İpşirli, 1995, vol. 11, pp. 3-15), web edition read on 16 Nov 2026"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-gov-2-drafting"
