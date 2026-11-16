@@ -42,6 +42,17 @@ died:
   note: 'al-Zirikli, al-A''lam, 15th ed. 2002, vol. 3 p. 86: d. 300 AH = 913 CE; the earlier card date 914 (Wikidata, from Rijal al-Najashi) is replaced by the entry''s date; the card''s Umayyad period is corrected to early Abbasid.'
   sources:
   - source/alam-zirikli-dar-al-ilm-2002
+occupations:
+  - job: job/faqih
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'jurist', Job Browser linking wave 42"
+    sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
+  - job: job/alim
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 42"
+    sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 relations:
 - type: lived_in
   target: place/qumm

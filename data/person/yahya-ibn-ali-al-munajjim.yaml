@@ -16,6 +16,12 @@ provenance:
   run: prose-fill-persons-batch51
 born: { edtf: "855", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Baghdad (al-Khatib al-Baghdadi)" }
 died: { edtf: "912", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Baghdad (al-Khatib al-Baghdadi)" }
+occupations:
+  - job: job/mutakallim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'theologian', Job Browser linking wave 42"
+    sources: [source/wafayat-ayan]
 relations:
   - { type: lived_in, target: place/baghdad, sources: [source/wafayat-ayan] }
 sources: [source/wafayat-ayan]

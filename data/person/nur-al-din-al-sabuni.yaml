@@ -12,6 +12,12 @@ wings: [people]
 regions: [persia-central-asia]
 periods: [period/buyid-seljuk-fatimid-era]
 died: { edtf: "1184", hijri: "0580", calendar: gregorian, precision: year, status: tradition, derived: true, note: "al-Zirikli prints 580 AH = 1184 CE {cite:alam-zirikli-dar-al-ilm-2002 vol. 1 p. 253}, agreeing with the card.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+occupations:
+  - job: job/mutakallim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'theologian', Job Browser linking wave 42"
+    sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 relations:
   - { type: born_in, target: place/bukhara, sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002], confidence: high, note: "Wikidata P19 (Q5764); al-Zirikli, al-A'lam, vol. 1 p. 253: born in Bukhara" }
   - { type: died_in, target: place/bukhara, sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high, note: "al-Zirikli, al-A'lam, vol. 1 p. 253: died in Bukhara" }
