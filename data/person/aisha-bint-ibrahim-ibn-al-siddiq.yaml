@@ -15,6 +15,17 @@ periods: [period/crusades-ayyubid-mamluk]
 regions: [levant-iraq]
 faith:
   - { value: sunni, basis: tradition, note: "تذكرها كتب التراجم التي ينقل عنها كحالة بين المحدثات؛ تُسجَّل ضمن الإطار السني للمتحف.", sources: [source/alam-al-nisa-kahhala-risala-1984-v3] }
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 27"
+    sources: [source/alam-al-nisa-kahhala-risala-1984-v3]
+  - job: job/teacher
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'teacher', Job Browser linking wave 27"
+    sources: [source/alam-al-nisa-kahhala-risala-1984-v3]
 relations:
   - { type: lived_in, target: place/damascus, sources: [source/alam-al-nisa-kahhala-risala-1984-v3] }
   - { type: spouse_of, target: person/jamal-al-din-al-mizzi, sources: [source/alam-al-nisa-kahhala-risala-1984-v3] }

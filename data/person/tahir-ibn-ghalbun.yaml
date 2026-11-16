@@ -15,6 +15,17 @@ wings: [people]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [egypt-nile]
 died: { edtf: "1009", hijri: "0399", calendar: julian, precision: year, status: tradition, derived: true, note: "Year as printed in al-Nashr; Julian year derived by tabular conversion.", sources: [source/nashr-dahman-damascus-1345-v1] }
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 27"
+    sources: [source/nashr-dahman-damascus-1345-v1]
+  - job: job/teacher
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'teacher', Job Browser linking wave 27"
+    sources: [source/nashr-dahman-damascus-1345-v1]
 relations:
   - { type: lived_in, target: place/misr, confidence: medium, note: "Ibn al-Jazari, al-Nashr, p. 82: he settled in Egypt and died there; the museum's place record for Egypt's capital is used here.", sources: [source/nashr-dahman-damascus-1345-v1] }
   - { type: child_of, target: person/abd-al-munim-ibn-ghulbun, confidence: high, note: "Ibn al-Jazari, al-Nashr, p. 82: Tahir is described as the son of the imam Abu al-Tayyib Abd al-Munim ibn Ghalbun.", sources: [source/nashr-dahman-damascus-1345-v1] }
