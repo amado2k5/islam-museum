@@ -13,6 +13,12 @@ regions: [andalus-europe]
 periods: [period/gunpowder-empires]
 born: { edtf: "1534", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Historical archives of France / Ottoman studies" }
 died: { edtf: "1537", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Historical archives of France / Ottoman studies" }
+occupations:
+  - job: job/diplomat
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'diplomat', Job Browser linking wave"
+    sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
 relations:
   - { type: born_in, target: place/klagenfurt-am-w-rthersee, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/vienna, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

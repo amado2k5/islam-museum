@@ -53,6 +53,17 @@ inventions:
   sources:
   - source/wikipedia-taher-elgamal-en
   - source/elgamal-public-key-cryptosystem-1985
+occupations:
+  - job: job/engineer
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'engineer', Job Browser linking wave"
+    sources: [source/wikipedia-taher-elgamal-en, source/wikipedia-elgamal-encryption-en, source/elgamal-public-key-cryptosystem-1985]
+  - job: job/merchant
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'businessman', Job Browser linking wave"
+    sources: [source/wikipedia-taher-elgamal-en, source/wikipedia-elgamal-encryption-en, source/elgamal-public-key-cryptosystem-1985]
 relations:
 - type: related_to
   target: place/stanford

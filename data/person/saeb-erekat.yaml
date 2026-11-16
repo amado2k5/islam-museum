@@ -35,6 +35,12 @@ faith:
     basis: unknown
     note: "No text in any of the three articles names a school or affiliation for the man, and no infobox in any edition carries a religion field. FLAGGED for the founder: the only religion statement anywhere is a single structured value — the Wikidata item's religion value (P140) is Islam (Q432) generally, naming no school. There is therefore not even a one-family Sunni reading to weigh: the articles attest his career as negotiator and minister, and his family's tribal origin is background, never affiliation. The generic attestation is preserved here for the founder's ruling."
     sources: [source/wikipedia-saeb-erekat-en, source/wikipedia-saeb-erekat-ar, source/wikipedia-saeb-erekat-ur, source/wikidata-saeb-erekat]
+occupations:
+  - job: job/diplomat
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'diplomat', Job Browser linking wave"
+    sources: [source/wikipedia-saeb-erekat-en, source/wikipedia-saeb-erekat-ar, source/wikipedia-saeb-erekat-ur, source/wikidata-saeb-erekat, source/wikidata]
 relations:
   - { type: died_in, target: place/jerusalem, sources: [source/wikipedia-saeb-erekat-en, source/wikipedia-saeb-erekat-ar] }
 wings: [people]
