@@ -13,6 +13,10 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v2.05.0 — 2026-11-17
+### Added
+- Job Browser linking wave 31: 37 `occupations:` edges on 25 person records — eleven emirs, eight muhaddiths, seven ulema, plus mutakallim, grammarian, faqih, mufti, qadi, mufassir, professor and poet links.
+
 ## v2.04.0 — 2026-11-17
 ### Added
 - Twenty-five more records of Ibn Sina's Canon, Book III (the diseases of each organ, head to foot), volume 2, scan pages 158 to 180: the end of the nerve-disease fann (numbness — causes in power and instrument, brain, cord, vertebra and nerve-branch seats, warnings and signs, treatment measured on tremor's with exercise of the organ; the twitch ikhtilaj — nature as a muscular motion from thick wind, causes in cooled power and moist matter and psychical events, treatment and the fann's close deferring tumours and solutions of continuity to Book IV) and the opening of the eye fann (eye anatomy — the seeing spirit, the ice-like, glass-like and egg-white humours, the net-like, choroid, grape-like, corneal and conjunctival coats, lid and lashes; discerning the eye's states; signs of its diseases and sharings; the general canons of its treatment; preserving its health; ophthalmia and turbidity, its humours, seasons, signs and shared regimen; the hot, cold and windy kinds and the great chemosis wardinj; the watery bladders; the seven corneal ulcers and their treatment; the corneal ruptures and uveal protrusions; the pustules; and the opening of pus-under-the-membrane). Each is a trilingual concept in the Medicine Browser cited to the printed page; the book's lines on coitus are kept as labelled listings for the founder's ruling; recipes, doses, drug and plant names, vein, cupping, cautery and artery-excision sites and methods of application are not reproduced; the author's own lancing case report on p.177 and the oculists' tried collyrium on p.175 are carried as the book's reports and labelled.
