@@ -1,0 +1,46 @@
+id: job/ship-captain
+class: job
+label: { ar: "ربّان السفينة", en: "Ship's captain (rubbān / reis / nakhoda)", ur: "جہاز کا سردار ⁦(ربّان، ناخدا)⁩" }
+names:
+  - { value: "ربّان", kind: alternate }
+  - { value: "رئيس", kind: alternate }
+  - { value: "ناخدا", kind: alternate }
+  - { value: "reis", kind: latinized, lang: tr }
+  - { value: "nâhudâ", kind: latinized, lang: tr }
+  - { value: "rubbân", kind: latinized }
+  - { value: "kaptan", kind: latinized, lang: tr }
+summary:
+  ar: "ربّان السفينة قائدها في البحر، وهو عند المسعودي والمقدسي القبطان ⁦(الربّان أو الرئيس)⁩ إلى جانب الناخودة المالك، والديدبان الرقيب، والمعلّم رجل الخرائط والآلات الذي يضبط المسار، والإشتيام دليل الركاب. وعلى القدّوم العثمانية كان الرئيس يقف على النصف السفلي من السطح يراقب طاقماً قوامه نحو 330 رجلاً بين مقاتل ومجدّف وحبالي ودفّمان، يقودهم بالخريطة والبوصلة. وفي مصايد اللؤلؤ بالخليج كان الناخودة غالباً مالك المركب نفسه، يقود غوّاصيه وشدّاديه والمصلّي الذي يعفي الشدّادين عند الصلاة."
+  en: "The ship's captain commanded at sea: in the lists of al-Mas'udi and al-Maqdisi the rubbân or reis is the captain beside the nâhudâ owner, the dîdebân lookout, the muallim who handles charts and instruments and fixes the course, and the iştiyâm, the passengers' adviser. On the Ottoman galley the reis stood the quarterdeck over a crew of about 330 — warriors, oarsmen, ropemen, helmsmen — leading them by chart and compass. In the Gulf pearl fishery the nakhoda was often the boat's own owner, commanding his divers, his rope-tenders and the 'prayer-man' who relieved the sebs when they stopped to pray."
+  ur: "جہاز کا سردار سمندر میں اس کی قیادت کرتا ہے: مسعودی اور مقدسی کی گنتیوں میں ربّان یا رئیس قپتان ہے جس کے ساتھ ناخدا مالک، دیدبان چوکیدار، نقشے اور اوزار استعمال کرنے والا راستہ طے کرنے والا معلّم، اور مسافروں کے مشیر اِشتیام آتے ہیں۔ عثمانی قادِرغے پر رئیس بالائی عرشے پر کھڑا تقریباً ۳۳۰ آدمیوں کے دستے — جنگجو، چپو، رسہ کار، سکّان گیر — کو نقشے اور قطب نما سے چلاتا تھا۔ خلیج کی موتی گیری میں ناخدا اکثر خود کشتی کا مالک ہوتا، اپنے غواصوں، رسہ سنبھالنے والوں اور اس «مصلّی» کی قیادت کرتا جو سیبوں کی نماز کے وقت ان کے کام سنبھالتا۔"
+domain: trade-travel-sea
+kind: commercial
+hirfa: true
+craft:
+  materials: []
+era:
+  origins: classical
+  status_today: transformed
+places:
+  - { place: place/persian-gulf, note: "On the Gulf pearling boats the nakhoda or captain was often the boat's owner; under him served the ghoas divers, the seb rope-tenders and the musalli 'prayer-man' who covered for the sebs at prayer time.", sources: [source/kunz-book-of-pearl-1908] }
+  - { place: place/istanbul, note: "On the Ottoman kadırga the reis commanded from the after half-deck over roughly 330 men, using chart and compass; on the great baştardas the crew rose toward 700.", sources: [source/tdv-gemi] }
+regions: [arabia, levant-iraq, egypt-nile, anatolia-balkans]
+organization:
+  organized: informal
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era, period/crusades-ayyubid-mamluk, period/gunpowder-empires, period/colonial-era, period/modern-era]
+sources: [source/tdv-gemi, source/kunz-book-of-pearl-1908]
+training:
+  mode: apprenticeship
+  certification: "The sources give the ranks, not the licence: the muallim's skill was charts and instruments, the reis's was command — learned in the trade fleets whose experienced crewmen also manned the war ships (al-Mas'udi, al-Maqdisi as cited in TDV GEMİ). The pearling nakhoda rose from the boat's own crew, often to the ownership of the boat itself (Kunz)."
+  duration: "A working life at sea: the trade fleets trained the experienced hands whom the war fleets also drew on."
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-sea-2" }
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi 'GEMİ' (Bostan, 1996; vol. 14 pp. 8-15), read on the web on 16 Nov 2026; Kunz & Stevenson, The Book of the Pearl ch. VI pp. 91-92, scan read on 16 Nov 2026"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-sea-2-drafting"
