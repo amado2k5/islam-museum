@@ -14,6 +14,12 @@ regions: [levant-iraq]
 periods: [period/abbasid-fragmentation]
 born: { edtf: "908", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Jazari Agrees with Wikidata Q57316754 (P569, a statement without a reference), item revision 2533242552, read on 13 November 2026.", sources: [source/wikidata] }
 died: { edtf: "996", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn al-Jazari Confirmed on 13 November 2026 against Wikidata Q57316754 (P570, a statement with a reference), item revision 2533242552.", sources: [source/wikidata] }
+occupations:
+  - job: job/muhaddith
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'muhaddith', Job Browser linking wave 36"
+    sources: [source/al-aalam]
 relations:
   - { type: lived_in, target: place/misr, confidence: low, note: "Associated with Egypt per the record's own summary text; relation type pending review.", sources: [source/al-aalam] }
 sources: [source/al-aalam]
