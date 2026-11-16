@@ -22,6 +22,17 @@ faith:
   - { value: sunni, basis: documented, note: "The title page of the edition calls him the shaykh of Ahl al-Sunna wa'l-Jama'a and he ends the creed report by saying he holds it.", sources: [source/maqalat-islamiyyin] }
 story_roles:
   - { role: scholar, status: tradition, sources: [source/encyclopaedia-of-islam-2, source/siyar-alam-nubala] }
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 32"
+    sources: [source/fihrist-ibn-al-nadim, source/maqalat-islamiyyin, source/siyar-alam-nubala, source/encyclopaedia-of-islam-2, source/wafayat-ayan, source/al-ibana-ashari-dar-ibn-zaydun, source/wikidata]
+  - job: job/mutakallim
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'theologian', Job Browser linking wave 32"
+    sources: [source/fihrist-ibn-al-nadim, source/maqalat-islamiyyin, source/siyar-alam-nubala, source/encyclopaedia-of-islam-2, source/wafayat-ayan, source/al-ibana-ashari-dar-ibn-zaydun, source/wikidata]
 relations:
   - { type: traveled_to, target: place/baghdad, note: "From text: moved to Baghdad", sources: [source/fihrist-ibn-al-nadim, source/maqalat-islamiyyin, source/siyar-alam-nubala, source/encyclopaedia-of-islam-2, source/wafayat-ayan, source/al-ibana-ashari-dar-ibn-zaydun] }
   - { type: born_in, target: place/basra, sources: [source/encyclopaedia-of-islam-2, source/siyar-alam-nubala] }

@@ -27,6 +27,17 @@ born:
   status: historical
   note: "Date and place from the English Wikipedia article, corroborated by the Oxford Bibliographies entry (born 1971, Bukit Mertajam, Penang). No Bukit Mertajam place record exists in the graph, so the birth relation uses the state record, place/penang."
   sources: [source/wikipedia-mohd-asri-zainul-abidin-en, source/oxford-bibliographies-mohd-asri]
+occupations:
+  - job: job/mufti
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'mufti', Job Browser linking wave 32"
+    sources: [source/wikipedia-mohd-asri-zainul-abidin-en, source/oxford-bibliographies-mohd-asri, source/instagram-drmaza-official]
+  - job: job/preacher
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'preacher', Job Browser linking wave 32"
+    sources: [source/wikipedia-mohd-asri-zainul-abidin-en, source/oxford-bibliographies-mohd-asri, source/instagram-drmaza-official]
 relations:
   - { type: born_in, target: place/penang, sources: [source/wikipedia-mohd-asri-zainul-abidin-en, source/oxford-bibliographies-mohd-asri] }
 faith:

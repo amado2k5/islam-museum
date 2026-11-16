@@ -12,6 +12,12 @@ wings: [people]
 periods: [period/pre-islamic-arabia]
 regions: [arabia]
 died: { edtf: "569~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Tabari / Aghani" }
+occupations:
+  - job: job/emir
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'emir', Job Browser linking wave 32"
+    sources: [source/kamil-ibn-al-athir, source/nihayat-al-arab-nuwayri-vol3-scan]
 relations:
   - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/kamil-ibn-al-athir, source/nihayat-al-arab-nuwayri-vol3-scan], confidence: low }
   - { type: child_of, target: person/al-mundhir-ibn-imri-al-qays, sources: [source/kamil-ibn-al-athir] }

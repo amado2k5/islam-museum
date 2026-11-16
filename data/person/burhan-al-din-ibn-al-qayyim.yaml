@@ -12,6 +12,17 @@ wings: [people]
 regions: [levant-iraq]
 periods: [period/mongol-post-mongol]
 died: { edtf: "1366", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Rajab (al-Dhayl) Agrees with Wikidata Q25452421 (P570, a statement without a reference), item revision 2554022460, read on 13 November 2026.", sources: [source/wikidata] }
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 32"
+    sources: [source/shadharat-dhahab]
+  - job: job/grammarian
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'linguist', Job Browser linking wave 32"
+    sources: [source/shadharat-dhahab]
 relations:
   - { type: died_in, target: place/damascus, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: buried_in, target: place/damascus, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
