@@ -1,0 +1,23 @@
+id: concept/al-suda-min-al-awram
+class: concept
+kind: scientific
+label:
+  ar: "الصداع الكائن عن الأورام"
+  en: "Headache from swellings"
+  ur: "ورموں سے ہونے والا صداع"
+summary:
+  ar: "يعدّ ابن سينا الأورام التي يحدث عنها الصداع في حجب الدماغ وفي جوهره، حارةً وباردةً ومركبةً وصلبة، ويسمّي بعضها بأسمائها، ويبيّن أنها كثيراً ما تنحل بخروج مادة من الرأس {cite:canon-ibn-sina-print-v2 p.48}"
+  en: "Ibn Sina lists the swellings that bring about headache in the membranes of the brain and in its substance, hot, cold, compound and hard, names some of them, and says that they often dissolve by a matter coming out of the head {cite:canon-ibn-sina-print-v2 p.48}"
+  ur: "ابن سینا ان ورموں کو گنتا ہے جن سے دماغ کی جھلیوں اور اس کے جوہر میں صداع ہوتا ہے، گرم، ٹھنڈے، مرکب اور سخت، ان میں سے بعض کے نام لیتا ہے، اور بتاتا ہے کہ وہ اکثر سر سے کسی مادے کے نکلنے سے تحلیل ہو جاتے ہیں {cite:canon-ibn-sina-print-v2 p.48}۔"
+wings: [living]
+tags: [tibb-browser, tibb-tibb]
+sources: [source/canon-ibn-sina-print-v2]
+relations:
+  - { type: part_of, target: concept/disease, sources: [source/canon-ibn-sina-print-v2] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 1, maqala 2, scan pages 48, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json) with the PDF page images rendered with pdftoppm and read by eye against the OCR for the pages and the doubtful headings and clauses; editor footnotes used only for glosses and labelled as the editor's; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein and cupping sites, application methods and procedures left out; unclear lines left out, not guessed; womb, menses, foetus, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book3-2
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

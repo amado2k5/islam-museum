@@ -16,3 +16,6 @@ The Aghlabids were a family that ruled Tunisia and Qayrawan for about a hundred 
 
 ## Research notes
 - Text from the harvested Ibar of Ibn Khaldun (Heliopolis 1957): pp. 1022–1027 (the Banū l-Aghlab section) and p. 909 (the Ifrīqiya context). The scan sometimes blurs "al-Aghlab" the Berber chief and "Ibn al-Aghlab" the amir; every passage cited here belongs to the Ifrīqiya/Qayrawān news, not the Berber chapters.
+
+## In The Oxford Dictionary of Islam
+The Oxford Dictionary of Islam describes the Aghlabids as a hereditary Muslim dynasty that ruled in the 800s and early 900s from Qayrawan in North Africa. It says their rise began when, in the year 800, Ibrahim ibn Aghlab, who governed on behalf of the Abbasid caliph Harun al-Rashid, put down Kharijite revolts and was given relative independence in return for tribute. In time that independence widened, and Aghlabid territory came to reach Sicily and Malta as well as the south of Italy. Qayrawan became a crossroads of trade and learning, a centre of Maliki jurisprudence and the home of a notable mosque; the Aghlabids also built many forts and waterways. The Dictionary dates the end of their rule to 909, when al-Mahdi, the Ismaili leader, allied with Berbers, conquered the Maghreb and founded the Fatimid dynasty. {cite:oxford-dictionary-of-islam e67}

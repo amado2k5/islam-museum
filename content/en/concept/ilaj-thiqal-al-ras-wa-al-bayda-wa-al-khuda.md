@@ -1,0 +1,18 @@
+---
+id: concept/ilaj-thiqal-al-ras-wa-al-bayda-wa-al-khuda
+lang: en
+source_lang: ar
+translators: [ai]
+---
+
+## Heaviness of the head
+Evacuation helps against heaviness of the head, and if it is bloody its treatment is by drawing blood {cite:canon-ibn-sina-print-v2 p.72}
+
+## Description and causes of bayda and khuda
+This kind of headache is called bayda and khuda because it encloses the whole head. It is an enclosing, abiding, fixed, chronic headache, and its hardness stirs every hour at the least cause of movement, of drinking wine, or of taking a fumigant; loud sound stirs it and sometimes middling sound, so that its owner hates sound, light and mixing with people and loves solitude, darkness, rest and lying on his back {cite:canon-ibn-sina-print-v2 p.72} They differ in which of the causes mentioned hurts them, and every hour the sufferer feels as if his head is struck with a hammer, or pulled, or split, and the pain passes to the roots of the eye {cite:canon-ibn-sina-print-v2 p.72} Galen makes the bringing cause of this ailment the weakness of the brain or the strength of its sense, and the generating cause a bad humour or a hot or cold swelling, though it is often from a black-bile or a hard swelling, and most often it is in the middle of the membrane, either that outside the skull or that inside {cite:canon-ibn-sina-print-v2 p.72} You have learned that when the cause, a swelling or other, is in the membrane inside the skull, the pain is felt extending to the eye, because that membrane includes the hollow nerve and a part of it extends to the pupil; and when it is in the outer membrane the pain is felt on touch by the hand and its owner dislikes touch falling on it with force {cite:canon-ibn-sina-print-v2 p.72} It mostly arises from diseases that came before, so that the substance of the brain and its inner and outer membranes grew weak until they are hurt by slight movements and receive harmful superfluities {cite:canon-ibn-sina-print-v2 p.72}
+
+## The physicians' disagreement about its name, and its treatment
+Some physicians do not keep these conditions for the bayda but call it bayda for every pain that encloses the whole head, outside the skull or inside, whether its cause is vapours in the stomach, vapours in the head, matters, or a phlegmon in the brain itself or its membranes, and each is treated according to its kind; yet the name bayda is in truth used by the skilled physicians for what has the conditions mentioned {cite:canon-ibn-sina-print-v2 p.72} In its treatment: if you know that the blood is much and that blood is its first or its moving cause, you draw it; and if the signs show that the humours are cold and the time has been long on the ailment and you used at first also what repels, use slight warming dissolvers with a little repression and astringency, and go on to the strong, and evacuate by what suits it {cite:canon-ibn-sina-print-v2 pp.72-73} Know that the bayda, when it lasts long, has turned to a cold temperament even if it was from a hot cause, and that the chronic bayda is removed only by what is strong in dissolving and heating {cite:canon-ibn-sina-print-v2 p.73} As for food, it is what does not vaporise, and the same kind is fitting for the cold one because it gives little vapour; as for cautery and the drawing of blood from vessels, they are as in the old headache and are not reproduced here {cite:canon-ibn-sina-print-v2 p.74}
+
+## Note
+Recipes, quantities, the names of drugs and plants, the names of veins and the sites of venesection, cupping and cautery, and methods of application are not reproduced here. {cite:canon-ibn-sina-print-v2 pp.72-74}
