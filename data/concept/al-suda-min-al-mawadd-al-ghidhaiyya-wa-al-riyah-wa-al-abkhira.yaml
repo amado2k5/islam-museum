@@ -1,0 +1,23 @@
+id: concept/al-suda-min-al-mawadd-al-ghidhaiyya-wa-al-riyah-wa-al-abkhira
+class: concept
+kind: scientific
+label:
+  ar: "الصداع من المواد الغذائية والرياح والأبخرة"
+  en: "Headache from nourishing matters, winds and vapours"
+  ur: "غذائی مادوں، ہواؤں اور بخارات سے صداع"
+summary:
+  ar: "يبيّن ابن سينا كيف تحصل المادة المؤذية في العضو: قديمة محتبسة أو غذائية متولدة من الغذاء، وأن الرياح والأبخرة من جملة المصدّعات، وأصولها وصفاتها بحسب الخلط {cite:canon-ibn-sina-print-v2 p.49}"
+  en: "Ibn Sina shows how the harmful matter comes to lodge in the organ, old and held back or nutritive and generated from food, and that winds and vapours are among the things that cause headache, with their sources and their character according to the humour {cite:canon-ibn-sina-print-v2 p.49}"
+  ur: "ابن سینا بتاتا ہے کہ ضرر دینے والا مادہ عضو میں کیسے آ ٹھہرتا ہے، پرانا اور رکا ہوا یا غذائی جو غذا سے پیدا ہو، اور یہ کہ ہوائیں اور بخارات سر درد لانے والی چیزوں میں سے ہیں، ان کے منبع اور خلط کے مطابق ان کی صفات {cite:canon-ibn-sina-print-v2 p.49}۔"
+wings: [living]
+tags: [tibb-browser, tibb-tibb]
+sources: [source/canon-ibn-sina-print-v2]
+relations:
+  - { type: part_of, target: concept/disease, sources: [source/canon-ibn-sina-print-v2] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 1, maqala 2, scan pages 49, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json) with the PDF page images rendered with pdftoppm and read by eye against the OCR for the pages and the doubtful headings and clauses; editor footnotes used only for glosses and labelled as the editor's; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein and cupping sites, application methods and procedures left out; unclear lines left out, not guessed; womb, menses, foetus, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book3-2
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

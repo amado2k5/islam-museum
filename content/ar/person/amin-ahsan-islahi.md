@@ -34,3 +34,6 @@ translators: []
 ## المراجع
 
 {{cite:wikipedia-amin-ahsan-islahi-ar}} {{cite:wikipedia-amin-ahsan-islahi-en}} {{cite:wikipedia-amin-ahsan-islahi-ur}} {{cite:wikidata-amin-ahsan-islahi}}
+
+## في قاموس أكسفورد للإسلام
+يصف قاموس أكسفورد للإسلام أمين أحسن إصلاحي، المتوفى سنة 1998، بأنه مفسر باكستاني للقرآن. ويقول إنه ألّف تفسيرًا كاملًا للقرآن تُعالج فيه كل سورة خطابًا متماسكًا، وتُرتَّب السور في أزواج، وتُحدَّد سبعة أقسام كبرى للسور، فيظهر القرآن كله كتابًا مترابطًا ومنظمًا. {cite:oxford-dictionary-of-islam e1086}

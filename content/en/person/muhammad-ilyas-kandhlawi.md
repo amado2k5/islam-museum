@@ -26,3 +26,6 @@ He died at Delhi on 13 July 1944 (1363 AH).{cite:wikipedia-muhammad-ilyas-kandhl
 ## References
 
 {{cite:wikipedia-muhammad-ilyas-kandhlawi-en}} {{cite:wikipedia-muhammad-ilyas-kandhlawi-ur}} {{cite:wikipedia-muhammad-ilyas-kandhlawi-ar}} {{cite:wikidata-muhammad-ilyas-kandhlawi}}
+
+## In The Oxford Dictionary of Islam
+The Oxford Dictionary of Islam, which gives his death as 1944, calls Muhammad Ilyas a Sufi scholar and Deobandi alim who, in India in 1927, founded the Tablighi Jamaat; the museum's record dates the founding to 1925, and the two dates are shown here without being reconciled. The Dictionary says he believed that only a movement rooted among ordinary people could answer the work of Hindu proselytising movements, remove Hindu influences from Islam and teach Muslims properly in what they themselves believed and practised. To reach the aims of tabligh, it adds, he promoted organisation, formal travel and education. {cite:oxford-dictionary-of-islam e1016}

@@ -12,3 +12,6 @@ Selim reached the plain of Chaldiran in August 1514 CE, and occupied the importa
 
 ## The outcome
 Selim returned after taking Kurdistan, Diyarbakir and Marash. Anatolia became safe from the east, and the roads to Azerbaijan and the Caucasus were opened. {cite:dawlat-uthmaniyya-salabi p. 181}
+
+## In The Oxford Dictionary of Islam
+The Oxford Dictionary of Islam dates the battle of Chaldiran to 1514 and describes it as a clash of the Ottomans with the Persian Safavids. It lists these results of the Ottoman victory: Ottoman annexation of the east of Anatolia and the north of Mesopotamia, Ottoman control of the trade routes linking Tabriz, Aleppo and Bursa, and, by 1517, the conquest of the Arabian Peninsula and of the Mamluk lands in Egypt and Syria. For the Safavids, it says, the defeat permanently discouraged their ambitions in Anatolia and broke the belief that the shah could not be beaten. {cite:oxford-dictionary-of-islam e420}

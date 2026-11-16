@@ -34,3 +34,6 @@ No consulted article names a school for him in its prose; the Sunni values appea
 ## References
 
 {{cite:wikipedia-amin-ahsan-islahi-en}} {{cite:wikipedia-amin-ahsan-islahi-ur}} {{cite:wikipedia-amin-ahsan-islahi-ar}} {{cite:wikidata-amin-ahsan-islahi}}
+
+## In The Oxford Dictionary of Islam
+The Oxford Dictionary of Islam calls Amin Ahsan Islahi, who died in 1998, a Pakistani Quran exegete. It says he wrote a complete commentary on the Quran in which each surah is treated as a coherent discourse, the surahs are arranged in pairs, and seven major divisions of surahs are identified, so that the whole Quran emerges as a connected and systematic book. {cite:oxford-dictionary-of-islam e1086}
