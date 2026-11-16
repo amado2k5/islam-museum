@@ -1,0 +1,23 @@
+id: concept/shair-wa-shilt
+class: concept
+kind: natural
+label:
+  ar: "شعير وشلت"
+  en: "Sha'ir and shilt"
+  ur: "شعیر اور شلت"
+summary:
+  ar: "الشعير والشلت في الكتاب معروف، والشلت نوع بلا قشر وفعله قريب من فعله، بارد يابس في الأولى، فيه جلاء وغذاؤه أقل من غذاء الحنطة وماء الشعير أقوى من سويقه وكلاهما يكسران حدة الأخلاط، ويطلى منه على الكلف، ويضمد به الأورام الصلبة والحارة والجرب المتقرح والنقرس، وماؤه ينفع من أمراض الصدر، وسويقه يمسك البطن وطبيخه يدر البول، وماؤه مبرد مرطب للحميات {cite:canon-ibn-sina-print-v1 p.682}"
+  en: "Sha'ir and shilt are in the book well known, shilt being a kind without husk whose action is close to its action; cold and dry in the first degree, cleansing, nourishing less than wheat, its water stronger than its sawiq, both breaking the sharpness of humours; it is applied on freckles, as a poultice on hard and hot swellings, ulcerated scab and gout; its water benefits diseases of the chest, its sawiq binds the belly, its decoction promotes urine, and its water cools and moistens fevers {cite:canon-ibn-sina-print-v1 p.682}"
+  ur: "شعیر اور شلت کتاب میں معروف ہیں، شلت بے چھلکے کی ایک قسم ہے جس کا فعل اس کے فعل کے قریب ہے؛ پہلے درجے میں سرد خشک ہے، جلا دینے والا ہے، اس کی غذا گندم سے کم ہے، اس کا پانی اس کے ستو سے زیادہ قوی ہے اور دونوں اخلاط کی تیزی کو توڑتے ہیں؛ جھائیوں پر لگایا جاتا ہے، سخت اور گرم ورموں، پھوٹنے والی خارش اور نقرس پر لیپ کیا جاتا ہے؛ اس کا پانی سینے کی بیماریوں میں نافع ہے، اس کا ستو پیٹ کو روکتا ہے، اس کا جوشاندہ پیشاب لاتا ہے، اور اس کا پانی بخاروں کے لیے ٹھنڈک اور تری دینے والا ہے {cite:canon-ibn-sina-print-v1 p.682}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, scan pages 682, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for doubtful headings; editor footnotes used only for identity; measured doses, weights, counts, times and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-29
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

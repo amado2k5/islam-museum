@@ -1,0 +1,267 @@
+id: invention/taher-elgamal-cryptography
+class: invention
+label:
+  ar: 'تعمية الجمل: التشفير بمفتاح عمومي على اللوغاريتمات المتقطعة'
+  en: 'ElGamal cryptography: public-key security on discrete logarithms'
+  ur: 'الجمل خفیہ نگاری: گوشوار لوگارتھم پر عوامی کلیدی تحفظ'
+names:
+- value: ElGamal encryption
+  kind: alternate
+  lang: en
+- value: ElGamal cryptosystem
+  kind: alternate
+  lang: en
+- value: ElGamal signature scheme
+  kind: alternate
+  lang: en
+- value: تعمية الجمل
+  kind: alternate
+  lang: ar
+- value: نظام الجمل للتعمية
+  kind: alternate
+  lang: ar
+- value: الجمل انکرپشن
+  kind: alternate
+  lang: ur
+summary:
+  ar: 'نظام تعمية بمفتاح عمومي ومخطط توقيع رقمي اقترحهما المشفِّر المصري-الأمريكي
+    طاهر الجمل في ورقته عام 1985 «نظام تعمية بمفتاح عمومي ومخطط توقيع مبنيان على اللوغاريتمات
+    المتقطعة»: يبني على تبادل مفاتيح ديفي-هلمان في زمرة دائرية ويستمد أمانه من صعوبة
+    مسألة اللوغاريتم المتقطع، بمفتاح عابر جديد لكل رسالة؛ ومخطط توقيعه صار أساس خوارزمية
+    التوقيع الرقمي DSA ومعيار NIST، وتعميته مستعملة في GNU Privacy Guard وإصدارات
+    PGP الحديثة {cite:wikipedia-elgamal-encryption-en} {cite:wikipedia-taher-elgamal-en}.'
+  en: 'A public-key cryptosystem and digital signature scheme proposed by the Egyptian-American
+    cryptographer Taher Elgamal in his 1985 paper ''A public key cryptosystem and
+    a signature scheme based on discrete logarithms'': built on the Diffie-Hellman
+    key exchange in a cyclic group, its security resting on the difficulty of the
+    discrete logarithm problem, with a fresh ephemeral key for every message; his
+    signature scheme became the basis of the Digital Signature Algorithm ⁦(DSA)⁩ adopted
+    by NIST, and the encryption is used in GNU Privacy Guard and recent PGP versions
+    {cite:wikipedia-elgamal-encryption-en} {cite:wikipedia-taher-elgamal-en}.'
+  ur: 'ایک عوامی کلیدی خفیہ نظام اور برقی دستخطی مخطط جو مصری نژاد امریکی خفیہ نگار
+    طاہر الجمل نے اپنے 1985 کے مقالے «عوامی کلیدی نظام اور گوشوار لوگارتھم پر مبنی
+    دستخطی مخطط» میں تجویز کیا: چکر گروہ میں ڈیفی-ہیلمن کلیدی تبادلے پر قائم، اس کی
+    حفاظت گوشوار لوگارتھم مسئلے کی دشواری پر ٹکی ہے، اور ہر پیغام کے لیے نئی عارضی
+    کلید استعمال ہوتی ہے؛ اس کا دستخطی مخطط NIST کے معیار DSA کی بنیاد بنا، اور خفیہ
+    نظام GNU Privacy Guard اور PGP کے نئے نسخوں میں استعمال ہوتا ہے {cite:wikipedia-elgamal-encryption-en}
+    {cite:wikipedia-taher-elgamal-en}۔'
+domain: modern-technology
+kind: algorithm
+disciplines:
+- mathematics
+- engineering
+wings:
+- ideas
+- made
+regions:
+- egypt-nile
+- americas-oceania
+periods:
+- period/contemporary-era
+themes:
+- mathematics
+- engineering-and-technology
+- science-today
+era:
+  origins: twentieth-century
+  first_attested:
+    edtf: '1985'
+    hijri: '1405'
+    calendar: gregorian
+    precision: year
+    status: historical
+    derived: true
+    note: The paper was published in IEEE Transactions on Information Theory, vol.
+      31 no. 4, July 1985, pp. 469-472, per the recorded biography's publication list
+      and the encryption article's date; the Hijri equivalent 1405 is a tabular derived
+      conversion.
+    sources:
+    - source/wikipedia-taher-elgamal-en
+    - source/wikipedia-elgamal-encryption-en
+    - source/elgamal-public-key-cryptosystem-1985
+  status_today: living
+origin:
+  place: place/california
+  context:
+    ar: 'سياق ستانفورد ومختبرات إتش بي في كاليفورنيا: الجمل أنهى دكتوراه الهندسة الكهربائية
+      في ستانفورد 1984 تحت إشراف مارتن هلمان — أحد آباء التشفير بمفتاح عمومي — وانضم
+      إلى الملاك الفني لمختبرات إتش بي عام 1984 حيث ظهرت الورقة المؤسسة بعد عام {cite:wikipedia-taher-elgamal-en}.'
+    en: 'The Stanford and HP Labs setting in California: Elgamal finished his electrical-engineering
+      doctorate at Stanford in 1984 under Martin Hellman — one of the fathers of public-key
+      cryptography — and joined the HP Labs technical staff in 1984, from which the
+      founding paper appeared a year later {cite:wikipedia-taher-elgamal-en}.'
+    ur: 'کیلیفورنیا میں سٹینفورڈ اور ایچ پی لیبز کا ماحول: الجمل نے 1984 میں مارتن
+      ہیلمن — عوامی کلیدی خفیہ نگاری کے بانیوں میں سے — کے تحت سٹینفورڈ سے برقی انجینئرنگ
+      کی ڈاکٹریٹ مکمل کی اور 1984 میں ایچ پی لیبز کے تکنیکی عملے میں شامل ہوئے، جہاں
+      سے ایک سال بعد بانی مقالہ سامنے آیا {cite:wikipedia-taher-elgamal-en}۔'
+makers:
+- person: person/taher-elgamal
+  role: describer
+  place: place/california
+  note: The sole author of the 1985 IEEE paper that proposed both the cryptosystem
+    and the signature scheme; the encryption article records him as its describer
+    and the schemes carry his name. The record credits him as inventor; the describer
+    role stands only because no two independent sources name a personal school, which
+    the museum rules require for the inventor role.
+  sources:
+  - source/wikipedia-taher-elgamal-en
+  - source/wikipedia-elgamal-encryption-en
+  - source/elgamal-public-key-cryptosystem-1985
+attribution:
+  status: original
+  claim:
+    ar: ينسب إليه وحده نظام التعمية ومخطط التوقيع الموسومان باسمه؛ بُنيا على تبادل
+      ديفي-هلمان القائم قبله، فالابتكار الموثق هو النظامان الجديدان لا مسألة اللوغاريتم
+      نفسها {cite:wikipedia-elgamal-encryption-en} {cite:wikipedia-taher-elgamal-en}.
+    en: He alone is credited with the encryption system and the signature scheme that
+      carry his name; both built on the pre-existing Diffie-Hellman exchange, so the
+      documented creation is the two schemes, not the logarithm problem itself {cite:wikipedia-elgamal-encryption-en}
+      {cite:wikipedia-taher-elgamal-en}.
+    ur: خفیہ نظام اور دستخطی مخطط کا سہرا انفرادی طور پر انھی کو ہے جن کے نام ان سے
+      جُڑے؛ دونوں پہلے سے موجود ڈیفی-ہیلمن تبادلے پر بنے، اس لیے مستند نیا کام دو
+      مخطط ہیں، خود لوگارتھم مسئلہ نہیں {cite:wikipedia-elgamal-encryption-en} {cite:wikipedia-taher-elgamal-en}۔
+  basis:
+    ar: تسميه المقالة الموثقة واصفَ النظام عام 1985، وتورد السيرةُ عنوانَ الورقة ومراجعتها
+      في IEEE Transactions on Information Theory مجلد 31 عدد 4 ⁦(يوليو 1985، ص 469-472)⁩،
+      وتذكر أن مخطط التوقيع أساس DSA معيار NIST {cite:wikipedia-elgamal-encryption-en}
+      {cite:wikipedia-taher-elgamal-en}.
+    en: The recorded encryption article names him as the system's 1985 describer,
+      and the biography lists the paper's title and venue — IEEE Transactions on Information
+      Theory vol. 31 no. 4 ⁦(July 1985, pp. 469-472)⁩ — and records that the signature
+      scheme underlies the NIST-standard DSA {cite:wikipedia-elgamal-encryption-en}
+      {cite:wikipedia-taher-elgamal-en}.
+    ur: محفوظ انکرپشن مضمون اسے 1985 میں نظام کا واضع لکھتا ہے، اور سوانح میں مقالے
+      کا عنوان اور جائیداد — IEEE Transactions on Information Theory جلد 31 شمارہ
+      4 ⁦(جولائی 1985، ص 469-472)⁩ — درج ہے، اور یہ بھی کہ دستخطی مخطط NIST معیار
+      DSA کی بنیاد ہے {cite:wikipedia-elgamal-encryption-en} {cite:wikipedia-taher-elgamal-en}۔
+  perspectives: []
+precursors:
+- external:
+    ar: تبادل مفاتيح ديفي-هلمان ⁦(1976)⁩
+    en: The Diffie-Hellman key exchange ⁦(1976)⁩
+    ur: ڈیفی-ہیلمن کلیدی تبادلہ ⁦(1976)⁩
+  note: Whitfield Diffie and Martin Hellman's 1976 key exchange opened public-key
+    cryptography; ElGamal's system is built directly on it — first establishing a
+    shared secret, then using it as a one-time pad.
+  sources:
+  - source/wikipedia-elgamal-encryption-en
+- external:
+    ar: مسألة اللوغاريتم المتقطع في الزمر الدائرية
+    en: The discrete logarithm problem in cyclic groups
+    ur: چکر گروہوں میں گوشوار لوگارتھم مسئلہ
+  note: 'The hardness assumption the system rests on: computing the exponent from
+    the public value is infeasible in a well-chosen cyclic group.'
+  sources:
+  - source/wikipedia-elgamal-encryption-en
+dependents:
+- external:
+    ar: خوارزمية التوقيع الرقمي DSA ومعيار التوقيع الرقمي DSS
+    en: The Digital Signature Algorithm ⁦(DSA)⁩ and the Digital Signature Standard
+    ur: ڈیجیٹل دستخطی الگورتھم ⁦(DSA)⁩ اور ڈیجیٹل دستخطی معیار
+  note: NIST adopted a variant of the ElGamal signature scheme as the Digital Signature
+    Standard — the most consequential descendant of the 1985 paper.
+  sources:
+  - source/wikipedia-taher-elgamal-en
+  - source/wikipedia-elgamal-encryption-en
+- external:
+    ar: GNU Privacy Guard وإصدارات PGP الحديثة
+    en: GNU Privacy Guard and recent PGP versions
+    ur: GNU Privacy Guard اور PGP کے نئے نسخے
+  note: ElGamal encryption is implemented in the free GNU Privacy Guard software and
+    in recent versions of PGP and other cryptosystems.
+  sources:
+  - source/wikipedia-elgamal-encryption-en
+- external:
+    ar: بروتوكولا SSL وTLS وتصفح HTTPS
+    en: The SSL and TLS protocols and HTTPS browsing
+    ur: SSL اور TLS پروٹوکول اور HTTPS براؤزنگ
+  note: As Netscape's chief scientist 1995-1998 Elgamal drove SSL, the basis of TLS
+    and HTTPS — his second documented contribution to the same field of secure communication.
+  sources:
+  - source/wikipedia-taher-elgamal-en
+spread: []
+impact:
+  fields:
+  - modern-technology
+  - mathematics
+  changed:
+    ar: 'جعل السرية العمومية قابلة للتنفيذ في برمجيات حرة: بريد مشفر وتوقيعات رقمية
+      تُثبت الهوية بلا لقاء مسبق، حتى صار أمان التجارة الإلكترونية مبنياً على هذه
+      المدرسة {cite:wikipedia-elgamal-encryption-en} {cite:wikipedia-taher-elgamal-en}.'
+    en: 'It made public-key secrecy practical in free software: encrypted mail and
+      digital signatures that prove identity without a prior meeting, until e-commerce
+      security was built on this school {cite:wikipedia-elgamal-encryption-en} {cite:wikipedia-taher-elgamal-en}.'
+    ur: 'اس نے آزاد سافٹ ویئر میں عوامی کلیدی رازداری کو عملی بنا دیا: خفیہ ڈاک اور
+      برقی دستخط جو پہلی ملاقات کے بغیر شناخت ثابت کریں، یہاں تک کہ ای کامرس کی حفاظت
+      اسی روایت پر بنی {cite:wikipedia-elgamal-encryption-en} {cite:wikipedia-taher-elgamal-en}۔'
+  history:
+    ar: 'من أوراق التشفير المؤسسة في القرن العشرين: أعطى العالم ثاني أسرة كبرى للمفتاح
+      العمومي بعد RSA، ووريثه القياسي DSA وقّع وثائق حكومات وبرامج لعقود {cite:wikipedia-taher-elgamal-en}
+      {cite:wikipedia-elgamal-encryption-en}.'
+    en: 'One of the founding papers of twentieth-century cryptography: it gave the
+      world a second great public-key family after RSA, and its standard descendant
+      DSA signed the documents of governments and software for decades {cite:wikipedia-taher-elgamal-en}
+      {cite:wikipedia-elgamal-encryption-en}.'
+    ur: 'بیسویں صدی کی خفیہ نگاری کے بانی مقالوں میں سے: RSA کے بعد دنیا کو عوامی
+      کلید کا دوسرا بڑا خاندان دیا، اور اس کی معیاری اولاد DSA نے دہائیوں تک حکومتوں
+      اور سافٹ ویئر کے دستاویزات پر دستخط کیے {cite:wikipedia-taher-elgamal-en} {cite:wikipedia-elgamal-encryption-en}۔'
+  significance: 4
+  why: The named public-key cryptosystem and signature scheme of an Egyptian-American
+    Muslim cryptographer — ancestor of the NIST digital-signature standard and still
+    running in GnuPG.
+described_in: []
+examples: []
+sites: []
+concepts: []
+today:
+  form:
+    ar: يعيش اليوم في GNU Privacy Guard وإصدارات PGP، وذريته المعيارية DSA؛ أما صاحبه
+      فقاد بناء SSL الذي يؤمّن التصفح كل يوم {cite:wikipedia-elgamal-encryption-en}
+      {cite:wikipedia-taher-elgamal-en}.
+    en: It lives on in GNU Privacy Guard and PGP versions and in its standard descendant
+      DSA, while its maker went on to drive SSL, the protocol securing daily browsing
+      {cite:wikipedia-elgamal-encryption-en} {cite:wikipedia-taher-elgamal-en}.
+    ur: یہ آج GNU Privacy Guard اور PGP کے نسخوں اور اپنی معیاری اولاد DSA میں جیتا
+      ہے، جبکہ اس کا موجد SSL کو آگے بڑھا چکا ہے جو روز کی براؤزنگ محفوظ کرتا ہے {cite:wikipedia-elgamal-encryption-en}
+      {cite:wikipedia-taher-elgamal-en}۔
+  descendants:
+    ar: التوقيعات البيضاوية الحديثة ⁦(ECDSA)⁩ حفيد الخط نفسه، وشبكة التوقيع الموثوق
+      وقّعت بها الأنظمة الحكومية والبرمجية عقوداً {cite:wikipedia-taher-elgamal-en}.
+    en: Modern elliptic-curve signatures ⁦(ECDSA)⁩ are grandchildren of the same line,
+      and the DSA standard signed government and software systems for decades {cite:wikipedia-taher-elgamal-en}.
+    ur: جدید elliptic-curve دستخط ⁦(ECDSA)⁩ اسی لکیر کی اولاد ہیں، اور DSA معیار نے
+      دہائیوں تک حکومتی اور سافٹ ویئر نظاموں پر دستخط کیے {cite:wikipedia-taher-elgamal-en}۔
+media:
+  image: media/diagram-taher-elgamal-cryptography
+  diagram: media/diagram-taher-elgamal-cryptography
+kids:
+  ar: 'طاهر الجمل عالم مصري كتب عام 1985 طريقة ذكية: تستطيع أن ترسل لصديقك رسالة سرية
+    لا يقرؤها غيره حتى لو رآها كل الناس، لأن حلّها يحتاج مسألة رياضية صعبة جداً لا
+    يعرف جوابها إلا هو. بهذه الفكرة نرسل اليوم رسائلنا الآمنة ونشتري من الإنترنت.'
+  en: 'Taher Elgamal is an Egyptian scientist who wrote a clever method in 1985: you
+    can send a friend a secret message that nobody else can read even if everyone
+    sees it, because solving it needs a very hard maths puzzle only your friend can
+    answer. With this idea we send safe messages and shop on the Internet today.'
+  ur: 'طاہر الجمل ایک مصری سائنسدان ہیں جنھوں نے 1985 میں ایک ہوشیار طریقہ لکھا: تم
+    اپنے دوست کو ایسا خفیہ پیغام بھیج سکتے ہو جو کوئی اور نہ پڑھ سکے چاہے سب دیکھ
+    لیں، کیونکہ اسے کھولنا ایک بہت مشکل ریاضی کا پہیلی مانگتا ہے جو صرف دوست حل کر
+    سکتا ہے۔ اسی خیال سے آج ہم محفوظ پیغامات بھیجتے اور انٹرنیٹ سے خریدتے ہیں۔'
+sources:
+- source/wikipedia-taher-elgamal-en
+- source/wikipedia-elgamal-encryption-en
+- source/elgamal-public-key-cryptosystem-1985
+status:
+  review: published
+  completeness: 2
+provenance:
+  layer: own-research
+  generated_by: devin-drafter-w2-33
+  model: devin
+  run: inventions-w2-33
+  source: English Wikipedia 'ElGamal encryption' revision 1373205550 (Diffie-Hellman
+    basis, cyclic-group security assumption, three phases, ephemeral key per message,
+    GnuPG/PGP use, DSA as signature-scheme variant) and 'Taher Elgamal' revision 1371999818
+    (1985 IEEE paper title/venue/pages, DSA-DSS basis, SSL/TLS/HTTPS at Netscape,
+    'father of SSL', Marconi 2019, NAE 2022); the 1985 paper itself is registered
+    bibliographic-only via the biography's publication list. ECDSA kinship in 'descendants'
+    is recorded as the standard account of the signature lineage.

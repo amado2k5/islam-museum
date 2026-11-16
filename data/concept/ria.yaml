@@ -1,0 +1,23 @@
+id: concept/ria
+class: concept
+kind: natural
+label:
+  ar: "رئة"
+  en: "Ria"
+  ur: "رئہ"
+summary:
+  ar: "الرئة في الكتاب غذاؤها قليل يميل إلى البلغمية وفيه نظر، وهي سهلة الانهضام وفيها عقل للبطن، ويذكر الكتاب أن رئة الجمل ورئة الخنزير تشفي سحج الخف، وأن رئة الثعلب إذا جففت وشربت نفعت من الربو {cite:canon-ibn-sina-print-v1 p.668}"
+  en: "Ria is in the book the lung, whose nourishment is little and inclines to the phlegmatic, with room for examination; it is easily digested and has a binding in it for the belly; the book reports that the lung of the camel and of the pig heal chafing from the sock, and that the lung of the fox, dried and drunk, benefits asthma {cite:canon-ibn-sina-print-v1 p.668}"
+  ur: "رئہ کتاب میں پھیپھڑا ہے، جس کی غذائیت کم ہے اور بلغمی کی طرف مائل ہے، اور اس میں غور کی گنجائش ہے؛ اس کا ہضم آسان ہے اور اس میں پیٹ کے لیے قبض ہے؛ کتاب روایت کرتی ہے کہ اونٹ اور خنزیر کا پھیپھڑا موزے کی رگڑ کے زخم کو ٹھیک کرتا ہے، اور لومڑی کا پھیپھڑا خشک کر کے پیا جائے تو دمے میں نافع ہے {cite:canon-ibn-sina-print-v1 p.668}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter ra (the twentieth chapter), scan page 668, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for doubtful headings; editor footnotes used only for identity; measured doses, weights, counts, times and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-27
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

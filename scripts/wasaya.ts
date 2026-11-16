@@ -1,4 +1,4 @@
-// The Testaments Browser's shared reads (docs/plan/61-wasaya-browser.md): «متصفح وصايا الأنبياء والمرسلين
+// The Testaments Browser's shared reads (docs/plan/62-wasaya-browser.md): «متصفح وصايا الأنبياء والمرسلين
 // والصالحين والأئمة والتابعين والخلفاء والصحابة قبل وفاتهم ومورثاتهم وأثرهم ومراقدهم» — which passage
 // records speak of the last testaments and parting counsels of the prophets, the caliphs, the Companions,
 // the Successors, the imams and the righteous, of their last hours, of what they left behind (estates and

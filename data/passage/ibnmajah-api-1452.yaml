@@ -1,0 +1,16 @@
+id: passage/ibnmajah-api-1452
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "1452"
+label: { ar: "سنن ابن ماجه 1452 — وصف المؤمن", en: "Sunan Ibn Majah 1452 — a description of the believer", ur: "سنن ابن ماجہ 1452 — مومن کا وصف" }
+text: "حَدَّثَنَا بَكْرُ بْنُ خَلَفٍ أَبُو بِشْرٍ، حَدَّثَنَا يَحْيَى بْنُ سَعِيدٍ، عَنِ الْمُثَنَّى بْنِ سَعِيدٍ، عَنْ قَتَادَةَ، عَنِ ابْنِ بُرَيْدَةَ، عَنْ أَبِيهِ، أَنَّ النَّبِيَّ ـ قَالَ \" الْمُؤْمِنُ يَمُوتُ بِعَرَقِ الْجَبِينِ \"."
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 1452، يذكر وصف المؤمن. يجمعه متصفح أركان الإسلام وأركان الإيمان وشعب الإيمان وخصال المؤمن مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في هذه الأبواب الأربعة."
+  en: "A report in Sunan Ibn Majah, no. 1452 (Chapters Regarding Funerals), that mentions a description of the believer. The Pillars and Branches of Faith Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on the pillars of Islam, the pillars of faith, the branches of faith and the traits of the believer."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 1452، جس میں مومن کا وصف کا ذکر ہے۔ ارکانِ اسلام، ارکانِ ایمان، شعبِ ایمان اور مومن کی خصلتوں کا براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/khisal-al-mumin, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 1452 (book 6 hadith 20); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "arkan-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: published, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

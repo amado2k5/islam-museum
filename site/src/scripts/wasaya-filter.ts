@@ -1,4 +1,4 @@
-// The Testaments Browser's filter (docs/plan/61-wasaya-browser.md): narrows the list as the
+// The Testaments Browser's filter (docs/plan/62-wasaya-browser.md): narrows the list as the
 // visitor types, matching titles, summaries, work names, topic names and text excerpts in all
 // three languages, ignoring Arabic vowel marks. Without JavaScript the whole list is on the page.
 const input = document.querySelector<HTMLInputElement>("[data-wasaya-filter]");

@@ -48,3 +48,6 @@ The pillars of Islam are five: to testify that there is no god but God and that 
 
 ## For Scholars
 The five acts on which Islam is built according to the sound hadith: the testimony that there is no god but God and that Muhammad is God's messenger, establishing prayer, paying zakat, fasting Ramadan, and the pilgrimage to the House for those able to make the journey. The pillars join the heart, the tongue and the body and the wealth. This order follows the well-known hadith of Ibn Umar in the two Sahihs. The details of each pillar differ among the schools of law, so each has its own entry. This entry gives what the hadith says without the detailed rulings.
+
+## In The Oxford Dictionary of Islam
+The Oxford Dictionary of Islam, edited by John L. Esposito, names the pillars arkan al-Islam, also arkan al-din, and lists five obligatory acts in this order: the shahada, the five daily prayers, zakat, the fast of Ramadan, and the hajj at least once in a lifetime. It adds that Sunnis and Shi'is agree on the essential details of carrying them out, and that in popular Sufi piety the pillars were taken inward as devotion: the shahada became a constant remembrance of God, dhikr, and the prayers a life of continuous prayer and meditation. {cite:oxford-dictionary-of-islam e1859}

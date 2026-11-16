@@ -1,4 +1,4 @@
-// The Testaments Browser's shared reads (docs/plan/61-wasaya-browser.md): every mention of the last testaments and
+// The Testaments Browser's shared reads (docs/plan/62-wasaya-browser.md): every mention of the last testaments and
 // parting counsels of the prophets, the caliphs, the Companions, the Successors, the imams and the righteous, of
 // their last hours, of what they left behind, of their relics and of their graves — plus the curated records about
 // them, all over the one graph. Qur'an verses come from the reviewed table in scripts/wasaya.ts; every other passage
@@ -44,7 +44,7 @@ export const wasayaItems: WasayaItem[] = realNodes
       || a.node.id.localeCompare(b.node.id, "en", { numeric: true });
   });
 
-// ---------- the timeline (docs/plan/61-wasaya-browser.md §4): the curated records that carry a date
+// ---------- the timeline (docs/plan/62-wasaya-browser.md §4): the curated records that carry a date
 /** The date a curated record is placed at on the timeline: a person's death, else the record's own start date. */
 const placedDate = (n: Node): any => n.data.date?.start ?? n.data.date ?? n.data.died ?? n.data.start ?? n.data.composed ?? n.data.made ?? n.data.floruit;
 /** The year of an EDTF date; an unspecified decade or century ("06XX") is placed at its start. A year before the common era is not placed. */

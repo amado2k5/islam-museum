@@ -1,0 +1,23 @@
+id: concept/qusus
+class: concept
+kind: natural
+label:
+  ar: "قسوس"
+  en: "Qusus"
+  ur: "قسوس"
+summary:
+  ar: "القسوس في الكتاب ثلاثة أصناف أسود وأبيض وأحمر، حريف قابض، ويخرج من أحدها اللاذن، وهو ضار للعصب، وينفع من القروح والصداع المزمن والسيلان من الأنف ومن الدوسنطاريا، ويذكر الكتاب فيه أيضا قولا في الطمث والحبل والجنين {cite:canon-ibn-sina-print-v1 pp.652-653}"
+  en: "Qusus is in the book of three kinds, black, white and red, acrid and astringent; one kind yields ladhan; it is harmful to the nerve, and benefits ulcers, chronic headache, flow from the nose and dysentery; the book also lists claims on it concerning menses, conception and the foetus {cite:canon-ibn-sina-print-v1 pp.652-653}"
+  ur: "قسوس کتاب میں تین قسموں کا ہے، سیاہ، سفید اور سرخ، تیز اور قابض؛ ان میں سے ایک سے لاذن نکلتا ہے؛ اعصاب کے لیے مضر ہے، اور قرحوں، پرانے سر درد، ناک کے بہاؤ اور پیچش میں نافع ہے؛ کتاب حیض، حمل اور جنین کے بارے میں بھی اس کے متعلق اقوال درج کرتی ہے {cite:canon-ibn-sina-print-v1 pp.652-653}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter qaf (the nineteenth chapter), scan pages 652, 653, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for doubtful headings; editor footnotes used only for identity; measured doses, weights, counts, times and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-26
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

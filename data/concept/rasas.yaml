@@ -1,0 +1,23 @@
+id: concept/rasas
+class: concept
+kind: natural
+label:
+  ar: "رصاص"
+  en: "Rasas"
+  ur: "رصاص"
+summary:
+  ar: "الرصاص في الكتاب يحيل إلى ما قيل في باب الأسرب ويقول إن هذا هو القلعي، أما الإسفيداج وأصناف اتخاذه فيؤجل ذكرها إلى الأقراباذين، وهو بارد رطب، ومحرقه فيه تلطيف وتليين وتحليل ويقطع الدم، وينفع القروح الخبيئة والساعية ويملأ القروح الغائرة لحما، وينفع من لسعة العقرب البحري والتنين البحري {cite:canon-ibn-sina-print-v1 p.668}"
+  en: "Rasas is in the book referred back to what was said in the chapter on usrub, and the book says that this is the qal'i; the isfidaj and its kinds of preparation are put off to the Aqrabadhin; it is cold and moist, its burnt form has a subtilising, softening and dissolving power and cuts blood, it benefits hidden and creeping ulcers and fills deep ulcers with flesh, and it benefits the sting of the sea scorpion and the sea dragon {cite:canon-ibn-sina-print-v1 p.668}"
+  ur: "رصاص کتاب میں اس بات کی طرف لوٹایا گیا ہے جو اسرب کے باب میں کہی گئی، اور کتاب کہتی ہے کہ یہ قلعی ہے؛ اسفیداج اور اس کے بنانے کی قسمیں اقرباذین کے لیے مؤخر ہیں؛ یہ ٹھنڈا اور تر ہے، اس کے جلائے ہوئے میں لطافت، نرمی اور تحلیل ہے اور خون کو روکتا ہے، پوشیدہ اور پھیلنے والے قرحوں میں نافع ہے اور گہرے قرحوں کو گوشت سے بھرتا ہے، اور سمندری بچھو اور سمندری اژدہے کے ڈنک میں نافع ہے {cite:canon-ibn-sina-print-v1 p.668}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter ra (the twentieth chapter), scan pages 668, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for doubtful headings; editor footnotes used only for identity; measured doses, weights, counts, times and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-28
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

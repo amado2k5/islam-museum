@@ -1,0 +1,23 @@
+id: concept/qust
+class: concept
+kind: natural
+label:
+  ar: "قسط"
+  en: "Qust (costus)"
+  ur: "قسط"
+summary:
+  ar: "القسط في الكتاب ثلاثة أصناف عربي أبيض وهندي أسود وشامي، حار في الثالثة يابس في الثانية، مرة حريفة قوية حتى إنه يقرح، ينفع كل عضو يحتاج إلى تسخين واجتذاب الخلط من عمقه، ويجلو الكلف، وينفع من استرخاء العضل وعرق النسا وليثرغس وأوجاع الصدر والنافض والنهوش كلها، ويدر البول ويخرج حب القرع والديدان {cite:canon-ibn-sina-print-v1 p.648}"
+  en: "Qust is in the book of three kinds, the white Arabian, the black Indian and the Syrian, hot in the third degree and dry in the second, of a bitter acrid quality so strong that it ulcerates; it benefits every organ that needs heating and the drawing of the humour from its depth, clears freckles, and benefits slackness of the muscles, sciatica, lethargy, pains of the chest, rigors and bites of every kind, and it induces urine and brings out tapeworm and worms {cite:canon-ibn-sina-print-v1 p.648}"
+  ur: "قسط کتاب میں تین قسم کا ہے، عربی سفید، ہندی سیاہ اور شامی، تیسرے درجے میں گرم اور دوسرے میں خشک، کڑوا اور تیز اس حد تک کہ زخم کر دیتا ہے؛ ہر اس عضو کے لیے نافع ہے جسے گرمی اور گہرائی سے خلط کھینچنے کی ضرورت ہو، جھائیاں صاف کرتا ہے، اور پٹھوں کی ڈھیلاہٹ، عرق النسا، لیثرغس، سینے کے دردوں، کپکپی اور ہر طرح کے کاٹنے میں نافع ہے، پیشاب لاتا اور کدو دانے اور کیڑے نکالتا ہے {cite:canon-ibn-sina-print-v1 p.648}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter qaf (the nineteenth chapter), scan pages 648, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for doubtful headings; editor footnotes used only for identity; measured doses, weights, counts and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-25
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

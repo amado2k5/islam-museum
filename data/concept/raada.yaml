@@ -1,0 +1,23 @@
+id: concept/raada
+class: concept
+kind: natural
+label:
+  ar: "رعادة"
+  en: "Raada"
+  ur: "رعّادہ"
+summary:
+  ar: "الرعادة في الكتاب سمكة مخدرة، وفي الحاشية أنها سمك من مسه خدرت يده وارتعدت، ويقال إنها إذا وضعت على رأس المصدوع أذهبت الصداع، ويرى جالينوس أنها تفعل ذلك وهي حية لا ميتة، وينقل عن بولس أن الدهن الذي تطبخ فيه يسكن أوجاع المفاصل الحديثة {cite:canon-ibn-sina-print-v1 p.669}"
+  en: "Raada is in the book a numbing fish, and the editor's note says it is a fish whose touch numbs the hand and makes it tremble; it is said that when it is laid on the head of one with a headache it takes the headache away, and Galen thinks it does so alive and not dead; and the book reports from Paul that the oil in which it is cooked soothes recent pains of the joints {cite:canon-ibn-sina-print-v1 p.669}"
+  ur: "رعادہ کتاب میں ایک سن کر دینے والی مچھلی ہے، اور حاشیے میں ہے کہ یہ ایسی مچھلی ہے جسے چھونے سے ہاتھ سن ہو جاتا اور کانپنے لگتا ہے؛ کہا گیا ہے کہ اسے سر درد والے کے سر پر رکھا جائے تو درد لے جاتی ہے، اور جالینوس کا خیال ہے کہ وہ زندہ ہونے کی حالت میں ایسا کرتی ہے، مردہ نہیں؛ اور کتاب پولس سے نقل کرتی ہے کہ جس تیل میں اسے پکایا جائے وہ نئے جوڑوں کے دردوں کو سکون دیتا ہے {cite:canon-ibn-sina-print-v1 p.669}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter ra (the twentieth chapter), scan pages 669, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for doubtful headings; editor footnotes used only for identity; measured doses, weights, counts, times and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-28
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

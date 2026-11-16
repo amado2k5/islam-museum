@@ -46,3 +46,6 @@ Since the late 1970s Kısakürek has been an icon for Turkish Islamists, and his
 ## References
 - The defined sources cited above, registered in `data/source/`.
 - Later translations and edits of this article require periodic review with clear update dates.
+
+## In The Oxford Dictionary of Islam
+The Oxford Dictionary of Islam describes Kisakurek, who died in 1983, as a Turkish poet, playwright and essayist, remembered today chiefly for his political ideology, and dates his periodical Great East (Buyuk Dogu) to 1943–78. {cite:oxford-dictionary-of-islam e1310}

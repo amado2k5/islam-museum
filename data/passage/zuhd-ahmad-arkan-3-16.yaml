@@ -1,0 +1,16 @@
+id: passage/zuhd-ahmad-arkan-3-16
+class: passage
+unit: chapter
+work: work/kitab-al-zuhd-ahmad-ibn-hanbal
+ref: "3:16"
+label: { ar: "الزهد لأحمد بن حنبل، المجلد المصوَّر 3، ص 16 — ما عُدّ من الإيمان", en: "Ahmad ibn Hanbal's Kitab al-Zuhd, scan volume 3, p. 16 — what is counted as part of faith", ur: "کتاب الزہد، احمد بن حنبل، اسکین جلد 3، ص 16 — جو ایمان میں سے گنا گیا" }
+text: "… حدثني أبي حدثنا عبد الرحمن بن مهدي حدثنا زهير يعني ابن محمد من صالح يعني ابن كيسان أن عبداللّه بن أبي أمامة أخبره أن أبا أمامة أخبره أن رسول اللّٰه متاتع قال البذاذة من الايمان، البداذة من الإيمان، البذاذة من …"
+summary:
+  ar: "مقطع من الزهد لأحمد بن حنبل، المجلد المصوَّر 3، ص 16، يذكر ما عُدّ من الإيمان؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح أركان الإسلام وأركان الإيمان وشعب الإيمان وخصال المؤمن."
+  en: "An excerpt from Ahmad ibn Hanbal's Kitab al-Zuhd, scan volume 3, p. 16, that mentions what is counted as part of faith; from the machine-read scan, quoted within forty words per the sources policy. The Pillars and Branches of Faith Browser lists it."
+  ur: "کتاب الزہد، احمد بن حنبل، اسکین جلد 3، ص 16 کا اقتباس جس میں جو ایمان میں سے گنا گیا کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ ارکانِ اسلام، ارکانِ ایمان، شعبِ ایمان اور مومن کی خصلتوں کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/shuab-al-iman, sources: [source/zuhd-ahmad-dkim-1983] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan adab-zuhd/zuhd-ahmad/880Pdf, page 16; a window of at most 40 words chosen by the pillars and branches of faith detector (scripts/arkan.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "arkan-ocr-1" }
+sources: [source/zuhd-ahmad-dkim-1983]
+status: { review: published, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words; the excerpt is machine-read and not corrected" }

@@ -1,0 +1,39 @@
+id: job/muwaqqit
+class: job
+label: { ar: "الموقّت", en: "Muwaqqit (mosque timekeeper)", ur: "موقّت" }
+names:
+  - { value: "muvakkit", kind: latinized, lang: tr }
+  - { value: "mîkātî", kind: latinized, lang: tr }
+  - { value: "ميقاتي", kind: alternate }
+summary:
+  ar: "الموقّت هو الموظف في المؤسسات الدينية الذي يعيّن الوقت — وقبل كل شيء أوقات الصلاة — بالشمس والقمر والنجوم، ويسمّى علمه علم الميقات؛ أما الفلكي الذي يعمل فيه بحثاً علمياً فيسمّى الميقاتي. وضع الفلكيون منذ القرن التاسع جداول «الأوقات الخمسة» لكل درجة طول وكل يوم من السنة وجداول تعيين القبلة، وبلغ هذا العمل ذروته في دمشق القرن الرابع عشر. وكان الموقّت يعمل في الموقّتخانه؛ ومن أشهر العثمانيين مصطفى بن علي الموقّت الذي خدم طويلاً موقّتاً بجامع السلطان سليم ثم صار منجّم باشياً، وكتب بالتركية رسائل آلات الفلك فصارت مراجع الموقّتين إلى آخر الدولة."
+  en: "The muwaqqit was the officer of the religious institution who fixed the times — above all the prayer times — by the sun, moon and stars; his science is ilm-i mikat, while the astronomer who pursued it as research was called mîkâtî. From the ninth century the astronomers prepared tables of the 'five times' (el-evkâtü'l-hamse) for every degree of longitude and every day of the year, together with qibla tables, and the work reached its height in fourteenth-century Damascus. The muwaqqit worked in the muvakkithane. The best-known Ottoman among them is Mustafa b. Ali el-Muvakkit, who served long as muvakkit of the Sultan Selim mosque before becoming müneccimbaşı, and whose Turkish treatises on the astronomical instruments became the muvakkits' handbooks to the end of the empire."
+  ur: "موقّت مذہبی ادارے کا وہ مامور تھا جو سورج، چاند اور ستاروں سے وقت — بالخصوص اوقاتِ نماز — مقرر کرتا تھا؛ اس کا علم علمِ میقات کہلایا، جبکہ اسے تحقیق کے طور پر کرنے والا فلکیات دان میقاتی کہا گیا۔ نویں صدی عیسوی سے فلکیات دانوں نے ہر درجۂ طول اور سال کے ہر دن کے لیے «پانچ اوقات» کے جدول اور قبلہ کے جدول بنائے، اور یہ کام چودہویں صدی کے دمشق میں اپنے عروج پر پہنچا۔ موقّت موقّت خانے میں کام کرتا تھا۔ مشہور عثمانی موقّت مصطفیٰ بن علی الموقّت ہے جو برسوں جامع سلطان سلیم کا موقّت رہا، پھر منجّم باشی بنا، اور جس کی ترکی میں لکھی فلکی آلات کی رسالیاں سلطنت کے آخر تک موقّتوں کی رہنما کتابیں رہیں۔"
+domain: sciences-numbers
+kind: religious
+hirfa: false
+era:
+  origins: early-caliphate
+  status_today: transformed
+places:
+  - { place: place/damascus, note: "The preparation of prayer-time and qibla tables reached its highest level in Damascus in the eighth Hijri (fourteenth) century.", sources: [source/tdv-ilm-i-mikat] }
+  - { place: place/istanbul, note: "Mustafa b. Ali served for long years as muvakkit of the Sultan Selim mosque — hence his nisba Selimi — and surviving muvakkithane buildings stand at the Dolmabahçe, Yenicami, Yeni Vâlide and Beylerbeyi mosques.", sources: [source/tdv-mustafa-b-ali-el-muvakkit, source/tdv-muvakkithane] }
+regions: [levant-iraq, egypt-nile, anatolia-balkans, persia-central-asia]
+organization:
+  organized: court-office
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people, living]
+periods: [period/abbasid-early, period/crusades-ayyubid-mamluk, period/gunpowder-empires, period/modern-era]
+sources: [source/tdv-ilm-i-mikat, source/tdv-muvakkithane, source/tdv-mustafa-b-ali-el-muvakkit]
+training:
+  mode: ijaza-chain
+  certification: "No licence for the muvakkit is described in the entries read. Mustafa b. Ali took the traditional madrasa education and lessons in mathematics and astronomy from Mîrim Çelebi and the leading scholars of his day before his long muvakkitlik at the Sultan Selim mosque; the muvakkits' own handbooks — his Teshîlü'l-mîkāt on the rubu' board, the Risâle-i Mukantarât, the Risâle-i Usturlâb-i Selîmî — passed the craft on in Turkish."
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-sci-1" }
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi: 'İLM-i MÎKĀT' (M. Helvacı & Y. Unat, 2000; vol. 22 pp. 133-134), 'MUSTAFA b. ALİ el-MUVAKKİT' (İ. Fazlıoğlu, 2020; vol. 31 pp. 287-288) and the web page 'MUVAKKİTHÂNE' (marked as being updated), all read on the web on 16 Nov 2026"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-sci-1-drafting"

@@ -1,0 +1,16 @@
+id: passage/muslim-api-7099
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "7099"
+label: { ar: "صحيح مسلم 7099 — مَثَل المؤمن", en: "Sahih Muslim 7099 — the likeness of the believer", ur: "صحیح مسلم 7099 — مومن کی مثال" }
+text: "… عَنْ مُجَاهِدٍ، عَنِ ابْنِ عُمَرَ، قَالَ قَالَ رَسُولُ اللَّهِ يَوْمًا لأَصْحَابِهِ \" أَخْبِرُونِي عَنْ شَجَرَةٍ مَثَلُهَا مَثَلُ الْمُؤْمِنِ \". فَجَعَلَ الْقَوْمُ يَذْكُرُونَ شَجَرًا مِنْ شَجَرِ الْبَوَادِي. قَالَ ابْنُ عُمَرَ وَأُلْقِيَ فِي نَفْسِي أَوْ رُوعِيَ أَنَّهَا النَّخْلَةُ فَجَعَلْتُ أُرِيدُ أَنْ أَقُولَهَا فَإِذَا أَسْنَانُ الْقَوْمِ فَأَهَابُ أَنْ أَتَكَلَّمَ فَلَمَّا سَكَتُوا قَالَ رَسُولُ اللَّهِ \" هِيَ النَّخْلَةُ \"."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 7099، يذكر مَثَل المؤمن. يجمعه متصفح أركان الإسلام وأركان الإيمان وشعب الإيمان وخصال المؤمن مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في هذه الأبواب الأربعة."
+  en: "A report in Sahih Muslim, no. 7099 (Characteristics of the Day of Judgment, Paradise, and Hell), that mentions the likeness of the believer. The Pillars and Branches of Faith Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on the pillars of Islam, the pillars of faith, the branches of faith and the traits of the believer."
+  ur: "صحیح مسلم کی حدیث نمبر 7099، جس میں مومن کی مثال کا ذکر ہے۔ ارکانِ اسلام، ارکانِ ایمان، شعبِ ایمان اور مومن کی خصلتوں کا براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/khisal-al-mumin, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 7099 (book 52 hadith 53); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "arkan-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: published, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

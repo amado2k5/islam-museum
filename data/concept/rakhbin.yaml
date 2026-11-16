@@ -1,0 +1,23 @@
+id: concept/rakhbin
+class: concept
+kind: natural
+label:
+  ar: "رخبين"
+  en: "Rakhbin"
+  ur: "رخبین"
+summary:
+  ar: "الرخبين في الكتاب قال ابن ماسويه إنه حار يابس في الثانية رديء الخلط جيد للمعدة الحارة، ويلين البطن إن احتمل منه شياف، وغذاؤه بطيء الانهضام جدا {cite:canon-ibn-sina-print-v1 p.669}"
+  en: "Rakhbin is in the book, Ibn Masawayh said, hot and dry in the second degree, poor in its humour and good for the hot stomach; it softens the belly if a suppository of it is taken, and its nourishment is very slow to digest {cite:canon-ibn-sina-print-v1 p.669}"
+  ur: "رخبین کتاب میں ہے؛ ابن ماسویہ نے کہا کہ یہ دوسرے درجے میں گرم خشک ہے، اس کا خلط ناقص ہے اور گرم معدے کے لیے اچھا ہے؛ اس کی بتی لی جائے تو پیٹ کو نرم کرتا ہے، اور اس کی غذا بہت دیر میں ہضم ہوتی ہے {cite:canon-ibn-sina-print-v1 p.669}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter ra (the twentieth chapter), scan pages 669, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for doubtful headings; editor footnotes used only for identity; measured doses, weights, counts, times and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-28
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

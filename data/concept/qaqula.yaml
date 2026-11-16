@@ -1,0 +1,23 @@
+id: concept/qaqula
+class: concept
+kind: natural
+label:
+  ar: "قاقلة"
+  en: "Qaqula (cardamom)"
+  ur: "قاقلة"
+summary:
+  ar: "القاقلة في الكتاب كبار وصغار، والكبار كالجوزة الصغيرة سوداء تتفرك عن حب أبيض يحذو اللسان عطري، والصغار كالقرنفل في الشكل، حارة يابسة في الثالثة قابضة، تنفع من القيء والغثيان وتقوي المعدة {cite:canon-ibn-sina-print-v1 pp.642-643}"
+  en: "Qaqula is in the book large and small, the large like a small nut, black, crumbling from a white grain that stings the tongue and is aromatic, the small like the clove in shape; hot and dry in the third degree, astringent, benefiting vomiting and nausea and strengthening the stomach {cite:canon-ibn-sina-print-v1 pp.642-643}"
+  ur: "قاقلہ کتاب میں بڑے اور چھوٹے ہیں، بڑے چھوٹے اخروٹ جیسے کالے جو سفید دانے سے الگ ہو جاتے ہیں، زبان کو چبھتے اور خوشبودار، اور چھوٹے شکل میں قرنفل جیسے؛ تیسرے درجے میں گرم خشک، قابض، قے اور متلی میں نافع اور معدے کو قوت دینے والا {cite:canon-ibn-sina-print-v1 pp.642-643}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter qaf (the nineteenth chapter), scan pages 642 to 643, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for doubtful headings; editor footnotes used only for identity; measured doses, weights, counts and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-25
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

@@ -1,0 +1,23 @@
+id: concept/ribas
+class: concept
+kind: natural
+label:
+  ar: "ريباس"
+  en: "Ribas"
+  ur: "ریباس"
+summary:
+  ar: "الريباس في الكتاب نبات ينبت في الربيع على الجبل وله قوة حماض الأترج والحصرم، بارد يابس في الثانية، مطفئ قاطع للدم مسكن للحرارة، ينفع من الطاعون ويحد البصر إذا اكتحل بعصارته، وينفع من الإسهال الصفراوي ومن الحصبة والجدري والطاعون {cite:canon-ibn-sina-print-v1 pp.667-668}"
+  en: "Ribas is in the book a plant that grows in spring on the mountain, with the power of the sourness of the citron and of the unripe grape, cold and dry in the second degree, quenching, cutting blood and calming heat; it benefits plague, sharpens sight when used as kohl with its juice, and benefits bilious diarrhoea and measles, smallpox and plague {cite:canon-ibn-sina-print-v1 pp.667-668}"
+  ur: "ریباس کتاب میں ایک پودا ہے جو بہار میں پہاڑ پر اگتا ہے اور اس میں ترنج اور کچے انگور کی کھٹاس کی قوت ہے، دوسرے درجے میں ٹھنڈا خشک، بجھانے والا، خون کو روکنے والا اور حرارت کو سکون دینے والا؛ طاعون میں نافع ہے، اس کے عرق کا سرمہ لگانے پر بینائی تیز کرتا ہے، اور صفراوی اسہال اور خسرہ، چیچک اور طاعون میں نافع ہے {cite:canon-ibn-sina-print-v1 pp.667-668}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter ra (the twentieth chapter), scan pages 667-668, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for doubtful headings; editor footnotes used only for identity; measured doses, weights, counts, times and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-27
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

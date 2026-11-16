@@ -1,0 +1,23 @@
+id: concept/tamr-hindi
+class: concept
+kind: natural
+label:
+  ar: "تمر هندي"
+  en: "Tamr hindi"
+  ur: "تمر ہندی"
+summary:
+  ar: "تمر هندي في الكتاب معروف يؤتى به من الهند، أفضله الحديث الطري الذي لم يذبل ولم يتحشف وحموضته صادقة، بارد يابس في الثانية، مسهل ألطف من الإجاص وأقل رطوبة، ينفع من القيء والعطش في الحميات ويقبض المعدة المسترخية من كثرة القيء، ويسهل الصفراء، وينفع من الحميات ذات الغشي والكرب {cite:canon-ibn-sina-print-v1 p.686}"
+  en: "Tamr hindi is in the book well known and brought from India; the best is the new, fresh one that has not withered or shrivelled and whose sourness is true; cold and dry in the second degree, a purgative subtler than the ijjas and less moist; it benefits vomiting and the thirst in fevers and tightens the stomach slackened by much vomiting, it loosens yellow bile, and it benefits fevers with fainting and distress {cite:canon-ibn-sina-print-v1 p.686}"
+  ur: "تمر ہندی کتاب میں معروف ہے اور ہندوستان سے لایا جاتا ہے؛ سب سے اچھا نیا تازہ ہے جو مرجھایا نہ ہو اور سکڑا نہ ہو اور جس کی کھٹاس سچی ہو؛ دوسرے درجے میں سرد خشک ہے، اجاص سے زیادہ لطیف اور کم تر تری والا مسہل؛ قے اور بخاروں کی پیاس میں نافع ہے اور بہت قے سے ڈھیلے ہو جانے والے معدے کو سکیڑتا ہے، صفرا کو خارج کرتا ہے، اور غشی اور بے چینی والے بخاروں میں نافع ہے {cite:canon-ibn-sina-print-v1 p.686}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, scan pages 686, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for doubtful headings; editor footnotes used only for identity; measured doses, weights, counts, times and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-29
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

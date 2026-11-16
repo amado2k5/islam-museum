@@ -29,6 +29,7 @@ import { IBADAT_TAG, ibadatCorpusOf, ibadatKindOf, ibadatSignalsOf, ibadatTagSec
 import { NUBUWAT_TAG, nubuwatCorpusOf, nubuwatTagSection, nubuwatTagTopics, isNubuwatPassage, nubuwatTopicsOf } from "./nubuwat.js";
 import { SAYYIAT_TAG, sayyiatCorpusOf, sayyiatKindOf, sayyiatSignalsOf, sayyiatTagSection, isSayyiatPassage, type SayyiatKind } from "./sayyiat.js";
 import { HALAL_TAG, halalCorpusOf, halalKindOf, halalSignalsOf, halalSubjectsOf, halalTagSection, isHalalPassage } from "./halal.js";
+import { ARKAN_TAG, arkanCorpusOf, arkanSignalsOf, arkanTopicsOf, isArkanPassage } from "./arkan.js";
 import { HUDUD_TAG, hududCorpusOf, hududKindOf, hududSignalsOf, hududTagSection, isHududPassage } from "./hudud.js";
 import { HISAB_TAG, hisabCorpusOf, hisabKindsOf, hisabSignalsOf, isHisabPassage, reckoningOf } from "./hisab.js";
 import { HASANAT_TAG, hasanatCorpusOf, hasanatKindOf, hasanatSignalsOf, hasanatTagSection, isHasanatPassage, type HasanatKind } from "./hasanat.js";
@@ -443,7 +444,7 @@ const FEATURE_EXPORTS: { file: string; feature: string; pick: (n: Node) => boole
       topics: n.class === "passage" ? [...new Set([...qiraatTopicsOf(n), ...qiraatTagTopics(n)])] : qiraatTagTopics(n),
     }) },
   { file: "wasaya.json", feature: "wasaya-browser",
-    // testaments, last hours, estates, relics and graves (docs/plan/61-wasaya-browser.md): the same records the page shows
+    // testaments, last hours, estates, relics and graves (docs/plan/62-wasaya-browser.md): the same records the page shows
     pick: (n) => n.tags.includes(WASAYA_TAG) || isWasayaPassage(n),
     fields: ["kind", "work", "ref", "unit", "text", "sura", "aya", "date", "wings", "themes", "tags"],
     extra: (n, ef, byId) => ({
@@ -505,6 +506,17 @@ const FEATURE_EXPORTS: { file: string; feature: string; pick: (n: Node) => boole
       // what the lawful or unlawful is about: food, drink, earnings, marriage-family … `other` when no subject word matched
       subjects: halalSubjectsOf(n),
       signals: n.class === "passage" ? halalSignalsOf(n) : [],
+    }) },
+  { file: "arkan.json", feature: "arkan-browser",
+    pick: (n) => n.tags.includes(ARKAN_TAG) || isArkanPassage(n),
+    fields: ["kind", "work", "ref", "unit", "text", "sura", "aya", "wings", "themes", "tags"],
+    extra: (n, ef, byId) => ({
+      section: n.class === "passage"
+        ? arkanCorpusOf(n.data.work as string | undefined, byId?.get(n.data.work as string)?.data.genre as string[] | undefined, n.data.unit as string | undefined)
+        : "curated",
+      // the themes the record belongs to: islam (pillars of Islam), iman (pillars of faith), shuab (branches of faith), khisal (traits of the believer)
+      topics: arkanTopicsOf(n),
+      signals: n.class === "passage" ? arkanSignalsOf(n) : [],
     }) },
   { file: "hudud.json", feature: "hudud-browser",
     pick: (n) => n.tags.includes(HUDUD_TAG) || isHududPassage(n),

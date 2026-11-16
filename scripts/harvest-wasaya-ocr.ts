@@ -3,7 +3,7 @@
  * caliphs, the Companions, the Successors, the imams and the righteous, of their last hours, of what
  * they left behind, of their relics and of their graves, from books already OCR'd on the harvest
  * drive (Apple Vision text in <book>/<scan>/pages.json) into data/passage/, for the Testaments
- * Browser (docs/plan/61-wasaya-browser.md). Adapted from scripts/harvest-qiraat-ocr.ts with the
+ * Browser (docs/plan/62-wasaya-browser.md). Adapted from scripts/harvest-qiraat-ocr.ts with the
  * same safety rules. No PDF, OCR text or page image enters git: only an excerpt of at most 40
  * words per page, cited to the work and the scan page (docs/sources-policy.md).
  *

@@ -1,0 +1,23 @@
+id: concept/shih
+class: concept
+kind: natural
+label:
+  ar: "شيح"
+  en: "Shih"
+  ur: "شیح"
+summary:
+  ar: "الشيح في الكتاب جنسان رومي وتركي، وينقل عن ديسقوريدوس أن من الناس من يسميه ساريقون ومنهم من يسميه الأفسنتين البحري، وأجوده الأرمني، حار في الثانية يابس في الثالثة، مقطع محلل للرياح، وفيه قبض دون قبض الأفسنتين، ورماده بزيت أو دهن اللوز طلاء نافع من داء الثعلب، ويكمد بمائه الرمد، وهو ضار بالمعدة، ويخرج الديدان وحب القرع، وينفع من لسع العقارب والرتيلاء، ويذكر الكتاب نقلا موسوما أنه يدر الطمث {cite:canon-ibn-sina-print-v1 p.673}"
+  en: "Shih is in the book of two kinds, Rumi and Turkish; the book reports from Dioscorides that some people call it sariqun and some call it the sea absinthe; the best is the Armenian; it is hot in the second degree and dry in the third, cutting and dissolving winds, with an astringency less than that of absinthe; its ash with oil or oil of almond is a beneficial smear for alopecia, its water is applied warm to ophthalmia, it harms the stomach, it expels worms and the tapeworm, and it benefits the stings of scorpions and the tarantula; and the book lists, as a labelled report, that it brings on the menses {cite:canon-ibn-sina-print-v1 p.673}"
+  ur: "شیح کتاب میں دو جنس کا ہے، رومی اور ترکی؛ کتاب دیسقوریدوس سے نقل کرتی ہے کہ بعض لوگ اسے ساریقون کہتے ہیں اور بعض اسے سمندری افسنتین کہتے ہیں؛ سب سے اچھا ارمنی ہے؛ دوسرے درجے میں گرم اور تیسرے میں خشک ہے، ہواؤں کو کاٹنے اور تحلیل کرنے والا، اس میں افسنتین سے کم قبض ہے؛ اس کی راکھ زیتون کے تیل یا بادام کے تیل کے ساتھ داء الثعلب میں نافع لیپ ہے، اس کے پانی سے آشوبِ چشم میں سینک کیا جاتا ہے، معدے کو نقصان دیتا ہے، کیڑوں اور کدو دانے کو نکالتا ہے، اور بچھوؤں اور رتیلا کے ڈنک میں نافع ہے؛ اور کتاب منقول فہرست کے طور پر درج کرتی ہے کہ یہ حیض جاری کرتا ہے {cite:canon-ibn-sina-print-v1 p.673}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter shin (the twenty-first chapter), scan pages 673, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for doubtful headings; editor footnotes used only for identity; measured doses, weights, counts, times and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-28
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

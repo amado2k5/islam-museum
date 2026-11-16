@@ -1,0 +1,43 @@
+id: job/mutawwif
+class: job
+label: { ar: "المطوّف", en: "Pilgrims' guide (mutawwif)", ur: "مطوّف" }
+names:
+  - { value: "مطوّف", kind: alternate }
+  - { value: "mutavvif", kind: latinized, lang: tr }
+  - { value: "دليل", kind: alternate }
+  - { value: "معلّم", kind: alternate }
+  - { value: "شيخ الحاج", kind: alternate }
+summary:
+  ar: "المطوّف مرشد الحجاج في مكة: يعنى بمساكنهم وطعامهم وصحّتهم ويعينهم على إتمام أركان الحج. صارت مهنة مغرية لأهل مكة لما يدفعه الوافدون، فاخذتها أسراً كثيرة قوتاً لها، ونظّم المطوّفون أنفسهم في طوائف مغلقة لكلٍّ منها شيخ مطوّفين معيّن، وعلى الجميع شيخ مشايخ يختاره الشيوخ. دخل الصبيّ الصنعة قيراقاً، ولمّا خبر الطريق أُدخل المهنة بمراسمٍ ووليمة «المعلمية»، ولبس المطوّف عمامة صفراء كبيرة وحزاماً عريضاً ورفع لواءً ملوّناً ليراه حجّاجه في الزحام ويكرّر لهم الدعاءات في كل شوط."
+  en: "The mutawwif guided the pilgrims of Mecca: he saw to their lodging, food and health and helped them carry out the rites of the hajj. The fees pilgrims paid made the trade attractive to the people of Mecca, certain families took it up for a living, and a profession formed. The mutavvifs organised themselves in closed groups called taifes, each under an appointed shaykh al-mutavvifin, with a shaykh al-mashayikh chosen by the shaykhs over all. A boy entered as an apprentice, and after experience he was admitted to the craft in a ceremony recalling the akhi initiation, sealed by the 'muallimiye' feast he gave; on duty he wore a great yellow turban and a broad sash and carried a coloured banner on a staff so his pilgrims could find him in the crush, repeating the prayers of each circuit for them."
+  ur: "مطوّف مکہ آنے والے حاجیوں کا رہنما تھا: ان کی رہائش، خوراک اور صحت کا خیال رکھتا اور حج کے ارکان کی تکمیل میں مدد دیتا۔ حاجیوں کی ادا کی ہوئی رقوم نے اس صنعت کو مکّیوں کے لیے پرکشش بنا دیا، بعض خاندانوں نے اسے روزی کا ذریعہ بنایا اور ایک پیشہ ور طبقہ وجود میں آیا۔ مطوّف بند طائفوں میں بٹے تھے، ہر طائفے کے سر پر مقرر کردہ شیخ المطوّفین اور سب کے اوپر شیخوں کا چنا ہوا شیخ المشائخ۔ لڑکا چیراغی سے صنعت میں داخل ہوتا، تجربے کے بعد اہلیت کی رسومات اور «معلمیہ» ضیافت کے ساتھ پیشے میں داخل ہوتا، اور فرض پر وہ بڑی زرد پگڑی، چوڑا کمر بند اور ڈنڈے پر رنگین علم لے کر حاجیوں کے سامنے چلتا اور ہر شوط کے دعائے ان سے دُہراتا۔"
+domain: trade-travel-sea
+kind: service
+hirfa: true
+craft:
+  materials: []
+era:
+  origins: medieval
+  status_today: transformed
+places:
+  - { place: place/mecca, note: "The mutavwifs were a Meccan profession organised in taifes under a shaykh al-mutavvifin, with a shaykh al-mashayikh over the whole body; each legal school once had its own mutavwifs.", sources: [source/tdv-mutavvif] }
+  - { place: place/jeddah, note: "The vekils were the mutavwifs' agents at Jeddah: they met the pilgrims at the port, helped with customs and saw them carried up to Mecca and back again.", sources: [source/tdv-mutavvif] }
+  - { place: place/medina, note: "In Medina the pilgrims were attended by delils; those who took them round the visiting-places were called müzevvir.", sources: [source/tdv-mutavvif] }
+regions: [arabia]
+organization:
+  organized: guild
+workplaces: []
+outputs: []
+wings: [people, living]
+periods: [period/crusades-ayyubid-mamluk, period/mongol-post-mongol, period/gunpowder-empires, period/colonial-era, period/contemporary-era]
+sources: [source/tdv-mutavvif]
+training:
+  mode: apprenticeship
+  certification: "The boy entered the trade as an apprentice in childhood; after a season of experience he was admitted to the profession before the assembled mutavwifs in a ceremony like the akhi passing from apprentice to master, and the new member closed the day by giving the 'muallimiye' feast. A 1965 Saudi circular asked that hajj servants be chosen for sound body and age, adequate knowledge and kindness to pilgrims; in later years the government fixed the mutavwifs' fees."
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-trade-1" }
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi 'MUTAVVİF' (Bozkurt, 2020; vol. 31 pp. 382-383), read on the web on 16 Nov 2026"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-trade-1-drafting"

@@ -1,0 +1,23 @@
+id: concept/rubyan
+class: concept
+kind: natural
+label:
+  ar: "روبيان"
+  en: "Rubyan"
+  ur: "روبیان"
+summary:
+  ar: "الروبيان في الكتاب قال جالينوس إن حاله كحال السرطان، وقال ماسرجويه إنه حار رطب باعتدال قبل أن يملح، وإذا ملح وعتق ولد سوداء وحكة رديئة، وهو يحلل الأورام الصلبة ويغذو غذاء صالحا ويلين البطن ويستفرغ حب القرع، ويذكر الكتاب نقلا موسوما أثره في المني والباه {cite:canon-ibn-sina-print-v1 p.669}"
+  en: "Rubyan is in the book, Galen said, in the same state as the crab, and Masarjawayh said it is hot and moist in moderation before it is salted, while salted and aged it engenders black bile and a bad itch; it dissolves hard swellings, nourishes well, softens the belly and drives out the tapeworm; and the book lists, as a labelled report, its effect on semen and desire {cite:canon-ibn-sina-print-v1 p.669}"
+  ur: "روبیان کتاب میں ہے؛ جالینوس نے کہا کہ اس کا حال کیکڑے کے حال جیسا ہے، اور ماسرجویہ نے کہا کہ نمک لگانے سے پہلے یہ اعتدال کے ساتھ گرم تر ہے، اور نمک لگا کر پرانا کر دیا جائے تو سودا اور بری کھجلی پیدا کرتا ہے؛ یہ سخت ورموں کو تحلیل کرتا ہے، اچھی غذا دیتا ہے، پیٹ کو نرم کرتا ہے اور کدو دانے کو نکالتا ہے؛ اور کتاب منقول فہرست کے طور پر اس کا اثر منی اور باہ پر درج کرتی ہے {cite:canon-ibn-sina-print-v1 p.669}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter ra (the twentieth chapter), scan pages 669, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for doubtful headings; editor footnotes used only for identity; measured doses, weights, counts, times and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-28
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

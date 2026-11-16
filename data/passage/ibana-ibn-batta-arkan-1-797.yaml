@@ -1,0 +1,16 @@
+id: passage/ibana-ibn-batta-arkan-1-797
+class: passage
+unit: chapter
+work: work/ibana-al-kubra-ibn-batta
+ref: "1:797"
+label: { ar: "الإبانة الكبرى لابن بطة، كتاب الإيمان، المجلد المصوَّر 1، ص 797 — السؤال عن الإيمان وجوابه، ركن من أركان الإيمان", en: "Ibn Batta's al-Ibana al-Kubra, the Book of Faith, scan volume 1, p. 797 — the question about faith and its answer; one of the articles of faith", ur: "الابانۃ الکبریٰ، ابن بطہ، کتاب الایمان، اسکین جلد 1، ص 797 — ایمان کے بارے میں سوال اور اس کا جواب، ایمان کا ایک رکن" }
+text: "… المثنى، قال: حدثنا محمد بن جعفر، قال: حدثنا شعبة، عن أبي جمرة، عن ابن عباس أن وفد عبد القيس أتوا النبي علي فأمرهم بأربع ونهاهم عن أربع: أمرهم بالإيمان بالله وحده وقال: هل تدرون ما الإيمان؟ قالوا : اللّٰه ورسوله …"
+summary:
+  ar: "مقطع من الإبانة الكبرى لابن بطة، كتاب الإيمان، المجلد المصوَّر 1، ص 797، يذكر السؤال عن الإيمان وجوابه، وركن من أركان الإيمان؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح أركان الإسلام وأركان الإيمان وشعب الإيمان وخصال المؤمن."
+  en: "An excerpt from Ibn Batta's al-Ibana al-Kubra, the Book of Faith, scan volume 1, p. 797, that mentions the question about faith and its answer, one of the articles of faith; from the machine-read scan, quoted within forty words per the sources policy. The Pillars and Branches of Faith Browser lists it."
+  ur: "الابانۃ الکبریٰ، ابن بطہ، کتاب الایمان، اسکین جلد 1، ص 797 کا اقتباس جس میں ایمان کے بارے میں سوال اور اس کا جواب، ایمان کا ایک رکن کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ ارکانِ اسلام، ارکانِ ایمان، شعبِ ایمان اور مومن کی خصلتوں کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/arkan-al-iman, sources: [source/ibana-kubra-muti-iman] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan sunnah-aqeedah/ibana-ibn-batta/01-02-110472_202207, page 797; a window of at most 40 words chosen by the pillars and branches of faith detector (scripts/arkan.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "arkan-ocr-1" }
+sources: [source/ibana-kubra-muti-iman]
+status: { review: published, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words; the excerpt is machine-read and not corrected" }

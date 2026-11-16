@@ -1,0 +1,23 @@
+id: concept/taranjabin
+class: concept
+kind: natural
+label:
+  ar: "ترنجبين"
+  en: "Taranjabin"
+  ur: "ترنجبین"
+summary:
+  ar: "ترنجبين في الكتاب طل أكثر ما يسقط بخراسان وما وراء النهر وأكثر وقوعه في بلاد المؤلف على الحاج، أجوده الطري الأبيض، معتدل إلى الحرارة، مليّن صالح للجلاء، ينفع من السعال ويليّن الصدر ويسكن العطش ويسهل الصفراء برفق وإسهاله بخاصية فيه {cite:canon-ibn-sina-print-v1 p.687}"
+  en: "Taranjabin is in the book a dew that falls mostly in Khurasan and Transoxiana and falls mostly in the author's own lands on al-hajj; the best is the fresh white; moderate tending to heat, softening and good for cleansing; it benefits cough, softens the chest, calms thirst and loosens yellow bile gently, its loosening being by a property in it {cite:canon-ibn-sina-print-v1 p.687}"
+  ur: "ترنجبین کتاب میں ایک اوس ہے جو زیادہ تر خراسان اور ماوراء النہر میں گرتی ہے اور مصنف کے اپنے علاقوں میں زیادہ تر الحاج پر؛ سب سے اچھا تازہ سفید ہے؛ حرارت کی طرف معتدل، نرم کرنے والا اور جلا کے لیے موزوں؛ کھانسی میں نافع ہے، سینے کو نرم کرتا ہے، پیاس کو سکون دیتا ہے اور صفرا کو نرمی سے خارج کرتا ہے، اور اس کا اسہال اس میں موجود ایک خاصیت سے ہے {cite:canon-ibn-sina-print-v1 p.687}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, scan pages 687, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for doubtful headings; editor footnotes used only for identity; measured doses, weights, counts, times and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-29
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

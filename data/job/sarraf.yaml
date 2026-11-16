@@ -1,0 +1,44 @@
+id: job/sarraf
+class: job
+label: { ar: "الصرّاف", en: "Money-changer (sarraf)", ur: "صرّاف" }
+names:
+  - { value: "صرّاف", kind: alternate }
+  - { value: "sarraf", kind: latinized, lang: tr }
+  - { value: "صيرفي", kind: alternate }
+  - { value: "نقّاد", kind: alternate }
+  - { value: "وزّان", kind: alternate }
+summary:
+  ar: "الصرّاف هو من يبيع الذهب بالفضة ويعرف درجة صفائهما وما يقابلانه، فيزنهما بموازين دقيقة ويبدل بينهما بأجر؛ وكان الصرّافون في أسواق المدينة منذ عصر الهجرة، وتوسّعت مهنتهم حتى صاروا في العهد العثماني عصب المالية: يشترون النقد ويبيعونه، ينقلون الأموال ويحفظونها، يقرضون رجال الدولة، ويشغّلون أموال الأوقاف والأيتام، ثم صاروا أركان نظام الالتزام يدفعون للخزانة عن الملتزمين ويكفلونهم، حتى حظرت الدولة الصرّافة سنة 1916."
+  en: "The sarraf knew the fineness of gold and silver and what each was worth, weighed them on fine balances and changed one for the other for a fee. Money-changers stood in the markets from the days of Medina; under the Ottomans the trade grew into the spine of state finance: sarrafs bought and sold coin, moved and guarded money, lent to statesmen, ran the funds of cash pious foundations and orphan trusts, and became pillars of the tax-farming system, paying the treasury and standing surety for tax-farmers, until the state banned money-changing in 1916."
+  ur: "صرّاف وہ تھا جو سونے اور چاندی کی خالصیت اور ان کی قیمت جانتا، انہیں باریک ترازوؤں پر تولتا اور ایک کو دوسرے سے بدل کر اجرت لیتا۔ مدینہ کے بازاروں سے یہ صنعت چلتی آئی اور عثمانی دور میں مالی نظام کی ریڑھ کی ہڈی بن گئی: صرّاف سکے خریدتے بیچتے، رقوم منتقل اور محفوظ کرتے، حکمرانوں کو قرض دیتے، نقد اوقاف اور یتیم خانوں کی جائیدادیں چلاتے، اور التزام کے نظام کے ستون بن کر خزانے کو ملتزموں کی طرف سے ادائیگیاں کرتے اور ان کے کفیل ہوتے، یہاں تک کہ 1916 میں حکومت نے صرّافی پر پابندی لگا دی۔"
+domain: trade-travel-sea
+kind: commercial
+hirfa: true
+craft:
+  materials: [gold, silver]
+era:
+  origins: pre-islamic
+  status_today: replaced
+  successor_jobs: []
+places:
+  - { place: place/medina, note: "In the Prophet's Medina the money-changing and goldsmith trades lay mostly in Jewish hands; caliph Umar's letters to his governors asked that Jews and Christians be barred from butchery and money-changing, on account of the usury in their dealings, per the entry.", sources: [source/tdv-sarraflik] }
+  - { place: place/istanbul, note: "Ottoman sarrafs worked under a sultanic berat within the gedik system and from the late seventeenth century had a craft guild with its kethüda, yiğitbaşı, elders, masters, journeymen and apprentices; the great bankers kept their offices in the han rooms of Galata and were called Galata bankers.", sources: [source/tdv-sarraflik] }
+  - { place: place/cairo, note: "In places like Cairo, unlike Istanbul where the money-changers of the eighteenth and nineteenth centuries were almost all non-Muslim and some eighty-five per cent Armenian, Muslims are also found among the trade.", sources: [source/tdv-sarraflik] }
+regions: [arabia, levant-iraq, egypt-nile, anatolia-balkans]
+organization:
+  organized: guild
+workplaces: []
+outputs: []
+wings: [people, living]
+periods: [period/prophetic-era, period/rashidun, period/umayyad, period/abbasid-early, period/abbasid-fragmentation, period/buyid-seljuk-fatimid-era, period/crusades-ayyubid-mamluk, period/mongol-post-mongol, period/gunpowder-empires, period/colonial-era]
+sources: [source/tdv-sarraflik, source/shayzari-nihaya-buckley, source/lane-modern-egyptians]
+training:
+  mode: mixed
+  certification: "No schooling: the craft passed from master to apprentice inside the Ottoman gedik, and a dead sarraf's berth generally went to his son. Outside the guild, practising money-changing needed the sultan's berat; the nineteenth-century corner sarrafs of Istanbul worked under permit notes that limited them to changing paper money up to 100 kuruş. Al-Shayzari's rule is that no one should take up money-changing until he has learned the law of usury, for the trade is dangerous to the religion of the ignorant."
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-trade-1" }
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi 'SARRAFLIK' (Bozkurt & Akyıldız, 2009; vol. 36 pp. 162-165), read on the web on 16 Nov 2026; al-Shayzari, Nihayat al-Rutba (Buckley tr. 1999) ch. 30 Money Changers, and Lane, Modern Egyptians 5th ed. ch. XIV, read in downloaded scans"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-trade-1-drafting"

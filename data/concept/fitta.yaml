@@ -1,0 +1,23 @@
+id: concept/fitta
+class: concept
+kind: natural
+label:
+  ar: "فتة"
+  en: "Fitta (a gum, heading as printed)"
+  ur: "فتة"
+summary:
+  ar: "فتة في الكتاب صمغ نبات يشبه القنا في شكله ينبت في بلاد الشام، صنفان زبدي خفيف وأكثف وأثقل، حار في الثانية مجفف في الثالثة، مليّن محلل يفش الرياح، ينفع من الخنازير والإعياء والكزاز والصداع والصرع ووجع الضرس والربو والسعال المزمن وعسر البول والسموم، وبدله السكبينج {cite:canon-ibn-sina-print-v1 pp.649-650}"
+  en: "Fitta is in the book the gum of a plant like the reed in form that grows in Syria, of two kinds, a frothy light one and a denser, heavier one, hot in the second degree and drying in the third, softening and dissolving, dispersing winds; it benefits scrofula, fatigue, tetanus, headache, epilepsy, toothache, asthma, chronic cough, difficulty of urine and poisons, and its substitute is sakbinaj {cite:canon-ibn-sina-print-v1 pp.649-650}"
+  ur: "فتہ کتاب میں ایک پودے کا گوند ہے جو شکل میں نیزے کی ڈنڈی جیسا ہے اور شام کے علاقے میں اگتا ہے، دو قسم کا، جھاگ دار ہلکا اور گاڑھا بھاری، دوسرے درجے میں گرم اور تیسرے میں خشک، نرم کرنے والا، گھلانے والا اور ہوائیں منتشر کرنے والا؛ خنازیر، تھکن، کزاز، سر درد، مرگی، داڑھ کے درد، دمے، پرانی کھانسی، پیشاب کی دشواری اور زہروں میں نافع ہے، اور اس کا بدل سکبینج ہے {cite:canon-ibn-sina-print-v1 pp.649-650}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter qaf (the nineteenth chapter), scan pages 649 to 650, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for doubtful headings; editor footnotes used only for identity; measured doses, weights, counts and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-25
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

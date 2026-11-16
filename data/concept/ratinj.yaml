@@ -1,0 +1,23 @@
+id: concept/ratinj
+class: concept
+kind: natural
+label:
+  ar: "راتينج"
+  en: "Ratinj"
+  ur: "راتینج"
+summary:
+  ar: "الراتينج في الكتاب نوع من صمغ شجرة الصنوبر، حار إلى الثالثة يابس في الأولى، منبت للحم في الأبدان الجاسية لكنه يهيج الألم في الأبدان الناعمة، وتبرأ به القروح {cite:canon-ibn-sina-print-v1 p.665}"
+  en: "Ratinj is in the book a kind of gum of the pine tree, hot to the third degree and dry in the first, a grower of flesh in hard bodies but one that stirs pain in tender bodies, and by it ulcers are healed {cite:canon-ibn-sina-print-v1 p.665}"
+  ur: "راتینج کتاب میں صنوبر کے درخت کی گوند کی ایک قسم ہے، تیسرے درجے تک گرم اور پہلے میں خشک، سخت بدنوں میں گوشت اگانے والا مگر نرم بدنوں میں درد کو بھڑکانے والا، اور اس سے قرحے ٹھیک ہوتے ہیں {cite:canon-ibn-sina-print-v1 p.665}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter ra (the twentieth chapter), scan page 665, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for doubtful headings; editor footnotes used only for identity; measured doses, weights, counts, times and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-27
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

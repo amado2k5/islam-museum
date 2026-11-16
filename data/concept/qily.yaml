@@ -1,0 +1,23 @@
+id: concept/qily
+class: concept
+kind: natural
+label:
+  ar: "قلي"
+  en: "Qily"
+  ur: "قلی"
+summary:
+  ar: "القلي في الكتاب حار محرق جلاء أكال أقوى من الملح، وينفع من البهق والجرب ويأكل اللحم الزائد {cite:canon-ibn-sina-print-v1 p.654}"
+  en: "Qily is in the book hot, burning, cleansing and corrosive, stronger than salt; it benefits vitiligo and itch and eats away excess flesh {cite:canon-ibn-sina-print-v1 p.654}"
+  ur: "قلی کتاب میں گرم، جلانے والا، جلا دینے والا اور کھانے والا ہے، نمک سے زیادہ قوی؛ برص اور خارش میں نافع ہے اور زائد گوشت کو کھا جاتا ہے {cite:canon-ibn-sina-print-v1 p.654}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter qaf (the nineteenth chapter), scan pages 654, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for doubtful headings; editor footnotes used only for identity; measured doses, weights, counts, times and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-26
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

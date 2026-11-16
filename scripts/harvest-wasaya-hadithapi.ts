@@ -1,7 +1,7 @@
 /**
  * Harvest the hadith reports that speak of testaments and parting counsels, last hours, estates,
  * relics and graves from the hadith-api Arabic editions (fawazahmed0/hadith-api, Unlicense) into
- * data/passage/, for the Testaments Browser (docs/plan/61-wasaya-browser.md). Adapted from
+ * data/passage/, for the Testaments Browser (docs/plan/62-wasaya-browser.md). Adapted from
  * scripts/harvest-qiraat-hadithapi.ts.
  *
  * Every candidate is gated by the same detector the browser uses (scripts/wasaya.ts). A hit that

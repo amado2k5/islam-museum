@@ -1,0 +1,66 @@
+---
+// "The four doors" (Pillars and Branches of Faith Browser home): the browser's four themes side by side, each
+// with what the sources count under it and how many records each corpus holds. The pillars of Islam are the five
+// of the hadith «بني الإسلام على خمس»; the pillars of faith are the six of the hadith of Jibril; the branches are
+// shown in the three groups al-'Ayni sets out in 'Umdat al-Qari (beliefs of the heart, words of the tongue, deeds
+// of the body); the traits lead to their record. Every name is a link to a museum record, every number is counted
+// at build time from lib/arkan.ts, and nothing here needs JavaScript. The build throws when a record a panel names
+// is missing, so the view can never point at a page that does not exist.
+import { ui, fmt, type Lang } from "../../lib/i18n";
+import { byId, href, labelOf } from "../../lib/graph";
+import { num } from "../../lib/nav";
+import { arkanTopicGroups, ARKAN_TOPICS, type ArkanSection, type ArkanTopic } from "../../lib/arkan";
+
+interface Props { lang: Lang; current?: string; compact?: boolean }
+const { lang, current, compact } = Astro.props;
+const T = ui(lang) as any;
+const G = T.arkan;
+const V = G.viz;
+
+const MEMBERS: Record<ArkanTopic, string[]> = {
+  islam: ["concept/shahada", "practice/salah", "practice/zakat", "practice/sawm-ramadan", "practice/hajj"],
+  iman: ["concept/tawhid", "concept/malaika", "concept/kutub-al-munzala", "concept/nubuwwa", "concept/yawm-al-qiyama", "concept/qadar"],
+  shuab: ["concept/shuab-al-iman", "work/shuab-al-iman", "concept/haya"],
+  khisal: ["concept/khisal-al-mumin", "concept/mumin", "concept/taqwa"],
+};
+const ANCHOR: Record<ArkanTopic, string> = { islam: "concept/five-pillars", iman: "concept/arkan-al-iman", shuab: "concept/shuab-al-iman", khisal: "concept/khisal-al-mumin" };
+const CORPORA: ArkanSection[] = ["quran", "sunnah", "seerah", "books", "curated"];
+for (const t of ARKAN_TOPICS) for (const id of [...MEMBERS[t], ANCHOR[t]]) if (!byId.get(id)) throw new Error(`ArkanFour: the record ${id} named under ${t} is missing`);
+const panels = ARKAN_TOPICS.map((t) => {
+  const items = arkanTopicGroups.find((g) => g.id === t)!.items;
+  return { id: t, total: items.length, counts: CORPORA.map((c) => ({ c, n: items.filter((i) => i.section === c).length })) };
+});
+const maxN = Math.max(1, ...panels.flatMap((p) => p.counts.map((c) => c.n)));
+---
+<section aria-labelledby="arkan-four-title" style="margin:1.6rem 0">
+  <h2 id="arkan-four-title" style={compact ? "font-size:1.05rem" : undefined}>{V.title}</h2>
+  {!compact && <p class="muted" style="max-width:var(--measure)">{V.note}</p>}
+  <ul role="list" style="list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:14px">
+    {panels.map((p) => (
+      <li class="panel" style={`padding:16px 18px;border-top:4px solid var(--gold)${current === p.id ? ";outline:2px solid var(--gold)" : ""}`}>
+        <h3 style="margin:0 0 .2rem;font-size:1.15rem"><a href={`/${lang}/arkan/topic/${p.id}/`} aria-current={current === p.id ? "page" : undefined}>{G.topics[p.id].title}</a></h3>
+        <p class="ui muted" style="margin:0 0 .5rem;font-size:.85rem">{fmt(V.count, { n: num(p.total, lang) })}</p>
+        {!compact && <p style="margin:0 0 .6rem;font-size:.95rem">{G.topics[p.id].short}</p>}
+        {!compact && (
+          <>
+            <p class="ui muted" style="margin:0 0 .25rem;font-size:.8rem">{V.members[p.id]}</p>
+            <ol style="margin:0 0 .7rem;padding-inline-start:1.3rem;font-size:.95rem">
+              {MEMBERS[p.id].map((id) => <li><a href={href(lang, id)}>{labelOf(byId.get(id)!, lang)}</a></li>)}
+            </ol>
+            {p.id === "shuab" && <p class="ui muted" style="margin:0 0 .7rem;font-size:.82rem">{V.shuab_groups}</p>}
+            <dl class="ui" style="margin:0;display:grid;grid-template-columns:auto 1fr auto;gap:3px 8px;align-items:center;font-size:.8rem">
+              {p.counts.filter((c) => c.n > 0).map((c) => (
+                <>
+                  <dt>{G.sections[c.c].title}</dt>
+                  <dd style="margin:0"><span aria-hidden="true" style={`display:block;height:6px;border-radius:3px;background:var(--gold);width:${Math.max(3, Math.round((c.n / maxN) * 100))}%`}></span></dd>
+                  <dd style="margin:0"><bdi>{num(c.n, lang)}</bdi></dd>
+                </>
+              ))}
+            </dl>
+          </>
+        )}
+        <p class="ui" style="margin:.7rem 0 0;font-size:.85rem"><a href={href(lang, ANCHOR[p.id])}>{V.record}</a> · <a href={`/${lang}/arkan/topic/${p.id}/`}>{V.open}</a></p>
+      </li>
+    ))}
+  </ul>
+</section>

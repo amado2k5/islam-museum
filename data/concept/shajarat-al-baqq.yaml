@@ -1,0 +1,23 @@
+id: concept/shajarat-al-baqq
+class: concept
+kind: natural
+label:
+  ar: "شجرة البق"
+  en: "Shajarat al-baqq"
+  ur: "شجرۃ البق"
+summary:
+  ar: "شجرة البق في الكتاب مدخل قصير يحيل على ما قيل في فصل الدال عند ذكر دردار، وهي شجرة البق، وفي حاشية المحقق أن شجر البق هو دردار {cite:canon-ibn-sina-print-v1 p.684}"
+  en: "Shajarat al-baqq is in the book a short entry that refers to what was said in the letter dal where dardar is mentioned, saying it is the tree of baqq, and the editor's note says that shajar al-baqq is dardar {cite:canon-ibn-sina-print-v1 p.684}"
+  ur: "شجرۃ البق کتاب میں ایک مختصر اندراج ہے جو دال کے باب میں دردار کے ذکر کے موقع پر کہی گئی بات کی طرف لوٹاتا ہے اور کہتا ہے کہ یہ شجرۃ البق ہے، اور محقق کے حاشیے میں ہے کہ شجر البق دردار ہے {cite:canon-ibn-sina-print-v1 p.684}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, scan pages 684, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for doubtful headings; editor footnotes used only for identity; measured doses, weights, counts, times and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-29
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }
