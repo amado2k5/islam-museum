@@ -12,6 +12,12 @@ wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [andalus-europe]
 died: { edtf: "1185", hijri: "0581~", calendar: gregorian, precision: year, status: tradition, derived: true, note: "توفي سنة 1185م {cite:al-aalam p. 937}", sources: [source/al-aalam] }
+occupations:
+  - job: job/philosopher
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'philosopher', Job Browser linking wave 46"
+    sources: [source/al-aalam]
 relations:
   - { type: born_in, target: place/guadix, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: born_in, target: place/purchena, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

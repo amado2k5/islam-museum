@@ -34,5 +34,16 @@ status:
   completeness: 3
 born: { edtf: "988", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Abi Usaybi'a (Uyun al-Anba) Agrees with Wikidata Q287492 (P569, a statement without a reference), item revision 2567769159, read on 13 November 2026.", sources: [source/wikidata] }
 died: { edtf: "1061", hijri: "0453", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Abi Usaybi'a (Uyun al-Anba) Confirmed on 13 November 2026 against Wikidata Q287492 (P570, a statement with a reference), item revision 2567769159. Ibn al-Imad lists him among the deaths of 453 AH {cite:shadharat-dhahab vol. 5 p. 226}, agreeing with the card.", sources: [source/wikidata, source/shadharat-dhahab] }
+occupations:
+  - job: job/physician
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'physician', Job Browser linking wave 46"
+    sources: [source/ibn-abi-usaybia-uyun-al-anba, source/wikidata, source/biblissima, source/shadharat-dhahab]
+  - job: job/philosopher
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'philosopher', Job Browser linking wave 46"
+    sources: [source/ibn-abi-usaybia-uyun-al-anba, source/wikidata, source/biblissima, source/shadharat-dhahab]
 relations:
   - { type: lived_in, target: place/misr, note: "Place association from the person's nisba/name (المصري); Ibn al-Imad, vol. 5 p. 226, calls him one of the sharpest minds of his time in the lands of Egypt.", sources: [source/ibn-abi-usaybia-uyun-al-anba, source/shadharat-dhahab], confidence: medium }
