@@ -13,9 +13,13 @@ open a new block on top with the new version and today's date.
 
 ---
 
-## v1.42.0 — 2026-11-16
+## v1.43.0 — 2026-11-16
 ### Added
 - Job Browser: five more trades join the professions — the tailor (khayyat), the barber (hallaq/muzayyin) who also shaved, cupped and circumcised, the water-carrier (saqqa) of the kirbeh skins and public sebils, the baker (farran/khabbaz) under hisba's heaviest daily watch, and the blacksmith (haddad/qayn) — in Arabic, English and Urdu draft cited to al-Shayzari's *Nihayat al-Rutba* (Buckley tr.), Lane's *Manners and Customs of the Modern Egyptians*, and Evliya Çelebi's *Seyahatname* (von Hammer tr.), the first Job Browser packet harvested from books rather than the TDV.
+
+## v1.42.0 — 2026-11-16
+### Added
+- Four more Inventions Browser records from harvested sources (Carter on printing and paper, Ukers on coffee, Ibn Abi Usaybi'a on the 931 licensing, a Federal Reserve paper on the cheque, al-Khwarizmi's Mafatih al-Ulum), each with Arabic, English and Urdu prose: Samarqand papermaking and the paper revolution; coffee in Yemen and its Sufi institutionalisation; the sakk payment order ancestor of the cheque; and the Baghdad physician licensing of 931.
 
 ## v1.41.0 — 2026-11-16
 ### Added

@@ -1,0 +1,127 @@
+id: invention/sakk-cheque
+class: invention
+label:
+  ar: "الصك: صكوك الدفع العباسية وأسلاف الشيك الأوروبي"
+  en: "The sakk: Abbasid written payment orders and ancestors of the European cheque"
+  ur: "صک: عباسی تحریری حکمِ ادائیگی اور یورپی چیک کے اسلاف"
+names:
+  - { value: "الصك", kind: alternate, lang: ar }
+  - { value: "صك الدفع", kind: alternate, lang: ar }
+  - { value: "sakk", kind: alternate, lang: en }
+  - { value: "suftadja", kind: alternate, lang: en }
+  - { value: "hawala mandate", kind: alternate, lang: en }
+summary:
+  ar: "وثيقة مكتوبة تلزم الدفع: يصف الخوارزمي الكاتب في «مفاتيح العلوم» الصكَ يجمع أسماء المستحقين وعددهم وما يستحقونه ويوقّع الخليفة أو السلطان أو الأمير بإجازة صرف أرزاقهم {cite:khwarizmi-mafatih-ulum-1930 diwan chapter}. ووثّق ناصر خسرو في البصرة مطلع القرن الحادي عشر صكاً يأمر به التاجر مصرفه بالدفع من حسابه في مدينة أخرى {cite:quinn-roberds-check-2008 pp. 9–10}. نقل الأداة، لا اختراع الائتمان نفسه."
+  en: "A written instrument ordering payment: al-Khwarizmi's Mafatih al-Ulum describes the sakk gathering the names, numbers and dues of stipendiaries, signed at its foot by the caliph, sultan or amir authorising payment {cite:khwarizmi-mafatih-ulum-1930 diwan chapter}. Nasir-i Khusraw documented at Basra in the early eleventh century a merchant's written instruction ordering his bank to pay from his account in another city {cite:quinn-roberds-check-2008 pp. 9–10}. A transmitted instrument, not the invention of credit itself."
+  ur: "ادائیگی کا تحریری حکم: خوارزمی کاتب کی «مفاتیح العلوم» صک کی وضاحت کرتی ہے کہ وہ مستحقین کے نام، تعداد اور وظیفے جمع کرتا اور خلافت یا سلطنت یا امارت کے دستخط آخر میں اجازت دیتے {cite:khwarizmi-mafatih-ulum-1930 diwan chapter}۔ ناصر خسرو نے گیارہویں صدی کے آغاز میں بصرہ میں ایک تاجر کی تحریری ہدایت دیکھی جس سے اس کا بینک دوسرے شہر میں اس کے کھاتے سے ادا کرتا {cite:quinn-roberds-check-2008 pp. 9–10}۔ منتقلی یافتہ آلہ، خود سود یا قرض کی ایجاد نہیں۔"
+domain: institutions-systems
+kind: instrument
+disciplines: [law]
+wings: [ideas]
+regions: [levant-iraq, persia-central-asia]
+periods: [period/abbasid-fragmentation, period/buyid-seljuk-fatimid-era]
+themes: [trade-and-finance, halal-economy]
+era:
+  origins: abbasid-golden
+  first_attested:
+    edtf: "0912~"
+    hijri: "0300~"
+    calendar: julian
+    precision: century
+    status: historical
+    note: "Documented in Abbasid financial practice before al-Khwarizmi's late-tenth-century description and Nasir-i Khusraw's eleventh-century Basra observation; no single first issue is recorded."
+    sources: [source/khwarizmi-mafatih-ulum-1930, source/encyclopaedia-of-islam-2, source/quinn-roberds-check-2008]
+  status_today: transformed
+origin:
+  place: place/baghdad
+  polity: polity/abbasid-caliphate
+  context:
+    ar: "دولة تمتد أقاليمها بجباية تُحمَل عبر مسافات خطرة؛ كانت مأموريات الدفع تسمى سفتجة أو صكاً، ونقل عُمّال الأهواز وفارس وأصبهان الإيرادات بها، وقام الجهبذ بالصرف {cite:encyclopaedia-of-islam-2 vol. III pp. 303–304 HAWALA}."
+    en: "A state whose provinces remitted revenue over dangerous distances: payment mandates called suftadja or sakk carried the tax of Ahwaz, Fars and Isfahan, with the jahbadh banker doing the encashment {cite:encyclopaedia-of-islam-2 vol. III pp. 303–304 HAWALA}."
+    ur: "ایک ریاست جس کے صوبے خطرناک فاصلے پر محصول بھیجتے تھے؛ ادائیگی کے حکم نامے سفتجہ یا صک کہلاتے، اہواز، فارس اور اصفہان کے عامل ان سے وصولیاں بھیجتے اور جہبذ انکاشمنٹ کرتا {cite:encyclopaedia-of-islam-2 vol. III pp. 303–304 HAWALA}۔"
+makers:
+  - person: person/muhammad-ibn-ahmad-al-khwarizmi
+    role: describer
+    place: place/baghdad
+    note: "Documented the instrument in Mafatih al-Ulum's diwan vocabulary; the practice itself was created by unnamed Abbasid financial administrators and jahbadh bankers."
+    sources: [source/khwarizmi-mafatih-ulum-1930]
+attribution:
+  status: transmission
+  claim:
+    ar: "أداة دفع مكتوبة متداولة في دواوين وتجارة العالم الإسلامي، يُعد سلفاً وظيفياً للشيك الأوروبي؛ إثبات سلسلة نقل مباشرة موثقة من بغداد إلى المصارف الأوروبية خارج هذا السجل."
+    en: "A circulating written payment instrument of Islamic chanceries and commerce, a functional ancestor of the European cheque; a documented direct transmission chain from Baghdad to European banking is outside what this record can prove."
+    ur: "اسلامی دواوین اور تجارت کا تحریری ادائیگی آلہ، یورپی چیک کا فنی سلف؛ بغداد سے یورپی بینکاری تک ثابت براہ راست انتقال اس ریکارڈ کی تصدیق سے باہر ہے۔"
+  basis:
+    ar: "يسجّل مسح البنك الاحتياطي وصف ناصر خسرو للصك في البصرة ويطابقه على شيك اليوم؛ ويلفت إلى أن آشتر ⁦(1972)⁩ اشتق check من صك بينما تعطي معاجم أكسفورد أصلاً آخر لها {cite:quinn-roberds-check-2008 pp. 9, 11 n.1}."
+    en: "The Federal Reserve survey records Nasir-i Khusraw's Basra description of the sakk and maps it onto today's check; it notes Ashtor ⁦(1972)⁩ derived 'check' from sakk while the Oxford etymologies give the word a different origin {cite:quinn-roberds-check-2008 pp. 9, 11 n.1}."
+    ur: "فیڈرل ریزرو جائزہ ناصر خسرو کا بصرہ میں صک کا بیان ریکارڈ کرتا اور آج کے چیک سے ملاتا ہے؛ یہ بھی بتاتا ہے کہ آشٹر ⁦(1972)⁩ نے check کو صک سے اخذ کیا مگر آکسفورڈ اشتقاقات دوسرا ماخذ دیتے ہیں {cite:quinn-roberds-check-2008 pp. 9, 11 n.1}۔"
+  perspectives:
+    - tradition: sunni
+      id: fiqh-on-payment-instruments
+      standing: main
+      summary:
+        ar: "اختلف الفقهاء في السفتجة: كرهها الحنفية والشافعية لأن فيها عائداً مقابل تحمل الخطر، وأجازها المالكية للضرورة، وشرطها الحنابلة بلا كسب، وأطلق ابن تيمية وابن قدامة الإذن لنفع الطرفين {cite:encyclopaedia-of-islam-2 vol. IX pp. 794–795 SUFTADJA}."
+        en: "The schools disagreed on the suftadja: Hanafis and Shafi'is found it reprehensible as it rewards risk-avoidance, Malikis allowed it on necessity, Hanbalis conditioned it on no gain, and Ibn Taymiyya and Ibn Qudama permitted it outright since both parties benefit {cite:encyclopaedia-of-islam-2 vol. IX pp. 794–795 SUFTADJA}."
+        ur: "مذاہب سفتجہ میں مختلف رہے: حنفی و شافعی اسے ناپسند سمجھتے کہ خطرے سے بچاؤ پر نفع ملتا، مالکی ضرورت پر اجازت دیتے، حنابلی بغیر کسب کی شرط رکھتے، اور ابن تیمیہ و ابن قدامہ دونوں فریقوں کے نفع پر کھلی اجازت دیتے {cite:encyclopaedia-of-islam-2 vol. IX pp. 794–795 SUFTADJA}۔"
+      sources: [source/encyclopaedia-of-islam-2]
+    - tradition: academic
+      id: contested-etymology
+      standing: main
+      summary:
+        ar: "يقدّم آشتر ⁦(1972)⁩ اشتقاق كلمة check من الصك العربي، لكن معاجم أكسفورد ترجعها إلى check 'التدقيق' وليس إلى الصك؛ السجل يثبت الوظيفة المتشابهة ولا يحسم اللفظ {cite:quinn-roberds-check-2008 p. 11 n.1}."
+        en: "Ashtor ⁦(1972)⁩ proposed 'check' from the Arabic sakk, but the Oxford etymologies trace the word to 'check' in the sense of verification, not to sakk; the record proves functional resemblance and leaves the word's lineage open {cite:quinn-roberds-check-2008 p. 11 n.1}."
+        ur: "آشٹر ⁦(1972)⁩ نے check کو عربی صک سے نکالا، مگر آکسفورڈ اشتقاقات اسے 'جانچ' کے check سے جوڑتے ہیں، صک سے نہیں؛ ریکارڈ فنی مماثلت ثابت کرتا ہے، لفظ کی نسبت کھلی چھوڑتا ہے {cite:quinn-roberds-check-2008 p. 11 n.1}۔"
+      sources: [source/quinn-roberds-check-2008]
+precursors:
+  - external: { ar: "الحوالة والسفتجة وجهود الجهابذة", en: "Hawala, suftadja and the jahbadh bankers", ur: "حوالہ، سفتجہ اور جہبذ صراف" }
+    note: "The family of instruments: suftadja as a written bill of credit for distant encashment, hawala as the transfer of a claim; the jahbadh was their primary operator."
+    sources: [source/encyclopaedia-of-islam-2]
+  - external: { ar: "دفاتر الديوان والمحاسبة", en: "Chancery registers and accounting practice", ur: "دیوان کے دفتر اور حسابی عمل" }
+    note: "The administrative substrate: fiscal registers and the ruler's signed mandate, within which the sakk operated."
+    sources: [source/khwarizmi-mafatih-ulum-1930, source/encyclopaedia-of-islam-2]
+dependents:
+  - external: { ar: "الحوالات السلجوقية والإيلخانية والعثمانية", en: "Seljuk, Ilkhanid and Ottoman assignations", ur: "سلجوقی، ایلخانی اور عثمانی تفویضات" }
+    note: "Hawala-based finance continued through Seljuk, Ilkhanid and Ottoman fiscal systems, including the assignations Nizam al-Mulk gave the Oxus boatmen redeemable at Antioch."
+    sources: [source/encyclopaedia-of-islam-2]
+  - external: { ar: "الشيك والحوالة المصرفية الأوروبية", en: "The European cheque and bank draft", ur: "یورپی چیک اور بینک ڈرافٹ" }
+    note: "Functional descendants in European banking from sixteenth-century negotiability onward; the direct link is asserted by Ashtor and questioned by lexicographers."
+    sources: [source/quinn-roberds-check-2008]
+spread: []
+impact:
+  fields: [institutions-systems, everyday-life]
+  changed:
+    ar: "حرّر المالَ من مرافقة صاحبه على الطريق: كان الدفع يُنقل بالورقة بدل صررة الدراهم، وصارت الأموال متاحة في أرض أخرى بخطاب ائتمان {cite:encyclopaedia-of-islam-2 vol. IX pp. 794–795 SUFTADJA} {cite:encyclopaedia-of-islam-2 vol. III pp. 303–304 HAWALA}."
+    en: "It freed money from travelling with its owner: payment moved by the document instead of the purse of dirhams, and funds became available in another land through what was in effect a letter of credit {cite:encyclopaedia-of-islam-2 vol. IX pp. 794–795 SUFTADJA} {cite:encyclopaedia-of-islam-2 vol. III pp. 303–304 HAWALA}."
+    ur: "مال کو مالک کے ساتھ سفر سے آزاد کیا: ادائیگی درہم کی تھیلی کے بجائے دستاویز سے منتقل ہوئی اور دوسرے ملک میں رقم خطابِ اعتبار کے ذریعے دستیاب {cite:encyclopaedia-of-islam-2 vol. IX pp. 794–795 SUFTADJA} {cite:encyclopaedia-of-islam-2 vol. III pp. 303–304 HAWALA}۔"
+  history:
+    ar: "أظهر كيف تبني المؤسسات المالية جسوراً بين خزائن الأقاليم وتجار المدن؛ التشابه مع الشيك اللاحق موثق، والأصل اللفظي محل خلاف {cite:quinn-roberds-check-2008 pp. 9–11}."
+    en: "It shows how financial institutions bridged provincial treasuries and city merchants; the functional resemblance to the later cheque is documented while the word's descent remains disputed {cite:quinn-roberds-check-2008 pp. 9–11}."
+    ur: "یہ دکھاتا ہے کہ مالی ادارے صوبائی خزانوں اور شہری تاجروں کے درمیان پل بناتے ہیں؛ بعد کے چیک سے فنی مماثلت موثق، لفظی نسب متنازع {cite:quinn-roberds-check-2008 pp. 9–11}۔"
+  significance: 3
+  why: "A documented Abbasid written payment order whose functional form foreshadows the cheque; the record keeps the instrument, its operators and its contested word-history distinct."
+described_in: []
+examples: []
+sites: []
+concepts: []
+today:
+  form:
+    ar: "الشيك الورقي يتقهقر أمام المدفوعات الإلكترونية؛ الترتيب نفسه يحيا في التحويل البنكي والصكوك والحوالة {cite:quinn-roberds-check-2008 pp. 12–14}."
+    en: "The paper cheque is retreating before electronic payments; the same arrangement lives on in bank transfers, money orders and hawala {cite:quinn-roberds-check-2008 pp. 12–14}."
+    ur: "کاغذی چیک برقی ادائیگیوں کے آگے پیچھے ہٹ رہا؛ وہی انتظام بینک ٹرانسفر، منی آرڈر اور حوالے میں جاری {cite:quinn-roberds-check-2008 pp. 12–14}۔"
+  descendants:
+    ar: "نظم الدفع غير النقدي الحديثة؛ القرب الوظيفي موثّق لا سلسلة انتقال مباشرة مثبتة من بغداد {cite:quinn-roberds-check-2008 pp. 9–11}."
+    en: "Modern non-cash payment systems; the functional closeness is documented, not a proven direct transmission line from Baghdad {cite:quinn-roberds-check-2008 pp. 9–11}."
+    ur: "جدید غیر نقد ادائیگی نظام؛ فنی قرب موثق ہے، بغداد سے ثابت براہ راست سلسلہ نہیں {cite:quinn-roberds-check-2008 pp. 9–11}۔"
+media: { image: media/met-epigraphic-dinar-79ah, diagram: media/diagram-sakk-cheque }
+kids:
+  ar: "كان التاجر قديماً يحمل معه دراهم كثيرة في السفر، وكان الطريق خطراً. فصار يكتب صكاً يقول: ادفعوا لصاحب هذا الورق من حسابي في المدينة الأخرى. هكذا سافرت الورقة بدل النقود. هذا الصك يشبه الشيك الذي نعرفه، والعلماء مختلفون هل اسم «check» الإنجليزي جاء من كلمة «صك» أم من غيرها."
+  en: "A merchant long ago had to carry many coins on a dangerous road. So he wrote a sakk saying: pay whoever brings this paper from my account in the other city. The paper travelled instead of the money. This sakk works like the cheque we know, and scholars disagree whether the English word 'check' really comes from 'sakk'."
+  ur: "پرانے زمانے میں تاجر کو سفر میں بہت سے سکے لے جانے پڑتے اور راستہ خطرناک ہوتا۔ تو وہ صک لکھتا: اس کاغذ لانے والے کو دوسرے شہر میں میرے کھاتے سے ادا کرو۔ اس طرح پیسے کے بجائے کاغذ سفر کرتا۔ یہ صک ہمارے چیک جیسا کام کرتا ہے، اور ماہرین اس پر مختلف ہیں کہ انگریزی 'check' واقعی 'صک' سے آیا یا کہیں اور سے۔"
+sources: [source/khwarizmi-mafatih-ulum-1930, source/encyclopaedia-of-islam-2, source/quinn-roberds-check-2008]
+status: { review: published, completeness: 2 }
+provenance:
+  layer: own-research
+  generated_by: devin-drafter-w2-25
+  model: SWE-2
+  run: inventions-w2-25
+  source: "Mafatih al-Ulum 1930 diwan chapter (archive.org OCR), EI2 vol. III HAWALA and vol. IX SUFTADJA articles (OCR in hand), Quinn & Roberds 2008 FRB Atlanta article (PDF text in hand). Nasir-i Khusraw's passage is known through Quinn & Roberds, not read directly."
