@@ -1,0 +1,33 @@
+id: "concept/alamat-al-kazaz"
+class: "concept"
+kind: "scientific"
+label:
+  ar: "علامات الكزاز والتمدد"
+  en: "Signs of tetanus and extension"
+  ur: "كزاز اور تمدد کی علامات"
+summary:
+  ar: "علامات التمدد مطلقاً ألا يجيب العضو إلى الانقباض؛ والكزاز إن كان إلى قدام فالشخص كالمخنوق مختنق الوجه والعين وربما خيل أنه يضحك ورأسه منجذب إلى قدام ولا يستطيع الالتفات، وإن كان إلى خلف وجدت الرأس والكتفين والعضلة منجذبة إلى خلف {cite:canon-ibn-sina-print-v2 p.153}"
+  en: "The signs of extension absolutely are that the organ does not answer to contraction; forward tetanus shows the man as though strangled, face and eye suffused, perhaps seeming to smile, his head drawn forward unable to turn; backward tetanus shows head, shoulders and muscle drawn backward {cite:canon-ibn-sina-print-v2 p.153}"
+  ur: "تمدد کی مطلق علامتیں یہ ہیں کہ عضو انقباض پر جواب نہ دے؛ اور اگر کزاز آگے کی طرف ہو تو شخص ایسا ہوتا ہے جیسا گلا گھوٹا گیا ہو، چہرہ اور آنکھ اختناق میں، اور شاید ایسا خیال ہو جیسے وہ ہنس رہا ہے، اور اس کا سر آگے کی طرف کھچا ہو اور وہ مڑ نہیں سکتا؛ اور اگر پیچھے کی طرف ہو تو سر، کندھے اور عضلہ پیچھے کی طرف کھچے پائے جاتے ہیں {cite:canon-ibn-sina-print-v2 p.153}۔"
+wings:
+- "living"
+tags:
+- "tibb-browser"
+- "tibb-tibb"
+sources:
+- "source/canon-ibn-sina-print-v2"
+relations:
+- type: "part_of"
+  target: "concept/symptoms-and-signs"
+  sources:
+  - "source/canon-ibn-sina-print-v2"
+provenance:
+  layer: "own-research"
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 2 (nerve diseases), maqala 1, scan pages 152 to 153, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json); editor glosses used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping and cautery sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Devin subagent (SWE-2 Medium, Lane A4 worker)"
+  model: "swe-2-medium"
+  run: "a4-canon-book3-7"
+status:
+  review: "published"
+  completeness: 1
+  generated_by: "Devin subagent (SWE-2 Medium, book mining, lane A4)"

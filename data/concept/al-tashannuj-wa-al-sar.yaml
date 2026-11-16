@@ -1,0 +1,33 @@
+id: "concept/al-tashannuj-wa-al-sar"
+class: "concept"
+kind: "scientific"
+label:
+  ar: "التشنج والصرع"
+  en: "Convulsion and epilepsy"
+  ur: "تشنج اور صرع"
+summary:
+  ar: "كأن التشنج صرع عضو كما أن الصرع تشنج البدن كله، والفرق بينهما العموم والخصوص، وأن أكثر الصرع يكون بسرعة وقد يكون بأدوار وغير ذلك من فروق {cite:canon-ibn-sina-print-v2 p.143}"
+  en: "Convulsion is as it were the epilepsy of a member, as epilepsy is the convulsion of the whole body; the difference between them is generality and particularity, that most epilepsy comes on swiftly and may come in turns, and other differences {cite:canon-ibn-sina-print-v2 p.143}"
+  ur: "گویا تشنج کسی عضو کی صرع ہے جس طرح صرع سارے بدن کا تشنج ہے؛ اور دونوں کا فرق عموم اور خصوص کا ہے، اور یہ کہ اکثر صرع جلدی سے ہوتی ہے اور ادوار میں ہو سکتی ہے اور اس کے سوا اور فرق بھی ہیں {cite:canon-ibn-sina-print-v2 p.143}۔"
+wings:
+- "living"
+tags:
+- "tibb-browser"
+- "tibb-tibb"
+sources:
+- "source/canon-ibn-sina-print-v2"
+relations:
+- type: "part_of"
+  target: "concept/disease"
+  sources:
+  - "source/canon-ibn-sina-print-v2"
+provenance:
+  layer: "own-research"
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 2 (nerve diseases), maqala 1, scan pages 143, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json); editor glosses used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping and cautery sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Devin subagent (SWE-2 Medium, Lane A4 worker)"
+  model: "swe-2-medium"
+  run: "a4-canon-book3-7"
+status:
+  review: "published"
+  completeness: 1
+  generated_by: "Devin subagent (SWE-2 Medium, book mining, lane A4)"

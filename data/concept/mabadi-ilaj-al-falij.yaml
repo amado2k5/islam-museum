@@ -1,0 +1,33 @@
+id: "concept/mabadi-ilaj-al-falij"
+class: "concept"
+kind: "scientific"
+label:
+  ar: "مبادئ علاج الفالج"
+  en: "Principles of the treatment of palsy"
+  ur: "فالج کے علاج کے اصول"
+summary:
+  ar: "يجب أن يكون الفصد في أمراض العصب الخمسة — الخدر والتشنج والرعشة والفالج والاختلاج — قصد مؤخر الدماغ، ولا تعجل باستعمال الأدوية القوية في أول الأمر بل أخر إلى الرابع أو السابع، فإن كانت العلة قوية فإلى الرابع عشر، وفي هذا الوقت اقتصر على أشياء لطيفة مما يلين وينضج ويسهل {cite:canon-ibn-sina-print-v2 p.139} {cite:canon-ibn-sina-print-v2 p.140}"
+  en: "In the five nerve diseases — numbness, convulsion, tremor, palsy and twitching — venesection must aim at the back of the brain; do not hurry to strong medicines at first but postpone to the fourth or seventh day, or if the illness is strong to the fourteenth, confining oneself meanwhile to light things that soften, mature and loosen {cite:canon-ibn-sina-print-v2 p.139} {cite:canon-ibn-sina-print-v2 p.140}"
+  ur: "اعصاب کی پانچ بیماریوں — خدر، تشنج، رعشہ، فالج اور اختلاج — میں فصد کا قصد دماغ کے پچھلے حصے کی طرف ہونا چاہیے؛ اور آغاز میں مضبوط ادویہ کے استعمال میں جلدی نہ کر بلکہ چوتھے یا ساتویں دن تک مؤخر کر، اور اگر علت قوی ہو تو چودہویں دن تک، اور اس مدت میں ہلکی چیزوں پر اقتصار کر جو نرم، پکا اور رخی کرتی ہوں {cite:canon-ibn-sina-print-v2 p.139} {cite:canon-ibn-sina-print-v2 p.140}۔"
+wings:
+- "living"
+tags:
+- "tibb-browser"
+- "tibb-tibb"
+sources:
+- "source/canon-ibn-sina-print-v2"
+relations:
+- type: "part_of"
+  target: "concept/medical-treatment"
+  sources:
+  - "source/canon-ibn-sina-print-v2"
+provenance:
+  layer: "own-research"
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 2 (nerve diseases), maqala 1, scan pages 139 to 142, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json); editor glosses used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping and cautery sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Devin subagent (SWE-2 Medium, Lane A4 worker)"
+  model: "swe-2-medium"
+  run: "a4-canon-book3-7"
+status:
+  review: "published"
+  completeness: 1
+  generated_by: "Devin subagent (SWE-2 Medium, book mining, lane A4)"

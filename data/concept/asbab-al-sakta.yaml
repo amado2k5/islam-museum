@@ -1,0 +1,33 @@
+id: "concept/asbab-al-sakta"
+class: "concept"
+kind: "scientific"
+label:
+  ar: "أنواع السكتة وأسبابها"
+  en: "Kinds and causes of apoplexy"
+  ur: "سکتہ کی اقسام اور اسباب"
+summary:
+  ar: "انسداد السكتة إما لانطباق — أن يصل إلى الدماغ ما يؤذيه فينقبض أو تصله كيفية قابضة مكثفة كالبرد الشديد — وإما لامتلاء مورّم أو غير مورّم: خلط دموي أو بلغمي ينصبّ إلى البطون، أو انسداد الشرايين والعروق الصاعدة من شدة الامتلاء فتختنق الروح {cite:canon-ibn-sina-print-v2 p.131}"
+  en: "Apoplexy's obstruction is either by compression — something harmful reaching the brain and contracting it, or a condensing quality like severe cold reaching it — or by fullness, with or without swelling: a sanguine or phlegmatic humour pouring into the ventricles, or the ascending arteries and veins blocked by extreme fullness so the pneuma chokes {cite:canon-ibn-sina-print-v2 p.131}"
+  ur: "سکتہ کا انسداد یا تو انطباق سے ہوتا ہے — دماغ تک کوئی نقصان پہنچانے والا پہنچ کر اسے قبض دے یا اس تک کوئی قابض مکثف کیفیت پہنچے جیسے سخت سردی — یا امتلاء سے، ورم کے ساتھ یا بغیر: دموی یا بلغمی خلط کا بطون کی طرف انصباب، یا صاعد شریانوں اور عروق کا شدت امتلاء سے بند ہونا تو روح دم گھٹے {cite:canon-ibn-sina-print-v2 p.131}۔"
+wings:
+- "living"
+tags:
+- "tibb-browser"
+- "tibb-tibb"
+sources:
+- "source/canon-ibn-sina-print-v2"
+relations:
+- type: "part_of"
+  target: "concept/disease"
+  sources:
+  - "source/canon-ibn-sina-print-v2"
+provenance:
+  layer: "own-research"
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 1, maqala 5 and the opening of Fann 2, scan pages 131 to 132, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json); editor glosses used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping and cautery sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Devin subagent (SWE-2 Medium, Lane A4 worker)"
+  model: "swe-2-medium"
+  run: "a4-canon-book3-6"
+status:
+  review: "published"
+  completeness: 1
+  generated_by: "Devin subagent (SWE-2 Medium, book mining, lane A4)"

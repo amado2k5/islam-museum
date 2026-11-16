@@ -1,0 +1,33 @@
+id: "concept/al-laqua"
+class: "concept"
+kind: "scientific"
+label:
+  ar: "اللقوة"
+  en: "Facial palsy (laqua)"
+  ur: "لقوہ"
+summary:
+  ar: "اللقوة علة آلية في الوجه ينجذب لها شقّ من الوجه إلى جهة غير طبيعية فتتغير هيئته الطبيعية وتزول جودة التقاء الشفتين والجفنين من شقّ؛ وسببه إما استرخاء وإما تشنج لعضل الأجفان والوجه، والكائن عن التشنج هو الأكثري {cite:canon-ibn-sina-print-v2 p.154}"
+  en: "Laqua is an instrumental disorder in the face by which a side of the face is drawn toward an unnatural direction, so its natural shape changes and the good meeting of the lips and eyelids of one side is lost; its cause is either a relaxation or a convulsion of the muscles of the eyelids and face, and that arising from convulsion is the majority {cite:canon-ibn-sina-print-v2 p.154}"
+  ur: "لقوہ چہرے کی ایک آلی علت ہے جس سے چہرے کا ایک شق غیر فطری جهت کی طرف کھنچ جاتا ہے تو اس کی فطری ہیئت بدل جاتی ہے اور ایک شق کے ہونٹوں اور پلکوں کا اچھا ملنا جاتا رہتا ہے؛ اور اس کا سبب یا تو استرخاء ہے یا پلکوں اور چہرے کی عضلوں کا تشنج، اور تشنج سے ہونے والا اکثری ہے {cite:canon-ibn-sina-print-v2 p.154}۔"
+wings:
+- "living"
+tags:
+- "tibb-browser"
+- "tibb-tibb"
+sources:
+- "source/canon-ibn-sina-print-v2"
+relations:
+- type: "part_of"
+  target: "concept/disease"
+  sources:
+  - "source/canon-ibn-sina-print-v2"
+provenance:
+  layer: "own-research"
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 2 (nerve diseases), maqala 1, scan pages 154, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json); editor glosses used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping and cautery sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Devin subagent (SWE-2 Medium, Lane A4 worker)"
+  model: "swe-2-medium"
+  run: "a4-canon-book3-7"
+status:
+  review: "published"
+  completeness: 1
+  generated_by: "Devin subagent (SWE-2 Medium, book mining, lane A4)"

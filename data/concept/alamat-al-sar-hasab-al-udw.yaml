@@ -1,0 +1,33 @@
+id: "concept/alamat-al-sar-hasab-al-udw"
+class: "concept"
+kind: "scientific"
+label:
+  ar: "علامات الصرع بحسب العضو المبدئ"
+  en: "Signs of epilepsy by the source organ"
+  ur: "ماخذ عضو کے لحاظ سے صرع کی علامات"
+summary:
+  ar: "علامات الصرع بحسب عضو مبدئه: من المعدة اختلاج فم المعدة ورعدة وخفقان وصداع وخفة باستعمال القيء؛ ومن المراق جشاء حامض وقراقر موجعة ووجع بين الكتفين؛ ومن الطحال وجع جانبه؛ ومن الديدان سيلان اللعاب {cite:canon-ibn-sina-print-v2 p.124} {cite:canon-ibn-sina-print-v2 p.125}"
+  en: "The signs of epilepsy by its source organ: from the stomach — twitching of the stomach's mouth, trembling, palpitation, severe headache, relief by vomiting; from the hypochondrium — sour belching, painful borborygmi, pain between the shoulders; from the spleen — pain on its side; from worms — running saliva {cite:canon-ibn-sina-print-v2 p.124} {cite:canon-ibn-sina-print-v2 p.125}"
+  ur: "ماخذ عضو کے لحاظ سے صرع کی علامات: معدے سے — فم المعدہ کا اختلاج، رعدہ، خفقان، سخت سر درد اور قے سے خفا؛ مراق سے — حامض ڈکار، تکلیف دہ قراقر اور دونوں کندھوں کے درمیان درد؛ طحال سے — اس کے پہلو میں درد؛ کیڑوں سے — رال کا بہنا {cite:canon-ibn-sina-print-v2 p.124} {cite:canon-ibn-sina-print-v2 p.125}۔"
+wings:
+- "living"
+tags:
+- "tibb-browser"
+- "tibb-tibb"
+sources:
+- "source/canon-ibn-sina-print-v2"
+relations:
+- type: "part_of"
+  target: "concept/symptoms-and-signs"
+  sources:
+  - "source/canon-ibn-sina-print-v2"
+provenance:
+  layer: "own-research"
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 1, maqala 5 and the opening of Fann 2, scan pages 124 to 125, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json); editor glosses used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping and cautery sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Devin subagent (SWE-2 Medium, Lane A4 worker)"
+  model: "swe-2-medium"
+  run: "a4-canon-book3-6"
+status:
+  review: "published"
+  completeness: 1
+  generated_by: "Devin subagent (SWE-2 Medium, book mining, lane A4)"

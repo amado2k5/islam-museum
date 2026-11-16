@@ -1,0 +1,33 @@
+id: "concept/al-asbab-al-muharrika-lil-sar"
+class: "concept"
+kind: "scientific"
+label:
+  ar: "الأسباب المحرّكة للصرع"
+  en: "The causes that provoke epilepsy"
+  ur: "صرع کو بھڑکانے والے اسباب"
+summary:
+  ar: "الأسباب المحرّكة للصرع عند ابن سينا: الانتقال إلى هواء معين، كل حرّ مفرط شمسي أو ناري وكل برد، كثرة الأمطار وريحا الشمال والجنوب، الروائح، مطالعة الحركات السريعة الدائرة، طول اللبث في الحمام، سوء الهضم والسهر والآلام النفسانية والانفعالات الحسية القوية {cite:canon-ibn-sina-print-v2 p.125} {cite:canon-ibn-sina-print-v2 p.126}"
+  en: "Ibn Sina's provoking causes of epilepsy: moving to a certain air, excessive solar or fire heat and cold, much rain and the north and south winds together, smells, watching swift turning motions, long stays in the bath, indigestion, sleeplessness, strong psychic pains and strong sensory impressions {cite:canon-ibn-sina-print-v2 p.125} {cite:canon-ibn-sina-print-v2 p.126}"
+  ur: "ابن سینا کے نزدیک صرع کو بھڑکانے والے اسباب: کسی خاص ہوا کی طرف منتقلی، مفرط شمسی یا آگ کی گرمی اور سردی، زیادہ بارشیں اور شمالی و جنوبی ہوائیں یکساں، بوئیں، تیز گھومتی حرکتوں کو دیکھنا، حمام میں دیر تک رہنا، سوء ہضم، بیداری، سخت نفسانی تکلیفیں اور سخت حسی جھٹکے {cite:canon-ibn-sina-print-v2 p.125} {cite:canon-ibn-sina-print-v2 p.126}۔"
+wings:
+- "living"
+tags:
+- "tibb-browser"
+- "tibb-tibb"
+sources:
+- "source/canon-ibn-sina-print-v2"
+relations:
+- type: "part_of"
+  target: "concept/disease"
+  sources:
+  - "source/canon-ibn-sina-print-v2"
+provenance:
+  layer: "own-research"
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 1, maqala 5 and the opening of Fann 2, scan pages 125 to 126, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json); editor glosses used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping and cautery sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Devin subagent (SWE-2 Medium, Lane A4 worker)"
+  model: "swe-2-medium"
+  run: "a4-canon-book3-6"
+status:
+  review: "published"
+  completeness: 1
+  generated_by: "Devin subagent (SWE-2 Medium, book mining, lane A4)"

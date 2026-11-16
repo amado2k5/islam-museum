@@ -18,3 +18,6 @@ There is no dispute that occupying oneself with the science of tajwid is a commu
 The Sheikh urges each of those present never to let a day pass without renewing his covenant with God by opening the Qur'an {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:11:00}. He mentions that God opens the way for some people, who read a set portion and finish the Qur'an in a week or two weeks, or read one juz' a day {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:11:00}.
 
 The Sheikh urges strengthening the heart that is weak before the trials of this world by attaching it to the words of God, and prays for ease {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:14:00}. He then thanks the reciter who recited before the lesson, moved the hearts and prepared them to enter the lesson {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:14:00}.
+
+## In The Oxford Dictionary of Islam
+Tajwid is defined in The Oxford Dictionary of Islam as the art of reciting the Quran, bearing also the name qira'ah. The entry says it is meant to be done only in a state of ritual purity. Recitation of this kind is most often heard in mosques, but also at weddings, funerals, openings of businesses, conferences and official functions. {cite:oxford-dictionary-of-islam e2317}

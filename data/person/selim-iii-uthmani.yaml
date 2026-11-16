@@ -19,13 +19,14 @@ relations:
   - { type: born_in, target: place/istanbul, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q406)" }
   - { type: died_in, target: place/constantinople, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q16869)" }
 external_ids: { wikidata: "Q199633", nomisma: "selim_iii", viaf: "39533215" }
-sources: [source/dawlat-uthmaniyya-salabi, source/nomisma, source/wikidata]
+sources: [source/dawlat-uthmaniyya-salabi, source/nomisma, source/wikidata, source/oxford-dictionary-of-islam]
 provenance:
   layer: own-research
   source: "الدولة العثمانية لعلي محمد الصلابي ⁦(ط1 1421)⁩ ص 320-330"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch112
+  oxford_captures: "t125/e2275: http://www.oxfordislamicstudies.com:80/article/opr/t125/e2275 ; https://web.archive.org/web/20180815092244/http://www.oxfordislamicstudies.com:80/article/opr/t125/e2275"
 importance: 2
 status:
   review: published

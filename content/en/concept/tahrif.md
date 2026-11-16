@@ -18,3 +18,6 @@ This is Rida's reading of the verses of the Qur'an, and it is presented here as 
 
 ## For completion
 The statements of the earlier exegetes on the verses of the "perfect words" and on the alteration by the People of the Book need to be presented, and page 13 of the eighth volume needs to be checked for the sentence whose text ends at a page break.
+
+## In The Oxford Dictionary of Islam
+Tahrif means, in The Oxford Dictionary of Islam, the corruption of a text. The word does not appear in the Quran itself, though verses charge that people tampered with the holy books ([[passage/quran-2-75|2:75]], [[passage/quran-4-46|4:46]], [[passage/quran-5-13|5:13]], [[passage/quran-5-41|5:41]]). The charge is usually read, the entry says, as the claim that earlier religious communities struck out the passages announcing Muhammad's coming found in the Hebrew scriptures and the Gospels — whether by changing the words or by misreading them. In Shii usage the same term names the charge that Quranic passages divinely confirming Ali's authority were excised. {cite:oxford-dictionary-of-islam e2306}

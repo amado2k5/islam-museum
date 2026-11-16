@@ -1,0 +1,33 @@
+id: "concept/mal-al-tashannuj"
+class: "concept"
+kind: "scientific"
+label:
+  ar: "مآل التشنج"
+  en: "Outcome of convulsion"
+  ur: "تشنج کا انجام"
+summary:
+  ar: "كل من مات من التشنج مات وبدنه بعد حار، وذلك مما يقتل بالخنق، وإنما يقتل بالخنق لأن عضل التنفس تتشنج وتبطل حركتها؛ وكل تشنج يتبع جراحة فهو قتال وهو من علامات الموت في أكثر الأمر {cite:canon-ibn-sina-print-v2 p.145}"
+  en: "Everyone who dies of convulsion dies while his body is still hot, and it is among what kills by suffocation, killing by suffocation because the breathing muscles convulse and their motion lapses; every convulsion following a wound is deadly and a sign of death in most cases {cite:canon-ibn-sina-print-v2 p.145}"
+  ur: "جو کوئی تشنج سے مرے وہ اس وقت مرے جب اس کا بدن ابھی گرم ہو، اور یہ ان چیزوں میں ہے جو دم گھٹ کر مارتی ہیں، اور دم گھٹ کر اس لیے مارتا ہے کہ تنفس کی عضل متشنج ہو جاتی ہیں اور ان کی حرکت باطل ہو جاتی ہے؛ اور ہر تشنج جو کسی زخم کے پیچھے ہو وہ قاتل ہے اور اکثر موت کی علامتوں میں ہے {cite:canon-ibn-sina-print-v2 p.145}۔"
+wings:
+- "living"
+tags:
+- "tibb-browser"
+- "tibb-tibb"
+sources:
+- "source/canon-ibn-sina-print-v2"
+relations:
+- type: "part_of"
+  target: "concept/disease"
+  sources:
+  - "source/canon-ibn-sina-print-v2"
+provenance:
+  layer: "own-research"
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 2 (nerve diseases), maqala 1, scan pages 144 to 149, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json); editor glosses used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping and cautery sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Devin subagent (SWE-2 Medium, Lane A4 worker)"
+  model: "swe-2-medium"
+  run: "a4-canon-book3-7"
+status:
+  review: "published"
+  completeness: 1
+  generated_by: "Devin subagent (SWE-2 Medium, book mining, lane A4)"

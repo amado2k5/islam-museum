@@ -1,0 +1,33 @@
+id: "concept/al-tashannuj"
+class: "concept"
+kind: "scientific"
+label:
+  ar: "التشنج"
+  en: "Convulsion"
+  ur: "تشنج"
+summary:
+  ar: "التشنج علة عصبية تتحرك لها العضل إلى مباديها فتعصى في الانبساط، فمنها ما تبقى على حالها فلا تنبسط، ومنها ما يسهل عوده إلى البساط كالتثاؤب والفواق؛ والسبب فيه إما مادة وإما سبب غير المادة مثل حر أو يبس {cite:canon-ibn-sina-print-v2 p.142}"
+  en: "Convulsion is a nervous disorder by which the muscles move toward their origins and refuse extension; of them is what stays in its state and does not extend, and what easily returns to extension like yawning and hiccup; its cause is either a matter or a cause other than matter, such as heat or dryness {cite:canon-ibn-sina-print-v2 p.142}"
+  ur: "تشنج ایک عصبی علت ہے جس سے عضل اپنے مبادی کی طرف حرکت کرتی ہیں تو انبساط میں نافرمان ہو جاتی ہیں؛ ان میں سے ایک وہ ہے جو اپنی حال پر رہے تو نہ بسطے، اور ایک وہ ہے جو آسانی سے بساط کی طرف لوٹ آئے جیسے جمائی اور ہچکی؛ اور اس کا سبب یا تو مادہ ہے یا مادہ کے سوا سبب جیسے حر یا یبس {cite:canon-ibn-sina-print-v2 p.142}۔"
+wings:
+- "living"
+tags:
+- "tibb-browser"
+- "tibb-tibb"
+sources:
+- "source/canon-ibn-sina-print-v2"
+relations:
+- type: "part_of"
+  target: "concept/disease"
+  sources:
+  - "source/canon-ibn-sina-print-v2"
+provenance:
+  layer: "own-research"
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 2 (nerve diseases), maqala 1, scan pages 142, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json); editor glosses used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping and cautery sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Devin subagent (SWE-2 Medium, Lane A4 worker)"
+  model: "swe-2-medium"
+  run: "a4-canon-book3-7"
+status:
+  review: "published"
+  completeness: 1
+  generated_by: "Devin subagent (SWE-2 Medium, book mining, lane A4)"
