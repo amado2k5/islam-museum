@@ -54,5 +54,10 @@ occupations:
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/wikipedia-alladiya-khan-en, source/wikipedia-alladiya-khan-ur, source/wikidata-alladiya-khan]
+  - job: job/musician
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'musician', Job Browser linking wave"
+    sources: [source/wikipedia-alladiya-khan-en, source/wikipedia-alladiya-khan-ur, source/wikidata-alladiya-khan, source/wikidata]
 relations:
   - { type: lived_in, target: place/india, note: "Place association from the person's nisba/name (هندي); denotes association, not proven residence.", sources: [source/wikipedia-alladiya-khan-en, source/wikipedia-alladiya-khan-ur, source/wikidata-alladiya-khan], confidence: low }

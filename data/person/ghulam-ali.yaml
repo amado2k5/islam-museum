@@ -27,6 +27,12 @@ faith:
     basis: unknown
     note: "Settled unknown and FLAGGED for a founder ruling. No biographical text consulted names a school for the man himself — the English and Urdu articles give his family, his discipleship and his career. The Sunni reading rests on structured data and filings of one family: Wikidata carries two religion values, Islam and Sunni Islam; the English article files him in its 'Pakistani Sunni Muslims' category; and the Urdu article's infobox gives his religion as Sunni Islam and files him in its 'Pakistani Sunni' category. Those are a single structured-and-filing family; no second independent source naming a school for him was verified at full text in this session. If the founder counts the Urdu infobox value as a second, independent family alongside Wikidata's, the settlement becomes sunni on the documented basis, and the path is stated here so the ruling can be made on the record as it stands. His Patiala gharana discipleship, his Sufi-music repertoire, his name and his father's admiration for his teacher are background and repertoire, never attestation."
     sources: [source/wikipedia-ghulam-ali-en, source/wikipedia-ghulam-ali-ur, source/wikidata-ghulam-ali]
+occupations:
+  - job: job/musician
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'musician', Job Browser linking wave"
+    sources: [source/wikipedia-ghulam-ali-en, source/wikipedia-ghulam-ali-ur, source/wikidata-ghulam-ali, source/wikidata]
 relations:
   - { type: born_in, target: place/sialkot-district, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-ghulam-ali] }
 summary:
