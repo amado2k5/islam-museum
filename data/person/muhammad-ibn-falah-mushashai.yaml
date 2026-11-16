@@ -13,6 +13,12 @@ regions: [persia-central-asia]
 periods: [period/crusades-ayyubid-mamluk]
 born: { edtf: "1400", precision: year, status: tradition, derived: true }
 died: { edtf: "1461", precision: year, status: tradition, derived: true }
+occupations:
+  - job: job/mutakallim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'theologian', Job Browser linking wave 43"
+    sources: [source/al-aalam]
 relations:
   - { type: born_in, target: place/al-ahwaz, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q170366)" }
 sources: [source/al-aalam]

@@ -13,6 +13,12 @@ regions: [levant-iraq]
 periods: [period/buyid-seljuk-fatimid-era]
 born: { edtf: "978", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar Confirmed on 13 November 2026 against Wikidata Q109260140 (P569, a statement with a reference), item revision 2565216881.", sources: [source/wikidata] }
 died: { edtf: "1024", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar Confirmed on 13 November 2026 against Wikidata Q109260140 (P570, a statement with a reference), item revision 2565216881.", sources: [source/wikidata] }
+occupations:
+  - job: job/faqih
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'jurist', Job Browser linking wave 43"
+    sources: [source/al-aalam, source/wikidata]
 relations:
   - { type: born_in, target: place/baghdad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/baghdad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

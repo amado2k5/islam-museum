@@ -13,6 +13,10 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v2.17.0 — 2026-11-17
+### Added
+- Job Browser linking wave 43: 29 `occupations:` edges on 25 person records — fourteen mutakallims (pool effectively finished), eleven faqihs, plus physician, poet (Tahira Qurrat al-Ayn) and historian links.
+
 ## v2.16.0 — 2026-11-17
 ### Added
 - Job Browser linking wave 42: 32 `occupations:` edges on 25 person records — fourteen mutakallims (al-Fadl ibn Shadhan, al-Dawwani), eight faqihs, plus qadi, mufti, grammarian and lexicographer links.

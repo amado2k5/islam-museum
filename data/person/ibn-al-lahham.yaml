@@ -13,6 +13,12 @@ regions: [egypt-nile]
 periods: [period/crusades-ayyubid-mamluk]
 born: { edtf: "1351", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Inba al-Ghumr Agrees with Wikidata Q6534437 (P569, a statement without a reference), item revision 2567175211, read on 13 November 2026.", sources: [source/wikidata] }
 died: { edtf: "1401", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Inba al-Ghumr Confirmed on 13 November 2026 against Wikidata Q6534437 (P570, a statement with a reference), item revision 2567175211.", sources: [source/wikidata] }
+occupations:
+  - job: job/faqih
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'jurist', Job Browser linking wave 43"
+    sources: [source/al-aalam, source/wikidata]
 relations:
   - { type: born_in, target: place/baalbek, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/damascus, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
