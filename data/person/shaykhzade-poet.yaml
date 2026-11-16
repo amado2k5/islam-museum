@@ -11,6 +11,12 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
+occupations:
+  - job: job/mutakallim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'theologian', Job Browser linking wave 43"
+    sources: [source/al-aalam]
 relations:
   - { type: died_in, target: place/istanbul, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q406)" }
 sources: [source/al-aalam]

@@ -13,6 +13,12 @@ regions: [levant-iraq]
 periods: [period/umayyad]
 born: { edtf: "0700~", precision: decade, status: tradition, derived: true }
 died: { edtf: "0737", precision: year, status: tradition, derived: true }
+occupations:
+  - job: job/mutakallim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'theologian', Job Browser linking wave 43"
+    sources: [source/al-aalam]
 relations:
   - { type: died_in, target: place/kufa, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 sources: [source/al-aalam]
