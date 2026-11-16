@@ -15,6 +15,7 @@ open a new block on top with the new version and today's date.
 
 ## v1.73.0 — 2026-11-16
 ### Added
+- Three women of the Indonesian and Malaysian scenes join the modern-figures collection, each with Arabic, English and Urdu prose and its sources showing: the gambus singer Nissa Sabyan, the singer and presenter Mizz Nina, and the nasyid singer Heliza Helmi (wave 200, section C).
 - Job Browser: six more food and market trades — the sherbet-seller (şerbetçi), the milk-seller, the cheese-monger, the sausage-maker (sucukçu), the ship-biscuit-baker (peksimetçi) and the flower-seller — in Arabic, English and Urdu draft cited to Evliya Çelebi, Ibn al-Ukhuwwa, al-Shayzari and Lane.
 
 ## v1.72.0 — 2026-11-16
