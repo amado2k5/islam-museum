@@ -1,0 +1,37 @@
+id: person/ihsan-senocak
+class: person
+label: { ar: "إحسان شنوجاك", en: "İhsan Şenocak", ur: "احسان شینوجاک" }
+names:
+  - { value: "İhsan Şenocak", kind: full }
+  - { value: "إحسان شنوجاك", kind: full }
+gender: male
+summary:
+  ar: "واعظ وباحث وكاتب تركي، وُلد في 5 يوليو 1974 في صامسون، ودرس في كلية الإلهيات بجامعة أوندوكوز مايس حيث نال الماجستير والدكتوراه في الفقه الإسلامي، وخدم في رئاسة الشؤون الدينية، وأسّس مركز إفام للدراسات العلمية والفكرية حيث يدرّس التفسير والحديث والفقه والعقيدة. بلغت قناته على يوتيوب 668,000 مشترك كما في 15 نوفمبر 2026 بحسب vidIQ، وهو عدد منصّة مؤرخ لا حقيقة متحقق منها متحفيًا."
+  en: "Turkish preacher, researcher and writer, born on 5 July 1974 in Samsun. He studied at Ondokuz Mayıs University's theology faculty, where he took his master's and doctorate in Islamic law, served in the Presidency of Religious Affairs, and founded the İFAM research centre, where he teaches tafsir, hadith, fiqh and aqida. His YouTube channel counted 668,000 subscribers as of 15 November 2026 per vidIQ — a dated platform count, not a museum-verified fact."
+  ur: "ترک واعظ، محقق اور مصنف، جو 5 جولائی 1974ء کو صامسون میں پیدا ہوئے، اوندوکوز مایس یونیورسٹی کے شعبۂ الہیات میں پڑھے جہاں اسلامی قانون میں ماسٹرز اور ڈاکٹریٹ کیا، صدارتِ مذہبی امور میں خدمات انجام دیں، اور ایفام تحقیقی مرکز قائم کیا جہاں وہ تفسیر، حدیث، فقہ اور عقیدہ پڑھاتے ہیں۔ vidIQ کے مطابق 15 نومبر 2026ء کو ان کے یوٹیوب چینل کے سبسکرائبر 668,000 تھے — یہ ایک مؤرخہ منصّہ عدد ہے، عجائب گھر کی تصدیق شدہ حقیقت نہیں۔"
+roles: [preacher, writer]
+wings: [people, living]
+regions: [anatolia-balkans]
+born:
+  edtf: "1974-07-05"
+  calendar: gregorian
+  precision: day
+  status: historical
+  note: "Born on 5 July 1974 in Samsun, per the Turkish Wikipedia article's infobox and lead; a Samsun place record exists in the museum, so the born_in edge is written to Samsun itself."
+  sources: [source/wikipedia-ihsan-senocak-tr]
+relations:
+  - { type: born_in, target: place/samsun, sources: [source/wikipedia-ihsan-senocak-tr], note: "Born in Samsun, per the Turkish Wikipedia article." }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No two prose texts attest a school for İhsan Şenocak himself. The Turkish article's infobox records the scholars who influenced him (including Abu Hanifa and Maturidi) and his fields (tasawwuf, fiqh, aqida, tafsir, hadith) — influence and field data are structured data, which never settles faith. The prose texts read — the article's body and the Üsküdar University event report, which calls him a researcher and author — name no school; his formation (an imam-hatip school and a theology doctorate in Islamic law) is formation, and his founding and teaching at the İFAM centre is office; neither counts. Under the doubt rule the value stays unknown."
+    sources: [source/wikipedia-ihsan-senocak-tr, source/uskudar-university-ihsan-senocak]
+reach:
+  - { platform: youtube, metric: subscribers, value: 668000, date: "2026-11-15", note: "@ihsanhocaresmi: 668,000 subscribers, 152,690,098 views and 5,938 videos as of 15 November 2026 per vidIQ, recorded by the wave-203 harvest — a dated platform count, not a museum-verified fact. No person-side founder edge to the İFAM centre is written in this record, per the lane pattern: the centre is catalogued separately as a group where built, and the link is written on the group side.", sources: [source/vidiq-ihsan-senocak, source/youtube-ihsan-senocak] }
+sources: [source/wikipedia-ihsan-senocak-tr, source/uskudar-university-ihsan-senocak, source/vidiq-ihsan-senocak, source/youtube-ihsan-senocak]
+provenance:
+  layer: own-research
+  source: "Built from the wave-203 (Turkish scene) harvest slice A §1 and build-time checks of 16 November 2026: the Turkish Wikipedia article 'İhsan Şenocak' read in full, the Üsküdar University event report, his official website (ihsansenocak.com), and the harvest's vidIQ read of his YouTube channel @ihsanhocaresmi (668,000 subscribers as of 15 November 2026). Qualification rests on that dated count, above the men's bar. The designation re-screen at build found no verified link, endorsement or financial tie to any designated organisation; partisan advocacy-press reporting alleges cooperation with non-designated organisations only, and no blocked organisation is named anywhere in this record. No source read names a school for him in prose, so his faith stays unknown. No Wikidata item was verified in this build — web searches returned no Wikidata item for him and a direct Wikidata search request was refused (HTTP 403), as the harvest also found — so no external identifier is recorded and the absence is recorded here explicitly."
+  generated_by: "Muse (Muse Wonder)"
+  run: modern-figures-wave-203-a
+status: { review: published, completeness: 3 }

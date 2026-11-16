@@ -13,6 +13,12 @@ periods: [period/mongol-post-mongol]
 regions: [egypt-nile]
 born: { edtf: "1413-10~", hijri: "0816-07", calendar: julian, precision: month, status: tradition, derived: true, note: "ولد رجب 816 {cite:shadharat-dhahab p. 261}", sources: [source/shadharat-dhahab] }
 died: { edtf: "1444-04-01~", hijri: "0847-12-12", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي ليلة الاثنين 12 ذي الحجة 847 بالقاهرة {cite:shadharat-dhahab p. 261}", sources: [source/shadharat-dhahab] }
+occupations:
+  - job: job/emir
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'emir', Job Browser linking wave 29"
+    sources: [source/shadharat-dhahab]
 relations:
   - { type: child_of, target: person/jaqmaq-al-zahiri, sources: [source/shadharat-dhahab] }
 

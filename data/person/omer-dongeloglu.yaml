@@ -1,0 +1,45 @@
+id: person/omer-dongeloglu
+class: person
+label: { ar: "عمر دونغل أوغلو", en: "Ömer Döngeloğlu", ur: "عمر دونغل اوغلو" }
+names:
+  - { value: "Ömer Döngeloğlu", kind: full }
+  - { value: "عمر دونغل أوغلو", kind: full }
+gender: male
+summary:
+  ar: "عالم دين وكاتب ومنتج ومقدّم تلفزيوني تركي، وُلد سنة 1968 في زيله بولاية طوكات وتوفي بكوفيد-19 في 3 مايو 2020 في إسطنبول، تخرّج في كلية الإلهيات بجامعة سقاريا، وعمل إمامًا وخطيبًا في طوكات بين 1986 و1996، واشتهر ببرامجه الدينية على قناة كنال 7 وبأبحاثه في السيرة النبوية. قناته على يوتيوب قناة إرث أُنشئت بعد وفاته وبلغت 339,000 مشترك كما في 15 نوفمبر 2026 بحسب vidIQ، وهو عدد منصّة مؤرخ لا حقيقة متحقق منها متحفيًا."
+  en: "Turkish theologian, writer, producer and television presenter, born in 1968 in Zile, Tokat, and died of COVID-19 on 3 May 2020 in Istanbul. He graduated from Sakarya University's theology faculty, worked as an imam-hatip in Tokat between 1986 and 1996, and was known for his religious programmes on Kanal 7 and his research on the sirah. His YouTube channel is a posthumous legacy channel, created after his death, which counted 339,000 subscribers as of 15 November 2026 per vidIQ — a dated platform count, not a museum-verified fact."
+  ur: "ترک عالمِ دین، مصنف، پروڈیوسر اور ٹیلی ویژن میزبان، جو 1968ء میں طوکات کے علاقے زیلے میں پیدا ہوئے اور 3 مئی 2020ء کو استنبول میں کووڈ-19 سے وفات پائی، سقاریا یونیورسٹی کے شعبۂ الہیات سے فارغ التحصیل ہوئے، 1986ء تا 1996ء طوکات میں امام خطیب رہے، اور کنال 7 پر اپنے دینی پروگراموں اور سیرت پر اپنی تحقیق کے لیے جانے گئے۔ ان کا یوٹیوب چینل ان کی وفات کے بعد قائم ہوا میراثی چینل ہے؛ vidIQ کے مطابق 15 نومبر 2026ء کو اس کے سبسکرائبر 339,000 تھے — یہ ایک مؤرخہ منصّہ عدد ہے، عجائب گھر کی تصدیق شدہ حقیقت نہیں۔"
+roles: [preacher, writer, presenter]
+wings: [people]
+regions: [anatolia-balkans]
+born:
+  edtf: "1968"
+  calendar: gregorian
+  precision: year
+  status: historical
+  note: "Born in 1968 in Zile, a district of Tokat, per all five Wikipedia articles read. The day of his birth is not recorded: the Turkish and Dutch articles give 1 June 1968 while the English article gives 20 June 1968, and the Simple English and Zazaki articles give the year only — with the editions in conflict, no day is asserted. No place record for Zile exists in the museum, so the born_in edge is written to Tokat."
+  sources: [source/wikipedia-omer-dongeloglu-en, source/wikipedia-omer-dongeloglu-tr, source/wikipedia-omer-dongeloglu-nl, source/wikipedia-omer-dongeloglu-simple, source/wikipedia-omer-dongeloglu-diq]
+died:
+  edtf: "2020-05-03"
+  calendar: gregorian
+  precision: day
+  status: historical
+  note: "Died on 3 May 2020 in Başakşehir, Istanbul, where he was being treated for COVID-19, per the English and Turkish articles (the English article cites the Anadolu Agency obituary); he was buried at Edirnekapı Martyr's Cemetery in Istanbul. The articles give his age as 51 (the Simple English article says 52), so no age is recorded. No place record for Başakşehir exists in the museum, so the died_in edge is written to Istanbul."
+  sources: [source/wikipedia-omer-dongeloglu-en, source/wikipedia-omer-dongeloglu-tr]
+relations:
+  - { type: born_in, target: place/tokat, sources: [source/wikipedia-omer-dongeloglu-en, source/wikipedia-omer-dongeloglu-tr], note: "Born in Zile, a district of Tokat province; the edge is written to the Tokat place record." }
+  - { type: died_in, target: place/istanbul, sources: [source/wikipedia-omer-dongeloglu-en, source/wikipedia-omer-dongeloglu-tr], note: "Died in Başakşehir, a district of Istanbul; the edge is written to the Istanbul place record." }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No two prose texts attest a school for Ömer Döngeloğlu himself. The English article's infobox lists denomination, jurisprudence and creed fields (Sunni, Hanafi, Maturidi) — structured data, which never settles faith; the Turkish, Dutch and Zazaki infoboxes record his religion as Islam only. The prose of all five articles read, and his official website's biography, name no school; his formation (an imam-hatip school and a theology degree) is formation, and his preaching post is office; neither counts. Under the doubt rule the value stays unknown."
+    sources: [source/wikipedia-omer-dongeloglu-en, source/wikipedia-omer-dongeloglu-tr, source/official-site-omer-dongeloglu]
+reach:
+  - { platform: youtube, metric: subscribers, value: 339000, date: "2026-11-15", note: "@omerdongelogluondengidenler ('Ömer Döngeloğlu ile Önden Gidenler'): 339,000 subscribers, 183,631,719 views and 5,083 videos as of 15 November 2026 per vidIQ, recorded by the wave-203 harvest — a dated platform count, not a museum-verified fact. This is a posthumous legacy channel: vidIQ dates its start to 28 October 2021, more than a year after his death, and it carries recordings of his Kanal 7 programmes; it is not a channel he ran in life, and the count is recorded on that basis.", sources: [source/vidiq-omer-dongeloglu, source/youtube-omer-dongeloglu] }
+sources: [source/wikipedia-omer-dongeloglu-en, source/wikipedia-omer-dongeloglu-tr, source/wikipedia-omer-dongeloglu-simple, source/wikipedia-omer-dongeloglu-diq, source/wikipedia-omer-dongeloglu-nl, source/official-site-omer-dongeloglu, source/vidiq-omer-dongeloglu, source/youtube-omer-dongeloglu]
+provenance:
+  layer: own-research
+  source: "Built from the wave-203 (Turkish scene) harvest slice A §4 and build-time checks of 16 November 2026: the English, Turkish, Simple English, Zazaki and Dutch Wikipedia articles on Ömer Döngeloğlu, each read in full (the Dutch article was found at build, beyond the four editions the harvest listed), his official website's biography as cited by the articles, and the harvest's vidIQ read of the legacy YouTube channel @omerdongelogluondengidenler (339,000 subscribers as of 15 November 2026). Qualification rests on that dated count, above the men's bar, framed as a posthumous legacy channel because vidIQ dates the channel's start to 28 October 2021, after his death. The designation screen at build found no verified link, endorsement or financial tie to any designated organisation. His birth day is left unrecorded because the language editions conflict (1 June in the Turkish and Dutch articles, 20 June in the English). No source read names a school for him in prose, so his faith stays unknown. No Wikidata item was verified in this build — web searches returned no Wikidata item for him and a direct Wikidata search request was refused (HTTP 403), as the harvest also found — so no external identifier is recorded and the absence is recorded here explicitly."
+  generated_by: "Muse (Muse Wonder)"
+  run: modern-figures-wave-203-a
+status: { review: published, completeness: 3 }

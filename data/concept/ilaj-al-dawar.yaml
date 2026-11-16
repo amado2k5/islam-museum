@@ -1,0 +1,23 @@
+id: concept/ilaj-al-dawar
+class: concept
+kind: scientific
+label:
+  ar: "علاج الدوار"
+  en: "Treatment of vertigo (dawar)"
+  ur: "دوار کا علاج"
+summary:
+  ar: "يذكر ابن سينا علاج الدوار بحسب سببه: السكون والنوم لما كان عن الدوران والنظر، واستفراغ الدم والأخلاط للمادي، ومعالجة العضو الأصل، وعلاج الضربة أولاً، وأن يجتنب صاحبه النظر إلى الدائر والإشراف من العلو؛ ولا تُنقل الوصفات ولا الإجراءات {cite:canon-ibn-sina-print-v2 p.116} {cite:canon-ibn-sina-print-v2 p.117}"
+  en: "Ibn Sina gives the treatment of vertigo by its cause: stillness and sleep for what came from turning and looking, evacuation of blood and humours for the material kind, treatment of the source organ, treating a blow first, and that the sufferer keep from looking at what turns and from looking down from a height; recipes and procedures are not reproduced {cite:canon-ibn-sina-print-v2 p.116} {cite:canon-ibn-sina-print-v2 p.117}"
+  ur: "ابن سینا سبب کے لحاظ سے دوار کا علاج بتاتا ہے: گھومنے اور دیکھنے سے ہونے والے کے لیے سکون اور نیند، مادی کے لیے خون اور اخلاط کا استفراغ، اصل عضو کا علاج، چوٹ کا پہلے علاج، اور یہ کہ مریض گھومتی چیز کو دیکھنے اور بلندی سے جھانکنے سے بچے؛ نسخے اور کارروائیاں نقل نہیں کی گئیں {cite:canon-ibn-sina-print-v2 p.116} {cite:canon-ibn-sina-print-v2 p.117}۔"
+wings: [living]
+tags: [tibb-browser, tibb-tibb, tibb-tadawi]
+sources: [source/canon-ibn-sina-print-v2]
+relations:
+  - { type: part_of, target: concept/medical-treatment, sources: [source/canon-ibn-sina-print-v2] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 1, maqala 4 and 5, scan pages 116 to 117, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json) with the PDF page images rendered with pdftoppm and read by eye against the OCR for every cited page (lists of signs and unclear words at 200 to 220 dpi); editor footnotes used only for glosses and labelled as the editor's; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein and cupping sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book3-5
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

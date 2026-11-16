@@ -11,6 +11,17 @@ summary:
 wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [levant-iraq]
+occupations:
+  - job: job/adib
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'adib', Job Browser linking wave"
+    sources: [source/wafayat-ayan]
+  - job: job/grammarian
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'philologist', Job Browser linking wave"
+    sources: [source/wafayat-ayan]
 relations:
   - { type: lived_in, target: place/aleppo, sources: [source/wafayat-ayan] }
 sources: [source/wafayat-ayan]

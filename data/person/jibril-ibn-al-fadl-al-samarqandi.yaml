@@ -10,6 +10,17 @@ summary:
 wings: [people]
 periods: [period/abbasid-early]
 regions: [persia-central-asia]
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 36"
+    sources: [source/muntazam-ibn-al-jawzi]
+  - job: job/muhaddith
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'muhaddith', Job Browser linking wave 36"
+    sources: [source/muntazam-ibn-al-jawzi]
 relations:
   - { type: traveled_to, target: place/baghdad, confidence: high, note: "Ibn al-Jawzi, al-Muntazam, vol. 13 p. 184: came to Baghdad on pilgrimage in 292 AH", sources: [source/muntazam-ibn-al-jawzi] }
 sources: [source/muntazam-ibn-al-jawzi]

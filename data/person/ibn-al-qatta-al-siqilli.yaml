@@ -10,6 +10,12 @@ gender: male
 roles: [philologist]
 wings: [people]
 periods: [period/buyid-seljuk-fatimid-era]
+occupations:
+  - job: job/grammarian
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'philologist', Job Browser linking wave 46"
+    sources: [source/wafayat-ayan]
 relations:
   - { type: lived_in, target: place/jazira, confidence: low, note: "Associated with الجزيرة per the record's own summary text; relation type pending review.", sources: [source/wafayat-ayan] }
 provenance:

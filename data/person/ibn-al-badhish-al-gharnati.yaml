@@ -15,6 +15,17 @@ wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [andalus-europe]
 died: { edtf: "1145", hijri: "0540", calendar: julian, precision: year, status: tradition, derived: true, note: "Year as printed in al-Nashr; Julian year derived by tabular conversion.", sources: [source/nashr-dahman-damascus-1345-v1] }
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 27"
+    sources: [source/nashr-dahman-damascus-1345-v1]
+  - job: job/teacher
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'teacher', Job Browser linking wave 27"
+    sources: [source/nashr-dahman-damascus-1345-v1]
 relations:
   - { type: lived_in, target: place/granada, confidence: high, note: "Ibn al-Jazari, al-Nashr, p. 97: al-Gharnati; he died in Granada in Jumada II 540.", sources: [source/nashr-dahman-damascus-1345-v1] }
 sources: [source/nashr-dahman-damascus-1345-v1]

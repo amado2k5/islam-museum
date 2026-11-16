@@ -26,5 +26,11 @@ provenance:
 status:
   review: draft
   completeness: 1
+occupations:
+  - job: job/mutakallim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'theologian', Job Browser linking wave 43"
+    sources: [source/tarikh-islam-hasan-ibrahim, source/wikidata]
 relations:
   - { type: lived_in, target: place/iraq, note: "Place association from the person's nisba/name (العراقي); denotes association, not proven residence.", sources: [source/tarikh-islam-hasan-ibrahim], confidence: low }

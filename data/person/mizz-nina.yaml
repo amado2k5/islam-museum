@@ -1,0 +1,46 @@
+id: person/mizz-nina
+class: person
+names:
+  - { kind: full, value: "Shazrina binti Azman" }
+  - { kind: full, value: "شزرينا بنت أزمان" }
+  - { kind: alternate, value: "Mizz Nina" }
+label: { ar: "ميز نينا", en: "Mizz Nina", ur: "میز نینا" }
+summary:
+  ar: "مغنية ومقدمة برامج ماليزية سابقة تحوّلت إلى العمل الدعوي والإنساني، وُلدت باسم شزرينا بنت أزمان في كوالالمبور في 1 يوليو 1980. شاركت في تأسيس قناة دوبس تي في ⁦(Dopstv)⁩ للحياة الإسلامية سنة 2016، وطوّرت تطبيق قلبِي ⁦(QalbyApp)⁩، وترأس مؤسسة من قلبي ⁦(Min Qalby Foundation)⁩ الإنسانية. بلغ حسابها على منصة إكس 326,000 متابع بحسب مرآة ملفات Instalker التي زُحفت نحو 13 نوفمبر 2026."
+  en: "Malaysian former singer and television host turned dawah and humanitarian figure, born Shazrina binti Azman in Kuala Lumpur on 1 July 1980. She co-founded the Islamic lifestyle channel Dopstv in 2016, developed the QalbyApp, and chairs the Min Qalby Foundation. Her X account counted 326,000 followers by the Instalker profile mirror crawled about 13 November 2026."
+  ur: "مالیسیائی سابق گلوکارہ اور ٹیلی ویژن میزبان جو دعوت اور انسانی خدمت کی طرف متوجہ ہوئیں؛ یکم جولائی 1980ء کو کوالالمپور میں شزرينا بنت أزمان کے نام سے پیدا ہوئیں۔ انہوں نے 2016ء میں اسلامی طرزِ زندگی کے چینل Dopstv کی بنیاد رکھنے میں حصہ لیا، QalbyApp تیار کیا، اور Min Qalby Foundation کی سربراہ ہیں۔ ان کے ایکس اکاؤنٹ کے فالوور تقریباً 13 نومبر 2026ء کو کرال کی گئی Instalker مرر کے مطابق 326,000 تھے۔"
+gender: female
+roles: [singer, presenter, activist]
+wings: [people, living]
+regions: [southeast-asia]
+born:
+  edtf: "1980-07-01"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Gregorian date and Kuala Lumpur birthplace from the English Wikipedia article. No Hijri date is recorded in the sources used, so none is printed."
+  sources: [source/wikipedia-mizz-nina-en]
+occupations:
+  - job: job/singer
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'singer', Job Browser linking wave 18"
+    sources: [source/wikipedia-mizz-nina-en, source/x-mizz-nina, source/british-muslim-magazine-qalbyapp-2023, source/minqalby-foundation-about]
+relations:
+  - { type: born_in, target: place/kuala-lumpur, sources: [source/wikipedia-mizz-nina-en] }
+  - { type: lived_in, target: place/kuala-lumpur, sources: [source/wikipedia-mizz-nina-en], note: "Her career, labels and foundations are Kuala Lumpur-based in the sources used." }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No text read in this run attests a school or order for Mizz Nina herself. The English Wikipedia article names no school; her pilgrimage in 2013, her retirement from singing and her dawah and humanitarian work since are biography and practice, not a school attestation, and under this lane's doctrine neither milieu nor practice in the abstract settles a value. Not recorded as any school until two independent texts confirm one."
+    sources: [source/wikipedia-mizz-nina-en, source/minqalby-foundation-about]
+reach:
+  - { platform: x, metric: followers, value: 326000, date: "2026-11-13", note: "@TheRealMizznina: 326,000 followers by the Instalker profile mirror, crawled about two days before the wave-200 harvest read it on 15 November 2026. This is a mirror-crawl figure, a grade below a first-party statistics read, and is recorded with that caveat. An influencer-pricing page's claim of 'over 1 million' Instagram followers is undated marketing and is not relied on. The figure is a dated platform count, not a museum-verified fact", sources: [source/x-mizz-nina] }
+sources: [source/wikipedia-mizz-nina-en, source/x-mizz-nina, source/british-muslim-magazine-qalbyapp-2023, source/minqalby-foundation-about]
+provenance:
+  layer: own-research
+  source: "Built from the wave-200 (Indonesian/Malay scene) harvest §4.2 (researched 15 November 2026), the English Wikipedia article read in full at build on 15 November 2026, a British Muslim Magazine feature of 15 March 2023 on the QalbyApp, and the Min Qalby Foundation's own About page, read at build. Biography per the article: born Shazrina binti Azman on 1 July 1980 in Kuala Lumpur; co-founded the Teh Tarik Crew in 1999; solo albums 'What You Waiting For' (2010) and 'Takeover' (2012); performed the hajj in 2013 and retired from singing, as The Star reported in January 2014; in 2016 she and two partners founded DOPS (Deen of Peace Studios) TV — Dopstv — which has produced TV series and talk shows; she designs for her own labels Mizz Demeanor and Madeena Clothing. The QalbyApp rests on the magazine feature, which credits her with developing it; the Min Qalby Foundation rests on the foundation's own About page, whose chairwoman's message is signed Shazrina Azman and dates her humanitarian work from 2014. Qualification: she clears the women's bar (~50,000) on the X mirror count of 326,000 followers (Instalker, crawled about 13 November 2026), recorded WITH the mirror caveat; the undated 'over 1 million Instagram followers' claim on an influencer-pricing page (published 5 May 2025) was read and is expressly not relied on. Disclosed imperfections: no Arabic Wikipedia article on her was found, and none is registered; no Wikidata item for her could be verified in this environment, so no Wikidata source entity is registered and no identifier is recorded; the article's numeric revision ID could not be retrieved, so it is dated by its read date. Personal life is kept to what understanding her public turn requires: the article's marriage details are not carried beyond the 2013 pilgrimage, which the sources themselves make the hinge of her story. De-duplicated against the tree: no mizz-nina record existed."
+  generated_by: "Muse (Muse Wonder)"
+  run: "modern-figures-wave-200-C"
+status: { review: published, generated_by: "Muse (Muse Wonder)" }

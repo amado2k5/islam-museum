@@ -1,0 +1,33 @@
+id: "concept/asbab-al-khadar"
+class: "concept"
+kind: "scientific"
+label:
+  ar: "أسباب الخدر"
+  en: "Causes of numbness"
+  ur: "خدر کے اسباب"
+summary:
+  ar: "أسباب الخدر من جهة القوة كضعفها في الحميات القوية وعند الغشي وقرب الموت، ومن جهة الآلة كإفساد مزاجها ببرد أو حر شديدين أو غلظ جوهر العصب أو سدد الأخلاط الغليظة أو ضغط الورم والرباط والوضع أو انصباب الدم، وقد تكون في الدماغ نفسه أو النخاع أو فقرة أو شعبة عصب {cite:canon-ibn-sina-print-v2 p.159}"
+  en: "The causes of numbness are from the power's side — its weakening in strong acute fevers, at the point of syncope and near death — or from the instrument's side: corrupting its temper by severe cold or severe heat, thickness of the nerve's substance, thick-humour obstructions, the pressure of a swelling, ligature or posture, or effused blood blocking the passages; and the causes may be in the brain itself, the spinal cord, one vertebra or a nerve's branch {cite:canon-ibn-sina-print-v2 p.159}"
+  ur: "خدر کے اسباب یا تو قوت کی طرف سے ہیں — مضبوط شدید بخاروں میں اس کا کمزور ہونا، غشی کے قریب اور موت کے نزدیک — یا آلہ کی طرف سے: شدید سردی یا شدید گرمی سے مزاج کا فاسد ہونا، عصب کے جوہر کی کثافت، موٹی اخلاط کی سدد، ورم، بندھن یا وضع کے دباؤ، یا راستوں کو روکنے والا اچھالا ہوا خون؛ اور اسباب خود دماغ میں، نخاع میں، ایک فقرے یا عصب کی شاخ میں بھی ہو سکتے ہیں {cite:canon-ibn-sina-print-v2 p.159}"
+wings:
+- "living"
+tags:
+- "tibb-browser"
+- "tibb-tibb"
+sources:
+- "source/canon-ibn-sina-print-v2"
+relations:
+- type: "part_of"
+  target: "concept/disease"
+  sources:
+  - "source/canon-ibn-sina-print-v2"
+provenance:
+  layer: "own-research"
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 2 (nerve diseases) end of maqala 1 and Fann 3 (the eye's anatomy, states and diseases) maqalat 1-2, scan pages 159, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json); editor glosses used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping, cautery and artery sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, semen, coitus and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Devin subagent (SWE-2 Medium, Lane A4 worker)"
+  model: "swe-2-medium"
+  run: "a4-canon-book3-8"
+status:
+  review: "published"
+  completeness: 1
+  generated_by: "Devin subagent (SWE-2 Medium, book mining, lane A4)"

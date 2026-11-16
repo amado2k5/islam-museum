@@ -23,6 +23,17 @@ born:
   derived: true
   note: "Gregorian date and birthplace (Jeddah) from Mawdoo3's profile; the Hijri year (1403) is derived from the Gregorian date."
   sources: [source/mawdoo3-mansour-al-salmi]
+occupations:
+  - job: job/preacher
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'preacher', Job Browser linking wave 24"
+    sources: [source/mawdoo3-mansour-al-salmi, source/youtube-sheikhmansouralsalmi, source/storytel-mansour-al-salimi]
+  - job: job/qari
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'reciter', Job Browser linking wave 24"
+    sources: [source/mawdoo3-mansour-al-salmi, source/youtube-sheikhmansouralsalmi, source/storytel-mansour-al-salimi]
 relations:
   - { type: born_in, target: place/jeddah, sources: [source/mawdoo3-mansour-al-salmi] }
   - { type: lived_in, target: place/jeddah, sources: [source/mawdoo3-mansour-al-salmi] }

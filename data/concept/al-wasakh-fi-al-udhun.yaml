@@ -1,0 +1,33 @@
+id: "concept/al-wasakh-fi-al-udhun"
+class: "concept"
+kind: "scientific"
+label:
+  ar: "الوسخ في الأذن والسدة الكائنة منه"
+  en: "Dirt in the ear and the occlusion it makes"
+  ur: "کان میں میل اور اس سے ہونے والا سد"
+summary:
+  ar: "علاج الوسخ في الأذن الخفيف تقطير ما يعرف فيها خاصة ليلاً ودخول الحمام ووضع الأذن على الأرض الحارة ليذوب الوسخ، ومنها ما يتخذ منه فتيلة ومنها ما يصب ومنها ما يذاب ويقطر، والفتائل القوية لا تستعمل إلا بعد الاستفراغ؛ وقد زعم قوم أن الكافور شديد النفع من الطرش ويشبه أن يكون للمراري، وما جرب زيت العقارب فإنه يبرئ الصمم ⁦⁦(أسماء الأدوية والفتائل ومقاديرها لا تحمل، والأقوال منقولة كأقوال منسوبة)⁩⁩ {cite:canon-ibn-sina-print-v2 p.229}"
+  en: "The light treatment of ear dirt: dropping the known oil in it, especially at night, entering the bath and laying the ear on the hot ground so the dirt melts; some is made into tents, some poured, some dissolved and dropped — the strong tents are used only after evacuation. Some have claimed camphor is strongly beneficial in hardness of hearing, likely for the bilious kind; scorpion oil, when tried, cures deafness ⁦(drug and tent names and measures are not carried; the sayings are transmitted as attributed)⁩ {cite:canon-ibn-sina-print-v2 p.229}"
+  ur: "کان کی میل کا ہلکا علاج: اس میں معروف تیل ٹپکانا خصوصاً رات میں، حمام میں جانا اور کان کو گرم زمین پر رکھنا تاکہ میل پگھل جائے؛ بعض سے فتیلہ بنایا جاتا ہے، بعض ڈالا جاتا ہے، بعض گھول کر ٹپکایا جاتا ہے — اور قوی فتیلے صرف استفراغ کے بعد استعمال ہوتے ہیں؛ اور بعض لوگوں نے کہا کہ کافور سختی سماعت میں نہایت مفید ہے اور غالباً مراری کے لیے ہے؛ اور بچھو کا تیل آزمانے پر بہرہ پن شفا دیتا ہے ⁦⁦(ادویہ اور فتیلوں کے نام اور مقدار منقول نہیں؛ اقوال منسوب کے طور پر منقول)⁩⁩ {cite:canon-ibn-sina-print-v2 p.229}"
+wings:
+- "living"
+tags:
+- "tibb-browser"
+- "tibb-tibb"
+sources:
+- "source/canon-ibn-sina-print-v2"
+relations:
+- type: "part_of"
+  target: "concept/disease"
+  sources:
+  - "source/canon-ibn-sina-print-v2"
+provenance:
+  layer: "own-research"
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, end of Fann 3 (the eye) and Fann 4 (the ear, one maqala), scan pages 229, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json, copied to /tmp before reading); editor footnotes used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping, cautery and operative sites and application methods left out; the couching and incision hand-works carried only as the book's descriptions, not as procedures; unclear OCR words carried as printed, not guessed; case reports carried as the book's transmitted reports and labelled; coitus and woman's-milk lines kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Devin subagent (SWE-2 Medium, Lane A4 worker)"
+  model: "swe-2-medium"
+  run: "a4-canon-book3-11"
+status:
+  review: "published"
+  completeness: 1
+  generated_by: "Devin subagent (SWE-2 Medium, book mining, lane A4)"

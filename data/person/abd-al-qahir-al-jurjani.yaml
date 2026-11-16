@@ -22,5 +22,16 @@ external_ids:
   viaf: "9918029"
 sources: [source/shadharat-dhahab, source/wikidata]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 41"
+    sources: [source/shadharat-dhahab, source/wikidata]
+  - job: job/mutakallim
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'theologian', Job Browser linking wave 41"
+    sources: [source/shadharat-dhahab, source/wikidata]
 relations:
   - { type: lived_in, target: place/jurjan, note: "Place association from the person's nisba/name (الجرجاني); denotes association, not proven residence.", sources: [source/shadharat-dhahab], confidence: low }

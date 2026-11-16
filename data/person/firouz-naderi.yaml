@@ -30,6 +30,12 @@ died:
   derived: true
   note: "Died at Los Angeles on 9 June 2023, after a May 2023 fall and cardiac episode left him paralysed; the English article and Wikidata agree, and the item's preferred death-place value is Los Angeles. The Hijri year (1444) is derived by tabular conversion. No died_in relation is written: Los Angeles has no museum place entity."
   sources: [source/wikipedia-naderi-en, source/wikidata-naderi]
+occupations:
+  - job: job/engineer
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'engineer', Job Browser linking wave"
+    sources: [source/wikipedia-naderi-en, source/wikipedia-naderi-fa, source/wikipedia-naderi-ar, source/wikidata-naderi, source/wikidata]
 relations:
   - { type: born_in, target: place/shiraz, sources: [source/wikipedia-naderi-en, source/wikidata-naderi] }
 faith:

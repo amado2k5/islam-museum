@@ -18,6 +18,12 @@ born:
   edtf: '1972'
   calendar: gregorian
   precision: year
+occupations:
+  - job: job/musician
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'musician', Job Browser linking wave 21"
+    sources: [source/wikidata]
 relations:
   - { type: born_in, target: place/kitchener, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 external_ids:

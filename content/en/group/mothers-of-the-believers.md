@@ -16,3 +16,6 @@ Al-Mubarakpuri explains this number was not from lust: the Prophet spent some th
 
 ## For young visitors
 The Qur'an called the Prophet's wives "Mothers of the Believers"; they were eleven ladies who transmitted the Prophet's household news and teachings in the finest details of daily life.
+
+## In The Oxford Dictionary of Islam
+The entry on the wives of the Prophet reports, on the authority of Ibn Hisham the biographer (d. 834), thirteen marriages. Nine wives were Arab — Khadijah bint Khuwaylid, Sawda bint Zama, Aishah bint Abi Bakr, Hafsah bint Umar, Zaynab bint Khuzaymah, Umm Salama (Hind bint Abi Umayya), Zaynab bint Jahsh, Maymunah bint al-Harith and Juwayriyah bint al-Harith, six being Qurashi — while Safiyah bint Huyay and Rayhanah bint Zayd came from Jewish tribes, with some doubt attached to Rayhanah's marriage; Asma bint al-Numan and Amrah bint Yazid were divorced before consummation. Nine wives and the consort Maryam the Copt outlived him in 632. Named 'Mothers of the Faithful' in the Quran at 33:6 and barred from remarrying after him (33:53), they are exemplars for Muslim women; especially Aishah and Umm Salama carried many hadiths that shaped the Sunnah. {cite:oxford-dictionary-of-islam e2508}

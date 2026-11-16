@@ -18,6 +18,12 @@ periods:
 regions:
 - arabia
 died: { edtf: "580~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Naqa'id Jarir wa-al-Farazdaq" }
+occupations:
+  - job: job/emir
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'emir', Job Browser linking wave 30"
+    sources: [source/kamil-ibn-al-athir]
 relations:
 - type: member_of
   target: group/banu-darim

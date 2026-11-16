@@ -46,6 +46,12 @@ kids:
   ur: "المنصور دوسرے عباسی خلیفہ اور بغداد شہر السلام کے بانی تھے — انہوں نے عباسی ریاست کی بنیادیں رکھی۔"
 born: { edtf: "714", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Mansur' / Hugh Kennedy; 95–158 AH) Confirmed on 13 November 2026 against Wikidata Q31066 (P569, a statement with a reference), item revision 2565547866.", sources: [source/wikidata] }
 died: { edtf: "775", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Mansur' / Hugh Kennedy; 95–158 AH) Confirmed on 13 November 2026 against Wikidata Q31066 (P570, a statement with a reference), item revision 2565547866.", sources: [source/wikidata] }
+occupations:
+  - job: job/caliph
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'caliph', Job Browser linking wave"
+    sources: [source/futuh-buldan-maarif-1407, source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab, source/farghani-elements-astronomy, source/tarikh-khalifa-umari-1985, source/tdv-bagdat-duri, source/lestrange-baghdad-1900, source/baladhuri-hitti-1916, source/commons-round-city-lestrange, source/nomisma, source/wikidata]
 relations:
   - { type: ruled_over, target: polity/abbasid-caliphate, sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: successor_of, target: person/abu-al-abbas-al-saffah, sources: [source/tarikh-khulafa-minhaj-1434] }

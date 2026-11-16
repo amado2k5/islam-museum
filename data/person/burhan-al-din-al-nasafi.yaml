@@ -26,6 +26,17 @@ provenance:
 status:
   review: draft
   completeness: 3
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 40"
+    sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'faqih', Job Browser linking wave 40"
+    sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 relations:
   - { type: buried_in, target: place/al-khaisaran-cemetery, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata], confidence: medium }
   - { type: lived_in, target: place/baghdad, note: "al-Zirikli, al-A'lam, vol. 7 p. 31: he lived in Baghdad", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }

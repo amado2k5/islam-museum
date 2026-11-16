@@ -13,6 +13,17 @@ regions: [levant-iraq]
 periods: [period/crusades-ayyubid-mamluk]
 born: { edtf: "1185", calendar: gregorian, precision: year, derived: true, note: "580 AH = 1185 CE as printed in the entry; the card had 1184; source: al-Zirikli, al-A'lam, 15th ed. 2002, vol. 8 p. 236", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 died: { edtf: "1258", calendar: gregorian, precision: year, derived: true, note: "656 AH = 1258 CE as printed in the entry; source: al-Zirikli, al-A'lam, 15th ed. 2002, vol. 8 p. 236", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave"
+    sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
+  - job: job/diplomat
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'diplomat', Job Browser linking wave"
+    sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 relations:
   - { type: born_in, target: place/baghdad, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1530)" }
   - { type: lived_in, target: place/baghdad, sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium, note: "The entry calls him a man of Baghdad and says the Mongols killed him outside Baghdad when Hulagu entered it (al-A'lam vol. 8 p. 236)." }

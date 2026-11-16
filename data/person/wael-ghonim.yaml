@@ -21,6 +21,12 @@ born:
   derived: true
   note: "Born on 23 December 1980 in Cairo, given identically by the English Wikipedia article and Encyclopaedia Britannica. The Hijri year (1401) is derived by tabular conversion."
   sources: [source/wikipedia-wael-ghonim-en, source/britannica-wael-ghonim]
+occupations:
+  - job: job/engineer
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'engineer', Job Browser linking wave"
+    sources: [source/wikipedia-wael-ghonim-en, source/wikipedia-wael-ghonim-ar, source/britannica-wael-ghonim]
 relations:
   - { type: born_in, target: place/cairo, sources: [source/wikipedia-wael-ghonim-en, source/britannica-wael-ghonim] }
   - { type: lived_in, target: place/cairo, sources: [source/wikipedia-wael-ghonim-en] }

@@ -43,6 +43,12 @@ faith:
 external_ids:
   wikidata: Q4469911
   viaf: "6008153472531445360001"
+occupations:
+  - job: job/emir
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'emir', Job Browser linking wave"
+    sources: [source/wikipedia-uzun-haji-en, source/wikipedia-uzun-haji-ru, source/wikipedia-uzun-haji-ar, source/wikipedia-uzun-haji-ur, source/wikidata-uzun-haji, source/wikidata]
 relations:
   - { type: died_in, target: place/vedeno, sources: [source/wikidata-uzun-haji], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q2312752)" }
 sources:

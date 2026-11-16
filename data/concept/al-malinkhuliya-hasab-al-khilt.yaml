@@ -1,0 +1,23 @@
+id: concept/al-malinkhuliya-hasab-al-khilt
+class: concept
+kind: scientific
+label:
+  ar: "المالنخوليا بحسب الخلط الفاعل لها"
+  en: "Melancholia by the humour that makes it"
+  ur: "فاعل خلط کے لحاظ سے مالنخولیا"
+summary:
+  ar: "يقول ابن سينا إن السوداء الفاعلة للمالنخوليا إن كانت دموية كان معها فرح وضحك، وإن كانت من بلغم كان كسل وسكون، وإن كانت من صفراء كان اضطراب وأدنى جنون، وإن كانت سوداء صرفاً كان الفكر كثيراً {cite:canon-ibn-sina-print-v2 p.107}"
+  en: "Ibn Sina says that if the black bile that makes melancholia is bloody it comes with joy and laughter, if from phlegm with laziness and stillness, if from bile with agitation and a touch of madness, and if pure black bile there is much thought {cite:canon-ibn-sina-print-v2 p.107}"
+  ur: "ابن سینا کہتا ہے کہ مالنخولیا بنانے والا سودا اگر دموی ہو تو خوشی اور ہنسی ساتھ ہوتی ہے، بلغم سے ہو تو سستی اور سکون، صفراء سے ہو تو اضطراب اور ہلکا جنون، اور خالص سودا ہو تو فکر بہت ہوتی ہے {cite:canon-ibn-sina-print-v2 p.107}۔"
+wings: [living]
+tags: [tibb-browser, tibb-tibb]
+sources: [source/canon-ibn-sina-print-v2]
+relations:
+  - { type: part_of, target: concept/symptoms-and-signs, sources: [source/canon-ibn-sina-print-v2] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 1, maqala 4 and 5, scan page 107, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json) with the PDF page images rendered with pdftoppm and read by eye against the OCR for every cited page (lists of signs and unclear words at 200 to 220 dpi); editor footnotes used only for glosses and labelled as the editor's; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein and cupping sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book3-5
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

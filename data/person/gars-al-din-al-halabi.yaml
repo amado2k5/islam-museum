@@ -35,6 +35,12 @@ died: { edtf: "1563", hijri: "0971", calendar: gregorian, precision: year, statu
 wings: [people]
 themes: [astronomy-and-timekeeping]
 regions: [levant-iraq]
+occupations:
+  - job: job/astronomer
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'astronomer', Job Browser linking wave 49"
+    sources: [source/heinen-islamic-cosmology, source/tdv-ibnun-nakib-el-halebi]
 relations:
   - { type: lived_in, target: place/iraq, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/heinen-islamic-cosmology] }
   - { type: authored, target: work/tanbih-al-naqqad, sources: [source/heinen-islamic-cosmology] }

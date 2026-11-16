@@ -32,6 +32,21 @@ occupations:
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; Ibn Khallikan, Wafayat al-A'yan, vol. 3 p. 281, one report calls him chief judge at Rayy"
     sources: [source/al-aalam, source/wafayat-ayan]
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave"
+    sources: [source/al-aalam, source/wikidata, source/wafayat-ayan]
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'jurist', Job Browser linking wave"
+    sources: [source/al-aalam, source/wikidata, source/wafayat-ayan]
+  - job: job/poet
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'poet', Job Browser linking wave"
+    sources: [source/al-aalam, source/wikidata, source/wafayat-ayan]
 born: { edtf: "934", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khallikan (Wafayat). The entry itself gives no birth year; its al-Hakim report (died 366 AH aged 76) would imply about 290 AH, which does not agree with the card. Agrees with Wikidata Q6538289 (P569, a statement without a reference), item revision 2560157526, read on 13 November 2026.", sources: [source/wikidata] }
 died: { edtf: "1002", hijri: "0392", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khallikan (Wafayat) Confirmed on 13 November 2026 against Wikidata Q6538289 (P570, a statement with a reference), item revision 2560157526. Ibn Khallikan prints two years: 366 AH at Nishapur from al-Hakim and 392 AH at Rayy from another report, and prefers al-Hakim {cite:wafayat-ayan vol. 3 p. 281}; the card keeps 392 AH, which falls in 1001-1002 CE.", sources: [source/wikidata, source/wafayat-ayan] }
 relations:

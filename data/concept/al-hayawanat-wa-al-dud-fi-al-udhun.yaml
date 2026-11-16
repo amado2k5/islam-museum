@@ -1,0 +1,33 @@
+id: "concept/al-hayawanat-wa-al-dud-fi-al-udhun"
+class: "concept"
+kind: "scientific"
+label:
+  ar: "دخول الحيوانات في الأذن وتولد الدود فيها"
+  en: "Animals entering the ear and worms breeding in it"
+  ur: "کان میں جانوروں کا داخل ہونا اور اس میں کیڑوں کا پیدا ہونا"
+summary:
+  ar: "قد يتفطن لدخول الهامة في الأذن بشدة الوجع مع خدش وحركة بمقدار الحيوان، وأما الدود فيحس معه بدغدغة؛ ومما يعم جميع ذلك تقطير ما يعرف في الأذن فإنه يسكن في الحال حركة الحيوان فيها ويقتلها عن قريب وخصوصاً الصغير ⁦⁦(أسماء الأدوية والعصارات والمركبات ومقاديرها لا تحمل)⁩⁩ {cite:canon-ibn-sina-print-v2 p.231} {cite:canon-ibn-sina-print-v2 p.232}"
+  en: "An insect's entry into the ear is known by severe pain with scratching and movement to the animal's measure; worms are felt as a tickling. What covers all of it: dropping the known in the ear — it stills the animal's movement at once and kills it before long, especially the small kind ⁦(drug, juice and compound names and measures are not carried)⁩ {cite:canon-ibn-sina-print-v2 p.231} {cite:canon-ibn-sina-print-v2 p.232}"
+  ur: "کان میں کیڑے مکوڑے کے داخل ہونے کا علم سخت درد سے ہوتا ہے ساتھ خراش اور جانور کے قد کے برابر حرکت؛ اور کیڑوں کے ساتھ گدگدی محسوس ہوتی ہے؛ اور جو سب پر عام نفع دیتا ہے وہ کان میں معروف چیز کا ٹپکانا ہے کہ وہ جانور کی حرکت فوراً روک دیتا ہے اور جلد مار دیتا ہے خصوصاً چھوٹے کو ⁦⁦(ادویہ، عصاروں اور مرکبات کے نام اور مقدار منقول نہیں)⁩⁩ {cite:canon-ibn-sina-print-v2 p.231} {cite:canon-ibn-sina-print-v2 p.232}"
+wings:
+- "living"
+tags:
+- "tibb-browser"
+- "tibb-tibb"
+sources:
+- "source/canon-ibn-sina-print-v2"
+relations:
+- type: "part_of"
+  target: "concept/disease"
+  sources:
+  - "source/canon-ibn-sina-print-v2"
+provenance:
+  layer: "own-research"
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, end of Fann 3 (the eye) and Fann 4 (the ear, one maqala), scan pages 231-232, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json, copied to /tmp before reading); editor footnotes used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping, cautery and operative sites and application methods left out; the couching and incision hand-works carried only as the book's descriptions, not as procedures; unclear OCR words carried as printed, not guessed; case reports carried as the book's transmitted reports and labelled; coitus and woman's-milk lines kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Devin subagent (SWE-2 Medium, Lane A4 worker)"
+  model: "swe-2-medium"
+  run: "a4-canon-book3-11"
+status:
+  review: "published"
+  completeness: 1
+  generated_by: "Devin subagent (SWE-2 Medium, book mining, lane A4)"

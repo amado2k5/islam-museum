@@ -23,5 +23,16 @@ provenance:
 status:
   review: draft
   completeness: 1
+occupations:
+  - job: job/grammarian
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'linguist', Job Browser linking wave 48"
+    sources: [source/al-aalam]
+  - job: job/poet
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'poet', Job Browser linking wave 48"
+    sources: [source/al-aalam]
 relations:
   - { type: lived_in, target: place/iran, note: "Only the record-level region (persia-central-asia) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }

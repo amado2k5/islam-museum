@@ -37,6 +37,12 @@ faith:
     basis: unknown
     note: "FLAGGED — one independent text family short of a sufi segment. The English text states that he was the leader of the International Sufi Movement from 1948 until his death and speaks of his mureeds (disciples) receiving healing from him; but the Arabic article is a translation of the English text, so the two are one text family, and no second independent text naming his Sufi affiliation was consulted. Wikidata's only religion value is Islam (Q432) in general, which names neither Sufism nor a school. His leadership and disciples are therefore recorded as facts, and the faith value stays unknown until a second independent text is cited."
     sources: [source/wikipedia-ali-khan-en, source/wikipedia-ali-khan-ar, source/wikidata-ali-khan]
+occupations:
+  - job: job/musician
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'musician', Job Browser linking wave"
+    sources: [source/wikipedia-ali-khan-en, source/wikipedia-ali-khan-ar, source/wikidata-ali-khan]
 relations:
   - { type: lived_in, target: place/india, note: "Place association from the person's nisba/name (هندي); denotes association, not proven residence.", sources: [source/wikipedia-ali-khan-en, source/wikipedia-ali-khan-ar, source/wikidata-ali-khan], confidence: low }
   - { type: related_to, target: person/hazrat-inayat-khan, sources: [source/wikipedia-ali-khan-en] }

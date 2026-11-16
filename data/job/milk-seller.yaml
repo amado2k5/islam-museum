@@ -1,0 +1,46 @@
+id: job/milk-seller
+class: job
+label: { ar: "اللبّان ⁦(بائع اللبن)⁩", en: "Milk-seller (labban / sütçü)", ur: "دودھ فروش ⁦(سودچی)⁩" }
+names:
+  - { value: "لبّان", kind: alternate }
+  - { value: "sütçü", kind: alternate, lang: tr }
+  - { value: "Sujian", kind: latinized, lang: tr }
+  - { value: "Sudjian", kind: latinized, lang: tr }
+summary:
+  ar: "اللبّان هو بائع اللبن في السوق، وله عند المحتسب باب قائم. يأمر ابن الأخوة أن تكون أوعية اللبّان مغطّاة ودكانه مبيّضاً مبلّطاً وسقفه جديداً لأن الذباب يحب مواضع اللبن، وأن تُسدّ أفواه الجرار بسداد من ليف نظيف، وأن تُغسل الأحواض والأواني كل يوم بليف جديد وماء نظيف لئلا يفسد اللبن سريعاً في الحر؛ ويجب أن يكون اللبن غنياً غير منزوع القشدة وإلا ذهب طعمه ودسمه، وبيع اللبن الممزوج بالماء محرّم تحريماً باتاً وعلامته أن يُطرح فيه غصن عدس الماء. ويضيف الشيزري اختباري المحتسب: غصن طحلب الماء يشرب الماء ويدع اللبن، والشعرة تُغمس في اللبن فإن لم يعلَق بها شيء فهو مخلوط بالماء وإن علقت قطرات فهو خالص. وفي إسطنبول إوليا لِبَنة الجواميس ألف رجل في مئتي دكان بيرهم سفيان الثوري، ولِبَنة الضأن ثمانمائة بيرهم شعيب، وباعة اللبن الحار بلا دكاكين ينادون في السحر «لبناً حاراً حلواً»."
+  en: "The milk-seller sold milk in the market, and hisba gave him a chapter of his own. Ibn al-Ukhuwwa orders that the milk-seller's vessels be covered, his shop whitewashed and paved with a new roof — flies love the smell of milk — the mouths of the milk-jars stopped with clean palm-fibre, and the vats and containers washed out daily with fresh palm-fibre and clean water so the milk does not turn in the heat. The milk must be rich and unskimmed, else its taste and fatness are gone, and the sale of milk diluted with water is utterly forbidden: its test is to throw in a sprig of marsh-lentil. Al-Shayzari adds the muhtasib's tests — the sprig of water-moss that drinks the water and leaves the milk, and the hair dipped in: if nothing sticks, the milk is watered; if droplets cling, it is pure. In Evliya's Istanbul the buffalo milkmen were a thousand men in two hundred shops under the patronage of Sofian Thun, the sheep milkmen eight hundred under Jethro, and the warm-milk sellers without shops cried 'Hot and sweet milk' through the streets at dawn."
+  ur: "دودھ فروش بازار میں دودھ بیچتا تھا اور محتسب کے ہاں اس کا الگ باب تھا۔ ابن الاخوہ حکم دیتا ہے کہ دودھ فروش کے برتن ڈھکے ہوں، دکان چونا لگا پتھر بچھا ہو اور چھت نئی، کیونکہ مکھیاں دودھ کی جگہیں چاہتی ہیں؛ دودھ کے گھڑوں کے منہ صاف کھجور کے ریشے سے بند ہوں، حوض اور برتن ہر روز نئے ریشے اور صاف پانی سے دھوئے جائیں کہ دودھ گرمی میں جلد نہ بگڑے؛ دودھ ملائی دار بغیر ملائی اتارے ہو، ورنہ ذائقہ اور چکنائی چلی جائے، اور پانی ملے دودھ کی فروخت سخت حرام: پہچان یہ کہ اس میں جھیل کی مسور کی ٹہنی ڈالی جائے۔ الشیزری محتسب کے دو اور امتحان لکھتا ہے: طحلب کی ٹہنی پانی پی کر دودھ چھوڑ دیتی ہے، اور بال دودھ میں بگھو کر نکالو — کچھ نہ لگے تو دودھ پانی ملا ہے، قطرے لگیں تو خالص۔ اولیاء کے استنبول میں بھینسوں کے دودھ والے دو سو دکانوں پر ایک ہزار آدمی تھے جن کا پیر سفیان ثوری، بھیڑ کے دودھ والے آٹھ سو جن کا پیر شعیب، اور بغیر دکان گرم دودھ بیچنے والے صبح سویری «گرم میٹھا دودھ» پکارتے پھرتے۔"
+domain: trade-travel-sea
+kind: commercial
+hirfa: true
+era:
+  origins: pre-islamic
+  status_today: living
+places:
+  - { place: place/cairo, note: "Ibn al-Ukhuwwa's milk-sellers chapter fixes the shop rules — whitewashed, paved, new roof, covered vessels, palm-fibre stoppers, daily washing, rich unskimmed milk, the utter ban on water-dilution and the marsh-lentil test.", sources: [source/ibn-ukhuwwa-maalim-levy] }
+  - { place: place/damascus, note: "Al-Shayzari adds the muhtasib's detection tests for watered milk: the water-moss sprig that separates water from milk and the dipped hair that carries droplets of pure milk.", sources: [source/shayzari-nihaya-buckley] }
+  - { place: place/istanbul, note: "Evliya counts a thousand buffalo milkmen in two hundred shops, eight hundred sheep-and-goat milkmen, and the shop-less warm-milk sellers who cry 'Hot and sweet milk' at dawn.", sources: [source/evliya-seyahatname-hammer] }
+regions: [egypt-nile, levant-iraq, anatolia-balkans]
+organization:
+  organized: guild
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people, living]
+periods: [period/crusades-ayyubid-mamluk, period/gunpowder-empires]
+sources: [source/ibn-ukhuwwa-maalim-levy, source/shayzari-nihaya-buckley, source/evliya-seyahatname-hammer]
+craft:
+  techniques:
+    ar: "صنعة اللبّان صنعة حفظٍ وبيع: تغطية الأوعية، وسدّ أفواه الجرار بليف النخل النظيف، وتبييض الدكان وتبليطه وسقفه الجديد ضد الذباب، وغسل الأحواض كل يوم بليف جديد وماء نظيف حتى لا يفسد اللبن في الحر، وبيع اللبن غنياً بقشدته. وضد الغشّ علامات المحتسب: غصن عدس الماء عند ابن الأخوة، وعند الشيزري غصن طحلب الماء يفصل الماء عن اللبن، والشعرة المغموسة إن لم يعلق بها شيء فاللبن ممزوج وإن علقت قطرات فهو خالص."
+    en: "The milk-seller's craft is keeping and selling: covered vessels, jar-mouths stopped with clean palm-fibre, a whitewashed, paved, newly roofed shop against the flies, vats washed daily with fresh fibre and clean water so the milk keeps in the heat, and milk sold rich with its cream. Against fraud the muhtasib had his signs: Ibn al-Ukhuwwa's sprig of marsh-lentil, and al-Shayzari's water-moss sprig that parts water from milk and the dipped hair — nothing clinging means watered milk, clinging droplets mean pure."
+    ur: "دودھ فروش کا ہنر سنبھالنا اور بیچنا ہے: ڈھکے برتن، گھڑوں کے منہ میں صاف کھجور کا ریشہ، مکھیوں سے بچنے کو چونا لگی پتھر بچھی نئی چھت والی دکان، ہر روز نئے ریشے اور صاف پانی سے دھوتے حوض کہ دودھ گرمی میں نہ بگڑے، اور ملائی سمیت مالا دار دودھ کی فروخت۔ دھوکھے کے خلاف محتسب کی پہچانیں: ابن الاخوہ کی جھیل کی مسور کی ٹہنی، اور الشیزری کا طحلب جو پانی دودھ سے جدا کرے اور بگھویا بال — کچھ نہ لگے تو ملا ہوا، لگے قطرے تو خالص۔"
+  guild:
+    bodies: []
+    shaykh_title: { ar: "شيخ اللَّبَنة", en: "Shaykh of the milkmen", ur: "دودھ والوں کا شیخ" }
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-trades-7" }
+provenance:
+  layer: own-research
+  source: "Ibn al-Ukhuwwa/Levy Abstract ch. XXVII p. 88 (whitewashed paved shop, new roof, covered vessels, palm-fibre stoppers, daily washing, rich unskimmed milk, the utter ban on water-dilution, the marsh-lentil test); al-Shayzari/Buckley ch. 20 pp. 77-78 (the water-moss test that separates water from milk and the hair-dipping test for watered milk); Evliya (von Hammer) I,2 secs. 138-139 p. 141 and sec. 190 p. 155 (the thousand buffalo milkmen in two hundred shops under Sofian Thun, the eight hundred sheep milkmen under Jethro, the dawn cry 'Hot and sweet milk') — read on 17 Nov 2026 from the downloaded scans"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-trades-7-drafting"

@@ -20,6 +20,17 @@ born:
   derived: false
   note: "Gregorian date from both articles and Wikidata; the Arabic article states 6 August 1980 / 24 Ramadan 1400 AH, born in al-Kharj governorate."
   sources: [source/wikipedia-yasser-al-dosari-en, source/wikipedia-yasser-al-dosari-ar, source/wikidata-yasser-al-dosari]
+occupations:
+  - job: job/qari
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'reciter', Job Browser linking wave 26"
+    sources: [source/wikipedia-yasser-al-dosari-en, source/wikipedia-yasser-al-dosari-ar, source/wikidata-yasser-al-dosari, source/youtube-yasseraldosry]
+  - job: job/alim
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 26"
+    sources: [source/wikipedia-yasser-al-dosari-en, source/wikipedia-yasser-al-dosari-ar, source/wikidata-yasser-al-dosari, source/youtube-yasseraldosry]
 relations:
   - { type: lived_in, target: place/mecca, sources: [source/wikipedia-yasser-al-dosari-en, source/wikipedia-yasser-al-dosari-ar] }
 faith:

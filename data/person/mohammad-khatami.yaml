@@ -24,6 +24,17 @@ born:
   derived: true
   note: "Born at Ardakan in Yazd province on 14 October 1943; the English, Persian (21 Mehr 1322) and Arabic articles and Wikidata agree. The Urdu article gives 12 October 1931, an error of that edition recorded in its source file and not followed. The Hijri year is derived by tabular conversion from the Gregorian date."
   sources: [source/wikipedia-khatami-en, source/wikipedia-khatami-fa, source/wikidata-khatami]
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 44"
+    sources: [source/wikipedia-khatami-en, source/wikipedia-khatami-fa, source/wikipedia-khatami-ar, source/wikipedia-khatami-ur, source/wikidata-khatami, source/wikidata]
+  - job: job/philosopher
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'philosopher', Job Browser linking wave 44"
+    sources: [source/wikipedia-khatami-en, source/wikipedia-khatami-fa, source/wikipedia-khatami-ar, source/wikipedia-khatami-ur, source/wikidata-khatami, source/wikidata]
 relations:
   - { type: born_in, target: place/ardakan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - type: successor_of

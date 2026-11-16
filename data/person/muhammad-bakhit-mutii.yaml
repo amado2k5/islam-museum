@@ -35,6 +35,17 @@ died:
   derived: false
   note: 'al-Zirikli, al-A''lam, 15th ed. 2002, vol. 6 p. 50: 1271 to 1354 AH = 1854 to 1935 CE; agrees with the card.'
   sources: *id001
+occupations:
+  - job: job/mufti
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'mufti', Job Browser linking wave 47"
+    sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
+  - job: job/alim
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 47"
+    sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 relations:
 - type: died_in
   target: place/cairo

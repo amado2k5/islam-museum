@@ -13,6 +13,17 @@ regions: [levant-iraq]
 periods: [period/mongol-post-mongol]
 born: { edtf: "1419", hijri: "0822", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Daw' al-Lami'. Confirmed on 13 November 2026 against Wikidata Q25450198 (P569, a statement with a reference), item revision 2559988600. al-A'lam vol. 7 p. 53 prints 822 AH = 1419 CE, agreeing.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
 died: { edtf: "1501", hijri: "0906", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Daw' al-Lami'. al-A'lam vol. 7 p. 53 prints 906 AH = 1501 CE, agreeing with the card.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 39"
+    sources: [source/shadharat-dhahab, source/alam-zirikli-dar-al-ilm-2002]
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'jurist', Job Browser linking wave 39"
+    sources: [source/shadharat-dhahab, source/alam-zirikli-dar-al-ilm-2002]
 relations:
   - { type: born_in, target: place/jerusalem, note: "al-Zirikli, al-A'lam, vol. 7 p. 53: of the people of Bayt al-Maqdis by birth and death", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
   - { type: died_in, target: place/jerusalem, note: "al-Zirikli, al-A'lam, vol. 7 p. 53", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }

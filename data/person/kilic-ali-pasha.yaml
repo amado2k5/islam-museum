@@ -22,6 +22,17 @@ died:
   status: tradition
   derived: true
   sources: [source/dawlat-uthmaniyya-salabi]
+occupations:
+  - job: job/grand-vizier
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'grand-vizier', Job Browser linking wave"
+    sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
+  - job: job/commander
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'military-leader', Job Browser linking wave"
+    sources: [source/dawlat-uthmaniyya-salabi, source/wikidata]
 relations:
   - { type: lived_in, target: place/tunis, confidence: low, note: "Associated with تونس per the record's own summary text; relation type pending review.", sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: participated_in, target: event/uluj-ali-morocco-1581, sources: [source/dawlat-uthmaniyya-salabi] }

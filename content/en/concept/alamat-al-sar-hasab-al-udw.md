@@ -1,0 +1,18 @@
+---
+id: concept/alamat-al-sar-hasab-al-udw
+lang: en
+source_lang: ar
+translators: [ai]
+---
+
+## From the stomach
+What has its cause in the stomach is marked by twitching at the mouth of the stomach, especially when food is late, trembling and shaking at the fit, especially at the first taking, with looseness of the bowels, running of urine, palpitation and severe headache, and the epilepsy is lightened or passes on using vomit — states that show corruption of the stomach. This kind may kill by the succession of its fits: that the humour in it acts by its abundance and the abundance of its vapours — mostly the phlegmatic humour, though another may mix with it — is shown by the epilepsy coming at times of fullness and overeating and easing at emptiness and when the bowels move strongly after food. If the matter mixed is bilious, thirst, burning, stinging and heat are found; if black bile, his appetite grows in most states, he perceives a sour taste, and thought and whispering are generated — yet the phlegmatic signs prevail {cite:canon-ibn-sina-print-v2 p.124}
+
+## From the hypochondrium
+If it is from the hypochondrium, its sign is sour belching, flatulence and painful borborygmi slow to settle, inflammation in the hypochondrium, and pain may stir between the shoulders a little after taking food, not settling until it is digested, then returning after eating; when it comes upon evacuation it comes with hardness of the bowels and spoils their loosening, especially if he feels a stretching of the hypochondrium upward with trembling; these people get it on undigested food, for their nourishment returns upon them corrupted, its passages blocked. Of this, the kind whose hypochondrium vapour acting for the epilepsy is bilious is known by the inflammation occurring, the colour, and a confusion of intellect inclining to vexation and obstinacy; the kind whose vapour is melancholic brings a branch of melancholia, cowardice, self-talk and fear for the darkness of the matter, and from it arises love of death or hatred of it, fear, and the rest of what was said under melancholia {cite:canon-ibn-sina-print-v2 p.125}
+
+## From the liver and the whole body
+What has its cause and beginning in the liver or in the whole body is shown by the colour, the hair, the dryness and roughness of the skin or its flabbiness, fatness and emaciation, and much sweating of bloody vapour; it is shown by pulse, urine, the state of the foods taken before and the former regimen, and by the retention of what used to be evacuated from the anus, sweat and the like. If it is sanguine tending to burning, redness and pulsation of vessels and laughter at the onset are seen; if bilious, phlegmatic or melancholic, it is known by the signs mentioned {cite:canon-ibn-sina-print-v2 p.125}
+
+## From womb, spleen, poisonous matter and worms
+What has its cause in the womb necessarily comes with retention of the menses, pain in the pubes, the groins and the regions of the back, and heaviness in the womb (labelled listing, held for the founder's ruling). What has its cause in the spleen is known by the illness being melancholic, pain felt on the spleen's side, with swelling or hardness of the spleen, borborygmi on its side, and the body's sharing in most of the affair. What comes of a poisonous matter rising from some organ by way of a nerve either begins from outside — its sign manifest, like the sting of a scorpion, tarantula or wasp falling on a nerve — or from inside, where a vapour is felt rising from it to the head darkening the sight, either from the back, the pubes, or one of the viscera like the stomach or the womb. The sign of that which comes from worms is running saliva and the falling out of worms {cite:canon-ibn-sina-print-v2 p.125}

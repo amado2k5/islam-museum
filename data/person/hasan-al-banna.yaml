@@ -16,6 +16,12 @@ periods: [period/modern-era]
 regions: [egypt-nile]
 born: { edtf: "1906", hijri: "1324", calendar: gregorian, precision: year, status: historical, derived: true, note: "born in 1906 per EI2; the Hijri year is derived {cite:encyclopaedia-of-islam-2 vol. 1 p. 1078}", sources: [source/encyclopaedia-of-islam-2] }
 died: { edtf: "1949-02-12", hijri: "1368", calendar: gregorian, precision: day, status: historical, derived: true, note: "assassinated on 12 February 1949 per EI2 (Ikhwan article); the Hijri year is derived {cite:encyclopaedia-of-islam-2 vol. 3 p. 1102}", sources: [source/encyclopaedia-of-islam-2] }
+occupations:
+  - job: job/teacher
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'teacher', Job Browser linking wave 22"
+    sources: [source/encyclopaedia-of-islam-2]
 relations:
   - { type: lived_in, target: place/damanhur, note: "studied at the Junior Teachers' School", sources: [source/encyclopaedia-of-islam-2] }
   - { type: lived_in, target: place/ismailia, note: "taught there 1927-33 and founded the Society there in 1928", sources: [source/encyclopaedia-of-islam-2] }

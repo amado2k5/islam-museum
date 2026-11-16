@@ -30,3 +30,6 @@ This event took place in the month of Muharram, fifty or fifty-five days before 
 ## Notes for researchers
 - The army's numbers, the elephants and the other details come from Ibn Hisham and from Tafhim al-Quran, as the author cites. The date (Muharram, fifty or fifty-five days before the birth, that is late February or early March 571 CE) is the author's own calculation. It differs from the earlier dating for Abraha's campaign that researchers draw from inscriptions. Both views are recorded in the entry's data.
 - The last paragraph is the author's interpretation, not a description.
+
+## In The Oxford Dictionary of Islam
+The entry on the Year of the Elephant — on the authority of tradition and of the first biographies by Ibn Ishaq and Ibn Saad — makes it the year Muhammad was born, about 570. Its name comes from Abrahah's march out of southern Arabia toward the north with an elephant at his head; today's historians, the Dictionary says, date that event at least ten years before the birth. {cite:oxford-dictionary-of-islam e2537}

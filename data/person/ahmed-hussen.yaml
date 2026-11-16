@@ -28,6 +28,12 @@ faith:
     basis: unknown
     note: "No source names a school or branch for Hussen himself. Wikidata gives only Islam (Q432) generically — a single structured-data value. The English article names no religion in its text and files him under 'Somali Muslims' and 'Canadian Muslims'; the Arabic and Urdu articles likewise classify him by category only. Generic identification is not a school attestation, so under the two-source rule the value stays unknown."
     sources: [source/wikipedia-ahmed-hussen-en, source/wikidata-ahmed-hussen]
+occupations:
+  - job: job/lawyer
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'lawyer', Job Browser linking wave"
+    sources: [source/wikipedia-ahmed-hussen-en, source/wikipedia-ahmed-hussen-ar, source/wikipedia-ahmed-hussen-ur, source/wikidata-ahmed-hussen]
 relations:
   - { type: born_in, target: place/mogadishu }
 wings: [people, living]

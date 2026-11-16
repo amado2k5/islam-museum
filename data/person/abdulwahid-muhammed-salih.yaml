@@ -28,6 +28,22 @@ born:
   note: "Gregorian date and Sulaymaniyah birthplace from the English, Sorani Kurdish and Urdu Wikipedia articles and Wikidata Q123492734. No Hijri date is recorded in the sources used, so none is printed."
   sources: [source/wikipedia-abdulwahid-muhammed-salih-en, source/wikipedia-abdulwahid-muhammed-salih-ckb, source/wikipedia-abdulwahid-muhammed-salih-ur, source/wikidata-abdulwahid-muhammed-salih]
 regions: [levant-iraq]
+occupations:
+  - job: job/preacher
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'preacher', Job Browser linking wave"
+    sources: [source/wikipedia-abdulwahid-muhammed-salih-en, source/wikipedia-abdulwahid-muhammed-salih-ckb, source/wikipedia-abdulwahid-muhammed-salih-ur, source/wikidata-abdulwahid-muhammed-salih, source/youtube-drabdulwahid, source/vidiq-abdulwahid-muhammed-salih, source/facebook-abdulwahid-muhammed-salih, source/instagram-abdulwahid-muhammed-salih]
+  - job: job/physician
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'physician', Job Browser linking wave"
+    sources: [source/wikipedia-abdulwahid-muhammed-salih-en, source/wikipedia-abdulwahid-muhammed-salih-ckb, source/wikipedia-abdulwahid-muhammed-salih-ur, source/wikidata-abdulwahid-muhammed-salih, source/youtube-drabdulwahid, source/vidiq-abdulwahid-muhammed-salih, source/facebook-abdulwahid-muhammed-salih, source/instagram-abdulwahid-muhammed-salih]
+  - job: job/professor
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'professor', Job Browser linking wave"
+    sources: [source/wikipedia-abdulwahid-muhammed-salih-en, source/wikipedia-abdulwahid-muhammed-salih-ckb, source/wikipedia-abdulwahid-muhammed-salih-ur, source/wikidata-abdulwahid-muhammed-salih, source/youtube-drabdulwahid, source/vidiq-abdulwahid-muhammed-salih, source/facebook-abdulwahid-muhammed-salih, source/instagram-abdulwahid-muhammed-salih]
 relations:
   - { type: born_in, target: place/sulaymaniyah, sources: [source/wikipedia-abdulwahid-muhammed-salih-en, source/wikidata-abdulwahid-muhammed-salih] }
   - { type: lived_in, target: place/sulaymaniyah, sources: [source/wikipedia-abdulwahid-muhammed-salih-en], note: "Professor at the College of Medicine, University of Sulaymaniyah, and founder of Smart Health Tower there." }

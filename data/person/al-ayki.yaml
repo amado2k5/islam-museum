@@ -16,6 +16,17 @@ regions: [persia-central-asia, egypt-nile, levant-iraq]
 faith:
   - value: sunni-shafii
     basis: tradition
+occupations:
+  - job: job/mutakallim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'theologian', Job Browser linking wave 40"
+    sources: [source/shadharat-dhahab]
+  - job: job/alim
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 40"
+    sources: [source/shadharat-dhahab]
 relations:
   - { type: traveled_to, target: place/misr, note: "From text: went to Egypt", sources: [source/shadharat-dhahab] }
   - { type: traveled_to, target: place/damascus, note: "From text: returned to Damascus. The", sources: [source/shadharat-dhahab] }

@@ -37,5 +37,21 @@ provenance:
 status:
   review: published
   completeness: 3
+occupations:
+  - job: job/preacher
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'preacher', Job Browser linking wave 24"
+    sources: [source/wikipedia-yahya-zainul-maarif-id]
+  - job: job/alim
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 24"
+    sources: [source/wikipedia-yahya-zainul-maarif-id]
+  - job: job/teacher
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'teacher', Job Browser linking wave 24"
+    sources: [source/wikipedia-yahya-zainul-maarif-id]
 relations:
   - { type: born_in, target: place/java, confidence: low, note: "Place named in the record's date note; the specific connection is as stated there.", sources: [source/wikipedia-yahya-zainul-maarif-id] }

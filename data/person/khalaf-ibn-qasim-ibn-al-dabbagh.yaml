@@ -17,6 +17,12 @@ wings: [people]
 themes: [scripture-and-its-sciences, travel]
 periods: [period/abbasid-fragmentation]
 regions: [andalus-europe]
+occupations:
+  - job: job/muhaddith
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'muhaddith', Job Browser linking wave"
+    sources: [source/tamhid-furqan-2017-v1]
 relations:
   - { type: lived_in, target: place/cordoba, sources: [source/tamhid-furqan-2017-v1] }
   - { type: traveled_to, target: place/mecca, sources: [source/tamhid-furqan-2017-v1] }

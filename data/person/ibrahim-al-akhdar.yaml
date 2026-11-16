@@ -14,6 +14,22 @@ wings: [people, living]
 regions: [arabia]
 roles: [reciter, imam, teacher]
 born: { edtf: "1944", hijri: "1364", calendar: gregorian, precision: year, status: historical, derived: false, note: "The Arabic article gives 1364 AH (17 December 1944 – 6 December 1945) and Wikidata gives 1944; both are kept, the Gregorian year as Wikidata states it.", sources: [source/wikipedia-ibrahim-al-akhdar-ar, source/wikidata-ibrahim-al-akhdar] }
+occupations:
+  - job: job/qari
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'reciter', Job Browser linking wave 26"
+    sources: [source/wikipedia-ibrahim-al-akhdar-ar, source/wikidata-ibrahim-al-akhdar]
+  - job: job/imam
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'imam', Job Browser linking wave 26"
+    sources: [source/wikipedia-ibrahim-al-akhdar-ar, source/wikidata-ibrahim-al-akhdar]
+  - job: job/teacher
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'teacher', Job Browser linking wave 26"
+    sources: [source/wikipedia-ibrahim-al-akhdar-ar, source/wikidata-ibrahim-al-akhdar]
 relations:
   - { type: born_in, target: place/medina, sources: [source/wikipedia-ibrahim-al-akhdar-ar, source/wikidata-ibrahim-al-akhdar] }
 faith:

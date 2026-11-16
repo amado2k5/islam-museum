@@ -25,6 +25,17 @@ status:
   completeness: 3
 born: { edtf: "1206", hijri: "0603", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Tarikh al-Islam); al-Durar al-Kamina Confirmed on 13 November 2026 against Wikidata Q25451822 (P569, a statement with a reference), item revision 2561318448. al-Zirikli prints 603 AH = 1206 CE {cite:alam-zirikli-dar-al-ilm-2002 vol. 1 p. 119}, agreeing with the card.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
 died: { edtf: "1295", hijri: "0695", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Tarikh al-Islam); al-Durar al-Kamina Confirmed on 13 November 2026 against Wikidata Q25451822 (P570, a statement with a reference), item revision 2561318448. al-Zirikli prints 695 AH = 1295 CE {cite:alam-zirikli-dar-al-ilm-2002 vol. 1 p. 119}, agreeing with the card.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 38"
+    sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'jurist', Job Browser linking wave 38"
+    sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 relations:
   - { type: born_in, target: place/harran, confidence: high, note: "al-Zirikli, al-A'lam, vol. 1 p. 119: born and raised at Harran", sources: [source/alam-zirikli-dar-al-ilm-2002] }
   - { type: traveled_to, target: place/aleppo, confidence: high, note: "al-Zirikli, vol. 1 p. 119: travelled to Aleppo", sources: [source/alam-zirikli-dar-al-ilm-2002] }

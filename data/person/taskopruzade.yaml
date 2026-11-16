@@ -27,5 +27,16 @@ status:
   completeness: 3
 born: { edtf: "1495", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi Confirmed on 13 November 2026 against Wikidata Q12221519 (P569, a statement with a reference), item revision 2559030849.", sources: [source/wikidata] }
 died: { edtf: "1561", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi Confirmed on 13 November 2026 against Wikidata Q12221519 (P570, a statement with a reference), item revision 2559030849.", sources: [source/wikidata] }
+occupations:
+  - job: job/historian
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'historian', Job Browser linking wave 44"
+    sources: [source/al-aalam, source/biblissima, source/wikidata]
+  - job: job/qadi
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'qadi', Job Browser linking wave 44"
+    sources: [source/al-aalam, source/biblissima, source/wikidata]
 relations:
   - { type: lived_in, target: place/istanbul, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/al-aalam] }

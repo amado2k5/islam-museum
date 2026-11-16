@@ -12,6 +12,12 @@ wings: [people]
 regions: [global]
 born: { edtf: "-490~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Brill / EI (Anbaduqles)" }
 died: { edtf: "-430~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Brill / EI (Anbaduqles)" }
+occupations:
+  - job: job/philosopher
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'philosopher', Job Browser linking wave 46"
+    sources: [source/encyclopaedia-of-islam-2]
 relations:
   - { type: lived_in, target: place/greece, confidence: low, note: "Greek philosopher (Akragas, Sicily) per the record's cited EI2 article.", sources: [source/encyclopaedia-of-islam-2] }
 sources: [source/encyclopaedia-of-islam-2]

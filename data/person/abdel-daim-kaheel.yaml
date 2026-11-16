@@ -24,6 +24,12 @@ born:
   derived: true
   note: "Wikidata gives 10 May 1966, and the Arabic article's infobox flags his birthplace Homs with the year 1966 while its categories file him under births of 1966; the same article's lead, however, gives his birth as 10 May 1968. Day and month agree in both readings; the year is recorded as 1966 on the weight of Wikidata and the article's own apparatus, and the date is marked debated. The Hijri year is a conversion of the 1966 date; the article also files him under births of 1385 AH, which matches neither Gregorian year."
   sources: [source/wikidata-abdel-daim-kaheel, source/wikipedia-abdel-daim-kaheel-ar]
+occupations:
+  - job: job/engineer
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'engineer', Job Browser linking wave"
+    sources: [source/wikipedia-abdel-daim-kaheel-ar, source/wikipedia-abdel-daim-kaheel-ur, source/wikidata-abdel-daim-kaheel, source/kaheel7-encyclopedia-about, source/youtube-abdel-daim-kaheel]
 relations:
   - { type: born_in, target: place/homs, sources: [source/wikipedia-abdel-daim-kaheel-ar] }
 faith:

@@ -1,0 +1,33 @@
+id: "concept/thiql-al-ajfan"
+class: "concept"
+kind: "scientific"
+label:
+  ar: "ثقل الأجفان"
+  en: "Heaviness of the eyelids"
+  ur: "پلکوں کی گرانی"
+summary:
+  ar: "قد يكون ثقل الأجفان للتهيج وأسبابه وقد يكون لضعف القوة وسقوطها كما في الدق وقد يكون للغلظ والشرناق ونحوه وقد يعرض ثقل واسترخاء في ابتداء نوائب الحميات {cite:canon-ibn-sina-print-v2 p.195}"
+  en: "Heaviness of the lids may be from irritation and its causes, or from weakness and fall of the power as in consumption, or from thickness and sharnaq and the like; heaviness and relaxation may also occur at the onset of fever attacks {cite:canon-ibn-sina-print-v2 p.195}"
+  ur: "پلکوں کی گرانی تهیج اور اس کے اسباب سے ہو سکتی ہے یا قوت کے ضعف اور گرنے سے جیسا دق میں ہوتا ہے یا گاڑھے پن اور شرناق وغیرہ سے؛ اور بخار کے نوبتوں کی ابتدا میں گرانی اور استرخاء بھی عرض ہو سکتا ہے {cite:canon-ibn-sina-print-v2 p.195}"
+wings:
+- "living"
+tags:
+- "tibb-browser"
+- "tibb-tibb"
+sources:
+- "source/canon-ibn-sina-print-v2"
+relations:
+- type: "part_of"
+  target: "concept/disease"
+  sources:
+  - "source/canon-ibn-sina-print-v2"
+provenance:
+  layer: "own-research"
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 3 (the eye's anatomy, states and diseases), maqala 2 end and maqala 3 (the states of the lid and what adjoins it), scan pages 195, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json, copied to /tmp before reading); editor glosses used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping, cautery and excision sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, lochia, semen, coitus and nursing listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Devin subagent (SWE-2 Medium, Lane A4 worker)"
+  model: "swe-2-medium"
+  run: "a4-canon-book3-9"
+status:
+  review: "published"
+  completeness: 1
+  generated_by: "Devin subagent (SWE-2 Medium, book mining, lane A4)"

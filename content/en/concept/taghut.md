@@ -18,3 +18,6 @@ He explains that taghut is treated as singular in the verse, so that it covers o
 
 ## Not yet checked
 The list of forms is Sha'rawi's own and has not been checked against the tafsir and history books. No academic or non-Sunni view has been checked.
+
+## In The Oxford Dictionary of Islam
+The entry on taghut in The Oxford Dictionary of Islam gives the word as the Quran's term for a false god or idol, extended — the Dictionary says — to despotic rulers who seize for themselves power that is God's alone and wield it to crush people. In present-day Iran the label was turned on the deposed shah and his backers, coming to stand for the era before the revolution there, in the way jahiliyyah stands for the pagan age before Islam. {cite:oxford-dictionary-of-islam e2301}

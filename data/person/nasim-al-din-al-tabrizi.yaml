@@ -12,6 +12,12 @@ wings: [people]
 periods: [period/mongol-post-mongol]
 regions: [levant-iraq, persia-central-asia]
 died: { edtf: "1417~", hijri: "0820", calendar: julian, precision: year, status: tradition, derived: true, note: "قتل سنة 820 {cite:shadharat-dhahab p. 153}", sources: [source/shadharat-dhahab] }
+occupations:
+  - job: job/mutakallim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'theologian', Job Browser linking wave 42"
+    sources: [source/shadharat-dhahab]
 relations:
   - { type: participated_in, target: event/hurufi-execution-820, sources: [source/shadharat-dhahab] }
 

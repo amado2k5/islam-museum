@@ -1,0 +1,46 @@
+id: person/syamsul-debat
+education:
+  did_you_know:
+    ar: "شمسول عمري إسماعيل، المعروف بشمسول ديباط، داعية ماليزي وُلد سنة 1977، يقدّم برنامجًا باسمه على قناة الهجرة، وخاض انتخابات 2018 مرشحًا عن باريسان ناسيونال في سيكامات فلم يفز، وبلغت قناته في يوتيوب 428,000 مشترك في نوفمبر 2026."
+    en: "Syamsul Amri Ismail, known as Syamsul Debat, is a Malaysian preacher born in 1977; he hosts a programme bearing his name on TV AlHijrah, stood unsuccessfully for Sikamat in 2018, and his YouTube channel counted 428,000 subscribers in November 2026."
+    ur: "شمسول عمری اسماعیل، «شمسول ڈیبیٹ»، ملائیشیائی مبلغ ہیں جو 1977ء میں پیدا ہوئے؛ ٹی وی الہجرہ پر اپنا پروگرام پیش کرتے ہیں، 2018ء میں سیکامت سے امیدوار بنے مگر کامیاب نہ ہوئے، اور نومبر 2026ء میں یوٹیوب سبسکرائبر 428,000 تھے۔"
+    sources: [source/wikipedia-syamsul-debat-ms, source/vidiq-syamsul-debat]
+class: person
+label: { ar: "شمسول ديباط", en: "Syamsul Debat", ur: "شمسول ڈیبیٹ" }
+names:
+  - { value: "شمسول عمري بن إسماعيل", kind: full }
+  - { value: "Syamsul Amri bin Ismail", kind: full }
+  - { value: "Syamsul Debat", kind: alternate }
+  - { value: "Ustaz Syamsul Debat", kind: alternate }
+gender: male
+summary:
+  ar: "داعية ماليزي مستقل ومقدّم ومحاضر تحفيزي، وُلد في 3 أغسطس 1977 في جمبول بولاية نغري سمبيلان، اشتهر ببرامجه الدينية على قناة الهجرة وفي مقدمتها برنامج يحمل اسمه. خاض انتخابات 2018 مرشحًا لتحالف باريسان ناسيونال في مقعد سيكامات الولائي فخسر أمام أمين الدين هارون، ثم أعلن تركه جميع مناصبه في حزب أمنو في مايو 2018 مع بقائه عضوًا فيه بحسب التقارير. بلغت قناته في يوتيوب 428,000 مشترك وحسابه الموثّق في إنستغرام 459,917 متابعًا بحسب قراءات 15 نوفمبر 2026."
+  en: "Malaysian freelance preacher, host and motivational speaker, born on 3 August 1977 at Jempol, Negeri Sembilan, known for his religious programmes on TV AlHijrah, above all the programme bearing his name. He stood in the 2018 election as the Barisan Nasional candidate for the Sikamat state seat and lost to Aminuddin Harun, then announced in May 2018 that he was giving up all his UMNO posts while remaining a member, as reported. His YouTube channel counted 428,000 subscribers and his verified Instagram 459,917 followers in reads of 15 November 2026."
+  ur: "ملائیشیا کے آزاد مبلغ، میزبان اور تحریکی مقرر، جو 3 اگست 1977ء کو نگری سمبیلان کے جمپول میں پیدا ہوئے، ٹی وی الہجرہ پر اپنے دینی پروگراموں، خصوصاً اپنے نام کے پروگرام، کے لیے جانے جاتے ہیں۔ وہ 2018ء کے انتخابات میں سیکامت کی ریاستی نشست پر باریسن ناسیونال کے امیدوار بنے اور امین الدین ہارون سے ہار گئے، پھر مئی 2018ء میں اعلان کیا کہ وہ UMNO کے تمام عہدے چھوڑ رہے ہیں جبکہ رکنیت برقرار رہے گی، جیسا کہ رپورٹ ہوا۔ 15 نومبر 2026ء کی قرأت کے مطابق ان کے یوٹیوب چینل کے سبسکرائبر 428,000 اور مصدقہ انسٹاگرام فالوور 459,917 تھے۔"
+roles: [preacher, presenter, politician]
+wings: [people, living]
+regions: [southeast-asia]
+born:
+  edtf: "1977-08-03"
+  calendar: gregorian
+  precision: day
+  status: historical
+  note: "Date and place (Jempol, Negeri Sembilan) from the Malay Wikipedia article; no Negeri Sembilan place record exists in the tree, so no birthplace edge is written."
+  sources: [source/wikipedia-syamsul-debat-ms]
+relations:
+  - { type: lived_in, target: place/malaysia, sources: [source/wikipedia-syamsul-debat-ms] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read in this build names a school or order for him; party membership is not attestation. Under this lane's two-source rule his school therefore stays unknown."
+    sources: [source/wikipedia-syamsul-debat-ms]
+reach:
+  - { platform: youtube, metric: subscribers, value: 428000, date: "2026-11-15", note: "Syamsul Debat TV (@syamsuldebattv): 428,000 subscribers, 94,968,027 views and 5,872 videos by vidIQ as of 15 November 2026, as read by the wave-201 harvest; thoughtleaders.io, crawled the same day, independently gives the same 428K. The figure is a dated platform count, not a museum-verified fact", sources: [source/vidiq-syamsul-debat] }
+  - { platform: instagram, metric: followers, value: 459917, date: "2026-11-15", note: "@syamsuldebatofficial (verified; links to his YouTube channel): 459,917 followers, the platform profile itself read directly by the wave-201 harvest on 15 November 2026. The figure is a dated platform count, not a museum-verified fact", sources: [source/instagram-syamsul-debat] }
+sources: [source/wikipedia-syamsul-debat-ms, source/mstar-syamsul-debat-2018, source/vidiq-syamsul-debat, source/instagram-syamsul-debat]
+provenance:
+  layer: own-research
+  source: "Built from the wave-201 harvest §1.7 and build-time checks of 15 November 2026: Malay Wikipedia 'Syamsul Debat', mStar's report of Bernama (29 April 2018), vidIQ for Syamsul Debat TV, and his verified Instagram profile, as read by the harvest. Qualification rests on his preaching reach: YouTube 428,000 subscribers (vidIQ, 15 November 2026) and Instagram 459,917 (platform read, 15 November 2026) — above the men's bar. POLITICIAN-PREACHER FLAG, established at build as PAST and carried exactly as attributed reporting: Malay Mail and Bernama reported in April 2018 that he was Barisan Nasional's candidate for the Sikamat state seat in GE14; the Malay Wikipedia election table records that he lost (6,419 votes to Aminuddin Harun's 9,832), and that he announced the release of all his UMNO posts with immediate effect on 18 May 2018 while remaining a member. No current candidacy or party office is recorded in any source read; his qualifying basis is preaching reach, not politics. No source read names a school for him, so his faith stays unknown. No Wikidata identifier was verified in this build, so none is recorded."
+  generated_by: "Muse (Muse Wonder)"
+  run: modern-figures-wave-201-A
+status: { review: published, completeness: 2 }

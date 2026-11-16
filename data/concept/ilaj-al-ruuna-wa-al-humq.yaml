@@ -1,0 +1,23 @@
+id: concept/ilaj-al-ruuna-wa-al-humq
+class: concept
+kind: scientific
+label:
+  ar: "علاج الرعونة والحمق"
+  en: "Treatment of ru'una and humq"
+  ur: "رعونت اور حمق کا علاج"
+summary:
+  ar: "يذكر ابن سينا مبادئ علاج الرعونة والحمق: تسخين الدماغ وترطيبه إن كان مع يبوسة، أو التحليل والاستفراغ إن كان عن مادة، وتنبيه القلب، وبيت مضيء، واليقظة وتلطيف الغذاء، وأن أعدى الأشياء للذهن الامتلاء؛ ولا تُنقل الوصفات ولا طرق الاستعمال {cite:canon-ibn-sina-print-v2 p.98} {cite:canon-ibn-sina-print-v2 p.99}"
+  en: "Ibn Sina gives the principles of treating ru'una and humq: warming the brain and moistening it if with dryness, or dissolving and evacuation if from matter, rousing the heart, a bright house, wakefulness and lightening of the food, and that nothing is worse for the mind than fullness; recipes and methods of application are not reproduced {cite:canon-ibn-sina-print-v2 p.98} {cite:canon-ibn-sina-print-v2 p.99}"
+  ur: "ابن سینا رعونت اور حمق کے علاج کے اصول بتاتا ہے: دماغ کو گرم کرنا اور خشکی ہو تو تر کرنا، یا مادے سے ہو تو تحلیل اور استفراغ، دل کو جگانا، روشن گھر، بیداری اور غذا ہلکی کرنا، اور یہ کہ ذہن کا سب سے بڑا دشمن بھراؤ ہے؛ نسخے اور استعمال کے طریقے نقل نہیں کیے گئے {cite:canon-ibn-sina-print-v2 p.98} {cite:canon-ibn-sina-print-v2 p.99}۔"
+wings: [living]
+tags: [tibb-browser, tibb-tibb, tibb-tadawi]
+sources: [source/canon-ibn-sina-print-v2]
+relations:
+  - { type: part_of, target: concept/medical-treatment, sources: [source/canon-ibn-sina-print-v2] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 1, maqala 4, scan pages 98 to 99, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json) with the PDF page images rendered with pdftoppm and read by eye against the OCR for every cited page (lists of signs and doubtful lines at 200 dpi); editor footnotes used only for glosses and labelled as the editor's; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein and cupping sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book3-4
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

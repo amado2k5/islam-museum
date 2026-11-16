@@ -44,6 +44,12 @@ faith:
 
 external_ids: { wikidata: "Q20987981" }
 
+occupations:
+  - job: job/vizier
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'vizier', Job Browser linking wave"
+    sources: [source/wikipedia-shahqoli-khan-zanganeh-en, source/wikipedia-shahqoli-khan-zanganeh-fa, source/wikipedia-shahqoli-khan-zanganeh-ar, source/wikidata-shahqoli-khan-zanganeh]
 relations:
   - { type: born_in, target: place/isfahan, sources: [source/wikidata-shahqoli-khan-zanganeh], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q42053)" }
 sources:

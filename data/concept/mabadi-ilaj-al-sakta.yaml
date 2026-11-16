@@ -1,0 +1,34 @@
+id: "concept/mabadi-ilaj-al-sakta"
+class: "concept"
+kind: "scientific"
+label:
+  ar: "مبادئ علاج السكتة"
+  en: "Principles of the treatment of apoplexy"
+  ur: "سکتہ کے علاج کے اصول"
+summary:
+  ar: "علاج السكتة بحسب سببها: الكائن من أذى من خارج بتدبير السبب، والذي من مشاركة بتدبير العضو المشارك، والذي من الدم بالفصد في الوقت وإرسال دم كثير فيفيق في الحال ثم الحقن؛ والذي من البلغم بمستفرغات قوية وتسخين تدريجي، والقيء يسخّن مزاج الرؤوس الباردة الرطبة {cite:canon-ibn-sina-print-v2 p.132} {cite:canon-ibn-sina-print-v2 p.133} {cite:canon-ibn-sina-print-v2 p.134}"
+  en: "Apoplexy is treated by its cause: that from an outside hurt by managing the cause, that from a partner organ by managing that organ, that of blood by immediate venesection letting much blood — he recovers at once — then clysters; that of phlegm by strong evacuants and gradual warming, while vomiting warms the temperament of cold moist heads {cite:canon-ibn-sina-print-v2 p.132} {cite:canon-ibn-sina-print-v2 p.133} {cite:canon-ibn-sina-print-v2 p.134}"
+  ur: "سکتہ کا علاج اس کے سبب کے لحاظ سے: باہر کی تکلیف سے ہونے والا اس سبب کے تدبیر سے، شریک عضو سے ہونے والا اس عضو کے تدبیر سے، خون والا فوراً فصد سے کہ کثیر خون نکالا جائے تو وہ وہیں جاگ اٹھتا ہے پھر حقن؛ اور بلغم والا مضبوط مستفرغات اور درجہ بدرجہ تسخین سے، اور قے سرد مرطوب سروں کے مزاج کو گرم کرتی ہے {cite:canon-ibn-sina-print-v2 p.132} {cite:canon-ibn-sina-print-v2 p.133} {cite:canon-ibn-sina-print-v2 p.134}۔"
+wings:
+- "living"
+tags:
+- "tibb-browser"
+- "tibb-tibb"
+- "tibb-tadawi"
+sources:
+- "source/canon-ibn-sina-print-v2"
+relations:
+- type: "part_of"
+  target: "concept/medical-treatment"
+  sources:
+  - "source/canon-ibn-sina-print-v2"
+provenance:
+  layer: "own-research"
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 1, maqala 5 and the opening of Fann 2, scan pages 132 to 134, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json); editor glosses used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping and cautery sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Devin subagent (SWE-2 Medium, Lane A4 worker)"
+  model: "swe-2-medium"
+  run: "a4-canon-book3-6"
+status:
+  review: "published"
+  completeness: 1
+  generated_by: "Devin subagent (SWE-2 Medium, book mining, lane A4)"

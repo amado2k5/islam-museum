@@ -1,0 +1,37 @@
+id: person/altay-cem-meric
+class: person
+label: { ar: "ألطاي جم مريتش", en: "Altay Cem Meriç", ur: "الطائے جیم میریچ" }
+names:
+  - { value: "Altay Cem Meriç", kind: full }
+  - { value: "ألطاي جم مريتش", kind: full }
+gender: male
+summary:
+  ar: "طبيب وكاتب وصانع محتوى تركي، وُلد سنة 1991 في أنقرة، تخرّج في كلية الطب بجامعة نجم الدين أربكان في قونية ويمارس الطب، عُرف بقصة عودته من الإلحاد إلى الإسلام بعد فترة تساؤل، وبكتبِه وقناته في الإيمان والفلسفة والعلوم الإسلامية، وأسّس دار تين للنشر. بلغت قناته على يوتيوب 539,000 مشترك كما في 3 نوفمبر 2026 بحسب vidIQ، وهو عدد منصّة مؤرخ لا حقيقة متحقق منها متحفيًا."
+  en: "Turkish physician, author and content creator, born in 1991 in Ankara. He graduated from Necmettin Erbakan University's Faculty of Medicine in Konya and practises medicine, is known for his return from atheism to Islam after a period of questioning, for his books and his channel on faith, philosophy and the Islamic sciences, and founded the Tin publishing house. His YouTube channel counted 539,000 subscribers as of 3 November 2026 per vidIQ — a dated platform count, not a museum-verified fact."
+  ur: "ترک طبیب، مصنف اور مواد ساز، جو 1991ء میں انقرہ میں پیدا ہوئے، قونیہ کی نجم الدین اربکان یونیورسٹی کے شعبۂ طب سے فارغ التحصیل ہوئے اور طب کی مشق کرتے ہیں، ایک دورِ تساؤل کے بعد الحاد سے اسلام کی طرف واپسی کی اپنی کہانی، اپنی کتابوں اور ایمان، فلسفہ اور اسلامی علوم پر اپنے چینل کے لیے جانے جاتے ہیں، اور تین اشاعتی ادارے کے بانی ہیں۔ vidIQ کے مطابق 3 نومبر 2026ء کو ان کے یوٹیوب چینل کے سبسکرائبر 539,000 تھے — یہ ایک مؤرخہ منصّہ عدد ہے، عجائب گھر کی تصدیق شدہ حقیقت نہیں۔"
+roles: [physician, writer, influencer]
+wings: [people, living]
+regions: [anatolia-balkans]
+born:
+  edtf: "1991"
+  calendar: gregorian
+  precision: year
+  status: historical
+  note: "Born in 1991 in Ankara, per the Turkish Wikipedia article and his publishers' standard biography as carried by Kitapyurdu; neither source gives a day or month, so no fuller date is recorded."
+  sources: [source/wikipedia-altay-cem-meric-tr, source/kitapyurdu-altay-cem-meric]
+relations:
+  - { type: born_in, target: place/ankara, sources: [source/wikipedia-altay-cem-meric-tr, source/kitapyurdu-altay-cem-meric] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read in this build names a school or order for Altay Cem Meriç: neither the Turkish Wikipedia article nor his publishers' biography does so. Both texts describe his return to Islam after a period of atheist questioning — a personal creedal journey, not the naming of a school — and his work in kalam and philosophy is his subject matter, not an attestation. Under the doubt rule the value stays unknown."
+    sources: [source/wikipedia-altay-cem-meric-tr, source/kitapyurdu-altay-cem-meric]
+reach:
+  - { platform: youtube, metric: subscribers, value: 539000, date: "2026-11-03", note: "@altaycemmeric: 539,000 subscribers, 81,898,783 views and 1,097 videos as of 3 November 2026 per vidIQ, recorded by the wave-202 harvest — a dated platform count, not a museum-verified fact. The count is his own channel's; his appearances on other channels, such as MyMecra, are not counted here.", sources: [source/vidiq-altay-cem-meric, source/youtube-altay-cem-meric] }
+sources: [source/wikipedia-altay-cem-meric-tr, source/kitapyurdu-altay-cem-meric, source/vidiq-altay-cem-meric, source/youtube-altay-cem-meric]
+provenance:
+  layer: own-research
+  source: "Built from the wave-202 (Turkish scene) harvest §4 and build-time checks of 16 November 2026: the Turkish Wikipedia article 'Altay Cem Meriç' read in full, his publishers' standard biography as carried by Kitapyurdu (the same text printed in his books), his YouTube channel @altaycemmeric, and the harvest's vidIQ read of that channel (539,000 subscribers as of 3 November 2026). Qualification rests on that dated count for his own channel, above the men's bar. No source read names a school for him, so his faith stays unknown. No Wikidata item was verified in this build — site searches of Wikidata returned no item for him — so no external identifier is recorded."
+  generated_by: "Muse (Muse Wonder)"
+  run: modern-figures-wave-202-a
+status: { review: published, completeness: 3 }

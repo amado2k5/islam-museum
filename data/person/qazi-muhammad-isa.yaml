@@ -97,5 +97,11 @@ provenance:
   run: century-additions-119
 status:
   review: published
+occupations:
+  - job: job/diplomat
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'diplomat', Job Browser linking wave"
+    sources: [source/wikipedia-qazi-muhammad-isa-en, source/wikipedia-qazi-muhammad-isa-ar, source/wikidata-qazi-muhammad-isa]
 relations:
   - { type: lived_in, target: place/lahore, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/wikipedia-qazi-muhammad-isa-en, source/wikipedia-qazi-muhammad-isa-ar, source/wikidata-qazi-muhammad-isa] }

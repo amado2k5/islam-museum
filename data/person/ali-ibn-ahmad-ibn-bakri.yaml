@@ -24,6 +24,12 @@ status:
   review: draft
   completeness: 3
 died: { edtf: "1180~", hijri: "0575", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Mu'jam al-Udaba. al-Safadi, al-Wafi, vol. 20 pp. 103-104, prints 575 AH (1179-80 CE), consistent with the card's approximate year.", sources: [source/wafi-bi-l-wafayat-safadi-dar-ihya-2000] }
+occupations:
+  - job: job/grammarian
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'linguist', Job Browser linking wave 46"
+    sources: [source/al-aalam, source/wikidata, source/wafi-bi-l-wafayat-safadi-dar-ihya-2000]
 relations:
   - { type: born_in, target: place/baghdad, note: "Wikidata Q1530 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: died_in, target: place/baghdad, note: "Wikidata Q1530 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }

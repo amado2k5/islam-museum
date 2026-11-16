@@ -15,6 +15,17 @@ wings: [people]
 periods: [period/abbasid-early]
 regions: [levant-iraq]
 died: { edtf: "0820", hijri: "0205", calendar: julian, precision: year, status: tradition, derived: true, note: "Year as printed in al-Nashr; Julian year derived by tabular conversion.", sources: [source/nashr-dahman-damascus-1345-v1] }
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 26"
+    sources: [source/nashr-dahman-damascus-1345-v1]
+  - job: job/teacher
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'teacher', Job Browser linking wave 26"
+    sources: [source/nashr-dahman-damascus-1345-v1]
 relations:
   - { type: student_of, target: person/abu-amr-ibn-al-ala, confidence: low, note: "Ibn al-Jazari, al-Nashr, p. 196: it was also said that Yaqub read on Abu Amr himself.", sources: [source/nashr-dahman-damascus-1345-v1] }
   - { type: lived_in, target: place/basra, confidence: high, note: "Nisba al-Basri; imam of the congregational mosque of Basra for years, al-Nashr p. 196.", sources: [source/nashr-dahman-damascus-1345-v1] }

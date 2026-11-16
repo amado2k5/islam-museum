@@ -24,5 +24,11 @@ status:
   review: draft
   completeness: 3
 died: { edtf: "1397", hijri: "0800", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tashkopruzade (Shaqa'iq) Confirmed on 13 November 2026 against Wikidata Q136148929 (P570, a statement with a reference), item revision 2462227443. The card carries 1397; al-Zirikli, al-A'lam, vol. 4 p. 316, prints 800 AH = 1398 CE (800 AH began in September 1397, so both years fall within it).", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
+occupations:
+  - job: job/faqih
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'jurist', Job Browser linking wave 42"
+    sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 relations:
   - { type: lived_in, target: place/anatolia, note: "al-Zirikli, al-A'lam, vol. 4 p. 316: one of the scholars of Rum (Anatolia)", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }

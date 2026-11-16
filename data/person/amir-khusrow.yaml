@@ -37,6 +37,23 @@ died:
   note: "The English article and the Wikidata item give October 1325; the Urdu article states that he died in Delhi. October 1325 falls wholly within 725 AH, the year the Arabic article gives for his death."
   sources: [source/wikipedia-amir-khusrow-en, source/wikipedia-amir-khusrow-ar, source/wikipedia-amir-khusrow-ur, source/wikidata-amir-khusrow]
 
+occupations:
+  - job: job/poet
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'poet', Job Browser linking wave"
+    sources: [source/wikipedia-amir-khusrow-en, source/wikipedia-amir-khusrow-ar, source/wikipedia-amir-khusrow-ur, source/wikidata-amir-khusrow, source/biblissima, source/openiti-corpus, source/wikidata]
+  - job: job/musician
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'musician', Job Browser linking wave"
+    sources: [source/wikipedia-amir-khusrow-en, source/wikipedia-amir-khusrow-ar, source/wikipedia-amir-khusrow-ur, source/wikidata-amir-khusrow, source/biblissima, source/openiti-corpus, source/wikidata]
+  - job: job/alim
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave"
+    sources: [source/wikipedia-amir-khusrow-en, source/wikipedia-amir-khusrow-ar, source/wikipedia-amir-khusrow-ur, source/wikidata-amir-khusrow, source/biblissima, source/openiti-corpus, source/wikidata]
+
 relations:
   - { type: died_in, target: place/delhi, note: "From text: died in Delhi", sources: [source/wikipedia-amir-khusrow-en, source/wikipedia-amir-khusrow-ar, source/wikipedia-amir-khusrow-ur, source/wikidata-amir-khusrow] }
   - { type: student_of, target: person/nizam-al-din-awliya, sources: [source/wikipedia-amir-khusrow-en, source/wikipedia-amir-khusrow-ar, source/wikipedia-amir-khusrow-ur] }

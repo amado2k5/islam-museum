@@ -1,0 +1,51 @@
+id: person/nissa-sabyan
+class: person
+names:
+  - { kind: full, value: "Khoirunnisa" }
+  - { kind: full, value: "خير النساء" }
+  - { kind: alternate, value: "Khairunnisa" }
+  - { kind: alternate, value: "Nissa Sabyan" }
+label: { ar: "نيسا صبيان", en: "Nissa Sabyan", ur: "نسا سبیان" }
+summary:
+  ar: "مغنية إندونيسية، وُلدت باسم خير النساء في 23 مايو 1999، وهي مغنية فرقة صبيان غامبوس التي اشتهرت بأدائها أغاني الصلوات على النبي وإعادة غناء الأغاني الإسلامية على يوتيوب. بلغت قناتها الخاصة على يوتيوب 1,180,000 مشترك و340,284,268 مشاهدة و979 مقطعًا بحسب vidIQ كما في 13 نوفمبر 2026."
+  en: "Indonesian singer, born Khoirunnisa on 23 May 1999, and the vocalist of Sabyan Gambus, the Jakarta gambus group known for its shalawat singing and Islamic song covers on YouTube. Her own YouTube channel counted 1,180,000 subscribers, 340,284,268 views and 979 videos as read by vidIQ on 13 November 2026."
+  ur: "انڈونیشیائی گلوکارہ، جو 23 مئی 1999ء کو خیر النساء کے نام سے پیدا ہوئیں، اور صبیان گیمبس کی گلوکارہ ہیں؛ یہ جکارتہ کا گیمبس گروپ یوٹیوب پر صلوات اور اسلامی گیتوں کی وجہ سے معروف ہوا۔ ان کے اپنے یوٹیوب چینل کے سبسکرائبر 13 نومبر 2026ء کی vidIQ قرأت کے مطابق 1,180,000، ویوز 340,284,268 اور ویڈیوز 979 تھیں۔"
+gender: female
+roles: [singer, actor]
+wings: [people, living]
+regions: [southeast-asia]
+born:
+  edtf: "1999-05-23"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Gregorian date from the English and Arabic Wikipedia articles. The articles' infoboxes give the birthplace as Lumajang, East Java, while the English article's biography text gives Bandung, West Java; the two disagree, there is no museum place record for Lumajang, and so no born_in edge is written."
+  sources: [source/wikipedia-nissa-sabyan-en, source/wikipedia-nissa-sabyan-ar]
+occupations:
+  - job: job/singer
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'singer', Job Browser linking wave"
+    sources: [source/wikipedia-nissa-sabyan-en, source/wikipedia-nissa-sabyan-ar, source/vidiq-nissa-sabyan, source/youtube-nissasabyanofficialchannel]
+  - job: job/actor
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'actor', Job Browser linking wave"
+    sources: [source/wikipedia-nissa-sabyan-en, source/wikipedia-nissa-sabyan-ar, source/vidiq-nissa-sabyan, source/youtube-nissasabyanofficialchannel]
+relations:
+  - { type: lived_in, target: place/jakarta, sources: [source/wikipedia-nissa-sabyan-en], note: "The English article says she moved to Jakarta after primary school; the group she sings with is based in Jakarta." }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No text read in this run attests a school or order for Nissa Sabyan herself. The Arabic Wikipedia stub's religion field reads simply 'Islam' — a structured field naming no school, and under this lane's doctrine structured data never settles faith; the English article gives her genre as Islamic music, which is a description of her repertoire, not an attestation. Biographical write-ups describe a pesantren background, which is a milieu, not a school attestation. Not recorded as any school until two independent texts confirm one."
+    sources: [source/wikipedia-nissa-sabyan-en, source/wikipedia-nissa-sabyan-ar]
+reach:
+  - { platform: youtube, metric: subscribers, value: 1180000, date: "2026-11-13", note: "Her own channel @nissasabyanofficialchannel ('NISSA SABYAN'): 1,180,000 subscribers, 340,284,268 views and 979 videos as read by vidIQ on 13 November 2026. This is her main-channel figure, separate from her group's channel. The figure is a dated platform count, not a museum-verified fact", sources: [source/vidiq-nissa-sabyan, source/youtube-nissasabyanofficialchannel] }
+sources: [source/wikipedia-nissa-sabyan-en, source/wikipedia-nissa-sabyan-ar, source/vidiq-nissa-sabyan, source/youtube-nissasabyanofficialchannel]
+provenance:
+  layer: own-research
+  source: "Built from the wave-200 (Indonesian/Malay scene) harvest §4.1 (researched 15 November 2026) and the English and Arabic Wikipedia articles, read in full at build on 15 November 2026. Biography per the articles: born Khoirunnisa on 23 May 1999; vocalist of Sabyan Gambus, a Jakarta group of former pesantren students first formed for weddings, known for shalawat covers and originals including 'Ya Maulana', 'Deen Assalam' and 'Ya Habibal Qolbi'; winner, with the group, of the 2018 Anugerah Syiar Ramadan music award; she played herself in the 2019 film 'Sabyan: Menjemput Mimpi'. Qualification: she clears the women's bar (~50,000) on her own channel — 1,180,000 subscribers as read by vidIQ on 13 November 2026 — a dated platform figure. Per the brief for this section, no member_of edge to the Sabyan Gambus group is written in either direction; the group is catalogued by another section of this wave. The February 2021 press rumour about her and the group's keyboardist is carried in the prose as attributed reporting only, with his apology and her father's denial as the articles give them. Disclosed imperfections: the articles' infoboxes and the English article's text disagree on her birthplace (Lumajang against Bandung), so no birthplace edge is written; a Wikidata item is linked from the Wikipedia articles but its identifier could not be read in this environment, so no Wikidata source entity is registered and no statement is taken from it; the numeric revision IDs of the two articles likewise could not be retrieved, so both are dated by their read date. De-duplicated against the tree: no nissa-sabyan record existed."
+  generated_by: "Muse (Muse Wonder)"
+  run: "modern-figures-wave-200-C"
+status: { review: published, generated_by: "Muse (Muse Wonder)" }

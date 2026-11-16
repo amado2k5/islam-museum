@@ -1,0 +1,57 @@
+id: person/don-daniyal
+education:
+  did_you_know:
+    ar: "دون دانيال داعية ماليزي وُلد سنة 1984، اشتهر ببرنامجه التفاعلي ثلاثون دقيقة مع الأستاذ دون على قناة الهجرة، وبلغت صفحته في فيسبوك 1,717,376 متابعًا في نوفمبر 2026."
+    en: "Don Daniyal is a Malaysian preacher born in 1984, known for his interactive programme 30 Minit Ustaz Don on TV AlHijrah; his Facebook page counted 1,717,376 followers in November 2026."
+    ur: "ڈون دانیال ملائیشیا کے مبلغ ہیں جو 1984ء میں پیدا ہوئے، ٹی وی الہجرہ کے انٹرایکٹو پروگرام ”30 منٹ استاذ ڈون“ کے لیے جانے جاتے ہیں؛ نومبر 2026ء میں ان کے فیس بک فالوور 1,717,376 تھے۔"
+    sources: [source/wikipedia-don-daniyal-ms, source/facebook-don-daniyal]
+class: person
+label: { ar: "دون دانيال دون بياجيد", en: "Don Daniyal Don Biyajid", ur: "ڈون دانیال ڈون بیاجید" }
+names:
+  - { value: "دون دانيال بن دون بياجيد", kind: full }
+  - { value: "Don Daniyal bin Don Biyajid", kind: full }
+  - { value: "Ustaz Don", kind: alternate }
+  - { value: "Don Daniyal", kind: alternate }
+gender: male
+summary:
+  ar: "داعية ماليزي مستقل ومقدّم تلفزيوني ومحاضر، وُلد في 14 نوفمبر 1984. اشتهر ببرامجه الدينية على قناتي الهجرة وأسترو أويسيس، وفي مقدمتها البرنامج التفاعلي ثلاثون دقيقة مع الأستاذ دون على قناة الهجرة. بلغت صفحته الرسمية في فيسبوك 1,717,376 متابعًا وحسابه في إنستغرام 684,944 متابعًا بحسب قراءة المنصتين مباشرة في 15 نوفمبر 2026."
+  en: "Malaysian freelance preacher, television presenter and lecturer, born on 14 November 1984. He is known for his religious programmes on TV AlHijrah and Astro Oasis, above all the interactive 30 Minit Ustaz Don on TV AlHijrah. His official Facebook page counted 1,717,376 followers and his Instagram account 684,944 followers when the platforms were read directly on 15 November 2026."
+  ur: "ملائیشیا کے آزاد مبلغ، ٹیلی ویژن پیش کار اور مدرس، جو 14 نومبر 1984ء کو پیدا ہوئے۔ وہ ٹی وی الہجرہ اور آسٹرو اویسس پر اپنے دینی پروگراموں کے لیے جانے جاتے ہیں، جن میں سرفہرست ٹی وی الہجرہ کا انٹرایکٹو پروگرام ”30 منٹ استاذ ڈون“ ہے۔ 15 نومبر 2026ء کو براہِ راست قرأت کے مطابق ان کے سرکاری فیس بک صفحے کے فالوور 1,717,376 اور انسٹاگرام اکاؤنٹ کے فالوور 684,944 تھے۔"
+roles: [preacher, presenter, teacher]
+wings: [people, living]
+regions: [southeast-asia]
+born:
+  edtf: "1984-11-14"
+  calendar: gregorian
+  precision: day
+  status: historical
+  note: "Date from the Malay Wikipedia article; the article as read gives no birthplace, and none is recorded here."
+  sources: [source/wikipedia-don-daniyal-ms]
+occupations:
+  - job: job/preacher
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'preacher', Job Browser linking wave 21"
+    sources: [source/wikipedia-don-daniyal-ms, source/facebook-don-daniyal, source/instagram-don-daniyal]
+  - job: job/teacher
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'teacher', Job Browser linking wave 21"
+    sources: [source/wikipedia-don-daniyal-ms, source/facebook-don-daniyal, source/instagram-don-daniyal]
+relations:
+  - { type: lived_in, target: place/malaysia, sources: [source/wikipedia-don-daniyal-ms] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read in this build names a school or order for him; the Malay Wikipedia article names none. Under this lane's two-source rule his school therefore stays unknown."
+    sources: [source/wikipedia-don-daniyal-ms]
+reach:
+  - { platform: facebook, metric: followers, value: 1717376, date: "2026-11-15", note: "@UstazDonOfficialPage ('Ustaz Don Daniyal Don Biyajid: Solat & Selawat Tour'): 1,717,376 followers, the platform page itself read directly by the wave-201 harvest on 15 November 2026. His video descriptions route YouTube viewers to an organisational channel, so no personal YouTube count is claimed. The figure is a dated platform count, not a museum-verified fact", sources: [source/facebook-don-daniyal] }
+  - { platform: instagram, metric: followers, value: 684944, date: "2026-11-15", note: "@ddaniyaldbiyajid: 684,944 followers, the platform profile itself read directly by the wave-201 harvest on 15 November 2026. The figure is a dated platform count, not a museum-verified fact", sources: [source/instagram-don-daniyal] }
+sources: [source/wikipedia-don-daniyal-ms, source/facebook-don-daniyal, source/instagram-don-daniyal]
+provenance:
+  layer: own-research
+  source: "Built from the wave-201 (Indonesian/Malay Tier 2 re-check) harvest §1.1 and build-time checks of 15 November 2026: Malay Wikipedia 'Don Daniyal Don Biyajid', and the platform pages themselves (Facebook @UstazDonOfficialPage; Instagram @ddaniyaldbiyajid) as read by the harvest. Qualification rests on his own Facebook page: 1,717,376 followers read directly on 15 November 2026 — far above the men's bar; his Instagram adds 684,944. No personal YouTube count is claimed: his video descriptions route viewers to Agami TV, an organisational channel. No source read names a school for him, so his faith stays unknown. No Wikidata identifier was verified in this build, so none is recorded. De-duplicated against the tree: the classical Daniyal records (e.g. daniyal-mueenuddin) are different people."
+  generated_by: "Muse (Muse Wonder)"
+  run: modern-figures-wave-201-A
+status: { review: published, completeness: 2 }

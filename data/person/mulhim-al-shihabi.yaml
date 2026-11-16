@@ -11,6 +11,17 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/gunpowder-empires]
+occupations:
+  - job: job/emir
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'emir', Job Browser linking wave"
+    sources: [source/al-aalam]
+  - job: job/poet
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'poet', Job Browser linking wave"
+    sources: [source/al-aalam]
 relations:
   - { type: born_in, target: place/mount-lebanon, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q333711)" }
 sources: [source/al-aalam]

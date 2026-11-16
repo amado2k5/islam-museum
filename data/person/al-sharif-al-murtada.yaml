@@ -24,5 +24,16 @@ sources: [source/shadharat-dhahab, source/muntazam-ibn-al-jawzi, source/wikidata
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
 born: { edtf: "965", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khallikan Confirmed on 13 November 2026 against Wikidata Q130169 (P569, a statement with a reference), item revision 2554175783.", sources: [source/wikidata] }
 died: { edtf: "1044", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Khallikan Confirmed on 13 November 2026 against Wikidata Q130169 (P570, a statement with a reference), item revision 2554175783.", sources: [source/wikidata] }
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 35"
+    sources: [source/shadharat-dhahab, source/muntazam-ibn-al-jawzi, source/wikidata]
+  - job: job/mutakallim
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'theologian', Job Browser linking wave 35"
+    sources: [source/shadharat-dhahab, source/muntazam-ibn-al-jawzi, source/wikidata]
 relations:
   - { type: lived_in, target: place/baghdad, note: "Place association from the person's nisba/name (البغدادي); denotes association, not proven residence.", sources: [source/shadharat-dhahab, source/muntazam-ibn-al-jawzi], confidence: low }

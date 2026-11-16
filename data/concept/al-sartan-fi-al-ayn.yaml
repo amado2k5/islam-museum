@@ -1,0 +1,33 @@
+id: "concept/al-sartan-fi-al-ayn"
+class: "concept"
+kind: "scientific"
+label:
+  ar: "السرطان في العين"
+  en: "Cancer in the eye"
+  ur: "آنکھ میں سرطان"
+summary:
+  ar: "أكثر السرطان في العين يعرض في الصفاق القرني، وعلاماته وجع شديد وتمدد في عروق العين ونخس قوي يتأدى إلى الأصداغ خصوصاً كما يتحرك صاحبه وحمرة في صفاقات العين وصداع وسقوط شهوة الطعام والتألم بكل ما فيه حرارة، وهو مما لا يطمع في برئه وإن طمع في تسكينه، وليس يوجع السرطان في عضو من الأعضاء كإيجاعه إذا عرض في العين {cite:canon-ibn-sina-print-v2 p.181}"
+  en: "Eye cancer mostly occurs in the conjunctival coat; its signs are severe pain, distension of the eye's vessels, strong pricking reaching the temples especially as the patient moves, redness of the eye's coats, headache, loss of appetite for food and pain at everything hot; it is not a thing cure is hoped for, only soothing; cancer in no organ pains as it does when it occurs in the eye {cite:canon-ibn-sina-print-v2 p.181}"
+  ur: "آنکھ کا سرطان اکثر صفاق قرنی میں عرض ہوتا ہے؛ اس کی علامات ہیں سخت درد، آنکھ کی رگوں میں تاؤ، صدغوں تک پہنچنے والا تیز چبھن بالخصوص جب مریض حرکت کرے، آنکھ کی تہوں میں سرخی، سر درد، بھوک کا اٹھ جانا اور ہر گرم چیز سے تکلیف؛ اس کی شفا کی طمع نہیں بلکہ صرف تسکین کی؛ اور سرطان کسی عضو میں ایسا درد نہیں دیتا جیسا آنکھ میں عرض ہونے پر دیتا ہے {cite:canon-ibn-sina-print-v2 p.181}"
+wings:
+- "living"
+tags:
+- "tibb-browser"
+- "tibb-tibb"
+sources:
+- "source/canon-ibn-sina-print-v2"
+relations:
+- type: "part_of"
+  target: "concept/disease"
+  sources:
+  - "source/canon-ibn-sina-print-v2"
+provenance:
+  layer: "own-research"
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 3 (the eye's anatomy, states and diseases), maqala 2 end and maqala 3 (the states of the lid and what adjoins it), scan pages 181-182, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json, copied to /tmp before reading); editor glosses used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping, cautery and excision sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, lochia, semen, coitus and nursing listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Devin subagent (SWE-2 Medium, Lane A4 worker)"
+  model: "swe-2-medium"
+  run: "a4-canon-book3-9"
+status:
+  review: "published"
+  completeness: 1
+  generated_by: "Devin subagent (SWE-2 Medium, book mining, lane A4)"

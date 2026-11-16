@@ -1,0 +1,33 @@
+id: "concept/al-ra-sha"
+class: "concept"
+kind: "scientific"
+label:
+  ar: "الرعشة"
+  en: "Tremor"
+  ur: "رعشہ"
+summary:
+  ar: "الرعشة علة آلية تحدث لعجز القوة المحركة عن تحريك العضل على الاتصال مقاومة للنقل المعاوق المداخل بتحريكه لتحريك الإرادة، فتختلط حركات إرادية بحركات غير إرادية أو ثبات إرادي بتحريكات غير إرادية، وهي آفة في القوة المحركة كما أن الخدر آفة في الحساسة {cite:canon-ibn-sina-print-v2 p.157}"
+  en: "Tremor is an instrumental disorder arising for the motive power's inability to keep the muscles moving continuously against the obstructing resistance mingled with its motion for the will's motion, so voluntary motions mix with involuntary motions, or voluntary rest with involuntary movings; it is a lesion in the motive power as numbness is a lesion in the sensitive {cite:canon-ibn-sina-print-v2 p.157}"
+  ur: "رعشہ ایک آلی علت ہے جو محرک قوت کی اس عجز سے پیدا ہوتی ہے کہ وہ عضل کو پیوستہ حرکت پر قائم نہ رکھ سکے اس مزاحم نقل کے مقابل جو اس کی حرکت میں ارادی حرکت کے ساتھ داخل ہو جائے، تو ارادی حرکتیں غیر ارادی حرکتوں سے یا ارادی سکون غیر ارادی حرکتوں سے مل جاتی ہیں؛ اور یہ محرک قوت میں آفت ہے جس طرح خدر حساسہ میں آفت ہے {cite:canon-ibn-sina-print-v2 p.157}۔"
+wings:
+- "living"
+tags:
+- "tibb-browser"
+- "tibb-tibb"
+sources:
+- "source/canon-ibn-sina-print-v2"
+relations:
+- type: "part_of"
+  target: "concept/disease"
+  sources:
+  - "source/canon-ibn-sina-print-v2"
+provenance:
+  layer: "own-research"
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 2 (nerve diseases), maqala 1, scan pages 157, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json); editor glosses used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping and cautery sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Devin subagent (SWE-2 Medium, Lane A4 worker)"
+  model: "swe-2-medium"
+  run: "a4-canon-book3-7"
+status:
+  review: "published"
+  completeness: 1
+  generated_by: "Devin subagent (SWE-2 Medium, book mining, lane A4)"

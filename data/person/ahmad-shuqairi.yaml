@@ -37,6 +37,17 @@ faith:
     basis: unknown
     note: "No source read names a religious school for Ahmad Shuqairi himself. Wikidata's structured religion value gives Islam only — a single structured family; his Istiqlal membership, his PLO chairmanship and his diplomatic posts are political roles and never count."
     sources: [source/wikipedia-ahmad-shuqairi-en, source/wikipedia-ahmad-shuqairi-ar, source/wikidata-ahmad-shuqairi]
+occupations:
+  - job: job/diplomat
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'diplomat', Job Browser linking wave"
+    sources: [source/wikipedia-ahmad-shuqairi-en, source/wikipedia-ahmad-shuqairi-ar, source/wikidata-ahmad-shuqairi, source/wikidata]
+  - job: job/lawyer
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'lawyer', Job Browser linking wave"
+    sources: [source/wikipedia-ahmad-shuqairi-en, source/wikipedia-ahmad-shuqairi-ar, source/wikidata-ahmad-shuqairi, source/wikidata]
 relations:
   - { type: child_of, target: person/asad-al-shuqairi, sources: [source/wikipedia-ahmad-shuqairi-en, source/wikipedia-ahmad-shuqairi-ar, source/wikidata-ahmad-shuqairi] }
   - { type: died_in, target: place/amman, sources: [source/wikipedia-ahmad-shuqairi-en, source/wikipedia-ahmad-shuqairi-ar] }

@@ -26,5 +26,11 @@ sources: [source/shadharat-dhahab]
 status:
   review: published
   completeness: 3
+occupations:
+  - job: job/emir
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'emir', Job Browser linking wave 29"
+    sources: [source/shadharat-dhahab]
 relations:
   - { type: lived_in, target: place/mecca, note: "From text: of Mecca", sources: [source/shadharat-dhahab], confidence: low }

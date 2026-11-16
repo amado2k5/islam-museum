@@ -17,6 +17,17 @@ periods: [period/abbasid-fragmentation]
 regions: [levant-iraq]
 story_roles:
   - { role: transmitter, status: tradition, note: "من رواة كتاب الزهد لابن المبارك برواية المروزي", sources: [source/zuhd-ibn-mubarak-azami-scan] }
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 29"
+    sources: [source/zuhd-ibn-mubarak-farid-1995-v1, source/zuhd-ibn-mubarak-azami-scan]
+  - job: job/muhaddith
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'transmitter', Job Browser linking wave 29"
+    sources: [source/zuhd-ibn-mubarak-farid-1995-v1, source/zuhd-ibn-mubarak-azami-scan]
 relations:
   - { type: lived_in, target: place/iraq, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/zuhd-ibn-mubarak-farid-1995-v1] }
 provenance:

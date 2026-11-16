@@ -15,6 +15,17 @@ wings: [people]
 periods: [period/abbasid-early]
 regions: [levant-iraq]
 died: { edtf: "0835", hijri: "0220", calendar: julian, precision: year, status: tradition, derived: true, note: "Year as printed in al-Nashr; Julian year derived by tabular conversion.", sources: [source/nashr-dahman-damascus-1345-v1] }
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 26"
+    sources: [source/nashr-dahman-damascus-1345-v1]
+  - job: job/teacher
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'teacher', Job Browser linking wave 26"
+    sources: [source/nashr-dahman-damascus-1345-v1]
 relations:
   - { type: student_of, target: person/sulaym-ibn-isa-al-hanafi, confidence: high, note: "Ibn al-Jazari, al-Nashr, p. 175: Khallad and Khalaf read on Sulaym ibn Isa, who read on Hamza.", sources: [source/nashr-dahman-damascus-1345-v1] }
   - { type: lived_in, target: place/kufa, confidence: medium, note: "Nisba al-Kufi in the name printed in al-Nashr p. 175.", sources: [source/nashr-dahman-damascus-1345-v1] }

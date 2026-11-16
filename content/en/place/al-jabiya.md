@@ -28,3 +28,9 @@ In the reign of Sulayman, expeditions against Constantinople caused the great mi
 
 ## What the sources do not settle
 The article gives no coordinates and no dates for the foundation of the Ghassanid camp. The exact site of the ruins is not fixed in the passages read, only its distance from Damascus and its nearness to Nawa. {cite:encyclopaedia-of-islam-2 vol. 2 p. 385}
+
+## In Yaqut's Mu'jam al-buldan
+Yaqut explains al-jabiya in the language as the pool in which water is drawn for camels, quoting al-A'sha; for him it is "a village of the works of [[place/damascus|Damascus]], then of the Jaydur district on the Jawlan side near Marj al-Suffar in northern Hawran" — a man standing at al-Sanamayn facing north sees it, and it is seen from [[place/nawa|Nawa]] too; near it is a hill called Tall al-Jabiya with small snakes of great harm they call umm al-suwayt. In this place Umar ibn al-Khattab delivered his famous sermon, and the Bab al-Jabiya of Damascus is named for this place; it is also called Jabiyat al-Jawlan, and he quotes al-Jawwas ibn al-Qa'tal and Hassan ibn Thabit on it {cite:mujam-al-buldan-sader-1995 2 p.91}. From Ibn Abbas it is related that he said: "The spirits of the believers are at al-Jabiya in the land of Syria, and the spirits of the unbelievers at Barhut in the land of Hadramawt" — a report carried on its relater's name {cite:mujam-al-buldan-sader-1995 2 p.91}.
+
+## The museum's identification
+The record's al-Jabiya is Jabiyat al-Jawlan of the same entry — the place of Umar's sermon and the namesake of Damascus's gate — so the museum's reading matches Yaqut's description of the neighbourhood of Nawa, al-Jaydur and Hawran to the record's account of the Ghassanid amirs' seat in the Jawlan south of Damascus.

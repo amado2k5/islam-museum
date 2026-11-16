@@ -14,6 +14,17 @@ wings: [people]
 regions: [egypt-nile]
 periods: [period/abbasid-early]
 died: { edtf: "814", hijri: "0199", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Baghdad. al-Safadi, al-Wafi, vol. 16 pp. 93-94, and Ibn al-Imad, Shadharat al-Dhahab, vol. 2 p. 471 (year 199 AH notice), print 199 AH, which the museum's conversion gives as 814 or 815 CE, agreeing with the card.", sources: [source/wafi-bi-l-wafayat-safadi-dar-ihya-2000, source/shadharat-dhahab] }
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 40"
+    sources: [source/al-aalam, source/wafi-bi-l-wafayat-safadi-dar-ihya-2000, source/shadharat-dhahab]
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'jurist', Job Browser linking wave 40"
+    sources: [source/al-aalam, source/wafi-bi-l-wafayat-safadi-dar-ihya-2000, source/shadharat-dhahab]
 relations:
   - { type: lived_in, target: place/misr, confidence: medium, note: "Both dictionaries call him al-Misri (of Egypt); no further place is named", sources: [source/wafi-bi-l-wafayat-safadi-dar-ihya-2000, source/shadharat-dhahab] }
   - { type: child_of, target: person/layth-ibn-sad, confidence: high, note: "al-Safadi, al-Wafi, vol. 16 pp. 93-94: Shu'ayb ibn al-Layth ibn Sa'd; he narrated from his father", sources: [source/wafi-bi-l-wafayat-safadi-dar-ihya-2000] }

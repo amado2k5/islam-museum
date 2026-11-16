@@ -1,0 +1,11 @@
+---
+id: concept/ilaj-al-ramad-al-har
+lang: en
+source_lang: ar
+translators: [ai]
+---
+## Sanguineous and choleric: venesection, repelling, ripening
+The shared regimen for ramad whose cause is a choleric or sanguineous matter is venesection and evacuation ⁦(the laxative and strengthener names are not carried)⁩; in all of it one begins by poulticing the eye with the cooling juices, dripping them in, then white of egg and what runs its course, then the repellent collyria — not so far that the coats thicken, the matters congest and the pain intensifies; once the matter is repelled by evacuation, drawing and repellents, the maturatives are graded in — first mixed with the repellents, then used alone, first gentle ⁦(the maturative, tried juice and water names are not carried)⁩; as the ramad declines stronger dissolvents are added, the bath is used if the brain is known clean, and a little strong old pure wine is given some hours after a light meal — a hot-water bath or fomentation after it being the more useful {cite:canon-ibn-sina-print-v2 p.173} {cite:canon-ibn-sina-print-v2 p.174}
+
+## Branching the sanguineous, choleric and humra
+If the matter is sanguineous, cupping follows venesection, the rubbing and binding of the extremities is kept up more than elsewhere, and the said juices are used first ⁦(the details of their mixing are not carried)⁩; severe pain calls for the gentleness described; if the matter is choleric it is evacuated after venesection by what expels the bile, with fresh-water bathing — pouring the cold over head and eye may suit, and washing the face with cold water mixed with a little vinegar; in the choleric kind there should be boldness on astringents early, without excess, and the astringent collyria are used dissolved in the juices; and the humra among these is treated after evacuation by laxatives and clysters with the astringent poultice ⁦(its name and description are not carried)⁩, with continued fomenting by a hot sponge — the soft dissolving poultices also help; washing the eye with milk is kept up with cooling and moistening, though confining oneself to coolers slows and dulls; when the disease has resolved and the redness remains it is poulticed with what dries it gently {cite:canon-ibn-sina-print-v2 p.174}

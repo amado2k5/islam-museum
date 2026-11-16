@@ -1,0 +1,33 @@
+id: "concept/afat-al-sam"
+class: "concept"
+kind: "scientific"
+label:
+  ar: "آفات السمع"
+  en: "The disorders of hearing"
+  ur: "سماعت کی آفتیں"
+summary:
+  ar: "آفات السمع كآفات سائر الأفعال: إما أن يبطل الفعل فيكون بطلان السمع، أو ينقص فلا يستقصى ولا يسمع من بعيد، أو يتغير فيسمع ما ليس مثل الدوي والطنين والصفير؛ وآفة السمع إما أصلية فيكون صمماً أو طرشاً أو وقراً ولادياً وإما عارضة، والصمم أن يكون الصماخ قد خلق باطنه أصمم ليس فيه التجويف الباطن، والطرش والوقر أن لا تبلغ الآفة عدم الحس، وقد يكون السبب مشاركة عضو كمشاركة الدماغ أو آفة خاصة في العصبة أو الثقبة {cite:canon-ibn-sina-print-v2 p.218}"
+  en: "Disorders of hearing are like the disorders of all functions: either the function is annulled — loss of hearing; or lessened — hearing is not exhaustive and not from afar; or altered — hearing what is not, like the ringing, buzzing and whistling that occur in the ear. A disorder of hearing is either original — congenital deafness, hardness or dullness of hearing — or adventitious; deafness is the meatus created solid within, lacking the inner cavity, while hardness and dullness are the lesion not reaching loss of sensation; the cause may be an organ's sharing, as the brain's, or a lesion special to the nerve or the meatus {cite:canon-ibn-sina-print-v2 p.218}"
+  ur: "سماعت کی آفتیں تمام افعال کی آفتوں جیسی ہیں: یا فعل باطل ہو — سماعت کا بطلان؛ یا کم ہو — نہ پوری سنے نہ دور سے؛ یا بدل جائے — وہ سنے جو نہیں، جیسے کان میں گونج، بھنبھناہٹ اور سیٹی؛ اور سماعت کی آفت یا اصلی ہے — پیدائشی بہرہ پن، سماعت کی سختی یا بھاری پن — یا عارضی؛ بہرا پن یہ ہے کہ صماخ اندر سے ٹھوس پیدا ہوا ہو، اس میں اندرونی جوف نہ ہو؛ اور سختی اور بھاری پن یہ ہے کہ آفت حس کے زوال تک نہ پہنچے؛ اور سبب کسی عضو کی شرکت ہو سکتا ہے جیسے دماغ کی، یا عصبے یا ثقبے کی خاص آفت {cite:canon-ibn-sina-print-v2 p.218}"
+wings:
+- "living"
+tags:
+- "tibb-browser"
+- "tibb-tibb"
+sources:
+- "source/canon-ibn-sina-print-v2"
+relations:
+- type: "part_of"
+  target: "concept/disease"
+  sources:
+  - "source/canon-ibn-sina-print-v2"
+provenance:
+  layer: "own-research"
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, end of Fann 3 (the eye) and Fann 4 (the ear, one maqala), scan pages 218-219, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json, copied to /tmp before reading); editor footnotes used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping, cautery and operative sites and application methods left out; the couching and incision hand-works carried only as the book's descriptions, not as procedures; unclear OCR words carried as printed, not guessed; case reports carried as the book's transmitted reports and labelled; coitus and woman's-milk lines kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Devin subagent (SWE-2 Medium, Lane A4 worker)"
+  model: "swe-2-medium"
+  run: "a4-canon-book3-11"
+status:
+  review: "published"
+  completeness: 1
+  generated_by: "Devin subagent (SWE-2 Medium, book mining, lane A4)"

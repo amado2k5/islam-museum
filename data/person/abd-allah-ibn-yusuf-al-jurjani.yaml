@@ -16,6 +16,17 @@ periods: [period/buyid-seljuk-fatimid-era]
 sources: [source/siyar-alam-nubala]
 born: { edtf: "1018", hijri: "0409", calendar: gregorian, precision: year, status: historical, derived: true, note: "Al-Dhahabi, Siyar A'lam al-Nubala' (Risala ed.) vol. 19 p. 158, entry 86 (read 14 November 2026): born 409 AH; the year 409 AH runs from 20 May 1018 to 9 May 1019 by the tabular calendar, so 1018 is the start of the range. He lived eighty years, which agrees.", sources: [source/siyar-alam-nubala] }
 died: { edtf: "1096", hijri: "0489", calendar: gregorian, precision: year, status: historical, derived: true, note: "Al-Dhahabi, Siyar A'lam al-Nubala' (Risala ed.) vol. 19 p. 159 (read 14 November 2026): died in Dhu al-Qa'da 489 AH, which is 21 October to 19 November 1096 by the tabular calendar.", sources: [source/siyar-alam-nubala] }
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 36"
+    sources: [source/siyar-alam-nubala]
+  - job: job/qadi
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'qadi', Job Browser linking wave 36"
+    sources: [source/siyar-alam-nubala]
 relations:
   - { type: lived_in, target: place/nishapur, confidence: low, note: "Al-Dhahabi says he heard hadith in Nishapur from Abu Hafs ibn Masrur and Abd al-Ghafir al-Farisi; how long he stayed is not stated.", sources: [source/siyar-alam-nubala] }
   - { type: lived_in, target: place/jurjan, confidence: low, note: "Association inferred from the nisba al-Jurjani; the entry names no place of birth or residence.", sources: [source/siyar-alam-nubala] }

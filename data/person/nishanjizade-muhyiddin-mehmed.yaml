@@ -13,6 +13,12 @@ regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
 born: { edtf: "1555", hijri: "0962", calendar: gregorian, precision: year, derived: false, note: "al-Zirikli, al-A'lam, vol. 6 p. 8, prints 962 AH = 1555 CE.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 died: { edtf: "1621", hijri: "1031", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi Confirmed on 13 November 2026 against Wikidata Q136101491 (P570, a statement with a reference), item revision 2462226560. al-Zirikli prints 1031 AH = 1622 CE {cite:alam-zirikli-dar-al-ilm-2002 vol. 6 p. 8}; 1031 AH began in November 1621, so the card year 1621 is kept.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
+occupations:
+  - job: job/faqih
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'faqih', Job Browser linking wave 40"
+    sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 relations:
   - { type: born_in, target: place/merzifon, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q958135)" }
   - { type: died_in, target: place/istanbul, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q406). al-Zirikli, al-A'lam, vol. 6 p. 8, says he was judge in Edirne and died there; the two places disagree and the question is logged for outside research." }

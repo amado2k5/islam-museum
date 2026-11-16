@@ -29,5 +29,16 @@ provenance:
   generated_by: "Muse (Muse Wonder)"
   run: "founder-ruling-tansen"
 status: { review: published, completeness: 3 }
+occupations:
+  - job: job/musician
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'musician', Job Browser linking wave"
+    sources: [source/wikipedia-tansen-en, source/wikipedia-tansen-ur, source/wikidata-tansen, source/encyclopedia-com-tansen, source/wikidata, source/biblissima]
+  - job: job/singer
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'singer', Job Browser linking wave"
+    sources: [source/wikipedia-tansen-en, source/wikipedia-tansen-ur, source/wikidata-tansen, source/encyclopedia-com-tansen, source/wikidata, source/biblissima]
 relations:
   - { type: died_in, target: place/delhi, confidence: low, note: "Place named in the record's date note; the specific connection is as stated there.", sources: [source/wikipedia-tansen-en, source/wikidata-tansen, source/encyclopedia-com-tansen] }

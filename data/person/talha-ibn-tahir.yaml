@@ -21,6 +21,12 @@ periods:
 regions:
 - persia-central-asia
 died: { edtf: "828", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Tabari / EI2" }
+occupations:
+  - job: job/emir
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'emir', Job Browser linking wave 30"
+    sources: [source/alam-zirikli-1927-v2]
 relations:
 - type: child_of
   target: person/tahir-ibn-al-husayn

@@ -1,0 +1,44 @@
+id: person/aisyah-hijanah
+class: person
+label: { ar: "عائشة هيجانة", en: "Aisyah Hijanah", ur: "عائشہ ہیجانہ" }
+names:
+  - { value: "عائشة هيجانة بنت أزهري", kind: full }
+  - { value: "Aisyah Hijanah binti Azhari", kind: full }
+gender: female
+summary:
+  ar: "مؤثّرة وداعية ورائدة أعمال ماليزية، مؤسِّسة ومديرة علامة «هيجانة» للأزياء المحتشمة وكتبها، بدأت النشر عن الإيمان ونمط الحياة سنة 2016 من جوهور بهرو. بلغ حسابها على إنستغرام 1,317,417 متابعًا في قراءة مباشرة في 15 نوفمبر 2026، وتؤيد لقطة مؤرخة في أبريل 2026 الحجم نفسه."
+  en: "Malaysian influencer, dawah figure and entrepreneur, founder and director of the Hijanah modest-fashion and books venture, who began posting on faith and lifestyle in 2016 and is based in Johor Bahru. Her Instagram account counted 1,317,417 followers in a direct read on 15 November 2026, with a dated April 2026 snapshot corroborating the scale."
+  ur: "ملائیشیائی متاثر کنندہ، داعیہ اور کاروباری خاتون، «ہیجانہ» کے باوقار فیشن اور کتب کے ادارے کی بانی اور ڈائریکٹر، جس نے 2016ء میں ایمان اور طرزِ زندگی پر پوسٹ کرنا شروع کیا اور جوہر بہرو میں مقیم ہے۔ 15 نومبر 2026ء کی براہِ راست خوانی میں اس کے انسٹاگرام اکاؤنٹ کے 1,317,417 فالوور تھے، اور اپریل 2026ء کی ایک مؤرخہ لقطہ بھی اسی حجم کی تائید کرتی ہے۔"
+roles: [influencer, entrepreneur, writer]
+wings: [people, living]
+regions: [southeast-asia]
+born:
+  edtf: "1998-01-06"
+  calendar: gregorian
+  precision: day
+  status: historical
+  note: "Date and place from TheCityCeleb's biography (born 6 January 1998, Kuala Lumpur). Another aggregator's introduction gives 1 June 1998 while its own fact list gives 6 January; the conflict is recorded here rather than silently resolved, and the date rests on aggregator-grade evidence."
+  sources: [source/thecityceleb-aisyah-hijanah]
+occupations:
+  - job: job/merchant
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'entrepreneur', Job Browser linking wave"
+    sources: [source/thecityceleb-aisyah-hijanah, source/hype-aisyah-hijanah-2024, source/socialveins-aisyahhijanah, source/instagram-aisyahhijanah]
+relations:
+  - { type: born_in, target: place/kuala-lumpur, sources: [source/thecityceleb-aisyah-hijanah] }
+  - { type: lived_in, target: place/johor-bahru, sources: [source/socialveins-aisyahhijanah] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read in this build names a school or order for her: neither the biographical aggregators, nor the Hype Malaysia report, nor the tracker snapshot does so. Under this lane's two-source rule her school therefore stays unknown."
+    sources: [source/thecityceleb-aisyah-hijanah, source/hype-aisyah-hijanah-2024]
+reach:
+  - { platform: instagram, metric: followers, value: 1317417, date: "2026-11-15", note: "@aisyahhijanah: 1,317,417 followers in this build's fresh direct read of the platform page on 15 November 2026 — the figure of record. The wave-201 harvest relied on Socialveins' profile snapshot, whose metrics were recorded on 15 April 2026 (1,350,000 followers) and whose page was re-crawled on 15 November 2026; the snapshot corroborates the scale. The figure is a dated platform count, not a museum-verified fact", sources: [source/instagram-aisyahhijanah, source/socialveins-aisyahhijanah] }
+sources: [source/thecityceleb-aisyah-hijanah, source/hype-aisyah-hijanah-2024, source/socialveins-aisyahhijanah, source/instagram-aisyahhijanah]
+provenance:
+  layer: own-research
+  source: "Built from the wave-201 (Indonesian/Malay scene, Tier 2 re-check) harvest §4.1 and build-time checks of 15 November 2026: TheCityCeleb's biography, Hype Malaysia's report of 13 June 2024, Socialveins' profile snapshot (metrics recorded 15 April 2026), and a fresh direct read of her Instagram profile. Qualification rests on Instagram @aisyahhijanah: the harvest's evidence was the April 2026 Socialveins snapshot (1,350,000); this build re-verified first, as the brief required, and obtained 1,317,417 followers from the platform page itself on 15 November 2026 — far above the women's bar, and the figure of record. Her birth date rests on aggregator-grade biographies and carries their conflict (6 January against 1 June 1998) in the birth note rather than hiding it. No source read names a school for her, so her faith stays unknown. No Wikidata identifier was verified in this build, so none is recorded."
+  generated_by: "Muse (Muse Wonder)"
+  run: modern-figures-wave-201-B
+status: { review: published, completeness: 2 }

@@ -15,6 +15,12 @@ regions: [levant-iraq]
 roles: [munshid, muezzin, singer, composer]
 born: { edtf: "1918", calendar: gregorian, precision: year, status: historical, derived: false, note: "Born in the al-Jalloum quarter of Aleppo (English article; Wikidata gives 1918 and Aleppo).", sources: [source/wikipedia-sabri-mudallal-en, source/wikidata-sabri-mudallal] }
 died: { edtf: "2006-08-21", calendar: gregorian, precision: day, status: historical, derived: false, note: "Wikidata gives 21 August 2006 in Aleppo; the English article gives August 2006.", sources: [source/wikipedia-sabri-mudallal-en, source/wikidata-sabri-mudallal] }
+occupations:
+  - job: job/singer
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'singer', Job Browser linking wave 20"
+    sources: [source/wikipedia-sabri-mudallal-en, source/wikidata-sabri-mudallal, source/wikidata]
 relations:
   - { type: born_in, target: place/aleppo, sources: [source/wikipedia-sabri-mudallal-en, source/wikidata-sabri-mudallal] }
   - { type: died_in, target: place/aleppo, sources: [source/wikidata-sabri-mudallal] }

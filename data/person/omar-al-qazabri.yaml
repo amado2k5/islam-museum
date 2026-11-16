@@ -14,6 +14,22 @@ wings: [people, living]
 regions: [maghreb]
 roles: [reciter, imam, khatib]
 born: { edtf: "1974-08-04", calendar: gregorian, precision: day, status: historical, derived: false, note: "Arabic article and Wikidata give the same day; neither names the place, though he grew up and studied in Marrakesh.", sources: [source/wikipedia-omar-al-qazabri-ar, source/wikidata-omar-al-qazabri] }
+occupations:
+  - job: job/qari
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'reciter', Job Browser linking wave 26"
+    sources: [source/wikipedia-omar-al-qazabri-ar, source/wikidata-omar-al-qazabri, source/wikidata]
+  - job: job/imam
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'imam', Job Browser linking wave 26"
+    sources: [source/wikipedia-omar-al-qazabri-ar, source/wikidata-omar-al-qazabri, source/wikidata]
+  - job: job/khatib
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'khatib', Job Browser linking wave 26"
+    sources: [source/wikipedia-omar-al-qazabri-ar, source/wikidata-omar-al-qazabri, source/wikidata]
 relations:
   - { type: lived_in, target: place/marrakesh, note: "Childhood and schooling (Ibn Yusuf school)", sources: [source/wikipedia-omar-al-qazabri-ar] }
   - { type: lived_in, target: place/jeddah, note: "About five years from 1997, imam at the al-Mi'mar and al-Jami'a mosques", sources: [source/wikipedia-omar-al-qazabri-ar] }

@@ -1,0 +1,44 @@
+id: job/needle-maker
+class: job
+label: { ar: "الإبرجي", en: "Needle-maker (ibraji / iğneci)", ur: "سوئی ساز" }
+names:
+  - { value: "iğneci", kind: alternate, lang: tr }
+  - { value: "Ignehjian", kind: latinized, lang: tr }
+  - { value: "صانع الإبر", kind: alternate }
+summary:
+  ar: "الإبرجي صانع إبر الخياطة وإبر الأكياس، وحرفته عند ابن الأخوة قائمة على صدق المعدن: يُنصَب عليهم أمين من صنفهم يمنع خلط إبر الفولاذ بإبر الحديد الرخو — لأن الحديد إذا سُنّ خُلِط بفولاذ دمشق — ويُحلَّفون على التمييز بينهما؛ وأجود الإبر «الخيّاطية» المسمّاة المسَوَّدة تُسَنّ ثلاثاً وتُصقَل وأجودها مستدير الثقب؛ ويُلزَمون بتسخين الإبر وتشديدها فالفولاذ بالتسخين والتشديد يصلُب بينما سواه يلين؛ وإبر الأكياس تجوز من الفولاذ ومن الحديد الرخو وتُسمّى بأنواع على عدد ما في الرطل. وفي موكب إسطنبول عدّ إوليا صنّاع الإبر ⁦(إغنجيان)⁩ مئتي رجل بخمسة وخمسين دكاناً بيرهم أبو القاسم العطّار مجهول القبر، يزيّنون دكاكينهم بأنواع الإبر والدبابيس — الإبرة والإغنة والسوزن والسندق — ويمرّون نادين: «إبر إبر لخياطة ما انخرق»."
+  en: "The ibraji made sewing-needles and sack-needles, and in Ibn al-Ukhuwwa's manual his craft rests on honesty of metal: a trusty man of their own craft is set over them to prevent the mixing of steel needles with soft-iron ones — for soft iron once sharpened can be passed off as Damascus steel — and the makers are sworn to keep each kind distinct. The best are the 'tailoring' needles they call al-Musawwada, sharpened three times and polished, the finest with round eyes; the makers must be compelled to heat the needles and temper them, for steel when heated and tempered hardens while other metal softens; sack-needles may be of steel or soft iron, and are named by the number contained in a ratl. In Evliya's Istanbul procession the needle-makers (Ignehjian) were two hundred men with fifty-five shops under their patron Abul Kassem Alatar, whose tomb is unknown; they adorned their shops with the kinds of needles and pins — the ibrah, ignah, suzen and sundok — and passed crying 'Needles, needles, to sew what is torn.'"
+  ur: "ابرجی سلائی اور بورے سیونے کی سوئیاں بنانے والا ہے، اور ابن الاخوہ کی کتاب میں اس کا پیشہ دھات کی راست بازی پر کھڑا ہے: ان ہی میں سے ایک امین نگران مقرر ہو جو فولادی سوئیوں کو نرم لوہے کی سوئیوں میں ملنے سے روکے — کہ نرم لوہا تیز کرنے پر دمشقی فولاد سمجھا جا سکتا ہے — اور بنانے والوں سے قسم لی جائے کہ ہر قسم الگ رکھیں۔ بہترین سوئیاں «درزی» سوئیاں ہیں جو انہیں «مسودہ» کہتے ہیں: تین بار سیدھی کی جائیں اور چمکائی جائیں، اچھی سوئی کا ناکہ گول ہو؛ بنانے والوں پر لازم ہے سوئیاں تپائیں اور آب دیں کہ فولاد تپا کر آب دینے سے سخت ہوتا اور دوسری دھات نرم؛ بورے کی سوئیاں فولاد یا نرم لوہے دونوں کی ہوسکتی ہیں اور رطل میں گنتی کے حساب سے ناموں میں بٹی ہوتی ہیں۔ اولیاء کے استنبول کے جلوس میں سوئی ساز ⁦(ایغنجیان)⁩ دو سو آدمی پچپن دکانیں تھے، پیر ابوالقاسم عطار جس کا مزار معلوم نہیں؛ وہ اپنی دکانیں ہر قسم کی سوئیوں اور پنوں — ابرہ، ایغنہ، سوزن اور سندوق — سے سجاتے اور چلتے پکارتے: «سوئیاں سوئیاں، پھٹی سلنے کو۔»"
+domain: building-making
+kind: craft
+hirfa: true
+era:
+  origins: pre-islamic
+  status_today: transformed
+places:
+  - { place: place/istanbul, note: "Evliya counts the needle-makers at two hundred men in fifty-five shops displaying the ibrah, ignah, suzen and sundok, beside the heddeh-smiths who made the steel draw-plates pierced with a hundred holes through which gold and silver wire was drawn.", sources: [source/evliya-seyahatname-hammer] }
+regions: [anatolia-balkans, levant-iraq, egypt-nile]
+organization:
+  organized: guild
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk, period/gunpowder-empires, period/modern-era]
+sources: [source/ibn-ukhuwwa-maalim-levy, source/evliya-seyahatname-hammer]
+craft:
+  materials: [brass]
+  techniques:
+    ar: "يفصّل ابن الأخوة ضبط الإبر: إبر الفولاذ تُميَّز عن إبر الحديد الرخو لأن الحديد المسنون يُشتبه بفولاذ دمشق، والصنّاع يُحلَّفون على عدم الخلط؛ والمسَوَّدة الخيّاطية تُسَنّ ثلاث مرات وتُصقَل وأفضلها مستديرة الثقب؛ والإبر تُسخَّن وتُشدَّد إذ الفولاذ بهما يصلُب وسواه يلين؛ وإبر الأكياس من فولاذ أو حديد رخو وتُعَدّ أنواعاً بحسب ما في الرطل منها. وبجوار الإبرجية يذكر إوليا صنّاع «الهِدّة» — صفيحة فولاذ بمئات الثقوب تُجَرّ عبرها أسلاك الذهب والفضة — بيرهم سعد الدين المصري الذي تقلّده سلمان وقبره ببلبيس لا قانَوي الصائغ كما يُظن، وصنّاع الأسلاك ⁦(تِلجيان)⁩ مئتين بأربعين دكاناً يمرّون يجرّون أسلاك الحديد والنحاس بالجَوَالِس ⁦(العجلات)⁩."
+    en: "Ibn al-Ukhuwwa details the policing of needles: steel needles are kept distinct from soft-iron ones because sharpened soft iron passes for Damascus steel, and the makers are sworn against mixing; the 'tailoring' musawwada needles are sharpened three times and polished, the best having round eyes; needles must be heated and tempered, since steel hardens under this treatment while other metal softens; sack-needles are of steel or soft iron, sorted into kinds by the count in a ratl. Beside the needle-makers Evliya records the heddeh-smiths — makers of the steel plate pierced with a hundred holes through which gold and silver wire is drawn — whose true patron was Sa'd-ud-din the Egyptian, girded by Selman and buried at Belbeis, and not the Seljuk gold-beater Kanewi as some supposed; and the wire-makers (Teljian), two hundred men in forty shops, who passed drawing iron and brass wires by means of wheels."
+    ur: "ابن الاخوہ سوئیوں کی نگرانی تفصیل دیتا ہے: فولادی سوئیاں نرم لوہے کی سوئیوں سے الگ رکھی جائیں کہ سیدھی ہوئی نرم لوہا دمشقی فولاد سمجھی جاتی، اور بنانے والے قسم کھائیں کہ نہ ملائیں؛ درزی «مسودہ» سوئیاں تین بار سیدھی کی جائیں اور چمکائی جائیں، اچھی سوئی کا ناکہ گول؛ سوئیاں تپائی اور آب دی جائیں کہ اس سے فولاد سخت اور دوسری دھات نرم ہوتی ہے؛ بورے کی سوئیاں فولاد یا نرم لوہے کی، رطل کی گنتی سے انواع میں بٹی۔ ابرجیوں کے ساتھ اولیاء «ہِدّہ» سازوں کو لکھتا ہے — فولاد کی تختیاں جن میں سو سوراخ ہوتے اور جن سے سونے چاندی کی تاریں کھینچی جاتی ہیں — جن کا اصل پیر سعد الدین مصری ہے جسے سلمان نے کمر بند پہنائی اور بلبيس میں مدفون ہے، نہ کہ سلجوکوں کا زربفت کاری کرنے والا قانوی جیسا کچھ سمجھتے ہیں؛ اور تار ساز ⁦(تلجیان)⁩ دو سو آدمی چالیس دکانیں جو پہیوں سے لوہے اور پیتل کی تاریں کھینچتے نکلتے۔"
+  guild:
+    bodies: []
+    shaykh_title: { ar: "شيخ طائفة الإبرجيين", en: "Sheykh of the needle-makers' guild", ur: "طائفۃ الابرجیین کا شیخ" }
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-trades-2" }
+provenance:
+  layer: own-research
+  source: "Ibn al-Ukhuwwa/Levy ch. LVII pp. 89-90 (needle-makers); Evliya (von Hammer) I,2 sec. 291 pp. 186-187 (needle-makers), sec. 292 p. 187 (heddeh-smiths), sec. 294 pp. 186-187 (wire-makers) — read on 16 Nov 2026 from the downloaded scans"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-trades-2-drafting"

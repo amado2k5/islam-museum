@@ -31,6 +31,23 @@ died:
   derived: true
   note: "Day date (4 February 1871, at Medina) from English Wikipedia and Wikidata's Julian-calendar value. The Arabic article and Britannica both give March 1871 — Britannica with a question mark ('Medina?') — so the month is contested across sources; the day date of the English article and Wikidata is followed and the conflict recorded here. The Hijri year (1287) is derived by tabular conversion."
   sources: [source/wikipedia-imam-shamil-en, source/wikidata-imam-shamil, source/wikipedia-imam-shamil-ar, source/britannica-shamil]
+occupations:
+  - job: job/imam
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'imam', Job Browser linking wave"
+    sources: [source/wikipedia-imam-shamil-en, source/wikipedia-imam-shamil-ar, source/wikidata-imam-shamil, source/britannica-shamil, source/wikidata]
+  - job: job/commander
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'military-leader', Job Browser linking wave"
+    sources: [source/wikipedia-imam-shamil-en, source/wikipedia-imam-shamil-ar, source/wikidata-imam-shamil, source/britannica-shamil, source/wikidata]
+  - job: job/preacher
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'religious-leader', Job Browser linking wave"
+    sources: [source/wikipedia-imam-shamil-en, source/wikipedia-imam-shamil-ar, source/wikidata-imam-shamil, source/britannica-shamil, source/wikidata]
+
 relations:
   - { type: born_in, target: place/gimry, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-imam-shamil] }
   - { type: buried_in, target: place/al-baqi, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-imam-shamil] }

@@ -14,6 +14,22 @@ wings: [people, living]
 regions: [southeast-asia]
 roles: [reciter, teacher, scholar]
 born: { edtf: "1955-12-21", calendar: gregorian, precision: day, status: historical, derived: false, note: "Born in Lamongan Regency, East Java, the ninth of twelve children of Haji Mudhoffar and Hajjah Ruminah (English article, citing her own site; Wikidata gives the same day and place). No place entity for Lamongan exists, so no birthplace relation is written.", sources: [source/wikipedia-maria-ulfah-en, source/wikidata-maria-ulfah] }
+occupations:
+  - job: job/qari
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'reciter', Job Browser linking wave 26"
+    sources: [source/wikipedia-maria-ulfah-en, source/wikidata-maria-ulfah]
+  - job: job/teacher
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'teacher', Job Browser linking wave 26"
+    sources: [source/wikipedia-maria-ulfah-en, source/wikidata-maria-ulfah]
+  - job: job/alim
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 26"
+    sources: [source/wikipedia-maria-ulfah-en, source/wikidata-maria-ulfah]
 relations:
   - { type: lived_in, target: place/jakarta, note: "Lecturer at the Institute for Qur'anic Studies in Jakarta", sources: [source/wikipedia-maria-ulfah-en] }
 faith:

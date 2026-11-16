@@ -14,6 +14,17 @@ wings: [people]
 periods: [period/abbasid-fragmentation]
 regions: [levant-iraq]
 died: { edtf: "0974-08-13", hijri: "0363-11-21", calendar: julian, precision: day, status: tradition, derived: true, note: "21 Dhu l-Qa'da 363 / 13 August 974, at the age of 81, per the Encyclopaedia of Islam article; the conversion is the article's own. The al-Farabi article in the same work gives his death as 362/972 {cite:encyclopaedia-of-islam-2 vol. 2 p. 809}; the two are not reconciled here.", sources: [source/encyclopaedia-of-islam-2] }
+occupations:
+  - job: job/philosopher
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'philosopher', Job Browser linking wave 30"
+    sources: [source/encyclopaedia-of-islam-2, source/wikidata-yahya-ibn-adi]
+  - job: job/mutakallim
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'theologian', Job Browser linking wave 30"
+    sources: [source/encyclopaedia-of-islam-2, source/wikidata-yahya-ibn-adi]
 relations:
   - { type: student_of, target: person/matta-ibn-yunus, sources: [source/encyclopaedia-of-islam-2] }
   - { type: student_of, target: person/al-farabi, sources: [source/encyclopaedia-of-islam-2] }

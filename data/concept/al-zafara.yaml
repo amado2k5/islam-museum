@@ -1,0 +1,33 @@
+id: "concept/al-zafara"
+class: "concept"
+kind: "scientific"
+label:
+  ar: "الظفرة"
+  en: "Pterygium (zafara)"
+  ur: "ظفرہ"
+summary:
+  ar: "الظفرة زيادة من الملتحمة أو من الحجاب المحيط بالعين تبتدئ في أكثر الأمر من الموق وتجري دائماً على الملتحمة وربما غشت القرنية ونفذت عليها حتى تغطي الثقبة، ومنها أصلب وألين وقد تكون صفراء أو حمراء أو كبدية اللون، ومنها ما مجاورته للملتحمة مجاورة ملتزق فينكشط بسرعة ومنها ما مجاورته مجاورة اتحاد فيحتاج إلى سلخ، وأفضل علاجه الكشط بالحديد خصوصاً للين والصلب يشال بالصنارات ⁦(صفة الكشط والسلخ منقولة كوصف الكتاب لا كعمل)⁩ {cite:canon-ibn-sina-print-v2 p.186}"
+  en: "The pterygium is an increase of the conjunctiva or of the membrane surrounding the eye, mostly beginning at the canthus and always running over the conjunctiva; it may cover the cornea and pass over it till it covers the hole; some of it is harder, some softer, and it may be yellow, red or liver-coloured; some adjoin the conjunctiva with an adherent adjoining and are scraped quickly, some with a union adjoining needing stripping; its best treatment is scraping with iron, especially the soft, while the hard is lifted with hooks ⁦(the scraping and stripping carried as the book's description, not as procedure)⁩ {cite:canon-ibn-sina-print-v2 p.186}"
+  ur: "ظفرہ ملتحمہ یا آنکھ کے گرد غشاء کا بڑھا ہوا حصہ ہے جو اکثر مآق سے شروع ہوتا ہے اور ہمیشہ ملتحمہ پر دوڑتا ہے؛ اور قرنیہ کو ڈھانپ کر اس پر چڑھ سکتا ہے یہاں تک کہ سوراخ کو ڈھانپ لے؛ اس میں سے کچھ سخت اور کچھ نرم ہوتا ہے اور پیلا، سرخ یا جگری رنگ ہو سکتا ہے؛ کچھ کی ملتحمہ سے مجاورت چپکنے والی ہوتی ہے تو جلد کھرچا جاتا ہے اور کچھ کی مجاورت اتحاد والی ہوتی ہے تو سلخ چاہتا ہے؛ اس کا بہترین علاج لوہے سے کھرچنا ہے بالخصوص نرم کا، اور سخت کو صناروں سے اٹھایا جاتا ہے ⁦(کھرچنے اور سلخ کی صفت کتاب کی روایت کے طور پر، عمل کے طور پر نہیں)⁩ {cite:canon-ibn-sina-print-v2 p.186}"
+wings:
+- "living"
+tags:
+- "tibb-browser"
+- "tibb-tibb"
+sources:
+- "source/canon-ibn-sina-print-v2"
+relations:
+- type: "part_of"
+  target: "concept/disease"
+  sources:
+  - "source/canon-ibn-sina-print-v2"
+provenance:
+  layer: "own-research"
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 3 (the eye's anatomy, states and diseases), maqala 2 end and maqala 3 (the states of the lid and what adjoins it), scan pages 186-187, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json, copied to /tmp before reading); editor glosses used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping, cautery and excision sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, lochia, semen, coitus and nursing listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Devin subagent (SWE-2 Medium, Lane A4 worker)"
+  model: "swe-2-medium"
+  run: "a4-canon-book3-9"
+status:
+  review: "published"
+  completeness: 1
+  generated_by: "Devin subagent (SWE-2 Medium, book mining, lane A4)"

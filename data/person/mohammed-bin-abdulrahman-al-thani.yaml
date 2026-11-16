@@ -21,6 +21,12 @@ born:
   derived: true
   note: "Born in Doha on 1 November 1980 (the English, Arabic and Urdu articles and the Wikidata item agree). Doha has no place entity in the museum, so no born_in relation is written. The hijri year 1400 is a tabular derived conversion of the Gregorian date (derived: true). The queue's 1982 birth year is contradicted by every source and was not followed."
   sources: [source/wikipedia-mohammed-bin-abdulrahman-al-thani-en, source/wikipedia-mohammed-bin-abdulrahman-al-thani-ar, source/wikipedia-mohammed-bin-abdulrahman-al-thani-ur, source/wikidata-mohammed-bin-abdulrahman-al-thani]
+occupations:
+  - job: job/diplomat
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'diplomat', Job Browser linking wave"
+    sources: [source/wikipedia-mohammed-bin-abdulrahman-al-thani-en, source/wikipedia-mohammed-bin-abdulrahman-al-thani-ar, source/wikipedia-mohammed-bin-abdulrahman-al-thani-ur, source/wikidata-mohammed-bin-abdulrahman-al-thani]
 relations:
   - { type: member_of, target: group/al-thani, sources: [source/wikipedia-mohammed-bin-abdulrahman-al-thani-en, source/wikipedia-mohammed-bin-abdulrahman-al-thani-ar] }
 

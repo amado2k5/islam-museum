@@ -20,6 +20,17 @@ born:
   derived: true
   note: "Gregorian date from English Wikipedia and Wikidata; the Arabic Wikipedia article gives 12 June 1974 instead. The Hijri year (1394) is converter-derived."
   sources: [source/wikipedia-ebru-gundes-en, source/wikidata-ebru-gundes]
+occupations:
+  - job: job/singer
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'singer', Job Browser linking wave"
+    sources: [source/wikipedia-ebru-gundes-en, source/wikipedia-ebru-gundes-ar, source/wikidata-ebru-gundes, source/wikidata]
+  - job: job/actor
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'actress', Job Browser linking wave"
+    sources: [source/wikipedia-ebru-gundes-en, source/wikipedia-ebru-gundes-ar, source/wikidata-ebru-gundes, source/wikidata]
 relations:
   - { type: born_in, target: place/istanbul, sources: [source/wikipedia-ebru-gundes-en, source/wikidata-ebru-gundes] }
 faith:

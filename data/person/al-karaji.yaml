@@ -25,6 +25,17 @@ faith:
     sources: [source/karaji-ataie-simmons-2020, source/tdv-kereci, source/karaji-mactutor]
 born: { edtf: "953~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: MacTutor History of Mathematics; EI2 ('al-Karadji' / R. Rashed) Confirmed on 13 November 2026 against Wikidata Q461062 (P569, a statement with a reference), item revision 2554077170.", sources: [source/wikidata] }
 died: { edtf: "1029~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: MacTutor History of Mathematics; EI2 ('al-Karadji' / R. Rashed) Confirmed on 13 November 2026 against Wikidata Q461062 (P570, a statement with a reference), item revision 2554077170.", sources: [source/wikidata] }
+occupations:
+  - job: job/mathematician
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'mathematician', Job Browser linking wave"
+    sources: [source/sezgin-gas-v-mathematik, source/karaji-mactutor, source/tdv-kereci, source/karaji-ataie-simmons-2020, source/karaji-woepcke-1853, source/karaji-inbat-ljs399, source/samawal-mactutor, source/samawal-dsb, source/wikidata]
+  - job: job/engineer
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'engineer', Job Browser linking wave"
+    sources: [source/sezgin-gas-v-mathematik, source/karaji-mactutor, source/tdv-kereci, source/karaji-ataie-simmons-2020, source/karaji-woepcke-1853, source/karaji-inbat-ljs399, source/samawal-mactutor, source/samawal-dsb, source/wikidata]
 relations:
   - { type: lived_in, target: place/baghdad, sources: [source/karaji-mactutor, source/tdv-kereci] }
 inventions:

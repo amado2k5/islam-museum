@@ -1,0 +1,33 @@
+id: "concept/alamat-al-sar-al-mushtaraka"
+class: "concept"
+kind: "scientific"
+label:
+  ar: "العلامات المشتركة للصرع وإنذاراته"
+  en: "Common and premonitory signs of epilepsy"
+  ur: "صرع کی مشترک اور پیشگی علامات"
+summary:
+  ar: "العلامات المشتركة لأكثر أصناف المصروعين: ضفرة ألسنتهم وخضرة العروق التي تحتها، ويتقدّمه ثقل في الرأس ودوار وظلمة في العين وثقل في اللسان والحواس وأحلام رديئة {cite:canon-ibn-sina-print-v2 p.122} {cite:canon-ibn-sina-print-v2 p.123}"
+  en: "The signs shared by most kinds of epileptics: fur on their tongues and greenness of the veins beneath them, preceded by heaviness of the head, dizziness, darkness of the eye, heaviness of tongue and senses, and bad dreams {cite:canon-ibn-sina-print-v2 p.122} {cite:canon-ibn-sina-print-v2 p.123}"
+  ur: "بیشتر اقسام کے صرع زدگان کی مشترک علامات: ان کی زبانوں پر جھاڑ اور اس کے نیچے کی رگوں کا سبز پن، اور اس سے پہلے سر کی گرانی، دوار، آنکھ کا تاریک ہونا، زبان اور حواس کی گرانی، اور برے خواب {cite:canon-ibn-sina-print-v2 p.122} {cite:canon-ibn-sina-print-v2 p.123}۔"
+wings:
+- "living"
+tags:
+- "tibb-browser"
+- "tibb-tibb"
+sources:
+- "source/canon-ibn-sina-print-v2"
+relations:
+- type: "part_of"
+  target: "concept/symptoms-and-signs"
+  sources:
+  - "source/canon-ibn-sina-print-v2"
+provenance:
+  layer: "own-research"
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 1, maqala 5 and the opening of Fann 2, scan pages 122 to 123, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json); editor glosses used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping and cautery sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Devin subagent (SWE-2 Medium, Lane A4 worker)"
+  model: "swe-2-medium"
+  run: "a4-canon-book3-6"
+status:
+  review: "published"
+  completeness: 1
+  generated_by: "Devin subagent (SWE-2 Medium, book mining, lane A4)"

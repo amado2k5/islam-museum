@@ -13,6 +13,12 @@ regions: [persia-central-asia]
 periods: [period/contemporary-era]
 born: { edtf: "1923", precision: year, status: tradition, derived: true }
 died: { edtf: "1999", precision: year, status: tradition, derived: true }
+occupations:
+  - job: job/philosopher
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'philosopher', Job Browser linking wave 47"
+    sources: [source/al-aalam, source/wikidata]
 relations:
   - { type: born_in, target: place/qumm, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/tehran, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

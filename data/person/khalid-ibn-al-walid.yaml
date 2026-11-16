@@ -27,6 +27,12 @@ faith:
   - { value: sunni, basis: documented, note: "Embraced Islam in 629 CE after years of fighting on the Meccan side; recorded under the museum's Sunni frame (docs/scope.md)." }
 labelled:
   - { label: { en: "Sayf Allah al-Maslul (the Unsheathed Sword of God)", ar: "سيف الله المسلول" }, by: "a saying attributed to the Prophet in the tradition", status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
+occupations:
+  - job: job/commander
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'general', Job Browser linking wave"
+    sources: [source/ibn-sad-tabaqat-bewley, source/tabari-donner-1993, source/ibn-ishaq-guillaume, source/watt-1956-medina, source/sahih-al-bukhari, source/nihayat-al-arab-nuwayri-vol3-scan, source/assabile-omar-abdelkafy, source/fadail-sahaba-ahmad-wasi-allah-1999, source/ibn-hajar-isaba, source/encyclopaedia-of-islam-2, source/wikidata]
 relations:
   - { type: born_in, target: place/kingdom-of-saudi-arabia, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/homs, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

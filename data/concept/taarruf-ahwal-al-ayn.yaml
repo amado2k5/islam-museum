@@ -1,0 +1,33 @@
+id: "concept/taarruf-ahwal-al-ayn"
+class: "concept"
+kind: "scientific"
+label:
+  ar: "تعرف أحوال العين وأمزجتها"
+  en: "Discerning the eye's states and tempers"
+  ur: "آنکھ کے احوال اور امزجہ کی پہچان"
+summary:
+  ar: "تتعرف أحوال العين من ملمسها وحركتها وعروقها ولونها وشكلها وقدرها وفعلها الخاص وحال ما يسيل منها وحال انفعالاتها، فالملمس الحار البارد الصلب اللين والحركة الخفيفة الثقيلة والعروق الغليظة الدقيقة الخالية الممتلئة واللون الدال على الخلط الغالب كلها دلائل على مزاجها {cite:canon-ibn-sina-print-v2 p.163}"
+  en: "The eye's states are discerned from its touch, motion, veins, colour, shape, size, special action, what flows from it and its passions: hot or cold, hard-dry or soft-moist to the touch; light motion pointing to heat or dryness, heavy to cold and moisture; wide gross veins pointing to heat, fine hidden ones to cold, empty to dryness, full to abundant matter; each colour pointing to the matching prevailing humour {cite:canon-ibn-sina-print-v2 p.163}"
+  ur: "آنکھ کے احوال اس کے لمس، حرکت، رگوں، رنگ، شکل، قدر، خاص فعل، اس سے بہنے والی چیز اور اس کے انفعالات سے پہچانے جاتے ہیں: لمس میں گرم یا سرد، سخت خشک یا نرم مرطوب؛ حرکت ہلکی ہو تو حرارت یا خشکی کی دلیل، بھاری ہو تو برودت اور رطوبت کی؛ رگیں موٹی کھلی ہوں تو حرارت، باریک پوشیدہ ہوں تو برودت، خالی ہوں تو خشکی، بھری ہوں تو مادہ کی کثرت؛ اور ہر رنگ اس سے میل رکھنے والے غالب خلط پر دلالت کرتا ہے {cite:canon-ibn-sina-print-v2 p.163}"
+wings:
+- "living"
+tags:
+- "tibb-browser"
+- "tibb-tibb"
+sources:
+- "source/canon-ibn-sina-print-v2"
+relations:
+- type: "part_of"
+  target: "concept/symptoms-and-signs"
+  sources:
+  - "source/canon-ibn-sina-print-v2"
+provenance:
+  layer: "own-research"
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 2 (nerve diseases) end of maqala 1 and Fann 3 (the eye's anatomy, states and diseases) maqalat 1-2, scan pages 163, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json); editor glosses used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping, cautery and artery sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, semen, coitus and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Devin subagent (SWE-2 Medium, Lane A4 worker)"
+  model: "swe-2-medium"
+  run: "a4-canon-book3-8"
+status:
+  review: "published"
+  completeness: 1
+  generated_by: "Devin subagent (SWE-2 Medium, book mining, lane A4)"

@@ -35,6 +35,23 @@ provenance:
   generated_by: "Claude Code (claude-haiku-5-5)"
   run: ei2-b002-part2b, lib-durar-kamina-batch-1-2-2026-10-31
 status: { review: published, generated_by: "Claude Code (claude-haiku-5-5)" }
+occupations:
+  - job: job/historian
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'historian', Job Browser linking wave"
+    sources: [source/encyclopaedia-of-islam-2, source/durar-kamina-jil-1993]
+  - job: job/geographer
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'geographer', Job Browser linking wave"
+    sources: [source/encyclopaedia-of-islam-2, source/durar-kamina-jil-1993]
+  - job: job/commander
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'general', Job Browser linking wave"
+    sources: [source/encyclopaedia-of-islam-2, source/durar-kamina-jil-1993]
+
 relations:
   - { type: born_in, target: place/damascus, note: "From text: born in Damascus", sources: [source/encyclopaedia-of-islam-2, source/durar-kamina-jil-1993] }
   - { type: died_in, target: place/hama, note: "From text: died at Hama", sources: [source/encyclopaedia-of-islam-2, source/durar-kamina-jil-1993] }

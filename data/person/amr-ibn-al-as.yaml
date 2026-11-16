@@ -33,6 +33,12 @@ story_roles:
   - { role: commander, toward: polity/rashidun-caliphate, start: { edtf: "0639" }, end: { edtf: "0646~" }, status: historical, note: "Led the conquest of Egypt under Umar and governed it.", sources: [source/tabari-donner-1993, source/ibn-sad-tabaqat-bewley] }
 faith:
   - { value: sunni, basis: documented, note: "Embraced Islam about 629–630 CE after opposing the early community; recorded under the museum's Sunni frame (docs/scope.md)." }
+occupations:
+  - job: job/commander
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'general', Job Browser linking wave 22"
+    sources: [source/ibn-sad-tabaqat-bewley, source/tabari-donner-1993, source/ibn-ishaq-guillaume, source/muruj-al-dhahab, source/ibn-hisham-saqqa, source/nihayat-al-arab-nuwayri-vol3-scan, source/assabile-omar-abdelkafy, source/encyclopaedia-of-islam-2, source/assabile-abu-ishaq-alheweny, source/assabile-tareq-al-suwaidan, source/fadail-sahaba-ahmad-wasi-allah-1999, source/wikidata]
 relations:
   - { type: participated_in, target: event/expedition-of-dhat-al-salasil, role: "أمير الغزوة؛ صلى بالناس بعد تنازل أبي عبيدة", sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq] }
   - { type: born_in, target: place/mecca }

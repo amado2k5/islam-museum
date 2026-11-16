@@ -30,6 +30,12 @@ died:
   derived: true
   note: "Died at Lahore on 11 February 2018, of a brain haemorrhage following a stroke; the English and Arabic articles and Wikidata agree. The Hijri year (1439) is derived by tabular conversion."
   sources: [source/wikipedia-asma-jahangir-en, source/wikipedia-asma-jahangir-ar, source/wikidata-asma-jahangir]
+occupations:
+  - job: job/lawyer
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'lawyer', Job Browser linking wave"
+    sources: [source/wikipedia-asma-jahangir-en, source/wikipedia-asma-jahangir-ar, source/wikipedia-asma-jahangir-ur, source/wikidata-asma-jahangir, source/wikidata]
 relations:
   - { type: born_in, target: place/lahore, sources: [source/wikipedia-asma-jahangir-en, source/wikidata-asma-jahangir] }
   - { type: died_in, target: place/lahore, sources: [source/wikipedia-asma-jahangir-en, source/wikidata-asma-jahangir] }

@@ -18,6 +18,12 @@ died: { edtf: "1330~", calendar: gregorian, precision: century, derived: true, n
 roles: [potter, katib]
 regions: [persia-central-asia]
 periods: [period/mongol-post-mongol]
+occupations:
+  - job: job/katib
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'katib', Job Browser linking wave"
+    sources: [source/lane-early-islamic-pottery-1947]
 relations:
   - { type: lived_in, target: place/kashan, confidence: high, sources: [source/lane-early-islamic-pottery-1947] }
 importance: 2

@@ -14,7 +14,7 @@ summary:
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/abbasid-fragmentation]
-sources: [source/al-aalam, source/wikidata]
+sources: [source/al-aalam, source/wikidata, source/oxford-dictionary-of-islam]
 external_ids:
   wikidata: Q12827721
   viaf: "72145067131266630830"
@@ -24,11 +24,23 @@ provenance:
   generated_by: "Devin (SWE-2 High)"
   model: "SWE-2 High"
   run: wikidata-import-0008
+  oxford_captures: "t125/e1469: http://www.oxfordislamicstudies.com/article/opr/t125/e1469 ; https://web.archive.org/web/20211205214209/http://oxfordislamicstudies.com/article/opr/t125/e1469"
 importance: 2
 status:
   review: draft
   completeness: 1
 born: { edtf: "853~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam); EI2 Confirmed on 13 November 2026 against Wikidata Q12827721 (P569, a statement with a reference), item revision 2567382480.", sources: [source/wikidata] }
 died: { edtf: "944~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam); EI2 Confirmed on 13 November 2026 against Wikidata Q12827721 (P570, a statement with a reference), item revision 2567382480.", sources: [source/wikidata] }
+occupations:
+  - job: job/mutakallim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'theologian', Job Browser linking wave 40"
+    sources: [source/al-aalam, source/wikidata, source/oxford-dictionary-of-islam]
+  - job: job/alim
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 40"
+    sources: [source/al-aalam, source/wikidata, source/oxford-dictionary-of-islam]
 relations:
   - { type: lived_in, target: place/samarqand, note: "Place association from the person's nisba/name (السمرقندي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

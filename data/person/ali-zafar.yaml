@@ -25,6 +25,17 @@ faith:
     basis: unknown
     note: "No source names a school for him: Wikidata's item carries no religion (P140) value at all, and none of the English, Arabic or Urdu biographies names an affiliation for him personally. Absence configuration, so the record is unflagged."
     sources: [source/wikipedia-ali-zafar-en, source/wikipedia-ali-zafar-ar, source/wikipedia-ali-zafar-ur, source/wikidata-ali-zafar]
+occupations:
+  - job: job/singer
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'singer', Job Browser linking wave"
+    sources: [source/wikipedia-ali-zafar-en, source/wikipedia-ali-zafar-ar, source/wikipedia-ali-zafar-ur, source/wikidata-ali-zafar, source/wikidata]
+  - job: job/actor
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'actor', Job Browser linking wave"
+    sources: [source/wikipedia-ali-zafar-en, source/wikipedia-ali-zafar-ar, source/wikipedia-ali-zafar-ur, source/wikidata-ali-zafar, source/wikidata]
 relations:
   - { type: born_in, target: place/lahore, sources: [source/wikipedia-ali-zafar-en, source/wikidata-ali-zafar] }
 summary:

@@ -26,5 +26,16 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch50
+occupations:
+  - job: job/philosopher
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'philosopher', Job Browser linking wave 47"
+    sources: [source/mawsuat-a3lam-ulama-adaba]
+  - job: job/alim
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 47"
+    sources: [source/mawsuat-a3lam-ulama-adaba]
 relations:
   - { type: lived_in, target: place/iran, note: "Only the record-level region (persia-central-asia) is attested; broad-region edge flagged for review.", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }

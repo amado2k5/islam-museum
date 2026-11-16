@@ -43,6 +43,17 @@ died:
     - source/wikipedia-jahaniyan-jahangasht-en
     - source/wikipedia-jahaniyan-jahangasht-ur
     - source/wikidata-jahaniyan-jahangasht
+occupations:
+  - job: job/sufi-shaykh
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'sufi master', Job Browser linking wave"
+    sources: [source/wikipedia-jahaniyan-jahangasht-en, source/wikipedia-jahaniyan-jahangasht-ur, source/wikidata-jahaniyan-jahangasht, source/khan-constructing-islam-on-the-indus-2016, source/wikidata]
+  - job: job/alim
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave"
+    sources: [source/wikipedia-jahaniyan-jahangasht-en, source/wikipedia-jahaniyan-jahangasht-ur, source/wikidata-jahaniyan-jahangasht, source/khan-constructing-islam-on-the-indus-2016, source/wikidata]
 relations:
   - { type: born_in, target: place/uch, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-jahaniyan-jahangasht] }
   - { type: died_in, target: place/uch, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-jahaniyan-jahangasht] }

@@ -1,0 +1,33 @@
+id: "concept/al-hawal"
+class: "concept"
+kind: "scientific"
+label:
+  ar: "الحول في العين"
+  en: "Squint in the eye (hawal, medical)"
+  ur: "آنکھ کا حول"
+summary:
+  ar: "قد يكون الحول لاسترخاء بعض العضل المحركة للمقلة فتميل عن تلك الجهة إلى الجهة المضادة لها وقد يكون من تشنج بعضها فتميل المقلة إلى جهتها، وكيف كان فقد يكون عن رطوبة وقد يعرض عن يبوسة كما يعرض في الأمراض الحادة، وزوال العين إلى فوق وأسفل هو الذي يري الشيء شيئين وأما إلى الجانبين فلا يضر البصر ضرراً يعتد به، والمولود به لا يبرأ إلا في حال الطفولية الرطبة جداً فربما رجي ⁦(أسماء الأدوية لا تحمل)⁩ {cite:canon-ibn-sina-print-v2 p.189}"
+  en: "Squint may be from relaxation of some of the muscles moving the eyeball, so it inclines from that side to the opposite side, or from convulsion of some of them so the eyeball inclines toward them; either way it may be from moisture and may occur from dryness as in the acute diseases; the eye's turning up and down is what shows one thing as two, while sideways does not harm sight appreciably; the congenital does not heal except in very moist childhood, where it may be hoped for ⁦(drug names are not carried)⁩ {cite:canon-ibn-sina-print-v2 p.189}"
+  ur: "حول مقلہ حرکت دینے والے پٹھوں میں سے بعض کے استرخاء سے ہو سکتا ہے تو وہ اس طرف سے مخالف طرف جھک جائے، یا بعض کے تشنج سے ہو تو مقلہ انہی کی طرف جھکے؛ اور ہر صورت میں رطوبت سے بھی ہو سکتا ہے اور خشکی سے بھی عرض ہو سکتا ہے جیسا حاد امراض میں ہوتا ہے؛ اور آنکھ کا اوپر نیچے ہٹ جانا وہ ہے جو ایک چیز کو دو دکھاتا ہے جبکہ دائیں بائیں کا ہٹنا نظر کو قابل اعتبار نقصان نہیں دیتا؛ اور پیدائشی شفا نہیں پاتا سوائے نہایت تر طفولیت کی حالت میں جہاں امید کی جا سکتی ہے ⁦(ادویہ کے نام منقول نہیں)⁩ {cite:canon-ibn-sina-print-v2 p.189}"
+wings:
+- "living"
+tags:
+- "tibb-browser"
+- "tibb-tibb"
+sources:
+- "source/canon-ibn-sina-print-v2"
+relations:
+- type: "part_of"
+  target: "concept/disease"
+  sources:
+  - "source/canon-ibn-sina-print-v2"
+provenance:
+  layer: "own-research"
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 3 (the eye's anatomy, states and diseases), maqala 2 end and maqala 3 (the states of the lid and what adjoins it), scan pages 189-190, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json, copied to /tmp before reading); editor glosses used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping, cautery and excision sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, lochia, semen, coitus and nursing listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Devin subagent (SWE-2 Medium, Lane A4 worker)"
+  model: "swe-2-medium"
+  run: "a4-canon-book3-9"
+status:
+  review: "published"
+  completeness: 1
+  generated_by: "Devin subagent (SWE-2 Medium, book mining, lane A4)"

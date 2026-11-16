@@ -35,6 +35,22 @@ faith:
     basis: unknown
     note: "FLAGGED for a founder ruling. No source read names a school for him personally. The suggestive material is preserved unclassified: he was educated at the Thaalibiya madrasa in Algiers and al-Karaouine in Fez, served a Maliki Muslim milieu throughout his career, and was buried according to the Maliki rite — but schooling, milieu and burial rite are background and circumstance, which never count, and the encyclopedia family's Maliki-rite burial notice is a single family in any case. Wikidata's religion value is Islam in general."
     sources: [source/wikipedia-kaddour-benghabrit-en, source/wikipedia-kaddour-benghabrit-fr, source/wikidata-kaddour-benghabrit]
+occupations:
+  - job: job/mutakallim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'theologian', Job Browser linking wave"
+    sources: [source/wikipedia-kaddour-benghabrit-en, source/wikipedia-kaddour-benghabrit-fr, source/wikipedia-kaddour-benghabrit-ar, source/wikidata-kaddour-benghabrit, source/wikidata]
+  - job: job/diplomat
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'diplomat', Job Browser linking wave"
+    sources: [source/wikipedia-kaddour-benghabrit-en, source/wikipedia-kaddour-benghabrit-fr, source/wikipedia-kaddour-benghabrit-ar, source/wikidata-kaddour-benghabrit, source/wikidata]
+  - job: job/translator
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'translator', Job Browser linking wave"
+    sources: [source/wikipedia-kaddour-benghabrit-en, source/wikipedia-kaddour-benghabrit-fr, source/wikipedia-kaddour-benghabrit-ar, source/wikidata-kaddour-benghabrit, source/wikidata]
 relations:
   - { type: born_in, target: place/sidi-bel-abb-s, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-kaddour-benghabrit] }
   - { type: died_in, target: place/5th-arrondissement-of-paris, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-kaddour-benghabrit] }

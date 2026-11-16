@@ -62,3 +62,6 @@ The minor ritual ablution (wudu) with water, standing as an indispensable prereq
 
 ## From Omar Abdelkafy's series on the Hikam of Ibn Ata Allah
 Omar Abdelkafy mentions that researchers photographed a Muslim before and after ablution, and says that ablution relieves nervous tension and fear in those who suffer them, denying that this is any manipulation of Muslims' minds. {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:23:30} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:24:00} {cite:assabile-omar-abdelkafy sharh-al-hekam-al-ataeya/ep06 00:24:30} (needs_source: the study is not named in the recording.)
+
+## In The Oxford Dictionary of Islam
+The entry on wudu describes the obligatory washing that restores ritual purity, required of both men and women before prayer: hands, mouth and face, the arms as far as the elbows, and the feet, water being poured over the head as a rule. What breaks purity includes sleep, sexual relations, menstruation and the toilet; the major impurity left by intercourse, menstruation or childbirth requires ghusl, the full bath. Where no water exists, tayammum replaces it — hands rubbed on clay or sand, then passed across face and arms. {cite:oxford-dictionary-of-islam e2520}

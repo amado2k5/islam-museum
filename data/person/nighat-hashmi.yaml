@@ -26,5 +26,16 @@ provenance:
   run: "modern-figures-wave-193"
 status: { review: published, completeness: 2 }
 born: { edtf: "1962~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Contemporary Pakistani Islamic educator" }
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 21"
+    sources: [source/nighathashmi-about, source/alnoor-welfare-about, source/vidiq-nighat-hashmi]
+  - job: job/teacher
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'teacher', Job Browser linking wave 21"
+    sources: [source/nighathashmi-about, source/alnoor-welfare-about, source/vidiq-nighat-hashmi]
 relations:
   - { type: lived_in, target: place/lahore, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/nighathashmi-about, source/alnoor-welfare-about, source/vidiq-nighat-hashmi] }

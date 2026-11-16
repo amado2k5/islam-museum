@@ -1,0 +1,33 @@
+id: "concept/iltisaq-al-ashfar"
+class: "concept"
+kind: "scientific"
+label:
+  ar: "التصاق الأشفار"
+  en: "Adhesion of the lashes (iltisaq al-ashfar)"
+  ur: "پلک کے بالوں کا چپکنا"
+summary:
+  ar: "التصاق الأشفار يكون في الأكثر بعد الرمد، ويستعمل عليه ذرور ناعم على موضع الأشفار {cite:canon-ibn-sina-print-v2 p.201}"
+  en: "Adhesion of the lashes happens mostly after ophthalmia, and a finely powdered dusting on the place of the lashes is used for it {cite:canon-ibn-sina-print-v2 p.201}"
+  ur: "پلک کے بالوں کا چپکنا اکثر رمد کے بعد ہوتا ہے، اور بالوں کی جگہ پر باریک پسا ہوا ذرور استعمال ہوتا ہے {cite:canon-ibn-sina-print-v2 p.201}۔"
+wings:
+- "living"
+tags:
+- "tibb-browser"
+- "tibb-tibb"
+sources:
+- "source/canon-ibn-sina-print-v2"
+relations:
+- type: "part_of"
+  target: "concept/disease"
+  sources:
+  - "source/canon-ibn-sina-print-v2"
+provenance:
+  layer: "own-research"
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 3 (the anatomy, states and diseases of the eye), maqala 3, scan pages 201, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json); editor glosses used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping and cautery sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Devin subagent (SWE-2 Medium, Lane A4 worker)"
+  model: "swe-2-medium"
+  run: "a4-canon-book3-10"
+status:
+  review: "published"
+  completeness: 1
+  generated_by: "Devin subagent (SWE-2 Medium, book mining, lane A4)"

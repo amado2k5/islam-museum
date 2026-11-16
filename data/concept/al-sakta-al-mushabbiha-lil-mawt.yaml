@@ -1,0 +1,33 @@
+id: "concept/al-sakta-al-mushabbiha-lil-mawt"
+class: "concept"
+kind: "scientific"
+label:
+  ar: "السكتة المشبّهة بالموت"
+  en: "Apoplexy that resembles death"
+  ur: "موت سے مشابہ سکتہ"
+summary:
+  ar: "يعرض أن يسكت الإنسان فلا يُفرّق بينه وبين الميت ولا يظهر منه تنفس ولا شيء ثم يعيش ويسلم؛ ولذلك استحبّ ابن سينا أن يؤخّر دفن المشكل من الموتى إلى أن تستبين حاله ولا أقل من اثنتين وسبعين ساعة {cite:canon-ibn-sina-print-v2 p.131}"
+  en: "A person may be struck dumb so that he cannot be told from the dead — no breath or anything appears from him — and then he lives and is safe; for this reason Ibn Sina recommends delaying the burial of the ambiguous dead until the state is clear, no less than seventy-two hours {cite:canon-ibn-sina-print-v2 p.131}"
+  ur: "ایسا بھی گزرتا ہے کہ انسان مسکوت ہو جائے تو اس کا اور مردے کا فرق نہ ہو اور اس سے تنفس یا کوئی چیز ظاہر نہ ہو پھر وہ جی اٹھے اور سلامت رہے؛ اسی لیے ابن سینا نے مشکل مردوں کا دفن اس وقت تک مؤخر کرنا پسند کیا جب تک حالت واضح نہ ہو، اور کم از کم بہتر گھنٹے {cite:canon-ibn-sina-print-v2 p.131}۔"
+wings:
+- "living"
+tags:
+- "tibb-browser"
+- "tibb-tibb"
+sources:
+- "source/canon-ibn-sina-print-v2"
+relations:
+- type: "part_of"
+  target: "concept/disease"
+  sources:
+  - "source/canon-ibn-sina-print-v2"
+provenance:
+  layer: "own-research"
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 1, maqala 5 and the opening of Fann 2, scan pages 131, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json); editor glosses used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping and cautery sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Devin subagent (SWE-2 Medium, Lane A4 worker)"
+  model: "swe-2-medium"
+  run: "a4-canon-book3-6"
+status:
+  review: "published"
+  completeness: 1
+  generated_by: "Devin subagent (SWE-2 Medium, book mining, lane A4)"

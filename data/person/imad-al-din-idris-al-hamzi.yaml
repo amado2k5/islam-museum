@@ -12,6 +12,17 @@ wings: [people]
 regions: [arabia]
 periods: [period/mongol-post-mongol]
 died: { edtf: "1314", hijri: "0714", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Badr al-Tali / al-Shawkani Confirmed on 13 November 2026 against Wikidata Q141071277 (P570, a statement with a reference), item revision 2537544087. al-Zirikli prints 714 AH = 1314 CE and no birth year {cite:alam-zirikli-dar-al-ilm-2002 vol. 1 p. 280}.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
+occupations:
+  - job: job/emir
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'amir', Job Browser linking wave"
+    sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
+  - job: job/historian
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'historian', Job Browser linking wave"
+    sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 relations:
   - { type: born_in, target: place/amran-governorate, confidence: medium, note: "Place link from Wikidata; pending a second source. al-Zirikli says only that he was of the people of Sanaa and does not name a birthplace.", sources: [source/wikidata] }
   - { type: lived_in, target: place/sanaa, confidence: medium, note: "al-Zirikli, al-A'lam, vol. 1 p. 280: he was of the people of Sanaa.", sources: [source/alam-zirikli-dar-al-ilm-2002] }

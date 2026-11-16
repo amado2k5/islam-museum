@@ -15,6 +15,17 @@ wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [egypt-nile]
 died: { edtf: "1357", hijri: "0758", calendar: julian, precision: year, status: historical, derived: true, note: "Died in Dhu al-Qada or Dhu al-Hijja 758: Nujum gives 7 Dhu al-Hijja and mentions an early Dhu al-Qada report {cite:nujum-zahira 10/324}; Ibn Hajar gives 26 Dhu al-Qada {cite:durar-kamina-jil-1993 2/197}; EI2 says late 758/1357 {cite:encyclopaedia-of-islam-2 vol. 7 p. 1047}. He was a little over fifty {cite:nujum-zahira 10/324}; no birth year is given.", sources: [source/nujum-zahira, source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2] }
+occupations:
+  - job: job/emir
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'emir', Job Browser linking wave"
+    sources: [source/nujum-zahira, source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2]
+  - job: job/patron
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'patron', Job Browser linking wave"
+    sources: [source/nujum-zahira, source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2]
 relations:
   - { type: built, target: building/shaykhu-complex-cairo, note: "Mosque and khanqah in the Salibah quarter; Nujum 10/303 and 10/325.", sources: [source/nujum-zahira] }
   - { type: buried_in, target: building/shaykhu-complex-cairo, note: "Buried in his khanqah; Nujum 10/325.", sources: [source/nujum-zahira] }

@@ -25,6 +25,17 @@ provenance:
 status:
   review: draft
   completeness: 1
+occupations:
+  - job: job/orientalist
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'orientalist', Job Browser linking wave"
+    sources: [source/al-aalam, source/wikidata]
+  - job: job/traveller
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'explorer', Job Browser linking wave"
+    sources: [source/al-aalam, source/wikidata]
 relations:
   - { type: lived_in, target: place/krom, note: "Wikidata Q158239 (P551); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: lived_in, target: place/brno, note: "Wikidata Q14960 (P551); corroboration recommended.", sources: [source/wikidata], confidence: medium }

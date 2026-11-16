@@ -35,6 +35,17 @@ died:
 wings: [people]
 regions: [anatolia-balkans]
 roles: [theologian, politician, poet]
+occupations:
+  - job: job/mutakallim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'theologian', Job Browser linking wave 39"
+    sources: [source/wikipedia-najmuddin-hotsinsky-en, source/wikipedia-najmuddin-hotsinsky-ru, source/wikipedia-najmuddin-hotsinsky-av, source/wikidata-najmuddin-hotsinsky]
+  - job: job/poet
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'poet', Job Browser linking wave 39"
+    sources: [source/wikipedia-najmuddin-hotsinsky-en, source/wikipedia-najmuddin-hotsinsky-ru, source/wikipedia-najmuddin-hotsinsky-av, source/wikidata-najmuddin-hotsinsky]
 relations:
   - { type: opposed, target: person/uzun-haji, sources: [source/wikipedia-najmuddin-hotsinsky-en, source/wikipedia-uzun-haji-en] }
   - { type: died_in, target: place/rostov-on-don, sources: [source/wikidata-najmuddin-hotsinsky], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q908)" }

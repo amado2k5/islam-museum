@@ -19,3 +19,6 @@ Sawda bint Zam'a ibn Qays al-Amiriyya, Mother of the Believers; one of the first
 
 ## In Mustafa Hosny's programme 'Ahl al-Janna'
 [[person/mustafa-hosny|Mustafa Hosny]] mentions Sawda bint Zam'a in the fourteenth episode of his programme [[work/ahl-al-jannah|'Ahl al-Janna']], on soundness of heart: when the Prophet married Aisha in Medina and she saw the love between them, he says, she gave up her night to Aisha, and he makes this a picture of a heart free of envy. {cite:assabile-mustafa-hosny ahl-al-jannah/ep14 00:05:00} {cite:assabile-mustafa-hosny ahl-al-jannah/ep14 00:05:30}
+
+## In The Oxford Dictionary of Islam
+The Oxford Dictionary of Islam lists Sawda bint Zama (died 674) among the wives of the Prophet Muhammad, as the second. It says she went with her first husband to Abyssinia, that he died in Mecca once they had come back, and that in Abyssinia she saw in a vision that she would marry the Prophet. She became his wife, it says, shortly after the death of Khadija (620) and later emigrated to Medina. {cite:oxford-dictionary-of-islam e2116}

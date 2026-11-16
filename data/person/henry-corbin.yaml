@@ -12,6 +12,12 @@ wings: [people]
 regions: [global]
 periods: [period/modern-era]
 died: { edtf: "1978", precision: year, status: tradition, derived: true }
+occupations:
+  - job: job/orientalist
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'orientalist', Job Browser linking wave"
+    sources: [source/duha-islam, source/wikidata]
 relations:
   - { type: born_in, target: place/7th-arrondissement-of-paris, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: born_in, target: place/paris, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

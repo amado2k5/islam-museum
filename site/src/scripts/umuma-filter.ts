@@ -1,4 +1,4 @@
-// The Umuma Browser's filter (docs/plan/63-umuma-browser.md): narrows the motherhood list as the
+// The Umuma Browser's filter (docs/plan/64-umuma-browser.md): narrows the motherhood list as the
 // visitor types, matching titles, summaries, work names, topic chips and text excerpts in all
 // three languages, ignoring Arabic vowel marks. Without JavaScript the whole list is on the page.
 const input = document.querySelector<HTMLInputElement>("[data-umuma-filter]");

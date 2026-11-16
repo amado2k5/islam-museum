@@ -1,0 +1,23 @@
+id: concept/ilaj-qaranitus-al-mushtarak
+class: concept
+kind: scientific
+label:
+  ar: "العلاج المشترك لأصناف قرانيطس"
+  en: "The common treatment of the kinds of qaranitus"
+  ur: "قرانیطس کی قسموں کا مشترک علاج"
+summary:
+  ar: "يذكر ابن سينا مبادئ علاج قرانيطس الحقيقي: الاستفراغ بالدم مع الاحتياط من الغشي، وجذب المواد، والتبريد، وتدبير المسكن والصحبة والنوم، وتلطيف الغذاء ثم التدرج فيه، وتدبير الناقهين؛ ولا تُنقل الوصفات ولا طرق الاستعمال {cite:canon-ibn-sina-print-v2 p.80} {cite:canon-ibn-sina-print-v2 p.81} {cite:canon-ibn-sina-print-v2 p.82}"
+  en: "Ibn Sina gives the principles of treating true qaranitus: evacuation of blood with care against fainting, drawing the matters away, cooling, the management of the dwelling, company and sleep, lightening the food and then raising it by degrees, and the regimen of the convalescent; recipes and methods of application are left out {cite:canon-ibn-sina-print-v2 p.80} {cite:canon-ibn-sina-print-v2 p.81} {cite:canon-ibn-sina-print-v2 p.82}"
+  ur: "ابن سینا حقیقی قرانیطس کے علاج کے اصول بتاتا ہے: غشی سے احتیاط کے ساتھ خون کا استفراغ، مادوں کو کھینچ لینا، ٹھنڈک پہنچانا، رہائش، صحبت اور نیند کی تدبیر، غذا کو ہلکا کرنا پھر درجہ بدرجہ بڑھانا، اور صحت یاب ہونے والے کی تدبیر؛ نسخے اور استعمال کے طریقے چھوڑ دیے گئے ہیں {cite:canon-ibn-sina-print-v2 p.80} {cite:canon-ibn-sina-print-v2 p.81} {cite:canon-ibn-sina-print-v2 p.82}۔"
+wings: [living]
+tags: [tibb-browser, tibb-tibb, tibb-tadawi]
+sources: [source/canon-ibn-sina-print-v2]
+relations:
+  - { type: part_of, target: concept/medical-treatment, sources: [source/canon-ibn-sina-print-v2] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 1, maqala 3, scan pages 80-82, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json) with the PDF page images rendered with pdftoppm and read by eye against the OCR for every cited page; editor footnotes used only for glosses and labelled as the editor's; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein and cupping sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book3-3
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

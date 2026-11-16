@@ -12,6 +12,17 @@ wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-fragmentation]
 died: { edtf: "865", calendar: gregorian, precision: year, derived: true, note: "251 AH = 865 CE as printed in the entry (birth printed 000); source: al-Zirikli, al-A'lam, 15th ed. 2002, vol. 1 p. 297", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 41"
+    sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'jurist', Job Browser linking wave 41"
+    sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 relations:
   - { type: born_in, target: place/merv, confidence: medium, note: "Entry: born in Merv (al-A'lam vol. 1 p. 297); Wikidata agrees.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
   - { type: died_in, target: place/nishapur, confidence: medium, note: "Entry: he settled in Nishapur and died there (al-A'lam vol. 1 p. 297); Wikidata agrees.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }

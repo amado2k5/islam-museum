@@ -23,5 +23,16 @@ provenance:
 status:
   review: draft
   completeness: 1
+occupations:
+  - job: job/emir
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'amir', Job Browser linking wave"
+    sources: [source/al-aalam]
+  - job: job/poet
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'poet', Job Browser linking wave"
+    sources: [source/al-aalam]
 relations:
   - { type: lived_in, target: place/baalbek, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/al-aalam] }

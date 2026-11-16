@@ -1,0 +1,33 @@
+id: "concept/al-sakta"
+class: "concept"
+kind: "scientific"
+label:
+  ar: "السكتة"
+  en: "Apoplexy (al-sakta)"
+  ur: "سکتہ"
+summary:
+  ar: "السكتة تعطّل الأعضاء عن الحس والحركة لانسداد واقع في بطون الدماغ وفي مجاري الروح الحساس والمتحرك؛ وقد قال بقراط إن السكتة إذا كانت قوية لم يبرأ صاحبها وإن كانت ضعيفة لم يسهل برؤه {cite:canon-ibn-sina-print-v2 p.130} {cite:canon-ibn-sina-print-v2 p.131}"
+  en: "Apoplexy disables the organs from sense and motion by an obstruction occurring in the brain's ventricles and the passages of the sensing and moving pneuma; Hippocrates said that when apoplexy is strong its sufferer is not cured, and when weak he is not easily cured {cite:canon-ibn-sina-print-v2 p.130} {cite:canon-ibn-sina-print-v2 p.131}"
+  ur: "سکتہ اعضا کو حس اور حرکت سے اس انسداد کے سبب معطل کرتا ہے جو دماغ کے بطون اور حساس و متحرک روح کے مجاری میں واقع ہوتا ہے؛ بقراط نے کہا کہ سکتہ اگر مضبوط ہو تو مریض شفا نہیں پاتا اور اگر کمزور ہو تو اس کی شفا آسان نہیں {cite:canon-ibn-sina-print-v2 p.130} {cite:canon-ibn-sina-print-v2 p.131}۔"
+wings:
+- "living"
+tags:
+- "tibb-browser"
+- "tibb-tibb"
+sources:
+- "source/canon-ibn-sina-print-v2"
+relations:
+- type: "part_of"
+  target: "concept/disease"
+  sources:
+  - "source/canon-ibn-sina-print-v2"
+provenance:
+  layer: "own-research"
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 1, maqala 5 and the opening of Fann 2, scan pages 130 to 131, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json); editor glosses used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping and cautery sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Devin subagent (SWE-2 Medium, Lane A4 worker)"
+  model: "swe-2-medium"
+  run: "a4-canon-book3-6"
+status:
+  review: "published"
+  completeness: 1
+  generated_by: "Devin subagent (SWE-2 Medium, book mining, lane A4)"

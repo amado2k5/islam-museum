@@ -1,0 +1,21 @@
+id: group/al-bahjah-tv
+class: group
+kind: organization
+label: { ar: "قناة البهجة", en: "Al-Bahjah TV", ur: "البہجہ ٹی وی" }
+summary:
+  ar: "القناة الإعلامية لمؤسسة البهجة التعليمية الدعوية في تشيربون بغرب جاوة، وهي المؤسسة التي أسسها بويا يحيى سنة 2006 ويدير قناتها، وتحمل محاضراته ودروس المؤسسة؛ بلغ عدد مشتركيها على يوتيوب (@albahjah-tv) 6,060,000 مشترك بحسب عدّاد vidIQ كما في 15 نوفمبر 2026، وأكثر مقاطعها مشاهدة محاضرات بويا يحيى نفسه."
+  en: "The media channel of the Al-Bahjah educational and dawah foundation in Cirebon, West Java — the institution founded by Buya Yahya in 2006, who also runs its channel — carrying his lectures and the institution's lessons; its YouTube channel (@albahjah-tv) counted 6,060,000 subscribers by vidIQ's count as of 15 November 2026, and its most-viewed uploads are Buya Yahya's own lectures."
+  ur: "مغربی جاوا کے چیربون میں واقع البہجہ تعلیمی و دعوتی فاؤنڈیشن کی میڈیا چینل — وہ ادارہ جو بویا یحییٰ نے 2006ء میں قائم کیا اور جس کی چینل وہ چلاتے ہیں — جو ان کے لیکچرز اور ادارے کے اسباق پیش کرتی ہے؛ 15 نومبر 2026ء کے vidIQ شمار کے مطابق اس کے یوٹیوب چینل ⁦(@albahjah-tv)⁩ کے سبسکرائبرز 6,060,000 تھے، اور اس کی سب سے زیادہ دیکھی گئی ویڈیوز خود بویا یحییٰ کے لیکچرز ہیں۔"
+made: { by_muslims: true, basis: self-identified, sources: [source/vidiq-al-bahjah-tv] }
+wings: [living]
+regions: [southeast-asia]
+periods: [period/modern-era]
+relations:
+  - { type: founded_by, target: person/yahya-zainul-maarif, note: "The person record for Yahya Zainul Ma'arif (Buya Yahya), built from the Indonesian Wikipedia article, states that he founded the Al-Bahjah educational and dawah foundation in Cirebon in 2006 and runs Al-Bahjah TV; vidIQ's listing of this channel's most-viewed uploads is made up of his lectures. The edge is written once, here on the group side.", sources: [source/vidiq-al-bahjah-tv, source/wikipedia-yahya-zainul-maarif-id] }
+sources: [source/vidiq-al-bahjah-tv, source/wikipedia-yahya-zainul-maarif-id]
+provenance:
+  layer: own-research
+  source: "Built on 15 November 2026 in wave 200 (the Indonesian/Malay scene pass), section D, from the harvest file islam-museum-modern-figures-harvest-wave200-2026-11-15.md, section 3.3, and a fresh build-time read of the channel's vidIQ statistics page on the same day. vidIQ stated, as of 15 November 2026, 6,060,000 subscribers, 1,208,626,590 total views and 20,235 videos; the channel started on 27 May 2015 and its channel country is Indonesia. The group is catalogued separately from its founder under the lane's person/channel rule: Buya Yahya already stands as person/yahya-zainul-maarif, built from the Indonesian Wikipedia article, which states that he founded the Al-Bahjah foundation in Cirebon in 2006 and runs Al-Bahjah TV — on that basis, and on vidIQ's listing of his lectures as the channel's most-viewed uploads, the founded_by edge is written once, here on the group side, following the group exemplar pattern (group/kishki-online-tv). The channel's operator is Al-Bahjah's media team, a named institution, so no operator absence arises. No founding date is written for the channel itself: 2006 is the foundation's year, from the person record, and the channel's own start (27 May 2015) is a YouTube date, kept separate. The harvest's designation screen for this institution returned clear. De-duplicated against the tree: no group/al-bahjah-tv existed."
+  generated_by: "Muse (Muse Wonder)"
+  run: "modern-figures-wave-200-D"
+status: { review: published, completeness: 2 }

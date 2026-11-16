@@ -36,6 +36,12 @@ faith:
     basis: unknown
     note: "Absence configuration: no source read names a school for him. The English, Arabic and Urdu articles carry no religion content for the man himself — they give his parentage, training, career and honours — and Wikidata carries no religion value for him at all. The articles file him in their 'Indian Muslims' categories, which is a filing, not an attestation; his descent from Alla Rakha and his family's Punjab gharana milieu are background. Under the two-source rule the value stays unknown."
     sources: [source/wikipedia-zakir-hussain-en, source/wikidata-zakir-hussain]
+occupations:
+  - job: job/musician
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'musician', Job Browser linking wave"
+    sources: [source/wikipedia-zakir-hussain-en, source/wikipedia-zakir-hussain-ar, source/wikipedia-zakir-hussain-ur, source/wikidata-zakir-hussain, source/wikidata]
 relations:
   - { type: born_in, target: place/mumbai, sources: [source/wikidata-zakir-hussain], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1156)" }
   - { type: died_in, target: place/san-francisco, sources: [source/wikidata-zakir-hussain], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q62)" }

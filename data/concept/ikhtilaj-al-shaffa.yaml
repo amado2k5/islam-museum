@@ -1,0 +1,33 @@
+id: concept/ikhtilaj-al-shaffa
+class: concept
+kind: scientific
+label:
+  ar: "اختلاج الشفة"
+  en: "The lip's tremor"
+  ur: "ہونٹ کا لرزنا"
+summary:
+  ar: "اختلاج الشفة أكثر ما يعرض يعرض لمشاركة فم المعدة وخصوصاً إذا كان بها غثيان وحركة نحو دفع شيء بالقذف لا سيما في الأمراض الحادة وأوقات البحارين، وقد يكون بمشاركة العصب الجائي إليها من الدماغ والنخاع بمشاركتها للدماغ {cite:canon-ibn-sina-print-v2 p.284}"
+  en: "The lip's tremor mostly comes by sharing with the mouth of the stomach — especially when it holds nausea and a motion towards casting something out, above all in the acute diseases and the times of crises; and it may be by sharing of the nerve reaching it from the brain and the spinal cord, by its sharing with the brain {cite:canon-ibn-sina-print-v2 p.284}"
+  ur: "ہونٹ کا لرزنا اکثر معدے کے منہ کی مشارکت سے ہوتا ہے — خصوصاً جب وہاں متلی اور کچھ قے کرنے کی حرکت ہو، خاص طور پر شدید امراض اور بحران کے اوقات میں؛ اور وہ اس اعصاب کی مشارکت سے بھی ہو سکتا ہے جو دماغ اور نخاع سے اس تک آتا ہے {cite:canon-ibn-sina-print-v2 p.284}"
+wings:
+- living
+tags:
+- tibb-browser
+- tibb-tibb
+sources:
+- source/canon-ibn-sina-print-v2
+relations:
+- type: part_of
+  target: concept/disease
+  sources:
+  - source/canon-ibn-sina-print-v2
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, the last fasls of Fann 8 (the gums and the lips, one maqala) and the whole of Fann 9 (the throat, one maqala), scan pages 284, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json, copied to /tmp before reading); editor footnotes used only as the editor's glosses and labelled; the edition's English parenthetical glosses ignored as apparatus; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes and application forms left out; venesection, cupping, cautery and operative sites carried only as named by the book; the tools' and hands' works (extraction, excision, trachea-slitting, pressing, scarification and the snare) carried only as the book's descriptions, not as procedures; unclear OCR words carried as printed, not guessed; transmitted sayings, tried-remedy reports and named attributions carried as the book's attributions and labelled; animal-derived and unclean lines kept only as labelled listings set aside for the founder's ruling"
+  generated_by: Devin subagent (SWE-2 Medium, Lane A4 worker)
+  model: swe-2-medium
+  run: a4-canon-book3-15
+status:
+  review: published
+  completeness: 1
+  generated_by: Devin subagent (SWE-2 Medium, book mining, lane A4)

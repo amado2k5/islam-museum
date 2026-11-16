@@ -22,6 +22,17 @@ wings: [people]
 themes: [law-and-courts, development-of-law-theology-institutions]
 regions: [persia-central-asia]
 periods: [period/buyid-seljuk-fatimid-era]
+occupations:
+  - job: job/faqih
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'jurist', Job Browser linking wave 33"
+    sources: [source/hidaya-bakdash-v1, source/shadharat-dhahab, source/biblissima, source/viaf-cluster-6339279]
+  - job: job/alim
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 33"
+    sources: [source/hidaya-bakdash-v1, source/shadharat-dhahab, source/biblissima, source/viaf-cluster-6339279]
 relations:
   - { type: born_in, target: place/margilan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: born_in, target: place/rishton, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

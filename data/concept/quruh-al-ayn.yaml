@@ -1,0 +1,33 @@
+id: "concept/quruh-al-ayn"
+class: "concept"
+kind: "scientific"
+label:
+  ar: "قروح العين"
+  en: "Ulcers of the eye"
+  ur: "آنکھ کے قرحے"
+summary:
+  ar: "قروح العين تتولد في الأكثر عن أخلاط حادة محرقة وهي سبعة أنواع: أربعة في سطح القرنية يسميها جالينوس قروحاً — الخفي أو القتام ثم السحاب ثم الإكليلي على إكليل السواد ثم الاحتراقي الصوفي — وثلاثة غائرة: لوبويون العميق الضيق النقي ولوبوما الأوسع الأقل عمقاً وأوقوما الوسخة ذات الخشكريشة التي في تنقيتها مخاطرة، وتحدث عقيب الرمد داخل فينفجر إلى خارج أو بالعكس {cite:canon-ibn-sina-print-v2 p.177}"
+  en: "The eye's ulcers are mostly bred by sharp burning humours and are seven kinds: four in the cornea's surface which Galen calls ulcers — the dim or smoke-like, then the cloud, then the coronal on the circle of the black, then the burning wool-like one; and three deep ones: lopoyon, deep narrow and clean; lopoma, wider and less deep; and uquma, dirty and rough, whose cleansing is risky; they arise after ramad, bursting outward or the reverse {cite:canon-ibn-sina-print-v2 p.177}"
+  ur: "آنکھ کے قرحے اکثر تیز جلانے والے اخلاط سے پیدا ہوتے ہیں اور سات قسم کے ہیں: قرنیہ کی سطح پر چار جنھیں جالینوس قرحے کہتا ہے — دھندلا یا دھواں جیسا، پھر بادل، پھر سیاہی کے دائرے پر ایکلیلی، پھر جلتا اونی؛ اور تین گہرے: لوپویون گہرا تنگ صاف، لوپوما چوڑا کم گہرا، اور اوقوما میلا کھردرا جس کی صفائی میں خطرہ ہے؛ یہ رمد کے بعد پیدا ہوتے ہیں، باہر پھٹ کر یا اس کے برعکس {cite:canon-ibn-sina-print-v2 p.177}"
+wings:
+- "living"
+tags:
+- "tibb-browser"
+- "tibb-tibb"
+sources:
+- "source/canon-ibn-sina-print-v2"
+relations:
+- type: "part_of"
+  target: "concept/disease"
+  sources:
+  - "source/canon-ibn-sina-print-v2"
+provenance:
+  layer: "own-research"
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 2 (nerve diseases) end of maqala 1 and Fann 3 (the eye's anatomy, states and diseases) maqalat 1-2, scan pages 177-178, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json); editor glosses used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping, cautery and artery sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, semen, coitus and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Devin subagent (SWE-2 Medium, Lane A4 worker)"
+  model: "swe-2-medium"
+  run: "a4-canon-book3-8"
+status:
+  review: "published"
+  completeness: 1
+  generated_by: "Devin subagent (SWE-2 Medium, book mining, lane A4)"

@@ -1,0 +1,33 @@
+id: concept/amrad-al-litha
+class: concept
+kind: scientific
+label:
+  ar: أمراض اللثة
+  en: The diseases of the gum
+  ur: مسوڑھے کے امراض
+summary:
+  ar: يعرض للثة الأورام بسبب مادة تنزل إليها في أكثر الأمر من الرأس وقد يكون بمشاركة المعدة وقد يعرض لها أورام في ابتداء الاستسقاء وعروض سوء القنية لما يتصعد إليها من الأبخرة الفاسدة ويستدل على جنس المادة باللون واللمس وقد يكون منه ظاهر قريب سريع القبول للعلاج وغائر بعيد بطيء القبول للعلاج وقد يكون مع حمى {cite:canon-ibn-sina-print-v2 p.280}
+  en: Tumours befall the gum from a matter descending to it, mostly from the head and sometimes with the stomach sharing; tumours also occur at the outset of dropsy and on bad cachexia, from the corrupt vapours rising to it. The matter's kind is read from colour and touch; it may be near and quick to take treatment or deep, far and slow, and may come with fever {cite:canon-ibn-sina-print-v2 p.280}
+  ur: مسوڑھے میں ورم ایک اتردی مواد سے ہوتا ہے جو اکثر سر سے اور بعض اوقات معدے کی شرکت سے آتی ہے؛ اور استسقاء کے آغاز اور برے قینیة پر بھی ورم ہو سکتا ہے بگڑے بھاپوں کے چڑھنے سے؛ مواد کی جنس رنگ اور مس سے پہچانی جاتی ہے؛ وہ ظاہر قریب جلد علاج ماننے والا بھی ہو سکتا ہے اور گہرا دور دیر میں ماننے والا بھی اور بخار کے ساتھ بھی ہو سکتا ہے {cite:canon-ibn-sina-print-v2 p.280}
+wings:
+- living
+tags:
+- tibb-browser
+- tibb-tibb
+sources:
+- source/canon-ibn-sina-print-v2
+relations:
+- type: part_of
+  target: concept/disease
+  sources:
+  - source/canon-ibn-sina-print-v2
+provenance:
+  layer: own-research
+  source: Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 7 (the teeth, one maqala) and the first fasls of Fann 8 (the gums and the lips), scan pages 280-281, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json, copied to /tmp before reading); editor footnotes used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping, cautery and operative sites and application methods left out; the tooth's drilling, filing, drawing, cautery and extraction carried only as the book's descriptions, not as procedures; unclear OCR words carried as printed, not guessed; case reports and named attributions carried as the book's attributions and labelled; animal-derived and unclean lines kept only as labelled listings set aside for the founder's ruling
+  generated_by: Devin subagent (SWE-2 Medium, Lane A4 worker)
+  model: swe-2-medium
+  run: a4-canon-book3-14
+status:
+  review: published
+  completeness: 1
+  generated_by: Devin subagent (SWE-2 Medium, book mining, lane A4)

@@ -16,6 +16,12 @@ wings: [people]
 themes: [scripture-and-its-sciences]
 periods: [period/umayyad]
 regions: [arabia]
+occupations:
+  - job: job/muhaddith
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'muhaddith', Job Browser linking wave"
+    sources: [source/tamhid-furqan-2017-v1]
 relations:
   - { type: child_of, target: person/abd-allah-ibn-abi-talha-al-ansari, sources: [source/tamhid-furqan-2017-v1] }
   - { type: lived_in, target: place/medina, sources: [source/tamhid-furqan-2017-v1] }

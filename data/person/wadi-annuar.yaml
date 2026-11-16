@@ -31,6 +31,17 @@ faith:
 roles: [preacher, teacher, writer]
 wings: [people, living]
 regions: [southeast-asia]
+occupations:
+  - job: job/preacher
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'preacher', Job Browser linking wave 22"
+    sources: [source/wikipedia-wadi-annuar-ms, source/wikipedia-wadi-annuar-en, source/fulcrum-wadi-annuar-rdam-2026]
+  - job: job/teacher
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'teacher', Job Browser linking wave 22"
+    sources: [source/wikipedia-wadi-annuar-ms, source/wikipedia-wadi-annuar-en, source/fulcrum-wadi-annuar-rdam-2026]
 relations:
   - { type: lived_in, target: place/damascus, sources: [source/wikipedia-wadi-annuar-ms, source/wikipedia-wadi-annuar-en] }
 sources: [source/wikipedia-wadi-annuar-ms, source/wikipedia-wadi-annuar-en, source/fulcrum-wadi-annuar-rdam-2026]

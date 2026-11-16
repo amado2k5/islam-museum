@@ -25,6 +25,12 @@ faith:
     basis: unknown
     note: "FLAGGED for a founder ruling. His own words resist every single value in the lane's scheme: appearing before a Jodhpur court on 29 April 2015 and asked his religion, he answered, 'I'm Hindu and Muslim both. I'm Bharatiya (an Indian)', and explained, 'My father is Muslim and my mother is Hindu'; the English biography records that he was brought up in both faiths. A dual self-identification cannot be entered under one value without falsifying it, and no source attests a school for him personally; Wikidata gives only Islam, against his own statement. Preserved for the ruling. His parents' faiths are background and were not counted."
     sources: [source/hindustan-times-salman-khan-2015, source/wikipedia-salman-khan-en, source/wikidata-salman-khan]
+occupations:
+  - job: job/actor
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'actor', Job Browser linking wave"
+    sources: [source/wikipedia-salman-khan-en, source/wikipedia-salman-khan-ar, source/wikipedia-salman-khan-ur, source/wikidata-salman-khan, source/hindustan-times-salman-khan-2015, source/wikidata]
 relations:
   - { type: born_in, target: place/indore, sources: [source/wikidata-salman-khan], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q66616)" }
   - { type: lived_in, target: place/mumbai, sources: [source/wikidata-salman-khan], confidence: low, note: "Wikidata P551 residence (Wikidata Q1156)" }

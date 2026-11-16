@@ -38,6 +38,27 @@ faith:
     basis: unknown
     note: "He was born into a Muslim Kazakh family and given the Muslim name Muhammed-Qanafiya, and the Russian article records his childhood schooling at Kuntimes in Kazakh, Chagatai, Arabic and Persian; no source read names a school or order for him, and his Wikidata item carries no religion value. The English article's text describes the adult Walikhanov as a staunch proponent of Westernization and 'critical of the influence of Islam in his homeland' — a documented intellectual stance, preserved here — but criticism of Islam's social influence is not an attested personal renunciation of the faith, and under the museum's bar for unbelief (a documented repudiation, as with Akhundov) it does not carry an atheist-or-sceptic segment either. His faith segment is therefore unknown, flagged: if the founder counts the westernizer stance as a departure, the reading to weigh is departure, not any school."
     sources: [source/wikipedia-walikhanov-en, source/wikipedia-walikhanov-ru, source/wikidata-walikhanov]
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave"
+    sources: [source/wikipedia-walikhanov-en, source/wikipedia-walikhanov-ru, source/wikipedia-walikhanov-ar, source/wikidata-walikhanov, source/wikidata]
+  - job: job/historian
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'historian', Job Browser linking wave"
+    sources: [source/wikipedia-walikhanov-en, source/wikipedia-walikhanov-ru, source/wikipedia-walikhanov-ar, source/wikidata-walikhanov, source/wikidata]
+  - job: job/geographer
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'geographer', Job Browser linking wave"
+    sources: [source/wikipedia-walikhanov-en, source/wikipedia-walikhanov-ru, source/wikipedia-walikhanov-ar, source/wikidata-walikhanov, source/wikidata]
+  - job: job/traveller
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'traveler', Job Browser linking wave"
+    sources: [source/wikipedia-walikhanov-en, source/wikipedia-walikhanov-ru, source/wikipedia-walikhanov-ar, source/wikidata-walikhanov, source/wikidata]
 relations:
   - type: traveled_to
     target: place/kashgar

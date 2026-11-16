@@ -16,3 +16,6 @@ Al-Maturidi was a theologian of Samarqand whose school of doctrine became one of
 
 ## Research notes
 - The al-A'lam entry is read from OCR of the scanned volume covering the letter mim (scan p. 164); the exact wording of the two book titles should be checked against the page image before the bibliography is expanded.
+
+## In The Oxford Dictionary of Islam
+The Oxford Dictionary of Islam presents Abu Mansur al-Maturidi (died 956) as a major Sunni theologian who offered new methodological schemes for settling theological disputes. In its account, he held that divine justice springs from God's nature and essence and does not restrict God's freedom, and that awareness of freedom, moral sense and intellect set human beings apart from animals. His way of interpreting the Qur'an assumed that no other source can be used to test the Qur'an and that difficulties come from human confusion in reading, not from the texts, so obscure passages should be compared with clearer ones. Thinkers of modern times, such as Muhammad Abduh, drew on his methods to reinterpret traditions, the Dictionary adds. Its death year, 956, differs from the 333 AH on the card above; both are reported and neither is settled. {cite:oxford-dictionary-of-islam e1469}

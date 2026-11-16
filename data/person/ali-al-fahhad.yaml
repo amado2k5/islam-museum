@@ -15,6 +15,12 @@ regions: [levant-iraq]
 faith:
   - value: sunni
     basis: tradition
+occupations:
+  - job: job/emir
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'emir', Job Browser linking wave 33"
+    sources: [source/shadharat-dhahab]
 relations:
   - { type: lived_in, target: place/jazira, note: "Mamluk of Sanjar Shah, lord of the Jazira.", sources: [source/shadharat-dhahab], confidence: medium }
 sources: [source/shadharat-dhahab]

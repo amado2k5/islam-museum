@@ -1,0 +1,33 @@
+id: "concept/al-sar-min-al-udw"
+class: "concept"
+kind: "scientific"
+label:
+  ar: "الصرع الناشئ من عضو آخر"
+  en: "Epilepsy arising from another organ"
+  ur: "کسی اور عضو سے پیدا ہونے والا صرع"
+summary:
+  ar: "الصرع الذي يكون سببه في عضو آخر: بخارات ورياح ترتفع إلى الدماغ بالكمية أو بالكيفية — بالإجماد أو الإحراق أو السمّية — من جميع البدن أو من المعدة أو الطحال، أو سمّية تنتقل بوساطة العصب، أو من المعدة والمراق لتخم تورث سدداً {cite:canon-ibn-sina-print-v2 p.120} {cite:canon-ibn-sina-print-v2 p.121}"
+  en: "Epilepsy whose cause lies in another organ: vapours and winds rising to the brain by quantity or by quality — chilling, burning or poisonous — from the whole body, the stomach or the spleen, a poisonous quality travelling by way of a nerve, or from the stomach and hypochondrium through indigestions that make obstructions {cite:canon-ibn-sina-print-v2 p.120} {cite:canon-ibn-sina-print-v2 p.121}"
+  ur: "ایسا صرع جس کا سبب کسی دوسرے عضو میں ہو: بخارات اور ہوائیں جو کمیت یا کیفیت کے لحاظ سے — ٹھندک، حرارت یا سمیت سے — دماغ تک اٹھیں، سارے بدن سے یا معدے یا طحال سے، یا سمیت جو عصب کے ذریعے پہنچے، یا معدے اور مراق سے تُخموں کے سبب جو سدے پیدا کریں {cite:canon-ibn-sina-print-v2 p.120} {cite:canon-ibn-sina-print-v2 p.121}۔"
+wings:
+- "living"
+tags:
+- "tibb-browser"
+- "tibb-tibb"
+sources:
+- "source/canon-ibn-sina-print-v2"
+relations:
+- type: "part_of"
+  target: "concept/disease"
+  sources:
+  - "source/canon-ibn-sina-print-v2"
+provenance:
+  layer: "own-research"
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 1, maqala 5 and the opening of Fann 2, scan pages 120 to 122, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json); editor glosses used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping and cautery sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Devin subagent (SWE-2 Medium, Lane A4 worker)"
+  model: "swe-2-medium"
+  run: "a4-canon-book3-6"
+status:
+  review: "published"
+  completeness: 1
+  generated_by: "Devin subagent (SWE-2 Medium, book mining, lane A4)"

@@ -16,6 +16,17 @@ regions: [levant-iraq, andalus-europe]
 faith:
   - value: sunni
     basis: tradition
+occupations:
+  - job: job/qari
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'muqri', Job Browser linking wave 28"
+    sources: [source/shadharat-dhahab]
+  - job: job/alim
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 28"
+    sources: [source/shadharat-dhahab]
 relations:
   - { type: died_in, target: place/damascus, sources: [source/shadharat-dhahab] }
 sources: [source/shadharat-dhahab]

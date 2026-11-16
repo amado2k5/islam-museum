@@ -11,6 +11,23 @@ summary:
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/abbasid-early]
+occupations:
+  - job: job/qadi
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'qadi', Job Browser linking wave"
+    sources: [source/al-aalam]
+  - job: job/muhaddith
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'muhaddith', Job Browser linking wave"
+    sources: [source/al-aalam]
+  - job: job/historian
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'historian', Job Browser linking wave"
+    sources: [source/al-aalam]
+
 relations:
   - { type: born_in, target: place/misr, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 sources: [source/al-aalam]

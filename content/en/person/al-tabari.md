@@ -68,3 +68,6 @@ The OpenITI corpus holds 7 works under the author identifier 0310Tabari, among t
 
 ## In the Biblissima authority file
 The French Biblissima authority file records this person under the identifier Q23653 with the name form «Muḥammad ibn Ǧarīr ibn Yazīd al- Ṭabarī (0839?-0923)», the form including the years of birth and death as the file gives them. {cite:biblissima Q23653}
+
+## In The Oxford Dictionary of Islam
+The entry on al-Tabari presents Abu Jafar Muhammad ibn Jarir (d. 923), early historian, hadith collector, jurist and Shariah scholar whose short-lived namesake school pursued a more perfect legal system. He roamed the Fertile Crescent before making Baghdad his seat of teaching. The commentary on the Quran gathers leading interpretations next to his own; the History of Rulers and Kings — vast, largely chronological, thin on personal commentary — notes the choices of individual Muslims rather than institutions and rulers, while its selection, ordering and parallel versions of one story reveal his standpoint. History, he held, can only be passed on, never deduced or inferred. {cite:oxford-dictionary-of-islam e2292}

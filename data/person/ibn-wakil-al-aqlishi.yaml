@@ -11,6 +11,12 @@ summary:
 wings: [people]
 regions: [andalus-europe]
 periods: [period/crusades-ayyubid-mamluk]
+occupations:
+  - job: job/grammarian
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'linguist', Job Browser linking wave 48"
+    sources: [source/al-aalam, source/wikidata]
 relations:
   - { type: died_in, target: place/qus, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 sources: [source/al-aalam, source/wikidata]

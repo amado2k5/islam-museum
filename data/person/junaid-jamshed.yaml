@@ -29,6 +29,17 @@ died:
   derived: true
   note: "Died in the crash of PIA Flight 661 near Havelian; Gregorian date from English and Arabic Wikipedia and Wikidata; the Hijri year is converter-derived."
   sources: [source/wikipedia-junaid-jamshed-en, source/wikipedia-junaid-jamshed-ar, source/wikidata-junaid-jamshed]
+occupations:
+  - job: job/singer
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'singer', Job Browser linking wave"
+    sources: [source/wikipedia-junaid-jamshed-en, source/wikipedia-junaid-jamshed-ar, source/wikidata-junaid-jamshed, source/wikidata]
+  - job: job/preacher
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'preacher', Job Browser linking wave"
+    sources: [source/wikipedia-junaid-jamshed-en, source/wikipedia-junaid-jamshed-ar, source/wikidata-junaid-jamshed, source/wikidata]
 relations:
   - { type: born_in, target: place/karachi, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-junaid-jamshed] }
 faith:

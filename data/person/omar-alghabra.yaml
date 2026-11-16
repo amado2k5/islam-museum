@@ -29,6 +29,12 @@ faith:
     sources: [source/wikipedia-omar-alghabra-en, source/wikidata-omar-alghabra]
 wings: [people, living]
 external_ids: { wikidata: Q3351821 }
+occupations:
+  - job: job/engineer
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'engineer', Job Browser linking wave"
+    sources: [source/wikipedia-omar-alghabra-en, source/wikipedia-omar-alghabra-ar, source/wikipedia-omar-alghabra-ur, source/wikidata-omar-alghabra]
 relations:
   - { type: born_in, target: place/saudi-arabia, sources: [source/wikidata-omar-alghabra], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q851)" }
   - { type: lived_in, target: place/mississauga, sources: [source/wikidata-omar-alghabra], confidence: low, note: "Wikidata P551 residence (Wikidata Q50816)" }

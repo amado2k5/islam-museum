@@ -1,0 +1,50 @@
+id: person/heliza-helmi
+class: person
+names:
+  - { kind: full, value: "Nur Heliza binti Helmi" }
+  - { kind: full, value: "نور هيليزا بنت حلمي" }
+  - { kind: alternate, value: "Heliza Helmi" }
+label: { ar: "هيليزا حلمي", en: "Heliza Helmi", ur: "ہیلیزا حلمی" }
+summary:
+  ar: "مغنية وممثلة ماليزية تحوّلت إلى الدعوة والعمل الإنساني، وُلدت باسم نور هيليزا بنت حلمي في كوالا ترغكانو في 3 فبراير 1986، وعرفها الجمهور من برنامج «أكاديمي فانتازيا» في موسمه الخامس سنة 2007. سمّتها مؤسسة الدعوة الإسلامية الماليزية ⁦(ياديم)⁩ «أيقونة دعوة»، وعملت في بعثات إنسانية إلى غزة مع أختها هزواني حلمي. بلغ حسابها على إنستغرام 2,300,000 متابع بحسب بيانات منشورها المؤرخ في 16 أبريل 2026."
+  en: "Malaysian singer and actress turned dawah and humanitarian figure, born Nur Heliza binti Helmi in Kuala Terengganu on 3 February 1986, and known to the public from season 5 of Akademi Fantasia in 2007. YADIM (Yayasan Dakwah Islamiah Malaysia) lists her among its Da'wah Icons, and she has worked on humanitarian missions to Gaza with her sister Hazwani Helmi. Her Instagram account counted 2,300,000 followers by the metadata of her post dated 16 April 2026."
+  ur: "مالیسیائی گلوکارہ اور اداکارہ جو دعوت اور انسانی خدمت کی طرف متوجہ ہوئیں؛ 3 فروری 1986ء کو کوالا تیرنگگانو میں نور ہیلیزا بنت حلمی کے نام سے پیدا ہوئیں، اور عوام نے انہیں 2007ء میں «اکادمی فنتازیا» کے پانچویں سیزن سے پہچانا۔ یَادِم ⁦(YADIM)⁩ نے انہیں اپنی «دعوہ آئیکنز» میں شمار کیا ہے، اور وہ اپنی بہن ہزوانی حلمی کے ساتھ غزہ کے انسانی مشنوں میں کام کر چکی ہیں۔ ان کے انسٹاگرام اکاؤنٹ کے فالوور ان کی 16 اپریل 2026ء کی پوسٹ کے میٹا ڈیٹا کے مطابق 2,300,000 تھے۔"
+gender: female
+roles: [singer, actor, presenter, activist]
+wings: [people, living]
+regions: [southeast-asia]
+born:
+  edtf: "1986-02-03"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: false
+  note: "Gregorian date and Kuala Terengganu birthplace from the English Wikipedia article. No Hijri date is recorded in the sources used, so none is printed."
+  sources: [source/wikipedia-heliza-helmi-en]
+occupations:
+  - job: job/singer
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'singer', Job Browser linking wave 18"
+    sources: [source/wikipedia-heliza-helmi-en, source/instagram-heliza-helmi, source/yadim-heliza-helmi]
+  - job: job/actor
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'actor', Job Browser linking wave 18"
+    sources: [source/wikipedia-heliza-helmi-en, source/instagram-heliza-helmi, source/yadim-heliza-helmi]
+relations:
+  - { type: born_in, target: place/terengganu, sources: [source/wikipedia-heliza-helmi-en], note: "Born in Kuala Terengganu, the capital of Terengganu; the museum's place record is for the state, and no separate Kuala Terengganu record exists." }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No text read in this run attests a school or order for Heliza Helmi herself. The English Wikipedia article names no school; her dawah speaking, her YADIM Da'wah Icon listing and her humanitarian missions are public work and milieu, not a school attestation. Not recorded as any school until two independent texts confirm one."
+    sources: [source/wikipedia-heliza-helmi-en, source/yadim-heliza-helmi]
+reach:
+  - { platform: instagram, metric: followers, value: 2300000, date: "2026-04-16", note: "@nurhelizahelmi: 2,300,000 followers by the platform's own post metadata ('Verified author, 2.3M followers') attached to her post dated 16 April 2026, as read by the wave-200 harvest on 15 November 2026. The count basis is platform post metadata, not a statistics service, and is recorded exactly as such. The figure is a dated platform count, not a museum-verified fact", sources: [source/instagram-heliza-helmi] }
+sources: [source/wikipedia-heliza-helmi-en, source/instagram-heliza-helmi, source/yadim-heliza-helmi]
+provenance:
+  layer: own-research
+  source: "Built from the wave-200 (Indonesian/Malay scene) harvest §4.3 (researched 15 November 2026), the English Wikipedia article read in full at build on 15 November 2026, YADIM's own site as read by the harvest, and her Instagram account's post metadata as read by the harvest. Biography per the article: born Nur Heliza binti Helmi on 3 February 1986 in Kuala Terengganu; a contestant on Akademi Fantasia season 5 (2007), finishing fourth; a recording and screen career followed (the album 'Jom Zikir', 2015; the film 'Syurga Cinta', 2009, among the works the article lists); she is active in Islamic humanitarian work, often with her younger sister Hazwani Helmi, and the article, citing Harian Metro, says her commitment deepened after she first saw Gaza for herself in 2012. The Da'wah Icon listing rests on YADIM's own achievements page as read by the harvest. Qualification: she clears the women's bar (~50,000) on the Instagram figure of 2,300,000 followers, whose basis is stated exactly: the platform post metadata of her own post dated 16 April 2026. Disclosed imperfections: the English article is thin and largely tabular, so the record is correspondingly short; no Arabic Wikipedia article on her was found, and none is registered; no Wikidata item for her could be verified in this environment, so no Wikidata source entity is registered and no identifier is recorded; the article's numeric revision ID could not be retrieved, so it is dated by its read date; the museum has no Kuala Terengganu place record, so the birthplace edge is written to the state record, place/terengganu, with the city named in the note. De-duplicated against the tree: no heliza-helmi record existed."
+  generated_by: "Muse (Muse Wonder)"
+  run: "modern-figures-wave-200-C"
+status: { review: published, generated_by: "Muse (Muse Wonder)" }

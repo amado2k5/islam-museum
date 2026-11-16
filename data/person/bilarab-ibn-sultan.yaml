@@ -24,6 +24,12 @@ provenance:
 status:
   review: draft
   completeness: 3
+occupations:
+  - job: job/faqih
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'faqih', Job Browser linking wave 42"
+    sources: [source/bosworth-new-islamic-dynasties-1996, source/alam-zirikli-dar-al-ilm-2002]
 relations:
   - { type: born_in, target: place/salalah, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata], confidence: medium }
   - { type: lived_in, target: place/oman, note: "al-Zirikli, al-A'lam, vol. 2 p. 73: imam of the Ya'rubi line in Oman", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }

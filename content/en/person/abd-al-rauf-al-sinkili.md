@@ -17,3 +17,6 @@ The encyclopaedia lists further works: a Malay handbook of Shafi'i fiqh on trans
 
 ## Veneration
 After his death, as Teungku di-Kuala, he was greatly venerated, and he was said to have brought Islam to Aceh. The encyclopaedia cites C. Snouck Hurgronje's The Achehnese and D. A. Rinkes's study of him (1909), and Voorhoeve's 1952 edition of Bayan Tajalli with a list of his writings. {cite:encyclopaedia-of-islam-2 vol. 1 p. 107}
+
+## In The Oxford Dictionary of Islam
+The Oxford Dictionary of Islam presents Abd al-Rauf al-Sinkili (died 1693) as an Acehnese scholar from North Sumatra who had a major part in rendering Islamic texts into Malay. It says that he was born in Singkel, spent the years 1641 to 1660 studying in Arabia with teachers who included Ibrahim al-Kurani and Ahmad al-Qushashi, and on his return to North Sumatra taught there, supported by the Acehnese court. The work it singles out as best known is a Malay adaptation of al-Suyuti's Tafsir al-Jalalayn (The tafsir of the two Jalals), the earliest complete explanation of the Qur'an in Malay, which local madrasas still widely use. The record above gives his death as after 1693. {cite:oxford-dictionary-of-islam e2219}

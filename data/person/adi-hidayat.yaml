@@ -36,5 +36,22 @@ provenance:
 status:
   review: published
   completeness: 3
+occupations:
+  - job: job/preacher
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'preacher', Job Browser linking wave"
+    sources: [source/wikipedia-adi-hidayat-en, source/wikipedia-adi-hidayat-id]
+  - job: job/alim
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave"
+    sources: [source/wikipedia-adi-hidayat-en, source/wikipedia-adi-hidayat-id]
+  - job: job/teacher
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'teacher', Job Browser linking wave"
+    sources: [source/wikipedia-adi-hidayat-en, source/wikipedia-adi-hidayat-id]
+
 relations:
   - { type: lived_in, target: place/indonesia, note: "From text: Indonesian (nationality adjective); broad association, flagged for review.", sources: [source/wikipedia-adi-hidayat-en, source/wikipedia-adi-hidayat-id], confidence: low }

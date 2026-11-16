@@ -1,0 +1,50 @@
+id: person/habib-ali-zaenal-abidin-al-hamid
+education:
+  did_you_know:
+    ar: "حبيب علي زين العابدين الحامد داعية من أصل إندونيسي نشط في ماليزيا، درس في حضرموت باليمن، ويرشد مجلس دار المرتضى، وبلغ حسابه في إنستغرام 1,432,708 متابعين في نوفمبر 2026."
+    en: "Habib Ali Zaenal Abidin Al-Hamid is an Indonesian-born preacher active in Malaysia; he studied in Hadhramaut, Yemen, guides the Darul Murtadza majlis, and his Instagram counted 1,432,708 followers in November 2026."
+    ur: "حبیب علی زین العابدین الحامد انڈونیشی نژاد مبلغ ہیں جو ملائیشیا میں سرگرم ہیں؛ انہوں نے یمن کے حضرموت میں تعلیم پائی، دار المرتضیٰ مجلس کی رہنمائی کرتے ہیں، اور نومبر 2026ء میں ان کے انسٹاگرام فالوور 1,432,708 تھے۔"
+    sources: [source/anida-habib-ali-2021, source/instagram-habib-ali-zaenal-abidin]
+class: person
+label: { ar: "حبيب علي زين العابدين الحامد", en: "Habib Ali Zaenal Abidin Al-Hamid", ur: "حبیب علی زین العابدین الحامد" }
+names:
+  - { value: "علي زين العابدين الحامد", kind: full }
+  - { value: "Ali Zaenal Abidin Al-Hamid", kind: full }
+  - { value: "Habib Ali", kind: alternate }
+gender: male
+summary:
+  ar: "داعية مستقل من بوندووسو في جاوة الشرقية بإندونيسيا، سافر إلى حضرموت في اليمن فدرس أصول الدين والشريعة والتصوف، واشتهر في ماليزيا بمجالس دار المرتضى وببرنامجه الأسبوعي في مسجد معاذ بن جبل وبرنامج ليلة حب الرسول في تاواو بصباح. يرأس مؤسسة الرياح ويرشد دار المرتضى، وبلغ حسابه في إنستغرام 1,432,708 متابعين وصفحته في فيسبوك 224,308 متابعين بحسب قراءة المنصتين في 15 نوفمبر 2026."
+  en: "Freelance preacher from Bondowoso, East Java, Indonesia, who travelled to Hadhramaut in Yemen and studied usuluddin, sharia and tasawwuf, and became well known in Malaysia through the Darul Murtadza majlis, his weekly programme at Masjid Mu'az bin Jabal and the Malam Cinta Rasul programme in Tawau, Sabah. He chairs Yayasan Ar-Riayah and guides Darul Murtadza; his Instagram counted 1,432,708 followers and his Facebook page 224,308 followers when the platforms were read on 15 November 2026."
+  ur: "انڈونیشیا کے مشرقی جاوا کے بوندووسو سے تعلق رکھنے والے آزاد مبلغ، جنہوں نے یمن کے حضرموت جا کر اصول الدین، شریعت اور تصوف کی تعلیم حاصل کی، اور ملائیشیا میں دار المرتضیٰ مجلس، مسجد معاذ بن جبل میں اپنے ہفتہ وار پروگرام اور صباح کے تاواؤ میں ”ملام چنتا رسول“ پروگرام سے شہرت پائی۔ وہ یایاسن الریاح کے صدر اور دار المرتضیٰ کے رہنما ہیں؛ 15 نومبر 2026ء کی قرأت کے مطابق ان کے انسٹاگرام فالوور 1,432,708 اور فیس بک صفحے کے فالوور 224,308 تھے۔"
+roles: [preacher, teacher]
+wings: [people, living]
+regions: [southeast-asia]
+occupations:
+  - job: job/preacher
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'preacher', Job Browser linking wave 21"
+    sources: [source/anida-habib-ali-2021, source/instagram-habib-ali-zaenal-abidin, source/facebook-habib-ali-zaenal-abidin]
+  - job: job/teacher
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'teacher', Job Browser linking wave 21"
+    sources: [source/anida-habib-ali-2021, source/instagram-habib-ali-zaenal-abidin, source/facebook-habib-ali-zaenal-abidin]
+relations:
+  - { type: lived_in, target: place/kuala-lumpur, sources: [source/instagram-habib-ali-zaenal-abidin] }
+  - { type: lived_in, target: place/malaysia, sources: [source/anida-habib-ali-2021] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The Anida study describes his Darul Murtadza and Ba'Alawi majlis milieu, and his Hadhramaut study included tasawwuf; a tradition or milieu description is not an attestation of a school, and no prose source read in this build names a school for him in so many words. Under this lane's two-source rule his school therefore stays unknown."
+    sources: [source/anida-habib-ali-2021]
+reach:
+  - { platform: instagram, metric: followers, value: 1432708, date: "2026-11-15", note: "@habibalizaenalalhamid: 1,432,708 followers, the platform profile itself read directly by the wave-201 harvest on 15 November 2026; its bio names him chairman of Yayasan Ar-Riayah and guide (pembimbing) of Darul Murtadza. A vidIQ result for a 'Habib Ali' channel (@habibali2349, 564K, 2026-11-10) could not be verified as this figure and is not counted. The figure is a dated platform count, not a museum-verified fact", sources: [source/instagram-habib-ali-zaenal-abidin] }
+  - { platform: facebook, metric: followers, value: 224308, date: "2026-11-15", note: "@habibalizaenalabidinalhamid: 224,308 followers, the platform page itself read directly by the wave-201 harvest on 15 November 2026. The figure is a dated platform count, not a museum-verified fact", sources: [source/facebook-habib-ali-zaenal-abidin] }
+sources: [source/anida-habib-ali-2021, source/instagram-habib-ali-zaenal-abidin, source/facebook-habib-ali-zaenal-abidin]
+provenance:
+  layer: own-research
+  source: "Built from the wave-201 harvest §1.4 and build-time checks of 15 November 2026: the peer-reviewed Anida study of his preaching method in Tawau (vol. 21 no. 1, 2021, DOI 10.15575/anida.v21i1.12569) and the platform profiles themselves (Instagram @habibalizaenalalhamid; Facebook @habibalizaenalabidinalhamid) as read by the harvest. Qualification rests on his Instagram: 1,432,708 followers read directly on 15 November 2026 — far above the men's bar. His birth date is not given by any source read, so no born block is written. The Ba'Alawi tradition description in the sources is a milieu description, not an attestation, and his faith stays unknown under the two-source rule. No Wikidata identifier was verified in this build, so none is recorded. De-duplicated against the tree: he is not Habib Ali Zain al-Abideen al-Jifri, the Yemeni scholar of the Tabah Foundation."
+  generated_by: "Muse (Muse Wonder)"
+  run: modern-figures-wave-201-A
+status: { review: published, completeness: 2 }

@@ -15,6 +15,12 @@ themes: [scripture-and-its-sciences]
 periods: [period/umayyad]
 regions: [arabia]
 died: { edtf: "738~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Tahdhib / Ibn Hajar" }
+occupations:
+  - job: job/muhaddith
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'muhaddith', Job Browser linking wave"
+    sources: [source/tamhid-furqan-2017-v1]
 relations:
   - { type: lived_in, target: place/medina, sources: [source/tamhid-furqan-2017-v1] }
   - { type: sibling_of, target: person/musa-ibn-uqba, sources: [source/tamhid-furqan-2017-v1] }

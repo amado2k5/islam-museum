@@ -1,0 +1,23 @@
+id: concept/ilaj-al-subat-al-aradi
+class: concept
+kind: scientific
+label:
+  ar: "علاج السبات العارض لمرض عضو"
+  en: "Treatment of coma that is a sign of an illness in an organ"
+  ur: "کسی عضو کی بیماری کی علامت کے طور پر غنودگی کا علاج"
+summary:
+  ar: "يذكر ابن سينا مبادئ علاج السبات العارض لمرض في عضو: قصد ذلك العضو بالتدبير وتقوية الدماغ، ثم ما يحلل إن احتبس فيه شيء، وعلاج ما كان من شيء مشروب بحسب المشروب؛ ولا تُنقل الوصفات ولا طرق الاستعمال {cite:canon-ibn-sina-print-v2 p.93}"
+  en: "Ibn Sina gives the principles of treating coma that is a sign of an illness in an organ: attending to that organ by regimen and strengthening the brain, then what dissolves if something is held in it, and treating a coma from a drink according to what was drunk; recipes and methods of application are not reproduced {cite:canon-ibn-sina-print-v2 p.93}"
+  ur: "ابن سینا کسی عضو کی بیماری کی علامت کے طور پر آنے والی غنودگی کے علاج کے اصول بتاتا ہے: اس عضو کو تدبیر سے دیکھنا اور دماغ کو قوت دینا، پھر جو کچھ اس میں رکا ہو اسے گھلانے والی چیز، اور پی ہوئی چیز سے ہونے والی غنودگی کا علاج پی ہوئی چیز کے مطابق؛ نسخے اور استعمال کے طریقے نقل نہیں کیے گئے {cite:canon-ibn-sina-print-v2 p.93}۔"
+wings: [living]
+tags: [tibb-browser, tibb-tibb, tibb-tadawi]
+sources: [source/canon-ibn-sina-print-v2]
+relations:
+  - { type: part_of, target: concept/medical-treatment, sources: [source/canon-ibn-sina-print-v2] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 1, maqala 4, scan pages 93, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json) with the PDF page images rendered with pdftoppm and read by eye against the OCR for every cited page (lists of signs and doubtful lines at 200 dpi); editor footnotes used only for glosses and labelled as the editor's; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein and cupping sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book3-4
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

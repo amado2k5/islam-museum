@@ -20,7 +20,7 @@ export const inventionMakers: string[] = [...new Set(inventionNodes.flatMap(make
 
 // ---- the dates of the workshop timeline (site/src/components/sig/InventionsWorkshop.astro) -------------------------------
 /** Today's status of an invention (`era.status_today`), in the order the legend lists them. */
-export const INVENTION_STATUS_TODAY = ["living", "transformed", "replaced", "extinct"] as const;
+export const INVENTION_STATUS_TODAY = ["living", "transformed", "replaced", "extinct", "revived"] as const;
 
 export interface InventionWhen {
   /** The point the mark is drawn at, in Hijri years (a decimal: the month is a fraction). */

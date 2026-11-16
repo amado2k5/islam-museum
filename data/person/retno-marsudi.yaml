@@ -37,6 +37,12 @@ faith:
       is therefore unknown.
     sources: [source/wikipedia-retno-marsudi-en, source/wikipedia-retno-marsudi-id, source/wikidata-retno-marsudi]
 external_ids: { wikidata: "Q18342668", viaf: "1233174516034515930003" }
+occupations:
+  - job: job/diplomat
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'diplomat', Job Browser linking wave"
+    sources: [source/wikipedia-retno-marsudi-en, source/wikipedia-retno-marsudi-id, source/wikidata-retno-marsudi, source/wikidata]
 relations:
   - { type: born_in, target: place/semarang, sources: [source/wikidata-retno-marsudi], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q11025)" }
 sources: [source/wikipedia-retno-marsudi-en, source/wikipedia-retno-marsudi-id, source/wikidata-retno-marsudi, source/wikidata]

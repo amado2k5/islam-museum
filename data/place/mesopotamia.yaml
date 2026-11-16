@@ -10,11 +10,12 @@ coordinates: [33.7, 43.5]
 coordinate_precision: approx
 coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
 external_ids: { wikidata: "Q11767", nomisma: "mesopotamia" }
-sources: [source/wikidata, source/nomisma]
+sources: [source/wikidata, source/nomisma, source/oxford-dictionary-of-islam]
 provenance:
   layer: own-research
   source: "Wikidata item Q11767 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
   generated_by: "Devin"
   model: "Devin (Cognition)"
   run: battles-geo-places-1
+  oxford_captures: "t125/e1500: http://www.oxfordislamicstudies.com/article/opr/t125/e1500 ; https://web.archive.org/web/20201201000642/http://oxfordislamicstudies.com/article/opr/t125/e1500"
 status: { review: draft, completeness: 1, generated_by: "Devin" }

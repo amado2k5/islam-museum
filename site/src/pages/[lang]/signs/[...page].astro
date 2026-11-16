@@ -1,0 +1,119 @@
+---
+// The Signs-of-the-Hour Browser's home (docs/plan/42-eschatology-browser.md), scoped to its subject since the audit of
+// 13 November 2026: the records about the signs of the Hour, read in order (the signs in general, the Mahdi, the
+// Dajjal, Yajuj and Majuj, the Hour), curated records before passages at every step. The rest of the eschatology
+// corpus is the business of the Resurrection, Paradise and Fire browsers; the full index by source is at ./all/.
+// Since the listing crossed the audit S18 page budget the home is paginated like the other browsers (lib/paged.ts):
+// the landing shows the first rows of every step and a step's full list lives on step/<id>/<n> sub-pages, so every
+// sign record stays reachable without JavaScript.
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import PagedNav from "../../../components/PagedNav.astro";
+import FullFilter from "../../../components/FullFilter.astro";
+import { pagedStaticPaths, pageView, renderedHeadline, type PagedProps } from "../../../lib/paged";
+import DraftMark from "../../../components/DraftMark.astro";
+import EschScope from "../../../components/EschScope.astro";
+import SignsRoad from "../../../components/sig/SignsRoad.astro";
+import { ui, LANGS, fmt, type Lang } from "../../../lib/i18n";
+import { byId, href, labelOf, stripNeedsSource } from "../../../lib/graph";
+import { num } from "../../../lib/nav";
+import { eschItems, signItems, signSteps, type EschTopic } from "../../../lib/eschatology";
+import type { Node } from "../../../../scripts/build-graph";
+
+export function getStaticPaths() {
+  // the landing, and a sub-page for every page of rows of each step longer than the landing shows;
+  // "step" not "all" so the full eschatology index keeps ./all/ to itself (site/src/lib/paged.ts)
+  return pagedStaticPaths(LANGS, signSteps.map((s) => ({ id: s.id, count: s.curated.length + s.passages.length })), "step");
+}
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const G = (T as any).signs;
+const label = (n: Node) => labelOf(n, lang);
+const summaryText = (n: Node) => stripNeedsSource(n.summary?.[lang] ?? n.summary?.ar ?? n.summary?.en ?? "").replace(/\s*\{cite:[^}]*\}/g, "").replace(/\s+([.,؛،])/g, "$1"); // citation markers belong to the entity page's footnotes
+const EXCERPT = 220;
+const excerptOf = (n: Node) => {
+  const raw = n.class === "passage" ? String(n.data.text_search ?? n.data.text ?? "") : summaryText(n);
+  const clean = stripNeedsSource(raw).replace(/\s+/g, " ").trim();
+  return clean.length > EXCERPT ? `${clean.slice(0, EXCERPT)}…` : clean;
+};
+const workLabel = (n: Node) => (n.data.work ? labelOf(byId.get(n.data.work as string) ?? n, lang) : "");
+const refOf = (n: Node) => {
+  if (n.data.sura && n.data.aya) return `${n.data.sura}:${n.data.aya}`;
+  return n.data.ref ? String(n.data.ref) : (n.data.unit ? String(n.data.unit) : "");
+};
+const topicLabel = (t: EschTopic) => G.topics?.[t] ?? t;
+const sections = signSteps.map((s) => ({ id: s.id, items: [...s.curated, ...s.passages] }));
+const paged = pageView(sections, Astro.props as PagedProps, `/${lang}/signs/`, "step");
+const stepTitle = (id: string) => G.steps[id]?.title ?? id;
+const pagedTitle = paged.landing ? G.title : `${G.title} · ${stepTitle(paged.sections[0].id)}${paged.pager && paged.pager.pageNo > 1 ? ` · ${paged.pager.pageNo}` : ""}`;
+// the headline is the set the browser lists: every sign record, counted once across all pages
+const rendered = renderedHeadline("signs", sections, [], signItems);
+const status = fmt(G.signs_status, { n: num(rendered, lang), s: num(signSteps.length, lang), all: num(eschItems.length, lang) });
+const searchText = (i: (typeof signItems)[number]) =>
+  [i.node.label.ar, i.node.label.en, i.node.label.ur, summaryText(i.node), excerptOf(i.node), workLabel(i.node), ...i.topics.map(topicLabel)].filter(Boolean).join(" ");
+const groupsOf = (items: (typeof signItems)[number][]) =>
+  [{ id: "curated", items: items.filter((i) => i.node.class !== "passage") }, { id: "passages", items: items.filter((i) => i.node.class === "passage") }].filter((g) => g.items.length > 0);
+---
+<BaseLayout lang={lang} title={pagedTitle} description={G.lede} path={paged.path}>
+  <div class="wrap" style="padding-block:10px 20px">
+    <p class="ui" style="display:inline-flex;align-items:center;gap:10px;background:var(--panel);border-radius:999px;padding:8px 16px;margin:0 0 1rem"><span aria-hidden="true" style="width:8px;height:8px;border-radius:50%;background:var(--gold)"></span>{G.badge}</p>
+    <nav class="ui muted" aria-label={T.entity.breadcrumb} style="margin:0 0 .6rem"><a href={`/${lang}/`}>{T.entity.breadcrumb}</a> › {paged.landing ? G.title : <a href={`/${lang}/signs/`}>{G.title}</a>}{!paged.landing && ` › ${stepTitle(paged.sections[0].id)}`}</nav>
+    <div data-pagefind-body={paged.landing || undefined}>
+      <h1>{pagedTitle}</h1>
+      <p style="font-size:1.2rem;max-width:var(--measure)">{G.lede}</p>
+      <p class="panel ui" style="max-width:var(--measure);border:1px solid var(--gold)">{status}</p>
+      <EschScope lang={lang} current="signs" />
+      <h2 id="method-title" style="font-size:1.1rem">{G.method_title}</h2>
+      <p class="muted" style="max-width:var(--measure)">{G.method_note}</p>
+      <p class="ui muted">{G.api} <a href="/api/v1/eschatology.json"><bdi dir="ltr">/api/v1/eschatology.json</bdi></a></p>
+    </div>
+
+    <DraftMark lang={lang} legend />
+    {paged.landing && <SignsRoad lang={lang} />}
+    <section aria-labelledby="path-title" style="margin-top:2rem">
+      <h2 id="path-title">{G.path_title}</h2>
+      <p class="muted" style="max-width:var(--measure)">{G.path_note}</p>
+      {paged.landing && (
+        <nav aria-label={G.path_title} class="ui" style="margin:0 0 1rem">
+          <ul style="display:flex;flex-wrap:wrap;gap:6px;padding:0;margin:0;list-style:none">
+            {signSteps.map((s, k) => <li><a class="chip" href={`#t-${s.id}`}>{k + 1}. {stepTitle(s.id)} · {num(s.curated.length + s.passages.length, lang)}</a></li>)}
+          </ul>
+        </nav>
+      )}
+      <p class="ui" style="display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;margin:0 0 1rem">
+        <label for="signs-filter">{G.filter_label}</label>
+        <input id="signs-filter" type="search" data-signs-filter autocomplete="off" style="font:inherit;min-height:44px;min-width:min(100%,260px);padding:6px 12px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--fg)" />
+      </p>
+      <FullFilter lang={lang} slug="signs" />
+      <div data-pagefind-ignore>
+        {paged.sections.map((s) => (
+          <section data-signs-section aria-labelledby={`t-${s.id}`} style="margin:1.6rem 0">
+            <h3 id={`t-${s.id}`} style="font-size:1.15rem;margin:0 0 .2rem">{signSteps.findIndex((st) => st.id === s.id) + 1}. {stepTitle(s.id)}</h3>
+            <p class="muted" style="max-width:var(--measure);margin:0 0 .6rem">{G.steps[s.id]?.desc}</p>
+            {groupsOf(s.items).map((g) => (
+              <div data-signs-section>
+                <h4 class="ui" style="font-size:.95rem;margin:.8rem 0 .4rem">{G.groups[g.id]} <span class="muted" style="font-weight:400">· {num(g.items.length, lang)}</span></h4>
+                <ol role="list" style="list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px">
+                  {g.items.map((i) => (
+                    <li data-signs-row data-search={searchText(i)} class="panel" style="padding:14px 16px">
+                      <a href={href(lang, i.node.id)} style="font-weight:600">{label(i.node)}</a><DraftMark lang={lang} node={i.node} />
+                      {i.node.class === "passage" && (
+                        <p class="ui muted" style="margin:.15rem 0 0;font-size:.82rem" dir="auto">
+                          {workLabel(i.node)}{refOf(i.node) ? <bdi> · {refOf(i.node)}</bdi> : null}
+                        </p>
+                      )}
+                      <p class="muted" style="margin:.3rem 0 0;font-size:.92rem" dir="auto">{excerptOf(i.node)}</p>
+                    </li>
+                  ))}
+                </ol>
+              </div>
+            ))}
+            <PagedNav lang={lang} paged={paged} section={s} label={stepTitle(s.id)} sub="step" />
+          </section>
+        ))}
+      </div>
+      <p class="panel ui" data-signs-none hidden>{G.filter_none}</p>
+      {signItems.length === 0 && <p class="panel ui">{G.empty}</p>}
+    </section>
+  </div>
+  <script src="../../../scripts/signs-filter.ts"></script>
+</BaseLayout>

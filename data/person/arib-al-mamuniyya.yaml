@@ -13,6 +13,17 @@ wings: [people]
 themes: [women, literature, slavery-and-freedom]
 periods: [period/abbasid-early]
 regions: [levant-iraq]
+occupations:
+  - job: job/musician
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'musician', Job Browser linking wave 20"
+    sources: [source/alam-al-nisa-kahhala-risala-1984-v3]
+  - job: job/poet
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'poet', Job Browser linking wave 20"
+    sources: [source/alam-al-nisa-kahhala-risala-1984-v3]
 relations:
   - { type: lived_in, target: place/baghdad, sources: [source/alam-al-nisa-kahhala-risala-1984-v3] }
   - { type: related_to, target: person/abd-allah-al-mamun, role: "اشتراها", sources: [source/alam-al-nisa-kahhala-risala-1984-v3] }

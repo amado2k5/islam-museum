@@ -40,6 +40,27 @@ died:
   note: "The English article gives his death on 25 October 1837 at Wurno, of natural causes; the other articles and Wikidata agree on the year 1837. The Hijri year 1253 is the tabular conversion, marked derived. No place entity for Wurno or Sokoto exists in the museum, so the place of death is carried in this note only."
   sources: [source/wikipedia-muhammad-bello-en, source/wikipedia-muhammad-bello-ar, source/wikipedia-muhammad-bello-ur, source/wikidata-muhammad-bello]
 
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave"
+    sources: [source/wikipedia-muhammad-bello-en, source/wikipedia-muhammad-bello-ar, source/wikipedia-muhammad-bello-ur, source/wikidata-muhammad-bello, source/wikidata]
+  - job: job/poet
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'poet', Job Browser linking wave"
+    sources: [source/wikipedia-muhammad-bello-en, source/wikipedia-muhammad-bello-ar, source/wikipedia-muhammad-bello-ur, source/wikidata-muhammad-bello, source/wikidata]
+  - job: job/historian
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'historian', Job Browser linking wave"
+    sources: [source/wikipedia-muhammad-bello-en, source/wikipedia-muhammad-bello-ar, source/wikipedia-muhammad-bello-ur, source/wikidata-muhammad-bello, source/wikidata]
+  - job: job/caliph
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'caliph', Job Browser linking wave"
+    sources: [source/wikipedia-muhammad-bello-en, source/wikipedia-muhammad-bello-ar, source/wikipedia-muhammad-bello-ur, source/wikidata-muhammad-bello, source/wikidata]
 relations:
   - { type: ruled_over, target: polity/sokoto-caliphate, sources: [source/wikipedia-muhammad-bello-en, source/wikidata-muhammad-bello] }
   - { type: child_of, target: person/usman-dan-fodio, sources: [source/wikipedia-muhammad-bello-en, source/wikipedia-muhammad-bello-ur] }

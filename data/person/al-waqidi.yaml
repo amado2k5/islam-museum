@@ -17,6 +17,23 @@ roles: [historian, qadi, scholar]
 born: { hijri: "0130", edtf: "0747", calendar: julian, precision: year, status: tradition, derived: true, note: "الذهبي: وُلد الواقدي سنة ثلاثين ومائة {cite:mizan-itidal-bijawi-v3 p. 664}؛ التحويل مشتق.", sources: [source/mizan-itidal-bijawi-v3] }
 died: { hijri: "0207-12", edtf: "0823", calendar: julian, precision: month, status: debated, derived: true, note: "الذهبي: مات وهو على القضاء سنة سبع ومائتين في ذي الحجة {cite:mizan-itidal-bijawi-v3 p. 666}؛ المسعودي: سنة تسع ومائتين ابن سبع وسبعين سنة {cite:muruj-al-dhahab p. 426-427}. التحويل مشتق (ذو الحجة 207 يقع في أواخر سنة 822 وأوائل 823م).", sources: [source/mizan-itidal-bijawi-v3, source/muruj-al-dhahab] }
 wings: [people]
+occupations:
+  - job: job/historian
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'historian', Job Browser linking wave"
+    sources: [source/muruj-al-dhahab, source/muqaddima-ibn-khaldun, source/fihrist-ibn-al-nadim, source/mizan-itidal-bijawi-v3, source/openiti-corpus, source/wikidata]
+  - job: job/qadi
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'qadi', Job Browser linking wave"
+    sources: [source/muruj-al-dhahab, source/muqaddima-ibn-khaldun, source/fihrist-ibn-al-nadim, source/mizan-itidal-bijawi-v3, source/openiti-corpus, source/wikidata]
+  - job: job/alim
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave"
+    sources: [source/muruj-al-dhahab, source/muqaddima-ibn-khaldun, source/fihrist-ibn-al-nadim, source/mizan-itidal-bijawi-v3, source/openiti-corpus, source/wikidata]
+
 relations:
   - { type: lived_in, target: place/baghdad, sources: [source/mizan-itidal-bijawi-v3] }
   - { type: student_of, target: person/malik-ibn-anas, sources: [source/mizan-itidal-bijawi-v3] }

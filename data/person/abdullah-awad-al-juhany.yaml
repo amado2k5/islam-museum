@@ -23,6 +23,12 @@ born:
   derived: true
   note: "The Arabic article pairs Tuesday 11 Muharram 1396 AH with 13 January 1976 at Medina; the English article and Wikidata give 13 January 1976. The Hijri year is carried from that pairing."
   sources: [source/wikipedia-abdullah-awad-al-juhany-ar, source/wikipedia-abdullah-awad-al-juhany-en, source/wikidata-abdullah-awad-al-juhany]
+occupations:
+  - job: job/qari
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'reciter', Job Browser linking wave 23"
+    sources: [source/wikipedia-abdullah-awad-al-juhany-en, source/wikipedia-abdullah-awad-al-juhany-ar, source/wikidata-abdullah-awad-al-juhany]
 relations:
   - { type: born_in, target: place/medina, sources: [source/wikipedia-abdullah-awad-al-juhany-ar, source/wikidata-abdullah-awad-al-juhany] }
   - { type: lived_in, target: place/mecca, sources: [source/wikipedia-abdullah-awad-al-juhany-ar] }

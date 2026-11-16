@@ -34,6 +34,17 @@ died:
 roles: [scholar, sufi master, political leader]
 regions: [maghreb, west-africa-sahel]
 wings: [people]
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave"
+    sources: [source/wikidata-sidiyya-baba, source/robinson-paths-of-accommodation-2000, source/aljazeera-studies-salafism-sahel-2012, source/wikidata]
+  - job: job/sufi-shaykh
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'sufi master', Job Browser linking wave"
+    sources: [source/wikidata-sidiyya-baba, source/robinson-paths-of-accommodation-2000, source/aljazeera-studies-salafism-sahel-2012, source/wikidata]
 relations:
   - type: member_of
     target: group/qadiriyya

@@ -21,6 +21,12 @@ born:
   derived: false
   note: "The Arabic article pairs the years itself: born in Jeddah in 1395 AH / 1975 CE; Wikidata likewise gives 1975 and Jeddah."
   sources: [source/wikipedia-idrees-abkar-ar, source/wikidata-idrees-abkar]
+occupations:
+  - job: job/qari
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'reciter', Job Browser linking wave 26"
+    sources: [source/wikipedia-idrees-abkar-ar, source/wikidata-idrees-abkar]
 relations:
   - { type: born_in, target: place/jeddah, sources: [source/wikipedia-idrees-abkar-ar, source/wikidata-idrees-abkar] }
 faith:

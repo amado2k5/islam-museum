@@ -1,0 +1,33 @@
+id: concept/amrad-al-lisan
+class: concept
+kind: scientific
+label:
+  ar: أمراض اللسان وعلاماتها
+  en: The tongue's diseases and their signs
+  ur: زبان کے امراض اور ان کی علامات
+summary:
+  ar: قد يحدث في اللسان أمراض تحدث آفة في حركته بأن تبطل أو تضعف أو تتغير وفي حسّيه اللامس والذائق وربما بطل أحدهما دون الآخر، وقد يكون المرض سوء مزاج أو آلياً أو مركباً، وربما كانت الآفة لمشاركة الدماغ أو المعدة أو الرئة، ويستدل على أمزجته من لونه الأبيض والأصفر والأحمر والأسود ومن لمسه ومن الطعم الغالب عليه ومن رطوبته ويبوسته على أن اليبوسة تحس على وجهين حقيقية ومع سيلان لزج وهذا مما يغلط فيه الأطباء {cite:canon-ibn-sina-print-v2 p.253} {cite:canon-ibn-sina-print-v2 p.254} {cite:canon-ibn-sina-print-v2 p.255}
+  en: 'Diseases may occur in the tongue making a disorder in its movement — abolished, weakened or altered — and in its two senses, touch and taste, one sense sometimes falling without the other; the disease may be a bad temperament, or organic (greatness or smallness, corrupt shape or place, a loosened unit), or compound like the tumours. The disorder may be its own or shared from the brain — then the cheeks and lips mostly share — or the stomach, sometimes the lung and chest. Its temperaments are read from colour (white, yellow, red, black), from touch, from the prevailing taste, and from moisture and dryness — dryness being felt two ways, the true with a clean surface and the false with a viscid flow gathering on it from a catarrh or thick vapours, and in this the physicians err when they take the patient''s report of a dry mouth without telling the two kinds apart {cite:canon-ibn-sina-print-v2 p.253} {cite:canon-ibn-sina-print-v2 p.254} {cite:canon-ibn-sina-print-v2 p.255}'
+  ur: 'زبان میں وہ امراض ہو سکتے ہیں جو اس کی حرکت میں آفہ ڈالیں — باطل، کمزور یا متغیر — اور اس کے دو حواس یعنی لمس اور ذائقہ میں، اور بعض اوقات ایک حاسہ دوسرے کے بغیر باطل ہو جائے؛ مرض سوء مزاج بھی ہو سکتا ہے، آلی بھی ⁦(بڑائی، چھوٹائی، شکل یا مقام کا فساد، کسی اکائی کا انحلال)⁩، اور مرکب بھی جیسے ورم؛ آفہ خود اس کی بھی ہو سکتی ہے اور دماغ کی شراکت سے بھی — تب اکثر گال اور ہونٹ بھی شریک ہوتے ہیں — یا معدہ یا بعض اوقات پھیپھڑا اور سینہ؛ اس کے امزجہ رنگ سے پہچانے جاتے ہیں ⁦(سفید، زرد، سرخ، سیاہ)⁩، لمس سے، غالب ذائقے سے، اور نمی اور خشکی سے — اور خشکی دو طرح محسوس ہوتی ہے: حقیقی صاف سطح کے ساتھ اور دوسری چپچپے بہتے لعاب کے ساتھ جو نزلے یا گاڑھے بھاپ سے جمع ہوتا ہے، اور اسی میں معالج غلطی کرتے ہیں جب مریض کی منہ کے خشک ہونے کی خبر سنتے ہیں اور دونوں ضربوں میں فرق نہیں کرتے {cite:canon-ibn-sina-print-v2 p.253} {cite:canon-ibn-sina-print-v2 p.254} {cite:canon-ibn-sina-print-v2 p.255}'
+wings:
+- living
+tags:
+- tibb-browser
+- tibb-tibb
+sources:
+- source/canon-ibn-sina-print-v2
+relations:
+- type: part_of
+  target: concept/disease
+  sources:
+  - source/canon-ibn-sina-print-v2
+provenance:
+  layer: own-research
+  source: Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 6 (the mouth and the tongue, one maqala), scan pages 253-255, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json, copied to /tmp before reading); editor footnotes used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping, cautery and operative sites and application methods left out; the frenum-cutting, the thread-needling and the hand-works carried only as the book's descriptions, not as procedures; unclear OCR words carried as printed, not guessed; case reports and named attributions carried as the book's attributions and labelled; animal-derived lines kept only as labelled listings set aside for the founder's ruling
+  generated_by: Devin subagent (SWE-2 Medium, Lane A4 worker)
+  model: swe-2-medium
+  run: a4-canon-book3-13
+status:
+  review: published
+  completeness: 1
+  generated_by: Devin subagent (SWE-2 Medium, book mining, lane A4)

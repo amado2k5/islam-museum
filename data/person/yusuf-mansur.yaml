@@ -28,6 +28,17 @@ faith:
     basis: unknown
     note: "No text consulted names a school for him. The two articles record his Betawi family background, his Daarul Qur'an pesantren and Qur'an-memorisation programmes, his charity preaching and his business ventures — none of which attests a school, and neither article carries a religious-life infobox entry for him. The value stays unknown."
     sources: [source/wikipedia-yusuf-mansur-en, source/wikipedia-yusuf-mansur-id]
+occupations:
+  - job: job/preacher
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'preacher', Job Browser linking wave 25"
+    sources: [source/wikipedia-yusuf-mansur-en, source/wikipedia-yusuf-mansur-id]
+  - job: job/teacher
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'teacher', Job Browser linking wave 25"
+    sources: [source/wikipedia-yusuf-mansur-en, source/wikipedia-yusuf-mansur-id]
 relations:
   - { type: born_in, target: place/jakarta, note: "Born in Jakarta: the English and Indonesian articles agree. The museum's place record for Jakarta exists on origin/main (read 4 November 2026); its own sources include Britannica, Geonames and the Jakarta provincial portal.", sources: [source/wikipedia-yusuf-mansur-en, source/wikipedia-yusuf-mansur-id] }
 sources: [source/wikipedia-yusuf-mansur-en, source/wikipedia-yusuf-mansur-id]

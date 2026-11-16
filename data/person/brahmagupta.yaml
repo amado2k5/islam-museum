@@ -14,6 +14,17 @@ themes: [astronomy-and-timekeeping, mathematics, translation-and-transmission]
 periods: [period/umayyad]
 regions: [south-asia]
 born: { edtf: "0598", calendar: julian, precision: year, status: tradition, derived: false, note: "Given as A.D. 598 in the Encyclopaedia of Islam, vol. 2 p. 603; the sources read give no death date." }
+occupations:
+  - job: job/astronomer
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'astronomer', Job Browser linking wave 49"
+    sources: [source/encyclopaedia-of-islam-2]
+  - job: job/mathematician
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'mathematician', Job Browser linking wave 49"
+    sources: [source/encyclopaedia-of-islam-2]
 relations:
   - { type: influenced, target: work/zij-al-sindhind-khwarizmi, note: "The motion values in al-Khwarizmi's tables come from Brahmagupta, according to the Encyclopaedia of Islam.", sources: [source/encyclopaedia-of-islam-2] }
 provenance:

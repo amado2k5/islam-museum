@@ -1,0 +1,33 @@
+id: "concept/waja-al-udhun"
+class: "concept"
+kind: "scientific"
+label:
+  ar: "وجع الأذن"
+  en: "Earache (waja' al-udhun)"
+  ur: "کان کا درد"
+summary:
+  ar: "وجع الأذن إما أن يكون من سوء مزاج — حار بسبب هواء حار وريح حارة أو اغتسال بماء حار دخل الأذن أو بمادة دموية أو صفراوية، أو بارد بلا مادة أو بمادة ريحية باردة أو خلطية لحجة — أو بسبب ورم أو بثور أو بسبب تفرق اتصال كريح تمدد أو قروح وجراحات أو ماء يدخلها أو حيوان يخلص إلى صماخها أو دود يتولد فيها أو عقيب سقطة أو ضربة؛ وأصعب أوجاعها ما كان عن ورم حار غائص مع حمى لازمة، وقد يقتل بغتة كما تقتل السكتة وهو أقتل للشاب منه للشيخ {cite:canon-ibn-sina-print-v2 p.222}"
+  en: "Earache is either from a bad temperament — hot, from hot air and hot winds, washing with hot water entering the ear, or a sanguine or bilious matter; or cold without matter, or with a cold windy or sticky humoral matter — or from a swelling or pustules, or from loss of continuity: a stretching wind, ulcers and wounds, water entering, an animal reaching the meatus, worms breeding in it, or after a fall or blow. The worst earaches are from a deep-lying hot swelling with a continued fever; it may kill suddenly as apoplexy kills, and kills the young more than the old {cite:canon-ibn-sina-print-v2 p.222}"
+  ur: "کان کا درد یا تو سوء مزاج سے ہے — گرم، گرم ہوا اور گرم ہواؤں سے، یا گرم پانی سے نہانے کے اندر جانے سے، یا دمی یا صفراوی مادے سے؛ یا سرد بغیر مادے کے یا سرد ریحی یا لعاب دار خلطی مادے کے ساتھ — یا ورم یا دانوں سے، یا انحلال اتصال سے: پھیلانے والی ہوا، پھوڑے اور زخم، پانی کا اندر جانا، کسی جانور کا صماخ تک پہنچنا، اس میں کیڑوں کا پیدا ہونا، یا گرنے یا ضرب کے بعد؛ اور اس کے سخت ترین درد وہ ہیں جو گہرے گرم ورم سے ہوں ساتھ مسلسل بخار ہو؛ یہ اچانک مار بھی سکتا ہے جیسے سکتہ مارتا ہے، اور جوان کو بوڑھے سے زیادہ مارتا ہے {cite:canon-ibn-sina-print-v2 p.222}"
+wings:
+- "living"
+tags:
+- "tibb-browser"
+- "tibb-tibb"
+sources:
+- "source/canon-ibn-sina-print-v2"
+relations:
+- type: "part_of"
+  target: "concept/disease"
+  sources:
+  - "source/canon-ibn-sina-print-v2"
+provenance:
+  layer: "own-research"
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, end of Fann 3 (the eye) and Fann 4 (the ear, one maqala), scan pages 222-223, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json, copied to /tmp before reading); editor footnotes used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping, cautery and operative sites and application methods left out; the couching and incision hand-works carried only as the book's descriptions, not as procedures; unclear OCR words carried as printed, not guessed; case reports carried as the book's transmitted reports and labelled; coitus and woman's-milk lines kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Devin subagent (SWE-2 Medium, Lane A4 worker)"
+  model: "swe-2-medium"
+  run: "a4-canon-book3-11"
+status:
+  review: "published"
+  completeness: 1
+  generated_by: "Devin subagent (SWE-2 Medium, book mining, lane A4)"

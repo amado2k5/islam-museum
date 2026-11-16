@@ -14,6 +14,12 @@ regions: [arabia]
 roles: [muezzin, teacher]
 born: { edtf: "1974", calendar: gregorian, precision: year, status: historical, derived: false, note: "Born in Medina (Arabic article; its categories give 1393 AH).", sources: [source/wikipedia-ibrahim-al-madani-ar] }
 died: { edtf: "2026-09-21", hijri: "1448-04-10", calendar: gregorian, precision: day, status: historical, derived: false, note: "Died before dawn on Monday 10 Rabi' II 1448 / 21 September 2026, aged about 51; prayed over after the afternoon prayer at the Masjid al-Haram and buried at al-Ma'la cemetery (Arabic article, citing Anadolu, Al Arabiya and Tehama Press).", sources: [source/wikipedia-ibrahim-al-madani-ar] }
+occupations:
+  - job: job/teacher
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'teacher', Job Browser linking wave 25"
+    sources: [source/wikipedia-ibrahim-al-madani-ar, source/wikipedia-list-of-muezzins-of-the-two-holy-mosques-ar]
 relations:
   - { type: born_in, target: place/medina, sources: [source/wikipedia-ibrahim-al-madani-ar] }
   - { type: buried_in, target: place/mecca, note: "al-Ma'la cemetery", sources: [source/wikipedia-ibrahim-al-madani-ar] }

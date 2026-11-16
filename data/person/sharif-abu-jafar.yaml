@@ -10,6 +10,12 @@ wings: [people]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [levant-iraq]
 died: { edtf: "1077", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
+occupations:
+  - job: job/mutakallim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'theologian', Job Browser linking wave 42"
+    sources: [source/muntazam-ibn-al-jawzi]
 relations:
   - { type: lived_in, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
 sources: [source/muntazam-ibn-al-jawzi]

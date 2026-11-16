@@ -15,6 +15,17 @@ regions: [levant-iraq]
 faith:
   - value: sunni
     basis: tradition
+occupations:
+  - job: job/emir
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'emir', Job Browser linking wave 30"
+    sources: [source/shadharat-dhahab]
+  - job: job/alim
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 30"
+    sources: [source/shadharat-dhahab]
 relations:
   - { type: died_in, target: place/damascus, note: "From text: مات بدمشق ودفن بتربة جده الملك المع", sources: [source/shadharat-dhahab] }
   - { type: buried_in, target: place/damascus, sources: [source/shadharat-dhahab] }

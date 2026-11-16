@@ -98,3 +98,13 @@ occupations:
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/wikipedia-mir-jumla-ii-en, source/wikipedia-mir-jumla-ii-ar, source/wikipedia-mir-jumla-ii-ur, source/wikidata-mir-jumla-ii, source/banglapedia-mir-jumla, source/banglapedia-islam-bengal, source/sarkar-history-of-aurangzib-vol1]
+  - job: job/commander
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'general', Job Browser linking wave"
+    sources: [source/wikipedia-mir-jumla-ii-en, source/wikipedia-mir-jumla-ii-ar, source/wikipedia-mir-jumla-ii-ur, source/wikidata-mir-jumla-ii, source/banglapedia-mir-jumla, source/banglapedia-islam-bengal, source/sarkar-history-of-aurangzib-vol1, source/wikidata]
+  - job: job/wali
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'governor', Job Browser linking wave"
+    sources: [source/wikipedia-mir-jumla-ii-en, source/wikipedia-mir-jumla-ii-ar, source/wikipedia-mir-jumla-ii-ur, source/wikidata-mir-jumla-ii, source/banglapedia-mir-jumla, source/banglapedia-islam-bengal, source/sarkar-history-of-aurangzib-vol1, source/wikidata]

@@ -19,6 +19,17 @@ died:
   status: tradition
   derived: true
   note: "توفي في صفر سنة اثنتين وعشرين وخمسمائة ودفن بتربته قبل المصلى {cite:shadharat-dhahab p. 546}؛ التحويل مشتق."
+occupations:
+  - job: job/emir
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'emir', Job Browser linking wave"
+    sources: [source/shadharat-dhahab]
+  - job: job/commander
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'general', Job Browser linking wave"
+    sources: [source/shadharat-dhahab]
 relations:
   - { type: ruler_of, target: polity/burid-dynasty, sources: [source/shadharat-dhahab] }
   - { type: ruler_of, target: place/damascus, sources: [source/shadharat-dhahab] }

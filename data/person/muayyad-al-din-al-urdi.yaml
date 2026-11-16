@@ -91,6 +91,22 @@ died:
   sources:
   - source/schmidl-urdi-bea-2007
   - source/wikipedia-muayyad-al-din-al-urdi-en
+occupations:
+  - job: job/astronomer
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'astronomer', Job Browser linking wave"
+    sources: [source/schmidl-urdi-bea-2007, source/wikipedia-muayyad-al-din-al-urdi-en, source/saliba-islamic-science-2007]
+  - job: job/engineer
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'engineer', Job Browser linking wave"
+    sources: [source/schmidl-urdi-bea-2007, source/wikipedia-muayyad-al-din-al-urdi-en, source/saliba-islamic-science-2007]
+  - job: job/mathematician
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'mathematician', Job Browser linking wave"
+    sources: [source/schmidl-urdi-bea-2007, source/wikipedia-muayyad-al-din-al-urdi-en, source/saliba-islamic-science-2007]
 relations:
 - type: lived_in
   target: place/damascus

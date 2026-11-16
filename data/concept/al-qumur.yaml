@@ -1,0 +1,33 @@
+id: "concept/al-qumur"
+class: "concept"
+kind: "scientific"
+label:
+  ar: "القمور"
+  en: "The qumur (dazzlement of the eye)"
+  ur: "قمور"
+summary:
+  ar: "القمور قد يحدث من الضوء الغالب والبياض الغالب كما يغلب إذا أديم النظر في الثلج، فلا يرى الأشياء أو يراها من قريب ولا يراها من بعيد لضعف الروح، وإذا نظر إلى الألوان تخيل أن عليها بياضاً ⁦⁦(وعلاجه بتدبير النظر في الألوان الخضر والاسمانجونية والسود وغير ذلك من التكميد والاكتحال، وأسماء الأدوية لا تحمل)⁩⁩ {cite:canon-ibn-sina-print-v2 p.216}"
+  en: "Qumur may arise from dominant light and dominant whiteness, as when gazing long at snow prevails; things are not seen, or seen near but not far, from weakness of the spirit, and colours are imagined covered with whiteness ⁦(its treatment is the management of gazing at green, azure and black colours and the like, with fomentations and collyria; drug names are not carried)⁩ {cite:canon-ibn-sina-print-v2 p.216}"
+  ur: "قمور غالب روشنی اور غالب سفیدی سے پیدا ہو سکتا ہے جیسے برف میں مدت تک دیکھنا غالب آ جائے؛ چیزیں دکھائی نہیں دیتیں یا قریب سے دکھائی دیں اور دور سے نہیں، روح کے ضعف سے، اور رنگوں پر سفیدی چھائی محسوس ہو ⁦⁦(علاج سبز، آسمانی اور سیاہ رنگوں میں دیکھنے کی تدبیر وغیرہ سے ہے، کمادات اور سرموں سمیت؛ ادویہ کے نام منقول نہیں)⁩⁩ {cite:canon-ibn-sina-print-v2 p.216}"
+wings:
+- "living"
+tags:
+- "tibb-browser"
+- "tibb-tibb"
+sources:
+- "source/canon-ibn-sina-print-v2"
+relations:
+- type: "part_of"
+  target: "concept/disease"
+  sources:
+  - "source/canon-ibn-sina-print-v2"
+provenance:
+  layer: "own-research"
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, end of Fann 3 (the eye) and Fann 4 (the ear, one maqala), scan pages 216, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json, copied to /tmp before reading); editor footnotes used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping, cautery and operative sites and application methods left out; the couching and incision hand-works carried only as the book's descriptions, not as procedures; unclear OCR words carried as printed, not guessed; case reports carried as the book's transmitted reports and labelled; coitus and woman's-milk lines kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Devin subagent (SWE-2 Medium, Lane A4 worker)"
+  model: "swe-2-medium"
+  run: "a4-canon-book3-11"
+status:
+  review: "published"
+  completeness: 1
+  generated_by: "Devin subagent (SWE-2 Medium, book mining, lane A4)"

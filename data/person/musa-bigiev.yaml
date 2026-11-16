@@ -34,6 +34,22 @@ died:
   derived: true
   note: "The English article and Wikidata agree he died at Cairo on 28 October 1949, buried in the royal cemetery of the Khedives of Egypt; the Arabic article's own Hijri year for his death, 1369, matches the tabular conversion."
   sources: [source/wikipedia-musa-bigiev-en, source/wikipedia-musa-bigiev-ar, source/wikidata-musa-bigiev]
+occupations:
+  - job: job/mutakallim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'theologian', Job Browser linking wave 29"
+    sources: [source/wikipedia-musa-bigiev-en, source/wikipedia-musa-bigiev-ar, source/wikipedia-musa-bigiev-ur, source/wikidata-musa-bigiev, source/wikidata]
+  - job: job/alim
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 29"
+    sources: [source/wikipedia-musa-bigiev-en, source/wikipedia-musa-bigiev-ar, source/wikipedia-musa-bigiev-ur, source/wikidata-musa-bigiev, source/wikidata]
+  - job: job/philosopher
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'philosopher', Job Browser linking wave 29"
+    sources: [source/wikipedia-musa-bigiev-en, source/wikipedia-musa-bigiev-ar, source/wikipedia-musa-bigiev-ur, source/wikidata-musa-bigiev, source/wikidata]
 relations:
   - { type: died_in, target: place/cairo, note: "He died at Cairo on 28 October 1949.", sources: [source/wikipedia-musa-bigiev-en, source/wikidata-musa-bigiev] }
 faith:

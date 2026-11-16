@@ -13,6 +13,17 @@ themes: [architecture, sacred-space-and-pilgrimage]
 regions: [egypt-nile, arabia]
 periods: [period/contemporary-era]
 born: { edtf: "1953", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Cairo University" }
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 28"
+    sources: [source/haddad-asbila-makka-madina-2004]
+  - job: job/teacher
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'teacher', Job Browser linking wave 28"
+    sources: [source/haddad-asbila-makka-madina-2004]
 relations:
   - { type: lived_in, target: place/cairo, sources: [source/haddad-asbila-makka-madina-2004] }
   - { type: authored, target: work/al-asbila-bi-makka-wa-al-madina, sources: [source/haddad-asbila-makka-madina-2004] }

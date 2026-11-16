@@ -1,0 +1,33 @@
+id: "concept/butlan-al-basar"
+class: "concept"
+kind: "scientific"
+label:
+  ar: "بطلان البصر"
+  en: "Loss of sight (butlan al-basar)"
+  ur: "بصر کا بطلان"
+summary:
+  ar: "بطلان البصر قد يقع من أسباب ضعف البصر إذا أفرطت، وقد يكون وأجزاء العين الظاهرة سليمة في جوهرها أو قد أصابتها آفة؛ فإن كانت الثقبة على حال صحتها فإما أن يكون هناك سدة مائية أو تكون السدة في القصبة المجوفة لشيء واقف في أنبوبتها أو لانطباق عرض لها من جفاف أو استرخاء أو ورم أو لانهتاك، أو تكون الجليدية زالت عن محاذاة الثقبة أو فسد مزاجها فلم تصلح أن تكون آلة للإبصار، وأكثر ما يعرض ذلك لرطوبة تغلب عليها جداً أو ليبوسة تغلب عليها فتجتمع إلى ذاتها وتستحصف وتسمى هذه العلة علقوماً {cite:canon-ibn-sina-print-v2 p.215} {cite:canon-ibn-sina-print-v2 p.216}"
+  en: "Loss of sight may come from the causes of weak sight pushed to the extreme; it may occur while the visible parts of the eye are sound in substance or after a consuming or dissolving lesion. If the pupil keeps its healthy state, there is either a watery occlusion, or the occlusion is in the hollow nerve — something standing in its tube, a closure befalling it from dryness, relaxation or a swelling, or its rupture — or the icy humour has shifted from facing the aperture or its temperament has corrupted so it can no longer serve as the instrument of sight; most often that comes of a moisture overwhelming it or a dryness overwhelming it so it gathers into itself and shrinks, and this cause is called alqum {cite:canon-ibn-sina-print-v2 p.215} {cite:canon-ibn-sina-print-v2 p.216}"
+  ur: "بصر کا بطلان ضعف بصر کے اسباب کے انتہا کو پہنچنے سے ہو سکتا ہے؛ یہ آنکھ کے ظاہر اجزا کے ذاتی طور پر سالم ہونے پر بھی ہو سکتا ہے اور کسی جلانے یا بگاڑنے والی آفت کے بعد بھی؛ اگر ثقبہ اپنی صحت پر ہو تو یا تو پانی والی سدہ ہے یا سدہ مجوف نالی میں ہے — اس کی نلی میں کھڑی شے، خشکی، استرخا یا ورم سے اس کا بند ہو جانا، یا اس کا پھٹنا — یا جلیدیہ ثقبے کے محاذی سے ہٹ گیا ہے یا اس کا مزاج بگڑ گیا ہے کہ وہ بصر کی آلہ رہنے کے قابل نہ رہی؛ اور اکثر یہ اس لیے ہوتا ہے کہ رطوبت اس پر نہایت غالب آ جائے یا خشکی غالب آئے تو وہ اپنے آپ میں سمیٹ کر سکڑ جائے اور اس علت کو علقوم کہتے ہیں {cite:canon-ibn-sina-print-v2 p.215} {cite:canon-ibn-sina-print-v2 p.216}"
+wings:
+- "living"
+tags:
+- "tibb-browser"
+- "tibb-tibb"
+sources:
+- "source/canon-ibn-sina-print-v2"
+relations:
+- type: "part_of"
+  target: "concept/disease"
+  sources:
+  - "source/canon-ibn-sina-print-v2"
+provenance:
+  layer: "own-research"
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, end of Fann 3 (the eye) and Fann 4 (the ear, one maqala), scan pages 215-216, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json, copied to /tmp before reading); editor footnotes used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping, cautery and operative sites and application methods left out; the couching and incision hand-works carried only as the book's descriptions, not as procedures; unclear OCR words carried as printed, not guessed; case reports carried as the book's transmitted reports and labelled; coitus and woman's-milk lines kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Devin subagent (SWE-2 Medium, Lane A4 worker)"
+  model: "swe-2-medium"
+  run: "a4-canon-book3-11"
+status:
+  review: "published"
+  completeness: 1
+  generated_by: "Devin subagent (SWE-2 Medium, book mining, lane A4)"

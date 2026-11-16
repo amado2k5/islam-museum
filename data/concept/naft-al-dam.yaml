@@ -1,0 +1,33 @@
+id: concept/naft-al-dam
+class: concept
+kind: scientific
+label:
+  ar: "نفث الدم"
+  en: "The spitting of blood"
+  ur: "خون کا نفث"
+summary:
+  ar: "الدم قد يخرج ثفلاً فيكون من أجزاء الفم وقد يخرج تنخماً فيكون من ناحية الحلق وقد يخرج تنحنحاً فيكون من القصبة وقد يخرج سعالاً فيكون من نواحي الصدر والرئة، والذي من الصدر ليس فيه من الخوف ما في الذي من الرئة فإن الذي من الصدر يبرأ سريعاً وإن لم يبرأ لم يكن له غائلة قروح الرئة وكثيراً ما يصير قروحاً ناصورية تعاود كل وقت بنفث الدم {cite:canon-ibn-sina-print-v2 p.332}"
+  en: "The blood may come out as spittle, and then it is from the mouth's parts; it may come out by hawking, and then it is from the throat's side; it may come out by hem-coughing, and then it is from the windpipe; and it may come out by coughing, and then it is from the regions of the chest and the lung. What is from the chest does not hold the fear that what is from the lung holds, for the chest's heals quickly, and if it does not heal there looms for it the lung-ulcer evil, and often it becomes fistulous ulcers returning every while with spitting of blood {cite:canon-ibn-sina-print-v2 p.332}"
+  ur: "خون تھوک کی صورت نکل سکتا ہے تو منہ کے اجزا سے ہوتا ہے تنخم کی صورت نکلے تو حلق کی طرف سے تنحنح کی صورت نکلے تو نالی سے اور کھانسی کی صورت نکلے تو سینے اور پھیپھڑے کے اطراف سے ہوتا ہے؛ جو سینے سے ہو اس میں وہ خوف نہیں جو پھیپھڑے والے میں ہے کیونکہ سینے والا جلد شفا پاتا ہے اور اگر شفا نہ پائے تو اس پر پھیپھڑے کے قروح کی آفت ہے اور اکثر وہ ناسوری قروح بن جاتا ہے جو وقتاً فوقتاً خون کے نفث کے ساتھ لوٹتے ہیں {cite:canon-ibn-sina-print-v2 p.332}"
+wings:
+- living
+tags:
+- tibb-browser
+- tibb-tibb
+sources:
+- source/canon-ibn-sina-print-v2
+relations:
+- type: part_of
+  target: concept/disease
+  sources:
+  - source/canon-ibn-sina-print-v2
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 10 (the lung and the chest, five maqalas), maqala 3, 'fasl fi naft al-dam', scan pages 332-333, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json, copied to /tmp before reading); the edition's English parenthetical glosses ignored as apparatus; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes and application forms left out; venesection, cupping and operative sites carried only as named by the book; the tools' and hands' works carried only as the book's descriptions, not as procedures; unclear OCR words carried as printed, not guessed; transmitted sayings, tried-remedy reports and named attributions carried as the book's attributions and labelled; animal-derived and unclean lines kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Devin subagent (SWE-2 Medium, Lane A4 worker)"
+  model: swe-2-medium
+  run: a4-canon-book3-17
+status:
+  review: published
+  completeness: 1
+  generated_by: "Devin subagent (SWE-2 Medium, book mining, lane A4)"

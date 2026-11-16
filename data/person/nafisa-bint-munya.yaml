@@ -18,6 +18,12 @@ faith:
   - { value: arabian-polytheism, basis: tradition, note: "قرشية ما قبل الإسلام." }
 born: { edtf: "610~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Sa'd (Kitab al-Tabaqat al-Kabir)" }
 died: { edtf: "632~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Sa'd (Kitab al-Tabaqat al-Kabir)" }
+occupations:
+  - job: job/dai
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'agent', Job Browser linking wave"
+    sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/fiqh-al-sira-al-ghazali]
 relations:
   - { type: lived_in, target: place/mecca, sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/fiqh-al-sira-al-ghazali] }
   - { type: member_of, target: group/quraysh }

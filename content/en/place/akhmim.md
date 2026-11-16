@@ -17,3 +17,9 @@ Akhmim is a town in Upper Egypt on the east bank of the Nile. Its name reflects 
 
 ## In the iDAI.gazetteer
 The iDAI.gazetteer lists this place under no. 2042805 with the preferred name «Aḫmīm», classed as archaeological site and populated place; its parent in the hierarchy is «Sōhāg (Muhāfazat)», classed as administrative unit. Recorded names include «Panopolis», «al-Ahmim» and «Chemin». {cite:idai-gazetteer 2042805}
+
+## In Yaqut's Mu'jam al-buldan
+Yaqut makes Ikhmim "a town in the Sa'id in the second clime, its longitude fifty-four degrees and its latitude twenty-four degrees fifty minutes — an old town on the shore of the Nile in the Sa'id"; to its west is a small mountain, and a man who puts his ear to it hears the murmur of water and a clamour like the speech of men, none knows what it is {cite:mujam-al-buldan-sader-1995 1 p.123}. "And at Ikhmim are many ancient wonders, among them the Barabi": the Barabi are wondrous buildings holding statues and pictures, their builder disputed — the most common and famous account being that they were built in the days of Queen Daluka, owner of the Old Woman's Wall — a vaulted building of a single roof of great expanse, with arches and entrances, and on its walls many pictures of men and varied animals, some known and some unknown, and among them the picture of a man none greater, more splendid or more noble has been seen {cite:mujam-al-buldan-sader-1995 1 p.123-124}.
+
+## The museum's identification
+The record's Akhmim is the Sa'id town on the Nile shore of the same entry — its "Barabi" are the record's Birba of Akhmim on Ibn Fadl Allah al-Umari's account — and Yaqut names no rival of the name in this place.

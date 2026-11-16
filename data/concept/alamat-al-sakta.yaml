@@ -1,0 +1,33 @@
+id: "concept/alamat-al-sakta"
+class: "concept"
+kind: "scientific"
+label:
+  ar: "علامات السكتة وإنذاراتها"
+  en: "Signs and warnings of apoplexy"
+  ur: "سکتہ کی علامات اور پیشگی خبریں"
+summary:
+  ar: "تتقدّم السكتة في أكثر الأوقات انتفاخ الأوداج ودوار وسدر وظلمة البصر واختلاج في البدن كله وتصريف الأسنان في النوم وكسل وثقل وبول زنجاري أسود فيه رسوب؛ ويُعرف الدموي منها بحمرة الوجه والعينين وتمدد الأوداج والبلغمي بالسحنة ولون العين {cite:canon-ibn-sina-print-v2 p.132}"
+  en: "Apoplexy is preceded in most times by swelling of the jugulars, vertigo, giddiness, darkness of sight, twitching of the whole body, grinding of teeth in sleep, laziness and heaviness, and dusky black urine with sediment; its sanguine kind is known by the redness of face and eyes and the distended jugulars, its phlegmatic by the build and the colour of the eye {cite:canon-ibn-sina-print-v2 p.132}"
+  ur: "اکثر اوقات سکتہ سے پہلے اوداج کا پھولنا، دوار، سدر، نگاہ کی تاریکی، سارے بدن میں اختلاج، نیند میں دانت پیسنا، سستی اور گرانی اور زنجاری سیاہ پیشاب جس میں تلچھٹ ہو گزرتا ہے؛ اس کی دموی قسم چہرے اور آنکھوں کی سرخی اور تمدد یافتہ اوداج سے اور بلغمی قسم ساخت اور آنکھ کے رنگ سے پہچانی جاتی ہے {cite:canon-ibn-sina-print-v2 p.132}۔"
+wings:
+- "living"
+tags:
+- "tibb-browser"
+- "tibb-tibb"
+sources:
+- "source/canon-ibn-sina-print-v2"
+relations:
+- type: "part_of"
+  target: "concept/symptoms-and-signs"
+  sources:
+  - "source/canon-ibn-sina-print-v2"
+provenance:
+  layer: "own-research"
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 1, maqala 5 and the opening of Fann 2, scan pages 131 to 132, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json); editor glosses used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping and cautery sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Devin subagent (SWE-2 Medium, Lane A4 worker)"
+  model: "swe-2-medium"
+  run: "a4-canon-book3-6"
+status:
+  review: "published"
+  completeness: 1
+  generated_by: "Devin subagent (SWE-2 Medium, book mining, lane A4)"

@@ -29,6 +29,17 @@ died:
   derived: true
   note: "Arabic Wikipedia gives 25 Ramadan 1379 AH, corresponding to 23 March 1960; English Wikipedia and Wikidata give the same Gregorian date."
   sources: [source/wikipedia-said-nursi-en, source/wikipedia-said-nursi-ar, source/wikidata-said-nursi]
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 40"
+    sources: [source/wikipedia-said-nursi-en, source/wikipedia-said-nursi-ar, source/wikidata-said-nursi, source/wikidata]
+  - job: job/mutakallim
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'theologian', Job Browser linking wave 40"
+    sources: [source/wikipedia-said-nursi-en, source/wikipedia-said-nursi-ar, source/wikidata-said-nursi, source/wikidata]
 relations:
   - { type: lived_in, target: place/istanbul, sources: [source/wikipedia-said-nursi-en] }
 faith:

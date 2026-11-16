@@ -40,6 +40,22 @@ perspectives:
       en: "Kırbıyık reports magic/heresy accusations, attributing them to people resentful of his success. Both charge and motive remain attributed, not adopted as museum fact."
       ur: "قربِیق جادو و زندقہ کے الزامات ان لوگوں سے منسوب کرتے ہیں جو کامیابی برداشت نہ کرتے تھے؛ الزام اور محرک دونوں منسوب ہیں، میوزیم کی حقیقت نہیں۔"
     sources: [source/tdv-abbas-firnas-kirbiyik]
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave"
+    sources: [source/tarikh-islam-hasan-ibrahim, source/nafh-tib-maqqari, source/tdv-abbas-firnas-kirbiyik, source/lienhard-firnas-1910, source/islamweb-firnas-406804, source/commons-firnas-bridge-saez]
+  - job: job/poet
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'poet', Job Browser linking wave"
+    sources: [source/tarikh-islam-hasan-ibrahim, source/nafh-tib-maqqari, source/tdv-abbas-firnas-kirbiyik, source/lienhard-firnas-1910, source/islamweb-firnas-406804, source/commons-firnas-bridge-saez]
+  - job: job/astronomer
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'astronomer', Job Browser linking wave"
+    sources: [source/tarikh-islam-hasan-ibrahim, source/nafh-tib-maqqari, source/tdv-abbas-firnas-kirbiyik, source/lienhard-firnas-1910, source/islamweb-firnas-406804, source/commons-firnas-bridge-saez]
 relations:
 - { type: lived_in, target: place/cordoba, sources: [source/tdv-abbas-firnas-kirbiyik] }
 inventions:

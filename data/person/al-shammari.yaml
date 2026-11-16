@@ -23,6 +23,12 @@ provenance:
 status:
   review: published
   completeness: 3
+occupations:
+  - job: job/faqih
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'jurist', Job Browser linking wave 44"
+    sources: [source/al-aalam]
 relations:
   - { type: died_in, target: place/medina, note: "From text: توفي بالمدينة سنة 1189هـ ⁦(1775م)⁩", sources: [source/al-aalam] }
   - { type: died_in, target: place/medina, note: "From text: died at Medina.", sources: [source/al-aalam] }

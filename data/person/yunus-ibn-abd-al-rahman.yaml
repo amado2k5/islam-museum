@@ -12,6 +12,12 @@ wings: [people]
 regions: [arabia]
 periods: [period/abbasid-early]
 died: { edtf: "823", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Fihrist (Ibn al-Nadim) Agrees with Wikidata Q83277438 (P570, a statement without a reference), item revision 2550430615, read on 13 November 2026.", sources: [source/wikidata] }
+occupations:
+  - job: job/faqih
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'jurist', Job Browser linking wave 43"
+    sources: [source/al-aalam]
 relations:
   - { type: born_in, target: place/baghdad, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1530)" }
   - { type: died_in, target: place/medina, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q35484)" }

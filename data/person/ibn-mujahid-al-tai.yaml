@@ -13,6 +13,12 @@ regions: [levant-iraq]
 periods: [period/buyid-seljuk-fatimid-era]
 born: { edtf: "883", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
 died: { edtf: "980", calendar: gregorian, precision: year, derived: false, note: "al-Zirikli, al-A'lam vol. 5 p. 311, prints 370 AH = 980 CE; al-Safadi, al-Wafi vol. 2 p. 35, says about the seventies of the fourth century AH. Earlier note: confirmed on 13 November 2026 against Wikidata Q29514441 (P570), item revision 2467608206.", sources: [source/alam-zirikli-dar-al-ilm-2002, source/wafi-bi-l-wafayat-safadi-dar-ihya-2000, source/wikidata] }
+occupations:
+  - job: job/mutakallim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'theologian', Job Browser linking wave 41"
+    sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002, source/wafi-bi-l-wafayat-safadi-dar-ihya-2000]
 relations:
   - { type: lived_in, target: place/baghdad, confidence: high, note: "al-Zirikli, al-A'lam vol. 5 p. 311: he settled in Baghdad; al-Safadi, al-Wafi vol. 2 p. 35: he came to Baghdad and taught kalam there", sources: [source/alam-zirikli-dar-al-ilm-2002, source/wafi-bi-l-wafayat-safadi-dar-ihya-2000] }
   - { type: student_of, target: person/al-ashari, confidence: high, note: "al-Zirikli, al-A'lam vol. 5 p. 311, and al-Safadi, al-Wafi vol. 2 p. 35: companion of Abu al-Hasan al-Ash'ari", sources: [source/alam-zirikli-dar-al-ilm-2002, source/wafi-bi-l-wafayat-safadi-dar-ihya-2000] }

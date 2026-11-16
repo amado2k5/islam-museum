@@ -12,6 +12,12 @@ wings: [people]
 themes: [women, politics-governance-and-authority]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [maghreb]
+occupations:
+  - job: job/emir
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'emir', Job Browser linking wave 29"
+    sources: [source/alam-al-nisa-kahhala-risala-1984-v2]
 relations:
   - { type: child_of, target: person/al-mansur-ibn-buluggin, sources: [source/alam-al-nisa-kahhala-risala-1984-v2] }
   - { type: sibling_of, target: person/badis-ibn-al-mansur, sources: [source/alam-al-nisa-kahhala-risala-1984-v2] }

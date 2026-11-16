@@ -34,6 +34,12 @@ died:
   derived: true
   note: "Died on 14 July 2019 at the Combined Military Hospital, Dhaka; the Arabic article names myelodysplastic syndrome as the cause, and a state funeral followed two days later. The Hijri year (1440) is derived by tabular conversion. No buried_in relation is written: the sources read do not agree on the burial place (press reports cited in the English article describe his body being taken to Rangpur, while Wikidata-derived category data lists Banani Graveyard, Dhaka), and no museum place entity exists for Rangpur."
   sources: [source/wikipedia-hussain-muhammad-ershad-en, source/wikipedia-hussain-muhammad-ershad-ar]
+occupations:
+  - job: job/commander
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'general', Job Browser linking wave 22"
+    sources: [source/wikipedia-hussain-muhammad-ershad-en, source/wikipedia-hussain-muhammad-ershad-ar]
 relations:
   - { type: died_in, target: place/dhaka, sources: [source/wikipedia-hussain-muhammad-ershad-en, source/wikipedia-hussain-muhammad-ershad-ar] }
 faith:

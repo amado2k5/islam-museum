@@ -20,7 +20,7 @@ const V = T.inventions.viz;
 const era = ERA[lang];
 
 // One shape and tone for each status_today the museum records; the build stops when an invention carries another one.
-const SHAPES: Record<string, string> = { living: "s-tri", transformed: "s-dot", replaced: "s-ring", extinct: "s-dia" };
+const SHAPES: Record<string, string> = { living: "s-tri", transformed: "s-dot", replaced: "s-ring", extinct: "s-dia", revived: "s-sq" };
 const PLOT_MIN = 1000, LANE_W = 116, PAD = 26, PITCH = 28;
 
 const short = (n: any) => labelOf(n, lang).replace(/\s*⁦?\(.*$/, "").trim();
@@ -156,6 +156,7 @@ const AXIS_H = 52;
   .sg-iv-shape.s-ring, .sg-iv-mark.s-ring::before { border: 3px solid var(--c); border-radius: 50%; background: var(--card); }
   .sg-iv-shape.s-tri, .sg-iv-mark.s-tri::before { background: var(--link); clip-path: polygon(50% 2%, 98% 92%, 2% 92%); }
   .sg-iv-shape.s-dia, .sg-iv-mark.s-dia::before { background: var(--fg); clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%); }
+  .sg-iv-shape.s-sq, .sg-iv-mark.s-sq::before { border: 3px solid var(--link); background: var(--card); }
   .sg-iv-key { display: inline-block; width: 22px; height: 0; border-top: 3px solid color-mix(in srgb, var(--gold-text) 45%, transparent); border-radius: 2px; }
   .sg-iv-scroll { overflow-x: auto; overflow-y: hidden; border: 1px solid var(--line); border-radius: 12px; background: var(--card); scrollbar-color: var(--gold-text) var(--panel); }
   .sg-iv-scroll:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }

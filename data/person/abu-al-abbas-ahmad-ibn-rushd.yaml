@@ -14,6 +14,17 @@ periods: [period/buyid-seljuk-fatimid-era]
 regions: [andalus-europe]
 born: { edtf: "1094/1095", hijri: "0487", calendar: julian, precision: year, status: tradition, derived: true, note: "مولده سنة 487هـ (بداية المجتهد ط. حلاق PDF ص12)؛ التحويل مشتق", sources: [source/bidaya-hallaq-v1] }
 died: { edtf: "1167/1168", hijri: "0563", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي سنة 563هـ (بداية المجتهد ط. حلاق PDF ص12)؛ التحويل مشتق", sources: [source/bidaya-hallaq-v1] }
+occupations:
+  - job: job/faqih
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'jurist', Job Browser linking wave 33"
+    sources: [source/bidaya-hallaq-v1, source/bidaya-bakri-bayt-al-afkar]
+  - job: job/qadi
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'qadi', Job Browser linking wave 33"
+    sources: [source/bidaya-hallaq-v1, source/bidaya-bakri-bayt-al-afkar]
 relations:
   - { type: lived_in, target: place/batlyus, note: "From text: تفقه بأبيه ولازم أبا بكر البطليوسي و", sources: [source/bidaya-hallaq-v1, source/bidaya-bakri-bayt-al-afkar] }
   - { type: child_of, target: person/ibn-rushd-al-jadd, sources: [source/bidaya-bakri-bayt-al-afkar, source/bidaya-hallaq-v1] }

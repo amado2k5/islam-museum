@@ -33,6 +33,12 @@ faith:
     basis: unknown
     note: "No source names a school for her. Wikidata gives Islam (P140) only. The English biography records that she was born into a nomadic Banjara household whose tribe had converted to Islam, and some coverage describes her community of origin in Bishnoi terms — community origin and family background, which never count; and her lifelong singing at the shrines of Sindh and her Sufi repertoire are devotion and repertoire, which never count either. Absence configuration, so the record is unflagged."
     sources: [source/wikipedia-reshma-en, source/wikipedia-reshma-ur, source/wikidata-reshma]
+occupations:
+  - job: job/singer
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'singer', Job Browser linking wave 18"
+    sources: [source/wikipedia-reshma-en, source/wikipedia-reshma-ur, source/wikidata-reshma]
 relations:
   - { type: died_in, target: place/lahore, sources: [source/wikipedia-reshma-en, source/wikidata-reshma] }
 summary:

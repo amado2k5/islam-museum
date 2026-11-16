@@ -20,6 +20,23 @@ wings: [people]
 themes: [scripture-and-its-sciences, travel]
 periods: [period/abbasid-early]
 regions: [persia-central-asia]
+occupations:
+  - job: job/muhaddith
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'muhaddith', Job Browser linking wave"
+    sources: [source/musnad-darimi-tasil-2015, source/tarikh-khulafa-minhaj-1434]
+  - job: job/alim
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave"
+    sources: [source/musnad-darimi-tasil-2015, source/tarikh-khulafa-minhaj-1434]
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'jurist', Job Browser linking wave"
+    sources: [source/musnad-darimi-tasil-2015, source/tarikh-khulafa-minhaj-1434]
+
 relations:
   - { type: lived_in, target: place/samarqand, note: "From text: judge of Samarqand", sources: [source/musnad-darimi-tasil-2015, source/tarikh-khulafa-minhaj-1434] }
   - { type: traveled_to, target: place/khurasan, note: "From text: travelled to Khurasan", sources: [source/musnad-darimi-tasil-2015, source/tarikh-khulafa-minhaj-1434] }

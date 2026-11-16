@@ -31,6 +31,17 @@ status:
   review: published
   completeness: 2
   generated_by: "Claude Code (OCR-harvest worker A); merge of Devin records"
+occupations:
+  - job: job/muhaddith
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'hadith-scholar', Job Browser linking wave"
+    sources: [source/shadharat-dhahab, source/daw-lami-jil-1992, source/kashf-zunun-furqan, source/biblissima, source/wikidata]
+  - job: job/alim
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave"
+    sources: [source/shadharat-dhahab, source/daw-lami-jil-1992, source/kashf-zunun-furqan, source/biblissima, source/wikidata]
 relations:
   - { type: lived_in, target: place/medina, note: "From text: preacher of Medina", sources: [source/shadharat-dhahab, source/daw-lami-jil-1992, source/kashf-zunun-furqan] }
   - { type: died_in, target: place/cairo, note: "From text: died in Cairo", sources: [source/kashf-zunun-furqan, source/shadharat-dhahab] }

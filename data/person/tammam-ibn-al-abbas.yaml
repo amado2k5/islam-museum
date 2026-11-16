@@ -9,6 +9,12 @@ summary:
 periods: [period/rashidun]
 wings: [people]
 died: { edtf: "670~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isti'ab (Ibn Abd al-Barr)" }
+occupations:
+  - job: job/emir
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'emir', Job Browser linking wave 37"
+    sources: [source/sallabi-ali-vol1]
 relations:
   - { type: ruler_of, target: place/medina, sources: [source/sallabi-ali-vol1] }
   - { type: participated_in, target: event/ali-appoints-abbas-sons-as-governors, sources: [source/sallabi-ali-vol1] }

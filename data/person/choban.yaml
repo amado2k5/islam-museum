@@ -18,6 +18,18 @@ wings: [people]
 periods: [period/mongol-post-mongol]
 regions: [persia-central-asia]
 died: { edtf: "1327", hijri: "0728", calendar: julian, precision: year, status: historical, derived: true, note: "The article gives Oct.-Nov. 1327, or perhaps Muharram 728, which began on 17 Nov. 1327; the museum records the year only {cite:encyclopaedia-of-islam-2 vol. 2 p. 82}", sources: [source/encyclopaedia-of-islam-2] }
+occupations:
+  - job: job/emir
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'emir', Job Browser linking wave"
+    sources: [source/encyclopaedia-of-islam-2]
+  - job: job/commander
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'general', Job Browser linking wave"
+    sources: [source/encyclopaedia-of-islam-2]
+
 relations:
   - { type: died_in, target: place/herat, note: "He fled back to Herat and took refuge with the Kartid malik Ghiyath al-Din, who put him to death; the article does not name the place of the killing itself {cite:encyclopaedia-of-islam-2 vol. 2 p. 82}.", confidence: medium, sources: [source/encyclopaedia-of-islam-2] }
   - { type: buried_in, target: place/medina, note: "His body and that of his son Jilaw Khan were taken to Medina for burial {cite:encyclopaedia-of-islam-2 vol. 2 p. 82}.", confidence: medium, sources: [source/encyclopaedia-of-islam-2] }

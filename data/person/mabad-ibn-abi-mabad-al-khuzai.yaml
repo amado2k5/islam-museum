@@ -8,6 +8,12 @@ summary:
 wings: [people]
 regions: [arabia]
 died: { edtf: "630~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isaba" }
+occupations:
+  - job: job/diplomat
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'tribal-envoy', Job Browser linking wave"
+    sources: [source/mubarakpuri-raheeq]
 relations:
   - { type: lived_in, target: place/hijaz, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/mubarakpuri-raheeq] }
 sources: [source/mubarakpuri-raheeq]

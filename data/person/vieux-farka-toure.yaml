@@ -21,6 +21,17 @@ born:
   derived: true
   note: "Born at Niafunké, Mali. The English Wikipedia article gives the full date 12 March 1981; Wikidata carries only the year 1981. The Hijri year (1401) is derived by tabular conversion. Niafunké has no place entity in the museum, so no born_in relation is written."
   sources: [source/wikipedia-vieux-farka-toure-en, source/wikipedia-vieux-farka-toure-fr, source/wikidata-vieux-farka-toure]
+occupations:
+  - job: job/singer
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'singer', Job Browser linking wave 19"
+    sources: [source/wikipedia-vieux-farka-toure-en, source/wikipedia-vieux-farka-toure-fr, source/wikidata-vieux-farka-toure, source/wikidata]
+  - job: job/musician
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'musician', Job Browser linking wave 19"
+    sources: [source/wikipedia-vieux-farka-toure-en, source/wikipedia-vieux-farka-toure-fr, source/wikidata-vieux-farka-toure, source/wikidata]
 relations:
   - { type: child_of, target: person/ali-farka-toure, sources: [source/wikipedia-vieux-farka-toure-en, source/wikidata-vieux-farka-toure] }
   - { type: born_in, target: place/niafunk, sources: [source/wikidata-vieux-farka-toure], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q3100146)" }

@@ -25,6 +25,12 @@ provenance:
 status:
   review: published
   completeness: 3
+occupations:
+  - job: job/muhaddith
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'muhaddith', Job Browser linking wave 34"
+    sources: [source/al-aalam, source/fadail-sahaba-ahmad-wasi-allah-1999]
 relations:
   - { type: born_in, target: place/baghdad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/baghdad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

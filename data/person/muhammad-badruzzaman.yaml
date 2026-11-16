@@ -20,6 +20,17 @@ roles: [singer, composer, producer, entrepreneur]
 wings: [people, living]
 regions: [south-asia]
 born: { edtf: "1993~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Public directory" }
+occupations:
+  - job: job/singer
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'singer', Job Browser linking wave"
+    sources: [source/vidiq-bzamanofficial, source/holytune-website, source/jagonews24-kalarab-directors-2022, source/bangladesh-pratidin-kalarab-directors-2022, source/badruzzaman-kalarab-manifesto-2022, source/wikipedia-narsingdi-5-en, source/musicmetricsvault-badruzzaman, source/facebook-bzamanofficialpage, source/vidiq-holy-tune, source/wikipedia-kalarab-shilpigosthi-en]
+  - job: job/merchant
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'entrepreneur', Job Browser linking wave"
+    sources: [source/vidiq-bzamanofficial, source/holytune-website, source/jagonews24-kalarab-directors-2022, source/bangladesh-pratidin-kalarab-directors-2022, source/badruzzaman-kalarab-manifesto-2022, source/wikipedia-narsingdi-5-en, source/musicmetricsvault-badruzzaman, source/facebook-bzamanofficialpage, source/vidiq-holy-tune, source/wikipedia-kalarab-shilpigosthi-en]
 relations: []
 reach:
   - { platform: youtube, metric: subscribers, value: 148000, date: "2026-11-08", note: "@bzamanofficial (his personal channel), per vidIQ page updated 8 November 2026 and read 9 November 2026: 7,668,971 views, 10 videos, channel started 10 December 2016", sources: [source/vidiq-bzamanofficial] }

@@ -29,6 +29,12 @@ died:
   derived: false
   note: "Date from both articles and Wikidata; the Arabic article states Wednesday 21 Rabi' al-Thani 1409 AH / 30 November 1988. He was buried in Cairo's City of the Dead near the mausoleum of Imam al-Shafi'i."
   sources: [source/wikipedia-abdul-basit-abd-us-samad-en, source/wikipedia-abdul-basit-abd-us-samad-ar, source/wikidata-abdul-basit-abd-us-samad]
+occupations:
+  - job: job/qari
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'reciter', Job Browser linking wave 25"
+    sources: [source/wikipedia-abdul-basit-abd-us-samad-en, source/wikipedia-abdul-basit-abd-us-samad-ar, source/wikidata-abdul-basit-abd-us-samad]
 relations:
   - { type: born_in, target: place/armant, sources: [source/wikipedia-abdul-basit-abd-us-samad-en, source/wikipedia-abdul-basit-abd-us-samad-ar] }
   - { type: lived_in, target: place/cairo, sources: [source/wikipedia-abdul-basit-abd-us-samad-en, source/wikipedia-abdul-basit-abd-us-samad-ar] }

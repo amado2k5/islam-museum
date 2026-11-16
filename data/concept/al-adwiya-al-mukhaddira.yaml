@@ -1,0 +1,33 @@
+id: concept/al-adwiya-al-mukhaddira
+class: concept
+kind: scientific
+label:
+  ar: الأدوية المخدرة للأسنان
+  en: The numbing drugs for the teeth
+  ur: دانتوں کی مخدر ادویہ
+summary:
+  ar: الأدوية المخدرة قد تستعمل على الوجوه المذكورة في التحليل لكن الأولى أن تكون ملطوخة أو ملصقة أو محشوة على أنها قد تستعمل مضمضات وبخورات، ومنها ما يقطر في الأذن من الجانب الوجع، ومنها ما يبخر به ويمسك في الفم وقد يسقى المخدرات فيأخذ منه في فمه فينام فينضج مرضه ويسكن ألمه ⁦(الأسماء والمقادير مطروحة)⁩، ومن جملة ما يخدر من غير أذى الماء المبرد بالثلج تبريداً بالغاً يؤخذ بالفم أخذاً بعد أخذ حتى يخدر السن فيسكن الوجع البتة وإن كان ربما زاد في الابتداء {cite:canon-ibn-sina-print-v2 p.273}
+  en: The numbing drugs may be used on the routes named under dissolution, though it is better they be smeared, pasted or stuffed, while they may also serve as mouthwashes and fumigations; among them what is dripped into the ear on the aching side, what is fumed and held in the mouth, and what the tooth-sufferer is given to drink, taking it into his mouth until he sleeps, his illness maturing and his pain calming (names and measures left out). Among what numbs without harm is water chilled hard by snow, taken mouthful after mouthful until the tooth numbs and the pain calms altogether — though it may first increase it {cite:canon-ibn-sina-print-v2 p.273}
+  ur: مخدر ادویہ تحلیل میں بتائے ہوئے راستوں پر استعمال ہو سکتی ہیں مگر بہتر یہ ہے کہ وہ ملی ہوئی، لگی ہوئی یا بھری ہوئی ہوں، بہرحال وہ کلانے اور دھونیوں کے طور پر بھی استعمال ہوتی ہیں؛ ان میں وہ ہے جو درد والے جانب کان میں ٹپکائی جائے، جو دھونی دی کر منہ میں رکھی جائے، اور وہ جو دانت مبتلا کو پلائی جائے تو وہ اسے منہ میں لے کر سو جائے تاکہ اس کا مرض پک جائے اور درد سکون پائے ⁦(نام اور مقداریں مطروح)⁩؛ اور بے ضرر بےحس کرنے والوں میں برف سے بہت زیادہ ٹھنڈا کیا ہوا پانی ہے جو منہ میں ایک ایک وغیرہ لیا جائے یہاں تک کہ دانت بےحس ہو جائے اور درد بالکل سکون پائے، اگرچہ شروع میں بڑھا بھی سکتا ہے {cite:canon-ibn-sina-print-v2 p.273}
+wings:
+- living
+tags:
+- tibb-browser
+- tibb-tibb
+sources:
+- source/canon-ibn-sina-print-v2
+relations:
+- type: part_of
+  target: concept/medical-treatment
+  sources:
+  - source/canon-ibn-sina-print-v2
+provenance:
+  layer: own-research
+  source: Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 7 (the teeth, one maqala) and the first fasls of Fann 8 (the gums and the lips), scan pages 273, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json, copied to /tmp before reading); editor footnotes used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping, cautery and operative sites and application methods left out; the tooth's drilling, filing, drawing, cautery and extraction carried only as the book's descriptions, not as procedures; unclear OCR words carried as printed, not guessed; case reports and named attributions carried as the book's attributions and labelled; animal-derived and unclean lines kept only as labelled listings set aside for the founder's ruling
+  generated_by: Devin subagent (SWE-2 Medium, Lane A4 worker)
+  model: swe-2-medium
+  run: a4-canon-book3-14
+status:
+  review: published
+  completeness: 1
+  generated_by: Devin subagent (SWE-2 Medium, book mining, lane A4)

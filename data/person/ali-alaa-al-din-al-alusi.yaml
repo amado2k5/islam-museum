@@ -26,6 +26,17 @@ provenance:
 status:
   review: draft
   completeness: 3
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 45"
+    sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
+  - job: job/qadi
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'qadi', Job Browser linking wave 45"
+    sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 relations:
   - { type: lived_in, target: place/iraq, note: "Place association from the person's nisba/name ⁦(الآلوسي)⁩; denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
   - { type: lived_in, target: place/baghdad, note: "al-Zirikli, al-A'lam, vol. 5 p. 29: from the people of Baghdad", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }

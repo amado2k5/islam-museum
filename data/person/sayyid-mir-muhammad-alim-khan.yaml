@@ -37,6 +37,12 @@ died:
 wings: [people]
 regions: [persia-central-asia]
 roles: [emir]
+occupations:
+  - job: job/emir
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'emir', Job Browser linking wave"
+    sources: [source/wikipedia-alim-khan-en, source/wikipedia-alim-khan-ru, source/wikipedia-alim-khan-uz, source/wikipedia-alim-khan-ar, source/wikipedia-alim-khan-ur, source/wikidata-alim-khan]
 relations:
   - type: born_in
     target: place/bukhara

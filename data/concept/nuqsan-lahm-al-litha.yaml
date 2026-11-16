@@ -1,0 +1,33 @@
+id: concept/nuqsan-lahm-al-litha
+class: concept
+kind: scientific
+label:
+  ar: "نقصان لحم اللثة"
+  en: "The loss of the gum's flesh"
+  ur: "مسوڑھے کے گوشت کی کمی"
+summary:
+  ar: "نقصان لحم اللثة يعالج بما وصف من الأدوية التي تعجن بعد السحق بما وصف من العسل والخل وتستعمل دلوكاً، وبما يقرّص فيخبز حتى يكاد يحترق ثم يسحق فيستنّ به على الوجه المذكور ⁦(الأسماء من هذا الجنس مطروحة)⁩ {cite:canon-ibn-sina-print-v2 p.282}"
+  en: "The loss of the gum's flesh is treated with what he described of the drugs kneaded after crushing with the stated honey and vinegar and used as a rub, and with what is lozenged and baked until it nearly burns then crushed and used as a dentifrice in the stated way (the names of this kind left out) {cite:canon-ibn-sina-print-v2 p.282}"
+  ur: "مسوڑھے کے گوشت کی کمی کا علاج اس کے بیان کردہ ادویہ سے ہے جو سایہ کرنے کے بعد بیان کردہ شہد اور سرکہ میں گوندھ کر ملمیس کے طور پر استعمال ہوں، اور اس قرص سے جو پکایا جائے یہاں تک کہ جلنے کے قریب ہو پھر کُٹ کر بیان کردہ طریقے پر سنون استعمال ہو ⁦(اسی جنس کے نام مطروح)⁩ {cite:canon-ibn-sina-print-v2 p.282}"
+wings:
+- living
+tags:
+- tibb-browser
+- tibb-tibb
+sources:
+- source/canon-ibn-sina-print-v2
+relations:
+- type: part_of
+  target: concept/disease
+  sources:
+  - source/canon-ibn-sina-print-v2
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, the last fasls of Fann 8 (the gums and the lips, one maqala) and the whole of Fann 9 (the throat, one maqala), scan pages 282, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json, copied to /tmp before reading); editor footnotes used only as the editor's glosses and labelled; the edition's English parenthetical glosses ignored as apparatus; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes and application forms left out; venesection, cupping, cautery and operative sites carried only as named by the book; the tools' and hands' works (extraction, excision, trachea-slitting, pressing, scarification and the snare) carried only as the book's descriptions, not as procedures; unclear OCR words carried as printed, not guessed; transmitted sayings, tried-remedy reports and named attributions carried as the book's attributions and labelled; animal-derived and unclean lines kept only as labelled listings set aside for the founder's ruling"
+  generated_by: Devin subagent (SWE-2 Medium, Lane A4 worker)
+  model: swe-2-medium
+  run: a4-canon-book3-15
+status:
+  review: published
+  completeness: 1
+  generated_by: Devin subagent (SWE-2 Medium, book mining, lane A4)

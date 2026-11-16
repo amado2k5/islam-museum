@@ -35,6 +35,12 @@ died:
   derived: true
   note: "All the articles and Wikidata give his death at Zanzibar on 5 March 1893, at the close of his reign (13 February 1890 – 5 March 1893). The Hijri year (1310) is derived by tabular conversion (16 Sha'ban 1310)."
   sources: [source/wikipedia-ali-bin-said-en, source/wikipedia-ali-bin-said-ar, source/wikipedia-ali-bin-said-de, source/wikidata-ali-bin-said]
+occupations:
+  - job: job/sultan
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'sultan', Job Browser linking wave"
+    sources: [source/wikipedia-ali-bin-said-en, source/wikipedia-ali-bin-said-ar, source/wikipedia-ali-bin-said-de, source/wikipedia-al-bu-said-dynasty-en, source/wikipedia-ibadism-en, source/wikipedia-said-bin-sultan-en, source/wikidata-ali-bin-said]
 relations:
   - { type: born_in, target: place/muscat, sources: [source/wikidata-ali-bin-said, source/wikipedia-ali-bin-said-ar] }
   - { type: died_in, target: place/zanzibar, sources: [source/wikipedia-ali-bin-said-en, source/wikipedia-ali-bin-said-ar, source/wikidata-ali-bin-said] }

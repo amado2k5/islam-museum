@@ -14,6 +14,17 @@ wings: [people]
 regions: [anatolia-balkans]
 periods: [period/mongol-post-mongol]
 died: { edtf: "1469", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Sicill-i Osmani (Mehmed Sureyya) Agrees with Wikidata Q2353735 (P570, a statement without a reference), item revision 2562649539, read on 13 November 2026.", sources: [source/wikidata] }
+occupations:
+  - job: job/commander
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'military-leader', Job Browser linking wave"
+    sources: [source/dawlat-uthmaniyya-salabi]
+  - job: job/grand-vizier
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'grand-vizier', Job Browser linking wave"
+    sources: [source/dawlat-uthmaniyya-salabi]
 relations:
   - { type: participated_in, target: event/conquest-constantinople-857, role: "قائد", sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: died_in, target: place/bal-kesir, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q199723)" }

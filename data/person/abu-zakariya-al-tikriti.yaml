@@ -26,6 +26,27 @@ status:
   completeness: 3
 born: { edtf: "1135", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Subki (Tabaqat al-Shafi'iyya). Card year kept: al-Zirikli prints 531 AH = 1136 CE {cite:alam-zirikli-dar-al-ilm-2002 vol. 8 p. 162}, one year later (see the GEMINI line in the ledger). Agrees with Wikidata Q67373648 (P569, a statement without a reference), item revision 2533409428, read on 13 November 2026.", sources: [source/wikidata] }
 died: { edtf: "1219", hijri: "0616", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Subki (Tabaqat al-Shafi'iyya). al-Zirikli prints 616 AH = 1219 CE {cite:alam-zirikli-dar-al-ilm-2002 vol. 8 p. 162}.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave"
+    sources: [source/al-aalam, source/wikidata]
+  - job: job/poet
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'poet', Job Browser linking wave"
+    sources: [source/al-aalam, source/wikidata]
+  - job: job/qadi
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'qadi', Job Browser linking wave"
+    sources: [source/al-aalam, source/wikidata]
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'jurist', Job Browser linking wave"
+    sources: [source/al-aalam, source/wikidata]
 relations:
   - { type: lived_in, target: place/iraq, sources: [source/al-aalam], confidence: low, note: "Place association from the person's nisba/name ⁦(عراقي)⁩; denotes association, not proven residence." }
   - { type: born_in, target: place/tikrit, sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high, note: "al-Zirikli, al-A'lam, vol. 8 p. 162: born in Tikrit and later its qadi" }

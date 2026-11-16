@@ -40,6 +40,17 @@ inventions:
     place: place/united-states
     sources: [source/wikipedia-mohamed-atalla-en, source/wikipedia-mosfet-en]
 external_ids: { wikidata: "Q1759109" }
+occupations:
+  - job: job/engineer
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'engineer', Job Browser linking wave"
+    sources: [source/wikipedia-mohamed-atalla-en, source/wikidata-mohamed-atalla, source/wikipedia-mosfet-en]
+  - job: job/merchant
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'entrepreneur', Job Browser linking wave"
+    sources: [source/wikipedia-mohamed-atalla-en, source/wikidata-mohamed-atalla, source/wikipedia-mosfet-en]
 relations:
   - { type: born_in, target: place/port-said, sources: [source/wikipedia-mohamed-atalla-en] }
 summary:

@@ -19,6 +19,17 @@ died:
   status: tradition
   derived: true
   note: "توفي في ذي الحجة سنة أربع وتسعين {cite:shadharat-dhahab p. 798}؛ التحويل مشتق."
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave"
+    sources: [source/shadharat-dhahab]
+  - job: job/katib
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'katib', Job Browser linking wave"
+    sources: [source/shadharat-dhahab]
 relations:
   - { type: lived_in, target: place/wasit, confidence: low, note: "Associated with واسط per the record's own summary text; relation type pending review.", sources: [source/shadharat-dhahab] }
 provenance:

@@ -1,0 +1,56 @@
+id: person/haddad-alwi
+education:
+  did_you_know:
+    ar: "حداد علوي منشد إندونيسي وُلد سنة 1966، ألبومه حب الرسول الصادر سنة 1999 هو ألبوم النشيد الأكثر مبيعًا في تاريخ إندونيسيا، وبلغ حسابه في إنستغرام 739,008 متابعين في نوفمبر 2026."
+    en: "Haddad Alwi is an Indonesian nasheed singer born in 1966; his 1999 album Cinta Rasul is the best-selling nasheed album in Indonesian history, and his Instagram counted 739,008 followers in November 2026."
+    ur: "حداد علوی انڈونیشیا کے نعت خواں ہیں جو 1966ء میں پیدا ہوئے؛ ان کا 1999ء کا البم ”چنتا رسول“ انڈونیشیا کا سب سے زیادہ بکنے والا نعتیہ البم ہے، اور نومبر 2026ء میں ان کے انسٹاگرام فالوور 739,008 تھے۔"
+    sources: [source/wikipedia-haddad-alwi-en, source/mixerno-haddad-alwi]
+class: person
+label: { ar: "حداد علوي السقاف", en: "Haddad Alwi", ur: "حداد علوی السقاف" }
+names:
+  - { value: "حداد علوي السقاف", kind: full }
+  - { value: "Haddad Alwi Assegaf", kind: full }
+  - { value: "Abdullah Haddad bin Alwi Assegaf", kind: full }
+  - { value: "Haddad Alwi", kind: alternate }
+gender: male
+summary:
+  ar: "منشد وممثل إندونيسي، وُلد في 13 مارس 1966. بدأ سنة 1997 بألبومي الصلوات نور محمد وزيارة رسول، وذاع صيته سنة 1999 بتعاونه مع الطفلة سوليس، فأصدرا معًا ستة ألبومات بعنوان حب الرسول حتى سنة 2004، ويُوصف أولها بأنه ألبوم النشيد الأكثر مبيعًا في تاريخ الموسيقى الإندونيسية. بلغ حسابه في إنستغرام 739,008 متابعين بحسب عدّاد ميكسرنو الحي عند زحفه في 15 نوفمبر 2026."
+  en: "Indonesian nasheed singer and actor, born on 13 March 1966. He began in 1997 with the sholawat albums Nur Muhammad and Ziarah Rasul, and rose to fame in 1999 in collaboration with the child singer Sulis; together they released six albums titled Cinta Rasul by 2004, the first of them described as the best-selling nasheed album in Indonesian music history. His Instagram counted 739,008 followers by Mixerno.Space's live counter when crawled on 15 November 2026."
+  ur: "انڈونیشیا کے نعت خواں اور اداکار، جو 13 مارچ 1966ء کو پیدا ہوئے۔ انہوں نے 1997ء میں صلوات کے البم ”نور محمد“ اور ”زیارت رسول“ سے آغاز کیا، اور 1999ء میں بچی گلوکارہ سولِس کے ساتھ اشتراک سے شہرت پائی؛ دونوں نے 2004ء تک ”چنتا رسول“ کے عنوان سے چھ البم جاری کیے، جن میں سے پہلا انڈونیشیائی موسیقی کی تاریخ کا سب سے زیادہ بکنے والا نعتیہ البم قرار دیا جاتا ہے۔ مِکسرنو کے لائیو کاؤنٹر کے مطابق، جسے 15 نومبر 2026ء کو پڑھا گیا، ان کے انسٹاگرام فالوور 739,008 تھے۔"
+roles: [munshid, singer, actor]
+wings: [people, living]
+regions: [southeast-asia]
+born:
+  edtf: "1966-03-13"
+  calendar: gregorian
+  precision: day
+  status: historical
+  note: "The date, 13 March 1966, is common to all sources read. The birthplace conflicts: the Indonesian Wikipedia infobox gives Banjarnegara, Central Java, while the English article's text, TokohIndonesia and the Javanese article give Jakarta, and one Solo newspaper profile gives Solo — so no birthplace edge is written."
+  sources: [source/wikipedia-haddad-alwi-id, source/wikipedia-haddad-alwi-en, source/tokoh-haddad-alwi]
+occupations:
+  - job: job/singer
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'singer', Job Browser linking wave 18"
+    sources: [source/wikipedia-haddad-alwi-id, source/wikipedia-haddad-alwi-en, source/tokoh-haddad-alwi, source/mixerno-haddad-alwi]
+  - job: job/actor
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'actor', Job Browser linking wave 18"
+    sources: [source/wikipedia-haddad-alwi-id, source/wikipedia-haddad-alwi-en, source/tokoh-haddad-alwi, source/mixerno-haddad-alwi]
+relations:
+  - { type: lived_in, target: place/indonesia, sources: [source/wikipedia-haddad-alwi-id] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read in this build names a school or order for him; the encyclopedia entries name Islam only. His Hadhrami family background is background, not attestation. Under this lane's two-source rule his school therefore stays unknown."
+    sources: [source/wikipedia-haddad-alwi-id, source/wikipedia-haddad-alwi-en]
+reach:
+  - { platform: instagram, metric: followers, value: 739008, date: "2026-11-15", note: "@abihaddadalwi (handle confirmed from his own YouTube video descriptions, 'Haddad Alwi Official Social Media'): 739,008 followers by Mixerno.Space's live counter, crawled by the wave-201 harvest on 15 November 2026; a search snippet five days earlier read 738,563 and his own late-2025 posts carry 750K-760K author counts. Not relied on: a stats.fm Spotify figure of about 324K (no as-of date) and a Viberate YouTube figure of 762K that conflicts with Viberate's own older cluster page and matches no identified official channel. The figure is a dated platform count, not a museum-verified fact", sources: [source/mixerno-haddad-alwi] }
+sources: [source/wikipedia-haddad-alwi-id, source/wikipedia-haddad-alwi-en, source/tokoh-haddad-alwi, source/mixerno-haddad-alwi]
+provenance:
+  layer: own-research
+  source: "Built from the wave-201 harvest §1.6 and build-time checks of 15 November 2026: Indonesian and English Wikipedia 'Haddad Alwi', the TokohIndonesia biography, and Mixerno.Space's live counter for @abihaddadalwi. Qualification rests on his Instagram: 739,008 followers (Mixerno live counter, crawled 15 November 2026) — far above the men's bar. GENRE: he is a nasheed (sholawat) singer, in scope for this lane under the founder's genre ruling of 9 November 2026, which names nasheed artists in scope. The birthplace conflict across the sources (Banjarnegara / Jakarta / Solo) is recorded on the record and no birthplace edge is written. No source read names a school for him, so his faith stays unknown. No Wikidata identifier was verified in this build, so none is recorded. De-duplicated against the tree: the repo's classical Haddad records (e.g. abd-allah-ibn-alawi-al-haddad, haitham-al-haddad) are namesakes, not this singer."
+  generated_by: "Muse (Muse Wonder)"
+  run: modern-figures-wave-201-A
+status: { review: published, completeness: 2 }

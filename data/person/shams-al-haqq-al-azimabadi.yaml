@@ -17,6 +17,17 @@ periods: [period/colonial-era]
 regions: [south-asia]
 born: { edtf: "1857", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Nuzhat al-Khawatir" }
 died: { edtf: "1911", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Nuzhat al-Khawatir" }
+occupations:
+  - job: job/muhaddith
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'muhaddith', Job Browser linking wave"
+    sources: [source/sunan-daraqutni-ibn-hazm-2011]
+  - job: job/alim
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave"
+    sources: [source/sunan-daraqutni-ibn-hazm-2011]
 relations:
   - { type: lived_in, target: place/patna, sources: [source/sunan-daraqutni-ibn-hazm-2011] }
   - { type: authored, target: work/al-taliq-al-mughni, sources: [source/sunan-daraqutni-ibn-hazm-2011] }

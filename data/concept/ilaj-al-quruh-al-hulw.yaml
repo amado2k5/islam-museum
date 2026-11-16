@@ -1,0 +1,33 @@
+id: concept/ilaj-al-quruh-al-hulw
+class: concept
+kind: scientific
+label:
+  ar: علاج القروح التي تسمى حلوة
+  en: The treatment of the ulcers called sweet
+  ur: ان چھالوں کا علاج جو میٹھے کہلاتے ہیں
+summary:
+  ar: القروح التي تسمى حلوة في ابتدائها يكفي دهن من جنس ما يعرف وحده أو مع شمع وشحم من جنس ما يعرف وأقوى من ذلك مرهم من جنس ما يعرف ولا سيما مخلوطاً بلعاب حب من جنس ما يعرف فإن ريد زيادة تجفيف جعل فيه خبث من جنس ما يعرف، وأما إذا اشتدت العلة يسيراً أو أزمنت واشتدت جداً فمراهم ولطوخ أقواها ما يطبخ في إناء نحاس حتى يصير في قوام العسل ⁦(النسخ والمقادير والأسماء لا تحمل وتحمل جنسها)⁩ {cite:canon-ibn-sina-print-v2 p.247} {cite:canon-ibn-sina-print-v2 p.248}
+  en: 'For the ulcers called sweet: at their start an oil of the known kind suffices alone, or with wax and a fat of the known kind; stronger is an ointment of the known kind, especially mixed with the mucilage of a seed of the known kind, and if more drying is wanted a dross of the known kind is put in. If the ailment grows a little stronger or turns chronic and very severe, there are ointments and smears, the strongest of them cooked in a copper vessel till it reaches honey''s consistency ⁦(the recipes, measures and names are carried only by kind)⁩ {cite:canon-ibn-sina-print-v2 p.247} {cite:canon-ibn-sina-print-v2 p.248}'
+  ur: 'ان چھالوں کے لیے جو میٹھے کہلاتے ہیں: ابتدا میں معروف جنس کا تیل اکیلا کافی ہے یا موم اور معروف جنس کی چربی کے ساتھ؛ اس سے مضبوط معروف جنس کا مرہم ہے خاص طور پر معروف جنس کے بیج کے لعاب ملا کر، اور اگر مزید خشک کرنے کی ضرورت ہو تو معروف جنس کی میل ڈالا جائے؛ اور اگر علت تھوڑی بڑھ جائے یا دائمی اور نہایت سخت ہو جائے تو مرہم اور لیپ ہیں جن میں سب سے مضبوط تانبے کے برتن میں پکا کر شہد کے قوام تک لایا جاتا ہے ⁦(نسخے، مقدار اور نام صرف جنس کے اعتبار سے)⁩ {cite:canon-ibn-sina-print-v2 p.247} {cite:canon-ibn-sina-print-v2 p.248}'
+wings:
+- living
+tags:
+- tibb-browser
+- tibb-tibb
+sources:
+- source/canon-ibn-sina-print-v2
+relations:
+- type: part_of
+  target: concept/medical-treatment
+  sources:
+  - source/canon-ibn-sina-print-v2
+provenance:
+  layer: own-research
+  source: Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 5 (the nose, two maqalas), scan pages 247-248, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json, copied to /tmp before reading); editor footnotes used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping, cautery and operative sites and application methods left out; the scraping, sawing, cutting and cautery hand-works carried only as the book's descriptions, not as procedures; unclear OCR words carried as printed, not guessed; case reports and named attributions carried as the book's attributions and labelled; reproductive and animal-derived lines kept only as labelled listings set aside for the founder's ruling
+  generated_by: Devin subagent (SWE-2 Medium, Lane A4 worker)
+  model: swe-2-medium
+  run: a4-canon-book3-12
+status:
+  review: published
+  completeness: 1
+  generated_by: Devin subagent (SWE-2 Medium, book mining, lane A4)

@@ -17,7 +17,7 @@ relations:
   - { type: born_in, target: place/taftazan, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q7675058)" }
   - { type: died_in, target: place/samarqand, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q5753)" }
   - { type: buried_in, target: place/sarakhs, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q2588491)" }
-sources: [source/shadharat-dhahab, source/durar-kamina-jil-1993, source/wikidata]
+sources: [source/shadharat-dhahab, source/durar-kamina-jil-1993, source/wikidata, source/oxford-dictionary-of-islam]
 external_ids:
   wikidata: Q764947
   viaf: "641145857886423020766"
@@ -27,6 +27,7 @@ provenance:
   generated_by: "Devin (SWE-2 High)"
   model: "SWE-2 High"
   run: wikidata-import-0017, lib-durar-kamina-batch-3-2026-10-31
+  oxford_captures: "t125/e2299: http://www.oxfordislamicstudies.com:80/article/opr/t125/e2299 ; https://web.archive.org/web/20171006101509/http://www.oxfordislamicstudies.com:80/article/opr/t125/e2299"
 status:
   review: published
   completeness: 1

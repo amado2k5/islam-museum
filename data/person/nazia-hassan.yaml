@@ -35,6 +35,12 @@ faith:
     basis: unknown
     note: "No source read names a school for her. Wikidata gives only Islam; the English biography records her burial with Islamic rites in the Muslim section of Hendon Cemetery, and its category filings describe her as a Pakistani Muslim — a funeral circumstance and filings, which name no school and were not counted. The absence configuration applies, so the settlement is unflagged."
     sources: [source/wikidata-nazia-hassan, source/wikipedia-nazia-hassan-en]
+occupations:
+  - job: job/singer
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'singer', Job Browser linking wave 18"
+    sources: [source/wikipedia-nazia-hassan-en, source/wikipedia-nazia-hassan-ar, source/wikipedia-nazia-hassan-ur, source/wikidata-nazia-hassan]
 relations:
   - { type: sibling_of, target: person/zoheb-hassan, sources: [source/wikipedia-nazia-hassan-en, source/wikipedia-nazia-hassan-ar, source/wikipedia-nazia-hassan-ur] }
   - { type: born_in, target: place/karachi, sources: [source/wikidata-nazia-hassan], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q8660)" }

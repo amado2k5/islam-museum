@@ -99,3 +99,6 @@ Abu Abd Allah Uthman ibn Affan (c. 47 BH – 35 AH / 576–656 CE), titled Dhu a
 
 ## From Omar Abdelkafy's series "Qissa wa Ibra"
 In episode twelve, in the context of readiness for the Hour, he says we are not like al-Hajjaj who told a fasting man "fast tomorrow" and was answered "will the prince guarantee me I live until tomorrow?", but like Uthman, Umar and the righteous who stood firm on the truth until the angel of death comes to them. {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep12 00:08:30} {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep12 00:09:00} {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep12 00:09:30} {cite:assabile-omar-abdelkafy silsilat-qissa-wa-ebra/ep12 00:10:00}
+
+## In The Oxford Dictionary of Islam
+The entry on Uthman ibn Affan presents the third caliph (d. 656), Companion from the mighty Umayyad clan, an early convert despite family opposition, husband in turn of two of Muhammad's daughters — Rukayyah, then Umm Kulthum. The committee Umar named on his deathbed chose him; he unified the Quranic text, destroying divergent codices; gave kinsmen many high offices; and when unrest broke into mutiny troops killed him in 656, after which naming Ali successor set off Islam's first great civil war. {cite:oxford-dictionary-of-islam e2449}

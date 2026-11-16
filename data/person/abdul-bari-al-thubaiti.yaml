@@ -15,6 +15,17 @@ wings: [people, living]
 regions: [arabia]
 roles: [reciter, scholar]
 born: { edtf: "1960", hijri: "1380", calendar: gregorian, precision: year, status: historical, derived: false, note: "All three articles pair 1380 AH with 1960 and place the birth at Mecca; no source gives a month or day.", sources: [source/wikipedia-abdul-bari-al-thubaiti-en, source/wikipedia-abdul-bari-al-thubaiti-ar, source/wikidata-abdul-bari-al-thubaiti] }
+occupations:
+  - job: job/qari
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'reciter', Job Browser linking wave 26"
+    sources: [source/wikipedia-abdul-bari-al-thubaiti-en, source/wikipedia-abdul-bari-al-thubaiti-ar, source/wikipedia-abdul-bari-al-thubaiti-ur, source/wikidata-abdul-bari-al-thubaiti, source/wikidata]
+  - job: job/alim
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 26"
+    sources: [source/wikipedia-abdul-bari-al-thubaiti-en, source/wikipedia-abdul-bari-al-thubaiti-ar, source/wikipedia-abdul-bari-al-thubaiti-ur, source/wikidata-abdul-bari-al-thubaiti, source/wikidata]
 relations:
   - { type: born_in, target: place/mecca, note: "Born at Mecca in 1960.", sources: [source/wikipedia-abdul-bari-al-thubaiti-en, source/wikipedia-abdul-bari-al-thubaiti-ar] }
 faith:

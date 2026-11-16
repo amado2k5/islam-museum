@@ -12,6 +12,12 @@ wings: [people]
 periods: [period/mongol-post-mongol]
 regions: [arabia]
 died: { edtf: "1455~", hijri: "0859", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي 859 ولم يكمل الستين {cite:shadharat-dhahab vol. 9 p. 430}", sources: [source/shadharat-dhahab] }
+occupations:
+  - job: job/emir
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'emir', Job Browser linking wave 34"
+    sources: [source/shadharat-dhahab]
 relations:
   - { type: lived_in, target: place/mecca, confidence: low, note: "Associated with Mecca per the record's own summary text; relation type pending review.", sources: [source/shadharat-dhahab] }
   - { type: ruler_of, target: place/mecca, confidence: high, note: "Ibn al-Imad, Shadharat al-Dhahab, vol. 9 p. 430, calls him amir of Mecca.", sources: [source/shadharat-dhahab] }

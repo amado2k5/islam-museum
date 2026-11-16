@@ -1,0 +1,33 @@
+id: concept/shuquq-al-shaftayn
+class: concept
+kind: scientific
+label:
+  ar: "شقوق الشفتين"
+  en: "The fissures of the lips"
+  ur: "ہونٹوں کی شقیں"
+summary:
+  ar: "شقوق الشفتين أدويتها التي تجمع إلى القبض والتجفيف تلييناً، ومن النافعة فيها ما أمسكه في الفم وقلبه باللسان، ومن التدبير النافع فيها تدهين السرة والمقعدة وأن يطلى عليها بما وصف من المياه والألعاب، ومن الدسومات ما وصف من الزبد والمخ والشحوم ⁦(شحم الدجاج محمول كما سماه الكتاب ومعروض على المؤسس)⁩، ومن الأدوية المجربة ما وصف ويتخذ منها كالمرهم، ويجعل الغذاء ما وصف ⁦(الأسماء من هذا الجنس محمولة كما سماها الكتاب ومطروحة)⁩ {cite:canon-ibn-sina-print-v2 p.283}"
+  en: "The lips' fissures: their drugs are those joining softening to astringency and drying; of the beneficial is what is held in the mouth and turned over with the tongue; of the beneficial regimen, anointing the navel and the anus and painting them with what he described of the waters and mucilages; of the greases, what he described of butter, marrow and fats (the chicken fat carried as the book names it, set before the founder); and of the tried drugs what he described, made like a salve; and the food is made what he described (the names of this kind carried as the book names them and left out) {cite:canon-ibn-sina-print-v2 p.283}"
+  ur: "ہونٹوں کی شقوں کے ادویہ وہ ہیں جو قبض اور تجفیف کے ساتھ نرمی جمع کریں؛ سودا کرنے والوں میں وہ ہے جسے منہ میں روک کر زبان سے پھیرا جائے؛ سودا مند تدبیر میں ناف اور مقعد کا تیل ملنا اور بیان کردہ پانیوں اور لعابوں سے لیپنا ہے؛ چکنی چیزوں میں بیان کردہ مکھن مغز اور چربیاں ہیں ⁦(مرغی کی چربی کتاب کے نام پر محمول اور مؤسس کے سامنے معروض)⁩؛ اور مجرب ادویہ میں اس کی بیان کردہ چیزیں ہیں جن سے مرہم جیسی چیز بنائی جاتی ہے؛ اور غذا وہی رکھی جاتی ہے جو اس نے بیان کی ⁦(اسی جنس کے نام کتاب کے نام پر محمول اور مطروح)⁩ {cite:canon-ibn-sina-print-v2 p.283}"
+wings:
+- living
+tags:
+- tibb-browser
+- tibb-tibb
+sources:
+- source/canon-ibn-sina-print-v2
+relations:
+- type: part_of
+  target: concept/disease
+  sources:
+  - source/canon-ibn-sina-print-v2
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, the last fasls of Fann 8 (the gums and the lips, one maqala) and the whole of Fann 9 (the throat, one maqala), scan pages 283, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json, copied to /tmp before reading); editor footnotes used only as the editor's glosses and labelled; the edition's English parenthetical glosses ignored as apparatus; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes and application forms left out; venesection, cupping, cautery and operative sites carried only as named by the book; the tools' and hands' works (extraction, excision, trachea-slitting, pressing, scarification and the snare) carried only as the book's descriptions, not as procedures; unclear OCR words carried as printed, not guessed; transmitted sayings, tried-remedy reports and named attributions carried as the book's attributions and labelled; animal-derived and unclean lines kept only as labelled listings set aside for the founder's ruling"
+  generated_by: Devin subagent (SWE-2 Medium, Lane A4 worker)
+  model: swe-2-medium
+  run: a4-canon-book3-15
+status:
+  review: published
+  completeness: 1
+  generated_by: Devin subagent (SWE-2 Medium, book mining, lane A4)

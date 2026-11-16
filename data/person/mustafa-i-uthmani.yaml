@@ -22,6 +22,17 @@ regions:
 - anatolia-balkans
 periods:
 - period/gunpowder-empires
+occupations:
+  - job: job/caliph
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'caliph', Job Browser linking wave"
+    sources: [source/dawlat-uthmaniyya-salabi, source/nomisma, source/wikidata]
+  - job: job/sultan
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'sultan', Job Browser linking wave"
+    sources: [source/dawlat-uthmaniyya-salabi, source/nomisma, source/wikidata]
 relations:
 - { type: ruled_over, target: polity/ottoman-empire, sources: [source/sicill-i-osmani] }
 - { type: successor_of, target: person/ahmad-i-uthmani, sources: [source/sicill-i-osmani] }

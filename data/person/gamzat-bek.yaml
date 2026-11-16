@@ -35,6 +35,17 @@ died:
 wings: [people]
 regions: [anatolia-balkans]
 roles: [emir, scholar]
+occupations:
+  - job: job/emir
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'emir', Job Browser linking wave"
+    sources: [source/wikipedia-gamzat-bek-en, source/wikipedia-gamzat-bek-ru, source/wikipedia-gamzat-bek-ar, source/wikipedia-gamzat-bek-ur, source/wikidata-gamzat-bek, source/wikidata]
+  - job: job/alim
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave"
+    sources: [source/wikipedia-gamzat-bek-en, source/wikipedia-gamzat-bek-ru, source/wikipedia-gamzat-bek-ar, source/wikipedia-gamzat-bek-ur, source/wikidata-gamzat-bek, source/wikidata]
 relations:
   - { type: born_in, target: place/avar-khanate, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-gamzat-bek] }
   - { type: died_in, target: place/khunzakh, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-gamzat-bek] }

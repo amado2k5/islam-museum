@@ -36,6 +36,17 @@ died:
   note: "The English article gives his death as circa 1694 and the Arabic and Urdu articles give the year 1694 plainly; the year is built at year precision with the circa qualification preserved. The English and Arabic articles place his death at Delhi. Wikidata carries the year only."
   sources: [source/wikipedia-shaista-khan-en, source/wikipedia-shaista-khan-ar, source/wikipedia-shaista-khan-ur, source/wikidata-shaista-khan]
 
+occupations:
+  - job: job/commander
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'general', Job Browser linking wave"
+    sources: [source/wikipedia-shaista-khan-en, source/wikipedia-shaista-khan-ar, source/wikipedia-shaista-khan-ur, source/wikidata-shaista-khan, source/banglapedia-shaista-khan, source/banglapedia-islam-bengal]
+  - job: job/wali
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'governor', Job Browser linking wave"
+    sources: [source/wikipedia-shaista-khan-en, source/wikipedia-shaista-khan-ar, source/wikipedia-shaista-khan-ur, source/wikidata-shaista-khan, source/banglapedia-shaista-khan, source/banglapedia-islam-bengal]
 relations:
   - { type: child_of, target: person/asaf-khan-iv, sources: [source/wikipedia-shaista-khan-en, source/wikipedia-shaista-khan-ar, source/banglapedia-shaista-khan, source/wikidata-shaista-khan] }
   - { type: born_in, target: place/delhi, sources: [source/wikipedia-shaista-khan-en, source/wikipedia-shaista-khan-ar] }

@@ -22,6 +22,12 @@ born:
   sources: [source/wikipedia-iqra-khalid-en, source/wikipedia-iqra-khalid-ur, source/wikidata-iqra-khalid]
 gender: female
 roles: [lawyer, politician]
+occupations:
+  - job: job/lawyer
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'lawyer', Job Browser linking wave"
+    sources: [source/wikipedia-iqra-khalid-en, source/wikipedia-iqra-khalid-ar, source/wikipedia-iqra-khalid-ur, source/wikidata-iqra-khalid]
 relations:
   - { type: born_in, target: place/bahawalpur, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-iqra-khalid] }
   - { type: lived_in, target: place/mississauga, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-iqra-khalid] }

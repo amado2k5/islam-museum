@@ -1,0 +1,33 @@
+id: "concept/hifz-sihhat-al-ayn"
+class: "concept"
+kind: "scientific"
+label:
+  ar: "حفظ صحة العين وما يضرها"
+  en: "Preserving the eye's health and what harms it"
+  ur: "آنکھ کی صحت کی حفاظت اور اس کے مضرات"
+summary:
+  ar: "حفظ صحة العين بوقايتها الغبار والدخان والأهوية الخارجة عن الاعتدال والرياح المفججة والباردة والسمومية وعدم إدامة التحديق وقلة كثرة البكاء وقلة النظر في الدقيق واعتدال النوم والسهر، وتضرها الأفعال المجففة وطول النظر إلى المضيئات والنوم على الامتلاء وما يعكر الدم والسكر والاستحمام والفصد والحجامة المتوالية والأغذية المالحة الحريفة المبخرة وسوء التصرف فيها {cite:canon-ibn-sina-print-v2 p.166} {cite:canon-ibn-sina-print-v2 p.167}"
+  en: "The eye's health is kept by shielding it from dust, smoke, air beyond the mean, blowing cold and pestilential winds, not prolonging the fixed stare, checking much weeping, sparing fine work, and moderation in sleep and waking; it is harmed by drying acts, long gazing at bright things, sleeping on repletion, what clouds the blood, drunkenness, the bath, venesection, repeated cupping, salty acrid vaporous foods and mishandled food {cite:canon-ibn-sina-print-v2 p.166} {cite:canon-ibn-sina-print-v2 p.167}"
+  ur: "آنکھ کی صحت اس سے بچتی ہے کہ اسے غبار، دھوئیں، غیر معتدل ہوا، تیز ٹھنڈی اور وبائی ہواؤں سے بچایا جائے، ایک جگہ ٹکٹکی نہ باندھی جائے، زیادہ رونے سے بچا جائے، باریک کام کم کیا جائے اور نیند اور جاگنے میں اعتدال ہو؛ اسے نقصان پہنچاتے ہیں خشک کرنے والے افعال، چمکتی چیزوں کی طرف دیر تک دیکھنا، بھر پیٹ سونا، خون کو گدلا کرنے والی چیزیں، نشہ، حمام، فصد، مسلسل حجامت، نمکین تیز بھاپ اٹھانے والی غذائیں اور ان کا خراب استعمال {cite:canon-ibn-sina-print-v2 p.166} {cite:canon-ibn-sina-print-v2 p.167}"
+wings:
+- "living"
+tags:
+- "tibb-browser"
+- "tibb-tibb"
+sources:
+- "source/canon-ibn-sina-print-v2"
+relations:
+- type: "part_of"
+  target: "concept/regimen-of-health"
+  sources:
+  - "source/canon-ibn-sina-print-v2"
+provenance:
+  layer: "own-research"
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 2 (nerve diseases) end of maqala 1 and Fann 3 (the eye's anatomy, states and diseases) maqalat 1-2, scan pages 166-167, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json); editor glosses used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping, cautery and artery sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, semen, coitus and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Devin subagent (SWE-2 Medium, Lane A4 worker)"
+  model: "swe-2-medium"
+  run: "a4-canon-book3-8"
+status:
+  review: "published"
+  completeness: 1
+  generated_by: "Devin subagent (SWE-2 Medium, book mining, lane A4)"

@@ -36,5 +36,16 @@ provenance:
 status:
   review: published
   completeness: 3
+occupations:
+  - job: job/preacher
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'preacher', Job Browser linking wave 19"
+    sources: [source/wikipedia-ning-umi-laila-id]
+  - job: job/singer
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'singer', Job Browser linking wave 19"
+    sources: [source/wikipedia-ning-umi-laila-id]
 relations:
   - { type: lived_in, target: place/java, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/wikipedia-ning-umi-laila-id] }

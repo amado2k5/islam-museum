@@ -1,0 +1,33 @@
+id: concept/ilaj-natn-al-anf
+class: concept
+kind: scientific
+label:
+  ar: علاج النتن في الأنف
+  en: The treatment of the stench in the nose
+  ur: ناک کی بدبو کا علاج
+summary:
+  ar: يتقدم بتنقية ما اجتمع من الخلط الرديء إن كان في غير الخيشوم ثم يستعمل الفتائل والسعوطات والنفوخات والنشوقات واللطوخات، والأصوب أن يغسل الأنف قبلها بالشراب، ومن المجرب فيه أقراص تحل في الشراب فتقطر وطبيخ يستعمل أياماً، ومنه أن يحس الطيب والنتن ⁦(أسماء الأدوية والفتائل والأقراص والأبوال المذكورة في الكتاب تحمل جنسها وقولها منقول، والكيتان على اليافوخ ووسط الرأس تحمل وصف الكتاب لا استعمال)⁩ {cite:canon-ibn-sina-print-v2 p.245} {cite:canon-ibn-sina-print-v2 p.246}
+  en: 'First evacuate whatever bad humour has gathered, if it is outside the nasal fossa, then use the tents, snuffs, insufflations, inhalations and liniments — the nose best washed with wine beforehand. Among the book''s tried items: tablets dissolved in wine and dripped in, and a decoction used for days by inhalation ⁦(the drug, tent and tablet names are carried by kind, as is the book''s naming of donkey urines as the most useful snuff — a report carried as attributed; the two cauteries at the temple hollows or mid-head are carried as the book''s description, not as instruction)⁩ {cite:canon-ibn-sina-print-v2 p.245} {cite:canon-ibn-sina-print-v2 p.246}'
+  ur: پہلے اس بری خلط کی تنقية کی جائے جو جمع ہوئی ہے اگر وہ خیشوم کے باہر ہو، پھر فتائل، سعوط، نفوخ، نشوق اور لیپ استعمال ہوں — اور پہلے ناک کو شراب سے دھونا بہتر ہے؛ کتاب کے مجربات میں شراب میں گھول کر ٹپکائی جانے والی گولیاں اور ایک ایسا طبیخ ہے جو کئی دن نشوق کے طور پر استعمال ہو ⁦(ادویہ، فتائل اور گولیوں کے نام جنس کے اعتبار سے، اور گدھوں کے پیشاب کو کتاب کا سب سے مفید سعوط کہنا منقول قول ہے؛ یافوخ کی دونوں طرف کی دو داغیں یا سر کے وسط کی داغ کتاب کے بیان کے طور پر ہیں، طریقہ کار نہیں)⁩ {cite:canon-ibn-sina-print-v2 p.245} {cite:canon-ibn-sina-print-v2 p.246}
+wings:
+- living
+tags:
+- tibb-browser
+- tibb-tibb
+sources:
+- source/canon-ibn-sina-print-v2
+relations:
+- type: part_of
+  target: concept/medical-treatment
+  sources:
+  - source/canon-ibn-sina-print-v2
+provenance:
+  layer: own-research
+  source: Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 5 (the nose, two maqalas), scan pages 245-246, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json, copied to /tmp before reading); editor footnotes used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping, cautery and operative sites and application methods left out; the scraping, sawing, cutting and cautery hand-works carried only as the book's descriptions, not as procedures; unclear OCR words carried as printed, not guessed; case reports and named attributions carried as the book's attributions and labelled; reproductive and animal-derived lines kept only as labelled listings set aside for the founder's ruling
+  generated_by: Devin subagent (SWE-2 Medium, Lane A4 worker)
+  model: swe-2-medium
+  run: a4-canon-book3-12
+status:
+  review: published
+  completeness: 1
+  generated_by: Devin subagent (SWE-2 Medium, book mining, lane A4)

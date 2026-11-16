@@ -13,6 +13,12 @@ regions: [persia-central-asia]
 periods: [period/crusades-ayyubid-mamluk]
 born: { edtf: "1427", hijri: "0830", calendar: gregorian, precision: year, derived: true, note: "al-Zirikli prints 830 AH = 1427 CE {cite:alam-zirikli-dar-al-ilm-2002 vol. 6 pp. 32-33}.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 died: { edtf: "1512", hijri: "0918", precision: year, status: tradition, derived: true, note: "al-Zirikli prints 918 AH = 1512 CE {cite:alam-zirikli-dar-al-ilm-2002 vol. 6 pp. 32-33}.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+occupations:
+  - job: job/philosopher
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'philosopher', Job Browser linking wave 42"
+    sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 relations:
   - { type: born_in, target: place/kazarun, confidence: medium, note: "Place link from Wikidata. al-Zirikli, vol. 6 pp. 32-33: born at Dawan, of the land of Kazarun (the Dawan of Fars is not the Hadramawt town place/dawan).", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
   - { type: lived_in, target: place/shiraz, confidence: high, note: "al-Zirikli, vol. 6 pp. 32-33: he settled in Shiraz.", sources: [source/alam-zirikli-dar-al-ilm-2002] }

@@ -29,6 +29,17 @@ died:
   derived: true
   note: "Died in Cairo on 3 February 1975, of kidney failure (English article). The English article places her burial in a mausoleum in the City of the Dead near the tomb of Imam al-Shafi'i; Wikidata names the Al Basatin cemetery as her burial place. Both Cairo locations fall under the museum's place/cairo entity for the buried_in relation. The Hijri year (1395) is derived by tabular conversion."
   sources: [source/wikipedia-umm-kulthum-en, source/wikidata-umm-kulthum]
+occupations:
+  - job: job/singer
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'singer', Job Browser linking wave"
+    sources: [source/wikipedia-umm-kulthum-en, source/wikipedia-umm-kulthum-ar, source/wikipedia-umm-kulthum-ur, source/wikidata-umm-kulthum]
+  - job: job/actor
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'actress', Job Browser linking wave"
+    sources: [source/wikipedia-umm-kulthum-en, source/wikipedia-umm-kulthum-ar, source/wikipedia-umm-kulthum-ur, source/wikidata-umm-kulthum]
 relations:
   - { type: lived_in, target: place/cairo, sources: [source/wikipedia-umm-kulthum-en, source/wikipedia-umm-kulthum-ar] }
   - { type: died_in, target: place/cairo, sources: [source/wikipedia-umm-kulthum-en, source/wikidata-umm-kulthum] }

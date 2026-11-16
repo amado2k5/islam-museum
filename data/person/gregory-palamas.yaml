@@ -13,6 +13,12 @@ roles: [theologian]
 wings: [people]
 periods: [period/mongol-post-mongol]
 regions: [anatolia-balkans]
+occupations:
+  - job: job/mutakallim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'theologian', Job Browser linking wave 41"
+    sources: [source/encyclopaedia-of-islam-2]
 relations:
   - { type: related_to, target: person/urkhan-ibn-uthman, note: "Held captive in Orkhan territory in 1354; Orkhan organised the debate at Nicaea, per EI2.", sources: [source/encyclopaedia-of-islam-2] }
   - { type: traveled_to, target: place/iznik, note: "Took part in the public debate at Nicaea (Iznik) while a prisoner.", sources: [source/encyclopaedia-of-islam-2] }

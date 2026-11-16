@@ -1,0 +1,33 @@
+id: concept/al-sawt-al-khashin-wa-ilajuh
+class: concept
+kind: scientific
+label:
+  ar: "الصوت الخشن وعلاجه"
+  en: "The harsh voice and its treatment"
+  ur: "خشن آواز اور اس کا علاج"
+summary:
+  ar: "تعرض خشونة الصوت من توتر عضل ومن البرد ومن حالة كالتشنج تعرض فيها ومن جفاف رطوبتها بكثرة الترنم ومن قطع اللهاة ومن السهر ومن سبب آخر يذكره الكتاب ⁦(سطر موسوم)⁩، وعلاجه الحمية عن الأسباب التي ذكرها وترك الترنم وتناول الملينات المذكورة في باب البحوحة، ومن عرض له ذلك من قطع اللهاة فالصواب له أن يتغرغر بمغلي من هذا الجنس ممزوج بماء حار ويسقى منه وعتيقه أنفع من طريه على لفظ الكتاب ⁦(أسماء الأدوية والأغذية ومقاديرها وصورها مستثناة بحسب القاعدة)⁩ {cite:canon-ibn-sina-print-v2 p.326}"
+  en: "The voice's harshness arises from a muscle's tension, from cold, from a convulsion-like state befalling in it, from the drying of its moisture by much chanting, from the uvula's cutting, from sleeplessness, and from another cause the book names (a labelled line). Its treatment is the diet away from the causes he mentioned, leaving chanting, and taking the softening means mentioned in the huskiness chapter; whoever is struck by it from the uvula's cutting should gargle with a decoction of this kind mixed with hot water and be given it to drink, its old better than its fresh, on the book's wording (the drug and food names, measures and forms are excluded per the rule) {cite:canon-ibn-sina-print-v2 p.326}"
+  ur: "آواز کی خشونی پٹھے کے کھچاؤ سے اور ٹھنڈ سے اور ایک ایسی حالت سے جو اس میں تشنج کی طرح ہوتی ہے اور زیادہ ترنم سے اس کی رطوبت خشک ہونے سے اور لہاٹ کے کٹنے سے اور بیداری سے اور ایک اور سبب سے جو کتاب بیان کرتی ہے ⁦(موسوم سطر)⁩ ہوتی ہے؛ اس کا علاج مذکور اسباب سے پرہیز اور ترنم چھوڑنا اور باب بھاری پن میں بتائی گئی نرم کرنے والی چیزوں کا استعمال ہے؛ اور جسے لہاٹ کے کٹنے سے یہ عرض ہو اس کے لیے درست یہ ہے کہ اسی جنس کے جوشاندے کو گرم پانی میں ملا کر غرارے کرے اور اسے پلایا جائے اور اس کا پرانا تازے سے زیادہ مفید ہے کتاب کے لفظ پر ⁦(ادویہ اور خوراکوں کے نام مقداریں اور صورتیں اصول کے مطابق مستثنیٰ ہیں)⁩ {cite:canon-ibn-sina-print-v2 p.326}"
+wings:
+- living
+tags:
+- tibb-browser
+- tibb-tibb
+sources:
+- source/canon-ibn-sina-print-v2
+relations:
+- type: part_of
+  target: concept/disease
+  sources:
+  - source/canon-ibn-sina-print-v2
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 10 (the lung and the chest, five maqalas), maqala 2, 'fasl fi al-sawt al-khashin wa-ilajuh', scan pages 326, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json, copied to /tmp before reading); the edition's English parenthetical glosses ignored as apparatus; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes and application forms left out; venesection, cupping and operative sites carried only as named by the book; the tools' and hands' works carried only as the book's descriptions, not as procedures; unclear OCR words carried as printed, not guessed; transmitted sayings, tried-remedy reports and named attributions carried as the book's attributions and labelled; animal-derived and unclean lines kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Devin subagent (SWE-2 Medium, Lane A4 worker)"
+  model: swe-2-medium
+  run: a4-canon-book3-17
+status:
+  review: published
+  completeness: 1
+  generated_by: "Devin subagent (SWE-2 Medium, book mining, lane A4)"

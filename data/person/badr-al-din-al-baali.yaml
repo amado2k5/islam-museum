@@ -12,6 +12,17 @@ wings: [people]
 regions: [levant-iraq]
 periods: [period/mongol-post-mongol]
 died: { edtf: "1376", hijri: "0778", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hajar (al-Durar al-Kamina) Confirmed on 13 November 2026 against Wikidata Q123414264 (P570, a statement with a reference), item revision 2565230109. al-A'lam vol. 6 p. 286 prints 778 AH = 1376 CE, agreeing with the card.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
+occupations:
+  - job: job/mufti
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'mufti', Job Browser linking wave 46"
+    sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
+  - job: job/alim
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 46"
+    sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 relations:
   - { type: born_in, target: place/baalbek, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/baalbek, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

@@ -12,6 +12,17 @@ wings: [people]
 regions: [persia-central-asia]
 periods: [period/colonial-era]
 died: { edtf: "1852", precision: year, status: tradition, derived: true }
+occupations:
+  - job: job/poet
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'poet', Job Browser linking wave 43"
+    sources: [source/duha-islam, source/wikidata]
+  - job: job/mutakallim
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'theologian', Job Browser linking wave 43"
+    sources: [source/duha-islam, source/wikidata]
 relations:
   - { type: born_in, target: place/qazvin, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q181578)" }
   - { type: died_in, target: place/tehran, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q3616)" }

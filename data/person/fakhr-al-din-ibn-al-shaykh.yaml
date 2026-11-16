@@ -17,6 +17,17 @@ regions: [egypt-nile, levant-iraq]
 faith:
   - value: sunni
     basis: tradition
+occupations:
+  - job: job/commander
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'general', Job Browser linking wave"
+    sources: [source/shadharat-dhahab]
+  - job: job/emir
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'emir', Job Browser linking wave"
+    sources: [source/shadharat-dhahab]
 relations:
   - { type: participated_in, target: event/battle-mansura-647, sources: [source/shadharat-dhahab] }
   - { type: participated_in, target: event/ascalon-tiberias-644, sources: [source/shadharat-dhahab] }

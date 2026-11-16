@@ -54,6 +54,12 @@ inventions:
 - { invention: invention/barid, role: commissioner, sources: [source/subh-al-asha-cairo-v14, source/tarikh-khulafa-minhaj-1434, source/tdv-berid] }
 born: { edtf: "602~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar Confirmed on 13 November 2026 against Wikidata Q181154 (P569, a statement with a reference), item revision 2544424397.", sources: [source/wikidata] }
 died: { edtf: "0680", hijri: "0060", calendar: julian, precision: year, status: tradition, derived: true, note: "Died in Rajab 60 AH (al-Isaba p. 1431); CE year converted from the Hijri", sources: [source/ibn-hajar-isaba] }
+occupations:
+  - job: job/caliph
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'caliph', Job Browser linking wave"
+    sources: [source/tdv-divan-duri, source/tdv-muaviye-aycan, source/subh-al-asha-cairo-v14, source/tarikh-khulafa-minhaj-1434, source/tdv-berid, source/tarikh-khalifa-umari-1985, source/umayyad-birth-to-fall-2006, source/ibn-hajar-isaba, source/tabari-tarikh-abu-al-fadl, source/bakr-umayyad-state-1134715, source/umayyad-birth-to-fall-2006, source/fadail-sahaba-ahmad-wasi-allah-1999, source/encyclopaedia-of-islam-2, source/openiti-corpus, source/wikidata]
 relations:
 - { type: ruled_over, target: polity/umayyad-caliphate, sources: [source/tarikh-khulafa-minhaj-1434] }
 - { type: born_in, target: place/mecca, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q5806)" }

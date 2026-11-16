@@ -1,0 +1,33 @@
+id: "concept/al-saddiyya"
+class: "concept"
+kind: "scientific"
+label:
+  ar: "السدية"
+  en: "Saddiyya (little pustular flesh in the eyeball)"
+  ur: "سدیہ"
+summary:
+  ar: "السدية لحيمة بثرية تزيد في المقلة، فإن كان عند الموق فالأصوب أن ينكأ ثم يعالج بعلاج الغرب أو يكحل بأدوية الظفرة وما يجري مجراها، وإن كان مع البياض والسواد فعلاجه علاج الظفرة ⁦(أسماء الأكحال لا تحمل)⁩ {cite:canon-ibn-sina-print-v2 p.195}"
+  en: "The saddiyya is a little pustular flesh that grows in the eyeball; if at the canthus it is best pricked then treated with the gharb's treatment or collyriated with the pterygium drugs and their like; if accompanied by white and black, its treatment is the pterygium's ⁦(kohl names are not carried)⁩ {cite:canon-ibn-sina-print-v2 p.195}"
+  ur: "سدیہ ایک چھوٹا بثری گوشت ہے جو مقلہ میں بڑھتا ہے؛ اگر مآق پر ہو تو اولیٰ یہ ہے کہ اسے چبھویا جائے پھر غرب کے علاج سے علاج کیا جائے یا ظفرہ کی ادویہ اور اس جیسی چیزوں سے سرمہ لگایا جائے؛ اور اگر سفید اور سیاہ کے ساتھ ہو تو اس کا علاج ظفرہ کا علاج ہے ⁦(سرموں کے نام منقول نہیں)⁩ {cite:canon-ibn-sina-print-v2 p.195}"
+wings:
+- "living"
+tags:
+- "tibb-browser"
+- "tibb-tibb"
+sources:
+- "source/canon-ibn-sina-print-v2"
+relations:
+- type: "part_of"
+  target: "concept/disease"
+  sources:
+  - "source/canon-ibn-sina-print-v2"
+provenance:
+  layer: "own-research"
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 3 (the eye's anatomy, states and diseases), maqala 2 end and maqala 3 (the states of the lid and what adjoins it), scan pages 195, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json, copied to /tmp before reading); editor glosses used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping, cautery and excision sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, lochia, semen, coitus and nursing listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Devin subagent (SWE-2 Medium, Lane A4 worker)"
+  model: "swe-2-medium"
+  run: "a4-canon-book3-9"
+status:
+  review: "published"
+  completeness: 1
+  generated_by: "Devin subagent (SWE-2 Medium, book mining, lane A4)"

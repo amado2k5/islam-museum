@@ -31,6 +31,12 @@ story_roles:
   - { role: martyr, start: { edtf: "0627~" }, status: tradition, note: "قضى من سهم أصابه في وقعة بني قريظة.", sources: [source/ibn-hisham-sira] }
 faith:
   - { value: sunni, basis: tradition, note: "مسلم أوسي من أهل بيعة العقبة؛ يسجَّل في الإطار السني للمتحف (docs/scope.md)." }
+occupations:
+  - job: job/commander
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'commander', Job Browser linking wave 48"
+    sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/tabaqat-ibn-sad, source/samhudi-wafa-al-wafa, source/sahih-al-bukhari, source/sahih-muslim, source/ibn-hajar-isaba, source/fadail-sahaba-ahmad-wasi-allah-1999, source/great-women-of-islam-ghadanfar-darussalam]
 relations:
   - { type: child_of, target: person/kabsha-bint-rafi, sources: [source/great-women-of-islam-ghadanfar-darussalam] }
   - { type: member_of, target: group/ansar }

@@ -34,6 +34,12 @@ faith:
     basis: unknown
     note: "No source read names a religion, let alone a school, for Akram Zuaiter himself: Wikidata carries no religion value for him at all, and neither biography attests one. His Istiqlal founding membership, his newspaper work and his Jordanian diplomatic posts are affiliations and offices, and never count."
     sources: [source/wikipedia-akram-zuaiter-en, source/wikipedia-akram-zuaiter-ar, source/wikidata-akram-zuaiter]
+occupations:
+  - job: job/diplomat
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'diplomat', Job Browser linking wave"
+    sources: [source/wikipedia-akram-zuaiter-en, source/wikipedia-akram-zuaiter-ar, source/wikidata-akram-zuaiter]
 relations:
   - { type: born_in, target: place/nablus, sources: [source/wikipedia-akram-zuaiter-en, source/wikipedia-akram-zuaiter-ar, source/wikidata-akram-zuaiter] }
   - { type: died_in, target: place/amman, sources: [source/wikipedia-akram-zuaiter-ar, source/wikidata-akram-zuaiter] }

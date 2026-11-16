@@ -1,0 +1,41 @@
+id: job/zemzemi
+class: job
+label: { ar: "الزمزمي", en: "Zemzem server (zemzemî)", ur: "زمزمی ⁦(آبِ زمزم بانٹنے والا)⁩" }
+names:
+  - { value: "زمزمي", kind: alternate }
+  - { value: "سقا", kind: alternate }
+  - { value: "zemzemci", kind: latinized, lang: tr }
+  - { value: "saka", kind: latinized, lang: tr }
+  - { value: "سقّاء الحجاج", kind: alternate }
+summary:
+  ar: "الزمزمي خادم بئر زمزم وساقي حجاجها: استمراراً من سقاية عبد المطلب التي جمعت رعاية البئر إلى سقاية الحجاج وإطعامهم، صار الموظف المختص بشؤونها قرب البئر منذ فتح مكة، ولمّا عجز موظف واحد عن حاجة الحجاج أُقيم السقاء في أنحاء المسجد الحرام — في العهد العثماني سقاء لكل ولاية لحجيجها ورئيسهم غالباً من آل الزبير — وكان أربعون مستقياً من العرب بأيدٍ وأقدام مخضوبة بالحناء يتناوبون أربعة أربعة على البكرات والدلاء الحديدية كما رآهم أوليا جلبي، ويخزَّن الماء في الأحواض والخزانات ثم توزَّع منها الحجاج في مكة ومنى وعرفات، وسُمّيت رسائل هداياهم «الزوراق». وفي عصرنا زال مبنى البئر من الرواق وصارت السبّلات المبرّدة توزعها، وكثر عدد الزمزميين ليبلغوا الماء للحجاج حيثما كانوا."
+  en: "The zemzemî served the well of Zemzem and watered its pilgrims: continuing Abd al-Muttalib's sikâye that joined the well's care to watering and feeding the pilgrims, a dedicated officer worked beside the well from soon after the conquest of Mecca, and when one officer could no longer suffice, sakas were posted around the mosque — in Ottoman times a saka for every province's pilgrims, their headman usually from the Al-i Zubayr — while forty henna-stained Arab water-drawers worked the iron pulleys and forked buckets in shifts of four, as Evliya saw. The water went into open basins, later closed reservoirs and pumps, then cooled sebils, and the zemzemîs' numbers grew so the water reached the pilgrims at Mecca, Mina and Arafat; the letters listing gifts sent to these water-distributing officials were called zevrak."
+  ur: "زمزمی چاہِ زمزم کا خادم اور حاجیوں کا پانی پلانے والا ہے: عبدالمطلب کی سقایت سے جس نے چاہ کی دیکھ بھال کو حاجیوں کے پانی اور کھانے سے جوڑا، فتح مکہ کے فوراً بعد سے چاہ کے قریب مخصوص افسر کام کرتا، اور جب ایک افسر ناکافی ہوا تو مسجد کے گرد سقے رکھے گئے — عثمانی دور میں ہر صوبے کے حاجیوں کے لیے ایک سقہ، ان کا سردار عموماً آل زبیر سے — اور چالیس حنا رنگے عرب پانی کشید کرنے والے لوہے کی چرخیوں اور کانٹے دار بالٹیوں سے چار چار کے نوبت میں کام کرتے، جیسا کہ اولیاء چلبی نے دیکھا۔ پانی کھلے حوضوں، پھر بند ٹینکیوں اور پمپ، پھر ٹھنڈے سبیلوں سے پہنچتا، اور زمزمیوں کی تعداد بڑھائی گئی تاکہ مکہ، منا اور عرفات میں حاجیوں تک پانی پہنچے؛ ان پانی بانٹنے والوں کو بھیجی ہوئی تحائف کی فہرست والے خطوط «زوراق» کہلاتے۔"
+domain: faith-preaching
+kind: service
+hirfa: false
+era:
+  origins: pre-islamic
+  status_today: transformed
+places:
+  - { place: place/mecca, note: "The sikâye officer beside the well, the sakas posted for every Ottoman province's pilgrims under a headman of the Al-i Zubayr, and Evliya's forty henna-stained drawers working the pulleys in shifts of four all served the Zemzem building in the Masjid al-Haram.", sources: [source/tdv-zemzem, source/tdv-kabe] }
+regions: [arabia]
+organization:
+  organized: guild
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people, living]
+periods: [period/pre-islamic-arabia, period/prophetic-era, period/rashidun, period/umayyad, period/abbasid-early, period/abbasid-fragmentation, period/buyid-seljuk-fatimid-era, period/crusades-ayyubid-mamluk, period/mongol-post-mongol, period/gunpowder-empires, period/colonial-era, period/modern-era, period/contemporary-era]
+sources: [source/tdv-zemzem, source/tdv-kabe]
+training:
+  mode: hereditary-family
+  certification: "The sikâye began as a family charge: Abd al-Muttalib joined the well's care to his watering and feeding offices, and in Ottoman days the headship of the sakas usually went to a man of the Al-i Zubayr."
+  duration: "The corps worked in watches: Evliya's forty drawers served in shifts of four men each."
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-sea-2" }
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi 'ZEMZEM' (Küçükaşcı, 2013; vol. 44 pp. 242-246) and 'KÂBE' (Ünal, 2001; vol. 24 pp. 14-21), web editions read on 16 Nov 2026"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-sea-2-drafting"

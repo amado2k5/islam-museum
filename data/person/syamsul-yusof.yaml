@@ -1,0 +1,49 @@
+id: person/syamsul-yusof
+class: person
+label: { ar: "شمسول يوسف", en: "Syamsul Yusof", ur: "شمسول یوسف" }
+names:
+  - { value: "محمد شمسول بن محمد يوسف", kind: full }
+  - { value: "Mohd Syamsul bin Mohd Yusof", kind: full }
+  - { value: "Syamsul Yusof", kind: alternate }
+gender: male
+summary:
+  ar: "ممثل ومخرج وكاتب ومنتج ماليزي، وُلد في كوالالمبور في 21 مايو 1984، وهو أصغر من نال جائزة أفضل مخرج في مهرجان الفيلم الماليزي، واشتهر بفيلم الرعب الديني «منافق» ⁦(2016)⁩ وتتمته «منافق 2» ⁦(2018)⁩. أُدرج بموجب قرار النوع لسنة 2026 الخاص بمخرجي الدراما الأخلاقية الإسلامية. بلغ حسابه الموثّق على إنستغرام 1,826,612 متابعًا في قراءة مباشرة في 15 نوفمبر 2026."
+  en: "Malaysian actor, director, writer and producer, born in Kuala Lumpur on 21 May 1984, the youngest winner of the Malaysian Film Festival's Best Director award, known for the religious horror film Munafik (2016) and its sequel Munafik 2 (2018). He is catalogued under the lane's 2026 genre ruling covering directors of Islamic moral dramas. His verified Instagram account counted 1,826,612 followers in a direct read on 15 November 2026."
+  ur: "ملائیشیائی اداکار، ہدایت کار، مصنف اور پروڈیوسر، جو 21 مئی 1984ء کو کوالالمپور میں پیدا ہوا، ملائیشیائی فلم فیسٹیول کا بہترین ہدایت کار کا ایوارڈ پانے والا سب سے کم عمر فاتح ہے، اور مذہبی ہارر فلم «منافق» ⁦(2016ء)⁩ اور اس کے اگلے حصے «منافق 2» ⁦(2018ء)⁩ کے لیے مشہور ہے۔ اسے اسلامی اخلاقی ڈراموں کے ہدایت کاروں سے متعلق 2026ء کے صنفی فیصلے کے تحت درج کیا گیا ہے۔ 15 نومبر 2026ء کی براہِ راست خوانی میں اس کے مصدقہ انسٹاگرام اکاؤنٹ کے 1,826,612 فالوور تھے۔"
+roles: [director, actor, producer, singer]
+wings: [people, living]
+regions: [southeast-asia]
+born:
+  edtf: "1984-05-21"
+  calendar: gregorian
+  precision: day
+  status: historical
+  sources: [source/wikipedia-syamsul-yusof-en]
+occupations:
+  - job: job/actor
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'actor', Job Browser linking wave 18"
+    sources: [source/wikipedia-syamsul-yusof-en, source/instagram-syamsulyusoffilm]
+  - job: job/singer
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'singer', Job Browser linking wave 18"
+    sources: [source/wikipedia-syamsul-yusof-en, source/instagram-syamsulyusoffilm]
+relations:
+  - { type: born_in, target: place/kuala-lumpur, sources: [source/wikipedia-syamsul-yusof-en] }
+  - { type: lived_in, target: place/kuala-lumpur, sources: [source/wikipedia-syamsul-yusof-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read in this build names a school or order for him: the English Wikipedia article does not do so, and a celebrity site's description of him as a devout Muslim is a description of practice, not an attestation of any school. Under this lane's two-source rule his school therefore stays unknown."
+    sources: [source/wikipedia-syamsul-yusof-en]
+reach:
+  - { platform: instagram, metric: followers, value: 1826612, date: "2026-11-15", note: "@syamsulyusoffilm: 1,826,612 followers in this build's fresh direct read of the platform page on 15 November 2026. The wave-201 harvest could pin no November count and relied on the platform's post metadata on his post of 16 March 2026 (2,100,000 followers); the fresher direct read supersedes that stamp and is the figure of record — both dated figures are recorded. The figure is a dated platform count, not a museum-verified fact", sources: [source/instagram-syamsulyusoffilm] }
+sources: [source/wikipedia-syamsul-yusof-en, source/instagram-syamsulyusoffilm]
+provenance:
+  layer: own-research
+  source: "Built from the wave-201 (Indonesian/Malay scene, Tier 2 re-check) harvest §2.2 and build-time checks of 15 November 2026: the English Wikipedia article on Syamsul Yusof and a fresh direct read of his Instagram profile. He is in scope under the founder's genre ruling of 9 November 2026 (creators and directors of Islamic moral dramas and scripted films), on the strength of Munafik (2016) and Munafik 2 (2018). Qualification rests on Instagram @syamsulyusoffilm: the harvest's latest stamp was the platform post metadata of 16 March 2026 (2,100,000); this build attempted the fresh read first, as the brief required, and obtained 1,826,612 followers from the platform page itself on 15 November 2026 — above the men's bar, and the figure of record. No source read names a school for him, so his faith stays unknown. No Wikidata identifier was verified in this build, so none is recorded."
+  generated_by: "Muse (Muse Wonder)"
+  run: modern-figures-wave-201-B
+status: { review: published, completeness: 2 }

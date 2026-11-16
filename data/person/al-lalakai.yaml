@@ -16,6 +16,23 @@ wings: [people]
 themes: [creed, scripture-and-its-sciences]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [levant-iraq, persia-central-asia]
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave"
+    sources: [source/shadharat-dhahab, source/sharh-usul-itiqad-basira, source/wikidata]
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'jurist', Job Browser linking wave"
+    sources: [source/shadharat-dhahab, source/sharh-usul-itiqad-basira, source/wikidata]
+  - job: job/mutakallim
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'theologian', Job Browser linking wave"
+    sources: [source/shadharat-dhahab, source/sharh-usul-itiqad-basira, source/wikidata]
+
 relations:
   - { type: authored, target: work/sharh-usul-itiqad-lalakai, sources: [source/sharh-usul-itiqad-basira] }
   - { type: student_of, target: person/abu-hamid-al-isfarayini, sources: [source/sharh-usul-itiqad-basira] }

@@ -14,6 +14,17 @@ wings: [people, living]
 regions: [arabia]
 roles: [reciter, imam]
 born: { edtf: "1980-04-11", calendar: gregorian, precision: day, status: historical, derived: false, note: "Arabic article and Wikidata give the same day; the article places him in Yemen without naming the town.", sources: [source/wikipedia-fares-abbad-ar, source/wikidata-fares-abbad] }
+occupations:
+  - job: job/qari
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'reciter', Job Browser linking wave 27"
+    sources: [source/wikipedia-fares-abbad-ar, source/wikidata-fares-abbad]
+  - job: job/imam
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'imam', Job Browser linking wave 27"
+    sources: [source/wikipedia-fares-abbad-ar, source/wikidata-fares-abbad]
 relations:
   - { type: lived_in, target: place/sanaa, note: "Studied and led the tarawih at the Bilal ibn Rabah Mosque, Hail Street, Sanaa, from 1994 for seven years", sources: [source/wikipedia-fares-abbad-ar] }
 faith:

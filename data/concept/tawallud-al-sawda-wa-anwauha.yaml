@@ -1,0 +1,23 @@
+id: concept/tawallud-al-sawda-wa-anwauha
+class: concept
+kind: scientific
+label:
+  ar: "تولّد السوداء وأنواعها في المالنخوليا"
+  en: "How black bile arises and its kinds in melancholia"
+  ur: "سودا کا پیدا ہونا اور مالنخولیا میں اس کی قسمیں"
+summary:
+  ar: "يعدد ابن سينا مواضع تولّد السوداء ⁦(الكبد والطحال وعضو آخر والأغذية)⁩، وينقل رأي بعض الأطباء في الجن ويقول إن السبب القريب السوداء، ويذكر أنواع السوداء ⁦(طبيعية أو بلغم أو دم متحول)⁩ والصفراء المحترقة المفضية إلى المانيا {cite:canon-ibn-sina-print-v2 p.105}"
+  en: "Ibn Sina lists where black bile arises (the liver, the spleen, another organ, foods), reports the view of some physicians about the jinn and says the near cause is black bile, and names the kinds of black bile (natural, turned phlegm, turned blood) and the burnt bile that leads to mania {cite:canon-ibn-sina-print-v2 p.105}"
+  ur: "ابن سینا سودا کے پیدا ہونے کے مقامات گنواتا ہے ⁦(جگر، تلی، کوئی اور عضو، غذائیں)⁩، جنوں کے بارے میں بعض اطبا کی رائے نقل کرتا اور کہتا ہے کہ قریبی سبب سودا ہے، اور سودا کی قسمیں ⁦(طبعی، بدلا ہوا بلغم، بدلا ہوا خون)⁩ اور وہ جلی صفراء بتاتا ہے جو مانیا تک پہنچاتی ہے {cite:canon-ibn-sina-print-v2 p.105}۔"
+wings: [living]
+tags: [tibb-browser, tibb-tibb]
+sources: [source/canon-ibn-sina-print-v2]
+relations:
+  - { type: part_of, target: concept/disease, sources: [source/canon-ibn-sina-print-v2] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 1, maqala 4 and 5, scan page 105, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json) with the PDF page images rendered with pdftoppm and read by eye against the OCR for every cited page (lists of signs and unclear words at 200 to 220 dpi); editor footnotes used only for glosses and labelled as the editor's; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein and cupping sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book3-5
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

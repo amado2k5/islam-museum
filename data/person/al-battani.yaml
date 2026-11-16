@@ -41,6 +41,17 @@ themes: [astronomy-and-timekeeping, mathematics, translation-and-transmission]
 periods: [period/abbasid-early]
 regions: [levant-iraq]
 disciplines: [concept/astronomy]
+occupations:
+  - job: job/astronomer
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'astronomer', Job Browser linking wave 49"
+    sources: [source/nallino-albatenii-opus-astronomicum, source/muruj-al-dhahab, source/farghani-elements-astronomy, source/tdv-battani-muftuoglu, source/battani-mactutor, source/wikidata]
+  - job: job/mathematician
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'mathematician', Job Browser linking wave 49"
+    sources: [source/nallino-albatenii-opus-astronomicum, source/muruj-al-dhahab, source/farghani-elements-astronomy, source/tdv-battani-muftuoglu, source/battani-mactutor, source/wikidata]
 relations:
   - { type: authored, target: work/al-zij-al-sabi, sources: [source/nallino-albatenii-opus-astronomicum] }
   - { type: authored, target: work/kitab-marifat-matali-al-buruj-battani, sources: [source/nallino-albatenii-opus-astronomicum] }

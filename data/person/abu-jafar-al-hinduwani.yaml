@@ -25,6 +25,17 @@ status:
   completeness: 3
 born: { edtf: "913", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Qurashi, al-Jawahir al-Mudiyya; al-Dhahabi, Siyar Agrees with Wikidata Q130261649 (P569, a statement without a reference), item revision 2266404729, read on 13 November 2026.", sources: [source/wikidata] }
 died: { edtf: "973", hijri: "0362", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Qurashi, al-Jawahir al-Mudiyya; al-Dhahabi, Siyar. Ibn al-Imad lists him among those who died in 362 AH {cite:shadharat-dhahab vol. 4 p. 328}; that year runs from October 972 to October 973, and the earlier card summary said 972.", sources: [source/shadharat-dhahab] }
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 41"
+    sources: [source/al-aalam, source/shadharat-dhahab]
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'jurist', Job Browser linking wave 41"
+    sources: [source/al-aalam, source/shadharat-dhahab]
 relations:
   - { type: lived_in, target: place/iran, sources: [source/al-aalam], confidence: low, note: "Only the record-level region (persia-central-asia) is attested; broad-region edge flagged for review." }
   - { type: died_in, target: place/bukhara, sources: [source/shadharat-dhahab], confidence: high, note: "Ibn al-Imad, Shadharat al-Dhahab, vol. 4 p. 329: he died in Bukhara and was the shaykh of those lands in his time" }

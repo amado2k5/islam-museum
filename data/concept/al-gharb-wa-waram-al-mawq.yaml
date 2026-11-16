@@ -1,0 +1,33 @@
+id: "concept/al-gharb-wa-waram-al-mawq"
+class: "concept"
+kind: "scientific"
+label:
+  ar: "الغرب وورم الموق"
+  en: "The gharb (lacrimal fistula) and the canthus swelling"
+  ur: "غرب اور مآق کی سوجن"
+summary:
+  ar: "قد يخرج في موق العين خراج فربما كان صلباً يتحرك بالمس ولا ينفجر ويكون من جنس الغدد وربما كان خراجاً بثرياً يجتمع وينفجر فإذا انفجر فعل ناصوراً في أكثر الأمر، والغرب ناصور يحدث في موق العين الأنسي وأكثره عقيب خراج يسمى أخيلوس، وإذا انفجر ترك ناصوراً عسر التئامه لأن العضو رطب ودائم الحركة، وقد يبلغ خبث صديده العظم فيفسده ويسوده ثم يأكله ويفسد غضاريف الجفن {cite:canon-ibn-sina-print-v2 p.181} {cite:canon-ibn-sina-print-v2 p.182}"
+  en: "An abscess may appear in the eye's canthus, sometimes hard, moving under touch, not bursting, of the gland kind, sometimes a pustular abscess gathering then bursting and mostly becoming a fistula; the gharb is a fistula occurring in the eye's inner canthus, mostly after an abscess called akhilus, and when it bursts it leaves a fistula whose healing is difficult because the organ is moist and ever-moving; the malignity of its pus may reach the bone, corrupt, blacken and eat it, and corrupt the lid's cartilages {cite:canon-ibn-sina-print-v2 p.181} {cite:canon-ibn-sina-print-v2 p.182}"
+  ur: "آنکھ کے مآق میں ایک پھوڑا نکل سکتا ہے، کبھی سخت جو چھونے سے ہلے اور نہ پھوٹے اور غدود کی جنس کا ہو، اور کبھی بثری پھوڑا جو جمع ہو کر پھوٹے اور اکثر ناسور بنا دے؛ اور غرب ایک ناسور ہے جو آنکھ کے اندرونی مآق میں ہوتا ہے اور اکثر اخیلوس نامی پھوڑے کے بعد، اور جب پھوٹتا ہے تو ایسا ناسور چھوڑتا ہے جس کا التیام مشکل ہے کیونکہ وہ عضو تر اور ہمیشہ متحرک ہے؛ اور اس کے صديد کی خباثت ہڈی تک پہنچ کر اسے بگاڑ کر سیاہ کر کے کھا جاتی ہے اور پلک کے غضروف بگاڑ دیتی ہے {cite:canon-ibn-sina-print-v2 p.181} {cite:canon-ibn-sina-print-v2 p.182}"
+wings:
+- "living"
+tags:
+- "tibb-browser"
+- "tibb-tibb"
+sources:
+- "source/canon-ibn-sina-print-v2"
+relations:
+- type: "part_of"
+  target: "concept/disease"
+  sources:
+  - "source/canon-ibn-sina-print-v2"
+provenance:
+  layer: "own-research"
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 3 (the eye's anatomy, states and diseases), maqala 2 end and maqala 3 (the states of the lid and what adjoins it), scan pages 181-182, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json, copied to /tmp before reading); editor glosses used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping, cautery and excision sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, lochia, semen, coitus and nursing listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Devin subagent (SWE-2 Medium, Lane A4 worker)"
+  model: "swe-2-medium"
+  run: "a4-canon-book3-9"
+status:
+  review: "published"
+  completeness: 1
+  generated_by: "Devin subagent (SWE-2 Medium, book mining, lane A4)"
