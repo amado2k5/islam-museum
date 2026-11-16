@@ -27,7 +27,11 @@ export interface Entity {
 export interface Prose { id: string; lang: string; file: string; frontmatter: Record<string, any>; body: string }
 
 export function readYaml<T = any>(file: string): T {
-  return parse(readFileSync(file, "utf8")) as T;
+  try {
+    return parse(readFileSync(file, "utf8")) as T;
+  } catch (e) {
+    throw new Error(`YAML parse failed in ${file}: ${e instanceof Error ? e.message : e}`);
+  }
 }
 
 export function listFiles(dir: string, ext: string): string[] {
