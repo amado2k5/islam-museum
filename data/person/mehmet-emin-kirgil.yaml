@@ -1,0 +1,29 @@
+id: person/mehmet-emin-kirgil
+class: person
+label: { ar: "محمد أمين قيرغل", en: "Mehmet Emin Kırgil", ur: "محمد امین قرغل" }
+names:
+  - { value: "Mehmet Emin Kırgil", kind: full }
+  - { value: "Mehmet Emin Kırgıl", kind: alternate }
+  - { value: "محمد أمين قيرغل", kind: full }
+gender: male
+summary:
+  ar: "مقدّم برامج دينية ومفسّر أحلام تركي، عُرف بفقرته الأسبوعية في تفسير الأحلام ضمن برنامج «في الحياة كل شيء» على قناة بياز التلفزيونية، حيث يفسّر على الهواء أحلام المشاهدين، وبقناته الخاصة على يوتيوب المخصصة لبثوث تفسير الأحلام. بلغت قناته 302,000 مشترك كما في 10 نوفمبر 2026 بحسب vidIQ، وهو عدد منصّة مؤرخ لا حقيقة متحقق منها متحفيًا. يصف هذا السجل مسيرته الإذاعية والتلفزيونية، ولا يتبنّى أي تفسير من تفسيراته."
+  en: "Turkish religious broadcaster and dream interpreter, known for his weekly dream-interpretation slot on Beyaz TV's Hayatta Her Şey Var, where he interprets viewers' dreams live on air, and for his own YouTube channel of dream-interpretation broadcasts. His channel counted 302,000 subscribers as of 10 November 2026 per vidIQ — a dated platform count, not a museum-verified fact. This record describes his broadcasting career; it endorses none of his interpretations."
+  ur: "ترک دینی نشریاتی پیش کار اور خوابوں کے تعبیر دان، جو بیاز ٹی وی کے پروگرام «حیات میں سب کچھ ہے» میں اپنی ہفتہ وار خوابوں کی تعبیر کی نشست کے لیے جانے جاتے ہیں، جہاں وہ ناظرین کے خوابوں کی براہِ راست تعبیر کرتے ہیں، اور خوابوں کی تعبیر کی نشریات کے اپنے یوٹیوب چینل کے لیے بھی۔ vidIQ کے مطابق 10 نومبر 2026ء کو ان کے چینل کے سبسکرائبر 302,000 تھے — یہ ایک مؤرخہ منصّہ عدد ہے، عجائب گھر کی تصدیق شدہ حقیقت نہیں۔ یہ ریکارڈ ان کے نشریاتی کیریئر کو بیان کرتا ہے؛ ان کی کسی تعبیر کی تائید نہیں کرتا۔"
+roles: [presenter, preacher]
+wings: [people, living]
+regions: [anatolia-balkans]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read in this build names a school or order for Mehmet Emin Kırgil: neither the Beyaz TV programme material nor his own channel nor the vidIQ tracker does so. The religious framing of his programmes is the programmes' content, not a faith attestation for the man. Under the doubt rule the value stays unknown."
+    sources: [source/beyaz-tv-mehmet-emin-kirgil, source/youtube-mehmet-emin-kirgil]
+reach:
+  - { platform: youtube, metric: subscribers, value: 302000, date: "2026-11-10", note: "@mehmeteminkrgilruyayorumlar: 302,000 subscribers, 79,960,541 views and 1,443 videos as of 10 November 2026 per vidIQ, recorded by the wave-202 harvest — a dated platform count, not a museum-verified fact. His television audience on Beyaz TV is not counted here; the figure is his own channel's only.", sources: [source/vidiq-mehmet-emin-kirgil, source/youtube-mehmet-emin-kirgil] }
+sources: [source/beyaz-tv-mehmet-emin-kirgil, source/youtube-mehmet-emin-kirgil, source/vidiq-mehmet-emin-kirgil]
+provenance:
+  layer: own-research
+  source: "Built from the wave-202 (Turkish scene) harvest §6 and build-time checks of 16 November 2026: Beyaz TV's Hayatta Her Şey Var programme segments and descriptions featuring him (read from March 2019 to October 2026), his YouTube channel @mehmeteminkrgilruyayorumlar, and the harvest's vidIQ read of that channel (302,000 subscribers as of 10 November 2026). Qualification rests on that dated count for his own channel, above the men's bar. Per the harvest's scope note, the record is framed on his religious-broadcasting career, not on any dream-interpretation claim, and no interpretation is endorsed or reproduced. Spelling: the broadcaster's material spells his name 'Kırgil', the harvest heading 'Kırgıl'; both are recorded, with the broadcaster's spelling as the label. No Wikipedia article on him was found in any language in this build, and no source read gives a birth date, birthplace or schooling — an unattributed web page carrying a plainly impossible 1909 birth year for a living broadcaster was read, judged unreliable, and used for nothing — so no born block is written and nothing is invented. No source read names a school for him, so his faith stays unknown. No Wikidata item was verified in this build — site searches of Wikidata returned no item for him — so no external identifier is recorded."
+  generated_by: "Muse (Muse Wonder)"
+  run: modern-figures-wave-202-a
+status: { review: published, completeness: 2 }
