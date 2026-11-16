@@ -1,0 +1,45 @@
+id: job/copyist
+class: job
+label: { ar: "الورّاق", en: "Copyist / bookseller (warraq)", ur: "ورّاق ⁦(نسخہ نویس و کتب فروش)⁩" }
+names:
+  - { value: "sahhaf", kind: alternate, lang: tr }
+  - { value: "Sahhafan", kind: latinized, lang: tr }
+  - { value: "warraqeen", kind: latinized }
+summary:
+  ar: "الورّاق هو صاحب صناعة الكتاب في المدينة الإسلامية: ناسخ وصاحب ورق ومجلد وبائع كتب في شخص واحد في الغالب، تُورّد دكّانه الأقلام والحبر وتكون مجمعاً لأهل الأدب. يذكر غرومان أن الورّاقين كانوا في أغلب الأحوال صُنّاع ورق وتجّاره ونسّاخاً ومجلدين معاً، وأن محالّهم كانت مجالس المتأدبين ولهم أقسامهم الخاصة في الأسواق كسائر الحِرَف، وأن الناسخ قد ينسخ مئة صفحة في يوم وليلة، وأن الكتاب الجيّد كان يُشترى في المتوسط بدينار ذهب. وفي موكب إسطنبول عند إوليا جلبي تمرّ طائفة الصحّافين بمئتي رجل وستين دكّاناً تزيّنها الآلاف من الكتب النفيسة."
+  en: "The warraq was the book trade of the Islamic city in one person: copyist, paper-dealer, binder and bookseller together, his shop supplying pens and ink and serving as a meeting-place of the cultured. Grohmann records that the warraqun were usually paper-makers and dealers, copyists and bookbinders in one, that their shops were the rendezvous of the educated classes, that they had their own sections in the bazaars like the other trades, that a copyist could copy a hundred pages in a day and a night, and that a gold dinar was the average price of a better book. In Evliya's Istanbul procession the booksellers' guild (Sahhafan) passes two hundred men with sixty shops adorned with many thousand precious books."
+  ur: "ورّاق اسلامی شہر میں کتاب کی صنعت کو ایک ہی شخص میں جمع کرتا تھا: نسخہ نویس، کاغذ فروش، جلد ساز اور کتب فروش مل کر، اور اس کی دکان قلم اور سیاہی مہیا کر کے اہلِ ادب کی مسجد ⁦(مجلس)⁩ بنتی تھی۔ گروہمان لکھتا ہے کہ ورّاق اکثر کاغذ ساز اور فروشندہ، نسخہ نویس اور جلد ساز سب ایک ہی ہوتے تھے، ان کی دکانیں متعلم طبقے کی آماجگاہ تھیں اور دیگر پیشوں کی طرح بازاروں میں ان کے اپنے حصے تھے؛ ناسخ ایک دن اور ایک رات میں سو صفحات نقل کر سکتا تھا، اور اچھی کتاب کی اوسط قیمت ایک دینارِ زر تھی۔ اولیہ کے استنبول جلوس میں صحّافوں کی انجمن دو سو آدمی اور ساٹھ دکانوں کے ساتھ چلتی ہے جن پر ہزاروں نفیس کتابیں سجی تھیں۔"
+domain: arts-letters
+kind: craft
+hirfa: true
+era:
+  origins: early-caliphate
+  status_today: transformed
+places:
+  - { place: place/baghdad, note: "Grohmann's account of the classical warraqun — paper-makers and dealers, copyists and bookbinders in one, supplying pens and ink, their shops the rendezvous of the cultured — describes the Abbasid book market centred on Iraq; named binders worked in al-Ma'mun's library.", sources: [source/arnold-grohmann-islamic-book-1929] }
+  - { place: place/istanbul, note: "Evliya passes the booksellers (Sahhafan), two hundred men with sixty shops, their patron Abu Zar al-Ghifari, the shops adorned with many thousand precious books such as the Multaqa, Shurer and Kashshaf.", sources: [source/evliya-seyahatname-hammer] }
+regions: [levant-iraq, egypt-nile, persia-central-asia, anatolia-balkans, maghreb, andalus-europe]
+organization:
+  organized: guild
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people, living]
+periods: [period/abbasid-early, period/abbasid-fragmentation, period/buyid-seljuk-fatimid-era, period/crusades-ayyubid-mamluk, period/gunpowder-empires]
+sources: [source/arnold-grohmann-islamic-book-1929, source/evliya-seyahatname-hammer]
+craft:
+  materials: [paper, parchment, ink, leather]
+  techniques:
+    ar: "يجمع غرومان ما عرفه العصر الكلاسيكي عن صناعة الورّاق: فقد كان الورّاقون في أغلب الأحوال صُنّاع الورق وتجّاره ونسّاخاً ومجلدين في آن، ويورّدون الأقلام والحبر أيضاً، وكانت محالّهم مجالس يتردد عليها أهل الثقافة كما كان يتردد أدباء روما على دكاكين الباعة، وكان لبائعي الكتب وصُنّاع الورق أقسامهم في الأسواق كبقية الحرف. وكان الناسخ الماهر ينسخ مئة صفحة في يوم وليلة، وكانت تُدفع أسعار باهظة في الأعمال الأدبية النفيسة وخاصة نسخ المؤلفين بخط أيديهم، ومتوسط ثمن الكتاب الجيّد دينار ذهب. وفي إسطنبول مرّ الصحّافون بمئتي رجل وستين دكاناً يزيّنونها بآلاف الكتب النفيسة."
+    en: "Grohmann gathers what the classical period knew of the warraq's trade: the warraqun were usually paper-makers and dealers, copyists and bookbinders in one, supplying pens and ink as well; their shops were the rendezvous of the cultured classes just as the literary connoisseurs of Rome met in the booksellers' booths, and booksellers and paper-makers had their own sections in the bazaars like the other trades. A skilled copyist could copy a hundred pages in a day and a night; fantastic prices were paid for valuable literary works, especially authors' autographs, and a gold dinar — in one comparison, a year's rent of a wine-bar — was the average price of a better book. In Istanbul the Sahhafan passed two hundred men with sixty shops adorned with many thousand precious books."
+    ur: "گروہمان نے کلاسیکی دور کی ورّاقی صنعت جمع کی ہے: ورّاق اکثر کاغذ ساز اور فروشندہ، نسخہ نویس اور جلد ساز سب ایک ہوتے اور قلم و سیاہی بھی دیتے تھے؛ ان کی دکانیں متعلم طبقے کی آماجگاہ تھیں جس طرح روم کے ادب شناس کتاب فروشوں کی دکانوں پر جمع ہوتے، اور کتاب فروشوں اور کاغذ سازوں کے بازاروں میں اپنے حصے تھے جیسے دیگر پیشوں کے۔ ماہر ناسخ ایک دن اور ایک رات میں سو صفحات نقل کر سکتا تھا؛ نفیس ادبی تصانیف بالخصوص مصنف کے دستخطی نسخوں کی بڑی قیمتیں ادا ہوتیں، اور اچھی کتاب کی اوسط قیمت ایک دینارِ زر تھی۔ استنبول میں صحّاف دو سو آدمی اور ساٹھ دکانوں کے ساتھ گزرے جن پر ہزاروں نفیس کتابیں سجی تھیں۔"
+  guild:
+    bodies: []
+    shaykh_title: { ar: "شيخ طائفة الصحّافين", en: "Sheykh of the booksellers' guild", ur: "صحّافوں کی انجمن کا شیخ" }
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-harvest-5" }
+provenance:
+  layer: own-research
+  source: "Arnold & Grohmann, The Islamic Book pp. 32-33 (the warraqun, their shops and prices); Evliya (von Hammer) I,2 sec. 452 p. 218 (the Sahhafan) — read on 16 Nov 2026 from the downloaded scans"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-harvest-5-drafting"
