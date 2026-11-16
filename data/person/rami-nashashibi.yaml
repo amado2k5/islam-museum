@@ -20,6 +20,17 @@ born:
   derived: true
   note: "Birth year following the founder's queue (1972). No fetched source gives an exact birth date: the English article gives no birth date or birthplace at all, and a 2017 report ages him 44 in October 2017, which is consistent with 1972 or 1973, so the year is carried as debated. Birthplace: the Robert & Ethel Kennedy Human Rights Center profile gives Amman, Jordan; On Being's transcript confirms at country level that he was born in Jordan, to a diplomat father. The Hijri year (1392, the year covering most of 1972) is derived by tabular conversion."
   sources: [source/rfk-rami-nashashibi, source/onbeing-rami-nashashibi, source/wikipedia-rami-nashashibi-en]
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave"
+    sources: [source/wikipedia-rami-nashashibi-en, source/uchicago-magazine-rami-nashashibi, source/rfk-rami-nashashibi, source/onbeing-rami-nashashibi]
+  - job: job/musician
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'musician', Job Browser linking wave"
+    sources: [source/wikipedia-rami-nashashibi-en, source/uchicago-magazine-rami-nashashibi, source/rfk-rami-nashashibi, source/onbeing-rami-nashashibi]
 relations:
   - { type: born_in, target: place/amman, sources: [source/rfk-rami-nashashibi, source/onbeing-rami-nashashibi] }
 faith:

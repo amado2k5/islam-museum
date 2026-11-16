@@ -33,6 +33,17 @@ died:
   derived: true
   note: "Died on 29 August 1976 in Dhaka, Bangladesh, per both Wikipedia articles. The Hijri year (1396) is derived by tabular conversion."
   sources: [source/wikipedia-kazi-nazrul-islam-en, source/wikipedia-kazi-nazrul-islam-ar, source/wikidata-kazi-nazrul-islam]
+occupations:
+  - job: job/poet
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'poet', Job Browser linking wave"
+    sources: [source/wikipedia-kazi-nazrul-islam-en, source/wikipedia-kazi-nazrul-islam-ar, source/wikidata-kazi-nazrul-islam, source/wikidata]
+  - job: job/musician
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'musician', Job Browser linking wave"
+    sources: [source/wikipedia-kazi-nazrul-islam-en, source/wikipedia-kazi-nazrul-islam-ar, source/wikidata-kazi-nazrul-islam, source/wikidata]
 relations:
   - { type: died_in, target: place/dhaka, sources: [source/wikipedia-kazi-nazrul-islam-en, source/wikipedia-kazi-nazrul-islam-ar] }
   - { type: buried_in, target: place/dhaka, sources: [source/wikipedia-kazi-nazrul-islam-en, source/wikipedia-kazi-nazrul-islam-ar] }

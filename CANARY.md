@@ -13,6 +13,10 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v1.91.0 — 2026-11-17
+### Added
+- Job Browser linking wave 17: 27 `occupations:` edges on 25 person records — fifteen musicians (Bismillah Khan, Zakir Hussain, Begum Akhtar, Kazi Nazrul Islam and more) plus caliph, sultan, commander, emir and muhaddith links.
+
 ## v1.90.0 — 2026-11-17
 ### Added
 - Job Browser linking wave 16: 26 `occupations:` edges on 25 person records — the lawyer, diplomat and engineer pools fully linked, plus caliph, sultan, commander, emir and muhaddith links.

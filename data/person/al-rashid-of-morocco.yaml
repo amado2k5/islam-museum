@@ -35,6 +35,12 @@ died:
   note: "Died at Marrakesh after a fall from his horse, aged about 42; the English, French and Arabic articles and the Wikidata item all give 9 April 1672, which falls in 1082 AH. No place entity for Marrakesh exists on main, so no died_in edge is written."
   sources: [source/wikipedia-al-rashid-of-morocco-en, source/wikipedia-al-rashid-of-morocco-fr, source/wikipedia-al-rashid-of-morocco-ar, source/wikidata-al-rashid-of-morocco]
 
+occupations:
+  - job: job/sultan
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'sultan', Job Browser linking wave"
+    sources: [source/wikipedia-al-rashid-of-morocco-en, source/wikipedia-al-rashid-of-morocco-fr, source/wikipedia-al-rashid-of-morocco-ar, source/wikidata-al-rashid-of-morocco, source/wikidata]
 relations:
   - { type: died_in, target: place/marrakesh, note: "From text: died at Marrakesh", sources: [source/wikipedia-al-rashid-of-morocco-en, source/wikipedia-al-rashid-of-morocco-fr, source/wikipedia-al-rashid-of-morocco-ar, source/wikidata-al-rashid-of-morocco] }
   - { type: ruler_of, target: place/morocco, note: "From text: sultan of Morocco", sources: [source/wikipedia-al-rashid-of-morocco-en, source/wikipedia-al-rashid-of-morocco-fr, source/wikipedia-al-rashid-of-morocco-ar, source/wikidata-al-rashid-of-morocco] }
