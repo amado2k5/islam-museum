@@ -26,6 +26,17 @@ status:
   completeness: 2
 born: { edtf: "1870", hijri: "1287", calendar: gregorian, precision: year, status: historical, derived: false, note: "al-Zirikli, al-A'lam vol. 3 p. 275: 1287 - 1376 AH = 1870 - 1957 CE.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 died: { edtf: "1957", hijri: "1376", calendar: gregorian, precision: year, status: historical, derived: false, note: "al-Zirikli, al-A'lam vol. 3 p. 275.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 46"
+    sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
+  - job: job/mufti
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'mufti', Job Browser linking wave 46"
+    sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 relations:
   - { type: born_in, target: place/baghdad, note: "Wikidata Q1530 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: died_in, target: place/baghdad, note: "Wikidata Q1530 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }

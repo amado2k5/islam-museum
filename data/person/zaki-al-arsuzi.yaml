@@ -20,6 +20,12 @@ story_roles:
 external_ids:
   wikidata: Q144693
   viaf: "8189446"
+occupations:
+  - job: job/philosopher
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'philosopher', Job Browser linking wave 46"
+    sources: [source/mawsuat-a3lam-ulama-adaba, source/wikidata]
 relations:
   - { type: born_in, target: place/i-skenderun, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q174341)" }
   - { type: born_in, target: place/ladhiqiyya, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q200030)" }

@@ -13,6 +13,10 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v2.20.0 — 2026-11-17
+### Added
+- Job Browser linking wave 46: 34 `occupations:` edges on 25 person records — nine philosophers (Ibn Tufayl, Ibn Bajja), eight muftis, eight grammarians, plus alim, poet and physician links.
+
 ## v2.19.0 — 2026-11-17
 ### Added
 - Job Browser linking wave 45: 35 `occupations:` edges on 25 person records — finishes the qadi pool (fifteen judges) plus ten philosophers and alim, historian and poet links.

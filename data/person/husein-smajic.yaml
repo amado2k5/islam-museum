@@ -20,6 +20,17 @@ born:
 roles: [mufti, scholar]
 regions: [anatolia-balkans]
 wings: [people, living]
+occupations:
+  - job: job/mufti
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'mufti', Job Browser linking wave 46"
+    sources: [source/wikipedia-deputy-reis-bih-sr, source/kuna-bosnian-clerics-mufti-race-2012, source/islamskazajednica-smajic-program-2012, source/islamicpluralism-bosnian-religious-leaders-2013]
+  - job: job/alim
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 46"
+    sources: [source/wikipedia-deputy-reis-bih-sr, source/kuna-bosnian-clerics-mufti-race-2012, source/islamskazajednica-smajic-program-2012, source/islamicpluralism-bosnian-religious-leaders-2013]
 relations:
   - { type: lived_in, target: place/sarajevo, sources: [source/kuna-bosnian-clerics-mufti-race-2012, source/islamskazajednica-smajic-program-2012] }
 faith:
