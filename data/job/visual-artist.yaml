@@ -1,0 +1,45 @@
+id: job/visual-artist
+class: job
+label: { ar: "الفنان التشكيلي", en: "Visual artist (nakkash / painter)", ur: "مصور ⁦(فنکار)⁩" }
+names:
+  - { value: "نقّاش", kind: alternate }
+  - { value: "nakkaş", kind: latinized, lang: tr }
+  - { value: "ressam", kind: latinized, lang: tr }
+  - { value: "musavvir", kind: alternate, lang: tr }
+  - { value: "müzehhib", kind: alternate, lang: tr }
+  - { value: "nakkāşü'l-fidda", kind: alternate }
+  - { value: "nakkāşü'z-zeheb", kind: alternate }
+summary:
+  ar: "النقّاش من اشتغل بالتصوير والزخرفة، واللقب شمل في أصله الحَكّاك والنقّاش والمذهّب ثم صار يُطلق غالباً على رسّام المنمنمات. كان للنقّاشين أسماء على قدر موادهم: نقّاش الفضّة ونقّاش الذهب ونقّاش السِّكّة ونقّاش الحجارة. ومن ورشة هراة التي أخرجت بهزاداً إلى نقّاشي سَلاطين البابور الهنود الذين أفرد لهم أبو الفضل العلّامي باباً في آئين أكبري، إلى جماعة النقّاشين العثمانية التي صارت من أعظم فرق أهل الحرف: تسجّل ميزانية ١٥٢٦ تسعةً وعشرين نقّاشاً واثني عشر شاكرداً، وكان رؤساؤهم السرنقّاشان فالكتخدا، ويُدفع لهم الرزق كل ثلاثة أشهر، ويخرجون مع الجيش في السفر. وقد وجّهت مكانة التصوير عند الفقهاء الفنَّ الإسلامي وجهةً أنتجت فنون الخط والتذهيب والإبرو."
+  en: "The nakkash is the craftsman of painting and decoration; the title originally embraced the engraver, the carver and the illuminator, but came to mean above all the miniature painter. The sources name nakkashes after their materials: nakkāsh al-fidda (of silver), of gold, of the coin dies, of stone. From the Herat workshop that produced Bihzad to the Mughal painters for whom Abu'l-Fazl al-Allami devoted a chapter of the A'in-i Akbari, to the Ottoman nakkashan corps which became one of the greatest divisions of the ehl-i hiref: a wage register of early 1526 lists twenty-nine nakkashes and twelve apprentices under their chiefs the sernakkashan and kethüda, paid every three months and marching with the army on campaign. The jurists' standing on figural depiction channelled Muslim art into the arts of calligraphy, illumination and marbling."
+  ur: "نقّاش تصویر کشی اور آرائش کا کاریگر ہے؛ لقب اصل میں کندہ کار، نقاش اور مذہب سب پر آتا تھا مگر بعد میں خاص طور پر منی ایچر مصور پر بولا گیا۔ ماخذ نقّاشوں کو ان کے مواد کے نام سے پکارتے ہیں: نفّاش الفضہ، نقّاش الذهب، نقّاش السکہ، نقّاش الحجارہ۔ ہرات کی ورکشاپ جس نے بہزاد پیدا کیا، بابری مصور جن کے لیے ابوالفضل علامی نے آئین اکبری میں مستقل باب رکھا، اور عثمانی نقّاشان جو اہل حرف کی سب سے بڑی شاخوں میں تھے: ۱۵۲۶ء کی تنخواہ رجسٹر میں انتیس نقّاش اور بارہ شاگرد سرنقّاشان اور کتخدا کے ماتحت درج ہیں، تین ماہ بعد وظیفہ ملتا اور فوج کے ساتھ سفر پر جاتے۔ فقہا کی طرف سے تصویر کے بارے میں موقف نے اسلامی فن کو خطاطی، تذہیب اور ابرو کی طرف موڑا۔"
+domain: arts-letters
+kind: modern-profession
+hirfa: false
+era:
+  origins: early-caliphate
+  status_today: living
+places:
+  - { place: place/herat, note: "At Herat a book-arts academy (kitabkhana) was founded where many nakkashes trained; it reached its brightest period under Sultan Husayn Bayqara (1470-1506), and Bihzad, counted the greatest master of the miniature, produced his finest works there.", sources: [source/tdv-nakkas] }
+  - { place: place/delhi, note: "Humayun brought Tabrizi masters back from exile with him, and under Akbar the Mughal workshop flourished: Abu'l-Fazl al-Allami's A'in-i Akbari devotes a chapter to the nakkashes, Hindu and Muslim working side by side — Abd al-Samad, Mir Sayyid Ali, Basawan, Keshav Das, Miskin, Manohar, Bichitr, Abu'l-Hasan Nadir al-Zaman and Mansur Nadir al-Asr among them.", sources: [source/tdv-nakkas] }
+  - { place: place/istanbul, note: "In the Ottoman ehl-i hiref the nakkashes formed one of the chief divisions; the wage register of Rabi' II 932 (Jan-Feb 1526) names twenty-nine masters and twelve apprentices, Kanuni gave Shahkulu his own atelier and visited to watch him work, and Evliya says the musavveran nakkashes had no guild patron because depiction was religiously proscribed — forty men in four shops in his day.", sources: [source/tdv-nakkas, source/tdv-resim] }
+regions: [persia-central-asia, levant-iraq, egypt-nile, anatolia-balkans, south-asia, maghreb, global]
+organization:
+  organized: court-office
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people]
+periods: [period/umayyad, period/abbasid-early, period/abbasid-fragmentation, period/buyid-seljuk-fatimid-era, period/crusades-ayyubid-mamluk, period/mongol-post-mongol, period/gunpowder-empires, period/modern-era]
+sources: [source/tdv-nakkas, source/tdv-resim]
+training:
+  mode: apprenticeship
+  certification: "Workshop and corps apprenticeship: the Ottoman registers separate nakkash (master), shakird (apprentice) and müteferrika nakkash (supernumerary), under group chiefs sernakkashan, kethüda, serbölük and the oda chiefs; appointment was made on the recommendation of the hazinedarbashi of the Enderun and the tezkere of the reisülküttab, and masters could rise as far as the vezirate — Nakkash Hasan Pasha was trained in the Enderun."
+  duration: "Bozkurt traces the craft through the ateliers: in the Persian line Cihangir of Bukhara learned from the Chinese nakkash Gung, his pupil Pir Seyyid Ahmed of Tabriz taught Bihzad; masters trained masters across the courts."
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-arts-1" }
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi, 'NAKKAŞ' (Bozkurt, 2006) and 'RESİM' (Başoğlu, 2007), web editions read on 16 Nov 2026"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-arts-1-drafting"
