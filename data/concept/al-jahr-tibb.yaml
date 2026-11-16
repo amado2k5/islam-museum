@@ -1,0 +1,33 @@
+id: "concept/al-jahr-tibb"
+class: "concept"
+kind: "scientific"
+label:
+  ar: "الجهر"
+  en: "Day blindness (al-jahr)"
+  ur: "دن کوری ⁦(جہر)⁩"
+summary:
+  ar: "الجهر أن لا يبصر بالنهار، وسببه رقة الروح وقلته جداً فيتحلل مع ضوء الشمس ويجتمع في الظلمة، وربما كان قليلاً فيرى في الظلمة والظل ويضعف في الضوء، وعلاجه الزيادة في الترطيب وتغليظ الدم {cite:canon-ibn-sina-print-v2 p.207}"
+  en: "Jahr is not seeing by day; its cause is the thinness and great scantiness of the spirit, which is dissolved by sunlight and gathers in darkness — or it may be slight, so that he sees in darkness and shade night and day and weakens in light; its treatment is increasing moistening and thickening the blood {cite:canon-ibn-sina-print-v2 p.207}"
+  ur: "جہر یہ ہے کہ دن میں نہ دیکھے؛ اس کا سبب روح کا نہایت پتلا اور کم ہونا ہے جو آفتاب کے ضوء میں تحلیل ہو کر اندھیرے میں جمع ہوتا ہے؛ اور یہ ہلکا بھی ہو سکتا ہے کہ اندھیرے اور سائے میں دیکھے اور ضوء میں کمزور ہو؛ اس کا علاج تر کرنے میں اضافہ اور خون کو گاڑھا کرنا ہے {cite:canon-ibn-sina-print-v2 p.207}۔"
+wings:
+- "living"
+tags:
+- "tibb-browser"
+- "tibb-tibb"
+sources:
+- "source/canon-ibn-sina-print-v2"
+relations:
+- type: "part_of"
+  target: "concept/disease"
+  sources:
+  - "source/canon-ibn-sina-print-v2"
+provenance:
+  layer: "own-research"
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 3 (the anatomy, states and diseases of the eye), maqala 4, scan pages 207, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json); editor glosses used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping and cautery sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Devin subagent (SWE-2 Medium, Lane A4 worker)"
+  model: "swe-2-medium"
+  run: "a4-canon-book3-10"
+status:
+  review: "published"
+  completeness: 1
+  generated_by: "Devin subagent (SWE-2 Medium, book mining, lane A4)"

@@ -1,0 +1,33 @@
+id: "concept/al-intishar-tibb"
+class: "concept"
+kind: "scientific"
+label:
+  ar: "الانتشار"
+  en: "Widening of the pupil (al-intishar)"
+  ur: "پتلی کا پھیلنا ⁦(انتشار)⁩"
+summary:
+  ar: "الانتشار أن تصير الثقبة العنبية أوسع مما هي بالطبع، عقيب صداع أو ضربة أو صدمة أو لأسباب في البيضية أو العنبية، وقد يكون طبيعياً فيرى الأشياء أصغر، وقد يبلغ أن لا يرى شيئاً حتى تبلغ السعة الإكليل {cite:canon-ibn-sina-print-v2 p.210}"
+  en: "Intishar is the uveal pupil becoming wider than its nature, after a headache or a blow or a shock, or for causes in the egg-white humour or the uvea; it may be natural, so that things are seen smaller, and it may reach total loss when the widening reaches the corona {cite:canon-ibn-sina-print-v2 p.210}"
+  ur: "انتشار یہ ہے کہ عنبیہ کا ثقبہ فطرت سے زیادہ کھل جائے، سر درد یا ضربت یا دھکے کے بعد، یا بیضیہ یا عنبیہ کے اسباب سے؛ یہ فطری بھی ہو سکتا ہے کہ چیزیں چھوٹی دکھیں، اور یہ اتنا بڑھ سکتا ہے کہ کچھ نہ دکھے یہاں تک کہ وسعت اِکلیل تک پہنچ جائے {cite:canon-ibn-sina-print-v2 p.210}۔"
+wings:
+- "living"
+tags:
+- "tibb-browser"
+- "tibb-tibb"
+sources:
+- "source/canon-ibn-sina-print-v2"
+relations:
+- type: "part_of"
+  target: "concept/disease"
+  sources:
+  - "source/canon-ibn-sina-print-v2"
+provenance:
+  layer: "own-research"
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 3 (the anatomy, states and diseases of the eye), maqala 4, scan pages 210 to 212, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json); editor glosses used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping and cautery sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Devin subagent (SWE-2 Medium, Lane A4 worker)"
+  model: "swe-2-medium"
+  run: "a4-canon-book3-10"
+status:
+  review: "published"
+  completeness: 1
+  generated_by: "Devin subagent (SWE-2 Medium, book mining, lane A4)"

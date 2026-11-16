@@ -1,0 +1,33 @@
+id: "concept/quruh-al-jafn-wa-inkhiraquh"
+class: "concept"
+kind: "scientific"
+label:
+  ar: "قروح الجفن وانخراقه"
+  en: "Ulcers of the lid and its laceration"
+  ur: "پلک کے قروح اور اس کا پھٹنا"
+summary:
+  ar: "قروح الجفن تعالج بضماد مجفف، فإذا سقطت الخشكريشة وبطل التأكل استعملت أدوية الإدمال، وأما انخراق الجفن فيعالج بعلاج انخراق الجلود المذكور في بابه {cite:canon-ibn-sina-print-v2 p.197}"
+  en: "Ulcers of the lid are treated with a desiccating dressing; once the scab has fallen and the corrosion ceased, the healing medicines are used, while a lacerated lid is treated by the treatment of lacerated skins given in its own chapter {cite:canon-ibn-sina-print-v2 p.197}"
+  ur: "پلک کے قروح کا علاج مجفف ضماد سے ہے؛ جب چھلکا گر جائے اور کھانے کا عمل بند ہو تو شفا بخش ادویہ استعمال ہوں، اور پلک کے پھٹنے کا علاج جلدوں کے پھٹنے کے اپنے باب کے علاج سے ہوتا ہے {cite:canon-ibn-sina-print-v2 p.197}۔"
+wings:
+- "living"
+tags:
+- "tibb-browser"
+- "tibb-tibb"
+sources:
+- "source/canon-ibn-sina-print-v2"
+relations:
+- type: "part_of"
+  target: "concept/disease"
+  sources:
+  - "source/canon-ibn-sina-print-v2"
+provenance:
+  layer: "own-research"
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 3 (the anatomy, states and diseases of the eye), maqala 3, scan pages 197, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json); editor glosses used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping and cautery sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Devin subagent (SWE-2 Medium, Lane A4 worker)"
+  model: "swe-2-medium"
+  run: "a4-canon-book3-10"
+status:
+  review: "published"
+  completeness: 1
+  generated_by: "Devin subagent (SWE-2 Medium, book mining, lane A4)"

@@ -1,0 +1,33 @@
+id: "concept/al-asha"
+class: "concept"
+kind: "scientific"
+label:
+  ar: "العشاء"
+  en: "Night blindness (al-'asha)"
+  ur: "شب کوری ⁦(عشاء)⁩"
+summary:
+  ar: "العشاء أن يتعطل البصر ليلاً ويبصر نهاراً ويضعف في آخره، وسببه كثرة رطوبات، ويعرض للكحل دون الزرق ولصغار الحدق ولمن تكثر الألوان والتعاريج في عينه فإن ذلك يدل على قلة الروح الباصر في خلقته {cite:canon-ibn-sina-print-v2 p.206}"
+  en: "Night blindness is the disabling of sight at night while it sees by day and weakens toward day's end; its cause is abundance of moistures, and it befalls the kohl-eyed rather than the blue-eyed, the small-pupilled, and those whose eye holds many colours and streaks, which points to a scant visual spirit in their constitution {cite:canon-ibn-sina-print-v2 p.206}"
+  ur: "شب کوری یہ ہے کہ بینائی رات کو معطل ہو جائے اور دن میں دیکھے اور دن کے آخر میں کمزور ہو؛ اس کا سبب رطوبتوں کی کثرت ہے، اور یہ سرمہ آنکھوں کو نیلوں کے بجائے، چھوٹی پتلی والوں کو اور جن کی آنکھ میں رنگ اور دھاریاں بہت ہوں، کو عرض کرتا ہے، کیونکہ یہ خلقت میں باصر روح کی قلت پر دلالت کرتا ہے {cite:canon-ibn-sina-print-v2 p.206}۔"
+wings:
+- "living"
+tags:
+- "tibb-browser"
+- "tibb-tibb"
+sources:
+- "source/canon-ibn-sina-print-v2"
+relations:
+- type: "part_of"
+  target: "concept/disease"
+  sources:
+  - "source/canon-ibn-sina-print-v2"
+provenance:
+  layer: "own-research"
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 3 (the anatomy, states and diseases of the eye), maqala 4, scan pages 206 to 207, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json); editor glosses used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping and cautery sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Devin subagent (SWE-2 Medium, Lane A4 worker)"
+  model: "swe-2-medium"
+  run: "a4-canon-book3-10"
+status:
+  review: "published"
+  completeness: 1
+  generated_by: "Devin subagent (SWE-2 Medium, book mining, lane A4)"
