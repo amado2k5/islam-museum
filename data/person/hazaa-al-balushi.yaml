@@ -22,6 +22,12 @@ born:
   derived: true
   note: "Full date (10 April 1995) and birthplace Liwa, in Oman's Al Batinah North Governorate, from the English Wikipedia article and Wikidata; the Arabic article gives the year 1995 and Liwa only. The Hijri year (1415) is a conversion of the Gregorian date. Liwa has no place entity in the museum yet, so the born_in relation uses Oman."
   sources: [source/wikipedia-hazza-al-balushi-en, source/wikidata-hazaa-al-balushi, source/wikipedia-hazaa-al-balushi-ar]
+occupations:
+  - job: job/qari
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'reciter', Job Browser linking wave 24"
+    sources: [source/wikipedia-hazza-al-balushi-en, source/wikipedia-hazaa-al-balushi-ar, source/wikidata-hazaa-al-balushi]
 relations:
   - { type: born_in, target: place/oman, sources: [source/wikipedia-hazza-al-balushi-en, source/wikipedia-hazaa-al-balushi-ar] }
 faith:

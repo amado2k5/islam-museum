@@ -23,6 +23,12 @@ born:
   derived: true
   note: "Year only, from the Assabile biography, which gives his birth in 1976 in the village of Deir Ganadleh in Asyut province, Egypt. The Hijri year is an approximate conversion of the Gregorian year. Deir Ganadleh has no place entity in the museum yet, so the born_in relation uses Asyut, its province."
   sources: [source/assabile-yasser-qureshi-en]
+occupations:
+  - job: job/qari
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'reciter', Job Browser linking wave 24"
+    sources: [source/assabile-yasser-qureshi-en]
 relations:
   - { type: born_in, target: place/asyut, sources: [source/assabile-yasser-qureshi-en] }
   - { type: lived_in, target: place/cairo, sources: [source/assabile-yasser-qureshi-en] }

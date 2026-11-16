@@ -54,6 +54,12 @@ faith:
 
 external_ids: { wikidata: "Q12522411" }
 
+occupations:
+  - job: job/commander
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'general', Job Browser linking wave 24"
+    sources: [source/wikipedia-trunajaya-en, source/wikipedia-trunajaya-id, source/wikipedia-trunajaya-ar, source/wikidata-trunajaya]
 relations:
   - { type: born_in, target: place/indonesia, sources: [source/wikipedia-trunajaya-en], confidence: low, note: "Born at Arosbaya, Bangkalan, Madura per the record text." }
 sources:

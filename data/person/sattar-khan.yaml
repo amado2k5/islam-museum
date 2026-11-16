@@ -31,6 +31,12 @@ died:
   derived: true
   note: "Died at Tehran, disabled since the leg wound he received at the Atabak Park incident of August 1910, and was buried in the Shah-Abdol-Azim shrine cemetery at Shahr-e Ray. The day is split across the sources: the Encyclopaedia Iranica gives 9 November 1914 and the English Wikipedia text, citing Berberian, agrees; the English article's infobox and lead give 17 November 1914, and the Russian infobox gives 15 November 1914. The record follows the Iranica reading and discloses the others. The Hijri year 1332 is the derived conversion."
   sources: [source/iranica-sattar-khan, source/wikipedia-sattar-khan-en, source/wikipedia-sattar-khan-ru]
+occupations:
+  - job: job/commander
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'general', Job Browser linking wave 24"
+    sources: [source/wikipedia-sattar-khan-en, source/iranica-sattar-khan, source/wikipedia-sattar-khan-fa, source/wikipedia-sattar-khan-ru]
 relations:
   - { type: buried_in, target: place/rayy, sources: [source/wikipedia-sattar-khan-en] }
   - { type: born_in, target: place/azerbaijan, sources: [source/iranica-sattar-khan, source/wikipedia-sattar-khan-en] }

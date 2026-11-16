@@ -30,6 +30,12 @@ died:
   derived: true
   note: "Died at Alexandria, at the university hospital, after a cerebral haemorrhage, and was buried at Mit Gazal in accordance with his will (Arabic article). The Hijri year is from the Arabic article's categorisation of his death under 1398 AH."
   sources: [source/wikipedia-mustafa-ismail-en, source/wikipedia-mustafa-ismail-ar, source/wikidata-mustafa-ismail]
+occupations:
+  - job: job/qari
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'reciter', Job Browser linking wave 24"
+    sources: [source/wikipedia-mustafa-ismail-en, source/wikipedia-mustafa-ismail-ar, source/wikipedia-mustafa-ismail-ur, source/wikidata-mustafa-ismail, source/wikidata]
 relations:
   - { type: died_in, target: place/alexandria, note: "Died at Alexandria (both articles and Wikidata agree). The edge is written here, in his own record, only.", sources: [source/wikipedia-mustafa-ismail-en, source/wikipedia-mustafa-ismail-ar] }
 faith:
