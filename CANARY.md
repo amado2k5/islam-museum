@@ -14,6 +14,9 @@ open a new block on top with the new version and today's date.
 ---
 
 ## v1.65.0 — 2026-11-16
+### Data
+- Daily prose-completion measurement regenerated: 37,614 entities in the prose classes, Arabic full prose at 34.0%, English 40.4%, Urdu 36.9%; full prose keeps rising and partial and empty keep falling.
+
 ### Added
 - Job Browser: six scholarly and religious roles — the professor as the holder of a madrasa chair (müderris), the orientalist (müsteşrik), the religious scholar (ʿālim), the philosopher (faylasūf), the preacher (wāʿiẓ) and the sociologist — in Arabic, English and Urdu draft cited to TDV ORYANTALİZM, VÂFÎ and the landed icazet/fetva/vaaz entries, plus Lane, the Legacy of Islam and Ibn al-Ukhuwwa.
 
