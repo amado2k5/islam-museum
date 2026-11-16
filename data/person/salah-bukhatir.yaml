@@ -13,6 +13,17 @@ roles: [reciter, preacher]
 wings: [people, living]
 regions: [arabia]
 born: { edtf: "1970", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Modern Biography" }
+occupations:
+  - job: job/qari
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'reciter', Job Browser linking wave 25"
+    sources: [source/muslim-central-salah-bukhatir]
+  - job: job/preacher
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'preacher', Job Browser linking wave 25"
+    sources: [source/muslim-central-salah-bukhatir]
 relations:
   - { type: lived_in, target: place/united-arab-emirates, sources: [source/muslim-central-salah-bukhatir] }
 faith:

@@ -16,6 +16,17 @@ wings: [people]
 themes: [scripture-and-its-sciences]
 periods: [period/modern-era]
 regions: [arabia]
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 25"
+    sources: [source/taysir-karim-rahman-obeikan-2001]
+  - job: job/teacher
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'teacher', Job Browser linking wave 25"
+    sources: [source/taysir-karim-rahman-obeikan-2001]
 relations:
   - { type: lived_in, target: place/unayza, sources: [source/taysir-karim-rahman-obeikan-2001] }
   - { type: authored, target: work/taysir-al-karim-al-rahman, sources: [source/taysir-karim-rahman-obeikan-2001] }

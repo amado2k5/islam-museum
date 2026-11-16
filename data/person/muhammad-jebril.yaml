@@ -15,6 +15,17 @@ wings: [people, living]
 regions: [egypt-nile]
 roles: [reciter, imam, presenter]
 born: { edtf: "1964", calendar: gregorian, precision: year, status: historical, derived: false, note: "Born at Tahouria village, Shibin al-Qanatir district, Qalyubia (Arabic article; Wikidata gives 1964 and Shibin al-Qanatir). No place entity exists for either, so no birthplace relation is written.", sources: [source/wikipedia-muhammad-jebril-ar, source/wikidata-muhammad-jebril] }
+occupations:
+  - job: job/qari
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'reciter', Job Browser linking wave 25"
+    sources: [source/wikipedia-muhammad-jebril-ar, source/wikidata-muhammad-jebril]
+  - job: job/imam
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'imam', Job Browser linking wave 25"
+    sources: [source/wikipedia-muhammad-jebril-ar, source/wikidata-muhammad-jebril]
 relations:
   - { type: lived_in, target: place/cairo, note: "Cairo until July 2015; London from July 2015 (no London place entity yet)", sources: [source/wikipedia-muhammad-jebril-ar] }
 faith:

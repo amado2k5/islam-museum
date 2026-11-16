@@ -14,6 +14,17 @@ wings: [people, living]
 regions: [arabia]
 roles: [reciter, scholar]
 born: { edtf: "1970-01-07", hijri: "1389", calendar: gregorian, precision: day, status: debated, derived: true, note: "The English article (citing People of Madina) and the French article give 7 January 1970 at Hofuf, the French pairing it with 1389 AH; the Arabic article pairs his January birth with 1390 AH alongside 1970, a loose year pairing since January 1970 falls in 1389 AH. Wikidata gives only the year 1971. The record carries 7 January 1970, with the year debated.", sources: [source/wikipedia-salah-al-budair-en, source/wikipedia-salah-al-budair-fr, source/wikipedia-salah-al-budair-ar, source/wikidata-salah-al-budair] }
+occupations:
+  - job: job/qari
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'reciter', Job Browser linking wave 25"
+    sources: [source/wikipedia-salah-al-budair-en, source/wikipedia-salah-al-budair-ar, source/wikipedia-salah-al-budair-fr, source/wikipedia-salah-al-budair-ur, source/wikidata-salah-al-budair]
+  - job: job/alim
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 25"
+    sources: [source/wikipedia-salah-al-budair-en, source/wikipedia-salah-al-budair-ar, source/wikipedia-salah-al-budair-fr, source/wikipedia-salah-al-budair-ur, source/wikidata-salah-al-budair]
 relations:
   - { type: born_in, target: place/al-ahsa, note: "Born at Hofuf, in the Al-Ahsa governorate; no place entity exists for Hofuf itself.", sources: [source/wikipedia-salah-al-budair-en, source/wikipedia-salah-al-budair-ar] }
   - { type: lived_in, target: place/medina, note: "Imam of the Prophet's Mosque and judge of the Medina High Court; the French article gives his domicile as Medina.", sources: [source/wikipedia-salah-al-budair-en, source/wikipedia-salah-al-budair-fr] }
