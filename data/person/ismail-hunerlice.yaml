@@ -1,0 +1,28 @@
+id: person/ismail-hunerlice
+class: person
+label: { ar: "إسماعيل هونرليجه", en: "İsmail Hünerlice", ur: "اسماعیل ہونرلیجے" }
+names:
+  - { value: "İsmail Hünerlice", kind: full }
+  - { value: "إسماعيل هونرليجه", kind: full }
+gender: male
+summary:
+  ar: "واعظ تركي مقيم في إسطنبول، عُرف بدروسه في الفقه وأجوبته على أسئلة الفتوى ومحاضراته في إيتشرنكوي، وتنشر قناته على يوتيوب دروسه وأجوبته منذ سنة 2014. بلغت قناته على يوتيوب 191,000 مشترك كما في 15 نوفمبر 2026 بحسب vidIQ، وهو عدد منصّة مؤرخ لا حقيقة متحقق منها متحفيًا."
+  en: "Turkish preacher based in Istanbul, known for his lessons in fiqh, his fatwa question-and-answer sessions and his İçerenköy talks; his YouTube channel has carried his lessons and answers since 2014. His YouTube channel counted 191,000 subscribers as of 15 November 2026 per vidIQ — a dated platform count, not a museum-verified fact."
+  ur: "استنبول میں مقیم ترک واعظ، جو فقہ کے دروس، فتویٰ سوال و جواب اور ایچیرنکوئے محاضرات کے لیے جانے جاتے ہیں؛ ان کا یوٹیوب چینل 2014ء سے ان کے دروس اور جوابات نشر کر رہا ہے۔ vidIQ کے مطابق 15 نومبر 2026ء کو ان کے یوٹیوب چینل کے سبسکرائبر 191,000 تھے — یہ ایک مؤرخہ منصّہ عدد ہے، عجائب گھر کی تصدیق شدہ حقیقت نہیں۔"
+roles: [preacher]
+wings: [people, living]
+regions: [anatolia-balkans]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No prose text read in this build names a school for İsmail Hünerlice. The only sources registered for him are his own channel and its vidIQ tracker page, which name no school; a journal table's listing of a community affiliation for him, noted in the harvest, is affiliation, which never counts as a faith attestation. Under the doubt rule the value stays unknown."
+    sources: [source/youtube-ismail-hunerlice, source/vidiq-ismail-hunerlice]
+reach:
+  - { platform: youtube, metric: subscribers, value: 191000, date: "2026-11-15", note: "@ismailhunerlicehoca: 191,000 subscribers, 64,369,081 views and 4,481 videos as of 15 November 2026 per vidIQ, recorded by the wave-203 harvest — a dated platform count, not a museum-verified fact. The harvest records that the channel started on 19 September 2014 and that the handle is given as his YouTube account in his own videos' descriptions.", sources: [source/vidiq-ismail-hunerlice, source/youtube-ismail-hunerlice] }
+sources: [source/vidiq-ismail-hunerlice, source/youtube-ismail-hunerlice]
+provenance:
+  layer: own-research
+  source: "Built from the wave-203 slice-B harvest (İsmail Hünerlice entry) and build-time checks of 16 November 2026. No Wikipedia article in any language and no Wikidata item was found for him in the harvest or at build, and no institutional biography was found; under the lane's channel-queue rule the record is therefore built minimally from his own channel (registered as a primary source for his identity, work and reach, never independent corroboration) and the harvest's vidIQ read of @ismailhunerlicehoca (191,000 subscribers as of 15 November 2026). Qualification rests on that dated count, above the men's bar. No birth date or birthplace is recorded, because no source read gives one. The designation re-screen at build found no verified link, endorsement or financial tie to any designated organisation, and no blocked organisation is named anywhere in this record. No source read names a school for him, so his faith stays unknown."
+  generated_by: "Muse (Muse Wonder)"
+  run: modern-figures-wave-203-b
+status: { review: published, completeness: 3 }

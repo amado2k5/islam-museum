@@ -15,6 +15,7 @@ open a new block on top with the new version and today's date.
 
 ## v2.09.0 — 2026-11-17
 ### Added
+- Modern-figures wave 203, section B: five Turkish-scene person records from the wave-202 Tier 2 re-check — Serdar Tuncer (249K subscribers), Caner Taslaman (244K), İsmail Hünerlice (191K), M. Fatih Çıtlak (141K) and Ebubekir Sifil (112K) — each with Arabic, English and Urdu pages and dated channel counts.
 - Job Browser linking wave 35: 30 `occupations:` edges on 25 person records — twelve emirs, eight muhaddiths, plus mutakallim (al-Murtada, al-Shahrastani, al-Jubba'i), philosopher, historian and mathematician links.
 
 ## v2.08.0 — 2026-11-17

@@ -1,0 +1,37 @@
+id: person/ebubekir-sifil
+class: person
+label: { ar: "أبو بكر سيفيل", en: "Ebubekir Sifil", ur: "ابوبکر سفل" }
+names:
+  - { value: "Ebubekir Sifil", kind: full }
+  - { value: "أبو بكر سيفيل", kind: full }
+gender: male
+summary:
+  ar: "عالم حديث وأكاديمي تركي، وُلد في 25 ديسمبر 1960 في صاري قامش بولاية قارص، أكمل الماجستير سنة 1996 والدكتوراه سنة 2006 في علم الحديث بجامعة سلجوق، ويعمل عضو هيئة تدريس في كلية الإلهيات بجامعة يالوفا، وألّف كتبًا في الحديث ونقد الفكر الإسلامي الحديث وكتب عمودًا صحفيًا لسنوات. بلغت قناته على يوتيوب 112,000 مشترك كما في 16 نوفمبر 2026 بحسب vidIQ، وهو عدد منصّة مؤرخ لا حقيقة متحقق منها متحفيًا."
+  en: "Turkish hadith scholar and academic, born on 25 December 1960 in Sarıkamış, Kars. He completed his master's in 1996 and his doctorate in 2006 in hadith studies at Selçuk University, serves as a faculty member at Yalova University's theology faculty, and has written books on hadith and a critique of modern Islamic thought as well as a newspaper column for years. His YouTube channel counted 112,000 subscribers as of 16 November 2026 per vidIQ — a dated platform count, not a museum-verified fact."
+  ur: "ترک عالمِ حدیث اور ماہرِ تعلیم، جو 25 دسمبر 1960ء کو قارص کے علاقے صاری قامش میں پیدا ہوئے، 1996ء میں ماسٹرز اور 2006ء میں سلجوق یونیورسٹی سے حدیث میں ڈاکٹریٹ مکمل کی، یالوفا یونیورسٹی کے شعبۂ الہیات میں استاد ہیں، اور حدیث اور جدید اسلامی فکر کی تنقید پر کتابیں لکھیں۔ vidIQ کے مطابق 16 نومبر 2026ء کو ان کے یوٹیوب چینل کے سبسکرائبر 112,000 تھے — یہ ایک مؤرخہ منصّہ عدد ہے، عجائب گھر کی تصدیق شدہ حقیقت نہیں۔"
+roles: [scholar, writer]
+wings: [people, living]
+regions: [anatolia-balkans]
+born:
+  edtf: "1960-12-25"
+  calendar: gregorian
+  precision: day
+  status: historical
+  note: "Born on 25 December 1960 in Sarıkamış, a district of Kars province, per the Turkish Wikipedia article; no place record for Sarıkamış exists in the museum, so the born_in edge is written to Kars."
+  sources: [source/wikipedia-ebubekir-sifil-tr]
+relations:
+  - { type: born_in, target: place/kars, sources: [source/wikipedia-ebubekir-sifil-tr], note: "Born in Sarıkamış, a district of Kars province; the edge is written to the Kars place record." }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No two prose texts attest a school for Ebubekir Sifil himself. The Turkish article's infobox records his religion as Islam only and lists scholars who influenced him — structured data and influence, neither of which settles faith. The prose texts read — the article's body and his official website — name no school; his hadith specialisation is his scholarly field, and the titles of his works, including a commentary on a creed text, are works, not attestations of his own school. Under the doubt rule the value stays unknown."
+    sources: [source/wikipedia-ebubekir-sifil-tr, source/official-site-ebubekir-sifil]
+reach:
+  - { platform: youtube, metric: subscribers, value: 112000, date: "2026-11-16", note: "@profdrebubekirsifil: 112,000 subscribers, 16,462,592 views and 1,959 videos as of 16 November 2026 per vidIQ, recorded by the wave-203 harvest — a dated platform count, not a museum-verified fact.", sources: [source/vidiq-ebubekir-sifil, source/youtube-ebubekir-sifil] }
+sources: [source/wikipedia-ebubekir-sifil-tr, source/official-site-ebubekir-sifil, source/vidiq-ebubekir-sifil, source/youtube-ebubekir-sifil]
+provenance:
+  layer: own-research
+  source: "Built from the wave-203 slice-B harvest (Ebubekir Sifil entry) and build-time checks of 16 November 2026: the Turkish Wikipedia article 'Ebubekir Sifil' read in full (the harvest had found no Wikipedia article; the article exists in Turkish, with an Azerbaijani article also listed on Wikidata search results but not read in this build), his official website read, and the harvest's vidIQ read of his YouTube channel @profdrebubekirsifil (112,000 subscribers as of 16 November 2026). Qualification rests on that dated count, above the men's bar. The designation re-screen at build found no verified link, endorsement or financial tie to any designated organisation, and no blocked organisation is named anywhere in this record. No Wikidata item was verified in this build, so no external identifier is recorded. No prose text read names a school for him, so his faith stays unknown."
+  generated_by: "Muse (Muse Wonder)"
+  run: modern-figures-wave-203-b
+status: { review: published, completeness: 3 }
