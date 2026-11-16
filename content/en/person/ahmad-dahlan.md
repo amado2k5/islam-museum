@@ -46,3 +46,6 @@ The Muhammadiyah he founded still works in education, health and preaching acros
 ## References
 - The defined sources cited above, registered in `data/source/`, including the skeleton record's book source, Hasan Ibrahim Hasan's Tarikh al-Islam, which remains in the record's sources list.
 - Later revisions of this article require periodic review with clear update dates.
+
+## In The Oxford Dictionary of Islam
+The Oxford Dictionary of Islam has a short entry on Dahlan, dating his death to 1923 and giving his birth name as Mohammad Darwisi, and it states that he was trained by Muhammad Abduh in Cairo, that he supported modern scientific education alongside traditional religious learning, particularly for women, and that he sought to purify Islam of syncretic mysticism, animism and the legacies of other traditions. {cite:oxford-dictionary-of-islam e477} That claim of training in Cairo differs from the account above, which has him studying in Mecca, and it is recorded here as the Dictionary's own wording and not as settled.

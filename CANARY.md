@@ -13,9 +13,23 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v1.57.0 — 2026-11-16
+### Added
+- Job Browser: six scientific professions — the astrologer (munajjim) who became the Ottoman müneccimbaşı, the muwaqqit timekeeper of the mosque and his muvakkithane, the mathematician of the riyaziyat, the engineer from the Banu Musa's hiyel to the Mühendishâne corps, the alchemist-chemist (kimyager), and the geographer — in Arabic, English and Urdu draft cited to the TDV entries İLM-i AHKÂM-ı NÜCÛM, İLM-i MÎKĀT, MATEMATİK, HİYEL, MÜHENDİSHÂNE, KİMYA and COĞRAFYA, and the science chapters of *The Legacy of Islam* (1931).
+
+## v1.56.1 — 2026-11-16
+### Added
+- Oxford Islamic Studies Online (OUP), read through Wayback Machine captures, is registered as a source family, with The Oxford Dictionary of Islam as its first work, and a general family for defunct sites preserved by the Internet Archive. Posture: facts in our own words, link-only for text, nothing captured stored. Readers can now follow citations to an entry's stable id.
+### Data
+- Eight records gained a cited section from three Oxford Dictionary of Islam entries, in Arabic, English and Urdu: the five pillars, shahada, salah, zakat, Ramadan fasting and hajj (from the entry Pillars of Islam), Ahmad Dahlan (where the Dictionary's account of his training differs from ours, shown as its own wording) and Necip Fazil Kisakurek.
+- The list of Oxford Dictionary of Islam entry ids and the archive enumeration recipe are recorded for later enrichment lanes.
+
 ## v1.56.0 — 2026-11-16
 ### Added
 - Job Browser: five medical professions — the surgeon (jarrah) examined on his kit by the muhtasib, the oculist (kahhal) drilled on Hunayn's Ten Treatises, the pharmacist (saydalani) of the Abbasid drug trade and the Ottoman eczahane, the veterinarian (baytar) bled and shod under hisba rules, and the midwife (qabila) of the kursee el-wilâdeh — in Arabic, English and Urdu draft cited to the TDV entries CERRAHLIK and ECZACILIK, the hisba manuals of Ibn al-Ukhuwwa and al-Shayzari, Evliya Çelebi's guild procession and Lane's Cairo.
+## v1.56.0 — 2026-11-16
+### Added
+- Four more Inventions Browser records closing the second hundred-invention wave, each with Arabic, English and Urdu prose: the MOSFET of Atalla and Kahng; the Ommaya reservoir; the ElGamal public-key cryptosystem; and Aziz Sancar's DNA excision-repair work.
 
 ### Data
 - Twenty-five more entries from Ibn Sina's Canon, Book II on simple drugs, scan pages 659 to 668: the last entries of the letter qaf (qabaj, qabar, qadm quraysh, qult, qaysur, qatt, the acacia sap qaraz with its Dioscorides passage, and qamar quraysh, which closes the letter at fifty-two drugs) and the first of the letter ra (rayhan, rayhan sulayman, ray al-hamam, ray al-ibil, ratta, rawand, razyanaj, ramik, rutab, ratinj, rasan, ash, rijl al-jarad, rijl al-ghurab, the pomegranate, ribas and the lung). Each entry gives the book's account of nature, temperament, properties and uses by organ, cited to the printed page. The book's reports on the womb, menses, foetus, semen, desire and pregnancy are kept as labelled book listings, not as advice, for the founder's ruling; measured doses, weights, counts, times and preparation methods are left out.

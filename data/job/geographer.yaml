@@ -1,0 +1,40 @@
+id: job/geographer
+class: job
+label: { ar: "الجغرافي", en: "Geographer (jughrafi)", ur: "جغرافیہ دان" }
+names:
+  - { value: "جغرافي", kind: alternate }
+  - { value: "coğrafyacı", kind: latinized, lang: tr }
+  - { value: "صاحب المسالك", kind: alternate }
+summary:
+  ar: "الجغرافي هو من يصف الأرض وأقاليمها وسكانها، وقد عُربت كلمة geographia «جغرافيا» وسمّاها الخوارزمي «صورة الأرض» وفسّرها المسعودي «قطع الأرض». نشأ العلم فرعاً قائماً مع دخول مؤلفات الهند وإيران واليونان في الفلك والجغرافيا إلى بغداد العباسية من سبعينيات القرن الثامن، وقامت مدرستان للجغرافيا الوصفية في العراق وبلخ. ولم يعرف الجغرافيوس المتقدمون علمهم حدوداً دقيقة كعلم مستقل فتفرّق بين الفلك والكوزموغرافيا والفلسفة وكتب المسالك والممالك ورحلات الأسفار؛ ثم حمل العثمانيون التراث بالترجمة فأخرجوا أول كتبهم الجغرافية بعد فتح أدرنه بقليل وبلغ بهم العمل ذروته في القرن السابع عشر مع أول جغرافية منهجية لبلادهم."
+  en: "The geographer described the earth, its climes and its peoples; the word geographia was arabised as cughrafiya, al-Khwarizmi named his book Surat al-ard (the image of the earth), and al-Mas'udi read the science as qat' al-ard, the cutting open of the earth. The craft arose as a science in Abbasid Baghdad as Indian, Iranian and Greek works of astronomy-geography arrived from the 770s, and the two descriptive schools of Iraq and Balkh formed. The medieval geographers knew no sharply bounded discipline: their matter lay scattered through astronomy, cosmography, philosophy, the masalik wa'l-mamalik books and travel accounts. The Ottomans carried the heritage on by translation, produced their first geography soon after the taking of Edirne, and reached their height in the seventeenth century with the first systematic geography of their own lands."
+  ur: "جغرافیہ دان وہ شخص تھا جو زمین، اس کے اقالیم اور ان کے باشندوں کا بیان کرتا تھا؛ geographia کا لفظ جغرافیا ہو کر عربی میں آیا، خوارزمی نے اپنی کتاب کا نام صورۃ الارض رکھا اور مسعودی نے اس علم کو قطع الارض یعنی زمین کی کھوج کہا۔ یہ صنعت ستر کی دہائی سے ہند، ایران اور یونان کی فلکیات-جغرافیہ کی کتابوں کے بغداد پہنچنے سے علم بنا، اور عراق و بلخ کے دو بیانیہ مکاتب قائم ہوئے۔ قرونِ وسطی کے جغرافیہ دان اپنے علم کو ایک واضح حد بند فن نہیں مانتے تھے: ان کا مواد فلکیات، کائنات شناسی، فلسفہ، مسالک و ممالک کی کتابوں اور سفرناموں میں بکھرا تھا۔ عثمانیوں نے ترجمے سے اس ورثے کو آگے بڑھایا، ادرنے کی فتح کے فوراً بعد اپنی پہلی جغرافیہ لکھی اور سترہویں صدی میں اپنے ملک کی پہلی منظم جغرافیہ کے ساتھ عروج پر پہنچے۔"
+domain: sciences-numbers
+kind: scholarly
+hirfa: false
+era:
+  origins: pre-islamic
+  status_today: transformed
+places:
+  - { place: place/baghdad, note: "Under the caliph al-Ma'mun the scholars at Baghdad verified the geographical data of the Greek books, measured the earth to find the true length of a degree, and drew a world map they called al-Surat al-Ma'muniyya, which has not survived.", sources: [source/tdv-cografya] }
+  - { place: place/edirne, note: "The earliest dated Ottoman geographical work — a translation of the astronomical sections of Ibn al-Wardi's Kharidat al-aja'ib made shortly after the conquest of Edirne (1362) — is counted by the entry as the first Ottoman geography book.", sources: [source/tdv-cografya] }
+  - { place: place/istanbul, note: "Ottoman geography reached its height in the seventeenth century with the first and only systematic geography of the Ottoman lands by an Ottoman author, and Ibrahim Müteferrika's illustrated printing of geographical books (Istanbul 1142).", sources: [source/tdv-cografya] }
+regions: [levant-iraq, egypt-nile, maghreb, andalus-europe, persia-central-asia, anatolia-balkans]
+organization:
+  organized: informal
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people]
+periods: [period/abbasid-early, period/abbasid-fragmentation, period/crusades-ayyubid-mamluk, period/mongol-post-mongol, period/gunpowder-empires]
+sources: [source/tdv-cografya, source/legacy-of-islam-1931]
+training:
+  mode: ijaza-chain
+  certification: "No licence for the geographer is described in the entry read. The science came through books and travel: the Samarkand school reached the Ottoman writers through mathematical astronomy, and the Ottoman geographers learned first by translating Kazvini and the Arabic-Persian corpus; the great travellers — Evliya Çelebi among them — worked from a quarter-century of journeys."
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-sci-1" }
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi 'COĞRAFYA' (S. M. Ahmad & M. Ak, 1993; vol. 8 pp. 50-66), read on the web on 16 Nov 2026 — source already on main; J. H. Kramers, 'Geography and Commerce', The Legacy of Islam (OUP 1931), read in the downloaded scan"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-sci-1-drafting"

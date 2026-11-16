@@ -1,0 +1,58 @@
+id: person/dawon-kahng
+class: person
+label: { ar: "داون كانغ", en: "Dawon Kahng", ur: "داون کانگ" }
+names:
+  - { value: "Dawon Kahng", kind: full, lang: en }
+  - { value: "داون كانغ", kind: full, lang: ar }
+  - { value: "강대원", kind: alternate, lang: ko }
+gender: male
+born:
+  edtf: "1931-05-04"
+  hijri: "1349"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born in Keijo, Keiki-do, Korea (now Seoul) on 4 May 1931 per the recorded biography; the Hijri year 1349 is a tabular derived conversion."
+  sources: [source/wikipedia-dawon-kahng-en]
+died:
+  edtf: "1992-05-13"
+  hijri: "1412"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on 13 May 1992 of complications after emergency surgery for a ruptured aortic aneurysm per the recorded biography; the Hijri year 1412 is a tabular derived conversion."
+  sources: [source/wikipedia-dawon-kahng-en]
+roles: [engineer, inventor]
+wings: [people]
+regions: [china-east-asia, americas-oceania]
+periods: [period/modern-era]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read states a religion for Dawon Kahng; none is recorded."
+    sources: [source/wikipedia-dawon-kahng-en]
+inventions:
+  - invention: invention/atalla-mosfet
+    role: describer
+    place: place/united-states
+    sources: [source/wikipedia-dawon-kahng-en, source/wikipedia-mosfet-en]
+summary:
+  ar: "مهندس كهربائي كوري-أمريكي ⁦(1931–1992)⁩، وُلد في كيجو ⁦(سول اليوم)⁩ ودرس الفيزياء في جامعة سول الوطنية ثم هاجر إلى الولايات المتحدة 1955 ونال الدكتوراه من جامعة ولاية أوهايو 1959. باحث في مختبرات بِل بموراي هيل، صنع مع محمد عطا الله أول ترانزستور موسفت عام 1959 بعمليتي PMOS وNMOS، وشاركه ريادة دَيودات شوتكي العملية وترانزستور القاعدة النانوية، ثم اخترع مع سيمون من تسي موسفت البوابة العائمة 1967 التي قامت عليها ذاكرات EPROM وEEPROM والوميضية؛ رئيس مؤسس لمعهد NEC للبحوث وأُدخل قاعة مشاهير المخترعين 2009 {cite:wikipedia-dawon-kahng-en}."
+  en: "Korean-American electrical engineer and inventor ⁦(1931–1992)⁩, born in Keijo ⁦(now Seoul)⁩, educated in physics at Seoul National University, emigrated to the United States in 1955 and took his doctorate at Ohio State University in 1959. A researcher at Bell Telephone Laboratories in Murray Hill, he built the first MOSFET with Mohamed Atalla in 1959 with both PMOS and NMOS processes, co-pioneered practical Schottky diodes and the metal nanolayer-base transistor, then invented the floating-gate MOSFET with Simon Min Sze in 1967 — the basis of EPROM, EEPROM and flash memory; founding president of the NEC Research Institute and a 2009 National Inventors Hall of Fame inductee {cite:wikipedia-dawon-kahng-en}."
+  ur: "کوریائی نژاد امریکی برقی انجینئر اور ایجاد کنندہ ⁦(1931–1992)⁩، کيجو ⁦(آج کا سیول)⁩ میں پیدا ہوئے، سیول قومی جامعہ سے طبیعیات پڑھی، 1955 میں امریکہ ہجرت کی اور 1959 میں اوہائیو اسٹیٹ سے ڈاکٹریٹ لی۔ مورے ہل کی بیل لیبارٹریوں میں محقق رہے؛ 1959 میں محمد عطا اللہ کے ساتھ پہلا موسفیٹ بنایا ⁦(PMOS اور NMOS دونوں عملوں سے)⁩، شوٹکی ڈائی اوڈ اور نینو پرت والی قاعدے کے ٹرانزسٹر کے مشترک پیش رو رہے، پھر 1967 میں سائمن من سی کے ساتھ فلوٹنگ گیٹ موسفیٹ ایجاد کی جو EPROM، EEPROM اور فلیش میموری کی بنیاد بنا؛ NEC ریسرچ انسٹیٹیوٹ کے بانی صدر اور 2009 میں قومی ایجاد کنندگان ہال آف فیم کے رکن {cite:wikipedia-dawon-kahng-en}۔"
+kids:
+  ar: "داون كانغ مهندس كوري عمل مع محمد عطا الله في مختبرات بِل، فصنعا معاً عام 1959 أول موسفت — المفتاح الإلكتروني الصغير الذي تعمل به اليوم أجهزتنا كلها تقريباً."
+  en: "Dawon Kahng was a Korean engineer who worked with Mohamed Atalla at Bell Labs; together they built the first MOSFET in 1959 — the tiny switch almost all our devices run on today."
+  ur: "داون کانگ ایک کوریائی انجینئر تھے جو بیل لیبز میں محمد عطا اللہ کے ساتھ کام کرتے تھے؛ دونوں نے مل کر 1959 میں پہلا موسفیٹ بنایا — وہ چھوٹا سوئچ جس پر آج تقریباً ہر آلہ چلتا ہے۔"
+sources:
+  - source/wikipedia-dawon-kahng-en
+  - source/wikipedia-mosfet-en
+status: { review: published, completeness: 2 }
+provenance:
+  layer: own-research
+  generated_by: devin-drafter-w2-33
+  model: devin
+  run: inventions-w2-33
+  source: "English Wikipedia 'Dawon Kahng' revision 1374668413 read in full (Seoul birth, SNU, Ohio State PhD 1959, Bell Labs, MOSFET 1959 with Atalla, Schottky and nanolayer-base work, floating-gate MOSFET 1967 with Sze, NEC Research Institute, awards); MOSFET recorded revision 1384578492 for the device facts."

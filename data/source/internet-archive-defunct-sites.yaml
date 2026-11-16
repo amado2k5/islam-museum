@@ -1,0 +1,21 @@
+id: source/internet-archive-defunct-sites
+class: source
+kind: secondary
+type: web
+label:
+  ar: "مواقع زائلة حفظها أرشيف الإنترنت ⁦(آلة الرجوع)⁩"
+  en: "Defunct sites preserved by the Internet Archive (Wayback Machine)"
+  ur: "Defunct sites preserved by the Internet Archive (Wayback Machine)"
+summary:
+  ar: "أسرة مصادر للمواقع التي زالت أو أُغلقت وحفظها أرشيف الإنترنت: يُحال إلى الموقع الأصلي بوصفه العمل المقتبس، ويُحال إلى لقطة آلة الرجوع بطابعها الزمني بوصفها طريق الوصول، مع أخذ الحقائق فقط."
+  en: "A source family for sites that no longer exist or are closed and were archived by the Internet Archive: the original site is the work cited, the Wayback Machine capture with its timestamp is the access path, and only facts are taken."
+  ur: "A source family for defunct sites preserved by the Internet Archive: the original site is the work cited, the Wayback capture with its timestamp is the access path, and only facts are taken."
+title: "Defunct sites preserved by the Internet Archive"
+publisher: "Internet Archive"
+URL: "https://web.archive.org"
+language: en
+reliability_note: "A family, not a work: each defunct site is judged on the eight criteria of docs/agents/source-families.md before use, and gets its own note. Rules: cite the original site as the work and give the capture URL with its 14-digit timestamp; confirm the capture holds the content and not a login, paywall or error page; facts only in the museum's own words, never store captured pages, OCR or images in git; the capture is not a licence. Etiquette: generic user agent, a pause of at least two seconds between requests, enumerate with the CDX API (web.archive.org/cdx/search/cdx?url=<site>/*&filter=statuscode:200&collapse=urlkey&fl=timestamp,original), back off on 429 or 503 and retry later. Registered at the founder's instruction of 16 November 2026."
+open_access: true
+sources: [source/internet-archive-defunct-sites]
+provenance: { layer: own-research, source: "Founder instruction in chat, 16 November 2026; CDX API behaviour observed the same day", generated_by: "Claude Code", model: "Claude Sonnet 5.5 (claude-sonnet-5-5)", run: oxford-islamic-studies-wayback-2026-11-16 }
+status: { review: published, generated_by: "Claude Code (claude-sonnet-5-5)" }
