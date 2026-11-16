@@ -13,6 +13,10 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v2.19.0 — 2026-11-17
+### Added
+- Job Browser linking wave 45: 35 `occupations:` edges on 25 person records — finishes the qadi pool (fifteen judges) plus ten philosophers and alim, historian and poet links.
+
 ## v2.18.0 — 2026-11-17
 ### Added
 - Job Browser linking wave 44: 40 `occupations:` edges on 25 person records — finishes the faqih and mutakallim pools; plus mufti, qadi, preacher, philosopher, grammarian, historian and calligrapher links.
