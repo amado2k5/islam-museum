@@ -1,0 +1,16 @@
+id: passage/muslim-api-100
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "100"
+label: { ar: "صحيح مسلم 100 — تعريف الإسلام بأعماله", en: "Sahih Muslim 100 — Islam defined by its acts", ur: "صحیح مسلم 100 — اسلام کی تعریف اس کے اعمال سے" }
+text: "… دَوِيَّ صَوْتِهِ وَلاَ نَفْقَهُ مَا يَقُولُ حَتَّى دَنَا مِنْ رَسُولِ اللَّهِ فَإِذَا هُوَ يَسْأَلُ عَنِ الإِسْلاَمِ فَقَالَ رَسُولُ اللَّهِ \" خَمْسُ صَلَوَاتٍ فِي الْيَوْمِ وَاللَّيْلَةِ \". فَقَالَ هَلْ عَلَىَّ غَيْرُهُنَّ قَالَ \" لاَ. إِلاَّ أَنْ تَطَّوَّعَ وَصِيَامُ شَهْرِ رَمَضَانَ \". فَقَالَ هَلْ عَلَىَّ غَيْرُهُ فَقَالَ \" لاَ. إِلاَّ أَنْ تَطَّوَّعَ \". وَذَكَرَ لَهُ رَسُولُ اللَّهِ …"
+summary:
+  ar: "حديث في صحيح مسلم، رقم 100، يذكر تعريف الإسلام بأعماله. يجمعه متصفح أركان الإسلام وأركان الإيمان وشعب الإيمان وخصال المؤمن مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في هذه الأبواب الأربعة."
+  en: "A report in Sahih Muslim, no. 100 (The Book of Faith), that mentions Islam defined by its acts. The Pillars and Branches of Faith Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on the pillars of Islam, the pillars of faith, the branches of faith and the traits of the believer."
+  ur: "صحیح مسلم کی حدیث نمبر 100، جس میں اسلام کی تعریف اس کے اعمال سے کا ذکر ہے۔ ارکانِ اسلام، ارکانِ ایمان، شعبِ ایمان اور مومن کی خصلتوں کا براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/five-pillars, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 100 (book 1 hadith 8); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "arkan-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: published, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

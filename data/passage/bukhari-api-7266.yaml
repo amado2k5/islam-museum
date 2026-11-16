@@ -1,0 +1,17 @@
+id: passage/bukhari-api-7266
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "7266"
+label: { ar: "صحيح البخاري 7266 — الصلاة والزكاة والصوم والحج مجتمعة، الشهادة والصلاة والزكاة", en: "Sahih al-Bukhari 7266 — the prayer, the zakat, the fast and the pilgrimage named together; the testimony, the prayer and the zakat", ur: "صحیح بخاری 7266 — نماز، زکوٰۃ، روزہ اور حج ایک ساتھ، شہادت، نماز اور زکوٰۃ" }
+text: "… قَالَ \" هَلْ تَدْرُونَ مَا الإِيمَانُ بِاللَّهِ \". قَالُوا اللَّهُ وَرَسُولُهُ أَعْلَمُ. قَالَ \" شَهَادَةُ أَنْ لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ وَأَنَّ مُحَمَّدًا رَسُولُ اللَّهِ، وَإِقَامُ الصَّلاَةِ، وَإِيتَاءُ الزَّكَاةِ ـ وَأَظُنُّ فِيهِ ـ صِيَامُ رَمَضَانَ، وَتُؤْتُوا مِنَ الْمَغَانِمِ الْخُمُسَ \". وَنَهَاهُمْ عَنِ الدُّبَّاءِ، وَالْحَنْتَمِ، وَالْمُزَفَّتِ، وَالنَّقِيرِ، وَرُبَّمَا قَالَ الْمُقَيَّرِ. قَالَ \" احْفَظُوهُنَّ، …"
+summary:
+  ar: "حديث في صحيح البخاري، رقم 7266، يذكر الصلاة والزكاة والصوم والحج مجتمعة، والشهادة والصلاة والزكاة، وركن من أركان الإيمان. يجمعه متصفح أركان الإسلام وأركان الإيمان وشعب الإيمان وخصال المؤمن مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في هذه الأبواب الأربعة."
+  en: "A report in Sahih al-Bukhari, no. 7266 (Accepting Information Given by a Truthful Person), that mentions the prayer, the zakat, the fast and the pilgrimage named together, the testimony, the prayer and the zakat, one of the articles of faith. The Pillars and Branches of Faith Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on the pillars of Islam, the pillars of faith, the branches of faith and the traits of the believer."
+  ur: "صحیح بخاری کی حدیث نمبر 7266، جس میں نماز، زکوٰۃ، روزہ اور حج ایک ساتھ، شہادت، نماز اور زکوٰۃ، ایمان کا ایک رکن کا ذکر ہے۔ ارکانِ اسلام، ارکانِ ایمان، شعبِ ایمان اور مومن کی خصلتوں کا براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/five-pillars, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/arkan-al-iman, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 7266 (book 95 hadith 20); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "arkan-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: published, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

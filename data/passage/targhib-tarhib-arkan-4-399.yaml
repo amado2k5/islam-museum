@@ -1,0 +1,17 @@
+id: passage/targhib-tarhib-arkan-4-399
+class: passage
+unit: chapter
+work: work/al-targhib-wa-al-tarhib-mundhiri
+ref: "4:399"
+label: { ar: "الترغيب والترهيب للمنذري، المجلد المصوَّر 4، ص 399 — تعريف الإسلام بأعماله، الإيمان بالله وملائكته وكتبه ورسله", en: "al-Mundhiri's al-Targhib wa-l-Tarhib, scan volume 4, p. 399 — Islam defined by its acts; belief in God, His angels, His books and His messengers", ur: "الترغیب والترہیب، منذری، اسکین جلد 4، ص 399 — اسلام کی تعریف اس کے اعمال سے، اللہ، اس کے فرشتوں، کتابوں اور رسولوں پر ایمان" }
+text: "… عنهاء - وعن عمرو بن عبسة قال قال رجل يارسول الله ما الاسلام قال ان يسلم قلبك لله وأن يسلم المسلمون من لسانك ويدك قال فأى الاسلام. أفضل قال الايمان قال وما الايمان قال أن تؤمن بالله وملائكته وكتبه ورسله …"
+summary:
+  ar: "مقطع من الترغيب والترهيب للمنذري، المجلد المصوَّر 4، ص 399، يذكر تعريف الإسلام بأعماله، والإيمان بالله وملائكته وكتبه ورسله، والسؤال عن الإيمان وجوابه؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح أركان الإسلام وأركان الإيمان وشعب الإيمان وخصال المؤمن."
+  en: "An excerpt from al-Mundhiri's al-Targhib wa-l-Tarhib, scan volume 4, p. 399, that mentions Islam defined by its acts, belief in God, His angels, His books and His messengers, the question about faith and its answer; from the machine-read scan, quoted within forty words per the sources policy. The Pillars and Branches of Faith Browser lists it."
+  ur: "الترغیب والترہیب، منذری، اسکین جلد 4، ص 399 کا اقتباس جس میں اسلام کی تعریف اس کے اعمال سے، اللہ، اس کے فرشتوں، کتابوں اور رسولوں پر ایمان، ایمان کے بارے میں سوال اور اس کا جواب کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ ارکانِ اسلام، ارکانِ ایمان، شعبِ ایمان اور مومن کی خصلتوں کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/five-pillars, sources: [source/targhib-tarhib-qayyima] }
+  - { type: mentions, target: concept/arkan-al-iman, sources: [source/targhib-tarhib-qayyima] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan hadith/targhib-tarhib/AAlexandrina-154597, page 399; a window of at most 40 words chosen by the pillars and branches of faith detector (scripts/arkan.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "arkan-ocr-1" }
+sources: [source/targhib-tarhib-qayyima]
+status: { review: published, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words; the excerpt is machine-read and not corrected" }

@@ -1,0 +1,17 @@
+id: passage/bukhari-api-50
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "50"
+label: { ar: "صحيح البخاري 50 — تعريف الإسلام بأعماله، الصلاة والزكاة والصوم والحج مجتمعة", en: "Sahih al-Bukhari 50 — Islam defined by its acts; the prayer, the zakat, the fast and the pilgrimage named together", ur: "صحیح بخاری 50 — اسلام کی تعریف اس کے اعمال سے، نماز، زکوٰۃ، روزہ اور حج ایک ساتھ" }
+text: "… أَبِي زُرْعَةَ، عَنْ أَبِي هُرَيْرَةَ، قَالَ كَانَ النَّبِيُّ بَارِزًا يَوْمًا لِلنَّاسِ، فَأَتَاهُ جِبْرِيلُ فَقَالَ مَا الإِيمَانُ قَالَ \" الإِيمَانُ أَنْ تُؤْمِنَ بِاللَّهِ وَمَلاَئِكَتِهِ وَبِلِقَائِهِ وَرُسُلِهِ، وَتُؤْمِنَ بِالْبَعْثِ \". قَالَ مَا الإِسْلاَمُ قَالَ \" الإِسْلاَمُ أَنْ تَعْبُدَ اللَّهَ وَلاَ تُشْرِكَ بِهِ، وَتُقِيمَ الصَّلاَةَ، وَتُؤَدِّيَ الزَّكَاةَ الْمَفْرُوضَةَ، وَتَصُومَ رَمَضَانَ \". قَالَ مَا الإِحْسَانُ قَالَ \" أَنْ تَعْبُدَ …"
+summary:
+  ar: "حديث في صحيح البخاري، رقم 50، يذكر تعريف الإسلام بأعماله، والصلاة والزكاة والصوم والحج مجتمعة، والإيمان بالله وملائكته وكتبه ورسله، والسؤال عن الإيمان وجوابه، والإيمان بالبعث. يجمعه متصفح أركان الإسلام وأركان الإيمان وشعب الإيمان وخصال المؤمن مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في هذه الأبواب الأربعة."
+  en: "A report in Sahih al-Bukhari, no. 50 (Belief), that mentions Islam defined by its acts, the prayer, the zakat, the fast and the pilgrimage named together, belief in God, His angels, His books and His messengers, the question about faith and its answer, belief in the resurrection. The Pillars and Branches of Faith Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on the pillars of Islam, the pillars of faith, the branches of faith and the traits of the believer."
+  ur: "صحیح بخاری کی حدیث نمبر 50، جس میں اسلام کی تعریف اس کے اعمال سے، نماز، زکوٰۃ، روزہ اور حج ایک ساتھ، اللہ، اس کے فرشتوں، کتابوں اور رسولوں پر ایمان، ایمان کے بارے میں سوال اور اس کا جواب، دوبارہ اٹھائے جانے پر ایمان کا ذکر ہے۔ ارکانِ اسلام، ارکانِ ایمان، شعبِ ایمان اور مومن کی خصلتوں کا براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/five-pillars, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/arkan-al-iman, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 50 (book 2 hadith 43); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "arkan-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: published, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

@@ -1792,6 +1792,10 @@ explore:
       title: "Hudud Allah and Kaba'ir Browser"
       desc: "Every mention of the limits of God and the major sins — «these are the limits of God», the prescribed penalties of stoning, flogging, the amputated hand and discretionary punishment, the hadd crimes of fornication, theft, slander, wine, apostasy and brigandage, and the kaba'ir and the seven destroyers — in the Qur'an, the Sunnah, the seerah, Companion and Tabi'i reports and every harvested book, with every verse and report cited."
       menu: "Browse hudud Allah and kaba'ir across the Qur'an and books"
+    arkan:
+      title: "Pillars of Islam, Pillars of Faith, Branches of Faith and Traits of the Believer Browser"
+      desc: "Every mention of the five pillars of Islam, the six pillars of faith, the seventy-odd branches of faith and the traits of the believer in the Qur'an, the Sunnah, the seerah, the reports of the Companions and Successors and every harvested book, each verse and report with its source."
+      menu: "Browse the pillars of Islam and faith, the branches of faith and the traits of the believer"
     halal:
       title: "Halal and Haram Browser"
       desc: "Every mention of the lawful and the unlawful in Islam — what God permitted and what He forbade in food, drink, dress, marriage and earnings — in the Qur'an, the Sunnah, the seerah, the reports of the Companions and Successors and every harvested book, with detailed records on its principles and chapters."
@@ -4266,6 +4270,70 @@ sayyiat:
     sunnah_note: "{n} hadith collections have a passage here, the fullest first."
     count_in: "{n} passages"
     count_split: "{n} passages: {a} with the word, {r} on the wider theme"
+arkan:
+  title: "Pillars of Islam, Pillars of Faith, Branches of Faith and Traits of the Believer Browser"
+  lede: "Four doors in one browser: the five pillars Islam is built on, the six pillars of faith of the hadith of Jibril, the branches of faith the hadith counts as seventy-odd, and the traits of the believer as the verses and hadiths describe them. The browser gathers every place these four are mentioned in the Qur'an, the Sunnah, the seerah, the reports of the Companions and Successors, and the books of faith, commentary, renunciation and history, and every mention in a book harvested from now on. The museum describes what the sources hold and attributes each saying to its owner; it gives no rulings."
+  badge: "Pillars, branches and traits explorer"
+  status: "This build holds {n} records in {s} sections, each cited to its source."
+  method_title: "How the browser works"
+  method_note: "Every record here is an ordinary museum record with its sources. Qur'an verses come from a reviewed table naming the verses that the hadith collections and commentaries tie to each theme, because the Qur'an does not use the later terms 'pillars' or 'branches of faith'; a verse's text is the frozen Tanzil text of its record. Every other passage is found at build time by a guarded lexicon over its text: the four terms themselves, the hadith 'Islam is built on five', the answers to the questions on Islam and faith, the prayer, zakat, fast and pilgrimage named together, belief in God, His angels, His books, His messengers, the Last Day and the decree, 'seventy-odd branches', what a text counts as part of faith, 'none of you believes until', and the descriptions of the believer and the Muslim. Weak signals, such as a single article of faith or faith increasing and decreasing, count only beside a strong one or two at a time. Every book harvested later brings its mentions here automatically when its passages land in the graph, and curated records join through the arkan-browser tag. Excerpts from scanned books are machine-read and not corrected, and each such record says so."
+  api: "The full dataset is available at"
+  sections_title: "Sections"
+  filter_label: "Filter the records"
+  filter_none: "No matching results."
+  empty: "No records under this theme in this build yet."
+  sections:
+    quran:
+      title: "In the Qur'an"
+      desc: "The verses the hadith collections and commentaries tie to the four themes: the testimony verses, the prayer paired with the zakat, the fasting and pilgrimage verses, the verses of belief in God, His angels, His books, His messengers, the Last Day and the decree, the verses of faith increasing, and the passages describing the believers and the servants of the Merciful."
+    sunnah:
+      title: "In the Sunnah"
+      desc: "Hadiths of the two Sahihs, the Sunan and the Muwatta and their commentaries: the hadith of Jibril, Islam built on five, the delegation of 'Abd al-Qays, the sending of Mu'adh to Yemen, the branches of faith, the sweetness of faith, 'none of you believes until', and the likenesses and descriptions of the believer."
+    seerah:
+      title: "In the seerah"
+      desc: "What the seerah books carry on the pillars, faith and the traits of the believers: the delegations taught their religion, the Prophet's letters to the tribes, and the stands of the Companions; this section fills as new seerah text lands."
+    books:
+      title: "In other books"
+      desc: "The four themes in every harvested work other than the Qur'an, hadith and seerah: the books of faith and creed, the biographies and reports of the Companions and Successors, the books of renunciation, fiqh and history, and whatever comes next."
+    curated:
+      title: "Records on the pillars, branches and traits"
+      desc: "The museum's curated records on the themes themselves: the five pillars of Islam and each pillar, the six pillars of faith and each article, the branches of faith and al-Bayhaqi's book on them, and the traits of the believer with their related concepts."
+  topics:
+    islam:
+      title: "The pillars of Islam"
+      short: "The five Islam is built on: the two testimonies, establishing the prayer, giving the zakat, fasting Ramadan and the pilgrimage to the House."
+      desc: "Everything in the museum's sources on the five pillars of Islam: the two testimonies, the prayer, the zakat, the fast of Ramadan and the pilgrimage, in the Qur'an, the Sunnah, the seerah and other books."
+      scope: "Listed here: texts that name the pillars, count them together or define Islam by them, and the testimony, prayer, zakat, fasting and pilgrimage verses named in the Qur'an table. The detail of each act of worship is in the Worship and Adhkar Browser."
+    iman:
+      title: "The pillars of faith"
+      short: "The six of the hadith of Jibril: belief in God, His angels, His books, His messengers, the Last Day, and the decree, its good and its ill."
+      desc: "Everything in the museum's sources on the six pillars of faith: belief in God, His angels, His books, His messengers, the Last Day and the decree, in the Qur'an, the Sunnah, the seerah and other books."
+      scope: "Listed here: texts that name the pillars of faith, count them together or answer the question about faith, and belief in the decree. The detail of the angels, the Last Day and the messengers is in their own browsers."
+    shuab:
+      title: "The branches of faith"
+      short: "The seventy-odd branches: the highest is saying there is no god but God, the lowest is removing harm from the road, and modesty is one of them."
+      desc: "Everything in the museum's sources on the branches of faith: the hadith of the seventy-odd branches, what a text counts as part of faith, the sweetness and completeness of faith, and what faith is not complete without, in the Qur'an, the Sunnah, the seerah and other books."
+      scope: "Listed here: texts that name the branches or count an act, a word or a state as part of faith, texts that tie an act to belief in God and the Last Day, and the verses of faith increasing. A footnote citing the title of al-Bayhaqi's book is not counted as a mention."
+    khisal:
+      title: "The traits of the believer"
+      short: "What the verses and hadiths describe the believer by: humility in prayer, trustworthiness, mercy to fellow believers, patience and truthfulness."
+      desc: "Everything in the museum's sources on the traits of the believer: the verses describing the believers and the servants of the Merciful, the hadiths of the likeness of the believer, the descriptions of the believer and the Muslim and what a believer owes a believer, and the reports of the Companions and Successors."
+      scope: "Listed here: texts that describe the believer or the Muslim, give a likeness for them or count their traits. Character at large is in the Akhlaq Browser."
+  topics_ui:
+    status: "This theme holds {n} records: {c} curated, {q} verses, {s} from the Sunnah, {r} from the seerah and {b} from other books."
+    record: "Read the museum's record on this theme"
+  viz:
+    title: "The four doors"
+    note: "Four themes side by side, each with what the sources count under it and how many records each section holds. The pillars of Islam are the five of the hadith 'Islam is built on five'; the pillars of faith are the six of the hadith of Jibril; every name is a link to its record. The numbers are counted at build time from the museum's records; they carry no ranking and no ruling."
+    count: "{n} records"
+    members:
+      islam: "The five pillars"
+      iman: "The six pillars"
+      shuab: "Records of the theme"
+      khisal: "Records of the theme"
+    shuab_groups: "Al-'Ayni, in 'Umdat al-Qari, sets them in three groups: thirty branches of belief, seven of the tongue and forty of the body."
+    record: "The theme's record"
+    open: "Everything under it"
 hudud:
   title: "Hudud Allah and Kaba'ir Browser"
   lede: "Every mention of the limits of God and the major sins in the museum's sources: the verses of «these are the limits of God» and «whoever transgresses the limits of God», the hudud of fornication, theft and slander in the two Sahihs, the Muwatta and the Sunan, the carrying out of penalties in the seerah and the reports of the Companions and Successors, the lists of kaba'ir and the seven destroyers, and every mention in every harvested book — cited records that grow as new text lands."

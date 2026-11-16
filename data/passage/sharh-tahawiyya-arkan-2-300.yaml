@@ -1,0 +1,17 @@
+id: passage/sharh-tahawiyya-arkan-2-300
+class: passage
+unit: chapter
+work: work/sharh-aqida-tahawiyya
+ref: "2:300"
+label: { ar: "شرح العقيدة الطحاوية لابن أبي العز، المجلد المصوَّر 2، ص 300 — تعريف الإسلام بأعماله، الإيمان بالقدر", en: "Ibn Abi al-'Izz's commentary on the Tahawi creed, scan volume 2, p. 300 — Islam defined by its acts; belief in the decree", ur: "شرح عقیدہ طحاویہ، ابن ابی العز، اسکین جلد 2، ص 300 — اسلام کی تعریف اس کے اعمال سے، تقدیر پر ایمان" }
+text: "… والقدر خيره وشره، وحلوه ومره من اللّٰه تعالى: ش: تقدم أن هذه الخصال هى أصول الدين، وبها أجاب النى فى حديث جبرائيل المشهور، المتفق على صحته، حين جاء إلى النبى عق على صورة رجل أعرابى وسأله عن الإسلام فقال: أن …"
+summary:
+  ar: "مقطع من شرح العقيدة الطحاوية لابن أبي العز، المجلد المصوَّر 2، ص 300، يذكر تعريف الإسلام بأعماله، والإيمان بالقدر؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح أركان الإسلام وأركان الإيمان وشعب الإيمان وخصال المؤمن."
+  en: "An excerpt from Ibn Abi al-'Izz's commentary on the Tahawi creed, scan volume 2, p. 300, that mentions Islam defined by its acts, belief in the decree; from the machine-read scan, quoted within forty words per the sources policy. The Pillars and Branches of Faith Browser lists it."
+  ur: "شرح عقیدہ طحاویہ، ابن ابی العز، اسکین جلد 2، ص 300 کا اقتباس جس میں اسلام کی تعریف اس کے اعمال سے، تقدیر پر ایمان کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ ارکانِ اسلام، ارکانِ ایمان، شعبِ ایمان اور مومن کی خصلتوں کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/five-pillars, sources: [source/sharh-tahawiyya-ibn-abi-al-izz] }
+  - { type: mentions, target: concept/arkan-al-iman, sources: [source/sharh-tahawiyya-ibn-abi-al-izz] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan aqeedah/sharh-tahawiyya/AAlexandrina-104659, page 300; a window of at most 40 words chosen by the pillars and branches of faith detector (scripts/arkan.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "arkan-ocr-1" }
+sources: [source/sharh-tahawiyya-ibn-abi-al-izz]
+status: { review: published, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words; the excerpt is machine-read and not corrected" }

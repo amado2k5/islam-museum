@@ -6,6 +6,7 @@ import { ibadatKindOf, ibadatSignalsOf, ibadatTopicsOf } from "./ibadat.js";
 import { sayyiatKindOf, sayyiatSignalsOf } from "./sayyiat.js";
 import { halalKindOf, halalSignalsOf, halalSubjectsOf, halalSubjectsOfText, halalFold, HALAL_SUBJECTS } from "./halal.js";
 import { hududKindOf, hududSignalsOf } from "./hudud.js";
+import { arkanHitsOfText, arkanFold, arkanSignalsOf, arkanTopicsOf, ARKAN_QURAN } from "./arkan.js";
 import { hasanatKindOf, hasanatSignalsOf } from "./hasanat.js";
 import { hisabFold, hisabKindsOfSignals, hisabSignalsOfText } from "./hisab.js";
 import { mukatabatKindOf, mukatabatSenderOf, mukatabatSignalsOf } from "./mukatabat.js";
@@ -65,7 +66,7 @@ describe("one API export per browser or explorer (AGENTS.md: every feature is gr
 
   it("writes jobs, fatwa, khutab, poetry and screens with their fields, edges, prose languages and job holders", () => {
     const data = featureApiData(compiled);
-    expect(Object.keys(data).sort()).toEqual(["akhlaq.json", "angels.json", "ansab.json", "asma.json", "battles.json", "bayt.json", "companions.json", "cosmos.json", "dreams.json", "duas.json", "eschatology.json", "fatwa.json", "ghayb.json", "halal.json", "hasanats.json", "hisab.json", "hudud.json", "ibadat.json", "islamic-economy.json", "jannas.json", "jinn-devils.json", "jobs.json", "khulafa.json", "khutab.json", "madhahib.json", "magic.json", "messengers.json", "miracles.json", "mukatabat.json", "nar.json", "nature.json", "nubuwat.json", "places.json", "poetry.json", "qiraat.json", "qiyama.json", "qudsi.json", "qurun.json", "sayyiat.json", "screens.json", "tafsir.json", "tibb.json", "usra.json"]);
+    expect(Object.keys(data).sort()).toEqual(["akhlaq.json", "angels.json", "ansab.json", "arkan.json", "asma.json", "battles.json", "bayt.json", "companions.json", "cosmos.json", "dreams.json", "duas.json", "eschatology.json", "fatwa.json", "ghayb.json", "halal.json", "hasanats.json", "hisab.json", "hudud.json", "ibadat.json", "islamic-economy.json", "jannas.json", "jinn-devils.json", "jobs.json", "khulafa.json", "khutab.json", "madhahib.json", "magic.json", "messengers.json", "miracles.json", "mukatabat.json", "nar.json", "nature.json", "nubuwat.json", "places.json", "poetry.json", "qiraat.json", "qiyama.json", "qudsi.json", "qurun.json", "sayyiat.json", "screens.json", "tafsir.json", "tibb.json", "usra.json"]);
     expect(data["qudsi.json"].items.map((i) => i.id)).toEqual(["passage/muslim-2577"]);
     expect(data["qudsi.json"].items[0]).toMatchObject({ work: "work/sahih-muslim", ref: "2577", hadith: "zulm", themes: ["ethics-and-character"] });
     expect(data["qudsi.json"].feature).toBe("hadith-qudsi-browser");
@@ -281,6 +282,45 @@ describe("one API export per browser or explorer (AGENTS.md: every feature is gr
     expect(sayyiatSignalsOf(braceletFp as any)).toEqual([]);
     expect(sayyiatSignalsOf(kabiraOnly as any)).toEqual([]);
     expect(sayyiatSignalsOf(pairGated as any)).toEqual(expect.arrayContaining(["kabira", "saghiira", "ijrim"]));
+  });
+
+  it("exports arkan: the pillars of Islam and of faith, the branches of faith and the traits of the believer by corpus and topic, the Qur'an table, gated weak signals, future-book inclusion", () => {
+    const mk = (id: string, work: string, text: string, extra: Record<string, unknown> = {}) => makeNode(id, "passage", { unit: work === "work/quran" ? "ayah" : "hadith", work, text, ...extra });
+    // Qur'an verses enter by the reviewed table only, never by the lexicon: 2:177 is listed under three themes; a verse outside the table is not picked
+    const tableAyah = mk("passage/quran-2-177", "work/quran", "نص الآية من سجلها", { sura: 2, aya: 177 });
+    const offTableAyah = mk("passage/quran-2-8", "work/quran", "ومن الناس من يقول آمنا بالله وباليوم الآخر", { sura: 2, aya: 8 });
+    const buniya = mk("passage/bukhari-8x", "work/sahih-bukhari", "بني الإسلام على خمس شهادة أن لا إله إلا الله وأن محمدا رسول الله وإقام الصلاة وإيتاء الزكاة والحج وصوم رمضان");
+    const jibril = mk("passage/muslim-8x", "work/sahih-muslim", "قال فأخبرني عن الإيمان قال أن تؤمن بالله وملائكته وكتبه ورسله واليوم الآخر وتؤمن بالقدر خيره وشره");
+    const shuab = mk("passage/muslim-35x", "work/sahih-muslim", "الإيمان بضع وسبعون شعبة والحياء شعبة من الإيمان");
+    const mathal = mk("passage/muslim-2586x", "work/sahih-muslim", "مثل المؤمنين في توادهم وتراحمهم وتعاطفهم مثل الجسد");
+    const futureBook = mk("passage/futurebook-arkan-1", "work/future-book", "وذكر أن أركان الإسلام خمسة لا يتم الدين إلا بها", { unit: "chapter", ref: "1" });
+    // false positives: a footnote citing the book's title, a mountain pass, a single weak signal
+    const titleFp = mk("passage/footnote-x", "work/future-book", "أخرجه البيهقي في شعب الإيمان عن أنس", { unit: "chapter" });
+    const passFp = mk("passage/sira-x", "work/future-book", "فنزلوا في شعب من شعاب مكة", { unit: "chapter" });
+    const weakOnly = mk("passage/weak-x", "work/future-book", "والناس يتكلمون في زيادة الإيمان", { unit: "chapter" });
+    const leaveFp = mk("passage/leave-x", "work/future-book", "ويخرج الرجل من الإيمان إلى الإسلام", { unit: "chapter" });
+    const concept = { ...makeNode("concept/shuab-al-iman", "concept", { kind: "doctrine" }), tags: ["arkan-browser", "arkan-shuab"] };
+    const data = featureApiData({ ...compiled, nodes: [...compiled.nodes, tableAyah, offTableAyah, buniya, jibril, shuab, mathal, futureBook, titleFp, passFp, weakOnly, leaveFp, concept] });
+    const items = data["arkan.json"].items;
+    const ids = items.map((i) => i.id);
+    for (const id of ["passage/quran-2-177", "passage/bukhari-8x", "passage/muslim-8x", "passage/muslim-35x", "passage/muslim-2586x", "passage/futurebook-arkan-1", "concept/shuab-al-iman"]) expect(ids).toContain(id);
+    for (const id of ["passage/quran-2-8", "passage/footnote-x", "passage/sira-x", "passage/weak-x", "passage/leave-x"]) expect(ids).not.toContain(id);
+    expect(items.find((i) => i.id === "passage/quran-2-177")).toMatchObject({ section: "quran", topics: ["islam", "iman", "shuab"] });
+    expect(items.find((i) => i.id === "passage/bukhari-8x")).toMatchObject({ section: "sunnah", topics: ["islam"] });
+    expect(items.find((i) => i.id === "passage/muslim-8x")).toMatchObject({ section: "sunnah", topics: ["iman"] });
+    expect(items.find((i) => i.id === "passage/muslim-35x")).toMatchObject({ section: "sunnah", topics: ["shuab"] });
+    expect(items.find((i) => i.id === "passage/muslim-2586x")).toMatchObject({ section: "sunnah", topics: ["khisal"] });
+    expect(items.find((i) => i.id === "passage/futurebook-arkan-1")).toMatchObject({ section: "books", topics: ["islam"] });
+    expect(items.find((i) => i.id === "concept/shuab-al-iman")).toMatchObject({ section: "curated", topics: ["shuab"], signals: [] });
+    expect(featureApiData(compiled)["arkan.json"].feature).toBe("arkan-browser");
+    expect(arkanSignalsOf(buniya as any)).toEqual(expect.arrayContaining(["islam:buniya", "islam:khams"]));
+    expect(arkanTopicsOf(jibril as any)).toEqual(["iman"]);
+    expect(arkanSignalsOf(weakOnly as any)).toEqual([]);
+    // the harvest gate: weak signals never admit a text, a strong one carries them
+    expect(arkanHitsOfText(arkanFold("الإيمان بالملائكة والإيمان يزيد وينقص"), true)).toEqual([]);
+    expect(arkanHitsOfText(arkanFold("الإيمان بالملائكة والإيمان يزيد وينقص")).length).toBe(2);
+    // every verse of the table names a real sura:aya shape and at least one theme
+    for (const [id, topics] of ARKAN_QURAN) { expect(id).toMatch(/^passage\/quran-\d+-\d+$/); expect(topics.length).toBeGreaterThan(0); }
   });
 
   it("exports hudud: limits, penalties and major sins by corpus and kind, gated weak signals, exclusions, future-book inclusion", () => {
