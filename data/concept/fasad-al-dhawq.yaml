@@ -1,0 +1,33 @@
+id: concept/fasad-al-dhawq
+class: concept
+kind: scientific
+label:
+  ar: فساد الذوق
+  en: Corruption of taste (dysgeusia)
+  ur: ذائقہ کا فساد
+summary:
+  ar: تدخل الآفة في الذوق على الوجوه الثلاثة المعلومة وكل ذلك قد يكون بمشاركة وقد يكون لمرض خاص من سوء مزاج أو مرض آلي أو مشترك فيستدل عليه بما أشير إليه، وعلاجه إن كان بمشاركة فأن تتعرف حال الدماغ فتصلحه بما عرف في باب علله أو حال المعدة وإن كان من غير مشاركة اشتغل باللسان نفسه وإذا كان السبب امتلاء وخلطاً رديئاً وجب أن يستفرغ {cite:canon-ibn-sina-print-v2 p.255}
+  en: 'The disorder enters taste on the three known ways, and all of it may come by sharing or from a disease of its own — a bad temperament, an organic or a shared disease — and is inferred as taught. If it is by sharing, the brain''s state is examined and set right as taught in the chapter of its disorders, or the stomach''s; if without sharing the tongue itself is treated; and if the cause is fullness and a bad humour it must be evacuated, the sharp foods of the book''s list fed to its owner {cite:canon-ibn-sina-print-v2 p.255}'
+  ur: 'ذائقہ میں آفہ تین معلوم طریقوں سے داخل ہوتی ہے اور یہ سب شراکت سے بھی ہو سکتا ہے اور کسی خاص مرض سے بھی — سوء مزاج یا آلی یا مشترک — اور اسی طریقے سے پہچانا جاتا ہے؛ اگر شراکت سے ہو تو دماغ کی حالت جانچ کر اس باب میں بتائے گئے سے درست کی جائے یا معدہ کی، اور بغیر شراکت ہو تو خود زبان کا علاج ہو؛ اور اگر سبب امتلاء اور برا خلط ہو تو اس کا استفراغ واجب ہے اور کتاب کی شمار کردہ حریف خوراکیں کھلائی جائیں {cite:canon-ibn-sina-print-v2 p.255}'
+wings:
+- living
+tags:
+- tibb-browser
+- tibb-tibb
+sources:
+- source/canon-ibn-sina-print-v2
+relations:
+- type: part_of
+  target: concept/disease
+  sources:
+  - source/canon-ibn-sina-print-v2
+provenance:
+  layer: own-research
+  source: Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 6 (the mouth and the tongue, one maqala), scan page 255, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json, copied to /tmp before reading); editor footnotes used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping, cautery and operative sites and application methods left out; the frenum-cutting, the thread-needling and the hand-works carried only as the book's descriptions, not as procedures; unclear OCR words carried as printed, not guessed; case reports and named attributions carried as the book's attributions and labelled; animal-derived lines kept only as labelled listings set aside for the founder's ruling
+  generated_by: Devin subagent (SWE-2 Medium, Lane A4 worker)
+  model: swe-2-medium
+  run: a4-canon-book3-13
+status:
+  review: published
+  completeness: 1
+  generated_by: Devin subagent (SWE-2 Medium, book mining, lane A4)

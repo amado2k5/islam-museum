@@ -14,13 +14,13 @@ export const LANDING_ROWS = 24;
 export const PAGE_ROWS = 75;
 
 export interface PagedProps { lang: Lang; sectionId?: string; pageNo?: number }
-/** getStaticPaths for a `[...page].astro` listing: the landing, then every sub-page of every section longer than the landing shows. */
-export function pagedStaticPaths(langs: readonly Lang[], sections: { id: string; count: number }[]) {
+/** getStaticPaths for a `[...page].astro` listing: the landing, then every sub-page of every section longer than the landing shows. `sub` names the sub-pages' folder ("all" everywhere but a browser whose own landing paginates, like Signs, which uses "step" so its `all/` stays the full index). */
+export function pagedStaticPaths(langs: readonly Lang[], sections: { id: string; count: number }[], sub = "all") {
   return langs.flatMap((lang) => [
     { params: { lang, page: undefined }, props: { lang } as PagedProps },
     ...sections.filter((s) => s.count > LANDING_ROWS).flatMap((s) =>
       Array.from({ length: Math.ceil(s.count / PAGE_ROWS) }, (_x, k) => ({
-        params: { lang, page: k === 0 ? `all/${s.id}` : `all/${s.id}/${k + 1}` },
+        params: { lang, page: k === 0 ? `${sub}/${s.id}` : `${sub}/${s.id}/${k + 1}` },
         props: { lang, sectionId: s.id, pageNo: k + 1 } as PagedProps,
       }))),
   ]);
@@ -38,9 +38,9 @@ export interface Paged<T> {
   sections: PagedSection<T>[];
   pager: { pageNo: number; pages: number; prev: string | null; next: string | null; from: number; to: number; total: number } | null;
 }
-/** What one page of a listing shows. `base` is the landing's path, with its closing slash. */
-export function pageView<T>(sections: { id: string; items: T[] }[], props: PagedProps, base: string): Paged<T> {
-  const url = (id: string, n: number) => (n <= 1 ? `${base}all/${id}/` : `${base}all/${id}/${n}/`);
+/** What one page of a listing shows. `base` is the landing's path, with its closing slash; `sub` is the same folder name `pagedStaticPaths` used. */
+export function pageView<T>(sections: { id: string; items: T[] }[], props: PagedProps, base: string, sub = "all"): Paged<T> {
+  const url = (id: string, n: number) => (n <= 1 ? `${base}${sub}/${id}/` : `${base}${sub}/${id}/${n}/`);
   if (!props.sectionId) {
     return {
       landing: true, path: base, home: "", pager: null,

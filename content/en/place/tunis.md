@@ -63,3 +63,9 @@ Tunis, capital of Tunisia today, which Ibn Battuta passed on his way from the Ma
 
 ## In the iDAI.gazetteer
 The German Archaeological Institute's iDAI.gazetteer (no. 2042783) records this place under the preferred name «Tunis», typed as a populated place. It sits under «Tūnis (Wilāyat)» in the gazetteer's hierarchy, and among the names it records are «Tunis», «Túnez». {cite:idai-gazetteer 2042783}
+
+## In Yaqut's Mu'jam al-buldan
+Yaqut records Tunis al-Gharb with damma then sukun, the nun read with damma, fatha or kasra; a large, recent city of Ifriqiya on the shore of the sea of Rum, built up from the ruins of a great city that stood there named Tarshish. He describes it: on its east the harbour, the lake and Bab Qartajanna, beyond it many gardens and the channels called Sawaqi al-Marj; adjoining it a bare mountain called Jabal Abi Khafanja; on its west Bab Arta, beside it the cemetery of Suq al-Ahad and the great pond of the charcoal-burners; the sick quarter outside the city; on its south a great salt-flat supplying their salt and their neighbours'; its mosque lofty-built overlooking the sea, climbed from the east by twelve steps; many markets, wondrous trades, funduqs and baths; all the city's houses fine marble. Their proverb runs "Tunis's houses: marble without, grime within" — yet it is a house of learning and fiqh, and still marked by quarrelling and rising against its rulers, rebelling some twenty times, its people tried in Abu Yazid al-Khariji's days by killing, captivity and loss of wealth. {cite:mujam-al-buldan-sader-1995 2 p.60-61}
+
+## The museum's identification
+The record's Tunis is the same recent Ifriqiyan city on the sea of Rum. The sea-overlooking mosque, the southern salt-flats, the markets and marble houses are Yaqut's own material added to the record's Ibn Battuta material and other sources; the twenty rebellions and the trial under Abu Yazid are carried as printed.

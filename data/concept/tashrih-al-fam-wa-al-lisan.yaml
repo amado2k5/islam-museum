@@ -1,0 +1,33 @@
+id: concept/tashrih-al-fam-wa-al-lisan
+class: concept
+kind: scientific
+label:
+  ar: تشريح الفم واللسان
+  en: The anatomy of the mouth and the tongue
+  ur: منہ اور زبان کی تشریح
+summary:
+  ar: الفم عضو ضروري في إيصال الغذاء إلى الجوف الأسفل ومشارك في إيصال الهواء إلى الجوف الأعلى ونافع في قذف الفضول المجتمعة في فم المعدة إذا عسر دفعها إلى أسفل وهو الوعاء الكلي لأعضاء الكلام في الإنسان والتصويت في سائر الحيوانات المصوتة، واللسان عضو من آلات تقليب الممضوغ وتقطيع الصوت وإخراج الحروف وإليه تمييز الذوق، وجلدة سطحه الأسفل متصلة بجلدة المريء وباطن المعدة وتحته فوهتان هما منبع اللعاب يسميان ساكبي اللعاب وتحته عرقان كبيران أخضران يسميان الصردين {cite:canon-ibn-sina-print-v2 p.253}
+  en: 'The mouth is a necessary organ for conveying nourishment to the lower cavity, shares in conveying air to the upper cavity, and serves to cast out the wastes gathered at the mouth of the stomach when their downward expulsion is hard; it is the general vessel of the organs of speech in man and of vocalisation in the other voiced animals. The tongue is an organ among the instruments that turn the chewed food, cut the voice and bring out the letters, and to it belongs the discernment of taste; the skin of its lower surface is continuous with the skin of the oesophagus and the stomach''s inside. Beneath it are two openings that admit the probe, the source of saliva called the two saliva-pourers, and two large greenish veins called the sardayn {cite:canon-ibn-sina-print-v2 p.253}'
+  ur: 'منہ ایک ضروری عضو ہے جو خوراک کو نچلی جوف تک پہنچاتا ہے اور ہوا کو اوپر کی جوف تک پہنچانے میں شریک ہے اور معدے کے منہ پر جمع ہونے والی فضول کو باہر پھینکنے میں مدد دیتا ہے جب ان کا نیچے دھکیلنا دشوار ہو؛ یہ انسان میں کلام کے اعضاء کا کلی ظرف ہے اور باقی آواز والے جانوروں میں آواز کا؛ اور زبان ان آلات میں سے ایک عضو ہے جو چبائی ہوئی چیز کو پھیرتی ہے، آواز کو تقسیم اور حروف کو خارج کرتی ہے اور اسی سے ذائقہ ممیز ہوتا ہے؛ اس کے نچلے سطح کی کھال مری کی کھال اور معدے کے باطن سے ملی ہوئی ہے؛ اس کے نیچے دو سوراخ ہیں جہاں میل داخل ہوتا ہے، لعاب کا چشمہ، جنہیں ساکب لعاب کہتے ہیں، اور دو بڑی سبز رگیں جنہیں صردین کہتے ہیں {cite:canon-ibn-sina-print-v2 p.253}'
+wings:
+- living
+tags:
+- tibb-browser
+- tibb-tibb
+sources:
+- source/canon-ibn-sina-print-v2
+relations:
+- type: part_of
+  target: concept/anatomy
+  sources:
+  - source/canon-ibn-sina-print-v2
+provenance:
+  layer: own-research
+  source: Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 6 (the mouth and the tongue, one maqala), scan page 253, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json, copied to /tmp before reading); editor footnotes used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping, cautery and operative sites and application methods left out; the frenum-cutting, the thread-needling and the hand-works carried only as the book's descriptions, not as procedures; unclear OCR words carried as printed, not guessed; case reports and named attributions carried as the book's attributions and labelled; animal-derived lines kept only as labelled listings set aside for the founder's ruling
+  generated_by: Devin subagent (SWE-2 Medium, Lane A4 worker)
+  model: swe-2-medium
+  run: a4-canon-book3-13
+status:
+  review: published
+  completeness: 1
+  generated_by: Devin subagent (SWE-2 Medium, book mining, lane A4)
