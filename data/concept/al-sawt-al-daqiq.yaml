@@ -1,0 +1,33 @@
+id: concept/al-sawt-al-daqiq
+class: concept
+kind: scientific
+label:
+  ar: "الصوت الدقيق"
+  en: "The fine voice"
+  ur: "بڑھکی ہوئی باریک آواز"
+summary:
+  ar: "الصوت الدقيق ضد الصوت الكدر وأسبابه ضد أسبابه من السهر والإعياء والترنم وخصوصاً بعد الطعام والرياضة المتعبة والاستفراغات، وعلاجه أن يودع الصوت ويلزم الرياضة المعتدلة المخصبة والأغذية المعتدلة ودخول الحمام كل بكرة ويهجر القوابض والمجففات والمياه ⁦(الرياضة والاستحمام على وصف الكتاب)⁩ {cite:canon-ibn-sina-print-v2 p.326}"
+  en: "The fine voice is the opposite of the murky one, and its causes are the opposite of that one's: sleeplessness, weariness, chanting — especially after food — tiring exercise and the evacuations. Its treatment is that he lay down the voice, keep to moderate fattening exercise and moderate foods, enter the bath every morning, and abandon the astringents, the driers and the waters (the exercise and bathing on the book's description) {cite:canon-ibn-sina-print-v2 p.326}"
+  ur: "بڑھکی ہوئی باریک آواز کدورت والی آواز کی ضد ہے اور اس کے اسباب بھی اس کے برعکس ہیں: بیداری تھکن ترنم خصوصاً کھانے کے بعد تھکا دینے والی ورزش اور استفراغیں؛ اس کا علاج یہ ہے کہ آواز کو معطل رکھے معتدل غذائیت بخش ورزش اور معتدل خوراکیں اختیار کرے ہر صبح غسل خانے جائے اور قابض خشک کرنے والی چیزیں اور پانیاں چھوڑ دے ⁦(ورزش اور غسل کتاب کی بیان کردہ صورت پر)⁩ {cite:canon-ibn-sina-print-v2 p.326}"
+wings:
+- living
+tags:
+- tibb-browser
+- tibb-tibb
+sources:
+- source/canon-ibn-sina-print-v2
+relations:
+- type: part_of
+  target: concept/disease
+  sources:
+  - source/canon-ibn-sina-print-v2
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 10 (the lung and the chest, five maqalas), maqala 2, 'nusul: fi al-sawt al-daqiq' ('fasl' misprinted 'nusul' in the OCR), scan pages 326, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json, copied to /tmp before reading); the edition's English parenthetical glosses ignored as apparatus; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes and application forms left out; venesection, cupping and operative sites carried only as named by the book; the tools' and hands' works carried only as the book's descriptions, not as procedures; unclear OCR words carried as printed, not guessed; transmitted sayings, tried-remedy reports and named attributions carried as the book's attributions and labelled; animal-derived and unclean lines kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Devin subagent (SWE-2 Medium, Lane A4 worker)"
+  model: swe-2-medium
+  run: a4-canon-book3-17
+status:
+  review: published
+  completeness: 1
+  generated_by: "Devin subagent (SWE-2 Medium, book mining, lane A4)"
