@@ -13,6 +13,10 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v1.51.0 — 2026-11-16
+### Added
+- Citation infrastructure for researchers: a new “Cite the museum” page (`/{lang}/cite/`, in Arabic, English and Urdu, linked from the footer of every page) states the museum's citation policy — always cite the dataset's Zenodo concept DOI (10.5281/zenodo.23692511), never a single day's version DOI, so citations aggregate on one record — and gives the copy-ready citation plus BibTeX and RIS for reference managers. The page carries the site's schema.org `Dataset` markup (identifier, creator with ORCID, CC0 licence and the graph/API/Zenodo downloads), so dataset indexes such as Google Dataset Search can read the dataset as a dataset. A `CITATION.cff` at the repository root gives GitHub a “Cite this repository” entry whose preferred citation is the same concept DOI.
+
 ## v1.50.0 — 2026-11-16
 ### Fixed
 - Green CI again: the 3D tour's al-Fihrist stop now cites both of the record's sources (the Rahmaniyya Cairo scan was added by the qiraat lane and the tour copy had gone stale); the did-you-know pool is back at its one-fact-a-day size of 365 after four overflow facts on modern Indonesian figures were removed; the canon register `docs/canon.md` is regenerated so it matches the 942 records actually marked `importance` (and four hand-set `importance` flags on question records — which the register has no class for — are removed, since the canon is set only by `scripts/report/canon.py`); the fact-of-day wrap test no longer crosses a year boundary in its check.
