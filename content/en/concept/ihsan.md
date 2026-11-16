@@ -23,3 +23,6 @@ In [[work/the-boat-ahmad-farid|'The Boat']] [[person/ahmad-farid|Ahmad Farid]] a
 ## From Sheikh Omar Abdelkafy's Sharh Ketab Al-Fawaed lectures (episode 9)
 
 The Sheikh says Islam, when its holder is upright, leads to the degree of faith, and true faith to the degree of ihsan; he explains the word "Muslim" as one whose affair is handed to God. {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep9 00:15:00} ⁦(needs_source: the recording wording is partly garbled)⁩
+
+## In The Oxford Dictionary of Islam
+The Oxford Dictionary of Islam glosses ihsan as doing what is beautiful. Within Sufism, it says, the word means a more profound understanding and experience through which a person can worship God as if seeing Him. This, the Dictionary adds, makes Sufis conscious that God is present in the world and within themselves, and leads them to act in line with His will. {cite:oxford-dictionary-of-islam e981}

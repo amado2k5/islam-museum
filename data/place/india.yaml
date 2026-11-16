@@ -25,6 +25,7 @@ sources:
 - source/wikidata
 - source/geonames-gazetteer
 - source/nomisma
+- source/oxford-dictionary-of-islam
 importance: 2
 status:
   review: draft
@@ -39,3 +40,4 @@ provenance:
   - person-place-geo-c
   note: Semantic merge of duplicate records written by parallel enrichment runs.
   source: Wikidata item Q668 (labels, coordinates), read via the Wikidata API in the person-place geo-enrichment run.; Wikidata item Q668 (labels, coordinates, description)
+  oxford_captures: "t125/e1031: http://www.oxfordislamicstudies.com/article/opr/t125/e1031 ; https://web.archive.org/web/20151004172351/http://www.oxfordislamicstudies.com/article/opr/t125/e1031"

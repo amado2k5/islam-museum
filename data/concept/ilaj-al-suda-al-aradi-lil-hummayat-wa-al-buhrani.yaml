@@ -1,0 +1,23 @@
+id: concept/ilaj-al-suda-al-aradi-lil-hummayat-wa-al-buhrani
+class: concept
+kind: scientific
+label:
+  ar: "علاج الصداع العارض للحميات والصداع البحراني"
+  en: "Treatment of headache that comes with fevers and of crisis headache"
+  ur: "بخاروں کے ساتھ آنے والے اور بحرانی صداع کا علاج"
+summary:
+  ar: "يذكر ابن سينا أن الصداع العارض للحميات يقلق المريض ويزيد سببه، وأن علاج الصداع البحراني أن يُعان ميل الطبيعة بالمادة إلى الجهة التي تميل إليها بحسب علاماتها {cite:canon-ibn-sina-print-v2 pp.68-69}"
+  en: "Ibn Sina says that the headache that comes with fevers troubles the patient and adds to its cause, and that the treatment of crisis headache is to help the nature's inclination with the matter to the direction in which it inclines, according to its signs {cite:canon-ibn-sina-print-v2 pp.68-69}"
+  ur: "ابن سینا کہتا ہے کہ بخاروں کے ساتھ آنے والا صداع مریض کو بے چین کرتا اور اپنے سبب میں اضافہ کرتا ہے، اور بحرانی صداع کا علاج یہ ہے کہ طبیعت کے مادے کے ساتھ جس سمت مائل ہونے کی علامات ہوں اسی کی مدد کی جائے {cite:canon-ibn-sina-print-v2 pp.68-69}۔"
+wings: [living]
+tags: [tibb-browser, tibb-tibb, tibb-tadawi]
+sources: [source/canon-ibn-sina-print-v2]
+relations:
+  - { type: part_of, target: concept/medical-treatment, sources: [source/canon-ibn-sina-print-v2] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 1, maqala 2, scan pages 68-69, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json) with the PDF page images rendered with pdftoppm and read by eye against the OCR for the pages and the doubtful headings and clauses; editor footnotes used only for glosses and labelled as the editor's; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein and cupping sites, application methods and procedures left out; unclear lines left out, not guessed; womb, menses, foetus, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book3-2
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

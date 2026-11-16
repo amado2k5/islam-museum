@@ -1,0 +1,23 @@
+id: concept/al-alamat-al-munthira-bi-al-suda-fi-al-amrad
+class: concept
+kind: scientific
+label:
+  ar: "العلامات المنذرة بالصداع في الأمراض"
+  en: "Signs that foretell headache in diseases"
+  ur: "بیماریوں میں صداع سے خبردار کرنے والی علامات"
+summary:
+  ar: "يذكر ابن سينا أن البول الشبيه بأبوال الحمير، وابيضاض البول ورقته في الحمّيات وأوقات البحران، يدل على انتقال المواد إلى الرأس {cite:canon-ibn-sina-print-v2 p.53}"
+  en: "Ibn Sina says that urine like the urine of donkeys, and whitening and thinness of the urine in fevers and at the times of crisis, indicate the movement of matters to the head {cite:canon-ibn-sina-print-v2 p.53}"
+  ur: "ابن سینا کہتا ہے کہ گدھوں کے پیشاب جیسا پیشاب، اور بخاروں اور بحران کے اوقات میں پیشاب کا سفید اور پتلا ہو جانا، مادوں کے سر کی طرف منتقل ہونے پر دلالت کرتا ہے {cite:canon-ibn-sina-print-v2 p.53}۔"
+wings: [living]
+tags: [tibb-browser, tibb-tibb]
+sources: [source/canon-ibn-sina-print-v2]
+relations:
+  - { type: part_of, target: concept/symptoms-and-signs, sources: [source/canon-ibn-sina-print-v2] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 1, maqala 2, scan pages 53, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json) with the PDF page images rendered with pdftoppm and read by eye against the OCR for the pages and the doubtful headings and clauses; editor footnotes used only for glosses and labelled as the editor's; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein and cupping sites, application methods and procedures left out; unclear lines left out, not guessed; womb, menses, foetus, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book3-2
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

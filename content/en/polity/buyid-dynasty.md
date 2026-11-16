@@ -22,3 +22,6 @@ The Abbasid caliphs came under their guardianship and tutelage, from the calipha
 
 ## The end
 Tughril moved to the seat of rule in Shawwal 447 AH, and his foothold in kingship and authority was secured. {cite:tarikh-ibn-khaldun-ibar}
+
+## In The Oxford Dictionary of Islam
+The Oxford Dictionary of Islam, which also spells the name Buyyids, describes the Buwayhids as a dynasty of mercenary soldiers from Daylam, a Caspian province, who controlled the west of Iran together with Iraq between the mid-tenth and mid-eleventh centuries and held sway over the Abbasid caliph until the Seljuks arrived. They kept courts at Baghdad, Shiraz and Isfahan, and for most of that time the three centres were rivals. Although they were Shii by affiliation, the Dictionary says they kept the Abbasid caliph on his throne for practical reasons, governing in his name and extracting titles from him. It says they pioneered paying soldiers through revenue grants called iqta, which began a pattern of military dominance over civil administration that the Seljuks later carried to completion. {cite:oxford-dictionary-of-islam e394}

@@ -1,0 +1,23 @@
+id: concept/ilaj-al-suda-al-yabis
+class: concept
+kind: scientific
+label:
+  ar: "علاج الصداع اليابس"
+  en: "Treatment of dry headache"
+  ur: "خشک صداع کا علاج"
+summary:
+  ar: "يبيّن ابن سينا أن الصداع اليابس مع مادة صفراوية أو دموية مرّ الكلام فيه، وأن اليابس بلا مادة يبدأ علاجه بتدبير الكيموس والتغذية، ويذكر أن اليبس قد ينقص جوهر الدماغ {cite:canon-ibn-sina-print-v2 pp.61-62}"
+  en: "Ibn Sina says that dry headache with a bilious or bloody matter has already been treated, and that the dry one without matter begins its treatment with managing the chyme and feeding, and he notes that dryness may diminish the substance of the brain {cite:canon-ibn-sina-print-v2 pp.61-62}"
+  ur: "ابن سینا بتاتا ہے کہ مادے کے ساتھ صفراوی یا دموی خشک صداع کا بیان گزر چکا، اور مادے کے بغیر خشک کا علاج کیموس کی تدبیر اور غذا سے شروع ہوتا ہے، اور بتاتا ہے کہ خشکی دماغ کے جوہر کو گھٹا سکتی ہے {cite:canon-ibn-sina-print-v2 pp.61-62}۔"
+wings: [living]
+tags: [tibb-browser, tibb-tibb, tibb-tadawi]
+sources: [source/canon-ibn-sina-print-v2]
+relations:
+  - { type: part_of, target: concept/medical-treatment, sources: [source/canon-ibn-sina-print-v2] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 1, maqala 2, scan pages 61-62, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json) with the PDF page images rendered with pdftoppm and read by eye against the OCR for the pages and the doubtful headings and clauses; editor footnotes used only for glosses and labelled as the editor's; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein and cupping sites, application methods and procedures left out; unclear lines left out, not guessed; womb, menses, foetus, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book3-2
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

@@ -1,0 +1,23 @@
+id: concept/al-suda-al-mansub-ila-al-dud-wa-baad-al-nawm
+class: concept
+kind: scientific
+label:
+  ar: "الصداع المنسوب إلى الدود والصداع بعد النوم"
+  en: "Headache attributed to worms and headache after sleep"
+  ur: "کیڑوں سے منسوب صداع اور نیند کے بعد کا صداع"
+summary:
+  ar: "ينقل ابن سينا عن الهندي علامة الصداع الذي يُدّعى أنه من الدود وعلاجه بتنقية البدن والدماغ، ويذكر أن صداع ما بعد النوم يُنقّى معه البدن والرأس {cite:canon-ibn-sina-print-v2 pp.52-70}"
+  en: "Ibn Sina reports from al-Hindi the sign of the headache claimed to be from worms and its treatment by cleansing the body and the brain, and says that the headache that stirs after sleep is treated by cleansing the body and the head {cite:canon-ibn-sina-print-v2 pp.52-70}"
+  ur: "ابن سینا الہندی سے اس صداع کی علامت نقل کرتا ہے جس کے بارے میں دعویٰ ہے کہ وہ کیڑوں سے ہے، اور اس کا علاج بدن اور دماغ کی صفائی سے، اور بتاتا ہے کہ نیند کے بعد بھڑکنے والے صداع میں بدن اور سر کی صفائی کی جاتی ہے {cite:canon-ibn-sina-print-v2 pp.52-70}۔"
+wings: [living]
+tags: [tibb-browser, tibb-tibb, tibb-tadawi]
+sources: [source/canon-ibn-sina-print-v2]
+relations:
+  - { type: part_of, target: concept/medical-treatment, sources: [source/canon-ibn-sina-print-v2] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 1, maqala 2, scan pages 52-70, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json) with the PDF page images rendered with pdftoppm and read by eye against the OCR for the pages and the doubtful headings and clauses; editor footnotes used only for glosses and labelled as the editor's; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein and cupping sites, application methods and procedures left out; unclear lines left out, not guessed; womb, menses, foetus, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book3-2
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }
