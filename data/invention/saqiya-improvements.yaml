@@ -1,0 +1,294 @@
+id: invention/saqiya-improvements
+class: invention
+label:
+  ar: تحسينات الساقية الحيوانية
+  en: Improvements to the animal-powered saqiya
+  ur: حیوان چلنے والی ساقیہ میں بہتری
+names:
+- value: ساقية
+  kind: alternate
+  lang: ar
+- value: saqiya
+  kind: alternate
+  lang: en
+- value: sakia
+  kind: alternate
+  lang: en
+- value: Persian wheel
+  kind: alternate
+  lang: en
+- value: aceña
+  kind: alternate
+  lang: en
+summary:
+  ar: تطوير مهندسي الإسلام للساقية — سلسلة الدلاء المعلّقة التي يديرها
+    حيوان عبر تروس أفقية-عمودية فترفع الماء من عشرة إلى عشرين متراً؛
+    عند الجزري ⁦(1206)⁩ آلة مركبة يدير فيها بقر على سطح خزان علوي ساقية
+    بينما تسقط مياه على شفرات دولاب بخزان سفلي، وأول ذُقن معروف في
+    ساقية وأول تضمين لتقليل تقطع الجريان {cite:wikipedia-saqiyah-en}
+    {cite:needham-scc-v4p2-1965} {cite:hill-engineering-ehas-1998}.
+  en: The Islamic engineers'' development of the saqiya — the
+    animal-driven chain-of-pots wheel geared through horizontal and
+    vertical wheels that lifts water from ten to twenty metres; in
+    al-Jazari ⁦(1206)⁩ a composite machine where an ox on an upper
+    reservoir''s roof drives the saqiya while water falls onto the
+    scoop pallets of a wheel in a lower reservoir, plus the first
+    known crank in a saqiya and the earliest implied minimising of
+    intermittence {cite:wikipedia-saqiyah-en} {cite:needham-scc-v4p2-1965}
+    {cite:hill-engineering-ehas-1998}.
+  ur: مسلمان انجینیئروں کی ساقیہ کی ترویج — حیوان چلنے والی زنجیرِ مٹکے
+    پہیہ جو افقی و عمودی گیاروں سے دس تا بیس میٹر پانی اٹھاتی ہے؛ الجزری
+    ⁦(1206ء)⁩ میں مرکب مشین جس میں اوپر کے حوض کی چھت پر چلتا بیل
+    ساقیہ چلاتا اور نیچے کے حوض میں گرتی پانی پہیے کے پیمانوں پر پڑتی،
+    ساتھ ہی ساقیہ میں پہلی معلوم کُرنک اور بہاؤ کی رکاوٹ کم کرنے کا
+    پہلا ضمنی تصور {cite:wikipedia-saqiyah-en} {cite:needham-scc-v4p2-1965}
+    {cite:hill-engineering-ehas-1998}۔
+domain: water-agriculture
+kind: machine
+disciplines:
+- engineering
+- agriculture
+wings:
+- objects
+- made
+regions:
+- levant-iraq
+- egypt-nile
+- andalus-europe
+- maghreb
+- south-asia
+- persia-central-asia
+periods:
+- period/crusades-ayyubid-mamluk
+- period/mongol-post-mongol
+- period/gunpowder-empires
+themes:
+- engineering-and-technology
+era:
+  origins: middle-period
+  first_attested:
+    edtf: "1206"
+    hijri: "0602"
+    calendar: julian
+    precision: year
+    status: historical
+    note: 'The completion year of al-Jazari''s Book of Ingenious
+      Mechanical Devices, which carries the composite saqiya and the
+      crank-carrying machine; the saqiya itself is far older —
+      Ptolemaic, possibly Indian or Kushite — and this record''s date
+      marks the Islamic improvements, not the type. The hijri figure is
+      a derived conversion.'
+    derived: true
+    sources:
+    - source/wikipedia-saqiyah-en
+    - source/jazari-hill-1974
+  status_today: transformed
+origin:
+  polity: polity/mamluk-sultanate
+  place: place/amid
+  context:
+    ar: 'بلاط آرتوق ديار بكر حيث خدم الجزري مهندساً للدولة؛ والساقية
+      نفسها عريقة — شاهد لوحة قبرية بطلمية القرن الثاني ق.م — لكن مهندسي
+      الإسلام جعلوها عائلة آلات: حيوانية ومائية ومركبة ومستمرة
+      {cite:wikipedia-saqiyah-en} {cite:jazari-hill-1974}.'
+    en: 'The Artuqid court of Diyarbakir, where al-Jazari served as a
+      state engineer; the saqiya itself is ancient — a Ptolemaic
+      second-century-BC tomb painting shows it — but Islamic engineers
+      turned it into a family of machines: animal-driven,
+      water-driven, composite and continuous {cite:wikipedia-saqiyah-en}
+      {cite:jazari-hill-1974}.'
+    ur: 'آرتوقی دیار بکر کی دربار جہاں الجزری سلطنتی انجینئر تھا؛ ساقیہ
+      خود بہت قدیم ہے — بطلمیسی دوسری صدی ق م کی قبر نقش میں دکھائی
+      دیتی — مگر مسلمان انجینیئروں نے اسے مشینوں کا خاندان بنایا:
+      حیوانی، آبی، مرکب اور مسلسل {cite:wikipedia-saqiyah-en}
+      {cite:jazari-hill-1974}۔'
+makers:
+- person: person/al-jazari-engineer
+  role: improver
+  place: place/amid
+  note: 'Designer of the composite ox-plus-water-wheel saqiya and of
+    the machine carrying the first known crank applied to a saqiya;
+    Hill credits his devices with the earliest implied minimising of
+    intermittence. The saqiya type predates him by more than a
+    millennium — he improves, he does not invent.'
+  sources:
+  - source/wikipedia-saqiyah-en
+  - source/needham-scc-v4p2-1965
+  - source/hill-engineering-ehas-1998
+- person: person/taqi-al-din-ibn-maruf
+  role: describer
+  place: place/cairo
+  note: 'His al-Turuq al-saniyya (1551) describes four water-raising
+    machines, the first two animal-driven — the Ottoman continuation
+    of the same saqiya engineering line.'
+  sources:
+  - source/wikipedia-taqi-al-din-en
+  - source/taqi-turuq-hasan-1976
+attribution:
+  status: improvement
+  claim:
+    ar: 'الساقية نفسها أقدم من الإسلام — بطلمية أو هندية أو كوشية في
+      الأصل المحتمل — والإسهام الإسلامي تحويلها سلسلة آلات محسنة:
+      تروس ومزج قوى وذُقن واستمرارية جريان عند الجزري وتقي الدين
+      {cite:wikipedia-saqiyah-en} {cite:hill-engineering-ehas-1998}.'
+    en: 'The saqiya itself is pre-Islamic — Ptolemaic, Indian or
+      Kushite in its possible origins — and the Islamic contribution
+      is its engineering into an improved machine family: gearing,
+      power-combining, the crank and flow continuity in al-Jazari and
+      Taqi al-Din {cite:wikipedia-saqiyah-en}
+      {cite:hill-engineering-ehas-1998}.'
+    ur: 'ساقیہ خود اسلام سے پہلے کی ہے — بطلمیسی، ہندوستانی یا کوشی ممکنہ
+      اصل — اور اسلامی شراکت اسے بہتر مشین خاندان میں ڈھالنا ہے: گیارنگ،
+      قوتوں کا امتزاج، کرنک اور بہاؤ کا تسلسل الجزری اور تقی الدین کے
+      ہاں {cite:wikipedia-saqiyah-en} {cite:hill-engineering-ehas-1998}۔'
+  basis:
+    ar: 'اللوحة البطلمية القبرية ⁦(القرن الثاني ق.م)⁩ تظهر الجهاز مكتملاً
+      حد التطابق مع النماذج المصرية الحديثة؛ ونيدهم يصف آلة الجزري
+      المركبة ببقر السطح وشفرات الدولاب ⁦(ص353)⁩؛ وهيل ينسب إليه أول
+      ذُقن في ساقية وتقليل التقطع الضمني ⁦(ص776)⁩
+      {cite:wikipedia-saqiyah-en} {cite:needham-scc-v4p2-1965}
+      {cite:hill-engineering-ehas-1998}.'
+    en: 'The Ptolemaic tomb painting ⁦(second century BC)⁩ shows the
+      device already developed "to the point that modern Egyptian
+      devices are virtually identical"; Needham describes al-Jazari''s
+      composite ox-roof and scoop-wheel machine ⁦(p. 353)⁩; Hill credits
+      him with the first saqiya crank and implied intermittence
+      reduction ⁦(p. 776)⁩ {cite:wikipedia-saqiyah-en}
+      {cite:needham-scc-v4p2-1965} {cite:hill-engineering-ehas-1998}.'
+    ur: 'بطلمیسی قبر نقش ⁦(دوسری صدی ق م)⁩ آلہ اتنا پکا دکھاتا کہ جدید
+      مصری آلات اس سے عملاً ایک جیسے ہیں؛ نیڈہم الجزری کی مرکب
+      بیل-چھت اور پیمانہ پہیہ مشین بیان کرتا ہے ⁦(ص353)⁩؛ ہل اسے پہلی
+      ساقیہ کرنک اور ضمنی رکاوٹ کمی کا سہرا دیتا ہے ⁦(ص776)⁩
+      {cite:wikipedia-saqiyah-en} {cite:needham-scc-v4p2-1965}
+      {cite:hill-engineering-ehas-1998}۔'
+precursors:
+- external:
+    ar: الساقية البطلمية والشادوف
+    en: The Ptolemaic saqiya and the shaduf
+    ur: بطلمیسی ساقیہ اور شادوف
+  note: 'The geared waterwheel of the Ptolemaic tomb painting and the
+    three-metre counterweight lift it succeeded — the machine the
+    Islamic saqiya inherited.'
+  sources:
+  - source/wikipedia-saqiyah-en
+- external:
+    ar: عرغطة الهند ⁦(الساقية الهندية القديمة)⁩
+    en: The Indian araghatta
+    ur: ہندوستانی ارگھٹا
+  note: 'The device named in the Panchatantra (c. third century BC) —
+    the eastern candidate for the saqiya''s origin.'
+  sources:
+  - source/wikipedia-saqiyah-en
+dependents:
+- invention: invention/norias-of-hama
+  note: 'The water-driven sister machine already catalogued — the
+    noria lifts by river flow where the saqiya lifts by animal power.'
+  sources:
+  - source/wikipedia-saqiyah-en
+- invention: invention/jazari-animal-scoop-water-lifter
+  note: 'One of al-Jazari''s own catalogue of lifters — the animal
+    scoop-wheel already in the museum.'
+  sources:
+  - source/jazari-hill-1974
+- external:
+    ar: أسنية وأسقية الأندلس ⁦(الساقية الإسبانية)⁩
+    en: The Spanish aceña and acequia tradition
+    ur: اندلس کی اسینیا اور اسیقیہ روایت
+  note: 'The Andalusi continuation whose very names — aceña for the
+    wheel, acequia for the channel — carry the Arabic words into
+    Spanish irrigation.'
+  sources:
+  - source/wikipedia-saqiyah-en
+spread: []
+impact:
+  fields:
+  - water-agriculture
+  changed:
+    ar: 'جعلت رفع الماء صنعة مؤتمتة: من ثلاثة أمتار الشادوف إلى عشرة أو
+      عشرين بالساقية المسنّنة، ففتحت الريّ والمدن والحمّامات على عمق
+      جديد {cite:wikipedia-saqiyah-en}.'
+    en: 'It made water-lifting a geared craft: from the shaduf''s three
+      metres to the saqiya''s ten or twenty, opening irrigation,
+      cities and bathhouses to a new depth {cite:wikipedia-saqiyah-en}.'
+    ur: 'پانی اٹھانے کو گیار شدہ دستکاری بنا دیا: شادوف کے تین میٹر سے
+      ساقیہ کے دس یا بیس میٹر تک، جس سے آبپاشی، شہروں اور حماموں کو
+      نئی گہرائی ملی {cite:wikipedia-saqiyah-en}۔'
+  history:
+    ar: 'من آلات الجزري إلى سواقي دمشق منذ القرن الثالث عشر وإلى حقول
+      الأندلس والهند حملت التقنية اسمها حرفياً: ساقية وacequia —
+      البقاء اللغوي لقرون الريّ الإسلامي {cite:wikipedia-saqiyah-en}.'
+    en: 'From al-Jazari''s machines to the saqiyas of Damascus since
+      the thirteenth century and the fields of al-Andalus and India,
+      the technology carried its own name: saqiya into acequia — the
+      linguistic survival of centuries of Islamic irrigation
+      {cite:wikipedia-saqiyah-en}.'
+    ur: 'الجزری کی مشینوں سے تیرہویں صدی کے دمشق کی ساقیوں اور اندلس و
+      ہند کے کھیتوں تک، یہ تکنیک اپنا نام بھی ساتھ لائی: ساقیہ سے
+      acequia — صدیوں اسلامی آبپاشی کی زبانی بقا
+      {cite:wikipedia-saqiyah-en}۔'
+  significance: 4
+  why: 'The workhorse of Islamic agriculture — hundreds of thousands
+    of wheels across two seas — and the clearest case of engineers
+    perfecting an inherited machine into a machine family.'
+described_in: []
+examples: []
+sites:
+- place/amid
+- place/damascus
+- place/hama
+concepts: []
+today:
+  form:
+    ar: 'تحل المضخات الكهربائية محلها تدريجاً، لكنها تعمل بعد في مصر
+      والهند وإسبانيا — مئات الآلاف من عجلاتها تؤرخ في سجلات الريّ
+      {cite:wikipedia-saqiyah-en}.'
+    en: 'Electric pumps are replacing it, but it still turns in Egypt,
+      India and Spain — the hundreds of thousands of its wheels are
+      counted in irrigation surveys {cite:wikipedia-saqiyah-en}.'
+    ur: 'برقی پمپ اس کی جگہ لے رہے ہیں مگر یہ اب بھی مصر، ہند اور
+      ہسپانیہ میں چلتی ہے — اس کے لاکھوں پہیے آبپاشی سرووں میں گنے جاتے
+      ہیں {cite:wikipedia-saqiyah-en}۔'
+  descendants:
+    ar: 'المضخات الآلية وسلاسل الدلاء الصناعية تكمل وظيفتها بلا حيوان
+      {cite:wikipedia-saqiyah-en}.'
+    en: 'Motor pumps and industrial bucket chains carry its function
+      on without the animal {cite:wikipedia-saqiyah-en}.'
+    ur: 'موٹر پمپ اور صنعتی زنجیرِ مٹکے اس کا کام بغیر حیوان آگے بڑھاتے
+      ہیں {cite:wikipedia-saqiyah-en}۔'
+media:
+  diagram: media/diagram-saqiya-improvements
+  image: media/diagram-saqiya-improvements
+kids:
+  ar: 'تخيل بقرة تمشي في دائرة فتدير تروساً كبيرة، وتدور معها سلسلة
+    طويلة من الدلاء تنزل في البئر وتصعد ماءها دلواً دلواً — هكذا سقى
+    المسلمون حقولهم وبساتينهم قروناً طويلة بآلة لا تتعب.'
+  en: 'Imagine an ox walking in a circle, turning big gears, and with
+    them a long chain of pots dipping into a well and climbing back
+    with water, pot after pot — that is how Muslim farmers watered
+    their fields and gardens for centuries with a tireless machine.'
+  ur: 'ایک بیل سوچو جو دائرے میں چلتا بڑے گیار گھماتا ہے، اور ساتھ ہی
+    مٹکوں کی لمبی زنجیر کنویں میں اتر کر پانی بھر کے اوپر آتی ہے، مٹکہ
+    در مٹکہ — اسی طرح مسلمان کسانوں نے صدیوں اپنی زمینیں اور باغ
+    بیتکنی مشین سے سیراب کیے۔'
+sources:
+- source/wikipedia-saqiyah-en
+- source/needham-scc-v4p2-1965
+- source/hill-engineering-ehas-1998
+- source/jazari-hill-1974
+status:
+  review: published
+  completeness: 2
+provenance:
+  layer: own-research
+  generated_by: devin-drafter-w2-31
+  model: devin
+  run: inventions-w2-31
+  source: 'English Wikipedia "Saqiyah" revision 1360734416 (entity
+    facts only): device anatomy and 10-20m lift vs shaduf''s 3m,
+    Ptolemaic tomb painting and the Oleson "virtually identical"
+    quote, Qusayr Amra, al-Jazari''s composite ox/scoop-wheel machine,
+    the crank and intermittence claims credited to Hill p. 776,
+    Damascus since the 13th century, acequia etymology, India
+    araghatta. Needham SCC 4.2 and Hill''s EHAS chapter
+    bibliographic-only via that revision; jazari-hill-1974 already on
+    repo.'

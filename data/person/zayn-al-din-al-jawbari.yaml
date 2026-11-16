@@ -1,0 +1,114 @@
+id: person/zayn-al-din-al-jawbari
+class: person
+label:
+  ar: زين الدين الجوبري
+  en: Zayn al-Din al-Jawbari
+  ur: زین الدین جوبری
+names:
+- value: عبد الرحمن الجوبري
+  kind: full
+  lang: ar
+- value: Abd al-Rahman al-Jawbari
+  kind: full
+  lang: en
+- value: al-Djawbari
+  kind: latinized
+  lang: en
+- value: Zayn al-Din
+  kind: laqab
+  lang: ar
+gender: male
+roles:
+- writer
+summary:
+  ar: 'كاتب شامي القرن الثالث عشر، وصف نفسه عضواً في جماعة بني ساسان؛ ألّف «كتاب المختار
+    في كشف الأسرار وهتك الأستار» لصاحب خربرت ركن الدين مودود، وفيه شهادة نصية على
+    صنعة الطرش: قوالب تُسمّى طرُشاً تُطبع بها التمائم ⁦(السراميط)⁩ كل يوم، وهي من
+    أوضح شهادات الطباعة الخشبية العربية {cite:wikipedia-tarsh-en} {cite:schaefer-enigmatic-charms-2006}.'
+  en: 'A thirteenth-century Syrian writer who described himself as a member of the
+    Banu Sasan confederation; he composed the Kitab al-Mukhtar fi Kashf al-Asrar for
+    Rukn al-Din Mawdud of Kharput, which contains a textual witness to the tarsh craft:
+    matrices called turush with which amulets are printed daily, one of the clearest
+    written testimonies of Arabic block printing {cite:wikipedia-tarsh-en} {cite:schaefer-enigmatic-charms-2006}.'
+  ur: 'تیرہویں صدی کا شامی مصنف جو خود کو بنو ساسان جماعت کا رکن بتاتا ہے؛ اس نے خرپٹ
+    کے رکن الدین مودود کے لیے کتاب المختار فی کشف الاسرار لکھی جس میں طرش صنعت کی
+    تحریری گواہی ہے: طرش نام کے قالب جن سے روز تمائم ⁦(سرامیت)⁩ چھاپے جاتے تھے — عربی
+    بلاک پرنٹنگ کی واضح ترین تحریری شہادت {cite:wikipedia-tarsh-en} {cite:schaefer-enigmatic-charms-2006}۔'
+faith:
+- value: unknown
+  basis: debated
+  note: Richardson records that the Banu Sasan confederation to which al-Jawbari belonged
+    was predominantly of a Shi'i inclination, but no personal creed of al-Jawbari
+    himself is documented in the recorded revision read; no school is asserted and
+    the Sunni default frame is not applied against that group attestation.
+  sources:
+  - source/wikipedia-tarsh-en
+wings:
+- people
+regions:
+- levant-iraq
+periods:
+- period/crusades-ayyubid-mamluk
+inventions:
+- invention: invention/block-printing-tarsh
+  role: describer
+  note: 'His Kashf al-Asrar (c. 1232-1248) gives the daily-printing witness: matrices
+    called turush used to print amulets every day — textual evidence of an established
+    craft, not a claim he invented it.'
+  sources:
+  - source/wikipedia-tarsh-en
+  - source/schaefer-enigmatic-charms-2006
+sources:
+- source/wikipedia-tarsh-en
+- source/schaefer-enigmatic-charms-2006
+status:
+  review: published
+  completeness: 2
+provenance:
+  layer: own-research
+  generated_by: devin-drafter-w2-31
+  model: devin
+  run: inventions-w2-31
+  source: 'English Wikipedia "Tarsh" revision 1382557449 (entity facts only): Banu
+    Sasan membership, the Kashf al-Asrar commission for Rukn al-Din Mawdud c. 1232-1248,
+    and the turush daily-printing passage. Schaefer 2006 registered bibliographically
+    via that revision.'
+issue:
+  ar: هل تثبت المصادر مذهبه الشخصي أم توقف عند انتمائه الجماعي؟
+  en: Do sources fix his personal creed, or stop at the group affiliation?
+  ur: کیا مآخذ اس کا ذاتی عقیدہ ثابت کرتے ہیں یا صرف گروہی وابستگی؟
+perspectives:
+- tradition: sunni
+  id: sunni-default-not-applied
+  stance:
+    ar: إطار المتن لا حكم على الشخص
+    en: Default frame held, not applied to the man
+    ur: ڈیفالٹ فریم ہے، شخص پر اطلاق نہیں
+  summary:
+    ar: يقول التراث الجماعي إن بني ساسان كانوا غالباً على الميل الشيعي؛ والمتحف لا
+      يطبق إطاره الافتراضي على شخص لا تثبت عقيدته، فيُسجَّل «غير معلوم» بلا نسبة.
+    en: The group tradition says the Banu Sasan inclined Shi‘i; the museum does not
+      extend its Sunni default frame to a man whose personal creed is unattested,
+      so the value stands as unknown, not Sunni.
+    ur: گروہی روایت کہتی ہے بنو ساسان عموماً شیعی میلان رکھتے تھے؛ میوزیم شخصی عقیدے
+      کے غیر موثق ہونے پر سننی ڈیفالٹ فریم کا اطلاق نہیں کرتا، لہٰذا قیمت «نامعلوم»
+      رہتی ہے۔
+  sources:
+  - source/wikipedia-tarsh-en
+- tradition: academic
+  id: richardson-banu-sasan-inclination
+  stance:
+    ar: ميل جماعي لا عقيدة شخصية
+    en: Group inclination, not a personal creed
+    ur: گروہی میلان، ذاتی عقیدہ نہیں
+  summary:
+    ar: يريخاردسون يسجّل أن كيان بني ساسان الذي انتسب إليه الجوبري كان ذا ميل شيعي
+      غالب؛ والقراءة الأكاديمية تتوقف هناك ولا تثبت عقيدته الشخصية من عضويته.
+    en: Richardson records that the Banu Sasan body al-Jawbari belonged to was predominantly
+      Shi‘i in inclination; academic reading stops at the group and does not derive
+      a personal creed from membership.
+    ur: رچرڈسن لکھتا ہے کہ جس بنو ساسان سے جوبری وابستہ تھا وہ عموماً شیعی میلان کا
+      تھا؛ علمی قراءت گروہ پر رکتی ہے اور رکنیت سے ذاتی عقیدہ اخذ نہیں کرتی۔
+  sources:
+  - source/wikipedia-tarsh-en
+  - source/schaefer-enigmatic-charms-2006
