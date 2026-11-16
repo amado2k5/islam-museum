@@ -1,0 +1,41 @@
+# Citation metadata for the PAPER. Deposit this file with the paper.
+# It is not the repository's citation file: the repository has none at the time of writing (15 November 2026).
+cff-version: 1.2.0
+message: "If you rely on the description or method, cite this paper. If you use the data, cite the dataset listed under references by its concept DOI."
+type: article
+title: "islam.museum: A Citable Open Knowledge Graph and Digital Museum of Islamic History — Resource Description, Method and Validation State"
+abstract: "A data and methods paper describing islam.museum, an Arabic-first digital museum with English and Urdu editions whose primary form is a knowledge graph in a public git repository, archived on Zenodo under the concept DOI 10.5281/zenodo.23692511. Records are AI-written under one author's rules; most are drafts and the corpus is not human-reviewed."
+authors:
+  - family-names: "Abdel Aal"
+    given-names: "Ahmed"
+    orcid: "https://orcid.org/0009-0000-9215-2906"
+    affiliation: "islam.museum (independent)"
+    email: "discover@islam.museum"
+version: "1.0"
+date-released: "2026-11-15"
+license: CC-BY-4.0
+keywords:
+  - Islamic history
+  - digital museum
+  - knowledge graph
+  - open data
+  - digital humanities
+  - Arabic-first
+  - Zenodo
+  - CC0
+# Add after the Zenodo deposit; a CFF file with a placeholder here does not validate.
+# doi: "[PAPER DOI TO BE ASSIGNED ON ZENODO DEPOSIT]"
+url: "https://islam.museum"
+repository-code: "https://github.com/amado2k5/islam-museum"
+references:
+  - type: dataset
+    title: "islam.museum — an open digital museum of Islam"
+    authors:
+      - family-names: "Abdel Aal"
+        given-names: "Ahmed"
+        orcid: "https://orcid.org/0009-0000-9215-2906"
+    year: 2026
+    publisher:
+      name: "Zenodo"
+    doi: "10.5281/zenodo.23692511"
+    notes: "Concept DOI. Cite this for the dataset."
