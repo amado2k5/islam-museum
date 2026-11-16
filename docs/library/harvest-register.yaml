@@ -12415,7 +12415,7 @@ books:
     physical: {pages: 864}
     ocr: {state: complete, date: '2026-10-18', unzipped_location: books/medicine-science/canon-ibn-sina-print-v2/}
     ocr_archive: {state: none}
-    mining: {state: in_progress, entities: '53 data files cite source/canon-ibn-sina-print-v2,canon-ibn-sina-print'}
+    mining: {state: in_progress, ranges_mined: ['scan 5 to 44 (Book III Fann 1 maqala 1, general laws of diseases of the head and brain, packet a4-canon-book3-1, 25 records, landed 16 Nov 2026)'], resume_note: 'a4-canon-book3-2 starts at scan 44, maqala 2 (pains of the head, general discourse on headache); reproductive fanns 12, 20 and 21 are held for the founder; plan: docs/delegation/canon-ibn-sina-book-3-progress.md', entities: '53 data files cite source/canon-ibn-sina-print-v2,canon-ibn-sina-print (count before Book III; a4-canon-book3-1 adds 25)'}
     ingestion: {state: partial, prs: [188, 6340, 6341, 6342, 6344, 6345, 6346, 6347, 6348, 6349, 6350, 6351, 6352, 6353, 6354, 6355, 6356, 6357, 6370, 6373, 6385, 6387, 6389, 6391, 6392, 6395, 6398, 6400, 6402, 6404, 6406, 6408, 6410, 6412, 6414, 6417, 6418, 6420, 6421, 6423], ledger: [docs/delegation/library/medicine-science.md], graph_ids: [source/canon-ibn-sina-print-v2, source/canon-ibn-sina-print], prs_total: 80}
     completion: mining
     unverified:
@@ -24485,8 +24485,8 @@ video_series:
     lecturer: { name: "Amr Khaled", page_url: "https://www.assabile.com/amr-khaled" }
     series_page_url: "https://www.assabile.com/amr-khaled/lessons/wa-nal9a-al-aheba"
     episodes_total: null
-    episodes_audio: 15
-    episodes_transcribed: 15
+    episodes_audio: 16
+    episodes_transcribed: 16
     transcript: { pass: pass5-qwen, model: "oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2", state: partial, run_dates: "2026-11-15" }
     mining: { state: none, episodes_mined: 0, ranges: null, held: null, basis: null }
     ingestion: { state: in_progress, prs: [], ledger: "docs/delegation/assabile-wa-nal9a-al-aheba.md", work_id: "work/wa-nal9a-al-aheba" }
@@ -24498,8 +24498,9 @@ video_series:
       - { n: 13, title: "Episode 13 (Wa Nalka Al-Aheba)", page_url: "https://www.assabile.com/amr-khaled/lessons/wa-nal9a-al-aheba/episode-13-923", file: "raw/assabile/amr-khaled/wa-nal9a-al-aheba/ep13.mp4", format: mp4, duration: "51:15", bytes: 126928817, sha256: "bc3d544b5823ab49e7010dc0a5cb5cde578498c193c47685c418811a7d79e7d4", on_drive: true, from: "https://media.assabile.com/assabile/lessons_8234632432/mp4/amr-khaled/923-13-athman-bn-afan-2.mp4", downloaded: "2026-11-16", transcript: "pass5-qwen", mining: "in_progress" }
       - { n: 14, title: "Episode 14 (Wa Nalka Al-Aheba)", page_url: "https://www.assabile.com/amr-khaled/lessons/wa-nal9a-al-aheba/episode-14-924", file: "raw/assabile/amr-khaled/wa-nal9a-al-aheba/ep14.mp4", format: mp4, duration: "52:06", bytes: 132322993, sha256: "1c38c186b3b356312fef3f32972a98c1674b092d983c94489bf6aa0cdbf32ff9", on_drive: true, downloaded: "2026-11-16", transcript: "pass5-qwen", mining: "in_progress" }
       - { n: 15, title: "Episode 15 (Wa Nalka Al-Aheba)", page_url: "https://www.assabile.com/amr-khaled/lessons/wa-nal9a-al-aheba/episode-15-925", file: "raw/assabile/amr-khaled/wa-nal9a-al-aheba/ep15.mp4", format: mp4, duration: "51:09", bytes: 141796608, sha256: "3cfa2e2bc41334e051774905ae312cb4f9225e3ec6ae6e9699744cf98a7d70f0", on_drive: true, downloaded: "2026-11-16", transcript: "pass5-qwen", mining: "in_progress" }
+      - { n: 16, title: "Episode 16 (Wa Nalka Al-Aheba)", page_url: "https://www.assabile.com/amr-khaled/lessons/wa-nal9a-al-aheba/episode-16-926", file: "raw/assabile/amr-khaled/wa-nal9a-al-aheba/ep16.mp4", format: mp4, duration: "56:24", bytes: 140740965, sha256: "da238398158e4223a51213c5954c16a85201d34cb4c2140099508c1baa46b4f3", on_drive: true, from: "https://media.assabile.com/assabile/lessons_8234632432/mp4/amr-khaled/926-16-athman-bn-afan-5.mp4", downloaded: "2026-11-16", transcript: "pass5-qwen", mining: "in_progress" }
     completion: mining
-    unverified: ["episodes 14 and 15 added by the lander from packets lanec-wa-nal9a-al-aheba-14 and -15 (landed 16 Nov 2026); episode 13 added by the lander from packet lanec-wa-nal9a-al-aheba-13 (landed 16 Nov 2026); episodes 11 and 12 added by the lander from packets lanec-wa-nal9a-al-aheba-11 and -12 (landed 16 Nov 2026); episode 10 added by the lander from packet lanec-wa-nal9a-al-aheba-10 (landed 15 Nov 2026); entry added by the lander from the note in packet lanec-wa-nal9a-al-aheba-09; only episode 9 is described in full; episodes 1-8 and 10 are on the drive under raw/assabile/amr-khaled/wa-nal9a-al-aheba/ (audio/ and pass5-qwen/) and need their lines and checksums filled in by the lane; episodes_total not yet confirmed"]
+    unverified: ["episode 16 added by the lander from packet lanec-wa-nal9a-al-aheba-16 (landed 16 Nov 2026); episodes 14 and 15 added by the lander from packets lanec-wa-nal9a-al-aheba-14 and -15 (landed 16 Nov 2026); episode 13 added by the lander from packet lanec-wa-nal9a-al-aheba-13 (landed 16 Nov 2026); episodes 11 and 12 added by the lander from packets lanec-wa-nal9a-al-aheba-11 and -12 (landed 16 Nov 2026); episode 10 added by the lander from packet lanec-wa-nal9a-al-aheba-10 (landed 15 Nov 2026); entry added by the lander from the note in packet lanec-wa-nal9a-al-aheba-09; only episode 9 is described in full; episodes 1-8 and 10 are on the drive under raw/assabile/amr-khaled/wa-nal9a-al-aheba/ (audio/ and pass5-qwen/) and need their lines and checksums filled in by the lane; episodes_total not yet confirmed"]
   # END video_series
 
 # websites: one entry per site (id, title, site_url, licence, lane, state, notes) and a `pages` list of

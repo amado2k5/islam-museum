@@ -1,0 +1,23 @@
+id: concept/qawanin-ilaj-amrad-al-ras-al-istifragh
+class: concept
+kind: scientific
+label:
+  ar: "قوانين علاج أمراض الرأس: الاستفراغ"
+  en: "The laws of treating diseases of the head: evacuation"
+  ur: "سر کی بیماریوں کے علاج کے قوانین: استفراغ"
+summary:
+  ar: "يذكر ابن سينا ترتيب الاستفراغ في مادة الرأس: الفصد إذا كان الدم وافراً، واستفراغ البدن كله قبل الرأس، وإنضاج المادة قبل تنقية الرأس، والجذب إلى الخلاف، ومعالجة سوء المزاج الحادث بالضد {cite:canon-ibn-sina-print-v2 pp.26-28}"
+  en: "Ibn Sina gives the order of evacuation for matter in the head: venesection if blood is plentiful, evacuating the whole body before the head, ripening the matter before cleansing the head, drawing to the opposite side, and treating a resulting ill-temperament by its opposite {cite:canon-ibn-sina-print-v2 pp.26-28}"
+  ur: "ابن سینا سر کے مادے میں استفراغ کی ترتیب بتاتا ہے: خون وافر ہو تو فصد، سر سے پہلے پورے بدن کا استفراغ، سر کی صفائی سے پہلے مادے کو پکانا، مخالف سمت کی طرف کھینچنا، اور پیدا ہونے والے سوءِ مزاج کا علاج ضد سے {cite:canon-ibn-sina-print-v2 pp.26-28}۔"
+wings: [living]
+tags: [tibb-browser, tibb-tibb, tibb-tadawi]
+sources: [source/canon-ibn-sina-print-v2]
+relations:
+  - { type: part_of, target: concept/medical-treatment, sources: [source/canon-ibn-sina-print-v2] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 1, maqala 1, scan pages 26-28, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json) with the PDF page images rendered with pdftoppm and read by eye for every heading and doubtful clause; editor footnotes used only for glosses and labelled as the editor's; doses, quantities, times, ratios, named drug combinations, preparation and procedure details left out; unclear lines left out, not guessed; womb, menses, foetus, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book3-1
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

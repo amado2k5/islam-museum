@@ -1,0 +1,23 @@
+id: concept/alamat-ghalabat-al-mawadd-fi-al-ras
+class: concept
+kind: scientific
+label:
+  ar: "علامات غلبة المواد في الرأس"
+  en: "The signs of the prevalence of the matters in the head"
+  ur: "سر میں مادوں کے غلبے کی علامات"
+summary:
+  ar: "يذكر ابن سينا علامات غلبة المادة الصفراوية والدموية والبلغمية والسوداوية في الرأس بالثقل والوجع والنوم ولون الوجه والعين {cite:canon-ibn-sina-print-v2 p.25}"
+  en: "Ibn Sina gives the signs of the prevalence of the bilious, sanguine, phlegmatic and black-bilious matter in the head by heaviness, pain, sleep and the colour of face and eye {cite:canon-ibn-sina-print-v2 p.25}"
+  ur: "ابن سینا سر میں صفراوی، دموی، بلغمی اور سوداوی مادے کے غلبے کی علامات بھاری پن، درد، نیند اور چہرے اور آنکھ کے رنگ سے بتاتا ہے {cite:canon-ibn-sina-print-v2 p.25}۔"
+wings: [living]
+tags: [tibb-browser, tibb-tibb]
+sources: [source/canon-ibn-sina-print-v2]
+relations:
+  - { type: part_of, target: concept/disease, sources: [source/canon-ibn-sina-print-v2] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 1, maqala 1, scan pages 25, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json) with the PDF page images rendered with pdftoppm and read by eye for every heading and doubtful clause; editor footnotes used only for glosses and labelled as the editor's; doses, quantities, times, ratios, named drug combinations, preparation and procedure details left out; unclear lines left out, not guessed; womb, menses, foetus, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book3-1
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

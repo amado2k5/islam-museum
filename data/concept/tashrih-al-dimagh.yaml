@@ -1,0 +1,23 @@
+id: concept/tashrih-al-dimagh
+class: concept
+kind: scientific
+label:
+  ar: "تشريح الدماغ"
+  en: "The anatomy of the brain"
+  ur: "دماغ کی تشریح"
+summary:
+  ar: "يصف ابن سينا الدماغ جوهراً حجابياً ومخياً وتجاويف مملوءة روحاً، ويذكر مزاجه وغشاءيه وبطونه الثلاثة ومجرييه لدفع الفضول {cite:canon-ibn-sina-print-v2 pp.5-9}"
+  en: "Ibn Sina describes the brain as a membranous substance, a marrow-like substance and cavities filled with spirit, and gives its temperament, its two membranes, its three ventricles and its two channels for expelling superfluities {cite:canon-ibn-sina-print-v2 pp.5-9}"
+  ur: "ابن سینا دماغ کو ایک حجابی جوہر، ایک مخی جوہر اور روح سے بھرے ہوئے خانوں کی صورت میں بیان کرتا ہے، اور اس کا مزاج، اس کی دو جھلیاں، اس کے تین بطون اور فضلات نکالنے کی دو گزرگاہیں ذکر کرتا ہے {cite:canon-ibn-sina-print-v2 pp.5-9}۔"
+wings: [living]
+tags: [tibb-browser, tibb-tibb, tibb-tashrih]
+sources: [source/canon-ibn-sina-print-v2]
+relations:
+  - { type: part_of, target: concept/anatomy, sources: [source/canon-ibn-sina-print-v2] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 1, maqala 1, scan pages 5-9, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json) with the PDF page images rendered with pdftoppm and read by eye for every heading and doubtful clause; editor footnotes used only for glosses and labelled as the editor's; doses, quantities, times, ratios, named drug combinations, preparation and procedure details left out; unclear lines left out, not guessed; womb, menses, foetus, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book3-1
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

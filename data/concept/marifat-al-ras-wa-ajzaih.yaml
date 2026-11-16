@@ -1,0 +1,23 @@
+id: concept/marifat-al-ras-wa-ajzaih
+class: concept
+kind: scientific
+label:
+  ar: "معرفة الرأس وأجزائه"
+  en: "The head and its parts"
+  ur: "سر اور اس کے اجزا کی پہچان"
+summary:
+  ar: "في أول الكتاب الثالث يذكر ابن سينا، نقلاً عن جالينوس، الغرض من خلقة الرأس، ثم أجزاءه الذاتية بالترتيب من الشعر إلى العظم الذي هو قاعدة الدماغ {cite:canon-ibn-sina-print-v2 p.5}"
+  en: "At the start of Book III Ibn Sina gives, from Galen, the purpose for which the head was created, and then its own parts in order, from the hair to the bone that is the base of the brain {cite:canon-ibn-sina-print-v2 p.5}"
+  ur: "کتاب سوم کے آغاز میں ابن سینا جالینوس کے حوالے سے سر کی تخلیق کا مقصد بیان کرتا ہے، پھر اس کے ذاتی اجزا ترتیب سے بتاتا ہے، بال سے لے کر اس ہڈی تک جو دماغ کی بنیاد ہے {cite:canon-ibn-sina-print-v2 p.5}۔"
+wings: [living]
+tags: [tibb-browser, tibb-tibb, tibb-tashrih]
+sources: [source/canon-ibn-sina-print-v2]
+relations:
+  - { type: part_of, target: concept/anatomy, sources: [source/canon-ibn-sina-print-v2] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 1, maqala 1, scan pages 5, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json) with the PDF page images rendered with pdftoppm and read by eye for every heading and doubtful clause; editor footnotes used only for glosses and labelled as the editor's; doses, quantities, times, ratios, named drug combinations, preparation and procedure details left out; unclear lines left out, not guessed; womb, menses, foetus, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book3-1
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

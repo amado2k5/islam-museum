@@ -1,0 +1,23 @@
+id: concept/inzaj-al-madda-wa-jadhbuha-wa-tanqiyat-al-ras
+class: concept
+kind: scientific
+label:
+  ar: "إنضاج المادة وجذبها وتنقية الرأس"
+  en: "Ripening the matter, drawing it off and cleansing the head"
+  ur: "مادے کو پکانا، کھینچنا اور سر کی صفائی"
+summary:
+  ar: "يذكر ابن سينا مبادئ إنضاج مادة الرأس بحسب خلطها وكميتها وشدتها، ومقابلة المادة بالاستفراغ وبالجذب إلى الخلاف، وأصناف المنقيات الخاصة بالرأس من غرغرات وعطوسات وسعوطات {cite:canon-ibn-sina-print-v2 pp.28-36}"
+  en: "Ibn Sina gives the principles of ripening the matter in the head according to its humour, amount and strength, countering the matter by evacuation and by drawing to the opposite side, and the kinds of cleansers particular to the head, gargles, sneezing preparations and nasal drops {cite:canon-ibn-sina-print-v2 pp.28-36}"
+  ur: "ابن سینا سر کے مادے کو اس کے خلط، مقدار اور شدت کے مطابق پکانے کے اصول، مادے کا مقابلہ استفراغ اور مخالف سمت کھینچنے سے، اور سر کے لیے خاص صاف کرنے والی چیزوں کی قسمیں بتاتا ہے: غرغرے، چھینکیں لانے والی چیزیں اور ناک میں ٹپکانے کی دوائیں {cite:canon-ibn-sina-print-v2 pp.28-36}۔"
+wings: [living]
+tags: [tibb-browser, tibb-tibb, tibb-tadawi]
+sources: [source/canon-ibn-sina-print-v2]
+relations:
+  - { type: part_of, target: concept/medical-treatment, sources: [source/canon-ibn-sina-print-v2] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 1, maqala 1, scan pages 28-36, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json) with the PDF page images rendered with pdftoppm and read by eye for every heading and doubtful clause; editor footnotes used only for glosses and labelled as the editor's; doses, quantities, times, ratios, named drug combinations, preparation and procedure details left out; unclear lines left out, not guessed; womb, menses, foetus, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book3-1
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

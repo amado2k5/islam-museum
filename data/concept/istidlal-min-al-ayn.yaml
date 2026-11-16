@@ -1,0 +1,23 @@
+id: concept/istidlal-min-al-ayn
+class: concept
+kind: scientific
+label:
+  ar: "الاستدلال على الدماغ من العين"
+  en: "Inference about the brain from the eye"
+  ur: "آنکھ سے دماغ پر استدلال"
+summary:
+  ar: "يذكر ابن سينا أن حال العين من عروقها ولونها ودمعها وطرفها وحركتها وجحوظها وغورها يقارب في الدلالة ما يكون في الدماغ نفسه {cite:canon-ibn-sina-print-v2 p.20}"
+  en: "Ibn Sina says that the state of the eye, in its vessels, colour, tears, blinking, movement, protrusion and sunkenness, comes very close in indication to what is in the brain itself {cite:canon-ibn-sina-print-v2 p.20}"
+  ur: "ابن سینا کہتا ہے کہ آنکھ کی حالت، اس کی رگوں، رنگ، آنسو، پلک جھپکنے، حرکت، ابھار اور دھنساؤ میں، دلالت میں اس کے قریب ہے جو خود دماغ میں ہوتا ہے {cite:canon-ibn-sina-print-v2 p.20}۔"
+wings: [living]
+tags: [tibb-browser, tibb-tibb]
+sources: [source/canon-ibn-sina-print-v2]
+relations:
+  - { type: part_of, target: concept/symptoms-and-signs, sources: [source/canon-ibn-sina-print-v2] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 1, maqala 1, scan pages 20, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json) with the PDF page images rendered with pdftoppm and read by eye for every heading and doubtful clause; editor footnotes used only for glosses and labelled as the editor's; doses, quantities, times, ratios, named drug combinations, preparation and procedure details left out; unclear lines left out, not guessed; womb, menses, foetus, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book3-1
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

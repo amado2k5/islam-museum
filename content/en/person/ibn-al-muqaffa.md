@@ -15,3 +15,6 @@ Ibn al-Nadim says that his name in Persian was Ruzbih, and that before he became
 He first wrote for Dawud ibn Umar ibn Hubayra, and then for Isa ibn Ali in Kerman. Ibn al-Nadim describes him as a writer and poet at the height of eloquence and rhetoric. {cite:fihrist-ibn-al-nadim p. 172}
 
 Ibn al-Nadim relates from him that the Persian languages are five: Pahlavi, Dari, Persian, Khuzi and Syriac. {cite:fihrist-ibn-al-nadim p. 31-32}
+
+## In The Oxford Dictionary of Islam
+According to The Oxford Dictionary of Islam, Ibn al-Muqaffa, who died in 756, belonged to the secretarial class, the kuttab, and under the Abbasids was responsible for rendering works of history from Persian into Arabic. He composed a number of essays and letters and translated the animal tales of Kalila wa Dimna, writings that embody the manner and temper of adab. The Dictionary reports his view that religion is of such weight that the state must control the scholars and judges; he regarded the caliph as the one who proclaims doctrine and names judges. It describes him as receptive to the ideas and accomplishments of other peoples, a mark of the empire's spread beyond Arab lands, as holding that earlier civilizations excelled later ones, and as ranking reason above feeling. It says his political opponents had him executed. {cite:oxford-dictionary-of-islam e927}

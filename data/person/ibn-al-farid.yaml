@@ -21,7 +21,7 @@ relations:
   - { type: died_in, target: place/cairo, sources: [source/shadharat-dhahab] }
   - { type: lived_in, target: place/mecca, sources: [source/shadharat-dhahab] }
 external_ids: { openiti: "0632SharafDinIbnFarid" }
-sources: [source/shadharat-dhahab, source/openiti-corpus]
+sources: [source/shadharat-dhahab, source/openiti-corpus, source/oxford-dictionary-of-islam]
 status:
   review: published
   completeness: 3
@@ -31,3 +31,4 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch101
+  oxford_captures: "t125/e922: http://www.oxfordislamicstudies.com/article/opr/t125/e922 ; https://web.archive.org/web/20191116150501/http://www.oxfordislamicstudies.com/article/opr/t125/e922"

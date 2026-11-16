@@ -1,0 +1,23 @@
+id: concept/istidlal-min-thiql-al-ras-wa-hararatih-wa-awjaih
+class: concept
+kind: scientific
+label:
+  ar: "الاستدلال من ثقل الرأس وحرارته وبرودته وأوجاعه"
+  en: "Inference from the heaviness, heat, cold and pains of the head"
+  ur: "سر کے بھاری پن، گرمی، سردی اور دردوں سے استدلال"
+summary:
+  ar: "يبين ابن سينا أن ثقل الرأس يدل دائماً على مادة، ويفرق بين الصفراء والسوداء والدم والبلغم في الثقل والوجع والنوم، ويذكر ما تدل عليه أصناف الوجع {cite:canon-ibn-sina-print-v2 pp.19-20}"
+  en: "Ibn Sina shows that heaviness of the head always indicates a matter, tells yellow bile, black bile, blood and phlegm apart by heaviness, pain and sleep, and gives what the kinds of pain indicate {cite:canon-ibn-sina-print-v2 pp.19-20}"
+  ur: "ابن سینا بتاتا ہے کہ سر کا بھاری پن ہمیشہ مادے پر دلالت کرتا ہے، اور بھاری پن، درد اور نیند سے صفرا، سودا، خون اور بلغم میں فرق کرتا ہے، اور دردوں کی قسموں کی دلالت ذکر کرتا ہے {cite:canon-ibn-sina-print-v2 pp.19-20}۔"
+wings: [living]
+tags: [tibb-browser, tibb-tibb]
+sources: [source/canon-ibn-sina-print-v2]
+relations:
+  - { type: part_of, target: concept/symptoms-and-signs, sources: [source/canon-ibn-sina-print-v2] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 1, maqala 1, scan pages 19-20, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json) with the PDF page images rendered with pdftoppm and read by eye for every heading and doubtful clause; editor footnotes used only for glosses and labelled as the editor's; doses, quantities, times, ratios, named drug combinations, preparation and procedure details left out; unclear lines left out, not guessed; womb, menses, foetus, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book3-1
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

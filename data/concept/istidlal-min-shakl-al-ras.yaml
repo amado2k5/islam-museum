@@ -1,0 +1,23 @@
+id: concept/istidlal-min-shakl-al-ras
+class: concept
+kind: scientific
+label:
+  ar: "الاستدلال من شكل الرأس"
+  en: "Inference from the shape of the head"
+  ur: "سر کی شکل سے استدلال"
+summary:
+  ar: "يرجع ابن سينا في شكل الرأس إلى باب عظم القحف، ويقول إن رداءة الشكل في جزء تضر بخواص أفعال ذلك الجزء من الدماغ، ناقلاً عن جالينوس {cite:canon-ibn-sina-print-v2 p.19}"
+  en: "Ibn Sina refers the shape of the head to the chapter on the bone of the skull and says that badness of shape in a part harms the particular acts of that part of the brain, reporting Galen {cite:canon-ibn-sina-print-v2 p.19}"
+  ur: "ابن سینا سر کی شکل کے لیے کھوپڑی کی ہڈی کے باب کا حوالہ دیتا ہے اور کہتا ہے کہ کسی حصے میں شکل کی خرابی دماغ کے اس حصے کے مخصوص افعال کو نقصان دیتی ہے، جالینوس سے نقل کرتے ہوئے {cite:canon-ibn-sina-print-v2 p.19}۔"
+wings: [living]
+tags: [tibb-browser, tibb-tibb]
+sources: [source/canon-ibn-sina-print-v2]
+relations:
+  - { type: part_of, target: concept/symptoms-and-signs, sources: [source/canon-ibn-sina-print-v2] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 1, maqala 1, scan pages 19, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json) with the PDF page images rendered with pdftoppm and read by eye for every heading and doubtful clause; editor footnotes used only for glosses and labelled as the editor's; doses, quantities, times, ratios, named drug combinations, preparation and procedure details left out; unclear lines left out, not guessed; womb, menses, foetus, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book3-1
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

@@ -10,9 +10,10 @@ born: { edtf: "724~", calendar: gregorian, precision: year, derived: true, note:
 died: { edtf: "759~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2" }
 relations:
   - { type: lived_in, target: place/fars, confidence: low, note: "Associated with فارس per the record's own summary text; relation type pending review.", sources: [source/futuh-buldan-maarif-1407] }
-sources: [source/futuh-buldan-maarif-1407, source/fihrist-ibn-al-nadim, source/nihayat-al-arab-nuwayri-vol3-scan]
+sources: [source/futuh-buldan-maarif-1407, source/fihrist-ibn-al-nadim, source/nihayat-al-arab-nuwayri-vol3-scan, source/oxford-dictionary-of-islam]
 status: { review: draft, completeness: 1 }
 provenance:
   layer: own-research
   generated_by: "Devin (SWE-2 High)"
   extraction_flow: "Apple Vision OCR -> manual extraction"
+  oxford_captures: "t125/e927: http://www.oxfordislamicstudies.com/article/opr/t125/e927 ; https://web.archive.org/web/20171022174142/http://www.oxfordislamicstudies.com:80/article/opr/t125/e927"
