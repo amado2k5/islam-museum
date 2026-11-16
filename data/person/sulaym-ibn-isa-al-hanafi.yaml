@@ -15,6 +15,17 @@ wings: [people]
 periods: [period/abbasid-early]
 regions: [levant-iraq]
 died: { edtf: "0804", hijri: "0188", calendar: julian, precision: year, status: tradition, derived: true, note: "Year as printed in al-Nashr; Julian year derived by tabular conversion.", sources: [source/nashr-dahman-damascus-1345-v1] }
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 27"
+    sources: [source/nashr-dahman-damascus-1345-v1]
+  - job: job/teacher
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'teacher', Job Browser linking wave 27"
+    sources: [source/nashr-dahman-damascus-1345-v1]
 relations:
   - { type: student_of, target: person/hamza-al-zayyat, confidence: high, note: "Ibn al-Jazari, al-Nashr, p. 175: Sulaym read on the imam of Kufa, Hamza ibn Habib al-Zayyat.", sources: [source/nashr-dahman-damascus-1345-v1] }
   - { type: lived_in, target: place/kufa, confidence: medium, note: "Nisba al-Kufi in the name printed in al-Nashr p. 175.", sources: [source/nashr-dahman-damascus-1345-v1] }

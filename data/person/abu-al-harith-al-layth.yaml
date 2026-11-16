@@ -15,6 +15,17 @@ wings: [people]
 periods: [period/abbasid-early]
 regions: [levant-iraq]
 died: { edtf: "0854", hijri: "0240", calendar: julian, precision: year, status: tradition, derived: true, note: "Year as printed in al-Nashr; Julian year derived by tabular conversion.", sources: [source/nashr-dahman-damascus-1345-v1] }
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 27"
+    sources: [source/nashr-dahman-damascus-1345-v1]
+  - job: job/teacher
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'teacher', Job Browser linking wave 27"
+    sources: [source/nashr-dahman-damascus-1345-v1]
 relations:
   - { type: student_of, target: person/al-kisai, confidence: high, note: "Ibn al-Jazari, al-Nashr, p. 183: Abu al-Harith is among the companions of al-Kisa'i.", sources: [source/nashr-dahman-damascus-1345-v1] }
   - { type: lived_in, target: place/baghdad, confidence: medium, note: "Nisba al-Baghdadi in the index of names of al-Nashr, p. 496.", sources: [source/nashr-dahman-damascus-1345-v1] }

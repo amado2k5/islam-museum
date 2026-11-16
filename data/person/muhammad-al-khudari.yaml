@@ -14,6 +14,22 @@ periods: [period/colonial-era]
 regions: [egypt-nile]
 born: { edtf: "1872", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam" }
 died: { edtf: "1927", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam" }
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 27"
+    sources: [source/nur-al-yaqin-tijariyya-1926, source/muhadarat-tarikh-al-umam-al-islamiyya]
+  - job: job/historian
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'historian', Job Browser linking wave 27"
+    sources: [source/nur-al-yaqin-tijariyya-1926, source/muhadarat-tarikh-al-umam-al-islamiyya]
+  - job: job/teacher
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'teacher', Job Browser linking wave 27"
+    sources: [source/nur-al-yaqin-tijariyya-1926, source/muhadarat-tarikh-al-umam-al-islamiyya]
 relations:
   - { type: authored, target: work/nur-al-yaqin, sources: [source/nur-al-yaqin-tijariyya-1926] }
   - { type: lived_in, target: place/jur, sources: [source/wikidata], confidence: low, note: "Nisba جوري attested in the record." }

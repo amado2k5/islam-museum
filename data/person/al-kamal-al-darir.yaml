@@ -16,6 +16,17 @@ regions: [egypt-nile]
 faith:
   - value: sunni-shafii
     basis: tradition
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 27"
+    sources: [source/shadharat-dhahab]
+  - job: job/qari
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'muqri', Job Browser linking wave 27"
+    sources: [source/shadharat-dhahab]
 relations:
   - { type: lived_in, target: place/misr, note: "Place association from the person's nisba/name (المصري); denotes association, not proven residence.", sources: [source/shadharat-dhahab], confidence: low }
 sources: [source/shadharat-dhahab]
