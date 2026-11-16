@@ -26,3 +26,9 @@ The entry names Asyut as the birthplace of Plotinus, of the Coptic saint John of
 
 ## In the iDAI.gazetteer
 The iDAI.gazetteer lists this place under no. 2042814 with the preferred name «Asyūt», classed as archaeological site and populated place; its parent in the hierarchy is «Asyūt (Muhāfazat)», classed as administrative unit. Recorded names include «Lykopolis», «Siut» and «Syut». {cite:idai-gazetteer 2042814}
+
+## In Yaqut's Mu'jam al-buldan
+Yaqut makes Asyut "a city on the west of the Nile in the districts of Upper Egypt, a noble large city"; he relates that a Christian of its people told him it holds seventy-five churches for the Christians, they being many there — a report carried on its teller's name {cite:mujam-al-buldan-sader-1995 1 p.193}. Al-Hasan ibn Ibrahim al-Misri says Asyut is of Egypt's works, with the weaving of the Armani and the triple Dabiqi and all kinds of sugar no Muslim or pagan country lacks, quinces exceeding every land in abundance, and opium made there pressed from the leaf of the black poppy and the lettuce and carried to all the world; he records that the world was depicted for al-Rashid and he approved nothing but the kura of Asyut, that it holds thirty thousand faddans of level land where a fallen drop of water would spread through all of it and no span would thirst, and that it was one of the resorts of Abu al-Jaysh Khumarawayh ibn Ahmad ibn Tulun {cite:mujam-al-buldan-sader-1995 1 p.193-194}.
+
+## The museum's identification
+The record's Asyut is the Upper Egyptian city of the same entry; and its ascribed testimony of seventy-five churches — carried on its teller — meets the record's own sixty churches, with "seventy-five it is said", on the Encyclopaedia of Islam's account from Ibn Duqmaq: both numbers stand on their sources.
