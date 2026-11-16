@@ -1,0 +1,48 @@
+id: job/musician
+class: job
+label: { ar: "الموسيقي ⁦(مطرب / سازنده)⁩", en: "Musician (mutrib / sazende)", ur: "موسیقار ⁦(مطرب / سازندہ)⁩" }
+names:
+  - { value: "مُطرب", kind: alternate }
+  - { value: "mutrib", kind: latinized }
+  - { value: "sâzende", kind: latinized, lang: tr }
+  - { value: "سازنده", kind: alternate }
+  - { value: "mûsikişinas", kind: latinized, lang: tr }
+  - { value: "mûsikâr", kind: latinized }
+  - { value: "موسيقار", kind: alternate }
+  - { value: "عالاتي", kind: alternate }
+  - { value: "alâteeyeh", kind: latinized }
+  - { value: "mehter", kind: latinized, lang: tr }
+summary:
+  ar: "الموسيقي عازف الآلات ومؤدّي الفصول؛ سمّاه العرب مطرباً والأتراك سازنده، وسمّى أهل القاهرة عند لين حرفيّيهم بالعالاتي. عرف العباسيون موسيقيّي البلاط من أمثال إبراهيم وإسحاق الموصلي، وتناقل النظريّون من زلزل ويونس الكاتب إلى الفارابي العلمَ كما الإتقان. وفي إستانبول العثمانية أحصى أوليا جلبي فرقة المهتران — ثلاثمائة عضو يعترفون بجمشيد بيراً لهم — تعزف الفصول الثلاثة عند الظهر وقبل الفجر، وفرق الموسيقى في نواحي المدينة بنحو أربعة آلاف؛ وفي القاهرة الحديثة كان العالاتي يُستأجرون للأفراح ويُعامَلون معاملة منحطّة مع أن صوتهم يملأ الدور."
+  en: "The musician plays the instruments and performs the suites; the Arabs called him mutrib, the Turks sâzende, and Lane's Cairenes called their professionals alâteeyeh. The Abbasids knew court musicians such as Ibrahim and Ishaq al-Mawsili, and the theorists from Zelzel and Yunus al-Katib to al-Farabi transmitted the science together with the practice. In Ottoman Istanbul Evliya counted the mehter corporation — three hundred men owning Jemshid as their pir — playing three fasıls at afternoon and before dawn, and some four thousand musicians in the town's jurisdictions; in nineteenth-century Cairo the alâteeyeh were hired for feasts and held in low esteem even as their playing filled the houses."
+  ur: "موسیقار ساز بجانے اور فصلیں پیش کرنے والا ہے؛ عرب اسے مطرب، ترک سازندہ، اور لین کے قاہرین نے اپنے پیشہ ورانہ موسیقاروں کو عالاتی کہا۔ عباسیوں نے دربار کے موسیقار جیسے ابراہیم اور اسحاق موصلی کو پہچانا، اور نظریہ دانوں نے زلزل اور یونس کاتب سے فارابی تک علم کو مہارت کے ساتھ منتقل کیا۔ عثمانی استنبول میں اولیا چلبی نے مہتروں کی فرقہ گنی — تین سو آدمی جن کا پیر جمشید ہے — جو عصر اور صبح سے پہلے تین فصلیں بجاتے، اور شہر کی نواح میں تقریباً چار ہزار موسیقار؛ اور انیسویں صدی کے قاہرے میں عالاتی دعوتوں پر رکھے جاتے، مامون درجے کے سمجھے جاتے مگر ان کی دھن گھر بھرتی۔"
+domain: media-performance
+kind: artistic
+hirfa: false
+era:
+  origins: pre-islamic
+  status_today: transformed
+places:
+  - { place: place/baghdad, note: "The Umayyad and early Abbasid periods produced the first great named musicians of the Islamic world — Zelzel the lutanist, Yunus al-Katib and Khalil ibn Ahmad — followed by Ibrahim al-Mawsili, Ibrahim ibn al-Mahdi, Ishaq al-Mawsili, Ibn Khurradadhbih and Ibn al-Munajjim.", sources: [source/tdv-musiki] }
+  - { place: place/istanbul, note: "Evliya describes the mehter corporation of three hundred men with its building by the Iron Gate of the palace, playing three fasıls each afternoon and three hours before dawn, the Seven Towers chapel of forty, and some four thousand musicians across the city's jurisdictions who played weddings, circumcisions and ambassadorial audiences.", sources: [source/evliya-narrative-hammer-v2] }
+  - { place: place/cairo, note: "Lane records the male professional musicians of Cairo as alâteeyeh — instrumentalists who are usually singers too — hired for grand entertainments at about two or three shillings each a night, contributed by the guests.", sources: [source/lane-modern-egyptians] }
+regions: [arabia, levant-iraq, egypt-nile, maghreb, andalus-europe, persia-central-asia, anatolia-balkans, south-asia]
+organization:
+  organized: guild
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people]
+periods: [period/pre-islamic-arabia, period/umayyad, period/abbasid-early, period/abbasid-fragmentation, period/buyid-seljuk-fatimid-era, period/crusades-ayyubid-mamluk, period/mongol-post-mongol, period/gunpowder-empires, period/modern-era]
+sources: [source/tdv-musiki, source/evliya-narrative-hammer-v2, source/lane-modern-egyptians]
+training:
+  mode: apprenticeship
+  certification: "Al-Farabi wrote his great treatise for performers who wished to reinforce practice with theory, holding that performance precedes theory in the art {cite:tdv-musiki}. Lane found that the professional style was difficult for those who had not made a regular study of the art, though children acquired the popular airs early {cite:lane-modern-egyptians}."
+  duration: "In Ottoman usage the instrument players stood beside the singers inside the fasıl ensemble directed by the serhânende; Cantemir divided the performance into hânende, sâzende and mixed fasıls {cite:tdv-hanende}."
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-media-1" }
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi 'MÛSİKİ' (Özcan & Çetinkaya; Apaydın, 2020) and 'HÂNENDE' (Özcan, 1997); Evliya Çelebi, Narrative of Travels vol. 2 (Hammer, 1850), guild sections on the mehter and the musicians; Lane, Modern Egyptians, 5th ed. 1860, ch. XVIII. Read on 16 Nov 2026"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-media-1-drafting"

@@ -1,0 +1,54 @@
+id: job/singer
+class: job
+label: { ar: "المغنّي ⁦(خواننده / عالمة)⁩", en: "Singer (hânende / mugannî)", ur: "گلوکار ⁦(خوانندہ / مغنی)⁩" }
+names:
+  - { value: "خواننده", kind: alternate }
+  - { value: "hânende", kind: latinized, lang: tr }
+  - { value: "مُغنّي", kind: alternate }
+  - { value: "mugannî", kind: latinized }
+  - { value: "مُغنّية", kind: alternate }
+  - { value: "muganniye", kind: latinized }
+  - { value: "گوينده", kind: alternate }
+  - { value: "gûyende", kind: latinized, lang: fa }
+  - { value: "قوّال", kind: alternate }
+  - { value: "kavvâl", kind: latinized, lang: fa }
+  - { value: "صرهانده", kind: alternate }
+  - { value: "serhânende", kind: latinized, lang: tr }
+  - { value: "عالمة", kind: alternate }
+  - { value: "ʿālmeh", kind: latinized }
+  - { value: "قينة", kind: alternate }
+  - { value: "kayne", kind: latinized }
+summary:
+  ar: "المغنّي والمغنّية من يؤدّون بأصواتهم في الإنشاد المنفرد والجماعي؛ عند الترك خوانده، وعند العرب مغنّي ومغنّية، وعند الفرس گوينده وقوّال. قبل الإسلام كانت القينات — إماء المغنّيات — يحملن صناعة التغنّي، وعند العثمانيين صار الخوانده عمود الفصل: يقرأ الغزل والبسته والنقش والكار واليورك سمايي، ويقود الجماعة الصرهانده يضرب بالدف الوزن ويرتّب البرنامج. وفي القاهرة الحديثة وصف لين العوالم — مغنّيات مهرة يُجلسن خلف السياج المشبك — بأنهن أعذب ما سمعه من غناء، تُجمع لهنّ أحياناً أكثر من خمسين غينياً في الليلة الواحدة."
+  en: "The singer gives voice in solo and ensemble performance: hânende in Turkish, mugannî and muganniye in Arabic, gûyende and kavvâl in Persian. Before Islam the kaynes — the singing-girls — carried the craft of artful song; in the Ottoman fasıl the hânende read the gazel, beste, nakış, kâr and yürük semâi, and the serhânende led the ensemble, beating the usul on the def and ordering the programme. In nineteenth-century Cairo Lane heard the celebrated ʿAwâlim — accomplished female singers seated behind the hareem lattice — judged their singing sweeter than any music he knew, and saw more than fifty guineas collected for one ʿālmeh in a night."
+  ur: "گلوکار انفرادی اور جماعتی ادائیگی میں آواز دیتا ہے: ترکوں میں خوانندہ، عربوں میں مغنی و مغنیہ، فارسی میں گویندہ و قوّال۔ اسلام سے پہلے قینے — گانے والی لونڈیاں — فنِ تغنی کی حامل تھیں؛ عثمانی فصل میں خوانندہ غزل، بستہ، نقش، کار اور یورک سماعی پڑھتا، اور سرخوانندہ دف سے اصول پور کرتے ہوئے اجتماع کی قیادت اور پروگرام کی ترتیب کرتا۔ انیسویں صدی کے قاہرے میں لین نے مشہور عوالم سنی — جالی کے پردے کے پیچھے بیٹھی ماہر گانے والیاں — ان کا گانا اپنی سنی ہوئی ہر موسیقی پر فائز پایا، اور ایک عالمہ کے لیے ایک رات پچاس گنی سے زائد جمع ہوتے دیکھا۔"
+domain: media-performance
+kind: artistic
+hirfa: false
+era:
+  origins: pre-islamic
+  status_today: transformed
+places:
+  - { place: place/taif, note: "Evliya gives the singers' guild a patron in Hamza ibn Yetim — girded by Selman, who sang naʿts with Bilal the Abyssinian in the Prophet's presence — and places his tomb at Taif.", sources: [source/evliya-narrative-hammer-v2] }
+  - { place: place/istanbul, note: "The hânende led the Ottoman fasıl as serhânende, beating the usul with the def and shaping the repertory as conditions demanded; the article lists the great hânendes of the nineteenth and twentieth centuries from Hacı Ârif Bey to Münir Nurettin Selçuk.", sources: [source/tdv-hanende] }
+  - { place: place/cairo, note: "Lane describes the ʿAwâlim of Cairo: female singers hired for hareem festivities, performing from behind lattice screens or a window of the women's apartments, sometimes highly paid by the guests' contributions.", sources: [source/lane-modern-egyptians] }
+regions: [arabia, levant-iraq, egypt-nile, maghreb, persia-central-asia, anatolia-balkans, south-asia]
+organization:
+  organized: guild
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people]
+periods: [period/pre-islamic-arabia, period/prophetic-era, period/umayyad, period/abbasid-early, period/abbasid-fragmentation, period/crusades-ayyubid-mamluk, period/gunpowder-empires, period/modern-era]
+sources: [source/tdv-hanende, source/tdv-musiki, source/lane-modern-egyptians, source/evliya-narrative-hammer-v2]
+training:
+  mode: apprenticeship
+  certification: "The hânende needed a fine voice and real musical knowledge; Abdülkadir-i Merâgi held that singers bearing these qualities win the more esteem among learned musicians {cite:tdv-hanende}. Evliya's own singing-master was the Imperial favourite Tokatlı Dervish Omar Gulsheni, who taught him in the Imperial Harem and excelled in every makam {cite:evliya-narrative-hammer-v2}."
+  duration: "The serhânende's command of repertory — adjusting the programme to conditions as the performance ran — marks mastery won inside the ensemble {cite:tdv-hanende}."
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-media-1" }
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi 'HÂNENDE' (Özcan, 1997) and 'MÛSİKİ' (Apaydın section, 2020); Evliya Çelebi, Narrative of Travels vol. 2 (Hammer, 1850), Forty-second Section 'The Singers'; Lane, Modern Egyptians, 5th ed. 1860, ch. XVIII. Read on 16 Nov 2026"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-media-1-drafting"
