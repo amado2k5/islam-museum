@@ -40,6 +40,7 @@ import { QIYAMA_TAG, qiyamaCorpusOf, qiyamaKindOf, qiyamaSignalsOf, qiyamaTagSec
 import { TIBB_TAG, tibbCorpusOf, tibbSignalsOf, tibbTagSection, tibbTagTopics, tibbTopicsOfSignals } from "./tibb.js";
 import { USRA_TAG, usraCorpusOf, usraSignalsOf, usraTagSection, usraTopicsOf, isUsraPassage } from "./usra.js";
 import { UBUWWA_TAG, ubuwwaCorpusOf, ubuwwaSignalsOf, ubuwwaTagSection, ubuwwaTopicsOf, isUbuwwaPassage } from "./ubuwwa.js";
+import { UKHUWWA_TAG, ukhuwwaCorpusOf, ukhuwwaSignalsOf, ukhuwwaTagSection, ukhuwwaTopicsOf, isUkhuwwaPassage } from "./ukhuwwa.js";
 import { UMUMA_TAG, umumaCorpusOf, umumaSignalsOf, umumaTagSection, umumaTopicsOf, isUmumaPassage } from "./umuma.js";
 import { BUNUWWA_TAG, bunuwwaCorpusOf, bunuwwaSignalsOf, bunuwwaTagSection, bunuwwaTopicsOf, isBunuwwaPassage } from "./bunuwwa.js";
 import { IE_TAG, ieCorpusOf, ieSignalsOf, ieTagSection, ieTagTopics, ieTopicsOf, isIslamicEconomyPassage } from "./islamic-economy.js";
@@ -416,6 +417,16 @@ const FEATURE_EXPORTS: { file: string; feature: string; pick: (n: Node) => boole
         : ubuwwaTagSection(n),
       topics: n.class === "passage" ? ubuwwaTopicsOf(n) : [],
       signals: n.class === "passage" ? ubuwwaSignalsOf(n) : [],
+  { file: "ukhuwwa.json", feature: "ukhuwwa-browser",
+    pick: (n) => n.tags.includes(UKHUWWA_TAG) || isUkhuwwaPassage(n),
+    fields: ["kind", "work", "ref", "unit", "text", "sura", "aya", "wings", "themes", "tags"],
+    extra: (n, ef, byId) => ({
+      section: n.class === "passage"
+        ? ukhuwwaCorpusOf(n.data.work as string | undefined, byId?.get(n.data.work as string)?.data.genre as string[] | undefined, n.data.unit as string | undefined)
+        : ukhuwwaTagSection(n),
+      topics: n.class === "passage" ? ukhuwwaTopicsOf(n) : [],
+      signals: n.class === "passage" ? ukhuwwaSignalsOf(n) : [],
+    }) },
   { file: "umuma.json", feature: "umuma-browser",
     pick: (n) => n.tags.includes(UMUMA_TAG) || isUmumaPassage(n),
     fields: ["kind", "work", "ref", "unit", "text", "sura", "aya", "wings", "themes", "tags"],
