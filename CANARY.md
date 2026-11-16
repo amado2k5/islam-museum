@@ -13,6 +13,10 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v2.00.0 — 2026-11-17
+### Added
+- Job Browser linking wave 26: 48 `occupations:` edges on 25 person records — fourteen teachers, thirteen qaris, sixteen ulema, three imams, a khatib and a preacher.
+
 ## v1.99.0 — 2026-11-17
 ### Added
 - Job Browser linking wave 25: 41 `occupations:` edges on 25 person records — fourteen qaris, eleven teachers, seven ulema, seven preachers and two imams; the campaign crosses 1,000 person→job edges.

@@ -20,6 +20,17 @@ born:
   derived: true
   note: "Gregorian date from English Wikipedia and Wikidata, with the birthplace Medina from Wikidata; the Hijri year (1388) is converter-derived."
   sources: [source/wikipedia-maher-al-muaiqly-en, source/wikidata-maher-al-muaiqly]
+occupations:
+  - job: job/qari
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'reciter', Job Browser linking wave 26"
+    sources: [source/wikipedia-maher-al-muaiqly-en, source/wikipedia-maher-al-muaiqly-ar, source/wikidata-maher-al-muaiqly, source/youtube-maheralmuaiqly, source/wikidata]
+  - job: job/alim
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 26"
+    sources: [source/wikipedia-maher-al-muaiqly-en, source/wikipedia-maher-al-muaiqly-ar, source/wikidata-maher-al-muaiqly, source/youtube-maheralmuaiqly, source/wikidata]
 relations:
   - { type: born_in, target: place/medina, sources: [source/wikidata-maher-al-muaiqly] }
   - { type: lived_in, target: place/mecca, sources: [source/wikipedia-maher-al-muaiqly-en, source/wikipedia-maher-al-muaiqly-ar] }

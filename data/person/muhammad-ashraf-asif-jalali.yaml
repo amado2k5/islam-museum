@@ -29,6 +29,22 @@ born:
   derived: true
   note: "Born 12 April 1968 in Bhikhi Sharif, district Mandi Bahauddin; the date and place are given by his organisation's official biography and matched by his party's website. Hijri year derived from the Gregorian date."
   sources: [source/sirat-e-mustaqeem-jalali-biography, source/tehreek-labbaik-islam-about]
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 26"
+    sources: [source/sirat-e-mustaqeem-jalali-biography, source/tehreek-labbaik-islam-about, source/bitter-winter-tlp-taking-to-the-streets, source/bitter-winter-wilders-verdict, source/vidiq-thedrjalali]
+  - job: job/preacher
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'preacher', Job Browser linking wave 26"
+    sources: [source/sirat-e-mustaqeem-jalali-biography, source/tehreek-labbaik-islam-about, source/bitter-winter-tlp-taking-to-the-streets, source/bitter-winter-wilders-verdict, source/vidiq-thedrjalali]
+  - job: job/teacher
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'teacher', Job Browser linking wave 26"
+    sources: [source/sirat-e-mustaqeem-jalali-biography, source/tehreek-labbaik-islam-about, source/bitter-winter-tlp-taking-to-the-streets, source/bitter-winter-wilders-verdict, source/vidiq-thedrjalali]
 relations:
   - type: lived_in
     target: place/lahore

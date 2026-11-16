@@ -14,6 +14,12 @@ regions: [egypt-nile]
 roles: [munshid, reciter]
 born: { edtf: "1920-06-07", calendar: gregorian, precision: day, status: historical, derived: false, note: "Born in the al-Manzala district, Dakahlia (Arabic article; Wikidata gives the same day). No place entity for al-Manzala exists.", sources: [source/wikipedia-nasr-al-din-tubar-ar, source/wikidata-nasr-al-din-tubar] }
 died: { edtf: "1986-11-16", calendar: gregorian, precision: day, status: historical, derived: false, note: "Died in Cairo (Arabic article and Wikidata).", sources: [source/wikipedia-nasr-al-din-tubar-ar, source/wikidata-nasr-al-din-tubar] }
+occupations:
+  - job: job/qari
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'reciter', Job Browser linking wave 26"
+    sources: [source/wikipedia-nasr-al-din-tubar-ar, source/wikidata-nasr-al-din-tubar]
 relations:
   - { type: died_in, target: place/cairo, sources: [source/wikipedia-nasr-al-din-tubar-ar, source/wikidata-nasr-al-din-tubar] }
 faith:

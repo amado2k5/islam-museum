@@ -16,6 +16,17 @@ wings: [people]
 periods: [period/abbasid-early]
 regions: [levant-iraq]
 died: { edtf: "0875", hijri: "0261", calendar: julian, precision: year, status: tradition, derived: true, note: "Year as printed in al-Nashr; Julian year derived by tabular conversion.", sources: [source/nashr-dahman-damascus-1345-v1] }
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 26"
+    sources: [source/nashr-dahman-damascus-1345-v1]
+  - job: job/teacher
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'teacher', Job Browser linking wave 26"
+    sources: [source/nashr-dahman-damascus-1345-v1]
 relations:
   - { type: student_of, target: person/yahya-ibn-al-mubarak-al-yazidi, confidence: high, note: "Ibn al-Jazari, al-Nashr, pp. 142, 144: al-Susi is among the foremost companions of al-Yazidi.", sources: [source/nashr-dahman-damascus-1345-v1] }
   - { type: lived_in, target: place/raqqa, confidence: low, note: "Nisba al-Raqqi in the name printed in al-Nashr p. 142.", sources: [source/nashr-dahman-damascus-1345-v1] }
