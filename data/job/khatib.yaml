@@ -1,0 +1,40 @@
+id: job/khatib
+class: job
+label: { ar: "الخطيب", en: "Khatib (Friday preacher)", ur: "خطیب" }
+names:
+  - { value: "hatip", kind: latinized, lang: tr }
+  - { value: "خطيب الجمعة", kind: alternate }
+  - { value: "khatib al-minbar", kind: latinized }
+summary:
+  ar: "الخطيب من يعتلي المنبر فيخطب الجمعة والعيدين؛ وكانت الخطابة فناً عربياً جاهلياً أصيلاً، ثم صارت الخطبة في الإسلام جزءاً من شعيرة الجمعة اتفق الفقهاء على فرضيتها. خطب النبي والخلفاء الراشدون بأنفسهم، ثم لمّا اتسعت الدولة وتباعد الخلفاء عن الناس في العصر العباسي عُيِّن عالمٌ خطيباً، وصار ذكر اسم الخليفة ثم السلطان في الخطبة علامة السيادة — فمن أُنزل اسمه من المنابر انتهت طاعته. وتحدد الشافعية والحنابلة أركان الخطبة وشروطها على الخطيب: من نية وطهارة وسماع الجماعة، وتسنّ الجلوس بين الخطبتين وقصرهما والاتكاء على عصا."
+  en: "The khatib mounts the minbar and delivers the sermons of Friday and the two festivals. Oratory was already a prized art of pre-Islamic Arabia; in Islam the khutba became part of the Friday observance, and the jurists agree it is obligatory. The Prophet and the Rashidun preached in person; when the state grew and the Abbasid caliphs withdrew from the people, a scholar was appointed khatib, and naming the caliph — then the sultan — in the sermon became the mark of sovereignty: a ruler whose name was dropped from the minbars had lost his obedience. The Shafi'is and Hanbalis set the sermon's pillars and the khatib's conditions: intention, purity, an audience that hears, a sit between the two sermons, brevity, and leaning on a staff."
+  ur: "خطیب وہ ہے جو منبر پر چڑھ کر جمعہ اور عیدوں کی تقریر کرتا ہے۔ خطابت جاہلی عرب کا پرانا ہنر تھی؛ اسلام میں خطبہ جمعے کی شعیر کا حصہ بنا اور فقہاء اس کے فرض ہونے پر متفق ہیں۔ نبی اور خلفائے راشدین خود خطبہ دیتے تھے؛ ریاست پھیلی اور عباسی خلفاء عوام سے دور ہوئے تو ایک عالم کو خطیب مقرر کیا گیا، اور خطبے میں خلیفہ پھر سلطان کا نام لینا فرمانروائی کی علامت بن گیا — جس کا نام منبروں سے گر گیا اس کی اطاعت ختم۔ شافعی اور حنبلی خطبے کے ارکان اور خطیب کی شرائط بیان کرتے ہیں: نیت، طہارت، سننے والی جماعت، دونوں خطبوں کے درمیان بیٹھنا، اختصار اور لکڑی کے سہارے۔"
+domain: faith-preaching
+kind: office
+hirfa: false
+era:
+  origins: pre-islamic
+  status_today: living
+places:
+  - { place: place/medina, note: "The Prophet preached the Friday sermon in his mosque at Medina, reading a few verses then exhorting the congregation; after the Rashidun the naming of the ruler in the khutba began with Abdallah ibn Abbas preaching for Ali at Basra.", sources: [source/tdv-hutbe] }
+  - { place: place/baghdad, note: "Under the Abbasids the appointed khatib read the caliph's name in the sermon and prayed for him; the caliph attended the first sermon of a new reign and clothed the khatib in a robe of honour.", sources: [source/tdv-hutbe] }
+  - { place: place/damascus, note: "Nur al-Din Mahmud Zangi wrote to his khatibs ordering that he not be named with titles he did not deserve and that the prayer for him stay in the plain words he fixed.", sources: [source/tdv-hutbe] }
+regions: [arabia, levant-iraq, egypt-nile, maghreb, anatolia-balkans, persia-central-asia, south-asia, andalus-europe, southeast-asia]
+organization:
+  organized: mixed
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people]
+periods: [period/pre-islamic-arabia, period/prophetic-era, period/rashidun, period/umayyad, period/abbasid-early, period/buyid-seljuk-fatimid-era, period/crusades-ayyubid-mamluk, period/gunpowder-empires, period/modern-era, period/contemporary-era]
+sources: [source/tdv-hutbe]
+training:
+  mode: formal-schooling
+  certification: "The khatib was expected to combine sound learning, sincerity, dignity and a fine delivery; rulers and trustees appointed him, and from the Abbasid period a religious scholar was designated to preach when the caliph no longer led the prayer himself."
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-harvest-7" }
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi, 'HUTBE' (Baktır, 1998), web edition read on 16 Nov 2026: the sermon's pillars and conditions, the khatib's qualities, the history from the Prophet's khutbas to the appointment of scholars, and the khutba as the mark of sovereignty"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-harvest-7-drafting"
