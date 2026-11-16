@@ -1,0 +1,49 @@
+id: job/wrestler
+class: job
+label: { ar: "المصارع ⁦(بلهوان)⁩", en: "Wrestler (pehlivan)", ur: "پہلوان" }
+names:
+  - { value: "بلهوان", kind: alternate }
+  - { value: "pehlivan", kind: latinized }
+  - { value: "pehlivan", kind: latinized, lang: tr }
+  - { value: "güreşçi", kind: latinized, lang: tr }
+  - { value: "küştigîr", kind: latinized, lang: tr }
+  - { value: "مصارع", kind: alternate }
+  - { value: "cazgır", kind: latinized, lang: tr }
+summary:
+  ar: "المصارع ⁦(بلهوان)⁩ بطل لعبة المصارعة، وهي من أقدم الرياضات في عالم الإسلام: كانت عند الترك القدماء من تدريبات الحرب وشعائر الأعياد والأعراس، وفي الجاهلية أقيمت المنافسات في الأسواق وكان عمر بن الخطاب يشتهر بمصارعته في سوق عكاظ. وفي العهد العباسي صار البلهوانات المشاهير موظفين في القصر، وعند السلاجقة انضمت القواعد التركية إلى الفارسية فدخلت كلمة «بلهوان» الفارسية التركية وصار بير الصنعة حمزة. وفي الدولة العثمانية أقام الأمراء تكايا المصارعين في بروسة وأدرنة ومانيسة وإسطنبول، وتنظّم البلهوانات جماعةً قصرية، وصارت «مصارعة الحضرة» أمام السلطان عادة الأعراس والأعياد، وكانت مصارعات قيرق بينار من أكبر مباريات العموم."
+  en: "The wrestler, called pehlivan, was the hero of one of the oldest sports of the Islamic world. Among the ancient Turks wrestling was war-drill and festival rite; in the Jahiliyya the fairs held matches — Umar was famous for wrestling at Ukaz. Under the Abbasids famous pehlivans were taken onto the palace payroll; the Seljuks fused Turkish custom with Persian rules, the Persian word pehlivan entered Turkish and Hamza became the craft's pir. The Ottomans housed the wrestlers in their own tekkes at Bursa, Edirne, Manisa and Istanbul, kept a palace wrestlers' corps (cemaat-i küştigîran), staged the 'presence bouts' (huzur güreşleri) at weddings and festivals, and kept the great Kırkpınar fair-games where the winning başpehlivan took the golden belt."
+  ur: "پہلوان کشتی کا بہادر کھلاڑی تھا — اسلامی دنیا کے قدیم ترین کھیلوں میں سے ایک کا ہیرو۔ قدیم ترکوں میں کشتی جنگی مشق اور جشن و شادی کی رسوم تھی؛ جاہلیت کی پنایروں میں مقابلے ہوتے اور عمر عکاظ کی کشتیوں میں مشہور تھے۔ عباسیوں کے عہد میں مشہور پہلوان محل میں ملازم بھرتی ہوئے؛ سلجوقوں نے ترک روایت کو فارسی قواعد سے ملایا، فارسی لفظ پہلوان ترکی میں آیا اور حمزہ صنعت کے پیر ٹھہرے۔ عثمانیوں نے بروسہ، ادرنہ، مانیسہ اور استنبول میں پہلوانوں کے ٹکے قائم کیے، محل میں کشتی گراں کی جماعت رکھی، شادیوں اور جشنوں پر «حضور کشتی» کروائی، اور قیرق پینار کے میلے جاری رکھا جہاں جیتنے والے باش پہلوان کو سنہری کمربند ملتا۔"
+domain: sport
+kind: service
+hirfa: false
+era:
+  origins: pre-islamic
+  status_today: living
+places:
+  - { place: place/mecca, note: "In the Jahiliyya fairs wrestling matches were held widely; Umar was known for wrestling at the Ukaz fair, and the Prophet himself wrestled and defeated the famous pehlivan Rukana ibn Abd Yazid.", sources: [source/tdv-gures] }
+  - { place: place/baghdad, note: "Under the Abbasids wrestling was a palace sport; the caliph al-Amin was devoted to it and al-Mu'tadid wrestled a lion, and the Buyid Mu'izz al-Dawla staged mass matches in Baghdad where winners took money and robes of honour.", sources: [source/tdv-gures] }
+  - { place: place/konya, note: "Under the Seljuks wrestlers' tekkes were founded in many cities, Konya first of all.", sources: [source/tdv-gures] }
+  - { place: place/bursa, note: "Orhan Bey opened the first Ottoman wrestlers' tekke at Bursa beside the Bey Sarayı inside the citadel.", sources: [source/tdv-gures] }
+  - { place: place/edirne, note: "Murad I founded the second wrestlers' tekke at Edirne near the Ali Pasha market; the Kırkpınar games, begun by the legend of the forty ghazis, were held on the meadow by Edirne that today lies in Greece — the modern games continue at Sarayiçi, Edirne.", sources: [source/tdv-gures] }
+  - { place: place/istanbul, note: "Istanbul held the Pehlivan Şücâ and Pehlivan Demir tekkes; Evliya counts three hundred greased pehlivans of the wrestlers' guild walking the guild procession before the emperor at the Alay Köşkü, and the palace kept a wrestlers' corps under Bayezid II.", sources: [source/evliya-narrative-hammer-v2, source/tdv-gures] }
+  - { place: place/cairo, note: "In 1830s Cairo Lane saw the Egyptian musâre'een wrestle stripped and oiled, mostly for pay at festivals and processions.", sources: [source/lane-modern-egyptians] }
+regions: [arabia, levant-iraq, egypt-nile, anatolia-balkans, persia-central-asia, south-asia]
+organization:
+  organized: guild
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people]
+periods: [period/pre-islamic-arabia, period/prophetic-era, period/rashidun, period/umayyad, period/abbasid-early, period/abbasid-fragmentation, period/buyid-seljuk-fatimid-era, period/crusades-ayyubid-mamluk, period/mongol-post-mongol, period/gunpowder-empires, period/modern-era, period/contemporary-era]
+sources: [source/tdv-gures, source/evliya-narrative-hammer-v1, source/evliya-narrative-hammer-v2, source/lane-modern-egyptians]
+training:
+  mode: apprenticeship
+  certification: "The Ottoman wrestlers' tekke worked like a club: a successful, literate and authoritative 'şeyh' headed it, the resident wrestlers were called 'derviş' without any Sufi affiliation, and training ran on the open meydan in summer and a closed hall in winter; the tekkes lived off vakıf revenues settled by their founders."
+  duration: "The wrestling craft of the tekke had its own lore — Evliya says the art was made to consist of forty arts, seventy rounds and one hundred and forty tricks a good wrestler must know."
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-sport-1" }
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi, 'GÜREŞ' (Özcan, 1996), web edition read on 16 Nov 2026; Evliya Çelebi, Narrative of Travels, vols. 1-2 (Hammer translation); Lane, Modern Egyptians, 5th ed."
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-sport-1-drafting"

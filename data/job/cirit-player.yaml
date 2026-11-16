@@ -1,0 +1,42 @@
+id: job/cirit-player
+class: job
+label: { ar: "لاعب الجريد ⁦(جيريت)⁩", en: "Cirit player (mounted javelineer)", ur: "جریت باز ⁦(نیزہ بازی)⁩" }
+names:
+  - { value: "جريد لاعب", kind: alternate }
+  - { value: "ciritçi", kind: latinized, lang: tr }
+  - { value: "cündî", kind: latinized, lang: tr }
+  - { value: "gereed player", kind: latinized }
+summary:
+  ar: "لاعب الجريد فارس لعبة الحرب المصغّرة: يقف فريقان كل منهما عشرة إلى خمسة عشر فارساً على مئة متر فيرمي أحدهم رمحه غير المسنّن ⁦(الجريد أو الجفغن)⁩ على خصم ثم يهرب، فتدور المباراة هجوماً ومطاردة ساعة ونصفاً في شوطين. أصل اللعبة وسط آسيا، وكانت من أحب الرياضات في كل الدول التركية وفي البلاط العباسي الذي غلب عليه الترك، وعند العثمانيين صارت معلّمة: علّم القصر الجندية ⁦(ركوب الخيل)⁩ فتنظمت رياضةً، ولعبها سلاطين كأحمد الأول ومراد الرابع الذي احتفظ بأربعمئة جواد مدرّب لها، وظلت لعبة الإنكشارية وتدريبهم حتى أُلغوا فخفّ بريقها."
+  en: "The cirit player rode in the little war: two teams of ten to fifteen horsemen faced off a hundred metres apart, and the game began when one rider hurled his blunt javelin — the cirit or çevgen, from Arabic cerîd, a stripped palm-stick — at a chosen opponent and galloped away. Born on the Central Asian steppe, cirit was the favourite sport of every Turkish state and of the Turk-influenced Abbasid court; the Ottomans loved it more, taught cündilik (riding) at the palace and made it an organised branch, and sultans like Ahmed I and Murad IV — who kept up to four hundred specially trained horses — played it themselves. It was the janissaries' chief game and drill, and lost its standing when their corps was abolished; in Upper Egypt Lane watched the same gereed played by peasant horsemen at weddings and saint-tomb feasts."
+  ur: "جریت باز چھوٹی جنگ کا سوار تھا: دس سے پندرہ سواروں کی دو ٹیمیں سو میٹر کے فاصلے پر کھڑی ہوتیں اور کھیل تب شروع ہوتا جب ایک سوار اپنی بے نوک نیزہ ⁦(جریت یا چیوگان، عربی جرید سے — چھلکا اتارا کھجور کا تنا)⁩ کسی خاص حریف پر پھینک کر بھاگتا۔ وسط ایشیا میں جنم لینے والا یہ کھیل ہر ترک سلطنت اور ترک اثر یافتہ عباسی دربار کا پسندیدہ کھیل تھا؛ عثمانیوں نے محل میں جندلیت ⁦(سواری)⁩ پڑھا کر اسے منظم شعبہ بنایا، اور احمد اول اور مراد رابع جیسے سلاطین خود کھیلتے — مراد رابع نے اس کے لیے چار سو تربیت یافتہ گھوڑے رکھے۔ یہ ینکریوں کی اصل مشق تھی اور اُن کے ختم ہونے کے ساتھ زوال پایا؛ لین نے اوپر مصر میں دیہاتی سواروں کو وہی گرید شادیوں اور بزرگوں کے مزار کے جشنوں پر کھیلتے دیکھا۔"
+domain: sport
+kind: military
+hirfa: false
+era:
+  origins: pre-islamic
+  status_today: transformed
+places:
+  - { place: place/bursa, note: "After the conquest of Bursa Orhan Gazi endowed a nearby field for horse-races and cirit games.", sources: [source/tdv-cirit] }
+  - { place: place/istanbul, note: "Murad IV kept up to four hundred specially trained horses for cirit; the game ran for days at Mehmed IV's 1675 circumcision wedding at Edirne and was a fixture of the Tulip Era, but as the janissaries' chief game it faded after their corps was abolished.", sources: [source/tdv-cirit] }
+  - { place: place/cairo, note: "Lane saw the Upper Egyptian peasants' gereed played by two mounted parties at weddings, circumcisions and saint-tomb sacrifices — the palm-stick cast hard at a gallop, sometimes fatally.", sources: [source/lane-modern-egyptians] }
+regions: [anatolia-balkans, persia-central-asia, egypt-nile, levant-iraq]
+organization:
+  organized: informal
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people]
+periods: [period/abbasid-early, period/buyid-seljuk-fatimid-era, period/crusades-ayyubid-mamluk, period/mongol-post-mongol, period/gunpowder-empires, period/modern-era, period/contemporary-era]
+sources: [source/tdv-cirit, source/lane-modern-egyptians]
+training:
+  mode: apprenticeship
+  certification: "No licence; the craft was horsemanship itself — the palace taught cündilik, and both riders and horses required, the entry says, 'a most serious training': the figures were sudden starts and checks, evading the cast by emptying the saddle, picking a javelin from the ground at full tilt, and catching an incoming cirit in the air."
+  duration: "Two periods of about an hour and a half made a match; the Ottoman sultans who played it were drilled with their own cirit masters."
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-sport-1" }
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi, 'CİRİT' (Halıcı, 1993), web edition read on 16 Nov 2026; Lane, Modern Egyptians, 5th ed. (the Upper Egyptian gereed)"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-sport-1-drafting"
