@@ -1,0 +1,47 @@
+id: person/abdullah-khairi
+education:
+  did_you_know:
+    ar: "عبد الله خيري داعية ماليزي وُلد في قدح سنة 1968، عمل مهندسًا تسع سنوات ومدرّسًا ست عشرة سنة قبل تفرّغه للمحاضرات، وبلغ حسابه في تيك توك 1,700,000 متابع في نوفمبر 2026."
+    en: "Abdullah Khairi is a Malaysian preacher born in Kedah in 1968; he worked nine years as an engineer and sixteen as a teacher before full-time lecturing, and his TikTok counted 1,700,000 followers in November 2026."
+    ur: "عبداللہ خیری ملائیشیا کے مبلغ ہیں جو 1968ء میں قدح میں پیدا ہوئے؛ کل وقتی خطابت سے پہلے وہ نو سال انجینئر اور سولہ سال استاد رہے، اور نومبر 2026ء میں ان کے ٹک ٹاک فالوور 1,700,000 تھے۔"
+    sources: [source/google-books-abdullah-khairi, source/tiktok-abdullah-khairi]
+class: person
+label: { ar: "عبد الله خيري", en: "Abdullah Khairi", ur: "عبداللہ خیری" }
+names:
+  - { value: "عبد الله خيري بن هارون", kind: full }
+  - { value: "Abdullah Khairi bin Haji Haroon", kind: full }
+  - { value: "Ustaz Abdullah Khairi", kind: alternate }
+  - { value: "UAK", kind: alternate }
+gender: male
+summary:
+  ar: "داعية ماليزي مستقل وكاتب، وُلد في 15 سبتمبر 1968 في سيدام كانان بولاية قدح. عمل مهندسًا تسع سنوات ومدرّسًا ست عشرة سنة، وأسّس معهد التحفيظ الشافعي سنة 2015، ويمتلك مقهى أواك في شاه عالم القائم على فكرة الأكل مع التبرع، وله كتب منها إنسان رباني وسماء أبيك. بلغ حسابه الموثّق في إنستغرام 1,132,440 متابعًا وحسابه في تيك توك 1,700,000 متابع بحسب قراءة المنصتين في 15 نوفمبر 2026."
+  en: "Malaysian independent preacher and writer, born on 15 September 1968 at Sidam Kanan, Kedah. He worked nine years as an engineer and sixteen years as a teacher, founded Maahad Tahfiz As-Syafie in 2015, and owns Kafe UAK in Shah Alam, run on an eat-and-donate concept; his books include Insan Rabbani Pelajar Cemerlang and Syurga Pak Hang. His verified Instagram counted 1,132,440 followers and his TikTok 1,700,000 followers when the platforms were read on 15 November 2026."
+  ur: "ملائیشیا کے آزاد مبلغ اور مصنف، جو 15 ستمبر 1968ء کو قدح کے سیدام کانان میں پیدا ہوئے۔ وہ نو سال انجینئر اور سولہ سال استاد رہے، 2015ء میں معہد تحفیظ الشافعی قائم کیا، اور شاہ عالم میں کیفے UAK کے مالک ہیں جو کھانے کے ساتھ صدقے کے تصور پر چلتا ہے؛ ان کی کتابوں میں ”انسان ربانی“ اور ”سورگا پاک ہانگ“ شامل ہیں۔ 15 نومبر 2026ء کی قرأت کے مطابق ان کے مصدقہ انسٹاگرام فالوور 1,132,440 اور ٹک ٹاک فالوور 1,700,000 تھے۔"
+roles: [preacher, writer, teacher]
+wings: [people, living]
+regions: [southeast-asia]
+born:
+  edtf: "1968-09-15"
+  calendar: gregorian
+  precision: day
+  status: historical
+  note: "Date and place (Sidam Kanan, Kedah) from the iLabur biodata and the PTS author biography, which agree; no Kedah place record exists in the tree, so no birthplace edge is written."
+  sources: [source/ilabur-abdullah-khairi, source/google-books-abdullah-khairi]
+relations:
+  - { type: lived_in, target: place/selangor, sources: [source/ilabur-abdullah-khairi] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read in this build names a school or order for him. Under this lane's two-source rule his school therefore stays unknown."
+    sources: [source/ilabur-abdullah-khairi, source/google-books-abdullah-khairi]
+reach:
+  - { platform: instagram, metric: followers, value: 1132440, date: "2026-11-15", note: "@abdullahkhairi_official (verified): 1,132,440 followers, the platform profile itself read directly by the wave-201 harvest on 15 November 2026. The figure is a dated platform count, not a museum-verified fact", sources: [source/instagram-abdullah-khairi] }
+  - { platform: tiktok, metric: followers, value: 1700000, date: "2026-11-15", note: "@ustazabdullahkhairi: 1,700,000 followers (platform-rounded) across 1,095 videos, the platform profile itself crawled by the wave-201 harvest on 15 November 2026. The figure is a dated platform count, not a museum-verified fact", sources: [source/tiktok-abdullah-khairi] }
+  - { platform: youtube, metric: subscribers, value: 21300, date: "2026-11-15", note: "Ustaz Abdullah Khairi Official: 21,300 subscribers by vidIQ as of 15 November 2026 — his own YouTube is small, and the record says so rather than borrowing the aggregator channels that carry his ceramah. The figure is a dated platform count, not a museum-verified fact", sources: [source/vidiq-abdullah-khairi] }
+sources: [source/ilabur-abdullah-khairi, source/google-books-abdullah-khairi, source/instagram-abdullah-khairi, source/tiktok-abdullah-khairi, source/vidiq-abdullah-khairi]
+provenance:
+  layer: own-research
+  source: "Built from the wave-201 harvest §1.3 and build-time checks of 15 November 2026: the iLabur biodata profile (updated 3 March 2025), the PTS author biography carried by Google Play Books, and the platform profiles themselves (Instagram @abdullahkhairi_official; TikTok @ustazabdullahkhairi) plus vidIQ for his YouTube, as read by the harvest. Qualification rests on his own accounts: Instagram 1,132,440 and TikTok 1,700,000, both read directly on 15 November 2026 — far above the men's bar; wave 200 had held him on 2023 journal data only. The education list in the iLabur profile is carried as that profile reports it. No source read names a school for him, so his faith stays unknown. No Wikidata identifier was verified in this build, so none is recorded."
+  generated_by: "Muse (Muse Wonder)"
+  run: modern-figures-wave-201-A
+status: { review: published, completeness: 2 }

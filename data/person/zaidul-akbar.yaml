@@ -1,0 +1,44 @@
+id: person/zaidul-akbar
+education:
+  did_you_know:
+    ar: "زيدول أكبر طبيب وداعية إندونيسي وُلد في جمبي سنة 1977، ابتكر منهج صحة الرسول في الطب النبوي، وبلغ حسابه في إنستغرام 4,300,000 متابع في نوفمبر 2026."
+    en: "Zaidul Akbar is an Indonesian physician and preacher born in Jambi in 1977; he founded the Jurus Sehat Rasulullah prophetic-medicine method, and his Instagram counted 4,300,000 followers in November 2026."
+    ur: "زیدول اکبر انڈونیشیا کے طبیب اور مبلغ ہیں جو 1977ء میں جامبی میں پیدا ہوئے؛ انہوں نے طبِ نبوی کا طریقہ ”جوروس صحت رسول اللہ“ وضع کیا، اور نومبر 2026ء میں ان کے انسٹاگرام فالوور 4,300,000 تھے۔"
+    sources: [source/wikipedia-zaidul-akbar-id, source/orbitvibe-zaidul-akbar]
+class: person
+label: { ar: "زيدول أكبر", en: "Zaidul Akbar", ur: "زیدول اکبر" }
+names:
+  - { value: "زيدول أكبر", kind: full }
+  - { value: "Zaidul Akbar", kind: full }
+  - { value: "dr. Zaidul Akbar", kind: alternate }
+gender: male
+summary:
+  ar: "طبيب وداعية إندونيسي ومستشار وممارس للطب النبوي، وُلد في 30 نوفمبر 1977 في جمبي. تخرّج في كلية الطب بجامعة ديبونيغورو سنة 2003، وابتكر منهج صحة الرسول المعروف اختصارًا باسم JSR، وشارك في تأسيس جمعية الحجامة الإندونيسية وترأّسها ثلاث دورات، وألّف كتابًا بالعنوان نفسه. بلغ حسابه في إنستغرام 4,300,000 متابع بحسب تصنيف أوربتفايب المحدّث في 15 نوفمبر 2026."
+  en: "Indonesian physician, Islamic preacher, consultant and practitioner of prophetic medicine, born on 30 November 1977 in Jambi. He graduated from the Faculty of Medicine of Universitas Diponegoro in 2003, founded the Jurus Sehat Rasulullah method (JSR), co-founded the Indonesian Cupping Association and chaired it for three terms, and wrote a book of the same name. His Instagram account counted 4,300,000 followers by Orbitvibe's ranking, last updated 15 November 2026."
+  ur: "انڈونیشیا کے طبیب، اسلامی مبلغ، مشیر اور طبِ نبوی کے ماہر، جو 30 نومبر 1977ء کو جامبی میں پیدا ہوئے۔ انہوں نے 2003ء میں یونیورسٹی دِپونیگورو کے شعبۂ طب سے گریجویشن کیا، ”جوروس صحت رسول اللہ“ کا طریقہ وضع کیا، انڈونیشیائی حجامہ ایسوسی ایشن کی بنیاد میں شریک رہے اور تین ادوار اس کے صدر رہے، اور اسی نام کی کتاب لکھی۔ اوربٹ وائب کی درجہ بندی کے مطابق، جس کی آخری تجدید 15 نومبر 2026ء کو ہوئی، ان کے انسٹاگرام فالوور 4,300,000 تھے۔"
+roles: [physician, preacher, writer]
+wings: [people, living]
+regions: [southeast-asia]
+born:
+  edtf: "1977-11-30"
+  calendar: gregorian
+  precision: day
+  status: historical
+  note: "Date and place (Jambi) from the Indonesian Wikipedia article; no Jambi place record exists in the tree, so no birthplace edge is written."
+  sources: [source/wikipedia-zaidul-akbar-id]
+relations:
+  - { type: lived_in, target: place/indonesia, sources: [source/wikipedia-zaidul-akbar-id] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read in this build names a school or order for him; the Indonesian Wikipedia article's infobox names none. Under this lane's two-source rule his school therefore stays unknown."
+    sources: [source/wikipedia-zaidul-akbar-id]
+reach:
+  - { platform: instagram, metric: followers, value: 4300000, date: "2026-11-15", note: "@zaidulakbar: 4,300,000 followers by Orbitvibe's ranking, 'Last updated: November 15, 2026', as read by the wave-201 harvest; corroborated in direction by Instagram platform data (his post of 11 March 2026 shows a verified-author count of 4.5M followers). His own YouTube channel (@drzaidulakbarofficial, identity confirmed by his own 2021 clarification) carries no fresh dated count and none is claimed; a third-party channel carrying his lectures (Porselen Tv) is not counted. The figure is a dated platform count, not a museum-verified fact", sources: [source/orbitvibe-zaidul-akbar] }
+sources: [source/wikipedia-zaidul-akbar-id, source/orbitvibe-zaidul-akbar]
+provenance:
+  layer: own-research
+  source: "Built from the wave-201 harvest §1.2 and build-time checks of 15 November 2026: Indonesian Wikipedia 'Zaidul Akbar' and Orbitvibe's Instagram ranking for @zaidulakbar (last updated 15 November 2026). Qualification rests on his Instagram: 4,300,000 followers (Orbitvibe, updated 15 November 2026) — far above the men's bar. No source read names a school for him, so his faith stays unknown. No Wikidata identifier was verified in this build, so none is recorded."
+  generated_by: "Muse (Muse Wonder)"
+  run: modern-figures-wave-201-A
+status: { review: published, completeness: 2 }
