@@ -1,0 +1,283 @@
+id: invention/zij-as-genre
+class: invention
+label:
+  ar: الزيج، جنس الكتب الفلكية المجدوَلة
+  en: The zij, the Islamic astronomical handbook with tables
+  ur: زیج، اسلامی فلکی کتابِ جدول
+names:
+- value: زيج
+  kind: alternate
+  lang: ar
+- value: zij
+  kind: alternate
+  lang: en
+- value: zīj
+  kind: alternate
+  lang: en
+- value: qanun
+  kind: alternate
+  lang: en
+summary:
+  ar: جنس من الكتب الفلكية الإسلامية يجمع جداول القيم اللازمة لحساب مواقع الشمس والقمر
+    والنجوم والكواكب؛ اسمه من الفارسية الوسطى zih أو zig «الخيط» منتقلاً من ترتيب
+    خيوط النسج إلى صفوف الجداول وأعمدتها. عرف كينيدي في مسحه أكثر من مئتي زيج بين
+    القرنين الثامن والخامس عشر، من زيج السند الهند للخوارزمي إلى الزيج الصابئ للبتاني
+    والزيج الإيلخاني للطوسي والزيج السلطاني لأولوغ بيك {cite:wikipedia-zij-en} {cite:kennedy-islamic-astronomical-tables-1956}.
+  en: 'The Islamic astronomical handbook-with-tables genre: a book that tabulates
+    the parameters needed to compute the positions of the sun, moon, stars and planets;
+    its name comes from Middle Persian zih or zig, "cord", transferred from the threads
+    of the loom to the rows and columns of tables. Kennedy''s survey registers more
+    than two hundred zijes produced between the eighth and fifteenth centuries, from
+    al-Khwarizmi''s Zij al-Sindhind through al-Battani''s Zij al-Sabi, al-Tusi''s
+    Ilkhani Zij and Ulugh Beg''s Zij-i Sultani {cite:wikipedia-zij-en} {cite:kennedy-islamic-astronomical-tables-1956}.'
+  ur: 'اسلامی فلکیات کا وہ صنف جو شمس، قمر، ستاروں اور سیاروں کے مقامات کی گنت کے
+    لیے درکار قدروں کے جدول جمع کرتا ہے؛ نام وسطی فارسی zih یا zig «ڈور» سے بنا جو
+    بُنائی کے دھاگوں سے جدول کی قطاروں پر منتقل ہوا۔ کینیڈی کے سروے میں آٹھویں سے
+    پندرہویں صدی تک دو سو سے زیادہ زیجیں درج ہیں: خوارزمی کی زیجِ سند ہند سے بتانی
+    کی زیجِ صابی، طوسی کی زیجِ ایلخانی اور الغ بیگ کی زیجِ سلطانی تک {cite:wikipedia-zij-en}
+    {cite:kennedy-islamic-astronomical-tables-1956}۔'
+domain: astronomy-instruments
+kind: system
+disciplines:
+- astronomy
+- mathematics
+wings:
+- ideas
+- objects
+regions:
+- levant-iraq
+- persia-central-asia
+- andalus-europe
+- south-asia
+periods:
+- period/abbasid-early
+- period/buyid-seljuk-fatimid-era
+- period/mongol-post-mongol
+- period/gunpowder-empires
+themes:
+- astronomy-and-timekeeping
+era:
+  origins: abbasid-golden
+  first_attested:
+    edtf: 0830~
+    hijri: 0215~
+    calendar: julian
+    precision: year
+    status: historical
+    note: The early Abbasid zijes — al-Khwarizmi's Sindhind zij under al-Ma'mun and
+      Habash al-Hasib's — are ninth-century; the approximate date marks the genre's
+      first attestation, not a single composition year. The hijri figure is a derived
+      conversion.
+    derived: true
+    sources:
+    - source/wikipedia-zij-en
+    - source/kennedy-islamic-astronomical-tables-1956
+  status_today: transformed
+origin:
+  polity: polity/abbasid-caliphate
+  place: place/baghdad
+  context:
+    ar: 'نشأ الجنس في بغداد العباسية حين ترجمت نصوص الهند والفرس والإغريق: الجداول
+      اليدوية لبطليموس ⁦(القانون)⁩ وزيج الشاه الساساني والسدهانت الهندي؛ وصنع الفلكيون
+      الأوائل كالخوارزمي وحبش الحاسب أزياجاً عربية جمعت بين تلك التقاليد {cite:wikipedia-zij-en}
+      {cite:kennedy-islamic-astronomical-tables-1956}.'
+    en: 'The genre was born in Abbasid Baghdad as Indian, Sasanian and Greek material
+      was translated: Ptolemy''s Handy Tables (al-Qanun), the Sasanian Zij-i Shah
+      and the Indian siddhantas; early astronomers such as al-Khwarizmi and Habash
+      al-Hasib composed Arabic zijes combining those traditions {cite:wikipedia-zij-en}
+      {cite:kennedy-islamic-astronomical-tables-1956}.'
+    ur: 'یہ صنف عباسی بغداد میں جنم لینے والی ہے جب ہندوستانی، ساسانی اور یونانی متون
+      ترجمہ ہوئے: بطلموس کی ہینڈی ٹیبلز ⁦(القانون)⁩، ساسانی زیجِ شاہ اور بھارتی سدھانت؛
+      ابتدائی ماہرین خوارزمی اور حبش حاسب نے ان روایات کے مجموعے سے عربی زیجیں بنائیں
+      {cite:wikipedia-zij-en} {cite:kennedy-islamic-astronomical-tables-1956}۔'
+makers:
+- person: person/al-khwarizmi
+  role: describer
+  place: place/baghdad
+  note: Author of the Zij al-Sindhind, among the first Arabic zijes; as a genre the
+    zij has no single inventor — he is recorded as an early named practitioner, not
+    the genre's sole maker.
+  sources:
+  - source/wikipedia-zij-en
+- person: person/al-battani
+  role: describer
+  place: place/raqqa
+  note: Author of the Zij al-Sabi, which corrected Ptolemy's observations and long
+    stood as the genre's reference exemplar in Arabic and Latin.
+  sources:
+  - source/wikipedia-zij-en
+  - source/nallino-albatenii-opus-astronomicum
+- person: person/nasir-al-din-al-tusi
+  role: describer
+  place: place/maragha
+  note: Compiled the Ilkhani Zij at the Maragha observatory, with al-Urdi among its
+    observing staff.
+  sources:
+  - source/wikipedia-zij-en
+  - source/schmidl-urdi-bea-2007
+attribution:
+  status: original
+  claim:
+    ar: 'الزيج جنس إسلامي بامتياز: بُني على مواد بطلمية وساسانية وهندية، لكن هيئته
+      ككتاب جداول شامل مع أبواب في التقويم والمثلثات والكسوف ورؤية الهلال نشأت في
+      البيت الفلكي الإسلامي؛ لا مخترع واحد له {cite:wikipedia-zij-en} {cite:kennedy-islamic-astronomical-tables-1956}.'
+    en: 'The zij is a distinctively Islamic genre: built on Ptolemaic, Sasanian and
+      Indian material, but its shape as a comprehensive table-book with sections on
+      chronology, trigonometry, eclipses and crescent visibility grew inside Islamic
+      astronomy; no single inventor {cite:wikipedia-zij-en} {cite:kennedy-islamic-astronomical-tables-1956}.'
+    ur: 'زیج مخصوص اسلامی صنف ہے: بطلمیسی، ساسانی اور ہندوستانی مواد پر بنا، مگر بطور
+      جامع جدول کتاب جس میں تقویم، مثلثیات، کسوف اور ہلال رویت کے ابواب ہوں اس کی
+      شکل اسلامی فلکیات کے اندر بنی؛ کوئی واحد مخترع نہیں {cite:wikipedia-zij-en}
+      {cite:kennedy-islamic-astronomical-tables-1956}۔'
+  basis:
+    ar: يعدد كينيدي أكثر من مئتي زيج من القرن الثامن إلى الخامس عشر ويصف محتواها النموذجي
+      وجذورها الثلاثة؛ ويسجل أن معظمها تبنّى نظرية سابقة فكان إسهامها تحسين المثلثات
+      والحساب والرصد {cite:wikipedia-zij-en} {cite:kennedy-islamic-astronomical-tables-1956}.
+    en: Kennedy lists more than two hundred zijes from the eighth to the fifteenth
+      century, describes their standard contents and their three roots, and records
+      that most adopted earlier theory so that their contribution lay in improved
+      trigonometrical, computational and observational technique {cite:wikipedia-zij-en}
+      {cite:kennedy-islamic-astronomical-tables-1956}.
+    ur: کینیڈی آٹھویں سے پندرہویں صدی تک دو سو سے زیاد زیجیں گنواتا ہے، ان کے معیاری
+      مندرجات اور تین جڑیں بیان کرتا ہے، اور لکھتا ہے کہ اکثر نے سابق نظریہ اختیار
+      کیا لہٰذا ان کا حصہ بہتر مثلثیاتی، حسابی اور رصدی اسالیب تھا {cite:wikipedia-zij-en}
+      {cite:kennedy-islamic-astronomical-tables-1956}۔
+precursors:
+- external:
+    ar: الجداول اليدوية لبطليموس ⁦(القانون)⁩
+    en: Ptolemy's Handy Tables (al-Qanun)
+    ur: بطلموس کی ہینڈی ٹیبلز ⁦(القانون)⁩
+  note: The Greek table-book whose contents the earliest zijes initially mirrored;
+    some zijes were named qanun after it.
+  sources:
+  - source/wikipedia-zij-en
+- external:
+    ar: زيج الشاه الساساني والسدهانت الهندي
+    en: The Sasanian Zij-i Shah and the Indian siddhantas
+    ur: ساسانی زیجِ شاہ اور ہندوستانی سدھانت
+  note: Pre-Islamic Persian and Indian computational traditions feeding the early
+    Sindhind zijes.
+  sources:
+  - source/wikipedia-zij-en
+  - source/kennedy-islamic-astronomical-tables-1956
+dependents:
+- invention: invention/battani-zij-sabi
+  note: Al-Battani's Zij al-Sabi — the genre's classical exemplar, already catalogued
+    in the museum.
+  sources:
+  - source/nallino-albatenii-opus-astronomicum
+- invention: invention/ulugh-beg-zij
+  note: Ulugh Beg's Zij-i Sultani (1438/9), the reference zij of the early modern
+    Islamic world, already catalogued.
+  sources:
+  - source/wikipedia-zij-en
+- external:
+    ar: الجداول الطوليدية والألفونسية اللاتينية
+    en: The Latin Toledan and Alfonsine table traditions
+    ur: لاطینی طلیطلہ اور الفونسو جدول روایات
+  note: European table-books descended from the Andalusi zij tradition, standard references
+    for centuries of Latin astronomy.
+  sources:
+  - source/wikipedia-zij-en
+- external:
+    ar: أزياج الهند إلى القرن الثامن عشر
+    en: The Indian zijes of the sixteenth to eighteenth centuries
+    ur: سولہویں تا اٹھارہویں صدی کی ہندوستانی زیجیں
+  note: Nearly a hundred further zijes composed in India, including the Zij-i Muhammad
+    Shahi of Sawai Jai Singh, which incorporated telescopic observations.
+  sources:
+  - source/wikipedia-zij-en
+spread: []
+impact:
+  fields:
+  - astronomy-instruments
+  - timekeeping
+  changed:
+    ar: 'جعل الحساب الفلكي مهنة منضبطة: صار الفلكي أو الموقت يستخرج موضع أي جرم لأي
+      تاريخ من الجداول بدل إعادة الاشتقاق من النظرية، فخدمت الأزياج التقويم وأوقات
+      الصلاة والمناسبات الشرعية والتنجيم القضائي {cite:wikipedia-zij-en}.'
+    en: 'It turned astronomical computation into a desk discipline: a muwaqqit could
+      extract any body''s position for any date from the tables instead of re-deriving
+      it from theory, so zijes served the calendar, prayer times, religious festivals
+      and judicial astrology {cite:wikipedia-zij-en}.'
+    ur: 'فلکی حساب کو میز پر کرنے کا منضبط پیشہ بنا دیا: مقت جدولوں سے ہر جرم کا مقام
+      ہر تاریخ کے لیے نکالتا نظریہ از سر اخذ کیے بغیر؛ زیجیں تقویم، اوقاتِ نماز، دینی
+      مواقع اور فلکی فیصلوں کی خدمت کرتی رہیں {cite:wikipedia-zij-en}۔'
+  history:
+    ar: من بغداد المأمونية إلى مراغة ⁦(1259)⁩ وسمرقند ⁦(القرن الخامس عشر)⁩ ورصد تقي
+      الدين باستانبول ⁦(القرن السادس عشر)⁩ ظلّت الأزياج بنية العلم التحتية؛ وبقي الزيج
+      السلطاني مرجعاً في العصر الحديث المبكر، وأنتجت الهند نحو مئة زيج أخرى {cite:wikipedia-zij-en}.
+    en: From Ma'muni Baghdad to Maragha (1259), Samarkand (fifteenth century) and
+      Taqi al-Din's Constantinople observatory (sixteenth century) the zij remained
+      the discipline's infrastructure; the Zij-i Sultani stayed the early modern reference,
+      and India produced nearly a hundred more zijes {cite:wikipedia-zij-en}.
+    ur: مامون کے بغداد سے مراغہ ⁦(1259ء)⁩، سمرقند ⁦(پندرہویں صدی)⁩ اور تقی الدین کی
+      قسطنطنیہ رصدگاہ ⁦(سولہویں صدی)⁩ تک زیج مضمون کی بنیادی ڈھانچہ رہی؛ زیجِ سلطانی
+      ابتدائی جدید دور کا مرجع بنا اور ہندوستان نے سو کے قریب مزید زیجیں دیں {cite:wikipedia-zij-en}۔
+  significance: 4
+  why: The zij is the single most characteristic product of Islamic astronomy — a
+    whole genre of computational literature with more than two hundred known examples,
+    running eight centuries from Baghdad to Jaipur.
+described_in:
+- work/zij-al-sindhind-khwarizmi
+- work/al-zij-al-sabi
+- work/zij-i-ilkhani
+- work/zij-i-sultani
+examples: []
+sites:
+- place/baghdad
+- place/raqqa
+- place/maragha
+concepts: []
+today:
+  form:
+    ar: 'لم يعد الزيج وثيقة عمل — تحلّ البرامج محل الجداول — لكنه يبقى المادة الأساسية
+      لتاريخ الفلك الإسلامي: تحفظ المخطوطات وتفكك قواعد بيانات مثل PARAMS قيمها {cite:wikipedia-zij-en}.'
+    en: 'The zij is no longer a working document — software replaces the tables —
+      but it remains the primary material for the history of Islamic astronomy: manuscripts
+      are preserved and databases such as PARAMS dissect their parameters {cite:wikipedia-zij-en}.'
+    ur: 'زیج اب عملی دستاویز نہیں رہی — سافٹ ویئر جدولوں کی جگہ لیتا ہے — مگر اسلامی
+      فلکیات کی تاریخ کا بنیادی مواد ہے: مخطوطے محفوظ ہیں اور PARAMS جیسے ڈیٹابیس
+      ان کی قدریں تجزیہ کرتے ہیں {cite:wikipedia-zij-en}۔'
+  descendants:
+    ar: 'خلفتها الأفميريدات والكواكب المحوسبة: جداول مطبوعة ثم برامج توليد، وكلها
+      تؤدي وظيفة الزيج نفسها {cite:wikipedia-zij-en}.'
+    en: Printed ephemerides and then planetary computation software carry on the zij's
+      function {cite:wikipedia-zij-en}.
+    ur: مطبوعہ ایفیمریڈیز اور پھر سیاروں کی حسابی سافٹ ویئر زیج کا کام آگے بڑھاتی
+      ہیں {cite:wikipedia-zij-en}۔
+media:
+  diagram: media/diagram-zij-as-genre
+  image: media/diagram-zij-as-genre
+kids:
+  ar: 'تخيل كتاباً مليئاً بالجداول: تختار التاريخ وتقرأ سطراً واحداً فتعرف أين تكون
+    الشمس والقمر والكواكب في السماء. صنع الفلكيون المسلمون مئات هذه الكتب عبر ثمانية
+    قرون، وكان المؤذن والقاضي والطبيب والفلكي يستعملها كل يوم.'
+  en: 'Imagine a book full of tables: pick a date, read one row, and you know where
+    the sun, moon and planets stand in the sky. Muslim astronomers made hundreds of
+    these books over eight centuries, and the muezzin, the judge and the astronomer
+    used them every day.'
+  ur: 'ایک ایسی کتاب سوچو جو جدولوں سے بھری ہو: تاریخ چنو، ایک قطار پڑھو، اور معلوم
+    ہو جائے کہ سورج، چاند اور سیارے آسمان پر کہاں ہیں۔ مسلمان ماہرین فلکیات نے آٹھ
+    صدیوں میں سینکڑوں ایسی کتابیں بنائیں اور مؤذن، قاضی اور فلکی دان انہیں روز استعمال
+    کرتے تھے۔'
+sources:
+- source/wikipedia-zij-en
+- source/kennedy-islamic-astronomical-tables-1956
+- source/nallino-albatenii-opus-astronomicum
+- source/saliba-islamic-science-2007
+status:
+  review: published
+  completeness: 2
+provenance:
+  layer: own-research
+  generated_by: devin-drafter-w2-30
+  model: devin
+  run: inventions-w2-30
+  source: 'English Wikipedia "Zij" revision 1321458083 (entity facts only): etymology
+    zih/zig "cord", qanun alternate name, typical contents, three source traditions,
+    200+ zijes eighth to fifteenth century, centres at Baghdad/Maragha/Samarkand/Constantinople,
+    ~100 Indian zijes, Zij-i Muhammad Shahi telescopic, Saliba on astrology-use and
+    Ibn al-Shatir''s al-Zij al-jadid, Blake on Zij-i Sultani and Malik Shahi. Kennedy
+    1956 and Saliba 2007 bibliographic-only via that revision. Nallino 1899-1907 already
+    on repo for the Battani exemplar.'
