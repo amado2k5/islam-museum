@@ -1,0 +1,16 @@
+id: passage/abudawud-api-2481
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "2481"
+label: { ar: "سنن أبي داود 2481 — وصف المسلم", en: "Sunan Abi Dawud 2481 — a description of the Muslim", ur: "سنن ابی داؤد 2481 — مسلمان کا وصف" }
+text: "حَدَّثَنَا مُسَدَّدٌ، حَدَّثَنَا يَحْيَى، عَنْ إِسْمَاعِيلَ بْنِ أَبِي خَالِدٍ، حَدَّثَنَا عَامِرٌ، قَالَ أَتَى رَجُلٌ عَبْدَ اللَّهِ بْنَ عَمْرٍو وَعِنْدَهُ الْقَوْمُ حَتَّى جَلَسَ عِنْدَهُ فَقَالَ أَخْبِرْنِي بِشَىْءٍ سَمِعْتَهُ مِنْ رَسُولِ اللَّهِ. فَقَالَ سَمِعْتُ رَسُولَ اللَّهِ يَقُولُ \" الْمُسْلِمُ مَنْ سَلِمَ الْمُسْلِمُونَ مِنْ لِسَانِهِ وَيَدِهِ وَالْمُهَاجِرُ مَنْ هَجَرَ مَا نَهَى اللَّهُ عَنْهُ \"."
+summary:
+  ar: "حديث في سنن أبي داود، رقم 2481، يذكر وصف المسلم. يجمعه متصفح أركان الإسلام وأركان الإيمان وشعب الإيمان وخصال المؤمن مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في هذه الأبواب الأربعة."
+  en: "A report in Sunan Abi Dawud, no. 2481 (Jihad (Kitab Al-Jihad)), that mentions a description of the Muslim. The Pillars and Branches of Faith Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on the pillars of Islam, the pillars of faith, the branches of faith and the traits of the believer."
+  ur: "سنن ابی داؤد کی حدیث نمبر 2481، جس میں مسلمان کا وصف کا ذکر ہے۔ ارکانِ اسلام، ارکانِ ایمان، شعبِ ایمان اور مومن کی خصلتوں کا براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/khisal-al-mumin, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 2481 (book 15 hadith 5); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "arkan-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: published, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

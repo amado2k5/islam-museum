@@ -1,0 +1,16 @@
+id: passage/abudawud-api-4681
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "4681"
+label: { ar: "سنن أبي داود 4681 — حلاوة الإيمان وكماله", en: "Sunan Abi Dawud 4681 — the sweetness and completeness of faith", ur: "سنن ابی داؤد 4681 — ایمان کی مٹھاس اور اس کا کمال" }
+text: "حَدَّثَنَا مُؤَمَّلُ بْنُ الْفَضْلِ، حَدَّثَنَا مُحَمَّدُ بْنُ شُعَيْبِ بْنِ شَابُورٍ، عَنْ يَحْيَى بْنِ الْحَارِثِ، عَنِ الْقَاسِمِ، عَنْ أَبِي أُمَامَةَ، عَنْ رَسُولِ اللَّهِ أَنَّهُ قَالَ \" مَنْ أَحَبَّ لِلَّهِ وَأَبْغَضَ لِلَّهِ وَأَعْطَى لِلَّهِ وَمَنَعَ لِلَّهِ فَقَدِ اسْتَكْمَلَ الإِيمَانَ \"."
+summary:
+  ar: "حديث في سنن أبي داود، رقم 4681، يذكر حلاوة الإيمان وكماله. يجمعه متصفح أركان الإسلام وأركان الإيمان وشعب الإيمان وخصال المؤمن مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في هذه الأبواب الأربعة."
+  en: "A report in Sunan Abi Dawud, no. 4681 (Model Behavior of the Prophet (Kitab Al-Sunnah)), that mentions the sweetness and completeness of faith. The Pillars and Branches of Faith Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on the pillars of Islam, the pillars of faith, the branches of faith and the traits of the believer."
+  ur: "سنن ابی داؤد کی حدیث نمبر 4681، جس میں ایمان کی مٹھاس اور اس کا کمال کا ذکر ہے۔ ارکانِ اسلام، ارکانِ ایمان، شعبِ ایمان اور مومن کی خصلتوں کا براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/shuab-al-iman, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 4681 (book 42 hadith 86); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "arkan-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: published, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

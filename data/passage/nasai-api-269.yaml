@@ -1,0 +1,16 @@
+id: passage/nasai-api-269
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "269"
+label: { ar: "سنن النسائي 269 — وصف المؤمن", en: "Sunan al-Nasa'i 269 — a description of the believer", ur: "سنن نسائی 269 — مومن کا وصف" }
+text: "… عَنْ بَكْرٍ، عَنْ أَبِي رَافِعٍ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ النَّبِيَّ لَقِيَهُ فِي طَرِيقٍ مِنْ طُرُقِ الْمَدِينَةِ وَهُوَ جُنُبٌ فَانْسَلَّ عَنْهُ فَاغْتَسَلَ فَفَقَدَهُ النَّبِيُّ فَلَمَّا جَاءَ قَالَ \" أَيْنَ كُنْتَ يَا أَبَا هُرَيْرَةَ \". قَالَ يَا رَسُولَ اللَّهِ إِنَّكَ لَقِيتَنِي وَأَنَا جُنُبٌ فَكَرِهْتُ أَنْ أُجَالِسَكَ حَتَّى أَغْتَسِلَ. فَقَالَ \" سُبْحَانَ اللَّهِ إِنَّ الْمُؤْمِنَ لاَ يَنْجُسُ \"."
+summary:
+  ar: "حديث في سنن النسائي، رقم 269، يذكر وصف المؤمن. يجمعه متصفح أركان الإسلام وأركان الإيمان وشعب الإيمان وخصال المؤمن مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في هذه الأبواب الأربعة."
+  en: "A report in Sunan al-Nasa'i, no. 269 (The Book of Purification), that mentions a description of the believer. The Pillars and Branches of Faith Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on the pillars of Islam, the pillars of faith, the branches of faith and the traits of the believer."
+  ur: "سنن نسائی کی حدیث نمبر 269، جس میں مومن کا وصف کا ذکر ہے۔ ارکانِ اسلام، ارکانِ ایمان، شعبِ ایمان اور مومن کی خصلتوں کا براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/khisal-al-mumin, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 269 (book 1 hadith 270); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "arkan-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: published, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

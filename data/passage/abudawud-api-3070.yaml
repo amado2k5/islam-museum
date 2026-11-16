@@ -1,0 +1,16 @@
+id: passage/abudawud-api-3070
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "3070"
+label: { ar: "سنن أبي داود 3070 — وصف المسلم", en: "Sunan Abi Dawud 3070 — a description of the Muslim", ur: "سنن ابی داؤد 3070 — مسلمان کا وصف" }
+text: "… فَلَمَّا رَأَيْتُهُ قَدْ أَمَرَ لَهُ بِهَا شُخِصَ بِي وَهِيَ وَطَنِي وَدَارِي فَقُلْتُ يَا رَسُولَ اللَّهِ إِنَّهُ لَمْ يَسْأَلْكَ السَّوِيَّةَ مِنَ الأَرْضِ إِذْ سَأَلَكَ إِنَّمَا هِيَ هَذِهِ الدَّهْنَاءُ عِنْدَكَ مُقَيَّدُ الْجَمَلِ وَمَرْعَى الْغَنَمِ وَنِسَاءُ بَنِي تَمِيمٍ وَأَبْنَاؤُهَا وَرَاءَ ذَلِكَ فَقَالَ \" أَمْسِكْ يَا غُلاَمُ صَدَقَتِ الْمِسْكِينَةُ الْمُسْلِمُ أَخُو الْمُسْلِمِ يَسَعُهُمَا الْمَاءُ وَالشَّجَرُ وَيَتَعَاوَنَانِ عَلَى الْفُتَّانِ \"."
+summary:
+  ar: "حديث في سنن أبي داود، رقم 3070، يذكر وصف المسلم. يجمعه متصفح أركان الإسلام وأركان الإيمان وشعب الإيمان وخصال المؤمن مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في هذه الأبواب الأربعة."
+  en: "A report in Sunan Abi Dawud, no. 3070 (Tribute, Spoils, and Rulership (Kitab Al-Kharaj, Wal-Fai' Wal-Imarah)), that mentions a description of the Muslim. The Pillars and Branches of Faith Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on the pillars of Islam, the pillars of faith, the branches of faith and the traits of the believer."
+  ur: "سنن ابی داؤد کی حدیث نمبر 3070، جس میں مسلمان کا وصف کا ذکر ہے۔ ارکانِ اسلام، ارکانِ ایمان، شعبِ ایمان اور مومن کی خصلتوں کا براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/khisal-al-mumin, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 3070 (book 20 hadith 143); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "arkan-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: published, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

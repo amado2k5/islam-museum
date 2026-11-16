@@ -1,0 +1,16 @@
+id: passage/muslim-api-340
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "340"
+label: { ar: "صحيح مسلم 340 — حلاوة الإيمان وكماله", en: "Sahih Muslim 340 — the sweetness and completeness of faith", ur: "صحیح مسلم 340 — ایمان کی مٹھاس اور اس کا کمال" }
+text: "حَدَّثَنِي زُهَيْرُ بْنُ حَرْبٍ، حَدَّثَنَا جَرِيرٌ، عَنْ سُهَيْلٍ، عَنْ أَبِيهِ، عَنْ أَبِي هُرَيْرَةَ، قَالَ جَاءَ نَاسٌ مِنْ أَصْحَابِ النَّبِيِّ فَسَأَلُوهُ إِنَّا نَجِدُ فِي أَنْفُسِنَا مَا يَتَعَاظَمُ أَحَدُنَا أَنْ يَتَكَلَّمَ بِهِ. قَالَ \" وَقَدْ وَجَدْتُمُوهُ \". قَالُوا نَعَمْ. قَالَ \" ذَاكَ صَرِيحُ الإِيمَانِ \"."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 340، يذكر حلاوة الإيمان وكماله. يجمعه متصفح أركان الإسلام وأركان الإيمان وشعب الإيمان وخصال المؤمن مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في هذه الأبواب الأربعة."
+  en: "A report in Sahih Muslim, no. 340 (The Book of Faith), that mentions the sweetness and completeness of faith. The Pillars and Branches of Faith Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on the pillars of Islam, the pillars of faith, the branches of faith and the traits of the believer."
+  ur: "صحیح مسلم کی حدیث نمبر 340، جس میں ایمان کی مٹھاس اور اس کا کمال کا ذکر ہے۔ ارکانِ اسلام، ارکانِ ایمان، شعبِ ایمان اور مومن کی خصلتوں کا براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/shuab-al-iman, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 340 (book 1 hadith 247); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "arkan-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: published, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }
