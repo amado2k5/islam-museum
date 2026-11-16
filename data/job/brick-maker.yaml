@@ -1,0 +1,48 @@
+id: job/brick-maker
+class: job
+label: { ar: "الآجُرِّي ⁦(صانع اللبن والآجر)⁩", en: "Brick-maker (ajurri / kerpichji)", ur: "اینٹ ساز ⁦(آجرّی)⁩" }
+names:
+  - { value: "آجُرِّي", kind: alternate }
+  - { value: "طُوبي", kind: alternate }
+  - { value: "لبّان اللبن", kind: alternate }
+  - { value: "kerpiççi", kind: alternate, lang: tr }
+  - { value: "Kercnutjian", kind: latinized, lang: tr }
+  - { value: "Kupejian", kind: latinized, lang: tr }
+summary:
+  ar: "الآجُرِّي صانع اللبن والآجر، مادة العمارة الأولى من مدينة النبي إلى إسطنبول. يثبت كريسويل في العمارة الإسلامية المبكرة أن مسجد المدينة النبوي وبيتي سودة وعائشة بُنيا من لبن طين وادي بقيع الخبخب، وأن بيوت المدينة كانت من اللبن غير المحرق، وبنى أبو موسى الأشعري مسجد البصرة ودار الإمارة من اللبن المجفف بالشمس سنة ١٧هـ؛ والعرب فرّقت بين اللِّبنة ⁦(اللبن الطيني)⁩ والآجُرّ ⁦(اللبن المحرق)⁩ كما في سور الطائف. وفي موكب إسطنبول عدّ إوليا صنّاع الآجر ⁦(كَرْبِيجيان)⁩ خمسمئة رجل بخمسة وثلاثين دكاناً، وصنّاع اللبن غير المحرق بالتبن ⁦(كوبيجيان)⁩ ألف رجل. وفي ضاحية بير باشا مئتا دكان للبنّائين والآجريين يعملون على الجير الذي يستخرجه غواصون أرناؤط من قعر البحر في الصيف، فيبقى أربعين يوماً معرضاً للهواء ثم يعجنه الرجال بأيديهم وأقدامهم ويصنعونه آجراً، حتى بدت بيوت القسطنطينية كلها حمراء بلون آجر بير باشا المخصوص."
+  en: "The ajurri made bricks — mud-brick and kiln-burnt — the first fabric of building from the Prophet's Medina to Istanbul. Creswell records of early Muslim architecture that the Prophet's mosque at Medina and the houses of Sawda and 'A'isha were built of mud bricks from the valley of Baqi' al-Khabkhaba, that the houses of Medina were of unburnt brick, and that Abu Musa al-Ash'ari rebuilt the mosque and the Dar al-Imara of Basra in sun-dried bricks in 17 AH; Arabic itself drew the line between libna, the mud brick, and ajurr, the baked brick, as in the wall of Ta'if. In Evliya's Istanbul procession the brick-makers (Kerpichjian) were five hundred men in thirty-five shops, and the makers of unburnt straw-bricks (Kupejian) a thousand men. In the suburb of Pir Pasha two hundred brick-shops worked the lime that Albanese divers drew from the sea-bottom in summer; the lime lay forty days open to the air, then men kneaded it with their hands and feet and made it into bricks — the houses of Constantinople all showed the peculiar red of Pir Pasha brick."
+  ur: "آجرّی لبن اور اینٹ بنانے والا ہے — مدینۃ النبی سے استنبول تک تعمیر کا پہلا سامان۔ کرسویل ابتدائی مسلم تعمیر میں لکھتا ہے کہ نبوی مسجد مدینہ اور سودہ اور عائشہ کے گھر وادی بقیع الخبخب کے لبن سے بنے، مدینہ کے گھر کچی اینٹوں کے تھے، اور ابو موسیٰ اشعری نے ۱۷ھ میں بصرہ کی مسجد اور دارالامارہ دھوپ سکی اینٹوں سے بنائی؛ عرب نے لِبنہ ⁦(کچی اینٹ)⁩ اور آجر ⁦(پکی اینٹ)⁩ میں فرق کیا جیسے طائف کی فصیل میں۔ اولیاء کے استنبول کے جلوس میں اینٹ ساز ⁦(کرپچیان)⁩ پانچ سو آدمی پینتیس دکانیں، اور بھوسے والی کچی اینٹ بنانے والے ⁦(کوپیجیان)⁩ ایک ہزار آدمی تھے۔ پیر پاشا کے نواح میں دو سو اینٹ دکانیں اس چونے پر کام کرتی ہیں جو آلبانی غوطہ خور گرمیوں میں سمندر کے تل سے نکالتے؛ چونا چالیس دن کھلی ہوا میں رہتا، پھر آدمی اسے ہاتھوں پاؤں سے گوندھ کر اینٹ بناتے — قسطنطنیہ کے گھر پیر پاشا کی اینٹ کے خاص سرخ رنگ سے دکھائی دیتے۔"
+domain: building-making
+kind: craft
+hirfa: true
+era:
+  origins: pre-islamic
+  status_today: transformed
+places:
+  - { place: place/medina, note: "Creswell records the Prophet's mosque and the houses of Sawda and 'A'isha built of mud bricks from the valley of Baqi' al-Khabkhaba, the houses of Medina of unburnt brick, and Umm Salama's wall of unburnt bricks added to her house.", sources: [source/creswell-early-muslim-architecture-vol1] }
+  - { place: place/istanbul, note: "Evliya counts the brick-makers (Kerpichjian) at five hundred men in thirty-five shops and the makers of unburnt straw-bricks (Kupejian) at a thousand men; and in the suburb of Pir Pasha two hundred brick-shops kneaded sea-dredged lime, forty days weathered, into the red bricks that colour Constantinople.", sources: [source/evliya-seyahatname-hammer] }
+regions: [arabia, levant-iraq, anatolia-balkans, egypt-nile]
+organization:
+  organized: guild
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people, made]
+periods: [period/pre-islamic-arabia, period/prophetic-era, period/rashidun, period/gunpowder-empires, period/modern-era]
+sources: [source/creswell-early-muslim-architecture-vol1, source/evliya-seyahatname-hammer]
+craft:
+  materials: [brick]
+  techniques:
+    ar: "صنعة الآجُرِّي صنعة طين وجير ونار: اللبن الطيني يُقطَع من طين الوادي — كطين بقيع الخبخب لمسجد المدينة — ويُجفَّف بالشمس، والآجُرّ يُحرَق في الكلْيان؛ والعرب فرّقت بين اللِّبنة والآجُرّ منذ العهد الأول. وعند بير باشا يُستخرَج الجير من قعر البحر صيفاً بغوص الأرناؤط، ويُترَك أربعين يوماً للهواء، ثم يُعجَن بالأيدي والأقدام ويُشكَّل آجراً أحمر كسا بيوت القسطنطينية."
+    en: "The brick-maker's craft is clay, lime and fire: the mud brick cut from valley clay — like the clay of Baqi' al-Khabkhaba for the Prophet's mosque — and dried in the sun, the ajurr burnt in the kilns; Arabic distinguished libna from ajurr from the first centuries. At Pir Pasha the lime was drawn from the sea-bottom in summer by Albanese divers, left forty days to the air, then kneaded by hands and feet and formed into the red bricks that covered Constantinople's houses."
+    ur: "آجرّی کا ہنر مٹی، چونا اور آگ ہے: کچی اینٹ وادی کی مٹی سے کٹی جاتی — جیسے نبوی مسجد کے لیے بقیع الخبخب کی مٹی — اور دھوپ میں سکھائی، اور آجر بھٹوں میں پکائی؛ عرب نے پہلے صدیوں سے لبنہ اور آجر میں فرق کیا۔ پیر پاشا میں آلبانی غوطہ خور گرمیوں میں سمندر کے تل سے چونا نکالتے، چالیس دن ہوا میں رہتا، پھر ہاتھوں پاؤں سے گوندھ کر وہ سرخ اینٹ بنتی جو قسطنطنیہ کے گھروں کو چڑھائی۔"
+  guild:
+    bodies: []
+    shaykh_title: { ar: "شيخ طائفة الآجرّيين", en: "Sheykh of the brick-makers' guild", ur: "طائفۃ اینٹ سازوں کا شیخ" }
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-trades-8" }
+provenance:
+  layer: own-research
+  source: "Creswell, Early Muslim Architecture vol. 1 (the mud bricks of Baqi' al-Khabkhaba for the Prophet's mosque, the mud-brick houses of Sawda and 'A'isha and Medina's unburnt-brick houses, Abu Musa al-Ash'ari's sun-dried-brick mosque and Dar al-Imara at Basra in 17 AH, the libna/ajurr distinction at the wall of Ta'if); Evliya (von Hammer) I,2 secs. 619-620 pp. 230-231 (the five hundred Kerpichjian in 35 shops; the thousand Kupejian makers of unburnt straw-bricks) and the Pir Pasha suburb pp. 40-41 (two hundred brick-shops, the sea-dredged lime weathered forty days, kneaded by hands and feet into the red bricks of Constantinople) — read on 17 Nov 2026 from the downloaded scans"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-trades-8-drafting"
