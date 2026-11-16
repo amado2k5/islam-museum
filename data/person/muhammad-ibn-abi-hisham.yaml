@@ -17,6 +17,12 @@ periods:
 - period/abbasid-fragmentation
 regions:
 - arabia
+occupations:
+  - job: job/muhaddith
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'narrator', Job Browser linking wave 36"
+    sources: [source/sira-hadi-ila-al-haqq]
 relations:
 - type: related_to
   target: person/al-hadi-yahya-al-rassi

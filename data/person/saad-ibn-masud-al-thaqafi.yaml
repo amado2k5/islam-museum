@@ -10,6 +10,12 @@ periods: [period/rashidun]
 wings: [people]
 born: { edtf: "656", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ansab al-Ashraf (al-Baladhuri)" }
 died: { edtf: "666", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ansab al-Ashraf (al-Baladhuri)" }
+occupations:
+  - job: job/emir
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'emir', Job Browser linking wave 36"
+    sources: [source/sallabi-ali-vol1]
 relations:
   - { type: ruler_of, target: place/al-madain, sources: [source/sallabi-ali-vol1] }
 sources: [source/sallabi-ali-vol1]
