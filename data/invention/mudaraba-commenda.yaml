@@ -1,0 +1,360 @@
+id: invention/mudaraba-commenda
+class: invention
+label:
+  ar: "المضاربة والكومندا: شراكة رأس المال والسفر"
+  en: "The mudaraba and the commenda: capital-and-travel partnership"
+  ur: "مضاربہ اور کومینڈا: سرمایہ اور سفر کی شراکت"
+names:
+- value: مضاربة
+  kind: alternate
+  lang: ar
+- value: قراض
+  kind: alternate
+  lang: ar
+- value: مقارضة
+  kind: alternate
+  lang: ar
+- value: qirad
+  kind: alternate
+  lang: en
+- value: commenda
+  kind: alternate
+  lang: en
+- value: collegantia
+  kind: alternate
+  lang: en
+summary:
+  ar: عقد يعهد فيه مستثمر ⁦(صاحب مال)⁩ برأس مال إلى عامل ⁦(مضارب)⁩
+    يتاجر به ويرد الأصل وقسماً متفقاً من الربح؛ فإن خسرت التجارة خسر
+    العامل سعيه وحدها والمستثمر ماله — صيغة فقهية من تجارة قوافل
+    الجزيرة ظهرت في المرافئ الإيطالية القرن الحادي عشر كومندا/
+    كوليغنسيا، فهل تحول القراض كومنداً أم نشأت مستقلة سؤال مؤرخين
+    متنازع {cite:encyclopaedia-of-islam-2} {cite:wikipedia-commenda-en}
+    {cite:wikipedia-qirad-en}.
+  en: A contract in which an investor ⁦(the sahib al-mal)⁩ entrusts
+    capital to an agent ⁦(the mudarib)⁩ who trades with it, then
+    returns the principal plus an agreed share of profit; if the
+    venture loses, the agent loses only his labour and the investor
+    his capital — a fiqh instrument of the Arabian caravan trade
+    that appeared in the eleventh-century Italian seaports as the
+    commenda or collegantia; whether the qirad turned into the
+    commenda or the two grew apart independently is a contested
+    question among historians {cite:encyclopaedia-of-islam-2}
+    {cite:wikipedia-commenda-en} {cite:wikipedia-qirad-en}.
+  ur: ایک عقد جس میں سرمایہ دار ⁦(صاحبِ مال)⁩ مال کسی عامل ⁦(مضارب)⁩
+    کے سپرد کرتا ہے جو اس سے تجارت کر کے اصل اور متفقہ حصہ منافع
+    واپس کرتا ہے؛ نقصان ہو تو عامل صرف اپنی محنت کھوتا اور سرمایہ
+    دار اپنا مال — جزیرۃ العرب کی قافلہ تجارت کی فقہی صورت جو
+    گیارہویں صدی میں اطالوی بندرگاہوں پر کومینڈا/کولیگنسیا بن کر
+    ابھری؛ قراض کومینڈا بنا یا دونوں الگ الگ بڑھے، مؤرخین میں متنازع
+    سوال {cite:encyclopaedia-of-islam-2} {cite:wikipedia-commenda-en}
+    {cite:wikipedia-qirad-en}۔
+domain: institutions-systems
+kind: institution
+disciplines:
+- law
+- history
+wings:
+- ideas
+- made
+regions:
+- arabia
+- levant-iraq
+- egypt-nile
+- andalus-europe
+periods:
+- period/prophetic-era
+- period/umayyad
+- period/abbasid-early
+- period/buyid-seljuk-fatimid-era
+- period/crusades-ayyubid-mamluk
+themes:
+- trade-and-finance
+- law-and-courts
+era:
+  origins: pre-islamic-inherited
+  first_attested:
+    edtf: "0700~"
+    hijri: "0080~"
+    calendar: julian
+    precision: century
+    status: tradition
+    note: 'EI2 KIRAD: the contract is never mentioned in the Qur''an,
+      but numerous traditions attribute its practice to the Prophet
+      and his leading companions, and its likely direct origin is the
+      pre-Islamic Arabian caravan trade; the earliest fiqh compendia
+      treat it at length by the late eighth century, bearing the
+      hallmark of long experience. The hijri figure is a derived
+      conversion.'
+    derived: true
+    sources:
+    - source/encyclopaedia-of-islam-2
+    - source/wikipedia-qirad-en
+  status_today: transformed
+origin:
+  place: place/mecca
+  context:
+    ar: 'قوافل الجزيرة قبل الإسلام ثم فقه المدارس — مالكية وشافعية
+      «قراض/مقارضة» وحنفية «مضاربة» — حتى جنوة والبندقية
+      {cite:encyclopaedia-of-islam-2}.'
+    en: 'The pre-Islamic Arabian caravan trade, then the fiqh of the
+      schools — Maliki and Shafi''i "qirad/muqarada", Hanafi
+      "mudaraba" — as far as Genoa and Venice
+      {cite:encyclopaedia-of-islam-2}.'
+    ur: 'اسلام سے پہلے جزیرۃ العرب کی قافلہ تجارت، پھر مذاہب کی فقہ —
+      مالکی اور شافعی «قراض/مقارضہ» اور حنفی «مضاربہ» — جنوا اور
+      وینس تک {cite:encyclopaedia-of-islam-2}۔'
+makers:
+- person: person/shams-al-aimma-al-sarakhsi
+  role: describer
+  note: 'The Hanafi jurist whose al-Mabsut carries the great kitab
+    al-mudaraba (book xxii) — the legal treatment EI2 cites for the
+    contract''s definition and for his summary of its economic
+    function: the investor hires trading skill, the agent hires
+    capital.'
+  sources:
+  - source/encyclopaedia-of-islam-2
+attribution:
+  status: contested
+  claim:
+    ar: 'القراض/المضاربة صيغة فقهية إسلامية لها أصول جزيرية قبل
+      الإسلام، والكومندا الإيطالية تشبهها حد التطابق تقريباً — لكن
+      هل تحولت إليها أم نشأت مستقلةً لا يمكن الجزم به، والمتحف
+      يسجل الشبه والسؤال معاً {cite:wikipedia-qirad-en}
+      {cite:wikipedia-commenda-en} {cite:encyclopaedia-of-islam-2}.'
+    en: 'The qirad/mudaraba is an Islamic fiqh instrument with
+      pre-Islamic Arabian roots, and the Italian commenda resembles
+      it almost to identity — but whether the one became the other
+      or the two grew independently cannot be stated with certainty;
+      the museum records the resemblance and the question together
+      {cite:wikipedia-qirad-en} {cite:wikipedia-commenda-en}
+      {cite:encyclopaedia-of-islam-2}.'
+    ur: 'قراض/مضاربہ اسلامی فقہ کا وہ عقد ہے جس کی جڑیں پیشِ اسلام
+      جزیرۃ العرب میں ہیں، اور اطالوی کومینڈا اس سے تقریباً عین ملتا
+      ہے — مگر کیا وہی تبدیل ہو کر بنا یا دونوں آزادانہ پروان چڑھے،
+      یقین سے نہیں کہا جا سکتا؛ عجائب گھر مشابہت اور سوال دونوں درج
+      کرتا ہے {cite:wikipedia-qirad-en} {cite:wikipedia-commenda-en}
+      {cite:encyclopaedia-of-islam-2}۔'
+  basis:
+    ar: 'EI2 يجعل أصله القوافل الجزيرية ويثبت تفصيله في أقدم المدونات
+      الفقهية ⁦(أواخر القرن الثاني)⁩ ويوثق إدخاله كومنداً في موانئ
+      إيطاليا أواخر القرن العاشر وأوائل الحادي عشر؛ ومراجعات برايور
+      ⁦(1977)⁩ وأودوفيتش تعدد الأصول المرشحة ⁦(بابلي وروماني وبيزنطي
+      وعبرية وقراض)⁩ مع ملاحظة أن القراض أقرب لأن العامل لا يتحمل
+      الخسارة {cite:encyclopaedia-of-islam-2}
+      {cite:wikipedia-commenda-en} {cite:wikipedia-qirad-en}.'
+    en: 'EI2 roots it in the Arabian caravan trade and documents its
+      full treatment in the earliest legal compendia ⁦(late second
+      century AH)⁩, recording its introduction as the commenda into
+      the Italian seaports of the late tenth and early eleventh
+      centuries; Pryor ⁦(1977)⁩ and Udovitch list several candidate
+      sources ⁦(Babylonian tapputum, Roman societas and foenus
+      nauticum, Byzantine chreokoinonia, the Jewish isqa and the
+      Muslim qirad)⁩ while noting the qirad stands closest because
+      the travelling partner bears no loss
+      {cite:encyclopaedia-of-islam-2} {cite:wikipedia-commenda-en}
+      {cite:wikipedia-qirad-en}.'
+    ur: 'EI2 اس کی جڑ جزیرے کی قافلہ تجارت میں ڈالتا اور قدیم ترین
+      فقہی مدونات میں اس کا مفصل علاج ⁦(دوسری صدی ہجری کے آخر)⁩
+      ثابت کرتا اور دسویں صدی کے آخر و گیارہویں کے شروع میں اطالوی
+      بندرگاہوں تک کومینڈا کی صورت اس کی آمد درج کرتا ہے؛ پرائر
+      ⁦(1977ء)⁩ اور یوڈووچ کئی ممکنہ مآخذ گنواتے ہیں ⁦(بابلی
+      تپوتم، رومی سوسییتس اور فوینس ناوٹیکم، بازنطینی خریوکوینونیا،
+      یہودی اسقا اور مسلم قراض)⁩ اور یہ بھی لکھتے ہیں کہ قراض سب
+      سے قریب ہے کیونکہ مسافر شریک نقصان نہیں اُٹھاتا
+      {cite:encyclopaedia-of-islam-2} {cite:wikipedia-commenda-en}
+      {cite:wikipedia-qirad-en}۔'
+  perspectives:
+  - tradition: sunni
+    id: fiqh-received-account
+    summary:
+      ar: 'الرواية الفقهية التليدة — في الإطار السني العام يُروى
+        القراض سنةً موروثة: أحاديث تنسب ممارسته للنبي وأصحابه،
+        ومدونات المذاهب من المودونة والأم إلى المبسوط تفرد له باباً
+        منذ القرن الثاني، والسرخسي يعلل إباحته حاجةَ الناس إلى
+        عقدٍ يجمع المال والتجارة {cite:encyclopaedia-of-islam-2}
+        {cite:wikipedia-qirad-en}.'
+      en: 'The received fiqh account — in the museum''s Sunni default
+        frame the qirad is told as an inherited sunna: traditions
+        attribute its practice to the Prophet and his companions,
+        the school compendia from the Mudawwana and the Umm to the
+        Mabsut give it its own book from the second century, and
+        al-Sarakhsi grounds its licence in people''s need for a
+        contract joining capital and trade
+        {cite:encyclopaedia-of-islam-2} {cite:wikipedia-qirad-en}.'
+      ur: 'روایتی فقہی بیان — سنی عمومی فریم میں قراض منتقلی سنت کہی
+        جاتی ہے: روایات اس کا استعمال نبی اور صحابہ سے منسوب کرتی
+        ہیں، مدونہ اور الام سے مبسوط تک مذہبی مدونات دوسری صدی سے
+        اسے الگ کتاب دیتی ہیں، اور سرخسی اس کی جواز کی علت لوگوں کی
+        مال اور تجارت جوڑنے والے عقد کی ضرورت بتاتا ہے
+        {cite:encyclopaedia-of-islam-2} {cite:wikipedia-qirad-en}۔'
+    sources:
+    - source/encyclopaedia-of-islam-2
+    - source/wikipedia-qirad-en
+  - tradition: academic
+    id: udovitch-pryor-multi-source-commenda
+    summary:
+      ar: 'القراءة المقارنة — أودوفيتش وبرايور يعددان مرشحين متعددين
+        ⁦(بابلي وروماني وبيزنطي وعبرية وقراض)⁩ ويجعلان القراض الأقرب
+        شكلاً لأن العامل لا يتحمل الخسارة، مع التحفظ: التشابه
+        القريب لا يثبت تحولاً، والأصول قد تكون مستقلة
+        {cite:wikipedia-commenda-en} {cite:encyclopaedia-of-islam-2}
+        {cite:udovitch-partnership-profit-1970}.'
+      en: 'The comparative reading — Udovitch and Pryor enumerate
+        multiple candidates ⁦(Babylonian, Roman, Byzantine, Jewish
+        and the qirad)⁩ and judge the qirad closest in form because
+        the agent bears no loss, with a hedge: near-identical shape
+        does not prove transmission, and the institutions may have
+        evolved independently {cite:wikipedia-commenda-en}
+        {cite:encyclopaedia-of-islam-2}
+        {cite:udovitch-partnership-profit-1970}.'
+    sources:
+    - source/wikipedia-commenda-en
+    - source/encyclopaedia-of-islam-2
+    - source/udovitch-partnership-profit-1970
+precursors:
+- external:
+    ar: قوافل الجزيرة قبل الإسلام وعقود المتوسط القديمة
+    en: The pre-Islamic Arabian caravan trade and older
+      Mediterranean contracts
+    ur: پیشِ اسلام جزیرۃ العرب کی قافلہ تجارت اور قدیم بحیرۂ رومی
+      عقود
+  note: 'EI2''s direct origin is the Arabian caravan trade; the older
+    Mediterranean candidates — Babylonian tapputum, Roman societas
+    and foenus nauticum, Byzantine chreokoinonia, the Jewish isqa —
+    are the comparative field, not the root.'
+  sources:
+  - source/encyclopaedia-of-islam-2
+  - source/wikipedia-commenda-en
+dependents:
+- external:
+    ar: كومندا إيطاليا ⁦(كوليغنسيا البندقية وسوسييتس جنوة)⁩
+    en: The Italian commenda ⁦(Venetian collegantia and Genoese
+      societas)⁩
+    ur: اطالوی کومینڈا ⁦(وینس کی کولیگنسیا اور جنوا کی سوسییتس)⁩
+  note: 'The thirteenth-century Mediterranean contract, unilateral
+    or bilateral, that financed single voyages — EI2 calls its
+    introduction germinal to the expansion of medieval European
+    trade; the kinship with the qirad is the contested question.'
+  sources:
+  - source/wikipedia-commenda-en
+  - source/encyclopaedia-of-islam-2
+- external:
+    ar: مضاربة المصارف الإسلامية الحديثة وشراكة الأورطوق المغولية
+    en: Modern Islamic-banking mudarabah and the Mongol ortoq
+    ur: جدید اسلامی بینکاری کا مضاربہ اور منگول اورتوق شراکت
+  note: 'The same contract in two other lives: the ortoq
+    partnerships of the Mongol Empire that closely resemble qirad
+    arrangements, and the mudarabah of contemporary Islamic
+    finance, where it is a profit-and-loss-sharing mode.'
+  sources:
+  - source/wikipedia-qirad-en
+spread: []
+impact:
+  fields:
+  - institutions-systems
+  - everyday-life
+  changed:
+    ar: 'فصل المال عن المخاطرة الشخصية: مكّن صاحب المال من توظيف
+      مهارة التاجر والتاجر من توظيف رأس المال — آلة التجارة
+      البعيدة الأولى في الاقتصاد الإسلامي
+      {cite:encyclopaedia-of-islam-2}.'
+    en: 'It split capital from personal risk: it let the investor
+      hire trading skill and the trader hire capital — the first
+      long-distance finance machine of the Islamic economy
+      {cite:encyclopaedia-of-islam-2}.'
+    ur: 'اس نے سرمایہ کو ذاتی خطرے سے الگ کیا: سرمایہ دار تجارتی
+      مہارت اور تاجر سرمایہ کرایہ پر لے سکا — اسلامی معیشت کی
+      بعید تجارت کی پہلی مشین {cite:encyclopaedia-of-islam-2}۔'
+  history:
+    ar: 'من قوافل مكة إلى جنوة الكومندا وثائق القاهرة جنيزة مملوءة
+      به؛ وفي أوروبا صار أحد آباء الشركة المحدودة — عقد عبر
+      التمدنين بلا قرار حاسم عن خطه {cite:encyclopaedia-of-islam-2}
+      {cite:wikipedia-commenda-en}.'
+    en: 'From the caravans of Mecca to the commenda of Genoa, the
+      Cairo Geniza documents are replete with it; in Europe it
+      became an ancestor of the limited company — a contract that
+      crossed civilisations without a final ruling on its route
+      {cite:encyclopaedia-of-islam-2} {cite:wikipedia-commenda-en}.'
+    ur: 'مکہ کے قافلوں سے جنوا کی کومینڈا تک، قاہرہ کی جنیزہ
+      دستاویزات اس سے بھری ہیں؛ یورپ میں یہ محدود کمپنی کے اجداد
+      میں آیا — تہذیبوں کے پار چلا عقد جس کے راستے کا آخری فیصلہ
+      نہیں {cite:encyclopaedia-of-islam-2}
+      {cite:wikipedia-commenda-en}۔'
+  significance: 4
+  why: 'The partnership that financed the medieval world: fiqh''s
+    answer to long-distance trade and the contested ancestor of
+    European venture capital.'
+described_in: []
+examples: []
+sites:
+- place/mecca
+- place/baghdad
+- place/cairo
+concepts:
+- concept/trade-in-islam
+- concept/riba
+today:
+  form:
+    ar: 'حي في المصارف الإسلامية اسمَ مضاربة لعقود المشاركة بالربح
+      والخسارة، وحي في قانون الشركات الحديث صورةَ الشراكة المحدودة
+      {cite:wikipedia-qirad-en}.'
+    en: 'Alive as the mudarabah of Islamic banking for
+      profit-and-loss-sharing contracts, and as the limited
+      partnership of modern company law {cite:wikipedia-qirad-en}.'
+    ur: 'اسلامی بینکاری میں منافع و نقصان کی تقسیم کے عقود کے لیے
+      مضاربہ کے نام سے زندہ، اور جدید کمپنی قانون میں محدود شراکت
+      کی صورت میں {cite:wikipedia-qirad-en}۔'
+  descendants:
+    ar: 'المشاركة ⁦(المشركة)⁩ والصكوك ونماذج PLS الحديثة امتدادات
+      لنفس المنطق {cite:wikipedia-qirad-en}.'
+    en: 'Musharakah, sukuk and the modern profit-and-loss-sharing
+      models extend the same logic {cite:wikipedia-qirad-en}.'
+    ur: 'مشارکہ، صکوک اور جدید منافع-نقصان تقسیمی نمونے اسی منطق کی
+      توسیع ہیں {cite:wikipedia-qirad-en}۔'
+media:
+  diagram: media/diagram-mudaraba-commenda
+  image: media/diagram-mudaraba-commenda
+kids:
+  ar: 'تخيل رجلاً عنده مال ولا يعرف التجارة، وآخر يعرف التجارة ولا
+    مال له: يعطي الأول الثاني ماله يتاجر به، ويقسمان الربح كما اتفقا
+    من قبل، وإن خسرت التجارة خسر صاحب المال ماله والتاجر تعبه فقط.
+    بهذا العقد العادل حركت القوافل مئات السنين.'
+  en: 'Imagine a man who has money but cannot trade, and another who
+    can trade but has no money: the first hands over his capital,
+    the second trades with it, and they split the profit as agreed
+    beforehand; if the venture loses, the owner loses his money and
+    the trader only his effort. This fair contract moved caravans
+    for hundreds of years.'
+  ur: 'ایک شخص سوچو جس کے پاس مال ہے مگر تجارت نہیں آتی، اور دوسرا
+    جو تجارت جانتا مگر مال نہیں رکھتا: پہلا اپنا سرمایہ دیتا، دوسرا
+    اس سے تجارت کرتا، اور منافع پہلے سے طے شدہ نسبت بانٹتے ہیں؛
+    نقصان ہو تو مالک اپنا مال اور تاجر صرف اپنی محنت کھوتا۔ اسی
+    منصفانہ عقد نے صدیوں قافلے چلائے۔'
+sources:
+- source/encyclopaedia-of-islam-2
+- source/wikipedia-qirad-en
+- source/wikipedia-commenda-en
+- source/udovitch-partnership-profit-1970
+status:
+  review: published
+  completeness: 2
+provenance:
+  layer: own-research
+  generated_by: devin-drafter-w2-32
+  model: devin
+  run: inventions-w2-32
+  source: 'EI2 KIRAD (vol. V pp. 129-131, A.L. Udovitch, in-hand
+    OCR): contract anatomy (sahib al-mal, amil/mukarid/mudarib),
+    Arabian caravan origin, late-2nd/8th-c. compendia, sunna/ijma
+    justification and Sarakhsi''s need quote (Mabsut xxii, 19),
+    Mabsut/Umm/Mudawwana bibliography, Geniza evidence, commenda
+    introduction in late-10th/early-11th-c. Italian ports,
+    kirad/mukarada/mudaraba terminology by school. English Wikipedia
+    "Qirad" revision 1381543677 and "Commenda" revision 1369995691
+    (entity facts only): agent non-liability, Muwatta/Majalla
+    details, commenda typology (unilateral 3/4-1/4, bilateral
+    2/3-1/3), Venice collegantia and Genoa societas, 1073 first
+    mention, Pryor 1977 multi-source origins and the qirad-closest
+    observation. Udovitch 1970 bibliographic-only via those
+    revisions.'
