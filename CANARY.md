@@ -27,6 +27,9 @@ open a new block on top with the new version and today's date.
 ## v1.56.0 — 2026-11-16
 ### Added
 - Job Browser: five medical professions — the surgeon (jarrah) examined on his kit by the muhtasib, the oculist (kahhal) drilled on Hunayn's Ten Treatises, the pharmacist (saydalani) of the Abbasid drug trade and the Ottoman eczahane, the veterinarian (baytar) bled and shod under hisba rules, and the midwife (qabila) of the kursee el-wilâdeh — in Arabic, English and Urdu draft cited to the TDV entries CERRAHLIK and ECZACILIK, the hisba manuals of Ibn al-Ukhuwwa and al-Shayzari, Evliya Çelebi's guild procession and Lane's Cairo.
+## v1.56.0 — 2026-11-16
+### Added
+- Four more Inventions Browser records closing the second hundred-invention wave, each with Arabic, English and Urdu prose: the MOSFET of Atalla and Kahng; the Ommaya reservoir; the ElGamal public-key cryptosystem; and Aziz Sancar's DNA excision-repair work.
 
 ## v1.55.0 — 2026-11-16
 ### Added

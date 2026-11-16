@@ -1,0 +1,63 @@
+id: person/mohamed-atalla
+class: person
+label: { ar: "محمد عطا الله", en: "Mohamed Atalla", ur: "محمد عطا اللہ" }
+names:
+  - { value: "محمد محمد عطا الله", kind: full, lang: ar }
+  - { value: "Mohamed M. Atalla", kind: full, lang: en }
+  - { value: "Martin “John” M. Atalla", kind: alternate, lang: en }
+  - { value: "M. M. Atalla", kind: alternate, lang: en }
+gender: male
+born:
+  edtf: "1924-08-04"
+  hijri: "1343"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born in Port Said, Kingdom of Egypt, on 4 August 1924 per the recorded English biography; the Hijri year 1343 is a tabular derived conversion."
+  sources: [source/wikipedia-mohamed-atalla-en]
+died:
+  edtf: "2009-12-30"
+  hijri: "1431"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died in Atherton, California, on 30 December 2009 per the recorded biography; the Hijri year 1431 is a tabular derived conversion."
+  sources: [source/wikipedia-mohamed-atalla-en]
+roles: [engineer, physicist, inventor, entrepreneur]
+wings: [people]
+regions: [egypt-nile, americas-oceania]
+periods: [period/modern-era, period/contemporary-era]
+faith:
+  - value: christian
+    basis: unknown
+    note: "Recorded as christian at the weakest attestation and the matter stated plainly: Egyptian church-community and Coptic biographical accounts describe him as a Copt from Port Said, and 'Atalla' is a recognisably Coptic family name, but neither the recorded English or Arabic biographies nor his Wikidata item states a religion, so no firmer basis is claimed than this note. The maker role on the MOSFET record is consequently describer, the museum's inventor-role encoding requiring a source-backed faith entry of a different kind; the inventor credit itself is carried in the record's attribution and prose."
+    sources: [source/wikipedia-mohamed-atalla-en, source/wikidata-mohamed-atalla]
+inventions:
+  - invention: invention/atalla-mosfet
+    role: describer
+    place: place/united-states
+    sources: [source/wikipedia-mohamed-atalla-en, source/wikipedia-mosfet-en]
+external_ids: { wikidata: "Q1759109" }
+relations:
+  - { type: born_in, target: place/port-said, sources: [source/wikipedia-mohamed-atalla-en] }
+summary:
+  ar: "مهندس وفيزيائي ومشفِّر مصري-أمريكي ⁦(1924–2009)⁩، وُلد في بورسعيد ودرس في جامعة القاهرة ثم نال الماجستير والدكتوراه في الهندسة الميكانيكية من جامعة بوردو ⁦(1947 و1949)⁩. عمل في مختبرات بِل منذ 1949 وطوّر التخميل السطحي بالأكسدة الحرارية فحلّ مشكلة حالات سطح السيليكون، ثم صنع مع زميله داون كانغ أول ترانزستور موسفت عام 1959 — أكثر الأجهزة تصنيعاً في التاريخ وركيزة الإلكترونيات الحديثة. أسس لاحقاً شركة عطا الله لأمن البيانات ⁦(1972)⁩ وأصدر «صندوق عطا الله» أول وحدة أمن أجهزة يؤمّن معظم معاملات الصراف الآلي في العالم، ولُقّب «أب الرقم السري»، وأُدخل قاعة مشاهير المخترعين الوطنيين عام 2009 {cite:wikipedia-mohamed-atalla-en}."
+  en: "Egyptian-American engineer, physicist, cryptographer and entrepreneur ⁦(1924–2009)⁩, born in Port Said and educated at Cairo University then Purdue ⁦(MSc 1947, PhD 1949 in mechanical engineering)⁩. At Bell Labs from 1949 he developed surface passivation by thermal oxidation, solving the silicon surface-state problem, then built the first MOSFET with Dawon Kahng in 1959 — the most-fabricated device in history and the foundation of modern electronics. He later founded the data-security company Atalla Corporation ⁦(1972)⁩ and released the 'Atalla Box', the first hardware security module, which secured most of the world's ATM transactions; he was called the 'Father of the PIN' and was inducted into the National Inventors Hall of Fame in 2009 {cite:wikipedia-mohamed-atalla-en}."
+  ur: "مصری نژاد امریکی انجینئر، طبیعیات دان، خفیہ نگار اور کاروباری ⁦(1924–2009)⁩، بورسعید میں پیدا ہوئے، جامعہ قاہرہ اور پھر پرڈیو سے تعلیم پائی ⁦(میکینیکل انجینئرنگ میں ایم ایس سی 1947 اور پی ایچ ڈی 1949)⁩۔ 1949 سے بیل لیبز میں حرارتی آکسیڈیشن سے سطحی تخمیل تیار کر کے سلیکون کی سطحی حالتوں کا مسئلہ حل کیا، پھر 1959 میں داون کانگ کے ساتھ پہلا موسفیٹ بنایا — تاریخ کا سب سے زیادہ تیار شدہ آلہ اور جدید الیکٹرانکس کی بنیاد۔ بعد میں ڈیٹا سکیورٹی کمپنی عطا اللہ کارپوریشن ⁦(1972)⁩ بنائی اور پہلی ہارڈویئر سکیورٹی ماڈیول «عطا اللہ باکس» جاری کی جس نے دنیا کی بیشتر اے ٹی ایم لین دین محفوظ کیے؛ «پن کے بابا» کہلائے اور 2009 میں قومی ایجاد کنندگان ہال آف فیم میں شامل ہوئے {cite:wikipedia-mohamed-atalla-en}۔"
+kids:
+  ar: "مهندس مصري اسمه محمد عطا الله صنع مع زميله داون كانغ في عام 1959 قطعة صغيرة اسمها موسفت، وهي مفتاح إلكتروني لا يكاد يُرى، وصارت اليوم في كل هاتف وحاسوب وسيارة بالمليارات — فهي أكثر شيء صنعه البشر عدداً في التاريخ."
+  en: "An Egyptian engineer named Mohamed Atalla built, with his colleague Dawon Kahng in 1959, a tiny electronic switch called the MOSFET — today it sits inside every phone, computer and car by the billion, the most-manufactured object in human history."
+  ur: "محمد عطا اللہ نامی مصری انجینئر نے 1959 میں اپنے ساتھی داون کانگ کے ساتھ ایک بہت چھوٹا برقی سوئچ بنایا جسے موسفیٹ کہتے ہیں — آج یہ ہر فون، کمپیوٹر اور گاڑی میں اربوں کی تعداد میں موجود ہے، اور یہ تاریخ میں سب سے زیادہ بنائی گئی چیز ہے۔"
+sources:
+  - source/wikipedia-mohamed-atalla-en
+  - source/wikidata-mohamed-atalla
+  - source/wikipedia-mosfet-en
+status: { review: published, completeness: 2 }
+provenance:
+  layer: own-research
+  generated_by: devin-drafter-w2-33
+  model: devin
+  run: inventions-w2-33
+  source: "English Wikipedia 'Mohamed Atalla' revision 918098160 read in full (biography, surface passivation, MOSFET 1959, HP/Fairchild, Atalla Box, PIN, awards); Wikidata Q1759109 revision 2512728878 (identity, no religion claim); MOSFET recorded revision 1384578492 for the device facts. The article states no religion; the christian value is recorded at unknown basis per the faith note."
