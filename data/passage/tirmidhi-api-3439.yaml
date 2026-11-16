@@ -1,0 +1,16 @@
+id: passage/tirmidhi-api-3439
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "3439"
+label: { ar: "جامع الترمذي 3439 — ما عُدّ من الإيمان", en: "Jami' al-Tirmidhi 3439 — what is counted as part of faith", ur: "جامع ترمذی 3439 — جو ایمان میں سے گنا گیا" }
+text: "… الْكَوْنِ وَمِنْ دَعْوَةِ الْمَظْلُومِ وَمِنْ سُوءِ الْمَنْظَرِ فِي الأَهْلِ وَالْمَالِ \". قَالَ هَذَا حَدِيثٌ حَسَنٌ صَحِيحٌ. قَالَ وَيُرْوَى الْحَوْرِ بَعْدَ الْكَوْرِ أَيْضًا قَالَ وَمَعْنَى قَوْلِهِ الْحَوْرِ بَعْدَ الْكَوْنِ أَوِ الْكَوْرِ وَكِلاَهُمَا لَهُ وَجْهٌ يُقَالُ إِنَّمَا هُوَ الرُّجُوعُ مِنَ الإِيمَانِ إِلَى الْكُفْرِ أَوْ مِنَ الطَّاعَةِ إِلَى الْمَعْصِيَةِ إِنَّمَا يَعْنِي الرُّجُوعَ مِنْ شَيْءٍ إِلَى شَيْءٍ مِنَ الشَّرِّ."
+summary:
+  ar: "حديث في جامع الترمذي، رقم 3439، يذكر ما عُدّ من الإيمان. يجمعه متصفح أركان الإسلام وأركان الإيمان وشعب الإيمان وخصال المؤمن مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في هذه الأبواب الأربعة."
+  en: "A report in Jami' al-Tirmidhi, no. 3439 (Chapters on Supplication), that mentions what is counted as part of faith. The Pillars and Branches of Faith Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on the pillars of Islam, the pillars of faith, the branches of faith and the traits of the believer."
+  ur: "جامع ترمذی کی حدیث نمبر 3439، جس میں جو ایمان میں سے گنا گیا کا ذکر ہے۔ ارکانِ اسلام، ارکانِ ایمان، شعبِ ایمان اور مومن کی خصلتوں کا براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/shuab-al-iman, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 3439 (book 48 hadith 70); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "arkan-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: published, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

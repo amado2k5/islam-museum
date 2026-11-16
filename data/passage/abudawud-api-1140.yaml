@@ -1,0 +1,16 @@
+id: passage/abudawud-api-1140
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "1140"
+label: { ar: "سنن أبي داود 1140 — حلاوة الإيمان وكماله", en: "Sunan Abi Dawud 1140 — the sweetness and completeness of faith", ur: "سنن ابی داؤد 1140 — ایمان کی مٹھاس اور اس کا کمال" }
+text: "… الْمِنْبَرَ فِي يَوْمِ عِيدٍ وَلَمْ يَكُنْ يُخْرَجُ فِيهِ وَبَدَأْتَ بِالْخُطْبَةِ قَبْلَ الصَّلاَةِ. فَقَالَ أَبُو سَعِيدٍ الْخُدْرِيُّ مَنْ هَذَا قَالُوا فُلاَنُ بْنُ فُلاَنٍ. فَقَالَ أَمَّا هَذَا فَقَدْ قَضَى مَا عَلَيْهِ سَمِعْتُ رَسُولَ اللَّهِ يَقُولُ \" مَنْ رَأَى مُنْكَرًا فَاسْتَطَاعَ أَنْ يُغَيِّرَهُ بِيَدِهِ فَلْيُغَيِّرْهُ بِيَدِهِ فَإِنْ لَمْ يَسْتَطِعْ فَبِلِسَانِهِ فَإِنْ لَمْ يَسْتَطِعْ فَبِقَلْبِهِ وَذَلِكَ أَضْعَفُ الإِيمَانِ \"."
+summary:
+  ar: "حديث في سنن أبي داود، رقم 1140، يذكر حلاوة الإيمان وكماله. يجمعه متصفح أركان الإسلام وأركان الإيمان وشعب الإيمان وخصال المؤمن مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في هذه الأبواب الأربعة."
+  en: "A report in Sunan Abi Dawud, no. 1140 (Prayer (Kitab Al-Salat)), that mentions the sweetness and completeness of faith. The Pillars and Branches of Faith Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on the pillars of Islam, the pillars of faith, the branches of faith and the traits of the believer."
+  ur: "سنن ابی داؤد کی حدیث نمبر 1140، جس میں ایمان کی مٹھاس اور اس کا کمال کا ذکر ہے۔ ارکانِ اسلام، ارکانِ ایمان، شعبِ ایمان اور مومن کی خصلتوں کا براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/shuab-al-iman, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 1140 (book 2 hadith 751); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "arkan-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: published, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

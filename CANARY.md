@@ -13,6 +13,16 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v1.55.0 — 2026-11-16
+### Added
+- A new browser, «متصفح أركان الإسلام وأركان الإيمان وشُعَب الإيمان وخِصَال المؤمن» (the Pillars of Islam, Pillars of Faith, Branches of Faith and Traits of the Believer Browser), at `/ar/arkan/`, `/en/arkan/` and `/ur/arkan/`, with a page for each of the four themes, a card on the home page and an entry in the Explore menu. It gathers every place the museum's sources mention the five pillars of Islam, the six pillars of faith, the seventy-odd branches of faith and the traits of the believer: 1,444 records on the day it was built — 124 Qur'an verses from a reviewed table, 795 passages of hadith and its commentaries, 28 seerah excerpts, 472 excerpts from other books (creed, the Companions and Successors, renunciation, history, fiqh) and 25 curated records. A book harvested later brings its mentions in by itself. The dataset is at `/api/v1/arkan.json`.
+- Three new records with full prose in Arabic, English and Urdu: the six pillars of faith; the branches of faith, with the hadith's versions, who counted the branches and al-'Ayni's list of seventy-seven in three groups from 'Umdat al-Qari; and the traits of the believer in the Qur'an and the hadith. The English and Urdu are machine translations not yet read by a person.
+### Data
+- 186 hadith reports from the seven Arabic hadith-api editions and 1,039 excerpts of at most forty words from 39 scanned books on the harvest drive, each cited to its work and page and linked to its theme's record. The book excerpts are machine-read and not corrected, and every such record says so.
+- 22 existing records (the five pillars and each pillar, faith and each of its articles, al-Bayhaqi's Shu'ab al-Iman and others) are tagged into the browser; one source record added for the scanned volume 2 of Shu'ab al-Iman.
+### Tests
+- The API test now covers `arkan.json`: the Qur'an table, the four themes, the gated weak signals, the false positives kept out and the automatic entry of a future book.
+
 ## v1.54.0 — 2026-11-16
 ### Added
 - Job Browser: six scholarly professions — the mufassir of the tafsir schools, the mutakallim of the kalam debates, the historian crowned by the Ottoman vak'anuvis state historiographer, the grammarian of the Basra–Kufa–Baghdad tabaqat, the lexicographer from Khalil's Kitab al-Ayn to the Qamus, and the hafiz-i kutub keeper of the waqf library — in Arabic, English and Urdu draft cited to the TDV entries TEFSİR, KELÂM, VAK'ANÜVİS, NAHİV, SÖZLÜK and HÂFIZ-ı KÜTÜB.

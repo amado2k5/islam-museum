@@ -542,6 +542,21 @@
         }
       }
     },
+    "/arkan.json": {
+      "get": {
+        "operationId": "getArkan",
+        "summary": "Pillars and Branches of Faith Browser dataset",
+        "description": "The Pillars of Islam, Pillars of Faith, Branches of Faith and Traits of the Believer Browser dataset (متصفح أركان الإسلام وأركان الإيمان وشعب الإيمان وخصال المؤمن): every mention of the four themes in the Qur'an (a reviewed verse table), the Sunnah, the seerah, the reports of the Companions and Successors and every harvested book — detected at build time plus the curated records tagged arkan-browser, each with its corpus section (quran, sunnah, seerah, books, curated), topics (islam, iman, shuab, khisal), matched signals, work, ref, text excerpt, kind, themes, tags and edges.",
+        "responses": {
+          "200": {
+            "description": "Every record with corpus section, topics, signals, work, ref, excerpt, themes and edges",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
     "/halal.json": {
       "get": {
         "operationId": "getHalal",

@@ -1,0 +1,44 @@
+---
+// One record of the Pillars and Branches of Faith Browser as a card: the same on the landing, on a section's pages
+// and on a theme's pages (docs/plan/61-arkan-browser.md). The theme chips link to the theme pages.
+import DraftMark from "./DraftMark.astro";
+import { ui, type Lang } from "../lib/i18n";
+import { byId, href, labelOf, stripNeedsSource } from "../lib/graph";
+import type { ArkanItem } from "../lib/arkan";
+import type { Node } from "../../../scripts/build-graph";
+interface Props { lang: Lang; item: ArkanItem; current?: string }
+const { lang, item: i, current } = Astro.props;
+const G = (ui(lang) as any).arkan;
+const summaryText = (n: Node) => stripNeedsSource(n.summary?.[lang] ?? n.summary?.ar ?? n.summary?.en ?? "").replace(/\s*\{cite:[^}]*\}/g, "").replace(/\[\[[^\]|]*\|([^\]]*)\]\]/g, "$1").replace(/\[\[[^\]]*\]\]/g, "").replace(/\s+([.,؛،])/g, "$1"); // citation markers belong to the entity page's footnotes
+const EXCERPT = 220;
+const excerptOf = (n: Node) => {
+  const raw = n.class === "passage" ? String(n.data.text_search ?? n.data.text ?? "") : summaryText(n);
+  const clean = stripNeedsSource(raw).replace(/\s+/g, " ").trim();
+  return clean.length > EXCERPT ? `${clean.slice(0, EXCERPT)}…` : clean;
+};
+const workLabel = (n: Node) => (n.data.work ? labelOf(byId.get(n.data.work as string) ?? n, lang) : "");
+const refOf = (n: Node) => {
+  if (n.data.sura && n.data.aya) return `${n.data.sura}:${n.data.aya}`;
+  return n.data.ref ? String(n.data.ref) : (n.data.unit ? String(n.data.unit) : "");
+};
+const topics = i.topics.filter((t) => t !== current);
+const searchText = [
+  i.node.label.ar, i.node.label.en, i.node.label.ur,
+  summaryText(i.node), excerptOf(i.node), workLabel(i.node),
+  ...i.topics.map((t) => G.topics[t]?.title ?? ""),
+].filter(Boolean).join(" ");
+---
+<li data-arkan-row data-topics={i.topics.join(" ")} data-search={searchText} class="panel" style="padding:14px 16px">
+  <a href={href(lang, i.node.id)} style="font-weight:600">{labelOf(i.node, lang)}</a><DraftMark lang={lang} node={i.node} />
+  {i.node.class === "passage" && (
+    <p class="ui muted" style="margin:.15rem 0 0;font-size:.82rem" dir="auto">
+      {workLabel(i.node)}{refOf(i.node) ? <bdi> · {refOf(i.node)}</bdi> : null}
+    </p>
+  )}
+  <p class="muted" style="margin:.3rem 0 0;font-size:.92rem" dir="auto">{excerptOf(i.node)}</p>
+  {topics.length > 0 && (
+    <p class="ui" style="margin:.4rem 0 0;font-size:.8rem;display:flex;flex-wrap:wrap;gap:4px 6px;align-items:center">
+      {topics.map((t) => <a class="chip" style="font-size:.75rem;padding:1px 8px" href={`/${lang}/arkan/topic/${t}/`}>{G.topics[t].title}</a>)}
+    </p>
+  )}
+</li>

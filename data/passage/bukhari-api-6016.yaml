@@ -1,0 +1,16 @@
+id: passage/bukhari-api-6016
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "6016"
+label: { ar: "صحيح البخاري 6016 — ما لا يتم الإيمان إلا به", en: "Sahih al-Bukhari 6016 — what faith is not complete without", ur: "صحیح بخاری 6016 — جس کے بغیر ایمان مکمل نہیں" }
+text: "… عَلِيٍّ، حَدَّثَنَا ابْنُ أَبِي ذِئْبٍ، عَنْ سَعِيدٍ، عَنْ أَبِي شُرَيْحٍ، أَنَّ النَّبِيَّ قَالَ \" وَاللَّهِ لاَ يُؤْمِنُ، وَاللَّهِ لاَ يُؤْمِنُ، وَاللَّهِ لاَ يُؤْمِنُ \". قِيلَ وَمَنْ يَا رَسُولَ اللَّهِ قَالَ \" الَّذِي لاَ يَأْمَنُ جَارُهُ بَوَايِقَهُ \". تَابَعَهُ شَبَابَةُ وَأَسَدُ بْنُ مُوسَى. وَقَالَ حُمَيْدُ بْنُ الأَسْوَدِ وَعُثْمَانُ بْنُ عُمَرَ وَأَبُو بَكْرِ بْنُ عَيَّاشٍ وَشُعَيْبُ بْنُ …"
+summary:
+  ar: "حديث في صحيح البخاري، رقم 6016، يذكر ما لا يتم الإيمان إلا به. يجمعه متصفح أركان الإسلام وأركان الإيمان وشعب الإيمان وخصال المؤمن مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في هذه الأبواب الأربعة."
+  en: "A report in Sahih al-Bukhari, no. 6016 (Good Manners and Form (Al-Adab)), that mentions what faith is not complete without. The Pillars and Branches of Faith Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on the pillars of Islam, the pillars of faith, the branches of faith and the traits of the believer."
+  ur: "صحیح بخاری کی حدیث نمبر 6016، جس میں جس کے بغیر ایمان مکمل نہیں کا ذکر ہے۔ ارکانِ اسلام، ارکانِ ایمان، شعبِ ایمان اور مومن کی خصلتوں کا براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/shuab-al-iman, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 6016 (book 78 hadith 47); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "arkan-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: published, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

@@ -1,0 +1,17 @@
+id: passage/ihya-arkan-4-3040
+class: passage
+unit: chapter
+work: work/ihya-ulum-al-din
+ref: "4:3040"
+label: { ar: "إحياء علوم الدين للغزالي، المجلد المصوَّر 4، ص 3040 — تعريف الإسلام بأعماله، وصف المسلم", en: "al-Ghazali's Ihya' 'Ulum al-Din, scan volume 4, p. 3040 — Islam defined by its acts; a description of the Muslim", ur: "احیاء علوم الدین، غزالی، اسکین جلد 4، ص 3040 — اسلام کی تعریف اس کے اعمال سے، مسلمان کا وصف" }
+text: "… الخطايا والذنوب ورواه ابن ماجه مقتصرا على المؤمن والمهاجر وللحاكم من حديث انس قال على شرط مسلم والمهاجر من هجر السوء ولأحمد بإسناد صحيح من حديث عمر بن عبسة قال رجل يا رسول االله ما الإسلام قال أن تسلم قلبك …"
+summary:
+  ar: "مقطع من إحياء علوم الدين للغزالي، المجلد المصوَّر 4، ص 3040، يذكر تعريف الإسلام بأعماله، ووصف المسلم؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح أركان الإسلام وأركان الإيمان وشعب الإيمان وخصال المؤمن."
+  en: "An excerpt from al-Ghazali's Ihya' 'Ulum al-Din, scan volume 4, p. 3040, that mentions Islam defined by its acts, a description of the Muslim; from the machine-read scan, quoted within forty words per the sources policy. The Pillars and Branches of Faith Browser lists it."
+  ur: "احیاء علوم الدین، غزالی، اسکین جلد 4، ص 3040 کا اقتباس جس میں اسلام کی تعریف اس کے اعمال سے، مسلمان کا وصف کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ ارکانِ اسلام، ارکانِ ایمان، شعبِ ایمان اور مومن کی خصلتوں کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/five-pillars, sources: [source/ihya-shamela-dar-al-marifa] }
+  - { type: mentions, target: concept/khisal-al-mumin, sources: [source/ihya-shamela-dar-al-marifa] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan adab-zuhd/ihya-ulum-din/phptop_gmail, page 3040; a window of at most 40 words chosen by the pillars and branches of faith detector (scripts/arkan.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "arkan-ocr-1" }
+sources: [source/ihya-shamela-dar-al-marifa]
+status: { review: published, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words; the excerpt is machine-read and not corrected" }
