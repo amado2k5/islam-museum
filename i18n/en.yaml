@@ -1784,6 +1784,14 @@ explore:
       title: "Fatherhood in Islam Browser"
       desc: "Every mention of the father and fatherhood in Islam — the Qur'anic fathers and their counsel, dutifulness and disobedience to the parents, the Prophet as a father, paternity and lineage, and the orphan whose father is lost — in the Qur'an, the Sunnah, the seerah, Companion and Tabi'in reports and every harvested book, with every verse and report cited."
       menu: "Browse the father and fatherhood in the Qur'an and books"
+    umuma:
+      title: "Motherhood in Islam Browser"
+      desc: "Everything the sources mention about motherhood — the mother and her standing, pregnancy, childbirth, nursing, custody and raising children, and dutifulness to parents — in the Qur'an, Sunnah, seerah and every harvested book, each verse and report with its source."
+      menu: "Browse motherhood and mothers in the Qur'an and the books"
+    bunuwwa:
+      title: "Sonhood and Daughterhood in Islam Browser"
+      desc: "Everything the sources mention about sons and daughters, offspring and the filial bond — in the Qur'an, the Sunnah, the seerah, the reports of the Companions and the Successors, and every harvested book: kindness to parents and its opposite, orphans and suckling, the rights of the child, and the named sons and daughters of the stories — with every verse and report cited."
+      menu: "Browse sonhood and daughterhood in the Qur'an and books"
     islamiceconomy:
       title: "Islamic Economy Browser"
       desc: "Every mention of money and Islamic economics, deeds and covenants, and endowment in the Qur'an, the Sunnah, the seerah and every harvested book — currencies, usury, debt, trade contracts, weights and measures, fiscal dues, waqf and sadaqa jariya — with every verse and report cited."
@@ -3989,6 +3997,51 @@ tibb:
       tadawi: "seeking treatment"
       shifa: "healing"
       haram_dawa: "forbidden remedies"
+bunuwwa:
+  title: "Sonhood and Daughterhood in Islam Browser"
+  lede: "Everything the museum's sources mention about sons and daughters and the filial bond: the children of the prophets and the Companions, kindness to parents and disobedience to them, orphans and suckling and weaning, the rights of the child — custody, the birth sacrifice, inheritance — and the sons and daughters of the stories, in the Qur'an, the two Sahihs, the Muwatta and the Sunan, the seerah books, the reports of the Companions and the Successors, and every harvested book — sourced records that grow as new texts land."
+  badge: Sonhood and daughterhood explorer
+  status: "This build holds {n} records in {s} sections; the texts are drafts until a human reads them."
+  method_title: The browser's method
+  method_note: "Every record here is an ordinary museum record — with its sources and its three-language prose. Filial mentions are found at build time by a guarded lexicon over the passage texts in six families: sons and daughters (بنون، بنات، أولاد، ابنه، ابنتها، ولد، أنثى، موءودة), offspring (ذرية، نسل، عقب، بني إسرائيل، بني آدم), filial piety and disobedience (والدين، أبويه، بر الوالدين، عقوق، لا تقل لهما أف، اخفض جناح الذل), orphans and suckling (يتيم، يتامى، رضاعة، مرضعة، فطام، حمل), the child's rights (حضانة، عقيقة، تحنيك، تسمية، ميراث beside children vocabulary), and the sons and daughters of the stories (غلام، لقمان، الذبيح، ابنا آدم). The ambiguous words are guarded: bare «ابن» never counts — it stands in every isnad and genealogy — only its possessed relational forms do (ابنه، ابنتها), «ميراث» counts only beside children words, and verified false positives are excluded by id; every book harvested later brings its filial reports here automatically when its passages land in the graph, and curated records join through the bunuwwa-browser tag. The famous parents and children are read from the graph's own child_of edges."
+  api: "The whole set is available at"
+  sections_title: The browser's sections
+  children_title: "The famous parents and children"
+  children_desc: "Parents and children from the museum's own graph: every record joined to its child by a cited child_of edge — the sons and daughters of the prophets, the children of the Companions and the Successors, and the people of the books."
+  filter_label: Filter sonhood and daughterhood records
+  filter_none: No matches.
+  empty: No filial records in this build yet.
+  topics:
+    banun: "Sons and daughters"
+    dhurriyya: "Offspring"
+    birr: "Piety and disobedience to parents"
+    yatim: "Orphans and suckling"
+    huquq: "The child's rights"
+    qisas: "Children of the stories"
+  sections:
+    quran:
+      title: "In the Qur'an"
+      desc: "Sonship in the Qur'an: «المال والبنون زينة الحياة الدنيا», «لا تقل لهما أف», «واخفض لهما جناح الذل», «للذكر مثل حظ الأنثيين», the buried infant girl, the orphans, the annunciation of a son, Ya'qub's counsel to his sons, Luqman's counsels to his son, and the sons of Nuh and Adam."
+    sunnah:
+      title: "In the Sunnah"
+      desc: "Sonship in the two Sahihs, the Muwatta and the Sunan: «أمك ثم أمك», «الجنة تحت أقدام الأمهات», the reports of birr and uquq and the cutting of kinship, the aqiqa, the tahnik, the naming and the adhan in the newborn's ear, and the rights and upbringing of children."
+    seerah:
+      title: "In the seerah"
+      desc: "What the seerah and history books carry of the Prophet's children and the Companions' and Successors' stands toward their parents — the report of Umar ibn al-Khattab's mother, the obedience and disobedience of sons — filling itself as new seerah texts land."
+    books:
+      title: "In the other books"
+      desc: "Filial reports in every harvested work beyond the Qur'an, hadith and seerah — fiqh, adab, history, biography, tafsir and poetry — classified by the work's genre the day its passages land."
+    curated:
+      title: "Records about sonhood and daughterhood"
+      desc: "The museum's curated records about the filial theme itself: bunuwwa, birr al-walidayn, uquq, the orphan, suckling, the aqiqa, custody and the counsels to sons."
+  viz:
+    title: "The six lines of sonship"
+    lede: "One ruled line per filial topic, and on each line a disc for every section holding records of it, sized by their number. Every disc links to that section's list below, and a record with two topics is counted on both lines."
+    topic_col: Topic
+    total_col: Total
+    records: "{n} records"
+    empty_topic: "No records yet"
+    untopiced: "{n} records in the browser are not filed under a topic; they are in the lists below."
 usra:
   title: "Family and Marriages Browser"
   lede: "The famous marriages in Islam and the Muslim family in the museum's sources: the marriages of the Prophet and the Companions, the spouses and children of Muslim homes, their dwellings and rooms, their livelihood and maintenance, the details of their daily life — sleep, clothing, food and service — and their social customs — asking permission, neighbours, guests, gifts and companionship in good faith — in the Qur'an, the two Sahihs, the Muwatta and the Sunan, the seerah books, the reports of the Companions and the Successors, and every harvested book — sourced records that grow as new texts land."
@@ -4079,6 +4132,51 @@ ubuwwa:
     curated:
       title: "Records about the father"
       desc: "The museum's curated records about fatherhood itself: ubuwwa, the rights of parents and of children, birr, 'uquq, the aqiqa, custody (hadana), paternity and lineage (nasab), and the orphan's kafala."
+umuma:
+  title: "Motherhood in Islam Browser"
+  lede: "Motherhood in the museum's sources: the mother and her standing and the duty owed to her, pregnancy and childbirth, nursing, the custody and raising of children, and the mothers of prophets, Companions and Tabi'in — in the Qur'an, the two Sahihs, the Muwatta and the Sunan, the seerah books, Companion and Tabi'in reports and every harvested book — records with their sources that grow as each new text lands."
+  badge: Motherhood explorer
+  status: "This build holds {n} records in {s} sections; texts are drafts until a human reads them."
+  method_title: How this browser works
+  method_note: "Every record here is an ordinary museum record with its sources and three-language prose. Motherhood mentions are found at build time by a guarded lexicon over the passage texts in six families: the mother and her standing (أمه، أمها، أمهات، والدة، أمومة، أمهات المؤمنين), pregnancy (حامل، حوامل، حملت، وهن على وهن), childbirth (ولادة، ولدت، تلد، مولود، وضعت، مخاض، نفاس), nursing (رضاعة، أرضعت، مرضعة، رضيع، فطام، فصال), custody and raising (حضانة، حاضنة، تربية، فلذة، كفالة اليتيم) and dutifulness to parents (بر، إحسان، صلة الرحم). The ambiguous words are guarded: bare «أم» counts only beside family vocabulary (أم القرى and أم الكتاب excluded), «حمل» counts in the pregnancy sense only beside pregnancy vocabulary (carrying and transport excluded), «ولد» the boy is out and only the birth forms count, «بر» counts only beside parent vocabulary (برّ the land excluded), and verified false positives are excluded by id. Every book harvested later brings its motherhood mentions here automatically; curated records join through the umuma-browser tag; the mothers on record are read from the graph's own child_of edges to female parents."
+  api: "The whole set is available at"
+  sections_title: The browser's sections
+  mothers_title: "Mothers on record"
+  mothers_desc: "Mothers from the museum's own graph: each mother is joined to her child by a sourced child_of edge — mothers of prophets, Companions and Tabi'in and mothers from the books."
+  filter_label: Filter the motherhood records
+  filter_none: No results.
+  empty: No motherhood records in this build yet.
+  topics:
+    umm: "The mother and her standing"
+    haml: "Pregnancy"
+    wilada: "Childbirth"
+    radaa: "Nursing"
+    tarbiya: "Custody and raising"
+    birr: "Dutifulness to parents"
+  sections:
+    quran:
+      title: "In the Qur'an"
+      desc: "Motherhood in the Qur'an: «his mother carried him with hardship upon hardship», «We have enjoined upon man care for his parents», «and your mother», the nursing and weaning verses, the prohibition of marrying mothers, the mother of Moses casting her infant into the river, and Mary and her delivery."
+    sunnah:
+      title: "In the Sunnah"
+      desc: "Motherhood in the two Sahihs, the Muwatta and the Sunan: «your mother, then your mother, then your mother», «Paradise lies beneath mothers' feet», dutifulness to the mother placed ahead, the rulings of pregnancy, delivery, nursing and custody, the mothers of the believers, and every hadith about a mother and her child."
+    seerah:
+      title: "In the Seerah"
+      desc: "What the seerah and history books carry about mothers — Amina bint Wahb the Prophet's mother, Hajar the mother of Isma'il, Sumayya the mother of Ammar, and the mothers of Companions and Tabi'in — and it fills itself as seerah passages are harvested."
+    books:
+      title: "In the harvested books"
+      desc: "Motherhood reports in every other harvested work — fiqh, adab, history, biography and poetry — entering automatically the day their passages land."
+    curated:
+      title: "Curated records on motherhood"
+      desc: "The museum's selected records about the mother, pregnancy, childbirth, nursing, custody and dutifulness themselves: motherhood, pregnancy, childbirth, custody, birr al-umm, the mothers of the believers, the aqiqa and the sponsorship of orphans."
+  viz:
+    title: "The six lines of motherhood"
+    lede: "Six ruled lines, one per motherhood topic — the mother and her standing, pregnancy, childbirth, nursing, custody and raising, and dutifulness to parents — and on each line a disc for every section holding records of that topic, its area in proportion to their number, each disc a link to the section's list below."
+    topic_col: "Topic"
+    total_col: "Total"
+    records: "{n} records"
+    empty_topic: "No records yet"
+    untopiced: "{n} records carry no topic chip (curated records, not passages)."
 nar:
   viz:
     title: "The two abodes, surah by surah"

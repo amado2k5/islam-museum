@@ -4,7 +4,7 @@
  * opposite (بر الوالدين، العقوق), the father raising, teaching and counselling (التربية،
  * الوصية، لقمان), paternity and lineage (النسب)، and the orphan who has lost his father
  * (اليتيم) — from the hadith-api Arabic editions (fawazahmed0/hadith-api, Unlicense) into
- * data/passage/, for the Ubuwwa (Fatherhood) Browser (docs/plan/63-ubuwwa-browser.md).
+ * data/passage/, for the Ubuwwa (Fatherhood) Browser (docs/plan/65-ubuwwa-browser.md).
  * Adapted from scripts/harvest-wasaya-hadithapi.ts.
  *
  * Every candidate is gated by the same detector the browser uses (scripts/ubuwwa.ts): only

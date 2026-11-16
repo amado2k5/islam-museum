@@ -1,4 +1,4 @@
-// The Ubuwwa (Fatherhood) Browser's shared reads (docs/plan/63-ubuwwa-browser.md): which
+// The Ubuwwa (Fatherhood) Browser's shared reads (docs/plan/65-ubuwwa-browser.md): which
 // passage records report or mention the father and fatherhood (الأب والأبوة), the dutifulness
 // owed to the father and the parents (بر الوالدين) and its opposite (العقوق), the father
 // raising and counselling his children (التربية والوصية — يا بني، لقمان), paternity and
@@ -38,6 +38,12 @@ const AR_UBUWWA_NOUN = new RegExp(`${BL}(?:[وبفسك])?(?:ال)?أبوة(?:ه|
  *  is not listed. */
 const AR_AB_POSSESSED = new RegExp(
   `${BL}(?:[وبفسكل])?(?:ال)?(?:أبوه|أبوها|أبوهم|أبوهما|أبوهن|أبوك|أبوكم|أبوكما|أبوكن|أبوي|أبيا|أبونا|أبينا|أبانا|أبيه|أبيها|أبيك|أبيكم|أبيكما|أبيكن|أبويه|أبويها|أبويك|أبويكم|أبويهم|أبائه|أبائها|أبائهم|أبائك|أبائكم|أبائنا|آباء|آباؤه|آباؤها|آباؤهم|آباؤنا|آبائه|آبائها|آبائهم|آبائنا|آبائك|آبائكم|أب الآباء|آبائيا|الآب)(?=$|${E})`);
+/** «أبي» — "my father": a real fatherhood word, but also the genitive of the kunya
+ *  «أبو فلان» in isnads («عن أبي هريرة قال»), so it counts only when the next word is a
+ *  verb or particle of father-speech (مات، قال، أمرني، كان، علمني…), a pronouned verb,
+ *  or the end of the utterance — never when a proper name follows. */
+const AR_ABI = new RegExp(`${BL}أبي(?=$|${E})`, "g");
+const ABI_FOLLOW = new RegExp(`^${B}*(?:مات|ماتت|توفى|توفي|توفاه|قال|قالت|أخبرني|حدثني|أمرني|أعطاني|أعطاه|كان|كانت|أخذ|أخذت|علمني|علمنيّ|رحمه|رحمها|أوصاني|عهد|غفر|رضي|رضى|أراد|أرادت|أرسلني|أدخلني|أخرجني|خرج|دخل|زوجني|رباني|ربى|أنجبني|ولدني|حملني|أبى|فقال|فمات|وهو|وهي|الذي|التي|إلى|الي|عن|من|في|على|إلى|ثم|ف|و)(?=$|${E})`);
 /** The vocatives a father hears: يا أبت/يا أبتِ، يا أبانَ — always addressed to a father. */
 const AR_AB_VOCATIVE = new RegExp(`${BL}يا ?(?:أبت|أبتي|أبتاه|أبان|أبّة|أبة)(?=$|${E})`);
 /** والد — the parent, almost always the father in the singular: possessed, definite, and tanwin
@@ -115,6 +121,10 @@ export function ubuwwaSignalsOfText(rawText: string): string[] {
   if (has(AR_UBUWWA_NOUN)) hits.add("ubuwwa_noun");
   if (has(AR_AB_POSSESSED)) hits.add("ab_possessed");
   if (has(AR_AB_VOCATIVE)) hits.add("ab_vocative");
+  for (const m of raw.matchAll(AR_ABI)) {
+    const after = raw.slice(m.index! + m[0].length, m.index! + m[0].length + 35);
+    if (!after.replace(new RegExp(`${B}*$`), "").length || ABI_FOLLOW.test(after)) { hits.add("ab_possessed"); break; }
+  }
   if (has(AR_WALID)) hits.add("walid");
   for (const m of raw.matchAll(AR_YA_BUNAYYA)) {
     if (YA_BUNAYYA_FALSE.test(raw.slice(0, m.index! + m[0].length + 20).slice(Math.max(0, m.index! - 40)))) continue;

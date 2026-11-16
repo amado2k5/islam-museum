@@ -1,6 +1,6 @@
 # Ubuwwa Browser — engineering requirements (acceptance spec)
 
-Spec 55 · plan `docs/plan/63-ubuwwa-browser.md` · built 16 Nov 2026
+Spec 55 · plan `docs/plan/65-ubuwwa-browser.md` · built 16 Nov 2026
 
 ## Original requirement (verbatim, founder request 16 Nov 2026)
 

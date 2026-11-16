@@ -1,6 +1,6 @@
 # Ubuwwa Browser — Fatherhood in Islam (متصفح الأبوة في الإسلام)
 
-Plan 63 · requested 16 Nov 2026 (founder, in chat — the approved proposal) · built 16 Nov 2026 · spec `docs/engineering/55-ubuwwa-browser-requirements.md`
+Plan 65 · requested 16 Nov 2026 (founder, in chat — the approved proposal) · built 16 Nov 2026 · spec `docs/engineering/57-ubuwwa-browser-requirements.md`
 
 ## What it is
 
