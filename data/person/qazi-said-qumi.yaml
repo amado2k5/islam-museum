@@ -29,6 +29,27 @@ died:
   status: debated
   sources: [source/iranica-qazi-said-qomi, source/wikipedia-fa-qazi-said-qumi, source/wikinoor-qazi-said-qumi]
   note: "The death date is genuinely unsettled and all readings are preserved. The draft stub and the queue gave 1692, following the 1103 AH reading in al-Dhari'a which WikiNoor also records (alongside 1100 AH); the English article gives 18 Ramadan 1691; the Persian article says only that he died in Qom between 1100 and 1107 AH. Encyclopaedia Iranica shows, from the dated completion of the third volume of his Tawhid commentary on 18 Ramadan 1107 / 20 April 1696, that he was still alive then; 1696 is therefore the earliest defensible year and is recorded here, with the earlier readings left standing in this note."
+occupations:
+  - job: job/poet
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'poet', Job Browser linking wave"
+    sources: [source/wikipedia-qazi-said-qomi, source/wikipedia-fa-qazi-said-qumi, source/iranica-qazi-said-qomi, source/wikinoor-qazi-said-qumi, source/wikidata-qazi-said-qumi, source/al-aalam]
+  - job: job/physician
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'physician', Job Browser linking wave"
+    sources: [source/wikipedia-qazi-said-qomi, source/wikipedia-fa-qazi-said-qumi, source/iranica-qazi-said-qomi, source/wikinoor-qazi-said-qumi, source/wikidata-qazi-said-qumi, source/al-aalam]
+  - job: job/philosopher
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'philosopher', Job Browser linking wave"
+    sources: [source/wikipedia-qazi-said-qomi, source/wikipedia-fa-qazi-said-qumi, source/iranica-qazi-said-qomi, source/wikinoor-qazi-said-qumi, source/wikidata-qazi-said-qumi, source/al-aalam]
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'jurist', Job Browser linking wave"
+    sources: [source/wikipedia-qazi-said-qomi, source/wikipedia-fa-qazi-said-qumi, source/iranica-qazi-said-qomi, source/wikinoor-qazi-said-qumi, source/wikidata-qazi-said-qumi, source/al-aalam]
 relations:
   - {type: student_of, target: person/fayz-kashani, sources: [source/iranica-qazi-said-qomi, source/wikipedia-fa-qazi-said-qumi]}
   - {type: born_in, target: place/qumm, sources: [source/iranica-qazi-said-qomi]}

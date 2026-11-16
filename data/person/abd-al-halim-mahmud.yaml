@@ -31,6 +31,22 @@ died:
   derived: false
   note: "Died at Cairo on 17 October 1978; the Urdu article pairs the date with 14 Dhu al-Qa'da 1398 AH, so the Hijri year is sourced, not derived."
   sources: [source/wikipedia-abd-al-halim-mahmud-en, source/wikipedia-abd-al-halim-mahmud-ar, source/wikipedia-abd-al-halim-mahmud-ur, source/wikidata-abd-al-halim-mahmud]
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave"
+    sources: [source/wikipedia-abd-al-halim-mahmud-en, source/wikipedia-abd-al-halim-mahmud-ar, source/wikipedia-abd-al-halim-mahmud-ur, source/wikipedia-abd-al-halim-mahmud-fr, source/wikidata-abd-al-halim-mahmud, source/wikidata]
+  - job: job/mutakallim
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'theologian', Job Browser linking wave"
+    sources: [source/wikipedia-abd-al-halim-mahmud-en, source/wikipedia-abd-al-halim-mahmud-ar, source/wikipedia-abd-al-halim-mahmud-ur, source/wikipedia-abd-al-halim-mahmud-fr, source/wikidata-abd-al-halim-mahmud, source/wikidata]
+  - job: job/philosopher
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'philosopher', Job Browser linking wave"
+    sources: [source/wikipedia-abd-al-halim-mahmud-en, source/wikipedia-abd-al-halim-mahmud-ar, source/wikipedia-abd-al-halim-mahmud-ur, source/wikipedia-abd-al-halim-mahmud-fr, source/wikidata-abd-al-halim-mahmud, source/wikidata]
 relations:
   - { type: died_in, target: place/cairo, note: "Died at Cairo (English and Arabic article infoboxes; Wikidata gives Cairo as place of death).", sources: [source/wikipedia-abd-al-halim-mahmud-en, source/wikipedia-abd-al-halim-mahmud-ar, source/wikidata-abd-al-halim-mahmud] }
 faith:

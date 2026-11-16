@@ -13,6 +13,27 @@ regions: [levant-iraq]
 periods: [period/colonial-era]
 born: { edtf: "1836", hijri: "1252", precision: year, status: tradition, derived: true, note: "al-Zirikli, al-A'lam, vol. 8 p. 42, prints 1252 AH = 1836 CE, agreeing with the card.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 died: { edtf: "1899", hijri: "1317", precision: year, status: tradition, derived: true, note: "al-Zirikli, al-A'lam, vol. 8 p. 42, prints 1317 AH = 1899 CE, agreeing with the card.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+occupations:
+  - job: job/preacher
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'preacher', Job Browser linking wave"
+    sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
+  - job: job/qadi
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'qadi', Job Browser linking wave"
+    sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
+  - job: job/mufassir
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'mufassir', Job Browser linking wave"
+    sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'jurist', Job Browser linking wave"
+    sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 relations:
   - { type: born_in, target: place/baghdad, sources: [source/alam-zirikli-dar-al-ilm-2002, source/wikidata], confidence: high, note: "al-Zirikli, al-A'lam, vol. 8 p. 42: born and raised in Baghdad" }
   - { type: died_in, target: place/baghdad, sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high, note: "al-Zirikli, vol. 8 p. 42: died in Baghdad" }

@@ -24,6 +24,27 @@ faith:
     basis: documented
     note: "The obituary in Aja'ib al-athar opens by calling him 'the philosopher of Islam' and the authority of his age in Abu Hanifa's law, describes him as a Hanafi among the scholars of al-Azhar, and reports that the Muslims of the land of Jabart follow the Hanafi and Shafi'i schools; no other tradition is attested for him."
     sources: [source/ajaib-al-athar-moreh-2013-v1]
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave"
+    sources: [source/al-aalam, source/ajaib-al-athar-moreh-2013-v1, source/arabicgenius-ajaib-al-athar, source/wikidata]
+  - job: job/astronomer
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'astronomer', Job Browser linking wave"
+    sources: [source/al-aalam, source/ajaib-al-athar-moreh-2013-v1, source/arabicgenius-ajaib-al-athar, source/wikidata]
+  - job: job/mathematician
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'mathematician', Job Browser linking wave"
+    sources: [source/al-aalam, source/ajaib-al-athar-moreh-2013-v1, source/arabicgenius-ajaib-al-athar, source/wikidata]
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'jurist', Job Browser linking wave"
+    sources: [source/al-aalam, source/ajaib-al-athar-moreh-2013-v1, source/arabicgenius-ajaib-al-athar, source/wikidata]
 relations:
   - { type: born_in, target: place/zeila, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: buried_in, target: place/cairo, sources: [source/ajaib-al-athar-moreh-2013-v1] }

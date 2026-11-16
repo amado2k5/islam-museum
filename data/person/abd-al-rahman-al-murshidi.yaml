@@ -26,6 +26,22 @@ status:
   completeness: 3
 born: { edtf: "1568", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Khulasat al-Athar (al-Muhibbi: 975–1037 AH). Entry in al-A'lam: 975 AH = 1567 CE; 975 AH runs from June 1567 to June 1568, so the card's year is kept. Agrees with Wikidata Q57268563 (P569, a statement without a reference), item revision 2540770782, read on 13 November 2026.", sources: [source/wikidata] }
 died: { edtf: "1628", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Khulasat al-Athar (al-Muhibbi: 975–1037 AH) Agrees with Wikidata Q57268563 (P570, a statement without a reference), item revision 2540770782, read on 13 November 2026.", sources: [source/wikidata] }
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave"
+    sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
+  - job: job/poet
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'poet', Job Browser linking wave"
+    sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
+  - job: job/mufti
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'mufti', Job Browser linking wave"
+    sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 relations:
   - { type: lived_in, target: place/hijaz, note: "Place association from the person's nisba/name (حجازي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
   - { type: born_in, target: place/mecca, note: "al-Zirikli, al-A'lam, vol. 3 p. 321: born in Mecca", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }

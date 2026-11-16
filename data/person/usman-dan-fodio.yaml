@@ -41,6 +41,27 @@ died:
   note: "Died at Sokoto. The English article gives 20 April 1817; Wikidata carries both the bare year 1817 and the day value 20 April 1817, and Britannica gives 1817 at Sokoto. The Hijri year 1232 is the tabular conversion, marked derived. No place entity for Sokoto exists in the museum, so the place of death is carried in this note only."
   sources: [source/wikipedia-usman-dan-fodio-en, source/wikidata-usman-dan-fodio, source/britannica-usman-dan-fodio]
 
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave"
+    sources: [source/wikipedia-usman-dan-fodio-en, source/wikipedia-usman-dan-fodio-ar, source/wikipedia-usman-dan-fodio-ur, source/wikidata-usman-dan-fodio, source/britannica-usman-dan-fodio]
+  - job: job/poet
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'poet', Job Browser linking wave"
+    sources: [source/wikipedia-usman-dan-fodio-en, source/wikipedia-usman-dan-fodio-ar, source/wikipedia-usman-dan-fodio-ur, source/wikidata-usman-dan-fodio, source/britannica-usman-dan-fodio]
+  - job: job/caliph
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'caliph', Job Browser linking wave"
+    sources: [source/wikipedia-usman-dan-fodio-en, source/wikipedia-usman-dan-fodio-ar, source/wikipedia-usman-dan-fodio-ur, source/wikidata-usman-dan-fodio, source/britannica-usman-dan-fodio]
+  - job: job/mutakallim
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'theologian', Job Browser linking wave"
+    sources: [source/wikipedia-usman-dan-fodio-en, source/wikipedia-usman-dan-fodio-ar, source/wikipedia-usman-dan-fodio-ur, source/wikidata-usman-dan-fodio, source/britannica-usman-dan-fodio]
 relations:
   - { type: ruled_over, target: polity/sokoto-caliphate, sources: [source/britannica-usman-dan-fodio, source/wikipedia-usman-dan-fodio-en] }
   - { type: sibling_of, target: person/abdullahi-dan-fodio, sources: [source/wikipedia-usman-dan-fodio-en, source/britannica-usman-dan-fodio] }

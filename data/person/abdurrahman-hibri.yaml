@@ -37,6 +37,22 @@ died:
   note: "Died at Edirne and was buried in the family cemetery in the Yıldırım quarter. The tombstone gives only the year 1069 AH, which spans 1658–1659; the TDV entry computes 1659, since he took the Edirne Dârülhadis post in 1658 and died the following year, while the German article gives 1658 or 1659. The TDV entry also shows how Şeyhî confused his posts and dates with those of Abdülkadir Efendi (d. 1087/1676), whose death year some researchers wrongly took for Hibri's; that reading is not followed."
   sources: [source/dia-hibri, source/wikipedia-abdurrahman-hibri-de]
 
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave"
+    sources: [source/wikipedia-abdurrahman-hibri-de, source/dia-hibri, source/wikidata-abdurrahman-hibri, source/wikidata]
+  - job: job/poet
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'poet', Job Browser linking wave"
+    sources: [source/wikipedia-abdurrahman-hibri-de, source/dia-hibri, source/wikidata-abdurrahman-hibri, source/wikidata]
+  - job: job/historian
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'historian', Job Browser linking wave"
+    sources: [source/wikipedia-abdurrahman-hibri-de, source/dia-hibri, source/wikidata-abdurrahman-hibri, source/wikidata]
 relations:
   - { type: lived_in, target: place/edirne, note: "From text: درس في أدرنة وإسطنبول وقضى حياته مدرّ", sources: [source/wikipedia-abdurrahman-hibri-de, source/dia-hibri, source/wikidata-abdurrahman-hibri] }
   - { type: born_in, target: place/edirne, sources: [source/dia-hibri, source/wikipedia-abdurrahman-hibri-de] }
