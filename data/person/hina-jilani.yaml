@@ -21,6 +21,12 @@ born:
   derived: true
   note: "Born at Lahore; the English article (citing the Women's Year Book of Pakistan, 1989) and Wikidata give 19 December 1953, while the Arabic and Urdu articles give the year 1953 only. The Hijri year (1373) is derived by tabular conversion."
   sources: [source/wikipedia-hina-jilani-en, source/wikidata-hina-jilani]
+occupations:
+  - job: job/lawyer
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'lawyer', Job Browser linking wave"
+    sources: [source/wikipedia-hina-jilani-en, source/wikipedia-hina-jilani-ar, source/wikipedia-hina-jilani-ur, source/wikidata-hina-jilani, source/wikidata]
 relations:
   - { type: born_in, target: place/lahore, sources: [source/wikipedia-hina-jilani-en, source/wikidata-hina-jilani] }
 faith:

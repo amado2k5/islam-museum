@@ -15,6 +15,17 @@ regions: [southeast-asia]
 roles: [politician, lawyer, teacher, writer]
 born: { edtf: "1914-08-01", calendar: gregorian, precision: day, status: historical, derived: false, note: "Born on 1 August 1914 at Ditsaan-Ramain, Lanao del Sur (English article and Wikidata); the prize's page gives the same day at Marawi. Both places are reported.", sources: [source/wikipedia-ahmad-domocao-alonto-en, source/wikidata-ahmad-domocao-alonto, source/king-faisal-prize-laureates] }
 died: { edtf: "2002-12-11", calendar: gregorian, precision: day, status: historical, derived: false, note: "Died at home in Marawi after a brief illness with cancer (English article; Wikidata gives the same day and place).", sources: [source/wikipedia-ahmad-domocao-alonto-en, source/wikidata-ahmad-domocao-alonto] }
+occupations:
+  - job: job/lawyer
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'lawyer', Job Browser linking wave"
+    sources: [source/wikipedia-ahmad-domocao-alonto-en, source/wikidata-ahmad-domocao-alonto, source/king-faisal-prize-laureates, source/wikidata]
+  - job: job/teacher
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'teacher', Job Browser linking wave"
+    sources: [source/wikipedia-ahmad-domocao-alonto-en, source/wikidata-ahmad-domocao-alonto, source/king-faisal-prize-laureates, source/wikidata]
 relations:
   - { type: lived_in, target: place/philippines, sources: [source/wikipedia-ahmad-domocao-alonto-en] }
 faith:

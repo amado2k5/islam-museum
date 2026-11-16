@@ -36,6 +36,17 @@ died:
   derived: true
   note: "Died at Istanbul on 1 November 1958: the English, Turkish and Arabic articles agree. Wikidata carries two death values, 1 and 2 November 1958; the record follows the articles' 1 November and states the second value here. The Hijri year 1378 is the tabular conversion of 1 November 1958 (18 Rabi al-Thani 1378) and is marked derived."
   sources: [source/wikipedia-yahya-kemal-beyatli-en, source/wikipedia-yahya-kemal-beyatli-tr, source/wikipedia-yahya-kemal-beyatli-ar, source/wikidata-yahya-kemal-beyatli]
+occupations:
+  - job: job/poet
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'poet', Job Browser linking wave"
+    sources: [source/wikipedia-yahya-kemal-beyatli-en, source/wikipedia-yahya-kemal-beyatli-tr, source/wikipedia-yahya-kemal-beyatli-ar, source/wikipedia-yahya-kemal-beyatli-ur, source/wikidata-yahya-kemal-beyatli]
+  - job: job/diplomat
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'diplomat', Job Browser linking wave"
+    sources: [source/wikipedia-yahya-kemal-beyatli-en, source/wikipedia-yahya-kemal-beyatli-tr, source/wikipedia-yahya-kemal-beyatli-ar, source/wikipedia-yahya-kemal-beyatli-ur, source/wikidata-yahya-kemal-beyatli]
 relations:
   - { type: died_in, target: place/istanbul, note: "He died at Istanbul on 1 November 1958 (English, Turkish and Arabic articles; Wikidata place of death Istanbul, Q406).", sources: [source/wikipedia-yahya-kemal-beyatli-en, source/wikidata-yahya-kemal-beyatli] }
   - { type: lived_in, target: place/istanbul, sources: [source/wikipedia-yahya-kemal-beyatli-en, source/wikipedia-yahya-kemal-beyatli-tr, source/wikipedia-yahya-kemal-beyatli-ar, source/wikipedia-yahya-kemal-beyatli-ur, source/wikidata-yahya-kemal-beyatli] }
