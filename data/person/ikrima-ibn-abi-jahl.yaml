@@ -117,6 +117,12 @@ faith:
   note: Late convert under the Prophet's general amnesty.
   sources:
   - source/ibn-sad-tabaqat-bewley
+occupations:
+  - job: job/commander
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'general', Job Browser linking wave 48"
+    sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley, source/tabari-donner-1993, source/mubarakpuri-raheeq, source/ibn-hisham-saqqa, source/ibn-hajar-isaba]
 relations:
 - { type: born_in, target: place/mecca, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 - { type: died_in, target: place/yarmuk, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

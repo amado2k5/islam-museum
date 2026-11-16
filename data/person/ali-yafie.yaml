@@ -26,5 +26,11 @@ provenance:
 status:
   review: draft
   completeness: 1
+occupations:
+  - job: job/mufti
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'mufti', Job Browser linking wave 48"
+    sources: [source/al-aalam, source/wikidata]
 relations:
   - { type: lived_in, target: place/indonesia, note: "From text: Indonesian (nationality adjective); broad association, flagged for review.", sources: [source/al-aalam], confidence: low }
