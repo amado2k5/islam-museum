@@ -29,6 +29,12 @@ story_roles:
   - { role: commander, toward: polity/rashidun-caliphate, start: { edtf: "0636~" }, end: { edtf: "0645~" }, status: historical, note: "Commanded at al-Qadisiyya, then governed Iraq and founded Kufa.", sources: [source/tabari-donner-1993, source/ibn-sad-tabaqat-bewley] }
 faith:
   - { value: sunni, basis: tradition, note: "Early Muslim; recorded under the museum's Sunni frame (docs/scope.md)." }
+occupations:
+  - job: job/commander
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'general', Job Browser linking wave 22"
+    sources: [source/ibn-sad-tabaqat-bewley, source/tabari-donner-1993, source/sahih-al-bukhari, source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/sahih-muslim, source/ibn-hajar-isaba, source/assabile-omar-abdelkafy, source/assabile-abu-ishaq-alheweny, source/assabile-mosaad-anwar, source/encyclopaedia-of-islam-2]
 relations:
   - { type: born_in, target: place/mecca }
   - { type: died_in, target: place/medina }

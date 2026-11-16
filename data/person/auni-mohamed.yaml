@@ -20,6 +20,17 @@ born:
   status: historical
   note: "Date and place from two Malaysian biodata profiles (eCentral, 2024; iLabur, updated 2025): born in Pasir Mas, Kelantan. No Pasir Mas place record exists in the graph, so the birth relation uses the state record, place/kelantan."
   sources: [source/ecentral-auni-mohamed, source/ilabur-auni-mohamed]
+occupations:
+  - job: job/preacher
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'preacher', Job Browser linking wave 22"
+    sources: [source/ecentral-auni-mohamed, source/ilabur-auni-mohamed, source/facebook-auni-mohamed-official, source/facebook-auni-mohamed-profile]
+  - job: job/teacher
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'teacher', Job Browser linking wave 22"
+    sources: [source/ecentral-auni-mohamed, source/ilabur-auni-mohamed, source/facebook-auni-mohamed-official, source/facebook-auni-mohamed-profile]
 relations:
   - { type: born_in, target: place/kelantan, sources: [source/ecentral-auni-mohamed, source/ilabur-auni-mohamed] }
   - { type: lived_in, target: place/penang, sources: [source/ecentral-auni-mohamed, source/ilabur-auni-mohamed] }

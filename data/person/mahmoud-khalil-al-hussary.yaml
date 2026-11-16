@@ -32,6 +32,17 @@ died:
   derived: false
   note: "Died on Monday evening 16 Muharram 1401 AH, 24 November 1980 (Arabic article pairs the dates); the English infobox places his death at Cairo."
   sources: [source/wikipedia-mahmoud-khalil-al-hussary-ar, source/wikipedia-mahmoud-khalil-al-hussary-en, source/wikidata-mahmoud-khalil-al-hussary]
+occupations:
+  - job: job/qari
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'reciter', Job Browser linking wave 22"
+    sources: [source/wikipedia-mahmoud-khalil-al-hussary-en, source/wikipedia-mahmoud-khalil-al-hussary-ar, source/wikipedia-mahmoud-khalil-al-hussary-ur, source/wikipedia-mahmoud-khalil-al-hussary-fr, source/wikidata-mahmoud-khalil-al-hussary]
+  - job: job/alim
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 22"
+    sources: [source/wikipedia-mahmoud-khalil-al-hussary-en, source/wikipedia-mahmoud-khalil-al-hussary-ar, source/wikipedia-mahmoud-khalil-al-hussary-ur, source/wikipedia-mahmoud-khalil-al-hussary-fr, source/wikidata-mahmoud-khalil-al-hussary]
 relations:
   - { type: died_in, target: place/misr, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mahmoud-khalil-al-hussary] }
   - { type: died_in, target: place/cairo, note: "The English infobox gives Cairo as his place of death; the Arabic article gives Egypt.", sources: [source/wikipedia-mahmoud-khalil-al-hussary-en, source/wikipedia-mahmoud-khalil-al-hussary-ar] }

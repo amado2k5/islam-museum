@@ -20,6 +20,17 @@ faith:
 roles: [preacher, teacher]
 wings: [people, living]
 regions: [south-asia]
+occupations:
+  - job: job/preacher
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'preacher', Job Browser linking wave 22"
+    sources: [source/dawateislami-ilyas-qadri-founder, source/dawateislami-ubaid-europe, source/dawateislami-ubaid-holland, source/dawateislami-ubaid-channel-description, source/vidiq-ubaid-raza-attari]
+  - job: job/teacher
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'teacher', Job Browser linking wave 22"
+    sources: [source/dawateislami-ilyas-qadri-founder, source/dawateislami-ubaid-europe, source/dawateislami-ubaid-holland, source/dawateislami-ubaid-channel-description, source/vidiq-ubaid-raza-attari]
 relations:
   - { type: lived_in, target: place/pakistan, sources: [source/dawateislami-ilyas-qadri-founder, source/dawateislami-ubaid-europe, source/dawateislami-ubaid-holland, source/dawateislami-ubaid-channel-description, source/vidiq-ubaid-raza-attari] }
   - type: child_of

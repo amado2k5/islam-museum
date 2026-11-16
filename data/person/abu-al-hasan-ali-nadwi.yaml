@@ -17,6 +17,17 @@ summary:
 wings: [people]
 regions: [south-asia]
 periods: [period/contemporary-era]
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 22"
+    sources: [source/al-sira-al-nabawiyya-nadwi-ibn-kathir-2004, source/wikipedia-king-faisal-prize-en]
+  - job: job/teacher
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'teacher', Job Browser linking wave 22"
+    sources: [source/al-sira-al-nabawiyya-nadwi-ibn-kathir-2004, source/wikipedia-king-faisal-prize-en]
 relations:
   - { type: authored, target: work/al-sira-al-nabawiyya-nadwi, sources: [source/al-sira-al-nabawiyya-nadwi-ibn-kathir-2004] }
   - { type: student_of, target: person/husain-ahmad-madani, sources: [source/al-sira-al-nabawiyya-nadwi-ibn-kathir-2004], note: "حضر دروسه في البخاري والترمذي في ديوبند، ص 28" }
