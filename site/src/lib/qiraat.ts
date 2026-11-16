@@ -85,7 +85,8 @@ export const qiraatChains: QiraatChain[] = QIRAAT_IMAMS.map((id) => {
 
 /** The date a curated record is placed at on the timeline: a person's death, else the record's own start date. */
 const placedDate = (n: Node): any => n.data.died ?? n.data.date?.start ?? n.data.date ?? n.data.start ?? n.data.composed ?? n.data.made ?? n.data.born ?? n.data.floruit;
-const yearOfEdtf = (d: any): number | undefined => { const m = typeof d?.edtf === "string" ? d.edtf.match(/^-?\d{1,4}/) : null; return m ? Number(m[0]) : undefined; };
+/** The year of an EDTF date; an unspecified decade or century ("06XX") is placed at its start. A year before the common era is not placed. */
+const yearOfEdtf = (d: any): number | undefined => { const m = typeof d?.edtf === "string" ? d.edtf.match(/^(\d{2}[\dX]{2})/) : null; return m ? Number(m[1].replace(/X/g, "0")) || undefined : undefined; };
 export interface QiraatDated { node: Node; section: QiraatSection; year: number; date: any }
 /** Curated records with a date, oldest first; undated ones are counted by the timeline, not placed. */
 export const qiraatDated: QiraatDated[] = qiraatItems

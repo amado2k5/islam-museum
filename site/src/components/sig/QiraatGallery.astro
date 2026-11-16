@@ -37,7 +37,7 @@ const rooms: { id: string; title: string; lede: string; rows: QiraatShown[]; per
   <div data-pagefind-body>
     <h2 id="qg-title">{V.title}</h2>
     <p class="qg-lede">{V.lede}</p>
-    <p class="ui qg-count">{fmt(V.count, { n: num(images, lang), s: num(scripts.length, lang) })}</p>
+    {scripts.length > 0 && <p class="ui qg-count">{fmt(V.count, { n: num(images, lang), s: num(scripts.length, lang) })}</p>}
   </div>
 
   {scripts.length > 1 && (
