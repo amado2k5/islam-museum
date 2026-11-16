@@ -36,6 +36,7 @@ open a new block on top with the new version and today's date.
 
 ### Fixed
 - 3D tour: the stops for the shahada, the five pillars and the hajj now list the Oxford Dictionary of Islam among their sources, as the records themselves do since the Oxford Islamic Studies enrichment, so the tour's source check passes again.
+- Wa Nalqa al-Ahibba series record: the links in the Arabic, English and Urdu texts are now identical in every episode section. Episode 1 now links Sa'd ibn Abi Waqqas and Umar in Arabic too, and the English and Urdu link to Sa'd now points at his real page; episode 11 now links Ibn Umar at the same place in English as in Arabic and Urdu.
 
 ## v1.58.0 — 2026-11-16
 ### Added
