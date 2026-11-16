@@ -12,6 +12,17 @@ periods: [period/abbasid-early]
 regions: [levant-iraq]
 born: { edtf: "0776~", hijri: "0160", calendar: julian, precision: year, status: tradition, derived: true, note: "ولدت سنة 160هـ؛ التحويل مشتق {cite:alam-al-nisa-kahhala-risala-1984-v3 p.338}", sources: [source/alam-al-nisa-kahhala-risala-1984-v3] }
 died: { edtf: "0825~", hijri: "0210", calendar: julian, precision: year, status: tradition, derived: true, note: "توفيت سنة 210هـ وصلى عليها المأمون؛ التحويل مشتق {cite:alam-al-nisa-kahhala-risala-1984-v3 p.345}", sources: [source/alam-al-nisa-kahhala-risala-1984-v3] }
+occupations:
+  - job: job/poet
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'poet', Job Browser linking wave 20"
+    sources: [source/alam-al-nisa-kahhala-risala-1984-v3, source/openiti-corpus]
+  - job: job/musician
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'musician', Job Browser linking wave 20"
+    sources: [source/alam-al-nisa-kahhala-risala-1984-v3, source/openiti-corpus]
 relations:
   - { type: child_of, target: person/al-mahdi, sources: [source/alam-al-nisa-kahhala-risala-1984-v3] }
   - { type: sibling_of, target: person/harun-al-rashid, sources: [source/alam-al-nisa-kahhala-risala-1984-v3] }

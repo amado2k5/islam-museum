@@ -14,6 +14,12 @@ regions: [egypt-nile]
 roles: [munshid, singer]
 born: { edtf: "1939", calendar: gregorian, precision: year, status: historical, derived: false, note: "Born at Salwa Bahari village, Aswan governorate, to a family of the Ja'afira tribe (Arabic article; Wikidata gives 1939).", sources: [source/wikipedia-ahmad-barrin-ar, source/wikidata-ahmad-barrin] }
 died: { edtf: "2015-07-01", calendar: gregorian, precision: day, status: historical, derived: false, note: "The Arabic article gives 1 July 2015, citing al-Shorouk's obituary of that day; its infobox places the death at al-Dayr, Luxor governorate; Wikidata gives 2015.", sources: [source/wikipedia-ahmad-barrin-ar, source/wikidata-ahmad-barrin] }
+occupations:
+  - job: job/singer
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'singer', Job Browser linking wave 20"
+    sources: [source/wikipedia-ahmad-barrin-ar, source/wikidata-ahmad-barrin]
 relations:
   - { type: born_in, target: place/aswan, note: "Salwa Bahari village", sources: [source/wikipedia-ahmad-barrin-ar] }
   - { type: lived_in, target: place/esna, note: "al-Dayr village, Esna", sources: [source/wikipedia-ahmad-barrin-ar] }

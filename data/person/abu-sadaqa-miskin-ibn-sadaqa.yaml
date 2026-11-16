@@ -22,5 +22,11 @@ status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (Nihay
 provenance: { layer: pd, source: "archive.org nefa04 (Nihayat al-Arab vol. 4), pages 48-50", generated_by: "Claude Haiku 5.5", model: "claude-haiku-5-5", run: "lib-nihayat-batch-06" }
 born: { edtf: "780~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Baghdad" }
 died: { edtf: "820~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh Baghdad" }
+occupations:
+  - job: job/singer
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'singer', Job Browser linking wave 20"
+    sources: [source/nihayat-al-arab-nuwayri-vol4-scan]
 relations:
   - { type: lived_in, target: place/medina, note: "Place association from the person's nisba/name (مدني); denotes association, not proven residence.", sources: [source/nihayat-al-arab-nuwayri-vol4-scan], confidence: low }

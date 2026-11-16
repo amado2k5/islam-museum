@@ -33,5 +33,11 @@ provenance:
   generated_by: "Muse (Muse Spark 1.3)"
   run: modern-figures-batch-5
 status: { review: published, completeness: 3, generated_by: "Muse (Muse Spark 1.3)" }
+occupations:
+  - job: job/musician
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'musician', Job Browser linking wave 20"
+    sources: [source/wikipedia-muslim-rapper-ar]
 relations:
   - { type: born_in, target: place/tanja, confidence: low, note: "Place named in the record's date note; the specific connection is as stated there.", sources: [source/wikipedia-muslim-rapper-ar] }

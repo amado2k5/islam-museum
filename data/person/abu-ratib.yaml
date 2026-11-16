@@ -14,6 +14,12 @@ wings: [people, living]
 regions: [levant-iraq]
 roles: [munshid, singer]
 born: { edtf: "1962", calendar: gregorian, precision: year, status: historical, derived: false, note: "Born in Aleppo (Arabic article and Wikidata; the article's categories also list 1963).", sources: [source/wikipedia-abu-ratib-ar, source/wikidata-abu-ratib] }
+occupations:
+  - job: job/singer
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'singer', Job Browser linking wave 20"
+    sources: [source/wikipedia-abu-ratib-ar, source/wikidata-abu-ratib]
 relations:
   - { type: born_in, target: place/aleppo, sources: [source/wikipedia-abu-ratib-ar, source/wikidata-abu-ratib] }
 faith:
