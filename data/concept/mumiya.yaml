@@ -1,0 +1,23 @@
+id: concept/mumiya
+class: concept
+kind: natural
+label:
+  ar: "موميا"
+  en: "Mumiya (a bituminous drug)"
+  ur: "مومیا"
+summary:
+  ar: "موميا في قوة الزفت والقفر المخلوطين وطبيعتهما إلا أنه بالغ واسع المنفعة، حار في الثالثة لطيف محلل، وتذكر الكتب له منافع كثيرة في الجبر والفالج والصداع والسعال والمعدة والكبد وقروح المثانة {cite:canon-ibn-sina-print-v1 p.565}."
+  en: "Mumiya is in the force and nature of pitch and bitumen mixed, but extreme and wide in benefit; hot in the third degree, fine and dissolving, the book lists many uses for it in broken bones, palsy, headache, cough, stomach, liver and ulcers of the bladder {cite:canon-ibn-sina-print-v1 p.565}."
+  ur: "مومیا قوت اور طبیعت میں ملے ہوئے رال اور قیر کے مانند ہے مگر بہت شدید اور وسیع فائدے والا؛ تیسرے درجے میں گرم، لطیف اور تحلیل کرنے والا، اور کتاب اس کے بہت سے فائدے گناتی ہے: ٹوٹی ہڈی، فالج، سر درد، کھانسی، معدہ، جگر اور مثانے کے زخم {cite:canon-ibn-sina-print-v1 p.565}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter mim, scan pages 564-565, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json) and checked by eye against the page images for scan 562 and 563; editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen and desire reports kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-18
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

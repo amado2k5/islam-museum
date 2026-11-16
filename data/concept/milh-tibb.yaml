@@ -1,0 +1,23 @@
+id: concept/milh-tibb
+class: concept
+kind: natural
+label:
+  ar: "ملح"
+  en: "Milh (salt as a drug)"
+  ur: "نمک"
+summary:
+  ar: "الملح معروف في الكتاب، حار يابس في الثانية وكل ما كان أمر فهو أحر، جلاء محلل قابض مجفف، وقبضه أشد أفعاله، يمنع العفونة، ويذكر له الكتاب منافع كثيرة للجلد والجراح والمفاصل والعين والصدر والمعدة والإسهال والسموم {cite:canon-ibn-sina-print-v1 p.572}."
+  en: "Milh, salt, which the book calls well known, is hot and dry in the second degree and the more bitter the hotter, cleansing, dissolving, astringent and drying, its astringency its strongest act, and it prevents putrefaction; the book lists many uses for the skin, wounds, joints, eye, chest, stomach, purging and poisons {cite:canon-ibn-sina-print-v1 p.572}."
+  ur: "ملح کتاب میں معروف ہے، دوسرے درجے میں گرم خشک اور جو جتنا کڑوا ہو اتنا زیادہ گرم، جلا دینے والا، تحلیل کرنے والا، قابض اور خشک کرنے والا، جس کی قبض اس کا سب سے سخت فعل ہے، اور یہ سڑاند روکتا ہے؛ کتاب جلد، زخموں، جوڑوں، آنکھ، سینے، معدے، جلاب اور زہروں کے لیے اس کے بہت سے فائدے گناتی ہے {cite:canon-ibn-sina-print-v1 p.572}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter mim, scan pages 571-572, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json) and checked by eye against the page images for scan 562 and 563; editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen and desire reports kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-18
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

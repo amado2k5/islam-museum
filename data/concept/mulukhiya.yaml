@@ -1,0 +1,23 @@
+id: concept/mulukhiya
+class: concept
+kind: natural
+label:
+  ar: "ملوخيا"
+  en: "Mulukhiya (the mallow)"
+  ur: "ملوخیا"
+summary:
+  ar: "الملوخيا هي الخبازي، وقد استقصى الكتاب ذكرها في فصل الخاء، باردة في الأولى رطبة في الثانية، وقيل إنها تفتح سدد الكبد {cite:canon-ibn-sina-print-v1 p.572}."
+  en: "Mulukhiya is the mallow, which the book treats at length under the letter kha, cold in the first degree and moist in the second, and said to open obstructions of the liver {cite:canon-ibn-sina-print-v1 p.572}."
+  ur: "ملوخیا خبازی ہے جس کا ذکر کتاب نے حرفِ خا میں تفصیل سے کر دیا ہے، پہلے درجے میں ٹھنڈی اور دوسرے میں تر، اور کہا گیا ہے کہ جگر کی رکاوٹیں کھولتی ہے {cite:canon-ibn-sina-print-v1 p.572}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter mim, scan pages 572, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json) and checked by eye against the page images for scan 562 and 563; editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen and desire reports kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-18
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

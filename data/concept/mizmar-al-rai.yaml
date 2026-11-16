@@ -1,0 +1,23 @@
+id: concept/mizmar-al-rai
+class: concept
+kind: natural
+label:
+  ar: "مزمار الراعي"
+  en: "Mizmar al-ra'i (the shepherd's pipe)"
+  ur: "مزمار الراعی"
+summary:
+  ar: "مزمار الراعي نبات جلاء يحلل الأورام الحارة ويفتت طبيخه حصاة الكلية وينفع أصله من قروح المعي {cite:canon-ibn-sina-print-v1 p.559}."
+  en: "Mizmar al-ra'i is a cleansing plant that dissolves hot swellings; its decoction breaks kidney stone and its root helps ulcers of the intestine {cite:canon-ibn-sina-print-v1 p.559}."
+  ur: "مزمار الراعی ایک جلا دینے والا نبات ہے جو گرم سوجنوں کو تحلیل کرتا ہے؛ اس کا جوشاندہ گردے کی پتھری توڑتا ہے اور اس کی جڑ آنت کے زخموں میں مفید ہے {cite:canon-ibn-sina-print-v1 p.559}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letters lam and mim, scan pages 559, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen and desire reports kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-17
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

@@ -1,0 +1,23 @@
+id: concept/lisan-tibb
+class: concept
+kind: natural
+label:
+  ar: "لسان"
+  en: "Lisan (the tongue)"
+  ur: "لسان"
+summary:
+  ar: "اللسان في الكتاب عضو، جوهره مركب من لحم رخو تنفذ فيه عروق وعصب وعضل {cite:canon-ibn-sina-print-v1 p.543}."
+  en: "In the book the tongue is an organ whose substance is a soft flesh run through by vessels, nerves and muscles {cite:canon-ibn-sina-print-v1 p.543}."
+  ur: "کتاب میں زبان ایک عضو ہے جس کا جوہر نرم گوشت سے مرکب ہے اور اس میں رگیں، اعصاب اور پٹھے گزرتے ہیں {cite:canon-ibn-sina-print-v1 p.543}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letters lam and mim, scan pages 543, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen and desire reports kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-17
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

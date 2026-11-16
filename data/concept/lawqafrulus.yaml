@@ -1,0 +1,23 @@
+id: concept/lawqafrulus
+class: concept
+kind: natural
+label:
+  ar: "لوقفرولس"
+  en: "Lawqafrulus (a mineral earth)"
+  ur: "لوقفرولس"
+summary:
+  ar: "لوقفرولس حجر مصري رخو يستعمله القصارون في تبييض الثياب، قابض مجفف بلا لذع، ينفع القروح والإسهال المزمن ونفث الدم {cite:canon-ibn-sina-print-v1 p.543}."
+  en: "Lawqafrulus is an Egyptian stone, soft, used by launderers to whiten clothes; astringent and drying without stinging, it is listed for ulcers, chronic diarrhoea and spitting of blood {cite:canon-ibn-sina-print-v1 p.543}."
+  ur: "لوقفرولس مصری پتھر ہے، نرم، دھوبی اس سے کپڑے سفید کرتے ہیں؛ بغیر جلن کے قابض اور خشک کرنے والا، زخموں، پرانے اسہال اور خون تھوکنے میں مذکور ہے {cite:canon-ibn-sina-print-v1 p.543}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letters lam and mim, scan pages 543, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen and desire reports kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-17
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

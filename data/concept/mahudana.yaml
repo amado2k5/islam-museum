@@ -1,0 +1,23 @@
+id: concept/mahudana
+class: concept
+kind: natural
+label:
+  ar: "ماهودانه"
+  en: "Mahudana (the seed called habb al-muluk)"
+  ur: "ماہودانہ"
+summary:
+  ar: "ماهودانه هو حب الملوك، شجرته السيسبان، حار يابس في الثالثة، يسهل كاليتوعات وينفع بإسهاله من أوجاع المفاصل والنقرس وعرق النسا والاستسقاء والقولنج، ويقيء بقوة ولا يوافق المعدة {cite:canon-ibn-sina-print-v1 p.568}."
+  en: "Mahudana is called habb al-muluk, the seed of kings, from the tree called sisaban; hot and dry in the third degree, it purges like the spurges and helps by purging in pains of the joints, gout, sciatica, dropsy and colic, but makes one vomit violently and does not suit the stomach {cite:canon-ibn-sina-print-v1 p.568}."
+  ur: "ماہودانہ، جسے حبّ الملوک کہتے ہیں، سیسبان نامی درخت کا دانہ ہے؛ تیسرے درجے میں گرم خشک، یتوعات کی طرح جلاب دیتا ہے اور اپنے اسہال کے ذریعے جوڑوں کے درد، نقرس، عرق النسا، استسقا اور قولنج میں فائدہ دیتا ہے، مگر زور سے قے کراتا ہے اور معدے کو موافق نہیں {cite:canon-ibn-sina-print-v1 p.568}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter mim, scan pages 568, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json) and checked by eye against the page images for scan 562 and 563; editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen and desire reports kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-18
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

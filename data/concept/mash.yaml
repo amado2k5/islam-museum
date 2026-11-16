@@ -1,0 +1,23 @@
+id: concept/mash
+class: concept
+kind: natural
+label:
+  ar: "ماش"
+  en: "Mash (the mung bean)"
+  ur: "ماش"
+summary:
+  ar: "الماش قريب الجوهر من الباقلا، أفضل أوقات استعماله الصيف، معتدل في الرطوبة واليبوسة، كيموسه محمود خصوصاً المقشر، ولا نفخ فيه كنفخ الباقلا، وقد يحبس الطبيعة إذا طبخ بشروط، وقال بعضهم إن فيه مضرة بالباه {cite:canon-ibn-sina-print-v1 p.570}."
+  en: "Mash is close in substance to the broad bean, best used in summer, moderate in moisture and dryness, its chyme praised especially when hulled; it lacks the broad bean's bloating, can bind the bowel when cooked in a certain way, and some said it harms desire {cite:canon-ibn-sina-print-v1 p.570}."
+  ur: "ماش جوہر میں باقلا کے قریب ہے، اسے استعمال کرنے کا بہترین وقت گرمیاں ہیں، نمی اور خشکی میں معتدل، اس کا کیموس خصوصاً چھلکا اتارنے پر قابلِ تعریف ہے؛ اس میں باقلا جیسا پھولنا نہیں، ایک خاص طریقے سے پکانے پر پیٹ روکتا ہے، اور بعض نے کہا کہ اس میں باہ کو نقصان ہے {cite:canon-ibn-sina-print-v1 p.570}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter mim, scan pages 570, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json) and checked by eye against the page images for scan 562 and 563; editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen and desire reports kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-18
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

@@ -1,0 +1,23 @@
+id: concept/maysam
+class: concept
+kind: natural
+label:
+  ar: "ميسم"
+  en: "Maysam (the grain called habb al-ban)"
+  ur: "میسم"
+summary:
+  ar: "الميسم حبة تشبه البطم مثلثة المقطع إلى الصفرة طيبة الرائحة يتبخر بها، ومنها بستاني ذو ثلاثة أوراق وبري ومصري، والبستاني معتدل قليل التجفيف والبري أقوى {cite:canon-ibn-sina-print-v1 p.569}."
+  en: "Maysam is a grain like terebinth, triangular in section, yellowish and sweet-smelling, used for fumigation, in a garden kind with three leaves, a wild kind and an Egyptian kind; the garden kind is moderate and slightly drying, and the wild stronger {cite:canon-ibn-sina-print-v1 p.569}."
+  ur: "میسم ایک دانہ ہے جو بطم سے مشابہ، تین پہلو کٹاؤ والا، زردی مائل اور خوشبودار ہے جس کی دھونی دی جاتی ہے، اس کی ایک باغی قسم تین پتوں والی ہے اور ایک جنگلی اور ایک مصری؛ باغی معتدل اور ہلکا خشک کرنے والا ہے اور جنگلی زیادہ قوی {cite:canon-ibn-sina-print-v1 p.569}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter mim, scan pages 568-569, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json) and checked by eye against the page images for scan 562 and 563; editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen and desire reports kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-18
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }
