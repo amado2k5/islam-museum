@@ -1,0 +1,42 @@
+id: job/blacksmith
+class: job
+label: { ar: "الحدّاد", en: "Blacksmith (haddad)", ur: "لوہار ⁦(حداد)⁩" }
+names:
+  - { value: "demirci", kind: latinized, lang: tr }
+summary:
+  ar: "الحدّاد يطرق الحديد في صنعته. ينهى الشيزري عن غشّه: ألا يُطرق السكين والمقص والكلّابة من الحديد الرخو فيُباع على أنه فولاذ، وألا تُخلط المسامير المُقوّمة بالمطروقة حديثاً، وأن تُصنع السكاكين والمقصات والمواسي من الفولاذ النقي. ويعدّ إوليا جلبي للحدّادين في إسطنبول ألف دكان، بيرهم داود ثم أبو مسلم الحدادي الذي تقلّد من سلمان، ويتقدّمون الطوائف في الموكب لضرورة صنعتهم في العسكر."
+  en: "The blacksmith forged iron for a living. Al-Shayzari forbids his frauds: knives, scissors and pincers must not be hammered out of soft iron and sold as steel, straightened nails must not be mixed with newly forged ones, and knives, scissors and razors are to be made of pure steel. Evliya counts a thousand smiths' shops in Istanbul; in guild lore their patrons are David and then Abu Moslem al-Haddadi, girded by Selman, and they take precedence in the procession because the camp cannot do without their craft."
+  ur: "لوہار لوہا گاڑھ کر روزی کماتا ہے۔ الشیزری اس کے دھوکوں سے روکتا ہے: چھری، قینچی اور چمٹا نرم لوہے سے بنا کر فولاد کہہ کر نہ بیچے، سیدھے کیے میخوں کو نئے گاڑھے میخوں میں نہ ملائے، اور چھری، قینچی اور استرے خالص فولاد کے بنائے جائیں۔ اولیاء چلبی استنبول میں لوہاروں کی ایک ہزار دکانیں گنتا ہے؛ صنعت کارانہ قصے میں ان کے پیر داؤد اور پھر ابو مسلم حدادی ہیں جو سلمان سے کمر بند ہوا، اور لشکر میں ان کے دست کی ضرورت کے سبب جلوس میں انھیں سبقت ملی۔"
+domain: building-making
+kind: craft
+hirfa: true
+era:
+  origins: pre-islamic
+  status_today: transformed
+places:
+  - { place: place/istanbul, note: "Evliya gives the smiths no less than a thousand shops across the four jurisdictions of Constantinople, with the farriers, nail-smiths, boot-nail smiths and weight-makers as their fellow guilds.", sources: [source/evliya-seyahatname-hammer] }
+regions: [anatolia-balkans, levant-iraq, egypt-nile]
+organization:
+  organized: guild
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people, living]
+periods: [period/crusades-ayyubid-mamluk, period/gunpowder-empires]
+sources: [source/shayzari-nihaya-buckley, source/evliya-seyahatname-hammer]
+craft:
+  materials: []
+  techniques:
+    ar: "صنعة الحداد الطرق على السندان: ينهى الشيزري الحداد أن يطرق السكاكين والمقصات والكلّابات ونحوها من الحديد الرخو فيبيعها على أنها فولاذ، وألا يخلط المسامير المُقوَّمة المستعملة بالمطروقة الجديدة، وألا تُصنع السكاكين والمقصات والمواسي إلا من الفولاذ النقي. ويصف إوليا جلبي موكبهم: يُمرّون على عربات كبيرة يزيّنون دكاكينهم بالأزهار ويطرقون الحديد على السندان وينادون «يا داود»، وبعضهم يحمل قضبان الحديد على كتفه؛ وبيرهم الأول داود الذي يذكرون أنه كان يلين له الحديد، وفي زمن النبوة كان بيرهم أبو مسلم الحدادي."
+    en: "The smith's craft is hammering iron on the anvil: al-Shayzari forbids him to hammer knives, scissors, pincers and the like from soft iron and sell them as steel, to mix straightened used nails with the newly forged, and requires knives, scissors and razors of pure steel only. Evliya describes their procession on great wagons, their shops dressed with flowers, striking iron on the anvil and crying 'O David', some carrying iron rods on their shoulders; in guild lore their first patron is David, to whom iron was soft, and their patron in the Prophet's time Abu Moslem al-Haddadi."
+    ur: "لوہار کا دست لوہے پر ہتھوڑا چلانا ہے: الشیزری منع کرتا ہے کہ چھری، قینچی اور چمٹے نرم لوہے سے بنا کر فولاد کے نام پر بیچے، استعمال شدہ سیدھے میخوں کو نئے گاڑھے میں نہ ملائے، اور چھری، قینچے اور استرے صرف خالص فولاد کے ہوں۔ اولیاء چلبی ان کا جلوس بڑی گاڑیوں پر بیان کرتا ہے: دکانیں پھولوں سے سجی، آہن گران پر لوہا پیٹتے اور «یا داؤد» پکارتے، بعض کندھوں پر لوہے کی سلاخیں اٹھائے؛ صنعت کارانہ قصے میں پہلا پیر داؤد ہے جس کے لیے لوہا نرم تھا، اور نبوی زمانے کا پیر ابو مسلم حدادی۔"
+  guild:
+    bodies: []
+    shaykh_title: { ar: "شيخ الحدّادين", en: "Sheykh of the smiths", ur: "لوہاروں کا شیخ" }
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-harvest-1" }
+provenance:
+  layer: own-research
+  source: "al-Shayzari/Buckley ch. 32 pp. 98-99; Evliya (von Hammer) I,2 section 271 and 272-275 p. 183 — read on 15 Nov 2026 from the downloaded scans"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-harvest-1-drafting"

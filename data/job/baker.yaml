@@ -1,0 +1,44 @@
+id: job/baker
+class: job
+label: { ar: "الخبّاز", en: "Baker (khabbaz)", ur: "نان بائی" }
+names:
+  - { value: "الفرّان", kind: alternate }
+  - { value: "etmekji", kind: latinized, lang: tr }
+summary:
+  ar: "الخبّاز من أهم أهل الحِرف عند المحتسب: يسجّل الشيزري أسماءهم ومواضع دكاكينهم في ديوانه، ويفرّقهم في طرق المدينة وسكناها لحاجة الناس إليهم، ويضبط نظافة العجن والخبز ويمنع غشّ الدقيق بالبقول والبورق. وفي القاهرة كان «الفرّان» يخبز ما تبعث به البيوت من خبز ولحم، وفي إسطنبول عدّ إوليا جلبي للخبّازين تسعمائة وتسعاً وتسعين دكاناً وبيرهم آدم."
+  en: "The baker was among the most closely watched craftsmen under hisba: al-Shayzari has the muhtasib register bakers' names and shops, disperse the oven keepers through the town so no quarter lacks bread, enforce clean kneading and baking, and forbid the adulteration of flour with pulses or borax. In Cairo the farran baked the bread and meat households sent him, and in Istanbul Evliya counts nine hundred and ninety-nine bakers' shops, whose first patron, in guild lore, is Adam."
+  ur: "محتسب کی نگاہ میں نان بائی اہم ترین کاریگروں میں تھا: الشیزری محتسب کو خبازوں کے نام اور دکانیں رجسٹر میں لکھنے، تنور والوں کو شہر بھر میں بکھیرنے تاکہ ہر محلے کو روٹی ملے، عجن اور پکائی کی صفائی پر اصرار اور بقول یا بورکس سے آٹے کی ملاوٹ پر پابندی کا حکم دیتا ہے۔ قاہرہ میں «فرّان» گھروں سے بھیجا ہوا آٹا اور گوشت پکاتا تھا، اور استنبول میں اولیاء چلبی خبازوں کی نوسو ننانوے دکانیں گنتا ہے جن کا صنعت کارانہ قصے میں پہلا پیر آدم ہے۔"
+domain: building-making
+kind: craft
+hirfa: true
+era:
+  origins: pre-islamic
+  status_today: transformed
+places:
+  - { place: place/cairo, note: "Lane names the farran, the baker to whom bread, meat and the like are sent to be baked, among the trades of the market streets.", sources: [source/lane-modern-egyptians] }
+  - { place: place/istanbul, note: "Evliya's procession gives the bakers nine hundred and ninety-nine shops and a train of assistants, and the Janissary corps its own corps of three hundred bakers.", sources: [source/evliya-seyahatname-hammer] }
+regions: [egypt-nile, anatolia-balkans, levant-iraq]
+organization:
+  organized: guild
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people, living]
+periods: [period/crusades-ayyubid-mamluk, period/gunpowder-empires, period/modern-era]
+sources: [source/shayzari-nihaya-buckley, source/lane-modern-egyptians, source/evliya-seyahatname-hammer]
+craft:
+  materials: [ceramic, brick]
+  techniques:
+    ar: "يضبط الشيزري صنعة الخباز: رفع سقف الدكان وفتح مداخن التنور ليخرج الدخان، ومسح التنور بخرقة نظيفة قبل الخبز، وتغطية أواني الماء وغسل مجامر العجن، وألا يعجن برجليه أو ركبتيه أو مرفقيه بل بثوب بلا أكمام أو ثوب صوف وأن يعتصب بعصابة بيضاء ويحلق شعر ذراعيه، ومن ينفخ الذباب عنه بالمذبّة. ويمنع غشّ الخبز بالجلبان والحمص والأرز والشويراني والبورق، ويأمر أن يُخبز بعد التخمير وأن يرشّ على القشرة الكمون والحبة السوداء والسمسم وحب المصطكى."
+    en: "Al-Shayzari regulates the craft: raised shop ceilings and wide smoke-holes over the tannur, the oven wiped with a clean rag before baking, water containers covered and kneading troughs washed; the kneader must not use his feet, knees or elbows but wears a sleeveless or woollen gown, a white band on the forehead, shaves his arm hair, and someone fans the flies away. The bread must not be adulterated with vetch, chick-pea, rice or darnel flour or borax; it must be baked after rising and the crust sprinkled with white cumin, black cumin, sesame and mastic seeds."
+    ur: "الشیزری دست کو ضبط کرتا ہے: دکان کی چھت بلند اور تنور پر دھوئیں کی وسیع روشندان، پکائی سے پہلے تنور صاف کپڑے سے پونچھنا، پانی کے برتن ڈھانپنا اور عجن کے حوض دھونا؛ آٹا گوندھنے والا پاؤں، گھٹنوں یا کہنیوں سے نہ گوندھے بلکہ بغیر آستین کا یا اونی کرتا پہنے، ماتھے پر سفید پٹی باندھے، بازو کے بال منڈوائے اور کوئی مکھیاں بھگائے۔ روٹی میں جؤ، چنے، چاول یا درمل کے آٹے اور بورکس کی ملاوٹ ممنوع؛ خمیر اٹھنے کے بعد پکائی جائے اور پرت پر سفید زیرہ، کلونجی، تل اور مصطکی کے دانے چھڑکے جائیں۔"
+  guild:
+    bodies: []
+    shaykh_title: { ar: "رئيس الخبّازين ⁦(إتمكجي باشي)⁩", en: "head baker (etmekji-bashi)", ur: "سردار خباز ⁦(اتمکچی باشی)⁩" }
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-harvest-1" }
+provenance:
+  layer: own-research
+  source: "al-Shayzari/Buckley ch. 6-7 pp. 46-49 and introduction pp. 17-18, 36-37; Lane ch. XIV p. 318; Evliya (von Hammer) I,2 sections 66-71 pp. 120-122 — all read on 15 Nov 2026 from the downloaded scans"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-harvest-1-drafting"

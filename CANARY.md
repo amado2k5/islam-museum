@@ -13,6 +13,10 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v1.42.0 — 2026-11-16
+### Added
+- Job Browser: five more trades join the professions — the tailor (khayyat), the barber (hallaq/muzayyin) who also shaved, cupped and circumcised, the water-carrier (saqqa) of the kirbeh skins and public sebils, the baker (farran/khabbaz) under hisba's heaviest daily watch, and the blacksmith (haddad/qayn) — in Arabic, English and Urdu draft cited to al-Shayzari's *Nihayat al-Rutba* (Buckley tr.), Lane's *Manners and Customs of the Modern Egyptians*, and Evliya Çelebi's *Seyahatname* (von Hammer tr.), the first Job Browser packet harvested from books rather than the TDV.
+
 ## v1.41.0 — 2026-11-16
 ### Added
 - One more Inventions Browser record, with Arabic, English and Urdu prose: Ibn Juljul's Tabaqat al-Atibba — the earliest surviving biographical dictionary of physicians (Cordoba, c. 987 CE); plus work records for the Tabaqat and al-Khazini's Mizan al-Hikma, and person/ibn-juljul.
