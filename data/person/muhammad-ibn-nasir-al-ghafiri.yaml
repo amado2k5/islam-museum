@@ -15,6 +15,12 @@ sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 external_ids:
   wikidata: Q11786522
 died: { edtf: "1728", hijri: "1140", calendar: gregorian, precision: year, derived: true, note: "Card value kept (EI2; J.C. Wilkinson). al-Zirikli, al-A'lam, vol. 7 p. 121, prints 1140 AH = 1727 CE; 1140 AH ran from August 1727 to August 1728, so the two agree within the year.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+occupations:
+  - job: job/imam
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'imam', Job Browser linking wave 49"
+    sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 relations:
   - { type: lived_in, target: place/oman, note: "al-Zirikli, al-A'lam, vol. 7 p. 121: one of the imams of Oman", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
   - { type: died_in, target: place/sohar, note: "al-Zirikli, al-A'lam, vol. 7 p. 121: a bullet struck him in one of the battles at Sohar and he died of it; the wording leaves the exact place of death slightly open", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }
