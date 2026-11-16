@@ -1,0 +1,43 @@
+id: job/carpenter
+class: job
+label: { ar: "النجّار", en: "Carpenter (najjar)", ur: "بڑھئی ⁦(نجار)⁩" }
+names:
+  - { value: "Nejar", kind: latinized, lang: tr }
+summary:
+  ar: "النجّار هو من يعمل في الخشب: يبني ويصنع الأبواب والأقفال وما يحتاجه الناس من متاع. يجمع ابن الأخوة النجّارين والمنشّارين والبنّائين في باب واحد ويضبط أجرتهم وصدقهم: أن أكثر الصنّاع يتفقون على أجرة يومية ثم يتأخرون في الصباح وينصرفون قبل المساء فيُشترَط لهم ما يمنع ذلك، وأن بعضهم يُسهّل الأمر لصاحب العمل ويسومه ثمناً قليلاً فإذا بدأ العمل احتاج أكثر مما يطيق، وأن صانع الأقفال منهم يُوكَل به أمين يعرف صنعته لأن فيها أمن الأموال وحرمة البيوت، وألا يصنع مفتاحاً على مثال آخر إلا لشريكين معروفين بالأمانة. وفي قاهرة لين كان إدخال الابن في طائفة النجّارين يُقام بحلّة الرزّة ⁦(ربط الشاش بعقدها)⁩، وفي إسطنبول إوليا يمرّ النجّارون في موكب الطوائف يعِدّون البيوت الخشبية."
+  en: "The najjar worked the wood: he built and made doors, locks and whatever furnishing people needed. Ibn al-Ukhuwwa groups carpenters, sawyers and builders in one chapter and regulates their wages and honesty: most workmen agree a daily wage and then come late and leave early, so terms must be fixed to prevent it; some assure an employer the job is easy and quote a low price, then demand more than he can bear once the work has begun; the lock-makers among them must have an honest man set over them, for in their craft lies the safety of wealth and the privacy of houses, and no key may be cut to another's pattern except for known partners. In Lane's Cairo a son was admitted to the carpenters' guild by the binding of the sash, and in Evliya's Istanbul the carpenters marched in the guild procession preparing wooden houses."
+  ur: "نجار لکڑی کا کام کرتا ہے: عمارتیں، دروازے، قفل اور لوگوں کی ضرورت کا سازوسامان بناتا ہے۔ ابن الاخوہ بڑھئیوں، آری کشوں اور مستریوں کو ایک باب میں جمع کر کے ان کی اجرت اور دیانت ضبط کرتا ہے: اکثر مزدور روز کی اجرت طے کر کے صبح دیر سے آتے اور شام سے پہلے چلے جاتے ہیں، اس کی روک کے لیے شرائط مقرر ہوں؛ بعض آجر کو کام آسان بتلا کر کم قیمت لگاتے ہیں پھر کام شروع ہونے پر اتنا مانگتے ہیں کہ اس کی طاقت سے باہر ہو؛ ان میں قفل سازوں پر امین مقرر ہو کہ ان کے پیشے میں مال کی حفاظت اور گھروں کی حرمت ہے، اور کسی کے قفل جیسا کیلجہ صرف معلوم شریکوں کے لیے نہ بنایا جائے۔ لین کے قاہرہ میں بڑھئیوں کی انجمن میں لڑکے کا داخلہ کمر بند باندھنے کی رسوم سے ہوتا تھا، اور اولیاء چلبی کے استنبول میں بڑھئی انجمنوں کے جلوس میں لکڑی کے مکان تیار کرتے چلتے تھے۔"
+domain: building-making
+kind: craft
+hirfa: true
+era:
+  origins: pre-islamic
+  status_today: living
+places:
+  - { place: place/cairo, note: "Ibn al-Ukhuwwa regulates the carpenters' wages, scaffolding timber and lock-making for the Egyptian market; Lane records the sash-binding admission ceremony as customary among the carpenters, turners, barbers, tailors and bookbinders; Chalcraft reports carpenters and masons earning eight to ten piastres a day in early twentieth-century Cairo.", sources: [source/ibn-ukhuwwa-maalim-levy, source/lane-modern-egyptians, source/chalcraft-striking-cabbies] }
+  - { place: place/istanbul, note: "Evliya passes the joiners and ship-builders (Marakozan) at three thousand men working in porches at Galata, Top-khanah and Kassim-pasha, and the carpenters in the builders' train preparing wooden houses.", sources: [source/evliya-seyahatname-hammer] }
+regions: [egypt-nile, anatolia-balkans, levant-iraq]
+organization:
+  organized: guild
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people, living]
+periods: [period/crusades-ayyubid-mamluk, period/gunpowder-empires, period/modern-era]
+sources: [source/ibn-ukhuwwa-maalim-levy, source/lane-modern-egyptians, source/evliya-seyahatname-hammer, source/chalcraft-striking-cabbies]
+craft:
+  materials: [wood]
+  techniques:
+    ar: "يضبط ابن الأخوة أحوال الصنّاع: أجرة يومية مُشترطة تمنع التأخر صباحاً والانصراف قبل الغروب، وتحذير من مَن يُسهّل التقدير ويسوم قليلاً ثم يكلّف صاحب العمل فوق طاقته حتى يبيع عقاره قبل تمامه، وإلزام العامل باستعمال الزوايا والأثقال والخيوط ليقوم البناء مستوياً بلا ميل وإلا ضمن الخلل، وتعويض الخشب المؤجّر للسقالات إذا قُطع. ويفصّل صنع القفل الخشبي: رأس القطعة التي فيها الأسنان المتحركة لا تُثقب بل تُنقَر ويُجعَل للأسنان موضع محفور، وأطرافها العليا مربعة والسفلى مدوّرة مصقولة مستوية الرأس، وتختلف الأقفال بتغاير الحيازيم لئلا يصنع مفتاح على مثال آخر. ويصف لين رسم دخول الطائفة: يدعو النقيب المعلمين بغصن أخضر، ويشدّ النقيب على الشاب شالاً فوق ثوبه ويعقده."
+    en: "Ibn al-Ukhuwwa regulates the workmen's conduct: a daily wage with terms preventing late starts and early departures; a warning against those who underquote a job and then burden the employer beyond his means until he sells the property unfinished; the duty to use angles, weights and lines so the building stands true, with liability for any fault; and replacement or compensation for hired scaffolding timber that is cut. He details the wooden lock: the head holding the movable teeth must not be pierced but morticed, the teeth squared above and rounded, filed smooth and flat at the tip below, and the locks differentiated by wards so that no key can be cut to another's pattern. Lane describes the admission ceremony: the nakeeb invites the masters with a sprig of green, then girds the young man with a shawl over his coat and ties a knot in the girdle."
+    ur: "ابن الاخوہ مزدوروں کے معاملات ضبط کرتا ہے: روزانہ اجرت پر ایسی شرائط جو صبح کی دیر اور شام سے پہلے رخصتی روکیں؛ ان لوگوں سے خبردار جو کم قیمت بتا کر کام لیں اور پھر آجر پر اتنا بوجھ ڈالیں کہ وہ ناتمام جائیداد بیچنے پر مجبور ہو؛ زاویہ، وزن اور ڈور استعمال کی ذمہ داری کہ عمارت سیدھی کھڑی ہو ورنہ نقص کی ذمہ داری ہو؛ اور کرایے کے پڑاؤ کے لکڑے کاٹنے پر تلافی۔ وہ لکڑی کے قفل کی تفصیل دیتا ہے: متحرک دندانے والا سرا چھیدا نہیں بلکہ خنچا جاتا ہے، دندانے اوپر سے مربع اور نیچے سے گول، چمکائے اور ہموار، اور قفل مختلف حاروں سے الگ الگ کہ کوئی کیلجہ دوسرے جیسا نہ بنے۔ لین داخلہ رسم بیان کرتا ہے: نقیب معلموں کو ہرا تنا دے کر دعوت دیتا ہے، پھر نوجوان کے کُرتے پر شال باندھ کر اس کا گرہ باندھتا ہے۔"
+  guild:
+    bodies: []
+    shaykh_title: { ar: "شيخ طائفة النجّارين ونقيبها", en: "Sheykh of the carpenters' guild and its nakeeb", ur: "بڑھئیوں کی انجمن کا شیخ اور نقیب" }
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-harvest-3" }
+provenance:
+  layer: own-research
+  source: "Ibn al-Ukhuwwa/Levy ch. LXIX pp. 94-96 (carpenters, sawyers, masons, lock-makers); Lane ch. XXVII pp. 609-610 (admission into a trade, carpenters named first); Evliya (von Hammer) I,2 sec. 98 p. 130 and sec. 647 p. 231; Chalcraft pp. 22, 128-129 — all read on 15-16 Nov 2026 from the downloaded scans"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-harvest-3-drafting"
