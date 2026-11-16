@@ -1,0 +1,125 @@
+id: invention/spherical-astrolabe
+class: invention
+label:
+  ar: "الأسطرلاب الكروي في التقليد الفلكي الإسلامي"
+  en: "The spherical astrolabe in the Islamic astronomical tradition"
+  ur: "اسلامی فلکی روایت کا کروی اسطرلاب"
+names:
+  - { value: "الأسطرلاب الكري", kind: alternate, lang: ar }
+  - { value: "الأسطرلاب المكري", kind: alternate, lang: ar }
+  - { value: "al-asturlab al-kuri", kind: alternate, lang: en }
+  - { value: "spherical astrolabe", kind: alternate, lang: en }
+summary:
+  ar: "آلة تعرض الكرة الأرضية والكرة السماوية بلا إسقاط؛ تطورت في مؤلفات قسطا بن لوقا ⁦(ت نحو 300/912)⁩ والنيريزي ⁦(ت نحو 310/922)⁩ والبيروني ثم المراكشي ⁦(ت نحو 660/1262)⁩، ووصفها كتب ألفونسو العاشر؛ وبقيت أقل استعمالاً من الأسطرلاب المسطح {cite:encyclopaedia-of-islam-2 vol. I pp. 726-728 ASTURLAB (III)}."
+  en: "An instrument that displays the terrestrial and celestial spheres without projection, developed through treatises by Qusta ibn Luqa (d. c. 912), al-Nayrizi (d. c. 922), al-Biruni and al-Marrakushi (d. c. 1262) and described in the Alphonsine Libros del Saber; it stayed rarer than the planispheric astrolabe {cite:encyclopaedia-of-islam-2 vol. I pp. 726-728 ASTURLAB (III)}."
+  ur: "ایک آلہ جو زمینی اور آسمانی گولوں کو بغیر اسقاط دکھاتا ہے؛ قسطا بن لوقا ⁦(وفات تقریباً 912ء)⁩، النیریزی ⁦(وفات تقریباً 922ء)⁩، البیرونی اور المراکشی ⁦(وفات تقریباً 1262ء)⁩ کی رسالوں سے ترقی پائی اور الفونسو دہم کے Libros del Saber میں بیان ہوئی؛ مسطح اسطرلاب سے کم رائج رہی {cite:encyclopaedia-of-islam-2 vol. I pp. 726-728 ASTURLAB (III)}۔"
+domain: astronomy-instruments
+kind: instrument
+disciplines: [astronomy, mathematics]
+wings: [objects, ideas]
+regions: [levant-iraq, persia-central-asia, maghreb, andalus-europe]
+periods: [period/abbasid-early, period/buyid-seljuk-fatimid-era, period/crusades-ayyubid-mamluk]
+themes: [astronomy-and-timekeeping, translation-and-transmission]
+era:
+  origins: abbasid-golden
+  first_attested:
+    edtf: "0912~"
+    hijri: "0300~"
+    calendar: julian
+    precision: year
+    status: historical
+    note: "Approximate. EI2 marks 'the main steps in the development of the spherical astrolabe before Alphonse X' beginning with the treatise of Qusta ibn Luqa, died about 300/912; the date is the earliest named author, not a dated surviving instrument."
+    sources: [source/encyclopaedia-of-islam-2]
+  status_today: extinct
+origin:
+  polity: polity/abbasid-caliphate
+  context:
+    ar: "بيئة علم الهيئة العباسية في القرن الثالث/التاسع وما بعده؛ عالج الترجمان قسطا بن لوقا ثم النيريزي والبيروني الآلة في مؤلفات، واستكملها أبو علي الحسن المراكشي في القرن السابع/الثالث عشر {cite:encyclopaedia-of-islam-2 vol. I pp. 726-728 ASTURLAB (III)}."
+    en: "The Abbasid science of the third/ninth century and after: the translator Qusta ibn Luqa, then al-Nayrizi and al-Biruni treated the instrument in treatises, and Abu Ali al-Hasan al-Marrakushi completed the line in the seventh/thirteenth century {cite:encyclopaedia-of-islam-2 vol. I pp. 726-728 ASTURLAB (III)}."
+    ur: "تیسری/نویں صدی کے عباسی علمِ ہیئت کا ماحول: مترجم قسطا بن لوقا، پھر النیریزی اور البیرونی نے آلہ پر رسالے لکھے اور ابو علی الحسن المراکشی نے ساتویں/تیرہویں صدی میں سلسلہ مکمل کیا {cite:encyclopaedia-of-islam-2 vol. I pp. 726-728 ASTURLAB (III)}۔"
+makers:
+  - person: person/qusta-ibn-luqa
+    role: describer
+    note: "EI2 names his treatise the first main step in the instrument's development before Alphonse X; a Syriac-Christian translator, not the proven inventor."
+    sources: [source/encyclopaedia-of-islam-2]
+  - person: person/al-nayrizi
+    role: describer
+    note: "Second named step in EI2's development list; a treatise on the spherical astrolabe is attributed to him."
+    sources: [source/encyclopaedia-of-islam-2]
+  - person: person/abu-ali-al-hasan-al-marrakushi
+    role: describer
+    note: "The last step before Alphonse X in EI2's list; his Jami' al-mabadi' wa'l-ghayat describes a variant with a safiha strip and gnomon in place of the alidade."
+    sources: [source/encyclopaedia-of-islam-2]
+
+attribution:
+  status: contested
+  claim:
+    ar: "الموثق إسلامياً: سلسلة مؤلفات عربية من قسطا إلى المراكشي طورت الآلة ووصفتها وصفاً هندسياً كاملاً؛ أصل الفكرة — من الساعة الشمسية النصف كروية أو من الكرة المسلحة — متنازع عليه، ولا يُدَّعى اختراع القطعة الأولى."
+    en: "Documented Islamic development: an unbroken Arabic treatise chain from Qusta to al-Marrakushi developed the instrument and described it geometrically; the idea's root — in the hemispherical sundial or the armillary sphere — is debated, and no first making is claimed."
+    ur: "موثق اسلامی ترقی: قسطا سے المراکشی تک عربی رسالوں کا مسلسل سلسلہ آلہ کو ترقی دے کر ہندسی بیان فراہم کرتا ہے؛ خیال کی جڑ — نصف کروی آفتاب گھڑی یا مسلحہ کرہ — متنازع ہے، اور پہلی تعمیر کا دعویٰ نہیں۔"
+  basis:
+    ar: "EI2 يثبت سلسلة المؤلفين ⁦(قسطا، النيريزي، البيروني، المراكشي)⁩ ويصف أجزاء الآلة الألفونسية، ويصحح نسبة الفهرست لأول صنعة إلى بطليموس بأنها خلط مع أسطرلاب المجستي الخامس {cite:encyclopaedia-of-islam-2 vol. I pp. 726-728 ASTURLAB (III)}."
+    en: "EI2 establishes the author chain (Qusta, al-Nayrizi, al-Biruni, al-Marrakushi) and describes the Alphonsine instrument's parts, while correcting the Fihrist's naming of Ptolemy as first maker — a confusion with the armillary instrument of Almagest V.1 {cite:encyclopaedia-of-islam-2 vol. I pp. 726-728 ASTURLAB (III)}."
+    ur: "EI2 مصنفوں کی لڑی ⁦(قسطا، النیریزی، البیرونی، المراکشی)⁩ ثابت کرتی اور الفونسینی آلہ کے اجزا بیان کرتی ہے، ساتھ ہی فہرست کی بطلمیس کو پہلا سازگار کہنے کی تصحیح — المجسطی پانچویں باب کے آلہ سے خلط — کرتی ہے {cite:encyclopaedia-of-islam-2 vol. I pp. 726-728 ASTURLAB (III)}۔"
+  perspectives:
+    - tradition: sunni
+      stance: { ar: "صناعة في كتب التراث", en: "A craft in the inherited books", ur: "میراثی کتابوں کی صنعت" }
+      summary: { ar: "صناعة في كتب التراث — كتب الهيئة العربية تضع الآلة في سلسلة تأليف من قسطا بن لوقا إلى المراكشي، والفهرست نفسه ينسبها لبطليموس؛ فالتقليد العلمي عربياً يقرّ بأقدمية معلّقة على الرواية.", en: "The Arabic astronomical books place the instrument in an authoring chain from Qusta ibn Luqa to al-Marrakushi, while the Fihrist itself ascribes first making to Ptolemy; the Islamic book tradition records antiquity as a transmitted claim.", ur: "صناعة في كتب التراث — عربی فلکی کتب آلہ کو قسطا بن لوقا سے المراکشی تک تالیف کی لڑی میں رکھتی ہیں اور فہرست خود اسے بطلمیس سے منسوب کرتی ہے؛ علمی روایت قدامت کو منقولہ دعوے کے طور پر مانتی ہے۔" }
+      sources: [source/encyclopaedia-of-islam-2]
+    - tradition: academic
+      stance: { ar: "أصل محتمل من الساعة النصف كروية", en: "A possible root in the hemispherical sundial", ur: "نصف کروی آفتاب گھڑی میں ممکنہ جڑ" }
+      summary: { ar: "أصل محتمل من الساعة النصف كروية — Tannery ⁦(عبر EI2)⁩ يشتق فكرة الآلة من سكافه/أراخنه اليونانية، ولا قطعة أثرية إسلامية مبكرة باقية تثبت الأولوية؛ القطعة العثمانية المؤرخة 885/1480 بمتحف أكسفورد هي الشاهد الوحيد المتأخر {cite:king-synchrony-heavens-2004 bibliography, King, Physis 4 (1962)}.", en: "Tannery (via EI2) derives the idea from the Greek scaphe/arachne sundial, and no early Islamic specimen survives to prove priority; the single dated witness is the Ottoman example of 885/1480-81 at Oxford's Museum of the History of Science {cite:king-synchrony-heavens-2004 bibliography, King, Physis 4 (1962)}.", ur: "نصف کروی آفتاب گھڑی میں ممکنہ جڑ — Tannery ⁦(EI2 کے حوالے سے)⁩ خیال کو یونانی scaphe/arachne سے ماخوذ ٹھہراتا ہے اور کوئی ابتدائی اسلامی نمونہ اولیت ثابت نہیں کرتا؛ واحد مورخ شاہد آکسفورڈ کے عجائب گھر کا 885/1480-81ء عثمانی نمونہ ہے {cite:king-synchrony-heavens-2004 bibliography, King, Physis 4 (1962)}۔" }
+      sources: [source/encyclopaedia-of-islam-2, source/king-synchrony-heavens-2004]
+precursors:
+  - external: { ar: "الساعة الشمسية النصف كروية والكرة المسلحة", en: "The hemispherical sundial and the armillary sphere", ur: "نصف کروی آفتاب گھڑی اور مسلحہ کرہ" }
+    note: "Tannery's derivation (cited by EI2) leads the idea back to the Greek scaphe — a bowl sundial called arachne by Eudoxus; the Fihrist's Ptolemy attribution is a confusion with the armillary instrument of Almagest V.1."
+    sources: [source/encyclopaedia-of-islam-2]
+  - external: { ar: "الكرة السماوية وآلة البتاني", en: "The celestial globe and al-Battani's instrument", ur: "آسمانی کرہ اور البتانی کا آلہ" }
+    note: "EI2 distinguishes the spherical astrolabe from al-Battani's globe-plus-armillary combination, which lacks the essential 'spider' of the astrolabe."
+    sources: [source/encyclopaedia-of-islam-2]
+dependents:
+  - external: { ar: "أسطرلاب ألفونسو العاشر الكروي", en: "The Alphonsine spherical astrolabe", ur: "الفونسو دہم کا کروی اسطرلاب" }
+    note: "The Libros del Saber instrument compiled by Isaac ibn Sid carries the Islamic design into Castilian Latin-language science, adding a shadow quadrant and calendar."
+    sources: [source/encyclopaedia-of-islam-2]
+  - external: { ar: "القطعة العثمانية المؤرخة 885/1480-81", en: "The Ottoman specimen of 1480-81", ur: "885/1480-81ء کا عثمانی نمونہ" }
+    note: "The single surviving spherical astrolabe, in the Museum of the History of Science, Oxford — King's study of it (Physis 4, 1962) is listed in his Synchrony bibliography; EI2's article predates the consensus on this specimen."
+    sources: [source/king-synchrony-heavens-2004]
+spread: []
+impact:
+  fields: [astronomy-instruments, timekeeping]
+  changed:
+    ar: "قدمت آلة تصور الكرتين بلا إسقاط — تنبأ بالنماذج الكروية التعليمية التي تشرح الحركة اليومية مباشرة — وإن بقيت أقل يدوية من المسطح فلم تنتشر عملياً {cite:encyclopaedia-of-islam-2}."
+    en: "It offered a projection-free model of the two spheres — anticipating the teaching globes that show diurnal motion directly — though it stayed less handy than the planispheric instrument and never spread widely {cite:encyclopaedia-of-islam-2}."
+    ur: "بغیر اسقاط دونوں گولوں کا نمونہ دیا — تعلیمی گولوں کی پیش بندی جو روزانہ حرکت براہ راست دکھاتے ہیں — مگر مسطح آلہ سے کم آسان رہا اور وسیع نہیں ہوا {cite:encyclopaedia-of-islam-2}۔"
+  history:
+    ar: "شاهد على نضج الهندسة الكروية الإسلامية: الآلة الأصعب صنعاً والأقل انتشاراً تُوثّق قدرة الصنعة على تخيل الكرة كلها في المعدن {cite:encyclopaedia-of-islam-2}."
+    en: "A witness to the maturity of Islamic spherical geometry: the harder, rarer instrument documents the craft's ability to imagine the whole sphere in metal {cite:encyclopaedia-of-islam-2}."
+    ur: "اسلامی کروی ہندسے کی پختگی کا شاہد: مشکل اور نایاب آلہ دکھاتا ہے کہ صنعت ساری کرہ کو دھات میں تصور کر سکتی تھی {cite:encyclopaedia-of-islam-2}۔"
+  significance: 3
+  why: "A documented line of Arabic treatises developing a projection-free astronomical instrument, with honestly debated antique roots and a single surviving Ottoman specimen."
+described_in: []
+examples: []
+sites: []
+concepts: []
+today:
+  form:
+    ar: "الآلة منقرضة كأداة عمل؛ بقيت فكرتها في الكرات والنماذج التعليمية وفي قطعة أكسفورد العثمانية الوحيدة {cite:king-synchrony-heavens-2004}."
+    en: "The instrument is extinct as a working tool; its idea survives in teaching globes and orreries and in the single Oxford Ottoman specimen {cite:king-synchrony-heavens-2004}."
+    ur: "عملی آلہ کے طور پر منقرض؛ خیال تعلیمی گولوں اور آکسفورڈ کے واحد عثمانی نمونے میں باقی ہے {cite:king-synchrony-heavens-2004}۔"
+  descendants:
+    ar: "نماذج الكرة السماوية التعليمية والساعات الفلكية الكروية تفي بالغرض نفسه بلا معدن منقوش {cite:encyclopaedia-of-islam-2}."
+    en: "Teaching celestial globes and spherical astronomical clocks do the same job without engraved metal {cite:encyclopaedia-of-islam-2}."
+    ur: "تعلیمی آسمانی گولے اور کروی فلکی گھڑیاں وہی کام بغیر نقش شدہ دھات کے کرتے ہیں {cite:encyclopaedia-of-islam-2}۔"
+media: { image: media/louvre-celestial-globe-1144, diagram: media/diagram-spherical-astrolabe }
+kids:
+  ar: "تخيل كرة معدنية تدور فوقها شبكة مفرّغة تُريك النجوم كما تراها من مدينتك — هذه فكرة الأسطرلاب الكروي. كتب عنها العلماء في بغداد قبل ألف سنة، وبقيت منها قطعة واحدة في متحف بأكسفورد."
+  en: "Imagine a metal globe with a pierced web spinning over it that shows the stars as your city sees them — that is the spherical astrolabe. Scholars in Baghdad wrote about it a thousand years ago, and only one example survives, in an Oxford museum."
+  ur: "سوچو: ایک دھاتی گولہ جس پر جھلی دار جال گھومتا ہو اور تمہارے شہر کے ستارے دکھائے — یہی کروی اسطرلاب ہے۔ بغداد کے علما نے ہزار سال پہلے اس پر لکھا، اور آج اس کا صرف ایک نمونہ آکسفورڈ کے عجائب گھر میں ہے۔"
+sources: [source/encyclopaedia-of-islam-2, source/king-synchrony-heavens-2004]
+status: { review: published, completeness: 2 }
+provenance:
+  layer: own-research
+  generated_by: devin-drafter-w2-27
+  model: SWE-2
+  run: inventions-w2-27
+  source: "EI2 ASTURLAB (vol. I, section III 'the spherical astrolabe', printed pp. 726-728) read in the corpus OCR — author chain, Alphonsine parts, Tannery derivation, Fihrist correction, no-preserved-specimens statement. King's In Synchrony with the Heavens vol. 1 (Brill 2004) downloaded and read; his 'A Fifteenth-Century Spherical Astrolabe', Physis 4 (1962), is cited from its bibliography for the Oxford specimen."
