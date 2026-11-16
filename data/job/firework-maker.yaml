@@ -1,0 +1,45 @@
+id: job/firework-maker
+class: job
+label: { ar: "الفيشكجي ⁦(صانع الألعاب النارية)⁩", en: "Firework-maker (fishekji)", ur: "آتش بازی ساز ⁦(فشکچی)⁩" }
+names:
+  - { value: "فيشكجي", kind: alternate }
+  - { value: "fişekçi", kind: alternate, lang: tr }
+  - { value: "Fishekjian", kind: latinized, lang: tr }
+  - { value: "صانع الألعاب النارية", kind: alternate }
+summary:
+  ar: "الفيشكجي هو صانع الألعاب النارية في المواسم والأفراح السلطانية. عند إوليا الفيشكجيّة مائة رجل في ثمانية عشر دكاناً، شيخهم «يهودي»، وأغلبهم من جملة السلاحجية؛ يظهرون مهارتهم في الأفراح العامة، وولادات الأمراء، وأعياد الختان. لهم مصنعٌ خارج مستشفى السليمانية فيه مخزن أدواتهم وعتادهم، ودكاكين في أيوب وغلطة وطوبخانه وبشيكتاش. وأول من صنع الألعاب النارية عندهم ابن سينا، وهو أستاذ صنّاع الألعاب وشيخهم — كما تروي الطائفة. وفي أفراح الانتصارات يشعلون مئة ألف صاروخ بألوان مختلفة: منها ما يصعد مستقيماً إلى السماء، ومنها ما يميل فينشر النجوم حوله، ومنها ما ينقسم ثلاثة أقسام فيرتفع على ثلاث دفعات — فإذا احترق الأول وسقط أُشعل الثاني ثم الثالث حتى ينفجر بدويٍّ يكاد يشقّ الغمام. وعند لين يواكب إطلاق المدافع عرضُ الألعاب النارية حين فتح قنال القاهرة، حتى إن خير الألعاب يُعرَض في ضوء الشمس الساطع حيث يكاد لا يُرى."
+  en: "The fishekji made the fireworks of the great festivals and the dynasty's rejoicings. In Evliya the firework-makers are one hundred men with eighteen shops; their patron is Jewish, the greatest part of them belonging to the armourers. They exhibit their skill at public rejoicings, on the birth of princes and on the feast of circumcision. Their manufactory stands outside the hospital of the Suleimanieh, holding the repository of their tools and their magazine, and they keep shops at Eyyub, Galata, Tup-khanah and Beshiktash. The first artist in fireworks, the guild says, was Avicenna, the master and patron of all firework-makers. On occasions of rejoicing for victories they set on fire some hundred thousand rockets of different colours: some mount straight into the sky, some go obliquely spreading stars around them, and some, divided into three parts, ascend at three different times — when the first has burned out and falls to the ground, the second is lighted, then the third, which at last explodes with a noise that seems to rend the clouds. In Lane's Cairo the display of the fire-works accompanies the firing of guns at the cutting of the Canal dam, the best of them shown in the glaring sunshine where they can hardly be seen."
+  ur: "فشکچی بڑے تہواروں اور شاہی مسرتوں کی آتش بازی بنانے والا ہے۔ اولیاء میں فشکجی سو آدمی اٹھارہ دکانوں میں ہیں؛ ان کا سرپرست یہودی ہے اور ان کا بڑا حصہ سلاح سازوں سے ہے۔ وہ اپنی مہارت عام جشنوں، شہزادوں کی پیدائش اور ختنہ کے تہوار پر دکھاتے۔ ان کا کارخانہ سلیمانیہ ہسپتال کے باہر ہے جہاں ان کے اوزاروں کا گودام اور ذخیرہ ہے، اور ایوب، غلاطہ، طوپ خانہ اور بشکطاش میں دکانیں ہیں۔ طائفہ کہتا ہے کہ آتش بازی کا پہلا فنکار ابن سینا تھا اور وہ تمام فشکجیوں کا استاد اور سرپرست ہے۔ فتح کی خوشیوں میں وہ کئی رنگوں کے لگ بھگ ایک لاکھ راکٹ جلاتے: بعض سیدھا آسمان کو چڑھتے، بعض ترچھے جا کر گرد ستارے بکھیرتے، اور بعض تین حصوں میں بٹے تین مرتبہ چڑھتے — پہلا جل کر گرتا تو دوسرا پھر تیسرا جلتا اور آخر میں ایسے شور سے پھٹتا کہ گویا بادل چاک ہو۔ لین کے قاہرہ میں نہر کا باندھ کٹتے وقت بندوقوں کی بےقرار گولیوں کے ساتھ آتش بازی کا مظاہرہ ہوتا اور بہترین آتش بازی دھوپ کی چمک میں دکھائی جاتی جہاں وہ بمشکت دکھتی۔"
+domain: building-making
+kind: craft
+hirfa: true
+era:
+  origins: medieval
+  status_today: transformed
+places:
+  - { place: place/istanbul, note: "Evliya counts a hundred firework-makers in eighteen shops, their manufactory outside the Suleimanieh hospital with tool repository and magazine, and shops at Eyyub, Galata, Tup-khanah and Beshiktash; most of them belong to the armourers.", sources: [source/evliya-seyahatname-hammer] }
+  - { place: place/cairo, note: "Lane records the firing of guns and the display of fire-works at the ceremonial cutting of the Cairo canal dam, the best works exhibited in glaring sunshine.", sources: [source/lane-modern-egyptians] }
+regions: [anatolia-balkans, egypt-nile, levant-iraq]
+organization:
+  organized: guild
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people, living]
+periods: [period/gunpowder-empires, period/modern-era]
+sources: [source/evliya-seyahatname-hammer, source/lane-modern-egyptians]
+craft:
+  techniques:
+    ar: "صنعة الفيشكجي هي تركيب الصواريخ وإطلاقها للعيد والنصر. يصف إوليا العرض: مئة ألف صاروخ بألوان مختلفة؛ منها ما يصعد مستقيماً إلى السماء، ومنها ما يميل فينشر النجوم حوله، ومنها ما ينقسم ثلاثة أقسام فيرتفع ثلاث دفعات — فإذا احترق الأول وسقط أُشعل الثاني ثم الثالث وانفجر بدويٍّ يكاد يشقّ الغمام. وللصنّاع مصنعٌ بمخزن أدوات وعتاد خارج مستشفى السليمانية ودكاكين في أيوب وغلطة وطوبخانه وبشيكتاش، وأغلبهم من جملة السلاحجية. وشيخهم عندهم «يهودي»، وأستاذهم الأول ابن سينا — كما تروي الطائفة لا كما توثّقه الكتب."
+    en: "The fishekji's craft is the composition and firing of rockets for festival and victory. Evliya describes the display: a hundred thousand rockets of different colours; some mounting straight into the sky, some going obliquely and spreading stars around them, some divided into three parts ascending at three different times — the first burning out and falling, the second lighted, then the third, exploding with a noise that seems to rend the clouds. The makers keep a manufactory with tool repository and magazine outside the Suleimanieh hospital and shops at Eyyub, Galata, Tup-khanah and Beshiktash, and most of them belong to the armourers. Their patron is Jewish, the guild says, and their first master Avicenna — as the guild tells it, not as the books attest."
+    ur: "فشکچی کا ہنر تہوار اور فتح کے لیے راکٹ ترکیب اور اڑانا ہے۔ اولیاء مظاہرہ لکھتا: کئی رنگوں کے ایک لاکھ راکٹ؛ بعض سیدھا آسمان کو، بعض ترچھے جا کر ستارے بکھیرتے، بعض تین حصوں میں تین مرتبہ چڑھتے — پہلا بجھ کر گرتا، دوسرا جلتا، پھر تیسرا ایسے شور سے پھٹتا کہ گویا بادل چاک ہو۔ سازوں کا کارخانہ سلیمانیہ ہسپتال کے باہر اوزاروں کے گودام اور ذخیرے سمیت ہے اور ایوب، غلاطہ، طوپ خانہ اور بشکطاش میں دکانیں ہیں، اور ان کا بڑا حصہ سلاح سازوں میں ہے۔ طائفہ کہتا ہے کہ ان کا سرپرست یہودی اور پہلا استاد ابن سینا ہے — جیسا کہ طائفہ کہتا ہے، نہ کہ کتابیں ثابت کرتی ہیں۔"
+  guild:
+    bodies: []
+    shaykh_title: { ar: "شيخ طائفة الفيشكجيّة", en: "Shaykh of the firework-makers' guild", ur: "طائفۃ الفشکجیہ کا شیخ" }
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-trades-6" }
+provenance:
+  layer: own-research
+  source: "Evliya (von Hammer) I,2 sec. 208 p. 158 (the hundred firework-makers in eighteen shops, the Jewish patron, the armourers' kinship, the manufactory outside the Suleimanieh hospital with repository and magazine, the shops at Eyyub, Galata, Tup-khanah and Beshiktash, Avicenna as first artist, the hundred thousand rockets of different colours and the three-stage rocket); Lane ch. XXVI p. 447 (the firing of guns and the display of fire-works at the cutting of the Cairo canal dam, the best shown in glaring sunshine) — read on 16 Nov 2026 from the downloaded scans"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-trades-6-drafting"
