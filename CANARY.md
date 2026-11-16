@@ -13,6 +13,10 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v1.74.0 — 2026-11-17
+### Added
+- Job Browser: six more provision and building trades — the grain-merchant (ḥabbāb), the flour-merchant (daqqāq), the greengrocer (khuḍārī), the poulterer (dajjāj), the brick-maker (ajurrī) and the leather-bottle-maker (qirrāb) — in Arabic, English and Urdu draft cited to al-Shayzari, Ibn al-Ukhuwwa, Evliya Çelebi, Lane and Creswell's Early Muslim Architecture.
+
 ## v1.73.0 — 2026-11-16
 ### Added
 - Three women of the Indonesian and Malaysian scenes join the modern-figures collection, each with Arabic, English and Urdu prose and its sources showing: the gambus singer Nissa Sabyan, the singer and presenter Mizz Nina, and the nasyid singer Heliza Helmi (wave 200, section C).
