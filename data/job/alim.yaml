@@ -1,0 +1,41 @@
+id: job/alim
+class: job
+label: { ar: "العالم ⁦(من العلماء)⁩", en: "Alim (the learned man — one of the 'ulama)", ur: "عالم ⁦(علماء میں سے)⁩" }
+names:
+  - { value: "عُلَمَاء", kind: alternate }
+  - { value: "ulema", kind: latinized }
+  - { value: "ulama", kind: latinized }
+  - { value: "ilmiye", kind: latinized, lang: tr }
+summary:
+  ar: "العالم — جمعه علماء — صاحب العلم الشرعي المجيز من شيوخه، الذي يتولى التدريس والإفتاء والقضاء والخطابة بحسب درجته. ويصف لين القاهرة في ثلاثينيات القرن التاسع عشر: مجلس العلماء يشارك القاضي في المحاكمة، وطالب الأزهر إذا كمل نال إذن التدريس من شيخ المسجد وصار أستاذاً، ومنهم من صار قاضياً أو مفتياً أو إمام مسجد أو معلماً، ومنهم من بقي عمره في الأزهر يطمح إلى درجة كبار العلماء. ويذكر غيوم أن الطالب قبل الجامعات وبعدها كان يقطع ألف ميل أو أكثر طلباً لشيخ يجلس عند قدميه، وأن إجازة الأستاذ تشبه رخصة التدريس الوسيطة، وأن الأزهر يقسم طلابه في أروقة ويعيلهم بأوقاف المحسنين."
+  en: "The alim — plural 'ulama — is the man formed in the religious sciences and licensed by his shaykhs, who then serves as teacher, mufti, judge or preacher according to his grade. Lane draws Cairo in the 1830s: a council of the 'ulama sat with the judge in the great trials; the Azhar student, when sufficiently advanced, took a licence to teach from the sheykh of the mosque and became a professor; some became kadis, muftis, imams or schoolmasters, some stayed all their lives in the Azhar aspiring to rank among the higher 'ulama. Guillaume records that before and after the universities a student would travel a thousand miles or more to sit at a chosen master's feet, that the Muslim professor's ijaza resembles the medieval licentia docendi, and that al-Azhar groups its students in communal riwaq quarters and supports them by pious benefactions."
+  ur: "عالم — جمع علماء — دینی علوم میں تربیت یافتہ وہ شخص ہے جسے اس کے شیوخ اجازت دیں، پھر وہ اپنے درجے کے حساب سے تدریس، افتاء، قضاء یا وعظ سنبھالتا ہے۔ لین نے 1830ء کی دہائی کے قاہرہ کی تصویر کھینچی: بڑے مقدمات میں علماء کی مجلس قاضی کے ساتھ بیٹھتی؛ ازہر کا طالب پُرا ہونے پر شيخ المسجد سے تدریس کا اجازت نامہ لے کر استاد بنتا؛ کوئی قاضی، کوئی مفتی، کوئی امام یا مدرس بنتا، اور کوئی عمر بھر ازہر میں رہ کر بڑے علماء کا درجہ چاہتا۔ گیوم لکھتا ہے کہ جامعات سے پہلے اور بعد میں بھی طالب علم چنیدہ استاد کے قدموں میں بیٹھنے کو ہزار میل یا اس سے زیادہ کا سفر کرتا، کہ مسلم استاد کی اجازت قرونِ وسطی کے لائسنسیا ڈوچندی جیسی ہے، اور کہ ازہر اپنے طلبہ کو علاقائی رواقوں میں بانٹتا اور نیکوقات سے ان کا خرچ چلتا ہے۔"
+domain: scholarship-teaching
+kind: scholarly
+hirfa: false
+era:
+  origins: early-caliphate
+  status_today: living
+places:
+  - { place: place/cairo, note: "Lane's Cairo: the council of the 'ulama joined the kadi in trying great cases; Azhar students who had advanced took the sheykh's licence and became professors, others kadis, muftis, imams or schoolmasters; Guillaume notes al-Azhar's riwaq quarters where students from all the Muslim world are grouped and partly supported by benefactions.", sources: [source/lane-modern-egyptians, source/legacy-of-islam-1931] }
+  - { place: place/baghdad, note: "Guillaume's emblem of the learned calling: vast journeys from Spain to Mecca or from Morocco to Baghdad undertaken by young men who left home practically penniless to sit at a chosen master's feet.", sources: [source/legacy-of-islam-1931] }
+regions: [arabia, levant-iraq, egypt-nile, maghreb, persia-central-asia, anatolia-balkans, south-asia, andalus-europe, global]
+organization:
+  organized: informal
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people]
+periods: [period/rashidun, period/umayyad, period/abbasid-early, period/abbasid-fragmentation, period/buyid-seljuk-fatimid-era, period/crusades-ayyubid-mamluk, period/mongol-post-mongol, period/gunpowder-empires, period/modern-era]
+sources: [source/lane-modern-egyptians, source/tdv-icazet-egitim, source/legacy-of-islam-1931, source/tdv-fetva]
+training:
+  mode: ijaza-chain
+  certification: "The ijaza: the shaykh's licence permitting his student to transmit and to teach — the TDV education entry sets out its elements and conditions and distinguishes the ijaza of ifta' and of teaching. Lane's Cairo version is the licence of the sheykh of the mosque that made a competent man a professor. The fatwa entry grades the muftis of each law-school."
+  duration: "A life of study under named masters: Guillaume's thousand-mile journeys to sit at a master's feet; some students, Lane saw, stayed all their lives in the Azhar aspiring to the higher 'ulama."
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-scholar-2" }
+provenance:
+  layer: own-research
+  source: "Lane, Modern Egyptians chs III and IX; TDV 'İCÂZET (eğitim)' (Akpınar; Sarı, 2000) and 'FETVA' (Atar, 1995); Guillaume, 'Philosophy and Theology' in The Legacy of Islam (1931) — read 16 Nov 2026"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-scholar-2-drafting"

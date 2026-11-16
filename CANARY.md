@@ -13,9 +13,9 @@ open a new block on top with the new version and today's date.
 
 ---
 
-## v1.64.0 — 2026-11-16
+## v1.65.0 — 2026-11-16
 ### Added
-- Job Browser: five sport and patronage professions — the wrestler (pehlivan), the archer (kemankeş) of the Okmeydanı ranges, the cirit-player, the waqf founder (waqif) and the patron (ḥāmī) — in Arabic, English and Urdu draft cited to the TDV entries GÜREŞ, OK, CİRİT, VAKIF and HİMAYE, plus Evliya Çelebi, Lane and Elgood.
+- Job Browser: six scholarly and religious roles — the professor as the holder of a madrasa chair (müderris), the orientalist (müsteşrik), the religious scholar (ʿālim), the philosopher (faylasūf), the preacher (wāʿiẓ) and the sociologist — in Arabic, English and Urdu draft cited to TDV ORYANTALİZM, VÂFÎ and the landed icazet/fetva/vaaz entries, plus Lane, the Legacy of Islam and Ibn al-Ukhuwwa.
 - Wa Nalqa al-Ahibba, Amr Khaled (lecture series, Assabile archive): episode 17 added, the last on the third caliph, Uthman ibn Affan, covering the speaker's account of the besiegers' coming to Medina, Uthman's refusal to fight or to step down, the last days and the killing, in Arabic, English and Urdu drafts, each statement cited to the recording by timestamp, with the speaker's accounts, the museum's readings of garbled names, the studio participant's remarks and the unclear lines labelled as such.
 - Wa Nalqa al-Ahibba, Amr Khaled (lecture series, Assabile archive): episode 18 added, the first on the fourth caliph, Ali ibn Abi Talib, an introduction covering the speaker's account of his lineage, his father Abu Talib and mother Fatima bint Asad, his brothers and sister, his marriage to Fatima the Prophet's daughter, his later wives and children, his coming to Islam as a boy, the ages of his life and his appearance, in Arabic, English and Urdu drafts, each statement cited to the recording by timestamp, with the speaker's accounts, the museum's readings of garbled names, the studio participant's remarks and the unclear lines labelled as such.
 - Twenty-five more records of Ibn Sina's Canon, Book III (the diseases of each organ, head to foot), volume 2, scan pages 74 to 91: the migraine and its treatment, the hot swelling of the brain's membrane (qaranitus) with its name, outlook, common and particular signs, telling it from the sarsam by sharing, and its treatment, the phlegmon, erysipelas, sabari and lithargus of the brain with their signs and treatment, water and swellings in and outside the skull, the sleepless coma, head wounds, and the opening of the fourth maqala on coma and sleep and the causes of coma. Each is a trilingual concept in the Medicine Browser cited to the printed page; the book's lines on the womb and on birth are kept as labelled listings for the founder's ruling; recipes, doses, drug names, vein and cupping sites and methods of application are not reproduced.
@@ -23,6 +23,10 @@ open a new block on top with the new version and today's date.
 
 ### Data
 - Twenty-five existing records now carry a short cited section from The Oxford Dictionary of Islam, read through the Internet Archive and restated in the museum's own words in Arabic, English and Urdu: Kazakhstan, Mauritania, Mesopotamia, the Mughal Empire, the Mongols, the Janissaries, Ma Mingxin, Mir Damad, al-Maturidi, Ibn Jubayr, Abd al-Rahman ibn al-Ashath, Ahmad al-Badawi, Kalila wa Dimna, the mahmal, the muezzin, muqarnas, the mujtahid, makruh, ilhad, ahd, mahr, mahram, the Mahdi, the evil eye and the Mawlid al-Nabi. Four records that had no prose at all (Kazakhstan, Mauritania, Ma Mingxin and Mir Damad) now have a summary and a section in all three languages; the other twenty-one gain a section in the languages they already had, which was all three. Where the Dictionary differs from our record (the Janissary levy of Christian boys, Mir Damad's and al-Maturidi's death years, the number of Sunnis who hold the Mahdi belief, who may be called a mujtahid, what the mahram covers) both are shown and neither is settled.
+
+## v1.64.0 — 2026-11-16
+### Added
+- Job Browser: five sport and patronage professions — the wrestler (pehlivan), the archer (kemankeş) of the Okmeydanı ranges, the cirit-player, the waqf founder (waqif) and the patron (ḥāmī) — in Arabic, English and Urdu draft cited to the TDV entries GÜREŞ, OK, CİRİT, VAKIF and HİMAYE, plus Evliya Çelebi, Lane and Elgood.
 
 ## v1.63.0 — 2026-11-16
 ### Added
