@@ -1,0 +1,23 @@
+id: concept/mur
+class: concept
+kind: natural
+label:
+  ar: "مر"
+  en: "Murr (myrrh)"
+  ur: "مر"
+summary:
+  ar: "المر صمغ حار يابس في الثانية، مفتح محلل للرياح، فيه قبض وإلزاق وتليين، يمنع التعفن، وللمر في الكتاب منافع في الفم والجراح والصدر والمعدة، وقد يغش بيتوع قتال فيصير قاتلاً {cite:canon-ibn-sina-print-v1 p.565}."
+  en: "Murr is a gum, hot and dry in the second degree, opening and dissolving winds, with astringency, sticking and softening, which prevents putrefaction; the book gives it uses for the mouth, wounds, chest and stomach, and warns that it is adulterated with a deadly spurge that makes it deadly {cite:canon-ibn-sina-print-v1 p.565}."
+  ur: "مر ایک گوند ہے، دوسرے درجے میں گرم خشک، ہواؤں کو کھولنے اور تحلیل کرنے والا، جس میں قبض، چپکانے اور نرم کرنے کی صفت ہے اور جو سڑاند روکتا ہے؛ کتاب اسے منہ، زخموں، سینے اور معدے کے لیے مفید بتاتی ہے، اور خبردار کرتی ہے کہ اس میں مہلک یتوع کی ملاوٹ ہو جاتی ہے جو اسے مہلک بنا دیتی ہے {cite:canon-ibn-sina-print-v1 p.565}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter mim, scan pages 565-566, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json) and checked by eye against the page images for scan 562 and 563; editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen and desire reports kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-18
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

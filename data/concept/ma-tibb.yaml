@@ -1,0 +1,23 @@
+id: concept/ma-tibb
+class: concept
+kind: natural
+label:
+  ar: "ماء"
+  en: "Ma' (water)"
+  ur: "ماء"
+summary:
+  ar: "الماء في الكتاب دواء مفرد تختلف أحواله بحسب مصدره، فالبحر والكبريتي والشبي والحديدي والنحاسي والبارد والفاتر لكل منها طبع وخواص ومنافع بحسب الأعضاء {cite:canon-ibn-sina-print-v1 p.557} {cite:canon-ibn-sina-print-v1 p.559}."
+  en: "In the book water is a simple remedy whose state varies with its source; sea, sulphur, alum, iron, copper, cold and tepid waters each have a temperament, properties and uses by organ {cite:canon-ibn-sina-print-v1 p.557} {cite:canon-ibn-sina-print-v1 p.559}."
+  ur: "کتاب میں پانی ایک مفرد دوا ہے جس کی حالت اس کے منبع کے مطابق بدلتی ہے؛ سمندری، گندھک، پھٹکری، لوہے، تانبے، ٹھنڈے اور نیم گرم پانیوں میں سے ہر ایک کا مزاج، خواص اور اعضاء کے لحاظ سے فوائد ہیں {cite:canon-ibn-sina-print-v1 p.557} {cite:canon-ibn-sina-print-v1 p.559}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letters lam and mim, scan pages 557 to 559, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen and desire reports kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-17
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

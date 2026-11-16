@@ -1,0 +1,23 @@
+id: concept/mughath
+class: concept
+kind: natural
+label:
+  ar: "مغاث"
+  en: "Mughath (a medicinal root)"
+  ur: "مغاث"
+summary:
+  ar: "المغاث جذر دوائي، حار إلى الثانية رطب في الثالثة، مقوٍّ للأعضاء مسمن، ينفع المفاصل والحلق والرئة {cite:canon-ibn-sina-print-v1 p.559}."
+  en: "Mughath is a medicinal root, hot to the second degree and moist in the third, strengthening to the organs and fattening, and is listed for the joints, throat and lung {cite:canon-ibn-sina-print-v1 p.559}."
+  ur: "مغاث ایک دوائی جڑ ہے، دوسرے درجے تک گرم اور تیسرے میں تر، اعضاء کو قوت دینے والی اور موٹا کرنے والی؛ جوڑوں، حلق اور پھیپھڑے میں مذکور ہے {cite:canon-ibn-sina-print-v1 p.559}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letters lam and mim, scan pages 559, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen and desire reports kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-17
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

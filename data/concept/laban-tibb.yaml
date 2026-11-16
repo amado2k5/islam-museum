@@ -1,0 +1,23 @@
+id: concept/laban-tibb
+class: concept
+kind: natural
+label:
+  ar: "لبن"
+  en: "Laban (milk)"
+  ur: "لبن"
+summary:
+  ar: "اللبن مركب من جواهر ثلاثة مائية وجبنية ودسومة، وأفضله لبن النساء، يعدل الكيموسات ويغذي ويقوي البدن، ويختلف بحسب الحيوان والفصل والمرعى، وفي الكتاب تفصيل طويل لمنافعه ومضاره بحسب الأعضاء {cite:canon-ibn-sina-print-v1 p.546} {cite:canon-ibn-sina-print-v1 p.550}."
+  en: "Milk is composed of three substances, watery, cheesy and fatty; the best is woman's milk, and it balances the humours, nourishes and strengthens the body, varying with the animal, the season and the pasture; the book gives a long account of its benefits and harms by organ {cite:canon-ibn-sina-print-v1 p.546} {cite:canon-ibn-sina-print-v1 p.550}."
+  ur: "دودھ تین جوہروں سے مرکب ہے: آبی، پنیری اور چکنائی؛ بہترین عورت کا دودھ ہے، یہ اخلاط کو معتدل کرتا، غذا دیتا اور بدن کو قوت دیتا ہے، اور جانور، موسم اور چراگاہ کے مطابق بدلتا ہے؛ کتاب اعضاء کے لحاظ سے اس کے فوائد اور نقصانات کی طویل تفصیل دیتی ہے {cite:canon-ibn-sina-print-v1 p.546} {cite:canon-ibn-sina-print-v1 p.550}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letters lam and mim, scan pages 546 to 550, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen and desire reports kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-17
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

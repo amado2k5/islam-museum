@@ -1,0 +1,23 @@
+id: concept/mulayha
+class: concept
+kind: natural
+label:
+  ar: "مليحة"
+  en: "Mulayha (a boxthorn-like shrub)"
+  ur: "ملیحہ"
+summary:
+  ar: "المليحة كالعوسج، ورقها كورق الزيتون وأعرض، وتؤكل كالبقول، فيها ملوحة وقبض ورطوبة فجة ينفخ بها، وتذكر للبن وللمغص {cite:canon-ibn-sina-print-v1 p.569}."
+  en: "Mulayha is like the boxthorn, its leaf like an olive leaf but broader, and it is eaten as a vegetable; it has saltiness, astringency and a raw moisture that bloats, and is listed for milk and for colic {cite:canon-ibn-sina-print-v1 p.569}."
+  ur: "ملیحہ عوسج جیسی ہے، اس کا پتا زیتون کے پتے جیسا مگر زیادہ چوڑا ہے، اور اسے ترکاریوں کی طرح کھایا جاتا ہے؛ اس میں نمکینی، قبض اور کچی نمی ہے جس سے پیٹ پھولتا ہے، اور دودھ اور مروڑ کے لیے مذکور ہے {cite:canon-ibn-sina-print-v1 p.569}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter mim, scan pages 569, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json) and checked by eye against the page images for scan 562 and 563; editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen and desire reports kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-18
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }
