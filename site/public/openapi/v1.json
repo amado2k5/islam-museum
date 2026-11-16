@@ -1034,6 +1034,27 @@
         ]
       }
     },
+    "/ukhuwwa.json": {
+      "get": {
+        "summary": "Ukhuwwa Browser — Brotherhood in Islam dataset",
+        "description": "The Ukhuwwa Browser dataset (متصفح الأخوة في الإسلام): everything the museum's sources mention about brotherhood and sisterhood in Islam — faith-brotherhood («المؤمنون إخوة», «المسلم أخو المسلم»), the brothers and sisters themselves, the Prophet's brothering (المؤاخاة) of the Muhajirun and the Ansar, love for God's sake (الحب في الله), altruism and aid (الإيثار ونصرة الأخ), the rights a Muslim owes a Muslim (حقوق الأخ) and what breaks brotherhood (حسد، بغض، هجر، ظن السوء) — in the Qur'an, Sunnah, seerah, Companion and Tabi'in reports and every harvested book — passages detected at build time by a guarded lexicon (possessed-form gating on bare «أخ», isnad-shape exclusion on «عن أخيه», rights-context gating on «عيادة/تشميت», brother-context gating on «حسد/غيبة/هجر», false positives by id) plus the curated ukhuwwa-browser records — each with its section (quran, sunnah, seerah, books, curated), topical topics (ikwha, muakhat, hubb, ithar, huquq, tahdhir), matched signals, work, ref, text excerpt, kind, themes, tags and edges.",
+        "responses": {
+          "200": {
+            "description": "Ukhuwwa dataset",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "tags": [
+          "ukhuwwa"
+        ]
+      }
+    },
     "/openapi.json": {
       "get": {
         "operationId": "getOpenApi",
