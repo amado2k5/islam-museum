@@ -13,6 +13,10 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v1.62.0 — 2026-11-16
+### Added
+- Job Browser: six offices and roles — the king (malik), the ambassador (elçi), the regent (nāib), the Ismaili missionary (dāʿī), the tribal chief (shaykh al-ʿashīra), and the lawyer/agent (wakīl) — in Arabic, English and Urdu draft cited to the TDV entries MELİK, ELÇİ, NÂİB, DÂÎ, ŞEYH/AŞİRET/KABİLE and VEKÂLET.
+
 ## v1.61.0 — 2026-11-16
 ### Added
 - Job Browser: six military professions — the janissary of the Yeniçeri ocak, the mamluk military slave who rose to the throne, the ghazi of the frontier, the admiral (kapudan paşa) of the Ottoman fleet, the corsair sea-raider of the Maghreb, and the serdar commander of the campaign — in Arabic, English and Urdu draft cited to the TDV entries YENİÇERİ, MEMLÜK, GAZİ, KAPUDAN PAŞA, KORSAN and SERDAR.

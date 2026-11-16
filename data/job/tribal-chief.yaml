@@ -1,0 +1,48 @@
+id: job/tribal-chief
+class: job
+label: { ar: "شيخ القبيلة", en: "Tribal chief (shaykh of the tribe)", ur: "قبیلے کا سردار ⁦(شیخ قبیلہ)⁩" }
+names:
+  - { value: "شيخ", kind: alternate }
+  - { value: "seyh", kind: latinized, lang: tr }
+  - { value: "سيد", kind: alternate }
+  - { value: "رئيس", kind: alternate }
+  - { value: "مير عشيرة", kind: alternate }
+  - { value: "mîr-aşiret", kind: latinized, lang: tr }
+  - { value: "بوي بيي", kind: alternate }
+  - { value: "boy beyi", kind: latinized, lang: tr }
+  - { value: "كتخدا", kind: alternate }
+  - { value: "kethüdâ", kind: latinized, lang: tr }
+summary:
+  ar: "شيخ القبيلة رئيسها المعروف بفضله أو ماله، تثقل مسؤولياته وإن قلّت امتيازاته: يجمع شمل القبيلة في الحرب والسلم ويقضي حاجاتها، ولا يملك عليها سلطاناً مطلقاً إذ يشاور مجلس كبار الأسر في المهمات، فيحكم أكثر مما يأمر. عند العرب كان يقال له شيخ أو سيد أو رئيس، وعند العثمانيين أدار البويّ أميرُه «بوي بيي» والعشيرة «مير عشيرة» أو كتخدا، وغلب الإرث على الاختيار. وكان عليه أن يكون صبوراً كريماً مضيافاً، شجاعاً يقدم نفسه للخطر في مصلحة القبيلة."
+  en: "The tribal shaykh is the man recognised as the tribe's head for his merit or wealth; his burdens are heavy though his privileges are few. He holds the tribe together in war and peace and sees to its needs, yet wields no absolute authority — great matters go before the council of family elders, so he arbitrates more than he commands. The Arabs called him shaykh, sayyid or ra'is; among the Ottomans the boy was run by its boy beyi and the aşiret by its mîr-aşiret or kethüdâ, the office usually passing by inheritance. He had to be patient, generous and hospitable, and brave enough to risk himself for the tribe."
+  ur: "شیخِ قبیلہ وہ شخص ہے جسے اس کی قابلیت یا دولت کی بنا پر قبیلے کا سردار مانا جاتا ہے؛ اس کی ذمہ داریاں بھاری ہیں اگرچہ مراعات کم۔ وہ جنگ اور امن میں قبیلے کو یکجا رکھتا اور اس کی ضرورتیں پوری کرتا ہے، مگر اس پر مطلق اختیار نہیں — بڑے معاملے خاندانوں کے بزرگوں کے مجلس میں طے ہوتے ہیں، اس لیے وہ حکم دینے سے زیادہ ثالثی کرتا ہے۔ عرب اسے شیخ، سید یا رئیس کہتے تھے؛ عثمانیوں میں بوئے کو بوئے بئی اور عشیرے کو میر عشیرہ یا کتخدا چلاتا تھا، اور یہ عہدہ عموماً موروثی تھا۔ اسے صبور، سخی اور مہمان نواز ہونا چاہیے تھا اور قبیلے کے مفاد میں اپنی جان داؤ پر لگانے کی ہمت۔"
+domain: governance-law
+kind: office
+hirfa: false
+era:
+  origins: pre-islamic
+  status_today: living
+places:
+  - { place: place/mecca, note: "Jahiliyya Arabian tribes obeyed no organised polity: each tribe's shaykh kept it together in war and peace, arbitred more than commanded, and the tribe's menzil territory and hilf pacts defined its world.", sources: [source/tdv-seyh, source/tdv-kabile] }
+  - { place: place/istanbul, note: "Ottoman registers graded the nomad order as boy ⁦(tribe)⁩, aşiret, cemaat, oymak, mahalle, oba; the boy beyi ran the boy while the mîr-aşiret or kethüdâ ran the aşiret, generally by hereditary succession, and the state reorganised tribes as kethüdâlıks to control their routes.", sources: [source/tdv-asiret] }
+  - { place: place/mogadishu, note: "Ibn Battuta, visiting Mogadishu in 1331 in the reign of Sultan Abu Bakr b. Umar, records that the sultan there was called shaykh.", sources: [source/tdv-seyh] }
+regions: [arabia, levant-iraq, egypt-nile, maghreb, anatolia-balkans, persia-central-asia, east-africa, south-asia]
+organization:
+  organized: informal
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people]
+periods: [period/pre-islamic-arabia, period/prophetic-era, period/rashidun, period/umayyad, period/abbasid-early, period/buyid-seljuk-fatimid-era, period/mongol-post-mongol, period/gunpowder-empires, period/colonial-era, period/contemporary-era]
+sources: [source/tdv-seyh, source/tdv-asiret, source/tdv-kabile]
+training:
+  mode: hereditary-family
+  certification: "Recognition came with the man, not the office: personal merit or wealth made a chief, and among the nomads the choice of aşiret beys within the boy beyi's authority was generally hereditary. There was no investiture; the test was whether the council of family elders and the tribe followed him."
+  duration: "Lifelong while he held the tribe's confidence; failure could mean removal — and for members who disgraced the tribe, the khal' penalty cast them out until another tribe, family or patron took them under protection."
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-gov-2" }
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi, 'ŞEYH' (Avcı, 2010, vol. 39, p. 49), 'AŞİRET' (Halaçoğlu, 1991, vol. 4, p. 9) and 'KABİLE' (Avcı & Şentürk, 2001, vol. 24, pp. 30-32), web editions read on 16 Nov 2026"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-gov-2-drafting"
