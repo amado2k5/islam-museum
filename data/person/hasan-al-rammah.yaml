@@ -1,0 +1,25 @@
+id: person/hasan-al-rammah
+class: person
+label: { ar: "الحسن الرماح نجم الدين الأحدب", en: "Al-Hasan al-Rammah Najm al-Din al-Ahdab", ur: "حسن رماح نجم الدین احدب" }
+names:
+  - { value: "الحسن الرماح نجم الدين الأحدب", kind: full, lang: ar }
+  - { value: "al-Hasan al-Rammah \"the lancer\"", kind: alternate, lang: en }
+  - { value: "Hassan Alrammah", kind: latinized, lang: la }
+gender: male
+roles: [military-writer, engineer]
+faith:
+  - value: sunni
+    basis: tradition
+    note: "A late-thirteenth-century Syrian furusiyya writer whose treatise is framed 'for the advancement of Islam'; Sunni is the museum's default frame for the Syrian Ayyubid-Mamluk military milieu, not a documented school declaration."
+    sources: [source/partington-greek-fire-gunpowder-1960, source/encyclopaedia-of-islam-2]
+summary:
+  ar: "كاتب فروسية شامي أواخر القرن السابع الهجري ⁦(ت 1294-1295م)⁩؛ صنّف «كتاب الفروسية والمناصب الحربية» وفيه أول بيان واضح معروف عند بارتينغتون لتطهير الملح ⁦(البارود)⁩ برماد الخشب والتبلور، وتركيبات نارية كثيرة، دون أي ذكر لاستعمال البارود دافعاً أو لسلاح ناري {cite:partington-greek-fire-gunpowder-1960}."
+  en: "A Syrian furusiyya writer of the late thirteenth century ⁦(d. 1294-95)⁩ who compiled the Kitab al-Furusiyya wa'l-manasib al-harbiyya; it contains the first clear account known to Partington of purifying saltpetre with wood ashes and crystallisation, many pyrotechnic compositions, and no mention of gunpowder as a propellant or of any firearm {cite:partington-greek-fire-gunpowder-1960}."
+  ur: "تیرہویں صدی کے آخر کا شامی فروسیہ مصنف ⁦(وفات 1294-95)⁩ جس کی کتاب الفروسیۃ والمناصب الحربیۃ میں پارٹنگٹن کے نزدیک ملحِ بارود کی تصفیہ کا پہلا واضح بیان، بہت سی نیرنگی ترکیبیں ہیں، مگر بارود کو محرک یا کسی اسلحے کا ذکر نہیں {cite:partington-greek-fire-gunpowder-1960}۔"
+wings: [people]
+regions: [levant-iraq]
+periods: [period/crusades-ayyubid-mamluk]
+died: { edtf: "1294/1295", calendar: julian, precision: year, status: historical, note: "Partington gives his death in 1294-95, in his thirties, so that his writing can hardly be before 1280.", sources: [source/partington-greek-fire-gunpowder-1960] }
+sources: [source/partington-greek-fire-gunpowder-1960]
+status: { review: published, completeness: 2 }
+provenance: { generated_by: devin-drafter-w2-26, model: SWE-2, run: inventions-w2-26, source: "Partington 1960 al-Rammah section read in archive.org OCR" }
