@@ -15,6 +15,7 @@ open a new block on top with the new version and today's date.
 
 ## v2.02.0 — 2026-11-17
 ### Added
+- Modern-figures wave 203, section A: four Turkish-scene person records from the wave-202 Tier 2 re-check — İhsan Şenocak (668K subscribers), Mehmet Okuyan (485K), Ömer Döngeloğlu (339K on his posthumous legacy channel) and Adem Güneş (317K) — each with Arabic, English and Urdu pages and dated channel counts.
 - Job Browser linking wave 28: 35 `occupations:` edges on 25 person records — finishes the teacher and qari pools; ten emirs, six ulema, four muhaddiths, plus mathematician, grammarian and poet links.
 
 ## v2.01.0 — 2026-11-17

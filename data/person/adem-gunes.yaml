@@ -1,0 +1,37 @@
+id: person/adem-gunes
+class: person
+label: { ar: "آدم غونش", en: "Adem Güneş", ur: "آدم گونش" }
+names:
+  - { value: "Adem Güneş", kind: full }
+  - { value: "آدم غونش", kind: full }
+gender: male
+summary:
+  ar: "مربٍّ وكاتب تركي في تربية الأطفال والأسرة، وُلد سنة 1969 في أنقرة، وتخرّج في كلية التربية بجامعة روتردام، وألّف 22 كتابًا بالتركية وكتابين بالإنجليزية في تربية الأطفال، منها «سرّ الطفولة» و«التربية بلا عقاب». بلغت قناته على يوتيوب 317,000 مشترك كما في 15 نوفمبر 2026 بحسب vidIQ، وهو عدد منصّة مؤرخ لا حقيقة متحقق منها متحفيًا."
+  en: "Turkish pedagogue and author on child and family education, born in 1969 in Ankara. He graduated from Rotterdam University's pedagogy faculty and has written 22 books in Turkish and 2 in English on child education, among them Çocukluk Sırrı (The Wonder of Childhood) and Cezasız Eğitim (Education Without Punishment). His YouTube channel counted 317,000 subscribers as of 15 November 2026 per vidIQ — a dated platform count, not a museum-verified fact."
+  ur: "ترک ماہرِ تعلیمِ اطفال اور مصنف، جو 1969ء میں انقرہ میں پیدا ہوئے، روٹرڈیم یونیورسٹی کے شعبۂ تعلیم سے فارغ التحصیل ہوئے، اور بچوں کی تعلیم پر ترکی میں 22 اور انگریزی میں 2 کتابیں لکھیں، جن میں «بچپن کا راز» اور «سزا کے بغیر تعلیم» شامل ہیں۔ vidIQ کے مطابق 15 نومبر 2026ء کو ان کے یوٹیوب چینل کے سبسکرائبر 317,000 تھے — یہ ایک مؤرخہ منصّہ عدد ہے، عجائب گھر کی تصدیق شدہ حقیقت نہیں۔"
+roles: [writer, teacher]
+wings: [people, living]
+regions: [anatolia-balkans]
+born:
+  edtf: "1969"
+  calendar: gregorian
+  precision: year
+  status: historical
+  note: "Born in 1969 in Ankara, per the Azerbaijani Wikipedia article, which gives no day or month, so no fuller date is recorded; an Ankara place record exists in the museum, so the born_in edge is written to Ankara itself."
+  sources: [source/wikipedia-adem-gunes-az]
+relations:
+  - { type: born_in, target: place/ankara, sources: [source/wikipedia-adem-gunes-az], note: "Born in Ankara, per the Azerbaijani Wikipedia article." }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No two prose texts attest a school for Adem Güneş himself. The Azerbaijani article names no religion or school for him at all, and his official website's books page — the other prose text read — names none either; his subject is child education, and neither his pedagogy formation nor his publishing and broadcasting work is a faith attestation. Under the doubt rule the value stays unknown."
+    sources: [source/wikipedia-adem-gunes-az, source/official-site-adem-gunes]
+reach:
+  - { platform: youtube, metric: subscribers, value: 317000, date: "2026-11-15", note: "@pedagojiokulu ('PEDAGOJİ OKULU - Pedagog Adem Güneş'): 317,000 subscribers, 18,311,103 views and 645 videos as of 15 November 2026 per vidIQ, recorded by the wave-203 harvest — a dated platform count, not a museum-verified fact. The channel's own description calls it his official YouTube channel, as recorded by the harvest via SPEAKRJ.", sources: [source/vidiq-adem-gunes, source/youtube-adem-gunes] }
+sources: [source/wikipedia-adem-gunes-az, source/official-site-adem-gunes, source/vidiq-adem-gunes, source/youtube-adem-gunes]
+provenance:
+  layer: own-research
+  source: "Built from the wave-203 (Turkish scene) harvest slice B §2 and build-time checks of 16 November 2026: the Azerbaijani Wikipedia article 'Adəm Günəş' read in full (the slice-B harvest reported no Wikipedia article for him in any language; an Azerbaijani article exists and was read at build, and that correction is recorded on the source entity — its sourcing is thin, a single archived reference, and only the facts it states plainly are taken), his official website's books page (ademgunes.com) read in full, and the harvest's vidIQ read of his YouTube channel @pedagojiokulu (317,000 subscribers as of 15 November 2026), whose own-channel basis is the channel description's 'resmi YouTube kanalı' wording recorded via SPEAKRJ. Qualification rests on that dated count, above the men's bar. The designation screen at build found no verified link, endorsement or financial tie to any designated organisation. A radio-broadcaster role carried in the harvest was not verified in any source read at build and is not recorded. No source read names a school for him in prose, so his faith stays unknown. No Wikidata item was verified in this build — web searches returned no Wikidata item for him (the Adem Güneş items found belong to other people of the same name) and a direct Wikidata search request was refused (HTTP 403), as the harvest also found — so no external identifier is recorded and the absence is recorded here explicitly."
+  generated_by: "Muse (Muse Wonder)"
+  run: modern-figures-wave-203-a
+status: { review: published, completeness: 3 }
