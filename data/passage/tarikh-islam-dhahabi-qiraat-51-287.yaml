@@ -1,0 +1,18 @@
+id: passage/tarikh-islam-dhahabi-qiraat-51-287
+class: passage
+unit: chapter
+work: work/tarikh-islam-dhahabi
+ref: "51:287"
+label: { ar: "تاريخ الإسلام للذهبي، المجلد المصوَّر 51، ص 287 — قراءات القرآن، القراء", en: "al-Dhahabi's Tarikh al-Islam, scan volume 51, p. 287 — the readings of the Qur'an; the readers", ur: "تاریخ الاسلام، ذہبی، اسکین جلد 51، ص 287 — قرآن کی قراءتیں، قراء" }
+text: "… بها القراءآت على : أبي موسى عيسى بن يوسف بن إسماعيل المقدِسيّ، وأبي القاسم عبد الواحد بن سعيد الشّافعيّ. وعرض عليهما الشّاطبيّة عن أحدهما، عن أبي القاسم الشّاطبيّ. وعرض الرّائيّة في رسم المُصْحَف على الجمال عليّ بن أبي بكر الشّاطبيّ …"
+summary:
+  ar: "مقطع من تاريخ الإسلام للذهبي، المجلد المصوَّر 51، ص 287، يذكر قراءات القرآن، والقراء، وجمع القرآن والمصاحف، ورسم المصحف؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح قراءات القرآن والرسم والخطوط والضبط."
+  en: "An excerpt from al-Dhahabi's Tarikh al-Islam, scan volume 51, p. 287, that mentions the readings of the Qur'an, the readers, the collection of the Qur'an and the codices, the orthography of the mushaf; from the machine-read scan, quoted within forty words per the sources policy. The browser of the museum for how the Qur'an was read and written lists it."
+  ur: "تاریخ الاسلام، ذہبی، اسکین جلد 51، ص 287 کا اقتباس جس میں قرآن کی قراءتیں، قراء، جمعِ قرآن اور مصاحف، رسمِ مصحف کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ قراءات، رسم، خطوط اور نقطوں کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/qiraat, sources: [source/tarikh-islam-dhahabi] }
+  - { type: mentions, target: concept/mushaf, sources: [source/tarikh-islam-dhahabi] }
+  - { type: mentions, target: concept/rasm-al-quran, sources: [source/tarikh-islam-dhahabi] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan tareekh/tarikh-islam-dhahabi/01.-_20240823__48. تاريخ الإسلام — (651 - 660 ه‍), page 287; a window of at most 40 words chosen by the qira'at detector (scripts/qiraat.ts); OCR text not corrected", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "qiraat-ocr-1" }
+sources: [source/tarikh-islam-dhahabi]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-sonnet-5-5) from the OCR'd book; label and summary are the museum's own words" }

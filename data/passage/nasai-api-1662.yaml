@@ -1,0 +1,16 @@
+id: passage/nasai-api-1662
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "1662"
+label: { ar: "سنن النسائي 1662 — قراءات القرآن", en: "Sunan al-Nasa'i 1662 — the readings of the Qur'an", ur: "سنن نسائی 1662 — قرآن کی قراءتیں" }
+text: "أَخْبَرَنَا شُعَيْبُ بْنُ يُوسُفَ، قَالَ حَدَّثَنَا عَبْدُ الرَّحْمَنِ، عَنْ مُعَاوِيَةَ بْنِ صَالِحٍ، عَنْ عَبْدِ اللَّهِ بْنِ أَبِي قَيْسٍ، قَالَ سَأَلْتُ عَائِشَةَ كَيْفَ كَانَتْ قِرَاءَةُ رَسُولِ اللَّهِ بِاللَّيْلِ يَجْهَرُ أَمْ يُسِرُّ قَالَتْ كُلُّ ذَلِكَ قَدْ كَانَ يَفْعَلُ رُبَّمَا جَهَرَ وَرُبَّمَا أَسَرَّ."
+summary:
+  ar: "حديث في سنن النسائي، رقم 1662، يذكر قراءات القرآن. يجمعه متصفح قراءات القرآن والرسم والخطوط والضبط مع نصوص القرآن والسنة والسيرة والكتب في قراءات القرآن وكتابته."
+  en: "A report in Sunan al-Nasa'i, no. 1662 (The Book of Qiyam Al-Lail (The Night Prayer) and Voluntary Prayers During the Day), that mentions the readings of the Qur'an. The browser of the museum for how the Qur'an was read and written lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on that subject."
+  ur: "سنن نسائی کی حدیث نمبر 1662، جس میں قرآن کی قراءتیں کا ذکر ہے۔ قراءات، رسم، خطوط اور نقطوں کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/qiraat, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 1662 (book 20 hadith 65); matn excerpt of at most 55 words chosen by the qira'at detector (scripts/qiraat.ts), honorific formulas left out", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "qiraat-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-sonnet-5-5) from the hadith-api Arabic edition; label and summary are the museum's own words" }

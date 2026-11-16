@@ -1816,6 +1816,10 @@ explore:
       title: "Cosmos Browser: Beings, Earlier Nations and the Secrets of the Universe"
       desc: "What the Qur'an, the Sunnah and the books say of creatures beyond the earth, the seven heavens and earths, who held the earth before Adam, the vanished peoples and the secrets of the cosmos — every verse and report cited, every view labelled."
       menu: "Browse beings, earlier nations and cosmic secrets"
+    qiraat:
+      title: "Qur'an Readings, Orthography, Scripts and Dotting Browser"
+      desc: "The seven ahruf, the readings and their imams, the collection of the Qur'an and the copying of the codices, the orthography of the mushaf and the debate over ordinary spelling, its dots and vowel marks, and the scripts it was written in — every verse and report cited, every view attributed."
+      menu: "Browse the readings, rasm, scripts and dotting of the Qur'an"
     signs:
       title: "Signs of the Hour Browser"
       desc: "Every mention of the signs of the Hour, the Day of Judgment and all eschatology in the Qur'an, the Sunnah, the seerah and every harvested book — the major and minor signs, barzakh, resurrection, reckoning, Paradise and Hell — with every verse and report cited."
@@ -5244,6 +5248,100 @@ cosmos:
     earth: "Earth"
     records: "{n} records"
     empty_theme: "No records yet"
+qiraat:
+  title: "Qur'an Readings, Orthography, Scripts and Dotting Browser"
+  lede: "Everything the museum's sources say about how the Qur'an is read and how it is written: the seven ahruf, the canonical readings, their imams and transmitters; the collection of the Qur'an under Abu Bakr and the copying of the codices under 'Uthman; the orthography (rasm) of the mushaf and the debate over writing it in ordinary (imla'i) spelling; its dots, vowel marks and other signs; and the scripts it has been written in, from Hijazi and Kufic to naskh, thuluth and Maghribi. Every verse, report and book passage is cited, and every opinion is attributed to the one who held it."
+  badge: Readings and rasm explorer
+  hero_kufi: "Readings · Rasm · Scripts · Dots"
+  hero_naskh: "How the Qur'an is read and how it was written: from the first parchment to the printed mushaf"
+  status: "This build holds {n} records in {s} sections; each record lists its sources, and the texts were written by AI agents from those sources and have not yet been read by a human."
+  method_title: The browser's method
+  method_note: "This browser gathers what is said and written on four connected matters: how the Qur'an is read, how it is spelled in the codices, in which script it was written, and how it was dotted and vowelled. Qur'an verses come from a reviewed table: the verses on reading, measured recitation, the pen and the pages, and the verses in which the readers or the codices of the cities are recorded as differing. Qur'an text appears in the museum only from its frozen files, so a variant reading is described in words and never typed. Every other text — hadith, seerah, reports of the Companions and Successors, and books — is found at build time by a guarded lexicon over each passage, so a mention in a book harvested later appears the day its passage lands. The browser gives no verdict: where scholars differ, as on the meaning of the seven ahruf or on writing the mushaf in ordinary spelling, the record gives each view with its holder."
+  api: "The whole set is available at"
+  topics_title: The browser's seven topics
+  sections_title: The browser's sections
+  filter_label: Filter the readings and rasm records
+  filter_none: No matches.
+  empty: No readings or rasm records in this build yet.
+  topics:
+    ahruf: The seven ahruf
+    readings: The readings
+    readers: Readers and transmitters
+    codex: The collection and the codices
+    rasm: Orthography of the mushaf
+    naqt: Dots, vowel marks and signs
+    khatt: Scripts and writing
+  topics_desc:
+    ahruf: "The report that the Qur'an was sent down in seven ahruf, its narrations, and what scholars said it means."
+    readings: "The canonical and non-canonical readings, the Companions' readings reported in hadith, and the verses in which the readers differ."
+    readers: "The readers among the Companions and Successors, the seven and the ten imams and their transmitters, and the authors on the readings."
+    codex: "The writing down of the revelation, Abu Bakr's collection, 'Uthman's copying of the codices and their dispatch to the cities, and the Companions' codices."
+    rasm: "The spelling of the 'Uthmanic codices and its rules, the differences between the codices of the cities, and the debate over ordinary spelling."
+    naqt: "The dots for case endings and the dots that tell letters apart, the vowel signs, the marks of tens and divisions, and the reports of early dislike and later acceptance."
+    khatt: "The pen, the ink and the pages in the Qur'an; the scripts of the mushaf from Hijazi and Kufic to the six pens and Maghribi; and the calligraphers."
+  sections:
+    quran:
+      title: In the Qur'an
+      desc: "The verses on reading and measured recitation, the tongue of the revelation and its easing, the keeping of the Book and its pages, the pen, the ink and writing, and the verses in which the readers or the codices of the cities are recorded as differing."
+    sunnah:
+      title: In the Sunnah
+      desc: "The reports of the seven ahruf, the collection of the Qur'an and the copying of the codices, the books of 'letters and readings' in Abu Dawud and al-Tirmidhi, the Prophet's reading and the Companions' readings, and what is reported about the mushaf."
+    seerah:
+      title: In the seerah
+      desc: "What the seerah books carry on the writing down of the revelation, its scribes, and the reading and teaching of the Qur'an — this section fills itself as new seerah texts with such mentions land."
+    books:
+      title: In the other books
+      desc: "Qur'anic sciences, the readings, commentary, history, biography and the books on writing and script: every harvested book beyond the Qur'an, the hadith and the seerah that treats these matters, and whatever comes next."
+    sciences:
+      title: Sciences, events and questions
+      desc: "The museum's records on the seven ahruf, the readings and their conditions, the collection and copying of the Qur'an, the orthography, dotting and vowelling of the mushaf, and the questions scholars differed on."
+    people:
+      title: Readers, scribes and calligraphers
+      desc: "The scribes of the revelation and the collectors of the mushaf, the seven and the ten readers and their transmitters, the authorities on rasm and dabt, those who dotted and vowelled the mushaf, and the masters of script."
+    scripts:
+      title: The scripts
+      desc: "The scripts the mushaf and other texts were written in: Hijazi, Kufic, naskh, thuluth, muhaqqaq, rayhan, Maghribi and their offshoots."
+    works:
+      title: The books
+      desc: "The books on the readings, rasm, dabt, the Qur'anic sciences and script that the museum describes."
+    mushafs:
+      title: The mushafs
+      desc: "The manuscript and printed mushafs the museum describes, with their scripts and what is recorded of their dotting and marks."
+  viz:
+    title: "The ruled page: seven lines"
+    lede: "A line for each topic, and on each line a dot for every section that holds records of it, sized by their number. Every dot is a link to that section's list below; a record with two topics is counted on both lines."
+    topic_col: Topic
+    total_col: Total
+    records: "{n} records"
+    empty_topic: "No records yet"
+    untopiced: "{n} records in the browser are not filed under a single topic; they are in the lists below."
+  gallery:
+    title: "The art of Arabic writing"
+    lede: "From slanting letters on parchment in the first century to gilded lines measured by the dot: the script the mushaf was written in became an art in its own right. Here the scripts stand side by side — the upright angles of Kufic, the clear suppleness of naskh, the majesty of thuluth, the breadth of muhaqqaq, the rounded sweep of Maghribi. Every image is a real manuscript or panel, with its source and licence."
+    count: "{n} images of {s} scripts; each image opens its own page with source and licence."
+    compare_title: "The scripts side by side"
+    compare_hint: "Scroll the strip to compare the scripts; choose one to jump to its images."
+    scripts_title: "Script by script"
+    scripts_lede: "Each script has its name, its time and its look. Read what it is and see pages written in it."
+    mushafs_title: "Celebrated mushafs"
+    mushafs_lede: "Manuscript mushafs the museum describes, from the earliest Hijazi leaves to the mushafs of sultans."
+    hands_title: "In the masters' hands"
+    hands_lede: "Pages in the hands of the masters of script, as the image sources attribute them."
+    read_more: "Read the record"
+    details: "Image details"
+    no_image: "Scripts with no image yet:"
+  timeline:
+    title: "From the first pages to the printed mushaf"
+    lede: "The browser's dated records on one line: events at their date, people at their death, books at their composition."
+    caption: "{n} dated records; {u} undated records are in the lists below."
+    century: "Century {c} CE"
+  chains:
+    title: "The ten imams: who read to whom"
+    lede: "A card for each imam of the ten readings, in the order of al-Nashr, with the teachers he read to and the readers who read to him directly, as the museum's records hold them. A transmitter who reached his imam through an intermediary is on that intermediary's card or on the imam's own page."
+    died: "d. {d}"
+    teachers: "Read to"
+    students: "Read to him"
+    none: "No direct link recorded yet"
 qudsi:
   title: "Hadith Qudsi Browser"
   lede: "A hadith qudsi is a report the Prophet relates from his Lord in words other than the Qur'an's. Here is every hadith qudsi in the six books and the Muwatta of Malik, gathered with its narrations in each collection and arranged by theme; every narration is a page in the museum."

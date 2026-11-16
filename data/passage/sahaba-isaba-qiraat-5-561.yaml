@@ -1,0 +1,17 @@
+id: passage/sahaba-isaba-qiraat-5-561
+class: passage
+unit: chapter
+work: work/al-isaba-fi-tamyiz-al-sahaba
+ref: "5:561"
+label: { ar: "الإصابة لابن حجر، المجلد المصوَّر 5، ص 561 — جمع القرآن والمصاحف، الخطوط والكتابة", en: "Ibn Hajar's al-Isaba, scan volume 5, p. 561 — the collection of the Qur'an and the codices; the scripts and the craft of writing", ur: "الاصابہ، ابن حجر، اسکین جلد 5، ص 561 — جمعِ قرآن اور مصاحف، خطوط اور کتابت" }
+text: "… جزم أبو الفتح الازدى وأبو صالح المؤذن بأن عروة تفرد بالرواية عن ناجية الخزاعى فهذا يدل على انه غير الاراسى ناجية الطفاوى. قال ابن منده له ذكر فى الصحابة وكان يكتب المصاحف وأخرج من طريق فروة بن حبيب حدثنا البراء …"
+summary:
+  ar: "مقطع من الإصابة لابن حجر، المجلد المصوَّر 5، ص 561، يذكر جمع القرآن والمصاحف، والخطوط والكتابة؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح قراءات القرآن والرسم والخطوط والضبط."
+  en: "An excerpt from Ibn Hajar's al-Isaba, scan volume 5, p. 561, that mentions the collection of the Qur'an and the codices, the scripts and the craft of writing; from the machine-read scan, quoted within forty words per the sources policy. The browser of the museum for how the Qur'an was read and written lists it."
+  ur: "الاصابہ، ابن حجر، اسکین جلد 5، ص 561 کا اقتباس جس میں جمعِ قرآن اور مصاحف، خطوط اور کتابت کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ قراءات، رسم، خطوط اور نقطوں کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/mushaf, sources: [source/isaba] }
+  - { type: mentions, target: concept/khatt-al-arabi, sources: [source/isaba] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan sahaba/isaba/isaba_tamiz_sahaba, page 561; a window of at most 40 words chosen by the qira'at detector (scripts/qiraat.ts); OCR text not corrected", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "qiraat-ocr-1" }
+sources: [source/isaba]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-sonnet-5-5) from the OCR'd book; label and summary are the museum's own words" }

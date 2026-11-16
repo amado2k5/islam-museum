@@ -1,0 +1,17 @@
+id: passage/tirmidhi-api-3103
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "3103"
+label: { ar: "جامع الترمذي 3103 — القراء، جمع القرآن والمصاحف", en: "Jami' al-Tirmidhi 3103 — the readers; the collection of the Qur'an and the codices", ur: "جامع ترمذی 3103 — قراء، جمعِ قرآن اور مصاحف" }
+text: "… بْنَ الْخَطَّابِ قَدْ أَتَانِي فَقَالَ إِنَّ الْقَتْلَ قَدِ اسْتَحَرَّ بِقُرَّاءِ الْقُرْآنِ يَوْمَ الْيَمَامَةِ وَإِنِّي لأَخْشَى أَنْ يَسْتَحِرَّ الْقَتْلُ بِالْقُرَّاءِ فِي الْمَوَاطِنِ كُلِّهَا فَيَذْهَبَ قُرْآنٌ كَثِيرٌ وَإِنِّي أَرَى أَنْ تَأْمُرَ بِجَمْعِ الْقُرْآنِ. قَالَ أَبُو بَكْرٍ لِعُمَرَ كَيْفَ أَفْعَلُ شَيْئًا لَمْ يَفْعَلْهُ رَسُولُ اللَّهِ فَقَالَ عُمَرُ هُوَ وَاللَّهِ خَيْرٌ فَلَمْ يَزَلْ يُرَاجِعُنِي فِي ذَلِكَ حَتَّى شَرَحَ اللَّهُ …"
+summary:
+  ar: "حديث في جامع الترمذي، رقم 3103، يذكر القراء، وجمع القرآن والمصاحف. يجمعه متصفح قراءات القرآن والرسم والخطوط والضبط مع نصوص القرآن والسنة والسيرة والكتب في قراءات القرآن وكتابته."
+  en: "A report in Jami' al-Tirmidhi, no. 3103 (Chapters on Tafsir), that mentions the readers, the collection of the Qur'an and the codices. The browser of the museum for how the Qur'an was read and written lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on that subject."
+  ur: "جامع ترمذی کی حدیث نمبر 3103، جس میں قراء، جمعِ قرآن اور مصاحف کا ذکر ہے۔ قراءات، رسم، خطوط اور نقطوں کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/qiraat, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/mushaf, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 3103 (book 47 hadith 155); matn excerpt of at most 55 words chosen by the qira'at detector (scripts/qiraat.ts), honorific formulas left out", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "qiraat-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-sonnet-5-5) from the hadith-api Arabic edition; label and summary are the museum's own words" }

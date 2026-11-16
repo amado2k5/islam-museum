@@ -1,0 +1,28 @@
+id: work/al-muhtasab-fi-tabyin-wujuh-shawadhdh-al-qiraat
+class: work
+kind: book
+label: { ar: "المحتسب في تبيين وجوه شواذ القراءات والإيضاح عنها", en: "al-Muhtasab fi Tabyin Wujuh Shawadhdh al-Qira'at wa-l-Idah 'anha (Ibn Jinni)", ur: "المحتسب فی تبیین وجوہ شواذ القراءات و الایضاح عنہا ⁦(ابن جنی)⁩" }
+summary:
+  ar: "كتاب أبي الفتح عثمان بن جني ⁦(ت 392هـ)⁩ في توجيه القراءات الشاذة وبيان وجوهها، وهو مطبوع؛ يعدّه السيوطي بين كتب التوجيه، وتستعين به حواشي طبعة «الإتقان» المحققة لضبط القراءات الشاذة المروية عن الصحابة والتابعين {cite:itqan-suyuti p. 26} {cite:itqan-suyuti p. 536} {cite:itqan-suyuti p. 66}."
+  en: "Abu al-Fath Uthman ibn Jinni's (d. 392 AH) book explaining the anomalous readings and their grounds, printed; al-Suyuti counts it among the books of explanation, and the notes of the edited Itqan use it to fix the anomalous readings reported from the Companions and Successors {cite:itqan-suyuti p. 26} {cite:itqan-suyuti p. 536} {cite:itqan-suyuti p. 66}."
+  ur: "ابو الفتح عثمان بن جنی ⁦(م 392ھ)⁩ کی شاذ قراءتوں کی توجیہ اور ان کی وجوہ کے بیان پر کتاب، جو مطبوع ہے؛ سیوطی اسے توجیہ کی کتابوں میں گنتے ہیں، اور «الاتقان» کے محقق ایڈیشن کے حواشی صحابہ و تابعین سے مروی شاذ قراءتوں کے ضبط میں اس سے مدد لیتے ہیں {cite:itqan-suyuti p. 26} {cite:itqan-suyuti p. 536} {cite:itqan-suyuti p. 66}۔"
+genre: [quran-sciences]
+language: language/arabic
+authors: [person/ibn-jinni]
+structure: "Not read directly; its title, author's date and use as given in the notes of the King Fahd al-Itqan (scan pp. 26, 66, 311-312, 536)."
+wings: [words]
+themes: [scripture-and-its-sciences]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+tags: [qiraat-browser, qiraat-works, qiraat-readings]
+relations:
+  - { type: about, target: concept/qiraat, sources: [source/itqan-suyuti] }
+  - { type: mentions, target: person/ibn-jinni, sources: [source/itqan-suyuti] }
+sources: [source/itqan-suyuti]
+provenance:
+  layer: own-research
+  source: "source/itqan-suyuti scan pp. 26, 66, 311-312, 536; scan page markers"
+  generated_by: "Claude Code (claude-sonnet-5-5)"
+  model: claude-sonnet-5-5
+  run: qiraat-browser-scripts-works-1
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5)" }

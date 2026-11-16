@@ -1,5 +1,6 @@
 id: person/al-hajjaj-ibn-yusuf
 class: person
+tags: [qiraat-browser, qiraat-people, qiraat-codex, qiraat-naqt]
 label: { ar: "الحجاج بن يوسف الثقفي", en: "al-Hajjaj ibn Yusuf al-Thaqafi" }
 summary:
   ar: "الحجاج بن يوسف الثقفي، من ثقيف أهل الطائف، والٍ أموي لعبد الملك بن مروان، وتصفه دائرة المعارف الإسلامية بأنه أشهر ولاة الأمويين وأقدرهم. حاصر مكة وقُتل فيها ابن الزبير سنة 73هـ، ثم ولي العراق سنة 75هـ، وأخمد ثورة ابن الأشعث، وبنى واسط. وتُنسب إليه إجراءات في النقود والخراج والزراعة، وتُنقل عنه عند المؤرخين القدماء أخبار قاسية تُروى على أنها أخبارهم، ويرى كاتب المقالة أن ما نُسب إليه من فظائع من اختلاق أعدائه. توفي في واسط سنة 95هـ."
@@ -8,11 +9,10 @@ summary:
 wings: [people]
 gender: male
 external_ids: { wikidata: "Q293460", viaf: "197750588" }
-sources: [source/umayyad-birth-to-fall-2006, source/tabari-tarikh-abu-al-fadl, source/muruj-al-dhahab, source/khudari-umayyad-state, source/bakr-umayyad-state-1134715, source/salabi-umayyad-state-2020, source/assabile-omar-abdelkafy, source/encyclopaedia-of-islam-2, source/wikidata]
-provenance: { layer: own-research, source: "Tarikh al-Tabari (source/tabari-tarikh-abu-al-fadl); Bustan al-Amal section: Omar Abdelkafy, Assabile recordings (source/assabile-omar-abdelkafy)", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR of Tabari, batch 3", sources: [source/tabari-tarikh-abu-al-fadl], canon: "EI2 vol. 3, article al-Hadjdjadj b. Yusuf by A. Dietrich, PDF pages 48-51, written by Claude Sonnet 5.5, run canon-cornerstones-14" }
+sources: [source/umayyad-birth-to-fall-2006, source/tabari-tarikh-abu-al-fadl, source/muruj-al-dhahab, source/khudari-umayyad-state, source/bakr-umayyad-state-1134715, source/salabi-umayyad-state-2020, source/assabile-omar-abdelkafy, source/encyclopaedia-of-islam-2, source/wikidata, source/burhan-dar-al-hadith-2006]
+provenance: { layer: own-research, source: "Tarikh al-Tabari (source/tabari-tarikh-abu-al-fadl); Bustan al-Amal section: Omar Abdelkafy, Assabile recordings (source/assabile-omar-abdelkafy)", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR of Tabari, batch 3", sources: [source/tabari-tarikh-abu-al-fadl], canon: "EI2 vol. 3, article al-Hadjdjadj b. Yusuf by A. Dietrich, PDF pages 48-51, written by Claude Sonnet 5.5, run canon-cornerstones-14", enriched_by: [{ generated_by: "Claude Code (claude-sonnet-5-5)", model: claude-sonnet-5-5, run: qiraat-browser-people-1, source: "source/burhan-dar-al-hadith-2006 PDF pages 176-177 (page numbers are PDF page markers; OCR errors not copied)" }] }
 importance: 1
-status: { review: draft, completeness: 2, generated_by: "body pages read; Claude (Haiku 5.5)" }
-
+status: { review: published, completeness: 2, generated_by: "body pages read; Claude (Haiku 5.5)" }
 education:
   levels: [sprouts, explorers, scholars]
   flagged_for_kids: true

@@ -1,0 +1,31 @@
+id: work/kitab-al-sabaa-ibn-mujahid
+class: work
+kind: book
+label: { ar: "كتاب السبعة في القراءات لابن مجاهد", en: "Kitab al-Sab'a fi al-Qira'at (Ibn Mujahid)", ur: "کتاب السبعہ فی القراءات ⁦(ابن مجاہد)⁩" }
+summary:
+  ar: "كتاب أبي بكر أحمد بن موسى ابن مجاهد البغدادي ⁦(ت 324هـ)⁩ في قراءات سبعة من أئمة الأمصار، وهو على قول ابن الجزري أول من جمع قراءاتهم؛ جعل الكسائي سابعًا بدل يعقوب الحضرمي، وانتقد أئمة اقتصاره على سبعة لما أوهمه العامة من أنها الأحرف السبعة {cite:nashr-dahman-damascus-1345-v1 p. 34} {cite:nashr-dahman-damascus-1345-v1 p. 46} {cite:nashr-dahman-damascus-1345-v1 p. 47}."
+  en: "Abu Bakr Ahmad ibn Musa Ibn Mujahid of Baghdad (d. 324 AH) wrote this book on the readings of seven imams of the cities and, in Ibn al-Jazari's words, was the first to gather their readings; he put al-Kisa'i in the seventh place in place of Ya'qub al-Hadrami, and some imams criticised his limit of seven for letting the public suppose they were the seven ahruf {cite:nashr-dahman-damascus-1345-v1 p. 34} {cite:nashr-dahman-damascus-1345-v1 p. 46} {cite:nashr-dahman-damascus-1345-v1 p. 47}."
+  ur: "ابو بکر احمد بن موسیٰ ابن مجاہد بغدادی ⁦(م 324ھ)⁩ کی کتاب جس میں شہروں کے سات اماموں کی قراءتیں جمع ہیں؛ ابن الجزری کے مطابق وہ ان کی قراءتیں جمع کرنے والے پہلے شخص ہیں؛ انہوں نے ساتویں جگہ یعقوب حضرمی کی بجائے کسائی کو رکھا، اور بعض اماموں نے سات پر اقتصار پر تنقید کی کہ اس سے عوام نے سمجھ لیا کہ یہی سات احرف ہیں {cite:nashr-dahman-damascus-1345-v1 p. 34} {cite:nashr-dahman-damascus-1345-v1 p. 46} {cite:nashr-dahman-damascus-1345-v1 p. 47}۔"
+genre: [quran-sciences]
+language: language/arabic
+authors: [person/ibn-mujahid]
+structure: "Not read directly: this record rests on what Ibn al-Jazari (al-Nashr, scan pp. 34, 46-49, 53, 113) and the notes of the King Fahd Itqan (scan p. 536) say about the book."
+wings: [words]
+themes: [scripture-and-its-sciences]
+periods: [period/abbasid-fragmentation]
+regions: [levant-iraq]
+tags: [qiraat-browser, qiraat-works, qiraat-readings, qiraat-readers, qiraat-ahruf]
+relations:
+  - { type: about, target: concept/qiraat, sources: [source/nashr-dahman-damascus-1345-v1] }
+  - { type: about, target: concept/al-ahruf-al-sabaa, sources: [source/nashr-dahman-damascus-1345-v1] }
+  - { type: mentions, target: person/nafi-al-madani, sources: [source/nashr-dahman-damascus-1345-v1] }
+  - { type: mentions, target: person/al-kisai, sources: [source/nashr-dahman-damascus-1345-v1] }
+  - { type: mentions, target: person/hamza-al-zayyat, sources: [source/nashr-dahman-damascus-1345-v1] }
+sources: [source/nashr-dahman-damascus-1345-v1, source/itqan-suyuti, source/fihrist-ibn-al-nadim-rahmaniyya-cairo]
+provenance:
+  layer: own-research
+  source: "source/nashr-dahman-damascus-1345-v1 scan pp. 34, 46-47, 49, 53, 113; source/itqan-suyuti scan p. 536; source/fihrist-ibn-al-nadim-rahmaniyya-cairo scan pp. 59, 65; scan page markers"
+  generated_by: "Claude Code (claude-sonnet-5-5)"
+  model: claude-sonnet-5-5
+  run: qiraat-browser-scripts-works-1
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5)" }

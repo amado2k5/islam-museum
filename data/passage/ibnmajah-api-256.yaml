@@ -1,0 +1,16 @@
+id: passage/ibnmajah-api-256
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "256"
+label: { ar: "سنن ابن ماجه 256 — القراء", en: "Sunan Ibn Majah 256 — the readers", ur: "سنن ابن ماجہ 256 — قراء" }
+text: "… يَوْمٍ أَرْبَعَمِائَةِ مَرَّةٍ \". قَالُوا يَا رَسُولَ اللَّهِ وَمَنْ يَدْخُلُهُ قَالَ \" أُعِدَّ لِلْقُرَّاءِ الْمُرَائِينَ بِأَعْمَالِهِمْ وَإِنَّ مِنْ أَبْغَضِ الْقُرَّاءِ إِلَى اللَّهِ الَّذِينَ يَزُورُونَ الأُمَرَاءَ \". قَالَ الْمُحَارِبِيُّ الْجَوَرَةَ. قَالَ أَبُو الْحَسَنِ حَدَّثَنَا حَازِمُ بْنُ يَحْيَى حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ وَمُحَمَّدُ بْنُ نُمَيْرٍ قَالَا حَدَّثَنَا ابْنُ نُمَيْرٍ عَنْ مُعَاوِيَةَ النَّصْرِيِّ وَكَانَ ثِقَةً ثُمَّ …"
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 256، يذكر القراء. يجمعه متصفح قراءات القرآن والرسم والخطوط والضبط مع نصوص القرآن والسنة والسيرة والكتب في قراءات القرآن وكتابته."
+  en: "A report in Sunan Ibn Majah, no. 256 (The Book of the Sunnah), that mentions the readers. The browser of the museum for how the Qur'an was read and written lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on that subject."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 256، جس میں قراء کا ذکر ہے۔ قراءات، رسم، خطوط اور نقطوں کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/qiraat, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 256 (book 0 hadith 256); matn excerpt of at most 55 words chosen by the qira'at detector (scripts/qiraat.ts), honorific formulas left out", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "qiraat-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-sonnet-5-5) from the hadith-api Arabic edition; label and summary are the museum's own words" }

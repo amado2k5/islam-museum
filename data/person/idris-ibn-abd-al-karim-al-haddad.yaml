@@ -1,0 +1,27 @@
+id: person/idris-ibn-abd-al-karim-al-haddad
+class: person
+tags: [qiraat-browser, qiraat-people, qiraat-readers, qiraat-readings]
+label: { ar: "إدريس بن عبد الكريم الحداد", en: "Idris ibn 'Abd al-Karim al-Haddad", ur: "ادریس بن عبد الکریم حداد" }
+names:
+  - { kind: full, lang: ar, value: "إدريس بن عبد الكريم الحداد، أبو الحسن" }
+roles: [scholar, teacher]
+gender: male
+traditions: [sunni]
+summary:
+  ar: "أبو الحسن إدريس بن عبد الكريم الحداد، راوي قراءة خلف بن هشام واختياره؛ توفي سنة 292هـ عن ثلاث وتسعين سنة، وقال ابن الجزري إنه إمام ضابط متقن ثقة، ونقل عن الدارقطني أنه ثقة وفوق الثقة بدرجة {cite:nashr-dahman-damascus-1345-v1 p. 177}."
+  en: "Abu al-Hasan Idris ibn 'Abd al-Karim al-Haddad, transmitter of the reading and the own choice of Khalaf ibn Hisham; he died in 292 AH aged ninety-three. Ibn al-Jazari calls him an exact and careful imam, reliable, and quotes al-Daraqutni that he was reliable and a degree above reliable {cite:nashr-dahman-damascus-1345-v1 p. 177}."
+  ur: "ابو الحسن ادریس بن عبد الکریم حداد، خلف بن ہشام کی قراءت اور اختیار کے راوی؛ 292ھ میں تریانوے برس کی عمر میں فوت ہوئے۔ ابن الجزری انہیں ضابط، متقن، ثقہ امام کہتے ہیں اور دارقطنی سے نقل کرتے ہیں کہ وہ ثقہ بلکہ ثقہ سے ایک درجہ اوپر تھے {cite:nashr-dahman-damascus-1345-v1 p. 177}."
+wings: [people]
+periods: [period/abbasid-fragmentation]
+regions: [levant-iraq]
+died: { edtf: "0905", hijri: "0292", calendar: julian, precision: year, status: tradition, derived: true, note: "Year as printed in al-Nashr; Julian year derived by tabular conversion.", sources: [source/nashr-dahman-damascus-1345-v1] }
+relations:
+  - { type: student_of, target: person/khalaf-ibn-hisham, confidence: high, note: "Ibn al-Jazari, al-Nashr, pp. 171, 201: Idris al-Haddad read on Khalaf ibn Hisham and transmits his reading and choice.", sources: [source/nashr-dahman-damascus-1345-v1] }
+sources: [source/nashr-dahman-damascus-1345-v1]
+provenance:
+  layer: own-research
+  source: "al-Nashr fi al-Qira'at al-Ashr (Ibn al-Jazari), Dahman ed., Damascus 1345 AH, vol. 1: the biography sections (tarjamat) of the ten readers and their transmitters, read in the Apple-Vision OCR of the harvest scan (books/quran-sciences/nashr-ibn-jazari/nashrqraatashr); page numbers are scan page markers (PDF pages), OCR errors not copied"
+  generated_by: "Claude Code (claude-sonnet-5-5)"
+  model: claude-sonnet-5-5
+  run: qiraat-browser-people-1
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5)" }

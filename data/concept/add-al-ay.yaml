@@ -17,21 +17,21 @@ issue:
   en: "Why does the number of verses in some suras differ between mushafs?"
   ur: "بعض سورتوں کی آیات کی تعداد مصاحف میں مختلف کیوں ہے؟"
 perspectives:
-  - tradition: sunni
-    id: regional-counts-differ-in-verse-ends
-    standing: main
-    stance:
-      ar: "الخلاف في مواضع رؤوس الآي لا في النص"
-      en: "The difference lies in where verses end, not in the text"
-      ur: "اختلاف آیات کے اختتامی مقامات میں ہے، متن میں نہیں"
-    summary:
-      ar: "يشرح طنطاوي في سورة النساء أن الكوفيين عدّوا جملة منها آية فبلغت عندهم 176، وأن الشاميين وافقوهم وعدّوا جملة أخرى آية فبلغت عندهم 177، أما الحجازيون والبصريون فرأوا أن ذلك جزء من آية فعدّوها 175 {cite:tafsir-tantawi-wasit p.1074}."
-      en: "Tantawi explains for Surat al-Nisa' that the Kufans counted one phrase in it as a verse, giving 176; the Syrians agreed and also counted another phrase as a verse, giving 177; while the Hijazis and Basrans held these to be parts of verses and counted 175 {cite:tafsir-tantawi-wasit p.1074}."
-      ur: "طنطاوی سورۂ نساء کے بارے میں بتاتے ہیں کہ کوفیوں نے اس کے ایک جملے کو آیت شمار کیا تو تعداد 176 ہوئی؛ شامیوں نے ان سے اتفاق کیا اور ایک اور جملے کو بھی آیت گنا تو 177 ہوئی؛ جبکہ حجازیوں اور بصریوں کے نزدیک یہ آیات کے حصے ہیں، چنانچہ انہوں نے 175 گنیں {cite:tafsir-tantawi-wasit p.1074}۔"
-    holders: [person/muhammad-sayyid-tantawi]
-    sources: [source/tafsir-tantawi-wasit]
+- tradition: sunni
+  id: regional-counts-differ-in-verse-ends
+  standing: main
+  stance:
+    ar: "الخلاف في مواضع رؤوس الآي لا في النص"
+    en: "The difference lies in where verses end, not in the text"
+    ur: "اختلاف آیات کے اختتامی مقامات میں ہے، متن میں نہیں"
+  summary:
+    ar: "يشرح طنطاوي في سورة النساء أن الكوفيين عدّوا جملة منها آية فبلغت عندهم 176، وأن الشاميين وافقوهم وعدّوا جملة أخرى آية فبلغت عندهم 177، أما الحجازيون والبصريون فرأوا أن ذلك جزء من آية فعدّوها 175 {cite:tafsir-tantawi-wasit p.1074}."
+    en: "Tantawi explains for Surat al-Nisa' that the Kufans counted one phrase in it as a verse, giving 176; the Syrians agreed and also counted another phrase as a verse, giving 177; while the Hijazis and Basrans held these to be parts of verses and counted 175 {cite:tafsir-tantawi-wasit p.1074}."
+    ur: "طنطاوی سورۂ نساء کے بارے میں بتاتے ہیں کہ کوفیوں نے اس کے ایک جملے کو آیت شمار کیا تو تعداد 176 ہوئی؛ شامیوں نے ان سے اتفاق کیا اور ایک اور جملے کو بھی آیت گنا تو 177 ہوئی؛ جبکہ حجازیوں اور بصریوں کے نزدیک یہ آیات کے حصے ہیں، چنانچہ انہوں نے 175 گنیں {cite:tafsir-tantawi-wasit p.1074}۔"
+  holders: [person/muhammad-sayyid-tantawi]
+  sources: [source/tafsir-tantawi-wasit]
 relations:
-  - { type: part_of, target: concept/tafsir, sources: [source/tafsir-tantawi-wasit] }
+- {type: part_of, target: concept/tafsir, sources: [source/tafsir-tantawi-wasit]}
 sources: [source/tafsir-tantawi-wasit]
 provenance:
   layer: own-research
@@ -39,4 +39,8 @@ provenance:
   generated_by: "Claude Code (OCR-harvest worker B)"
   model: claude-opus-5-5
   run: ocr-harvest-2026-11-04
-status: { review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker B)" }
+status: {review: published, completeness: 3, generated_by: "Claude Code (OCR-harvest worker B)"}
+tags:
+- qiraat-browser
+- qiraat-sciences
+- qiraat-codex

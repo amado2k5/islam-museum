@@ -1,0 +1,28 @@
+id: work/al-kashf-an-wujuh-al-qiraat-al-sab
+class: work
+kind: book
+label: { ar: "الكشف عن وجوه القراءات السبع وعللها وحججها", en: "al-Kashf 'an Wujuh al-Qira'at al-Sab' wa-'Ilalihā wa-Hujajihā (Makki)", ur: "الکشف عن وجوہ القراءات السبع و عللہا و حججہا ⁦(مکی)⁩" }
+summary:
+  ar: "كتاب مكي بن أبي طالب القيسي في توجيه القراءات السبع وتعليلها والاحتجاج لها، وهو شرح لكتابه «التبصرة»، وعدّه السيوطي بين ما أُفرد في توجيه القراءات مع «الحجة» للفارسي و«المحتسب» لابن جني؛ وتنقل مقدمة «النشر» عن مصنَّف ألحقه مكي بـ«الكشف» ضابط ما يُقرأ به من القراءات وما لا يُقرأ {cite:itqan-suyuti p. 536} {cite:nashr-dahman-damascus-1345-v1 p. 23}."
+  en: "Makki ibn Abi Talib al-Qaysi's book on the grounds, causes and arguments for the seven readings, a commentary on his own al-Tabsira; al-Suyuti counts it among the books devoted to explaining the readings, with al-Farisi's al-Hujja and Ibn Jinni's al-Muhtasab, and Ibn al-Jazari's Nashr quotes from a treatise Makki appended to the Kashf on which readings may be recited and which may not {cite:itqan-suyuti p. 536} {cite:nashr-dahman-damascus-1345-v1 p. 23}."
+  ur: "مکی بن ابی طالب قیسی کی سات قراءتوں کی توجیہ، علل اور حجتوں پر کتاب، جو ان کی اپنی «التبصرہ» کی شرح ہے؛ سیوطی اسے قراءات کی توجیہ کے لیے مخصوص کتابوں میں فارسی کی «الحجۃ» اور ابن جنی کی «المحتسب» کے ساتھ گنتے ہیں، اور «النشر» کا مقدمہ مکی کی اس تحریر سے نقل کرتا ہے جو انہوں نے «الکشف» کے ساتھ ملحق کی اور جس میں بتایا ہے کہ کون سی قراءتیں پڑھی جاتی ہیں اور کون سی نہیں {cite:itqan-suyuti p. 536} {cite:nashr-dahman-damascus-1345-v1 p. 23}۔"
+genre: [quran-sciences]
+language: language/arabic
+authors: [person/makki-ibn-abi-talib]
+structure: "Not read directly; its title, edition and place among the books on the grounds of the readings as given in the King Fahd al-Itqan (scan pp. 536, 3008) and a passage of Makki's quoted in al-Nashr (scan pp. 23-24)."
+wings: [words]
+themes: [scripture-and-its-sciences]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [global]
+tags: [qiraat-browser, qiraat-works, qiraat-readings, qiraat-rasm]
+relations:
+  - { type: about, target: concept/qiraat, sources: [source/itqan-suyuti] }
+  - { type: mentions, target: person/makki-ibn-abi-talib, sources: [source/itqan-suyuti] }
+sources: [source/itqan-suyuti, source/nashr-dahman-damascus-1345-v1]
+provenance:
+  layer: own-research
+  source: "source/itqan-suyuti scan pp. 536, 2916, 3008; source/nashr-dahman-damascus-1345-v1 scan pp. 23-24; scan page markers"
+  generated_by: "Claude Code (claude-sonnet-5-5)"
+  model: claude-sonnet-5-5
+  run: qiraat-browser-scripts-works-1
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5)" }

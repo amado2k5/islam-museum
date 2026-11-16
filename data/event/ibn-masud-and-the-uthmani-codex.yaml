@@ -1,0 +1,64 @@
+id: event/ibn-masud-and-the-uthmani-codex
+class: event
+kind: other
+label:
+  ar: "ابن مسعود والمصحف العثماني: ما نُقل عن اعتراضه ثم موافقته"
+  en: "Ibn Mas'ud and the Uthmanic codex: what is reported of his objection and then his agreement"
+  ur: "ابن مسعود اور مصحفِ عثمانی: ان کے اعتراض اور پھر موافقت کی روایات"
+summary:
+  ar: "نُقل عن عبد الله بن مسعود أنه أنكر أولاً مصاحف عثمان وأبى أن يحرق مصحفه، ثم رجع إلى الجماعة حين ظهرت له مزاياها؛ ويقول علي، فيما يروي السبت، إن عثمان ما حرّق المصاحف إلا عن ملأ من الصحابة {cite:manahil-irfan-sabt p. 239} {cite:manahil-irfan-sabt p. 240} {cite:itqan-suyuti p. 391}."
+  en: "It is reported of Abdallah ibn Mas'ud that he first objected to Uthman's codices and refused to burn his own, then returned to the community when their merits became clear to him; Ali says, as al-Sabt relays, that Uthman burned the codices only with the agreement of a group of the Companions {cite:manahil-irfan-sabt p. 239} {cite:manahil-irfan-sabt p. 240} {cite:itqan-suyuti p. 391}."
+  ur: "عبد اللہ بن مسعود کے بارے میں منقول ہے کہ انھوں نے پہلے عثمان کے مصاحف کا انکار کیا اور اپنا مصحف جلانے سے انکار کیا، پھر جب ان کی خوبیاں ظاہر ہوئیں تو جماعت میں لوٹ آئے؛ علی، جیسا کہ سبت روایت کرتے ہیں، کہتے ہیں کہ عثمان نے مصاحف صحابہ کی ایک جماعت کے اتفاق ہی سے جلائے {cite:manahil-irfan-sabt p. 239} {cite:manahil-irfan-sabt p. 240} {cite:itqan-suyuti p. 391}۔"
+wings:
+- time
+- people
+themes:
+- scripture-and-its-sciences
+tags:
+- qiraat-browser
+- qiraat-sciences
+- qiraat-codex
+- qiraat-readers
+periods:
+- period/rashidun
+regions:
+- arabia
+- levant-iraq
+relations:
+- type: had_participant
+  target: person/abdullah-ibn-masud
+  role: صاحب مصحف خاص
+  sources:
+  - source/manahil-irfan-sabt
+  - source/itqan-suyuti
+- type: had_participant
+  target: person/uthman-ibn-affan
+  role: الآمر بالتوحيد
+  sources:
+  - source/manahil-irfan-sabt
+  - source/itqan-suyuti
+- type: had_participant
+  target: person/ali-ibn-abi-talib
+  role: المؤيد لعثمان
+  sources:
+  - source/manahil-irfan-sabt
+  - source/itqan-suyuti
+- type: part_of
+  target: event/uthman-standardizes-mushaf
+  sources:
+  - source/manahil-irfan-sabt
+  - source/itqan-suyuti
+sources:
+- source/manahil-irfan-sabt
+- source/itqan-suyuti
+provenance:
+  layer: own-research
+  source: الإتقان للسيوطي ط. مجمع الملك فهد، والنشر لابن الجزري ط. دهمان 1345هـ، وتهذيب مناهل العرفان لخالد السبت، وموطأ مالك ط. معروف؛ أرقام الصفحات علامات صفحات المسح كما في النص المقروء
+  generated_by: Claude Code (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: qiraat-browser-sciences-1
+status:
+  review: published
+  completeness: 2
+  generated_by: Claude Code (claude-sonnet-5-5)
+importance: 2

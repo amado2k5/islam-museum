@@ -9,7 +9,7 @@ provenance:
   generated_by: "Claude Code (OCR-harvest worker I)"
   model: claude-opus-5-5
   run: ocr-harvest-2026-11-04
-  source: "source/ekhtiar-how-to-read-islamic-calligraphy-2018 scan pp. 23, 62, 63, 65, 66"
+  source: "source/ekhtiar-how-to-read-islamic-calligraphy-2018 scan pp. 23, 62, 63, 65, 66; sections appended by Claude Code (claude-sonnet-5-5), run qiraat-browser-scripts-works-1: source/blair-islamic-calligraphy-2006 scan pp. 147-148 (printed 107-108)"
 ---
 ## موجز
 تقول مريم اختيار إن أقدم أوراق المصاحف عمودية الهيئة ومكتوبة بالخط الحجازي، وهو خط غير رسمي سمي باسم الإقليم الذي فيه مكة والمدينة، وإن كان من غير المرجح عندها أن تكون تلك النسخ صنعت هناك. {cite:ekhtiar-how-to-read-islamic-calligraphy-2018 p. 63}
@@ -19,3 +19,6 @@ provenance:
 
 ## مكانه في التاريخ
 حلّ [[concept/kufic-script|الكوفي]] محل الحجازي في نسخ المصاحف منذ أواخر القرن الأول الهجري. {cite:ekhtiar-how-to-read-islamic-calligraphy-2018 p. 23} ومن أمثلته ورقة محفوظة في مكتبة كادبري بجامعة برمنغهام ⁦(منغانا 1572أ)⁩ نسبتها المؤلفة إلى الحجاز في منتصف القرن السابع الميلادي على الأرجح {cite:ekhtiar-how-to-read-islamic-calligraphy-2018 p. 62}، وانظر [[object/mushaf-birmingham|مصحف برمنغهام]]. وتذكر أن بعض القطع المبكرة طروس كُشط نصها الأول ليكتب فوقه، وأن الأشعة فوق البنفسجية أعانت على قراءة طبقاتها. {cite:ekhtiar-how-to-read-islamic-calligraphy-2018 p. 63} {cite:ekhtiar-how-to-read-islamic-calligraphy-2018 p. 65} وتذكر أن مصاحف الحجازي حملت منذ القرن الثامن عناوين سور مزخرفة. {cite:ekhtiar-how-to-read-islamic-calligraphy-2018 p. 66}
+
+## الاسم في الدراسات
+تذكر شيلا بلير أن الخط الذي سُمّي «حجازيًا» عُرف قبل ذلك بـ«المائل»، وأن اللفظ الأول مأخوذ من قراءة محرّفة في قائمة خطوط المصاحف عند ابن النديم؛ وأن ديروش قسّم الحجازي إلى أربعة أنواع فرعية، وأن إستيل ويلان رأت أن الاسم صنيعة علمية قامت على قراءة فصل ابن النديم عن الخط المكي والمدني. {cite:blair-islamic-calligraphy-2006 p. 147} {cite:blair-islamic-calligraphy-2006 p. 148} انظر [[concept/makki-and-madani-scripts|الخط المكي والمدني]] و[[concept/mail-script|المائل]].

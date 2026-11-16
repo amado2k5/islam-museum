@@ -1,5 +1,6 @@
 id: person/ubayy-ibn-kab
 class: person
+tags: [qiraat-browser, qiraat-people, qiraat-readers, qiraat-ahruf, qiraat-codex]
 label:
   ar: أبي بن كعب، وعند ابن النديم أن تأليف السور في قراءته كان بالبصرة في قرية الأنصار عند محمد بن عبد الملك الأنصاري وأن مصحفه مائة وست عشرة سورة فيها سورتا الخلع والحفد وأن جميع آي القرآن في قوله ستة آلاف ومائتان وعشر آيات {cite:fihrist-ibn-al-nadim p. 67-68}
   en: Ubayy ibn Ka'b
@@ -63,6 +64,8 @@ relations:
   sources:
   - source/ibn-hajar-isaba
 provenance:
+  enriched_by:
+    - { generated_by: "Claude Code (claude-sonnet-5-5)", model: claude-sonnet-5-5, run: qiraat-browser-people-1, source: "source/itqan-suyuti-calcutta-1852 scan pages 106, 116, 167, 172 and source/nashr-dahman-damascus-1345-v1 scan pages as cited (page numbers are scan page markers; OCR errors not copied)" }
   layer: own-research
   source: الإصابة في تمييز الصحابة، ترجمة 47، ص 26
   generated_by: "Devin (SWE-2 Medium)"
@@ -73,6 +76,8 @@ sources:
 - source/ibn-hajar-isaba
 - source/assabile-ahmed-abdussalam
 - source/wikidata
+- source/itqan-suyuti-calcutta-1852
+- source/nashr-dahman-damascus-1345-v1
 importance: 2
 status:
   review: published

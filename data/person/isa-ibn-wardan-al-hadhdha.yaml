@@ -1,0 +1,28 @@
+id: person/isa-ibn-wardan-al-hadhdha
+class: person
+tags: [qiraat-browser, qiraat-people, qiraat-readers, qiraat-readings]
+label: { ar: "عيسى بن وردان الحذاء ⁦(ابن وردان)⁩", en: "'Isa ibn Wardan al-Hadhdha' (Ibn Wardan)", ur: "عیسیٰ بن وردان حذاء ⁦(ابن وردان)⁩" }
+names:
+  - { kind: full, lang: ar, value: "عيسى بن وردان المدني الحذاء، أبو الحارث" }
+roles: [scholar, teacher]
+gender: male
+traditions: [sunni]
+summary:
+  ar: "أبو الحارث عيسى بن وردان المدني الحذاء، راوي قراءة أبي جعفر يزيد بن القعقاع؛ توفي نحو سنة 160هـ، وقال ابن الجزري إنه مقرئ رأس في القراءة ضابط محقق من قدماء أصحاب نافع {cite:nashr-dahman-damascus-1345-v1 p. 189}."
+  en: "Abu al-Harith 'Isa ibn Wardan al-Madani al-Hadhdha', transmitter of the reading of Abu Ja'far Yazid ibn al-Qa'qa'; he died about 160 AH. Ibn al-Jazari calls him a reader of the first rank, exact and a verifier, one of the early companions of Nafi' {cite:nashr-dahman-damascus-1345-v1 p. 189}."
+  ur: "ابو الحارث عیسیٰ بن وردان مدنی حذاء، ابو جعفر یزید بن القعقاع کی قراءت کے راوی؛ تقریباً 160ھ میں فوت ہوئے۔ ابن الجزری انہیں اعلیٰ درجے کا قاری، ضابط، محقق اور نافع کے قدیم ساتھیوں میں سے بتاتے ہیں {cite:nashr-dahman-damascus-1345-v1 p. 189}."
+wings: [people]
+periods: [period/abbasid-early]
+regions: [arabia]
+died: { edtf: "0777", hijri: "0160", calendar: julian, precision: year, status: tradition, derived: true, note: "Year as printed in al-Nashr; Julian year derived by tabular conversion.", sources: [source/nashr-dahman-damascus-1345-v1] }
+relations:
+  - { type: student_of, target: person/abu-jafar-al-qari, confidence: high, note: "Ibn al-Jazari, al-Nashr, p. 188: Ibn Wardan read on the imam of the readers of Medina, Abu Ja'far.", sources: [source/nashr-dahman-damascus-1345-v1] }
+  - { type: lived_in, target: place/medina, confidence: medium, note: "Nisba al-Madani in the name printed in al-Nashr p. 186.", sources: [source/nashr-dahman-damascus-1345-v1] }
+sources: [source/nashr-dahman-damascus-1345-v1]
+provenance:
+  layer: own-research
+  source: "al-Nashr fi al-Qira'at al-Ashr (Ibn al-Jazari), Dahman ed., Damascus 1345 AH, vol. 1: the biography sections (tarjamat) of the ten readers and their transmitters, read in the Apple-Vision OCR of the harvest scan (books/quran-sciences/nashr-ibn-jazari/nashrqraatashr); page numbers are scan page markers (PDF pages), OCR errors not copied"
+  generated_by: "Claude Code (claude-sonnet-5-5)"
+  model: claude-sonnet-5-5
+  run: qiraat-browser-people-1
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5)" }

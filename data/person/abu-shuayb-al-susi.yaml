@@ -1,0 +1,29 @@
+id: person/abu-shuayb-al-susi
+class: person
+tags: [qiraat-browser, qiraat-people, qiraat-readers, qiraat-readings]
+label: { ar: "أبو شعيب السوسي", en: "Abu Shu'ayb al-Susi", ur: "ابو شعیب سوسی" }
+names:
+  - { kind: full, lang: ar, value: "صالح بن زياد بن عبد الله بن إسماعيل بن إبراهيم بن الجارود السوسي الرقي، أبو شعيب" }
+  - { kind: full, lang: en, value: "Salih ibn Ziyad ibn 'Abd Allah al-Susi al-Raqqi, Abu Shu'ayb" }
+roles: [scholar, teacher]
+gender: male
+traditions: [sunni]
+summary:
+  ar: "أبو شعيب صالح بن زياد السوسي الرقي، راوي قراءة أبي عمرو بن العلاء عن اليزيدي؛ توفي في أول سنة 261هـ وقد قارب التسعين، ووصفه ابن الجزري بأنه مقرئ ضابط محرر ثقة، من أجل أصحاب اليزيدي وأكبرهم {cite:nashr-dahman-damascus-1345-v1 p. 144}."
+  en: "Abu Shu'ayb Salih ibn Ziyad al-Susi al-Raqqi, transmitter of Abu 'Amr ibn al-'Ala''s reading through al-Yazidi; he died at the start of 261 AH, close to ninety years old, and Ibn al-Jazari calls him an exact and careful reader, reliable, and among the most distinguished and senior companions of al-Yazidi {cite:nashr-dahman-damascus-1345-v1 p. 144}."
+  ur: "ابو شعیب صالح بن زیاد سوسی رقی، یزیدی کے واسطے سے ابو عمرو بن العلاء کی قراءت کے راوی؛ 261ھ کے آغاز میں تقریباً نوے برس کی عمر میں فوت ہوئے؛ ابن الجزری انہیں ضابط، محرر اور ثقہ قاری اور یزیدی کے جلیل ترین و بڑے ساتھیوں میں شمار کرتے ہیں {cite:nashr-dahman-damascus-1345-v1 p. 144}."
+wings: [people]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+died: { edtf: "0875", hijri: "0261", calendar: julian, precision: year, status: tradition, derived: true, note: "Year as printed in al-Nashr; Julian year derived by tabular conversion.", sources: [source/nashr-dahman-damascus-1345-v1] }
+relations:
+  - { type: student_of, target: person/yahya-ibn-al-mubarak-al-yazidi, confidence: high, note: "Ibn al-Jazari, al-Nashr, pp. 142, 144: al-Susi is among the foremost companions of al-Yazidi.", sources: [source/nashr-dahman-damascus-1345-v1] }
+  - { type: lived_in, target: place/raqqa, confidence: low, note: "Nisba al-Raqqi in the name printed in al-Nashr p. 142.", sources: [source/nashr-dahman-damascus-1345-v1] }
+sources: [source/nashr-dahman-damascus-1345-v1]
+provenance:
+  layer: own-research
+  source: "al-Nashr fi al-Qira'at al-Ashr (Ibn al-Jazari), Dahman ed., Damascus 1345 AH, vol. 1: the biography sections (tarjamat) of the ten readers and their transmitters, read in the Apple-Vision OCR of the harvest scan (books/quran-sciences/nashr-ibn-jazari/nashrqraatashr); page numbers are scan page markers (PDF pages), OCR errors not copied"
+  generated_by: "Claude Code (claude-sonnet-5-5)"
+  model: claude-sonnet-5-5
+  run: qiraat-browser-people-1
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5)" }

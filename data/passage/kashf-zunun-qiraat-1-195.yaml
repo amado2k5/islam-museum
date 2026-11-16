@@ -1,0 +1,16 @@
+id: passage/kashf-zunun-qiraat-1-195
+class: passage
+unit: chapter
+work: work/kashf-al-zunun
+ref: "1:195"
+label: { ar: "كشف الظنون لحاجي خليفة، المجلد المصوَّر 1، ص 195 — القراء", en: "Hajji Khalifa's Kashf al-Zunun, scan volume 1, p. 195 — the readers", ur: "کشف الظنون، حاجی خلیفہ، اسکین جلد 1، ص 195 — قراء" }
+text: "… يحيى اليمنيِّ، ألَّفهُ لما أنْكَرَ أبو بكر الوَعِلي الحيلةَ في الطَّلاق والرِّبا، وأنشأ قصيدةً فيهما، فرَدَّ عليه لكونه مخالفًا للفقه. والوَعِل : بفتح الواو وكسر العين من قرى أصبهان. -احتجاج القُرّاء في القراءة: للشيخ شمس الدِّين محمد بن السَّرِي المعروف …"
+summary:
+  ar: "مقطع من كشف الظنون لحاجي خليفة، المجلد المصوَّر 1، ص 195، يذكر القراء؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح قراءات القرآن والرسم والخطوط والضبط."
+  en: "An excerpt from Hajji Khalifa's Kashf al-Zunun, scan volume 1, p. 195, that mentions the readers; from the machine-read scan, quoted within forty words per the sources policy. The browser of the museum for how the Qur'an was read and written lists it."
+  ur: "کشف الظنون، حاجی خلیفہ، اسکین جلد 1، ص 195 کا اقتباس جس میں قراء کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ قراءات، رسم، خطوط اور نقطوں کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/qiraat, sources: [source/kashf-zunun-furqan] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan tareekh/kashf-zunun/01_20221123_20221123, page 195; a window of at most 40 words chosen by the qira'at detector (scripts/qiraat.ts); OCR text not corrected", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "qiraat-ocr-1" }
+sources: [source/kashf-zunun-furqan]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-sonnet-5-5) from the OCR'd book; label and summary are the museum's own words" }

@@ -1,0 +1,16 @@
+id: passage/musannaf-ibn-abi-shayba-qiraat-1-139
+class: passage
+unit: chapter
+work: work/al-musannaf-ibn-abi-shayba
+ref: "1:139"
+label: { ar: "مصنف ابن أبي شيبة، المجلد المصوَّر 1، ص 139 — القراء", en: "the Musannaf of Ibn Abi Shayba, scan volume 1, p. 139 — the readers", ur: "مصنف ابن ابی شیبہ، اسکین جلد 1، ص 139 — قراء" }
+text: "… وسعديك والخير بيديك، والشر ليس إليك، والمهدي من هديت، تباركت ربنا وتعاليت، قال حذيفة: فذلك المقام المحمود. - حدثنا أبو معاوية عن الأعمش عن إبراهيم بن همام عن حذيفة قال: كان يدخل المسجد فيقف على الحلق فيقول: يا معشر القراء! …"
+summary:
+  ar: "مقطع من مصنف ابن أبي شيبة، المجلد المصوَّر 1، ص 139، يذكر القراء؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح قراءات القرآن والرسم والخطوط والضبط."
+  en: "An excerpt from the Musannaf of Ibn Abi Shayba, scan volume 1, p. 139, that mentions the readers; from the machine-read scan, quoted within forty words per the sources policy. The browser of the museum for how the Qur'an was read and written lists it."
+  ur: "مصنف ابن ابی شیبہ، اسکین جلد 1، ص 139 کا اقتباس جس میں قراء کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ قراءات، رسم، خطوط اور نقطوں کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/qiraat, sources: [source/al-musannaf-ibn-abi-shayba] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan hadith/musannaf-ibn-abi-shayba/07-69117, page 139; a window of at most 40 words chosen by the qira'at detector (scripts/qiraat.ts); OCR text not corrected", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "qiraat-ocr-1" }
+sources: [source/al-musannaf-ibn-abi-shayba]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-sonnet-5-5) from the OCR'd book; label and summary are the museum's own words" }

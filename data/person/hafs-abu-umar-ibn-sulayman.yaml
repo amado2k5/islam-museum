@@ -1,5 +1,6 @@
 id: person/hafs-abu-umar-ibn-sulayman
 class: person
+tags: [qiraat-browser, qiraat-people, qiraat-readers, qiraat-readings]
 label: { ar: "حفص أبو عمر بن سليمان", en: "Hafs Abu Umar ibn Sulayman" }
 names:
   - { kind: full, lang: ar, value: "أبو عمر حفص بن سليمان بن المغيرة الأسدي الكوفي" }
@@ -21,14 +22,17 @@ regions: [levant-iraq]
 story_roles:
   - { role: transmitter, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
 relations:
+  - { type: student_of, target: person/asim-ibn-abi-al-najud, confidence: high, note: "Ibn al-Jazari, al-Nashr, pp. 165-166: Hafs and Abu Bakr read on Asim.", sources: [source/nashr-dahman-damascus-1345-v1] }
   - { type: born_in, target: place/baghdad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/kufa, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 external_ids: { wikidata: "Q5940162", viaf: "72697956" }
-sources: [source/mawsuat-a3lam-ulama-adaba, source/wikidata]
+sources: [source/mawsuat-a3lam-ulama-adaba, source/wikidata, source/nashr-dahman-damascus-1345-v1]
 status:
   review: published
   completeness: 3
 provenance:
+  enriched_by:
+    - { generated_by: "Claude Code (claude-sonnet-5-5)", model: claude-sonnet-5-5, run: qiraat-browser-people-1, source: "source/nashr-dahman-damascus-1345-v1: the biography sections of the ten readers and their transmitters in al-Nashr (scan pages as cited in the prose; page numbers are scan page markers, OCR errors not copied)" }
   layer: "own-research"
   source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج7 ص62"
   generated_by: "Devin (SWE-2 Medium)"

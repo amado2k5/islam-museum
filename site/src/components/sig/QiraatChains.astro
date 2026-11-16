@@ -1,0 +1,44 @@
+---
+// "The ten imams and who read to whom" (Qira'at, Rasm, Scripts and Dotting Browser home): a card per imam of the ten
+// readings, in al-Nashr's order, with the teachers he read to and the readers who read to him — only the direct links
+// the graph holds as `student_of` edges between the browser's people (lib/qiraat.ts `qiraatChains`). A transmitter who
+// reached his imam through an intermediary is on that intermediary's line, as the sources give the chain; the caption
+// says so. Every name is a link; nothing is typed here.
+import { ui, fmt, type Lang } from "../../lib/i18n";
+import { href, labelOf } from "../../lib/graph";
+import { num } from "../../lib/nav";
+import { formatDate } from "../../lib/dates";
+import { qiraatChains } from "../../lib/qiraat";
+import type { Node } from "../../../../scripts/build-graph";
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const V = (ui(lang) as any).qiraat.chains;
+const died = (n: Node) => (n.data.died ? formatDate(n.data.died, lang).text : "");
+---
+<section class="qc" aria-labelledby="qc-title" style="margin-top:2.2rem">
+  <div data-pagefind-body>
+    <h2 id="qc-title">{V.title}</h2>
+    <p class="muted" style="max-width:var(--measure);margin:0 0 1rem">{V.lede}</p>
+  </div>
+  <ol class="qc-grid" role="list">
+    {qiraatChains.map((c, i) => (
+      <li class="qc-card">
+        <span class="qc-n ui" aria-hidden="true">{num(i + 1, lang)}</span>
+        <h3><a href={href(lang, c.imam.id)}>{labelOf(c.imam, lang)}</a></h3>
+        {died(c.imam) && <p class="ui muted qc-date">{fmt(V.died, { d: died(c.imam) })}</p>}
+        {c.teachers.length > 0 && <p class="qc-line"><span class="ui qc-k">{V.teachers}</span> {c.teachers.map((n, k) => <>{k > 0 && <span aria-hidden="true"> · </span>}<a href={href(lang, n.id)}>{labelOf(n, lang)}</a></>)}</p>}
+        <p class="qc-line"><span class="ui qc-k">{V.students}</span> {c.students.map((n, k) => <>{k > 0 && <span aria-hidden="true"> · </span>}<a href={href(lang, n.id)}>{labelOf(n, lang)}</a></>)}{c.students.length === 0 && <span class="muted">{V.none}</span>}</p>
+      </li>
+    ))}
+  </ol>
+</section>
+<style>
+  .qc-grid { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 14px; }
+  .qc-card { position: relative; padding: 18px 18px 14px; border-radius: 12px; background: var(--panel); border: 1px solid var(--line); border-block-start: 3px solid var(--gold, #c5a059); }
+  .qc-n { position: absolute; inset-block-start: 10px; inset-inline-end: 14px; font-size: 1.6rem; font-weight: 700; color: var(--gold, #c5a059); opacity: .55; font-variant-numeric: tabular-nums; }
+  .qc-card h3 { margin: 0 0 .2rem; font-size: 1.15rem; padding-inline-end: 2rem; }
+  .qc-date { margin: 0 0 .5rem; font-size: .8rem; }
+  .qc-line { margin: .45rem 0 0; line-height: 1.8; font-size: .95rem; }
+  .qc-k { display: block; font-size: .74rem; letter-spacing: .02em; color: var(--muted); }
+</style>

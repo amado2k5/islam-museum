@@ -1,0 +1,16 @@
+id: passage/muslim-api-1136
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "1136"
+label: { ar: "صحيح مسلم 1136 — جمع القرآن والمصاحف", en: "Sahih Muslim 1136 — the collection of the Qur'an and the codices", ur: "صحیح مسلم 1136 — جمعِ قرآن اور مصاحف" }
+text: "حَدَّثَنَاهُ مُحَمَّدُ بْنُ الْمُثَنَّى، حَدَّثَنَا مَكِّيٌّ، قَالَ يَزِيدُ أَخْبَرَنَا قَالَ كَانَ سَلَمَةُ يَتَحَرَّى الصَّلاَةَ عِنْدَ الأُسْطُوَانَةِ الَّتِي عِنْدَ الْمُصْحَفِ فَقُلْتُ لَهُ يَا أَبَا مُسْلِمٍ أَرَاكَ تَتَحَرَّى الصَّلاَةَ عِنْدَ هَذِهِ الأُسْطُوَانَةِ. قَالَ رَأَيْتُ النَّبِيَّ يَتَحَرَّى الصَّلاَةَ عِنْدَهَا."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 1136، يذكر جمع القرآن والمصاحف. يجمعه متصفح قراءات القرآن والرسم والخطوط والضبط مع نصوص القرآن والسنة والسيرة والكتب في قراءات القرآن وكتابته."
+  en: "A report in Sahih Muslim, no. 1136 (The Book of Prayers), that mentions the collection of the Qur'an and the codices. The browser of the museum for how the Qur'an was read and written lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on that subject."
+  ur: "صحیح مسلم کی حدیث نمبر 1136، جس میں جمعِ قرآن اور مصاحف کا ذکر ہے۔ قراءات، رسم، خطوط اور نقطوں کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/mushaf, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 1136 (book 4 hadith 298); matn excerpt of at most 55 words chosen by the qira'at detector (scripts/qiraat.ts), honorific formulas left out", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "qiraat-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-sonnet-5-5) from the hadith-api Arabic edition; label and summary are the museum's own words" }

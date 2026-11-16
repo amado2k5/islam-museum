@@ -75,3 +75,7 @@ Al-Hajjaj ibn Yusuf al-Thaqafi, governor for Abd al-Malik ibn Marwan per al-Taba
 
 ## From Omar Abdelkafy's programme Bustan al-Amal
 The Sheikh relates that when al-Hajjaj seized a young man to kill him, his mother wept and said: will you be killed wronged, my son? He said: mother, would you rather I were killed as a wrongdoer? He tells it to show that no one wishes to meet God as a wrongdoer (needs_source: the report as the Sheikh tells it). {cite:assabile-omar-abdelkafy bustan-el-amal/ep30 00:07:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep30 00:08:00}
+
+## In reports on counting and dividing the Qur'an
+
+Al-Zarkashi quotes Salam Abu Muhammad al-Himmani that al-Hajjaj gathered the readers, the memorisers and the scribes and asked them how many letters the whole Qur'an contained; they counted it and agreed on a figure, and he then asked for its half, thirds and sevenths, which they located, and Salam said it took them four months. Al-Zarkashi also reports that al-Hajjaj read a quarter of the Qur'an every night. These are reports given as the sources word them, and the museum does not vouch for them. {cite:burhan-dar-al-hadith-2006 p. 176} On the placing of the tenth-markers in the mushaf, al-Zarkashi says it was said that al-Ma'mun ordered it and it was said that al-Hajjaj did it. {cite:burhan-dar-al-hadith-2006 p. 177}

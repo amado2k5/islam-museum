@@ -1,0 +1,72 @@
+id: event/abu-al-aswad-pointing-the-mushaf
+class: event
+kind: other
+label:
+  ar: نقط أبي الأسود للمصحف بطلب زياد في البصرة
+  en: Abu al-Aswad's pointing of the codex at Ziyad's request in Basra
+  ur: ابو الاسود کا زیاد کی درخواست پر بصرہ میں مصحف پر اعراب لگانا
+summary:
+  ar: "طلب زياد والي البصرة من أبي الأسود الدؤلي أن يضع للناس علامات يعرفون بها كتاب الله فتباطأ، حتى سمع قارئاً يلحن لحناً يقلب المعنى، فقال: عزّ وجه الله أن يبرأ من رسوله، وأخبر زياداً أنه أجابه إلى ما سأل؛ فجعل الفتحة نقطة فوق الحرف والكسرة نقطة تحته والضمة نقطة بين أجزائه والسكون نقطتين {cite:manahil-irfan-sabt p. 330}."
+  en: "Ziyad, governor of Basra, asked Abu al-Aswad al-Du'ali to set marks by which people could know God's Book, and he delayed until he heard a reader make an error that reversed the sense; he said God's face is too exalted to disown His messenger and told Ziyad he had granted his request; he made the fatha a dot above the letter, the kasra a dot below, the damma a dot among its parts and the sukun two dots {cite:manahil-irfan-sabt p. 330}."
+  ur: "بصرہ کے والی زیاد نے ابو الاسود دؤلی سے کہا کہ لوگوں کے لیے ایسی علامات بنائیں جن سے وہ اللہ کی کتاب پہچانیں، وہ سستی کرتے رہے یہاں تک کہ انھوں نے ایک قاری کو ایسا لحن کرتے سنا جو معنی الٹ دیتا تھا؛ کہا کہ اللہ کی ذات بلند ہے کہ اپنے رسول سے بری ہو، اور زیاد کو بتایا کہ جو مانگا تھا مان لیا؛ انھوں نے فتحہ حرف کے اوپر نقطہ، کسرہ نیچے نقطہ، ضمہ اجزا کے بیچ نقطہ اور سکون دو نقطے رکھا {cite:manahil-irfan-sabt p. 330}۔"
+wings:
+- time
+- people
+- words
+themes:
+- scripture-and-its-sciences
+- arts-of-the-book
+tags:
+- qiraat-browser
+- qiraat-sciences
+- qiraat-naqt
+periods:
+- period/umayyad
+regions:
+- levant-iraq
+date:
+  start:
+    edtf: 0668~
+    hijri: 0048~
+    calendar: julian
+    precision: decade
+    status: tradition
+    derived: true
+    note: "أكثر روايات نقط المصاحف ترجع إلى ولاية زياد بن أبيه على البصرة ⁦(44–53هـ)⁩ كما ينبه السبت؛ التاريخ تقريبي مشتق من هذا النطاق ولا نص على سنة بعينها {cite:manahil-irfan-sabt p. 331}؛ وأبو الأسود توفي ⁦(69هـ)⁩ بالبصرة كما في حاشية الإتقان {cite:itqan-suyuti p. 2245}"
+relations:
+- type: occurred_at
+  target: place/basra
+  sources:
+  - source/manahil-irfan-sabt
+  - source/itqan-suyuti
+- type: had_participant
+  target: person/abu-al-aswad-al-duali
+  role: واضع نقط الإعراب
+  sources:
+  - source/manahil-irfan-sabt
+  - source/itqan-suyuti
+- type: had_participant
+  target: person/ziyad-ibn-abi-sufyan
+  role: الطالب
+  sources:
+  - source/manahil-irfan-sabt
+  - source/itqan-suyuti
+- type: basis_for
+  target: concept/naqt-al-irab
+  sources:
+  - source/manahil-irfan-sabt
+  - source/itqan-suyuti
+sources:
+- source/manahil-irfan-sabt
+- source/itqan-suyuti
+provenance:
+  layer: own-research
+  source: الإتقان للسيوطي ط. مجمع الملك فهد، والنشر لابن الجزري ط. دهمان 1345هـ، وتهذيب مناهل العرفان لخالد السبت، وموطأ مالك ط. معروف؛ أرقام الصفحات علامات صفحات المسح كما في النص المقروء
+  generated_by: Claude Code (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: qiraat-browser-sciences-1
+status:
+  review: published
+  completeness: 3
+  generated_by: Claude Code (claude-sonnet-5-5)
+importance: 2

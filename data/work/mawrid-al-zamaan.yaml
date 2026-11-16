@@ -1,0 +1,26 @@
+id: work/mawrid-al-zamaan
+class: work
+kind: book
+label: { ar: "مورد الظمآن في رسم القرآن", en: "Mawrid al-Zam'an fi Rasm al-Qur'an (al-Kharraz)", ur: "مورد الظمآن فی رسم القرآن ⁦(الخراز)⁩" }
+summary:
+  ar: "منظومة في رسم القرآن لمحمد بن محمد الأموي الشريشي المشهور بالخراز، يذكرها ثبت مصادر طبعة «الإتقان» المحققة، وتحيل إليها حواشيها في مواضع حذف الألف وإثباتها بين المغاربة والمشارقة، ولها شروح منها «دليل الحيران» و«تنبيه الخلان» {cite:itqan-suyuti p. 3031} {cite:itqan-suyuti p. 2202} {cite:itqan-suyuti p. 2977}."
+  en: "A poem on the spelling of the Qur'an by Muhammad ibn Muhammad al-Umawi al-Sharishi, known as al-Kharraz. The bibliography of the edited Itqan lists it, and the notes refer to it for places where the alif is kept or dropped between the Maghribis and the Mashriqis; it has commentaries including Dalil al-Hayran and Tanbih al-Khillan {cite:itqan-suyuti p. 3031} {cite:itqan-suyuti p. 2202} {cite:itqan-suyuti p. 2977}."
+  ur: "قرآن کے رسم پر محمد بن محمد اموی شریشی المعروف خراز کی منظومہ؛ «الاتقان» کے محقق ایڈیشن کی فہرستِ مآخذ میں درج ہے اور اس کے حواشی الف کے حذف و اثبات میں مغاربہ اور مشارقہ کے اختلاف کے مقامات پر اس کا حوالہ دیتے ہیں؛ اس کی شروح میں «دلیل الحیران» اور «تنبیہ الخلان» ہیں {cite:itqan-suyuti p. 3031} {cite:itqan-suyuti p. 2202} {cite:itqan-suyuti p. 2977}۔"
+genre: [quran-sciences]
+language: language/arabic
+structure: "Not read directly; its title, author's name and commentaries as the bibliography of the King Fahd al-Itqan gives them (scan pp. 2969, 2977, 3031)."
+wings: [words]
+themes: [scripture-and-its-sciences]
+regions: [andalus-europe]
+tags: [qiraat-browser, qiraat-works, qiraat-rasm, qiraat-codex]
+relations:
+  - { type: about, target: concept/rasm-al-quran, sources: [source/itqan-suyuti] }
+  - { type: related_to, target: work/al-muqni-fi-rasm-masahif-al-amsar, sources: [source/itqan-suyuti] }
+sources: [source/itqan-suyuti]
+provenance:
+  layer: own-research
+  source: "source/itqan-suyuti scan pp. 2202, 2214, 2969, 2977, 3031; scan page markers"
+  generated_by: "Claude Code (claude-sonnet-5-5)"
+  model: claude-sonnet-5-5
+  run: qiraat-browser-scripts-works-1
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5)" }

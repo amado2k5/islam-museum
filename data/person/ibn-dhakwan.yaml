@@ -1,0 +1,29 @@
+id: person/ibn-dhakwan
+class: person
+tags: [qiraat-browser, qiraat-people, qiraat-readers, qiraat-readings]
+label: { ar: "ابن ذكوان", en: "Ibn Dhakwan", ur: "ابن ذکوان" }
+names:
+  - { kind: full, lang: ar, value: "أبو عمرو، ابن أحمد بن بشر بن ذكوان القرشي الفهري الدمشقي، المعروف بابن ذكوان" }
+roles: [scholar, teacher]
+gender: male
+traditions: [sunni]
+summary:
+  ar: "ابن ذكوان القرشي الفهري الدمشقي، راوي قراءة عبد الله بن عامر اليحصبي، ولد يوم عاشوراء سنة 173هـ وتوفي في شوال سنة 202هـ على الصواب، وكان شيخ الإقراء بالشام وإمام الجامع الأموي {cite:nashr-dahman-damascus-1345-v1 p. 155}."
+  en: "Ibn Dhakwan al-Qurashi al-Fihri of Damascus, transmitter of the reading of 'Abd Allah ibn 'Amir al-Yahsubi; born on the day of 'Ashura' 173 AH and died in Shawwal 202 AH, according to the sound view. He was the shaykh of the readings in al-Sham and imam of the Umayyad Mosque {cite:nashr-dahman-damascus-1345-v1 p. 155}."
+  ur: "ابن ذکوان قرشی فہری دمشقی، عبد اللہ بن عامر یحصبی کی قراءت کے راوی؛ عاشورا 173ھ کو پیدا ہوئے اور درست قول کے مطابق شوال 202ھ میں فوت ہوئے؛ شام میں اقراء کے شیخ اور جامع اموی کے امام تھے {cite:nashr-dahman-damascus-1345-v1 p. 155}."
+wings: [people]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+born: { edtf: "0789", hijri: "0173", calendar: julian, precision: year, status: tradition, derived: true, note: "Year as printed in al-Nashr; Julian year derived by tabular conversion.", sources: [source/nashr-dahman-damascus-1345-v1] }
+died: { edtf: "0818", hijri: "0202", calendar: julian, precision: year, status: tradition, derived: true, note: "Year as printed in al-Nashr; Julian year derived by tabular conversion.", sources: [source/nashr-dahman-damascus-1345-v1] }
+relations:
+  - { type: student_of, target: person/abdallah-ibn-amir-al-yahsibi, confidence: medium, note: "Ibn al-Jazari, al-Nashr, p. 154: Ibn Dhakwan reads on Ayyub ibn Tamim, whose chain reaches Ibn Amir.", sources: [source/nashr-dahman-damascus-1345-v1] }
+  - { type: lived_in, target: place/damascus, confidence: high, note: "Ibn al-Jazari, al-Nashr, p. 155: shaykh of the readings in al-Sham and imam of the Umayyad mosque.", sources: [source/nashr-dahman-damascus-1345-v1] }
+sources: [source/nashr-dahman-damascus-1345-v1]
+provenance:
+  layer: own-research
+  source: "al-Nashr fi al-Qira'at al-Ashr (Ibn al-Jazari), Dahman ed., Damascus 1345 AH, vol. 1: the biography sections (tarjamat) of the ten readers and their transmitters, read in the Apple-Vision OCR of the harvest scan (books/quran-sciences/nashr-ibn-jazari/nashrqraatashr); page numbers are scan page markers (PDF pages), OCR errors not copied"
+  generated_by: "Claude Code (claude-sonnet-5-5)"
+  model: claude-sonnet-5-5
+  run: qiraat-browser-people-1
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5)" }

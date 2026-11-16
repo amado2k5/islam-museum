@@ -1,5 +1,6 @@
 id: person/ibn-mujahid
 class: person
+tags: [qiraat-browser, qiraat-people, qiraat-readers, qiraat-readings]
 label:
   ar: "ابن مجاهد وعند ابن الجوزي ولد في ربيع الآخر سنة خمس وأربعين ومائتين وكان شيخ القراء في وقته والمقدم منهم على أهل عصره، وكان ثعلب يقول ما بقي في عصرنا أحد أعلم بكتاب الله من أبي بكر بن مجاهد، ورُئي في المنام ليلة موته كأن قائلًا يقول: مات الليلة من قوّم وحي الله منذ خمسين سنة! فإذا ابن مجاهد قد مات، ورآه آخر في النوم كأنه يقرأ فقال له: يا سيدي أنت ميت وتقرأ؟ فقال: كنت أدعو في دبر كل صلاة وعند ختم القرآن أن يجعلني ممن يقرأ في قبره فأنا ممن يقرأ في قبره؛ توفي يوم الأربعاء وقت العصر وأُخرج يوم الخميس لعشر بقين من شعبان ودفن في مقبرة باب البستان {cite:muntazam-ibn-al-jawzi p. 283}."
   en: "Ibn Mujahid"
@@ -18,7 +19,7 @@ relations:
   - { type: died_in, target: place/baghdad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: buried_in, target: place/baghdad, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: student_of, target: person/al-tabari, sources: [source/qiraat-inda-al-tabari-thesis-umm-al-qura] }
-sources: [source/al-aalam, source/qiraat-inda-al-tabari-thesis-umm-al-qura, source/wikidata]
+sources: [source/al-aalam, source/qiraat-inda-al-tabari-thesis-umm-al-qura, source/wikidata, source/nashr-dahman-damascus-1345-v1]
 external_ids:
   wikidata: Q4670097
   viaf: "34128617"
@@ -29,6 +30,8 @@ provenance:
   model: "SWE-2 High"
   run: wikidata-import-0026
   enriched_by:
+    - { generated_by: "Claude Code (claude-sonnet-5-5)", model: claude-sonnet-5-5, run: qiraat-browser-people-1, source: "source/nashr-dahman-damascus-1345-v1: pages cited in the prose (page numbers are scan page markers; OCR errors not copied)" }
+    - { generated_by: "Claude Code (claude-sonnet-5-5)", model: claude-sonnet-5-5, run: qiraat-browser-people-1, source: "source/nashr-dahman-damascus-1345-v1: pages cited in the prose (page numbers are scan page markers; OCR errors not copied)" }
     - { generated_by: "Claude Code (OCR-harvest worker B)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/qiraat-inda-al-tabari-thesis-umm-al-qura PDF pp. 33–34, 76, 92" }
 status:
   review: published

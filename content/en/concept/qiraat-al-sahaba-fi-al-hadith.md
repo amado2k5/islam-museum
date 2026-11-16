@@ -1,0 +1,25 @@
+---
+id: concept/qiraat-al-sahaba-fi-al-hadith
+lang: en
+source_lang: ar
+translators: ["Claude Code (claude-sonnet-5-5), draft translation"]
+provenance: { generated_by: "Claude Code (claude-sonnet-5-5)", model: claude-sonnet-5-5, run: qiraat-browser-sciences-1, source: "الإتقان للسيوطي ط. مجمع الملك فهد، والنشر لابن الجزري ط. دهمان 1345هـ، وتهذيب مناهل العرفان لخالد السبت، وموطأ مالك ط. معروف؛ أرقام الصفحات علامات صفحات المسح كما في النص المقروء" }
+status: { review: published }
+---
+## Summary
+When the Qur'an passes from the Prophet to the Companions, the reports show another side of recitation: Companions reading a verse one way and others another way, both relating it from the Prophet. These reports are the root of the idea of the seven ahruf; some survive in the mass-transmitted readings and some only in books of irregular readings or hadith. At the head of Abu Ubayd's book on the readings is a list of Companions from whom some variant was carried, which Ibn al-Jazari relays: from the Muhajirun, Abu Bakr, Umar, Uthman, Ali, Talha, Sa'd, Ibn Mas'ud, Hudhayfa, Salim, Abu Hurayra, Ibn Umar, Ibn Abbas, Amr ibn al-As and his son Abdallah, Mu'awiya, Ibn al-Zubayr, Abdallah ibn al-Sa'ib, A'isha, Hafsa and Umm Salama; from the Ansar, Ubayy ibn Ka'b, Mu'adh ibn Jabal, Abu al-Darda', Zayd ibn Thabit, Abu Zayd, Majma' ibn Jariya and Anas ibn Malik. {cite:nashr-dahman-damascus-1345-v1 p. 16}
+
+## Stories of disagreement brought to the Prophet
+**Ubayy.** Muslim relays from [[person/ubayy-ibn-kab|Ubayy ibn Ka'b]] that Jibril came to the Prophet at the pool of Banu Ghifar and said God commands him that his community read the Qur'an in one harf, then two, then three, then seven ahruf, the Prophet each time asking for God's pardon and forgiveness and saying his community could not bear it. {cite:manahil-irfan-sabt p. 157} In al-Tirmidhi's version the Prophet tells Jibril that he was sent to an unlettered community, among them the aged man, the old woman and the boy. {cite:manahil-irfan-sabt p. 157}
+**Amr ibn al-As.** Ahmad relays that a man read a verse and Amr said it is so and so; it was told to the Prophet, who said that this Qur'an was revealed in seven ahruf, so whichever you read you are right, and do not dispute. {cite:manahil-irfan-sabt p. 157}
+**Ibn Mas'ud.** The hadith books report that after the Prophet taught him a sura from the Ha-Mim group, he went to the mosque and heard a man reading it with letters he did not recite; they went to the Prophet, whose face changed, and he said what destroyed those before you was dispute, and Ali relayed that the Prophet commands each man to read as he was taught. In al-Bukhari's version the Prophet said: you are both doing well, so read, for those before you differed and were destroyed. {cite:manahil-irfan-sabt p. 158}
+**Abu Hurayra.** Al-Tabari relays the Prophet's saying through him: read and there is no harm, only do not seal a mention of mercy with punishment or a mention of punishment with mercy. {cite:manahil-irfan-sabt p. 158}
+
+## Variants reported from Companions
+Illustrating the kinds of difference, Khalid al-Sabt cites variants reported from Companions, among them the reading of [[person/abdullah-ibn-masud|Ibn Mas'ud]] and [[person/abu-al-darda|Abu al-Darda']] at [[passage/quran-92-3|al-Layl 92:3]] dropping the relative particle, a reading attributed to Abu Bakr at [[passage/quran-50-19|Qaf 50:19]] putting the word for the truth before death, and Ubayy ibn Ka'b's substitution of a synonym for a word in [[passage/quran-2-20|al-Baqara 2:20]] and [[passage/quran-57-13|al-Hadid 57:13]]. {cite:manahil-irfan-sabt p. 175} {cite:manahil-irfan-sabt p. 189} A reading is also given from Ibn Abbas at [[passage/quran-18-79|al-Kahf 18:79]] and [[passage/quran-18-80|18:80]] that adds a descriptive word in each place; Ibn al-Jazari gives these as examples of the class Makki described as soundly transmitted yet not to be read because it departs from the script. {cite:nashr-dahman-damascus-1345-v1 p. 24}
+
+## The codices of A'isha and Hafsa
+Malik relates in the Muwatta that A'isha told her freedman Abu Yunus to write a codex for her and to let her know when he reached the verse on guarding the prayers in al-Baqara; she then dictated a form adding mention of the afternoon prayer after 'the middle prayer', and said she heard it from the Messenger of God: [[passage/muwatta-1-367|Muwatta 367]]. The same is related of [[person/hafsa|Hafsa]] and the one writing her codex: [[passage/muwatta-1-368|Muwatta 368]]. {cite:muwatta-maruf-1997 p.200} {cite:muwatta-maruf-1997 p.201} It is an explanatory reading making clear that for both the middle prayer is the afternoon prayer, and it did not enter the Uthmanic codex.
+
+## What Uthman did with them
+When Uthman wrote the codices he stripped them of everything that is not Qur'an, such as what some Companions wrote in their private codices as explanation or to mark what abrogates and what is abrogated. {cite:manahil-irfan-sabt p. 239} See [[concept/masahif-al-sahaba|the Companions' codices]] and [[event/ibn-masud-and-the-uthmani-codex|Ibn Mas'ud and the Uthmanic codex]].

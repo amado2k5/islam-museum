@@ -1,0 +1,29 @@
+id: work/al-muhkam-fi-naqt-al-masahif
+class: work
+kind: book
+label: { ar: "المحكم في نقط المصاحف", en: "al-Muhkam fi Naqt al-Masahif", ur: "المحکم فی نقط المصاحف" }
+summary:
+  ar: "كتاب أبي عمرو الداني في نقط المصاحف وشكلها، تحيل إليه حواشي «الإتقان» المحققة لبيان من ابتدأ النقط والشكل وما كُره منه وما أُجيز، وينقل السيوطي عن الداني أنه لا يستجيز النقط بالسواد ويرى أن تكون الحركات والتنوين والتشديد والسكون والمد بالحمرة والهمزات بالصفرة {cite:itqan-suyuti p. 2245} {cite:itqan-suyuti p. 2249}."
+  en: "Abu Amr al-Dani's book on the dotting and vowelling of the mushafs. The notes of the edited Itqan refer to it for who began dotting and vowelling and what was disliked and allowed, and al-Suyuti reports that al-Dani does not allow dotting in black ink and would have the vowels, tanwin, shadda, sukun and madd in red and the hamzas in yellow {cite:itqan-suyuti p. 2245} {cite:itqan-suyuti p. 2249}."
+  ur: "ابو عمرو دانی کی مصاحف کے نقطے اور شکل پر کتاب؛ «الاتقان» کے محقق حواشی اس کا حوالہ اس کے لیے دیتے ہیں کہ نقط و شکل کی ابتدا کس نے کی اور کیا ناپسند اور کیا جائز رہا، اور سیوطی دانی سے نقل کرتے ہیں کہ وہ سیاہی سے نقطے لگانا جائز نہیں سمجھتے اور چاہتے ہیں کہ حرکات، تنوین، تشدید، سکون اور مد سرخ اور ہمزے زرد رنگ میں ہوں {cite:itqan-suyuti p. 2245} {cite:itqan-suyuti p. 2249}۔"
+genre: [quran-sciences]
+language: language/arabic
+authors: [person/abu-amr-al-dani]
+structure: "Not read directly; known from its title and edition in the bibliography of the King Fahd al-Itqan (scan p. 3014) and from the citations in that edition's notes (scan pp. 2245-2249)."
+wings: [words]
+themes: [scripture-and-its-sciences]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [andalus-europe]
+tags: [qiraat-browser, qiraat-works, qiraat-naqt, qiraat-codex]
+relations:
+  - { type: about, target: concept/rasm-al-quran, sources: [source/itqan-suyuti] }
+  - { type: mentions, target: person/abu-al-aswad-al-duali, sources: [source/itqan-suyuti] }
+  - { type: mentions, target: person/nasr-ibn-asim, sources: [source/itqan-suyuti] }
+sources: [source/itqan-suyuti, source/subh-al-asha-cairo-v3, source/taysir-pretzl-istanbul-1930]
+provenance:
+  layer: own-research
+  source: "source/itqan-suyuti scan pp. 2245-2249, 3014; source/subh-al-asha-cairo-v3 scan p. 12; source/taysir-pretzl-istanbul-1930 scan p. 10; scan page markers"
+  generated_by: "Claude Code (claude-sonnet-5-5)"
+  model: claude-sonnet-5-5
+  run: qiraat-browser-scripts-works-1
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5)" }

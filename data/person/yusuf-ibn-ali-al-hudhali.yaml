@@ -1,0 +1,27 @@
+id: person/yusuf-ibn-ali-al-hudhali
+class: person
+tags: [qiraat-browser, qiraat-people, qiraat-readers, qiraat-readings]
+label: { ar: "أبو القاسم الهذلي يوسف بن علي", en: "Abu al-Qasim al-Hudhali, Yusuf ibn 'Ali", ur: "ابو القاسم ہذلی یوسف بن علی" }
+names:
+  - { kind: full, lang: ar, value: "يوسف بن علي بن جبارة الهذلي المغربي، أبو القاسم" }
+roles: [scholar, teacher]
+gender: male
+traditions: [sunni]
+summary:
+  ar: "أبو القاسم يوسف بن علي بن جبارة الهذلي، رحل من المغرب إلى المشرق وطاف البلاد وروى عن أئمة القراءة حتى ما وراء النهر، وألّف «الكامل» جمع فيه خمسين قراءة وألفاً وأربعمائة وتسعاً وخمسين رواية وطريقاً؛ توفي سنة 465هـ {cite:nashr-dahman-damascus-1345-v1 p. 45}."
+  en: "Abu al-Qasim Yusuf ibn 'Ali ibn Jabbara al-Hudhali travelled from the Maghrib to the East and toured its lands, taking from the masters of the readings as far as Transoxiana, and wrote al-Kamil, which gathers fifty readings with fourteen hundred and fifty-nine riwayas and lines of transmission; he died in 465 AH {cite:nashr-dahman-damascus-1345-v1 p. 45}."
+  ur: "ابو القاسم یوسف بن علی بن جبارہ ہذلی نے مغرب سے مشرق کا سفر کیا، بلاد کا چکر لگایا اور ماوراء النہر تک ائمۂ قراءت سے روایت لی، اور «الکامل» لکھی جس میں پچاس قراءتیں اور چودہ سو انسٹھ روایات و طرق جمع ہیں؛ 465ھ میں فوت ہوئے {cite:nashr-dahman-damascus-1345-v1 p. 45}."
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [maghreb]
+died: { edtf: "1073", hijri: "0465", calendar: julian, precision: year, status: tradition, derived: true, note: "Year as printed in al-Nashr; Julian year derived by tabular conversion.", sources: [source/nashr-dahman-damascus-1345-v1] }
+relations:
+  - { type: traveled_to, target: place/ghazna, confidence: low, note: "Ibn al-Jazari, al-Nashr, p. 44: he travelled east, reaching beyond the Oxus, and read in Ghazna.", sources: [source/nashr-dahman-damascus-1345-v1] }
+sources: [source/nashr-dahman-damascus-1345-v1]
+provenance:
+  layer: own-research
+  source: "al-Nashr fi al-Qira'at al-Ashr (Ibn al-Jazari), Dahman ed., Damascus 1345 AH, vol. 1: the biography sections (tarjamat) of the ten readers and their transmitters, read in the Apple-Vision OCR of the harvest scan (books/quran-sciences/nashr-ibn-jazari/nashrqraatashr); page numbers are scan page markers (PDF pages), OCR errors not copied"
+  generated_by: "Claude Code (claude-sonnet-5-5)"
+  model: claude-sonnet-5-5
+  run: qiraat-browser-people-1
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5)" }

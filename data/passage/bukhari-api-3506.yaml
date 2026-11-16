@@ -1,0 +1,17 @@
+id: passage/bukhari-api-3506
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "3506"
+label: { ar: "صحيح البخاري 3506 — جمع القرآن والمصاحف، رسم المصحف", en: "Sahih al-Bukhari 3506 — the collection of the Qur'an and the codices; the orthography of the mushaf", ur: "صحیح بخاری 3506 — جمعِ قرآن اور مصاحف، رسمِ مصحف" }
+text: "… اللَّهِ، حَدَّثَنَا إِبْرَاهِيمُ بْنُ سَعْدٍ، عَنِ ابْنِ شِهَابٍ، عَنْ أَنَسٍ، أَنَّ عُثْمَانَ، دَعَا زَيْدَ بْنَ ثَابِتٍ وَعَبْدَ اللَّهِ بْنَ الزُّبَيْرِ وَسَعِيدَ بْنَ الْعَاصِ وَعَبْدَ الرَّحْمَنِ بْنَ الْحَارِثِ بْنِ هِشَامٍ فَنَسَخُوهَا فِي الْمَصَاحِفِ، وَقَالَ عُثْمَانُ لِلرَّهْطِ الْقُرَشِيِّينَ الثَّلاَثَةِ إِذَا اخْتَلَفْتُمْ أَنْتُمْ وَزَيْدُ بْنُ ثَابِتٍ فِي شَىْءٍ مِنَ الْقُرْآنِ، فَاكْتُبُوهُ بِلِسَانِ قُرَيْشٍ، فَإِنَّمَا نَزَلَ بِلِسَانِهِمْ. فَفَعَلُوا ذَلِكَ."
+summary:
+  ar: "حديث في صحيح البخاري، رقم 3506، يذكر جمع القرآن والمصاحف، ورسم المصحف. يجمعه متصفح قراءات القرآن والرسم والخطوط والضبط مع نصوص القرآن والسنة والسيرة والكتب في قراءات القرآن وكتابته."
+  en: "A report in Sahih al-Bukhari, no. 3506 (Virtues and Merits of the Prophet (pbuh) and his Companions), that mentions the collection of the Qur'an and the codices, the orthography of the mushaf. The browser of the museum for how the Qur'an was read and written lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on that subject."
+  ur: "صحیح بخاری کی حدیث نمبر 3506، جس میں جمعِ قرآن اور مصاحف، رسمِ مصحف کا ذکر ہے۔ قراءات، رسم، خطوط اور نقطوں کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/mushaf, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/rasm-al-quran, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 3506 (book 61 hadith 16); matn excerpt of at most 55 words chosen by the qira'at detector (scripts/qiraat.ts), honorific formulas left out", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "qiraat-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-sonnet-5-5) from the hadith-api Arabic edition; label and summary are the museum's own words" }

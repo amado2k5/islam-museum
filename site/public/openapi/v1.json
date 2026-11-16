@@ -647,6 +647,21 @@
         }
       }
     },
+    "/qiraat.json": {
+      "get": {
+        "operationId": "getQiraat",
+        "summary": "Qur'an Readings, Orthography, Scripts and Dotting Browser dataset",
+        "description": "The Qur'an Readings, Orthography, Scripts and Dotting Browser dataset (متصفح قراءات القرآن والرسم الإملائي والخطوط والتنقيط): every mention of the readings of the Qur'an and the seven ahruf, the readers and their transmitters, the collection of the Qur'an and the codices, the orthography (rasm) of the mushaf and the debate over ordinary (imla'i) spelling, its dotting and vowel marks, and the scripts it was written in — Qur'an verses from a reviewed table, hadith, seerah and harvested-book passages detected at build time, plus the curated records tagged qiraat-browser — each with its section (quran, sunnah, seerah, books, sciences, people, scripts, works, mushafs), topics (ahruf, readings, readers, codex, rasm, naqt, khatt), work, ref, text excerpt, kind, themes and edges.",
+        "responses": {
+          "200": {
+            "description": "Every readings, rasm, scripts and dotting record with section, topics, work, ref, excerpt, kind, themes and edges",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
     "/nubuwat.json": {
       "get": {
         "operationId": "getNubuwat",

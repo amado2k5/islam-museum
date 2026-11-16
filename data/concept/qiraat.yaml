@@ -10,7 +10,7 @@ summary:
   en: "Qira'at is the science of transmitting the recitation of the Qur'an through the transmitted readings; al-Suyuti counts it among the types of Qur'anic sciences in the Itqan {cite:itqan-suyuti}."
 wings: [ideas]
 themes: [scripture-and-its-sciences]
-external_ids: { wikidata: "Q1817983" }
+external_ids: {wikidata: "Q1817983"}
 sources: [source/itqan-suyuti, source/qiraat-inda-al-tabari-thesis-umm-al-qura, source/taysir-pretzl-istanbul-1930, source/nashr-dahman-damascus-1345-v1, source/tafsir-tabari-shakir-v01]
 provenance:
   layer: own-research
@@ -19,6 +19,14 @@ provenance:
   run: wd-deferred-7
   nashr_section: "Claude Code (OCR-harvest worker L), claude-opus-5-5, run ocr-harvest-2026-11-04: nashr-dahman-damascus-1345-v1 PDF pp. 19-20; taysir-pretzl-istanbul-1930 PDF p. 10"
   enriched_by:
-    - { generated_by: "Claude Code (OCR-harvest worker B)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/qiraat-inda-al-tabari-thesis-umm-al-qura PDF pp. 88–93, 1364, 1381–1382" }
+  - {generated_by: "Claude Code (OCR-harvest worker B)", model: claude-opus-5-5, run: ocr-harvest-2026-11-04, source: "source/qiraat-inda-al-tabari-thesis-umm-al-qura PDF pp. 88–93, 1364, 1381–1382"}
+  - generated_by: Claude Code (claude-sonnet-5-5)
+    model: claude-sonnet-5-5
+    run: qiraat-browser-sciences-1
+    source: روابط إلى سجلات متصفح القراءات الجديدة؛ لا معلومات جديدة
 importance: 2
-status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }
+status: {review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)"}
+tags:
+- qiraat-browser
+- qiraat-sciences
+- qiraat-readings

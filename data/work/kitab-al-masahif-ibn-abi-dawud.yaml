@@ -1,0 +1,29 @@
+id: work/kitab-al-masahif-ibn-abi-dawud
+class: work
+kind: book
+label: { ar: "كتاب المصاحف لابن أبي داود", en: "Kitab al-Masahif (Ibn Abi Dawud)", ur: "کتاب المصاحف ⁦(ابن ابی داود)⁩" }
+summary:
+  ar: "كتاب لابن أبي داود السجستاني في المصاحف، يستند إليه السيوطي في «الإتقان» لما رُوي عن السلف في كتابة المصحف ونقطه وتعشيره وأوصافه، وتحيل إليه حواشي الطبعة المحققة بأرقام الأخبار {cite:itqan-suyuti p. 2243} {cite:itqan-suyuti p. 2246} {cite:itqan-suyuti p. 2247}."
+  en: "A book by Ibn Abi Dawud al-Sijistani on the mushafs, on which al-Suyuti draws in the Itqan for what was reported of the early generations on writing, dotting and dividing into tens, and on the form of the mushaf; the notes of the edited text refer to it by the numbers of its reports {cite:itqan-suyuti p. 2243} {cite:itqan-suyuti p. 2246} {cite:itqan-suyuti p. 2247}."
+  ur: "ابن ابی داود سجستانی کی مصاحف پر کتاب، جس پر سیوطی «الاتقان» میں مصحف کی کتابت، نقطے، تعشیر اور ہیئت کے بارے میں سلف سے مروی اخبار کے لیے انحصار کرتے ہیں؛ تحقیق شدہ متن کے حواشی اخبار کے نمبروں کے ساتھ اس کا حوالہ دیتے ہیں {cite:itqan-suyuti p. 2243} {cite:itqan-suyuti p. 2246} {cite:itqan-suyuti p. 2247}۔"
+genre: [quran-sciences]
+language: language/arabic
+authors: [person/abd-allah-ibn-abi-dawud-al-sijistani]
+structure: "Not read directly: known through the King Fahd edition of al-Itqan, whose notes cite it with the editor's numbering (e.g. reports 110, 337, 395, 415-418, 470)."
+wings: [words]
+themes: [scripture-and-its-sciences]
+periods: [period/abbasid-fragmentation]
+regions: [levant-iraq]
+tags: [qiraat-browser, qiraat-works, qiraat-codex, qiraat-naqt, qiraat-khatt]
+relations:
+  - { type: about, target: concept/masahif-al-sahaba, sources: [source/itqan-suyuti] }
+  - { type: about, target: concept/rasm-al-quran, sources: [source/itqan-suyuti] }
+  - { type: mentions, target: person/abd-allah-ibn-abi-dawud-al-sijistani, sources: [source/itqan-suyuti] }
+sources: [source/itqan-suyuti, source/fihrist-ibn-al-nadim-rahmaniyya-cairo]
+provenance:
+  layer: own-research
+  source: "source/itqan-suyuti scan pp. 62, 175, 286, 584, 1237, 2243-2247 (King Fahd edition notes); source/fihrist-ibn-al-nadim-rahmaniyya-cairo scan p. 66; scan page markers"
+  generated_by: "Claude Code (claude-sonnet-5-5)"
+  model: claude-sonnet-5-5
+  run: qiraat-browser-scripts-works-1
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5)" }

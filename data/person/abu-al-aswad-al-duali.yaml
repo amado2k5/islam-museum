@@ -6,6 +6,7 @@ education:
     ur: "ابوالاسود دؤلی، ماہرِ لغت جن کو مصحف کے اعراب اور نحو کی بنیاد کا اعزاز دیا جاتا ہے؛ ابن ندیم کہتے ہیں اکثر علما مانتے تھے کہ نحو ان سے لیا گیا اور انہوں نے علی سے لیا۔"
     sources: [source/fihrist-ibn-al-nadim, source/tabaqat-ibn-sad]
 class: person
+tags: [qiraat-browser, qiraat-people, qiraat-naqt, qiraat-readers]
 label: { ar: "أبو الأسود الدؤلي ظالم بن عمرو", en: "Abu al-Aswad al-Du'ali, Zalim ibn Amr" }
 names:
   - { kind: full, lang: ar, value: "ظالم بن عمرو بن سفيان أبو الأسود الدؤلي" }
@@ -23,11 +24,13 @@ regions: [levant-iraq]
 story_roles:
   - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
 external_ids: { wikidata: "Q337029" }
-sources: [source/mawsuat-a3lam-ulama-adaba, source/fihrist-ibn-al-nadim, source/umayyad-birth-to-fall-2006, source/sallabi-ali-vol1, source/al-mustatraf-abshihi-scan-vol1]
+sources: [source/mawsuat-a3lam-ulama-adaba, source/fihrist-ibn-al-nadim, source/umayyad-birth-to-fall-2006, source/sallabi-ali-vol1, source/al-mustatraf-abshihi-scan-vol1, source/burhan-dar-al-hadith-2006]
 status:
   review: published
   completeness: 3
 provenance:
+  enriched_by:
+    - { generated_by: "Claude Code (claude-sonnet-5-5)", model: claude-sonnet-5-5, run: qiraat-browser-people-1, source: "source/burhan-dar-al-hadith-2006 PDF page 177 (page number is a PDF page marker; OCR errors not copied)" }
   layer: "own-research"
   source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج1 ص684"
   generated_by: "Devin (SWE-2 Medium)"

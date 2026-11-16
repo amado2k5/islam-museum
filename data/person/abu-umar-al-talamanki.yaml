@@ -1,5 +1,6 @@
 id: person/abu-umar-al-talamanki
 class: person
+tags: [qiraat-browser, qiraat-people, qiraat-readers, qiraat-readings]
 label:
   ar: "أبو عمر الطلمنكي"
   en: "Abu Umar al-Talamanki"
@@ -11,17 +12,20 @@ summary:
 wings: [people]
 regions: [andalus-europe]
 periods: [period/buyid-seljuk-fatimid-era]
-sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002, source/wafi-bi-l-wafayat-safadi-dar-ihya-2000]
+sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002, source/wafi-bi-l-wafayat-safadi-dar-ihya-2000, source/nashr-dahman-damascus-1345-v1]
 external_ids:
   wikidata: Q5473850
 provenance:
+  enriched_by:
+    - { generated_by: "Claude Code (claude-sonnet-5-5)", model: claude-sonnet-5-5, run: qiraat-browser-people-1, source: "source/nashr-dahman-damascus-1345-v1: pages cited in the prose (page numbers are scan page markers; OCR errors not copied)" }
+    - { generated_by: "Claude Code (claude-sonnet-5-5)", model: claude-sonnet-5-5, run: qiraat-browser-people-1, source: "source/nashr-dahman-damascus-1345-v1: pages cited in the prose (page numbers are scan page markers; OCR errors not copied)" }
   layer: own-research
   source: "al-Zirikli, al-A'lam vol. 1 pp. 212-213; al-Safadi, al-Wafi bi-l-Wafayat vol. 8 p. 23"
   generated_by: "Claude Code (Lane B2 packet)"
   model: claude-sonnet-5-5
   run: web-b2-m01-2026-11-14
 status:
-  review: draft
+  review: published
   completeness: 2
 born: { edtf: "951", hijri: "0340", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar); Ibn Bashkuwal (al-Sila) Confirmed on 13 November 2026 against Wikidata Q5473850 (P569, a statement with a reference), item revision 2512613637.", sources: [source/wikidata] }
 died: { edtf: "1038", hijri: "0429-12", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhahabi (Siyar); Ibn Bashkuwal (al-Sila) Confirmed on 13 November 2026 against Wikidata Q5473850 (P570, a statement with a reference), item revision 2512613637.", sources: [source/wikidata] }

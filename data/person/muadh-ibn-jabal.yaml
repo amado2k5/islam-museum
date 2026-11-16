@@ -1,5 +1,6 @@
 id: person/muadh-ibn-jabal
 class: person
+tags: [qiraat-browser, qiraat-people, qiraat-readers, qiraat-ahruf, qiraat-codex]
 label: { en: "Mu'adh ibn Jabal", ar: "معاذ بن جبل" , ur: "معاذ بن جبل"}
 names:
   - { kind: full, lang: ar, value: "معاذ بن جبل بن عمرو الخزرجي" }
@@ -35,10 +36,12 @@ relations:
   - { type: member_of, target: group/sahaba, sources: [source/ibn-hisham-saqqa]}
 external_ids:
   wikidata: Q1147464
-sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume, source/ibn-hisham-saqqa, source/sahih-al-bukhari, source/assabile-omar-abdelkafy, source/assabile-abd-al-rahman-mansour, source/ibn-hajar-isaba]
+sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume, source/ibn-hisham-saqqa, source/sahih-al-bukhari, source/assabile-omar-abdelkafy, source/assabile-abd-al-rahman-mansour, source/ibn-hajar-isaba, source/itqan-suyuti-calcutta-1852]
 importance: 2
-status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }
+status: { review: published, completeness: 2, generated_by: "Devin; 2026-10-11" }
 provenance:
+  enriched_by:
+    - { generated_by: "Claude Code (claude-sonnet-5-5)", model: claude-sonnet-5-5, run: qiraat-browser-people-1, source: "source/itqan-suyuti-calcutta-1852 scan pages 106 and 167 (page numbers are scan page markers; OCR errors not copied)" }
   layer: own-research
   source: "source/assabile-omar-abdelkafy"
   generated_by: "Claude Haiku 5.5"

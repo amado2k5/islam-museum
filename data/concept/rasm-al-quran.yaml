@@ -18,5 +18,14 @@ provenance:
   generated_by: "Claude Sonnet (subagent)"
   model: sonnet
   run: omar-tafsir-bundle-5
-sources: [source/assabile-omar-abdelkafy]
-status: { review: published, generated_by: "Claude Sonnet (subagent)" }
+  enriched_by:
+  - generated_by: Claude Code (claude-sonnet-5-5)
+    model: claude-sonnet-5-5
+    run: qiraat-browser-sciences-1
+    source: الإتقان للسيوطي ط. مجمع الملك فهد، وتهذيب مناهل العرفان لخالد السبت، والنشر لابن الجزري ط. دهمان 1345هـ؛ أرقام الصفحات علامات صفحات المسح؛ ص 313-322 من التهذيب، وص 2196-2212 من الإتقان
+sources: [source/assabile-omar-abdelkafy, source/itqan-suyuti, source/manahil-irfan-sabt, source/nashr-dahman-damascus-1345-v1]
+status: {review: published, generated_by: "Claude Sonnet (subagent)"}
+tags:
+- qiraat-browser
+- qiraat-sciences
+- qiraat-rasm
