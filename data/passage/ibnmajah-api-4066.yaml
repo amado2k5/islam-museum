@@ -1,0 +1,16 @@
+id: passage/ibnmajah-api-4066
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "4066"
+label: { ar: "سنن ابن ماجه 4066 — أثر من الآثار المحفوظة", en: "Sunan Ibn Majah 4066 — a relic kept after its owner", ur: "سنن ابن ماجہ 4066 — محفوظ آثار و تبرکات" }
+text: "… عَلِيِّ بْنِ زَيْدٍ، عَنْ أَوْسِ بْنِ خَالِدٍ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ رَسُولَ اللَّهِ ـ قَالَ \" تَخْرُجُ الدَّابَّةُ وَمَعَهَا خَاتَمُ سُلَيْمَانَ بْنِ دَاوُدَ وَعَصَا مُوسَى بْنِ عِمْرَانَ فَتَجْلُو وَجْهَ الْمُؤْمِنِ بِالْعَصَا وَ تَخْطِمُ أَنْفَ الْكَافِرِ بِالْخَاتَمِ حَتَّى أَنَّ أَهْلَ الْحِوَاءِ لَيَجْتَمِعُونَ فَيَقُولُ هَذَا يَا مُؤْمِنُ وَيَقُولُ هَذَا يَا كَافِرُ \". قَالَ أَبُو الْحَسَنِ الْقَطَّانُ حَدَّثَنَاهُ …"
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 4066، يذكر أثر من الآثار المحفوظة. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan Ibn Majah, no. 4066 (Tribulations), that mentions a relic kept after its owner. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 4066، جس میں محفوظ آثار و تبرکات کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/tabarruk, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 4066 (book 36 hadith 141); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

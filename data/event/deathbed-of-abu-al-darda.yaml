@@ -1,0 +1,55 @@
+id: event/deathbed-of-abu-al-darda
+class: event
+kind: death
+label:
+  ar: احتضار أبي الدرداء بدمشق ووصاياه
+  en: Deathbed and counsels of Abu al-Darda' in Damascus
+  ur: دمشق میں ابو الدرداء کا آخری وقت اور ان کی وصیتیں
+summary:
+  ar: "اشتكى أبو الدرداء فدخل عليه أصحابه فقالوا ما تشتكي، قال أشتكي ذنوبي، وما تشتهي، قال أشتهي الجنة، وأفلا ندعو لك طبيباً، قال هو الذي أضجعني {cite:sifat-al-safwa-tartusi-2012 scan vol. 1 p. 230}. ولما احتُضر جعل يقول من يعمل لمثل يومي هذا ومثل ساعتي هذه ومثل مضجعي هذا {cite:sifat-al-safwa-tartusi-2012 scan vol. 1 p. 230}. وأوصى زوجته أم الدرداء ألا تأكل الصدقة وأن تعمل أو تلتقط السنبل، وأخبرها فيما تروي أن لا تتزوج بعده إن أرادت أن تكون زوجته في الجنة {cite:sifat-al-safwa-tartusi-2012 scan vol. 1 p. 230}. وأشار على معاوية عند موته بتولية فضالة بن عبيد القضاء بدمشق {cite:isti-ab-ibn-abd-al-barr scan vol. 3 p. 599}. وتوفي بدمشق سنة اثنتين وثلاثين في خلافة عثمان عند الواقدي، وسنة إحدى وثلاثين عند خالد بن معدان {cite:sifat-al-safwa-tartusi-2012 scan vol. 1 p. 230}."
+  en: "Abu al-Darda' fell ill and his companions asked what was troubling him; he said his sins; asked what he desired, he said Paradise; asked whether they should call a physician, he said the One who had laid him down was the physician {cite:sifat-al-safwa-tartusi-2012 scan vol. 1 p. 230}. As death approached he kept saying, who will work for a day like this day, an hour like this hour, a resting place like this one {cite:sifat-al-safwa-tartusi-2012 scan vol. 1 p. 230}. He told his wife Umm al-Darda' not to live on charity but to work or gather gleanings, and, in her own report, asked her not to remarry if she wished to be his wife in Paradise {cite:sifat-al-safwa-tartusi-2012 scan vol. 1 p. 230}. On his deathbed he advised Mu'awiya to appoint Fadala ibn Ubayd as judge of Damascus {cite:isti-ab-ibn-abd-al-barr scan vol. 3 p. 599}. He died in Damascus in the year 32 in Uthman's caliphate according to al-Waqidi, or in 31 according to Khalid ibn Ma'dan {cite:sifat-al-safwa-tartusi-2012 scan vol. 1 p. 230}."
+  ur: "ابو الدرداء بیمار ہوئے تو ساتھیوں نے پوچھا کیا تکلیف ہے، بولے اپنے گناہوں کی؛ پوچھا کیا چاہتے ہیں، بولے جنت؛ پوچھا کیا طبیب بلائیں، بولے جس نے مجھے لٹایا ہے وہی طبیب ہے {cite:sifat-al-safwa-tartusi-2012 scan vol. 1 p. 230}. نزع کے وقت وہ کہتے رہے کہ آج جیسے دن، اس گھڑی جیسی گھڑی اور اس لیٹنے کی جگہ جیسی جگہ کے لیے کون عمل کرتا ہے {cite:sifat-al-safwa-tartusi-2012 scan vol. 1 p. 230}. اپنی اہلیہ ام الدرداء سے کہا کہ صدقہ نہ کھانا بلکہ محنت کرنا یا بالیاں چن لینا، اور ان کی اپنی روایت کے مطابق انھیں کہا کہ اگر جنت میں میری بیوی بننا چاہتی ہو تو بعد میں نکاح نہ کرنا {cite:sifat-al-safwa-tartusi-2012 scan vol. 1 p. 230}. مرتے وقت معاویہ کو مشورہ دیا کہ دمشق کی قضا فضالہ بن عبید کو دیں {cite:isti-ab-ibn-abd-al-barr scan vol. 3 p. 599}. واقدی کے مطابق وہ دمشق میں عثمان کی خلافت میں سن 32 ہجری میں فوت ہوئے، اور خالد بن معدان کے مطابق سن 31 میں {cite:sifat-al-safwa-tartusi-2012 scan vol. 1 p. 230}."
+wings: [time, people, words]
+tags: [wasaya-browser, wasaya-companions, wasaya-wasiyya, wasaya-ihtidar, wasaya-mirath]
+periods:
+- period/rashidun
+regions:
+- levant-iraq
+date:
+  start: { hijri: "0032", precision: year, status: tradition, note: "اثنتين وثلاثين عند الواقدي، وإحدى وثلاثين عند خالد بن معدان {cite:sifat-al-safwa-tartusi-2012 scan vol. 1 p. 230}", sources: [source/sifat-al-safwa-tartusi-2012] }
+relations:
+- type: occurred_at
+  target: place/damascus
+  sources: [source/sifat-al-safwa-tartusi-2012]
+- type: had_participant
+  target: person/abu-al-darda
+  role: صاحب الاحتضار والوصايا
+  sources: [source/sifat-al-safwa-tartusi-2012]
+- type: had_participant
+  target: person/umm-al-darda-al-sughra
+  role: زوجته المخاطبة بوصيته
+  sources: [source/sifat-al-safwa-tartusi-2012]
+- type: had_participant
+  target: person/muawiya-ibn-abi-sufyan
+  role: استشاره في القضاء
+  sources: [source/isti-ab-ibn-abd-al-barr, source/al-bidaya-wal-nihaya]
+- type: had_participant
+  target: person/fadala-ibn-ubayd
+  role: المشار بتوليته القضاء
+  sources: [source/isti-ab-ibn-abd-al-barr, source/al-bidaya-wal-nihaya]
+sources:
+- source/sifat-al-safwa-tartusi-2012
+- source/hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988
+- source/isti-ab-ibn-abd-al-barr
+- source/al-bidaya-wal-nihaya
+- source/siyar-alam-nubala
+provenance:
+  layer: own-research
+  source: "صفة الصفوة ⁦(مجلد 1 ص 230)⁩، حلية الأولياء ⁦(مجلد 1 ص 225)⁩، الاستيعاب ⁦(مجلد 3 ص 599)⁩، البداية والنهاية ⁦(مجلد 4 ص 515)⁩، سير أعلام النبلاء ⁦(مجلد 1 ص 386-387 ومجلد 3 ص 251)⁩؛ أرقام الصفحات صفحات المسح"
+  generated_by: "Claude (claude-sonnet-5-5)"
+  model: claude-sonnet-5-5
+  run: wasaya-browser-1
+status:
+  review: draft
+  completeness: 2
+  generated_by: "Claude (claude-sonnet-5-5); wasaya-browser-1"

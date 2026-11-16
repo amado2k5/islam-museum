@@ -1,0 +1,17 @@
+id: passage/sira-ibn-hisham-wasaya-707
+class: passage
+unit: chapter
+work: work/sira-ibn-ishaq-ibn-hisham
+ref: "707"
+label: { ar: "السيرة النبوية لابن هشام، ص 707 — وصية أو عهد أخير، أثر من الآثار المحفوظة", en: "Ibn Hisham's Sira, p. 707 — a testament or parting counsel; a relic kept after its owner", ur: "سیرت ابن ہشام، ص 707 — وصیت یا آخری نصیحت، محفوظ آثار و تبرکات" }
+text: "… مربع بن قيظي المنافق نزول رسول اللّٰه والي بالشعب وتعبئته للقتال وصاة رسول اللّٰه كَيم للرماة بعض من أجازه رسول اللّٰه وَلِ فيِ وبعض من رده لصغر سنه أبو دجانة وسيف رسول الله لَالِلقم أبو عامر الفاسق أبو سفيان وامرأته …"
+summary:
+  ar: "مقطع من السيرة النبوية لابن هشام، ص 707، يذكر وصية أو عهد أخير، وأثر من الآثار المحفوظة؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الوصايا والمواريث والآثار والمراقد."
+  en: "An excerpt from Ibn Hisham's Sira, p. 707, that mentions a testament or parting counsel, a relic kept after its owner; from the machine-read scan, quoted within forty words per the sources policy. The Testaments Browser lists it."
+  ur: "سیرت ابن ہشام، ص 707 کا اقتباس جس میں وصیت یا آخری نصیحت، محفوظ آثار و تبرکات کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-wasiyya, sources: [source/ibn-hisham-sira] }
+  - { type: mentions, target: concept/tabarruk, sources: [source/ibn-hisham-sira] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan seerah/sira-ibn-hisham/20251231_20251231_0914, page 707; a window of at most 40 words chosen by the testaments detector (scripts/wasaya.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-ocr-1" }
+sources: [source/ibn-hisham-sira]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

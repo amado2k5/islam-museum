@@ -1,0 +1,17 @@
+id: passage/mughni-wasaya-1-857
+class: passage
+unit: chapter
+work: work/al-mughni
+ref: "1:857"
+label: { ar: "المغني لابن قدامة، المجلد المصوَّر 1، ص 857 — وصية أو عهد أخير، دفن وقبر ومرقد", en: "Ibn Qudama's al-Mughni, scan volume 1, p. 857 — a testament or parting counsel; a burial, grave or resting place", ur: "المغنی، ابن قدامہ، اسکین جلد 1، ص 857 — وصیت یا آخری نصیحت، تدفین، قبر اور مرقد" }
+text: "… المساكين : صح إن قال : سكناها لك عمرك. كان له أخذها أى وقت أحب... إذا تنازع صاحب الدار والساكن فى دفن فى الدار،... إن وصى بشء لزيد وللمساكين، فلزيد نصف الوصية... من هم الفقراء والمساكين ؟ من خطب أمرأة، …"
+summary:
+  ar: "مقطع من المغني لابن قدامة، المجلد المصوَّر 1، ص 857، يذكر وصية أو عهد أخير، ودفن وقبر ومرقد؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الوصايا والمواريث والآثار والمراقد."
+  en: "An excerpt from Ibn Qudama's al-Mughni, scan volume 1, p. 857, that mentions a testament or parting counsel, a burial, grave or resting place; from the machine-read scan, quoted within forty words per the sources policy. The Testaments Browser lists it."
+  ur: "المغنی، ابن قدامہ، اسکین جلد 1، ص 857 کا اقتباس جس میں وصیت یا آخری نصیحت، تدفین، قبر اور مرقد کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-wasiyya, sources: [source/mughni-ibn-qudama] }
+  - { type: mentions, target: concept/ziyarat-al-qubur, sources: [source/mughni-ibn-qudama] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan fiqh/mughni-ibn-qudama/15_20261015, page 857; a window of at most 40 words chosen by the testaments detector (scripts/wasaya.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-ocr-1" }
+sources: [source/mughni-ibn-qudama]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

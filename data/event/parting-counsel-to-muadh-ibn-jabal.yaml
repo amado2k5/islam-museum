@@ -1,0 +1,26 @@
+id: event/parting-counsel-to-muadh-ibn-jabal
+class: event
+kind: declaration
+tags: [wasaya-browser, wasaya-prophets, wasaya-wasiyya]
+label: { ar: "وصية النبي لمعاذ بن جبل عند توديعه إلى اليمن", en: "The Prophet's parting counsel to Mu'adh ibn Jabal on sending him to Yemen", ur: "یمن بھیجتے وقت معاذ بن جبل کو نبی کی رخصتی کی وصیت" }
+summary:
+  ar: "روى معاذ بن جبل أن النبي لما بعثه إلى اليمن خرج معه يوصيه ومعاذ راكب والنبي يمشي تحت راحلته، فلما فرغ قال: يا معاذ إنك عسى أن لا تلقاني بعد عامي هذا ولعلك أن تمر بمسجدي وقبري، فبكى معاذ خشعاً لفراقه {cite:al-bidaya-wal-nihaya scan vol. 3 p. 109}{cite:dalail-al-nubuwwa-bayhaqi scan vol. 3 p. 416}. وفي روايات أخرى عند ابن كثير أوصاه أن يدعو أهل الكتاب إلى الشهادة ثم الصلوات الخمس ثم الصدقة التي تؤخذ من أغنيائهم فتردّ على فقرائهم وأن يتقي كرائم أموالهم ودعوة المظلوم {cite:al-bidaya-wal-nihaya scan vol. 3 p. 108}، وقال له: اتق الله حيثما كنت، وأتبع السيئة الحسنة تمحها، وخالق الناس بخلق حسن {cite:al-bidaya-wal-nihaya scan vol. 3 p. 110}."
+  en: "Mu'adh ibn Jabal reports that when the Prophet sent him to Yemen he went out with him counselling him, Mu'adh riding and the Prophet walking beneath his mount, and when he had finished he said: O Mu'adh, you may not meet me after this year of mine, and perhaps you will pass by this mosque of mine and my grave; and Mu'adh wept from distress at parting {cite:al-bidaya-wal-nihaya scan vol. 3 p. 109}{cite:dalail-al-nubuwwa-bayhaqi scan vol. 3 p. 416}. In other reports in Ibn Kathir he told him to call the People of the Book first to the testimony, then to the five prayers, then to the alms taken from their rich and returned to their poor, and to avoid the best of their property and the supplication of the wronged {cite:al-bidaya-wal-nihaya scan vol. 3 p. 108}, and said to him: fear God wherever you are, follow a bad deed with a good one and it will erase it, and treat people with good character {cite:al-bidaya-wal-nihaya scan vol. 3 p. 110}."
+  ur: "معاذ بن جبل روایت کرتے ہیں کہ جب نبی نے انھیں یمن بھیجا تو آپ ان کے ساتھ نصیحت کرتے ہوئے نکلے، معاذ سوار تھے اور نبی ان کی سواری کے نیچے پیدل چل رہے تھے؛ جب بات ختم کی تو فرمایا: اے معاذ! شاید تم اس سال کے بعد مجھ سے نہ مل سکو، اور شاید میری اس مسجد اور میری قبر کے پاس سے گزرو؛ تو معاذ جدائی کے غم سے رو پڑے {cite:al-bidaya-wal-nihaya scan vol. 3 p. 109}{cite:dalail-al-nubuwwa-bayhaqi scan vol. 3 p. 416}۔ ابن کثیر کی دوسری روایات میں ہے کہ آپ نے انھیں حکم دیا کہ اہلِ کتاب کو پہلے شہادت کی دعوت دیں، پھر پانچ نمازوں کی، پھر اس صدقے کی جو ان کے مال داروں سے لے کر ان کے فقیروں کو لوٹایا جائے، اور ان کے عمدہ مالوں اور مظلوم کی بددعا سے بچیں {cite:al-bidaya-wal-nihaya scan vol. 3 p. 108}؛ اور فرمایا: جہاں بھی ہو اللہ سے ڈرو، برائی کے بعد نیکی کرو وہ اسے مٹا دے گی، اور لوگوں سے اچھے اخلاق سے پیش آؤ {cite:al-bidaya-wal-nihaya scan vol. 3 p. 110}۔"
+wings: [time]
+themes: [prophets]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { hijri: "0010", precision: year, status: tradition, note: "ابن كثير يورد بعث الأمراء إلى اليمن في أحداث سنة 10هـ قبل حجة الوداع {cite:al-bidaya-wal-nihaya scan vol. 3 p. 108}", sources: [source/al-bidaya-wal-nihaya] }
+relations:
+  - { type: had_participant, target: person/muhammad, role: "الموصي" }
+  - { type: had_participant, target: person/muadh-ibn-jabal, role: "الموصى، المبعوث إلى اليمن", sources: [source/al-bidaya-wal-nihaya, source/dalail-al-nubuwwa-bayhaqi] }
+  - { type: had_participant, target: person/abu-musa-al-ashari, role: "بُعث مع معاذ على مخلاف آخر من اليمن", sources: [source/al-bidaya-wal-nihaya, source/dalail-al-nubuwwa-bayhaqi] }
+  - { type: occurred_at, target: place/medina, sources: [source/al-bidaya-wal-nihaya] }
+  - { type: related_to, target: place/yemen }
+  - { type: related_to, target: event/mission-of-muadh-to-yemen }
+  - { type: related_to, target: event/deathbed-of-muadh-ibn-jabal }
+sources: [source/al-bidaya-wal-nihaya, source/dalail-al-nubuwwa-bayhaqi, source/subul-huda-salihi, source/ibn-rajab-jami-ulum-hikam]
+provenance: { layer: own-research, source: "Ibn Kathir, al-Bidaya wa-l-Nihaya, scan vol. 3 pp. 108-110; al-Bayhaqi, Dala'il al-Nubuwwa, scan vol. 3 pp. 415-416; al-Salihi, Subul al-Huda, scan vol. 4 p. 3456; Ibn Rajab, Jami' al-Ulum wa-l-Hikam, scan vol. 2 pp. 385, 752 (page numbers are scan pages)", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "wasaya-browser-1" }
+status: { review: draft, completeness: 2, generated_by: "Claude (claude-sonnet-5-5); wasaya-browser-1" }

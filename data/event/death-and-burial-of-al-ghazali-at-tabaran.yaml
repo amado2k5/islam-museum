@@ -1,0 +1,67 @@
+id: event/death-and-burial-of-al-ghazali-at-tabaran
+class: event
+kind: death
+tags:
+- wasaya-browser
+- wasaya-righteous
+- wasaya-ihtidar
+- wasaya-marqad
+- wasaya-wasiyya
+label:
+  ar: وفاة الغزالي ودفنه بالطابران
+  en: Death and burial of al-Ghazali at al-Tabaran
+  ur: طابران میں غزالی کی وفات اور تدفین
+summary:
+  ar: توفي أبو حامد الغزالي يوم الاثنين رابع عشر جمادى الآخرة سنة 505هـ وله خمس وخمسون سنة {cite:siyar-alam-nubala scan vol. 1 p. 3681}. ودُفن بمقبرة الطابران وهي قصبة بلاد طوس {cite:tarikh-islam-dhahabi vol. 38 p. 126}. وينقل الذهبي عن ابن النجار أن أباه أوصى عند احتضاره بولديه محمد وأحمد إلى صديق صوفي صالح {cite:tarikh-islam-dhahabi vol. 38 p. 126}. أما خبر الوضوء والكفن عن أخيه أحمد برواية ابن الجوزي فلم يوجد في المسوح المقروءة.
+  en: Abu Hamid al-Ghazali died on Monday, 14 Jumada II 505 AH, aged fifty-five {cite:siyar-alam-nubala scan vol. 1 p. 3681}. He was buried in the cemetery of al-Tabaran, a town of the land of Tus {cite:tarikh-islam-dhahabi vol. 38 p. 126}. Al-Dhahabi relays from Ibn al-Najjar that his father, when dying, entrusted his sons Muhammad and Ahmad to a righteous Sufi friend {cite:tarikh-islam-dhahabi vol. 38 p. 126}. The report of the ablution and shroud from his brother Ahmad, on Ibn al-Jawzi's authority, was not found in the scans read.
+  ur: ابو حامد غزالی پیر کے دن 14 جمادی الآخرہ 505ھ کو پچپن برس کی عمر میں فوت ہوئے {cite:siyar-alam-nubala scan vol. 1 p. 3681}۔ وہ طابران کے قبرستان میں دفن ہوئے جو طوس کا ایک قصبہ ہے {cite:tarikh-islam-dhahabi vol. 38 p. 126}۔ ذہبی ابن النجار سے نقل کرتے ہیں کہ ان کے والد نے نزع کے وقت اپنے بیٹوں محمد اور احمد کو ایک نیک صوفی دوست کے سپرد کیا {cite:tarikh-islam-dhahabi vol. 38 p. 126}۔ ابن الجوزی کی روایت سے بھائی احمد کی وضو اور کفن والی خبر پڑھے گئے سکین میں نہیں ملی۔
+wings:
+- time
+periods:
+- period/buyid-seljuk-fatimid-era
+regions:
+- persia-central-asia
+date:
+  start:
+    hijri: '0505-06-14'
+    precision: day
+    status: historical
+    note: توفي يوم الاثنين رابع عشر جمادى الآخرة سنة 505هـ عن عبد الغافر الفارسي {cite:siyar-alam-nubala scan vol. 1 p. 3681} {cite:wafayat-ayan scan vol. 4 p. 480}
+relations:
+- type: occurred_at
+  target: place/tus
+  sources:
+  - source/tarikh-islam-dhahabi
+  - source/wafayat-ayan
+- type: had_participant
+  target: person/al-ghazali-abu-hamid
+  role: المتوفّى
+  sources:
+  - source/siyar-alam-nubala
+  - source/wafayat-ayan
+- type: mentions
+  target: person/ahmad-al-ghazali
+  sources:
+  - source/tarikh-islam-dhahabi
+- type: mentions
+  target: place/grave-of-al-ghazali
+  sources:
+  - source/tarikh-islam-dhahabi
+- type: part_of
+  target: event/al-ghazali-death-tus-1111
+  sources:
+  - source/tarikh-islam-dhahabi
+sources:
+- source/siyar-alam-nubala
+- source/tarikh-islam-dhahabi
+- source/wafayat-ayan
+provenance:
+  layer: own-research
+  source: Siyar A'lam al-Nubala' (entry of al-Ghazali, scan vol. 1 p. 3681); Tarikh al-Islam al-Dhahabi (vol. 38 p. 126); Wafayat al-A'yan (scan vol. 4 p. 480); page numbers are scan pages. The report of Ibn al-Jawzi from Ahmad al-Ghazali (ablution, shroud) was not found in the readable scans
+  generated_by: Claude (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: wasaya-browser-1
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude (claude-sonnet-5-5); wasaya-browser-1

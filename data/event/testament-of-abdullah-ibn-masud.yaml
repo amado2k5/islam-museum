@@ -1,0 +1,22 @@
+id: event/testament-of-abdullah-ibn-masud
+class: event
+kind: other
+tags: [wasaya-browser, wasaya-companions, wasaya-wasiyya, wasaya-ihtidar, wasaya-mirath, wasaya-marqad]
+label: { ar: "وصية عبد الله بن مسعود ومرضه الأخير ومورثه", en: "The testament, last illness and estate of Abd Allah ibn Mas'ud", ur: "عبد اللہ بن مسعود کی وصیت، آخری مرض اور ترکہ" }
+summary:
+  ar: "كتب ابن مسعود وصيته: أن وصيته إلى الله وإلى الزبير بن العوام وإلى ابنه عبد الله بن الزبير، وأنهما في حل مما قضيا في تركته، وأن نساءه لا يُزوَّجن إلا بإذنهما {cite:siyar-alam-nubala scan vol. 2 p. 443}. ويروى أن عثمان عاده في مرضه فسأله عما يشتكي، فقال ذنوبي، وعما يشتهي، فقال رحمة ربي، وعرض عليه طبيباً وعطاءً فرفضهما {cite:siyar-alam-nubala scan vol. 2 p. 443}. ويذكر الذهبي أنه ترك تسعين ألف مثقال سوى رقيق ومتاع وماشية {cite:siyar-alam-nubala scan vol. 2 p. 442}. ومات بالمدينة ودُفن بالبقيع سنة اثنتين وثلاثين، وقيل ثلاث وثلاثين {cite:siyar-alam-nubala scan vol. 2 p. 444}."
+  en: "Ibn Mas'ud wrote that his testament was to God and to al-Zubayr ibn al-Awwam and his son Abd Allah ibn al-Zubayr, that both were free of blame for what they decided in his estate, and that none of his women was to be married off without their leave {cite:siyar-alam-nubala scan vol. 2 p. 443}. In his illness Uthman visited him and asked what he complained of; he said his sins, and of what he desired, the mercy of his Lord, and he declined both a physician and a stipend {cite:siyar-alam-nubala scan vol. 2 p. 443}. Al-Dhahabi records that he left ninety thousand mithqals besides slaves, goods and livestock {cite:siyar-alam-nubala scan vol. 2 p. 442}. He died in Medina and was buried in al-Baqi' in 32 AH, or 33 by other reports {cite:siyar-alam-nubala scan vol. 2 p. 444}."
+  ur: "ابن مسعود نے وصیت لکھی کہ ان کی وصیت اللہ کی طرف اور زبیر بن العوام اور ان کے بیٹے عبد اللہ بن زبیر کی طرف ہے، ان کے ترکے میں جو فیصلہ وہ دونوں کریں اس میں وہ ذمہ داری سے بری ہیں، اور ان کی عورتوں کا نکاح ان کی اجازت کے بغیر نہ کیا جائے {cite:siyar-alam-nubala scan vol. 2 p. 443}۔ مرض میں عثمان عیادت کو آئے اور پوچھا کہ کیا شکایت ہے، کہا اپنے گناہ، اور کیا چاہتے ہیں، کہا اپنے رب کی رحمت؛ طبیب اور وظیفے کی پیشکش انھوں نے رد کر دی {cite:siyar-alam-nubala scan vol. 2 p. 443}۔ ذہبی لکھتے ہیں کہ انھوں نے نوے ہزار مثقال چھوڑے، علاوہ غلاموں، سامان اور مویشی کے {cite:siyar-alam-nubala scan vol. 2 p. 442}۔ وہ مدینہ میں فوت ہوئے اور ۳۲ ہجری میں بقیع میں دفن ہوئے، اور دوسری روایات میں ۳۳ ہجری {cite:siyar-alam-nubala scan vol. 2 p. 444}۔"
+wings: [time, people]
+date:
+  start: { hijri: "0032", precision: year, status: tradition, note: "قول عبيد الله بن عبد الله في سير أعلام النبلاء؛ وقيل 33هـ {cite:siyar-alam-nubala scan vol. 2 p. 444}", sources: [source/siyar-alam-nubala] }
+relations:
+  - { type: had_participant, target: person/abdullah-ibn-masud, role: "صاحب الوصية", sources: [source/siyar-alam-nubala, source/isti-ab-ibn-abd-al-barr] }
+  - { type: had_participant, target: person/zubayr-ibn-al-awwam, role: "الوصي وقيل من يصلي عليه", sources: [source/siyar-alam-nubala, source/isti-ab-ibn-abd-al-barr] }
+  - { type: had_participant, target: person/abdullah-ibn-al-zubayr, role: "الوصي مع أبيه", sources: [source/siyar-alam-nubala, source/isti-ab-ibn-abd-al-barr] }
+  - { type: had_participant, target: person/uthman-ibn-affan, role: "عاده في مرضه", sources: [source/siyar-alam-nubala, source/isti-ab-ibn-abd-al-barr] }
+  - { type: occurred_at, target: place/medina, sources: [source/siyar-alam-nubala, source/isti-ab-ibn-abd-al-barr] }
+  - { type: occurred_at, target: place/baqi-al-gharqad, role: "موضع الدفن", sources: [source/siyar-alam-nubala, source/isti-ab-ibn-abd-al-barr] }
+sources: [source/siyar-alam-nubala, source/isti-ab-ibn-abd-al-barr]
+provenance: { layer: own-research, source: "الذهبي سير أعلام النبلاء ــ نسختان ممسوحتان، وابن عبد البر الاستيعاب؛ أرقام الصفحات هي صفحات المسح كما في النص المقروء؛ لم يتوفر نص طبقات ابن سعد في المسح", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "wasaya-browser-1" }
+status: { review: draft, completeness: 2, generated_by: "Claude (claude-sonnet-5-5); wasaya-browser-1" }

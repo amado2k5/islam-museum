@@ -1,0 +1,16 @@
+id: passage/nasai-api-2696
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "2696"
+label: { ar: "سنن النسائي 2696 — أثر من الآثار المحفوظة", en: "Sunan al-Nasa'i 2696 — a relic kept after its owner", ur: "سنن نسائی 2696 — محفوظ آثار و تبرکات" }
+text: "أَخْبَرَنَا مَحْمُودُ بْنُ غَيْلاَنَ، قَالَ حَدَّثَنَا أَبُو دَاوُدَ، قَالَ أَنْبَأَنَا شُعْبَةُ، عَنْ مَنْصُورٍ، عَنْ إِبْرَاهِيمَ، عَنِ الأَسْوَدِ، عَنْ عَائِشَةَ، قَالَتْ كُنْتُ أَنْظُرُ إِلَى وَبِيصِ الطِّيبِ فِي أُصُولِ شَعْرِ رَسُولِ اللَّهِ وَهُوَ مُحْرِمٌ."
+summary:
+  ar: "حديث في سنن النسائي، رقم 2696، يذكر أثر من الآثار المحفوظة. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan al-Nasa'i, no. 2696 (The Book of Hajj), that mentions a relic kept after its owner. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
+  ur: "سنن نسائی کی حدیث نمبر 2696، جس میں محفوظ آثار و تبرکات کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/tabarruk, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 2696 (book 24 hadith 78); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

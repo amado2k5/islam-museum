@@ -1,0 +1,17 @@
+id: passage/fath-bari-wasaya-2-234
+class: passage
+unit: chapter
+work: work/fath-al-bari
+ref: "2:234"
+label: { ar: "فتح الباري لابن حجر، المجلد المصوَّر 2، ص 234 — وصية أو عهد أخير، ما خلّفه من تركة وميراث", en: "Ibn Hajar's Fath al-Bari, scan volume 2, p. 234 — a testament or parting counsel; what was left behind: estate and inheritance", ur: "فتح الباری، ابن حجر، اسکین جلد 2، ص 234 — وصیت یا آخری نصیحت، ترکہ اور میراث" }
+text: "… الضير، فشهد أحداً فقتل به، فقال النبى : مخيريق سابق يهود، وأوصى مخيريق بأمواله للنبى ومن طريق الواقدى بسنده عن عبد اللّه بن كعب قال قال مخيريق إن أصبت فأموالى لمحمد يضعها حيث أراه اللّٰه فهى عامة صدقة رسول اللّٰه، …"
+summary:
+  ar: "مقطع من فتح الباري لابن حجر، المجلد المصوَّر 2، ص 234، يذكر وصية أو عهد أخير، وما خلّفه من تركة وميراث؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الوصايا والمواريث والآثار والمراقد."
+  en: "An excerpt from Ibn Hajar's Fath al-Bari, scan volume 2, p. 234, that mentions a testament or parting counsel, what was left behind: estate and inheritance; from the machine-read scan, quoted within forty words per the sources policy. The Testaments Browser lists it."
+  ur: "فتح الباری، ابن حجر، اسکین جلد 2، ص 234 کا اقتباس جس میں وصیت یا آخری نصیحت، ترکہ اور میراث کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-wasiyya, sources: [source/fath-al-bari] }
+  - { type: mentions, target: concept/tarika-estate, sources: [source/fath-al-bari] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan hadith/fath-bari/FathAlBariSheibetalhamd, page 234; a window of at most 40 words chosen by the testaments detector (scripts/wasaya.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-ocr-1" }
+sources: [source/fath-al-bari]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

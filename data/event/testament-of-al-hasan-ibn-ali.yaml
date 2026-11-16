@@ -1,0 +1,47 @@
+id: event/testament-of-al-hasan-ibn-ali
+class: event
+kind: death
+label:
+  ar: وصية الحسن بن علي لأخيه الحسين وجنازته ودفنه في البقيع
+  en: Testament and burial of al-Hasan ibn Ali
+  ur: حسن بن علی کی وصیت، جنازہ اور بقیع میں تدفین
+summary:
+  ar: "لما احتضر الحسن بن علي بالمدينة بعد مرض طويل أوصى أخاه الحسين أن يطلب دفنه عند النبي في حجرة عائشة إن لم تُسفك في ذلك دماء، وإلا فبالبقيع، وحذّره من أن يستخفّه أهل الكوفة {cite:siyar-alam-nubala scan vol. 1 p. 1436}. فمنع مروان بن الحكم الدفن في الحجرة وتسلح الفريقان حتى ناشد أبو هريرة الحسين وصية أخيه {cite:siyar-alam-nubala scan vol. 1 p. 1435}. ودُفن الحسن في البقيع إلى جنب أمه، وصلى عليه سعيد بن العاص أمير المدينة بتقديم الحسين له {cite:tarikh-islam-dhahabi scan vol. 7 p. 40}. وبكاه الرجال والنساء سبعاً حتى ضاق البقيع بالناس {cite:al-bidaya-wal-nihaya scan vol. 4 p. 409}."
+  en: "When al-Hasan ibn Ali lay dying in Medina after a long illness he charged his brother al-Husayn to ask that he be buried beside the Prophet in Aisha's room if no blood were shed, and otherwise at al-Baqi, and warned him not to be lured out by the people of Kufa {cite:siyar-alam-nubala scan vol. 1 p. 1436}. Marwan ibn al-Hakam barred the burial in the room and both sides took up arms until Abu Hurayra adjured al-Husayn by his brother's testament {cite:siyar-alam-nubala scan vol. 1 p. 1435}. Al-Hasan was buried at al-Baqi beside his mother, and Sa'id ibn al-As, the governor, led the prayer at al-Husayn's bidding {cite:tarikh-islam-dhahabi scan vol. 7 p. 40}. Men and women wept for him for seven days, and al-Baqi could not hold the crowd {cite:al-bidaya-wal-nihaya scan vol. 4 p. 409}."
+  ur: "جب حسن بن علی طویل بیماری کے بعد مدینہ میں آخری وقت پر تھے تو انھوں نے بھائی حسین کو وصیت کی کہ اگر خونریزی نہ ہو تو انھیں عائشہ کے حجرے میں نبی کے پہلو میں دفن کرنے کی درخواست کی جائے، ورنہ بقیع میں، اور خبردار کیا کہ اہلِ کوفہ انھیں ورغلا نہ لیں {cite:siyar-alam-nubala scan vol. 1 p. 1436}۔ مروان بن الحکم نے حجرے میں تدفین سے روکا اور دونوں طرف ہتھیار اٹھے، یہاں تک کہ ابوہریرہ نے حسین کو بھائی کی وصیت کا واسطہ دیا {cite:siyar-alam-nubala scan vol. 1 p. 1435}۔ حسن کو بقیع میں ان کی والدہ کے پہلو میں دفن کیا گیا اور حسین کے کہنے پر مدینہ کے امیر سعید بن العاص نے نماز پڑھائی {cite:tarikh-islam-dhahabi scan vol. 7 p. 40}۔ مرد و عورت سات دن روئے اور بقیع ہجوم کو سمو نہ سکا {cite:al-bidaya-wal-nihaya scan vol. 4 p. 409}۔"
+wings: [time, people, words]
+tags: [wasaya-browser, wasaya-caliphs, wasaya-wasiyya, wasaya-ihtidar, wasaya-marqad]
+periods:
+- period/umayyad
+regions:
+- arabia
+date:
+  start: { hijri: "0050", precision: year, status: tradition, note: "سنة 49 عند الواقدي وخليفة، وسنة 50 عند المدائني والزبير وابن الكلبي، وسنة 51 في قول البخاري {cite:siyar-alam-nubala scan vol. 1 p. 1435}", sources: [source/siyar-alam-nubala, source/al-bidaya-wal-nihaya] }
+relations:
+- { type: part_of, target: event/death-of-hasan-ibn-ali, sources: [source/al-bidaya-wal-nihaya] }
+- { type: occurred_at, target: place/medina, sources: [source/al-bidaya-wal-nihaya, source/tarikh-islam-dhahabi] }
+- { type: occurred_at, target: place/al-baqi, sources: [source/al-bidaya-wal-nihaya, source/tarikh-islam-dhahabi] }
+- { type: had_participant, target: person/hasan-ibn-ali, role: صاحب الوصية والمتوفى, sources: [source/siyar-alam-nubala, source/tarikh-islam-dhahabi] }
+- { type: had_participant, target: person/husayn-ibn-ali, role: المعهود إليه بالدفن, sources: [source/siyar-alam-nubala, source/al-bidaya-wal-nihaya] }
+- { type: had_participant, target: person/aisha, role: صاحبة الحجرة التي طُلب الدفن فيها, sources: [source/siyar-alam-nubala] }
+- { type: had_participant, target: person/marwan-ibn-al-hakam, role: المانع من الدفن في الحجرة, sources: [source/siyar-alam-nubala, source/al-bidaya-wal-nihaya] }
+- { type: had_participant, target: person/abu-hurayra, role: ناشد الحسين وصية أخيه, sources: [source/siyar-alam-nubala, source/al-bidaya-wal-nihaya] }
+- { type: had_participant, target: person/said-ibn-al-as, role: أمير المدينة الذي صلى على الجنازة, sources: [source/tarikh-islam-dhahabi, source/al-bidaya-wal-nihaya] }
+- { type: had_participant, target: person/abdullah-ibn-jafar, role: ذكّر الحسين بعهد أخيه, sources: [source/siyar-alam-nubala] }
+- { type: had_participant, target: person/jabir-ibn-abdullah, role: راوي وصية الدفن, sources: [source/al-bidaya-wal-nihaya] }
+- { type: had_participant, target: person/abdullah-ibn-umar, role: نصح الحسين ألا يثير فتنة, sources: [source/siyar-alam-nubala] }
+- { type: had_participant, target: person/muhammad-ibn-al-hanafiyya, role: ذُكر في رواية الحسن بن محمد عن أبيه, sources: [source/siyar-alam-nubala] }
+sources:
+- source/al-bidaya-wal-nihaya
+- source/siyar-alam-nubala
+- source/tarikh-islam-dhahabi
+provenance:
+  layer: own-research
+  source: "البداية والنهاية لابن كثير، مسح مجلد 4 ص 408-409؛ سير أعلام النبلاء، مسح مجلد 1 ص 1435-1436؛ تاريخ الإسلام للذهبي، مسح مجلد 7 ص 40؛ أرقام الصفحات صفحات المسح"
+  generated_by: "Claude (claude-sonnet-5-5)"
+  model: claude-sonnet-5-5
+  run: wasaya-browser-1
+status:
+  review: draft
+  completeness: 2
+  generated_by: "Claude (claude-sonnet-5-5); wasaya-browser-1"

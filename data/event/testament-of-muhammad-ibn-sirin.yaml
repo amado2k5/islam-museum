@@ -1,0 +1,26 @@
+id: event/testament-of-muhammad-ibn-sirin
+class: event
+kind: death
+tags: [wasaya-browser, wasaya-successors, wasaya-wasiyya, wasaya-mirath, wasaya-ihtidar]
+label: { ar: "وصية محمد بن سيرين وديونه ووفاته بالبصرة", en: "Testament, debts and death of Muhammad ibn Sirin", ur: "محمد بن سیرین کی وصیت، قرض اور بصرہ میں وفات" }
+summary:
+  ar: "يروي ابن سعد أن وصية محمد بن سيرين لبنيه وأهله كانت أن يتقوا الله ويصلحوا ذات بينهم ويطيعوا الله ورسوله، وأوصاهم بما أوصى به إبراهيم بنيه ويعقوب، وألا يدعوا أن يكونوا إخوان الأنصار ومواليهم في الدين، وأوصى فيما ترك إن حدث به حدث قبل أن يغيّر وصيته {cite:tabaqat-ibn-sad-khanji-2001 vol. 9 p. 204}. وكان عليه دين ركبه حين اشترى طعاماً بأربعين ألف درهم فتركه أو تصدّق به وبقي المال عليه فحُبس، وقضى عنه ابنه عبد الله ثلاثين ألفاً {cite:tabaqat-ibn-sad-khanji-2001 vol. 9 p. 197} {cite:tabaqat-ibn-sad-khanji-2001 vol. 9 p. 204}. ومات يوم الجمعة وغسله أيوب وابن عون بعد الحسن بمئة يوم سنة عشر ومئة {cite:tabaqat-ibn-sad-khanji-2001 vol. 9 p. 205}."
+  en: "Ibn Sa'd reports that Muhammad ibn Sirin's will to his sons and household was to fear God, mend what lay between them, and obey God and His Messenger; he enjoined on them what Abraham and Jacob enjoined on their sons, that they not cease to be brothers of the Ansar and their clients in religion, and he made a bequest of what he left in case something befell him before he changed his will {cite:tabaqat-ibn-sad-khanji-2001 vol. 9 p. 204}. He carried a debt from the time he bought food for forty thousand dirhams, then left it or gave it away as charity while the money stayed owed, and he was jailed; his son Abd Allah later paid thirty thousand for him {cite:tabaqat-ibn-sad-khanji-2001 vol. 9 p. 197} {cite:tabaqat-ibn-sad-khanji-2001 vol. 9 p. 204}. He died on a Friday, washed by Ayyub and Ibn Awn, a hundred days after al-Hasan, in 110 AH {cite:tabaqat-ibn-sad-khanji-2001 vol. 9 p. 205}."
+  ur: "ابن سعد روایت کرتے ہیں کہ محمد بن سیرین کی اپنے بیٹوں اور گھر والوں کو وصیت یہ تھی کہ اللہ سے ڈریں، آپس کے معاملات درست رکھیں، اللہ اور اس کے رسول کی اطاعت کریں؛ انھوں نے وہی وصیت کی جو ابراہیم اور یعقوب نے اپنے بیٹوں کو کی تھی، یہ بھی کہ وہ دین میں انصار اور ان کے موالی کے بھائی بنے رہیں، اور جو کچھ چھوڑا اس کے بارے میں وصیت کی کہ اگر وصیت بدلنے سے پہلے انھیں کچھ پیش آ جائے {cite:tabaqat-ibn-sad-khanji-2001 vol. 9 p. 204}۔ ان پر قرض اس وقت چڑھا جب انھوں نے چالیس ہزار درہم کا غلہ خریدا، پھر اسے چھوڑ دیا یا صدقہ کر دیا اور رقم ان کے ذمے رہی تو قید ہوئے؛ بعد میں ان کے بیٹے عبد اللہ نے ان کی طرف سے تیس ہزار ادا کیے {cite:tabaqat-ibn-sad-khanji-2001 vol. 9 p. 197} {cite:tabaqat-ibn-sad-khanji-2001 vol. 9 p. 204}۔ وہ جمعہ کے دن فوت ہوئے، ایوب اور ابن عون نے غسل دیا، حسن کے سو دن بعد، 110ھ میں {cite:tabaqat-ibn-sad-khanji-2001 vol. 9 p. 205}۔"
+wings: [time, people]
+periods: [period/umayyad]
+date:
+  start: { hijri: "0110-10-09", precision: day, status: tradition, note: "الذهبي عن خالد بن خداش عن حماد بن زيد: مات ابن سيرين لتسع مضين من شوال سنة عشر ومئة {cite:siyar-alam-nubala scan vol. 1 p. 3453}؛ وعند ابن سعد: بعد الحسن بمئة يوم {cite:tabaqat-ibn-sad-khanji-2001 vol. 9 p. 205}" }
+relations:
+  - { type: had_participant, target: person/muhammad-ibn-sirin, role: "صاحب الوصية والمتوفى", sources: [source/tabaqat-ibn-sad-khanji-2001] }
+  - { type: had_participant, target: person/ayyub-al-sakhtiyani, role: "غاسل الجثمان", sources: [source/tabaqat-ibn-sad-khanji-2001] }
+  - { type: occurred_at, target: place/basra, sources: [source/tabaqat-ibn-sad-khanji-2001] }
+  - { type: mentions, target: event/deathbed-of-al-hasan-al-basri, sources: [source/tabaqat-ibn-sad-khanji-2001] }
+sources: [source/tabaqat-ibn-sad-khanji-2001, source/siyar-alam-nubala]
+provenance:
+  layer: own-research
+  source: "Ibn Sa'd, al-Tabaqat al-Kubra (OpenITI text, printed volume and page) vol. 9 pp. 197-198, 200, 204-205; al-Dhahabi, Siyar A'lam al-Nubala (scan vol. 1 pp. 3451-3453). Page numbers of scan books are scan pages."
+  generated_by: "Claude (claude-sonnet-5-5)"
+  model: "claude-sonnet-5-5"
+  run: "wasaya-browser-1"
+status: { review: draft, completeness: 2, generated_by: "Claude (claude-sonnet-5-5); wasaya-browser-1" }

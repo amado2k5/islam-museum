@@ -1,0 +1,31 @@
+---
+id: event/estate-of-abd-al-rahman-ibn-awf
+lang: en
+source_lang: ar
+translators: ["Claude Code (claude-sonnet-5-5), draft translation"]
+provenance: { generated_by: "Claude Code (claude-sonnet-5-5)", model: claude-sonnet-5-5, run: wasaya-browser-1, source: "الذهبي سير أعلام النبلاء، وابن كثير البداية والنهاية، وابن الجوزي صفة الصفوة؛ أرقام الصفحات هي صفحات المسح كما في النص المقروء؛ لم يتوفر نص طبقات ابن سعد في المسح" }
+status: { review: published }
+---
+## Summary
+[[person/abd-al-rahman-ibn-awf|Abd al-Rahman ibn Awf]] was one of the ten given the Prophet's glad tidings of Paradise and one of the wealthiest Companions. This card gathers what the biographical and historical books say about his bequests at death, about what he left, about how his wives' shares were settled, and then about Uthman's prayer over him and his burial in al-Baqi'. {cite:al-bidaya-wal-nihaya scan vol. 4 p. 163}
+
+## Background
+Al-Dhahabi says that when he emigrated to Medina he was poor and had nothing; the Prophet paired him in brotherhood with Sa'd ibn al-Rabi', who offered to share his wealth and divorce the better of his two wives for him; Abd al-Rahman said: God bless you in your family and wealth, but show me the market. He went, bought and sold, and prospered. {cite:siyar-alam-nubala scan vol. 2 p. 147} Al-Dhahabi quotes Ibn Abd al-Barr that he was fortunate in trade. {cite:siyar-alam-nubala scan vol. 2 p. 147} Talha ibn Abd Allah ibn Awf relates that the people of Medina were dependants of Abd al-Rahman: a third he lent them, a third he used to pay their debts and a third he spent on kin. {cite:siyar-alam-nubala scan vol. 2 p. 145}
+
+## His last illness
+Al-Dhahabi relates from al-Zuhri from Ibrahim ibn Abd al-Rahman that he fainted in his illness so deeply that they thought he had died and covered him; he revived saying the takbir and the household said it with him. He said: two men took me, harsh and rough, and said: come, we will take you to judgement before the Mighty, the Trustworthy; they met a man who said: take him back, he is among those for whom God wrote happiness and forgiveness while they were in their mothers' wombs, and his sons will enjoy him as long as God wills. The narrator adds that he lived a month more. {cite:siyar-alam-nubala scan vol. 2 p. 146} Al-Dhahabi also gives, through Ibn Lahi'a, that Uthman suffered a nosebleed and told Humran to write the covenant for Abd al-Rahman after him; when he heard, he stood between the grave and the pulpit and prayed: O God, if Uthman's appointing me to this matter is your will, take me before him; he lived only six months more. {cite:siyar-alam-nubala scan vol. 2 p. 145}
+
+## His bequests
+Al-Dhahabi relates from Ibn Lahi'a from Urwa that Abd al-Rahman bequeathed fifty thousand dinars in God's cause, a man being given a thousand dinars of it. {cite:siyar-alam-nubala scan vol. 2 p. 146} From al-Zuhri: he bequeathed to the Badris, who were found to number a hundred, and each was given four hundred dinars; Uthman was among them and took it. {cite:siyar-alam-nubala scan vol. 2 p. 146} By another chain from al-Zuhri he bequeathed a thousand horses in God's cause. {cite:siyar-alam-nubala scan vol. 2 p. 146} Ibn Kathir says he bequeathed a large sum to each of the Mothers of the Believers, so that A'isha used to say: may God give him to drink from Salsabil; and that he freed many of his slaves. {cite:al-bidaya-wal-nihaya scan vol. 4 p. 163} Al-Dhahabi gives, from Ja'far ibn Burqan, a report that he freed thirty thousand households. {cite:siyar-alam-nubala scan vol. 2 p. 147} When he died Ali said: go, Ibn Awf; you have drunk the clear and outstripped the dregs. {cite:siyar-alam-nubala scan vol. 2 p. 146}
+
+## What he left and his wives' shares
+Ibn Kathir says that after all this he still left great wealth, among it gold cut with axes until the men's hands blistered, a thousand camels, a hundred horses and three thousand sheep grazing at al-Baqi'; he had four wives. {cite:al-bidaya-wal-nihaya scan vol. 4 p. 164} Al-Dhahabi quotes Ibn Abd al-Barr for the same numbers and adds that he farmed at al-Jurf with twenty water-camels. {cite:siyar-alam-nubala scan vol. 2 p. 147} On the wives' shares, Sifat al-Safwa reports from Ayyub from Muhammad that one wife was bought out of her eighth for thirty thousand. {cite:sifat-al-safwa-tartusi-2012 scan vol. 1 p. 130} Ibn Kathir says one was settled out of a quarter of the eighth for eighty thousand. {cite:al-bidaya-wal-nihaya scan vol. 4 p. 164} Al-Dhahabi relates from Anas that each of his wives was allotted a hundred thousand after his death, and from Ibn Sirin that they shared three hundred and twenty thousand. {cite:siyar-alam-nubala scan vol. 2 p. 147}
+
+## Prayer and burial
+Ibn Kathir says that when he died Uthman ibn Affan prayed over him, Sa'd ibn Abi Waqqas carried his bier, and he was buried in al-Baqi' at the age of seventy-five. {cite:al-bidaya-wal-nihaya scan vol. 4 p. 164} Al-Dhahabi relates from Sa'd ibn Ibrahim from his father that he saw Sa'd at Abd al-Rahman's funeral in front of the bier, saying: O mountain! {cite:siyar-alam-nubala scan vol. 2 p. 146} Al-Mada'ini says he was buried in al-Baqi'. {cite:siyar-alam-nubala scan vol. 2 p. 147} The books read do not say who washed him.
+
+## Where the reports differ
+Al-Mada'ini, al-Haytham ibn Ali and others date his death to 32 AH, and Ya'qub ibn al-Mughira says he lived seventy-five years. {cite:siyar-alam-nubala scan vol. 2 p. 147} Sifat al-Safwa gives death in 32 at seventy-two, or seventy-five by another report. {cite:sifat-al-safwa-tartusi-2012 scan vol. 1 p. 130} The figure for the wife who was settled differs: thirty thousand in Sifat al-Safwa, eighty thousand in al-Bidaya wa-l-nihaya; these are two reports of different amounts and are not reconciled here. The bequest to the Badris is four hundred dinars each in both al-Dhahabi and Ibn Kathir, and Ibn Kathir adds that Uthman and Ali took it and that Ali then spoke his words. {cite:al-bidaya-wal-nihaya scan vol. 4 p. 163}
+
+## Sources and documentation
+The card rests on al-Dhahabi's Siyar a'lam al-nubala', Ibn Kathir's al-Bidaya wa-l-nihaya and Ibn al-Jawzi's Sifat al-safwa. Page numbers are scan pages as read. Ibn Sa'd's Tabaqat was not available in the scans, so his detail of the shares is not given here.

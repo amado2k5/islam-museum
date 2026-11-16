@@ -1,0 +1,16 @@
+id: passage/zuhd-ibn-mubarak-wasaya-2-521
+class: passage
+unit: chapter
+work: work/kitab-al-zuhd-ibn-al-mubarak
+ref: "2:521"
+label: { ar: "الزهد لابن المبارك، المجلد المصوَّر 2، ص 521 — وصية أو عهد أخير", en: "Ibn al-Mubarak's Kitab al-Zuhd, scan volume 2, p. 521 — a testament or parting counsel", ur: "کتاب الزہد، ابن المبارک، اسکین جلد 2، ص 521 — وصیت یا آخری نصیحت" }
+text: "… نجائب كأنها الياقوت أهل الجنة يلهمون الحمد والتسبيح كما يلهمون الأواب الحفيظ: الذي لا يقوم من مجلسه الأواب الحفيظ: الذي يذكر الذنب فيتوب منه الأواه: الخاشع الدعاء المتضرع أوحى اللّٰه إلى داود: اتق اللّٰه يا داود أوصاهم ثمامة بن بجاد …"
+summary:
+  ar: "مقطع من الزهد لابن المبارك، المجلد المصوَّر 2، ص 521، يذكر وصية أو عهد أخير؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الوصايا والمواريث والآثار والمراقد."
+  en: "An excerpt from Ibn al-Mubarak's Kitab al-Zuhd, scan volume 2, p. 521, that mentions a testament or parting counsel; from the machine-read scan, quoted within forty words per the sources policy. The Testaments Browser lists it."
+  ur: "کتاب الزہد، ابن المبارک، اسکین جلد 2، ص 521 کا اقتباس جس میں وصیت یا آخری نصیحت کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-wasiyya, sources: [source/zuhd-ibn-mubarak-azami-scan] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan adab-zuhd/zuhd-ibn-mubarak/2_20260219_20260219_1945, page 521; a window of at most 40 words chosen by the testaments detector (scripts/wasaya.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-ocr-1" }
+sources: [source/zuhd-ibn-mubarak-azami-scan]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

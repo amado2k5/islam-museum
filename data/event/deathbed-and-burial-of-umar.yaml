@@ -1,0 +1,30 @@
+id: event/deathbed-and-burial-of-umar
+class: event
+kind: death
+tags: [wasaya-browser, wasaya-caliphs, wasaya-ihtidar, wasaya-mirath, wasaya-marqad]
+label: { ar: "احتضار عمر وغسله ودفنه وما خلّفه", en: "Last days, washing, burial and estate of Umar", ur: "عمر کے آخری دن، غسل، تدفین اور ترکہ" }
+summary:
+  ar: "طُعن عمر يوم الأربعاء لأربع بقين من ذي الحجة سنة 23هـ وعاش ثلاثاً ثم مات، ودُفن يوم الأحد غرة المحرم سنة 24هـ في حجرة عائشة {cite:al-bidaya-wal-nihaya scan vol. 4 p. 138}. كان يقول لما أُغمي عليه إن لا إسلام لمن ترك الصلاة ثم يتوضأ ويصلي {cite:fath-al-bari scan vol. 1 p. 408}، واستأذن عائشة أن يُدفن مع صاحبيه فأذنت {cite:fath-al-bari scan vol. 1 p. 404}. وغسّله ابنه عبد الله وصلى عليه صهيب {cite:usd-al-ghaba scan vol. 1 p. 914} {cite:riyad-nadira-ilmiyya-1984 scan vol. 3 p. 418}، ونزل في قبره ابنه وعثمان وسعيد بن زيد وعبد الرحمن بن عوف في رواية {cite:usd-al-ghaba scan vol. 1 p. 914}. وخلّف ديناً اختُلف في قدره ثم في وجوده {cite:fath-al-bari scan vol. 1 p. 412}."
+  en: "Umar was stabbed on Wednesday, four nights before the end of Dhu al-Hijja 23 AH, lived three days and died; he was buried on Sunday, 1 Muharram 24 AH, in Aisha's room {cite:al-bidaya-wal-nihaya scan vol. 4 p. 138}. When he came to from fainting he said there is no share in Islam for one who abandons prayer, then made ablution and prayed {cite:fath-al-bari scan vol. 1 p. 408}; he asked Aisha's leave to be buried with his two companions and she gave it {cite:fath-al-bari scan vol. 1 p. 404}. His son Abd Allah washed him and Suhayb prayed over him {cite:usd-al-ghaba scan vol. 1 p. 914} {cite:riyad-nadira-ilmiyya-1984 scan vol. 3 p. 418}; in one report his son, Uthman, Sa'id ibn Zayd and Abd al-Rahman ibn Awf went down into the grave {cite:usd-al-ghaba scan vol. 1 p. 914}. He left a debt whose size, and then existence, is disputed {cite:fath-al-bari scan vol. 1 p. 412}."
+  ur: "عمر کو بدھ کے دن، 23ھ میں ذی الحجہ کے چار دن باقی تھے، زخمی کیا گیا؛ وہ تین دن زندہ رہے پھر فوت ہوئے اور اتوار یکم محرم 24ھ کو عائشہ کے حجرے میں دفن ہوئے {cite:al-bidaya-wal-nihaya scan vol. 4 p. 138}۔ ہوش میں آ کر وہ کہتے کہ جس نے نماز چھوڑی اس کا اسلام میں کوئی حصہ نہیں، پھر وضو کر کے نماز پڑھتے {cite:fath-al-bari scan vol. 1 p. 408}؛ انھوں نے عائشہ سے اپنے ساتھیوں کے ساتھ دفن ہونے کی اجازت مانگی اور انھوں نے دے دی {cite:fath-al-bari scan vol. 1 p. 404}۔ بیٹے عبد اللہ نے غسل دیا اور صہیب نے نماز پڑھائی {cite:usd-al-ghaba scan vol. 1 p. 914} {cite:riyad-nadira-ilmiyya-1984 scan vol. 3 p. 418}؛ ایک روایت میں بیٹا، عثمان، سعید بن زید اور عبد الرحمن بن عوف قبر میں اترے {cite:usd-al-ghaba scan vol. 1 p. 914}۔ انھوں نے قرض چھوڑا جس کی مقدار، اور پھر موجودگی، میں اختلاف ہے {cite:fath-al-bari scan vol. 1 p. 412}۔"
+wings: [time]
+periods: [period/rashidun]
+date:
+  start: { hijri: "0023-12", precision: month, status: historical, note: "طُعن الأربعاء لأربع بقين من ذي الحجة سنة 23 {cite:al-bidaya-wal-nihaya scan vol. 4 p. 138}", sources: [source/al-bidaya-wal-nihaya] }
+  end: { hijri: "0024-01", precision: month, status: historical, note: "دُفن يوم الأحد مستهل المحرم سنة 24 {cite:al-bidaya-wal-nihaya scan vol. 4 p. 138}", sources: [source/al-bidaya-wal-nihaya] }
+relations:
+  - { type: had_participant, target: person/umar-ibn-al-khattab, role: "المتوفى", sources: [source/fath-al-bari, source/al-bidaya-wal-nihaya] }
+  - { type: had_participant, target: person/aisha, role: "المأذونة في دفنه", sources: [source/fath-al-bari] }
+  - { type: had_participant, target: person/suhayb-ibn-sinan, role: "المصلي عليه", sources: [source/riyad-nadira-ilmiyya-1984, source/al-bidaya-wal-nihaya, source/usd-al-ghaba] }
+  - { type: had_participant, target: person/abdullah-ibn-umar, role: "ابنه الغاسل والنازل في قبره", sources: [source/usd-al-ghaba] }
+  - { type: had_participant, target: person/uthman-ibn-affan, role: "نازل في قبره", sources: [source/usd-al-ghaba] }
+  - { type: had_participant, target: person/abd-al-rahman-ibn-awf, role: "نازل في قبره", sources: [source/usd-al-ghaba, source/al-bidaya-wal-nihaya] }
+  - { type: had_participant, target: person/said-ibn-zayd, role: "نازل في قبره", sources: [source/usd-al-ghaba] }
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "الواقف على جنازته", sources: [source/riyad-nadira-ilmiyya-1984] }
+  - { type: occurred_at, target: place/medina, sources: [source/fath-al-bari] }
+  - { type: occurred_at, target: building/prophets-mosque, sources: [source/usd-al-ghaba, source/fath-al-bari] }
+  - { type: mentions, target: event/death-of-umar, sources: [source/fath-al-bari] }
+  - { type: mentions, target: event/testament-of-umar-after-the-stabbing, sources: [source/fath-al-bari] }
+sources: [source/fath-al-bari, source/usd-al-ghaba, source/riyad-nadira-ilmiyya-1984, source/al-bidaya-wal-nihaya]
+provenance: { layer: own-research, source: "fath-al-bari scan vol. 1 pp. 403-413; usd-al-ghaba scan vol. 1 p. 914; riyad-nadira-ilmiyya-1984 scan vol. 3 pp. 408-419; al-bidaya-wal-nihaya scan vol. 4 pp. 137-145; page numbers are scan pages", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "wasaya-browser-1" }
+status: { review: draft, completeness: 2, generated_by: "Claude (claude-sonnet-5-5); wasaya-browser-1" }

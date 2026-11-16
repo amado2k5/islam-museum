@@ -1,0 +1,22 @@
+id: event/estate-of-abd-al-rahman-ibn-awf
+class: event
+kind: other
+tags: [wasaya-browser, wasaya-companions, wasaya-wasiyya, wasaya-mirath, wasaya-ihtidar, wasaya-marqad]
+label: { ar: "وصايا عبد الرحمن بن عوف وتركته ودفنه بالبقيع", en: "The bequests, estate and burial of Abd al-Rahman ibn Awf", ur: "عبد الرحمن بن عوف کی وصیتیں، ترکہ اور بقیع میں تدفین" }
+summary:
+  ar: "أوصى عبد الرحمن بن عوف بخمسين ألف دينار في سبيل الله، وللبدريين الباقين بأربع مئة دينار لكل منهم وكانوا مئة فأخذها عثمان فيمن أخذ، وبمبلغ كثير لكل أم من أمهات المؤمنين، وروي أنه أوصى بألف فرس في سبيل الله {cite:siyar-alam-nubala scan vol. 2 p. 146} {cite:al-bidaya-wal-nihaya scan vol. 4 p. 163}. وترك ذهباً قُطع بالفؤوس حتى مجلت أيدي الرجال، وألف بعير ومئة فرس وثلاثة آلاف شاة، وأربع نسوة {cite:al-bidaya-wal-nihaya scan vol. 4 p. 164}. وصلى عليه عثمان وحمل سعد بن أبي وقاص جنازته ودُفن بالبقيع، وأرّخ جماعة وفاته سنة اثنتين وثلاثين {cite:al-bidaya-wal-nihaya scan vol. 4 p. 164} {cite:siyar-alam-nubala scan vol. 2 p. 147}."
+  en: "Abd al-Rahman ibn Awf bequeathed fifty thousand dinars in God's cause, four hundred dinars to each of the surviving veterans of Badr, who numbered a hundred, Uthman taking his share with the rest, a large sum to each of the Mothers of the Believers, and, in one report, a thousand horses in God's cause {cite:siyar-alam-nubala scan vol. 2 p. 146} {cite:al-bidaya-wal-nihaya scan vol. 4 p. 163}. He left gold cut with axes until the men's hands blistered, a thousand camels, a hundred horses, three thousand sheep, and four wives {cite:al-bidaya-wal-nihaya scan vol. 4 p. 164}. Uthman prayed over him, Sa'd ibn Abi Waqqas carried his bier and he was buried in al-Baqi'; several authorities date his death to 32 AH {cite:al-bidaya-wal-nihaya scan vol. 4 p. 164} {cite:siyar-alam-nubala scan vol. 2 p. 147}."
+  ur: "عبد الرحمن بن عوف نے اللہ کی راہ میں پچاس ہزار دینار کی وصیت کی، باقی ماندہ اہلِ بدر کو، جو سو تھے، فی کس چار سو دینار کی، جسے عثمان نے بھی دوسروں کے ساتھ لیا، ہر ام المومنین کو بڑی رقم کی، اور ایک روایت میں اللہ کی راہ میں ایک ہزار گھوڑوں کی {cite:siyar-alam-nubala scan vol. 2 p. 146} {cite:al-bidaya-wal-nihaya scan vol. 4 p. 163}۔ انھوں نے سونا چھوڑا جو کلہاڑوں سے کاٹا گیا یہاں تک کہ لوگوں کے ہاتھوں میں چھالے پڑ گئے، ایک ہزار اونٹ، سو گھوڑے، تین ہزار بکریاں اور چار بیویاں {cite:al-bidaya-wal-nihaya scan vol. 4 p. 164}۔ عثمان نے نماز جنازہ پڑھائی، سعد بن ابی وقاص نے ان کا جنازہ اٹھایا اور وہ بقیع میں دفن ہوئے؛ کئی اہلِ علم ان کی وفات ۳۲ ہجری بتاتے ہیں {cite:al-bidaya-wal-nihaya scan vol. 4 p. 164} {cite:siyar-alam-nubala scan vol. 2 p. 147}۔"
+wings: [time, people]
+date:
+  start: { hijri: "0032", precision: year, status: tradition, note: "أرّخ المدائني والهيثم بن علي وجماعة وفاته سنة اثنتين وثلاثين {cite:siyar-alam-nubala scan vol. 2 p. 147}", sources: [source/siyar-alam-nubala] }
+relations:
+  - { type: had_participant, target: person/abd-al-rahman-ibn-awf, role: "صاحب الوصية والتركة", sources: [source/siyar-alam-nubala, source/al-bidaya-wal-nihaya, source/sifat-al-safwa-tartusi-2012] }
+  - { type: had_participant, target: person/uthman-ibn-affan, role: "صلى عليه", sources: [source/siyar-alam-nubala, source/al-bidaya-wal-nihaya, source/sifat-al-safwa-tartusi-2012] }
+  - { type: had_participant, target: person/saad-ibn-abi-waqqas, role: "حمل جنازته", sources: [source/siyar-alam-nubala, source/al-bidaya-wal-nihaya, source/sifat-al-safwa-tartusi-2012] }
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "قال كلمته عند موته", sources: [source/siyar-alam-nubala, source/al-bidaya-wal-nihaya, source/sifat-al-safwa-tartusi-2012] }
+  - { type: occurred_at, target: place/medina, sources: [source/siyar-alam-nubala, source/al-bidaya-wal-nihaya, source/sifat-al-safwa-tartusi-2012] }
+  - { type: occurred_at, target: place/baqi-al-gharqad, role: "موضع الدفن", sources: [source/siyar-alam-nubala, source/al-bidaya-wal-nihaya, source/sifat-al-safwa-tartusi-2012] }
+sources: [source/siyar-alam-nubala, source/al-bidaya-wal-nihaya, source/sifat-al-safwa-tartusi-2012]
+provenance: { layer: own-research, source: "الذهبي سير أعلام النبلاء، وابن كثير البداية والنهاية، وابن الجوزي صفة الصفوة؛ أرقام الصفحات هي صفحات المسح كما في النص المقروء؛ لم يتوفر نص طبقات ابن سعد في المسح", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "wasaya-browser-1" }
+status: { review: draft, completeness: 2, generated_by: "Claude (claude-sonnet-5-5); wasaya-browser-1" }

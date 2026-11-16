@@ -1,0 +1,69 @@
+id: event/testament-of-adam-to-shith
+class: event
+kind: death
+label:
+  ar: وصية آدم إلى شيث ووفاته ودفنه
+  en: Testament of Adam to Shith and his death
+  ur: آدم کی شیث کو وصیت اور ان کی وفات
+summary:
+  ar: يروي ابن كثير عن ابن إسحاق أن آدم لما حضرته الوفاة عهد إلى ابنه شيث وعلّمه ساعات الليل والنهار وأعلمه بالطوفان {cite:qisas-al-anbiya-ibn-kathir-iqra-ebook scan p. 72}؛ وتذكر الروايات أن الملائكة جاءته بحنوط وكفن من الجنة فغسّلوه وكفّنوه ولحدوا له وصلّوا عليه {cite:qisas-al-anbiya-ibn-kathir-iqra-ebook scan p. 73} {cite:tarikh-al-tabari scan vol. 2 p. 168}. ويختلف الرواة في موضع قبره بين جبل الهند الذي أُهبط عليه وجبل أبي قبيس بمكة وبيت المقدس {cite:qisas-al-anbiya-ibn-kathir-iqra-ebook scan p. 73} {cite:tarikh-al-tabari scan vol. 2 p. 169}.
+  en: 'Ibn Kathir relays from Ibn Ishaq that when death approached Adam he entrusted his son Shith, taught him the hours of night and day and told him of the Flood {cite:qisas-al-anbiya-ibn-kathir-iqra-ebook scan p. 72}; the reports say angels brought perfume and a shroud from Paradise, washed and shrouded him, dug the niche grave and prayed over him {cite:qisas-al-anbiya-ibn-kathir-iqra-ebook scan p. 73} {cite:tarikh-al-tabari scan vol. 2 p. 168}. Narrators differ over his grave: the mountain in India where he was sent down, Mount Abu Qubays at Mecca, or Bayt al-Maqdis {cite:qisas-al-anbiya-ibn-kathir-iqra-ebook scan p. 73} {cite:tarikh-al-tabari scan vol. 2 p. 169}.'
+  ur: ابن کثیر ابن اسحاق سے نقل کرتے ہیں کہ آدم نے وفات کے وقت اپنے بیٹے شیث کو وصیت کی، انھیں رات دن کی گھڑیاں سکھائیں اور طوفان کی خبر دی {cite:qisas-al-anbiya-ibn-kathir-iqra-ebook scan p. 72}؛ روایات کے مطابق فرشتے جنت سے حنوط اور کفن لائے، غسل دیا، کفن پہنایا، لحد کھودی اور نماز پڑھی {cite:qisas-al-anbiya-ibn-kathir-iqra-ebook scan p. 73} {cite:tarikh-al-tabari scan vol. 2 p. 168}۔ قبر کے بارے میں راوی ہند کے پہاڑ، مکہ کے جبل ابی قبیس اور بیت المقدس کے بیچ اختلاف کرتے ہیں {cite:qisas-al-anbiya-ibn-kathir-iqra-ebook scan p. 73} {cite:tarikh-al-tabari scan vol. 2 p. 169}۔
+wings:
+- time
+- people
+themes:
+- prophets
+tags:
+- wasaya-browser
+- wasaya-prophets
+- wasaya-wasiyya
+- wasaya-ihtidar
+- wasaya-marqad
+relations:
+- type: had_participant
+  target: person/adam
+  role: الموصي
+  sources:
+  - source/qisas-al-anbiya-ibn-kathir-iqra-ebook
+  - source/tarikh-al-tabari
+- type: had_participant
+  target: person/hawwa
+  role: زوجه
+  sources:
+  - source/qisas-al-anbiya-ibn-kathir-iqra-ebook
+  - source/tarikh-al-tabari
+- type: mentions
+  target: person/ibn-ishaq
+  sources:
+  - source/qisas-al-anbiya-ibn-kathir-iqra-ebook
+  - source/tarikh-al-tabari
+- type: mentions
+  target: person/nuh
+  sources:
+  - source/qisas-al-anbiya-ibn-kathir-iqra-ebook
+  - source/tarikh-al-tabari
+- type: mentions
+  target: place/jabal-abi-qubays
+  sources:
+  - source/qisas-al-anbiya-ibn-kathir-iqra-ebook
+  - source/tarikh-al-tabari
+- type: mentions
+  target: place/jerusalem
+  sources:
+  - source/qisas-al-anbiya-ibn-kathir-iqra-ebook
+  - source/tarikh-al-tabari
+sources:
+- source/qisas-al-anbiya-ibn-kathir-iqra-ebook
+- source/tarikh-al-tabari
+provenance:
+  layer: own-research
+  source: قصص الأنبياء لابن كثير ط. اقرأ ⁦(مسح iqraaEBook54، ص 72-73)⁩ وتاريخ الطبري ⁦(مسح AAlexandrina-224129، ص 159 و168-170)⁩؛ أرقام الصفحات علامات صفحات المسح
+  generated_by: Claude (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: wasaya-browser-1
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude (claude-sonnet-5-5); wasaya-browser-1
+importance: 2

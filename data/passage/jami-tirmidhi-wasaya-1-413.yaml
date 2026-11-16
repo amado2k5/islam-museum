@@ -1,0 +1,17 @@
+id: passage/jami-tirmidhi-wasaya-1-413
+class: passage
+unit: chapter
+work: work/jami-al-tirmidhi
+ref: "1:413"
+label: { ar: "جامع الترمذي، المجلد المصوَّر 1، ص 413 — ساعة الاحتضار والوفاة، ما خلّفه من تركة وميراث", en: "Jami' al-Tirmidhi, scan volume 1, p. 413 — a deathbed and last hours; what was left behind: estate and inheritance", ur: "جامع ترمذی، اسکین جلد 1، ص 413 — وقتِ وفات اور آخری لمحات، ترکہ اور میراث" }
+text: "… وَلِلفِ بْلَ وَفَاتِهِ بِشَهْرَيْنِ. قَالَ: وسَمِعْتُ أَحْمَدَ بْنَ الْحَسَنِ يَقُولُ: كانَ أَحْمَدُ بْنُ حَنُبَلٍ يَذْهَبُ إِلَى هَذَا الْحَدِيثِ لِمَا ذُكِرَ فِيهِ قَبْلَ وَفَاتِهِ بِشَهْرَيْنِ وكانَ يَقُولُ كَانَ هَذَا آخِرَ أَمْرِ النَّبِيِّ وَلِ ا مَّ تَرَكَ أَحْمَدُ بْنُ حَنْبُلٍ هَذَا الحَدِيثَ …"
+summary:
+  ar: "مقطع من جامع الترمذي، المجلد المصوَّر 1، ص 413، يذكر ساعة الاحتضار والوفاة، وما خلّفه من تركة وميراث؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الوصايا والمواريث والآثار والمراقد."
+  en: "An excerpt from Jami' al-Tirmidhi, scan volume 1, p. 413, that mentions a deathbed and last hours, what was left behind: estate and inheritance; from the machine-read scan, quoted within forty words per the sources policy. The Testaments Browser lists it."
+  ur: "جامع ترمذی، اسکین جلد 1، ص 413 کا اقتباس جس میں وقتِ وفات اور آخری لمحات، ترکہ اور میراث کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ihtidar, sources: [source/jami-al-tirmidhi] }
+  - { type: mentions, target: concept/tarika-estate, sources: [source/jami-al-tirmidhi] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan hadith/jami-tirmidhi/144449_202310, page 413; a window of at most 40 words chosen by the testaments detector (scripts/wasaya.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-ocr-1" }
+sources: [source/jami-al-tirmidhi]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

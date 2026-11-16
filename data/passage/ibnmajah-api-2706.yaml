@@ -1,0 +1,17 @@
+id: passage/ibnmajah-api-2706
+class: passage
+tags: [wasaya-browser, wasaya-wasiyya]
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "2706"
+label: { ar: "سنن ابن ماجه 2706 — وصية أو عهد أخير", en: "Sunan Ibn Majah 2706 — a testament or parting counsel", ur: "سنن ابن ماجہ 2706 — وصیت یا آخری نصیحت" }
+text: "… مَنْ قَالَ \" ثُمَّ أُمُّكَ \". قَالَ ثُمَّ مَنْ قَالَ \" ثُمَّ أَبُوكَ \". قَالَ نَبِّئْنِي يَا رَسُولَ اللَّهِ عَنْ مَالِي كَيْفَ أَتَصَدَّقُ فِيهِ قَالَ \" نَعَمْ وَاللَّهِ لَتُنَبَّأَنَّ أَنْ تَصَدَّقَ وَأَنْتَ صَحِيحٌ شَحِيحٌ تَأْمُلُ الْعَيْشَ وَتَخَافُ الْفَقْرَ وَلاَ تُمْهِلْ حَتَّى إِذَا بَلَغَتْ نَفْسُكَ هَاهُنَا قُلْتَ مَالِي لِفُلاَنٍ وَمَالِي لِفُلاَنٍ وَهُوَ لَهُمْ وَإِنْ كَرِهْتَ \"."
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 2706، يذكر وصية أو عهد أخير. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan Ibn Majah, no. 2706 (The Chapters on Wills), that mentions a testament or parting counsel. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 2706، جس میں وصیت یا آخری نصیحت کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-wasiyya, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 2706 (book 22 hadith 12); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

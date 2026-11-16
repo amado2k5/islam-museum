@@ -1,0 +1,73 @@
+id: event/deaths-of-harun-and-musa
+class: event
+kind: death
+label:
+  ar: وفاة هارون وموسى في التيه وقبر موسى عند الكثيب الأحمر
+  en: Deaths of Harun and Musa in the Tih and the grave by the red dune
+  ur: ہارون اور موسیٰ کی تیہ میں وفات اور سرخ ٹیلے کے پاس قبرِ موسیٰ
+summary:
+  ar: يروي ابن كثير أن هارون مات أولاً في التيه، وأن موسى بعده، وفي الصحيحين حديث مجيء ملك الموت إلى موسى ثم موته وطلبه الدنو من الأرض المقدسة رمية بحجر وقول النبي إن قبره عند الكثيب الأحمر {cite:qisas-al-anbiya-ibn-kathir-iqra-ebook scan p. 529} {cite:qisas-al-anbiya-ibn-kathir-iqra-ebook scan p. 531}؛ أما رواية السرير والبيت وموت هارون ورواية الريح السوداء ويوشع فيصفها ابن كثير بأن فيها نكارة وغرابة {cite:qisas-al-anbiya-ibn-kathir-iqra-ebook scan p. 531} {cite:qisas-al-anbiya-ibn-kathir-iqra-ebook scan p. 532}.
+  en: Ibn Kathir reports that Harun died first in the Tih and Musa after him; the Sahihs have the hadith of the angel of death coming to Musa, his death, his request to be brought near the Holy Land by a stone's throw and the Prophet's statement that his grave is by the red dune {cite:qisas-al-anbiya-ibn-kathir-iqra-ebook scan p. 529} {cite:qisas-al-anbiya-ibn-kathir-iqra-ebook scan p. 531}; the bed-and-house report of Harun's death and the black wind report with Yusha' are described by Ibn Kathir as having something objectionable and strange {cite:qisas-al-anbiya-ibn-kathir-iqra-ebook scan p. 531} {cite:qisas-al-anbiya-ibn-kathir-iqra-ebook scan p. 532}.
+  ur: ابن کثیر بتاتے ہیں کہ ہارون تیہ میں پہلے فوت ہوئے اور موسیٰ ان کے بعد؛ صحیحین میں ملک الموت کے موسیٰ کے پاس آنے، ان کی وفات، ارضِ مقدس کے قریب پتھر کی دوری تک پہنچانے کی دعا اور نبی کے اس فرمان کی حدیث ہے کہ ان کی قبر سرخ ٹیلے کے پاس ہے {cite:qisas-al-anbiya-ibn-kathir-iqra-ebook scan p. 529} {cite:qisas-al-anbiya-ibn-kathir-iqra-ebook scan p. 531}؛ ہارون کی وفات کا پلنگ اور گھر والا بیان اور کالی آندھی و یوشع والی روایت کو ابن کثیر ناپسندیدگی اور اجنبیت والی کہتے ہیں {cite:qisas-al-anbiya-ibn-kathir-iqra-ebook scan p. 531} {cite:qisas-al-anbiya-ibn-kathir-iqra-ebook scan p. 532}۔
+wings:
+- time
+- people
+themes:
+- prophets
+tags:
+- wasaya-browser
+- wasaya-prophets
+- wasaya-ihtidar
+- wasaya-marqad
+relations:
+- type: had_participant
+  target: person/musa
+  role: المتوفى
+  sources:
+  - source/qisas-al-anbiya-ibn-kathir-iqra-ebook
+  - source/al-bidaya-wal-nihaya
+  - source/sahih-muslim
+- type: had_participant
+  target: person/harun
+  role: المتوفى
+  sources:
+  - source/qisas-al-anbiya-ibn-kathir-iqra-ebook
+  - source/tarikh-al-tabari
+  - source/kamil-ibn-al-athir
+- type: mentions
+  target: person/abu-hurayra
+  sources:
+  - source/qisas-al-anbiya-ibn-kathir-iqra-ebook
+- type: mentions
+  target: person/wahb-ibn-munabbih
+  sources:
+  - source/qisas-al-anbiya-ibn-kathir-iqra-ebook
+- type: mentions
+  target: person/abdullah-ibn-abbas
+  sources:
+  - source/qisas-al-anbiya-ibn-kathir-iqra-ebook
+- type: mentions
+  target: person/ibn-ishaq
+  sources:
+  - source/tarikh-al-tabari
+- type: mentions
+  target: concept/israiliyyat
+  sources:
+  - source/qisas-al-anbiya-ibn-kathir-iqra-ebook
+sources:
+- source/qisas-al-anbiya-ibn-kathir-iqra-ebook
+- source/al-bidaya-wal-nihaya
+- source/tarikh-al-tabari
+- source/kamil-ibn-al-athir
+- source/sahih-muslim
+provenance:
+  layer: own-research
+  source: قصص الأنبياء لابن كثير ط. اقرأ ⁦(مسح iqraaEBook54، ص 529-535)⁩ والبداية والنهاية ⁦(مسح AAlexandrina-074627، ص 321-322)⁩ وتاريخ الطبري ⁦(مسح AAlexandrina-224129، ص 507-512 و518)⁩ والكامل لابن الأثير ⁦(مسح AAlexandrina-155607، ص 157-158)⁩ وسجل الحديث passage/muslim-2372b؛ أرقام الصفحات علامات صفحات المسح
+  generated_by: Claude (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: wasaya-browser-1
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude (claude-sonnet-5-5); wasaya-browser-1
+importance: 2

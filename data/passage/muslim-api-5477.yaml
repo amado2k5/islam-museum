@@ -1,0 +1,16 @@
+id: passage/muslim-api-5477
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "5477"
+label: { ar: "صحيح مسلم 5477 — أثر من الآثار المحفوظة", en: "Sahih Muslim 5477 — a relic kept after its owner", ur: "صحیح مسلم 5477 — محفوظ آثار و تبرکات" }
+text: "… عُيَيْنَةَ، عَنْ أَيُّوبَ بْنِ مُوسَى، عَنْ نَافِعٍ، عَنِ ابْنِ، عُمَرَ قَالَ اتَّخَذَ النَّبِيُّ خَاتَمًا مِنْ ذَهَبٍ ثُمَّ أَلْقَاهُ ثُمَّ اتَّخَذَ خَاتَمًا مِنْ وَرِقٍ وَنَقَشَ فِيهِ مُحَمَّدٌ رَسُولُ اللَّهِ. وَقَالَ \" لاَ يَنْقُشْ أَحَدٌ عَلَى نَقْشِ خَاتَمِي هَذَا \". وَكَانَ إِذَا لَبِسَهُ جَعَلَ فَصَّهُ مِمَّا يَلِي بَطْنَ كَفِّهِ وَهُوَ الَّذِي سَقَطَ مِنْ مُعَيْقِيبٍ فِي بِئْرِ أَرِيسٍ."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 5477، يذكر أثر من الآثار المحفوظة. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sahih Muslim, no. 5477 (The Book of Clothes and Adornment), that mentions a relic kept after its owner. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
+  ur: "صحیح مسلم کی حدیث نمبر 5477، جس میں محفوظ آثار و تبرکات کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/tabarruk, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 5477 (book 37 hadith 92); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

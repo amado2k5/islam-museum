@@ -1,0 +1,16 @@
+id: passage/bukhari-api-3052
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "3052"
+label: { ar: "صحيح البخاري 3052 — وصية أو عهد أخير", en: "Sahih al-Bukhari 3052 — a testament or parting counsel", ur: "صحیح بخاری 3052 — وصیت یا آخری نصیحت" }
+text: "حَدَّثَنَا مُوسَى بْنُ إِسْمَاعِيلَ، حَدَّثَنَا أَبُو عَوَانَةَ، عَنْ حُصَيْنٍ، عَنْ عَمْرِو بْنِ مَيْمُونٍ، عَنْ عُمَرَ ـ قَالَ وَأُوصِيهِ بِذِمَّةِ اللَّهِ وَذِمَّةِ رَسُولِهِ أَنْ يُوفَى لَهُمْ بِعَهْدِهِمْ، وَأَنْ يُقَاتَلَ مِنْ وَرَائِهِمْ، وَلاَ يُكَلَّفُوا إِلاَّ طَاقَتَهُمْ."
+summary:
+  ar: "حديث في صحيح البخاري، رقم 3052، يذكر وصية أو عهد أخير. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sahih al-Bukhari, no. 3052 (Fighting for the Cause of Allah (Jihaad)), that mentions a testament or parting counsel. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
+  ur: "صحیح بخاری کی حدیث نمبر 3052، جس میں وصیت یا آخری نصیحت کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-wasiyya, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 3052 (book 56 hadith 258); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

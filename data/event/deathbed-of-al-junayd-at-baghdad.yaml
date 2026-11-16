@@ -1,0 +1,60 @@
+id: event/deathbed-of-al-junayd-at-baghdad
+class: event
+kind: death
+tags:
+- wasaya-browser
+- wasaya-righteous
+- wasaya-ihtidar
+- wasaya-marqad
+label:
+  ar: احتضار الجنيد ببغداد ودفنه بالشونيزية
+  en: Deathbed of al-Junayd at Baghdad and burial at the Shuniziyya
+  ur: بغداد میں جنید کی وفات اور شونیزیہ میں تدفین
+summary:
+  ar: قال أبو بكر العطوي إنه كان عند الجنيد لما احتُضر فختم القرآن ثم قرأ من البقرة سبعين آية ومات {cite:siyar-alam-nubala scan vol. 1 p. 1008}. وقدّر ابن المنادي المصلين عليه بنحو ستين ألفاً، وتتابع الناس على قبره نحو شهر {cite:siyar-alam-nubala scan vol. 1 p. 1008}. ودُفن بالشونيزية عند السري السقطي وقبره إلى جنب قبره {cite:tarikh-baghdad-khatib scan vol. 1 p. 197}. وتختلف الكتب في سنة وفاته بين 297 و298هـ {cite:wafayat-ayan scan vol. 4 p. 134}.
+  en: 'Abu Bakr al-Atawi said he was with al-Junayd when he was dying: he completed the Qur''an and recited seventy verses of al-Baqara, then died {cite:siyar-alam-nubala scan vol. 1 p. 1008}. Ibn al-Munadi estimated those who prayed over him at about sixty thousand, and people kept visiting his grave for about a month {cite:siyar-alam-nubala scan vol. 1 p. 1008}. He was buried at the Shuniziyya beside al-Sari al-Saqati, his grave next to Sari''s {cite:tarikh-baghdad-khatib scan vol. 1 p. 197}. The books differ on the year of death, 297 or 298 AH {cite:wafayat-ayan scan vol. 4 p. 134}.'
+  ur: 'ابو بکر عطوی نے کہا کہ جنید کی نزع کے وقت وہ ان کے پاس تھے: انہوں نے قرآن ختم کیا اور بقرہ کی ستر آیتیں پڑھ کر فوت ہو گئے {cite:siyar-alam-nubala scan vol. 1 p. 1008}۔ ابن المنادی نے نماز پڑھنے والوں کا اندازہ ساٹھ ہزار کے قریب لگایا اور لوگ تقریباً ایک ماہ ان کی قبر پر آتے رہے {cite:siyar-alam-nubala scan vol. 1 p. 1008}۔ انہیں شونیزیہ میں سری سقطی کے پاس دفن کیا گیا، ان کی قبر سری کی قبر کے پہلو میں ہے {cite:tarikh-baghdad-khatib scan vol. 1 p. 197}۔ سنِ وفات میں 297 یا 298ھ کا اختلاف ہے {cite:wafayat-ayan scan vol. 4 p. 134}۔'
+wings:
+- time
+periods:
+- period/abbasid-fragmentation
+regions:
+- levant-iraq
+date:
+  start:
+    hijri: "0298"
+    precision: year
+    status: tradition
+    note: تختلف الكتب بين 297 و298هـ، ويقول الذهبي إن من أرّخه سنة سبع وتسعين غلط {cite:siyar-alam-nubala scan vol. 1 p. 1008} {cite:wafayat-ayan scan vol. 4 p. 134}
+relations:
+- type: occurred_at
+  target: place/baghdad
+  sources:
+  - source/siyar-alam-nubala
+  - source/wafayat-ayan
+- type: had_participant
+  target: person/al-junayd-ibn-muhammad
+  role: المتوفّى
+  sources:
+  - source/siyar-alam-nubala
+  - source/wafayat-ayan
+- type: mentions
+  target: person/sari-al-saqati
+  sources:
+  - source/tarikh-baghdad-khatib
+  - source/siyar-alam-nubala
+sources:
+- source/siyar-alam-nubala
+- source/tarikh-islam-dhahabi
+- source/tarikh-baghdad-khatib
+- source/wafayat-ayan
+provenance:
+  layer: own-research
+  source: Siyar A'lam al-Nubala' (scan vol. 1 p. 1008); Tarikh al-Islam al-Dhahabi (vol. 25 p. 122, vol. 29 p. 327); Tarikh Baghdad (scan vol. 1 p. 197); Wafayat al-A'yan (scan vol. 3 p. 148, vol. 4 p. 134); page numbers are scan pages
+  generated_by: Claude (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: wasaya-browser-1
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude (claude-sonnet-5-5); wasaya-browser-1

@@ -1,0 +1,16 @@
+id: passage/muslim-api-2130
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2130"
+label: { ar: "صحيح مسلم 2130 — دفن وقبر ومرقد", en: "Sahih Muslim 2130 — a burial, grave or resting place", ur: "صحیح مسلم 2130 — تدفین، قبر اور مرقد" }
+text: "… الرُّوحَ إِذَا قُبِضَ تَبِعَهُ الْبَصَرُ \". فَضَجَّ نَاسٌ مِنْ أَهْلِهِ فَقَالَ \" لاَ تَدْعُوا عَلَى أَنْفُسِكُمْ إِلاَّ بِخَيْرٍ فَإِنَّ الْمَلاَئِكَةَ يُؤَمِّنُونَ عَلَى مَا تَقُولُونَ \". ثُمَّ قَالَ \" اللَّهُمَّ اغْفِرْ لأَبِي سَلَمَةَ وَارْفَعْ دَرَجَتَهُ فِي الْمَهْدِيِّينَ وَاخْلُفْهُ فِي عَقِبِهِ فِي الْغَابِرِينَ وَاغْفِرْ لَنَا وَلَهُ يَا رَبَّ الْعَالَمِينَ وَافْسَحْ لَهُ فِي قَبْرِهِ. وَنَوِّرْ لَهُ فِيهِ \"."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 2130، يذكر دفن وقبر ومرقد. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sahih Muslim, no. 2130 (The Book of Prayer - Funerals), that mentions a burial, grave or resting place. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
+  ur: "صحیح مسلم کی حدیث نمبر 2130، جس میں تدفین، قبر اور مرقد کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ziyarat-al-qubur, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 2130 (book 11 hadith 8); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

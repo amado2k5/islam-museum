@@ -1,0 +1,38 @@
+id: event/testament-of-al-mansur-to-al-mahdi
+class: event
+kind: death
+label:
+  ar: وصية المنصور للمهدي قبل حجته الأخيرة ووفاته وقبره المخفي بمكة
+  en: Testament of al-Mansur to al-Mahdi and his hidden grave at Mecca
+  ur: منصور کی مہدی کو وصیت اور مکہ میں ان کی پوشیدہ قبر
+summary:
+  ar: "لما عزم المنصور على الحج سنة ثمان وخمسين ومئة أوصى ابنه المهدي بنفسه وأهل بيته والمسلمين، وحرّج عليه ألا يفتح خزائن المسلمين حتى يتحقق وفاته، وعهد إليه أن يقضي دينه وهو ثلاثمئة ألف دينار {cite:al-bidaya-wal-nihaya scan vol. 5 p. 511}. وقال إنه ولد في ذي الحجة ويظن أنه يموت فيه {cite:al-bidaya-wal-nihaya scan vol. 5 p. 512}. ومات بمكة في ذي الحجة وكتم الربيع الحاجب وفاته حتى أخذ البيعة للمهدي {cite:al-bidaya-wal-nihaya scan vol. 5 p. 506}، ودُفن عند باب المعلاة، وحفر الربيع مئة قبر ودفنه في غيرها فلا يُعرف قبره {cite:al-bidaya-wal-nihaya scan vol. 5 p. 513}."
+  en: "When al-Mansur resolved on pilgrimage in the year 158 he charged his son al-Mahdi concerning himself, his family and the Muslims, forbade him to open the Muslims' treasuries until he was sure of his death, and told him to pay his debt of three hundred thousand dinars {cite:al-bidaya-wal-nihaya scan vol. 5 p. 511}. He said he had been born in Dhu al-Hijja and thought he would die in it {cite:al-bidaya-wal-nihaya scan vol. 5 p. 512}. He died at Mecca in Dhu al-Hijja and al-Rabi' the chamberlain concealed his death until he had taken the oath for al-Mahdi {cite:al-bidaya-wal-nihaya scan vol. 5 p. 506}; he was buried at Bab al-Mu'alla, and al-Rabi' dug a hundred graves and buried him in another, so his grave is not known {cite:al-bidaya-wal-nihaya scan vol. 5 p. 513}."
+  ur: "جب منصور نے سن 158 ہجری میں حج کا ارادہ کیا تو بیٹے مہدی کو اپنی ذات، خاندان اور مسلمانوں کے بارے میں وصیت کی، منع کیا کہ ان کی موت کے یقین تک مسلمانوں کے خزانے کھولے، اور تین لاکھ دینار کا قرض ادا کرنے کی ہدایت کی {cite:al-bidaya-wal-nihaya scan vol. 5 p. 511}۔ کہا کہ وہ ذوالحجہ میں پیدا ہوئے اور انھیں لگتا ہے کہ اسی میں فوت ہوں گے {cite:al-bidaya-wal-nihaya scan vol. 5 p. 512}۔ وہ ذوالحجہ میں مکہ میں فوت ہوئے اور ربیع حاجب نے مہدی کی بیعت لینے تک موت چھپائے رکھی {cite:al-bidaya-wal-nihaya scan vol. 5 p. 506}؛ انھیں باب المعلاۃ پر دفن کیا گیا اور ربیع نے سو قبریں کھود کر انھیں کسی اور میں دفنایا، اس لیے ان کی قبر معلوم نہیں {cite:al-bidaya-wal-nihaya scan vol. 5 p. 513}۔"
+wings: [time, people, words]
+tags: [wasaya-browser, wasaya-caliphs, wasaya-wasiyya, wasaya-ihtidar, wasaya-mirath, wasaya-marqad]
+periods:
+- period/abbasid-early
+regions:
+- arabia
+date:
+  start: { hijri: "0158-12", precision: month, status: tradition, note: "ليلة السبت لست أو لسبع مضين من ذي الحجة سنة ثمان وخمسين ومئة {cite:al-bidaya-wal-nihaya scan vol. 5 p. 512}", sources: [source/al-bidaya-wal-nihaya] }
+relations:
+- { type: part_of, target: event/death-of-al-mansur, sources: [source/al-bidaya-wal-nihaya] }
+- { type: occurred_at, target: place/mecca, sources: [source/al-bidaya-wal-nihaya, source/siyar-alam-nubala] }
+- { type: had_participant, target: person/al-mansur, role: صاحب الوصية والمتوفى, sources: [source/al-bidaya-wal-nihaya, source/siyar-alam-nubala] }
+- { type: had_participant, target: person/al-mahdi, role: الموصى إليه وولي العهد, sources: [source/al-bidaya-wal-nihaya] }
+- { type: had_participant, target: person/al-rabi-ibn-yunus, role: الحاجب الذي كتم الوفاة وأخفى القبر, sources: [source/al-bidaya-wal-nihaya, source/siyar-alam-nubala] }
+sources:
+- source/al-bidaya-wal-nihaya
+- source/siyar-alam-nubala
+provenance:
+  layer: own-research
+  source: "البداية والنهاية لابن كثير، مسح مجلد 5 ص 506 و511-513؛ سير أعلام النبلاء، مسح مجلد 1 ص 2513؛ أرقام الصفحات صفحات المسح"
+  generated_by: "Claude (claude-sonnet-5-5)"
+  model: claude-sonnet-5-5
+  run: wasaya-browser-1
+status:
+  review: draft
+  completeness: 2
+  generated_by: "Claude (claude-sonnet-5-5); wasaya-browser-1"

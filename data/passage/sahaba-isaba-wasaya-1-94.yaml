@@ -1,0 +1,17 @@
+id: passage/sahaba-isaba-wasaya-1-94
+class: passage
+unit: chapter
+work: work/al-isaba-fi-tamyiz-al-sahaba
+ref: "1:94"
+label: { ar: "الإصابة لابن حجر، المجلد المصوَّر 1، ص 94 — وصية أو عهد أخير، ساعة الاحتضار والوفاة", en: "Ibn Hajar's al-Isaba, scan volume 1, p. 94 — a testament or parting counsel; a deathbed and last hours", ur: "الاصابہ، ابن حجر، اسکین جلد 1، ص 94 — وصیت یا آخری نصیحت، وقتِ وفات اور آخری لمحات" }
+text: "… وماتت أمه قبل ذلك وهو طفل. وقال: تركني ولم أكمل أربع سنين وأنا الآن أعقله كالذي يتخيل الشيء ولا يتحققه، وأحفظ عنه أنه قال: كنية ولدي أحمد أبو الفضل ولم يكن من يكفله، وكان والده قد أوصى قبل وفاته بولده …"
+summary:
+  ar: "مقطع من الإصابة لابن حجر، المجلد المصوَّر 1، ص 94، يذكر وصية أو عهد أخير، وساعة الاحتضار والوفاة؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الوصايا والمواريث والآثار والمراقد."
+  en: "An excerpt from Ibn Hajar's al-Isaba, scan volume 1, p. 94, that mentions a testament or parting counsel, a deathbed and last hours; from the machine-read scan, quoted within forty words per the sources policy. The Testaments Browser lists it."
+  ur: "الاصابہ، ابن حجر، اسکین جلد 1، ص 94 کا اقتباس جس میں وصیت یا آخری نصیحت، وقتِ وفات اور آخری لمحات کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-wasiyya, sources: [source/isaba] }
+  - { type: mentions, target: concept/ihtidar, sources: [source/isaba] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan sahaba/isaba/1_20191214_20191214_1316, page 94; a window of at most 40 words chosen by the testaments detector (scripts/wasaya.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-ocr-1" }
+sources: [source/isaba]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

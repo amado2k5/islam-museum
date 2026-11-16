@@ -1,0 +1,17 @@
+id: event/deathbed-of-abu-musa-al-ashari
+class: event
+kind: other
+tags: [wasaya-browser, wasaya-companions, wasaya-ihtidar, wasaya-wasiyya, wasaya-marqad]
+label: { ar: "احتضار أبي موسى الأشعري ووصيته في حفر قبره واختلاف موضع وفاته", en: "The deathbed of Abu Musa al-Ash'ari, his instruction about his grave, and the differing reports of where he died", ur: "ابو موسیٰ اشعری کی نزع، قبر کھودنے کی ہدایت اور جائے وفات میں اختلاف" }
+summary:
+  ar: "لما حضرت أبا موسى الأشعري الوفاة دعا فتيانه فأمرهم بحفر قبره وتوسيعه وتعميقه، وقال إنها إحدى منزلتين: إما أن يوسَّع عليه فيرى منزله في الجنة، وإما أن يضيق عليه فيرى الأغلال والسلاسل {cite:sifat-al-safwa-tartusi-2012 scan vol. 1 p. 203}. وقال لبنيه، فيما يروي أبو بردة، أن يذكروا صاحب الرغيف، وساق قصة العابد الذي رجح رغيفه {cite:sifat-al-safwa-tartusi-2012 scan vol. 1 p. 203}. ويختلف في وفاته: بمكة في قول، وبالثوية على ميلين من الكوفة في قول، وفي سنتها بين اثنتين وأربعين واثنتين وخمسين {cite:al-bidaya-wal-nihaya scan vol. 4 p. 425}."
+  en: "When death came to Abu Musa al-Ash'ari he called his young men and told them to dig his grave wide and deep, saying it would be one of two places: either it would be widened and he would see his place in Paradise, or it would be narrowed and he would see chains and fetters {cite:sifat-al-safwa-tartusi-2012 scan vol. 1 p. 203}. According to Abu Burda he told his sons to remember the man of the loaf, and told the story of the worshipper whose loaf outweighed his years {cite:sifat-al-safwa-tartusi-2012 scan vol. 1 p. 203}. Where he died is disputed, Mecca in one account and al-Thawiyya, two miles from Kufa, in another, and the year ranges from 42 to 52 {cite:al-bidaya-wal-nihaya scan vol. 4 p. 425}."
+  ur: "جب ابو موسیٰ اشعری کی وفات کا وقت آیا تو انھوں نے اپنے نوجوان خادموں کو بلا کر حکم دیا کہ ان کی قبر کھودو اور کشادہ اور گہری بناؤ، اور کہا کہ یہ دو منزلوں میں سے ایک ہوگی: یا تو قبر وسیع کی جائے گی اور وہ جنت میں اپنا ٹھکانا دیکھیں گے، یا تنگ کی جائے گی اور وہ بیڑیاں اور زنجیریں دیکھیں گے {cite:sifat-al-safwa-tartusi-2012 scan vol. 1 p. 203}۔ ابو بردہ کی روایت کے مطابق انھوں نے اپنے بیٹوں سے کہا کہ روٹی والے کو یاد رکھنا، اور اس عابد کا قصہ سنایا جس کی روٹی اس کے سالوں پر بھاری نکلی {cite:sifat-al-safwa-tartusi-2012 scan vol. 1 p. 203}۔ جائے وفات میں اختلاف ہے، ایک قول میں مکہ اور دوسرے میں کوفہ سے دو میل پر ثویہ، اور سال ۴۲ سے ۵۲ ہجری تک بتایا گیا ہے {cite:al-bidaya-wal-nihaya scan vol. 4 p. 425}۔"
+wings: [time, people]
+relations:
+  - { type: had_participant, target: person/abu-musa-al-ashari, role: "صاحب الوصية", sources: [source/sifat-al-safwa-tartusi-2012, source/al-bidaya-wal-nihaya, source/siyar-alam-nubala] }
+  - { type: occurred_at, target: place/mecca, role: "موضع الوفاة والدفن في قول", sources: [source/sifat-al-safwa-tartusi-2012, source/al-bidaya-wal-nihaya, source/siyar-alam-nubala] }
+  - { type: occurred_at, target: place/kufa, role: "موضع الوفاة والدفن بالثوية قرب الكوفة في قول", sources: [source/sifat-al-safwa-tartusi-2012, source/al-bidaya-wal-nihaya, source/siyar-alam-nubala] }
+sources: [source/sifat-al-safwa-tartusi-2012, source/al-bidaya-wal-nihaya, source/siyar-alam-nubala]
+provenance: { layer: own-research, source: "ابن الجوزي صفة الصفوة، وابن كثير البداية والنهاية، والذهبي سير أعلام النبلاء؛ أرقام الصفحات هي صفحات المسح كما في النص المقروء", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "wasaya-browser-1" }
+status: { review: draft, completeness: 2, generated_by: "Claude (claude-sonnet-5-5); wasaya-browser-1" }

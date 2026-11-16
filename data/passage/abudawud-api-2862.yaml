@@ -1,0 +1,16 @@
+id: passage/abudawud-api-2862
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "2862"
+label: { ar: "سنن أبي داود 2862 — وصية أو عهد أخير", en: "Sunan Abi Dawud 2862 — a testament or parting counsel", ur: "سنن ابی داؤد 2862 — وصیت یا آخری نصیحت" }
+text: "حَدَّثَنَا مُسَدَّدُ بْنُ مُسَرْهَدٍ، حَدَّثَنَا يَحْيَى بْنُ سَعِيدٍ، عَنْ عُبَيْدِ اللَّهِ، حَدَّثَنِي نَافِعٌ، عَنْ عَبْدِ اللَّهِ، - يَعْنِي ابْنَ عُمَرَ - عَنْ رَسُولِ اللَّهِ قَالَ \" مَا حَقُّ امْرِئٍ مُسْلِمٍ لَهُ شَىْءٌ يُوصِي فِيهِ يَبِيتُ لَيْلَتَيْنِ إِلاَّ وَوَصِيَّتُهُ مَكْتُوبَةٌ عِنْدَهُ \"."
+summary:
+  ar: "حديث في سنن أبي داود، رقم 2862، يذكر وصية أو عهد أخير. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan Abi Dawud, no. 2862 (Wills (Kitab Al-Wasaya)), that mentions a testament or parting counsel. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
+  ur: "سنن ابی داؤد کی حدیث نمبر 2862، جس میں وصیت یا آخری نصیحت کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-wasiyya, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 2862 (book 18 hadith 1); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

@@ -1,0 +1,16 @@
+id: passage/nasai-api-2854
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "2854"
+label: { ar: "سنن النسائي 2854 — دفن وقبر ومرقد", en: "Sunan al-Nasa'i 2854 — a burial, grave or resting place", ur: "سنن نسائی 2854 — تدفین، قبر اور مرقد" }
+text: "… عَبَّاسٍ، أَنَّ رَجُلاً، مُحْرِمًا صُرِعَ عَنْ نَاقَتِهِ، فَأُوقِصَ ذُكِرَ أَنَّهُ قَدْ مَاتَ فَقَالَ النَّبِيُّ \" اغْسِلُوهُ بِمَاءٍ وَسِدْرٍ وَكَفِّنُوهُ فِي ثَوْبَيْنِ \". ثُمَّ قَالَ عَلَى إِثْرِهِ \" خَارِجًا رَأْسُهُ \". قَالَ \" وَلاَ تُمِسُّوهُ طِيبًا فَإِنَّهُ يُبْعَثُ يَوْمَ الْقِيَامَةِ مُلَبِّيًا \". قَالَ شُعْبَةُ فَسَأَلْتُهُ بَعْدَ عَشْرِ سِنِينَ فَجَاءَ بِالْحَدِيثِ كَمَا كَانَ يَجِيءُ بِهِ إِلاَّ أَنَّهُ …"
+summary:
+  ar: "حديث في سنن النسائي، رقم 2854، يذكر دفن وقبر ومرقد. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan al-Nasa'i, no. 2854 (The Book of Hajj), that mentions a burial, grave or resting place. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
+  ur: "سنن نسائی کی حدیث نمبر 2854، جس میں تدفین، قبر اور مرقد کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ziyarat-al-qubur, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 2854 (book 24 hadith 237); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

@@ -1,0 +1,20 @@
+id: event/last-counsel-of-abu-bakr-to-umar
+class: event
+kind: declaration
+tags: [wasaya-browser, wasaya-caliphs, wasaya-wasiyya, wasaya-ihtidar]
+label: { ar: "وصية أبي بكر لعمر عند الاحتضار", en: "Last counsel of Abu Bakr to Umar", ur: "ابو بکر کی عمر کو آخری نصیحت" }
+summary:
+  ar: "بعد عهده بالخلافة دعا أبو بكر عمر وحده وأوصاه بتقوى الله {cite:kamil-ibn-al-athir scan vol. 1 p. 267}. وفحوى وصيته أن لله حقاً بالليل لا يقبله بالنهار وحقاً بالنهار لا يقبله بالليل، وأن النافلة لا تُقبل حتى تؤدى الفريضة، وأن الموازين تثقل باتباع الحق وتخف باتباع الباطل {cite:sifat-al-safwa-tartusi-2012 scan vol. 1 p. 102}. ثم ذكر نهج القرآن في وصف أهل الجنة وأهل النار ليكون العبد راغباً راهباً {cite:riyad-nadira-ilmiyya-1984 scan vol. 3 p. 259}، وختمها بأنه إن حفظ الوصية فلا يكن غائب أحب إليه من الموت {cite:kamil-ibn-al-athir scan vol. 1 p. 268}. ويروي ابن الأثير وصية أخرى في المرض نفسه بشأن المثنى وأهل العراق {cite:kamil-ibn-al-athir scan vol. 1 p. 260}."
+  en: "After designating Umar, Abu Bakr called him in alone and charged him to fear God {cite:kamil-ibn-al-athir scan vol. 1 p. 267}. The counsel says God has a right by night that He does not accept by day and a right by day He does not accept by night, that no voluntary act is accepted until the obligation is met, and that scales grow heavy by following truth and light by following falsehood {cite:sifat-al-safwa-tartusi-2012 scan vol. 1 p. 102}. It then recalls how the Qur'an names the people of Paradise and of the Fire so that a servant may be hopeful and fearful {cite:riyad-nadira-ilmiyya-1984 scan vol. 3 p. 259}, and ends by telling Umar that if he keeps it nothing absent should be dearer to him than death {cite:kamil-ibn-al-athir scan vol. 1 p. 268}. Ibn al-Athir also reports a second bequest in the same illness about al-Muthanna and the people of Iraq {cite:kamil-ibn-al-athir scan vol. 1 p. 260}."
+  ur: "عمر کو خلیفہ نامزد کرنے کے بعد ابو بکر نے انھیں تنہا بلا کر اللہ سے ڈرنے کی نصیحت کی {cite:kamil-ibn-al-athir scan vol. 1 p. 267}۔ نصیحت کا خلاصہ یہ ہے کہ اللہ کا ایک حق رات میں ہے جو دن میں قبول نہیں اور ایک دن میں جو رات میں قبول نہیں، نفل فرض ادا ہونے سے پہلے قبول نہیں، اور پلڑے حق کی پیروی سے بھاری اور باطل کی پیروی سے ہلکے ہوتے ہیں {cite:sifat-al-safwa-tartusi-2012 scan vol. 1 p. 102}۔ پھر قرآن کے اہلِ جنت و جہنم کے ذکر کا اسلوب بتایا تاکہ بندہ امید اور خوف رکھے {cite:riyad-nadira-ilmiyya-1984 scan vol. 3 p. 259}، اور آخر میں کہا کہ اگر وصیت یاد رکھی تو کوئی غائب چیز موت سے زیادہ پیاری نہ ہو {cite:kamil-ibn-al-athir scan vol. 1 p. 268}۔ ابن الاثیر اسی بیماری میں مثنیٰ اور اہلِ عراق کے بارے میں ایک اور وصیت بھی نقل کرتے ہیں {cite:kamil-ibn-al-athir scan vol. 1 p. 260}۔"
+wings: [time]
+periods: [period/rashidun]
+relations:
+  - { type: had_participant, target: person/abu-bakr, role: "الموصي", sources: [source/kamil-ibn-al-athir, source/sifat-al-safwa-tartusi-2012] }
+  - { type: had_participant, target: person/umar-ibn-al-khattab, role: "الموصى", sources: [source/kamil-ibn-al-athir, source/sifat-al-safwa-tartusi-2012] }
+  - { type: occurred_at, target: place/medina, sources: [source/kamil-ibn-al-athir] }
+  - { type: part_of, target: event/testament-of-abu-bakr-designating-umar, sources: [source/kamil-ibn-al-athir] }
+  - { type: mentions, target: event/death-of-abu-bakr, sources: [source/kamil-ibn-al-athir] }
+sources: [source/kamil-ibn-al-athir, source/sifat-al-safwa-tartusi-2012, source/riyad-nadira-ilmiyya-1984]
+provenance: { layer: own-research, source: "kamil-ibn-al-athir scan vol. 1 pp. 260, 267-268; sifat-al-safwa-tartusi-2012 scan vol. 1 p. 102; riyad-nadira-ilmiyya-1984 scan vol. 3 pp. 259-260; page numbers are scan pages", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "wasaya-browser-1" }
+status: { review: draft, completeness: 2, generated_by: "Claude (claude-sonnet-5-5); wasaya-browser-1" }

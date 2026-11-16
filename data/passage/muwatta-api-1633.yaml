@@ -1,0 +1,16 @@
+id: passage/muwatta-api-1633
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "1633"
+label: { ar: "موطأ مالك 1633 — وصية أو عهد أخير", en: "Muwatta Malik 1633 — a testament or parting counsel", ur: "موطأ مالک 1633 — وصیت یا آخری نصیحت" }
+text: "وَحَدَّثَنِي عَنْ مَالِكٍ، أَنَّ مُعَاذَ بْنَ جَبَلٍ، قَالَ آخِرُ مَا أَوْصَانِي بِهِ رَسُولُ اللَّهِ حِينَ وَضَعْتُ رِجْلِي فِي الْغَرْزِ أَنْ قَالَ \" أَحْسِنْ خُلُقَكَ لِلنَّاسِ يَا مُعَاذُ بْنَ جَبَلٍ \"."
+summary:
+  ar: "حديث في موطأ مالك، رقم 1633، يذكر وصية أو عهد أخير. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Muwatta Malik, no. 1633 (Good Character), that mentions a testament or parting counsel. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
+  ur: "موطأ مالک کی حدیث نمبر 1633، جس میں وصیت یا آخری نصیحت کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-wasiyya, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 1633 (book 47 hadith 1); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }
+sources: [source/muwatta-malik, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

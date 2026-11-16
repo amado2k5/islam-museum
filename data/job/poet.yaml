@@ -1,0 +1,42 @@
+id: job/poet
+class: job
+label: { ar: "الشاعر", en: "Poet (sha'ir)", ur: "شاعر" }
+names:
+  - { value: "şair", kind: latinized, lang: tr }
+  - { value: "شعراء", kind: alternate }
+  - { value: "فحول الشعراء", kind: alternate }
+  - { value: "nazim", kind: alternate, lang: tr }
+summary:
+  ar: "الشاعر من عبّر عن علمه وحدسه وعواطفه بكلام موزون محكم، وكانت له عند العرب قبل الإسلام منزلة ناطق القبيلة والمدافع عنها حتى صار من قال الشعر في القبيلة سيداً مأمولاً. رتّب اللغويون الشعراء طبقات منذ ابن سلام الجمحي، وكان شعراء الجاهلية يتسابقون في الأسواق الموسمية أمام حُكّام من الشعراء، ويذكر المدخل أن رواة كل شاعر كانوا يحفظون شعره ويبلّغونه، وأن كثيراً من الشعراء تتلمذوا على يد من سبقهم من الشعراء الكبار. وفي العصر العثماني قام الشاعر في بلاط السلاطين وأروقة الصوفية حتى صارت الصنعة في العصر الحديث صاحبة كراسي الأدب ومجالسها."
+  en: "The sha'ir is the one who voices knowledge, intuition and emotion in measured, harmonious speech; in pre-Islamic Arabia the poet stood as his tribe's spokesman and champion, a position that could earn him the title sayyid, and a tribe without a poet was counted worthless. The philologists ranked poets in generations from Ibn Sallam al-Jumahi onward; the Jahiliyya poets competed at the seasonal fairs before poet-arbiters, while each poet's râvîs memorised and carried his verse, and many later poets were formed at the hand of the masters before them. In the Ottoman world the poet stood at the sultans' courts and in the Sufi lodges, and in modern times the office continues in the chairs and circles of literature."
+  ur: "شاعر وہ ہے جو اپنے علم، وجدان اور احساس کو مزون اور محکم کلام میں ظاہر کرے؛ جاہلی عرب میں شاعر اپنی قوم کا ترجمان اور محافظ تھا اور یہ منصب اسے سید کا لقب بھی دلوا سکتا تھا، جس قوم کا شاعر نہ ہو وہ بے وقار سمجھی جاتی۔ ماہرین لغت نے ابن سلام الجمحی سے شاعروں کو طبقات میں بانٹا؛ جاہلی شاعر سالانہ میلوں میں شاعر حکام کے سامنے مقابلہ کرتے، ہر شاعر کے راوی اس کی شاعری یاد کر کے منتقل کرتے، اور بہت سے شاعر بزرگ اساتذہ کے ہاتھوں تربیت پاتے۔ عثمانی دنیا میں شاعر سلاطین کے دربار اور خانقاہوں میں موجود رہا اور عصر حاضر میں یہ پیشہ ادب کی نشستوں اور مجلسوں میں جاری ہے۔"
+domain: arts-letters
+kind: artistic
+hirfa: false
+era:
+  origins: pre-islamic
+  status_today: living
+places:
+  - { place: place/ukaz, note: "At the seasonal fairs of Arabia the poets competed before arbiters who were themselves poets; the tradition names the seven Mu'allaqat poets — Imru' al-Qays, Tarafa, al-Harith ibn Hilliza, Amr ibn Kulthum, Zuhayr ibn Abi Sulma, Antara and Labid — among those chosen in these contests.", sources: [source/tdv-sair] }
+  - { place: place/baghdad, note: "In the long Abbasid period the poets were classified by how far their verse could serve as linguistic proof: the muwallad (non-pure Arab), the muhdath (modern) and the muta'akhkhir (late) categories, with Bashshar ibn Burd reckoned the first of the muhdath poets.", sources: [source/tdv-sair] }
+  - { place: place/istanbul, note: "The Ottoman sections treat the poet's place at the sultans' courts and in the divan tradition, where the nazire (imitation) custom formed young poets by modelling them on the masters.", sources: [source/tdv-sair, source/tdv-siir] }
+regions: [arabia, levant-iraq, egypt-nile, maghreb, andalus-europe, persia-central-asia, anatolia-balkans, south-asia, global]
+organization:
+  organized: informal
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people]
+periods: [period/pre-islamic-arabia, period/prophetic-era, period/rashidun, period/umayyad, period/abbasid-early, period/abbasid-fragmentation, period/buyid-seljuk-fatimid-era, period/crusades-ayyubid-mamluk, period/mongol-post-mongol, period/gunpowder-empires, period/modern-era, period/contemporary-era]
+sources: [source/tdv-sair, source/tdv-siir]
+training:
+  mode: apprenticeship
+  certification: "No diploma; a poet was made by memorising and transmitting the poetry of the ancients — the entry notes that many poets grew through the râvî experience of keeping and reciting older verse, and by long service at the side of a master poet; in the divan tradition the nazire custom of writing in imitation of an acknowledged master continued the same master-apprentice formation."
+  duration: "Long formation beside a master and inside the tradition; the ŞİİR entry describes the rawi-school of the ancient Arabs as an usta-çırak (master-apprentice) method in which each poet's own râvîs memorised and transmitted his verse."
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-arts-1" }
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi, 'ŞAİR' (Karaarslan; Kırlangıç; Pala, 2010) and 'ŞİİR' (Örs; Okay & Kahraman; Kanar; Kurtuluş; Durmuş, 2010), web editions read on 16 Nov 2026"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-arts-1-drafting"

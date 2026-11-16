@@ -359,7 +359,7 @@ books:
     physical: {pages: 10758}
     ocr: {state: partial, date: '2026-10-14', failed_pages: 8992, unzipped_location: books/adab-zuhd/ihya-ulum-din/}
     ocr_archive: {state: none}
-    mining: {state: in_progress, entities: '30 data files cite source/ihya-shamela-dar-al-marifa,ihya-dar-al-marifa-1982-v3,ihya-kitab-al-shab-pts13-16'}
+    mining: {state: in_progress, entities: '30 data files cite source/ihya-shamela-dar-al-marifa,ihya-dar-al-marifa-1982-v3,ihya-kitab-al-shab-pts13-16; 29 passages mined for the wasaya browser (scripts/harvest-wasaya-ocr.ts)'}
     ingestion: {state: partial, prs: [3427, 3428], ledger: [docs/delegation/library/ihya-ulum-din.md], graph_ids: [source/ihya-shamela-dar-al-marifa, source/ihya-dar-al-marifa-1982-v3, source/ihya-kitab-al-shab-pts13-16, source/ihya-tabana-v4]}
     completion: mining
     unverified:
@@ -829,7 +829,7 @@ books:
     physical: {pages: 1578}
     ocr: {state: complete, date: '2026-10-14', unzipped_location: books/adab-zuhd/zuhd-ahmad/}
     ocr_archive: {state: none}
-    mining: {state: in_progress, entities: '17 data files cite source/zuhd-ahmad-dkim-1983,zuhd-ahmad-juz13-rayahin-2026'}
+    mining: {state: in_progress, entities: '17 data files cite source/zuhd-ahmad-dkim-1983,zuhd-ahmad-juz13-rayahin-2026; 29 passages mined for the wasaya browser (scripts/harvest-wasaya-ocr.ts)'}
     ingestion: {state: partial, prs: [3434], ledger: [docs/delegation/library/zuhd-ahmad.md], graph_ids: [source/zuhd-ahmad-dkim-1983, source/zuhd-ahmad-juz13-rayahin-2026]}
     completion: mining
     unverified:
@@ -856,7 +856,7 @@ books:
     physical: {pages: 2644}
     ocr: {state: partial, date: '2026-10-14', failed_pages: 235, unzipped_location: books/adab-zuhd/zuhd-ibn-mubarak/}
     ocr_archive: {state: none}
-    mining: {state: in_progress, entities: '23 data files cite source/zuhd-ibn-mubarak-azami-scan,zuhd-ibn-mubarak-farid-1995-v1,zuhd-ibn-mubarak-murshid-2022-v2'}
+    mining: {state: in_progress, entities: '23 data files cite source/zuhd-ibn-mubarak-azami-scan,zuhd-ibn-mubarak-farid-1995-v1,zuhd-ibn-mubarak-murshid-2022-v2; 20 passages mined for the wasaya browser (scripts/harvest-wasaya-ocr.ts)'}
     ingestion: {state: partial, prs: [3434], ledger: [docs/delegation/library/zuhd-ibn-mubarak.md], graph_ids: [source/zuhd-ibn-mubarak-azami-scan, source/zuhd-ibn-mubarak-farid-1995-v1, source/zuhd-ibn-mubarak-murshid-2022-v2, source/zuhd-ibn-mubarak-shamela]}
     completion: mining
     unverified:
@@ -7361,7 +7361,7 @@ books:
     physical: {pages: 2878}
     ocr: {state: complete, date: '2026-10-14', unzipped_location: books/fiqh/bidayat-mujtahid/}
     ocr_archive: {state: none}
-    mining: {state: in_progress, entities: '30 data files cite source/bidaya-hallaq-v1,bidaya-abbadi-dar-al-salam-v3,bidaya-bakri-bayt-al-afkar'}
+    mining: {state: in_progress, entities: '30 data files cite source/bidaya-hallaq-v1,bidaya-abbadi-dar-al-salam-v3,bidaya-bakri-bayt-al-afkar; 10 passages mined for the wasaya browser (scripts/harvest-wasaya-ocr.ts)'}
     ingestion: {state: partial, prs: [3459], ledger: [docs/delegation/library/bidayat-mujtahid.md], graph_ids: [source/bidaya-hallaq-v1, source/bidaya-abbadi-dar-al-salam-v3, source/bidaya-bakri-bayt-al-afkar, source/bidaya-ibn-wanis-v4]}
     completion: mining
     unverified:
@@ -7493,7 +7493,7 @@ books:
     physical: {pages: 2005}
     ocr: {state: partial, date: '2026-10-14', failed_pages: 725, unzipped_location: books/fiqh/fiqh-sunna/}
     ocr_archive: {state: none}
-    mining: {state: none}
+    mining: {state: none, entities: '9 passages mined for the wasaya browser (scripts/harvest-wasaya-ocr.ts)'}
     ingestion: {state: none}
     completion: downloaded
     unverified:
@@ -7737,7 +7737,7 @@ books:
     physical: {pages: 8209}
     ocr: {state: partial, date: '2026-10-14', failed_pages: 1, unzipped_location: books/fiqh/mughni-ibn-qudama/}
     ocr_archive: {state: none}
-    mining: {state: in_progress, entities: 22 data files cite source/mughni-ibn-qudama}
+    mining: {state: in_progress, entities: '22 data files cite source/mughni-ibn-qudama; 20 passages mined for the wasaya browser (scripts/harvest-wasaya-ocr.ts)'}
     ingestion: {state: partial, prs: [5642], ledger: [docs/delegation/library/mughni-ibn-qudama.md, docs/delegation/lane-ledgers/microsd-books.md], graph_ids: [source/mughni-ibn-qudama]}
     completion: mining
     unverified:
@@ -10076,7 +10076,7 @@ books:
     physical: {pages: 2499}
     ocr: {state: complete, date: '2026-10-14', unzipped_location: books/hadith/fath-bari/}
     ocr_archive: {state: none}
-    mining: {state: in_progress, entities: '25 passages mined for the qiraat browser (scripts/harvest-qiraat-ocr.ts)'}
+    mining: {state: in_progress, entities: '25 passages mined for the qiraat browser (scripts/harvest-qiraat-ocr.ts); 29 passages mined for the wasaya browser (scripts/harvest-wasaya-ocr.ts)'}
     ingestion: {state: none, ledger: [docs/delegation/lane-ledgers/microsd-books.md]}
     completion: mining
     unverified:
@@ -10247,7 +10247,7 @@ books:
     physical: {pages: 3436}
     ocr: {state: partial, date: '2026-10-13', failed_pages: 399, unzipped_location: books/hadith/jami-tirmidhi/}
     ocr_archive: {state: none}
-    mining: {state: in_progress, entities: '436 data files cite source/jami-al-tirmidhi; 20 passages mined for the qiraat browser (scripts/harvest-qiraat-ocr.ts)'}
+    mining: {state: in_progress, entities: '436 data files cite source/jami-al-tirmidhi; 20 passages mined for the qiraat browser (scripts/harvest-qiraat-ocr.ts); 15 passages mined for the wasaya browser (scripts/harvest-wasaya-ocr.ts)'}
     ingestion: {state: partial, prs: [7, 5642], ledger: [docs/delegation/library/jami-tirmidhi.md, docs/delegation/lane-ledgers/microsd-books.md], graph_ids: [source/jami-al-tirmidhi]}
     completion: mining
     unverified:
@@ -10303,7 +10303,7 @@ books:
     physical: {pages: 1047}
     ocr: {state: partial, date: '2026-10-12', failed_pages: 91, unzipped_location: books/hadith/jami-ulum-hikam/}
     ocr_archive: {state: none}
-    mining: {state: mined, entities: 139 data files cite source/ibn-rajab-jami-ulum-hikam}
+    mining: {state: mined, entities: '139 data files cite source/ibn-rajab-jami-ulum-hikam; 15 passages mined for the wasaya browser (scripts/harvest-wasaya-ocr.ts)'}
     ingestion: {state: ingested, prs: [1554, 5975, 6022, 6036, 6063], ledger: [docs/delegation/library/jami-ulum-hikam.md], graph_ids: [source/ibn-rajab-jami-ulum-hikam, work/jami-ulum-hikam]}
     completion: ingested
     unverified:
@@ -10593,7 +10593,7 @@ books:
     physical: {pages: 8017}
     ocr: {state: complete, date: '2026-10-13', unzipped_location: books/hadith/musannaf-abd-al-razzaq/}
     ocr_archive: {state: none}
-    mining: {state: in_progress, entities: '21 data files cite source/musannaf-abd-al-razzaq; 40 passages mined for the qiraat browser (scripts/harvest-qiraat-ocr.ts)'}
+    mining: {state: in_progress, entities: '21 data files cite source/musannaf-abd-al-razzaq; 40 passages mined for the qiraat browser (scripts/harvest-qiraat-ocr.ts); 30 passages mined for the wasaya browser (scripts/harvest-wasaya-ocr.ts)'}
     ingestion: {state: partial, graph_ids: [source/musannaf-abd-al-razzaq]}
     completion: mining
     unverified:
@@ -10618,7 +10618,7 @@ books:
     physical: {pages: 11683}
     ocr: {state: complete, date: '2026-10-13', unzipped_location: books/hadith/musannaf-ibn-abi-shayba/}
     ocr_archive: {state: none}
-    mining: {state: in_progress, entities: '40 passages mined for the qiraat browser (scripts/harvest-qiraat-ocr.ts)'}
+    mining: {state: in_progress, entities: '40 passages mined for the qiraat browser (scripts/harvest-qiraat-ocr.ts); 30 passages mined for the wasaya browser (scripts/harvest-wasaya-ocr.ts)'}
     ingestion: {state: none}
     completion: ocr_done
     unverified:
@@ -13528,7 +13528,7 @@ books:
     physical: {pages: 2984}
     ocr: {state: complete, date: '2026-10-12', unzipped_location: books/sahaba/hayat-sahaba/}
     ocr_archive: {state: none}
-    mining: {state: in_progress, entities: '15 passages mined for the qiraat browser (scripts/harvest-qiraat-ocr.ts)'}
+    mining: {state: in_progress, entities: '15 passages mined for the qiraat browser (scripts/harvest-qiraat-ocr.ts); 37 passages mined for the wasaya browser (scripts/harvest-wasaya-ocr.ts)'}
     ingestion: {state: none, ledger: [docs/delegation/lane-ledgers/microsd-books.md]}
     work_registry: 'harvest (medical passages, 40-word excerpts, for the Medicine Browser): done 2026-11-14 (merged PR 6620) (claude-fable-5-2 / tibb-browser)'
     completion: mining
@@ -13566,7 +13566,7 @@ books:
     physical: {pages: 3593}
     ocr: {state: complete, date: '2026-11-04', unzipped_location: books/sahaba/hilyat-awliya/}
     ocr_archive: {state: none}
-    mining: {state: in_progress, held: [{pages: 'printed 532, 546 and 666', reason: held for the founder per the hilyat-awliya ledger (dec-20261114-277)}], entities: '182 data files cite source/hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988; 25 passages mined for the qiraat browser (scripts/harvest-qiraat-ocr.ts)'}
+    mining: {state: in_progress, held: [{pages: 'printed 532, 546 and 666', reason: held for the founder per the hilyat-awliya ledger (dec-20261114-277)}], entities: '182 data files cite source/hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988; 25 passages mined for the qiraat browser (scripts/harvest-qiraat-ocr.ts); 60 passages mined for the wasaya browser (scripts/harvest-wasaya-ocr.ts)'}
     ingestion: {state: partial, prs: [3463, 5722, 5744, 6119, 6120, 6122, 6124, 6125, 6127, 6128, 6130, 6135, 6137, 6140, 6145, 6150, 6156, 6161, 6167, 6186, 6190, 6196, 6201, 6204, 6206, 6207, 6210, 6213, 6221, 6225, 6232, 6239, 6246, 6253, 6259, 6261, 6265, 6267, 6269, 6272], ledger: [docs/delegation/library/hilyat-awliya.md, docs/delegation/lane-ledgers/microsd-books.md], graph_ids: [source/hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988], prs_total: 86}
     work_registry: 'harvest (entities + ar/en/ur prose from existing OCR; no new OCR): active (claude-fable-5-2 / microsd-books); harvest (medical passages, 40-word excerpts, for the Medicine Browser): done 2026-11-14 (merged PR 6620) (claude-fable-5-2 / tibb-browser)'
     completion: mining
@@ -13595,7 +13595,7 @@ books:
     physical: {pages: 5134}
     ocr: {state: complete, date: '2026-10-12', unzipped_location: books/sahaba/isaba/}
     ocr_archive: {state: none}
-    mining: {state: in_progress, entities: '462 data files cite source/isaba,ibn-hajar-isaba; 20 passages mined for the qiraat browser (scripts/harvest-qiraat-ocr.ts)'}
+    mining: {state: in_progress, entities: '462 data files cite source/isaba,ibn-hajar-isaba; 20 passages mined for the qiraat browser (scripts/harvest-qiraat-ocr.ts); 39 passages mined for the wasaya browser (scripts/harvest-wasaya-ocr.ts)'}
     ingestion: {state: partial, prs: [1424, 1454, 3446, 3469, 3473, 3487, 3492, 3495, 3499, 3501, 5642, 5817, 5818, 5824, 5830, 5833], ledger: [docs/delegation/library/isaba.md, docs/delegation/lane-ledgers/microsd-books.md], graph_ids: [source/isaba, source/ibn-hajar-isaba]}
     completion: mining
     unverified:
@@ -13627,7 +13627,7 @@ books:
     physical: {pages: 4033}
     ocr: {state: complete, date: '2026-10-11', unzipped_location: books/sahaba/isti-ab/}
     ocr_archive: {state: none}
-    mining: {state: in_progress, entities: '109 data files cite source/istiab-alam-2002,istiab-turki-2019-v1,isti-ab-ibn-abd-al-barr; 18 passages mined for the qiraat browser (scripts/harvest-qiraat-ocr.ts)'}
+    mining: {state: in_progress, entities: '109 data files cite source/istiab-alam-2002,istiab-turki-2019-v1,isti-ab-ibn-abd-al-barr; 18 passages mined for the qiraat browser (scripts/harvest-qiraat-ocr.ts); 39 passages mined for the wasaya browser (scripts/harvest-wasaya-ocr.ts)'}
     ingestion: {state: partial, prs: [3470, 5833, 5836], ledger: [docs/delegation/library/isti-ab.md], graph_ids: [source/istiab-alam-2002, source/istiab-turki-2019-v1, source/isti-ab-ibn-abd-al-barr]}
     work_registry: 'harvest (medical passages, 40-word excerpts, for the Medicine Browser): done 2026-11-14 (merged PR 6620) (claude-fable-5-2 / tibb-browser)'
     completion: mining
@@ -13773,7 +13773,7 @@ books:
     physical: {pages: 2381}
     ocr: {state: complete, date: '2026-10-12', unzipped_location: books/sahaba/safwat-safwa/}
     ocr_archive: {state: none}
-    mining: {state: in_progress, entities: '69 data files cite source/sifat-al-safwa-tartusi-2012; 19 passages mined for the qiraat browser (scripts/harvest-qiraat-ocr.ts)'}
+    mining: {state: in_progress, entities: '69 data files cite source/sifat-al-safwa-tartusi-2012; 19 passages mined for the qiraat browser (scripts/harvest-qiraat-ocr.ts); 48 passages mined for the wasaya browser (scripts/harvest-wasaya-ocr.ts)'}
     ingestion: {state: partial, prs: [3431, 3466, 3470], ledger: [docs/delegation/library/safwat-safwa.md], graph_ids: [source/sifat-al-safwa-tartusi-2012]}
     work_registry: 'harvest (medical passages, 40-word excerpts, for the Medicine Browser): done 2026-11-14 (merged PR 6620) (claude-fable-5-2 / tibb-browser)'
     completion: mining
@@ -13890,7 +13890,7 @@ books:
     physical: {pages: 5888}
     ocr: {state: complete, date: '2026-10-12', unzipped_location: books/sahaba/usd-ghaba/}
     ocr_archive: {state: none}
-    mining: {state: in_progress, entities: '8 data files cite source/usd-ghaba; 20 passages mined for the qiraat browser (scripts/harvest-qiraat-ocr.ts)'}
+    mining: {state: in_progress, entities: '8 data files cite source/usd-ghaba; 20 passages mined for the qiraat browser (scripts/harvest-qiraat-ocr.ts); 38 passages mined for the wasaya browser (scripts/harvest-wasaya-ocr.ts)'}
     ingestion: {state: partial, prs: [5642], ledger: [docs/delegation/library/usd-ghaba.md, docs/delegation/lane-ledgers/microsd-books.md], graph_ids: [source/usd-ghaba]}
     work_registry: 'harvest (medical passages, 40-word excerpts, for the Medicine Browser): done 2026-11-14 (merged PR 6620) (claude-fable-5-2 / tibb-browser)'
     completion: mining
@@ -14088,7 +14088,7 @@ books:
     physical: {pages: 1629}
     ocr: {state: complete, date: '2026-10-14', unzipped_location: books/seerah/dalail-nubuwwa-abu-nuaym/}
     ocr_archive: {state: none}
-    mining: {state: in_progress}
+    mining: {state: in_progress, entities: '15 passages mined for the wasaya browser (scripts/harvest-wasaya-ocr.ts)'}
     ingestion: {state: none, ledger: [docs/delegation/lane-ledgers/microsd-books.md]}
     completion: mining
     unverified:
@@ -14115,7 +14115,7 @@ books:
     physical: {pages: 5150}
     ocr: {state: complete, date: '2026-10-14', unzipped_location: books/seerah/dalail-nubuwwa-bayhaqi/}
     ocr_archive: {state: none}
-    mining: {state: in_progress, entities: '20 passages mined for the qiraat browser (scripts/harvest-qiraat-ocr.ts)'}
+    mining: {state: in_progress, entities: '20 passages mined for the qiraat browser (scripts/harvest-qiraat-ocr.ts); 29 passages mined for the wasaya browser (scripts/harvest-wasaya-ocr.ts)'}
     ingestion: {state: none}
     completion: ocr_done
     unverified:
@@ -14192,7 +14192,7 @@ books:
     physical: {pages: 2764}
     ocr: {state: complete, date: '2026-10-14', unzipped_location: books/seerah/maghazi-waqidi/}
     ocr_archive: {state: none}
-    mining: {state: in_progress, entities: '1 passages mined for the qiraat browser (scripts/harvest-qiraat-ocr.ts)'}
+    mining: {state: in_progress, entities: '1 passages mined for the qiraat browser (scripts/harvest-qiraat-ocr.ts); 21 passages mined for the wasaya browser (scripts/harvest-wasaya-ocr.ts)'}
     ingestion: {state: none, prs: [6005, 6011, 6016], ledger: [docs/delegation/library/maghazi-waqidi.md, docs/delegation/lane-ledgers/microsd-books.md]}
     completion: mining
     unverified:
@@ -14303,7 +14303,7 @@ books:
     physical: {pages: 773}
     ocr: {state: complete, date: '2026-11-04', unzipped_location: books/seerah/qisas-anbiya-ibn-kathir/}
     ocr_archive: {state: none}
-    mining: {state: in_progress, entities: 13 data files cite source/qisas-al-anbiya-ibn-kathir-farmawi-1997}
+    mining: {state: in_progress, entities: '13 data files cite source/qisas-al-anbiya-ibn-kathir-farmawi-1997; 36 passages mined for the wasaya browser (scripts/harvest-wasaya-ocr.ts)'}
     ingestion: {state: partial, prs: [3470], ledger: [docs/delegation/library/qisas-anbiya-ibn-kathir.md], graph_ids: [source/qisas-al-anbiya-ibn-kathir-farmawi-1997]}
     completion: mining
     unverified:
@@ -14406,7 +14406,7 @@ books:
     physical: {pages: 1450}
     ocr: {state: partial, date: '2026-10-14', failed_pages: 535, unzipped_location: books/seerah/rawd-unuf/}
     ocr_archive: {state: none}
-    mining: {state: in_progress, entities: '12 data files cite source/rawd-unuf-wakil-v6,al-rawd-al-unf; 2 passages mined for the qiraat browser (scripts/harvest-qiraat-ocr.ts)'}
+    mining: {state: in_progress, entities: '12 data files cite source/rawd-unuf-wakil-v6,al-rawd-al-unf; 2 passages mined for the qiraat browser (scripts/harvest-qiraat-ocr.ts); 16 passages mined for the wasaya browser (scripts/harvest-wasaya-ocr.ts)'}
     ingestion: {state: partial, prs: [3470], ledger: [docs/delegation/library/rawd-unuf.md], graph_ids: [source/rawd-unuf-wakil-v6, source/al-rawd-al-unf]}
     completion: mining
     unverified:
@@ -14482,7 +14482,7 @@ books:
     physical: {pages: 726}
     ocr: {state: partial, engine: apple-vision, date: '2026-10-31', failed_pages: 2, unzipped_location: books/seerah/sira-ibn-hisham/}
     ocr_archive: {state: none}
-    mining: {state: in_progress, entities: '4 passages mined for the qiraat browser (scripts/harvest-qiraat-ocr.ts)'}
+    mining: {state: in_progress, entities: '4 passages mined for the qiraat browser (scripts/harvest-qiraat-ocr.ts); 37 passages mined for the wasaya browser (scripts/harvest-wasaya-ocr.ts)'}
     ingestion: {state: none}
     work_registry: 'ocr: done 2026-10-31 (claude-opus-5-5 / islamic-history-books-ocr-353be5)'
     completion: downloaded
@@ -14616,7 +14616,7 @@ books:
     physical: {pages: 10523}
     ocr: {state: complete, date: '2026-10-14', unzipped_location: books/seerah/subul-huda/}
     ocr_archive: {state: none}
-    mining: {state: in_progress, entities: '25 passages mined for the qiraat browser (scripts/harvest-qiraat-ocr.ts)'}
+    mining: {state: in_progress, entities: '25 passages mined for the qiraat browser (scripts/harvest-qiraat-ocr.ts); 38 passages mined for the wasaya browser (scripts/harvest-wasaya-ocr.ts)'}
     ingestion: {state: none, ledger: [docs/delegation/lane-ledgers/microsd-books.md]}
     completion: mining
     unverified:
@@ -14671,7 +14671,7 @@ books:
     physical: {pages: 3786}
     ocr: {state: complete, date: '2026-10-14', unzipped_location: books/seerah/zad-maad/}
     ocr_archive: {state: none}
-    mining: {state: in_progress, entities: '16 passages mined for the qiraat browser (scripts/harvest-qiraat-ocr.ts)'}
+    mining: {state: in_progress, entities: '16 passages mined for the qiraat browser (scripts/harvest-qiraat-ocr.ts); 18 passages mined for the wasaya browser (scripts/harvest-wasaya-ocr.ts)'}
     ingestion: {state: none}
     work_registry: 'harvest (medical passages, 40-word excerpts, for the Medicine Browser): done 2026-11-14 (merged PR 6620) (claude-fable-5-2 / tibb-browser)'
     completion: ocr_done
@@ -15147,7 +15147,7 @@ books:
     physical: {pages: 220}
     ocr: {state: complete, date: '2026-10-12', unzipped_location: books/tabaqat/tabaqat-ibn-saad/}
     ocr_archive: {state: none}
-    mining: {state: in_progress, entities: '2 passages mined for the qiraat browser (scripts/harvest-qiraat-ocr.ts)'}
+    mining: {state: in_progress, entities: '2 passages mined for the qiraat browser (scripts/harvest-qiraat-ocr.ts); 9 passages mined for the wasaya browser (scripts/harvest-wasaya-ocr.ts)'}
     ingestion: {state: none, ledger: [docs/delegation/library/tabaqat-ibn-saad.md]}
     work_registry: 'harvest (medical passages, 40-word excerpts, for the Medicine Browser): done 2026-11-14 (merged PR 6620) (claude-fable-5-2 / tibb-browser)'
     completion: mining
@@ -15469,7 +15469,7 @@ books:
     physical: {pages: 7372}
     ocr: {state: complete, date: '2026-10-14', unzipped_location: books/tafsir/tafsir-ibn-kathir/}
     ocr_archive: {state: none}
-    mining: {state: in_progress, entities: '210 data files cite source/tafsir-ibn-kathir,tafsir-tabari-shakir-v01; 15 passages mined for the qiraat browser (scripts/harvest-qiraat-ocr.ts)'}
+    mining: {state: in_progress, entities: '210 data files cite source/tafsir-ibn-kathir,tafsir-tabari-shakir-v01; 15 passages mined for the qiraat browser (scripts/harvest-qiraat-ocr.ts); 19 passages mined for the wasaya browser (scripts/harvest-wasaya-ocr.ts)'}
     ingestion: {state: partial, prs: [3194, 3486, 5535, 5553, 5554, 5555, 5556, 5558, 5559, 5560, 5562, 5563, 5564, 5565, 5566, 5567, 5569, 5571, 5572, 5573, 5574, 5575, 5576, 5577, 5578, 5579, 5580, 5582, 5583, 5585, 5586, 5587, 5588, 5589, 5590, 5591, 5592, 5593, 5594, 5596], ledger: [docs/delegation/library/tafsir-tabari-shakir.md], graph_ids: [source/tafsir-ibn-kathir, source/tafsir-tabari-shakir-v01, work/tafsir-ibn-kathir], prs_total: 52}
     completion: mining
     unverified:
@@ -15908,7 +15908,7 @@ books:
     physical: {pages: 10813}
     ocr: {state: complete, date: '2026-10-14', unzipped_location: books/tafsir/tafsir-qurtubi/}
     ocr_archive: {state: none}
-    mining: {state: in_progress, entities: '25 data files cite source/jami-ahkam-quran-resala-v1; 15 passages mined for the qiraat browser (scripts/harvest-qiraat-ocr.ts)'}
+    mining: {state: in_progress, entities: '25 data files cite source/jami-ahkam-quran-resala-v1; 15 passages mined for the qiraat browser (scripts/harvest-qiraat-ocr.ts); 20 passages mined for the wasaya browser (scripts/harvest-wasaya-ocr.ts)'}
     ingestion: {state: partial, prs: [3434, 3466], ledger: [docs/delegation/library/tafsir-qurtubi.md], graph_ids: [source/jami-ahkam-quran-resala-v1]}
     completion: mining
     unverified:
@@ -16275,7 +16275,7 @@ books:
     physical: {pages: 2139}
     ocr: {state: complete, date: '2026-10-13', unzipped_location: books/tareekh/ansab-ashraf/}
     ocr_archive: {state: none}
-    mining: {state: in_progress}
+    mining: {state: in_progress, entities: '40 passages mined for the wasaya browser (scripts/harvest-wasaya-ocr.ts)'}
     ingestion: {state: none, ledger: [docs/delegation/library/ansab-al-ashraf.md]}
     completion: mining
     unverified:
@@ -16331,7 +16331,7 @@ books:
     physical: {pages: 4576}
     ocr: {state: complete, date: '2026-10-22', unzipped_location: books/tareekh/bidaya-nihaya/}
     ocr_archive: {state: none}
-    mining: {state: in_progress, entities: '25 passages mined for the qiraat browser (scripts/harvest-qiraat-ocr.ts)'}
+    mining: {state: in_progress, entities: '25 passages mined for the qiraat browser (scripts/harvest-qiraat-ocr.ts); 50 passages mined for the wasaya browser (scripts/harvest-wasaya-ocr.ts)'}
     ingestion: {state: none, ledger: [docs/delegation/lane-ledgers/microsd-books.md]}
     completion: mining
     unverified:
@@ -16637,7 +16637,7 @@ books:
     physical: {pages: 2415}
     ocr: {state: complete, date: '2026-10-13', unzipped_location: books/tareekh/kamil-tarikh/}
     ocr_archive: {state: none}
-    mining: {state: mined}
+    mining: {state: mined, entities: '39 passages mined for the wasaya browser (scripts/harvest-wasaya-ocr.ts)'}
     ingestion: {state: none, ledger: [docs/delegation/library/kamil-ibn-al-athir.md]}
     completion: mined
     unverified:
@@ -16771,7 +16771,7 @@ books:
     physical: {pages: 2414}
     ocr: {state: complete, date: '2026-10-13', unzipped_location: books/tareekh/muntazam/}
     ocr_archive: {state: none}
-    mining: {state: in_progress}
+    mining: {state: in_progress, entities: '40 passages mined for the wasaya browser (scripts/harvest-wasaya-ocr.ts)'}
     ingestion: {state: none, prs: [3327, 3329, 3330, 3333, 3450, 3451, 3488, 3491, 3502, 3504, 3507], ledger: [docs/delegation/library/muntazam-ibn-al-jawzi.md, docs/delegation/lane-ledgers/microsd-books.md]}
     completion: mining
     unverified:
@@ -17187,7 +17187,7 @@ books:
     physical: {pages: 2534}
     ocr: {state: complete, date: '2026-10-13', unzipped_location: books/tareekh/tarikh-baghdad/}
     ocr_archive: {state: none}
-    mining: {state: in_progress, entities: '34 data files cite source/tarikh-baghdad-khatib; 25 passages mined for the qiraat browser (scripts/harvest-qiraat-ocr.ts)'}
+    mining: {state: in_progress, entities: '34 data files cite source/tarikh-baghdad-khatib; 25 passages mined for the qiraat browser (scripts/harvest-qiraat-ocr.ts); 28 passages mined for the wasaya browser (scripts/harvest-wasaya-ocr.ts)'}
     ingestion: {state: partial, ledger: [docs/delegation/library/tarikh-baghdad.md], graph_ids: [source/tarikh-baghdad-khatib]}
     completion: mining
     unverified:
@@ -17218,7 +17218,7 @@ books:
     physical: {pages: 1960}
     ocr: {state: complete, date: '2026-10-13', unzipped_location: books/tareekh/tarikh-dimashq/}
     ocr_archive: {state: none}
-    mining: {state: in_progress, entities: '19 data files cite source/tarikh-dimashq-amrawi-v5; 20 passages mined for the qiraat browser (scripts/harvest-qiraat-ocr.ts)'}
+    mining: {state: in_progress, entities: '19 data files cite source/tarikh-dimashq-amrawi-v5; 20 passages mined for the qiraat browser (scripts/harvest-qiraat-ocr.ts); 30 passages mined for the wasaya browser (scripts/harvest-wasaya-ocr.ts)'}
     ingestion: {state: partial, prs: [337, 3438, 3466, 3470], ledger: [docs/delegation/library/tarikh-dimashq.md], graph_ids: [source/tarikh-dimashq-amrawi-v5, work/tarikh-dimashq]}
     completion: mining
     unverified:
@@ -17327,7 +17327,7 @@ books:
     physical: {pages: 31540}
     ocr: {state: partial, engine: apple-vision, date: '2026-11-01', failed_pages: 240, unzipped_location: books/tareekh/tarikh-islam-dhahabi/}
     ocr_archive: {state: none}
-    mining: {state: in_progress, entities: '270 data files cite source/tarikh-islam-dhahabi,dhayl-tarikh-islam-bawazir,durar-kamina-jil-1993; 25 passages mined for the qiraat browser (scripts/harvest-qiraat-ocr.ts)'}
+    mining: {state: in_progress, entities: '270 data files cite source/tarikh-islam-dhahabi,dhayl-tarikh-islam-bawazir,durar-kamina-jil-1993; 25 passages mined for the qiraat browser (scripts/harvest-qiraat-ocr.ts); 40 passages mined for the wasaya browser (scripts/harvest-wasaya-ocr.ts)'}
     ingestion: {state: partial, prs: [2648, 3111, 3249, 6059], ledger: [docs/delegation/library/tarikh-islam-dhahabi.md, docs/delegation/lane-ledgers/microsd-books.md], graph_ids: [source/tarikh-islam-dhahabi, source/dhayl-tarikh-islam-bawazir, source/durar-kamina-jil-1993, work/tarikh-islam-dhahabi]}
     work_registry: 'download+ocr: done 2026-11-01 (claude-opus-5-5 / islamic-history-books-ocr-353be5); harvest (entities): released (claude-sonnet-5-5 / gracious-napier-0321a3); ocr (reverse order): done 2026-11-01 (claude-sonnet-5-5 / gracious-napier-0321a3) x12; ocr (reverse order): released (claude-sonnet-5-5 / gracious-napier-0321a3) x44'
     completion: mining
@@ -17443,7 +17443,7 @@ books:
     physical: {pages: 2884}
     ocr: {state: partial, engine: apple-vision, date: '2026-10-31', failed_pages: 44, unzipped_location: books/tareekh/tarikh-tabari/}
     ocr_archive: {state: none}
-    mining: {state: in_progress, entities: '24 passages mined for the qiraat browser (scripts/harvest-qiraat-ocr.ts)'}
+    mining: {state: in_progress, entities: '24 passages mined for the qiraat browser (scripts/harvest-qiraat-ocr.ts); 48 passages mined for the wasaya browser (scripts/harvest-wasaya-ocr.ts)'}
     ingestion: {state: none, prs: [1600]}
     work_registry: 'ocr: done 2026-10-31 (claude-opus-5-5 / islamic-history-books-ocr-353be5) x4'
     completion: downloaded
@@ -17528,7 +17528,7 @@ books:
     physical: {pages: 1643}
     ocr: {state: complete, date: '2026-10-14', unzipped_location: books/tareekh/wafayat-ayan/}
     ocr_archive: {state: none}
-    mining: {state: in_progress, entities: '387 data files cite source/wafayat-ayan; 25 passages mined for the qiraat browser (scripts/harvest-qiraat-ocr.ts)'}
+    mining: {state: in_progress, entities: '387 data files cite source/wafayat-ayan; 25 passages mined for the qiraat browser (scripts/harvest-qiraat-ocr.ts); 38 passages mined for the wasaya browser (scripts/harvest-wasaya-ocr.ts)'}
     ingestion: {state: partial, ledger: [docs/delegation/library/wafayat-ayan.md, docs/delegation/lane-ledgers/microsd-books.md], graph_ids: [source/wafayat-ayan]}
     completion: mining
     unverified:

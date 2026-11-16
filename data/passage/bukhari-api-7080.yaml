@@ -1,0 +1,16 @@
+id: passage/bukhari-api-7080
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "7080"
+label: { ar: "صحيح البخاري 7080 — وصية أو عهد أخير", en: "Sahih al-Bukhari 7080 — a testament or parting counsel", ur: "صحیح بخاری 7080 — وصیت یا آخری نصیحت" }
+text: "حَدَّثَنَا سُلَيْمَانُ بْنُ حَرْبٍ، حَدَّثَنَا شُعْبَةُ، عَنْ عَلِيِّ بْنِ مُدْرِكٍ، سَمِعْتُ أَبَا زُرْعَةَ بْنَ عَمْرِو بْنِ جَرِيرٍ، عَنْ جَدِّهِ، جَرِيرٍ قَالَ قَالَ لِي رَسُولُ اللَّهِ فِي حَجَّةِ الْوَدَاعِ \" اسْتَنْصِتِ النَّاسَ \". ثُمَّ قَالَ \" لاَ تَرْجِعُوا بَعْدِي كُفَّارًا، يَضْرِبُ بَعْضُكُمْ رِقَابَ بَعْضٍ \"."
+summary:
+  ar: "حديث في صحيح البخاري، رقم 7080، يذكر وصية أو عهد أخير. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sahih al-Bukhari, no. 7080 (Afflictions and the End of the World), that mentions a testament or parting counsel. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
+  ur: "صحیح بخاری کی حدیث نمبر 7080، جس میں وصیت یا آخری نصیحت کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-wasiyya, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 7080 (book 92 hadith 31); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

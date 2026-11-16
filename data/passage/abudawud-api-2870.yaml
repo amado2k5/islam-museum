@@ -1,0 +1,17 @@
+id: passage/abudawud-api-2870
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "2870"
+label: { ar: "سنن أبي داود 2870 — وصية أو عهد أخير، ما خلّفه من تركة وميراث", en: "Sunan Abi Dawud 2870 — a testament or parting counsel; what was left behind: estate and inheritance", ur: "سنن ابی داؤد 2870 — وصیت یا آخری نصیحت، ترکہ اور میراث" }
+text: "حَدَّثَنَا عَبْدُ الْوَهَّابِ بْنُ نَجْدَةَ، حَدَّثَنَا ابْنُ عَيَّاشٍ، عَنْ شُرَحْبِيلَ بْنِ مُسْلِمٍ، سَمِعْتُ أَبَا أُمَامَةَ، سَمِعْتُ رَسُولَ اللَّهِ يَقُولُ \" إِنَّ اللَّهَ قَدْ أَعْطَى كُلَّ ذِي حَقٍّ حَقَّهُ فَلاَ وَصِيَّةَ لِوَارِثٍ \"."
+summary:
+  ar: "حديث في سنن أبي داود، رقم 2870، يذكر وصية أو عهد أخير، وما خلّفه من تركة وميراث. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan Abi Dawud, no. 2870 (Wills (Kitab Al-Wasaya)), that mentions a testament or parting counsel, what was left behind: estate and inheritance. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
+  ur: "سنن ابی داؤد کی حدیث نمبر 2870، جس میں وصیت یا آخری نصیحت، ترکہ اور میراث کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-wasiyya, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/tarika-estate, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 2870 (book 18 hadith 9); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

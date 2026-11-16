@@ -1,0 +1,62 @@
+id: event/last-counsels-and-death-of-al-fudayl-ibn-iyad
+class: event
+kind: death
+tags:
+- wasaya-browser
+- wasaya-righteous
+- wasaya-wasiyya
+- wasaya-ihtidar
+- wasaya-marqad
+label:
+  ar: وصايا الفضيل بن عياض ووفاته بمكة
+  en: Last counsels and death of al-Fudayl ibn Iyad at Mecca
+  ur: مکہ میں فضیل بن عیاض کی نصیحتیں اور وفات
+summary:
+  ar: أقام الفضيل بن عياض بمكة حتى مات بها في أول سنة 187هـ في خلافة هارون {cite:siyar-alam-nubala scan vol. 1 p. 3043}، ويروي هشام بن عمار أنه توفي يوم عاشوراء {cite:tarikh-islam-dhahabi vol. 15 p. 344}. ومن أقواله قبل الموت أن الخوف أفضل من الرجاء في الصحة فإذا نزل الموت فالرجاء أفضل، وألا يجعل المرء الرجال أوصياءه وقد ضيّع وصيته بنفسه {cite:siyar-alam-nubala scan vol. 1 p. 3045}. ودُفن غيره من الصالحين إلى جانب قبره بمكة {cite:sifat-al-safwa-tartusi-2012 scan vol. 1 p. 501}.
+  en: 'Al-Fudayl ibn Iyad stayed in Mecca until he died there at the start of 187 AH, in the caliphate of Harun {cite:siyar-alam-nubala scan vol. 1 p. 3043}; Hisham ibn Ammar says he died on the day of Ashura {cite:tarikh-islam-dhahabi vol. 15 p. 344}. Among his sayings on death: fear is better than hope in health but hope is better once death arrives, and do not make men your executors when you lost your own testament {cite:siyar-alam-nubala scan vol. 1 p. 3045}. Other righteous people were later buried beside his grave in Mecca {cite:sifat-al-safwa-tartusi-2012 scan vol. 1 p. 501}.'
+  ur: فضیل بن عیاض مکہ میں مقیم رہے یہاں تک کہ ہارون کی خلافت میں 187ھ کے آغاز میں وہیں فوت ہوئے {cite:siyar-alam-nubala scan vol. 1 p. 3043}؛ ہشام بن عمار کے مطابق یومِ عاشورا کو {cite:tarikh-islam-dhahabi vol. 15 p. 344}۔ موت کے بارے میں ان کے اقوال میں ہے کہ تندرستی میں خوف رجاء سے بہتر ہے اور موت آ جائے تو رجاء بہتر، اور یہ کہ اپنی وصیت خود ضائع کرنے والا لوگوں کو وصی نہ بنائے {cite:siyar-alam-nubala scan vol. 1 p. 3045}۔ بعد میں دوسرے صالحین مکہ میں ان کی قبر کے پہلو میں دفن ہوئے {cite:sifat-al-safwa-tartusi-2012 scan vol. 1 p. 501}۔
+wings:
+- time
+periods:
+- period/abbasid-early
+regions:
+- arabia
+date:
+  start:
+    hijri: '0187-01-10'
+    precision: day
+    status: tradition
+    note: توفي الفضيل يوم عاشوراء سنة 187هـ عن هشام بن عمار {cite:tarikh-islam-dhahabi vol. 15 p. 344}؛ وعند الذهبي في السير أول السنة {cite:siyar-alam-nubala scan vol. 1 p. 3043}
+relations:
+- type: occurred_at
+  target: place/mecca
+  sources:
+  - source/siyar-alam-nubala
+  - source/sifat-al-safwa-tartusi-2012
+- type: had_participant
+  target: person/al-fudayl-ibn-iyad
+  role: المتوفّى
+  sources:
+  - source/siyar-alam-nubala
+  - source/tarikh-islam-dhahabi
+- type: mentions
+  target: person/abd-allah-ibn-al-mubarak
+  sources:
+  - source/tarikh-islam-dhahabi
+sources:
+- source/siyar-alam-nubala
+- source/sifat-al-safwa-tartusi-2012
+- source/tarikh-islam-dhahabi
+- source/wafayat-ayan
+- source/tarikh-baghdad-khatib
+- source/tarikh-dimashq-ibn-asakir-fikr-1995
+provenance:
+  layer: own-research
+  source: Siyar A'lam al-Nubala' (scan vol. 1 pp. 3043-3046); Sifat al-Safwa (scan vol. 1 pp. 386-387, 501); Tarikh al-Islam al-Dhahabi (vol. 15 p. 344, vol. 29 p. 369); Wafayat al-A'yan (scan vol. 4 p. 432); Tarikh Baghdad (scan vol. 4 p. 815); Tarikh Dimashq (scan vol. 4 p. 266); page numbers are scan pages
+  generated_by: Claude (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: wasaya-browser-1
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude (claude-sonnet-5-5); wasaya-browser-1

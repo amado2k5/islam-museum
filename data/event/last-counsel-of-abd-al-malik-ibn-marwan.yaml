@@ -1,0 +1,41 @@
+id: event/last-counsel-of-abd-al-malik-ibn-marwan
+class: event
+kind: death
+label:
+  ar: وصية عبد الملك بن مروان للوليد ولأبنائه عند احتضاره
+  en: Last counsel of Abd al-Malik ibn Marwan to al-Walid and his sons
+  ur: عبدالملک بن مروان کی ولید اور بیٹوں کو آخری نصیحت
+summary:
+  ar: "لما احتضر عبد الملك بن مروان بدمشق سمع قصاراً بالوادي فتمنى لو كان مثله ولم يلِ الخلافة {cite:al-bidaya-wal-nihaya scan vol. 5 p. 79}. ولما بكى ابنه الوليد زجره وأوصاه أن يشمّر ويضرب عنق من أبدى ذات نفسه {cite:tarikh-islam-dhahabi scan vol. 9 p. 143}. وأوصى بنيه بتقوى الله وترك الفرقة والصدور عن رأي مسلمة، وأوصى الله بابنته فاطمة، وتزوجها عمر بن عبد العزيز {cite:tarikh-islam-dhahabi scan vol. 9 p. 143}. وتوفي في منتصف شوال سنة ست وثمانين وصلى عليه الوليد ودُفن عند باب الجابية الصغير {cite:al-bidaya-wal-nihaya scan vol. 5 p. 79}."
+  en: "As he lay dying in Damascus Abd al-Malik ibn Marwan heard a launderer in the valley and wished he had been such a man and never held the caliphate {cite:al-bidaya-wal-nihaya scan vol. 5 p. 79}. When his son al-Walid wept he rebuked him and told him to gird himself and strike the neck of whoever showed what was in his mind {cite:tarikh-islam-dhahabi scan vol. 9 p. 143}. He charged his sons to fear God, avoid division and take their lead from Maslama, and he commended his daughter Fatima, whom Umar ibn Abd al-Aziz married, to God {cite:tarikh-islam-dhahabi scan vol. 9 p. 143}. He died in mid-Shawwal of the year 86; al-Walid prayed over him and he was buried at the small Bab al-Jabiya {cite:al-bidaya-wal-nihaya scan vol. 5 p. 79}."
+  ur: "دمشق میں آخری وقت پر عبدالملک بن مروان نے وادی میں ایک دھوبی کو سنا اور تمنا کی کہ کاش وہ اس جیسا ہوتا اور خلافت نہ پاتا {cite:al-bidaya-wal-nihaya scan vol. 5 p. 79}۔ بیٹے ولید کے رونے پر اسے ٹوکا اور ہدایت کی کہ کمر کس لے اور جو اپنے دل کی بات ظاہر کرے اس کی گردن اڑا دے {cite:tarikh-islam-dhahabi scan vol. 9 p. 143}۔ بیٹوں کو اللہ سے ڈرنے، تفرقے سے بچنے اور مسلمہ کی رائے پر چلنے کی وصیت کی، اور بیٹی فاطمہ کو اللہ کے سپرد کیا، جن سے بعد میں عمر بن عبدالعزیز نے نکاح کیا {cite:tarikh-islam-dhahabi scan vol. 9 p. 143}۔ وہ سن 86 کے وسطِ شوال میں فوت ہوئے، ولید نے نماز پڑھائی اور باب الجابیہ الصغیر کے پاس دفن ہوئے {cite:al-bidaya-wal-nihaya scan vol. 5 p. 79}۔"
+wings: [time, people, words]
+tags: [wasaya-browser, wasaya-caliphs, wasaya-wasiyya, wasaya-ihtidar, wasaya-mirath, wasaya-marqad]
+periods:
+- period/umayyad
+regions:
+- levant-iraq
+date:
+  start: { hijri: "0086-10", precision: month, status: tradition, note: "في النصف من شوال سنة ست وثمانين، ويوم الوفاة مختلف فيه {cite:al-bidaya-wal-nihaya scan vol. 5 p. 79}", sources: [source/al-bidaya-wal-nihaya] }
+relations:
+- { type: part_of, target: event/death-of-abd-al-malik, sources: [source/al-bidaya-wal-nihaya] }
+- { type: occurred_at, target: place/damascus, sources: [source/al-bidaya-wal-nihaya] }
+- { type: had_participant, target: person/abd-al-malik-ibn-marwan, role: صاحب الوصية والمتوفى, sources: [source/al-bidaya-wal-nihaya, source/tarikh-islam-dhahabi] }
+- { type: had_participant, target: person/al-walid-ibn-abd-al-malik, role: ولي العهد الموصى إليه, sources: [source/tarikh-islam-dhahabi, source/al-bidaya-wal-nihaya] }
+- { type: had_participant, target: person/sulayman-ibn-abd-al-malik, role: ولي العهد بعد الوليد, sources: [source/tarikh-islam-dhahabi] }
+- { type: had_participant, target: person/maslama-ibn-abd-al-malik, role: أوصى بنيه بالصدور عن رأيه, sources: [source/tarikh-islam-dhahabi] }
+- { type: had_participant, target: person/umar-ibn-abd-al-aziz, role: تزوج ابنته فاطمة, sources: [source/tarikh-islam-dhahabi] }
+- { type: had_participant, target: person/said-ibn-al-musayyab, role: علّق على قوله في المرض, sources: [source/al-bidaya-wal-nihaya] }
+sources:
+- source/al-bidaya-wal-nihaya
+- source/tarikh-islam-dhahabi
+provenance:
+  layer: own-research
+  source: "البداية والنهاية لابن كثير، مسح مجلد 5 ص 79-80؛ تاريخ الإسلام للذهبي، مسح مجلد 9 ص 135 و143؛ أرقام الصفحات صفحات المسح"
+  generated_by: "Claude (claude-sonnet-5-5)"
+  model: claude-sonnet-5-5
+  run: wasaya-browser-1
+status:
+  review: draft
+  completeness: 2
+  generated_by: "Claude (claude-sonnet-5-5); wasaya-browser-1"

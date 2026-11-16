@@ -1,0 +1,16 @@
+id: passage/ibnmajah-api-1571
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "1571"
+label: { ar: "سنن ابن ماجه 1571 — دفن وقبر ومرقد", en: "Sunan Ibn Majah 1571 — a burial, grave or resting place", ur: "سنن ابن ماجہ 1571 — تدفین، قبر اور مرقد" }
+text: "حَدَّثَنَا يُونُسُ بْنُ عَبْدِ الأَعْلَى، حَدَّثَنَا ابْنُ وَهْبٍ، أَنْبَأَنَا ابْنُ جُرَيْجٍ، عَنْ أَيُّوبَ بْنِ هَانِئٍ، عَنْ مَسْرُوقِ بْنِ الأَجْدَعِ، عَنِ ابْنِ مَسْعُودٍ، أَنَّ رَسُولَ اللَّهِ ـ قَالَ \" كُنْتُ نَهَيْتُكُمْ عَنْ زِيَارَةِ الْقُبُورِ فَزُورُوا الْقُبُورَ فَإِنَّهَا تُزَهِّدُ فِي الدُّنْيَا وَتُذَكِّرُ الآخِرَةَ \"."
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 1571، يذكر دفن وقبر ومرقد. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan Ibn Majah, no. 1571 (Chapters Regarding Funerals), that mentions a burial, grave or resting place. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 1571، جس میں تدفین، قبر اور مرقد کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ziyarat-al-qubur, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 1571 (book 6 hadith 139); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

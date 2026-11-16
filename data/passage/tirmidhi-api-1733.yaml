@@ -1,0 +1,16 @@
+id: passage/tirmidhi-api-1733
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "1733"
+label: { ar: "جامع الترمذي 1733 — أثر من الآثار المحفوظة", en: "Jami' al-Tirmidhi 1733 — a relic kept after its owner", ur: "جامع ترمذی 1733 — محفوظ آثار و تبرکات" }
+text: "حَدَّثَنَا أَحْمَدُ بْنُ مَنِيعٍ، حَدَّثَنَا إِسْمَاعِيلُ بْنُ إِبْرَاهِيمَ، حَدَّثَنَا أَيُّوبُ، عَنْ حُمَيْدِ بْنِ هِلاَلٍ، عَنْ أَبِي بُرْدَةَ، قَالَ أَخْرَجَتْ إِلَيْنَا عَائِشَةُ كِسَاءً مُلَبَّدًا وَإِزَارًا غَلِيظًا فَقَالَتْ قُبِضَ رُوحُ رَسُولِ اللَّهِ فِي هَذَيْنِ. قَالَ أَبُو عِيسَى وَفِي الْبَابِ عَنْ عَلِيٍّ وَابْنِ مَسْعُودٍ. وَحَدِيثُ عَائِشَةَ حَدِيثٌ حَسَنٌ صَحِيحٌ."
+summary:
+  ar: "حديث في جامع الترمذي، رقم 1733، يذكر أثر من الآثار المحفوظة. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Jami' al-Tirmidhi, no. 1733 (The Book on Clothing), that mentions a relic kept after its owner. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
+  ur: "جامع ترمذی کی حدیث نمبر 1733، جس میں محفوظ آثار و تبرکات کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/tabarruk, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 1733 (book 24 hadith 14); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

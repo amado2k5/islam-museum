@@ -1,0 +1,17 @@
+id: passage/nasai-api-3658
+class: passage
+tags: [wasaya-browser, wasaya-wasiyya]
+unit: hadith
+work: work/sunan-al-nasai
+ref: "3658"
+label: { ar: "سنن النسائي 3658 — وصية أو عهد أخير", en: "Sunan al-Nasa'i 3658 — a testament or parting counsel", ur: "سنن نسائی 3658 — وصیت یا آخری نصیحت" }
+text: "أَخْبَرَنَا مُحَمَّدُ بْنُ صَدَقَةَ الْحِمْصِيُّ، قَالَ حَدَّثَنَا مُحَمَّدُ بْنُ شُعَيْبٍ، عَنِ الأَوْزَاعِيِّ، عَنِ الزُّهْرِيِّ، أَخْبَرَهُ عَنْ عُبَيْدِ اللَّهِ بْنِ عَبْدِ اللَّهِ، عَنِ ابْنِ عَبَّاسٍ، عَنْ سَعْدِ بْنِ عُبَادَةَ، أَنَّهُ اسْتَفْتَى النَّبِيَّ فِي نَذْرٍ كَانَ عَلَى أُمِّهِ فَمَاتَتْ قَبْلَ أَنْ تَقْضِيَهُ فَقَالَ رَسُولُ اللَّهِ \" اقْضِهِ عَنْهَا \"."
+summary:
+  ar: "حديث في سنن النسائي، رقم 3658، يذكر وصية أو عهد أخير. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan al-Nasa'i, no. 3658 (The Book of Wills), that mentions a testament or parting counsel. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
+  ur: "سنن نسائی کی حدیث نمبر 3658، جس میں وصیت یا آخری نصیحت کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-wasiyya, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 3658 (book 30 hadith 48); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }
