@@ -1,0 +1,42 @@
+id: job/grammarian
+class: job
+label: { ar: "النحوي", en: "Grammarian (nahwi)", ur: "نحوی" }
+names:
+  - { value: "نحويون", kind: alternate }
+  - { value: "نُحاة", kind: alternate }
+  - { value: "nahvî", kind: latinized, lang: tr }
+  - { value: "dilci", kind: latinized, lang: tr }
+  - { value: "i‘rabcı", kind: latinized, lang: tr }
+summary:
+  ar: "النحوي صاحب علم النحو: قواعد تركيب الجملة العربية وحركات الإعراب. وُلدت الصنعة في البصرة حين وضع أبو الأسود الدؤلي ⁦(ت ٦٩هـ)⁩ أسسها بإرشاد علي — بعد أن فشا اللحن في القراءة والكلام — ثم ربّتها طبقات مدرسة البصرة على يد الخليل وسيبويه صاحب «الكتاب»، وقابلتها مدرسة الكوفة بالرؤاسي والكسائي والفرّاء، وجمعت مدرسة بغداد بينهما؛ ودرّس النحويون في الحلقات ثم جعلت المدارس كتبهم من «المفصّل» للزمخشري إلى «الألفية» لابن مالك متوناً للدروس، ولا يزال النحو مادةً في كليات العربية والإلهيات."
+  en: "The nahwi holds the science of nahiv: the rules of Arabic sentence structure and the i'rab endings. The craft was born at Basra when Abu al-Aswad al-Du'ali (d. 69 AH) laid its foundations on Ali's guidance — after errors of lahn spread in recitation and speech — and the generations of the Basra school reared it through al-Khalil and Sibawayhi of the Kitab, rivalled by the Kufa school of al-Ru'asi, al-Kisa'i and al-Farra, then merged in the Baghdad school. The grammarians taught in study circles, then the madrasas made their books — al-Zamakhshari's Mufassal to Ibn Malik's Alfiyya — into set texts, and nahiv remains a subject in the Arabic and theology faculties."
+  ur: "نحوی علم نحو کا حامل ہے: عربی جملے کے ترکیبی قواعد اور اعراب کی حرکات۔ یہ پیشہ بصرہ میں پیدا ہوا جب ابوالاسود دؤلی ⁦(وفات ٦٩ھ)⁩ نے علی کی رہنمائی سے اس کی بنیاد رکھی — قراءت اور کلام میں لحن کے پھیلنے کے بعد — اور بصرہ مکتب کی طبقات نے خلیل اور صاحب کتاب العین سیبویہ کے ذریعے اسے پروان چڑھایا، جس کے مدمقابل کوفہ مکتب رؤاسی، کسائی اور فراء کے ساتھ تھا، پھر بغداد مکتب نے دونوں کو ملا لیا۔ نحوی حلقوں میں پڑھاتے رہے، پھر مدارس نے ان کی کتابوں — زمخشری کے «مفصل» سے ابن مالک کی «الفیہ» تک — کو نصابی متن بنا لیا، اور نحو آج بھی عربی و الہیات کی دانشگاہوں کا مضمون ہے۔"
+domain: scholarship-teaching
+kind: scholarly
+hirfa: false
+era:
+  origins: early-caliphate
+  status_today: transformed
+places:
+  - { place: place/basra, note: "Grammar was founded at Basra by Abu al-Aswad al-Du'ali (d. 69/688); because Iraq-Basra was where the corruption of the tongue ran deepest, the language and grammar work was done there by the Basra school — al-Khalil, Yunus ibn Habib, Sibawayhi and al-Akhfash al-Awsat among them.", sources: [source/tdv-nahiv] }
+  - { place: place/kufa, note: "The Kufa school of grammar was founded by al-Ru'asi and his uncle Mu'adh ibn Muslim al-Harra, and its scholars — al-Kisa'i and al-Farra among them — wrote the school's first grammar books.", sources: [source/tdv-nahiv] }
+  - { place: place/baghdad, note: "Scholars who merged the two schools' views founded the Baghdad school in the second half of the third century AH, which dispersed by the middle of the fourth.", sources: [source/tdv-nahiv] }
+regions: [levant-iraq, egypt-nile, maghreb, andalus-europe, persia-central-asia, anatolia-balkans, south-asia, arabia, global]
+organization:
+  organized: informal
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people]
+periods: [period/umayyad, period/abbasid-early, period/abbasid-fragmentation, period/buyid-seljuk-fatimid-era, period/crusades-ayyubid-mamluk, period/gunpowder-empires, period/modern-era, period/contemporary-era]
+sources: [source/tdv-nahiv]
+training:
+  mode: ijaza-chain
+  certification: "The science passed teacher to student in tabaqat: the Basra chain runs Abu al-Aswad, then the 'second al-Khalil' generation of Nasr ibn Asim's peers, then Yunus and Sibawayhi's generation, down to al-Mubarrad's seventh tabaqa. Grammar entered the madrasa syllabi in the fifth century AH, when the heritage became set course-books — the epitomes and the sharh tradition on Sibawayhi's Kitab were themselves written because the masterwork was too hard even for scholars."
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-scholar-1" }
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi, 'NAHİV' (Durmuş, 2006), web edition read on 16 Nov 2026: founding accounts, Basra-Kufa-Baghdad schools and their tabaqat, the textbook tradition and the critics"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-scholar-1-drafting"

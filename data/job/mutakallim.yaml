@@ -1,0 +1,40 @@
+id: job/mutakallim
+class: job
+label: { ar: "المتكلّم", en: "Mutakallim (kalam theologian)", ur: "متکلم" }
+names:
+  - { value: "متكلّمون", kind: alternate }
+  - { value: "أهل الكلام", kind: alternate }
+  - { value: "kelâmcı", kind: latinized, lang: tr }
+  - { value: "mütekellim", kind: latinized, lang: tr }
+summary:
+  ar: "المتكلّم صاحب علم الكلام: يثبت عقائد الدين بالدلائل القطعية ويردّ شبهات المخالفين بحجج العقل على قاعدة النص. نشأت الصنعة مع جهم بن صفوان أول من استعمل منهج الكلام، ثم مع واصل بن عطاء تلميذ الحسن البصري ببصرة نحو ١٠٠-١٢٠هـ الذي أسّس المعتزلة، فانقسم المتكلمون بين معتزلة وسلفية والمدرستين السنّيتين الأشعرية بالعراق والماتريدية بما وراء النهر، حتى أدخل الغزالي المنطق في العلم وبلغت الشروح والحواشي ذروتها مع التفتازاني والجرجاني، وفي العصر الحديث أعاد أهل «العلم الجديد للكلام» بناءه ليردّ على نقد العلم الحديث للدين."
+  en: "The mutakallim holds the science of kalam: establishing the religion's creeds with decisive proofs and rebutting opponents' objections by rational argument built on the revealed text. The craft arose with Jahm ibn Safwan, the first scholar to use the kalam method, then with al-Hasan al-Basri's student Wasil ibn Ata at Basra about 100-120 AH, who founded the Mu'tazila; the mutakallimun then divided between the Mu'tazila, the Salafiyya and the two Sunni schools, the Ash'ariyya in the Middle East and the Maturidiyya in Transoxiana, until al-Ghazali brought logic into the science and the sharh-hashiya tradition peaked with al-Taftazani and al-Jurjani, while the modern 'new ilm-i kelam' rebuilt it to answer modern science's criticisms of religion."
+  ur: "متکلم علم کلام کا حامل ہے: دین کے عقائد کو قطعی دلائل سے ثابت کرنا اور مخالفین کے اعتراضات کا نص کی بنیاد پر عقلی دلیل سے رد کرنا۔ یہ پیشہ جہم بن صفوان سے شروع ہوا جس نے پہلی بار اسلوب کلام استعمال کی، پھر بصرہ میں حسن بصری کے شاگرد واصل بن عطاء نے تقریباً ١٠٠-١٢٠ھ میں معتزلہ کی بنیاد رکھی؛ اس کے بعد متکلمین معتزلہ، سلفیہ اور دو سنی مسلکوں — مشرق وسطی میں اشاعرہ اور ماوراءالنہر میں ماتریدیہ — میں بٹ گئے، یہاں تک کہ غزالی نے علم میں منطق داخل کی اور شرح و حاشیہ کی روایت تفتازانی و جرجانی کے ساتھ عروج کو پہنچی، جبکہ جدید دور میں «نئے علم کلام» کے داعیوں نے دین پر جدید سائنس کے نقادانہ حملوں کے جواب میں اسے ازسرنو تعمیر کیا۔"
+domain: scholarship-teaching
+kind: scholarly
+hirfa: false
+era:
+  origins: early-caliphate
+  status_today: transformed
+places:
+  - { place: place/basra, note: "Wasil ibn Ata, a student of al-Hasan al-Basri, began the Mu'tazila at Basra about 100-120 AH (718-738), and the Mu'tazili mutakallimun afterwards split into Basran and Baghdadi wings.", sources: [source/tdv-kelam] }
+  - { place: place/baghdad, note: "The Mu'tazili mutakallimun divided into the Basran and Baghdadi groups, agreeing on interpreting the texts in the light of reason while differing in details.", sources: [source/tdv-kelam] }
+regions: [levant-iraq, persia-central-asia, egypt-nile, maghreb, andalus-europe, anatolia-balkans, south-asia, arabia, global]
+organization:
+  organized: informal
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people]
+periods: [period/umayyad, period/abbasid-early, period/abbasid-fragmentation, period/buyid-seljuk-fatimid-era, period/crusades-ayyubid-mamluk, period/gunpowder-empires, period/modern-era, period/contemporary-era]
+sources: [source/tdv-kelam]
+training:
+  mode: ijaza-chain
+  certification: "No licence is described; the craft was learnt in a teacher's circle — al-Ash'ari took kalam lessons from the Mu'tazili master Abu Ali al-Jubba'i until his fortieth year — and marked itself in writing: Wasil ibn Ata is credited with the first kalam book, and the school's later measure was the sharh and hashiya literature on manuals like al-Iji's al-Mawaqif."
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-scholar-1" }
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi, 'KELÂM' (Yavuz, 2022), web edition read on 16 Nov 2026: definitions of the science, Jahm and Wasil, the Sunni schools, the mutakaddimun-muta'akhkhirun periodisation and the new ilm-i kelam"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-scholar-1-drafting"
