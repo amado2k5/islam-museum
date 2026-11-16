@@ -11,6 +11,17 @@ summary:
 wings: [people]
 regions: [levant-iraq]
 periods: [period/mongol-post-mongol]
+occupations:
+  - job: job/qadi
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'qadi', Job Browser linking wave 44"
+    sources: [source/shadharat-dhahab, source/wikidata]
+  - job: job/preacher
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'preacher', Job Browser linking wave 44"
+    sources: [source/shadharat-dhahab, source/wikidata]
 relations:
   - { type: lived_in, target: place/darayya, confidence: low, note: "Associated with داريا per the record's own summary text; relation type pending review.", sources: [source/shadharat-dhahab] }
 sources: [source/shadharat-dhahab, source/wikidata]

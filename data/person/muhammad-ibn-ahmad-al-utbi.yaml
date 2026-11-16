@@ -12,6 +12,12 @@ wings: [people]
 regions: [andalus-europe]
 periods: [period/abbasid-fragmentation]
 died: { edtf: "869", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tartib al-Madarik Confirmed on 13 November 2026 against Wikidata Q12190022 (P570, a statement with a reference), item revision 2533250629.", sources: [source/wikidata] }
+occupations:
+  - job: job/faqih
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'faqih', Job Browser linking wave 44"
+    sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 relations:
   - { type: lived_in, target: place/al-andalus, sources: [source/al-aalam] }
 sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
