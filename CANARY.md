@@ -13,12 +13,21 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v1.43.0 — 2026-11-16
+### Added
+- Job Browser: five more trades join the professions — the tailor (khayyat), the barber (hallaq/muzayyin) who also shaved, cupped and circumcised, the water-carrier (saqqa) of the kirbeh skins and public sebils, the baker (farran/khabbaz) under hisba's heaviest daily watch, and the blacksmith (haddad/qayn) — in Arabic, English and Urdu draft cited to al-Shayzari's *Nihayat al-Rutba* (Buckley tr.), Lane's *Manners and Customs of the Modern Egyptians*, and Evliya Çelebi's *Seyahatname* (von Hammer tr.), the first Job Browser packet harvested from books rather than the TDV.
+
+## v1.42.0 — 2026-11-16
+### Added
+- Four more Inventions Browser records from harvested sources (Carter on printing and paper, Ukers on coffee, Ibn Abi Usaybi'a on the 931 licensing, a Federal Reserve paper on the cheque, al-Khwarizmi's Mafatih al-Ulum), each with Arabic, English and Urdu prose: Samarqand papermaking and the paper revolution; coffee in Yemen and its Sufi institutionalisation; the sakk payment order ancestor of the cheque; and the Baghdad physician licensing of 931.
+
 ## v1.41.0 — 2026-11-16
 ### Added
 - Nine place pages that had no prose now have full pages in Arabic, English and Urdu built from Yaqut's Mu'jam al-buldan, cited by volume and printed page: Ray, Humayma, Ascalon, Khujand, Ecija (Istijja), Mount Qasiyun, al-Imadiyya (Amad), Kharpoot (Hisn Ziyad) and Ayn al-Warda. Each gives what the geographer records of the name, position, history and local reports, and says where he gives a report as hearsay.
 - Nine place pages that had no prose now have full pages in Arabic, English and Urdu built from Yaqut's Mu'jam al-buldan, cited by volume and printed page: Azaz, Firozkoh, Erci (Arjish), the Diyala River, the Biqa', Eastern Arabia (al-Bahrayn), the Persian Gulf (Bahr Faris), Dayr al-Jathaliq and Darzijan. Each gives what the geographer records of the place's name, position, history and the local reports he preserves, and says where his entry is silent.
 - Twenty-five more entries from Ibn Sina's Canon, Book II on simple drugs: from kabar (the caper) at the end of the letter kaf through karnab (cabbage), karrath (leek), kuzbara (coriander), kummathra (pear) and karm (the vine), and into the letter lam from ladhan (ladanum) to lisan al-haml (plantain), scan pages 527 to 543. Each entry gives the book's account of nature, temperament, properties and uses by organ, cited to the printed page. The book's reports on the womb, menses, foetus, semen and desire are kept as labelled book listings, not as advice, for the founder's ruling; measured doses, weights and preparation methods are left out.
 - One more Inventions Browser record, with Arabic, English and Urdu prose: Ibn Juljul's Tabaqat al-Atibba — the earliest surviving biographical dictionary of physicians (Cordoba, c. 987 CE); plus work records for the Tabaqat and al-Khazini's Mizan al-Hikma, and person/ibn-juljul.
+- Four Indonesian teachers and preachers join the modern-figures collection, each with Arabic, English and Urdu prose and its sources showing: Muhammad Nuzul Dzikri, the Qur'an reciter Muzammil Hasballah, Gus Iqdam of Blitar, and Oemar Mita — the first pass over the Indonesian and Malay scene (wave 200, section A).
 
 ## v1.40.0 — 2026-11-16
 ### Added

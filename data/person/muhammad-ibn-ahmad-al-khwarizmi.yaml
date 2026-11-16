@@ -1,0 +1,23 @@
+id: person/muhammad-ibn-ahmad-al-khwarizmi
+class: person
+label: { ar: "محمد بن أحمد الخوارزمي الكاتب", en: "Muhammad ibn Ahmad al-Khwarizmi", ur: "محمد بن احمد خوارزمی کاتب" }
+names:
+  - { value: "أبو عبد الله محمد بن أحمد بن يوسف الخوارزمي", kind: full, lang: ar }
+  - { value: "author of Mafatih al-Ulum", kind: alternate, lang: en }
+gender: male
+roles: [writer, scholar]
+faith:
+  - value: sunni
+    basis: tradition
+    note: "A Nishapuri katib whose encyclopedia of chancery terms frames state institutions inside the Abbasid-Samanid Sunni milieu; Sunni is the museum default frame, not a personal madhhab testimony read on the page."
+    sources: [source/khwarizmi-mafatih-ulum-1930]
+summary:
+  ar: "كاتب نيسابوري من أواخر القرن الرابع الهجري؛ صنّف «مفاتيح العلوم» موسوعةً لمصطلحات الدواوين والعلوم، وفي باب الديوان وصفَ الصك وكيف تُجمع فيه أسماء المستحقين وأرزاقهم ويوقّع السلطان بإجازتها {cite:khwarizmi-mafatih-ulum-1930 diwan chapter}."
+  en: "A Nishapuri secretary of the late tenth century; his Mafatih al-Ulum, an encyclopedia of chancery and scholarly terms, describes in the diwan chapter the sakk that gathers stipendiaries' names and dues under the ruler's authorising signature {cite:khwarizmi-mafatih-ulum-1930 diwan chapter}."
+  ur: "نیشاپور کا دسویں صدی کا کاتب؛ مفاتیح العلوم میں دفتری و علمی اصطلاحات سمیٹی، دیوان کے باب میں صک کی وضاحت کی: مستحقین کے نام و وظیفے جمع، حکمران کے دستخط سے اجازت {cite:khwarizmi-mafatih-ulum-1930 diwan chapter}۔"
+wings: [people]
+regions: [persia-central-asia]
+periods: [period/buyid-seljuk-fatimid-era]
+sources: [source/khwarizmi-mafatih-ulum-1930]
+status: { review: published, completeness: 2 }
+provenance: { layer: own-research, generated_by: devin-drafter-w2-25, model: SWE-2, run: inventions-w2-25, source: "Mafatih al-Ulum 1930 Cairo printing, archive.org OCR in hand; the sakk passage in the diwan chapter read" }

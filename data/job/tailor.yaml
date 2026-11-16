@@ -1,0 +1,44 @@
+id: job/tailor
+class: job
+label: { ar: "الخيّاط", en: "Tailor (khayyat)", ur: "درزی ⁦(خیاط)⁩" }
+names:
+  - { value: "derzi", kind: latinized, lang: tr }
+  - { value: "kheiyat", kind: latinized }
+summary:
+  ar: "الخيّاط هو من يقطع الثياب ويخيطها. تضبط كتب الحسبة صنعته: أن يُحسن القطع والفتحة والبطانات والأكمام والذيل، وأن تكون الغرزة ضيقة والإبرة رفيعة والخيط قصيراً، وأن يقيس القماش النفيس قبل قطعه ويوزنه إن كان حريراً أو ديباجاً فيردّه لوزنه، ونظّمت له طوائف في قاهرة لين وإسطنبول إوليا جلبي، وبير الخيّاطين عندهما إدريس النبي."
+  en: "The khayyat cuts and sews garments. The hisba manuals regulate the craft: a clean cut, proper neck opening, wide gussets, even sleeves and hems, tight stitches, a fine needle and short thread; valuable cloth must be measured before cutting and silk or brocade weighed so that it is returned to its owner at the same weight. Tailors formed guilds in Lane's Cairo and Evliya's Istanbul, whose lore makes the prophet Idris their first patron."
+  ur: "خیاط وہ ہے جو کپڑا کاٹ کر سوتا ہے۔ حسبہ کی کتابیں اس دست کو ضبط کرتی ہیں: صاف کٹائی، درست گلا، چوڑے سلیٹ، برابر آستینیں اور گھیرا، باریک سوئی اور چھوٹا دھاگہ؛ قیمتی کپڑا کاٹنے سے پہلے ناپا جائے اور ریشم یا دیبا تولا جائے تاکہ اسی وزن میں مالک کو لوٹے۔ لین کے قاہرہ اور اولیاء چلبی کے استنبول میں خیاطوں کی انجمنیں تھیں جن کا پہلا پیر نبی ادریس ہے۔"
+domain: building-making
+kind: craft
+hirfa: true
+era:
+  origins: pre-islamic
+  status_today: living
+places:
+  - { place: place/cairo, note: "Lane lists the kheiyat among the trades of the Cairo market streets and describes the ceremony admitting a boy to the trade, which was customary among tailors among others.", sources: [source/lane-modern-egyptians] }
+  - { place: place/istanbul, note: "Evliya counts some three thousand tailors' shops and five thousand men in the four jurisdictions of the capital, with two imperial tailoring establishments of five hundred men each.", sources: [source/evliya-seyahatname-hammer] }
+regions: [egypt-nile, anatolia-balkans, levant-iraq]
+organization:
+  organized: guild
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people, living]
+periods: [period/crusades-ayyubid-mamluk, period/gunpowder-empires, period/modern-era]
+sources: [source/shayzari-nihaya-buckley, source/lane-modern-egyptians, source/evliya-seyahatname-hammer]
+craft:
+  materials: [textile, cotton, silk, wool]
+  techniques:
+    ar: "يأمر الشيزري أن يُقطع القماش حسناً، وأن تُضبط فتحة الرقبة وتُوسع البطانات وتتساوى الأكمام والأطراف ويُسوّى الذيل، وأن تكون الغرزة ضيقة لا واسعة والإبرة رفيعة والخيط في الإبرة قصيراً لئلا يهترأ. ولا يقطع الخيّاط قماشاً نفيساً حتى يقيسه، فإن كان حريراً أو ديباجاً وزنه قبل أخذه وردّه بعد خياطته لوزنه؛ ومن غشّهم أن يضعوا رملاً وغراءً في بطانة الثوب الحريري ليسرقوا من وزنه، ولا يُمهل الزبون أكثر من أسبوع إلا بشرط."
+    en: "Al-Shayzari orders that the cloth be cut well, the neck opening made properly, the gussets wide, the sleeves and cuffs of equal length and the hems sewn evenly; the stitches should be tight, the needle fine and the thread short so it does not fray. The tailor must measure valuable cloth before cutting, and weigh silk or brocade so he returns it to its owner at the same weight; one fraud was to put sand and glue in a silk garment's lining to steal the difference, and work should not keep a customer waiting more than a week unless agreed."
+    ur: "الشیزری کہتا ہے کہ کپڑا اچھی طرح کٹا جائے، گلا درست بنے، سلیٹیں چوڑی ہوں، آستینیں اور کلائیاں برابر اور گھیرا برابر سییا جائے؛ سلائیاں مضبوط، سوئی باریک اور دھاگہ چھوٹا ہو کہ نہ گھسے۔ خیاط قیمتی کپڑا کاٹنے سے پہلے ناپے اور ریشم یا دیبا کو تول کر اسی وزن میں مالک کو لوٹائے؛ ایک دھوکہ یہ تھا کہ ریشمی جوڑے کی استر میں ریت اور سریش ملا کر وزن کا فرق چرایا جائے، اور کام میں گاہک کو ایک ہفتے سے زیادہ نہ رُکایا جائے مگر معاہدے کے ساتھ۔"
+  guild:
+    bodies: []
+    shaykh_title: { ar: "شيخ الطائفة ونقيبها", en: "Sheykh of the trade and his Nakeeb", ur: "پیشے کا شیخ اور اس کا نقیب" }
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-harvest-1" }
+provenance:
+  layer: own-research
+  source: "al-Shayzari/Buckley ch. 24 pp. 86-87 (tailors), ch. 23 pp. 84-85 (context); Lane ch. XIV p. 318 and ch. XXVII pp. 609-610; Evliya (von Hammer) I,2 sections 351-353 pp. 200-201 — all read on 15 Nov 2026 from the downloaded scans"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-harvest-1-drafting"
