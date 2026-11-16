@@ -931,3 +931,22 @@ Built under the founder's explicit ruling of 2026-11-09 ("Build Abdullatif + Amo
 - **group/amozhgary-tv** — Kurdish-language religious broadcaster founded 2013 by Abdullatif Ahmad (`founded_by` edge to the person above), with a Qur'an memorisation centre and academy in Sulaymaniyah (MERI 2025). Qualifies on Facebook: 1,800,000 followers (page post dated 2026-04-01, harvest metadata read, disclosed on the Harun Media precedent). Its YouTube channel @AmozhgaryOfficial holds only 7,890 subscribers (vidIQ as of 2026-11-08; channel started 2026-01-25 — the station predates the channel) and the record files that figure honestly rather than crediting the brand with a YouTube audience it does not have. Sorani, with a second audio channel in Arabic.
 
 Still held from wave 199: **group/payam-tv** (founder scope ruling not given — the 2026-11-09 options tap selected only the Abdullatif build) and **person/muthanna-amin** (politician-preacher; founder-list item).
+
+## Wave 200 — Indonesian/Malay scene pass (built 2026-11-15; landing completed 2026-11-16)
+
+Built 2026-11-15 (persons 2,162 → 2,173; groups 423 → 430 across the wave). Sections A and B landed before the lane stopped on 2026-11-15; sections C and D landed on the resume (below).
+
+- **§A — MERGED, PR #7090:** person/gus-iqdam, person/muhammad-nuzul-dzikri, person/muzammil-hasballah, person/oemar-mita.
+- **§B — MERGED, PR #7095:** person/habib-syech-bin-abdul-qadir-assegaf, person/kazim-elias, person/muhammad-abduh-tuasikal, person/salim-a-fillah.
+- **§C — MERGED, PR #7153 (2026-11-16, on the resume):** person/nissa-sabyan, person/mizz-nina, person/heliza-helmi. The section had been built, validated and pushed on branch content/wave200-c before the stop; on the resume it was cherry-picked onto current main (only CANARY.md overlapped; the entry was re-placed under the then-current top block, v1.73.0) and re-gated: validate "validated 69899 entities, 102014 prose files: 0 errors"; cite-check 3 pass, 0 fail.
+- **§D — MERGED, PR #7159 (2026-11-16, on the resume):** group/al-bahjah-tv, group/al-hujjah-dakwah-islam, group/ammar-tv, group/aql-islamic-center, group/rumaysho-tv, group/sabyan-gambus, group/tarbiyah-sunnah-channel (35 batch files + CANARY). Gates: validate "validated 69913 entities, 102035 prose files: 0 errors"; cite-check 7 pass, 0 fail.
+
+## Wave 201 — Indonesian/Malay Tier 2 re-check (built 2026-11-15; landed 2026-11-16 on the resume)
+
+14 persons and 6 groups (139 batch files + CANARY): person/abdullah-khairi, person/aisyah-hijanah, person/auni-mohamed, person/bachtiar-nasir, person/diana-amir, person/don-daniyal, person/habib-ali-zaenal-abidin-al-hamid, person/haddad-alwi, person/hanung-bramantyo, person/mohd-asri-zainul-abidin, person/syamsul-debat, person/syamsul-yusof, person/zaidul-akbar, person/zulkifli-mohamad-al-bakri; group/akhyar-tv, group/hijjaz, group/inteam, group/nu-channel, group/tv-alhijrah, group/tvmu.
+
+Lander fix landed with this wave: group/aql-islamic-center gains its group-side `founded_by` edge to person/bachtiar-nasir (the wave-201 person record states the group-side link is the lander's), with source/wikipedia-bachtiar-nasir-en added to the group's sources and the three summaries and three prose files updated to match.
+
+## Lane resumed 2026-11-16
+
+The lane was stopped on 2026-11-15 (~21:06 EST) and **resumed on 2026-11-16 at the founder's direction — "resume the waves, non stop, until i ask you to stop."** The resume landed, in order: wave 200 §C (PR #7153), wave 200 §D (PR #7159) and wave 201 (this PR). Lane totals after landing, counted on origin/main: **2,187 persons / 436 groups** (before this resume: 2,170 persons / 423 groups).

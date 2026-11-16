@@ -1,0 +1,38 @@
+id: person/diana-amir
+class: person
+label: { ar: "ديانا أمير", en: "Diana Amir", ur: "ڈیانا امیر" }
+names:
+  - { value: "نورديانا بنت أمير هاشم", kind: full }
+  - { value: "Nurdiyana binti Amir Hashim", kind: full }
+  - { value: "Diana Amir", kind: alternate }
+gender: female
+summary:
+  ar: "ممثلة ومقدمة ماليزية سابقة تحوّلت إلى الدعوة، وُلدت في برمنغهام بإنجلترا في 22 يونيو 1986، عملت في الشاشة من 2008 حتى أعلنت اعتزالها في ديسمبر 2022، وسمّتها مؤسسة ياديم بين «أيقونات الدعوة» لديها. بلغ حسابها الموثّق على إنستغرام 1,347,190 متابعًا في قراءة مباشرة في 15 نوفمبر 2026."
+  en: "Malaysian former actress and host turned dawah figure, born in Birmingham, England, on 22 June 1986, who worked on screen from 2008 until she announced her retirement in December 2022, and whom YADIM lists among its Da'wah Icons. Her verified Instagram account counted 1,347,190 followers in a direct read on 15 November 2026."
+  ur: "ملائیشیائی سابق اداکارہ اور میزبان جو داعیہ بن گئی، 22 جون 1986ء کو برمنگھم، انگلستان میں پیدا ہوئی، 2008ء سے پردے پر کام کیا حتیٰ کہ دسمبر 2022ء میں ریٹائرمنٹ کا اعلان کیا، اور یادیم نے اسے اپنی «دعوہ آئیکنز» میں شمار کیا ہے۔ 15 نومبر 2026ء کی براہِ راست خوانی میں اس کے مصدقہ انسٹاگرام اکاؤنٹ کے 1,347,190 فالوور تھے۔"
+roles: [actor, presenter, influencer]
+wings: [people, living]
+regions: [southeast-asia]
+born:
+  edtf: "1986-06-22"
+  calendar: gregorian
+  precision: day
+  status: historical
+  sources: [source/wikipedia-diana-amir-ms]
+relations:
+  - { type: born_in, target: place/birmingham, sources: [source/wikipedia-diana-amir-ms] }
+  - { type: lived_in, target: place/johor-bahru, sources: [source/wikipedia-diana-amir-ms] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read in this build names a school or order for her: the Malay Wikipedia article records her adoption of the hijab in 2011 and her later retirement from acting, which are matters of practice and career, not attestations of any school. Under this lane's two-source rule her school therefore stays unknown."
+    sources: [source/wikipedia-diana-amir-ms]
+reach:
+  - { platform: instagram, metric: followers, value: 1347190, date: "2026-11-15", note: "@dianaamir: 1,347,190 followers in this build's fresh direct read of the platform page on 15 November 2026 — the figure of record. The wave-201 harvest relied on Socialveins' profile snapshot, whose metrics were recorded on 15 April 2026 (1,400,000 followers), corroborated by StarNgage's December 2025 ranking (1.4M); the snapshot corroborates the scale. The figure is a dated platform count, not a museum-verified fact", sources: [source/instagram-dianaamir] }
+sources: [source/wikipedia-diana-amir-ms, source/yadim-diana-amir, source/instagram-dianaamir]
+provenance:
+  layer: own-research
+  source: "Built from the wave-201 (Indonesian/Malay scene, Tier 2 re-check) harvest §4.2 and build-time checks of 15 November 2026: the Malay Wikipedia article on Diana Amir, YADIM's achievements page as recorded by the wave-200 and wave-201 harvests, and a fresh direct read of her Instagram profile. Qualification rests on Instagram @dianaamir: the harvest's evidence was the April 2026 Socialveins snapshot (1,400,000, with StarNgage's December 2025 corroboration); this build re-verified first, as the brief required, and obtained 1,347,190 followers from the platform page itself on 15 November 2026 — far above the women's bar, and the figure of record. Her schooling in Johor Bahru, recorded in the article, grounds the lived_in relation there. No source read names a school for her, so her faith stays unknown. No Wikidata identifier was verified in this build, so none is recorded."
+  generated_by: "Muse (Muse Wonder)"
+  run: modern-figures-wave-201-B
+status: { review: published, completeness: 2 }

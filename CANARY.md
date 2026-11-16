@@ -15,6 +15,8 @@ open a new block on top with the new version and today's date.
 
 ## v1.80.0 — 2026-11-17
 ### Added
+- Twenty more figures and media groups of the Indonesian and Malaysian scenes join the modern-figures collection (wave 201), each with Arabic, English and Urdu prose and its sources showing: the preachers and scholars Bachtiar Nasir, Zulkifli Mohamad Al-Bakri, Mohd Asri Zainul Abidin, Don Daniyal, Abdullah Khairi, Syamsul Debat, Habib Ali Zaenal Abidin Al-Hamid and Zaidul Akbar; the nasheed singers Haddad Alwi and the groups Hijjaz and Inteam; the presenters and creators Diana Amir, Aisyah Hijanah, Auni Mohamed and Syamsul Yusof; the filmmaker Hanung Bramantyo; and the channels Akhyar TV, NU Channel, TV AlHijrah and TVMu.
+- The AQL Islamic Center record gains its founder edge to Bachtiar Nasir, written on the group side now that his person record exists in the collection (wave 201 lander fix).
 - Job Browser linking wave 6: 57 `occupations:` edges on 25 person records — commander, emir, muhaddith, alim, singer, diplomat, engineer, musician, mathematician and twelve more jobs.
 
 ## v1.79.0 — 2026-11-17

@@ -1,0 +1,45 @@
+id: person/mohd-asri-zainul-abidin
+education:
+  did_you_know:
+    ar: "محمد عصري زين العابدين، المعروف بـ«الدكتور مازا»، عالم وداعية ماليزي وُلد في بوكيت ميرتاجام ببينانغ سنة 1971، وهو مفتي برليس منذ 2015 بعد ولاية أولى 2006–2008، وكان في الخامسة والثلاثين أصغر مفتٍ في ماليزيا."
+    en: "Mohd Asri Zainul Abidin, known as Dr Maza, is a Malaysian scholar and preacher born in Bukit Mertajam, Penang, in 1971; Mufti of Perlis since 2015 after a first term in 2006-2008, and at thirty-five Malaysia's youngest mufti."
+    ur: "محمد عصری زین العابدین، «ڈاکٹر مازا»، ملائیشیائی عالم اور مبلغ ہے جو 1971ء میں پینانگ میں پیدا ہوا؛ 2015ء سے پرلیس کا مفتی ہے، پہلی مدت 2006ء–2008ء میں رہی، اور پینتیس برس میں ملائیشیا کا کم عمر ترین مفتی تھا۔"
+    sources: [source/wikipedia-mohd-asri-zainul-abidin-en, source/oxford-bibliographies-mohd-asri]
+class: person
+label: { ar: "محمد عصري زين العابدين", en: "Mohd Asri Zainul Abidin", ur: "محمد عصری زین العابدین" }
+names:
+  - { value: "محمد عصري بن زين العابدين", kind: full }
+  - { value: "Mohd Asri bin Zainul Abidin", kind: full }
+  - { value: "Dr MAZA", kind: alternate }
+  - { value: "Abu Talhah Al-Malizi", kind: alternate }
+gender: male
+summary:
+  ar: "عالم وداعية وكاتب ماليزي، وُلد في بوكيت ميرتاجام ببينانغ في 1 يناير 1971، وهو مفتي ولاية برليس منذ 2 فبراير 2015 بعد ولاية أولى من 2006 إلى 2008، وأستاذ مشارك دائم في جامعة العلوم الماليزية. عُرف بمدونته «ميندا تجديد» وأعمدته الصحفية وكتبه منذ 2003. بلغ حسابه الموثّق على إنستغرام 215,646 متابعًا في 15 نوفمبر 2026."
+  en: "Malaysian scholar, preacher and writer, born in Bukit Mertajam, Penang, on 1 January 1971. He has served as Mufti of the state of Perlis since 2 February 2015, after a first term from 2006 to 2008, and remains a permanent associate professor at Universiti Sains Malaysia. He is known for his Minda Tajdid blog, his newspaper columns and his books since 2003. His verified Instagram account counted 215,646 followers on 15 November 2026."
+  ur: "ملائیشیائی عالم، مبلغ اور مصنف، جو یکم جنوری 1971ء کو پینانگ کے بوکیت ميرتاجام میں پیدا ہوا۔ وہ 2 فروری 2015ء سے ریاست پرلیس کا مفتی ہے، اس سے پہلے 2006ء سے 2008ء تک بھی یہ منصب رہا، اور یونیورسٹی سائنس ملائیشیا میں مستقل ایسوسی ایٹ پروفیسر ہے۔ وہ اپنے بلاگ «میندا تجدید»، اخبارات کے کالموں اور 2003ء سے اپنی کتابوں کے لیے جانا جاتا ہے۔ 15 نومبر 2026ء کو اس کے مصدقہ انسٹاگرام اکاؤنٹ کے 215,646 فالوور تھے۔"
+roles: [mufti, preacher, writer]
+wings: [people, living]
+regions: [southeast-asia]
+born:
+  edtf: "1971-01-01"
+  calendar: gregorian
+  precision: day
+  status: historical
+  note: "Date and place from the English Wikipedia article, corroborated by the Oxford Bibliographies entry (born 1971, Bukit Mertajam, Penang). No Bukit Mertajam place record exists in the graph, so the birth relation uses the state record, place/penang."
+  sources: [source/wikipedia-mohd-asri-zainul-abidin-en, source/oxford-bibliographies-mohd-asri]
+relations:
+  - { type: born_in, target: place/penang, sources: [source/wikipedia-mohd-asri-zainul-abidin-en, source/oxford-bibliographies-mohd-asri] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The English Wikipedia article's infobox field 'Known for: Salafism' is structured data and never counts. The same article's prose describes his 'Sunnah Perlis' teaching as a Salafi revival and reform agenda and says he accepts moderate ideas from the Salafi school — one source's prose characterisation, preserved here as an attestation. The Oxford Bibliographies entry read names no school, and no second independent prose attestation was verified in this build; his muftiate is an office and never counts. Under this lane's two-source rule his school therefore stays unknown."
+    sources: [source/wikipedia-mohd-asri-zainul-abidin-en, source/oxford-bibliographies-mohd-asri]
+reach:
+  - { platform: instagram, metric: followers, value: 215646, date: "2026-11-15", note: "@drmaza_official: 215,646 followers in this build's direct read of the platform page on 15 November 2026; the wave-201 harvest's read the same day recorded 215,645 — the one-follower difference is ordinary live-count drift. No fresh dated count could be pinned for his Facebook, YouTube or X presence, and no older figure is substituted. The figure is a dated platform count, not a museum-verified fact", sources: [source/instagram-drmaza-official] }
+sources: [source/wikipedia-mohd-asri-zainul-abidin-en, source/oxford-bibliographies-mohd-asri, source/instagram-drmaza-official]
+provenance:
+  layer: own-research
+  source: "Built from the wave-201 (Indonesian/Malay scene, Tier 2 re-check) harvest §1.9 and build-time checks of 15 November 2026: the English Wikipedia article on Mohd Asri Zainul Abidin, the Oxford Bibliographies (Islamic Studies) reference entry, and a fresh direct read of his Instagram profile. Qualification rests on Instagram @drmaza_official: the harvest read the platform page itself on 15 November 2026 at 215,645 followers and this build's fresh read the same day returned 215,646 — above the men's bar. He is carried as a religious-office profile: Mufti of Perlis since 2 February 2015, after a first term 2006-2008. His faith stays unknown: the article's infobox 'Known for: Salafism' is structured data, its prose Salafi characterisation of 'Sunnah Perlis' is a single attestation preserved in the faith note, and his office never counts. No Wikidata identifier was verified in this build, so none is recorded."
+  generated_by: "Muse (Muse Wonder)"
+  run: modern-figures-wave-201-B
+status: { review: published, completeness: 2 }

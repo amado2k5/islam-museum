@@ -7,7 +7,7 @@ translators: []
 
 ## Summary
 
-The AQL Islamic Center's YouTube channel (@aqlislamiccenter) is the channel of the AQL Islamic Center in Jakarta, a dawah centre founded by Bachtiar Nasir. {cite:vidiq-aql-islamic-center} It counted 439,000 subscribers by vidIQ's count as of 14 November 2026. {cite:vidiq-aql-islamic-center} The centre is catalogued here as a group; its founder is named in prose, and no person record for him is built in this wave, so no relation is written. {cite:vidiq-aql-islamic-center}
+The AQL Islamic Center's YouTube channel (@aqlislamiccenter) is the channel of the AQL Islamic Center in Jakarta, a dawah centre founded by Bachtiar Nasir. {cite:vidiq-aql-islamic-center} It counted 439,000 subscribers by vidIQ's count as of 14 November 2026. {cite:vidiq-aql-islamic-center} The centre is catalogued here as a group; its founder's person record is built in wave 201, and the founder edge is written on this group record. {cite:vidiq-aql-islamic-center}
 
 ## Work and reach
 

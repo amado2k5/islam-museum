@@ -1,0 +1,40 @@
+id: person/auni-mohamed
+class: person
+label: { ar: "أوني محمد", en: "Auni Mohamed", ur: "اونی محمد" }
+names:
+  - { value: "أوني بن محمد", kind: full }
+  - { value: "Au'ni bin Mohamed", kind: full }
+  - { value: "Ustaz Auni", kind: alternate }
+gender: male
+summary:
+  ar: "داعية ومدرّس ماليزي، وُلد في باسير ماس بكلنتن في 29 ديسمبر 1976، اشتهر بمحاضراته في علم آخر الزمان والأخرويات منذ سنة 2004، ويدرّس في مدرسة حكومية في بينانغ. بلغت صفحته الرسمية على فيسبوك 159,948 متابعًا وملفه المهني 358,122 متابعًا في 15 نوفمبر 2026؛ وليس له قناة رسمية على يوتيوب، فالقناة التي تحمل محاضراته مجمّع تابع لجهة أخرى."
+  en: "Malaysian preacher and schoolteacher, born in Pasir Mas, Kelantan, on 29 December 1976, known for his lectures on Islamic eschatology since 2004 and for teaching at a government school in Penang. His official Facebook page counted 159,948 followers and his professional profile 358,122 followers on 15 November 2026; he has no official YouTube channel, and the channel carrying his lectures is a third-party aggregator."
+  ur: "ملائیشیائی مبلغ اور اسکول استاد، جو 29 دسمبر 1976ء کو کلنتن کے پاسیر ماس میں پیدا ہوا، 2004ء سے علمِ آخر الزمان پر اپنے دروس کے لیے مشہور ہے اور پینانگ کے ایک سرکاری اسکول میں پڑھاتا ہے۔ 15 نومبر 2026ء کو اس کے سرکاری فیس بک صفحے کے 159,948 اور پیشہ ورانہ پروفائل کے 358,122 فالوور تھے؛ اس کا کوئی سرکاری یوٹیوب چینل نہیں، اس کے دروس اٹھانے والا چینل کسی اور کا مجمّع ہے۔"
+roles: [preacher, teacher]
+wings: [people, living]
+regions: [southeast-asia]
+born:
+  edtf: "1976-12-29"
+  calendar: gregorian
+  precision: day
+  status: historical
+  note: "Date and place from two Malaysian biodata profiles (eCentral, 2024; iLabur, updated 2025): born in Pasir Mas, Kelantan. No Pasir Mas place record exists in the graph, so the birth relation uses the state record, place/kelantan."
+  sources: [source/ecentral-auni-mohamed, source/ilabur-auni-mohamed]
+relations:
+  - { type: born_in, target: place/kelantan, sources: [source/ecentral-auni-mohamed, source/ilabur-auni-mohamed] }
+  - { type: lived_in, target: place/penang, sources: [source/ecentral-auni-mohamed, source/ilabur-auni-mohamed] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read in this build names a school or order for him: neither biodata profile does so. His Al-Azhar study of Islamic legislation is his formation, and formation never counts as an attestation under this lane's two-source rule, so his school stays unknown."
+    sources: [source/ecentral-auni-mohamed, source/ilabur-auni-mohamed]
+reach:
+  - { platform: facebook, metric: followers, value: 159948, date: "2026-11-15", note: "Official Facebook page 'Ustaz Au'ni Mohamad - Official' (@ustazauniofficial): 159,948 followers, the platform page itself as read by the wave-201 harvest on 15 November 2026. The figure is a dated platform count, not a museum-verified fact", sources: [source/facebook-auni-mohamed-official] }
+  - { platform: facebook, metric: followers, value: 358122, date: "2026-11-15", note: "Facebook professional profile (@ustazaunimohamed): 358,122 followers, the platform page itself as read by the wave-201 harvest on 15 November 2026, corroborated in direction by his own posts showing about 360,000 author followers in December 2025 and February 2026. He has NO official YouTube channel: the channel carrying his recent lectures is titled 'NASIHAT USTAZ', a generic third-party aggregator keyworded across many preachers, and it is not his and is never credited to him; no YouTube figure is recorded for him. The figure is a dated platform count, not a museum-verified fact", sources: [source/facebook-auni-mohamed-profile] }
+sources: [source/ecentral-auni-mohamed, source/ilabur-auni-mohamed, source/facebook-auni-mohamed-official, source/facebook-auni-mohamed-profile]
+provenance:
+  layer: own-research
+  source: "Built from the wave-201 (Indonesian/Malay scene, Tier 2 re-check) harvest §1.8 and build-time checks of 15 November 2026: the eCentral biodata profile (27 May 2024), the iLabur biodata profile (updated 19 June 2025), and the harvest's own platform reads of his two Facebook presences on 15 November 2026. Qualification rests on Facebook alone: official page 159,948 and professional profile 358,122, both read on the platform itself — above the men's bar. The harvest answered the wave-200 YouTube question directly: no official YouTube channel exists on the evidence read, and the 'NASIHAT USTAZ' channel carrying his lectures is a third-party aggregator that is not his; it is credited nowhere in this record. Birth is recorded at Pasir Mas, Kelantan, on the two profiles' agreement, with the relation carried on the state record because no Pasir Mas place record exists. No source read names a school for him, so his faith stays unknown."
+  generated_by: "Muse (Muse Wonder)"
+  run: modern-figures-wave-201-B
+status: { review: published, completeness: 2 }
