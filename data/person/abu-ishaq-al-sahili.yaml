@@ -14,6 +14,17 @@ wings: [people]
 periods: [period/mongol-post-mongol]
 regions: [andalus-europe, west-africa-sahel]
 died: { edtf: "1346", hijri: "0747", calendar: julian, precision: year, status: tradition, derived: false, note: "EI2 vol. 9 p. 782 gives 747/1346; vol. 6 p. 278 gives 1346.", sources: [source/encyclopaedia-of-islam-2] }
+occupations:
+  - job: job/poet
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'poet', Job Browser linking wave"
+    sources: [source/encyclopaedia-of-islam-2]
+  - job: job/architect
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'architect', Job Browser linking wave"
+    sources: [source/encyclopaedia-of-islam-2]
 relations:
   - { type: lived_in, target: place/granada, note: "Began his career as a notary there; EI2 vol. 9 p. 782.", sources: [source/encyclopaedia-of-islam-2] }
   - { type: traveled_to, target: place/mecca, note: "Performed the pilgrimage, where he met Mansa Musa; EI2 vol. 6 p. 443.", sources: [source/encyclopaedia-of-islam-2] }

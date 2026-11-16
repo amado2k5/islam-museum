@@ -13,6 +13,10 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v1.83.0 — 2026-11-17
+### Added
+- Job Browser linking wave 9: 38 `occupations:` edges on 25 person records — adib, katib, shaykh-al-islam, poet, architect, sultan and six more; the adib, shaykh-al-islam and architect merge-map pools are now fully linked.
+
 ## v1.82.0 — 2026-11-17
 ### Added
 - Job Browser linking wave 8: 50 `occupations:` edges on 25 person records — commander, emir, poet, alim, wali, muhaddith, patron, plus first-ever links for corsair, tribal-chief and teacher.

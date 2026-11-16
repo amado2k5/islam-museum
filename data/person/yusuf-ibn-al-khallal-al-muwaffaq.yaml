@@ -12,6 +12,17 @@ summary:
 wings: [people]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [egypt-nile]
+occupations:
+  - job: job/katib
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'secretary', Job Browser linking wave"
+    sources: [source/wafayat-ayan]
+  - job: job/poet
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'poet', Job Browser linking wave"
+    sources: [source/wafayat-ayan]
 relations:
   - { type: lived_in, target: place/cairo, sources: [source/wafayat-ayan] }
 sources: [source/wafayat-ayan]

@@ -17,5 +17,16 @@ provenance:
   run: lib-wafayat-batch-18
 sources: [source/wafayat-ayan, source/shadharat-dhahab]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+occupations:
+  - job: job/katib
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'katib', Job Browser linking wave"
+    sources: [source/wafayat-ayan, source/shadharat-dhahab]
+  - job: job/poet
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'poet', Job Browser linking wave"
+    sources: [source/wafayat-ayan, source/shadharat-dhahab]
 relations:
   - { type: lived_in, target: place/misr, note: "Place association from the person's nisba/name (المصري); denotes association, not proven residence.", sources: [source/wafayat-ayan, source/shadharat-dhahab], confidence: low }

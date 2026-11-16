@@ -29,6 +29,12 @@ died:
   derived: true
   note: "Died in New York on 25 September 2003, after a twelve-year struggle with chronic lymphocytic leukaemia: the Arabic article, Britannica and his gravestone (as reported by the English article) give 25 September, while the English article's lead and infobox give 24 September, its Urdu counterpart's lead does the same against its own infobox, and Wikidata carries both dates as separate claims. The 25 September date is followed. New York has no place entity in the museum yet, so no died_in relation is written; the English article records his burial in the Protestant Cemetery at Brummana in Lebanon. The Hijri year (1424) is derived by tabular conversion."
   sources: [source/wikipedia-edward-said-ar, source/britannica-edward-said, source/wikipedia-edward-said-en, source/wikidata-edward-said]
+occupations:
+  - job: job/adib
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'literary-critic', Job Browser linking wave"
+    sources: [source/wikipedia-edward-said-en, source/wikipedia-edward-said-ar, source/wikipedia-edward-said-ur, source/wikidata-edward-said, source/britannica-edward-said, source/wikidata]
 relations:
   - { type: born_in, target: place/jerusalem, sources: [source/wikipedia-edward-said-en, source/britannica-edward-said] }
   - { type: lived_in, target: place/cairo, sources: [source/wikipedia-edward-said-en, source/britannica-edward-said] }

@@ -16,6 +16,12 @@ faith:
     basis: unknown
     note: "No source read attests a faith or school for him, so it is recorded as unknown."
     sources: [source/encyclopaedia-of-islam-2]
+occupations:
+  - job: job/architect
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'architect', Job Browser linking wave"
+    sources: [source/encyclopaedia-of-islam-2]
 relations:
   - { type: related_to, target: building/taj-mahal, note: "Named as an overseer of the construction, per EI2 Tadj Mahall and Agra.", sources: [source/encyclopaedia-of-islam-2] }
   - { type: related_to, target: person/ustad-ahmad-lahori, note: "Both are named in connection with the Taj Mahal in EI2 Tadj Mahall; no direct link between them is stated.", sources: [source/encyclopaedia-of-islam-2] }
