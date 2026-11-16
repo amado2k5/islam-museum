@@ -34,6 +34,12 @@ faith:
     basis: unknown
     note: "No source names a school for him, and he left no profession of unbelief. What is documented is an insider's criticism of ritual practice: during the promotion of Madaari at Jaipur in July 2016 he questioned the meaning of Qurbani, said that rather than fasting during Ramzan people should self-introspect, and that Muslims had made a mockery of Muharram; days later he argued on television that he needed no mediators between himself and God. Remarks about ritual practice never count as a faith settlement in this lane, and the clerics who denounced the remarks were policing practice, not recording his belief. His birth into a Muslim Pashtun family of Tonk is background. Wikidata gives only Islam."
     sources: [source/nowrunning-irrfan-khan-2016, source/bollywood-hungama-irrfan-khan-2016, source/wikipedia-irrfan-khan-en, source/wikidata-irrfan-khan]
+occupations:
+  - job: job/actor
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'actor', Job Browser linking wave"
+    sources: [source/wikipedia-irrfan-khan-en, source/wikipedia-irrfan-khan-ar, source/wikipedia-irrfan-khan-ur, source/wikidata-irrfan-khan, source/bollywood-hungama-irrfan-khan-2016, source/nowrunning-irrfan-khan-2016]
 relations:
   - { type: born_in, target: place/tonk, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-irrfan-khan] }
   - { type: died_in, target: place/mumbai, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-irrfan-khan] }

@@ -26,6 +26,12 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0625~" }, note: "صحابي وسفير النبي." }
 died: { edtf: "0659~", hijri: "0039~", calendar: julian, precision: year, status: tradition, derived: true, note: "Lived into Mu'awiya's caliphate and died at Medina before 60 AH (Abu Nu'aym, al-Isaba p. 1086); CE year approximated to 39 AH", sources: [source/ibn-hajar-isaba] }
+occupations:
+  - job: job/diplomat
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'diplomat', Job Browser linking wave"
+    sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira, source/ibn-hisham-saqqa, source/ibn-hajar-isaba]
 relations:
   - { type: lived_in, target: place/abyssinia, note: "From text: of Abyssinia.", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira, source/ibn-hisham-saqqa], confidence: low }
   - { type: participated_in, target: event/mission-of-amr-ibn-umayya-against-abu-sufyan, role: "المبعوث لقتل أبي سفيان؛ راوي الخبر", sources: [source/ibn-hisham-saqqa] }

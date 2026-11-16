@@ -26,6 +26,17 @@ faith:
     basis: unknown
     note: "No source names a school for him. Wikidata gives Islam (P140) only; his celebrated Coke Studio performances of Sufi material such as Tajdar-e-Haram are repertoire, which never counts. Absence configuration, so the record is unflagged."
     sources: [source/wikipedia-atif-aslam-en, source/wikidata-atif-aslam, source/wikidata-atif-aslam]
+occupations:
+  - job: job/singer
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'singer', Job Browser linking wave"
+    sources: [source/wikipedia-atif-aslam-en, source/wikipedia-atif-aslam-ar, source/wikipedia-atif-aslam-ur, source/wikidata-atif-aslam, source/wikidata]
+  - job: job/actor
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'actor', Job Browser linking wave"
+    sources: [source/wikipedia-atif-aslam-en, source/wikipedia-atif-aslam-ar, source/wikipedia-atif-aslam-ur, source/wikidata-atif-aslam, source/wikidata]
 relations:
   - { type: lived_in, target: place/pakistan, note: "From text: Pakistani (nationality adjective); broad association, flagged for review.", sources: [source/wikipedia-atif-aslam-en, source/wikipedia-atif-aslam-ar, source/wikipedia-atif-aslam-ur, source/wikidata-atif-aslam], confidence: low }
 summary:

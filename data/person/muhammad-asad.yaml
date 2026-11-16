@@ -30,6 +30,22 @@ died:
   derived: true
   note: "Died on 20 February 1992 at Mijas, Spain, per the English article's infobox, and was buried in Granada per the Arabic article. Wikidata carries two conflicting death dates (20 and 23 February 1992); the article's text and infobox date, 20 February, is recorded. The Hijri year (1412) is derived by tabular conversion."
   sources: [source/wikipedia-muhammad-asad-en, source/wikipedia-muhammad-asad-ar, source/wikidata-muhammad-asad]
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave"
+    sources: [source/wikipedia-muhammad-asad-en, source/wikipedia-muhammad-asad-ar, source/wikipedia-muhammad-asad-ur, source/wikidata-muhammad-asad, source/institute-of-objective-studies-asad]
+  - job: job/translator
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'translator', Job Browser linking wave"
+    sources: [source/wikipedia-muhammad-asad-en, source/wikipedia-muhammad-asad-ar, source/wikipedia-muhammad-asad-ur, source/wikidata-muhammad-asad, source/institute-of-objective-studies-asad]
+  - job: job/diplomat
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'diplomat', Job Browser linking wave"
+    sources: [source/wikipedia-muhammad-asad-en, source/wikipedia-muhammad-asad-ar, source/wikipedia-muhammad-asad-ur, source/wikidata-muhammad-asad, source/institute-of-objective-studies-asad]
 relations:
   - { type: lived_in, target: place/lahore, sources: [source/wikipedia-muhammad-asad-en] }
   - { type: buried_in, target: place/granada, sources: [source/wikipedia-muhammad-asad-en, source/wikipedia-muhammad-asad-ar, source/wikidata-muhammad-asad] }

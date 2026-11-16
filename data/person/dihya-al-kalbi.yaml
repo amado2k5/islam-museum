@@ -27,6 +27,12 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0625~" }, note: "صحابي جليل وسفير النبي." }
 died: { edtf: "0660~", hijri: "0040~", calendar: julian, precision: year, status: tradition, derived: true, note: "Settled at Damascus in al-Mizza and lived into Mu'awiya's caliphate (al-Isaba p. 427); CE year approximated to 40 AH", sources: [source/ibn-hajar-isaba] }
+occupations:
+  - job: job/diplomat
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'diplomat', Job Browser linking wave"
+    sources: [source/ansab-al-ashraf, source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/zad-al-maad, source/ibn-hisham-saqqa, source/ibn-hajar-isaba, source/wikidata]
 relations:
   - { type: born_in, target: place/dumat-al-jandal, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/mezzeh, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
