@@ -1,0 +1,23 @@
+id: concept/ilaj-al-shaqiqa
+class: concept
+kind: scientific
+label:
+  ar: "علاج الشقيقة"
+  en: "Treatment of migraine"
+  ur: "شقیقہ کا علاج"
+summary:
+  ar: "يذكر ابن سينا مبدأ علاج الشقيقة بالاستفراغ على نحو ما في البيضة، وتدبير ذات الدور وتبديل المزاج بعد التنقية، وأن المزمن بارد يحتاج إلى التحليل وما يسخّن بقوة؛ ولا تُنقل الوصفات ولا طرق الاستعمال {cite:canon-ibn-sina-print-v2 p.74} {cite:canon-ibn-sina-print-v2 p.75}"
+  en: "Ibn Sina gives the principle of treating migraine as evacuation, as for the bayda, the management of the periodic kind with a change of temperament after cleansing, and that the long-standing kind is cold and needs dissolving and strong warming; recipes and methods of application are not reproduced {cite:canon-ibn-sina-print-v2 p.74} {cite:canon-ibn-sina-print-v2 p.75}"
+  ur: "ابن سینا شقیقہ کے علاج کا اصول استفراغ بتاتا ہے جیسا بیضہ میں ہے، باری والی قسم کی تدبیر اور صفائی کے بعد مزاج بدلنا، اور یہ کہ پرانی قسم ٹھنڈی ہے اور اسے تحلیل اور قوت سے گرم کرنے کی حاجت ہے؛ نسخے اور استعمال کے طریقے نقل نہیں کیے گئے {cite:canon-ibn-sina-print-v2 p.74} {cite:canon-ibn-sina-print-v2 p.75}۔"
+wings: [living]
+tags: [tibb-browser, tibb-tibb, tibb-tadawi]
+sources: [source/canon-ibn-sina-print-v2]
+relations:
+  - { type: part_of, target: concept/medical-treatment, sources: [source/canon-ibn-sina-print-v2] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 1, maqala 2, scan pages 74-75, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json) with the PDF page images rendered with pdftoppm and read by eye against the OCR for every cited page; editor footnotes used only for glosses and labelled as the editor's; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein and cupping sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book3-3
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

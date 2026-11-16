@@ -11,7 +11,7 @@ regions: [maghreb]
 date:
   start: { edtf: "1921", precision: year, status: tradition, derived: true }
   end: { edtf: "1926", precision: year, status: tradition, derived: true }
-sources: [source/tarikh-islam-hasan-ibrahim]
+sources: [source/tarikh-islam-hasan-ibrahim, source/oxford-dictionary-of-islam]
 map:
   kind: campaign
   precision: locality
@@ -32,4 +32,5 @@ provenance:
   generated_by: "Devin (SWE-2 High)"
   model: "SWE-2 High"
   run: wikidata-import-wave2
+  oxford_captures: "t125/e2016: http://www.oxfordislamicstudies.com/article/opr/t125/e2016 ; https://web.archive.org/web/20190916161720/http://www.oxfordislamicstudies.com/article/opr/t125/e2016"
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

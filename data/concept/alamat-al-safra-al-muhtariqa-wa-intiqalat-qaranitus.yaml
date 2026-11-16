@@ -1,0 +1,23 @@
+id: concept/alamat-al-safra-al-muhtariqa-wa-intiqalat-qaranitus
+class: concept
+kind: scientific
+label:
+  ar: "علامات قرانيطس من الصفراء المحترقة وعلامات انتقاله"
+  en: "Signs of qaranitus from burnt bile and the signs of its transfer"
+  ur: "جلی ہوئی صفراء سے قرانیطس کی علامات اور اس کی منتقلی کی علامات"
+summary:
+  ar: "يذكر ابن سينا أن قرانيطس الكائن من صفراء محترقة هو الرديء المهلك وعلاماته الجنون والضجر، ثم علامات انتقاله إلى ليثرغس وإلى سفاقلوس والورم الدماغي وإلى الدق وإلى التشنج {cite:canon-ibn-sina-print-v2 p.80}"
+  en: "Ibn Sina says the qaranitus from burnt bile is the bad and deadly one, with madness and vexation, and then gives the signs of its passing into lethargus, into safaqulus and the cerebral swelling, into consumption and into convulsion {cite:canon-ibn-sina-print-v2 p.80}"
+  ur: "ابن سینا کہتا ہے کہ جلی ہوئی صفراء سے ہونے والا قرانیطس برا اور ہلاک کرنے والا ہے اور اس کی علامات جنون اور بیزاری ہیں، پھر لیثرغس، سفاقلوس اور دماغی سوجن، دق اور تشنج میں اس کی منتقلی کی علامات بتاتا ہے {cite:canon-ibn-sina-print-v2 p.80}۔"
+wings: [living]
+tags: [tibb-browser, tibb-tibb]
+sources: [source/canon-ibn-sina-print-v2]
+relations:
+  - { type: part_of, target: concept/symptoms-and-signs, sources: [source/canon-ibn-sina-print-v2] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 1, maqala 3, scan pages 80, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json) with the PDF page images rendered with pdftoppm and read by eye against the OCR for every cited page; editor footnotes used only for glosses and labelled as the editor's; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein and cupping sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book3-3
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

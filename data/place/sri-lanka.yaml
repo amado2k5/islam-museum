@@ -11,11 +11,12 @@ coordinates: [7, 81]
 coordinate_precision: approx
 coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
 external_ids: { wikidata: "Q854" }
-sources: [source/wikidata]
+sources: [source/wikidata, source/oxford-dictionary-of-islam]
 provenance:
   layer: own-research
   source: "Wikidata item Q854 (labels, coordinates, country), read via the Wikidata API in the person-place geo-enrichment run."
   generated_by: "Devin"
   model: "Devin (Cognition)"
   run: person-place-geo-b
+  oxford_captures: "t125/e2250: http://www.oxfordislamicstudies.com/article/opr/t125/e2250 ; https://web.archive.org/web/20201204172501/http://oxfordislamicstudies.com/article/opr/t125/e2250"
 status: { review: draft, completeness: 1, generated_by: "Devin" }

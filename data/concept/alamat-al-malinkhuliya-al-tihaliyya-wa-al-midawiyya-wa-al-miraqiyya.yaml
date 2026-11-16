@@ -1,0 +1,23 @@
+id: concept/alamat-al-malinkhuliya-al-tihaliyya-wa-al-midawiyya-wa-al-miraqiyya
+class: concept
+kind: scientific
+label:
+  ar: "علامات المالنخوليا الطحالية والمعدية والمراقية"
+  en: "Signs of spleen, stomach and hypochondriac melancholia"
+  ur: "تلی، معدے اور مراق سے مالنخولیا کی علامات"
+summary:
+  ar: "يذكر ابن سينا علامات المالنخوليا بحسب العضو: الطحال ⁦(كثرة الشهوة وقلة الهضم وانتفاخ الطحال)⁩، والمعدة ⁦(علامات ورمها وزيادة العلة مع التخمة)⁩، والمراق ⁦(ثقل وتهوع وفساد هضم ووجع)⁩، وفيه سطر موسوم في قسم معلق لحكم المؤسس {cite:canon-ibn-sina-print-v2 p.106} {cite:canon-ibn-sina-print-v2 p.107}"
+  en: "Ibn Sina gives the signs of melancholia by organ: the spleen (abundant appetite, poor digestion, swelling of the spleen), the stomach (the signs of its swelling and increase with indigestion) and the hypochondrium (heaviness, retching, spoiled digestion, pain); the record has a labelled line in a section held for the founder's ruling {cite:canon-ibn-sina-print-v2 p.106} {cite:canon-ibn-sina-print-v2 p.107}"
+  ur: "ابن سینا عضو کے لحاظ سے مالنخولیا کی علامات بتاتا ہے: تلی ⁦(بھوک کی زیادتی، ہضم کی کمی، تلی کا پھول جانا)⁩، معدہ ⁦(اس کے ورم کی علامات اور بدہضمی سے مرض کا بڑھنا)⁩ اور مراق ⁦(بوجھ، متلی، بگڑا ہوا ہضم، درد)⁩؛ اس میں ایک موسوم سطر بانی کے فیصلے کے لیے موقوف قسم میں ہے {cite:canon-ibn-sina-print-v2 p.106} {cite:canon-ibn-sina-print-v2 p.107}۔"
+wings: [living]
+tags: [tibb-browser, tibb-tibb]
+sources: [source/canon-ibn-sina-print-v2]
+relations:
+  - { type: part_of, target: concept/symptoms-and-signs, sources: [source/canon-ibn-sina-print-v2] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 1, maqala 4 and 5, scan pages 106 to 107, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json) with the PDF page images rendered with pdftoppm and read by eye against the OCR for every cited page (lists of signs and unclear words at 200 to 220 dpi); editor footnotes used only for glosses and labelled as the editor's; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein and cupping sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book3-5
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

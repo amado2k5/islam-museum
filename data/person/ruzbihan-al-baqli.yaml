@@ -16,7 +16,7 @@ periods: [period/crusades-ayyubid-mamluk]
 regions: [persia-central-asia]
 story_roles:
   - { role: saint, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
-sources: [source/mawsuat-a3lam-ulama-adaba]
+sources: [source/mawsuat-a3lam-ulama-adaba, source/oxford-dictionary-of-islam]
 status:
   review: published
   completeness: 3
@@ -26,5 +26,6 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch62
+  oxford_captures: "t125/e2034: http://www.oxfordislamicstudies.com/article/opr/t125/e2034 ; https://web.archive.org/web/20170410022132/http://www.oxfordislamicstudies.com:80/article/opr/t125/e2034"
 relations:
   - { type: lived_in, target: place/shiraz, confidence: low, note: "Association inferred from the nisba 'الشيرازي'; specific birthplace or residence is not individually documented.", sources: [source/mawsuat-a3lam-ulama-adaba] }

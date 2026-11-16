@@ -16,3 +16,6 @@ Mesopotamia is the historical region within the Tigris and Euphrates river syste
 
 ## In Nomisma
 The Nomisma numismatic vocabulary links this entry to the concept «mesopotamia», which it classes as a region, that is, an area of issue and not a mint or issuing authority. It takes its source from Head's Historia Numorum (1911), places it under the broader concept «greek_asia», and lists it in its Greek numismatics and Roman provincial numismatics groups. Its endpoint records 24 coins or coin types that name it as their region, and 22 other Nomisma concepts name it as their broader term. Nomisma gives the Arabic label «بلاد الرافدين» and the Urdu label «بین النہرین». {cite:nomisma mesopotamia}
+
+## In The Oxford Dictionary of Islam
+The Oxford Dictionary of Islam glosses Mesopotamia as the "land between the two rivers" and describes a region of great strategic and commercial weight within the fertile valleys of the Tigris and Euphrates. It names the Sumerian, Assyrian and Babylonian empires among the many great empires it was home to. It was the site of Baghdad and Samarra, capitals of the Abbasids, and of Karbala and Najaf, holy cities of the Shia. {cite:oxford-dictionary-of-islam e1500}

@@ -1,0 +1,23 @@
+id: concept/ilaj-al-kabus
+class: concept
+kind: scientific
+label:
+  ar: "علاج الكابوس"
+  en: "Treatment of al-kabus"
+  ur: "کابوس کا علاج"
+summary:
+  ar: "يذكر ابن سينا أن علاج الكابوس الاستفراغ بما يخرج كل خلط، ثم تقوية الرأس بالقانون الكلي، وأن لا يطول الكلام فيه لما تقدم؛ ولا تُنقل الوصفات ولا المقادير {cite:canon-ibn-sina-print-v2 p.118}"
+  en: "Ibn Sina says the treatment of al-kabus is evacuation by what brings out each humour, then strengthening the head by the general rule, and that the discussion need not be long, for what came before suffices; recipes and quantities are not reproduced {cite:canon-ibn-sina-print-v2 p.118}"
+  ur: "ابن سینا کہتا ہے کہ کابوس کا علاج ہر خلط کو نکالنے والی شے سے استفراغ ہے، پھر عام قانون کے مطابق سر کو قوت دینا، اور یہ کہ اس میں بات لمبی نہ کی جائے کیونکہ گزشتہ کافی ہے؛ نسخے اور مقداریں نقل نہیں کی گئیں {cite:canon-ibn-sina-print-v2 p.118}۔"
+wings: [living]
+tags: [tibb-browser, tibb-tibb, tibb-tadawi]
+sources: [source/canon-ibn-sina-print-v2]
+relations:
+  - { type: part_of, target: concept/medical-treatment, sources: [source/canon-ibn-sina-print-v2] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 1, maqala 4 and 5, scan page 118, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json) with the PDF page images rendered with pdftoppm and read by eye against the OCR for every cited page (lists of signs and unclear words at 200 to 220 dpi); editor footnotes used only for glosses and labelled as the editor's; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein and cupping sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book3-5
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

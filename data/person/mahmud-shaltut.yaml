@@ -16,8 +16,8 @@ born: { edtf: "1893", calendar: gregorian, precision: year, derived: true, note:
 died: { edtf: "1963", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam / EI2" }
 relations:
   - { type: lived_in, target: place/al-buhayra, confidence: low, note: "Associated with البحيرة per the record's own summary text; relation type pending review.", sources: [source/al-islam-aqida-wa-shariah-azhar] }
-sources: [source/al-islam-aqida-wa-shariah-azhar]
-provenance: { layer: own-research, source: "al-Islam Aqida wa Shari'a, Academy 2018, pp. 11-19 (PDF pagination) introduction by Muhammad Imara", generated_by: "Claude (Haiku 5.5)", model: "claude-haiku-5-5", run: "azhar-academy-al-islam-aqida-wa-shariah" }
+sources: [source/al-islam-aqida-wa-shariah-azhar, source/oxford-dictionary-of-islam]
+provenance: { layer: own-research, source: "al-Islam Aqida wa Shari'a, Academy 2018, pp. 11-19 (PDF pagination) introduction by Muhammad Imara", generated_by: "Claude (Haiku 5.5)", model: "claude-haiku-5-5", run: "azhar-academy-al-islam-aqida-wa-shariah" , oxford_captures: "t125/e2159: http://www.oxfordislamicstudies.com/article/opr/t125/e2159 ; https://web.archive.org/web/20180811135610/http://www.oxfordislamicstudies.com:80/article/opr/t125/e2159"}
 status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); biographical dates from the book's introduction, needs_source: second source for birth and Grand Imam dates" }
 occupations:
   - job: job/faqih

@@ -16,3 +16,6 @@ The Mongols were peoples of Asia who united under Genghis Khan, expanded until t
 
 ## Research notes
 - The fall of Baghdad is reported in all sources; the Ibn Khaldun text here is from the extracted Ibar (Heliopolis 1957), pp. 34-36 OCR, and numeric details need checking against the page images before expansion.
+
+## In The Oxford Dictionary of Islam
+The Oxford Dictionary of Islam describes the Mongols as a tribal people from the steppe of inner Asia. Under Genghis Khan and, after him, his heirs during the thirteenth and fourteenth centuries, they seized most of Asia other than India and created an empire stretching from Korea to Hungary. Within the Islamic Middle East, it says, their Ilkhanid rule centred on Iran and Iraq, and the Mamluk army checked any further advance to the south and west at Ayn Jalut in Syria in 1260. Their conquests, it says, were noted for their ferocity and great devastation. Later Ilkhanid rulers, the Dictionary adds, restored cities and irrigation works, supported agriculture and trade, favoured the traditional urban notables and encouraged monumental architecture, painting and the illumination of manuscripts. {cite:oxford-dictionary-of-islam e1543}

@@ -16,3 +16,6 @@ A maḥram is a close relative who can never marry you — like a mother, a sist
 
 ## Research notes
 - Text from the harvested Kuwaiti Fiqh Encyclopedia (Noor-Book scan): the "maḥram" entry pp. 13969–13981 (definition, grounds, effects on ʿawra, washing and dealings) and "ibn al-ukht among the maḥrams" p. 1460. Details of suckling (number of feedings, proof) belong to its own entry in the source.
+
+## In The Oxford Dictionary of Islam
+The Oxford Dictionary of Islam glosses mahram as forbidden, inviolable, holy, sacred. In its account the word traditionally named the women's section of the Bedouin tent, the bayt, used for cooking and for storing supplies, and its plural, maharim, denotes the close female relatives of a man. In Islamic law, it says, mahram means a blood tie that rules out marriage; this entry mentions blood kinship alone, whereas the card above also lists suckling and marriage ties. {cite:oxford-dictionary-of-islam e1391}

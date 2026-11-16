@@ -15,3 +15,6 @@ On his first journey he stayed in Damascus, Mosul and Baghdad, and he embarked f
 He set out again for the East, and died in Alexandria on Wednesday the twenty-seventh of Sha'ban 614 AH. Al-Maqqari relays from Ibn al-Raqiq that prayers made at his grave are answered. {cite:nafh-tib-maqqari p.491}
 
 He transmitted the *Shifa'* (the Book of Healing) from Muhammad ibn Isa al-Tamimi, from the judge Iyad, and he afterwards held the judgeship of Ceuta. {cite:nafh-tib-maqqari p.491}
+
+## In The Oxford Dictionary of Islam
+The Oxford Dictionary of Islam describes Muhammad ibn Ahmad Ibn Jubayr (died 1217) as a Muslim traveller from Spain, best known for his Rihlat Ibn Jubayr. It counts this book among the earliest medieval travel accounts and says it is still an important source for the society of the Mediterranean shores and the Arabian peninsula in that age. {cite:oxford-dictionary-of-islam e946}

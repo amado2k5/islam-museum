@@ -24,10 +24,11 @@ periods: [period/mongol-post-mongol]
 relations:
   - { type: founded_by, target: person/urkhan-ibn-uthman, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: related_to, target: person/alaeddin-pasha, role: "صاحب الفكرة", sources: [source/dawlat-uthmaniyya-salabi] }
-sources: [source/dawlat-uthmaniyya-salabi]
+sources: [source/dawlat-uthmaniyya-salabi, source/oxford-dictionary-of-islam]
 provenance:
   layer: own-research
   source: "الدولة العثمانية لعلي محمد الصلابي، ص 53–55"
   generated_by: "Devin (SWE-2 Medium) from Apple Vision OCR"
   run: lib-salabi-uthmani-batch-3
+  oxford_captures: "t125/e1189: http://www.oxfordislamicstudies.com/article/opr/t125/e1189 ; https://web.archive.org/web/20130314083257/http://www.oxfordislamicstudies.com:80/article/opr/t125/e1189"
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

@@ -1,0 +1,23 @@
+id: concept/al-malinkhuliya
+class: concept
+kind: scientific
+label:
+  ar: "المالنخوليا"
+  en: "Melancholia"
+  ur: "مالنخولیا"
+summary:
+  ar: "يعرّف ابن سينا المالنخوليا بأنها تغيّر الظنون والفكر عن المجرى الطبيعي إلى الفساد والخوف لمزاج سوداوي يوحش روح الدماغ، ويذكر نسبتها إلى المانيا وأن سببها في الدماغ نفسه أو من خارجه {cite:canon-ibn-sina-print-v2 p.103}"
+  en: "Ibn Sina defines melancholia as a change of the opinions and thought from their natural course into corruption and fear, from a black-bile temperament that frightens the pneuma of the brain; he relates it to mania and says its cause lies in the brain itself or outside it {cite:canon-ibn-sina-print-v2 p.103}"
+  ur: "ابن سینا مالنخولیا کو یوں بیان کرتا ہے کہ گمان اور فکر اپنی فطری راہ سے ہٹ کر فساد اور خوف کی طرف چلے جاتے ہیں، سوداوی مزاج کی وجہ سے جو دماغ کی روح کو وحشت زدہ کرتا ہے؛ وہ اسے مانیا سے نسبت دیتا ہے اور کہتا ہے کہ اس کا سبب دماغ ہی میں ہے یا اس سے باہر {cite:canon-ibn-sina-print-v2 p.103}۔"
+wings: [living]
+tags: [tibb-browser, tibb-tibb]
+sources: [source/canon-ibn-sina-print-v2]
+relations:
+  - { type: part_of, target: concept/disease, sources: [source/canon-ibn-sina-print-v2] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 1, maqala 4 and 5, scan page 103, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json) with the PDF page images rendered with pdftoppm and read by eye against the OCR for every cited page (lists of signs and unclear words at 200 to 220 dpi); editor footnotes used only for glosses and labelled as the editor's; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein and cupping sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book3-5
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

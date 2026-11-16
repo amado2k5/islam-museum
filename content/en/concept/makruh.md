@@ -19,3 +19,6 @@ The Hanafis divide it into disliked as reprehensible (tanzih), which is closer t
 
 ## Its ruling
 Usul scholars differ on the ruling on the disliked, on whether the doer is bound to leave it, and on whether a general command covers it; the detail is in the usul appendix. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14935}
+
+## In The Oxford Dictionary of Islam
+The Oxford Dictionary of Islam glosses makruh as reprehensible, detested, hateful and odious. Normally, it says, the word names a value among the five of Islamic law: the others are haram (prohibited), halal (permissible), mustahabb or mandub (preferred) and fard or wajib (obligatory). A makruh act is not forbidden by law but is discouraged, and Muslims are advised to keep away from such acts, since persisting in them continually and insistently leads to sin. {cite:oxford-dictionary-of-islam e1400}
