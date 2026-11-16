@@ -1,0 +1,23 @@
+id: concept/gharab
+class: concept
+kind: natural
+label:
+  ar: "غرب"
+  en: "Gharab"
+  ur: "غرب"
+summary:
+  ar: "غرب في الكتاب شجرة يستعمل لحاؤها وصمغها ويتولد عليها بورق جيد، وزهرها وورقها وعصارتهما مجففة بلا لذع وفيها عفوصة، ولحاؤها أيبس؛ ويذكر الكتاب نفعا للثآليل والجراح الطرية والنقرس ووجع الأذن والحزاز وظلمة البصر ونفث الدم، وأن عصارته تخرج العلق {cite:canon-ibn-sina-print-v1 p.726}"
+  en: "Gharab is in the book a tree whose bark and gum are used and on which a good bawraq forms; its flower, leaf and their juice are drying without stinging and have an astringency, and its bark is drier; the book records benefit for warts, fresh wounds, gout, earache, hazaz, dimness of sight and spitting of blood, and says that its juice expels leeches {cite:canon-ibn-sina-print-v1 p.726}"
+  ur: "غرب کتاب میں ایک درخت ہے جس کی چھال اور گوند استعمال ہوتی ہے اور جس پر اچھا بَورق بنتا ہے؛ اس کا پھول، پتا اور ان کا رس بغیر چبھن کے خشک کرنے والے ہیں اور ان میں قبض ہے، اور اس کی چھال زیادہ خشک ہے؛ کتاب مسوں، تازہ زخموں، نقرس، کان کے درد، حزاز، نظر کی دھندلاہٹ اور خون تھوکنے میں فائدہ بتاتی ہے، اور کہتی ہے کہ اس کا رس جونکوں کو نکالتا ہے {cite:canon-ibn-sina-print-v1 p.726}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, scan pages scan page 726, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image rendered with pdftoppm and read by eye for every heading and doubtful clause; editor footnotes used only for identity; measured doses, weights, counts, times and preparation methods left out; unclear lines left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-33
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

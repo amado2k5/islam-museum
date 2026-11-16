@@ -1,0 +1,23 @@
+id: concept/khamalawn
+class: concept
+kind: natural
+label:
+  ar: "خامالاون"
+  en: "Khamalawn"
+  ur: "خامالاون"
+summary:
+  ar: "خامالاون في الكتاب دواء لا يشرب في شيء بل يستعمل من خارج، يطلى على البهق والجرب والقوابي ويضمد به القروح المتأكلة؛ ويذكر الكتاب أن أصول الأبيض منه ينتفع به صاحب الاستسقاء وتقتل الديدان، وأن في الأسود منه شيئا قتالا {cite:canon-ibn-sina-print-v1 p.717}"
+  en: "Khamalawn is in the book a drug that is not drunk in anything but used from outside, applied to bahaq, scab and qawabi and used as a poultice on eating ulcers; the book says that the roots of its white kind benefit one with dropsy and kill worms, and that in the black kind there is something deadly {cite:canon-ibn-sina-print-v1 p.717}"
+  ur: "خامالاون کتاب میں ایک دوا ہے جو کسی چیز میں پی نہیں جاتی بلکہ باہر سے استعمال ہوتی ہے، بہق، جرب اور قوابی پر لگائی جاتی ہے اور کھانے والے زخموں پر ضماد کی جاتی ہے؛ کتاب کہتی ہے کہ اس کی سفید قسم کی جڑیں استسقاء والے کو فائدہ دیتی ہیں اور کیڑوں کو مارتی ہیں، اور سیاہ قسم میں کوئی مہلک چیز ہے {cite:canon-ibn-sina-print-v1 p.717}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, scan pages 717, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image rendered and read by eye for every heading and doubtful clause; editor footnotes used only for identity; measured doses, weights, counts, times and preparation methods left out; unclear lines left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-32
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

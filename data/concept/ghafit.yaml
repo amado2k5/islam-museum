@@ -1,0 +1,23 @@
+id: concept/ghafit
+class: concept
+kind: natural
+label:
+  ar: "غافت"
+  en: "Ghafit"
+  ur: "غافت"
+summary:
+  ar: "غافت في الكتاب من الحشائش الشائكة، وله ورق كورق الشهدانج أو ورق القنطافلون، وزهره كالنيلوفر وهو المستعمل أو عصارته، وتعليق المحقق أنه شجرة البراغيث؛ حار في الأولى يابس في الثانية، لطيف قطاع جلاء، جيد في ابتداء داء الثعلب وداء الحية، نافع من الجرب والحكة وأوجاع الكبد وسدده وصلابة الطحال وأورام الكبد والمعدة ومن الحميات المزمنة {cite:canon-ibn-sina-print-v1 p.725}"
+  en: "Ghafit is in the book one of the thorny herbs, with a leaf like the leaf of shahdanaj or the leaf of qantaflun and a flower like the water lily, which is what is used, or its sap, and the editor's note says it is the flea tree (shajarat al-baraghith); hot in the first degree and dry in the second, subtle, cutting and cleansing, good at the beginning of da' al-tha'lab and da' al-hayya, and beneficial for scab and itch, pains and obstructions of the liver, hardness of the spleen, swellings of the liver and stomach, and long-standing fevers {cite:canon-ibn-sina-print-v1 p.725}"
+  ur: "غافت کتاب میں کانٹے دار بوٹیوں میں سے ہے، اس کا پتا شہدانج کے پتے یا قنطافلون کے پتے جیسا ہے اور پھول نیلوفر جیسا، اور یہی استعمال ہوتا ہے یا اس کا رس، اور محقق کا حاشیہ کہتا ہے کہ یہ شجرۃ البراغیث ہے؛ پہلے درجے میں گرم اور دوسرے میں خشک، لطیف، کاٹنے والا اور جلا دینے والا، داء الثعلب اور داء الحیہ کے آغاز میں اچھا، اور جرب، خارش، جگر کے دردوں اور رکاوٹوں، تلی کی سختی، جگر اور معدے کے ورموں اور پرانے بخاروں میں نافع {cite:canon-ibn-sina-print-v1 p.725}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, scan pages 725, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image rendered and read by eye for every heading and doubtful clause; editor footnotes used only for identity; measured doses, weights, counts, times and preparation methods left out; unclear lines left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-32
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

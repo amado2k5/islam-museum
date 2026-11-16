@@ -16,3 +16,8 @@ A writer from Egypt who told the stories of the Companions in beautiful language
 
 ## Research notes
 - The book gives no biography of its author; his dates need another source.
+
+## In The Oxford Dictionary of Islam
+The Oxford Dictionary of Islam lists Khalid Muhammad Khalid as an Egyptian writer born in 1920, the same year this record carries. It says he first supported social justice and reform on a secular basis, but by the 1980s his main concern had become Islamic authenticity. {cite:oxford-dictionary-of-islam e1260}
+
+It attributes to him the belief that Islam has a civil mission as well as a religious one and that a state ought to put Islamic principles into practice, that the aim of an Islamic state is liberty and opposition to despotism, and that he reads the Qur'anic concept of shura, consultation, as parliamentary democracy. {cite:oxford-dictionary-of-islam e1260} This is the Dictionary's picture of his intellectual path; the entry dates the change only as the 1980s, so no precise sequence is built on it. It connects with his books on freedom and democracy listed above, such as al-Dimuqratiyya Abadan.

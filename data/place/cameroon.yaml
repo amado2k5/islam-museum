@@ -11,10 +11,11 @@ coordinates: [5.7, 12.7]
 coordinate_precision: approx
 coordinate_note: "Identified location / approximate regional centre; flagged for gazetteer verification."
 external_ids: { wikidata: "Q1009" }
-sources: [source/wikidata, source/geonames-gazetteer]
+sources: [source/wikidata, source/geonames-gazetteer, source/oxford-dictionary-of-islam]
 status: { review: draft, completeness: 1 }
 provenance:
   layer: own-research
   generated_by: "Devin"
   run: "person-place-geo-a"
   note: "Country/region entity so persons substantiated only at country level resolve on the map."
+  oxford_captures: "t125/e406: http://www.oxfordislamicstudies.com/article/opr/t125/e406 ; https://web.archive.org/web/20140810145916/http://www.oxfordislamicstudies.com/article/opr/t125/e406"

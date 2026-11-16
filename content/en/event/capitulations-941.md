@@ -14,3 +14,8 @@ The negotiations began after the battle of Pavia in 1525 CE, in which the king o
 al-Sallabi mentions among them freedom of movement and navigation, the right to trade throughout the state, the payment of duties once, consular representation with immunity, the consul's jurisdiction over the subjects of his king, freedom of worship for them, and a prohibition on enslaving his subjects. {cite:dawlat-uthmaniyya-salabi p.203}
 
 Among its results, in his view, were greater cooperation between the two fleets, and Ottoman fleet attacks on the shores of the kingdom of Naples. {cite:dawlat-uthmaniyya-salabi p.203}
+
+## In The Oxford Dictionary of Islam
+The Oxford Dictionary of Islam defines capitulations as commercial concessions given by Muslim states, chiefly the Ottoman and Persian empires, so that Christian European states could trade with them. It says the practice grew out of aman (safe conduct) and covered customs rates, safety for persons, possessions and faith, and channels for resolving legal disputes. Once power shifted towards western Europe, the arrangement was turned into a means of gaining exemptions and extraterritorial standing for Europeans and those under their wing inside Muslim lands; by the 1800s, the Dictionary says, it had become an instrument of imperialist exploitation. {cite:oxford-dictionary-of-islam e409}
+
+It gives the end dates as 1914 for the Ottoman Empire, 1928 for Iran and 1937 for Egypt. {cite:oxford-dictionary-of-islam e409} The Dictionary treats the general institution; this record covers the specific Franco-Ottoman agreement of 941 AH.

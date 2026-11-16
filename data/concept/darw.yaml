@@ -1,0 +1,23 @@
+id: concept/darw
+class: concept
+kind: natural
+label:
+  ar: "ضرو"
+  en: "Darw"
+  ur: "ضرو"
+summary:
+  ar: "ضرو في الكتاب معروف، ورب الضرو صمغه ويجلب إلى مكة، حار في الثالثة رطب في الأولى، جلاء محلل جذاب من عمق البدن، وصمغه صمغ في شجرة الكمكام وهو كاللأذن في القوة طيب، ورب الضرو نافع جدا لسيلان الرطوبة من الفم وقروحه، وفيه قوة عاقلة للبطن {cite:canon-ibn-sina-print-v1 p.721}"
+  en: "Darw is in the book known, and rubb al-darw is its gum, brought to Mecca; it is hot in the third degree and moist in the first, cleansing, dissolving and drawing from the depth of the body; its gum is a gum in the kamkam tree, like al-la'dhan in strength, and fragrant; rubb al-darw is very beneficial for flow of moisture from the mouth and its ulcers, and it has a power that binds the belly {cite:canon-ibn-sina-print-v1 p.721}"
+  ur: "ضرو کتاب میں معروف ہے، اور رب الضرو اس کا گوند ہے جو مکہ لایا جاتا ہے؛ تیسرے درجے میں گرم اور پہلے میں تر، جلا دینے والا، تحلیل کرنے والا اور بدن کی گہرائی سے کھینچنے والا؛ اس کا گوند کمکام کے درخت کا گوند ہے، قوت میں اللاذن کی طرح اور خوشبودار، رب الضرو منہ سے رطوبت کے بہنے اور منہ کے زخموں میں بہت نافع ہے، اور اس میں پیٹ کو روکنے والی قوت ہے {cite:canon-ibn-sina-print-v1 p.721}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, scan pages 721, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image rendered and read by eye for every heading and doubtful clause; editor footnotes used only for identity; measured doses, weights, counts, times and preparation methods left out; unclear lines left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-32
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

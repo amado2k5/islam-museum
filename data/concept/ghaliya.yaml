@@ -1,0 +1,23 @@
+id: concept/ghaliya
+class: concept
+kind: natural
+label:
+  ar: "غالية"
+  en: "Ghaliya"
+  ur: "غالیہ"
+summary:
+  ar: "غالية في الكتاب دواء معروف، وتعليق المحقق أنه دواء مركب؛ تلين الأورام الصلبة، وشمها ينفع المصروع وينعشه ويسكن الصداع البارد ويفرح القلب؛ وفيها نقل موسوم عن الرحم في قسم معلق لحكم المؤسس {cite:canon-ibn-sina-print-v1 p.727}"
+  en: "Ghaliya is in the book a known drug, and the editor's note says it is a compound drug; it softens hard swellings, and smelling it benefits the epileptic and revives him, calms cold headache and gladdens the heart; it has a labelled listing on the womb in a section held for the founder's ruling {cite:canon-ibn-sina-print-v1 p.727}"
+  ur: "غالیہ کتاب میں ایک معروف دوا ہے، اور محقق کا حاشیہ کہتا ہے کہ یہ مرکب دوا ہے؛ یہ سخت ورموں کو نرم کرتی ہے، اور اسے سونگھنا مرگی والے کو فائدہ دیتا اور اسے تازہ دم کرتا ہے، ٹھنڈے سردرد کو سکون دیتا ہے اور دل کو خوش کرتا ہے؛ رحم کے بارے میں ایک موسوم نقل بانی کے فیصلے کے لیے موقوف قسم میں ہے {cite:canon-ibn-sina-print-v1 p.727}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, scan pages scan page 727, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image rendered with pdftoppm and read by eye for every heading and doubtful clause; editor footnotes used only for identity; measured doses, weights, counts, times and preparation methods left out; unclear lines left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-33
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

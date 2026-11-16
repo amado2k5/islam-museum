@@ -15,3 +15,8 @@ Al-Zirikli says he published more than forty books, of which the printed ones in
 
 ## Death
 He died in Cairo {cite:alam-zirikli-dar-al-ilm-2002 vol. 6 pp. 25-26}.
+
+## In The Oxford Dictionary of Islam
+The Oxford Dictionary of Islam lists Abu Zahra, who died in 1974, as a conservative Egyptian author, scholar of Islamic law and public intellectual. It says he studied at the Ahmadi Madrasa, the Madrasa al-Qada al-Shari and the Dar al-Ulum, taught first in the theology faculty at al-Azhar and later held a chair of Islamic law at Cairo University, and served as a member of al-Azhar's Academy of Islamic Research. {cite:oxford-dictionary-of-islam e41}
+
+It adds that he wrote more than forty books, among them biographies of [[person/abu-hanifa|Abu Hanifa]], [[person/malik-ibn-anas|Malik]], al-Shafi'i, Ibn Hanbal, Zayd ibn Ali, Ja'far al-Sadiq, [[person/ibn-hazm|Ibn Hazm]] and [[person/ibn-taymiyya|Ibn Taymiyya]], and works on personal status, endowments, property, and crime and punishment in Islamic law. {cite:oxford-dictionary-of-islam e41} This agrees with the record above on his study at the School of Shari'a Judiciary and on the printed books; the entry adds the Dar al-Ulum, the membership of the Academy of Islamic Research and the year of death, 1974. The word conservative is the Dictionary's.

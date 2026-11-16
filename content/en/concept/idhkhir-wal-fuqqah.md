@@ -1,0 +1,17 @@
+---
+id: concept/idhkhir-wal-fuqqah
+lang: en
+source_lang: ar
+translators: [ai]
+---
+## Nature and selection
+Idhkhir has several kinds: the a'rabi, sweet-smelling; the ajami; the fine, which is harder; and the coarse, which is softer and has no smell {cite:canon-ibn-sina-print-v1 p.348}. The book reports Dioscorides as saying that idhkhir is of two kinds, one with no fruit and the other with a black fruit {cite:canon-ibn-sina-print-v1 p.348}. The best is the a'rabi, the red, with the keener smell; its fuqqah leans to red and when it splits it becomes purple, and it is fine and, when rubbed by hand, resembles the rose in the sweetness of its smell; most of its benefit is in its flower, in the fuqqah, in its root and in its stalks, and it stings the tongue and puckers it {cite:canon-ibn-sina-print-v1 p.349}. The editor's footnote glosses fuqqah as the flower of any plant {cite:canon-ibn-sina-print-v1 p.349}.
+
+## Temperament and actions
+The ajami has a cooling force, and Ibn Jurayj says all of it is cold; its root is more astringent, the fuqqah warms slightly with its astringency less than its warming, and the a'rabi is almost hot and dry in the second degree {cite:canon-ibn-sina-print-v1 p.349}. It has astringency, and for that reason its fuqqah helps spitting of blood from wherever it comes; its oil has resolving and astringent power, and its root is stronger in that; it binds the bowel, has a ripening and softening power, opens the mouths of the vessels, soothes inner pains and resolves winds {cite:canon-ibn-sina-print-v1 p.349}.
+
+## Uses by organ
+Its oil helps itch, even in animals; its decoction helps hot swellings; and it helps hard inner swellings drunk, as a poultice and cooked, and cold swellings of the viscera {cite:canon-ibn-sina-print-v1 p.349}. It helps the muscles and helps spasm, and its oil takes away fatigue {cite:canon-ibn-sina-print-v1 p.349}. For the head it makes it heavy, especially the ajami kind, but the finer of the two causes headache and the coarser induces sleep, its seed numbs, and all of it strengthens the gums ('umur) and dries their moisture, and its fuqqah cleans the head {cite:canon-ibn-sina-print-v1 p.349}. It helps pain of the lung, and its fuqqah helps spitting of blood {cite:canon-ibn-sina-print-v1 p.349}. Its root strengthens the stomach, whets the appetite and soothes nausea, and its fuqqah soothes pains of the stomach and helps swellings of the stomach and the liver {cite:canon-ibn-sina-print-v1 p.349}. The seed of both crushes stone and binds the bowel, especially the two ajami kinds, and its fuqqah helps pains of the kidneys and bleeding of blood from them, and dropsy, and helps swellings of the anus {cite:canon-ibn-sina-print-v1 p.349}. The coarse kind, when poulticed with its fresh leaf nearest the root, is helpful against stings of vermin {cite:canon-ibn-sina-print-v1 p.349}. Quantities are not reproduced.
+
+## Womb, menses, foetus and desire (labelled book listing, held for the founder's ruling)
+The book says that it soothes inner pains, "especially in the wombs" {cite:canon-ibn-sina-print-v1 p.349}; that it helps pains of the womb in particular, and that sitting in its decoction helps hot swellings of the womb, and so does its being dropped into it or its water being sipped {cite:canon-ibn-sina-print-v1 p.349}; and that the seeds of the two cut the bleeding of women {cite:canon-ibn-sina-print-v1 p.349}; reports attributed to the book, without recommendation.

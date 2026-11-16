@@ -37,7 +37,7 @@ relations:
   - { type: born_in, target: place/andijan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/agra, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: buried_in, target: place/gardens-of-babur, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/tarikh-islam-hasan-ibrahim, source/akbarnama, source/encyclopaedia-of-islam-2, source/wikidata]
+sources: [source/tarikh-islam-hasan-ibrahim, source/akbarnama, source/encyclopaedia-of-islam-2, source/wikidata, source/oxford-dictionary-of-islam]
 external_ids:
   wikidata: Q797848
   viaf: "97090468"
@@ -48,6 +48,7 @@ provenance:
   model: "SWE-2 High"
   run: wikidata-import-0002
   localization: {"generated_by":"Copilot SDK in VS Code","model":"unknown","run":"explorer-third-40-stories-2026-11-04","source":"Urdu label and concise summary restated from this existing Arabic/English museum record and its defined sources; no new facts or source-page research."}
+  oxford_captures: "t125/e270: http://www.oxfordislamicstudies.com/article/opr/t125/e270 ; https://web.archive.org/web/20160310060410/http://www.oxfordislamicstudies.com:80/article/opr/t125/e270"
 importance: 2
 status:
   review: published

@@ -1,0 +1,17 @@
+---
+id: concept/ashqil
+lang: en
+source_lang: ar
+translators: [ai]
+---
+## Nature and selection
+Ashqil is the mouse onion (basal al-far), so called because it kills mice, and it is strongly pungent; some people said it is the unsul; roasting and boiling break its force; its colour is yellow leaning to white, and there is a kind of it called qattal (the killer); and some thought it to be the bulbus on the slightest sign they found, and erred {cite:canon-ibn-sina-print-v1 p.347}. The good kind is horn-coloured and shining, with sweetness in its taste together with sharpness and bitterness {cite:canon-ibn-sina-print-v1 p.347}.
+
+## Temperament and actions
+Its temperament is hot in the third degree and dry near the second {cite:canon-ibn-sina-print-v1 p.347}. It resolves and draws the blood and superfluities to the surface of the organ, burns and blisters, refines thick chymes very strongly and cuts them with a force beyond its heating, and its vinegar strengthens a weak body and gives health {cite:canon-ibn-sina-print-v1 p.347}. The book names substitutes for it, qardamana, wajj and hamama, and their proportions are not reproduced {cite:canon-ibn-sina-print-v1 p.348}.
+
+## Uses by organ
+It makes hair grow in alopecia (dā' al-tha'lab and dā' al-hayya), removes warts as a lotion, and its vinegar improves the complexion {cite:canon-ibn-sina-print-v1 p.347}. It dries external ulcers, harms ulcers of the viscera when eaten and blisters when rubbed {cite:canon-ibn-sina-print-v1 p.347}. It slightly harms a healthy nerve while helping pains of the nerve and joints, palsy and especially sciatica, and so do its vinegar and its drink {cite:canon-ibn-sina-print-v1 p.348}. For the head it helps epilepsy and melancholia, its vinegar tightens the gums, steadies loose teeth and drives off decay {cite:canon-ibn-sina-print-v1 p.348}. Eating it sharpens the sight and prevents the descent of water in the eye {cite:canon-ibn-sina-print-v1 p.348}. It helps asthma greatly, old cough and roughness of the voice, and its vinegar strengthens and hardens the throat and benefits it {cite:canon-ibn-sina-print-v1 p.348}. It helps hardness of the spleen, strengthens the stomach and digestion and helps floating of food, and so does its vinegar; it was said that when it is hung on one with a diseased spleen his spleen melts; and it helps dropsy and jaundice {cite:canon-ibn-sina-print-v1 p.348}. It promotes urine strongly, and so do its vinegar and its drink; it helps difficulty in passing urine, purges thick humours, its seed softens the bowel, and it helps pain of the anus and colic greatly {cite:canon-ibn-sina-print-v1 p.348}. Its vinegar helps chronic shivering {cite:canon-ibn-sina-print-v1 p.348}. It is said that when hung on doors it keeps vermin from them, that it is a theriac for vermin and kills mice, and that it helps the sting of the viper as a poultice, boiled with vinegar {cite:canon-ibn-sina-print-v1 p.348}. Quantities and the lengths of boiling and hanging are not reproduced.
+
+## Womb, menses, foetus and desire (labelled book listing, held for the founder's ruling)
+The book says that it promotes the menses "until it also makes (something) fall", without saying what falls, and so do its vinegar and its drink {cite:canon-ibn-sina-print-v1 p.348}; that it helps suffocation of the womb {cite:canon-ibn-sina-print-v1 p.348}; and that it helps pain of the womb {cite:canon-ibn-sina-print-v1 p.348}; reports attributed to the book, without recommendation.

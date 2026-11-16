@@ -1,0 +1,23 @@
+id: concept/dhib
+class: concept
+kind: natural
+label:
+  ar: "ذئب"
+  en: "Dhi'b"
+  ur: "ذئب"
+summary:
+  ar: "ذئب في الكتاب مدخل قصير يقول فيه إنه قيل زبل الذئب عجيب في القولنج، وبه ينتهي الكلام من حرف الذال وجملة ما ذكر فيه ستة أعداد؛ نقل منسوب إلى الكتاب بلا توصية {cite:canon-ibn-sina-print-v1 p.720}"
+  en: "Dhi'b is in the book a short entry that says it was said the dung of the wolf is wondrous for colic, and with it the discussion of the letter dhal ends, the total of what is mentioned in it being six; a report attributed to the book, without recommendation {cite:canon-ibn-sina-print-v1 p.720}"
+  ur: "ذئب کتاب میں ایک مختصر اندراج ہے جس میں کہا گیا ہے کہ بھیڑیے کی لید کے بارے میں قول ہے کہ وہ قولنج میں عجیب ہے، اور اسی کے ساتھ حرف ذال کا کلام ختم ہوتا ہے اور اس میں ذکر کی گئی چیزوں کا مجموعہ چھ ہے؛ کتاب سے منسوب نقل، بلا سفارش {cite:canon-ibn-sina-print-v1 p.720}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, scan pages 720, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image rendered and read by eye for every heading and doubtful clause; editor footnotes used only for identity; measured doses, weights, counts, times and preparation methods left out; unclear lines left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-32
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

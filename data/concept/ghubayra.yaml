@@ -1,0 +1,23 @@
+id: concept/ghubayra
+class: concept
+kind: natural
+label:
+  ar: "غبيراء"
+  en: "Ghubayra'"
+  ur: "غبیراء"
+summary:
+  ar: "غبيراء في الكتاب بارد في أول الأولى يابس في آخر الثانية، يحبس كل سيلان وهو أقل قبضا وعقلا من الزعرور، يقمع الصفراء المنصبة إلى الأحشاء، وإذا تنقل به أبطأ السكر، وينفع من السعال الحار ويحبس القيء ومن السحج الصفراوي ويحبس البطن {cite:canon-ibn-sina-print-v1 pp.722-723}"
+  en: "Ghubayra' is in the book cold at the start of the first degree and dry at the end of the second; it halts every flow and is less astringent and binding than za'rur, it suppresses bile pouring into the viscera, when taken as a dessert it slows intoxication, and it benefits hot cough, stops vomiting, benefits bilious dysentery and binds the belly {cite:canon-ibn-sina-print-v1 pp.722-723}"
+  ur: "غبیراء کتاب میں پہلے درجے کے آغاز میں ٹھنڈی اور دوسرے کے آخر میں خشک ہے؛ ہر بہاؤ کو روکتی ہے اور زعرور سے کم قابض اور روکنے والی ہے، احشا کی طرف گرنے والے صفرا کو دباتی ہے، نقل کے طور پر لی جائے تو نشے کو سست کرتی ہے، اور گرم کھانسی میں نافع ہے، قے کو روکتی ہے، صفراوی خراش میں نافع ہے اور پیٹ کو باندھتی ہے {cite:canon-ibn-sina-print-v1 pp.722-723}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, scan pages 722-723, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image rendered and read by eye for every heading and doubtful clause; editor footnotes used only for identity; measured doses, weights, counts, times and preparation methods left out; unclear lines left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-32
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

@@ -1,0 +1,23 @@
+id: concept/dhubab-tibb
+class: concept
+kind: natural
+label:
+  ar: "ذباب"
+  en: "Dhubab"
+  ur: "ذباب"
+summary:
+  ar: "ذباب في الكتاب مدخل قصير ينقل عن عيسى أنه جربه مرارا فوجده نافعا، إذا دلك الذباب على لسع العقرب نفع نفعا بينا؛ نقل منسوب إلى الكتاب بلا توصية {cite:canon-ibn-sina-print-v1 p.720}"
+  en: "Dhubab is in the book a short entry that reports from Isa that he tried it repeatedly and found it beneficial, that when flies are rubbed on the sting of a scorpion it benefits clearly; a report attributed to the book, without recommendation {cite:canon-ibn-sina-print-v1 p.720}"
+  ur: "ذباب کتاب میں ایک مختصر اندراج ہے جو عیسیٰ سے نقل کرتا ہے کہ اس نے اسے بار بار آزمایا اور نافع پایا، کہ جب مکھیوں کو بچھو کے ڈنک پر ملا جائے تو واضح فائدہ ہوتا ہے؛ کتاب سے منسوب نقل، بلا سفارش {cite:canon-ibn-sina-print-v1 p.720}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, scan pages 720, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image rendered and read by eye for every heading and doubtful clause; editor footnotes used only for identity; measured doses, weights, counts, times and preparation methods left out; unclear lines left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-32
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

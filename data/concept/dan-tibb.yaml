@@ -1,0 +1,23 @@
+id: concept/dan-tibb
+class: concept
+kind: natural
+label:
+  ar: "ضان"
+  en: "Dan"
+  ur: "ضان"
+summary:
+  ar: "ضان في الكتاب مدخل قصير يقول إن قوة مرارته كقوة مرارة البقر {cite:canon-ibn-sina-print-v1 p.722}"
+  en: "Dan is in the book a short entry that says the strength of its gall is like the strength of the gall of cattle {cite:canon-ibn-sina-print-v1 p.722}"
+  ur: "ضان کتاب میں ایک مختصر اندراج ہے جو کہتا ہے کہ اس کی مرارت کی قوت گائے کی مرارت کی قوت جیسی ہے {cite:canon-ibn-sina-print-v1 p.722}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, scan pages 722, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image rendered and read by eye for every heading and doubtful clause; editor footnotes used only for identity; measured doses, weights, counts, times and preparation methods left out; unclear lines left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-32
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

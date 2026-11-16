@@ -12,3 +12,6 @@ He studied mainly with his father. After his father died in 1176/1762 he taught 
 
 ## Works
 In Arabic he wrote Sirr al-Shahadatayn, on the merit of martyrdom gained through the death of Husayn; Akhyar al-Nas, a collection of traditions on the virtues of the first four caliphs; Mizan al-'Aqa'id, a short statement of creed with his commentary; a work on the science of hadith; Bustan al-Muhaddithin, a bibliography of hadith literature; and a two-part collection of fatawa. In Persian he wrote the Tuhfa Ithna 'Ashariyya, which the entry describes as a refutation of Shi'i doctrines and a continuation of his father's controversy, and Fath al-'Aziz, a commentary on parts of the Qur'an. His Malfuzat, the table talk recorded by his pupils, was translated into Urdu. {cite:encyclopaedia-of-islam-2 vol. 1 p. 78–79}
+
+## In The Oxford Dictionary of Islam
+The Oxford Dictionary of Islam places Shah Abd al-Aziz, who died in 1824, as an Indian scholar and the son of Shah Wali Allah, who died in 1762 and whom it ranks first among the learned men of India in the eighteenth century. It describes him as a prolific author across many subjects and says his name rests mainly on letters written against Shiism, the weightiest and most disputed being the Tuhfa-i Ithna Ashariyya, which it dates to 1789-90. {cite:oxford-dictionary-of-islam e2} These dates agree with the record above.

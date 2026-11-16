@@ -1,0 +1,23 @@
+id: concept/difda
+class: concept
+kind: natural
+label:
+  ar: "ضفدع"
+  en: "Difda'"
+  ur: "ضفدع"
+summary:
+  ar: "ضفدع في الكتاب نقل أن رماده إذا جعل على موضع الدم حبسه، وأن مرقه نافع لأورام الأوتار، وفيما يقال إنه بادزهر الجذام والهوام كلها مأكولا، وينقل الكتاب قولا في الضفادع النهرية وأسنان الدواب، وفي أكل دمه أو جرمه ضرر منسوب إلى الكتاب {cite:canon-ibn-sina-print-v1 pp.721-722}"
+  en: "Difda' is in the book reported to have ash that, placed on the place of bleeding, stops it, a broth beneficial for swellings of the tendons, and, as is said, an antidote (badzahr) for leprosy and all vermin when eaten; the book records a saying on river frogs and the teeth of animals, and a harm attributed to eating its blood or body {cite:canon-ibn-sina-print-v1 pp.721-722}"
+  ur: "ضفدع کتاب میں نقل ہے کہ اس کی راکھ خون کی جگہ پر رکھی جائے تو اسے روک دیتی ہے، اس کا شوربہ پٹھوں کی نسوں کے ورموں میں نافع ہے، اور جیسا کہا جاتا ہے کھانے پر جذام اور تمام ہوام کا بادزہر ہے؛ کتاب دریائی مینڈکوں اور جانوروں کے دانتوں کے بارے میں ایک قول نقل کرتی ہے، اور اس کا خون یا جسم کھانے میں ایک نقصان کتاب سے منسوب ہے {cite:canon-ibn-sina-print-v1 pp.721-722}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, scan pages 721-722, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image rendered and read by eye for every heading and doubtful clause; editor footnotes used only for identity; measured doses, weights, counts, times and preparation methods left out; unclear lines left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-32
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

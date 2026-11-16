@@ -17,3 +17,5 @@ Banu Isra'il are the descendants of Ya'qub ibn Ishaq ibn Ibrahim — the nation 
 ## For younger visitors
 Banu Isra'il are Ya'qub's descendants — most of God's prophets were among them, and their stories fill the Qur'an.
 
+## In The Oxford Dictionary of Islam
+The Oxford Dictionary of Islam says the phrase Banu Israil occurs forty times in the Qur'an. It applies it first to the historical Jewish community that received divine favours, such as rescue from Pharaoh and preference over other nations, and second to the Jews living in Muhammad's time, whom the Qur'an faults for wrongdoing, falsifying scripture, hiding the truth and refusing Islam. {cite:oxford-dictionary-of-islam e293} The Dictionary's count of forty differs from the record's "more than fifty places"; the difference is stated and not decided here.
