@@ -1,0 +1,43 @@
+id: job/preacher
+class: job
+label: { ar: "الواعظ", en: "Preacher (wāʿiẓ / mudhakkir — the exhorter)", ur: "واعظ" }
+names:
+  - { value: "وَاعِظ", kind: alternate }
+  - { value: "مُذَكِّر", kind: alternate }
+  - { value: "vaiz", kind: latinized, lang: tr }
+  - { value: "vâiz", kind: latinized, lang: tr }
+  - { value: "mudhakkir", kind: latinized }
+summary:
+  ar: "الواعظ هو من يلقي الموعظة والتذكير على الناس، وهو غير الخطيب صاحب خطبة الجمعة المفروضة وغير القاصّ راوي القصص، وإن اختلطت الأعمال تاريخياً. أولى النبي الوعظ مقاماً في رسالته وقصّ في خطبه أحياناً؛ وانتشرت القصص في الوعظ بعد مقتل عثمان حتى اعترض المحدثون على القصّاص وصنّف ابن الجوزي والسيوطي في زيفهم. ويصف لين القاهرة: على كل مسجد ناظر يعيّن العاملين الدينيين، وفي المساجد الكبرى إمامان أحدهما الخطيب الذي يخطب يوم الجمعة فيعتلي المنبر قابضاً على سيف خشبي ويلقي «خُطبة الوعظ»، ويقف المُركّي عند باب درج المنبر والمبلّغون على الدكّة يرددون. وفي كتاب ابن الأخوة للحسبة من أحكام الوعظ والخطيب: يُنكر على الخطيب ثوب أسود يغلبه حرير أو سيف مذهّب، ويُمنع الناس عن تخطّي رقاب المصلين، ويُنكر على الإمام إطالة الصلاة."
+  en: "The wāʿiẓ delivers exhortation and reminder to the people — distinct from the khatib who holds the obligatory Friday khutba and from the qāss who tells the tales, though their work blurred historically. The Prophet gave wa'z a place in his mission and sometimes told exemplary stories in his sermons; tale-telling spread into preaching after the killing of Uthman until the hadith scholars objected to the qussās and Ibn al-Jawzi and al-Suyuti wrote against their fabrications. Lane draws Cairo: a nazir warden appoints each mosque's religious ministers, and the larger mosques keep two imams, one the khateeb who preaches on Friday — he mounts the pulpit grasping a wooden sword and delivers the 'khutbet el-wa'z' — while the murakkee stands at the pulpit-stairs door and the muballighs chant responses from the dikkeh. In Ibn al-Ukhuwwa's hisba book the preacherly rules run: the khatib's black silk-heavy robe or gilded sword is a misdemeanour to be denounced; stepping over worshippers' backs is forbidden; an imam who prolongs the ritual is denounced."
+  ur: "واعظ وہ ہے جو لوگوں کو نصیحت اور تذکیر سناتا ہے — خطیب سے مختلف جس کا کام جمعہ کا فرض خطبہ ہے، اور قاص سے بھی جس کا کام قصے کہنا ہے، اگرچہ تاریخ میں ان کے کام مل گئے۔ نبی نے وعظ کو اپنی رسالت میں مقام دیا اور خطبوں میں کبھی عبرتناک قصے سنائے؛ عثمان کے قتل کے بعد وعظ میں قصہ گوئی پھیلی یہاں تک کہ محدثین نے قصاص پر اعتراض کیا اور ابن الجوزی و سیوطی نے ان کی وضع کردہ روایات پر کتابیں لکھیں۔ لین قاہرہ بیان کرتا ہے: ہر مسجد پر ایک ناظر وقف اہلکار مقرر کرتا ہے، بڑی مسجدوں میں دو ائمہ ہوتے ہیں جن میں سے ایک خطیب جمعہ کو خطبہ دیتا ہے — وہ لکڑی کی تلوار تھامے منبر پر چڑھتا اور 'خطبۃ الوعظ' پڑھتا ہے — مركّی منبر کی سیڑھیوں کے دروازے پر کھڑا ہوتا اور مبلّغ دکّہ پر جوابی ترانے گاتے ہیں۔ ابن الاخوہ کی حسبہ کتاب میں واعظانہ احکام یہ ہیں: خطیب کا ایسا سیاہ جامہ جس میں ریشم غالب ہو یا مذهّب تلوار معصیت ہے جسے انکار کرنا ہو؛ نمازیوں کی پشتوں سے اچھلنا ممنوع؛ اور امام جس نے نماز طول دی اس پر انکار ہوتا ہے۔"
+domain: faith-preaching
+kind: religious
+hirfa: false
+era:
+  origins: prophetic
+  status_today: living
+places:
+  - { place: place/medina, note: "The Prophet himself gave wa'z and counsel in his sermons at Medina; the TDV entry counts this the root of preaching in Islam.", sources: [source/tdv-vaaz] }
+  - { place: place/cairo, note: "In Lane's Cairo the khateeb of a large mosque mounts the pulpit on Friday, takes the wooden sword from the murakkee's hand, sits on the top step, then rises to deliver the 'khutbet el-wa'z' while the muballighs on the dikkeh chant the responses.", sources: [source/lane-modern-egyptians] }
+  - { place: place/baghdad, note: "Ibn al-Ukhuwwa's hisba rules, addressed to the muhtasib of the eighth-hijri-century market city, govern the khatib's dress and sword and the congregation's discipline at Friday worship.", sources: [source/ibn-ukhuwwa-maalim-levy] }
+regions: [arabia, levant-iraq, egypt-nile, maghreb, persia-central-asia, anatolia-balkans, south-asia, southeast-asia]
+organization:
+  organized: informal
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people]
+periods: [period/prophetic-era, period/rashidun, period/umayyad, period/abbasid-early, period/abbasid-fragmentation, period/buyid-seljuk-fatimid-era, period/crusades-ayyubid-mamluk, period/mongol-post-mongol, period/gunpowder-empires, period/modern-era]
+sources: [source/tdv-vaaz, source/lane-modern-egyptians, source/ibn-ukhuwwa-maalim-levy]
+training:
+  mode: mouth-to-mouth
+  certification: "The qussās needed the emir's permission in the scholars' debate, and the pulpit preacher stood under the muhtasib's eye: Ibn al-Ukhuwwa's rules denounce the khatib's silk-heavy black robe and gilded sword and any imam who prolongs the ritual. In Lane's Cairo the religious ministers are appointed by the nazir, the waqf's warden."
+  duration: "Formation in the learned sciences, then the pulpit; the wa'z tradition's own books — Ibn al-Jawzi's and al-Suyuti's against the storytellers' fabrications — mark where the scholars drew its bounds."
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-scholar-2" }
+provenance:
+  layer: own-research
+  source: "TDV 'VAAZ' (Cirit; Demirci, 2012); Lane, Modern Egyptians ch. III; Ibn al-Ukhuwwa ch. XLVII (Levy ed., pp. 61-63) — read 16 Nov 2026"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-scholar-2-drafting"
