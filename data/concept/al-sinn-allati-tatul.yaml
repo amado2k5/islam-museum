@@ -1,0 +1,33 @@
+id: concept/al-sinn-allati-tatul
+class: concept
+kind: scientific
+label:
+  ar: السن التي تطول
+  en: The tooth that grows long
+  ur: لمبا ہوتا دانت
+summary:
+  ar: السن التي تطول تؤخذ بالأصبعين أو بالآلة القابضة ثم تبرد بالمبرد ثم يستن بما وصف من القوابض ⁦(الأسماء مطروحة والأخذ والمبرد محمولان على أنهما وصف الكتاب لا عملية)⁩ {cite:canon-ibn-sina-print-v2 p.278}
+  en: The tooth that grows long is taken with the two fingers or the gripping instrument, then brought down with the file, then rubbed with the astringent tooth-stick he described (the names left out; the gripping and the file carried as the book's description, not a procedure) {cite:canon-ibn-sina-print-v2 p.278}
+  ur: لمبا ہوتا دانت دو انگلیوں یا پکڑنے والے اوزار سے پکڑا جاتا ہے پھر ریتی سے گھٹایا جاتا ہے پھر اس کے بیان کردہ قابض مسواک سے ملیا جاتا ہے ⁦(نام مطروح؛ پکڑنا اور ریتی کتاب کے وصف پر محمول، طریقہ نہیں)⁩ {cite:canon-ibn-sina-print-v2 p.278}
+wings:
+- living
+tags:
+- tibb-browser
+- tibb-tibb
+sources:
+- source/canon-ibn-sina-print-v2
+relations:
+- type: part_of
+  target: concept/disease
+  sources:
+  - source/canon-ibn-sina-print-v2
+provenance:
+  layer: own-research
+  source: Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 7 (the teeth, one maqala) and the first fasls of Fann 8 (the gums and the lips), scan pages 278, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json, copied to /tmp before reading); editor footnotes used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping, cautery and operative sites and application methods left out; the tooth's drilling, filing, drawing, cautery and extraction carried only as the book's descriptions, not as procedures; unclear OCR words carried as printed, not guessed; case reports and named attributions carried as the book's attributions and labelled; animal-derived and unclean lines kept only as labelled listings set aside for the founder's ruling
+  generated_by: Devin subagent (SWE-2 Medium, Lane A4 worker)
+  model: swe-2-medium
+  run: a4-canon-book3-14
+status:
+  review: published
+  completeness: 1
+  generated_by: Devin subagent (SWE-2 Medium, book mining, lane A4)

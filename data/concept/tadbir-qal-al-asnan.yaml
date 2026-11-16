@@ -1,0 +1,33 @@
+id: concept/tadbir-qal-al-asnan
+class: concept
+kind: scientific
+label:
+  ar: تدبير قلع الأسنان
+  en: The regimen of drawing teeth
+  ur: دانت اکھاڑنے کا تدبیر
+summary:
+  ar: قد يتأدى أمر السن الوجعة إلى أن لا تقبل علاجاً البتة أو تكون كلما سكن ما يؤذيها عاد عن قريب ثم تكون مجاورتها لسائر الأسنان مضرة بها يعديها ما بها فلا يوجد إلى استصلاحها سبيل فيكون علاجها القلع، وقد يقلع بالكلبتين بعد كشط ما يحيط بأصلها عنها ⁦(محمول على أنه وصف الكتاب لا عملية)⁩، ويجب أن يتأمل قبل القلع هل العلة في نفس السن فإن لم تكن لم يجب أن تقلع حين يكون السبب في اللثة أو في العصبة التي تحت السن فإن القلع إن خفف الوجع قليلاً فليس يبطله بل يعود {cite:canon-ibn-sina-print-v2 p.277}
+  en: An aching tooth may reach the point of accepting no treatment at all, or of the hurt returning soon whenever it calms, or its neighbourhood harms the other teeth by passing what it has — when no way of mending remains, its treatment is drawing, done with the forceps after scraping off what surrounds its root (carried as the book's description, not a procedure). Before drawing it must be examined whether the lesion is in the tooth itself; if not — the cause being in the gum or the nerve beneath — it must not be drawn, for drawing may lighten the pain a little but never ends it, and it returns {cite:canon-ibn-sina-print-v2 p.277}
+  ur: درد والے دانت کا حال یہ ہو سکتا ہے کہ وہ بالکل علاج نہ مانے یا تکلیف سکون پاتے ہی پھر لوٹ آئے یا اس کا قرب باقی دانتوں کو نقصان دے اور اپنا دائرا انہیں سرایت کرائے — جب اصلاح کی کوئی راه نہ رہے تو علاج اکھاڑنا ہے، جو کلچی سے ہوتا ہے جڑ کے گرد کی چیز خرچنے کے بعد ⁦(کتاب کے وصف پر محمول، طریقہ نہیں)⁩؛ اکھاڑنے سے پہلے دیکھنا لازم ہے کہ علت خود دانت میں ہے یا نہیں؛ اگر نہیں — سبب مسوڑھے یا دانت کے نیچے کے اعصاب میں ہو — تو نہ اکھاڑی جائے، کیونکہ اکھاڑنا درد کچھ ہلکا کر بھی دے تو ختم نہیں کرتا بلکہ وہ لوٹتا ہے {cite:canon-ibn-sina-print-v2 p.277}
+wings:
+- living
+tags:
+- tibb-browser
+- tibb-tibb
+sources:
+- source/canon-ibn-sina-print-v2
+relations:
+- type: part_of
+  target: concept/medical-treatment
+  sources:
+  - source/canon-ibn-sina-print-v2
+provenance:
+  layer: own-research
+  source: Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 7 (the teeth, one maqala) and the first fasls of Fann 8 (the gums and the lips), scan pages 277, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json, copied to /tmp before reading); editor footnotes used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping, cautery and operative sites and application methods left out; the tooth's drilling, filing, drawing, cautery and extraction carried only as the book's descriptions, not as procedures; unclear OCR words carried as printed, not guessed; case reports and named attributions carried as the book's attributions and labelled; animal-derived and unclean lines kept only as labelled listings set aside for the founder's ruling
+  generated_by: Devin subagent (SWE-2 Medium, Lane A4 worker)
+  model: swe-2-medium
+  run: a4-canon-book3-14
+status:
+  review: published
+  completeness: 1
+  generated_by: Devin subagent (SWE-2 Medium, book mining, lane A4)

@@ -1,0 +1,33 @@
+id: concept/al-sinn-al-mutaharrika
+class: concept
+kind: scientific
+label:
+  ar: السن المتحركة
+  en: The loose tooth
+  ur: ہلتا ہوا دانت
+summary:
+  ar: قد تقلق السن بسبب باد من سقطة أو ضربة، وقد تقع من رطوبة ترخي العصب الشاد للسن وتكون السن مع ذلك سمينة لم تقصف، وقد تقع لتأكل يعرض لمنابت الأسنان فيوسعها أو يدقق السن بما ينقص منها أو لانثلام الدردر، وقد تقع لضمور يعرض في الأسنان ليبس غالب كما يعرض للناقهين والمشايخ الذين جاعوا جوعاً متوالياً وقصر عنهم الغذاء، وقد تقع لقصور لحم العمور {cite:canon-ibn-sina-print-v2 p.273}
+  en: A tooth may loosen for an outward cause — a fall or a blow; or from a moisture relaxing the nerve that binds the tooth while the tooth stays sound and unworn; or from a corrosion befalling the tooth-seats, widening them or thinning the tooth, or from a chipping of the socket's rim; or from a wasting that befalls the teeth under a prevailing dryness, as befalls convalescents and the aged whom successive hunger and short feeding have reached; or from a shortness of the gums' flesh {cite:canon-ibn-sina-print-v2 p.273}
+  ur: دانت یا تو باہر کے سبب سے ہل سکتا ہے — گرنا یا چوٹ؛ یا ایسی رطوبت سے جو دانت باندھنے والے اعصاب کو ڈھیلا کرے حالانکہ دانت بھرا ہوا اور غیر رگڑا ہو؛ یا منبتوں پر عارض ہونے والے کتراؤ سے جو انہیں کشادہ یا دانت کو باریک کر دے یا کنارے کے کھرچ سے؛ یا دانتوں میں غالب خشکی سے ضمور سے جیسا نقاہت پانے والوں اور ان بزرگوں کو ہوتا ہے جن پر مسلسل بھوک گزری اور غذا کم ملی؛ یا مسوڑھوں کے گوشت کی کمی سے {cite:canon-ibn-sina-print-v2 p.273}
+wings:
+- living
+tags:
+- tibb-browser
+- tibb-tibb
+sources:
+- source/canon-ibn-sina-print-v2
+relations:
+- type: part_of
+  target: concept/disease
+  sources:
+  - source/canon-ibn-sina-print-v2
+provenance:
+  layer: own-research
+  source: Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 7 (the teeth, one maqala) and the first fasls of Fann 8 (the gums and the lips), scan pages 273-274, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json, copied to /tmp before reading); editor footnotes used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping, cautery and operative sites and application methods left out; the tooth's drilling, filing, drawing, cautery and extraction carried only as the book's descriptions, not as procedures; unclear OCR words carried as printed, not guessed; case reports and named attributions carried as the book's attributions and labelled; animal-derived and unclean lines kept only as labelled listings set aside for the founder's ruling
+  generated_by: Devin subagent (SWE-2 Medium, Lane A4 worker)
+  model: swe-2-medium
+  run: a4-canon-book3-14
+status:
+  review: published
+  completeness: 1
+  generated_by: Devin subagent (SWE-2 Medium, book mining, lane A4)

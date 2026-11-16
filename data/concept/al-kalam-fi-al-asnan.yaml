@@ -1,0 +1,33 @@
+id: concept/al-kalam-fi-al-asnan
+class: concept
+kind: scientific
+label:
+  ar: الكلام في الأسنان
+  en: The statement on the teeth
+  ur: دانتوں کے بارے میں کلام
+summary:
+  ar: يعلم ابن سينا أن الأسنان من جملة العظام التي لها حس لما يأتيها من عصب دماغي لين، فإذا ألمت أحست بما يعرض فيها من ضربان واختلاج وربما حكة ودغدغة، ويعرض فيها أمراض من الاسترخاء والقلق والانقلاع والنتو وتغير اللون في جوهرها وفي الطليان المركب عليها، ويعرض لها التألم والتأكل والتعفن والتكسر والأوجاع الشديدة والضرس والعجز عن مضغ الحلو والحامض والتضرر من الحار والبارد، وقد تتغير مقاديرها بالطبع فتطول وتعظم أو تنسحق وتصغر، ويعرض فيها أنواع الورم لأن كل ما يقبل التمدد بإنماء الغذاء يقبل التمدد بالعضل، وقد خلقت قابلة للنمو دائماً بدل ما ينسحق حتى إن السن المحاذية لموضع الساقطة تزداد طولاً، ويستدل على مزاجها من اللثة ولونها أصفراء مرية كانت أو بيضاء بلغمية أو حمراء دموية أو إلى كمودة سوداوية {cite:canon-ibn-sina-print-v2 p.266}
+  en: 'The teeth are among the bones that have sensation, from a soft cerebral nerve reaching them, so when they ache they feel pulsation and throbbing and sometimes itch and tickling. Their diseases include relaxation, loosening, falling out, protrusion and change of colour in their substance and in the coating laid on them, plus pain, corrosion, putrefaction and breaking, severe pains and edge-numbness (al-daras), inability to chew the sweet and the sour, hurt from hot and cold, natural change of measure — lengthening, enlarging or wearing small — and kinds of tumour, for whatever can expand by nourishment can expand by tumour, and the teeth were made able to keep growing in place of what wears away, so that a tooth next to a lost or drawn one grows longer. The tooth''s temperament is read from the gum and its colour: yellow bilious, white phlegmatic, red sanguine or dark melancholic {cite:canon-ibn-sina-print-v2 p.266}'
+  ur: 'دانت ایسی ہڈیوں میں ہیں جن میں احساس ہوتا ہے کیونکہ انہیں دماغ کا نرم اعصاب پہنچتا ہے، اس لیے جب تکلیف ہوتی ہے تو وہ دھڑکن اور اضطراب اور بعض اوقات خارش محسوس کرتے ہیں؛ ان میں یعنی بیماریاں ہوتی ہیں: شل، ڈگمگاہٹ، اکھڑنا، ابھرنا، جوہر اور اوپر کی تہ میں رنگ کی تبدیلی، درد، کٹرنا، سڑنا اور ٹوٹنا، سخت درد اور خدر ⁦(الضرس)⁩، میٹھی اور کھٹی چیز چبانے سے عاجزی، گرم اور سرد سے ضرر، قدر میں فطری تبدیلی یعنی لمبا بڑا ہونا یا رگڑ کر چھوٹا ہونا، اور ورم کی اقسام؛ اور دانت ہمیشہ بڑھنے کے قابل بنائے گئے تاکہ رگڑنے کی جگہ لیں، حتی کہ گرے یا اکھڑے دانت کے پہلو کا دانت لمبا ہو جاتا ہے؛ دانت کے مزاج کا پتہ مسوڑھے اور اس کے رنگ سے چلتا ہے: زرد صفراوی، سفید بلغمی، سرخ دموی یا سیاہ سوداوی {cite:canon-ibn-sina-print-v2 p.266}'
+wings:
+- living
+tags:
+- tibb-browser
+- tibb-tibb
+sources:
+- source/canon-ibn-sina-print-v2
+relations:
+- type: part_of
+  target: concept/disease
+  sources:
+  - source/canon-ibn-sina-print-v2
+provenance:
+  layer: own-research
+  source: Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 7 (the teeth, one maqala) and the first fasls of Fann 8 (the gums and the lips), scan pages 266, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json, copied to /tmp before reading); editor footnotes used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping, cautery and operative sites and application methods left out; the tooth's drilling, filing, drawing, cautery and extraction carried only as the book's descriptions, not as procedures; unclear OCR words carried as printed, not guessed; case reports and named attributions carried as the book's attributions and labelled; animal-derived and unclean lines kept only as labelled listings set aside for the founder's ruling
+  generated_by: Devin subagent (SWE-2 Medium, Lane A4 worker)
+  model: swe-2-medium
+  run: a4-canon-book3-14
+status:
+  review: published
+  completeness: 1
+  generated_by: Devin subagent (SWE-2 Medium, book mining, lane A4)

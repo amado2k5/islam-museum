@@ -1,0 +1,33 @@
+id: concept/al-daras
+class: concept
+kind: scientific
+label:
+  ar: الضرس
+  en: The edge-numbness of the teeth
+  ur: دانتوں کا خدر ⁦(ضرس)⁩
+summary:
+  ar: الضرس خدر ما يعرض للسن بسبب مخشن وهو إما قابض وإما عفص، وقد يكون مما لاقى السن وارداً من خارج أو مقيئاً وقد يكون مما يتصعد إليها من المعدة إذا كان هناك خلط حامض، وقد يتبع التصور الوهمي عند مشاهدة من يقضم الحامض جداً قضماً باسترسال، وينفع منه مضغ ما وصف من البقول والجوز والمضمضة بما وصف من الألبان والأدهان والملح لمضادته للحموضة نافع جداً من الضرس ⁦(الأسماء من هذا الجنس محمولة كما سماها الكتاب)⁩ {cite:canon-ibn-sina-print-v2 p.278}
+  en: Al-daras is a numbness befalling the tooth from a roughening thing — either astringent or acid — from what touches the tooth coming from outside or vomited, or what rises to it from the stomach when a sour humour is there; it may also follow the imaginary fancy at seeing someone crunch something very sour with relish. Chewing what he described of the greens and nuts helps it, and mouth-rinsing with the described milk and oil kinds; and salt, for opposing the sourness, is very beneficial against it (the names of this kind carried as the book names them) {cite:canon-ibn-sina-print-v2 p.278}
+  ur: ضرس دانت پر عارض ہونے والا سون پن ہے جو کسی خردرا کرنے والی چیز سے ہوتا ہے — چاہے قابض ہو یا عفص — یا اس چیز سے جو باہر سے یا قے میں دانت کو لگے یا اس سے جو معدے سے اس پر چڑھے جب وہاں کھٹا خلط ہو؛ اور وہ کسی کو بہت کھٹی چیز شوق سے چباتے دیکھنے کے وہمی تصور سے بھی ہو سکتا ہے؛ اس کے لیے اس کے بیان کردہ ساگ اور جozi چبانا سودا کرتا ہے اور بیان کردہ دودھ اور تیل کی کلانی بھی؛ اور نمک کھٹائی کی ضد کے سبب ضرس میں نہایت سودا کرتا ہے ⁦(اسی جنس کے نام کتاب کے نام پر محمول)⁩ {cite:canon-ibn-sina-print-v2 p.278}
+wings:
+- living
+tags:
+- tibb-browser
+- tibb-tibb
+sources:
+- source/canon-ibn-sina-print-v2
+relations:
+- type: part_of
+  target: concept/disease
+  sources:
+  - source/canon-ibn-sina-print-v2
+provenance:
+  layer: own-research
+  source: Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 7 (the teeth, one maqala) and the first fasls of Fann 8 (the gums and the lips), scan pages 278, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json, copied to /tmp before reading); editor footnotes used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping, cautery and operative sites and application methods left out; the tooth's drilling, filing, drawing, cautery and extraction carried only as the book's descriptions, not as procedures; unclear OCR words carried as printed, not guessed; case reports and named attributions carried as the book's attributions and labelled; animal-derived and unclean lines kept only as labelled listings set aside for the founder's ruling
+  generated_by: Devin subagent (SWE-2 Medium, Lane A4 worker)
+  model: swe-2-medium
+  run: a4-canon-book3-14
+status:
+  review: published
+  completeness: 1
+  generated_by: Devin subagent (SWE-2 Medium, book mining, lane A4)

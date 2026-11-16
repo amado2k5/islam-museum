@@ -1,0 +1,33 @@
+id: concept/al-litha-al-damiya
+class: concept
+kind: scientific
+label:
+  ar: اللثة الدامية
+  en: The bleeding gum
+  ur: خونی مسوڑھا
+summary:
+  ar: للثة الدامية ينفع ما وصف من المحرق المطفأ بالخل مضروباً بالملح وما ينثر عليه من هذا الجنس وأيضاً ما يحرق من طريخ مملوح ⁦(وهو عند المحقق نوع من الأسماك، محمول كما سماه الكتاب)⁩ إلى أن يصير كالجمر ويؤخذ من رماده مع ما وصف ويخلط ويستعمل ⁦(الأسماء والمقادير مطروحة)⁩ {cite:canon-ibn-sina-print-v2 p.281}
+  en: For the bleeding gum, what he described of the vinegar-quenched burnt thing beaten with salt helps, and what is sprinkled on it of this kind; also the ash of a burnt salted tariikh (the editor glosses it a kind of fish, carried as the book names it) burnt to ember and taken with what he described, mixed and used (the names and measures left out) {cite:canon-ibn-sina-print-v2 p.281}
+  ur: 'خونی مسوڑھے میں اس کی بیان کردہ سرکے میں بجھائی جلائی چیز نمک کے ساتھ کٹی ہوئی سودا کرتی ہے اور اسی جنس کی چھڑکی جانے والی چیز؛ اور بھی ایک نمکین طریخ ⁦(محقق: ایک قسم کی مچھلی، کتاب کے نام پر محمول)⁩ جلائی جاتی ہے یہاں تک کہ انگارہ ہو اور اس کی رخ اس کے بیان کردہ کے ساتھ لی جائے اور ملا کر استعمال ہو ⁦(نام اور مقداریں مطروح)⁩ {cite:canon-ibn-sina-print-v2 p.281}'
+wings:
+- living
+tags:
+- tibb-browser
+- tibb-tibb
+sources:
+- source/canon-ibn-sina-print-v2
+relations:
+- type: part_of
+  target: concept/disease
+  sources:
+  - source/canon-ibn-sina-print-v2
+provenance:
+  layer: own-research
+  source: Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 7 (the teeth, one maqala) and the first fasls of Fann 8 (the gums and the lips), scan pages 281, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json, copied to /tmp before reading); editor footnotes used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping, cautery and operative sites and application methods left out; the tooth's drilling, filing, drawing, cautery and extraction carried only as the book's descriptions, not as procedures; unclear OCR words carried as printed, not guessed; case reports and named attributions carried as the book's attributions and labelled; animal-derived and unclean lines kept only as labelled listings set aside for the founder's ruling
+  generated_by: Devin subagent (SWE-2 Medium, Lane A4 worker)
+  model: swe-2-medium
+  run: a4-canon-book3-14
+status:
+  review: published
+  completeness: 1
+  generated_by: Devin subagent (SWE-2 Medium, book mining, lane A4)

@@ -1,0 +1,33 @@
+id: concept/duf-al-asnan
+class: concept
+kind: scientific
+label:
+  ar: ضعف الأسنان
+  en: The weakness of the teeth
+  ur: دانتوں کی کمزوری
+summary:
+  ar: لضعف الأسنان ينفع القوابض المذكورة من هذا الجنس والسنونات الفاضلة ويصف لذلك سنونات جيدة ⁦(الأسماء والمقادير مطروحة)⁩ {cite:canon-ibn-sina-print-v2 p.279}
+  en: For the teeth's weakness the named astringents of this kind help, and the excellent dentifrices — he gives several good dentifrice (sanun) recipes for it (names and measures left out) {cite:canon-ibn-sina-print-v2 p.279}
+  ur: دانتوں کی کمزوری میں مذکورہ قابض اسی جنس کی سودا کرتی ہیں اور بہترین سنونات بھی، جس کے لیے وہ کئی اچھے سنون کے نسخے بیان کرتا ہے ⁦(نام اور مقداریں مطروح)⁩ {cite:canon-ibn-sina-print-v2 p.279}
+wings:
+- living
+tags:
+- tibb-browser
+- tibb-tibb
+sources:
+- source/canon-ibn-sina-print-v2
+relations:
+- type: part_of
+  target: concept/disease
+  sources:
+  - source/canon-ibn-sina-print-v2
+provenance:
+  layer: own-research
+  source: Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 7 (the teeth, one maqala) and the first fasls of Fann 8 (the gums and the lips), scan pages 279, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json, copied to /tmp before reading); editor footnotes used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping, cautery and operative sites and application methods left out; the tooth's drilling, filing, drawing, cautery and extraction carried only as the book's descriptions, not as procedures; unclear OCR words carried as printed, not guessed; case reports and named attributions carried as the book's attributions and labelled; animal-derived and unclean lines kept only as labelled listings set aside for the founder's ruling
+  generated_by: Devin subagent (SWE-2 Medium, Lane A4 worker)
+  model: swe-2-medium
+  run: a4-canon-book3-14
+status:
+  review: published
+  completeness: 1
+  generated_by: Devin subagent (SWE-2 Medium, book mining, lane A4)

@@ -1,0 +1,33 @@
+id: concept/shuquq-al-litha
+class: concept
+kind: scientific
+label:
+  ar: شقوق اللثة
+  en: The gum's fissures
+  ur: مسوڑھے کی شقاق
+summary:
+  ar: شقوق اللثة يجري في علاجها مجرى شقوق الشفة وسيذكر {cite:canon-ibn-sina-print-v2 p.281}
+  en: The gum's fissures run in treatment the course of the lip's fissures, which is given later {cite:canon-ibn-sina-print-v2 p.281}
+  ur: مسوڑھے کی شقاق کا علاج وہی چلتا ہے جو ہونٹ کی شقاق کا ہے جس کا ذکر آنے والا ہے {cite:canon-ibn-sina-print-v2 p.281}
+wings:
+- living
+tags:
+- tibb-browser
+- tibb-tibb
+sources:
+- source/canon-ibn-sina-print-v2
+relations:
+- type: part_of
+  target: concept/disease
+  sources:
+  - source/canon-ibn-sina-print-v2
+provenance:
+  layer: own-research
+  source: Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 7 (the teeth, one maqala) and the first fasls of Fann 8 (the gums and the lips), scan pages 281, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json, copied to /tmp before reading); editor footnotes used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping, cautery and operative sites and application methods left out; the tooth's drilling, filing, drawing, cautery and extraction carried only as the book's descriptions, not as procedures; unclear OCR words carried as printed, not guessed; case reports and named attributions carried as the book's attributions and labelled; animal-derived and unclean lines kept only as labelled listings set aside for the founder's ruling
+  generated_by: Devin subagent (SWE-2 Medium, Lane A4 worker)
+  model: swe-2-medium
+  run: a4-canon-book3-14
+status:
+  review: published
+  completeness: 1
+  generated_by: Devin subagent (SWE-2 Medium, book mining, lane A4)
