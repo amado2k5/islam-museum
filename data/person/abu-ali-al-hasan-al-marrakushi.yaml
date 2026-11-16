@@ -10,6 +10,11 @@ themes: [astronomy-and-timekeeping]
 regions: [maghreb]
 gender: male
 roles: [scholar]
+faith:
+  - value: sunni
+    basis: tradition
+    note: "No personal madhhab is recorded for al-Marrakushi; Sunni is the museum's default frame for the documented Maghrebi scholarly milieu, not a documented school choice."
+    sources: [source/bibalex-azhar-astronomy-manuscripts-2006]
 periods: [period/crusades-ayyubid-mamluk]
 floruit: { edtf: "1261", hijri: "0660", calendar: julian, precision: year, status: tradition, note: "Date printed with his name in the Azhar catalogue {cite:bibalex-azhar-astronomy-manuscripts-2006 p. 16}.", sources: [source/bibalex-azhar-astronomy-manuscripts-2006] }
 born: { edtf: "1220~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Suter, Die Mathematiker und Astronomen der Araber" }
