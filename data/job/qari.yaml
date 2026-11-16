@@ -1,0 +1,44 @@
+id: job/qari
+class: job
+label: { ar: "القارئ", en: "Qari (qurrā', professional reciter and teacher of the readings)", ur: "قاری" }
+names:
+  - { value: "قارئ", kind: alternate }
+  - { value: "قرّاء", kind: alternate }
+  - { value: "مقرئ", kind: alternate }
+  - { value: "شيخ القراءة", kind: alternate }
+  - { value: "قارئ الجند", kind: alternate }
+  - { value: "kurrâ", kind: latinized, lang: tr }
+  - { value: "reisülkurrâ", kind: latinized, lang: tr }
+summary:
+  ar: "القارئ حرفة تلاوة القرآن ونقل القراءات وتعليمها؛ انطلقت من أصحاب النبي الذين أُرسلوا مُعلّمي قرآن إلى الأمصار، ثم صار القرّاء صفوة أهل العلم في مكة والمدينة والكوفة والبصرة ودمشق ومنهم انبثقت القراءات السبع والعشر. أخذ المقرئ القراءة مشافهةً بإسناد متصل، وعلّم في حلقات الجوامع ⁦(السبع والتصدير)⁩ وفي الكتاتيب والمدارس ودور القرّاء، وخدم قارئ الجند في الثغور والعسكر، وتصدّر مهنته شيخ القراءة ورئيس القرّاء."
+  en: "The qari is the professional reciter, transmitter and teacher of the Qur'an's readings; the line began with the Companions sent out as Qur'an teachers, and the qurra became the scholarly elite of Mecca, Medina, Kufa, Basra and Damascus, from whom the seven and ten readings stem. The muqri took his recitation mouth to mouth on an unbroken isnad, taught in the mosque circles (the sab' and tasdir), the kuttab, the madrasas and the dar al-qurra, served as qari al-jund on the frontier and in the army, and rose under a shaykh al-qiraa and a reisülkurra."
+  ur: "قاری قرآن کی تلاوت، قراءتوں کی روایت اور تعلیم کا پیشہ ور ہے؛ اس کا آغاز ان صحابہ سے ہوا جو قرآن کے معلم بنا کر اطراف میں بھیجے گئے، پھر قرّاء مکہ، مدینہ، کوفہ، بصرہ اور دمشق کے علمی پیشوا بنے جن سے سات اور دس قراءتیں نکلیں۔ مقرئ مسلسل سند سے منہ سے منہ قراءت لیتا اور مسجدوں کے حلقوں ⁦(سبع اور تصدیر)⁩، کتّابوں، مدارس اور دارالقرّا میں پڑھاتا، سرحد اور لشکر میں قارئ الجند کی خدمت کرتا، اور اس پیشے کی سرکردہ شخصیات شیخ القراءة اور رئیس القرّا تھے۔"
+domain: faith-preaching
+kind: religious
+hirfa: false
+era:
+  origins: prophetic
+  status_today: living
+places:
+  - { place: place/medina, note: "The Prophet sent Mus'ab ibn Umayr to Medina as Qur'an teacher after the first Aqaba pledge, and Ibn Sa'd's report of Mahrama ibn Nawfal's 'dar al-qurra' house shows the name was already used for a place of recitation in the Prophet's time.", sources: [source/tdv-darulkurra] }
+  - { place: place/damascus, note: "Abu al-Darda, the 'qari of al-Sham', taught circles of more than 1,500 at the Umayyad Mosque; Damascus later held the first independent dar al-qurra, the Rishaiyya founded by Risha ibn Nazif about the turn of the fifth century AH, and several more named after their qurra masters.", sources: [source/tdv-darulkurra] }
+  - { place: place/kufa, note: "Kufa was one of the great reading centres: Asim ibn Bahdala, Hamza ibn Habib, al-Kisa'i and al-A'mash gave the city four of the ten canonical readings.", sources: [source/tdv-kiraat] }
+regions: [arabia, levant-iraq, egypt-nile, maghreb, anatolia-balkans, persia-central-asia, south-asia, andalus-europe, southeast-asia, west-africa-sahel, east-africa, global]
+organization:
+  organized: court-office
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people]
+periods: [period/prophetic-era, period/rashidun, period/umayyad, period/abbasid-early, period/buyid-seljuk-fatimid-era, period/crusades-ayyubid-mamluk, period/gunpowder-empires, period/modern-era, period/contemporary-era]
+sources: [source/tdv-kiraat, source/tdv-darulkurra]
+training:
+  mode: ijaza-chain
+  certification: "Recitation is taken mushafaha — mouth to mouth — from a master on an unbroken isnad; the muqri is defined as one who transmits the readings on such a chain, and the ranks of the profession run from the beginner (mubtadi) through the middling (mutawassit) to the master of all the readings (muntahi)."
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-faith-1" }
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi, 'KIRAAT' (Birışık, 2022) and 'DÂRÜLKURRÂ' (Bozkurt, Tanman, 1993), web editions read on 16 Nov 2026: the qurra vocabulary and ranks, the teaching circles, and the dar al-qurra institutions"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-faith-1-drafting"

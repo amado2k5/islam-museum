@@ -1,0 +1,41 @@
+id: job/imam
+class: job
+label: { ar: "الإمام", en: "Imam (prayer leader)", ur: "امام" }
+names:
+  - { value: "صاحب الصلاة", kind: alternate }
+  - { value: "pîş-nemâz", kind: alternate, lang: fa }
+  - { value: "imam-hatip", kind: latinized, lang: tr }
+  - { value: "mahalle imamı", kind: latinized, lang: tr }
+summary:
+  ar: "الإمام من يؤمّ الجماعة في الصلاة؛ بدأ وكيلاً عن النبي وعن الوالي، ثم استقلّت الإمامة وظيفةً تُعيَّن على المساجد منذ القرون الأولى. تطوّرت أجور الإمامة من مال بيت المال إلى أوقاف المساجد، وصار إمام المحلة في الدولة العثمانية موظّفاً ببراءة سلطانية من أهل العسكر، يراقب السكن والمواليد والوفيات وعقود النكاح ونظافة المحلة إلى جانب إقامة الصلاة، ثم نظّمت نيظامنامهات التوجيهات أواخر القرن التاسع عشر تعيينه بالامتحان."
+  en: "The imam leads the congregation in prayer; the office began as a deputyship of the Prophet and of the governor, then became a mosque appointment of its own in the first centuries. Pay moved from the treasury to the mosques' waqfs, and in the Ottoman state the neighbourhood imam held a sultan's berat, counted among the askeri, and watched over residence, births, deaths, marriage contracts and the cleanliness of the quarter beside leading prayer; the appointment regulations of the late nineteenth century finally made his post an examined one."
+  ur: "امام وہ شخص ہے جو جماعت کی نماز پڑھاتا ہے؛ یہ منصب نبی اور گورنر کی طرف سے نائب مقرر کرنے سے شروع ہوا اور ابتدائی صدیوں میں مسجدوں کی علیحدہ تقرری بن گیا۔ اس کی تنخواہ بیت المال سے مسجدوں کے اوقاف میں منتقل ہوئی، اور عثمانی سلطنت میں محلے کا امام سلطانی برات سے منصب پانے والا عسکری طبقے کا فرد تھا جو نماز کے علاوہ رہائش، پیدائش، وفات، نکاح اور محلے کی صفائی بھی دیکھتا تھا؛ انیسویں صدی کے آخر کے تعیناتی قوانین نے اس کا منصب امتحانی بنا دیا۔"
+domain: faith-preaching
+kind: religious
+hirfa: false
+era:
+  origins: prophetic
+  status_today: living
+places:
+  - { place: place/medina, note: "The office began at Medina: the Prophet appointed deputies to lead the prayer when absent and finally Abu Bakr in his illness, and chose men of the best Qur'an knowledge for the newly converted tribes, like the boy Amr ibn Salima.", sources: [source/tdv-imam] }
+  - { place: place/istanbul, note: "Ottoman imams held the sultan's berat, counted among the askeri exempt from reaya dues, and were proposed by the waqf trustee with the sheyhülislam's assent; from 1888 an examination before inspection boards fixed their qualifications.", sources: [source/tdv-imam] }
+  - { place: place/cairo, note: "Under Qalawun each imam of the mosques drew forty dirhams a month plus food allotment, and the Sultan Hasan complex paid the four schools' imams sixty to a hundred dirhams with a Ramadan supplement.", sources: [source/tdv-imam] }
+regions: [arabia, levant-iraq, egypt-nile, maghreb, anatolia-balkans, persia-central-asia, south-asia, andalus-europe, southeast-asia, west-africa-sahel, east-africa, global]
+organization:
+  organized: court-office
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people]
+periods: [period/prophetic-era, period/rashidun, period/umayyad, period/abbasid-early, period/buyid-seljuk-fatimid-era, period/crusades-ayyubid-mamluk, period/gunpowder-empires, period/modern-era, period/contemporary-era]
+sources: [source/tdv-imam]
+training:
+  mode: mixed
+  certification: "In the Ottoman order appointment came by berat on the waqf trustee's proposal and the sheyhülislam's assent; the office often passed father to son, and from the 1888 Tevcihat-i Cihat Nizamnamesi candidates sat an examination on fiqh and Qur'an recitation before an inspection board."
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-faith-1" }
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi, 'İMAM' (Küçükaşcı, Beydilli, Yücel, Öğüt, 2000), web edition read on 16 Nov 2026: the first imams, wilaya al-salat, pay from treasury and waqf, and the Ottoman neighbourhood and army imams"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-faith-1-drafting"

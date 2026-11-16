@@ -13,6 +13,10 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v1.53.0 — 2026-11-16
+### Added
+- Job Browser: six more professions, opening governance-law and deepening faith-preaching — the imam of the daily prayers, the qari Qur'an reciter and the Darulkurra schools, the sufi shaykh of the tekke, the sahib al-shurta police chief of the classical city, the qadi al-qudat chief judge who appointed the provincial qadis, and the hakam arbiter — in Arabic, English and Urdu draft cited to the TDV entries İMAM, KIRAAT, DÂRÜLKURRÂ, ŞEYH (tasavvuf), ŞURTA, KĀDILKUDÂT, HAKEM and TAHKÎM.
+
 ## v1.52.0 — 2026-11-16
 ### Added
 - Job Browser: six more professions, completing the hirfa craft taxonomy — the rope-maker (habbal) of the Galata ditch and the tent-ropes of the pilgrimage, the mosaicist (fassifsa'i) of the Umayyad mosque workshops, the zallij-maker of the Fez tile-setters' hammers, and the first faith-preaching jobs: the muezzin, the khatib of the Friday pulpit, and the qass storyteller-preacher — in Arabic, English and Urdu draft cited to Evliya Çelebi, Creswell's *Early Muslim Architecture*, Newcomb's *Decorative Tiles of North Africa*, and the TDV entries MÜEZZİN, HUTBE and VAAZ.
