@@ -1,0 +1,61 @@
+id: event/testament-of-aisha-to-be-buried-in-al-baqi
+class: event
+kind: death
+label:
+  ar: وصية عائشة بأن تُدفن بالبقيع ووفاتها
+  en: Testament and burial of Aisha in al-Baqi
+  ur: عائشہ کی بقیع میں دفن ہونے کی وصیت اور وفات
+summary:
+  ar: "روى ابن كثير عن هشام بن عروة عن أبيه عن عائشة أنها أوصت عبد الله بن الزبير ألا تُدفن مع النبي وصاحبيه في الحجرة وأن تُدفن مع صواحبها بالبقيع {cite:al-bidaya-wal-nihaya scan vol. 3 p. 300}. وفي مرض موتها استأذن عليها ابن عباس فتردّدت ثم أذنت، فبشّرها بأنه لا يفصلها عن لقاء النبي والأحبة إلا خروج الروح، وذكّرها بنزول براءتها، فقالت إنها تتمنى لو كانت نسياً منسياً {cite:al-bidaya-wal-nihaya scan vol. 4 p. 461} {cite:fath-al-bari scan vol. 3 p. 483}. وتوفيت في رمضان سنة ثمان وخمسين في الأشهر، وقيل قبلها بسنة، ودُفنت ليلاً بعد الوتر بالبقيع وصلّى عليها أبو هريرة، ونزل في قبرها خمسة من أبناء إخوتها وأخواتها {cite:al-bidaya-wal-nihaya scan vol. 4 p. 461} {cite:isti-ab-ibn-abd-al-barr scan vol. 3 p. 921}."
+  en: "Ibn Kathir reports, from Hisham ibn Urwa through his father, that Aisha charged Abdallah ibn al-Zubayr not to bury her with the Prophet and his two companions in the room but with her companions in al-Baqi {cite:al-bidaya-wal-nihaya scan vol. 3 p. 300}. In her last illness Ibn Abbas asked leave to enter; she hesitated and then allowed him, and he gave her the good news that only the departure of the soul lay between her and meeting the Prophet and the loved ones, reminding her of the revelation of her vindication; she answered that she wished she had been something forgotten and lost {cite:al-bidaya-wal-nihaya scan vol. 4 p. 461} {cite:fath-al-bari scan vol. 3 p. 483}. She died in Ramadan of 58 AH on the commonest account, a year earlier or later in others, was buried by night after the witr prayer in al-Baqi, Abu Hurayra led the prayer, and five of her nephews descended into the grave {cite:al-bidaya-wal-nihaya scan vol. 4 p. 461} {cite:isti-ab-ibn-abd-al-barr scan vol. 3 p. 921}."
+  ur: "ابن کثیر ہشام بن عروہ کے واسطے سے عائشہ کی روایت نقل کرتے ہیں کہ انھوں نے عبداللہ بن زبیر کو وصیت کی کہ انھیں حجرے میں نبی اور آپ کے دونوں ساتھیوں کے ساتھ دفن نہ کیا جائے بلکہ بقیع میں ان کی سہیلیوں کے ساتھ دفن کیا جائے {cite:al-bidaya-wal-nihaya scan vol. 3 p. 300}. مرضِ وفات میں ابن عباس نے اندر آنے کی اجازت مانگی؛ وہ پہلے ہچکچائیں پھر اجازت دے دی، اور انھوں نے خوشخبری دی کہ نبی اور پیاروں سے ملاقات میں صرف روح کے نکلنے کی دیر ہے، اور ان کی براءت کے نزول کی یاد دلائی؛ عائشہ نے کہا کہ کاش وہ بھولی بسری چیز ہوتیں {cite:al-bidaya-wal-nihaya scan vol. 4 p. 461} {cite:fath-al-bari scan vol. 3 p. 483}. مشہور ترین قول میں وہ ۵۸ھ کے رمضان میں فوت ہوئیں، بعض کے نزدیک ایک سال پہلے یا بعد، رات کو وتر کے بعد بقیع میں دفن ہوئیں، ابوہریرہ نے نماز پڑھائی اور ان کے پانچ بھتیجے بھانجے قبر میں اترے {cite:al-bidaya-wal-nihaya scan vol. 4 p. 461} {cite:isti-ab-ibn-abd-al-barr scan vol. 3 p. 921}."
+wings: [time, people, words]
+tags: [wasaya-browser, wasaya-companions, wasaya-wasiyya, wasaya-ihtidar, wasaya-marqad]
+periods:
+- period/umayyad
+regions:
+- arabia
+date:
+  start: { hijri: "0058", precision: year, status: tradition, note: "سنة 58هـ هي الأشهر، وقيل قبلها بسنة وقيل بعدها بسنة، والأشهر ليلة الثلاثاء 17 رمضان {cite:al-bidaya-wal-nihaya scan vol. 4 p. 461}، وعند ابن عبد البر خليفة بن خياط يقول 58 وغيره 57 {cite:isti-ab-ibn-abd-al-barr scan vol. 3 p. 921}", sources: [source/al-bidaya-wal-nihaya, source/isti-ab-ibn-abd-al-barr, source/usd-al-ghaba] }
+relations:
+- type: had_participant
+  target: person/aisha
+  role: صاحبة الوصية والمتوفاة
+  sources: [source/al-bidaya-wal-nihaya]
+- type: had_participant
+  target: person/abdullah-ibn-al-zubayr
+  role: الموصى إليه بدفنها، ونزل في قبرها
+  sources: [source/al-bidaya-wal-nihaya]
+- type: had_participant
+  target: person/abdullah-ibn-abbas
+  role: زارها في مرض موتها فبشّرها
+  sources: [source/al-bidaya-wal-nihaya, source/fath-al-bari]
+- type: had_participant
+  target: person/abu-hurayra
+  role: صلّى عليها
+  sources: [source/al-bidaya-wal-nihaya, source/isti-ab-ibn-abd-al-barr]
+- type: had_participant
+  target: person/urwa-ibn-al-zubayr
+  role: نزل في قبرها
+  sources: [source/al-bidaya-wal-nihaya]
+- type: occurred_at
+  target: place/al-baqi
+  sources: [source/al-bidaya-wal-nihaya, source/isti-ab-ibn-abd-al-barr]
+- type: occurred_at
+  target: place/medina
+  sources: [source/al-bidaya-wal-nihaya]
+sources:
+- source/al-bidaya-wal-nihaya
+- source/fath-al-bari
+- source/isti-ab-ibn-abd-al-barr
+- source/usd-al-ghaba
+provenance:
+  layer: own-research
+  source: "البداية والنهاية لابن كثير ⁦(مجلد 3 ص 300، ومجلد 4 ص 461)⁩، فتح الباري ⁦(مجلد 3 ص 483)⁩، الاستيعاب ⁦(مجلد 3 ص 921)⁩، أسد الغابة ⁦(مجلد 1 ص 1551)⁩؛ أرقام الصفحات صفحات المسح"
+  generated_by: "Claude (claude-sonnet-5-5)"
+  model: claude-sonnet-5-5
+  run: wasaya-browser-1
+status:
+  review: draft
+  completeness: 2
+  generated_by: "Claude (claude-sonnet-5-5); wasaya-browser-1"

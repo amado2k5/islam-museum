@@ -1,0 +1,37 @@
+---
+id: event/deathbed-of-amr-ibn-al-as
+lang: en
+source_lang: ar
+translators: ["Claude (claude-sonnet-5-5), draft translation"]
+provenance: { generated_by: "Claude (claude-sonnet-5-5)", model: claude-sonnet-5-5, run: wasaya-browser-1, source: "طبقات ابن سعد، حياة الصحابة، البداية والنهاية، الاستيعاب، أسد الغابة؛ أرقام الصفحات صفحات المسح" }
+status: { review: published }
+---
+## Summary
+[[person/amr-ibn-al-as|Amr ibn al-As]], the conqueror of Egypt and Mu'awiya's governor there, died on the night of the Eid al-Fitr. The books of generations and history preserve his long account of dying, which Ahmad and Ibn Sa'd transmit and which Muslim gives in his Sahih with additions, as Ibn Kathir notes: his three states, and his instructions about his washing, his burial and those standing at his grave. {cite:al-bidaya-wal-nihaya scan vol. 4 p. 390}
+
+## The account of his dying
+Abd al-Rahman ibn Shimasa al-Mahri relates that they were present as Amr was in the throes of death and he turned his face to the wall and wept for a long time, while his son said: why do you weep? Did the Messenger of God not give you good news of this and of that? Then he turned his face toward them. {cite:hayat-al-sahaba-kandahlawi-sabbani scan vol. 1 p. 60} In Ahmad's version his son [[person/abdullah-ibn-amr-ibn-al-as|Abdallah]] asked: why do you weep, is it dread of death? He said: no, by God, but what comes after death. His son reminded him of his companionship with the Messenger of God and the conquest of Syria, and he said: I have left out what is better than all that, the testimony that there is no god but God. {cite:al-bidaya-wal-nihaya scan vol. 4 p. 390}
+
+## His three states
+He said he had been in three states. In the first no one was more hateful to him than the Messenger of God and nothing dearer to him than to get hold of him and kill him; had he died then he would have been among the people of the Fire. {cite:hayat-al-sahaba-kandahlawi-sabbani scan vol. 1 p. 60} Then God put Islam in his heart and he came to the Prophet to pledge allegiance; he held out his hand then drew it back, and the Prophet asked: what is it, Amr? He said he wished to make a condition, namely that he be forgiven; and the Prophet told him that Islam wipes out what came before it, as does emigration and as does the pilgrimage. {cite:tabaqat-ibn-sad scan vol. 5 p. 40} Afterwards no one was dearer to him than the Messenger of God or greater in his eyes; asked to describe him he could not, for he could not fill his eyes out of reverence; had he died in that state he would have hoped to be among the people of Paradise. {cite:tabaqat-ibn-sad scan vol. 5 p. 40} Then, he said, we were given charge of things after that, and I do not know how I stand in them. {cite:tabaqat-ibn-sad scan vol. 5 p. 40}
+
+## His instructions for washing, shrouding and burial
+Ibn Sa'd relates from Abdallah ibn Amr that his father charged him: when I die, wash me once with water and dry me in a cloth, then wash me a second time with pure water and dry me in a cloth, then wash me a third time with water containing some camphor and dry me in a cloth. When you clothe me, tie the wrapper firmly on me, for I am to be an adversary. When you carry me on the bier, walk at a pace between two paces and stay behind the bier, for the front belongs to the angels and the rear to the children of Adam; when you lay me in the grave, pour the earth over me. {cite:tabaqat-ibn-sad scan vol. 5 p. 41} In Ahmad's version: let no wailing woman weep over me, let no one who praises or fire follow me, tie my wrapper tight, for I am to be an adversary, pour the earth over me from all sides, for my right side has no more right to the earth than my left, and put no wood or stone in my grave; when you have buried me, sit by me for the time it takes to slaughter a camel. {cite:al-bidaya-wal-nihaya scan vol. 4 p. 390} In Ibn Sa'd's version: when you have finished my grave stay by it for as long as a camel is slaughtered and its meat divided, for I take comfort in you until I know what I will answer the messengers of my Lord. {cite:tabaqat-ibn-sad scan vol. 5 p. 40}
+
+## His last words
+Ibn Kathir, giving the narrations in Muslim, says he turned his face to the wall and kept saying: O God, You commanded us and we disobeyed, You forbade us and we did not refrain, and there is nothing for us but Your pardon. In another narration he put his hand where the neck-iron would sit, raised his head to heaven and said: O God, I am not strong that I should be helped, nor innocent that I should excuse myself, nor proud, but ask forgiveness; there is no god but You; and he kept repeating it until he died. {cite:al-bidaya-wal-nihaya scan vol. 4 p. 391} In Ibn Sa'd's report from his son Abdallah he said: O God, You commanded us and we rode on, You forbade us and we neglected; I am not innocent to excuse myself nor mighty to help myself, but there is no god but God; he kept saying it until he died. {cite:tabaqat-ibn-sad scan vol. 5 p. 41}
+
+## Who visited him and what was said
+Al-Muzani relates from al-Shafi'i that [[person/abdullah-ibn-abbas|Ibn Abbas]] entered upon Amr in his illness, greeted him and asked how he was; he said he had made a little of his world right and spoiled much of his religion, and that if what he had mended were what he had spoiled he would have won; he said he had become like a catapult between heaven and earth; Ibn Abbas answered, never, Abu Abdallah, and Amr said: what is it between you and me, Ibn Abbas, I never send out a word but you send back its opposite. {cite:isti-ab-ibn-abd-al-barr scan vol. 3 p. 498} Ibn Sa'd reports that as death came he called his household and asked what sort of companion he had been; they said a true one who honoured and gave to them; he said he had done so to keep death from him and now it had come, so let them avert it; they were shocked, and he said he knew they could avail him nothing. {cite:tabaqat-ibn-sad scan vol. 5 p. 41}
+
+## What he left
+Ibn Sa'd reports from Mujahid that Amr freed every slave he owned. {cite:tabaqat-ibn-sad scan vol. 5 p. 42} I found no statement in the pages I read of the amount of money or land he left.
+
+## Prayer, burial and grave
+Ibn al-Athir says he died in Egypt on the night of the Eid al-Fitr; his son Abdallah prayed over him and he was buried at al-Muqattam, after which Abdallah prayed the festival prayer. {cite:usd-al-ghaba scan vol. 1 p. 943} Ibn Abd al-Barr says he was ninety when he died and was buried at al-Muqattam on the side of al-Fath; his son Abdallah prayed over him, then went back and led the people in the festival prayer and took his place as governor. {cite:isti-ab-ibn-abd-al-barr scan vol. 3 p. 498} Al-Muqattam is the [[place/al-muqattam|Muqattam range]]. See also the draft card for the [[building/tomb-of-amr-ibn-al-aas|Tomb of Amr ibn al-As]], whose sources are not yet checked.
+
+## Differing reports
+The year of death is 43 in the most widely held view in Ibn Kathir, with 47, 48 and 51 also given. {cite:al-bidaya-wal-nihaya scan vol. 4 p. 390} Ibn Sa'd gives from al-Waqidi that he died on the day of the Fitr in Egypt in the year 42, adds that he heard some say 43, and that some of the learned said 51. {cite:tabaqat-ibn-sad scan vol. 5 p. 42} Ibn Abd al-Barr gives his age at death as ninety. {cite:isti-ab-ibn-abd-al-barr scan vol. 3 p. 498}
+
+## Sources
+Ibn Sa'd, al-Tabaqat; al-Kandahlawi, Hayat al-Sahaba; Ibn Kathir, al-Bidaya wa-l-Nihaya; Ibn Abd al-Barr, al-Isti'ab; Ibn al-Athir, Usd al-Ghaba. Page numbers refer to scan pages.

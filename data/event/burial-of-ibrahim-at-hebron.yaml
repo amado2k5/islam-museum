@@ -1,0 +1,72 @@
+id: event/burial-of-ibrahim-at-hebron
+class: event
+kind: death
+label:
+  ar: وفاة إبراهيم ودفنه في مغارة الخليل
+  en: Death and burial of Ibrahim at Hebron
+  ur: ابراہیم کی وفات اور خلیل میں تدفین
+summary:
+  ar: يذكر ابن كثير أن إبراهيم مرض ومات ودُفن في المغارة التي اشتراها من عفرون بن صخر الحيثي بحبرون عند زوجته سارة، وتولى دفنه إسماعيل وإسحاق {cite:qisas-al-anbiya-ibn-kathir-iqra-ebook scan p. 237} {cite:al-bidaya-wal-nihaya scan vol. 2 p. 178}؛ ويورد حديثاً عن ابن حبان في عمره، وأخباراً عن مجيء ملك الموت إليه مأخوذة عن أهل الكتاب يقول فيها «الله أعلم بصحتها» {cite:qisas-al-anbiya-ibn-kathir-iqra-ebook scan p. 237}.
+  en: Ibn Kathir says Ibrahim fell ill and died and was buried in the cave at Habrun bought from Ephron ibn Sakhr the Hittite, beside his wife Sara, with Ismail and Ishaq seeing to the burial {cite:qisas-al-anbiya-ibn-kathir-iqra-ebook scan p. 237} {cite:al-bidaya-wal-nihaya scan vol. 2 p. 178}; he cites a report from Ibn Hibban on his age, and reports drawn from the People of the Book about the angel of death's coming to him, of which he says 'God knows best how sound they are' {cite:qisas-al-anbiya-ibn-kathir-iqra-ebook scan p. 237}.
+  ur: ابن کثیر بتاتے ہیں کہ ابراہیم بیمار ہو کر فوت ہوئے اور حبرون میں عفرون بن صخر حیثی سے خریدی ہوئی غار میں اپنی اہلیہ سارہ کے پاس دفن ہوئے اور اسماعیل و اسحاق نے ان کی تدفین کی {cite:qisas-al-anbiya-ibn-kathir-iqra-ebook scan p. 237} {cite:al-bidaya-wal-nihaya scan vol. 2 p. 178}؛ وہ ابن حبان کی ایک روایت ان کی عمر کے بارے میں لاتے ہیں اور ملک الموت کے آنے کی وہ خبریں جو اہلِ کتاب سے ماخوذ ہیں، جن کے بارے میں کہتے ہیں «ان کی صحت کا علم اللہ کو ہے» {cite:qisas-al-anbiya-ibn-kathir-iqra-ebook scan p. 237}۔
+wings:
+- time
+- people
+themes:
+- prophets
+tags:
+- wasaya-browser
+- wasaya-prophets
+- wasaya-ihtidar
+- wasaya-marqad
+relations:
+- type: had_participant
+  target: person/ibrahim
+  role: المتوفى
+  sources:
+  - source/qisas-al-anbiya-ibn-kathir-iqra-ebook
+  - source/al-bidaya-wal-nihaya
+- type: had_participant
+  target: person/ismail
+  role: تولى الدفن
+  sources:
+  - source/qisas-al-anbiya-ibn-kathir-iqra-ebook
+  - source/al-bidaya-wal-nihaya
+- type: had_participant
+  target: person/ishaq
+  role: تولى الدفن
+  sources:
+  - source/qisas-al-anbiya-ibn-kathir-iqra-ebook
+  - source/al-bidaya-wal-nihaya
+- type: mentions
+  target: person/sara
+  sources:
+  - source/qisas-al-anbiya-ibn-kathir-iqra-ebook
+  - source/al-bidaya-wal-nihaya
+- type: occurred_at
+  target: place/al-khalil
+  sources:
+  - source/qisas-al-anbiya-ibn-kathir-iqra-ebook
+  - source/al-bidaya-wal-nihaya
+- type: occurred_at
+  target: building/al-haram-al-ibrahimi
+  sources:
+  - source/qisas-al-anbiya-ibn-kathir-iqra-ebook
+- type: mentions
+  target: concept/israiliyyat
+  sources:
+  - source/qisas-al-anbiya-ibn-kathir-iqra-ebook
+sources:
+- source/qisas-al-anbiya-ibn-kathir-iqra-ebook
+- source/al-bidaya-wal-nihaya
+provenance:
+  layer: own-research
+  source: قصص الأنبياء لابن كثير ط. اقرأ ⁦(مسح iqraaEBook54، ص 236-237)⁩ والبداية والنهاية ⁦(مسح AAlexandrina-074627، ص 178)⁩؛ أرقام الصفحات علامات صفحات المسح
+  generated_by: Claude (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: wasaya-browser-1
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude (claude-sonnet-5-5); wasaya-browser-1
+importance: 2

@@ -13,6 +13,16 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v1.56.0 — 2026-11-16
+### Added
+- **Testaments Browser** («متصفح وصايا الأنبياء والمرسلين والصالحين والأئمة والتابعين والخلفاء والصحابة قبل وفاتهم ومورثاتهم وأثرهم ومراقدهم») at `/ar/wasaya/`, `/en/wasaya/` and `/ur/wasaya/`: one place for what the museum's sources say about how the prophets, the caliphs, the Companions, the Successors, the imams and the righteous took their leave — their last testaments and counsels, their last hours, what they left behind, the relics kept after them and where the books say they are buried. It has five topics and twelve sections, a view of "the five lines of the testament", a timeline, a filter, a box on the landing page and an entry in the Explore menu, in Arabic, English and Urdu. The whole set is also published as `/api/v1/wasaya.json`. Plan `docs/plan/61-wasaya-browser.md`; acceptance spec `docs/engineering/53-wasaya-browser-requirements.md`.
+### Data
+- 91 new records with full Arabic, English and Urdu prose, each sentence cited to a page that was read: the testaments of the prophets from Adam to 'Isa; the Prophet's parting counsels, estate, charitable lands, relics and burial chamber; the covenants, counsels, deathbeds, estates and graves of the four Rightly Guided Caliphs and of eight later caliphs and rulers; the testaments and deathbeds of 24 Companions, 8 Successors and imams and 6 later scholars; the Companions' graves at al-Baqi' and Bab al-Saghir; and four records on the books of testaments and of the dying. Where reports differ on a will, an estate or a grave, each version is attributed; where a detail was not found on a source page, the record says so. The texts were written by AI agents from the cited sources and have not been read by a human.
+- 1,108 excerpts of at most 40 words mined from 37 OCR'd books and 738 hadith passages from the open hadith dataset (each collection's book of wills in full), and 124 existing records (deaths, tombs, cemeteries, relics, concepts) tagged into the browser. On 16 November 2026 the browser lists 2,132 passages, 88 of them Qur'an verses chosen from a reviewed table; passages from books harvested later join automatically.
+### Tests
+- `scripts/features-api.test.ts`: the `wasaya.json` export, the reviewed verse table, the guarded word list (the trial of the grave, a bare "inheritance" and a mining tool's own label do not match) and filing by section.
+
+
 ## v1.55.0 — 2026-11-16
 ### Added
 - Job Browser: six ruler offices — the caliph of the hilafet, the sultan who held the sword of the state, the emir commander-governor of the provinces, the wali provincial governor, the khan of the steppe dynasties, and the shah — in Arabic, English and Urdu draft cited to the TDV entries HİLÂFET, SULTAN, EMÎR (idareci), VALİ, HAN (hükümdar) and ŞAH (hükümdar).

@@ -1,0 +1,28 @@
+id: event/deathbed-of-al-hasan-al-basri
+class: event
+kind: death
+tags: [wasaya-browser, wasaya-successors, wasaya-wasiyya, wasaya-ihtidar, wasaya-marqad]
+label: { ar: "مرض الحسن البصري ووفاته وجنازته", en: "Deathbed and funeral of al-Hasan al-Basri", ur: "حسن بصری کا مرضِ وفات، وصیت اور جنازہ" }
+summary:
+  ar: "توفي الحسن البصري بالبصرة سنة عشر ومئة، وعن إسماعيل ابن علية أنه مات في رجب، وبينه وبين ابن سيرين مئة يوم {cite:tabaqat-ibn-sad-khanji-2001 vol. 9 p. 177}. وروى أبو طارق السعدي أنه شهده عند موته يوصي بشهادة أن لا إله إلا الله وأن محمداً رسول الله، وأن من شهد بها صادقاً عند موته دخل الجنة {cite:tabaqat-ibn-sad-khanji-2001 vol. 9 p. 174}، وروى ابنه عبد الله أنه لما ثقل أمر بكتبه فأُحرقت إلا صحيفة واحدة {cite:tabaqat-ibn-sad-khanji-2001 vol. 9 p. 175}. وغسله أيوب وحميد الطويل {cite:tabaqat-ibn-sad-khanji-2001 vol. 9 p. 177}، وصُلّي عليه عقب صلاة الجمعة، وتبعه الناس حتى لم تُقم صلاة العصر في الجامع {cite:siyar-alam-nubala scan vol. 1 p. 1462}."
+  en: "Al-Hasan al-Basri died at Basra in 110 AH; Ibn Sa'd reports from Isma'il ibn 'Ulayya that it was in Rajab, a hundred days before Ibn Sirin {cite:tabaqat-ibn-sad-khanji-2001 vol. 9 p. 177}. Abu Tariq al-Sa'di says he saw him dictate, at the point of death, his testimony of faith and the saying that whoever bears it truthfully at death enters Paradise {cite:tabaqat-ibn-sad-khanji-2001 vol. 9 p. 174}; his son Abd Allah reports that when he grew heavy he had his books burned except one sheet {cite:tabaqat-ibn-sad-khanji-2001 vol. 9 p. 175}. Ayyub and Humayd al-Tawil washed him {cite:tabaqat-ibn-sad-khanji-2001 vol. 9 p. 177}; the prayer over him was said after the Friday prayer and the crowds followed so that the afternoon prayer was not held in the congregational mosque {cite:siyar-alam-nubala scan vol. 1 p. 1462}."
+  ur: "حسن بصری کا انتقال بصرہ میں 110ھ میں ہوا؛ ابن سعد اسماعیل ابن علیہ سے نقل کرتے ہیں کہ وہ رجب میں فوت ہوئے اور ان کے اور ابن سیرین کے درمیان سو دن کا فاصلہ تھا {cite:tabaqat-ibn-sad-khanji-2001 vol. 9 p. 177}۔ ابو طارق سعدی کہتے ہیں کہ انھوں نے حسن کو موت کے وقت کلمۂ شہادت لکھوا کر وصیت کرتے دیکھا، اور یہ کہ جو سچے دل سے اسے موت کے وقت کہے وہ جنت میں داخل ہوگا {cite:tabaqat-ibn-sad-khanji-2001 vol. 9 p. 174}؛ ان کے بیٹے عبد اللہ کے مطابق بیماری بڑھی تو انھوں نے اپنی کتابیں جلوا دیں، سوائے ایک ورق کے {cite:tabaqat-ibn-sad-khanji-2001 vol. 9 p. 175}۔ ایوب اور حمید طویل نے انھیں غسل دیا {cite:tabaqat-ibn-sad-khanji-2001 vol. 9 p. 177}، جمعہ کے بعد نمازِ جنازہ ہوئی اور لوگ اتنی بڑی تعداد میں ساتھ چلے کہ جامع مسجد میں عصر کی نماز قائم نہ ہو سکی {cite:siyar-alam-nubala scan vol. 1 p. 1462}۔"
+wings: [time, people]
+periods: [period/umayyad]
+date:
+  start: { hijri: "0110-07", precision: month, status: tradition, note: "ابن سعد: توفي الحسن سنة عشر ومئة، وقال ابن علية في رجب {cite:tabaqat-ibn-sad-khanji-2001 vol. 9 p. 177}؛ والذهبي: مات في أول رجب {cite:siyar-alam-nubala scan vol. 1 p. 1462}" }
+relations:
+  - { type: had_participant, target: person/al-hasan-al-basri, role: "صاحب الوصية والمتوفى", sources: [source/tabaqat-ibn-sad-khanji-2001] }
+  - { type: had_participant, target: person/ayyub-al-sakhtiyani, role: "غاسل الجثمان", sources: [source/tabaqat-ibn-sad-khanji-2001] }
+  - { type: had_participant, target: person/humayd-al-tawil, role: "غاسل الجثمان وراوي خبر الجنازة", sources: [source/tabaqat-ibn-sad-khanji-2001, source/wafayat-ayan] }
+  - { type: had_participant, target: person/muhammad-ibn-sirin, role: "معاصره الذي توفي بعده بمئة يوم", sources: [source/tabaqat-ibn-sad-khanji-2001] }
+  - { type: occurred_at, target: place/basra, sources: [source/tabaqat-ibn-sad-khanji-2001] }
+  - { type: mentions, target: building/mausoleum-of-hasan-al-basri, sources: [source/tabaqat-ibn-sad-khanji-2001] }
+sources: [source/tabaqat-ibn-sad-khanji-2001, source/siyar-alam-nubala, source/wafayat-ayan]
+provenance:
+  layer: own-research
+  source: "Ibn Sa'd, al-Tabaqat al-Kubra (OpenITI text, printed volume and page) vol. 9 pp. 174-175, 177; al-Dhahabi, Siyar A'lam al-Nubala (scan vol. 1 p. 1462); Ibn Khallikan, Wafayat al-A'yan (scan vol. 3 pp. 161-162; OCR is rough). Page numbers of scan books are scan pages."
+  generated_by: "Claude (claude-sonnet-5-5)"
+  model: "claude-sonnet-5-5"
+  run: "wasaya-browser-1"
+status: { review: draft, completeness: 2, generated_by: "Claude (claude-sonnet-5-5); wasaya-browser-1" }

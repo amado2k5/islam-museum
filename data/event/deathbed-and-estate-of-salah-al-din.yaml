@@ -1,0 +1,43 @@
+id: event/deathbed-and-estate-of-salah-al-din
+class: event
+kind: death
+label:
+  ar: احتضار صلاح الدين الأيوبي ودفنه وما ترك من مال
+  en: Deathbed, burial and estate of Salah al-Din
+  ur: صلاح الدین ایوبی کا آخری وقت، تدفین اور ترکہ
+summary:
+  ar: "أصابت صلاح الدين حمى صفراوية ليلة السبت سادس عشر صفر سنة تسع وثمانين وخمسمئة بعد عودته من استقبال الحجاج، فبويع لابنه الأفضل في مرضه {cite:al-bidaya-wal-nihaya scan vol. 1 p. 7}. وتوفي فجر الأربعاء بعد أن قرئ عنده القرآن، وتبسم عند آية التوكل {cite:al-bidaya-wal-nihaya scan vol. 1 p. 8}. وغسله الفقيه الدولعي وأحضر القاضي الفاضل الكفن من ماله، ودُفن في داره بالقلعة ثم نُقل إلى تربته قرب الجامع الأموي عاشوراء سنة اثنتين وتسعين {cite:al-bidaya-wal-nihaya scan vol. 1 p. 8}. ولم يترك إلا ديناراً صورياً واحداً وستة وثلاثين درهماً ولا داراً ولا عقاراً {cite:al-bidaya-wal-nihaya scan vol. 1 p. 9}."
+  en: "A bilious fever struck Salah al-Din on the night of Saturday, 16 Safar 589, after he returned from greeting the pilgrims, and the commanders swore allegiance to his son al-Afdal during the illness {cite:al-bidaya-wal-nihaya scan vol. 1 p. 7}. He died at dawn on the Wednesday after the Qur'an had been read beside him, smiling at the verse of trust in God {cite:al-bidaya-wal-nihaya scan vol. 1 p. 8}. The jurist al-Dawla'i washed him, al-Qadi al-Fadil supplied the shroud from his own wealth, and he was buried in his house in the citadel and moved to his tomb beside the Umayyad Mosque on Ashura 592 {cite:al-bidaya-wal-nihaya scan vol. 1 p. 8}. He left one Tyrian dinar and thirty-six dirhams and no house or property {cite:al-bidaya-wal-nihaya scan vol. 1 p. 9}."
+  ur: "حاجیوں کے استقبال سے لوٹنے کے بعد ہفتے کی رات 16 صفر 589 ہجری کو صلاح الدین کو صفراوی بخار نے آ لیا، اور بیماری میں امیروں نے ان کے بیٹے افضل کی بیعت کی {cite:al-bidaya-wal-nihaya scan vol. 1 p. 7}۔ ان کے پاس قرآن پڑھا گیا اور وہ بدھ کی فجر میں توکل کی آیت پر مسکراتے ہوئے فوت ہوئے {cite:al-bidaya-wal-nihaya scan vol. 1 p. 8}۔ فقیہ دولعی نے غسل دیا، قاضی فاضل نے کفن اپنے مال سے دیا، قلعے میں ان کے گھر میں دفن ہوئے اور عاشورا سن 592 کو جامع اموی کے پہلو میں ان کے مقبرے میں منتقل ہوئے {cite:al-bidaya-wal-nihaya scan vol. 1 p. 8}۔ انھوں نے صرف ایک صوری دینار اور چھتیس درہم چھوڑے، نہ گھر نہ جائیداد {cite:al-bidaya-wal-nihaya scan vol. 1 p. 9}۔"
+wings: [time, people, words]
+tags: [wasaya-browser, wasaya-caliphs, wasaya-ihtidar, wasaya-mirath, wasaya-marqad]
+periods:
+- period/crusades-ayyubid-mamluk
+regions:
+- levant-iraq
+date:
+  start: { hijri: "0589-02", precision: month, status: tradition, note: "اشتد به الحال ليلة الأربعاء السابع والعشرين من صفر سنة تسع وثمانين وخمسمئة {cite:al-bidaya-wal-nihaya scan vol. 1 p. 7}", sources: [source/al-bidaya-wal-nihaya] }
+relations:
+- { type: related_to, target: event/death-of-salah-al-din-589, sources: [source/al-bidaya-wal-nihaya] }
+- { type: related_to, target: event/death-of-saladin-589, sources: [source/al-bidaya-wal-nihaya] }
+- { type: occurred_at, target: place/damascus, sources: [source/al-bidaya-wal-nihaya] }
+- { type: mentions, target: building/mazar-salah-al-din, sources: [source/al-bidaya-wal-nihaya] }
+- { type: mentions, target: building/umayyad-mosque, sources: [source/al-bidaya-wal-nihaya] }
+- { type: had_participant, target: person/salah-al-din-yusuf-ibn-ayyub, role: المتوفى وصاحب التركة, sources: [source/al-bidaya-wal-nihaya] }
+- { type: had_participant, target: person/al-malik-al-afdal-ali, role: بويع له في المرض ودفن أباه بيده, sources: [source/al-bidaya-wal-nihaya] }
+- { type: had_participant, target: person/al-qadi-al-fadil, role: حضر الوفاة وأحضر الكفن من ماله, sources: [source/al-bidaya-wal-nihaya] }
+- { type: had_participant, target: person/ibn-shaddad-baha-al-din, role: دخل عليه في مرضه, sources: [source/al-bidaya-wal-nihaya] }
+- { type: had_participant, target: person/al-malik-al-zahir-ghazi, role: من أبنائه الباقين بعده, sources: [source/al-bidaya-wal-nihaya] }
+- { type: had_participant, target: person/al-malik-al-aziz-uthman, role: من أبنائه الباقين بعده, sources: [source/al-bidaya-wal-nihaya] }
+sources:
+- source/al-bidaya-wal-nihaya
+provenance:
+  layer: own-research
+  source: "البداية والنهاية لابن كثير، مسح مجلد 1 ص 7-10؛ أرقام الصفحات صفحات المسح"
+  generated_by: "Claude (claude-sonnet-5-5)"
+  model: claude-sonnet-5-5
+  run: wasaya-browser-1
+status:
+  review: draft
+  completeness: 2
+  generated_by: "Claude (claude-sonnet-5-5); wasaya-browser-1"

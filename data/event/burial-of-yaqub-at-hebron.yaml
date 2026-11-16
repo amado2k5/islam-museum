@@ -1,0 +1,71 @@
+id: event/burial-of-yaqub-at-hebron
+class: event
+kind: death
+label:
+  ar: وفاة يعقوب بمصر ودفنه بالخليل
+  en: Death of Yaqub in Egypt and his burial at Hebron
+  ur: یعقوب کی مصر میں وفات اور خلیل میں تدفین
+summary:
+  ar: يروي ابن كثير عن ابن إسحاق وأهل الكتاب أن يعقوب أقام بمصر عند يوسف سبع عشرة سنة ثم توفي بعد أن أوصى أن يُدفن عند أبويه إبراهيم وإسحاق، فحمله يوسف إلى حبرون ودفنه في المغارة {cite:al-bidaya-wal-nihaya scan vol. 2 p. 224} {cite:qisas-al-anbiya-ibn-kathir-iqra-ebook scan p. 333}؛ ويذكر القرطبي أن عمره مئة وسبع وأربعون سنة وأنه مات بمصر {cite:jami-ahkam-quran-resala-v1 scan vol. 3 p. 616}، ويصف ابن كثير تفاصيل التجهيز والحداد بأنها من أخبار أهل الكتاب {cite:al-bidaya-wal-nihaya scan vol. 2 p. 224}.
+  en: Ibn Kathir reports from Ibn Ishaq and the People of the Book that Ya'qub lived in Egypt with Yusuf for seventeen years and died after charging that he be buried with his fathers Ibrahim and Ishaq, and that Yusuf took him to Habrun and buried him in the cave {cite:al-bidaya-wal-nihaya scan vol. 2 p. 224} {cite:qisas-al-anbiya-ibn-kathir-iqra-ebook scan p. 333}; al-Qurtubi says he lived one hundred and forty-seven years and died in Egypt {cite:jami-ahkam-quran-resala-v1 scan vol. 3 p. 616}; the details of preparation and mourning come from the People of the Book as Ibn Kathir presents them {cite:al-bidaya-wal-nihaya scan vol. 2 p. 224}.
+  ur: ابن کثیر ابن اسحاق اور اہلِ کتاب سے بیان کرتے ہیں کہ یعقوب مصر میں یوسف کے پاس سترہ سال رہے اور اپنے آباء ابراہیم و اسحاق کے پاس دفن کی وصیت کر کے فوت ہوئے، اور یوسف انھیں حبرون لے جا کر غار میں دفن کر آئے {cite:al-bidaya-wal-nihaya scan vol. 2 p. 224} {cite:qisas-al-anbiya-ibn-kathir-iqra-ebook scan p. 333}؛ قرطبی کے مطابق ان کی عمر ایک سو سینتالیس سال تھی اور وہ مصر میں فوت ہوئے {cite:jami-ahkam-quran-resala-v1 scan vol. 3 p. 616}؛ تجہیز اور ماتم کی تفصیلات اہلِ کتاب کی خبریں ہیں جیسا کہ ابن کثیر پیش کرتے ہیں {cite:al-bidaya-wal-nihaya scan vol. 2 p. 224}۔
+wings:
+- time
+- people
+themes:
+- prophets
+tags:
+- wasaya-browser
+- wasaya-prophets
+- wasaya-wasiyya
+- wasaya-ihtidar
+- wasaya-marqad
+relations:
+- type: had_participant
+  target: person/yaqub
+  role: المتوفى
+  sources:
+  - source/al-bidaya-wal-nihaya
+  - source/jami-ahkam-quran-resala-v1
+- type: had_participant
+  target: person/yusuf
+  role: تولى الدفن
+  sources:
+  - source/al-bidaya-wal-nihaya
+  - source/tarikh-al-tabari
+- type: mentions
+  target: person/ibrahim
+  sources:
+  - source/al-bidaya-wal-nihaya
+- type: mentions
+  target: person/ishaq
+  sources:
+  - source/al-bidaya-wal-nihaya
+- type: mentions
+  target: place/misr
+  sources:
+  - source/al-bidaya-wal-nihaya
+- type: occurred_at
+  target: place/al-khalil
+  sources:
+  - source/al-bidaya-wal-nihaya
+- type: mentions
+  target: concept/israiliyyat
+  sources:
+  - source/al-bidaya-wal-nihaya
+sources:
+- source/al-bidaya-wal-nihaya
+- source/qisas-al-anbiya-ibn-kathir-iqra-ebook
+- source/tarikh-al-tabari
+- source/jami-ahkam-quran-resala-v1
+provenance:
+  layer: own-research
+  source: البداية والنهاية ⁦(مسح AAlexandrina-074627، ص 224)⁩ وقصص الأنبياء لابن كثير ط. اقرأ ⁦(مسح iqraaEBook54، ص 332-333)⁩ وتاريخ الطبري ⁦(مسح AAlexandrina-224129، ص 419)⁩ وتفسير القرطبي ⁦(مسح 20191231_20191231_1313، ص 616)⁩؛ أرقام الصفحات علامات صفحات المسح
+  generated_by: Claude (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: wasaya-browser-1
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude (claude-sonnet-5-5); wasaya-browser-1
+importance: 2

@@ -1,0 +1,29 @@
+---
+id: event/prophets-counsel-on-copts-women-and-those-in-bondage
+lang: en
+source_lang: ar
+translators: ["Claude Code (claude-sonnet-5-5), draft translation"]
+provenance: { generated_by: "Claude Code (claude-sonnet-5-5)", model: claude-sonnet-5-5, run: wasaya-browser-1, source: "البداية والنهاية لابن كثير، ودلائل النبوة للبيهقي، وسبل الهدى للصالحي؛ أرقام الصفحات علامات صفحات المسح كما في النص المقروء" }
+status: { review: published }
+---
+## Summary
+This page gathers counsels for those without power: the Copts of Egypt, to whom the reports give a pledge and a kinship, women, and those in bondage. The counsel on the Copts is reported among what [[person/muhammad|the Prophet]] foretold of conquests after him, and the books read here do not say on which day it was spoken; the counsel on prayer and what one's right hand possesses is reported from his words as death came, as is the counsel on women in Ibn Kathir's report of the testament of Ali. His counsel on the Ansar is in [[event/last-minbar-sermon|The last sermon from the minbar]] and [[event/prophets-speech-to-the-ansar|His speech to the Ansar]], and his counsel on women at the Farewell Pilgrimage is in [[event/farewell-sermon-at-arafat|The Farewell Sermon at Arafat]]; neither is repeated here. {cite:al-bidaya-wal-nihaya scan vol. 3 p. 582}
+
+## The counsel on the Copts
+Ibn Kathir reports from Muslim, through Abd al-Rahman ibn Shamasa from [[person/abu-dharr-al-ghifari|Abu Dharr]], that the Prophet said: "You will conquer a land where the qirat is spoken of; treat its people well, for they have a pledge and a kinship; and when you see two men disputing over the place of a brick, leave it." He adds that Abu Dharr passed Rabi'a and Abd al-Rahman ibn Shurahbil ibn Hasana disputing over the place of a brick and left, and Ibn Kathir reads the land as Egypt, conquered by Amr ibn al-As in the year 20. {cite:al-bidaya-wal-nihaya scan vol. 3 p. 582} He also reports from Ibn Wahb, from Malik and al-Layth, from al-Zuhri, from a son of Ka'b ibn Malik, that the Prophet said: "When you conquer Egypt, treat the Copts well, for they have a pledge and a kinship", and that al-Bayhaqi transmitted it from Ishaq ibn Rashid from al-Zuhri from Abd al-Rahman ibn Ka'b ibn Malik from his father. {cite:al-bidaya-wal-nihaya scan vol. 3 p. 582} Al-Bayhaqi has it in the Dala'il by two chains to al-Zuhri, one of them adding the explanation that the mother of Ishmael was one of them. {cite:dalail-al-nubuwwa-bayhaqi scan vol. 1 p. 2878}
+
+In Subul al-Huda, in the chapter on the counsel concerning his Coptic maternal kin, al-Salihi gives Ibn Sa'd's mursal report from al-Zuhri, "When you rule the Copts, treat them well, for they have a pledge and a kinship"; a report from Ubayy ibn Ka'b ibn Malik, "Treat the Copts well"; and al-Tabarani's report from [[person/umm-salama|Umm Salama]] that the Prophet said: "God, God, concerning the Copts of Egypt, for you will prevail over them and they will be a support and helpers for you in the way of God." The editor's note gives al-Haythami's judgement in Majma' al-Zawa'id that its men are the men of the Sahih. {cite:subul-huda-salihi scan vol. 4 p. 7601}
+
+### The meaning of pledge and kinship
+Ibn Kathir reports from Ahmad that Sufyan ibn Uyayna was asked about the words "a pledge and a kinship", and said: some say Hajar, Ishmael's mother, was Coptic; some say it was the mother of Ibrahim, Maria. {cite:al-bidaya-wal-nihaya scan vol. 3 p. 582} Ibn Kathir says the sound view, beyond doubt, is that both were Coptic, and that the pledge means al-Muqawqis's gift to the Prophet and his accepting it, a kind of covenant and truce. {cite:al-bidaya-wal-nihaya scan vol. 3 p. 582} See [[person/hajar|Hajar]], [[person/maria-al-qibtiyya|Maria the Copt]], [[group/al-qibt|The Copts]] and [[concept/dhimma|Dhimma]].
+
+## Prayer and what your right hands possess
+As already seen, Anas and Umm Salama report that most of the Prophet's counsel as death came was "prayer, and what your right hands possess", and Ali reports a counsel to prayer, alms and what your right hands possess. {cite:al-bidaya-wal-nihaya scan vol. 3 p. 263}{cite:al-bidaya-wal-nihaya scan vol. 3 p. 264} See [[event/prophets-last-counsels-in-final-illness|His counsels in his final illness]].
+
+## The two weak: women and those in bondage
+In the events of the year 40, Ibn Kathir gives the testament of Ali ibn Abi Talib to his sons and to whoever received his letter, in which Ali says: "God, God, about what your right hands possess, for the last thing the Messenger of God said was: I counsel you about the two weak ones, your women and what your right hands possess." {cite:al-bidaya-wal-nihaya scan vol. 4 p. 319} In the same testament he says: "God, God, concerning the pledge of your Prophet, let it not be wronged among you", says that neighbours were a counsel of the Prophet, who kept counselling about them until they thought he would make them heirs, and that the Messenger of God had counselled concerning his Companions. {cite:al-bidaya-wal-nihaya scan vol. 4 p. 319} This is therefore Ali's report of the Prophet's last words and not an independent account of the death scene; Ibn Kathir gives it as it stands in Ali's testament. {cite:al-bidaya-wal-nihaya scan vol. 4 p. 318}
+
+## Where the reports differ
+- The counsel on the Copts is reported by Ibn Kathir and others from Abu Dharr, the son of Ka'b ibn Malik and Umm Salama, and none of them fixes a day, in his illness or after the Farewell Pilgrimage. {cite:al-bidaya-wal-nihaya scan vol. 3 p. 582}
+- Which kinship is meant is disputed, Hajar or Maria, and Ibn Kathir holds both were Coptic. {cite:al-bidaya-wal-nihaya scan vol. 3 p. 582}
+- The counsel on "the two weak" is given by Ibn Kathir from Ali, and is not from the Companions who report the counsel on prayer and what one's right hand possesses during the illness. {cite:al-bidaya-wal-nihaya scan vol. 4 p. 319}

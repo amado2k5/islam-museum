@@ -1,0 +1,30 @@
+id: event/last-days-and-testament-of-uthman
+class: event
+kind: death
+tags: [wasaya-browser, wasaya-caliphs, wasaya-wasiyya, wasaya-ihtidar, wasaya-mirath, wasaya-marqad]
+label: { ar: "آخر أيام عثمان ووصيته ودفنه في حش كوكب", en: "Last days, testament and burial of Uthman at Hashsh Kawkab", ur: "عثمان کے آخری دن، وصیت اور حش کوکب میں تدفین" }
+summary:
+  ar: "قبل يوم مقتله قال عثمان لمن في الدار، وهم نحو سبعمائة، إنه يقسم على من له عليه حق أن يكف يده وينطلق، وأعتق من أغمد سيفه من رقيقه {cite:al-bidaya-wal-nihaya scan vol. 4 p. 180}. وتُروى رؤياه في ليلة مقتله بصور منها أن النبي قال له أفطر عندنا {cite:al-bidaya-wal-nihaya scan vol. 4 p. 180} {cite:al-bidaya-wal-nihaya scan vol. 4 p. 181}، ووُجدت في صندوق خزانته ورقة هي وصيته بالشهادة والبعث {cite:al-bidaya-wal-nihaya scan vol. 4 p. 182}، وقيل أوصى إلى الزبير {cite:al-bidaya-wal-nihaya scan vol. 4 p. 182}. ودُفن ليلاً في حش كوكب شرقي البقيع وهو أول من دُفن فيه، وصلى عليه جبير بن مطعم في المشهور، واختُلف في غسله {cite:riyad-nadira-ilmiyya-1984 scan vol. 3 p. 514} {cite:al-bidaya-wal-nihaya scan vol. 4 p. 189}."
+  en: "The day before he was killed Uthman told those in the house, about seven hundred, that he charged anyone who owed him loyalty to hold back his hand and go, and freed any slave who sheathed his sword {cite:al-bidaya-wal-nihaya scan vol. 4 p. 180}. His dream on the night of his death is told in several forms, among them the Prophet saying 'break your fast with us' {cite:al-bidaya-wal-nihaya scan vol. 4 p. 180} {cite:al-bidaya-wal-nihaya scan vol. 4 p. 181}; a sheet found in a chest in his treasury is his testament of faith and resurrection {cite:al-bidaya-wal-nihaya scan vol. 4 p. 182}, and he is said to have made al-Zubayr his executor {cite:al-bidaya-wal-nihaya scan vol. 4 p. 182}. He was buried by night at Hashsh Kawkab, east of al-Baqi', the first buried there, with Jubayr ibn Mut'im named most often as having prayed over him; whether he was washed is disputed {cite:riyad-nadira-ilmiyya-1984 scan vol. 3 p. 514} {cite:al-bidaya-wal-nihaya scan vol. 4 p. 189}."
+  ur: "قتل سے ایک دن پہلے عثمان نے گھر میں موجود تقریباً سات سو افراد سے کہا کہ جن کا ان پر حق ہو وہ ہاتھ روک کر چلے جائیں، اور جس غلام نے تلوار نیام میں ڈالی اسے آزاد کر دیا {cite:al-bidaya-wal-nihaya scan vol. 4 p. 180}۔ ان کی شہادت کی رات کے خواب کئی صورتوں میں مروی ہیں، ایک میں نبی کہتے ہیں کہ ہمارے پاس افطار کرو {cite:al-bidaya-wal-nihaya scan vol. 4 p. 180} {cite:al-bidaya-wal-nihaya scan vol. 4 p. 181}؛ خزانے کے صندوق سے ملنے والا ورق ان کی ایمان و بعث کی وصیت ہے {cite:al-bidaya-wal-nihaya scan vol. 4 p. 182}، اور کہا جاتا ہے کہ انھوں نے زبیر کو وصی بنایا {cite:al-bidaya-wal-nihaya scan vol. 4 p. 182}۔ انھیں رات کو بقیع کے مشرق میں حش کوکب میں دفن کیا گیا، وہ اس میں پہلے دفن ہونے والے تھے، اور جبیر بن مطعم کا نام نماز پڑھانے والے کے طور پر سب سے زیادہ آتا ہے؛ ان کے غسل میں اختلاف ہے {cite:riyad-nadira-ilmiyya-1984 scan vol. 3 p. 514} {cite:al-bidaya-wal-nihaya scan vol. 4 p. 189}۔"
+wings: [time]
+periods: [period/rashidun]
+date:
+  start: { hijri: "0035-12", precision: month, status: historical, note: "قُتل يوم الجمعة لثماني عشرة خلت من ذي الحجة سنة 35 على المشهور {cite:al-bidaya-wal-nihaya scan vol. 4 p. 188}", sources: [source/al-bidaya-wal-nihaya] }
+relations:
+  - { type: had_participant, target: person/uthman-ibn-affan, role: "صاحب الوصية والمدفون في حش كوكب", sources: [source/al-bidaya-wal-nihaya, source/riyad-nadira-ilmiyya-1984] }
+  - { type: had_participant, target: person/zubayr-ibn-al-awwam, role: "الموصى إليه في رواية", sources: [source/al-bidaya-wal-nihaya] }
+  - { type: had_participant, target: person/jubayr-ibn-mutim, role: "المصلي عليه في المشهور", sources: [source/al-bidaya-wal-nihaya, source/riyad-nadira-ilmiyya-1984] }
+  - { type: had_participant, target: person/hakim-ibn-hizam, role: "من شهد دفنه", sources: [source/al-bidaya-wal-nihaya] }
+  - { type: had_participant, target: person/hasan-ibn-ali, role: "آخر من خرج من الدار", sources: [source/al-bidaya-wal-nihaya] }
+  - { type: had_participant, target: person/abdullah-ibn-al-zubayr, role: "أمير الحرب على أهل الدار", sources: [source/al-bidaya-wal-nihaya] }
+  - { type: had_participant, target: person/naila-bint-al-furafisa, role: "زوجته الراوية", sources: [source/al-bidaya-wal-nihaya] }
+  - { type: had_participant, target: person/aisha-bint-uthman-ibn-affan, role: "ابنته الحاضرة دفنه", sources: [source/riyad-nadira-ilmiyya-1984] }
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "من منع التعرض لجنازته", sources: [source/al-bidaya-wal-nihaya] }
+  - { type: occurred_at, target: place/medina, sources: [source/al-bidaya-wal-nihaya] }
+  - { type: occurred_at, target: place/baqi-al-gharqad, sources: [source/al-bidaya-wal-nihaya, source/riyad-nadira-ilmiyya-1984] }
+  - { type: mentions, target: event/murder-of-uthman, sources: [source/al-bidaya-wal-nihaya] }
+  - { type: mentions, target: event/siege-of-uthman-35, sources: [source/al-bidaya-wal-nihaya] }
+sources: [source/al-bidaya-wal-nihaya, source/riyad-nadira-ilmiyya-1984, source/kamil-ibn-al-athir]
+provenance: { layer: own-research, source: "al-bidaya-wal-nihaya scan vol. 4 pp. 180-182, 188-189; riyad-nadira-ilmiyya-1984 scan vol. 3 pp. 514-516; kamil-ibn-al-athir scan vol. 1 p. 546; page numbers are scan pages", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "wasaya-browser-1" }
+status: { review: draft, completeness: 2, generated_by: "Claude (claude-sonnet-5-5); wasaya-browser-1" }

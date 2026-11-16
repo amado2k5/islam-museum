@@ -1,0 +1,24 @@
+id: event/testament-of-abu-bakr-designating-umar
+class: event
+kind: declaration
+tags: [wasaya-browser, wasaya-caliphs, wasaya-wasiyya, wasaya-ihtidar]
+label: { ar: "عهد أبي بكر بالخلافة إلى عمر", en: "Testament of Abu Bakr designating Umar", ur: "ابو بکر کا عمر کو خلیفہ نامزد کرنے کا عہد نامہ" }
+summary:
+  ar: "لما ثقل المرض بأبي بكر سأل عبد الرحمن بن عوف وعثمان عن عمر وشاور غيرهما، فرويا أن عمر سريرته خير من علانيته {cite:kamil-ibn-al-athir scan vol. 1 p. 267}. ثم أملى على عثمان عهداً باستخلاف عمر، وفي رواية الكامل أُغمي عليه بعد مطلعه فأتمه عثمان {cite:kamil-ibn-al-athir scan vol. 1 p. 267}، وفي رواية ابن سعد يرد نص العهد كاملاً {cite:usd-al-ghaba scan vol. 1 p. 908}. وقُرئ الكتاب على الناس بحضور عمر فسمعوا وأطاعوا وبايعوا {cite:kamil-ibn-al-athir scan vol. 1 p. 267}. وتختلف الروايات في اسم المعترض وهل كان طلحة، وفي ما نُقل عن علي في الرضا بالعهد {cite:usd-al-ghaba scan vol. 1 p. 909}."
+  en: "As illness grew heavy Abu Bakr asked Abd al-Rahman ibn Awf and Uthman about Umar and consulted others; Uthman said Umar's inner self was better than his outward self {cite:kamil-ibn-al-athir scan vol. 1 p. 267}. He then had Uthman write a covenant naming Umar; in al-Kamil he fainted after the opening and Uthman completed it {cite:kamil-ibn-al-athir scan vol. 1 p. 267}, while Ibn Sa'd's version gives the whole text {cite:usd-al-ghaba scan vol. 1 p. 908}. The document was read to the people with Umar present, and they listened, obeyed and pledged allegiance {cite:kamil-ibn-al-athir scan vol. 1 p. 267}. The reports differ over who objected, whether Talha, and over what is attributed to Ali about accepting the covenant {cite:usd-al-ghaba scan vol. 1 p. 909}."
+  ur: "بیماری شدید ہونے پر ابو بکر نے عبد الرحمن بن عوف اور عثمان سے عمر کے بارے میں پوچھا اور دوسروں سے بھی مشورہ کیا؛ عثمان نے کہا کہ عمر کا باطن ان کے ظاہر سے بہتر ہے {cite:kamil-ibn-al-athir scan vol. 1 p. 267}۔ پھر انھوں نے عثمان سے عمر کے تقرر کا عہد نامہ لکھوایا؛ الکامل کے مطابق ابتدا کے بعد وہ بے ہوش ہو گئے اور عثمان نے مکمل کیا {cite:kamil-ibn-al-athir scan vol. 1 p. 267}، جبکہ ابن سعد کی روایت میں پورا متن ملتا ہے {cite:usd-al-ghaba scan vol. 1 p. 908}۔ تحریر لوگوں کو عمر کی موجودگی میں پڑھ کر سنائی گئی تو انھوں نے سنا، مانا اور بیعت کی {cite:kamil-ibn-al-athir scan vol. 1 p. 267}۔ روایتیں اس میں مختلف ہیں کہ اعتراض کرنے والے طلحہ تھے یا نہیں، اور علی سے عہد کو ماننے کے بارے میں کیا منسوب ہے {cite:usd-al-ghaba scan vol. 1 p. 909}۔"
+wings: [time]
+periods: [period/rashidun]
+relations:
+  - { type: had_participant, target: person/abu-bakr, role: "صاحب العهد", sources: [source/kamil-ibn-al-athir, source/usd-al-ghaba] }
+  - { type: had_participant, target: person/umar-ibn-al-khattab, role: "المعهود إليه بالخلافة", sources: [source/kamil-ibn-al-athir, source/usd-al-ghaba] }
+  - { type: had_participant, target: person/uthman-ibn-affan, role: "كاتب العهد وقارئه", sources: [source/kamil-ibn-al-athir, source/usd-al-ghaba] }
+  - { type: had_participant, target: person/abd-al-rahman-ibn-awf, role: "مستشار في أمر عمر", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/talha-ibn-ubaydullah, role: "المعترض في رواية الكامل", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "منسوب إليه كلام في الرضا بالعهد", sources: [source/usd-al-ghaba] }
+  - { type: occurred_at, target: place/medina, sources: [source/kamil-ibn-al-athir] }
+  - { type: mentions, target: event/saqifa, sources: [source/kamil-ibn-al-athir] }
+  - { type: mentions, target: event/death-of-abu-bakr, sources: [source/kamil-ibn-al-athir] }
+sources: [source/kamil-ibn-al-athir, source/usd-al-ghaba, source/riyad-nadira-ilmiyya-1984]
+provenance: { layer: own-research, source: "kamil-ibn-al-athir scan vol. 1 pp. 262-268; usd-al-ghaba scan vol. 1 pp. 908-909; riyad-nadira-ilmiyya-1984 scan vol. 3 pp. 258-260; page numbers are scan pages", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "wasaya-browser-1" }
+status: { review: draft, completeness: 2, generated_by: "Claude (claude-sonnet-5-5); wasaya-browser-1" }
