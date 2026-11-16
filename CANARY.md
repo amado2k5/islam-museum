@@ -13,6 +13,10 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v1.58.0 — 2026-11-16
+### Added
+- Job Browser: six trading and travel professions — the sarraf money-changer and banker, the dallal broker-crier and his simsar, the mutawwif who guided the pilgrim through Mecca, the caravan-leader (kervancıbaşı) of the hajj road, the slave dealer (esirci/nakhkhas) recorded as a documented, now-extinct historical trade, and the sailor (levent) of the Ottoman sea — in Arabic, English and Urdu draft cited to the TDV entries SARRAFLIK, SİMSAR, DELLÂL, MUTAVVİF, KERVAN, ESİR and LEVENT.
+
 ## v1.57.0 — 2026-11-16
 ### Added
 - Job Browser: six scientific professions — the astrologer (munajjim) who became the Ottoman müneccimbaşı, the muwaqqit timekeeper of the mosque and his muvakkithane, the mathematician of the riyaziyat, the engineer from the Banu Musa's hiyel to the Mühendishâne corps, the alchemist-chemist (kimyager), and the geographer — in Arabic, English and Urdu draft cited to the TDV entries İLM-i AHKÂM-ı NÜCÛM, İLM-i MÎKĀT, MATEMATİK, HİYEL, MÜHENDİSHÂNE, KİMYA and COĞRAFYA, and the science chapters of *The Legacy of Islam* (1931).

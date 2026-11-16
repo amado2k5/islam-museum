@@ -1,0 +1,42 @@
+id: job/slave-dealer
+class: job
+label: { ar: "الجلّاب", en: "Slave-dealer (esirci / nakhkhas)", ur: "غلاماں فروش" }
+names:
+  - { value: "جلّاب", kind: alternate }
+  - { value: "نخّاس", kind: alternate }
+  - { value: "esirci", kind: latinized, lang: tr }
+  - { value: "بائع الرقيق", kind: alternate }
+summary:
+  ar: "كان الجلّاب أو النخّاس أو الأسيرجي تاجر الرقيق والجواري في أسواق المدن الإسلامية: يعرض البضاعة البشرية للبيع بالمزاد في سوق الأسير، ويسجّل في دفتره اسم البائع وصفته حتى لا يُباع حرّ أو مسروق، ولا يبيع للذمّي، ولا يفرّق بين الأم وطفلها قبل سبع سنين — هكذا ينظّم كتاب الشيزري صنعته. اشترط الشيزري في التاجر أن يكون ثقة أميناً معروفاً بالصدق لأنه مسؤول عن عبيد الناس وجواريهم ويخلو بهم في داره؛ وفي القاهرة المملوكية وما بعدها كانت أسواق الرقيق ولاية منفصلة عن الحسبة يشرف عليها «ناظر الأسواق»، وعند العثمانيين صارت كلمات «أسيرجي وأسير تاجره وسوق الأسير وشيخ الأسيرجية» أسماء هذه الصنعة ولجنتها."
+  en: "The slave-dealer — jallāb, nakhkhās, or in Ottoman usage esirci — traded men, women and children in the slave markets of the Islamic city. Al-Shayzari's manual sets the rules of his craft: he must be trustworthy and known for integrity, for he answers for other people's male and female slaves and is sometimes alone with them in his house; he must enter the seller's name and description in his register lest a freeman or a stolen person be sold; he may not sell to a dhimmi, nor separate a mother from her child under seven. In the Cairo of the Abbasid and Mamluk periods the slave market was a jurisdiction apart from the hisba, under its own nazir al-aswaq; the Ottomans named the trade's broker the esirci dellâlı and its guild head the esirciler şeyhi."
+  ur: "جلّاب یا نخّاس — عثمانی اصطلاح میں اسرجی — اسلامی شہر کے بازارِ غلاماں میں مردوں، عورتوں اور بچوں کی تجارت کرتا تھا۔ الشیزری کی کتاب اس کے پیشے کے اصول بتاتی ہے: تاجر کا امین اور نیک نام ہونا شرط ہے کیونکہ وہ لوگوں کے غلاموں اور لونڈیوں کا ذمہ دار ہے اور کبھی ان سے تنہا گھر میں رہتا؛ ہر بیچنے والے کا نام اور ہلیہ اپنے دفتر میں لکھے تاکہ کوئی آزاد یا چرایا ہوا شخص فروخت نہ ہو؛ ذمی کو نہ بیچے اور ماں کو سات سال سے کم عمر بچے سے نہ جدا کرے۔ عباسی اور مملوک قاہرہ میں بازارِ رقیق حسبہ سے الگ دائرہ تھا جس کا اپنا ناظر الاسواق تھا، اور عثمانیوں میں اس صنعت کے دلّال کو اسرجی دلّالی اور انجمن کے سردار کو شيخ الاسرجیہ کہا جاتا تھا۔"
+domain: trade-travel-sea
+kind: commercial
+hirfa: true
+craft:
+  materials: []
+era:
+  origins: pre-islamic
+  status_today: extinct
+places:
+  - { place: place/baghdad, note: "In Buyid Baghdad the supervision of the slave markets appears as a charge distinct from the hisba: al-Sarakhsi under al-Mu'tadid held 'the hisba, the inheritances and the slave market' (sūq al-raqīq), and a Buyid amir was likewise entrusted with hisba and the slave markets.", sources: [source/shayzari-nihaya-buckley] }
+  - { place: place/cairo, note: "In Lane's Cairo a slave-dealer told him that young Egyptian girls were sometimes sold into slavery from other countries by a parent or relative and passed to him for sale, taught to say they had been taken from home at three or four and spoke only Arabic.", sources: [source/lane-modern-egyptians] }
+  - { place: place/istanbul, note: "Ottoman usage took esir for slave in general, and the records speak of the esirci, the esir tüccarı, the esir pazarı and the esirciler şeyhi — the trader, the market and the guild head of the trade.", sources: [source/tdv-esir] }
+regions: [arabia, levant-iraq, egypt-nile, anatolia-balkans, maghreb]
+organization:
+  organized: guild
+workplaces: []
+outputs: []
+wings: [people]
+periods: [period/pre-islamic-arabia, period/prophetic-era, period/rashidun, period/umayyad, period/abbasid-early, period/abbasid-fragmentation, period/buyid-seljuk-fatimid-era, period/crusades-ayyubid-mamluk, period/mongol-post-mongol, period/gunpowder-empires]
+sources: [source/tdv-esir, source/shayzari-nihaya-buckley, source/lane-modern-egyptians, source/tdv-dellal]
+training:
+  mode: apprenticeship
+  certification: "No formal licence is described beyond the guild berth: Ottoman Istanbul knew the trade under the esirciler şeyhi, and the esirci dallals of the bedestans held berats like other dellals. Al-Shayzari's rules are the nearest thing to a code of the trade: register every seller's name and description, never sell to a dhimmi, never separate a mother from her child under seven, and keep the examined limits of modesty at the showing."
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-trade-1" }
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi 'ESİR' (Özel, 1995; vol. 11 pp. 382-389) and 'DELLÂL' (Halaçoğlu, 1994), read on the web on 16 Nov 2026; al-Shayzari, Nihayat al-Rutba (Buckley tr. 1999) ch. 34 Traders in Slaves and Animals, and Lane, Modern Egyptians 5th ed., read in downloaded scans"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-trade-1-drafting"
