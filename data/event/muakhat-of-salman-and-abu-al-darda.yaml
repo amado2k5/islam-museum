@@ -1,0 +1,30 @@
+id: event/muakhat-of-salman-and-abu-al-darda
+class: event
+kind: other
+label: { ar: "مؤاخاة سلمان الفارسي وأبي الدرداء", en: "The brothering of Salman al-Farisi and Abu al-Darda'" }
+summary:
+  ar: "آخى النبي بين سلمان الفارسي وأبي الدرداء؛ وزار سلمان أم الدرداء فرآها متبذلة فنصح أخاه بأن لجسده وربه وزوجه عليه حقاً — فصحب كل ذي حق حقه."
+  en: "The Prophet paired Salman al-Farisi with Abu al-Darda'; visiting and finding Umm al-Darda' neglected in dress, Salman counselled his brother that his body, his Lord and his wife each had a right over him — 'give every right-holder his right'."
+wings: [time]
+themes: [community-conventions]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "062X", hijri: "000X", calendar: julian, precision: decade, status: tradition, note: "ضمن مؤاخاة المدينة في السنوات الأولى بعد الهجرة" }
+relations:
+  - { type: occurred_at, target: place/medina }
+  - { type: had_participant, target: person/salman-al-farisi, role: "الأخ الزائر والناصح", sources: [source/sahih-al-bukhari] }
+  - { type: had_participant, target: person/abu-al-darda, role: "الأخ المُفرِّط في عبادته", sources: [source/sahih-al-bukhari] }
+  - { type: part_of, target: event/brotherhood-of-muhajirun-and-ansar }
+  - { type: part_of, target: period/prophetic-era }
+sources: [source/sahih-al-bukhari]
+provenance:
+  layer: own-research
+  source: "Sahih al-Bukhari 1968 (كتاب الصوم: حديث سلمان لأخيه أبي الدرداء)"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: ukhuwwa-browser-enrichment
+status:
+  review: published
+  completeness: 2
+tags: [ukhuwwa-browser]

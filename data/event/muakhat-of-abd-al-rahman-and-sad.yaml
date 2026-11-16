@@ -1,0 +1,30 @@
+id: event/muakhat-of-abd-al-rahman-and-sad
+class: event
+kind: other
+label: { ar: "مؤاخاة عبد الرحمن بن عوف وسعد بن الربيع", en: "The brothering of Abd al-Rahman ibn Awf and Sa'd ibn al-Rabi'" }
+summary:
+  ar: "آخى النبي بين عبد الرحمن بن عوف المهاجري وسعد بن الربيع الأنصاري، فعرض سعد قسمة ماله وإحدى زوجتيه فأبى عبد الرحمن وقال «دلوني على السوق» — أشهر مثال على مؤاخاة المدينة."
+  en: "The Prophet paired the emigrant Abd al-Rahman ibn Awf with the Ansari Sa'd ibn al-Rabi'; Sa'd offered half his wealth and one of his two wives, and Abd al-Rahman declined, saying 'show me the way to the market' — the best-known example of the Medinan brothering."
+wings: [time]
+themes: [refugees-migrants-diaspora, community-conventions]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0622~", hijri: "0001", calendar: julian, precision: year, status: tradition, note: "في الشهور الأولى بعد الهجرة ضمن مؤاخاة المهاجرين والأنصار (الرحيق ص186)" }
+relations:
+  - { type: occurred_at, target: place/medina }
+  - { type: had_participant, target: person/abd-al-rahman-ibn-awf, role: "المهاجري الذي آخى به النبي", sources: [source/sahih-al-bukhari] }
+  - { type: had_participant, target: person/sad-ibn-al-rabi, role: "الأنصاري الذي عرض قسمة ماله", sources: [source/sahih-al-bukhari] }
+  - { type: part_of, target: event/brotherhood-of-muhajirun-and-ansar }
+  - { type: part_of, target: period/prophetic-era }
+sources: [source/sahih-al-bukhari, source/mubarakpuri-raheeq]
+provenance:
+  layer: own-research
+  source: "Sahih al-Bukhari 3937 (باب الإخاء في الإسلام، كتاب الاعتصام); al-Raheeq al-Makhtum p.186"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "SWE-2 Medium"
+  run: ukhuwwa-browser-enrichment
+status:
+  review: published
+  completeness: 2
+tags: [ukhuwwa-browser]
