@@ -13,6 +13,10 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v1.73.0 — 2026-11-16
+### Added
+- Job Browser: six more food and market trades — the sherbet-seller (şerbetçi), the milk-seller, the cheese-monger, the sausage-maker (sucukçu), the ship-biscuit-baker (peksimetçi) and the flower-seller — in Arabic, English and Urdu draft cited to Evliya Çelebi, Ibn al-Ukhuwwa, al-Shayzari and Lane.
+
 ## v1.72.0 — 2026-11-16
 ### Added
 - Job Browser: six more trades — the butter-merchant (sammān), the box-maker (sandūqjī), the gold-thread-maker (sirmakesh), the firework-maker (fişekjī), the comb-maker (tarakçı) and the cotton-carder (naddāf) — in Arabic, English and Urdu draft cited to al-Shayzari, Ibn al-Ukhuwwa, Evliya Çelebi, Chalcraft and Lane.

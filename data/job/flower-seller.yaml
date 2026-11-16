@@ -1,0 +1,46 @@
+id: job/flower-seller
+class: job
+label: { ar: "بائع الزهور ⁦(الچيچكجي)⁩", en: "Flower-seller (çiçekçi / warda-seller)", ur: "پھول فروش ⁦(چیچکچی)⁩" }
+names:
+  - { value: "çiçekçi", kind: alternate, lang: tr }
+  - { value: "Jejekjian", kind: latinized, lang: tr }
+  - { value: "Shukufehjian", kind: latinized, lang: tr }
+  - { value: "وردّاج", kind: alternate }
+  - { value: "بائع الورد", kind: alternate }
+summary:
+  ar: "بائع الزهور هو من يبيع الورد والأزهار والأغصان في السوق والشارع. يعدّ إوليا جلبي لتجّار الزهور في إسطنبول ثمانمائة رجل في ثلاثمائة دكان بيرهم بابا رتن، ولتجّار الزهور الذين يبيعون الفاكهة معها ثلاثمائة رجل في ثمانين دكاناً بيرهم خابيل إرمغان الذي تقلّد الحزام من أنس بن مالك وكان يأتي النبي وأهله بسلال الزهور والفاكهة هدية، وقبره في الطائف؛ دكاكينهم في تخت القلعة وآق سراي وسلطان محمد وآيا صوفيا أمام باب الجبة خانة، وفيها على مدار السنة صحاف مملوءة زهوراً وفواكه تُقدَّم هدايا للوزراء والكبار، ويمرّون في الموكب حاملين على الأعمدة أقشاقاً تمثّل قشك المحتسب وقشك سوق الفاكهة. وعند لين في شوارع القاهرة ينادي بائع الورد نداءً عجيباً: «كان الورد شوكة فمن عرق النبي ازدهر» — إشارة إلى معجزة تُروى عن النبي — وبائع أزهار الحنّاء ينادي «يا أطياب الجنة يا أزهار الحنّة»."
+  en: "The flower-seller sold roses, blossoms and sprays in the market and the street. Evliya counts eight hundred flower-merchants in three hundred shops in Istanbul under their patron Baba Reten, and three hundred more who sell flowers and fruit together in eighty shops, whose patron Khabil Irmagham — girded by Ins Ben Malek — used to bring baskets of flowers and fruit as presents to the Prophet and his family and is buried at Taif. Their shops stand at Takht-ul-kala'a, Ak-serai, Sultan Mohammed and Aya Sofiyah before the gate of the Jebeh-khanah, where dishes of flowers and fruit are found at all seasons to be offered to the vezirs and great men; in the procession they carry on poles koshks imitating the koshk of the muhtasib and of the fruit market. In Lane's Cairo streets the rose-seller cries the singular cry 'The rose was a thorn; from the sweat of the Prophet it blossomed' — alluding to a miracle related of the Prophet — and the seller of henna-flowers cries 'Odours of paradise! O flowers of the henna!'"
+  ur: "پھول فروش بازار اور گلی میں گلاب، کھلے پھول اور ٹہنیاں بیچتا تھا۔ اولیاء چلبی استنبول میں تین سو دکانوں پر آٹھ سو پھول کے سوداگر گنتا ہے جن کا پیر بابا رتن ہے، اور مزید تین سو جو پھول اور پھل دونوں بیچتے ہیں اسی دکانوں پر، جن کا پیر خابیل ارمغان ہے — انس بن مالک سے کمر بند باندھا — جو نبی اور اہلِ بیت کو پھولوں اور پھلوں کی ٹوکریاں ہدیہ لایا کرتا اور طائف میں مدفون ہے۔ ان کی دکانیں تخت القلعہ، آق سرائے، سلطان محمد اور آیا صوفیا میں جِبہ خانہ کے دروازے کے سامنے ہیں، جہاں ہر موسم میں پھولوں اور پھلوں سے بھری تھالیاں ملتی ہیں جو وزیروں اور بڑوں کو ہدیہ دی جاتی ہیں؛ جلوس میں وہ ستونوں پر کشک اٹھاتے جو محتسب کے کشک اور پھل بازار کے کشک کی نقل ہیں۔ لین کی قاہرہ کی گلیوں میں گلاب فروش عجیب پکار لگاتا ہے: «گلاب کانٹا تھا؛ نبی کے پسینے سے کھلا» — نبی سے منسوب ایک معجزے کی طرف اشارہ — اور حنّہ کے پھول بیچنے والا پکارتا ہے: «جنت کی خوشبویاں! حنّہ کے پھولو!»"
+domain: trade-travel-sea
+kind: commercial
+hirfa: true
+era:
+  origins: medieval
+  status_today: living
+places:
+  - { place: place/istanbul, note: "Evliya gives the flower-merchants two procession entries — eight hundred in three hundred shops under Baba Reten, and three hundred fruit-and-flower sellers in eighty shops under Khabil Irmagham — with shops at Takht-ul-kala'a, Ak-serai, Sultan Mohammed and Aya Sofiyah.", sources: [source/evliya-seyahatname-hammer] }
+  - { place: place/cairo, note: "Lane records the Cairo street cries: the rose-seller's 'The rose was a thorn; from the sweat of the Prophet it blossomed', and the henna-flower seller's 'Odours of paradise! O flowers of the henna!'", sources: [source/lane-modern-egyptians] }
+regions: [anatolia-balkans, egypt-nile, levant-iraq]
+organization:
+  organized: guild
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people, living]
+periods: [period/gunpowder-empires, period/modern-era]
+sources: [source/evliya-seyahatname-hammer, source/lane-modern-egyptians]
+craft:
+  techniques:
+    ar: "صنعة بائع الزهور صنعة عرضٍ وحفظ: تُعرض الأزهار والفواكه في صحافٍ على مدار السنة لتُقدَّم هدايا للوزراء والكبار، وتُقطف أزهار الحنّاء والورد وتُباع جديدة في الشوارع. وفي موكب إسطنبول يحمل التجّار على الأعمدة أقشاقاً تمثّل قشك المحتسب وقشك سوق الفاكهة يستلقي فيها الغلمان على وسائد ذهبية، ويمرّ بازار باشي وكيا المحتسب على الخيل ويوبّخ من لا يحفظ الوزن والكيل."
+    en: "The flower-seller's craft is display and keeping: dishes of flowers and fruit stand ready in every season to be offered as presents to vezirs and great men, and henna-blossoms and roses are cut and sold fresh in the streets. In the Istanbul procession the merchants carry on poles koshks imitating the muhtasib's and the fruit-market's, with boys reclining on golden cushions, while the bazar-bashi and the muhtasib's kyaya ride and upbraid those who failed just weight and measure."
+    ur: "پھول فروش کا ہنر سجانا اور سنبھالنا ہے: ہر موسم میں پھولوں اور پھلوں کی تھالیاں تیار رہتیں جو بڑوں کو ہدیہ دی جائیں، اور حنّہ اور گلاب کے پھول توڑ کر بازاروں میں تازہ بکتے۔ استنبول کے جلوس میں سوداگر ستونوں پر کشک اٹھاتے جو محتسب اور پھل بازار کے کشکوں کی نقل ہیں جن میں لڑکے سنہری تکیوں پر تکیہ لگائے بیٹھے ہوتے، اور بازار باشی اور محتسب کا قیاضی گھوڑوں پر چڑھ کر ان کو ڈانٹتے جو صحیح وزن و ناپ نہ رکھیں۔"
+  guild:
+    bodies: []
+    shaykh_title: { ar: "شيخ تجّار الزهور", en: "Shaykh of the flower-merchants", ur: "پھول سوداگروں کا شیخ" }
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-trades-7" }
+provenance:
+  layer: own-research
+  source: "Evliya (von Hammer) I,2 secs. 252-253 p. 177 (the eight hundred flower-merchants in three hundred shops under Baba Reten; the three hundred fruit-and-flower sellers under Khabil Irmagham, girded by Ins Ben Malek, buried at Taif; the shop quarters and the koshks on poles); Lane ch. XIV pp. 318-319 (the rose-seller's cry 'The rose was a thorn; from the sweat of the Prophet it blossomed', and the henna-flower seller's 'Odours of paradise! O flowers of the henna!') — read on 17 Nov 2026 from the downloaded scans"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-trades-7-drafting"

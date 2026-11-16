@@ -1,0 +1,45 @@
+id: job/ship-biscuit-baker
+class: job
+label: { ar: "خبّاز البقسماط ⁦(الپكسيماتجي)⁩", en: "Ship's-biscuit baker (peksimatçı)", ur: "پیکسماتچی ⁦(بحری بسکٹ پکانے والا)⁩" }
+names:
+  - { value: "peksimatçı", kind: alternate, lang: tr }
+  - { value: "Peksimatjian", kind: latinized, lang: tr }
+  - { value: "بقسماطي", kind: alternate }
+summary:
+  ar: "الپكسيماتجي هو خبّاز البقسماط، خبز السفن المجفّف الذي لا يفسد في البحر. يعدّ إوليا جلبي لخبّازي البقسماط في إسطنبول ألف رجل بمئة وخمسة أفران، ويقول إنهم أهم الناس وقت الحرب؛ أفرانهم في غلطة وكُني چشمة ويَني كوي، ويمرّون في الموكب يخبزون البقسماط ويوزّعون على الناس أكياساً مملوءة، وتُحمل على ظهور الحمّالين أقراص بقسماط وزن القنطار والقنطارين لتزيين المسير. بيرهم — كبيرهم عند الخبّازين — آدم، وفي زمن النبي يعقوب المحزري الذي تقلّد الحزام من أنس بن مالك. وعلى ساحل غلطة مئة دار لخبّازي البقسماط، لأن السفن التي تبحر في البحر الأسود تأخذ بقسماطها كله من غلطة وذلك الموضع. وعند لين في القاهرة يُباع «البسكويت الفاخر» بالقنطار في أسواق المدينة."
+  en: "The peksimatçı baked the ship's biscuit — the dried, twice-keeping bread that does not spoil at sea. Evliya counts a thousand biscuit-bakers with a hundred and five ovens in Istanbul, 'most interesting personages in war-time': their bake-houses stand at Galata, Kuni-cheshmeh and Yeni-köi, they pass in the procession baking biscuits and handing out filled bags to the crowd, and porters carry biscuits of one or two quintals' weight to adorn the march. Their patron, like the bread-bakers', is Adam, and in the Prophet's time James Muhziri, girded by Ins Ben Malek. On the Galata seashore stand a hundred biscuit-bakers' houses, for the ships that navigate the Black Sea take all their biscuit from Galata and that place. In Lane's Cairo 'fine biscuit' is sold by the quintal in the city markets."
+  ur: "پیکسماتچی بحر کا بسکٹ پکاتا تھا — سوکھی دوبارہ پکی روٹی جو سمندر میں نہ بگڑے۔ اولیاء چلبی استنبول میں ایک سو پنج تنوروں پر ایک ہزار بسکٹ پکانے والے گنتا ہے، «جنگ کے وقت سب سے دلچسپ ہستیاں»: ان کی بھٹی ہاؤس غلطہ، کونی چشمہ اور یینی کوئی میں ہیں، جلوس میں بسکٹ پکاتے اور لوگوں میں بھری تھیلیاں بانٹتے گزرتے، اور زینت کے لیے ایک دو قنطار وزنی بسکٹ بوجھیل اٹھاتے۔ ان کا پیر روٹی پکانے والوں کی طرح آدم ہے، اور نبی کے زمانے میں جیمس محزری جس نے انس بن مالک سے کمر بند باندھی۔ غلطہ کے ساحل پر بسکٹ پکانے والوں کے سو مکان ہیں، کیونکہ بحیرہ اسود میں چلنے والے جہاز اپنا سارا بسکٹ غلطہ اور اسی جگہ سے لیتے ہیں۔ لین کے قاہرہ میں «عمدہ بسکٹ» بازار میں قنطار کے بھاؤ بکتا ہے۔"
+domain: building-making
+kind: craft
+hirfa: true
+era:
+  origins: medieval
+  status_today: transformed
+places:
+  - { place: place/istanbul, note: "Evliya gives the Peksimatjian a thousand men in a hundred and five ovens — 'most interesting personages in war-time' — with bake-houses at Galata, Kuni-cheshmeh and Yeni-köi, procession biscuits of one or two quintals, and patrons Adam and James Muhziri.", sources: [source/evliya-seyahatname-hammer] }
+  - { place: place/galata, note: "On the Galata seashore stood a hundred biscuit-bakers' houses, for the ships navigating the Black Sea took all their biscuit from Galata and that place.", sources: [source/evliya-seyahatname-hammer] }
+  - { place: place/cairo, note: "Lane's market price-list sells 'fine biscuit' by the quintal (vantar) at a hundred and sixty piastres in the Cairo of the 1830s.", sources: [source/lane-modern-egyptians] }
+regions: [anatolia-balkans, egypt-nile]
+organization:
+  organized: guild
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people, living]
+periods: [period/gunpowder-empires, period/modern-era]
+sources: [source/evliya-seyahatname-hammer, source/lane-modern-egyptians]
+craft:
+  techniques:
+    ar: "صنعة الپكسيماتجي صنعة الخبّاز الموجّهة للسفر: يُعجن الدقيق ويُخبز حتى يجفّ تماماً فيحمل البحر والسفر الطويل بلا فساد. وعند إوليا تعمل الأفران المئة والخمسة في غلطة وكُني چشمة ويَني كوي لسفن البحر الأسود خاصة، ويبلغ حجم الصنعة أن تُحمل في الموكب أقراص بقسماط وزن القنطار والقنطارين؛ وفي قاهرة لين يُباع البسكويت الفاخر بالقنطار كما تُباع البضائع المخزّنة."
+    en: "The peksimatçı's craft is the baker's craft aimed at the journey: dough kneaded and baked dry until it can carry sea and long travel without spoiling. In Evliya the hundred and five ovens work at Galata, Kuni-cheshmeh and Yeni-köi, above all for the Black Sea ships, and the trade is big enough that biscuits weighing one or two quintals are carried in the procession; in Lane's Cairo fine biscuit sells by the quintal like the other stored goods."
+    ur: "پیکسماتچی کا ہنر نان بائی کا ہنر ہے جو سفر کے لیے ہو: آٹا گوندھ کر اتنا پکانا کہ سمندر اور طویل سفر میں خشک رہے بغیر بگڑے۔ اولیاء میں ایک سو پنج تنور غلطہ، کونی چشمہ اور یینی کوئی میں بحیرہ اسود کے جہازوں کے لیے خاص طور پر چلتے، اور صنعت اتنی بڑی کہ جلوس میں ایک دو قنطار وزنی بسکٹ اٹھائے جاتے؛ لین کے قاہرہ میں عمدہ بسکٹ دوسرے ذخیرہ مال کی طرح قنطار کے بھاؤ بکتا ہے۔"
+  guild:
+    bodies: []
+    shaykh_title: { ar: "پكسيماتجي باشي", en: "Peksimatji-bashi, chief of the biscuit-bakers", ur: "پیکسماتجی باشی، بسکٹ پکانے والوں کا سردار" }
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-trades-7" }
+provenance:
+  layer: own-research
+  source: "Evliya (von Hammer) I,2 sec. 89 p. 125 (the thousand Peksimatjian in a hundred and five ovens, the war-time importance, the Galata/Kuni-cheshmeh/Yeni-köi bake-houses, the one- and two-quintal procession biscuits, patrons Adam and James Muhziri) and the Galata narrative pp. 69-70 (the hundred biscuit-bakers' houses on the seashore supplying all the Black Sea ships); Lane ch. XIV p. 316 (the price-list: 'Fine biscuit, the vantar, 160 piastres') — read on 17 Nov 2026 from the downloaded scans"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-trades-7-drafting"
