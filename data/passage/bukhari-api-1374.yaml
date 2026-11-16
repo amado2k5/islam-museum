@@ -1,0 +1,16 @@
+id: passage/bukhari-api-1374
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "1374"
+label: { ar: "صحيح البخاري 1374 — دفن وقبر ومرقد", en: "Sahih al-Bukhari 1374 — a burial, grave or resting place", ur: "صحیح بخاری 1374 — تدفین، قبر اور مرقد" }
+text: "… سَعِيدٌ، عَنْ قَتَادَةَ، عَنْ أَنَسِ بْنِ مَالِكٍ ـ أَنَّهُ حَدَّثَهُمْ أَنَّ رَسُولَ اللَّهِ قَالَ \" إِنَّ الْعَبْدَ إِذَا وُضِعَ فِي قَبْرِهِ، وَتَوَلَّى عَنْهُ أَصْحَابُهُ، وَإِنَّهُ لَيَسْمَعُ قَرْعَ نِعَالِهِمْ، أَتَاهُ مَلَكَانِ فَيُقْعِدَانِهِ فَيَقُولاَنِ مَا كُنْتَ تَقُولُ فِي الرَّجُلِ لِمُحَمَّدٍ. فَأَمَّا الْمُؤْمِنُ فَيَقُولُ أَشْهَدُ أَنَّهُ عَبْدُ اللَّهِ وَرَسُولُهُ. فَيُقَالُ لَهُ انْظُرْ إِلَى مَقْعَدِكَ مِنَ النَّارِ، قَدْ أَبْدَلَكَ …"
+summary:
+  ar: "حديث في صحيح البخاري، رقم 1374، يذكر دفن وقبر ومرقد. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sahih al-Bukhari, no. 1374 (Funerals (Al-Janaa'iz)), that mentions a burial, grave or resting place. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
+  ur: "صحیح بخاری کی حدیث نمبر 1374، جس میں تدفین، قبر اور مرقد کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ziyarat-al-qubur, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 1374 (book 23 hadith 126); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

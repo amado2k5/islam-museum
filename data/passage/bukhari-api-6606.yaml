@@ -1,0 +1,17 @@
+id: passage/bukhari-api-6606
+class: passage
+tags: [wasaya-browser, wasaya-wasiyya]
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "6606"
+label: { ar: "صحيح البخاري 6606 — وصية أو عهد أخير", en: "Sahih al-Bukhari 6606 — a testament or parting counsel", ur: "صحیح بخاری 6606 — وصیت یا آخری نصیحت" }
+text: "… ذَلِكَ إِذْ وَجَدَ الرَّجُلُ أَلَمَ الْجِرَاحِ فَأَهْوَى بِيَدِهِ إِلَى كِنَانَتِهِ، فَانْتَزَعَ مِنْهَا سَهْمًا فَانْتَحَرَ بِهَا، فَاشْتَدَّ رِجَالٌ مِنَ الْمُسْلِمِينَ إِلَى رَسُولِ اللَّهِ فَقَالُوا يَا رَسُولَ اللَّهِ صَدَّقَ اللَّهُ حَدِيثَكَ، قَدِ انْتَحَرَ فُلاَنٌ فَقَتَلَ نَفْسَهُ. فَقَالَ رَسُولُ اللَّهِ \" يَا بِلاَلُ قُمْ فَأَذِّنْ، لاَ يَدْخُلُ الْجَنَّةَ إِلاَّ مُؤْمِنٌ، وَإِنَّ اللَّهَ لَيُؤَيِّدُ هَذَا الدِّينَ بِالرَّجُلِ الْفَاجِرِ \"."
+summary:
+  ar: "حديث في صحيح البخاري، رقم 6606، يذكر وصية أو عهد أخير. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sahih al-Bukhari, no. 6606 (Divine Will (Al-Qadar)), that mentions a testament or parting counsel. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
+  ur: "صحیح بخاری کی حدیث نمبر 6606، جس میں وصیت یا آخری نصیحت کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-wasiyya, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 6606 (book 82 hadith 12); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

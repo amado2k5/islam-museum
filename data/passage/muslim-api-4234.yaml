@@ -1,0 +1,17 @@
+id: passage/muslim-api-4234
+class: passage
+tags: [wasaya-browser, wasaya-wasiyya]
+unit: hadith
+work: work/sahih-muslim
+ref: "4234"
+label: { ar: "صحيح مسلم 4234 — وصية أو عهد أخير", en: "Sahih Muslim 4234 — a testament or parting counsel", ur: "صحیح مسلم 4234 — وصیت یا آخری نصیحت" }
+text: "… مَنْ يَقُولُ قَرِّبُوا يَكْتُبْ لَكُمْ رَسُولُ اللَّهِ كِتَابًا لَنْ تَضِلُّوا بَعْدَهُ. وَمِنْهُمْ مَنْ يَقُولُ مَا قَالَ عُمَرُ. فَلَمَّا أَكْثَرُوا اللَّغْوَ وَالاِخْتِلاَفَ عِنْدَ رَسُولِ اللَّهِ قَالَ رَسُولُ اللَّهِ \" قُومُوا \". قَالَ عُبَيْدُ اللَّهِ فَكَانَ ابْنُ عَبَّاسٍ يَقُولُ إِنَّ الرَّزِيَّةَ كُلَّ الرَّزِيَّةِ مَا حَالَ بَيْنَ رَسُولِ اللَّهِ وَبَيْنَ أَنْ يَكْتُبَ لَهُمْ ذَلِكَ الْكِتَابَ مِنِ اخْتِلاَفِهِمْ وَلَغَطِهِمْ."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 4234، يذكر وصية أو عهد أخير. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sahih Muslim, no. 4234 (The Book of Wills), that mentions a testament or parting counsel. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
+  ur: "صحیح مسلم کی حدیث نمبر 4234، جس میں وصیت یا آخری نصیحت کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-wasiyya, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 4234 (book 25 hadith 31); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

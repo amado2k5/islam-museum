@@ -1,0 +1,16 @@
+id: passage/ibnmajah-api-2869
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "2869"
+label: { ar: "سنن ابن ماجه 2869 — أثر من الآثار المحفوظة", en: "Sunan Ibn Majah 2869 — a relic kept after its owner", ur: "سنن ابن ماجہ 2869 — محفوظ آثار و تبرکات" }
+text: "حَدَّثَنَا مُحَمَّدُ بْنُ رُمْحٍ، أَنْبَأَنَا اللَّيْثُ بْنُ سَعْدٍ، عَنْ أَبِي الزُّبَيْرِ، عَنْ جَابِرٍ، قَالَ جَاءَ عَبْدٌ فَبَايَعَ النَّبِيَّ عَلَى الْهِجْرَةِ وَلَمْ يَشْعُرِ النَّبِيُّ أَنَّهُ عَبْدٌ فَجَاءَ سَيِّدُهُ يُرِيدُهُ فَقَالَ النَّبِيُّ \" بِعْنِيهِ \". فَاشْتَرَاهُ بِعَبْدَيْنِ أَسْوَدَيْنِ ثُمَّ لَمْ يُبَايِعْ أَحَدًا بَعْدَ ذَلِكَ حَتَّى يَسْأَلَهُ أَعَبْدٌ هُوَ"
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 2869، يذكر أثر من الآثار المحفوظة. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan Ibn Majah, no. 2869 (The Chapters on Jihad), that mentions a relic kept after its owner. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 2869، جس میں محفوظ آثار و تبرکات کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/tabarruk, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 2869 (book 24 hadith 117); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

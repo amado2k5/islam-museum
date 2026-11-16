@@ -1,0 +1,16 @@
+id: passage/tirmidhi-api-3629
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "3629"
+label: { ar: "جامع الترمذي 3629 — أثر من الآثار المحفوظة", en: "Jami' al-Tirmidhi 3629 — a relic kept after its owner", ur: "جامع ترمذی 3629 — محفوظ آثار و تبرکات" }
+text: "… مُحَمَّدُ بْنُ بَشَّارٍ، بُنْدَارٌ حَدَّثَنَا أَبُو عَاصِمٍ، حَدَّثَنَا عَزْرَةُ بْنُ ثَابِتٍ، حَدَّثَنَا عِلْبَاءُ بْنُ أَحْمَرَ، حَدَّثَنَا أَبُو زَيْدِ بْنُ أَخْطَبَ، قَالَ مَسَحَ رَسُولُ اللَّهِ يَدَهُ عَلَى وَجْهِي وَدَعَا لِي قَالَ عَزْرَةُ إِنَّهُ عَاشَ مِائَةً وَعِشْرِينَ سَنَةً وَلَيْسَ فِي رَأْسِهِ إِلاَّ شَعَرَاتٌ بِيضٌ. قَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ غَرِيبٌ. وَأَبُو زَيْدٍ اسْمُهُ عَمْرُو بْنُ أَخْطَبَ."
+summary:
+  ar: "حديث في جامع الترمذي، رقم 3629، يذكر أثر من الآثار المحفوظة. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Jami' al-Tirmidhi, no. 3629 (Chapters on Virtues), that mentions a relic kept after its owner. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
+  ur: "جامع ترمذی کی حدیث نمبر 3629، جس میں محفوظ آثار و تبرکات کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/tabarruk, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 3629 (book 49 hadith 25); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

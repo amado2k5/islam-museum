@@ -1,0 +1,16 @@
+id: passage/tirmidhi-api-2122
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "2122"
+label: { ar: "جامع الترمذي 2122 — وصية أو عهد أخير", en: "Jami' al-Tirmidhi 2122 — a testament or parting counsel", ur: "جامع ترمذی 2122 — وصیت یا آخری نصیحت" }
+text: "حَدَّثَنَا ابْنُ أَبِي عُمَرَ، حَدَّثَنَا سُفْيَانُ بْنُ عُيَيْنَةَ، عَنْ أَبِي إِسْحَاقَ الْهَمْدَانِيِّ، عَنِ الْحَارِثِ، عَنْ عَلِيٍّ، أَنَّ النَّبِيَّ قَضَى بِالدَّيْنِ قَبْلَ الْوَصِيَّةِ وَأَنْتُمْ تَقْرَءُونَ الْوَصِيَّةَ قَبْلَ الدَّيْنِ. قَالَ أَبُو عِيسَى وَالْعَمَلُ عَلَى هَذَا عِنْدَ عَامَّةِ أَهْلِ الْعِلْمِ أَنَّهُ يُبْدَأُ بِالدَّيْنِ قَبْلَ الْوَصِيَّةِ."
+summary:
+  ar: "حديث في جامع الترمذي، رقم 2122، يذكر وصية أو عهد أخير. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Jami' al-Tirmidhi, no. 2122 (Chapters On Wasaya (Wills and Testament)), that mentions a testament or parting counsel. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
+  ur: "جامع ترمذی کی حدیث نمبر 2122، جس میں وصیت یا آخری نصیحت کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-wasiyya, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 2122 (book 30 hadith 7); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

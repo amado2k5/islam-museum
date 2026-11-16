@@ -599,16 +599,18 @@ describe("one API export per browser or explorer (AGENTS.md: every feature is gr
     const notInherited = makeNode("passage/muslim-7771w", "passage", { unit: "hadith", work: "work/sahih-muslim", ref: "7771w", text: "لاَ نُورَثُ مَا تَرَكْنَا صَدَقَةٌ" });
     const umar = makeNode("passage/tabaqat-x-1", "passage", { unit: "chapter", work: "work/al-tabaqat-al-kubra-ibn-sad", ref: "1", text: "لما طعن عمر أوصى الخليفة من بعده بالمهاجرين ثم قال ادفنوني مع صاحبي" });
     const generic = makeNode("passage/muwatta-7772w", "passage", { unit: "hadith", work: "work/muwatta-malik", ref: "7772w", text: "باب عذاب القبر: خصوصية الميراث للعصبة وما تركه الرجل من الأثر وعهد الله" });
+    const minedElsewhere = { ...makeNode("passage/bukhari-api-7773w", "passage", { unit: "hadith", work: "work/sahih-al-bukhari", ref: "7773w", text: "كان يأمر بالحجامة", provenance: { run: "tibb-hadithapi-1" } }), label: { ar: "وصية أو عهد أخير", en: "a testament" }, summary: { ar: "يجمعه متصفح الوصايا", en: "The Testaments Browser lists it." } };
     const will = { ...makeNode("event/testament-x", "event", { kind: "other" }), tags: ["wasaya-browser", "wasaya-caliphs", "wasaya-wasiyya", "wasaya-marqad"] };
     const relic = { ...makeNode("object/burda-x", "object", { kind: "relic" }), tags: ["wasaya-browser", "wasaya-athar"] };
     const cemetery = { ...makeNode("place/baqi-x", "place", { kind: "site" }), tags: ["wasaya-browser", "wasaya-marqad"] };
-    const data = featureApiData({ ...compiled, nodes: [...compiled.nodes, yaqub, notListed, notInherited, umar, generic, will, relic, cemetery], edges: compiled.edges });
+    const data = featureApiData({ ...compiled, nodes: [...compiled.nodes, yaqub, notListed, notInherited, umar, generic, minedElsewhere, will, relic, cemetery], edges: compiled.edges });
     const items = data["wasaya.json"].items;
     const ids = items.map((i) => i.id);
     expect(data["wasaya.json"].feature).toBe("wasaya-browser");
     expect(ids).toContain("passage/quran-2-133x");
     expect(ids).not.toContain("passage/quran-2-1z"); // a verse is in only because the reviewed table lists it
     expect(ids).not.toContain("passage/muwatta-7772w"); // the trial of the grave, «خصوصية», a bare «الميراث», «تركه», «الأثر» and «عهد» are not the topic
+    expect(ids).not.toContain("passage/bukhari-api-7773w"); // a mining tool's own label and summary are not the passage's text
     expect(items.find((i) => i.id === "passage/quran-2-133x")).toMatchObject({ section: "quran", topics: ["wasiyya", "ihtidar"] });
     expect(items.find((i) => i.id === "passage/muslim-7771w")).toMatchObject({ section: "sunnah", topics: ["mirath"] }); // vowel marks are folded before matching
     expect(items.find((i) => i.id === "passage/tabaqat-x-1")).toMatchObject({ section: "books", topics: ["wasiyya", "ihtidar", "marqad"] });

@@ -1,0 +1,16 @@
+id: passage/nasai-api-5653
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "5653"
+label: { ar: "سنن النسائي 5653 — دفن وقبر ومرقد", en: "Sunan al-Nasa'i 5653 — a burial, grave or resting place", ur: "سنن نسائی 5653 — تدفین، قبر اور مرقد" }
+text: "… بْنُ أَعْيَنَ، قَالَ حَدَّثَنَا زُهَيْرٌ، قَالَ حَدَّثَنَا زُبَيْدٌ، عَنْ مُحَارِبٍ، عَنِ ابْنِ بُرَيْدَةَ، عَنْ أَبِيهِ، قَالَ قَالَ رَسُولُ اللَّهِ \" إِنِّي كُنْتُ نَهَيْتُكُمْ عَنْ ثَلاَثٍ زِيَارَةِ الْقُبُورِ فَزُورُوهَا وَلْتَزِدْكُمْ زِيَارَتُهَا خَيْرًا وَنَهَيْتُكُمْ عَنْ لُحُومِ الأَضَاحِي بَعْدَ ثَلاَثٍ فَكُلُوا مِنْهَا مَا شِئْتُمْ وَنَهَيْتُكُمْ عَنِ الأَشْرِبَةِ فِي الأَوْعِيَةِ فَاشْرَبُوا فِي أَىِّ وِعَاءٍ شِئْتُمْ وَلاَ تَشْرَبُوا مُسْكِرًا \"."
+summary:
+  ar: "حديث في سنن النسائي، رقم 5653، يذكر دفن وقبر ومرقد. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan al-Nasa'i, no. 5653 (The Book of Drinks), that mentions a burial, grave or resting place. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
+  ur: "سنن نسائی کی حدیث نمبر 5653، جس میں تدفین، قبر اور مرقد کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ziyarat-al-qubur, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 5653 (book 51 hadith 115); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

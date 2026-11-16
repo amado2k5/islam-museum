@@ -1,0 +1,17 @@
+id: passage/muwatta-api-1452
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "1452"
+label: { ar: "موطأ مالك 1452 — وصية أو عهد أخير، ساعة الاحتضار والوفاة", en: "Muwatta Malik 1452 — a testament or parting counsel; a deathbed and last hours", ur: "موطأ مالک 1452 — وصیت یا آخری نصیحت، وقتِ وفات اور آخری لمحات" }
+text: "… بْنِ عَمْرِو بْنِ شُرَحْبِيلَ بْنِ سَعِيدِ بْنِ سَعْدِ بْنِ عُبَادَةَ، عَنْ أَبِيهِ، عَنْ جَدِّهِ، أَنَّهُ قَالَ خَرَجَ سَعْدُ بْنُ عُبَادَةَ مَعَ رَسُولِ اللَّهِ فِي بَعْضِ مَغَازِيهِ فَحَضَرَتْ أُمَّهُ الْوَفَاةُ بِالْمَدِينَةِ فَقِيلَ لَهَا أَوْصِي. فَقَالَتْ فِيمَ أُوصِي إِنَّمَا الْمَالُ مَالُ سَعْدٍ. فَتُوُفِّيَتْ قَبْلَ أَنْ يَقْدَمَ سَعْدٌ فَلَمَّا قَدِمَ سَعْدُ بْنُ عُبَادَةَ ذُكِرَ ذَلِكَ لَهُ فَقَالَ سَعْدٌ"
+summary:
+  ar: "حديث في موطأ مالك، رقم 1452، يذكر وصية أو عهد أخير، وساعة الاحتضار والوفاة. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Muwatta Malik, no. 1452 (Judgements), that mentions a testament or parting counsel, a deathbed and last hours. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
+  ur: "موطأ مالک کی حدیث نمبر 1452، جس میں وصیت یا آخری نصیحت، وقتِ وفات اور آخری لمحات کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-wasiyya, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/ihtidar, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 1452 (book 36 hadith 54); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }
+sources: [source/muwatta-malik, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

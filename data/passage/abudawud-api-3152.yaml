@@ -1,0 +1,16 @@
+id: passage/abudawud-api-3152
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "3152"
+label: { ar: "سنن أبي داود 3152 — دفن وقبر ومرقد", en: "Sunan Abi Dawud 3152 — a burial, grave or resting place", ur: "سنن ابی داؤد 3152 — تدفین، قبر اور مرقد" }
+text: "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا حَفْصٌ، عَنْ هِشَامِ بْنِ عُرْوَةَ، عَنْ أَبِيهِ، عَنْ عَائِشَةَ، مِثْلَهُ زَادَ مِنْ كُرْسُفٍ. قَالَ فَذُكِرَ لِعَائِشَةَ قَوْلُهُمْ فِي ثَوْبَيْنِ وَبُرْدِ حِبَرَةٍ فَقَالَتْ قَدْ أُتِيَ بِالْبُرْدِ وَلَكِنَّهُمْ رَدُّوهُ وَلَمْ يُكَفِّنُوهُ فِيهِ."
+summary:
+  ar: "حديث في سنن أبي داود، رقم 3152، يذكر دفن وقبر ومرقد. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan Abi Dawud, no. 3152 (Funerals (Kitab Al-Jana'iz)), that mentions a burial, grave or resting place. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
+  ur: "سنن ابی داؤد کی حدیث نمبر 3152، جس میں تدفین، قبر اور مرقد کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ziyarat-al-qubur, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 3152 (book 21 hadith 64); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

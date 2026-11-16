@@ -1,0 +1,16 @@
+id: passage/nasai-api-4101
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "4101"
+label: { ar: "سنن النسائي 4101 — دفن وقبر ومرقد", en: "Sunan al-Nasa'i 4101 — a burial, grave or resting place", ur: "سنن نسائی 4101 — تدفین، قبر اور مرقد" }
+text: "… أَبِيهِ، عَنِ ابْنِ أَبِي نُعْمٍ، عَنْ أَبِي سَعِيدٍ الْخُدْرِيِّ، قَالَ بَعَثَ عَلِيٌّ إِلَى النَّبِيِّ وَهُوَ بِالْيَمَنِ بِذُهَيْبَةٍ فِي تُرْبَتِهَا فَقَسَمَهَا بَيْنَ الأَقْرَعِ بْنِ حَابِسٍ الْحَنْظَلِيِّ ثُمَّ أَحَدِ بَنِي مُجَاشِعٍ وَبَيْنَ عُيَيْنَةَ بْنِ بَدْرٍ الْفَزَارِيِّ وَبَيْنَ عَلْقَمَةَ بْنِ عُلاَثَةَ الْعَامِرِيِّ ثُمَّ أَحَدِ بَنِي كِلاَبٍ وَبَيْنَ زَيْدِ الْخَيْلِ الطَّائِيِّ ثُمَّ أَحَدَ بَنِي نَبْهَانَ - قَالَ - فَغَضِبَتْ …"
+summary:
+  ar: "حديث في سنن النسائي، رقم 4101، يذكر دفن وقبر ومرقد. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan al-Nasa'i, no. 4101 (The Book of Fighting [The Prohibition of Bloodshed]), that mentions a burial, grave or resting place. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
+  ur: "سنن نسائی کی حدیث نمبر 4101، جس میں تدفین، قبر اور مرقد کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ziyarat-al-qubur, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 4101 (book 37 hadith 136); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

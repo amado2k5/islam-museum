@@ -1,0 +1,16 @@
+id: passage/bukhari-api-591
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "591"
+label: { ar: "صحيح البخاري 591 — ما خلّفه من تركة وميراث", en: "Sahih al-Bukhari 591 — what was left behind: estate and inheritance", ur: "صحیح بخاری 591 — ترکہ اور میراث" }
+text: "حَدَّثَنَا مُسَدَّدٌ، قَالَ حَدَّثَنَا يَحْيَى، قَالَ حَدَّثَنَا هِشَامٌ، قَالَ أَخْبَرَنِي أَبِي قَالَتْ، عَائِشَةُ ابْنَ أُخْتِي مَا تَرَكَ النَّبِيُّ السَّجْدَتَيْنِ بَعْدَ الْعَصْرِ عِنْدِي قَطُّ."
+summary:
+  ar: "حديث في صحيح البخاري، رقم 591، يذكر ما خلّفه من تركة وميراث. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sahih al-Bukhari, no. 591 (Times of the Prayers), that mentions what was left behind: estate and inheritance. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
+  ur: "صحیح بخاری کی حدیث نمبر 591، جس میں ترکہ اور میراث کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/tarika-estate, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 591 (book 9 hadith 66); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

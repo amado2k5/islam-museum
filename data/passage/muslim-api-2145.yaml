@@ -1,0 +1,16 @@
+id: passage/muslim-api-2145
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2145"
+label: { ar: "صحيح مسلم 2145 — ساعة الاحتضار والوفاة", en: "Sahih Muslim 2145 — a deathbed and last hours", ur: "صحیح مسلم 2145 — وقتِ وفات اور آخری لمحات" }
+text: "وَحَدَّثَنِي عَلِيُّ بْنُ حُجْرٍ السَّعْدِيُّ، حَدَّثَنَا عَلِيُّ بْنُ مُسْهِرٍ، عَنِ الأَعْمَشِ، عَنْ أَبِي، صَالِحٍ عَنِ ابْنِ عُمَرَ، قَالَ لَمَّا طُعِنَ عُمَرُ أُغْمِيَ عَلَيْهِ فَصِيحَ عَلَيْهِ فَلَمَّا أَفَاقَ قَالَ أَمَا عَلِمْتُمْ أَنَّ رَسُولَ اللَّهِ قَالَ \" إِنَّ الْمَيِّتَ لَيُعَذَّبُ بِبُكَاءِ الْحَىِّ \"."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 2145، يذكر ساعة الاحتضار والوفاة. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sahih Muslim, no. 2145 (The Book of Prayer - Funerals), that mentions a deathbed and last hours. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
+  ur: "صحیح مسلم کی حدیث نمبر 2145، جس میں وقتِ وفات اور آخری لمحات کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ihtidar, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 2145 (book 11 hadith 23); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

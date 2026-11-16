@@ -1,0 +1,16 @@
+id: passage/muslim-api-6358
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "6358"
+label: { ar: "صحيح مسلم 6358 — دفن وقبر ومرقد", en: "Sahih Muslim 6358 — a burial, grave or resting place", ur: "صحیح مسلم 6358 — تدفین، قبر اور مرقد" }
+text: "… قَالَ \" لَكِنِّي أَفْقِدُ جُلَيْبِيبًا فَاطْلُبُوهُ \". فَطُلِبَ فِي الْقَتْلَى فَوَجَدُوهُ إِلَى جَنْبِ سَبْعَةٍ قَدْ قَتَلَهُمْ ثُمَّ قَتَلُوهُ فَأَتَى النَّبِيُّ فَوَقَفَ عَلَيْهِ فَقَالَ \" قَتَلَ سَبْعَةً ثُمَّ قَتَلُوهُ هَذَا مِنِّي وَأَنَا مِنْهُ هَذَا مِنِّي وَأَنَا مِنْهُ \". قَالَ فَوَضَعَهُ عَلَى سَاعِدَيْهِ لَيْسَ لَهُ إِلاَّ سَاعِدَا النَّبِيِّ قَالَ فَحُفِرَ لَهُ وَوُضِعَ فِي قَبْرِهِ. وَلَمْ يَذْكُرْ غَسْلاً."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 6358، يذكر دفن وقبر ومرقد. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sahih Muslim, no. 6358 (The Book of the Merits of the Companions), that mentions a burial, grave or resting place. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
+  ur: "صحیح مسلم کی حدیث نمبر 6358، جس میں تدفین، قبر اور مرقد کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ziyarat-al-qubur, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 6358 (book 44 hadith 188); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

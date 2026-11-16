@@ -1,0 +1,16 @@
+id: passage/bukhari-api-6238
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "6238"
+label: { ar: "صحيح البخاري 6238 — دفن وقبر ومرقد", en: "Sahih al-Bukhari 6238 — a burial, grave or resting place", ur: "صحیح بخاری 6238 — تدفین، قبر اور مرقد" }
+text: "… فَأَطَالُوا الْمُكْثَ فَقَامَ رَسُولُ اللَّهِ فَخَرَجَ وَخَرَجْتُ مَعَهُ كَىْ يَخْرُجُوا، فَمَشَى رَسُولُ اللَّهِ وَمَشَيْتُ مَعَهُ حَتَّى جَاءَ عَتَبَةَ حُجْرَةِ عَائِشَةَ، ثُمَّ ظَنَّ رَسُولُ اللَّهِ أَنَّهُمْ خَرَجُوا فَرَجَعَ وَرَجَعْتُ مَعَهُ، حَتَّى دَخَلَ عَلَى زَيْنَبَ فَإِذَا هُمْ جُلُوسٌ لَمْ يَتَفَرَّقُوا، فَرَجَعَ رَسُولُ اللَّهِ وَرَجَعْتُ مَعَهُ، حَتَّى بَلَغَ عَتَبَةَ حُجْرَةِ عَائِشَةَ، فَظَنَّ أَنْ قَدْ خَرَجُوا، فَرَجَعَ وَرَجَعْتُ مَعَهُ، …"
+summary:
+  ar: "حديث في صحيح البخاري، رقم 6238، يذكر دفن وقبر ومرقد. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sahih al-Bukhari, no. 6238 (Asking Permission), that mentions a burial, grave or resting place. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
+  ur: "صحیح بخاری کی حدیث نمبر 6238، جس میں تدفین، قبر اور مرقد کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ziyarat-al-qubur, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 6238 (book 79 hadith 12); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

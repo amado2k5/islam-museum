@@ -1,0 +1,16 @@
+id: passage/tirmidhi-api-1608
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "1608"
+label: { ar: "جامع الترمذي 1608 — ما خلّفه من تركة وميراث", en: "Jami' al-Tirmidhi 1608 — what was left behind: estate and inheritance", ur: "جامع ترمذی 1608 — ترکہ اور میراث" }
+text: "… يَرِثُكَ قَالَ أَهْلِي وَوَلَدِي. قَالَتْ فَمَا لِي لاَ أَرِثُ أَبِي فَقَالَ أَبُو بَكْرٍ سَمِعْتُ رَسُولَ اللَّهِ يَقُولُ \" لاَ نُورَثُ \". وَلَكِنِّي أَعُولُ مَنْ كَانَ رَسُولُ اللَّهِ يَعُولُهُ وَأُنْفِقُ عَلَى مَنْ كَانَ رَسُولُ اللَّهِ يُنْفِقُ عَلَيْهِ. قَالَ أَبُو عِيسَى وَفِي الْبَابِ عَنْ عُمَرَ وَطَلْحَةَ وَالزُّبَيْرِ وَعَبْدِ الرَّحْمَنِ بْنِ عَوْفٍ وَسَعْدٍ وَعَائِشَةَ. وَحَدِيثُ أَبِي هُرَيْرَةَ حَدِيثٌ …"
+summary:
+  ar: "حديث في جامع الترمذي، رقم 1608، يذكر ما خلّفه من تركة وميراث. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Jami' al-Tirmidhi, no. 1608 (The Book on Military Expeditions), that mentions what was left behind: estate and inheritance. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
+  ur: "جامع ترمذی کی حدیث نمبر 1608، جس میں ترکہ اور میراث کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/tarika-estate, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 1608 (book 21 hadith 71); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

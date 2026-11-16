@@ -118,7 +118,7 @@ const B = "(?<![ء-ي])[وفبلك]{0,2}(?:ال)?";
 const E = "(?![ء-ي])";
 const re = (...alts: string[]) => new RegExp(alts.join("|"));
 /** The people whose graves, estates and relics the browser follows, as the books name them. */
-const WHO = "(?:النبي|رسول الله|نبي الله|ابي بكر|ابو بكر|الصديق|عمر|عثمان|علي|فاطمه|عائشه|خديجه|حمزه|الحسن|الحسين|ابراهيم|الخليل|موسي|هارون|يوسف|يعقوب|ادم|نوح|هود|صالح|داود|سليمان|يحيي|زكريا|يونس|ايوب|دانيال|الصحابه|الانبياء|الشهداء|ابي ايوب|خالد|معاذ|بلال|سلمان|ابي عبيده|سعد|ابن عباس|ابن عمر|ابن مسعود|ابي الدرداء|ابي ذر|ابي هريره|الشافعي|مالك|احمد|ابي حنيفه|البخاري)";
+const WHO = "(?:النبي|رسول الله|نبي الله|ابي بكر|ابو بكر|الصديق|عمر|عثمان|علي بن ابي طالب|فاطمه|عائشه|خديجه|حمزه|الحسن|الحسين|ابراهيم|الخليل|موسي|هارون|يوسف|يعقوب|ادم|نوح|هود|صالح|داود|سليمان|يحيي|زكريا|يونس|ايوب|دانيال|الصحابه|الانبياء|الشهداء|ابي ايوب|خالد|معاذ|بلال|سلمان|ابي عبيده|سعد|ابن عباس|ابن عمر|ابن مسعود|ابي الدرداء|ابي ذر|ابي هريره|الشافعي|مالك|احمد|ابي حنيفه|البخاري)";
 /** Testaments and parting counsels. «خصوصية» and «وصيف» do not match: the word must open at B. */
 const AR_WASIYYA = re(
   `${B}وصي[هت]${E}`, `${B}وصيت[هيكن]${E}`, `${B}وصيت(?:ها|هم|هما|نا|كم)${E}`, `${B}وصايا${E}`, `${B}وصاي[اه]${E}`,
@@ -170,11 +170,16 @@ const EN_MARQAD = /\b(buried (in|at|beside|next to|near|with|by|there|on)|was bu
  */
 export const WASAYA_EXCLUDE = new Set<string>([]);
 
-/** The Arabic text a passage is judged on, folded: matn, normalized search text, Arabic label and summary. */
+/**
+ * A passage written by one of the mining tools (run `<browser>-ocr-<n>` or `<browser>-hadithapi-<n>`): its label and
+ * summary are that tool's own boilerplate naming its browser's topics, so only the quoted text is judged.
+ */
+const mined = (n: Node): boolean => /-(?:ocr|hadithapi)-\d+$/.test(String((n.data.provenance as { run?: string } | undefined)?.run ?? ""));
+/** The Arabic text a passage is judged on, folded: matn and normalized search text, plus the Arabic label and summary of a hand-written record. */
 const arabicOf = (n: Node): string =>
-  wasayaFold([n.data.text, n.data.text_search, n.label?.ar, n.summary?.ar].filter(Boolean).join(" "));
+  wasayaFold((mined(n) ? [n.data.text, n.data.text_search] : [n.data.text, n.data.text_search, n.label?.ar, n.summary?.ar]).filter(Boolean).join(" "));
 const englishOf = (n: Node): string =>
-  [n.summary?.en, n.label?.en, n.data.translations?.en?.text].filter(Boolean).join(" ");
+  mined(n) ? "" : [n.summary?.en, n.label?.en, n.data.translations?.en?.text].filter(Boolean).join(" ");
 
 /** Per-topic lexicon for non-Qur'an passages: the Arabic pattern first, then the English one. */
 const LEXICON: Record<WasayaTopic, [RegExp, RegExp]> = {

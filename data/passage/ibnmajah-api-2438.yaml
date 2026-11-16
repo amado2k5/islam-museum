@@ -1,0 +1,16 @@
+id: passage/ibnmajah-api-2438
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "2438"
+label: { ar: "سنن ابن ماجه 2438 — ما خلّفه من تركة وميراث", en: "Sunan Ibn Majah 2438 — what was left behind: estate and inheritance", ur: "سنن ابن ماجہ 2438 — ترکہ اور میراث" }
+text: "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا وَكِيعٌ، عَنْ عَبْدِ الْحَمِيدِ بْنِ بَهْرَامَ، عَنْ شَهْرِ بْنِ حَوْشَبٍ، عَنْ أَسْمَاءَ بِنْتِ يَزِيدَ، أَنَّ النَّبِيَّ تُوُفِّيَ وَدِرْعُهُ مَرْهُونَةٌ عِنْدَ يَهُودِيٍّ بِطَعَامٍ."
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 2438، يذكر ما خلّفه من تركة وميراث. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan Ibn Majah, no. 2438 (The Chapters on Pawning), that mentions what was left behind: estate and inheritance. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 2438، جس میں ترکہ اور میراث کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/tarika-estate, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 2438 (book 16 hadith 3); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

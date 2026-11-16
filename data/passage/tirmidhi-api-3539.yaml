@@ -1,0 +1,16 @@
+id: passage/tirmidhi-api-3539
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "3539"
+label: { ar: "جامع الترمذي 3539 — ساعة الاحتضار والوفاة", en: "Jami' al-Tirmidhi 3539 — a deathbed and last hours", ur: "جامع ترمذی 3539 — وقتِ وفات اور آخری لمحات" }
+text: "… عَنْ مُحَمَّدِ بْنِ قَيْسٍ، قَاصِّ عُمَرَ بْنِ عَبْدِ الْعَزِيزِ عَنْ أَبِي صِرْمَةَ، عَنْ أَبِي أَيُّوبَ، أَنَّهُ قَالَ حِينَ حَضَرَتْهُ الْوَفَاةُ قَدْ كَتَمْتُ عَنْكُمْ شَيْئًا سَمِعْتُهُ مِنْ رَسُولِ اللَّهِ سَمِعْتُ رَسُولَ اللَّهِ يَقُولُ \" لَوْلاَ أَنَّكُمْ تُذْنِبُونَ لَخَلَقَ اللَّهُ خَلْقًا يُذْنِبُونَ وَيَغْفِرُ لَهُمْ \". قَالَ هَذَا حَدِيثٌ حَسَنٌ غَرِيبٌ. وَقَدْ رُوِيَ هَذَا، عَنْ مُحَمَّدِ بْنِ كَعْبٍ، …"
+summary:
+  ar: "حديث في جامع الترمذي، رقم 3539، يذكر ساعة الاحتضار والوفاة. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Jami' al-Tirmidhi, no. 3539 (Chapters on Supplication), that mentions a deathbed and last hours. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
+  ur: "جامع ترمذی کی حدیث نمبر 3539، جس میں وقتِ وفات اور آخری لمحات کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ihtidar, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 3539 (book 48 hadith 170); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }
