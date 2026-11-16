@@ -1,0 +1,45 @@
+id: job/sail-maker
+class: job
+label: { ar: "الخيّام القلوعي ⁦(صانع الأشرعة)⁩", en: "Sail-maker (yelkenci)", ur: "پال ساز ⁦(یلکنجی)⁩" }
+names:
+  - { value: "yelkenci", kind: alternate, lang: tr }
+  - { value: "Yelkenjian", kind: latinized, lang: tr }
+  - { value: "صانع القلوع", kind: alternate }
+summary:
+  ar: "صانع القلوع يخيط أشرعة السفن. في موكب إسطنبول عدّ إوليا صنّاع الأشرعة ⁦(يلكنجيان)⁩ ثلاثمئة رجل بتسعين دكاناً، يصنعون كل أصناف الشراع، وبيرهم الأقدم شيث، وهم يمرّون على العربات يخيطون الأشرعة. ويمشي معهم في ركاب البحر صنّاع الصواري والسواري ⁦(سرنجي)⁩ وصنّاع المضخّات وحبّالو الجُرف، إذ القلوع لا يقوم إلا بصارٍ وحبل. ويذكر كونز في وصف أسطول الغوص البحريني أن قوارب البحرين ممتازة البناء يصنعها صنّاع محليون بمواد محلية، بقماش قلوع منسوج في البيت وحبال مفتولة من ليف النخل، وأنها بديعة المنظر بجهازها الفنّي وأشرعتها الملعقية الشكل؛ فالقلوع في الخليج صنعة بيتية تُنسج خيوطها وتُخاط في البرّ قبل أن تُنصَب على الصاري."
+  en: "The sail-maker sewed the sails of ships. In Evliya's Istanbul procession the sail-makers (Yelkenjian) were three hundred men in ninety shops; they make all kinds of sails, their oldest patron is Seth, and they pass on wagons sewing sails. They march in the shipbuilders' company: the mast- and yard-makers (Serenji) who sell masts, yards, ribs, planks and all the wood a ship needs, and the pump-makers, for a sail is nothing without a mast and rigging. Kunz, describing the Bahrein pearling fleet, records that the boats of Bahrein are excellently built by native workmen of local materials, with home-woven sailcloth and rigging of twisted date-fibre, and that they make a picturesque sight with their artistic rigs and spoon-shaped sails — in the Gulf the sail was a homespun craft, woven ashore before it was ever bent to the yard."
+  ur: "پال ساز جہازوں کے پال سلائی کرتا ہے۔ اولیاء کے استنبول کے جلوس میں پال ساز ⁦(یلکنجیان)⁩ تین سو آدمی نوے دکانیں ہیں؛ وہ ہر قسم کے پال بناتے، ان کا قدیم ترین پیر سیث ہے، اور وہ گاڑیوں پر چل کر پال سلائی کرتے نکلتے۔ انہی کے ساتھ جہاز سازوں کے رکاب میں مستول اور بازو بنانے والے ⁦(سرنجی)⁩ اور پمپ ساز چلتے، کیونکہ پال مستول اور رسّی کے بغیر کچھ نہیں۔ کنز بحرین کے غوطہ خوری بیڑے لکھتے ہوئے بتاتا ہے کہ بحرین کی کشتیاں مقامی دستکاروں نے مقامی سامان سے عمدہ بنائیں، گھر میں بُنا ہوا پال کا کپڑا اور کھجور کے ریشے کی مروڑی رسیاں، اور اپنے فنی آراستگی اور چمچ نما پالوں سے وہ دلکش منظر ہیں — خلیج میں پال ایک گھریلو دستکاری تھی جو ساحل پر بنائی جاتی اور پھر مستول پر چڑھائی جاتی۔"
+domain: trade-travel-sea
+kind: craft
+hirfa: true
+era:
+  origins: pre-islamic
+  status_today: transformed
+places:
+  - { place: place/istanbul, note: "Evliya counts the sail-makers (Yelkenjian) at three hundred men in ninety shops, passing on wagons sewing sails in the shipbuilders' procession.", sources: [source/evliya-seyahatname-hammer] }
+  - { place: place/bahrayn, note: "Kunz describes the Bahrein pearling boats built by native workmen with home-woven sailcloth and rigging of twisted date-fibre, their artistic rigs and spoon-shaped sails.", sources: [source/kunz-book-of-pearl-1908] }
+regions: [anatolia-balkans, arabia, egypt-nile]
+organization:
+  organized: guild
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people, living]
+periods: [period/pre-islamic-arabia, period/gunpowder-empires, period/modern-era]
+sources: [source/evliya-seyahatname-hammer, source/kunz-book-of-pearl-1908]
+craft:
+  materials: [textile, cotton]
+  techniques:
+    ar: "الصنعة خياطة القلوع: قماش متين يُنسَج — وعند بحرين الغوص يُنسَج في البيوت — ثم يُقصّ ويُخاط على قياس الصاري والبازو، ويُشدّ بالحبال المفتولة. وعند إوليا تعرض الورشة على عربات الموكب: الرجال يخيطون الأشرعة وهم يمرّون."
+    en: "The craft is the sewing of sails: stout cloth woven — homespun in the Bahrein pearling boats — then cut and sewn to the measure of mast and yard, and bent on with rigging of twisted fibre. In Evliya the workshop shows itself on the procession wagons: the men sewing sails as they pass."
+    ur: "ہنر پالوں کی سلائی ہے: مضبوط کپڑا بُنا جاتا — بحرین کی غوطہ خور کشتیوں میں گھر کا بُنا — پھر مستول اور بازو کے ناپ سے کاٹ کر سلائی کیا جاتا اور مروڑی رسیوں سے باندھا جاتا۔ اولیاء میں ورکشاپ جلوس کی گاڑیوں پر دکھتی ہے: آدمی چلتے چلتے پال سلائی کرتے۔"
+  guild:
+    bodies: []
+    shaykh_title: { ar: "شيخ طائفة صنّاع القلوع", en: "Sheykh of the sail-makers' guild", ur: "طائفۃ پال سازوں کا شیخ" }
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-trades-5" }
+provenance:
+  layer: own-research
+  source: "Evliya (von Hammer) I,2 sec. 101 pp. 130-131 (the Yelkenjian sail-makers, three hundred men in ninety shops, patron Seth, sewing sails on wagons) and sec. 103 p. 131 (the Serenji mast- and yard-makers); Kunz, The Book of the Pearl p. 400 (Bahrein boats with home-woven sailcloth, rigging of twisted date-fibre, artistic rigs and spoon-shaped sails) — read on 16 Nov 2026 from the downloaded scans"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-trades-5-drafting"
