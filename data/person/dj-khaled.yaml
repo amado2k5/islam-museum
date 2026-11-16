@@ -22,6 +22,17 @@ born:
   derived: true
   note: "Born in New Orleans, Louisiana, to Palestinian immigrant parents. The Hijri year (1395) is derived by tabular conversion. New Orleans has no place entity in the museum (place/orleans is Orléans in France), so no born_in relation is written."
   sources: [source/wikipedia-dj-khaled-en, source/wikidata-dj-khaled]
+occupations:
+  - job: job/singer
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'rapper', Job Browser linking wave 19"
+    sources: [source/wikipedia-dj-khaled-en, source/wikipedia-dj-khaled-ar, source/wikipedia-dj-khaled-ur, source/wikidata-dj-khaled, source/wikidata]
+  - job: job/musician
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'musician', Job Browser linking wave 19"
+    sources: [source/wikipedia-dj-khaled-en, source/wikipedia-dj-khaled-ar, source/wikipedia-dj-khaled-ur, source/wikidata-dj-khaled, source/wikidata]
 relations:
   - { type: born_in, target: place/new-orleans, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-dj-khaled] }
 faith:

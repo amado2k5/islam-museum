@@ -42,6 +42,17 @@ faith:
 external_ids:
   wikidata: Q836856
   viaf: "10149196307374791085"
+occupations:
+  - job: job/poet
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'poet', Job Browser linking wave 19"
+    sources: [source/wikipedia-togolok-moldo-en, source/wikipedia-togolok-moldo-ru, source/wikipedia-togolok-moldo-ky, source/wikipedia-togolok-moldo-uz, source/wikidata-togolok-moldo, source/wikidata]
+  - job: job/musician
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'musician', Job Browser linking wave 19"
+    sources: [source/wikipedia-togolok-moldo-en, source/wikipedia-togolok-moldo-ru, source/wikipedia-togolok-moldo-ky, source/wikipedia-togolok-moldo-uz, source/wikidata-togolok-moldo, source/wikidata]
 relations:
   - { type: born_in, target: place/naryn-region, sources: [source/wikidata-togolok-moldo], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q486375)" }
 sources:

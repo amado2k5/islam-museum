@@ -22,6 +22,17 @@ born:
   derived: true
   note: "Born in Madison, Wisconsin. The Hijri year (1397) is derived by tabular conversion. Madison has no place entity in the museum, so no born_in relation is written."
   sources: [source/wikipedia-brother-ali-en, source/wikidata-brother-ali]
+occupations:
+  - job: job/singer
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'rapper', Job Browser linking wave 19"
+    sources: [source/wikipedia-brother-ali-en, source/wikipedia-brother-ali-ar, source/wikidata-brother-ali, source/wikidata]
+  - job: job/musician
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'musician', Job Browser linking wave 19"
+    sources: [source/wikipedia-brother-ali-en, source/wikipedia-brother-ali-ar, source/wikidata-brother-ali, source/wikidata]
 relations:
   - { type: born_in, target: place/madison, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-brother-ali] }
 faith:

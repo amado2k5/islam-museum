@@ -24,6 +24,12 @@ faith:
     basis: unknown
     note: "Absence configuration: no source read names a school for him — the English and Arabic biographies carry no religion content for the man himself, and Wikidata gives only Islam. His descent in the Bangash line of sarod players and his family's Muslim court-musician milieu in Gwalior are background and were not counted."
     sources: [source/wikipedia-amjad-ali-khan-en, source/wikipedia-amjad-ali-khan-ar, source/wikidata-amjad-ali-khan]
+occupations:
+  - job: job/musician
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'musician', Job Browser linking wave 19"
+    sources: [source/wikipedia-amjad-ali-khan-en, source/wikipedia-amjad-ali-khan-ar, source/wikidata-amjad-ali-khan, source/wikidata]
 relations:
   - { type: lived_in, target: place/india, note: "Place association from the person's nisba/name (هندي); denotes association, not proven residence.", sources: [source/wikipedia-amjad-ali-khan-en, source/wikipedia-amjad-ali-khan-ar, source/wikidata-amjad-ali-khan], confidence: low }
 summary:
