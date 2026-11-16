@@ -13,6 +13,17 @@ regions: [maghreb]
 periods: [period/modern-era]
 born: { edtf: "1831", hijri: "1246", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam / al-Zirikli Confirmed on 13 November 2026 against Wikidata Q130300783 (P569, a statement with a reference), item revision 2533215039. al-Zirikli prints 1246 AH and, as its CE equivalent, 1830 {cite:alam-zirikli-dar-al-ilm-2002 vol. 2 p. 122}; the card year is kept and flagged for checking.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
 died: { edtf: "1905", hijri: "1323", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-A'lam / al-Zirikli Confirmed on 13 November 2026 against Wikidata Q130300783 (P570, a statement with a reference), item revision 2533215039. al-Zirikli prints 1323 AH and, as its CE equivalent, 1950, which does not agree with the Hijri year (1323 AH falls in 1905) {cite:alam-zirikli-dar-al-ilm-2002 vol. 2 p. 122}; the card year is kept.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 39"
+    sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'faqih', Job Browser linking wave 39"
+    sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 relations:
   - { type: born_in, target: place/fes, confidence: high, note: "Place link from Wikidata; al-Zirikli, al-A'lam, vol. 2 p. 122: he was born and died in Fez.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
   - { type: died_in, target: place/fes, confidence: high, note: "al-Zirikli, al-A'lam, vol. 2 p. 122: he was born and died in Fez.", sources: [source/alam-zirikli-dar-al-ilm-2002] }

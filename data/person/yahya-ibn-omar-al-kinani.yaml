@@ -50,6 +50,17 @@ died:
   sources:
   - source/wikidata
   - source/alam-zirikli-dar-al-ilm-2002
+occupations:
+  - job: job/faqih
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'faqih', Job Browser linking wave 39"
+    sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
+  - job: job/alim
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 39"
+    sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 relations:
 - type: lived_in
   target: place/al-andalus

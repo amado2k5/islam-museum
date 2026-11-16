@@ -13,6 +13,10 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v2.13.0 — 2026-11-17
+### Added
+- Job Browser linking wave 39: 42 `occupations:` edges on 25 person records — the first dedicated faqih/mutakallim wave (thirteen jurists, twelve theologians) plus sixteen ulema and a poet.
+
 ## v2.12.0 — 2026-11-17
 ### Added
 - Job Browser linking wave 38: 37 `occupations:` edges on 25 person records — finishes the emir and muhaddith pools; eight faqih, eight ulema, plus mutakallim, philosopher, mufti, qadi and poet multi-links (Fatima al-Samarqandi, al-Khunaji).

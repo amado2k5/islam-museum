@@ -26,6 +26,17 @@ status:
   completeness: 3
 born: { edtf: "797", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal (al-Mizzi: 181–274 AH) Agrees with Wikidata Q18633980 (P569, a statement without a reference), item revision 2455764774, read on 13 November 2026.", sources: [source/wikidata] }
 died: { edtf: "887", hijri: "0274", calendar: gregorian, precision: year, derived: true, note: "Ibn al-Imad lists him under 274 AH, in Rabi' al-Awwal {cite:shadharat-dhahab vol. 3 p. 310}; the Gregorian year is the museum's conversion and agrees with the card (Tahdhib al-Kamal, 181–274 AH).", sources: [source/shadharat-dhahab] }
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 39"
+    sources: [source/al-aalam, source/wikidata, source/shadharat-dhahab]
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'jurist', Job Browser linking wave 39"
+    sources: [source/al-aalam, source/wikidata, source/shadharat-dhahab]
 relations:
   - { type: born_in, target: place/raqqa, note: "Wikidata Q283368 (P19); the nisba al-Raqqi in Ibn al-Imad, vol. 3 p. 310, supports the association.", sources: [source/wikidata, source/shadharat-dhahab], confidence: medium }
   - { type: died_in, target: place/raqqa, note: "Wikidata Q283368 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }

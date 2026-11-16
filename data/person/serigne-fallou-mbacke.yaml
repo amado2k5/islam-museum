@@ -32,6 +32,17 @@ died:
   derived: true
   note: "The French article and Wikidata agree on 6 August 1968, at Touba; the English article gives the year 1968. The Hijri year is derived by tabular conversion. No place entity exists for Touba, so no died_in edge is written."
   sources: [source/wikipedia-fallou-mbacke-fr, source/wikipedia-fallou-mbacke-en, source/wikidata-fallou-mbacke]
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 39"
+    sources: [source/wikipedia-fallou-mbacke-fr, source/wikipedia-fallou-mbacke-en, source/wikidata-fallou-mbacke]
+  - job: job/mutakallim
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'theologian', Job Browser linking wave 39"
+    sources: [source/wikipedia-fallou-mbacke-fr, source/wikipedia-fallou-mbacke-en, source/wikidata-fallou-mbacke]
 relations:
   - { type: child_of, target: person/amadou-bamba, sources: [source/wikipedia-fallou-mbacke-fr, source/wikipedia-fallou-mbacke-en] }
   - { type: student_of, target: person/amadou-bamba, sources: [source/wikipedia-fallou-mbacke-fr] }
