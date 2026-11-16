@@ -1,0 +1,44 @@
+id: job/porter
+class: job
+label: { ar: "الحمّال", en: "Porter (hammâl)", ur: "حمّال ⁦(قلی)⁩" }
+names:
+  - { value: "حمّال", kind: alternate }
+  - { value: "zille-hamâl", kind: latinized, lang: tr }
+  - { value: "sirik-hamal", kind: latinized, lang: tr }
+  - { value: "karji", kind: latinized, lang: tr }
+  - { value: "قلی", kind: alternate }
+summary:
+  ar: "الحمّال ينقل الأحمال على ظهره وعلى الأعمدة من الموانئ والمخازن والأسواق. عند أوليا جلبي كان حمّالو اسطنبول أصحاب كدك ⁦(إقطاع مكتبي)⁩ معيّنين بفرمان سلطاني، أقوياء يحمل الواحد ألف أوقية، وحمّالو صومعة الأعمدة ⁦(سيريك حمال)⁩ يرفعون بها أحمالاً من أربعين إلى خمسين قنطاراً يسيرون بنظام وينادون «يا حيّ»، وحمّالو الجمارك والدقيق أشهرهم، ولهم بيرهم علي وسلمان، وحمّالو العدل الشرعي ثمانمائة رجل يخرجون مع القاضي عسكر وبيرهم أبو شيبة، وللحمّالين حمّام خاص. وفي إسكندرية القرن التاسع عشر كانت طائفة حمّالي القبّان تطالب بحق العمل على موازين المرفأ وبقسمة الدخل بين الأفراد ⁦(الرقيّة)⁩ حين استعان الوزّانون بغير الطائفة."
+  en: "The porter moved loads on his back and on poles through the ports, magazines and markets. In Evliya's Istanbul the porters held the gedek, a kind of fief granted by imperial diploma: strong men carrying up to a thousand okkas each; the Sirik-hamal or pole-porters lifting forty-to-fifty-quintal loads in step and crying 'Ya Hayy'; the custom-house and Flour-hall porters the most famous, with Ali and Salman for patrons; the eight hundred porters of justice marching out with the kazaskers under their patron Abu Shayba, to whose family the Prophet had delivered the keys of Mecca; and a bath of their own, the Sort-hammam. In nineteenth-century Alexandria the weigh-station porters' guild petitioned for its exclusive right to porterage and for the rukiyya, the communal division of income, when the weighers hired outsiders."
+  ur: "حمّال بندرگاہوں، گوداموں اور بازاروں میں سامان اپنی پیٹھ اور قطبوں پر اٹھاتا۔ اولیاء چلبی کے استنبول میں حمّالوں کو گدک نامی تملیک شاہی فرمان سے ملتی تھی: مضبوط مرد ہر ایک ہزار اوقہ اٹھاتا؛ ستونوں والے سیرک حمال چالیس پچاس قنطار کا بوجھ مل کر قدم بقدم چل کر «یا حیّ» پکارتے اٹھاتے؛ جمرك اور آٹے خانے کے حمّال سب سے مشہور، ان کے پیر علی اور سلمان؛ قاضی عسکر کے ساتھ نکلنے والے آٹھ سو عدالت حمّال جن کا پیر ابو شیبہ ہے جس کے گھرانے کو نبی نے مکہ کی کنجیاں سونپیں؛ اور ان کا اپنا حمام صورت حمّام۔ انیسویں صدی کے اسکندریہ میں قبّان حمّالوں کی انجمن نے، جب تولنے والے باہر کے مزدور لانے لگے، حصّی پالنے کے اپنے خصوصی حق اور آمدنی کی مشترکہ تقسیم ⁦(رقیّة)⁩ کی درخواست کی۔"
+domain: trade-travel-sea
+kind: service
+hirfa: true
+craft:
+  materials: []
+era:
+  origins: early-modern
+  status_today: transformed
+places:
+  - { place: place/istanbul, note: "Evliya's catalogue gives the gedek-holding porters of the Flour-hall, the famous Zillehor of the Custom-house and the Sirik-hamal pole-porters, the eight hundred porters of justice with their patron Abu Shayba, the ice-porters of Modania, and the porters' own bath.", sources: [source/evliya-seyahatname-hammer, source/evliya-narrative-hammer-v1] }
+  - { place: place/alexandria, note: "Chalcraft reads the 1871-72 petitions of the weigh-station porters' guild (ta'ifat 'attalin qabbaniyya), demanding the exclusion of non-guild porters and the rukiyya communal division of income.", sources: [source/chalcraft-striking-cabbies] }
+regions: [anatolia-balkans, egypt-nile]
+organization:
+  organized: guild
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people]
+periods: [period/gunpowder-empires, period/colonial-era, period/modern-era]
+sources: [source/evliya-seyahatname-hammer, source/evliya-narrative-hammer-v1, source/chalcraft-striking-cabbies]
+training:
+  mode: apprenticeship
+  certification: "Entry ran through the guild and the gedek, the porter's fief: when one of the Flour-hall porters died he was replaced, in Evliya's account, from the porters of Janberdi. In Alexandria the guild decided who counted as a porter, and the weighers' hiring of outsiders was the porters' own grievance."
+  duration: "Strength was the school: Evliya stresses that they were all strong, stout men, abstemious in food."
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-sea-2" }
+provenance:
+  layer: own-research
+  source: "Evliya Çelebi, Narrative of Travels vol. I part II (von Hammer, 1846), the guild catalogue §§211, 238, 308 and the Flour-hall and ice-men passages, and vol. I (1834) bath lists; Chalcraft, The Striking Cabbies ch. 'Bidding for Redistribution: The Porters of Alexandria' pp. 97-99; scans read on 16 Nov 2026"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-sea-2-drafting"

@@ -13,6 +13,10 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v1.67.0 — 2026-11-16
+### Added
+- Job Browser: six travel and sanctuary professions — the ship-captain (nakhoda/rubbân), the porter (hammâl), the monk-priest as encountered in the Islamic world (râhib/qissîs), the Kaʿba custodian (sadin of Banū Shayba), the Zemzem water-server (zemzemi), and the traveller (seyyah) — in Arabic, English and Urdu draft cited to the TDV entries GEMİ, RUHBAN, KEŞİŞ, HİCÂBE, KÂBE and ZEMZEM, plus Evliya, Chalcraft and Kunz's Book of the Pearl.
+
 ## v1.66.0 — 2026-11-16
 ### Data
 - Daily prose-completion measurement regenerated: 37,614 entities in the prose classes, Arabic full prose at 34.0%, English 40.4%, Urdu 36.9%; full prose keeps rising and partial and empty keep falling.
