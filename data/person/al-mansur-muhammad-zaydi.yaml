@@ -23,5 +23,11 @@ provenance:
 status:
   review: draft
   completeness: 1
+occupations:
+  - job: job/imam
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'imam', Job Browser linking wave 49"
+    sources: [source/al-aalam]
 relations:
   - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }

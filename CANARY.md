@@ -13,6 +13,10 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v2.23.0 — 2026-11-17
+### Added
+- Job Browser linking wave 49: 37 `occupations:` edges on 25 person records — finishes the astronomer pool (al-Battani, Habash, Jabir ibn Aflah) plus fifteen imams, eight mathematicians, and geographer, physician, preacher and alim links.
+
 ## v2.22.0 — 2026-11-17
 ### Added
 - Job Browser linking wave 48: 33 `occupations:` edges on 25 person records — finishes the grammarian and mufti pools (Ibn Khalawayh, Mufti Ghulam Sarwar Lahori) plus six commanders and poet, alim, historian links.

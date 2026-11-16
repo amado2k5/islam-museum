@@ -30,6 +30,17 @@ provenance:
   source: "Additive biography/faith/date/invention extension from actual MacTutor, TDV and DSB. Original Fihrist labels/summaries/source, Devin status and external ID retained; original three prose bodies/front matter unchanged before extension."
   additional_sources: [source/mahani-mactutor, source/tdv-mahani-fazlioglu, source/dold-samplonius-mahani-dsb]
   ratio_extension: { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b81", source: "Additive ratio-work/invention link and actual MacTutor al-Nayrizi reception; all original b80 fields/provenance/status and sphere tie retained." }
+occupations:
+  - job: job/mathematician
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'mathematician', Job Browser linking wave 49"
+    sources: [source/fihrist-ibn-al-nadim, source/mahani-mactutor, source/tdv-mahani-fazlioglu, source/dold-samplonius-mahani-dsb, source/nayrizi-mactutor, source/wikidata, source/biblissima]
+  - job: job/astronomer
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'astronomer', Job Browser linking wave 49"
+    sources: [source/fihrist-ibn-al-nadim, source/mahani-mactutor, source/tdv-mahani-fazlioglu, source/dold-samplonius-mahani-dsb, source/nayrizi-mactutor, source/wikidata, source/biblissima]
 relations:
   - { type: born_in, target: place/mahan, note: "Wikidata Q1816961 (P19); corroboration recommended.", sources: [source/wikidata], confidence: medium }
   - { type: died_in, target: place/baghdad, note: "Wikidata Q1530 (P20); corroboration recommended.", sources: [source/wikidata], confidence: medium }

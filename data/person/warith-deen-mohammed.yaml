@@ -33,6 +33,17 @@ died:
   sources: [source/wikipedia-warith-deen-mohammed-en, source/wikidata-warith-deen-mohammed]
 gender: male
 roles: [imam, scholar]
+occupations:
+  - job: job/imam
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'imam', Job Browser linking wave 49"
+    sources: [source/wikipedia-warith-deen-mohammed-en, source/wikipedia-warith-deen-mohammed-ar, source/wikipedia-warith-deen-mohammed-ur, source/wikidata-warith-deen-mohammed, source/wikidata]
+  - job: job/alim
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 49"
+    sources: [source/wikipedia-warith-deen-mohammed-en, source/wikipedia-warith-deen-mohammed-ar, source/wikipedia-warith-deen-mohammed-ur, source/wikidata-warith-deen-mohammed, source/wikidata]
 relations:
   - { type: child_of, target: person/clara-muhammad, sources: [source/wikipedia-warith-deen-mohammed-en, source/wikidata-warith-deen-mohammed] }
   - { type: born_in, target: place/hamtramck, sources: [source/wikidata-warith-deen-mohammed], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1013717)" }
