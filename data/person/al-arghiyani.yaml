@@ -22,5 +22,10 @@ occupations:
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/wafayat-ayan, source/shadharat-dhahab]
+  - job: job/qadi
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'qadi', Job Browser linking wave 45"
+    sources: [source/wafayat-ayan, source/shadharat-dhahab]
 relations:
   - { type: ruled_over, target: place/khurasan, note: "Shafi'i qadi of Arghiyan in the Nishapur district; region-level edge pending an Arghiyan place record.", sources: [source/wafayat-ayan, source/shadharat-dhahab], confidence: low }

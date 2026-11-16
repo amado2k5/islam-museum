@@ -32,6 +32,12 @@ died:
   derived: true
   note: "Died at Cairo on 4 August 1958 (all three articles and Wikidata agree)."
   sources: [source/wikipedia-salama-moussa-en, source/wikipedia-salama-moussa-ar, source/wikidata-salama-moussa]
+occupations:
+  - job: job/philosopher
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'philosopher', Job Browser linking wave 45"
+    sources: [source/wikipedia-salama-moussa-en, source/wikipedia-salama-moussa-ar, source/wikipedia-salama-moussa-fr, source/wikidata-salama-moussa]
 relations:
   - { type: died_in, target: place/cairo, sources: [source/wikipedia-salama-moussa-en, source/wikipedia-salama-moussa-ar] }
 faith:

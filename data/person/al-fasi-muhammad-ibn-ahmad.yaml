@@ -26,5 +26,16 @@ status:
   completeness: 3
 born: { edtf: "1373", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Sakhawi (al-Daw') Confirmed on 13 November 2026 against Wikidata Q7684920 (P569, a statement with a reference), item revision 2567996392.", sources: [source/wikidata] }
 died: { edtf: "1429", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Sakhawi (al-Daw') Confirmed on 13 November 2026 against Wikidata Q7684920 (P570, a statement with a reference), item revision 2567996392.", sources: [source/wikidata] }
+occupations:
+  - job: job/historian
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'historian', Job Browser linking wave 45"
+    sources: [source/shadharat-dhahab, source/wikidata]
+  - job: job/qadi
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'qadi', Job Browser linking wave 45"
+    sources: [source/shadharat-dhahab, source/wikidata]
 relations:
   - { type: lived_in, target: place/mecca, note: "From text: qadi of Mecca", sources: [source/shadharat-dhahab] }

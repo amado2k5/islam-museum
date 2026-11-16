@@ -23,5 +23,11 @@ provenance:
 status:
   review: published
   completeness: 3
+occupations:
+  - job: job/qadi
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'qadi', Job Browser linking wave 45"
+    sources: [source/al-aalam]
 relations:
   - { type: lived_in, target: place/istanbul, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/al-aalam] }

@@ -44,6 +44,17 @@ faith:
     sources:
       - source/wikipedia-fakhr-al-din-iraqi-en
       - source/wikipedia-fakhr-al-din-iraqi-ar
+occupations:
+  - job: job/poet
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'poet', Job Browser linking wave 45"
+    sources: [source/wikipedia-fakhr-al-din-iraqi-en, source/wikipedia-fakhr-al-din-iraqi-ar, source/wikipedia-fakhr-al-din-iraqi-ur, source/wikidata-fakhr-al-din-iraqi, source/biblissima, source/wikidata]
+  - job: job/philosopher
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'philosopher', Job Browser linking wave 45"
+    sources: [source/wikipedia-fakhr-al-din-iraqi-en, source/wikipedia-fakhr-al-din-iraqi-ar, source/wikipedia-fakhr-al-din-iraqi-ur, source/wikidata-fakhr-al-din-iraqi, source/biblissima, source/wikidata]
 relations:
   - { type: born_in, target: place/komijan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-fakhr-al-din-iraqi] }
   - { type: died_in, target: place/damascus, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-fakhr-al-din-iraqi] }

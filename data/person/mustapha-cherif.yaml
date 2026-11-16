@@ -25,6 +25,12 @@ faith:
     basis: unknown
     note: "Wikidata's structured religion value gives Islam only — a single structured family with no school — and neither biography attests a personal school or profession for Mustapha Cherif himself; the French biography is a translation of the Arabic, so the two are one family. His lifelong scholarship on Islam and his interreligious-dialogue work — he founded the Groupe d'amitié islamo-chrétienne in 1993 and was received by Popes John Paul II, Benedict XVI and Francis — are activity and affiliation, which never count as personal attestation. The settlement is the Islam-only configuration, unknown."
     sources: [source/wikipedia-mustapha-cherif-fr, source/wikipedia-mustapha-cherif-ar, source/wikidata-mustapha-cherif]
+occupations:
+  - job: job/philosopher
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'philosopher', Job Browser linking wave 45"
+    sources: [source/wikipedia-mustapha-cherif-fr, source/wikipedia-mustapha-cherif-ar, source/wikidata-mustapha-cherif, source/wikidata]
 relations:
   - { type: born_in, target: place/miliana, sources: [source/wikipedia-mustapha-cherif-fr, source/wikidata-mustapha-cherif] }
 summary:
