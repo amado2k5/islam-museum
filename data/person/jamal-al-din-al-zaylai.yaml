@@ -12,6 +12,17 @@ wings: [people]
 regions: [levant-iraq]
 periods: [period/mongol-post-mongol]
 died: { edtf: "1361", hijri: "0762", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar al-Kamina / Ibn Hajar. al-A'lam vol. 4 p. 147 prints 762 AH = 1360 CE; the card year is kept (762 AH began in November 1360 and ended in November 1361), see the GEMINI line in the packet ledger.", sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002] }
+occupations:
+  - job: job/faqih
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'jurist', Job Browser linking wave 40"
+    sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
+  - job: job/alim
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 40"
+    sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 relations:
   - { type: born_in, target: place/zeila, confidence: medium, note: "Place link from Wikidata; al-A'lam vol. 4 p. 147 says only that his origin (asl) was in al-Zayla' in Somalia.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
   - { type: born_in, target: place/adal-sultanate, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

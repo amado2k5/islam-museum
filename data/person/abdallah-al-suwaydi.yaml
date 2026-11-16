@@ -25,6 +25,12 @@ status:
   completeness: 3
 born: { edtf: "1692", hijri: "1104", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 4 p. 57: 1104 AH = 1693 CE; 1104 AH runs from September 1692 to September 1693; the card's 1692 is kept. Date-enrichment pass; source: al-Muradi (Silk al-Durar) Confirmed on 13 November 2026 against Wikidata Q42279499 (P569, a statement with a reference), item revision 2567096058.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
 died: { edtf: "1761", hijri: "1174", calendar: gregorian, precision: year, derived: true, note: "Al-Zirikli, al-A'lam vol. 4 p. 57: 1174 AH = 1761 CE. Date-enrichment pass; source: al-Muradi (Silk al-Durar) Confirmed on 13 November 2026 against Wikidata Q42279499 (P570, a statement with a reference), item revision 2567096058.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
+occupations:
+  - job: job/faqih
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'jurist', Job Browser linking wave 40"
+    sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 relations:
   - { type: lived_in, target: place/iraq, note: "Place association from the person's nisba/name (عراقي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
   - { type: born_in, target: place/baghdad, note: "Al-Zirikli, al-A'lam vol. 4 p. 57: born in the Karkh quarter of Baghdad.", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }

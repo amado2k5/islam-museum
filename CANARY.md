@@ -13,6 +13,10 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v2.14.0 — 2026-11-17
+### Added
+- Job Browser linking wave 40: 43 `occupations:` edges on 25 person records — thirteen mutakallims (Said Nursi, Ahmad Sirhindi, al-Maturidi, Sir Sayyid Ahmad Khan), twelve faqihs, eighteen ulema.
+
 ## v2.13.0 — 2026-11-17
 ### Added
 - Job Browser linking wave 39: 42 `occupations:` edges on 25 person records — the first dedicated faqih/mutakallim wave (thirteen jurists, twelve theologians) plus sixteen ulema and a poet.

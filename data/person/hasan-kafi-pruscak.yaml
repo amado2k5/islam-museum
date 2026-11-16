@@ -26,6 +26,17 @@ provenance:
 status:
   review: draft
   completeness: 3
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 40"
+    sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'faqih', Job Browser linking wave 40"
+    sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 relations:
   - { type: born_in, target: place/ak-hisar, note: "Place link from Wikidata; al-Zirikli, al-A'lam, vol. 2 p. 194, confirms he was born in the town of Aqhisar.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002], confidence: high }
   - { type: died_in, target: place/ak-hisar, note: "Place link from Wikidata; al-Zirikli, al-A'lam, vol. 2 p. 194, confirms he died in Aqhisar.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002], confidence: high }

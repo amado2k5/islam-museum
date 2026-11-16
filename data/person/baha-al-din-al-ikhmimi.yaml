@@ -25,6 +25,17 @@ provenance:
 status:
   review: draft
   completeness: 3
+occupations:
+  - job: job/faqih
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'faqih', Job Browser linking wave 40"
+    sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
+  - job: job/alim
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 40"
+    sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 relations:
   - { type: lived_in, target: place/misr, note: "Only the record-level region is attested for Egypt; kept from the earlier card, see the Cairo edge", sources: [source/al-aalam], confidence: low }
   - { type: lived_in, target: place/cairo, note: "al-Zirikli, al-A'lam, vol. 4 p. 183: he studied in Cairo", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
