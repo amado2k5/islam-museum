@@ -1,0 +1,44 @@
+id: job/dyer
+class: job
+label: { ar: "الصبّاغ", en: "Dyer (sabbagh)", ur: "رنگریز ⁦(صباغ)⁩" }
+names:
+  - { value: "boyaji", kind: latinized, lang: tr }
+  - { value: "sabbagh", kind: latinized }
+summary:
+  ar: "الصبّاغ هو من يصبغ الغزل والقماش للناس. يذكر الشيزري من غشّهم صبغ الحرير الأحمر بالحناء بدل الفوّة فيبدو الصبغ جيداً لامعاً فإذا عُرّض للشمس تغيّر وذهب بريقه، واسوداد الثياب بثمرات البلوط والزاج ليخرج أسود كحلياً ثم يزول سريعاً، ويأمرهم أن يكتبوا أسماء الناس على ثيابهم بالحبر لئلا تلتبس، وألا يبدّلوا ثياب الناس في الأعياد ويكروها لمن شاء. وفي قاهرة لين الصبّاغ من حرف السوق، وفي إسطنبول إوليا جلبي ثمانمئة رجل في خمسمئة دكان، ومعهم الضاربون الذين يدقّون القماش بالمطارق."
+  en: "The sabbagh dyed thread and cloth for customers. Al-Shayzari records their frauds: dyeing red silk with henna instead of madder so that the colour looks bright but fades in the sun, and darkening cloth with oak apples and vitriol to a jet-black that wears off quickly. He orders them to write the owners' names on the clothes in ink, and forbids the practice of swapping customers' garments at festival time and renting them out. In Lane's Cairo the sabbagh stood among the market trades, and in Evliya's Istanbul the dyers numbered eight hundred men in five hundred shops, with seven hundred mallet-beaters who dressed the dyed linen."
+  ur: "رنگریز لوگوں کے لیے سوتر اور کپڑا رنگتا تھا۔ الشیزری ان کے دھوکھے گنواتا ہے: سرخ ریشم کو مجیٹھ کے بجائے مہندی سے رنگنا جس سے رنگ روشن تو لگتا ہے مگر دھوپ میں پھیکا پڑ جاتا ہے، اور کپڑے کو بلوط کے گچھے اور زاگ سے سیاہ کرنا جو جلد اتر جاتا ہے۔ حکم ہے کہ وہ لوگوں کے نام سیاہی سے ان کے کپڑوں پر لکھیں، اور عیدوں میں لوگوں کے جوڑے بدل کر کرایے پر دینے سے باز رہیں۔ لین کے قاہرہ میں صباغ بازار کے پیشوں میں تھا، اور اولیاء چلبی کے استنبول میں رنگریز پانچ سو دکانوں پر آٹھ سو آدمی تھے اور ساتھ سات سو چوگان مارنے والے جو رنگا کپڑا دھوتے تھے۔"
+domain: building-making
+kind: craft
+hirfa: true
+era:
+  origins: pre-islamic
+  status_today: transformed
+places:
+  - { place: place/cairo, note: "Lane lists the dyer (sabbagh) among the trades of the Cairo market streets.", sources: [source/lane-modern-egyptians] }
+  - { place: place/istanbul, note: "Evliya counts the dyers (Sabbaghan) at eight hundred men with five hundred shops, marching while they dye linen and hang it on ropes, and the dyers' beaters at seven hundred men with one hundred shops.", sources: [source/evliya-seyahatname-hammer] }
+regions: [egypt-nile, anatolia-balkans, levant-iraq]
+organization:
+  organized: guild
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people, living]
+periods: [period/crusades-ayyubid-mamluk, period/gunpowder-empires, period/modern-era]
+sources: [source/shayzari-nihaya-buckley, source/lane-modern-egyptians, source/evliya-seyahatname-hammer]
+craft:
+  materials: [textile, silk, cotton, wool]
+  techniques:
+    ar: "يبيّن الشيزري علامات الصبغ المغشوش: حرير أحمر مصبوغ بالحناء لا الفوّة يبدو نيراً ثم يبهت في الشمس، وقماش مسوَّد بالعفص والزاج يخرج كحلياً ثم يزول الصبغ بعد يسير. ويأمر الصبّاغين أن يكتبوا أسماء الناس على ثيابهم بالحبر لئلا تلتبس، وأن يعرضوا الصبغ على عارفهم، وينهاهم عن تبديل ثياب الناس في المواسم والأعياد وإكارها لمن يتزيّن بها."
+    en: "Al-Shayzari gives the signs of fraudulent dyeing: red silk dyed with henna rather than madder looks bright but changes and fades in the sun, and cloth darkened with oak apples and vitriol comes out an even jet-black that soon wears off. The dyers must write the customers' names on their clothes in ink so that none are confused, must show their dyes to their 'arif, and must not alter people's clothes at festivals and rent them out to revellers."
+    ur: "الشیزری جعلی رنگ کی علامتیں بتاتا ہے: سرخ ریشم جو مجیٹھ کے بجائے مہندی سے رنگا گیا ہو روشن لگتا ہے مگر دھوپ میں بدل کر پھیکا ہو جاتا ہے، اور بلوط کے گچھے اور زاگ سے سیاہ کیا کپڑا یکساں کاہی سیاہ نکلتا ہے مگر جلد اتر جاتا ہے۔ رنگریز گاہکوں کے نام ان کے کپڑوں پر سیاہی سے لکھیں کہ خلط نہ ہوں، اپنے رنگ اپنے عارف کو دکھائیں، اور عیدوں کے موسم میں لوگوں کے جوڑے بدل کر سجنے والوں کو کرایے پر نہ دیں۔"
+  guild:
+    bodies: []
+    shaykh_title: { ar: "شيخ الصبّاغين وعارفهم", en: "Sheykh of the dyers and their 'arif", ur: "رنگریزوں کا شیخ اور ان کا عارف" }
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-harvest-2" }
+provenance:
+  layer: own-research
+  source: "al-Shayzari/Buckley ch. 28 p. 92 (dyers); Lane ch. XIV p. 318; Evliya (von Hammer) I,2 secs. 502-503 p. 224 — all read on 15 Nov 2026 from the downloaded scans"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-harvest-2-drafting"

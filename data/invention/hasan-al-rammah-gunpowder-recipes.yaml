@@ -1,0 +1,121 @@
+id: invention/hasan-al-rammah-gunpowder-recipes
+class: invention
+label:
+  ar: "تركيبات البارود في كتاب الحسن الرماح ⁦(نحو 680/1280)⁩"
+  en: "Al-Hasan al-Rammah's documented gunpowder formulations ⁦(c. 680/1280)⁩"
+  ur: "حسن رماح کی موثق بارودی ترکیبیں ⁦(تقریباً 680/1280)⁩"
+names:
+  - { value: "كتاب الفروسية والمناصب الحربية", kind: alternate, lang: ar }
+  - { value: "Kitab al-Furusiyya wa'l-manasib al-harbiyya", kind: alternate, lang: en }
+  - { value: "al-Rammah's saltpetre purification", kind: alternate, lang: en }
+summary:
+  ar: "يحوي كتاب الحسن الرماح «الفروسية والمناصب الحربية» ⁦(ت 1294-1295م)⁩ أول بيان واضح معروف عند بارتينغتون لتطهير الملح ⁦(البارود)⁩ برماد الخشب والتبلور، ونحو إحدى وسبعين تركيبة نارية يغلب عليها الملح، مع صواريخ ونيران ملونة ودخان — دون أي ذكر لدفع المقذوفات أو لسلاح ناري {cite:partington-greek-fire-gunpowder-1960}."
+  en: "Al-Hasan al-Rammah's Kitab al-Furusiyya wa'l-manasib al-harbiyya ⁦(d. 1294-95)⁩ contains the first clear account known to Partington of purifying saltpetre with wood ashes and crystallisation, and some seventy-one pyrotechnic compositions dominated by saltpetre, with rockets, coloured fires and smokes — and no mention of propellant use or of any firearm {cite:partington-greek-fire-gunpowder-1960}."
+  ur: "حسن رماح کی کتاب الفروسیۃ والمناصب الحربیۃ ⁦(وفات 1294-95)⁩ میں پارٹنگٹن کے نزدیک ملح کی تصفیہ کا پہلا واضح بیان اور تقریباً اکہتر نیرنگی ترکیبیں ہیں — راکٹ، رنگین آگیں اور دھواں — مگر محرک استعمال یا کسی اسلحے کا ذکر نہیں {cite:partington-greek-fire-gunpowder-1960}۔"
+domain: military
+kind: recipe
+disciplines: [chemistry, engineering]
+wings: [ideas]
+regions: [levant-iraq]
+periods: [period/crusades-ayyubid-mamluk]
+themes: [armies-and-navies, engineering-and-technology]
+era:
+  origins: middle-period
+  first_attested:
+    edtf: "1280~"
+    hijri: "0679~"
+    calendar: julian
+    precision: year
+    status: historical
+    note: "Al-Rammah died in 1294-95 in his thirties, so the treatise can hardly be before about 1280; the date is the writing of the document, not the invention of gunpowder, which is older and Chinese {cite:partington-greek-fire-gunpowder-1960}."
+    sources: [source/partington-greek-fire-gunpowder-1960]
+  status_today: transformed
+origin:
+  place: place/damascus
+  polity: polity/mamluk-sultanate
+  context:
+    ar: "الشام المملوكية أواخر القرن الثالث عشر؛ يذكر الكتاب أنه أُعدّ «لتقدم الإسلام»، وتعليقه على سادة الفروسية والصناع، وترى بارتينغتون أن المخطوطة أُعدّت على الأرجح للاستعمال السري الرسمي {cite:partington-greek-fire-gunpowder-1960}."
+    en: "Mamluk Syria at the end of the thirteenth century; the book says it was prepared 'for the advancement of Islam' and addresses masters of horsemanship and artificers, and Partington judges the manuscript was probably prepared for confidential official use {cite:partington-greek-fire-gunpowder-1960}."
+    ur: "تیرہویں صدی کے آخر کی مملوکی شام؛ کتاب کہتی ہے کہ وہ «اسلام کی ترقی کے لیے» تیار ہوئی اور فروسیہ کے اساتذہ اور صنعتکاروں کو مخاطب کرتی ہے، اور پارٹنگٹن کے نزدیک مخطوطہ غالباً سرکاری خفیہ استعمال کے لیے بنا {cite:partington-greek-fire-gunpowder-1960}۔"
+makers:
+  - person: person/hasan-al-rammah
+    role: describer
+    place: place/damascus
+    note: "Compiler of the treatise; Partington holds its saltpetre-purification account the first clear one known to him, while many recipes were inherited family and workshop material, some marked 'tested'. Not the inventor of gunpowder."
+    sources: [source/partington-greek-fire-gunpowder-1960]
+attribution:
+  status: improvement
+  claim:
+    ar: "أقدم بيان مكتوب موثق في العالم الإسلامي لتركيبات ملحية نارية ولتطهير الملح بالتبلور — توثيق وتصنيف لمادة متداولة، لا ادعاء اختراع البارود الذي أسبقه في الصين."
+    en: "The earliest documented written account in the Islamic world of saltpetre-based compositions and of purifying saltpetre by crystallisation — documentation and systematisation of circulating material, not a claim to have invented gunpowder, which is earlier and Chinese."
+    ur: "عالمِ اسلام میں ملحی نیرنگی ترکیبوں اور تبلور سے ملح کی تصفیہ کا قدیم ترین دستاویزی تحریری بیان — گردو پیش مادے کی توثیق، بارود کی ایجاد کا دعویٰ نہیں جو چین میں پہلے سے موجود تھا۔"
+  basis:
+    ar: "بارتينغتون: وصف الرماح تطهير البارود برماد الخشب والتبلور هو «أول بيان واضح عرفته للعملية»؛ والكتاب يعدّد نحو إحدى وسبعين تركيبة يغلب عليها الملح، والصينية واضحة في موادّها ومسمياتها {cite:partington-greek-fire-gunpowder-1960}."
+    en: "Partington: al-Rammah's account of purifying saltpetre with wood ashes and crystallisation is 'the first clear account of the process known to me'; the book lists some seventy-one compositions dominated by saltpetre, with Chinese material evident in its ingredients and names {cite:partington-greek-fire-gunpowder-1960}."
+    ur: "پارٹنگٹن: رماح کا ملح کی تصفیہ بیان «مجھے معلوم عمل کا پہلا واضح بیان» ہے؛ کتاب میں اکہتر ترکیبیں ہیں جن میں ملح غالب ہے اور چینی مادہ واضح طور پر حاضر ہے {cite:partington-greek-fire-gunpowder-1960}۔"
+  perspectives:
+    - tradition: sunni
+      stance: { ar: "أولية التوثيق الإسلامي", en: "Islamic documentation first", ur: "اسلامی توثیق کی اولیت" }
+      summary: { ar: "أولية التوثيق الإسلامي — The first clear written account of purifying saltpetre with wood ashes and crystallisation known to the author is al-Rammah's; the claim is about documentation, not the substance.", en: "The first clear written account of purifying saltpetre with wood ashes and crystallisation known to the author is al-Rammah's; the claim is about documentation, not the substance.", ur: "اسلامی توثیق کی اولیت — The first clear written account of purifying saltpetre with wood ashes and crystallisation known to the author is al-Rammah's; the claim is about documentation, not the substance." }
+      sources: [source/partington-greek-fire-gunpowder-1960]
+    - tradition: academic
+      stance: { ar: "الأولية الصينية للبارود نفسه", en: "Chinese priority for gunpowder itself", ur: "بارود کی چینی اولیت" }
+      summary: { ar: "الأولية الصينية للبارود نفسه — Gunpowder itself and its saltpetre compositions are documented in China before al-Rammah; his treatise itself uses Chinese ingredient names and fireworks vocabulary.", en: "Gunpowder itself and its saltpetre compositions are documented in China before al-Rammah; his treatise itself uses Chinese ingredient names and fireworks vocabulary.", ur: "بارود کی چینی اولیت — Gunpowder itself and its saltpetre compositions are documented in China before al-Rammah; his treatise itself uses Chinese ingredient names and fireworks vocabulary." }
+      sources: [source/partington-greek-fire-gunpowder-1960]
+    - tradition: academic
+      stance: { ar: "حدود النص", en: "The limits of the text", ur: "متن کی حدود" }
+      summary: { ar: "حدود النص — The treatise describes compositions and devices but no gun or propellant use; its recipes are descriptive records, not operational instructions.", en: "The treatise describes compositions and devices but no gun or propellant use; its recipes are descriptive records, not operational instructions.", ur: "متن کی حدود — The treatise describes compositions and devices but no gun or propellant use; its recipes are descriptive records, not operational instructions." }
+      sources: [source/partington-greek-fire-gunpowder-1960]
+precursors:
+  - external: { ar: "البارود والنيران الصينية", en: "Chinese gunpowder and fireworks", ur: "چینی بارود اور آتش بازی" }
+    note: "Partington records that al-Rammah's book makes extensive use of Chinese material — ingredient names, coloured smokes and fireworks — although it does not use the term 'snow of China' for saltpetre."
+    sources: [source/partington-greek-fire-gunpowder-1960]
+  - external: { ar: "تقليد النفط والنيران الحربية", en: "The naphtha and war-fire tradition", ur: "نفت اور جنگی آگ کی روایت" }
+    note: "The treatise stands in the older Islamic incendiary tradition of naft, fire-pots thrown by mangonels and fire-lances, which the furusiyya books taught."
+    sources: [source/partington-greek-fire-gunpowder-1960, source/encyclopaedia-of-islam-2]
+dependents:
+  - external: { ar: "كيمياء البارود الأوروبية", en: "European gunpowder chemistry", ur: "یورپی بارود کیمیاء" }
+    note: "The purification method — treating the saltpetre solution with wood ashes and crystallising — is the process later European powder-makers used to obtain pure potassium nitrate; the transmission line is documented as a direction of study, not a proven chain."
+    sources: [source/partington-greek-fire-gunpowder-1960]
+  - external: { ar: "الأسلحة النارية المملوكية اللاحقة", en: "Later Mamluk firearms", ur: "بعد کے مملوکی اسلحہ ناری" }
+    note: "Firearms appear in the Mamluk record within a generation of al-Rammah; the treatise itself documents the pyrotechnic stage before them."
+    sources: [source/partington-greek-fire-gunpowder-1960, source/encyclopaedia-of-islam-2]
+spread: []
+impact:
+  fields: [military, pharmacy-chemistry]
+  changed:
+    ar: "ثبّت كتابياً تركيبات الملح النارية وطريقة تطهيره، فجعل المعرفة المشتتة في الورش نصاً قابلاً للنقل {cite:partington-greek-fire-gunpowder-1960}."
+    en: "It put saltpetre compositions and their purification method into writing, turning scattered workshop knowledge into a transmissible text {cite:partington-greek-fire-gunpowder-1960}."
+    ur: "اس نے ملحی نیرنگی ترکیبوں اور تصفیہ کے طریقے کو کتابی شکل دی، بکھرے ہوئے ورکشاپ علم کو منتقل ہو سکنے والا متن بنا دیا {cite:partington-greek-fire-gunpowder-1960}۔"
+  history:
+    ar: "يُحسب أقدم مصنف إسلامي باقٍ يوثق كيمياء البارود كتابةً؛ وقيمته في التوثيق لا في ادعاء الاختراع {cite:partington-greek-fire-gunpowder-1960}."
+    en: "It counts as the earliest surviving Islamic treatise documenting gunpowder chemistry in writing; its value is documentation, not a claim of invention {cite:partington-greek-fire-gunpowder-1960}."
+    ur: "یہ قدیم ترین باقی اسلامی رسالہ شمار ہوتا ہے جو بارود کیمیاء کو تحریر میں درج کرتا ہے؛ قدر توثیق میں ہے، ایجاد کے دعوے میں نہیں {cite:partington-greek-fire-gunpowder-1960}۔"
+  significance: 4
+  why: "A dated late-thirteenth-century Syrian text that fixes saltpetre purification and dozens of pyrotechnic compositions on paper — the written edge of gunpowder chemistry before firearms, honestly framed as documentation, not invention."
+described_in: [work/kitab-al-furusiyya-wal-manasib-al-harbiyya]
+examples: []
+sites: [place/damascus]
+concepts: []
+today:
+  form:
+    ar: "يُقرأ اليوم كوثيقة تاريخية في تاريخ النيران الاصطناعية؛ صيغُه العملية لا تُعاد نشرها كتعليمات، وموقع المتحف يصف لا يعلّم {cite:partington-greek-fire-gunpowder-1960}."
+    en: "It is read today as a historical document in the history of artificial fire; its working formulae are not republished as instructions, and the museum describes, it does not instruct {cite:partington-greek-fire-gunpowder-1960}."
+    ur: "آج یہ مصنوعی آگ کی تاریخ کی ایک دستاویز کے طور پر پڑھی جاتی ہے؛ اس کی عملی صیغے ہدایات کے طور پر دوبارہ شائع نہیں ہوتی، اور عجائب گھر بیان کرتا ہے، سکھاتا نہیں {cite:partington-greek-fire-gunpowder-1960}۔"
+  descendants:
+    ar: "فنون الألعاب النارية وتاريخ تطهير الملحات يقرآن في الكتاب كسلف مكتوب {cite:partington-greek-fire-gunpowder-1960}."
+    en: "The arts of fireworks and the history of salt refining read the book as a written ancestor {cite:partington-greek-fire-gunpowder-1960}."
+    ur: "آتش بازی کے فن اور نمکوں کی تصفیہ کی تاریخ اس کتاب کو تحریری سلف کے طور پر پڑھتے ہیں {cite:partington-greek-fire-gunpowder-1960}۔"
+media: { image: media/photo-sahn-furusiyya, diagram: media/diagram-hasan-al-rammah-gunpowder-recipes }
+kids:
+  ar: "قبل سبعمائة سنة كتب رجل سوري اسمه الحسن الرماح كتاباً عن الفروسية والحرب، وفيه وصف كيف ينقّون الملح المستعمل في الألعاب النارية والدخان الملون. لم يخترع البارود — فهو أقدم من ذلك في الصين — لكنه كتب طريقة تنقيته كتابةً لأول مرة بشكل واضح عند المؤرخين."
+  en: "Seven hundred years ago a Syrian man named al-Hasan al-Rammah wrote a book about horsemanship and war. In it he described how they purified the salt used in fireworks and coloured smoke. He did not invent gunpowder — it was older, from China — but his written description of purifying it is the earliest clear one historians know."
+  ur: "سات سو سال پہلے حسن رماح نامی شامی نے فروسیہ اور جنگ پر کتاب لکھی جس میں نیرنگی اور رنگین دھوئیں میں استعمال ہونے والے ملح کی تصفیہ لکھی۔ اس نے بارود ایجاد نہیں کیا — وہ چین میں پہلے سے تھا — مگر تصفیہ کا لکھا ہوا بیان مؤرخین کے نزدیک پہلا واضح ہے۔"
+sources: [source/partington-greek-fire-gunpowder-1960, source/encyclopaedia-of-islam-2]
+status: { review: published, completeness: 2 }
+provenance:
+  layer: own-research
+  generated_by: devin-drafter-w2-26
+  model: SWE-2
+  run: inventions-w2-26
+  source: "Partington, A History of Greek Fire and Gunpowder 1960, archive.org djvu OCR in hand — al-Rammah chapter read directly (Paris shelfmarks, wood-ash purification, 71 compositions, no propellant). EI2 FURUSIYYA for genre context. Descriptive record only: no formulae or quantities reproduced."

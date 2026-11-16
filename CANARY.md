@@ -13,6 +13,14 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v1.45.0 — 2026-11-16
+### Added
+- Job Browser: six more trades join the professions — the cook (tabbakh) of the market cook-shops, the sweet-maker (halwani) and his sugar confections, the dyer (sabbagh) watched for false dyeing, the cobbler (iskafi) forbidden old-leather tricks, the coppersmith (nahhas), and the candle-maker (shamma') — in Arabic, English and Urdu draft cited to the hisba chapters of al-Shayzari's *Nihayat al-Rutba* (Buckley tr.), Lane's *Modern Egyptians*, and Evliya Çelebi's guild procession (von Hammer tr.).
+
+## v1.44.0 — 2026-11-16
+### Added
+- Five more Inventions Browser records from harvested texts (Smith & Karpinski 1911, Partington's Greek Fire and Gunpowder, Lane's Early Islamic Pottery, EI2 entries read in the corpus), each with Arabic, English and Urdu prose: the Hindu-Arabic numerals' transmission through al-Khwarizmi to Latin Europe; al-Hasan al-Rammah's gunpowder-recipe treatise; fritware stonepaste ceramics; medieval sugar refining; and the counterweight trebuchet in the Islamic world.
+
 ## v1.43.0 — 2026-11-16
 ### Added
 - Job Browser: five more trades join the professions — the tailor (khayyat), the barber (hallaq/muzayyin) who also shaved, cupped and circumcised, the water-carrier (saqqa) of the kirbeh skins and public sebils, the baker (farran/khabbaz) under hisba's heaviest daily watch, and the blacksmith (haddad/qayn) — in Arabic, English and Urdu draft cited to al-Shayzari's *Nihayat al-Rutba* (Buckley tr.), Lane's *Manners and Customs of the Modern Egyptians*, and Evliya Çelebi's *Seyahatname* (von Hammer tr.), the first Job Browser packet harvested from books rather than the TDV.
@@ -24,6 +32,7 @@ open a new block on top with the new version and today's date.
 ## v1.42.0 — 2026-11-16
 ### Added
 - Four more Inventions Browser records from harvested sources (Carter on printing and paper, Ukers on coffee, Ibn Abi Usaybi'a on the 931 licensing, a Federal Reserve paper on the cheque, al-Khwarizmi's Mafatih al-Ulum), each with Arabic, English and Urdu prose: Samarqand papermaking and the paper revolution; coffee in Yemen and its Sufi institutionalisation; the sakk payment order ancestor of the cheque; and the Baghdad physician licensing of 931.
+- Four more Indonesian and Malaysian figures join the modern-figures collection, each with Arabic, English and Urdu prose and its sources showing: the Malaysian preacher Kazim Elias, the Rumaysho teacher Muhammad Abduh Tuasikal, the sholawat singer Habib Syech bin Abdul Qadir Assegaf, and the writer-preacher Salim A. Fillah (wave 200, section B).
 
 ## v1.41.0 — 2026-11-16
 ### Added
