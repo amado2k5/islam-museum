@@ -1,0 +1,57 @@
+id: event/testament-of-abu-ubayda-ibn-al-jarrah
+class: event
+kind: death
+label:
+  ar: وصية أبي عبيدة بن الجراح ووفاته في طاعون عمواس
+  en: Testament and death of Abu Ubayda ibn al-Jarrah in the plague of Amwas
+  ur: طاعونِ عمواس میں ابو عبیدہ بن الجراح کی وصیت اور وفات
+summary:
+  ar: "لما طُعن أبو عبيدة بن الجراح بالأردن دعا من حضره من المسلمين وأوصاهم بإقامة الصلاة وإيتاء الزكاة وصوم رمضان والصدقة والحج والعمرة والتواصي والنصح لأمرائهم وألا تهلكهم الدنيا، ثم قال لمعاذ بن جبل صلّ بالناس ومات {cite:hayat-al-sahaba-kandahlawi-sabbani scan vol. 1 p. 515}. وكان قد خطب حين اشتعل الوجع فقال إنه رحمة بهم ودعوة نبيهم وموت الصالحين قبلهم وسأل الله أن يقسم لأبي عبيدة حظه {cite:al-bidaya-wal-nihaya scan vol. 4 p. 81}. وتوفي سنة ثمان عشرة وله ثمان وخمسون سنة {cite:siyar-alam-nubala scan vol. 2 p. 100}، وفي رواية عروة بن رويم أن أجله أدركه بفحل قرب بيسان {cite:siyar-alam-nubala scan vol. 1 p. 347}، وصلى عليه معاذ ونزل في قبره معاذ وعمرو بن العاص والضحاك بن قيس وقبره بالأردن {cite:isti-ab-ibn-abd-al-barr scan vol. 3 p. 828}."
+  en: "When Abu Ubayda ibn al-Jarrah was struck in the Jordan he called those of the Muslims who were present and counselled them to keep prayer, pay zakat, fast Ramadan, give charity, perform hajj and umra, advise one another, be sincere to their commanders and not let the world destroy them; then he told Mu'adh ibn Jabal to lead the people in prayer, and died {cite:hayat-al-sahaba-kandahlawi-sabbani scan vol. 1 p. 515}. When the pain first spread he had preached that it was a mercy to them, the prayer of their Prophet and the death of the righteous before them, and had asked God to apportion Abu Ubayda his share {cite:al-bidaya-wal-nihaya scan vol. 4 p. 81}. He died in the year 18 aged fifty-eight {cite:siyar-alam-nubala scan vol. 2 p. 100}; in the report of Urwa ibn Ruwaym death overtook him at Fahl near Baysan {cite:siyar-alam-nubala scan vol. 1 p. 347}; Mu'adh prayed over him, and Mu'adh, Amr ibn al-As and al-Dahhak ibn Qays went down into his grave, which is in the Jordan district {cite:isti-ab-ibn-abd-al-barr scan vol. 3 p. 828}."
+  ur: "جب ابو عبیدہ بن الجراح کو اردن میں طاعون لگا تو انھوں نے پاس موجود مسلمانوں کو بلا کر وصیت کی کہ نماز قائم کریں، زکوٰۃ دیں، رمضان کے روزے رکھیں، صدقہ کریں، حج اور عمرہ کریں، ایک دوسرے کو نصیحت کریں، اپنے امیروں کے خیرخواہ رہیں اور دنیا انھیں ہلاک نہ کرے؛ پھر معاذ بن جبل سے کہا لوگوں کو نماز پڑھاؤ، اور فوت ہو گئے {cite:hayat-al-sahaba-kandahlawi-sabbani scan vol. 1 p. 515}. بیماری پھیلنے پر انھوں نے خطبہ دیا تھا کہ یہ ان کے لیے رحمت، ان کے نبی کی دعا اور ان سے پہلے صالحین کی موت ہے اور اللہ سے اپنا حصہ مانگا تھا {cite:al-bidaya-wal-nihaya scan vol. 4 p. 81}. وہ سن 18 ہجری میں اٹھاون سال کی عمر میں فوت ہوئے {cite:siyar-alam-nubala scan vol. 2 p. 100}؛ عروہ بن رویم کی روایت ہے کہ بیسان کے قریب فحل میں ان کی موت آئی {cite:siyar-alam-nubala scan vol. 1 p. 347}؛ معاذ نے ان کی نماز پڑھائی اور معاذ، عمرو بن العاص اور ضحاک بن قیس قبر میں اترے، اور ان کی قبر اردن میں ہے {cite:isti-ab-ibn-abd-al-barr scan vol. 3 p. 828}."
+wings: [time, people, words]
+tags: [wasaya-browser, wasaya-companions, wasaya-wasiyya, wasaya-ihtidar, wasaya-mirath, wasaya-marqad]
+periods:
+- period/rashidun
+regions:
+- levant-iraq
+date:
+  start: { hijri: "0018", precision: year, status: tradition, note: "ثمان عشرة عند الفلاس وجماعة، وسبع عشرة عند ابن عائذ عن أبي مسهر {cite:siyar-alam-nubala scan vol. 2 p. 100}", sources: [source/siyar-alam-nubala, source/isti-ab-ibn-abd-al-barr] }
+relations:
+- type: part_of
+  target: event/plague-of-amwas
+  sources: [source/al-bidaya-wal-nihaya]
+- type: occurred_at
+  target: place/fahl
+  sources: [source/siyar-alam-nubala]
+- type: had_participant
+  target: person/abu-ubayda-ibn-al-jarrah
+  role: صاحب الوصية
+  sources: [source/hayat-al-sahaba-kandahlawi-sabbani, source/siyar-alam-nubala]
+- type: had_participant
+  target: person/muadh-ibn-jabal
+  role: المستخلَف وإمام الصلاة عليه
+  sources: [source/hayat-al-sahaba-kandahlawi-sabbani, source/isti-ab-ibn-abd-al-barr]
+- type: had_participant
+  target: person/amr-ibn-al-as
+  role: نزل في قبره
+  sources: [source/isti-ab-ibn-abd-al-barr]
+- type: mentions
+  target: building/abu-ubaidah-mosque-jordan-valley
+  sources: [source/tarikh-islam-hasan-ibrahim]
+sources:
+- source/hayat-al-sahaba-kandahlawi-sabbani
+- source/al-bidaya-wal-nihaya
+- source/siyar-alam-nubala
+- source/isti-ab-ibn-abd-al-barr
+- source/isaba
+provenance:
+  layer: own-research
+  source: "حياة الصحابة ⁦(مجلد 1 ص 515)⁩، البداية والنهاية ⁦(مجلد 4 ص 81)⁩، سير أعلام النبلاء ⁦(مجلد 1 ص 347 ومجلد 2 ص 96 و100)⁩، الاستيعاب ⁦(مجلد 3 ص 828)⁩، الإصابة ⁦(مجلد 2 ص 755)⁩؛ أرقام الصفحات صفحات المسح"
+  generated_by: "Claude (claude-sonnet-5-5)"
+  model: claude-sonnet-5-5
+  run: wasaya-browser-1
+status:
+  review: draft
+  completeness: 2
+  generated_by: "Claude (claude-sonnet-5-5); wasaya-browser-1"

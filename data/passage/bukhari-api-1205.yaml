@@ -1,0 +1,16 @@
+id: passage/bukhari-api-1205
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "1205"
+label: { ar: "صحيح البخاري 1205 — دفن وقبر ومرقد", en: "Sahih al-Bukhari 1205 — a burial, grave or resting place", ur: "صحیح بخاری 1205 — تدفین، قبر اور مرقد" }
+text: "… مَالِكٍ، أَنَّ الْمُسْلِمِينَ، بَيْنَا هُمْ فِي الْفَجْرِ يَوْمَ الاِثْنَيْنِ، وَأَبُو بَكْرٍ ـ يُصَلِّي بِهِمْ فَفَجَأَهُمُ النَّبِيُّ قَدْ كَشَفَ سِتْرَ حُجْرَةِ عَائِشَةَا ـ فَنَظَرَ إِلَيْهِمْ، وَهُمْ صُفُوفٌ، فَتَبَسَّمَ يَضْحَكُ، فَنَكَصَ أَبُو بَكْرٍ ـ عَلَى عَقِبَيْهِ، وَظَنَّ أَنَّ رَسُولَ اللَّهِ يُرِيدُ أَنْ يَخْرُجَ إِلَى الصَّلاَةِ، وَهَمَّ الْمُسْلِمُونَ أَنْ يَفْتَتِنُوا فِي صَلاَتِهِمْ فَرَحًا بِالنَّبِيِّ حِينَ رَأَوْهُ، فَأَشَارَ بِيَدِهِ …"
+summary:
+  ar: "حديث في صحيح البخاري، رقم 1205، يذكر دفن وقبر ومرقد. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sahih al-Bukhari, no. 1205 (Actions while Praying), that mentions a burial, grave or resting place. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
+  ur: "صحیح بخاری کی حدیث نمبر 1205، جس میں تدفین، قبر اور مرقد کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ziyarat-al-qubur, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 1205 (book 21 hadith 9); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

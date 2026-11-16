@@ -1,0 +1,16 @@
+id: passage/ibnmajah-api-671
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "671"
+label: { ar: "سنن ابن ماجه 671 — ساعة الاحتضار والوفاة", en: "Sunan Ibn Majah 671 — a deathbed and last hours", ur: "سنن ابن ماجہ 671 — وقتِ وفات اور آخری لمحات" }
+text: "… الرَّحْمَنِ بْنُ إِبْرَاهِيمَ الدِّمَشْقِيُّ، حَدَّثَنَا الْوَلِيدُ بْنُ مُسْلِمٍ، حَدَّثَنَا الأَوْزَاعِيُّ، حَدَّثَنَا نَهِيكُ بْنُ يَرِيمَ الأَوْزَاعِيُّ، حَدَّثَنَا مُغِيثُ بْنُ سُمَىٍّ، قَالَ صَلَّيْتُ مَعَ عَبْدِ اللَّهِ بْنِ الزُّبَيْرِ الصُّبْحَ بِغَلَسٍ فَلَمَّا سَلَّمَ أَقْبَلْتُ عَلَى ابْنِ عُمَرَ فَقُلْتُ مَا هَذِهِ الصَّلاَةُ قَالَ هَذِهِ صَلاَتُنَا كَانَتْ مَعَ رَسُولِ اللَّهِ ـ وَأَبِي بَكْرٍ وَعُمَرَ فَلَمَّا طُعِنَ عُمَرُ أَسْفَرَ بِهَا عُثْمَانُ."
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 671، يذكر ساعة الاحتضار والوفاة. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan Ibn Majah, no. 671 (The Book of the Prayer), that mentions a deathbed and last hours. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 671، جس میں وقتِ وفات اور آخری لمحات کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ihtidar, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 671 (book 2 hadith 5); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

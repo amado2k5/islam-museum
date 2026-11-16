@@ -1,0 +1,16 @@
+id: passage/tirmidhi-api-3750
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "3750"
+label: { ar: "جامع الترمذي 3750 — وصية أو عهد أخير", en: "Jami' al-Tirmidhi 3750 — a testament or parting counsel", ur: "جامع ترمذی 3750 — وصیت یا آخری نصیحت" }
+text: "حَدَّثَنَا أَحْمَدُ بْنُ عُثْمَانَ الْبَصْرِيُّ، وَإِسْحَاقُ بْنُ إِبْرَاهِيمَ بْنِ حَبِيبِ الْبَصْرِيُّ، قَالاَ حَدَّثَنَا قُرَيْشُ بْنُ أَنَسٍ، عَنْ مُحَمَّدِ بْنِ عَمْرٍو، عَنْ أَبِي سَلَمَةَ، أَنَّ عَبْدَ الرَّحْمَنِ بْنَ عَوْفٍ، أَوْصَى بِحَدِيقَةٍ لأُمَّهَاتِ الْمُؤْمِنِينَ بِيعَتْ بِأَرْبَعِ مِئَةِ أَلْفٍ. هَذَا حَدِيثٌ حَسَنٌ غَرِيبٌ."
+summary:
+  ar: "حديث في جامع الترمذي، رقم 3750، يذكر وصية أو عهد أخير. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Jami' al-Tirmidhi, no. 3750 (Chapters on Virtues), that mentions a testament or parting counsel. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
+  ur: "جامع ترمذی کی حدیث نمبر 3750، جس میں وصیت یا آخری نصیحت کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-wasiyya, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 3750 (book 49 hadith 147); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

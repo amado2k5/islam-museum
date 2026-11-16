@@ -1,0 +1,16 @@
+id: passage/ibnmajah-api-114
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "114"
+label: { ar: "سنن ابن ماجه 114 — وصية أو عهد أخير", en: "Sunan Ibn Majah 114 — a testament or parting counsel", ur: "سنن ابن ماجہ 114 — وصیت یا آخری نصیحت" }
+text: "حَدَّثَنَا عَلِيُّ بْنُ مُحَمَّدٍ، حَدَّثَنَا وَكِيعٌ، وَأَبُو مُعَاوِيَةَ وَعَبْدُ اللَّهِ بْنُ نُمَيْرٍ عَنِ الأَعْمَشِ، عَنْ عَدِيِّ بْنِ ثَابِتٍ، عَنْ زِرِّ بْنِ حُبَيْشٍ، عَنْ عَلِيٍّ، قَالَ عَهِدَ إِلَىَّ النَّبِيُّ الأُمِّيُّ ـ أَنَّهُ لاَ يُحِبُّنِي إِلاَّ مُؤْمِنٌ وَلاَ يُبْغِضُنِي إِلاَّ مُنَافِقٌ."
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 114، يذكر وصية أو عهد أخير. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan Ibn Majah, no. 114 (The Book of the Sunnah), that mentions a testament or parting counsel. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 114، جس میں وصیت یا آخری نصیحت کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-wasiyya, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 114 (book 0 hadith 114); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

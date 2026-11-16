@@ -1,0 +1,16 @@
+id: passage/muslim-api-4580
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "4580"
+label: { ar: "صحيح مسلم 4580 — ما خلّفه من تركة وميراث", en: "Sahih Muslim 4580 — what was left behind: estate and inheritance", ur: "صحیح مسلم 4580 — ترکہ اور میراث" }
+text: "… عَنْ عُرْوَةَ بْنِ الزُّبَيْرِ، عَنْ عَائِشَةَ، أَنَّهَا أَخْبَرَتْهُ أَنَّ فَاطِمَةَ بِنْتَ رَسُولِ اللَّهِ أَرْسَلَتْ إِلَى أَبِي بَكْرٍ الصِّدِّيقِ تَسْأَلُهُ مِيرَاثَهَا مِنْ رَسُولِ اللَّهِ مِمَّا أَفَاءَ اللَّهُ عَلَيْهِ بِالْمَدِينَةِ وَفَدَكٍ وَمَا بَقِيَ مِنْ خُمْسِ خَيْبَرَ فَقَالَ أَبُو بَكْرٍ إِنَّ رَسُولَ اللَّهِ قَالَ \" لاَ نُورَثُ مَا تَرَكْنَا صَدَقَةٌ إِنَّمَا يَأْكُلُ آلُ مُحَمَّدٍ - - فِي هَذَا …"
+summary:
+  ar: "حديث في صحيح مسلم، رقم 4580، يذكر ما خلّفه من تركة وميراث. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sahih Muslim, no. 4580 (The Book of Jihad and Expeditions), that mentions what was left behind: estate and inheritance. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
+  ur: "صحیح مسلم کی حدیث نمبر 4580، جس میں ترکہ اور میراث کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/tarika-estate, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 4580 (book 32 hadith 61); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

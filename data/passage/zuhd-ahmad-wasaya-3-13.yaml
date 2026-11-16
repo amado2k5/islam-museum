@@ -1,0 +1,17 @@
+id: passage/zuhd-ahmad-wasaya-3-13
+class: passage
+unit: chapter
+work: work/kitab-al-zuhd-ahmad-ibn-hanbal
+ref: "3:13"
+label: { ar: "الزهد لأحمد بن حنبل، المجلد المصوَّر 3، ص 13 — وصية أو عهد أخير، ما خلّفه من تركة وميراث", en: "Ahmad ibn Hanbal's Kitab al-Zuhd, scan volume 3, p. 13 — a testament or parting counsel; what was left behind: estate and inheritance", ur: "کتاب الزہد، احمد بن حنبل، اسکین جلد 3، ص 13 — وصیت یا آخری نصیحت، ترکہ اور میراث" }
+text: "… كان يكون في مهنة أهله فإذا حضرت الصلاة خرج فصلى.: حدثنا عبداللّه حدثني أبي حدثنا أبو معاوية حدثنا الأعمش عن شقيق من مسروق عن عائشة قالت ما ترك رسول اللّٰه ماع ديناراً ولا درهماً ولا شاة ولا بعيراً ولا أوصى …"
+summary:
+  ar: "مقطع من الزهد لأحمد بن حنبل، المجلد المصوَّر 3، ص 13، يذكر وصية أو عهد أخير، وما خلّفه من تركة وميراث؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الوصايا والمواريث والآثار والمراقد."
+  en: "An excerpt from Ahmad ibn Hanbal's Kitab al-Zuhd, scan volume 3, p. 13, that mentions a testament or parting counsel, what was left behind: estate and inheritance; from the machine-read scan, quoted within forty words per the sources policy. The Testaments Browser lists it."
+  ur: "کتاب الزہد، احمد بن حنبل، اسکین جلد 3، ص 13 کا اقتباس جس میں وصیت یا آخری نصیحت، ترکہ اور میراث کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-wasiyya, sources: [source/zuhd-ahmad-dkim-1983] }
+  - { type: mentions, target: concept/tarika-estate, sources: [source/zuhd-ahmad-dkim-1983] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan adab-zuhd/zuhd-ahmad/880Pdf, page 13; a window of at most 40 words chosen by the testaments detector (scripts/wasaya.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-ocr-1" }
+sources: [source/zuhd-ahmad-dkim-1983]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

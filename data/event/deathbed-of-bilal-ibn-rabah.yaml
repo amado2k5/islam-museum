@@ -1,0 +1,52 @@
+id: event/deathbed-of-bilal-ibn-rabah
+class: event
+kind: death
+label:
+  ar: وفاة بلال بن رباح بالشام واختلاف الروايات في قبره
+  en: Death of Bilal ibn Rabah in Syria and the differing reports on his grave
+  ur: شام میں بلال بن رباح کی وفات اور ان کی قبر کے بارے میں روایات کا اختلاف
+summary:
+  ar: "تروي كتب التراجم أن بلالاً قال حين حضرته الوفاة غداً نلقى الأحبة محمداً وحزبه، وكانت امرأته تقول واويلاه فيقول وافرحتاه {cite:tarikh-dimashq-ibn-asakir-fikr-1995 scan vol. 1 p. 318}. وسأل أبا بكر ثم عمر أن يأذنا له بالخروج إلى الشام فخرج وبقي بها حتى مات {cite:usd-al-ghaba scan vol. 1 p. 130}. وفي تاريخ وفاته أقوال: سنة عشرين عند ابن إسحاق وغيره، وسنة ثماني عشرة في الطاعون عند ابن بكير، وإحدى وعشرين عند آخرين {cite:al-bidaya-wal-nihaya scan vol. 4 p. 104}. وفي قبره أربع روايات: دُفن بباب الصغير بدمشق عند الواقدي، وبباب كيسان عند غيره، وفي داريا بمقبرة خولان، وفي حلب عند باب الأربعين {cite:siyar-alam-nubala scan vol. 2 p. 345}."
+  en: "The biographical books report that as death came to Bilal he said, tomorrow we meet the beloved ones, Muhammad and his party, while his wife cried out in grief and he answered, rather, in joy {cite:tarikh-dimashq-ibn-asakir-fikr-1995 scan vol. 1 p. 318}. He had asked Abu Bakr and then Umar to let him go to Syria, and stayed there until he died {cite:usd-al-ghaba scan vol. 1 p. 130}. His date of death is given as the year 20 by Ibn Ishaq and others, as the year of the plague, 18, by Ibn Bukayr, and as 21 by some {cite:al-bidaya-wal-nihaya scan vol. 4 p. 104}. His grave has four reports: at Bab al-Saghir in Damascus per al-Waqidi, at Bab Kaysan per others, at Darayya in the cemetery of Khawlan, and at Aleppo by the Bab al-Arba'in {cite:siyar-alam-nubala scan vol. 2 p. 345}."
+  ur: "تراجم کی کتابوں میں ہے کہ نزع کے وقت بلال نے کہا: کل ہم احباب سے ملیں گے، محمد اور ان کی جماعت سے؛ ان کی بیوی ہائے ہائے کرتی تو وہ کہتے: ہائے خوشی {cite:tarikh-dimashq-ibn-asakir-fikr-1995 scan vol. 1 p. 318}. انھوں نے ابوبکر اور پھر عمر سے شام جانے کی اجازت مانگی اور وہاں رہے یہاں تک کہ فوت ہوئے {cite:usd-al-ghaba scan vol. 1 p. 130}. ان کی وفات کا سال ابن اسحاق وغیرہ کے نزدیک 20 ہجری، ابن بکیر کے نزدیک طاعون کا سال 18، اور بعض کے نزدیک 21 ہے {cite:al-bidaya-wal-nihaya scan vol. 4 p. 104}. ان کی قبر کے بارے میں چار روایات ہیں: واقدی کے نزدیک دمشق کے باب الصغیر میں، دوسروں کے نزدیک باب کیسان میں، داریا کے خولان کے قبرستان میں، اور حلب میں باب الاربعین کے پاس {cite:siyar-alam-nubala scan vol. 2 p. 345}."
+wings: [time, people, place]
+tags: [wasaya-browser, wasaya-companions, wasaya-wasiyya, wasaya-ihtidar, wasaya-marqad]
+periods:
+- period/rashidun
+regions:
+- levant-iraq
+date:
+  start: { hijri: "0020", precision: year, status: tradition, note: "سنة عشرين عند ابن إسحاق وغيره، وثماني عشرة عند ابن بكير، وإحدى وعشرين في رواية {cite:al-bidaya-wal-nihaya scan vol. 4 p. 104}", sources: [source/al-bidaya-wal-nihaya, source/tarikh-dimashq-ibn-asakir-fikr-1995] }
+relations:
+- type: occurred_at
+  target: place/damascus
+  sources: [source/usd-al-ghaba, source/al-bidaya-wal-nihaya]
+- type: had_participant
+  target: person/bilal-ibn-rabah
+  role: صاحب الاحتضار
+  sources: [source/tarikh-dimashq-ibn-asakir-fikr-1995, source/siyar-alam-nubala]
+- type: mentions
+  target: place/bab-al-saghir-cemetery
+  sources: [source/siyar-alam-nubala, source/al-bidaya-wal-nihaya]
+- type: mentions
+  target: place/darayya
+  sources: [source/siyar-alam-nubala, source/al-bidaya-wal-nihaya]
+- type: mentions
+  target: place/aleppo
+  sources: [source/siyar-alam-nubala]
+sources:
+- source/tarikh-dimashq-ibn-asakir-fikr-1995
+- source/usd-al-ghaba
+- source/siyar-alam-nubala
+- source/al-bidaya-wal-nihaya
+- source/isaba
+provenance:
+  layer: own-research
+  source: "تاريخ دمشق ⁦(تهذيب، مجلد 1 ص 316-319)⁩، أسد الغابة ⁦(مجلد 4 ص 129-131)⁩، سير أعلام النبلاء ⁦(مجلد 2 ص 343-345)⁩، البداية والنهاية ⁦(مجلد 4 ص 104 ومجلد 5 ص 105)⁩، الإصابة ⁦(مجلد 1 ص 457)⁩؛ أرقام الصفحات صفحات المسح"
+  generated_by: "Claude (claude-sonnet-5-5)"
+  model: claude-sonnet-5-5
+  run: wasaya-browser-1
+status:
+  review: draft
+  completeness: 2
+  generated_by: "Claude (claude-sonnet-5-5); wasaya-browser-1"

@@ -1,0 +1,16 @@
+id: passage/muslim-api-2897
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2897"
+label: { ar: "صحيح مسلم 2897 — دفن وقبر ومرقد", en: "Sahih Muslim 2897 — a burial, grave or resting place", ur: "صحیح مسلم 2897 — تدفین، قبر اور مرقد" }
+text: "… ابْنِ عَبَّاسٍ،ما ح. وَحَدَّثَنَا يَحْيَى بْنُ يَحْيَى، - وَاللَّفْظُ لَهُ - أَخْبَرَنَا هُشَيْمٌ، عَنْ أَبِي بِشْرٍ، عَنْ سَعِيدِ، بْنِ جُبَيْرٍ عَنِ ابْنِ عَبَّاسٍ،ما أَنَّ رَجُلاً، كَانَ مَعَ رَسُولِ اللَّهِ مُحْرِمًا فَوَقَصَتْهُ نَاقَتُهُ فَمَاتَ فَقَالَ رَسُولُ اللَّهِ \" اغْسِلُوهُ بِمَاءٍ وَسِدْرٍ وَكَفِّنُوهُ فِي ثَوْبَيْهِ وَلاَ تُمِسُّوهُ بِطِيبٍ وَلاَ تُخَمِّرُوا رَأْسَهُ فَإِنَّهُ يُبْعَثُ يَوْمَ الْقِيَامَةِ مُلَبِّدًا \"."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 2897، يذكر دفن وقبر ومرقد. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sahih Muslim, no. 2897 (The Book of Pilgrimage), that mentions a burial, grave or resting place. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
+  ur: "صحیح مسلم کی حدیث نمبر 2897، جس میں تدفین، قبر اور مرقد کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ziyarat-al-qubur, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 2897 (book 15 hadith 106); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

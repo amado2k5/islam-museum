@@ -1,0 +1,24 @@
+id: event/abu-bakr-ten-commands-to-yazid-and-usama-farewell
+class: event
+kind: declaration
+tags: [wasaya-browser, wasaya-caliphs, wasaya-wasiyya]
+label: { ar: "وصايا أبي بكر العشر ليزيد ووداعه جيش أسامة", en: "Abu Bakr's ten commands to Yazid and his farewell to Usama's army", ur: "ابو بکر کی یزید کو دس وصیتیں اور اسامہ کے لشکر کی رخصتی" }
+summary:
+  ar: "روى مالك عن يحيى بن سعيد أن أبا بكر خرج ماشياً مع يزيد بن أبي سفيان أمير ربع من جيوش الشام وهو راكب، وقال إنه يحتسب خطاه في سبيل الله، وأوصاه بعشر منها ألا يقتل امرأة ولا صبياً ولا كبيراً هرماً ولا يقطع شجراً مثمراً {cite:muwatta-maruf-1997 p. 577}. ويذكر ابن كثير أنه عقد له لواء ومعه جمهور الناس وجعل له دمشق {cite:al-bidaya-wal-nihaya scan vol. 4 p. 8}. وفي وداع جيش أسامة مشى أبو بكر وأسامة راكب، وأوصى الجيش بترك الخيانة والغدر والتمثيل وقتل الطفل والشيخ والمرأة وعقر النخل {cite:kamil-ibn-al-athir scan vol. 1 p. 195} {cite:kamil-ibn-al-athir scan vol. 1 p. 196}، وأبى أن يعزل أسامة حين طلب الأنصار أقدم سناً منه {cite:kamil-ibn-al-athir scan vol. 1 p. 195}."
+  en: "Malik reports from Yahya ibn Sa'id that Abu Bakr walked beside Yazid ibn Abi Sufyan, commander of a quarter of the armies for Syria, as Yazid rode, saying he counted his steps in God's way, and gave him ten charges including not to kill a woman, a boy or a very old man and not to cut fruit-bearing trees {cite:muwatta-maruf-1997 p. 577}. Ibn Kathir says he tied Yazid's banner, with most of the people under him, and gave him Damascus {cite:al-bidaya-wal-nihaya scan vol. 4 p. 8}. At the army of Usama he walked while Usama rode and charged the army against treachery, breach of faith, mutilation, killing a child, an old man or a woman, and cutting palms {cite:kamil-ibn-al-athir scan vol. 1 p. 195} {cite:kamil-ibn-al-athir scan vol. 1 p. 196}; he refused to remove Usama when the Ansar asked for an older man {cite:kamil-ibn-al-athir scan vol. 1 p. 195}."
+  ur: "مالک یحییٰ بن سعید سے روایت کرتے ہیں کہ ابو بکر شام کے لشکروں کے ایک چوتھائی کے امیر یزید بن ابی سفیان کے ساتھ، جو سوار تھے، پیدل چلے اور کہا کہ وہ اپنے قدم اللہ کی راہ میں شمار کرتے ہیں، اور انھیں دس باتوں کی وصیت کی جن میں عورت، لڑکے اور بہت بوڑھے کو قتل نہ کرنا اور پھل دار درخت نہ کاٹنا ہیں {cite:muwatta-maruf-1997 p. 577}۔ ابن کثیر کے مطابق انھوں نے یزید کا جھنڈا باندھا جن کے ساتھ لوگوں کی اکثریت تھی اور انھیں دمشق دیا {cite:al-bidaya-wal-nihaya scan vol. 4 p. 8}۔ اسامہ کے لشکر کو رخصت کرتے ہوئے وہ پیدل چلے اور اسامہ سوار تھے، اور لشکر کو خیانت، عہد شکنی، مثلے، بچے، بوڑھے اور عورت کے قتل اور کھجور کے درخت کاٹنے سے منع کیا {cite:kamil-ibn-al-athir scan vol. 1 p. 195} {cite:kamil-ibn-al-athir scan vol. 1 p. 196}؛ جب انصار نے بڑی عمر والے امیر کا مطالبہ کیا تو انھوں نے اسامہ کو ہٹانے سے انکار کیا {cite:kamil-ibn-al-athir scan vol. 1 p. 195}۔"
+wings: [time]
+periods: [period/rashidun]
+date:
+  start: { hijri: "0013", precision: year, status: tradition, note: "بعث الجيوش إلى الشام في أول سنة ثلاث عشرة عند المدائني {cite:al-bidaya-wal-nihaya scan vol. 4 p. 8}؛ وهذا ينطبق على جيوش الشام لا على بعث أسامة", sources: [source/al-bidaya-wal-nihaya] }
+relations:
+  - { type: had_participant, target: person/abu-bakr, role: "الموصي المودّع", sources: [source/muwatta-maruf-1997, source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/yazid-ibn-abi-sufyan, role: "الأمير الموصى", sources: [source/muwatta-maruf-1997, source/al-bidaya-wal-nihaya] }
+  - { type: had_participant, target: person/usama-ibn-zayd, role: "قائد الجيش المودَّع", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/umar-ibn-al-khattab, role: "رسول أسامة والمعترض", sources: [source/kamil-ibn-al-athir] }
+  - { type: occurred_at, target: place/medina, sources: [source/kamil-ibn-al-athir, source/al-bidaya-wal-nihaya] }
+  - { type: mentions, target: place/al-jurf, sources: [source/kamil-ibn-al-athir] }
+  - { type: mentions, target: event/expedition-of-usama, sources: [source/kamil-ibn-al-athir] }
+sources: [source/muwatta-maruf-1997, source/al-bidaya-wal-nihaya, source/kamil-ibn-al-athir]
+provenance: { layer: own-research, source: "muwatta-maruf-1997 p. 577; al-bidaya-wal-nihaya scan vol. 4 p. 8; kamil-ibn-al-athir scan vol. 1 pp. 195-196; page numbers of the books other than the Muwatta are scan pages", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "wasaya-browser-1" }
+status: { review: draft, completeness: 2, generated_by: "Claude (claude-sonnet-5-5); wasaya-browser-1" }

@@ -1,0 +1,17 @@
+id: passage/wafayat-ayan-wasaya-4-403
+class: passage
+unit: chapter
+work: work/wafayat-al-ayan
+ref: "4:403"
+label: { ar: "وفيات الأعيان لابن خلكان، المجلد المصوَّر 4، ص 403 — وصية أو عهد أخير، دفن وقبر ومرقد", en: "Ibn Khallikan's Wafayat al-A'yan, scan volume 4, p. 403 — a testament or parting counsel; a burial, grave or resting place", ur: "وفیات الاعیان، ابن خلکان، اسکین جلد 4، ص 403 — وصیت یا آخری نصیحت، تدفین، قبر اور مرقد" }
+text: "… تك قد فارقتنا وتركتنا مسجده فى بيت أوصى هو ذوى خلد ما فى انسدادلها لممع فترجر نفعافقد نالك أننا أمنا على كل الرزايا من الجزع أن يدفن فيه وكان سنة وقد قيل انمارنى بها يجي بن زياد بن عبيد الله …"
+summary:
+  ar: "مقطع من وفيات الأعيان لابن خلكان، المجلد المصوَّر 4، ص 403، يذكر وصية أو عهد أخير، ودفن وقبر ومرقد؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الوصايا والمواريث والآثار والمراقد."
+  en: "An excerpt from Ibn Khallikan's Wafayat al-A'yan, scan volume 4, p. 403, that mentions a testament or parting counsel, a burial, grave or resting place; from the machine-read scan, quoted within forty words per the sources policy. The Testaments Browser lists it."
+  ur: "وفیات الاعیان، ابن خلکان، اسکین جلد 4، ص 403 کا اقتباس جس میں وصیت یا آخری نصیحت، تدفین، قبر اور مرقد کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-wasiyya, sources: [source/wafayat-ayan] }
+  - { type: mentions, target: concept/ziyarat-al-qubur, sources: [source/wafayat-ayan] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan tareekh/wafayat-ayan/AAlexandrina-224013, page 403; a window of at most 40 words chosen by the testaments detector (scripts/wasaya.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-ocr-1" }
+sources: [source/wafayat-ayan]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

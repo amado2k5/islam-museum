@@ -1,0 +1,16 @@
+id: passage/muwatta-api-1457
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "1457"
+label: { ar: "موطأ مالك 1457 — وصية أو عهد أخير", en: "Muwatta Malik 1457 — a testament or parting counsel", ur: "موطأ مالک 1457 — وصیت یا آخری نصیحت" }
+text: "… فَلْيُوصِ. قَالَ يَحْيَى بْنُ سَعِيدٍ قَالَ أَبُو بَكْرٍ وَكَانَ الْغُلاَمُ ابْنَ عَشْرِ سِنِينَ أَوِ اثْنَتَىْ عَشْرَةَ سَنَةً. قَالَ فَأَوْصَى بِبِئْرِ جُشَمٍ فَبَاعَهَا أَهْلُهَا بِثَلاَثِينَ أَلْفَ دِرْهَمٍ. قَالَ يَحْيَى سَمِعْتُ مَالِكًا يَقُولُ الأَمْرُ الْمُجْتَمَعُ عَلَيْهِ عِنْدَنَا أَنَّ الضَّعِيفَ فِي عَقْلِهِ وَالسَّفِيهَ وَالْمُصَابَ الَّذِي يُفِيقُ أَحْيَانًا تَجُوزُ وَصَايَاهُمْ إِذَا كَانَ مَعَهُمْ مِنْ عُقُولِهِمْ مَا يَعْرِفُونَ مَا يُوصُونَ …"
+summary:
+  ar: "حديث في موطأ مالك، رقم 1457، يذكر وصية أو عهد أخير. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Muwatta Malik, no. 1457 (Wills and Testaments), that mentions a testament or parting counsel. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
+  ur: "موطأ مالک کی حدیث نمبر 1457، جس میں وصیت یا آخری نصیحت کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-wasiyya, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 1457 (book 37 hadith 3); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }
+sources: [source/muwatta-malik, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

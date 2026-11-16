@@ -1,0 +1,16 @@
+id: passage/ibnmajah-api-1515
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "1515"
+label: { ar: "سنن ابن ماجه 1515 — دفن وقبر ومرقد", en: "Sunan Ibn Majah 1515 — a burial, grave or resting place", ur: "سنن ابن ماجہ 1515 — تدفین، قبر اور مرقد" }
+text: "حَدَّثَنَا مُحَمَّدُ بْنُ زِيَادٍ، حَدَّثَنَا عَلِيُّ بْنُ عَاصِمٍ، عَنْ عَطَاءِ بْنِ السَّائِبِ، عَنْ سَعِيدِ بْنِ جُبَيْرٍ، عَنِ ابْنِ عَبَّاسٍ، أَنَّ رَسُولَ اللَّهِ ـ أَمَرَ بِقَتْلَى أُحُدٍ أَنْ يُنْزَعَ عَنْهُمُ الْحَدِيدُ وَالْجُلُودُ وَأَنْ يُدْفَنُوا فِي ثِيَابِهِمْ بِدِمَائِهِمْ."
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 1515، يذكر دفن وقبر ومرقد. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan Ibn Majah, no. 1515 (Chapters Regarding Funerals), that mentions a burial, grave or resting place. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 1515، جس میں تدفین، قبر اور مرقد کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ziyarat-al-qubur, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 1515 (book 6 hadith 83); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

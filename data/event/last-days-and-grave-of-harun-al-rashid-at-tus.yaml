@@ -1,0 +1,39 @@
+id: event/last-days-and-grave-of-harun-al-rashid-at-tus
+class: event
+kind: death
+label:
+  ar: آخر أيام هارون الرشيد بطوس وقبره الذي أمر بحفره ودفنه بسناباذ
+  en: Last days and grave of Harun al-Rashid at Tus
+  ur: ہارون الرشید کے طوس میں آخری دن اور ان کی قبر
+summary:
+  ar: "مرض هارون الرشيد في طريقه إلى طوس وكتم طبيبه جبريل بن بختيشوع حاله، وقيل إنه أخطأ في علاجه {cite:al-bidaya-wal-nihaya scan vol. 5 p. 613}. وأمر بحفر قبره في حياته وحُمل حتى نظر إليه وقال: إلى هنا تصير يا ابن آدم، وقُرئت فيه ختمة {cite:tarikh-islam-dhahabi scan vol. 16 p. 14}. وقال عند احتضاره: يا من لا يموت ارحم من يموت {cite:al-bidaya-wal-nihaya scan vol. 5 p. 613}. ومات بطوس سنة ثلاث وتسعين ومئة وصلى عليه ابنه صالح ودُفن بقرية سناباذ {cite:al-bidaya-wal-nihaya scan vol. 5 p. 613}."
+  en: "Harun al-Rashid fell ill on the road to Tus, and his physician Jibril ibn Bukhtishu concealed how things stood, though another report says he erred in treating him {cite:al-bidaya-wal-nihaya scan vol. 5 p. 613}. He had his grave dug in his lifetime and was carried to see it, saying: to this you come, son of Adam, and the Qur'an was read through in it {cite:tarikh-islam-dhahabi scan vol. 16 p. 14}. As he died he said: O You who do not die, have mercy on one who dies {cite:al-bidaya-wal-nihaya scan vol. 5 p. 613}. He died at Tus in 193, his son Salih prayed over him and he was buried in the village of Sanabad {cite:al-bidaya-wal-nihaya scan vol. 5 p. 613}."
+  ur: "ہارون الرشید طوس کے راستے میں بیمار ہوئے اور ان کے طبیب جبریل بن بختیشوع نے ان کا حال چھپایا، اگرچہ ایک اور روایت میں ہے کہ اس نے علاج میں غلطی کی {cite:al-bidaya-wal-nihaya scan vol. 5 p. 613}۔ انھوں نے زندگی میں اپنی قبر کھدوائی اور لے جائے گئے، دیکھ کر کہا: اے ابنِ آدم، تو یہاں آنے والا ہے، اور اس میں ختمِ قرآن ہوا {cite:tarikh-islam-dhahabi scan vol. 16 p. 14}۔ آخری وقت میں بولے: اے وہ جسے موت نہیں، مرنے والے پر رحم کر {cite:al-bidaya-wal-nihaya scan vol. 5 p. 613}۔ وہ سن 193 میں طوس میں فوت ہوئے، بیٹے صالح نے نماز پڑھائی اور سناباذ بستی میں دفن ہوئے {cite:al-bidaya-wal-nihaya scan vol. 5 p. 613}۔"
+wings: [time, people, words]
+tags: [wasaya-browser, wasaya-caliphs, wasaya-ihtidar, wasaya-marqad]
+periods:
+- period/abbasid-early
+regions:
+- persia-central-asia
+date:
+  start: { hijri: "0193-06", precision: month, status: tradition, note: "يوم السبت لثلاث خلون من جمادى الآخرة سنة ثلاث وتسعين ومئة، وقيل في جمادى الأولى أو ربيع الأول {cite:al-bidaya-wal-nihaya scan vol. 5 p. 613}", sources: [source/al-bidaya-wal-nihaya] }
+relations:
+- { type: part_of, target: event/death-of-harun-al-rashid, sources: [source/al-bidaya-wal-nihaya] }
+- { type: occurred_at, target: place/tus, sources: [source/al-bidaya-wal-nihaya, source/tarikh-islam-dhahabi] }
+- { type: had_participant, target: person/harun-al-rashid, role: المتوفى وصاحب القبر الذي أمر بحفره, sources: [source/al-bidaya-wal-nihaya, source/tarikh-islam-dhahabi] }
+- { type: had_participant, target: person/jibril-ibn-bukhtishu, role: الطبيب الذي كتم العلة, sources: [source/al-bidaya-wal-nihaya, source/tarikh-islam-dhahabi] }
+- { type: had_participant, target: person/al-fudayl-ibn-iyad, role: قال إن موت الرشيد أعز عليه من موت أحد, sources: [source/al-bidaya-wal-nihaya] }
+- { type: mentions, target: building/harun-al-rashid-mausoleum-tus, sources: [source/al-bidaya-wal-nihaya] }
+sources:
+- source/al-bidaya-wal-nihaya
+- source/tarikh-islam-dhahabi
+provenance:
+  layer: own-research
+  source: "البداية والنهاية لابن كثير، مسح مجلد 5 ص 612-613؛ تاريخ الإسلام للذهبي، مسح مجلد 16 ص 14-15؛ أرقام الصفحات صفحات المسح"
+  generated_by: "Claude (claude-sonnet-5-5)"
+  model: claude-sonnet-5-5
+  run: wasaya-browser-1
+status:
+  review: draft
+  completeness: 2
+  generated_by: "Claude (claude-sonnet-5-5); wasaya-browser-1"

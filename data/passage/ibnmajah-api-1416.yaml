@@ -1,0 +1,16 @@
+id: passage/ibnmajah-api-1416
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "1416"
+label: { ar: "سنن ابن ماجه 1416 — أثر من الآثار المحفوظة", en: "Sunan Ibn Majah 1416 — a relic kept after its owner", ur: "سنن ابن ماجہ 1416 — محفوظ آثار و تبرکات" }
+text: "حَدَّثَنَا أَحْمَدُ بْنُ ثَابِتٍ الْجَحْدَرِيُّ، حَدَّثَنَا سُفْيَانُ بْنُ عُيَيْنَةَ، عَنْ أَبِي حَازِمٍ، قَالَ اخْتَلَفَ النَّاسُ فِي مِنْبَرِ رَسُولِ اللَّهِ ـ مِنْ أَىِّ شَىْءٍ هُوَ فَأَتَوْا سَهْلَ بْنَ سَعْدٍ فَسَأَلُوهُ فَقَالَ مَا بَقِيَ أَحَدٌ مِنَ النَّاسِ أَعْلَمَ بِهِ مِنِّي هُوَ مِنْ أَثْلِ الْغَابَةِ عَمِلَهُ فُلاَنٌ مَوْلَى فُلاَنَةَ نَجَّارٌ فَجَاءَ بِهِ فَقَامَ عَلَيْهِ حِينَ وُضِعَ فَاسْتَقْبَلَ الْقِبْلَةَ …"
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 1416، يذكر أثر من الآثار المحفوظة. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan Ibn Majah, no. 1416 (Establishing the Prayer and the Sunnah Regarding Them), that mentions a relic kept after its owner. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 1416، جس میں محفوظ آثار و تبرکات کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/tabarruk, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 1416 (book 5 hadith 614); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

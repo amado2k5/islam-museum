@@ -1,0 +1,16 @@
+id: passage/muslim-api-2892
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2892"
+label: { ar: "صحيح مسلم 2892 — دفن وقبر ومرقد", en: "Sahih Muslim 2892 — a burial, grave or resting place", ur: "صحیح مسلم 2892 — تدفین، قبر اور مرقد" }
+text: "… أَيُّوبُ فَأَوْقَصَتْهُ أَوْ قَالَ - فَأَقْعَصَتْهُ وَقَالَ عَمْرٌو فَوَقَصَتْهُ - فَذُكِرَ ذَلِكَ لِلنَّبِيِّ فَقَالَ \" اغْسِلُوهُ بِمَاءٍ وَسِدْرٍ وَكَفِّنُوهُ فِي ثَوْبَيْنِ وَلاَ تُحَنِّطُوهُ وَلاَ تُخَمِّرُوا رَأْسَهُ - قَالَ أَيُّوبُ فَإِنَّ اللَّهَ يَبْعَثُهُ يَوْمَ الْقِيَامَةِ مُلَبِّيًا وَقَالَ عَمْرٌو - فَإِنَّ اللَّهَ يَبْعَثُهُ يَوْمَ الْقِيَامَةِ يُلَبِّي \". وَحَدَّثَنِيهِ عَمْرٌو النَّاقِدُ، حَدَّثَنَا إِسْمَاعِيلُ بْنُ إِبْرَاهِيمَ، عَنْ أَيُّوبَ، قَالَ …"
+summary:
+  ar: "حديث في صحيح مسلم، رقم 2892، يذكر دفن وقبر ومرقد. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sahih Muslim, no. 2892 (Introduction), that mentions a burial, grave or resting place. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
+  ur: "صحیح مسلم کی حدیث نمبر 2892، جس میں تدفین، قبر اور مرقد کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ziyarat-al-qubur, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 2892 (book 0 hadith 0); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

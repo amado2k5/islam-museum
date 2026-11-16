@@ -1,0 +1,16 @@
+id: passage/muwatta-api-551
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "551"
+label: { ar: "موطأ مالك 551 — دفن وقبر ومرقد", en: "Muwatta Malik 551 — a burial, grave or resting place", ur: "موطأ مالک 551 — تدفین، قبر اور مرقد" }
+text: "وَحَدَّثَنِي عَنْ مَالِكٍ، عَنْ هِشَامِ بْنِ عُرْوَةَ، عَنْ أَبِيهِ، أَنَّهُ قَالَ مَا أُحِبُّ أَنْ أُدْفَنَ، بِالْبَقِيعِ لأَنْ أُدْفَنَ بِغَيْرِهِ أَحَبُّ إِلَىَّ مِنْ أَنْ أُدْفَنَ بِهِ إِنَّمَا هُوَ أَحَدُ رَجُلَيْنِ إِمَّا ظَالِمٌ فَلاَ أُحِبُّ أَنْ أُدْفَنَ مَعَهُ وَإِمَّا صَالِحٌ فَلاَ أُحِبُّ أَنْ تُنْبَشَ لِي عِظَامُهُ."
+summary:
+  ar: "حديث في موطأ مالك، رقم 551، يذكر دفن وقبر ومرقد. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Muwatta Malik, no. 551 (Burials), that mentions a burial, grave or resting place. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
+  ur: "موطأ مالک کی حدیث نمبر 551، جس میں تدفین، قبر اور مرقد کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ziyarat-al-qubur, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 551 (book 16 hadith 32); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }
+sources: [source/muwatta-malik, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

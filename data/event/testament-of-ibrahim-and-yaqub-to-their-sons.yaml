@@ -1,0 +1,63 @@
+id: event/testament-of-ibrahim-and-yaqub-to-their-sons
+class: event
+kind: declaration
+label:
+  ar: وصية إبراهيم ويعقوب لبنيهما
+  en: Testament of Ibrahim and Yaqub to their sons
+  ur: ابراہیم اور یعقوب کی اپنے بیٹوں کو وصیت
+summary:
+  ar: يشرح ابن كثير أن وصية إبراهيم لبنيه بملة الإسلام، ووصية يعقوب عند حضور الموت أن يعبدوا الله وحده، هما موضوع آيتي البقرة 132-133، وأن الإسلام ملة الأنبياء كلهم وإن اختلفت شرائعهم {cite:tafsir-ibn-kathir scan vol. 1 p. 621} {cite:tafsir-ibn-kathir scan vol. 1 p. 622}؛ ويناقش القرطبي دخول يعقوب في وصية جده ويورد حكاية أن يعقوب اختار الموت وطلب مهلة ليوصي بنيه {cite:jami-ahkam-quran-resala-v1 scan vol. 3 p. 616} {cite:jami-ahkam-quran-resala-v1 scan vol. 3 p. 617}؛ وما ذكره أهل الكتاب من وصية كل ابن على حدة خبر إسرائيلي {cite:al-bidaya-wal-nihaya scan vol. 2 p. 224}.
+  en: Ibn Kathir explains that Ibrahim's charge to his sons to hold to the creed of Islam, and Ya'qub's charge at the approach of death to worship God alone, are the subject of Qur'an 2:132-133, and that Islam is the religion of all the prophets whatever their laws {cite:tafsir-ibn-kathir scan vol. 1 p. 621} {cite:tafsir-ibn-kathir scan vol. 1 p. 622}; al-Qurtubi discusses whether Ya'qub was present for his grandfather's charge and relates a report that Ya'qub chose death and asked for time to charge his sons {cite:jami-ahkam-quran-resala-v1 scan vol. 3 p. 616} {cite:jami-ahkam-quran-resala-v1 scan vol. 3 p. 617}; what the People of the Book say about a separate charge to each son is an Israelite report {cite:al-bidaya-wal-nihaya scan vol. 2 p. 224}.
+  ur: ابن کثیر بتاتے ہیں کہ ابراہیم کی اپنے بیٹوں کو اسلام کی ملت کی وصیت اور یعقوب کی موت کے وقت صرف اللہ کی عبادت کی وصیت البقرہ 132-133 کا موضوع ہے، اور اسلام تمام انبیاء کی ملت ہے خواہ شریعتیں مختلف ہوں {cite:tafsir-ibn-kathir scan vol. 1 p. 621} {cite:tafsir-ibn-kathir scan vol. 1 p. 622}؛ قرطبی یعقوب کے اپنے دادا کی وصیت میں شامل ہونے پر بحث کرتے ہیں اور یہ حکایت لاتے ہیں کہ یعقوب نے موت چنی اور بیٹوں کو وصیت کے لیے مہلت مانگی {cite:jami-ahkam-quran-resala-v1 scan vol. 3 p. 616} {cite:jami-ahkam-quran-resala-v1 scan vol. 3 p. 617}؛ اہلِ کتاب کا ہر بیٹے کو الگ وصیت کا ذکر اسرائیلی خبر ہے {cite:al-bidaya-wal-nihaya scan vol. 2 p. 224}۔
+wings:
+- time
+- people
+themes:
+- prophets
+tags:
+- wasaya-browser
+- wasaya-prophets
+- wasaya-wasiyya
+- wasaya-ihtidar
+relations:
+- type: had_participant
+  target: person/ibrahim
+  role: الموصي
+  sources:
+  - source/tafsir-ibn-kathir
+  - source/jami-ahkam-quran-resala-v1
+- type: had_participant
+  target: person/yaqub
+  role: الموصي
+  sources:
+  - source/tafsir-ibn-kathir
+  - source/jami-ahkam-quran-resala-v1
+- type: mentions
+  target: person/ismail
+  sources:
+  - source/tafsir-ibn-kathir
+  - source/jami-ahkam-quran-resala-v1
+- type: mentions
+  target: person/ishaq
+  sources:
+  - source/tafsir-ibn-kathir
+  - source/jami-ahkam-quran-resala-v1
+- type: mentions
+  target: concept/israiliyyat
+  sources:
+  - source/al-bidaya-wal-nihaya
+sources:
+- source/tafsir-ibn-kathir
+- source/jami-ahkam-quran-resala-v1
+- source/al-bidaya-wal-nihaya
+provenance:
+  layer: own-research
+  source: تفسير ابن كثير ⁦(مسح 0012994، ص 621-623)⁩ وتفسير القرطبي ⁦(مسح 20191231_20191231_1313، ص 616-618)⁩ والبداية والنهاية ⁦(مسح AAlexandrina-074627، ص 224)⁩؛ أرقام الصفحات علامات صفحات المسح
+  generated_by: Claude (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: wasaya-browser-1
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude (claude-sonnet-5-5); wasaya-browser-1
+importance: 2

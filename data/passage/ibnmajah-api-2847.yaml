@@ -1,0 +1,16 @@
+id: passage/ibnmajah-api-2847
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "2847"
+label: { ar: "سنن ابن ماجه 2847 — ساعة الاحتضار والوفاة", en: "Sunan Ibn Majah 2847 — a deathbed and last hours", ur: "سنن ابن ماجہ 2847 — وقتِ وفات اور آخری لمحات" }
+text: "حَدَّثَنَا عَلِيُّ بْنُ مُحَمَّدٍ، حَدَّثَنَا عَبْدُ اللَّهِ بْنُ نُمَيْرٍ، عَنْ عُبَيْدِ اللَّهِ، عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَ، قَالَ ذَهَبَتْ فَرَسٌ لَهُ فَأَخَذَهَا الْعَدُوُّ فَظَهَرَ عَلَيْهِمُ الْمُسْلِمُونَ فَرُدَّ عَلَيْهِ فِي زَمَنِ رَسُولِ اللَّهِ. قَالَ وَأَبَقَ عَبْدٌ لَهُ فَلَحِقَ بِالرُّومِ فَظَهَرَ عَلَيْهِمُ الْمُسْلِمُونَ فَرَدَّهُ عَلَيْهِ خَالِدُ بْنُ الْوَلِيدِ بَعْدَ وَفَاةِ رَسُولِ اللَّهِ."
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 2847، يذكر ساعة الاحتضار والوفاة. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan Ibn Majah, no. 2847 (The Chapters on Jihad), that mentions a deathbed and last hours. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 2847، جس میں وقتِ وفات اور آخری لمحات کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ihtidar, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 2847 (book 24 hadith 95); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

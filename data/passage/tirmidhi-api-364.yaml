@@ -1,0 +1,16 @@
+id: passage/tirmidhi-api-364
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "364"
+label: { ar: "جامع الترمذي 364 — ما خلّفه من تركة وميراث", en: "Jami' al-Tirmidhi 364 — what was left behind: estate and inheritance", ur: "جامع ترمذی 364 — ترکہ اور میراث" }
+text: "… بْنِ شُبَيْلٍ عَنْ قَيْسِ بْنِ أَبِي حَازِمٍ عَنِ الْمُغِيرَةِ بْنِ شُعْبَةَ. وَجَابِرٌ الْجُعْفِيُّ قَدْ ضَعَّفَهُ بَعْضُ أَهْلِ الْعِلْمِ تَرَكَهُ يَحْيَى بْنُ سَعِيدٍ وَعَبْدُ الرَّحْمَنِ بْنُ مَهْدِيٍّ وَغَيْرُهُمَا. وَالْعَمَلُ عَلَى هَذَا عِنْدَ أَهْلِ الْعِلْمِ أَنَّ الرَّجُلَ إِذَا قَامَ فِي الرَّكْعَتَيْنِ مَضَى فِي صَلاَتِهِ وَسَجَدَ سَجْدَتَيْنِ مِنْهُمْ مَنْ رَأَى قَبْلَ التَّسْلِيمِ وَمِنْهُمْ مَنْ رَأَى بَعْدَ التَّسْلِيمِ. وَمَنْ …"
+summary:
+  ar: "حديث في جامع الترمذي، رقم 364، يذكر ما خلّفه من تركة وميراث. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Jami' al-Tirmidhi, no. 364 (The Book on Salat (Prayer)), that mentions what was left behind: estate and inheritance. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
+  ur: "جامع ترمذی کی حدیث نمبر 364، جس میں ترکہ اور میراث کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/tarika-estate, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 364 (book 2 hadith 216); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

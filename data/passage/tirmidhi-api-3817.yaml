@@ -1,0 +1,16 @@
+id: passage/tirmidhi-api-3817
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "3817"
+label: { ar: "جامع الترمذي 3817 — ساعة الاحتضار والوفاة", en: "Jami' al-Tirmidhi 3817 — a deathbed and last hours", ur: "جامع ترمذی 3817 — وقتِ وفات اور آخری لمحات" }
+text: "… بْنُ بُكَيْرٍ، عَنْ مُحَمَّدِ بْنِ إِسْحَاقَ، عَنْ سَعِيدِ بْنِ عُبَيْدِ بْنِ السَّبَّاقِ، عَنْ مُحَمَّدِ بْنِ أُسَامَةَ بْنِ زَيْدٍ، عَنْ أَبِيهِ، قَالَ لَمَّا ثَقُلَ رَسُولُ اللَّهِ هَبَطْتُ وَهَبَطَ النَّاسُ الْمَدِينَةَ فَدَخَلْتُ عَلَى رَسُولِ اللَّهِ وَقَدْ أُصْمِتَ فَلَمْ يَتَكَلَّمْ فَجَعَلَ رَسُولُ اللَّهِ يَضَعُ يَدَيْهِ عَلَىَّ وَيَرْفَعُهُمَا فَأَعْرِفُ أَنَّهُ يَدْعُو لِي. قَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ غَرِيبٌ."
+summary:
+  ar: "حديث في جامع الترمذي، رقم 3817، يذكر ساعة الاحتضار والوفاة. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Jami' al-Tirmidhi, no. 3817 (Chapters on Virtues), that mentions a deathbed and last hours. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
+  ur: "جامع ترمذی کی حدیث نمبر 3817، جس میں وقتِ وفات اور آخری لمحات کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ihtidar, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 3817 (book 49 hadith 217); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

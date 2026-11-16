@@ -1,0 +1,16 @@
+id: passage/ibnmajah-api-2409
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "2409"
+label: { ar: "سنن ابن ماجه 2409 — ما خلّفه من تركة وميراث", en: "Sunan Ibn Majah 2409 — what was left behind: estate and inheritance", ur: "سنن ابن ماجہ 2409 — ترکہ اور میراث" }
+text: "… جَعْفَرِ بْنِ مُحَمَّدٍ، عَنْ أَبِيهِ، عَنْ عَبْدِ اللَّهِ بْنِ جَعْفَرٍ، قَالَ قَالَ رَسُولُ اللَّهِ \" إِنَّ اللَّهَ مَعَ الدَّائِنِ حَتَّى يَقْضِيَ دَيْنَهُ مَا لَمْ يَكُنْ فِيمَا يَكْرَهُ اللَّهُ \". قَالَ فَكَانَ عَبْدُ اللَّهِ بْنُ جَعْفَرٍ يَقُولُ لِخَازِنِهِ اذْهَبْ فَخُذْ لِي بِدَيْنٍ فَإِنِّي أَكْرَهُ أَنْ أَبِيتَ لَيْلَةً إِلاَّ وَاللَّهُ مَعِي بَعْدَ الَّذِي سَمِعْتُ مِنْ رَسُولِ اللَّهِ."
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 2409، يذكر ما خلّفه من تركة وميراث. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan Ibn Majah, no. 2409 (The Chapters on Charity), that mentions what was left behind: estate and inheritance. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 2409، جس میں ترکہ اور میراث کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/tarika-estate, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 2409 (book 15 hadith 20); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

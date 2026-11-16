@@ -1,0 +1,16 @@
+id: passage/abudawud-api-4751
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "4751"
+label: { ar: "سنن أبي داود 4751 — دفن وقبر ومرقد", en: "Sunan Abi Dawud 4751 — a burial, grave or resting place", ur: "سنن ابی داؤد 4751 — تدفین، قبر اور مرقد" }
+text: "… وَمِنْ فِتْنَةِ الدَّجَّالِ \". قَالُوا : وَمِمَّ ذَاكَ يَا رَسُولَ اللَّهِ قَالَ : \" إِنَّ الْمُؤْمِنَ إِذَا وُضِعَ فِي قَبْرِهِ أَتَاهُ مَلَكٌ فَيَقُولُ لَهُ : مَا كُنْتَ تَعْبُدُ فَإِنِ اللَّهُ هَدَاهُ قَالَ : كُنْتُ أَعْبُدُ اللَّهَ. فَيُقَالُ لَهُ : مَا كُنْتَ تَقُولُ فِي هَذَا الرَّجُلِ فَيَقُولُ : هُوَ عَبْدُ اللَّهِ وَرَسُولُهُ فَمَا يُسْأَلُ عَنْ شَىْءٍ …"
+summary:
+  ar: "حديث في سنن أبي داود، رقم 4751، يذكر دفن وقبر ومرقد. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan Abi Dawud, no. 4751 (Model Behavior of the Prophet (Kitab Al-Sunnah)), that mentions a burial, grave or resting place. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
+  ur: "سنن ابی داؤد کی حدیث نمبر 4751، جس میں تدفین، قبر اور مرقد کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ziyarat-al-qubur, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 4751 (book 42 hadith 156); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

@@ -1,0 +1,16 @@
+id: passage/abudawud-api-3088
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "3088"
+label: { ar: "سنن أبي داود 3088 — دفن وقبر ومرقد", en: "Sunan Abi Dawud 3088 — a burial, grave or resting place", ur: "سنن ابی داؤد 3088 — تدفین، قبر اور مرقد" }
+text: "… يَقُولُ سَمِعْتُ رَسُولَ اللَّهِ يَقُولُ حِينَ خَرَجْنَا مَعَهُ إِلَى الطَّائِفِ فَمَرَرْنَا بِقَبْرٍ فَقَالَ رَسُولُ اللَّهِ \" هَذَا قَبْرُ أَبِي رِغَالٍ وَكَانَ بِهَذَا الْحَرَمِ يَدْفَعُ عَنْهُ فَلَمَّا خَرَجَ أَصَابَتْهُ النِّقْمَةُ الَّتِي أَصَابَتْ قَوْمَهُ بِهَذَا الْمَكَانِ فَدُفِنَ فِيهِ وَآيَةُ ذَلِكَ أَنَّهُ دُفِنَ مَعَهُ غُصْنٌ مِنْ ذَهَبٍ إِنْ أَنْتُمْ نَبَشْتُمْ عَنْهُ أَصَبْتُمُوهُ مَعَهُ \". فَابْتَدَرَهُ النَّاسُ فَاسْتَخْرَجُوا الْغُصْنَ."
+summary:
+  ar: "حديث في سنن أبي داود، رقم 3088، يذكر دفن وقبر ومرقد. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan Abi Dawud, no. 3088 (Tribute, Spoils, and Rulership (Kitab Al-Kharaj, Wal-Fai' Wal-Imarah)), that mentions a burial, grave or resting place. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
+  ur: "سنن ابی داؤد کی حدیث نمبر 3088، جس میں تدفین، قبر اور مرقد کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ziyarat-al-qubur, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 3088 (book 20 hadith 161); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

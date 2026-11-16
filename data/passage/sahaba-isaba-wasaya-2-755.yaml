@@ -1,0 +1,17 @@
+id: passage/sahaba-isaba-wasaya-2-755
+class: passage
+unit: chapter
+work: work/al-isaba-fi-tamyiz-al-sahaba
+ref: "2:755"
+label: { ar: "الإصابة لابن حجر، المجلد المصوَّر 2، ص 755 — وصية أو عهد أخير، دفن وقبر ومرقد", en: "Ibn Hajar's al-Isaba, scan volume 2, p. 755 — a testament or parting counsel; a burial, grave or resting place", ur: "الاصابہ، ابن حجر، اسکین جلد 2، ص 755 — وصیت یا آخری نصیحت، تدفین، قبر اور مرقد" }
+text: "… مسلم: حدثني من سمع من قريش أصْبَحُ الناس وجوهاً، وأحسنهم خُلُقاً، عروة بن رُوَيم، قال: انطلق أبو عبيدة يريد الصلاة ببيت وأشدهم حياء: أبو بكر، وعثمان، وأبو عبيدة. في المقدس، فأدركه أجله، فتوفي هناك، وأوصى أن يدفن سنده ابن لهيعة. …"
+summary:
+  ar: "مقطع من الإصابة لابن حجر، المجلد المصوَّر 2، ص 755، يذكر وصية أو عهد أخير، ودفن وقبر ومرقد؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الوصايا والمواريث والآثار والمراقد."
+  en: "An excerpt from Ibn Hajar's al-Isaba, scan volume 2, p. 755, that mentions a testament or parting counsel, a burial, grave or resting place; from the machine-read scan, quoted within forty words per the sources policy. The Testaments Browser lists it."
+  ur: "الاصابہ، ابن حجر، اسکین جلد 2، ص 755 کا اقتباس جس میں وصیت یا آخری نصیحت، تدفین، قبر اور مرقد کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-wasiyya, sources: [source/isaba] }
+  - { type: mentions, target: concept/ziyarat-al-qubur, sources: [source/isaba] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan sahaba/isaba/20200217_20200217_0509, page 755; a window of at most 40 words chosen by the testaments detector (scripts/wasaya.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-ocr-1" }
+sources: [source/isaba]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

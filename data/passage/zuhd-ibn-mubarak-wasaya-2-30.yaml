@@ -1,0 +1,16 @@
+id: passage/zuhd-ibn-mubarak-wasaya-2-30
+class: passage
+unit: chapter
+work: work/kitab-al-zuhd-ibn-al-mubarak
+ref: "2:30"
+label: { ar: "الزهد لابن المبارك، المجلد المصوَّر 2، ص 30 — ساعة الاحتضار والوفاة", en: "Ibn al-Mubarak's Kitab al-Zuhd, scan volume 2, p. 30 — a deathbed and last hours", ur: "کتاب الزہد، ابن المبارک، اسکین جلد 2، ص 30 — وقتِ وفات اور آخری لمحات" }
+text: "… من الدنيا وأخذ الكفاف - حدَّثنا الحسينُ، أخبرنا عبدُ الله، أخبرنا جَريرُ بن حازمٍ، حدَّثني المُغيرةُ بن حَكيمٍ قال: قالت لي فاطمةُ: كنتُ أسمَعُ عمرَ في مرضِه الّذي ماتَ فيه يقول: اللهمَّ أَخْفي عليهم موتي ولو بساعةٍ من نهارٍ، قالت: …"
+summary:
+  ar: "مقطع من الزهد لابن المبارك، المجلد المصوَّر 2، ص 30، يذكر ساعة الاحتضار والوفاة؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الوصايا والمواريث والآثار والمراقد."
+  en: "An excerpt from Ibn al-Mubarak's Kitab al-Zuhd, scan volume 2, p. 30, that mentions a deathbed and last hours; from the machine-read scan, quoted within forty words per the sources policy. The Testaments Browser lists it."
+  ur: "کتاب الزہد، ابن المبارک، اسکین جلد 2، ص 30 کا اقتباس جس میں وقتِ وفات اور آخری لمحات کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ihtidar, sources: [source/zuhd-ibn-mubarak-azami-scan] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan adab-zuhd/zuhd-ibn-mubarak/2_20260219_20260219_1945, page 30; a window of at most 40 words chosen by the testaments detector (scripts/wasaya.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-ocr-1" }
+sources: [source/zuhd-ibn-mubarak-azami-scan]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

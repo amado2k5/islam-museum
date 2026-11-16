@@ -1,0 +1,16 @@
+id: passage/bukhari-api-7337
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "7337"
+label: { ar: "صحيح البخاري 7337 — أثر من الآثار المحفوظة", en: "Sahih al-Bukhari 7337 — a relic kept after its owner", ur: "صحیح بخاری 7337 — محفوظ آثار و تبرکات" }
+text: "حَدَّثَنَا قُتَيْبَةُ عَنْ لَيْثٍ عَنْ نَافِعٍ عَنِ ابْنِ عُمَرَ ح. وَحَدَّثَنِي إِسْحَاقُ، أَخْبَرَنَا عِيسَى، وَابْنُ، إِدْرِيسَ وَابْنُ أَبِي غَنِيَّةَ عَنْ أَبِي حَيَّانَ، عَنِ الشَّعْبِيِّ، عَنِ ابْنِ عُمَرَما ـ قَالَ سَمِعْتُ عُمَرَ، عَلَى مِنْبَرِ النَّبِيِّ."
+summary:
+  ar: "حديث في صحيح البخاري، رقم 7337، يذكر أثر من الآثار المحفوظة. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sahih al-Bukhari, no. 7337 (Holding Fast to the Qur'an and Sunnah), that mentions a relic kept after its owner. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
+  ur: "صحیح بخاری کی حدیث نمبر 7337، جس میں محفوظ آثار و تبرکات کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/tabarruk, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 7337 (book 96 hadith 66); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

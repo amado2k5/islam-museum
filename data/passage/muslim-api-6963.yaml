@@ -1,0 +1,16 @@
+id: passage/muslim-api-6963
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "6963"
+label: { ar: "صحيح مسلم 6963 — ساعة الاحتضار والوفاة", en: "Sahih Muslim 6963 — a deathbed and last hours", ur: "صحیح مسلم 6963 — وقتِ وفات اور آخری لمحات" }
+text: "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا لَيْثٌ، عَنْ مُحَمَّدِ بْنِ قَيْسٍ، - قَاصِّ عُمَرَ بْنِ عَبْدِ الْعَزِيزِ - عَنْ أَبِي صِرْمَةَ، عَنْ أَبِي أَيُّوبَ، أَنَّهُ قَالَ حِينَ حَضَرَتْهُ الْوَفَاةُ كُنْتُ كَتَمْتُ عَنْكُمْ شَيْئًا سَمِعْتُهُ مِنْ رَسُولِ اللَّهِ سَمِعْتُ رَسُولَ اللَّهِ يَقُولُ \" لَوْلاَ أَنَّكُمْ تُذْنِبُونَ لَخَلَقَ اللَّهُ خَلْقًا يُذْنِبُونَ يَغْفِرُ لَهُمْ \"."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 6963، يذكر ساعة الاحتضار والوفاة. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sahih Muslim, no. 6963 (The Book of Repentance), that mentions a deathbed and last hours. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
+  ur: "صحیح مسلم کی حدیث نمبر 6963، جس میں وقتِ وفات اور آخری لمحات کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ihtidar, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 6963 (book 50 hadith 11); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

@@ -1,0 +1,16 @@
+id: passage/tirmidhi-api-1016
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "1016"
+label: { ar: "جامع الترمذي 1016 — دفن وقبر ومرقد", en: "Jami' al-Tirmidhi 1016 — a burial, grave or resting place", ur: "جامع ترمذی 1016 — تدفین، قبر اور مرقد" }
+text: "… صَفِيَّةُ فِي نَفْسِهَا لَتَرَكْتُهُ حَتَّى تَأْكُلَهُ الْعَافِيَةُ حَتَّى يُحْشَرَ يَوْمَ الْقِيَامَةِ مِنْ بُطُونِهَا \". قَالَ ثُمَّ دَعَا بِنَمِرَةٍ فَكَفَّنَهُ فِيهَا فَكَانَتْ إِذَا مُدَّتْ عَلَى رَأْسِهِ بَدَتْ رِجْلاَهُ وَإِذَا مُدَّتْ عَلَى رِجْلَيْهِ بَدَا رَأْسُهُ. قَالَ فَكَثُرَ الْقَتْلَى وَقَلَّتِ الثِّيَابُ. قَالَ فَكُفِّنَ الرَّجُلُ وَالرَّجُلاَنِ وَالثَّلاَثَةُ فِي الثَّوْبِ الْوَاحِدِ ثُمَّ يُدْفَنُونَ فِي قَبْرٍ وَاحِدٍ فَجَعَلَ رَسُولُ اللَّهِ يَسْأَلُ …"
+summary:
+  ar: "حديث في جامع الترمذي، رقم 1016، يذكر دفن وقبر ومرقد. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Jami' al-Tirmidhi, no. 1016 (The Book on Jana''iz (Funerals)), that mentions a burial, grave or resting place. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
+  ur: "جامع ترمذی کی حدیث نمبر 1016، جس میں تدفین، قبر اور مرقد کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ziyarat-al-qubur, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 1016 (book 10 hadith 52); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

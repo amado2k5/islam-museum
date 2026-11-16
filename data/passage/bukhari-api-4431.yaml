@@ -1,0 +1,16 @@
+id: passage/bukhari-api-4431
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "4431"
+label: { ar: "صحيح البخاري 4431 — وصية أو عهد أخير", en: "Sahih al-Bukhari 4431 — a testament or parting counsel", ur: "صحیح بخاری 4431 — وصیت یا آخری نصیحت" }
+text: "… أَكْتُبْ لَكُمْ كِتَابًا لَنْ تَضِلُّوا بَعْدَهُ أَبَدًا \". فَتَنَازَعُوا، وَلاَ يَنْبَغِي عِنْدَ نَبِيٍّ تَنَازُعٌ، فَقَالُوا مَا شَأْنُهُ أَهَجَرَ اسْتَفْهِمُوهُ فَذَهَبُوا يَرُدُّونَ عَلَيْهِ. فَقَالَ \" دَعُونِي فَالَّذِي أَنَا فِيهِ خَيْرٌ مِمَّا تَدْعُونِي إِلَيْهِ \". وَأَوْصَاهُمْ بِثَلاَثٍ قَالَ \" أَخْرِجُوا الْمُشْرِكِينَ مِنْ جَزِيرَةِ الْعَرَبِ، وَأَجِيزُوا الْوَفْدَ بِنَحْوِ مَا كُنْتُ أُجِيزُهُمْ \". وَسَكَتَ عَنِ الثَّالِثَةِ، أَوْ قَالَ فَنَسِيتُهَا."
+summary:
+  ar: "حديث في صحيح البخاري، رقم 4431، يذكر وصية أو عهد أخير. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sahih al-Bukhari, no. 4431 (Military Expeditions led by the Prophet (pbuh) (Al-Maghaazi)), that mentions a testament or parting counsel. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
+  ur: "صحیح بخاری کی حدیث نمبر 4431، جس میں وصیت یا آخری نصیحت کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-wasiyya, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 4431 (book 64 hadith 453); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

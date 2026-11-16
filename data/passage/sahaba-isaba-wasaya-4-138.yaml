@@ -1,0 +1,17 @@
+id: passage/sahaba-isaba-wasaya-4-138
+class: passage
+unit: chapter
+work: work/al-isaba-fi-tamyiz-al-sahaba
+ref: "4:138"
+label: { ar: "الإصابة لابن حجر، المجلد المصوَّر 4، ص 138 — وصية أو عهد أخير، ما خلّفه من تركة وميراث", en: "Ibn Hajar's al-Isaba, scan volume 4, p. 138 — a testament or parting counsel; what was left behind: estate and inheritance", ur: "الاصابہ، ابن حجر، اسکین جلد 4، ص 138 — وصیت یا آخری نصیحت، ترکہ اور میراث" }
+text: "… غزية بن الحارث، صفوان بن عبد الرحمن، يعلى على لا و الله لا أعطيكما وأدع... عائشة لا والله ما أبدلنى الله خيرا منها ؛... لا وأبيك يزيد بن سنان لا وصية لوارث عبد الرحمن بن غنم، لا وضوء إلا من …"
+summary:
+  ar: "مقطع من الإصابة لابن حجر، المجلد المصوَّر 4، ص 138، يذكر وصية أو عهد أخير، وما خلّفه من تركة وميراث؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الوصايا والمواريث والآثار والمراقد."
+  en: "An excerpt from Ibn Hajar's al-Isaba, scan volume 4, p. 138, that mentions a testament or parting counsel, what was left behind: estate and inheritance; from the machine-read scan, quoted within forty words per the sources policy. The Testaments Browser lists it."
+  ur: "الاصابہ، ابن حجر، اسکین جلد 4، ص 138 کا اقتباس جس میں وصیت یا آخری نصیحت، ترکہ اور میراث کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-wasiyya, sources: [source/isaba] }
+  - { type: mentions, target: concept/tarika-estate, sources: [source/isaba] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan sahaba/isaba/HJR1995ARAR, page 138; a window of at most 40 words chosen by the testaments detector (scripts/wasaya.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-ocr-1" }
+sources: [source/isaba]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

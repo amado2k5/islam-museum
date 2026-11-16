@@ -1,0 +1,16 @@
+id: passage/muslim-api-4432
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "4432"
+label: { ar: "صحيح مسلم 4432 — دفن وقبر ومرقد", en: "Sahih Muslim 4432 — a burial, grave or resting place", ur: "صحیح مسلم 4432 — تدفین، قبر اور مرقد" }
+text: "… نُرَى فَأَتَاهُ الثَّالِثَةَ فَأَرْسَلَ إِلَيْهِمْ أَيْضًا فَسَأَلَ عَنْهُ فَأَخْبَرُوهُ أَنَّهُ لاَ بَأْسَ بِهِ وَلاَ بِعَقْلِهِ فَلَمَّا كَانَ الرَّابِعَةَ حَفَرَ لَهُ حُفْرَةً ثُمَّ أَمَرَ بِهِ فَرُجِمَ. قَالَ فَجَاءَتِ الْغَامِدِيَّةُ فَقَالَتْ يَا رَسُولَ اللَّهِ إِنِّي قَدْ زَنَيْتُ فَطَهِّرْنِي. وَإِنَّهُ رَدَّهَا فَلَمَّا كَانَ الْغَدُ قَالَتْ يَا رَسُولَ اللَّهِ لِمَ تَرُدُّنِي لَعَلَّكَ أَنْ تَرُدَّنِي كَمَا رَدَدْتَ مَاعِزًا فَوَاللَّهِ إِنِّي …"
+summary:
+  ar: "حديث في صحيح مسلم، رقم 4432، يذكر دفن وقبر ومرقد. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sahih Muslim, no. 4432 (The Book of Legal Punishments), that mentions a burial, grave or resting place. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
+  ur: "صحیح مسلم کی حدیث نمبر 4432، جس میں تدفین، قبر اور مرقد کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ziyarat-al-qubur, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 4432 (book 29 hadith 35); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

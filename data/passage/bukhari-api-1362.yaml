@@ -1,0 +1,16 @@
+id: passage/bukhari-api-1362
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "1362"
+label: { ar: "صحيح البخاري 1362 — دفن وقبر ومرقد", en: "Sahih al-Bukhari 1362 — a burial, grave or resting place", ur: "صحیح بخاری 1362 — تدفین، قبر اور مرقد" }
+text: "… جَرِيرٌ، عَنْ مَنْصُورٍ، عَنْ سَعْدِ بْنِ عُبَيْدَةَ، عَنْ أَبِي عَبْدِ الرَّحْمَنِ، عَنْ عَلِيٍّ ـ قَالَ كُنَّا فِي جَنَازَةٍ فِي بَقِيعِ الْغَرْقَدِ، فَأَتَانَا النَّبِيُّ فَقَعَدَ وَقَعَدْنَا حَوْلَهُ، وَمَعَهُ مِخْصَرَةٌ فَنَكَّسَ، فَجَعَلَ يَنْكُتُ بِمِخْصَرَتِهِ ثُمَّ قَالَ \" مَا مِنْكُمْ مِنْ أَحَدٍ، مَا مِنْ نَفْسٍ مَنْفُوسَةٍ إِلاَّ كُتِبَ مَكَانُهَا مِنَ الْجَنَّةِ وَالنَّارِ، وَإِلاَّ قَدْ كُتِبَ شَقِيَّةً أَوْ سَعِيدَةً …"
+summary:
+  ar: "حديث في صحيح البخاري، رقم 1362، يذكر دفن وقبر ومرقد. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sahih al-Bukhari, no. 1362 (Funerals (Al-Janaa'iz)), that mentions a burial, grave or resting place. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
+  ur: "صحیح بخاری کی حدیث نمبر 1362، جس میں تدفین، قبر اور مرقد کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ziyarat-al-qubur, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 1362 (book 23 hadith 115); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

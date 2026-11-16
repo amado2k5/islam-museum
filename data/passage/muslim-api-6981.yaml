@@ -1,0 +1,17 @@
+id: passage/muslim-api-6981
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "6981"
+label: { ar: "صحيح مسلم 6981 — وصية أو عهد أخير، ساعة الاحتضار والوفاة", en: "Sahih Muslim 6981 — a testament or parting counsel; a deathbed and last hours", ur: "صحیح مسلم 6981 — وصیت یا آخری نصیحت، وقتِ وفات اور آخری لمحات" }
+text: "… حُمَيْدُ بْنُ عَبْدِ الرَّحْمَنِ عَنْ أَبِي هُرَيْرَةَ عَنِ النَّبِيِّ قَالَ \" أَسْرَفَ رَجُلٌ عَلَى نَفْسِهِ فَلَمَّا حَضَرَهُ الْمَوْتُ أَوْصَى بَنِيهِ فَقَالَ إِذَا أَنَا مُتُّ فَأَحْرِقُونِي ثُمَّ اسْحَقُونِي ثُمَّ اذْرُونِي فِي الرِّيحِ فِي الْبَحْرِ فَوَاللَّهِ لَئِنْ قَدَرَ عَلَىَّ رَبِّي لَيُعَذِّبُنِي عَذَابًا مَا عَذَّبَهُ بِهِ أَحَدًا. قَالَ فَفَعَلُوا ذَلِكَ بِهِ فَقَالَ لِلأَرْضِ أَدِّي مَا أَخَذْتِ. فَإِذَا هُوَ …"
+summary:
+  ar: "حديث في صحيح مسلم، رقم 6981، يذكر وصية أو عهد أخير، وساعة الاحتضار والوفاة. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sahih Muslim, no. 6981 (Introduction), that mentions a testament or parting counsel, a deathbed and last hours. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
+  ur: "صحیح مسلم کی حدیث نمبر 6981، جس میں وصیت یا آخری نصیحت، وقتِ وفات اور آخری لمحات کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-wasiyya, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/ihtidar, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 6981 (book 0 hadith 0); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

@@ -1,0 +1,16 @@
+id: passage/abudawud-api-4218
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "4218"
+label: { ar: "سنن أبي داود 4218 — أثر من الآثار المحفوظة", en: "Sunan Abi Dawud 4218 — a relic kept after its owner", ur: "سنن ابی داؤد 4218 — محفوظ آثار و تبرکات" }
+text: "… اتَّخَذُوهَا رَمَى بِهِ وَقَالَ \" لاَ أَلْبَسُهُ أَبَدًا \". ثُمَّ اتَّخَذَ خَاتَمًا مِنْ فِضَّةٍ نَقَشَ فِيهِ \" مُحَمَّدٌ رَسُولُ اللَّهِ \". ثُمَّ لَبِسَ الْخَاتَمَ بَعْدَهُ أَبُو بَكْرٍ ثُمَّ لَبِسَهُ بَعْدَ أَبِي بَكْرٍ عُمَرُ ثُمَّ لَبِسَهُ بَعْدَهُ عُثْمَانُ حَتَّى وَقَعَ فِي بِئْرِ أَرِيسَ. قَالَ أَبُو دَاوُدَ وَلَمْ يَخْتَلِفِ النَّاسُ عَلَى عُثْمَانَ حَتَّى سَقَطَ الْخَاتَمُ مِنْ يَدِهِ."
+summary:
+  ar: "حديث في سنن أبي داود، رقم 4218، يذكر أثر من الآثار المحفوظة. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan Abi Dawud, no. 4218 (Signet-Rings (Kitab Al-Khatam)), that mentions a relic kept after its owner. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
+  ur: "سنن ابی داؤد کی حدیث نمبر 4218، جس میں محفوظ آثار و تبرکات کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/tabarruk, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 4218 (book 36 hadith 5); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

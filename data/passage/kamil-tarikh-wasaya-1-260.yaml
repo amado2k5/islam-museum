@@ -1,0 +1,17 @@
+id: passage/kamil-tarikh-wasaya-1-260
+class: passage
+unit: chapter
+work: work/al-kamil-fi-al-tarikh
+ref: "1:260"
+label: { ar: "الكامل في التاريخ لابن الأثير، المجلد المصوَّر 1، ص 260 — وصية أو عهد أخير، ساعة الاحتضار والوفاة", en: "Ibn al-Athir's al-Kamil fi al-Tarikh, scan volume 1, p. 260 — a testament or parting counsel; a deathbed and last hours", ur: "الکامل فی التاریخ، ابن الاثیر، اسکین جلد 1، ص 260 — وصیت یا آخری نصیحت، وقتِ وفات اور آخری لمحات" }
+text: "… فاستدعى عمرَ وقال له: إنّي لأرجو أن أموت يومي هذا، فإذا مت فلا تُمسينّ حتى تندبِ النّاس مع المشّى، ولا تشغلِنّكم مصيبة عن أمر دينكم ووصيّة ربّكم، فقد رأيتني متوفى رسول اللّٰه، وَلِفِ، وما صنغت وما أصيب الخلق بمثله، وإذا …"
+summary:
+  ar: "مقطع من الكامل في التاريخ لابن الأثير، المجلد المصوَّر 1، ص 260، يذكر وصية أو عهد أخير، وساعة الاحتضار والوفاة؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الوصايا والمواريث والآثار والمراقد."
+  en: "An excerpt from Ibn al-Athir's al-Kamil fi al-Tarikh, scan volume 1, p. 260, that mentions a testament or parting counsel, a deathbed and last hours; from the machine-read scan, quoted within forty words per the sources policy. The Testaments Browser lists it."
+  ur: "الکامل فی التاریخ، ابن الاثیر، اسکین جلد 1، ص 260 کا اقتباس جس میں وصیت یا آخری نصیحت، وقتِ وفات اور آخری لمحات کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-wasiyya, sources: [source/kamil-ibn-al-athir] }
+  - { type: mentions, target: concept/ihtidar, sources: [source/kamil-ibn-al-athir] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan tareekh/kamil-tarikh/02-163053, page 260; a window of at most 40 words chosen by the testaments detector (scripts/wasaya.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-ocr-1" }
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

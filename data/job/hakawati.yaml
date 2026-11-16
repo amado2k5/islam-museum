@@ -1,0 +1,46 @@
+id: job/hakawati
+class: job
+label: { ar: "الحكواتي", en: "Storyteller (hakawati / meddah)", ur: "قصہ گو ⁦(حکواتی)⁩" }
+names:
+  - { value: "قصّاص", kind: alternate }
+  - { value: "kussâs", kind: latinized, lang: tr }
+  - { value: "kıssahan", kind: latinized, lang: tr }
+  - { value: "meddah", kind: latinized, lang: tr }
+  - { value: "nakkāl", kind: latinized }
+  - { value: "şahnâmehan", kind: latinized }
+  - { value: "قصّة خوان", kind: alternate }
+  - { value: "رواة الحكايات", kind: alternate }
+summary:
+  ar: "الحكواتي راوي القصص في الأسواق والمقاهي والقصور، وله أسماء على قدر اللسان والمقام: قصّة خوان ونقّال وشاهنامه خوان وروزه خوان ومدّاح. كان القصّ عند العرب الجاهليين مهنةً تروي أيام العرب وأخبارهم، ثم صار بعد مقتل عثمان قصصاً دينياً في المساجد حتى اعترض عليه المحدثون واشترطوا في القاصّ الإذن والصلاحية. وعند الترك ورث المدّاح عن الباقصي والأوزان حكايات البطولة يؤديها أمام الجمهور مقلّداً الأصوات والحركات، ويروي المدّاح أنساب صنعته إلى سوهيب الرومي وإلى حسّان بن ثابت الذي مادح النبي بالشعر."
+  en: "The hakawati tells the tales in the markets, coffeehouses and palaces; his name shifts with tongue and setting: kissahan, nakkāl, şahnâmehan, rûzehan, meddâh. Among the Jahiliyya Arabs storytelling was already a trade recounting the ayyam and akhbar of the tribes; after the killing of Uthman it turned religious in the mosques, until the hadith scholars objected and demanded licence and qualification of the qāss. Among the Turks the meddah inherited the heroic tales of the baksı and the ozan, performing before the crowd with imitations of voices and movements, and the guild told its lineage from Suhayb al-Rumi and from Hassan ibn Thabit who praised the Prophet in verse."
+  ur: "حکواتی بازاروں، قہہ خانوں اور محلوں میں قصے کہانیاں سنانے والا ہے؛ زبان اور مقام کے حساب سے اس کے نام بدلتے ہیں: قصّہ خوان، نقّال، شاہنامہ خوان، روزہ خوان، مدّاح۔ جاہلی عرب میں قصہ گوئی ایام عرب اور اخبار بیان کرنے کا پیشہ تھی؛ عثمان کے قتل کے بعد یہ مسجدوں میں دینی وعظ بن گئی، یہاں تک کہ محدثین نے اعتراض کیا اور قاص کے لیے اجازت و اہلیت شرط ٹھہری۔ ترکوں میں مدّاح باقصی اور اوزان کی ہیرو کہانیوں کا وارث بنا، وہ تماشائیوں کے سامنے آوازیں اور حرکات نقل کر کے پیش کرتا، اور یہ صنعت اپنا سلسلہ سہیب رومی اور حسّان بن ثابت سے جوڑتی ہے جس نے نبی کی مدح شعر میں کہی۔"
+domain: media-performance
+kind: artistic
+hirfa: false
+era:
+  origins: pre-islamic
+  status_today: transformed
+places:
+  - { place: place/mecca, note: "The Prophet himself gave wa'z and counsel and told exemplary kisas in his sermons, and the meddahs count Hassan ibn Thabit — who praised the Prophet in verse — as the first of their craft; Evliya Çelebi names Suhayb al-Rumi (Abdulwahhab Gazi) as the meddahs' pir and places his tomb at Sivas.", sources: [source/tdv-kussas, source/tdv-meddah] }
+  - { place: place/istanbul, note: "In Ottoman Istanbul the kıssahan told his tales in the markets, the mansions and the palace; as the tellers drifted from religious to secular matter they borrowed the imitation of voices and the freer anecdotes, while the meddah kept both the praise-repertory and the comic tale.", sources: [source/tdv-kissahan, source/tdv-meddah] }
+  - { place: place/karbala, note: "The Iranian line of the craft split by repertory: the şahnâmehan recited the Shahnameh tales from memory, the rûzehan narrated the events of Karbala as a professional lamenter, and the perdedârî told the sorrows of the ahl al-bayt before a curtain.", sources: [source/tdv-kissahan] }
+regions: [arabia, levant-iraq, egypt-nile, maghreb, persia-central-asia, anatolia-balkans, south-asia]
+organization:
+  organized: informal
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people]
+periods: [period/pre-islamic-arabia, period/prophetic-era, period/rashidun, period/umayyad, period/abbasid-early, period/abbasid-fragmentation, period/buyid-seljuk-fatimid-era, period/crusades-ayyubid-mamluk, period/mongol-post-mongol, period/gunpowder-empires, period/modern-era]
+sources: [source/tdv-kissahan, source/tdv-meddah, source/tdv-kussas]
+training:
+  mode: mouth-to-mouth
+  certification: "The religious qāss needed permission — the scholars held that no one might preach kisas without the emir's licence, and required the qualities of piety and learning; Ibn al-Jawzi's Kitab al-Qussas wa'l-mudhakkirin is the entry's standing witness. The popular meddah learned by watching and serving the masters of the coffeehouse stage; his craft was memorised repertory, mimicry of voices and the patter of the tale."
+  duration: "Apprenticeship in the listening-room; the ozan and meddah line was carried inside the community, in the aşiret life of the Turks and later in the coffeehouses."
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-arts-1" }
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi, 'KISSAHAN' (Altunel, 2022), 'MEDDAH' (Nutku, 2003) and 'KUSSÂS' (Cirit, 2002), web editions read on 16 Nov 2026"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-arts-1-drafting"

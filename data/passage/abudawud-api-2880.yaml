@@ -1,0 +1,17 @@
+id: passage/abudawud-api-2880
+class: passage
+tags: [wasaya-browser, wasaya-wasiyya]
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "2880"
+label: { ar: "سنن أبي داود 2880 — وصية أو عهد أخير", en: "Sunan Abi Dawud 2880 — a testament or parting counsel", ur: "سنن ابی داؤد 2880 — وصیت یا آخری نصیحت" }
+text: "حَدَّثَنَا الرَّبِيعُ بْنُ سُلَيْمَانَ الْمُؤَذِّنُ، حَدَّثَنَا ابْنُ وَهْبٍ، عَنْ سُلَيْمَانَ، - يَعْنِي ابْنَ بِلاَلٍ - عَنِ الْعَلاَءِ بْنِ عَبْدِ الرَّحْمَنِ، أُرَاهُ عَنْ أَبِيهِ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ رَسُولَ اللَّهِ قَالَ \" إِذَا مَاتَ الإِنْسَانُ انْقَطَعَ عَنْهُ عَمَلُهُ إِلاَّ مِنْ ثَلاَثَةِ أَشْيَاءَ مِنْ صَدَقَةٍ جَارِيَةٍ أَوْ عِلْمٍ يُنْتَفَعُ بِهِ أَوْ وَلَدٍ صَالِحٍ يَدْعُو لَهُ \"."
+summary:
+  ar: "حديث في سنن أبي داود، رقم 2880، يذكر وصية أو عهد أخير. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan Abi Dawud, no. 2880 (Wills (Kitab Al-Wasaya)), that mentions a testament or parting counsel. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
+  ur: "سنن ابی داؤد کی حدیث نمبر 2880، جس میں وصیت یا آخری نصیحت کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-wasiyya, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 2880 (book 18 hadith 19); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

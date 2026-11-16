@@ -1,0 +1,43 @@
+id: event/testament-of-al-mamun-at-al-badandun
+class: event
+kind: death
+label:
+  ar: وصية المأمون بالبذندون في مرضه ودفنه بطرسوس
+  en: Testament of al-Ma'mun at al-Badandun and his burial at Tarsus
+  ur: مامون کی البذندون میں وصیت اور طرسوس میں تدفین
+summary:
+  ar: "مرض المأمون في غزوته بأرض الروم عند عين البذندون وأوصى بالخلافة لأخيه المعتصم، وأشهد على وصيته القضاة والأمراء والوزراء بحضور ابنه العباس {cite:al-bidaya-wal-nihaya scan vol. 5 p. 677}. وفيها أمر أن يُوجَّه بعد موته وأن يصلي عليه أقرب أقاربه ويكبّر خمساً، ووصى أخاه برعاية الرعية وبعبد الله بن طاهر وابن أبي دؤاد وبني علي {cite:tarikh-islam-dhahabi scan vol. 18 p. 26}. وأوصى المعتصم بما كان يعتقده في القرآن ومات عليه، وقد امتنع أحمد بن حنبل عن الإجابة في المحنة {cite:al-bidaya-wal-nihaya scan vol. 5 p. 677}{cite:tarikh-islam-dhahabi scan vol. 18 p. 25}. وتوفي في رجب سنة ثماني عشرة ومئتين ودُفن بطرسوس في دار خاقان الخادم {cite:al-bidaya-wal-nihaya scan vol. 5 p. 677}."
+  en: "Al-Ma'mun fell ill on campaign in Byzantine land at the spring of al-Badandun and left the caliphate to his brother al-Mu'tasim, calling the judges, commanders and viziers to witness in the presence of his son al-Abbas {cite:al-bidaya-wal-nihaya scan vol. 5 p. 677}. He instructed that after his death he be laid out toward the qibla and prayed over by his nearest kinsman with five takbirs, and counselled his brother concerning the subjects, Abd Allah ibn Tahir, Ibn Abi Du'ad and the descendants of Ali {cite:tarikh-islam-dhahabi scan vol. 18 p. 26}. He charged al-Mu'tasim to hold his belief about the Qur'an and died on it; Ahmad ibn Hanbal declined to answer in the trial {cite:al-bidaya-wal-nihaya scan vol. 5 p. 677}{cite:tarikh-islam-dhahabi scan vol. 18 p. 25}. He died in Rajab of 218 and was buried at Tarsus in the house of Khaqan the servant {cite:al-bidaya-wal-nihaya scan vol. 5 p. 677}."
+  ur: "مامون رومی علاقے میں مہم کے دوران البذندون کے چشمے پر بیمار ہوئے اور خلافت اپنے بھائی معتصم کو سونپی، بیٹے عباس کی موجودگی میں قاضیوں، سرداروں اور وزیروں کو گواہ بنایا {cite:al-bidaya-wal-nihaya scan vol. 5 p. 677}۔ ہدایت کی کہ موت کے بعد انھیں قبلہ رخ کیا جائے، قریب ترین رشتہ دار نماز پڑھائے اور پانچ تکبیریں کہے، اور بھائی کو رعیت، عبداللہ بن طاہر، ابن ابی دؤاد اور اولادِ علی کے بارے میں نصیحت کی {cite:tarikh-islam-dhahabi scan vol. 18 p. 26}۔ انھوں نے معتصم کو قرآن کے بارے میں اپنے عقیدے کی وصیت کی اور اسی پر فوت ہوئے؛ احمد بن حنبل نے آزمائش میں جواب دینے سے انکار کیا {cite:al-bidaya-wal-nihaya scan vol. 5 p. 677}{cite:tarikh-islam-dhahabi scan vol. 18 p. 25}۔ وہ سن 218 کے رجب میں فوت ہوئے اور طرسوس میں خادم خاقان کے گھر میں دفن ہوئے {cite:al-bidaya-wal-nihaya scan vol. 5 p. 677}۔"
+wings: [time, people, words]
+tags: [wasaya-browser, wasaya-caliphs, wasaya-wasiyya, wasaya-ihtidar, wasaya-marqad]
+periods:
+- period/abbasid-early
+regions:
+- anatolia-balkans
+date:
+  start: { hijri: "0218-07", precision: month, status: tradition, note: "الخميس لاثنتي عشرة ليلة بقيت من رجب سنة ثماني عشرة ومئتين {cite:tarikh-islam-dhahabi scan vol. 18 p. 240}", sources: [source/tarikh-islam-dhahabi, source/al-bidaya-wal-nihaya] }
+relations:
+- { type: part_of, target: event/death-of-mamun, sources: [source/tarikh-islam-dhahabi] }
+- { type: occurred_at, target: place/tarsus, sources: [source/tarikh-islam-dhahabi, source/al-bidaya-wal-nihaya] }
+- { type: mentions, target: building/tomb-of-al-mamun, sources: [source/al-bidaya-wal-nihaya] }
+- { type: had_participant, target: person/abd-allah-al-mamun, role: صاحب الوصية والمتوفى, sources: [source/tarikh-islam-dhahabi, source/al-bidaya-wal-nihaya, source/siyar-alam-nubala] }
+- { type: had_participant, target: person/al-mutasim, role: المعهود إليه بالخلافة وإمام الصلاة عليه, sources: [source/tarikh-islam-dhahabi, source/al-bidaya-wal-nihaya] }
+- { type: had_participant, target: person/al-abbas-ibn-al-mamun, role: ابنه الحاضر عند الوصية, sources: [source/tarikh-islam-dhahabi, source/al-bidaya-wal-nihaya] }
+- { type: had_participant, target: person/abd-allah-ibn-tahir, role: أوصى المعتصم بإقراره على عمله, sources: [source/tarikh-islam-dhahabi] }
+- { type: had_participant, target: person/yahya-ibn-aktham, role: حذّر المعتصم منه, sources: [source/tarikh-islam-dhahabi] }
+- { type: had_participant, target: person/ahmad-ibn-hanbal, role: امتنع عن الإجابة في المحنة, sources: [source/tarikh-islam-dhahabi, source/siyar-alam-nubala] }
+sources:
+- source/tarikh-islam-dhahabi
+- source/al-bidaya-wal-nihaya
+- source/siyar-alam-nubala
+provenance:
+  layer: own-research
+  source: "تاريخ الإسلام للذهبي، مسح مجلد 18 ص 25-26 و239-240؛ البداية والنهاية لابن كثير، مسح مجلد 5 ص 676-677؛ سير أعلام النبلاء، مسح مجلد 1 ص 940؛ أرقام الصفحات صفحات المسح"
+  generated_by: "Claude (claude-sonnet-5-5)"
+  model: claude-sonnet-5-5
+  run: wasaya-browser-1
+status:
+  review: draft
+  completeness: 2
+  generated_by: "Claude (claude-sonnet-5-5); wasaya-browser-1"

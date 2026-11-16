@@ -1,0 +1,16 @@
+id: passage/nasai-api-703
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "703"
+label: { ar: "سنن النسائي 703 — ساعة الاحتضار والوفاة", en: "Sunan al-Nasa'i 703 — a deathbed and last hours", ur: "سنن نسائی 703 — وقتِ وفات اور آخری لمحات" }
+text: "… سُوَيْدُ بْنُ نَصْرٍ، قَالَ أَنْبَأَنَا عَبْدُ اللَّهِ بْنُ الْمُبَارَكِ، عَنْ مَعْمَرٍ، وَيُونُسَ، قَالاَ قَالَ الزُّهْرِيُّ أَخْبَرَنِي عُبَيْدُ اللَّهِ بْنُ عَبْدِ اللَّهِ، أَنَّ عَائِشَةَ، وَابْنَ، عَبَّاسٍ قَالاَ لَمَّا نُزِلَ بِرَسُولِ اللَّهِ فَطَفِقَ يَطْرَحُ خَمِيصَةً لَهُ عَلَى وَجْهِهِ فَإِذَا اغْتَمَّ كَشَفَهَا عَنْ وَجْهِهِ قَالَ وَهُوَ كَذَلِكَ \" لَعْنَةُ اللَّهِ عَلَى الْيَهُودِ وَالنَّصَارَى اتَّخَذُوا قُبُورَ أَنْبِيَائِهِمْ مَسَاجِدَ \"."
+summary:
+  ar: "حديث في سنن النسائي، رقم 703، يذكر ساعة الاحتضار والوفاة. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan al-Nasa'i, no. 703 (The Book of the Masjids), that mentions a deathbed and last hours. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
+  ur: "سنن نسائی کی حدیث نمبر 703، جس میں وقتِ وفات اور آخری لمحات کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ihtidar, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 703 (book 8 hadith 16); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

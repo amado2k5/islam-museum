@@ -1,0 +1,16 @@
+id: passage/tirmidhi-api-906
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "906"
+label: { ar: "جامع الترمذي 906 — أثر من الآثار المحفوظة", en: "Jami' al-Tirmidhi 906 — a relic kept after its owner", ur: "جامع ترمذی 906 — محفوظ آثار و تبرکات" }
+text: "… سُنَّةٌ وَقَوْلَهُمْ بِدْعَةٌ. قَالَ وَسَمِعْتُ أَبَا السَّائِبِ يَقُولُ كُنَّا عِنْدَ وَكِيعٍ فَقَالَ لِرَجُلٍ عِنْدَهُ مِمَّنْ يَنْظُرُ فِي الرَّأْىِ أَشْعَرَ رَسُولُ اللَّهِ وَيَقُولُ أَبُو حَنِيفَةَ هُوَ مُثْلَةٌ. قَالَ الرَّجُلُ فَإِنَّهُ قَدْ رُوِيَ عَنْ إِبْرَاهِيمَ النَّخَعِيِّ أَنَّهُ قَالَ الإِشْعَارُ مُثْلَةٌ. قَالَ فَرَأَيْتُ وَكِيعًا غَضِبَ غَضَبًا شَدِيدًا وَقَالَ أَقُولُ لَكَ قَالَ رَسُولُ اللَّهِ وَتَقُولُ قَالَ إِبْرَاهِيمُ مَا أَحَقَّكَ …"
+summary:
+  ar: "حديث في جامع الترمذي، رقم 906، يذكر أثر من الآثار المحفوظة. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Jami' al-Tirmidhi, no. 906 (The Book on Hajj), that mentions a relic kept after its owner. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
+  ur: "جامع ترمذی کی حدیث نمبر 906، جس میں محفوظ آثار و تبرکات کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/tabarruk, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 906 (book 9 hadith 99); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

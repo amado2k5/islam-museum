@@ -1,0 +1,16 @@
+id: passage/bukhari-api-4483
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "4483"
+label: { ar: "صحيح البخاري 4483 — أثر من الآثار المحفوظة", en: "Sahih al-Bukhari 4483 — a relic kept after its owner", ur: "صحیح بخاری 4483 — محفوظ آثار و تبرکات" }
+text: "… قَالَ قَالَ عُمَرُ وَافَقْتُ اللَّهَ فِي ثَلاَثٍ ـ أَوْ وَافَقَنِي رَبِّي فِي ثَلاَثٍ ـ قُلْتُ يَا رَسُولَ اللَّهِ، لَوِ اتَّخَذْتَ مَقَامَ إِبْرَاهِيمَ مُصَلًّى وَقُلْتُ يَا رَسُولَ اللَّهِ يَدْخُلُ عَلَيْكَ الْبَرُّ وَالْفَاجِرُ، فَلَوْ أَمَرْتَ أُمَّهَاتِ الْمُؤْمِنِينَ بِالْحِجَابِ فَأَنْزَلَ اللَّهُ آيَةَ الْحِجَابِ قَالَ وَبَلَغَنِي مُعَاتَبَةُ النَّبِيِّ بَعْضَ نِسَائِهِ، فَدَخَلْتُ عَلَيْهِنَّ قُلْتُ إِنِ انْتَهَيْتُنَّ أَوْ لَيُبَدِّلَنَّ اللَّهُ رَسُولَهُ …"
+summary:
+  ar: "حديث في صحيح البخاري، رقم 4483، يذكر أثر من الآثار المحفوظة. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sahih al-Bukhari, no. 4483 (Prophetic Commentary on the Qur'an (Tafseer of the Prophet (pbuh))), that mentions a relic kept after its owner. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
+  ur: "صحیح بخاری کی حدیث نمبر 4483، جس میں محفوظ آثار و تبرکات کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/tabarruk, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 4483 (book 65 hadith 10); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

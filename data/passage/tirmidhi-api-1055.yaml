@@ -1,0 +1,16 @@
+id: passage/tirmidhi-api-1055
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "1055"
+label: { ar: "جامع الترمذي 1055 — دفن وقبر ومرقد", en: "Jami' al-Tirmidhi 1055 — a burial, grave or resting place", ur: "جامع ترمذی 1055 — تدفین، قبر اور مرقد" }
+text: "… عَنْ عَبْدِ اللَّهِ بْنِ أَبِي مُلَيْكَةَ، قَالَ تُوُفِّيَ عَبْدُ الرَّحْمَنِ بْنُ أَبِي بَكْرٍ بِحُبْشِيٍّ. قَالَ فَحُمِلَ إِلَى مَكَّةَ فَدُفِنَ فِيهَا فَلَمَّا قَدِمَتْ عَائِشَةُ أَتَتْ قَبْرَ عَبْدِ الرَّحْمَنِ بْنِ أَبِي بَكْرٍ فَقَالَتْ وَكُنَّا كَنَدْمَانَىْ جَذِيمَةَ حِقْبَةً مِنَ الدَّهْرِ حَتَّى قِيلَ لَنْ يَتَصَدَّعَا فَلَمَّا تَفَرَّقْنَا كَأَنِّي وَمَالِكًا لِطُولِ اجْتِمَاعٍ لَمْ نَبِتْ لَيْلَةً مَعَا ثُمَّ قَالَتْ وَاللَّهِ لَوْ …"
+summary:
+  ar: "حديث في جامع الترمذي، رقم 1055، يذكر دفن وقبر ومرقد. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Jami' al-Tirmidhi, no. 1055 (The Book on Jana''iz (Funerals)), that mentions a burial, grave or resting place. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
+  ur: "جامع ترمذی کی حدیث نمبر 1055، جس میں تدفین، قبر اور مرقد کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ziyarat-al-qubur, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 1055 (book 10 hadith 91); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

@@ -1,0 +1,16 @@
+id: passage/muslim-api-4612
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "4612"
+label: { ar: "صحيح مسلم 4612 — أثر من الآثار المحفوظة", en: "Sahih Muslim 4612 — a relic kept after its owner", ur: "صحیح مسلم 4612 — محفوظ آثار و تبرکات" }
+text: "… الْمُسْلِمُونَ وَالْكُفَّارُ وَلَّى الْمُسْلِمُونَ مُدْبِرِينَ فَطَفِقَ رَسُولُ اللَّهِ يَرْكُضُ بَغْلَتَهُ قِبَلَ الْكُفَّارِ قَالَ عَبَّاسٌ وَ أَنَا آخِذٌ بِلِجَامِ بَغْلَةِ رَسُولِ اللَّهِ أَكُفُّهَا إِرَادَةَ أَنْ لاَ تُسْرِعَ وَأَبُو سُفْيَانَ آخِذٌ بِرِكَابِ رَسُولِ اللَّهِ فَقَالَ رَسُولُ اللَّهِ \" أَىْ عَبَّاسُ نَادِ أَصْحَابَ السَّمُرَةِ \". فَقَالَ عَبَّاسٌ وَكَانَ رَجُلاً صَيِّتًا فَقُلْتُ بِأَعْلَى صَوْتِي أَيْنَ أَصْحَابُ السَّمُرَةِ قَالَ فَوَاللَّهِ …"
+summary:
+  ar: "حديث في صحيح مسلم، رقم 4612، يذكر أثر من الآثار المحفوظة. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sahih Muslim, no. 4612 (The Book of Jihad and Expeditions), that mentions a relic kept after its owner. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
+  ur: "صحیح مسلم کی حدیث نمبر 4612، جس میں محفوظ آثار و تبرکات کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/tabarruk, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 4612 (book 32 hadith 94); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

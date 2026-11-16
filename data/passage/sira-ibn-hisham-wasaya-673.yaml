@@ -1,0 +1,17 @@
+id: passage/sira-ibn-hisham-wasaya-673
+class: passage
+unit: chapter
+work: work/sira-ibn-ishaq-ibn-hisham
+ref: "673"
+label: { ar: "السيرة النبوية لابن هشام، ص 673 — وصية أو عهد أخير، ساعة الاحتضار والوفاة", en: "Ibn Hisham's Sira, p. 673 — a testament or parting counsel; a deathbed and last hours", ur: "سیرت ابن ہشام، ص 673 — وصیت یا آخری نصیحت، وقتِ وفات اور آخری لمحات" }
+text: "… صالح بن كيسان، عن الزهري، عن عبيدالله بن عبدالله بن عتبة، عَنْ عَائِشَةَ، قالت: كان آخرُ ما عهد رسولُ اللّٰه وَطِفِ أَن قال: لاَ يُثْرَكُ بِجَزِيرَةِ الْعَرَبِ دِينَانِ. فتنة الناس بوفاته وَلِ يقهِمْ قال ابن إسحاق: وَلَمَّا توفي رسولُ اللّٰه …"
+summary:
+  ar: "مقطع من السيرة النبوية لابن هشام، ص 673، يذكر وصية أو عهد أخير، وساعة الاحتضار والوفاة؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الوصايا والمواريث والآثار والمراقد."
+  en: "An excerpt from Ibn Hisham's Sira, p. 673, that mentions a testament or parting counsel, a deathbed and last hours; from the machine-read scan, quoted within forty words per the sources policy. The Testaments Browser lists it."
+  ur: "سیرت ابن ہشام، ص 673 کا اقتباس جس میں وصیت یا آخری نصیحت، وقتِ وفات اور آخری لمحات کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-wasiyya, sources: [source/ibn-hisham-sira] }
+  - { type: mentions, target: concept/ihtidar, sources: [source/ibn-hisham-sira] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan seerah/sira-ibn-hisham/20251231_20251231_0914, page 673; a window of at most 40 words chosen by the testaments detector (scripts/wasaya.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-ocr-1" }
+sources: [source/ibn-hisham-sira]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

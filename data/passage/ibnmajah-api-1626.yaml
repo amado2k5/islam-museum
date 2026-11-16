@@ -1,0 +1,16 @@
+id: passage/ibnmajah-api-1626
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "1626"
+label: { ar: "سنن ابن ماجه 1626 — وصية أو عهد أخير", en: "Sunan Ibn Majah 1626 — a testament or parting counsel", ur: "سنن ابن ماجہ 1626 — وصیت یا آخری نصیحت" }
+text: "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا إِسْمَاعِيلُ ابْنُ عُلَيَّةَ، عَنِ ابْنِ عَوْنٍ، عَنْ إِبْرَاهِيمَ، عَنِ الأَسْوَدِ، قَالَ: ذَكَرُوا عِنْدَ عَائِشَةَ أَنَّ عَلِيًّا كَانَ وَصِيًّا. فَقَالَتْ: مَتَى أَوْصَى إِلَيْهِ؟ فَلَقَدْ كُنْتُ مُسْنِدَتَهُ إِلَى صَدْرِي - أَوْ إِلَى حِجْرِي فَدَعَا بِطَسْتٍ فَلَقَدِ انْخَنَثَ فِي حِجْرِي فَمَاتَ وَمَا شَعَرْتُ بِهِ. فَمَتَى أَوْصَى ـ؟"
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 1626، يذكر وصية أو عهد أخير. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan Ibn Majah, no. 1626 (Chapters Regarding Funerals), that mentions a testament or parting counsel. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 1626، جس میں وصیت یا آخری نصیحت کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-wasiyya, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 1626 (book 6 hadith 194); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

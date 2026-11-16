@@ -1,0 +1,17 @@
+id: passage/muslim-api-4222
+class: passage
+tags: [wasaya-browser, wasaya-wasiyya]
+unit: hadith
+work: work/sahih-muslim
+ref: "4222"
+label: { ar: "صحيح مسلم 4222 — وصية أو عهد أخير", en: "Sahih Muslim 4222 — a testament or parting counsel", ur: "صحیح مسلم 4222 — وصیت یا آخری نصیحت" }
+text: "… يَزِيدُ، - يَعْنِي ابْنَ زُرَيْعٍ - حَدَّثَنَا رَوْحٌ، - وَهُوَ ابْنُ الْقَاسِمِ - ح وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا جَعْفَرُ بْنُ عَوْنٍ، كُلُّهُمْ عَنْ هِشَامِ بْنِ عُرْوَةَ، بِهَذَا الإِسْنَادِ أَمَّا أَبُو أُسَامَةَ وَرَوْحٌ فَفِي حَدِيثِهِمَا فَهَلْ لِي أَجْرٌ كَمَا قَالَ يَحْيَى بْنُ سَعِيدٍ. وَأَمَّا شُعَيْبٌ وَجَعْفَرٌ فَفِي حَدِيثِهِمَا أَفَلَهَا أَجْرٌ كَرِوَايَةِ ابْنِ بِشْرٍ."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 4222، يذكر وصية أو عهد أخير. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sahih Muslim, no. 4222 (The Book of Wills), that mentions a testament or parting counsel. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
+  ur: "صحیح مسلم کی حدیث نمبر 4222، جس میں وصیت یا آخری نصیحت کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-wasiyya, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 4222 (book 25 hadith 19); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

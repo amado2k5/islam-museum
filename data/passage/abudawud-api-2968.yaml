@@ -1,0 +1,16 @@
+id: passage/abudawud-api-2968
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "2968"
+label: { ar: "سنن أبي داود 2968 — ما خلّفه من تركة وميراث", en: "Sunan Abi Dawud 2968 — what was left behind: estate and inheritance", ur: "سنن ابی داؤد 2968 — ترکہ اور میراث" }
+text: "… بْنِ الزُّبَيْرِ، عَنْ عَائِشَةَ، زَوْجِ النَّبِيِّ أَنَّهَا أَخْبَرَتْهُ أَنَّ فَاطِمَةَ بِنْتَ رَسُولِ اللَّهِ أَرْسَلَتْ إِلَى أَبِي بَكْرٍ الصِّدِّيقِ تَسْأَلُهُ مِيرَاثَهَا مِنْ رَسُولِ اللَّهِ مِمَّا أَفَاءَ اللَّهُ عَلَيْهِ بِالْمَدِينَةِ وَفَدَكَ وَمَا بَقِيَ مِنْ خُمُسِ خَيْبَرَ. فَقَالَ أَبُو بَكْرٍ إِنَّ رَسُولَ اللَّهِ قَالَ \" لاَ نُورَثُ مَا تَرَكْنَا صَدَقَةٌ إِنَّمَا يَأْكُلُ آلُ مُحَمَّدٍ مِنْ هَذَا الْمَالِ \". …"
+summary:
+  ar: "حديث في سنن أبي داود، رقم 2968، يذكر ما خلّفه من تركة وميراث. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan Abi Dawud, no. 2968 (Tribute, Spoils, and Rulership (Kitab Al-Kharaj, Wal-Fai' Wal-Imarah)), that mentions what was left behind: estate and inheritance. The Testaments Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on testaments, last hours, estates, relics and graves."
+  ur: "سنن ابی داؤد کی حدیث نمبر 2968، جس میں ترکہ اور میراث کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/tarika-estate, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 2968 (book 20 hadith 41); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

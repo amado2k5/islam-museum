@@ -1,0 +1,28 @@
+id: event/deathbed-of-al-shafii
+class: event
+kind: death
+tags: [wasaya-browser, wasaya-successors, wasaya-wasiyya, wasaya-ihtidar, wasaya-marqad]
+label: { ar: "مرض الشافعي بمصر وكلمته للمزني ووفاته ودفنه بالقرافة", en: "Last illness, words to al-Muzani and burial of al-Shafi'i in Egypt", ur: "امام شافعی کا مصر میں مرضِ وفات، مزنی سے کلام اور قرافہ میں تدفین" }
+summary:
+  ar: "روى المزني أنه دخل على الشافعي في مرضه الذي مات فيه فسأله كيف أصبحت، فقال: أصبحت من الدنيا راحلاً ولإخواني مفارقاً ولسوء عملي ملاقياً وعلى الله وارداً، وما أدري أروحي تصير إلى جنة فأهنئها أو إلى نار فأعزّيها، ثم بكى وأنشد أبياتاً في رجائه عفو الله {cite:tabaqat-shafiiyya-kubra-subki-hajr vol. 1 p. 295} {cite:siyar-alam-nubala scan vol. 1 p. 3293}. وقال الربيع بن سليمان إنه قال له يوم الأحد إنه يودّ لو تعلّم الخلق كتبه على ألا يُنسب إليه منها شيء، ومات يوم الخميس، وانصرفوا من جنازته ليلة الجمعة فرأوا هلال شعبان سنة أربع ومئتين {cite:tarikh-islam-dhahabi scan vol. 17 p. 341}. ودُفن بالقرافة الصغرى ويُزار قبره {cite:wafayat-ayan scan vol. 4 p. 464}. ويقول الذهبي إن وصية الشافعي من رواية الحسين بن هشام البلدي غير صحيحة {cite:siyar-alam-nubala scan vol. 1 p. 3293}."
+  en: "Al-Muzani relates that he visited al-Shafi'i in his last illness and asked how he found himself that morning; al-Shafi'i said he was a departer from the world, a parter from his brothers, a meeter of his own bad deeds and a comer to God, and that he did not know whether his soul was going to Paradise, to be congratulated, or to the Fire, to be consoled; then he wept and recited verses on hoping for God's pardon {cite:tabaqat-shafiiyya-kubra-subki-hajr vol. 1 p. 295} {cite:siyar-alam-nubala scan vol. 1 p. 3293}. Al-Rabi' ibn Sulayman says that on Sunday al-Shafi'i told him he wished everyone would learn his books on condition that nothing in them be attributed to him; he died on Thursday and they returned from the funeral on Friday night and saw the crescent of Sha'ban in 204 {cite:tarikh-islam-dhahabi scan vol. 17 p. 341}. He was buried in the Lesser Qarafa and his grave is visited there {cite:wafayat-ayan scan vol. 4 p. 464}. Al-Dhahabi says the 'will of al-Shafi'i' reported by al-Husayn ibn Hisham al-Baladi is not sound {cite:siyar-alam-nubala scan vol. 1 p. 3293}."
+  ur: "مزنی روایت کرتے ہیں کہ وہ امام شافعی کی آخری بیماری میں ان کے پاس گئے اور پوچھا کہ صبح کیسی ہوئی؛ فرمایا: میں دنیا سے رخصت ہو رہا ہوں، بھائیوں سے جدا ہو رہا ہوں، اپنے برے اعمال سے ملنے والا اور اللہ پر وارد ہونے والا ہوں، اور نہیں جانتا کہ میری روح جنت کی طرف جائے گی کہ اسے مبارک دوں یا آگ کی طرف کہ اس سے تعزیت کروں؛ پھر رو پڑے اور اللہ کے عفو کی امید پر اشعار پڑھے {cite:tabaqat-shafiiyya-kubra-subki-hajr vol. 1 p. 295} {cite:siyar-alam-nubala scan vol. 1 p. 3293}۔ ربیع بن سلیمان کہتے ہیں کہ اتوار کے دن امام نے ان سے کہا کہ وہ چاہتے ہیں سب لوگ ان کی کتابیں سیکھ لیں بشرطیکہ ان میں سے کچھ ان کی طرف منسوب نہ ہو؛ وہ جمعرات کو فوت ہوئے اور ہم جمعہ کی رات جنازے سے لوٹے تو 204ھ کے شعبان کا ہلال دیکھا {cite:tarikh-islam-dhahabi scan vol. 17 p. 341}۔ انھیں قرافۂ صغریٰ میں دفن کیا گیا اور وہاں ان کی قبر کی زیارت کی جاتی ہے {cite:wafayat-ayan scan vol. 4 p. 464}۔ ذہبی کہتے ہیں کہ حسین بن ہشام بلدی کی روایت سے مروی «وصیتِ شافعی» صحیح نہیں {cite:siyar-alam-nubala scan vol. 1 p. 3293}۔"
+wings: [time, people]
+periods: [period/abbasid-early]
+date:
+  start: { hijri: "0204-07", precision: month, status: tradition, note: "ابن خلكان: توفي آخر يوم من رجب سنة أربع ومئتين {cite:wafayat-ayan scan vol. 4 p. 464}؛ والربيع بن سليمان: مات يوم الخميس وانصرفنا من جنازته ليلة الجمعة فرأينا هلال شعبان سنة أربع ومئتين {cite:tarikh-islam-dhahabi scan vol. 17 p. 341}" }
+relations:
+  - { type: had_participant, target: person/al-shafii, role: "المتوفى", sources: [source/siyar-alam-nubala, source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/al-muzani, role: "عائده وراوي كلمته الأخيرة", sources: [source/tabaqat-shafiiyya-kubra-subki-hajr, source/tarikh-islam-dhahabi] }
+  - { type: had_participant, target: person/al-rabi-ibn-sulayman-al-muradi, role: "راوي أيامه الأخيرة", sources: [source/tarikh-islam-dhahabi, source/wafayat-ayan] }
+  - { type: had_participant, target: person/yunus-ibn-abd-al-ala, role: "عائده في مرضه", sources: [source/tarikh-islam-dhahabi] }
+  - { type: occurred_at, target: place/al-qarafa, sources: [source/wafayat-ayan] }
+  - { type: mentions, target: building/mausoleum-of-imam-al-shafii, sources: [source/wafayat-ayan] }
+sources: [source/tabaqat-shafiiyya-kubra-subki-hajr, source/siyar-alam-nubala, source/tarikh-islam-dhahabi, source/wafayat-ayan]
+provenance:
+  layer: own-research
+  source: "al-Subki, Tabaqat al-Shafi'iyya al-Kubra (OpenITI text, printed volume and page) vol. 1 pp. 295-296; al-Dhahabi, Tarikh al-Islam (scan vol. 17 pp. 340-342) and Siyar A'lam al-Nubala (scan vol. 1 pp. 3292-3293); Ibn Khallikan, Wafayat al-A'yan (scan vol. 4 p. 464; OCR is rough). Page numbers of scan books are scan pages."
+  generated_by: "Claude (claude-sonnet-5-5)"
+  model: "claude-sonnet-5-5"
+  run: "wasaya-browser-1"
+status: { review: draft, completeness: 2, generated_by: "Claude (claude-sonnet-5-5); wasaya-browser-1" }

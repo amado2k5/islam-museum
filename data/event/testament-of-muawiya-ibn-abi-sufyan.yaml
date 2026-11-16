@@ -1,0 +1,39 @@
+id: event/testament-of-muawiya-ibn-abi-sufyan
+class: event
+kind: death
+label:
+  ar: وصية معاوية بن أبي سفيان ليزيد وفي كفنه وشعر النبي ودفنه بدمشق
+  en: Testament and burial of Mu'awiya ibn Abi Sufyan
+  ur: معاویہ بن ابی سفیان کی وصیت اور دمشق میں تدفین
+summary:
+  ar: "أوصى معاوية عند احتضاره بنصف ماله أن يُرد إلى بيت المال {cite:al-bidaya-wal-nihaya scan vol. 4 p. 511}، ونصح ابنه يزيد بالرفق بالناس والمشورة وإكرام أهل الشرف وحفظ شرف أهل الشام والحجاز في رواية الواقدي {cite:al-bidaya-wal-nihaya scan vol. 4 p. 600}. وأوصى أن يُكفَّن في ثوب كساه إياه النبي وأن يوضع ما عنده من شعره وقلامة أظفاره في فمه وأنفه وعينيه وأذنيه {cite:al-bidaya-wal-nihaya scan vol. 4 p. 512}. وتوفي بدمشق في رجب سنة ستين، وصلى عليه ابنه يزيد أو الضحاك بن قيس في اختلاف الروايات، ودُفن عند باب الصغير في قول الجمهور {cite:al-bidaya-wal-nihaya scan vol. 4 p. 512}."
+  en: "As he lay dying Mu'awiya bequeathed half his wealth to be returned to the treasury {cite:al-bidaya-wal-nihaya scan vol. 4 p. 511} and, in al-Waqidi's report, counselled his son Yazid to be gentle with people, to take counsel, to honour men of standing and to guard the standing of the people of Syria and the Hijaz {cite:al-bidaya-wal-nihaya scan vol. 4 p. 600}. He asked to be shrouded in a garment the Prophet had given him and to have the hair and nail parings he kept from the Prophet placed in his mouth, nose, eyes and ears {cite:al-bidaya-wal-nihaya scan vol. 4 p. 512}. He died in Damascus in Rajab of the year 60; the reports differ on whether Yazid or al-Dahhak ibn Qays prayed over him, and most place his grave at Bab al-Saghir {cite:al-bidaya-wal-nihaya scan vol. 4 p. 512}."
+  ur: "معاویہ نے آخری وقت میں اپنے نصف مال کو بیت المال میں لوٹانے کی وصیت کی {cite:al-bidaya-wal-nihaya scan vol. 4 p. 511}، اور واقدی کی روایت کے مطابق بیٹے یزید کو لوگوں سے نرمی، مشورے، معززین کی تکریم اور اہلِ شام و حجاز کی عزت کی نصیحت کی {cite:al-bidaya-wal-nihaya scan vol. 4 p. 600}۔ انھوں نے وصیت کی کہ انھیں نبی کے عطا کردہ کپڑے میں کفن دیا جائے اور نبی سے محفوظ کیے ہوئے بال اور ناخنوں کے تراشے ان کے منہ، ناک، آنکھوں اور کانوں میں رکھے جائیں {cite:al-bidaya-wal-nihaya scan vol. 4 p. 512}۔ وہ سن 60 کے رجب میں دمشق میں فوت ہوئے؛ نماز یزید نے پڑھائی یا ضحاک بن قیس نے، روایات مختلف ہیں، اور اکثر کے نزدیک قبر باب الصغیر میں ہے {cite:al-bidaya-wal-nihaya scan vol. 4 p. 512}۔"
+wings: [time, people, words]
+tags: [wasaya-browser, wasaya-caliphs, wasaya-wasiyya, wasaya-ihtidar, wasaya-mirath, wasaya-athar, wasaya-marqad]
+periods:
+- period/umayyad
+regions:
+- levant-iraq
+date:
+  start: { hijri: "0060-07", precision: month, status: tradition, note: "توفي في رجب سنة ستين ولا خلاف في ذلك، واختلفوا في اليوم {cite:al-bidaya-wal-nihaya scan vol. 4 p. 512}", sources: [source/al-bidaya-wal-nihaya] }
+relations:
+- { type: part_of, target: event/death-of-muawiya, sources: [source/al-bidaya-wal-nihaya] }
+- { type: occurred_at, target: place/damascus, sources: [source/al-bidaya-wal-nihaya, source/siyar-alam-nubala] }
+- { type: had_participant, target: person/muawiya-ibn-abi-sufyan, role: صاحب الوصية والمتوفى, sources: [source/al-bidaya-wal-nihaya, source/siyar-alam-nubala] }
+- { type: had_participant, target: person/yazid-ibn-muawiya, role: الموصى إليه, sources: [source/al-bidaya-wal-nihaya] }
+- { type: had_participant, target: person/abdullah-ibn-jafar, role: أوصى به معاوية ليزيد, sources: [source/al-bidaya-wal-nihaya] }
+sources:
+- source/al-bidaya-wal-nihaya
+- source/siyar-alam-nubala
+- source/tarikh-islam-dhahabi
+provenance:
+  layer: own-research
+  source: "البداية والنهاية لابن كثير، مسح مجلد 4 ص 511-512 و600؛ سير أعلام النبلاء، مسح مجلد 1 ص 3890؛ تاريخ الإسلام للذهبي، مسح مجلد 7 ص 316؛ أرقام الصفحات صفحات المسح"
+  generated_by: "Claude (claude-sonnet-5-5)"
+  model: claude-sonnet-5-5
+  run: wasaya-browser-1
+status:
+  review: draft
+  completeness: 2
+  generated_by: "Claude (claude-sonnet-5-5); wasaya-browser-1"

@@ -1,0 +1,40 @@
+id: event/last-days-and-testament-of-umar-ibn-abd-al-aziz
+class: event
+kind: death
+label:
+  ar: آخر أيام عمر بن عبد العزيز ووصيته وقبره في دير سمعان
+  en: Last days, testament and grave of Umar ibn Abd al-Aziz
+  ur: عمر بن عبدالعزیز کے آخری دن، وصیت اور دیرِ سمعان میں قبر
+summary:
+  ar: "مرض عمر بن عبد العزيز بدير سمعان من أرض حمص نحو عشرين يوماً وتوفي في رجب سنة إحدى ومئة {cite:tarikh-al-tabari scan vol. 3 p. 90}. ولما قيل له ألا يوصي لأبنائه الاثني عشر وهم فقراء أجاب بأن الله يتولى الصالحين وأنه لن يعطيهم حق أحد {cite:al-bidaya-wal-nihaya scan vol. 5 p. 226}. وأمر بشراء موضع قبره من أهل الدير فاشتُري من الراهب {cite:tarikh-al-tabari scan vol. 3 p. 98}، ورفض أن يُدفن في الحجرة مع النبي ورأى نفسه ليس أهلاً لها {cite:al-bidaya-wal-nihaya scan vol. 5 p. 227}. وكان قد ردّ المظالم حتى بقي من دخله أربعمئة دينار في السنة {cite:al-bidaya-wal-nihaya scan vol. 5 p. 225}."
+  en: "Umar ibn Abd al-Aziz fell ill at Dayr Sim'an in the district of Homs for about twenty days and died in Rajab of the year 101 {cite:tarikh-al-tabari scan vol. 3 p. 90}. Told to leave something to his twelve poor sons, he answered that God guards the righteous and that he would not give them anyone's right {cite:al-bidaya-wal-nihaya scan vol. 5 p. 226}. He had the place of his grave bought from the monastery's people, from the monk {cite:tarikh-al-tabari scan vol. 3 p. 98}, and declined to be buried with the Prophet, thinking himself not fit for that place {cite:al-bidaya-wal-nihaya scan vol. 5 p. 227}. He had returned the wrongs of the state until his income fell to four hundred dinars a year {cite:al-bidaya-wal-nihaya scan vol. 5 p. 225}."
+  ur: "عمر بن عبدالعزیز حمص کے علاقے کے دیرِ سمعان میں تقریباً بیس دن بیمار رہے اور سن 101 ہجری کے رجب میں فوت ہوئے {cite:tarikh-al-tabari scan vol. 3 p. 90}۔ جب ان سے کہا گیا کہ بارہ مفلس بیٹوں کے لیے کچھ وصیت کریں تو جواب دیا کہ اللہ نیکوں کا کارساز ہے اور وہ کسی کا حق انھیں نہیں دیں گے {cite:al-bidaya-wal-nihaya scan vol. 5 p. 226}۔ انھوں نے دیر والوں سے، یعنی راہب سے، اپنی قبر کی جگہ خریدوائی {cite:tarikh-al-tabari scan vol. 3 p. 98}، اور نبی کے پاس دفن ہونے کو یہ کہہ کر ٹھکرا دیا کہ وہ خود کو اس جگہ کا اہل نہیں سمجھتے {cite:al-bidaya-wal-nihaya scan vol. 5 p. 227}۔ وہ مظالم لوٹا چکے تھے یہاں تک کہ آمدنی چار سو دینار سالانہ رہ گئی {cite:al-bidaya-wal-nihaya scan vol. 5 p. 225}۔"
+wings: [time, people, words]
+tags: [wasaya-browser, wasaya-caliphs, wasaya-wasiyya, wasaya-ihtidar, wasaya-mirath, wasaya-marqad]
+periods:
+- period/umayyad
+regions:
+- levant-iraq
+date:
+  start: { hijri: "0101-07", precision: month, status: tradition, note: "رجب سنة إحدى ومئة؛ لخمس أو لعشر بقين منه في اختلاف الروايات {cite:tarikh-al-tabari scan vol. 3 p. 89}", sources: [source/tarikh-al-tabari] }
+relations:
+- { type: part_of, target: event/death-of-umar-ibn-abd-al-aziz, sources: [source/tarikh-al-tabari, source/al-bidaya-wal-nihaya] }
+- { type: related_to, target: event/sulayman-names-umar-ii-99, sources: [source/tarikh-al-tabari] }
+- { type: had_participant, target: person/umar-ibn-abd-al-aziz, role: صاحب الوصية والمتوفى, sources: [source/tarikh-al-tabari, source/al-bidaya-wal-nihaya, source/siyar-alam-nubala] }
+- { type: had_participant, target: person/maslama-ibn-abd-al-malik, role: حضر احتضاره وقيل صلى عليه, sources: [source/al-bidaya-wal-nihaya, source/siyar-alam-nubala] }
+- { type: had_participant, target: person/raja-ibn-haywa, role: غسّله وكفّنه بوصيته, sources: [source/al-bidaya-wal-nihaya] }
+- { type: had_participant, target: person/yazid-ibn-abd-al-malik, role: الخليفة بعده, sources: [source/tarikh-al-tabari] }
+sources:
+- source/tarikh-al-tabari
+- source/al-bidaya-wal-nihaya
+- source/siyar-alam-nubala
+provenance:
+  layer: own-research
+  source: "تاريخ الطبري، مسح مجلد 3 ص 88-99؛ البداية والنهاية لابن كثير، مسح مجلد 5 ص 225-228؛ سير أعلام النبلاء، مسح مجلد 1 ص 2915؛ أرقام الصفحات صفحات المسح"
+  generated_by: "Claude (claude-sonnet-5-5)"
+  model: claude-sonnet-5-5
+  run: wasaya-browser-1
+status:
+  review: draft
+  completeness: 2
+  generated_by: "Claude (claude-sonnet-5-5); wasaya-browser-1"
