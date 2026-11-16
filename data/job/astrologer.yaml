@@ -1,0 +1,39 @@
+id: job/astrologer
+class: job
+label: { ar: "المنجّم", en: "Astrologer (munajjim)", ur: "منجّم" }
+names:
+  - { value: "müneccim", kind: latinized, lang: tr }
+  - { value: "müneccimbaşı", kind: latinized, lang: tr }
+  - { value: "منجم باشي", kind: alternate }
+summary:
+  ar: "المنجّم هو من يشتغل بعلم أحكام النجوم، وهو العلم القائم على الاعتقاد بأن مواقع النجوم وحركاتها تكوّن نظام إشارات يمكن منه استنباط علم الغائب والحال والماضي، وقد سمّاه الفارابي أحد علمي النجوم وفرّقه عن علم النجوم التعليمي وهو الفلك الرياضي. كان المنجّمون في العصر العباسي يقترنون بالخلفاء وقادة الجيوش يعيّنون اليوم والساعة التي يُعمل فيها الأمر أو يُترك، ومن منجّمي هارون الرشيد قنقة الهندي. وعند العثمانيين صار رئيسهم المنجّم باشي، وهو الموظف المكلّف بالشؤون المتعلقة بالفلك والتنجيم في الدولة، ومنهم مصطفى بن علي الموقّت الذي صار رئيس المنجّمين بعد سنة 967هـ ⁦(1560م)⁩ واشتهر عند العامة بكوجا ساعتجي."
+  en: "The munajjim practised ilm-i ahkam-i nucum, the discipline resting on the belief that the positions and movements of the stars form a system of signs from which knowledge of the future, the present state and the past can be drawn; al-Farabi counts it one of the two sciences of the stars and separates it from ilm-i nujum-i ta'limi, mathematical astronomy proper. In the Abbasid age astrologers were attached to caliphs and army commanders to fix the day and hour on which a thing should or should not be done — Harun al-Rashid had the court astrologer Kanaka al-Hindi. Under the Ottomans their head was the müneccimbaşı, the official charged with astronomy and astrology affairs in the state; Mustafa b. Ali el-Muvakkit became reisülmüneccimin after 967/1560 and was popularly known as Koca Saatçi."
+  ur: "منجّم وہ شخص تھا جو علمِ احکامِ نجوم پر کام کرتا تھا — وہ علم جو اس عقیدے پر قائم ہے کہ ستاروں کے مقام اور حرکتیں ایک علامتوں کا نظام بناتی ہیں جس سے مستقبل، حال اور ماضی کا علم حاصل کیا جا سکتا ہے؛ فارابی نے اسے علومِ نجوم میں سے ایک قرار دیا اور اسے ریاضیاتی فلکیات سے الگ کیا۔ عباسی عہد میں منجّم خلفا اور سپہ سالاروں کے ساتھ منسلک رہتے اور ہر کام کا موزوں دن اور گھڑی بتاتے — ہارون الرشید کے درباری منجّم قنقہ ہندی تھے۔ عثمانیوں میں ان کا سردار منجّم باشی تھا، ریاست کا وہ افسر جو فلکیات و نجوم کے معاملات دیکھتا تھا؛ مصطفیٰ بن علی الموقّت 967ھ/1560ء کے بعد رئیس المنجّمین بنا اور عوام میں کوجا ساعتچی کہلایا۔"
+domain: sciences-numbers
+kind: scholarly
+hirfa: false
+era:
+  origins: pre-islamic
+  status_today: transformed
+places:
+  - { place: place/baghdad, note: "In the Abbasid age caliphs and army commanders tied their actions to their astrologers, who fixed the day and hour for each undertaking; Harun al-Rashid's court astrologer Kanaka al-Hindi is named in the entry's survey of astrological books.", sources: [source/tdv-ilm-i-ahkam-i-nucum] }
+  - { place: place/istanbul, note: "The müneccimbaşı was the Ottoman official responsible for astronomy and astrology affairs in the state; Mustafa b. Ali el-Muvakkit became reisülmüneccimin at the palace after 967 (1560) and at his death was succeeded by Takiyyüddin er-Râsıd.", sources: [source/tdv-muneccimbasi, source/tdv-mustafa-b-ali-el-muvakkit] }
+regions: [levant-iraq, egypt-nile, persia-central-asia, anatolia-balkans, andalus-europe, south-asia]
+organization:
+  organized: court-office
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people]
+periods: [period/abbasid-early, period/crusades-ayyubid-mamluk, period/gunpowder-empires, period/modern-era]
+sources: [source/tdv-ilm-i-ahkam-i-nucum, source/tdv-muneccim, source/tdv-muneccimbasi, source/tdv-mustafa-b-ali-el-muvakkit]
+training:
+  mode: ijaza-chain
+  certification: "No licence for the astrologer is described in the entries read. The craft ran on the books of ahkam-i nucum — mewalid and ihtiyarat literatures such as Kushyar ibn Labban's Madkhal, Ibn Hibinta's Mughni and al-Biruni's Tafhim — and on attachment to a court; the Ottoman müneccimbaşıs rose through the scholarly service, Mustafa b. Ali from the mosque muvakkitlik to the palace."
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-sci-1" }
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi: 'İLM-i AHKÂM-ı NÜCÛM' (T. Fehd, 2000; vol. 22 pp. 124-126), 'MUSTAFA b. ALİ el-MUVAKKİT' (İ. Fazlıoğlu, 2020; vol. 31 pp. 287-288), and the web pages 'MÜNECCİM' and 'MÜNECCİMBAŞI' (short/cross-reference entries already on main), all read on the web on 16 Nov 2026"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-sci-1-drafting"

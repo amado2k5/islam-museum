@@ -13,6 +13,10 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v1.57.0 — 2026-11-16
+### Added
+- Job Browser: six scientific professions — the astrologer (munajjim) who became the Ottoman müneccimbaşı, the muwaqqit timekeeper of the mosque and his muvakkithane, the mathematician of the riyaziyat, the engineer from the Banu Musa's hiyel to the Mühendishâne corps, the alchemist-chemist (kimyager), and the geographer — in Arabic, English and Urdu draft cited to the TDV entries İLM-i AHKÂM-ı NÜCÛM, İLM-i MÎKĀT, MATEMATİK, HİYEL, MÜHENDİSHÂNE, KİMYA and COĞRAFYA, and the science chapters of *The Legacy of Islam* (1931).
+
 ## v1.56.1 — 2026-11-16
 ### Added
 - Oxford Islamic Studies Online (OUP), read through Wayback Machine captures, is registered as a source family, with The Oxford Dictionary of Islam as its first work, and a general family for defunct sites preserved by the Internet Archive. Posture: facts in our own words, link-only for text, nothing captured stored. Readers can now follow citations to an entry's stable id.
