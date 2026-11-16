@@ -1,0 +1,337 @@
+id: invention/mamluk-hand-cannon
+class: invention
+label:
+  ar: المدفع اليدوي المملوكي ⁦(المدفع، مِدفع)⁩
+  en: The Mamluk hand cannon, the midfa
+  ur: مملوکی ہاتھ توپ، مدفع
+names:
+- value: مدفع
+  kind: alternate
+  lang: ar
+- value: مِدفع
+  kind: alternate
+  lang: ar
+- value: midfa
+  kind: alternate
+  lang: en
+- value: handgonne
+  kind: alternate
+  lang: en
+summary:
+  ar: أنبوب معدني يُحمّل بالبارود ويقذف مقذوفاً من فوهته، يثبّت على
+    قائم ويوقد من ثقب الإشعال — أول سلاح ناري شخصي؛ نص عربي من
+    1320-1350 يصف المدفع يقذف مقذوفات من أنبوب على رأس قائم، والمماليك
+    استعملوا المدافع بيقين بحلول 1342، ووصف القلقشندي مدفعاً معدنياً
+    يقذف كرة حديدية بين 1365 و1376 {cite:wikipedia-hand-cannon-en}
+    {cite:needham-gunpowder-epic-1986}.
+  en: A metal tube loaded with gunpowder that discharges a projectile
+    from its muzzle, mounted on a stock and fired through a touch hole
+    — the first personal firearm; an Arabic text of 1320-1350 describes
+    a midfa discharging projectiles from a tube at the end of a stock,
+    the Mamluks certainly used cannon by 1342, and al-Qalqashandi
+    described a metal cannon firing an iron ball between 1365 and 1376
+    {cite:wikipedia-hand-cannon-en} {cite:needham-gunpowder-epic-1986}.
+  ur: دھات کی نالی جو بارود بھر کر نال سے گولہ پھینکتی ہے، دستہ پر لگا
+    کر تدبرک کے سوراخ سے جلائی جاتی — پہلا ذاتی اسلحہ ناری؛ 1320-1350ء
+    کا عربی متن مدفع کو دستہ کے سرے کی نالی سے گولہ پھینکتا بیان کرتا
+    ہے، ممالیک نے 1342ء تک توپیں ضرور استعمال کیں، اور قلقشندی نے
+    1365-1376ء میں لوہے کی گیند پھینکنے والی دھات کی توپ بیان کی
+    {cite:wikipedia-hand-cannon-en} {cite:needham-gunpowder-epic-1986}۔
+domain: military
+kind: device
+disciplines:
+- engineering
+wings:
+- objects
+regions:
+- levant-iraq
+- egypt-nile
+- andalus-europe
+periods:
+- period/crusades-ayyubid-mamluk
+- period/mongol-post-mongol
+themes:
+- engineering-and-technology
+era:
+  origins: middle-period
+  first_attested:
+    edtf: "1342"
+    hijri: "0743"
+    calendar: julian
+    precision: year
+    status: debated
+    note: 'The dated anchor is Hammer''s certain Mamluk cannon use by
+      1342; the illustrated midfa description sits in an Arabic
+      manuscript tradition of c. 1320-1350, and Khan dates the arrival
+      of cannon in Mamluk Egypt as late as the 1370s — hence debated.
+      The hijri figure is a derived conversion.'
+    derived: true
+    sources:
+    - source/wikipedia-hand-cannon-en
+    - source/needham-gunpowder-epic-1986
+  status_today: replaced
+origin:
+  polity: polity/mamluk-sultanate
+  place: place/cairo
+  context:
+    ar: 'سياق عسكري مملوكي: ورث الجيش المملوكي تقاليد الفروسية النارية
+      من عهد الرماح ⁦(1240-1280)⁩ ثم ظهر المدفع في كتبها المصورة
+      ⁦(1320-1350)⁩؛ وتوثق الروايات استعماله حصارياً في سبعينيات القرن
+      الرابع عشر عبر البحرين والمغرب والأندلس {cite:wikipedia-hand-cannon-en}
+      {cite:partington-greek-fire-gunpowder-1960}.'
+    en: 'A Mamluk military setting: the sultanate''s army inherited the
+      pyrotechnic furusiyya tradition of al-Rammah''s generation
+      ⁦(1240-1280)⁩, then the midfa appears in its illustrated treatises
+      ⁦(1320-1350)⁩; contemporary accounts document its siege use into
+      the 1370s across the Mediterranean shores {cite:wikipedia-hand-cannon-en}
+      {cite:partington-greek-fire-gunpowder-1960}.'
+    ur: 'مملوکی فوجی سیاق: سلطنت کی فوج نے رماح کے عہد ⁦(1240-1280ء)⁩
+      کی نیرنگی فروسیہ روایت سمبھالی، پھر مدفع اس کے مصور رسالوں میں
+      ⁦(1320-1350ء)⁩ ظاہر ہوا؛ ہمعصر روایتیں سترہ سو ستر کی دہائی میں
+      بحیرۂ روم کے کنارے محاصراتی استعمال ثبت کرتی ہیں
+      {cite:wikipedia-hand-cannon-en} {cite:partington-greek-fire-gunpowder-1960}۔'
+makers:
+- person: person/hasan-al-rammah
+  role: describer
+  place: place/damascus
+  note: 'The furusiyya writer whose treatise (compiled c. 1280, d.
+    1294-95) describes fire lances and the pyrotechnic stage the midfa
+    belongs to; the firearm passages themselves appear in the later
+    illustrated Mamluk recensions of that tradition, not in his own
+    text — he names the lineage, not the gun.'
+  sources:
+  - source/partington-greek-fire-gunpowder-1960
+  - source/wikipedia-hand-cannon-en
+- person: person/al-qalqashandi
+  role: describer
+  place: place/cairo
+  note: 'The Mamluk chancery scholar who described a metal cannon
+    firing an iron ball in his administrative encyclopedia composed
+    between 1365 and 1376 — the documentary horizon of the weapon in
+    Mamluk service.'
+  sources:
+  - source/wikipedia-hand-cannon-en
+  - source/needham-gunpowder-epic-1986
+attribution:
+  status: contested
+  claim:
+    ar: 'ظهر المدفع اليدوي في النصوص والرسوم المملوكية بين 1320 و1352،
+      وبلغ الاستعمال اليقيني 1342؛ لكن موعد دخوله الجيش المملوكي
+      ومصدره — تقنية مغولية منقولة أم تطور محلي عن الرمح الناري —
+      متنازع عليه بين الرواية المبكرة وتأريخ خان المتأخر
+      {cite:wikipedia-hand-cannon-en} {cite:needham-gunpowder-epic-1986}.'
+    en: 'The hand cannon appears in Mamluk texts and drawings between
+      1320 and 1352, with certain use by 1342; but the date of its
+      entry into the Mamluk army and its source — a transmitted Mongol
+      technology or local development from the fire lance — is
+      contested between the early-use reading and Khan''s late dating
+      {cite:wikipedia-hand-cannon-en} {cite:needham-gunpowder-epic-1986}.'
+    ur: 'ہاتھ توپ 1320ء سے 1352ء کے درمیان مملوکی متون اور تصویروں میں
+      ظاہر ہوئی، 1342ء تک استعمال یقینی؛ مگر فوج میں اس کے داخلے کی
+      تاریخ اور سرچشمہ — منقولہ منگولی تکنیک یا مقامی ارتقا آتش نیزہ
+      سے — ابتدائی قراءت اور خان کی متأخر تاریخ کے درمیان متنازع ہے
+      {cite:wikipedia-hand-cannon-en} {cite:needham-gunpowder-epic-1986}۔'
+  basis:
+    ar: 'الشاهد المصور للمدفع في مخطوطة رزيفوسكي نحو 1320-1350؛ وهامر
+      يجزم باستعمال المماليك للمدافع 1342؛ والقلقشندي يصف مدفعاً
+      معدنياً يقذف كرة حديدية ⁦(1365-1376)⁩؛ ونيدهم يقرأ «مدفع» أصلاً
+      أنبوبة قاذف نفط؛ وخان يؤخر وصول المدفع لمصر إلى السبعينيات، بينما
+      ادعاء الحسن استعمالاً بعين جالوت ⁦(1260)⁩ خالفه مؤرخون آخرون
+      {cite:wikipedia-hand-cannon-en} {cite:needham-gunpowder-epic-1986}.'
+    en: 'The illustrated midfa witness in the Rzevuski manuscript of
+      c. 1320-1350; Hammer''s certain Mamluk cannon use by 1342;
+      al-Qalqashandi''s metal cannon firing an iron ball ⁦(1365-1376)⁩;
+      Needham reading midfa as originally a naphtha-projector tube;
+      Khan dating the cannon''s arrival in Egypt to the 1370s, while
+      al-Hassan''s claimed use at Ain Jalut ⁦(1260)⁩ contradicts other
+      historians {cite:wikipedia-hand-cannon-en}
+      {cite:needham-gunpowder-epic-1986}.'
+    ur: 'رضووسکی مخطوطہ ⁦(1320-1350ء قریب)⁩ میں مدفع کی مصور گواہی؛ ہامر
+      کا 1342ء میں مملوکی توپ استعمال یقینی؛ قلقشندی کی دھاتی توپ جو
+      لوہے کی گیند پھینکتی ⁦(1365-1376ء)⁩؛ نیڈہم کا مدفع کو اصل میں
+      نفط پھینکنے والی نالی پڑھنا؛ خان کی ستر کی دہائی کی متأخر تاریخ،
+      جب کہ الحسن کا عین جالوت ⁦(1260ء)⁩ دعویٰ دوسرے مؤرخین کے خلاف ہے
+      {cite:wikipedia-hand-cannon-en} {cite:needham-gunpowder-epic-1986}۔'
+  perspectives:
+  - tradition: sunni
+    id: early-use-reading
+    summary:
+      ar: 'الرواية المبكرة للاستعمال — في الإطار السني العام يُروى
+        السلاح الناري ابناً للتقليد الفروسي المملوكي نفسه: قرأ أحمد
+        يوسف الحسن مخطوطات القرن الرابع عشر على أنها تشهد استعمال
+        المدافع اليدوية بعين جالوت ⁦(1260)⁩، فتقدم الإسلام مدفعاً قبل
+        أوروبا؛ وهي قراءة موجودة لكنها مخالفة للتأريخ الغالب
+        {cite:wikipedia-hand-cannon-en}.'
+      en: 'The early-use reading — in the museum''s Sunni default frame
+        the firearm is told as a child of the Mamluk furusiyya
+        tradition itself: Ahmad Y. al-Hassan read fourteenth-century
+        Arabic manuscripts as recording hand cannon used at Ain Jalut
+        ⁦(1260)⁩, giving the Islamic world the gun before Europe; the
+        reading exists on record but contradicts the majority dating
+        {cite:wikipedia-hand-cannon-en}.'
+      ur: 'ابتدائی استعمال کی قراءت — سنی عمومی فریم میں اسلحہ ناری
+        مملوکی فروسیہ روایت کی اولاد کہا جاتا ہے: احمد یوسف الحسن نے
+        چودہویں صدی کے عربی مخطوطوں کو عین جالوت ⁦(1260ء)⁩ میں ہاتھ توپ
+        استعمال کی گواہی پڑھا، جس سے اسلامی دنیا کو یورپ سے پہلے بندوق
+        ملتی ہے؛ یہ قراءت ریکارڈ پر ہے مگر غالب تاریخ کے خلاف ہے
+        {cite:wikipedia-hand-cannon-en}۔'
+    sources:
+    - source/wikipedia-hand-cannon-en
+  - tradition: academic
+    id: midfa-horizon-1340s
+    summary:
+      ar: 'الحدود النصية للمدفع — نيدهم وخان وأندرادي يضبطون أفق السلاح
+        بمخطوطات 1320-1352 والمدفع المعدني الموثق من 1365، ويقرأ نيدهم
+        «مدفع» أصلاً أنبوبة قاذف نفط صارت اسم السلاح، ويؤرخ خان دخوله
+        مصر بالسبعينيات على يد تقنية منقولة من المغول
+        {cite:wikipedia-hand-cannon-en} {cite:needham-gunpowder-epic-1986}.'
+      en: 'The textual horizon reading — Needham, Khan and Andrade set
+        the weapon''s horizon at the 1320-1352 manuscripts and the
+        documented metal cannon of 1365; Needham reads midfa as
+        originally the tube of a naphtha projector that later named
+        the gun, and Khan dates its arrival in Egypt to the 1370s by
+        Mongol-transmitted technology {cite:wikipedia-hand-cannon-en}
+        {cite:needham-gunpowder-epic-1986}.'
+      ur: 'متنی حد کی قراءت — نیڈہم، خان اور انڈرادی اسلحہ کی حد
+        1320-1352ء مخطوطوں اور 1365ء کی مستند دھاتی توپ پر رکھتے ہیں؛
+        نیڈہم مدفع کو اصل میں نفط پھینکنے والی نالی پڑھتا ہے جو بعد میں
+        بندوق کا نام بنی، اور خان مصر میں اس کا داخلہ ستر کی دہائی میں
+        منگولی منقولہ تکنیک سے مؤرخ کرتا ہے {cite:wikipedia-hand-cannon-en}
+        {cite:needham-gunpowder-epic-1986}۔'
+    sources:
+    - source/wikipedia-hand-cannon-en
+    - source/needham-gunpowder-epic-1986
+precursors:
+- invention: invention/hasan-al-rammah-gunpowder-recipes
+  note: 'Al-Rammah''s treatise documents the pyrotechnic stage —
+    purified saltpetre, fire lances, incendiary compositions — a
+    generation before the midfa texts; the museum already catalogues
+    it.'
+  sources:
+  - source/partington-greek-fire-gunpowder-1960
+- external:
+    ar: الرمح الناري الصيني
+    en: The Chinese fire lance
+    ur: چینی آتش نیزہ
+  note: 'The fire-lance — a gunpowder tube on a polearm — is the
+    weapon family the midfa belongs to; Chinese hand cannon are
+    documented in battle by 1288.'
+  sources:
+  - source/wikipedia-hand-cannon-en
+  - source/needham-gunpowder-epic-1986
+dependents:
+- external:
+    ar: المدافع الحصارية المملوكية ثم العثمانية
+    en: Mamluk then Ottoman siege cannon
+    ur: مملوکی پھر عثمانی محاصراتی توپیں
+  note: 'The metal cannon documented by al-Qalqashandi grew into the
+    siege artillery the Ottomans would field at Constantinople a
+    century later.'
+  sources:
+  - source/wikipedia-hand-cannon-en
+- external:
+    ar: الأركبوس والمسكيت الأوروبيان
+    en: The European arquebus and musket
+    ur: یورپی ارکبوز اور بندوق
+  note: 'The hand cannon''s firing-mechanism descendants — the
+    fifteenth-century matchlock line that replaced the touch hole.'
+  sources:
+  - source/wikipedia-hand-cannon-en
+spread: []
+impact:
+  fields:
+  - military
+  changed:
+    ar: 'نقل البارود من المفرقعات الحصارية إلى سلاح يحمله الجندي: أنبوب
+      على قائم، يوقد يدوياً، يقذف مقذوفاً — الشكل الأولي لكل سلاح شخصي
+      لاحق {cite:wikipedia-hand-cannon-en}.'
+    en: 'It moved gunpowder from siege pyrotechnics to a soldier''s own
+      weapon: a tube on a stock, lit by hand, throwing a projectile —
+      the first shape of every personal firearm that followed
+      {cite:wikipedia-hand-cannon-en}.'
+    ur: 'بارود کو محاصراتی نیرنگی سے سپاہی کے ذاتی اسلحے میں بدل دیا:
+      دستہ پر لگی نالی، ہاتھ سے جلائی جائے، گولہ پھینکے — آنے والے ہر
+      ذاتی اسلحہ ناری کی ابتدائی شکل {cite:wikipedia-hand-cannon-en}۔'
+  history:
+    ar: 'في جيش المملكة المملوكية صار السلاح بنداً في العتاد خلال جيلين
+      من الرماح إلى القلقشندي، ثم ورثته العثمانية فحملته إلى سواتر
+      القسطنطينية، وغيّر ميزان الحروب البرية والبحرية في قرن
+      {cite:wikipedia-hand-cannon-en} {cite:ayalon-gunpowder-firearms-1956}.'
+    en: 'In the Mamluk army the weapon went from treatise novelty to
+      issue equipment within two generations of al-Rammah to
+      al-Qalqashandi; the Ottomans inherited it, carried it to the
+      walls of Constantinople, and it changed land and naval war
+      within a century {cite:wikipedia-hand-cannon-en}
+      {cite:ayalon-gunpowder-firearms-1956}.'
+    ur: 'مملوکی فوج میں یہ اسلحہ رماح سے قلقشندی تک دو نسلوں میں رسالہ
+      نیاپن سے معیاری سازوسامان بنا؛ عثمانیوں نے وراثت میں لے کر اسے
+      قسطنطنیہ کی دیواروں تک پہنچایا اور ایک صدی میں بر و بحر کی جنگیں
+      بدل دیں {cite:wikipedia-hand-cannon-en}
+      {cite:ayalon-gunpowder-firearms-1956}۔'
+  significance: 4
+  why: 'The first personal firearm in an Islamic textual tradition —
+    the midfa is where gunpowder meets the soldier''s own hands, and
+    its dating is still honestly contested.'
+described_in:
+- work/kitab-al-furusiyya-wal-manasib-al-harbiyya
+- work/subh-al-asha
+examples: []
+sites:
+- place/cairo
+- place/damascus
+concepts: []
+today:
+  form:
+    ar: 'لا يقاتل بها أحد اليوم؛ يبقى المدفع اليدوي المتحفي مرحلة بين
+      الرمح الناري والأركبوس، وموضوع نقاش تأريخي حي حول متى دخل البيت
+      الإسلامي {cite:wikipedia-hand-cannon-en}.'
+    en: 'No one fights with it now; the museum hand cannon stands as
+      the stage between fire lance and arquebus, and the subject of a
+      live dating debate over when it entered the Islamic world
+      {cite:wikipedia-hand-cannon-en}.'
+    ur: 'اب کوئی اس سے لڑائی نہیں کرتا؛ عجائب گھر کی ہاتھ توپ آتش نیزہ
+      اور ارکبوز کے درمیان مرحلہ ہے، اور اس کے اسلامی دنیا میں داخلے
+      کی تاریخ کا زندہ بحث {cite:wikipedia-hand-cannon-en}۔'
+  descendants:
+    ar: 'خلفتها البنادق المشعّلة والمسكيتات والبنادق الحديثة — كلها
+      أحفاد آلية الإشعال من ثقب {cite:wikipedia-hand-cannon-en}.'
+    en: 'Matchlocks, muskets and modern small arms — all descendants
+      of the touch-hole firing idea {cite:wikipedia-hand-cannon-en}.'
+    ur: 'فیتہ بندوقیں، مسکٹ اور جدید اسلحہ — سب تدبرک سوراخ سے جلانے
+      کے خیال کی اولادیں ہیں {cite:wikipedia-hand-cannon-en}۔'
+media:
+  diagram: media/diagram-mamluk-hand-cannon
+  image: media/diagram-mamluk-hand-cannon
+kids:
+  ar: 'تخيل أنبوباً حديدياً على عصا: تملؤه بالبارود، تدس فيه كرة، ثم
+    تشعل ناراً صغيرة عند ثقب — فتنطلق الكرة بدفعٍ ودوي. بهذا الشكل
+    البسيط بدأ السلاح الناري الشخصي في كتب مماليك القرن الرابع عشر.'
+  en: 'Imagine an iron tube on a stick: fill it with gunpowder, push
+    in a ball, touch fire to a small hole — and the ball flies out
+    with a bang. In that simple shape the personal firearm began in
+    the books of fourteenth-century Mamluk soldiers.'
+  ur: 'ایک لاٹھی پر لگی لوہے کی نالی سوچو: بارود بھرو، گیند رکھو،
+    چھوٹے سوراخ پر آگ لگاؤ — اور گیند دھماکے سے نکل پڑتی ہے۔ اسی
+    سادہ شکل میں چودہویں صدی کے مملوکی سپاہیوں کی کتابوں میں ذاتی
+    اسلحہ ناری کا آغاز ہوا۔'
+sources:
+- source/wikipedia-hand-cannon-en
+- source/needham-gunpowder-epic-1986
+- source/ayalon-gunpowder-firearms-1956
+- source/partington-greek-fire-gunpowder-1960
+status:
+  review: published
+  completeness: 2
+provenance:
+  layer: own-research
+  generated_by: devin-drafter-w2-31
+  model: devin
+  run: inventions-w2-31
+  source: 'English Wikipedia "Hand cannon" revision 1384930745
+    (entity facts only): midfa definition, Rzevuski MS c. 1320-1350,
+    Hammer''s certain 1342 Mamluk use, al-Qalqashandi 1365-1376 metal
+    cannon, Needham''s naphtha-tube etymology, Khan''s 1370s arrival
+    and Mongol-transmission argument, al-Hassan''s Ain Jalut 1260
+    claim and its contradiction. Needham 1986 and Ayalon 1956
+    bibliographic-only (Ayalon flagged in manifest). Partington 1960
+    already on repo for the al-Rammah pyrotechnic stage.'
