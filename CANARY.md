@@ -13,6 +13,10 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v1.50.0 — 2026-11-16
+### Added
+- Job Browser: six more trades join the professions — the saddler (sarraj) of Mehmed II's castle-factory and his five-thousand-man guild, the launderer (qassar) bound by hisba's deposit rules, the felt-maker (lubbud) of the keche caps and campaign baths, the grocer (baqqal), the bow-maker (qawwas) of the composite bow and the Ok-maidan range, and the armourer who forged and inlaid the mail — in Arabic, English and Urdu draft cited to Evliya Çelebi's guild procession, Ibn al-Ukhuwwa, Lane, al-Shayzari, and Elgood's *Islamic Arms and Armour* — the packet that completes the hirfa taxonomy.
+
 ## v1.49.0 — 2026-11-16
 ### Added
 - Lane handoff prompt: `docs/delegation/devin-handoff-prompt.md` is a self-contained brief that lets any agent resume the three content lanes (where things live, roles, lane state as of 15 November 2026, the open founder decisions and the first steps), so the work can continue on another tool without loss.

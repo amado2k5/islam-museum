@@ -1,0 +1,43 @@
+id: job/bow-maker
+class: job
+label: { ar: "القوّاس", en: "Bow-maker (qawwas, yayji)", ur: "کمان ساز ⁦(قوّاس)⁩" }
+names:
+  - { value: "Yaijian", kind: latinized, lang: tr }
+  - { value: "Okji", kind: alternate }
+  - { value: "kemankesh", kind: alternate }
+summary:
+  ar: "القوّاس صانع القوس، وأشرف ما صنعه القوس المركّب: قلب من خشب مقسّم يحمل قرن الجاموس في البطن الذي يواجه الرامي ووتر الوتر الممشوط في الظهر، وبتوازن الثلاثة تنثني القوس انحناء الرجوع ⁦(الرفلِكس)⁩ بلا كسر. يكتب لاثام وباترسن أن الرماية عند أهل المشرق فريضة دينية وماركة المحارب الكامل، حتى سُجّل تتلمذ أبناء السلاطين العثمانيين عند القوّاسين وصنع السلطان محمد الثالث خواتم الإبهام بيده؛ وفي إسطنبول إوليا للقوّاسين ⁦(يائيجيان)⁩ خمسمئة رجل بمئتي دكان بيرهم محمد الأكبر بن أبي بكر الذي قلّده عليّ، ودكاكينهم عند سلطان بايزيد وضريح مراد باشا وغلطة وأسكدار، وكان السلطان بايزيد نفسه قوّاساً؛ وبجوارهم صنّاع النبل ⁦(أُقجي)⁩ ثلاثمئة بمئتي دكان بيرهم أبو محمد بن عمران القوّاس الذي كان يحمل قوس النبي ونبله، وصنّاع قسّي الجرخ ⁦(زنبركجيان)⁩ ثمانون بعشر دكاكين."
+  en: "The qawwas made the bow, and the finest of his work was the composite bow: a core of spliced wood carrying water-buffalo horn on the belly that faces the archer and combed sinew on the back, the balance of the three letting the bow bend reflex without breaking. Latham and Paterson write that in the Muslim East archery was a religious duty and the mark of the accomplished warrior, so that the sons of Ottoman sultans are recorded as apprenticed to bowyers and Sultan Mehmet III himself fashioned thumb-rings. In Evliya's Istanbul the bow-makers (Yaijian) were five hundred men in two hundred shops under their patron Muhammad al-Akbar son of Abu Bakr, who was girded by Ali; their shops stood at Sultan Bayazid, at the monument of Murad Pasha, at Galata and Scutari, and Sultan Bayazid himself was a bow-maker; beside them marched the arrow-makers (Okji), three hundred men in two hundred shops, whose patron Abu Muhammad Ibn Umran al-Qawwas had charge of the Prophet's bow and arrows, and the crossbow-makers (Zenberekjian), eighty men in ten shops."
+  ur: "قوّاس کمان بنانے والا ہے، اور اس کا نفیس ترین کام مرکب کمان ہے: ٹکڑوں میں جوڑی لکڑی کا مرکز جس کی اندرونی سطح — رانی والے پیٹ — پر مہیش کا سینگ اور باہر کی پشت پر کنگھی کی ہوئی پائے کی تہ ہوتی، تینوں کا توازن کمان کو ریفلکس میں مڑنے دیتا بغیر ٹوٹے۔ لاتھم اور پیٹرسن لکھتے ہیں کہ مشرقِ اسلام میں تیر اندازی دینی فرض اور کامل جنگجو کی نشانی تھی، یہاں تک کہ عثمانی سلطانوں کے بیٹوں کو کمان سازوں کے ہاں شاگرد لکھا گیا اور سلطان محمد سوم خود انگوٹھے کی زِہ بناتا۔ اولیاء کے استنبول میں کمان ساز ⁦(یایجیان)⁩ پانچ سو آدمی دو سو دکانیں جن کے پیر ابو بکر کے بیٹے محمد اکبر ہیں جنہیں علی نے کمر بند پہنائی؛ ان کی دکانیں سلطان بایزید، مراد پاشا کے مقبرے، غلطہ اور اسکدار میں تھیں اور خود سلطان بایزید بھی کمان ساز تھا؛ ان کے ساتھ تیر ساز ⁦(اوقجی)⁩ تین سو آدمی دو سو دکانیں جن کے پیر ابو محمد بن عمران قوّاس نبی کے کمان و تیر کا حامل تھا، اور جنجرخ ⁦(زنبرکجیان)⁩ اسی آدمی دس دکانیں۔"
+domain: war-command
+kind: craft
+hirfa: true
+era:
+  origins: pre-islamic
+  status_today: transformed
+places:
+  - { place: place/istanbul, note: "Evliya gives the bow-makers five hundred men in two hundred shops at Sultan Bayazid, the Murad Pasha monument, Galata and Scutari, the arrow-makers three hundred in two hundred, and the crossbow-makers eighty in ten; the Ok-maidan held the bowmen's convent with the arrows, bows and weapons of famous bowmen hung in it and columns marking the celebrated shots.", sources: [source/evliya-seyahatname-hammer] }
+regions: [anatolia-balkans, persia-central-asia, south-asia, levant-iraq]
+organization:
+  organized: guild
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people]
+periods: [period/abbasid-early, period/crusades-ayyubid-mamluk, period/gunpowder-empires, period/modern-era]
+sources: [source/evliya-seyahatname-hammer, source/elgood-islamic-arms-armour-1979]
+craft:
+  materials: [wood, leather, textile]
+  techniques:
+    ar: "يشرح ماكويِن بناء القوس المركّب «جَهار خَم» الهندي من قوس مفكّك: قلب الخشب تسع قطع من خشب شجرة المطر متلاصقة بوصل ذيل السمكة حتى لا يُقطع النسيج، جانب البطن مفلطح ⁦(وعند العثمانيين محدّب)⁩ مخدّد مع القرن ليقوى الصمغ؛ قرن الجاموس الأسود سماكة ربع بوصة يغطي الأطراف المرنة ويرقّ إلى ثلاثة أجزاء من ستة عشر عند القبضة؛ والوتر ⁦(باي)⁩ من وتَر العرقوب للثور، يُكشط ويُجفّف فيُكسر بالمطرقة حتى يتليّن ثم يُمشّط بمشط حديدي حتى يصير كالكتّان الأبيض، أليافه من ثلاث إلى أربع عشرة بوصة، يُفرز بالطول لأن مناطق الانحناء يجب أن تُغطّى بليف واحد، وتُوزن حزم الوتر: أربعة دراهم للقبضة ودرهمان ونصف لكل طرف صلب ⁦(كوشه)⁩ وأربعة لكل ساعدة، مجموعه سبعة عشر درهماً للطبقة الواحدة وقد تبلغ الطبقات ثلاثاً. وعند لاثام وباترسن أساس القوس المركّب أن الخشب قالب الشكل، والقرن يحتمل الضغط في البطن، والوتر المبشور يحتمل الشدّ في الظهر؛ وأن الرامي الماهر يرى في تدريبه عبادة، وقد ظهرت القوس كثيراً في المنمنمات بين أيدي الملوك والأمراء، ولبس ذوو القدر خواتم الإبهام المزخرفة ليُعرفوا بالرماة."
+    en: "McEwen explains the composite 'four-curved' bow from a dissected specimen: the wooden core of nine rain-tree pieces joined by fish-tail splices so the grain is never cut across, its belly side flattened (the Ottoman bowyers preferred it arched), and core and horn grooved together for the glue; the black water-buffalo horn a quarter inch thick covering the flexible limbs and thinning to three-sixteenths at the handle; the sinew (pay) taken from the Achilles tendon of an ox, scraped, dried, hammered soft, then dragged through an iron comb to white flax fineness, fibres three to fourteen inches sorted by length because the bending sections must be covered by a single length, the bundles weighed — four dirhams for the handle, two and a half for each rigid gusheh end, four for each limb, seventeen dirhams to a layer and up to three layers. Latham and Paterson give the principle: the wood gives the form, the horn takes compression on the belly, the shredded sinew takes the tension on the back; the skilled archer saw his training as a religious duty, the bow appears constantly in miniatures in the hands of kings and princes, and men of substance wore ornamental thumb-rings to be known as archers."
+    ur: "مک ایون کاٹی گئی کمان سے مرکب «چہار خام» کی بناؤٹ بتاتا ہے: لکڑی کا مرکز بارش درخت کی نو ٹکڑیاں مچھلی دم جوڑ سے ملی ہوئیں تاکہ رسا نہ کٹے، پیٹ کی طرف چپٹا ⁦(عثمانی کمان ساز اسے محدب رکھتے)⁩ اور دونوں سطحیں گرہن بنائی ہوئیں تاکہ گوند مضبوط پکڑے؛ مہیش کا سیاہ سینگ چوتھائی انچ موٹا لچکدار بازوؤں پر اور دستے پر تین بٹہ سولہ تک پتلا؛ پائے ⁦(تندن)⁩ بیل کے پنڈلی کے رگ سے، کھرچ کر سکھا کر ہتھوڑے سے نرم، پھر لوہے کے کنگھی سے کھینچ کر سفید سن کی طرح — ریشے تین سے چودہ انچ، لمبائی کے حساب سے چھانٹے جاتے کہ موڑ والی جگہ ایک ہی ریشے سے ڈھکے، گٹھیاں تولی جاتیں: دستے کو چار درہم، ہر سخت سرے ⁦(گوشہ)⁩ کو ڈھائی، ہر بازو کو چار، کل سترہ درہم ایک تہ کا، اور تہیں تین تک ہوسکتی ہیں۔ لاتھم و پیٹرسن اصول بتاتے ہیں: لکڑی شکل دیتی، سینگ پیٹ پر دباؤ سہتا، کٹی پائے پشت پر کھچاؤ سہتی؛ ماہر تیر انداز اپنی مشق کو دینی فرض سمجھتا، مصوریاں کمان کو بادشاہوں اور امیروں کے ہاتھ میں دکھاتی ہیں، اور بڑے لوگ آرائشی انگوٹھے کی زِہ پہن کر خود کو کمان دار کہلواتے تھے۔"
+  guild:
+    bodies: []
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-harvest-6" }
+provenance:
+  layer: own-research
+  source: "Evliya (von Hammer) I,2 secs. 332-338 pp. 195-196 (bow-, arrow-, crossbow-makers, exercise-masters and bowmen), pp. 88-89 (the Ok-maidan bowmen's convent and record columns); Elgood (ed.) 1979, Latham & Paterson pp. 78-79 and McEwen pp. 90-93 — read on 16 Nov 2026 from the downloaded scans"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-harvest-6-drafting"
