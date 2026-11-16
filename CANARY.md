@@ -13,6 +13,10 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v1.72.0 — 2026-11-16
+### Added
+- Job Browser: six more trades — the butter-merchant (sammān), the box-maker (sandūqjī), the gold-thread-maker (sirmakesh), the firework-maker (fişekjī), the comb-maker (tarakçı) and the cotton-carder (naddāf) — in Arabic, English and Urdu draft cited to al-Shayzari, Ibn al-Ukhuwwa, Evliya Çelebi, Chalcraft and Lane.
+
 ## v1.71.0 — 2026-11-16
 ### Added
 - Job Browser: six more trades — the public weigher (qabbānī/kantarjī), the sail-maker (yelkencī), the bow-ring maker (zehgīrjī), the shagreen-maker (saghrījī), the match-maker (fiṭiljī) and the quiver-maker (tirkeşjī) — in Arabic, English and Urdu draft cited to Evliya Çelebi, Ibn al-Ukhuwwa, al-Shayzari, Chalcraft, Kunz's Book of the Pearl and Elgood's Islamic Arms and Armour.
