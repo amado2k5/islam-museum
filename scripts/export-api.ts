@@ -417,6 +417,7 @@ const FEATURE_EXPORTS: { file: string; feature: string; pick: (n: Node) => boole
         : ubuwwaTagSection(n),
       topics: n.class === "passage" ? ubuwwaTopicsOf(n) : [],
       signals: n.class === "passage" ? ubuwwaSignalsOf(n) : [],
+    }) },
   { file: "ukhuwwa.json", feature: "ukhuwwa-browser",
     pick: (n) => n.tags.includes(UKHUWWA_TAG) || isUkhuwwaPassage(n),
     fields: ["kind", "work", "ref", "unit", "text", "sura", "aya", "wings", "themes", "tags"],
