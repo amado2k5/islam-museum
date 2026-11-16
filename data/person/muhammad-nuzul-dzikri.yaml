@@ -1,0 +1,36 @@
+id: person/muhammad-nuzul-dzikri
+class: person
+names:
+  - { kind: full, value: "Muhammad Nuzul Dzikri" }
+  - { kind: alternate, value: "Ustadz Nuzul Dzikri" }
+label: { ar: "محمد نزل ذكري", en: "Muhammad Nuzul Dzikri", ur: "محمد نزل ذکری" }
+summary:
+  ar: "داعية إندونيسي من جاكرتا، وُلد سنة 1983 وتخرّج في معهد العلوم الإسلامية والعربية ⁦(ليبيا)⁩ سنة 2009. عُرف بدروسه المنتظمة في مسجد نور الإيمان ببلوك إم في جاكرتا ودروسه عبر الإنترنت في كتب التراث، وبلغت قناته على يوتيوب 913,000 مشترك و133,772,560 مشاهدة و5,582 مقطعًا بحسب vidIQ كما في 13 نوفمبر 2026."
+  en: "Indonesian preacher from Jakarta, born in 1983 and a 2009 graduate of the Institute of Islamic and Arabic Sciences (LIPIA). He is known for his regular study sessions at the Nurul Iman Mosque, Blok M Square, Jakarta, and his online lessons on classical works; his YouTube channel counted 913,000 subscribers, 133,772,560 views and 5,582 videos as read by vidIQ on 13 November 2026."
+  ur: "جکارتہ سے تعلق رکھنے والے انڈونیشی مبلغ، جو 1983ء میں پیدا ہوئے اور 2009ء میں انسٹی ٹیوٹ آف اسلامک اینڈ عربک سائنسز (LIPIA) سے فارغ التحصیل ہوئے۔ وہ جکارتہ کے بلاک ایم اسکوائر کی مسجد نور الایمان میں اپنے باقاعدہ دروس اور کلاسیکی کتب پر آن لائن اسباق کے لیے جانے جاتے ہیں؛ 13 نومبر 2026ء کی vidIQ قرأت کے مطابق ان کے یوٹیوب چینل کے سبسکرائبر 913,000، ویوز 133,772,560 اور ویڈیوز 5,582 تھیں۔"
+gender: male
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The Indonesian Wikipedia article's infobox gives his denomination as Sunni and his movement as Salafiyah, the movement field citing an Inside Indonesia piece of November 2023 on Salafism becoming fashionable. An infobox is structured data and never settles faith under this lane's rules, and no second independent prose source read in this build names a school for him — the academic writing read (a 2025 journal study of his YouTube Shorts and a 2026 thesis on his Instagram preaching) analyses his method and names no school. Under the two-source rule his school therefore stays unknown."
+    sources: [source/wikipedia-muhammad-nuzul-dzikri-id, source/youtube-muhammadnuzuldzikri]
+roles: [preacher]
+wings: [people, living]
+born:
+  edtf: "1983"
+  calendar: gregorian
+  precision: year
+  note: "Year only: the Indonesian Wikipedia infobox gives 1983, Jakarta; no source read gives a day or month."
+  sources: [source/wikipedia-muhammad-nuzul-dzikri-id]
+relations:
+  - { type: born_in, target: place/jakarta, sources: [source/wikipedia-muhammad-nuzul-dzikri-id] }
+  - { type: lived_in, target: place/jakarta, sources: [source/wikipedia-muhammad-nuzul-dzikri-id] }
+reach:
+  - { platform: youtube, metric: subscribers, value: 913000, date: "2026-11-13", note: "@muhammadnuzuldzikri, started 2 November 2017: 913,000 subscribers, 133,772,560 views and 5,582 videos as read by vidIQ on 13 November 2026 (figures as of that date, read in the wave-200 harvest on 15 November 2026). The figure is a dated platform count, not a museum-verified fact", sources: [source/vidiq-muhammad-nuzul-dzikri, source/youtube-muhammadnuzuldzikri] }
+sources: [source/wikipedia-muhammad-nuzul-dzikri-id, source/youtube-muhammadnuzuldzikri, source/vidiq-muhammad-nuzul-dzikri]
+provenance:
+  layer: own-research
+  source: "Built from the wave-200 (Indonesian/Malay scene) harvest §2.1 (researched 15 November 2026) and this build's own reads of the same date: the Indonesian Wikipedia article 'Muhammad Nuzul Dzikri' (read in full, 15 November 2026; no Arabic or English article exists, and no Wikidata item was found in this build's checks, so neither is registered), his own channel and its vidIQ statistics page. Qualification rests on his YouTube channel @muhammadnuzuldzikri: 913,000 subscribers, 133,772,560 views and 5,582 videos as read by vidIQ on 13 November 2026 — a dated platform figure above the men's bar. The article's biographical facts are used only where it cites a source (his official site and Uloom.id). His birth is recorded as the year 1983 only, as the infobox gives it. A July 2024 press rumour about his private life circulated in Indonesian media; it is not recorded here — the lane records no family detail beyond what understanding the work needs, and the rumour was denied in the same coverage. The harvest's adjacency screen was run on him and is documented in the wave-200 harvest file: no designated-organisation tie found. De-duplicated against the tree: no muhammad-nuzul-dzikri record existed."
+  generated_by: "Muse (Muse Wonder)"
+  run: "modern-figures-wave-200-A"
+status: { review: published, completeness: 2 }
