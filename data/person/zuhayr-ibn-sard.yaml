@@ -19,6 +19,12 @@ faith:
   - { value: sunni, basis: tradition, start: { edtf: "0630" }, sources: [source/mubarakpuri-raheeq] }
 born: { edtf: "630~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isti'ab" }
 died: { edtf: "630~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Isti'ab" }
+occupations:
+  - job: job/emir
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'emir', Job Browser linking wave 29"
+    sources: [source/mubarakpuri-raheeq]
 relations:
   - { type: member_of, target: group/hawazin }
   - { type: participated_in, target: event/hawazin-delegation-and-amnesty, role: head-of-delegation, sources: [source/mubarakpuri-raheeq] }

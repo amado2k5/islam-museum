@@ -13,6 +13,10 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v2.03.0 — 2026-11-17
+### Added
+- Job Browser linking wave 29: 39 `occupations:` edges on 25 person records — twelve emirs, eight muhaddiths, seven ulema, plus mutakallim, philosopher (Ibn Rushd gains three), faqih, qadi and physician links.
+
 ## v2.02.0 — 2026-11-17
 ### Added
 - Job Browser linking wave 28: 35 `occupations:` edges on 25 person records — finishes the teacher and qari pools; ten emirs, six ulema, four muhaddiths, plus mathematician, grammarian and poet links.

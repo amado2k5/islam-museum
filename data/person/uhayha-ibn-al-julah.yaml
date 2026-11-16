@@ -12,6 +12,12 @@ wings: [people]
 periods: [period/pre-islamic-arabia]
 regions: [arabia]
 died: { edtf: "600~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Aghani (al-Isfahani)" }
+occupations:
+  - job: job/emir
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'emir', Job Browser linking wave 29"
+    sources: [source/kamil-ibn-al-athir, source/ibn-hajar-isaba]
 relations:
   - { type: member_of, target: group/al-aws, sources: [source/kamil-ibn-al-athir] }
 
