@@ -1,0 +1,14 @@
+---
+id: concept/amrad-al-lisan
+lang: en
+source_lang: ar
+translators: [ai]
+---
+## Kinds of the disorder
+Diseases may occur in the tongue making a disorder in its movement — abolished, weakened or altered — and diseases making a disorder in its touching and tasting sense likewise; one of the two senses may fall without the other, taste without touch, the disease being able to set the disorder in the weaker of the two powers. The disease may be a bad temperament, or organic from greatness, smallness, corrupt shape or corrupt place — so it neither expands nor contracts — or a loosened unit, or a compound disease like one of the tumours {cite:canon-ibn-sina-print-v2 p.253} {cite:canon-ibn-sina-print-v2 p.254}
+## Sharing and the ways of inference
+The disorder may be its own, or from the brain's sharing — then the cheeks and lips mostly share too, and the other senses may share when the disorder is not in the nerve-branch proper to the tongue; it may also pain from the stomach's sharing and sometimes the lung's and chest's. The temperaments are read from colour — white, yellow, red, black — from touch and from the prevailing taste, a feeling as of acidity, sweetness, insipidity, bitterness or a foulness bred of putrefaction; yet the inference from its colour and tasted flavour may pass beyond it to other organs: its redness, especially with roughness, may point to sanguine tumours about the head, and its taste points the prevailing humour to the whole body or the stomach {cite:canon-ibn-sina-print-v2 p.254}
+## Dryness in two ways
+It is also read from its moisture and dryness, and dryness is felt two ways: one with a clean tongue-surface — the true dryness — and one with a flow in its substance, a viscid wetness gathering on it from a catarrh or from thick heavy vapours; and this is where the physicians err, taking the patient's report of a dry mouth without distinguishing the two kinds. Roughness follows dryness and smoothness follows wetness {cite:canon-ibn-sina-print-v2 p.254}
+## Inference from movement and the nerve
+It is read from its movement in speech, from its wasting and lightness, and from thickening until it is bitten every moment and its movement in speech grows heavy — pointing to a fullness of blood or wetness; and from the tumours and pustules occurring in it. The tongue may pain alone or with the brain or stomach sharing. And since the tongue's nerve is connected to several nerves, either those nerves comply with it in movement without hindering — the state of healthy speakers — or they hinder and do not comply easily, whence mumbling and the like; the mumbling may also come from a speech-block because the nerve draws its power from another nerve and stays held until it attains it {cite:canon-ibn-sina-print-v2 p.254} {cite:canon-ibn-sina-print-v2 p.255}

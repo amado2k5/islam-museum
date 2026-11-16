@@ -1,0 +1,33 @@
+id: concept/nazf-al-dam-fi-al-fam
+class: concept
+kind: scientific
+label:
+  ar: نزف الدم في الفم
+  en: Oozing of blood in the mouth
+  ur: منہ میں خون کا رسنا
+summary:
+  ar: نزف الدم إن كان خروجه من جوهر الفم وجلدته فعلاجه بالقوابض المذكورة في باب البثور وغيرها ولطبيخ أغصان من هذا الجنس منفعة عظيمة وإن كان من موضع آخر فقد أفرد له باباً بل أبواباً {cite:canon-ibn-sina-print-v2 p.264}
+  en: 'If the blood''s oozing comes out of the mouth''s substance and skin its treatment is by the astringents named in the pustule chapter and others, and a decoction of twigs of this kind has great benefit; if it is from another place, a chapter — indeed chapters — have been set apart for it (the names left out) {cite:canon-ibn-sina-print-v2 p.264}'
+  ur: 'اگر خون کا رسنا منہ کے جوہر اور کھال سے نکلتا ہو تو اس کا علاج دانوں والے باب اور دوسروں میں مذکور قابضوں سے ہے اور اسی جنس کی ڈالیوں کے جوشاندے کو بڑا نفع ہے؛ اور اگر کسی اور مقام سے ہو تو اس کے لیے الگ باب بلکہ ابواب رکھے گئے ہیں ⁦(نام مطروح)⁩ {cite:canon-ibn-sina-print-v2 p.264}'
+wings:
+- living
+tags:
+- tibb-browser
+- tibb-tibb
+sources:
+- source/canon-ibn-sina-print-v2
+relations:
+- type: part_of
+  target: concept/disease
+  sources:
+  - source/canon-ibn-sina-print-v2
+provenance:
+  layer: own-research
+  source: Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 6 (the mouth and the tongue, one maqala), scan page 264, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json, copied to /tmp before reading); editor footnotes used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping, cautery and operative sites and application methods left out; the frenum-cutting, the thread-needling and the hand-works carried only as the book's descriptions, not as procedures; unclear OCR words carried as printed, not guessed; case reports and named attributions carried as the book's attributions and labelled; animal-derived lines kept only as labelled listings set aside for the founder's ruling
+  generated_by: Devin subagent (SWE-2 Medium, Lane A4 worker)
+  model: swe-2-medium
+  run: a4-canon-book3-13
+status:
+  review: published
+  completeness: 1
+  generated_by: Devin subagent (SWE-2 Medium, book mining, lane A4)

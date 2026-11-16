@@ -18,3 +18,9 @@ Under the Karakhanids Talas became of special importance: it formed part of the 
 
 ## In the Nomisma vocabulary
 Nomisma holds a record for Taraz under the identifier «taraz» as a mint concept; at the query of 14 November 2026 no coin or coin type was attached to it as mint, although the Encyclopaedia of Islam article records coins struck at Talas. {cite:nomisma taraz}
+
+## In Yaqut's Mu'jam al-buldan
+Yaqut records Tiraz at the end of the fifth clime, giving its longitude as a hundred and a half degrees and its latitude forty degrees twenty-five minutes as printed; Abu Sa'd reads it with fatha while others read kasra, the final zay being agreed. It is a town near Isbijab of the marches of the Turks, near the place before it, and scholars were named after it, among them Mahmud ibn Ali al-Tirazi the jurist and debater who died in a year past five hundred and thirty. He adds that Tiraz is also a quarter of Isfahan, named for Tirazis who settled it. In the same section before it stands Turarband, a city beyond the Sayhun at the far end of the Shash lands toward Turkestan — in his telling the last of Islam's lands on the Transoxanian side — whose people drop half the name and say Tarar and Atrar. {cite:mujam-al-buldan-sader-1995 4 p.27}
+
+## The museum's identification
+The record's Taraz is the Turk-march town Yaqut places near Isbijab; on the same reading his Turarband entry, whose people shorten the name to Tarar, is the same city (Talas). The Isfahan quarter also called Tiraz is the same-named place he himself separates, and none of its material is carried onto this record.
