@@ -21,6 +21,17 @@ born:
   derived: true
   note: "Gregorian date from English Wikipedia, Arabic Wikipedia and Wikidata; the Hijri year (1371) is converter-derived."
   sources: [source/wikipedia-bulent-ersoy-en, source/wikidata-bulent-ersoy]
+occupations:
+  - job: job/singer
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'singer', Job Browser linking wave"
+    sources: [source/wikipedia-bulent-ersoy-en, source/wikipedia-bulent-ersoy-ar, source/wikidata-bulent-ersoy, source/wikidata]
+  - job: job/actor
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'actress', Job Browser linking wave"
+    sources: [source/wikipedia-bulent-ersoy-en, source/wikipedia-bulent-ersoy-ar, source/wikidata-bulent-ersoy, source/wikidata]
 relations:
   - { type: born_in, target: place/istanbul, sources: [source/wikipedia-bulent-ersoy-en, source/wikidata-bulent-ersoy] }
 faith:

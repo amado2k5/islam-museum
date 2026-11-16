@@ -35,6 +35,17 @@ faith:
     basis: unknown
     note: "No source read names a religious school for Awni Abd al-Hadi himself. Wikidata's structured religion value gives Islam only — a single structured family; his al-Fatat and Istiqlal roles, his Arab Higher Committee secretaryship and his legal work for the Supreme Muslim Council are offices and affiliations, and never count."
     sources: [source/wikipedia-awni-abd-al-hadi-en, source/wikipedia-awni-abd-al-hadi-ar, source/wikidata-awni-abd-al-hadi]
+occupations:
+  - job: job/diplomat
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'diplomat', Job Browser linking wave"
+    sources: [source/wikipedia-awni-abd-al-hadi-en, source/wikipedia-awni-abd-al-hadi-ar, source/wikidata-awni-abd-al-hadi]
+  - job: job/lawyer
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'lawyer', Job Browser linking wave"
+    sources: [source/wikipedia-awni-abd-al-hadi-en, source/wikipedia-awni-abd-al-hadi-ar, source/wikidata-awni-abd-al-hadi]
 relations:
   - { type: born_in, target: place/nablus, sources: [source/wikipedia-awni-abd-al-hadi-en, source/wikipedia-awni-abd-al-hadi-ar, source/wikidata-awni-abd-al-hadi] }
   - { type: died_in, target: place/cairo, sources: [source/wikipedia-awni-abd-al-hadi-en, source/wikipedia-awni-abd-al-hadi-ar, source/wikidata-awni-abd-al-hadi] }

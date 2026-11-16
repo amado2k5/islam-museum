@@ -29,6 +29,17 @@ died:
   derived: true
   note: "Died on 30 March 1977 at King's College Hospital, London, of liver cirrhosis following the schistosomiasis he had contracted as a child. London has no place entity in the museum yet, so no died_in relation is written; he is buried in the Al Bassatin Cemetery in Cairo, which grounds the buried_in relation to place/cairo. The Hijri year (1397) is derived by tabular conversion."
   sources: [source/wikipedia-abdel-halim-hafez-en, source/wikipedia-abdel-halim-hafez-ar, source/wikidata-abdel-halim-hafez]
+occupations:
+  - job: job/singer
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'singer', Job Browser linking wave"
+    sources: [source/wikipedia-abdel-halim-hafez-en, source/wikipedia-abdel-halim-hafez-ar, source/wikipedia-abdel-halim-hafez-ur, source/wikidata-abdel-halim-hafez, source/wikidata]
+  - job: job/actor
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'actor', Job Browser linking wave"
+    sources: [source/wikipedia-abdel-halim-hafez-en, source/wikipedia-abdel-halim-hafez-ar, source/wikipedia-abdel-halim-hafez-ur, source/wikidata-abdel-halim-hafez, source/wikidata]
 relations:
   - { type: lived_in, target: place/cairo, sources: [source/wikipedia-abdel-halim-hafez-en, source/wikipedia-abdel-halim-hafez-ar] }
   - { type: buried_in, target: place/cairo, sources: [source/wikipedia-abdel-halim-hafez-en, source/wikidata-abdel-halim-hafez] }

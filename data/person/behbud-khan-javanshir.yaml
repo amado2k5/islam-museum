@@ -31,6 +31,17 @@ died:
   derived: true
   note: "Assassinated at Constantinople (Istanbul) on 18 July 1921, shot by Misak Torlakian near the Pera Palace Hotel in Operation Nemesis; the Azerbaijani article adds that his funeral at the Yahya Efendi lodge in Beşiktaş on 20 July 1921 turned into a mass demonstration. All articles and Wikidata agree on the date. The Hijri year 1339 is the tabular conversion."
   sources: [source/wikipedia-behbud-khan-javanshir-en, source/wikipedia-behbud-khan-javanshir-az, source/wikipedia-behbud-khan-javanshir-ru, source/wikidata-behbud-khan-javanshir]
+occupations:
+  - job: job/engineer
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'engineer', Job Browser linking wave"
+    sources: [source/wikipedia-behbud-khan-javanshir-en, source/wikipedia-behbud-khan-javanshir-az, source/wikipedia-behbud-khan-javanshir-ru, source/wikidata-behbud-khan-javanshir, source/wikidata]
+  - job: job/diplomat
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'diplomat', Job Browser linking wave"
+    sources: [source/wikipedia-behbud-khan-javanshir-en, source/wikipedia-behbud-khan-javanshir-az, source/wikipedia-behbud-khan-javanshir-ru, source/wikidata-behbud-khan-javanshir, source/wikidata]
 relations:
   - { type: died_in, target: place/constantinople, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-behbud-khan-javanshir] }
   - { type: died_in, target: place/istanbul, sources: [source/wikipedia-behbud-khan-javanshir-en, source/wikipedia-behbud-khan-javanshir-az] }
