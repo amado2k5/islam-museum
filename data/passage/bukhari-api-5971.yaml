@@ -1,0 +1,21 @@
+id: passage/bukhari-api-5971
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "5971"
+label: { ar: "صحيح البخاري 5971 — أمك ثم أمك ثم أمك ثم أبوك", en: "Sahih al-Bukhari 5971 — Your mother, your mother, your mother, then your father", ur: "صحیح بخاری 5971 — تیری ماں، تیری ماں، تیری ماں، پھر تیرا باپ" }
+text: "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا جَرِيرٌ، عَنْ عُمَارَةَ بْنِ الْقَعْقَاعِ بْنِ شُبْرُمَةَ، عَنْ أَبِي زُرْعَةَ، عَنْ أَبِي هُرَيْرَةَ ـ رضى الله عنه ـ قَالَ جَاءَ رَجُلٌ إِلَى رَسُولِ اللَّهِ صلى الله عليه وسلم فَقَالَ يَا رَسُولَ اللَّهِ مَنْ أَحَقُّ بِحُسْنِ صَحَابَتِي قَالَ ‏\"‏ أُمُّكَ ‏\"‏‏.‏ قَالَ ثُمَّ مَنْ قَالَ ‏\"‏ أُمُّكَ ‏\"‏‏.‏ قَالَ ثُمَّ مَنْ قَالَ ‏\"‏ أُمُّكَ ‏\"‏‏.‏ قَالَ ثُمَّ مَنْ قَالَ ‏\"‏ ثُمَّ أَبُوكَ ‏\"‏‏.‏ وَقَالَ ابْنُ شُبْرُمَةَ وَيَحْيَى بْنُ أَيُّوبَ حَدَّثَنَا أَبُو زُرْعَةَ مِثْلَهُ‏.‏"
+summary:
+  ar: "عن أبي هريرة: جاء رجل يسأل من أحق الناس بحسن صحابتي، فكان الجواب أمك ثلاثا ثم أبوك."
+  en: "From Abu Hurayra: a man asked who most deserves his good company — «your mother« three times, then «your father«."
+  ur: "ابوہریرہ سے: شخص نے پوچھا میری اچھی صحبت کا سب سے زیادہ حق دار کون — تین بار «تیری ماں»، پھر «تیرا باپ»۔"
+relations:
+  - { type: part_of, target: passage/bukhari-kitab-78 }
+  - { type: mentions, target: concept/birr, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/huquq-al-walidayn, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/bunuwwa, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+tags: [bunuwwa-browser]
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 5971 (book-section 78); full text as published", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "bunuwwa-enrich-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the hadith-api Arabic edition; label and summary are the museum's own words" }

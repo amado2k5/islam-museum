@@ -1,0 +1,20 @@
+id: passage/muslim-api-6511
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "6511"
+label: { ar: "صحيح مسلم — من أدرك والديه عند الكبر", en: "Sahih Muslim — Whoever reaches his parents' old age", ur: "صحیح مسلم — جو والدین کی بڑھاپے کی عمر پائے" }
+text: "حَدَّثَنَا زُهَيْرُ بْنُ حَرْبٍ، حَدَّثَنَا جَرِيرٌ، عَنْ سُهَيْلٍ، عَنْ أَبِيهِ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ رَغِمَ أَنْفُهُ ثُمَّ رَغِمَ أَنْفُهُ ثُمَّ رَغِمَ أَنْفُهُ ‏\"‏ ‏.‏ قِيلَ مَنْ يَا رَسُولَ اللَّهِ قَالَ ‏\"‏ مَنْ أَدْرَكَ وَالِدَيْهِ عِنْدَ الْكِبَرِ أَحَدَهُمَا أَوْ كِلَيْهِمَا ثُمَّ لَمْ يَدْخُلِ الْجَنَّةَ ‏\"‏ ‏.‏"
+summary:
+  ar: "لفظ آخر: من أدرك والديه عند الكبر أحدهما أو كليهما ثم لم يدخل الجنة."
+  en: "Another wording: whoever reaches his parents in old age, one or both, and then does not enter Paradise."
+  ur: "دوسرے الفاظ: جو اپنے والدین کی بڑھاپے کی عمر پائے، ایک یا دونوں، پھر جنت میں نہ داخل ہو۔"
+relations:
+  - { type: part_of, target: passage/muslim-kitab-45 }
+  - { type: mentions, target: concept/uquq-al-walidayn, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/huquq-al-walidayn, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+tags: [bunuwwa-browser]
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 6511 (book-section 45); full text as published", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "bunuwwa-enrich-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the hadith-api Arabic edition; label and summary are the museum's own words" }

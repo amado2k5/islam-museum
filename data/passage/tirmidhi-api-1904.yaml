@@ -1,0 +1,20 @@
+id: passage/tirmidhi-api-1904
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "1904"
+label: { ar: "جامع الترمذي 1904 — الخالة بمنزلة الأم", en: "Jami' al-Tirmidhi 1904 — The maternal aunt is a mother's equal", ur: "جامع ترمذی 1904 — خالہ ماں کے مقام پر ہے" }
+text: "حَدَّثَنَا سُفْيَانُ بْنُ وَكِيعٍ، حَدَّثَنَا أَبِي، عَنْ إِسْرَائِيلَ، ح قَالَ وَحَدَّثَنَا مُحَمَّدُ بْنُ أَحْمَدَ، وَهُوَ ابْنُ مَدُّويَهْ حَدَّثَنَا عُبَيْدُ اللَّهِ بْنُ مُوسَى، عَنْ إِسْرَائِيلَ، وَاللَّفْظُ، لِحَدِيثِ عُبَيْدِ اللَّهِ عَنْ أَبِي إِسْحَاقَ الْهَمْدَانِيِّ، عَنِ الْبَرَاءِ بْنِ عَازِبٍ، عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏ \"‏ الْخَالَةُ بِمَنْزِلَةِ الأُمِّ ‏\"‏ ‏.‏ وَفِي الْحَدِيثِ قِصَّةٌ طَوِيلَةٌ ‏.‏ وَهَذَا حَدِيثٌ صَحِيحٌ ‏.‏"
+summary:
+  ar: "عن البراء بن عازب: الخالة بمنزلة الأم."
+  en: "From al-Bara ibn Azib: «the maternal aunt stands in the mother's place.»"
+  ur: "براء بن عازب سے: «خالہ ماں کے مقام پر ہے۔»"
+relations:
+  - { type: part_of, target: passage/tirmidhi-kitab-27 }
+  - { type: mentions, target: concept/birr, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/huquq-al-walidayn, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: person/muhammad, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+tags: [bunuwwa-browser]
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 1904 (book-section 27); full text as published", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "bunuwwa-enrich-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the hadith-api Arabic edition; label and summary are the museum's own words" }

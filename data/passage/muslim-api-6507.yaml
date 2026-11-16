@@ -1,0 +1,20 @@
+id: passage/muslim-api-6507
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "6507"
+label: { ar: "صحيح مسلم — ارجع إلى والديك فأحسن صحبتهما", en: "Sahih Muslim — Return to your parents and keep them good company", ur: "صحیح مسلم — اپنے والدین کے پاس لوٹو اور ان کی اچھی صحبت کرو" }
+text: "حَدَّثَنَا سَعِيدُ بْنُ مَنْصُورٍ، حَدَّثَنَا عَبْدُ اللَّهِ بْنُ وَهْبٍ، أَخْبَرَنِي عَمْرُو بْنُ الْحَارِثِ، عَنْ يَزِيدَ بْنِ أَبِي حَبِيبٍ، أَنَّ نَاعِمًا، مَوْلَى أُمِّ سَلَمَةَ حَدَّثَهُ أَنَّ عَبْدَ اللَّهِ بْنَ عَمْرِو بْنِ الْعَاصِ قَالَ أَقْبَلَ رَجُلٌ إِلَى نَبِيِّ اللَّهِ صلى الله عليه وسلم فَقَالَ أُبَايِعُكَ عَلَى الْهِجْرَةِ وَالْجِهَادِ أَبْتَغِي الأَجْرَ مِنَ اللَّهِ ‏.‏ قَالَ ‏\"‏ فَهَلْ مِنْ وَالِدَيْكَ أَحَدٌ حَىٌّ ‏\"‏ ‏.‏ قَالَ نَعَمْ بَلْ كِلاَهُمَا ‏.‏ قَالَ ‏\"‏ فَتَبْتَغِي الأَجْرَ مِنَ اللَّهِ ‏\"‏ ‏.‏ قَالَ نَعَمْ ‏.‏ قَالَ ‏\"‏ فَارْجِعْ إِلَى وَالِدَيْكَ فَأَحْسِنْ صُحْبَتَهُمَا ‏\"‏ ‏.‏"
+summary:
+  ar: "جاء رجل فبايع النبي على الهجرة ثم ذكر والديه فقيل له ارجع إلى والديك فأحسن صحبتهما."
+  en: "A man pledged the Prophet on migration, then his parents were mentioned and he was told: return to your parents and keep them good company."
+  ur: "ایک شخص نے ہجرت پر بیعت کی پھر اس کے والدین کا ذکر آیا تو کہا گیا: اپنے والدین کے پاس لوٹو اور ان کی اچھی صحبت کرو۔"
+relations:
+  - { type: part_of, target: passage/muslim-kitab-45 }
+  - { type: mentions, target: concept/birr, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/huquq-al-walidayn, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+tags: [bunuwwa-browser]
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 6507 (book-section 45); full text as published", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "bunuwwa-enrich-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the hadith-api Arabic edition; label and summary are the museum's own words" }

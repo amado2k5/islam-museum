@@ -1,0 +1,20 @@
+id: passage/bukhari-api-5970
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "5970"
+label: { ar: "صحيح البخاري 5970 — الصلاة على وقتها ثم بر الوالدين", en: "Sahih al-Bukhari 5970 — Prayer on time, then kindness to parents", ur: "صحیح بخاری 5970 — وقت پر نماز، پھر والدین سے نیکی" }
+text: "حَدَّثَنَا أَبُو الْوَلِيدِ، حَدَّثَنَا شُعْبَةُ، قَالَ الْوَلِيدُ بْنُ عَيْزَارٍ أَخْبَرَنِي قَالَ سَمِعْتُ أَبَا عَمْرٍو الشَّيْبَانِيَّ، يَقُولُ أَخْبَرَنَا صَاحِبُ، هَذِهِ الدَّارِ ـ وَأَوْمَأَ بِيَدِهِ إِلَى دَارِ عَبْدِ اللَّهِ ـ قَالَ سَأَلْتُ النَّبِيَّ صلى الله عليه وسلم أَىُّ الْعَمَلِ أَحَبُّ إِلَى اللَّهِ قَالَ ‏\"‏ الصَّلاَةُ عَلَى وَقْتِهَا ‏\"‏‏.‏ قَالَ ثُمَّ أَىُّ قَالَ ‏\"‏ ثُمَّ بِرُّ الْوَالِدَيْنِ ‏\"‏‏.‏ قَالَ ثُمَّ أَىّ قَالَ ‏\"‏ الْجِهَادُ فِي سَبِيلِ اللَّهِ ‏\"‏‏.‏ قَالَ حَدَّثَنِي بِهِنَّ وَلَوِ اسْتَزَدْتُهُ لَزَادَنِي‏.‏"
+summary:
+  ar: "في كتاب الأدب عن أبي عمرو الشيباني: أحب الأعمال إلى الله الصلاة على وقتها ثم بر الوالدين ثم الجهاد في سبيل الله."
+  en: "In the Book of Manners from Abu Amr al-Shaybani: the deeds most loved by God are prayer at its time, then kindness to the parents, then striving in God's cause."
+  ur: "کتاب الادب میں ابو عمرو شیبانی سے: اللہ کو محبوب ترین اعمال — وقت پر نماز، پھر والدین سے نیکی، پھر اللہ کی راہ میں جہاد۔"
+relations:
+  - { type: part_of, target: passage/bukhari-kitab-78 }
+  - { type: mentions, target: concept/birr, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/huquq-al-walidayn, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+tags: [bunuwwa-browser]
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 5970 (book-section 78); full text as published", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "bunuwwa-enrich-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the hadith-api Arabic edition; label and summary are the museum's own words" }

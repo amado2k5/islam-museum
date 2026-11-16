@@ -1,0 +1,20 @@
+id: passage/ibnmajah-api-3671
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "3671"
+label: { ar: "سنن ابن ماجه 3671 — أكرموا أولادكم وأحسنوا أدبهم", en: "Sunan Ibn Majah 3671 — Honor your children and discipline them well", ur: "سنن ابن ماجہ 3671 — اپنی اولاد کا احترام کرو اور اچھی تربیت دو" }
+text: "حَدَّثَنَا الْعَبَّاسُ بْنُ الْوَلِيدِ الدِّمَشْقِيُّ، حَدَّثَنَا عَلِيُّ بْنُ عَيَّاشٍ، حَدَّثَنَا سَعِيدُ بْنُ عُمَارَةَ، أَخْبَرَنِي الْحَارِثُ بْنُ النُّعْمَانِ، سَمِعْتُ أَنَسَ بْنَ مَالِكٍ، يُحَدِّثُ عَنْ رَسُولِ اللَّهِ ـ صلى الله عليه وسلم ـ أَنَّهُ قَالَ ‏ \"‏ أَكْرِمُوا أَوْلاَدَكُمْ وَأَحْسِنُوا أَدَبَهُمْ ‏\"‏ ‏.‏"
+summary:
+  ar: "عن أنس: أكرموا أولادكم وأحسنوا أدبهم."
+  en: "From Anas: «honor your children and make their discipline good.»"
+  ur: "انس سے: «اپنی اولاد کا احترام کرو اور ان کی تربیت اچھی کرو۔»"
+relations:
+  - { type: part_of, target: passage/ibnmajah-kitab-33 }
+  - { type: mentions, target: concept/bunuwwa, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/huquq-al-abna, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: person/muhammad, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+tags: [bunuwwa-browser]
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 3671 (book-section 33); full text as published", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "bunuwwa-enrich-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the hadith-api Arabic edition; label and summary are the museum's own words" }

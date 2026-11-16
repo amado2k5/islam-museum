@@ -1,0 +1,20 @@
+id: passage/muslim-api-6515
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "6515"
+label: { ar: "صحيح مسلم — صلة أهل ود الأب بعده", en: "Sahih Muslim — Keeping the father's friends after him", ur: "صحیح مسلم — باپ کے بعد اس کے دوستوں سے تعلق" }
+text: "حَدَّثَنَا حَسَنُ بْنُ عَلِيٍّ الْحُلْوَانِيُّ، حَدَّثَنَا يَعْقُوبُ بْنُ إِبْرَاهِيمَ بْنِ سَعْدٍ، حَدَّثَنَا أَبِي، وَاللَّيْثُ بْنُ سَعْدٍ جَمِيعًا عَنْ يَزِيدَ بْنِ عَبْدِ اللَّهِ بْنِ أُسَامَةَ بْنِ الْهَادِ، عَنْ عَبْدِ اللَّهِ بْنِ دِينَارٍ، عَنِ ابْنِ عُمَرَ، أَنَّهُ كَانَ إِذَا خَرَجَ إِلَى مَكَّةَ كَانَ لَهُ حِمَارٌ يَتَرَوَّحُ عَلَيْهِ إِذَا مَلَّ رُكُوبَ الرَّاحِلَةِ وَعِمَامَةٌ يَشُدُّ بِهَا رَأْسَهُ فَبَيْنَا هُوَ يَوْمًا عَلَى ذَلِكَ الْحِمَارِ إِذْ مَرَّ بِهِ أَعْرَابِيٌّ فَقَالَ أَلَسْتَ ابْنَ فُلاَنِ بْنِ فُلاَنٍ قَالَ بَلَى ‏.‏ فَأَعْطَاهُ الْحِمَارَ وَقَالَ ارْكَبْ هَذَا وَالْعِمَامَةَ - قَالَ - اشْدُدْ بِهَا رَأْسَكَ ‏.‏ فَقَالَ لَهُ بَعْضُ أَصْحَابِهِ غَفَرَ اللَّهُ لَكَ أَعْطَيْتَ هَذَا الأَعْرَابِيَّ حِمَارًا كُنْتَ تَرَوَّحُ عَلَيْهِ وَعِمَامَةً كُنْتَ تَشُدُّ بِهَا رَأْسَكَ ‏.‏ فَقَالَ إِنِّي سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏ \"‏ إِنَّ مِنْ أَبَرِّ الْبِرِّ صِلَةَ الرَّجُلِ أَهْلَ وُدِّ أَبِيهِ بَعْدَ أَنْ يُوَلِّيَ ‏\"‏ ‏.‏ وَإِنَّ أَبَاهُ كَانَ صَدِيقًا لِعُمَرَ ‏.‏"
+summary:
+  ar: "وفيه أن أباه كان صديقا لعمر، وفصل صلة الولد أهل ود أبيه بعد أن يولي."
+  en: "And in it, that his father had been a friend of Umar — the report spells out the son's keeping his father's friends after he is gone."
+  ur: "اور اس میں ہے کہ اس کا باپ عمر کا دوست تھا — روایت بیٹے کے باپ کے جانے کے بعد اس کے دوستوں سے تعلق رکھنے کو واضح کرتی ہے۔"
+relations:
+  - { type: part_of, target: passage/muslim-kitab-45 }
+  - { type: mentions, target: concept/birr, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/bunuwwa, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+tags: [bunuwwa-browser]
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 6515 (book-section 45); full text as published", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "bunuwwa-enrich-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the hadith-api Arabic edition; label and summary are the museum's own words" }

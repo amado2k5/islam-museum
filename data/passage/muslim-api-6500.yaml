@@ -1,0 +1,20 @@
+id: passage/muslim-api-6500
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "6500"
+label: { ar: "صحيح مسلم — أحق الناس بحسن الصحبة", en: "Sahih Muslim — Who most deserves good company", ur: "صحیح مسلم — اچھی صحبت کا سب سے حق دار" }
+text: "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدِ بْنِ جَمِيلِ بْنِ طَرِيفٍ الثَّقَفِيُّ، وَزُهَيْرُ بْنُ حَرْبٍ، قَالاَ حَدَّثَنَا جَرِيرٌ، عَنْ عُمَارَةَ بْنِ الْقَعْقَاعِ، عَنْ أَبِي زُرْعَةَ، عَنْ أَبِي هُرَيْرَةَ، قَالَ جَاءَ رَجُلٌ إِلَى رَسُولِ اللَّهِ صلى الله عليه وسلم فَقَالَ مَنْ أَحَقُّ النَّاسِ بِحُسْنِ صَحَابَتِي قَالَ ‏\"‏ أُمُّكَ ‏\"‏ ‏.‏ قَالَ ثُمَّ مَنْ قَالَ ‏\"‏ ثُمَّ أُمُّكَ ‏\"‏ ‏.‏ قَالَ ثُمَّ مَنْ قَالَ ‏\"‏ ثُمَّ أُمُّكَ ‏\"‏ ‏.‏ قَالَ ثُمَّ مَنْ قَالَ ‏\"‏ ثُمَّ أَبُوكَ ‏\"‏ ‏.‏ وَفِي حَدِيثِ قُتَيْبَةَ مَنْ أَحَقُّ بِحُسْنِ صَحَابَتِي وَلَمْ يَذْكُرِ النَّاسَ ‏.‏"
+summary:
+  ar: "عن أبي هريرة: من أحق الناس بحسن صحابتي، أمك ثلاثا ثم أبوك."
+  en: "From Abu Hurayra: who most deserves my good company — your mother, three times, then your father."
+  ur: "ابوہریرہ سے: میری اچھی صحبت کا سب سے حق دار کون — تیری ماں تین بار، پھر تیرا باپ۔"
+relations:
+  - { type: part_of, target: passage/muslim-kitab-45 }
+  - { type: mentions, target: concept/birr, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/huquq-al-walidayn, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+tags: [bunuwwa-browser]
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 6500 (book-section 45); full text as published", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "bunuwwa-enrich-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the hadith-api Arabic edition; label and summary are the museum's own words" }

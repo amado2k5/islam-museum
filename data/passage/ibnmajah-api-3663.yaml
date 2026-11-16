@@ -1,0 +1,20 @@
+id: passage/ibnmajah-api-3663
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "3663"
+label: { ar: "سنن ابن ماجه 3663 — الوالد أوسط أبواب الجنة", en: "Sunan Ibn Majah 3663 — The parent is the middle gate of Paradise", ur: "سنن ابن ماجہ 3663 — والد جنت کے دروازوں کا درمیانی دروازہ ہے" }
+text: "حَدَّثَنَا مُحَمَّدُ بْنُ الصَّبَّاحِ، حَدَّثَنَا سُفْيَانُ بْنُ عُيَيْنَةَ، عَنْ عَطَاءٍ، عَنْ أَبِي عَبْدِ الرَّحْمَنِ، عَنْ أَبِي الدَّرْدَاءِ، سَمِعَ النَّبِيَّ ـ صلى الله عليه وسلم ـ يَقُولُ ‏ \"‏ الْوَالِدُ أَوْسَطُ أَبْوَابِ الْجَنَّةِ فَأَضِعْ ذَلِكَ الْبَابَ أَوِ احْفَظْهُ ‏\"‏ ‏.‏"
+summary:
+  ar: "عن أبي الدرداء: الوالد أوسط أبواب الجنة فأضع ذلك الباب أو احفظه."
+  en: "From Abu al-Darda: «the parent is the middle gate of Paradise — so lose that door or keep it.»"
+  ur: "ابوالدرداء سے: «والد جنت کے دروازوں کا درمیانی دروازہ ہے — تو اس دروازے کو ضائع کرو یا اس کی حفاظت کرو۔»"
+relations:
+  - { type: part_of, target: passage/ibnmajah-kitab-33 }
+  - { type: mentions, target: concept/birr, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/huquq-al-walidayn, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: person/muhammad, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+tags: [bunuwwa-browser]
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 3663 (book-section 33); full text as published", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "bunuwwa-enrich-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the hadith-api Arabic edition; label and summary are the museum's own words" }

@@ -1,0 +1,20 @@
+id: passage/muslim-api-6501
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "6501"
+label: { ar: "صحيح مسلم — أمك ثم أمك ثم أمك ثم أبوك ثم أدناك", en: "Sahih Muslim — Mother three times, then father, then the nearest", ur: "صحیح مسلم — ماں تین بار، پھر باپ، پھر قریب تر" }
+text: "حَدَّثَنَا أَبُو كُرَيْبٍ، مُحَمَّدُ بْنُ الْعَلاَءِ الْهَمْدَانِيُّ حَدَّثَنَا ابْنُ فُضَيْلٍ، عَنْ أَبِيهِ، عَنْ عُمَارَةَ، بْنِ الْقَعْقَاعِ عَنْ أَبِي زُرْعَةَ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَجُلٌ يَا رَسُولَ اللَّهِ مَنْ أَحَقُّ بِحُسْنِ الصُّحْبَةِ قَالَ ‏ \"‏ أُمُّكَ ثُمَّ أُمُّكَ ثُمَّ أُمُّكَ ثُمَّ أَبُوكَ ثُمَّ أَدْنَاكَ أَدْنَاكَ ‏\"‏ ‏.‏"
+summary:
+  ar: "لفظ مسلم: أمك ثم أمك ثم أمك ثم أبوك ثم أدناك أدناك."
+  en: "In Muslim's wording: your mother three times, then your father, then the nearest and the nearest."
+  ur: "صحیح مسلم کے الفاظ: تیری ماں تین بار، پھر تیرا باپ، پھر قریب تر قریب تر۔"
+relations:
+  - { type: part_of, target: passage/muslim-kitab-45 }
+  - { type: mentions, target: concept/birr, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/huquq-al-walidayn, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+tags: [bunuwwa-browser]
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 6501 (book-section 45); full text as published", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "bunuwwa-enrich-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the hadith-api Arabic edition; label and summary are the museum's own words" }
