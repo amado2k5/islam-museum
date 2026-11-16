@@ -25,5 +25,11 @@ status:
   review: draft
   completeness: 1
 died: { edtf: "1687", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Dhariah / Ayan al-Shia Agrees with Wikidata Q5794930 (P570, a statement without a reference), item revision 2527647170, read on 13 November 2026.", sources: [source/wikidata] }
+occupations:
+  - job: job/philosopher
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'philosopher', Job Browser linking wave 47"
+    sources: [source/al-aalam]
 relations:
   - { type: lived_in, target: place/iran, note: "Only the record-level region (persia-central-asia) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }

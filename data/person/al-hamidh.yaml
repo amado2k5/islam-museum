@@ -16,5 +16,16 @@ provenance:
   run: lib-wafayat-batch-19
 sources: [source/wafayat-ayan]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+occupations:
+  - job: job/poet
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'poet', Job Browser linking wave 47"
+    sources: [source/wafayat-ayan]
+  - job: job/grammarian
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'philologist', Job Browser linking wave 47"
+    sources: [source/wafayat-ayan]
 relations:
   - { type: lived_in, target: place/baghdad, note: "Place association from the person's nisba/name (البغدادي); denotes association, not proven residence.", sources: [source/wafayat-ayan], confidence: low }

@@ -9,6 +9,12 @@ gender: male
 roles: [philologist]
 wings: [people]
 periods: [period/abbasid-fragmentation]
+occupations:
+  - job: job/grammarian
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'philologist', Job Browser linking wave 47"
+    sources: [source/wafayat-ayan]
 relations:
   - { type: lived_in, target: place/merv, confidence: low, note: "Associated with مرو per the record's own text; relation type pending review.", sources: [source/wafayat-ayan] }
 provenance:

@@ -28,5 +28,16 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch54
+occupations:
+  - job: job/philosopher
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'philosopher', Job Browser linking wave 47"
+    sources: [source/mawsuat-a3lam-ulama-adaba, source/biblissima]
+  - job: job/alim
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 47"
+    sources: [source/mawsuat-a3lam-ulama-adaba, source/biblissima]
 relations:
   - { type: born_in, target: place/jurjan, note: "From text: ولد في تاجو ويعرف بالشريف الجرجاني", sources: [source/mawsuat-a3lam-ulama-adaba] }

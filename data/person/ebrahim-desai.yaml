@@ -13,6 +13,12 @@ regions: [south-asia]
 periods: [period/contemporary-era]
 born: { edtf: "1963", precision: year, status: tradition, derived: true }
 died: { edtf: "2021", precision: year, status: tradition, derived: true }
+occupations:
+  - job: job/mufti
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'mufti', Job Browser linking wave 47"
+    sources: [source/al-aalam]
 relations:
   - { type: born_in, target: place/richmond, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/durban, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
