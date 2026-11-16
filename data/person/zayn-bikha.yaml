@@ -18,6 +18,12 @@ born:
 external_ids:
   wikidata: Q144371
   viaf: "5245136"
+occupations:
+  - job: job/musician
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'musician', Job Browser linking wave 21"
+    sources: [source/wikidata]
 relations:
   - { type: born_in, target: place/pretoria, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q3926)" }
 sources:

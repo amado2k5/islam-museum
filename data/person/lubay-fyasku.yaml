@@ -16,6 +16,12 @@ born:
   edtf: '1982'
   calendar: gregorian
   precision: year
+occupations:
+  - job: job/musician
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'musician', Job Browser linking wave 21"
+    sources: [source/wikidata]
 relations:
   - { type: born_in, target: place/chicago, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 external_ids:

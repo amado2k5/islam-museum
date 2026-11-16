@@ -19,6 +19,22 @@ roles: [scholar, writer, preacher, teacher]
 wings: [people, living]
 regions: [south-asia]
 born: { edtf: "1966", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Minhaj-ul-Quran Registry" }
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 21"
+    sources: [source/minhaj-hassan-phd, source/minhaj-hassan-phd-conferral, source/minhaj-youth-hassan-profile, source/vidiq-hassan-mohi-ud-din-qadri]
+  - job: job/preacher
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'preacher', Job Browser linking wave 21"
+    sources: [source/minhaj-hassan-phd, source/minhaj-hassan-phd-conferral, source/minhaj-youth-hassan-profile, source/vidiq-hassan-mohi-ud-din-qadri]
+  - job: job/teacher
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'teacher', Job Browser linking wave 21"
+    sources: [source/minhaj-hassan-phd, source/minhaj-hassan-phd-conferral, source/minhaj-youth-hassan-profile, source/vidiq-hassan-mohi-ud-din-qadri]
 relations:
   - { type: lived_in, target: place/lahore, confidence: low, note: "Associated with لاهور per the record's own summary text; relation type pending review.", sources: [source/minhaj-hassan-phd] }
   - type: child_of

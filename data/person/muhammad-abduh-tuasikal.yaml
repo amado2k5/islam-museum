@@ -20,6 +20,17 @@ born:
   precision: day
   status: historical
   sources: [source/wikipedia-muhammad-abduh-tuasikal-id, source/wikidata-muhammad-abduh-tuasikal]
+occupations:
+  - job: job/preacher
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'preacher', Job Browser linking wave 21"
+    sources: [source/wikipedia-muhammad-abduh-tuasikal-id, source/wikidata-muhammad-abduh-tuasikal, source/youtubers-me-rumaysho-tv]
+  - job: job/teacher
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'teacher', Job Browser linking wave 21"
+    sources: [source/wikipedia-muhammad-abduh-tuasikal-id, source/wikidata-muhammad-abduh-tuasikal, source/youtubers-me-rumaysho-tv]
 relations:
   - { type: born_in, target: place/ambon, sources: [source/wikipedia-muhammad-abduh-tuasikal-id, source/wikidata-muhammad-abduh-tuasikal] }
 faith:
