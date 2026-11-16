@@ -1,0 +1,23 @@
+id: concept/far
+class: concept
+kind: natural
+label:
+  ar: "فأر"
+  en: "Far (the mouse)"
+  ur: "فار"
+summary:
+  ar: "الفأر في الكتاب حيوان تذكر فيه أخبار منسوبة: دمه يقطع الثآليل، وزبله ينفع من داء الثعلب، ويشوى ويجفف فيمسك سيلان اللعاب عن الصبي، وفي الحصاة وعسر البول، ولسع العقرب، وهي أخبار تنقل منسوبة إلى الكتاب لا نصيحة {cite:canon-ibn-sina-print-v1 635}"
+  en: "Far is in the book the mouse, about which attributed reports are given: its blood cuts warts, its dung benefits alopecia areata, roasted and dried it stops a child's dribbling of saliva, and there are reports on stone, difficulty in urination and the sting of the scorpion, all passed on as the book's attributed reports, not advice {cite:canon-ibn-sina-print-v1 635}"
+  ur: "فار کتاب میں چوہا ہے جس کے بارے میں منسوب خبریں دی گئی ہیں: اس کا خون مسے کاٹتا ہے، اس کی مینگنی داء الثعلب میں نافع ہے، بھون کر خشک کیا جائے تو بچے کے منہ سے رال بہنا روکتا ہے، اور پتھری، پیشاب کی دشواری اور بچھو کے ڈنک کے بارے میں خبریں ہیں، جو کتاب سے منسوب اطلاعات کے طور پر نقل ہیں، نصیحت کے طور پر نہیں {cite:canon-ibn-sina-print-v1 635}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter fa (the seventeenth chapter), scan pages 635, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for doubtful headings; editor footnotes used only for identity; measured doses, weights, counts and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-24
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

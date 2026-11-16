@@ -1,0 +1,23 @@
+id: concept/ilk
+class: concept
+kind: natural
+label:
+  ar: "علك"
+  en: "Ilk (chewing gums and resins)"
+  ur: "علک"
+summary:
+  ar: "العلك في الكتاب ما تقدم ذكره من علك الأنباط والراتينج وعلك السرو في مواضعها، حار محلل، أحره علك الأنباط ثم علك السرو ثم الراتينج {cite:canon-ibn-sina-print-v1 p.610}"
+  en: "Ilk is in the book the gums already discussed in their places, the gum of the Anbat, the resin and the gum of the cypress, hot and dissolving, the hottest being the gum of the Anbat, then that of the cypress, then the resin {cite:canon-ibn-sina-print-v1 p.610}"
+  ur: "علک کتاب میں وہ گوندیں ہیں جن کا ذکر اپنے مقامات پر ہو چکا، علک الانباط، راتینج اور سرو کی گوند، گرم اور گھلانے والی، سب سے زیادہ گرم علک الانباط ہے، پھر سرو کی گوند، پھر راتینج {cite:canon-ibn-sina-print-v1 p.610}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letters sin and ayn, scan pages 610, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for garbled headings; editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-22
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

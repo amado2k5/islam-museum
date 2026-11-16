@@ -1,0 +1,23 @@
+id: concept/aqir-qarha
+class: concept
+kind: natural
+label:
+  ar: "عاقر قرحا"
+  en: "Aqir qarha (pellitory)"
+  ur: "عاقر قرحا"
+summary:
+  ar: "عاقر قرحا في الكتاب نبات يستعمل أصله، حار يابس في الثالثة، يحذو اللسان حذواً شديداً، يجلب البلغم مضغاً ويدر العرق مع الزيت، وينفع من استرخاء العصب المزمن وخدره ومن وجع الأسنان ويفتح سدد المصفاة والخشم {cite:canon-ibn-sina-print-v1 p.612}"
+  en: "Aqir qarha is in the book a plant whose root is used, hot and dry in the third degree, which stings the tongue strongly, draws phlegm when chewed and promotes sweat with oil, and benefits chronic relaxation and numbness of the nerve and toothache, and opens obstructions of the sieve bone and the nose {cite:canon-ibn-sina-print-v1 p.612}"
+  ur: "عاقر قرحا کتاب میں ایک پودا ہے جس کی جڑ استعمال ہوتی ہے، تیسرے درجے میں گرم خشک، زبان کو سخت جلاتا ہے، چبانے سے بلغم کھینچتا اور تیل کے ساتھ پسینہ لاتا ہے، اور پرانی اعصابی ڈھیلاہٹ اور سن ہو جانے، دانتوں کے درد میں فائدہ دیتا اور مصفاۃ اور ناک کی رکاوٹیں کھولتا ہے {cite:canon-ibn-sina-print-v1 p.612}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letters sin and ayn, scan pages 611 to 612, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for garbled headings; editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-22
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

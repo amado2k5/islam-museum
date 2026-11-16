@@ -1,0 +1,23 @@
+id: concept/farasiyun
+class: concept
+kind: natural
+label:
+  ar: "فراسيون"
+  en: "Farasiyun (a bitter herb)"
+  ur: "فراسیون"
+summary:
+  ar: "فراسيون في الكتاب حشيشة مرة الطعم، حار في الثانية يابس في الثالثة، مفتح يجلو ويحلل ويقطع، عصارته لوجع الأذن المزمن وللبصر، وهو شديد التفتيح لسدد الكبد والطحال، وينقي الصدر والرئة بالنفث {cite:canon-ibn-sina-print-v1 630}"
+  en: "Farasiyun is in the book a herb of bitter taste, hot in the second degree and dry in the third, opening and cleansing, dissolving and cutting; its juice is used for chronic ear pain and for sight, and it greatly opens obstructions of the liver and spleen and cleanses the chest and lung by expectoration {cite:canon-ibn-sina-print-v1 630}"
+  ur: "فراسیون کتاب میں کڑوے ذائقے کی بوٹی ہے، دوسرے درجے میں گرم اور تیسرے میں خشک، کھولنے والی، جلاء دینے والی، تحلیل اور قطع کرنے والی؛ اس کا رس پرانے کان کے درد اور بینائی کے لیے آتا ہے، یہ جگر اور تلی کی رکاوٹوں کو بہت کھولتی ہے اور سینہ اور پھیپھڑے کو بلغم نکلوا کر صاف کرتی ہے {cite:canon-ibn-sina-print-v1 630}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter fa (the seventeenth chapter), scan pages 630, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for doubtful headings; editor footnotes used only for identity; measured doses, weights, counts and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-24
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

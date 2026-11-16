@@ -1,0 +1,23 @@
+id: concept/salutun
+class: concept
+kind: natural
+label:
+  ar: "سلوثون"
+  en: "Salutun"
+  ur: "سلوثون"
+summary:
+  ar: "سلوثون في الكتاب نبات ينقل عن ديسقوريدوس أن بعض الناس زعم أن أهل الشام يسمونه العنكبوت، وله ورق شبيه بالأبيض من خامالاون، ويؤكل رطباً مع الملح والدهن بعد السلق، وفي الكتاب أن لبنه أو دمعته المستخرجة من أصله يقيئ بإفراط {cite:canon-ibn-sina-print-v1 p.608}"
+  en: "Salutun is in the book a plant for which, from Dioscorides, some people claimed that the people of al-Sham call it the spider, with a leaf like the white khamalawn, eaten fresh after boiling with salt and oil; the book says its milk or tear drawn from its root causes violent vomiting {cite:canon-ibn-sina-print-v1 p.608}"
+  ur: "سلوثون کتاب میں ایک پودا ہے جس کے بارے میں دیسقوریدوس سے نقل ہے کہ بعض لوگوں کا دعویٰ ہے کہ اہل شام اسے عنکبوت کہتے ہیں، اس کا پتا خاماالاون کے سفید جیسا ہے، اور اسے تر ہونے پر ابال کر نمک اور تیل کے ساتھ کھایا جاتا ہے؛ کتاب میں ہے کہ اس کا دودھ یا اس کی جڑ سے نکلا ہوا آنسو شدید قے لاتا ہے {cite:canon-ibn-sina-print-v1 p.608}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letters sin and ayn, scan pages 608, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for garbled headings; editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-22
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

@@ -1,0 +1,23 @@
+id: concept/fat
+class: concept
+kind: natural
+label:
+  ar: "فاط"
+  en: "Fat (a Turkish drug, the emetic nut)"
+  ur: "فاط"
+summary:
+  ar: "فاط في الكتاب دواء تركي، جيد لشرب الشوكران ولسع الهوام ومن جوز مائل ومن جميع السموم، والتعريف بأنه جوز القيء من حاشية المحقق {cite:canon-ibn-sina-print-v1 632}"
+  en: "Fat is in the book a Turkish drug, good against hemlock drunk, the sting of vermin, jawz mail and all poisons; its identification as the emetic nut is from the editor's footnote {cite:canon-ibn-sina-print-v1 632}"
+  ur: "فاط کتاب میں ترکی دوا ہے، شوکران پینے، زہریلے جانوروں کے ڈنک، جوز مائل اور تمام زہروں میں اچھی؛ اس کا جوز القیء ہونا مدقق کے حاشیے سے ہے {cite:canon-ibn-sina-print-v1 632}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter fa (the seventeenth chapter), scan pages 632, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for doubtful headings; editor footnotes used only for identity; measured doses, weights, counts and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-24
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

@@ -1,0 +1,23 @@
+id: concept/aqrab
+class: concept
+kind: natural
+label:
+  ar: "عقرب"
+  en: "Aqrab (the scorpion)"
+  ur: "عقرب"
+summary:
+  ar: "العقرب في الكتاب حيوان يستعمل منه زيته لأوجاع الأذن، ويفتت المحرق منه حصاة المثانة والكلى عند الكتاب {cite:canon-ibn-sina-print-v1 p.620}"
+  en: "Aqrab is in the book the scorpion, whose oil is used for pains of the ear and whose burnt body, according to the book, breaks up stone in the bladder and kidneys {cite:canon-ibn-sina-print-v1 p.620}"
+  ur: "عقرب کتاب میں بچھو ہے جس کا تیل کان کے دردوں میں استعمال ہوتا ہے، اور کتاب کے مطابق اس کا جلایا ہوا جسم مثانے اور گردے کی پتھری توڑتا ہے {cite:canon-ibn-sina-print-v1 p.620}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter ayn, scan pages 620, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for doubtful headings; editor footnotes used only for identity; measured doses, weights, counts and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-23
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

@@ -1,0 +1,23 @@
+id: concept/safarjal
+class: concept
+kind: natural
+label:
+  ar: "سفرجل"
+  en: "Safarjal (the quince)"
+  ur: "سفرجل"
+summary:
+  ar: "السفرجل في الكتاب ثمر معروف بارد في آخر الأولى يابس في أول الثانية، قابض مقوٍّ يمنع سيلان الفضول إلى الأحشاء، ينفع الصدر والمعدة ويمنع القيء والخمار ويقوي الشهوة الساقطة، وكثرة أكله تولد وجع العصب {cite:canon-ibn-sina-print-v1 p.607}"
+  en: "Safarjal is in the book a well-known fruit, cold at the end of the first degree and dry at the start of the second, astringent and strengthening, preventing the flow of residues to the viscera; it benefits the chest and the stomach, prevents vomiting and hangover and strengthens a fallen appetite, while eating much of it generates nerve pain {cite:canon-ibn-sina-print-v1 p.607}"
+  ur: "سفرجل کتاب میں ایک معروف پھل ہے، پہلے درجے کے آخر میں سرد اور دوسرے کے آغاز میں خشک، قابض اور قوت بخش، فضلات کے احشاء کی طرف بہنے کو روکتا ہے؛ سینے اور معدے کو فائدہ دیتا ہے، قے اور خمار کو روکتا اور گری ہوئی بھوک کو قوت دیتا ہے، اور اس کا زیادہ کھانا اعصاب کا درد پیدا کرتا ہے {cite:canon-ibn-sina-print-v1 p.607}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letters sin and ayn, scan pages 607 to 608, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for garbled headings; editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-22
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

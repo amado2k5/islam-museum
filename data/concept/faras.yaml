@@ -1,0 +1,23 @@
+id: concept/faras
+class: concept
+kind: natural
+label:
+  ar: "فرس"
+  en: "Faras (the horse)"
+  ur: "فرس"
+summary:
+  ar: "الفرس في الكتاب حيوان تذكر في أجزائه أخبار منسوبة: زبله كزبل الحمار، وجلد المهر المحرق على البثور، وزوائد ركبه للصداع، وأنفحته للإسهال المزمن وقروح الأمعاء، وهي أخبار تنقل منسوبة لا نصيحة {cite:canon-ibn-sina-print-v1 pp.635-636}"
+  en: "Faras is in the book the horse, with attributed reports on its parts: its dung acts like donkey dung, the burnt skin of the foal on pustules, the growths on its knees for headache, and its rennet for chronic diarrhoea and ulcers of the intestines, all passed on as attributed reports, not advice {cite:canon-ibn-sina-print-v1 pp.635-636}"
+  ur: "فرس کتاب میں گھوڑا ہے، جس کے اعضاء کے بارے میں منسوب خبریں ہیں: اس کی لید گدھے کی لید جیسا کام کرتی ہے، بچھیرے کی جلی ہوئی کھال پھنسیوں پر، اس کے گھٹنوں کی ابھار سر درد کے لیے، اور اس کی انفحہ پرانے اسہال اور آنتوں کے زخموں کے لیے؛ یہ خبریں منسوب اطلاعات کے طور پر نقل ہیں، نصیحت کے طور پر نہیں {cite:canon-ibn-sina-print-v1 pp.635-636}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter fa (the seventeenth chapter), scan pages 635, 636, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for doubtful headings; editor footnotes used only for identity; measured doses, weights, counts and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-24
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

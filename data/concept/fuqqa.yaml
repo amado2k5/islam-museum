@@ -1,0 +1,23 @@
+id: concept/fuqqa
+class: concept
+kind: natural
+label:
+  ar: "فقاع"
+  en: "Fuqqa (a known drink)"
+  ur: "فقاع"
+summary:
+  ar: "الفقاع في الكتاب معروف، أصله المتخذ من خبز الحواري ونعنع وكرفس، نفاخ يولد أخلاطا رديئة رديء الغذاء، يضر بالعصب وحجب الدماغ، والمتخذ من الحواري والكرفس والنعنع جيد الكيموس موافق للمحرورين وللمعدة الحارة، والمتخذ بالشعير يدر البول ويضر بالكلى والمثانة {cite:canon-ibn-sina-print-v1 637}"
+  en: "Fuqqa is in the book a known drink, the best being what is made from refined-flour bread with mint and celery; it is windy, engenders bad humours and is bad food, harms the nerve and the membranes of the brain, while the kind made from refined bread, celery and mint has good chyme and suits the hot-tempered and the hot stomach, and the barley kind promotes urine and harms the kidneys and the bladder {cite:canon-ibn-sina-print-v1 637}"
+  ur: "فقاع کتاب میں معروف مشروب ہے، سب سے اچھا وہ جو میدے کی روٹی، پودینے اور اجوائن سے بنے؛ ہوا بھرنے والا، ناقص اخلاط پیدا کرنے والا اور بُری غذا ہے، اعصاب اور دماغ کے پردوں کو نقصان دیتا ہے، جبکہ میدے کی روٹی، اجوائن اور پودینے سے بنا ہوا اچھا کیموس دیتا ہے اور گرم مزاج والوں اور گرم معدے کے موافق ہے، اور جو سے بنا پیشاب جاری کرتا اور گردوں اور مثانے کو نقصان دیتا ہے {cite:canon-ibn-sina-print-v1 637}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter fa (the seventeenth chapter), scan pages 637, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for doubtful headings; editor footnotes used only for identity; measured doses, weights, counts and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-24
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

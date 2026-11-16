@@ -1,0 +1,23 @@
+id: concept/abithiran
+class: concept
+kind: natural
+label:
+  ar: "عبيثران"
+  en: "Abithiran"
+  ur: "عبیثران"
+summary:
+  ar: "عبيثران في الكتاب دواء محلل ينفع من الأمراض الباردة في الدماغ ويمنع زكام البرودة وماؤه كحلاً يحد البصر {cite:canon-ibn-sina-print-v1 p.610}"
+  en: "Abithiran is in the book a dissolving drug which benefits cold diseases of the brain, prevents cold catarrh, and whose water as a collyrium sharpens sight {cite:canon-ibn-sina-print-v1 p.610}"
+  ur: "عبیثران کتاب میں ایک گھلانے والی دوا ہے جو دماغ کے سرد امراض میں فائدہ دیتی اور سرد زکام کو روکتی ہے، اور اس کا پانی سرمے کے طور پر نظر تیز کرتا ہے {cite:canon-ibn-sina-print-v1 p.610}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letters sin and ayn, scan pages 610, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for garbled headings; editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-22
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }
