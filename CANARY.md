@@ -17,6 +17,7 @@ open a new block on top with the new version and today's date.
 ### Added
 - Lane handoff prompt: `docs/delegation/devin-handoff-prompt.md` is a self-contained brief that lets any agent resume the three content lanes (where things live, roles, lane state as of 15 November 2026, the open founder decisions and the first steps), so the work can continue on another tool without loss.
 - Job Browser: six more trades join the professions — the copyist (warraq) whose shop was the scholar's rendezvous, the bookbinder (mujallid) of paste and tooling, the musawwir painter under patrons from Bihzad's library to the unpensioned nakkash, the cartographer behind al-Ma'mun's image of the earth and al-Idrisi's seventy maps, the instrument-maker of the astrolabe from al-Fazari to Maragha, and the pearl-diver (ghawwas) of the Gulf crews — in Arabic, English and Urdu draft cited to Kunz & Stevenson's *Book of the Pearl*, Arnold & Grohmann's *Islamic Book*, *The Legacy of Islam* (1931), and Evliya Çelebi.
+- Five more Inventions Browser records drawn from the EI2 OCR corpus, King's Synchrony and recorded Wikipedia revisions, each with Arabic, English and Urdu prose: the torquetum; the kamal, the Arab pilot's altitude instrument; the hawala remittance system; muqarnas vaulting; and the muwaqqit's prayer-time tables.
 
 ## v1.48.0 — 2026-11-16
 ### Added

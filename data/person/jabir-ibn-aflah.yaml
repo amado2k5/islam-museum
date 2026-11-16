@@ -1,0 +1,87 @@
+id: person/jabir-ibn-aflah
+class: person
+label:
+  ar: جابر بن أفلح
+  en: Jabir ibn Aflah
+  ur: جابر بن افلح
+names:
+- value: جابر بن أفلح الإشبيلي
+  kind: full
+  lang: ar
+- value: Jabir ibn Aflah al-Ishbili
+  kind: full
+  lang: en
+- value: Geber
+  kind: latinized
+  lang: en
+- value: Geber the Spaniard
+  kind: alternate
+  lang: en
+gender: male
+roles:
+- astronomer
+summary:
+  ar: 'فلكي أندلسي من إشبيلية في النصف الأول من القرن السادس/الثاني عشر
+    ⁦(Geber عند اللاتين)⁩، ألّف «إصلاح المجسطي» ناقداً نظرية بطلميوس الكوكبية —
+    تذكره EI2 في صف من انتقدوا المجسطي إلى جانب ابن الهيثم والبيطروجي
+    {cite:encyclopaedia-of-islam-2}.'
+  en: 'Andalusi astronomer of Seville, first half of the sixth/twelfth
+    century (Geber to the Latins); author of the Islah al-Majisti, a
+    correction of Ptolemy''s planetary theory — EI2 lists him with Ibn
+    al-Haytham and al-Bitruji among the critics of the Almagest
+    {cite:encyclopaedia-of-islam-2}.'
+  ur: 'اشبیلیہ کا اندلسی ماہر فلکیات، چھٹی/بارہویں صدی کی پہلی ششماہی
+    ⁦(لاطینی میں Geber)⁩؛ اصلاح المجسطی کا مصنف جس نے بطلموس کے سیاروں کے
+    نظریے کی اصلاح کی — EI2 اسے ابن الھیثم اور بطروجی کے ساتھ المجسطی کے
+    ناقدین میں گنتی ہے {cite:encyclopaedia-of-islam-2}۔'
+faith:
+- value: sunni
+  basis: tradition
+  note: 'A Muslim astronomer of twelfth-century Seville working inside the
+    Islamic astronomical tradition — the museum''s Sunni default frame for
+    the documented Andalusi milieu; no personal school declaration is
+    attested in the sources read.'
+  sources:
+  - source/encyclopaedia-of-islam-2
+wings:
+- people
+regions:
+- andalus-europe
+periods:
+- period/buyid-seljuk-fatimid-era
+relations:
+- type: lived_in
+  target: place/seville
+  note: 'Regiomontanus called him ''Geber the Spaniard'', an Arab astronomer
+    who lived in Seville; EI2 dates him to the first half of the 12th
+    century.'
+  sources:
+  - source/wikipedia-torquetum-en
+  - source/encyclopaedia-of-islam-2
+inventions:
+- invention: invention/torquetum
+  role: disputed
+  place: place/seville
+  note: 'His Islah al-Majisti describes a coordinate-converting instrument
+    similar in function to the torquetum; credited as its inventor by
+    Regiomontanus (1469), judged by Lorch to have inspired rather than to
+    be the torquetum.'
+  sources:
+  - source/wikipedia-torquetum-en
+  - source/lorch-jabir-torquetum-1976
+sources:
+- source/encyclopaedia-of-islam-2
+- source/wikipedia-torquetum-en
+- source/lorch-jabir-torquetum-1976
+status:
+  review: published
+  completeness: 2
+provenance:
+  layer: own-research
+  generated_by: devin-drafter-w2-29
+  model: devin
+  run: inventions-w2-29
+  source: 'EI2 vol. VIII, art. AL-NUDJUM (OCR in hand): "Djabir b. Aflah
+    (Geber, Spain, 1st half 12th cent.)" among the critics of Ptolemaic
+    planetary theory. English Wikipedia "Torquetum" revision 1372871421:
+    Seville, Islah al-Majisti, the Regiomontanus attribution.'

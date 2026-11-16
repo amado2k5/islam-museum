@@ -1,31 +1,74 @@
 id: person/shams-al-aimma-al-sarakhsi
 class: person
-tags: [madhahib-browser, mh-hanafi]
+tags:
+- madhahib-browser
+- mh-hanafi
 label:
-  ar: "شمس الأئمة السرخسي"
-  en: "Shams al-A'imma al-Sarakhsi"
-roles: [scholar, writer]
+  ar: شمس الأئمة السرخسي
+  en: Shams al-A'imma al-Sarakhsi
+roles:
+- scholar
+- writer
 gender: male
 summary:
-  ar: "محمد بن أحمد بن سهل، أبو بكر، شمس الأئمة السرخسي، قاضٍ من كبار الحنفية ومجتهد، صاحب «المبسوط» أملاه وهو سجين بالجب في أوزجند؛ توفي سنة 483 هـ، الموافقة 1090 م {cite:alam-zirikli-dar-al-ilm-2002 vol. 5 p. 315}."
-  en: "Muhammad ibn Ahmad ibn Sahl, Abu Bakr, Shams al-A'imma al-Sarakhsi, a judge, one of the great Hanafis and a mujtahid, who dictated al-Mabsut while imprisoned in the well at Uzjand; died 483 AH, 1090 CE as printed {cite:alam-zirikli-dar-al-ilm-2002 vol. 5 p. 315}."
-wings: [people]
-regions: [persia-central-asia]
-periods: [period/buyid-seljuk-fatimid-era]
-sources: [source/shadharat-dhahab, source/wikidata]
+  ar: محمد بن أحمد بن سهل، أبو بكر، شمس الأئمة السرخسي، قاضٍ من كبار الحنفية ومجتهد،
+    صاحب «المبسوط» أملاه وهو سجين بالجب في أوزجند؛ توفي سنة 483 هـ، الموافقة 1090
+    م {cite:alam-zirikli-dar-al-ilm-2002 vol. 5 p. 315}.
+  en: Muhammad ibn Ahmad ibn Sahl, Abu Bakr, Shams al-A'imma al-Sarakhsi, a judge,
+    one of the great Hanafis and a mujtahid, who dictated al-Mabsut while imprisoned
+    in the well at Uzjand; died 483 AH, 1090 CE as printed {cite:alam-zirikli-dar-al-ilm-2002
+    vol. 5 p. 315}.
+wings:
+- people
+regions:
+- persia-central-asia
+periods:
+- period/buyid-seljuk-fatimid-era
+sources:
+- source/shadharat-dhahab
+- source/wikidata
 external_ids:
   wikidata: Q579171
-  viaf: "95675955"
+  viaf: '95675955'
 provenance:
   layer: own-research
-  source: "al-Zirikli, al-A'lam vol. 5 p. 315"
-  generated_by: "Claude Code (Lane B2 packet)"
+  source: al-Zirikli, al-A'lam vol. 5 p. 315
+  generated_by: Claude Code (Lane B2 packet)
   model: claude-sonnet-5-5
   run: web-b2-m01-2026-11-14
 status:
   review: draft
   completeness: 2
-died: { edtf: "1090", hijri: "0483", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Confirmed on 13 November 2026 against Wikidata Q579171 (P570, a statement with a reference), item revision 2560281962.", sources: [source/wikidata] }
+died:
+  edtf: '1090'
+  hijri: "0483"
+  calendar: gregorian
+  precision: year
+  derived: true
+  note: 'Date-enrichment pass; source: TDV Confirmed on 13 November 2026 against Wikidata
+    Q579171 (P570, a statement with a reference), item revision 2560281962.'
+  sources:
+  - source/wikidata
 relations:
-  - { type: lived_in, target: place/sarakhs, confidence: medium, note: "From the nisba; al-Zirikli calls him a man of Sarakhs in Khurasan.", sources: [source/shadharat-dhahab, source/alam-zirikli-dar-al-ilm-2002] }
-  - { type: lived_in, target: place/farghana, confidence: high, note: "al-Zirikli: after his release he settled in Farghana until he died; he was imprisoned at Uzjand in Farghana.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+- type: lived_in
+  target: place/sarakhs
+  confidence: medium
+  note: From the nisba; al-Zirikli calls him a man of Sarakhs in Khurasan.
+  sources:
+  - source/shadharat-dhahab
+  - source/alam-zirikli-dar-al-ilm-2002
+- type: lived_in
+  target: place/farghana
+  confidence: high
+  note: 'al-Zirikli: after his release he settled in Farghana until he died; he was
+    imprisoned at Uzjand in Farghana.'
+  sources:
+  - source/alam-zirikli-dar-al-ilm-2002
+faith:
+- value: sunni-hanafi
+  basis: documented
+  note: The record itself identifies him as one of the great Hanafis and author of
+    al-Mabsut — a documented school identity, not an inference.
+  sources:
+  - source/alam-zirikli-dar-al-ilm-2002
+  - source/shadharat-dhahab

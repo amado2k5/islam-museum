@@ -1,0 +1,314 @@
+id: invention/torquetum
+class: invention
+label:
+  ar: التوركيتوم ⁦(آلة الموائمة بين المدار والأفق)⁩
+  en: The torquetum, a three-coordinate measuring instrument
+  ur: تورکیتوم، تین محوری پیمائش کا آلہ
+names:
+- value: توركيتوم
+  kind: alternate
+  lang: ar
+- value: torquetum
+  kind: alternate
+  lang: en
+- value: turquet
+  kind: alternate
+  lang: en
+- value: turketum
+  kind: alternate
+  lang: en
+summary:
+  ar: آلة رصد وسيطة تكوّنت من دوائر وصفائح مدرّجة على ثلاثة مستويات، تقيس موضع
+    جرم سماوي في إحداثيات الأفق ثم تحوّل القراءة إلى الإحداثيات الاستوائية أو
+    البروجية؛ وصفها لورش بأنها جمع بين «أسطرلابون» بطلميوس والأسطرلاب المستوي،
+    وكأنها حاسوب تماثلي {cite:lorch-jabir-torquetum-1976} {cite:wikipedia-torquetum-en}.
+  en: A medieval observing instrument built of graduated plates and circles on
+    three levels, which measures a celestial body's position in horizon
+    coordinates and converts the reading into equatorial or ecliptic
+    coordinates; Lorch characterised it as a combination of Ptolemy's
+    astrolabon and the plane astrolabe — in effect an analogue computer
+    {cite:lorch-jabir-torquetum-1976} {cite:wikipedia-torquetum-en}.
+  ur: قرون وسطی کا رصدی آلہ جو تین سطحوں پر درجہ بند صفائح اور دائروں سے بنا،
+    کسی آسمانی جسم کی پوزیشن افقی محددات میں ناپتا اور پھر قراءت کو استوائی یا
+    بروجی محددات میں بدلتا؛ لورش نے اسے بطلموس کے اسطرلابون اور مستوی اسطرلاب
+    کا مجموعہ — دراصل ایک ینالاگ کمپیوٹر — قرار دیا {cite:lorch-jabir-torquetum-1976}
+    {cite:wikipedia-torquetum-en}۔
+domain: astronomy-instruments
+kind: instrument
+disciplines:
+- astronomy
+- mathematics
+wings:
+- objects
+- ideas
+regions:
+- andalus-europe
+- egypt-nile
+- china-east-asia
+periods:
+- period/buyid-seljuk-fatimid-era
+- period/crusades-ayyubid-mamluk
+themes:
+- engineering-and-technology
+era:
+  origins: middle-period
+  first_attested:
+    edtf: "1284"
+    hijri: "0683"
+    calendar: julian
+    precision: year
+    status: historical
+    note: The dated anchor is Franco of Poland's treatise of 1284, the earliest
+      dated Latin description; Bernard of Verdun's undated text is of the same
+      decade. On the Arabic side 'Izz al-Din al-Wafa'i's equatorial armilla —
+      studied by Tekeli against the torquetum — is fifteenth-century
+      Mamluk Cairo. Jabir ibn Aflah's earlier Islah al-Majisti describes a
+      related instrument, not an identified torquetum.
+    sources:
+    - source/wikipedia-torquetum-en
+    - source/lorch-jabir-torquetum-1976
+    - source/encyclopaedia-of-islam-2
+  status_today: replaced
+origin:
+  polity: polity/umayyads-of-cordoba
+  context:
+    ar: منشأ الآلة غير محسوم — النصوص اللاتينية الأولى ⁦(ثمانينيات القرن الثالث
+      عشر، قرب باريس على الأرجح)⁩ لا تسمي مخترعاً، بينما جمعت التقاليد اللاحقة
+      اسمها بجابر بن أفلح الإشبيلي، وشهد الجانب الإسلامي آلة موازية عند الوفائي
+      الميقاتي بقاهرة المماليك {cite:wikipedia-torquetum-en} {cite:encyclopaedia-of-islam-2}.
+    en: The instrument's birthplace is unsettled — the earliest Latin texts
+      (1280s, probably near Paris) name no inventor, while later tradition
+      attached the name of Jabir ibn Aflah of Seville, and on the Islamic side
+      al-Wafa'i's equatorial armilla in Mamluk Cairo is a parallel documented
+      instrument {cite:wikipedia-torquetum-en} {cite:encyclopaedia-of-islam-2}.
+    ur: آلہ کی جائے پیدائش غیر یقینی ہے — قدیم ترین لاطینی متون ⁦(1280ء کی دہائی،
+      غالباً پیرس کے قرب)⁩ کوئی مخترع نہیں بتاتے، جب کہ بعد کی روایت نے اسے جابر
+      بن افلح اشبیلی سے جوڑا، اور اسلامی جانب مملوک قاہرہ میں الوفائی کی استوائی
+      حلقہ ایک موازی مستند آلہ ہے {cite:wikipedia-torquetum-en} {cite:encyclopaedia-of-islam-2}۔
+makers:
+- person: person/jabir-ibn-aflah
+  role: disputed
+  note: The Seville astronomer's Islah al-Majisti describes a related
+    coordinate-converting instrument; Regiomontanus (1469) credited him as the
+    torquetum's inventor, but Lorch judged the described device similar in
+    function rather than an identified torquetum — evidence it inspired the
+    type rather than naming its maker.
+  sources:
+  - source/wikipedia-torquetum-en
+  - source/lorch-jabir-torquetum-1976
+- person: person/abd-al-aziz-al-wafai
+  role: describer
+  place: place/cairo
+  note: The fifteenth-century Cairo muwaqqit built an equatorial armilla that
+    Tekeli studied in direct comparison with the torquetum — the documented
+    Islamic-side parallel, not a claim that he invented the type.
+  sources:
+  - source/encyclopaedia-of-islam-2
+attribution:
+  status: contested
+  claim:
+    ar: 'قديم أوصاف التوركيتوم عربية ولاتينية معاً؛ ونسبة الاختراع إلى جابر بن
+      أفلح أقامها ريجيومونتانوس ⁦(1469)⁩ على آلة مشابهة في «إصلاح المجسطي»،
+      لا على توركيتوم محدد، بينما أول النصوص اللاتينية ⁦(1284)⁩ صامتة عن
+      المخترع {cite:wikipedia-torquetum-en} {cite:lorch-jabir-torquetum-1976}.'
+    en: 'The torquetum''s earliest descriptions are both Arabic-side and Latin;
+      the attribution of its invention to Jabir ibn Aflah rests on
+      Regiomontanus ⁦(1469)⁩ reading a similar instrument into the Islah
+      al-Majisti, not on an identified torquetum, while the first Latin texts
+      ⁦(1284)⁩ are silent about any inventor {cite:wikipedia-torquetum-en}
+      {cite:lorch-jabir-torquetum-1976}.'
+    ur: 'تورکیتوم کی قدیم ترین تفصیلات عربی اور لاطینی دونوں جانب ہیں؛ جابر بن
+      افلح سے اس کی ایجاد کا نسب ریجیومونتانوس ⁦(1469)⁩ نے اصلاح المجسطی کے ایک
+      مشابہ آلہ پر قائم کیا نہ کہ کسی مخصوص تورکیتوم پر، اور پہلے لاطینی متون
+      ⁦(1284)⁩ مخترع کے بارے میں خاموش ہیں {cite:wikipedia-torquetum-en}
+      {cite:lorch-jabir-torquetum-1976}۔'
+  basis:
+    ar: 'لورش يشرح آلة جابر الموصوفة في «إصلاح المجسطي» بأنها مشابهة الوظيفة
+      مُلهِمة للتوركيتوم لا مطابقة له؛ والنصوص اللاتينية المؤرخة تبدأ بفرانكو
+      البولندي ⁦(1284)⁩ وبرنار دو فردون غير المؤرخ؛ وعلى الجانب الإسلامي درس
+      تكلي حلقة الوفائي الاستوائية بقاهرة القرن الخامس عشر مقارنةً بالتوركيتوم
+      {cite:lorch-jabir-torquetum-1976} {cite:wikipedia-torquetum-en} {cite:encyclopaedia-of-islam-2}.'
+    en: 'Lorch reads Jabir''s described instrument as similar in function and a
+      likely inspiration, not an identified torquetum; the dated Latin texts
+      begin with Franco of Poland ⁦(1284)⁩ and the undated Bernard of Verdun;
+      on the Islamic side Tekeli studied al-Wafa''s fifteenth-century
+      equatorial armilla against the torquetum {cite:lorch-jabir-torquetum-1976}
+      {cite:wikipedia-torquetum-en} {cite:encyclopaedia-of-islam-2}.'
+    ur: 'لورش جابر کے بیان کردہ آلہ کو مشابہ وظیفہ اور ممکنہ اخذ مانتا ہے نہ کہ
+      مخصوص تورکیتوم؛ مؤرخ لاطینی متون فرانکو پولشی ⁦(1284)⁩ اور غیر مؤرخ برنار
+      دو فردون سے شروع ہوتے ہیں؛ اسلامی جانب تیکلی نے الوفائی کی پندرہویں صدی
+      کی استوائی حلقہ کا موازنہ تورکیتوم سے کیا {cite:lorch-jabir-torquetum-1976}
+      {cite:wikipedia-torquetum-en} {cite:encyclopaedia-of-islam-2}۔'
+  perspectives:
+  - tradition: sunni
+    id: islamic-priority-claimed
+    summary:
+      ar: 'نسبة عباسية-أندلسية بلا إثبات — في الإطار السني العام تُروى الآلة
+        على أنها من أعمال فلكيي الإسلام، ونسبها ريجيومونتانوس إلى جابر بن أفلح
+        ⁦(إشبيلية القرن الثاني عشر)⁩، لكن الشاهد المباشر غائب والنص العربي
+        الموصوف آلة موازية لا التوركيتوم نفسه {cite:wikipedia-torquetum-en}.'
+      en: 'An Andalusi-Islamic attribution, unproven — in the museum''s Sunni
+        default frame the instrument is told as the work of Islamic
+        astronomers, Regiomontanus assigning it to Jabir ibn Aflah of
+        twelfth-century Seville, but the direct witness is missing and the
+        Arabic text describes a parallel instrument, not the torquetum itself
+        {cite:wikipedia-torquetum-en}.'
+      ur: 'اندلسی-اسلامی نسبت بغیر ثبوت — سنی عمومی فریم میں آلہ اسلامی ماہرین
+        فلکیات کی پیداوار کہا جاتا ہے، ریجیومونتانوس نے جابر بن افلح اشبیلی
+        ⁦(بارہویں صدی)⁩ سے جوڑا، مگر براہ راست شاہد غائب ہے اور عربی متن موازی
+        آلہ بیان کرتا ہے نہ کہ خود تورکیتوم {cite:wikipedia-torquetum-en}۔'
+    sources:
+    - source/wikipedia-torquetum-en
+    - source/lorch-jabir-torquetum-1976
+  - tradition: academic
+    id: invention-place-unsettled
+    summary:
+      ar: 'مكان الميلاد بين الشرق والغرب غير محسوم — لورش وتحقيق حديث يسجلان
+        أن أقدم النصوص المعروفة لاتينية من ثمانينيات القرن الثالث عشر لا تسمي
+        مخترعاً ولا تفسر اسم «turketum»؛ ووُثقت آلة مبسطة منه في مرصد الصين
+        ⁦(1276–1279)⁩ نُسب نقلها إلى جمال الدين ⁦(1267)⁩ {cite:lorch-jabir-torquetum-1976}
+        {cite:wikipedia-torquetum-en}.'
+      en: 'The birthplace between East and West is unsettled — Lorch and a
+        recent scholarly survey record that the earliest known texts are Latin,
+        of the 1280s, naming no inventor and not explaining the word
+        "turketum"; a simplified version is documented at the Yuan Chinese
+        observatory ⁦(1276–1279)⁩ with Jamal al-Din credited as its 1267
+        transmitter {cite:lorch-jabir-torquetum-1976} {cite:wikipedia-torquetum-en}.'
+      ur: 'شرق و مغرب کے درمیان جائے پیدائش غیر یقینی — لورش اور جدید علمی جائزہ
+        لکھتے ہیں کہ قدیم ترین معلوم متون لاطینی ہیں ⁦(1280ء کی دہائی)⁩ جو نہ
+        مخترع بتاتے ہیں نہ لفظ «turketum» کی وضاحت؛ چین کے یوآن رصدگاہ میں سادہ
+        قسم مستند ہے ⁦(1276–1279)⁩ جس کی منتقلی جمال الدین سے ⁦(1267)⁩ منسوب
+        ہے {cite:lorch-jabir-torquetum-1976} {cite:wikipedia-torquetum-en}۔'
+    sources:
+    - source/lorch-jabir-torquetum-1976
+    - source/wikipedia-torquetum-en
+precursors:
+- external:
+    ar: «أسطرلابون» بطلميوس والأسطرلاب المستوي
+    en: Ptolemy's astrolabon and the plane astrolabe
+    ur: بطلموس کا اسطرلابون اور مستوی اسطرلاب
+  note: 'Lorch''s characterisation: the torquetum combines the observing ring
+    idea of Ptolemy''s instrument with the coordinate conversion the plane
+    astrolabe performs graphically — here done mechanically across three
+    coordinate systems.'
+  sources:
+  - source/lorch-jabir-torquetum-1976
+- external:
+    ar: آلة جابر بن أفلح في «إصلاح المجسطي»
+    en: Jabir ibn Aflah's instrument in the Islah al-Majisti
+    ur: جابر بن افلح کا آلہ در اصلاح المجسطی
+  note: A related device for converting between coordinate systems; judged by
+    Lorch to have inspired rather than to be the torquetum.
+  sources:
+  - source/lorch-jabir-torquetum-1976
+  - source/wikipedia-torquetum-en
+dependents:
+- external:
+    ar: الركتانغولوس لريتشارد أوف والينغفورد
+    en: Richard of Wallingford's rectangulus
+    ur: رچرڈ آف والنگفورڈ کا ریکٹینگولس
+  note: A fourteenth-century English instrument performing the same
+    coordinate task with linear scales read by plumb lines.
+  sources:
+  - source/wikipedia-torquetum-en
+- external:
+    ar: توركيتوما القرن السادس عشر وهابرميل
+    en: The sixteenth-century torqueta of Habermel and the Nuremberg makers
+    ur: سولہویں صدی کے تورکیتوم اور ہابرمل کی ترمیم
+  note: All surviving specimens are sixteenth-century; Erasmus Habermel's
+    redesign let astronomers take all three scales from one mounting.
+  sources:
+  - source/wikipedia-torquetum-en
+spread: []
+impact:
+  fields:
+  - astronomy-instruments
+  changed:
+    ar: 'أعطى الفلكي آلة واحدة تقرأ السماء في ثلاثة أنظمة إحداثيات وتحوّل
+      بينها ميكانيكياً، فكان حاسوباً تماثلياً للرصد قبل أن تكتب معادلات
+      التحويل {cite:wikipedia-torquetum-en}.'
+    en: 'It gave the astronomer one instrument that reads the sky in three
+      coordinate systems and converts between them mechanically — an
+      analogue computer for observation before the conversion equations were
+      written out {cite:wikipedia-torquetum-en}.'
+    ur: 'فلکیات دان کو ایک ایسا آلہ دیا جو آسمان کو تین محددی نظاموں میں پڑھتا
+      اور میکانکی طور پر ان کے درمیان تبدیل کرتا — تحویل کی مساواتیں لکھی جانے
+      سے پہلے مشاہدے کا ینالاگ کمپیوٹر {cite:wikipedia-torquetum-en}۔'
+  history:
+    ar: 'خدم رصد أوروبا قرنين ونصفاً: بيير دي ليموج رصد به مذنب هالي، ويظهر في
+      لوحة «السفراء» لهولباين ⁦(1533)⁩ وفي «أسترونوميكوم كايساريوم» لأبيان
+      ⁦(1540)⁩ {cite:wikipedia-torquetum-en}.'
+    en: 'It served European observing for two and a half centuries: Peter of
+      Limoges observed Halley''s comet with it, and it stands in Holbein''s
+      Ambassadors ⁦(1533)⁩ and opens Apian''s Astronomicum Caesareum ⁦(1540)⁩
+      {cite:wikipedia-torquetum-en}.'
+    ur: 'ڈھائی صدیوں یورپی رصد کی خدمت کی: پیٹر آف لیموج نے اس سے ہیلی کا
+      دمدار ستارہ دیکھا، اور یہ ہولبائن کی «سفیر» ⁦(1533)⁩ اور اپیان کی
+      استرونومیکوم کایزاریوم ⁦(1540)⁩ میں موجود ہے {cite:wikipedia-torquetum-en}۔'
+  significance: 3
+  why: A specialised three-coordinate measuring engine shared between the
+    Arabic and Latin instrument traditions; its own birth certificate is
+    still contested, which is itself the honest lesson.
+described_in: []
+examples: []
+sites:
+- place/seville
+- place/cairo
+concepts: []
+today:
+  form:
+    ar: 'تعرض النسخ المتبقية — وكلها من القرن السادس عشر — في متاحف الآلات
+      العلمية؛ والأشهر توركيتوم براتوريوس ⁦(1568، نورنبرغ)⁩ {cite:wikipedia-torquetum-en}.'
+    en: 'The surviving specimens — all sixteenth-century — sit in instrument
+      collections; the best known is Praetorius''s torquetum ⁦(1568,
+      Nuremberg)⁩ {cite:wikipedia-torquetum-en}.'
+    ur: 'بچے ہوئے نمونے — سب سولہویں صدی کے — آلات سائنس کے عجائب گھروں میں
+      ہیں؛ مشہور ترین پریٹوریس کا تورکیتوم ہے ⁦(1568ء، نورنبرگ)⁩
+      {cite:wikipedia-torquetum-en}۔'
+  descendants:
+    ar: 'خلفته أجهزة المحاور المتعددة ثم التلسكوبات ذات التراكيب الاستوائية
+      التي تحمل فكرة القراءة في إحداثيات قابلة للتحويل {cite:wikipedia-torquetum-en}.'
+    en: 'Multi-axis measuring engines and then equatorially mounted
+      telescopes carry on the idea of reading the sky in convertible
+      coordinates {cite:wikipedia-torquetum-en}.'
+    ur: 'کثیر محوری پیمائشی آلات اور پھر استوائی محور والی دوربینیں قابلِ
+      تحویل محددات میں آسمان پڑھنے کا تصور آگے بڑھاتی ہیں {cite:wikipedia-torquetum-en}۔'
+media:
+  diagram: media/diagram-torquetum
+  image: media/diagram-torquetum
+kids:
+  ar: 'تخيل جهازاً يشبه ثلاث حلقات مركبة فوق بعضها: توجهه نحو نجمة، وتعطيك
+      الحلقات موقعها بثلاث طرق قياس مختلفة — كأنه مترجم فوري بين لغات الخرائط
+      السماوية الثلاث. استعمله فلكيو العصور الوسطى من إشبيلية إلى بكين.'
+  en: 'Imagine a device like three stacked rings: point it at a star and the
+      rings give its position in three different measuring systems — an
+      instant translator between the sky''s three map languages. Medieval
+      astronomers used it from Seville to Beijing.'
+  ur: 'ایک ایسا آلہ سوچو جو تین اوپر تلے رکھی حلقیوں جیسا ہو: کسی ستارے کی طرف
+      کرو اور حلقے اس کی پوزیشن تین مختلف پیمائشی نظاموں میں بتائیں — آسمانی
+      نقشوں کی تین زبانوں کا فوری مترجم۔ قرون وسطی کے ماہرین فلکیات اسے
+      اشبیلیہ سے بیجنگ تک استعمال کرتے تھے۔'
+sources:
+- source/wikipedia-torquetum-en
+- source/lorch-jabir-torquetum-1976
+- source/encyclopaedia-of-islam-2
+- source/king-synchrony-heavens-2004
+status:
+  review: published
+  completeness: 2
+provenance:
+  layer: own-research
+  generated_by: devin-drafter-w2-29
+  model: devin
+  run: inventions-w2-29
+  source: 'English Wikipedia "Torquetum" revision 1372871421 (entity facts only):
+    three coordinate systems, Lorch''s astrolabon-plus-astrolabe
+    characterisation, Latin texts of the 1280s, Franco of Poland 1284, Bernard
+    of Verdun undated, Regiomontanus 1469 Jabir attribution, Tycho 1598,
+    Needham''s Yuan-observatory simplified version and Jamal al-Din 1267,
+    surviving specimens all 16th c., Praetorius 1568, Habermel redesign,
+    Holbein''s Ambassadors 1533, Apian 1540, rectangulus. EI2 vol. X
+    bibliography (SAMT addenda region) — Tekeli on al-Wafa''i''s equatorial
+    armilla and the torquetum. King, In Synchrony with the Heavens I (2004),
+    harvest OCR bibliography, registers the Lorch 1976 Centaurus paper.
+    Lorch 1976 is bibliographic-only (not in hand).'
