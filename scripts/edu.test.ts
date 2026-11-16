@@ -573,7 +573,9 @@ describe("education: fact engine (E3 step 3, plan §5)", () => {
   it("every did_you_know fact is at most 40 words in ar, en and ur, with at least two existing sources", () => {
     const list = facts();
     expect(list.length, "batches of at most 25 authored facts each").toBeGreaterThan(0);
-    expect(list.length).toBeLessThanOrEqual(365);
+    // At least one authored fact for every day of the year; the pool may grow past 365 —
+    // a day then carries a bucket of facts and the page picks one at random per view.
+    expect(list.length).toBeGreaterThanOrEqual(365);
     for (const { id, file, fact } of list) {
       for (const l of LANGS) {
         expect(typeof fact[l] === "string" && fact[l].length > 0, `${id} ${l}`).toBe(true);
@@ -586,15 +588,17 @@ describe("education: fact engine (E3 step 3, plan §5)", () => {
     }
   });
 
-  it("fact-of-day rotation is deterministic and wraps the pool", async () => {
-    const { factOfDay, factOfWeek, loadFacts } = await import("../site/src/lib/facts.ts");
-    const a = factOfDay(new Date(Date.UTC(2026, 0, 1)));
-    const b = factOfDay(new Date(Date.UTC(2026, 0, 1)));
+  it("fact-of-day rotation is deterministic, covers every day and repeats each year", async () => {
+    const { factOfDay, factsOfDay, factOfWeek } = await import("../site/src/lib/facts.ts");
+    const jan1 = new Date(Date.UTC(2026, 0, 1));
+    const a = factOfDay(jan1);
     expect(a).not.toBeNull();
-    expect(a!.id).toBe(b!.id);
-    const n = loadFacts().length;
-    const afterPool = factOfDay(new Date(Date.UTC(2026, 0, 1 + n)));
-    expect(afterPool!.id).toBe(a!.id);
+    expect(factOfDay(jan1)!.id).toBe(a!.id);
+    expect(factsOfDay(jan1)[0].id).toBe(a!.id);
+    expect(factsOfDay(new Date(Date.UTC(2027, 0, 1))).map((f) => f.id)).toEqual(factsOfDay(jan1).map((f) => f.id));
+    for (let d = 0; d < 365; d++) {
+      expect(factsOfDay(new Date(Date.UTC(2026, 0, 1 + d))).length, `day ${d + 1}`).toBeGreaterThan(0);
+    }
     expect(factOfWeek()).not.toBeNull();
   });
 
@@ -604,7 +608,7 @@ describe("education: fact engine (E3 step 3, plan §5)", () => {
     expect(factsPage.includes("E.fc_sources")).toBe(true);
     expect(poster.includes("<Qr ")).toBe(true);
     expect(poster.includes("factOfWeek()")).toBe(true);
-    expect(strip.includes("factOfDay()")).toBe(true);
+    expect(strip.includes("factsOfDay()")).toBe(true);
   });
 
   it("the fact strings exist in all three languages and Urdu is not the English", () => {
