@@ -1,0 +1,16 @@
+id: passage/sira-ibn-hisham-wasaya-309
+class: passage
+unit: chapter
+work: work/sira-ibn-ishaq-ibn-hisham
+ref: "309"
+label: { ar: "السيرة النبوية لابن هشام، ص 309 — وصية أو عهد أخير", en: "Ibn Hisham's Sira, p. 309 — a testament or parting counsel", ur: "سیرت ابن ہشام، ص 309 — وصیت یا آخری نصیحت" }
+text: "… شُدَّ يَدَيْكَ بِهِ، فإنَّ أُمَّهُ ذَاتُ مَتَاع؛ لعلها تَفْدِيه منك، قال: وكنت في رَهْطٍ من الأنصار - حين أقبلوا بي من بَدْرٍ - فكانوا إذا قَدَّموا غَداءَهُمْ أَوْ عَشَاءَهُمْ خَصُّونِي بالخبز وأكلوا التمر ؛ لوصيّة رسول اللّٰه لي إياهم بنا، …"
+summary:
+  ar: "مقطع من السيرة النبوية لابن هشام، ص 309، يذكر وصية أو عهد أخير؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الوصايا والمواريث والآثار والمراقد."
+  en: "An excerpt from Ibn Hisham's Sira, p. 309, that mentions a testament or parting counsel; from the machine-read scan, quoted within forty words per the sources policy. The Testaments Browser lists it."
+  ur: "سیرت ابن ہشام، ص 309 کا اقتباس جس میں وصیت یا آخری نصیحت کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-wasiyya, sources: [source/ibn-hisham-sira] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan seerah/sira-ibn-hisham/20251231_20251231_0914, page 309; a window of at most 40 words chosen by the testaments detector (scripts/wasaya.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-ocr-1" }
+sources: [source/ibn-hisham-sira]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

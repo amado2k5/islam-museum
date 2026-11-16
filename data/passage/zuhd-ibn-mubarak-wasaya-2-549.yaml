@@ -1,0 +1,17 @@
+id: passage/zuhd-ibn-mubarak-wasaya-2-549
+class: passage
+unit: chapter
+work: work/kitab-al-zuhd-ibn-al-mubarak
+ref: "2:549"
+label: { ar: "الزهد لابن المبارك، المجلد المصوَّر 2، ص 549 — وصية أو عهد أخير، ساعة الاحتضار والوفاة", en: "Ibn al-Mubarak's Kitab al-Zuhd, scan volume 2, p. 549 — a testament or parting counsel; a deathbed and last hours", ur: "کتاب الزہد، ابن المبارک، اسکین جلد 2، ص 549 — وصیت یا آخری نصیحت، وقتِ وفات اور آخری لمحات" }
+text: "… أوصنا لما انقضت عدة زينب قال رسول اللّٰه لزيد: اذكرها لما حضر أبا عطية الموت جزع منه، فقيل له لما حضر عمر غشي عليه، فأخذت رأسه لما حضرت عمرو بن العاص الوفاة بكى لما حضرت عمرو بن العاص الوفاة، وضع …"
+summary:
+  ar: "مقطع من الزهد لابن المبارك، المجلد المصوَّر 2، ص 549، يذكر وصية أو عهد أخير، وساعة الاحتضار والوفاة؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الوصايا والمواريث والآثار والمراقد."
+  en: "An excerpt from Ibn al-Mubarak's Kitab al-Zuhd, scan volume 2, p. 549, that mentions a testament or parting counsel, a deathbed and last hours; from the machine-read scan, quoted within forty words per the sources policy. The Testaments Browser lists it."
+  ur: "کتاب الزہد، ابن المبارک، اسکین جلد 2، ص 549 کا اقتباس جس میں وصیت یا آخری نصیحت، وقتِ وفات اور آخری لمحات کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-wasiyya, sources: [source/zuhd-ibn-mubarak-azami-scan] }
+  - { type: mentions, target: concept/ihtidar, sources: [source/zuhd-ibn-mubarak-azami-scan] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan adab-zuhd/zuhd-ibn-mubarak/2_20260219_20260219_1945, page 549; a window of at most 40 words chosen by the testaments detector (scripts/wasaya.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-ocr-1" }
+sources: [source/zuhd-ibn-mubarak-azami-scan]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

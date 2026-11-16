@@ -1,0 +1,18 @@
+id: passage/tafsir-ibn-kathir-wasaya-2-497
+class: passage
+unit: chapter
+work: work/tafsir-ibn-kathir
+ref: "2:497"
+label: { ar: "تفسير ابن كثير، المجلد المصوَّر 2، ص 497 — وصية أو عهد أخير، ساعة الاحتضار والوفاة", en: "Ibn Kathir's Tafsir, scan volume 2, p. 497 — a testament or parting counsel; a deathbed and last hours", ur: "تفسیر ابن کثیر، اسکین جلد 2، ص 497 — وصیت یا آخری نصیحت، وقتِ وفات اور آخری لمحات" }
+text: "… عفا عما صنعوا وأنه قد اعتقد مواثيقهم من بعدك على النبوة. هذا الأثر موقوف عن أنس. ويزيد الرقاشى وصالح المرى ضعيفان جداً، وذكر السدى أن يعقوب لما حضره الموت أوصى إلى يوسف بأن يدفن عند إبراهيم وإسحق، فلما مات صبره …"
+summary:
+  ar: "مقطع من تفسير ابن كثير، المجلد المصوَّر 2، ص 497، يذكر وصية أو عهد أخير، وساعة الاحتضار والوفاة، ودفن وقبر ومرقد؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الوصايا والمواريث والآثار والمراقد."
+  en: "An excerpt from Ibn Kathir's Tafsir, scan volume 2, p. 497, that mentions a testament or parting counsel, a deathbed and last hours, a burial, grave or resting place; from the machine-read scan, quoted within forty words per the sources policy. The Testaments Browser lists it."
+  ur: "تفسیر ابن کثیر، اسکین جلد 2، ص 497 کا اقتباس جس میں وصیت یا آخری نصیحت، وقتِ وفات اور آخری لمحات، تدفین، قبر اور مرقد کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/al-wasiyya, sources: [source/tafsir-ibn-kathir] }
+  - { type: mentions, target: concept/ihtidar, sources: [source/tafsir-ibn-kathir] }
+  - { type: mentions, target: concept/ziyarat-al-qubur, sources: [source/tafsir-ibn-kathir] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan tafsir/tafsir-ibn-kathir/AAlexandrina-024136, page 497; a window of at most 40 words chosen by the testaments detector (scripts/wasaya.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-ocr-1" }
+sources: [source/tafsir-ibn-kathir]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

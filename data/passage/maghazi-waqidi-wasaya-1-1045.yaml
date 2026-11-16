@@ -1,0 +1,17 @@
+id: passage/maghazi-waqidi-wasaya-1-1045
+class: passage
+unit: chapter
+work: work/kitab-al-maghazi
+ref: "1:1045"
+label: { ar: "المغازي للواقدي، المجلد المصوَّر 1، ص 1045 — ساعة الاحتضار والوفاة، دفن وقبر ومرقد", en: "al-Waqidi's Maghazi, scan volume 1, p. 1045 — a deathbed and last hours; a burial, grave or resting place", ur: "المغازی، واقدی، اسکین جلد 1، ص 1045 — وقتِ وفات اور آخری لمحات، تدفین، قبر اور مرقد" }
+text: "… فلمّا تُوفَّى رسول اللّٰه، كان عمر بن الخطَّاب فى خلافته إذا مات رجلٌ ممَّن يظنُّ أنَّه من أُولئك الرهط. أخذ بيد حُدَيفة فقاده إلى الصلاة عليه فإن مشى معه حُدَيفة صلَّى عليه عمر، وإن انتزع يده وأَبى أَن يمشى انصرف …"
+summary:
+  ar: "مقطع من المغازي للواقدي، المجلد المصوَّر 1، ص 1045، يذكر ساعة الاحتضار والوفاة، ودفن وقبر ومرقد؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الوصايا والمواريث والآثار والمراقد."
+  en: "An excerpt from al-Waqidi's Maghazi, scan volume 1, p. 1045, that mentions a deathbed and last hours, a burial, grave or resting place; from the machine-read scan, quoted within forty words per the sources policy. The Testaments Browser lists it."
+  ur: "المغازی، واقدی، اسکین جلد 1، ص 1045 کا اقتباس جس میں وقتِ وفات اور آخری لمحات، تدفین، قبر اور مرقد کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/ihtidar, sources: [source/al-waqidi-maghazi] }
+  - { type: mentions, target: concept/ziyarat-al-qubur, sources: [source/al-waqidi-maghazi] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan seerah/maghazi-waqidi/AlMaghaziAlwaghidi, page 1045; a window of at most 40 words chosen by the testaments detector (scripts/wasaya.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-ocr-1" }
+sources: [source/al-waqidi-maghazi]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }

@@ -255,7 +255,7 @@ for (const book of BOOKS) {
       `  ur: ${q(summary.ur)}`,
       `relations:`,
       ...uniq(c.topics.map((t) => TARGETS[t])).map((t) => `  - { type: mentions, target: ${t}, sources: ${src} }`),
-      `provenance: { layer: own-research, source: ${q(`Apple Vision OCR of the scan ${book.dir}/${c.scan}, page ${c.page}; a window of at most 40 words chosen by the testaments detector (scripts/wasaya.ts); OCR text not corrected`)}, generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-ocr-1" }`,
+      `provenance: { layer: own-research, source: ${q(`Apple Vision OCR of the scan ${book.dir}/${/^[\x20-\x7e]+$/.test(c.scan) ? c.scan : `volume-${c.vol}`}, page ${c.page}; a window of at most 40 words chosen by the testaments detector (scripts/wasaya.ts); OCR text not corrected`)}, generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-ocr-1" }`,
       `sources: ${src}`,
       `status: { review: draft, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words" }`,
       ``,
