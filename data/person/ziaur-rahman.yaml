@@ -33,6 +33,12 @@ died:
   derived: true
   note: "Assassinated on 30 May 1981 at the Circuit House, Chittagong, in an attempted military coup; the English and Arabic articles agree, and the Arabic article pairs the date with 26 Rajab 1401 AH, from which the Hijri year (1401) is taken rather than derived afresh. He is buried at the Mausoleum of Ziaur Rahman in Sher-e-Bangla Nagar, Dhaka. No died_in relation is written: Chittagong has no museum place entity."
   sources: [source/wikipedia-ziaur-rahman-en, source/wikipedia-ziaur-rahman-ar]
+occupations:
+  - job: job/commander
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'general', Job Browser linking wave 22"
+    sources: [source/wikipedia-ziaur-rahman-en, source/wikipedia-ziaur-rahman-ar]
 relations:
   - { type: buried_in, target: place/dhaka, sources: [source/wikipedia-ziaur-rahman-en, source/wikipedia-ziaur-rahman-ar] }
 faith:

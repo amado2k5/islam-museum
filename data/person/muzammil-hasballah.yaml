@@ -22,6 +22,12 @@ born:
   precision: day
   note: "Date and place (Sigli, Pidie, Aceh) from the Indonesian Wikipedia infobox and lead; no place record for Sigli exists in the tree, so no born_in relation is recorded."
   sources: [source/wikipedia-muzammil-hasballah-id]
+occupations:
+  - job: job/qari
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'reciter', Job Browser linking wave 22"
+    sources: [source/wikipedia-muzammil-hasballah-id, source/youtube-muzammilhb, source/vidiq-muzammil-hasballah, source/muzammil-hasballah-app-profile]
 relations:
   - { type: lived_in, target: place/bandung, sources: [source/wikipedia-muzammil-hasballah-id] }
 reach:

@@ -32,6 +32,12 @@ died:
   derived: true
   note: "Died at Cairo on his sixty-eighth birthday and was buried beside the Sayyida Nafisa Mosque, as he had wished. The Arabic article's death line misprints the Hijri year as 1339; its own categories file him among deaths of 1369 AH, and 9 May 1950 is 22 Rajab 1369 AH, so 1369 is recorded and the misprint disclosed here."
   sources: [source/wikipedia-muhammad-rifat-en, source/wikipedia-muhammad-rifat-ar, source/wikidata-muhammad-rifat]
+occupations:
+  - job: job/qari
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'reciter', Job Browser linking wave 22"
+    sources: [source/wikipedia-muhammad-rifat-en, source/wikipedia-muhammad-rifat-ar, source/wikidata-muhammad-rifat, source/wikidata]
 relations:
   - { type: born_in, target: place/cairo, note: "Born at Cairo (both articles and Wikidata agree). The edge is written here, in his own record, only.", sources: [source/wikipedia-muhammad-rifat-en, source/wikipedia-muhammad-rifat-ar] }
   - { type: died_in, target: place/cairo, note: "Died at Cairo (both articles and Wikidata agree). The edge is written here, in his own record, only.", sources: [source/wikipedia-muhammad-rifat-en, source/wikipedia-muhammad-rifat-ar] }
