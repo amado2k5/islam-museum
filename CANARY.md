@@ -13,6 +13,10 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v1.52.0 — 2026-11-16
+### Added
+- Job Browser: six more professions, completing the hirfa craft taxonomy — the rope-maker (habbal) of the Galata ditch and the tent-ropes of the pilgrimage, the mosaicist (fassifsa'i) of the Umayyad mosque workshops, the zallij-maker of the Fez tile-setters' hammers, and the first faith-preaching jobs: the muezzin, the khatib of the Friday pulpit, and the qass storyteller-preacher — in Arabic, English and Urdu draft cited to Evliya Çelebi, Creswell's *Early Muslim Architecture*, Newcomb's *Decorative Tiles of North Africa*, and the TDV entries MÜEZZİN, HUTBE and VAAZ.
+
 ## v1.51.0 — 2026-11-16
 ### Added
 - Citation infrastructure for researchers: a new “Cite the museum” page (`/{lang}/cite/`, in Arabic, English and Urdu, linked from the footer of every page) states the museum's citation policy — always cite the dataset's Zenodo concept DOI (10.5281/zenodo.23692511), never a single day's version DOI, so citations aggregate on one record — and gives the copy-ready citation plus BibTeX and RIS for reference managers. The page carries the site's schema.org `Dataset` markup (identifier, creator with ORCID, CC0 licence and the graph/API/Zenodo downloads), so dataset indexes such as Google Dataset Search can read the dataset as a dataset. A `CITATION.cff` at the repository root gives GitHub a “Cite this repository” entry whose preferred citation is the same concept DOI.

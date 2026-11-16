@@ -1,0 +1,37 @@
+id: job/qass
+class: job
+label: { ar: "القاصّ", en: "Qass (storyteller-preacher)", ur: "قاصّ ⁦(قصہ گو واعظ)⁩" }
+names:
+  - { value: "قصّاص", kind: alternate }
+  - { value: "kassâs", kind: latinized, lang: tr }
+  - { value: "قاصّة", kind: alternate }
+  - { value: "muzakkir", kind: latinized }
+summary:
+  ar: "القاصّ ⁦(وجمعه قصّاص)⁩ حكواتيّ واعظ يقصّ على العامة القصص الديني والعِبَر في المسجد والمجلس والسوق، فيلين قلوبهم ويعظهم؛ نشأت صناعته في خلافة عمر حين احتاج الناس إلى من يبسّط لهم الدين، وأوّل من قصّ بحسب الروايات عبيد بن عمير الليثي، وكان القصّاص الأوائل علماء ورجال ثقة. ثم انحطّت الصنعة: انتهازيون يختلقون الحكايات والإسرائيليات ويتكسّبون بها، فصنّف ابن الجوزي «القصّاص والمذكّرين» والسيوطي «تحذير الخواصّ من أكاذيب القصّاص»، ومنذ القرن الرابع الهجري حلّ لقبا الواعظ والمذكّر محل القاصّ."
+  en: "The qass (plural qussas) was the storyteller-preacher who recited religious tales and cautionary stories to the common people in mosque, assembly and market, softening hearts and exhorting. His craft arose under the caliphate of Umar, when people needed the faith made plain; the first to 'tell' is said to have been Ubayd ibn Umayr al-Laythi, and the early qussas were scholars and trustworthy transmitters. Then the craft declined: opportunists invented tales and Isra'iliyyat to earn a living, so Ibn al-Jawzi wrote 'The Qussas and the Reminders' and al-Suyuti 'Warning the Elite against the Qussas' Lies', and from the fourth Islamic century the titles wa'iz and muzakkir replaced the qass."
+  ur: "قاصّ ⁦(جمع قصّاص)⁩ وہ قصہ گو واعظ تھا جو مسجد، مجلس اور بازار میں عوام کو دینی قصے اور عبرت کی داستانیں سناتا، دل نرم کر کے نصیحت کرتا۔ یہ پیشہ عمر فاروق کے دور میں اس لیے پیدا ہوا کہ لوگوں کو آسان دین کی ضرورت تھی؛ روایات میں پہلا قاص عبید بن عمیر لیثی تھا اور ابتدائی قصّاص علماء اور معتبر راوی تھے۔ پھر پیشہ بگڑا: موقع پرستوں نے کسب کے لیے قصے اور اسرائیلیات گھڑ لئے، تب ابن الجوزی نے «القصّاص والمذکّرین» اور سیوطی نے «تحذیر الخواصّ من اکاذیب القصّاص» لکھی، اور چوتھی صدی ہجری سے واعظ اور مذکّر القاب قاص کی جگہ لینے لگے۔"
+domain: faith-preaching
+kind: service
+hirfa: false
+era:
+  origins: early-caliphate
+  status_today: replaced
+places:
+  - { place: place/medina, note: "Under Umar the qass and the qari emerged as popular educators; Ubayd ibn Umayr al-Laythi is recorded as the first qass, and al-Harith ibn Mu'awiya al-Kindi asked Umar's leave to tell stories.", sources: [source/tdv-vaaz] }
+  - { place: place/basra, note: "In the mosque of Basra the first to tell stories was al-Aswad ibn Sari' — the craft began among scholars and trustworthy narrators before it turned into a livelihood.", sources: [source/tdv-vaaz] }
+regions: [arabia, levant-iraq, egypt-nile, persia-central-asia, maghreb]
+organization:
+  organized: informal
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people]
+periods: [period/rashidun, period/umayyad, period/abbasid-early, period/abbasid-fragmentation]
+sources: [source/tdv-vaaz]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-harvest-7" }
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi, 'VAAZ' section 1 (Cirit, 2012), web edition read on 16 Nov 2026: the definition of kās/qussas, the first storytellers (Ubayd b. Umayr, al-Harith b. Mu'awiya, al-Aswad b. Sari'), the decline into fabrication, and the critical literature of Ibn al-Jawzi and al-Suyuti"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-harvest-7-drafting"
