@@ -588,12 +588,12 @@ describe("education: fact engine (E3 step 3, plan §5)", () => {
 
   it("fact-of-day rotation is deterministic and wraps the pool", async () => {
     const { factOfDay, factOfWeek, loadFacts } = await import("../site/src/lib/facts.ts");
-    const a = factOfDay(new Date(Date.UTC(2026, 0, 15)));
-    const b = factOfDay(new Date(Date.UTC(2026, 0, 15)));
+    const a = factOfDay(new Date(Date.UTC(2026, 0, 1)));
+    const b = factOfDay(new Date(Date.UTC(2026, 0, 1)));
     expect(a).not.toBeNull();
     expect(a!.id).toBe(b!.id);
     const n = loadFacts().length;
-    const afterPool = factOfDay(new Date(Date.UTC(2026, 0, 15 + n)));
+    const afterPool = factOfDay(new Date(Date.UTC(2026, 0, 1 + n)));
     expect(afterPool!.id).toBe(a!.id);
     expect(factOfWeek()).not.toBeNull();
   });
