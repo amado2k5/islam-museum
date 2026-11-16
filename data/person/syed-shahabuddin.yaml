@@ -34,6 +34,12 @@ faith:
     basis: unknown
     note: "No source names a school for him. He was a Muslim public figure — Wikidata carries Islam as his religion and the biographies present him as a leader of Muslim politics in India: the opposition to the Shah Bano judgment, the Babri Masjid movement, the presidency of the All India Muslim Majlis-e-Mushawarat. But Islam in general is not a school in this schema, and leadership of Muslim institutions is an office, which never counts; nothing further is recorded."
     sources: [source/wikidata-syed-shahabuddin, source/wikipedia-syed-shahabuddin-en]
+occupations:
+  - job: job/diplomat
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'diplomat', Job Browser linking wave"
+    sources: [source/wikipedia-syed-shahabuddin-en, source/wikipedia-syed-shahabuddin-ur, source/wikidata-syed-shahabuddin, source/wikidata]
 relations:
   - { type: died_in, target: place/delhi, sources: [source/wikipedia-syed-shahabuddin-en] }
 summary:

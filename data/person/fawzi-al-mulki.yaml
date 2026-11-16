@@ -30,6 +30,12 @@ died:
 roles: [politician, diplomat]
 regions: [levant-iraq]
 wings: [people]
+occupations:
+  - job: job/diplomat
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'diplomat', Job Browser linking wave"
+    sources: [source/wikipedia-fawzi-al-mulki-en, source/wikipedia-fawzi-al-mulki-ar, source/wikidata-fawzi-al-mulki]
 relations:
   - { type: died_in, target: place/nablus, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikipedia-fawzi-al-mulki-en, source/wikipedia-fawzi-al-mulki-ar, source/wikidata-fawzi-al-mulki] }
 faith:

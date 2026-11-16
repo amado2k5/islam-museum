@@ -38,5 +38,11 @@ provenance:
   generated_by: "Muse (Muse Spark 1.3)"
   run: century-additions-101
 status: { review: published }
+occupations:
+  - job: job/engineer
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'engineer', Job Browser linking wave"
+    sources: [source/wikipedia-khademhosseini-en, source/wikipedia-khademhosseini-fa, source/wikidata-khademhosseini, source/wikidata]
 relations:
   - { type: lived_in, target: place/iran, note: "From text: Iranian (nationality adjective); broad association, flagged for review.", sources: [source/wikipedia-khademhosseini-en, source/wikipedia-khademhosseini-fa, source/wikidata-khademhosseini], confidence: low }

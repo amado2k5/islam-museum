@@ -13,6 +13,10 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v1.89.0 — 2026-11-17
+### Added
+- Job Browser linking wave 15: 26 `occupations:` edges on 25 person records — fourteen engineers, six lawyers, five diplomats and an alim, mostly modern figures.
+
 ## v1.88.0 — 2026-11-17
 ### Added
 - Job Browser linking wave 14: 25 `occupations:` edges on 25 person records — nine lawyers, nine diplomats and seven engineers from the Ottoman, Egyptian, Pakistani and Gulf records.

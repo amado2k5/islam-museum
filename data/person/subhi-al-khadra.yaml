@@ -34,6 +34,12 @@ faith:
     basis: unknown
     note: "No source read names a religion, let alone a school, for Subhi al-Khadra himself: Wikidata carries no religion value for him at all, and neither biography attests one. His waqf directorship in the Galilee, his part in founding Young Men's Muslim Associations and his Istiqlal leadership are offices and affiliations, and never count."
     sources: [source/wikipedia-subhi-al-khadra-en, source/wikipedia-subhi-al-khadra-ar, source/wikidata-subhi-al-khadra]
+occupations:
+  - job: job/lawyer
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'lawyer', Job Browser linking wave"
+    sources: [source/wikipedia-subhi-al-khadra-en, source/wikipedia-subhi-al-khadra-ar, source/wikidata-subhi-al-khadra]
 relations:
   - { type: died_in, target: place/damascus, sources: [source/wikipedia-subhi-al-khadra-en, source/wikipedia-subhi-al-khadra-ar] }
 summary:
