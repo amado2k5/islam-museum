@@ -1,0 +1,23 @@
+id: concept/kashnaj
+class: concept
+kind: natural
+label:
+  ar: "كشنج"
+  en: "Kashnaj (a truffle-like fungus)"
+  ur: "کشنج"
+summary:
+  ar: "الكشنج شيء من جنس الكمأة والفطر لذيذ جداً يكثر فيما وراء النهر وخراسان، بارد دون برد الكمأة، غليظ مطفئ {cite:canon-ibn-sina-print-v1 p.528}."
+  en: "Kashnaj is something of the truffle and mushroom kind, very tasty, common in Transoxiana and Khurasan; cold, but less than other truffles, thick and quenching {cite:canon-ibn-sina-print-v1 p.528}."
+  ur: "کشنج کمأۃ اور کھمبی کی جنس کی ایک چیز ہے، نہایت لذیذ، ماوراء النہر اور خراسان میں بہت ملتی ہے؛ ٹھنڈی ہے مگر دوسری کمأۃ سے کم، گاڑھی اور بجھانے والی {cite:canon-ibn-sina-print-v1 p.528}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letters kaf and lam, scan pages 528, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen and desire reports kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-16
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

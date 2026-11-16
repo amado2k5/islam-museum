@@ -24478,6 +24478,22 @@ video_series:
       - { n: 28, title: null, page_url: "https://www.assabile.com/tareq-al-suwaidan/lessons/wind-of-change/episode-28", file: "devin-harvest/raw/assabile/tareq-al-suwaidan/wind-of-change/ep28.mp4", format: mp4, duration: "56:46", bytes: null, sha256: "503a4db067ae527a81d8acfa419bb1923788b5127c69e6f47df9077014aa9218", on_drive: false, from: "https://media.assabile.com/assabile/lessons_8234632432/mp4/tareq-al-suwaidan/165-1489-28-m-al-mshahdyn-6.mp4", downloaded: "2026-10-26", transcript: "pass5-qwen", mining: null }
     completion: ocr_done
     unverified: ["page_url and series_page_url follow the pattern used by discover_series.py (episode pages were fetched to build the manifest), not individually re-checked", "downloaded date is the file modification time (or, where the media file was removed after transcription, the SHA256SUMS time); media files no longer on the drive are marked on_drive false and keep their recorded sha256", "per-episode ingesting PRs not recorded; PRs are series level (all merged PRs touching the work record)", "completion ocr_done means transcription complete (the register has no transcribed state)", "no work record found in the graph for this series; mining state taken as none"]
+  - id: assabile-amr-khaled-wa-nal9a-al-aheba
+    title: "wa-nal9a-al-aheba"
+    media_type: video
+    site_url: https://www.assabile.com
+    lecturer: { name: "Amr Khaled", page_url: "https://www.assabile.com/amr-khaled" }
+    series_page_url: "https://www.assabile.com/amr-khaled/lessons/wa-nal9a-al-aheba"
+    episodes_total: null
+    episodes_audio: 9
+    episodes_transcribed: 9
+    transcript: { pass: pass5-qwen, model: "oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2", state: partial, run_dates: "2026-11-15" }
+    mining: { state: none, episodes_mined: 0, ranges: null, held: null, basis: null }
+    ingestion: { state: in_progress, prs: [], ledger: "docs/delegation/assabile-wa-nal9a-al-aheba.md", work_id: "work/wa-nal9a-al-aheba" }
+    episodes:
+      - { n: 9, title: "Episode 09 (Wa Nalka Al-Aheba)", page_url: "https://www.assabile.com/amr-khaled/lessons/wa-nal9a-al-aheba/episode-09-919", file: "raw/assabile/amr-khaled/wa-nal9a-al-aheba/ep09.mp4", format: mp4, duration: "54:15", bytes: 143081214, sha256: "438269ceb619b2de8095482e856f15338f26210e7b304b839eb2f2917dee65a1", on_drive: true, from: "https://media.assabile.com/assabile/lessons_8234632432/mp4/amr-khaled/919-09-amr-bn-al-khtab-5.mp4", downloaded: "2026-11-15", transcript: "pass5-qwen", mining: "in_progress" }
+    completion: mining
+    unverified: ["entry added by the lander from the note in packet lanec-wa-nal9a-al-aheba-09; only episode 9 is described in full; episodes 1-8 and 10 are on the drive under raw/assabile/amr-khaled/wa-nal9a-al-aheba/ (audio/ and pass5-qwen/) and need their lines and checksums filled in by the lane; episodes_total not yet confirmed"]
   # END video_series
 
 # websites: one entry per site (id, title, site_url, licence, lane, state, notes) and a `pages` list of

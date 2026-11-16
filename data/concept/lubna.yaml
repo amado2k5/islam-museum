@@ -1,0 +1,23 @@
+id: concept/lubna
+class: concept
+kind: natural
+label:
+  ar: "لبنى"
+  en: "Lubna (liquid storax, mi'a)"
+  ur: "لبنیٰ ⁦(میعہ)⁩"
+summary:
+  ar: "اللبنى هو الميعة، ويقال لسائله عسل اللبنى والاصطرك، دمعة شجرة كالسفرجل، حار في الأولى يابس في الثانية، منضج مليّن مسخن محلل {cite:canon-ibn-sina-print-v1 p.537} {cite:canon-ibn-sina-print-v1 p.538}."
+  en: "Lubna is the mi'a, whose liquid is called honey of lubna and storax, a gum-tear of a tree like the quince; hot in the first degree and dry in the second, ripening, softening, warming and dissolving {cite:canon-ibn-sina-print-v1 p.537} {cite:canon-ibn-sina-print-v1 p.538}."
+  ur: "لبنیٰ میعہ ہے، اس کے بہنے والے حصے کو عسل اللبنیٰ اور اصطرک کہتے ہیں، ایک درخت کی گوند جو بہی کے درخت جیسا ہے؛ پہلے درجے میں گرم اور دوسرے میں خشک، پکانے، نرم کرنے، گرم کرنے اور تحلیل کرنے والا {cite:canon-ibn-sina-print-v1 p.537} {cite:canon-ibn-sina-print-v1 p.538}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letters kaf and lam, scan pages 537 to 538, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen and desire reports kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-16
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

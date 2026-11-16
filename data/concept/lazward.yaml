@@ -1,0 +1,23 @@
+id: concept/lazward
+class: concept
+kind: natural
+label:
+  ar: "لازورد"
+  en: "Lazward (lapis lazuli)"
+  ur: "لازورد"
+summary:
+  ar: "اللازورد حجر قوته كقوة لزاق الذهب وأضعف يسيراً، حار في الثانية يابس في الثالثة، لذاع معفن جلاء، ينفع البهر ووجع الكلى ويسهل السوداء {cite:canon-ibn-sina-print-v1 p.538}."
+  en: "Lazward is a stone whose power is that of the gold-solder (lizaq al-dhahab) but a little weaker, hot in the second degree and dry in the third; stinging, putrefying and cleansing, it helps shortness of breath and kidney pain and loosens black bile {cite:canon-ibn-sina-print-v1 p.538}."
+  ur: "لازورد ایک پتھر ہے جس کی قوت لزاق الذہب جیسی ہے مگر ذرا کمزور، دوسرے درجے میں گرم اور تیسرے میں خشک؛ چبھنے والا، گلانے والا اور جلا دینے والا، سانس پھولنے اور گردے کے درد میں مفید ہے اور سودا خارج کرتا ہے {cite:canon-ibn-sina-print-v1 p.538}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letters kaf and lam, scan pages 538, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen and desire reports kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-16
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

@@ -1,0 +1,23 @@
+id: concept/kalb
+class: concept
+kind: natural
+label:
+  ar: "كلب"
+  en: "Kalb (the dog, in the Canon)"
+  ur: "کلب ⁦(قانون میں)⁩"
+summary:
+  ar: "مدخل قصير في الكلب: بوله على الثآليل، وإنكار جالينوس لما يُدّعى في لبنه ودمه، ودم الكلب الكلب لنهوشه ولسم السهام الأرمينية {cite:canon-ibn-sina-print-v1 p.535}."
+  en: "A short entry on the dog: its urine on warts, Galen's rejection of what is claimed for its milk and blood, and the blood of the rabid dog for its bites and for the poison of Armenian arrows {cite:canon-ibn-sina-print-v1 p.535}."
+  ur: "کتے پر ایک مختصر مدخل: اس کا پیشاب مسوں پر، اس کے دودھ اور خون کے بارے میں کیے گئے دعووں کی جالینوس کی تردید، اور باؤلے کتے کا خون اس کے کاٹے اور ارمنی تیروں کے زہر کے لیے {cite:canon-ibn-sina-print-v1 p.535}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letters kaf and lam, scan pages 535, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen and desire reports kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-16
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }
