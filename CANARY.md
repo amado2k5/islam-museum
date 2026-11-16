@@ -13,6 +13,10 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v1.84.0 — 2026-11-17
+### Added
+- Job Browser linking wave 10: 35 `occupations:` edges on 25 person records — the dai pool fully linked, sufi-shaykh 8/9, plus sultan, caliph, alim, preacher and poet links on Ottoman and West African rulers.
+
 ## v1.83.0 — 2026-11-17
 ### Added
 - The modern-figures lane progress record now names the wave 201 pull request (PR #7163) that completed the lane's 2026-11-16 resume, alongside wave 200 sections C (PR #7153) and D (PR #7159).

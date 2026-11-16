@@ -25,5 +25,11 @@ provenance:
 status:
   review: draft
   completeness: 1
+occupations:
+  - job: job/sufi-shaykh
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'sufi master', Job Browser linking wave"
+    sources: [source/al-aalam, source/wikidata]
 relations:
   - { type: lived_in, target: place/bilad-al-sudan, note: "Only the record-level region (west-africa-sahel) is attested; broad-region edge flagged for review.", sources: [source/al-aalam], confidence: low }

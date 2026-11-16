@@ -17,6 +17,12 @@ story_roles:
 faith:
   - { value: unknown, basis: unknown }
 died: { edtf: "600~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hisham" }
+occupations:
+  - job: job/dai
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'agent', Job Browser linking wave"
+    sources: [source/tarikh-ibn-khaldun-ibar, source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/muruj-al-dhahab]
 relations:
   - { type: lived_in, target: place/syria, confidence: low, note: "Associated with Syria per the record's own summary text; relation type pending review.", sources: [source/tarikh-ibn-khaldun-ibar] }
   - { type: participated_in, target: event/marriage-to-khadija, role: "نقل شهادته في التجارة إلى خديجة", sources: [source/mubarakpuri-raheeq] }

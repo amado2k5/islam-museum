@@ -12,6 +12,12 @@ wings: [people]
 regions: [levant-iraq]
 periods: [period/crusades-ayyubid-mamluk]
 died: { edtf: "1193~", precision: year, status: tradition, derived: true }
+occupations:
+  - job: job/dai
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'Nizari da'i', Job Browser linking wave"
+    sources: [source/kamil-ibn-al-athir]
 relations:
   - { type: born_in, target: place/basra, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q48195)" }
   - { type: died_in, target: place/masyaf, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q825818)" }
