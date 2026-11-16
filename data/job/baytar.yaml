@@ -1,0 +1,45 @@
+id: job/baytar
+class: job
+label: { ar: "البيطار", en: "Veterinarian and farrier (baytar)", ur: "بیطار" }
+names:
+  - { value: "na'l-bend", kind: latinized, lang: tr }
+  - { value: "faraş", kind: latinized, lang: tr }
+summary:
+  ar: "البيطار هو معالج الدوابّ ومُحدِث حدواتها. يقول الشيزري إن بيطرة علم شريف كتب فيه الفلاسفة رسائل، وهو أصعب من طب الناس لأن الدابّة لا تنطق بعلتها وألمها فلا يُعلَم مرضها إلا باللمس والنظر؛ فلا يباشرها إلا من دين يمنعه أن يضرّ الدابة بفصدٍ أو قطعٍ أو كيٍّ عن غير تجربة فيؤدي إلى موتها أو عطبها. ويعاين كعبها ويفحص حافرها قبل جَرْده، فإن كان معوَجّاً جرد الجهة المقابلة حتى يستوي، ولا يُفرط في الجرد فيصيب اللحم، ولا يضع المسامير سائبة فتتحرك الحدوة وتدخل الحصى والرمل، ولا يشدّها فيعذّبها؛ والحدوة المطرّقة أثبت، واللينة أحسن للمسامير الصلبة، والرفيع خير من الغليظ. وإن احتاجت لفصد أمسك المبضع بأصابعه ونصبه في كفه وترك منه مقدار نصف ظفر، فشقّ العرق من أعلاه برفق، ولا يشقّ الودجين إلا بعد أن يربط عنق الدابة ربطاً محكماً لتبرز. وفي إسطنبول إوليا طائفتان: حدّادو النعل خمسمئة بمائتي دكان، والنعلبندية ألف بمائة وخمسين دكاناً، من ألزم الطوائف في العسكر."
+  en: "The baytar treats the beasts of burden and shoes their hooves. Al-Shayzari calls veterinary science an honourable one on which philosophers wrote treatises, harder than the medicine of men because the animal cannot speak its sickness and pain — its ailments are known only by touching and looking — so none may practise it who has not the religion to stop him harming the beast by inexperienced blood-letting, cutting or cautery, leading to its death or injury. He examines the animal's ankle and inspects the hoof before paring; if it is crooked he pares the opposite side until it is even, never cutting into the flesh; he sets the nails neither loose, lest the shoe shift and let in stones and sand, nor so tight as to torture the animal; hammered shoes hold best, soft shoes take hard nails, and thin nails are better than thick. If a vein must be opened he holds the scalpel between his fingers with its handle in his palm and half a fingernail of blade exposed, and cuts the vein delicately on its upper side; for the jugular veins he first binds the animal's neck firmly so they stand out. In Evliya's Istanbul there are two guilds: the horseshoe-smiths at five hundred men with two hundred shops, and the farriers proper at a thousand with a hundred and fifty — among the most indispensable guilds on campaign."
+  ur: "بیطار جانوروں کا معالج اور ان کے نعل باندھنے والا ہے۔ الشیزری بیطاری علم کو عزت والا کہتا ہے جس پر فلاسفہ نے رسالے لکھے، اور انسانوں کے طب سے مشکل کہ جانور اپنی تکلیف بتا نہیں سکتا — بیماری صرف چھونے اور دیکھنے سے معلوم ہوتی ہے — اس لیے وہی کرے جس کا دین اسے ناتجربہ کار فصد، کاٹ یا داغ سے جانور کو نقصان پہنچانے یا مار ڈالنے سے روکے۔ وہ جانور کی ٹخنی دیکھتا اور سم جاںچ کر تراشتا؛ ٹیڑھی ہو تو سامنے کی طرف تراش کر برابر کرتا، گوشت تک نہ پہنچے؛ میخیں نہ ڈھیلی رکھتا کہ نعل ہل کر کنکریّ اور ریت داخل ہو نہ اتنا کستا کہ جانور عذاب پائے؛ پیتل دھری نعل بہترین چپکتی ہے، نرم نعل پر سخت میخیں، اور پتلی میخ موٹی سے بہتر۔ فصد کھولنی ہو تو نشر انگلیوں میں اور دستہ ہتھیلی میں رکھ کر آدھی ناخن برابر نوک نکالتا اور رگ کو اوپر سے نرمی سے چیرتا؛ گردن کی شاہ رگ کے لیے پہلے گردن مضبوط باندھتا کہ رگیں اُبھر آئیں۔ اولیاء چلبی کے استنبول میں دو طائفیں ہیں: نعل ساز پانچ سو آدمی دو سو دکانوں کے ساتھ، اور نعل بند ہزار آدمی ڈیڑھ سو دکانوں کے ساتھ — لشکر میں ناگزیر ترین طائفوں میں۔"
+domain: medicine-care
+kind: medical
+hirfa: true
+era:
+  origins: pre-islamic
+  status_today: transformed
+places:
+  - { place: place/istanbul, note: "Evliya passes the horseshoe-smiths (ahengeran-i na'l-kesen) at five hundred men with two hundred shops, and the farriers (na'lbenjian) at a thousand with a hundred and fifty, exhibiting horse-shoes of Bosnia, Syria, Vicegrad and Hersek; their patron is Khizr who shod the Prophet's mule Duldul, and their chief in the Prophet's time Abu'l-Russem Essemak Beitari, girded by Selman.", sources: [source/evliya-seyahatname-hammer] }
+regions: [levant-iraq, egypt-nile, anatolia-balkans, persia-central-asia]
+organization:
+  organized: guild
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people, living]
+periods: [period/crusades-ayyubid-mamluk, period/gunpowder-empires]
+sources: [source/shayzari-nihaya-buckley, source/evliya-seyahatname-hammer]
+training:
+  mode: apprenticeship
+  certification: "Muhtasib's examination on the treatment of the animal's illnesses, its hoof, shoeing and blood-letting"
+craft:
+  materials: []
+  techniques:
+    ar: "يفصّل الشيزري عمل البيطار: يعاين الكعب ويفحص الحافر قبل الجرد؛ إن كان الحافر معوجّاً جرد الجهة المقابلة ليستوي، وإن كانت قدم الدابة مستقيمة وضع المسامير الصغار خلفاً والكبار أماماً، وإن كانت بالعكس فبالعكس؛ لا يجرد كثيراً فيصيب اللحم، ولا يضع المسامير سائبة فتدخل الحصى والرمل، ولا يشدّها فيعذّب الدابة؛ الحدوة المطرّقة أثبت على الحافر، واللينة تأخذ المسامير الصلبة، والرفيعة خير من الغليظة. وإن احتاجت الدابة لفصد أمسك المبضع بين أصابعه ونصبه في كفه تاركاً مقدار نصف ظفر بارزاً، فشقّ العرق من أعلاه برفق ورفق؛ وفي الودجين — وهما خطران لمجاورتهما المريء — يربط العنق ربطاً محكماً حتى يبرزا ثم يفعل ما يريد. ويذكر أن أهل العلم أحصوا في كتب البيطرة ثلاثمائة وعشرين داءً للدوابّ، منها ضيق المريء وداء الأنف بإفراز وبغيره، والجنون وضعف الدماغ، والديدان في المعدة والمغص والسّداد، والسعال البارد والحار، ودم يفجر من الدبر والذكر، وداء الحلق، وعسر البول، وألم المفاصل، وحصى في الحوافر وورم القدم والداحسات وشقوق الحوافر، وشلل الوجه ودمع العينين وألم الأسنان؛ وعلى البيطار أن يعرف علاج كل منها وسببه، وأيها يبقي أثراً دائماً وأيها لا؛ ولا يُغفل المحتسب امتحانه في ذلك."
+    en: "Al-Shayzari details the veterinarian's work: he examines the ankle and inspects the hoof before paring; if the hoof is crooked he pares the opposite side until it is even, and if the foot stands straight he sets small nails behind and large in front, reversing them if it stands the other way; he must not pare into the flesh, nor set the nails loose so stones and sand get in, nor so tight he tortures the animal; hammered shoes stick best to the hoof, soft shoes take hard nails, and thin nails are better than thick ones. For blood-letting he holds the scalpel between his fingers, its handle in his palm and half a fingernail of blade exposed, cutting the vein delicately on its upper side; for the jugular veins — dangerous because they lie beside the gullet — he binds the neck firmly so they stand out, then does as he intends. The learned count three hundred and twenty illnesses of the beasts: tightness in the gullet, nostril-disease with and without discharge, madness and weakness of the brain, stomach worms, colic, gripes, cold and hot coughs, blood bursting from the anus and the penis, throat disease, difficulty in urinating, pain in the joints, stones caught in the hooves, swelling of the foot, whitlows, split hooves, facial paralysis, watering eyes and toothache; the veterinarian must know the treatment and cause of each, and which leave lasting damage and which do not — and the muhtasib must not neglect to test him on all of it."
+    ur: "الشیزری بیطار کا کام تفصیل سے بتاتا ہے: ٹخنی دیکھ کر اور سم جاںچ کر تراشتا ہے؛ سم ٹیڑھا ہو تو سامنے کی طرف تراش کر برابر کرتا، سیدھا پاؤں ہو تو چھوٹی میخیں پیچھے اور بڑی آگے، الٹا ہو تو الٹ؛ اتنا نہ تراشے کہ گوشت کٹے، نہ میخیں ڈھیلی کہ کنکریّ ریت گھسے، نہ اتنا کسے کہ جانور عذاب پائے؛ دھری نعل سم پر مضبوط، نرم نعل پر سخت میخیں، اور پتلی میخ موٹی سے بہتر۔ فصد کے لیے نشر انگلیوں میں اور دستہ ہتھیلی میں، آدھی ناخن نوک باہر، رگ اوپر سے نرمی سے چیرتا؛ شاہ رگ — حلق کے قریب خطرناک — کے لیے گردن مضبوط باندھتا کہ رگیں اُبھریں پھر کیا چاہے کرتا۔ علماء نے جانوروں کے تین سو بیس رزق ⁦(امراض)⁩ گنے ہیں: حلق کا تنگ ہونا، نک کے رواں اور غیر رواں مرض، دیوانگی اور دماغی کمزوری، پیٹ کے کیڑے، قولنج اور مروڑ، ٹھنڈی اور گرم کھانسی، مقعد اور عضو سے خون کا پھوٹنا، گلے کا مرض، پیشاب کی تکلیف، جوڑوں کا درد، سموں میں پتھر، پاؤں کی سوجن، داحسات، سم کے شگاف، چہرے کی فالج، آنکھوں کا بہنا اور دانت درد؛ بیطار کو ہر ایک کا علاج اور سبب جاننا ہوتا ہے اور کون سا دائمی نقصان چھوڑتا ہے کون سا نہیں — اور محتسب ان سب میں اس کا امتحان لینا نہیں بھولتا۔"
+  guild:
+    bodies: []
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-med-1" }
+provenance:
+  layer: own-research
+  source: "Al-Shayzari/Buckley ch. 33 pp. 99-101 (veterinarians); Evliya/Hammer vol. 1 pt. 2 secs. 272 p. 181 and 290 p. 187 (farriers) — read on 16 Nov 2026 from the downloaded scans"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-med-1-drafting"

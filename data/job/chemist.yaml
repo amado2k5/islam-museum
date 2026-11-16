@@ -1,0 +1,39 @@
+id: job/chemist
+class: job
+label: { ar: "الكيميائي", en: "Chemist (kimyager)", ur: "کیمیا دان" }
+names:
+  - { value: "kimyager", kind: latinized, lang: tr }
+  - { value: "kimyacı", kind: latinized, lang: tr }
+  - { value: "صاحب الصنعة", kind: alternate }
+summary:
+  ar: "الكيميائي هو من يشتغل بعلم الكيمياء — وقد سمّاه المتقدمون أيضاً علم الصنعة وعلم التدبير وعلم الحجر وعلم الميزان — ويعنى ببنى الأجسام وتفاعلاتها وتراكيبها الجديدة. دخل العلم المسلمين ميراثَ الإسكندرية القديمة، فكان خالد بن يزيد بن معاوية أول من اشتغل به إذ ترجم له كتب من اليونانية والقبطية، ثم أسسه جابر بن حيان في الكوفة فاستكشف معادن وحموضاً ووضع أقدم وصفة معروفة لإنتاج حمض النتريك، وبلغ به أبو بكر الرازي الذروة بمناهجه التجريبية وكتابه «سر الأسرار» الذي قسّم فيه المواد الكيميائية ورسم نحو عشرين آلة من آلات مخبره بقيت مستعملة إلى القرن التاسع عشر."
+  en: "The chemist worked ilm al-kimya — also named by the early writers ilm al-san'a, ilm al-tadbir, ilm al-hajar and ilm al-mizan — the inquiry into the composition of bodies, their interactions and the making of new compounds. The science entered Islam as the heir of ancient Alexandria: Khalid ibn Yazid ibn Mu'awiya was the first Muslim to pursue it, having books translated from Greek and Coptic; Jabir ibn Hayyan founded it systematically at Kufa, discovering minerals and acids and giving the oldest known recipe for producing nitric acid; and Abu Bakr al-Razi carried it to its height with his experimental methods, his Kitab Sirr al-asrar classifying chemical substances and picturing some twenty instruments of his laboratory that stayed in use into the nineteenth century."
+  ur: "کیمیا دان وہ شخص تھا جو علمِ کیمیا پر کام کرتا تھا — جسے قدیم مصنفین علمِ صنعت، علمِ تدبیر، علمِ حجر اور علمِ میزان بھی کہتے تھے — یعنی اجسام کی بناوٹ، ان کے باہمی عمل اور نئے مرکبات بنانے کا علم۔ یہ علم مسلمانوں کو قدیم اسکندریہ کے ورثے میں ملا: خالد بن یزید بن معاویہ پہلے مسلمان تھے جنھوں نے یونانی اور قبطی کتابوں کے ترجمے کرا کے اس میں دلچسپی لی؛ جابر بن حیان نے کوفہ میں اسے منظم بنیاد دی، معادن اور تیزاب دریافت کیے اور نائٹریک ایسڈ بنانے کی قدیم ترین معلوم نسخہ پیش کیا؛ اور ابو بکر رازی نے تجرباتی طریقوں سے اسے عروج تک پہنچایا، جن کی کتاب «سر الاسرار» میں کیمیائی اشیاء کی تقسیم اور ان کی لیبارٹری کے تقریباً بیس اوزاروں کے نقشے ہیں جو انیسویں صدی تک مستعمل رہے۔"
+domain: sciences-numbers
+kind: scholarly
+hirfa: false
+era:
+  origins: pre-islamic
+  status_today: transformed
+places:
+  - { place: place/kufa, note: "Jabir ibn Hayyan pursued his work at Kufa by his own means, discovering minerals and acids, classifying substances into spirits, metals and pulverisable compounds, and giving the earliest known recipe for nitric acid.", sources: [source/tdv-kimya] }
+  - { place: place/rayy, note: "Abu Bakr al-Razi — of Ray — carried medieval Islamic chemistry to its peak; his Kitab Sirr al-asrar classifies the chemical substances and pictures about twenty laboratory instruments used into the nineteenth century.", sources: [source/tdv-kimya] }
+regions: [levant-iraq, egypt-nile, persia-central-asia, andalus-europe, anatolia-balkans]
+organization:
+  organized: informal
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people]
+periods: [period/umayyad, period/abbasid-early, period/abbasid-fragmentation, period/crusades-ayyubid-mamluk]
+sources: [source/tdv-kimya]
+training:
+  mode: ijaza-chain
+  certification: "No licence for the chemist is described in the entry read. The art passed through teachers — Khalid studied under the Alexandrian chemist Stephanos's pupil Marianos (Morienos), and Jabir is said to have learned from Ja'far al-Sadiq — and through the Hermetic and Arabic book literature."
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-sci-1" }
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi 'KİMYA' (E. Dölen, 2002; vol. 26 pp. 26-30), read on the web on 16 Nov 2026"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-sci-1-drafting"
