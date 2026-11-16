@@ -13,6 +13,17 @@ regions: [levant-iraq]
 periods: [period/crusades-ayyubid-mamluk]
 born: { edtf: "1177", hijri: "0572", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar. al-Zirikli, al-A'lam, vol. 5 p. 322, prints 572 AH = 1176 CE; the card year 1177 is kept (a difference of one year, 572 AH spanning 1176 and 1177).", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 died: { edtf: "1260", hijri: "0658", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar. al-Zirikli prints 658 AH = 1260 CE, agreeing with the card.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 31"
+    sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
+  - job: job/muhaddith
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'muhaddith', Job Browser linking wave 31"
+    sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 relations:
   - { type: born_in, target: place/yunin, confidence: high, note: "al-Zirikli, al-A'lam, vol. 5 p. 322: born at Yunin", sources: [source/alam-zirikli-dar-al-ilm-2002] }
   - { type: died_in, target: place/baalbek, confidence: high, note: "al-Zirikli, al-A'lam, vol. 5 p. 322: died at Baalbek", sources: [source/alam-zirikli-dar-al-ilm-2002] }

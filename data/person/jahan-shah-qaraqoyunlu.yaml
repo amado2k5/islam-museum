@@ -12,6 +12,12 @@ wings: [people]
 periods: [period/mongol-post-mongol]
 regions: [levant-iraq, persia-central-asia]
 died: { edtf: "1468~", hijri: "0872", calendar: julian, precision: year, status: tradition, derived: true, note: "ترجمته ضمن سنة 872 {cite:shadharat-dhahab p. 314}", sources: [source/shadharat-dhahab] }
+occupations:
+  - job: job/emir
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'emir', Job Browser linking wave 31"
+    sources: [source/shadharat-dhahab, source/nomisma, source/wikidata]
 relations:
   - { type: born_in, target: place/mardin, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/mu, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

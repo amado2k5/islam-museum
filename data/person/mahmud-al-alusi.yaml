@@ -12,6 +12,22 @@ summary:
   ur: "بغداد کے مفسر اور مفتی ⁦(1217–1270ھ)⁩، «روح المعانی» کے مصنف۔ بغداد کے کرخ میں ایک علمی خاندان میں پیدا ہوئے، بچپن میں قرآن اور بہت سے متون حفظ کیے، علاء الدین موصلی کے ساتھ چودہ برس رہے، اور ضیاء الدین خالد نقشبندی سے طریقۂ نقشبندیہ لیا؛ شافعی تھے، پھر افتا کے دوران معاملات میں امام ابو حنیفہ کی تقلید کی۔ افتا سے معزول ہو کر استنبول گئے، اور ذی القعدہ 1270ھ میں تریپن برس کی عمر میں بغداد میں وفات پائی۔"
 born: { hijri: "1217-08-14", edtf: "1802-12-10", calendar: gregorian, precision: day, status: historical, derived: true, note: "«قبيل صلاة الجمعة الرابع عشر من شعبان سنة سبع عشرة بعد المائتين والألف» في جانب الكرخ {cite:juhud-al-alusi-al-balaghiyya-thesis p.28}؛ التحويل جدولي مشتق.", sources: [source/juhud-al-alusi-al-balaghiyya-thesis] }
 died: { hijri: "1270-11", edtf: "1854-07/1854-08", calendar: gregorian, precision: month, status: historical, derived: true, note: "مات في ذي القعدة سنة 1270هـ عن ثلاث وخمسين سنة، بعد رجوعه من إسلامبول {cite:juhud-al-alusi-al-balaghiyya-thesis p.58}؛ التحويل جدولي مشتق.", sources: [source/juhud-al-alusi-al-balaghiyya-thesis] }
+occupations:
+  - job: job/mufassir
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'mufassir', Job Browser linking wave 31"
+    sources: [source/ruh-al-maani-ilmiyya-1994-v1, source/juhud-al-alusi-al-balaghiyya-thesis]
+  - job: job/mufti
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'mufti', Job Browser linking wave 31"
+    sources: [source/ruh-al-maani-ilmiyya-1994-v1, source/juhud-al-alusi-al-balaghiyya-thesis]
+  - job: job/alim
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 31"
+    sources: [source/ruh-al-maani-ilmiyya-1994-v1, source/juhud-al-alusi-al-balaghiyya-thesis]
 relations:
   - { type: born_in, target: place/baghdad, sources: [source/juhud-al-alusi-al-balaghiyya-thesis] }
   - { type: died_in, target: place/baghdad, sources: [source/juhud-al-alusi-al-balaghiyya-thesis] }

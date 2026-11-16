@@ -41,5 +41,21 @@ provenance:
   generated_by: "Muse"
   run: century-additions-wave-184-b
 status: { review: published, completeness: 2, generated_by: "Muse" }
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 31"
+    sources: [source/wikipedia-waheeduddin-salim-ur, source/abdul-haq-waheeduddin-salim]
+  - job: job/grammarian
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'linguist', Job Browser linking wave 31"
+    sources: [source/wikipedia-waheeduddin-salim-ur, source/abdul-haq-waheeduddin-salim]
+  - job: job/professor
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'professor', Job Browser linking wave 31"
+    sources: [source/wikipedia-waheeduddin-salim-ur, source/abdul-haq-waheeduddin-salim]
 relations:
   - { type: lived_in, target: place/panipat, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/wikipedia-waheeduddin-salim-ur, source/abdul-haq-waheeduddin-salim] }

@@ -22,5 +22,11 @@ sources: [source/shadharat-dhahab]
 status:
   review: published
   completeness: 3
+occupations:
+  - job: job/emir
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'emir', Job Browser linking wave 31"
+    sources: [source/shadharat-dhahab]
 relations:
   - { type: lived_in, target: place/fars, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/shadharat-dhahab] }
