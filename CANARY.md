@@ -13,6 +13,10 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v1.56.0 — 2026-11-16
+### Added
+- Four more Inventions Browser records closing the second hundred-invention wave, each with Arabic, English and Urdu prose: the MOSFET of Atalla and Kahng; the Ommaya reservoir; the ElGamal public-key cryptosystem; and Aziz Sancar's DNA excision-repair work.
+
 ## v1.55.0 — 2026-11-16
 ### Added
 - Job Browser: six ruler offices — the caliph of the hilafet, the sultan who held the sword of the state, the emir commander-governor of the provinces, the wali provincial governor, the khan of the steppe dynasties, and the shah — in Arabic, English and Urdu draft cited to the TDV entries HİLÂFET, SULTAN, EMÎR (idareci), VALİ, HAN (hükümdar) and ŞAH (hükümdar).

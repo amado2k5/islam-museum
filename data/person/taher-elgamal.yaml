@@ -1,0 +1,118 @@
+id: person/taher-elgamal
+class: person
+label:
+  ar: طاهر الجمل
+  en: Taher Elgamal
+  ur: طاہر الجمل
+names:
+- value: طاهر الجمل
+  kind: full
+  lang: ar
+- value: Taher Elgamal
+  kind: full
+  lang: en
+- value: Taher ElGamal
+  kind: alternate
+  lang: en
+gender: male
+born:
+  edtf: '1955-08-18'
+  hijri: 1375~
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: Born 18 August 1955 in Egypt per the recorded biography; the Hijri equivalent
+    1375~ is a tabular derived conversion.
+  sources:
+  - source/wikipedia-taher-elgamal-en
+roles:
+- cryptographer
+- engineer
+- businessman
+wings:
+- people
+- living
+regions:
+- egypt-nile
+- americas-oceania
+periods:
+- period/contemporary-era
+faith:
+- value: unknown
+  basis: unknown
+  note: Egyptian-American cryptographer; no read source attests a personal creed or
+    school, so the value stays unknown rather than inferred from the name. The record
+    credits him as the cryptosystem's inventor.
+  sources:
+  - source/wikipedia-taher-elgamal-en
+inventions:
+- invention: invention/taher-elgamal-cryptography
+  role: inventor
+  place: place/california
+  sources:
+  - source/wikipedia-taher-elgamal-en
+  - source/elgamal-public-key-cryptosystem-1985
+relations:
+- type: related_to
+  target: place/stanford
+  note: MS 1981 and PhD 1984 in electrical engineering at Stanford University under
+    Martin Hellman.
+  sources:
+  - source/wikipedia-taher-elgamal-en
+summary:
+  ar: مشفِّر مصري-أمريكي ⁦(مواليد 1955)⁩ وضع أسس أمن الإنترنت الحديث. بكالوريوس هندسة
+    كهربائية من جامعة القاهرة 1977 وماجستير 1981 ودكتوراه 1984 من ستانفورد تحت إشراف
+    مارتن هلمان، ثم انضم إلى مختبرات إتش بي. في ورقته عام 1985 اقترح نظام تعمية المفتاح
+    العمومي ومخطط التوقيع اللذين يحملان اسمه «الجمل»، فصار مخطط توقيعه أساس خوارزمية
+    التوقيع الرقمي DSA التي اعتمدها NIST معياراً. وفي نتسكيب ⁦(عالماً رئيساً 1995–1998)⁩
+    دفع بروتوكول SSL الذي بنيت عليه لاحقاً TLS وHTTPS حتى لُقّب «أب SSL»؛ نال جائزة
+    ماركوني 2019 وانتُخب للأكاديمية الوطنية للهندسة 2022 {cite:wikipedia-taher-elgamal-en}.
+  en: Egyptian-American cryptographer ⁦(born 1955)⁩ who laid foundations of modern
+    Internet security. BSc in electrical engineering from Cairo University in 1977,
+    then MS 1981 and PhD 1984 at Stanford under Martin Hellman before joining HP Labs.
+    His 1985 paper proposed the public-key cryptosystem and the signature scheme that
+    carry his name 'ElGamal'; the signature scheme became the basis of the Digital
+    Signature Algorithm ⁦(DSA)⁩ adopted by NIST as the standard. At Netscape ⁦(chief
+    scientist 1995–1998)⁩ he drove SSL, on which TLS and HTTPS were later built, and
+    was called the 'father of SSL'; he won the 2019 Marconi Prize and was elected
+    to the National Academy of Engineering in 2022 {cite:wikipedia-taher-elgamal-en}.
+  ur: مصری نژاد امریکی خفیہ نگار ⁦(پیدائش 1955)⁩ جنہوں نے جدید انٹرنیٹ سکیورٹی کی
+    بنیادیں رکھی۔ جامعہ قاہرہ سے 1977 میں برقی انجینئرنگ میں بی ایس سی، پھر مارتن
+    ہیلمن کے تحت سٹینفورڈ سے ایم ایس 1981 اور پی ایچ ڈی 1984، اور اس کے بعد ایچ پی
+    لیبز میں شامل ہوئے۔ ان کی 1985 کی تحقیقی مقالے نے عوامی کلیدی نظام اور دستخطی
+    مخطط تجویز کیے جو ان کے نام «الجمل» سے موسوم ہیں؛ دستخطی مخطط امریکی معیار DSA
+    کی بنیاد بنا۔ نیٹسکیپ میں ⁦(چیف سائنسدان 1995–1998)⁩ انہوں نے SSL کو آگے بڑھایا
+    جس پر بعد میں TLS اور HTTPS بنے، اور «SSL کے بابا» کہلائے؛ 2019 میں مارکونی انعام
+    پایا اور 2022 میں قومی انجینئرنگ اکادمی کے رکن منتخب ہوئے {cite:wikipedia-taher-elgamal-en}۔
+kids:
+  ar: طاهر الجمل عالم مصري كتب عام 1985 طريقة رياضية تجعل الناس يتبادلون الرسائل السرية
+    عبر الإنترنت دون أن يقرأها أحد، ثم ساعد في بناء القفل الصغير الذي تراه في متصفحك
+    عندما تتسوق أو تبعث بريداً آمناً.
+  en: Taher Elgamal is an Egyptian scientist who in 1985 wrote a mathematical way
+    for people to exchange secret messages over the Internet without anyone else reading
+    them — then he helped build the little padlock you see in your browser when you
+    shop or send safe mail.
+  ur: طاہر الجمل ایک مصری سائنسدان ہیں جنھوں نے 1985 میں ایک ریاضیاتی طریقہ لکھا جس
+    سے لوگ انٹرنیٹ پر خفیہ پیغامات بادل سکیں بغیر کسی کے پڑھے — پھر انہوں نے وہ چھوٹا
+    تالا بنانے میں مدد دی جو آپ کے براؤزر میں دکھائی دیتا ہے جب آپ خریدتے یا محفوظ
+    خط بھیجتے ہیں۔
+sources:
+- source/wikipedia-taher-elgamal-en
+- source/wikipedia-elgamal-encryption-en
+- source/elgamal-public-key-cryptosystem-1985
+status:
+  review: published
+  completeness: 2
+provenance:
+  layer: own-research
+  generated_by: devin-drafter-w2-33
+  model: devin
+  run: inventions-w2-33
+  source: English Wikipedia 'Taher Elgamal' revision 1371999818 read in full (born
+    18 Aug 1955 Egypt, Cairo BSc 1977, Stanford MS 1981 PhD 1984 under Hellman, HP
+    Labs 1984, 1985 paper title and citation, DSA/DSS basis, Netscape chief scientist
+    and SSL/TLS/HTTPS, 'father of SSL', RSA 2009 lifetime award, Marconi 2019 with
+    Kocher, NAE 2022); 'ElGamal encryption' revision 1373205550 for algorithm facts;
+    the 1985 IEEE paper registered bibliographic-only via the biography's publication
+    list.
