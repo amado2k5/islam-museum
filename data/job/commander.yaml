@@ -1,0 +1,47 @@
+id: job/commander
+class: job
+label: { ar: "سردار ⁦(قائد الجيش)⁩", en: "Commander (serdar / serdâr-ı ekrem)", ur: "سردار ⁦(سپہ سالار)⁩" }
+names:
+  - { value: "سردار", kind: alternate }
+  - { value: "serdâr", kind: latinized, lang: tr }
+  - { value: "سردار اكرم", kind: alternate }
+  - { value: "serdâr-ı ekrem", kind: latinized, lang: tr }
+  - { value: "سپهسالار", kind: alternate }
+  - { value: "sipehsâlâr", kind: latinized }
+  - { value: "سرلشكر", kind: alternate }
+  - { value: "serleşker", kind: latinized, lang: tr }
+  - { value: "سرعسكر", kind: alternate }
+  - { value: "serasker", kind: latinized, lang: tr }
+  - { value: "sirdar", kind: latinized }
+summary:
+  ar: "السردار — من الفارسية «سر» رأساً و«دار» ماسكاً — لقب قائد الجيش في الدول التركية الإسلامية ومنها إلى العربية. عند السلاجقة والإيلخانيين جاء مقابله سپهسالار وسرلشكر وصوباشي؛ وعند العثمانيين صار السردار الوزير أو البيلربيه أو الصنجق بيه المعيَّن لإقليم أو حملة، يمسك براته صلاحيات التعيين والعزل ومنح الديرلك وحتى سحب الطغراء على الأحكام، ويقود معه الإنكشارية والجبجية والطوبجية والسواري ومعهم دفتردار وكاتب خزانة. وإذا غاب السلطان عن الحملة كان الوزير الأعظم سرداراً أكرم تسلَّم منه الصنجق الشريف وبتّ في التعيين والإعدام بلا رجوع. تحوّل اللقب بعد إلغاء الإنكشارية إلى السرعسكر قائد عساكر منصورة، وبقي «سيردار» لقب القائد البريطاني في مصر والسودان."
+  en: "The serdar — Persian ser 'head' plus -dâr, 'the one who holds the lead' — was the army commander's title in the Turco-Islamic states, passing from Turkish into Arabic. Under the Seljuks and Ilkhanids its cognates ran as sipehsâlâr, serleşker and subaşı; under the Ottomans the serdar was the vezir, beylerbeyi or sancak beyi commissioned to a province or campaign, whose berat gave him power to appoint, dismiss and grant dirliks, even to affix the tuğra to blank decrees when the supply ran out. On campaign he moved with janissaries, armourers, gunners and cavalry, a defterdar or treasury clerk at his side, holding divan and hearing cases. When the sultan did not take the field the grand vezir went as serdâr-ı ekrem, received the sancak-ı şerif from the sultan's own hand at the Davud Pasha or Doğancılar muster-field, and ruled on appointments, grants and executions without reference home — Kara Mustafa Pasha executed the Budin governor Uzun İbrahim Pasha during the 1683 Vienna siege. After the janissary abolition the supreme command passed to the serasker of the Asâkir-i Mansûre, while 'sirdar' named the British commander in Egypt and the Sudan."
+  ur: "سردار — فارسی «سر» ⁦(سر)⁩ اور «دار» ⁦(پکڑنے والا)⁩ سے — ترک اسلامی ریاستوں میں فوج کے کمانڈر کا لقب تھا جو ترکی سے عربی میں آیا۔ سلجوقیوں و ایلخانیوں میں اس کے ہم معنی سپہ سالار، سرلشکر اور صوباشی چلے؛ عثمانیوں میں سردار وہ وزیر، بیلربیگی یا صنجق بیگی تھا جسے کسی صوبے یا مہم پر مقرر کیا جاتا اور جس کے برات میں تقرری، برطرفی، درلک دینے اور خالی احکام پر طغراء لگانے تک کا اختیار ہوتا۔ مہم پر اس کے ساتھ ینکری، جیبجی، توپچی اور سوار ہوتے اور پاس میں دفتردار یا خزانہ کاتب؛ وہ راستے میں دیوان لگا کر مقدمے سنتا۔ جب سلطان خود میدان نہ جاتا تو وزیر اعظم «سردارِ اکرم» بنتا، سلطان کے ہاتھ سے صنجقِ شریف لیتا اور گھر پوچھے بغیر تقرری، عطا اور سزائے موت کا فیصلہ کرتا — قرہ مصطفیٰ پاشا نے 1683 کے محاصرہ ویانا میں بدین کے گورنر اوزون ابراہیم پاشا کو قتل کرایا۔ ینکری خاتمے کے بعد اعلیٰ کمان عساکر منصورہ کے سرعسکر کو ملی، جبکہ «سیردار» مصر و سوڈان میں برطانوی کمانڈر کا نام بنا۔"
+domain: war-command
+kind: military
+hirfa: false
+era:
+  origins: medieval
+  status_today: transformed
+places:
+  - { place: place/istanbul, note: "The serdâr-ı ekrem's send-off was a capital ceremony: for western campaigns the sancak-ı şerif was handed over at the Davud Pasha field, for eastern ones at the Doğancılar Meydanı, and the appointments he made on campaign were marked 'ordudan tayin edilmiştir' to distinguish them from those made at the centre.", sources: [source/tdv-serdar] }
+regions: [anatolia-balkans, persia-central-asia, egypt-nile, levant-iraq, south-asia, maghreb]
+organization:
+  organized: court-office
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era, period/crusades-ayyubid-mamluk, period/mongol-post-mongol, period/gunpowder-empires, period/colonial-era, period/modern-era]
+sources: [source/tdv-serdar]
+training:
+  mode: state-licence
+  certification: "The serdar held office by berat: the sultan commissioned vezirs, beylerbeyis and sancak beyis to provincial and campaign commands, and the serdâr-ı ekrem — the grand vezir commanding in the sultan's absence — received the sancak-ı şerif at a state send-off. Lutfi Pasha disliked scattering serdarlık among sancak beyis and beylerbeyis, holding the grand vezir should oversee the serdar himself."
+  duration: "By appointment for the campaign or the provincial term; the command lapsed with it."
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-war-1" }
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi, 'SERDAR' (Özcan, 2009; print vol. 36, pp. 551-552), web edition read on 16 Nov 2026"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-war-1-drafting"

@@ -1,0 +1,47 @@
+id: job/janissary
+class: job
+label: { ar: "إنكشاري ⁦(يني چري)⁩", en: "Janissary (yeniçeri)", ur: "ینکری ⁦(ینی چری)⁩" }
+names:
+  - { value: "يني چري", kind: alternate }
+  - { value: "yeniçeri", kind: latinized, lang: tr }
+  - { value: "cağaloğlu", kind: latinized, lang: tr }
+  - { value: "acemi oğlanı", kind: latinized, lang: tr }
+  - { value: "pencik oğlanı", kind: latinized, lang: tr }
+  - { value: "torba oğlanı", kind: latinized, lang: tr }
+  - { value: "قاپو قولو", kind: alternate }
+  - { value: "janissary", kind: latinized }
+  - { value: "yoldaş", kind: latinized, lang: tr }
+summary:
+  ar: "الإنكشاري جندي المشاة المأجور الدائم في الجيش العثماني، من أول الأمر مئة أو ألف أسير تحت أورخان ومراد الأول حتى صار أكثر من خمسين ألفاً في القرن السابع عشر. جُنّد أولاً من خُمس أسرى الحرب ⁦(البنجك)⁩ ثم بالدوشرمة: أولاد الرعايا النصارى يُربَّون في بيوت الترك خمس إلى ثماني سنين ثم يُسجَّلون في أوجاق الأجانب ⁦(الأجمي أوجاغي)⁩ فينقلون إلى الإنكشارية أو يُفرزون للقصر. نظّم الأوجاق في مئة وستة وتسعين أورتا ⁦(جمعت وسكبان وبولوك)⁩ تحت آغا الإنكشارية وديوانه المستقل إدارياً وقضائياً، وكانوا يتقاضون العلوفة كل ثلاثة أشهر. سلّحوا بالقوس في كوسوفا 1389 ثم بالبندقية من القرن الخامس عشر، فكسروا عدوهم في موهاج 1526 بالنيران المتتابعة، ثم تحلوا بالتجارة والسياسة ورفعوا القِدْر ⁦(قازان قالدرما)⁩ حتى أبادتهم الدولة في الواقعة الخيرية ⁦(وقعة خيرية)⁩ 14 حزيران 1826."
+  en: "The janissary was the standing, salaried foot soldier of the Ottoman army — perhaps a thousand prisoners under Orhan and Murad I, more than fifty thousand by the seventeenth century. He was recruited first from the one-fifth share of war captives (pencik), then by the devşirme levy: Christian boys raised five to eight years in Turkish households, enrolled in the Acemi Ocağı and then passed 'out to the gate' as janissaries or selected for the palace. The corps stood in 196 ortas under three divisions — cemaat, sekban and bölük — commanded by the yeniçeri ağası and his autonomous ağa divanı, and drew the ulûfe every three months. Bow-armed at Kosovo in 1389, musket-armed from the fifteenth century, the janissaries broke the enemy with rolling volleys at Mohács in 1526, then turned to trade and politics, 'overturned the cauldron' in rising after rising, and were destroyed by the state in the Vak'a-i Hayriyye of 14 June 1826."
+  ur: "ینکری عثمانی فوج کا مستقل تنخواہ دار پیادہ تھا — اورخان و مراد اول کے زمانے میں قریب ایک ہزار قیدیوں سے بڑھ کر سترہویں صدی میں پچاس ہزار سے زائد۔ پہلے جنگی قیدیوں کے پانچویں حصے ⁦(پنجیک)⁩ سے، پھر دوشیرمہ نظام سے بھرتی ہوا: مسیحی لڑکے ترک گھرانوں میں پانچ سے آٹھ سال پالتے، اجمی اجاق میں اندراج ہوتا، پھر «دروازے پر نکل» کر ینکری بنتا یا محل کے لیے چنا جاتا۔ دستہ 196 ارتوں میں تین شعبوں ⁦(جماعت، سکبان، بولوک)⁩ کے نیچے ینکری آغا اور اس کے خود مختار آغا دیوان کے ماتحت تھا اور تنخواہ ⁦(علوفہ)⁩ تین ماہ بعد ملتی۔ 1389 کے کوسوو میں کمان دار، پندرہویں صدی سے بندوقچی، انہوں نے 1526 میں موہاچ میں مسلسل گولی باری سے دشمن توڑا، پھر تجارت اور سیاست میں آئے، بغاوتوں میں «دیگ الٹتے» رہے، بالآخر 14 جون 1826 کو واقعہ خیریہ میں ریاست نے انہیں ختم کر دیا۔"
+domain: war-command
+kind: military
+hirfa: false
+era:
+  origins: medieval
+  status_today: extinct
+places:
+  - { place: place/gallipoli, note: "Under Murad I the Acemi Ocağı (the corps of novices) was founded at Gelibolu, on the reported counsel of the kazasker Kara Halil Efendi and Karamanlı Kara Rüstem; the Gelibolu lads served on the transports across the Dardanelles before being admitted to the 'new soldier' corps.", sources: [source/tdv-yeniceri] }
+  - { place: place/istanbul, note: "In Istanbul the janissaries kept two barracks — the Eski Odalar and the Yeni Odalar — closed to all but soldiers, with the Orta Cami at the heart of the Yeniçeri Kışlası; the barracks were burned to ruins in the abolition of 1826.", sources: [source/tdv-yeniceri] }
+  - { place: place/edirne, note: "Edirne held the janissary odalar before the conquest of Istanbul; the 1703 soldier-esnaf-town rising that deposed Mustafa II centred on Edirne.", sources: [source/tdv-yeniceri] }
+regions: [anatolia-balkans]
+organization:
+  organized: court-office
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people]
+periods: [period/mongol-post-mongol, period/gunpowder-empires, period/colonial-era, period/modern-era]
+sources: [source/tdv-yeniceri]
+training:
+  mode: state-licence
+  certification: "Entry ran through the state's own intake: pencik captives and later devşirme boys spent five to eight years 'on the Turk' in Anatolian and Rumelian households, then passed into the Acemi Ocağı at Gelibolu and Istanbul, and after a service term the registers show as fifteen to twenty years they 'went out to the gate' (kapıya çıkma) into the corps or palace services — a legal transition debated as manumission. Once in the ortas the janissary was bound to weekly musket drill under a 1552 order, though by the early seventeenth century drill lapsed except before great campaigns."
+  duration: "Five to eight years in a Turkish household, then the Acemi Ocağı until 'going out'; the novice acemi oğlanı might then serve years more in palace gardens, dockyards or on the fleet before full enrolment."
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-war-1" }
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi, 'YENİÇERİ' (Beydilli, 2013; print vol. 43, pp. 450-462), web edition read on 16 Nov 2026"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-war-1-drafting"
