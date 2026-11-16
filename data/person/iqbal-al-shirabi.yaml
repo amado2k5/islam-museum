@@ -12,6 +12,17 @@ roles: [emir, patron]
 wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [levant-iraq, arabia]
+occupations:
+  - job: job/emir
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'emir', Job Browser linking wave 34"
+    sources: [source/shadharat-dhahab]
+  - job: job/patron
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'patron', Job Browser linking wave 34"
+    sources: [source/shadharat-dhahab]
 relations:
   - { type: lived_in, target: place/rabat, confidence: low, note: "Associated with الرباط per the record's own summary text; relation type pending review.", sources: [source/shadharat-dhahab] }
 faith:

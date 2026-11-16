@@ -19,6 +19,17 @@ periods: [period/buyid-seljuk-fatimid-era]
 regions: [levant-iraq]
 died:
   { edtf: "0979~", hijri: "0368", calendar: julian, precision: year, status: tradition, derived: true, note: "أدرجت ترجمته في وفيات سنة 368؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.97-98}", sources: [source/muntazam-ibn-al-jawzi] }
+occupations:
+  - job: job/grammarian
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'grammarian', Job Browser linking wave 34"
+    sources: [source/wafayat-ayan, source/bakka-kitab-sibawayh-2015, source/muntazam-ibn-al-jawzi, source/wikidata-al-sirafi]
+  - job: job/lexicographer
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'lexicographer', Job Browser linking wave 34"
+    sources: [source/wafayat-ayan, source/bakka-kitab-sibawayh-2015, source/muntazam-ibn-al-jawzi, source/wikidata-al-sirafi]
 relations:
   - { type: lived_in, target: place/baghdad, sources: [source/wafayat-ayan] }
   - { type: authored, target: work/sharh-kitab-sibawayh-al-sirafi, sources: [source/bakka-kitab-sibawayh-2015] }

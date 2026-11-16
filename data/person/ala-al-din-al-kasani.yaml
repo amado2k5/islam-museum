@@ -21,6 +21,17 @@ wings: [people]
 themes: [law-and-courts, development-of-law-theology-institutions]
 regions: [persia-central-asia, levant-iraq]
 periods: [period/crusades-ayyubid-mamluk]
+occupations:
+  - job: job/faqih
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'jurist', Job Browser linking wave 34"
+    sources: [source/badai-sanai-ilmiyya-v1, source/al-aalam, source/openiti-corpus, source/wikidata]
+  - job: job/alim
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 34"
+    sources: [source/badai-sanai-ilmiyya-v1, source/al-aalam, source/openiti-corpus, source/wikidata]
 relations:
   - { type: born_in, target: place/kasan, role: "nisba to Kasan beyond al-Shash (editors' note p. 74); birthplace not stated", sources: [source/badai-sanai-ilmiyya-v1] }
   - { type: student_of, target: person/ala-al-din-al-samarqandi, sources: [source/badai-sanai-ilmiyya-v1] }
