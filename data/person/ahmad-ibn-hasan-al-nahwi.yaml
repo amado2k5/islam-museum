@@ -23,5 +23,16 @@ provenance:
 status:
   review: draft
   completeness: 1
+occupations:
+  - job: job/poet
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'poet', Job Browser linking wave 48"
+    sources: [source/al-aalam]
+  - job: job/grammarian
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'linguist', Job Browser linking wave 48"
+    sources: [source/al-aalam]
 relations:
   - { type: lived_in, target: place/iraq, note: "Place association from the person's nisba/name (عراقي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }

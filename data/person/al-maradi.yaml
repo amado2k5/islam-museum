@@ -23,6 +23,17 @@ provenance:
 status:
   review: published
   completeness: 3
+occupations:
+  - job: job/historian
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'historian', Job Browser linking wave 48"
+    sources: [source/al-aalam]
+  - job: job/mufti
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'mufti', Job Browser linking wave 48"
+    sources: [source/al-aalam]
 relations:
   - { type: died_in, target: place/aleppo, note: "From text: توفي بحلب سنة 1206هـ ⁦(1791م)⁩", sources: [source/al-aalam] }
   - { type: lived_in, target: place/damascus, note: "From text: mufti of Damascus", sources: [source/al-aalam] }

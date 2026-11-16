@@ -11,6 +11,12 @@ summary:
 wings: [people]
 regions: [maghreb]
 periods: [period/modern-era]
+occupations:
+  - job: job/mufti
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'mufti', Job Browser linking wave 48"
+    sources: [source/al-aalam]
 relations:
   - { type: born_in, target: place/tunis, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/tunis, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
