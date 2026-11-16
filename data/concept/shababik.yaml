@@ -1,0 +1,23 @@
+id: concept/shababik
+class: concept
+kind: natural
+label:
+  ar: "شابابك"
+  en: "Shababak"
+  ur: "شابابک"
+summary:
+  ar: "شابابك في الكتاب قيل هو شبيه بالقبصوم في القوة، حار يابس في الثانية، ينفع من الصرع ويقطع اللعاب السائل وخصوصا من أفواه الصبيان، وبدله في منفعته من الصرع وغيره مرزنجوش {cite:canon-ibn-sina-print-v1 p.681}"
+  en: "Shababak is in the book said to resemble qabsum in strength, hot and dry in the second degree; it benefits epilepsy and cuts off the flowing saliva, especially from the mouths of children, and its substitute in benefit for epilepsy and other ailments is marzanjush {cite:canon-ibn-sina-print-v1 p.681}"
+  ur: "شابابک کتاب میں کہا گیا ہے کہ قوت میں قبصوم سے ملتا جلتا ہے، دوسرے درجے میں گرم خشک ہے؛ مرگی میں نافع ہے اور بہنے والے لعاب کو روکتا ہے، خاص طور پر بچوں کے منہ سے، اور مرگی وغیرہ میں فائدے کے لحاظ سے اس کا بدل مرزنجوش ہے {cite:canon-ibn-sina-print-v1 p.681}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, scan pages 681, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for doubtful headings; editor footnotes used only for identity; measured doses, weights, counts, times and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-29
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }
