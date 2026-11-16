@@ -1,0 +1,84 @@
+id: person/piri-reis
+class: person
+label:
+  ar: بيري ريس
+  en: Piri Reis
+  ur: پیری رئیس
+names:
+- value: بيري رئيس بن حاجي محمد
+  kind: full
+  lang: ar
+- value: Piri Re'is b. Hadjji Mehmed
+  kind: full
+  lang: en
+- value: Pirî Reis
+  kind: alternate
+  lang: en
+- value: أحمد مجد الدين بيري
+  kind: alternate
+  lang: ar
+gender: male
+roles:
+- geographer
+- general
+summary:
+  ar: بحّار وخرّاط ومؤلف عثماني ⁦(وُلد على الأرجح بجاليبولي، ت 961/1553-4 بالقاهرة)⁩؛
+    نشأ قرصاناً مع عمه كمال ريس ثم خدم الأسطول العثماني، ورسم سنة 919/1513 خريطة العالم
+    الشهيرة وألف «كتاب بحريه» للملاحة ⁦(1521، 1526)⁩ {cite:encyclopaedia-of-islam-2}.
+  en: Ottoman mariner, cartographer and author (b. probably Gallipoli, date unknown;
+    d. Cairo 961/1553-4); raised a corsair at his uncle Kemal Reis's side then served
+    the Ottoman fleet, drew the celebrated world map of 919/1513 and wrote the maritime
+    manual Kitab-i Bahriye (1521, 1526) {cite:encyclopaedia-of-islam-2}.
+  ur: عثمانی ملاح، نقشہ نگار اور مصنف ⁦(غالباً گیلی بولی میں پیدا، وفات قاہرہ 961/1553-4ء)⁩؛
+    چچا کمال رئیس کے ساتھ قزاقی سے پلا پھر عثمانی بحریہ کی خدمت کی، 919/1513ء میں
+    مشہور عالمی نقشہ بنایا اور ملاحی رہنما کتاب بحریہ لکھی ⁦(1521، 1526)⁩ {cite:encyclopaedia-of-islam-2}.
+faith:
+- value: sunni
+  basis: tradition
+  note: An Ottoman naval commander whose colophon and Bahriye are framed in Muslim
+    idiom ('known as paternal nephew of Kemal Reis, may God pardon them both'); Sunni
+    Islam is the museum's default frame for the documented Ottoman milieu — no personal
+    school declaration is attested in the sources read.
+  sources:
+  - source/encyclopaedia-of-islam-2
+wings:
+- people
+regions:
+- anatolia-balkans
+periods:
+- period/gunpowder-empires
+died:
+  edtf: 1554~
+  hijri: "0961"
+  calendar: julian
+  precision: year
+  status: historical
+  note: Died at Cairo in 961/1553-4 (EI2).
+  sources:
+  - source/encyclopaedia-of-islam-2
+relations:
+- type: lived_in
+  target: place/gallipoli
+  note: Probably born there and worked there from 1510-11 onward; it was then the
+    chief Ottoman naval base.
+  sources:
+  - source/encyclopaedia-of-islam-2
+inventions:
+- invention: invention/piri-reis-map
+  role: inventor
+  place: place/gallipoli
+  note: The map's colophon names him as composer in Muharram 919 at Gallipoli.
+  sources:
+  - source/encyclopaedia-of-islam-2
+sources:
+- source/encyclopaedia-of-islam-2
+status:
+  review: published
+  completeness: 2
+provenance:
+  layer: own-research
+  generated_by: devin-drafter-w2-28
+  model: SWE-2
+  run: inventions-w2-28
+  source: 'EI2 vol. VIII, art. PIRI RE''IS (printed pp. 330-331): name, uncle Kemal
+    Reis, corsair years, Gallipoli, 1513 map, Bahriye 1521/1526, death at Cairo 961/1553-4.'

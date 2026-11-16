@@ -30,6 +30,10 @@ open a new block on top with the new version and today's date.
 - `features-api.test.ts` asserts the new export: reviewed verses in, unlisted verses out, fully vowelled hadith text matched, and the recitation in prayer, a drawn line, a sermon, a narrator named Nafi', a bare «الحرف» and a bare «النقطة» not mistaken for the topic.
 ### Data
 - All of this prose was written by AI agents from the cited sources and has not been read by a human. Page numbers of the mined passages and of most citations are the page markers of the scanned files, which can differ from printed pages; the OCR text of an excerpt is not corrected, and a few excerpts still carry OCR noise. One name needs a check against the page image: the first name of Ibn Dhakwan, which the OCR of al-Nashr reads differently from other references (the record says so). Nothing is live until the founder deploys.
+## v1.47.0 — 2026-11-16
+### Added
+- Five more Inventions Browser records built from the EI2 OCR corpus and downloaded primary literature, each with Arabic, English and Urdu prose: Ibn Sahl's geometrical treatment of refraction; the vertical-axis windmills of Sistan; the norias of Hama; the world map of Piri Reis; and lustre-painted pottery.
+
 ## v1.46.0 — 2026-11-16
 ### Added
 - Five more Inventions Browser records from harvested sources (King's Synchrony, Farmer's musical-instrument studies, Ukers and Hattox on coffee, EI2 entries read in corpus), each with Arabic, English and Urdu prose: the spherical astrolabe; the oud's transmission to Europe as the lute; the Yemeni coffeehouse as a new social institution; the caravanserai network of the Islamic road; and the reservoir pen made for the Fatimid caliph al-Mu'izz.

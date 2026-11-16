@@ -1,0 +1,93 @@
+id: person/abu-sad-al-ala-ibn-sahl
+class: person
+label:
+  ar: أبو سعد العلاء بن سهل
+  en: Abu Sa'd al-'Ala' ibn Sahl
+  ur: ابو سعد العلاء بن سہل
+names:
+- value: ابن سهل
+  kind: alternate
+  lang: ar
+- value: Ibn Sahl
+  kind: alternate
+  lang: en
+- value: ابوسعد العلاء ابن سهل
+  kind: alternate
+  lang: en
+gender: male
+roles:
+- mathematician
+- scientist
+summary:
+  ar: رياضي وفيزيائي في البلاط البويهي ببغداد ⁦(نحو 940–1000)⁩؛ صاحب رسالة «في الآلة
+    المحرقة» ⁦(نحو 984)⁩ التي وضعت النسبة الثابتة لانكسار الضوء وطبقتها على عدسات
+    كاسرة بلا أخطاء، وهو أول مسلم معروف درس بصريات بطليموس دراسة جادة {cite:wikipedia-ibn-sahl-en}.
+  en: Mathematician and physicist of the Buyid court of Baghdad (c. 940-1000); author
+    of the treatise On the Burning Instrument (c. 984), which laid down the constant
+    ratio of light's refraction and applied it to aberration-free lenses, and the
+    first Muslim scholar known to have studied Ptolemy's Optics seriously {cite:wikipedia-ibn-sahl-en}.
+  ur: بوئی دربارِ بغداد کے ریاضی دان و طبیعات دان ⁦(تقریباً 940–1000)⁩؛ رسالہ «فی
+    الآلۃ المحرقۃ» ⁦(تقریباً 984ء)⁩ کے مصنف جس نے روشنی کے انعطاف کی ثابت نسبت رکھی
+    اور بے خطا عدسوں پر لاگو کی، اور پہلا مسلمان ماہر جس نے بطلمیوس کی بصریات کا سنجیدہ
+    مطالعہ کیا {cite:wikipedia-ibn-sahl-en}.
+faith:
+- value: sunni
+  basis: tradition
+  note: A scholar of the Buyid Baghdad milieu known only through his treatise; Sunni
+    is the museum's default frame for a documented Muslim scholarly context where
+    no personal affiliation is attested.
+  sources:
+  - source/rashed-geometrie-dioptrique-1993
+  - source/wikipedia-ibn-sahl-en
+wings:
+- people
+regions:
+- levant-iraq
+periods:
+- period/buyid-seljuk-fatimid-era
+born:
+  edtf: 0940~
+  calendar: julian
+  precision: year
+  status: tradition
+  note: Conventional 'c. 940' in the secondary literature; no primary date attested
+    in the sources read.
+  sources:
+  - source/wikipedia-ibn-sahl-en
+died:
+  edtf: 1000~
+  calendar: julian
+  precision: year
+  status: tradition
+  note: Conventional 'c. 1000' in the secondary literature; no primary date attested
+    in the sources read.
+  sources:
+  - source/wikipedia-ibn-sahl-en
+relations:
+- type: lived_in
+  target: place/baghdad
+  sources:
+  - source/wikipedia-ibn-sahl-en
+inventions:
+- invention: invention/ibn-sahl-refraction
+  role: inventor
+  place: place/baghdad
+  note: Author of the treatise carrying the constant refraction ratio and its application
+    to anaclastic lens design.
+  sources:
+  - source/wikipedia-ibn-sahl-en
+  - source/rashed-geometrie-dioptrique-1993
+sources:
+- source/wikipedia-ibn-sahl-en
+- source/rashed-geometrie-dioptrique-1993
+status:
+  review: published
+  completeness: 2
+provenance:
+  layer: own-research
+  generated_by: devin-drafter-w2-28
+  model: SWE-2
+  run: inventions-w2-28
+  source: 'Wikipedia ''Ibn Sahl (mathematician)'' at oldid 1381365511: name form,
+    c. 940-1000, Buyid court association, c. 984 treatise, manuscript shelfmarks,
+    faith/allegiance quote from Rashed. Rashed 1993 bibliographic-only.'
