@@ -27,6 +27,8 @@ open a new block on top with the new version and today's date.
 - Unbroke CI (run 43963921330): the ubuwwa/umuma merge waves had landed three records with a key glued onto the tags list (`]label:` / `]sensitivity:` on the same line — `concept/hadanah-custody`, `concept/uquq-al-walidayn`, `concept/huquq-al-walidayn`, `practice/kafalat-al-yatim`) and three more with a duplicated top-level `tags:` key (`concept/huquq-al-abna`, `concept/wilayat-al-mal-al-yatim`, `concept/yatim-fiqh`); the malformed YAML crashed `npm run graph`, which then cascaded into the tafsir tests (`Missing .cache/graph.json`) and `ibadat-tags`. All seven parse now and a full sweep of 75,469 YAML files comes back clean.
 - 3D tour hall stop for `event/treaty-of-hudaybiyya` was missing the record's `source/oxford-dictionary-of-islam` (stop had 8 sources, record 9); the stop's source list now mirrors the record, as `tour.test.ts` requires.
 - Removed the stale `(POC)` tag from the `decide pipeline` test suite title — the pipeline is hardened and the label no longer reflects it.
+- New `scripts/check-yaml.ts` runs as the first step of `npm run validate` (~17 s over all 75,467 YAML files): it reports every malformed file at once — keys glued to a closing bracket and duplicated top-level keys from bad merges, plus any hard parse failure — instead of letting the first one crash `npm run graph` mid-test. `scripts/lib.ts` `readYaml` now names the file in its parse error.
+- Two pre-existing validation errors on `main`: `event/muakhat-of-salman-and-abu-al-darda` Hijri `"000X"` (not a valid YYYY year) corrected to `"0001?"`, and `concept/birr-al-umm`'s `based_on` edge to a `practice` (out of range) changed to `related_to`.
 
 ## v2.22.0 — 2026-11-17
 ### Added
