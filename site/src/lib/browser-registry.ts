@@ -31,7 +31,7 @@ import { placesItems } from "./places";
 import { qiyamaItems } from "./qiyama";
 import { qurunItems } from "./qurun";
 import { sayyiatItems } from "./sayyiat";
-import { eschItems } from "./eschatology";
+import { eschItems, signItems } from "./eschatology";
 import { usraItems } from "./usra";
 import { tibbItems } from "./tibb";
 import { ansabSubjects } from "./ansab";
@@ -60,5 +60,5 @@ export const BROWSER_ROWS: Record<string, readonly Row[]> = {
   halal: halalItems, hasanat: hasanatItems, hisab: hisabItems, hudud: hududItems, ibadat: ibadatItems, "islamic-economy": ieItems,
   janna: jannaItems, madhahib: madhahibItems, magic: magicItems, cosmos: cosmosItems, qiraat: qiraatItems, wasaya: wasayaItems, messengers: messengerItems, miracles: miracleItems,
   mukatabat: mukatabatItems, nar: narItems, nature: natureItems, nubuwat: nubuwatItems, places: placesItems,
-  qiyama: qiyamaItems, qurun: qurunItems, sayyiat: sayyiatItems, "signs-all": eschItems, usra: usraItems, tibb: tibbItems, ansab: ansabSubjects, battles: battleNodes.map((node) => ({ node })), fatwa: fatwas.map((node) => ({ node })),
+  qiyama: qiyamaItems, qurun: qurunItems, sayyiat: sayyiatItems, "signs-all": eschItems, signs: signItems, usra: usraItems, tibb: tibbItems, ansab: ansabSubjects, battles: battleNodes.map((node) => ({ node })), fatwa: fatwas.map((node) => ({ node })),
 };

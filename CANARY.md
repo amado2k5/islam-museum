@@ -17,6 +17,9 @@ open a new block on top with the new version and today's date.
 ### Added
 - Job Browser linking wave 39: 42 `occupations:` edges on 25 person records — the first dedicated faqih/mutakallim wave (thirteen jurists, twelve theologians) plus sixteen ulema and a poet.
 
+### Fixed
+- Signs-of-the-Hour home was over the audit S18 page budget (1,087 KB of one landing): it now paginates like the other browsers — the landing shows the first rows of every step, each step's full list lives at `/<lang>/signs/step/<id>/<n>/`, and the filter box searches the whole signs set through the new `signs` filter index. Every record stays reachable without JavaScript.
+
 ## v2.12.0 — 2026-11-17
 ### Added
 - Job Browser linking wave 38: 37 `occupations:` edges on 25 person records — finishes the emir and muhaddith pools; eight faqih, eight ulema, plus mutakallim, philosopher, mufti, qadi and poet multi-links (Fatima al-Samarqandi, al-Khunaji).
