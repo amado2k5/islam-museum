@@ -13,6 +13,10 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v2.15.0 — 2026-11-17
+### Added
+- Job Browser linking wave 41: 40 `occupations:` edges on 25 person records — fifteen faqihs, eleven mutakallims (al-Jurjani, Maytham al-Bahrani), twelve ulema, plus mufti and qadi links.
+
 ## v2.14.0 — 2026-11-17
 ### Added
 - Twelve place pages now carry what Yaqut's Mu'jam al-buldan records of them, in Arabic, English and Urdu, cited by volume and page: Alexandria, Antioch, Kufa, Samarra, Ifriqiya, Petra, Ascalon, Khuzistan, Madinat al-Zahra, Sicily, Egypt and al-Andalus. Each keeps its earlier account (al-Maqrizi, al-Idrisi, EI2, al-Baladhuri, al-Maqqari, the sira, the gazetteers); the new sections set Yaqut's wording beside it, keep his same-named places apart (the twelve other Alexandrias, Antaliya, Kufan of Herat, Asqalan of Balkh, Suq al-Ahwaz against the kura, the Fustat Andalus quarter, al-Misran as Basra and Kufa), quote his source names (Ibn al-Faqih, Ibn Butlan, Abu Ubayda Ma'mar, al-Bakri, Ibn Abd al-Hakim through al-Quda'i, Ibn Hawqal, the History of Sicily), carry reported claims as reported (the lighthouse mirror he calls lies, the Shia claim on the Samarra sardab, Ibn Hawqal's censure of the Sicilians), and mark the museum's haversine distances (Antioch-Aleppo 89.8 km, Samarra-Baghdad 106.4 km, al-Zahra'-Cordoba 8.3 km, Cairo-Baghdad 1,297.3 km) as the museum's calculation.

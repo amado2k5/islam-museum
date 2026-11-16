@@ -26,5 +26,16 @@ status:
   completeness: 3
 born: { edtf: "1304", hijri: "0704", calendar: gregorian, precision: year, derived: true, note: "al-Zirikli prints 704 AH = 1304 CE {cite:alam-zirikli-dar-al-ilm-2002 vol. 5 p. 42}.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 died: { edtf: "1372", hijri: "0773", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Durar. al-Zirikli prints 773 AH = 1372 CE {cite:alam-zirikli-dar-al-ilm-2002 vol. 5 p. 42}, agreeing with the card.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 41"
+    sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'jurist', Job Browser linking wave 41"
+    sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 relations:
   - { type: lived_in, target: place/ghazna, confidence: low, note: "Association inferred from the nisba 'al-Ghaznawi' (the entry gives the nisba al-Hindi al-Ghaznawi and no residence); specific birthplace or residence is not individually documented.", sources: [source/al-aalam] }
