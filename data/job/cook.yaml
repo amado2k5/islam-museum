@@ -1,0 +1,44 @@
+id: job/cook
+class: job
+label: { ar: "الطبّاخ", en: "Cook (tabbakh)", ur: "باورچی ⁦(طباخ)⁩" }
+names:
+  - { value: "ashji", kind: latinized, lang: tr }
+  - { value: "طباخة", kind: alternate }
+summary:
+  ar: "الطبّاخ هو من يطبخ الطعام ويبيعه في دكانه. تضبط كتب الحسبة صنعته: أن يغطّي آنيته ويقيها الذباب والهوام بعد غسلها بالماء الحار والأُشنان، وألا يطبخ لحم المعز مع الضأن ولا لحم الإبل مع البقر، وأن يُراقَب لئلا يكثر الدهن ويقلّل اللحم أو يغشّ الأطعمة بالدقيق. وفي قاهرة لين كانت دكاكين الطبّاخين تبيع الكباب وسائر الأطباق، وفي إسطنبول إوليا جلبي للطبّاخين طائفة مسلّحة وبير ينتسب إلى زمن النبوة."
+  en: "The tabbakh cooked food and sold it from his shop. The hisba manuals regulate the trade: vessels must be covered and protected from flies after washing with hot water and plant ash; goat must not be cooked with mutton nor camel with beef; and cooks are watched lest they pour off fat, stint the meat or bulk the dishes with flour. In Lane's Cairo the cooks' shops sold kebab and other dishes to take away, and in Evliya's Istanbul the cooks marched as an armed guild with a patron from the Prophet's time."
+  ur: "طباخ وہ ہے جو دکان میں کھانا پکا کر بیچتا ہے۔ حسبہ کی کتابیں اس کے پیشے کو ضبط کرتی ہیں: برتن گرم پانی اور اُشنن سے دھو کر مکھیوں سے بچا کر ڈھانپے جائیں؛ بکری کا گوشت بھیڑ کے ساتھ اور اونٹ کا گائے کے ساتھ نہ پکایا جائے؛ اور باورچیوں پر نظر رکھی جائے کہ چربی نکال کر گوشت کم اور آٹا ملا کر کھانا زیادہ نہ دکھائیں۔ لین کے قاہرہ میں باورچیوں کی دکانیں کباب اور دوسرے کھانے بیچتیں، اور اولیاء چلبی کے استنبول میں باورچی ایک مسلح انجمن بن کر چلتے تھے جن کا پیر نبوی زمانے سے جڑا ہے۔"
+domain: building-making
+kind: service
+hirfa: true
+era:
+  origins: pre-islamic
+  status_today: living
+places:
+  - { place: place/cairo, note: "Lane records many cooks' shops in Cairo where kebab and various dishes were cooked and sold, mostly sent for rather than eaten on the spot, and names the cooks tabbakhs.", sources: [source/lane-modern-egyptians] }
+  - { place: place/istanbul, note: "Evliya counts the cooks (Ashjian) at five hundred men with ninety shops, marching armed in the guild procession, and describes the running cooks who raced barefoot for the Janissaries' meat at the At-maidan.", sources: [source/evliya-seyahatname-hammer] }
+regions: [egypt-nile, anatolia-balkans, levant-iraq]
+organization:
+  organized: guild
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people, living]
+periods: [period/crusades-ayyubid-mamluk, period/gunpowder-empires, period/modern-era]
+sources: [source/shayzari-nihaya-buckley, source/lane-modern-egyptians, source/evliya-seyahatname-hammer]
+craft:
+  materials: []
+  techniques:
+    ar: "يأمر الشيزري الطبّاخين بتغطية آنيتهم ووقايتها الذباب والهوام بعد غسلها بالماء الحار والأُشنان، وألا يُطبخ لحم المعز مع الضأن ولا لحم الإبل مع البقر مخافة أن يأكل منه ناقه فينتكس. ومن غشّهم أن يسلبوا الشحم ويصبّوا الدهن في القدر فيطفو على وجهه فيُوهِم كثرة اللحم، وأن يثخّنوا المديرة بالدقيق أو دقيق الأرز والسميد، والبهاثة بالقلقاس، واللبنية بثفل الزيت أو النشا."
+    en: "Al-Shayzari orders cooks to cover their vessels and protect them from flies and crawling insects after washing them with hot water and plant ash, and not to cook goat with mutton or camel with beef, lest someone recovering from illness eat it and relapse. Their recorded frauds include extracting the fat and pouring it back into the pot so it floats and suggests plentiful meat, thickening madira with flour, rice flour or fine semolina, bulking bahata with taro, and thickening labaniyya with the dregs of oil or cornstarch."
+    ur: "الشیزری باورچیوں کو حکم دیتا ہے کہ برتن گرم پانی اور اُشنن سے دھو کر مکھیوں اور کیڑوں سے بچا کر ڈھانپیں، اور بکری کا گوشت بھیڑ کے ساتھ نہ اونٹ کا گائے کے ساتھ نہ پکائیں کہ کوئی صحت یاب ہوتا مریض کھا کر دوبارہ بیمار نہ ہو۔ ان کے دھوکھوں میں ہے کہ چربی نکال کر ہنڈیا میں ڈال دیں کہ اوپر تیرتی دکھ کر گوشت کی کثرت کا بھروسا دے، مدیرہ کو آٹے، چاول کے آٹے یا باریک سوجی سے گاڑھا کریں، بہاتہ میں اروی ملائیں اور لبنیہ کو تیل کے تلچھٹ یا کارن اسٹارچ سے گاڑھا کریں۔"
+  guild:
+    bodies: []
+    shaykh_title: { ar: "شيخ الطائفة وكبير الطبّاخين", en: "Sheykh of the trade and master cooks", ur: "پیشے کا شیخ اور بڑے باورچی" }
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-harvest-2" }
+provenance:
+  layer: own-research
+  source: "al-Shayzari/Buckley ch. 13 pp. 58-59 (cooks); Lane ch. XIV p. 318 (cooks' shops, tabbakhs); Evliya (von Hammer) I,2 sec. 149 pp. 144-145 and sec. 157 pp. 147-148 — all read on 15 Nov 2026 from the downloaded scans"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-harvest-2-drafting"

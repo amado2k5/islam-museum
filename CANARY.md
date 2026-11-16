@@ -13,6 +13,10 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v1.45.0 — 2026-11-16
+### Added
+- Job Browser: six more trades join the professions — the cook (tabbakh) of the market cook-shops, the sweet-maker (halwani) and his sugar confections, the dyer (sabbagh) watched for false dyeing, the cobbler (iskafi) forbidden old-leather tricks, the coppersmith (nahhas), and the candle-maker (shamma') — in Arabic, English and Urdu draft cited to the hisba chapters of al-Shayzari's *Nihayat al-Rutba* (Buckley tr.), Lane's *Modern Egyptians*, and Evliya Çelebi's guild procession (von Hammer tr.).
+
 ## v1.44.0 — 2026-11-16
 ### Added
 - Five more Inventions Browser records from harvested texts (Smith & Karpinski 1911, Partington's Greek Fire and Gunpowder, Lane's Early Islamic Pottery, EI2 entries read in the corpus), each with Arabic, English and Urdu prose: the Hindu-Arabic numerals' transmission through al-Khwarizmi to Latin Europe; al-Hasan al-Rammah's gunpowder-recipe treatise; fritware stonepaste ceramics; medieval sugar refining; and the counterweight trebuchet in the Islamic world.
