@@ -13,6 +13,10 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v1.76.0 — 2026-11-17
+### Added
+- Job Browser linking wave 2: 75 `occupations:` edges on 25 more person records — alim, faqih, qadi, mutakallim, muhaddith, historian, qari, poet, teacher, physician and twelve more jobs, including the wave-1-deferred muhaddith, commander, calligrapher and grammarian.
+
 ## v1.75.0 — 2026-11-17
 ### Added
 - Job Browser linking wave 1: 96 `occupations:` edges added on 25 person records via the taxonomy roles merge map — scholars and office-holders linked to alim, poet, philosopher, faqih, mutakallim, historian, teacher, preacher, physician, astronomer, qadi, mufassir, mathematician, professor, caliph and nine more jobs, each link carrying the person's own sources.

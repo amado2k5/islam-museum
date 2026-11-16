@@ -10,6 +10,23 @@ gender: male
 roles: [sultan, scholar, historian]
 traditions: [sunni]
 died: { edtf: "1389", hijri: "0791", calendar: julian, precision: year, status: tradition, derived: true, note: "هلك سنة 791هـ على مشهور التواريخ؛ التحويل مشتق.", sources: [source/tarikh-ibn-khaldun-ibar] }
+occupations:
+  - job: job/sultan
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'sultan', Job Browser linking wave"
+    sources: [source/tarikh-ibn-khaldun-ibar]
+  - job: job/alim
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave"
+    sources: [source/tarikh-ibn-khaldun-ibar]
+  - job: job/historian
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'historian', Job Browser linking wave"
+    sources: [source/tarikh-ibn-khaldun-ibar]
+
 relations:
 - type: ruler_of
   target: place/tlemcen

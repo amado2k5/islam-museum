@@ -28,6 +28,23 @@ died:
   status: tradition
   derived: true
   note: "توفي بالقاهرة في ٢١ شهر رمضان سنة ٧٣٣هـ وله ست وخمسون سنة {cite:durar-kamina-jil-1993 1/197} {cite:encyclopaedia-of-islam-2 vol. 8 p. 159}؛ المقابل ٥ يونيو ١٣٣٣م؛ التحويل مشتق."
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave"
+    sources: [source/encyclopaedia-of-islam-2, source/durar-kamina-jil-1993, source/suluk-maqrizi, source/al-aalam, source/shadharat-dhahab, source/biblissima]
+  - job: job/historian
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'historian', Job Browser linking wave"
+    sources: [source/encyclopaedia-of-islam-2, source/durar-kamina-jil-1993, source/suluk-maqrizi, source/al-aalam, source/shadharat-dhahab, source/biblissima]
+  - job: job/calligrapher
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'calligrapher', Job Browser linking wave"
+    sources: [source/encyclopaedia-of-islam-2, source/durar-kamina-jil-1993, source/suluk-maqrizi, source/al-aalam, source/shadharat-dhahab, source/biblissima]
+
 relations:
   - { type: died_in, target: place/cairo, note: "From text: died at Cairo", sources: [source/encyclopaedia-of-islam-2, source/durar-kamina-jil-1993, source/suluk-maqrizi, source/al-aalam, source/shadharat-dhahab] }
   - { type: born_in, target: place/akhmim, sources: [source/encyclopaedia-of-islam-2] }

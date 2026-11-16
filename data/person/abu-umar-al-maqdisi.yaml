@@ -29,6 +29,23 @@ died:
   derived: true
   note: "توفي عشية الاثنين ثامن عشر ربيع الأول سنة سبع وستمائة عن ثمانين سنة ودفن بسفح قاسيون {cite:shadharat-dhahab p. 38}{cite:dhayl-tabaqat-hanabila-faqi-v2 p. 59-60}؛ التحويل مشتق بالحساب الجدولي (9 سبتمبر 1210م تقريباً)."
   sources: [source/shadharat-dhahab, source/dhayl-tabaqat-hanabila-faqi-v2]
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave"
+    sources: [source/shadharat-dhahab, source/dhayl-tabaqat-hanabila-faqi-v2]
+  - job: job/khatib
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'khatib', Job Browser linking wave"
+    sources: [source/shadharat-dhahab, source/dhayl-tabaqat-hanabila-faqi-v2]
+  - job: job/preacher
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'preacher', Job Browser linking wave"
+    sources: [source/shadharat-dhahab, source/dhayl-tabaqat-hanabila-faqi-v2]
+
 relations:
   - { type: sibling_of, target: person/ibn-qudama-al-maqdisi, sources: [source/shadharat-dhahab, source/dhayl-tabaqat-hanabila-faqi-v2] }
   - { type: child_of, target: person/ahmad-ibn-muhammad-ibn-qudama, sources: [source/dhayl-tabaqat-hanabila-faqi-v2] }

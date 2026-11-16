@@ -13,6 +13,23 @@ regions: [persia-central-asia]
 periods: [period/buyid-seljuk-fatimid-era]
 born: { edtf: "883", hijri: "0269", calendar: gregorian, precision: year, derived: true, note: "al-Zirikli, al-A'lam, vol. 5 p. 310, prints 269 AH = 883 CE.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 died: { edtf: "960", hijri: "0349", calendar: gregorian, precision: year, derived: true, note: "al-Zirikli, al-A'lam, vol. 5 p. 310, prints 349 AH = 960 CE, agreeing with the card; Ibn al-Imad (vol. 4 p. 258) and Ibn al-Jawzi (vol. 14 p. 130) place his death in Ramadan 349 AH.", sources: [source/alam-zirikli-dar-al-ilm-2002, source/shadharat-dhahab, source/muntazam-ibn-al-jawzi] }
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave"
+    sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002, source/shadharat-dhahab, source/muntazam-ibn-al-jawzi]
+  - job: job/muhaddith
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'muhaddith', Job Browser linking wave"
+    sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002, source/shadharat-dhahab, source/muntazam-ibn-al-jawzi]
+  - job: job/qadi
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'qadi', Job Browser linking wave"
+    sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002, source/shadharat-dhahab, source/muntazam-ibn-al-jawzi]
+
 relations:
   - { type: lived_in, target: place/isfahan, confidence: high, note: "al-Zirikli, vol. 5 p. 310: of the people of Isfahan and its judge; Ibn al-Imad, vol. 4 p. 258: qadi of Isfahan. Replaces the earlier low-confidence link to Egypt, which the entries do not support.", sources: [source/alam-zirikli-dar-al-ilm-2002, source/shadharat-dhahab] }
   - { type: traveled_to, target: place/baghdad, confidence: high, note: "al-Zirikli, vol. 5 p. 310: took from the shaykhs of Baghdad.", sources: [source/alam-zirikli-dar-al-ilm-2002] }

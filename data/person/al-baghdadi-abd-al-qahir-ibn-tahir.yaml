@@ -30,6 +30,23 @@ periods: [period/buyid-seljuk-fatimid-era]
 regions: [levant-iraq, persia-central-asia]
 story_roles:
   - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave"
+    sources: [source/mawsuat-a3lam-ulama-adaba, source/tarikh-islam-dhahabi, source/tabaqat-shafiiyya-subki, source/farq-bayn-al-firaq-khisht-ibn-sina]
+  - job: job/mutakallim
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'theologian', Job Browser linking wave"
+    sources: [source/mawsuat-a3lam-ulama-adaba, source/tarikh-islam-dhahabi, source/tabaqat-shafiiyya-subki, source/farq-bayn-al-firaq-khisht-ibn-sina]
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'jurist', Job Browser linking wave"
+    sources: [source/mawsuat-a3lam-ulama-adaba, source/tarikh-islam-dhahabi, source/tabaqat-shafiiyya-subki, source/farq-bayn-al-firaq-khisht-ibn-sina]
+
 relations:
   - { type: born_in, target: place/baghdad, note: "From text: born in Baghdad", sources: [source/mawsuat-a3lam-ulama-adaba, source/tarikh-islam-dhahabi, source/tabaqat-shafiiyya-subki, source/farq-bayn-al-firaq-khisht-ibn-sina] }
   - { type: lived_in, target: place/nishapur, note: "From text: settled in Nishapur", sources: [source/mawsuat-a3lam-ulama-adaba, source/tarikh-islam-dhahabi, source/tabaqat-shafiiyya-subki, source/farq-bayn-al-firaq-khisht-ibn-sina] }
