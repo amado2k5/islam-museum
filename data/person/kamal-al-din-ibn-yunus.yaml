@@ -19,6 +19,22 @@ regions: [levant-iraq]
 faith:
   - value: sunni-shafii
     basis: tradition
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 31"
+    sources: [source/shadharat-dhahab, source/al-aalam]
+  - job: job/mutakallim
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'theologian', Job Browser linking wave 31"
+    sources: [source/shadharat-dhahab, source/al-aalam]
+  - job: job/philosopher
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'philosopher', Job Browser linking wave 31"
+    sources: [source/shadharat-dhahab, source/al-aalam]
 relations:
   - { type: died_in, target: place/mosul, sources: [source/shadharat-dhahab] }
   - {confidence: medium, note: Place link from Wikidata; pending a second source., sources: [source/wikidata], target: place/mosul, type: born_in}

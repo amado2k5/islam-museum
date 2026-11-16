@@ -15,6 +15,12 @@ regions: [south-asia]
 periods: [period/gunpowder-empires]
 born: { edtf: "1733", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 Agrees with Wikidata Q1998495 (P569, a statement without a reference), item revision 2554602764, read on 13 November 2026.", sources: [source/wikidata] }
 died: { edtf: "1757", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 Agrees with Wikidata Q1998495 (P570, a statement without a reference), item revision 2554602764, read on 13 November 2026.", sources: [source/wikidata] }
+occupations:
+  - job: job/emir
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'emir', Job Browser linking wave 31"
+    sources: [source/tarikh-islam-hasan-ibrahim]
 relations:
   - { type: born_in, target: place/murshidabad, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q1017175)" }
 sources: [source/tarikh-islam-hasan-ibrahim]
