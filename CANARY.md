@@ -13,6 +13,10 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v1.48.0 — 2026-11-16
+### Added
+- Job Browser: six more trades join the professions — the builder (banna) and his sworn lime, the stonecutter (hajjar), the plasterer (jabbas) bound by oath to a fair mix, the cloth merchant (bazzaz) under the draper's rules, the soap-maker (sabuni) whose soap kept the bath floor, and the embroiderer (tarraz) of the menseg frames — in Arabic, English and Urdu draft cited to Ibn al-Ukhuwwa's *Ma'alim al-Qurba*, al-Shayzari, Lane, Evliya Çelebi, and Chalcraft.
+
 ## v1.46.0 — 2026-11-15
 ### Added
 - **The Qur'an Readings, Orthography, Scripts and Dotting Browser — «متصفح قراءات القرآن والرسم الإملائي والخطوط والتنقيط».** One page, `/{ar,en,ur}/qiraat/`, gathers what the Qur'an, the Sunnah, the seerah, the reports of the Companions and Successors and the harvested books say about how the Qur'an is read and how it is written, in seven topics: the seven ahruf, the readings, the readers and their transmitters, the collection of the Qur'an and the codices, the orthography of the mushaf (with the debate over writing it in ordinary spelling), its dots and vowel marks, and its scripts. On the day it was built it listed 1,523 records in nine sections: 104 Qur'an verses, 295 hadith reports, 44 seerah passages, 728 passages of other books, and 352 records of the museum's own (54 sciences, events and questions; 185 readers, scribes and calligraphers; 27 scripts; 33 books; 53 mushafs). Qur'an verses come from a reviewed table (verses on recitation, the kept Book and the pen, and a selection of verses in which the readers or the codices of the cities differ); every other passage is found at build time by a guarded word list, so a book harvested later appears the day its passages land. The museum prefers no reading and no script and gives no ruling; a variant reading is described in words, never typed.

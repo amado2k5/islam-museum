@@ -1,0 +1,45 @@
+id: job/stonecutter
+class: job
+label: { ar: "الحجّار", en: "Stonecutter (hajjar)", ur: "سنگ تراش ⁦(حجّار)⁩" }
+names:
+  - { value: "Tash-kersen", kind: latinized, lang: tr }
+  - { value: "Mermerberan", kind: alternate, lang: tr }
+summary:
+  ar: "الحجّار هو من يقطع الحجر من المقالع ويهذّبه للبناء وينقش فيه والرخام. يقرن ابن الأخوة البنّائين بحرّاقي الجير وصنّاع الجبس فيحلفهم ألا يقبلوا رشوة على جير غير ناضج أو رديء. وفي موكب إسطنبول يسير قاطعو الحجارة ⁦(تاش كرسن)⁩ ألف رجل وساحبو الحجارة ⁦(تاش كشان)⁩ ألف من الأرمن سائقي الحمير، ويمرّ عمال الرخام ⁦(مرمربران)⁩ مئة وواحد وستون رجلاً ينقشون الساعات والنقوش على الرخام ويصنعون العمائم والأعمدة للقبور، ومعهم قطّاع حجر المسنّ مئة وواحد وخمسون. ويسبق الموكب في طليعة الجيش حفّارو الألغام وقاطعو الحجارة المسلّحون الذين يمهّدون الأرض وينسفون الأسوار. وفي قاهرة القرن التاسع عشر وقّع نقّاشو الحجر القاهريون عرائض على شيوخ طائفتهم لما كانوا يقتطعونه من أجورهم."
+  en: "The hajjar cut stone at the quarry, dressed it for building and carved inscriptions in it and in marble. Ibn al-Ukhuwwa binds the masons with the lime-burners and gypsum-makers by an oath not to take bribes over underburnt or poor lime. In Evliya's procession the stone-cutters (Tash-kersen) march a thousand strong and the stone-draggers (Tash-keshan) a thousand Armenian ass-drivers; the marble workmen (Mermerberan), a hundred and sixty-one men, cut chronograms and inscriptions in marble and make turbans and pillars for tombs, and with them are a hundred and fifty-one whetstone-cutters. Ahead of the procession march the armed miners and stonecutters of the army's van, who level the ground and blow up walls. In nineteenth-century Cairo the stone masons petitioned against the shaykhs of their guild for the shares cut from their wages."
+  ur: "حجّار کانوں سے پتھر کاٹ کر تعمیر کے لیے تراشتا اور اس میں اور سنگ مرمر میں کندہ کاری کرتا تھا۔ ابن الاخوہ مستریوں کو چونا بھٹھے والوں اور گچ سازوں کے ساتھ قسم باندھتا ہے کہ وہ ادھورے یا خراب چونے پر رشوت نہ لیں۔ اولیاء چلبی کے جلوس میں سنگ تراش ⁦(تاش کرسن)⁩ ایک ہزار اور پتھر گھسیٹنے والے ⁦(تاش کشان)⁩ ایک ہزار آرمینی گدھا چلا ئے ہوئے چلتے ہیں؛ سنگ مرمر کے کاریگر ⁦(مرمربران)⁩ ایک سو اکسٹھ آدمی سنگ مرمر پر کتبے اور نقش تراشتے اور قبروں کے لیے پگڑی اور ستون بناتے ہیں، اور ان کے ساتھ ایک سو اکیاون ساں کے پتھر کاٹنے والے ہیں۔ جلوس سے پہلے فوج کی پیش دستے کے مسلح کان کن اور سنگ تراش چلتے ہیں جو زمین برابر اور دیواریں اڑاتے ہیں۔ انیسویں صدی کے قاہرہ میں سنگ تراشوں نے اپنی انجمن کے شیخوں کی طرف سے اجرت میں سے کٹتی کے خلاف عرضیاں دیں۔"
+domain: building-making
+kind: craft
+hirfa: true
+broader: job/builder
+era:
+  origins: pre-islamic
+  status_today: living
+places:
+  - { place: place/cairo, note: "Chalcraft records the stone workers and masons of Cairo's building trades, the imported marble they transformed, and the petition of the Cairean stone mason Husayn Muhammad against his guild shaykh for taking half his daily wage.", sources: [source/chalcraft-striking-cabbies] }
+  - { place: place/istanbul, note: "Evliya counts the stone-cutters, stone-draggers, marble workmen and whetstone-cutters in the builders' train, and the armed miners and stonecutters who open the procession and level the ground for the army.", sources: [source/evliya-seyahatname-hammer] }
+regions: [egypt-nile, anatolia-balkans, levant-iraq]
+organization:
+  organized: guild
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people, living]
+periods: [period/crusades-ayyubid-mamluk, period/gunpowder-empires, period/modern-era]
+sources: [source/ibn-ukhuwwa-maalim-levy, source/evliya-seyahatname-hammer, source/chalcraft-striking-cabbies]
+craft:
+  materials: [stone, marble]
+  techniques:
+    ar: "يأمر ابن الأخوة أن يستعمل العامل الزوايا والأثقال والخيوط ليقوم البناء مستوياً بلا ميل وإلا ضمن الخلل، وأن يحلف البنّاءون ألا يقبلوا من حرّاقي الجير وصنّاع الجبس رشوة أو هدية ليسكتوا عن الجير غير الناضج أو الرديء. ويصف إوليا ساحبي الحجارة وهم أرمن سائقو حمير يجذبون أحمالهم وينادون بعضهم بعضاً، وعمال الرخام يقطعون الساعات الشمسية والكتابات على الرخام ويصنعون عمائم وأعمدة لشواهد القبور، وقطّاع حجر المسنّ يمرّون بعربات محمّلة به. وفي قاهرة شالكرافت كان الحجر والرخام المستورد ثاني أكبر الواردات في الستينيات والسبعينيات وحوّله البنّاءون المصريون، وتعلّم بنّاؤو المدينة نحت الحجر ورصف الرخام على الطراز الأوروبي."
+    en: "Ibn al-Ukhuwwa orders that the workman use angles, weights and lines so the building stands true, being liable for any fault, and that the masons swear not to take bribes or gifts from the lime-burners and gypsum-makers for their acquiescence when the lime is underburnt or bad. Evliya describes the stone-draggers, Armenian ass-drivers who drag their loads crying out to each other, the marble workmen who cut chronograms and inscriptions in marble and make turbans and pillars for funeral monuments, and the whetstone-cutters who pass with wagons full of whetstone. In Chalcraft's Cairo imported stone and marble was the second largest category of imports in the 1860s and 1870s and was transformed by Egyptian masons, who also picked up stone sculpting and marble paving in European styles."
+    ur: "ابن الاخوہ کا حکم ہے کہ مزدور زاویہ، وزن اور ڈور استعمال کرے کہ عمارت سیدھی کھڑی ہو ورنہ نقص کی ذمہ داری اس پر ہے، اور مستری قسم کھائیں کہ وہ چونا بھٹھے والوں اور گچ سازوں سے ادھورے یا خراب چونے پر خاموشی کے عوض رشوت یا تحفہ نہ لیں۔ اولیہ چلبی پتھر گھسیٹنے والوں کی صورت کھینچتا ہے جو آرمینی گدھا چلا آدمی ہیں، اپنی بوجھ گھسیٹتے ایک دوسرے کو پکارتے ہیں، سنگ مرمر کے کاریگر سنگ مرمر پر کتبے اور نقش تراشتے اور قبروں کے لیے پگڑی اور ستون بناتے ہیں، اور ساں کاٹنے والے ساں بھرے ریڑھے لے چلتے ہیں۔ چالکرافٹ کے قاہرہ میں ساٹھ اور ستر کی دہائی میں درآمد شدہ پتھر اور سنگ مرمر درآمدات کا دوسرا بڑا خانہ تھا جسے مصری مستریوں نے تراشا، اور انہوں نے یورپی طرز پر سنگ تراشی اور سنگ مرمر کی فرش سازی بھی سیکھی۔"
+  guild:
+    bodies: []
+    shaykh_title: { ar: "شيخ طائفة الحجّارين", en: "Sheykh of the stonecutters' guild", ur: "سنگ تراشوں کی انجمن کا شیخ" }
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-harvest-4" }
+provenance:
+  layer: own-research
+  source: "Ibn al-Ukhuwwa/Levy ch. LXIX pp. 94-95 (masons' instruments and the lime oath); Evliya (von Hammer) I,2 sec. 9 p. 107 (armed miners and stonecutters) and secs. 614-616, 624-626 pp. 230-231 (marble workmen, whetstone-cutters, stone-cutters, stone-draggers); Chalcraft pp. 47-48 (stone workers and masons in Cairo and Suez) and pp. 83-86 (the stone mason's petition and the wakil complaint) — all read on 16 Nov 2026 from the downloaded scans"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-harvest-4-drafting"
