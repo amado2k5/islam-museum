@@ -13,6 +13,10 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v1.59.0 — 2026-11-16
+### Added
+- Job Browser: six trading and travel professions — the sarraf money-changer and banker, the dallal broker-crier and his simsar, the mutawwif who guided the pilgrim through Mecca, the caravan-leader (kervancıbaşı) of the hajj road, the slave dealer (esirci/nakhkhas) recorded as a documented, now-extinct historical trade, and the sailor (levent) of the Ottoman sea — in Arabic, English and Urdu draft cited to the TDV entries SARRAFLIK, SİMSAR, DELLÂL, MUTAVVİF, KERVAN, ESİR and LEVENT.
+
 ## v1.58.0 — 2026-11-16
 ### Added
 - A new browser, «متصفح أركان الإسلام وأركان الإيمان وشُعَب الإيمان وخِصَال المؤمن» (the Pillars of Islam, Pillars of Faith, Branches of Faith and Traits of the Believer Browser), at `/ar/arkan/`, `/en/arkan/` and `/ur/arkan/`, with a page for each of the four themes, a card on the home page and an entry in the Explore menu. It gathers every place the museum's sources mention the five pillars of Islam, the six pillars of faith, the seventy-odd branches of faith and the traits of the believer: 1,444 records on the day it was built — 124 Qur'an verses from a reviewed table, 795 passages of hadith and its commentaries, 28 seerah excerpts, 472 excerpts from other books (creed, the Companions and Successors, renunciation, history, fiqh) and 25 curated records. A book harvested later brings its mentions in by itself. The dataset is at `/api/v1/arkan.json`.
