@@ -16,6 +16,12 @@ wings: [people]
 periods: [period/abbasid-fragmentation]
 regions: [levant-iraq]
 died: { edtf: "0942~", hijri: "0331", calendar: julian, precision: year, status: tradition, derived: true, note: "EI2 gives 331/942-3 {cite:encyclopaedia-of-islam-2 vol. 3 p. 856}." }
+occupations:
+  - job: job/muhaddith
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'muhaddith', Job Browser linking wave 28"
+    sources: [source/encyclopaedia-of-islam-2]
 relations:
   - { type: influenced, target: person/ibn-khalawayh, note: "Named by EI2 as one of Ibn Khalawayh's teachers of hadith.", sources: [source/encyclopaedia-of-islam-2] }
 provenance:

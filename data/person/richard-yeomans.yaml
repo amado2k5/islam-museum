@@ -14,6 +14,17 @@ themes: [architecture, images-of-islam]
 regions: [egypt-nile]
 periods: [period/contemporary-era]
 born: { edtf: "1940~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: British Art Historians Directory" }
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 28"
+    sources: [source/yeomans-islamic-cairo-2006]
+  - job: job/teacher
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'teacher', Job Browser linking wave 28"
+    sources: [source/yeomans-islamic-cairo-2006]
 relations:
   - { type: authored, target: work/art-and-architecture-of-islamic-cairo, sources: [source/yeomans-islamic-cairo-2006] }
 

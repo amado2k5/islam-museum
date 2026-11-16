@@ -16,6 +16,12 @@ wings: [people]
 themes: [scripture-and-its-sciences]
 periods: [period/abbasid-fragmentation]
 regions: [andalus-europe]
+occupations:
+  - job: job/muhaddith
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'muhaddith', Job Browser linking wave 28"
+    sources: [source/tamhid-furqan-2017-v1]
 relations:
   - { type: lived_in, target: place/cordoba, sources: [source/tamhid-furqan-2017-v1] }
   - { type: student_of, target: person/qasim-ibn-asbagh, sources: [source/tamhid-furqan-2017-v1] }

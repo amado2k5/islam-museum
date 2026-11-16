@@ -25,6 +25,12 @@ wings: [people]
 regions: [anatolia-balkans]
 periods: [period/mongol-post-mongol]
 died: { edtf: "1402~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 (Bayazid I); TDV Islam Ansiklopedisi" }
+occupations:
+  - job: job/emir
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'emir', Job Browser linking wave 28"
+    sources: [source/dawlat-uthmaniyya-salabi]
 relations:
   - { type: traveled_to, target: place/ankara, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: child_of, target: person/bayazid-i-yildirim, sources: [source/dawlat-uthmaniyya-salabi] }

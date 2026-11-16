@@ -24,5 +24,16 @@ sources: [source/shadharat-dhahab]
 status:
   review: published
   completeness: 3
+occupations:
+  - job: job/qari
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'quran-reciter', Job Browser linking wave 28"
+    sources: [source/shadharat-dhahab]
+  - job: job/alim
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 28"
+    sources: [source/shadharat-dhahab]
 relations:
   - { type: lived_in, target: place/damascus, confidence: low, note: "Association inferred from the nisba 'الدمشقي'; specific birthplace or residence is not individually documented.", sources: [source/shadharat-dhahab] }

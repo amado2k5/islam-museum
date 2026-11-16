@@ -15,6 +15,12 @@ regions: [persia-central-asia]
 periods: [period/abbasid-early]
 born: { edtf: "849", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica Agrees with Wikidata Q862648 (P569, a statement without a reference), item revision 2554621332, read on 13 November 2026.", sources: [source/wikidata] }
 died: { edtf: "907", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica Agrees with Wikidata Q862648 (P570, a statement without a reference), item revision 2554621332, read on 13 November 2026.", sources: [source/wikidata] }
+occupations:
+  - job: job/emir
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'emir', Job Browser linking wave 28"
+    sources: [source/kamil-ibn-al-athir, source/wikidata]
 relations:
   - { type: born_in, target: place/ferghana-valley, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: born_in, target: place/balkh, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

@@ -13,6 +13,10 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v2.02.0 — 2026-11-17
+### Added
+- Job Browser linking wave 28: 35 `occupations:` edges on 25 person records — finishes the teacher and qari pools; ten emirs, six ulema, four muhaddiths, plus mathematician, grammarian and poet links.
+
 ## v2.01.0 — 2026-11-17
 ### Added
 - Job Browser linking wave 27: 48 `occupations:` edges on 25 person records — eighteen ulema, thirteen teachers, twelve qaris, plus preacher, historian and imam links.

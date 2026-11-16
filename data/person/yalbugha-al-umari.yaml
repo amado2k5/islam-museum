@@ -15,6 +15,12 @@ wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [egypt-nile]
 died: { edtf: "1366", hijri: "0768", calendar: julian, precision: year, status: historical, derived: true, note: "Killed on the night of 9-10 Rabi II 768, the Saturday night before Sunday 10 Rabi II {cite:nujum-zahira 11/40}; EI2 gives Rabi II 768/December 1366 {cite:encyclopaedia-of-islam-2 vol. 6 p. 343}. Birth date is not given in the sources read.", sources: [source/encyclopaedia-of-islam-2, source/nujum-zahira] }
+occupations:
+  - job: job/emir
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'emir', Job Browser linking wave 28"
+    sources: [source/encyclopaedia-of-islam-2, source/nujum-zahira, source/durar-kamina-jil-1993]
 relations:
   - { type: opposed, target: person/al-nasir-hasan, note: "Led the mamluk revolt in which Sultan Hasan was seized and killed, 762 AH; EI2 vol. 6 p. 343; Nujum 10/311-314.", sources: [source/encyclopaedia-of-islam-2, source/nujum-zahira] }
   - { type: lived_in, target: place/cairo, note: "Lived at al-Kabsh in Cairo; Durar 4/438.", sources: [source/durar-kamina-jil-1993] }

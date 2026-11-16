@@ -12,6 +12,12 @@ story_roles:
   - { role: ruler, status: tradition, sources: [source/muntazam-ibn-al-jawzi] }
 died:
   { edtf: "1006-12~", hijri: "0397-02", calendar: julian, precision: month, status: tradition, derived: true, note: "صفر 397 بواسط؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.237}" }
+occupations:
+  - job: job/emir
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'emir', Job Browser linking wave 28"
+    sources: [source/muntazam-ibn-al-jawzi]
 relations:
   - { type: opposed, target: person/baha-al-dawla, role: "هزمه وملك البطيحة وأخذ أمواله", sources: [source/muntazam-ibn-al-jawzi] }
   - { type: died_in, target: place/wasit, role: "قتل بها", sources: [source/muntazam-ibn-al-jawzi] }
