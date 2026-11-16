@@ -12,6 +12,12 @@ wings: [people]
 regions: [persia-central-asia, levant-iraq]
 periods: [period/abbasid-fragmentation]
 died: { edtf: "873", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal / al-Mizzi Confirmed on 13 November 2026 against Wikidata Q5984794 (P570, a statement with a reference), item revision 2561842781.", sources: [source/wikidata] }
+occupations:
+  - job: job/muhaddith
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'muhaddith', Job Browser linking wave 33"
+    sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 relations:
   - { type: born_in, target: place/guzgan, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/damascus, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

@@ -15,6 +15,12 @@ regions: [egypt-nile]
 faith:
   - value: sunni
     basis: tradition
+occupations:
+  - job: job/emir
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'emir', Job Browser linking wave 33"
+    sources: [source/shadharat-dhahab]
 relations:
   - { type: lived_in, target: place/misr, sources: [source/shadharat-dhahab] }
   - { type: buried_in, target: place/cairo, sources: [source/shadharat-dhahab] }

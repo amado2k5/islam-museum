@@ -13,6 +13,10 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v2.07.0 — 2026-11-17
+### Added
+- Job Browser linking wave 33: 33 `occupations:` edges on 25 person records — eleven emirs, eight muhaddiths, plus faqih, qadi, philosopher, mufti and scholar multi-links (Mulla Sadra, al-Marghinani).
+
 ## v2.06.0 — 2026-11-17
 ### Added
 - Job Browser linking wave 32: 31 `occupations:` edges on 25 person records — eleven emirs, eight muhaddiths, plus alim, mutakallim, faqih, philosopher and scholar multi-links (al-Ashari, Ibn Sina, Ibn al-Qayyim).
