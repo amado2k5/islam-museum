@@ -1,0 +1,42 @@
+id: job/muezzin
+class: job
+label: { ar: "المؤذّن", en: "Muezzin (mu'adhdhin)", ur: "مؤذّن" }
+names:
+  - { value: "مُنادي", kind: alternate }
+  - { value: "müezzin", kind: latinized, lang: tr }
+  - { value: "müezzinbaşı", kind: alternate }
+  - { value: "sermüezzin", kind: alternate }
+  - { value: "مؤذّن السّلا", kind: alternate }
+summary:
+  ar: "المؤذّن من يؤذّن للصلاة ويقيمها، وقد استقلّت وظيفته عن المناداة العامة حين عيّن النبي بلال بن رباح أول مؤذّن بالمدينة بعد استقرار صيغة الأذان سنة ١ أو ٢ هـ. كان المؤذّن يُختار لحسن الصوت وقوته وإتقان القراءة والموسيقى، ويتقاضى مرتّباً من أوقاف المسجد أو من الديوان، وارتقى منه في الحرمين والجوامع الكبرى إلى مؤذّنين بعشرات تتقدّمهم رئاسة المؤذّنين؛ وفي الدولة العثمانية صار المؤذّن ببراءة سلطانية من أهل العسكر معفياً من الضريبة الشخصية، منهم مؤذّنو السلطان ⁦(هنكار مؤذّني)⁩ في القصر والجيش والأسطول، ويبلغ إوليا جلبي مؤذّني «أهل الحرف الخاصة» سبعمئة."
+  en: "The muezzin gives the call to prayer and the iqama; his office separated from the general town-crier when the Prophet appointed Bilal ibn Rabah as the first muezzin in Medina, once the wording of the ezan was fixed in year 1 or 2 AH. He was chosen for a beautiful, powerful voice, good recitation and knowledge of music, and drew his pay from the mosque's waqf or the treasury. In the two sanctuaries and the great mosques he rose to bodies of dozens under a chief muezzin; under the Ottomans he held a sultan's berat, counted among the askeri exempt from personal tax, and served as palace muezzin (hünkâr müezzini) in the court, the army and the fleet — Evliya Çelebi gives seven hundred muezzins among the 'people of the imperial craft'."
+  ur: "مؤذّن وہ شخص ہے جو اذان دیتا اور اقامت کہتا ہے؛ اس کا منصب عام منادی سے اس وقت الگ ہوا جب نبی نے مدینہ میں بلال بن رباح کو پہلا مؤذّن مقرر کیا، اذان کے الفاظ سن ۱ یا ۲ ہجری میں طے ہونے کے بعد۔ اسے خوبصورت بلند آواز، اچھی تلاوت اور موسیقی کے علم کی بنا پر چنا جاتا اور مسجد کے وقف یا دیوان سے تنخواہ پاتا۔ حرمین اور بڑی مسجدوں میں ان کی تعداد درجنوں ہوتی اور سردار مؤذّن ہوتا؛ عثمانیوں میں وہ سلطانی برات سے منصب پاتا، عسکری طبقے میں شمار ہوا اور ذاتی ٹیکس سے مستثنیٰ رہا، اور محل، لشکر اور بحریہ میں پادشاہ مؤذّن ⁦(ہنکار مؤذّنی)⁩ کی خدمت کرتا — اولیاء چلبی شاہی دستکاروں میں سات سو مؤذّن لکھتا ہے۔"
+domain: faith-preaching
+kind: office
+hirfa: false
+era:
+  origins: prophetic
+  status_today: living
+places:
+  - { place: place/medina, note: "The office began in Medina: Bilal ibn Rabah called the first ezan from a rooftop, and 'Uthman raised the number of the Prophet's mosque's muezzins to four; in later centuries the great mosques of Mecca, Medina, Damascus and Cairo kept thirty to seventy muezzins, one for each school's mihrab.", sources: [source/tdv-muezzin] }
+  - { place: place/istanbul, note: "The Ottoman muezzin held a sultan's berat and counted among the askeri; the palace hünkâr müezzinleri, headed by the sermüezzin and trained in Enderun music and etiquette, numbered fifteen in the sixteenth century, and Evliya Çelebi counts seven hundred muezzins of the 'ehl-i hiref-i hâssa'.", sources: [source/tdv-muezzin] }
+  - { place: place/damascus, note: "Nasir-i Khusraw records muezzins in every town and village from Damascus to Kairouan paid by the governors; Ibn Asakir shows the Damascus mosques' muezzins paid largely from waqf revenue.", sources: [source/tdv-muezzin] }
+regions: [arabia, levant-iraq, egypt-nile, maghreb, anatolia-balkans, persia-central-asia, south-asia, andalus-europe]
+organization:
+  organized: court-office
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people]
+periods: [period/prophetic-era, period/rashidun, period/umayyad, period/abbasid-early, period/buyid-seljuk-fatimid-era, period/crusades-ayyubid-mamluk, period/gunpowder-empires, period/modern-era, period/contemporary-era]
+sources: [source/tdv-muezzin]
+training:
+  mode: apprenticeship
+  certification: "Ottoman appointment by imperial berat on the waqf trustee's proposal confirmed by the sheyhülislam; from the nineteenth century an examination before an inspection board was required, and the palace's own muezzins were trained inside Enderun in music and the etiquette of the office."
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-harvest-7" }
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi, 'MÜEZZİN' (Küçükaşcı, 2020), web edition read on 16 Nov 2026: the Medina origins, the first muezzins, the sala and ceremonial duties, waqf and diwan pay, and the Ottoman organisation (berat, askeri status, hünkâr müezzinleri, Evliya's seven hundred)"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-harvest-7-drafting"
