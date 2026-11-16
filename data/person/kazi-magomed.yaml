@@ -35,6 +35,12 @@ died:
 wings: [people]
 regions: [anatolia-balkans]
 roles: [general, politician]
+occupations:
+  - job: job/commander
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'general', Job Browser linking wave 23"
+    sources: [source/wikipedia-kazi-magomed-ru, source/wikipedia-kazi-magomed-uk, source/wikipedia-kazi-magomed-tr, source/wikidata-kazi-magomed]
 relations:
   - { type: born_in, target: place/gimry, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-kazi-magomed] }
   - { type: child_of, target: person/imam-shamil, sources: [source/wikipedia-kazi-magomed-ru, source/wikidata-kazi-magomed] }

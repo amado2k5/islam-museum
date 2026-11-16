@@ -33,6 +33,12 @@ died:
 roles: [politician, commander]
 wings: [people]
 regions: [persia-central-asia]
+occupations:
+  - job: job/commander
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'commander', Job Browser linking wave 23"
+    sources: [source/wikipedia-ahmad-shah-massoud-en, source/wikipedia-ahmad-shah-massoud-ar, source/wikipedia-ahmad-shah-massoud-ur]
 relations:
   - { type: lived_in, target: place/herat, sources: [source/wikipedia-ahmad-shah-massoud-en] }
   - { type: lived_in, target: place/kabul, sources: [source/wikipedia-ahmad-shah-massoud-en, source/wikipedia-ahmad-shah-massoud-ar] }

@@ -18,6 +18,17 @@ wings: [people]
 themes: [linguistics]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [persia-central-asia]
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 23"
+    sources: [source/mawsuat-a3lam-ulama-adaba, source/sihah-attar-1979-v1, source/sihah-attar-1979-scan-b, source/sihah-tamir-dar-al-hadith-2009, source/wikidata]
+  - job: job/teacher
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'teacher', Job Browser linking wave 23"
+    sources: [source/mawsuat-a3lam-ulama-adaba, source/sihah-attar-1979-v1, source/sihah-attar-1979-scan-b, source/sihah-tamir-dar-al-hadith-2009, source/wikidata]
 relations:
   - { type: lived_in, target: place/nishapur, note: "From text: settled in Nishapur", sources: [source/mawsuat-a3lam-ulama-adaba, source/sihah-attar-1979-v1, source/sihah-attar-1979-scan-b, source/sihah-tamir-dar-al-hadith-2009] }
   - { type: died_in, target: place/nishapur, note: "From text: died at Nishapur", sources: [source/mawsuat-a3lam-ulama-adaba, source/sihah-tamir-dar-al-hadith-2009, source/sihah-attar-1979-scan-b, source/sihah-attar-1979-v1] }

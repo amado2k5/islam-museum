@@ -35,3 +35,13 @@ occupations:
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/wikipedia-muhammad-ayyub-en, source/wikipedia-muhammad-ayyub-ar, source/wikipedia-muhammad-ayyub-ur, source/wikidata-muhammad-ayyub]
+  - job: job/qari
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'reciter', Job Browser linking wave 23"
+    sources: [source/wikipedia-muhammad-ayyub-en, source/wikipedia-muhammad-ayyub-ar, source/wikipedia-muhammad-ayyub-ur, source/wikidata-muhammad-ayyub, source/wikidata]
+  - job: job/alim
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 23"
+    sources: [source/wikipedia-muhammad-ayyub-en, source/wikipedia-muhammad-ayyub-ar, source/wikipedia-muhammad-ayyub-ur, source/wikidata-muhammad-ayyub, source/wikidata]
