@@ -13,6 +13,17 @@ regions: [levant-iraq]
 periods: [period/mongol-post-mongol]
 born: { edtf: "1436", calendar: gregorian, precision: year, derived: true, note: "840 AH = 1436 CE as printed in the entry; source: al-Zirikli, al-A'lam, 15th ed. 2002, vol. 8 pp. 225-226", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 died: { edtf: "1503", calendar: gregorian, precision: year, derived: true, note: "909 AH = 1503 CE as printed in the entry; source: al-Zirikli, al-A'lam, 15th ed. 2002, vol. 8 pp. 225-226", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 41"
+    sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'jurist', Job Browser linking wave 41"
+    sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 relations:
   - { type: lived_in, target: place/damascus, confidence: medium, note: "Entry: of al-Salihiyya, in Damascus (al-A'lam vol. 8 pp. 225-226).", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]

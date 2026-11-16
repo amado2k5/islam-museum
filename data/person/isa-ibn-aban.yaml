@@ -13,6 +13,17 @@ wings: [people]
 regions: [levant-iraq]
 periods: [period/abbasid-early]
 died: { edtf: "836", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Fihrist / Ibn al-Nadim Agrees with Wikidata Q24932710 (P570, a statement without a reference), item revision 2533312437, read on 13 November 2026.", sources: [source/wikidata] }
+occupations:
+  - job: job/faqih
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'jurist', Job Browser linking wave 41"
+    sources: [source/al-aalam]
+  - job: job/qadi
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'qadi', Job Browser linking wave 41"
+    sources: [source/al-aalam]
 relations:
   - { type: died_in, target: place/basra, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
 sources: [source/al-aalam]

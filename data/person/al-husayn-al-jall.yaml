@@ -23,6 +23,17 @@ sources: [source/muntazam-ibn-al-jawzi]
 status:
   review: published
   completeness: 3
+occupations:
+  - job: job/mutakallim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'theologian', Job Browser linking wave 41"
+    sources: [source/muntazam-ibn-al-jawzi]
+  - job: job/alim
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 41"
+    sources: [source/muntazam-ibn-al-jawzi]
 relations:
   - { type: buried_in, target: place/al-karkh, note: "From text: دُفن في تربة أستاذه أبي الحسن الكرخي ب", sources: [source/muntazam-ibn-al-jawzi] }
   - { type: lived_in, target: place/baghdad, note: "From text: settled at Baghdad", sources: [source/muntazam-ibn-al-jawzi] }

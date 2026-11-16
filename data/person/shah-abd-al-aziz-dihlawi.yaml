@@ -32,5 +32,11 @@ provenance:
   run: ei2-b001
   oxford_captures: "t125/e2: http://www.oxfordislamicstudies.com/article/opr/t125/e2 ; https://web.archive.org/web/20081007075715/http://www.oxfordislamicstudies.com:80/article/opr/t125/e2"
 status: { review: published, generated_by: "Claude Code (claude-haiku-5-5)" }
+occupations:
+  - job: job/mutakallim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'theologian', Job Browser linking wave 41"
+    sources: [source/encyclopaedia-of-islam-2, source/oxford-dictionary-of-islam]
 relations:
   - { type: lived_in, target: place/delhi, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/encyclopaedia-of-islam-2] }

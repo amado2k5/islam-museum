@@ -46,6 +46,17 @@ died:
   note: 'Per al-Zirikli, al-A''lam vol. 5 p. 171: died 844 AH = 1440 CE in Tunis. The card gave 1438 (Wikidata); corrected to the entry.'
   sources:
   - source/alam-zirikli-dar-al-ilm-2002
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 41"
+    sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'jurist', Job Browser linking wave 41"
+    sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 relations:
 - type: lived_in
   target: place/tunis
