@@ -1,0 +1,23 @@
+id: concept/mawizaj
+class: concept
+kind: natural
+label:
+  ar: "ميويزج"
+  en: "Mawizaj (the mountain raisin)"
+  ur: "میویزج"
+summary:
+  ar: "ميويزج هو الزبيب الجبلي، حب أسود متغضن كالحمص الأسود، حار يابس في الثالثة، محرق أكال حاد حريف، يقتل القمل ويمضغ لجلب البلغم، ويحذر الكتاب من سقيه لأنه يقرح المثانة {cite:canon-ibn-sina-print-v1 p.564}."
+  en: "Mawizaj is the mountain raisin, a black wrinkled grain like a black chickpea, hot and dry in the third degree, burning, eating, sharp and acrid; it kills lice and is chewed to draw phlegm, and the book warns that drinking it is dangerous because it ulcerates the bladder {cite:canon-ibn-sina-print-v1 p.564}."
+  ur: "میویزج پہاڑی کشمش ہے، کالے چنے جیسا سیاہ سکڑا ہوا دانہ، تیسرے درجے میں گرم خشک، جلانے والا، کھا جانے والا، تیز اور تلخ؛ جوؤں کو مارتا ہے اور بلغم کھینچنے کے لیے چبایا جاتا ہے، اور کتاب خبردار کرتی ہے کہ اسے پینا خطرناک ہے کیونکہ یہ مثانے میں زخم ڈالتا ہے {cite:canon-ibn-sina-print-v1 p.564}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter mim, scan pages 564, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json) and checked by eye against the page images for scan 562 and 563; editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen and desire reports kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-18
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

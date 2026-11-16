@@ -1,0 +1,23 @@
+id: concept/limusun
+class: concept
+kind: natural
+label:
+  ar: "ليموسون"
+  en: "Limusun (a fruit)"
+  ur: "لیموسون"
+summary:
+  ar: "ليموسون ثمرته قابضة يابسة، وفي الكتاب أنه ينفع من استطلاق البطن والدم {cite:canon-ibn-sina-print-v1 p.545}."
+  en: "Limusun is a fruit that is astringent and dry; the book lists it for looseness of the bowels and of blood {cite:canon-ibn-sina-print-v1 p.545}."
+  ur: "لیموسون ایک پھل ہے، قابض اور خشک؛ کتاب میں پیٹ اور خون کے بہاؤ میں اس کا ذکر ہے {cite:canon-ibn-sina-print-v1 p.545}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letters lam and mim, scan pages 545, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen and desire reports kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-17
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

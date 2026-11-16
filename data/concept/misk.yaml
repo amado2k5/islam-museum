@@ -1,0 +1,23 @@
+id: concept/misk
+class: concept
+kind: natural
+label:
+  ar: "مسك"
+  en: "Misk (musk)"
+  ur: "مسک"
+summary:
+  ar: "المسك سرة دابة كالظبي، حار يابس في الثانية، لطيف مقوٍّ، ينفع الصداع البارد والخفقان ويقوي العين والقلب ويعد ترياقاً للسموم {cite:canon-ibn-sina-print-v1 p.553}."
+  en: "Musk is the navel of an animal like a deer, hot and dry in the second degree, fine and strengthening; it helps cold headache and palpitation, strengthens the eye and the heart, and is called an antidote to poisons {cite:canon-ibn-sina-print-v1 p.553}."
+  ur: "مسک ہرن جیسے جانور کی ناف ہے، دوسرے درجے میں گرم خشک، لطیف اور قوت دینے والا؛ سرد سردرد اور دھڑکن میں مفید ہے، آنکھ اور دل کو قوت دیتا ہے اور زہروں کا تریاق کہا گیا ہے {cite:canon-ibn-sina-print-v1 p.553}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letters lam and mim, scan pages 553, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen and desire reports kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-17
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

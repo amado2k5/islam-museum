@@ -1,0 +1,23 @@
+id: concept/marmakhur
+class: concept
+kind: natural
+label:
+  ar: "مرماخور"
+  en: "Marmakhur (a fragrant herb)"
+  ur: "مرماخور"
+summary:
+  ar: "المرماخور نبات معروف، زهره أغبر إلى الخضرة طيب الرائحة، حار في الثالثة يابس في الثانية، لطيف محلل مسكن للرياح مفتح لسدد البلغم {cite:canon-ibn-sina-print-v1 p.556}."
+  en: "Marmakhur is a well-known plant with dusty-green, sweet-smelling flowers, hot in the third degree and dry in the second, fine, dissolving, soothing wind and opening phlegmatic obstructions {cite:canon-ibn-sina-print-v1 p.556}."
+  ur: "مرماخور ایک معروف نبات ہے، اس کا پھول مٹیالا سبزی مائل خوشبودار ہے، تیسرے درجے میں گرم اور دوسرے میں خشک، لطیف، تحلیل کرنے والا، ریاح کو تسکین دینے والا اور بلغمی رکاوٹیں کھولنے والا {cite:canon-ibn-sina-print-v1 p.556}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letters lam and mim, scan pages 556, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen and desire reports kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-17
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

@@ -1,0 +1,23 @@
+id: concept/lahm-tibb
+class: concept
+kind: natural
+label:
+  ar: "لحم"
+  en: "Lahm (meat)"
+  ur: "لحم"
+summary:
+  ar: "اللحم غذاء مقوٍّ للبدن وأقرب غذاء استحالة إلى الدم، وأفضله لحم الضأن والفتي من الماعز والعجاجيل، ويختلف طبعه بحسب الحيوان والطبخ، وفي الكتاب ذكر ما يولده غليظه وما ينفع منه {cite:canon-ibn-sina-print-v1 p.550} {cite:canon-ibn-sina-print-v1 p.552}."
+  en: "Meat is a food that strengthens the body and the nearest to turning into blood; the best is mutton, young goat and calves, and its temperament varies with the animal and the cooking; the book lists what thick meats breed and what some meats help {cite:canon-ibn-sina-print-v1 p.550} {cite:canon-ibn-sina-print-v1 p.552}."
+  ur: "گوشت بدن کو قوت دینے والی غذا ہے اور خون میں بدلنے کے سب سے قریب؛ بہترین بھیڑ کا گوشت، بکری کا جوان اور بچھڑے ہیں، اور اس کا مزاج جانور اور پکانے کے لحاظ سے بدلتا ہے؛ کتاب میں ذکر ہے کہ گاڑھے گوشت کیا پیدا کرتے ہیں اور کون سے مفید ہیں {cite:canon-ibn-sina-print-v1 p.550} {cite:canon-ibn-sina-print-v1 p.552}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letters lam and mim, scan pages 550 to 552, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen and desire reports kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-17
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

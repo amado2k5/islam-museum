@@ -1,0 +1,23 @@
+id: concept/mann-tibb
+class: concept
+kind: natural
+label:
+  ar: "من"
+  en: "Mann (manna, the sweet dew)"
+  ur: "منّ"
+summary:
+  ar: "المن طل يقع على حجر أو شجر فيحلو وينعقد عسلاً ويجف جفاف المصموغ، مثل الترنجبين والشيرخشك والعسل المجلوب من جبال قصران بالري، ويأخذ من طبيعة ما يسقط عليه قوة {cite:canon-ibn-sina-print-v1 p.570}."
+  en: "Mann is a dew that falls on stone or tree, turns sweet and sets as honey and dries like a gum, like taranjabin, shir khishk and the honey brought from the mountains of Qasran at Rayy, and takes a force from the nature of what it falls on {cite:canon-ibn-sina-print-v1 p.570}."
+  ur: "منّ ایک شبنم ہے جو پتھر یا درخت پر گرتی ہے، میٹھی ہو کر شہد کی طرح جم جاتی ہے اور گوند کی طرح سوکھتی ہے، جیسے ترنجبین، شیر خشک اور رَے میں قصران کے پہاڑوں سے لایا جانے والا شہد، اور جس چیز پر گرے اس کی طبیعت سے ایک قوت لیتی ہے {cite:canon-ibn-sina-print-v1 p.570}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter mim, scan pages 570, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json) and checked by eye against the page images for scan 562 and 563; editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen and desire reports kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-18
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

@@ -1,0 +1,23 @@
+id: concept/midad
+class: concept
+kind: natural
+label:
+  ar: "مداد"
+  en: "Midad (ink)"
+  ur: "مداد"
+summary:
+  ar: "المداد معروف عند ابن سينا، أجوده أخفه وزناً وأحلكه سواداً، حار مجفف كله إلا الهندي الذي عده الهند وبولس من المبردات {cite:canon-ibn-sina-print-v1 p.563}."
+  en: "Midad, ink, is called well known; the best is the lightest in weight and the blackest, hot and drying in all kinds except the Indian, which the Indians and Paulus count among the coolers {cite:canon-ibn-sina-print-v1 p.563}."
+  ur: "مداد کو کتاب معروف کہتی ہے؛ بہترین وہ ہے جو وزن میں ہلکا اور سب سے زیادہ سیاہ ہو؛ سب قسمیں گرم اور خشک کرنے والی ہیں سوائے ہندی کے، جسے اہلِ ہند اور بولس ٹھنڈا کرنے والوں میں شمار کرتے ہیں {cite:canon-ibn-sina-print-v1 p.563}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter mim, scan pages 563, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json) and checked by eye against the page images for scan 562 and 563; editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen and desire reports kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-18
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

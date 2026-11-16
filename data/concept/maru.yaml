@@ -1,0 +1,23 @@
+id: concept/maru
+class: concept
+kind: natural
+label:
+  ar: "مرو"
+  en: "Maru (a fragrant labiate)"
+  ur: "مرو"
+summary:
+  ar: "المرو نبات عطري له أنواع عند الهند، حار يابس في الثانية، مفش للريح لطيف محلل للنفخ والبلغم مفتح للسدد الباردة، وينفع الأذن الوجعة والصداع والمعدة {cite:canon-ibn-sina-print-v1 p.555} {cite:canon-ibn-sina-print-v1 p.556}."
+  en: "Maru is a fragrant plant with several kinds according to the Indians, hot and dry in the second degree, breaking wind, fine, dissolving wind and phlegm and opening cold obstructions; it is listed for the aching ear, headache and the stomach {cite:canon-ibn-sina-print-v1 p.555} {cite:canon-ibn-sina-print-v1 p.556}."
+  ur: "مرو ایک خوشبودار پودا ہے جس کی ہندیوں کے نزدیک کئی قسمیں ہیں، دوسرے درجے میں گرم خشک، ریاح کو توڑنے والا، لطیف، ریاح اور بلغم کو تحلیل کرنے والا اور سرد رکاوٹیں کھولنے والا؛ دردمند کان، سردرد اور معدے میں مذکور ہے {cite:canon-ibn-sina-print-v1 p.555} {cite:canon-ibn-sina-print-v1 p.556}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letters lam and mim, scan pages 555 to 556, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen and desire reports kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-17
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

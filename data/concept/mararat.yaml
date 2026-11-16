@@ -1,0 +1,23 @@
+id: concept/mararat
+class: concept
+kind: natural
+label:
+  ar: "مرارات"
+  en: "Mararat (galls of animals)"
+  ur: "مرارات"
+summary:
+  ar: "المرارات جمع مرارة وهي مرارات الحيوان، حارة يابسة في الرابعة جلاءة، تختلف بحسب الحيوان والذكر والأنثى وحالة العطش والجوع، وينتفع بها في الجلد والجراحات والأذن والعين والبواسير والسموم {cite:canon-ibn-sina-print-v1 p.560} {cite:canon-ibn-sina-print-v1 p.562}."
+  en: "Mararat are the galls of animals, hot and dry in the fourth degree and cleansing, varying with the animal, with sex and with thirst and hunger; the book lists them for the skin, wounds, the ear, eye, piles and poisons {cite:canon-ibn-sina-print-v1 p.560} {cite:canon-ibn-sina-print-v1 p.562}."
+  ur: "مرارات جانوروں کے پتے ہیں، چوتھے درجے میں گرم خشک اور جلا دینے والے، جانور، نر و مادہ اور پیاس و بھوک کی حالت کے مطابق بدلتے ہیں؛ کتاب جلد، زخموں، کان، آنکھ، بواسیر اور زہروں میں ان کا ذکر کرتی ہے {cite:canon-ibn-sina-print-v1 p.560} {cite:canon-ibn-sina-print-v1 p.562}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letters lam and mim, scan pages 560 to 562, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen and desire reports kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-17
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

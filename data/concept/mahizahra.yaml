@@ -1,0 +1,23 @@
+id: concept/mahizahra
+class: concept
+kind: natural
+label:
+  ar: "ماهي زهرة"
+  en: "Mahizahra (a spurge-like tree)"
+  ur: "ماہی زہرہ"
+summary:
+  ar: "ماهي زهرة شجرة كشجرة الشبرم أطول منها، غبرة إلى صفرة، وقد يعدها بعضهم من اليتوعات، حارة يابسة في الثالثة، تسكر السمك، وتنفع النقرس وعرق النسا وتسهل الأخلاط الغليظة {cite:canon-ibn-sina-print-v1 p.570}."
+  en: "Mahizahra is a tree like the shubram but taller, grey toward yellow, which some count among the spurges; hot and dry in the third degree, it stuns fish, helps gout and sciatica and purges thick humours {cite:canon-ibn-sina-print-v1 p.570}."
+  ur: "ماہی زہرہ ایک درخت ہے شبرم جیسا مگر اس سے لمبا، خاکستری سے زرد، جسے بعض یتوعات میں شمار کرتے ہیں؛ تیسرے درجے میں گرم خشک، مچھلیوں کو بے ہوش کرتا ہے، نقرس اور عرق النسا میں مفید ہے اور موٹے اخلاط کو خارج کرتا ہے {cite:canon-ibn-sina-print-v1 p.570}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter mim, scan pages 570, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json) and checked by eye against the page images for scan 562 and 563; editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen and desire reports kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-18
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

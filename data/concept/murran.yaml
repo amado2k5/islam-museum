@@ -1,0 +1,23 @@
+id: concept/murran
+class: concept
+kind: natural
+label:
+  ar: "مران"
+  en: "Murran (a tree fruit)"
+  ur: "مران"
+summary:
+  ar: "المران ثمر شجرة يؤكل على شدة عفوصته، فيه قبض وتجفيف، وثمرته تدمل الجراحات الغليظة، وعصارته بالشراب نافعة من نهشة الأفعى، وقيل إن نشارة خشبه تقتل إذا شربت {cite:canon-ibn-sina-print-v1 p.567}."
+  en: "Murran is the fruit of a tree, eaten despite its extreme astringency, with astringency and drying; its fruit heals thick wounds, its juice with wine is said to help a viper's bite, and the sawdust of its wood is said to kill if drunk {cite:canon-ibn-sina-print-v1 p.567}."
+  ur: "مران ایک درخت کا پھل ہے جو سخت کسیلے پن کے باوجود کھایا جاتا ہے، قبض اور خشک کرنے کی صفت رکھتا ہے؛ اس کا پھل گہرے زخم بھر دیتا ہے، اس کا رس شراب کے ساتھ سانپ کے ڈسنے میں مفید بتایا گیا ہے، اور کہا گیا ہے کہ اس کی لکڑی کا برادہ پیا جائے تو مار دیتا ہے {cite:canon-ibn-sina-print-v1 p.567}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter mim, scan pages 566-567, read from the OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json) and checked by eye against the page images for scan 562 and 563; editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen and desire reports kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-18
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }
