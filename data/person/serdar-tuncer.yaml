@@ -1,0 +1,37 @@
+id: person/serdar-tuncer
+class: person
+label: { ar: "سردار تونجر", en: "Serdar Tuncer", ur: "سردار تونجر" }
+names:
+  - { value: "Serdar Tuncer", kind: full }
+  - { value: "سردار تونجر", kind: full }
+gender: male
+summary:
+  ar: "شاعر وكاتب ومقدّم تلفزيوني تركي، وُلد في 16 أغسطس 1978 في ألتينداغ بأنقرة، بدأ مسيرته الإعلامية سنة 1996 في إذاعة بيرق بأنقرة، وقدّم برامج ثقافية ورمضانية على قنوات تركية عدة، وألّف كتبًا شعرية وقصصية وأصدر ألبومات شعرية، وهو الوجه المعروف لقناة ماي مجرا على يوتيوب. بلغت قناته الخاصة على يوتيوب 249,000 مشترك كما في 13 نوفمبر 2026 بحسب vidIQ، وهو عدد منصّة مؤرخ لا حقيقة متحقق منها متحفيًا."
+  en: "Turkish poet, writer and television presenter, born on 16 August 1978 in Altındağ, Ankara. He began his broadcasting career in 1996 at Ankara Bayrak Radio, presented cultural and Ramadan programmes on several Turkish channels, wrote poetry and story books and released poetry albums, and is the best-known face of the MyMecra YouTube channel. His own YouTube channel counted 249,000 subscribers as of 13 November 2026 per vidIQ — a dated platform count, not a museum-verified fact."
+  ur: "ترک شاعر، مصنف اور ٹیلی ویژن میزبان، جو 16 اگست 1978ء کو انقرہ کے علاقے التینداغ میں پیدا ہوئے، 1996ء میں انقرہ بیرق ریڈیو سے نشریاتی زندگی شروع کی، کئی ترک چینلوں پر ثقافتی اور رمضان پروگرام پیش کیے، شاعری اور کہانیوں کی کتابیں لکھیں اور شعری البم جاری کیے، اور مائی میجرا یوٹیوب چینل کا معروف چہرہ ہیں۔ vidIQ کے مطابق 13 نومبر 2026ء کو ان کے اپنے یوٹیوب چینل کے سبسکرائبر 249,000 تھے — یہ ایک مؤرخہ منصّہ عدد ہے، عجائب گھر کی تصدیق شدہ حقیقت نہیں۔"
+roles: [poet, writer, television-presenter]
+wings: [people, living]
+regions: [anatolia-balkans]
+born:
+  edtf: "1978-08-16"
+  calendar: gregorian
+  precision: day
+  status: historical
+  note: "Born on 16 August 1978 in Altındağ, Ankara, per the Turkish Wikipedia article and the Yunus Emre Institute London biography; both sources give the full date and the Ankara birthplace."
+  sources: [source/wikipedia-serdar-tuncer-tr, source/yunus-emre-institute-serdar-tuncer]
+relations:
+  - { type: born_in, target: place/ankara, sources: [source/wikipedia-serdar-tuncer-tr, source/yunus-emre-institute-serdar-tuncer], note: "Born in Altındağ, a district of Ankara; the edge is written to the Ankara place record." }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No two prose texts attest a school for Serdar Tuncer himself. The prose texts read — the Turkish Wikipedia article's body and the Yunus Emre Institute London biography — name no school; his Sufi-poetry themes and his presentation of Yunus Emre programmes are literary and professional work, not a school attestation. Under the doubt rule the value stays unknown."
+    sources: [source/wikipedia-serdar-tuncer-tr, source/yunus-emre-institute-serdar-tuncer]
+reach:
+  - { platform: youtube, metric: subscribers, value: 249000, date: "2026-11-13", note: "@serdartuncertv: 249,000 subscribers, 16,631,395 views and 244 videos as of 13 November 2026 per vidIQ, recorded by the wave-203 harvest — a dated platform count, not a museum-verified fact. His association with the MyMecra channel is stated in this record's prose only: no relations edge to that group is written here, per the lane precedent for a founder or face whose group is catalogued separately; the MyMecra channel's own audience belongs to the group's record, not to him.", sources: [source/vidiq-serdar-tuncer, source/youtube-serdar-tuncer] }
+sources: [source/wikipedia-serdar-tuncer-tr, source/yunus-emre-institute-serdar-tuncer, source/vidiq-serdar-tuncer, source/youtube-serdar-tuncer]
+provenance:
+  layer: own-research
+  source: "Built from the wave-203 slice-A harvest (Serdar Tuncer entry) and build-time checks of 16 November 2026: the Turkish Wikipedia article 'Serdar Tuncer' read in full, the Yunus Emre Institute London event biography read in full, and the harvest's vidIQ read of his YouTube channel @serdartuncertv (249,000 subscribers as of 13 November 2026). Qualification rests on that dated count, above the men's bar. The designation re-screen at build found no verified link, endorsement or financial tie to any designated organisation, and no blocked organisation is named anywhere in this record. His MyMecra association is carried in prose only, with no relations edge, per the lane precedent. No Wikidata item was verified in this build — searches of Wikidata returned no item for him — so no external identifier is recorded. No source read names a school for him in prose, so his faith stays unknown."
+  generated_by: "Muse (Muse Wonder)"
+  run: modern-figures-wave-203-b
+status: { review: published, completeness: 3 }

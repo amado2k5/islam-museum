@@ -4,11 +4,11 @@
 import { ui, fmt, type Lang } from "../lib/i18n";
 import { num } from "../lib/nav";
 import { pageWindow, type Paged, type PagedSection } from "../lib/paged";
-interface Props { lang: Lang; paged: Paged<unknown>; section: PagedSection<unknown>; label: string }
-const { lang, paged, section, label } = Astro.props;
+interface Props { lang: Lang; paged: Paged<unknown>; section: PagedSection<unknown>; label: string; sub?: string }
+const { lang, paged, section, label, sub = "all" } = Astro.props;
 const P = (ui(lang) as any).paged;
 const pg = paged.pager;
-const pageUrl = (n: number) => (n <= 1 ? `${paged.home}all/${section.id}/` : `${paged.home}all/${section.id}/${n}/`);
+const pageUrl = (n: number) => (n <= 1 ? `${paged.home}${sub}/${section.id}/` : `${paged.home}${sub}/${section.id}/${n}/`);
 ---
 {paged.landing && section.all && (
   <p class="ui paged-more" style="margin:.8rem 0 0"><a class="chip" style="border:1px solid var(--gold)" href={section.all}>{fmt(P.all, { n: num(section.total, lang), section: label })} <span class="flip" aria-hidden="true">→</span></a></p>

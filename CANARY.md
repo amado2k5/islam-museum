@@ -20,6 +20,9 @@ open a new block on top with the new version and today's date.
 - Wa Nalqa al-Ahibba, Amr Khaled (lecture series, Assabile archive): episode 23 added, the sixth and last on the fourth caliph, Ali ibn Abi Talib, on his caliphate and martyrdom as the speaker tells them: the speaker's declared choice not to narrate the fitna in detail and his reasons; the pledge to Ali in the Prophet's mosque on 24 Dhu al-Hijja 35 AH after a week of weeping for Uthman, the condition of shura and the gathering of the people of Badr, al-Zubayr and Talha's pledge and Talha's paralysed hand first; the fitna compressed to a dispute over the timing of vengeance for Uthman's blood among Muawiya, Ali, al-Zubayr and Talha, and Aisha; Abdullah ibn Saba's group rekindling the fitna (flagged); 'our brothers who transgressed against us', the funeral prayer over both armies' dead after the Camel, Ammar ibn Yasir's killing and the 'transgressing party' saying, the night attacks attributed to Ibn Saba's band, al-Zubayr reminded of the Prophet's word at Uhud and withdrawing, his killing under a tree by 'Amr ibn Qurmuz' (read Amr ibn Jurmuz) and the sword brought to a weeping Ali, 'tidings of the Fire to the killer of Ibn Safiyya'; Talha's death-bed pledge and Ali over his body 'twenty years earlier'; Aisha, the camel hamstrung, the honourable return and 'my mother before she is yours'; Shurayh and the armour, the sword sold in the market, the founding of nahw through Abu al-Aswad al-Du'ali; the Prophet's foretelling sayings (the dyed beard, 'in safety of your religion', the most wretched); the Kharijite pact on 17 Ramadan, Ibn Muljam's forty nights and the mahr of killing; the three-morsel iftars, the mourning poultry, the strike, 'the Messenger of God spoke true', the testament on the killer, two days of la ilaha illa Allah, the hidden grave in Kufa, al-Hasan's six months and cession and the thirty-year caliphate; in Arabic, English and Urdu drafts, each statement cited to the recording by timestamp, with the speaker's accounts, the museum's readings of garbled names and the unclear lines labelled as such.
 - Job Browser linking wave 39: 42 `occupations:` edges on 25 person records — the first dedicated faqih/mutakallim wave (thirteen jurists, twelve theologians) plus sixteen ulema and a poet.
 
+### Fixed
+- Signs-of-the-Hour home was over the audit S18 page budget (1,087 KB of one landing): it now paginates like the other browsers — the landing shows the first rows of every step, each step's full list lives at `/<lang>/signs/step/<id>/<n>/`, and the filter box searches the whole signs set through the new `signs` filter index. Every record stays reachable without JavaScript.
+
 ## v2.12.0 — 2026-11-17
 ### Added
 - Job Browser linking wave 38: 37 `occupations:` edges on 25 person records — finishes the emir and muhaddith pools; eight faqih, eight ulema, plus mutakallim, philosopher, mufti, qadi and poet multi-links (Fatima al-Samarqandi, al-Khunaji).
@@ -33,10 +36,12 @@ open a new block on top with the new version and today's date.
 
 ## v2.10.0 — 2026-11-17
 ### Added
+- Modern-figures wave 203, section C: two Turkish-scene group records from the wave-202 Tier 2 re-check — MyMecra (1.27M subscribers) and Semerkand TV (421K on its former-handle channel, now presented as KEFTV) — each with Arabic, English and Urdu pages and dated channel counts.
 - Job Browser linking wave 36: 29 `occupations:` edges on 25 person records — twelve emirs, eight muhaddiths, plus alim, faqih, mutakallim, mufti and qadi links.
 
 ## v2.09.0 — 2026-11-17
 ### Added
+- Modern-figures wave 203, section B: five Turkish-scene person records from the wave-202 Tier 2 re-check — Serdar Tuncer (249K subscribers), Caner Taslaman (244K), İsmail Hünerlice (191K), M. Fatih Çıtlak (141K) and Ebubekir Sifil (112K) — each with Arabic, English and Urdu pages and dated channel counts.
 - Job Browser linking wave 35: 30 `occupations:` edges on 25 person records — twelve emirs, eight muhaddiths, plus mutakallim (al-Murtada, al-Shahrastani, al-Jubba'i), philosopher, historian and mathematician links.
 
 ## v2.08.0 — 2026-11-17
@@ -74,6 +79,7 @@ open a new block on top with the new version and today's date.
 
 ## v2.02.0 — 2026-11-17
 ### Added
+- Modern-figures wave 203, section A: four Turkish-scene person records from the wave-202 Tier 2 re-check — İhsan Şenocak (668K subscribers), Mehmet Okuyan (485K), Ömer Döngeloğlu (339K on his posthumous legacy channel) and Adem Güneş (317K) — each with Arabic, English and Urdu pages and dated channel counts.
 - Job Browser linking wave 28: 35 `occupations:` edges on 25 person records — finishes the teacher and qari pools; ten emirs, six ulema, four muhaddiths, plus mathematician, grammarian and poet links.
 
 ## v2.01.0 — 2026-11-17
