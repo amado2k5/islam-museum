@@ -1,0 +1,20 @@
+id: passage/bukhari-api-1418
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "1418"
+label: { ar: "صحيح البخاري 1418 — البنات ستر من النار", en: "Sahih al-Bukhari 1418 — Daughters a screen from the Fire", ur: "صحیح بخاری 1418 — بیٹیاں جہنم سے حجاب" }
+text: "حَدَّثَنَا بِشْرُ بْنُ مُحَمَّدٍ، قَالَ أَخْبَرَنَا عَبْدُ اللَّهِ، أَخْبَرَنَا مَعْمَرٌ، عَنِ الزُّهْرِيِّ، قَالَ حَدَّثَنِي عَبْدُ اللَّهِ بْنُ أَبِي بَكْرِ بْنِ حَزْمٍ، عَنْ عُرْوَةَ، عَنْ عَائِشَةَ ـ رضى الله عنها ـ قَالَتْ دَخَلَتِ امْرَأَةٌ مَعَهَا ابْنَتَانِ لَهَا تَسْأَلُ، فَلَمْ تَجِدْ عِنْدِي شَيْئًا غَيْرَ تَمْرَةٍ فَأَعْطَيْتُهَا إِيَّاهَا، فَقَسَمَتْهَا بَيْنَ ابْنَتَيْهَا وَلَمْ تَأْكُلْ مِنْهَا، ثُمَّ قَامَتْ فَخَرَجَتْ، فَدَخَلَ النَّبِيُّ صلى الله عليه وسلم عَلَيْنَا، فَأَخْبَرْتُهُ فَقَالَ ‏ \"‏ مَنِ ابْتُلِيَ مِنْ هَذِهِ الْبَنَاتِ بِشَىْءٍ كُنَّ لَهُ سِتْرًا مِنَ النَّارِ ‏\"‏‏.‏"
+summary:
+  ar: "عن عائشة: من ابتلي من هذه البنات بشيء كن له سترا من النار."
+  en: "From Aisha: whoever is tried through these daughters and treats them well — they will be a screen for him from the Fire."
+  ur: "عائشہ سے: جو شخص ان بیٹیوں کے ذریعے آزمایا جائے اور ان سے اچھا سلوک کرے وہ اس کے لیے جہنم سے حجاب ہوں گی۔"
+relations:
+  - { type: part_of, target: passage/bukhari-kitab-24 }
+  - { type: mentions, target: concept/bunuwwa, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/huquq-al-abna, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+tags: [bunuwwa-browser]
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 1418 (book-section 24); full text as published", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "bunuwwa-enrich-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the hadith-api Arabic edition; label and summary are the museum's own words" }

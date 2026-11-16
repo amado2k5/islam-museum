@@ -1,0 +1,20 @@
+id: passage/bukhari-api-5993
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "5993"
+label: { ar: "صحيح البخاري 5993 — أبلي وأخلقي خدمة للأم", en: "Sahih al-Bukhari 5993 — Wear out and wear thin, in a mother's service", ur: "صحیح بخاری 5993 — ماں کی خدمت میں کھپ جاؤ" }
+text: "حَدَّثَنَا حِبَّانُ، أَخْبَرَنَا عَبْدُ اللَّهِ، عَنْ خَالِدِ بْنِ سَعِيدٍ، عَنْ أَبِيهِ، عَنْ أُمِّ خَالِدٍ بِنْتِ خَالِدِ بْنِ سَعِيدٍ، قَالَتْ أَتَيْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم مَعَ أَبِي وَعَلَىَّ قَمِيصٌ أَصْفَرُ، قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ سَنَهْ سَنَهْ ‏\"‏‏.‏ قَالَ عَبْدُ اللَّهِ وَهْىَ بِالْحَبَشِيَّةِ حَسَنَةٌ‏.‏ قَالَتْ فَذَهَبْتُ أَلْعَبُ بِخَاتَمِ النُّبُوَّةِ، فَزَجَرَنِي أَبِي‏.‏ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ دَعْهَا ‏\"‏‏.‏ ثُمَّ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ أَبْلِي وَأَخْلِقِي، ثُمَّ أَبْلِي وَأَخْلِقِي، ثُمَّ أَبْلِي وَأَخْلِقِي ‏\"‏‏.‏ قَالَ عَبْدُ اللَّهِ فَبَقِيَتْ حَتَّى ذَكَرَ‏.‏ يَعْنِي مِنْ بَقَائِهَا‏.‏"
+summary:
+  ar: "عن عبد الله بن عمرو في ذمة الأم: أبلي وأخلقي ثلاثا، قيل معناه في خدمة الوالدة حتى يبلي الثوب."
+  en: "From Abdullah ibn Amr on the mother's due — «wear out and wear thin« three times over, understood as serving the mother until the garment wears through."
+  ur: "عبداللہ بن عمرو سے ماں کے حق میں — «کھپ جاؤ اور گھس جاؤ» تین بار، یعنی ماں کی خدمت میں کپڑے تک گھس جائیں۔"
+relations:
+  - { type: part_of, target: passage/bukhari-kitab-78 }
+  - { type: mentions, target: concept/birr, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/huquq-al-walidayn, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+tags: [bunuwwa-browser]
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 5993 (book-section 78); full text as published", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "bunuwwa-enrich-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the hadith-api Arabic edition; label and summary are the museum's own words" }

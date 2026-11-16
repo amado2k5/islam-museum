@@ -1,0 +1,19 @@
+id: passage/muslim-api-6519
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "6519"
+label: { ar: "صحيح مسلم — الرحم معلقة بالعرش", en: "Sahih Muslim — Kinship suspended from the Throne", ur: "صحیح مسلم — رشتہ عرش سے لٹکا ہوا" }
+text: "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَزُهَيْرُ بْنُ حَرْبٍ، - وَاللَّفْظُ لأَبِي بَكْرٍ - قَالاَ حَدَّثَنَا وَكِيعٌ، عَنْ مُعَاوِيَةَ بْنِ أَبِي مُزَرِّدٍ، عَنْ يَزِيدَ بْنِ رُومَانَ، عَنْ عُرْوَةَ، عَنْ عَائِشَةَ، قَالَتْ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏ \"‏ الرَّحِمُ مُعَلَّقَةٌ بِالْعَرْشِ تَقُولُ مَنْ وَصَلَنِي وَصَلَهُ اللَّهُ وَمَنْ قَطَعَنِي قَطَعَهُ اللَّهُ ‏\"‏ ‏.‏"
+summary:
+  ar: "قال: الرحم معلقة بالعرش تقول من وصلني وصله الله ومن قطعني قطعه الله."
+  en: "«Kinship is suspended from the Throne, saying: whoever joins me, God joins him; whoever severs me, God severs him.»"
+  ur: "«رشتہ عرش سے لٹکا ہوا کہتا ہے: جو مجھے جوڑے اللہ اسے جوڑے، جو مجھے کاٹے اللہ اسے کاٹے۔»"
+relations:
+  - { type: part_of, target: passage/muslim-kitab-45 }
+  - { type: mentions, target: concept/birr, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+tags: [bunuwwa-browser]
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 6519 (book-section 45); full text as published", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "bunuwwa-enrich-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the hadith-api Arabic edition; label and summary are the museum's own words" }
