@@ -27,6 +27,17 @@ born:
   status: historical
   note: "Date from the Malay Wikipedia article; the article as read gives no birthplace, and none is recorded here."
   sources: [source/wikipedia-don-daniyal-ms]
+occupations:
+  - job: job/preacher
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'preacher', Job Browser linking wave 21"
+    sources: [source/wikipedia-don-daniyal-ms, source/facebook-don-daniyal, source/instagram-don-daniyal]
+  - job: job/teacher
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'teacher', Job Browser linking wave 21"
+    sources: [source/wikipedia-don-daniyal-ms, source/facebook-don-daniyal, source/instagram-don-daniyal]
 relations:
   - { type: lived_in, target: place/malaysia, sources: [source/wikipedia-don-daniyal-ms] }
 faith:

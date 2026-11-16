@@ -20,6 +20,17 @@ born:
   precision: year
 external_ids:
   wikidata: Q59725820
+occupations:
+  - job: job/musician
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'musician', Job Browser linking wave 21"
+    sources: [source/wikidata]
+  - job: job/poet
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'poet', Job Browser linking wave 21"
+    sources: [source/wikidata]
 relations:
   - { type: born_in, target: place/saudi-arabia, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q851)" }
 sources:

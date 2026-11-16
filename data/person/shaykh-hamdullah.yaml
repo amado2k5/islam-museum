@@ -33,6 +33,17 @@ died:
   derived: true
   note: "Died at Istanbul a few months after Süleyman's accession in 1520; Müstakimzade's chronogram, quoted by the Sakıp Sabancı Museum, dates the death to 926 AH/1520 CE. He was buried in Karacaahmet Cemetery at Üsküdar; the Arabic article's text names the Abu Ayyub al-Ansari cemetery against its own infobox (Karacaahmet) and against the Museum, Azerbaijani and French texts, and is not followed. The Azerbaijani article's stray 1526 death year and the 927 AH on his later-cut tombstone inscription are scribal readings, preserved here and not followed."
   sources: [source/sakip-sabanci-shaykh-hamdullah, source/wikipedia-shaykh-hamdullah-ar]
+occupations:
+  - job: job/calligrapher
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'calligrapher', Job Browser linking wave 21"
+    sources: [source/wikipedia-shaykh-hamdullah-ar, source/sakip-sabanci-shaykh-hamdullah, source/dergipark-shaikh-hamdullah-school, source/wikidata-shaykh-hamdullah, source/wikidata]
+  - job: job/teacher
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'teacher', Job Browser linking wave 21"
+    sources: [source/wikipedia-shaykh-hamdullah-ar, source/sakip-sabanci-shaykh-hamdullah, source/dergipark-shaikh-hamdullah-school, source/wikidata-shaykh-hamdullah, source/wikidata]
 relations:
   - { type: died_in, target: place/istanbul, sources: [source/sakip-sabanci-shaykh-hamdullah, source/wikipedia-shaykh-hamdullah-ar] }
   - { type: born_in, target: place/amasya, sources: [source/sakip-sabanci-shaykh-hamdullah, source/wikipedia-shaykh-hamdullah-ar, source/dergipark-shaikh-hamdullah-school] }

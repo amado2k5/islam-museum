@@ -19,6 +19,17 @@ summary:
 roles: [preacher, teacher]
 wings: [people, living]
 regions: [southeast-asia]
+occupations:
+  - job: job/preacher
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'preacher', Job Browser linking wave 21"
+    sources: [source/anida-habib-ali-2021, source/instagram-habib-ali-zaenal-abidin, source/facebook-habib-ali-zaenal-abidin]
+  - job: job/teacher
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'teacher', Job Browser linking wave 21"
+    sources: [source/anida-habib-ali-2021, source/instagram-habib-ali-zaenal-abidin, source/facebook-habib-ali-zaenal-abidin]
 relations:
   - { type: lived_in, target: place/kuala-lumpur, sources: [source/instagram-habib-ali-zaenal-abidin] }
   - { type: lived_in, target: place/malaysia, sources: [source/anida-habib-ali-2021] }

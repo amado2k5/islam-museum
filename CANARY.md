@@ -13,6 +13,10 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v1.95.0 — 2026-11-17
+### Added
+- Job Browser linking wave 21: 38 `occupations:` edges on 25 person records — the last eleven musicians (Yusuf Islam, Sami Yusuf, Maher-adjacent nasheed artists) and two singers finish both pools; plus nine teacher, six preacher, four alim, three qari and two poet links.
+
 ## v1.94.0 — 2026-11-17
 ### Added
 - Job Browser linking wave 20: 31 `occupations:` edges on 25 person records — fifteen singers and ten musicians plus poet, alim, teacher, calligrapher and qadi links (kazasker Mustafa İzzet gained three).

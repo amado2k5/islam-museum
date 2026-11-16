@@ -10,6 +10,17 @@ summary:
   ur: "پاکستانی نوجوانوں اور دینی امور کے مبصر اور رویّاتی نفسیات کے مقرر۔ وہ خود کو ٹورنٹو کی رائرسن یونیورسٹی سے فارغ التحصیل ماہرِ نفسیات کے طور پر پیش کرتے ہیں اور Source Code اور اس کی اکیڈمی چلاتے ہیں جو نوجوان مسلمانوں کو تنقیدی سوچ اور جذباتی ذہانت کی تربیت دیتی ہے۔ نومبر 2026 میں ان کے یوٹیوب چینل کے تقریباً 164 ہزار سبسکرائبر تھے، تاہم اس کی مقبول ترین ویڈیوز 2021–2022 کی ہیں اور حالیہ اپلوڈز کم ہیں۔ 2024 میں ان کے ٹیلی ویژن بیان کہ 100 میں سے 95 خواتین جاہل ہیں، نے وسیع تنازع کھڑا کیا۔"
 gender: male
 born: { edtf: "1984", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Modern Biography" }
+occupations:
+  - job: job/teacher
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'teacher', Job Browser linking wave 21"
+    sources: [source/wikitia-sahil-adeem, source/northern-post-sahil-adeem, source/happeningnext-sahil-awakening, source/sourcecode-academy-sahil-workshop, source/vidiq-sahil-adeem]
+  - job: job/preacher
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'preacher', Job Browser linking wave 21"
+    sources: [source/wikitia-sahil-adeem, source/northern-post-sahil-adeem, source/happeningnext-sahil-awakening, source/sourcecode-academy-sahil-workshop, source/vidiq-sahil-adeem]
 relations:
   - { type: lived_in, target: place/pakistan, sources: [source/wikitia-sahil-adeem, source/northern-post-sahil-adeem, source/happeningnext-sahil-awakening, source/sourcecode-academy-sahil-workshop, source/vidiq-sahil-adeem] }
   - { type: traveled_to, target: place/toronto, sources: [source/wikitia-sahil-adeem, source/northern-post-sahil-adeem, source/happeningnext-sahil-awakening, source/sourcecode-academy-sahil-workshop, source/vidiq-sahil-adeem] }

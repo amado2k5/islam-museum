@@ -27,6 +27,17 @@ born:
   status: historical
   note: "Date and place (Sidam Kanan, Kedah) from the iLabur biodata and the PTS author biography, which agree; no Kedah place record exists in the tree, so no birthplace edge is written."
   sources: [source/ilabur-abdullah-khairi, source/google-books-abdullah-khairi]
+occupations:
+  - job: job/preacher
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'preacher', Job Browser linking wave 21"
+    sources: [source/ilabur-abdullah-khairi, source/google-books-abdullah-khairi, source/instagram-abdullah-khairi, source/tiktok-abdullah-khairi, source/vidiq-abdullah-khairi]
+  - job: job/teacher
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'teacher', Job Browser linking wave 21"
+    sources: [source/ilabur-abdullah-khairi, source/google-books-abdullah-khairi, source/instagram-abdullah-khairi, source/tiktok-abdullah-khairi, source/vidiq-abdullah-khairi]
 relations:
   - { type: lived_in, target: place/selangor, sources: [source/ilabur-abdullah-khairi] }
 faith:
