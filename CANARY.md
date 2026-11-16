@@ -13,6 +13,10 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v1.60.0 — 2026-11-16
+### Added
+- Job Browser: five professions of the word and the image — the poet (sha'ir) and his calling, the rawi who carried a master's verse by heart, the adib man of letters, the visual artist (nakkash) of the picture arts, and the hakawati storyteller of the kissahan and meddah — in Arabic, English and Urdu draft cited to the TDV entries ŞAİR, ŞİİR, RÂVİ, EDEBİYAT, ÂDÂB, NAKKAŞ, RESİM, KISSAHAN, MEDDAH and KUSSÂS.
+
 ## v1.59.0 — 2026-11-16
 ### Added
 - Job Browser: six trading and travel professions — the sarraf money-changer and banker, the dallal broker-crier and his simsar, the mutawwif who guided the pilgrim through Mecca, the caravan-leader (kervancıbaşı) of the hajj road, the slave dealer (esirci/nakhkhas) recorded as a documented, now-extinct historical trade, and the sailor (levent) of the Ottoman sea — in Arabic, English and Urdu draft cited to the TDV entries SARRAFLIK, SİMSAR, DELLÂL, MUTAVVİF, KERVAN, ESİR and LEVENT.

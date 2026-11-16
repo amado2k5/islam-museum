@@ -1,0 +1,39 @@
+id: job/adib
+class: job
+label: { ar: "الأديب", en: "Man of letters (adib)", ur: "ادیب" }
+names:
+  - { value: "أدباء", kind: alternate }
+  - { value: "edebiyatçı", kind: latinized, lang: tr }
+  - { value: "edîb", kind: latinized, lang: tr }
+summary:
+  ar: "الأديب من جذر الأدب الذي يجمع معنيين: صاحب الخُلق الحسن وصاحب الأدبيات، فالأديب هو المؤدّب والكاتب الأدبي معاً. وكانت كلمة «أدب» قبل التنظيمات تدل على ما صار يُسمّى بعدها «أدبيات»، غير أن أدب الديوان كان نظماً في جملته ففضّلت عليه كلمة شعر. وصنعت الأديبَ صناعةُ الكلام: فنّ لا يحتاج مادة ولا آلة ولا مكاناً، مادته اللغة التي أصبحت من أرقى أدوات البشر، ويدخل في دائرة الأدب اليوم الشفهي والمكتوب، ومن علومه تاريخ الأدب وتراجم الأدباء ونقد النصوص وفلسفته ونفسه واجتماعه."
+  en: "The adib takes his name from adab, a root that carries two senses at once: the person of fine conduct and the person of literature — the edîb is both the well-mannered and the literary man. Before the Tanzimat the word edeb covered what is now called edebiyat; yet because the divan literature was almost wholly verse, the word şiir was preferred for it. The literary man's craft is the art of the word: an art needing no material, tool or place, whose substance is language itself, the most developed instrument humanity has. The literary field today includes the oral and the written, and around it stand the literary sciences: literary history, biographies of the men of letters, textual criticism, and the philosophy, psychology and sociology of literature."
+  ur: "ادیب کا نام ادب کی جڑ سے ہے جس میں دو معنی جمع ہیں: خوش اخلاق شخص اور ادب کا حامل — ادیب باؤدب بھی ہے اور صاحب قلم بھی۔ تنظیمات سے پہلے لفظ ادب اسی معنی میں آتا تھا جو اب ادبیات کہلائی؛ مگر دیوانی ادب تقریباً تمام نظم تھا اس لیے شعر کا لفظ ترجیح پایا۔ ادیب کی صنعت کلام کا فن ہے: ایسا فن جسے نہ مادہ چاہیے نہ آلہ نہ مکان، جس کا مادہ خود زبان ہے جو انسان کے سب سے مہذب اوزاروں میں ہے۔ ادبی دائرہ آج شفاہی اور تحریری دونوں کو شامل ہے اور اس کے گرد علوم ادب ہیں: تاریخ ادب، تراجم ادباء، تنقید متون اور ادب کی فلسفہ، نفسیات و سماجیات۔"
+domain: arts-letters
+kind: artistic
+hirfa: false
+era:
+  origins: early-caliphate
+  status_today: living
+places:
+  - { place: place/istanbul, note: "The entry dates the rise of the word edebiyat to the Tanzimat period, shaped like the other French-derived science names of the time (lisaniyat, arziyat, ruhiyat); before it the word edeb had served the same field, and in the divan tradition şiir stood for most of it.", sources: [source/tdv-edebiyat] }
+regions: [arabia, levant-iraq, egypt-nile, maghreb, andalus-europe, persia-central-asia, anatolia-balkans, south-asia, global]
+organization:
+  organized: informal
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people]
+periods: [period/umayyad, period/abbasid-early, period/abbasid-fragmentation, period/buyid-seljuk-fatimid-era, period/crusades-ayyubid-mamluk, period/mongol-post-mongol, period/gunpowder-empires, period/modern-era, period/contemporary-era]
+sources: [source/tdv-edebiyat, source/tdv-adab]
+training:
+  mode: mixed
+  certification: "No formal warrant. The entry describes the adib's formation as the mastery of literary language, which develops differently from everyday speech toward the metaphorical and symbolic; around the literary work stand the literary sciences — history, biography, criticism, editions, philosophy, psychology and sociology — in which the edebiyatçı both creates and researches."
+  duration: "Open-ended; the craft is formed by reading, writing and the life of letters rather than a fixed course."
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2), jobs-p2-arts-1" }
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi, 'EDEBİYAT' (Okay, 1994) and 'ÂDÂB' (Bayındır, 1988), web editions read on 16 Nov 2026"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-arts-1-drafting"
