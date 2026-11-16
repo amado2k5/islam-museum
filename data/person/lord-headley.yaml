@@ -35,6 +35,12 @@ faith:
     basis: unknown
     note: "FLAGGED for a founder ruling. He announced his conversion at the hand of Khwaja Kamal-ud-Din in November 1913, co-founded and chaired the Woking Muslim Mission and its British Muslim Society, and wrote for its journal The Islamic Review; the mission's own archive presents him as, next to Kamal-ud-Din, the mission's founder, and the English article files him under 'British Ahmadis'. But the Woking mission was the Lahore Ahmadiyya's mission, and affiliation with it — presidency, chairmanship, a teacher — is adjacency, never a personal attestation: no source records him professing Ahmadi doctrine or naming any school, and his own books present a deliberately non-sectarian Islam. The Ahmadiyya reading is preserved here unclassified, pending a ruling."
     sources: [source/wikipedia-lord-headley-en, source/wokingmuslim-lord-headley, source/wikidata-lord-headley]
+occupations:
+  - job: job/engineer
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'engineer', Job Browser linking wave"
+    sources: [source/wikipedia-lord-headley-en, source/wikipedia-lord-headley-ar, source/wikipedia-lord-headley-ur, source/wikidata-lord-headley, source/wokingmuslim-lord-headley, source/wikidata]
 relations:
   - { type: born_in, target: place/london, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-lord-headley] }
   - { type: died_in, target: place/wiltshire, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-lord-headley] }

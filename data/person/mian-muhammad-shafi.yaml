@@ -31,6 +31,12 @@ died:
   derived: true
   note: "Died at Lahore on 7 January 1932 and was buried in his ancestral graveyard at Baghbanpura, Lahore, per the English, Arabic and Urdu articles; Wikidata Q6932710 gives the year 1932 only. The Hijri year is derived by tabular conversion."
   sources: [source/wikipedia-mian-muhammad-shafi-en, source/wikipedia-mian-muhammad-shafi-ar, source/wikipedia-mian-muhammad-shafi-ur, source/wikidata-mian-muhammad-shafi]
+occupations:
+  - job: job/lawyer
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'lawyer', Job Browser linking wave"
+    sources: [source/wikipedia-mian-muhammad-shafi-en, source/wikipedia-mian-muhammad-shafi-ar, source/wikipedia-mian-muhammad-shafi-ur, source/wikidata-mian-muhammad-shafi, source/wikidata]
 relations:
   - { type: born_in, target: place/lahore, sources: [source/wikipedia-mian-muhammad-shafi-en, source/wikipedia-mian-muhammad-shafi-ur] }
   - { type: died_in, target: place/lahore, sources: [source/wikipedia-mian-muhammad-shafi-en, source/wikipedia-mian-muhammad-shafi-ur] }

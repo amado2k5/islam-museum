@@ -34,6 +34,12 @@ faith:
     basis: unknown
     note: "No source read names a religious school for Jamal al-Husayni himself, and Wikidata carries no religion value for him at all. His secretaryship of the Supreme Muslim Council — an office created by the Mandate administration — and his leadership of the Palestine Arab Party and the Arab Higher Committee are offices and affiliations, and never count."
     sources: [source/wikipedia-jamal-al-husayni-en, source/wikipedia-jamal-al-husayni-ar, source/wikidata-jamal-al-husayni]
+occupations:
+  - job: job/lawyer
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'lawyer', Job Browser linking wave"
+    sources: [source/wikipedia-jamal-al-husayni-en, source/wikipedia-jamal-al-husayni-ar, source/wikidata-jamal-al-husayni, source/wikidata]
 relations:
   - { type: died_in, target: place/saudi-arabia, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-jamal-al-husayni] }
   - { type: buried_in, target: place/al-oud-cemetery, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-jamal-al-husayni] }
