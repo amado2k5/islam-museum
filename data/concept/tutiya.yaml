@@ -1,0 +1,23 @@
+id: concept/tutiya
+class: concept
+kind: natural
+label:
+  ar: "توتيا"
+  en: "Tutiya"
+  ur: "توتیا"
+summary:
+  ar: "توتيا في الكتاب أصله دخان يرتفع حيث يخلص الأسرب والنحاس من الحجارة التي يخالطانها، منه أبيض وأصفر وأخضر ورقيق وغليظ، وأجوده الأبيض الطيار ثم الأصفر ثم الفستقي الكرماني، بارد في الأولى يابس في الثانية، يجفف بلا لذع ومغسوله أفضل المجففات، نافع من الصنان ومن القروح حتى السرطانية ومن وجع العين ومن قروح المعدة والمذاكير وأورامها {cite:canon-ibn-sina-print-v1 p.688}"
+  en: "Tutiya is in the book at its origin a smoke that rises where lead and copper are freed from the stones they are mixed with, in white, yellow, green, thin and thick kinds, the best being the white volatile, then the yellow, then the pistachio-coloured Kirmani; cold in the first degree and dry in the second, it dries without stinging and its washed form is the best of the dryers; it benefits body odour, ulcers even cancerous ones, eye pain, and ulcers and swellings of the stomach and of the male organs {cite:canon-ibn-sina-print-v1 p.688}"
+  ur: "توتیا کتاب میں اپنی اصل میں ایک دھواں ہے جو وہاں اٹھتا ہے جہاں سیسہ اور تانبا ان پتھروں سے الگ کیے جاتے ہیں جن کے ساتھ ملے ہوتے ہیں، اس کی سفید، زرد، سبز، باریک اور موٹی قسمیں ہیں، سب سے اچھا سفید اڑنے والا ہے، پھر زرد، پھر کرمان کا پستے کے رنگ کا؛ پہلے درجے میں سرد اور دوسرے میں خشک ہے، بغیر چبھن کے خشک کرتا ہے اور اس کا دھلا ہوا خشک کرنے والی دواؤں میں سب سے بہتر ہے؛ بدبو، قرحوں حتیٰ کہ سرطانی قرحوں، آنکھ کے درد، اور معدے اور شرم گاہوں کے قرحوں اور ورموں میں نافع ہے {cite:canon-ibn-sina-print-v1 p.688}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, scan pages 688, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for doubtful headings; editor footnotes used only for identity; measured doses, weights, counts, times and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-29
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }
