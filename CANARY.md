@@ -13,6 +13,10 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v1.68.0 — 2026-11-16
+### Added
+- Job Browser: six new trades beyond the original hirfa list — the furrier (farrāʾ), the locksmith (qaffāl/çilingir), the needle-maker (ibrajī/iğneci), the sieve-maker (ghirbālī/elekçi), the fishmonger (sammāk) and the fruit-seller (fākihjī/yemişçi) — in Arabic, English and Urdu draft cited to Evliya Çelebi's guild procession, Ibn al-Ukhuwwa's and al-Shayzari's hisba chapters, and Lane.
+
 ## v1.67.0 — 2026-11-16
 ### Added
 - Job Browser: six travel and sanctuary professions — the ship-captain (nakhoda/rubbân), the porter (hammâl), the monk-priest as encountered in the Islamic world (râhib/qissîs), the Kaʿba custodian (sadin of Banū Shayba), the Zemzem water-server (zemzemi), and the traveller (seyyah) — in Arabic, English and Urdu draft cited to the TDV entries GEMİ, RUHBAN, KEŞİŞ, HİCÂBE, KÂBE and ZEMZEM, plus Evliya, Chalcraft and Kunz's Book of the Pearl.
