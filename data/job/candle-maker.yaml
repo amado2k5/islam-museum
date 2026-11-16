@@ -1,0 +1,44 @@
+id: job/candle-maker
+class: job
+label: { ar: "الشمّاع", en: "Candle-maker (shamma')", ur: "موم بتی ساز ⁦(شماع)⁩" }
+names:
+  - { value: "mumji", kind: latinized, lang: tr }
+  - { value: "شمع فروش", kind: alternate }
+summary:
+  ar: "الشمّاع هو من يصنع الشموع من شمع العسل أو الشحم. يحذّر الشيزري في باب العطّارين من غشّ الشمع بشحم المعز والصمغ، وأن يرشّوا فيه وهو يُشكَّل دقيق الفول أو الرمل الرخو أو الكحل المسحوق ثم يُجعل داخل الشمعة ويُغلَّف بالشمع الخالص، وكشف ذلك أن تُوقد الشمعة فيُنظر داخلها. وفي إسطنبول إوليا جلبي لشمّاعي الشحم خمسة آلاف وخمسمئة رجل، ولشمّاعي الشمع معمل سلطاني واحد داخل باب أودون بأغا ومفتش ومئة رجل يصنعون كل شموع السلطان والوزراء، ولا تصحّ شمعة من معمل الدولة إلا بختم مفتش الشمعخانه."
+  en: "The shamma' made candles of beeswax or tallow. In his apothecaries' chapter al-Shayzari warns that wax is adulterated with goat's tallow and rosin, and that bean flour, soft sand or ground kohl is sprinkled into it as it is shaped and then hidden inside the candle under pure wax — discovered by lighting the candle and looking inside. In Evliya's Istanbul the tallow-chandlers numbered five thousand five hundred men, while the wax-chandlers kept a single imperial establishment inside the Odun gate under an agha and an inspector whose hundred men made all the candles for the Sultan and the vezirs, and no imperial-factory candle was valid without the wax-inspector's seal."
+  ur: "شماع موم یا چربی کی بتلیاں بناتا تھا۔ الشیزری عطاروں کے باب میں خبردار کرتا ہے کہ موم میں بکری کی چربی اور رال ملائی جاتی ہے اور ڈھالتے وقت اس میں لوبیا کا آٹا، نرم ریت یا پسا سرمہ بچھا کر اندر چھپا دیا جاتا ہے اور اوپر خالص موم چڑھا دیا جاتا ہے — اس کا پتہ بتی جلا کر اندر دیکھنے سے چلتا ہے۔ اولیاء چلبی کے استنبول میں چربی کے موم بتی ساز ساڑھے پانچ ہزار تھے، جبکہ موم کے شماعوں کا ایک شاہی ادارہ ادون دروازے کے اندر آغا اور ناظر کے ماتحت تھا جس کے سو آدمی سلطان اور وزیروں کی ساری بتلیاں بناتے تھے، اور شاہی کارخانے کی کوئی بتی موم کے ناظر کی مہر کے بغیر معتبر نہ تھی۔"
+domain: building-making
+kind: craft
+hirfa: true
+era:
+  origins: pre-islamic
+  status_today: transformed
+places:
+  - { place: place/cairo, note: "Lane notes that the Cairo druggist and perfumer (attar) also sells wax candles.", sources: [source/lane-modern-egyptians] }
+  - { place: place/istanbul, note: "Evliya counts the tallow-chandlers at five thousand five hundred and one men with fifty shops, the imperial wax-chandler establishment inside the Odun gate with a hundred men, a hundred wax-merchants in fifty-five shops, and seventy-five Janissary chandlers at the At-maidan.", sources: [source/evliya-seyahatname-hammer] }
+regions: [anatolia-balkans, egypt-nile, levant-iraq]
+organization:
+  organized: guild
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people, living]
+periods: [period/crusades-ayyubid-mamluk, period/gunpowder-empires, period/modern-era]
+sources: [source/shayzari-nihaya-buckley, source/lane-modern-egyptians, source/evliya-seyahatname-hammer]
+craft:
+  materials: []
+  techniques:
+    ar: "يذكر الشيزري طرق غشّ الشمع: خلطه بشحم المعز وبالصمغ، ورشّ دقيق الفول أو الرمل الرخو أو الكحل المسحوق فيه وهو يُشكَّل، ثم يُحشى به قلب الشمعة ويُغلَّف بشمع خالص؛ والكشف أن تُوقد الشمعة فيُرى داخلها. ويصف إوليا معمل الشمع السلطاني داخل باب أودون ومئة رجل يصنعون شموع السلطان والوزراء، وأن كل شمعة تُصنع في المعمل السلطاني يجب أن تُختم بختم مفتش الشمعخانه، وأن من غشّ بحشو الشمعة من داخل بالشحم أو القار عوقب عقاباً شديداً."
+    en: "Al-Shayzari lists the wax adulterations: mixing it with goat's tallow and with rosin, sprinkling bean flour, soft sand or ground kohl into it as it is shaped, then packing it inside the candle and covering it with pure wax; the test is to light the candle and see the inside. Evliya describes the imperial wax-factory inside the Odun gate whose hundred men make the Sultan's and vezirs' candles, the rule that every candle made at the imperial fabric must bear the wax-inspector's seal, and the severe punishment for cheating by filling the interior with tallow or tar."
+    ur: "الشیزری موم میں میلاوٹ کے طریقے گنواتا ہے: بکری کی چربی اور رال ملانا، ڈھالتے وقت لوبیا کا آٹا، نرم ریت یا پسا سرمہ بچھانا، پھر اسے بتی کے اندر بھر کر اوپر خالص موم چڑھانا؛ جانچ یہ ہے کہ بتی جلا کر اندر دیکھا جائے۔ اولیاء شاہی موم کارخانے کو بتاتا ہے جو ادون دروازے کے اندر تھا اور جس کے سو آدمی سلطان اور وزیروں کی بتلیاں بناتے تھے، یہ ضابطہ کہ شاہی کارخانے کی ہر بتی پر موم کے ناظر کی مہر ضروری ہے، اور بتی کے اندر چربی یا قطران بھرنے والے دھوکہ باز کو سخت سزا۔"
+  guild:
+    bodies: []
+    shaykh_title: { ar: "مومجي باشي وناظر الشمعخانه", en: "Mumji-bashi (head of the chandlers) and inspector of the wax-establishment", ur: "مومجی باشی ⁦(موم بتی سازوں کا سردار)⁩ اور موم خانے کا ناظر" }
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-harvest-2" }
+provenance:
+  layer: own-research
+  source: "al-Shayzari/Buckley ch. 17 p. 67 (wax adulteration among the apothecaries); Lane ch. XIV p. 318; Evliya (von Hammer) I,2 secs. 145-147 pp. 143-144 and sec. 154 p. 145 — all read on 15 Nov 2026 from the downloaded scans"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-harvest-2-drafting"

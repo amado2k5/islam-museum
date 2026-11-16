@@ -13,6 +13,10 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v1.44.0 — 2026-11-16
+### Added
+- Job Browser: six more trades join the professions — the cook (tabbakh) of the market cook-shops, the sweet-maker (halwani) and his sugar confections, the dyer (sabbagh) watched for false dyeing, the cobbler (iskafi) forbidden old-leather tricks, the coppersmith (nahhas), and the candle-maker (shamma') — in Arabic, English and Urdu draft cited to the hisba chapters of al-Shayzari's *Nihayat al-Rutba* (Buckley tr.), Lane's *Modern Egyptians*, and Evliya Çelebi's guild procession (von Hammer tr.).
+
 ## v1.43.0 — 2026-11-16
 ### Added
 - Job Browser: five more trades join the professions — the tailor (khayyat), the barber (hallaq/muzayyin) who also shaved, cupped and circumcised, the water-carrier (saqqa) of the kirbeh skins and public sebils, the baker (farran/khabbaz) under hisba's heaviest daily watch, and the blacksmith (haddad/qayn) — in Arabic, English and Urdu draft cited to al-Shayzari's *Nihayat al-Rutba* (Buckley tr.), Lane's *Manners and Customs of the Modern Egyptians*, and Evliya Çelebi's *Seyahatname* (von Hammer tr.), the first Job Browser packet harvested from books rather than the TDV.
