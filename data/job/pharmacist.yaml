@@ -1,0 +1,48 @@
+id: job/pharmacist
+class: job
+label: { ar: "الصيدلاني", en: "Pharmacist (saydanan)", ur: "صیدلانی" }
+names:
+  - { value: "صيدلي", kind: alternate }
+  - { value: "eczacı", kind: latinized, lang: tr }
+  - { value: "ispençiyar", kind: latinized, lang: tr }
+summary:
+  ar: "الصيدلاني هو من يركّب الأدوية المفردة في أدوية مركّبة ويبيعها. يقول طورهان بايتوب إن الصيدلة — وقد دخلت كلمتها العربية من السنسكريتية، وتسمّى أيضاً فنّ الإسبنجياري — كان يباشرها أولاً الأطباء أنفسهم يشترون جواهر الأدوية من الكُهّاش ⁦(العشّار)⁩ والعطّار، ثم انفصلت عن الطب في العصر العباسي من القرن الثالث الهجري، ويُروى أن أول صيدلية فتحت في بغداد سنة 148هـ ⁦(765م)⁩، وأن المأمون أخضع صنع الأدوية لرقابة الدولة. ومن القرن الثالث صارت الصيدليات تصنع نحو سبعين صنفاً من الأدوية: المساحيق والشرب والمعاجين والأقراص والحقن، تمزج بها المطيّبات. وتعدّ كتب الحسبة الصيدلاني أخطر الدكاكين: يعاين المحتسب أدويتهم كل أسبوع ويفصّل الشيزري غشّ الأفيون المصري والراوند الصيني والتباشير واللبان. وعند العثمانيين نشأت الصيدلية الحديثة ⁦(إجهانه)⁩ من منتصف القرن الثامن عشر، وأُخضع الصيادلة لامتحان هيئة من أساتذة مكتب الطبية وصار لهم تزكرة ورتبتان، ثم مدرسة."
+  en: "The saydanan compounded the simple drugs into compound medicines and sold them. Turhan Baytop relates that pharmacy — saydele, a word Arabic took from Sanskrit, also called fenn-i ispenciyari — was first practised by the physicians themselves, who bought drug raw materials from the root-diggers and attars; the craft separated from medicine under the Abbasids in the ninth century, the first pharmacy is said to have opened in Baghdad in 148/765, and al-Ma'mun brought the making of medicines under state control. From that century the pharmacies produced about seventy forms of medicine — powders, syrups, electuaries, pastilles and suppositories — blended with flavourings. The hisba books treat the druggist's shop as the most dangerous of all: the muhtasib inspects their drugs weekly, and al-Shayzari details the adulteration of Egyptian opium, Chinese rhubarb, bamboo concrete and frankincense. Under the Ottomans the modern pharmacy (eczahane) arose from the mid-eighteenth century; pharmacists were examined by a board of the Mekteb-i Tıbbiyye teachers, licensed with a tezkire in two classes, and finally schooled in the empire's own pharmacy classes."
+  ur: "صیدلانی سادہ ادویہ کی ترکیب بنا کر مرکب ادویہ بیچتا ہے۔ طورہان بایطوپ کے مطابق صیدلے — لفظ عربی میں سنسکرت سے آیا، فنِ اسپنچیاری بھی کہلایا — پہلے خود معالج کرتے تھے اور ادویہ کے خام مادے جڑ کاٹنے والوں اور عطاروں سے خریدتے؛ پھر عباسی عہد میں نویں صدی عیسوی میں یہ پیشہ طب سے الگ ہوا، پہلی فارمیسی 148ھ/765ء میں بغداد میں کھلی کہی جاتی ہے، اور مامون نے ادویہ سازی کو ریاستی نگرانی میں لایا۔ اسی صدی سے فارمیسیوں میں ستر قسم کی ادویہ — سفوف، شربت، معجون، قرص اور شیاف — خوشبو دار مادوں کے ساتھ بننے لگیں۔ حسبہ کی کتابیں دوا فروش کی دکان کو سب سے خطرناک مانتی ہیں: محتسب ہر ہفتے ان کی ادویہ جانچتا ہے اور الشیزری مصری افیون، چینی ریوند، تباشیر اور لوبان کی ملاوٹ تفصیل سے بتاتا ہے۔ عثمانیوں میں جدید فارمیسی ⁦(اجزاخانہ)⁩ اٹھارویں صدی کے وسط سے اٹھی؛ صیدلانیوں کا امتحان مکتبِ طبیہ کے اساتذہ کی مجلس کرتی، تذکرہ دو درجوں میں ملتا، اور پھر سلطنت کی اپنی صیدلانی درسگاہیں کھلیں۔"
+domain: medicine-care
+kind: medical
+hirfa: true
+era:
+  origins: early-caliphate
+  status_today: transformed
+places:
+  - { place: place/baghdad, note: "The first pharmacy is thought to have opened in Baghdad in 148/765; al-Ma'mun brought the making of medicines under state control in the ninth century.", sources: [source/tdv-eczacilik] }
+  - { place: place/cairo, note: "Ibn al-Ukhuwwa requires that drugs be bought singly from the druggist and then compounded; al-Shayzari orders weekly inspection of the apothecaries' drugs.", sources: [source/ibn-ukhuwwa-maalim-levy, source/shayzari-nihaya-buckley] }
+  - { place: place/istanbul, note: "Evliya counts some two thousand attar shops and three hundred itinerant attars in seventeenth-century Istanbul; by 1868 the city had about fifty pharmacies and Üsküdar ten, run by non-Muslims, Muslims opening pharmacies only from the 1880s and about two hundred shops by 1900.", sources: [source/tdv-eczacilik, source/evliya-seyahatname-hammer] }
+regions: [egypt-nile, levant-iraq, anatolia-balkans, persia-central-asia, andalus-europe]
+organization:
+  organized: guild
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people, living]
+periods: [period/abbasid-early, period/crusades-ayyubid-mamluk, period/gunpowder-empires, period/modern-era]
+sources: [source/tdv-eczacilik, source/ibn-ukhuwwa-maalim-levy, source/shayzari-nihaya-buckley, source/evliya-seyahatname-hammer]
+training:
+  mode: mixed
+  certification: "Apprenticeship under a master, then (Ottoman, from 1839) the three-year eczacı class of the Mekteb-i Tıbbiyye; apprentice-trained men examined by a board of its teachers received the tezkire of 'second-class pharmacist', diploma-holders 'first-class'"
+craft:
+  materials: []
+  techniques:
+    ar: "صنعت الصيدليات نحو سبعين صنفاً من الأدوية: مساحيق ⁦(صَفوف)⁩ وأشربة ومعاجين وأقراصاً ⁦(أكراس)⁩ وفتائل، ومُرَّبعة الطعم والرائحة لتسهيل أخذها فما يُؤخذ بالفم يُمزج بالمطيّبات. ويفرّق بايتوب بين الأدوية المفردة ⁦(الدروج)⁩ وهي جوهر الأدوية المركّبة، والمركّبة التي تجمع أكثر من مفردة. وفي دكان الصيدلي العثماني قِسمان: واجهة لقبول المريض ومختبر خلف حاجز زجاجي خشبي، وعلى رفوفه قوارير خزفية من فرنسا للأدوية الجاهزة وفي الأدراج الدروج النباتية، وتُحفظ السُّميّات في خزائن خاصة. ومن أدوات التركيب التي رسمها الزهراوي قوالب خشب لعمل التنزو ⁦(الباستيل)⁩ ومصفاة ثلاثية الطبقات لتصفية عصارات الأعشاب."
+    en: "The pharmacies made about seventy forms of medicine: powders, syrups, electuaries, pastilles (akras) and suppositories, flavoured to ease their taking, those used by mouth mixed with aromatics. Baytop distinguishes the simple drugs (drogs), the raw material of the compounds, from the compound drugs of more than one ingredient. The Ottoman pharmacist's shop had two parts — a reception and a laboratory behind a wooden glass partition; its polished shelves held porcelain drug jars from France and ready-made medicines, the drawers below herbal drogs, and poisons in special cabinets. Of the compounding tools drawn in al-Zahrawi's Tasrif there are wooden moulds for making pastilles and a three-layered sieve for straining the infusions of herbs."
+    ur: "فارمیسیوں میں ستر قسم کی ادویہ بنتی تھیں: سفوف، شربت، معجون، قرص ⁦(اکراس)⁩ اور شیاف، چبائی جانے والی خوشبو دار مادوں سے ملائی جاتیں۔ بایطوپ سادہ ادویہ ⁦(ڈرُگ)⁩ — جو مرکبوں کا خام مادہ ہے — اور ایک سے زیادہ اجزا والی مرکب ادویہ میں فرق کرتا ہے۔ عثمانی صیدلے کی دکان کے دو حصے ہوتے — مریض لینے کا حصہ اور لکڑی کے شیشے بند خانے کے پیچھے لیبارٹری؛ پالش شدہ الماریوں میں فرانس کی چینی کی دوا دانیاں اور تیار ادویہ، نیچے درازوں میں جڑی بوٹیوں کے ڈرُگ، اور زہریلی ادویہ مخصوص الماریوں میں۔ الزہراوی کی تصریف میں ترکیب کے اوزاروں میں لکڑی کے باسٹیل سانچے اور جڑی بوٹیوں کے عرق چھاننے کی تین تہ چھلنی دکھائی گئی ہیں۔"
+  guild:
+    bodies: []
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-med-1" }
+provenance:
+  layer: own-research
+  source: "TDV 'ECZACILIK' (Baytop) read on the web on 16 Nov 2026; Ibn al-Ukhuwwa/Levy ch. XXV pp. 38-39 (druggists); al-Shayzari/Buckley ch. 17 pp. 64-68 (apothecaries); Evliya/Hammer vol. 1 pt. 2 sec. 57 p. 118 — books read from the downloaded scans"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-med-1-drafting"
