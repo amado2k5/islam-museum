@@ -42,6 +42,17 @@ faith:
 external_ids:
   wikidata: Q426378
   viaf: "33055543"
+occupations:
+  - job: job/poet
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'poet', Job Browser linking wave 18"
+    sources: [source/wikipedia-toktogul-satylganov-en, source/wikipedia-toktogul-satylganov-ru, source/wikipedia-toktogul-satylganov-ky, source/wikipedia-toktogul-satylganov-uz, source/wikipedia-toktogul-satylganov-ar, source/wikidata-toktogul-satylganov, source/wikidata]
+  - job: job/musician
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'musician', Job Browser linking wave 18"
+    sources: [source/wikipedia-toktogul-satylganov-en, source/wikipedia-toktogul-satylganov-ru, source/wikipedia-toktogul-satylganov-ky, source/wikipedia-toktogul-satylganov-uz, source/wikipedia-toktogul-satylganov-ar, source/wikidata-toktogul-satylganov, source/wikidata]
 relations:
   - { type: died_in, target: place/toktogul, sources: [source/wikidata-toktogul-satylganov], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q1647779)" }
 sources:

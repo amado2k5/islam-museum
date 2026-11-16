@@ -21,6 +21,17 @@ born:
   derived: false
   note: "Gregorian date and Kuala Terengganu birthplace from the English Wikipedia article. No Hijri date is recorded in the sources used, so none is printed."
   sources: [source/wikipedia-heliza-helmi-en]
+occupations:
+  - job: job/singer
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'singer', Job Browser linking wave 18"
+    sources: [source/wikipedia-heliza-helmi-en, source/instagram-heliza-helmi, source/yadim-heliza-helmi]
+  - job: job/actor
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'actor', Job Browser linking wave 18"
+    sources: [source/wikipedia-heliza-helmi-en, source/instagram-heliza-helmi, source/yadim-heliza-helmi]
 relations:
   - { type: born_in, target: place/terengganu, sources: [source/wikipedia-heliza-helmi-en], note: "Born in Kuala Terengganu, the capital of Terengganu; the museum's place record is for the state, and no separate Kuala Terengganu record exists." }
 faith:

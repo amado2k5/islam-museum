@@ -34,6 +34,17 @@ faith:
     basis: documented
     note: "Two independent attestations name his faith for the man himself. The English biography, following Salim Tamari's study of the diaries, records that the Jawhariyyehs practised Eastern Orthodox Christianity and describes Wasif as a Christian who attended both Christian and Muslim institutions; Issam Nassar's chapter on the Jawhariyyeh Collection independently describes him as coming from a Christian family, the son of a prominent notable of Jerusalem's Greek Orthodox Arab community, and his published memoirs are themselves the record of that Orthodox Jerusalemite upbringing. The queue line's '(Muslim Associates)' tag is a list label and was expressly not used as evidence."
     sources: [source/wikipedia-wasif-jawhariyyeh-en, source/nassar-wasif-jawharriyeh-collection]
+occupations:
+  - job: job/musician
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'musician', Job Browser linking wave 18"
+    sources: [source/wikipedia-wasif-jawhariyyeh-en, source/wikipedia-wasif-jawhariyyeh-ar, source/wikidata-wasif-jawhariyyeh, source/nassar-wasif-jawharriyeh-collection, source/wikidata]
+  - job: job/poet
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'poet', Job Browser linking wave 18"
+    sources: [source/wikipedia-wasif-jawhariyyeh-en, source/wikipedia-wasif-jawhariyyeh-ar, source/wikidata-wasif-jawhariyyeh, source/nassar-wasif-jawharriyeh-collection, source/wikidata]
 relations:
   - { type: born_in, target: place/jerusalem, sources: [source/wikipedia-wasif-jawhariyyeh-en, source/wikipedia-wasif-jawhariyyeh-ar, source/wikidata-wasif-jawhariyyeh] }
 summary:
