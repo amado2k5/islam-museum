@@ -1,0 +1,38 @@
+id: person/nureddin-yildiz
+class: person
+label: { ar: "نور الدين يلدز", en: "Nureddin Yıldız", ur: "نور الدین یلدز" }
+names:
+  - { value: "Nureddin Yıldız", kind: full }
+  - { value: "Nurettin Yıldız", kind: alternate }
+  - { value: "نور الدين يلدز", kind: full }
+gender: male
+summary:
+  ar: "واعظ وكاتب تركي، وُلد سنة 1960 في أوف بولاية طرابزون، حفظ القرآن على يد أبيه، ودرس في كلية الإلهيات بجامعة مرمرة ثم تخرّج في أصول الفقه بجامعة أم القرى في مكة، وقاد تأسيس جمعية النسيج الاجتماعي ومؤسستها، واشتهر بدروسه وفتاواه في الأسرة والشباب والأخلاق. بلغت قناته على يوتيوب 999,000 مشترك كما في 11 نوفمبر 2026 بحسب vidIQ، وهو عدد منصّة مؤرخ لا حقيقة متحقق منها متحفيًا."
+  en: "Turkish preacher and writer, born in 1960 in Of, Trabzon. He memorised the Qur'an under his father, studied at Marmara University's theology faculty and then graduated in usul al-fiqh at Umm al-Qura University in Mecca, led the founding of the Sosyal Doku association and foundation, and is known for his lessons and fatwa answers on family, youth and ethics. His YouTube channel counted 999,000 subscribers as of 11 November 2026 per vidIQ — a dated platform count, not a museum-verified fact."
+  ur: "ترک واعظ اور مصنف، جو 1960ء میں طرابزون کے علاقے اوف میں پیدا ہوئے، اپنے والد سے قرآن حفظ کیا، مرمرہ یونیورسٹی کے شعبۂ الہیات میں پڑھا اور پھر مکہ کی ام القریٰ یونیورسٹی سے اصولِ فقہ میں فارغ التحصیل ہوئے، سوسیال ڈوکو انجمن اور اس کی فاؤنڈیشن کے قیام کی قیادت کی، اور خاندان، نوجوانوں اور اخلاق پر اپنے دروس اور فتویٰ جوابات کے لیے جانے جاتے ہیں۔ vidIQ کے مطابق 11 نومبر 2026ء کو ان کے یوٹیوب چینل کے سبسکرائبر 999,000 تھے — یہ ایک مؤرخہ منصّہ عدد ہے، عجائب گھر کی تصدیق شدہ حقیقت نہیں۔"
+roles: [preacher, writer]
+wings: [people, living]
+regions: [anatolia-balkans]
+born:
+  edtf: "1960"
+  calendar: gregorian
+  precision: year
+  status: historical
+  note: "Born in 1960 in Of, a district of Trabzon, per the Turkish Wikipedia article and the İnönü University speaker biography; neither source gives a day or month, so no fuller date is recorded. No place record for Of exists in the museum, so the born_in edge is written to Trabzon."
+  sources: [source/wikipedia-nureddin-yildiz-tr, source/inonu-university-nureddin-yildiz]
+relations:
+  - { type: born_in, target: place/trabzon, sources: [source/wikipedia-nureddin-yildiz-tr, source/inonu-university-nureddin-yildiz], note: "Born in Of, a district of Trabzon province; the edge is written to the Trabzon place record." }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No two prose texts attest a school for Nureddin Yıldız himself. The Turkish article's infobox records his religion as Islam (Sunni) — structured data, which never settles faith. The prose texts read — the article's body and the İnönü University biography — name no school; his formation (an imam-hatip school, Marmara theology, a degree in usul al-fiqh at Umm al-Qura) is formation, and his founding and chairing of the Sosyal Doku foundation is office; neither counts. Under the doubt rule the value stays unknown."
+    sources: [source/wikipedia-nureddin-yildiz-tr, source/inonu-university-nureddin-yildiz]
+reach:
+  - { platform: youtube, metric: subscribers, value: 999000, date: "2026-11-11", note: "@nureddinyildiz: 999,000 subscribers, 236,843,777 views and 10,594 videos as of 11 November 2026 per vidIQ, recorded by the wave-202 harvest — a dated platform count, not a museum-verified fact. No person-side founder edge to the Sosyal Doku foundation is written in this record, per the lane pattern: the foundation is catalogued separately as a group, and the link is written on the group side; the foundation channel's own audience belongs to the group's record, not to him.", sources: [source/vidiq-nureddin-yildiz, source/youtube-nureddin-yildiz] }
+sources: [source/wikipedia-nureddin-yildiz-tr, source/inonu-university-nureddin-yildiz, source/vidiq-nureddin-yildiz, source/youtube-nureddin-yildiz]
+provenance:
+  layer: own-research
+  source: "Built from the wave-202 (Turkish scene) harvest §1 and build-time checks of 16 November 2026: the Turkish Wikipedia article 'Nurettin Yıldız (din adamı)' read in full, the İnönü University event-speakers biography PDF, and the harvest's vidIQ read of his YouTube channel @nureddinyildiz (999,000 subscribers as of 11 November 2026). Qualification rests on that dated count, above the men's bar. The designation re-screen at build found no verified link, endorsement or financial tie to any designated organisation; partisan advocacy-press reporting about his political sermons alleges proximity to non-designated Turkish charities only, and no blocked organisation is named anywhere in this record. The article's criticism section is carried as attributed press reporting only, in general terms, with no verdict. No source read names a school for him in prose, so his faith stays unknown. No Wikidata item was verified in this build — site searches of Wikidata returned no item for him — so no external identifier is recorded."
+  generated_by: "Muse (Muse Wonder)"
+  run: modern-figures-wave-202-a
+status: { review: published, completeness: 3 }

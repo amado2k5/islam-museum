@@ -1,0 +1,28 @@
+id: person/kerem-onder
+class: person
+label: { ar: "كرم أوندر", en: "Kerem Önder", ur: "کرم اوندر" }
+names:
+  - { value: "Kerem Önder", kind: full }
+  - { value: "كرم أوندر", kind: full }
+gender: male
+summary:
+  ar: "واعظ تركي عُرف بدروسه ومحاضراته عالية الوتيرة على يوتيوب في الفقه والحديث والسيرة؛ يروي في سيرته الذاتية على موقعه الرسمي بدءه تعلّم القرآن والفقه في طفولته ومساره الروحي اللاحق وانطلاقه في الوعظ. بلغت قناته على يوتيوب 782,000 مشترك في جدول SPEAKRJ المؤرخ في 8 أكتوبر 2026، وهو عدد منصّة مؤرخ لا حقيقة متحقق منها متحفيًا."
+  en: "Turkish preacher known for his high-volume YouTube lessons and talks on fiqh, hadith and sira. In the autobiography on his official website he recounts beginning Qur'an and fiqh study in childhood, his later spiritual path, and his taking up preaching. His YouTube channel counted 782,000 subscribers in SPEAKRJ's table entry dated 8 October 2026 — a dated platform count, not a museum-verified fact."
+  ur: "ترک واعظ جو فقہ، حدیث اور سیرت پر اپنی کثیر الاشاعت یوٹیوب دروس اور گفتگوؤں کے لیے جانے جاتے ہیں۔ اپنی سرکاری ویب سائٹ پر درج سوانح میں وہ بچپن میں قرآن و فقہ کی تعلیم کے آغاز، اپنے بعد کے روحانی سفر اور وعظ کے آغاز کا ذکر کرتے ہیں۔ SPEAKRJ کے 8 اکتوبر 2026ء کے مؤرخہ جدول کے مطابق ان کے یوٹیوب چینل کے سبسکرائبر 782,000 تھے — یہ ایک مؤرخہ منصّہ عدد ہے، عجائب گھر کی تصدیق شدہ حقیقت نہیں۔"
+roles: [preacher]
+wings: [people, living]
+regions: [anatolia-balkans]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Only one prose text read in this build names an order for Kerem Önder: his own autobiography, in which he describes, in his own voice, a journey in the Halid-i Haki branch of the Naqshbandi order begun through students of İhramcızade İsmail Hakkı Efendi. That is a single self-written text; no second independent prose text read names a school or order for him, and his community background — recorded in the harvest as background only — never counts. Under the two-source rule and the doubt rule the value stays unknown, with his own attestation preserved here."
+    sources: [source/keremonder-official-site]
+reach:
+  - { platform: youtube, metric: subscribers, value: 782000, date: "2026-10-08", note: "@keremonderhoca: 782,000 subscribers and 307,659,868 views in SPEAKRJ's table entry dated 8 October 2026, recorded by the wave-202 harvest — a dated platform count, not a museum-verified fact. Caveat, stated plainly: an undated ThoughtLeaders crawl reports a Kerem Önder channel at roughly 386,000 subscribers with about 3,100 videos, against SPEAKRJ's 8,807 videos — the two reads may concern different channels or a stale aggregator, the ThoughtLeaders figure is NOT recorded as his, and the discrepancy is unresolved; the SPEAKRJ figure is the dated observation of record and clears the men's bar on its own.", sources: [source/speakrj-kerem-onder, source/youtube-kerem-onder] }
+sources: [source/keremonder-official-site, source/speakrj-kerem-onder, source/youtube-kerem-onder]
+provenance:
+  layer: own-research
+  source: "Built from the wave-202 (Turkish scene) harvest §2 and build-time checks of 16 November 2026: the autobiography page of his official website keremonder.com read in full, his YouTube channel @keremonderhoca (whose descriptions link that website), and the harvest's SPEAKRJ dated read (782,000 subscribers, table entry dated 8 October 2026). Qualification rests on that dated count, above the men's bar; the harvest's ThoughtLeaders discrepancy is carried verbatim in the reach note and the SPEAKRJ source, and its figure is not printed as his. No Wikipedia article on him was found in any language in this build, and his autobiography gives no birth date or birthplace, so no born block is written and nothing is invented. His own autobiography is the only prose text naming an order for him, so his faith stays unknown under the two-source rule. No Wikidata item was verified in this build — site searches of Wikidata returned no item for him — so no external identifier is recorded."
+  generated_by: "Muse (Muse Wonder)"
+  run: modern-figures-wave-202-a
+status: { review: published, completeness: 2 }

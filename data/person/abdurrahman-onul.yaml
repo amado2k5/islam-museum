@@ -1,0 +1,38 @@
+id: person/abdurrahman-onul
+class: person
+label: { ar: "عبد الرحمن أونول", en: "Abdurrahman Önül", ur: "عبد الرحمن اونول" }
+names:
+  - { value: "Abdurrahman Önül", kind: full }
+  - { value: "عبد الرحمن أونول", kind: full }
+gender: male
+summary:
+  ar: "منشد وكاتب وملحّن تركي في فن الإلٰهي ⁦(الأناشيد الدينية التركية)⁩، وُلد في 1 ديسمبر 1973 في بايبورت، تخرّج في ثانوية الإمام الخطيب بحي الفاتح في إسطنبول، ودخل سوق الموسيقى سنة 1990 بألبومه الأول، وله عشرات الألبومات وبرامج تلفزيونية كثيرة. بلغت قناته الرسمية على يوتيوب 372,000 مشترك كما في 12 نوفمبر 2026 بحسب vidIQ، وهو عدد منصّة مؤرخ لا حقيقة متحقق منها متحفيًا."
+  en: "Turkish ilahi (devotional song) performer, writer and composer, born on 1 December 1973 in Bayburt. He graduated from the Fatih Imam Hatip High School in Istanbul, entered the music market in 1990 with his first album, and has released dozens of albums and appeared in many television programmes. His official YouTube channel counted 372,000 subscribers as of 12 November 2026 per vidIQ — a dated platform count, not a museum-verified fact."
+  ur: "ترک الٰہی ⁦(دینی نعت و منقبت کے فن)⁩ کے گلوکار، مصنف اور نغمہ ساز، جو 1 دسمبر 1973ء کو بایبورت میں پیدا ہوئے، استنبول کے فاتح امام خطیب ہائی سکول سے فارغ التحصیل ہوئے، 1990ء میں اپنے پہلے البم کے ساتھ موسیقی کی مارکیٹ میں داخل ہوئے، اور ان کے درجنوں البم اور کئی ٹیلی ویژن پروگرام ہیں۔ vidIQ کے مطابق 12 نومبر 2026ء کو ان کے سرکاری یوٹیوب چینل کے سبسکرائبر 372,000 تھے — یہ ایک مؤرخہ منصّہ عدد ہے، عجائب گھر کی تصدیق شدہ حقیقت نہیں۔"
+roles: [munshid, composer, writer]
+wings: [people, living]
+regions: [anatolia-balkans]
+born:
+  edtf: "1973-12-01"
+  calendar: gregorian
+  precision: day
+  status: historical
+  note: "Born on 1 December 1973 in Bayburt, per the Azerbaijani and Arabic Wikipedia articles and the Turkish Ministry of Education centre page; all three agree on the day, month, year and place."
+  sources: [source/wikipedia-abdurrahman-onul-az, source/wikipedia-abdurrahman-onul-ar, source/meb-tuzla-abdurrahman-onul]
+relations:
+  - { type: born_in, target: place/bayburt, sources: [source/wikipedia-abdurrahman-onul-az, source/wikipedia-abdurrahman-onul-ar, source/meb-tuzla-abdurrahman-onul] }
+  - { type: lived_in, target: place/istanbul, sources: [source/meb-tuzla-abdurrahman-onul], note: "The Ministry of Education page states that he resides in Istanbul." }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read in this build names a school or order for Abdurrahman Önül: neither the Azerbaijani article, nor the Arabic article, nor the Ministry of Education page does so. His schooling at an imam-hatip high school is formation, which never counts, and the ilahi genre he performs in is his art, not an attestation. Under the doubt rule the value stays unknown."
+    sources: [source/wikipedia-abdurrahman-onul-az, source/wikipedia-abdurrahman-onul-ar, source/meb-tuzla-abdurrahman-onul]
+reach:
+  - { platform: youtube, metric: subscribers, value: 372000, date: "2026-11-12", note: "@abdurrahmanonulresmi: 372,000 subscribers, 275,459,549 views and 612 videos as of 12 November 2026 per vidIQ, recorded by the wave-202 harvest — a dated platform count, not a museum-verified fact.", sources: [source/vidiq-abdurrahman-onul, source/youtube-abdurrahman-onul] }
+sources: [source/wikipedia-abdurrahman-onul-az, source/wikipedia-abdurrahman-onul-ar, source/meb-tuzla-abdurrahman-onul, source/vidiq-abdurrahman-onul, source/youtube-abdurrahman-onul]
+provenance:
+  layer: own-research
+  source: "Built from the wave-202 (Turkish scene) harvest §5 and build-time checks of 16 November 2026: the Azerbaijani Wikipedia article 'Əbdürrəhman Önül' and the Arabic Wikipedia article on him, both read in full; the Tuzla Public Education Centre (Ministry of National Education) biography page; his official YouTube channel @abdurrahmanonulresmi; and the harvest's vidIQ read of that channel (372,000 subscribers as of 12 November 2026). Qualification rests on that dated count, above the men's bar, and on the founder's genre ruling that ilahi/nasheed artists are in scope. The harvest reported a Turkish Wikipedia article; verification at build found NO Turkish article — the editions found are Azerbaijani, Arabic and Kurdish — and that correction is recorded here. Unattributed forum pages carrying mutually contradictory birth years, birthplaces and an order affiliation for him were read, judged unreliable, and used for nothing. No reliable source read names a school for him, so his faith stays unknown. No Wikidata item was verified in this build — site searches of Wikidata returned no item for him — so no external identifier is recorded."
+  generated_by: "Muse (Muse Wonder)"
+  run: modern-figures-wave-202-a
+status: { review: published, completeness: 3 }
