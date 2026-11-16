@@ -16,6 +16,13 @@ open a new block on top with the new version and today's date.
 ## v1.90.0 — 2026-11-17
 ### Added
 - Job Browser linking wave 16: 26 `occupations:` edges on 25 person records — the lawyer, diplomat and engineer pools fully linked, plus caliph, sultan, commander, emir and muhaddith links.
+- Did-you-know daily strip now draws the day's whole bucket of facts and lets the browser pick one at random on each view, so the authored pool can grow past a year without a fact ever being deleted; the first of the bucket remains the no-JavaScript and embed choice.
+- The Inventions workshop legend gains the `revived` fate (open square mark) with labels in all three languages.
+
+### Fixed
+- Build crash on the Inventions page: `invention/windcatcher-adaptation` carries `status_today: revived`, a schema value the workshop timeline had no mark for.
+- `edu.test.ts` failures from a fact pool grown past the 365 cap — the cap is replaced by a ≥365 year-coverage rule and the rotation test now checks the bucket and yearly repeat.
+- `AGENTS.md` gains the rule that generated registers (`docs/canon.md`, `docs/coverage.md`) and site-mapped enum values ship in the same commit as the data that changes them.
 
 ## v1.89.0 — 2026-11-17
 ### Added
