@@ -12,6 +12,17 @@ wings: [people]
 regions: [persia-central-asia]
 periods: [period/gunpowder-empires]
 died: { edtf: "1623", hijri: "1032", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Amal al-Amil. al-A'lam vol. 5 p. 242 prints 1032 AH = 1623 CE, agreeing with the card; no birth year is printed.", sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002] }
+occupations:
+  - job: job/faqih
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'jurist', Job Browser linking wave 42"
+    sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
+  - job: job/alim
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 42"
+    sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 relations:
   - { type: born_in, target: place/meiss-ej-jabal, confidence: medium, note: "Place link from Wikidata; the entry says he was of the people of Mays in Jabal Amil, without a birth place as such.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
   - { type: died_in, target: place/isfahan, note: "al-Zirikli, al-A'lam, vol. 5 p. 242: he died in Isfahan", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }

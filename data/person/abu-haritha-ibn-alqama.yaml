@@ -17,6 +17,12 @@ story_roles:
 faith:
   - { value: christian, basis: documented, note: "أسقف نجران كما في مصادر السيرة.", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
 died: { edtf: "635~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Hisham, al-Sira; Ibn Sa'd, al-Tabaqat al-Kubra" }
+occupations:
+  - job: job/mutakallim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'theologian', Job Browser linking wave 42"
+    sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/zad-al-maad]
 relations:
   - { type: lived_in, target: place/najran }
   - { type: participated_in, target: event/delegation-of-najran, role: "الأسقف زعيم الدين", sources: [source/mubarakpuri-raheeq] }
