@@ -14,6 +14,17 @@ wings: [people]
 periods: [period/mongol-post-mongol]
 regions: [andalus-europe]
 died: { edtf: "1388", hijri: "0790", calendar: julian, precision: year, status: tradition, note: "المتوفى سنة 790هـ (الموافقات ط. دراز ص1)؛ ويقابلها الناشر بسنة 1388م نقلاً عن الأعلام (ص4)", sources: [source/muwafaqat-draz-ilmiyya] }
+occupations:
+  - job: job/faqih
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'jurist', Job Browser linking wave 39"
+    sources: [source/muwafaqat-draz-ilmiyya, source/muwafaqat-mashhur-ibn-affan-v1]
+  - job: job/alim
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 39"
+    sources: [source/muwafaqat-draz-ilmiyya, source/muwafaqat-mashhur-ibn-affan-v1]
 relations:
   - { type: lived_in, target: place/granada, sources: [source/muwafaqat-draz-ilmiyya] }
   - { type: member_of, target: group/maliki-madhhab, sources: [source/muwafaqat-draz-ilmiyya] }

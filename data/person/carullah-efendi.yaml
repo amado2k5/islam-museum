@@ -24,6 +24,17 @@ provenance:
 status:
   review: draft
   completeness: 3
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 39"
+    sources: [source/dawlat-uthmaniyya-salabi, source/alam-zirikli-dar-al-ilm-2002]
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'faqih', Job Browser linking wave 39"
+    sources: [source/dawlat-uthmaniyya-salabi, source/alam-zirikli-dar-al-ilm-2002]
 relations:
   - { type: born_in, target: place/larissa, note: "Place link from Wikidata; pending a second source. al-A'lam vol. 8 pp. 118-119 says he was born at Yenishehir, the Turks' Yenisehir; the identification with the Larissa item rests on Wikidata, not on the entry.", sources: [source/wikidata], confidence: medium }
   - { type: died_in, target: place/edirne, note: "Place link from Wikidata; pending a second source. al-A'lam vol. 8 pp. 118-119 names no place of death.", sources: [source/wikidata], confidence: medium }

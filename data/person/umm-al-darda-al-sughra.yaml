@@ -14,6 +14,17 @@ wings: [people]
 regions: [levant-iraq]
 periods: [period/umayyad]
 died: { edtf: "700", hijri: "0081", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala; Tahdhib al-Kamal. al-Zirikli, al-A'lam, vol. 8 p. 77, prints 'after 81 AH = after 700 CE' (no birth year), and Ibn al-Imad, Shadharat al-Dhahab, vol. 1 p. 333, mentions her in the events of 81 AH (he records her pilgrimage that year, not her death); the card year 700 is kept as the lower bound.", sources: [source/alam-zirikli-dar-al-ilm-2002, source/shadharat-dhahab] }
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 39"
+    sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002, source/shadharat-dhahab]
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'jurist', Job Browser linking wave 39"
+    sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002, source/shadharat-dhahab]
 relations:
   - { type: lived_in, target: place/damascus, confidence: high, note: "al-Zirikli, al-A'lam, vol. 8 p. 77: from the people of Damascus, grew up there in Abu al-Darda's care; Ibn al-Imad, vol. 1 p. 333: great esteem in Syria", sources: [source/alam-zirikli-dar-al-ilm-2002, source/shadharat-dhahab, source/al-aalam] }
   - { type: lived_in, target: place/jerusalem, confidence: high, note: "al-Zirikli, vol. 8 p. 77: she spent six months of the year at Bayt al-Maqdis and six months at Damascus", sources: [source/alam-zirikli-dar-al-ilm-2002] }

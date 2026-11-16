@@ -44,6 +44,17 @@ died:
   - source/wikipedia-israr-ahmed-en
   - source/wikipedia-israr-ahmed-ur
   - source/wikidata-israr-ahmed
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 39"
+    sources: [source/wikipedia-israr-ahmed-en, source/wikipedia-israr-ahmed-ar, source/wikipedia-israr-ahmed-ur, source/wikidata-israr-ahmed]
+  - job: job/mutakallim
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'theologian', Job Browser linking wave 39"
+    sources: [source/wikipedia-israr-ahmed-en, source/wikipedia-israr-ahmed-ar, source/wikipedia-israr-ahmed-ur, source/wikidata-israr-ahmed]
 relations:
 - { type: born_in, target: place/hisar, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-israr-ahmed] }
 - { type: died_in, target: place/lahore, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-israr-ahmed] }

@@ -34,6 +34,12 @@ faith:
     basis: unknown
     note: "FLAGGED — the Shia reading stands one independent text short, for the founder's word. The English article's biographical text attests the man himself directly: 'A Shia Muslim by faith, he belonged to a distinguished, educated landed family.' That is one text. Wikidata's structured religion statements give Islam and Shia Islam, but structured data never counts as a text. The same biographical sentence circulates in derivative reproductions of the standard biographical-dictionary entry, which share its origin and so do not make a second independent text; the Dictionary of National Biography (India) entry itself, read in the CRL scan, keeps to his career and notes only that he 'kept his religious beliefs to himself'. The Urdu article names no school. Two independent texts attesting Shia for the man himself would settle shia-twelver under the founder's mapping rule, the Indian Shia community of his milieu being Twelver; until then the value stays unknown with the Shia attestation preserved here."
     sources: [source/wikipedia-syed-hasan-imam-en, source/wikipedia-syed-hasan-imam-ur, source/wikidata-syed-hasan-imam]
+occupations:
+  - job: job/faqih
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'jurist', Job Browser linking wave 39"
+    sources: [source/wikipedia-syed-hasan-imam-en, source/wikipedia-syed-hasan-imam-ur, source/wikidata-syed-hasan-imam, source/wikidata]
 relations:
   - { type: sibling_of, target: person/syed-ali-imam, sources: [source/wikipedia-syed-hasan-imam-en] }
   - { type: lived_in, target: place/london, sources: [source/wikidata], confidence: low, note: "Studied law in London per the record text." }

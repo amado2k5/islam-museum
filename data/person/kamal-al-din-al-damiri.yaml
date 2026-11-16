@@ -13,6 +13,17 @@ regions: [egypt-nile]
 periods: [period/crusades-ayyubid-mamluk]
 born: { edtf: "1341", hijri: "0742", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 / al-Durar al-Kamina. Confirmed on 13 November 2026 against Wikidata Q330616 (P569, a statement with a reference), item revision 2567872568. al-A'lam vol. 7 p. 118 prints 742 AH = 1341 CE, agreeing.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
 died: { edtf: "1405", hijri: "0808", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 / al-Durar al-Kamina. al-A'lam vol. 7 p. 118 prints 808 AH = 1405 CE, agreeing with the card.", sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002] }
+occupations:
+  - job: job/faqih
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'jurist', Job Browser linking wave 39"
+    sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
+  - job: job/alim
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 39"
+    sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 relations:
   - { type: born_in, target: place/cairo, note: "al-Zirikli, al-A'lam, vol. 7 p. 118: he was born, raised and died in Cairo", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
   - { type: died_in, target: place/cairo, note: "al-Zirikli, al-A'lam, vol. 7 p. 118", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
