@@ -21,6 +21,7 @@ open a new block on top with the new version and today's date.
 - Ten place pages that had only a line or two of prose now carry what Yaqut's Mu'jam al-buldan records of them, in Arabic, English and Urdu, cited by volume and page: Afra' (the water where Farwa al-Judhami was put to death), Shaqif Arnun, Lake Tiberias, Wabar, Jabal Nafusa, Munyat Ibn al-Khasib, Samura, Mazar, al-Baylaqan and al-Khandama. Each page keeps the earlier text, sets namesakes apart, and ends with a section saying plainly where the museum's identification goes beyond Yaqut's wording or where Yaqut and the earlier source differ.
 ### Fixed
 - 3D tour: the stops for the shahada, the five pillars and the hajj now list the Oxford Dictionary of Islam among their sources, as the records themselves do since the Oxford Islamic Studies enrichment, so the tour's source check passes again.
+- Wa Nalqa al-Ahibba series record: the links in the Arabic, English and Urdu texts are now identical in every episode section. Episode 1 now links Sa'd ibn Abi Waqqas and Umar in Arabic too, and the English and Urdu link to Sa'd now points at his real page; episode 11 now links Ibn Umar at the same place in English as in Arabic and Urdu.
 
 ## v1.58.0 — 2026-11-16
 ### Added
