@@ -14,6 +14,9 @@ open a new block on top with the new version and today's date.
 ---
 
 ## v1.66.0 — 2026-11-16
+### Data
+- Daily prose-completion measurement regenerated: 37,614 entities in the prose classes, Arabic full prose at 34.0%, English 40.4%, Urdu 36.9%; full prose keeps rising and partial and empty keep falling.
+
 ### Added
 - Job Browser: six performance professions — the musician (mutrib/mehter), the minstrel (âşık), the singer (hânende/mugannî), the shadow-puppeteer (karagözcü/hayâlî), the actor of the orta oyunu, and the dancer (ghâziya/çengi) — in Arabic, English and Urdu draft cited to the TDV entries ÂŞIK, MÛSİKİ, HÂNENDE, KARAGÖZ and ORTA OYUNU, plus Evliya Çelebi and Lane.
 
