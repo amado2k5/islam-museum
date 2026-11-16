@@ -24,5 +24,11 @@ status:
   review: draft
   completeness: 3
 died: { edtf: "1711", hijri: "1123", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tuhfat al-A'yan. al-A'lam vol. 3 p. 149 prints 1123 AH = 1711 CE, agreeing with the card.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+occupations:
+  - job: job/imam
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'imam', Job Browser linking wave 49"
+    sources: [source/bosworth-new-islamic-dynasties-1996, source/alam-zirikli-dar-al-ilm-2002]
 relations:
   - { type: lived_in, target: place/oman, confidence: high, note: "al-Zirikli, al-A'lam, vol. 3 p. 149: imam of Oman who held the Omani realm and died at al-Rustaq", sources: [source/bosworth-new-islamic-dynasties-1996, source/alam-zirikli-dar-al-ilm-2002] }

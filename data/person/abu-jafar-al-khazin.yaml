@@ -23,5 +23,16 @@ provenance:
 status:
   review: published
   completeness: 3
+occupations:
+  - job: job/mathematician
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'mathematician', Job Browser linking wave 49"
+    sources: [source/sezgin-gas-v-mathematik]
+  - job: job/astronomer
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'astronomer', Job Browser linking wave 49"
+    sources: [source/sezgin-gas-v-mathematik]
 relations:
   - { type: lived_in, target: place/khurasan, note: "Place association from the person's nisba/name (خراساني); denotes association, not proven residence.", sources: [source/sezgin-gas-v-mathematik], confidence: low }

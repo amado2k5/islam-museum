@@ -49,6 +49,12 @@ regions:
 - andalus-europe
 periods:
 - period/buyid-seljuk-fatimid-era
+occupations:
+  - job: job/astronomer
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'astronomer', Job Browser linking wave 49"
+    sources: [source/encyclopaedia-of-islam-2, source/wikipedia-torquetum-en, source/lorch-jabir-torquetum-1976]
 relations:
 - type: lived_in
   target: place/seville
