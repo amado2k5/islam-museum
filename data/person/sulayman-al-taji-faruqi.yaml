@@ -34,6 +34,17 @@ faith:
     basis: unknown
     note: "No source read names a religious school for al-Faruqi himself. Wikidata's structured religion value gives Islam only — a single structured family. His nine years of study at al-Azhar under Muhammad Abduh, his Qur'an interpretation at the Hagia Sophia and the sheikh of his titles are education and honour, none of which counts; the newspaper he founded in 1933 was a political organ whose name is not an attestation of its founder's school."
     sources: [source/wikipedia-sulayman-al-taji-faruqi-en, source/wikipedia-sulayman-al-taji-faruqi-ar, source/wikidata-sulayman-al-taji-faruqi]
+occupations:
+  - job: job/poet
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'poet', Job Browser linking wave"
+    sources: [source/wikipedia-sulayman-al-taji-faruqi-en, source/wikipedia-sulayman-al-taji-faruqi-ar, source/wikidata-sulayman-al-taji-faruqi, source/wikidata]
+  - job: job/lawyer
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'lawyer', Job Browser linking wave"
+    sources: [source/wikipedia-sulayman-al-taji-faruqi-en, source/wikipedia-sulayman-al-taji-faruqi-ar, source/wikidata-sulayman-al-taji-faruqi, source/wikidata]
 relations:
   - { type: born_in, target: place/ramla, sources: [source/wikipedia-sulayman-al-taji-faruqi-en, source/wikipedia-sulayman-al-taji-faruqi-ar, source/wikidata-sulayman-al-taji-faruqi] }
   - { type: buried_in, target: place/jerusalem, sources: [source/wikipedia-sulayman-al-taji-faruqi-en, source/wikipedia-sulayman-al-taji-faruqi-ar, source/wikidata-sulayman-al-taji-faruqi] }

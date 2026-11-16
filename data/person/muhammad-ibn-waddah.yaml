@@ -15,6 +15,17 @@ regions: [andalus-europe]
 periods: [period/umayyad]
 born: { edtf: "0815", hijri: "0199~", calendar: julian, precision: year, status: tradition, derived: true, note: "Ibn al-Faradi, quoted by Ibn Asakir, vol. 56 p. 183: born in 199 AH, at its beginning or end, though the narrator says he could not confirm it; 199 AH runs from August 814 to July 815 CE by the museum's conversion (derived); the card year 815 is kept.", sources: [source/tarikh-dimashq-ibn-asakir-fikr-1995] }
 died: { edtf: "0900", hijri: "0287-01", calendar: julian, precision: year, status: tradition, derived: true, note: "Ibn al-Faradi, quoted by Ibn Asakir, vol. 56 p. 183: died on the night of Saturday, four nights before the end of Muharram 287 AH (January to February 900 CE, derived), agreeing with the card year. Ibn Yunus (vol. 56 p. 182) and al-Humaydi (vol. 56 p. 181) give 286 AH (899 CE); Ibn Yunus also mentions 287; others say Dhu al-Hijja 286 (vol. 56 p. 183).", sources: [source/tarikh-dimashq-ibn-asakir-fikr-1995] }
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave"
+    sources: [source/al-aalam, source/wikidata, source/tarikh-dimashq-ibn-asakir-fikr-1995]
+  - job: job/muhaddith
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'muhaddith', Job Browser linking wave"
+    sources: [source/al-aalam, source/wikidata, source/tarikh-dimashq-ibn-asakir-fikr-1995]
 relations:
   - { type: lived_in, target: place/cordoba, confidence: medium, note: "Ibn Asakir, vol. 56 p. 179: al-Andalusi al-Qurtubi, who heard in his own land before travelling east; the nisba is the basis, no residence is described", sources: [source/tarikh-dimashq-ibn-asakir-fikr-1995] }
   - { type: traveled_to, target: place/damascus, confidence: high, note: "Ibn Asakir, vol. 56 p. 179: he heard in Damascus from Muhammad ibn al-Mubarak al-Suri, Hisham ibn Ammar, Duhaym and others", sources: [source/tarikh-dimashq-ibn-asakir-fikr-1995] }

@@ -15,6 +15,17 @@ wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [egypt-nile]
 died: { edtf: "1358", hijri: "0759", calendar: julian, precision: year, status: historical, derived: true, note: "Died in prison at Alexandria in Dhu al-Hijja 759 {cite:nujum-zahira 10/328}; Ibn Hajar's note says al-Maqrizi dates his death to Dhu al-Hijja 759 {cite:durar-kamina-jil-1993 2/207}. Birth date is not given in the sources read.", sources: [source/nujum-zahira, source/durar-kamina-jil-1993] }
+occupations:
+  - job: job/emir
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'emir', Job Browser linking wave"
+    sources: [source/nujum-zahira, source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2]
+  - job: job/patron
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'patron', Job Browser linking wave"
+    sources: [source/nujum-zahira, source/durar-kamina-jil-1993, source/encyclopaedia-of-islam-2]
 relations:
   - { type: lived_in, target: place/cairo, note: "His madrasa stands in the Salibah quarter of Cairo; Nujum 10/308 note.", sources: [source/nujum-zahira] }
   - { type: died_in, target: place/alexandria, note: "Died in the prison of Alexandria; Nujum 10/328.", sources: [source/nujum-zahira] }
