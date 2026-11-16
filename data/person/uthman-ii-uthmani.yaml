@@ -24,6 +24,17 @@ periods:
 - period/gunpowder-empires
 born: { edtf: "1604", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi; EI2 Agrees with Wikidata Q172056 (P569, a statement without a reference), item revision 2565581653, read on 13 November 2026.", sources: [source/wikidata] }
 died: { edtf: "1622", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi; EI2 Confirmed on 13 November 2026 against Wikidata Q172056 (P570, a statement with a reference), item revision 2565581653.", sources: [source/wikidata] }
+occupations:
+  - job: job/caliph
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'caliph', Job Browser linking wave"
+    sources: [source/dawlat-uthmaniyya-salabi, source/nomisma, source/wikidata]
+  - job: job/sultan
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'sultan', Job Browser linking wave"
+    sources: [source/dawlat-uthmaniyya-salabi, source/nomisma, source/wikidata]
 relations:
 - { type: ruled_over, target: polity/ottoman-empire, sources: [source/sicill-i-osmani] }
 - { type: successor_of, target: person/mustafa-i-uthmani, sources: [source/sicill-i-osmani] }

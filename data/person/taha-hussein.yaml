@@ -29,6 +29,12 @@ died:
   derived: true
   note: "Died in Cairo on 28 October 1973 (all sources agree). The Hijri year (1393) is derived by tabular conversion."
   sources: [source/wikipedia-taha-hussein-en, source/britannica-taha-hussein, source/wikidata-taha-hussein]
+occupations:
+  - job: job/adib
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'literary-critic', Job Browser linking wave"
+    sources: [source/wikipedia-taha-hussein-en, source/wikipedia-taha-hussein-ar, source/wikipedia-taha-hussein-ur, source/wikidata-taha-hussein, source/britannica-taha-hussein, source/wikidata]
 relations:
   - { type: lived_in, target: place/cairo, sources: [source/wikipedia-taha-hussein-en, source/britannica-taha-hussein] }
   - { type: died_in, target: place/cairo, sources: [source/wikipedia-taha-hussein-en, source/britannica-taha-hussein] }

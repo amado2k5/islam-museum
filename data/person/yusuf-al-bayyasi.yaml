@@ -16,6 +16,22 @@ summary:
 wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [andalus-europe, maghreb]
+occupations:
+  - job: job/adib
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'adib', Job Browser linking wave"
+    sources: [source/wafayat-ayan, source/shadharat-dhahab]
+  - job: job/qari
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'hafiz', Job Browser linking wave"
+    sources: [source/wafayat-ayan, source/shadharat-dhahab]
+  - job: job/historian
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'historian', Job Browser linking wave"
+    sources: [source/wafayat-ayan, source/shadharat-dhahab]
 relations:
   - { type: authored, target: work/hamasa-al-bayyasi, sources: [source/wafayat-ayan] }
   - { type: authored, target: work/al-ilam-bil-hurub, sources: [source/wafayat-ayan] }

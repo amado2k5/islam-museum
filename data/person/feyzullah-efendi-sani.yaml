@@ -11,6 +11,12 @@ summary:
 wings: [people]
 regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
+occupations:
+  - job: job/shaykh-al-islam
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'shaykh-al-islam', Job Browser linking wave"
+    sources: [source/dawlat-uthmaniyya-salabi]
 relations:
   - { type: lived_in, target: place/anatolia, confidence: low, note: "Active in this region per the record's own regions field; coarse association pending a precise place.", sources: [source/dawlat-uthmaniyya-salabi] }
 sources: [source/dawlat-uthmaniyya-salabi]
