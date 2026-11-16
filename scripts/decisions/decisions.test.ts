@@ -24,7 +24,7 @@ const precedents: Precedent[] = [
   },
 ];
 
-describe("decide pipeline (POC)", () => {
+describe("decide pipeline", () => {
   it("routes non-delegable questions to the founder docket in conservative mode", () => {
     const d = decide({ question: "Should we deploy this batch to production now?" }, precedents, "conservative");
     expect(d.status).toBe("founder-docket");
