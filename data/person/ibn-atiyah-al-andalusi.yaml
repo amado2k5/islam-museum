@@ -36,6 +36,22 @@ wings: [people]
 themes: [scripture-and-its-sciences]
 regions: [andalus-europe]
 periods: [period/buyid-seljuk-fatimid-era]
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 33"
+    sources: [source/al-aalam, source/muharrar-wajiz-dar-ibn-hazm]
+  - job: job/qadi
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'judge', Job Browser linking wave 33"
+    sources: [source/al-aalam, source/muharrar-wajiz-dar-ibn-hazm]
+  - job: job/poet
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'poet', Job Browser linking wave 33"
+    sources: [source/al-aalam, source/muharrar-wajiz-dar-ibn-hazm]
 relations:
   - { type: lived_in, target: place/granada, sources: [source/muharrar-wajiz-dar-ibn-hazm] }
   - { type: lived_in, target: place/almeria, note: "Judge of Almería from 529 AH for more than ten years", sources: [source/muharrar-wajiz-dar-ibn-hazm] }

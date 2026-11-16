@@ -13,6 +13,10 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v2.07.0 — 2026-11-17
+### Added
+- Job Browser linking wave 33: 33 `occupations:` edges on 25 person records — eleven emirs, eight muhaddiths, plus faqih, qadi, philosopher, mufti and scholar multi-links (Mulla Sadra, al-Marghinani).
+
 ## v2.06.0 — 2026-11-17
 ### Added
 - Twenty-five more records of Ibn Sina's Canon, Book III (the diseases of each organ, head to foot), volume 2, scan pages 180 to 196, still in the eye fann: the close of maqala 2 (pus under the conjunctiva — Paulus's transmitted treatment; cancer in the eye, its signs and its palliative treatment; the gharb lacrimal fistula and canthus swelling, the akhilus abscess and its treatment to the bone; increase and decrease of the canthus flesh; the whiteness ghamam and leucoma; the sabal vessel-woven veil and its excision; pterygium, its scraping and the author's own tried triturate; the tarfa blood-spot; epiphora; squint, its muscle and convulsion causes and the cradle management of the congenital kind; protrusion of the eye, its swelling, pressing and relaxation kinds; the eye's sinking; the blueness of the eye and the shahla with the answer to Empedocles) and the opening of maqala 3 on the lids (lice, salaq, lid dryness, thickness, irritation, heaviness, adhesion to the ball, the saddiyya flesh, eversion of the lid in its three kinds, the hail-stone). Each is a trilingual concept in the Medicine Browser cited to the printed page; the book's lines on women, menses, the lochia, the foetus and the foster-nurse are kept as labelled listings for the founder's ruling; Paulus's collyrium advice, Galen's permission and the author's own tried report are carried as the book's attributions and labelled; recipes, doses, drug and plant names, vein, cupping, cautery and excision sites are not reproduced, and the hand-works (excision, scraping, lancing, cautery, perforation) are carried as the book's descriptions, not as procedures.

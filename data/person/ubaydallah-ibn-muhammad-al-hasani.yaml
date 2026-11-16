@@ -17,6 +17,12 @@ periods:
 - period/abbasid-fragmentation
 regions:
 - arabia
+occupations:
+  - job: job/emir
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'emir', Job Browser linking wave 33"
+    sources: [source/sira-hadi-ila-al-haqq]
 relations:
 - type: allied_with
   target: person/al-hadi-yahya-al-rassi

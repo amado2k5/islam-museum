@@ -26,6 +26,17 @@ born:
   status: historical
   note: "Date and place (Kampung Gong Pauh, Kemaman, Terengganu) from the English Wikipedia article."
   sources: [source/wikipedia-zulkifli-mohamad-al-bakri-en]
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 33"
+    sources: [source/wikipedia-zulkifli-mohamad-al-bakri-en, source/instagram-zulkifli-mohamad-al-bakri]
+  - job: job/mufti
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'mufti', Job Browser linking wave 33"
+    sources: [source/wikipedia-zulkifli-mohamad-al-bakri-en, source/instagram-zulkifli-mohamad-al-bakri]
 relations:
   - { type: born_in, target: place/terengganu, sources: [source/wikipedia-zulkifli-mohamad-al-bakri-en] }
   - { type: lived_in, target: place/kuala-lumpur, sources: [source/wikipedia-zulkifli-mohamad-al-bakri-en] }
