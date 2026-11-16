@@ -113,6 +113,16 @@ Order of work: 1 to 21 and 25 first; 22 to 24 last, after the ruling asked for i
 - **Urdu sharab** is rendered "the drink (sharab)" with an isolated parenthesis; **khamr** is wine.
 - **Render every cited page to an image** (pdftoppm) before a packet leaves drafting; OCR-only reading missed a drug-list quote and a dropped clause.
 
+### Conventions added by the verifier of a4-canon-book3-3 (16 Nov 2026), binding on a4-canon-book3-4 onward
+
+- **Check the page image for every list of signs.** The OCR drops clauses in lists of signs; read the rendered page before a sign list leaves drafting (a4-canon-book3-3 restored dropped signs on pp.79, 85 and 87 from the images).
+- **Carry printed variants exactly** (for example "sabar" on p.80, "al-satira al-mutawassita" on p.74); never normalise a printed spelling or phrase, and mark it as printed.
+- **Keep quantity words out of cure records** ("very much", amounts of blood or other matter, how often): they are measures.
+- **Name no drug, plant or scented class** in a cure record, not even as a class (narcotics, cool scented things, oils).
+- **Neutral cure headings:** no heading such as "compounded remedies" or "after the crisis" that the book does not give; use "food and what follows", "blending the two extremes of cure" and the like.
+- **Wound records state classification and prognosis only**, never the procedure (closing, mending, dressing).
+- **Summaries never name an application form** (poultice, liniment, fomentation); they say only "recipes and methods of application are left out".
+
 ## 7. What is different from Book II, and what needs a decision
 
 1. **The book is mostly treatment.** Book III's chapters on cure are recipes (compound drugs, quantities, cooking and application methods) and procedures (venesection, cupping, cautery, incision, bladder and stone surgery, the extraction of the foetus). The records give cause, signs, course and the *kind* of approach (bleed, purge, cool, dry, regimen) as attributed statements, and say "recipes and quantities are not reproduced" and "the procedure is not reproduced"; a recipe or a procedure is never rewritten. This is the Book II rule applied to a book where it removes most of the text, so the drafter must read for the doctrine (temperament, humour, cause, sign) and not copy the pharmacy.
