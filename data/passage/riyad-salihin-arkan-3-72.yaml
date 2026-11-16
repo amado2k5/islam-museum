@@ -1,0 +1,16 @@
+id: passage/riyad-salihin-arkan-3-72
+class: passage
+unit: chapter
+work: work/riyad-al-salihin
+ref: "3:72"
+label: { ar: "رياض الصالحين للنووي، المجلد المصوَّر 3، ص 72 — وصف المسلم", en: "al-Nawawi's Riyad al-Salihin, scan volume 3, p. 72 — a description of the Muslim", ur: "ریاض الصالحین، نووی، اسکین جلد 3، ص 72 — مسلمان کا وصف" }
+text: "… لَهُ عَمَلٌ صَالَحٌ أَخِدَ مِنْهُ بِتَدْرٍ مظلمتِهِ، وإنْ لَمْ يَكُنْ لَهُ حسنَّات أُخِذَ مِنْ سيئَاتِ صاحبِهِ فَحُمِلَ عَلَيْهِ رواء البخارى. - ومن عبد اللَّه بن مَمْرو بن العاصما من النَّبِيِّ مل العلم قال : المُسْلِمُ مَنْ سَلِمَ المُسْلِمُونَ مِنْ لِسانِهِ …"
+summary:
+  ar: "مقطع من رياض الصالحين للنووي، المجلد المصوَّر 3، ص 72، يذكر وصف المسلم؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح أركان الإسلام وأركان الإيمان وشعب الإيمان وخصال المؤمن."
+  en: "An excerpt from al-Nawawi's Riyad al-Salihin, scan volume 3, p. 72, that mentions a description of the Muslim; from the machine-read scan, quoted within forty words per the sources policy. The Pillars and Branches of Faith Browser lists it."
+  ur: "ریاض الصالحین، نووی، اسکین جلد 3، ص 72 کا اقتباس جس میں مسلمان کا وصف کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ ارکانِ اسلام، ارکانِ ایمان، شعبِ ایمان اور مومن کی خصلتوں کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/khisal-al-mumin, sources: [source/riyad-al-salihin] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan hadith/riyad-salihin/AAlexandrina-021516, page 72; a window of at most 40 words chosen by the pillars and branches of faith detector (scripts/arkan.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "arkan-ocr-1" }
+sources: [source/riyad-al-salihin]
+status: { review: published, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words; the excerpt is machine-read and not corrected" }

@@ -1,0 +1,40 @@
+id: job/sailor
+class: job
+label: { ar: "الملّاح", en: "Sailor (levent)", ur: "ملّاح" }
+names:
+  - { value: "ملّاح", kind: alternate }
+  - { value: "levent", kind: latinized, lang: tr }
+  - { value: "بحّار", kind: alternate }
+  - { value: "levantino", kind: latinized, lang: it }
+summary:
+  ar: "اللوند جندي البحرية العثمانية الذي تقاتل به السفن الحربية: أصل الكلمة إيطالية «levantino» أي الجندي الشرقي استعملها البنادقة لبحّارة استقدموهم من سواحل ألبانيا وكرواتيا، ثم صار لونداً في التركية والفارسية. سُجّل شبّان سواحل الأناضول الغربي ومرمرة في الأسطول باسم لوند وعُرفوا بـ«لوند رومي»، ولكل سفينة نصيب منهم — مئة في الفرقاطة إلى أربعمئة في القليون — تحت آغا اللوندين وجاوشهم، يهاجمون في الحرب بقوارب اللوند ويأخذون أجراً، ومن كثرة شغبهم ألزمتهم الدولة بالكفلاء وبنت لهم ثكنات في أحياء إسطنبول."
+  en: "The levent was the fighting sailor of the Ottoman fleet: the word came from the Italian levantino, 'eastern soldier', which the Venetians used for sea-soldiers drawn from the Albanian and Croatian coasts, and it passed into Turkish and Persian as levend. Young men raised on the western Anatolian and Marmara shores were enrolled in the fleet as levents — 'levend-i Rûmî' — and each ship carried its number, eighty to a hundred in a frigate and up to four hundred in a galleon, under their agha and chavush; they attacked in the levent boats and drew pay. So often did they turn to raiding merchantmen and plundering ashore that the state bound each man to a surety and built barracks for the 'native levents' in the quarters of Istanbul."
+  ur: "لوند عثمانی بحریہ کا لڑنے والا ملاح تھا: لفظ اطالوی levantino یعنی «مشرقی سپاہی» سے آیا جو وینس کے لوگ البانیہ و کروشیا کے ساحلوں سے لائے گئے سمندری سپاہیوں کے لیے کہتے، اور ترکی و فارسی میں levend ہو گیا۔ مغربی اناطولیہ اور مرمرہ کے ساحلوں کے نوجوان لوند کے نام سے بیڑے میں بھرتی ہوتے اور «لوند رومی» کہلاتے؛ ہر جہاز میں ان کی مقررہ تعداد ہوتی — فرقاطے میں اسی سے سو اور گیلین میں چار سو تک — اپنے آغا اور چاؤش کے نیچے، وہ لوند کی کشتیوں سے حملہ کرتے اور تنخواہ پاتے۔ تجارتی جہازوں پر حملے اور ساحل پر لوٹ مار کے سبب حکومت نے ہر ایک پر کفیل لازم کیا اور استنبول کے محلوں میں «مقامی لوندوں» کے لیے بیرک بنوائے۔"
+domain: trade-travel-sea
+kind: military
+hirfa: true
+craft:
+  materials: []
+era:
+  origins: early-modern
+  status_today: replaced
+places:
+  - { place: place/istanbul, note: "Levents enrolled in the fleet lodged partly in the khans of Istanbul — the 'yerli levent' — and the kapudan-ı derya Hoca Süleyman Paşa built levent barracks in Istanbul proper, Üsküdar, Galata, Beşiktaş, Hasköy and Eyüp to keep them under discipline; the Levent barracks on the Bosphorus heights later became the Levent farm.", sources: [source/tdv-levent] }
+regions: [anatolia-balkans, egypt-nile, levant-iraq]
+organization:
+  organized: mixed
+workplaces: []
+outputs: []
+wings: [people]
+periods: [period/mongol-post-mongol, period/gunpowder-empires, period/colonial-era, period/modern-era]
+sources: [source/tdv-levent]
+training:
+  mode: apprenticeship
+  certification: "The sea levents were raised from the coastal youth of western Anatolia and the Marmara, enrolled by name in the fleet and paid a wage; service ran under each ship's leventler ağası and leventler çavuşu, and after 1648 the levents and kalyoncu took the place of the azebs as the galleons multiplied. The state bound every levent to a kefil for his conduct ashore."
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-trade-1" }
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi 'LEVENT' (İlgürel, 2003; vol. 27 pp. 149-151), read on the web on 16 Nov 2026"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-trade-1-drafting"

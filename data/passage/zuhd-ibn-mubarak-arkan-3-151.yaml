@@ -1,0 +1,16 @@
+id: passage/zuhd-ibn-mubarak-arkan-3-151
+class: passage
+unit: chapter
+work: work/kitab-al-zuhd-ibn-al-mubarak
+ref: "3:151"
+label: { ar: "الزهد لابن المبارك، المجلد المصوَّر 3، ص 151 — مَثَل المؤمن", en: "Ibn al-Mubarak's Kitab al-Zuhd, scan volume 3, p. 151 — the likeness of the believer", ur: "کتاب الزہد، ابن المبارک، اسکین جلد 3، ص 151 — مومن کی مثال" }
+text: "… من الخطيئة من العصفور حين يقذف به. حدثنا سعيد بن أبى أيوب الخزاعى قال : حدثنا عبد اللَّه ابن الوليد عن أبى سليمان الليثى عن أبى سعيد الخدرى عن النبى ي قال : مثل المؤمن ومثل الايمان كمثل الفرس فى …"
+summary:
+  ar: "مقطع من الزهد لابن المبارك، المجلد المصوَّر 3، ص 151، يذكر مَثَل المؤمن؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح أركان الإسلام وأركان الإيمان وشعب الإيمان وخصال المؤمن."
+  en: "An excerpt from Ibn al-Mubarak's Kitab al-Zuhd, scan volume 3, p. 151, that mentions the likeness of the believer; from the machine-read scan, quoted within forty words per the sources policy. The Pillars and Branches of Faith Browser lists it."
+  ur: "کتاب الزہد، ابن المبارک، اسکین جلد 3، ص 151 کا اقتباس جس میں مومن کی مثال کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ ارکانِ اسلام، ارکانِ ایمان، شعبِ ایمان اور مومن کی خصلتوں کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/khisal-al-mumin, sources: [source/zuhd-ibn-mubarak-azami-scan] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan adab-zuhd/zuhd-ibn-mubarak/ar117myst53_202212, page 151; a window of at most 40 words chosen by the pillars and branches of faith detector (scripts/arkan.ts); OCR text not corrected", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "arkan-ocr-1" }
+sources: [source/zuhd-ibn-mubarak-azami-scan]
+status: { review: published, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the OCR'd book; label and summary are the museum's own words; the excerpt is machine-read and not corrected" }

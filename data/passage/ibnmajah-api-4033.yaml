@@ -1,0 +1,17 @@
+id: passage/ibnmajah-api-4033
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "4033"
+label: { ar: "سنن ابن ماجه 4033 — حلاوة الإيمان وكماله، خصال من كنّ فيه", en: "Sunan Ibn Majah 4033 — the sweetness and completeness of faith; traits that, found in a person, mark faith", ur: "سنن ابن ماجہ 4033 — ایمان کی مٹھاس اور اس کا کمال، وہ خصلتیں جو جس میں ہوں" }
+text: "… قَالَ سَمِعْتُ قَتَادَةَ، يُحَدِّثُ عَنْ أَنَسِ بْنِ مَالِكٍ، قَالَ قَالَ رَسُولُ اللَّهِ ـ \" ثَلاَثٌ مَنْ كُنَّ فِيهِ وَجَدَ طَعْمَ الإِيمَانِ - وَقَالَ بُنْدَارٌ حَلاَوَةَ الإِيمَانِ - مَنْ كَانَ يُحِبُّ الْمَرْءَ لاَ يُحِبُّهُ إِلاَّ لِلَّهِ. وَمَنْ كَانَ اللَّهُ وَرَسُولُهُ أَحَبَّ إِلَيْهِ مِمَّا سِوَاهُمَا. وَمَنْ كَانَ أَنْ يُلْقَى فِي النَّارِ أَحَبَّ إِلَيْهِ مِنْ أَنْ يَرْجِعَ فِي …"
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 4033، يذكر حلاوة الإيمان وكماله، وخصال من كنّ فيه. يجمعه متصفح أركان الإسلام وأركان الإيمان وشعب الإيمان وخصال المؤمن مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في هذه الأبواب الأربعة."
+  en: "A report in Sunan Ibn Majah, no. 4033 (Tribulations), that mentions the sweetness and completeness of faith, traits that, found in a person, mark faith. The Pillars and Branches of Faith Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the reports of the Companions and Successors on the pillars of Islam, the pillars of faith, the branches of faith and the traits of the believer."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 4033، جس میں ایمان کی مٹھاس اور اس کا کمال، وہ خصلتیں جو جس میں ہوں کا ذکر ہے۔ ارکانِ اسلام، ارکانِ ایمان، شعبِ ایمان اور مومن کی خصلتوں کا براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/shuab-al-iman, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/khisal-al-mumin, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 4033 (book 36 hadith 108); matn excerpt of at most 55 words, honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "arkan-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: published, completeness: 1, generated_by: "Claude (claude-fable-5-2) from the hadith-api Arabic edition; label and summary are the museum's own words" }

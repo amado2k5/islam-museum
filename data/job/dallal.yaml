@@ -1,0 +1,44 @@
+id: job/dallal
+class: job
+label: { ar: "الدلّال", en: "Broker and crier (dallal)", ur: "دلّال" }
+names:
+  - { value: "دلّال", kind: alternate }
+  - { value: "تلّال", kind: alternate }
+  - { value: "سمسار", kind: alternate }
+  - { value: "dellâl", kind: latinized, lang: tr }
+  - { value: "simsar", kind: latinized, lang: tr }
+  - { value: "منادي", kind: alternate }
+summary:
+  ar: "الدلّال من يتوسّط بين البائع والمشتري حتى يتمّ البيع، ومنه في المدن الإسلامية صنفان: دلّال التجارة يجري بالبضاعة في الأسواق منادياً على الثمن حتى يقع العقد ويأخذ «الدلّالية»، ودلّال الأخبار يطوف الأسواق منادياً بالخبر والأمر السلطاني. عُرف السمسار والدلّال منذ عصر النبوة، وتخصّص الدلّالون بأصناف البضائع في فاطميين ومماليك، وتنظّموا في لجان عثمانية برأسهم الدلّال باشي والأمين، وكانت الدلّالة النساء يدخلن الحرملك بائعات القماش، وكان منهم دلّالو سوق الجوار."
+  en: "The dallal stood between buyer and seller until the bargain was struck, and the Islamic city knew two kinds: the trade dallal who carried the goods up and down the market crying the last bid until the sale was made and taking his dellaliye fee, and the news dallal who proclaimed tidings and sultanic orders through the bazaars. Broker and crier are known from the prophetic age; the Fatimids let dallals deal only in certain goods, the Mamluks charged them two per cent on their sales, and the Ottomans organised them in guilds under a dellalbaşı and an emin, with women dellale selling cloth inside the harems and esirci dallals working the slave market."
+  ur: "دلّال وہ تھا جو خریدار اور بیچنے والے کے درمیان معاملہ پورا کراتا۔ اسلامی شہر میں دو قسمیں ملتی ہیں: تجارتی دلّال جو بازار میں مال لے کر بولیاں پکارتا اور فروخت پر دلّالیہ اجرت لیتا، اور خبری دلّال جو بازاروں میں حکم اور خبر کا اعلان کرتا۔ یہ صنعت نبوی زمانے سے معلوم ہے؛ فاطمیوں میں دلّال صرف مخصوص جنسوں میں وساطت کرتے تھے، ممالیک کے یہاں فروخت کا دو فیصد دلّالیہ ملتا جس کا آدھا حصہ حکومت کو جاتا تھا، اور عثمانیوں میں یہ لوگ دلّال باشی اور امین کے نیچے انجمنوں میں منظم تھے، ان میں حرم میں کپڑا بیچنے والی دلّالے عورتیں اور بازارِ غلاماں کے اسرجی دلّال بھی شامل تھے۔"
+domain: trade-travel-sea
+kind: commercial
+hirfa: true
+craft:
+  materials: []
+era:
+  origins: prophetic
+  status_today: transformed
+places:
+  - { place: place/istanbul, note: "In mid-seventeenth-century Istanbul Evliya Çelebi counted 200 trade dellals in the outer bedestan and seventy in the new bedestan, and the 1640 narh register gives 120 each in the bezzazistan and the flea market; their guilds of the bedestan-ı enderun, bedestan-ı birun and bedestan-ı cedid had Ebü'n-Nidâ as pir.", sources: [source/tdv-dellal] }
+  - { place: place/tokat, note: "Tokat, an important trade centre in the second half of the fifteenth century, counted twenty-six dellals in the registers, twenty-one of them Muslims and five non-Muslim.", sources: [source/tdv-dellal] }
+  - { place: place/cairo, note: "In Lane's Cairo the dellals ran the weekly auctions of the suqs, carrying the goods up and down and crying the bids with shouts of 'harâj'; Mamluk law had earlier set their fee at two per cent of the sale, half of it paid to the state.", sources: [source/tdv-dellal, source/lane-modern-egyptians] }
+regions: [arabia, levant-iraq, egypt-nile, anatolia-balkans]
+organization:
+  organized: guild
+workplaces: []
+outputs: []
+wings: [people, living]
+periods: [period/prophetic-era, period/rashidun, period/umayyad, period/abbasid-early, period/abbasid-fragmentation, period/buyid-seljuk-fatimid-era, period/crusades-ayyubid-mamluk, period/mongol-post-mongol, period/gunpowder-empires]
+sources: [source/tdv-dellal, source/tdv-simsar, source/lane-modern-egyptians]
+training:
+  mode: apprenticeship
+  certification: "The dellal worked inside the guild: Mehmed II's kanunname has corrupt dellals dismissed by the simsars and their dellal berats taken, and the guild emins policed honesty; practising without a berth was forbidden, and a dellal might not broker outside the trade he was bound to. In fiqh the brokerage is a two-sided binding contract of hire: the fee must be known and lawful, and the Prophet's warning to the simsars of Baqi — to avoid oaths and empty talk — stands as the craft's charter."
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-trade-1" }
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi 'DELLÂL' (Halaçoğlu, 1994; vol. 9 pp. 145-146) and 'SİMSAR' (Kallek, 2009; vol. 37 pp. 215-218), read on the web on 16 Nov 2026; Lane, Modern Egyptians 5th ed. ch. XIV, read in the downloaded scan"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-trade-1-drafting"

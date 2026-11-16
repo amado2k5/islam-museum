@@ -1,0 +1,42 @@
+id: job/caravan-leader
+class: job
+label: { ar: "قائد القافلة", en: "Caravan leader (kervancıbaşı)", ur: "قافلہ سالار" }
+names:
+  - { value: "kervancıbaşı", kind: latinized, lang: tr }
+  - { value: "قائد القافلة", kind: alternate }
+  - { value: "صاحب القافلة", kind: alternate }
+  - { value: "قافلة سالار", kind: alternate, lang: ur }
+summary:
+  ar: "قائد القافلة هو من يسيّر قافلة البهائم الحاملة للبضائع والركّاب بين البلدان البعيدة، فيعرف طرقها ومواضع الماء والمنازل، ويقسّم السير نهاراً وليلاً، ويحرسها بأصحاب السلاح والمناوبين والبيرقدار الذي يمشي وراءه يلوّح بالراية عند الخطر، وعند النزول تُنزَل الأحمال وتُرتَّب البضائع حصناً للدفاع. كانت أقدم قوافل منظّمة معروفة قوافل تجّار آشور بين آشور وكانش، وحملت قوافل قريش تجارتها شتاءً وصيفاً، وبلغت قوافل الحج أحياناً مئة ألف راكب ودابة، وكان أصحاب الماء «التكاشفة» يُستخدمون أدلّاء في الصحارى حتى إن بعض البلدان اختاروا العميان لحدّة حواسّهم."
+  en: "The caravan leader marched a train of pack animals carrying goods and travellers between distant towns: he knew the route, the wells and the halting-places, ordered the marches by day and night, and guarded the train with armed men, drummed watchmen and the bayraktar who rode behind him waving the banner when danger came; at halts the loads were stacked into a four-cornered breastwork. The first known regular caravan business ran donkey trains between Assur and Kanesh; the Quraysh caravans carried Mecca's trade winter and summer; hajj caravans could reach a hundred thousand souls and beasts; and desert guides called tekşif were hired to find water, some countries choosing blind men for the sharpness of their senses."
+  ur: "قافلہ سالار دور دراز شہروں کے درمیان مال اور مسافر اٹھانے والے جانوروں کے قطار کو چلاتا تھا: راستہ، چشمے اور منزلیں جانتا، دن رات کے سفر کا انتظام کرتا، مسلح محافظوں، ڈھول بجانے والے چوکیداروں اور خطرے پر جھنڈا ہلانے والے بیرقدار سے قافلے کی حفاظت کراتا، اور پڑاؤ پر بوجھ چار کونے کی سنگل بناتا۔ پہلی معلوم باقاعدہ قافلہ بازی آشور اور کانیش کے درمیان گدھوں کے قطاروں سے چلی؛ قریش کے قافلے سردی گرمی میں مکہ کی تجارت اٹھاتے؛ حج قافلوں کی تعداد ایک لاکھ تک پہنچ جاتی؛ اور پانی کی تلاش کے لیے تکشف نامی رہنما رکھے جاتے، بعض ممالک میں ان کی حسّی کی تیزی کے سبب نابینا لوگ چنے جاتے۔"
+domain: trade-travel-sea
+kind: commercial
+hirfa: true
+craft:
+  materials: []
+era:
+  origins: pre-islamic
+  status_today: transformed
+places:
+  - { place: place/mecca, note: "The chiefs of Quraysh, honoured as guardians and servants of the sanctuary, arranged trading privileges for their caravans with the Byzantine, Sasanian, Abyssinian and Yemeni courts in 467, and sent them to Yemen and Abyssinia in winter and to Palestine, Syria, Egypt and Iraq in summer.", sources: [source/tdv-kervan] }
+  - { place: place/kayseri, note: "The earliest known regular caravan business ran the donkey trains of the Assyrian merchants between Assur and Kanesh (Kültepe, Kayseri) in 1900-1750 BCE, carrying tin and cloth out and gold, silver, copper and wool back under the city-states' protection.", sources: [source/tdv-kervan] }
+  - { place: place/istanbul, note: "In Murad IV's Istanbul three thousand people earned their living by caravan work, and regular runs like the Belgrade caravan linked the capital to the western lands while smaller hired 'makkârî' trains worked between the cities.", sources: [source/tdv-kervan] }
+regions: [arabia, levant-iraq, egypt-nile, maghreb, persia-central-asia, anatolia-balkans, west-africa-sahel, south-asia]
+organization:
+  organized: informal
+workplaces: []
+outputs: []
+wings: [people]
+periods: [period/pre-islamic-arabia, period/prophetic-era, period/rashidun, period/umayyad, period/abbasid-early, period/abbasid-fragmentation, period/buyid-seljuk-fatimid-era, period/crusades-ayyubid-mamluk, period/mongol-post-mongol, period/gunpowder-empires, period/colonial-era, period/modern-era]
+sources: [source/tdv-kervan]
+training:
+  mode: apprenticeship
+  certification: "No licence or school is recorded for the caravan leader: the craft was learned on the road — the water-places of the deserts, the bell and cord that kept the camels strung together, the watch-drums, the banner signals and the packing of the goods into a defensible square at halts."
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-trade-1" }
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi 'KERVAN' (Bozkurt & Yüksel, 2022; vol. 25 pp. 298-299), read on the web on 16 Nov 2026"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-trade-1-drafting"
