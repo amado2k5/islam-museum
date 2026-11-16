@@ -58,10 +58,13 @@ export interface QiraatShown { node: Node; images: Node[] }
 const shown = (section: QiraatSection): QiraatShown[] =>
   qiraatItems.filter((i) => i.section === section).map((i) => ({ node: i.node, images: qiraatImagesOf(i.node.id) })).filter((x) => x.images.length > 0);
 /** The scripts that have at least one image, and the mushafs and calligraphers that have one: the gallery's three rooms. */
+/** The gallery walks the scripts roughly as they appeared: the early mushaf hands, the Kufic family, the west, the six pens, the later eastern hands. A script not listed follows, by id. */
+const SCRIPT_ORDER = ["hijazi-script", "mail-script", "kufic-script", "floriated-kufic", "new-style-script", "maghribi-script", "naskh-script", "thuluth-script", "muhaqqaq-script", "rayhan-script", "riqa-script", "tawqi-script", "taliq-script", "nastaliq-script", "shikasta-script", "divani-script", "bihari-script"];
+const scriptRank = (id: string) => { const k = SCRIPT_ORDER.indexOf(id.replace("concept/", "")); return k < 0 ? SCRIPT_ORDER.length : k; };
 /** A page in a master's hand, never a likeness: only images that also show a script, a work or a mushaf are taken for a person. */
 const ofAHand = (m: Node) => ((m.data.depicts as string[] | undefined) ?? []).some((t) => /^(concept|object|work)\//.test(t));
 export const qiraatGallery = {
-  scripts: shown("scripts"), mushafs: shown("mushafs"),
+  scripts: shown("scripts").sort((x, y) => scriptRank(x.node.id) - scriptRank(y.node.id)), mushafs: shown("mushafs"),
   hands: shown("people").map((x) => ({ ...x, images: x.images.filter(ofAHand) })).filter((x) => x.images.length > 0),
 };
 
