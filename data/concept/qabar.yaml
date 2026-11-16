@@ -1,0 +1,23 @@
+id: concept/qabar
+class: concept
+kind: natural
+label:
+  ar: "قبر"
+  en: "Qabar"
+  ur: "قبر"
+summary:
+  ar: "القبر في الكتاب إذا استمرئ غذّى غذاء كثيرا لكنه بطيء الهضم {cite:canon-ibn-sina-print-v1 p.660}"
+  en: "Qabar is in the book, once digested, a food that nourishes much, but slow to digest {cite:canon-ibn-sina-print-v1 p.660}"
+  ur: "قبر کتاب میں ہے کہ جب ہضم ہو جائے تو بہت غذا دیتا ہے لیکن اس کا ہضم سست ہے {cite:canon-ibn-sina-print-v1 p.660}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter qaf (the nineteenth chapter), scan page 660, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for doubtful headings; editor footnotes used only for identity; measured doses, weights, counts, times and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-27
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

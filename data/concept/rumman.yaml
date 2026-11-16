@@ -1,0 +1,23 @@
+id: concept/rumman
+class: concept
+kind: natural
+label:
+  ar: "رمان"
+  en: "Rumman"
+  ur: "رمّان"
+summary:
+  ar: "الرمان في الكتاب الحلو منه بارد إلى الأولى رطب فيها والحامض بارد يابس في الثانية، والحامض يقمع الصفراء ويمنع سيلان الفضول، وجميع أصنافه جلاء مع القبض، وحبه بالعسل للداحس والقروح الخبيثة ووجع الأذن والقلاع، وأقماعه للجراحات، وينفع من نفث الدم والخفقان ويجلو الفؤاد وجيده المز للمعدة، وقشور أصل الرمان بالنبيذ يخرج الديدان، ويذكر الكتاب سويقه لشهوة الحبالى نقلا موسوما {cite:canon-ibn-sina-print-v1 pp.666-667}"
+  en: "Rumman is in the book, the sweet cold to the first degree and moist in it, and the sour cold and dry in the second; the sour suppresses bile and stops the flowing of superfluities, and all its kinds cleanse with astringency; its seeds with honey are for whitlow, foul ulcers, ear pain and mouth sores, its calyces for wounds; it benefits spitting of blood and palpitation, and cleanses the heart, the tart being good for the stomach; the bark of the root with nabidh expels worms; and the book lists, as a labelled report, its sawiq for the craving of pregnant women {cite:canon-ibn-sina-print-v1 pp.666-667}"
+  ur: "رمان کتاب میں، میٹھا پہلے درجے تک ٹھنڈا اور اس میں تر ہے اور کھٹا دوسرے درجے میں ٹھنڈا خشک؛ کھٹا صفراء کو دباتا اور فضلات کے بہاؤ کو روکتا ہے، اور اس کی تمام قسمیں قبض کے ساتھ جلاء کرتی ہیں؛ اس کے دانے شہد کے ساتھ داحس، خبیث قرحوں، کان کے درد اور منہ کے چھالوں کے لیے ہیں، اس کے قمع زخموں کے لیے؛ خون تھوکنے اور دھڑکن میں نافع ہے اور دل کو جلا دیتا ہے، اور ترش معدے کے لیے اچھا ہے؛ جڑ کی چھال نبیذ کے ساتھ کیڑے نکالتی ہے؛ اور کتاب منقول فہرست کے طور پر حاملہ عورتوں کی خواہش کے لیے اس کا ستو درج کرتی ہے {cite:canon-ibn-sina-print-v1 pp.666-667}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter ra (the twentieth chapter), scan pages 666-667, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for doubtful headings; editor footnotes used only for identity; measured doses, weights, counts, times and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-27
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

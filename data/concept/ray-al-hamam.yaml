@@ -1,0 +1,23 @@
+id: concept/ray-al-hamam
+class: concept
+kind: natural
+label:
+  ar: "رعي الحمام"
+  en: "Ray al-hamam"
+  ur: "رعی الحمام"
+summary:
+  ar: "رعي الحمام في الكتاب حشيش له حب كحب الآس أو قريب منه، حار في الأولى رطب يابس في الثانية، يدمل الجراحات ويمنع سعي الخبيثة ويحلل الأورام البلغمية، وطبيخه يسود الشعر، وفي الكتاب نقل موسوم عن الطمث والجنين {cite:canon-ibn-sina-print-v1 p.662}"
+  en: "Ray al-hamam is in the book a herb with a seed like the seed of the myrtle or near it, hot in the first degree and moist and dry in the second; it heals wounds, stops the spread of malignant ulcers and dissolves phlegmatic swellings, its decoction blackens the hair, and the book also lists a labelled report on menses and the foetus {cite:canon-ibn-sina-print-v1 p.662}"
+  ur: "رعی الحمام کتاب میں ایک گھاس ہے جس کا دانہ آس کے دانے جیسا یا اس کے قریب ہے، پہلے درجے میں گرم اور دوسرے میں تر خشک؛ زخموں کو بھرتی ہے، خبیث قرحوں کے پھیلاؤ کو روکتی ہے اور بلغمی ورموں کو تحلیل کرتی ہے، اس کا جوشاندہ بالوں کو سیاہ کرتا ہے، اور کتاب حیض اور جنین کے بارے میں منقول فہرست بھی درج کرتی ہے {cite:canon-ibn-sina-print-v1 p.662}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter ra (the twentieth chapter), scan page 662, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for doubtful headings; editor footnotes used only for identity; measured doses, weights, counts, times and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-27
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }
