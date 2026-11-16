@@ -14,6 +14,9 @@ open a new block on top with the new version and today's date.
 ---
 
 ## v1.50.0 — 2026-11-16
+### Fixed
+- Green CI again: the 3D tour's al-Fihrist stop now cites both of the record's sources (the Rahmaniyya Cairo scan was added by the qiraat lane and the tour copy had gone stale); the did-you-know pool is back at its one-fact-a-day size of 365 after four overflow facts on modern Indonesian figures were removed; the canon register `docs/canon.md` is regenerated so it matches the 942 records actually marked `importance` (and four hand-set `importance` flags on question records — which the register has no class for — are removed, since the canon is set only by `scripts/report/canon.py`); the fact-of-day wrap test no longer crosses a year boundary in its check.
+
 ### Added
 - Job Browser: six more trades join the professions — the saddler (sarraj) of Mehmed II's castle-factory and his five-thousand-man guild, the launderer (qassar) bound by hisba's deposit rules, the felt-maker (lubbud) of the keche caps and campaign baths, the grocer (baqqal), the bow-maker (qawwas) of the composite bow and the Ok-maidan range, and the armourer who forged and inlaid the mail — in Arabic, English and Urdu draft cited to Evliya Çelebi's guild procession, Ibn al-Ukhuwwa, Lane, al-Shayzari, and Elgood's *Islamic Arms and Armour* — the packet that completes the hirfa taxonomy.
 
