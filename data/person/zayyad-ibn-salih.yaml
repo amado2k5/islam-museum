@@ -6,6 +6,11 @@ summary:
 wings: [people]
 gender: male
 died: { edtf: "754", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tarikh al-Rusul wa-al-Muluk (al-Tabari)" }
+faith:
+  - value: sunni
+    basis: tradition
+    note: "Abbasid military commander documented in the Islamic historical tradition; Sunni is the museum's default frame where no contrary tradition is named."
+    sources: [source/encyclopaedia-of-islam-2]
 relations:
   - { type: traveled_to, target: place/balkh, sources: [source/tabari-tarikh-abu-al-fadl] }
 sources: [source/tabari-tarikh-abu-al-fadl]
