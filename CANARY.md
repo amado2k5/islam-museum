@@ -13,6 +13,10 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v1.65.0 — 2026-11-16
+### Added
+- Job Browser: six scholarly and religious roles — the professor as the holder of a madrasa chair (müderris), the orientalist (müsteşrik), the religious scholar (ʿālim), the philosopher (faylasūf), the preacher (wāʿiẓ) and the sociologist — in Arabic, English and Urdu draft cited to TDV ORYANTALİZM, VÂFÎ and the landed icazet/fetva/vaaz entries, plus Lane, the Legacy of Islam and Ibn al-Ukhuwwa.
+
 ## v1.64.0 — 2026-11-16
 ### Added
 - Job Browser: five sport and patronage professions — the wrestler (pehlivan), the archer (kemankeş) of the Okmeydanı ranges, the cirit-player, the waqf founder (waqif) and the patron (ḥāmī) — in Arabic, English and Urdu draft cited to the TDV entries GÜREŞ, OK, CİRİT, VAKIF and HİMAYE, plus Evliya Çelebi, Lane and Elgood.

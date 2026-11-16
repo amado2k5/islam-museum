@@ -1,0 +1,50 @@
+id: job/professor
+class: job
+label: { ar: "الأستاذ الجامعي ⁦(المدرّس في المدرسة)⁩", en: "Professor (müderris — holder of a madrasa chair)", ur: "پروفیسر ⁦(مدرّس — مدرسے کے درس گاہ کا صاحب)⁩" }
+names:
+  - { value: "مُدَرِّس", kind: alternate }
+  - { value: "müderris", kind: latinized, lang: tr }
+  - { value: "dersiâm", kind: latinized, lang: tr }
+  - { value: "professor", kind: latinized }
+broader: job/teacher
+summary:
+  ar: "المدرّس بمعنى الوظيفة هو صاحب كرسيّ التدريس في المدرسة، لا المعلّم عموماً: لقب استقرّ بعدما أنشأ نظام الملك المدارس النظامية في القرن الخامس الهجري، وكان التعيين رسمياً يقترن بمراسم وخلعة، وكان للمدرّس مدة خدمة وأجر. وفي المدرسة المستنصرية ببغداد ⁦(افتُتحت سنة 634هـ كما يذكر غيوم)⁩ قامت أربع مدارس فقهية للمذاهب السنية الأربعة على رأس كل منها أستاذ يتلقى راتباً شهرياً ويشرف على خمسة وسبعين فقيهاً يُخصَّص لكل منهم دينار ذهب في الشهر. وفي الدولة العثمانية صار المدرّس درجة في سلّم العلمية تُنال بالتدرّج في الرُّتب وبامتحان، ومنه ينتقل المدرّس إلى القضاء، حتى أُسقط اللقب سنة 1933؛ وكان الدرسيام مدرّساً مرخّصاً يقرأ الدروس العامة في المساجد الكبرى يُمتحن بعد الإجازة. وفي الأزهر كان من يكفّ للتدريس ينال إذنه من شيخ المسجد."
+  en: "The professor, as an office rather than a calling, is the holder of a teaching chair in a madrasa — not the teacher in general. The title settled after Nizam al-Mulk founded the Nizamiyya madrasas in the fifth hijri century; appointment was official, attended by ceremony and a robe of honour, and the post carried a term of service and a salary. At Baghdad's Mustansiriyya — opened, Guillaume writes, in 1234 — four law-schools of the Sunni rites each stood under a professor drawing a monthly salary, in charge of seventy-five jurist-students to each of whom a gold dinar a month was assigned. In the Ottoman state the müderris became a grade in the learned hierarchy, won by rising through the ranks and by examination, and the road from the chair led to the judgeship, until the title was dropped in 1933; the dersiam was a licensed müderris giving public lessons in the great mosques, examined after his ijaza. At al-Azhar, Lane reports, whoever was competent became a professor by licence of the sheykh of the mosque."
+  ur: "پروفیسر بطور منصب مدرسے کی تدریسی کرسی کا صاحب ہے، عمومی معلم نہیں۔ یہ لقب نظام الملک کی پانچویں صدی ہجری کی نظامیہ درس گاہوں کے بعد پکا ہوا؛ تقرری رسمی ہوتی، تقریب اور خلعت کے ساتھ، اور منصب کی میعاد اور تنخواہ ہوتی۔ بغداد کی مستنصریہ میں ⁦(گیوم کے بیان کے مطابق 1234ء میں کھلی)⁩ سنی مذاہب کے چار فقہی مدارس تھے، ہر ایک کے سروں پر ماہانہ تنخواہ دار پروفیسر، جس کے حوالے پچھتر فقیہ طلبہ ہوتے اور ہر طالب کو ماہانہ ایک دینار ملتا۔ عثمانی سلطنت میں مدرس علمیہ مدارج کا درجہ بنا، رتبوں کی ترقی اور امتحان سے ملتا، اور اس سے قضاء کی طرف راہ کھلتی، یہاں تک کہ 1933ء میں لقب ختم ہوا؛ درسیام وہ مستند مدرس تھا جو بڑی مسجدوں میں عام درس پڑھاتا اور اجازت کے بعد امتحان دیتا۔ لین لکھتا ہے کہ ازہر میں جو اہل ہوتا شيخ المسجد کے اجازت نامے سے استاد بن جاتا۔"
+domain: scholarship-teaching
+kind: office
+hirfa: false
+era:
+  origins: medieval
+  first_attested:
+    edtf: "1067-09-22"
+    precision: day
+    status: historical
+    note: "The TDV survey dates the opening of the Baghdad Nizamiyya to 10 Dhu al-Qada 459 / 22 September 1067, distinct from its construction begun in 457/1065 and from the earlier Nishapur foundation; the office of müderris in the madrasa system is attested from this setting."
+    sources: [source/tdv-nizamiye-medresesi]
+  status_today: transformed
+places:
+  - { place: place/nishapur, note: "The earlier Nizamiyya foundation preceded Baghdad's; the TDV survey warns against calling any one of them 'the first madrasa'.", sources: [source/tdv-nizamiye-medresesi] }
+  - { place: place/baghdad, note: "The Baghdad Nizamiyya opened 10 Dhu al-Qada 459 / 22 September 1067; the TDV müderris entry records in Alp Arslan's reign the dismissal of Ibn al-Sabbagh and the return of Abu Ishaq al-Shirazi to the chair. Guillaume dates the Mustansiriyya to 1234, with its four professorships and monthly salaries.", sources: [source/tdv-nizamiye-medresesi, source/tdv-muderris, source/legacy-of-islam-1931] }
+  - { place: place/istanbul, note: "In Ottoman Istanbul the müderris was a graded office reached by ranks and examination, leading toward the judgeship; the dersiam gave public lessons in the great mosques, the entry counting them in 1869, and the müderris title itself ended in 1933.", sources: [source/tdv-muderris, source/tdv-dersiam] }
+  - { place: place/cairo, note: "At al-Azhar, Lane writes, anyone competent could become a professor by obtaining a licence from the sheykh of the mosque; professors lived by teaching in private houses and copying books, sometimes receiving presents from the wealthy.", sources: [source/lane-modern-egyptians] }
+regions: [levant-iraq, egypt-nile, persia-central-asia, anatolia-balkans, maghreb, south-asia]
+organization:
+  organized: mixed
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era, period/crusades-ayyubid-mamluk, period/mongol-post-mongol, period/gunpowder-empires, period/modern-era]
+sources: [source/tdv-muderris, source/tdv-dersiam, source/tdv-nizamiye-medresesi, source/legacy-of-islam-1931, source/lane-modern-egyptians]
+training:
+  mode: ijaza-chain
+  certification: "The professor's warrant is the scholar's ijaza carried into office. In the Ottoman system the müderris ranks came by graded promotion and examination, and from the chair the path ran to the judgeship; the dersiam's public teaching licence was itself examined after the ijaza. At al-Azhar the licence issued from the sheykh of the mosque."
+  duration: "The long learned formation of the 'ulama, then the ladder of the Ottoman rütbeler; the entry's Ottoman section describes appointment, the apprenticeship and the examination as a settled career."
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-scholar-2" }
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi 'MÜDERRİS' (Bozkurt; İpşirli, 2020), 'DERSİÂM' (İpşirli, 1994), 'NİZÂMİYE MEDRESESİ' (Özaydın, 2007); Guillaume, 'Philosophy and Theology' in The Legacy of Islam (1931); Lane, Modern Egyptians ch. IX — read 16 Nov 2026"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-scholar-2-drafting"
