@@ -12,6 +12,12 @@ wings: [people]
 regions: [maghreb]
 periods: [period/umayyad]
 died: { edtf: "0750", precision: year, status: tradition, derived: true }
+occupations:
+  - job: job/wali
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'governor', Job Browser linking wave"
+    sources: [source/al-aalam]
 relations:
   - { type: lived_in, target: place/ifriqiya, confidence: low, note: "Associated with إفريقية per the record's own summary text; relation type pending review.", sources: [source/al-aalam] }
 sources: [source/al-aalam]

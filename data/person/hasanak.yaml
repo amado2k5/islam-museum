@@ -17,6 +17,12 @@ wings: [people]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [persia-central-asia]
 died: { edtf: "1032", hijri: "0423", calendar: julian, precision: year, status: tradition, derived: true, note: "EI2 gives 28 Safar 423 and itself remarks that the equivalent it names, 14 February 1032, fell on a Monday, not the Wednesday it reports; the Gregorian conversion is therefore derived and approximate. {cite:encyclopaedia-of-islam-2 vol. 3 p. 276}", sources: [source/encyclopaedia-of-islam-2] }
+occupations:
+  - job: job/vizier
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'vizier', Job Browser linking wave"
+    sources: [source/encyclopaedia-of-islam-2]
 relations:
   - { type: related_to, target: person/mahmud-ghaznawi, note: "Vizier of Mahmud of Ghazna from 415/1024 until Mahmud's death.", sources: [source/encyclopaedia-of-islam-2] }
   - { type: related_to, target: person/al-qadir-billah, note: "The Abbasid caliph suspected him of being a Qarmati and again pressed for his trial.", sources: [source/encyclopaedia-of-islam-2] }

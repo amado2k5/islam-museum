@@ -13,6 +13,10 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v1.86.0 — 2026-11-17
+### Added
+- Job Browser linking wave 12: 25 `occupations:` edges on 25 person records — the grand-vizier, vizier and merchant pools fully linked (Köprülü-era grand viziers, Buyid and Delhi viziers, early merchants), plus ten wali governor links.
+
 ## v1.85.0 — 2026-11-17
 ### Added
 - Job Browser linking wave 11: 38 `occupations:` edges on 25 person records — the orientalist pool fully linked (Goldziher, Watt, Corbin, Carra de Vaux, Sale and four more), plus grand-vizier, vizier, merchant and ruler links on Ottoman, Sokoto and early Islamic figures.

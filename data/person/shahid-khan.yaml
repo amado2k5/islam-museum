@@ -21,6 +21,12 @@ born:
   derived: true
   note: "Born 18 July 1950 in Lahore, attested by the English and Arabic articles and by Wikidata's birth statement. The hijri year is a tabular derived conversion of the Gregorian date, which is why derived is true; the date falls inside 1369 AH."
   sources: [source/wikipedia-shahid-khan-en, source/wikipedia-shahid-khan-ar, source/wikidata-shahid-khan]
+occupations:
+  - job: job/merchant
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'businessman', Job Browser linking wave"
+    sources: [source/wikipedia-shahid-khan-en, source/wikipedia-shahid-khan-ar, source/wikidata-shahid-khan]
 relations:
   - { type: born_in, target: place/lahore, sources: [source/wikipedia-shahid-khan-en, source/wikipedia-shahid-khan-ar] }
 faith:

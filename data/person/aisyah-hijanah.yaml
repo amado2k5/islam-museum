@@ -19,6 +19,12 @@ born:
   status: historical
   note: "Date and place from TheCityCeleb's biography (born 6 January 1998, Kuala Lumpur). Another aggregator's introduction gives 1 June 1998 while its own fact list gives 6 January; the conflict is recorded here rather than silently resolved, and the date rests on aggregator-grade evidence."
   sources: [source/thecityceleb-aisyah-hijanah]
+occupations:
+  - job: job/merchant
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'entrepreneur', Job Browser linking wave"
+    sources: [source/thecityceleb-aisyah-hijanah, source/hype-aisyah-hijanah-2024, source/socialveins-aisyahhijanah, source/instagram-aisyahhijanah]
 relations:
   - { type: born_in, target: place/kuala-lumpur, sources: [source/thecityceleb-aisyah-hijanah] }
   - { type: lived_in, target: place/johor-bahru, sources: [source/socialveins-aisyahhijanah] }
