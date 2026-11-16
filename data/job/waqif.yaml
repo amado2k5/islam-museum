@@ -1,0 +1,43 @@
+id: job/waqif
+class: job
+label: { ar: "الواقف", en: "Waqf founder (wāqif)", ur: "وقف کا بانی ⁦(واقف)⁩" }
+names:
+  - { value: "واقف", kind: alternate }
+  - { value: "vâkıf", kind: latinized, lang: tr }
+  - { value: "حابس", kind: alternate }
+  - { value: "مسبّل", kind: alternate }
+  - { value: "moûhât", kind: latinized }
+summary:
+  ar: "الواقف هو الذي يوقف ماله على وجه خير إلى الأبد: يخرج العقار أو المال من ملكه ويحبس ريعه للفقراء أو لمصلحة دينية أو اجتماعية. أجمع الفقهاء على أن شروط الواقف أن يكون عاقلاً بالغاً رشيداً حراً غير محجور عليه، ولا يُشترط فيه ولا في المستفيدين الإسلام ولا التبعية لدولة الإسلام. بدأ التوقيف من عهد النبي وأصحابه حتى قال جابر بن عبد الله إنه لا يعلم مالكاً من المهاجرين والأنصار لم يوقف، وتدرّج من أرض عمر بخيبر وبئر رومة لعثمان إلى أوقاف السلاطين والأمراء والنساء والعامة حتى صار «أهم مؤسسات الحضارة الإسلامية»."
+  en: "The wāqif endowed property for a charitable purpose in perpetuity: the land or cash left his ownership and its yield was sealed to the poor or to a religious or social good. The jurists agreed the founder must be sane, adult, prudent, free and not interdicted — and required Islam of neither founder nor beneficiary. The practice began with the Prophet and the Companions — Umar's land at Khaybar, Uthman's purchase of the Well of Ruma, Ali's land and spring at Yanbu' — until Jabir ibn Abdallah said he knew no property-owner among the Muhajirun and Ansar who had not made a waqf; then it ran from caliphs and sultans and women of the dynasties down to modest founders, until the waqf stood as one of the chief institutions of Islamic civilisation. The founder set the conditions in his deed — who managed, who benefited, what the workers earned — and the waqf outlived him, his only earthly tie the du'a the deed asked for his memory."
+  ur: "واقف وہ شخص تھا جو اپنی جائیداد ہمیشہ کے لیے کسی نیک مقصد پر وقف کر دیتا: زمین یا مال اس کی ملکیت سے نکل کر اس کی آمدن غریبوں یا کسی دینی و سماجی بھلائی کے لیے محبوس ہو جاتی۔ فقہاء کے اتفاق سے بانی کو عاقل، بالغ، رشید، آزاد اور غیر محجور ہونا ضروری تھا — بانی یا مستفید کا مسلمان یا ریاستِ اسلام کی تابعیت شرط نہ تھی۔ یہ عمل نبی اور صحابہ کے زمانے سے شروع ہوا — خیبر میں عمر کی زمین، عثمان کا رومہ کا کنواں، علی کی ینبوع کی زمین و چشمہ — یہاں تک کہ جابر بن عبداللہ کہتے ہیں کہ مہاجرین و انصار میں کوئی مالدار ایسا نہیں ملا جس نے وقف نہ کیا؛ پھر خلفاء، سلاطین، خاندانوں کی خواتین اور عام بانیوں تک پہنچا، یہاں تک کہ وقف اسلامی تہذیب کی اہم ترین مؤسسات میں شمار ہونے لگا۔"
+domain: patronage-public-life
+kind: office
+hirfa: false
+era:
+  origins: prophetic
+  status_today: living
+places:
+  - { place: place/medina, note: "The practice began in the Prophet's Medina: he made his shares of Fadak and Khaybar and some Medina plots sadaqa for the Muslims; Umar sealed his Khaybar land on the Prophet's counsel 'hold the principal, give the yield', Uthman bought the Well of Ruma for all Muslims, and Ali endowed land and a spring at Yanbu'.", sources: [source/tdv-vakif] }
+  - { place: place/bursa, note: "Orhan Gazi endowed a field near newly-conquered Bursa for horse-races and cirit games — a waqf for sport.", sources: [source/tdv-cirit] }
+  - { place: place/istanbul, note: "The wrestlers' tekkes of Istanbul and the provinces lived off the vakıf revenues their founders had settled on them.", sources: [source/tdv-gures] }
+regions: [arabia, levant-iraq, egypt-nile, maghreb, anatolia-balkans, persia-central-asia, south-asia, andalus-europe]
+organization:
+  organized: informal
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people]
+periods: [period/prophetic-era, period/rashidun, period/umayyad, period/abbasid-early, period/abbasid-fragmentation, period/buyid-seljuk-fatimid-era, period/crusades-ayyubid-mamluk, period/mongol-post-mongol, period/gunpowder-empires, period/colonial-era, period/modern-era, period/contemporary-era]
+sources: [source/tdv-vakif, source/tdv-gures, source/tdv-cirit]
+training:
+  mode: mixed
+  certification: "No training or licence — the 'profession' was the act itself. The jurists set the conditions: the founder must be of full legal capacity — sane, adult, prudent, free, un-interdicted — and his declaration had to be final, not time-bound nor subject to a dissolving condition; in the Hanafi doctrine the words 'vakıf', 'habs' and 'tesbîl' were explicit declaration, 'sadaqa' a figurative one."
+  duration: "A single deed made the wāqif; registration by a judge's ruling, a death-bound waqf by will, or actual use — prayer held in a dedicated mosque, burial in a dedicated cemetery — made it binding."
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-sport-1" }
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi, 'VAKIF' (Günay & Yediyıldız, 2012) fiqh and history sections; 'GÜREŞ' (Özcan, 1996) and 'CİRİT' (Halıcı, 1993) for the sport endowments, web editions read on 16 Nov 2026"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-sport-1-drafting"

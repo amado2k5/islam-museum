@@ -13,6 +13,10 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v1.64.0 — 2026-11-16
+### Added
+- Job Browser: five sport and patronage professions — the wrestler (pehlivan), the archer (kemankeş) of the Okmeydanı ranges, the cirit-player, the waqf founder (waqif) and the patron (ḥāmī) — in Arabic, English and Urdu draft cited to the TDV entries GÜREŞ, OK, CİRİT, VAKIF and HİMAYE, plus Evliya Çelebi, Lane and Elgood.
+
 ## v1.63.0 — 2026-11-16
 ### Added
 - Job Browser: six land and water occupations — the farmer (fellah), the herder, the falconer (doğancı) of the Ottoman court ward, the camel-driver (şütürbân/sârbân), the fisherman of the Istanbul guilds, and the gardener (bostancı) of the palace corps — in Arabic, English and Urdu draft cited to the TDV entries ZİRAAT, DOĞANCI, AVCI, DEVE and BOSTANCI, plus Lane, Evliya Çelebi and Ibn al-Ukhuwwa.
