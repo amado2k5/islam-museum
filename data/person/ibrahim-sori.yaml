@@ -30,6 +30,12 @@ died:
   note: "No born block is built: no article read gives a birth year for Sori at all, and Wikidata's birth value is recorded at century precision only — the eighteenth century, not an attestation; the century queue's about-1725 is an inference from his cousin's generation and is attested in no source read. His death year is genuinely unresolved inside the sources themselves. The summary lines of the English and French articles give about 1784, the French article's bibliography cites the Historical Dictionary of Guinea's entry Barry, Ibrahima Sori (?-1784), and Wikidata gives 1784; but the narratives of both articles state that the military faction remained in control until Sori's death in 1791-1792, after which his son Sa'id held office until 1797-1798. The record builds about-1784 on the date lines and carries the 1791-1792 reading here in full, under the status debated. A year about 1784 spans the Hijri years 1198 and 1199, so no Hijri year is recorded."
   sources: [source/wikipedia-ibrahim-sori-en, source/wikipedia-ibrahim-sori-fr, source/wikidata-ibrahim-sori]
 
+occupations:
+  - job: job/commander
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'general', Job Browser linking wave 23"
+    sources: [source/wikipedia-ibrahim-sori-en, source/wikipedia-ibrahim-sori-fr, source/wikidata-ibrahim-sori]
 relations:
   - { type: died_in, target: place/guinea, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikipedia-ibrahim-sori-en, source/wikipedia-ibrahim-sori-fr, source/wikidata-ibrahim-sori] }
   - { type: successor_of, target: person/karamokho-alfa, sources: [source/wikipedia-ibrahim-sori-en, source/wikipedia-ibrahim-sori-fr] }

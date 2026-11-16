@@ -19,6 +19,12 @@ themes: [spirituality-and-sufism]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [persia-central-asia, anatolia-balkans]
 died: { edtf: "1240~", hijri: "0638", calendar: julian, precision: year, status: debated, derived: true, note: "EI2 vol. 10 says he may have died in 638/1240; the Rumi article in vol. 2 says probably 637/1239-40 {cite:encyclopaedia-of-islam-2 vol. 2 p. 419}." }
+occupations:
+  - job: job/teacher
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'teacher', Job Browser linking wave 23"
+    sources: [source/encyclopaedia-of-islam-2]
 relations:
   - { type: student_of, target: person/baha-al-din-walad, role: "تلميذ وخليفة", sources: [source/encyclopaedia-of-islam-2] }
   - { type: influenced, target: person/jalal-al-din-rumi, note: "Spiritual master of Rumi at Konya, per EI2.", sources: [source/encyclopaedia-of-islam-2] }

@@ -31,6 +31,17 @@ faith:
     basis: unknown
     note: "Wikidata records his religion only as Islam, and the Arabic article names no school of law or creed (it lists chains of transmission he holds in, among others, al-Tahawiyya and al-Wasitiyya, which are texts, not a stated school). In 'Hadaya al-Rahman' (ep24 00:03:00) he states a point of creed 'as Ahl al-Sunna wa-l-Jama'a say', an attestation by the speaker himself that counts as one source only. Recorded as unknown under the publication-standard faith rule until a second independent source names a school, following the person/abla-al-kahlawi and person/ahmad-farid precedents."
     sources: [source/wikipedia-mustafa-hosny-ar, source/wikidata-mustafa-hosny, source/assabile-mustafa-hosny]
+occupations:
+  - job: job/preacher
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'preacher', Job Browser linking wave 23"
+    sources: [source/wikipedia-mustafa-hosny-ar, source/wikidata-mustafa-hosny, source/assabile-mustafa-hosny]
+  - job: job/teacher
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'teacher', Job Browser linking wave 23"
+    sources: [source/wikipedia-mustafa-hosny-ar, source/wikidata-mustafa-hosny, source/assabile-mustafa-hosny]
 relations:
   - { type: born_in, target: place/cairo, sources: [source/wikidata-mustafa-hosny] }
   - { type: lived_in, target: place/cairo, sources: [source/wikipedia-mustafa-hosny-ar] }
