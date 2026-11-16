@@ -13,6 +13,10 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v2.18.0 — 2026-11-17
+### Added
+- Job Browser linking wave 44: 40 `occupations:` edges on 25 person records — finishes the faqih and mutakallim pools; plus mufti, qadi, preacher, philosopher, grammarian, historian and calligrapher links.
+
 ## v2.17.0 — 2026-11-17
 ### Added
 - Job Browser linking wave 43: 29 `occupations:` edges on 25 person records — fourteen mutakallims (pool effectively finished), eleven faqihs, plus physician, poet (Tahira Qurrat al-Ayn) and historian links.

@@ -22,6 +22,17 @@ born:
 roles: [scholar, mufti]
 regions: [anatolia-balkans]
 wings: [people, living]
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 44"
+    sources: [source/wikipedia-ceric-en, source/wikipedia-ceric-ar, source/wikipedia-ceric-bs, source/wikidata-ceric, source/islamskazajednica-ceric-interview-2012, source/wikidata]
+  - job: job/mufti
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'mufti', Job Browser linking wave 44"
+    sources: [source/wikipedia-ceric-en, source/wikipedia-ceric-ar, source/wikipedia-ceric-bs, source/wikidata-ceric, source/islamskazajednica-ceric-interview-2012, source/wikidata]
 relations:
   - { type: lived_in, target: place/sarajevo, sources: [source/wikipedia-ceric-bs] }
 faith:

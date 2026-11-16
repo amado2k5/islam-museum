@@ -29,6 +29,17 @@ died:
   derived: true
   note: "Gregorian date from English Wikipedia and Wikidata. The Hijri year is derived by conversion (repository converter, scripts/hijri/convert.ts); no source in hand states it."
   sources: [source/wikipedia-hamka-en, source/wikidata-hamka]
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 44"
+    sources: [source/wikipedia-hamka-en, source/wikipedia-hamka-ar, source/wikidata-hamka]
+  - job: job/philosopher
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'philosopher', Job Browser linking wave 44"
+    sources: [source/wikipedia-hamka-en, source/wikipedia-hamka-ar, source/wikidata-hamka]
 relations:
   - { type: died_in, target: place/jakarta, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hamka] }
   - { type: lived_in, target: place/jakarta, sources: [source/wikipedia-hamka-en] }
