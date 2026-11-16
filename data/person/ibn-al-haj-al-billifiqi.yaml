@@ -11,6 +11,17 @@ summary:
 wings: [people]
 regions: [andalus-europe]
 periods: [period/mongol-post-mongol]
+occupations:
+  - job: job/qadi
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'qadi', Job Browser linking wave 45"
+    sources: [source/al-aalam, source/wikidata]
+  - job: job/historian
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'historian', Job Browser linking wave 45"
+    sources: [source/al-aalam, source/wikidata]
 relations:
   - { type: born_in, target: place/velefique, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/almeria, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

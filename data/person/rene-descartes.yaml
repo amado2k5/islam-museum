@@ -24,5 +24,11 @@ provenance:
   model: claude-haiku-5-5
   run: azhar-min-al-falsafa-1
 status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5)" }
+occupations:
+  - job: job/philosopher
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'philosopher', Job Browser linking wave 45"
+    sources: [source/min-al-falsafa-al-yunaniyya-azhar]
 relations:
   - { type: lived_in, target: place/al-haditha, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/min-al-falsafa-al-yunaniyya-azhar] }

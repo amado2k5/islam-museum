@@ -25,6 +25,17 @@ status:
   completeness: 2
 born: { edtf: "1832", hijri: "1248", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam) Confirmed on 13 November 2026 against Wikidata Q12223605 (P569, a statement with a reference), item revision 2533250106.", sources: [source/wikidata] }
 died: { edtf: "1874", hijri: "1291", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: al-Zirikli (al-A'lam) Agrees with Wikidata Q12223605 (P570, a statement without a reference), item revision 2533250106, read on 13 November 2026.", sources: [source/wikidata] }
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 45"
+    sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
+  - job: job/qadi
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'qadi', Job Browser linking wave 45"
+    sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 relations:
   - { type: lived_in, target: place/iraq, note: "Place association from the person's nisba/name (الآلوسي); denotes association, not proven residence.", sources: [source/al-aalam], confidence: low }
   - { type: lived_in, target: place/basra, note: "al-Zirikli, al-A'lam vol. 4 p. 136: judge of Basra for two years", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
