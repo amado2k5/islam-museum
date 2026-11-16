@@ -18,3 +18,6 @@ In 1872 the minister Ali Mubarak appointed the blind scholar al-Husayn al-Marsaf
 
 ## Bibliography named by the article
 The article's bibliography names Muhammad Abd al-Jawwad, Takwim Dar al-Ulum (Cairo 1952), with a supplement for 1946-59. {cite:encyclopaedia-of-islam-2 vol. 2 p. 146}
+
+## In The Oxford Dictionary of Islam
+According to The Oxford Dictionary of Islam, Dar al-Ulum was an Egyptian university founded in 1872 to prepare teachers in modern subjects, with a mixed curriculum of religious and non-religious subjects. Its first students came from al-Azhar, the mosque and university, and teaching leaned on memorizing; later, modernist ulama and lay figures steered it elsewhere. The Dictionary says its budget was deliberately kept tight while the British controlled Egypt, so that Egyptians with a modern education could not challenge London's authority. It adds that the college stayed a hybrid shaped by al-Azhar and by the government, and eventually had no reason to exist when Egypt's state universities took up teacher training; it merged with Cairo University. {cite:oxford-dictionary-of-islam e498}

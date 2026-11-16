@@ -10,11 +10,12 @@ coordinates: [45.3, 63.9]
 coordinate_precision: approx
 coordinate_note: "Coordinates from Wikidata; community-maintained, treated as approximate until checked against a gazetteer."
 external_ids: { wikidata: "Q27275" }
-sources: [source/wikidata]
+sources: [source/wikidata, source/oxford-dictionary-of-islam]
 provenance:
   layer: own-research
   source: "Wikidata item Q27275 (labels, description, coordinates P625), read via the Wikidata API in the battles geo-enrichment run."
   generated_by: "Devin"
   model: "Devin (Cognition)"
   run: battles-geo-places-3
+  oxford_captures: "t125/e414: http://www.oxfordislamicstudies.com/article/opr/t125/e414 ; https://web.archive.org/web/20130402062805/http://www.oxfordislamicstudies.com:80/article/opr/t125/e414"
 status: { review: draft, completeness: 1, generated_by: "Devin" }

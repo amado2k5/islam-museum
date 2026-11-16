@@ -37,7 +37,7 @@ relations:
   - { type: participated_in, target: event/death-al-mizzi-742, sources: [source/durar-kamina-jil-1993], role: "صهره وراوي خبر وفاته" }
   - { type: participated_in, target: event/ibn-kathir-blind-772, sources: [source/durar-kamina-jil-1993] }
   - { type: participated_in, target: event/ibn-kathir-death-774, sources: [source/suluk-maqrizi, source/durar-kamina-jil-1993] }
-sources: [source/viaf-cluster-90039047, source/durar-kamina-jil-1993, source/suluk-maqrizi, source/al-aalam, source/tabaqat-shafiiyya-subki, source/wafayat-ayan, source/shadharat-dhahab, source/qisas-al-anbiya-ibn-kathir-farmawi-1997, source/biblissima, source/openiti-corpus]
+sources: [source/viaf-cluster-90039047, source/durar-kamina-jil-1993, source/suluk-maqrizi, source/al-aalam, source/tabaqat-shafiiyya-subki, source/wafayat-ayan, source/shadharat-dhahab, source/qisas-al-anbiya-ibn-kathir-farmawi-1997, source/biblissima, source/openiti-corpus, source/oxford-dictionary-of-islam]
 external_ids:
   viaf: "90039047"
   wikidata: Q369690
@@ -49,6 +49,7 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: wikidata-import-0005, lib-durar-kamina-batch-1-2-2026-10-31, explorer-ibn-kathir-1
+  oxford_captures: "t125/e947: http://www.oxfordislamicstudies.com/article/opr/t125/e947 ; https://web.archive.org/web/20180317053940/http://www.oxfordislamicstudies.com:80/article/opr/t125/e947"
 importance: 2
 status:
   review: published

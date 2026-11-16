@@ -1,0 +1,23 @@
+id: concept/istidlal-min-al-quwa-al-siyasiyya-wa-al-ahlam
+class: concept
+kind: scientific
+label:
+  ar: "الاستدلال من القوى السياسية والأحلام"
+  en: "Inference from the governing powers and from dreams"
+  ur: "سیاسی قوتوں اور خوابوں سے استدلال"
+summary:
+  ar: "يذكر ابن سينا ما تدل عليه آفات الخيال والفكر والذكر، من برد أو حر أو ورم أو مادة صفراوية أو سوداوية، وما تدل عليه الأحلام {cite:canon-ibn-sina-print-v2 pp.13-14}"
+  en: "Ibn Sina gives what afflictions of imagination, thought and memory indicate, whether cold, heat, a swelling or a bilious or black-bilious matter, and what dreams indicate {cite:canon-ibn-sina-print-v2 pp.13-14}"
+  ur: "ابن سینا بتاتا ہے کہ تخیل، فکر اور حافظے کی آفتیں سردی، گرمی، ورم یا صفراوی یا سوداوی مادے میں سے کس پر دلالت کرتی ہیں، اور خوابوں کی دلالت کیا ہے {cite:canon-ibn-sina-print-v2 pp.13-14}۔"
+wings: [living]
+tags: [tibb-browser, tibb-tibb]
+sources: [source/canon-ibn-sina-print-v2]
+relations:
+  - { type: part_of, target: concept/symptoms-and-signs, sources: [source/canon-ibn-sina-print-v2] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 1, maqala 1, scan pages 13-14, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json) with the PDF page images rendered with pdftoppm and read by eye for every heading and doubtful clause; editor footnotes used only for glosses and labelled as the editor's; doses, quantities, times, ratios, named drug combinations, preparation and procedure details left out; unclear lines left out, not guessed; womb, menses, foetus, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book3-1
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

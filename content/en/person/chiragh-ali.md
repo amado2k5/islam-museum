@@ -34,3 +34,6 @@ Principal works: Proposed Political, Legal and Social Reforms Under Moslem Rule 
 - English Wikipedia, "Chiragh Ali", revision 1362332749. {cite:wikipedia-chiragh-ali-en}
 - Arabic Wikipedia, «شيراغ علي», revision 73778242. {cite:wikipedia-chiragh-ali-ar}
 - Wikidata, Q5101801. {cite:wikidata-chiragh-ali}
+
+## In The Oxford Dictionary of Islam
+The Oxford Dictionary of Islam describes Chiragh Ali, who died in 1895, as an Indian modernist writer who became prominent as a backer of Sayyid Ahmad Khan and of the Aligarh movement. It records a post as Hyderabad's secretary for revenue and political affairs in 1877, and says that, like Sir Sayyid, he held the Quran and modern science to be compatible. His apologetic writings in a modernist vein replied to missionaries and orientalists who called Islam incapable of reform, and maintained that Islam prescribes no one political or social order. He advocated education for women and attacked polygyny and divorce. The Dictionary adds that his works were influential among Muslims with a Western education from the late 1800s into the 1900s. {cite:oxford-dictionary-of-islam e429}

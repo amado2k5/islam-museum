@@ -19,3 +19,6 @@ Sha'rawi holds that Judaism and Christianity both came after Abraham, so neither
 
 ## Note on this entry
 This is Sha'rawi's reading, taken from a scanned copy whose edition is not yet verified, and it is presented under his name. A lexical reading of the root from dictionaries and Qur'anic vocabulary works has not yet been added (needs_source). See also [[concept/islam-common-religion-of-prophets|Islam as the shared religion of the prophets]] and [[person/ibrahim|Abraham]].
+
+## In The Oxford Dictionary of Islam
+A hanif, says The Oxford Dictionary of Islam, is a person who is entirely straight in every matter, following Abraham, whose worship was purely monotheistic, sincere, and wholly surrendered and obedient to God. These qualities make up the straight religion of Islam, which Muslims take to be the original nature and goodness in which humankind was made. To be a hanif, the Dictionary explains, is to keep this orientation to the one God for life, and to stay clear of every kind of polytheism and of the divisions into sects that religious communities like the Jews and Christians brought in. It notes that before Islam the word named devout people who held to one God without joining a Jewish or Christian community. {cite:oxford-dictionary-of-islam e800} This is a different reading from Sha'rawi's, given above, which starts from the root of the word.

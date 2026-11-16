@@ -23,3 +23,6 @@ Omar Abdelkafy relates al-Farazdaq's poem in praise of Ali Zayn al-Abidin, when 
 
 ## In al-Dhahabi's Mizan al-I'tidal
 [[person/al-dhahabi|Al-Dhahabi]] lists al-Farazdaq, Abu Firas the poet, in [[work/mizan-al-itidal|Mizan al-I'tidal]], noting that he narrated from Companions. {cite:mizan-itidal-bijawi-v3 p. 345} He reports that [[person/ibn-hibban|Ibn Hibban]] declared him weak, saying he slandered chaste women so his narration must be avoided, and comments: "he narrated little". {cite:mizan-itidal-bijawi-v3 p. 345}
+
+## In The Oxford Dictionary of Islam
+In The Oxford Dictionary of Islam al-Farazdaq, who died about 728, is an Arab poet who spent most of his life in Basra yet kept the outlook and manner of the Bedouin in his verse. His praise poems are judged his finest; his poems count among the final attempts at imitating the pre-Islamic manner. The Dictionary calls his temperament eccentric, mentions his great literary rivalry with the poet Jarir ibn Atiyya, who lived in the same period, and adds that he probably held Alid sympathies. {cite:oxford-dictionary-of-islam e622}

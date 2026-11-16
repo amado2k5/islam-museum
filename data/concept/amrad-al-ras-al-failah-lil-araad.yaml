@@ -1,0 +1,23 @@
+id: concept/amrad-al-ras-al-failah-lil-araad
+class: concept
+kind: scientific
+label:
+  ar: "أمراض الرأس الفاعلة للأعراض فيه"
+  en: "The diseases of the head that produce symptoms in it"
+  ur: "سر کی وہ بیماریاں جو اس میں علامات پیدا کرتی ہیں"
+summary:
+  ar: "يقول ابن سينا إن أمراض الرأس هنا هي أمراض الدماغ وحجبه: سوء المزاج مفرداً أو مع مادة، وأمراض التركيب، والسدد، وتفرق الاتصال، والأورام، وإنها خاصة أو بالمشاركة؛ وفيها سطر موسوم في قسم معلق لحكم المؤسس {cite:canon-ibn-sina-print-v2 pp.9-10}"
+  en: "Ibn Sina says that by the head here he means the brain and its membranes, and lists its diseases: ill-temperament alone or with matter, diseases of composition, obstructions, breaks of continuity and swellings, either its own or by sharing; the record has a labelled line in a section held for the founder's ruling {cite:canon-ibn-sina-print-v2 pp.9-10}"
+  ur: "ابن سینا کہتا ہے کہ یہاں سر سے مراد دماغ اور اس کی جھلیاں ہیں، اور اس کی بیماریاں گنتا ہے: سوءِ مزاج اکیلا یا مادے کے ساتھ، ترکیب کی بیماریاں، سدّے، اتصال ٹوٹنا اور ورم، خاص ہوں یا مشارکت سے؛ اس میں ایک موسوم سطر بانی کے فیصلے کے لیے موقوف قسم میں ہے {cite:canon-ibn-sina-print-v2 pp.9-10}۔"
+wings: [living]
+tags: [tibb-browser, tibb-tibb]
+sources: [source/canon-ibn-sina-print-v2]
+relations:
+  - { type: part_of, target: concept/disease, sources: [source/canon-ibn-sina-print-v2] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 1, maqala 1, scan pages 9-10, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json) with the PDF page images rendered with pdftoppm and read by eye for every heading and doubtful clause; editor footnotes used only for glosses and labelled as the editor's; doses, quantities, times, ratios, named drug combinations, preparation and procedure details left out; unclear lines left out, not guessed; womb, menses, foetus, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book3-1
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

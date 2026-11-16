@@ -1,0 +1,23 @@
+id: concept/istidlal-min-al-afal-al-harakiyya-wa-al-nawm
+class: concept
+kind: scientific
+label:
+  ar: "الاستدلال من الأفعال الحركية والنوم واليقظة"
+  en: "Inference from the motor acts, sleep and waking"
+  ur: "حرکی افعال، نیند اور بیداری سے استدلال"
+summary:
+  ar: "يبين ابن سينا ما تدل عليه الأفعال الحركية بطلاناً وضعفاً وتغيراً، وما يدل عليه النوم واليقظة والسهر من رطوبة أو برد أو يبوسة {cite:canon-ibn-sina-print-v2 pp.14-15}"
+  en: "Ibn Sina shows what the motor acts indicate when they fail, weaken or change, and what sleep, waking and sleeplessness indicate of moisture, cold or dryness {cite:canon-ibn-sina-print-v2 pp.14-15}"
+  ur: "ابن سینا بتاتا ہے کہ حرکی افعال کے باطل، کمزور یا تبدیل ہونے سے، اور نیند، بیداری اور بے خوابی سے رطوبت، سردی یا خشکی میں سے کس پر دلالت ہوتی ہے {cite:canon-ibn-sina-print-v2 pp.14-15}۔"
+wings: [living]
+tags: [tibb-browser, tibb-tibb]
+sources: [source/canon-ibn-sina-print-v2]
+relations:
+  - { type: part_of, target: concept/symptoms-and-signs, sources: [source/canon-ibn-sina-print-v2] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 1, maqala 1, scan pages 14-15, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json) with the PDF page images rendered with pdftoppm and read by eye for every heading and doubtful clause; editor footnotes used only for glosses and labelled as the editor's; doses, quantities, times, ratios, named drug combinations, preparation and procedure details left out; unclear lines left out, not guessed; womb, menses, foetus, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book3-1
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

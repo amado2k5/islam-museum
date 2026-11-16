@@ -1,0 +1,23 @@
+id: concept/ilaj-awram-al-ras-wa-sut-al-mizaj
+class: concept
+kind: scientific
+label:
+  ar: "علاج أورام الرأس وسوء المزاج"
+  en: "The treatment of swellings of the head and of ill-temperament"
+  ur: "سر کے ورموں اور سوءِ مزاج کا علاج"
+summary:
+  ar: "يذكر ابن سينا مبادئ معالجة الأورام الحارة والباردة في الرأس، وسوء المزاج الحار والبارد والاحتراقي والمركب، وما يتضرر به أصحاب العلة المادية، وتغذية أصحاب أمراض الرأس {cite:canon-ibn-sina-print-v2 pp.38-44}"
+  en: "Ibn Sina gives the principles of treating hot and cold swellings of the head, and hot, cold, burnt and compound ill-temperament, what the sufferers of a material complaint are harmed by, and the feeding of those with diseases of the head {cite:canon-ibn-sina-print-v2 pp.38-44}"
+  ur: "ابن سینا سر کے گرم اور ٹھنڈے ورموں کے علاج کے اصول، گرم، ٹھنڈے، جھلسے ہوئے اور مرکب سوءِ مزاج کا علاج، مادی علت والے جس چیز سے نقصان اٹھاتے ہیں، اور سر کی بیماریوں والوں کی غذا بتاتا ہے {cite:canon-ibn-sina-print-v2 pp.38-44}۔"
+wings: [living]
+tags: [tibb-browser, tibb-tibb, tibb-tadawi]
+sources: [source/canon-ibn-sina-print-v2]
+relations:
+  - { type: part_of, target: concept/medical-treatment, sources: [source/canon-ibn-sina-print-v2] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 1, maqala 1, scan pages 38-44, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json) with the PDF page images rendered with pdftoppm and read by eye for every heading and doubtful clause; editor footnotes used only for glosses and labelled as the editor's; doses, quantities, times, ratios, named drug combinations, preparation and procedure details left out; unclear lines left out, not guessed; womb, menses, foetus, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book3-1
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

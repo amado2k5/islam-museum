@@ -16,3 +16,6 @@ The OpenITI corpus holds 15 works under the author identifier 0774IbnKathir, amo
 
 ## In the Biblissima authority file
 The French Biblissima authority file records this person under the identifier Q105729 with the name form «Ismāʿīl ibn ʿUmar Ibn Kaṯīr (1301?-1373)», the form including the years of birth and death as the file gives them. {cite:biblissima Q105729}
+
+## In The Oxford Dictionary of Islam
+The Oxford Dictionary of Islam describes Ibn Kathir, who died in 1373, as a historian, hadith scholar and commentator on the Quran from Syria who lived under the Bahri Mamluks. It says he was influenced by Ibn Taymiyya, who died in 1328, and that his approach was conservative and leaned heavily on earlier authorities. His history, al-Bidaya wa-l-Nihaya, opens with the Prophet's life and closes with a Damascus chronicle; his al-Jami draws the Prophet's sayings from earlier collections and orders them alphabetically by transmitter name; and his Quran commentary holds that scripture is explained best by scripture first, then by the Prophet as the Companions and their successors handed it down. {cite:oxford-dictionary-of-islam e947}

@@ -1,0 +1,23 @@
+id: concept/istidlal-min-al-musharakat
+class: concept
+kind: scientific
+label:
+  ar: "الاستدلال من المشاركات لأعضاء يشاركها الدماغ"
+  en: "Inference from the sharing of organs with the brain"
+  ur: "دماغ کے شریک اعضا کی مشارکت سے استدلال"
+summary:
+  ar: "يبين ابن سينا أن قوة الأعضاء المشاركة تدل على قوة الدماغ، وأن آفات الدماغ تظهر في أعضاء أخرى كالبول والبراز والبلع والنفس، وأن الوجع إذا بلغ أصول العينين في الصداع دل على أن السبب خارج القحف {cite:canon-ibn-sina-print-v2 pp.21-22}"
+  en: "Ibn Sina shows that the strength of the sharing organs indicates the strength of the brain, that afflictions of the brain show in other organs such as urine, stool, swallowing and breath, and that when pain in headache reaches the roots of the eyes the cause is outside the skull {cite:canon-ibn-sina-print-v2 pp.21-22}"
+  ur: "ابن سینا بتاتا ہے کہ شریک اعضا کی قوت دماغ کی قوت پر دلالت کرتی ہے، دماغ کی آفتیں دوسرے اعضا میں ظاہر ہوتی ہیں جیسے پیشاب، پاخانہ، نگلنا اور سانس، اور سردرد میں جب درد آنکھوں کی جڑوں تک پہنچ جائے تو سبب کھوپڑی کے باہر ہے {cite:canon-ibn-sina-print-v2 pp.21-22}۔"
+wings: [living]
+tags: [tibb-browser, tibb-tibb]
+sources: [source/canon-ibn-sina-print-v2]
+relations:
+  - { type: part_of, target: concept/symptoms-and-signs, sources: [source/canon-ibn-sina-print-v2] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 1, maqala 1, scan pages 21-22, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json) with the PDF page images rendered with pdftoppm and read by eye for every heading and doubtful clause; editor footnotes used only for glosses and labelled as the editor's; doses, quantities, times, ratios, named drug combinations, preparation and procedure details left out; unclear lines left out, not guessed; womb, menses, foetus, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book3-1
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }
