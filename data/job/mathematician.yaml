@@ -1,0 +1,40 @@
+id: job/mathematician
+class: job
+label: { ar: "الرياضي", en: "Mathematician (riyadi)", ur: "ریاضی دان" }
+names:
+  - { value: "حاسب", kind: alternate }
+  - { value: "رياضي", kind: alternate }
+  - { value: "matematikçi", kind: latinized, lang: tr }
+  - { value: "riyâziyyâtçı", kind: latinized, lang: tr }
+summary:
+  ar: "الرياضي هو من يشتغل بعلوم التعاليم — الحساب والهندسة والفلك والموسيقى — التي سمّاها المسلمون العلوم الرياضية أي ما يريّض الذهن ويعدّه للعلم الإلهي. نشأ هذا العمل في بغداد مطلع القرن التاسع مع حركة الترجمة عن اليونانية، وكتب الخوارزمي فيها كتاب الجبر والمقابلة ⁦(813–830م)⁩ فاستقلّ الجبر فرعاً قائماً بذاته، ثم طوّره ابن ترك وثابت بن قرة الذي أعاد تأسيس براهينه على قواعد هندسية وأبو كامل الذي أضاف إليه فصل التحليل غير المعيّن. وفي القرن الخامس عشر جدّد الكاشي بسمرقند في «مفتاح الحساب» و«زيج الخاقاني»."
+  en: "The mathematician worked the ulûm-i teâlîm — arithmetic, geometry, astronomy and music — the sciences the Muslims called riyâzî, those that exercise the mind and prepare it for the divine science. The craft arose in early ninth-century Baghdad with the Greek translation movement; there al-Khwarizmi wrote his book of al-jabr wa'l-muqabala (813–830), in which algebra first stood forth as an independent branch, developed after him by Ibn Turk, by Thabit ibn Qurra who re-founded its proofs on geometric ground, and by Abu Kamil who added the chapter of indeterminate analysis. In the fifteenth century al-Kashi renewed the work at Samarkand in the Miftah al-hisab and the Zij-i Khaqani. Carra de Vaux credits the Muslims with making algebra an exact science and founding plane and spherical trigonometry."
+  ur: "ریاضی دان وہ شخص تھا جو علومِ تعالیم — حساب، ہندسہ، فلکیات اور موسیقی — پر کام کرتا تھا، وہ علوم جنھیں مسلمانوں نے ریاضی کہا یعنی وہ جو ذہن کی مشق کر کے اسے الٰہی علم کے لیے تیار کریں۔ یہ کام نویں صدی عیسوی کے آغاز میں بغداد میں یونانی ترجمہ تحریک کے ساتھ اٹھا؛ خوارزمی نے وہاں الجبر والمقابلہ لکھی ⁦(813–830ء)⁩ جس میں جبر پہلی بار ایک آزاد شاخ کے طور پر ابھرا، پھر ابن ترک، ثابت بن قرہ — جس نے اس کے برہانوں کو ہندسی بنیادوں پر قائم کیا — اور ابو کامل نے اسے آگے بڑھایا، جس نے غیر متعین تحلیل کا باب جوڑا۔ پندرہویں صدی میں کاشی نے سمرقند میں مفتاح الحساب اور زیجِ خاقانی میں اس علم کو نیا دیا۔ کارا دو وو کے مطابق مسلمانوں نے جبر کو ایک دقیق علم بنایا اور مستوی و کروی مثلثیات کی بنیاد رکھی۔"
+domain: sciences-numbers
+kind: scholarly
+hirfa: false
+era:
+  origins: pre-islamic
+  status_today: transformed
+places:
+  - { place: place/baghdad, note: "Mathematical research in Islamic civilisation is traced to early ninth-century Baghdad, where the translation of Greek mathematics had reached an advanced level; al-Khwarizmi wrote his algebra there in the Bayt al-hikma milieu between 813 and 830.", sources: [source/tdv-matematik] }
+  - { place: place/samarqand, note: "Al-Kashi reworked and extended the tradition at Samarkand; the interpolation problems of his Zij-i Khaqani and his Miftah al-hisab close the article's fifteenth-century survey.", sources: [source/tdv-matematik] }
+regions: [levant-iraq, persia-central-asia, egypt-nile, andalus-europe, anatolia-balkans]
+organization:
+  organized: informal
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people]
+periods: [period/abbasid-early, period/abbasid-fragmentation, period/mongol-post-mongol, period/gunpowder-empires]
+sources: [source/tdv-matematik, source/tdv-cebir, source/legacy-of-islam-1931]
+training:
+  mode: ijaza-chain
+  certification: "No licence for the mathematician is described in the entries read. The sciences were learned in the circles of named masters; the article's mathematicians worked under patrons and alongside translation, and many were at once astronomers — the ulûm-i teâlîm grouping joined arithmetic, geometry, astronomy and music in one training."
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-sci-1" }
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi 'MATEMATİK' (R. Râşid, 2003; vol. 28 pp. 129-137) read on the web on 16 Nov 2026; 'CEBİR' (İ. Fazlıoğlu) already on main; Baron Carra de Vaux, 'Astronomy and Mathematics', The Legacy of Islam (OUP 1931) p. 376, read in the downloaded scan"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-sci-1-drafting"
