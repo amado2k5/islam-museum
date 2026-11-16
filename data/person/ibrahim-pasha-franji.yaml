@@ -15,6 +15,12 @@ regions: [anatolia-balkans]
 periods: [period/gunpowder-empires]
 born: { edtf: "1495~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
 died: { edtf: "1536", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: TDV Islam Ansiklopedisi" }
+occupations:
+  - job: job/grand-vizier
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'grand-vizier', Job Browser linking wave"
+    sources: [source/dawlat-uthmaniyya-salabi]
 relations:
   - { type: born_in, target: place/glasgow, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/surrey, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

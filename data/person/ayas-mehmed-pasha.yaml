@@ -39,5 +39,11 @@ provenance:
 status:
   review: published
   completeness: 3
+occupations:
+  - job: job/grand-vizier
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'grand-vizier', Job Browser linking wave"
+    sources: [source/encyclopaedia-of-islam-2, source/dawlat-uthmaniyya-salabi, source/wikidata]
 relations:
   - { type: ruler_of, target: place/damascus, note: "From text: governor of Damascus. He", sources: [source/encyclopaedia-of-islam-2, source/dawlat-uthmaniyya-salabi] }

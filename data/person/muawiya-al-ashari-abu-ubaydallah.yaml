@@ -12,6 +12,12 @@ wings: [people]
 periods: [period/abbasid-early]
 born: { edtf: "0718", hijri: "0100", calendar: gregorian, precision: year, derived: false, status: historical, note: "al-Zirikli, al-A'lam, vol. 7 p. 262: 100 AH = 718 CE as printed.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 died: { edtf: "0786", hijri: "0170", calendar: gregorian, precision: year, derived: false, status: historical, note: "al-Zirikli, al-A'lam, vol. 7 p. 262: 170 AH = 786 CE as printed; agrees with the earlier Wafayat al-A'yan report that he died when al-Hadi died in 170 AH.", sources: [source/alam-zirikli-dar-al-ilm-2002, source/wafayat-ayan] }
+occupations:
+  - job: job/vizier
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'vizier', Job Browser linking wave"
+    sources: [source/wafayat-ayan, source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 relations:
   - { type: died_in, target: place/baghdad, sources: [source/wafayat-ayan, source/alam-zirikli-dar-al-ilm-2002], confidence: medium, note: "Wafayat al-A'yan; al-Zirikli, al-A'lam, vol. 7 p. 262: buried in the Quraysh cemetery in Baghdad." }
   - { type: buried_in, target: place/baghdad, sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium, note: "al-Zirikli, al-A'lam, vol. 7 p. 262: the Quraysh cemetery in Baghdad." }

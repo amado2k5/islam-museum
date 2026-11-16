@@ -19,6 +19,12 @@ story_roles:
 faith:
   - { value: jewish, basis: documented, note: "سيد يهود النضير بخيبر." }
 died: { edtf: "627", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Ibn Ishaq" }
+occupations:
+  - job: job/merchant
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'merchant', Job Browser linking wave"
+    sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira]
 relations:
   - { type: member_of, target: group/banu-nadir }
   - { type: participated_in, target: event/battle-of-the-trench, role: "المحرض والممول للأحزاب", sources: [source/mubarakpuri-raheeq] }

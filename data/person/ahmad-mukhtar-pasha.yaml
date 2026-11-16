@@ -31,6 +31,11 @@ occupations:
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/dawlat-uthmaniyya-salabi]
+  - job: job/grand-vizier
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'grand vizier', Job Browser linking wave"
+    sources: [source/dawlat-uthmaniyya-salabi, source/alam-zirikli-dar-al-ilm-2002]
 relations:
   - { type: lived_in, target: place/anatolia, note: "From text: Ottoman (nationality adjective); broad association, flagged for review.", sources: [source/dawlat-uthmaniyya-salabi], confidence: low }
   - { type: died_in, target: place/istanbul, note: "al-Zirikli, vol. 1 p. 255: died at al-Asitana, the Ottoman capital", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: medium }
