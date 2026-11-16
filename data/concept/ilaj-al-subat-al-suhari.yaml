@@ -1,0 +1,23 @@
+id: concept/ilaj-al-subat-al-suhari
+class: concept
+kind: scientific
+label:
+  ar: "علاج السبات السهري"
+  en: "Treatment of the sleepless coma"
+  ur: "جاگتی غنودگی کا علاج"
+summary:
+  ar: "يذكر ابن سينا مبادئ علاج السبات السهري: الاستفراغ بالدم ثم الاستفراغ بالإسهال بقدر غلبة المرة أو البلغم، ومنع الغذاء، وتقيئة من كان سببه إكثار الطعام، وأن علاج السكر ينتظر زواله، وأن أدويته مركبة من البرد والسخونة بحسب الغالب؛ ولا تُنقل الوصفات {cite:canon-ibn-sina-print-v2 p.88}"
+  en: "Ibn Sina gives the principles of treating the sleepless coma: evacuation of blood and then purging in the measure of whether bile or phlegm prevails, withholding food, making the patient vomit when overeating is the cause, waiting for drunkenness to pass, and remedies compounded of cold and warmth according to which prevails; recipes are left out {cite:canon-ibn-sina-print-v2 p.88}"
+  ur: "ابن سینا جاگتی غنودگی کے علاج کے اصول بتاتا ہے: خون کا استفراغ پھر اسہال سے استفراغ اس کے مطابق کہ صفراء غالب ہے یا بلغم، غذا روکنا، جس کا سبب زیادہ کھانا ہو اسے قے کرانا، نشے کے علاج میں اس کے اترنے کا انتظار، اور ایسی دوائیں جو غالب کے مطابق سردی اور گرمی سے مرکب ہوں؛ نسخے چھوڑ دیے گئے ہیں {cite:canon-ibn-sina-print-v2 p.88}۔"
+wings: [living]
+tags: [tibb-browser, tibb-tibb, tibb-tadawi]
+sources: [source/canon-ibn-sina-print-v2]
+relations:
+  - { type: part_of, target: concept/medical-treatment, sources: [source/canon-ibn-sina-print-v2] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 1, maqala 3, scan pages 88, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json) with the PDF page images rendered with pdftoppm and read by eye against the OCR for every cited page; editor footnotes used only for glosses and labelled as the editor's; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein and cupping sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book3-3
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

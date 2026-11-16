@@ -1,0 +1,23 @@
+id: concept/mard-yushbih-qaranitus-bi-ghayr-humma
+class: concept
+kind: scientific
+label:
+  ar: "مرض شبيه بقرانيطس من غير حمى"
+  en: "A disease like qaranitus without fever"
+  ur: "قرانیطس سے مشابہ بغیر بخار کا مرض"
+summary:
+  ar: "ينقل ابن سينا زعم بعض المتطبّبين أن مرضاً شبيهاً بقرانيطس يعرض من غير حمى، ويصف قلقه وفتكه، ثم يقول رأيه أن السبب مشاركة الدماغ لعضو كريم آخر {cite:canon-ibn-sina-print-v2 p.77}"
+  en: "Ibn Sina reports the claim of some physicians that a disease like qaranitus may come without fever, describes its restlessness and its deadliness, and then gives his own view that the cause is the brain's sharing with another noble organ {cite:canon-ibn-sina-print-v2 p.77}"
+  ur: "ابن سینا بعض معالجوں کا یہ دعویٰ نقل کرتا ہے کہ قرانیطس سے مشابہ ایک مرض بغیر بخار کے آ سکتا ہے، اس کی بے قراری اور ہلاکت خیزی بتاتا ہے، پھر اپنی رائے دیتا ہے کہ سبب دماغ کی کسی اور شریف عضو سے شرکت ہے {cite:canon-ibn-sina-print-v2 p.77}۔"
+wings: [living]
+tags: [tibb-browser, tibb-tibb]
+sources: [source/canon-ibn-sina-print-v2]
+relations:
+  - { type: part_of, target: concept/disease, sources: [source/canon-ibn-sina-print-v2] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 1, maqala 3, scan pages 77, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json) with the PDF page images rendered with pdftoppm and read by eye against the OCR for every cited page; editor footnotes used only for glosses and labelled as the editor's; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein and cupping sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book3-3
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

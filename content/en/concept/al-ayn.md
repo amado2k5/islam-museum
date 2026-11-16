@@ -13,3 +13,6 @@ The evil eye is real, as the hadith states; it strikes the envied by God's leave
 
 ## Note
 In the account of Amir ibn Rabi'a and Sahl ibn Hunayf it brought a man near death; protection is dhikr and prayers for blessing.
+
+## In The Oxford Dictionary of Islam
+The Oxford Dictionary of Islam treats the evil eye as a popular belief: someone who looks or stares at another person's treasured possession, out of envy at that person's good fortune, can harm, damage or ruin it. {cite:oxford-dictionary-of-islam e597}

@@ -1,0 +1,23 @@
+id: concept/alamat-lithargus
+class: concept
+kind: scientific
+label:
+  ar: "علامات ليثرغس"
+  en: "Signs of lithargus"
+  ur: "لیثرغس کی علامات"
+summary:
+  ar: "يذكر ابن سينا علامات ليثرغس البلغمي: صداع خفيف وحمى لينة وسبات ثقيل ونسيان ونفس بطيء ونبض عظيم متفاوت بطيء، ويفرقه عن قرانيطس وذات الرئة، وعلامات السوداوي وما في جوهر الدماغ أو الحجاب، وعلامات الانتقال إليه وإنذاره {cite:canon-ibn-sina-print-v2 p.84} {cite:canon-ibn-sina-print-v2 p.85}"
+  en: "Ibn Sina gives the signs of the phlegmatic lithargus: light headache, soft fever, heavy coma, forgetfulness, slow breath and a large, spaced, slow pulse; tells it from qaranitus and from dhat al-ri'a; and gives the signs of the black-bilious kind, of that in the substance of the brain or in the membrane, of the passage into it, and its outlook {cite:canon-ibn-sina-print-v2 p.84} {cite:canon-ibn-sina-print-v2 p.85}"
+  ur: "ابن سینا بلغمی لیثرغس کی علامات بتاتا ہے: ہلکا سر درد، نرم بخار، بھاری غنودگی، نسیان، سست سانس اور بڑی، فاصلے والی، سست نبض؛ اسے قرانیطس اور ذات الریہ سے الگ کرتا ہے؛ اور سوداوی قسم، جوہر دماغ یا جھلی میں ہونے والی قسم، اس میں منتقل ہونے کی علامات اور اس کا انجام بتاتا ہے {cite:canon-ibn-sina-print-v2 p.84} {cite:canon-ibn-sina-print-v2 p.85}۔"
+wings: [living]
+tags: [tibb-browser, tibb-tibb]
+sources: [source/canon-ibn-sina-print-v2]
+relations:
+  - { type: part_of, target: concept/symptoms-and-signs, sources: [source/canon-ibn-sina-print-v2] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 1, maqala 3, scan pages 84-85, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json) with the PDF page images rendered with pdftoppm and read by eye against the OCR for every cited page; editor footnotes used only for glosses and labelled as the editor's; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein and cupping sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book3-3
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

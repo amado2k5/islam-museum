@@ -1,0 +1,23 @@
+id: concept/al-flaghmuni-al-arid-li-jawhar-al-dimagh
+class: concept
+kind: scientific
+label:
+  ar: "الفلغموني العارض لنفس جوهر الدماغ"
+  en: "Phlegmon (al-flaghmuni) of the substance of the brain"
+  ur: "دماغ کے جوہر کو لاحق فلغمونی"
+summary:
+  ar: "يصف ابن سينا الفلغموني العارض لجوهر الدماغ: أكثره من دم عفن يورم الدماغ، وعلاماته من شدة الوجع واحمرار العينين والوجنتين والقيء والاستلقاء، ومآله، وأن علاجه علاج السرسام وأقوى {cite:canon-ibn-sina-print-v2 p.82} {cite:canon-ibn-sina-print-v2 p.83}"
+  en: "Ibn Sina describes the phlegmon (al-flaghmuni) that comes upon the substance of the brain: it mostly comes from putrid blood that swells the brain; its signs are intense pain, redness of the eyes and cheeks, vomiting and lying on the back; its outcome; and that its treatment is that of sarsam and stronger {cite:canon-ibn-sina-print-v2 p.82} {cite:canon-ibn-sina-print-v2 p.83}"
+  ur: "ابن سینا دماغ کے جوہر کو لاحق فلغمونی بیان کرتا ہے: زیادہ تر یہ بوسیدہ خون سے ہوتی ہے جو دماغ کو سوجا دیتا ہے؛ اس کی علامات شدید درد، آنکھوں اور رخساروں کی سرخی، قے اور چت لیٹنا ہیں؛ اس کا انجام؛ اور یہ کہ اس کا علاج سرسام کا علاج ہے اور اس سے قوی {cite:canon-ibn-sina-print-v2 p.82} {cite:canon-ibn-sina-print-v2 p.83}۔"
+wings: [living]
+tags: [tibb-browser, tibb-tibb]
+sources: [source/canon-ibn-sina-print-v2]
+relations:
+  - { type: part_of, target: concept/disease, sources: [source/canon-ibn-sina-print-v2] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 1, maqala 3, scan pages 82-83, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json) with the PDF page images rendered with pdftoppm and read by eye against the OCR for every cited page; editor footnotes used only for glosses and labelled as the editor's; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein and cupping sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book3-3
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

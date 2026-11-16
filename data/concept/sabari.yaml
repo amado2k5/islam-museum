@@ -1,0 +1,23 @@
+id: concept/sabari
+class: concept
+kind: scientific
+label:
+  ar: "صباري"
+  en: "Sabari"
+  ur: "صباری"
+summary:
+  ar: "يقول ابن سينا إن صباري جنون مفرط يعرض مع سرسام حار صفراوي، ويفرقه عن قرانيطس الساذج بأن الجنون والورم فيه حادثان معاً عن المادة، ويذكر علاماته وأن علاجه علاج السرسام الصفراوي مع زيادة في الترطيب {cite:canon-ibn-sina-print-v2 p.83} {cite:canon-ibn-sina-print-v2 p.84}"
+  en: "Ibn Sina says sabari is an excessive madness that comes with a hot bilious sarsam, tells it from simple qaranitus in that the madness and the swelling in it both arise together from the matter, gives its signs, and says its treatment is that of the bilious sarsam with much added moistening {cite:canon-ibn-sina-print-v2 p.83} {cite:canon-ibn-sina-print-v2 p.84}"
+  ur: "ابن سینا کہتا ہے کہ صباری حد سے بڑھا ہوا جنون ہے جو گرم صفراوی سرسام کے ساتھ آتا ہے، اسے سادہ قرانیطس سے یوں الگ کرتا ہے کہ اس میں جنون اور سوجن دونوں مادے سے ساتھ پیدا ہوتے ہیں، اس کی علامات بتاتا ہے، اور کہتا ہے کہ اس کا علاج صفراوی سرسام کا علاج ہے اور تر کرنے میں بہت اضافہ {cite:canon-ibn-sina-print-v2 p.83} {cite:canon-ibn-sina-print-v2 p.84}۔"
+wings: [living]
+tags: [tibb-browser, tibb-tibb]
+sources: [source/canon-ibn-sina-print-v2]
+relations:
+  - { type: part_of, target: concept/disease, sources: [source/canon-ibn-sina-print-v2] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 1, maqala 3, scan pages 83-84, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json) with the PDF page images rendered with pdftoppm and read by eye against the OCR for every cited page; editor footnotes used only for glosses and labelled as the editor's; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein and cupping sites, application methods and procedures left out; unclear printed words carried as printed, not guessed; womb, menses, foetus, birth, semen and desire listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book3-3
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }
