@@ -1,0 +1,23 @@
+id: concept/saqurdiyun
+class: concept
+kind: natural
+label:
+  ar: "سقوردیون"
+  en: "Saqurdiyun (the wild garlic)"
+  ur: "سقوردیون"
+summary:
+  ar: "سقورديون في الكتاب هو الثوم البري، أصغر بكثير من البستاني، له ورق وساق متطاول عليه زهر أبيض، حار يابس إلى الثالثة بل إلى الرابعة عند قوم، لطيف مفتح جلاء، يدمل الجراحات العظيمة والخبيثة ويصلح لفسخ العضل {cite:canon-ibn-sina-print-v1 p.587}."
+  en: "Saqurdiyun is in the book the wild garlic, much smaller than the garden kind, with leaves and a long stem bearing a white flower, hot and dry to the third degree, or to the fourth according to others, subtle, opening and cleansing; it heals great and malignant wounds and is good for strain of the muscle {cite:canon-ibn-sina-print-v1 p.587}."
+  ur: "سقوردیون کتاب میں جنگلی لہسن ہے، باغ کی قسم سے بہت چھوٹا، پتوں اور لمبے تنے والا جس پر سفید پھول ہے، تیسرے درجے تک گرم خشک بلکہ بعض کے نزدیک چوتھے تک، لطیف، کھولنے اور جلا دینے والا؛ بڑے اور خبیث زخموں کو بھرتا ہے اور پٹھے کی موچ کے لیے اچھا ہے {cite:canon-ibn-sina-print-v1 p.587}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letters nun and sin, scan pages 587, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for garbled headings; editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-20
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

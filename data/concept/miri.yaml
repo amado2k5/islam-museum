@@ -1,0 +1,23 @@
+id: concept/miri
+class: concept
+kind: natural
+label:
+  ar: "مري"
+  en: "Miri (fermented sauce)"
+  ur: "مری"
+summary:
+  ar: "المري في الكتاب حار يابس إلى الثالثة، يجلو الأخلاط الغليظة ويليّن وينشف، وفيه قبض وتنقية للبلغم، وينفع من القروح العفنة ووجع الورك وعرق النسا ويقع في أدوية القولنج {cite:canon-ibn-sina-print-v1 p.573}."
+  en: "Miri, a fermented condiment, is in the book hot and dry to the third degree, cleansing thick humours, softening and drying, with astringency and a clearing of phlegm; it helps putrid ulcers, pain of the hip and sciatica, and enters the remedies for colic {cite:canon-ibn-sina-print-v1 p.573}."
+  ur: "مری کتاب میں تیسرے درجے تک گرم خشک ہے، گاڑھے اخلاط کو جلا دیتی، نرم کرتی اور خشک کرتی ہے، اس میں قبض اور بلغم کی صفائی ہے؛ سڑے ہوئے زخموں، کولہے کے درد اور عرق النسا میں مفید ہے اور قولنج کی دواؤں میں شامل ہوتی ہے {cite:canon-ibn-sina-print-v1 p.573}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letters mim and nun, scan pages 573-574, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-19
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

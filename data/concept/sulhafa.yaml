@@ -1,0 +1,23 @@
+id: concept/sulhafa
+class: concept
+kind: natural
+label:
+  ar: "سلحفاة"
+  en: "Sulhafa (the tortoise or turtle)"
+  ur: "سلحفاة"
+summary:
+  ar: "السلحفاة في الكتاب صنفان بري وبحري، قيل إن دم البري مشوياً ينفع من الصرع، ومرارتها للقلاع، وبيضها لسعال الصبيان، ومرارتها لطوخ للخناق، ودم البحري مع الأنفحة جيد من نهش الهوام ولمن سقي اليتوع {cite:canon-ibn-sina-print-v1 p.601}."
+  en: "Sulhafa is in the book of two kinds, land and sea; the blood of the land kind roasted is said to help epilepsy, its gall is for thrush, its egg for the cough of children, its gall a smear for quinsy, and the blood of the sea kind with rennet is good against the bites of vermin and for one given spurge to drink {cite:canon-ibn-sina-print-v1 p.601}."
+  ur: "سلحفاۃ کتاب میں دو قسم کی ہے: خشکی کی اور سمندر کی؛ کہا گیا کہ خشکی والی کا بھنا ہوا خون مرگی میں مفید ہے، اس کا پتّا چھالوں کے لیے، اس کا انڈا بچوں کی کھانسی کے لیے اور اس کا پتّا خناق پر لیپ کے لیے ہے، اور سمندری کا خون انفحہ کے ساتھ زہریلے کیڑوں کے کاٹنے میں اور اس شخص کے لیے مفید ہے جسے یتوع پلایا گیا ہو {cite:canon-ibn-sina-print-v1 p.601}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter sin, scan pages 601, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for garbled headings; editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-21
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

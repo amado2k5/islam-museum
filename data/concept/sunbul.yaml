@@ -1,0 +1,23 @@
+id: concept/sunbul
+class: concept
+kind: natural
+label:
+  ar: "سنبل"
+  en: "Sunbul (spikenard)"
+  ur: "سنبل"
+summary:
+  ar: "السنبل في الكتاب سنبلان: سنبل الطيب ويقال له سنبل العصافير، والناردين وهو السنبل الرومي، وينقل الكتاب عن ديسقوريدوس أن منه هندياً وسورياً، أجوده ما وفر شعره وكان إلى الشقرة طيب الرائحة صغير السنبل، حار في الأولى يابس في الثانية، مفتح محلل، يمنع النوازل ويقوي الدماغ وينبت الأشفار وينفع من الخفقان واليرقان وسدد الكبد والمعدة ويدر البول، وفي الكتاب نقل موسوم في الرحم {cite:canon-ibn-sina-print-v1 p.603}."
+  en: "Sunbul is in the book two sunbuls: sunbul al-tib, called the sparrows' sunbul, and the nardin, which is the Roman sunbul, and the book reports from Dioscorides an Indian and a Syrian kind; the best has plentiful hair, tends to yellowish, is of good scent and small in spike; hot in the first degree and dry in the second, opening and dissolving, it checks flux to the head, strengthens the brain, grows the lashes and helps palpitation, jaundice, blockages of the liver and stomach and the flow of urine, with a labelled listing on the womb {cite:canon-ibn-sina-print-v1 p.603}."
+  ur: "سنبل کتاب میں دو سنبل ہیں: سنبل الطیب جسے سنبل العصافیر بھی کہتے ہیں، اور ناردین جو رومی سنبل ہے؛ اور کتاب دیسقوریدوس سے ہندی اور سوری قسمیں نقل کرتی ہے؛ بہترین وہ ہے جس کے بال بہت ہوں، زردی مائل ہو، خوشبو اچھی ہو اور سنبل چھوٹا ہو؛ پہلے درجے میں گرم اور دوسرے میں خشک، کھولنے اور گھلانے والا، نزلات کو روکتا ہے، دماغ کو قوت دیتا ہے، پلکیں اگاتا ہے اور دھڑکن، یرقان، جگر اور معدے کی رکاوٹوں اور پیشاب کے اخراج میں مفید ہے، اور رحم کے بارے میں ایک موسوم نقل دیتی ہے {cite:canon-ibn-sina-print-v1 p.603}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter sin, scan pages 602 to 603, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for garbled headings; editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-21
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

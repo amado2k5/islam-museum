@@ -1,0 +1,23 @@
+id: concept/nuhas
+class: concept
+kind: natural
+label:
+  ar: "نحاس"
+  en: "Nuhas (copper)"
+  ur: "نحاس"
+summary:
+  ar: "النحاس في الكتاب أنواع، أفضلها القبرصي، حار يابس في الثالثة، والمحرق فيه قبض وحدة وإدمال، ويدمل الخبيثة الساعية ويأكل اللحم الزائد وينفع العين، ويحذر الكتاب من حفظ الأطعمة في آنيته لأن الزنجار سم قاتل {cite:canon-ibn-sina-print-v1 p.581}."
+  en: "Nuhas, copper, is in the book of several kinds, the Cypriot the best, hot and dry in the third degree; the burnt has astringency, sharpness and healing, it heals the malignant creeping ulcer, eats excess flesh and helps the eye, and the book warns against keeping foods in copper vessels because verdigris is a deadly poison {cite:canon-ibn-sina-print-v1 p.581}."
+  ur: "نحاس ⁦(تانبا)⁩ کتاب میں کئی قسم کا ہے، سب سے بہتر قبرصی، تیسرے درجے میں گرم خشک؛ جلا ہوا قبض، تیزی اور زخم بھرنے کی صفت رکھتا ہے، خبیث رینگنے والے زخم کو بھرتا، زائد گوشت کھاتا اور آنکھ میں مفید ہے، اور کتاب خبردار کرتی ہے کہ کھانے تانبے کے برتنوں میں نہ رکھے جائیں کیونکہ زنجار مہلک زہر ہے {cite:canon-ibn-sina-print-v1 p.581}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letters mim and nun, scan pages 581, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-19
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

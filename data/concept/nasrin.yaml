@@ -1,0 +1,23 @@
+id: concept/nasrin
+class: concept
+kind: natural
+label:
+  ar: "نسرين"
+  en: "Nasrin (as the Canon lists it)"
+  ur: "نسرین"
+summary:
+  ar: "النسرين في الكتاب كالياسمين في القوة وأضعف منه وكالنرجس، حار يابس في الثانية، كل أصنافه منق ملطف وزهره أخص بذلك، وينفع الأذن والأسنان والحلق والمعدة {cite:canon-ibn-sina-print-v1 p.576}."
+  en: "Nasrin is in the book like jasmine in power but weaker, and like narcissus; hot and dry in the second degree, all its kinds cleansing and thinning, its flower more so, and it helps the ear, teeth, throat and stomach {cite:canon-ibn-sina-print-v1 p.576}."
+  ur: "نسرین کتاب میں قوت میں چمبیلی جیسی مگر کمزور اور نرجس جیسی ہے؛ دوسرے درجے میں گرم خشک، اس کی سب قسمیں صاف کرنے اور لطیف کرنے والی ہیں اور پھول اس میں خاص ہے، اور کان، دانتوں، حلق اور معدے میں مفید ہے {cite:canon-ibn-sina-print-v1 p.576}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letters mim and nun, scan pages 576, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-19
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

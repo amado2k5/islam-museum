@@ -1,0 +1,23 @@
+id: concept/naft
+class: concept
+kind: natural
+label:
+  ar: "نفط"
+  en: "Naft (naphtha)"
+  ur: "نفط"
+summary:
+  ar: "النفط في الكتاب أبيض معروف وأسود هو صفوة القار البابلي، حار يابس إلى الرابعة، لطيف محلل مذيب مفتح للسدد، وينفع المفاصل والأذن والعين والصدر ويقتل الديدان ويدر البول {cite:canon-ibn-sina-print-v1 p.581}."
+  en: "Naft, naphtha, is in the book white, the well known kind, and black, the pure of Babylonian pitch; hot and dry to the fourth degree, fine, dissolving, melting and opening obstructions; it helps joints, ear, eye and chest, kills worms and provokes urine {cite:canon-ibn-sina-print-v1 p.581}."
+  ur: "نفط کتاب میں سفید ہے جو معروف قسم ہے اور سیاہ جو بابلی قار کا خلاصہ ہے؛ چوتھے درجے تک گرم خشک، لطیف، تحلیل کرنے اور گھلانے والا اور سدے کھولنے والا؛ جوڑوں، کان، آنکھ اور سینے میں مفید ہے، کیڑے مارتا اور پیشاب جاری کرتا ہے {cite:canon-ibn-sina-print-v1 p.581}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letters mim and nun, scan pages 581, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-19
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

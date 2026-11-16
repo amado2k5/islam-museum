@@ -1,0 +1,23 @@
+id: concept/sadhab
+class: concept
+kind: natural
+label:
+  ar: "سذاب"
+  en: "Sadhab (rue)"
+  ur: "سذاب"
+summary:
+  ar: "السذاب في الكتاب منه بستاني ومنه بري ومنه جبلي، والجبلي أحد وأشد حرافة ولا يؤكل، والبزر هو المستعمل، حار يابس في الثانية ويابسه في الثالثة والبري في الرابعة فيما يقال، مقطع محلل مفش منق للعروق، ينفع من البهق والثآليل وداء الثعلب والفالج وعرق النسا والصداع ووجع الأذن وضعف البصر ووجع الصدر والاستسقاء والمغص والديدان، ويقاوم السموم، والإكثار من البري قاتل، وفي الكتاب نقل موسوم في المني والباه والرحم {cite:canon-ibn-sina-print-v1 p.600}."
+  en: "Sadhab is in the book of a garden kind, a wild kind and a mountain kind, the mountain sharper and more pungent and not eaten, the seed being what is used; hot and dry in the second degree, the dried hot and dry in the third and the wild in the fourth, as is said; it cuts, dissolves and disperses and cleanses the vessels, and the book lists it for vitiligo, warts, alopecia, palsy, sciatica, headache, earache, weak sight, chest pain, dropsy, colic and worms, resisting poisons, while much of the wild kind is deadly, with a labelled listing on semen, desire and the womb {cite:canon-ibn-sina-print-v1 p.600}."
+  ur: "سذاب کتاب میں باغی، جنگلی اور پہاڑی تینوں قسموں کا ہے؛ پہاڑی زیادہ تیز اور زیادہ چرپرا ہے اور کھانے میں نہیں کھایا جاتا، اور بیج ہی برتا جاتا ہے؛ دوسرے درجے میں گرم خشک، خشک تیسرے میں اور جنگلی چوتھے میں، جیسا کہ کہا جاتا ہے؛ کاٹنے، گھلانے اور منتشر کرنے والا اور رگوں کو صاف کرنے والا؛ کتاب اسے برص، مسوں، ثعلب، فالج، عرق النسا، سر درد، کان کے درد، کمزور نظر، سینے کے درد، استسقا، قولنج اور کیڑوں کے لیے گنواتی ہے، زہروں کا مقابلہ کرتا ہے، جبکہ جنگلی کا زیادہ کھانا مہلک ہے، اور منی، باہ اور رحم کے بارے میں ایک موسوم نقل دیتی ہے {cite:canon-ibn-sina-print-v1 p.600}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter sin, scan pages 598 to 600, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for garbled headings; editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-21
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

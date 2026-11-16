@@ -1,0 +1,23 @@
+id: concept/nisha
+class: concept
+kind: natural
+label:
+  ar: "نشا"
+  en: "Nisha (starch)"
+  ur: "نشا"
+summary:
+  ar: "النشا في الكتاب بارد يابس في الأولى فيه تقوية وتليين، يذهب الكلف بالزعفران ويدمل القروح ويمنع سيلان المواد إلى العين ويليّن الصدر ويعقل الطبيعة {cite:canon-ibn-sina-print-v1 p.579}."
+  en: "Nisha, starch, is in the book cold and dry in the first degree, strengthening and softening; with saffron it removes freckles, it heals ulcers, stops the flow of matter to the eye, softens the chest and binds the nature {cite:canon-ibn-sina-print-v1 p.579}."
+  ur: "نشا کتاب میں پہلے درجے میں سرد خشک ہے، مضبوط اور نرم کرنے والا؛ زعفران کے ساتھ جھائیاں مٹاتا، قرحے بھرتا، آنکھ کی طرف مادوں کا بہنا روکتا، سینہ نرم کرتا اور طبیعت کو باندھتا ہے {cite:canon-ibn-sina-print-v1 p.579}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letters mim and nun, scan pages 579, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-19
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

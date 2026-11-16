@@ -1,0 +1,23 @@
+id: concept/nukhala
+class: concept
+kind: natural
+label:
+  ar: "نخالة"
+  en: "Nukhala (bran)"
+  ur: "نخالہ"
+summary:
+  ar: "النخالة في الكتاب حارة يابسة في الأولى، فيها جلاء وتليين وتنقية ولا تبلغ الكرسنة، تحلل الرياح والبلغم، وتضمد بها الأورام الحارة والقروح، وتليّن الصدر والبطن، وتنفع من لسع العقرب والأفعى {cite:canon-ibn-sina-print-v1 p.578}."
+  en: "Nukhala, bran, is in the book hot and dry in the first degree, with cleansing, softening and purifying not reaching the bitter vetch, dissolving winds and phlegm; it is used as a poultice on hot swellings and ulcers, softens the chest and the belly, and helps the sting of scorpion and viper {cite:canon-ibn-sina-print-v1 p.578}."
+  ur: "نخالہ ⁦(چوکر)⁩ کتاب میں پہلے درجے میں گرم خشک ہے، اس میں جلا، نرمی اور صفائی ہے مگر کرسنہ کے درجے کی نہیں، ہواؤں اور بلغم کو تحلیل کرتی ہے؛ گرم وروں اور قرحوں پر لیپ کی جاتی ہے، سینہ اور پیٹ نرم کرتی ہے، اور بچھو اور افعی کے ڈنک میں مفید ہے {cite:canon-ibn-sina-print-v1 p.578}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letters mim and nun, scan pages 578, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-19
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

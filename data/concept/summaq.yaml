@@ -1,0 +1,23 @@
+id: concept/summaq
+class: concept
+kind: natural
+label:
+  ar: "سماق"
+  en: "Summaq (sumac)"
+  ur: "سماق"
+summary:
+  ar: "السماق في الكتاب منه خراساني ومنه شامي أصغر منه أحمر عدسي، بارد في الثانية يابس في الثالثة، قابض مقو ساد يمنع النزف، يمنع الورم والحصر ويسكن وجع الأسنان، دباغ للمعدة مقو لها يسكن العطش ويشهي ويسكن الغثيان الصفراوي، ويحبس السحج والدوسنطاريا والإسهال المزمن، وفي الكتاب نقل موسوم في الطمث {cite:canon-ibn-sina-print-v1 p.597}."
+  en: "Summaq is in the book of a Khurasani kind and a Syrian kind smaller than the Khurasani, red and lentil-like, cold in the second degree and dry in the third, astringent, strengthening and blocking; it checks flux, prevents swelling, calms toothache, tans and strengthens the stomach, calms thirst, whets the appetite and calms bilious nausea, and restrains abrasion, dysentery and chronic diarrhoea, with a labelled listing on the menses {cite:canon-ibn-sina-print-v1 p.597}."
+  ur: "سماق کتاب میں خراسانی بھی ہے اور شامی بھی جو خراسانی سے چھوٹا، سرخ اور مسور جیسا ہے؛ دوسرے درجے میں ٹھنڈا اور تیسرے میں خشک، قابض، قوت دینے والا اور سدّ کرنے والا، بہتے خون کو روکتا ہے، ورم اور سوجن کو روکتا، دانتوں کے درد کو تسکین دیتا، معدے کو دباغت دے کر قوت دیتا، پیاس بجھاتا، بھوک جگاتا اور صفراوی متلی کو تسکین دیتا ہے، اور چھلنے، پیچش اور پرانے اسہال کو روکتا ہے، اور حیض کے بارے میں ایک موسوم نقل دیتی ہے {cite:canon-ibn-sina-print-v1 p.597}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter sin, scan pages 597, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for garbled headings; editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-21
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

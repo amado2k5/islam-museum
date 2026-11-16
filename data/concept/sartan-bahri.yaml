@@ -1,0 +1,23 @@
+id: concept/sartan-bahri
+class: concept
+kind: natural
+label:
+  ar: "سرطان بحري"
+  en: "Sartan bahri (the sea crab)"
+  ur: "سرطان بحری"
+summary:
+  ar: "السرطان البحري في الكتاب ليس كل سرطان من البحر بل ضرب خاص حجري الأعضاء كلها، ينقل المؤلف عن ثقة أنه في بحر الصين يخرج من ماء البحر ويدخل في ماء آخر فيموت ويصير حجراً صلباً، ومحرقه ألطف من سائر المحرقات، يجلو الأسنان ويذهب الكلف ويجفف القروح ويجلو العين {cite:canon-ibn-sina-print-v1 p.588}."
+  en: "Sartan bahri, the sea crab, is in the book not every crab of the sea but a special kind stony in all its parts; the author reports from one he trusts that in the sea of China it leaves the sea water and enters another water, dies and becomes hard stone; its burnt form is finer than other burnt things, polishes the teeth, removes freckles, dries ulcers and clears the eye {cite:canon-ibn-sina-print-v1 p.588}."
+  ur: "سرطان بحری کتاب میں ہر سمندری کیکڑا نہیں بلکہ ایک خاص قسم ہے جو سب اعضا میں پتھریلی ہے؛ مصنف ایک معتبر شخص سے نقل کرتا ہے کہ چین کے سمندر میں یہ سمندر کے پانی سے نکل کر دوسرے پانی میں داخل ہوتا، مر جاتا اور سخت پتھر بن جاتا ہے؛ اس کی راکھ دوسری راکھوں سے زیادہ لطیف ہے، دانت چمکاتی، جھائیاں مٹاتی، زخم خشک کرتی اور آنکھ کو جلا دیتی ہے {cite:canon-ibn-sina-print-v1 p.588}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letters nun and sin, scan pages 588, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for garbled headings; editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-20
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }
