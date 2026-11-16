@@ -13,6 +13,10 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v1.44.0 — 2026-11-16
+### Added
+- Five more Inventions Browser records from harvested texts (Smith & Karpinski 1911, Partington's Greek Fire and Gunpowder, Lane's Early Islamic Pottery, EI2 entries read in the corpus), each with Arabic, English and Urdu prose: the Hindu-Arabic numerals' transmission through al-Khwarizmi to Latin Europe; al-Hasan al-Rammah's gunpowder-recipe treatise; fritware stonepaste ceramics; medieval sugar refining; and the counterweight trebuchet in the Islamic world.
+
 ## v1.43.0 — 2026-11-16
 ### Added
 - Job Browser: five more trades join the professions — the tailor (khayyat), the barber (hallaq/muzayyin) who also shaved, cupped and circumcised, the water-carrier (saqqa) of the kirbeh skins and public sebils, the baker (farran/khabbaz) under hisba's heaviest daily watch, and the blacksmith (haddad/qayn) — in Arabic, English and Urdu draft cited to al-Shayzari's *Nihayat al-Rutba* (Buckley tr.), Lane's *Manners and Customs of the Modern Egyptians*, and Evliya Çelebi's *Seyahatname* (von Hammer tr.), the first Job Browser packet harvested from books rather than the TDV.
