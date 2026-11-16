@@ -1,0 +1,33 @@
+id: concept/afat-al-qat
+class: concept
+kind: scientific
+label:
+  ar: "آفات القطع"
+  en: "The harms of the cutting"
+  ur: "کاٹنے کی آفات"
+summary:
+  ar: "آفات القطع من ذلك الضرر بالصوت وتعريض الرئة للبرد والحر فيعرض سعال لسوء مزاج عن سبب بارد من ريح وغبار ونحوه وكثيراً منهم يستبرد الهواء المعتدل وكثيراً منهم استحكم البرد في صدره ورثته حتى مات وقد يعرض منه نزف دم {cite:canon-ibn-sina-print-v2 p.300}"
+  en: "The harms of the cutting: among them harm to the voice, and exposing the lung to cold and heat so a cough befalls for ill temperament from a cold cause — wind, dust and the like; many of them find even moderate air cold, and in many the cold settles in his chest and finishes him until he dies; and a haemorrhage of blood may arise from it {cite:canon-ibn-sina-print-v2 p.300}"
+  ur: "کاٹنے کی آفات: ان میں آواز کا نقصان اور پھیپھڑے کا سردی اور گرمی کے روبرو ہونا ہے تو باد غبار جیسے سرد سبب سے سوء مزاج کی کھانسی ہوتی ہے؛ ان میں سے بہت سے معتدل ہوا بھی سرد پاتے ہیں اور بہت سے میں سردی سینے میں جکڑ جاتی ہے اور ان کا پیچھا کرتی ہے یہاں تک کہ مر جائیں؛ اور اس سے خون کا نزف بھی ہو سکتا ہے {cite:canon-ibn-sina-print-v2 p.300}"
+wings:
+- living
+tags:
+- tibb-browser
+- tibb-tibb
+sources:
+- source/canon-ibn-sina-print-v2
+relations:
+- type: part_of
+  target: concept/disease
+  sources:
+  - source/canon-ibn-sina-print-v2
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, the last fasls of Fann 8 (the gums and the lips, one maqala) and the whole of Fann 9 (the throat, one maqala), scan pages 300, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json, copied to /tmp before reading); editor footnotes used only as the editor's glosses and labelled; the edition's English parenthetical glosses ignored as apparatus; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes and application forms left out; venesection, cupping, cautery and operative sites carried only as named by the book; the tools' and hands' works (extraction, excision, trachea-slitting, pressing, scarification and the snare) carried only as the book's descriptions, not as procedures; unclear OCR words carried as printed, not guessed; transmitted sayings, tried-remedy reports and named attributions carried as the book's attributions and labelled; animal-derived and unclean lines kept only as labelled listings set aside for the founder's ruling"
+  generated_by: Devin subagent (SWE-2 Medium, Lane A4 worker)
+  model: swe-2-medium
+  run: a4-canon-book3-15
+status:
+  review: published
+  completeness: 1
+  generated_by: Devin subagent (SWE-2 Medium, book mining, lane A4)
