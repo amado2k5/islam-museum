@@ -1,0 +1,23 @@
+id: concept/ramad
+class: concept
+kind: natural
+label:
+  ar: "رماد"
+  en: "Ramad"
+  ur: "رماد"
+summary:
+  ar: "الرماد في الكتاب كله جلاء مجفف وإن اختلف، والغسل يقلل جلاءه، وأقواه ماء رماد التين، ورماد الخشب القابض كالبلوط يحبس الدم، وينفع ماء رماد التين من القروح الخبيئة والعميقة ويأكل اللحم الزائد، وماء رماد البلوط يشد اللثة، ويذكر الكتاب رماد العظاية للجرب والقوابي نقلا عن جزء حيواني {cite:canon-ibn-sina-print-v1 pp.665-666}"
+  en: "Ramad is in the book all of it cleansing and drying though the kinds differ, and washing lessens its cleansing; the strongest is the ash-water of the fig; the ash of astringent wood such as the oak stops blood; the ash-water of the fig benefits hidden and deep ulcers and eats away excess flesh, and the ash-water of the oak firms the gums; and the book gives, as a report on an animal part, the ash of the lizard for scab and ringworm {cite:canon-ibn-sina-print-v1 pp.665-666}"
+  ur: "رماد کتاب میں سارا جلاء اور خشک کرنے والا ہے اگرچہ قسمیں مختلف ہیں، اور دھونے سے اس کا جلاء کم ہوتا ہے؛ سب سے قوی انجیر کی راکھ کا پانی ہے؛ قابض لکڑی کی راکھ جیسے بلوط کی راکھ خون روکتی ہے؛ انجیر کی راکھ کا پانی پوشیدہ اور گہرے قرحوں میں نافع ہے اور زائد گوشت کو کھا جاتا ہے، اور بلوط کی راکھ کا پانی مسوڑھوں کو مضبوط کرتا ہے؛ اور کتاب حیوانی جزو کی ایک روایت کے طور پر چھپکلی کی راکھ کو خارش اور دانوں کے لیے ذکر کرتی ہے {cite:canon-ibn-sina-print-v1 pp.665-666}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter ra (the twentieth chapter), scan pages 665-666, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for doubtful headings; editor footnotes used only for identity; measured doses, weights, counts, times and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-27
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

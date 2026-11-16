@@ -10,6 +10,11 @@ gender: male
 summary:
   ar: "بطاقة أولية لحمد الله المستوفي القزويني، الجغرافي المؤرخ صاحب نزهة القلوب وتاريخ گزيده، ورد في وصف مرجعي مفتوح ⁦(ويكي البيانات)⁩. لم تُراجع ترجمته في معجم الأعلام على الصفحة بعد، لذلك لا تُذكر هنا تواريخ."
   en: "Draft card for Hamdallah Mustawfi Qazwini, the geographer-historian of Nuzhat al-Qulub and Tarikh-i Guzida, named from an open reference description (Wikidata); his al-A'lam entry is not yet checked on the page, so no dates are given."
+faith:
+- value: sunni
+  basis: tradition
+  note: "The Ilkhanid geographer and vizier, author of Nuzhat al-Qulub and Tarikh-i Guzida; the record already carries a documented Muslim identity (Wikidata religion claim Islam). Sunni is recorded under the museum's default-frame rule (docs/scope.md); no personal school is attested in the sources read and no contrary tradition is documented."
+  sources: [source/al-aalam, source/wikidata]
 wings: [people]
 regions: [persia-central-asia]
 periods: [period/mongol-post-mongol]
@@ -17,14 +22,19 @@ born: { edtf: "1281", calendar: gregorian, precision: year, derived: true, note:
 relations:
   - { type: born_in, target: place/qazvin, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/qazvin, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
-sources: [source/al-aalam, source/wikidata, source/biblissima]
+inventions:
+  - invention: invention/yakhchal-ice-house
+    role: describer
+    note: "His Nuzhat al-Qulub records the people of Sawa and Aba in Jibal letting water freeze in winter pits for summer use — a witness to the ice economy, not the technology's builder."
+    sources: [source/encyclopaedia-of-islam-2]
+sources: [source/al-aalam, source/wikidata, source/biblissima, source/encyclopaedia-of-islam-2]
 external_ids:
   wikidata: Q738649
   viaf: "69871519"
   biblissima: "Q23556"
 provenance:
   layer: own-research
-  source: "Wikidata Q738649 (religion claim Islam); book source: al-Zirikli, al-A'lam — entry not yet read on the page"
+  source: "Wikidata Q738649 (religion claim Islam); book source: al-Zirikli, al-A'lam — entry not yet read on the page. Inventions-w2-32 packet added: sourced faith block (sunni, basis tradition) for the describer role on invention/yakhchal-ice-house, the inventions tie, and source/encyclopaedia-of-islam-2 (EI2 THALLADJ, vol. X, cites his Nuzhat al-Qulub for the Jibal ice pits)."
   generated_by: "Devin (SWE-2 High)"
   model: "SWE-2 High"
   run: wikidata-import-0009

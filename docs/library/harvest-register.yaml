@@ -12387,7 +12387,7 @@ books:
     physical: {pages: 741}
     ocr: {state: complete, date: '2026-10-18', unzipped_location: books/medicine-science/canon-ibn-sina-print-v1/}
     ocr_archive: {state: none}
-    mining: {state: in_progress, ranges_mined: ['scan about 36-311 (Book I, Generalities, finished at scan p.311 per canon-ibn-sina-progress.md)', 'Book II (simple drugs) packets a4-canon-book2-17 to -24, scan 543 to 641, letters lam, mim, nun, sin, ayn, fa and most of sad; resume at scan 641 (suf)'], resume_note: 'Book II simple drugs: next packet resumes at scan 641 (suf), landed through a4-canon-book2-24 (15 Nov 2026)', entities: '600 data files cite source/canon-ibn-sina-print-v1,canon-ibn-sina-print'}
+    mining: {state: in_progress, ranges_mined: ['scan about 36-311 (Book I, Generalities, finished at scan p.311 per canon-ibn-sina-progress.md)', 'Book II (simple drugs) packets a4-canon-book2-17 to -28, scan 543 to 678, letters lam, mim, nun, sin, ayn, fa, sad, qaf, ra and the start of shin; resume at scan 678 (shabath)'], resume_note: 'Book II simple drugs: next packet resumes at scan 678 (shabath, then shama and shabram), landed through a4-canon-book2-28 (16 Nov 2026)', entities: '600 data files cite source/canon-ibn-sina-print-v1,canon-ibn-sina-print'}
     ingestion: {state: partial, prs: [188, 6340, 6341, 6342, 6344, 6345, 6346, 6347, 6348, 6349, 6350, 6351, 6352, 6353, 6354, 6355, 6356, 6357, 6370, 6373, 6385, 6387, 6389, 6391, 6392, 6395, 6398, 6400, 6402, 6404, 6406, 6408, 6410, 6412, 6414, 6417, 6418, 6420, 6421, 6423], ledger: [docs/delegation/library/medicine-science.md, docs/delegation/lane-ledgers/microsd-books.md], graph_ids: [source/canon-ibn-sina-print-v1, source/canon-ibn-sina-print], prs_total: 80}
     work_registry: 'harvest (medical passages, 40-word excerpts, for the Medicine Browser): done 2026-11-14 (merged PR 6620) (claude-fable-5-2 / tibb-browser); mine (read-only OCR text, no new OCR): active (claude-sonnet-5-5 / lane-a-a2-canon)'
     completion: mining
@@ -24485,16 +24485,18 @@ video_series:
     lecturer: { name: "Amr Khaled", page_url: "https://www.assabile.com/amr-khaled" }
     series_page_url: "https://www.assabile.com/amr-khaled/lessons/wa-nal9a-al-aheba"
     episodes_total: null
-    episodes_audio: 10
-    episodes_transcribed: 10
+    episodes_audio: 12
+    episodes_transcribed: 12
     transcript: { pass: pass5-qwen, model: "oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2", state: partial, run_dates: "2026-11-15" }
     mining: { state: none, episodes_mined: 0, ranges: null, held: null, basis: null }
     ingestion: { state: in_progress, prs: [], ledger: "docs/delegation/assabile-wa-nal9a-al-aheba.md", work_id: "work/wa-nal9a-al-aheba" }
     episodes:
       - { n: 9, title: "Episode 09 (Wa Nalka Al-Aheba)", page_url: "https://www.assabile.com/amr-khaled/lessons/wa-nal9a-al-aheba/episode-09-919", file: "raw/assabile/amr-khaled/wa-nal9a-al-aheba/ep09.mp4", format: mp4, duration: "54:15", bytes: 143081214, sha256: "438269ceb619b2de8095482e856f15338f26210e7b304b839eb2f2917dee65a1", on_drive: true, from: "https://media.assabile.com/assabile/lessons_8234632432/mp4/amr-khaled/919-09-amr-bn-al-khtab-5.mp4", downloaded: "2026-11-15", transcript: "pass5-qwen", mining: "in_progress" }
       - { n: 10, title: "Episode 10 (Wa Nalka Al-Aheba)", page_url: "https://www.assabile.com/amr-khaled/lessons/wa-nal9a-al-aheba/episode-10-920", file: "raw/assabile/amr-khaled/wa-nal9a-al-aheba/ep10.mp4", format: mp4, duration: "51:03", bytes: 117630496, sha256: "392dffd5fa0e39e08bb814525e55788a5ffad1f1a6f2201ef17bcc3671295b51", on_drive: true, from: "https://media.assabile.com/assabile/lessons_8234632432/mp4/amr-khaled/920-10-amr-bn-al-khtab-6.mp4", downloaded: "2026-11-15", transcript: "pass5-qwen", mining: "in_progress" }
+      - { n: 11, title: "Episode 11 (Wa Nalka Al-Aheba)", page_url: "https://www.assabile.com/amr-khaled/lessons/wa-nal9a-al-aheba/episode-11-921", file: "raw/assabile/amr-khaled/wa-nal9a-al-aheba/ep11.mp4", format: mp4, duration: "52:46", bytes: 131609118, sha256: "b7935ab2fe89f27a207444d64f17db7ca5923953db7ed511a6b78a109c9599f9", on_drive: true, downloaded: "2026-11-16", transcript: "pass5-qwen", mining: "in_progress" }
+      - { n: 12, title: "Episode 12 (Wa Nalka Al-Aheba)", page_url: "https://www.assabile.com/amr-khaled/lessons/wa-nal9a-al-aheba/episode-12-922", file: "raw/assabile/amr-khaled/wa-nal9a-al-aheba/ep12.mp4", format: mp4, duration: "47:56", bytes: 123541662, sha256: "c1369d94dd052f1cc3afe467730c16ca1f11351a7787fa554daad39a1df99819", on_drive: true, downloaded: "2026-11-16", transcript: "pass5-qwen", mining: "in_progress" }
     completion: mining
-    unverified: ["episode 10 added by the lander from packet lanec-wa-nal9a-al-aheba-10 (landed 15 Nov 2026); entry added by the lander from the note in packet lanec-wa-nal9a-al-aheba-09; only episode 9 is described in full; episodes 1-8 and 10 are on the drive under raw/assabile/amr-khaled/wa-nal9a-al-aheba/ (audio/ and pass5-qwen/) and need their lines and checksums filled in by the lane; episodes_total not yet confirmed"]
+    unverified: ["episodes 11 and 12 added by the lander from packets lanec-wa-nal9a-al-aheba-11 and -12 (landed 16 Nov 2026); episode 10 added by the lander from packet lanec-wa-nal9a-al-aheba-10 (landed 15 Nov 2026); entry added by the lander from the note in packet lanec-wa-nal9a-al-aheba-09; only episode 9 is described in full; episodes 1-8 and 10 are on the drive under raw/assabile/amr-khaled/wa-nal9a-al-aheba/ (audio/ and pass5-qwen/) and need their lines and checksums filled in by the lane; episodes_total not yet confirmed"]
   # END video_series
 
 # websites: one entry per site (id, title, site_url, licence, lane, state, notes) and a `pages` list of

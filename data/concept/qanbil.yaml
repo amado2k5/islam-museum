@@ -1,0 +1,23 @@
+id: concept/qanbil
+class: concept
+kind: natural
+label:
+  ar: "قنبيل"
+  en: "Qanbil (red sandy seeds)"
+  ur: "قنبیل"
+summary:
+  ar: "قنبيل في الكتاب بزور رملية تعلوها حمرة دون حمرة الورس، حار يابس في الثالثة فيه قبض شديد على قول ابن ماسويه، يقتل الديدان وحب القرع {cite:canon-ibn-sina-print-v1 p.650}"
+  en: "Qanbil is in the book sandy seeds topped with a redness less than the redness of wars, hot and dry in the third degree with strong astringency on the word of Ibn Masawayh, killing worms and tapeworm {cite:canon-ibn-sina-print-v1 p.650}"
+  ur: "قنبیل کتاب میں ریتلے بیج ہیں جن پر ورس کی سرخی سے کم سرخی ہے، تیسرے درجے میں گرم خشک اور ابن ماسویہ کے قول پر اس میں شدید قبض ہے، کیڑوں اور کدو دانے کو مارتا ہے {cite:canon-ibn-sina-print-v1 p.650}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter qaf (the nineteenth chapter), scan pages 650, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for doubtful headings; editor footnotes used only for identity; measured doses, weights, counts and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-25
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

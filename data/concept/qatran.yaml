@@ -1,0 +1,23 @@
+id: concept/qatran
+class: concept
+kind: natural
+label:
+  ar: "قطران"
+  en: "Qatran (tar)"
+  ur: "قطران"
+summary:
+  ar: "القطران في الكتاب عصارة شجرة تسمى الشربين، حار يابس في الرابعة، يحفظ جثة الميت ويحمر ويكوي، ينفع من القمل والجرب ويسكن الصداع البارد ويقتل دود الأذن ويحد البصر ويقتل الديدان وينفع من نهشة الحية ذات القرن {cite:canon-ibn-sina-print-v1 p.647}"
+  en: "Qatran is in the book the sap of a tree called al-sharbin, hot and dry in the fourth degree, which preserves the body of the dead, reddens and cauterises; it benefits lice and itch, soothes cold headache, kills ear worms, sharpens the sight, kills worms and benefits the bite of the horned viper {cite:canon-ibn-sina-print-v1 p.647}"
+  ur: "قطران کتاب میں شربین نامی درخت کا رس ہے، چوتھے درجے میں گرم خشک، جو میت کے جسم کو محفوظ رکھتا، سرخ کرتا اور داغتا ہے؛ جوؤں اور خارش میں نافع ہے، ٹھنڈے سر درد کو تسکین دیتا، کان کے کیڑوں کو مارتا، نظر تیز کرتا، کیڑوں کو مارتا اور سینگ والے سانپ کے ڈسنے میں نافع ہے {cite:canon-ibn-sina-print-v1 p.647}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter qaf (the nineteenth chapter), scan pages 647, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for doubtful headings; editor footnotes used only for identity; measured doses, weights, counts and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-25
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

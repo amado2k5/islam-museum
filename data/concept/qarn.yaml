@@ -1,0 +1,23 @@
+id: concept/qarn
+class: concept
+kind: natural
+label:
+  ar: "قرن"
+  en: "Qarn (horn)"
+  ur: "قرن"
+summary:
+  ar: "القرن في الكتاب قرن الأيل والعنز المحرقان، يجلو الأسنان بقوة ويشد اللثة ويسكن وجعها، ويمنع المواد عن العين، وينفع من نفث الدم واليرقان والدوسنطاريا، وهو نقل في أجزاء الحيوان {cite:canon-ibn-sina-print-v1 p.658}"
+  en: "Qarn is in the book the burnt horn of the stag and the goat, which cleans the teeth strongly, firms the gums and calms their pain, keeps matters from the eye, and benefits the spitting of blood, jaundice and dysentery; it is a report on parts of animals {cite:canon-ibn-sina-print-v1 p.658}"
+  ur: "قرن کتاب میں ہرن اور بکری کے جلائے ہوئے سینگ ہیں جو دانتوں کو زور سے صاف کرتے، مسوڑھوں کو مضبوط کرتے اور ان کے درد کو تسکین دیتے ہیں، آنکھ کی طرف مادوں کو روکتے ہیں، اور خون تھوکنے، یرقان اور پیچش میں نافع ہیں؛ یہ جانوروں کے اجزاء کے بارے میں منقول بیان ہے {cite:canon-ibn-sina-print-v1 p.658}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter qaf (the nineteenth chapter), scan pages 658, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for doubtful headings; editor footnotes used only for identity; measured doses, weights, counts, times and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-26
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

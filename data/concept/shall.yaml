@@ -1,0 +1,23 @@
+id: concept/shall
+class: concept
+kind: natural
+label:
+  ar: "شل"
+  en: "Shall (the Indian quince, per the editor's note)"
+  ur: "شل"
+summary:
+  ar: "الشل في الكتاب دواء هندي يشبه الزنجبيل، وفي الحاشية أنه السفرجل الهندي، حار يابس في الثانية، مر قابض حريف يكسر الرياح وفي قوة العسل، وله تحليل عجيب وتلطيف، نافع للعصب والفسوخ {cite:canon-ibn-sina-print-v1 p.674}"
+  en: "Shall is in the book an Indian drug resembling ginger, and the editor's note says it is the Indian quince; it is hot and dry in the second degree, bitter, astringent and pungent, breaking winds and with the power of honey, with a marvellous dissolving and subtilising power, and beneficial for the nerve and for dislocations {cite:canon-ibn-sina-print-v1 p.674}"
+  ur: "شل کتاب میں ایک ہندی دوا ہے جو ادرک سے مشابہ ہے، اور حاشیے میں ہے کہ یہ ہندی سفرجل ہے؛ دوسرے درجے میں گرم خشک، کڑوا، قابض اور تیز ہے، ہواؤں کو توڑتا ہے اور شہد کی قوت رکھتا ہے، اس میں حیرت انگیز تحلیل اور لطافت ہے، اور عصب اور جوڑ کے اکھڑنے میں نافع ہے {cite:canon-ibn-sina-print-v1 p.674}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter shin (the twenty-first chapter), scan pages 674, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for doubtful headings; editor footnotes used only for identity; measured doses, weights, counts, times and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-28
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

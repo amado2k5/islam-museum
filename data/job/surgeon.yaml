@@ -1,0 +1,47 @@
+id: job/surgeon
+class: job
+label: { ar: "الجرّاح", en: "Surgeon (jerrah)", ur: "جراح" }
+names:
+  - { value: "cerrah", kind: latinized, lang: tr }
+  - { value: "جَرَّائح", kind: alternate }
+summary:
+  ar: "الجرّاح هو من يعالج الجروح والدمامل والفتق، ويقلع الأسنان، ويفصد، ويختن، ويبتر. تطلب كتب الحسبة منه معرفة كتاب جالينوس المعروف بـ«قاطاجانس» في الجروح والمراهم وكتاب الزهراوي، ومعرفة التشريح حتى يتجنّب العضلات والعروق والشرايين والأعصاب حين يفتح الدمامل ويستأصل البواسير، وأن يحمل مباضع مستديرة ومربعة ومصلّبة الرؤوس وسكاكين ومنشار بتر ومِثقب أذن ومرهم اللاذن القاطع للدم. وعند العثمانيين كان الجرّاح يُعَدّ صاحب صنعة يتعلّمها في القصر ضمن أهل الحرف أو على يد أستاذ أو عن أبيه، ويعمل في البيمارستان والقصر والجيش أو في دكانه، ويرأسهم «سرجراحين خاصه» أي الجرّاح باشي، ويمتحنهم الحكيم باشي ويمنح المستحقّ إذناً مختوماً ويعاقب غير العارف."
+  en: "The jerrah dressed wounds and boils, treated hernias, drew teeth, let blood, circumcised and amputated. The hisba manuals require him to know Galen's book known as Qatajanus on wounds and dressings, and al-Zahrawi's book, and the anatomy of the body so that he avoids the muscles, veins, arteries and nerves when he opens abscesses and excises haemorrhoids; his kit is lancets with round, square and cross-cut heads, knives, a frontal hatchet, an amputating saw, an ear-piercer and the storax or olibanum remedy that stanches blood. Among the Ottomans the surgeon counted as a craftsman, learning in the palace corps of the ehl-i hiref, beside a master, or from his father; he served in the hospital, palace, army or his own shop, answered to the sercerrahin-i hassa — the surgeon-chief — and was examined by the hekimbaşı, who granted the competent a sealed permit and punished the ignorant."
+  ur: "جراح وہ ہے جو زخم اور پھوڑے سنوارتا، فتق کا علاج کرتا، دانت اُکھیڑتا، فصد کھولتا، ختنہ کرتا اور عضو کاٹتا ہے۔ حسبہ کی کتابیں اس سے جالینوس کی قاطاجانس نام کتاب اور الزہراوی کی کتاب اور بدن کی تشریح مانگتی ہیں تاکہ پھوڑے پھاڑتے اور ماسے کاٹتے وقت پٹھے، رگیں، شریانیں اور اعصاب بچائے؛ اس کے اوزار ہیں گول، چوکور اور صلیبی سرے والے نشر، چھریاں، پیشانی کی کلہاڑی، بترنے کی آری، کان بیدنے کا آلہ اور لوبانِ لاذن کی رُکاوٹ خون کی مرہم۔ عثمانیوں میں جراح صنعتکار شمار ہوتا، محل کے اہلِ حرف دستے میں، کسی استاد کے پاس یا باپ سے سیکھتا؛ بیمارستان، محل، لشکر یا اپنی دکان میں کام کرتا؛ سردار «سرجراحینِ خاصہ» یعنی جراح باشی تھا، اور حکیم باشی ان کا امتحان لے کر اہل کو مہربند اجازت نامہ دیتا اور نادان کو سزا دیتا تھا۔"
+domain: medicine-care
+kind: medical
+hirfa: true
+era:
+  origins: pre-islamic
+  status_today: transformed
+places:
+  - { place: place/cairo, note: "Ibn al-Ukhuwwa, writing hisba rules for the Egyptian market, requires the surgeon to know Galen's Qatajanus on wounds and dressings and the body's anatomy, and lists his lancets, knives, frontal hatchet, amputating saw, ear-piercer, leeches and styptic; the 'arif is to watch the surgeons' frauds.", sources: [source/ibn-ukhuwwa-maalim-levy] }
+  - { place: place/istanbul, note: "Evliya passes seven hundred surgeons with four hundred shops in the guild procession; the TDV entry gives the palace ehl-i hiref register counts of forty-five surgeons and five apprentices in 1525 and seventy-nine and thirty-three in 1596, and the hekimbaşı's licensing of them.", sources: [source/evliya-seyahatname-hammer, source/tdv-cerrahlik] }
+regions: [egypt-nile, levant-iraq, anatolia-balkans, andalus-europe, persia-central-asia]
+organization:
+  organized: guild
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people, living]
+periods: [period/abbasid-early, period/crusades-ayyubid-mamluk, period/gunpowder-empires, period/modern-era]
+sources: [source/tdv-cerrahlik, source/ibn-ukhuwwa-maalim-levy, source/shayzari-nihaya-buckley, source/evliya-seyahatname-hammer]
+training:
+  mode: mixed
+  certification: "Hekimbaşı's sealed permit after examination (Ottoman); hisba examination on Galen's Qatajanus and al-Zahrawi's book (medieval)"
+craft:
+  materials: []
+  techniques:
+    ar: "يعدّ الشيزري وابن الأخوة أدوات الجرّاح: مباضع منها المستدير الرأس والمربع والمصلّب، وسكاكين، وفأس الجبين، ومنشار البتر، ومِثقب الأذن، وقاطع الورم، وعلقة، ولفافة للمراهم، ومرهم اللاذن ⁦(الأوليبانوم)⁩ الذي يقطع الدم. ويحذّران من مكر بعضهم: يُدخل عظماً في الجرح خفية ثم يُخرجه أمام الناس زاعماً أن مراهمه القاطعة أخرجته، ويصنع بعضهم مرهماً من جير مغسول بالزيت يصبغه بالمغرة حمراً وبالكركم والنيلة خضراً وبالفحم المسحوق سواداً."
+    en: "Al-Shayzari and Ibn al-Ukhuwwa list the surgeon's tools: lancets with rounded, square and cross-cut heads, knives, a frontal hatchet, an amputating saw, an ear-piercer, a wen-cutter, leeches, a strip of cloth to wrap dressings, and the storax (olibanum) medicament that stops the flow of blood. They warn against the cheats: a man slips a bone into a wound and then draws it out before a crowd, claiming his cutting medicaments extracted it; others make plasters of lime washed in oil, dyed red with red earth, green with turmeric and indigo, black with powdered charcoal."
+    ur: "الشیزری اور ابن الاخوہ جراح کے اوزار گنواتے ہیں: گول، چوکور اور صلیبی سرے والے نشر، چھریاں، پیشانی کی کلہاڑی، بترنے کی آری، کان بیدنے کا آلہ، گمڑی کاٹنے کا آلہ، جونکیں، مرہم لپیٹنے کا کپڑا اور لوبانِ لاذن کی خون روک دوا۔ دھوکھوں سے بھی خبردار کرتے ہیں: کوئی زخم میں چوری سے ہڈی ڈال کر بھیڑ کے سامنے نکالتا اور دعویٰ کرتا کہ اس کی کاٹنے والی دوا نے نکالی؛ بعض چونے کا مل تیل میں دھو کر لال مٹی سے سرخ، ہلدی و نیل سے سبز اور پسی راکھ سے سیاہ رنگتے۔"
+  guild:
+    bodies: []
+    shaykh_title: { ar: "سرجراحين خاصه ⁦(الجرّاح باشي)⁩", en: "sercerrahin-i hassa — the surgeon-chief (cerrahbaşı)", ur: "سرجراحینِ خاصہ ⁦(جراح باشی)⁩" }
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-med-1" }
+provenance:
+  layer: own-research
+  source: "TDV 'CERRAHLIK' sections I (Doğruyol) and II (Sarı) read on the web on 16 Nov 2026; Ibn al-Ukhuwwa/Levy ch. XLV pp. 58-59; al-Shayzari/Buckley ch. 37 pp. 114-118; Evliya/Hammer vol. 1 pt. 2 sec. 56 p. 118 — books read from the downloaded scans"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-med-1-drafting"

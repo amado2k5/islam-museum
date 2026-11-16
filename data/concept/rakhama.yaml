@@ -1,0 +1,23 @@
+id: concept/rakhama
+class: concept
+kind: natural
+label:
+  ar: "رخمة"
+  en: "Rakhama"
+  ur: "رخمہ"
+summary:
+  ar: "الرخمة في الكتاب يقطر من مرارتها مع دهن البنفسج للشقيقة ووجع الأذن، ويكتحل بالمرارة لبياض العين، وينقل عن ابن البطريق أن المرارة المجففة تكتحل لنهشة الأفعى فيرد المؤلف ذلك بأنه لا يصدقه، ويذكر الكتاب نقلا موسوما عن الجنين وزبلها {cite:canon-ibn-sina-print-v1 p.668}"
+  en: "Rakhama is in the book an animal whose gall is dropped with violet oil for migraine and earache, and is used as kohl for the white of the eye; it reports from Ibn al-Batriq that the dried gall is used as kohl for the bite of the viper, and the author answers that he does not credit it; the book also lists, as a labelled report on the foetus, something about its droppings {cite:canon-ibn-sina-print-v1 p.668}"
+  ur: "رخمہ کتاب میں ایک جانور ہے جس کی پتے کی تھیلی کا مادہ بنفشے کے تیل کے ساتھ آدھے سر کے درد اور کان کے درد کے لیے ٹپکایا جاتا ہے، اور آنکھ کی سفیدی کے لیے سرمے کی طرح لگایا جاتا ہے؛ ابن البطریق سے نقل ہے کہ خشک کیا ہوا مادہ افعی کے ڈنک کے لیے لگایا جائے، اور مصنف جواب دیتا ہے کہ وہ اسے نہیں مانتا؛ کتاب جنین سے متعلق منقول فہرست کے طور پر اس کی بیٹ کے بارے میں بھی ایک بات درج کرتی ہے {cite:canon-ibn-sina-print-v1 p.668}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter ra (the twentieth chapter), scan pages 668, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for doubtful headings; editor footnotes used only for identity; measured doses, weights, counts, times and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-28
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

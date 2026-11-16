@@ -1,0 +1,40 @@
+id: job/engineer
+class: job
+label: { ar: "المهندس", en: "Engineer (muhandis)", ur: "انجینیر ⁦(مہندس)⁩" }
+names:
+  - { value: "مهندس", kind: alternate }
+  - { value: "mühendis", kind: latinized, lang: tr }
+  - { value: "صاحب الحيل", kind: alternate }
+summary:
+  ar: "المهندس عند المسلمين كان عمله في علم الحِيَل، أي التقنية الميكانيكية: عرّفه الفارابي فرعاً عملياً من العلوم الرياضية يثبت مطابقة معطيات الرياضيات لحقائق الطبيعة، فيدخل فيه الهندسة الإنشائية والرصد وآلات الموسيقى والروافع، وضيّقه الخوارزمي في صنع الرافعات والمنجنيقات والآلات المائية والأوتوماتا. وكتب بنو موسى «كتاب الحيل» في القرن التاسع يصفون فيه نحو مئة آلة أكثرها آنية أوتوماتيكية مع منظومات ضبط ذاتي، وكتب الجزري سنة 1206م في بلاط الأرتقيين بحصن كيفا أهم كتب الميكانيكا. ثم عاد الاسم مدرسةً: فُتحت المهندسخانه البرّي الهمايون في هسكوي سنة 1795م تخرّج مهندسي الجيش بالهندسة والمساحة والتحصين وحساب التفاضل."
+  en: "The engineer's work in the Islamic world belonged to ilm al-hiyal, mechanical technology: al-Farabi defined it as the practical branch of the mathematical sciences demonstrating the fit between mathematical data and physical fact — construction engineering, observation, musical instruments and levers all within it — while al-Khwarizmi narrowed it to levers, mangonels, hydraulic machines, water screws and automata. The Banu Musa wrote the Kitab al-Hiyal in the ninth century describing about a hundred devices, mostly automatic vessels, with self-acting control mechanisms, and al-Jazari wrote the greatest mechanical book at the Artukid court of Hisn Kayfa in 1206. The name returned as a school: the Mühendishâne-i Berrî-i Hümâyun opened at Hasköy in 1795 to graduate army engineers through geometry, surveying, fortification and the calculus."
+  ur: "اسلامی دنیا میں مہندس کا کام علمِ حِیل یعنی میکانیکی ٹیکنالوجی تھا: فارابی نے اسے ریاضی علوم کی عملی شاخ قرار دیا جو ریاضی کے معطوں اور طبیعیات کی حقیقتوں کی مطابقت دکھائے — تعمیری ہندسہ، مشاہدہ، ساز اور لیور سب اس میں آتے ہیں — جبکہ خوارزمی نے اسے لیور، منجنیق، پانی کی مشینیں اور خودکار آلات تک محدود کیا۔ بنو موسیٰ نے نویں صدی میں کتاب الحیل لکھی جس میں تقریباً سو آلات — اکثر خودکار برتن — خودکار کنٹرول میکانزم کے ساتھ بیان ہوئے، اور الجزری نے 1206ء میں آرتوقیوں کے دربار حصن کیفا میں میکانکیات کی سب سے بڑی کتاب لکھی۔ پھر یہ نام ایک مدرسے کی صورت میں لوٹا: 1795ء میں ہسکوئے میں مهندسخانۂ برئ ہمایوں کھلا جو فوجی انجینیر ہندسہ، سروے، قلعہ بندی اور حسابِ تفاضل سے تیار کرتا۔"
+domain: sciences-numbers
+kind: modern-profession
+hirfa: false
+era:
+  origins: early-caliphate
+  status_today: living
+places:
+  - { place: place/baghdad, note: "The Banu Musa brothers — Muhammad, Ahmad and Hasan — worked at Baghdad in the ninth century; their Kitab al-Hiyal describes about a hundred mechanical devices, more than eighty of them automatic vessels, with automatic control mechanisms going beyond their Greek models.", sources: [source/tdv-hiyel] }
+  - { place: place/damascus, note: "Fakhr al-Din Ibn al-Sa'ati completed his book on his father's great water clock at Damascus in 600/1203; the clock, built for Nur al-Din Mahmud Zengi, he restored and described when no one else could mend it.", sources: [source/tdv-hiyel] }
+  - { place: place/istanbul, note: "The Mühendishâne-i Berrî-i Hümâyun opened at Hasköy in 1795 as the empire's second engineering school, teaching geometry, surveying, fortification, conic sections, the calculus, mechanics and astronomy; its printing press of 1797 reproduced the log tables and figures of its textbooks.", sources: [source/tdv-muhendishane-i-berri-i-humayun] }
+regions: [levant-iraq, egypt-nile, anatolia-balkans, persia-central-asia, andalus-europe]
+organization:
+  organized: court-office
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people]
+periods: [period/abbasid-early, period/crusades-ayyubid-mamluk, period/gunpowder-empires, period/modern-era]
+sources: [source/tdv-hiyel, source/tdv-muhendishane-i-berri-i-humayun]
+training:
+  mode: mixed
+  certification: "The hiyal masters learned in the scholarly way — the Banu Musa were mathematicians, astronomers and translators before they were mechanicians — and al-Jazari wrote under Artukid patronage. From 1795 the mühendis was made by the state school: four classes taught hat, arithmetic, geometry and technical drawing, then surveying, fortification, conic sections, the calculus, mechanics and astronomy, entirely by Turkish teachers; graduates entered the new army as 'mansûre mühendisi' with engineer ranks, and from 1841 the mühendis alayı."
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-sci-1" }
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi: 'HİYEL' (C. İzgi, 1998; vol. 18 pp. 178-180) and 'MÜHENDİSHÂNE-i BERRÎ-i HÜMÂYUN' (K. Beydilli, 2020; vol. 31 pp. 515-516), both read on the web on 16 Nov 2026"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-sci-1-drafting"

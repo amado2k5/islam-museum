@@ -1,0 +1,41 @@
+id: job/emir
+class: job
+label: { ar: "أمير", en: "Emir (commander, provincial ruler)", ur: "امیر" }
+names:
+  - { value: "أمير الجيش", kind: alternate }
+  - { value: "عامل", kind: alternate }
+  - { value: "emîr", kind: latinized, lang: tr }
+  - { value: "emîrü'l-emerâ", kind: latinized, lang: tr }
+summary:
+  ar: "الأمير القائد والوالي في أول الدولة الإسلامية؛ استُعمل للقائد العسكري وللذي يحكم إقليماً، وجمع صلاحيات إدارية ومالية وقضائية وعسكرية واسعة في العهد الأموي، ثم قلّصها العباسيون بفصل المال عن الإمارة، حتى صار الأمراء شبه مستقلّين يكتفون بذكر الخليفة في الخطبة وعلى السكة."
+  en: "The emir was the commander and provincial ruler of the early Islamic state; the name covered the army commander and the man governing a province, combining wide administrative, fiscal, judicial and military powers under the Umayyads, curbed by the Abbasids through separating finance from the emirate, until emirs became semi-independent dynasts content to name the caliph in khutba and coinage."
+  ur: "امیر ابتدائی اسلامی ریاست کا کمانڈر اور صوبائی حاکم تھا؛ نام فوجی سردار اور صوبہ بھر کے حکمران دونوں پر بولا جاتا، اموی دور میں وسیع انتظامی، مالی، عدالتی اور فوجی اختیارات جمع تھے، عباسیوں نے مال کو امارت سے الگ کر کے کم کیے، یہاں تک کہ امیر نیم خود مختار خاندان بن گئے جو صرف خطبہ اور سِکّے میں خلیفہ کا نام رکھتے۔"
+domain: governance-law
+kind: office
+hirfa: false
+era:
+  origins: early-caliphate
+  status_today: transformed
+places:
+  - { place: place/damascus, note: "Under the Umayyads the emir governed a province with near-caliphal powers: he led the prayer, appointed qadis, ran the shurta, the barid and the mint, and coined silver bearing his own name.", sources: [source/tdv-emir-idareci] }
+  - { place: place/kufa, note: "In Kufa and the eastern provinces the populace looked on emirs as they would a kethüda or a shah — the provincial ruler as effective king of his territory.", sources: [source/tdv-emir-idareci] }
+  - { place: place/baghdad, note: "Under the Abbasids emirs were mostly chosen from the bureaucracy, held short terms, shared power with the finance 'amil and were watched by the sahib al-barid; from the ninth century hereditary emirs (Aghlabids, Tahirids, Samanids) confined the caliph's share to khutba and coin.", sources: [source/tdv-emir-idareci] }
+regions: [arabia, levant-iraq, egypt-nile, maghreb, andalus-europe, persia-central-asia, south-asia]
+organization:
+  organized: court-office
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people]
+periods: [period/rashidun, period/umayyad, period/abbasid-early, period/abbasid-fragmentation, period/buyid-seljuk-fatimid-era, period/crusades-ayyubid-mamluk]
+sources: [source/tdv-emir-idareci]
+training:
+  mode: state-licence
+  certification: "Appointed by the caliph, often in consultation with the province's Arab population; a departing emir named his own khalifa (deputy) to represent him until a successor arrived."
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-gov-1" }
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi, 'EMÎR' --idareci (al-Dūrī, 1995), web edition read on 16 Nov 2026: the term's early usage, Umayyad and Abbasid emirs, their duties and the growth of semi-independent emirates"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-gov-1-drafting"
