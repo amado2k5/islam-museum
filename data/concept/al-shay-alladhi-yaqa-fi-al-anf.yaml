@@ -1,0 +1,33 @@
+id: concept/al-shay-alladhi-yaqa-fi-al-anf
+class: concept
+kind: scientific
+label:
+  ar: الشيء الذي يقع في الأنف
+  en: The thing that falls into the nose
+  ur: ناک میں گر جانے والی چیز
+summary:
+  ar: الشيء الذي يقع في الأنف يعطس صاحبه ببعض الأدوية من جنس ما يعرف ويؤخذ على فمه ومنخره الصحيح فإذا عطس خرج منه الشيء وكأن هذا مما سلف ذكره {cite:canon-ibn-sina-print-v2 p.252}
+  en: 'For the thing that falls into the nose: its owner is made to sneeze by one of the drugs of the known kind while his mouth and sound nostril are held shut; when he sneezes, the thing comes out — as though it were among what was mentioned before {cite:canon-ibn-sina-print-v2 p.252}'
+  ur: 'ناک میں گر جانے والی چیز کے لیے: صاحب کو معروف جنس کی کسی دوا سے چھینک دلوائی جاتی ہے جب کہ منہ اور صحیح نتھنا بند رکھا جاتا ہے؛ چھینک آنے پر وہ چیز باہر نکل آتی ہے — اور گویا یہ پہلے ذکر شدہ میں سے ہے {cite:canon-ibn-sina-print-v2 p.252}'
+wings:
+- living
+tags:
+- tibb-browser
+- tibb-tibb
+sources:
+- source/canon-ibn-sina-print-v2
+relations:
+- type: part_of
+  target: concept/disease
+  sources:
+  - source/canon-ibn-sina-print-v2
+provenance:
+  layer: own-research
+  source: Canon of Medicine, vol. 2 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book III, Fann 5 (the nose, two maqalas), scan pages 252, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v2, book.txt and pages.json, copied to /tmp before reading); editor footnotes used only as the editor's and labelled; doses, quantities, times, ratios, drug and plant names as recipes, compound recipes, vein, cupping, cautery and operative sites and application methods left out; the scraping, sawing, cutting and cautery hand-works carried only as the book's descriptions, not as procedures; unclear OCR words carried as printed, not guessed; case reports and named attributions carried as the book's attributions and labelled; reproductive and animal-derived lines kept only as labelled listings set aside for the founder's ruling
+  generated_by: Devin subagent (SWE-2 Medium, Lane A4 worker)
+  model: swe-2-medium
+  run: a4-canon-book3-12
+status:
+  review: published
+  completeness: 1
+  generated_by: Devin subagent (SWE-2 Medium, book mining, lane A4)
