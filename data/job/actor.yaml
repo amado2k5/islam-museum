@@ -1,0 +1,49 @@
+id: job/actor
+class: job
+label: { ar: "الممثّل ⁦(أورطا أويونجوسو / مقلّد)⁩", en: "Actor (orta oyunu player; Pîşekâr, Kavuklu)", ur: "اداکار ⁦(اورتا اویونجو / مقلّد)⁩" }
+names:
+  - { value: "ممثّل", kind: alternate }
+  - { value: "اورطا اويونجوسو", kind: alternate }
+  - { value: "orta oyuncusu", kind: latinized, lang: tr }
+  - { value: "مقلّد", kind: alternate }
+  - { value: "mukallid", kind: latinized }
+  - { value: "پيشكار", kind: alternate }
+  - { value: "Pîşekâr", kind: latinized, lang: tr }
+  - { value: "قاووقلو", kind: alternate }
+  - { value: "Kavuklu", kind: latinized, lang: tr }
+  - { value: "زنّه", kind: alternate }
+  - { value: "zenne", kind: latinized, lang: tr }
+  - { value: "كول اويونجوسو", kind: alternate }
+  - { value: "kol oyuncusu", kind: latinized, lang: tr }
+summary:
+  ar: "ممثّل الأورطا أويونو يلعب في الميدان وسط الجمهور بلا خشبة ولا ستارة ولا ديكور، في تقليدٍ يُسمّى أيضاً كول أويونو وميدان أويونو وميدان صوحن وزهوري. عُرفت اللعبة في إستانبول القرن التاسع عشر؛ أول شهادتها في سرنامه لبيب عام 1834 وسرنامه حضر عام 1836. الممثلون يحملون في ذاكرتهم «قناوة» اللعبة — مخططها — ويقولون كلامهم ارتجالاً، فهي ساحةُ قولٍ لا فعل؛ بطلاها البيشكار، وهو ممثل ومخرج وكاتب في آن، والقاووقلو، المهرّج الأكبر. يدخل كلٌّ على هوى الزُّرنا، يُعرف الشخصية قبل كلامها بموسيقاها وملبسها ومشيتها."
+  en: "The orta oyunu actor plays in the open meydan among the crowd, without stage, curtain or décor, in a theatre also called kol oyunu, meydan oyunu, meydân-ı sühan and zuhûrî. It is first attested in Istanbul of the nineteenth century — named in Lebîb's Sûrnâme of 1834 and Hızır's of 1836 — and grew common from the century's second half. The players carry the play's 'kanava', its outline, in their heads and speak their lines improvised, so the play is a field of speech rather than action; its two heroes are the Pîşekâr — actor, stage-manager and author in one — and the Kavuklu, the chief comic. Each type enters to its own music on the zurna, known before it speaks by its dress and gait."
+  ur: "اورتا اویونو کا اداکار کھلے میدان میں تماشائیوں کے درمیان کھیلتا ہے، بغیر اسٹیج، پردے اور سجاوٹ کے؛ اسے کول اویونو، میدان اویونو، میدانِ سخن اور زہوری بھی کہتے ہیں۔ یہ انیسویں صدی کے استنبول میں پہلی بار شہادت پاتا ہے — لبیب کی سرنامہ ۱۸۳۴ء اور حضر کی ۱۸۳۶ء میں — اور صدی کے دوسرے حصے سے عام ہوا۔ اداکار کھیل کا «کناوہ» یعنی خاکہ ذہن میں رکھتے اور باتیں ارتجالاً کہتے، اس لیے یہ فعل کا نہیں قول کا میدان ہے؛ اس کے دو ہیرو پیشکار ہیں — اداکار، اسٹیج منیجر اور مصنف ایک ہی میں — اور قاووقلو، مرکزی مزاحیہ کردار۔ ہر نمونہ زرنا کی اپنی دھن پر داخل ہوتا، اپنی پوشاک اور چال سے بولنے سے پہلے پہچانا جاتا۔"
+domain: media-performance
+kind: artistic
+hirfa: false
+era:
+  origins: early-modern
+  status_today: transformed
+places:
+  - { place: place/istanbul, note: "Orta oyunu is first attested in the Istanbul surnames — Lebîb's for Saliha Sultan's wedding in 1834 and Hızır's for the circumcision feast of 1836 — and became widespread in the century's second half; the article names the great players from Kavuklu Sepetçi Ali Rızâ and Pîşekâr Âsım to Kavuklu Hamdi Efendi.", sources: [source/tdv-orta-oyunu] }
+regions: [anatolia-balkans]
+organization:
+  organized: informal
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people]
+periods: [period/gunpowder-empires, period/modern-era]
+sources: [source/tdv-orta-oyunu, source/evliya-narrative-hammer-v2]
+training:
+  mode: mouth-to-mouth
+  certification: "A tulûat play with no written text: the subjects passed from master to apprentice, the players holding the kanava in mind and improvising the words; the Pîşekâr, at once player, stager and author, opened the meydan with the pastal clapper and closed it begging pardon for faults {cite:tdv-orta-oyunu}. Evliya's companies of boys included accomplished mukallids whose mimicking kept the feasts laughing {cite:evliya-narrative-hammer-v2}."
+  duration: "The play has four parts — giriş, muhâvere (arazbar and tekerleme), fasıl and bitiş — learned inside the kol by playing them {cite:tdv-orta-oyunu}."
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-media-1" }
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi 'ORTA OYUNU' (Albayrak, 2007); Evliya Çelebi, Narrative of Travels vol. 2 (Hammer, 1850), Forty-fourth Section on the mimics' kols. Read on 16 Nov 2026"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-media-1-drafting"

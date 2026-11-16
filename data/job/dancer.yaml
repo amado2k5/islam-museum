@@ -1,0 +1,49 @@
+id: job/dancer
+class: job
+label: { ar: "الراقص ⁦(غازية / چنگي / كۆچك)⁩", en: "Dancer (ghâziya, çengi, köçek)", ur: "رقاص ⁦(غازیہ / چنگی / کوچک)⁩" }
+names:
+  - { value: "رقّاص", kind: alternate }
+  - { value: "raqqâs", kind: latinized }
+  - { value: "غازية", kind: alternate }
+  - { value: "ghâziya", kind: latinized }
+  - { value: "غوازي", kind: alternate }
+  - { value: "Ghawazee", kind: latinized }
+  - { value: "چنگي", kind: alternate }
+  - { value: "çengi", kind: latinized, lang: tr }
+  - { value: "كۆچك", kind: alternate }
+  - { value: "köçek", kind: latinized, lang: tr }
+  - { value: "جرجوناباز", kind: alternate }
+  - { value: "curcunabaz", kind: latinized, lang: tr }
+summary:
+  ar: "الراقص حرفي الفرح والميدان: عند المصريين قبيلة الغوازي ترقص نساؤها — الغازية — مكشوفات الوجوه في الأسواق والأفراح إلى صوت الكمانجة والرباب والطار والدربوكة، وعند الترك الچنگي راقصات وكۆچك غلمان يرقصون رقص النساء، وجرجوناباز يقلّدون الراقصين تقليداً غليظاً يُضحك الناس. أحصى أوليا في إستانبول اثنتي عشرة فرقة من الصبيان الراقصين والمقلّدين تسمّى چنگي، يتسابقون في الرقص والألعاب أمام قصر العروض. وفي مصر وصف لين رقص الغوازي بالاهتزاز السريع للوركين مع صنجات النحاس، وسجّل حظر الرقص العلني في القاهرة عام 1834 حتى انتقلت الطائفة إلى الصعيد."
+  en: "The dancer is the professional of feast and square: in Egypt the Ghawazee tribe whose women — the ghâziya — dance unveiled in streets and festivities to the kemengeh, rabâb, târ and darabukkeh; among the Turks the çengi women dancers and the köçek boys who danced in female manner, and the curcunabaz clowns who burlesqued them. Evliya counts twelve companies of dancing and mimicking boys in Istanbul, all called çengi, vying in dance and tricks before the Alai kiosk. In Egypt Lane described the Ghawazee's rapid hip-vibration with brass castanets, and recorded the 1834 ban on public dancing in Cairo that drove the tribe to Upper Egypt."
+  ur: "رقاص دعوتوں اور میدان کا پیشہ ور ہے: مصر میں غوازی قبیلہ جس کی عورتیں — غازیہ — کھلے چہرے بازاروں اور جشنوں میں کمانجہ، رباب، طار اور دربکے پر رقص کرتی ہیں؛ ترکوں میں چنگی رقاصائیں اور کوچک لڑکے جو زنانہ انداز میں ناچتے، اور جرجوناباز جو بھدّی نقل سے ہنساتے۔ اولیا نے استنبول میں رقص و تقلید کے بارہ لڑکوں کے دستے گنے جو سب چنگی کہلاتے، علائی کوشک کے آگے رقص اور کرتب میں سبقت کرتے۔ مصر میں لین نے غوازی کا تیز کولہے ہلانے والا رقص پیتل کی کھڑتالوں ساتھ بیان کیا اور ۱۸۳۴ء میں قاہرے میں عوامی رقص پر پابندی درج کی جس سے قبیلہ صعید منتقل ہوا۔"
+domain: media-performance
+kind: artistic
+hirfa: false
+era:
+  origins: pre-islamic
+  status_today: transformed
+places:
+  - { place: place/cairo, note: "Lane devoted a chapter to the Ghawazee — a distinct tribe calling themselves Baramikeh — dancing unveiled in the streets to musicians mostly of their own tribe; the government's 1834 prohibition drove them out of Cairo toward Upper Egypt, though they still performed at weddings and births.", sources: [source/lane-modern-egyptians] }
+  - { place: place/istanbul, note: "Evliya's Forty-fourth Section counts twelve companies of boys called çengi — dancers, comics and mimics, several thousand in all — who played the circumcision and wedding feasts and collected their pay in the half-drum after each dance.", sources: [source/evliya-narrative-hammer-v2] }
+regions: [egypt-nile, anatolia-balkans, levant-iraq, maghreb]
+organization:
+  organized: mixed
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk, period/gunpowder-empires, period/modern-era]
+sources: [source/lane-modern-egyptians, source/evliya-narrative-hammer-v2, source/tdv-orta-oyunu, source/tdv-karagoz]
+training:
+  mode: hereditary-family
+  certification: "The Ghawazee worked as a tribe — the musicians who accompanied the dancers were mostly of the same tribe — while the köçek and çengi learned their turns inside the kol companies of Istanbul {cite:lane-modern-egyptians} {cite:evliya-narrative-hammer-v2}."
+  duration: "In the orta oyunu the dance element belonged to the çengi, köçek and curcunabaz dancers, whose turns framed the play's music {cite:tdv-orta-oyunu}."
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-media-1" }
+provenance:
+  layer: own-research
+  source: "Lane, Modern Egyptians, 5th ed. 1860, ch. XIX 'Public Dancers'; Evliya Çelebi, Narrative of Travels vol. 2 (Hammer, 1850), Forty-fourth Section; TDV İslâm Ansiklopedisi 'ORTA OYUNU' (Albayrak, 2007). Read on 16 Nov 2026"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-media-1-drafting"

@@ -1,0 +1,47 @@
+id: job/minstrel
+class: job
+label: { ar: "العاشق ⁦(شاعر الساز)⁩", en: "Minstrel (âşık, the saz poet)", ur: "عاشق ⁦(ساز شاعر)⁩" }
+names:
+  - { value: "عاشق", kind: alternate }
+  - { value: "âşık", kind: latinized, lang: tr }
+  - { value: "اوزان", kind: alternate }
+  - { value: "ozan", kind: latinized, lang: tr }
+  - { value: "baksı", kind: latinized, lang: tr }
+  - { value: "باقصي", kind: alternate }
+  - { value: "چوغورجو", kind: alternate }
+  - { value: "çöğürcü", kind: latinized, lang: tr }
+  - { value: "ساز شاعري", kind: alternate }
+  - { value: "saz şairi", kind: latinized, lang: tr }
+summary:
+  ar: "العاشق شاعرُ سازٍ يعزف ويغنّي شعره أو شعر غيره ويروي الحكايات الشعبية. دخل الاسم الأدب التركي في القرن الخامس عشر، وكان قبله لقبَ شعراء التكايا بمعنى «عاشق الحق» كما عند يونس إمره، ثم صار منذ القرن السابع عشر اسم شعراء الساز المدنيّين. كان العاشق يدور البلاد بسازه، يقف في القرى والمدائن، يبارز أقرانه بالارتجال ويشارك في الفصول التي يديرها رئيس العاشقان، ولا يُصنع عاشقاً كاملاً إلا بسنين من الصحبة لدى أستاذ يعلّمه الشعر والموسيقى والحكاية وحسن العزف ثم يمنحه المخلّص الذي يختم صنعته."
+  en: "The âşık is the saz poet who plays and sings his own or others' verse and tells the folk tales. The name entered Turkish literature in the fifteenth century, earlier a title of the tekke poets in the sense of 'God's lover' as with Yunus Emre, then from the seventeenth century the name of the secular saz poets. The âşık wandered the land with his instrument, stopped in villages and towns, duelled his rivals in improvisation and took his place in the fasıls run by the reis-i âşıkan; a finished âşık was made only by years in a master's company, learning poetry, music and tale-telling with good saz playing, until the master granted him the mahlas that sealed the craft."
+  ur: "عاشق وہ ساز شاعر ہے جو اپنی یا دوسروں کی شاعری ساز کے ساتھ گاتا اور لوک کہانیاں سناتا ہے۔ یہ نام ترک ادب میں پندرہویں صدی میں آیا؛ پہلے یہ تکئے کے شاعروں کا لقب تھا یعنی «خدا کا عاشق» جیسے یونس امرے کے ہاں، پھر سترہویں صدی سے غیر مذهبی ساز شاعروں کا نام بنا۔ عاشق اپنا ساز اٹھائے دیہات اور قصبوں میں پھرتا، ہم پیشوں سے تلقائی نظم میں مقابلہ کرتا اور رئیسِ عاشقاں کے چلائے فصلوں میں شریک ہوتا؛ مکمل عاشق برسوں استاد کی صحبت سے بنتا، جو اسے شاعری، موسیقی، قصہ گوئی اور اچھا ساز سکھاتا، پھر مخلص عطا کر کے صنعت مہر کرتا۔"
+domain: media-performance
+kind: artistic
+hirfa: false
+era:
+  origins: medieval
+  status_today: transformed
+places:
+  - { place: place/istanbul, note: "Town-bred âşıks — many raised in Janissary circles — met their public in the cities' âşık coffeehouses, while the best were received in konaks and even palaces; their fame could run from Baghdad to the Danube and the Özi shores.", sources: [source/tdv-asik] }
+  - { place: place/konya, note: "The âşık's way of life is bound to the dervish tradition of Central Asia and Anatolia: the 'bâdeli âşık' drank the cup in dream at the hand of a pir such as Hızır Nebi, İlyas Nebi or Kutub Nebi, and woke to seek his beloved.", sources: [source/tdv-asik] }
+regions: [anatolia-balkans, persia-central-asia, levant-iraq]
+organization:
+  organized: guild
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people]
+periods: [period/mongol-post-mongol, period/gunpowder-empires, period/modern-era]
+sources: [source/tdv-asik, source/tdv-meddah]
+training:
+  mode: apprenticeship
+  certification: "The apprentice travelled with his master through saz sessions and tale gatherings, learning the master's own poems, the works of past âşıks, fine saz playing, improvisation on a demanded rhyme, and the rules for pleasing each audience; when the apprenticeship ended the master bestowed a mahlas and the craft stood registered {cite:tdv-asik}."
+  duration: "A long çıraklık is required because the finished âşık must hold music, poetry and tale-telling together {cite:tdv-asik}."
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-media-1" }
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi 'ÂŞIK' (Albayrak, 1991) and 'MEDDAH' (Nutku, 2003, for the baksı/ozan ancestry), web editions read on 16 Nov 2026"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-media-1-drafting"

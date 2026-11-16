@@ -1,0 +1,48 @@
+id: job/shadow-puppeteer
+class: job
+label: { ar: "لاعب خيال الظل ⁦(قره‌گوزچي / خيالي)⁩", en: "Shadow puppeteer (karagözcü / hayâlî)", ur: "سایہ بازی ⁦(قرہ‌گوزچی / خیالی)⁩" }
+names:
+  - { value: "قره‌گوزجو", kind: alternate }
+  - { value: "karagözcü", kind: latinized, lang: tr }
+  - { value: "خيالي", kind: alternate }
+  - { value: "hayâlî", kind: latinized, lang: tr }
+  - { value: "خيال‌باز", kind: alternate }
+  - { value: "hayalbâz", kind: latinized, lang: tr }
+  - { value: "حيال زل", kind: alternate }
+  - { value: "hayâl-i zıl", kind: latinized, lang: tr }
+  - { value: "شب‌باز", kind: alternate }
+  - { value: "shebbazan", kind: latinized }
+summary:
+  ar: "لاعب خيال الظل — قره‌گوزچي، خيالي — يقيم وحده العرض كله: يحرّك الصور خلف الستارة المضاءة بمهارة يده، ويمنح كل شخصية صوتها من المرأة والطفل إلى اللهجات العثمانية، فيكون الممثّل والمخرج ومصمّم الرقصات، ويقصّ الجلد ويلوّنه رسّاماً للتصاوير. دخل العرض بلاد العثمانيين في القرن السادس عشر من مصر؛ يحدّث ابن إياس أن لاعباً مملوكياً مثّل أمام ياووز سلطان سليم مشهد إعدام طومان باي على جزيرة الروضة، فأعجبه وأراد لابنه أن يشاهده، وجاء مع السلطان نحو ستمائة فنان مصري إلى إستانبول. وفي القرن التالي صنع الترك التصاوير من جلد شفاف مفصّل يتحرّك، وظهر اسم قره‌گوز لأول مرة."
+  en: "The shadow puppeteer — karagözcü, hayâlî — mounts the whole show alone: moving the figures behind the lit screen with his hands, giving every person its voice from woman and child to the dialects of the empire, so that he is at once actor, director and choreographer, and the painter who cuts and colours the leather figures. The play entered Ottoman lands from Egypt in the sixteenth century: Ibn Iyas tells that a Mamluk shadow-player performed before Selim I the hanging of Tumanbay on Roda island, which pleased the sultan so much that he wanted his son to see it, and some six hundred Egyptian artists came with him to Istanbul. In the next century Turkish artists made the figures translucent, jointed leather, and the name Karagöz appeared for the first time."
+  ur: "سایہ باز — قرہ‌گوزچی، خیالی — سارا تماشہ تنہا چلاتا ہے: روشن پردے کے پیچھے ہاتھ کی مہارت سے پتلے حرکت دیتا، ہر کردار کو اس کی آواز دیتا — عورت اور بچے سے لے کر سلطنت کی بولیوں تک — وہی اداکار، ڈائریکٹر، کوریوگرافر اور چمڑے کے پتلے کاٹ کر رنگنے والا مصور ہے۔ یہ کھیل سولہویں صدی میں مصر سے عثمانی ملک آیا: ابن ایاس کے مطابق ایک مملوک سایہ باز نے سلطان سلیم کے سامنے روضہ جزیرے پر طومان بائی کی پھانسی دکھائی، جو اسے بہت بھائی اور اس نے چاہا کہ بیٹا بھی دیکھے، اور اس کے ساتھ تقریباً چھ سو مصری فنکار استنبول آئے۔ اگلی صدی میں ترک فنکاروں نے پتلے شفاف، جوڑ دار چمڑے کے بنائے اور قرہ‌گوز نام پہلی بار نمودار ہوا۔"
+domain: media-performance
+kind: artistic
+hirfa: false
+era:
+  origins: medieval
+  status_today: transformed
+places:
+  - { place: place/cairo, note: "Shadow play in Egypt reaches back toward the eleventh century — German museums hold twelfth-century Egyptian figures — and the Mamluk historians record performances; Ibn Iyas tells of the player who acted Tumanbay's hanging for Selim I on Roda island in 1517.", sources: [source/tdv-karagoz] }
+  - { place: place/istanbul, note: "Selim I brought some six hundred Egyptian artists to Istanbul; sixteenth-century Ottoman documents describe the new 'hayâl-i zıl' at length, and in the seventeenth century Turkish craftsmen turned the figures into translucent jointed leather and the name Karagöz first appeared.", sources: [source/tdv-karagoz] }
+  - { place: place/bursa, note: "The guild's own origin tale — told among the karagözcüler — sets Karagöz the smith and Hacivat the mason talking on Sultan Orhan's mosque site in Bursa until the sultan had them executed and Sheikh Küşteri made and played their figures; the article weighs it as legend, not document.", sources: [source/tdv-karagoz] }
+regions: [egypt-nile, anatolia-balkans, maghreb, levant-iraq]
+organization:
+  organized: informal
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era, period/crusades-ayyubid-mamluk, period/gunpowder-empires, period/modern-era]
+sources: [source/tdv-karagoz, source/evliya-narrative-hammer-v2]
+training:
+  mode: apprenticeship
+  certification: "Evliya lists among the Constantinople guilds the Shebbazan, night-players who represented the ombres chinoises, and the Khial-tassvirjian who performed with painted figures; the karagözcü's own skill joined acting, direction, choreography and figure-making in one hand {cite:evliya-narrative-hammer-v2} {cite:tdv-karagoz}."
+  duration: "Every play runs in four independent parts — mukaddime, muhâvere, fasıl and bitiş — which each karagözcü reshapes to his own taste; mastery is measured in the handling of these parts and the voices {cite:tdv-karagoz}."
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-media-1" }
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi 'KARAGÖZ' (And, 2001); Evliya Çelebi, Narrative of Travels vol. 2 (Hammer, 1850), guild list (575)-(577). Read on 16 Nov 2026"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-media-1-drafting"
