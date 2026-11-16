@@ -1,0 +1,23 @@
+id: concept/khazaf
+class: concept
+kind: natural
+label:
+  ar: "خزف"
+  en: "Khazaf"
+  ur: "خزف"
+summary:
+  ar: "خزف في الكتاب مجفف جلاء، وخاصة خزف التنور، وألطف الأخزاف خزف السرطان البحري، والقراميد في طبيعة السنباذج؛ يجلو الكلف والنمش، ويتخذ منه قيروطي للخنازير ومرهم قوي الإدمال للقروح ويجلو الجرب، وينقل الكتاب فيه أفعالا للعين، ويطلى خزف التنور على النقرس {cite:canon-ibn-sina-print-v1 p.711}"
+  en: "Khazaf is in the book drying and cleansing, especially the khazaf of the oven, the subtlest being the khazaf of the sea crab, and the roof tiles are in the nature of sanbadhaj; it clears freckles and blotches, a cerate of it is made for scrofula and an ointment strong in healing ulcers and clearing mange, the book gives it actions for the eye, and the khazaf of the oven is applied on gout {cite:canon-ibn-sina-print-v1 p.711}"
+  ur: "خزف کتاب میں خشک کرنے والا اور صاف کرنے والا ہے، خصوصاً تنور کا خزف، اور سب سے لطیف خزف سرطان بحری کا خزف ہے، اور کھپریل سنباذج کی طبیعت میں ہیں؛ جھائیوں اور چھائیوں کو صاف کرتا ہے، اس سے خنازیر کے لیے قیروطی اور زخموں کے بھرنے میں قوی مرہم بنایا جاتا ہے اور خارش کو صاف کرتا ہے، کتاب اس کے آنکھ کے افعال بیان کرتی ہے، اور تنور کا خزف نقرس پر لگایا جاتا ہے {cite:canon-ibn-sina-print-v1 p.711}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, scan pages 711, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page images of the doubtful pages (705, 707 to 709, 711 to 716) rendered and checked by the verifier on 16 November 2026; editor footnotes used only for identity; measured doses, weights, counts, times and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-31
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

@@ -1,0 +1,23 @@
+id: concept/thiql
+class: concept
+kind: natural
+label:
+  ar: "ثفل"
+  en: "Thiql"
+  ur: "ثفل"
+summary:
+  ar: "ثفل في الكتاب أجوده ثفل دهن الزعفران الرزين، وثفل عصير الزيت في الأولى من الحرارة، وثفل دهن الزعفران يصبغ اللسان والأسنان صبغا يبقى، وثفل عصير الزيت من المدملات للقروح العارضة في الأبدان اليابسة {cite:canon-ibn-sina-print-v1 p.697}"
+  en: "Thiql is in the book best as the dregs of saffron oil that are heavy; the dregs of olive pressings are in the first degree of heat; the dregs of saffron oil dye the tongue and teeth with a stain that lasts, and the dregs of olive pressings are among the healers of ulcers that occur in dry bodies {cite:canon-ibn-sina-print-v1 p.697}"
+  ur: "ثفل کتاب میں سب سے اچھا زعفران کے تیل کا بھاری ثفل ہے؛ زیتون کے نچوڑ کا ثفل حرارت کے پہلے درجے میں ہے؛ زعفران کے تیل کا ثفل زبان اور دانتوں کو ایسا رنگ دیتا ہے جو ٹھہرا رہتا ہے، اور زیتون کے نچوڑ کا ثفل خشک بدنوں میں پیدا ہونے والے قرحوں کو بھرنے والی دواؤں میں سے ہے {cite:canon-ibn-sina-print-v1 p.697}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, scan page 697, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for doubtful headings; editor footnotes used only for identity; measured doses, weights, counts, times and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-30
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

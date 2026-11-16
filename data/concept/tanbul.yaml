@@ -1,0 +1,23 @@
+id: concept/tanbul
+class: concept
+kind: natural
+label:
+  ar: "تنبول"
+  en: "Tanbul"
+  ur: "تنبول"
+summary:
+  ar: "تنبول في الكتاب أوراق شجرة تنبت في الهند وفي موضع يقال له النغر، ورقه شبيه بورق الليمون وكذلك أغصانه، وأهل الهند يتناولونه مع النورة والفوفل فيصبغ الأسنان صبغا أحمر وله رائحة طيبة؛ يطيب النكهة ويزيل البخر ويقوي العمور ويشد اللثة ويقوي فم المعدة والهضم ويكسر الرياح ويطيب الجشاء، وقيل إن عصارته تجلو البهق {cite:canon-ibn-sina-print-v1 p.690}"
+  en: "Tanbul is in the book the leaves of a tree that grows in India and in a place called al-Nagr, its leaf like the lemon leaf and its branches likewise; the people of India take it with nura and fawfal, and chewing stains the teeth red, with a pleasant scent; it sweetens the breath and removes mouth odour, strengthens the gums and firms them, strengthens the mouth of the stomach and digestion, breaks winds and sweetens belching, and its juice is said to clear bahaq {cite:canon-ibn-sina-print-v1 p.690}"
+  ur: "تنبول کتاب میں ایک درخت کے پتے ہیں جو ہندوستان میں اور ایک مقام نغر میں اگتا ہے، اس کا پتا لیموں کے پتے جیسا اور اس کی شاخیں بھی ویسی ہیں؛ ہندوستان کے لوگ اسے نورہ اور فوفل کے ساتھ کھاتے ہیں، چبانے سے دانت سرخ رنگ جاتے ہیں اور اس کی خوشبو اچھی ہے؛ منہ کی بو دور کرتا ہے، مسوڑھوں کو مضبوط اور کسا ہوا رکھتا ہے، معدے کے منہ اور ہضم کو قوت دیتا ہے، ریاح توڑتا ہے اور ڈکار کو خوشگوار کرتا ہے، اور کہا گیا ہے کہ اس کا رس بہق کو صاف کرتا ہے {cite:canon-ibn-sina-print-v1 p.690}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, scan page 690, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for doubtful headings; editor footnotes used only for identity; measured doses, weights, counts, times and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-30
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

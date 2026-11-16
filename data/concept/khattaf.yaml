@@ -1,0 +1,23 @@
+id: concept/khattaf
+class: concept
+kind: natural
+label:
+  ar: "خطاف"
+  en: "Khattaf"
+  ur: "خطاف"
+summary:
+  ar: "خطاف في الكتاب طير معروف، وكل ما يذكر فيه نقل منسوب إلى الكتاب أو إلى ديسقوريدوس لا توصية؛ يحكي الكتاب عن ديسقوريدوس خبرا في حصاتين من جوف فرخه تربطان على من اختلط عقله أو به صرع وأنه جرب ذلك، ويذكر أن أكل الخطاف يحد البصر وأن دماغه بعسل نافع من ابتداء الماء، وأن رماده ينفع من الخناق وأنه إذا ملح وجفف نفع من السعال وورم اللهاة واللوزتين، وتركت الشروط والمقادير {cite:canon-ibn-sina-print-v1 p.714}"
+  en: "Khattaf is in the book a known bird, and everything given in it is a report attributed to the book or to Dioscorides, not a recommendation; the book relates from Dioscorides an account of two stones from the inside of its young, tied on one whose mind is confused or who has epilepsy, and that he said he had tried it, and it states that eating the khattaf sharpens sight, that its brain with honey benefits the beginning of cataract, that its ash benefits quinsy, and that, salted and dried, it benefits cough and swelling of the uvula and tonsils; the conditions and amounts are left out {cite:canon-ibn-sina-print-v1 p.714}"
+  ur: "خطاف کتاب میں ایک معروف پرندہ ہے، اور اس میں جو کچھ آیا وہ کتاب یا دیسقوریدوس سے منسوب نقل ہے سفارش نہیں؛ کتاب دیسقوریدوس سے اس کے بچے کے پیٹ کی دو کنکریوں کے بارے میں ایک بیان نقل کرتی ہے جو عقل میں خلل والے یا مرگی والے پر باندھی جاتی ہیں اور یہ کہ اس نے اسے آزمایا بتایا ہے، اور ذکر کرتی ہے کہ خطاف کھانا نظر کو تیز کرتا ہے، اس کا دماغ شہد کے ساتھ پانی اترنے کے آغاز میں نافع ہے، اس کی راکھ خناق میں نافع ہے، اور نمک لگا کر خشک کیا جائے تو کھانسی اور کوے اور لوزتین کے ورم میں نافع ہے؛ شرائط اور مقداریں چھوڑ دی گئیں {cite:canon-ibn-sina-print-v1 p.714}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, scan pages 714, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page images of the doubtful pages (705, 707 to 709, 711 to 716) rendered and checked by the verifier on 16 November 2026; editor footnotes used only for identity; measured doses, weights, counts, times and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-31
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

@@ -1,0 +1,23 @@
+id: concept/thayl
+class: concept
+kind: natural
+label:
+  ar: "ثيل"
+  en: "Thayl"
+  ur: "ثیل"
+summary:
+  ar: "ثيل في الكتاب نبات معروف له أغصان ذات عقد تسعى على وجه الأرض وتضرب منها عروق في الأرض، طعمها حلو، وأوراقها عراض حادة الأطراف، تعتلفه البقر والدواب، وينقل عن ديسقوريدوس أنواعا أخرى منه، بارد يابس في الأولى، قابض فيه لذع، عصارته تمنع تحلب المواد، ينفع من الجراحات الرديئة الطرية ويدمل ويمنع النوازل، ويقطع بزره وأصله القيء ويفتت الحصى {cite:canon-ibn-sina-print-v1 p.697}"
+  en: "Thayl is in the book a known plant with knotted branches creeping on the ground, from which roots strike into the earth, sweet in taste, with broad leaves sharp at the tips, and cattle and beasts graze it; the book quotes from Dioscorides further kinds of it; cold and dry in the first degree, astringent with a sting, its juice prevents the flowing of matter; it benefits bad fresh wounds and heals them, prevents catarrhs, its seed and root cut vomiting, and break up stones {cite:canon-ibn-sina-print-v1 p.697}"
+  ur: "ثیل کتاب میں ایک معروف نبات ہے جس کی گرہ دار شاخیں زمین پر رینگتی ہیں اور ان سے جڑیں زمین میں اترتی ہیں، ذائقہ میٹھا ہے، پتے چوڑے اور نوک دار ہیں، اور گائے اور چوپائے اسے چرتے ہیں؛ کتاب دیسقوریدوس سے اس کی دوسری قسمیں نقل کرتی ہے؛ پہلے درجے میں سرد خشک، قابض اور چبھن والا ہے، اس کا رس مادوں کے رسنے کو روکتا ہے؛ تازہ بُرے زخموں میں نافع ہے اور انہیں بھرتا ہے، نزلات روکتا ہے، اس کا بیج اور جڑ قے کو کاٹتے ہیں اور پتھری توڑتے ہیں {cite:canon-ibn-sina-print-v1 p.697}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, scan page 697, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for doubtful headings; editor footnotes used only for identity; measured doses, weights, counts, times and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-30
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

@@ -1,0 +1,23 @@
+id: concept/tamr
+class: concept
+kind: natural
+label:
+  ar: "تمر"
+  en: "Tamr"
+  ur: "تمر"
+summary:
+  ar: "تمر في الكتاب معروف، حار رطب في الأولى وحرارته أكثر من رطوبته، ويصدع، ويصلحه اللوز والخشخاش وبعدهما سكنجبين ساذج، ويورد الكتاب قولا عن زيادة المني في فقرة موسومة معلقة لحكم المؤسس {cite:canon-ibn-sina-print-v1 p.690}"
+  en: "Tamr is in the book well known, hot and moist in the first degree with its heat greater than its moisture; it causes headache, and almond and poppy correct it, and after them plain sikanjabin; the book gives a statement on semen in a labelled section held for the founder's ruling {cite:canon-ibn-sina-print-v1 p.690}"
+  ur: "تمر کتاب میں معروف ہے، پہلے درجے میں گرم تر ہے اور اس کی گرمی اس کی تری سے زیادہ ہے، سر درد پیدا کرتا ہے، اور بادام اور خشخاش اس کی اصلاح کرتے ہیں اور ان کے بعد سادہ سکنجبین؛ کتاب منی سے متعلق ایک بات موسوم حصے میں دیتی ہے جو بانی کے فیصلے کے لیے موقوف ہے {cite:canon-ibn-sina-print-v1 p.690}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, scan page 690, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for doubtful headings; editor footnotes used only for identity; measured doses, weights, counts, times and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-30
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }
