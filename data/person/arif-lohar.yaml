@@ -25,6 +25,17 @@ faith:
     basis: unknown
     note: "FLAGGED for a founder ruling. Wikidata's item carries Sunni Islam (Q483654) as its religion value — a single structured attestation, one source family; neither the English nor the Urdu biography names any affiliation for him personally, and his Sufi repertoire — his signature Coke Studio performance Alif Allah (Jugni) sings Sufi verse — is repertoire, which never counts. Ruling path: a second independent source naming Sunni Islam for Arif Lohar personally would settle sunni/documented; failing that, the value stays unknown."
     sources: [source/wikidata-arif-lohar, source/wikipedia-arif-lohar-en, source/wikipedia-arif-lohar-ur]
+occupations:
+  - job: job/singer
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'singer', Job Browser linking wave"
+    sources: [source/wikipedia-arif-lohar-en, source/wikipedia-arif-lohar-ur, source/wikidata-arif-lohar, source/wikidata]
+  - job: job/actor
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'actor', Job Browser linking wave"
+    sources: [source/wikipedia-arif-lohar-en, source/wikipedia-arif-lohar-ur, source/wikidata-arif-lohar, source/wikidata]
 relations:
   - { type: lived_in, target: place/pakistan, note: "From text: Pakistani (nationality adjective); broad association, flagged for review.", sources: [source/wikipedia-arif-lohar-en, source/wikipedia-arif-lohar-ur, source/wikidata-arif-lohar], confidence: low }
 summary:

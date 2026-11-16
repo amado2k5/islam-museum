@@ -19,6 +19,17 @@ born:
 roles: [actor, producer, screenwriter, singer]
 regions: [south-asia]
 wings: [people, living]
+occupations:
+  - job: job/actor
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'actor', Job Browser linking wave"
+    sources: [source/wikipedia-fawad-khan-en, source/wikipedia-fawad-khan-ur, source/wikipedia-fawad-khan-ar, source/wikidata-fawad-khan]
+  - job: job/singer
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'singer', Job Browser linking wave"
+    sources: [source/wikipedia-fawad-khan-en, source/wikipedia-fawad-khan-ur, source/wikipedia-fawad-khan-ar, source/wikidata-fawad-khan]
 relations:
   - { type: born_in, target: place/karachi, confidence: low, note: "Place link mined from the record's own note text; pending verification.", sources: [source/wikipedia-fawad-khan-en, source/wikidata-fawad-khan] }
 faith:

@@ -37,6 +37,17 @@ died:
   note: "The English and Arabic articles agree he died of illness at Mashhad on 25 October 1833, during his Khorasan campaign, and Wikidata's first death value agrees; Wikidata also carries stray values in December 1833, October 1833 and October 1834, preserved here so the day is marked debated."
   sources: [source/wikipedia-abbas-mirza-en, source/wikipedia-abbas-mirza-ar, source/wikidata-abbas-mirza]
 
+occupations:
+  - job: job/commander
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'military-commander', Job Browser linking wave"
+    sources: [source/wikipedia-abbas-mirza-en, source/wikipedia-abbas-mirza-ar, source/wikipedia-abbas-mirza-ur, source/wikidata-abbas-mirza, source/wikidata]
+  - job: job/wali
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'governor', Job Browser linking wave"
+    sources: [source/wikipedia-abbas-mirza-en, source/wikipedia-abbas-mirza-ar, source/wikipedia-abbas-mirza-ur, source/wikidata-abbas-mirza, source/wikidata]
 relations:
   - { type: child_of, target: person/fath-ali-shah-qajar, sources: [source/wikipedia-abbas-mirza-en, source/wikipedia-abbas-mirza-ar] }
   - { type: lived_in, target: place/tabriz, sources: [source/wikipedia-abbas-mirza-en] }

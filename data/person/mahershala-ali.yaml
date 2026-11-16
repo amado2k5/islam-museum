@@ -26,6 +26,17 @@ born:
   derived: true
   note: "Born on 16 February 1974 in Oakland, California; the English and Arabic articles, Britannica and Wikidata agree. No place entity for Oakland exists in data/place/, so no born_in relation is written. The Hijri year (1394) is derived by tabular conversion."
   sources: [source/wikipedia-mahershala-ali-en, source/britannica-mahershala-ali, source/wikidata-mahershala-ali]
+occupations:
+  - job: job/actor
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'actor', Job Browser linking wave"
+    sources: [source/wikipedia-mahershala-ali-en, source/wikipedia-mahershala-ali-ar, source/wikipedia-mahershala-ali-ur, source/wikidata-mahershala-ali, source/britannica-mahershala-ali, source/catholic-news-service-mahershala-ali-2019]
+  - job: job/singer
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'rapper', Job Browser linking wave"
+    sources: [source/wikipedia-mahershala-ali-en, source/wikipedia-mahershala-ali-ar, source/wikipedia-mahershala-ali-ur, source/wikidata-mahershala-ali, source/britannica-mahershala-ali, source/catholic-news-service-mahershala-ali-2019]
 relations:
   - { type: born_in, target: place/oakland, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mahershala-ali] }
 faith:
