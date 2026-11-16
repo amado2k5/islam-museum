@@ -23,5 +23,16 @@ sources: [source/nihayat-al-arab-nuwayri-vol4-scan, source/siyar-alam-nubala-ide
 status: { review: draft, completeness: 3, generated_by: "Claude Haiku 5.5 (Nihayat vol. 4, Ash'ab section, scan pp. 27-29, read from OCR); enriched by Claude Code (Lane B2 packet, claude-sonnet-5-5, run web-b2-siyar-2026-11-14) from al-Dhahabi, Siyar A'lam al-Nubala, pp. 1138-1139" }
 provenance: { layer: pd, source: "archive.org nefa04 (Nihayat al-Arab vol. 4), scan pp. 27-29, OCR read", generated_by: "Claude Haiku 5.5", model: "claude-haiku-5-5", run: "lib-nihayat-batch-04" }
 died: { edtf: "771", calendar: gregorian, precision: year, derived: true, note: "Siyar A'lam al-Nubala, p. 1139: d. 154 AH (reported, 'yuqal'); al-Nuwayri instead says he lived into the reign of al-Mahdi. The card's earlier birth year 684 is not supported by the book and is removed", sources: [source/siyar-alam-nubala-ideas-house] }
+occupations:
+  - job: job/poet
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'poet', Job Browser linking wave"
+    sources: [source/nihayat-al-arab-nuwayri-vol4-scan, source/siyar-alam-nubala-ideas-house]
+  - job: job/singer
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'singer', Job Browser linking wave"
+    sources: [source/nihayat-al-arab-nuwayri-vol4-scan, source/siyar-alam-nubala-ideas-house]
 relations:
   - { type: lived_in, target: place/jazirat-al-arab, note: "Only the record-level region (arabia) is attested; broad-region edge flagged for review.", sources: [source/nihayat-al-arab-nuwayri-vol4-scan], confidence: low }

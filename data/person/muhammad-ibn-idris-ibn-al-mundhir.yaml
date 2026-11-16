@@ -12,6 +12,17 @@ regions: [persia-central-asia]
 sources: [source/muntazam-ibn-al-jawzi, source/alam-zirikli-dar-al-ilm-2002]
 born: { edtf: "810", hijri: "0195", calendar: gregorian, precision: year, derived: false, note: "al-Zirikli, al-A'lam, vol. 6 p. 27, prints 195 AH = 810 CE, agreeing with the card (earlier note: al-Dhahabi, Siyar)", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 died: { edtf: "890", hijri: "0277", calendar: gregorian, precision: year, derived: false, note: "al-Zirikli, al-A'lam, vol. 6 p. 27, prints 277 AH = 890 CE, agreeing with the card (earlier note: al-Dhahabi, Siyar)", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+occupations:
+  - job: job/muhaddith
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'muhaddith', Job Browser linking wave"
+    sources: [source/muntazam-ibn-al-jawzi, source/alam-zirikli-dar-al-ilm-2002]
+  - job: job/alim
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave"
+    sources: [source/muntazam-ibn-al-jawzi, source/alam-zirikli-dar-al-ilm-2002]
 relations:
   - { type: born_in, target: place/rayy, note: "al-Zirikli, al-A'lam, vol. 6 p. 27: he was born in Rayy, to which his nisba points", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
   - { type: died_in, target: place/baghdad, note: "al-Zirikli, al-A'lam, vol. 6 p. 27: he died in Baghdad", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }

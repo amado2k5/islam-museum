@@ -13,6 +13,17 @@ regions: [levant-iraq]
 periods: [period/crusades-ayyubid-mamluk]
 born: { edtf: "1227", hijri: "0624", calendar: gregorian, precision: year, derived: true, note: "al-Zirikli prints 624 AH = 1227 CE {cite:alam-zirikli-dar-al-ilm-2002 vol. 3 p. 78}; the card had 1227~ without a source.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
 died: { edtf: "1316", hijri: "0716", calendar: gregorian, precision: year, derived: true, note: "al-Zirikli prints 716 AH = 1316 CE {cite:alam-zirikli-dar-al-ilm-2002 vol. 3 p. 78}; the card had 1316~ without a source.", sources: [source/alam-zirikli-dar-al-ilm-2002] }
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave"
+    sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
+  - job: job/muhaddith
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'muhaddith', Job Browser linking wave"
+    sources: [source/al-aalam, source/alam-zirikli-dar-al-ilm-2002]
 relations:
   - { type: born_in, target: place/damascus, sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high, note: "al-Zirikli, al-A'lam, vol. 3 p. 78: Damascene by birth and death" }
   - { type: died_in, target: place/damascus, sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high, note: "al-Zirikli, al-A'lam, vol. 3 p. 78: Damascene by birth and death" }

@@ -11,6 +11,17 @@ periods: [period/mongol-post-mongol]
 regions: [persia-central-asia]
 born: { edtf: "1336~", hijri: "0736", precision: year, status: tradition, derived: true, note: "ولد بكش نحو سنة 736هـ", sources: [source/shadharat-dhahab] }
 died: { edtf: "1405-02~", hijri: "0807-08-17", calendar: julian, precision: day, status: tradition, derived: true, note: "هلك ليلة الأربعاء سابع عشر شعبان سنة سبع وثمانمائة {cite:tarikh-khulafa-minhaj-1434 p. 758}." }
+occupations:
+  - job: job/sultan
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'sultan', Job Browser linking wave"
+    sources: [source/shadharat-dhahab, source/tarikh-khulafa-minhaj-1434, source/juha-nawadir-kubra-djuwaydi, source/daw-lami-jil-1992, source/wikidata-timur-lang]
+  - job: job/commander
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'general', Job Browser linking wave"
+    sources: [source/shadharat-dhahab, source/tarikh-khulafa-minhaj-1434, source/juha-nawadir-kubra-djuwaydi, source/daw-lami-jil-1992, source/wikidata-timur-lang]
 relations:
   - { type: participated_in, target: event/timur-delhi-801, role: "القائد الغازي", sources: [source/shadharat-dhahab] }
   - { type: participated_in, target: event/timur-sack-damascus-803, role: "القائد", sources: [source/shadharat-dhahab] }
