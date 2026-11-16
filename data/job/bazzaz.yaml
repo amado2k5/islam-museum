@@ -1,0 +1,45 @@
+id: job/bazzaz
+class: job
+label: { ar: "البزّاز", en: "Cloth merchant (bazzaz)", ur: "بزاز" }
+names:
+  - { value: "Chokajian", kind: latinized, lang: tr }
+  - { value: "Bezzazan", kind: latinized, lang: tr }
+summary:
+  ar: "البزّاز هو تاجر القماش في السوق والبيزستان: يشتري الأطوال ويقيس بالذراع ويبيع القطع. يفتتح الشيزري بابه بقول عمر بن الخطاب: لا يتجر في سوقنا إلا من يفقه، وإلا وقع في الربا شاء أم أبى؛ ويعدّد ما يفعله بزّازو زمانه من المحظور: النجش، والبيع على بيع أخيه، والطمع على طمع أخيه، والبيع بأجل مجهول كقولهم «حتى يجيء الحجّاج»، والبيع قبل القبض، وبيع الملامسة والمنابذة والحصى. ويجمع ابن الأخوة للبزّازين ⁦(باب البزّازين)⁩ نفس القواعد ويمنع بيع الحاضر للوارد. وفي بيزستان إسطنبول يمرّ تجار القماش ⁦(چوقه‌جيان)⁩ بعربات محمّلة بقماش لندن وفلورنسا وأنكونا ومرسيليا يذرعونه وهم يسيرون، والبزّازون باعة الكتّان ألف رجل بسبعمئة دكان."
+  en: "The bazzaz is the cloth merchant of the market and the bezestan: he buys the bolts, measures by the cubit and sells the lengths. Al-Shayzari opens his chapter with 'Umar's saying that no one should trade in our market who does not know the laws of his religion, else he will fall into usury whether he means to or not; and he lists what the cloth merchants of his day did that was forbidden: collusion in bidding, selling against a brother's sale and offering against his offer, selling for payment at an indefinite time such as 'when the pilgrims come from Mecca', reselling before taking possession, and sale by touch, by throwing and by pebble. Ibn al-Ukhuwwa gives the drapers the same rules and forbids the townsman to sell for the incomer. In Istanbul's bezestan Evliya passes the cloth-merchants (Chokajian) with wagons loaded with cloth from London, Florence, Ancona and Marseilles, measuring it as they go, and the Bezzazan linen-merchants a thousand men with seven hundred shops."
+  ur: "بزاز بازار اور بیزستان کا کپڑا سوداگر ہے: تھان خریدتا، ذرع سے ناپتا اور قطعے بیچتا ہے۔ الشیزری اپنے باب کا آغاز عمر بن خطاب کے قول سے کرتا ہے کہ ہمارے بازار میں صرف وہی سودا کرے جو اپنے دین کے احکام جانتا ہو ورنہ وہ چاہے یا نہ چاہے سود میں پڑ جائے؛ اور اپنے زمانے کے بزازوں کی وہ حرام رویوں کی گنتی کرتا ہے: نجش، اپنے بھائی کے بیع پر بیع، بھائی کے سودے پر سودا، غیر معینہ مدت پر بیع جیسے ⁦(جب مکہ کے حاجی آ جائیں)⁩، قبض سے پہلے دوبارہ بیچنا، اور ملامسہ، منابذہ اور کنکری والی بیع۔ ابن الاخوہ بزازوں کے لیے یہی اصول دیتا ہے اور شہری کے باہر والے کے لیے بیچنے پر پابندی لگاتا ہے۔ استنبول کے بیزستان میں اولیاء چلبی کپڑا سوداگروں ⁦(چوقاجیان)⁩ کو لندن، فلورنس، انکونا اور مارسی کے کپڑے سے لدے ریڑھوں پر ناپتے چلتے دکھاتا ہے، اور بزاز کتان سوداگر ایک ہزار آدمی سات سو دکانوں کے ساتھ ہیں۔"
+domain: trade-travel-sea
+kind: commercial
+hirfa: true
+broader: job/merchant
+era:
+  origins: pre-islamic
+  status_today: living
+places:
+  - { place: place/cairo, note: "Ibn al-Ukhuwwa's chapter on the drapers, written for the Egyptian market, lays down the rules of sale they must know; the cloth merchants appear too among the trades the muhtasib visits in al-Shayzari's manual.", sources: [source/ibn-ukhuwwa-maalim-levy, source/shayzari-nihaya-buckley] }
+  - { place: place/istanbul, note: "Evliya counts the guilds of the old bezestan: the criers of the interior and exterior, the cloth-merchants with European cloth measured on wagons, the atlas, velvet, moire, caftan and cotton merchants, and the Bezzazan linen-merchants a thousand men with seven hundred shops.", sources: [source/evliya-seyahatname-hammer] }
+regions: [egypt-nile, anatolia-balkans, levant-iraq]
+organization:
+  organized: guild
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people, living]
+periods: [period/crusades-ayyubid-mamluk, period/gunpowder-empires, period/modern-era]
+sources: [source/ibn-ukhuwwa-maalim-levy, source/shayzari-nihaya-buckley, source/evliya-seyahatname-hammer]
+craft:
+  materials: [textile, silk, cotton, wool]
+  techniques:
+    ar: "يفصّل الشيزري بيوع البزّازين المحرّمة: النجش أن يزيد الرجل في السلعة وهو لا يريد شراءها ليغرّ غيره، والبيع على بيع أخيه والطمع على طمع أخيه، وبيع الغائب بثمن حاضر ينقص عن الثمن المؤجل لأن الأجل ببعض الثمن، والبيع بأجل مجهول، وشراء السلعة وبيعها قبل قبضها، وبيع الملامسة والمنابذة والحصى. وعلى المحتسب أن يتحقق صدقهم في التورية والبيع بالربح المعلوم: من اشترى قماشاً بعشرة ثم بيّضه وطرّزه ورمّمه بثلاثة قال كلفني ثلاثة عشر ولا يقول اشتريته بثلاثة عشر فيكذب، فإن كان هو الذي عمِل قال اشتريته بعشرة وعمِلت عليه بثلاثة. ويفحص موازينهم وأذرعهم ويمنع شراكتهم للدلّالين والسماسرة. ويمنع ابن الأخوة بيع الحاضر للوارد، ويذكر من مكايدهم مع الصيارف أن يُقرض الرجل ديناراً ويبيعه عباءة بدينارين فيكون له ثلاثة مؤجلة."
+    en: "Al-Shayzari details the cloth merchants' forbidden sales: the najash, when a man raises the price on a commodity he does not want, to lure another; selling against a brother's sale and offering against his offer; buying for a deferred price then bargaining for a lower cash price, since the deferment is allowed for in the price; selling for payment at an indefinite term; buying a commodity and reselling it before taking possession; and sale by touch, by throwing and by pebble. The muhtasib must verify their honesty in the resale at a stated profit: a man who buys cloth for ten dirhams and pays one each to have it bleached, embroidered and repaired must say it cost him thirteen, not that he bought it for thirteen, and if he did the work himself he must say he bought it for ten and worked on it to the value of three. The muhtasib examines their scales and cubits and forbids their partnership with the bazaar criers and brokers. Ibn al-Ukhuwwa forbids the townsman to sell for the incomer, and names their trick with the money-changers: lending a man a dinar and selling him a cloak for two, so that three deferred dinars are owing."
+    ur: "الشیزری بزازوں کی حرام بیعوں کی تفصیل دیتا ہے: نجش، جب آدمی اس چیز کی قیمت بڑھائے جو وہ خریدنا نہیں چاہتا تاکہ دوسرے کو دھوکہ دے؛ اپنے بھائی کے بیع پر بیع اور اس کے سودے پر سودا؛ مؤجل قیمت پر خرید کر کم نقد قیمت پر سودا، کہ التوا قیمت میں شمار ہے؛ غیر معینہ مدت پر بیع؛ چیز خرید کر قبض سے پہلے بیچنا؛ اور ملامسہ، منابذہ اور کنکری والی بیع۔ محتسب کو مقررہ نفع کے سودے میں ان کی صداقت کی تصدیق کرنی ہے: جو کپڑا دس درہم کا خرید کر اسے ایک ایک درہم میں سفید، کشیدہ اور مرمت کرائے وہ کہے مجھے تیرہ کی پڑی، یہ نہ کہے میں نے تیرہ میں خریدا کہ جھوٹ ہو؛ اور اگر کام خود کیا ہو تو کہے دس میں خریدا اور تین کا کام کیا۔ وہ ان کے ترازو اور ذرع کی جانچ کرتا ہے اور دلالوں اور سمساروں سے شرکت پر پابندی لگاتا ہے۔ ابن الاخوہ شہری کے باہر والے کے لیے بیچنے سے روکتا ہے، اور صرافوں کے ساتھ ان کی یہ چال بتاتا ہے: آدمی کو ایک دینار قرض دینا اور دو دینار کا عبا بیچنا کہ تین دینار مؤجل واجب ہو جائیں۔"
+  guild:
+    bodies: []
+    shaykh_title: { ar: "شيخ البيزستان ونقيبه", en: "Sheykh of the bezestan and its nakeeb", ur: "بیزستان کا شیخ اور نقیب" }
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-harvest-4" }
+provenance:
+  layer: own-research
+  source: "Ibn al-Ukhuwwa/Levy ch. XXVIII pp. 40-42 (drapers) and ch. XXXVI p. 46 (the draper-moneychanger loan); al-Shayzari/Buckley ch. 21 pp. 80-83 (cloth merchants); Evliya (von Hammer) I,2 secs. 469-495 pp. 222-224 (the bezestan guilds) — all read on 16 Nov 2026 from the downloaded scans"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-harvest-4-drafting"
