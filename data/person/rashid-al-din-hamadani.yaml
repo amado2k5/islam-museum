@@ -36,6 +36,22 @@ died:
   note: "The English and Urdu articles give his execution on 13 July 1318, at the age of seventy, on the charge of poisoning Oldjaitu; the Arabic article dates his killing to Jumada I 718 AH, the same month. No text read states the city of his execution with certainty, so no died_in edge is written."
   sources: [source/wikipedia-rashid-al-din-hamadani-en, source/wikipedia-rashid-al-din-hamadani-ar, source/wikipedia-rashid-al-din-hamadani-ur, source/wikidata-rashid-al-din-hamadani]
 
+occupations:
+  - job: job/vizier
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'vizier', Job Browser linking wave"
+    sources: [source/wikipedia-rashid-al-din-hamadani-en, source/wikipedia-rashid-al-din-hamadani-ar, source/wikipedia-rashid-al-din-hamadani-ur, source/wikidata-rashid-al-din-hamadani, source/biblissima, source/wikidata]
+  - job: job/historian
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'historian', Job Browser linking wave"
+    sources: [source/wikipedia-rashid-al-din-hamadani-en, source/wikipedia-rashid-al-din-hamadani-ar, source/wikipedia-rashid-al-din-hamadani-ur, source/wikidata-rashid-al-din-hamadani, source/biblissima, source/wikidata]
+  - job: job/physician
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'physician', Job Browser linking wave"
+    sources: [source/wikipedia-rashid-al-din-hamadani-en, source/wikipedia-rashid-al-din-hamadani-ar, source/wikipedia-rashid-al-din-hamadani-ur, source/wikidata-rashid-al-din-hamadani, source/biblissima, source/wikidata]
 relations:
   - { type: born_in, target: place/hamadan, sources: [source/wikipedia-rashid-al-din-hamadani-ar, source/wikipedia-rashid-al-din-hamadani-ur] }
 

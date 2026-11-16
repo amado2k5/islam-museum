@@ -11,6 +11,17 @@ summary:
 wings: [people]
 born: { edtf: "1867", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: BNF Notice de personne (Carra de Vaux)" }
 died: { edtf: "1953", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: BNF Notice de personne (Carra de Vaux)" }
+occupations:
+  - job: job/orientalist
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'orientalist', Job Browser linking wave"
+    sources: [source/al-islam-kama-yarahu-al-urubiyyun-azhar]
+  - job: job/alim
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave"
+    sources: [source/al-islam-kama-yarahu-al-urubiyyun-azhar]
 relations:
   - { type: lived_in, target: place/al-muhammadiyya, confidence: low, note: "Associated with المحمدية per the record's own summary text; relation type pending review.", sources: [source/al-islam-kama-yarahu-al-urubiyyun-azhar] }
 sources: [source/al-islam-kama-yarahu-al-urubiyyun-azhar]

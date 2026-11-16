@@ -12,6 +12,17 @@ summary:
 wings: [people]
 born: { edtf: "1892", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Bibliotheque nationale de France" }
 died: { edtf: "1971", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Bibliotheque nationale de France" }
+occupations:
+  - job: job/orientalist
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'orientalist', Job Browser linking wave"
+    sources: [source/al-islam-kama-yarahu-al-urubiyyun-azhar]
+  - job: job/alim
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave"
+    sources: [source/al-islam-kama-yarahu-al-urubiyyun-azhar]
 relations:
   - { type: lived_in, target: place/algeria, confidence: low, note: "French writer and administrator long resident in Algeria.", sources: [source/al-islam-kama-yarahu-al-urubiyyun-azhar] }
 sources: [source/al-islam-kama-yarahu-al-urubiyyun-azhar]

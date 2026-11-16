@@ -13,6 +13,10 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v1.85.0 — 2026-11-17
+### Added
+- Job Browser linking wave 11: 38 `occupations:` edges on 25 person records — the orientalist pool fully linked (Goldziher, Watt, Corbin, Carra de Vaux, Sale and four more), plus grand-vizier, vizier, merchant and ruler links on Ottoman, Sokoto and early Islamic figures.
+
 ## v1.84.0 — 2026-11-17
 ### Added
 - Job Browser linking wave 10: 35 `occupations:` edges on 25 person records — the dai pool fully linked, sufi-shaykh 8/9, plus sultan, caliph, alim, preacher and poet links on Ottoman and West African rulers.

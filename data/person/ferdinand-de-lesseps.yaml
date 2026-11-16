@@ -17,6 +17,17 @@ periods: [period/modern-era]
 regions: [egypt-nile]
 born: { edtf: "1805", hijri: "1220", calendar: gregorian, precision: year, status: historical, derived: true, note: "year only, per EI2; the Hijri year is derived {cite:encyclopaedia-of-islam-2 vol. 9 p. 938}", sources: [source/encyclopaedia-of-islam-2] }
 died: { edtf: "1894", hijri: "1311", calendar: gregorian, precision: year, status: historical, derived: true, note: "year only, per EI2; the Hijri year is derived {cite:encyclopaedia-of-islam-2 vol. 9 p. 938}", sources: [source/encyclopaedia-of-islam-2] }
+occupations:
+  - job: job/diplomat
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'diplomat', Job Browser linking wave"
+    sources: [source/encyclopaedia-of-islam-2, source/wikidata-ferdinand-de-lesseps]
+  - job: job/merchant
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'entrepreneur', Job Browser linking wave"
+    sources: [source/encyclopaedia-of-islam-2, source/wikidata-ferdinand-de-lesseps]
 relations:
   - { type: related_to, target: person/said-pasha, note: "received the Suez Canal concession from him", sources: [source/encyclopaedia-of-islam-2] }
   - { type: related_to, target: place/suez-canal, note: "grantee of the concession and promoter of the canal", sources: [source/encyclopaedia-of-islam-2] }

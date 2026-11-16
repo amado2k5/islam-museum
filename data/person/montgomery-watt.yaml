@@ -12,6 +12,12 @@ wings: [people]
 regions: [global]
 periods: [period/modern-era]
 died: { edtf: "2006", precision: year, status: tradition, derived: true }
+occupations:
+  - job: job/orientalist
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'orientalist', Job Browser linking wave"
+    sources: [source/watt-1956-medina, source/wikidata]
 relations:
   - { type: died_in, target: place/edinburgh, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q23436)" }
 sources: [source/watt-1956-medina, source/wikidata]

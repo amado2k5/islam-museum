@@ -29,6 +29,17 @@ faith:
     basis: unknown
     note: "Neither source names a school, madhhab or branch for Attahiru I personally. The English article presents him as Sultan and Caliph of Sokoto who framed his flight from the British as a hijra to prepare for the coming of the Mahdi; it makes no statement of his personal madhhab, and its infobox carries no religion field. Wikidata carries no religion value for him at all. His office as Caliph and his place in the caliphal line are office and lineage, which never attest a school, and the article's categories are filings. Under the doubt rule the value stays unknown."
     sources: [source/wikipedia-muhammadu-attahiru-i-en, source/wikidata-muhammadu-attahiru-i]
+occupations:
+  - job: job/sultan
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'sultan', Job Browser linking wave"
+    sources: [source/wikipedia-muhammadu-attahiru-i-en, source/wikidata-muhammadu-attahiru-i]
+  - job: job/caliph
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'caliph', Job Browser linking wave"
+    sources: [source/wikipedia-muhammadu-attahiru-i-en, source/wikidata-muhammadu-attahiru-i]
 relations:
   - { type: successor_of, target: person/abd-al-rahman-sokoto, sources: [source/wikipedia-muhammadu-attahiru-i-en, source/wikidata-muhammadu-attahiru-i] }
   - { type: ruler_of, target: polity/sokoto-caliphate, sources: [source/wikipedia-muhammadu-attahiru-i-en] }

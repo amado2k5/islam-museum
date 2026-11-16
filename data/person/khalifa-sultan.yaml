@@ -13,6 +13,17 @@ regions: [persia-central-asia]
 periods: [period/gunpowder-empires]
 born: { edtf: "1592", hijri: "1001", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica. Confirmed on 13 November 2026 against Wikidata Q5694666 (P569, a statement with a reference), item revision 2562752120. al-A'lam vol. 2 p. 256 prints 1001 AH = 1593 CE; the card year is kept, see the GEMINI line in the packet ledger.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
 died: { edtf: "1654", hijri: "1064", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Encyclopaedia Iranica. Confirmed on 13 November 2026 against Wikidata Q5694666 (P570, a statement with a reference), item revision 2562752120. al-A'lam vol. 2 p. 256 prints 1064 AH = 1654 CE, agreeing.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
+occupations:
+  - job: job/vizier
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'vizier', Job Browser linking wave"
+    sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
+  - job: job/alim
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave"
+    sources: [source/al-aalam, source/wikidata, source/alam-zirikli-dar-al-ilm-2002]
 relations:
   - { type: born_in, target: place/isfahan, confidence: medium, note: "Place link from Wikidata; al-A'lam vol. 2 p. 256 says he was Isfahani by upbringing and home (munsha' wa-watan) and Mar'ashi of Amul by origin.", sources: [source/wikidata, source/alam-zirikli-dar-al-ilm-2002] }
   - { type: lived_in, target: place/isfahan, note: "al-Zirikli, al-A'lam, vol. 2 p. 256: Isfahani by upbringing and home; the vizierate was held there", sources: [source/alam-zirikli-dar-al-ilm-2002], confidence: high }
