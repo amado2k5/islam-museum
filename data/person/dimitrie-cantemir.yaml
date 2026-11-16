@@ -18,6 +18,22 @@ periods: [period/gunpowder-empires]
 regions: [anatolia-balkans]
 born: { edtf: "1673-10-26", hijri: "1084", calendar: gregorian, precision: day, status: historical, derived: true, note: "Born 26 October 1673 at Silisteni per EI2 Supplement; the Hijri year is a derived conversion.", sources: [source/encyclopaedia-of-islam-2] }
 died: { edtf: "1723-08-21", hijri: "1135", calendar: gregorian, precision: day, status: historical, derived: true, note: "Died 21 August 1723 per EI2 Supplement; vol. 7 p. 739 gives 1727 instead; the Hijri year is a derived conversion.", sources: [source/encyclopaedia-of-islam-2] }
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 18"
+    sources: [source/encyclopaedia-of-islam-2]
+  - job: job/musician
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'musician', Job Browser linking wave 18"
+    sources: [source/encyclopaedia-of-islam-2]
+  - job: job/historian
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'historian', Job Browser linking wave 18"
+    sources: [source/encyclopaedia-of-islam-2]
 relations:
   - { type: lived_in, target: place/istanbul, note: "Hostage there 1687-91 and 1693-1710 according to EI2.", sources: [source/encyclopaedia-of-islam-2] }
   - { type: allied_with, target: person/peter-i-of-russia, note: "Secret alliance before the Pruth campaign of 1711.", sources: [source/encyclopaedia-of-islam-2] }

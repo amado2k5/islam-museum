@@ -20,6 +20,22 @@ born:
   derived: true
   note: "Born 15 September 1971 in Istanbul (the English and Turkish articles and the Wikidata item agree; his family is from Erzurum). The hijri year 1391 is a tabular derived conversion of the Gregorian date (derived: true)."
   sources: [source/wikipedia-ibrahim-kalin-en, source/wikipedia-ibrahim-kalin-tr, source/wikidata-ibrahim-kalin]
+occupations:
+  - job: job/alim
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'scholar', Job Browser linking wave 18"
+    sources: [source/wikipedia-ibrahim-kalin-en, source/wikipedia-ibrahim-kalin-tr, source/wikipedia-ibrahim-kalin-ar, source/wikidata-ibrahim-kalin, source/wikidata]
+  - job: job/philosopher
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'philosopher', Job Browser linking wave 18"
+    sources: [source/wikipedia-ibrahim-kalin-en, source/wikipedia-ibrahim-kalin-tr, source/wikipedia-ibrahim-kalin-ar, source/wikidata-ibrahim-kalin, source/wikidata]
+  - job: job/musician
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'musician', Job Browser linking wave 18"
+    sources: [source/wikipedia-ibrahim-kalin-en, source/wikipedia-ibrahim-kalin-tr, source/wikipedia-ibrahim-kalin-ar, source/wikidata-ibrahim-kalin, source/wikidata]
 relations:
   - { type: born_in, target: place/istanbul, sources: [source/wikipedia-ibrahim-kalin-en, source/wikipedia-ibrahim-kalin-tr, source/wikidata-ibrahim-kalin] }
   - { type: successor_of, target: person/hakan-fidan, sources: [source/wikipedia-ibrahim-kalin-en, source/wikipedia-hakan-fidan-en] }

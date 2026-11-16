@@ -33,6 +33,17 @@ provenance:
   run: lib-nafh-tib-batch-63
   extensions:
     - { generated_by: "Copilot SDK in VS Code", model: "unknown", run: "inventions-p3-b31", source: "Actual Maqqari3:122–129, TDV2013, Reynolds2008 selected passages and Al Jazeera biographical introduction. Earlier Devin authorship and al-Ghazzal2:262 account retained, that separate passage not re-read here; earlier Haiku translation attribution preserved in prose. Added identity/claim limits, sourced chronology and maker tie." }
+occupations:
+  - job: job/musician
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'musician', Job Browser linking wave 18"
+    sources: [source/nafh-tib-maqqari, source/tdv-ziryab-arslan-erkocoglu, source/reynolds-ziryab-2008, source/aljazeera-ziryab-2022]
+  - job: job/poet
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'poet', Job Browser linking wave 18"
+    sources: [source/nafh-tib-maqqari, source/tdv-ziryab-arslan-erkocoglu, source/reynolds-ziryab-2008, source/aljazeera-ziryab-2022]
 relations:
   - { type: lived_in, target: place/cordoba, sources: [source/tdv-ziryab-arslan-erkocoglu] }
 inventions:

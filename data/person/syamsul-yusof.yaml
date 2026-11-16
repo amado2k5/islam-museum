@@ -19,6 +19,17 @@ born:
   precision: day
   status: historical
   sources: [source/wikipedia-syamsul-yusof-en]
+occupations:
+  - job: job/actor
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'actor', Job Browser linking wave 18"
+    sources: [source/wikipedia-syamsul-yusof-en, source/instagram-syamsulyusoffilm]
+  - job: job/singer
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'singer', Job Browser linking wave 18"
+    sources: [source/wikipedia-syamsul-yusof-en, source/instagram-syamsulyusoffilm]
 relations:
   - { type: born_in, target: place/kuala-lumpur, sources: [source/wikipedia-syamsul-yusof-en] }
   - { type: lived_in, target: place/kuala-lumpur, sources: [source/wikipedia-syamsul-yusof-en] }

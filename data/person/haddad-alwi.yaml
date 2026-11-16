@@ -27,6 +27,17 @@ born:
   status: historical
   note: "The date, 13 March 1966, is common to all sources read. The birthplace conflicts: the Indonesian Wikipedia infobox gives Banjarnegara, Central Java, while the English article's text, TokohIndonesia and the Javanese article give Jakarta, and one Solo newspaper profile gives Solo — so no birthplace edge is written."
   sources: [source/wikipedia-haddad-alwi-id, source/wikipedia-haddad-alwi-en, source/tokoh-haddad-alwi]
+occupations:
+  - job: job/singer
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'singer', Job Browser linking wave 18"
+    sources: [source/wikipedia-haddad-alwi-id, source/wikipedia-haddad-alwi-en, source/tokoh-haddad-alwi, source/mixerno-haddad-alwi]
+  - job: job/actor
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'actor', Job Browser linking wave 18"
+    sources: [source/wikipedia-haddad-alwi-id, source/wikipedia-haddad-alwi-en, source/tokoh-haddad-alwi, source/mixerno-haddad-alwi]
 relations:
   - { type: lived_in, target: place/indonesia, sources: [source/wikipedia-haddad-alwi-id] }
 faith:

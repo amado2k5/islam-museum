@@ -22,6 +22,17 @@ born:
   status: historical
   note: "The Indonesian article gives Semanggi, Pasar Kliwon, Surakarta; Wikidata gives Surakarta and the date."
   sources: [source/wikipedia-syech-bin-abdul-qodir-assegaf-id, source/wikidata-habib-syech-bin-abdul-qadir-assegaf]
+occupations:
+  - job: job/singer
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'singer', Job Browser linking wave 18"
+    sources: [source/wikipedia-syech-bin-abdul-qodir-assegaf-id, source/wikidata-habib-syech-bin-abdul-qadir-assegaf, source/vidiq-habib-syech-bin-abdul-qadir-assegaf, source/youtube-habib-syech-bin-abdul-qadir-assegaf, source/woodward-hadhrami-dakwah-2012, source/uinsa-habib-syech-biography]
+  - job: job/preacher
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'preacher', Job Browser linking wave 18"
+    sources: [source/wikipedia-syech-bin-abdul-qodir-assegaf-id, source/wikidata-habib-syech-bin-abdul-qadir-assegaf, source/vidiq-habib-syech-bin-abdul-qadir-assegaf, source/youtube-habib-syech-bin-abdul-qadir-assegaf, source/woodward-hadhrami-dakwah-2012, source/uinsa-habib-syech-biography]
 relations:
   - { type: born_in, target: place/surakarta, sources: [source/wikipedia-syech-bin-abdul-qodir-assegaf-id, source/wikidata-habib-syech-bin-abdul-qadir-assegaf] }
   - { type: lived_in, target: place/surakarta, sources: [source/wikipedia-syech-bin-abdul-qodir-assegaf-id, source/woodward-hadhrami-dakwah-2012] }

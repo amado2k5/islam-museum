@@ -21,6 +21,12 @@ born:
   derived: false
   note: "Gregorian date and Kuala Lumpur birthplace from the English Wikipedia article. No Hijri date is recorded in the sources used, so none is printed."
   sources: [source/wikipedia-mizz-nina-en]
+occupations:
+  - job: job/singer
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'singer', Job Browser linking wave 18"
+    sources: [source/wikipedia-mizz-nina-en, source/x-mizz-nina, source/british-muslim-magazine-qalbyapp-2023, source/minqalby-foundation-about]
 relations:
   - { type: born_in, target: place/kuala-lumpur, sources: [source/wikipedia-mizz-nina-en] }
   - { type: lived_in, target: place/kuala-lumpur, sources: [source/wikipedia-mizz-nina-en], note: "Her career, labels and foundations are Kuala Lumpur-based in the sources used." }

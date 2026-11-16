@@ -36,6 +36,12 @@ faith:
     basis: unknown
     note: "Absence configuration: no source read names a school for him. Wikidata carries a single religion value, Islam, and the English and Arabic articles file him in their 'Pakistani Muslims' categories — one structured-and-filing family. The English article's remark that his daily routine included religious observance attests practice, not a school; his hereditary Kalawant family background is background; and his standing as a ghazal singer is repertoire. Under the two-source rule the value stays unknown."
     sources: [source/wikipedia-mehdi-hassan-en, source/wikipedia-mehdi-hassan-ur, source/wikidata-mehdi-hassan]
+occupations:
+  - job: job/musician
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'musician', Job Browser linking wave 18"
+    sources: [source/wikipedia-mehdi-hassan-en, source/wikipedia-mehdi-hassan-ar, source/wikipedia-mehdi-hassan-ur, source/wikidata-mehdi-hassan, source/wikidata]
 relations:
   - { type: died_in, target: place/karachi, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-mehdi-hassan] }
 summary:
