@@ -34,5 +34,11 @@ provenance:
   generated_by: "Muse (Muse Spark 1.3)"
   run: century-additions-105
 status: { review: published }
+occupations:
+  - job: job/lawyer
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'lawyer', Job Browser linking wave"
+    sources: [source/wikipedia-ansar-burney-en, source/wikipedia-ansar-burney-ur, source/wikidata-ansar-burney]
 relations:
   - { type: lived_in, target: place/pakistan, note: "From text: Pakistani (nationality adjective); broad association, flagged for review.", sources: [source/wikipedia-ansar-burney-en, source/wikipedia-ansar-burney-ur, source/wikidata-ansar-burney], confidence: low }

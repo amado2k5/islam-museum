@@ -34,6 +34,12 @@ died:
 roles: [politician, lawyer]
 wings: [people]
 regions: [south-asia]
+occupations:
+  - job: job/lawyer
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'lawyer', Job Browser linking wave"
+    sources: [source/wikipedia-khan-amirzadeh-khan-en, source/wikidata-khan-amirzadeh-khan]
 relations:
   - { type: lived_in, target: place/hyderabad, confidence: low, note: "Associated with Hyderabad per the record's own summary text; relation type pending review.", sources: [source/wikidata] }
 faith:

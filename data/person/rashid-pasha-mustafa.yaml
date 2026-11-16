@@ -33,6 +33,12 @@ died:
   derived: true
   note: "7 January 1858 at Istanbul is given by the English, Turkish and Urdu articles and by the Arabic article's lead. The Arabic article's own infobox instead prints 17 December 1858, and Wikidata carries both death values (7 January and 17 December 1858); the 17 December reading is stated here and not followed. The Hijri year 1274 is the tabular conversion of 7 January 1858."
   sources: [source/wikipedia-mustafa-resid-pasha-en, source/wikipedia-mustafa-resid-pasha-tr, source/wikipedia-mustafa-resid-pasha-ur, source/wikipedia-mustafa-resid-pasha-ar, source/wikidata-mustafa-resid-pasha]
+occupations:
+  - job: job/diplomat
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'diplomat', Job Browser linking wave"
+    sources: [source/wikipedia-mustafa-resid-pasha-en, source/wikipedia-mustafa-resid-pasha-tr, source/wikipedia-mustafa-resid-pasha-ar, source/wikipedia-mustafa-resid-pasha-ur, source/wikidata-mustafa-resid-pasha]
 relations:
   - { type: born_in, target: place/istanbul, note: "He was born in Istanbul (Constantinople) on 13 March 1800 (English, Turkish, Urdu and Arabic articles; Wikidata birthplace Istanbul, Q406).", sources: [source/wikipedia-mustafa-resid-pasha-en, source/wikipedia-mustafa-resid-pasha-tr, source/wikidata-mustafa-resid-pasha] }
   - { type: died_in, target: place/istanbul, note: "He died in Istanbul on 7 January 1858 (English, Turkish and Urdu articles; Wikidata place of death Istanbul, Q406).", sources: [source/wikipedia-mustafa-resid-pasha-en, source/wikipedia-mustafa-resid-pasha-tr, source/wikidata-mustafa-resid-pasha] }

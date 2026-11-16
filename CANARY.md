@@ -13,6 +13,10 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v1.88.0 — 2026-11-17
+### Added
+- Job Browser linking wave 14: 25 `occupations:` edges on 25 person records — nine lawyers, nine diplomats and seven engineers from the Ottoman, Egyptian, Pakistani and Gulf records.
+
 ## v1.87.0 — 2026-11-17
 ### Added
 - Job Browser linking wave 13: 34 `occupations:` edges on 25 person records — the wali pool fully linked, plus lawyer, diplomat and engineer links and nine incidental links across poet, teacher, philosopher, alim, merchant, patron, mathematician and physician.

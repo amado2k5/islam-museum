@@ -28,6 +28,12 @@ born:
   note: "Born in Muzaffarabad, Azad Kashmir on 4 October 1978; the English and Urdu articles and Wikidata agree. The Hijri year 1398 is the tabular conversion of the built date, marked derived. No place entity for Muzaffarabad exists in the museum, so no born_in edge is written."
   sources: [source/wikipedia-rehman-chishti-en, source/wikipedia-rehman-chishti-ur, source/wikidata-rehman-chishti]
 
+occupations:
+  - job: job/lawyer
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'lawyer', Job Browser linking wave"
+    sources: [source/wikipedia-rehman-chishti-en, source/wikipedia-rehman-chishti-ur, source/wikidata-rehman-chishti, source/parliament-chishti-islam-2021]
 relations:
   - { type: born_in, target: place/muzaffarabad, sources: [source/wikidata-rehman-chishti], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q461307)" }
   - { type: lived_in, target: place/london, sources: [source/wikidata-rehman-chishti], confidence: low, note: "Wikidata P937 work location (Wikidata Q84)" }

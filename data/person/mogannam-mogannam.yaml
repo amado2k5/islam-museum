@@ -20,6 +20,12 @@ died:
 roles: [lawyer, activist]
 regions: [levant-iraq]
 wings: [people]
+occupations:
+  - job: job/lawyer
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'lawyer', Job Browser linking wave"
+    sources: [source/encyclopedia-mogannam-mogannam-ilyas, source/wikipedia-matiel-mogannam-en]
 relations:
   - { type: lived_in, target: place/jerusalem, confidence: low, note: "Associated with القدس per the record's own summary text; relation type pending review.", sources: [source/wikidata] }
 faith:

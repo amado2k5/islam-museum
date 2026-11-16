@@ -15,6 +15,12 @@ periods: [period/gunpowder-empires]
 regions: [anatolia-balkans]
 born: { edtf: "1761~", hijri: "1175", calendar: gregorian, precision: year, status: tradition, derived: false, note: "born in Istanbul ca. 1175/1761 per EI2 {cite:encyclopaedia-of-islam-2 vol. 3 p. 99}" }
 died: { edtf: "1822-11", hijri: "1238-02", calendar: gregorian, precision: month, status: tradition, derived: false, note: "exiled to Konya in Safar 1238/November 1822 and strangled there a few days later per EI2 {cite:encyclopaedia-of-islam-2 vol. 3 p. 100}" }
+occupations:
+  - job: job/diplomat
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'diplomat', Job Browser linking wave"
+    sources: [source/encyclopaedia-of-islam-2]
 relations:
   - { type: born_in, target: place/istanbul, sources: [source/encyclopaedia-of-islam-2] }
   - { type: died_in, target: place/konya, sources: [source/encyclopaedia-of-islam-2] }
