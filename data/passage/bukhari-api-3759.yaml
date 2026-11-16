@@ -1,0 +1,16 @@
+id: passage/bukhari-api-3759
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "3759"
+label: { ar: "صحيح البخاري 3759 — القراء", en: "Sahih al-Bukhari 3759 — the readers", ur: "صحیح بخاری 3759 — قراء" }
+text: "… شُعْبَةُ، عَنْ سُلَيْمَانَ، قَالَ سَمِعْتُ أَبَا وَائِلٍ، قَالَ سَمِعْتُ مَسْرُوقًا، قَالَ قَالَ عَبْدُ اللَّهِ بْنُ عَمْرٍو إِنَّ رَسُولَ اللَّهِ لَمْ يَكُنْ فَاحِشًا وَلاَ مُتَفَحِّشًا وَقَالَ \" إِنَّ مِنْ أَحَبِّكُمْ إِلَىَّ أَحْسَنَكُمْ أَخْلاَقًا \". وَقَالَ \" اسْتَقْرِئُوا الْقُرْآنَ مِنْ أَرْبَعَةٍ مِنْ عَبْدِ اللَّهِ بْنِ مَسْعُودٍ، وَسَالِمٍ مَوْلَى أَبِي حُذَيْفَةَ، وَأُبَىِّ بْنِ كَعْبٍ، وَمُعَاذِ بْنِ جَبَلٍ \"."
+summary:
+  ar: "حديث في صحيح البخاري، رقم 3759، يذكر القراء. يجمعه متصفح قراءات القرآن والرسم والخطوط والضبط مع نصوص القرآن والسنة والسيرة والكتب في قراءات القرآن وكتابته."
+  en: "A report in Sahih al-Bukhari, no. 3759, that mentions the readers. The browser of the museum for how the Qur'an was read and written lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on that subject."
+  ur: "صحیح بخاری کی حدیث نمبر 3759، جس میں قراء کا ذکر ہے۔ قراءات، رسم، خطوط اور نقطوں کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/qiraat, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 3759 (book 0 hadith 0); matn excerpt of at most 55 words chosen by the qira'at detector (scripts/qiraat.ts), honorific formulas left out", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "qiraat-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-sonnet-5-5) from the hadith-api Arabic edition; label and summary are the museum's own words" }

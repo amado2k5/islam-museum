@@ -1,0 +1,16 @@
+id: passage/tarikh-baghdad-qiraat-3-97
+class: passage
+unit: chapter
+work: work/tarikh-baghdad-khatib
+ref: "3:97"
+label: { ar: "تاريخ بغداد للخطيب البغدادي، المجلد المصوَّر 3، ص 97 — قراءات القرآن", en: "al-Khatib al-Baghdadi's Tarikh Baghdad, scan volume 3, p. 97 — the readings of the Qur'an", ur: "تاریخ بغداد، خطیب بغدادی، اسکین جلد 3، ص 97 — قرآن کی قراءتیں" }
+text: "… بن جعفر بن سلم، وأبا بكر بن مالك القطيعى ومخلد بن جمفر الدعاق، وجماعة من هذه الطبقة. كتبنا عنه وكان صدوقا ناضلا ا بالقراآت يسكن درب سليم من الجانب الشرقى. ومات يوم الاربعاء لارا خاون من المحرم سنة خمس عشرة …"
+summary:
+  ar: "مقطع من تاريخ بغداد للخطيب البغدادي، المجلد المصوَّر 3، ص 97، يذكر قراءات القرآن؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح قراءات القرآن والرسم والخطوط والضبط."
+  en: "An excerpt from al-Khatib al-Baghdadi's Tarikh Baghdad, scan volume 3, p. 97, that mentions the readings of the Qur'an; from the machine-read scan, quoted within forty words per the sources policy. The browser of the museum for how the Qur'an was read and written lists it."
+  ur: "تاریخ بغداد، خطیب بغدادی، اسکین جلد 3، ص 97 کا اقتباس جس میں قرآن کی قراءتیں کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ قراءات، رسم، خطوط اور نقطوں کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/qiraat, sources: [source/tarikh-baghdad-khatib] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan tareekh/tarikh-baghdad/AAlexandrina-106247, page 97; a window of at most 40 words chosen by the qira'at detector (scripts/qiraat.ts); OCR text not corrected", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "qiraat-ocr-1" }
+sources: [source/tarikh-baghdad-khatib]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-sonnet-5-5) from the OCR'd book; label and summary are the museum's own words" }

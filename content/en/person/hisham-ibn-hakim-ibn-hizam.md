@@ -15,3 +15,7 @@ At Homs he saw people of the Nabat being made to pay the jizya under the governo
 
 ## Death
 The book gives his death as after 15 AH. It reports, attributed to Abu Nu'aym, that he was martyred at Ajnadayn; that attribution is not checked here. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.6457}
+
+## In the hadith of the seven ahruf
+
+Al-Suyuti counts Hisham ibn Hakim among the twenty-one Companions who narrated the hadith that the Qur'an was sent down in seven ahruf. {cite:itqan-suyuti-calcutta-1852 p. 106} He quotes al-Mursi that the report of 'Umar with Hisham ibn Hakim, which is in the Sahih, shows that the two men did not differ over the meaning of the text or its rulings but over how its letters were read, and that many ordinary people wrongly suppose the seven ahruf to be the seven readings, which he calls a bad ignorance. {cite:itqan-suyuti-calcutta-1852 p. 116}

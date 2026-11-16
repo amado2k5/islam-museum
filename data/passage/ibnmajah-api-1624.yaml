@@ -1,0 +1,16 @@
+id: passage/ibnmajah-api-1624
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "1624"
+label: { ar: "سنن ابن ماجه 1624 — جمع القرآن والمصاحف", en: "Sunan Ibn Majah 1624 — the collection of the Qur'an and the codices", ur: "سنن ابن ماجہ 1624 — جمعِ قرآن اور مصاحف" }
+text: "حَدَّثَنَا هِشَامُ بْنُ عَمَّارٍ، حَدَّثَنَا سُفْيَانُ بْنُ عُيَيْنَةَ، عَنِ الزُّهْرِيِّ، سَمِعَ أَنَسَ بْنَ مَالِكٍ، يَقُولُ آخِرُ نَظْرَةٍ نَظَرْتُهَا إِلَى رَسُولِ اللَّهِ ـ كَشْفُ السِّتَارَةِ يَوْمَ الاِثْنَيْنِ فَنَظَرْتُ إِلَى وَجْهِهِ كَأَنَّهُ وَرَقَةُ مُصْحَفٍ وَالنَّاسُ خَلْفَ أَبِي بَكْرٍ فِي الصَّلاَةِ فَأَرَادَ أَنْ يَتَحَرَّكَ فَأَشَارَ إِلَيْهِ أَنِ اثْبُتْ وَأَلْقَى السِّجْفَ وَمَاتَ مِنْ آخِرِ ذَلِكَ الْيَوْمِ."
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 1624، يذكر جمع القرآن والمصاحف. يجمعه متصفح قراءات القرآن والرسم والخطوط والضبط مع نصوص القرآن والسنة والسيرة والكتب في قراءات القرآن وكتابته."
+  en: "A report in Sunan Ibn Majah, no. 1624 (Chapters Regarding Funerals), that mentions the collection of the Qur'an and the codices. The browser of the museum for how the Qur'an was read and written lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on that subject."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 1624، جس میں جمعِ قرآن اور مصاحف کا ذکر ہے۔ قراءات، رسم، خطوط اور نقطوں کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/mushaf, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 1624 (book 6 hadith 192); matn excerpt of at most 55 words chosen by the qira'at detector (scripts/qiraat.ts), honorific formulas left out", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "qiraat-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-sonnet-5-5) from the hadith-api Arabic edition; label and summary are the museum's own words" }

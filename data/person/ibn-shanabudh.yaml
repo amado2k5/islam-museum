@@ -1,5 +1,6 @@
 id: person/ibn-shanabudh
 class: person
+tags: [qiraat-browser, qiraat-people, qiraat-readers, qiraat-readings]
 label: { ar: "ابن شنبوذ القارئ" }
 summary:
   ar: "المقرئ، كانت له واقعة مشهورة سنة ثلاث وعشرين واستتيب عن القراءة بالشاذ والمحضر الذي كتب عليه بحضرة الوزير ابن مقلة، ودعا على الوزير بأن يقطع الله يده فقطعت يده وذاق الذل، ومات في أيام الراضي {cite:tarikh-khulafa-minhaj-1434 p. 604,607}."
@@ -9,14 +10,19 @@ wings: [people]
 periods: [period/abbasid-early]
 died: { edtf: "939", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar" }
 relations:
+  - { type: student_of, target: person/qunbul, confidence: high, note: "Ibn al-Jazari, al-Nashr, p. 129: Ibn Shannabudh read on Qunbul.", sources: [source/nashr-dahman-damascus-1345-v1] }
+  - { type: student_of, target: person/qunbul, confidence: high, note: "Ibn al-Jazari, al-Nashr, p. 129: Ibn Shannabudh read on Qunbul.", sources: [source/nashr-dahman-damascus-1345-v1] }
   - { type: lived_in, target: place/baghdad, confidence: low, note: "Qur'an reader arraigned before the vizier Ibn Muqla at Baghdad per the record's own summary.", sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
+  enriched_by:
+    - { generated_by: "Claude Code (claude-sonnet-5-5)", model: claude-sonnet-5-5, run: qiraat-browser-people-1, source: "source/nashr-dahman-damascus-1345-v1: pages cited in the prose (page numbers are scan page markers; OCR errors not copied)" }
+    - { generated_by: "Claude Code (claude-sonnet-5-5)", model: claude-sonnet-5-5, run: qiraat-browser-people-1, source: "source/nashr-dahman-damascus-1345-v1: pages cited in the prose (page numbers are scan page markers; OCR errors not copied)" }
   layer: own-research
   source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 604–615"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch40
-sources: [source/tarikh-khulafa-minhaj-1434]
+sources: [source/tarikh-khulafa-minhaj-1434, source/nashr-dahman-damascus-1345-v1]
 status:
   review: published
   completeness: 3

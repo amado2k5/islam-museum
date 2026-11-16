@@ -5,12 +5,13 @@ label:
   ar: "المصحف"
   en: "Mushaf"
 summary:
-  ar: "بطاقة أولية لمصطلح المصحف، القرآن الكريم مجموعاً بين دفتي كتاب وأحد ألقابه؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for the term mushaf, the Qur'an gathered between two covers, one of its names; its sources are not yet checked on the page."
+  ar: المصحف في اصطلاح علوم القرآن الأوراق التي جُمع فيها القرآن مع ترتيب آياته وسوره جميعاً على الوجه الذي أجمعت عليه الأمة أيام عثمان، وهو من «أصحفه» أي جمع فيه الصحف، فكأن دفتيه ملحوظان في معناه، ويُفرَّق عن «الصحف» التي جُمعت في عهد أبي بكر وكانت سوراً مرتبة آياتها فقط {cite:manahil-irfan-sabt p. 323} {cite:manahil-irfan-sabt p. 324}.
+  en: A mushaf, in the vocabulary of the Qur'anic sciences, is the leaves in which the Qur'an is gathered with the order of both its verses and suras as the community agreed in Uthman's time; the word is from "ashafahu", to gather the suhuf in it, so its two covers are felt in its meaning, and it is distinguished from the suhuf of Abu Bakr's time, which had the verses of each sura in order only {cite:manahil-irfan-sabt p. 323} {cite:manahil-irfan-sabt p. 324}.
+  ur: مصحف علومِ قرآن کی اصطلاح میں وہ اوراق ہیں جن میں آیات اور سورتوں دونوں کی ترتیب کے ساتھ قرآن جمع ہو جیسا عثمان کے زمانے میں امت نے اتفاق کیا؛ لفظ «اصحفہ» سے ہے یعنی اس میں صحف جمع کیے گئے، اس لیے اس کے دونوں دفتے اس کے معنی میں ملحوظ ہیں، اور یہ ابو بکر کے عہد کے «صحف» سے مختلف ہے جن میں صرف ہر سورت کی آیات مرتب تھیں {cite:manahil-irfan-sabt p. 323} {cite:manahil-irfan-sabt p. 324}۔
 wings: [words]
 regions: [global]
 periods: [period/rashidun]
-sources: [source/al-aalam, source/fiqh-mawsua-kuwaitiyya-noor-v3]
+sources: [source/al-aalam, source/fiqh-mawsua-kuwaitiyya-noor-v3, source/itqan-suyuti, source/manahil-irfan-sabt, source/nashr-dahman-damascus-1345-v1]
 external_ids:
   wikidata: Q3918513
 provenance:
@@ -19,7 +20,17 @@ provenance:
   generated_by: "Devin (SWE-2 High)"
   model: "SWE-2 High"
   run: wikidata-import-wave2
+  enriched_by:
+  - generated_by: Claude Code (claude-sonnet-5-5)
+    model: claude-sonnet-5-5
+    run: qiraat-browser-sciences-1
+    source: الإتقان للسيوطي ط. مجمع الملك فهد، وتهذيب مناهل العرفان لخالد السبت، والنشر لابن الجزري ط. دهمان 1345هـ؛ أرقام الصفحات علامات صفحات المسح؛ ص 323-325 من التهذيب، وص 379-387 من الإتقان
 importance: 2
 status:
-  review: draft
+  review: published
   completeness: 3
+  generated_by: Claude Code (claude-sonnet-5-5)
+tags:
+- qiraat-browser
+- qiraat-sciences
+- qiraat-codex

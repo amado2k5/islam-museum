@@ -1,0 +1,16 @@
+id: passage/ibnmajah-api-1606
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "1606"
+label: { ar: "سنن ابن ماجه 1606 — القراء", en: "Sunan Ibn Majah 1606 — the readers", ur: "سنن ابن ماجہ 1606 — قراء" }
+text: "… مُحَمَّدٍ، مَوْلَى عُمَرَ بْنِ الْخَطَّابِ عَنْ أَبِي عُبَيْدَةَ، عَنْ عَبْدِ اللَّهِ، قَالَ: قَالَ رَسُولُ اللَّهِ ـ \" مَنْ قَدَّمَ ثَلاَثَةً مِنَ الْوَلَدِ لَمْ يَبْلُغُوا الْحِنْثَ كَانُوا لَهُ حِصْنًا حَصِينًا مِنَ النَّارِ \". فَقَالَ أَبُو ذَرٍّ: قَدَّمْتُ اثْنَيْنِ. قَالَ: \" وَاثْنَيْنِ \". فَقَالَ أُبَىُّ بْنُ كَعْبٍ أَبُو الْمُنْذِرِ سَيِّدُ الْقُرَّاءِ: قَدَّمْتُ وَاحِدًا. قَالَ\" \" وَوَاحِدًا \"."
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 1606، يذكر القراء. يجمعه متصفح قراءات القرآن والرسم والخطوط والضبط مع نصوص القرآن والسنة والسيرة والكتب في قراءات القرآن وكتابته."
+  en: "A report in Sunan Ibn Majah, no. 1606 (Chapters Regarding Funerals), that mentions the readers. The browser of the museum for how the Qur'an was read and written lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on that subject."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 1606، جس میں قراء کا ذکر ہے۔ قراءات، رسم، خطوط اور نقطوں کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/qiraat, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 1606 (book 6 hadith 174); matn excerpt of at most 55 words chosen by the qira'at detector (scripts/qiraat.ts), honorific formulas left out", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "qiraat-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-sonnet-5-5) from the hadith-api Arabic edition; label and summary are the museum's own words" }

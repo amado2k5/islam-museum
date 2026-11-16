@@ -1,0 +1,16 @@
+id: passage/tirmidhi-api-3039
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "3039"
+label: { ar: "جامع الترمذي 3039 — قراءات القرآن", en: "Jami' al-Tirmidhi 3039 — the readings of the Qur'an", ur: "جامع ترمذی 3039 — قرآن کی قراءتیں" }
+text: "… رَسُولُ اللَّهِ \" يَا أَبَا بَكْرٍ أَلاَ أُقْرِئُكَ آيَةً أُنْزِلَتْ عَلَىَّ \". قُلْتُ بَلَى يَا رَسُولَ اللَّهِ. قَالَ فَأَقْرَأَنِيهَا فَلاَ أَعْلَمُ إِلاَّ أَنِّي قَدْ كُنْتُ وَجَدْتُ انْقِصَامًا فِي ظَهْرِي فَتَمَطَّأْتُ لَهَا فَقَالَ رَسُولُ اللَّهِ \" مَا شَأْنُكَ يَا أَبَا بَكْرٍ \". قُلْتُ يَا رَسُولَ اللَّهِ بِأَبِي أَنْتَ وَأُمِّي وَأَيُّنَا لَمْ يَعْمَلْ سُوءًا وَإِنَّا لَمَجْزِيُّونَ بِمَا …"
+summary:
+  ar: "حديث في جامع الترمذي، رقم 3039، يذكر قراءات القرآن. يجمعه متصفح قراءات القرآن والرسم والخطوط والضبط مع نصوص القرآن والسنة والسيرة والكتب في قراءات القرآن وكتابته."
+  en: "A report in Jami' al-Tirmidhi, no. 3039 (Chapters on Tafsir), that mentions the readings of the Qur'an. The browser of the museum for how the Qur'an was read and written lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on that subject."
+  ur: "جامع ترمذی کی حدیث نمبر 3039، جس میں قرآن کی قراءتیں کا ذکر ہے۔ قراءات، رسم، خطوط اور نقطوں کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/qiraat, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 3039 (book 47 hadith 91); matn excerpt of at most 55 words chosen by the qira'at detector (scripts/qiraat.ts), honorific formulas left out", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "qiraat-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-sonnet-5-5) from the hadith-api Arabic edition; label and summary are the museum's own words" }

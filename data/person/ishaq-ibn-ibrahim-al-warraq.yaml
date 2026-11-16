@@ -1,0 +1,27 @@
+id: person/ishaq-ibn-ibrahim-al-warraq
+class: person
+tags: [qiraat-browser, qiraat-people, qiraat-readers, qiraat-readings]
+label: { ar: "إسحاق بن إبراهيم الوراق", en: "Ishaq ibn Ibrahim al-Warraq", ur: "اسحاق بن ابراہیم وراق" }
+names:
+  - { kind: full, lang: ar, value: "إسحاق بن إبراهيم المروزي الوراق، أبو يعقوب" }
+roles: [scholar, teacher]
+gender: male
+traditions: [sunni]
+summary:
+  ar: "إسحاق الوراق، راوي اختيار خلف بن هشام وحده في قول ابن الجزري، توفي سنة 286هـ؛ وصفه بأنه ثقة قيّم بالقراءة ضابط لها منفرد برواية اختيار خلف لا يُعرف غيره {cite:nashr-dahman-damascus-1345-v1 p. 202}."
+  en: "Ishaq al-Warraq, transmitter of the choice of Khalaf ibn Hisham, who died in 286 AH. Ibn al-Jazari describes him as reliable, a firm upholder and exact master of the reading, singular in his transmission of Khalaf's choice and known for nothing else {cite:nashr-dahman-damascus-1345-v1 p. 202}."
+  ur: "اسحاق وراق، خلف بن ہشام کے اختیار کے راوی، 286ھ میں فوت ہوئے؛ ابن الجزری انہیں ثقہ، قراءت پر قائم اور اس کے ضابط، خلف کے اختیار کی روایت میں منفرد اور کسی اور چیز کے ساتھ نہ جانے جانے والے بتاتے ہیں {cite:nashr-dahman-damascus-1345-v1 p. 202}."
+wings: [people]
+periods: [period/abbasid-fragmentation]
+regions: [persia-central-asia]
+died: { edtf: "0899", hijri: "0286", calendar: julian, precision: year, status: tradition, derived: true, note: "Year as printed in al-Nashr; Julian year derived by tabular conversion.", sources: [source/nashr-dahman-damascus-1345-v1] }
+relations:
+  - { type: student_of, target: person/khalaf-ibn-hisham, confidence: high, note: "Ibn al-Jazari, al-Nashr, pp. 199-202: Ishaq al-Warraq read on Khalaf and is singled out as the transmitter of his choice.", sources: [source/nashr-dahman-damascus-1345-v1] }
+sources: [source/nashr-dahman-damascus-1345-v1]
+provenance:
+  layer: own-research
+  source: "al-Nashr fi al-Qira'at al-Ashr (Ibn al-Jazari), Dahman ed., Damascus 1345 AH, vol. 1: the biography sections (tarjamat) of the ten readers and their transmitters, read in the Apple-Vision OCR of the harvest scan (books/quran-sciences/nashr-ibn-jazari/nashrqraatashr); page numbers are scan page markers (PDF pages), OCR errors not copied"
+  generated_by: "Claude Code (claude-sonnet-5-5)"
+  model: claude-sonnet-5-5
+  run: qiraat-browser-people-1
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5)" }

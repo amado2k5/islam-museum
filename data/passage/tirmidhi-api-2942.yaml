@@ -1,0 +1,16 @@
+id: passage/tirmidhi-api-2942
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "2942"
+label: { ar: "جامع الترمذي 2942 — كتاب القراءات، قراءات القرآن", en: "Jami' al-Tirmidhi 2942 — the Book of the Readings; the readings of the Qur'an", ur: "جامع ترمذی 2942 — کتاب القراءات، قرآن کی قراءتیں" }
+text: "… بْنُ غَيْلاَنَ، قَالَ حَدَّثَنَا أَبُو دَاوُدَ، قَالَ أَخْبَرَنَا شُعْبَةُ، عَنْ مَنْصُورٍ، قَالَ سَمِعْتُ أَبَا وَائِلٍ، عَنْ عَبْدِ اللَّهِ، عَنِ النَّبِيِّ قَالَ \" بِئْسَمَا لأَحَدِهِمْ أَوْ لأَحَدِكُمْ أَنْ يَقُولَ نَسِيتُ آيَةَ كَيْتَ وَكَيْتَ بَلْ هُوَ نُسِّيَ فَاسْتَذْكِرُوا الْقُرْآنَ فَوَالَّذِي نَفْسِي بِيَدِهِ لَهُوَ أَشَدُّ تَفَصِّيًا مِنْ صُدُورِ الرِّجَالِ مِنَ النَّعَمِ مِنْ عُقُلِهِ \". هَذَا حَدِيثٌ حَسَنٌ صَحِيحٌ."
+summary:
+  ar: "حديث في جامع الترمذي، رقم 2942، يذكر قراءات القرآن. يجمعه متصفح قراءات القرآن والرسم والخطوط والضبط مع نصوص القرآن والسنة والسيرة والكتب في قراءات القرآن وكتابته."
+  en: "A report in Jami' al-Tirmidhi, no. 2942 (Chapters on Recitation), that mentions the readings of the Qur'an. The browser of the museum for how the Qur'an was read and written lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on that subject."
+  ur: "جامع ترمذی کی حدیث نمبر 2942، جس میں قرآن کی قراءتیں کا ذکر ہے۔ قراءات، رسم، خطوط اور نقطوں کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/qiraat, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 2942 (book 46 hadith 16); matn excerpt of at most 55 words chosen by the qira'at detector (scripts/qiraat.ts); the whole chapter is taken, honorific formulas left out", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "qiraat-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-sonnet-5-5) from the hadith-api Arabic edition; label and summary are the museum's own words" }

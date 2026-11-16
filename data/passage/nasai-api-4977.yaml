@@ -1,0 +1,16 @@
+id: passage/nasai-api-4977
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "4977"
+label: { ar: "سنن النسائي 4977 — جمع القرآن والمصاحف", en: "Sunan al-Nasa'i 4977 — the collection of the Qur'an and the codices", ur: "سنن نسائی 4977 — جمعِ قرآن اور مصاحف" }
+text: "أَخْبَرَنَا سُلَيْمَانُ بْنُ سَلْمٍ الْمَصَاحِفِيُّ الْبَلْخِيُّ، قَالَ حَدَّثَنَا النَّضْرُ بْنُ شُمَيْلٍ، قَالَ حَدَّثَنَا حَمَّادٌ، قَالَ أَنْبَأَنَا يُوسُفُ، عَنِ الْحَارِثِ بْنِ حَاطِبٍ، أَنَّ رَسُولَ اللَّهِ أُتِيَ بِلِصٍّ فَقَالَ \" اقْتُلُوهُ \". فَقَالُوا يَا رَسُولَ اللَّهِ إِنَّمَا سَرَقَ. فَقَالَ \" اقْتُلُوهُ \". قَالُوا يَا رَسُولَ اللَّهِ إِنَّمَا سَرَقَ. قَالَ \" اقْطَعُوا يَدَهُ \". قَالَ ثُمَّ سَرَقَ فَقُطِعَتْ …"
+summary:
+  ar: "حديث في سنن النسائي، رقم 4977، يذكر جمع القرآن والمصاحف. يجمعه متصفح قراءات القرآن والرسم والخطوط والضبط مع نصوص القرآن والسنة والسيرة والكتب في قراءات القرآن وكتابته."
+  en: "A report in Sunan al-Nasa'i, no. 4977 (The Book of Cutting off the Hand of the Thief), that mentions the collection of the Qur'an and the codices. The browser of the museum for how the Qur'an was read and written lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on that subject."
+  ur: "سنن نسائی کی حدیث نمبر 4977، جس میں جمعِ قرآن اور مصاحف کا ذکر ہے۔ قراءات، رسم، خطوط اور نقطوں کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/mushaf, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 4977 (book 46 hadith 107); matn excerpt of at most 55 words chosen by the qira'at detector (scripts/qiraat.ts), honorific formulas left out", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "qiraat-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-sonnet-5-5) from the hadith-api Arabic edition; label and summary are the museum's own words" }

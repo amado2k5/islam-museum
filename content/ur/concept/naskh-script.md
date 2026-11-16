@@ -9,7 +9,7 @@ provenance:
   generated_by: "Claude Code (OCR-harvest worker I)"
   model: claude-opus-5-5
   run: ocr-harvest-2026-11-04
-  source: "source/ekhtiar-how-to-read-islamic-calligraphy-2018 scan pp. 25, 26, 29, 30, 42"
+  source: "source/ekhtiar-how-to-read-islamic-calligraphy-2018 scan pp. 25, 26, 29, 30, 42; sections appended by Claude Code (claude-sonnet-5-5), run qiraat-browser-scripts-works-1: source/subh-al-asha-cairo-v3 scan p. 17; source/fihrist-ibn-al-nadim-rahmaniyya-cairo scan p. 25"
   translator_of: content/ar/concept/naskh-script.md
 ---
 ## خلاصہ
@@ -20,3 +20,6 @@ provenance:
 
 ## احیائی نسخ
 مصنفہ کے نزدیک «احیائی نسخ» نسخ کی ایک بعد کی صورت ہے جو بڑے تناسب، نفاست اور وضاحت کے لیے مشہور ہے؛ اسے [[person/ahmad-nayrizi-calligrapher|احمد نیریزی]] (فعال 1682–1739ء) نے ایران میں نسخ کو بڑا اور آسان خواں بنانے کے لیے مرتب کیا، کشادہ سطروں اور موٹے، اعراب لگے حروف کے ساتھ۔ یہ زیادہ تر مصاحف اور دعاؤں کی کتابوں میں برتا گیا اور سترہویں صدی کے دوسرے نصف میں ایران کی اس تحریک کا حصہ تھا جو عربی دینی متون کو فارسی بولنے والوں کے قریب لانا چاہتی تھی؛ اسی لیے نیریزی کے مصاحف میں اکثر سطروں کے بیچ فارسی ترجمہ ہے۔ شاعر و خطاط محمد شفیع وصال شیرازی اور ان کے بیٹوں نے یہ طرز انیسویں صدی تک جاری رکھا۔ {cite:ekhtiar-how-to-read-islamic-calligraphy-2018 p. 29} {cite:ekhtiar-how-to-read-islamic-calligraphy-2018 p. 30}
+
+## قلقشندی کے ہاں
+قلقشندی «اعانۃ المنشی» سے نقل کرتے ہیں کہ ابن مقلہ اور ان کے بھائی ابو عبد اللہ نے ایک طریقہ نکالا جس سے لکھنے والوں کی ایک جماعت نے کتابت سیکھی، ابو عبد اللہ نسخ میں یکتا تھے اور وزیر ابو علی دَرج میں، اور کمال وزیر کو حاصل تھا جس نے حروف کی ہندسی ترتیب کی اور ان کی عمدہ تحریر کی، اور انہی سے خط مشرق و مغرب میں پھیلا۔ {cite:subh-al-asha-cairo-v3 p. 17} ابن الندیم «قلم النساخ» کو ان بھاری اقلام میں گنتے ہیں جنہیں احول محرر نے ترتیب دیا۔ {cite:fihrist-ibn-al-nadim-rahmaniyya-cairo p. 25}

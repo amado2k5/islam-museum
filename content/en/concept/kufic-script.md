@@ -9,7 +9,7 @@ provenance:
   generated_by: "Claude Code (OCR-harvest worker I)"
   model: claude-opus-5-5
   run: ocr-harvest-2026-11-04
-  source: "source/ekhtiar-how-to-read-islamic-calligraphy-2018 scan pp. 23, 24, 32"
+  source: "source/ekhtiar-how-to-read-islamic-calligraphy-2018 scan pp. 23, 24, 32; sections appended by Claude Code (claude-sonnet-5-5), run qiraat-browser-scripts-works-1: source/subh-al-asha-cairo-v3 scan p. 15; source/blair-islamic-calligraphy-2006 scan p. 171 (printed 131)"
   translator_of: content/ar/concept/kufic-script.md
 ---
 ## Summary
@@ -20,3 +20,6 @@ Kufic followed precise rules for calibrated letters with geometric proportion an
 
 ## Kufic Qur'ans
 Qur'ans of the eighth to tenth centuries were mostly written on parchment, in vertical, square and oblong formats; from the second half of the eighth century the oblong format with a few lines a page became standard. Most early kufic Qur'ans were built of quinions — quires of five folded sheets — bound in leather and kept in chests. {cite:ekhtiar-how-to-read-islamic-calligraphy-2018 p. 23} A bifolium from an Abbasid Qur'an at The Met carries seven lines of bold kufic; the horizontal stretching of letters may also have signalled the reciter to prolong a letter or word, vowels are red or green dots, and consonant points are largely absent. {cite:ekhtiar-how-to-read-islamic-calligraphy-2018 p. 32} Once the [[concept/new-style-script|new style]] and the rounded scripts took over, kufic was confined to ornament such as sura headings. {cite:ekhtiar-how-to-read-islamic-calligraphy-2018 p. 24}
+
+## In al-Qalqashandi and Blair
+Al-Qalqashandi relays from the author of al-Abhath al-Jamila that Arabic writing is what is now known as Kufic and that the pens in use today were derived from it, and from Ibn al-Husayn that Kufic has several pens that go back to two roots, rounding and extension. {cite:subh-al-asha-cairo-v3 p. 15} He rejects the view that Ibn Muqla was the first to invent this, saying he finds books in the hand of the early writers from before the two-hundreds that are not in the Kufic form but depart from it toward the established forms, though they lean more to it because they are near their derivation from it. {cite:subh-al-asha-cairo-v3 p. 15} Blair notes that the word Kufic was already current by the tenth century. {cite:blair-islamic-calligraphy-2006 p. 171}

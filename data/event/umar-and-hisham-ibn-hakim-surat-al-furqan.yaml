@@ -1,0 +1,65 @@
+id: event/umar-and-hisham-ibn-hakim-surat-al-furqan
+class: event
+kind: other
+label:
+  ar: عمر وهشام بن حكيم وسورة الفرقان بين يدي النبي
+  en: Umar, Hisham ibn Hakim and Surat al-Furqan before the Prophet
+  ur: عمر، ہشام بن حکیم اور سورۂ فرقان نبی کے سامنے
+summary:
+  ar: "سمع عمر بن الخطاب هشام بن حكيم يقرأ سورة الفرقان على غير ما أقرأها النبي، فكاد يعجل عليه ثم أمهله حتى انصرف، وأخذه بردائه إلى النبي؛ فأمر كلاً منهما بالقراءة وقال لكل: هكذا أنزلت، وإن هذا القرآن أنزل على سبعة أحرف فاقرؤوا ما تيسر منه {cite:muwatta-maruf-1997 p.277} {cite:sahih-al-bukhari 2419}."
+  en: "Umar ibn al-Khattab heard Hisham ibn Hakim reading Surat al-Furqan in a way other than the Prophet had taught him, nearly rushed on him, then waited until he finished and took him by his cloak to the Prophet; he had each of them recite and told each: it was revealed so, and this Qur'an was revealed in seven ahruf, so read of it what is easy {cite:muwatta-maruf-1997 p.277} {cite:sahih-al-bukhari 2419}."
+  ur: "عمر بن الخطاب نے ہشام بن حکیم کو سورۂ فرقان اس طرح پڑھتے سنا جس طرح نبی نے انھیں نہ پڑھائی تھی، قریب تھا کہ ان پر جلدی کریں پھر مہلت دی یہاں تک کہ وہ پھرے، اور انھیں چادر سے پکڑ کر نبی کے پاس لے گئے؛ آپ نے ہر ایک کو پڑھوایا اور ہر ایک سے فرمایا: یوں ہی نازل ہوئی، اور یہ قرآن سات احرف پر نازل ہوا ہے تو جتنا آسان ہو پڑھو {cite:muwatta-maruf-1997 p.277} {cite:sahih-al-bukhari 2419}۔"
+wings:
+- time
+- people
+themes:
+- scripture-and-its-sciences
+tags:
+- qiraat-browser
+- qiraat-sciences
+- qiraat-ahruf
+- qiraat-readers
+periods:
+- period/prophetic-era
+regions:
+- arabia
+relations:
+- type: had_participant
+  target: person/umar-ibn-al-khattab
+  role: من سمع الاختلاف وجاء بهشام
+  sources:
+  - source/muwatta-maruf-1997
+  - source/sahih-al-bukhari
+- type: had_participant
+  target: person/hisham-ibn-hakim-ibn-hizam
+  role: القارئ بالوجه الآخر
+  sources:
+  - source/muwatta-maruf-1997
+  - source/sahih-al-bukhari
+- type: had_participant
+  target: person/muhammad
+  role: الحَكَم بينهما
+  sources:
+  - source/muwatta-maruf-1997
+  - source/sahih-al-bukhari
+- type: basis_for
+  target: concept/al-ahruf-al-sabaa
+  sources:
+  - source/muwatta-maruf-1997
+  - source/sahih-al-bukhari
+sources:
+- source/muwatta-maruf-1997
+- source/sahih-al-bukhari
+- source/nashr-dahman-damascus-1345-v1
+- source/manahil-irfan-sabt
+provenance:
+  layer: own-research
+  source: الإتقان للسيوطي ط. مجمع الملك فهد، والنشر لابن الجزري ط. دهمان 1345هـ، وتهذيب مناهل العرفان لخالد السبت، وموطأ مالك ط. معروف؛ أرقام الصفحات علامات صفحات المسح كما في النص المقروء؛ نص الحديث كما في سجلي passage/muwatta-1-540 وpassage/bukhari-2419 المبنيين على النسختين المقروءتين
+  generated_by: Claude Code (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: qiraat-browser-sciences-1
+status:
+  review: published
+  completeness: 3
+  generated_by: Claude Code (claude-sonnet-5-5)
+importance: 2

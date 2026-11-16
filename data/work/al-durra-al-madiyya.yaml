@@ -1,17 +1,32 @@
 id: work/al-durra-al-madiyya
 class: work
 kind: book
-label: { ar: "الدرة المضية في القراءات الثلاث المرضية", en: "Al-Durra al-Madiyya" }
+label: { ar: "الدرة المضية في القراءات الثلاث المرضية", en: "Al-Durra al-Madiyya", ur: "الدرۃ المضیۃ فی القراءات الثلاث المرضیۃ" }
 summary:
-  ar: "بطاقة أولية لـالدرة المضية في القراءات الثلاث المرضية؛ لم تُراجع مصادرها على الصفحة بعد."
-  en: "Draft card for Al-Durra al-Madiyya; its sources are not yet checked on the page."
-wings: []
-sources: [source/al-aalam]
-external_ids: { wikidata: "Q111264552" }
+  ar: "منظومة لابن الجزري في القراءات الثلاث المرضية تتمة للعشرة، نظمها من «الهداية» وسمّاها «الدرة»، وتُعدّ مع «الشاطبية» متنين تتم بهما القراءات العشر الصغرى، وتذكر ترجمته أنه ألّفها وله ثماني عشرة سنة {cite:nashr-dahman-damascus-1345-v1 p. 8} {cite:tayyibat-nashr-zabi-2015 p. 7}."
+  en: "Ibn al-Jazari's poem on 'the three approved readings', completing the ten; he versified the Hidaya as the completion of the ten and called it al-Durra, and his biography says he composed it at eighteen; with the Shatibiyya it forms the pair of texts by which, in the editor's phrase, the ten lesser readings are completed {cite:nashr-dahman-damascus-1345-v1 p. 8} {cite:tayyibat-nashr-zabi-2015 p. 7}."
+  ur: "ابن الجزری کی «تین پسندیدہ قراءتوں» پر منظومہ جو دس کی تکمیل کرتی ہے؛ انہوں نے «الہدایہ» کو دس کی تتمہ کے طور پر منظوم کیا اور اس کا نام «الدرہ» رکھا، ان کے ترجمے کے مطابق انہوں نے اسے اٹھارہ سال کی عمر میں لکھا؛ «شاطبیہ» کے ساتھ یہ وہ دو متن ہیں جن سے، ناشر کے الفاظ میں، صغریٰ دس قراءتیں مکمل ہوتی ہیں {cite:nashr-dahman-damascus-1345-v1 p. 8} {cite:tayyibat-nashr-zabi-2015 p. 7}۔"
+genre: [quran-sciences]
+language: language/arabic
+authors: [person/ibn-al-jazari]
+structure: "Not read in verse: this record rests on the list of works in Dahman's edition of al-Nashr (scan p. 8) and the editor's preface to the Tayyiba (scan pp. 7-8)."
+wings: [words]
+themes: [scripture-and-its-sciences]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+tags: [qiraat-browser, qiraat-works, qiraat-readings, qiraat-readers]
+relations:
+  - { type: about, target: concept/qiraat, sources: [source/nashr-dahman-damascus-1345-v1] }
+  - { type: related_to, target: work/hirz-al-amani-wa-wajh-al-tahani, sources: [source/tayyibat-nashr-zabi-2015] }
+  - { type: related_to, target: work/tayyibat-al-nashr, sources: [source/tayyibat-nashr-zabi-2015] }
+sources: [source/al-aalam, source/nashr-dahman-damascus-1345-v1, source/tayyibat-nashr-zabi-2015]
+external_ids: {wikidata: Q111264552}
 provenance:
-  layer: own-research
+  layer: "own-research"
   source: "Wikidata candidate; work attested in bibliographies — entry not yet checked on the page"
   generated_by: "Devin (SWE-2 High)"
   model: "SWE-2 High"
-  run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  run: "wikidata-import-wave2"
+  enriched_by:
+    - {generated_by: Claude Code (claude-sonnet-5-5), model: claude-sonnet-5-5, run: qiraat-browser-scripts-works-1, source: source/nashr-dahman-damascus-1345-v1 scan p. 8; source/tayyibat-nashr-zabi-2015 scan pp. 7-8; scan page markers}
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5); first card by Devin (SWE-2 High)" }

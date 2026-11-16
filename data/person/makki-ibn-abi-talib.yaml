@@ -1,5 +1,6 @@
 id: person/makki-ibn-abi-talib
 class: person
+tags: [qiraat-browser, qiraat-people, qiraat-readers, qiraat-readings]
 label: { ar: "مكي بن أبي طالب", en: "Makki ibn Abi Talib" }
 born: { edtf: "0966", hijri: "0355", calendar: julian, precision: month, status: tradition, derived: true, note: "ولد بالقيروان عند طلوع الشمس أو قبل طلوعها بقليل من شعبان سنة خمس وخمسين وثلاثمائة، وقال أبو عمرو الداني: ولد سنة أربع وخمسين {cite:wafayat-ayan}." }
 died: { edtf: "1045", hijri: "0437", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي يوم السبت عند صلاة الفجر ودفن يوم الأحد ضحوة لليلتين خلتا من المحرم سنة سبع وثلاثين وأربعمائة بقرطبة ودفن بالربض، وصلى عليه ولده أبو الطيب محمد {cite:wafayat-ayan}." }
@@ -13,12 +14,15 @@ periods: [period/buyid-seljuk-fatimid-era]
 relations:
   - { type: lived_in, target: place/qayrawan, confidence: low, note: "Associated with القيروان per the record's own summary text; relation type pending review.", sources: [source/wafayat-ayan] }
 provenance:
+  enriched_by:
+    - { generated_by: "Claude Code (claude-sonnet-5-5)", model: claude-sonnet-5-5, run: qiraat-browser-people-1, source: "source/nashr-dahman-damascus-1345-v1: pages cited in the prose (page numbers are scan page markers; OCR errors not copied)" }
+    - { generated_by: "Claude Code (claude-sonnet-5-5)", model: claude-sonnet-5-5, run: qiraat-browser-people-1, source: "source/nashr-dahman-damascus-1345-v1: pages cited in the prose (page numbers are scan page markers; OCR errors not copied)" }
   layer: own-research
   source: "وفيات الأعيان لابن خلكان — الجزء الخامس (ترجمة مكي بن أبي طالب)، طبعة إحسان عباس، النص المقروء آلياً (djvu) من archive.org"
   generated_by: "Devin (SWE-2 High) from djvu OCR text"
   run: lib-wafayat-batch-23
-sources: [source/wafayat-ayan]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+sources: [source/wafayat-ayan, source/nashr-dahman-damascus-1345-v1]
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 High)" }
 occupations:
   - job: job/teacher
     kind: secondary

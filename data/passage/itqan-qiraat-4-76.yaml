@@ -1,0 +1,17 @@
+id: passage/itqan-qiraat-4-76
+class: passage
+unit: chapter
+work: work/al-itqan-fi-ulum-al-quran
+ref: "4:76"
+label: { ar: "الإتقان في علوم القرآن للسيوطي، المجلد المصوَّر 4، ص 76 — الأحرف السبعة، القراء", en: "al-Suyuti's al-Itqan fi 'Ulum al-Qur'an, scan volume 4, p. 76 — the seven ahruf; the readers", ur: "الاتقان فی علوم القرآن، سیوطی، اسکین جلد 4، ص 76 — سبعہ احرف، قراء" }
+text: "الإتقان في علوم القرآن-السيوطي وهوجهل قبيح. تنبيه اختلف هل المصاحف العثمانية مشتملة على جميع الأحرف السبعة؟ فذهب جماعة من الفقهاء مل نقل شيء منها، وقد أجمع والقراء والمتكلمين إلى غير ذلك، وبنوا عليه أنه لا يجوز على الأمة أن الصحابة …"
+summary:
+  ar: "مقطع من الإتقان في علوم القرآن للسيوطي، المجلد المصوَّر 4، ص 76، يذكر الأحرف السبعة، والقراء، وجمع القرآن والمصاحف؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح قراءات القرآن والرسم والخطوط والضبط."
+  en: "An excerpt from al-Suyuti's al-Itqan fi 'Ulum al-Qur'an, scan volume 4, p. 76, that mentions the seven ahruf, the readers, the collection of the Qur'an and the codices; from the machine-read scan, quoted within forty words per the sources policy. The browser of the museum for how the Qur'an was read and written lists it."
+  ur: "الاتقان فی علوم القرآن، سیوطی، اسکین جلد 4، ص 76 کا اقتباس جس میں سبعہ احرف، قراء، جمعِ قرآن اور مصاحف کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ قراءات، رسم، خطوط اور نقطوں کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/qiraat, sources: [source/itqan-suyuti] }
+  - { type: mentions, target: concept/mushaf, sources: [source/itqan-suyuti] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan quran-sciences/itqan/alfirdwsiy2018_gmail_1110_201809, page 76; a window of at most 40 words chosen by the qira'at detector (scripts/qiraat.ts); OCR text not corrected", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "qiraat-ocr-1" }
+sources: [source/itqan-suyuti]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-sonnet-5-5) from the OCR'd book; label and summary are the museum's own words" }

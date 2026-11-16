@@ -12,6 +12,9 @@ themes: [scripture-and-its-sciences, arts-of-the-book]
 holding_institution: "BnF + National Library of Russia"
 external_ids:
   wikidata: Q16939517
+tags: [qiraat-browser, qiraat-mushafs, qiraat-codex, qiraat-khatt]
+relations:
+  - { type: exemplifies, target: concept/hijazi-script, sources: [source/wikidata] }
 sources: [source/wikidata]
 status:
   review: draft

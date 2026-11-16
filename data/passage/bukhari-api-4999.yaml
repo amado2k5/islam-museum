@@ -1,0 +1,16 @@
+id: passage/bukhari-api-4999
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "4999"
+label: { ar: "صحيح البخاري 4999 — القراء", en: "Sahih al-Bukhari 4999 — the readers", ur: "صحیح بخاری 4999 — قراء" }
+text: "حَدَّثَنَا حَفْصُ بْنُ عُمَرَ، حَدَّثَنَا شُعْبَةُ، عَنْ عَمْرٍو، عَنْ إِبْرَاهِيمَ، عَنْ مَسْرُوقٍ، ذَكَرَ عَبْدُ اللَّهِ بْنُ عَمْرٍو عَبْدَ اللَّهِ بْنَ مَسْعُودٍ فَقَالَ لاَ أَزَالُ أُحِبُّهُ سَمِعْتُ النَّبِيَّ يَقُولُ \" خُذُوا الْقُرْآنَ مِنْ أَرْبَعَةٍ مِنْ عَبْدِ اللَّهِ بْنِ مَسْعُودٍ وَسَالِمٍ وَمُعَاذٍ وَأُبَىِّ بْنِ كَعْبٍ \"."
+summary:
+  ar: "حديث في صحيح البخاري، رقم 4999، يذكر القراء. يجمعه متصفح قراءات القرآن والرسم والخطوط والضبط مع نصوص القرآن والسنة والسيرة والكتب في قراءات القرآن وكتابته."
+  en: "A report in Sahih al-Bukhari, no. 4999 (Virtues of the Qur'an), that mentions the readers. The browser of the museum for how the Qur'an was read and written lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on that subject."
+  ur: "صحیح بخاری کی حدیث نمبر 4999، جس میں قراء کا ذکر ہے۔ قراءات، رسم، خطوط اور نقطوں کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/qiraat, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 4999 (book 66 hadith 21); matn excerpt of at most 55 words chosen by the qira'at detector (scripts/qiraat.ts), honorific formulas left out", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "qiraat-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-sonnet-5-5) from the hadith-api Arabic edition; label and summary are the museum's own words" }

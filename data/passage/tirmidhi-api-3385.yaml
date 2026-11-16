@@ -1,0 +1,16 @@
+id: passage/tirmidhi-api-3385
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "3385"
+label: { ar: "جامع الترمذي 3385 — القراء", en: "Jami' al-Tirmidhi 3385 — the readers", ur: "جامع ترمذی 3385 — قراء" }
+text: "حَدَّثَنَا نَصْرُ بْنُ عَبْدِ الرَّحْمَنِ الْكُوفِيُّ، حَدَّثَنَا أَبُو قَطَنٍ، عَنْ حَمْزَةَ الزَّيَّاتِ، عَنْ أَبِي إِسْحَاقَ، عَنْ سَعِيدِ بْنِ جُبَيْرٍ، عَنِ ابْنِ عَبَّاسٍ، عَنْ أُبَىِّ بْنِ كَعْبٍ، أَنَّ رَسُولَ اللَّهِ كَانَ إِذَا ذَكَرَ أَحَدًا فَدَعَا لَهُ بَدَأَ بِنَفْسِهِ. قَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ غَرِيبٌ صَحِيحٌ وَأَبُو قَطَنٍ اسْمُهُ عَمْرُو بْنُ الْهَيْثَمِ."
+summary:
+  ar: "حديث في جامع الترمذي، رقم 3385، يذكر القراء. يجمعه متصفح قراءات القرآن والرسم والخطوط والضبط مع نصوص القرآن والسنة والسيرة والكتب في قراءات القرآن وكتابته."
+  en: "A report in Jami' al-Tirmidhi, no. 3385 (Chapters on Supplication), that mentions the readers. The browser of the museum for how the Qur'an was read and written lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on that subject."
+  ur: "جامع ترمذی کی حدیث نمبر 3385، جس میں قراء کا ذکر ہے۔ قراءات، رسم، خطوط اور نقطوں کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/qiraat, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 3385 (book 48 hadith 16); matn excerpt of at most 55 words chosen by the qira'at detector (scripts/qiraat.ts), honorific formulas left out", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "qiraat-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-sonnet-5-5) from the hadith-api Arabic edition; label and summary are the museum's own words" }

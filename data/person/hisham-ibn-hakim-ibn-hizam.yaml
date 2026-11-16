@@ -1,5 +1,6 @@
 id: person/hisham-ibn-hakim-ibn-hizam
 class: person
+tags: [qiraat-browser, qiraat-people, qiraat-ahruf]
 gender: male
 roles: [companion, transmitter]
 label:
@@ -18,6 +19,8 @@ periods:
 regions:
 - levant-iraq
 provenance:
+  enriched_by:
+    - { generated_by: "Claude Code (claude-sonnet-5-5)", model: claude-sonnet-5-5, run: qiraat-browser-people-1, source: "source/itqan-suyuti-calcutta-1852 scan pages 106 and 116 (page numbers are scan page markers; OCR errors not copied)" }
   layer: own-research
   source: "الموسوعة الفقهية الكويتية، نسخة نور بوك، ملحق تراجم الفقهاء، ص 6457 من المسح"
   generated_by: "Claude Haiku 5.5"
@@ -29,8 +32,8 @@ relations:
   - { type: member_of, target: group/sahaba, sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3]}
   - { type: member_of, target: group/quraysh, note: "of Banu Asad ibn Abd al-Uzza, nephew of Khadija (al-Isaba p. 1544)", sources: [source/ibn-hajar-isaba] }
 
-sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3, source/ibn-hajar-isaba]
-status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5; moved from concept to person class (decision for all windows); complete entry on scan p.6457. Death given as after 15 AH in the book (printed as an open date). The martyrdom at Ajnadayn is attributed by the book to Abu Nu'aym and is not confirmed here. Jizya anecdote is the book's own, to be checked against a second source before a dated claim." }
+sources: [source/fiqh-mawsua-kuwaitiyya-noor-v3, source/ibn-hajar-isaba, source/itqan-suyuti-calcutta-1852]
+status: { review: published, completeness: 2, generated_by: "Claude Haiku 5.5; moved from concept to person class (decision for all windows); complete entry on scan p.6457. Death given as after 15 AH in the book (printed as an open date). The martyrdom at Ajnadayn is attributed by the book to Abu Nu'aym and is not confirmed here. Jizya anecdote is the book's own, to be checked against a second source before a dated claim." }
 occupations:
   - job: job/muhaddith
     kind: primary

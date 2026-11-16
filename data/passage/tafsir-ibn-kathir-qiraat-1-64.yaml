@@ -1,0 +1,17 @@
+id: passage/tafsir-ibn-kathir-qiraat-1-64
+class: passage
+unit: chapter
+work: work/tafsir-ibn-kathir
+ref: "1:64"
+label: { ar: "تفسير ابن كثير، المجلد المصوَّر 1، ص 64 — جمع القرآن والمصاحف، رسم المصحف", en: "Ibn Kathir's Tafsir, scan volume 1, p. 64 — the collection of the Qur'an and the codices; the orthography of the mushaf", ur: "تفسیر ابن کثیر، اسکین جلد 1، ص 64 — جمعِ قرآن اور مصاحف، رسمِ مصحف" }
+text: "… المائدة:. - واشتهر معلئه كذلك بالتوقف فيما لا يعلم تفسيره وتأويله من القرآن الكريم. عثمان بن عفان ملئضه: هو عثمان بن عفان بن أبي العاص الأموي، ذو النورين أمير المؤمنين، وفضائله في جمع الناس علىٰ المصحف الإمام مشهورة معلومة، وما …"
+summary:
+  ar: "مقطع من تفسير ابن كثير، المجلد المصوَّر 1، ص 64، يذكر جمع القرآن والمصاحف، ورسم المصحف؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح قراءات القرآن والرسم والخطوط والضبط."
+  en: "An excerpt from Ibn Kathir's Tafsir, scan volume 1, p. 64, that mentions the collection of the Qur'an and the codices, the orthography of the mushaf; from the machine-read scan, quoted within forty words per the sources policy. The browser of the museum for how the Qur'an was read and written lists it."
+  ur: "تفسیر ابن کثیر، اسکین جلد 1، ص 64 کا اقتباس جس میں جمعِ قرآن اور مصاحف، رسمِ مصحف کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ قراءات، رسم، خطوط اور نقطوں کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/mushaf, sources: [source/tafsir-ibn-kathir] }
+  - { type: mentions, target: concept/rasm-al-quran, sources: [source/tafsir-ibn-kathir] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan tafsir/tafsir-ibn-kathir/0012994, page 64; a window of at most 40 words chosen by the qira'at detector (scripts/qiraat.ts); OCR text not corrected", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "qiraat-ocr-1" }
+sources: [source/tafsir-ibn-kathir]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-sonnet-5-5) from the OCR'd book; label and summary are the museum's own words" }

@@ -11,3 +11,7 @@ Abu Abd al-Rahman al-Khalil ibn Ahmad ibn Amr ibn Tamim al-Farahidi, one of the 
 It is considered likely that he originated many of the scientific concepts of grammar and linguistic analysis. Al-Mas'udi, citing al-Jahiz's Hashimite Epistle, says that he wrote a book on rhythm and the structure of sounds, and a book on speech. {cite:muruj-al-dhahab p. 677-678}
 
 Ibn al-Nadim says that the principles and the questions in the book of Sibawayh are his, that he was the teacher of Sibawayh who took grammar from him, and that he himself took from Isa ibn Umar al-Thaqafi. {cite:fihrist-ibn-al-nadim p. 110,142-143}
+
+## On the signs of the vowel marking
+
+After setting out the disagreement over who first introduced vowel signs and dots, al-Suyuti states that the first to introduce the signs for hamza, shadda, rawm and ishmam was al-Khalil. {cite:itqan-suyuti-calcutta-1852 p. 868}

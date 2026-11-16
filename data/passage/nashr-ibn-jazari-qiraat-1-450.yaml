@@ -1,0 +1,17 @@
+id: passage/nashr-ibn-jazari-qiraat-1-450
+class: passage
+unit: chapter
+work: work/al-nashr-fi-al-qiraat-al-ashr
+ref: "1:450"
+label: { ar: "النشر في القراءات العشر لابن الجزري، المجلد المصوَّر 1، ص 450 — قراءات القرآن، جمع القرآن والمصاحف", en: "Ibn al-Jazari's al-Nashr fi al-Qira'at al-'Ashr, scan volume 1, p. 450 — the readings of the Qur'an; the collection of the Qur'an and the codices", ur: "النشر فی القراءات العشر، ابن الجزری، اسکین جلد 1، ص 450 — قرآن کی قراءتیں، جمعِ قرآن اور مصاحف" }
+text: "… على ان اتباع الخط ليس بواجب ليقرأ القارئ بالاثبات في موضع الحذف، وبالحذف في موضع الاثبات اذا كان ذلك من وجوه القراآت وكذلك حذفت صورة الهمزة من : امتلات في اكثر المصاحف تخفيفاً. وكذلك استاجره، واستاجرت فيما ذكره ابو داود …"
+summary:
+  ar: "مقطع من النشر في القراءات العشر لابن الجزري، المجلد المصوَّر 1، ص 450، يذكر قراءات القرآن، وجمع القرآن والمصاحف؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح قراءات القرآن والرسم والخطوط والضبط."
+  en: "An excerpt from Ibn al-Jazari's al-Nashr fi al-Qira'at al-'Ashr, scan volume 1, p. 450, that mentions the readings of the Qur'an, the collection of the Qur'an and the codices; from the machine-read scan, quoted within forty words per the sources policy. The browser of the museum for how the Qur'an was read and written lists it."
+  ur: "النشر فی القراءات العشر، ابن الجزری، اسکین جلد 1، ص 450 کا اقتباس جس میں قرآن کی قراءتیں، جمعِ قرآن اور مصاحف کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ قراءات، رسم، خطوط اور نقطوں کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/qiraat, sources: [source/nashr-dahman-damascus-1345-v1] }
+  - { type: mentions, target: concept/mushaf, sources: [source/nashr-dahman-damascus-1345-v1] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan quran-sciences/nashr-ibn-jazari/nashrqraatashr, page 450; a window of at most 40 words chosen by the qira'at detector (scripts/qiraat.ts); OCR text not corrected", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "qiraat-ocr-1" }
+sources: [source/nashr-dahman-damascus-1345-v1]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-sonnet-5-5) from the OCR'd book; label and summary are the museum's own words" }

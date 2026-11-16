@@ -44,3 +44,7 @@ Mu'adh ibn Jabal ibn Amr al-Awsi al-Khazraji is among the most learned of the An
 ## From Sheikh Omar Abdelkafy's Sharh Ketab Al-Fawaed lectures (episode 7)
 
 The Sheikh says the Prophet told Mu'adh "by God, I love you", then taught him seeking forgiveness, remembrance and gratitude. {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep7 00:30:30} ⁦(needs_source: the recording wording is partly garbled)⁩
+
+## Named by al-Suyuti among the collectors and the narrators of the ahruf
+
+Al-Suyuti, citing al-Bukhari, reports that Anas ibn Malik counted Mu'adh ibn Jabal among the four Ansar who had collected the Qur'an in the Prophet's lifetime, with Ubayy ibn Ka'b, Zayd ibn Thabit and Abu Zayd, and then sets out al-Mazari's point that this count does not prove that nobody else had done so. {cite:itqan-suyuti-calcutta-1852 p. 167} He also counts Mu'adh among the twenty-one Companions who narrated the hadith that the Qur'an was sent down in seven ahruf. {cite:itqan-suyuti-calcutta-1852 p. 106}

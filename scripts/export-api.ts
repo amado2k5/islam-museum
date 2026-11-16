@@ -15,6 +15,7 @@ import { DREAM_TAG, dreamCorpusOf, dreamTagSection, isDreamPassage } from "./dre
 import { madhahibMembers } from "./madhahib.js";
 import { BAYT_TAG, baytCorpusOf, baytTagSection, isBaytPassage } from "./bayt.js";
 import { MAGIC_TAG, magicCorpusOf, magicTagSection, magicTagTopics, isMagicPassage, magicTopicsOf } from "./magic.js";
+import { QIRAAT_TAG, qiraatCorpusOf, qiraatTagSection, qiraatTagTopics, isQiraatPassage, qiraatTopicsOf } from "./qiraat.js";
 import { COSMOS_TAG, cosmosCorpusOf, cosmosTagSection, cosmosTagTopics, isCosmosPassage, cosmosTopicsOf } from "./cosmos.js";
 import { ESCH_TAG, eschCorpusOf, eschTagSection, eschTagTopics, isEschatologyPassage, eschatologyTopicsOf, signStepOf } from "./eschatology.js";
 import { MESSENGERS_TAG, MESSENGER_SECTIONS, MESSENGER_SUBJECTS, MESSENGER_SUBJECT_SET, messengerTopicsOf, messengerCorpusOf, messengerTagSection, type MessengerTopic } from "./messengers.js";
@@ -429,6 +430,16 @@ const FEATURE_EXPORTS: { file: string; feature: string; pick: (n: Node) => boole
         ? cosmosCorpusOf(n.data.work as string | undefined, byId?.get(n.data.work as string)?.data.genre as string[] | undefined, n.data.unit as string | undefined)
         : cosmosTagSection(n),
       topics: n.class === "passage" ? [...new Set([...cosmosTopicsOf(n), ...cosmosTagTopics(n)])] : cosmosTagTopics(n),
+    }) },
+  { file: "qiraat.json", feature: "qiraat-browser",
+    // the readings, the codices, the rasm, the dotting and the scripts (docs/plan/60-qiraat-browser.md): the same records the page shows
+    pick: (n) => n.tags.includes(QIRAAT_TAG) || isQiraatPassage(n),
+    fields: ["kind", "work", "ref", "unit", "text", "sura", "aya", "wings", "themes", "tags"],
+    extra: (n, ef, byId) => ({
+      section: n.class === "passage"
+        ? qiraatCorpusOf(n.data.work as string | undefined, byId?.get(n.data.work as string)?.data.genre as string[] | undefined, n.data.unit as string | undefined)
+        : qiraatTagSection(n),
+      topics: n.class === "passage" ? [...new Set([...qiraatTopicsOf(n), ...qiraatTagTopics(n)])] : qiraatTagTopics(n),
     }) },
   { file: "jinn-devils.json", feature: "jinn-devils-browser",
     // the same records the page shows (site/src/lib/jinn-devils.ts), each saying which accounts it belongs to (`sections`)

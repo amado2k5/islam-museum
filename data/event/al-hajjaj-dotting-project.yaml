@@ -1,0 +1,71 @@
+id: event/al-hajjaj-dotting-project
+class: event
+kind: other
+label:
+  ar: مشروع الحجاج بأمر عبد الملك في إعجام المصحف
+  en: Al-Hajjaj's project, ordered by Abd al-Malik, of dotting the codex
+  ur: عبد الملک کے حکم سے حجاج کا مصحف کے اعجام کا منصوبہ
+summary:
+  ar: "رأى عبد الملك بن مروان أن اللبس في قراءة المصاحف غير المعجمة يشق على الناس مع اختلاط العرب بالعجم، فأمر الحجاج أن يُعنى بالأمر، فندب نصر بن عاصم الليثي ويحيى بن يعمر العدواني، تلميذي أبي الأسود، فأعجما المصحف ونقطا الحروف المتشابهة بما لا يزيد على ثلاث نقاط في الحرف {cite:manahil-irfan-sabt p. 328} {cite:manahil-irfan-sabt p. 329}."
+  en: "Abd al-Malik ibn Marwan saw that the confusion in reading undotted codices burdened people as Arabs mixed with non-Arabs, and ordered al-Hajjaj to take the matter in hand; he commissioned Nasr ibn Asim al-Laythi and Yahya ibn Ya'mar al-Adwani, students of Abu al-Aswad, who dotted the codex and marked the similar letters with no more than three dots on any letter {cite:manahil-irfan-sabt p. 328} {cite:manahil-irfan-sabt p. 329}."
+  ur: "عبد الملک بن مروان نے دیکھا کہ بغیر نقطوں کے مصاحف کے پڑھنے میں اشتباہ، عرب و عجم کے اختلاط کے ساتھ، لوگوں پر شاق ہے؛ انھوں نے حجاج کو حکم دیا کہ اس کی فکر کرے، اس نے ابو الاسود کے شاگردوں نصر بن عاصم لیثی اور یحییٰ بن یعمر عدوانی کو مقرر کیا، جنھوں نے مصحف کا اعجام کیا اور مشابہ حروف پر کسی حرف میں تین سے زیادہ نقطے نہ لگائے {cite:manahil-irfan-sabt p. 328} {cite:manahil-irfan-sabt p. 329}۔"
+wings:
+- time
+- people
+- words
+themes:
+- scripture-and-its-sciences
+- arts-of-the-book
+tags:
+- qiraat-browser
+- qiraat-sciences
+- qiraat-naqt
+- qiraat-khatt
+periods:
+- period/umayyad
+regions:
+- levant-iraq
+relations:
+- type: had_participant
+  target: person/abd-al-malik-ibn-marwan
+  role: الآمر
+  sources:
+  - source/manahil-irfan-sabt
+  - source/itqan-suyuti
+- type: had_participant
+  target: person/al-hajjaj-ibn-yusuf
+  role: المنفذ
+  sources:
+  - source/manahil-irfan-sabt
+  - source/itqan-suyuti
+- type: had_participant
+  target: person/nasr-ibn-asim
+  role: ناقط الحروف
+  sources:
+  - source/manahil-irfan-sabt
+  - source/itqan-suyuti
+- type: had_participant
+  target: person/yahya-ibn-yamur
+  role: ناقط الحروف
+  sources:
+  - source/manahil-irfan-sabt
+  - source/itqan-suyuti
+- type: basis_for
+  target: concept/naqt-al-ijam
+  sources:
+  - source/manahil-irfan-sabt
+  - source/itqan-suyuti
+sources:
+- source/manahil-irfan-sabt
+- source/itqan-suyuti
+provenance:
+  layer: own-research
+  source: الإتقان للسيوطي ط. مجمع الملك فهد، والنشر لابن الجزري ط. دهمان 1345هـ، وتهذيب مناهل العرفان لخالد السبت، وموطأ مالك ط. معروف؛ أرقام الصفحات علامات صفحات المسح كما في النص المقروء
+  generated_by: Claude Code (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: qiraat-browser-sciences-1
+status:
+  review: published
+  completeness: 3
+  generated_by: Claude Code (claude-sonnet-5-5)
+importance: 2

@@ -1,5 +1,6 @@
 id: person/warsh
 class: person
+tags: [qiraat-browser, qiraat-people, qiraat-readers, qiraat-readings]
 label:
   ar: "ورش"
   en: "Warsh"
@@ -14,13 +15,16 @@ periods: [period/abbasid-early]
 born: { edtf: "728", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala; Ma'rifat al-Qurra al-Kibar Agrees with Wikidata Q12250893 (P569, a statement without a reference), item revision 2554005406, read on 13 November 2026.", sources: [source/wikidata] }
 died: { edtf: "812", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Siyar A'lam al-Nubala; Ma'rifat al-Qurra al-Kibar Agrees with Wikidata Q12250893 (P570, a statement without a reference), item revision 2554005406, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
+  - { type: student_of, target: person/nafi-al-madani, confidence: high, note: "Ibn al-Jazari, al-Nashr, pp. 121-122: Warsh travelled to Medina and read on Nafi.", sources: [source/nashr-dahman-damascus-1345-v1] }
   - { type: born_in, target: place/qift, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q935454)" }
   - { type: died_in, target: place/al-fustat, sources: [source/wikidata], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q839456)" }
   - { type: buried_in, target: place/southern-cemetery, sources: [source/wikidata], confidence: medium, note: "Wikidata P119 place of burial (Wikidata Q98740785)" }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/nashr-dahman-damascus-1345-v1]
 external_ids:
   wikidata: Q12250893
 provenance:
+  enriched_by:
+    - { generated_by: "Claude Code (claude-sonnet-5-5)", model: claude-sonnet-5-5, run: qiraat-browser-people-1, source: "source/nashr-dahman-damascus-1345-v1: the biography sections of the ten readers and their transmitters in al-Nashr (scan pages as cited in the prose; page numbers are scan page markers, OCR errors not copied)" }
   layer: own-research
   source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.4 p.205)"
   generated_by: "Devin (SWE-2 Medium)"

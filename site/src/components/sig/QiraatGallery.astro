@@ -1,0 +1,127 @@
+---
+// "The art of Arabic writing" (Qira'at, Rasm, Scripts and Dotting Browser home): the scripts side by side, one image
+// each on a single strip so the eye can compare them, then a room per script with its images, and the celebrated
+// mushafs and the masters' hands. Every image is a media record of the graph that `depicts` the record beside it, with
+// its own credit, licence and details page; a script without an image is named beneath, not drawn. Nothing is typed
+// here: names, summaries, images and counts come from lib/qiraat.ts at build time, and the strip scrolls without
+// JavaScript (docs/site/signature-views.md, rules 1-6).
+import { ui, fmt, type Lang } from "../../lib/i18n";
+import { href, labelOf, stripNeedsSource } from "../../lib/graph";
+import { num } from "../../lib/nav";
+import { qiraatGallery, qiraatItems, type QiraatShown } from "../../lib/qiraat";
+import type { Node } from "../../../../scripts/build-graph";
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const T = ui(lang);
+const G = (T as any).qiraat;
+const V = G.gallery;
+const label = (n: Node) => labelOf(n, lang);
+const teaser = (n: Node, max = 260) => {
+  const s = stripNeedsSource(n.summary?.[lang] ?? n.summary?.ar ?? n.summary?.en ?? "").replace(/\s*\{cite:[^}]*\}/g, "").replace(/\[\[[^\]|]*\|([^\]]*)\]\]/g, "$1").replace(/\s+([.,؛،])/g, "$1").trim();
+  return s.length > max ? `${s.slice(0, max).replace(/\s+\S*$/, "")}…` : s;
+};
+const src = (m: Node) => String(m.data.thumbnail ?? m.data.url);
+const alt = (m: Node) => String(m.data.alt?.[lang] ?? m.data.alt?.en ?? m.data.alt?.ar ?? label(m));
+const { scripts, mushafs, hands } = qiraatGallery;
+const noImage = qiraatItems.filter((i) => i.section === "scripts" && !scripts.some((s) => s.node.id === i.node.id));
+const images = new Set([...scripts, ...mushafs, ...hands].flatMap((x) => x.images.map((m) => m.id))).size;
+const rooms: { id: string; title: string; lede: string; rows: QiraatShown[]; per: number }[] = [
+  { id: "g-scripts", title: V.scripts_title, lede: V.scripts_lede, rows: scripts, per: 3 },
+  { id: "g-mushafs", title: V.mushafs_title, lede: V.mushafs_lede, rows: mushafs, per: 2 },
+  { id: "g-hands", title: V.hands_title, lede: V.hands_lede, rows: hands, per: 2 },
+].filter((r) => r.rows.length > 0);
+---
+{rooms.length > 0 && (
+<section class="qg" aria-labelledby="qg-title">
+  <div data-pagefind-body>
+    <h2 id="qg-title">{V.title}</h2>
+    <p class="qg-lede">{V.lede}</p>
+    <p class="ui qg-count">{fmt(V.count, { n: num(images, lang), s: num(scripts.length, lang) })}</p>
+  </div>
+
+  {scripts.length > 1 && (
+    <div class="qg-compare" role="group" aria-label={V.compare_title}>
+      <h3 class="ui qg-h3">{V.compare_title}</h3>
+      <p class="ui qg-hint">{V.compare_hint}</p>
+      <ul class="qg-strip" role="list" tabindex="0" aria-label={V.compare_title}>
+        {scripts.map((s) => (
+          <li>
+            <a href={`#qg-${s.node.id.replace("/", "-")}`} class="qg-tile">
+              <img src={src(s.images[0])} alt={alt(s.images[0])} loading="lazy" decoding="async" />
+              <span class="qg-name">{label(s.node)}</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  )}
+
+  {rooms.map((room) => (
+    <div class="qg-room">
+      <h3 id={room.id} class="qg-room-title">{room.title}</h3>
+      <p class="qg-room-lede">{room.lede}</p>
+      {room.rows.map((s) => (
+        <article class="qg-row" id={room.id === "g-scripts" ? `qg-${s.node.id.replace("/", "-")}` : undefined}>
+          <div class="qg-text">
+            <h4><a href={href(lang, s.node.id)}>{label(s.node)}</a></h4>
+            <p dir="auto">{teaser(s.node)}</p>
+            <p class="ui"><a href={href(lang, s.node.id)}>{V.read_more} ›</a></p>
+          </div>
+          <div class="qg-figs">
+            {s.images.slice(0, room.per).map((m) => (
+              <figure>
+                <a href={href(lang, m.id)} aria-label={`${V.details}: ${label(m)}`}>
+                  <img src={src(m)} alt={alt(m)} loading="lazy" decoding="async" />
+                </a>
+                <figcaption class="ui">
+                  <span dir="auto">{label(m)}</span>
+                  <span class="qg-credit" dir="auto">{m.data.attribution} · {T.figure.licence}: {m.data.license}</span>
+                </figcaption>
+              </figure>
+            ))}
+          </div>
+        </article>
+      ))}
+    </div>
+  ))}
+  {noImage.length > 0 && (
+    <p class="ui qg-none">{V.no_image} {noImage.map((i, k) => <>{k > 0 && " · "}<a href={href(lang, i.node.id)}>{label(i.node)}</a></>)}</p>
+  )}
+</section>
+)}
+<style>
+  /* a dark hall in both themes, so the gold, ink and parchment of the folios carry the page */
+  .qg { margin: 2.2rem 0 0; padding: clamp(18px, 4vw, 40px); border-radius: 18px; background: #14110d; color: #f1e9d8; border: 1px solid #5f4c22; }
+  .qg :global(a) { color: #e8c85a; }
+  .qg h2 { margin: 0 0 .4rem; color: #f6ecd2; font-size: clamp(1.5rem, 3.2vw, 2.2rem); }
+  .qg-lede { max-width: var(--measure); font-size: 1.12rem; line-height: 1.8; margin: 0 0 .6rem; color: #e6dcc6; }
+  .qg-count { margin: 0 0 1.4rem; color: #cdbf9f; font-size: .9rem; }
+  .qg-h3 { margin: 0 0 .2rem; font-size: 1rem; color: #e8c85a; letter-spacing: .02em; }
+  .qg-hint { margin: 0 0 .7rem; font-size: .85rem; color: #cdbf9f; }
+  .qg-strip { list-style: none; margin: 0; padding: 0 0 12px; display: flex; gap: 14px; overflow-x: auto; scroll-snap-type: x proximity; }
+  .qg-strip:focus-visible { outline: 3px solid #e8c85a; outline-offset: 4px; }
+  .qg-strip li { flex: 0 0 auto; scroll-snap-align: start; }
+  .qg-tile { position: relative; display: block; inline-size: clamp(170px, 24vw, 240px); block-size: clamp(230px, 32vw, 320px); border-radius: 12px; overflow: hidden; border: 1px solid #5f4c22; background: #221c13; }
+  .qg-tile img { inline-size: 100%; block-size: 100%; object-fit: cover; display: block; }
+  .qg-name { position: absolute; inset-inline: 0; inset-block-end: 0; padding: 26px 12px 10px; background: linear-gradient(transparent, rgba(10, 8, 5, .92)); color: #f6ecd2; font-weight: 600; font-size: 1rem; text-align: center; }
+  .qg-tile:focus-visible { outline: 3px solid #e8c85a; outline-offset: 2px; }
+  .qg-room { margin-top: 2.4rem; }
+  .qg-room-title { margin: 0 0 .3rem; font-size: 1.35rem; color: #f6ecd2; padding-block-end: .4rem; border-block-end: 1px solid #5f4c22; }
+  .qg-room-lede { max-width: var(--measure); margin: .5rem 0 1.2rem; color: #cdbf9f; }
+  .qg-row { display: grid; grid-template-columns: minmax(220px, 1fr) minmax(0, 2.2fr); gap: 22px; padding: 22px 0; border-block-end: 1px solid #332a18; scroll-margin-top: 90px; }
+  .qg-row:last-child { border-block-end: 0; }
+  .qg-text h4 { margin: 0 0 .5rem; font-size: 1.25rem; }
+  .qg-text h4 :global(a) { color: #f6ecd2; text-decoration: none; }
+  .qg-text h4 :global(a:hover) { text-decoration: underline; }
+  .qg-text p { margin: 0 0 .6rem; line-height: 1.8; color: #e0d6bf; }
+  .qg-figs { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 14px; align-items: start; }
+  .qg-figs figure { margin: 0; }
+  .qg-figs img { display: block; inline-size: 100%; block-size: clamp(200px, 26vw, 300px); object-fit: cover; border-radius: 10px; border: 1px solid #5f4c22; background: #221c13; }
+  .qg-figs a:focus-visible img { outline: 3px solid #e8c85a; outline-offset: 2px; }
+  .qg-figs figcaption { margin-top: 6px; font-size: .78rem; line-height: 1.5; color: #e0d6bf; display: grid; gap: 2px; }
+  .qg-credit { color: #b3a585; overflow-wrap: anywhere; }
+  .qg-none { margin: 1.4rem 0 0; font-size: .88rem; color: #cdbf9f; }
+  @media (max-width: 720px) { .qg-row { grid-template-columns: 1fr; } }
+  @media (prefers-reduced-motion: no-preference) { .qg-tile img, .qg-figs img { transition: transform .5s ease; } .qg-tile:hover img, .qg-figs a:hover img { transform: scale(1.04); } }
+</style>

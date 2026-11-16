@@ -1,0 +1,28 @@
+id: person/ruways-muhammad-ibn-al-mutawakkil
+class: person
+tags: [qiraat-browser, qiraat-people, qiraat-readers, qiraat-readings]
+label: { ar: "رويس محمد بن المتوكل", en: "Ruways, Muhammad ibn al-Mutawakkil", ur: "رویس محمد بن المتوکل" }
+names:
+  - { kind: full, lang: ar, value: "محمد بن المتوكل اللؤلؤي البصري المعروف برويس" }
+roles: [scholar, teacher]
+gender: male
+traditions: [sunni]
+summary:
+  ar: "محمد بن المتوكل اللؤلؤي البصري المعروف برويس، راوي قراءة يعقوب الحضرمي؛ توفي بالبصرة سنة 238هـ، وكان إماماً في القراءة قيّماً بها ماهراً ضابطاً مشهوراً حاذقاً، ونقل ابن الجزري عن الداني أنه من أحذق أصحاب يعقوب {cite:nashr-dahman-damascus-1345-v1 p. 197}."
+  en: "Muhammad ibn al-Mutawakkil al-Lu'lu'i of Basra, known as Ruways, transmitter of the reading of Ya'qub al-Hadrami; he died in Basra in 238 AH. Ibn al-Jazari calls him an imam of the reading, skilled, exact and famous, and quotes al-Dani that he was among the most skilled of Ya'qub's companions {cite:nashr-dahman-damascus-1345-v1 p. 197}."
+  ur: "محمد بن المتوکل لؤلؤی بصری، رویس کے نام سے مشہور، یعقوب حضرمی کی قراءت کے راوی؛ 238ھ میں بصرہ میں فوت ہوئے۔ ابن الجزری انہیں قراءت کا امام، ماہر، ضابط اور مشہور کہتے ہیں اور دانی سے نقل کرتے ہیں کہ وہ یعقوب کے سب سے ماہر ساتھیوں میں تھے {cite:nashr-dahman-damascus-1345-v1 p. 197}."
+wings: [people]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+died: { edtf: "0852", hijri: "0238", calendar: julian, precision: year, status: tradition, derived: true, note: "Year as printed in al-Nashr; Julian year derived by tabular conversion.", sources: [source/nashr-dahman-damascus-1345-v1] }
+relations:
+  - { type: student_of, target: person/yaqub-al-hadrami, confidence: high, note: "Ibn al-Jazari, al-Nashr, p. 196: Ruways and Rawh read on Yaqub al-Hadrami.", sources: [source/nashr-dahman-damascus-1345-v1] }
+  - { type: lived_in, target: place/basra, confidence: high, note: "Ibn al-Jazari, al-Nashr, p. 197: he died in Basra.", sources: [source/nashr-dahman-damascus-1345-v1] }
+sources: [source/nashr-dahman-damascus-1345-v1]
+provenance:
+  layer: own-research
+  source: "al-Nashr fi al-Qira'at al-Ashr (Ibn al-Jazari), Dahman ed., Damascus 1345 AH, vol. 1: the biography sections (tarjamat) of the ten readers and their transmitters, read in the Apple-Vision OCR of the harvest scan (books/quran-sciences/nashr-ibn-jazari/nashrqraatashr); page numbers are scan page markers (PDF pages), OCR errors not copied"
+  generated_by: "Claude Code (claude-sonnet-5-5)"
+  model: claude-sonnet-5-5
+  run: qiraat-browser-people-1
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5)" }

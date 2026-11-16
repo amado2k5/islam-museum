@@ -9,7 +9,7 @@ provenance:
   generated_by: "Claude Code (OCR-harvest worker I)"
   model: claude-opus-5-5
   run: ocr-harvest-2026-11-04
-  source: "source/ekhtiar-how-to-read-islamic-calligraphy-2018 scan pp. 23, 24, 32"
+  source: "source/ekhtiar-how-to-read-islamic-calligraphy-2018 scan pp. 23, 24, 32; sections appended by Claude Code (claude-sonnet-5-5), run qiraat-browser-scripts-works-1: source/subh-al-asha-cairo-v3 scan p. 15; source/blair-islamic-calligraphy-2006 scan p. 171 (printed 131)"
   translator_of: content/ar/concept/kufic-script.md
 ---
 ## خلاصہ
@@ -20,3 +20,6 @@ provenance:
 
 ## کوفی مصاحف
 آٹھویں سے دسویں صدی کے مصاحف زیادہ تر چرمی ورق پر، عمودی، مربع اور افقی شکلوں میں لکھے گئے؛ آٹھویں صدی کے دوسرے نصف سے کم سطروں والی افقی شکل معمول بن گئی۔ اکثر ابتدائی کوفی مصاحف پانچ تہ شدہ ورقوں کی جزوں سے بنتے، چمڑے میں جلد ہوتے اور صندوقوں میں رکھے جاتے۔ {cite:ekhtiar-how-to-read-islamic-calligraphy-2018 p. 23} میٹ میں ایک عباسی مصحف کے دوہرے ورق پر موٹے کوفی کی سات سطریں ہیں؛ حروف کا افقی کھنچاؤ شاید قاری کو حرف یا لفظ لمبا کرنے کا اشارہ بھی تھا، حرکات سرخ یا سبز نقطے ہیں اور اعجام کے نقطے اکثر غائب ہیں۔ {cite:ekhtiar-how-to-read-islamic-calligraphy-2018 p. 32} [[concept/new-style-script|نئے طرز]] اور گول خطوط کے بعد کوفی سورتوں کے عنوانات جیسی تزئین تک محدود ہو گیا۔ {cite:ekhtiar-how-to-read-islamic-calligraphy-2018 p. 24}
+
+## قلقشندی اور بلیئر کے ہاں
+قلقشندی «الابحاث الجمیلہ» کے مصنف سے نقل کرتے ہیں کہ عربی خط وہی ہے جو اب کوفی کہلاتا ہے اور موجودہ اقلام اسی سے اخذ ہوئے، اور ابن الحسین سے کہ کوفی کے کئی اقلام ہیں جو دو اصلوں، تقویر اور بسط، کی طرف لوٹتے ہیں۔ {cite:subh-al-asha-cairo-v3 p. 15} وہ اس رائے کی تردید کرتے ہیں کہ ابن مقلہ اس کے پہلے موجد تھے، اور کہتے ہیں کہ انہیں دو سو ہجری سے پہلے کے اگلوں کے ہاتھ کی ایسی کتابیں ملتی ہیں جو کوفی کی شکل پر نہیں بلکہ اس سے ان قائم شدہ شکلوں کی طرف بدلتی ہیں، اگرچہ کوفی کی طرف زیادہ مائل ہیں کیونکہ اس سے نقل کے قریب ہیں۔ {cite:subh-al-asha-cairo-v3 p. 15} بلیئر لکھتی ہیں کہ لفظ «کوفی» دسویں صدی میں پہلے ہی رائج تھا۔ {cite:blair-islamic-calligraphy-2006 p. 171}

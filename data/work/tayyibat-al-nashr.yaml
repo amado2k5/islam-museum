@@ -1,17 +1,32 @@
 id: work/tayyibat-al-nashr
 class: work
 kind: book
-label: { ar: "طيبة النشر في القراءات العشر", en: "Tayyibat al-Nashr" }
+label: { ar: "طيبة النشر في القراءات العشر", en: "Tayyibat al-Nashr", ur: "طیبۃ النشر فی القراءات العشر" }
 summary:
-  ar: "بطاقة أولية لـطيبة النشر في القراءات العشر؛ لم تُراجع مصادرها على الصفحة بعد."
-  en: "Draft card for Tayyibat al-Nashr; its sources are not yet checked on the page."
-wings: []
-sources: [source/al-aalam]
-external_ids: { wikidata: "Q12221979" }
+  ar: "منظومة ابن الجزري في القراءات العشر الكبرى، تكمل بها «الشاطبية» و«الدرة» القراءات المتواترة بحسب مقدمة الناشر؛ تقتصر على راويين لكل إمام من القراء العشرة وطريقين لكل راوٍ، مغربية ومشرقية، ويقول الضابط إن في الطيبة ثمانين طريقًا محققة تتشعب إلى تسعمائة وثمانين، ويعدّها صاحب التعريف بابن الجزري من مصنفاته {cite:tayyibat-nashr-zabi-2015 p. 7} {cite:tayyibat-nashr-zabi-2015 p. 8} {cite:nashr-dahman-damascus-1345-v1 p. 8}."
+  en: "Ibn al-Jazari's poem on the ten readings, the 'greater' counterpart to the Shatibiyya and al-Durra, which according to its modern editor together complete the mutawatir readings; it limits itself to two transmitters for each of the ten imams and two paths for each transmitter, western and eastern, and the editor counts eighty verified paths branching into nine hundred and eighty; the biography of Ibn al-Jazari lists it among his works {cite:tayyibat-nashr-zabi-2015 p. 7} {cite:tayyibat-nashr-zabi-2015 p. 8} {cite:nashr-dahman-damascus-1345-v1 p. 8}."
+  ur: "ابن الجزری کی قراءاتِ عشر کبریٰ پر منظومہ، جو ناشر کے مقدمے کے مطابق «شاطبیہ» اور «درہ» کے ساتھ مل کر متواتر قراءتیں مکمل کرتی ہے؛ وہ دس ائمہ میں سے ہر ایک کے دو راوی اور ہر راوی کے دو طریق، مغربی اور مشرقی، تک محدود رہتی ہے، اور ضابط کے شمار میں اس میں اسّی محقق طرق ہیں جو نو سو اسّی تک پھیلتے ہیں؛ ابن الجزری کے ترجمے میں اسے ان کی تصانیف میں گنا گیا ہے {cite:tayyibat-nashr-zabi-2015 p. 7} {cite:tayyibat-nashr-zabi-2015 p. 8} {cite:nashr-dahman-damascus-1345-v1 p. 8}۔"
+genre: [quran-sciences]
+language: language/arabic
+authors: [person/ibn-al-jazari]
+structure: "Not read in verse: this record rests on the editor's prefaces of the 2015 printing (scan pp. 4-8) and the list of works in Dahman's edition of al-Nashr (scan p. 8)."
+wings: [words]
+themes: [scripture-and-its-sciences]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+tags: [qiraat-browser, qiraat-works, qiraat-readings, qiraat-readers]
+relations:
+  - { type: about, target: concept/qiraat, sources: [source/tayyibat-nashr-zabi-2015] }
+  - { type: related_to, target: work/al-nashr-fi-al-qiraat-al-ashr, sources: [source/nashr-dahman-damascus-1345-v1] }
+  - { type: related_to, target: work/hirz-al-amani-wa-wajh-al-tahani, sources: [source/tayyibat-nashr-zabi-2015] }
+sources: [source/al-aalam, source/tayyibat-nashr-zabi-2015, source/nashr-dahman-damascus-1345-v1]
+external_ids: {wikidata: Q12221979}
 provenance:
-  layer: own-research
+  layer: "own-research"
   source: "Wikidata candidate; work attested in bibliographies — entry not yet checked on the page"
   generated_by: "Devin (SWE-2 High)"
   model: "SWE-2 High"
-  run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  run: "wikidata-import-wave2"
+  enriched_by:
+    - {generated_by: Claude Code (claude-sonnet-5-5), model: claude-sonnet-5-5, run: qiraat-browser-scripts-works-1, source: source/tayyibat-nashr-zabi-2015 scan pp. 1-8; source/nashr-dahman-damascus-1345-v1 scan p. 8; scan page markers}
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5); first card by Devin (SWE-2 High)" }

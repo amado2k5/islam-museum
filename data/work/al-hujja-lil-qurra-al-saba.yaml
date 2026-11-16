@@ -1,17 +1,31 @@
 id: work/al-hujja-lil-qurra-al-saba
 class: work
 kind: book
-label: { ar: "الحجة للقراء السبعة", en: "Al-Hujja lil-Qurra' al-Sab'a" }
+label: { ar: "الحجة للقراء السبعة", en: "Al-Hujja lil-Qurra' al-Sab'a", ur: "الحجۃ للقراء السبعہ" }
 summary:
-  ar: "بطاقة أولية لـالحجة للقراء السبعة؛ لم تُراجع مصادرها على الصفحة بعد."
-  en: "Draft card for Al-Hujja lil-Qurra' al-Sab'a; its sources are not yet checked on the page."
-wings: []
-sources: [source/al-aalam]
-external_ids: { wikidata: "Q111750058" }
+  ar: "كتاب أبي علي الحسن بن أحمد الفارسي النحوي ⁦(ت 377هـ)⁩ في توجيه القراءات السبع، وهو شرح لـ«سبعة» ابن مجاهد وهو مطبوع، يذكره السيوطي أول الكتب التي سمّاها في توجيه القراءات {cite:itqan-suyuti p. 536}."
+  en: "Abu 'Ali al-Hasan ibn Ahmad al-Farisi's (d. 377 AH) book on the grounds of the seven readings, a printed commentary on Ibn Mujahid's Sab'a; al-Suyuti names it first among the books devoted to explaining the readings {cite:itqan-suyuti p. 536}."
+  ur: "ابو علی حسن بن احمد فارسی نحوی ⁦(م 377ھ)⁩ کی سات قراءتوں کی توجیہ پر کتاب، جو ابن مجاہد کی «السبعہ» کی مطبوع شرح ہے؛ سیوطی اسے قراءات کی توجیہ کے لیے مخصوص کتابوں میں پہلے ذکر کرتے ہیں {cite:itqan-suyuti p. 536}۔"
+genre: [quran-sciences]
+language: language/arabic
+authors: [person/abu-ali-al-farisi]
+structure: "Not read directly; known from the passage and note in the King Fahd al-Itqan (scan p. 536)."
+wings: [words]
+themes: [scripture-and-its-sciences]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+tags: [qiraat-browser, qiraat-works, qiraat-readings]
+relations:
+  - { type: about, target: concept/qiraat, sources: [source/itqan-suyuti] }
+  - { type: related_to, target: work/kitab-al-sabaa-ibn-mujahid, sources: [source/itqan-suyuti] }
+sources: [source/al-aalam, source/itqan-suyuti]
+external_ids: {wikidata: Q111750058}
 provenance:
-  layer: own-research
+  layer: "own-research"
   source: "Wikidata candidate; work attested in bibliographies — entry not yet checked on the page"
   generated_by: "Devin (SWE-2 High)"
   model: "SWE-2 High"
-  run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  run: "wikidata-import-wave2"
+  enriched_by:
+    - {generated_by: Claude Code (claude-sonnet-5-5), model: claude-sonnet-5-5, run: qiraat-browser-scripts-works-1, source: source/itqan-suyuti scan p. 536; scan page markers}
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5); first card by Devin (SWE-2 High)" }

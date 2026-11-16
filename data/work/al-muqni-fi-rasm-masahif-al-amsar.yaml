@@ -1,0 +1,28 @@
+id: work/al-muqni-fi-rasm-masahif-al-amsar
+class: work
+kind: book
+label: { ar: "المقنع في معرفة مرسوم مصاحف أهل الأمصار", en: "al-Muqni' fi Ma'rifat Marsum Masahif Ahl al-Amsar", ur: "المقنع فی معرفۃ مرسوم مصاحف اہل الامصار" }
+summary:
+  ar: "كتاب أبي عمرو الداني في رسم المصاحف العثمانية في الأمصار، عدّه السيوطي أول كتب الرسم التي سمّاها، وتحيل إليه حواشي طبعة «الإتقان» المحققة في مواضع الخلاف بين رسم المشارقة والمغاربة، وأعلن ناشر «التيسير» أنه سيتبعه به {cite:itqan-suyuti p. 37} {cite:itqan-suyuti p. 2202} {cite:taysir-pretzl-istanbul-1930 p. 10}."
+  en: "Abu Amr al-Dani's book on the spelling of the Uthmanic mushafs of the cities. Al-Suyuti names it first among the books on rasm, the notes of the edited Itqan refer to it for points where eastern and western spelling differ, and the editor of the Taysir announced it as his next edition {cite:itqan-suyuti p. 37} {cite:itqan-suyuti p. 2202} {cite:taysir-pretzl-istanbul-1930 p. 10}."
+  ur: "ابو عمرو دانی کی شہروں کے عثمانی مصاحف کے رسم پر کتاب؛ سیوطی نے رسم کی کتابوں میں اسے سب سے پہلے نام لیا، «الاتقان» کے محقق ایڈیشن کے حواشی مشرقی اور مغربی رسم کے اختلافی مقامات میں اس کا حوالہ دیتے ہیں، اور «التیسیر» کے ناشر نے اسے اپنی اگلی اشاعت کے طور پر ذکر کیا {cite:itqan-suyuti p. 37} {cite:itqan-suyuti p. 2202} {cite:taysir-pretzl-istanbul-1930 p. 10}۔"
+genre: [quran-sciences]
+language: language/arabic
+authors: [person/abu-amr-al-dani]
+structure: "Not read directly; its title, edition and citations as they appear in the notes of the King Fahd edition of al-Itqan (scan pp. 37, 2202, 3028)."
+wings: [words]
+themes: [scripture-and-its-sciences]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [andalus-europe]
+tags: [qiraat-browser, qiraat-works, qiraat-rasm, qiraat-codex]
+relations:
+  - { type: about, target: concept/rasm-al-quran, sources: [source/itqan-suyuti] }
+  - { type: about, target: concept/masahif-al-sahaba, sources: [source/itqan-suyuti] }
+sources: [source/itqan-suyuti, source/taysir-pretzl-istanbul-1930]
+provenance:
+  layer: own-research
+  source: "source/itqan-suyuti scan pp. 37, 1237-1238, 2202, 3028; source/taysir-pretzl-istanbul-1930 scan p. 10; scan page markers"
+  generated_by: "Claude Code (claude-sonnet-5-5)"
+  model: claude-sonnet-5-5
+  run: qiraat-browser-scripts-works-1
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5)" }

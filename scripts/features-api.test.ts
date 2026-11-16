@@ -65,7 +65,7 @@ describe("one API export per browser or explorer (AGENTS.md: every feature is gr
 
   it("writes jobs, fatwa, khutab, poetry and screens with their fields, edges, prose languages and job holders", () => {
     const data = featureApiData(compiled);
-    expect(Object.keys(data).sort()).toEqual(["akhlaq.json", "angels.json", "ansab.json", "asma.json", "battles.json", "bayt.json", "companions.json", "cosmos.json", "dreams.json", "duas.json", "eschatology.json", "fatwa.json", "ghayb.json", "halal.json", "hasanats.json", "hisab.json", "hudud.json", "ibadat.json", "islamic-economy.json", "jannas.json", "jinn-devils.json", "jobs.json", "khulafa.json", "khutab.json", "madhahib.json", "magic.json", "messengers.json", "miracles.json", "mukatabat.json", "nar.json", "nature.json", "nubuwat.json", "places.json", "poetry.json", "qiyama.json", "qudsi.json", "qurun.json", "sayyiat.json", "screens.json", "tafsir.json", "tibb.json", "usra.json"]);
+    expect(Object.keys(data).sort()).toEqual(["akhlaq.json", "angels.json", "ansab.json", "asma.json", "battles.json", "bayt.json", "companions.json", "cosmos.json", "dreams.json", "duas.json", "eschatology.json", "fatwa.json", "ghayb.json", "halal.json", "hasanats.json", "hisab.json", "hudud.json", "ibadat.json", "islamic-economy.json", "jannas.json", "jinn-devils.json", "jobs.json", "khulafa.json", "khutab.json", "madhahib.json", "magic.json", "messengers.json", "miracles.json", "mukatabat.json", "nar.json", "nature.json", "nubuwat.json", "places.json", "poetry.json", "qiraat.json", "qiyama.json", "qudsi.json", "qurun.json", "sayyiat.json", "screens.json", "tafsir.json", "tibb.json", "usra.json"]);
     expect(data["qudsi.json"].items.map((i) => i.id)).toEqual(["passage/muslim-2577"]);
     expect(data["qudsi.json"].items[0]).toMatchObject({ work: "work/sahih-muslim", ref: "2577", hadith: "zulm", themes: ["ethics-and-character"] });
     expect(data["qudsi.json"].feature).toBe("hadith-qudsi-browser");
@@ -567,6 +567,30 @@ describe("one API export per browser or explorer (AGENTS.md: every feature is gr
     expect(items.find((i) => i.id === "passage/quran-42-29x")).toMatchObject({ section: "quran", topics: ["beyond-earth"] });
     expect(items.find((i) => i.id === "passage/muslim-8888")).toMatchObject({ section: "sunnah" });
     expect(items.find((i) => i.id === "concept/ashab-al-rass")).toMatchObject({ section: "concepts", topics: ["lost-peoples"] });
+  });
+
+  it("exports qiraat: Qur'an verses from the reviewed table, lexicon passages by corpus and topic, tagged records by section, guarded lexemes", () => {
+    const tartil = makeNode("passage/quran-73-4x", "passage", { unit: "ayah", work: "work/quran", sura: 73, aya: 4, text: "x" });
+    const notListed = makeNode("passage/quran-2-1y", "passage", { unit: "ayah", work: "work/quran", sura: 2, aya: 1, text: "الم" });
+    const ahruf = makeNode("passage/muslim-8889", "passage", { unit: "hadith", work: "work/sahih-muslim", ref: "8889", text: "إِنَّ هَذَا الْقُرْآنَ أُنْزِلَ عَلَى سَبْعَةِ أَحْرُفٍ" });
+    const dotting = makeNode("passage/itqan-x-1", "passage", { unit: "chapter", work: "work/al-itqan-fi-ulum-al-quran", ref: "1", text: "أول من نقط المصحف أبو الأسود الدؤلي بأمر عبد الملك" });
+    const prayer = makeNode("passage/muwatta-8889", "passage", { unit: "hadith", work: "work/muwatta-malik", ref: "8889", text: "باب القراءة خلف الإمام: خط خطا في الأرض ثم خطب الناس فأحسن الخطبة وحدث نافع عن ابن عمر بهذا الحرف ووضع النقطة" });
+    const reader = { ...makeNode("person/hafs-x", "person", {}), tags: ["qiraat-browser", "qiraat-people", "qiraat-readers"] };
+    const script = { ...makeNode("concept/kufic-x", "concept", { kind: "art_form" }), tags: ["qiraat-browser", "qiraat-scripts", "qiraat-khatt"] };
+    const untaggedWork = { ...makeNode("work/sab-a-x", "work", {}), tags: ["qiraat-browser", "qiraat-readings"] };
+    const data = featureApiData({ ...compiled, nodes: [...compiled.nodes, tartil, notListed, ahruf, dotting, prayer, reader, script, untaggedWork], edges: compiled.edges });
+    const items = data["qiraat.json"].items;
+    const ids = items.map((i) => i.id);
+    expect(data["qiraat.json"].feature).toBe("qiraat-browser");
+    expect(ids).toContain("passage/quran-73-4x");
+    expect(ids).not.toContain("passage/quran-2-1y"); // a verse is in only because the reviewed table lists it
+    expect(ids).not.toContain("passage/muwatta-8889"); // «القراءة» in prayer, a line drawn, a sermon, a narrator named Nafi', a bare «الحرف» and a bare «النقطة» are not the topic
+    expect(items.find((i) => i.id === "passage/quran-73-4x")).toMatchObject({ section: "quran", topics: ["readings"] });
+    expect(items.find((i) => i.id === "passage/muslim-8889")).toMatchObject({ section: "sunnah", topics: ["ahruf"] }); // vowel marks are folded before matching
+    expect(items.find((i) => i.id === "passage/itqan-x-1")).toMatchObject({ section: "books", topics: ["codex", "naqt"] });
+    expect(items.find((i) => i.id === "person/hafs-x")).toMatchObject({ section: "people", topics: ["readers"] });
+    expect(items.find((i) => i.id === "concept/kufic-x")).toMatchObject({ section: "scripts", topics: ["khatt"] });
+    expect(items.find((i) => i.id === "work/sab-a-x")).toMatchObject({ section: "works", topics: ["readings"] }); // no section tag: filed by class
   });
 
   it("exports qiyama: detected passages by corpus and kind, gated ambiguous lexemes, exclusions, future-book inclusion", () => {

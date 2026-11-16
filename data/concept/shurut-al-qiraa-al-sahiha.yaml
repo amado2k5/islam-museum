@@ -1,0 +1,46 @@
+id: concept/shurut-al-qiraa-al-sahiha
+class: concept
+kind: doctrine
+label:
+  ar: شروط القراءة الصحيحة
+  en: The conditions of an accepted reading
+  ur: صحیح قراءت کی شرطیں
+summary:
+  ar: "ضبط ابن الجزري القراءة المقبولة بثلاثة أركان: موافقة العربية ولو بوجه، وموافقة أحد المصاحف العثمانية ولو احتمالاً، وصحة السند؛ ومتى اختل ركن منها فالقراءة ضعيفة أو شاذة ولو جاءت عن أحد السبعة {cite:nashr-dahman-damascus-1345-v1 p. 19} {cite:itqan-suyuti p. 491}."
+  en: "Ibn al-Jazari fixed the accepted reading by three pillars: agreement with Arabic in at least one way, agreement with one of the Uthmanic codices even potentially, and a sound chain; where one pillar fails the reading is weak or irregular, even if it comes from one of the seven {cite:nashr-dahman-damascus-1345-v1 p. 19} {cite:itqan-suyuti p. 491}."
+  ur: "ابن الجزری نے مقبول قراءت کو تین ارکان سے باندھا: کسی ایک وجہ سے عربی کی موافقت، عثمانی مصاحف میں سے کسی کی احتمالاً موافقت، اور صحتِ سند؛ جہاں کوئی رکن ٹوٹے وہاں قراءت ضعیف یا شاذ ہے خواہ سبعہ میں سے کسی سے آئی ہو {cite:nashr-dahman-damascus-1345-v1 p. 19} {cite:itqan-suyuti p. 491}۔"
+wings:
+- ideas
+- words
+themes:
+- scripture-and-its-sciences
+tags:
+- qiraat-browser
+- qiraat-sciences
+- qiraat-readings
+- qiraat-rasm
+relations:
+- type: part_of
+  target: concept/qiraat
+  sources:
+  - source/nashr-dahman-damascus-1345-v1
+  - source/itqan-suyuti
+- type: basis_for
+  target: concept/al-qiraat-al-shadhdha
+  sources:
+  - source/nashr-dahman-damascus-1345-v1
+  - source/itqan-suyuti
+sources:
+- source/nashr-dahman-damascus-1345-v1
+- source/itqan-suyuti
+provenance:
+  layer: own-research
+  source: الإتقان للسيوطي ط. مجمع الملك فهد، والنشر لابن الجزري ط. دهمان 1345هـ، وتهذيب مناهل العرفان لخالد السبت؛ أرقام الصفحات علامات صفحات المسح كما في النص المقروء
+  generated_by: Claude Code (claude-sonnet-5-5)
+  model: claude-sonnet-5-5
+  run: qiraat-browser-sciences-1
+status:
+  review: published
+  completeness: 3
+  generated_by: Claude Code (claude-sonnet-5-5)
+importance: 2

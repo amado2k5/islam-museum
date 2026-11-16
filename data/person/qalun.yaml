@@ -1,5 +1,6 @@
 id: person/qalun
 class: person
+tags: [qiraat-browser, qiraat-people, qiraat-readers, qiraat-readings]
 label:
   ar: "قالون"
   en: "Qalun"
@@ -13,11 +14,14 @@ regions: [maghreb]
 periods: [period/abbasid-early]
 died: { edtf: "0835", precision: year, status: tradition, derived: true }
 relations:
+  - { type: student_of, target: person/nafi-al-madani, confidence: high, note: "Ibn al-Jazari, al-Nashr, p. 122: Qalun read on Nafi in 150 and was closely attached to him.", sources: [source/nashr-dahman-damascus-1345-v1] }
   - { type: born_in, target: place/medina, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q35484)" }
-sources: [source/siyar-alam-nubala-abyari]
+sources: [source/siyar-alam-nubala-abyari, source/nashr-dahman-damascus-1345-v1]
 external_ids:
   wikidata: Q12232042
 provenance:
+  enriched_by:
+    - { generated_by: "Claude Code (claude-sonnet-5-5)", model: claude-sonnet-5-5, run: qiraat-browser-people-1, source: "source/nashr-dahman-damascus-1345-v1: the biography sections of the ten readers and their transmitters in al-Nashr (scan pages as cited in the prose; page numbers are scan page markers, OCR errors not copied)" }
   layer: own-research
   source: "al-Zirikli, al-A'lam - entry read on the page in the OpenITI 2025.1.9 Shamela text (v.5 p.110)"
   generated_by: "Devin (SWE-2 Medium)"

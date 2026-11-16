@@ -9,7 +9,7 @@ provenance:
   generated_by: "Claude Code (OCR-harvest worker I)"
   model: claude-opus-5-5
   run: ocr-harvest-2026-11-04
-  source: "source/ekhtiar-how-to-read-islamic-calligraphy-2018 scan pp. 25, 26"
+  source: "source/ekhtiar-how-to-read-islamic-calligraphy-2018 scan pp. 25, 26; sections appended by Claude Code (claude-sonnet-5-5), run qiraat-browser-scripts-works-1: source/subh-al-asha-cairo-v3 scan pp. 16, 104-105"
   translator_of: content/ar/concept/tawqi-script.md
 ---
 ## Summary
@@ -17,3 +17,6 @@ Tawqi' is one of the [[concept/al-aqlam-al-sitta|six pens]], forming a large–s
 
 ## Uses
 With [[concept/rayhan-script|rayhan]] and riqa' it was preferred for chancery documents, colophons, book covers and carpet pages, and the author lists it among the chancery scripts. {cite:ekhtiar-how-to-read-islamic-calligraphy-2018 p. 26} [[concept/taliq-script|Ta'liq]] shares its exaggerated descending loops, connected letters and upward-sloping words at the end of a line. {cite:ekhtiar-how-to-read-islamic-calligraphy-2018 p. 26} An example is a folio by Zayn al-Abidin al-Shirazi (Shiraz, 1483) combining naskh, thuluth and tawqi'. {cite:ekhtiar-how-to-read-islamic-calligraphy-2018 p. 26}
+
+## In al-Qalqashandi
+Al-Qalqashandi says the tawqi' pen is named because caliphs and viziers used to sign with it on the backs of petitions, and that its inventor was Yusuf, the brother of Ibrahim al-Shajari, and that Dhu al-Riyasatayn al-Fadl ibn Sahl admired it and ordered that sultanic writing be done in it and no other, calling it the Riyasi pen. {cite:subh-al-asha-cairo-v3 p. 104} {cite:subh-al-asha-cairo-v3 p. 16} The unrestricted tawqi' is written on the 'third' sheet; the rules of its letters are in origin those of thuluth, but its cut is more rounded and its letters lean more to rounding, and its tall letters are headed as in thuluth, with leave to omit the heading in some. {cite:subh-al-asha-cairo-v3 p. 104} {cite:subh-al-asha-cairo-v3 p. 105}

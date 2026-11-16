@@ -13,13 +13,13 @@ wings: [time]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [levant-iraq]
 date:
-  start: { edtf: "0930~", hijri: "0320~", calendar: julian, precision: year, status: tradition, derived: true, note: "نحو ٣٢٠هـ؛ سماعه من ابن مجاهد قبل وفاته سنة ٣٢٤ {cite:tarikh-islam-dhahabi p.104}؛ التحويل مشتق.", sources: [source/tarikh-islam-dhahabi] }
+  start: {edtf: "0930~", hijri: "0320~", calendar: julian, precision: year, status: tradition, derived: true, note: "نحو ٣٢٠هـ؛ سماعه من ابن مجاهد قبل وفاته سنة ٣٢٤ {cite:tarikh-islam-dhahabi p.104}؛ التحويل مشتق.", sources: [source/tarikh-islam-dhahabi]}
 relations:
-  - { type: occurred_at, target: place/baghdad, sources: [source/tarikh-islam-dhahabi] }
-  - { type: had_participant, target: person/al-daraqutni, role: "القارئ المتعلم", sources: [source/tarikh-islam-dhahabi] }
-  - { type: had_participant, target: person/ibn-mujahid, role: "شيخ القراء", sources: [source/tarikh-islam-dhahabi] }
-  - { type: had_participant, target: person/al-naqqash-al-muqri, role: "الشيخ المقرئ", sources: [source/tarikh-islam-dhahabi] }
-  - { type: during_reign, target: person/al-muqtadir-billah, sources: [source/tarikh-khulafa-minhaj-1434] }
+- {type: occurred_at, target: place/baghdad, sources: [source/tarikh-islam-dhahabi]}
+- {type: had_participant, target: person/al-daraqutni, role: "القارئ المتعلم", sources: [source/tarikh-islam-dhahabi]}
+- {type: had_participant, target: person/ibn-mujahid, role: "شيخ القراء", sources: [source/tarikh-islam-dhahabi]}
+- {type: had_participant, target: person/al-naqqash-al-muqri, role: "الشيخ المقرئ", sources: [source/tarikh-islam-dhahabi]}
+- {type: during_reign, target: person/al-muqtadir-billah, sources: [source/tarikh-khulafa-minhaj-1434]}
 sources: [source/tarikh-islam-dhahabi]
 provenance:
   layer: own-research
@@ -27,4 +27,8 @@ provenance:
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: explorer-al-daraqutni-1
-status: { review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
+status: {review: published, completeness: 1, generated_by: "Devin (SWE-2 Medium)"}
+tags:
+- qiraat-browser
+- qiraat-sciences
+- qiraat-readers

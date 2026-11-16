@@ -5,12 +5,13 @@ label:
   ar: "مصحف ابن مسعود"
   en: "Ibn Mas'ud codex"
 summary:
-  ar: "بطاقة أولية لمصحف ابن مسعود، قراءة الصحابي المختلفة ترتيبا وبعض الرسم؛ لم تُراجع مصادرها على الصفحة بعد."
-  en: "Draft card for Ibn Mas'ud's codex, the Companion's reading differing in order and some rasm; its sources are not yet checked on the page."
+  ar: مصحف ابن مسعود المصحف الخاص بعبد الله بن مسعود، وهو من المصاحف الخاصة التي أُمر بإحراقها بعد توحيد عثمان؛ نُقل أنه أنكر ذلك أولاً ثم رجع إلى الجماعة، وتُنقل عنه قراءات تخالف المصحف العثماني منها حذف الموصول في الليل 3، كما روى البخاري {cite:manahil-irfan-sabt p. 239} {cite:manahil-irfan-sabt p. 175}.
+  en: Ibn Mas'ud's codex is the private codex of Abdallah ibn Mas'ud, one of the private codices ordered burned after Uthman's unification; it is reported he first objected and then returned to the community, and readings from him that differ from the Uthmanic codex are related, among them dropping the relative particle at al-Layl 92:3, as al-Bukhari relays {cite:manahil-irfan-sabt p. 239} {cite:manahil-irfan-sabt p. 175}.
+  ur: مصحفِ ابن مسعود عبد اللہ بن مسعود کا نجی مصحف ہے، ان نجی مصاحف میں سے جنھیں عثمان کی توحید کے بعد جلانے کا حکم دیا گیا؛ منقول ہے کہ انھوں نے پہلے انکار کیا پھر جماعت میں لوٹ آئے، اور ان سے ایسی قراءتیں مروی ہیں جو مصحفِ عثمانی کے مخالف ہیں، جن میں اللیل 92:3 میں اسمِ موصول کا حذف ہے جیسا کہ بخاری نے روایت کیا {cite:manahil-irfan-sabt p. 239} {cite:manahil-irfan-sabt p. 175}۔
 wings: [words]
 regions: [global]
 periods: [period/rashidun]
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/itqan-suyuti, source/manahil-irfan-sabt, source/nashr-dahman-damascus-1345-v1]
 external_ids:
   wikidata: Q125495984
 provenance:
@@ -19,6 +20,17 @@ provenance:
   generated_by: "Devin (SWE-2 High)"
   model: "SWE-2 High"
   run: wikidata-import-wave2
+  enriched_by:
+  - generated_by: Claude Code (claude-sonnet-5-5)
+    model: claude-sonnet-5-5
+    run: qiraat-browser-sciences-1
+    source: الإتقان للسيوطي ط. مجمع الملك فهد، وتهذيب مناهل العرفان لخالد السبت، والنشر لابن الجزري ط. دهمان 1345هـ؛ أرقام الصفحات علامات صفحات المسح
 status:
-  review: draft
-  completeness: 1
+  review: published
+  completeness: 2
+  generated_by: Claude Code (claude-sonnet-5-5)
+tags:
+- qiraat-browser
+- qiraat-sciences
+- qiraat-codex
+- qiraat-readers

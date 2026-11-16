@@ -15,3 +15,11 @@ Al-Safadi relays from Ibn Bashkuwal, through al-Hijari and his father, that one 
 
 ## Works
 Al-Zirikli lists among his books al-Dalil ila Ma'rifat al-Jalil in one hundred parts, a Tafsir of the Qur'an in about one hundred parts, al-Wusul ila Ma'rifat al-Usul, al-Bayan fi I'rab al-Qur'an, Fada'il Malik, Rijal al-Muwatta', al-Rawda on the recitations, and a treatise on the foundations of religion {cite:alam-zirikli-dar-al-ilm-2002 vol. 1 p. 213}.
+
+## In the entry of the readings into al-Andalus
+
+Ibn al-Jazari says that Abu 'Umar Ahmad ibn Muhammad ibn 'Abd Allah al-Talamanki, author of al-Rawda, was the first to bring the readings into al-Andalus, that he died in 429 AH, and that [[person/makki-ibn-abi-talib|Makki ibn Abi Talib]] followed him and then [[person/abu-amr-al-dani|al-Dani]]. {cite:nashr-dahman-damascus-1345-v1 p. 44}
+
+## In the entry of the readings into al-Andalus
+
+Ibn al-Jazari says that Abu 'Umar Ahmad ibn Muhammad ibn 'Abd Allah al-Talamanki, author of al-Rawda, was the first to bring the readings into al-Andalus, that he died in 429 AH, and that [[person/makki-ibn-abi-talib|Makki ibn Abi Talib]] followed him and then [[person/abu-amr-al-dani|al-Dani]]. {cite:nashr-dahman-damascus-1345-v1 p. 44}

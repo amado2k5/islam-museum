@@ -1,0 +1,16 @@
+id: passage/bukhari-api-5001
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "5001"
+label: { ar: "صحيح البخاري 5001 — قراءات القرآن", en: "Sahih al-Bukhari 5001 — the readings of the Qur'an", ur: "صحیح بخاری 5001 — قرآن کی قراءتیں" }
+text: "حَدَّثَنِي مُحَمَّدُ بْنُ كَثِيرٍ، أَخْبَرَنَا سُفْيَانُ، عَنِ الأَعْمَشِ، عَنْ إِبْرَاهِيمَ، عَنْ عَلْقَمَةَ، قَالَ كُنَّا بِحِمْصَ فَقَرَأَ ابْنُ مَسْعُودٍ سُورَةَ يُوسُفَ، فَقَالَ رَجُلٌ مَا هَكَذَا أُنْزِلَتْ قَالَ قَرَأْتُ عَلَى رَسُولِ اللَّهِ فَقَالَ أَحْسَنْتَ. وَوَجَدَ مِنْهُ رِيحَ الْخَمْرِ فَقَالَ أَتَجْمَعُ أَنْ تُكَذِّبَ بِكِتَابِ اللَّهِ وَتَشْرَبَ الْخَمْرَ. فَضَرَبَهُ الْحَدَّ."
+summary:
+  ar: "حديث في صحيح البخاري، رقم 5001، يذكر قراءات القرآن. يجمعه متصفح قراءات القرآن والرسم والخطوط والضبط مع نصوص القرآن والسنة والسيرة والكتب في قراءات القرآن وكتابته."
+  en: "A report in Sahih al-Bukhari, no. 5001 (Virtues of the Qur'an), that mentions the readings of the Qur'an. The browser of the museum for how the Qur'an was read and written lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on that subject."
+  ur: "صحیح بخاری کی حدیث نمبر 5001، جس میں قرآن کی قراءتیں کا ذکر ہے۔ قراءات، رسم، خطوط اور نقطوں کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/qiraat, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 5001 (book 66 hadith 23); matn excerpt of at most 55 words chosen by the qira'at detector (scripts/qiraat.ts), honorific formulas left out", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "qiraat-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-sonnet-5-5) from the hadith-api Arabic edition; label and summary are the museum's own words" }

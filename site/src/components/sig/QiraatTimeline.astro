@@ -1,0 +1,57 @@
+---
+// "From the first pages to the printed mushaf" (Qira'at, Rasm, Scripts and Dotting Browser home): the curated records
+// that carry a date, oldest first, grouped by century of the common era — events at their date, people at their
+// death, books at their composition. Each entry is a link; undated records are counted in the caption and stay in the
+// lists below. Dates are the records' own (lib/qiraat.ts `qiraatDated`), formatted by lib/dates.ts in both calendars.
+import { ui, fmt, type Lang } from "../../lib/i18n";
+import { href, labelOf } from "../../lib/graph";
+import { num } from "../../lib/nav";
+import { formatDate } from "../../lib/dates";
+import { qiraatDated, qiraatUndated } from "../../lib/qiraat";
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const G = (ui(lang) as any).qiraat;
+const V = G.timeline;
+const secName = (s: string) => { const t = G.sections?.[s]?.title; if (!t) throw new Error(`QiraatTimeline: section ${s} has no title`); return t as string; };
+const centuries = [...new Set(qiraatDated.map((d) => Math.floor((d.year - 1) / 100) + 1))];
+const groups = centuries.map((c) => ({ c, rows: qiraatDated.filter((d) => Math.floor((d.year - 1) / 100) + 1 === c) }));
+---
+{qiraatDated.length > 0 && (
+<section class="qt" aria-labelledby="qt-title" style="margin-top:2.2rem">
+  <div data-pagefind-body>
+    <h2 id="qt-title">{V.title}</h2>
+    <p class="muted" style="max-width:var(--measure);margin:0 0 .4rem">{V.lede}</p>
+  </div>
+  <p class="ui muted" style="margin:0 0 1rem;font-size:.85rem">{fmt(V.caption, { n: num(qiraatDated.length, lang), u: num(qiraatUndated, lang) })}</p>
+  <ol class="qt-centuries" role="list">
+    {groups.map((g) => (
+      <li class="qt-century">
+        <h3 class="ui">{fmt(V.century, { c: num(g.c, lang) })} <span class="muted">· {num(g.rows.length, lang)}</span></h3>
+        <ul role="list">
+          {g.rows.map((d) => (
+            <li class={`qt-item s-${d.section}`}>
+              <a href={href(lang, d.node.id)}>{labelOf(d.node, lang)}</a>
+              <span class="ui muted"><bdi>{formatDate(d.date, lang).text}</bdi> · {secName(d.section)}</span>
+            </li>
+          ))}
+        </ul>
+      </li>
+    ))}
+  </ol>
+</section>
+)}
+<style>
+  .qt-centuries { list-style: none; margin: 0; padding: 0; display: grid; gap: 18px; border-inline-start: 2px solid var(--gold, #c5a059); padding-inline-start: 18px; }
+  .qt-century h3 { margin: 0 0 .5rem; font-size: 1rem; position: relative; }
+  .qt-century h3::before { content: ""; position: absolute; inset-inline-start: -25px; inset-block-start: .35em; inline-size: 12px; block-size: 12px; border-radius: 50%; background: var(--gold, #c5a059); }
+  .qt-century ul { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 8px; }
+  .qt-item { padding: 8px 12px; border-radius: 10px; background: var(--panel); border-inline-start: 4px solid var(--line); display: grid; gap: 2px; }
+  .qt-item a { font-weight: 600; }
+  .qt-item span { font-size: .78rem; }
+  .qt-item.s-sciences { border-inline-start-color: #9a4f38; }
+  .qt-item.s-people { border-inline-start-color: #4d6b2f; }
+  .qt-item.s-scripts { border-inline-start-color: #6b4a2a; }
+  .qt-item.s-works { border-inline-start-color: #8a3a5a; }
+  .qt-item.s-mushafs { border-inline-start-color: #2f5d4d; }
+</style>

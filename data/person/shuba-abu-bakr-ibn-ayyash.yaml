@@ -1,0 +1,30 @@
+id: person/shuba-abu-bakr-ibn-ayyash
+class: person
+tags: [qiraat-browser, qiraat-people, qiraat-readers, qiraat-readings]
+label: { ar: "أبو بكر شعبة بن عياش", en: "Shu'ba, Abu Bakr ibn 'Ayyash", ur: "ابو بکر شعبہ بن عیاش" }
+names:
+  - { kind: full, lang: ar, value: "شعبة بن عياش بن سالم الخياط الأسدي الكوفي، أبو بكر" }
+  - { kind: full, lang: en, value: "Shu'ba ibn 'Ayyash ibn Salim al-Khayyat al-Asadi al-Kufi, Abu Bakr" }
+roles: [scholar, teacher]
+gender: male
+traditions: [sunni]
+summary:
+  ar: "أبو بكر شعبة بن عياش بن سالم الخياط الأسدي الكوفي، أحد راويي قراءة عاصم بن أبي النجود مع حفص، ولد سنة 95هـ وتوفي في جمادى الأولى سنة 193هـ، ويصفه ابن الجزري بأنه إمام عالم حجة من كبار أئمة السنة {cite:nashr-dahman-damascus-1345-v1 p. 166}."
+  en: "Abu Bakr Shu'ba ibn 'Ayyash al-Asadi of Kufa, one of the two transmitters of Asim's reading beside Hafs; born 95 AH, died in Jumada I of 193 AH, and described by Ibn al-Jazari as an imam, a scholar and a authority among the great leaders of the Sunna {cite:nashr-dahman-damascus-1345-v1 p. 166}."
+  ur: "ابو بکر شعبہ بن عیاش اسدی کوفی، عاصم بن ابی النجود کی قراءت کے دو راویوں میں سے ایک ⁦(دوسرے حفص ہیں)⁩؛ 95ھ میں پیدا ہوئے اور جمادی الاولیٰ 193ھ میں وفات پائی؛ ابن الجزری انہیں امام، عالم، حجت اور سنت کے بڑے ائمہ میں شمار کرتے ہیں {cite:nashr-dahman-damascus-1345-v1 p. 166}."
+wings: [people]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+born: { edtf: "0714", hijri: "0095", calendar: julian, precision: year, status: tradition, derived: true, note: "Year as printed in al-Nashr; Julian year derived by tabular conversion.", sources: [source/nashr-dahman-damascus-1345-v1] }
+died: { edtf: "0809", hijri: "0193", calendar: julian, precision: year, status: tradition, derived: true, note: "Year as printed in al-Nashr; Julian year derived by tabular conversion.", sources: [source/nashr-dahman-damascus-1345-v1] }
+relations:
+  - { type: student_of, target: person/asim-ibn-abi-al-najud, confidence: high, note: "Ibn al-Jazari, al-Nashr, p. 165: Abu Bakr read on the imam and reader of Kufa, Asim ibn Abi al-Najud.", sources: [source/nashr-dahman-damascus-1345-v1] }
+  - { type: lived_in, target: place/kufa, confidence: medium, note: "Nisba al-Kufi in the name printed in al-Nashr p. 162.", sources: [source/nashr-dahman-damascus-1345-v1] }
+sources: [source/nashr-dahman-damascus-1345-v1]
+provenance:
+  layer: own-research
+  source: "al-Nashr fi al-Qira'at al-Ashr (Ibn al-Jazari), Dahman ed., Damascus 1345 AH, vol. 1: the biography sections (tarjamat) of the ten readers and their transmitters, read in the Apple-Vision OCR of the harvest scan (books/quran-sciences/nashr-ibn-jazari/nashrqraatashr); page numbers are scan page markers (PDF pages), OCR errors not copied"
+  generated_by: "Claude Code (claude-sonnet-5-5)"
+  model: claude-sonnet-5-5
+  run: qiraat-browser-people-1
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5)" }

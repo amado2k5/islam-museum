@@ -1,19 +1,30 @@
 id: work/al-itqan-fi-ulum-al-quran
 class: work
 kind: book
-label: { ar: "الإتقان في علوم القرآن", en: "al-Itqan fi Ulum al-Qur'an" }
+label: { ar: "الإتقان في علوم القرآن", en: "al-Itqan fi Ulum al-Qur'an", ur: "الاتقان فی علوم القرآن" }
 summary:
   ar: "مجلد للشيخ جلال الدين عبد الرحمن بن أبي بكر السيوطي المتوفى سنة ٩١١هـ؛ قال حاجي خليفة: هو أشبه آثاره وأفيدها، ذكر فيه تصنيف شيخه الكافيجي واستصغره ومواقع العلوم للبلقيني واستقله، ثم وجد البرهان للزركشي كتاباً جامعاً بعد تصنيفه التحبير فاستأنف وزاد عليه إلى ثمانين نوعاً وجعله مقدمة لتفسيره الكبير الذي شرع فيه وسماه مجمع البحرين، وفي غالب الأنواع تصانيف مفردة {cite:kashf-zunun-furqan p. 177}."
   en: "Al-Suyuti's Itqan — 'the likeliest and most profitable of his works': he built on al-Zarkashi's Burhan, expanding to eighty types of Quranic science, and made it the preface to his intended great tafsir Majma' al-Bahrayn {cite:kashf-zunun-furqan p. 177}."
-wings: []
+  ur: "جلال الدین سیوطی ⁦(م 911ھ)⁩ کی «الاتقان» اسّی نوعوں پر مشتمل قرآنی علوم کی جامع کتاب ہے، جس کی بنیاد زرکشی کی «البرہان» پر ہے اور جسے انہوں نے اپنی بڑی تفسیر «مجمع البحرین» کا مقدمہ بنایا {cite:kashf-zunun-furqan p. 177}۔"
+genre: [quran-sciences]
+language: language/arabic
+authors: [person/al-suyuti]
+wings: [words]
+themes: [scripture-and-its-sciences]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [egypt-nile]
-relations: []
+tags: [qiraat-browser, qiraat-works, qiraat-readings, qiraat-rasm, qiraat-naqt, qiraat-khatt, qiraat-codex]
+relations:
+  - { type: about, target: concept/qiraat, sources: [source/itqan-suyuti] }
+  - { type: about, target: concept/rasm-al-quran, sources: [source/itqan-suyuti] }
+  - { type: about, target: concept/al-ahruf-al-sabaa, sources: [source/itqan-suyuti] }
+sources: [source/kashf-zunun-furqan, source/itqan-suyuti]
+importance: 2
 provenance:
-  layer: own-research
+  layer: "own-research"
   source: "كشف الظنون لحاجي خليفة (ط الفرقان) ج١ ص 177 مدخل 55"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-kashf-batch-1
-sources: [source/kashf-zunun-furqan]
-importance: 2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  run: "lib-kashf-batch-1"
+  enriched_by:
+    - {generated_by: Claude Code (claude-sonnet-5-5), model: claude-sonnet-5-5, run: qiraat-browser-scripts-works-1, source: 'source/itqan-suyuti scan pp. 15-16, 37, 536, 2238-2250 (item quran-sciences/itqan/20191023_20191023_0707, King Fahd Complex edition); scan page markers'}
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5); first card by Devin (SWE-2 High)" }

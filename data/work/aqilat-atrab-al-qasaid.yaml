@@ -1,0 +1,29 @@
+id: work/aqilat-atrab-al-qasaid
+class: work
+kind: book
+label: { ar: "عقيلة أتراب القصائد في أسنى المقاصد", en: "'Aqilat Atrab al-Qasa'id fi Asna al-Maqasid (al-Ra'iyya)", ur: "عقیلۃ اتراب القصائد فی اسنی المقاصد ⁦(الرائیہ)⁩" }
+summary:
+  ar: "قصيدة القاسم بن فِيرُّه الشاطبي الرعيني الأندلسي ⁦(ت 590هـ)⁩ في رسم المصحف على حرف الراء، فتُعرف بالرائية؛ عدّها السيوطي بين كتب الرسم، وشرحها السخاوي في «الوسيلة إلى كشف العقيلة»، وشرحها ابن جبارة المقدسي في شرح مخطوط {cite:itqan-suyuti p. 37} {cite:itqan-suyuti p. 486}."
+  en: "The poem of al-Qasim ibn Firruh al-Shatibi al-Ru'ayni al-Andalusi (d. 590 AH) on the spelling of the mushaf, rhymed in ra' and so called the Ra'iyya; al-Suyuti counts it among the books of rasm, al-Sakhawi commented on it in al-Wasila ila Kashf al-'Aqila, and Ibn Jubara al-Maqdisi in a commentary that survives in manuscript {cite:itqan-suyuti p. 37} {cite:itqan-suyuti p. 486}."
+  ur: "قاسم بن فیرہ شاطبی رعینی اندلسی ⁦(م 590ھ)⁩ کا مصحف کے رسم پر قصیدہ جو را کی قافیہ بندی پر ہے اس لیے رائیہ کہلاتا ہے؛ سیوطی اسے کتبِ رسم میں گنتے ہیں، سخاوی نے اس کی شرح «الوسیلۃ الی کشف العقیلۃ» میں اور ابن جبارہ مقدسی نے ایک مخطوط شرح میں کی {cite:itqan-suyuti p. 37} {cite:itqan-suyuti p. 486}۔"
+genre: [quran-sciences]
+language: language/arabic
+authors: [person/al-shatibi]
+structure: "Not read directly; its title, rhyme and commentaries as the notes of the King Fahd al-Itqan give them (scan pp. 37, 486, 2926)."
+wings: [words]
+themes: [scripture-and-its-sciences]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe]
+tags: [qiraat-browser, qiraat-works, qiraat-rasm, qiraat-codex]
+relations:
+  - { type: about, target: concept/rasm-al-quran, sources: [source/itqan-suyuti] }
+  - { type: related_to, target: work/hirz-al-amani-wa-wajh-al-tahani, sources: [source/itqan-suyuti] }
+  - { type: related_to, target: work/al-muqni-fi-rasm-masahif-al-amsar, sources: [source/itqan-suyuti] }
+sources: [source/itqan-suyuti]
+provenance:
+  layer: own-research
+  source: "source/itqan-suyuti scan pp. 37, 486, 2926; scan page markers"
+  generated_by: "Claude Code (claude-sonnet-5-5)"
+  model: claude-sonnet-5-5
+  run: qiraat-browser-scripts-works-1
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5)" }

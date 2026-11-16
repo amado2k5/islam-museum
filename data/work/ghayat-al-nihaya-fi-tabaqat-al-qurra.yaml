@@ -1,0 +1,28 @@
+id: work/ghayat-al-nihaya-fi-tabaqat-al-qurra
+class: work
+kind: book
+label: { ar: "غاية النهاية في أسماء رجال القراءات ⁦(طبقات القراء)⁩", en: "Ghayat al-Nihaya fi Asma' Rijal al-Qira'at (Tabaqat al-Qurra')", ur: "غایۃ النہایہ فی اسماء رجال القراءات ⁦(طبقات القراء)⁩" }
+summary:
+  ar: "كتاب ابن الجزري في تراجم رجال القراءات «أولي الرواية والدراية»، ألّفه ليعرَف حال رواة القراءات كما يُعرف حال رجال الحديث، إذ صحة السند ركن من أركان القراءة؛ ويعدّه في مصنفاته مع «طبقات القراء» الكبرى والصغرى، وتحيل إليه حواشي طبعة «الإتقان» المحققة في تراجم القراء {cite:nashr-dahman-damascus-1345-v1 p. 203} {cite:nashr-dahman-damascus-1345-v1 p. 8} {cite:itqan-suyuti p. 486}."
+  en: "Ibn al-Jazari's biographical dictionary of the men of the readings, 'those of transmission and understanding', written so that the state of the narrators of the readings could be known as that of hadith narrators is, since a sound chain is a pillar of a valid reading; he lists it among his works beside the larger and smaller 'classes of readers', and the notes of the edited Itqan send readers to it for biographies of the readers {cite:nashr-dahman-damascus-1345-v1 p. 203} {cite:nashr-dahman-damascus-1345-v1 p. 8} {cite:itqan-suyuti p. 486}."
+  ur: "ابن الجزری کی قراءات کے رجال کے تراجم کی کتاب، «اولی الروایہ والدرایہ»، اس لیے لکھی گئی کہ قراءات کے راویوں کا حال اسی طرح معلوم ہو جیسے محدثین کے رجال کا، کیونکہ صحتِ سند قراءت کا ایک رکن ہے؛ وہ اسے اپنی تصانیف میں «طبقات القراء» کبریٰ و صغریٰ کے ساتھ گنتے ہیں، اور «الاتقان» کے محقق ایڈیشن کے حواشی قراء کے تراجم کے لیے اس کا حوالہ دیتے ہیں {cite:nashr-dahman-damascus-1345-v1 p. 203} {cite:nashr-dahman-damascus-1345-v1 p. 8} {cite:itqan-suyuti p. 486}۔"
+genre: [quran-sciences]
+language: language/arabic
+authors: [person/ibn-al-jazari]
+structure: "Not read directly; its purpose and place among his works as given in al-Nashr (scan pp. 8, 203) and its citation in the notes of the King Fahd al-Itqan (scan pp. 26, 486)."
+wings: [words]
+themes: [scripture-and-its-sciences]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+tags: [qiraat-browser, qiraat-works, qiraat-readers, qiraat-readings]
+relations:
+  - { type: about, target: concept/qiraat, sources: [source/nashr-dahman-damascus-1345-v1] }
+  - { type: mentions, target: person/abu-amr-al-dani, sources: [source/nashr-dahman-damascus-1345-v1] }
+sources: [source/nashr-dahman-damascus-1345-v1, source/itqan-suyuti]
+provenance:
+  layer: own-research
+  source: "source/nashr-dahman-damascus-1345-v1 scan pp. 8, 203; source/itqan-suyuti scan pp. 26, 486; scan page markers"
+  generated_by: "Claude Code (claude-sonnet-5-5)"
+  model: claude-sonnet-5-5
+  run: qiraat-browser-scripts-works-1
+status: { review: published, completeness: 2, generated_by: "Claude Code (claude-sonnet-5-5)" }

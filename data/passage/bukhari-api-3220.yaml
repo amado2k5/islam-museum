@@ -1,0 +1,16 @@
+id: passage/bukhari-api-3220
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "3220"
+label: { ar: "صحيح البخاري 3220 — قراءات القرآن", en: "Sahih al-Bukhari 3220 — the readings of the Qur'an", ur: "صحیح بخاری 3220 — قرآن کی قراءتیں" }
+text: "… قَالَ كَانَ رَسُولُ اللَّهِ أَجْوَدَ النَّاسِ، وَكَانَ أَجْوَدَ مَا يَكُونُ فِي رَمَضَانَ حِينَ يَلْقَاهُ جِبْرِيلُ، وَكَانَ جِبْرِيلُ يَلْقَاهُ فِي كُلِّ لَيْلَةٍ مِنْ رَمَضَانَ، فَيُدَارِسُهُ الْقُرْآنَ، فَلَرَسُولُ اللَّهِ حِينَ يَلْقَاهُ جِبْرِيلُ أَجْوَدُ بِالْخَيْرِ مِنَ الرِّيحِ الْمُرْسَلَةِ. وَعَنْ عَبْدِ اللَّهِ حَدَّثَنَا مَعْمَرٌ بِهَذَا الإِسْنَادِ نَحْوَهُ. وَرَوَى أَبُو هُرَيْرَةَ وَفَاطِمَةُما ـ عَنِ النَّبِيِّ أَنَّ جِبْرِيلَ كَانَ يُعَارِضُهُ الْقُرْآنَ."
+summary:
+  ar: "حديث في صحيح البخاري، رقم 3220، يذكر قراءات القرآن. يجمعه متصفح قراءات القرآن والرسم والخطوط والضبط مع نصوص القرآن والسنة والسيرة والكتب في قراءات القرآن وكتابته."
+  en: "A report in Sahih al-Bukhari, no. 3220 (Beginning of Creation), that mentions the readings of the Qur'an. The browser of the museum for how the Qur'an was read and written lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on that subject."
+  ur: "صحیح بخاری کی حدیث نمبر 3220، جس میں قرآن کی قراءتیں کا ذکر ہے۔ قراءات، رسم، خطوط اور نقطوں کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/qiraat, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 3220 (book 59 hadith 31); matn excerpt of at most 55 words chosen by the qira'at detector (scripts/qiraat.ts), honorific formulas left out", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "qiraat-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-sonnet-5-5) from the hadith-api Arabic edition; label and summary are the museum's own words" }

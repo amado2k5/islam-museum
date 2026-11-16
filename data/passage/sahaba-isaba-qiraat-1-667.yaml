@@ -1,0 +1,17 @@
+id: passage/sahaba-isaba-qiraat-1-667
+class: passage
+unit: chapter
+work: work/al-isaba-fi-tamyiz-al-sahaba
+ref: "1:667"
+label: { ar: "الإصابة لابن حجر، المجلد المصوَّر 1، ص 667 — جمع القرآن والمصاحف، الخطوط والكتابة", en: "Ibn Hajar's al-Isaba, scan volume 1, p. 667 — the collection of the Qur'an and the codices; the scripts and the craft of writing", ur: "الاصابہ، ابن حجر، اسکین جلد 1، ص 667 — جمعِ قرآن اور مصاحف، خطوط اور کتابت" }
+text: "… شهد بدراً والمشاهد، ومات بالمدينة سنة أربعين وهو ابن سَبْع وستين. وروى ابْنُ مَنْدَه بإسناد ضعيف عن الحارث بن خَزَمة، قال: بُعث النبي لَل له يُوم الاثنين. وروى ابْنُ أبِي دَاوُدَ في كتاب المَصَاحِفِ. من طريق ابن إسحاق: حدثني يحيى …"
+summary:
+  ar: "مقطع من الإصابة لابن حجر، المجلد المصوَّر 1، ص 667، يذكر جمع القرآن والمصاحف، والخطوط والكتابة؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح قراءات القرآن والرسم والخطوط والضبط."
+  en: "An excerpt from Ibn Hajar's al-Isaba, scan volume 1, p. 667, that mentions the collection of the Qur'an and the codices, the scripts and the craft of writing; from the machine-read scan, quoted within forty words per the sources policy. The browser of the museum for how the Qur'an was read and written lists it."
+  ur: "الاصابہ، ابن حجر، اسکین جلد 1، ص 667 کا اقتباس جس میں جمعِ قرآن اور مصاحف، خطوط اور کتابت کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ قراءات، رسم، خطوط اور نقطوں کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/mushaf, sources: [source/isaba] }
+  - { type: mentions, target: concept/khatt-al-arabi, sources: [source/isaba] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan sahaba/isaba/1_20191214_20191214_1316, page 667; a window of at most 40 words chosen by the qira'at detector (scripts/qiraat.ts); OCR text not corrected", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "qiraat-ocr-1" }
+sources: [source/isaba]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-sonnet-5-5) from the OCR'd book; label and summary are the museum's own words" }

@@ -1,0 +1,17 @@
+id: passage/tarikh-islam-dhahabi-qiraat-11-215
+class: passage
+unit: chapter
+work: work/tarikh-islam-dhahabi
+ref: "11:215"
+label: { ar: "تاريخ الإسلام للذهبي، المجلد المصوَّر 11، ص 215 — جمع القرآن والمصاحف، الخطوط والكتابة", en: "al-Dhahabi's Tarikh al-Islam, scan volume 11, p. 215 — the collection of the Qur'an and the codices; the scripts and the craft of writing", ur: "تاریخ الاسلام، ذہبی، اسکین جلد 11، ص 215 — جمعِ قرآن اور مصاحف، خطوط اور کتابت" }
+text: "… عرشه. وروى جعفر عنه قال : إذا لم يكن في القلب حزنٌ خَرِب كما إذا لم يكن في البيت ساكن خرب. قال ابن سعد : كان مالك ثقة قليل الحديث كان يكتب المصاحف. وقال جعفر بن سليمان : ثنا مالك …"
+summary:
+  ar: "مقطع من تاريخ الإسلام للذهبي، المجلد المصوَّر 11، ص 215، يذكر جمع القرآن والمصاحف، والخطوط والكتابة؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح قراءات القرآن والرسم والخطوط والضبط."
+  en: "An excerpt from al-Dhahabi's Tarikh al-Islam, scan volume 11, p. 215, that mentions the collection of the Qur'an and the codices, the scripts and the craft of writing; from the machine-read scan, quoted within forty words per the sources policy. The browser of the museum for how the Qur'an was read and written lists it."
+  ur: "تاریخ الاسلام، ذہبی، اسکین جلد 11، ص 215 کا اقتباس جس میں جمعِ قرآن اور مصاحف، خطوط اور کتابت کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ قراءات، رسم، خطوط اور نقطوں کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/mushaf, sources: [source/tarikh-islam-dhahabi] }
+  - { type: mentions, target: concept/khatt-al-arabi, sources: [source/tarikh-islam-dhahabi] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan tareekh/tarikh-islam-dhahabi/01.-_20240823__08. تاريخ الإسلام — (121 - 140 ه‍), page 215; a window of at most 40 words chosen by the qira'at detector (scripts/qiraat.ts); OCR text not corrected", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "qiraat-ocr-1" }
+sources: [source/tarikh-islam-dhahabi]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-sonnet-5-5) from the OCR'd book; label and summary are the museum's own words" }

@@ -15,6 +15,9 @@ made:
 holding_institution: "Thaalibia Library, Algiers"
 external_ids:
   wikidata: Q103983614
+tags: [qiraat-browser, qiraat-mushafs, qiraat-codex, qiraat-khatt]
+relations:
+  - { type: exemplifies, target: concept/maghribi-script, sources: [source/wikidata] }
 sources: [source/wikidata]
 status:
   review: draft

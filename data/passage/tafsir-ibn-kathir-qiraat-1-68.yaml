@@ -1,0 +1,17 @@
+id: passage/tafsir-ibn-kathir-qiraat-1-68
+class: passage
+unit: chapter
+work: work/tafsir-ibn-kathir
+ref: "1:68"
+label: { ar: "تفسير ابن كثير، المجلد المصوَّر 1، ص 68 — القراء، جمع القرآن والمصاحف", en: "Ibn Kathir's Tafsir, scan volume 1, p. 68 — the readers; the collection of the Qur'an and the codices", ur: "تفسیر ابن کثیر، اسکین جلد 1، ص 68 — قراء، جمعِ قرآن اور مصاحف" }
+text: "… القراء بدمشق. - وكان أبو الدرداء يشفه قد تصدَّر للإقراء بدمشق في خلافة عثمان مجته. - وعند البخاري في صحيحه عن أنس ميه قال: مات النبي وَا يقي، ولم يجمع القرآن غير أربعة: أبو الدرداء، ومعاذ، وزيد بن ثابت، وأبو …"
+summary:
+  ar: "مقطع من تفسير ابن كثير، المجلد المصوَّر 1، ص 68، يذكر القراء، وجمع القرآن والمصاحف؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح قراءات القرآن والرسم والخطوط والضبط."
+  en: "An excerpt from Ibn Kathir's Tafsir, scan volume 1, p. 68, that mentions the readers, the collection of the Qur'an and the codices; from the machine-read scan, quoted within forty words per the sources policy. The browser of the museum for how the Qur'an was read and written lists it."
+  ur: "تفسیر ابن کثیر، اسکین جلد 1، ص 68 کا اقتباس جس میں قراء، جمعِ قرآن اور مصاحف کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ قراءات، رسم، خطوط اور نقطوں کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/qiraat, sources: [source/tafsir-ibn-kathir] }
+  - { type: mentions, target: concept/mushaf, sources: [source/tafsir-ibn-kathir] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan tafsir/tafsir-ibn-kathir/0012994, page 68; a window of at most 40 words chosen by the qira'at detector (scripts/qiraat.ts); OCR text not corrected", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "qiraat-ocr-1" }
+sources: [source/tafsir-ibn-kathir]
+status: { review: draft, completeness: 1, generated_by: "Claude (claude-sonnet-5-5) from the OCR'd book; label and summary are the museum's own words" }
