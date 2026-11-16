@@ -1,0 +1,23 @@
+id: concept/nawa
+class: concept
+kind: natural
+label:
+  ar: "نوى"
+  en: "Nawa (stones and kernels)"
+  ur: "نوىٰ"
+summary:
+  ar: "النوى في الكتاب فيه قبض وتغرية، ينفع محرقه من القروح الخبيثة، ويقوم المحرق المطفأ المغسول في الأكحال مقام التوتيا، ويحسن الهدب وينبته {cite:canon-ibn-sina-print-v1 p.582}."
+  en: "Nawa, the stones or kernels, has in the book astringency and a gluing power; its burnt form helps malignant ulcers, and burnt, quenched and washed it takes the place of tutia in eye salves, beautifies the lashes and grows them {cite:canon-ibn-sina-print-v1 p.582}."
+  ur: "نوىٰ، یعنی گٹھلیاں، کتاب میں قبض اور چپکانے کی قوت رکھتی ہیں؛ ان کی راکھ خبیث زخموں میں مفید ہے، اور جلا کر بجھا کر دھوئی ہوئی سرمے میں توتیا کی جگہ لیتی، پلکوں کو سنوارتی اور اگاتی ہے {cite:canon-ibn-sina-print-v1 p.582}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letters nun and sin, scan pages 582, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for garbled headings; editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-20
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

@@ -1,0 +1,23 @@
+id: concept/maysaban
+class: concept
+kind: natural
+label:
+  ar: "ميسبان"
+  en: "Maysaban (the fruit the book names maysaban)"
+  ur: "میسبان"
+summary:
+  ar: "الميسبان في الكتاب طبعه كالمعتدل، مليّن، يلين الصدر والحلق، ويسكن العطش وخصوصاً مع بزره، ويلين البطن {cite:canon-ibn-sina-print-v1 p.600}."
+  en: "Maysaban is in the book of a temperament like the moderate, softening; it softens the chest and throat, calms thirst, especially with its seed, and softens the belly {cite:canon-ibn-sina-print-v1 p.600}."
+  ur: "میسبان کتاب میں معتدل جیسے مزاج کا ہے، نرم کرنے والا؛ سینے اور حلق کو نرم کرتا ہے، پیاس بجھاتا ہے خاص طور پر اپنے بیج کے ساتھ، اور پیٹ کو نرم کرتا ہے {cite:canon-ibn-sina-print-v1 p.600}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter sin, scan pages 600, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for garbled headings; editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-21
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

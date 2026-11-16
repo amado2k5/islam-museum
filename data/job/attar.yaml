@@ -1,0 +1,45 @@
+id: job/attar
+class: job
+label: { ar: "العطّار", en: "Perfumer and druggist (attar)", ur: "عطار" }
+names:
+  - { value: "صيدلاني", kind: alternate }
+  - { value: "Bokhurjian", kind: latinized, lang: tr }
+summary:
+  ar: "العطّار هو من يبيع الطيب والأدوية المركّبة والمفردة، وفي دكانه المسك والعنبر والعود واللبان. تعدّ كتب الحسبة فضاءه أخطر الدكاكين لأن أغشّ العقاقير يضرّ المرضى: يأمر الشيزري المحتسب أن يهيب بهم ويعظهم ويخوّفهم العقوبة ويعاين أدويتهم كل أسبوع، ويفصّل غشّ الأفيون المصرّي بالخشخاش القرني وبعصارة الخسّ البري وبالصمغ، والراوند الصيني براوند الدوابّ، والتباشير بالعظام المحروقة، واللبان بالقلفونية والصمغ، والمسك بأملج البلوط وشدّيران يعجنه براتنج الصنوبر المذاب. ويقول ابن الأخوة إن أمرهم من أهم ما يعنى به المحتسب ولا يباشر البيع إلا أهل المعرفة والتجربة، وأن تُشترى الأدوية من العطّار مفردة ثم تُركَّب. وفي قاهرة لين كان العطّار عطّاراً وصيدلانياً يبيع الشموع أيضاً، وفي إسطنبول إوليا لتجّار العود والعنبر والبخور طوائف تبخّر دكاكينها في الموكب."
+  en: "The attar sold perfumes and simple and compounded drugs: musk, ambergris, aloes-wood and frankincense stood on his shelves. The hisba manuals treat his shop as the most dangerous of all, for adulterated medicine harms the sick: al-Shayzari orders the muhtasib to intimidate, exhort and warn the druggists of punishment and to inspect their drugs weekly, and details the frauds — Egyptian opium cut with horned poppy, wild-lettuce sap and gum; Chinese rhubarb with the rawand of beasts; bamboo concrete with burnt bones; frankincense with colophonium and gum; musk bulked with emblic myrobalan and shadiran kneaded in diluted pine resin. Ibn al-Ukhuwwa calls them among the most important of the muhtasib's charges, permits selling only to persons of knowledge and experience, and requires that drugs be bought singly and then compounded. In Lane's Cairo the 'attar was druggist and perfumer and sold wax candles too, and in Evliya's Istanbul the aloe, ambergris and incense merchants perfumed their shops as they marched."
+  ur: "عطار خوشبو اور سادہ و مرکب ادویہ بیچتا ہے: اس کی دکان پر کستوری، عنبر، عود اور لوبان رکھے ہوتے ہیں۔ حسبہ کی کتابیں اس کی دکان کو سب سے خطرناک سمجھتی ہیں کہ ملی ہوئی دوا مریض کو نقصان دیتی ہے: الشیزری محتسب کو حکم دیتا ہے کہ عطاروں کو ڈرائے، نصیحت کرے، سزا کی دھمکی دے اور ہر ہفتے ان کی ادویہ جانچے، اور دھوکھے گنواتا ہے — مصری افیون میں سیرہ والا خشخاش، جنگلی سالاد پتہ کا رس اور گوند؛ چینی ریوند میں جانوروں والی ریوند؛ تباشیر میں جلی ہڈیاں؛ لوبان میں کولوفون اور گوند؛ کستوری میں آملہ اور شدیران صنوبر کے رال میں گوندھ کر۔ ابن الاخوہ انھیں محتسب کی اہم ترین ذمہ داریوں میں لکھتا ہے، فروخت صرف علم و تجربہ والوں کو جائز سمجھتا ہے، اور کہتا ہے کہ ادویہ الگ الگ خرید کر پھر ترکیب دی جائے۔ لین کے قاہرہ میں عطار خوشبو فروش و دوا فروش دونوں تھا اور موم بتیاں بھی بیچتا تھا، اور اولیاء چلبی کے استنبول میں عود، عنبر اور بخور کے سوداگر جلوس میں اپنی دکانیں معطر کرتے چلتے تھے۔"
+domain: trade-travel-sea
+kind: commercial
+hirfa: true
+broader: job/merchant
+era:
+  origins: pre-islamic
+  status_today: living
+places:
+  - { place: place/cairo, note: "Lane lists the 'attar among the principal trades of the Cairo market streets, druggist and perfumer who also sells wax candles; Chalcraft records Mahmud al-'Attar, the sartujjar or head of all the merchants of Cairo, claiming exemption from the professional tax in the late 1870s.", sources: [source/lane-modern-egyptians, source/chalcraft-striking-cabbies] }
+  - { place: place/istanbul, note: "Evliya passes the aloe and ambergris merchants at one hundred men with forty shops and the perfume merchants at thirty men with twenty-five shops, all perfuming their shops with aloe, ambergris, frankincense and spikenard as they march.", sources: [source/evliya-seyahatname-hammer] }
+regions: [egypt-nile, anatolia-balkans, levant-iraq]
+organization:
+  organized: guild
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people, living]
+periods: [period/crusades-ayyubid-mamluk, period/gunpowder-empires, period/modern-era]
+sources: [source/shayzari-nihaya-buckley, source/ibn-ukhuwwa-maalim-levy, source/lane-modern-egyptians, source/evliya-seyahatname-hammer, source/chalcraft-striking-cabbies]
+craft:
+  materials: []
+  techniques:
+    ar: "يفصّل الشيزري فحص الغشّ: المسك يُمتحَن بفتح قيراطيسه ووضعها على الشفة، فإن لذع كالنار فهو خالص وإلا فمغشوش؛ ومن غشّهم ملء القوارير بلحاء الأملج والفلفل الهندي وشدّيران معجونة براتنج الصنوبر المذاب بنسبة أربعة دراهم إلى درهم مسك، أو معجون مسك السغد بثلاثة أضعافه، أو ملء القيراطس بلحاء البلوط المحروق؛ ومنهم من يصنع مسكاً بلا قيراطس من القسط والرميك ودم التنين، أو من الناردين وبرادة العود والقرفة والقرنفل بمثل وزنه مسكاً؛ ويمتحَن المسك بمضغه وبزاقه على خرقة بيضاء فإن تنافى ولم يصبغ فهو خالص وإن لبث يصبغ فمغشوش. والعنبر يُصنع غشّاً من الزَّبَد وقرن الحبار والراتنج الأسود والشمع والصندروس وجوز الطيب، وأحياناً يُبخّ رؤوسه بالصندروس فيجب حرق أطرافه."
+    en: "Al-Shayzari details the tests for fraud: a musk bag is opened and put to the lips — if the musk bites like fire it is pure, otherwise adulterated; the frauds include bags filled with emblic myrobalan bark, Indian pepperwort and shadiran kneaded with diluted pine resin at four dirhams to one of musk, a paste of Sughd musk with three times its bulk, or bags filled with fire-treated oak bark; some make bagless musk of costus, ramik and dragon's blood, or of spikenard, aloes-wood filings, cinnamon and cloves at equal weight; the test is to chew a little, spit it on white cloth and shake — what shakes off unstaining is pure, what stains is adulterated. Ambergris is faked from cuttlefish bone, black resin, beeswax, sandarac and nutmeg, and its tips are sometimes sprayed with sandarac so that they must be burnt to be tested."
+    ur: "الشیزری دھوکھے کی جانچ تفصیل سے بتاتا ہے: کستوری کی تھیلی کھول کر ہونٹوں سے لگائی جائے — اگر وہ آگ کی طرح جھلسائے تو خالص، ورنہ ملاوٹ شدہ؛ دھوکھوں میں ہے کہ تھیلیاں آملہ کی چھال، ہندوستانی فلفل پودا اور شدیران سے بھر کر صنوبر کے رال میں چار درہم بدلہ ایک درہم کستوری گوندھیں، یا سغدی کستوری کو تین گنا ملا کر بھریں، یا بلوط کی جلی چھال بھریں؛ بعض بغیر تھیلی کی کستوری قسط، رمیک اور خونِ اژدہا سے یا سمبل الطیب، عود کی برادا، دارچینی اور لونگ برابر وزن سے بناتے ہیں؛ جانچ یہ ہے کہ ذرا چبا کر سفید کپڑے پر تھوک کر جھاڑا جائے — جو اتر کر داغ نہ چھوڑے وہ خالص، داغ چھوڑنے والا ملی۔ عنبر بھی زیبد، سمندر کی ہڈی، سیاہ رال، موم، صندروس اور جائفل سے بنا کر ملاتے ہیں، اور بعض اوقات اس کے سرے صندروس چھڑکتے ہیں جن کا امتحان جلانے سے ہوتا ہے۔"
+  guild:
+    bodies: []
+    shaykh_title: { ar: "سرتجّار العطّارين", en: "Sartujjar of the druggists, head of the Cairo merchants", ur: "عطاروں کا سرتجار" }
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-harvest-3" }
+provenance:
+  layer: own-research
+  source: "al-Shayzari/Buckley ch. 17 pp. 64-68 (apothecaries) and ch. 18 pp. 69-74 (perfumers); Ibn al-Ukhuwwa/Levy ch. XXV pp. 38-39 (druggists); Lane ch. XIV p. 318 ('attar); Evliya (von Hammer) I,2 secs. 417-418 p. 212; Chalcraft p. 79 (Mahmud al-'Attar the sartujjar) — read on 15-16 Nov 2026 from the downloaded scans"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-harvest-3-drafting"

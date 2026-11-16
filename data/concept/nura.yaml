@@ -1,0 +1,23 @@
+id: concept/nura
+class: concept
+kind: natural
+label:
+  ar: "نورة"
+  en: "Nura (lime)"
+  ur: "نورہ"
+summary:
+  ar: "النورة في الكتاب ما ترمد من الأجسام الحجرية والخزفية، التي لم يصبها الماء محرقة، والمطفأة تسخن فقط، والمغسولة معتدلة يابسة، تقطع نزف الدم وتأكل اللحم الزائد وتنفع من حرق النار {cite:canon-ibn-sina-print-v1 p.580}."
+  en: "Nura, lime, is in the book what turns to ash from stony and ceramic bodies; unslaked it burns, slaked it only warms and the washed kind is moderate and dry; it stops bleeding, eats excess flesh and the washed kind helps fire burns {cite:canon-ibn-sina-print-v1 p.580}."
+  ur: "نورہ ⁦(چونا)⁩ کتاب میں پتھر اور ٹھیکری جیسے اجسام کی راکھ ہے؛ جسے پانی نہ لگا ہو وہ جلانے والا ہے، بجھایا ہوا صرف گرم کرتا ہے اور دھویا ہوا معتدل خشک ہے؛ خون بہنا روکتا، زائد گوشت کھاتا اور دھویا ہوا آگ کے جلنے میں مفید ہے {cite:canon-ibn-sina-print-v1 p.580}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letters mim and nun, scan pages 580, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-19
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

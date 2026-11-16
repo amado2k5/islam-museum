@@ -1,0 +1,23 @@
+id: concept/sadhij
+class: concept
+kind: natural
+label:
+  ar: "ساذج"
+  en: "Sadhij (the water leaf of India)"
+  ur: "ساذج"
+summary:
+  ar: "الساذج في الكتاب قريب القوة من السنبل إلا أنه ألين، أوراق تظهر على وجه الماء في بلاد الهند، حار يابس في الثانية، أجوده الحديث الضارب إلى البياض، يحفظ الثياب من السوس فيما يقال، ويطيب النكهة، وهو أنفع للمعدة والكبد وأشد إدراراً من الناردين {cite:canon-ibn-sina-print-v1 p.585}."
+  en: "Sadhij is in the book close in strength to sunbul but softer, leaves that appear on the face of the water in India, hot and dry in the second degree, best when fresh and inclining to white; it is said to keep clothes from moths and sweetens the breath, and it is more helpful to the stomach and liver and more strongly diuretic than nardin {cite:canon-ibn-sina-print-v1 p.585}."
+  ur: "ساذج کتاب میں قوت میں سنبل کے قریب مگر اس سے نرم ہے، ہند میں پانی کی سطح پر ظاہر ہونے والے پتے، دوسرے درجے میں گرم خشک، بہترین نیا، سفیدی کی طرف مائل؛ کہا جاتا ہے کہ کپڑوں کو گھن سے بچاتا ہے، سانس مہکاتا ہے، اور معدے اور جگر کے لیے ناردین سے زیادہ مفید اور پیشاب لانے میں اس سے زیادہ سخت ہے {cite:canon-ibn-sina-print-v1 p.585}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letters nun and sin, scan pages 585 to 586, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for garbled headings; editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-20
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

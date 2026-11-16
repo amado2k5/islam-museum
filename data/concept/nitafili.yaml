@@ -1,0 +1,23 @@
+id: concept/nitafili
+class: concept
+kind: natural
+label:
+  ar: "نيطافيلي"
+  en: "Nitafili (the five-leaved spurge)"
+  ur: "نیطافیلی"
+summary:
+  ar: "نيطافيلي في الكتاب هو اليتوع المسمى بخمسة أوراق، قوي التجفيف بلا حدة ولا لذع، يضمد به للنزف فيقطعه ولكثير من الأورام والخنازير، وينفع المفاصل وعرق النسا وأمراض الفم والكبد، وعصارة أصله دواء قتال {cite:canon-ibn-sina-print-v1 p.583}."
+  en: "Nitafili is in the book the spurge called five-leaved, strongly drying without sharpness or sting; it is applied as a poultice to stop bleeding and for many swellings and scrofula, it helps the joints, sciatica and ailments of the mouth and liver, and the juice of its root is a deadly drug {cite:canon-ibn-sina-print-v1 p.583}."
+  ur: "نیطافیلی کتاب میں وہ یتوع ہے جسے پانچ پتوں والا کہا جاتا ہے، بغیر تیزی اور چبھن کے سخت خشک کرنے والا؛ خون بہنے کو روکنے اور بہت سے ورموں اور غدود کے لیے لیپ کیا جاتا ہے، جوڑوں، عرق النسا اور منہ و جگر کی بیماریوں میں مفید ہے، اور اس کی جڑ کا عرق مہلک دوا ہے {cite:canon-ibn-sina-print-v1 p.583}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letters nun and sin, scan pages 582 to 583, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for garbled headings; editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-20
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

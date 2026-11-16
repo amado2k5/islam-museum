@@ -1,0 +1,23 @@
+id: concept/manur
+class: concept
+kind: natural
+label:
+  ar: "منعور"
+  en: "Manur (the poppy cross-reference)"
+  ur: "منعور"
+summary:
+  ar: "المنعور مدخل إحالة في الكتاب: زعم ديسقوريدوس أنه الخشخاش المصري، ويحيل المؤلف إلى فصل الخاء، وبه يختم حرف الميم وجملته أربعة وخمسون دواء {cite:canon-ibn-sina-print-v1 p.574}."
+  en: "Manur is a cross-reference entry in the book: Dioscorides claimed it is the Egyptian poppy, and the author refers the reader to the letter kha; it closes the letter mim, which the book counts as fifty-four drugs {cite:canon-ibn-sina-print-v1 p.574}."
+  ur: "منعور کتاب میں حوالہ جاتی اندراج ہے: دیسقوریدوس کا دعویٰ تھا کہ یہ مصری خشخاش ہے، اور مصنف قاری کو حرف خا کے باب کی طرف بھیجتا ہے؛ اس پر حرف میم ختم ہوتا ہے جس کی کل تعداد کتاب چوّن دوائیں بتاتی ہے {cite:canon-ibn-sina-print-v1 p.574}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letters mim and nun, scan pages 574, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-19
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

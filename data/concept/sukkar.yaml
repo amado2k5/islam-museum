@@ -1,0 +1,23 @@
+id: concept/sukkar
+class: concept
+kind: natural
+label:
+  ar: "سكر"
+  en: "Sukkar (sugar)"
+  ur: "سکر"
+summary:
+  ar: "السكر في الكتاب قصب السكر في طبع السكر وأشد تليينا منه، أبرده الطبرزد وهو ألطف، وهو حار في آخر الأولى رطب فيها والعتيق يميل إلى اليبس، مليّن جلاء غسال، جيد للمعدة إلا التي تتولد فيها الصفراء، مفتح للسدد، ويسهل ولا سيما الذي يوجد على قصبه، وهو مع دهن اللوز نافع للقولنج {cite:canon-ibn-sina-print-v1 p.601}."
+  en: "Sukkar is in the book the sugar cane, in the nature of sugar and more softening; the coldest is the tabarzad, which is subtler, and it is hot at the end of the first degree and moist in it, the aged kind tending to dryness; softening, cleansing and washing, good for the stomach except where bile arises, opening blockages, loosening the bowels, above all the kind found on the cane, and with almond oil useful for colic {cite:canon-ibn-sina-print-v1 p.601}."
+  ur: "سکر کتاب میں گنے کا رس ہے جو شکر کی طبیعت پر ہے اور اس سے زیادہ نرم کرنے والا؛ سب سے ٹھنڈی طبرزد ہے جو زیادہ لطیف ہے، اور یہ پہلے درجے کے آخر میں گرم اور اس میں تر ہے، پرانی خشکی کی طرف مائل؛ نرم کرنے والی، جلا دینے والی اور دھونے والی، معدے کے لیے اچھی سوائے اس معدے کے جہاں صفرا پیدا ہوتا ہو، رکاوٹیں کھولتی ہے، پیٹ کو چلاتی ہے خاص طور پر وہ جو گنے پر ملتی ہے، اور بادام کے تیل کے ساتھ قولنج میں مفید ہے {cite:canon-ibn-sina-print-v1 p.601}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter sin, scan pages 601, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for garbled headings; editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-21
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

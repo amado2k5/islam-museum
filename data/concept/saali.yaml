@@ -1,0 +1,23 @@
+id: concept/saali
+class: concept
+kind: natural
+label:
+  ar: "سعالي"
+  en: "Sa'ali (the plant the book names sa'ali)"
+  ur: "سعالی"
+summary:
+  ar: "السعالي في الكتاب من جوهر حار وجوهر مائي، حار حريف باعتدال، ورقه يفجر الدبيلات ويحللها في ابتدائها، والطري منه ينضج الأورام العاصية ويقلع الجرب المتقرح، ويقع في الأدوية المحدة للبصر، وقيل إنه أفضل دواء للسعال ونفس الانتصاب {cite:canon-ibn-sina-print-v1 p.596}."
+  en: "Sa'ali is in the book of a hot substance and a watery substance, moderately hot and pungent; its leaf bursts abscesses and dissolves them at their start, the fresh kind ripens stubborn swellings and removes ulcerating scab, it enters drugs that sharpen sight, and it is said to be the best remedy for cough and orthopnoea {cite:canon-ibn-sina-print-v1 p.596}."
+  ur: "سعالی کتاب میں گرم جوہر اور آبی جوہر سے ہے، اعتدال سے گرم اور تیز؛ اس کا پتا پھوڑوں کو پھاڑتا اور ابتدا میں انہیں گھلاتا ہے، تازہ قسم ضدی ورموں کو پکاتی اور پھوٹنے والی خارش اکھاڑتی ہے، بینائی تیز کرنے والی دواؤں میں شامل ہوتا ہے، اور کہا گیا کہ کھانسی اور نفس الانتصاب کی بہترین دوا ہے {cite:canon-ibn-sina-print-v1 p.596}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter sin, scan pages 596, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for garbled headings; editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-21
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

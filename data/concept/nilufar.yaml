@@ -1,0 +1,23 @@
+id: concept/nilufar
+class: concept
+kind: natural
+label:
+  ar: "نيلوفر"
+  en: "Nilufar (water lily)"
+  ur: "نیلوفر"
+summary:
+  ar: "النيلوفر في الكتاب كرنب الماء كما قال جالينوس، بارد في الثالثة، شرابه شديد التطفئة ملطف، ومنوم يسكن الصداع الحار، وينفع السعال والطحال والإسهال المزمن، ويذكر له نقلاً موسوماً في الباه والطمث {cite:canon-ibn-sina-print-v1 p.577}."
+  en: "Nilufar is in the book the water cabbage, as Galen said, cold in the third degree, its syrup strongly quenching and thinning; it brings sleep, calms hot headache, helps cough, spleen and chronic diarrhoea, and the book gives it a labelled listing on desire and menses {cite:canon-ibn-sina-print-v1 p.577}."
+  ur: "نیلوفر کتاب میں پانی کی گوبھی ہے جیسا جالینوس نے کہا، تیسرے درجے میں سرد؛ اس کا شربت بہت بجھانے والا اور لطیف ہے؛ نیند لاتا، گرم سردرد کو تسکین دیتا اور کھانسی، تلی اور پرانے اسہال میں مفید ہے، اور کتاب اس کے لیے باہ اور حیض کے بارے میں ایک موسوم نقل دیتی ہے {cite:canon-ibn-sina-print-v1 p.577}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letters mim and nun, scan pages 577, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-19
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

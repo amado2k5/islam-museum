@@ -1,0 +1,23 @@
+id: concept/mawz
+class: concept
+kind: natural
+label:
+  ar: "موز"
+  en: "Mawz (banana)"
+  ur: "موز"
+summary:
+  ar: "الموز معروف، له ورق عريض طويل شبيه بورق المارزوان، وينبت في البلدان الحارة لا غير، يغذو يسيراً وهو مليّن، والإكثار منه يولد السدد ويثقل المعدة {cite:canon-ibn-sina-print-v1 p.573}."
+  en: "Mawz, the banana, is called well known, with broad long leaves like those of the marzuwan, growing only in hot lands; it nourishes a little and loosens, and too much of it breeds obstructions and weighs on the stomach {cite:canon-ibn-sina-print-v1 p.573}."
+  ur: "موز معروف ہے، اس کے پتے چوڑے لمبے اور مرزوان کے پتوں جیسے ہیں اور یہ صرف گرم ملکوں میں اگتا ہے؛ تھوڑی غذا دیتا اور نرم کرتا ہے، اور اس کی زیادتی سدے پیدا کرتی اور معدے پر بوجھ ڈالتی ہے {cite:canon-ibn-sina-print-v1 p.573}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letters mim and nun, scan pages 573, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json); editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-19
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

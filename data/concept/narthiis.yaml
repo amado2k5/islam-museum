@@ -1,0 +1,23 @@
+id: concept/narthiis
+class: concept
+kind: natural
+label:
+  ar: "نرثيعس"
+  en: "Narthiis (an unidentified drug)"
+  ur: "نرثیعس"
+summary:
+  ar: "نرثيعس في الكتاب دواء حار في جوفه شحم أخضر قباض، ومع الزيت يدر العرق، ينفخ منه في المنخرين فيقطع الرعاف، ولبه الرطب ينفث الدم المجتمع في الصدر، ولبه يمنع الإسهال المزمن، وهو نافع لنهش الأفعى. والاسم كما يقرأ في صورة الصفحة غير محدد النبات."
+  en: "Narthiis is in the book a hot drug with a green, astringent fat in its interior, which with oil provokes sweat; blown into the nostrils it cuts nosebleed, its fresh pith brings up the blood gathered in the chest and its pith stops long-standing diarrhoea, and it helps the bite of the viper. The name is as read from the page image and the plant is not identified."
+  ur: "نرثیعس کتاب میں ایک گرم دوا ہے جس کے اندر سبز قابض چربی ہے اور تیل کے ساتھ پسینہ لاتی ہے؛ ناک میں پھونکنے سے نکسیر روکتی ہے، اس کا تازہ گودا سینے میں جمع خون کو تھوکوا دیتا ہے اور پرانا اسہال روکتا ہے، اور سانپ کے ڈسنے میں مفید ہے۔ نام صفحے کی تصویر سے پڑھا گیا ہے اور پودا متعین نہیں۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letters nun and sin, scan pages 579, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for garbled headings; editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-20
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

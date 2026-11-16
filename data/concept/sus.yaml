@@ -1,0 +1,23 @@
+id: concept/sus
+class: concept
+kind: natural
+label:
+  ar: "سوس"
+  en: "Sus (the root called sus)"
+  ur: "سوس"
+summary:
+  ar: "السوس في الكتاب أصله معتدل فإن ضرب إلى شيء ضرب إلى حرارة ورطوبة، عصارته على الداحس وللجراحات، يلين قصبة الرئة وينقيها وينفع الرئة والحلق ويصفي الصوت، ويسكن العطش لرطوبته، وينفع حرقة البول وقروح الكلى والمثانة والحميات العتيقة {cite:canon-ibn-sina-print-v1 p.593}."
+  en: "Sus is in the book a root of moderate temperament, leaning if anything to heat and moisture; its juice is put on the whitlow and on wounds, it softens and cleans the windpipe, helps lung and throat and clears the voice, calms thirst by its moisture, and the book lists it for burning of urine, ulcers of the kidneys and bladder and old fevers {cite:canon-ibn-sina-print-v1 p.593}."
+  ur: "سوس کتاب میں ایک جڑ ہے جس کا مزاج معتدل ہے اور اگر کسی طرف مائل ہو تو گرمی اور تری کی طرف؛ اس کا رس بے ناخنہ اور زخموں پر لگایا جاتا ہے، قصبۂ ریہ کو نرم کرتا اور صاف کرتا، پھیپھڑے اور حلق کو فائدہ دیتا اور آواز صاف کرتا ہے، اپنی تری سے پیاس بجھاتا ہے، اور کتاب اسے پیشاب کی جلن، گردے اور مثانے کے زخموں اور پرانے بخاروں کے لیے گنواتی ہے {cite:canon-ibn-sina-print-v1 p.593}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter sin, scan pages 593, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for garbled headings; editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-21
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

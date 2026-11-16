@@ -1,0 +1,23 @@
+id: concept/sakbinaj
+class: concept
+kind: natural
+label:
+  ar: "سكبينج"
+  en: "Sakbinaj (the gum called sakbinaj)"
+  ur: "سکبینج"
+summary:
+  ar: "السكبينج في الكتاب صمغ نبات شبيه بالقثاء ينبت في أرض ذات ماء، أجوده الصافي الأكثف الأحمر ظاهراً الأبيض باطناً، رائحته بين الحلتيت والقنة، حار في الثالثة يابس في الثانية، محلل ملطف، ينفع من الفالج وأوجاع المفاصل الباردة والصداع البارد وظلمة العين والاستسقاء والقولنج والحميات الدائرة ولسع الهوام، وفي الكتاب نقل موسوم في الرحم والطمث والجنين {cite:canon-ibn-sina-print-v1 p.595}."
+  en: "Sakbinaj is in the book the gum of a plant like the cucumber in shape, growing in a watered land; the best is the clear and denser kind, red outside and white within, its scent between asafoetida and qanna, hot in the third degree and dry in the second, dissolving and thinning; the book lists it for palsy, cold joint pains, cold headache, darkness of the eye, dropsy, colic, periodic fevers and the stings of vermin, with a labelled listing on the womb, menses and foetus {cite:canon-ibn-sina-print-v1 p.595}."
+  ur: "سکبینج کتاب میں ایک پودے کا گوند ہے جو شکل میں ککڑی جیسا ہے اور پانی والی زمین میں اگتا ہے؛ بہترین صاف اور گاڑھا، باہر سے سرخ اور اندر سے سفید، اس کی بو حلتیت اور قنہ کے بیچ کی ہے، تیسرے درجے میں گرم اور دوسرے میں خشک، گھلانے اور لطیف کرنے والا؛ کتاب اسے فالج، ٹھنڈے جوڑوں کے درد، ٹھنڈے سر درد، آنکھ کی تاریکی، استسقا، قولنج، دائر بخاروں اور زہریلے کیڑوں کے ڈنک کے لیے گنواتی ہے، اور رحم، حیض اور جنین کے بارے میں ایک موسوم نقل دیتی ہے {cite:canon-ibn-sina-print-v1 p.595}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter sin, scan pages 595, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for garbled headings; editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-21
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

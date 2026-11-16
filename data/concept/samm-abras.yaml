@@ -1,0 +1,23 @@
+id: concept/samm-abras
+class: concept
+kind: natural
+label:
+  ar: "سام أبرص"
+  en: "Samm abras (the gecko)"
+  ur: "سام ابرص"
+summary:
+  ar: "سام أبرص في الكتاب هو الوزغ ويقال خلاقه، يضمد به على الشوك والسلاء وعلى الثآليل والمسمارية فيقلعها، والمجفف منه مع الزيت ينبت الشعر على القرع، وقيل إن كبده يسكن وجع الضرس، ويشق ويوضع على لسع العقرب، وله بول ودم نافعان في فتق الصبيان {cite:canon-ibn-sina-print-v1 p.601}."
+  en: "Samm abras is in the book the wall lizard, also called khalaq; laid on thorns and splinters and on warts and nail-warts it removes them, the dried kind with oil grows hair on a scald, its liver is said to calm toothache, and split open it is laid on a scorpion's sting, while its urine and blood are said to help hernia in children {cite:canon-ibn-sina-print-v1 p.601}."
+  ur: "سام ابرص کتاب میں چھپکلی ⁦(وزغ)⁩ ہے جسے خلاق بھی کہا جاتا ہے؛ کانٹوں اور پھانس پر اور مسوں اور میخ نما مسوں پر رکھی جائے تو انہیں اکھاڑتی ہے، خشک کی ہوئی تیل کے ساتھ گنج پر بال اگاتی ہے، کہا گیا کہ اس کا جگر داڑھ کے درد کو تسکین دیتا ہے، چیر کر بچھو کے ڈنک پر رکھی جاتی ہے، اور اس کا پیشاب اور خون بچوں کے فتق میں مفید بتائے گئے ہیں {cite:canon-ibn-sina-print-v1 p.601}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter sin, scan pages 600 to 601, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for garbled headings; editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-21
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

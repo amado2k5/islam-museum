@@ -1,0 +1,23 @@
+id: concept/saqanqur
+class: concept
+kind: natural
+label:
+  ar: "سقنقور"
+  en: "Saqanqur (the Nile lizard)"
+  ur: "سقنقور"
+summary:
+  ar: "السقنقور في الكتاب ورل نيلي يصاد بمصر ويزعمون أنه من نتاج التمساح في البر، أجود ما فيه ناحية كلاه، وللكتاب فيه نقل موسوم في الباه {cite:canon-ibn-sina-print-v1 p.600}."
+  en: "Saqanqur is in the book a Nile lizard hunted in Egypt, said by some to be the offspring of the crocodile on land, the best part of it being the region of the loins; the book gives a labelled listing on desire {cite:canon-ibn-sina-print-v1 p.600}."
+  ur: "سقنقور کتاب میں نیل کی ایک گوہ ⁦(ورل)⁩ ہے جو مصر میں شکار کی جاتی ہے، اور لوگ سمجھتے ہیں کہ یہ خشکی پر مگرمچھ کی اولاد ہے، اس کا بہترین حصہ کمر کے پاس کا ہے؛ کتاب اس کے بارے میں باہ کی ایک موسوم نقل دیتی ہے {cite:canon-ibn-sina-print-v1 p.600}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter sin, scan pages 600, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for garbled headings; editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-21
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

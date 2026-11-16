@@ -1,0 +1,23 @@
+id: concept/sarmaq
+class: concept
+kind: natural
+label:
+  ar: "سرمق"
+  en: "Sarmaq (the potherb called qatf)"
+  ur: "سرمق"
+summary:
+  ar: "السرمق في الكتاب هو القطف، بقلة معروفة، وهي جنسان أحدهما بري والآخر بستاني، وقد يطبخ أيهما كان ويؤكل، بارد رطب في الأولى وعند بعضهم معتدل {cite:canon-ibn-sina-print-v1 p.600}."
+  en: "Sarmaq is in the book the qatf, a well-known potherb of two kinds, one wild and one garden, either of which may be cooked and eaten; cold and moist in the first degree, and moderate according to some {cite:canon-ibn-sina-print-v1 p.600}."
+  ur: "سرمق کتاب میں قطف ہے، ایک معروف ترکاری جس کی دو قسمیں ہیں: ایک جنگلی اور ایک باغی، دونوں پکا کر کھائی جا سکتی ہیں؛ پہلے درجے میں ٹھنڈی تر، اور بعض کے نزدیک معتدل {cite:canon-ibn-sina-print-v1 p.600}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letter sin, scan pages 600, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for garbled headings; editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-21
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

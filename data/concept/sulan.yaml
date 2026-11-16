@@ -1,0 +1,23 @@
+id: concept/sulan
+class: concept
+kind: natural
+label:
+  ar: "سولان"
+  en: "Sulan (the Roman drug)"
+  ur: "سولان"
+summary:
+  ar: "سولان في الكتاب دواء رومي معروف، حار يابس إلى الرابعة، يحرق الجلد، وينفع من اللقوة إذا سعط به بماء السلق، وينفع أورام الأجفان وتهيجها {cite:canon-ibn-sina-print-v1 p.586}."
+  en: "Sulan is in the book a well-known Roman drug, hot and dry to the fourth degree, burning the skin; used in the nose with beet water it helps facial palsy, and it helps swellings of the eyelids and their irritation {cite:canon-ibn-sina-print-v1 p.586}."
+  ur: "سولان کتاب میں ایک معروف رومی دوا ہے، چوتھے درجے تک گرم خشک، جلد کو جلا دیتی ہے؛ چقندر کے پانی کے ساتھ ناک میں چڑھائی جائے تو لقوہ میں مفید ہے، اور پپوٹوں کے ورم اور ان کی سوزش میں نفع دیتی ہے {cite:canon-ibn-sina-print-v1 p.586}۔"
+wings: [living]
+tags: [tibb-browser, tibb-dawa]
+sources: [source/canon-ibn-sina-print-v1]
+relations:
+  - { type: part_of, target: concept/al-adwiya-al-mufrada, sources: [source/canon-ibn-sina-print-v1] }
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, vol. 1 (Dar al-Kutub al-Ilmiyya, Beirut 1999), Book II, Jumla 2, letters nun and sin, scan pages 586, read from the existing Apple Vision OCR on the harvest drive (medicine-science/canon-ibn-sina-print-v1, pages.json), with the page image checked for garbled headings; editor footnotes used only for identity; measured doses, weights and preparation methods left out; garbled OCR left out, not guessed; womb, menses, foetus, semen, desire and conception listings kept only as labelled listings set aside for the founder's ruling"
+  generated_by: "Claude Sonnet 5.5 (claude-sonnet-5-5), lane A4"
+  model: claude-sonnet-5-5
+  run: a4-canon-book2-20
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (book mining, lane A4)" }

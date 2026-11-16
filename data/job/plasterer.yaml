@@ -1,0 +1,45 @@
+id: job/plasterer
+class: job
+label: { ar: "الجبّاص", en: "Plasterer / stucco worker (jabbas)", ur: "پلستر کار ⁦(جبّاص)⁩" }
+names:
+  - { value: "Alchejian", kind: latinized, lang: tr }
+  - { value: "Badanaji", kind: alternate, lang: tr }
+summary:
+  ar: "الجبّاص هو من يكسو الجدران بالجصّ والجير والمونة. يضع ابن الأخوة الجبّاصين في باب البنّائين ويضبط خلطتهم: ألا يزيدوا الجير في الجصّ الأبيض سعياً للسهولة في اللطخ، فإن زاد سقط الجصّ من الجدار عند ترميمه؛ ويضبط الجير نفسه فعلامة نضجه أن يصفرّ في التنّور قبل الطحن وأن يجفّ سريعاً إذا خُلط بالماء، ولا يُستعمل جير عتيق. ويحلف البنّاءون ألا يقبلوا رشوة حرّاقي الجير وصنّاع الجبس. وفي موكب إوليا يمرّ الجبّاصون ⁦(علچجيان)⁩ خمسمئة رجل بخمس وعشرين دكاناً يديرون طواحين جبسهم في المسير، ومعهم صنّاع المونة والكلس بأنواعه وصنّاع اللوقون لأعمال المياه، والمبيّضون ⁦(بداناجي)⁩ يحملون أحواض الغسالة وسيخاً طوالاً أطرافها فرش من شعر الخنزير يبيّضون بها الجدران. وفي قاهرة القرن التاسع عبر كان الجصّاصون بين مهاجري البناء من مالطة وإيطاليا واليونان."
+  en: "The jabbas coated the walls with gypsum plaster, lime and mortar. Ibn al-Ukhuwwa puts the plasterers in the builders' chapter and regulates their mix: they must not add too much lime to the white plaster for ease of spreading, for with an excess it falls from the wall when the owner repairs it; and he regulates the lime itself — the mark of well-burnt lime is that it turns yellow in the kiln before grinding and dries quickly once mixed with water, and no old lime may be used. The masons swear not to take the lime-burners' and gypsum-makers' bribes. In Evliya's procession the plasterers (Alchejian) pass five hundred men with twenty-five shops, putting their plaster-mills in motion as they march, and with them the mortar-makers, the chalk-makers of every kind, the makers of water-proofing loqun, and the whitewashers (Badanaji) carrying troughs of marble-chalk wash and long poles tipped with swine-bristle brushes for whitening walls. In nineteenth-century Cairo the plasterers were among the building trades' migrants from Malta, Italy and Greece."
+  ur: "جبّاص دیواروں پر گچ، چونہ اور مونة کی لیپ چڑھاتا تھا۔ ابن الاخوہ جبّاصوں کو مستریوں کے باب میں رکھ کر ان کی مِکس ضبط کرتا ہے: وہ سفید پلستر میں بکھانے کی آسانی کے لیے زیادہ چونہ نہ ملائیں کہ زیادہ ہونے پر مالک کی مرمت پر پلستر دیوار سے گر پڑتا ہے؛ اور چونے کو خود ضبط کرتا ہے: پکے چونے کی پہچان بھٹے میں پیسنے سے پہلے زرد ہونا اور پانی ملاتے ہی جلد سوکھنا ہے، اور پرانا چونہ استعمال نہ ہو۔ مستری قسم کھاتے ہیں کہ چونا بھٹھے والوں اور گچ سازوں کی رشوت نہ لیں۔ اولیہ چلبی کے جلوس میں جبّاص ⁦(علچیجیان)⁩ پانچ سو آدمی پچیس دکانوں کے ساتھ اپنی جبس کی چکیاں چلتے چلتے چلاتے ہیں، اور ان کے ساتھ مونة ساز، ہر قسم کے چاک ساز، پانی کے کاموں کا لیقون بنانے والے، اور سفیدی کرنے والے ⁦(بداناجی)⁩ جو سنگ مرمر کے چاک کی لیپ کے حوض اور سور کی کھال کے بالوں کی برش والی لمبی چھڑیاں اٹھا کر دیواریں سفید کرتے ہیں۔ انیسویں صدی کے قاہرہ میں جبّاص مالٹا، اٹلی اور یونان سے آئے تعمیری مہاجروں میں تھے۔"
+domain: building-making
+kind: craft
+hirfa: true
+broader: job/builder
+era:
+  origins: pre-islamic
+  status_today: living
+places:
+  - { place: place/cairo, note: "Ibn al-Ukhuwwa fixes the plasterers' lime mix and the lime-burners' product for the Egyptian market; Chalcraft counts plasterers among the migrant building workers of the nineteenth-century city and preserves the patron's complaint against underdone plaster and single-coat whitewash.", sources: [source/ibn-ukhuwwa-maalim-levy, source/chalcraft-striking-cabbies] }
+  - { place: place/istanbul, note: "Evliya passes the plasterers, mortar-makers, chalk-makers of four kinds, water-proofing makers, brick-makers and the whitewashers in the builders' train, all working as they march.", sources: [source/evliya-seyahatname-hammer] }
+regions: [egypt-nile, anatolia-balkans, levant-iraq]
+organization:
+  organized: guild
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people, living]
+periods: [period/crusades-ayyubid-mamluk, period/gunpowder-empires, period/modern-era]
+sources: [source/ibn-ukhuwwa-maalim-levy, source/evliya-seyahatname-hammer, source/chalcraft-striking-cabbies]
+craft:
+  materials: [stone]
+  techniques:
+    ar: "يضبط ابن الأخوة خلطة الجبّاصين: ألا يُزاد الجير في الجصّ الأبيض عند عجنه لتسهيل لطخه على الجدران، فإن كثر سقط الجصّ من الحائط حين يرمّمه صاحبه. ويضبط الجير نفسه: علامة الناضج أن يصفرّ في التنّور قبل أن يُطحن، وإذا خُلط بالماء وجُعل في إناء جفّ سريعاً وإلا فهو مغشوش، ولا يُستعمل جير عتيق ولا غير الجيد. ويحلف البنّاءون ألا يقبلوا رشوة أو هدية من حرّاقي الجير وصنّاع الجبس ليسكتوا عن رداءته. ولا يُطَلَّ الفرن إلا بطين نقي ممزوج بماء طاهر، لا بطين مأخوذ من دكاكينهم ممزوج بدم وروث. ويصف إوليا الجبّاصين يديرون طواحين جبسهم في الموكب، وصنّاع الكلس يكسرونه ويبيّضون وجوههم وثيابهم به، والمبيّضين يحملون أحواضاً فيها كلس الرخام ممزوجاً غسالةً وسيخاً طوالاً في أطرافها فرش يمسحون بها الجدران."
+    en: "Ibn al-Ukhuwwa regulates the plasterers' mix: they must not add too much lime to the white plaster when it is being made into a paste for ease of spreading on walls, for with an excess of lime the plaster falls from the wall when the owner repairs it. He regulates the lime itself: the mark of well-burnt lime is that it turns yellow in the kiln before it is ground, and once mixed with water and placed in a vessel it dries quickly, otherwise it is adulterated; no old lime may be used, only the best. The masons swear not to take bribes or gifts from the lime-burners and gypsum-makers to stay silent about poor quality. Only clean earth mixed with pure water may be used to plaster the ovens, never earth taken from the shops mixed with blood and dung. Evliya describes the plasterers setting their plaster-mills in motion in the procession, the chalk-makers crunching chalk and whitening their faces and dress with it, and the whitewashers carrying troughs of marble chalk made into a wash and long poles tipped with brushes with which they whiten the walls."
+    ur: "ابن الاخوہ جبّاصوں کی مِکس ضبط کرتا ہے: وہ سفید پلستر میں دیواروں پر بکھانے کی آسانی کے لیے زیادہ چونہ نہ ملائیں، کہ زیادہ چونے سے مالک کی مرمت پر پلستر دیوار سے گر پڑتا ہے۔ وہ چونے کو خود ضبط کرتا ہے: پکے چونے کی پہچان یہ ہے کہ بھٹے میں پیسنے سے پہلے زرد ہو، اور پانی میں ملاکر برتن میں رکھنے پر جلد سوکھ جائے ورنہ ملاوٹ ہے؛ نہ پرانا چونہ چلے نہ نااہل۔ مستری قسم کھاتے ہیں کہ وہ چونا بھٹھے والوں اور گچ سازوں سے خرابی پر خاموش رہنے کے لیے رشوت یا تحفہ نہ لیں۔ تنور پر صرف پاک مٹی صاف پانی ملا کر لیپ ہو، نہ کہ دکانوں کی مٹی جو خون اور لید ملی ہو۔ اولیہ چلبی جبّاصوں کو جلوس میں جبس کی چکیاں چلاتے، چاک سازوں کو چاک کٹتے اور اپنے چہرے اور کپڑے اس سے سفید کرتے، اور سفیدی کرنے والوں کو سنگ مرمر کے چاک کی لیپ بھرے حوض اور لمبی چھڑیں جن کے سروں پر برش ہیں اور جن سے وہ دیواریں سفید کرتے ہیں، بیان کرتا ہے۔"
+  guild:
+    bodies: []
+    shaykh_title: { ar: "شيخ طائفة الجبّاصين والمبيّضين", en: "Sheykh of the plasterers' and whitewashers' guild", ur: "جبّاصوں اور سفیدی والوں کی انجمن کا شیخ" }
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), jobs-p2-harvest-4" }
+provenance:
+  layer: own-research
+  source: "Ibn al-Ukhuwwa/Levy ch. XIV p. 31 (clean earth for plastering ovens) and ch. LXIX pp. 94-95 (lime-burners, the masons' oath, the plasterers' mix); Evliya (von Hammer) I,2 secs. 610-615, 617, 627 pp. 230-232 (plasterers, mortar-makers, chalk-makers, loqun-makers, whitewashers); Chalcraft pp. 47, 51 (migrant plasterers; the rejected plasterwork) — all read on 16 Nov 2026 from the downloaded scans"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "jobs-p2-harvest-4-drafting"
