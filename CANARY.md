@@ -15,6 +15,7 @@ open a new block on top with the new version and today's date.
 
 ## v1.91.0 — 2026-11-17
 ### Added
+- Modern-figures wave 202, section B: six Turkish-scene group records — the dawah channels Hayalhanem (5.56M subscribers) and Sözler Köşkü (4.82M), Diyanet TV, Çınaraltı, Sosyal Doku Vakfı (linked to its founder Nureddin Yıldız, landed in section A) and Siyer TV — each with Arabic, English and Urdu pages and dated channel counts, completing wave 202.
 - Job Browser linking wave 17: 27 `occupations:` edges on 25 person records — fifteen musicians (Bismillah Khan, Zakir Hussain, Begum Akhtar, Kazi Nazrul Islam and more) plus caliph, sultan, commander, emir and muhaddith links.
 
 ## v1.90.0 — 2026-11-17
