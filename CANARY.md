@@ -13,6 +13,10 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v1.98.0 — 2026-11-17
+### Added
+- Job Browser linking wave 24: 35 `occupations:` edges on 25 person records — twelve commanders, nine qaris, five teachers, five preachers, three ulema and a qadi.
+
 ## v1.97.0 — 2026-11-17
 ### Added
 - Job Browser linking wave 23: 34 `occupations:` edges on 25 person records — twelve commanders, seven teachers, six qaris, plus alim, preacher, philosopher, poet and mutakallim links.

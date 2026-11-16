@@ -17,6 +17,17 @@ faith:
 roles: [preacher, teacher]
 wings: [people, living]
 regions: [south-asia]
+occupations:
+  - job: job/preacher
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'preacher', Job Browser linking wave 24"
+    sources: [source/oms-tuaha-ibn-jalil, source/vidiq-tuaha-ibn-jalil, source/speakrj-tuaha-ibn-jalil, source/wikipedia-youth-club-pakistan-en]
+  - job: job/teacher
+    kind: secondary
+    status: historical
+    note: "merge-map link from role 'teacher', Job Browser linking wave 24"
+    sources: [source/oms-tuaha-ibn-jalil, source/vidiq-tuaha-ibn-jalil, source/speakrj-tuaha-ibn-jalil, source/wikipedia-youth-club-pakistan-en]
 relations:
   - { type: lived_in, target: place/lahore, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/oms-tuaha-ibn-jalil, source/vidiq-tuaha-ibn-jalil, source/speakrj-tuaha-ibn-jalil, source/wikipedia-youth-club-pakistan-en] }
 sources: [source/oms-tuaha-ibn-jalil, source/vidiq-tuaha-ibn-jalil, source/speakrj-tuaha-ibn-jalil, source/wikipedia-youth-club-pakistan-en]

@@ -15,6 +15,12 @@ regions: [egypt-nile]
 roles: [munshid, reciter]
 born: { edtf: "1920-01-07", calendar: gregorian, precision: day, status: historical, derived: false, note: "Born in the Shaqiqa lane of Dumayra village, Dakahlia (Arabic article; Wikidata gives the same day). No place entity for Dumayra exists.", sources: [source/wikipedia-sayed-al-naqshabandi-ar, source/wikidata-sayed-al-naqshabandi] }
 died: { edtf: "1976-02-14", calendar: gregorian, precision: day, status: historical, derived: false, note: "Died suddenly of a heart attack at the Mabarra hospital in Tanta (Arabic article, quoting his grandson in Sawt al-Umma, 2018); Wikidata places the death in Cairo. Prayed over at the Sayyid al-Badawi Mosque in Tanta and buried, by his written wish, beside his mother in the Khalwati cemetery at al-Basatin, Cairo.", sources: [source/wikipedia-sayed-al-naqshabandi-ar, source/wikidata-sayed-al-naqshabandi] }
+occupations:
+  - job: job/qari
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'reciter', Job Browser linking wave 24"
+    sources: [source/wikipedia-sayed-al-naqshabandi-ar, source/wikidata-sayed-al-naqshabandi]
 relations:
   - { type: buried_in, target: place/cairo, note: "Khalwati order cemetery, al-Basatin", sources: [source/wikipedia-sayed-al-naqshabandi-ar] }
 faith:

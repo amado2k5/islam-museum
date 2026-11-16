@@ -35,6 +35,12 @@ faith:
     basis: unknown
     note: "The Khan configuration, unflagged. The English article's text gives his own public stance — his quoted 2001 words of 'total commitment to the Sharia movement' and his support for the total implementation of sharia, which he defended against charges of a radical Islamist agenda — and notes he was named after the ninth-century scholar Muhammad al-Bukhari and profiles him via The Muslim 500: personal identification with Islam in text, but no school named. The Arabic article says only that he was born 'to a Muslim family' (family background, which never counts) and files him under 'Nigerian Muslims'; Wikidata gives a single structured value, Islam. No source used names a madhhab, so under the two-source rule the value stays unknown."
     sources: [source/wikipedia-muhammadu-buhari-en, source/wikipedia-muhammadu-buhari-ar, source/wikidata-muhammadu-buhari]
+occupations:
+  - job: job/commander
+    kind: primary
+    status: historical
+    note: "merge-map link from role 'general', Job Browser linking wave 24"
+    sources: [source/wikipedia-muhammadu-buhari-en, source/wikipedia-muhammadu-buhari-ar, source/wikipedia-muhammadu-buhari-ur, source/wikidata-muhammadu-buhari]
 relations:
   - { type: successor_of, target: person/shehu-shagari, sources: [source/wikipedia-muhammadu-buhari-en] }
 
