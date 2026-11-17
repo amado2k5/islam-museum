@@ -1,0 +1,24 @@
+id: work/fatwa-dar-alifta-eg-udhiyya-for-the-dead
+class: work
+kind: fatwa
+label: { ar: "حكم الأضحية عن الميت", en: "Sacrificing an udhiyya for the deceased", ur: "میت کی طرف سے قربانی" }
+summary:
+  ar: "سائل سأل عن الأضحية عن الميت. أجابت دار الإفتاء المصرية ⁦(مفتي الجمهورية د. نظير محمد عياد، فتوى رقم 20771)⁩ أن الأضحية عن الميت مشروعة وتكون في مال القائم بها على سبيل الاستحباب والتبرع لا الوجوب لكن إذا أوصى الميت بها وجبت على ما فصّل الجواب."
+  en: "A questioner asked about the udhiyya for the deceased. Egypt's Dar al-Ifta (Grand Mufti Dr. Nazir Muhammad Ayyad, fatwa no. 20771) answered that it is lawful — performed from the doer's money as recommended devotion, not duty — but if the deceased bequeathed it, it is obligatory, as the answer details."
+  ur: "ایک سائل نے میت کی طرف سے قربانی کا حکم پوچھا۔ مصر کے دار الافتاء ⁦(مفتیِ جمهور ڈاکٹر نظیر محمد عیاد، فتویٰ نمبر 20771)⁩ نے جواب دیا کہ یہ جائز ہے اور اپنے مال سے مستحب اور تبرع ہے واجب نہیں؛ البتہ میت نے وصیت کی ہو تو واجب ہے — جیسا کہ جواب میں تفصیل ہے۔"
+wings: [words]
+authors: [person/nazir-ayyad]
+publisher: group/dar-al-ifta-al-misriyya
+url: "https://www.dar-alifta.org/ar/fatwa/details/20771/حكم-الأضحية-عن-الميت"
+languages: [ar]
+sources: [source/dar-alifta]
+relations:
+  - { type: about, target: concept/dhabaih-fiqh, sources: [source/dar-alifta] }
+  - { type: about, target: concept/mawt, sources: [source/dar-alifta] }
+provenance:
+  layer: own-research
+  source: "dar-alifta.org fatwa no. 20771, category الذبائح; read 17 Nov 2026. Summary in the museum's own words."
+  generated_by: "Devin"
+  model: "SWE-2 Medium"
+  run: fatwa-websites-34
+status: { review: published, completeness: 1 }
