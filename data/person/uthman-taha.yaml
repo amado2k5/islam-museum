@@ -1,0 +1,34 @@
+id: person/uthman-taha
+class: person
+tags: [ulama-browser, ulama-mashahir]
+label: { ar: "عثمان طه", en: "Uthman Taha", ur: "عثمان طحہ" }
+names:
+  - { value: "Uthman Taha", kind: full }
+  - { value: "عثمان طه", kind: full }
+  - { value: "عثمان طحہ", kind: full }
+gender: male
+summary:
+  ar: "خطاط سوري، وُلد سنة 1934 في حلب، يُعدّ أبرز خطاطي المصحف في العصر الحديث. كتب بخط النسخ العثماني المصحف الذي تطبعه مجمع الملك فهد لطباعة المصحف الشريف في المدينة المنورة منذ الثمانينيات، والذي تداولته مئات ملايين النسخ؛ كتب أكثر من عشر نسخ من المصحف بيده."
+  en: "Syrian calligrapher, born in Aleppo in 1934, regarded as the foremost mushaf calligrapher of the modern age. In Ottoman naskh he wrote the mushaf printed by the King Fahd Glorious Qur'an Printing Complex in Madinah since the 1980s, circulated in hundreds of millions of copies; he wrote more than ten copies of the Qur'an by hand."
+  ur: "شامی خطاط، 1934 میں حلب میں پیدا ہوئے، عصرِ حاضر کے مقدم مصحف خطاط مانے جاتے ہیں۔ انھوں نے عثمانی نسخ میں وہ مصحف لکھا جو مدینہ منورہ کے مجمع الملک فہد لطباعہ المصحف سے 1980 کی دہائی سے چھپ رہا ہے اور جس کی کروڑوں، بلکہ اربوں کے قریب نقلیں گردش میں ہیں؛ انھوں نے اپنے ہاتھ سے دس سے زیادہ مصحف لکھے۔"
+roles: [calligrapher]
+wings: [people, living]
+regions: [middle-east]
+born:
+  edtf: "1934"
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: [source/wikipedia-uthman-taha]
+faith:
+  - value: sunni
+    basis: documented
+    note: "Documented as a Syrian Sunni calligrapher in reference sources covering his mushaf work."
+    sources: [source/wikipedia-uthman-taha]
+sources: [source/wikipedia-uthman-taha]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Uthman Taha', read 17 November 2026"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: ulama-mashahir-wave-2026-11-17
+status: { review: published, generated_by: "Devin (SWE-2 Medium)" }
