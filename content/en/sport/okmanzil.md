@@ -6,11 +6,11 @@ translators: ["Devin (SWE-2 Medium), draft translation"]
 ---
 ## Overview
 
-Ok Meydan — Arrow Field — is the archery ground of Ottoman Istanbul: an open square where archers shot at distant marks and range-contests were held, with standing stones recording each archer's name and the distance of his arrow {cite:okmanzil}.
+Ok Meydan — Arrow Field — is the archery ground of Ottoman Istanbul: an open square where archers shot at distant marks and range-contests were held, with standing stones recording each archer's name and the distance of his arrow {cite:tdv-ok}.
 
 ## In history
 
-Sultan Mehmed the Conqueror is said to have declared, when founding the range: «this is a field for my ummah and my sultanate where they shall shoot», and the ground stayed famous into the nineteenth century. Contests were held there each Ramadan, the Sultan himself sometimes shooting, and an archer who set a new record had a stone raised bearing his name and his arrow's distance {cite:okmanzil}. Among its famous marks are those of Sultan Mahmud II and of the archer Tozkoparan.
+Sultan Mehmed the Conqueror is said to have declared, when founding the range: «this is a field for my ummah and my sultanate where they shall shoot», and the ground stayed famous into the nineteenth century. Contests were held there each Ramadan, the Sultan himself sometimes shooting, and an archer who set a new record had a stone raised bearing his name and his arrow's distance {cite:tdv-ok}. Among its famous marks are those of Sultan Mahmud II and of the archer Tozkoparan.
 
 ## Today
 

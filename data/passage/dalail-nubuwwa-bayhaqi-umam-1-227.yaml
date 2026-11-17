@@ -13,7 +13,7 @@ relations:
   - { type: mentions, target: group/banu-qaynuqa, sources: [source/dalail-al-nubuwwa-bayhaqi] }
   - { type: mentions, target: group/banu-nadir, sources: [source/dalail-al-nubuwwa-bayhaqi] }
   - { type: mentions, target: group/quraysh, sources: [source/dalail-al-nubuwwa-bayhaqi] }
-  - { type: mentions, target: person/kaab-ibn-al-ashraf, sources: [source/dalail-al-nubuwwa-bayhaqi] }
+  - { type: mentions, target: person/kab-ibn-al-ashraf, sources: [source/dalail-al-nubuwwa-bayhaqi] }
 provenance: { layer: own-research, source: "Apple Vision OCR of the scan seerah/dalail-nubuwwa-bayhaqi/311Pdf219, page 227; a window of at most 40 words chosen by the umam detector (scripts/umam.ts); OCR text not corrected", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-ocr-1" }
 sources: [source/dalail-al-nubuwwa-bayhaqi]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the OCR'd book; label and summary are the museum's own words" }

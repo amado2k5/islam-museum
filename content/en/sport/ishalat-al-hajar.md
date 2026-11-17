@@ -6,7 +6,7 @@ translators: ["Devin (SWE-2 Medium), draft translation"]
 ---
 ## Overview
 
-Ishalat al-hajar — lifting the great stone and raising it overhead — is among the oldest strength games of Muslim lands, especially under the Mamluks: the lifter takes the heavy stone to his shoulder, raises it above his head and casts it down, the lift a proof of strength {cite:al-musara-a}.
+Ishalat al-hajar — lifting the great stone and raising it overhead — is among the oldest strength games of Muslim lands, especially under the Mamluks: the lifter takes the heavy stone to his shoulder, raises it above his head and casts it down, the lift a proof of strength {cite:canon-ibn-sina-print-v1}.
 
 ## In history
 

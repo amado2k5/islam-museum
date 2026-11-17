@@ -10,7 +10,7 @@ Camel-racing is among the contests in which the hadith made the prize lawful: «
 
 ## In the Sunnah and the language
 
-To the people of Arabia the camel was the pillar of livelihood, and the hajin — the swift racing camels — a pride of their owners. Scores of reports speak of the hajin and the budn; the word khuff placed camel-racing among the three lawful wagers. The Qur'an names the camel in the verses of bounty — «and upon their backs and upon ships you are carried» — carrying in town and on journey, and racing in the sands {cite:quran}.
+To the people of Arabia the camel was the pillar of livelihood, and the hajin — the swift racing camels — a pride of their owners. Scores of reports speak of the hajin and the budn; the word khuff placed camel-racing among the three lawful wagers. The Qur'an names the camel in the verses of bounty — «and upon their backs and upon ships you are carried» — carrying in town and on journey, and racing in the sands {cite:tanzil-quran}.
 
 ## In history
 
