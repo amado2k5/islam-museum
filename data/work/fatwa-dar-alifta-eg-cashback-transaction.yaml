@@ -1,0 +1,24 @@
+id: work/fatwa-dar-alifta-eg-cashback-transaction
+class: work
+kind: fatwa
+label: { ar: "حكم معاملة الكاش باك", en: "The ruling on cashback offers", ur: "کیش بیک کا حکم" }
+summary:
+  ar: "سائل سأل عن الحصول على مبلغ مالي من عرض الكاش باك. أجابت دار الإفتاء المصرية ⁦(مفتي الجمهورية د. نظير محمد عياد، فتوى رقم 21509)⁩ أن الحصول على مبلغ مالي من عرض الكاش باك هو من قبيل الهبة المشروعة والجهالة وإن كانت حاصلة فيما سيحصل عليه المرء منه فهي جهالة يسيرة لا تضر على ما فصّل الجواب."
+  en: "A questioner asked about receiving a sum of money from a cashback offer. Egypt's Dar al-Ifta (Grand Mufti Dr. Nazir Muhammad Ayyad, fatwa no. 21509) answered that receiving it falls under lawful gift; the uncertainty over the eventual amount is slight and harmless — as the answer details."
+  ur: "ایک سائل نے کیش بیک آفر سے رقم حاصل کرنے کا حکم پوچھا۔ مصر کے دار الافتاء ⁦(مفتیِ جمهور ڈاکٹر نظیر محمد عیاد، فتویٰ نمبر 21509)⁩ نے جواب دیا کہ یہ جائز ہدیہ کی قسم میں ہے؛ رقم کی معمولی غیر یقینیت مضر نہیں — جیسا کہ جواب میں تفصیل ہے۔"
+wings: [words]
+authors: [person/nazir-ayyad]
+publisher: group/dar-al-ifta-al-misriyya
+url: "https://www.dar-alifta.org/ar/fatwa/details/21509/حكم-معاملة-الكاش-باك"
+languages: [ar]
+sources: [source/dar-alifta]
+relations:
+  - { type: about, target: concept/hiba-fiqh, sources: [source/dar-alifta] }
+  - { type: about, target: concept/qimar-and-gharar, sources: [source/dar-alifta] }
+provenance:
+  layer: own-research
+  source: "dar-alifta.org fatwa no. 21509, category المعاملات الحديثة; read 17 Nov 2026. Summary in the museum's own words."
+  generated_by: "Devin"
+  model: "SWE-2 Medium"
+  run: fatwa-websites-34
+status: { review: published, completeness: 1 }
