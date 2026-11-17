@@ -48,7 +48,7 @@ TARGETS = {
     "invention/caravanserai-network": [CARAVANS, TRADE],
     # --- the Silk Road cluster ---
     "journey/silk-road": [SILK, TRADE],
-    "place/samarkand": [SILK],
+    "place/samarqand": [SILK],
     "place/bukhara": [SILK],
     "place/merv": [SILK],
     "place/nishapur": [SILK],

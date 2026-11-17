@@ -16,6 +16,7 @@ translations:
   en: { text: "For the taming of Qureysh.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "قریش کے مانوس کرنے کے سبب", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/ilaf, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-106 }
   - { type: mentions, target: group/quraysh, sources: [source/tanzil-quran] }
   - { type: mentions, target: concept/asma-al-rahim, sources: [source/tanzil-quran] }

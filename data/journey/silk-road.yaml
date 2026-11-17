@@ -13,16 +13,14 @@ summary:
 wings: [place]
 themes:
 - trade-and-finance
-periods:
-- period/early-islam
 regions:
 - persia-central-asia
 legs:
   - { from: place/baghdad, to: place/nishapur, mode: "قافلة", note: "الطريق الملوكي شرقًا من العراق إلى خراسان، وبها يسمي ياقوت منازل الطريق.", sources: [source/mujam-al-buldan-sader-1995] }
   - { from: place/nishapur, to: place/merv, mode: "قافلة", note: "من خراسان إلى مرو عاصمة الصدّ على ممر القوافل.", sources: [source/mujam-al-buldan-sader-1995] }
   - { from: place/merv, to: place/bukhara, mode: "قافلة", note: "من مرو عبر الجيحون إلى بخارى.", sources: [source/mujam-al-buldan-sader-1995] }
-  - { from: place/bukhara, to: place/samarkand, mode: "قافلة", note: "من بخارى إلى سمرقند كبرى حواضر الطريق.", sources: [source/mujam-al-buldan-sader-1995] }
-  - { from: place/samarkand, to: place/kashgar, mode: "قافلة", note: "من سمرقند بالفرغانة إلى كاشغر على مشارف الصين.", sources: [source/mujam-al-buldan-sader-1995] }
+  - { from: place/bukhara, to: place/samarqand, mode: "قافلة", note: "من بخارى إلى سمرقند كبرى حواضر الطريق.", sources: [source/mujam-al-buldan-sader-1995] }
+  - { from: place/samarqand, to: place/kashgar, mode: "قافلة", note: "من سمرقند بالفرغانة إلى كاشغر على مشارف الصين.", sources: [source/mujam-al-buldan-sader-1995] }
   - { from: place/kashgar, to: place/xian, mode: "قافلة", note: "من كاشغر بطريق الصحراء إلى شيان شرق الصين.", sources: [source/encyclopaedia-of-islam-2] }
 relations:
   - { type: related_to, target: concept/trade-in-islam, sources: [source/encyclopaedia-of-islam-2] }

@@ -63,7 +63,7 @@ function addMentions(text: string, targets: string[], cite: string): { text: str
   for (const m of text.matchAll(/type:\s*mentions,\s*target:\s*([\w/-]+)/g)) existing.add(m[1]);
   const fresh = targets.filter((t) => !existing.has(t));
   if (!fresh.length) return { text, added: [] };
-  const items = fresh.map((t) => `  - { type: mentions, target: ${t}, sources: [${cite}] }`).join("\n") + "\n";
+  const items = fresh.map((t) => `  - { type: ${t.startsWith("journey/") ? "related_to" : "mentions"}, target: ${t}, sources: [${cite}] }`).join("\n") + "\n";
   const relIdx = lines.findIndex((l) => l === "relations:");
   if (relIdx !== -1) {
     lines.splice(relIdx + 1, 0, ...items.trimEnd().split("\n"));
