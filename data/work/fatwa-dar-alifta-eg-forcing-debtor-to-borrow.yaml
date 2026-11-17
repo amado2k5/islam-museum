@@ -1,0 +1,24 @@
+id: work/fatwa-dar-alifta-eg-forcing-debtor-to-borrow
+class: work
+kind: fatwa
+label: { ar: "حكم إجبار المدين على الاستدانة لقضاء الدين الذي حان وقت سداده", en: "Forcing a debtor to borrow to repay a due debt", ur: "مقروض پر واجب الادا قرض ادا کرنے کے لیے مزید قرض لینے کی جبر" }
+summary:
+  ar: "سائل سأل عن إجبار المدين على الاستدانة لقضاء الدين الذي حان وقت سداده. أجابت دار الإفتاء المصرية ⁦(مفتي الجمهورية د. نظير محمد عياد، فتوى رقم 21803)⁩ أن الواجب على المقترض سداد ما عليه من دين متى جاء موعد السداد وكان قادرًا على الوفاء فإن حل الأجل ولم يكن قادرًا فله حكم الإعسار على ما فصّل الجواب."
+  en: "A questioner asked about forcing a debtor to borrow in order to repay a debt whose time has come. Egypt's Dar al-Ifta (Grand Mufti Dr. Nazir Muhammad Ayyad, fatwa no. 21803) answered that the borrower must repay his debt when due if he is able; if the term falls due while he is unable, the ruling of insolvency applies — as the answer details."
+  ur: "ایک سائل نے مقروض پر اس وقت واجب الادا قرض ادا کرنے کے لیے مزید قرض لینے کی جبر کا حکم پوچھا۔ مصر کے دار الافتاء ⁦(مفتیِ جمهور ڈاکٹر نظیر محمد عیاد، فتویٰ نمبر 21803)⁩ نے جواب دیا کہ مقروض پر قرض کی ادائیگی واجب ہے جب وقت آئے اور وہ قادر ہو؛ اگر قادر نہ ہو تو ناداری کا حکم جاری ہوتا ہے — جیسا کہ جواب میں تفصیل ہے۔"
+wings: [words]
+authors: [person/nazir-ayyad]
+publisher: group/dar-al-ifta-al-misriyya
+url: "https://www.dar-alifta.org/ar/fatwa/details/21803/حكم-إجبار-المدين-على-الاستدانة-لقضاء-الدَّيْن-الذي-حان-وقت-سداده"
+languages: [ar]
+sources: [source/dar-alifta]
+relations:
+  - { type: about, target: concept/qard-hasan, sources: [source/dar-alifta] }
+  - { type: about, target: concept/fiqh, sources: [source/dar-alifta] }
+provenance:
+  layer: own-research
+  source: "dar-alifta.org fatwa no. 21803, category الديون; read 17 Nov 2026. Summary in the museum's own words."
+  generated_by: "Devin"
+  model: "SWE-2 Medium"
+  run: fatwa-websites-34
+status: { review: published, completeness: 1 }
