@@ -1,0 +1,86 @@
+id: exhibit/hero-knowledge
+class: exhibit
+kind: trail
+label:
+  ar: "أبطال العلم"
+  en: "Heroes of Knowledge"
+  ur: "علم کے ہیرو"
+summary:
+  ar: " 'مسار فيمن حملوا العلم أمانةً ودفعوا عنه أرواحهم وأعمارهم: الشافعي واضع أصول الفقه، وأحمد صابر المحنة، ورابعة العدوية عارفة البصرة، والخنساء الشاعرة التي صانعت الحق بلسانها.'"
+  en: " 'A trail of those who carried knowledge as a trust and spent their lives defending it: al-Shafi'i who laid the foundations of jurisprudence, Ahmad ibn Hanbal steadfast through the inquisition, Rabi'a al-Adawiyya the knower of Basra, and al-Khansa who served truth with her tongue.'"
+  ur: " 'ان لوگوں کا سفر جنھوں نے علم کو امانت سمجھ کر اٹھایا اور اس پر اپنی جانیں اور عمریں لگائیں: شافعی اصولِ فقہ کے بانی، احمد بن حنبل محنت کے صابر، رابعہ عدویہ بصرہ کی عارفہ، اور خنساء جو اپنی زبان سے حق کی خدمت کرتی رہیں۔'"
+audience:
+- newcomer
+- student
+duration_minutes: 40
+wings:
+- people
+regions:
+- levant-iraq
+- arabia
+- egypt-nile
+rooms:
+- title:
+    ar: "محمد بن إدريس الشافعي"
+    en: "Al-Shafi'i"
+    ur: "امام شافعی"
+  body:
+    ar: "جال بين مكة والمدينة والعراق ومصر حتى وضع أصول الفقه برسالته، وعلّم أمةً كيف تستدل."
+    en: "He journeyed between Mecca, Medina, Iraq and Egypt until he wrote the Risala that founded legal theory — teaching an ummah how to reason from evidence."
+    ur: "مکہ، مدینہ، عراق اور مصر کی سیاحتیں کیں یہاں تک کہ رسالہ لکھ کر اصولِ فقہ کی بنیاد رکھی — امت کو دلیل سے استدلال سکھایا۔"
+  features:
+  - person/al-shafii
+  - place/cairo
+- title:
+    ar: "أحمد بن حنبل"
+    en: "Ahmad ibn Hanbal"
+    ur: "احمد بن حنبل"
+  body:
+    ar: "صبر في المحنة على الجلد والحبس وأبى أن يقول بخلق القرآن، فثبّت العلمَ والعلماءَ بعده."
+    en: "He bore flogging and prison in the inquisition rather than declare the Qur'an created, and by standing firm he steadied knowledge and scholars after him."
+    ur: "محنت میں کوڑے اور قید برداشت کیے مگر قرآنِ مخلوق کہنے سے انکار کر دیا، اور ثابت قدمی سے آنے والے علم اور علماء کو مضبوط کیا۔"
+  features:
+  - person/ahmad-ibn-hanbal
+  - event/mihna-of-the-quran
+  - place/baghdad
+- title:
+    ar: "رابعة العدوية"
+    en: "Rabi'a al-Adawiyya"
+    ur: "رابعہ عدویہ"
+  body:
+    ar: "مملوكةٌ تحررت فصارت عارفة البصرة: علّمت حبَّ الله لذاته لا طمعًا ولا خوفًا."
+    en: "An emancipated bondswoman who became Basra's knower of God: she taught love of God for Himself, not from hope or fear."
+    ur: "ایک آزاد شدہ لونڈی جو بصرہ کی عارفہ بنی: اس نے اللہ سے محبت اس کے لیے سکھائی نہ کہ لالچ یا خوف سے۔"
+  features:
+  - person/rabia-al-adawiyya
+  - place/basra
+- title:
+    ar: "الخنساء"
+    en: "Al-Khansa"
+    ur: "خنساء"
+  body:
+    ar: "شاعرة الإسلام: قدّمت أبناءها الأربعة في القادسية فقالت حمدت الله الذي شرفني باستشهادهم."
+    en: "The poet of Islam: she offered her four sons at al-Qadisiyya and said she praised God for honouring her with their martyrdom."
+    ur: "اسلام کی شاعرہ: قادسیہ میں اپنے چار بیٹے پیش کیے اور کہا اللہ کا شکر ہے جس نے مجھے ان کی شہادت سے سرفراز کیا۔"
+  features:
+  - person/al-khansa
+  - event/battle-of-al-qadisiyya
+sources:
+- source/britannica-al-shafii
+- source/encyclopaedia-of-islam-2
+- source/fadail-sahaba-ahmad-wasi-allah-1999
+- source/alam-al-nisa-kahhala-risala-1984-v1
+- source/sifat-al-safwa-tartusi-2012
+- source/nisa-hawl-alrasul
+provenance:
+  layer: own-research
+  source: "Devin-assembled hero trail from existing museum entities (person and event records cited per room)"
+  generated_by: Devin (SWE-2 Medium)
+  model: SWE-2 Medium
+  run: heroes-explorer-v1
+status:
+  review: published
+  completeness: 1
+  generated_by: Devin (SWE-2 Medium), heroes explorer, 2026-11-17
+education:
+  levels: [sprouts, explorers, scholars]

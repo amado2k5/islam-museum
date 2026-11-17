@@ -1,0 +1,85 @@
+id: exhibit/hero-mercy
+class: exhibit
+kind: trail
+label:
+  ar: "أبطال الرحمة"
+  en: "Heroes of Mercy"
+  ur: "رحم کے ہیرو"
+summary:
+  ar: " 'مسار فيمن جعلوا الرحمة سلطانًا على القوة: الحسن البصري واعظ الزهاد، وزينب سيدة الصبر والاحتضان يوم كربلاء، ونور الدين العادل الذي ردّ المظالم، وعبد القادر الجزائري الذي آوى المسيحيين في دمشق.'"
+  en: " 'A trail of those who let mercy rule their strength: al-Hasan al-Basri the preacher of the renunciants, Zaynab the refuge of Karbala's orphans, Nur al-Din the just who restored rights, and Abd al-Qadir who sheltered Damascus's Christians.'"
+  ur: " 'ان لوگوں کا سفر جنھوں نے طاقت پر رحم کو غالب کیا: حسن بصری زاہدوں کے واعظ، زینب کربلا کے یتیموں کی پناہ، نور الدین عادل مظلوموں کو ان کا حق دلانے والے، اور عبدالقادر جزائری دمشق کے مسیحیوں کو پناہ دینے والے۔'"
+audience:
+- newcomer
+- student
+duration_minutes: 40
+wings:
+- people
+regions:
+- levant-iraq
+- maghreb
+rooms:
+- title:
+    ar: "الحسن البصري"
+    en: "Al-Hasan al-Basri"
+    ur: "حسن بصری"
+  body:
+    ar: "سيد التابعين: جمع بين ورع الزاهد ورحمة المعلم، وكان وعظه بالبصرة شفاءً للقلوب."
+    en: "The master of the Successors: he joined an ascetic's scrupulousness to a teacher's mercy, and his sermons at Basra healed hearts."
+    ur: "تابعین کے سردار: زاہد کے پرہیز اور استاد کے رحم کو جمع کیا، اور بصرہ میں ان کے مواعظ دلوں کی شفا تھے۔"
+  features:
+  - person/al-hasan-al-basri
+  - place/basra
+- title:
+    ar: "زينب بنت علي"
+    en: "Zaynab bint Ali"
+    ur: "زینب بنت علی"
+  body:
+    ar: "يوم كربلاء فقدت أخاها وأهل بيتها، فصارت للسبايا والأطفال أمًّا وراعية حتى رُدّت الأمانة."
+    en: "At Karbala she lost her brother and her household, then became mother and guardian to the captives and children until the trust was returned."
+    ur: "کربلا میں بھائی اور گھر والوں کو کھویا، پھر قیدیوں اور بچوں کی ماں اور سرپرست بن گئیں یہاں تک کہ امانت واپس آئی۔"
+  features:
+  - person/zaynab-bint-ali
+  - event/battle-of-karbala
+- title:
+    ar: "نور الدين محمود زنكي"
+    en: "Nur al-Din Mahmud Zangi"
+    ur: "نورالدین محمود زنگی"
+  body:
+    ar: "العادل: أقام بيت العدل في دمشق يرد المظالم، ووحّد الشام ومصر على نصرة واجتماع."
+    en: "The Just: he raised the House of Justice at Damascus to restore wrongs, and united Syria and Egypt around victory and concord."
+    ur: "عادل: دمشق میں دارالعدل قائم کر کے مظالم واپس دلائے، اور شام اور مصر کو نصرت اور اتحاد پر جمع کیا۔"
+  features:
+  - person/nur-al-din-mahmud-ibn-zangi
+  - place/damascus
+- title:
+    ar: "عبد القادر الجزائري"
+    en: "Abd al-Qadir al-Jaza'iri"
+    ur: "عبدالقادر جزائری"
+  body:
+    ar: "أمير المقاومة الجزائرية، ثم في منفاه بدمشق خرج بنفسه يوم الفتنة يحمي مسيحيّ المدينة فأنقذ ألوفًا."
+    en: "Emir of the Algerian resistance; in his Damascus exile he himself went out in the riots to protect the city's Christians and saved thousands."
+    ur: "الجزائری مزاحمت کے امیر؛ دمشق میں جلاوطنی کے زمانے فسادات میں خود نکل کر شہر کے مسیحیوں کی حفاظت کی اور ہزاروں جانیں بچائیں۔"
+  features:
+  - person/abd-al-qadir-al-jazairi
+  - place/damascus
+sources:
+- source/encyclopaedia-of-islam-2
+- source/fihrist-ibn-al-nadim
+- source/momen-1985
+- source/nisa-hawl-alrasul
+- source/tarikh-khulafa-minhaj-1434
+- source/al-aalam
+- source/tdv-bagy
+provenance:
+  layer: own-research
+  source: "Devin-assembled hero trail from existing museum entities (person and event records cited per room)"
+  generated_by: Devin (SWE-2 Medium)
+  model: SWE-2 Medium
+  run: heroes-explorer-v1
+status:
+  review: published
+  completeness: 1
+  generated_by: Devin (SWE-2 Medium), heroes explorer, 2026-11-17
+education:
+  levels: [sprouts, explorers, scholars]

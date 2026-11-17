@@ -21,3 +21,6 @@ His works include "Dhikra al-Aqil", a volume of poetry, and "al-Mawaqif" on Sufi
 
 ## Notes for researchers
 - The dates of birth (1807 CE) and death are converted from the Hijri calendar and are derived; their attribution rests on the reference alone.
+
+## The heroic stand
+After fifteen years leading the Algerian resistance, the Emir Abd al-Qadir found himself exiled in Damascus. When the riots of 1860 CE broke out he did not seek his own safety but went out himself with his Algerian men to protect the Christian quarters and opened his house to the fugitives, and thousands were saved through him {cite:al-aalam}. Those he rescued wrote of it in the West, until his name became a byword for nobility {cite:tdv-bagy}.

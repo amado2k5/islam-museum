@@ -22,6 +22,7 @@ export const GET: APIRoute = () => {
     `- [Graph nodes](${SITE}/api/v1/graph/nodes.ndjson)`,
     `- [Graph edges](${SITE}/api/v1/graph/edges.ndjson)`,
     `- [Companions dataset](${SITE}/api/v1/companions.json) — every Companion record with the Ten flag, circles, clans, events, Hijri death year and decade, connections and prose languages`,
+    `- [Heroes of Islam dataset](${SITE}/api/v1/heroes.json) — the six virtue trails of the Heroes of Islam explorer, each with its rooms, featured hero ids and sources`,
     `- [Inventions dataset](${SITE}/api/v1/inventions.json) — inventions with domain and era filters, makers, attribution, origins, chains and media`,
     `- [Invention chains](${SITE}/api/v1/inventions/chains.json) — internal and external precursor/dependent links`,
     `- [Invention class index](${SITE}/api/v1/invention/index.json)`,

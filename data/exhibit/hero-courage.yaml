@@ -1,0 +1,85 @@
+id: exhibit/hero-courage
+class: exhibit
+kind: trail
+label:
+  ar: "أبطال الشجاعة"
+  en: "Heroes of Courage"
+  ur: "جرأت کے ہیرو"
+summary:
+  ar: " 'مسار فيمن ثبتوا حين انهزم غيرهم وقادوا في أصعب الوقفات: علي باب مدينة العلم وفارس بدر، وخالد سيف الميادين، وصلاح الدين فارس حطين، وعمر المختار شيخ المجاهدين في الصحراء الليبية.'"
+  en: " 'A trail of those who stood when others fell back and led at the hardest moments: Ali the gate of knowledge and knight of Badr, Khalid the sword of the battlefields, Saladin the knight of Hattin, and Omar Mukhtar the lion of the Libyan desert.'"
+  ur: " 'ان لوگوں کا سفر جو دوسروں کے پسپا ہونے پر ثابت قدم رہے اور مشکل ترین موقعوں پر قیادت کی: علی علم کے دروازے اور بدر کے فارس، خالد میدانوں کی تلوار، صلاح الدین حطین کے فارس، اور عمر مختار لیبیا کے شیر۔'"
+audience:
+- newcomer
+- student
+duration_minutes: 40
+wings:
+- people
+regions:
+- arabia
+- levant-iraq
+- maghreb
+rooms:
+- title:
+    ar: "علي بن أبي طالب"
+    en: "Ali ibn Abi Talib"
+    ur: "علی بن ابی طالب"
+  body:
+    ar: "أول من أسلم من الفتيان، ونام في فراش النبي ليلة الهجرة فدىً له، وفارس بدر وأحد والخندق وخيبر."
+    en: "The first boy to accept Islam; he slept in the Prophet's bed on the night of the Hijra to shield him, and was the knight of Badr, Uhud, the Trench and Khaybar."
+    ur: "سب سے پہلے ایمان لانے والے لڑکے؛ ہجرت کی رات نبی کے بستر پر سو کر ان کی جان بچائی، اور بدر، احد، خندق اور خیبر کے فارس۔"
+  features:
+  - person/ali-ibn-abi-talib
+  - event/battle-of-badr
+- title:
+    ar: "خالد بن الوليد"
+    en: "Khalid ibn al-Walid"
+    ur: "خالد بن ولید"
+  body:
+    ar: "سيف الله: لم يهزم في مئة واقعة، وقاد اليرموك أعظم فتوح المشرق وأشهدها خطةً."
+    en: "The Sword of God: undefeated in a hundred engagements; at Yarmuk he led the greatest and best-planned of the eastern conquests."
+    ur: "اللہ کی تلوار: سو معرکوں میں کبھی نہ ہرا؛ یرموک میں مشرقی فتحوں کی عظیم ترین اور بہترین منصوبہ بند قیادت کی۔"
+  features:
+  - person/khalid-ibn-al-walid
+  - event/battle-of-yarmuk
+- title:
+    ar: "صلاح الدين الأيوبي"
+    en: "Salah al-Din (Saladin)"
+    ur: "صلاح الدین ایوبی"
+  body:
+    ar: "وحّد مصر والشام ثم كسر جيوش الصليب في حطين واسترد القدس، وكان في النصر عفوًا وفي الحرب أدبًا."
+    en: "He united Egypt and Syria, broke the Crusader armies at Hattin and recovered Jerusalem — gracious in victory, chivalrous in war."
+    ur: "مصر اور شام متحد کیے، حطین میں صلیبی فوجیں توڑیں اور بیت المقدس واپس لیا — فتح میں معاف کرنے والا اور جنگ میں اہل ادب۔"
+  features:
+  - person/salah-al-din-yusuf-ibn-ayyub
+  - event/battle-of-hattin-583
+  - place/jerusalem
+- title:
+    ar: "عمر المختار"
+    en: "Omar Mukhtar"
+    ur: "عمر مختار"
+  body:
+    ar: "شيخ المجاهدين: قاوم الاحتلال الإيطالي في برقة عشرين سنة وهو شيخ سبعيني، حتى شُنق ولم يستسلم."
+    en: "The lion of the desert: he resisted the Italian occupation of Cyrenaica for twenty years as a seventy-year-old teacher, and was hanged without ever surrendering."
+    ur: "صحرا کا شیر: ستر سالہ مدرس ہوکر بھی برقہ میں اطالوی قبضے کے خلاف بیس برس مزاحمت کرتا رہا اور پھانسی تک ہتھیار نہ ڈالے۔"
+  features:
+  - person/omar-mukhtar
+sources:
+- source/ibn-hisham-saqqa
+- source/ibn-hajar-isaba
+- source/fadail-sahaba-ahmad-wasi-allah-1999
+- source/kamil-ibn-al-athir
+- source/encyclopaedia-of-islam-2
+- source/omar-mukhtar-sallabi
+provenance:
+  layer: own-research
+  source: "Devin-assembled hero trail from existing museum entities (person and event records cited per room)"
+  generated_by: Devin (SWE-2 Medium)
+  model: SWE-2 Medium
+  run: heroes-explorer-v1
+status:
+  review: published
+  completeness: 1
+  generated_by: Devin (SWE-2 Medium), heroes explorer, 2026-11-17
+education:
+  levels: [sprouts, explorers, scholars]

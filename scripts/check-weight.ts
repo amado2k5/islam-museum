@@ -137,6 +137,8 @@ export const LISTING_BUDGETS: Budget[] = [
   { family: "listing (audit S18)", route: "/ar/references/", html: 500 * KB, js: 24 * KB },
   { family: "listing (audit S18)", route: "/ar/akhlaq/trait/sabr/", html: 500 * KB, js: 24 * KB },
   { family: "listing (audit S18)", route: "/ar/ibadat/act/salah/", html: 500 * KB, js: 24 * KB },
+  // Heroes of Islam explorer home (docs/plan/71): six virtue halls, ~24 hero cards.
+  { family: "explorer", route: "/ar/heroes/", html: 200 * KB, js: 8 * KB },
 ];
 
 export interface Measure { route: string; html: number; js: number; scripts: string[] }

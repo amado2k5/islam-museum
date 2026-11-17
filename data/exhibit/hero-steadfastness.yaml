@@ -1,0 +1,83 @@
+id: exhibit/hero-steadfastness
+class: exhibit
+kind: trail
+label:
+  ar: "أبطال الثبات"
+  en: "Heroes of Steadfastness"
+  ur: "ثابت قدمی کے ہیرو"
+summary:
+  ar: " 'مسار فيمن ثبتوا على الحق عقودًا حين اهتزت الدنيا: بلال الذي ما فتأ يقول أحدًا أحدًا تحت الصخرة، وسلمان باحث الحق الطويل، وأبو بكر الذي حسم أمر الأمة بعد رحيل النبي، وعبد المطلب قائد مكة وصاحب الكلمة يوم الفيل.'"
+  en: " 'A trail of those who stood firm for decades while the world shook: Bilal who kept saying \"One, One\" beneath the boulder, Salman the lifelong seeker of truth, Abu Bakr who settled the ummah's affairs after the Prophet, and Abd al-Muttalib Mecca's leader on the day of the Elephant.'"
+  ur: " 'ان لوگوں کا سفر جو دنیا کے ہلنے پر بھی برسوں حق پر قائم رہے: بلال جو چٹان تلے «احد، احد» کہتے رہے، سلمان حق کے طویل تلاشی، ابو بکر جنھوں نے نبی کے بعد امت کا معاملہ سنوارا، اور عبدالمطلب مکہ کے قائد اور ہاتھی والے دن کے صاحبِ کلام۔'"
+audience:
+- newcomer
+- student
+duration_minutes: 40
+wings:
+- people
+regions:
+- arabia
+- persia-central-asia
+rooms:
+- title:
+    ar: "بلال بن رباح"
+    en: "Bilal ibn Rabah"
+    ur: "بلال بن رباح"
+  body:
+    ar: "عبدٌ حبشي عُذّب على رمضاء مكة وهو يقول أحدًا أحدًا، حتى صار مؤذن الإسلام الأول."
+    en: "An Abyssinian bondsman tortured on Mecca's burning sand while he kept saying \"One, One\" — until he became Islam's first muezzin."
+    ur: "ایک حبشی غلام جو مکہ کی تپتی ریت پر «احد، احد» کہتے تشدد جھیلتا رہا — یہاں تک کہ اسلام کے پہلے مؤذن بنے۔"
+  features:
+  - person/bilal-ibn-rabah
+  - place/mecca
+- title:
+    ar: "سلمان الفارسي"
+    en: "Salman al-Farisi"
+    ur: "سلمان فارسی"
+  body:
+    ar: "خرج من فارس يطلب الحق من أهل الكتاب إلى أهل الكتاب، حتى انتهى رقيقًا في يثرب فوجد ما كان يبحث عنه."
+    en: "He left Persia seeking truth from teacher to teacher until he ended enslaved in Yathrib — and there found what he had been searching for."
+    ur: "حق کی تلاش میں فارس سے استاد در استاد نکلے یہاں تک کہ یثرب میں غلام بن گئے — اور وہیں وہ پایا جو تلاش کرتے تھے۔"
+  features:
+  - person/salman-al-farisi
+  - place/medina
+- title:
+    ar: "أبو بكر الصديق"
+    en: "Abu Bakr al-Siddiq"
+    ur: "ابو بکر صدیق"
+  body:
+    ar: "صاحب الغار: آمن حين شكّت الأرض، وثبّت الأمة بعد رحيل النبي بأقرب ما عند الناس وأشدّه."
+    en: "The Companion of the Cave: he believed when the world doubted, and after the Prophet's death held the ummah firm with what people found hardest to bear."
+    ur: "غار کے ساتھی: جب دنیا شک میں تھی ایمان لائے، اور نبی کی رحلت کے بعد سب سے مشکل کام کر کے امت کو ثابت رکھا۔"
+  features:
+  - person/abu-bakr
+  - event/hijra
+- title:
+    ar: "عبد المطلب بن هاشم"
+    en: "Abd al-Muttalib"
+    ur: "عبدالمطلب"
+  body:
+    ar: "سيد قريش وصاحب زمزم: وقف لأبرهة يوم الفيل بكلمة لا تخاف، وحمل أمانة بيت الله حتى جاء النور."
+    en: "Chief of Quraysh and keeper of Zamzam: he faced Abraha on the day of the Elephant with an unafraid word, and carried the trust of God's House until the light came."
+    ur: "قریش کے سردار اور زمزم کے محافظ: ہاتھی والے دن ابرہہ کے سامنے بلا خوف کلام کیا، اور بیت اللہ کی امانت نبھائی یہاں تک کہ نور آ گیا۔"
+  features:
+  - person/abd-al-muttalib
+  - place/mecca
+sources:
+- source/encyclopaedia-of-islam-2
+- source/ibn-hisham-sira
+- source/ibn-ishaq-guillaume
+- source/ibn-sad-tabaqat-bewley
+- source/mubarakpuri-raheeq
+provenance:
+  layer: own-research
+  source: "Devin-assembled hero trail from existing museum entities (person and event records cited per room)"
+  generated_by: Devin (SWE-2 Medium)
+  model: SWE-2 Medium
+  run: heroes-explorer-v1
+status:
+  review: published
+  completeness: 1
+  generated_by: Devin (SWE-2 Medium), heroes explorer, 2026-11-17
+education:
+  levels: [sprouts, explorers, scholars]
