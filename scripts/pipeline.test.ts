@@ -65,7 +65,7 @@ describe("build-graph", () => {
     expect(d.timeline.length).toBeGreaterThan(0);
     const mecca = d.map.features.find((f) => f.id === "place/mecca")!;
     expect(mecca.geometry.coordinates[0]).toBeCloseTo(39.83, 1);
-  });
+  }, 900_000); // full-corpus derive ~2-4 min in CI; default 300 s times out under load
 });
 
 // ---- rules added with docs 12-15 ----
