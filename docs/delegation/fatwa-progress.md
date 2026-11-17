@@ -259,3 +259,10 @@ Sessions 1–10 (1984–1997) fully converted from the official Arabic archive �
 - Window covered this stretch: Aug 2008 – Feb 2009 IDs ~76981–77894 (batches 18–24), plus earlier 2009–2012 items.
 - Last batch ended at captured ID 76981 (Nov 2008); next unconverted window continues from IDs below ~76980 descending, plus remaining 2009–2012 stragglers (86502, 84392, 80543, 80516, 80434, 79020, 78687 still pending).
 - ~5,220 captured AMJA items remain unconverted. All records trilingual, source/amja + provenance, about-targets validated per batch.
+
+## AMJA long tail — waves 76–79
+- PRs #7340–#7343 merged. Corpus now 1,482 fatwa files; AMJA lane ~205 records.
+- Window covered: Jul–Aug 2007 (IDs ~2644–21865) plus stragglers 2011–2012 (84392, 86502, 80434).
+- Known duplicate AMJA ID pairs (second ID skipped): 3981=21873, 3828=21872, 21869=3636, 3553=21867, 3551=21866, 3440=21863, 3347=21862, 3309=21861, 3539=21865, 3263=21860, 21859=3262, 3194=21857, 3242=21858, 2943=21855.
+- Skipped: 80543 ("previously answered" stub). Still pending: 80516, 80543 (no answer), plus everything below ID ~2644 not yet reviewed.
+- ~5,200 captured AMJA items remain unconverted.
