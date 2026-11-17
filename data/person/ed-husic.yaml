@@ -1,0 +1,33 @@
+id: person/ed-husic
+class: person
+tags: [ulama-browser, ulama-mashahir]
+label: { ar: "إد هوسيك", en: "Ed Husic", ur: "ایڈ ہوسک" }
+names:
+  - { value: "إد هوسيك", kind: full }
+  - { value: "Ed Husic", kind: full }
+  - { value: "ایڈ ہوسک", kind: full }
+gender: male
+summary:
+  ar: "سياسي أسترالي من أصل بوسني، وُلد سنة 1970 في سيدني. نائب عن حزب العمال منذ 2010 وأول مسلم يدخل الحكومة الفيدرالية الأسترالية وزيرًا سنة 2022."
+  en: "Australian politician of Bosnian descent, born 1970 in Sydney. A Labor MP since 2010 and the first Muslim to serve in the Australian federal cabinet, appointed minister in 2022."
+  ur: "بوسنی نژاد آسٹریلوی سیاست دان، 1970 میں سڈنی میں پیدا ہوئے۔ 2010 سے لیبر پارٹی کے رکن پارلیمان اور 2022 میں وزیر بن کر آسٹریلوی وفاقی کابینہ میں شامل ہونے والے پہلے مسلمان۔"
+roles: [politician]
+wings: [people, living]
+born:
+  edtf: "1970-02-03"
+  calendar: gregorian
+  precision: day
+  status: historical
+  sources: [source/wikipedia-ed-husic, source/muslim500-ed-husic]
+faith:
+  - value: sunni
+    basis: documented
+    note: "Publicly identified and self-described as a Muslim"
+    sources: [source/wikipedia-ed-husic, source/muslim500-ed-husic]
+sources: [source/wikipedia-ed-husic, source/muslim500-ed-husic]
+provenance:
+  layer: own-research
+  source: "Web research + Wikipedia and The Muslim 500 profiles, read 17 November 2026"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: ulama-m500-w151-200-2026-11-17
+status: { review: published, generated_by: "Devin (SWE-2 Medium)" }

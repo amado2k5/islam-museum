@@ -1,0 +1,33 @@
+id: person/ramzan-kadyrov
+class: person
+tags: [ulama-browser, ulama-mashahir]
+label: { ar: "رمضان قديروف", en: "Ramzan Kadyrov", ur: "رمضان قادیروف" }
+names:
+  - { value: "رمضان قديروف", kind: full }
+  - { value: "Ramzan Kadyrov", kind: full }
+  - { value: "رمضان قادیروف", kind: full }
+gender: male
+summary:
+  ar: "سياسي روسي شيشاني، وُلد سنة 1976 في تسينتاروي. رئيس جمهورية الشيشان منذ سنة 2007 خلفًا لعهد والده أحمد قديروف، ومن أكثر القادة الإقليميين إثارة للجدل في روسيا الاتحادية."
+  en: "Russian Chechen politician, born 1976 in Tsentaroy. Head of the Chechen Republic since 2007, succeeding the era of his father Akhmad Kadyrov, and one of the most controversial regional leaders in the Russian Federation."
+  ur: "روسی چیچن سیاست دان، 1976 میں سینتاروئے میں پیدا ہوئے۔ 2007 سے چیچن جمہوریہ کے سربراہ، اپنے والد احمد قادیروف کے دور کے جانشین، اور روسی وفاق کے متنازع ترین علاقائی رہنماؤں میں سے ایک۔"
+roles: [politician]
+wings: [people, living]
+born:
+  edtf: "1976-10-05"
+  calendar: gregorian
+  precision: day
+  status: historical
+  sources: [source/wikipedia-ramzan-kadyrov, source/muslim500-ramzan-kadyrov]
+faith:
+  - value: sunni
+    basis: documented
+    note: "Publicly identified as a Sunni Muslim; associated publicly with the Sufi traditions of Chechnya"
+    sources: [source/wikipedia-ramzan-kadyrov, source/muslim500-ramzan-kadyrov]
+sources: [source/wikipedia-ramzan-kadyrov, source/muslim500-ramzan-kadyrov]
+provenance:
+  layer: own-research
+  source: "Web research + Wikipedia and The Muslim 500 profiles, read 17 November 2026"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: ulama-m500-w151-200-2026-11-17
+status: { review: published, generated_by: "Devin (SWE-2 Medium)" }
