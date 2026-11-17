@@ -273,3 +273,14 @@ Sessions 1–10 (1984–1997) fully converted from the official Arabic archive �
 - Additional dup pairs noted (second ID skipped): 21848=2085, 2190=21849, 2019=21847, 1901=21846, 1893=21845, 21844=1873, 21854=2644, 21853=2573, 21851=2194, 21850=2126.
 - Skipped: 80543, 21844 (dup), plus previously logged skips. Next unconverted window: IDs below ~1873 (mid-2006 and earlier) + remaining stragglers.
 - ~5,190 captured AMJA items remain unconverted.
+
+## AMJA waves 83–88 (17 Nov 2026, continued non-stop)
+- **Batch 32** (PR #7349): reasoning out rulings 21835, suitor testimony 21833, iman defined 21834, return to prayer 21831, Book-women marriage 21830, practising law 902, resisted inclination 792, darura vs mashaqqa 619 (Feb 2005–Feb 2006).
+- **Batch 33** (PR #7350): why jurists differ 21826, sorcery plea vs adultery 21825, obligatory-knowledge outline 527, religious vs worldly sciences 360, unlawful relations 309 (2004–2005; AMJA collective answers).
+- **Batch 34** (PR #7351): AMJA-committee guide dogs 87778 (2025), alcohol sanitizer 87745, wine as disinfectant 87742 (COVID 2020); al-Sawi 2011–12 purity set 86977, 86339, 86032, 85958, 85907, 85787, 85549.
+- **Batch 35** (PR #7352): purity set 2011 — dog purity 85513, junub prayer 85472, sea water 85328, miscarriage 84578, istijmar 84295, post-menses ghusl 84269, unwashed prayers 83983, khuff doubt 83918, doubtful discharge 83917.
+- **Batch 36** (PR #7353): purity/tayammum set 2010–11 — surgical emission 83805, chronic excuse 83747, tayammum-ill 83696, head-wiping 83508, tayammum-sand 83287, spousal awra 82833, kissing wudu 82559, madhy-fast 82461, madhy drops 82447, paint barrier 82348, wind incontinence 82151.
+- **Batch 37** (PR #7354): menstrual/purity set 2010 — menses pause 82054, istinja number 82017, unintended touch 81929, soap-mixed water 81847, purity signs 81731, istibra 81726, post-surgery tayammum 81595, pre-ghusl intercourse 81452.
+- **Skips:** 81517 (unclear-question stub); 21827=619, 603=21825, 582/395/359/275/302/255 (older dup IDs of already-written records), 85774/85652/85466/85208/84904/84594 (earlier-window dups/pending).
+- **Totals:** 1,554 fatwa files on main. AMJA ≈ 260 unique records of 5,409 captured (~5,150 remain).
+- **Resume:** continue scanning /tmp/amja-out.jsonl for unconverted IDs; next candidates below 81452 (May 2010) and high IDs 85513+ categories beyond طهارة.
