@@ -28,3 +28,9 @@ status:
   completeness: 3
 relations:
   - { type: lived_in, target: place/cairo, confidence: low, note: "The only place named in the record; specific residence or role there is assumed from context but not separately documented.", sources: [source/al-aalam] }
+occupations:
+  - job: job/sahafi
+    kind: primary
+    status: historical
+    note: "Edited al-Waqa'i' al-Misriyya, the first Arabic newspaper, from 1828."
+    sources: [source/tdv-matbuat]

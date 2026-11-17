@@ -1,0 +1,38 @@
+id: job/munadi
+class: job
+label: { ar: "المنادي", en: "Public crier (munadi)", ur: "منادی" }
+names:
+  - { value: "مُنادِي السُّلطان", kind: alternate }
+  - { value: "دَلال", kind: alternate }
+  - { value: "herald", kind: latinized }
+summary:
+  ar: "المنادي هو صوت الدولة والجماعة قبل الآليات: ينادي في الأسواق والمساجد والطرق بالإعلانات والفرمانات ودعوات الاجتماع، وفي الحرب بالتعبئة والزحف، ومنه انشقّت مهن متخصصة — فالمؤذّن تخصّص بالنداء إلى الصلاة، والدلال بالنداء على السلع، ورسول السلطان بالحمل الشخصي للأمر. أقدم وظائف الكلمة المسموعة في الحياة العامة؛ نادى مؤذّن النبي «الصلاة جامعة» في يوم الأحزاب، وأذّن مؤذّن الفتح في مكة يوم الفتح، وظل المنادي في المدن الإسلامية يعلن الغرامات والأسعار الرسمية والأعياد والمناسبات حتى حلّت محله المطابع ثم الإذاعة."
+  en: "The munadi was the voice of state and community before machines: he cried proclamations, edicts and calls to assemble in the markets, mosques and streets, and mobilisation in war. Specialised trades split off from him — the muezzin for the call to prayer, the auction-dallal for goods, the ruler's messenger for the personal carrying of orders. It is the oldest of the public spoken-word offices: the Prophet's crier called 'al-salatu jami'a' on the day of the Confederates and the crier of the conquest announced in Mecca, and the munadi went on proclaiming fines, official prices, festivals and occasions in Islamic cities until the press and then broadcasting took his place."
+  ur: "منادی مشینوں سے پہلے ریاست اور جماعت کی آواز تھا: بازاروں، مسجدوں اور سڑکوں پر اعلانات، فرمان اور اجتماع کی دعوت دیتا اور جنگ میں نفیر عام کرتا۔ اسی سے مخصوص پیشے الگ ہوئے — اذان کے لیے مؤذّن، مالِ تجارت کے لیے دلال، اور حکمران کے حکم پہنچانے کے لیے رسول۔ عوامی بولے جانے والے مناصب میں یہ سب سے قدیم ہے: غزوہِ احزاب میں نبی کے منادی نے «الصلوٰۃ جامعہ» پکارا اور فتح مکہ کے دن منادی نے اعلان کیا؛ فیر مطبعہ اور بعد میں ریڈیو نے اس کی جگہ لی۔"
+domain: media-performance
+kind: service
+hirfa: false
+era:
+  origins: pre-islamic
+  status_today: transformed
+places:
+  - { place: place/medina, note: "The Prophet's munadi called the general summons (nafir) at al-Khandaq, and the muezzin's office separated out of this general crying when Bilal was appointed.", sources: [source/tdv-muezzin] }
+  - { place: place/istanbul, note: "In the Ottoman order the tellal (munadi) proclaimed decrees, market prices and the death of notables, a guilded trade alongside the muezzins of the imperial craft.", sources: [source/tdv-muezzin] }
+regions: [arabia, levant-iraq, egypt-nile, maghreb, anatolia-balkans, persia-central-asia]
+organization:
+  organized: guild
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people]
+periods: [period/pre-islamic-arabia, period/prophetic-era, period/rashidun, period/umayyad, period/abbasid-early, period/buyid-seljuk-fatimid-era, period/crusades-ayyubid-mamluk, period/gunpowder-empires, period/modern-era]
+sources: [source/tdv-muezzin, source/tdv-elci]
+training:
+  mode: apprenticeship
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), i3lam-browser" }
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi, 'MÜEZZİN' (Küçükaşcı, 2020) — the muezzin's office separating from the general munadi — and 'ELÇİ' (İpşirli, 1995) for the ruler's heralds and envoys; web edition read on 16–17 Nov 2026"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "i3lam-browser"

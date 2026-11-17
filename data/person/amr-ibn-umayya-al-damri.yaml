@@ -32,6 +32,11 @@ occupations:
     status: historical
     note: "merge-map link from role 'diplomat', Job Browser linking wave"
     sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira, source/ibn-hisham-saqqa, source/ibn-hajar-isaba]
+  - job: job/natiq-rasmi
+    kind: primary
+    status: historical
+    note: "The Prophet's envoy to the Negus, sent before his own conversion, to answer the Qurashi embassy."
+    sources: [source/tdv-elci]
 relations:
   - { type: lived_in, target: place/abyssinia, note: "From text: of Abyssinia.", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira, source/ibn-hisham-saqqa], confidence: low }
   - { type: participated_in, target: event/mission-of-amr-ibn-umayya-against-abu-sufyan, role: "المبعوث لقتل أبي سفيان؛ راوي الخبر", sources: [source/ibn-hisham-saqqa] }

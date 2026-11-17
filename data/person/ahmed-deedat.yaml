@@ -55,5 +55,10 @@ occupations:
     status: historical
     note: "merge-map link from role 'missionary', Job Browser linking wave"
     sources: [source/wikipedia-ahmed-deedat-en, source/wikipedia-ahmed-deedat-ar, source/wikidata-ahmed-deedat, source/wikipedia-king-faisal-prize-en, source/wikidata]
+  - job: job/ilami
+    kind: secondary
+    status: historical
+    note: "Debater whose recorded lectures were distributed on cassette, television and online video."
+    sources: [source/wikipedia-amr-khaled-en]
 relations:
   - { type: lived_in, target: place/africa, note: "Place association from the person's nisba/name (أفريقي); denotes association, not proven residence.", sources: [source/wikipedia-ahmed-deedat-en, source/wikipedia-ahmed-deedat-ar, source/wikidata-ahmed-deedat, source/wikipedia-king-faisal-prize-en], confidence: low }

@@ -1,0 +1,47 @@
+---
+// The Muslim Media-Makers Browser's signature piece: a transmission line running from
+// the minaret to the feed — every media role a station on the wire, its arc's radius
+// set by how many holders the graph records. Pure markup; works with JavaScript off.
+import { ui, fmt, type Lang } from "../../lib/i18n";
+import { num } from "../../lib/nav";
+import { MEDIA_CHAIN, i3lamJobById, i3lamHolders } from "../../lib/i3lam";
+import { labelOf, href } from "../../lib/graph";
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const N = (ui(lang) as any).i3lam;
+const stations = MEDIA_CHAIN.map((r, i) => {
+  const job = i3lamJobById.get(r.id);
+  const n = i3lamHolders(r.id).length;
+  return { ...r, job, n, x: 60 + i * 120 };
+});
+const max = Math.max(1, ...stations.map((s) => s.n));
+const r = (n: number) => 14 + Math.round(30 * Math.sqrt(n / max));
+---
+<figure class="i3lam-wire" role="group" aria-label={N.wire_aria} style="margin:1.4rem 0">
+  <svg viewBox="0 0 1400 220" aria-hidden="true" style="display:block;width:100%;height:auto">
+    <line x1="20" y1="170" x2="1380" y2="170" stroke="var(--gold)" stroke-width="2" opacity=".7" />
+    {stations.map((s) => (
+      <g>
+        <circle cx={s.x} cy="170" r={r(s.n)} fill="none" stroke="var(--gold)" stroke-width="1.4" opacity=".55" />
+        <circle cx={s.x} cy="170" r={Math.max(5, r(s.n) - 14)} fill="var(--panel)" stroke="var(--fg)" stroke-width="1" />
+        <circle cx={s.x} cy="170" r="3.5" fill="var(--gold)" />
+        <path d={`M ${s.x - 26} ${170 - r(s.n) - 18} Q ${s.x} ${170 - r(s.n) - 40} ${s.x + 26} ${170 - r(s.n) - 18}`} fill="none" stroke="var(--gold)" stroke-width="1.2" opacity=".5" />
+        <path d={`M ${s.x - 14} ${170 - r(s.n) - 8} Q ${s.x} ${170 - r(s.n) - 22} ${s.x + 14} ${170 - r(s.n) - 8}`} fill="none" stroke="var(--gold)" stroke-width="1" opacity=".4" />
+      </g>
+    ))}
+  </svg>
+  <ol role="list" style="list-style:none;padding:0;margin:.4rem 0 0;display:grid;grid-template-columns:repeat(auto-fit,minmax(108px,1fr));gap:8px">
+    {stations.map((s) => (
+      <li style="text-align:center">
+        {s.job ? (
+          <a class="chip" href={href(lang, s.job.id)} style="display:inline-block;font-weight:600">{labelOf(s.job, lang)}</a>
+        ) : (
+          <span class="chip ui muted">{s.id.split("/")[1]}</span>
+        )}
+        <span class="ui muted" style="display:block;font-size:.8rem;margin-top:2px">{fmt(N.holders, { n: num(s.n, lang) })}</span>
+      </li>
+    ))}
+  </ol>
+  <figcaption class="ui muted" style="font-size:.85rem;max-width:var(--measure)">{N.wire_note}</figcaption>
+</figure>
