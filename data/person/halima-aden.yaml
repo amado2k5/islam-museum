@@ -1,0 +1,50 @@
+id: person/halima-aden
+class: person
+tags:
+- ulama-browser
+- ulama-mashahir
+label:
+  ar: حليمة عدن
+  en: Halima Aden
+  ur: حلیمہ عدن
+names:
+- value: حليمة عدن
+  kind: full
+- value: Halima Aden
+  kind: full
+gender: female
+summary:
+  ar: عارضة أزياء صومالية أمريكية وُلدت سنة 1997 في مخيم كاكوما للاجئين؛ أول متسابقة تلبس الحجاب والبوركيني في مسابقة ملكة جمال أمريكية، وأول عارضة محجبة على أغلفة كبرى، ثم تركت عروض الأزياء سنة 2020 التزامًا
+    بقيمها الدينية.
+  en: Somali-American model born in 1997 in the Kakuma refugee camp; the first contestant to wear hijab and burkini in a US pageant and the first hijabi cover model on major magazines, she left runway modelling
+    in 2020 over religious conviction.
+  ur: صومالی امریکی ماڈل جو 1997 میں کاکوما مہاجر کیمپ میں پیدا ہوئی؛ امریکی مقابلہ میں حجاب اور برکینی پہننے والی پہلی متسابقہ اور بڑی میگزینوں پر پہلی محجبہ ماڈل، اس نے 2020 میں مذہبی اقدار کی خاطر رن
+    وے چھوڑا۔
+roles:
+- influencer
+- activist
+wings:
+- people
+- living
+born:
+  edtf: '1997'
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: &id001
+  - source/wikipedia-halima-aden
+  - source/muslim500-halima-aden
+faith:
+- value: sunni
+  basis: documented
+  note: Documented Somali-American Muslim model; her hijab advocacy and faith are central to her public record.
+  sources: *id001
+sources: *id001
+provenance:
+  layer: own-research
+  source: Web research + Wikipedia and The Muslim 500 profiles, read 17 November 2026
+  generated_by: Devin (SWE-2 Medium)
+  run: ulama-m500-final-2026-11-17
+status:
+  review: published
+  generated_by: Devin (SWE-2 Medium)

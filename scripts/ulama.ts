@@ -76,7 +76,7 @@ const CAT_SECTION: Record<UlamaTopic, UlamaSection> = {
 export const ULAMA_PERSON_EXCLUDE = new Set<string>([
   "person/ali-al-sistani", "person/muhammad-baqir-al-sadr", "person/ali-shariati",
   "person/ali-khamenei", "person/muqtada-al-sadr", "person/mojtaba-khamenei",
-  "person/abdul-malik-al-houthi", "person/haibatullah-akhundzada", "person/ahmed-al-sharaa",
+  "person/abdul-malik-al-houthi", "person/haibatullah-akhundzada", "person/ahmed-al-sharaa", "person/ebrahim-raisi",
 ]);
 
 /** Tag that files a person under the مشاهير (famous/notable figures) section even when his roles do

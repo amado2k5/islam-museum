@@ -1,0 +1,50 @@
+id: person/iman
+class: person
+tags:
+- ulama-browser
+- ulama-mashahir
+label:
+  ar: إيمان عبد المجيد
+  en: Iman Abdulmajid
+  ur: ایمان عبد المجید
+names:
+- value: إيمان عبد المجيد
+  kind: full
+- value: Iman Abdulmajid
+  kind: full
+gender: female
+summary:
+  ar: عارضة أزياء وسيدة أعمال صومالية أمريكية وُلدت في مقديشو سنة 1955؛ اكتشفها المصور بيتر بيرد، وصارت من أشهر عارضات العالم في السبعينيات والثمانينيات، وأسست شركة «إيمان كوزمتكس» لمستحضرات التجميل، وتزوجت
+    الموسيقي ديفيد بوي.
+  en: Somali-American supermodel and businesswoman born in Mogadishu in 1955; discovered by photographer Peter Beard, she became one of the world's most famous models of the 1970s and 1980s, founded IMAN
+    Cosmetics for women of colour, and was married to David Bowie.
+  ur: صومالی امریکی سپر ماڈل اور کاروباری خاتون جو 1955 میں موگادیشو میں پیدا ہوئیں؛ فوٹوگرافر پیٹر بیرڈ نے دریافت کیا، 70 اور 80 کی دہائی کی مشہور ترین ماڈل بنیں، رنگین خواتین کے لیے IMAN Cosmetics قائم
+    کی اور ڈیوڈ بووی کی شریک حیات رہیں۔
+roles:
+- entrepreneur
+- activist
+wings:
+- people
+- living
+born:
+  edtf: '1955'
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: &id001
+  - source/wikipedia-iman
+  - source/muslim500-iman
+faith:
+- value: unknown
+  basis: unknown
+  note: Born into a Somali Muslim family; no source read names a school for her personally and none is inferred.
+  sources: *id001
+sources: *id001
+provenance:
+  layer: own-research
+  source: Web research + Wikipedia and The Muslim 500 profiles, read 17 November 2026
+  generated_by: Devin (SWE-2 Medium)
+  run: ulama-m500-final-2026-11-17
+status:
+  review: published
+  generated_by: Devin (SWE-2 Medium)

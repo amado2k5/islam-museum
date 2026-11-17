@@ -1,0 +1,49 @@
+id: person/g-willow-wilson
+class: person
+tags:
+- ulama-browser
+- ulama-mashahir
+label:
+  ar: جي ويلو ويلسون
+  en: G. Willow Wilson
+  ur: جی ولو ولسن
+names:
+- value: جي ويلو ويلسون
+  kind: full
+- value: G. Willow Wilson
+  kind: full
+gender: female
+summary:
+  ar: روائية وكاتبة قصص مصورة أمريكية وُلدت سنة 1982؛ أسلمت شابة وكتبت مذكراتها «مسجد الفراشة» عن القاهرة، ورواية «ألف العفريت» الفائزة بجائزة، وشاركت في ابتكار شخصية كامالا خان ⁦(السيدة مارفل)⁩ أول بطلة
+    مسلمة أمريكية في مارفل.
+  en: American novelist and comics writer born in 1982; a convert to Islam, she wrote the Cairo memoir The Butterfly Mosque, the prize-winning novel Alif the Unseen, and co-created Kamala Khan (Ms. Marvel),
+    Marvel's first Muslim American superheroine.
+  ur: امریکی ناول نگار اور کامکس لکھاری جو 1982 میں پیدا ہوئی؛ مسلمان ہوئی، قاہرہ کی یادداشت The Butterfly Mosque، انعام یافتہ ناول Alif the Unseen لکھی اور کمالا خان ⁦(Ms. Marvel)⁩ — مارول کی پہلی مسلم
+    امریکی سپر ہیروئن — کی شریک خالق رہی۔
+roles:
+- writer
+wings:
+- people
+- living
+born:
+  edtf: '1982'
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: &id001
+  - source/wikipedia-g-willow-wilson
+  - source/muslim500-g-willow-wilson
+faith:
+- value: sunni
+  basis: documented
+  note: Documented American Muslim convert writer; her memoir The Butterfly Mosque recounts her embrace of Islam.
+  sources: *id001
+sources: *id001
+provenance:
+  layer: own-research
+  source: Web research + Wikipedia and The Muslim 500 profiles, read 17 November 2026
+  generated_by: Devin (SWE-2 Medium)
+  run: ulama-m500-final-2026-11-17
+status:
+  review: published
+  generated_by: Devin (SWE-2 Medium)

@@ -1,0 +1,49 @@
+id: person/mosab-abu-toha
+class: person
+tags:
+- ulama-browser
+- ulama-mashahir
+label:
+  ar: مصعب أبو توهة
+  en: Mosab Abu Toha
+  ur: مصعب ابو توحہ
+names:
+- value: مصعب أبو توهة
+  kind: full
+- value: Mosab Abu Toha
+  kind: full
+gender: male
+summary:
+  ar: شاعر وأمين مكتبة فلسطيني وُلد سنة 1998 في مخيم جباليا بغزة؛ أسس مكتبة إدوارد سعيد العامة، وحازت مجموعته الشعرية الأولى جوائز، ونالت مقالاته عن الحرب في النيويوركر جائزة بوليتزر سنة 2025.
+  en: Palestinian poet and librarian born in Jabalia camp, Gaza, in 1998; founder of the Edward Said Public Library, his first poetry collection won multiple awards and his New Yorker columns on the Gaza
+    war won a 2025 Pulitzer Prize.
+  ur: فلسطینی شاعر اور لائبریرین جو 1998 میں غزہ کے جبالیا کیمپ میں پیدا ہوا؛ ایڈورڈ سعید پبلک لائبریری کا بانی، اس کی پہلی شاعری کتاب نے متعدد انعامات جیتے اور غزہ جنگ پر اس کے نیویارکر مضامین کو 2025
+    کا پلٹزر ملا۔
+roles:
+- poet
+- writer
+wings:
+- people
+- living
+born:
+  edtf: '1998'
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: &id001
+  - source/wikipedia-mosab-abu-toha
+  - source/muslim500-mosab-abu-toha
+faith:
+- value: unknown
+  basis: unknown
+  note: Poet and librarian; no source read names a school for him personally.
+  sources: *id001
+sources: *id001
+provenance:
+  layer: own-research
+  source: Web research + Wikipedia and The Muslim 500 profiles, read 17 November 2026
+  generated_by: Devin (SWE-2 Medium)
+  run: ulama-m500-final-2026-11-17
+status:
+  review: published
+  generated_by: Devin (SWE-2 Medium)

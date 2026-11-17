@@ -23,3 +23,8 @@ A Parliament of the World's Religions session framed his story as ninety-two yea
 
 ## The programmes
 The Mosque Cares sponsors, per his profile, classes in Qur'anic Arabic and financial literacy, informational sessions in health and nutrition, and business and entrepreneurial initiatives — the charitable and educational arm of the community his father built on the Sunni path. {cite:muslim500-warithudeen-mohammed-ii}
+## The community after the imam
+After W. Deen Mohammed's death in 2008, his community passed to a generation of successors carrying his institutional legacy, among them his eldest son Warithudeen II, who runs The Mosque Cares from Chicago's suburbs and tours American cities preaching in the community's mosques and lecturing in its centres, carrying the story of the move to Sunni Islam to a new public. {cite:muslim500-warithudeen-mohammed-ii}
+
+## The message of learning and work
+His line centres on what his father taught: return to the Qur'an as the source of guidance, education as the foundation of human building, and productive work as the foundation of the community's dignity — in programmes such as the Arabic classes and financial literacy the organisation calls its charitable and educational arm. {cite:muslim500-warithudeen-mohammed-ii}

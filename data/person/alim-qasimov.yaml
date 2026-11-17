@@ -1,0 +1,49 @@
+id: person/alim-qasimov
+class: person
+tags:
+- ulama-browser
+- ulama-mashahir
+label:
+  ar: عليم قاسيموف
+  en: Alim Qasimov
+  ur: علم قاسموف
+names:
+- value: عليم قاسيموف
+  kind: full
+- value: Alim Qasimov
+  kind: full
+gender: male
+summary:
+  ar: مغني مقام أذربيجاني وُلد سنة 1957 في شمكير؛ يُعدّ أعظم أصوات المقام الأذربيجاني المعاصرة، وحاز جائزة اليونسكو للموسيقى سنة 1999 وقدّم المقام في مسارح العالم مع ابنته فرغانة.
+  en: Azerbaijani mugham singer born in Shamkir in 1957; regarded as the greatest living voice of Azerbaijani mugham, he won the UNESCO Music Prize in 1999 and has carried the tradition to world stages,
+    often performing with his daughter Fargana.
+  ur: آذربائیجانی مقام گلوکار جو 1957 میں شامکیر میں پیدا ہوا؛ زندہ آذربائیجانی مقام کی عظیم ترین آواز سمجھا جاتا ہے، 1999 میں یونیسکو میوزک پرائز جیتا اور بیٹی فرغانہ کے ساتھ عالمی اسٹیجوں پر روایت پیش
+    کرتا ہے۔
+roles:
+- singer
+- musician
+wings:
+- people
+- living
+born:
+  edtf: '1957'
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: &id001
+  - source/wikipedia-alim-qasimov
+  - source/muslim500-alim-qasimov
+faith:
+- value: unknown
+  basis: unknown
+  note: Mugham singer; no source read names a school for him personally and none is inferred.
+  sources: *id001
+sources: *id001
+provenance:
+  layer: own-research
+  source: Web research + Wikipedia and The Muslim 500 profiles, read 17 November 2026
+  generated_by: Devin (SWE-2 Medium)
+  run: ulama-m500-final-2026-11-17
+status:
+  review: published
+  generated_by: Devin (SWE-2 Medium)

@@ -1,0 +1,36 @@
+id: person/hassan-yang-faming
+class: person
+tags: [ulama-browser, ulama-mashahir]
+label: { ar: "يانغ فامينغ", en: "Hassan Yang Faming", ur: "یانگ فامنگ" }
+names:
+  - { value: "杨发明", kind: full }
+  - { value: "Yang Faming", kind: full }
+  - { value: "Hassan Yang Faming", kind: full }
+  - { value: "哈桑·杨发明", kind: alternate }
+gender: male
+summary:
+  ar: "عالم وإمام صيني من قومية هوي، وُلد سنة 1965 بقضاء خيلان في نينغشيا، اسمه الديني حسن. انتُخب رئيسًا للجمعية الإسلامية الصينية سنة 2016، وهي الهيئة الحكومية التي تربط الدولة بالمسلمين في الصين، وعضو المؤتمر الاستشاري السياسي للشعب الصيني."
+  en: "Chinese Hui imam and religious leader, born in 1965 in Helan County, Ningxia, whose religious name is Hassan. Elected president of the China Islamic Association in 2016 — the government-linked body liaising between the state and China's Muslims — and a member of the Chinese People's Political Consultative Conference."
+  ur: "چینی ہوئی مسلمان امام اور مذہبی رہنما، 1965ء میں نینگشیا کے ضلع ہیلان میں پیدا ہوئے، ان کا مذہبی نام حسن ہے۔ 2016ء میں چائنا اسلامک ایسوسی ایشن کے صدر منتخب ہوئے — وہ ریاستی منسلک ادارہ جو ریاست اور چین کے مسلمانوں کے درمیان رابطہ قائم رکھتا ہے — اور چینی عوامی سیاسی مشاورتی کانفرنس کے رکن ہیں۔"
+roles: [imam, scholar]
+wings: [people, living]
+regions: [china-east-asia]
+born:
+  edtf: "1965-07"
+  calendar: gregorian
+  precision: month
+  status: historical
+  sources: [source/wikipedia-yang-faming-zh]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Yang Faming is a state-recognised imam (ahong) of the Hui community and president of the China Islamic Association; the sources read name no school, and Hui Islam's predominantly Sunni character is community context, not a personal attestation. The value stays unknown."
+    sources: [source/wikipedia-yang-faming-zh, source/themuslim500-hassan-yang-faming]
+external_ids: { wikidata: "Q11100416" }
+sources: [source/wikipedia-yang-faming-zh, source/themuslim500-hassan-yang-faming]
+provenance:
+  layer: own-research
+  source: "Chinese Wikipedia «杨发明», Wikidata Q11100416, and The Muslim 500 profile (2025 edition, p. 179), read 17 November 2026"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: ulama-m500-supplement2-2026-11-17
+status: { review: published, generated_by: "Devin (SWE-2 Medium)" }

@@ -24,3 +24,8 @@ The Muslim 500 files him under Preachers & Spiritual Guides, the category gather
 
 ## Legacy
 His mark lies in carrying the Shadhili heritage to a new mobile generation across continents: a simple formula of recitation and blessing on the Prophet, and a lineage tying his zawiya to the classic Sufism of Morocco. The public record on him is brief, so the museum has kept to what its source states, noting that a fuller biography awaits further sources. {cite:muslim500-abdul-nacer-al-khairi}
+## Disciples and journeys
+His profile describes the breadth of his following: from his native Algeria to neighbouring Tunisia, then Saudi Arabia and Egypt, then Malaysia and European countries with migrant communities, drawing students of every age and walk of life to a simple formula — the Qur'an is recited, and blessing on the Prophet is abundant — which explains the speed of his circle's spread beyond his homeland. {cite:muslim500-abdul-nacer-al-khairi}
+
+## Between the order and the call
+Al-Khairi represents the itinerant pattern among contemporary tariqa sheikhs: a zawiya at home and journeys to instruct disciples and preach in distant lands, making him a link between the Sufism of the Arab Maghreb and the Muslims of the East and the diaspora — the ground on which The Muslim 500 files him among Preachers & Spiritual Guides. {cite:muslim500-abdul-nacer-al-khairi}

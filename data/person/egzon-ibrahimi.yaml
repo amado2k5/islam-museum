@@ -1,0 +1,46 @@
+id: person/egzon-ibrahimi
+class: person
+tags:
+- ulama-browser
+- ulama-mashahir
+label:
+  ar: إغزون إبراهيمي
+  en: Egzon Ibrahimi
+  ur: ایگزون ابراہیمی
+names:
+- value: إغزون إبراهيمي
+  kind: full
+- value: Egzon Ibrahimi
+  kind: full
+gender: male
+summary:
+  ar: قارئ قرآن كوسوفي وُلد سنة 1993؛ حافظ للقرآن اشتهر في البلقان وعالميًا بإتقانه التجويد والمقامات، ونال جوائز في مسابقات التلاوة الدولية ويتلو في محافل أوروبية وعربية.
+  en: Kosovar Qur'an reciter born in 1993; a hafiz celebrated across the Balkans and internationally for mastery of tajwid and maqam, he has won prizes at international recitation competitions and performs
+    at European and Arab gatherings.
+  ur: کوسوواری قاری جو 1993 میں پیدا ہوا؛ تجوید اور مقامات میں مہارت سے بلقان اور بین الاقوامی سطح پر مشہور حافظ، بین الاقوامی تلاوت مقابلوں میں انعامات جیتے اور یورپی و عرب محافل میں تلاوت کرتا ہے۔
+roles:
+- reciter
+wings:
+- people
+- living
+born:
+  edtf: '1993'
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: &id001
+  - source/muslim500-egzon-ibrahimi
+faith:
+- value: sunni
+  basis: documented
+  note: Documented Kosovar Qur'an reciter and hafiz.
+  sources: *id001
+sources: *id001
+provenance:
+  layer: own-research
+  source: Web research + Wikipedia and The Muslim 500 profiles, read 17 November 2026
+  generated_by: Devin (SWE-2 Medium)
+  run: ulama-m500-final-2026-11-17
+status:
+  review: published
+  generated_by: Devin (SWE-2 Medium)

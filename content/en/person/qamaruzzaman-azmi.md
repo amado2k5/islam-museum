@@ -24,3 +24,8 @@ He is patron-in-chief of the international Sunni Dawat-e-Islami movement and hol
 
 ## Legacy
 His mark lies in the institution more than the book: a university founded in Faizabad as a teenager, a transcontinental organisation he came to lead, and half a century of preaching among migrants seeking a Sunni Sufi authority in the West; The Muslim 500 files him among Preachers & Spiritual Guides. {cite:wikipedia-qamaruzzaman-azmi} {cite:muslim500-preachers-2024-list}
+## Nadwa and Ashrafia
+Azmi is a graduate of two of the oldest Sunni madrasas of northern India: Al-Jamiatul-Ashrafia in Mubarakpur, Azamgarh, and Darul Uloom Nadwatul Ulama in Lucknow, which granted him the aalim degree — a scholar formed in the Indian scholastic tradition before he carried it to the West. {cite:wikipedia-qamaruzzaman-azmi}
+
+## Five decades of institutions
+His documentation credits him with more than fifty years spent founding organisations, mosques, colleges and universities across different countries — the service for which, per the source, he earned repeated listing in The Muslim 500 from 2011 onward. {cite:wikipedia-qamaruzzaman-azmi}

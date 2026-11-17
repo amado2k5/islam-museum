@@ -1,0 +1,49 @@
+id: person/ahmad-al-ajmi
+class: person
+tags:
+- ulama-browser
+- ulama-mashahir
+label:
+  ar: الشيخ أحمد بن علي العجمي
+  en: Ahmad Al-Ajmi
+  ur: شیخ احمد بن علی العجمی
+names:
+- value: الشيخ أحمد بن علي العجمي
+  kind: full
+- value: Ahmad Al-Ajmi
+  kind: full
+gender: male
+summary:
+  ar: قارئ وإمام سعودي وُلد سنة 1968 في الخبر؛ من أبرز أصوات التلاوة في الخليج، أُمّ في مساجد الخبر وجدة والحرم المكي، وتسجيلاته الكاملة للمصحف من الأوسع استماعًا في العالم.
+  en: Saudi Qur'an reciter and imam born in Khobar in 1968; one of the leading recitation voices of the Gulf, he has led prayers at mosques in Khobar and Jeddah and at the Grand Mosque of Makkah, and his
+    complete mus'haf recordings are among the most heard worldwide.
+  ur: سعودی قاری اور امام جو 1968 میں خوبار میں پیدا ہوا؛ خلیج کی نمایاں ترین تلاوت اصوات میں سے، خوبار، جدہ اور مسجد الحرام میں امامت کی اور اس کی مکمل مصحف ریکارڈنگز دنیا کے سب سے زیادہ سنی جانے والی
+    ہیں۔
+roles:
+- reciter
+- imam
+wings:
+- people
+- living
+born:
+  edtf: '1968'
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: &id001
+  - source/wikipedia-ahmad-al-ajmi
+  - source/muslim500-ahmad-al-ajmi
+faith:
+- value: sunni
+  basis: documented
+  note: Documented Saudi Qur'an reciter and imam.
+  sources: *id001
+sources: *id001
+provenance:
+  layer: own-research
+  source: Web research + Wikipedia and The Muslim 500 profiles, read 17 November 2026
+  generated_by: Devin (SWE-2 Medium)
+  run: ulama-m500-final-2026-11-17
+status:
+  review: published
+  generated_by: Devin (SWE-2 Medium)

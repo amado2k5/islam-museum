@@ -24,3 +24,8 @@ He commands an exceptional digital audience, estimated by his sources at more th
 
 ## Legacy and debate
 La Tahzan is read as a phenomenon of modern Islamic publishing: a consolation text crossing languages that has accompanied readers through illness and loss. The author also faced plagiarism accusations, one decided against him in a Saudi ruling in 2012, his defence pleading common scholarly practice; the museum reports the episode and the response attributed, without verdict. {cite:wikipedia-aaidh-al-qarni}
+## Hadith formation
+His higher studies centre on hadith: a master's in its sciences in 1408 AH and a doctorate in 1423 AH on al-Qurtubi's al-Mufhim, an important commentary on Sahih Muslim, and he taught hadith at Imam Muhammad ibn Saud University for seven years before devoting himself to preaching and writing. {cite:wikipedia-aaidh-al-qarni}
+
+## The poet-preacher
+Al-Qarni has published poetry collections and well-known verse of praise and Islamic sentiment, and many count him among the most successful of his Saudi generation in joining poetry to preaching, his style described as carrying the spirit of the diwan into the book of general reading. {cite:wikipedia-aaidh-al-qarni}

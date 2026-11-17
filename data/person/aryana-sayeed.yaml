@@ -1,0 +1,49 @@
+id: person/aryana-sayeed
+class: person
+tags:
+- ulama-browser
+- ulama-mashahir
+label:
+  ar: أريانا سعيد
+  en: Aryana Sayeed
+  ur: آریانا سعید
+names:
+- value: أريانا سعيد
+  kind: full
+- value: Aryana Sayeed
+  kind: full
+gender: female
+summary:
+  ar: مغنية بوب أفغانية وُلدت في كابل سنة 1985 ونشأت في المنفى؛ عادت لتغني وتقدّم برامج المواهب، واشتهرت بأغاني مثل «بانوي آهانين» وبمناصرتها لحقوق المرأة، وغادرت كابل مع سقوطها سنة 2021.
+  en: Afghan pop singer born in Kabul in 1985 and raised in exile; she returned to perform and judge televised talent shows, became known for songs such as Banoo-ye Ahanin and for championing Afghan women,
+    and left Kabul as it fell in 2021.
+  ur: افغان پاپ گلوکارہ جو 1985 میں کابل میں پیدا ہوئی اور جلاوطنی میں پلی؛ واپس آ کر پرفارم کی اور ٹیلنٹ شوز میں جج رہی، Banoo-ye Ahanin جیسے نغموں اور افغان خواتین کی وکالت سے مشہور، اور 2021 میں کابل
+    گرنے پر رخصت ہوئی۔
+roles:
+- singer
+- activist
+wings:
+- people
+- living
+born:
+  edtf: '1985'
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: &id001
+  - source/wikipedia-aryana-sayeed
+  - source/muslim500-aryana-sayeed
+faith:
+- value: unknown
+  basis: unknown
+  note: Afghan pop singer; no source read names a school for her personally and none is inferred.
+  sources: *id001
+sources: *id001
+provenance:
+  layer: own-research
+  source: Web research + Wikipedia and The Muslim 500 profiles, read 17 November 2026
+  generated_by: Devin (SWE-2 Medium)
+  run: ulama-m500-final-2026-11-17
+status:
+  review: published
+  generated_by: Devin (SWE-2 Medium)

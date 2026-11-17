@@ -1,0 +1,48 @@
+id: person/owais-raza-qadri
+class: person
+tags:
+- ulama-browser
+- ulama-mashahir
+label:
+  ar: محمد أويس رضا قادري
+  en: Muhammad Owais Raza Qadri
+  ur: محمد اویس رضا قادری
+names:
+- value: محمد أويس رضا قادري
+  kind: full
+- value: Muhammad Owais Raza Qadri
+  kind: full
+gender: male
+summary:
+  ar: قارئ نعت باكستاني وُلد سنة 1970 في كراتشي؛ من أشهر قرّاء النعت في العالم الإسلامي السني، لُقّب «بلبل المدينة»، وتلا النعت في عشرات الدول وأصدر مئات الألبومات.
+  en: Pakistani naat reciter born in Karachi in 1970; among the most famous naat voices in the Sunni Muslim world, honoured with the title Bulbul-e-Madinah, he has recited in dozens of countries and released
+    hundreds of albums.
+  ur: پاکستانی نعت خواں جو 1970 میں کراچی میں پیدا ہوا؛ سنی مسلم دنیا کے مشہور ترین نعت اصوات میں سے، بلبل مدینہ کا لقب پایا، درجنوں ممالک میں نعت خوانی کی اور سینکڑوں البم جاری کیے۔
+roles:
+- munshid
+- reciter
+wings:
+- people
+- living
+born:
+  edtf: '1970'
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: &id001
+  - source/wikipedia-owais-raza-qadri
+  - source/muslim500-owais-raza-qadri
+faith:
+- value: sunni
+  basis: documented
+  note: Documented Pakistani naat reciter of the Barelvi (Sunni) tradition, titled Bulbul-e-Madinah.
+  sources: *id001
+sources: *id001
+provenance:
+  layer: own-research
+  source: Web research + Wikipedia and The Muslim 500 profiles, read 17 November 2026
+  generated_by: Devin (SWE-2 Medium)
+  run: ulama-m500-final-2026-11-17
+status:
+  review: published
+  generated_by: Devin (SWE-2 Medium)

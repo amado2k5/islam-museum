@@ -1,0 +1,34 @@
+id: person/thoraya-obaid
+class: person
+tags: [ulama-browser, ulama-mashahir]
+label: { ar: "ثريا أحمد عبيد", en: "Thoraya Obaid", ur: "ثریا احمد عبید" }
+names:
+  - { value: "ثريا أحمد عبيد", kind: full }
+  - { value: "Thoraya Ahmed Obaid", kind: full }
+gender: female
+summary:
+  ar: "موظفة دولية وسياسية سعودية، وُلدت سنة 1945. مديرة تنفيذية لصندوق الأمم المتحدة للسكان من 2001 إلى 2010، فكانت أوّل سعودي يرأس وكالة أممية، وعُيّنت سنة 2013 من أوائل النساء في مجلس الشورى السعودي."
+  en: "Saudi international civil servant and politician, born in 1945. Executive Director of the United Nations Population Fund from 2001 to 2010 — the first Saudi to head a UN agency — and in 2013 appointed among the first women members of Saudi Arabia's Shura Council."
+  ur: "سعودی بین الاقوامی افسر اور سیاست دان، 1945ء میں پیدا ہوئیں۔ 2001ء سے 2010ء تک اقوام متحدہ کے آبادی فنڈ ⁦(UNFPA)⁩ کی ایگزیکٹو ڈائریکٹر رہیں — کسی اقوام متحدہ ایجنسی کی سربراہ بننے والی پہلی سعودی شخصیت — اور 2013ء میں سعودی شوریٰ کونسل کی پہلی خاتون ارکان میں شامل ہوئیں۔"
+roles: [politician]
+wings: [people, living]
+regions: [arabia]
+born:
+  edtf: "1945"
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: [source/wikipedia-thoraya-obaid-en, source/wikipedia-thoraya-obaid-ar]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a school for Thoraya Obaid; she is described as a Saudi Muslim public figure, which is context, not a school attestation. The value stays unknown."
+    sources: [source/wikipedia-thoraya-obaid-en]
+external_ids: { wikidata: "Q272582" }
+sources: [source/wikipedia-thoraya-obaid-en, source/wikipedia-thoraya-obaid-ar, source/themuslim500-thoraya-obaid]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Thoraya Obaid', Arabic Wikipedia «ثريا عبيد», and The Muslim 500 profile (2025 edition, p. 195), read 17 November 2026"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: ulama-m500-supplement2-2026-11-17
+status: { review: published, generated_by: "Devin (SWE-2 Medium)" }

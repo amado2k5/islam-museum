@@ -1,0 +1,49 @@
+id: person/tharik-hussain
+class: person
+tags:
+- ulama-browser
+- ulama-mashahir
+label:
+  ar: طارق حسين
+  en: Tharik Hussain
+  ur: طارق حسین
+names:
+- value: طارق حسين
+  kind: full
+- value: Tharik Hussain
+  kind: full
+gender: male
+summary:
+  ar: كاتب رحلات وصحفي بريطاني بنغلاديشي الأصل؛ يكتب عن تراث الإسلام في أوروبا والغرب، من كتبه «مآذن في الجبال» عن البلقان و«أرض الأطلس المرجانية»، وعمل في الإذاعة البريطانية واكتشف مساجد نادرة في أوروبا.
+  en: British-Bangladeshi travel writer and journalist; his books on Europe's Muslim heritage include Minarets in the Mountains on the Balkans and A White Mosque in the Mountains?, and he has reported for
+    the BBC and uncovered rare mosques across Europe.
+  ur: برطانوی بنگلہ دیشی نژاد سیاحتی مصنف اور صحافی؛ یورپ کے مسلم ورثے پر کتابوں میں Minarets in the Mountains شامل ہے، BBC کے لیے رپورٹنگ کی اور یورپ بھر میں نایاب مساجد دریافت کیں۔
+roles:
+- writer
+- historian
+- journalist
+wings:
+- people
+- living
+born:
+  edtf: '1977'
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: &id001
+  - source/wikipedia-tharik-hussain
+  - source/muslim500-tharik-hussain
+faith:
+- value: sunni
+  basis: documented
+  note: Documented British Muslim travel writer whose books explore Europe's Muslim heritage.
+  sources: *id001
+sources: *id001
+provenance:
+  layer: own-research
+  source: Web research + Wikipedia and The Muslim 500 profiles, read 17 November 2026
+  generated_by: Devin (SWE-2 Medium)
+  run: ulama-m500-final-2026-11-17
+status:
+  review: published
+  generated_by: Devin (SWE-2 Medium)

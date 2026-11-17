@@ -1,0 +1,48 @@
+id: person/aboflah
+class: person
+tags:
+- ulama-browser
+- ulama-mashahir
+label:
+  ar: حسن سليمان ⁦(أبو فلة)⁩
+  en: Hassan Suleiman ⁦(AboFlah)⁩
+  ur: حسن سلیمان ⁦(ابو فلہ)⁩
+names:
+- value: حسن سليمان ⁦(أبو فلة)⁩
+  kind: full
+- value: Hassan Suleiman ⁦(AboFlah)⁩
+  kind: full
+gender: male
+summary:
+  ar: صانع محتوى كويتي من أصل صومالي وُلد سنة 1998، اسمه حسن سليمان ويُعرف بـ«أبو فلة»؛ من أكبر يوتيوبرز العرب بالألعاب والترفيه، وسجّل أرقامًا قياسية بحملات بث خيرية جمعت ملايين الدولارات للاجئين والمحتاجين.
+  en: Kuwaiti content creator of Somali descent born in 1998, real name Hassan Suleiman, known as AboFlah; one of the Arab world's biggest gaming and entertainment YouTubers, he set records with charity
+    livestreams raising millions of dollars for refugees and the needy.
+  ur: صومالی نژاد کویتی مواد ساز جو 1998 میں پیدا ہوا، اصل نام حسن سلیمان اور ابو فلہ کہلاتا ہے؛ عرب دنیا کے بڑے گیمنگ اور تفریحی یوٹیوبرز میں، اس نے مہاجرین اور ضرورت مندوں کے لیے لاکھوں ڈالر جمع کرنے
+    والی خیراتی لائیو اسٹریمز سے ریکارڈ بنائے۔
+roles:
+- influencer
+wings:
+- people
+- living
+born:
+  edtf: '1998'
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: &id001
+  - source/wikipedia-aboflah
+  - source/muslim500-aboflah
+faith:
+- value: sunni
+  basis: documented
+  note: Documented Kuwaiti creator of Somali descent; his record-breaking charity streams are run for Muslim relief causes.
+  sources: *id001
+sources: *id001
+provenance:
+  layer: own-research
+  source: Web research + Wikipedia and The Muslim 500 profiles, read 17 November 2026
+  generated_by: Devin (SWE-2 Medium)
+  run: ulama-m500-final-2026-11-17
+status:
+  review: published
+  generated_by: Devin (SWE-2 Medium)

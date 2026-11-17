@@ -1,0 +1,35 @@
+id: person/imane-khelif
+class: person
+tags: [ulama-browser, ulama-mashahir]
+label: { ar: "إيمان خليف", en: "Imane Khelif", ur: "ایمان خلیف" }
+names:
+  - { value: "إيمان خليف", kind: full }
+  - { value: "Imane Khelif", kind: full }
+  - { value: "Imane Khalif", kind: alternate }
+gender: female
+summary:
+  ar: "ملاكمة جزائرية وُلدت سنة 1999 بولاية تيارت. فازت بذهبية وزن الوسط في أولمبياد باريس 2024، فكانت أوّل جزائرية وعربية وإفريقية تفوز بذهبية أولمبية في الملاكمة، بعد جدل واسع حول أهليتها أكدت فيه اللجنة الأولمبية الدولية حقّها في المنافسة."
+  en: "Algerian boxer, born in 1999 in Tiaret province. Gold medallist in the welterweight division at the Paris 2024 Olympics — the first Algerian, Arab and African woman to win Olympic boxing gold — after a wide eligibility controversy in which the International Olympic Committee affirmed her right to compete."
+  ur: "الجزائری مکے باز، 1999ء میں صوبہ تیارت میں پیدا ہوئیں۔ پیرس اولمپکس 2024ء میں ویلٹر ویٹ میں طلائی تمغہ جیتا — اولمپک مکے بازی میں طلائی تمغہ جیتنے والی پہلی الجزائری، عرب اور افریقی خاتون — اس سے قبل اہلیت پر وسیع تنازع رہا جس میں بین الاقوامی اولمپک کمیٹی نے ان کے کھیلنے کے حق کی تصدیق کی۔"
+roles: [athlete]
+wings: [people, living]
+regions: [maghreb]
+born:
+  edtf: "1999-05-02"
+  calendar: gregorian
+  precision: day
+  status: historical
+  sources: [source/wikipedia-imane-khelif-en]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Coverage describes Imane Khelif as an Algerian Muslim athlete; no source read names a school, so the value stays unknown."
+    sources: [source/wikipedia-imane-khelif-en]
+external_ids: { wikidata: "Q108176693" }
+sources: [source/wikipedia-imane-khelif-en, source/wikipedia-imane-khelif-ar, source/themuslim500-imane-khelif]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Imane Khelif', Arabic Wikipedia «إيمان خليف», and The Muslim 500 profile (2025 edition, p. 232), read 17 November 2026"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: ulama-m500-supplement2-2026-11-17
+status: { review: published, generated_by: "Devin (SWE-2 Medium)" }

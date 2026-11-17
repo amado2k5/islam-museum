@@ -1,0 +1,46 @@
+id: person/salman-iqbal
+class: person
+tags:
+- ulama-browser
+- ulama-mashahir
+label:
+  ar: سلمان إقبال
+  en: Salman Iqbal
+  ur: سلمان اقبال
+names:
+- value: سلمان إقبال
+  kind: full
+- value: Salman Iqbal
+  kind: full
+gender: male
+summary:
+  ar: رجل أعمال إعلامي باكستاني وُلد سنة 1974؛ مالك مجموعة ARY الإعلامية — أكبر شبكة تلفزيونية في باكستان بقنوات إيه آر واي الرقمية والأخبار والرياضة — ورئيسها التنفيذي.
+  en: Pakistani media businessman born in 1974; owner and CEO of the ARY Digital Network — Pakistan's largest television network with ARY Digital, news and sports channels.
+  ur: 'پاکستانی میڈیا کاروباری جو 1974 میں پیدا ہوا؛ ARY Digital Network — پاکستان کے سب سے بڑے ٹی وی نیٹ ورک: ARY ڈیجیٹل، نیوز اور اسپورٹس چینلز — کا مالک اور CEO۔'
+roles:
+- entrepreneur
+wings:
+- people
+- living
+born:
+  edtf: '1974'
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: &id001
+  - source/wikipedia-salman-iqbal
+  - source/muslim500-salman-iqbal
+faith:
+- value: unknown
+  basis: unknown
+  note: Pakistani media owner; no source read names a school for him personally and none is inferred.
+  sources: *id001
+sources: *id001
+provenance:
+  layer: own-research
+  source: Web research + Wikipedia and The Muslim 500 profiles, read 17 November 2026
+  generated_by: Devin (SWE-2 Medium)
+  run: ulama-m500-final-2026-11-17
+status:
+  review: published
+  generated_by: Devin (SWE-2 Medium)
