@@ -1,0 +1,24 @@
+id: work/fatwa-dar-alifta-eg-attributing-writings-to-nonauthor
+class: work
+kind: fatwa
+label: { ar: "حكم نسب الأعمال الكتابية لغير كاتبها", en: "Attributing written works to someone other than their author", ur: "تحریری کاموں کو غیر مصنف کی طرف منسوب کرنا" }
+summary:
+  ar: "سائل سأل عن نسب الأعمال الكتابية لغير كاتبها. أجابت دار الإفتاء المصرية ⁦(مفتي الجمهورية د. نظير محمد عياد، فتوى رقم 21617)⁩ أن من مقتضيات الأمانة العلمية ذكر النسبة الصحيحة للأقوال والمؤلفات وإحالة كل نقل إلى مصدره على ما فصّل الجواب."
+  en: "A questioner asked about attributing written works to someone other than their author. Egypt's Dar al-Ifta (Grand Mufti Dr. Nazir Muhammad Ayyad, fatwa no. 21617) answered that scholarly trustworthiness requires the correct attribution of sayings and works and referring every citation to its source — as the answer details."
+  ur: "ایک سائل نے تحریری کام کسی اور کے نام کرنے کا حکم پوچھا۔ مصر کے دار الافتاء ⁦(مفتیِ جمهور ڈاکٹر نظیر محمد عیاد، فتویٰ نمبر 21617)⁩ نے جواب دیا کہ علمی امانت کا تقاضا ہے کہ اقوال اور تصانیف صحیح شخص کے ساتھ منسوب ہوں اور ہر نقل اس کے ماخذ کی طرف لوٹائی جائے — جیسا کہ جواب میں تفصیل ہے۔"
+wings: [words]
+authors: [person/nazir-ayyad]
+publisher: group/dar-al-ifta-al-misriyya
+url: "https://www.dar-alifta.org/ar/fatwa/details/21617/حكم-نسب-الأعمال-الكتابية-لغير-كاتبها"
+languages: [ar]
+sources: [source/dar-alifta]
+relations:
+  - { type: about, target: concept/ilm, sources: [source/dar-alifta] }
+  - { type: about, target: concept/amana, sources: [source/dar-alifta] }
+provenance:
+  layer: own-research
+  source: "dar-alifta.org fatwa no. 21617, category المجتمع; read 17 Nov 2026. Summary in the museum's own words."
+  generated_by: "Devin"
+  model: "SWE-2 Medium"
+  run: fatwa-websites-34
+status: { review: published, completeness: 1 }
