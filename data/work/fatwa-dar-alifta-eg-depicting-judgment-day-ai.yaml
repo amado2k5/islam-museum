@@ -1,0 +1,24 @@
+id: work/fatwa-dar-alifta-eg-depicting-judgment-day-ai
+class: work
+kind: fatwa
+label: { ar: "حكم تصوير يوم القيامة بالذكاء الاصطناعي", en: "Depicting the Day of Resurrection with AI", ur: "اے آئی سے روزِ قیامت کی تصویرکشی کا حکم" }
+summary:
+  ar: "سائل سأل عن تصوير أحداث يوم القيامة كمشاهد مرئية عن طريق تقنيات الذكاء الاصطناعي. أجابت دار الإفتاء المصرية ⁦(مفتي الجمهورية د. نظير محمد عياد، فتوى رقم 22537)⁩ أن ذلك محرم شرعًا؛ لاشتماله على جملة من المحاذير منها ادعاء علم الغيب وتشبيه الأحداث الخارقة للإدراك البشري بما لا يليق على ما فصّل الجواب."
+  en: "A questioner asked about portraying the events of the Day of Resurrection as visual scenes through AI. Egypt's Dar al-Ifta (Grand Mufti Dr. Nazir Muhammad Ayyad, fatwa no. 22537) answered that this is forbidden in the sharia for the bundle of cautions it contains — among them claiming knowledge of the unseen and likening events beyond human perception to what does not befit them, as the answer details."
+  ur: "ایک سائل نے روزِ قیامت کے واقعات کی اے آئی سے بصری منظرکشی کا حکم پوچھا۔ مصر کے دار الافتاء ⁦(مفتیِ جمهور ڈاکٹر نظیر محمد عیاد، فتویٰ نمبر 22537)⁩ نے جواب دیا کہ یہ شریعت میں حرام ہے، اس میں شامل متعدد محذورات کی وجہ سے — جن میں غیب کا علم کا دعویٰ اور انسانی ادراک سے ماورا واقعات کی ایسی تشبیہ جو ان کے شایان نہیں — جیسا کہ جواب میں تفصیل ہے۔"
+wings: [words]
+authors: [person/nazir-ayyad]
+publisher: group/dar-al-ifta-al-misriyya
+url: "https://www.dar-alifta.org/ar/fatwa/details/22537/حكم-تصوير-يوم-القيامة-بالذكاء-الاصطناعي"
+languages: [ar]
+sources: [source/dar-alifta]
+relations:
+  - { type: about, target: concept/yawm-al-qiyama, sources: [source/dar-alifta] }
+  - { type: about, target: concept/halal-haram, sources: [source/dar-alifta] }
+provenance:
+  layer: own-research
+  source: "dar-alifta.org fatwa no. 22537, category السمعيات; read 17 Nov 2026. Summary in the museum's own words."
+  generated_by: "Devin"
+  model: "SWE-2 Medium"
+  run: fatwa-websites-34
+status: { review: published, completeness: 1 }
