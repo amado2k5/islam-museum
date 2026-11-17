@@ -1,0 +1,24 @@
+id: work/fatwa-dar-alifta-eg-bequest-of-organs-fiqh
+class: work
+kind: fatwa
+label: { ar: "تكييف الوصية بالأعضاء فقهًا", en: "The juristic characterisation of bequeathing one's organs", ur: "اعضا کی وصیت کی فقہی تکییف" }
+summary:
+  ar: "سائل سأل عن تكييف الوصية بالأعضاء فقهًا. أجابت دار الإفتاء المصرية ⁦(مفتي الجمهورية د. نظير محمد عياد، فتوى رقم 21647)⁩ أن التبرع بالأعضاء جائز شرعًا إذا روعيت ضوابطه الشرعية ومحدداته القانونية التي تقوم على تحقق موت المنقول منه على ما فصّل الجواب."
+  en: "A questioner asked how the jurists characterise bequeathing one's organs. Egypt's Dar al-Ifta (Grand Mufti Dr. Nazir Muhammad Ayyad, fatwa no. 21647) answered that donating organs is lawful when its legal controls and specifications are observed — resting on the confirmed death of the donor — as the answer details."
+  ur: "ایک سائل نے اعضا کی وصیت کی فقہی حیثیت پوچھی۔ مصر کے دار الافتاء ⁦(مفتیِ جمهور ڈاکٹر نظیر محمد عیاد، فتویٰ نمبر 21647)⁩ نے جواب دیا کہ اعضا کا عطیہ شرعی ضوابط کی رعایت کے ساتھ جائز ہے جن میں عطیہ دہندہ کی وفات کی تصدیق شامل ہے — جیسا کہ جواب میں تفصیل ہے۔"
+wings: [words]
+authors: [person/nazir-ayyad]
+publisher: group/dar-al-ifta-al-misriyya
+url: "https://www.dar-alifta.org/ar/fatwa/details/21647/تكييف-الوصية-بالأعضاء-فقهًا"
+languages: [ar]
+sources: [source/dar-alifta]
+relations:
+  - { type: about, target: concept/mawt, sources: [source/dar-alifta] }
+  - { type: about, target: concept/fiqh, sources: [source/dar-alifta] }
+provenance:
+  layer: own-research
+  source: "dar-alifta.org fatwa no. 21647, category الطب والتداوي; read 17 Nov 2026. Summary in the museum's own words."
+  generated_by: "Devin"
+  model: "SWE-2 Medium"
+  run: fatwa-websites-34
+status: { review: published, completeness: 1 }
