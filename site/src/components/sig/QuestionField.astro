@@ -19,7 +19,7 @@ const F = (ui(lang) as any).fatwa;
 const V = F.viz;
 
 // the most-asked subjects, whole ties only: never a cut through a group of subjects with the same number of fatwas
-const TOP_MAX = 44, TONES = 8, VBW = 760, PHONE_PX = 343, MIN_FS = 13, RING_MAX = 9;
+const TOP_MAX = 44, TONES = 12, VBW = 760, PHONE_PX = 343, MIN_FS = 13, RING_MAX = 9;
 if (fatwaSources.length > TONES) throw new Error(`Question field: ${fatwaSources.length} issuing sources, but the view has tones for ${TONES}; add a tone`);
 let cut = Math.min(TOP_MAX, fatwaSubjects.length);
 while (cut > 0 && cut < fatwaSubjects.length && fatwaSubjects[cut].list.length === fatwaSubjects[cut - 1].list.length) cut--;
@@ -154,7 +154,7 @@ const counted = (n: number) => fmt(F.count, { n: num(n, lang) });
   </details>
 </section>
 <style is:inline>
-  .sgf { --sgf-s0: var(--gold); --sgf-s1: var(--link); --sgf-s2: color-mix(in srgb, var(--fg) 72%, var(--bg)); --sgf-s3: color-mix(in srgb, var(--gold) 55%, var(--fg) 45%); --sgf-s4: color-mix(in srgb, var(--gold) 50%, var(--link) 50%); --sgf-s5: color-mix(in srgb, var(--link) 38%, var(--bg) 62%); --sgf-s6: color-mix(in srgb, var(--fg) 38%, var(--bg) 62%); --sgf-s7: color-mix(in srgb, var(--gold) 45%, var(--fg) 55%); }
+  .sgf { --sgf-s0: var(--gold); --sgf-s1: var(--link); --sgf-s2: color-mix(in srgb, var(--fg) 72%, var(--bg)); --sgf-s3: color-mix(in srgb, var(--gold) 55%, var(--fg) 45%); --sgf-s4: color-mix(in srgb, var(--gold) 50%, var(--link) 50%); --sgf-s5: color-mix(in srgb, var(--link) 38%, var(--bg) 62%); --sgf-s6: color-mix(in srgb, var(--fg) 38%, var(--bg) 62%); --sgf-s7: color-mix(in srgb, var(--gold) 45%, var(--fg) 55%); --sgf-s8: color-mix(in srgb, var(--link) 60%, var(--fg) 40%); --sgf-s9: color-mix(in srgb, var(--gold) 40%, var(--bg) 60%); --sgf-s10: color-mix(in srgb, var(--link) 72%, var(--gold) 28%); --sgf-s11: color-mix(in srgb, var(--fg) 55%, var(--link) 45%); }
   .sgf-legend { display: flex; flex-wrap: wrap; gap: 4px 18px; list-style: none; padding: 0; margin: 0 0 .6rem; font-size: .86rem; }
   .sgf-legend li { display: inline-flex; align-items: center; gap: 7px; min-height: 28px; }
   .sgf-sw { display: inline-block; width: 14px; height: 14px; border-radius: 50%; background: var(--c); border: 1.5px solid color-mix(in srgb, var(--fg) 30%, transparent); flex: none; }
@@ -171,7 +171,7 @@ const counted = (n: number) => fmt(F.count, { n: num(n, lang) });
   .sgf-c { cursor: pointer; text-decoration: none; transition: opacity .25s; }
   .sgf-disc { fill: var(--card); stroke: color-mix(in srgb, var(--gold) 45%, var(--line)); stroke-width: 1.2px; transition: fill .2s; }
   .sgf-seg { fill: none; stroke: var(--c); }
-  .s0 { --c: var(--sgf-s0); } .s1 { --c: var(--sgf-s1); } .s2 { --c: var(--sgf-s2); } .s3 { --c: var(--sgf-s3); } .s4 { --c: var(--sgf-s4); } .s5 { --c: var(--sgf-s5); } .s6 { --c: var(--sgf-s6); } .s7 { --c: var(--sgf-s7); }
+  .s0 { --c: var(--sgf-s0); } .s1 { --c: var(--sgf-s1); } .s2 { --c: var(--sgf-s2); } .s3 { --c: var(--sgf-s3); } .s4 { --c: var(--sgf-s4); } .s5 { --c: var(--sgf-s5); } .s6 { --c: var(--sgf-s6); } .s7 { --c: var(--sgf-s7); } .s8 { --c: var(--sgf-s8); } .s9 { --c: var(--sgf-s9); } .s10 { --c: var(--sgf-s10); } .s11 { --c: var(--sgf-s11); }
   .sgf-name { fill: var(--fg); font-weight: 600; pointer-events: none; }
   .sgf-count { fill: var(--muted); font-weight: 500; pointer-events: none; }
   .sgf-count.lone { fill: var(--fg); font-weight: 600; }
