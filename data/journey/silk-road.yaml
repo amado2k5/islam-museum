@@ -1,0 +1,42 @@
+id: journey/silk-road
+class: journey
+kind: trade_route
+tags: [trade-browser, trade-silk-road, trade-trade]
+label:
+  ar: طريق الحرير
+  en: The Silk Road
+  ur: شاہراہِ ریشم
+summary:
+  ar: "شبكة الطرق البرية والبحرية التي ربطت الصين بآسيا الوسطى وفارس والعراق والشام قرونًا، وسار عليها الحرير والتوابل والورق والعلوم والدعوات؛ ويصف ياقوت في معجم البلدان حواضر الطريق من مرو وبخارى إلى سمرقند وما وراء النهر {cite:mujam-al-buldan-sader-1995}، وتلخص دائرة المعارف الإسلامية تاريخ الطريق ودور المسلمين في تجارته {cite:encyclopaedia-of-islam-2}."
+  en: "The network of overland and sea roads that linked China to Central Asia, Persia, Iraq and al-Sham for centuries, carrying silk, spices, paper, sciences and faiths; Yaqut's Mu'jam al-Buldan describes the road's cities from Merv and Bukhara to Samarkand and Transoxiana {cite:mujam-al-buldan-sader-1995}, and the Encyclopaedia of Islam surveys the road's history and the Muslims' role in its trade {cite:encyclopaedia-of-islam-2}."
+  ur: "وہ زمینی اور بحری راستوں کا جال جو صدیوں تک چین کو وسط ایشیا، فارس، عراق اور شام سے جوڑتا رہا اور جس پر ریشم، مصالحے، کاغذ، علوم اور دعوتیں سفر کرتیں؛ یعقوت کا معجم البلدان مرو اور بخارا سے سمرقند اور ماوراء النہر تک کے راستے کے شہروں کو بیان کرتا ہے {cite:mujam-al-buldan-sader-1995}، اور دائرہ معارفِ اسلامیہ اس راستے کی تاریخ اور مسلمانوں کے تجارتی کردار کا جائزہ لیتی ہے {cite:encyclopaedia-of-islam-2}."
+wings: [place]
+themes:
+- trade-and-finance
+periods:
+- period/early-islam
+regions:
+- persia-central-asia
+legs:
+  - { from: place/baghdad, to: place/nishapur, mode: "قافلة", note: "الطريق الملوكي شرقًا من العراق إلى خراسان، وبها يسمي ياقوت منازل الطريق.", sources: [source/mujam-al-buldan-sader-1995] }
+  - { from: place/nishapur, to: place/merv, mode: "قافلة", note: "من خراسان إلى مرو عاصمة الصدّ على ممر القوافل.", sources: [source/mujam-al-buldan-sader-1995] }
+  - { from: place/merv, to: place/bukhara, mode: "قافلة", note: "من مرو عبر الجيحون إلى بخارى.", sources: [source/mujam-al-buldan-sader-1995] }
+  - { from: place/bukhara, to: place/samarkand, mode: "قافلة", note: "من بخارى إلى سمرقند كبرى حواضر الطريق.", sources: [source/mujam-al-buldan-sader-1995] }
+  - { from: place/samarkand, to: place/kashgar, mode: "قافلة", note: "من سمرقند بالفرغانة إلى كاشغر على مشارف الصين.", sources: [source/mujam-al-buldan-sader-1995] }
+  - { from: place/kashgar, to: place/xian, mode: "قافلة", note: "من كاشغر بطريق الصحراء إلى شيان شرق الصين.", sources: [source/encyclopaedia-of-islam-2] }
+relations:
+  - { type: related_to, target: concept/trade-in-islam, sources: [source/encyclopaedia-of-islam-2] }
+  - { type: related_to, target: invention/caravanserai-network, sources: [source/encyclopaedia-of-islam-2] }
+sources:
+- source/encyclopaedia-of-islam-2
+- source/mujam-al-buldan-sader-1995
+provenance:
+  layer: own-research
+  source: "يعقوت، معجم البلدان، مواد مرو وبخارى وسمرقند؛ Encyclopaedia of Islam, 2nd ed., art. on the silk route"
+  generated_by: "Devin (SWE-2 Medium)"
+  model: "swe-2-medium"
+  run: "trade-browser-2026-11-16"
+status:
+  review: published
+  completeness: 1
+  generated_by: "Devin (SWE-2 Medium); route summary drawn from Yaqut and the Encyclopaedia of Islam"
