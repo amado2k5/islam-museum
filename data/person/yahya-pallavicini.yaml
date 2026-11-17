@@ -1,0 +1,33 @@
+id: person/yahya-pallavicini
+class: person
+tags: [ulama-browser, ulama-mashahir]
+label: { ar: "يحيى بالافيتشيني", en: "Yahya Pallavicini", ur: "یحییٰ پالاوچینی" }
+names:
+  - { value: "يحيى بالافيتشيني", kind: full }
+  - { value: "Yahya Pallavicini", kind: full }
+  - { value: "یحییٰ پالاوچینی", kind: full }
+gender: male
+summary:
+  ar: "إمام إيطالي، وُلد سنة 1965 في لوزان. إمام مسجد الوحيد بميلانو ورئيس الجماعة الدينية الإسلامية الإيطالية ⁦(COREIS)⁩، ومستشار سابق لوزارة الداخلية الإيطالية لشؤون الإسلام الإيطالي."
+  en: "Italian imam, born 1965 in Lausanne. Imam of the al-Wahid mosque in Milan and president of COREIS, the Italian Islamic Religious Community; formerly an adviser to the Italian Ministry of the Interior on Italian Islam."
+  ur: "اطالوی امام، 1965 میں لوزان میں پیدا ہوئے۔ میلان کے مسجد الواحد کے امام اور اطالوی اسلامی مذہبی برادری ⁦(COREIS)⁩ کے صدر؛ سابقًا اطالوی وزارت داخلہ کے مشیر برائے امور اسلام۔"
+roles: [imam, scholar]
+wings: [people, living]
+born:
+  edtf: "1965"
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: [source/muslim500-yahya-pallavicini]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Born into a documented Muslim family; son of Shaykh Abd al-Wahid Pallavicini This attestation is preserved here, but under the two-independent-sources rule for modern figures a single source does not settle a school or order, so the value is recorded as unknown."
+    sources: [source/muslim500-yahya-pallavicini]
+sources: [source/muslim500-yahya-pallavicini]
+provenance:
+  layer: own-research
+  source: "Web research + Wikipedia and The Muslim 500 profiles, read 17 November 2026"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: ulama-m500-w151-200-2026-11-17
+status: { review: published, generated_by: "Devin (SWE-2 Medium)" }

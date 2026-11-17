@@ -1,3 +1,4 @@
+---
 id: person/fazlur-rahman-malik
 lang: en
 source_lang: ar

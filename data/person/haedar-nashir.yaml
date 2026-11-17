@@ -1,0 +1,33 @@
+id: person/haedar-nashir
+class: person
+tags: [ulama-browser, ulama-mashahir]
+label: { ar: "حيدر ناشر", en: "Haedar Nashir", ur: "حیدر ناصر" }
+names:
+  - { value: "حيدر ناشر", kind: full }
+  - { value: "Haedar Nashir", kind: full }
+  - { value: "حیدر ناصر", kind: full }
+gender: male
+summary:
+  ar: "عالم وأستاذ إندونيسي، وُلد سنة 1958 في باندونغ. رئيس جمعية محمدية، ثاني أكبر منظمة إسلامية في إندونيسيا، منذ 2015، وأستاذ علم الاجتماع بجامعة محمدية مالانغ سابقًا."
+  en: "Indonesian scholar and professor, born 1958 in Bandung. Chairman of Muhammadiyah, Indonesia's second-largest Islamic organisation, since 2015; formerly a professor of sociology at the Muhammadiyah University of Malang."
+  ur: "انڈونیشیائی عالم اور پروفیسر، 1958 میں بندونگ میں پیدا ہوئے۔ 2015 سے انڈونیشیا کی دوسری بڑی اسلامی تنظیم محمدیہ کے چیئرمین؛ سابقًا جامعہ محمدیہ مالانگ میں معاشیات کے پروفیسر۔"
+roles: [scholar, professor]
+wings: [people, living]
+born:
+  edtf: "1958-02-25"
+  calendar: gregorian
+  precision: day
+  status: historical
+  sources: [source/wikipedia-haedar-nashir]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Documented Sunni scholar and chairman of Muhammadiyah This attestation is preserved here, but under the two-independent-sources rule for modern figures a single source does not settle a school or order, so the value is recorded as unknown."
+    sources: [source/wikipedia-haedar-nashir]
+sources: [source/wikipedia-haedar-nashir]
+provenance:
+  layer: own-research
+  source: "Web research + Wikipedia and The Muslim 500 profiles, read 17 November 2026"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: ulama-m500-w151-200-2026-11-17
+status: { review: published, generated_by: "Devin (SWE-2 Medium)" }

@@ -1,3 +1,4 @@
+---
 id: person/mahmoud-shaltut
 lang: ar
 source_lang: ar

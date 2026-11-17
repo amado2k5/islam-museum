@@ -1,3 +1,4 @@
+---
 id: person/yusuf-idris
 lang: ar
 source_lang: ar

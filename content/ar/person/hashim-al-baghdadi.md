@@ -1,3 +1,4 @@
+---
 id: person/hashim-al-baghdadi
 lang: ar
 source_lang: ar

@@ -1,3 +1,4 @@
+---
 id: person/muhammad-mahfuz-al-tarmasi
 lang: ur
 source_lang: ar

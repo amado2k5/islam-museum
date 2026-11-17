@@ -1,0 +1,33 @@
+id: person/ahmad-al-toufiq
+class: person
+tags: [ulama-browser, ulama-mashahir]
+label: { ar: "أحمد التوفيق", en: "Ahmed Toufiq", ur: "احمد توفیق" }
+names:
+  - { value: "أحمد التوفيق", kind: full }
+  - { value: "Ahmed Toufiq", kind: full }
+  - { value: "احمد توفیق", kind: full }
+gender: male
+summary:
+  ar: "مؤرخ وروائي وسياسي مغربي، وُلد سنة 1943 في مريغة بالأطلس الكبير. وزير الأوقاف والشؤون الإسلامية المغربي منذ سنة 2002، وأستاذ سابق للتاريخ بجامعة محمد الخامس ومدير سابق للمكتبة الوطنية."
+  en: "Moroccan historian, novelist and politician, born 1943 in Marigha in the High Atlas. Morocco's Minister of Endowments and Islamic Affairs since 2002, formerly a history professor at Mohammed V University and director of the National Library."
+  ur: "مراکشی مورخ، ناول نگار اور سیاست دان، 1943 میں اطلس کبیر کے گاؤں مریغہ میں پیدا ہوئے۔ 2002 سے مراکش کے وزیر اوقاف و امور اسلامی؛ سابقًا جامعہ محمد خامس میں تاریخ کے پروفیسر اور قومی کتب خانہ کے ڈائریکٹر۔"
+roles: [politician, historian, writer, scholar]
+wings: [people, living]
+born:
+  edtf: "1943-06-22"
+  calendar: gregorian
+  precision: day
+  status: historical
+  sources: [source/wikipedia-ahmad-al-toufiq]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Publicly identified as a Sunni Muslim; minister of Islamic affairs of a Maliki monarchy This attestation is preserved here, but under the two-independent-sources rule for modern figures a single source does not settle a school or order, so the value is recorded as unknown."
+    sources: [source/wikipedia-ahmad-al-toufiq]
+sources: [source/wikipedia-ahmad-al-toufiq]
+provenance:
+  layer: own-research
+  source: "Web research + Wikipedia and The Muslim 500 profiles, read 17 November 2026"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: ulama-m500-w151-200-2026-11-17
+status: { review: published, generated_by: "Devin (SWE-2 Medium)" }

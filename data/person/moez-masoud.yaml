@@ -1,0 +1,34 @@
+id: person/moez-masoud
+class: person
+tags: [ulama-browser, ulama-mashahir]
+label: { ar: "معز مسعود", en: "Moez Masoud", ur: "معز مسعود" }
+names:
+  - { value: "معز مسعود", kind: full }
+  - { value: "Moez Masoud", kind: full }
+  - { value: "Moaz Masoud", kind: alternate }
+gender: male
+summary:
+  ar: "داعية ومقدم برامج ومنتج مصري، وُلد سنة 1978، درس الاقتصاد في الجامعة الأمريكية بالقاهرة ثم الماجستير في كامبريدج. قدّم برامج بالإنجليزية ثم «الطريق الصح» بالعربية سنة 2007، وأسس معهدًا يحمل الاسم نفسه، وأنتج فيلم «اشتباك»، وصنّفته ذي إيكونومست سنة 2011 ضمن أكثر مقدمي التراث الإسلامي تأثيرًا."
+  en: "Egyptian preacher, television presenter and producer, born in 1978; he studied economics at the American University in Cairo, then an MPhil at Cambridge. After English-language shows he launched the Arabic series Al-Tareeq al-Sahh in 2007, founded an institute of the same name, and produced the film Clash; The Economist named him in 2011 among the most influential presenters of the Islamic tradition."
+  ur: "مصری مبلغ، ٹیلی ویژن میزبان اور پروڈیوسر، 1978 میں پیدا ہوئے؛ امریکن یونیورسٹی قاہرہ سے معاشیات اور پھر کیمبرج سے ایم فل کیا۔ انگریزی پروگراموں کے بعد 2007 میں عربی سیریز «الطريق الصح» شروع کی، اسی نام کا ادارہ قائم کیا اور فلم «اشتباک» بنائی؛ دی اکانومسٹ نے 2011 میں انہیں اسلامی روایت کے مؤثر ترین پیش کرنے والوں میں شمار کیا۔"
+roles: [preacher, presenter]
+wings: [people, living]
+regions: [egypt-nile]
+born:
+  edtf: "1978"
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: [source/wikipedia-moez-masoud]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Documented as an Egyptian Sunni preacher; trained in Islamic theology and sciences with scholars over several years. This attestation is preserved here, but under the two-independent-sources rule for modern figures a single source does not settle a school or order, so the value is recorded as unknown."
+    sources: [source/wikipedia-moez-masoud]
+sources: [source/muslim500-moez-masoud, source/wikipedia-moez-masoud]
+provenance:
+  layer: own-research
+  source: "The Muslim 500 profile and English Wikipedia, read for run ulama-m500-w201-250-2026-11-17"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: ulama-m500-w201-250-2026-11-17
+status: { review: published, generated_by: "Devin (SWE-2 Medium)" }

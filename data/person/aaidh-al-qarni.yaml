@@ -1,0 +1,36 @@
+id: person/aaidh-al-qarni
+class: person
+tags: [ulama-browser, ulama-mashahir]
+label: { ar: "عائض القرني", en: "Aaidh al-Qarni", ur: "عائض القرنی" }
+names:
+  - { value: "عائض بن عبد الله القرني", kind: full }
+  - { value: "Aaidh ibn Abdullah al-Qarni", kind: full }
+  - { value: "Aaidh al-Qarni", kind: alternate }
+  - { value: "Aid al-Qarni", kind: alternate }
+gender: male
+summary:
+  ar: "داعية وكاتب وشاعر سعودي، وُلد سنة 1959 في منطقة عسير، حاصل على الدكتوراه من جامعة الإمام محمد بن سعود الإسلامية في الحديث. اشتهر عالميًا بكتابه «لا تحزن» الذي بيعت منه ملايين النسخ وتُرجم إلى لغات كثيرة، وله أكثر من ثمانين مؤلفًا بين الدراسات الشرعية والتنمية الذاتية والدواوين."
+  en: "Saudi preacher, writer and poet, born in 1959 in the Asir region, with a doctorate in hadith from Imam Muhammad ibn Saud Islamic University. He is internationally known for La Tahzan ⁦(Don't Be Sad)⁩, which sold millions of copies in many languages, and has published more than eighty books across religious studies, self-help and poetry."
+  ur: "سعودی مبلغ، مصنف اور شاعر، 1959 میں علاقہ عسیر میں پیدا ہوئے، جامعہ امام محمد بن سعود الاسلامیہ سے حدیث میں ڈاکٹریٹ۔ وہ اپنی کتاب «لا تحزن» ⁦(Don't Be Sad)⁩ کی وجہ سے عالمگیر شہرت رکھتے ہیں جس کی لاکھوں کاپیاں بکیں اور کئی زبانوں میں ترجمہ ہوا، اور مذہبی مطالعات، خوداحتسابی اور شاعری پر اسی سے زیادہ تصانیف چھوڑیں۔"
+roles: [preacher, writer, poet]
+wings: [people, living]
+regions: [arabia]
+born:
+  edtf: "1959"
+  calendar: gregorian
+  precision: year
+  status: historical
+  note: "Wikipedia gives 1 January 1959, a value commonly used for an unknown day; only the year is asserted here."
+  sources: [source/wikipedia-aaidh-al-qarni]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Documented as a Saudi Sunni scholar trained and teaching at Imam Muhammad ibn Saud Islamic University. This attestation is preserved here, but under the two-independent-sources rule for modern figures a single source does not settle a school or order, so the value is recorded as unknown."
+    sources: [source/wikipedia-aaidh-al-qarni]
+sources: [source/muslim500-aaidh-al-qarni, source/wikipedia-aaidh-al-qarni]
+provenance:
+  layer: own-research
+  source: "The Muslim 500 profile and English Wikipedia, read for run ulama-m500-w201-250-2026-11-17"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: ulama-m500-w201-250-2026-11-17
+status: { review: published, generated_by: "Devin (SWE-2 Medium)" }

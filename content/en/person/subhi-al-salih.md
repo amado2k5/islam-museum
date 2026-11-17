@@ -1,3 +1,4 @@
+---
 id: person/subhi-al-salih
 lang: en
 source_lang: ar

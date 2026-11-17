@@ -1,0 +1,35 @@
+id: person/naim-ternava
+class: person
+tags: [ulama-browser, ulama-mashahir]
+label: { ar: "نعيم ترنافا", en: "Naim Ternava", ur: "نعیم ترناوا" }
+names:
+  - { value: "نعيم ترنافا", kind: full }
+  - { value: "Naim Ternava", kind: full }
+  - { value: "Naim Tërnava", kind: alternate }
+gender: male
+summary:
+  ar: "مفتي عام كوسوفو ورئيس مشيختها، وُلد في 7 يناير 1961 في قرية لسمير ببلدية فوشه كوسوفا. تخرّج في جامعة الأزهر سنة 1984، ودرّس في مدرسة علاء الدين في بريشتينا ثم ترأسها، وانتُخب رئيسًا للمجلس الإسلامي في كوسوفو سنة 1999، ثم مفتيًا عامًّا في 15 أكتوبر 2003 وأعيد انتخابه سنة 2008."
+  en: "Grand Mufti of Kosovo and president of its Islamic Community, born on 7 January 1961 in the village of Lismir in the municipality of Fushe Kosova. A 1984 graduate of al-Azhar, he taught at and later directed the Alauddin Madrasa in Pristina, was elected president of the Islamic Community's assembly in 1999, then Grand Mufti on 15 October 2003, and was re-elected in 2008."
+  ur: "کوسوو کے مفتیِ اعظم اور اسلامی کمیونٹی کے صدر، 7 جنوری 1961 کو فوشیز کوسوا کے گاؤں لسمیر میں پیدا ہوئے۔ 1984 میں الازہر سے فارغ التحصیل ہوئے، پریشتینہ کی مدرسہ علاؤالدین میں تدریس اور پھر اس کی انتظامیہ سنبھالی، 1999 میں اسمبلی کے صدر منتخب ہوئے، پھر 15 اکتوبر 2003 کو مفتیِ اعظم چنے گئے اور 2008 میں دوبارہ منتخب ہوئے۔"
+roles: [mufti, scholar, teacher]
+wings: [people, living]
+regions: [anatolia-balkans]
+born:
+  edtf: "1961-01-07"
+  calendar: gregorian
+  precision: day
+  status: historical
+  note: "Born in Lismir, Fushe Kosova municipality; no place entity for it, so no born_in edge is written."
+  sources: [source/wikipedia-naim-ternava]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Arabic Wikipedia infobox records Hanafi fiqh and Sunni creed; he leads the overwhelmingly Hanafi Islamic Community of Kosovo. This attestation is preserved here, but under the two-independent-sources rule for modern figures a single source does not settle a school or order, so the value is recorded as unknown."
+    sources: [source/wikipedia-naim-ternava]
+sources: [source/wikipedia-naim-ternava]
+provenance:
+  layer: own-research
+  source: "Albanian/Arabic Wikipedia and the mufti's official biography, read for run ulama-m500-w201-250-2026-11-17"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: ulama-m500-w201-250-2026-11-17
+status: { review: published, generated_by: "Devin (SWE-2 Medium)" }

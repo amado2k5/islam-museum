@@ -1,0 +1,33 @@
+id: person/mohammad-al-issa
+class: person
+tags: [ulama-browser, ulama-mashahir]
+label: { ar: "محمد العيسى", en: "Mohammad al-Issa", ur: "محمد العیسیٰ" }
+names:
+  - { value: "محمد العيسى", kind: full }
+  - { value: "Mohammad al-Issa", kind: full }
+  - { value: "محمد العیسیٰ", kind: full }
+gender: male
+summary:
+  ar: "عالم سعودي، وُلد سنة 1965 في الرياض. وزير العدل السعودي سابقًا ⁦(2009–2015)⁩ والأمين العام لرابطة العالم الإسلامي منذ 2016، ومن أبرز المتحدثين المؤسسيين باسم الإسلام المعتدل."
+  en: "Saudi scholar, born 1965 in Riyadh. Former Saudi minister of justice (2009–2015) and secretary-general of the Muslim World League since 2016, a prominent institutional voice for moderate Islam."
+  ur: "سعودی عالم، 1965 میں ریاض میں پیدا ہوئے۔ سابقہ سعودی وزیر انصاف ⁦(2009–2015)⁩ اور 2016 سے رابطہ عالم اسلامی کے سیکریٹری جنرل؛ معتدل اسلام کے نمایاں ادارہ جاتی ترجمان۔"
+roles: [scholar, jurist]
+wings: [people, living]
+born:
+  edtf: "1965"
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: [source/wikipedia-mohammad-al-issa]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Documented Sunni scholar; head of the Muslim World League This attestation is preserved here, but under the two-independent-sources rule for modern figures a single source does not settle a school or order, so the value is recorded as unknown."
+    sources: [source/wikipedia-mohammad-al-issa]
+sources: [source/wikipedia-mohammad-al-issa]
+provenance:
+  layer: own-research
+  source: "Web research + Wikipedia and The Muslim 500 profiles, read 17 November 2026"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: ulama-m500-w151-200-2026-11-17
+status: { review: published, generated_by: "Devin (SWE-2 Medium)" }

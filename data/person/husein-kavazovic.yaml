@@ -1,0 +1,33 @@
+id: person/husein-kavazovic
+class: person
+tags: [ulama-browser, ulama-mashahir]
+label: { ar: "حسين كافازوفيتش", en: "Husein Kavazović", ur: "حسین کاوازووچ" }
+names:
+  - { value: "حسين كافازوفيتش", kind: full }
+  - { value: "Husein Kavazović", kind: full }
+  - { value: "حسین کاوازووچ", kind: full }
+gender: male
+summary:
+  ar: "مفتي البوسنة والهرسك، وُلد سنة 1964 في يايتسه. رئيس العلماء ⁦(رئيس العلماء)⁩ للمشيخة الإسلامية في البوسنة والهرسك منذ نوفمبر 2012، وقبلها مفتي توزلا."
+  en: "Grand mufti of Bosnia and Herzegovina, born 1964 in Jajce. Reis-ul-ulema (head of scholars) of the Islamic Community of Bosnia and Herzegovina since November 2012, previously mufti of Tuzla."
+  ur: "بوسنیا و ہرزیگووینا کے مفتی اعظم، 1964 میں یائیتسہ میں پیدا ہوئے۔ نومبر 2012 سے بوسنیائی اسلامی برادری کے رئیس العلماء؛ اس سے قبل توزلا کے مفتی۔"
+roles: [mufti, scholar]
+wings: [people, living]
+born:
+  edtf: "1964-07-03"
+  calendar: gregorian
+  precision: day
+  status: historical
+  sources: [source/wikipedia-husein-kavazovic, source/muslim500-husein-kavazovic]
+faith:
+  - value: sunni
+    basis: documented
+    note: "Documented Sunni Hanafi mufti of Bosnia and Herzegovina"
+    sources: [source/wikipedia-husein-kavazovic, source/muslim500-husein-kavazovic]
+sources: [source/wikipedia-husein-kavazovic, source/muslim500-husein-kavazovic]
+provenance:
+  layer: own-research
+  source: "Web research + Wikipedia and The Muslim 500 profiles, read 17 November 2026"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: ulama-m500-w151-200-2026-11-17
+status: { review: published, generated_by: "Devin (SWE-2 Medium)" }
