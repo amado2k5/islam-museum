@@ -1,0 +1,23 @@
+id: event/jafar-debate-at-najashi-court
+class: event
+kind: other
+label: { ar: "مناظرة جعفر في مجلس النجاشي", en: "Ja'far's Debate at the Court of the Negus" }
+summary:
+  ar: "لما هاجر المسلمون إلى [[place/abyssinia|الحبشة]] بعثت قريش [[person/amr-ibn-al-as|عمر بن العاص]] وعبد الله بن أبي ربيعة بالهدايا إلى [[person/al-najashi|النجاشي]] يسألانه ردّهم، فجادلوه بأن المهاجرين فارقوا دين قومهم ولم يدخلوا في دينه ولا في دينهم وجاؤوا بدين مبتدع {cite:ibn-hisham-sira 1/337}. فبعث النجاشي إلى المسلمين يستمعهم، فقام [[person/jafar-ibn-abi-talib|جعفر بن أبي طالب]] خطيباً فقال: أيها الملك كنا قوماً أهل جاهلية نعبد الأصنام ونأكل الميتة ونأتي الفواحش ونقطع الأرحام ونجير الجوار، يأكل القوي منا الضعيف، فكنا على ذلك حتى بعث الله إلينا رسولاً منا نعرف نسبه وصدقه وأمانته وعفافه، فدعانا إلى الله لنعبده ونوحده ونخلع ما كنا نعبد نحن وآباؤنا من دونه من الحجارة والأوثان، وأمرنا بصدق الحديث وأداء الأمانة وصلة الرحم وحسن الجوار والكف عن المحارم والدماء، ونهانا عن الفواحش وقول الزور وأكل مال اليتيم وقذف المحصنات، وأمرنا أن نعبد الله لا نشرك به شيئاً، وأمرنا بالصلاة والزكاة والصيام. فصدقناه وآمنا به واتبعناه فحرّمنا ما حرم وأحللنا ما أحل، فعدا علينا قومنا فعذبونا وفتنونا عن ديننا ليردونا إلى عبادة الأوثان، فلما قهرونا وظلمونا خرجنا إلى بلدك واخترناك على من سواك ورغبنا في جوارك ورجونا أن لا نُظلم عندك {cite:ibn-hisham-sira 1/338-339}. ثم تلا عليه من صدر سورة مريم فرقّ النجاشي وقال: إن هذا والذي جاء به عيسى ليخرج من مشكاة واحدة، وردّ هدايا عمرو وأصحابه ورد عليهم {cite:ibn-hisham-sira 1/339}."
+  en: "When the Muslims emigrated to [[place/abyssinia|Abyssinia]], Quraysh sent [[person/amr-ibn-al-as|Amr ibn al-As]] and Abdallah ibn Abi Rabi'a with gifts to [[person/al-najashi|the Negus]] to ask for their return, arguing that the emigrants had left the religion of their people without entering his or theirs and had brought an invented religion {cite:ibn-hisham-sira 1/337}. The Negus summoned the Muslims to hear them, and [[person/jafar-ibn-abi-talib|Ja'far ibn Abi Talib]] stood and addressed him: O king, we were a people of ignorance — we worshipped idols, ate carrion, committed outrages, severed kinship and wronged neighbours, the strong devouring the weak — until God sent us a messenger from among us whose lineage, truthfulness, trustworthiness and chastity we knew. He called us to God to worship and unify Him and to cast aside the stones and idols we and our fathers worshipped; he commanded us to speak truth, deliver trusts, keep kinship, be good neighbours, and refrain from forbidden things and bloodshed; he forbade us outrages, false speech, devouring the orphan's wealth and slandering chaste women; he commanded us to worship God associating nothing with Him, and ordered prayer, alms and fasting. We believed him and followed him, so we made unlawful what he made unlawful and lawful what he made lawful; our people attacked us, tortured us and tempted us from our religion to return us to the worship of idols. When they overcame and wronged us, we came to your country, chose you over all others, desired your protection and hoped not to be wronged in your presence {cite:ibn-hisham-sira 1/338-339}. Then he recited the opening of Surat Maryam, at which the Negus wept and said: this and what Jesus brought come from one lamp; he returned Amr's gifts and turned the envoys away {cite:ibn-hisham-sira 1/339}."
+wings: [time]
+periods: [period/prophetic-era]
+date:
+  start: { hijri: "-0007", precision: year, status: historical, note: "الهجرة الأولى إلى الحبشة سنة 5 من البعثة تقريباً (7 قبل الهجرة)." }
+relations:
+  - { type: had_participant, target: person/jafar-ibn-abi-talib, role: "خطيب المهاجرين", sources: [source/ibn-hisham-sira] }
+  - { type: had_participant, target: person/al-najashi, role: "الحاكم المستمع", sources: [source/ibn-hisham-sira] }
+  - { type: had_participant, target: person/amr-ibn-al-as, role: "سفير قريش", sources: [source/ibn-hisham-sira] }
+  - { type: occurred_at, target: place/abyssinia, sources: [source/ibn-hisham-sira] }
+sources: [source/ibn-hisham-sira]
+tags: ["munazarat-browser", "munazarat-scriptuaries", "munazarat-polytheists"]
+provenance:
+  layer: own-research
+  source: "ibn-hisham-sira 1/337-339"
+  generated_by: "Devin (SWE-2), drafted from ibn-hisham-sira"
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2)" }

@@ -1,0 +1,20 @@
+id: event/al-murajaat-correspondence
+class: event
+kind: other
+label: { ar: "المراجعات", en: "al-Muraja'at" }
+summary:
+  ar: "أشهر نص مناظرة مكتوب بين السنة والشيعة في القرن العشرين: كتاب يقدّمه ناشروه باعتباره 112 رسالة متبادلة بين العلامة الشيعي اللبناني [[person/abd-al-husayn-sharaf-al-din|عبد الحسين شرف الدين الموسوي]] وشيخ الأزهر [[person/salim-al-bishri|سليم البشري]] نحو 1911–1913، نشر الكتاب سنة 1936 بعد وفاة البشري بعقود، في مباحث الخلافة والإمامة وحجية كتب الحديث السنية. ويُلزم المتحف التنبيه على أن المؤرخين والدفاعيين السنة يطعنون بقوة في صحة النسبة وسلامة التفريغ لصدوره بعد وفاة البشري بلا تحقيق مخطوط خارجي، فهو نص أدب مناظرة لا وثيقة مقطوعة {cite:al-islam-murajaat}."
+  en: "The most famous written Sunni–Shia debate text of the twentieth century: a book its publishers present as 112 letters exchanged between the Lebanese Shia scholar [[person/abd-al-husayn-sharaf-al-din|Abd al-Husayn Sharaf al-Din al-Musawi]] and the Shaykh of al-Azhar [[person/salim-al-bishri|Salim al-Bishri]] around 1911–1913, published in 1936 decades after al-Bishri's death, on the succession, the Imamate and the authority of the Sunni hadith collections. The museum must note that Sunni historians and apologists strongly contest its attribution and transcription, since it appeared decades after al-Bishri's death without external manuscript verification — it is a disputation text, not a secured document {cite:al-islam-murajaat}."
+wings: [time]
+date:
+  start: { hijri: "1355", edtf: "1936", precision: year, status: historical }
+relations:
+  - { type: had_participant, target: person/abd-al-husayn-sharaf-al-din, role: "الطرف الشيعي المنسوب إليه", sources: [source/al-islam-murajaat] }
+  - { type: had_participant, target: person/salim-al-bishri, role: "الطرف السني المنسوب إليه", sources: [source/al-islam-murajaat] }
+sources: [source/al-islam-murajaat]
+tags: ["munazarat-browser", "munazarat-intra"]
+provenance:
+  layer: own-research
+  source: "source/al-islam-murajaat"
+  generated_by: "Devin (SWE-2), drafted from the cited sources"
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2)" }

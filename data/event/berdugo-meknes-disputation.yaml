@@ -1,0 +1,20 @@
+id: event/berdugo-meknes-disputation
+class: event
+kind: other
+label: { ar: "مناظرة مكناس بين الحاخام بردوغو وعالم سني", en: "The Meknes Disputation — Rabbi Berdugo vs a Sunni scholar" }
+summary:
+  ar: "مخطوطة عبرية مشهورة من [[place/meknes|مكناس]] بالمغرب تسجل مناظرة لاهوتية مباشرة في أواخر القرن الثامن عشر بين الحاخام المغربي البارز [[person/petahia-mordekhai-berdugo|بتاحيا مردخاي بردوغو]] وعالم سني مغربي لم يسمَّ، في مباحث النسخ أي إلغاء القرآن لشرائع التوراة، وثبات التوراة، ودلالة الازدهار أو المنفى على الرضا الإلهي. وتدرس المخطوطة بوصفها أندر النصوص الباقية لمناظرة يهودية–سنية مباشرة في العصر الحديث المبكر {cite:tandfonline-berdugo-meknes}."
+  en: "A famous Hebrew manuscript from [[place/meknes|Meknes]], Morocco, recording a direct theological disputation in the late eighteenth century between the prominent Moroccan rabbi [[person/petahia-mordekhai-berdugo|Petahia Mordekhai Berdugo]] and an unnamed Moroccan Sunni scholar, on naskh — the Qur'an's abrogation of Torah laws — the immutability of the Torah, and whether prosperity or exile signals divine favour. The manuscript is studied as the rarest surviving text of a direct Jewish–Sunni disputation of the early modern period {cite:tandfonline-berdugo-meknes}."
+wings: [time]
+date:
+  start: { hijri: "1200", edtf: "1785", precision: year, status: historical }
+relations:
+  - { type: had_participant, target: person/petahia-mordekhai-berdugo, role: "الحاخام المناظر", sources: [source/tandfonline-berdugo-meknes] }
+  - { type: occurred_at, target: place/meknes, role: "", sources: [source/tandfonline-berdugo-meknes] }
+sources: [source/tandfonline-berdugo-meknes]
+tags: ["munazarat-browser", "munazarat-scriptuaries"]
+provenance:
+  layer: own-research
+  source: "source/tandfonline-berdugo-meknes"
+  generated_by: "Devin (SWE-2), drafted from the cited sources"
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2)" }

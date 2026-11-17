@@ -1,0 +1,21 @@
+id: event/mubahala-of-najran
+class: event
+kind: other
+label: { ar: "مباهلة نجران", en: "The Mubahala of Najran" }
+summary:
+  ar: "لمّا قدم وفد نصارى نجران المدينة سنة 10هـ ونزلوا بالمسجد، اشتدّ الجدال بينهم وبين رسول الله في أمر عيسى ابن مريم، فأنزل الله مطلع سورة آل عمران يردّ عليهم بأن مثل عيسى كمثل آدم خلقه من تراب ثم قال له كن فيكون {cite:ibn-hisham-sira 1/573-575}. ولما ثبتوا على قولهم دعاهم النبي إلى المباهلة بموجب الآية فقال تعالى بعد بيان الحجة: «فمن حاجّك فيه من بعد ما جاءك من العلم فقل تعالوا ندع أبناءنا وأبناءكم ونساءنا ونساءكم وأنفسنا وأنفسكم ثم نبتهل فنجعل لعنة الله على الكاذبين» {cite:sahih-muslim 2404}. فتحاور أساقفة الوفد فيما بينهم وخافوا أن يباهلوا فيهلكوا، فطلبوا الموادعة وصالحوا على الجزية وأن تحفظ لهم كنائسهم وحقوقهم، فكان الموقف نفسه حجة استقام فيها الدليل بالدليل {cite:ibn-hisham-sira 1/577}."
+  en: "When the delegation of the Christians of Najran came to Medina in 10 AH and lodged in the mosque, the disputation between them and the Messenger of God grew sharp over the person of Jesus son of Mary, and God sent down the opening of Surat Al Imran answering them: the likeness of Jesus is as the likeness of Adam, He created him from dust then said 'Be' and he was {cite:ibn-hisham-sira 1/573-575}. When they held to their view, the Prophet invited them to mutual imprecation under the verse that follows the proof: 'Whoever disputes with you about him after the knowledge that has come to you, say: Come, let us call our sons and your sons, our women and your women, ourselves and yourselves, then let us pray ardently and lay the curse of God on the liars' {cite:sahih-muslim 2404}. The bishops of the delegation consulted among themselves, feared that imprecating him would destroy them, and asked for a truce; they made peace on the jizya with their churches and rights preserved, and the standoff itself stood as the argument — proof answered by proof {cite:ibn-hisham-sira 1/577}."
+wings: [time]
+periods: [period/prophetic-era]
+date:
+  start: { hijri: "0010", precision: year, status: historical }
+relations:
+  - { type: had_participant, target: person/muhammad, role: "المباهل عن جانب المسلمين", sources: [source/ibn-hisham-sira] }
+  - { type: occurred_at, target: place/medina, sources: [source/ibn-hisham-sira] }
+sources: [source/ibn-hisham-sira, source/sahih-muslim, source/al-bidaya-wal-nihaya]
+tags: ["munazarat-browser", "munazarat-scriptuaries"]
+provenance:
+  layer: own-research
+  source: "ibn-hisham-sira 1/573-577; sahih-muslim 2404; al-bidaya-wal-nihaya 5/40-45"
+  generated_by: "Devin (SWE-2), drafted from ibn-hisham-sira and sahih-muslim"
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2)" }

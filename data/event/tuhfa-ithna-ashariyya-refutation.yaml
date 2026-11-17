@@ -1,0 +1,19 @@
+id: event/tuhfa-ithna-ashariyya-refutation
+class: event
+kind: other
+label: { ar: "تحفة اثنا عشرية ومختصرها", en: "Tuhfa Ithna Ashariyya and its abridgement" }
+summary:
+  ar: "أعرق متن سني حديث في الرد المنهجي على التشيع: ألّف العالِم الهندي [[person/shah-abdul-aziz-dehlawi|شاه عبد العزيز الدهلوي]] «تحفة اثنا عشرية» بالفارسية يناقش فيها أصول الاعتقاد الاثني عشري ويجادله نقطة نقطة، ثم اختصرها إلى العربية محمود شكري الآلوسي فصارت المرجع الأول للمناظرين السنة المعاصرين في باب الإمامة والصحابة وعلم الغيب {cite:al-islam-murajaat}."
+  en: "The most venerable modern Sunni manual of systematic reply to Shi'ism: the Indian scholar [[person/shah-abdul-aziz-dehlawi|Shah Abdul Aziz Dehlawi]] composed Tuhfa Ithna Ashariyya in Persian, examining Twelver doctrine point by point; Mahmud Shukri al-Alusi later abridged it into Arabic, where it became the first reference of contemporary Sunni debaters on the Imamate, the Companions and the unseen {cite:al-islam-murajaat}."
+wings: [time]
+date:
+  start: { hijri: "1200", edtf: "1786", precision: year, status: historical }
+relations:
+  - { type: had_participant, target: person/shah-abdul-aziz-dehlawi, role: "المؤلف المجادل", sources: [source/al-islam-murajaat] }
+sources: [source/al-islam-murajaat]
+tags: ["munazarat-browser", "munazarat-intra"]
+provenance:
+  layer: own-research
+  source: "source/al-islam-murajaat"
+  generated_by: "Devin (SWE-2), drafted from the cited sources"
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2)" }

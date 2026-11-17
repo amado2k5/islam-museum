@@ -1,0 +1,20 @@
+id: event/ally-craig-debates
+class: event
+kind: other
+label: { ar: "مناظرات شبير علي ووليم لين كريغ", en: "Shabir Ally–William Lane Craig debates" }
+summary:
+  ar: "سلسلة مناظرات جامعية جمعت العالِم السني التورنتي [[person/shabir-ally|شبير علي]] وفيلسوف الدين [[person/william-lane-craig|وليم لين كريغ]]، أبرزها مناظرة 2002 في «هل قام عيسى من الموت؟» ومناظرة 2013 في «مفهوم الله في الإسلام والمسيحية»، فدافع علي عن الموقف السني في البعث النبوي ونفي الصلب عن عيسى، وجادل كريغ بالمنهج التاريخي لقيامة المسيح. وتنشر التسجيلات والتفريغات في أرشيفات الطرفين {cite:reasonablefaith-concept-of-god-debate} {cite:aomin-pretoria-debate-2013}."
+  en: "A series of academic debates between the Toronto-based Sunni scholar [[person/shabir-ally|Shabir Ally]] and the philosopher [[person/william-lane-craig|William Lane Craig]], foremost the 2002 'Did Jesus Rise from the Dead?' and the 2013 'The Concept of God in Islam and Christianity'. Ally defended the Sunni position on the prophetic mission and the denial of the crucifixion of Jesus; Craig argued the historical case for the resurrection. Recordings and transcripts are published in both parties' archives {cite:reasonablefaith-concept-of-god-debate} {cite:aomin-pretoria-debate-2013}."
+wings: [time]
+date:
+  start: { hijri: "1423", edtf: "2002", precision: year, status: historical }
+relations:
+  - { type: had_participant, target: person/shabir-ally, role: "المناظر المسلم", sources: [source/reasonablefaith-concept-of-god-debate] }
+  - { type: had_participant, target: person/william-lane-craig, role: "الفيلسوف المناظر", sources: [source/reasonablefaith-concept-of-god-debate] }
+sources: [source/reasonablefaith-concept-of-god-debate, source/aomin-pretoria-debate-2013]
+tags: ["munazarat-browser", "munazarat-scriptuaries"]
+provenance:
+  layer: own-research
+  source: "source/reasonablefaith-concept-of-god-debate, source/aomin-pretoria-debate-2013"
+  generated_by: "Devin (SWE-2), drafted from the cited sources"
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2)" }

@@ -1,0 +1,20 @@
+id: event/yusuf-sacks-dialogues
+class: event
+kind: other
+label: { ar: "حوارات حمزة يوسف والربي جوناثان ساكس", en: "Hamza Yusuf–Jonathan Sacks dialogues" }
+summary:
+  ar: "محادثات عامة مسجلة بين شخصيات سنية بارزة كالشيخ [[person/hamza-yusuf|حمزة يوسف]] والحاخام الأكبر الراحل [[person/jonathan-sacks|جوناثان ساكس]] في التوحيد والعلمانية وسلطة الكتب، تُستشهد بكثرة في أدب المقارنة الحديث بوصفها أنضبط الصيغ الجارية للمواجهة الفكرية الإسلامية–اليهودية، وإن كانت حواراً مشتركاً لا منازعة {cite:youtube-sunni-jewish-debate}."
+  en: "Recorded public conversations between prominent Sunni figures such as Shaykh [[person/hamza-yusuf|Hamza Yusuf]] and the late Chief Rabbi [[person/jonathan-sacks|Lord Jonathan Sacks]] on monotheism, secularism and scriptural authority, widely cited in modern comparative literature as the most disciplined current form of Muslim–Jewish intellectual encounter — a shared dialogue rather than a polemic {cite:youtube-sunni-jewish-debate}."
+wings: [time]
+date:
+  start: { hijri: "1430", edtf: "2009", precision: year, status: historical }
+relations:
+  - { type: had_participant, target: person/hamza-yusuf, role: "عالم سني مشارك", sources: [source/youtube-sunni-jewish-debate] }
+  - { type: had_participant, target: person/jonathan-sacks, role: "الحاخام المحاور", sources: [source/youtube-sunni-jewish-debate] }
+sources: [source/youtube-sunni-jewish-debate]
+tags: ["munazarat-browser", "munazarat-scriptuaries"]
+provenance:
+  layer: own-research
+  source: "source/youtube-sunni-jewish-debate"
+  generated_by: "Devin (SWE-2), drafted from the cited sources"
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2)" }
