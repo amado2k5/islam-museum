@@ -1,0 +1,49 @@
+id: event/habasha-spear-play-mosque
+class: event
+kind: competition
+label:
+  ar: لعب الحبشة بالحراب في المسجد
+  en: The Abyssinians' spear-play in the mosque
+  ur: مسجد میں حبشیوں کا نیزہ بازی کا کھیل
+summary:
+  ar: يوم العيد جاء الحبشة يلعبون بحرابهم في مسجد النبي، فأذن لهم، ووقفت عائشة خلف النبي تنظر إليهم حتى ملّت — حديثها في الصحيحين
+    {cite:sahih-al-bukhari}.
+  en: On the day of Eid the Abyssinians came playing with their spears in the Prophet's mosque; he allowed them, and Aisha
+    stood behind him watching until she tired — her report in the two Sahihs {cite:sahih-al-bukhari}.
+  ur: عید کے دن حبشی نبی کی مسجد میں نیزوں سے کھیلنے آئے؛ آپ نے انہیں اجازت دی، اور عائشہ آپ کے پیچھے کھڑی ہو کر دیکھتی رہیں
+    یہاں تک کہ تھک گئیں — ان کی روایت صحیحین میں {cite:sahih-al-bukhari}۔
+wings:
+- time
+periods:
+- period/prophetic-era
+regions:
+- arabia
+participants:
+- target: person/muhammad
+  role: allowed the play
+- target: person/aisha
+  role: the watcher and narrator
+relations:
+- type: related_to
+  target: sport/laib-al-hirab
+  note: spear-play
+- type: related_to
+  target: place/medina
+  note: the Prophet's mosque at Medina
+tags:
+- sport-browser
+- sport-games
+sources:
+- source/sahih-al-bukhari
+- source/sahih-muslim
+provenance:
+  layer: own-research
+  source: Written for the Sport Browser (plan 66) from the cited source records — the two Sahihs, Abu Dawud, Musnad Ahmad
+    and Ibn Ishaq's Sira (Zakkar ed.) with al-Isaba
+  generated_by: Devin (SWE-2 Medium)
+  model: SWE-2 Medium
+  run: sport-browser-events-1
+status:
+  review: published
+  completeness: 2
+  generated_by: Devin (SWE-2 Medium); the famous-contest reports are carried in their own words from the cited collections

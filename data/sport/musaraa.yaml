@@ -1,0 +1,52 @@
+id: sport/musaraa
+class: sport
+kind: combat
+label:
+  ar: المصارعة
+  en: Wrestling (musara'a)
+  ur: کشتی
+summary:
+  ar: 'روى ابن إسحاق أن النبي دعا ركانة بن عبد يزيد المطلبي، وكان من أصرك قريش، فقال له: «أرأيت إن صرعتك أتعلم أن ذلك حق؟»
+    فصرعه مرتين {cite:sira-ibn-ishaq-zakkar p. 276}. والمصارعة من المسابقات الجائزة بلا جعل عند الفقهاء، وقد عدّها ابن سينا
+    في القانون من الرياضات القوية {cite:canon-ibn-sina-print-v1 p. 222}.'
+  en: Ibn Ishaq narrates that the Prophet called Rukana ibn Abd Yazid al-Muttalibi, among the strongest of Quraysh, and asked
+    «If I throw you, will you know that it is true?» — and threw him twice {cite:sira-ibn-ishaq-zakkar p. 276}. Wrestling
+    is a contest lawful without a prize in fiqh, and Ibn Sina counts it among the strong exercises of the Canon {cite:canon-ibn-sina-print-v1
+    p. 222}.
+  ur: ابن اسحاق روایت کرتے ہیں کہ نبی نے رکانہ بن عبد یزید مطلبی کو، جو قریش کے زور آوروں میں سے تھا، فرمایا «اگر میں تمہیں
+    پچھاڑ دوں تو کیا تم جان لو گے؟» اور انہیں دو مرتبہ پچھاڑا {cite:sira-ibn-ishaq-zakkar p. 276}۔ کشتی فقہ میں بغیر انعام
+    کے جائز مقابلوں میں ہے، اور ابن سینا نے قانون میں اسے قوی ورزشوں میں شمار کیا {cite:canon-ibn-sina-print-v1 p. 222}۔
+era:
+- prophetic
+status_today: living
+furusiyya: true
+relations:
+- type: related_to
+  target: concept/al-musara-a
+  note: the wrestling record in the canon
+- type: related_to
+  target: event/prophet-rukana-wrestling
+  note: the bout with Rukana
+- type: related_to
+  target: person/rukana
+  note: the wrestler of the report
+tags:
+- sport-browser
+- sport-musaraa
+wings:
+- time
+sources:
+- source/sira-ibn-ishaq-zakkar
+- source/canon-ibn-sina-print-v1
+- source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: Written for the Sport Browser (plan 66) from the cited source records in data/source/ — the two Sahihs, Tirmidhi,
+    Abu Dawud, the Muwatta, Ibn Ishaq's Sira (Zakkar ed.), al-Isaba, Ibn Sina's Canon vol. 1, and Usul al-iqtisad al-islami
+  generated_by: Devin (SWE-2 Medium)
+  model: SWE-2 Medium
+  run: sport-browser-seeds-1
+status:
+  review: published
+  completeness: 2
+  generated_by: Devin (SWE-2 Medium); sources are the museum's own source records; page numbers carried from the mined records

@@ -1,0 +1,46 @@
+id: sport/sibaha
+class: sport
+kind: water
+label:
+  ar: السباحة
+  en: Swimming (sibaha)
+  ur: تیراکی
+summary:
+  ar: روي عن النبي أنه قال «علموا أولادكم الصلاة والسباحة والرماية» في رواية مرسلة نقلها الفقهاء في آداب تربية الصبيان، وذكرها
+    جلال الدين السيوطي في الجامع الصغير مع كلام على درجتها {cite:sahih-jami-saghir-maktab-islami-1988}. والعوم من تمام القوة
+    البدنية التي يذكرها العلماء في حق المسلم، وقد كانت سباحة أهل الحجاز في الماء شأناً معروفاً في كتب الأخبار.
+  en: It is narrated from the Prophet, in a mursal report carried by the jurists in the chapters on raising children, that
+    he said «Teach your children prayer, swimming and archery»; al-Suyuti lists it in al-Jami' al-Saghir with discussion of
+    its grade {cite:sahih-jami-saghir-maktab-islami-1988}. Swimming is part of the bodily strength the scholars name for the
+    Muslim, and the swimming of the Hijazis appears in the books of reports.
+  ur: نبی سے مرسل روایت میں منقول ہے کہ فرمایا «علموا أولادكم الصلاة والسباحة والرماية» — بچوں کی تربیت کے ابواب میں فقہا
+    نے نقل کیا اور سیوطی نے جامع الصغیر میں اس کے درجے پر بحث کی {cite:sahih-jami-saghir-maktab-islami-1988}۔ تیراکی اس جسمانی
+    قوت کا حصہ ہے جسے علماء مسلمان کے لیے بیان کرتے ہیں۔
+era:
+- prophetic
+status_today: living
+relations:
+- type: related_to
+  target: concept/al-rimaya
+  note: swimming and archery in the children's-training report
+- type: related_to
+  target: sport/furusiyya
+  note: the trio of the training report
+tags:
+- sport-browser
+- sport-sibaha
+wings:
+- time
+sources:
+- source/sahih-jami-saghir-maktab-islami-1988
+provenance:
+  layer: own-research
+  source: Written for the Sport Browser (plan 66) from the cited source records in data/source/ — the two Sahihs, Tirmidhi,
+    Abu Dawud, the Muwatta, Ibn Ishaq's Sira (Zakkar ed.), al-Isaba, Ibn Sina's Canon vol. 1, and Usul al-iqtisad al-islami
+  generated_by: Devin (SWE-2 Medium)
+  model: SWE-2 Medium
+  run: sport-browser-seeds-1
+status:
+  review: published
+  completeness: 2
+  generated_by: Devin (SWE-2 Medium); sources are the museum's own source records; page numbers carried from the mined records

@@ -1,0 +1,55 @@
+id: sport/sibaq-al-khayl
+class: sport
+kind: racing
+label:
+  ar: سباق الخيل
+  en: Horse racing
+  ur: گھڑ دوڑ
+summary:
+  ar: سابق النبي بين الخيل من الحفياء إلى ثنية الوداع في المضمرة، ومن الثنية إلى مسجد بني زريق في غير المضمرة، وكان ابن عمر
+    فيمن سبق {cite:sahih-al-bukhari}. والجعل في سباق الخيل جائز عند الجمهور لحديث «لا سبق إلا في خف أو حافر أو نصل»، وهو أصل
+    باب المحلل والمزمل في كتب الفقه {cite:usul-iqtisad-islami-0660 p. 229}.
+  en: The Prophet held horse races from al-Hafya' to Thaniyyat al-Wada' for the trained horses, and from al-Thaniyya to the
+    mosque of Banu Zurayq for the untrained, and Ibn Umar was among the winners {cite:sahih-al-bukhari}. A prize on a horse
+    race is lawful for the majority on the report «no prize except in khuff, hafir or nasl» — the root of the muhallil and
+    muzammal chapters of fiqh {cite:usul-iqtisad-islami-0660 p. 229}.
+  ur: نبی نے مضمر گھوڑوں کی دوڑ حفیاء سے ثنیہ الوداع تک اور غیر مضمر کی ثنیہ سے مسجد بنو زریق تک کرائی، جن میں ابن عمر جیتنے
+    والوں میں تھے {cite:sahih-al-bukhari}۔ گھڑ دوڑ پر انعام اکثر کے نزدیک جائز ہے حدیث «لا سبق إلا في خف أو حافر أو نصل» کی
+    بنا پر — فقہ کے محلل اور مزمل ابواب کی جڑ {cite:usul-iqtisad-islami-0660 p. 229}۔
+era:
+- prophetic
+- rashidun-umayyad
+- abbasid
+- mamluk-ayyubid
+- ottoman
+status_today: living
+furusiyya: true
+relations:
+- type: related_to
+  target: event/horse-race-musalla-al-ghaba
+  note: the races the Prophet held
+- type: related_to
+  target: concept/sabq-in-islam
+  note: the fiqh of contests and stakes
+- type: related_to
+  target: person/abdullah-ibn-umar
+  note: a winner of the race
+tags:
+- sport-browser
+- sport-sabq
+wings:
+- time
+sources:
+- source/sahih-al-bukhari
+- source/usul-iqtisad-islami-0660
+provenance:
+  layer: own-research
+  source: Written for the Sport Browser (plan 66) from the cited source records in data/source/ — the two Sahihs, Tirmidhi,
+    Abu Dawud, the Muwatta, Ibn Ishaq's Sira (Zakkar ed.), al-Isaba, Ibn Sina's Canon vol. 1, and Usul al-iqtisad al-islami
+  generated_by: Devin (SWE-2 Medium)
+  model: SWE-2 Medium
+  run: sport-browser-seeds-1
+status:
+  review: published
+  completeness: 2
+  generated_by: Devin (SWE-2 Medium); sources are the museum's own source records; page numbers carried from the mined records

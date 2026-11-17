@@ -1,0 +1,52 @@
+id: sport/sayd
+class: sport
+kind: hunt
+label:
+  ar: الصيد والجوارح
+  en: Hunting and falconry
+  ur: شکار اور باز داری
+summary:
+  ar: الصيد في القرآن مبحوث أحكامه في إحلاله وتحريمه في الإحرام، وفي فاكهة الصيد وجوارحه المعلمة {cite:jami-al-tirmidhi}.
+    وفي المؤطأ باب صيد البر والبحر وجهاد الجوارح {cite:muwatta-malik}. وكان صيد الخلفاء والسلاطين بالصقور والفهود المعلمة
+    فصلًا من الفروسية في الميادين والبراري، وقد نهى العلماء عن الصيد للهو المضيع للواجب لا لذات الصيد.
+  en: The Qur'an rules on hunting — its lawfulness and its prohibition in ihram — on the catch of the sea and the trained
+    birds of prey {cite:jami-al-tirmidhi}. The Muwatta has its chapters on land and sea hunting and the trained hawks {cite:muwatta-malik}.
+    The hunting of caliphs and sultans with falcons and trained cheetahs was a chapter of furusiyya in the maydans and the
+    wild; the scholars warned against hunt for idle diversion, not against hunting itself.
+  ur: قرآن میں شکار کے احکام ہیں — احرام میں اس کی حلت اور حرمت، سمندری شکار اور تعلیم یافتہ باز {cite:jami-al-tirmidhi}۔
+    موطا میں بر اور بحر کے شکار اور تربیت یافتہ بازوں کے ابواب ہیں {cite:muwatta-malik}۔ خلفاء اور سلاطین کا بازوں اور تعلیم
+    یافتہ چیتوں سے شکار فروسیت کا ایک باب تھا؛ علماء نے فرض ضائع کرنے والی فرض تفریح سے روکا، نہ کہ شکار ہی سے۔
+era:
+- pre-islamic
+- prophetic
+- rashidun-umayyad
+- abbasid
+- mamluk-ayyubid
+- ottoman
+status_today: living
+relations:
+- type: related_to
+  target: sport/furusiyya
+  note: the hunt among the mounted arts
+- type: related_to
+  target: concept/nakhwa-chivalry
+  note: the hunt of the chivalric ideal
+tags:
+- sport-browser
+- sport-sayd
+wings:
+- time
+sources:
+- source/jami-al-tirmidhi
+- source/muwatta-malik
+provenance:
+  layer: own-research
+  source: Written for the Sport Browser (plan 66) from the cited source records in data/source/ — the two Sahihs, Tirmidhi,
+    Abu Dawud, the Muwatta, Ibn Ishaq's Sira (Zakkar ed.), al-Isaba, Ibn Sina's Canon vol. 1, and Usul al-iqtisad al-islami
+  generated_by: Devin (SWE-2 Medium)
+  model: SWE-2 Medium
+  run: sport-browser-seeds-1
+status:
+  review: published
+  completeness: 2
+  generated_by: Devin (SWE-2 Medium); sources are the museum's own source records; page numbers carried from the mined records

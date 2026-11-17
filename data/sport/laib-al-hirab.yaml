@@ -1,0 +1,50 @@
+id: sport/laib-al-hirab
+class: sport
+kind: combat
+label:
+  ar: اللعب بالحراب
+  en: Spear-play
+  ur: نیزہ بازی
+summary:
+  ar: في الصحيحين أن الحبشة كانوا يلعبون بحرابهم في مسجد النبي يوم العيد، وأن عائشة كانت تدخل فتقوم خلف النبي تنظر إليهم حتى
+    تمل {cite:sahih-al-bukhari}. وكان ذلك اللعب من نوع الرياضة التي تصلح للقتال، وقد أذن النبي به في المسجد ولم يعدّه من اللهو
+    المذموم.
+  en: In the two Sahihs, the Abyssinians played with their spears in the Prophet's mosque on the day of Eid, and Aisha would
+    slip in behind the Prophet and watch them until she tired {cite:sahih-al-bukhari}. That play was sport of a kind that
+    serves battle, and the Prophet allowed it in the mosque rather than counting it among blameworthy diversions.
+  ur: صحیحین میں ہے کہ عید کے دن حبشی نبی کی مسجد میں نیزوں سے کھیلتے تھے، اور عائشہ نبی کے پیچھے کھڑی ہو کر انہیں دیکھتی
+    رہتیں یہاں تک کہ تھک جاتیں {cite:sahih-al-bukhari}۔ یہ کھیل ایسی تفریح تھی جو قتال کے کام آتی ہے، اور نبی نے اسے مسجد
+    میں اجازت دی اور مذموم نہ ٹھہرایا۔
+era:
+- prophetic
+status_today: extinct
+furusiyya: true
+relations:
+- type: related_to
+  target: event/habasha-spear-play-mosque
+  note: the Eid display in the mosque
+- type: related_to
+  target: person/aisha
+  note: the watcher of the play
+- type: related_to
+  target: place/medina
+  note: the mosque where it was played
+tags:
+- sport-browser
+- sport-games
+wings:
+- time
+sources:
+- source/sahih-al-bukhari
+- source/sahih-muslim
+provenance:
+  layer: own-research
+  source: Written for the Sport Browser (plan 66) from the cited source records in data/source/ — the two Sahihs, Tirmidhi,
+    Abu Dawud, the Muwatta, Ibn Ishaq's Sira (Zakkar ed.), al-Isaba, Ibn Sina's Canon vol. 1, and Usul al-iqtisad al-islami
+  generated_by: Devin (SWE-2 Medium)
+  model: SWE-2 Medium
+  run: sport-browser-seeds-1
+status:
+  review: published
+  completeness: 2
+  generated_by: Devin (SWE-2 Medium); sources are the museum's own source records; page numbers carried from the mined records

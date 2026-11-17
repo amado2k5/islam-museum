@@ -1,0 +1,61 @@
+id: sport/ramy
+class: sport
+kind: target
+label:
+  ar: الرماية
+  en: Archery (ramy)
+  ur: تیراندازی
+summary:
+  ar: في الحديث «ارموا بني إسماعيل فإن أباكم كان رامياً»، وقال النبي لسعد بن أبي وقاص يوم أحد «ارم فداك أبي وأمي» {cite:jami-al-tirmidhi}.
+    والرماية من المسابقات التي يجوز فيها الجعل، لحديث «لا سبق إلا في نصل أو خف أو حافر» {cite:usul-iqtisad-islami-0660 p.
+    229}. وبقيت للرماة ميادينهم في العواصم المملوكية والعثمانية، ومنها ساحة الفروسية في القاهرة ومواضع الرمي في استانبول.
+  en: 'The hadith has it: «Shoot, sons of Isma''il, for your father was an archer», and the Prophet told Sa''d ibn Abi Waqqas
+    on the day of Uhud «Shoot; may my father and mother be your ransom» {cite:jami-al-tirmidhi}. Archery is one of the contests
+    in which a prize is lawful, on the report «there is no prize except in nasl, khuff or hafir» {cite:usul-iqtisad-islami-0660
+    p. 229}. Archers kept their grounds in the Mamluk and Ottoman capitals, from the furusiyya ground of Cairo to the ok-meydan
+    grounds of Istanbul.'
+  ur: 'حدیث میں ہے: «ارموا بني إسماعيل فإن أباكم كان رامياً»، اور نبی نے احد کے دن سعد بن ابی وقاص سے فرمایا «ارم فداك أبي
+    وأمي» {cite:jami-al-tirmidhi}۔ تیراندازی ان مقابلوں میں سے ہے جن پر انعام جائز ہے، حدیث «لا سبق إلا في نصل أو خف أو حافر»
+    کے مطابق {cite:usul-iqtisad-islami-0660 p. 229}۔ مملوک اور عثمانی دارالحکومتوں میں تیراندازوں کے اپنے میدان رہے۔'
+era:
+- pre-islamic
+- prophetic
+- rashidun-umayyad
+- abbasid
+- mamluk-ayyubid
+- ottoman
+status_today: living
+furusiyya: true
+relations:
+- type: related_to
+  target: concept/al-rimaya
+  note: the concept record on archery in the canon
+- type: related_to
+  target: event/battle-of-uhud
+  note: the archers of Uhud and Sa'd ibn Abi Waqqas
+- type: related_to
+  target: event/uhud-archers-mistake
+  note: the archers' post on the hill
+- type: related_to
+  target: person/saad-ibn-abi-waqqas
+  note: the archer of Uhud
+tags:
+- sport-browser
+- sport-ramy
+wings:
+- time
+sources:
+- source/jami-al-tirmidhi
+- source/sahih-al-bukhari
+- source/usul-iqtisad-islami-0660
+provenance:
+  layer: own-research
+  source: Written for the Sport Browser (plan 66) from the cited source records in data/source/ — the two Sahihs, Tirmidhi,
+    Abu Dawud, the Muwatta, Ibn Ishaq's Sira (Zakkar ed.), al-Isaba, Ibn Sina's Canon vol. 1, and Usul al-iqtisad al-islami
+  generated_by: Devin (SWE-2 Medium)
+  model: SWE-2 Medium
+  run: sport-browser-seeds-1
+status:
+  review: published
+  completeness: 2
+  generated_by: Devin (SWE-2 Medium); sources are the museum's own source records; page numbers carried from the mined records

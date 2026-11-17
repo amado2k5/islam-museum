@@ -1,0 +1,50 @@
+id: event/horse-race-musalla-al-ghaba
+class: event
+kind: competition
+label:
+  ar: سبق الخيل من الحفياء إلى الثنية
+  en: The Prophet's horse race from al-Hafya' to al-Thaniyya
+  ur: حفیاء سے ثنیہ تک نبی کی گھڑ دوڑ
+summary:
+  ar: سابق النبي بين الخيل المضمرة من الحفياء إلى ثنية الوداع مسافة ستة أميال أو سبعة، وبين الخيل غير المضمرة من الثنية إلى
+    مسجد بني زريق ميلًا أو نحوه، وكان عبد الله بن عمر فيمن سبق — حديث ابن عمر في الصحيحين {cite:sahih-al-bukhari}.
+  en: The Prophet held a race for the trained horses from al-Hafya' to Thaniyyat al-Wada' — some six or seven miles — and
+    one for the untrained from al-Thaniyya to the mosque of Banu Zurayq, a mile or so; Abdullah ibn Umar was among the winners
+    — his report in the two Sahihs {cite:sahih-al-bukhari}.
+  ur: نبی نے مضمر گھوڑوں کی دوڑ حفیاء سے ثنیہ الوداع تک چھ سات میل اور غیر مضمر کی ثنیہ سے مسجد بنو زریق تک ایک میل کے قریب
+    کرائی؛ عبد اللہ بن عمر جیتنے والوں میں تھے — ان کی روایت صحیحین میں {cite:sahih-al-bukhari}۔
+wings:
+- time
+periods:
+- period/prophetic-era
+regions:
+- arabia
+participants:
+- target: person/abdullah-ibn-umar
+  role: a winner, the narrator
+- target: person/muhammad
+  role: held the race
+relations:
+- type: related_to
+  target: sport/sibaq-al-khayl
+  note: horse racing
+- type: related_to
+  target: place/medina
+  note: the Medina courses
+tags:
+- sport-browser
+- sport-sabq
+sources:
+- source/sahih-al-bukhari
+- source/sahih-muslim
+provenance:
+  layer: own-research
+  source: Written for the Sport Browser (plan 66) from the cited source records — the two Sahihs, Abu Dawud, Musnad Ahmad
+    and Ibn Ishaq's Sira (Zakkar ed.) with al-Isaba
+  generated_by: Devin (SWE-2 Medium)
+  model: SWE-2 Medium
+  run: sport-browser-events-1
+status:
+  review: published
+  completeness: 2
+  generated_by: Devin (SWE-2 Medium); the famous-contest reports are carried in their own words from the cited collections
