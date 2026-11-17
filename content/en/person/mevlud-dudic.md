@@ -23,3 +23,8 @@ Before the muftiate he served the community's own institutions: member of the Is
 
 ## International formation
 The Islamic Community's supreme leadership sent him to al-Azhar in 1991 for missionary specialisation; he went to Virginia in 2001 for training in "non-violent conflict resolution" and in 2008 to New York, Washington, Texas and Chicago for a leadership course — combining classical formation with modern institutional skills. {cite:mesihat-mevlud-dudic}
+## Education as a theme
+Dudic's research centres on the Islamic educational institutions of the Sandzak: a master's on the emergence and development of the Novi Pazar madrasa and a doctorate on the role of the sibjan mekteb in preserving Islam in the region, capped by twelve years directing the Gazi Isa-beg Madrasa, which his monograph calls "the al-Azhar of Sandzak". {cite:mesihat-mevlud-dudic}
+
+## Mufti of a minority
+He leads the religious institution of a Muslim minority inside majority-Orthodox Serbia, serving on the government commission for religious education while maintaining ties with the meshihats of Bosnia and Kosovo and the wider Muslim world — his office joining spiritual presidency to the institutional representation of Muslim citizens in a European state. {cite:muslim500-mevlud-dudic}

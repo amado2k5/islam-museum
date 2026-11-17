@@ -24,3 +24,8 @@ He writes weekly analysis for Barbados Today, chairs the Barbados Childhood Obes
 
 ## Legacy
 His path reads as full citizenship for a small minority: a Barbadian Muslim of Indian and African-Irish roots serving in state, university and media, carrying his community's voice into national legislation. He told Barbados Today the honour strengthened his resolve to serve rather than changed him. {cite:barbadostoday-suleiman-bulbulia}
+## The Muslims of Barbados
+Barbados's Muslim community is a small minority, and Bulbulia has served as its voice in official institutions for a quarter century: from the Barbados Muslim Association to the Religious Advisory Committee on National Affairs — the role his sources credit with guiding major legislative updates in the country. {cite:muslim500-suleiman-bulbulia}
+
+## Citizen as well as believer
+He does not confine his service to religion: a Justice of the Peace since 2010, chairman of a health-prevention coalition, weekly columnist, businessman, and representative of his country's socio-economic interests abroad, he has become his community's face in general public affairs, not only religious ones. {cite:muslim500-suleiman-bulbulia} {cite:barbadostoday-suleiman-bulbulia}

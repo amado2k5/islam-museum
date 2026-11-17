@@ -24,3 +24,10 @@ He is best known for an acclaimed four-volume series on the Prophet's life, alon
 
 ## Legacy
 His path reads in the pattern of the emigrant preacher: classical formation in a Levantine city carried to an expatriate congregation in the West, where mosque lessons and sirah volumes become the community's reference. The Muslim 500 files him among Preachers & Spiritual Guides in Canada. {cite:muslim500-khaled-al-bakar}
+## Tripoli, a city of learning
+Lebanon's Tripoli is among the old capitals of Sunni religious teaching, standing beside al-Azhar in graduating scholars and muftis for the Arab East and the diaspora, and it was there that al-Bakar received his ijazas in Qur'an, hadith, fiqh and sirah from its known sheikhs. {cite:muslim500-khaled-al-bakar}
+
+## An Arab congregation in Quebec
+Quebec hosts a large and growing Arab Muslim community centred on Laval and Montreal, which al-Bakar serves at al-I'tissam Mosque as teacher and preacher; his weekly lessons in sirah, tafsir and the divine names have become a reference for families of the congregation at a time when generations move between identity and language. {cite:muslim500-khaled-al-bakar}
+## A preacher's archive
+Beyond the four-volume sirah series, his recorded lessons and Friday sermons circulate online, extending the reach of al-I'tissam's teaching beyond Laval to Arabic-speaking Muslims across Canada and the diaspora, so that a single mosque's lessons become a portable curriculum. {cite:muslim500-khaled-al-bakar}

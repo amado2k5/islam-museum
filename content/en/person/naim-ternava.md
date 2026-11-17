@@ -23,3 +23,8 @@ His family carries the name of the village of Ternava in the Toplica district of
 
 ## Interfaith work
 Ternava helped found Kosovo's inter-religious council, and his 2008 election ceremony in Pristina's Sultan Murat Mosque was attended by the chief imams of Macedonia, Montenegro and Bosnia and leading Kosovo Albanian figures, per German documentation — making him a face of religious dialogue in Europe's newest state. {cite:wikipedia-naim-ternava}
+## Teaching and publications
+Alongside his office, Ternava has continued lecturing on Islamic philosophy at Pristina's Faculty of Islamic Studies and has published seven authored monographs and dozens of articles in local and foreign periodicals — joining the pulpit to the academic classroom, which helps explain his two decades at the head of an elected institution in a society undergoing rapid political change. {cite:wikipedia-naim-ternava}
+
+## Standing of the Meshihat
+The Islamic Community of Kosovo that he heads is the single framework for the country's Muslim affairs — mosques, imams, education and awqaf — and Ternava, holding its presidency since 2003, is its longest-serving post-war leader, representing the institution at regional and international conferences. {cite:wikipedia-naim-ternava}

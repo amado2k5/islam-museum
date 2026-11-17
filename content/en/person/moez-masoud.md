@@ -24,3 +24,8 @@ He is a Fellow of the Royal Aal al-Bayt Institute for Islamic Thought in Amman a
 
 ## Legacy and debate
 His discourse is read as the model of the "new" da'wah: spirituality, interfaith dialogue and de-radicalisation in a language close to urban youth, while conservatives criticise his simplification of the tradition and critics note the overlap of his religious and political messaging; the museum reports these positions attributed, without verdict. {cite:wikipedia-moez-masoud}
+## The early programmes
+His television presence began with the English-language Parables in the Qur'an, which drew a global audience in North America, Europe, Malaysia and Australia; he then launched the Arabic Al-Tareeq Al-Sahh in 2007 — the first Arab religious programme filmed entirely on location in the streets — addressing drugs, alcohol, gender relations and the roots of extremism with unusual candour. {cite:wikipedia-moez-masoud}
+
+## The new preachers
+Religious-media observers place him in the generation of "new preachers" who appeared in the Arab world after 2000: leaders from outside the official religious institutions, speaking to youth in a contemporary idiom and direct social questions, joining spirituality to civic action — the generation that redrew the face of religious discourse on Arab satellite channels. {cite:wikipedia-moez-masoud}

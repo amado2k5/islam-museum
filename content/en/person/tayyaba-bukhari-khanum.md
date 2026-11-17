@@ -24,3 +24,8 @@ The Muslim 500 describes her as one of very few female religious scholars in Pak
 
 ## Legacy
 Her career is read on two counts: a woman scholar preaching from pulpits once closed to women in her country, and a bridge between the Qom hawza and a broad Pakistani public. Sources describe her as a Shia scholar educated in Qom, which the museum labels as documented rather than the Sunni default, and The Muslim 500 files her among Preachers & Spiritual Guides. {cite:pakistantoday-tayyaba-bukhari} {cite:muslim500-tayyaba-bukhari}
+## Qom and Jamiat al-Zahra
+Jamiat al-Zahra in Qom is among the largest teaching institutions for women in the Shia hawza, and Bukhari spent about seventeen years there rising from schooling to higher studies in fiqh, usul, tafsir and philosophy under known jurists and teachers, before completing her academic degrees in Pakistan. {cite:prideofpakistan-tayyaba-bukhari}
+
+## Preacher and lecturer
+Bukhari stands between two homiletic worlds: the traditional majlis where she preaches on religious occasions, and the lecture hall and television studio where she treats family and social questions — joining the language of the hawza and the language of media in one performance. {cite:muslim500-tayyaba-bukhari} {cite:prideofpakistan-tayyaba-bukhari}

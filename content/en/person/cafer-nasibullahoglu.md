@@ -23,3 +23,8 @@ The cathedral mosque marked its hundredth year in 2010 before government officia
 
 ## Pattern of service
 His work represents the big-city imamate: a sermon moving between Arabic for the text and the languages of congregation and country, administration of a multi-ethnic community, and formal ties with awqaf institutions and visiting religious figures from the Muslim world, as in the 2004 meeting with the Kuwaiti minister. {cite:kuna-cafer-nasibullahoglu}
+## The Muslims of St Petersburg
+The city's Muslim community grew from a few thousand when the mosque opened in 1913 to the hundreds of thousands of today drawn from the former Soviet republics and new migrants; Nasibullahoglu was witness to and maker of that transformation — imam of the historic mosque, mufti of the city, and a link between the Russian state and the Muslim world. {cite:muslim500-cafer-nasibullahoglu} {cite:kuna-cafer-nasibullahoglu}
+
+## The trilingual sermon
+The significance of his imamate lies in a Friday sermon delivered in three languages — Arabic for the sacred text, Tatar for the historic community, Russian for the city — a miniature of the diaspora mufti's task in Russia: to be a face of Islam in a great European city for a congregation of many tongues. {cite:muslim500-cafer-nasibullahoglu}
