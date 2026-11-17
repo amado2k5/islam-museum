@@ -1,0 +1,24 @@
+id: work/fatwa-dar-alifta-eg-lending-shares
+class: work
+kind: fatwa
+label: { ar: "حكم إقراض الأسهم", en: "Lending shares", ur: "حصص کا قرض دینا" }
+summary:
+  ar: "سائل سأل عن إقراض الأسهم. أجابت دار الإفتاء المصرية ⁦(مفتي الجمهورية د. نظير محمد عياد، فتوى رقم 21837)⁩ أن إصدار الأسهم وملكيتها والتعامل بها بيعًا وشراءً وإقراضًا جائز شرعًا ما لم يكن عمل الشركة التي تكونت من مجموعها محظورًا على ما فصّل الجواب."
+  en: "A questioner asked about lending shares. Egypt's Dar al-Ifta (Grand Mufti Dr. Nazir Muhammad Ayyad, fatwa no. 21837) answered that issuing shares, owning them and dealing in them — selling, buying and lending — is lawful in the sharia, so long as the company's business is not prohibited, as the answer details."
+  ur: "ایک سائل نے حصص قرض دینے کا حکم پوچھا۔ مصر کے دار الافتاء ⁦(مفتیِ جمهور ڈاکٹر نظیر محمد عیاد، فتویٰ نمبر 21837)⁩ نے جواب دیا کہ حصص کا جاری ہونا، ملکیت اور ان میں لین دین — بیع، خرید اور قرض — جائز ہے بشرطیکہ کمپنی کا کاروبار ممنوع نہ ہو — جیسا کہ جواب میں تفصیل ہے۔"
+wings: [words]
+authors: [person/nazir-ayyad]
+publisher: group/dar-al-ifta-al-misriyya
+url: "https://www.dar-alifta.org/ar/fatwa/details/21837/حكم-إقراض-الأسهم"
+languages: [ar]
+sources: [source/dar-alifta]
+relations:
+  - { type: about, target: concept/fiqh, sources: [source/dar-alifta] }
+  - { type: about, target: concept/sharika, sources: [source/dar-alifta] }
+provenance:
+  layer: own-research
+  source: "dar-alifta.org fatwa no. 21837, category القرض; read 17 Nov 2026. Summary in the museum's own words."
+  generated_by: "Devin"
+  model: "SWE-2 Medium"
+  run: fatwa-websites-34
+status: { review: published, completeness: 1 }

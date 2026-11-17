@@ -1,0 +1,24 @@
+id: work/fatwa-dar-alifta-eg-postmortem-organ-donation
+class: work
+kind: fatwa
+label: { ar: "حكم التبرع بالأعضاء بعد الوفاة", en: "Donating organs after death", ur: "وفات کے بعد اعضا کا عطیہ" }
+summary:
+  ar: "سائل سأل عن التبرع بالأعضاء بعد الوفاة. أجابت دار الإفتاء المصرية ⁦(مفتي الجمهورية د. نظير محمد عياد، فتوى رقم 21826)⁩ أن الفتوى استقرت في الديار المصرية على جواز نقل الأعضاء من الميت إلى الحي بالمحددات الشرعية والضوابط التي بيّنها الجواب."
+  en: "A questioner asked about donating organs after death. Egypt's Dar al-Ifta (Grand Mufti Dr. Nazir Muhammad Ayyad, fatwa no. 21826) answered that the settled fatwa in Egypt permits transferring organs from the dead to the living under the legal specifications and controls the answer sets out."
+  ur: "ایک سائل نے وفات کے بعد اعضا عطیہ کرنے کا حکم پوچھا۔ مصر کے دار الافتاء ⁦(مفتیِ جمهور ڈاکٹر نظیر محمد عیاد، فتویٰ نمبر 21826)⁩ نے جواب دیا کہ مصر میں فتویٰ یہی ہے کہ مُردے سے زندہ کو اعضا منتقل کرنا شرعی ضوابط کے ساتھ جائز ہے — جیسا کہ جواب میں بیان ہوا۔"
+wings: [words]
+authors: [person/nazir-ayyad]
+publisher: group/dar-al-ifta-al-misriyya
+url: "https://www.dar-alifta.org/ar/fatwa/details/21826/حكم-التبرع-بالأعضاء-بعد-الوفاة"
+languages: [ar]
+sources: [source/dar-alifta]
+relations:
+  - { type: about, target: concept/mawt, sources: [source/dar-alifta] }
+  - { type: about, target: concept/fiqh, sources: [source/dar-alifta] }
+provenance:
+  layer: own-research
+  source: "dar-alifta.org fatwa no. 21826, category الطب والتداوي; read 17 Nov 2026. Summary in the museum's own words."
+  generated_by: "Devin"
+  model: "SWE-2 Medium"
+  run: fatwa-websites-34
+status: { review: published, completeness: 1 }
