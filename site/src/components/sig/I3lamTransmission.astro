@@ -2,9 +2,10 @@
 // The Muslim Media-Makers Browser's signature piece: a transmission line running from
 // the minaret to the feed — every media role a station on the wire, its arc's radius
 // set by how many holders the graph records. Pure markup; works with JavaScript off.
-import { ui, fmt, num, type Lang } from "../../lib/i18n";
+import { ui, fmt, type Lang } from "../../lib/i18n";
+import { num } from "../../lib/nav";
 import { MEDIA_CHAIN, i3lamJobById, i3lamHolders } from "../../lib/i3lam";
-import { labelOf } from "../../lib/graph";
+import { labelOf, href } from "../../lib/graph";
 
 interface Props { lang: Lang }
 const { lang } = Astro.props;
@@ -34,7 +35,7 @@ const r = (n: number) => 14 + Math.round(30 * Math.sqrt(n / max));
     {stations.map((s) => (
       <li style="text-align:center">
         {s.job ? (
-          <a class="chip" href={`/${lang}/job/${s.job.slug}/`} style="display:inline-block;font-weight:600">{labelOf(s.job, lang)}</a>
+          <a class="chip" href={href(lang, s.job.id)} style="display:inline-block;font-weight:600">{labelOf(s.job, lang)}</a>
         ) : (
           <span class="chip ui muted">{s.id.split("/")[1]}</span>
         )}
