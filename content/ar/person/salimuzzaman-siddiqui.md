@@ -1,3 +1,4 @@
+---
 id: person/salimuzzaman-siddiqui
 lang: ar
 source_lang: ar

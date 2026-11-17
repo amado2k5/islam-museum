@@ -1,3 +1,4 @@
+---
 id: person/mahmoud-sami-al-barudi
 lang: ur
 source_lang: ar

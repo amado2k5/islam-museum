@@ -1,0 +1,33 @@
+id: person/maruf-amin
+class: person
+tags: [ulama-browser, ulama-mashahir]
+label: { ar: "معروف أمين", en: "Ma'ruf Amin", ur: "معروف امین" }
+names:
+  - { value: "معروف أمين", kind: full }
+  - { value: "Ma'ruf Amin", kind: full }
+  - { value: "معروف امین", kind: full }
+gender: male
+summary:
+  ar: "عالم وسياسي إندونيسي، وُلد سنة 1943 في تانغرانغ. نائب رئيس إندونيسيا ⁦(2019–2024)⁩ مع الرئيس جوكو ويدودو، وقبلها الرئيس الأعلى لنهضة العلماء ورئيس مجلس العلماء الإندونيسي."
+  en: "Indonesian scholar and politician, born 1943 in Tangerang. Vice-president of Indonesia (2019–2024) alongside President Joko Widodo, previously supreme leader of Nahdlatul Ulama and chairman of the Indonesian Ulema Council."
+  ur: "انڈونیشیائی عالم اور سیاست دان، 1943 میں تانگرانگ میں پیدا ہوئے۔ صدر جوکو ویدودو کے ساتھ نائب صدر انڈونیشیا ⁦(2019–2024)⁩؛ اس سے قبل نهضة العلماء کے رئیس عام اور اندو نیشیائی علماء کونسل کے چیئرمین۔"
+roles: [politician, scholar]
+wings: [people, living]
+born:
+  edtf: "1943-03-11"
+  calendar: gregorian
+  precision: day
+  status: historical
+  sources: [source/wikipedia-maruf-amin]
+faith:
+  - value: unknown
+    basis: documented
+    note: "Documented Sunni scholar of Nahdlatul Ulama"
+    sources: [source/wikipedia-maruf-amin]
+sources: [source/wikipedia-maruf-amin]
+provenance:
+  layer: own-research
+  source: "Web research + Wikipedia and The Muslim 500 profiles, read 17 November 2026"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: ulama-m500-w151-200-2026-11-17
+status: { review: published, generated_by: "Devin (SWE-2 Medium)" }

@@ -14,7 +14,7 @@ He was born in al-Bahariya Oasis, graduated from the Faculty of Arts, and worked
 
 ## Books and method
 
-Al-Qemany presents early Islamic history as political history before religious history: Al-Hizb al-Hashimi (The Hashemite Party and the Founding of the Islamic State) reads the rise of the first state as political struggle, and Al-Ustura wal-Turath (Myth and Heritage) examines prophetic hadith critically. The religious mainstream rejected these theses and many scholars replied to them.{cite:wikipedia-sayyid-al-qemany}
+Al-Qemany presents early Islamic history as political history before religious history: Al-Hizb al-Hashimi (The Hashemite Party and the Founding of the First Polity) reads the rise of the first state as political struggle, and Al-Ustura wal-Turath (Myth and Heritage) examines prophetic hadith critically. The religious mainstream rejected these theses and many scholars replied to them.{cite:wikipedia-sayyid-al-qemany}
 
 ## Controversy
 

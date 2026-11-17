@@ -1,3 +1,4 @@
+---
 id: person/elmalili-hamdi-yazir
 lang: ar
 source_lang: ar

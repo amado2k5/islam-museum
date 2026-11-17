@@ -1,3 +1,4 @@
+---
 id: person/mustafa-lutfi-al-manfaluti
 lang: ur
 source_lang: ar
