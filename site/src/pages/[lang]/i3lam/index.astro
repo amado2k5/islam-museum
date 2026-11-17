@@ -17,7 +17,7 @@ import {
 } from "../../../lib/i3lam";
 
 export function getStaticPaths() {
-  return LANGS.map((lang) => ({ params: { lang } }));
+  return LANGS.map((lang) => ({ params: { lang }, props: { lang } }));
 }
 const { lang } = Astro.props as { lang: Lang };
 const T = ui(lang);
