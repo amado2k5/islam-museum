@@ -1,0 +1,39 @@
+id: person/elmalili-hamdi-yazir
+class: person
+tags: [ulama-browser]
+label: { ar: "محمد حمدي يازر", en: "Elmalili Hamdi Yazir", ur: "محمد حمدي يازر" }
+names:
+  - { value: "محمد حمدي يازر", kind: full }
+  - { value: "Elmalili Hamdi Yazir", kind: full }
+gender: male
+summary:
+  ar: "عالم وفقيه ومفسّر عثماني تركي ⁦(1878–1942)⁩، لُقّب بـإلماللي نسبة إلى مسقط رأسه. كلفته الحكومة التركية بكتابة تفسير وترجمة القرآن بالتركية فأنجز «حق ديني قرآن ديلي» ⁦(Hak Dini Kur'an Dili)⁩ في تسع مجلدات، وهو أشهر تفسير تركي حديث، وشغل عضوية البرلمان ووزارة الأوقاف."
+  en: "Ottoman-Turkish scholar, jurist and exegete (1878–1942), surnamed Elmalili after his birthplace. The Turkish government commissioned him to write a Qur'an translation and commentary in Turkish, producing the nine-volume Hak Dini Kur'an Dili — the most famous modern Turkish tafsir; he also sat in parliament and served as minister of pious foundations."
+  ur: "عثمانی ترک عالم، فقیہ اور مفسر ⁦(1878–1942)⁩ جن کا لقب المللی ان کے مسقط راس پر ہے۔ ترک حکومت نے انہیں ترکی میں قرآن کا ترجمہ اور تفسیر لکھنے کی ذمہ داری دی جس کے نتیجے میں نو جلدی «حق دینی قرآن دیلی» وجود میں آئی — جدید ترکی تفسیر کا مشہور ترین کام؛ وہ رکنِ پارلیمان اور وزیرِ اوقاف بھی رہے۔"
+roles: [scholar, jurist, professor]
+wings: [people]
+born:
+  edtf: "1878"
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: [source/wikipedia-elmalili-hamdi-yazir]
+died:
+  edtf: "1942"
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: [source/wikipedia-elmalili-hamdi-yazir]
+relations: []
+faith:
+  - value: sunni
+    basis: documented
+    note: "Ottoman-Turkish Sunni scholar, exegete and member of parliament."
+    sources: [source/wikipedia-elmalili-hamdi-yazir]
+sources: [source/wikipedia-elmalili-hamdi-yazir]
+provenance:
+  layer: own-research
+  source: "Gemini-compiled research list (founder session 17 Nov 2026) + wikipedia"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: ulama-wave2-2026-11-17
+status: { review: draft, generated_by: "Devin (SWE-2 Medium)" }

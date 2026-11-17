@@ -1,0 +1,39 @@
+id: person/abd-al-hayy-al-kattani
+class: person
+tags: [ulama-browser]
+label: { ar: "عبد الحي الكتاني", en: "Abd al-Hayy al-Kattani", ur: "عبد الحي الكتاني" }
+names:
+  - { value: "عبد الحي الكتاني", kind: full }
+  - { value: "Abd al-Hayy al-Kattani", kind: full }
+gender: male
+summary:
+  ar: "محدث ومؤرخ مغربي ⁦(1884–1962)⁩ من بيت الكتاني العلمي بفاس، أشهر مسندي المغرب في عصره. من مؤلفاته «فهرس الفهارس والأثبات ومعجم المعاجم» في طبقات الإسناد، و«التراتيب الإدارية» في تاريخ الإدارة المغربية، و«نظام الحكومة النبوية»."
+  en: "Moroccan hadith scholar and historian (1884–1962) of the learned Kattani house of Fez, the most eminent Moroccan musnid of his age. His works include Fihris al-Faharis, a vast biographical dictionary of isnad chains, Al-Taratib al-Idariyya on Moroccan administrative history, and Nizam al-Hukuma al-Nabawiyya."
+  ur: "مغربی محدث اور مورخ ⁦(1884–1962)⁩ جو فاس کے علمی کتانی خاندان سے تھے اور اپنے دور کے ممتاز ترین مغربی مسند شمار ہوتے ہیں۔ ان کی تصانیف میں اسناد کی طبقات پر عظیم لغت «فہرس الفہارس»، مغربی انتظامی تاریخ پر «التراتیب الاداریہ» اور «نظام الحکومۃ النبویہ» شامل ہیں۔"
+roles: [scholar, historian]
+wings: [people]
+born:
+  edtf: "1884"
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: [source/wikipedia-abd-al-hayy-al-kattani]
+died:
+  edtf: "1962"
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: [source/wikipedia-abd-al-hayy-al-kattani]
+relations: []
+faith:
+  - value: sunni
+    basis: documented
+    note: "Moroccan Sunni hadith scholar of the Kattani family of Fez."
+    sources: [source/wikipedia-abd-al-hayy-al-kattani]
+sources: [source/wikipedia-abd-al-hayy-al-kattani]
+provenance:
+  layer: own-research
+  source: "Gemini-compiled research list (founder session 17 Nov 2026) + wikipedia"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: ulama-wave2-2026-11-17
+status: { review: draft, generated_by: "Devin (SWE-2 Medium)" }

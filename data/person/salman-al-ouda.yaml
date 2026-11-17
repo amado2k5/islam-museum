@@ -1,0 +1,32 @@
+id: person/salman-al-ouda
+class: person
+tags: [ulama-browser]
+label: { ar: "سلمان العودة", en: "Salman al-Ouda", ur: "سلمان العودة" }
+names:
+  - { value: "سلمان العودة", kind: full }
+  - { value: "Salman al-Ouda", kind: full }
+gender: male
+summary:
+  ar: "عالم وداعية سعودي، وُلد سنة 1956. كان من رموز تيار الصحوة في التسعينيات واعتُقل سنوات، ثم تحوّل إلى خطاب إصلاحي في التسامح والحوار، ومن كتبه «أسئلة الثورة»؛ اعتُقل مجددًا سنة 2017."
+  en: "Saudi scholar and preacher, born in 1956. A figure of the 1990s Sahwa movement who spent years in prison, he later moved to a reformist discourse of tolerance and dialogue, authoring As’ilat al-Thawra; he was detained again in 2017."
+  ur: "سعودی عالم اور مبلغ، 1956 میں پیدا ہوئے۔ وہ 1990ء کی دہائی کی صحوہ تحریک کے رہنما رہے اور برسوں قید میں گزاری، پھر رواداری اور مکالمے کے اصلاحی خطاب کی طرف مائل ہوئے؛ کتاب «أسئلة الثورة» کے مولف؛ 2017 میں دوبارہ گرفتار ہوئے۔"
+roles: [theologian, writer, preacher]
+wings: [people, living]
+born:
+  edtf: "1956"
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: [source/wikipedia-salman-al-ouda]
+faith:
+  - value: sunni
+    basis: documented
+    note: "Documented as a Sunni scholar by role and oeuvre"
+    sources: [source/wikipedia-salman-al-ouda]
+sources: [source/wikipedia-salman-al-ouda]
+provenance:
+  layer: own-research
+  source: "Gemini-compiled research list (founder session 17 Nov 2026) + Arabic Wikipedia"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: ulama-wave2-2026-11-17
+status: { review: draft, generated_by: "Devin (SWE-2 Medium)" }

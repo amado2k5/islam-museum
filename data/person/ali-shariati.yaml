@@ -1,0 +1,39 @@
+id: person/ali-shariati
+class: person
+tags: [ulama-browser]
+label: { ar: "علي شريعتي", en: "Ali Shariati", ur: "علي شريعتي" }
+names:
+  - { value: "علي شريعتي", kind: full }
+  - { value: "Ali Shariati", kind: full }
+gender: male
+summary:
+  ar: "عالم اجتماع ومفكر إيراني ⁦(1933–1977)⁩، من أبرز المثقفين المؤثرين قبل الثورة الإيرانية. جمع في محاضراته وكتاباته بين علم الاجتماع الغربي والتراث الشيعي، ومن أعماله «العودة إلى الذات» و«الشيعة العلوية والشيعة الصفوية» و«فاطمة فاطمة» و«الحج»، وتوفي في منفاه بلندن."
+  en: "Iranian sociologist and thinker (1933–1977), among the most influential intellectuals before the Iranian revolution. His lectures and writings joined Western sociology to Shia heritage; his works include Return to the Self, Red Shi'ism vs Safavid Shi'ism, Fatima is Fatima and Hajj. He died in exile in London."
+  ur: "ایرانی ماہرِ سماجیات اور مفکر ⁦(1933–1977)⁩ جو ایرانی انقلاب سے پہلے کے مؤثر ترین مثقفین میں شمار ہوتے ہیں۔ ان کے لیکچروں اور تحریروں میں مغربی سماجیات اور شیعہ ورثہ ملے؛ ان کے کاموں میں «بازگشت بہ خویشتن»، «تشيعِ علوی و تشيعِ صفوی»، «فاطمہ فاطمہ است» اور «حج» شامل ہیں۔ لندن میں جلاوطنی میں انتقال کیا۔"
+roles: [philosopher, writer, professor]
+wings: [people]
+born:
+  edtf: "1933"
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: [source/wikipedia-ali-shariati]
+died:
+  edtf: "1977"
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: [source/wikipedia-ali-shariati]
+relations: []
+faith:
+  - value: shia
+    basis: documented
+    note: "Iranian sociologist of religion formed in Twelver Shia thought; his interpretations were contested by some clerics but his Shia framework is documented."
+    sources: [source/wikipedia-ali-shariati]
+sources: [source/wikipedia-ali-shariati]
+provenance:
+  layer: own-research
+  source: "Gemini-compiled research list (founder session 17 Nov 2026) + wikipedia"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: ulama-wave2-2026-11-17
+status: { review: draft, generated_by: "Devin (SWE-2 Medium)" }

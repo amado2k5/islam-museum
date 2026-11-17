@@ -1,0 +1,32 @@
+id: person/salih-al-fawzan
+class: person
+tags: [ulama-browser]
+label: { ar: "صالح الفوزان", en: "Salih al-Fawzan", ur: "صالح الفوزان" }
+names:
+  - { value: "صالح الفوزان", kind: full }
+  - { value: "Salih al-Fawzan", kind: full }
+gender: male
+summary:
+  ar: "فقيه سعودي حنبلي، وُلد سنة 1935، مفتي المملكة العربية السعودية منذ 2025. عضو سابق في هيئة كبار العلماء واللجنة الدائمة للإفتاء، اشتهر بفتاواه التقليدية وبمؤلفات فقهية منها «الملخص الفقهي» و«كتاب التوحيد»."
+  en: "Saudi Hanbali jurist, born in 1935, Grand Mufti of Saudi Arabia since 2025. A former member of the Council of Senior Scholars and the Permanent Committee for Fatwa, known for traditionalist fatwas and juristic works including al-Mulakhkhas al-Fiqhi and Kitab al-Tawhid."
+  ur: "سعودی حنبلی فقیہ، 1935 میں پیدا ہوئے اور 2025 سے سعودی عرب کے مفتیِ اعظم۔ سابق رکنِ ہیئتِ کبار العلماء اور دائمی کمیٹی برائے افتا؛ روایتی فتوں اور فقہی کتب کے لیے مشہور جن میں «الملخص الفقهي» اور «کتاب التوحید» شامل ہیں۔"
+roles: [scholar, mufti, jurist]
+wings: [people, living]
+born:
+  edtf: "1935"
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: [source/wikipedia-salih-al-fawzan]
+faith:
+  - value: sunni
+    basis: documented
+    note: "Documented as a Sunni scholar by role and oeuvre"
+    sources: [source/wikipedia-salih-al-fawzan]
+sources: [source/wikipedia-salih-al-fawzan]
+provenance:
+  layer: own-research
+  source: "Gemini-compiled research list (founder session 17 Nov 2026) + Arabic Wikipedia"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: ulama-wave2-2026-11-17
+status: { review: draft, generated_by: "Devin (SWE-2 Medium)" }

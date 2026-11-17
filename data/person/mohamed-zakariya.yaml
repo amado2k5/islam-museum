@@ -1,0 +1,32 @@
+id: person/mohamed-zakariya
+class: person
+tags: [ulama-browser]
+label: { ar: "محمد زكريا", en: "Mohamed Zakariya", ur: "محمد زكريا" }
+names:
+  - { value: "محمد زكريا", kind: full }
+  - { value: "Mohamed Zakariya", kind: full }
+gender: male
+summary:
+  ar: "خطاط أمريكي، وُلد سنة 1942 في كاليفورنيا. نال الإجازة في الخط من إسطنبول وأصبح أبرز معلم للخط الإسلامي الكلاسيكي في الغرب، وصمم طابع العيد للبريد الأمريكي، وتعرض أعماله في متاحف كبرى."
+  en: "American master calligrapher, born in 1942 in California. He earned ijazas in Istanbul and became the foremost Western teacher of classical Islamic calligraphy, designing the USPS Eid stamp and exhibiting in major museums."
+  ur: "امریکی استاد خوش نویس، 1942 میں کیلیفورنیا میں پیدا ہوئے۔ انہوں نے استنبول سے اجازات حاصل کیں اور مغرب میں کلاسیکی اسلامی خطاطی کے ممتاز ترین معلم بنے؛ USPS عید ٹکٹ کے ڈیزائنر اور بڑے عجائب گھروں میں نمایش۔"
+roles: [calligrapher, artist]
+wings: [people, living]
+born:
+  edtf: "1942"
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: [source/wikipedia-mohamed-zakariya]
+faith:
+  - value: islam
+    basis: documented
+    note: "public figure within the Muslim world; no sourced renunciation"
+    sources: [source/wikipedia-mohamed-zakariya]
+sources: [source/wikipedia-mohamed-zakariya]
+provenance:
+  layer: own-research
+  source: "Gemini-compiled research list (founder session 17 Nov 2026) + English Wikipedia"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: ulama-wave2-2026-11-17
+status: { review: draft, generated_by: "Devin (SWE-2 Medium)" }

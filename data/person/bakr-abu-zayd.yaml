@@ -1,0 +1,39 @@
+id: person/bakr-abu-zayd
+class: person
+tags: [ulama-browser]
+label: { ar: "بكر أبو زيد", en: "Bakr Abu Zayd", ur: "بكر أبو زيد" }
+names:
+  - { value: "بكر أبو زيد", kind: full }
+  - { value: "Bakr Abu Zayd", kind: full }
+gender: male
+summary:
+  ar: "بكر بن عبد الله أبو زيد ⁦(1946–2008)⁩ فقيه حنبلي سعودي، عضو هيئة كبار العلماء والمجمع الفقهي الإسلامي الدولي، وقاضٍ سابق. من كتبه «حلية طالب العلم» — مرجع في آداب الطلب — و«فقه النوازل» و«التعالم»."
+  en: "Bakr ibn Abd Allah Abu Zayd (1946–2008) was a Saudi Hanbali jurist, member of the Council of Senior Scholars and of the International Islamic Fiqh Academy, and a former judge. His books include Hilyat Talib al-'Ilm — a standard manual on scholarly etiquette — Fiqh al-Nawazil and Al-Ta'alum."
+  ur: "بکر بن عبداللہ ابوزید ⁦(1946–2008)⁩ سعودی حنبلی فقیہ تھے، کونسل آف سینئر اسکالرز اور انٹرنیشنل اسلامی فقہ اکیڈمی کے رکن اور سابق قاضی۔ کتب میں «حلية طالب العلم» — طلبۂ علم کے آداب کی مرجع کتاب — «فقه النوازل» اور «التعالم» شامل ہیں۔"
+roles: [scholar, jurist, qadi]
+wings: [people]
+born:
+  edtf: "1946"
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: [source/wikipedia-bakr-abu-zayd]
+died:
+  edtf: "2008"
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: [source/wikipedia-bakr-abu-zayd]
+relations: []
+faith:
+  - value: sunni
+    basis: documented
+    note: "Documented as a Sunni scholar by role and oeuvre"
+    sources: [source/wikipedia-bakr-abu-zayd]
+sources: [source/wikipedia-bakr-abu-zayd]
+provenance:
+  layer: own-research
+  source: "Gemini-compiled research list (founder session 17 Nov 2026) + wikipedia"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: ulama-wave2-2026-11-17
+status: { review: draft, generated_by: "Devin (SWE-2 Medium)" }

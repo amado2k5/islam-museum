@@ -1,0 +1,39 @@
+id: person/mahmoud-abu-rayya
+class: person
+tags: [ulama-browser]
+label: { ar: "محمود أبو رية", en: "Mahmoud Abu Rayya", ur: "محمود أبو رية" }
+names:
+  - { value: "محمود أبو رية", kind: full }
+  - { value: "Mahmoud Abu Rayya", kind: full }
+gender: male
+summary:
+  ar: "كاتب وباحث مصري ⁦(1889–1970)⁩ عُرف بكتابه الجدلي «أضواء على السنة النبوية» ⁦(1958)⁩ الذي شكّك في كثير من أحاديث الصحيحين ومنهج الرواية، فأثار ردودًا واسعة من علماء الحديث. وله أيضًا «شيخ المضيرة» وردود ورسائل في المناظرة الحديثية."
+  en: "Egyptian writer and researcher (1889–1970) known for his polemical book Adwa' ala al-Sunna al-Nabawiyya (1958), which questioned many hadiths of the two Sahihs and the method of transmission, provoking wide rejoinders from hadith scholars. He also wrote Shaykh al-Mudira and polemical treatises."
+  ur: "مصری مصنف اور محقق ⁦(1889–1970)⁩ جو اپنی مباحثی کتاب «اضواء علی السنۃ النبویہ» ⁦(1958)⁩ کے لیے جانے جاتے ہیں جس نے صحیحین کی بہت سی احادیث اور اسناد کے منہج پر سوال اٹھایا، جس سے محدثین کی جانب سے وسیع ردود آئے۔ ان کی دیگر تصانیف میں «شیخ المضیرہ» اور مباحثی رسائل ہیں۔"
+roles: [scholar, writer]
+wings: [people]
+born:
+  edtf: "1889"
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: [source/wikipedia-mahmoud-abu-rayya]
+died:
+  edtf: "1970"
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: [source/wikipedia-mahmoud-abu-rayya]
+relations: []
+faith:
+  - value: sunni
+    basis: documented
+    note: "Egyptian scholar trained in Sunni sciences; his radical critique of hadith transmission was contested by scholars but he remained within the fold of Islamic scholarship per the record."
+    sources: [source/wikipedia-mahmoud-abu-rayya]
+sources: [source/wikipedia-mahmoud-abu-rayya]
+provenance:
+  layer: own-research
+  source: "Gemini-compiled research list (founder session 17 Nov 2026) + wikipedia"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: ulama-wave2-2026-11-17
+status: { review: draft, generated_by: "Devin (SWE-2 Medium)" }

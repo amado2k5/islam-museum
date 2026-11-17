@@ -1,0 +1,39 @@
+id: person/mahmoud-shaltut
+class: person
+tags: [ulama-browser]
+label: { ar: "محمود شلتوت", en: "Mahmoud Shaltut", ur: "محمود شلتوت" }
+names:
+  - { value: "محمود شلتوت", kind: full }
+  - { value: "Mahmoud Shaltut", kind: full }
+gender: male
+summary:
+  ar: "عالم وفقيه مصري ⁦(1893–1963)⁩، شيخ الأزهر من 1958 إلى 1963. من أعلام التجديد الأزهري في القرن العشرين، أصدر سنة 1959 فتواه الشهيرة باعتبار المذهب الجعفري الإثني عشري مذهبًا يجوز التعبد به، ومن كتبه «فقه القرآن والسنة» و«الإسلام عقيدة وشريعة» و«القرآن والقتال»."
+  en: "Egyptian scholar and jurist (1893–1963), Grand Imam of al-Azhar from 1958 to 1963. A leading figure of twentieth-century Azharite renewal, he issued his famous 1959 fatwa recognizing the Twelver Ja'fari school as a valid school of worship; his books include Fiqh al-Qur'an wal-Sunna, Al-Islam 'Aqida wa-Shari'a and Al-Qur'an wal-Qital."
+  ur: "مصری عالم اور فقیہ ⁦(1893–1963)⁩ جو 1958 سے 1963 تک شیخ الازہر رہے۔ بیسویں صدی کی ازہری تجدید کے ممتاز رہنما؛ 1959 میں ان کے مشہور فتویٰ نے اثنا عشری جعفری مذہب کو عبادت کے لیے جائز مذہب قرار دیا۔ ان کی کتابوں میں «فقہ القرآن والسنۃ»، «الاسلام عقیدۃ و شریعۃ» اور «القرآن والقتال» شامل ہیں۔"
+roles: [scholar, jurist, mufti]
+wings: [people]
+born:
+  edtf: "1893"
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: [source/wikipedia-mahmoud-shaltut]
+died:
+  edtf: "1963"
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: [source/wikipedia-mahmoud-shaltut]
+relations: []
+faith:
+  - value: sunni
+    basis: documented
+    note: "Grand Imam of al-Azhar, Sunni."
+    sources: [source/wikipedia-mahmoud-shaltut]
+sources: [source/wikipedia-mahmoud-shaltut]
+provenance:
+  layer: own-research
+  source: "Gemini-compiled research list (founder session 17 Nov 2026) + wikipedia"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: ulama-wave2-2026-11-17
+status: { review: draft, generated_by: "Devin (SWE-2 Medium)" }
