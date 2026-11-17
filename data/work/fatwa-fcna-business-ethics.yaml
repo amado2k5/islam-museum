@@ -1,0 +1,23 @@
+id: work/fatwa-fcna-business-ethics
+class: work
+kind: fatwa
+label: { ar: "أخلاقيات الأعمال في الإسلام", en: "Islamic Business Ethics", ur: "اسلام میں کاروباری اخلاقیات" }
+summary:
+  ar: "ورقة للدكتور جمال بدوي في موقع المجلس الفقهي لأمريكا الشمالية ⁦(نُشرت نوفمبر 2021)⁩ تستعرض أخلاقيات الأعمال في الإسلام من الصدق في البيع إلى تحريم الربا والغش على ما فصّلته الورقة."
+  en: "A paper by Dr. Jamal Badawi on the Fiqh Council of North America site (published November 2021) surveying Islamic business ethics — from honesty in trade to the prohibitions of riba and deceit — as the paper details."
+  ur: "ڈاکٹر جمال بدوي کی تحریر فقہ کونسل آف نارتھ امریکہ کی ویب سائٹ پر ⁦(شائع شدہ نومبر 2021)⁩ اسلامی کاروباری اخلاقیات پر — دیانت داری سے لے کر سود اور دھوکے کی حرمت تک — جیسا کہ تحریر میں تفصیل ہے۔"
+wings: [words]
+publisher: group/fiqh-council-north-america
+url: "https://fiqhcouncil.org/islamic-business-ethics/"
+languages: [en]
+sources: [source/fcna]
+relations:
+  - { type: about, target: concept/muamalat, sources: [source/fcna] }
+  - { type: about, target: concept/akhlaq, sources: [source/fcna] }
+provenance:
+  layer: own-research
+  source: "fiqhcouncil.org post 'Islamic Business Ethics', dated 7 Nov 2021; read 17 Nov 2026. Summary in the museum's own words."
+  generated_by: "Devin"
+  model: "SWE-2 Medium"
+  run: fatwa-websites-34
+status: { review: published, completeness: 1 }
