@@ -1,11 +1,8 @@
----
-id: event/kairanawi-pfander-debate-1854
-lang: en
-source_lang: ar
-translators: ["Devin (SWE-2), draft translation"]
----
-## Summary
-The 1854 Agra debate between Rahmatullah Kairanawi and Karl Gottlieb Pfander — the encounter that produced Izhar al-Haqq. {cite:researchgate-pfander-legacy}
 
-## The exchanges
-The parties examined the criticism of the biblical text and the charge of corruption, the Trinity, and the proofs of Muhammad's prophethood. Pfander argued by the method of his Mizan al-Haqq against Islam; Kairanawi turned the same method back on the Bible itself. Izhar al-Haqq afterwards became the reference manual of Muslim debaters, printed, translated and circulated across the Islamic world.
+
+## The exchange — what each side said
+- **Pfander**: opened with the 'Balance of Truth' case — the Bible as self-attesting: prophetic fulfilment across the Testaments, and Islam too late to overturn the earliest Christian transmission; he attacked the Qur'an's probative standing.
+- **Kairanawi**: reversed the order — before weighing the claim, weigh the instrument — putting the criticism of the Bible's transmission (corruption in narration, manuscript families, multiplying readings): the book argued from must first prove its own text's soundness.
+- **Pfander**: defended the biblical source-base and the church's tradition, turning the corruption question from letter to doctrinal sense.
+- **Kairanawi**: built toward 'Izhar al-Haqq' — if human transmission is shown in the text, arguing from it against another fails; and the measure is single: whatever establishes the Book establishes the Qur'an better.
+- **The verdict**: the public debate broke off after two days; Kairanawi wrote 'Izhar al-Haqq' expanding the arguments, and the printed text became the debate's widest-reaching document in modern polemics. {cite:wikipedia-kairanawi} {cite:tandfonline-meknes-disputation}
