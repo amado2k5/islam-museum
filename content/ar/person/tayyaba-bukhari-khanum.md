@@ -1,3 +1,9 @@
+---
+id: person/tayyaba-bukhari-khanum
+lang: ar
+source_lang: ar
+translators: []
+---
 
 ## الموضوعات والجوائز
 غطّت دروسها بحسب تعريفها موضوعات موسّعة من الدعاء والصبر وفلسفة الصلاة والصوم والحج إلى حقوق المرأة والأخلاق وتربية الأولاد، وسُجّلت بعضها في سلاسل من عشر محاضرات. نالت جوائز منها «قرآن حكيم» سنة 2007 و«واندر وومن» سنة 2012 بحسب التقارير. {cite:prideofpakistan-tayyaba-bukhari} {cite:pakistantoday-tayyaba-bukhari}

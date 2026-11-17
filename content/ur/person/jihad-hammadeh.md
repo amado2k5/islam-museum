@@ -1,3 +1,9 @@
+---
+id: person/jihad-hammadeh
+lang: ur
+source_lang: ar
+translators: []
+---
 
 ## مزید تعلیم
 مدینہ کی الہیات کے علاوہ ان کے پاس تاریخ کی ڈگری اور ساؤ پالو کی یونیورسیداد متودیستا سے سماجی مواصلات کی ماسٹرز ہے، نیز نشہ کی روک تھام و علاج میں تخصص — مذہبی تربیت کو جدید سماجی علوم کے اوزاروں سے ملانا۔ {cite:muslim500-jihad-hammadeh} {cite:museudapessoa-jihad-hammadeh}

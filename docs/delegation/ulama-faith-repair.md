@@ -181,3 +181,24 @@ book is about the first (7th-century) Islamic polity, i.e. the generic
 "Islamic state" that `AGENTS.md` lists as a not-match; the gloss now reads
 "…the Founding of the Islamic state" (lowercase common noun). No validator,
 pattern list or exception was touched.
+
+## Second wave landed mid-repair (origin/main moved)
+
+While this branch was in flight, `origin/main` gained three commits —
+ulama waves 151–200 (`08f481f476`, PR #7380) and 201–250 (`b084c1c37f`,
+PR #7383) plus an AMJA fatwa batch (`6a77edff7f`, PR #7382) — written by the
+same pipeline with the same defects. Merged `origin/main` cleanly (zero
+path overlap) and re-validated: **50 new errors**, all in the new wave
+files, fixed the same way:
+
+| Class | Errors | Fix |
+|---|---|---|
+| Modern faith two-source (ruling 3) | 24 | `value`/`basis` → `unknown`, attestation kept in note |
+| Invalid faith enum `shia` | 1 | `person/tayyaba-bukhari-khanum` → `shia-twelver` (two sources + Twelver context: Jamiat al-Zahra / hawza of Qom; mapping stated in note) |
+| `URL must match format "uri"` | 2 | percent-encoded `Köhler`, `Kavazović` in de/en Wikipedia slugs |
+| Missing front matter entirely | 24 (12 files × 2) | added the full `id`/`lang`/`source_lang`/`translators` block to 4 persons × ar/en/ur (these files had no front matter at all, unlike wave 1 which had only lost the opening `---`) |
+| **Total** | **50** | |
+
+Also normalised a double U+2066/U+2069 wrap the pipeline emitted in
+`person/khaled-al-bakar` `summary.ur` (`⁦⁦(لبنان)⁩⁩` → `⁦(لبنان)⁩`). No new
+homonym, region, date-status or title defects in this wave.
