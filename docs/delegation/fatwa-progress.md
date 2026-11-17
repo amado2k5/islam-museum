@@ -244,3 +244,8 @@ Counts: 545 `fatwa-*` work files total; +31 new-source records this wave (19 AMJ
 - Standing total: ~695 `fatwa-*` files; Dar al-Ifta batch now ~127 of 616 captured.
 - All trilingual, `source/dar-alifta` cited, `about` targets resolve.
 - Remaining: ~490 Dar, ~50 FCNA, IIFA sessions 1-10, AMJA long tail (~5,400 fetched, 11 written).
+
+### Wave: Dar al-Ifta deep conversion (runs fatwa-websites-34)
+- PR #7267 merged — 877 `fatwa-*` files on main (waves 9-13 added ~118 Dar records this stretch)
+- Dar lane: converting captured JSONL oldest→newest; ~250 of 616 written; skipped two records whose answers did not capture (21823, 21750, 21734)
+- Remaining: ~360 Dar, ~50 FCNA, IIFA sessions 1-10, AMJA ~5,398

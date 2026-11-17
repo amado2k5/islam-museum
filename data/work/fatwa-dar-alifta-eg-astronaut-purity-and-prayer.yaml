@@ -1,0 +1,24 @@
+id: work/fatwa-dar-alifta-eg-astronaut-purity-and-prayer
+class: work
+kind: fatwa
+label: { ar: "كيفية طهارة رائد الفضاء وصلاته", en: "How an astronaut purifies and prays", ur: "خلانورد کی طہارت اور نماز کیسے ہو" }
+summary:
+  ar: "سائل سأل عن كيفية طهارة رائد الفضاء وصلاته. أجابت دار الإفتاء المصرية ⁦(مفتي الجمهورية د. نظير محمد عياد، فتوى رقم 21697)⁩ أن تطهر رائد الفضاء يختلف باختلاف حاله فإن قدر على استعمال الماء فائضًا عن حاجته قادرًا فحكمه حكم الأرضيين وإن لم يقدر فله حكم آخر بيّنه الجواب."
+  en: "A questioner asked how an astronaut purifies himself and prays. Egypt's Dar al-Ifta (Grand Mufti Dr. Nazir Muhammad Ayyad, fatwa no. 21697) answered that the astronaut's purification differs with his state: if he can use surplus water beyond his need his ruling is that of earth-dwellers; if he cannot, another ruling applies, as the answer sets out."
+  ur: "ایک سائل نے خلانورد کی طہارت اور نماز کا طریقہ پوچھا۔ مصر کے دار الافتاء ⁦(مفتیِ جمهور ڈاکٹر نظیر محمد عیاد، فتویٰ نمبر 21697)⁩ نے جواب دیا کہ طہارت اس کی حالت کے مطابق بدلتی ہے: اگر ضرورت سے زائد پانی استعمال کر سکے تو حکم زمینیوں جیسا ہے؛ نہیں تو دوسرا حکم — جیسا کہ جواب میں تفصیل ہے۔"
+wings: [words]
+authors: [person/nazir-ayyad]
+publisher: group/dar-al-ifta-al-misriyya
+url: "https://www.dar-alifta.org/ar/fatwa/details/21697/كيفية-طهارة-رائد-الفضاء-وصلاته"
+languages: [ar]
+sources: [source/dar-alifta]
+relations:
+  - { type: about, target: practice/salah, sources: [source/dar-alifta] }
+  - { type: about, target: concept/tahara, sources: [source/dar-alifta] }
+provenance:
+  layer: own-research
+  source: "dar-alifta.org fatwa no. 21697, category الصلاة; read 17 Nov 2026. Summary in the museum's own words."
+  generated_by: "Devin"
+  model: "SWE-2 Medium"
+  run: fatwa-websites-34
+status: { review: published, completeness: 1 }
