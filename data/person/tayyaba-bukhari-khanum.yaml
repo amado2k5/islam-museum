@@ -1,0 +1,36 @@
+id: person/tayyaba-bukhari-khanum
+class: person
+tags: [ulama-browser, ulama-mashahir]
+label: { ar: "طيبة بخاري خانم", en: "Tayyaba Bukhari Khanum", ur: "طیبہ بخاری خانم" }
+names:
+  - { value: "طيبة بخاري خانم", kind: full }
+  - { value: "Khanum Tayyaba Bukhari", kind: full }
+  - { value: "Syeda Tayyaba Bukhari", kind: alternate }
+  - { value: "سیدہ طیبہ بخاری", kind: alternate }
+gender: female
+summary:
+  ar: "عالمة دين باكستانية من قلة من النساء في التدريس الديني، وُلدت في 15 أغسطس 1974 في فيصل آباد، ودرست منذ سنة 1984 في قم بإيران ثم واصلت دراستها في باكستان. تجيد ست لغات وتخطب في المجالس والقنوات، وأسست مؤسسة بخاري الإغاثية لمساعدة متضرري الكوارث."
+  en: "Pakistani religious scholar, one of very few women in religious teaching, born on 15 August 1974 in Faisalabad; she studied in Qom, Iran, from 1984 and continued her studies in Pakistan. A speaker in six languages on platforms and television, she founded the Bukhari Relief Foundation to aid people displaced by natural disasters."
+  ur: "پاکستانی مذہبی عالمہ جو دینی تدریس میں چند خواتین میں شمار ہوتی ہیں، 15 اگست 1974 کو فیصل آباد میں پیدا ہوئیں؛ 1984 سے ایران کے شہر قم میں تعلیم پائی اور پھر پاکستان میں جاری رکھی۔ وہ چھ زبانوں میں خطبہ اور تقریر کرتی ہیں اور قدرتی آفات کے متاثرین کے لیے بخاری ریلیف فاؤنڈیشن قائم کی۔"
+roles: [scholar, teacher, preacher]
+wings: [people, living]
+regions: [south-asia]
+born:
+  edtf: "1974-08-15"
+  calendar: gregorian
+  precision: day
+  status: historical
+  note: "Born in Peoples Colony, Faisalabad; no place entity for it, so no born_in edge is written."
+  sources: [source/prideofpakistan-tayyaba-bukhari]
+faith:
+  - value: shia
+    basis: documented
+    note: "Documented as a Shia scholar educated at Jamiat al-Zahra and the hawza of Qom under named ayatollahs; the museum labels her tradition rather than the Sunni default."
+    sources: [source/prideofpakistan-tayyaba-bukhari, source/pakistantoday-tayyaba-bukhari]
+sources: [source/muslim500-tayyaba-bukhari, source/prideofpakistan-tayyaba-bukhari, source/pakistantoday-tayyaba-bukhari]
+provenance:
+  layer: own-research
+  source: "The Muslim 500 profile, Pride of Pakistan and Pakistan Today, read for run ulama-m500-w201-250-2026-11-17"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: ulama-m500-w201-250-2026-11-17
+status: { review: published, generated_by: "Devin (SWE-2 Medium)" }
