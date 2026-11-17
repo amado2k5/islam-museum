@@ -1,0 +1,24 @@
+id: work/fatwa-dar-alifta-eg-programmer-selling-personal-data
+class: work
+kind: fatwa
+label: { ar: "حكم بيع المبرمج البيانات الشخصية", en: "A programmer selling personal data", ur: "پروگرامر کا ذاتی ڈیٹا بیچنے کا حکم" }
+summary:
+  ar: "سائل سأل عن بيع المبرمج قاعدة معلومات للبيانات الشخصية والبيومترية لشركة أجنبية أو غيرها مقابل نظير مادي. أجابت دار الإفتاء المصرية ⁦(مفتي الجمهورية د. نظير محمد عياد، فتوى رقم 22616)⁩ أن ذلك حرام شرعًا إذا كان دون إذن من أصحاب البيانات أو الجهة المخولة على ما فصّل الجواب من خيانة الأمانة وخرق الخصوصية."
+  en: "A questioner asked about a programmer selling a database of personal and biometric data to a foreign or other company for payment. Egypt's Dar al-Ifta (Grand Mufti Dr. Nazir Muhammad Ayyad, fatwa no. 22616) answered that this is forbidden in the sharia where done without the permission of the data's owners or the authorised body — as the answer details in terms of breach of trust and violation of privacy."
+  ur: "ایک سائل نے پروگرامر کے ذاتی اور بایو میٹرک ڈیٹا کا ڈیٹابیس کسی غیر ملکی یا دوسری کمپنی کو رقم کے بدلے بیچنے کا حکم پوچھا۔ مصر کے دار الافتاء ⁦(مفتیِ جمهور ڈاکٹر نظیر محمد عیاد، فتویٰ نمبر 22616)⁩ نے جواب دیا کہ ڈیٹا کے مالکوں یا مجاز ادارے کی اجازت کے بغیر یہ شریعت میں حرام ہے — جیسا کہ جواب میں امانت کی خیانت اور نجیت کی خلاف ورزی کی رو سے تفصیل ہے۔"
+wings: [words]
+authors: [person/nazir-ayyad]
+publisher: group/dar-al-ifta-al-misriyya
+url: "https://www.dar-alifta.org/ar/fatwa/details/22616/حكم-بيع-المبرمج-البيانات-الشخصية"
+languages: [ar]
+sources: [source/dar-alifta]
+relations:
+  - { type: about, target: concept/akhlaq, sources: [source/dar-alifta] }
+  - { type: about, target: concept/halal-haram, sources: [source/dar-alifta] }
+provenance:
+  layer: own-research
+  source: "dar-alifta.org fatwa no. 22616, category البيع; read 17 Nov 2026. Summary in the museum's own words."
+  generated_by: "Devin"
+  model: "SWE-2 Medium"
+  run: fatwa-websites-34
+status: { review: published, completeness: 1 }

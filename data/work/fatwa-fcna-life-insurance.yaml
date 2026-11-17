@@ -1,0 +1,23 @@
+id: work/fatwa-fcna-life-insurance
+class: work
+kind: fatwa
+label: { ar: "هل التأمين على الحياة حلال؟", en: "Is Life Insurance Halal?", ur: "کیا لائف انشورنس حلال ہے؟" }
+summary:
+  ar: "سؤال عن حكم شراء تأمين على الحياة من شركات التأمين التقليدية في أمريكا الشمالية. أجاب المجلس الفقهي لأمريكا الشمالية ⁦(نُشر بتاريخ 11 نوفمبر 2026)⁩ بأن وثائق التأمين على الحياة من الشركات التقليدية في أمريكا الشمالية جائزة بشرط ألا تتضمن ربا، وهو حكم يخص سياق السوق الأمريكية كما نص عليه جواب المجلس."
+  en: "A question about the ruling on buying life insurance from conventional insurance companies in North America. The Fiqh Council of North America (published 11 November 2026) answered that life-insurance policies from conventional companies in North America are permissible provided they do not involve riba — a ruling the council's answer expressly scopes to the North-American market."
+  ur: "شمالی امریکہ کی روایتی انشورنس کمپنیوں سے لائف انشورنس خریدنے کے حکم کا سوال۔ فقہ کونسل آف نارتھ امریکہ ⁦(شائع شدہ 11 نومبر 2026)⁩ نے جواب دیا کہ شمالی امریکہ کی روایتی کمپنیوں کی لائف انشورنس پالیسیاں جائز ہیں بشرطیکہ ان میں سود نہ ہو — یہ حکم کونسل کے جواب کے مطابق خاص طور پر امریکی بازار کے سیاق میں ہے۔"
+wings: [words]
+publisher: group/fiqh-council-north-america
+url: "https://fiqhcouncil.org/is-life-insurance-halal/"
+languages: [en]
+sources: [source/fcna]
+relations:
+  - { type: about, target: concept/riba, sources: [source/fcna] }
+  - { type: about, target: concept/halal-haram, sources: [source/fcna] }
+provenance:
+  layer: own-research
+  source: "fiqhcouncil.org post 'Is Life Insurance Halal?', dated 11 Nov 2026 in the WordPress API; read 17 Nov 2026. Summary in the museum's own words."
+  generated_by: "Devin"
+  model: "SWE-2 Medium"
+  run: fatwa-websites-34
+status: { review: published, completeness: 1 }

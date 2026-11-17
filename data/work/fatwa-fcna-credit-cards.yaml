@@ -1,0 +1,23 @@
+id: work/fatwa-fcna-credit-cards
+class: work
+kind: fatwa
+label: { ar: "هل بطاقات الائتمان حلال؟", en: "Are Credit Cards Halal?", ur: "کیا کریڈٹ کارڈ حلال ہیں؟" }
+summary:
+  ar: "سؤال: هل بطاقات الائتمان حلال اقتناءً واستعمالًا؟ أجاب الشيخ عمر خان بفتوى المجلس الفقهي لأمريكا الشمالية ⁦(نُشرت بتاريخ 5 أكتوبر 2026)⁩ أن اقتناء البطاقة الائتمانية التقليدية واستعمالها جائز لمن يسدد كامل الرصيد في موعده باطمئنان — مع استخدام الدفع التلقائي إن أمكن — كما نص الجواب على ضوابط ذلك."
+  en: "A question: are credit cards halal to obtain and use? Shaykh Umer Khan answered for the Fiqh Council of North America (published 5 October 2026) that obtaining and using a conventional credit card is permissible for a Muslim who reliably pays the full statement balance by its due date — autopay to be used if possible — as the answer's conditions set out."
+  ur: "سوال: کیا کریڈٹ کارڈ رکھنا اور استعمال کرنا حلال ہے؟ شیخ عمر خان نے فقہ کونسل آف نارتھ امریکہ کی طرف سے ⁦(شائع شدہ 5 اکتوبر 2026)⁩ جواب دیا کہ روایتی کریڈٹ کارڈ کا حصول اور استعمال اس مسلمان کے لیے جائز ہے جو ہر ماہ پورا بیلنس بروقت ادا کرتا ہو — ممکن ہو تو خودکار ادائیگی استعمال کی جائے — جیسا کہ جواب کی شرائط بیان کرتی ہیں۔"
+wings: [words]
+publisher: group/fiqh-council-north-america
+url: "https://fiqhcouncil.org/permissibility-of-credit-cards/"
+languages: [en]
+sources: [source/fcna]
+relations:
+  - { type: about, target: concept/riba, sources: [source/fcna] }
+  - { type: about, target: concept/halal-haram, sources: [source/fcna] }
+provenance:
+  layer: own-research
+  source: "fiqhcouncil.org post 'Are Credit Cards Halal?', dated 5 Oct 2026 in the WordPress API; read 17 Nov 2026. Summary in the museum's own words."
+  generated_by: "Devin"
+  model: "SWE-2 Medium"
+  run: fatwa-websites-34
+status: { review: published, completeness: 1 }

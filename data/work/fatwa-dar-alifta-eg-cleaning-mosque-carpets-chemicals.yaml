@@ -1,0 +1,24 @@
+id: work/fatwa-dar-alifta-eg-cleaning-mosque-carpets-chemicals
+class: work
+kind: fatwa
+label: { ar: "حكم تطهير سجاد المساجد بالمواد الكيميائية", en: "Purifying mosque carpets with chemical agents", ur: "مسجد کی قالین کو کیمیائی مادوں سے پاک کرنا" }
+summary:
+  ar: "سائل سأل عن تطهير سجاد المساجد بالمواد الكيميائية. أجابت دار الإفتاء المصرية ⁦(مفتي الجمهورية د. نظير محمد عياد، فتوى رقم 24333)⁩ أن تطهير محل النجاسة لا يختص بالماء وحده بل يحصل بكل مائع طاهر مزيل، وأن الأصل في المواد الكيميائية السائلة أنها طاهرة في نفسها ومزيلة لأعيان النجاسات ما لم يثبت نجاستها."
+  en: "A questioner asked about purifying mosque carpets with chemical agents. Egypt's Dar al-Ifta (Grand Mufti Dr. Nazir Muhammad Ayyad, fatwa no. 24333) answered that purifying a spot of impurity is not confined to water but is achieved by any pure, removing liquid; and that liquid chemical agents are in principle pure in themselves and removers of impurities — unless an agent is itself proven impure."
+  ur: "ایک سائل نے مسجد کی قالین کو کیمیائی مادوں سے پاک کرنے کا حکم پوچھا۔ مصر کے دار الافتاء ⁦(مفتیِ جمهور ڈاکٹر نظیر محمد عیاد، فتویٰ نمبر 24333)⁩ نے جواب دیا کہ نجاست کی جگہ پاک کرنا صرف پانی تک محدود نہیں بلکہ ہر پاک اور صاف کرنے والے مائع سے ہو جاتا ہے؛ اور مائع کیمیائی مادے اصولاً بذاتِ خود پاک اور نجاست دور کرنے والے ہیں — مگر وہ جس کی نجاست ثابت ہو۔"
+wings: [words]
+authors: [person/nazir-ayyad]
+publisher: group/dar-al-ifta-al-misriyya
+url: "https://www.dar-alifta.org/ar/fatwa/details/24333/حكم-تطهير-سجاد-المساجد-بالمواد-الكيميائية"
+languages: [ar]
+sources: [source/dar-alifta]
+relations:
+  - { type: about, target: concept/tahara, sources: [source/dar-alifta] }
+  - { type: about, target: concept/masjid, sources: [source/dar-alifta] }
+provenance:
+  layer: own-research
+  source: "dar-alifta.org fatwa no. 24333, category الطهارة; read 17 Nov 2026. Summary in the museum's own words."
+  generated_by: "Devin"
+  model: "SWE-2 Medium"
+  run: fatwa-websites-34
+status: { review: published, completeness: 1 }
