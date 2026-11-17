@@ -1,3 +1,4 @@
+---
 id: person/faiz-ahmad-faiz
 lang: ar
 source_lang: ar

@@ -1,6 +1,6 @@
 # Project status and how to resume
 
-_Last updated 16 November 2026._ Read this first in a new session, then `docs/plan/00-README.md` (the plan) and `CLAUDE.md` (the rules)._
+_Last updated 17 November 2026._ Read this first in a new session, then `docs/plan/00-README.md` (the plan) and `CLAUDE.md` (the rules)._
 
 ## Reach — the Tranco ranking log
 
@@ -17,8 +17,9 @@ Tranco (tranco-list.eu) is a research ranking of popular domains, recomputed dai
 | 2026-11-14 | 1,179,447 |
 | 2026-11-15 | 1,112,567 |
 | 2026-11-16 | 1,062,888 |
+| 2026-11-17 | 993,535 |
 
-Latest, checked 16 November 2026: **#1,062,888** on the list dated 16 November 2026 — up 49,679 places in a day from #1,112,567 (list of 15 November), and 62,888 places short of the top 1,000,000. The 16 November rank was read from the published list file itself (list K97GW, the full list of 4,629,898 domains) before the API carried it.
+Latest, checked 17 November 2026: **#993,535** on the list dated 17 November 2026 — up 69,353 places in a day from #1,062,888 (list of 16 November), and **inside the top 1,000,000**: the milestone this log watches, reached 37 days after the museum opened on 11 October 2026, and 25 days after its first Tranco reading (#4,609,967 on the list of 23 October 2026 — a climb of 3,616,432 places). The 17 November rank was read from the published list file itself (list V38GN, the full list of 4,564,981 domains) before the API carried it.
 
 ## What exists
 
@@ -285,3 +286,5 @@ Devin's schema needs arrive as `docs/requests/devin-*.md`. Unresolved references
 - 2026-11-13 hosting fallback (founder decision, dec-20261113-270): there is no live fallback mirror for a Cloudflare outage; the risk is accepted and the site is rebuilt from git if needed. The GitHub Pages site was last deployed on 18 Oct 2026 and cannot hold the site (1 GB limit, site about 19 GB). Options and triggers to revisit: `docs/engineering/06-deployment.md` section 5a. Submission-impacting, signed off by the founder in chat on 13 Nov 2026; the UNESCO dossier (A.5, A.6, section 2, Annex A) and the DPGA evidence map (indicator 4) were corrected in the same commit. Open conflict to settle by the founder: `docs/plan/03-architecture.md` (the hosting table, row GitHub Pages, and the durability paragraph near line 250) still names GitHub Pages as the fallback mirror; the plan was not edited. Build and deploy review: `docs/engineering/45-build-deploy-review.md`.
 | Sport Browser — Sports and Competitions in Islam (plan 66, `docs/plan/66-sport-browser.md`; spec `docs/engineering/58-sport-browser-requirements.md`; lane `sport`) | Built 2026: `/[lang]/sport/` trilingual page with five corpus sections, eight topic chips and the contest-ground signature view, guarded-lexicon detection in `scripts/sport.ts`, new `sport` class with 17 seeds + 5 contest events + 10 records tagged in place, athletes read from `person.sports`, `/api/v1/sport.json`, Explore menu and landing card; books fill as harvested |
 | Muslim Media-Makers Browser — «متصفح إعلاميو المسلمون» (plan 68, `docs/plan/67-i3lam-browser.md`; spec `docs/engineering/59-i3lam-browser-requirements.md`) | Built 2026: `/[lang]/i3lam/` trilingual page with the transmission-wire signature view, the 11-role media chain, the state-speaks offices, a curated Qur'an anchor set and four corpus feeds; feed grows from `mentions` edges and the `i3lam-browser` tag; 7 new `job` records with trilingual prose, 48 `occupations` links; Explore menu and landing card |
+
+- 17 November 2026: the Heroes of Islam explorer ships at `/{lang}/heroes/` — six virtue trails (`exhibit/hero-*`, 24 hero records, trilingual narratives) with `/api/v1/heroes.json`; plan `docs/plan/71-heroes-explorer.md`, progress `docs/delegation/heroes-progress.md`.

@@ -748,3 +748,14 @@ Mustafa Hosny (hosny-2, below): `ahl-al-jannah` («أهل الجنة», "The Peo
 - Register: assabile-wagdy-ghoneim-imaneat mining none→partial (7/13), ingestion→drafting, work_id→work/imaneat.
 - Exclusions carried: hadith wording not reproduced; repetition loops discarded (ep03 ~00:23-00:24, eps 05-07); several sura attributions unreliable → verses linked by content or needs_source.
 - Queue: imaneat-2 (eps 08-13: malā'ika, yawm al-ākhir/al-āmāt, qadar) next; then ghazawāt al-nabī (8), sharḥ mabādiʾ al-tawḥīd (12), sulūk al-muslim al-multazim (26), al-sulūkiyyāt (12), al-futūḥāt al-islāmiyya (51).
+
+## 2026-11-17 — train assabile-4 (packet pipeline)
+- Landed packet `assabile-ghoneim-imaneat-2` (drafter+verifier: Devin subagents): work/imaneat completed — eps 08-13 mined (malā'ika, yawm al-ākhir/ālāmāt, hereafter, qadar). Series 13/13 COMPLETE; register partial→complete.
+- Verifier fixes: quran-4-37→4-39 (content match), added 26:89+53:40, removed 78:18 clause from al-Takwir description, rewrote 14:43 description, trimmed 41:9 overclaim, added 13:23; Urdu debris removed.
+- Series page confirms exactly 13 episodes — ep13 "next episode" remark is speaker rhetoric.
+- Exclusions: ep11 modern political framing excluded per content-safety; unreliable military/historical examples not reproduced; hadith wording not reproduced.
+
+## 2026-11-17 — train assabile-5 (packet pipeline)
+- Landed packet `assabile-ghoneim-ghazawat-1` (drafter+verifier: Devin subagents): work/ghazawat-el-nabi new — all 8 episodes mined (Badr, Hudaybiyya, Trench, Khaybar, Tabuk, Hunayn, conquest of Mecca) in ar/en/ur. Register none→complete 8/8.
+- Verifier fixes: 359 cite-slug typos, inverted 2:120 paraphrase, wrong 33:25→48:26 passage link, conquest date 18→20 Ramadan, added needs_source marks.
+- Exclusions: ep02 modern political digression excluded per content-safety; unclear military anecdotes generic + needs_source.

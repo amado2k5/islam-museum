@@ -302,3 +302,14 @@ Sessions 1–10 (1984–1997) fully converted from the official Arabic archive �
 - **Batch 41**: 10 records Mar–May 2009 — 78757, 78680, 78638, 78613, 78605, 78563, 78366, 78365, 78210, 78137.
 - **Totals:** 1,596 fatwa files on main. AMJA ≈ 302/5,409.
 - **Resume:** IDs below ~78137 (Feb–Mar 2009) plus non-purity categories.
+
+## Wave 96–101 stretch (batches 45–50) — merged to main
+
+- **W96 / batch 45** — 6 records (Jul–Oct 2007): IUD habit change, istibra, Qur'an tapes, knife-on-pork, illness tayammum, camel-meat ikhtilaf. Dups deduped: 3655/3284/3274/3191/3206.
+- **W97 / batch 46** — 8 records (2006–2007): net Qur'an reading, urine on clothes, wind certainty, blood donation, grooming while menstruating, excuse-holder timing, istihala, tayammum stone. Dups: 21952/2987/3126/3884/3880/3124/3762/2523/2030/1571.
+- **W98 / batch 47** — 8 records (2005–2006): joining prayers for incontinent, sock-wiping, hair gel, ihtilam ghusl, armless wudu, purity presumption, shower ghusl, pen ink. Dups: 1478/1461/1311/921/816/786/1064/1087/1501/1322.
+- **W99 / batch 48** — 8 records: the 2020 COVID set (Eid cars/home, mosque reopening, tarawih, absentee funeral, qunut, joining) + Eid-Friday dispensation. `salat-al-idayn`→`practice/eid-al-fitr`.
+- **W100 / batch 49** — 11 records (Oct 2012 prayer block): adhkar, Eid delay, seated/car prayer, prison adhan/Jumu'a, nafl intentions, mass dua, shoes, multiple Jumu'as, mat line, Fajr qunut. Skipped 21988 (stub). Resolved: al-maslaha-al-mursala, rukn-fiqh.
+- **W101 / batch 50** — 10 records (Oct 2012 prisoners block + adjacent): second jama'a, prison imam, cell prayer, qasr, qibla, intent reward, cellmate rights, non-Arabic prayer, Maliki Jumu'a end, no-two-witrs. Resolved: huquq-al-insan, madhhab.
+- **Resume point:** IDs below ~87276 (Aug 2012) plus remaining unscanned non-purity windows. Purity window (طهارة category) now effectively exhausted — every remaining low ID in it is a dup of an already-written higher twin.
+- **Totals:** 1,677 fatwa files on main. AMJA ≈ 353 / 5,409 captured.

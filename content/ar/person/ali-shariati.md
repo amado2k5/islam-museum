@@ -1,3 +1,4 @@
+---
 id: person/ali-shariati
 lang: ar
 source_lang: ar

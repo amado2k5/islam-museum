@@ -1,4 +1,5 @@
 id: person/seyed-hossein-nasr
+aliases: [person/seyyed-hossein-nasr]   # the same person filed twice; merged 17 Nov 2026 (ulama wave repair), the id still resolves
 class: person
 label: { ar: "سيد حسين نصر", en: "Seyed Hossein Nasr", ur: "سید حسین نصر" }
 names:
@@ -51,7 +52,7 @@ occupations:
     sources: [source/wikipedia-seyed-hossein-nasr-en, source/wikidata-seyed-hossein-nasr, source/ajis-nasr-shia, source/wikidata]
 relations:
   - { type: born_in, target: place/tehran, sources: [source/wikidata-seyed-hossein-nasr], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q3616)" }
-sources: [source/wikipedia-seyed-hossein-nasr-en, source/wikidata-seyed-hossein-nasr, source/ajis-nasr-shia, source/wikidata]
+sources: [source/wikipedia-seyed-hossein-nasr-en, source/wikidata-seyed-hossein-nasr, source/ajis-nasr-shia, source/wikidata, source/wikipedia-seyyed-hossein-nasr]
 provenance:
   layer: own-research
   source: "English Wikipedia 'Seyyed Hossein Nasr', Wikidata Q471041 (QID confirmed via the English Wikipedia pageprops API on 25 October 2026), and the American Journal of Islamic Social Sciences article on Nasr (ajis.org), all read on 25 October 2026. No earlier record for him existed in data/person/ under seyed-hossein-nasr, seyyed-hossein-nasr, hossein-nasr or any other spelling checked among the many classical Nasr/Husayn files; this is a new build, not an enrichment. Slug follows the queue's spelling 'Seyed Hossein Nasr'; the fuller transliteration 'Seyyed' is recorded as a name."

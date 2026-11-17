@@ -1,3 +1,4 @@
+---
 id: person/sayyid-ibrahim
 lang: ar
 source_lang: ar

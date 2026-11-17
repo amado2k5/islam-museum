@@ -1,3 +1,4 @@
+---
 id: person/muhammad-baqir-al-sadr
 lang: ar
 source_lang: ar

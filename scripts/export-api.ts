@@ -661,6 +661,21 @@ export function featureApiData(c: Compiled): Record<string, { generated: string;
     out[spec.file] = { generated: c.generated, feature: spec.feature, items, ...(unconnected.length ? { unconnected } : {}) };
   }
   out["companions.json"] = { generated: c.generated, feature: "companions-browser", items: companionRows(c, edgesFrom) };
+  // Heroes of Islam explorer (docs/plan/71): the six virtue trails with their roster, read from the
+  // exhibit records' rooms — the same source of truth as the /[lang]/heroes/ page.
+  const heroTrails = real
+    .filter((n) => n.class === "exhibit" && /^exhibit\/hero-[a-z-]+$/.test(n.id))
+    .sort((a, b) => a.id.localeCompare(b.id))
+    .map((n) => ({
+      id: n.id,
+      label: n.label,
+      summary: n.summary,
+      virtue: n.id.slice("exhibit/hero-".length),
+      heroes: ((n.data?.rooms as any[]) ?? []).map((r) => ({ title: r.title, body: r.body, features: r.features ?? [] })),
+      sources: n.data?.sources ?? [],
+      review: n.data?.status?.review ?? null,
+    }));
+  out["heroes.json"] = { generated: c.generated, feature: "heroes-explorer", items: heroTrails };
   const msg = messengerApiData(c, edgesFrom, byId);
   out["messengers.json"] = { generated: c.generated, feature: "messengers-browser", subjects: msg.subjects, items: msg.items };
   const muj = miracleApiData(c, edgesFrom, byId);

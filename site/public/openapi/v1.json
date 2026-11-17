@@ -197,6 +197,21 @@
         }
       }
     },
+"/heroes.json": {
+      "get": {
+        "operationId": "getHeroes",
+        "summary": "Heroes of Islam dataset",
+        "description": "Heroes of Islam explorer dataset: the six virtue trails (sacrifice, courage, mercy, generosity, knowledge, steadfastness) as exhibit/hero-* records, each with its rooms — hero title, the 'what they gave' line and featured entity ids — and sources",
+        "responses": {
+          "200": {
+            "description": "Heroes of Islam explorer dataset: the six virtue trails with their hero rooms and featured entity ids",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
     "/inventions.json": {
       "get": {
         "operationId": "getInventions",

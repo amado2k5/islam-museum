@@ -1,4 +1,5 @@
 id: person/ali-mustafa-musharrafa
+aliases: [person/ali-moustafa-mosharafa]   # the same person filed twice; merged 17 Nov 2026 (ulama wave repair), the id still resolves
 class: person
 label: { ar: "علي مصطفى مشرفة", en: "Ali Mustafa Mosharafa" }
 names:
@@ -29,7 +30,12 @@ relations:
   - { type: lived_in, target: place/murcia, note: "Place association from the person's nisba/name (مرسي); denotes association, not proven residence.", sources: [source/khwarizmi-jabr-cairo-1939], confidence: low }
   - { type: wrote_about, target: work/al-jabr-wal-muqabala, sources: [source/khwarizmi-jabr-cairo-1939] }
   - { type: wrote_about, target: person/al-khwarizmi, sources: [source/khwarizmi-jabr-cairo-1939] }
-sources: [source/khwarizmi-jabr-cairo-1939]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Public figure within the Muslim world; no sourced renunciation. The subject is Muslim by self-description and public context; no school or tradition is stated, so the value is recorded as unknown."
+    sources: [source/wikipedia-ali-moustafa-mosharafa]
+sources: [source/khwarizmi-jabr-cairo-1939, source/wikipedia-ali-moustafa-mosharafa]
 provenance:
   layer: own-research
   source: "source/khwarizmi-jabr-cairo-1939 title pages and preface, scan pp. 1, 7, 11-12, 126"

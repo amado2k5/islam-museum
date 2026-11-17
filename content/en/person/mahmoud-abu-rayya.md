@@ -1,3 +1,4 @@
+---
 id: person/mahmoud-abu-rayya
 lang: en
 source_lang: ar

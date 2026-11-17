@@ -1,3 +1,4 @@
+---
 id: person/abd-al-hayy-al-kattani
 lang: ur
 source_lang: ar
