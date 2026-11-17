@@ -1,0 +1,21 @@
+id: event/deedat-mcdowell-debate-1981
+class: event
+kind: other
+label: { ar: "مناظرة أحمد ديدات وجوش ماكدويل", en: "Deedat–McDowell Debate (1981)" }
+summary:
+  ar: "في [[place/durban|ديربان]] بجنوب أفريقيا سنة 1981 واجه أحمد ديدات الكاتب الدفاعي المسيحي [[person/josh-mcdowell|جوش ماكدويل]] في مناظرة بعنوان «هل صُلب المسيح؟»، فدفع ديدات بأن القرآن نفى الصلب والقتل في [[passage/quran-4-157|النساء 157]] وعرض مآخذه التاريخية والنصية، ودافع ماكدويل عن واقعة الصلب والقيامة بأدلة البشائر والتحقيق التاريخي. وبقي تفريغ المناظرة وتسجيلها من أثبت الوثائق في أرشيف الديانة المقارنة {cite:answering-islam-debates-index}."
+  en: "In [[place/durban|Durban]], South Africa, in 1981 Ahmed Deedat faced the Christian apologist [[person/josh-mcdowell|Josh McDowell]] in a debate titled 'Was Christ Crucified?'. Deedat argued from the Qur'an's denial of the crucifixion in [[passage/quran-4-157|al-Nisa 157]] and presented his historical and textual objections; McDowell defended the fact of the crucifixion and resurrection from the Gospels and historical investigation. The transcript and recording remain among the firmest documents in the comparative-religion archive {cite:answering-islam-debates-index}."
+wings: [time]
+date:
+  start: { hijri: "1401", edtf: "1981", precision: year, status: historical }
+relations:
+  - { type: had_participant, target: person/ahmed-deedat, role: "المناظر المسلم", sources: [source/answering-islam-debates-index] }
+  - { type: had_participant, target: person/josh-mcdowell, role: "الدفاعي المناظر", sources: [source/answering-islam-debates-index] }
+  - { type: occurred_at, target: place/durban, role: "", sources: [source/answering-islam-debates-index] }
+sources: [source/answering-islam-debates-index]
+tags: ["munazarat-browser", "munazarat-scriptuaries"]
+provenance:
+  layer: own-research
+  source: "source/answering-islam-debates-index"
+  generated_by: "Devin (SWE-2), drafted from the cited sources"
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2)" }

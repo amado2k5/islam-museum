@@ -1,0 +1,20 @@
+id: event/ally-boteach-dialogues
+class: event
+kind: other
+label: { ar: "حوارات شبير علي مع الحاخام بوتيش", en: "Shabir Ally–Shmuley Boteach dialogues" }
+summary:
+  ar: "حوارات عامة مسجلة ومنضبطة شارك فيها العالِم السني [[person/shabir-ally|شبير علي]] مع شخصيات يهودية وعلى رأسها الحاخام [[person/shmuley-boteach|شموئيل بوتيش]]، تناقض خاتمية القرآن العالمية بالعهد الموسوي الدائم، وتقابل نظامي الحلال والشرع بالهالاخاه، ومقام نبوة محمد؛ وهي النمط الأكاديمي الذي انتقلت إليه المناظرة الإسلامية–اليهودية الحديثة {cite:youtube-sunni-jewish-debate}."
+  en: "Recorded, moderated public dialogues in which the Sunni scholar [[person/shabir-ally|Shabir Ally]] engaged Jewish figures, foremost Rabbi [[person/shmuley-boteach|Shmuley Boteach]], contrasting the Qur'an's universal finality with the eternal Mosaic covenant, halal and sharia against halakha, and the standing of Muhammad's prophethood. They are the academic pattern into which the modern Muslim–Jewish debate has moved {cite:youtube-sunni-jewish-debate}."
+wings: [time]
+date:
+  start: { hijri: "1430", edtf: "2009", precision: year, status: historical }
+relations:
+  - { type: had_participant, target: person/shabir-ally, role: "المناظر المسلم", sources: [source/youtube-sunni-jewish-debate] }
+  - { type: had_participant, target: person/shmuley-boteach, role: "الحاخام المحاور", sources: [source/youtube-sunni-jewish-debate] }
+sources: [source/youtube-sunni-jewish-debate]
+tags: ["munazarat-browser", "munazarat-scriptuaries"]
+provenance:
+  layer: own-research
+  source: "source/youtube-sunni-jewish-debate"
+  generated_by: "Devin (SWE-2), drafted from the cited sources"
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2)" }

@@ -1,0 +1,20 @@
+id: event/peshawar-nights-debate-1927
+class: event
+kind: other
+label: { ar: "شب های پیشاور", en: "Peshawar Nights (1927)" }
+summary:
+  ar: "كتاب يقدّمه مؤلفه العلامة الشيعي الإيراني [[person/sultan-al-waizin-shirazi|سلطان الواعظين شيرازي]] باعتباره تفريغاً لمناظرة علنية دامت عشر ليال في [[place/peshawar|بشاور]] في يناير 1927 أمام عالمي السنة حافظ محمد رشيد والشيخ عبد السلام، في أصول التشيع ومقام أهل البيت وشرعية الخلفاء الثلاثة؛ ويقول النص إن أربعة كتبة فرّغوا الجلسات يومياً للصحف المحلية. وهو ثاني أشهر نص مناظرة شيعي–سني بعد المراجعات، وتطعن أوساط سنية في دقة تفريغه وانحياز تحريره {cite:al-islam-murajaat}."
+  en: "A book its author, the Iranian Shia scholar [[person/sultan-al-waizin-shirazi|Sultan al-Wa'izin Shirazi]], presents as the transcript of a public ten-night debate in [[place/peshawar|Peshawar]] in January 1927 against the Sunni scholars Hafiz Muhammad Rashid and Shaykh Abd al-Salam, on the origins of Shi'ism, the standing of the Ahl al-Bayt and the legitimacy of the first three caliphs; the text says four reporters transcribed the sessions daily for local papers. It is the second most famous Shia–Sunni debate text after al-Muraja'at, and Sunni circles dispute its transcription accuracy and editorial one-sidedness {cite:al-islam-murajaat}."
+wings: [time]
+date:
+  start: { hijri: "1346", edtf: "1927", precision: year, status: historical }
+relations:
+  - { type: had_participant, target: person/sultan-al-waizin-shirazi, role: "المناظر الشيعي", sources: [source/al-islam-murajaat] }
+  - { type: occurred_at, target: place/peshawar, role: "", sources: [source/al-islam-murajaat] }
+sources: [source/al-islam-murajaat]
+tags: ["munazarat-browser", "munazarat-intra"]
+provenance:
+  layer: own-research
+  source: "source/al-islam-murajaat"
+  generated_by: "Devin (SWE-2), drafted from the cited sources"
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2)" }

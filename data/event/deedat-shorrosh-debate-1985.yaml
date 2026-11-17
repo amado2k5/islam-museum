@@ -1,0 +1,21 @@
+id: event/deedat-shorrosh-debate-1985
+class: event
+kind: other
+label: { ar: "مناظرة أحمد ديدات وأنيس شوروش 1985", en: "Deedat–Shorrosh 'Is Jesus God?' (1985)" }
+summary:
+  ar: "أول المناظرتين الشهيرتين بين أحمد ديدات والقس الفلسطيني الأصل [[person/anis-shorrosh|أنيس شوروش]]: «هل عيسى إله؟» في [[place/london|قاعة رويال ألبرت]] بلندن سنة 1985، أمام جمهور غفير من المسلمين والنصارى. جادل ديدات بأن ألفاظ البشائر لا تنطق بعقيدة الألوهية الصريحة لعيسى وأن العقيدة لاحقة التكوين، وجادل شوروش بنصوص الوحي والتعظيم النبوي للمسيح. وطبعت المناظرة كراساً وفرّغت وترجمت فصارت من متون المناظرة الأكثر رواجاً {cite:answering-islam-debates-index}."
+  en: "The first of the two famous debates between Ahmed Deedat and the Palestinian-born evangelist [[person/anis-shorrosh|Anis Shorrosh]]: 'Is Jesus God?' at the [[place/london|Royal Albert Hall]], London, in 1985, before a large audience of Muslims and Christians. Deedat argued that the Gospel language never pronounces an explicit deity for Jesus and that the doctrine is of later formation; Shorrosh argued from the scriptural texts and the New Testament's exaltation of Christ. The debate was printed as a booklet, transcribed and translated, becoming one of the most-read disputation texts {cite:answering-islam-debates-index}."
+wings: [time]
+date:
+  start: { hijri: "1406", edtf: "1985", precision: year, status: historical }
+relations:
+  - { type: had_participant, target: person/ahmed-deedat, role: "المناظر المسلم", sources: [source/answering-islam-debates-index] }
+  - { type: had_participant, target: person/anis-shorrosh, role: "القس المناظر", sources: [source/answering-islam-debates-index] }
+  - { type: occurred_at, target: place/london, role: "", sources: [source/answering-islam-debates-index] }
+sources: [source/answering-islam-debates-index]
+tags: ["munazarat-browser", "munazarat-scriptuaries"]
+provenance:
+  layer: own-research
+  source: "source/answering-islam-debates-index"
+  generated_by: "Devin (SWE-2), drafted from the cited sources"
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2)" }

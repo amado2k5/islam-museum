@@ -1837,6 +1837,10 @@ explore:
       title: "Mukatabat Browser"
       desc: "Every mention of correspondence in the Qur'an, the Sunnah, the seerah and every harvested book — the Prophet's letters to kings and emperors, the caliphs' letters and the reports written back, Sulayman's letter to the Queen of Sheba — with every verse and report cited."
       menu: "Browse letters and correspondence in the Qur'an and books"
+    munazarat:
+      title: "Munazarat Browser"
+      desc: "Every mention of debates and disputations in the Qur'an, the Sunnah, the seerah and every harvested book — Ibrahim's arguments with his people and Nimrod, the mubahala with the Christians of Najran, the exchange before the Negus, Ibn Abbas's debate with the Khawarij — with every verse and report cited."
+      menu: "Browse the debates and disputations in the Qur'an and books"
     magic:
       title: "Magic and Magicians Browser"
       desc: "Every mention of magic and the magicians in the Qur'an, the Sunnah, the seerah and every harvested book — sorcery, soothsayers, ruqyah, the evil eye and envy — with every verse and report cited."
@@ -4848,6 +4852,72 @@ mukatabat:
     col_section: "Where it was found"
     unclassified: "No sender class"
     kind_letter: "Letter text"
+    kind_mention: "Mention"
+    kind_record: "Curated record"
+    sec_quran: "Qur'an"
+    sec_sunnah: "Sunnah"
+    sec_seerah: "Seerah"
+    sec_books: "Other books"
+    sec_curated: "Curated records"
+    count: "{n} of {total} records"
+    samples: "Three of them"
+    open: "Open in the list below"
+    table: "The counts as a table"
+    th_from: "From"
+    th_to: "To"
+    th_n: "Records"
+    block: "{name}: {n} records"
+munazarat:
+  title: "Munazarat Browser"
+  lede: "Every mention of debates and disputation in the museum's sources: the Qur'an's arguments — Ibrahim with his people and Nimrod, Musa before Pharaoh, the mubahala verse, «argue with them in the best manner» — the debates of the Prophet, the Companions and the Successors with Jews, Christians and polytheists, Ibn Abbas's debate with the Khawarij at Harura, the scholars' disputations in councils and courts, and the modern debates — sourced records that grow as new texts land."
+  badge: Debates explorer
+  status: "This build holds {n} records in {s} sections; the texts are drafts until a human reads them."
+  method_title: The browser's method
+  method_note: "Every record here is an ordinary museum record — with its sources and its three-language prose. Debates are found at build time by a guarded detector over the passage texts — the dispute verbs (ناظر، تناظر، جادل، حاجّ، احتج، باهل، حاور، اختصم), the genre nouns (مناظرة، جدال، محاجّة، مباهلة) and named-episode anchors («نصارى نجران» with the mubahala, «حروراء» with Ibn Abbas and the Khawarij, «النجاشي» with Ja'far and Amr ibn al-As); the fiqh li'an oath, the «جديلة» braid, حَجّ the pilgrimage, «احتاج» the needing and the «ناظر» viewer sense stay out, verified false positives are excluded by id, and every book harvested later brings its debates here automatically once its passages land in the graph; curated records join through the munazarat-browser tag. Each passage is marked debate when it carries an actual exchange and mention when it is only about disputation, and opponent chips class the debate as with the scriptuaries, the polytheists, inside the ummah or other."
+  api: "The whole set is available at"
+  sections_title: The browser's sections
+  opponents_title: Opponent
+  all_opponents: "All opponents"
+  named_title: "The named debates"
+  named_note: "The debate matches the sources preserve by name and event — the two parties on their benches, with the place, the date and the opponent class — every card opening its full cited record."
+  vs: "vs"
+  filter_label: Filter debates
+  filter_none: No matches.
+  empty: No debate records in this build yet.
+  kinds:
+    debate: "Carries an exchange"
+    mention: "About debating"
+  opponents:
+    scriptuaries: "People of the Book"
+    polytheists: "The polytheists"
+    intra: "Inside the ummah"
+    other: "Other"
+  sections:
+    quran:
+      title: "In the Qur'an"
+      desc: "The debates and disputation of the Qur'an: Ibrahim's arguments with Nimrod and his people — the star, the moon and the sun reasoning — Musa and the magicians before Pharaoh, the mubahala verse, «argue with them in the best manner», «do not argue with the People of the Book», and every verse carrying a proof, a contest or a mutual curse."
+    sunnah:
+      title: "In the Sunnah"
+      desc: "What the two Sahihs, the Muwatta and the Sunan carry of disputation: the Jews taking the Prophet's hand to the Torah, their questions about the Spirit, the Cave sleepers and Dhu al-Qarnayn, and the Companions' debates after him — every report with its source and numbering."
+    seerah:
+      title: "In the seerah"
+      desc: "What the seerah and history books carry of debates — the mubahala with the Christians of Najran, the exchange before the Negus between Ja'far ibn Abi Talib and the Quraysh envoys, the Jewish scholars' disputations in Medina — this section fills itself as new seerah texts land."
+    books:
+      title: "In the other books"
+      desc: "Debate mentions in every other harvested work — histories, scholars' generations, heresiography and adab — classified by the work's genre the day its passages arrive."
+    curated:
+      title: "The records about debates"
+      desc: "The museum's curated records on disputation itself: its genre and etiquette, and the named matches the sources preserve — the Najran mubahala, Harura, the mutakallimun's councils — every party and opponent cited."
+  viz:
+    title: "The debate floor"
+    note: "Read from left to right: who the debate was with, whether the record carries an actual exchange or only speaks of one, and where in the museum's sources it was found. A ribbon is as wide as the number of records it carries, and the grey stream is every record with no opponent class. Counted here: {n} records, all of them in the lists below. The record kinds come from the detector and the curated records, not from a judgement of the museum."
+    hint: "Hover, focus or tap a block or a ribbon to see its counts and three samples."
+    region: "Flow of the debate records: opponent, kind and source section"
+    col_opponent: "Who it was with"
+    col_kind: "What it is"
+    col_section: "Where it was found"
+    unclassified: "No opponent class"
+    kind_debate: "An exchange"
     kind_mention: "Mention"
     kind_record: "Curated record"
     sec_quran: "Qur'an"

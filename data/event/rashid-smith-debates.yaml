@@ -1,0 +1,21 @@
+id: event/rashid-smith-debates
+class: event
+kind: other
+label: { ar: "مناظرات عدنان رشيد وجاي سميث", en: "Adnan Rashid–Jay Smith debates" }
+summary:
+  ar: "مناظرات علنية كبرى بين المؤرخ والداعية السني [[person/adnan-rashid|عدنان رشيد]] والدفاعي المسيحي [[person/jay-smith|جاي سميث]] في ركن الخطباء والأوساط الجامعية بين 2014 و2015، في موضوعات كـ«هل القرآن كلمة الله؟» و«من هو عيسى حقاً؟»، فدار الجدل حول صحة التاريخ والنقل النبوي والإنجيلي بأسلوب خطابي مفتوح. وتظل مقاطعها وتفريغاتها متداولة {cite:answering-islam-debates-index}."
+  en: "Major public debates between the Sunni historian and speaker [[person/adnan-rashid|Adnan Rashid]] and the Christian apologist [[person/jay-smith|Jay Smith]] at Speakers' Corner and university venues in 2014–2015, on subjects such as 'Is the Qur'an the Word of God?' and 'Who is the Real Jesus?'. The contest turned on the soundness of prophetic and Gospel history and transmission, in an open oratorical style; the clips and transcripts remain in circulation {cite:answering-islam-debates-index}."
+wings: [time]
+date:
+  start: { hijri: "1435", edtf: "2014", precision: year, status: historical }
+relations:
+  - { type: had_participant, target: person/adnan-rashid, role: "المناظر المسلم", sources: [source/answering-islam-debates-index] }
+  - { type: had_participant, target: person/jay-smith, role: "الدفاعي المناظر", sources: [source/answering-islam-debates-index] }
+  - { type: occurred_at, target: place/london, role: "", sources: [source/answering-islam-debates-index] }
+sources: [source/answering-islam-debates-index]
+tags: ["munazarat-browser", "munazarat-scriptuaries"]
+provenance:
+  layer: own-research
+  source: "source/answering-islam-debates-index"
+  generated_by: "Devin (SWE-2), drafted from the cited sources"
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2)" }

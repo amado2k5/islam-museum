@@ -10,6 +10,7 @@ import { arkanHitsOfText, arkanFold, arkanSignalsOf, arkanTopicsOf, ARKAN_QURAN 
 import { hasanatKindOf, hasanatSignalsOf } from "./hasanat.js";
 import { hisabFold, hisabKindsOfSignals, hisabSignalsOfText } from "./hisab.js";
 import { mukatabatKindOf, mukatabatSenderOf, mukatabatSignalsOf } from "./mukatabat.js";
+import { munazaratKindOf, munazaratOpponentOf, munazaratSignalsOf } from "./munazarat.js";
 import { narKindOf, narSignalsOf } from "./nar.js";
 import { jannaKindOf, jannaSignalsOf } from "./janna.js";
 import { qiyamaKindOf, qiyamaSignalsOf } from "./qiyama.js";
@@ -66,7 +67,7 @@ describe("one API export per browser or explorer (AGENTS.md: every feature is gr
 
   it("writes jobs, fatwa, khutab, poetry and screens with their fields, edges, prose languages and job holders", () => {
     const data = featureApiData(compiled);
-    expect(Object.keys(data).sort()).toEqual(["akhlaq.json", "angels.json", "ansab.json", "arkan.json", "asma.json", "battles.json", "bayt.json", "bunuwwa.json", "companions.json", "cosmos.json", "dreams.json", "duas.json", "eschatology.json", "fatwa.json", "ghayb.json", "halal.json", "hasanats.json", "hisab.json", "hudud.json", "ibadat.json", "islamic-economy.json", "jannas.json", "jinn-devils.json", "jobs.json", "khulafa.json", "khutab.json", "madhahib.json", "magic.json", "messengers.json", "miracles.json", "mukatabat.json", "nar.json", "nature.json", "nubuwat.json", "places.json", "poetry.json", "qiraat.json", "qiyama.json", "qudsi.json", "qurun.json", "sayyiat.json", "screens.json", "sport.json", "tafsir.json", "tibb.json", "trade.json", "ubuwwa.json", "ukhuwwa.json", "umam.json", "umuma.json", "usra.json", "wasaya.json"]);
+    expect(Object.keys(data).sort()).toEqual(["akhlaq.json", "angels.json", "ansab.json", "arkan.json", "asma.json", "battles.json", "bayt.json", "bunuwwa.json", "companions.json", "cosmos.json", "dreams.json", "duas.json", "eschatology.json", "fatwa.json", "ghayb.json", "halal.json", "hasanats.json", "hisab.json", "hudud.json", "ibadat.json", "islamic-economy.json", "jannas.json", "jinn-devils.json", "jobs.json", "khulafa.json", "khutab.json", "madhahib.json", "magic.json", "messengers.json", "miracles.json", "mukatabat.json", "munazarat.json", "nar.json", "nature.json", "nubuwat.json", "places.json", "poetry.json", "qiraat.json", "qiyama.json", "qudsi.json", "qurun.json", "sayyiat.json", "screens.json", "sport.json", "tafsir.json", "tibb.json", "trade.json", "ubuwwa.json", "ukhuwwa.json", "umam.json", "umuma.json", "usra.json", "wasaya.json"]);
     expect(data["qudsi.json"].items.map((i) => i.id)).toEqual(["passage/muslim-2577"]);
     expect(data["qudsi.json"].items[0]).toMatchObject({ work: "work/sahih-muslim", ref: "2577", hadith: "zulm", themes: ["ethics-and-character"] });
     expect(data["qudsi.json"].feature).toBe("hadith-qudsi-browser");
@@ -566,6 +567,42 @@ describe("one API export per browser or explorer (AGENTS.md: every feature is gr
     expect(mukatabatSignalsOf(fiqhFp as any)).toEqual([]);
     expect(mukatabatSignalsOf(divineFp as any)).toEqual([]);
     expect(mukatabatSignalsOf(bookRefFp as any)).toEqual([]);
+  });
+
+
+  it("exports munazarat: detected debates by corpus, kind and opponent, gated false positives, future-book inclusion", () => {
+    const mubahalaAyah = makeNode("passage/quran-3-61x", "passage", { unit: "ayah", work: "work/quran", sura: 3, aya: 61, text: "فمن حاجك فيه من بعد ما جاءك من العلم فقل تعالوا ندع أبناءنا وأبناءكم ونساءنا ونساءكم وأنفسنا وأنفسكم ثم نبتهل فنجعل لعنة الله على الكاذبين" });
+    const jadalAyah = makeNode("passage/quran-16-125x", "passage", { unit: "ayah", work: "work/quran", sura: 16, aya: 125, text: "ادع إلى سبيل ربك بالحكمة والموعظة الحسنة وجادلهم بالتي هي أحسن" });
+    const jewsDebate = makeNode("passage/muslim-8888x", "passage", { unit: "hadith", work: "work/sahih-muslim", ref: "8888x", text: "فجادلت اليهود النبي وأنزلوا التوراة فاحتج عليهم بما فيها" });
+    const harura = makeNode("passage/tareekh-tabari-77x", "passage", { unit: "chapter", work: "work/tareekh-tabari", ref: "77", text: "خرج عبد الله بن عباس إلى الخوارج بحروراء فحاججهم فارجع منهم ألفان" });
+    const court = makeNode("passage/futurebook-9", "passage", { unit: "chapter", work: "work/future-milal", ref: "1", text: "ناظر الفيلسوف الإمام أمام المأمون في مجلسه فأفحمه بالحجة" });
+    const futureWork = makeNode("work/future-milal", "work", { genre: ["tarikh"] });
+    const lianFp = makeNode("passage/bukhari-8888x", "passage", { unit: "hadith", work: "work/sahih-bukhari", ref: "8888x", text: "شهد أربع شهادات بالله لمن الكاذبين في ملاعنة الزوجين" });
+    const hajjFp = makeNode("passage/bukhari-8889x", "passage", { unit: "hadith", work: "work/sahih-bukhari", ref: "8889x", text: "أن الناس يحجون البيت كل عام" });
+    const curatedEvent = { ...makeNode("event/mubahala-najran", "event", { kind: "other" }), tags: ["munazarat-browser", "munazarat-scriptuaries"] };
+    const data = featureApiData({ ...compiled, nodes: [...compiled.nodes, mubahalaAyah, jadalAyah, jewsDebate, harura, court, futureWork, lianFp, hajjFp, curatedEvent] });
+    const items = data["munazarat.json"].items;
+    const ids = items.map((i) => i.id);
+    expect(ids).toContain("passage/quran-3-61x");
+    expect(ids).toContain("passage/quran-16-125x");
+    expect(ids).toContain("passage/muslim-8888x");
+    expect(ids).toContain("passage/tareekh-tabari-77x");
+    expect(ids).toContain("passage/futurebook-9"); // a book harvested later lands automatically
+    expect(ids).toContain("event/mubahala-najran");
+    expect(ids).not.toContain("passage/bukhari-8888x"); // li'an oath, not the mubahala debate
+    expect(ids).not.toContain("passage/bukhari-8889x"); // hajj pilgrimage, not a proof
+    expect(items.find((i) => i.id === "passage/quran-3-61x")).toMatchObject({ section: "quran", munazarat_kind: "debate" });
+    expect(items.find((i) => i.id === "passage/muslim-8888x")).toMatchObject({ section: "sunnah", munazarat_kind: "debate", opponent: "scriptuaries" });
+    expect(items.find((i) => i.id === "passage/tareekh-tabari-77x")).toMatchObject({ section: "books", munazarat_kind: "debate", opponent: "intra" });
+    expect(items.find((i) => i.id === "event/mubahala-najran")).toMatchObject({ section: "curated", munazarat_kind: null, opponent: "scriptuaries" });
+    expect(featureApiData(compiled)["munazarat.json"].feature).toBe("munazarat-browser");
+    expect(munazaratKindOf(mubahalaAyah as any)).toBe("debate");
+    expect(munazaratKindOf(jadalAyah as any)).toBe("debate"); // the imperative «جادلهم» is an exchange verb
+    expect(munazaratKindOf(makeNode("passage/muslim-7777x", "passage", { unit: "hadith", work: "work/sahih-muslim", ref: "7777x", text: "أكثر الخلق جدلا الإنسان" }) as any)).toBe("mention");
+    expect(munazaratOpponentOf(jewsDebate as any)).toBe("scriptuaries");
+    expect(munazaratOpponentOf(harura as any)).toBe("intra");
+    expect(munazaratSignalsOf(lianFp as any)).toEqual([]);
+    expect(munazaratSignalsOf(hajjFp as any)).toEqual([]);
   });
 
   it("exports madhahib: tagged records by mh- sections, mentions edges by school and dhikr", () => {

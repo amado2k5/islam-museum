@@ -632,6 +632,21 @@
         }
       }
     },
+    "/munazarat.json": {
+      "get": {
+        "operationId": "getMunazarat",
+        "summary": "Munazarat Browser dataset",
+        "description": "The Munazarat Browser dataset (متصفح المناظرات): every mention of debates and disputation in the Qur'an, Sunnah, seerah and harvested books — between Islam and the other religions and inside the ummah — detected at build time by a guarded lexicon plus the curated records tagged munazarat-browser, each with its corpus section (quran, sunnah, seerah, books, curated), munazarat_kind (debate, mention), opponent (scriptuaries, polytheists, intra, other), matched signals, work, ref, text excerpt, kind, themes, tags and edges.",
+        "responses": {
+          "200": {
+            "description": "Every debate record with corpus section, munazarat kind, opponent class, signals, work, ref, excerpt, themes and edges",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
     "/mukatabat.json": {
       "get": {
         "operationId": "getMukatabat",

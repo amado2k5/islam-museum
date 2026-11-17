@@ -1,0 +1,20 @@
+id: event/ally-white-debates
+class: event
+kind: other
+label: { ar: "مناظرات شبير علي وجيمس وايت", en: "Shabir Ally–James White debates" }
+summary:
+  ar: "سلسلة مناظرات مضبوطة ومفرغة بين [[person/shabir-ally|شبير علي]] والدفاعي المعمداني [[person/james-white|جيمس وايت]] جرت في الولايات المتحدة وكندا وجنوب أفريقيا بين 2006 و2014، وشملت «هل آمن أتباع عيسى الأوائل بألوهيته؟» في جامعة بريتوريا 2013 وموضوعات في صحة نقل العهد الجديد وصلب المسيح. ويوثّق الطرفان المناظرات بالتسجيل والإعلان {cite:aomin-pretoria-debate-2013}."
+  en: "A series of moderated, transcribed debates between [[person/shabir-ally|Shabir Ally]] and the Reformed Baptist apologist [[person/james-white|James White]] held in the United States, Canada and South Africa between 2006 and 2014, including 'Did the Earliest Followers of Jesus Believe in His Deity?' at the University of Pretoria in 2013 and topics on New Testament textual reliability and the crucifixion. Both parties document the debates with recordings and announcements {cite:aomin-pretoria-debate-2013}."
+wings: [time]
+date:
+  start: { hijri: "1427", edtf: "2006", precision: year, status: historical }
+relations:
+  - { type: had_participant, target: person/shabir-ally, role: "المناظر المسلم", sources: [source/aomin-pretoria-debate-2013] }
+  - { type: had_participant, target: person/james-white, role: "الدفاعي المناظر", sources: [source/aomin-pretoria-debate-2013] }
+sources: [source/aomin-pretoria-debate-2013]
+tags: ["munazarat-browser", "munazarat-scriptuaries"]
+provenance:
+  layer: own-research
+  source: "source/aomin-pretoria-debate-2013"
+  generated_by: "Devin (SWE-2), drafted from the cited sources"
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2)" }

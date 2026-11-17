@@ -1,0 +1,21 @@
+id: event/al-mustaqillah-tv-debates
+class: event
+kind: other
+label: { ar: "مناظرات قناة المستقلة", en: "The al-Mustaqillah TV debates" }
+summary:
+  ar: "سلسلة مناظرات متلفزة شهيرة استضافتها قناة المستقلة في [[place/london|لندن]] في مطلع الألفين بإدارة محمد الهاشمي الحامدي، جمعت علماء سنة كـ[[person/adnan-al-arur|عدنان العرعور]] و[[person/uthman-al-khamis|عثمان الخميس]] بعلماء شيعة اثني عشرية كآية الله القزويني والسيد علي الميلاني، في جلسات مطولة عن الإمامة والصحابة ومصادر التشريع، وبقيت تفريغاتها وتسجيلاتها مرجعاً متداولاً في العالم العربي {cite:youtube-sunni-jewish-debate}."
+  en: "A famous televised debate series hosted by the al-Mustaqillah channel in [[place/london|London]] in the early 2000s under Mohamed El-Hachimi Hamdi, seating Sunni scholars such as [[person/adnan-al-arur|Adnan al-Ar'ur]] and [[person/uthman-al-khamis|Uthman al-Khamis]] against Twelver Shia scholars such as Ayatollah al-Qazwini and Sayyid Ali al-Milani, in long sessions on the Imamate, the Companions and the sources of legislation. The transcripts and recordings remain a circulating reference in the Arab world {cite:youtube-sunni-jewish-debate}."
+wings: [time]
+date:
+  start: { hijri: "1422", edtf: "2002", precision: year, status: historical }
+relations:
+  - { type: had_participant, target: person/adnan-al-arur, role: "عالم سني مناظر", sources: [source/youtube-sunni-jewish-debate] }
+  - { type: had_participant, target: person/uthman-al-khamis, role: "عالم سني مناظر", sources: [source/youtube-sunni-jewish-debate] }
+  - { type: occurred_at, target: place/london, role: "", sources: [source/youtube-sunni-jewish-debate] }
+sources: [source/youtube-sunni-jewish-debate]
+tags: ["munazarat-browser", "munazarat-intra"]
+provenance:
+  layer: own-research
+  source: "source/youtube-sunni-jewish-debate"
+  generated_by: "Devin (SWE-2), drafted from the cited sources"
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2)" }

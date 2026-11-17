@@ -1,0 +1,21 @@
+id: event/ibn-abbas-khawarij-debate
+class: event
+kind: other
+label: { ar: "مناظرة ابن عباس للخوارج", en: "Ibn Abbas's Debate with the Khawarij" }
+summary:
+  ar: "بعث علي بن أبي طالب إلى الخوارج بحروراء [[person/abdullah-ibn-abbas|عبد الله بن عباس]] يحاجّهم بعد أن أخذوا يقرؤون القرآن ويفتون الناس به، فخرج إليهم في عمامة حمراء ورداء وقال لهم: جئتكم من عند ابن عم رسول الله ألقى إليهم محاجّة القرآن {cite:musnad-ahmad 1/342-343}. سألهم: ما نقمتم على ابن عم رسول الله؟ فقالوا ثلاثاً: حكّم الرجال في دين الله، وقاتل ولم يسبِ ولم يغنم، ومحا نفسه من أمير المؤمنين. فأجابهم واحدة واحدة بالقرآن: التحكيم كحكم الرجلين في الصيد على الحرم وفي المرأة المشاققة؛ ولم يقاتلوا فئة باغية يقتلها إلا وقد نهى عن المثلة؛ ونزع اللقب فقال: أنا أسهل من نبيكم وقد رضيتم له بأن يكتب محمد رسول الله يوم الحديبية، ومحاها المشركون فكتب محمد بن عبد الله. فرجع منهم ألفان فدخلوا في جيش علي، وبقي ستة آلاف فضلّوا وقتلوا في النهروان {cite:al-bidaya-wal-nihaya 7/283-284}."
+  en: "Ali ibn Abi Talib sent [[person/abdullah-ibn-abbas|Abdallah ibn Abbas]] to argue with the Khawarij at Harura after they had taken to reading the Qur'an and pronouncing judgement on the people by it. He went out to them in a red turban and cloak and said: I come to you from the cousin of the Messenger of God, and engaged them in Qur'anic disputation {cite:musnad-ahmad 1/342-343}. He asked: what do you hold against the cousin of the Messenger of God? They said three things: he let men arbitrate in God's religion; he fought without taking captives or spoils; and he struck the title Commander of the Faithful from his name. He answered each from the Qur'an: arbitration like the two men who judge an offering for a game killed while consecrated and the arbitrators appointed over a quarrelling couple; the enemy he fought were a rebellious faction whose slain were not mutilated; and on the title he said he was easier to satisfy than God's Prophet, for you accepted 'Muhammad the Messenger of God' written at al-Hudaybiyya, which the polytheists erased to 'Muhammad son of Abdallah'. Two thousand of them returned and entered Ali's army; six thousand held out and were killed at al-Nahrawan {cite:al-bidaya-wal-nihaya 7/283-284}."
+wings: [time]
+periods: [period/rashidun]
+date:
+  start: { hijri: "0038", precision: year, status: historical }
+relations:
+  - { type: had_participant, target: person/abdullah-ibn-abbas, role: "المحاجّ عن علي", sources: [source/musnad-ahmad] }
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "المرسِل", sources: [source/musnad-ahmad] }
+sources: [source/musnad-ahmad, source/al-bidaya-wal-nihaya]
+tags: ["munazarat-browser", "munazarat-intra"]
+provenance:
+  layer: own-research
+  source: "musnad-ahmad 1/342-343 (hadith Ibn Abbas); al-bidaya-wal-nihaya 7/283-284"
+  generated_by: "Devin (SWE-2), drafted from musnad-ahmad and al-bidaya-wal-nihaya"
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2)" }

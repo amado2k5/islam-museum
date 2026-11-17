@@ -1,0 +1,20 @@
+id: event/hijab-wood-debate-2020
+class: event
+kind: other
+label: { ar: "مناظرة محمد حجاب وديفيد وود", en: "Hijab–Wood Debate (2020)" }
+summary:
+  ar: "مناظرة رقمية مطوّلة سنة 2020 بين الداعية السني [[person/muhammad-hijab|محمد حجاب]] والدفاعي المسيحي [[person/david-wood|ديفيد وود]] في صحة القرآن والأناجيل تاريخياً ونصياً، انتشر تسجيلها وتفريغها وشرحها التحليلي انتشاراً واسعاً وصارت مثالاً للمناظرة الطويلة الرقمية {cite:answering-islam-debates-index}."
+  en: "A long-form digital debate in 2020 between the Sunni speaker [[person/muhammad-hijab|Muhammad Hijab]] and the Christian apologist [[person/david-wood|David Wood]] on the historical and textual reliability of the Qur'an and the Gospels. Its recording, transcript and analytical breakdowns spread widely, making it the example of the long-form digital debate {cite:answering-islam-debates-index}."
+wings: [time]
+date:
+  start: { hijri: "1441", edtf: "2020", precision: year, status: historical }
+relations:
+  - { type: had_participant, target: person/muhammad-hijab, role: "المناظر المسلم", sources: [source/answering-islam-debates-index] }
+  - { type: had_participant, target: person/david-wood, role: "الدفاعي المناظر", sources: [source/answering-islam-debates-index] }
+sources: [source/answering-islam-debates-index]
+tags: ["munazarat-browser", "munazarat-scriptuaries"]
+provenance:
+  layer: own-research
+  source: "source/answering-islam-debates-index"
+  generated_by: "Devin (SWE-2), drafted from the cited sources"
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2)" }

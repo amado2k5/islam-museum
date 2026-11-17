@@ -1,0 +1,21 @@
+id: event/deedat-shorrosh-debate-1988
+class: event
+kind: other
+label: { ar: "مناظرة أحمد ديدات وأنيس شوروش 1988", en: "Deedat–Shorrosh 'Qur'an or Bible' (1988)" }
+summary:
+  ar: "اللقاء الثاني بين ديدات وشوروش في [[place/birmingham|برمنغهام]] بإنجلترا سنة 1988 بعنوان «القرآن أم الإنجيل: أيهما كلمة الله؟»، وكانت مناظرة كتابين متقابلين لا عقيدة واحدة: ديدات يعرض حفظ القرآن وتواتر نقله ويعترض تاريخ نص الكتاب المقدس، وشوروش يدافع عن العهدين ويطعن في القرآن. وكثر تداول تفريغها وكراساتها في العالم كما جرى للمناظرة الأولى {cite:answering-islam-debates-index}."
+  en: "The second Deedat–Shorrosh encounter, in [[place/birmingham|Birmingham]], England, in 1988, titled 'The Qur'an or the Bible: Which is God's Word?'. It was a debate of two books rather than one doctrine: Deedat presented the Qur'an's preservation and mass-transmitted recension and objected to the Bible's textual history; Shorrosh defended the Testaments and attacked the Qur'an. Its transcript and booklets circulated worldwide like the first debate {cite:answering-islam-debates-index}."
+wings: [time]
+date:
+  start: { hijri: "1409", edtf: "1988", precision: year, status: historical }
+relations:
+  - { type: had_participant, target: person/ahmed-deedat, role: "المناظر المسلم", sources: [source/answering-islam-debates-index] }
+  - { type: had_participant, target: person/anis-shorrosh, role: "القس المناظر", sources: [source/answering-islam-debates-index] }
+  - { type: occurred_at, target: place/birmingham, role: "", sources: [source/answering-islam-debates-index] }
+sources: [source/answering-islam-debates-index]
+tags: ["munazarat-browser", "munazarat-scriptuaries"]
+provenance:
+  layer: own-research
+  source: "source/answering-islam-debates-index"
+  generated_by: "Devin (SWE-2), drafted from the cited sources"
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2)" }

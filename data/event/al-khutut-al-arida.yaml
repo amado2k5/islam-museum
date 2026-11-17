@@ -1,0 +1,19 @@
+id: event/al-khutut-al-arida
+class: event
+kind: other
+label: { ar: "الخطوط العريضة", en: "al-Khutut al-Arida" }
+summary:
+  ar: "رسالة سورية سنية مختصرة واسعة الانتشار ألّفها العالِم [[person/muhibb-al-din-al-khatib|محب الدين الخطيب]] في ستينات القرن العشرين رداً على المؤلفات الشيعية المعاصرة ودعوات التقريب، تفحص الفروق الجوهرية — التقية ومقام الصحابة وحفظ القرآن — بأسلوب موجز ترجم وطبع مراراً، فهي أشهر المصنفات السنية الميسرة في باب الرد المنهجي {cite:al-islam-murajaat}."
+  en: "A concise, widely spread Syrian Sunni treatise composed by the scholar [[person/muhibb-al-din-al-khatib|Muhibb al-Din al-Khatib]] in the 1960s in reply to contemporary Shia writings and ecumenical appeals, examining the core differences — taqiyya, the standing of the Companions and Qur'anic preservation — in a brief style repeatedly translated and printed; it is the most accessible modern Sunni manual in the discipline of methodical refutation {cite:al-islam-murajaat}."
+wings: [time]
+date:
+  start: { hijri: "1385", edtf: "1965", precision: year, status: historical }
+relations:
+  - { type: had_participant, target: person/muhibb-al-din-al-khatib, role: "المؤلف", sources: [source/al-islam-murajaat] }
+sources: [source/al-islam-murajaat]
+tags: ["munazarat-browser", "munazarat-intra"]
+provenance:
+  layer: own-research
+  source: "source/al-islam-murajaat"
+  generated_by: "Devin (SWE-2), drafted from the cited sources"
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2)" }
