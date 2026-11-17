@@ -1,0 +1,24 @@
+id: work/fatwa-dar-alifta-eg-using-text-files-without-permission
+class: work
+kind: fatwa
+label: { ar: "حكم الاستفادة من ملفات نصية لكتب خاصة دون إذن أصحابها", en: "Using text files of others' books without permission", ur: "بغیر اجازت دوسروں کی کتابوں کی متنی فائلوں سے استفادہ" }
+summary:
+  ar: "سائل سأل عن استفادة دار النشر بالمصادر الموجودة على أجهزتها للمؤلفات والكتب المراد تنسيقها وإخراجها دون إذن من أصحابها. أجابت دار الإفتاء المصرية ⁦(مفتي الجمهورية د. نظير محمد عياد، فتوى رقم 22404)⁩ ببيان حكم ذلك وضوابطه على ما فصّل الجواب من حقوق المؤلفين والملكية الفكرية."
+  en: "A publishing house asked about using the text files on its devices of works and books it wants to lay out and produce, without their owners' permission. Egypt's Dar al-Ifta (Grand Mufti Dr. Nazir Muhammad Ayyad, fatwa no. 22404) answered by setting out the ruling on that and its controls, in terms of authors' rights and intellectual property as the answer details."
+  ur: "ایک ناشر ادارے نے اپنی ڈیوائسز پر موجود مصنفات اور کتابوں کی متنی فائلوں سے — جنہیں وہ ترتیب اور شائع کرنا چاہتا ہے — مالکان کی اجازت کے بغیر استفادے کا حکم پوچھا۔ مصر کے دار الافتاء ⁦(مفتیِ جمهور ڈاکٹر نظیر محمد عیاد، فتویٰ نمبر 22404)⁩ نے جواب میں اس کا حکم اور ضوابط بیان کیے، مصنفوں کے حقوق اور دانشورانہ ملکیت کی رو سے، جیسا کہ جواب میں تفصیل ہے۔"
+wings: [words]
+authors: [person/nazir-ayyad]
+publisher: group/dar-al-ifta-al-misriyya
+url: "https://www.dar-alifta.org/ar/fatwa/details/22404/حكم-الاستفادة-من-ملفات-نصية-لكتب-خاصة-دون-إذن-أصحابها"
+languages: [ar]
+sources: [source/dar-alifta]
+relations:
+  - { type: about, target: concept/ilm, sources: [source/dar-alifta] }
+  - { type: about, target: concept/akhlaq, sources: [source/dar-alifta] }
+provenance:
+  layer: own-research
+  source: "dar-alifta.org fatwa no. 22404, category عام; read 17 Nov 2026. Summary in the museum's own words."
+  generated_by: "Devin"
+  model: "SWE-2 Medium"
+  run: fatwa-websites-34
+status: { review: published, completeness: 1 }

@@ -1,0 +1,24 @@
+id: work/fatwa-dar-alifta-eg-pledging-shares-for-loan
+class: work
+kind: fatwa
+label: { ar: "حكم رهن الأسهم للحصول على قرض", en: "Pledging shares to obtain a loan", ur: "قرض کے لیے حصص رہن رکھنے کا حکم" }
+summary:
+  ar: "سائل سأل عن رهن الأسهم للحصول على قرض. أجابت دار الإفتاء المصرية ⁦(مفتي الجمهورية د. نظير محمد عياد، فتوى رقم 22259)⁩ أنه يجوز رهن الأسهم للحصول على قرض حسن دون زيادة على قدره ما دامت الأسهم مباحة شرعًا ولم يتضمن العقد غررًا، على ما فصّل الجواب."
+  en: "A questioner asked about pledging shares to obtain a loan. Egypt's Dar al-Ifta (Grand Mufti Dr. Nazir Muhammad Ayyad, fatwa no. 22259) answered that shares may be pledged for an interest-free loan without any excess over its amount, provided the shares are themselves lawful and the contract contains no gharar, as the answer details."
+  ur: "ایک سائل نے قرض کے لیے حصص رہن رکھنے کا حکم پوچھا۔ مصر کے دار الافتاء ⁦(مفتیِ جمهور ڈاکٹر نظیر محمد عیاد، فتویٰ نمبر 22259)⁩ نے جواب دیا کہ حصص رہن رکھ کر قرضِ حسن لینا جائز ہے بشرطیکہ اس پر کچھ اضافہ نہ ہو، حصص خود شرعاً مباح ہوں اور عقد میں غرر نہ ہو، جیسا کہ جواب میں تفصیل ہے۔"
+wings: [words]
+authors: [person/nazir-ayyad]
+publisher: group/dar-al-ifta-al-misriyya
+url: "https://www.dar-alifta.org/ar/fatwa/details/22259/حكم-رهن-الأسهم-للحصول-على-قرض"
+languages: [ar]
+sources: [source/dar-alifta]
+relations:
+  - { type: about, target: concept/riba, sources: [source/dar-alifta] }
+  - { type: about, target: concept/halal-haram, sources: [source/dar-alifta] }
+provenance:
+  layer: own-research
+  source: "dar-alifta.org fatwa no. 22259, category الرهن; read 17 Nov 2026. Summary in the museum's own words."
+  generated_by: "Devin"
+  model: "SWE-2 Medium"
+  run: fatwa-websites-34
+status: { review: published, completeness: 1 }
