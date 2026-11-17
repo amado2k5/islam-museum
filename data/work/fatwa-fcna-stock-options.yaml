@@ -1,0 +1,23 @@
+id: work/fatwa-fcna-stock-options
+class: work
+kind: fatwa
+label: { ar: "هل عقود الخيارات في الأسهم حلال؟", en: "Are Stock Options Halal?", ur: "کیا اسٹاک آپشنز حلال ہیں؟" }
+summary:
+  ar: "سؤال: هل تداول عقود الخيارات في الأسهم جائز بما فيها الاستراتيجيات «الأكثر أمانًا» كبيع المكالمات المغطاة والبيع المضمون نقدًا؟ أجاب الشيخ عمر خان بفتوى المجلس الفقهي لأمريكا الشمالية ⁦(نُشرت بتاريخ 9 أكتوبر 2026)⁩ أن شراء وبيع وكتابة عقود الخيارات غير جائز، ويشمل ذلك المكالمات المغطاة وعقود البيع المضمونة نقدًا كما نص الجواب."
+  en: "A question: is trading stock options permissible, including 'safer' strategies such as selling covered calls and cash-secured puts? Shaykh Umer Khan answered for the Fiqh Council of North America (published 9 October 2026) that buying, selling and writing stock options is impermissible — expressly including covered calls and cash-secured puts."
+  ur: "سوال: کیا اسٹاک آپشنز کی تجارت جائز ہے، بشمول 'محفوظ تر' حکمتِ عملیوں جیسے کورڈ کالز اور کیش سکیورڈ پٹس؟ شیخ عمر خان نے فقہ کونسل آف نارتھ امریکہ کی طرف سے ⁦(شائع شدہ 9 اکتوبر 2026)⁩ جواب دیا کہ اسٹاک آپشنز کی خرید، فروخت اور رائٹنگ ناجائز ہے — اور اس میں صراحتاً کورڈ کالز اور کیش سکیورڈ پٹس بھی شامل ہیں۔"
+wings: [words]
+publisher: group/fiqh-council-north-america
+url: "https://fiqhcouncil.org/are-stock-options-halal/"
+languages: [en]
+sources: [source/fcna]
+relations:
+  - { type: about, target: concept/halal-haram, sources: [source/fcna] }
+  - { type: about, target: concept/riba, sources: [source/fcna] }
+provenance:
+  layer: own-research
+  source: "fiqhcouncil.org post 'Are Stock Options Halal?', dated 9 Oct 2026 in the WordPress API; read 17 Nov 2026. Summary in the museum's own words."
+  generated_by: "Devin"
+  model: "SWE-2 Medium"
+  run: fatwa-websites-34
+status: { review: published, completeness: 1 }

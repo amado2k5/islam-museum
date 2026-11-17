@@ -1,0 +1,24 @@
+id: work/fatwa-dar-alifta-eg-ai-in-stock-market
+class: work
+kind: fatwa
+label: { ar: "حكم استخدام الذكاء الاصطناعي في البورصة", en: "Using artificial intelligence in the stock market", ur: "اسٹاک مارکیٹ میں مصنوعی ذہانت کا استعمال" }
+summary:
+  ar: "سائل سأل عن استخدام الذكاء الاصطناعي في البورصة. أجابت دار الإفتاء المصرية ⁦(مفتي الجمهورية د. نظير محمد عياد، فتوى رقم 23884)⁩ أنه يجوز استعمال الذكاء الاصطناعي في سوق المال، والاشتراك بإحدى الشركات المالية التي تطوّر نظام ذكاء اصطناعي يتخذ قرارات التداول، بشرط خلوّه من المخالفات الشرعية على ما فصّل الجواب."
+  en: "A questioner asked about using artificial intelligence in the stock market. Egypt's Dar al-Ifta (Grand Mufti Dr. Nazir Muhammad Ayyad, fatwa no. 23884) answered that AI may lawfully be used in the money market, including subscribing to a financial company developing an AI system that takes trading decisions — provided it is free of sharia violations, as the answer details."
+  ur: "ایک سائل نے اسٹاک مارکیٹ میں مصنوعی ذہانت استعمال کرنے کا حکم پوچھا۔ مصر کے دار الافتاء ⁦(مفتیِ جمهور ڈاکٹر نظیر محمد عیاد، فتویٰ نمبر 23884)⁩ نے جواب دیا کہ مالی بازار میں اے آئی استعمال کرنا جائز ہے، بشمول ایسی کمپنی کے ساتھ شرکت جو تجارتی فیصلے لینے والا اے آئی نظام تیار کرتی ہو — بشرطیکہ اس میں شرعی مخالفت نہ ہو، جیسا کہ جواب میں تفصیل ہے۔"
+wings: [words]
+authors: [person/nazir-ayyad]
+publisher: group/dar-al-ifta-al-misriyya
+url: "https://www.dar-alifta.org/ar/fatwa/details/23884/حكم-استخدام-الذكاء-الاصطناعي-في-البورصة"
+languages: [ar]
+sources: [source/dar-alifta]
+relations:
+  - { type: about, target: concept/halal-haram, sources: [source/dar-alifta] }
+  - { type: about, target: concept/fiqh, sources: [source/dar-alifta] }
+provenance:
+  layer: own-research
+  source: "dar-alifta.org fatwa no. 23884, category البورصة; read 17 Nov 2026. Summary in the museum's own words."
+  generated_by: "Devin"
+  model: "SWE-2 Medium"
+  run: fatwa-websites-34
+status: { review: published, completeness: 1 }

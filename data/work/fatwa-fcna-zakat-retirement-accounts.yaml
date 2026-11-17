@@ -1,0 +1,23 @@
+id: work/fatwa-fcna-zakat-retirement-accounts
+class: work
+kind: fatwa
+label: { ar: "زكاة حسابات التقاعد", en: "Zakat on Retirement Accounts", ur: "ریٹائرمنٹ اکاؤنٹس پر زکات" }
+summary:
+  ar: "سؤال عن زكاة حسابات التقاعد ⁦(كحسابات 401⁦(ك)⁩ وما شابهها)⁩. أجاب المجلس الفقهي لأمريكا الشمالية ⁦(نُشر على الموقع ضمن فتاوى الزكاة)⁩، وتناول الجواب إن كانت أموال التقاعد المقيدة تزكى قبل بلوغ سن السحب، وكيفية حساب الزكاة الواجبة بحسب قابلية التصرف والرصيد."
+  en: "A question on zakat for retirement accounts ⁦(401(k) plans and the like)⁩. The Fiqh Council of North America answered whether funds locked in retirement plans are zakatable before the withdrawal age is reached, and how the zakat due is computed according to accessibility and balance."
+  ur: "سوال: ریٹائرمنٹ اکاؤنٹس ⁦(401 کے منصوبے وغیرہ)⁩ پر زکات۔ فقہ کونسل آف نارتھ امریکہ کے جواب میں یہ دیکھا گیا کہ آیا نکالنے کی عمر سے پہلے بند رہنے والے ریٹائرمنٹ فنڈز پر زکات ہے اور رسائی اور بیلنس کے حساب سے واجب زکات کیسے نکالی جائے۔"
+wings: [words]
+publisher: group/fiqh-council-north-america
+url: "https://fiqhcouncil.org/zakah-on-retirement-funds/"
+languages: [en]
+sources: [source/fcna]
+relations:
+  - { type: about, target: practice/zakat, sources: [source/fcna] }
+  - { type: about, target: concept/zakat, sources: [source/fcna] }
+provenance:
+  layer: own-research
+  source: "fiqhcouncil.org post 'Zakat on Retirement Accounts'; read 17 Nov 2026 via the WordPress API. Summary in the museum's own words."
+  generated_by: "Devin"
+  model: "SWE-2 Medium"
+  run: fatwa-websites-34
+status: { review: published, completeness: 1 }

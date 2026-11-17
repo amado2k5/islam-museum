@@ -1,0 +1,23 @@
+id: work/fatwa-fcna-fidyah-zakat-al-fitr-amounts
+class: work
+kind: fatwa
+label: { ar: "مقدار الفدية وزكاة الفطر", en: "The Amount of Fidyah and Zakat al-Fitr", ur: "فدیہ اور زکات فطر کی مقدار" }
+summary:
+  ar: "بيان من المجلس الفقهي لأمريكا الشمالية في مقدار الفدية — وهي ما يدفعه من لم يستطع الصوم عن كل يوم — وزكاة الفطر: أوصى المجلس بأن تكون الفدية 15 دولارًا لليوم وزكاة الفطر 10 دولارات للشخص في عام 2026، مع تفصيل الجواب أساس التقدير وطريقة الدفع."
+  en: "A statement of the Fiqh Council of North America on the amounts of fidyah — the payment for each day someone unable to fast misses — and of zakat al-fitr: the Council recommends $15 per day for fidyah and $10 per person for zakat al-fitr in 2026, and the answer details the basis of the estimate and the method of payment."
+  ur: "فقہ کونسل آف نارتھ امریکہ کا بیان فدیہ کی مقدار — وہ رقم جو صوم کی استطاعت نہ رکھنے والا ہر دن کے عوض دیتا ہے — اور زکات فطر پر: کونسل نے 2026 میں فدیہ 15 ڈالر فی دن اور زکات فطر 10 ڈالر فی شخص تجویز کی ہے، اور جواب میں تخمینے کی بنیاد اور ادائیگی کا طریقہ بیان ہے۔"
+wings: [words]
+publisher: group/fiqh-council-north-america
+url: "https://fiqhcouncil.org/fidyah-and-zakat-al-fitr/"
+languages: [en]
+sources: [source/fcna]
+relations:
+  - { type: about, target: practice/zakat-al-fitr, sources: [source/fcna] }
+  - { type: about, target: practice/sawm-ramadan, sources: [source/fcna] }
+provenance:
+  layer: own-research
+  source: "fiqhcouncil.org post 'Amount of Fidyah and Zakat al-Fitr', dated 7 Feb 2026 in the WordPress API; read 17 Nov 2026. Summary in the museum's own words."
+  generated_by: "Devin"
+  model: "SWE-2 Medium"
+  run: fatwa-websites-34
+status: { review: published, completeness: 1 }

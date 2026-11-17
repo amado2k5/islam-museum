@@ -1,0 +1,23 @@
+id: work/fatwa-fcna-zakat-on-sukuk
+class: work
+kind: fatwa
+label: { ar: "زكاة الصكوك", en: "Zakah on Sukuk", ur: "صکوک پر زکات" }
+summary:
+  ar: "سؤال: كم تجب عليّ الزكاة في الصكوك؟ أجاب الشيخ عمر خان بفتوى المجلس الفقهي لأمريكا الشمالية ⁦(نُشرت بتاريخ 25 فبراير 2026)⁩، واستند الجواب إلى تعريف آيوفي للصكوك بوصفها أوراقًا مالية، ثم تناول كيفية حساب الزكاة فيها بحسب مقصود اقتنائها وطبيعة الأصول التي تمثلها."
+  en: "A question: how much zakat is owed on sukuk? Shaykh Umer Khan answered for the Fiqh Council of North America (published 25 February 2026); the answer takes AAOIFI's definition of sukuk as securities as its starting point, then works through how zakat on them is calculated according to the holder's purpose and the nature of the underlying assets."
+  ur: "سوال: صکوک پر کتنی زکات واجب ہے؟ شیخ عمر خان نے فقہ کونسل آف نارتھ امریکہ کی طرف سے ⁦(شائع شدہ 25 فروری 2026)⁩ جواب دیا؛ جواب آئیف کی تعریف کو بنیاد بناتا ہے کہ صکوک سیکیورٹیز ہیں، پھر وضاحت کرتا ہے کہ ان پر زکات کا حساب حامل کی نیت اور بنیادی اثاثوں کی نوعیت کے مطابق کیسے ہوتا ہے۔"
+wings: [words]
+publisher: group/fiqh-council-north-america
+url: "https://fiqhcouncil.org/zakah-on-sukuk/"
+languages: [en]
+sources: [source/fcna]
+relations:
+  - { type: about, target: practice/zakat, sources: [source/fcna] }
+  - { type: about, target: concept/zakat, sources: [source/fcna] }
+provenance:
+  layer: own-research
+  source: "fiqhcouncil.org post 'Zakah on Sukuk', dated 25 Feb 2026 in the WordPress API; read 17 Nov 2026. Summary in the museum's own words."
+  generated_by: "Devin"
+  model: "SWE-2 Medium"
+  run: fatwa-websites-34
+status: { review: published, completeness: 1 }
