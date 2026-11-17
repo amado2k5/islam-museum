@@ -1,3 +1,4 @@
+---
 id: person/mariama-ba
 lang: ur
 source_lang: ar

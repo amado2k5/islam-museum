@@ -1,3 +1,9 @@
+---
+id: person/tayyaba-bukhari-khanum
+lang: ur
+source_lang: ar
+translators: []
+---
 
 ## موضوعات اور اعزازات
 ان کے دروس وسیع موضوعات پر ہیں — دعا، صبر، نماز، روزہ اور حج کے فلسفے، حقوق نسواں، اخلاق اور تربیت اولاد — بعض دس لیکچرز کی سیریزوں میں محفوظ ہیں؛ ان کے اعزازات میں رپورٹوں کے مطابق 2007 کا قرآن حکیم ایوارڈ اور 2012 کا ونڈر وومن ایوارڈ شامل ہیں۔ {cite:prideofpakistan-tayyaba-bukhari} {cite:pakistantoday-tayyaba-bukhari}

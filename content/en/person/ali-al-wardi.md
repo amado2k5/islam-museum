@@ -1,3 +1,4 @@
+---
 id: person/ali-al-wardi
 lang: en
 source_lang: ar

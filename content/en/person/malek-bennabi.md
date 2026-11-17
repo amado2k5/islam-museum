@@ -1,3 +1,4 @@
+---
 id: person/malek-bennabi
 lang: en
 source_lang: ar

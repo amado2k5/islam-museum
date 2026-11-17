@@ -1,3 +1,4 @@
+---
 id: person/hassan-fathy
 lang: en
 source_lang: ar

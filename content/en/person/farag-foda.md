@@ -1,3 +1,4 @@
+---
 id: person/farag-foda
 lang: en
 source_lang: ar

@@ -1,3 +1,4 @@
+---
 id: person/jawad-ali
 lang: ar
 source_lang: ar

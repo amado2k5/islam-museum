@@ -1,3 +1,4 @@
+---
 id: person/abd-al-rahman-al-mubarakpuri
 lang: en
 source_lang: ar

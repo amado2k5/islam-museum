@@ -1,4 +1,5 @@
 id: person/muqbil-ibn-hadi-al-wadii
+aliases: [person/muqbil-bin-hadi-al-wadii]   # the same person filed twice; merged 17 Nov 2026 (ulama wave repair), the id still resolves
 class: person
 label: { ar: "مقبل بن هادي الوادعي", en: "Muqbil ibn Hadi al-Wadi'i", ur: "مقبل بن ہادی وادعی" }
 names:
@@ -37,5 +38,10 @@ provenance:
   model: claude-opus-5-5
   run: ocr-harvest-2026-11-04
 external_ids: { wikidata: Q68773 }
-sources: [source/mustadrak-haramayn-1997-v1, source/wikidata-muqbil-ibn-hadi-al-wadii]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Documented as a Sunni scholar by role and oeuvre. This attestation is preserved here, but under the two-independent-sources rule for modern figures a single source does not settle a school or order, so the value is recorded as unknown."
+    sources: [source/wikipedia-muqbil-bin-hadi-al-wadii]
+sources: [source/mustadrak-haramayn-1997-v1, source/wikidata-muqbil-ibn-hadi-al-wadii, source/wikipedia-muqbil-bin-hadi-al-wadii]
 status: { review: published, completeness: 2, generated_by: "Claude Code (OCR-harvest worker A)" }

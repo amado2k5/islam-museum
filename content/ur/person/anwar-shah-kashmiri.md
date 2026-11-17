@@ -1,3 +1,4 @@
+---
 id: person/anwar-shah-kashmiri
 lang: ur
 source_lang: ar

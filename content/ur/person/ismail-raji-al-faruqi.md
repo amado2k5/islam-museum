@@ -1,3 +1,4 @@
+---
 id: person/ismail-raji-al-faruqi
 lang: ur
 source_lang: ar

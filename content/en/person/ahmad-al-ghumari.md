@@ -1,3 +1,4 @@
+---
 id: person/ahmad-al-ghumari
 lang: en
 source_lang: ar
