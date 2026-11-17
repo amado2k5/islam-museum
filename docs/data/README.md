@@ -38,6 +38,7 @@ The static JSON API repeats the licence of each record in a `license` field. Att
    | `https://api.islam.museum/api/v1/graph/<class>/<slug>.json` | Two-hop neighbourhood of a record (at most 40 nodes) for network views |
    | `https://api.islam.museum/api/v1/themes/index.json` | The 130-odd themes with the ids of their entries |
    | `https://api.islam.museum/api/v1/companions.json` | Companions Browser: every Companion record with gender, roles, birth and death, the Ten flag, circle and clan `groups`, `events`, `death_ah` / `death_decade` (with `death_ah_derived` when converted from the Gregorian date), connections and prose languages |
+| `/api/v1/heroes.json` | Heroes of Islam Explorer | The six virtue trails (`exhibit/hero-*`) — sacrifice, courage, mercy, generosity, knowledge, steadfastness — each with its rooms: hero title, the "what they gave" line, featured entity ids and sources |
    | `https://api.islam.museum/api/v1/inventions.json` | Inventions with domain and era filters, makers, attribution, origins, chains and media |
    | `https://api.islam.museum/api/v1/inventions/chains.json` | Invention dependency graph, including internal and external precursor/dependent links |
    | `https://api.islam.museum/api/v1/invention/index.json` | Compact index of invention records (empty until invention records are added) |

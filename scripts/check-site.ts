@@ -139,6 +139,17 @@ if (process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1]) {
     if (!title || !html.includes(title)) errors.push("ar/companions/ does not render its title");
     if (!html.includes("data-companion-row")) errors.push("ar/companions/ lists no Companion record (no data-companion-row)");
   }
+  // the Heroes of Islam explorer home (docs/plan/71-heroes-explorer.md): its title, the six virtue halls and at least one hero row
+  const heroesHome = p("dist", "ar", "heroes", "index.html");
+  if (!existsSync(heroesHome)) errors.push("missing page: ar/heroes/index.html");
+  else {
+    const html = readFileSync(heroesHome, "utf8");
+    const title = parse(readFileSync(p("i18n", "ar.yaml"), "utf8")).heroes?.title;
+    if (!title || !html.includes(title)) errors.push("ar/heroes/ does not render its title");
+    for (const v of ["sacrifice", "courage", "mercy", "generosity", "knowledge", "steadfastness"])
+      if (!html.includes(`hall-${v}`)) errors.push(`ar/heroes/ is missing the ${v} hall`);
+    if (!html.includes("data-hero-row")) errors.push("ar/heroes/ lists no hero record (no data-hero-row)");
+  }
   // the Modern Islam Browser home (docs/plan/26 section 4.2): its growing badge, the nineteen section tiles, and at least one row on the figures section
   const modernHome = p("dist", "ar", "modern", "index.html");
   if (!existsSync(modernHome)) errors.push("missing page: ar/modern/index.html");
