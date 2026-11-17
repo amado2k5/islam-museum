@@ -238,3 +238,9 @@ Multi-source expansion of the fatwa lane beyond IIFA.
 - **IIFA:** session 11 (Manama 1998, resolutions 98–106) harvested — 177 `fatwa-iifa-*` files total, sessions 11–26 covered.
 
 Counts: 545 `fatwa-*` work files total; +31 new-source records this wave (19 AMJA+FCNA + 8 Dar + rest); all parse- and schema-checked, all `about` targets resolve, no typed honorifics.
+
+## 17 Nov 2026 — Dar al-Ifta wave 5 (PR #7258 merged)
+- 37 more Dar al-Ifta records across two PRs: PR #7257 (16) and PR #7258 (20 + 10 unnumbered wave included in count).
+- Standing total: ~695 `fatwa-*` files; Dar al-Ifta batch now ~127 of 616 captured.
+- All trilingual, `source/dar-alifta` cited, `about` targets resolve.
+- Remaining: ~490 Dar, ~50 FCNA, IIFA sessions 1-10, AMJA long tail (~5,400 fetched, 11 written).

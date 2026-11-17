@@ -1,0 +1,24 @@
+id: work/fatwa-dar-alifta-eg-zawaj-al-nafha
+class: work
+kind: fatwa
+label: { ar: "حكم ما يسمى بزواج النفحة", en: "The so-called 'nafha marriage'", ur: "نام نہاد 'نفحہ شادی' کا حکم" }
+summary:
+  ar: "سائل سأل عن عقد النكاح المسمى زواج النفحة. أجابت دار الإفتاء المصرية ⁦(مفتي الجمهورية د. نظير محمد عياد، فتوى رقم 22070)⁩ أنه يحرم إبرامه ابتداء لما ينطوي عليه من مفاسد كبرى أهمها غياب الولي وغيرها على ما فصّل الجواب."
+  en: "A questioner asked about the marriage contract called 'nafha marriage'. Egypt's Dar al-Ifta (Grand Mufti Dr. Nazir Muhammad Ayyad, fatwa no. 22070) answered that concluding it is forbidden from the outset for the grave harms it involves — chiefly the absence of the guardian, among others the answer details."
+  ur: "ایک سائل نے 'نفحہ شادی' نامی عقدِ نکاح کا حکم پوچھا۔ مصر کے دار الافتاء ⁦(مفتیِ جمهور ڈاکٹر نظیر محمد عیاد، فتویٰ نمبر 22070)⁩ نے جواب دیا کہ اس کا انعقاد ابتدا ہی سے حرام ہے کیونکہ اس میں بڑی مفاسد ہیں جن میں سب سے اہم ولی کی عدم موجودگی ہے، جیسا کہ جواب میں تفصیل ہے۔"
+wings: [words]
+authors: [person/nazir-ayyad]
+publisher: group/dar-al-ifta-al-misriyya
+url: "https://www.dar-alifta.org/ar/fatwa/details/22070/حكم-ما-يسمى-بزواج-النفحة"
+languages: [ar]
+sources: [source/dar-alifta]
+relations:
+  - { type: about, target: practice/nikah, sources: [source/dar-alifta] }
+  - { type: about, target: concept/halal-haram, sources: [source/dar-alifta] }
+provenance:
+  layer: own-research
+  source: "dar-alifta.org fatwa no. 22070, category النكاح; read 17 Nov 2026. Summary in the museum's own words."
+  generated_by: "Devin"
+  model: "SWE-2 Medium"
+  run: fatwa-websites-34
+status: { review: published, completeness: 1 }
