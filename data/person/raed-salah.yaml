@@ -1,0 +1,32 @@
+id: person/raed-salah
+class: person
+tags: [ulama-browser, ulama-mashahir]
+label: { ar: "رائد صلاح", en: "Raed Salah", ur: "راہد صلاح" }
+names:
+  - { value: "رائد صلاح", kind: full }
+  - { value: "Raed Salah", kind: full }
+gender: male
+summary:
+  ar: "شيخ فلسطيني من أم الفحم، وُلد سنة 1958. رئيس الحركة الإسلامية — الفرع الشمالي داخل إسرائيل، ورئيس بلدية أم الفحم ⁦(1989–2001)⁩؛ اعتُقل مرارًا وحظرت إسرائيل فرع حركته سنة 2015."
+  en: "Palestinian sheikh from Umm al-Fahm, born 1958. Head of the northern branch of the Islamic Movement in Israel and former mayor of Umm al-Fahm (1989–2001); repeatedly imprisoned, his branch banned by Israel in 2015."
+  ur: "ام الفحم سے فلسطینی شیخ، 1958 میں پیدا ہوئے۔ اسرائیل میں اسلامی تحریک کی شمالی شاخ کے سربراہ اور ام الفحم کے سابق میئر ⁦(1989–2001)⁩؛ بارہا قید، اسرائیل نے 2015 میں ان کی شاخ پر پابندی لگائی۔"
+roles: [preacher]
+wings: [people, living]
+born:
+  edtf: "1958-11-10"
+  calendar: gregorian
+  precision: day
+  status: historical
+  sources: [source/wikipedia-raed-salah]
+faith:
+  - value: sunni
+    basis: documented
+    note: "Publicly documented as a Muslim religious leader (sheikh, preacher)"
+    sources: [source/wikipedia-raed-salah]
+sources: [source/wikipedia-raed-salah]
+provenance:
+  layer: own-research
+  source: "Web research + Wikipedia"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: ulama-m500-w101-150-2026-11-17
+status: { review: published, generated_by: "Devin (SWE-2 Medium)" }

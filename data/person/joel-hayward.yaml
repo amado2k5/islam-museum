@@ -1,0 +1,32 @@
+id: person/joel-hayward
+class: person
+tags: [ulama-browser, ulama-mashahir]
+label: { ar: "جويل هايوارد", en: "Joel Hayward", ur: "جوئے ہیورڈ" }
+names:
+  - { value: "جويل هايوارد", kind: full }
+  - { value: "Joel Hayward", kind: full }
+gender: male
+summary:
+  ar: "مؤرخ نيوزيلندي بريطاني، وُلد سنة 1964 في كرايستشيرش. أستاذ التاريخ وعميد سابق في كلية سلاح الجو الملكي بكرانويل، اعتنق الإسلام سنة 2005 وكتب في السيرة والحرب في الفكر الإسلامي."
+  en: "New Zealand-British historian, born 1964 in Christchurch. Professor of history and former dean at the RAF College Cranwell; converted to Islam in 2005 and writes on the Prophet's leadership and war in Islamic thought."
+  ur: "نیوزی لینڈی-برطانوی مورخ، 1964 میں کرائسٹ چرچ میں پیدا ہوئے۔ RAF کالج کرانویل میں تاریخ کے پروفیسر اور سابق ڈین؛ 2005 میں اسلام قبول کیا اور سیرت و اسلامی فکرِ جنگ پر لکھتے ہیں۔"
+roles: [historian, professor]
+wings: [people, living]
+born:
+  edtf: "1964"
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: [source/wikipedia-joel-hayward]
+faith:
+  - value: sunni
+    basis: documented
+    note: "Documented conversion to Islam in 2005, self-described in interviews"
+    sources: [source/wikipedia-joel-hayward]
+sources: [source/wikipedia-joel-hayward]
+provenance:
+  layer: own-research
+  source: "Web research + Wikipedia"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: ulama-m500-w101-150-2026-11-17
+status: { review: published, generated_by: "Devin (SWE-2 Medium)" }

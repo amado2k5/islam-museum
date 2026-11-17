@@ -1,0 +1,32 @@
+id: person/tarique-rahman
+class: person
+tags: [ulama-browser, ulama-mashahir]
+label: { ar: "طارق رحمن", en: "Tarique Rahman", ur: "طارق رحمان" }
+names:
+  - { value: "طارق رحمن", kind: full }
+  - { value: "Tarique Rahman", kind: full }
+gender: male
+summary:
+  ar: "سياسي بنغلاديشي، وُلد سنة 1967، نجل الرئيس ضياء الرحمن ورئيسة الوزراء خالدة ضياء. رئيس بالوكالة للحزب الوطني البنغلاديشي من لندن ⁦(2018)⁩؛ عاد من المنفى في ديسمبر 2025 مرشحًا أبرز لرئاسة الحكومة."
+  en: "Bangladeshi politician, born 1967, son of President Ziaur Rahman and Prime Minister Khaleda Zia. Acting chairman of the Bangladesh Nationalist Party from London since 2018; returned from exile in December 2025 as the leading candidate for prime minister."
+  ur: "بنگلادیشی سیاست دان، 1967 میں پیدا ہوئے؛ صدر ضیاء الرحمان اور وزیرِ اعظم خالدہ ضیا کے صاحبزادے۔ 2018 سے لندن سے بنگلہ دیش نیشنلسٹ پارٹی کے قائم مقام چیئرمین؛ دسمبر 2025 میں جلاوطنی سے واپس آئے وزیرِ اعظم کے مقدم امیدوار کی حیثیت سے۔"
+roles: [politician]
+wings: [people, living]
+born:
+  edtf: "1967-11-20"
+  calendar: gregorian
+  precision: day
+  status: historical
+  sources: [source/wikipedia-tarique-rahman]
+faith:
+  - value: sunni
+    basis: documented
+    note: "Publicly identified as a Muslim from a prominent Muslim political family"
+    sources: [source/wikipedia-tarique-rahman]
+sources: [source/wikipedia-tarique-rahman]
+provenance:
+  layer: own-research
+  source: "Web research + Wikipedia"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: ulama-m500-w101-150-2026-11-17
+status: { review: published, generated_by: "Devin (SWE-2 Medium)" }
