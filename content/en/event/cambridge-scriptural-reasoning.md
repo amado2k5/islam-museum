@@ -1,5 +1,9 @@
-
-
+---
+id: event/cambridge-scriptural-reasoning
+lang: en
+source_lang: ar
+translators: ["Devin (SWE-2), draft translation"]
+---
 ## The exchange — what each side said
 - **The Jewish interlocutors (Ochs and colleagues)**: read the Hebrew Bible in its many voices — halakha, midrash, the community's destiny — insisting on the covenant's eternity and the depth of layered interpretation.
 - **The Muslim interlocutor (Abdal Hakim Murad and colleagues)**: presented the Qur'an and Sunnah in the frame of sharia and hadith — God's last word preserving the Mosaic root and universalising the message — comparing the legal and ethical orders of the two traditions.

@@ -15,4 +15,4 @@ Abrogation of the earlier law, the immutability of the Torah, and history as a s
 - **Berdugo**: the Torah is eternal and cannot be abrogated — God's law for Israel does not change, and exile does not annul the covenant; prophecy is tested by the received tradition, not political circumstance.
 - **The Muslim interlocutor**: Jesus and Muhammad brought a new law as Moses did, and the nations' acceptance witnesses its origin.
 - **Berdugo**: gathering does not prove truth — mass acceptance witnesses its age, not the text's eternity; the Torah's steadfastness is the prior proof.
-- **The value**: the Meknes manuscript records the late Jewish–Islamic exchange verbatim — the arguments of abrogation, covenant and exile as they ran in a single sitting. {cite:tandfonline-meknes-disputation}
+- **The value**: the Meknes manuscript records the late Jewish–Islamic exchange verbatim — the arguments of abrogation, covenant and exile as they ran in a single sitting. {cite:tandfonline-berdugo-meknes}
