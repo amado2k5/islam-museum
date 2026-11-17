@@ -339,6 +339,10 @@ async function applyArchive(archive, dir, workerUrl, progress) {
 // means an earlier attempt applied it.
 const ATTEMPTS = 5;
 
+// Workers deployed before the 503 fix still report a transient R2 storage error
+// as a 400. The pattern is deliberately tight so a real "bad archive" 400 stays final.
+const TRANSIENT_WORKER_ERROR = /internal error|please try again|10001|timed? ?out|temporarily unavailable|service unavailable/i;
+
 // Runs fn up to ATTEMPTS times with a growing pause. The S3 endpoint answers a burst of
 // "internal server error" now and then; a staging upload that fails is simply repeated.
 export async function withRetry(name, what, fn, { attempts = ATTEMPTS, pauseMs = 5000 } = {}) {
@@ -364,6 +368,11 @@ async function postWithRetry(workerUrl, stagedKey, name) {
       // re-sending it re-applies the idempotent operations. A 4xx reply is final and is
       // reported by applyArchive.
       if (result.status >= 500 || result.status === 207) throw new Error(`worker answered ${result.status} ${JSON.stringify(result.report)}`);
+      // Older workers still answer 400 for a transient R2 failure ("internal error
+      // (10001)"); retry those too — a genuinely bad archive cannot produce a body
+      // that matches the transient pattern.
+      if (result.status === 400 && TRANSIENT_WORKER_ERROR.test(JSON.stringify(result.report)))
+        throw new Error(`worker answered ${result.status} ${JSON.stringify(result.report)} (transient R2 error wrapped as 400)`);
       if (attempt > 1 && result.status === 400 && /archive not found/.test(JSON.stringify(result.report))) {
         log(`${name}: already applied by an earlier attempt`);
         return { status: 200, report: { summary: { already_applied: true } } };

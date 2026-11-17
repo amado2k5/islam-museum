@@ -197,6 +197,13 @@ export async function processArchive({ bucket, archiveKey, allowedPrefixes, allo
   return report;
 }
 
+// Cloudflare R2 reports a transient backend failure as "We encountered an
+// internal error. Please try again. (10001)" (and similar). Those are retryable;
+// manifest/validation failures are not. Keep the pattern tight so a genuinely
+// bad archive can never slip through as retryable.
+const TRANSIENT_STORAGE = /internal error|please try again|10001|timed? ?out|temporarily unavailable|service unavailable/i;
+const transientStorageError = (msg) => TRANSIENT_STORAGE.test(msg);
+
 const json = (body, status = 200) =>
   new Response(JSON.stringify(body, null, 2), { status, headers: { "content-type": "application/json" } });
 
@@ -227,7 +234,12 @@ export default {
       });
       return json(report, report.failed.length ? 207 : 200);
     } catch (err) {
-      return json({ error: String(err.message ?? err) }, 400);
+      // A bad archive (missing manifest, checksum, unknown version) is a hard 400 —
+      // the publisher must not retry it. An R2 storage error ("internal error
+      // (10001)", timeouts) is transient, so it answers 503 and postWithRetry
+      // resends the same staged key; the operations are idempotent.
+      const msg = String(err.message ?? err);
+      return json({ error: msg }, transientStorageError(msg) ? 503 : 400);
     }
   },
 };
