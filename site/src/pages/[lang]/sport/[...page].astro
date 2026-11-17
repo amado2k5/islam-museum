@@ -62,11 +62,26 @@ const searchText = (i: (typeof sportItems)[number]) =>
       <p class="ui muted">{G.api} <a href="/api/v1/sport.json"><bdi dir="ltr">/api/v1/sport.json</bdi></a></p>
     </div>
 
+
+    {paged.landing && (
+      <ol role="list" aria-label={G.trio_label} style="list-style:none;padding:0;margin:0 0 1.4rem;display:grid;grid-template-columns:repeat(3,1fr);gap:8px;max-width:var(--measure)">
+        {["furusiyya", "sibaha", "ramy"].map((slug) => {
+          const n = namedSports.find((x) => x.id === `sport/${slug}`);
+          return n ? (
+            <li class="panel" style="padding:10px 14px;text-align:center;border-top:3px solid var(--gold)">
+              <a href={href(lang, n.id)} style="font-weight:600">{label(n)}</a>
+            </li>
+          ) : null;
+        })}
+      </ol>
+    )}
+
     {paged.landing && <SportFields lang={lang} />}
 
     <section aria-labelledby={G.sports_title} style="margin-top:2rem">
       <h2 id={G.sports_title}>{G.sports_title} · {num(namedSports.length, lang)}</h2>
       <p class="muted" style="max-width:var(--measure)">{G.sports_desc}</p>
+      <p class="ui" style="display:flex;flex-wrap:wrap;gap:6px;margin:0 0 .8rem">{[...new Set(namedSports.map((n) => String(n.data.kind ?? "")))].filter(Boolean).map((k) => <span class="chip">{G.kinds?.[k] ?? k} · {num(namedSports.filter((n) => n.data.kind === k).length, lang)}</span>)}</p>
       <div data-pagefind-ignore>
         <ol role="list" style="list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px">
           {namedSports.map((n) => (
