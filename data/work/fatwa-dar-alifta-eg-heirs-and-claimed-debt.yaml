@@ -1,0 +1,24 @@
+id: work/fatwa-dar-alifta-eg-heirs-and-claimed-debt
+class: work
+kind: fatwa
+label: { ar: "حكم سداد الورثة دينًا ادعاه رجل على الميت", en: "Heirs paying a debt a man claims on the deceased", ur: "متوفی پر دعویٰ شدہ قرض کی ورثاء کی جانب سے ادائیگی" }
+summary:
+  ar: "رجل ادعى دينًا على ميت فسأل الورثة عن حكم سداده. أجابت دار الإفتاء المصرية ⁦(مفتي الجمهورية د. نظير محمد عياد، فتوى رقم 21741)⁩ أن دعوى الدين على الميت لا تقبل إلا ببينة المدعي ويحلف يمين الاستبراء إن وصل الأمر إلى القضاء فإذا لم تقم البينة فلها حكمها على ما فصّل الجواب."
+  en: "A man claimed a debt against a deceased person and the heirs asked about paying it. Egypt's Dar al-Ifta (Grand Mufti Dr. Nazir Muhammad Ayyad, fatwa no. 21741) answered that a debt claim on the dead is not accepted without the claimant's proof — with an exculpatory oath if it reaches court; if no proof is established the case has its ruling, as the answer details."
+  ur: "ایک شخص نے متوفی پر قرض کا دعویٰ کیا اور ورثاء نے ادائیگی کا حکم پوچھا۔ مصر کے دار الافتاء ⁦(مفتیِ جمهور ڈاکٹر نظیر محمد عیاد، فتویٰ نمبر 21741)⁩ نے جواب دیا کہ مُردے پر قرض کا دعویٰ مدعی کے ثبوت کے بغیر قبول نہیں ہوتا اور عدالت پہنچنے پر قسم ہوتی ہے؛ ثبوت نہ ہو تو اس کا حکم الگ ہے — جیسا کہ جواب میں تفصیل ہے۔"
+wings: [words]
+authors: [person/nazir-ayyad]
+publisher: group/dar-al-ifta-al-misriyya
+url: "https://www.dar-alifta.org/ar/fatwa/details/21741/حكم-سداد-الورثة-دينًا-ادّعاه-رجلٌ-على-الميت"
+languages: [ar]
+sources: [source/dar-alifta]
+relations:
+  - { type: about, target: concept/mirath, sources: [source/dar-alifta] }
+  - { type: about, target: concept/qard-hasan, sources: [source/dar-alifta] }
+provenance:
+  layer: own-research
+  source: "dar-alifta.org fatwa no. 21741, category الميراث; read 17 Nov 2026. Summary in the museum's own words."
+  generated_by: "Devin"
+  model: "SWE-2 Medium"
+  run: fatwa-websites-34
+status: { review: published, completeness: 1 }
