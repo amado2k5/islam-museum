@@ -17,3 +17,12 @@ According to the book, he reminded them that Abu Bakr and Umar, whom the Khariji
 The Abyssinian said, according to the book, that he testified that Umar was upon the truth. The Shaybani said that he would not act against the Muslims by an affair without putting his word before them. The Abyssinian remained, and Umar gave him his stipend, and he died fifteen days later. The Shaybani rejoined his companions and was killed with them after Umar's death. {cite:bakr-umayyad-state-1134715 p.270}
 
 The account is the book's own and has not been compared with another source. The book does not give the year of the debate, which falls within 99–101 AH.
+
+
+
+## The exchange — what each side said
+- **The Shabani and the Habashi (the Kharijite envoys)**: came to Umar's council at Khansara carrying their companions' objection; Umar had them searched before the session so they carried no iron — securing the council before the argument.
+- **Umar (his three proofs)**: reminded them that Abu Bakr and Umar — whom the Kharijites themselves took as patrons — fought the apostates and took the families captive, so how can one who walked their path be declared an unbeliever? That the people of Nahrawan, Kufa and Basra fought one another, so mutual excommunication leaves no Muslim standing. Then he asked: is cursing sinners lawful? And can you curse my own household and disown them?
+- **The Shabani**: did not argue the text; he said he would not act for the Muslims on a matter without laying it before them — taking the proof back to his companions before answering.
+- **The Habashi**: testified in the council itself that Umar was upon the truth — conviction at the place of argument, not after return.
+- **The outcome**: the Habashi stayed with Umar, received his stipend and died fifteen days later; the Shabani rejoined his companions and was killed with them after Umar's death. {cite:bakr-umayyad-state-1134715 p.267-270}
