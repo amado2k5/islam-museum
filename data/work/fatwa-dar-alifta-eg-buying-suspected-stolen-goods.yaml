@@ -1,0 +1,24 @@
+id: work/fatwa-dar-alifta-eg-buying-suspected-stolen-goods
+class: work
+kind: fatwa
+label: { ar: "حكم شراء السلع التي يظن أنها مسروقة", en: "Buying goods suspected of being stolen", ur: "چوری شدہ سمجھی جانے والی چیز خریدنا" }
+summary:
+  ar: "سائل سأل عن شراء سلع يظن أنها مسروقة. أجابت دار الإفتاء المصرية ⁦(مفتي الجمهورية د. نظير محمد عياد، فتوى رقم 21644)⁩ أن الأصل براءة ذمة البائع عن التهمة ما دام المبيع تحت يده وكان الظاهر ملكه له ولا يجوز إساءة الظن به على ما فصّل الجواب من أحوال المسألة."
+  en: "A questioner asked about buying goods suspected of being stolen. Egypt's Dar al-Ifta (Grand Mufti Dr. Nazir Muhammad Ayyad, fatwa no. 21644) answered that the default is the seller's innocence while the goods are in his hand and apparently his — suspicion against him is not permitted — with the cases the answer sets out."
+  ur: "ایک سائل نے چوری کا شبہ رکھنے والی چیز خریدنے کا حکم پوچھا۔ مصر کے دار الافتاء ⁦(مفتیِ جمهور ڈاکٹر نظیر محمد عیاد، فتویٰ نمبر 21644)⁩ نے جواب دیا کہ اصول بائع کی براءت ہے جب تک چیز اس کے پاس ہو اور ظاہر اس کی ملکیت ہو؛ بدگمانی جائز نہیں — جیسا کہ جواب میں احوال بیان ہوئے۔"
+wings: [words]
+authors: [person/nazir-ayyad]
+publisher: group/dar-al-ifta-al-misriyya
+url: "https://www.dar-alifta.org/ar/fatwa/details/21644/حكم-شراء-السلع-التي-يظن-أنها-مسروقة"
+languages: [ar]
+sources: [source/dar-alifta]
+relations:
+  - { type: about, target: concept/akhlaq, sources: [source/dar-alifta] }
+  - { type: about, target: concept/amanah, sources: [source/dar-alifta] }
+provenance:
+  layer: own-research
+  source: "dar-alifta.org fatwa no. 21644, category البيع; read 17 Nov 2026. Summary in the museum's own words."
+  generated_by: "Devin"
+  model: "SWE-2 Medium"
+  run: fatwa-websites-34
+status: { review: published, completeness: 1 }

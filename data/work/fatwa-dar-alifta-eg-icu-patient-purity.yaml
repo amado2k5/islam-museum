@@ -1,0 +1,24 @@
+id: work/fatwa-dar-alifta-eg-icu-patient-purity
+class: work
+kind: fatwa
+label: { ar: "حكم طهارة المريض المحجوز بالعناية المركزة", en: "Purity for a patient confined to intensive care", ur: "انتہائی نگہداشت میں مریض کی طہارت" }
+summary:
+  ar: "سائل سأل عن طهارة المريض المحجوز بالعناية المركزة. أجابت دار الإفتاء المصرية ⁦(مفتي الجمهورية د. نظير محمد عياد، فتوى رقم 21631)⁩ أنه لا يجب على المريض المحجوز بالعناية المركزة استعمال الماء في الطهارة حال منع الأطباء له من ذلك حفاظًا عليه على ما فصّل الجواب من بدائله."
+  en: "A questioner asked about purification for a patient confined to intensive care. Egypt's Dar al-Ifta (Grand Mufti Dr. Nazir Muhammad Ayyad, fatwa no. 21631) answered that water is not obligatory upon the ICU patient when the doctors forbid it for his protection — with the alternatives the answer sets out."
+  ur: "ایک سائل نے انتہائی نگہداشت میں مریض کی طہارت کا حکم پوچھا۔ مصر کے دار الافتاء ⁦(مفتیِ جمهور ڈاکٹر نظیر محمد عیاد، فتویٰ نمبر 21631)⁩ نے جواب دیا کہ جب ڈاکٹر منع کریں تو مریض پر پانی استعمال کرنا واجب نہیں — جواب میں متبادل طریقے بیان ہوئے۔"
+wings: [words]
+authors: [person/nazir-ayyad]
+publisher: group/dar-al-ifta-al-misriyya
+url: "https://www.dar-alifta.org/ar/fatwa/details/21631/حكم-طهارة-المريض-المحجوز-بالعناية-المركزة"
+languages: [ar]
+sources: [source/dar-alifta]
+relations:
+  - { type: about, target: concept/tahara, sources: [source/dar-alifta] }
+  - { type: about, target: concept/tadawi, sources: [source/dar-alifta] }
+provenance:
+  layer: own-research
+  source: "dar-alifta.org fatwa no. 21631, category الصلاة; read 17 Nov 2026. Summary in the museum's own words."
+  generated_by: "Devin"
+  model: "SWE-2 Medium"
+  run: fatwa-websites-34
+status: { review: published, completeness: 1 }
