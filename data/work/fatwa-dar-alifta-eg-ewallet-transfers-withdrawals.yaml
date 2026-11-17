@@ -1,0 +1,24 @@
+id: work/fatwa-dar-alifta-eg-ewallet-transfers-withdrawals
+class: work
+kind: fatwa
+label: { ar: "حكم التحويل والسحب من المحافظ الإلكترونية", en: "Transfers and withdrawals through e-wallets", ur: "ای والٹ سے منتقلی اور وصولی" }
+summary:
+  ar: "سائل سأل عن التحويل والسحب من المحافظ الإلكترونية. أجابت دار الإفتاء المصرية ⁦(مفتي الجمهورية د. نظير محمد عياد، فتوى رقم 21034)⁩ أن المعاملة المسؤول عنها جائزة شرعًا لأنها من قبيل عقد الوكالة مع وجوب أن تتم وفق اللوائح والقوانين المنظمة لها على ما فصّل الجواب."
+  en: "A questioner asked about transfers and withdrawals through electronic wallets. Egypt's Dar al-Ifta (Grand Mufti Dr. Nazir Muhammad Ayyad, fatwa no. 21034) answered that the transaction is lawful, being of the agency-contract kind, provided it proceeds under its regulating rules and laws — as the answer details."
+  ur: "ایک سائل نے ای والٹ سے رقم منتقل کرنے اور نکالنے کا حکم پوچھا۔ مصر کے دار الافتاء ⁦(مفتیِ جمهور ڈاکٹر نظیر محمد عیاد، فتویٰ نمبر 21034)⁩ نے جواب دیا کہ یہ وکالت کے عقد کی قسم سے جائز ہے بشرطیکہ ضوابط پر عمل ہو — جیسا کہ جواب میں تفصیل ہے۔"
+wings: [words]
+authors: [person/nazir-ayyad]
+publisher: group/dar-al-ifta-al-misriyya
+url: "https://www.dar-alifta.org/ar/fatwa/details/21034/حكم-التحويل-والسحب-من-المحافظ-الإلكترونية"
+languages: [ar]
+sources: [source/dar-alifta]
+relations:
+  - { type: about, target: concept/wakala-fiqh, sources: [source/dar-alifta] }
+  - { type: about, target: concept/fiqh, sources: [source/dar-alifta] }
+provenance:
+  layer: own-research
+  source: "dar-alifta.org fatwa no. 21034, category المعاملات الحديثة; read 17 Nov 2026. Summary in the museum's own words."
+  generated_by: "Devin"
+  model: "SWE-2 Medium"
+  run: fatwa-websites-34
+status: { review: published, completeness: 1 }

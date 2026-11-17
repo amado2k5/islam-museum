@@ -1,0 +1,24 @@
+id: work/fatwa-dar-alifta-eg-blood-after-miscarriage
+class: work
+kind: fatwa
+label: { ar: "حكم الدم النازل بعد الإجهاض", en: "The ruling on blood discharged after a miscarriage", ur: "اسقاط کے بعد نزول آنے والے خون کا حکم" }
+summary:
+  ar: "سائل سأل عن الدم النازل بعد الإجهاض ومتى يعد نفاسًا. أجابت دار الإفتاء المصرية ⁦(مفتي الجمهورية د. نظير محمد عياد، فتوى رقم 21016)⁩ ببيان أن بداية تخلق الجنين في رحم أمه تكون بتمام ثمانية وعشرين يومًا تحسب من أول يوم في آخر حيضة سبقت الحمل وبيّن الجواب حكم الدم النازل بعد الإجهاض على وجهه."
+  en: "A questioner asked about blood discharged after a miscarriage and when it counts as postnatal bleeding. Egypt's Dar al-Ifta (Grand Mufti Dr. Nazir Muhammad Ayyad, fatwa no. 21016) answered that the foetus's formation begins at twenty-eight completed days counted from the first day of the last menstruation before the pregnancy; the answer sets out the blood's ruling."
+  ur: "ایک سائل نے اسقاط کے بعد خون کے نزول کا حکم اور نفاس ہونے کا وقت پوچھا۔ مصر کے دار الافتاء ⁦(مفتیِ جمهور ڈاکٹر نظیر محمد عیاد، فتویٰ نمبر 21016)⁩ نے جواب میں جنین کی تخلق کا آغاز اٹھائیس دن بتایا اور خون کا حکم بیان کیا۔"
+wings: [words]
+authors: [person/nazir-ayyad]
+publisher: group/dar-al-ifta-al-misriyya
+url: "https://www.dar-alifta.org/ar/fatwa/details/21016/حكم-الدم-النازل-بعد-الإجهاض"
+languages: [ar]
+sources: [source/dar-alifta]
+relations:
+  - { type: about, target: concept/tahara, sources: [source/dar-alifta] }
+  - { type: about, target: concept/hayd-menstruation, sources: [source/dar-alifta] }
+provenance:
+  layer: own-research
+  source: "dar-alifta.org fatwa no. 21016, category الطهارة; read 17 Nov 2026. Summary in the museum's own words."
+  generated_by: "Devin"
+  model: "SWE-2 Medium"
+  run: fatwa-websites-34
+status: { review: published, completeness: 1 }
