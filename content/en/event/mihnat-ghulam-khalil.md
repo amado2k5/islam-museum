@@ -24,3 +24,14 @@ In another chapter al-Sarraj relates that a woman fell for Samnun "the Lover", w
 
 ## The place of the account in al-Luma'
 Al-Sarraj divides the Sufis' opponents into two groups: those who did not understand their words and did not ask those who knew, some of whom repented while others died so and are in God's hands; and those who understood them but made attacking them a "ladder" to leadership and popular favour. {cite:luma-sarraj-jadir-dar-al-fath p. 551} He places the Ghulam Khalil account among others in the chapter: Dhu al-Nun al-Misri, accused of heresy and then sent back with honour; Abu Sa'id al-Kharraz, some of whose words in his Kitab al-Sirr scholars condemned; and 'Amr ibn 'Uthman al-Makki. {cite:luma-sarraj-jadir-dar-al-fath p. 552} {cite:luma-sarraj-jadir-dar-al-fath p. 553} Al-Sarraj's judgements on the Sufis' opponents in this chapter are his own; the museum does not affirm them.
+
+
+
+## The exchange — what each side said
+- **Ghulam Khalil (the first testimony)**: al-Nuri was raised to al-Muwaffaq as a heretic whose blood was lawful, and Ghulam Khalil testified he heard him say 'I love God passionately and He loves me passionately' — measuring the wording as heresy.
+- **Al-Nuri (the first answer)**: argued from [[passage/quran-5-54|al-Ma'ida 54]] — 'He loves them and they love Him' — and distinguished passionate love from love: the passionate lover is barred while the lover enjoys his love; and al-Muwaffaq wept.
+- **The witnesses (the second testimony)**: they heard him say at the call to prayer 'a stab and the poison of death', and at the barking of dogs 'at Your service, doubly so' — loading the words as mockery.
+- **Al-Nuri (the second answer)**: explained he was jealous for the muezzin lest he name God heedlessly and for wage, and that the dog — like everything — glorifies without showing off — returning the wording to its meaning among its people.
+- **The witnesses (the third testimony)**: 'last night I was in my house with God'.
+- **Al-Nuri (the third answer)**: argued from the verse of nearness [[passage/quran-50-16|Qaf 16]] — 'We are nearer to him than his jugular vein' — and the Caliph said: say what you will, so he spoke until they all wept.
+- **Ghulam Khalil (against Sumnun and his companions)**: testified after a woman Sumnun had driven from his circle maligned them: 'these are heretics and their blood is on my neck', and the Sultan ordered their necks struck until God delivered them. {cite:luma-sarraj-jadir-dar-al-fath p.546-553}

@@ -22,3 +22,13 @@ Al-Mutawakkil ordered the imams and muezzins of Basra examined in 231 AH, and th
 
 ## What is not covered here
 The views of scholars on the question itself, and what contemporary researchers say about the motives of the trial, are not in the data for this page. This needs an additional source.
+
+
+
+## The exchange — what each side said
+- **Al-Ma'mun (in his letter to Ishaq ibn Ibrahim, 218 AH)**: ordered the testing of judges and hadith men on the createdness of the Qur'an — the official position: the Qur'an is created, and whoever does not profess it has his testimony refused and his office uncertified — ordering seven men sent up, among them Ibn Sa'd (al-Waqidi's secretary) and Yahya ibn Ma'in.
+- **The seven**: Ishaq tested them and they answered under dissimulation — outwardly professing the official formula — and he returned them to Baghdad.
+- **Ahmad ibn Hanbal (the recorded answer)**: asked, he said: 'It is the speech of God — I add nothing to this' — returning the question to the wording of revelation itself, neither denial nor affirmation in the mutakallim's terms.
+- **Sajjada, Muhammad ibn Nuh al-Ijli and al-Qawariri**: refused with Ahmad and Ishaq bound them; then Sajjada and al-Qawariri answered, while Ahmad and Ibn Nuh were sent chained toward the Byzantine lands until news of al-Ma'mun's death reached them.
+- **Al-Mu'tasim (continuation)**: followed what al-Ma'mun ended his life on — writing the official doctrine to the provinces and ordering teachers to drill it into children; Ahmad was flogged in year twenty.
+- **Al-Mutawakkil (the end)**: tested the imams of Basra in 231 AH, then reversed at the end of his reign — the official inquisition closed. {cite:tabari-tarikh-abu-al-fadl j.8 p.631-646} {cite:tarikh-khulafa-minhaj-1434 p.489-529}
