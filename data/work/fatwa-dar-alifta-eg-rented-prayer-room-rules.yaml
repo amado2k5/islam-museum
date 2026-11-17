@@ -1,0 +1,24 @@
+id: work/fatwa-dar-alifta-eg-rented-prayer-room-rules
+class: work
+kind: fatwa
+label: { ar: "حكم إطلاق أحكام المسجد على محل مستأجر اتخذ كمصلى", en: "Do mosque rulings apply to a rented prayer room?", ur: "کیا کرائے کی جائے گئے نماز گاہ پر مسجد کے احکام لاگو ہوتے ہیں؟" }
+summary:
+  ar: "سائل سأل عن إجراء أحكام المسجد على محل مستأجر اتخذ مصلى. أجابت دار الإفتاء المصرية ⁦(مفتي الجمهورية د. نظير محمد عياد، فتوى رقم 21882)⁩ أن كل مكان اتخذه الناس للصلاة فيه وليس وقفًا لله تعالى على المسجدية كالزوايا والمصليات لا تجري عليه الأحكام الخاصة بالمساجد على ما فصّل الجواب."
+  en: "A questioner asked whether mosque rulings apply to a rented place adopted as a prayer room. Egypt's Dar al-Ifta (Grand Mufti Dr. Nazir Muhammad Ayyad, fatwa no. 21882) answered that any place people adopt for prayer that is not endowed to God as a mosque — like zawaya and musallas — does not take the rulings specific to mosques, as the answer details."
+  ur: "ایک سائل نے پوچھا کہ کیا کرائے پر لی گئی جگہ جو نماز گاہ بنائی گئی ہو پر مسجد کے احکام جاری ہوں گے۔ مصر کے دار الافتاء ⁦(مفتیِ جمهور ڈاکٹر نظیر محمد عیاد، فتویٰ نمبر 21882)⁩ نے جواب دیا کہ ہر وہ جگہ جو لوگ نماز کے لیے بنائیں مگر اللہ کے لیے مسجد کے طور پر وقف نہ ہو — جیسے زاویے اور نماز گاہیں — اس پر مسجد کے خاص احکام جاری نہیں ہوتے، جیسا کہ جواب میں تفصیل ہے۔"
+wings: [words]
+authors: [person/nazir-ayyad]
+publisher: group/dar-al-ifta-al-misriyya
+url: "https://www.dar-alifta.org/ar/fatwa/details/21882/حكم-إطلاق-أحكام-المسجد-على-محل-مستأجر-اتُّخذ-كمُصلًّى"
+languages: [ar]
+sources: [source/dar-alifta]
+relations:
+  - { type: about, target: concept/masjid, sources: [source/dar-alifta] }
+  - { type: about, target: practice/salah, sources: [source/dar-alifta] }
+provenance:
+  layer: own-research
+  source: "dar-alifta.org fatwa no. 21882, category الصلاة; read 17 Nov 2026. Summary in the museum's own words."
+  generated_by: "Devin"
+  model: "SWE-2 Medium"
+  run: fatwa-websites-34
+status: { review: published, completeness: 1 }

@@ -1,0 +1,24 @@
+id: work/fatwa-dar-alifta-eg-partner-exclusive-profit
+class: work
+kind: fatwa
+label: { ar: "حكم انفراد الشريك بالتربح من مال الشركة دون إذن", en: "A partner profiting alone from company property without permission", ur: "شریک کا بلا اجازت کمپنی کے مال سے منفرد منافع اٹھانا" }
+summary:
+  ar: "سائل سأل عن انفراد أحد الشركاء بالتربح من عمل وصفة لتغذية الدواجن تابعة للشركة دون إذن باقي الشركاء. أجابت دار الإفتاء المصرية ⁦(مفتي الجمهورية د. نظير محمد عياد، فتوى رقم 21875)⁩ أن الأصل عدم جواز تصرف أحد الشركاء في مال الشركة وأعيانها إلا بإذن باقي الشركاء وبيّن الجواب حكم الربح على وجهه."
+  en: "A questioner asked about one partner profiting alone from a poultry-feed formula belonging to the company without the other partners' permission. Egypt's Dar al-Ifta (Grand Mufti Dr. Nazir Muhammad Ayyad, fatwa no. 21875) answered that the default is that no partner may dispose of the company's property and assets without the rest's consent; the answer sets out where the profit falls."
+  ur: "ایک سائل نے ایک شریک کے بغیر دیگر شرکاء کی اجازت کمپنی کی مرغوں کی خوراک کی نسخہ کار فرمائی سے منفرد منافع اٹھانے کا حکم پوچھا۔ مصر کے دار الافتاء ⁦(مفتیِ جمهور ڈاکٹر نظیر محمد عیاد، فتویٰ نمبر 21875)⁩ نے جواب دیا کہ اصول یہ ہے کہ کوئی شریک کمپنی کے مال اور اشیاء میں باقی شرکاء کی اجازت کے بغیر تصرف نہیں کر سکتا؛ منافع کا حکم جواب میں بیان ہوا۔"
+wings: [words]
+authors: [person/nazir-ayyad]
+publisher: group/dar-al-ifta-al-misriyya
+url: "https://www.dar-alifta.org/ar/fatwa/details/21875/حكم-الاشتراك-في-عمل-وصفة-لتغذية-الدواجن-والانفراد-بالتربح-منها-دون-علم-أو-إذن-باقي-الشركاء"
+languages: [ar]
+sources: [source/dar-alifta]
+relations:
+  - { type: about, target: concept/sharika, sources: [source/dar-alifta] }
+  - { type: about, target: concept/fiqh, sources: [source/dar-alifta] }
+provenance:
+  layer: own-research
+  source: "dar-alifta.org fatwa no. 21875, category البيع; read 17 Nov 2026. Summary in the museum's own words."
+  generated_by: "Devin"
+  model: "SWE-2 Medium"
+  run: fatwa-websites-34
+status: { review: published, completeness: 1 }
