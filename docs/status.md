@@ -1,6 +1,6 @@
 # Project status and how to resume
 
-_Last updated 16 November 2026._ Read this first in a new session, then `docs/plan/00-README.md` (the plan) and `CLAUDE.md` (the rules)._
+_Last updated 17 November 2026._ Read this first in a new session, then `docs/plan/00-README.md` (the plan) and `CLAUDE.md` (the rules)._
 
 ## Reach — the Tranco ranking log
 
@@ -17,8 +17,9 @@ Tranco (tranco-list.eu) is a research ranking of popular domains, recomputed dai
 | 2026-11-14 | 1,179,447 |
 | 2026-11-15 | 1,112,567 |
 | 2026-11-16 | 1,062,888 |
+| 2026-11-17 | 993,535 |
 
-Latest, checked 16 November 2026: **#1,062,888** on the list dated 16 November 2026 — up 49,679 places in a day from #1,112,567 (list of 15 November), and 62,888 places short of the top 1,000,000. The 16 November rank was read from the published list file itself (list K97GW, the full list of 4,629,898 domains) before the API carried it.
+Latest, checked 17 November 2026: **#993,535** on the list dated 17 November 2026 — up 69,353 places in a day from #1,062,888 (list of 16 November), and **inside the top 1,000,000**: the milestone this log watches, reached 37 days after the museum opened on 11 October 2026, and 25 days after its first Tranco reading (#4,609,967 on the list of 23 October 2026 — a climb of 3,616,432 places). The 17 November rank was read from the published list file itself (list V38GN, the full list of 4,564,981 domains) before the API carried it.
 
 ## What exists
 
