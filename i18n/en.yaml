@@ -1805,6 +1805,10 @@ explore:
       title: "Islamic Economy Browser"
       desc: "Every mention of money and Islamic economics, deeds and covenants, and endowment in the Qur'an, the Sunnah, the seerah and every harvested book — currencies, usury, debt, trade contracts, weights and measures, fiscal dues, waqf and sadaqa jariya — with every verse and report cited."
       menu: "Browse money, sukuk and waqf in the Qur'an, hadith and books"
+    trade:
+      title: "Trade Browser — the Winter and Summer Caravans, the Silk Road and Muslim Trade"
+      desc: "Every mention of the winter and summer caravans, the Quraysh ilaf, the Silk Road and Muslim trade in the Qur'an, the Sunnah, the seerah and every harvested book — caravans, the 'Ir and the rukb, khans and ribats, trade roads, markets, merchants, goods, weights and measures, and sea trade — each verse and report with its source."
+      menu: "Browse the caravans, the Silk Road and trade in the Qur'an, hadith and books"
     sayyiat:
       title: "Sayyi'at Browser"
       desc: "Every mention of the sayyi'at and everything tied to them — sin, guilt, disobedience, the major and minor sins, repentance and seeking forgiveness — in the Qur'an, the Sunnah, the seerah and every harvested book, with every verse and report cited."
@@ -4354,6 +4358,48 @@ islamic_economy:
     no_topic: "{n} records carry no topic and stand in no ledger."
     mark: "{name}, {date}"
     section_n: "{name}: {n}"
+trade:
+  title: "Trade Browser — the Winter and Summer Caravans, the Silk Road and Muslim Trade"
+  lede: "Every mention of the winter and summer journeys, the Quraysh ilaf, the Silk Road and Muslim trade in the museum's sources: the ilaf verse of Surah Quraysh; the reports of caravans and markets in the Sunnah and the seerah; the trade roads with their khans and ribats, merchants and goods, measures and scales, and ships — in every harvested book, documented records that grow as each new text lands."
+  badge: Caravans, Silk Road and trade explorer
+  status: "This build holds {n} records in {s} sections; the prose is a draft until a person reads it."
+  method_title: How this browser works
+  method_note: "Every record here is an ordinary museum record — with its sources and its three-language prose. Caravan, Silk Road and trade mentions are found at build time by a guarded lexicon over the passage texts — unambiguous forms match directly, and ambiguous words like «عير» (the caravan or the town of 'Ir), «ركب» (the company or the knee), «خان» (the inn or the khan's title), «سوق» (the market or «he drove»), «حرير» (the fabric or the road), «سفر» (travel in general) and «ميزان» (the shop balance or the eschatological Scale) count only beside their domain collocations, with the weak tokens themselves stripped before the context test so a word can never satisfy its own context; verified false positives are excluded by id, and every book harvested later brings its mentions here automatically once its passages land in the graph; curated records join through the trade-browser tag. Each record carries topic chips: the winter and summer caravans (the ilaf and the caravans), the Silk Road (the road and the trade roads) and Muslim trade (markets, merchants, goods and measures)."
+  api: "The whole set is available at"
+  sections_title: "Browser sections"
+  topics_title: "Topics"
+  filter_label: "Filter the records"
+  filter_none: "No matching results."
+  empty: "No trade records in this build yet."
+  topics:
+    caravans: "Winter & summer caravans"
+    silk-road: "Silk Road"
+    trade: "Muslim trade"
+  sections:
+    quran:
+      title: "In the Qur'an"
+      desc: "The Qur'an's trade and caravans: «لإيلاف قريش» and «رحلة الشتاء والصيف», the command to give full measure and just weight, «a trade you fear may slacken», the ships that run the sea, and every verse that mentions trade, caravans or weighing."
+    sunnah:
+      title: "In the Sunnah"
+      desc: "The Prophet's reports on trade, markets and caravans: «God have mercy on a man easy when he sells, buys and asks», the ban on meeting the rukban ahead of the market, the 'Ir caravan of Badr, the truthful trustworthy merchant — and every report on sale, market or caravan."
+    seerah:
+      title: "In the Seerah"
+      desc: "What the seerah and history books carry of caravans, the Silk Road and trade — the two Quraysh journeys, the 'Ir of Badr, the Jahili markets; this section fills itself whenever a new sira text lands."
+    books:
+      title: "In the other books"
+      desc: "Caravans, roads and trade in every harvested work outside the Qur'an, hadith and seerah — geography, history, travel and fiqh — filed by the work's genre the day its passages land."
+    curated:
+      title: "Records on trade and the roads"
+      desc: "The museum's curated records on the caravans, the Silk Road and trade: the ilaf concept, the Silk Road, the road's places from Mecca to Xi'an, the khans and qaysariyyas, trade in Islam, and the Hilf al-Fudul pact."
+  viz:
+    title: "The three roads"
+    note: "A schematic map, not to scale: the winter journey south to Yemen, the summer journey north to al-Sham, and the Silk Road east to Samarkand and beyond. Every dot on a road is a real place record in the museum and a link to its page."
+    region: "A schematic map of the three caravan roads"
+    hint: "Hover, focus or tap a dot on a road to see the place's name, its road and the first line of its summary."
+    routes:
+      winter: "The winter journey — to Yemen"
+      summer: "The summer journey — to al-Sham"
+      silk: "The Silk Road — to China"
 ibadat:
   viz:
     title: "The acts of worship"

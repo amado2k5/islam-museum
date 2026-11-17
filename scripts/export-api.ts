@@ -45,6 +45,7 @@ import { UMUMA_TAG, umumaCorpusOf, umumaSignalsOf, umumaTagSection, umumaTopicsO
 import { SPORT_TAG, sportCorpusOf, sportSignalsOf, sportTagSection, sportTopicsOf, isSportPassage } from "./sport.js";
 import { BUNUWWA_TAG, bunuwwaCorpusOf, bunuwwaSignalsOf, bunuwwaTagSection, bunuwwaTopicsOf, isBunuwwaPassage } from "./bunuwwa.js";
 import { IE_TAG, ieCorpusOf, ieSignalsOf, ieTagSection, ieTagTopics, ieTopicsOf, isIslamicEconomyPassage } from "./islamic-economy.js";
+import { TRADE_TAG, isTradePassage, tradeCorpusOf, tradeSignalsOf, tradeTagSection, tradeTagTopics, tradeTopicsOf } from "./trade.js";
 import { isGhazwaNode, MUHAMMAD } from "./ghazwa.js";
 import { PLACES_TAG, PLACE_CORPORA, placeCorpusOf, placeSectionOf, type PlaceCorpus } from "./places.js";
 import { existsSync, readdirSync } from "node:fs";
@@ -355,6 +356,16 @@ const FEATURE_EXPORTS: { file: string; feature: string; pick: (n: Node) => boole
         : ieTagSection(n),
       topics: n.class === "passage" ? ieTopicsOf(n) : ieTagTopics(n),
       signals: n.class === "passage" ? ieSignalsOf(n) : [],
+    }) },
+  { file: "trade.json", feature: "trade-browser",
+    pick: (n) => n.tags.includes(TRADE_TAG) || isTradePassage(n),
+    fields: ["kind", "work", "ref", "unit", "text", "sura", "aya", "wings", "themes", "tags"],
+    extra: (n, ef, byId) => ({
+      section: n.class === "passage"
+        ? tradeCorpusOf(n.data.work as string | undefined, byId?.get(n.data.work as string)?.data.genre as string[] | undefined, n.data.unit as string | undefined)
+        : tradeTagSection(n),
+      topics: n.class === "passage" ? tradeTopicsOf(n) : tradeTagTopics(n),
+      signals: n.class === "passage" ? tradeSignalsOf(n) : [],
     }) },
   { file: "hasanats.json", feature: "hasanat-browser",
     pick: (n) => n.tags.includes(HASANAT_TAG) || isHasanatPassage(n),

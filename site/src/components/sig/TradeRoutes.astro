@@ -1,0 +1,126 @@
+---
+// "The three roads" (Trade Browser home, docs/plan/63-trade-browser.md): a schematic
+// map of the browser's three topics as three drawn roads — the winter caravan road
+// south to Yemen, the summer caravan road north to al-Sham, and the Silk Road east
+// to Samarkand and beyond. Every waypoint dot is a real link to its place record;
+// the readout under the map names the place and gives the first line of its
+// summary (hover, focus, or first tap on touch). The map is schematic — roads are
+// drawn for reading, not to geographic scale; the caption says so. Everything is
+// computed from the graph at build time; site/src/scripts/sig-trade.ts only adds
+// the readout.
+import { ui, type Lang } from "../../lib/i18n";
+import { byId, href, labelOf, summaryOf } from "../../lib/graph";
+import { num } from "../../lib/nav";
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const T = ui(lang) as any;
+const G = T.trade;
+const V = G.viz;
+
+interface Waypoint { id: string; x: number; y: number; dx: number; dy: number }
+interface Route { id: "winter" | "summer" | "silk"; color: string; pts: string; stops: Waypoint[]; lx: number; ly: number }
+
+// Schematic coordinates (viewBox 920×360), RTL/LTR agnostic: the Hijaz is read at
+// the left, Yemen below, al-Sham above, the Silk Road running east to the right.
+const ROUTES: Route[] = [
+  {
+    id: "summer", color: "#b8472a", lx: 60, ly: 40,
+    pts: "M150,200 C140,175 132,160 125,150 C118,132 113,118 110,105 C106,88 100,72 95,60 M125,150 C105,128 82,110 60,95",
+    stops: [
+      { id: "place/mecca", x: 150, y: 200, dx: 10, dy: 4 },
+      { id: "place/petra", x: 125, y: 150, dx: 8, dy: 4 },
+      { id: "place/gaza", x: 60, y: 95, dx: -6, dy: 14 },
+      { id: "place/busra", x: 110, y: 105, dx: 10, dy: -6 },
+      { id: "place/damascus", x: 95, y: 60, dx: 10, dy: 4 },
+    ],
+  },
+  {
+    id: "winter", color: "#2a7b88", lx: 300, ly: 340,
+    pts: "M150,200 C160,215 172,228 180,240 C192,262 205,278 215,290 C235,308 258,318 280,325",
+    stops: [
+      { id: "place/mecca", x: 150, y: 200, dx: 10, dy: 4 },
+      { id: "place/taif", x: 180, y: 240, dx: 10, dy: 4 },
+      { id: "place/sanaa", x: 215, y: 290, dx: 10, dy: 4 },
+      { id: "place/aden", x: 280, y: 325, dx: 10, dy: 4 },
+    ],
+  },
+  {
+    id: "silk", color: "#7a3a5e", lx: 470, ly: 40,
+    pts: "M340,120 C390,112 420,108 450,105 C480,96 500,88 520,80 C545,72 568,68 590,65 C615,63 640,66 660,70 C695,62 725,58 750,55 C785,62 820,78 850,95",
+    stops: [
+      { id: "place/baghdad", x: 340, y: 120, dx: 10, dy: 14 },
+      { id: "place/nishapur", x: 450, y: 105, dx: 8, dy: 14 },
+      { id: "place/merv", x: 520, y: 80, dx: -6, dy: 16 },
+      { id: "place/bukhara", x: 590, y: 65, dx: -8, dy: 16 },
+      { id: "place/samarqand", x: 660, y: 70, dx: 8, dy: -8 },
+      { id: "place/kashgar", x: 750, y: 55, dx: 8, dy: 14 },
+      { id: "place/xian", x: 850, y: 95, dx: -14, dy: 18 },
+    ],
+  },
+];
+
+// Every waypoint resolves against the graph at build time; a missing record drops
+// its dot rather than drawing a dead link.
+const routes = ROUTES.map((r) => ({ ...r, stops: r.stops.filter((w) => byId.has(w.id)) }));
+if (!routes.some((r) => r.stops.length)) throw new Error("TradeRoutes: no waypoint records found");
+const seen = new Set<string>();
+const stops = routes.flatMap((r) => r.stops.map((w) => ({ ...w, route: r.id, color: r.color })))
+  .filter((w) => (seen.has(`${w.route}:${w.id}`) ? false : (seen.add(`${w.route}:${w.id}`), true)));
+
+// Readout payload: label, route name, place kind and the first sentence of the summary.
+const info: Record<string, { t: string; r: string; s: string; h: string }> = {};
+for (const w of stops) {
+  const n = byId.get(w.id)!;
+  const key = `${w.route}:${w.id}`;
+  const sum = (summaryOf(n, lang) || "").split(/[.!؟?۔]\s/)[0];
+  info[key] = { t: labelOf(n, lang), r: V.routes[w.route] ?? w.route, s: sum, h: href(lang, w.id) };
+}
+---
+<figure class="panel" data-sg-tr style="margin:1.5rem 0;padding:16px" aria-labelledby="sg-tr-t">
+  <figcaption style="margin:0 0 4px">
+    <h2 id="sg-tr-t" style="font-size:1.1rem;margin:0">{V.title}</h2>
+    <p class="muted" style="max-width:var(--measure);margin:.3rem 0 0">{V.note}</p>
+  </figcaption>
+  <div data-sg-tr-map style="position:relative">
+    <svg viewBox="0 0 920 360" role="img" aria-label={V.region} style="display:block;width:100%;height:auto">
+      <rect width="920" height="360" fill="var(--panel)" rx="10" />
+      {routes.map((r) => (
+        <g>
+          <path d={r.pts} fill="none" stroke={r.color} stroke-width="3" stroke-linecap="round" stroke-dasharray="1 9" opacity=".9" />
+          <path d={r.pts} fill="none" stroke={r.color} stroke-width="1.4" stroke-linecap="round" opacity=".55" />
+          <text x={r.lx} y={r.ly} font-size="13" font-weight="700" fill={r.color}>{V.routes[r.id]}</text>
+        </g>
+      ))}
+      {/* caravan waymark glyphs on each road: a small camel drawn in strokes */}
+      <g aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" opacity=".55" stroke-linecap="round">
+        <path d="M122,118 q2,-7 6,-7 q3,-4 6,0 q4,0 6,7 m-14,-7 l0,-5 m10,5 l3,-4 m-16,12 l0,4 m6,-4 l0,4 m6,-4 l0,4" transform="translate(0,0)" stroke="#b8472a" />
+        <path d="M202,264 q2,-7 6,-7 q3,-4 6,0 q4,0 6,7 m-14,-7 l0,-5 m10,5 l3,-4 m-16,12 l0,4 m6,-4 l0,4 m6,-4 l0,4" stroke="#2a7b88" />
+        <path d="M700,46 q2,-7 6,-7 q3,-4 6,0 q4,0 6,7 m-14,-7 l0,-5 m10,5 l3,-4 m-16,12 l0,4 m6,-4 l0,4 m6,-4 l0,4" stroke="#7a3a5e" />
+      </g>
+      {stops.map((w) => (
+        <a href={href(lang, w.id)} data-id={`${w.route}:${w.id}`} class="sg-tr-m">
+          <circle cx={w.x} cy={w.y} r="7" fill="var(--card)" stroke={w.color} stroke-width="2.5" />
+          <circle cx={w.x} cy={w.y} r="2.6" fill={w.color} />
+          <text x={w.x + w.dx} y={w.y + w.dy} font-size="11.5" fill="var(--fg)">{labelOf(byId.get(w.id)!, lang)}</text>
+        </a>
+      ))}
+    </svg>
+    <svg data-sg-tr-ties style="position:absolute;inset:0;width:100%;height:auto;pointer-events:none" viewBox="0 0 920 360" aria-hidden="true"></svg>
+  </div>
+  <p class="ui muted" data-sg-tr-hint style="margin:.4rem 0 0;font-size:.85rem">{V.hint}</p>
+  <div data-sg-tr-read role="status" style="min-height:3.2em;margin-top:.4rem"></div>
+  <ul class="ui" style="display:flex;flex-wrap:wrap;gap:6px 14px;padding:0;margin:.4rem 0 0;list-style:none">
+    {routes.map((r) => (
+      <li style={`display:inline-flex;align-items:center;gap:6px;color:${r.color}`}><span aria-hidden="true" style={`width:10px;height:10px;border-radius:50%;background:${r.color};display:inline-block`}></span>{V.routes[r.id]} · {num(r.stops.length, lang)}</li>
+    ))}
+  </ul>
+  <script type="application/json" data-sg-tr-data set:html={JSON.stringify({ info })} />
+</figure>
+<style>
+  a.sg-tr-m circle:first-of-type { transition: transform .12s ease; transform-box: fill-box; transform-origin: center; }
+  a.sg-tr-m:hover circle:first-of-type, a.sg-tr-m:focus-visible circle:first-of-type, a.sg-tr-m.is-on circle:first-of-type { transform: scale(1.6); }
+  a.sg-tr-m:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+  a.sg-tr-m text { font-family: inherit; }
+</style>
+<script src="../../scripts/sig-trade.ts"></script>
