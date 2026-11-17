@@ -1,0 +1,23 @@
+id: work/fatwa-fcna-ending-life-support
+class: work
+kind: fatwa
+label: { ar: "ما الموقف الإسلامي من إنهاء الإعاشة الطبية؟", en: "What is the Islamic view on ending life support?", ur: "لائف سپورٹ بند کرنے کا اسلامی موقف کیا ہے؟" }
+summary:
+  ar: "سؤال عن الموقف الإسلامي من سحب أو إيقاف الرعاية المُعِينة على الحياة. أجاب الشيخ مصطفى عمر في موقع المجلس الفقهي لأمريكا الشمالية ⁦(نُشر نوفمبر 2022)⁩ بأن المجلس يرى الطب نعمة وأن استخدام الوسائل النافعة مرغوب وبيّن الجواب أحكام السحب والإيقاف على وجهها."
+  en: "A question about the Islamic stance on withdrawing or withholding life-sustaining care. Shaykh Mustafa Umar answered on the Fiqh Council of North America site (published November 2022): the council regards medicine as a blessing and beneficial treatment recommended, and the answer sets out the rulings on withdrawal and withholding."
+  ur: "زندگی بچانے والی سہولت ہٹانے یا روکنے کے اسلامی حکم کا سوال۔ شیخ مصطفیٰ عمر نے فقہ کونسل آف نارتھ امریکہ کی ویب سائٹ پر ⁦(شائع شدہ نومبر 2022)⁩ جواب دیا کہ طب نعمت ہے اور مفید علاج مستحب؛ ہٹانے اور روکنے کے احکام جواب میں ہیں۔"
+wings: [words]
+publisher: group/fiqh-council-north-america
+url: "https://fiqhcouncil.org/withdrawal-of-life-sustaining-care/"
+languages: [en]
+sources: [source/fcna]
+relations:
+  - { type: about, target: concept/medical-treatment, sources: [source/fcna] }
+  - { type: about, target: concept/mawt, sources: [source/fcna] }
+provenance:
+  layer: own-research
+  source: "fiqhcouncil.org post 'What is the Islamic view on ending life support?', dated 16 Nov 2022; read 17 Nov 2026. Summary in the museum's own words."
+  generated_by: "Devin"
+  model: "SWE-2 Medium"
+  run: fatwa-websites-34
+status: { review: published, completeness: 1 }
