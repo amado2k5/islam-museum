@@ -13,7 +13,11 @@ wings:
 - place
 regions:
 - arabia
+coordinates: [16.9197, 44.5188]
+coordinate_precision: locality
+coordinate_note: "GeoNames search for برط (geonames.org, read 2026-11-16): Bart al-'Anan, second-order administrative division (ADM2) in al-Jawf governorate at 16°55'11N 44°31'08E — Barat, the well-known tribal district of the northern highlands. A district centroid is given, not a settlement."
 sources:
+- source/geonames-gazetteer
 - source/sira-hadi-ila-al-haqq
 provenance:
   layer: own-research
@@ -21,6 +25,8 @@ provenance:
   generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
   model: claude-sonnet-5-5
   run: lib-sira-hadi-ila-al-haqq-10
+  extensions:
+  - { generated_by: "Devin (Cognition SWE-2 Medium)", model: "SWE-2 Medium", run: "place-coordinates-web-enrichment-2026-11-16", source: "Coordinates and note from GeoNames website read 2026-11-16; identity checked against the record's sira context." }
 status:
   review: draft
   completeness: 1

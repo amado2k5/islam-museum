@@ -15,14 +15,21 @@ periods:
 - period/abbasid-fragmentation
 regions:
 - arabia
+coordinates: [15.3507, 44.2479]
+coordinate_precision: site
+coordinate_note: "Yaqut, Mu'jam al-buldan (entry نقم): Nuqm is 'a mountain overlooking San'a' in Yemen, near Ghumdan'. GeoNames Jabal Nuqum (T.MT, Az'zal District, Amānat al-'Āṣimah) at 15°21'03'N 44°14'52'E, the mountain immediately east of the city, read 2026-11-16 — the same identification."
 sources:
+- source/mujam-al-buldan
 - source/sira-hadi-ila-al-haqq
+- source/geonames-gazetteer
 provenance:
   layer: own-research
   source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص228-229 ⁦(الصفحة المطبوعة)⁩"
   generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
   model: claude-sonnet-5-5
   run: lib-sira-hadi-ila-al-haqq-27
+  extensions:
+  - { generated_by: "Devin (Cognition SWE-2 Medium)", model: "SWE-2 Medium", run: "place-coordinates-web-enrichment-2026-11-16", source: "Identification from Mu'jam al-buldan, point from GeoNames website, both read 2026-11-16." }
 status:
   review: draft
   completeness: 2

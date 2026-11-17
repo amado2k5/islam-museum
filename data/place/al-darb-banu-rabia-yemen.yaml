@@ -13,7 +13,11 @@ wings:
 - place
 regions:
 - arabia
+coordinates: [16.98048, 43.68897]
+coordinate_precision: locality
+coordinate_note: "GeoNames search for الدرب (geonames.org, read 2026-11-16): Ad Darb, populated place (PPL) in Sahar district, Sa'dah governorate at 16°58'50'N 43°41'20'E; the sira's al-Darb of Banu Rabi'a lies in the Sahar/al-'Allaf theatre of the 285 AH campaigns. Read as that Darb; other Darbs exist in Sa'dah and further south."
 sources:
+- source/geonames-gazetteer
 - source/sira-hadi-ila-al-haqq
 provenance:
   layer: own-research
@@ -21,6 +25,8 @@ provenance:
   generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
   model: claude-sonnet-5-5
   run: lib-sira-hadi-ila-al-haqq-13
+  extensions:
+  - { generated_by: "Devin (Cognition SWE-2 Medium)", model: "SWE-2 Medium", run: "place-coordinates-web-enrichment-2026-11-16", source: "Coordinates and note from geonames-gazetteer, read via its public website/repository 2026-11-16; identity checked against the record's sira context." }
 status:
   review: draft
   completeness: 1

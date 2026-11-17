@@ -13,14 +13,21 @@ wings:
 - place
 regions:
 - arabia
+coordinates: [14.1951, 43.3153]
+coordinate_precision: approx
+coordinate_note: "Al-Hamdani places a Tartar 'in bilad Hakam' — the Hakam country of Tihama, whose capital was Zabid (Sifat jazirat al-Arab); a wadi Tartar also appears near Janb in the same text. The point is that of Zabid, the Hakam/Tihama seat — approximate; the sira's Tartar was on the descent to Tihama."
 sources:
+- source/sifat-jazirat-al-arab
 - source/sira-hadi-ila-al-haqq
+- source/geonames-gazetteer
 provenance:
   layer: own-research
   source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص296 ⁦(الصفحة المطبوعة)⁩"
   generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
   model: claude-sonnet-5-5
   run: lib-sira-hadi-ila-al-haqq-34
+  extensions:
+  - { generated_by: "Devin (Cognition SWE-2 Medium)", model: "SWE-2 Medium", run: "place-coordinates-web-enrichment-2026-11-16", source: "Identification from al-Hamdani's Sifat jazirat al-Arab (mizanalarab.com full text) and GeoNames website, read 2026-11-16." }
 status:
   review: draft
   completeness: 1

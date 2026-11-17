@@ -13,7 +13,11 @@ wings:
 - place
 regions:
 - arabia
+coordinates: [16.0823, 44.6873]
+coordinate_precision: locality
+coordinate_note: "GeoNames search for الغيل (geonames.org, read 2026-11-16): Al Ghayl, third-order administrative division (ADM3) in al-Jawf governorate at 16°04'56'N 44°41'14'E, east of Sa'dah on the 'Amran-al-Jawf frontier where the sira's Ghayl lay. A district centroid is given, not the settlement itself."
 sources:
+- source/geonames-gazetteer
 - source/sira-hadi-ila-al-haqq
 provenance:
   layer: own-research
@@ -21,6 +25,8 @@ provenance:
   generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
   model: claude-sonnet-5-5
   run: lib-sira-hadi-ila-al-haqq-17
+  extensions:
+  - { generated_by: "Devin (Cognition SWE-2 Medium)", model: "SWE-2 Medium", run: "place-coordinates-web-enrichment-2026-11-16", source: "Coordinates and note from geonames-gazetteer, read via its public website/repository 2026-11-16; identity checked against the record's sira context." }
 status:
   review: draft
   completeness: 1
