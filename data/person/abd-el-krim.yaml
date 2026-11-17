@@ -43,6 +43,11 @@ occupations:
     status: historical
     note: "merge-map link from role 'general', Job Browser linking wave"
     sources: [source/wikipedia-abd-el-krim-en, source/wikipedia-abd-el-krim-ar, source/wikipedia-abd-el-krim-fr, source/wikipedia-abd-el-krim-ur, source/wikidata-abd-el-krim, source/wikidata, source/oxford-dictionary-of-islam]
+  - job: job/thair
+    kind: primary
+    status: historical
+    note: "Led the Rif war against Spain and France and proclaimed the Rif Republic in 1921."
+    sources: [source/tdv-bagy]
 relations:
   - { type: lived_in, target: place/cairo, note: "From text: settled in Cairo", sources: [source/wikipedia-abd-el-krim-en, source/wikipedia-abd-el-krim-ar, source/wikipedia-abd-el-krim-fr, source/wikipedia-abd-el-krim-ur, source/wikidata-abd-el-krim] }
   - { type: died_in, target: place/cairo, sources: [source/wikipedia-abd-el-krim-en, source/wikipedia-abd-el-krim-ar] }

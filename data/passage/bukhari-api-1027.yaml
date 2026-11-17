@@ -1,0 +1,16 @@
+id: passage/bukhari-api-1027
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "1027"
+label: { ar: "صحيح البخاري 1027 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sahih al-Bukhari 1027 — mentions of non-Muslim nations, religions and peoples", ur: "صحیح بخاری 1027 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مُحَمَّدٍ، قَالَ حَدَّثَنَا سُفْيَانُ، عَنْ عَبْدِ اللَّهِ بْنِ أَبِي بَكْرٍ، سَمِعَ عَبَّادَ بْنَ تَمِيمٍ، عَنْ عَمِّهِ، قَالَ خَرَجَ النَّبِيُّ إِلَى الْمُصَلَّى يَسْتَسْقِي، وَاسْتَقْبَلَ الْقِبْلَةَ فَصَلَّى رَكْعَتَيْنِ، وَقَلَبَ رِدَاءَهُ. قَالَ سُفْيَانُ فَأَخْبَرَنِي الْمَسْعُودِيُّ عَنْ أَبِي بَكْرٍ قَالَ جَعَلَ الْيَمِينَ عَلَى الشِّمَالِ."
+summary:
+  ar: "حديث في صحيح البخاري، رقم 1027، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sahih al-Bukhari, no. 1027 (Invoking Allah for Rain (Istisqaa)), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
+  ur: "صحیح بخاری کی حدیث نمبر 1027، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: person/abdullah-ibn-ubayy, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 1027 (book 15 hadith 22); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the hadith-api Arabic edition; label and summary are the museum's own words" }

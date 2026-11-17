@@ -16,6 +16,8 @@ translations:
   en: { text: "Hath not the fame of those before them reached them - the folk of Noah, A'ad, Thamud, the folk of Abraham, the dwellers of Midian and the disasters (which befell them)? Their messengers (from Allah) came unto them with proofs (of Allah's Sovereignty). So Allah surely wronged them not, but they did wrong themselves.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "کیا ان کو ان لوگوں (کے حالات) کی خبر نہیں پہنچی جو ان سے پہلے تھے (یعنی) نوح اور عاد اور ثمود کی قوم۔ اور ابراہیم کی قوم اور مدین والے اور الٹی ہوئی بستیوں والے۔ ان کے پاس پیغمبر نشانیاں لے لے کر آئے۔ اور خدا تو ایسا نہ تھا کہ ان پر ظلم کرتا لیکن وہی اپنے آپ پر ظلم کرتے تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: group/qawm-nuh, sources: [source/tanzil-quran] }
+  - { type: mentions, target: group/qawm-shuayb, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-9 }
   - { type: mentions, target: group/aad, sources: [source/tanzil-quran] }
   - { type: mentions, target: group/thamud, sources: [source/tanzil-quran] }

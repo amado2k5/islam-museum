@@ -1,0 +1,16 @@
+id: passage/muwatta-api-129
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "129"
+label: { ar: "موطأ مالك 129 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Muwatta Malik 129 — mentions of non-Muslim nations, religions and peoples", ur: "موطأ مالک 129 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "وَحَدَّثَنِي عَنْ مَالِكٍ، عَنْ عَبْدِ اللَّهِ بْنِ أَبِي بَكْرٍ، عَنْ عَمَّتِهِ، عَنِ ابْنَةِ زَيْدِ بْنِ ثَابِتٍ، أَنَّهُ بَلَغَهَا أَنَّ نِسَاءً، كُنَّ يَدْعُونَ بِالْمَصَابِيحِ مِنْ جَوْفِ اللَّيْلِ يَنْظُرْنَ إِلَى الطُّهْرِ فَكَانَتْ تَعِيبُ ذَلِكَ عَلَيْهِنَّ وَتَقُولُ مَا كَانَ النِّسَاءُ يَصْنَعْنَ هَذَا. وَسُئِلَ مَالِكٌ عَنِ الْحَائِضِ تَطْهُرُ فَلاَ تَجِدُ مَاءً هَلْ تَتَيَمَّمُ قَالَ نَعَمْ لِتَتَيَمَّمْ فَإِنَّ مِثْلَهَا مِثْلُ …"
+summary:
+  ar: "حديث في موطأ مالك، رقم 129، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Muwatta Malik, no. 129 (Purity), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
+  ur: "موطأ مالک کی حدیث نمبر 129، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: person/abdullah-ibn-ubayy, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 129 (book 2 hadith 98); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }
+sources: [source/muwatta-malik, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the hadith-api Arabic edition; label and summary are the museum's own words" }

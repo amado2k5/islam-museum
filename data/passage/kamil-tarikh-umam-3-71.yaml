@@ -1,0 +1,22 @@
+id: passage/kamil-tarikh-umam-3-71
+class: passage
+unit: chapter
+work: work/al-kamil-fi-al-tarikh
+ref: "3:71"
+label: { ar: "الكامل في التاريخ لابن الأثير، المجلد المصوَّر 3، ص 71 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Ibn al-Athir's al-Kamil fi al-Tarikh, scan volume 3, p. 71 — mentions of non-Muslim nations, religions and peoples", ur: "الکامل فی التاریخ، ابن الاثیر، اسکین جلد 3، ص 71 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "… والحبشة والزنج، ويقال: إن مصرايم ولد القبط والبربر، وأما قوط فقيل: إنه سار إلى الهند والسند فنزلها وأهلها من ولده وأما الكنعانيون فلحق بعضهم بالشام ثم جاءت بنو إسرائيل فقتلوهم بها ونفوهم عنها وصار الشام لبني إسرائيل. ثم وثبت الروم …"
+summary:
+  ar: "مقطع من الكامل في التاريخ لابن الأثير، المجلد المصوَّر 3، ص 71، فيه ذكر أمم وأديان وشعوب غير مسلمة؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة."
+  en: "An excerpt from Ibn al-Athir's al-Kamil fi al-Tarikh, scan volume 3, p. 71, with mentions of non-Muslim nations, religions and peoples; from the machine-read scan, quoted within forty words per the sources policy. The Umam Browser lists it."
+  ur: "الکامل فی التاریخ، ابن الاثیر، اسکین جلد 3، ص 71 کا اقتباس جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: group/banu-israil, sources: [source/kamil-ibn-al-athir] }
+  - { type: mentions, target: group/al-rum, sources: [source/kamil-ibn-al-athir] }
+  - { type: mentions, target: group/al-habasha, sources: [source/kamil-ibn-al-athir] }
+  - { type: mentions, target: group/al-qibt, sources: [source/kamil-ibn-al-athir] }
+  - { type: mentions, target: group/al-hind, sources: [source/kamil-ibn-al-athir] }
+  - { type: mentions, target: group/al-barbar, sources: [source/kamil-ibn-al-athir] }
+  - { type: mentions, target: group/al-zanj, sources: [source/kamil-ibn-al-athir] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan tareekh/kamil-tarikh/AAlexandrina-155607, page 71; a window of at most 40 words chosen by the umam detector (scripts/umam.ts); OCR text not corrected", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-ocr-1" }
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the OCR'd book; label and summary are the museum's own words" }

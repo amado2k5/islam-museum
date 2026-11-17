@@ -42,6 +42,11 @@ occupations:
     status: historical
     note: "merge-map link from role 'teacher', Job Browser linking wave 23"
     sources: [source/wikipedia-mustafa-hosny-ar, source/wikidata-mustafa-hosny, source/assabile-mustafa-hosny]
+  - job: job/muaththir
+    kind: secondary
+    status: historical
+    note: "Preacher who built his following primarily on digital platforms."
+    sources: [source/tdv-matbuat]
 relations:
   - { type: born_in, target: place/cairo, sources: [source/wikidata-mustafa-hosny] }
   - { type: lived_in, target: place/cairo, sources: [source/wikipedia-mustafa-hosny-ar] }

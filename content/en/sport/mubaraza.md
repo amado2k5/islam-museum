@@ -4,10 +4,14 @@ lang: en
 source_lang: ar
 translators: ["Devin (SWE-2 Medium), draft translation"]
 ---
-## نظرة عامة
+## Overview
 
-The mubaraza is champion meeting champion in combat, like Ali ibn Abi Talib's bout with Amr ibn Abd Wudd on the day of the Trench, which he won {cite:mubarakpuri-raheeq}. It then became a field sport in the furusiyya books — sword, shield and lance — played out in the grounds of the Mamluk maydans.
+Mubaraza is the art of single combat with the sword: strike and parry, advance and retreat, on horseback or on foot. Among the Muslims it belongs to the chapters of furusiyya, and the seerah carries the famous duels of Ali ibn Abi Talib in the great battles.
 
-## ('Overview', 'In the sources')
+## In the seerah
 
-Related records in the graph: [[person/ali-ibn-abi-talib]], [[work/kitab-al-furusiyya-wal-manasib-al-harbiyya]], [[sport/furusiyya]].
+At Badr, Ali's duel with al-Walid ibn Utba whom he killed {cite:ibn-hisham-sira}; at the Trench, his duel with Amr ibn Abd Wudd, among the bravest riders of Quraysh — Amr challenged, and when he recognised Ali he recalled his promise to grant him one of three wishes; Ali said: I only want to fight you, and killed him {cite:ibn-hisham-sira}. Likewise Hamza's duel at Badr, and the duels of the champions in the conquests after them.
+
+## In history
+
+Under the Mamluks and Ottomans mubaraza became a sport of the fields: the arts of striking with the rebated sword and thrusting with the blunted lance, the furusiyya schools teaching the duel, and modern fencing — the same old art under a new name in today's games.

@@ -16,6 +16,7 @@ translations:
   en: { text: "We sent Noah (of old) unto his people, and he said: O my people! Serve Allah. Ye have no other Allah save Him. Lo! I fear for you the retribution of an Awful Day.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "ہم نے نوح کو ان کی قوم کی طرف بھیجا تو انہوں نے (ان سے کہا) اے میری برادری کے لوگو خدا کی عبادت کرو اس کے سوا تمہارا کوئی معبود نہیں۔ مجھے تمہارے بارے میں بڑے دن کے عذاب کا (بہت ہی) ڈر ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: group/qawm-nuh, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-7 }
   - { type: mentions, target: person/nuh, sources: [source/tanzil-quran] }
 sensitivity: sacred

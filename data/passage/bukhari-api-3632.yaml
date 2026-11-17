@@ -1,0 +1,16 @@
+id: passage/bukhari-api-3632
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "3632"
+label: { ar: "صحيح البخاري 3632 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sahih al-Bukhari 3632 — mentions of non-Muslim nations, religions and peoples", ur: "صحیح بخاری 3632 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "حَدَّثَنِي أَحْمَدُ بْنُ إِسْحَاقَ، حَدَّثَنَا عُبَيْدُ اللَّهِ بْنُ مُوسَى، حَدَّثَنَا إِسْرَائِيلُ، عَنْ أَبِي إِسْحَاقَ، عَنْ عَمْرِو بْنِ مَيْمُونٍ، عَنْ عَبْدِ اللَّهِ بْنِ مَسْعُودٍ ـ قَالَ انْطَلَقَ سَعْدُ بْنُ مُعَاذٍ مُعْتَمِرًا ـ قَالَ ـ فَنَزَلَ عَلَى أُمَيَّةَ بْنِ خَلَفٍ أَبِي صَفْوَانَ، وَكَانَ أُمَيَّةُ إِذَا انْطَلَقَ إِلَى الشَّأْمِ فَمَرَّ بِالْمَدِينَةِ نَزَلَ عَلَى سَعْدٍ، فَقَالَ أُمَيَّةُ لِسَعْدٍ انْتَظِرْ …"
+summary:
+  ar: "حديث في صحيح البخاري، رقم 3632، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sahih al-Bukhari, no. 3632 (Virtues and Merits of the Prophet (pbuh) and his Companions), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
+  ur: "صحیح بخاری کی حدیث نمبر 3632، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: person/umayya-ibn-khalaf, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 3632 (book 61 hadith 136); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the hadith-api Arabic edition; label and summary are the museum's own words" }

@@ -1,0 +1,16 @@
+id: passage/abudawud-api-1134
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "1134"
+label: { ar: "سنن أبي داود 1134 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sunan Abi Dawud 1134 — mentions of non-Muslim nations, religions and peoples", ur: "سنن ابی داؤد 1134 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "حَدَّثَنَا مُوسَى بْنُ إِسْمَاعِيلَ، حَدَّثَنَا حَمَّادٌ، عَنْ حُمَيْدٍ، عَنْ أَنَسٍ، قَالَ قَدِمَ رَسُولُ اللَّهِ الْمَدِينَةَ وَلَهُمْ يَوْمَانِ يَلْعَبُونَ فِيهِمَا فَقَالَ \" مَا هَذَانِ الْيَوْمَانِ \". قَالُوا كُنَّا نَلْعَبُ فِيهِمَا فِي الْجَاهِلِيَّةِ. فَقَالَ رَسُولُ اللَّهِ \" إِنَّ اللَّهَ قَدْ أَبْدَلَكُمْ بِهِمَا خَيْرًا مِنْهُمَا يَوْمَ الأَضْحَى وَيَوْمَ الْفِطْرِ \"."
+summary:
+  ar: "حديث في سنن أبي داود، رقم 1134، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan Abi Dawud, no. 1134 (Prayer (Kitab Al-Salat)), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
+  ur: "سنن ابی داؤد کی حدیث نمبر 1134، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: group/al-mushrikun, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 1134 (book 2 hadith 745); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the hadith-api Arabic edition; label and summary are the museum's own words" }

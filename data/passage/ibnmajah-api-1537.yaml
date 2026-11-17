@@ -1,0 +1,16 @@
+id: passage/ibnmajah-api-1537
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "1537"
+label: { ar: "سنن ابن ماجه 1537 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sunan Ibn Majah 1537 — mentions of non-Muslim nations, religions and peoples", ur: "سنن ابن ماجہ 1537 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "حَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، حَدَّثَنَا عَبْدُ الرَّحْمَنِ بْنُ مَهْدِيٍّ، عَنِ الْمُثَنَّى بْنِ سَعِيدٍ، عَنْ قَتَادَةَ، عَنْ أَبِي الطُّفَيْلِ، عَنْ حُذَيْفَةَ بْنِ أَسِيدٍ، أَنَّ النَّبِيَّ ـ خَرَجَ بِهِمْ فَقَالَ \" صَلُّوا عَلَى أَخٍ لَكُمْ مَاتَ بِغَيْرِ أَرْضِكُمْ \". قَالُوا: مَنْ هُوَ؟ قَالَ: \" النَّجَاشِيُّ \"."
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 1537، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan Ibn Majah, no. 1537 (Chapters Regarding Funerals), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 1537، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: person/al-najashi, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 1537 (book 6 hadith 105); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the hadith-api Arabic edition; label and summary are the museum's own words" }

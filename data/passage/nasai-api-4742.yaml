@@ -1,0 +1,16 @@
+id: passage/nasai-api-4742
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "4742"
+label: { ar: "سنن النسائي 4742 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sunan al-Nasa'i 4742 — mentions of non-Muslim nations, religions and peoples", ur: "سنن نسائی 4742 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "أَخْبَرَنَا عَلِيُّ بْنُ حُجْرٍ، قَالَ أَنْبَأَنَا يَزِيدُ بْنُ هَارُونَ، عَنْ هَمَّامٍ، عَنْ قَتَادَةَ، عَنْ أَنَسِ بْنِ مَالِكٍ، قَالَ خَرَجَتْ جَارِيَةٌ عَلَيْهَا أَوْضَاحٌ فَأَخَذَهَا يَهُودِيٌّ فَرَضَخَ رَأْسَهَا وَأَخَذَ مَا عَلَيْهَا مِنَ الْحُلِيِّ فَأُدْرِكَتْ وَبِهَا رَمَقٌ فَأُتِيَ بِهَا رَسُولُ اللَّهِ فَقَالَ \" مَنْ قَتَلَكِ فُلاَنٌ \". قَالَتْ بِرَأْسِهَا لاَ. قَالَ \" فُلاَنٌ \". قَالَ حَتَّى سَمَّى الْيَهُودِيَّ …"
+summary:
+  ar: "حديث في سنن النسائي، رقم 4742، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan al-Nasa'i, no. 4742 (The Book of Oaths (qasamah), Retaliation and Blood Money), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
+  ur: "سنن نسائی کی حدیث نمبر 4742، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: group/al-yahud, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 4742 (book 45 hadith 37); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the hadith-api Arabic edition; label and summary are the museum's own words" }

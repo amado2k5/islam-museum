@@ -1,0 +1,178 @@
+---
+// The Muslim Media-Makers Browser (docs/plan/67-i3lam-browser.md): every mention of the
+// muezzin, herald, khatib, state spokesman, katib, journalist, media person, influencer,
+// reformer and revolutionary in the Qur'an, the Sunnah, the seerah and every harvested
+// book — and every book harvested later. Passages surface through the graph's `mentions`
+// edges and the `i3lam-browser` tag at build time; counts are read from the graph.
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import DraftMark from "../../../components/DraftMark.astro";
+import I3lamTransmission from "../../../components/sig/I3lamTransmission.astro";
+import { ui, LANGS, fmt, type Lang } from "../../../lib/i18n";
+import { num } from "../../../lib/nav";
+import { labelOf, stripNeedsSource, byId, href } from "../../../lib/graph";
+import { timelineKey } from "../../../lib/dates";
+import {
+  I3LAM_CORPORA, I3LAM_QURAN, MEDIA_CHAIN, STATE_JOBS,
+  i3lamJobById, i3lamHolders, i3lamFeed, i3lamTagged, i3lamMentionsOf,
+} from "../../../lib/i3lam";
+
+export function getStaticPaths() {
+  return LANGS.map((lang) => ({ params: { lang } }));
+}
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const N = (T as any).i3lam;
+const label = (n: any) => labelOf(n, lang);
+const summaryOf = (n: any) => stripNeedsSource(n.summary?.[lang] ?? n.summary?.ar ?? "").replace(/\s*\{cite:[^}]*\}/g, "").replace(/\s+([.,؛،])/g, "$1");
+const jobLabel = (id: string) => { const j = i3lamJobById.get(id); return j ? label(j) : id.split("/")[1]; };
+
+const FEED_CAP = 24;
+const feedByCorpus = I3LAM_CORPORA.map((c) => ({
+  corpus: c,
+  all: i3lamFeed.filter((i) => i.corpus === c),
+})).map((s) => ({ ...s, items: s.all.slice(0, FEED_CAP) }));
+const feedTotal = i3lamFeed.length;
+
+const quranCards = I3LAM_QURAN.map((q) => ({ ...q, node: byId.get(q.id) })).filter((q) => q.node);
+
+const chain = MEDIA_CHAIN.map((r) => {
+  const holders = i3lamHolders(r.id)
+    .map((p, i) => ({ p, k: timelineKey(p as any).key, i }))
+    .sort((a, b) => a.k - b.k || a.i - b.i)
+    .map((h) => h.p);
+  return { ...r, job: i3lamJobById.get(r.id), holders };
+});
+const stateJobs = STATE_JOBS.map((id) => ({ id, job: i3lamJobById.get(id), holders: i3lamHolders(id) })).filter((s) => s.job);
+const peopleCount = new Set(chain.flatMap((c) => c.holders.map((p) => p.id))).size;
+
+const status = fmt(N.status, {
+  n: num(peopleCount, lang),
+  j: num(chain.filter((c) => c.job).length, lang),
+  f: num(feedTotal, lang),
+  s: num(feedByCorpus.filter((s) => s.all.length > 0).length, lang),
+});
+const corpusNote = (c: string) => (N.corpora?.[c]?.note ?? "");
+const corpusTitle = (c: string) => (N.corpora?.[c]?.title ?? c);
+---
+<BaseLayout lang={lang} title={N.title} description={N.lede} path={`/${lang}/i3lam/`}>
+  <div class="wrap" style="padding-block:10px 20px">
+    <p class="ui" style="display:inline-flex;align-items:center;gap:10px;background:var(--panel);border-radius:999px;padding:8px 16px;margin:0 0 1rem"><span aria-hidden="true" style="width:8px;height:8px;border-radius:50%;background:var(--gold)"></span>{N.badge}</p>
+    <nav class="ui muted" aria-label={T.entity.breadcrumb} style="margin:0 0 .6rem"><a href={`/${lang}/`}>{T.entity.breadcrumb}</a> › {N.title}</nav>
+    <div data-pagefind-body>
+      <h1>{N.title}</h1>
+      <p style="font-size:1.2rem;max-width:var(--measure)">{N.lede}</p>
+      <p class="panel ui" style="max-width:var(--measure);border:1px solid var(--gold)">{status}</p>
+      <h2 id="method-title" style="font-size:1.1rem">{N.method_title}</h2>
+      <p class="muted" style="max-width:var(--measure)">{N.method_note}</p>
+      <p class="ui muted">{N.requirements} <a href={`/${lang}/cite/`}><bdi dir="ltr">docs/engineering/59-i3lam-browser-requirements.md</bdi></a></p>
+    </div>
+
+    <section aria-labelledby="wire-title" style="margin-top:1.6rem">
+      <h2 id="wire-title">{N.wire_title}</h2>
+      <I3lamTransmission lang={lang} />
+    </section>
+
+    <section aria-labelledby="quran-title" style="margin-top:2rem" data-pagefind-body>
+      <h2 id="quran-title">{N.quran_title}</h2>
+      <p class="muted" style="max-width:var(--measure)">{N.quran_note}</p>
+      <ol role="list" style="list-style:none;padding:0;margin:1rem 0;display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px">
+        {quranCards.map((q) => (
+          <li class="panel" style="padding:14px 16px">
+            <a href={href(lang, q.node.id)} style="font-weight:600">{label(q.node)}</a>
+            <p class="muted" style="margin:.3rem 0 0;font-size:.92rem">{N.anchors?.[q.k]}</p>
+          </li>
+        ))}
+      </ol>
+    </section>
+
+    <DraftMark lang={lang} legend />
+
+    <section aria-labelledby="chain-title" style="margin-top:2rem">
+      <h2 id="chain-title">{N.chain_title}</h2>
+      <p class="muted" style="max-width:var(--measure)">{N.chain_note}</p>
+      {chain.map((c) => (
+        <section aria-labelledby={`role-${c.id.split("/")[1]}`} style="margin:1.4rem 0">
+          <h3 id={`role-${c.id.split("/")[1]}`} style="font-size:1.1rem;margin:0 0 .2rem">
+            {c.job ? <a href={href(lang, c.job.id)}>{label(c.job)}</a> : c.id}
+          </h3>
+          {c.job && <p class="muted" style="max-width:var(--measure);margin:0 0 .6rem" dir="auto">{summaryOf(c.job)}</p>}
+          {c.holders.length > 0 ? (
+            <ol role="list" style="list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px">
+              {c.holders.map((p) => (
+                <li class="panel" style="padding:14px 16px">
+                  <a href={href(lang, p.id)} style="font-weight:600">{label(p)}</a><DraftMark lang={lang} node={p} />
+                  <p class="muted" style="margin:.3rem 0 0;font-size:.92rem" dir="auto">{summaryOf(p)}</p>
+                  {i3lamMentionsOf(p.id).length > 0 && (
+                    <p class="ui muted" style="margin:.4rem 0 0;font-size:.8rem">
+                      {fmt(N.mentioned_in, { n: num(i3lamMentionsOf(p.id).length, lang) })}
+                    </p>
+                  )}
+                </li>
+              ))}
+            </ol>
+          ) : (
+            <p class="ui muted">{N.no_holders}</p>
+          )}
+        </section>
+      ))}
+    </section>
+
+    <section aria-labelledby="state-title" style="margin-top:2rem" data-pagefind-body>
+      <h2 id="state-title">{N.state_title}</h2>
+      <p class="muted" style="max-width:var(--measure)">{N.state_note}</p>
+      <ol role="list" style="list-style:none;padding:0;margin:1rem 0;display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:10px">
+        {stateJobs.map((s) => (
+          <li class="panel" style="padding:12px 14px">
+            <a href={href(lang, s.job.id)} style="font-weight:600">{label(s.job)}</a>
+            <span class="ui muted" style="display:block;font-size:.82rem;margin-top:2px">{fmt(N.holders, { n: num(s.holders.length, lang) })}</span>
+          </li>
+        ))}
+      </ol>
+    </section>
+
+    <section aria-labelledby="feed-title" style="margin-top:2rem" data-pagefind-body>
+      <h2 id="feed-title">{N.feed_title}</h2>
+      <p class="muted" style="max-width:var(--measure)">{N.feed_note}</p>
+      {feedByCorpus.filter((s) => s.items.length > 0).map((s) => (
+        <section aria-labelledby={`feed-${s.corpus}`} style="margin:1.4rem 0">
+          <h3 id={`feed-${s.corpus}`} style="font-size:1.1rem;margin:0 0 .2rem">{corpusTitle(s.corpus)} · {num(s.all.length, lang)}</h3>
+          <p class="muted" style="max-width:var(--measure);margin:0 0 .6rem">{corpusNote(s.corpus)}</p>
+          <ol role="list" style="list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px">
+            {s.items.map((i) => (
+              <li class="panel" style="padding:14px 16px">
+                <a href={href(lang, i.node.id)} style="font-weight:600">{label(i.node)}</a><DraftMark lang={lang} node={i.node} />
+                {i.work && <p class="ui muted" style="margin:.15rem 0 0;font-size:.82rem">{label(i.work)}</p>}
+                <p class="muted" style="margin:.3rem 0 0;font-size:.92rem" dir="auto">{summaryOf(i.node)}</p>
+                {i.subjects.length > 0 && (
+                  <p class="ui" style="margin:.4rem 0 0;font-size:.82rem;display:flex;flex-wrap:wrap;gap:6px">
+                    {i.subjects.slice(0, 4).map((sid) => {
+                      const sub = byId.get(sid);
+                      return sub ? <a class="chip" href={href(lang, sid)}>{label(sub)}</a> : null;
+                    })}
+                  </p>
+                )}
+              </li>
+            ))}
+          </ol>
+          {s.all.length > FEED_CAP && <p class="ui muted">{fmt(N.feed_more, { n: num(s.all.length - FEED_CAP, lang) })}</p>}
+        </section>
+      ))}
+      {feedTotal === 0 && <p class="panel ui">{N.feed_empty}</p>}
+    </section>
+
+    {i3lamTagged.length > 0 && (
+      <section aria-labelledby="tagged-title" style="margin-top:2rem">
+        <h2 id="tagged-title">{N.tagged_title}</h2>
+        <p class="muted" style="max-width:var(--measure)">{N.tagged_note}</p>
+        <ol role="list" style="list-style:none;padding:0;margin:1rem 0;display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px">
+          {i3lamTagged.map((n) => (
+            <li class="panel" style="padding:14px 16px">
+              <a href={href(lang, n.id)} style="font-weight:600">{label(n)}</a><DraftMark lang={lang} node={n} />
+              <p class="muted" style="margin:.3rem 0 0;font-size:.92rem" dir="auto">{summaryOf(n)}</p>
+            </li>
+          ))}
+        </ol>
+      </section>
+    )}
+  </div>
+</BaseLayout>

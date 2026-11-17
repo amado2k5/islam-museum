@@ -16,6 +16,7 @@ translations:
   en: { text: "Within ten years - Allah's is the command in the former case and in the latter - and in that day believers will rejoice", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "چند ہی سال میں پہلے بھی اور پیچھے بھی خدا ہی کا حکم ہے اور اُس روز مومن خوش ہوجائیں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: group/al-rum, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-30 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

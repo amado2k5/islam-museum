@@ -16,6 +16,7 @@ translations:
   en: { text: "Say: O disbelievers!", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "(اے پیغمبر ان منکران اسلام سے) کہہ دو کہ اے کافرو!", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: group/al-mushrikun, sources: [source/tanzil-quran] }
   - { type: revealed_about, target: event/persecution-of-mustadafin, sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
   - { type: part_of, target: passage/quran-109 }
   - { type: mentions, target: concept/asma-al-rahim, sources: [source/tanzil-quran] }

@@ -16,6 +16,7 @@ translations:
   en: { text: "And Noah's folk, when they denied the messengers, We drowned them and made of them a portent for mankind. We have prepared a painful doom for evil-doers.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اور نوح کی قوم نے بھی جب پیغمبروں کو جھٹلایا تو ہم نے انہیں غرق کر ڈالا اور لوگوں کے لئے نشانی بنا دیا۔ اور ظالموں کے لئے ہم نے دکھ دینے والا عذاب تیار کر رکھا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: group/qawm-nuh, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-25 }
   - { type: mentions, target: person/nuh, sources: [source/tanzil-quran] }
 sensitivity: sacred

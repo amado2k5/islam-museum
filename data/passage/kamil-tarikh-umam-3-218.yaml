@@ -1,0 +1,19 @@
+id: passage/kamil-tarikh-umam-3-218
+class: passage
+unit: chapter
+work: work/al-kamil-fi-al-tarikh
+ref: "3:218"
+label: { ar: "الكامل في التاريخ لابن الأثير، المجلد المصوَّر 3، ص 218 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Ibn al-Athir's al-Kamil fi al-Tarikh, scan volume 3, p. 218 — mentions of non-Muslim nations, religions and peoples", ur: "الکامل فی التاریخ، ابن الاثیر، اسکین جلد 3، ص 218 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "… فقتلهما بعد أن وفى لهما بما ضمن لهما. وقال: ليس ينبغي أن يستبقي قاتل الملوك إلا بذمة لا تخفر. وكان التقاؤهما بناحية خراسان مما يلي الخزر، وقيل ببلاد الجزيرة عند دارا. وكان ملك الروم قبل الإسكندر متفرقًا فاجتمع، وملك فارس …"
+summary:
+  ar: "مقطع من الكامل في التاريخ لابن الأثير، المجلد المصوَّر 3، ص 218، فيه ذكر أمم وأديان وشعوب غير مسلمة؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة."
+  en: "An excerpt from Ibn al-Athir's al-Kamil fi al-Tarikh, scan volume 3, p. 218, with mentions of non-Muslim nations, religions and peoples; from the machine-read scan, quoted within forty words per the sources policy. The Umam Browser lists it."
+  ur: "الکامل فی التاریخ، ابن الاثیر، اسکین جلد 3، ص 218 کا اقتباس جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: group/al-rum, sources: [source/kamil-ibn-al-athir] }
+  - { type: mentions, target: group/persians, sources: [source/kamil-ibn-al-athir] }
+  - { type: mentions, target: person/heraclius, sources: [source/kamil-ibn-al-athir] }
+  - { type: mentions, target: person/kisra-abrawiz, sources: [source/kamil-ibn-al-athir] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan tareekh/kamil-tarikh/AAlexandrina-155607, page 218; a window of at most 40 words chosen by the umam detector (scripts/umam.ts); OCR text not corrected", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-ocr-1" }
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the OCR'd book; label and summary are the museum's own words" }

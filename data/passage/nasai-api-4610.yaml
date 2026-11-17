@@ -1,0 +1,16 @@
+id: passage/nasai-api-4610
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "4610"
+label: { ar: "سنن النسائي 4610 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sunan al-Nasa'i 4610 — mentions of non-Muslim nations, religions and peoples", ur: "سنن نسائی 4610 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "أَخْبَرَنَا إِسْمَاعِيلُ بْنُ مَسْعُودٍ، قَالَ حَدَّثَنَا خَالِدٌ، قَالَ حَدَّثَنَا هِشَامٌ، قَالَ حَدَّثَنَا قَتَادَةُ، عَنْ أَنَسِ بْنِ مَالِكٍ، أَنَّهُ مَشَى إِلَى رَسُولِ اللَّهِ بِخُبْزِ شَعِيرٍ وَإِهَالَةٍ سَنِخَةٍ. قَالَ وَلَقَدْ رَهَنَ دِرْعًا لَهُ عِنْدَ يَهُودِيٍّ بِالْمَدِينَةِ وَأَخَذَ مِنْهُ شَعِيرًا لأَهْلِهِ."
+summary:
+  ar: "حديث في سنن النسائي، رقم 4610، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan al-Nasa'i, no. 4610 (The Book of Financial Transactions), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
+  ur: "سنن نسائی کی حدیث نمبر 4610، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: group/al-yahud, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 4610 (book 44 hadith 162); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the hadith-api Arabic edition; label and summary are the museum's own words" }

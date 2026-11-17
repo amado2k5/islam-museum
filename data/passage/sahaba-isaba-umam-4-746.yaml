@@ -1,0 +1,19 @@
+id: passage/sahaba-isaba-umam-4-746
+class: passage
+unit: chapter
+work: work/al-isaba-fi-tamyiz-al-sahaba
+ref: "4:746"
+label: { ar: "الإصابة لابن حجر، المجلد المصوَّر 4، ص 746 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Ibn Hajar's al-Isaba, scan volume 4, p. 746 — mentions of non-Muslim nations, religions and peoples", ur: "الاصابہ، ابن حجر، اسکین جلد 4، ص 746 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "… ميفعة آهل فارس الفرس أهل نجد أهل الفتح، أهل نجران،،،، أهل فلسطين،،،،، ٬،.،، ,، أهل النجير، أهل النسب النسابون أهل القادسية،،، أهل نصيبين، أهل قباء ٬،، أهل نعمان أهل قريظة بنو قريظة آهل النفاق المنافقون أهل القيروان، أهل النقل،، أهل …"
+summary:
+  ar: "مقطع من الإصابة لابن حجر، المجلد المصوَّر 4، ص 746، فيه ذكر أمم وأديان وشعوب غير مسلمة؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة."
+  en: "An excerpt from Ibn Hajar's al-Isaba, scan volume 4, p. 746, with mentions of non-Muslim nations, religions and peoples; from the machine-read scan, quoted within forty words per the sources policy. The Umam Browser lists it."
+  ur: "الاصابہ، ابن حجر، اسکین جلد 4، ص 746 کا اقتباس جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: group/banu-qurayza, sources: [source/isaba] }
+  - { type: mentions, target: group/christians-of-najran, sources: [source/isaba] }
+  - { type: mentions, target: group/persians, sources: [source/isaba] }
+  - { type: mentions, target: concept/munafiq, sources: [source/isaba] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan sahaba/isaba/HJR1995ARAR, page 746; a window of at most 40 words chosen by the umam detector (scripts/umam.ts); OCR text not corrected", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-ocr-1" }
+sources: [source/isaba]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the OCR'd book; label and summary are the museum's own words" }

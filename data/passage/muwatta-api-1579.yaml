@@ -1,0 +1,17 @@
+id: passage/muwatta-api-1579
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "1579"
+label: { ar: "موطأ مالك 1579 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Muwatta Malik 1579 — mentions of non-Muslim nations, religions and peoples", ur: "موطأ مالک 1579 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "وَحَدَّثَنِي يَحْيَى، عَنْ مَالِكٍ، أَنَّهُ بَلَغَهُ أَنَّ عُمَرَ بْنَ عَبْدِ الْعَزِيزِ، قَضَى أَنَّ دِيَةَ الْيَهُودِيِّ، أَوِ النَّصْرَانِيِّ - إِذَا قُتِلَ أَحَدُهُمَا - مِثْلُ نِصْفِ دِيَةِ الْحُرِّ الْمُسْلِمِ. قَالَ مَالِكٌ الأَمْرُ عِنْدَنَا أَنْ لاَ يُقْتَلَ مُسْلِمٌ بِكَافِرٍ إِلاَّ أَنْ يَقْتُلَهُ مُسْلِمٌ قَتْلَ غِيْلَةٍ فَيُقْتَلُ بِهِ."
+summary:
+  ar: "حديث في موطأ مالك، رقم 1579، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Muwatta Malik, no. 1579 (Blood-Money), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
+  ur: "موطأ مالک کی حدیث نمبر 1579، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: group/al-yahud, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: group/al-nasara, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 1579 (book 43 hadith 28); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }
+sources: [source/muwatta-malik, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the hadith-api Arabic edition; label and summary are the museum's own words" }

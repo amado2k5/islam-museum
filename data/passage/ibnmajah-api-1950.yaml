@@ -1,0 +1,17 @@
+id: passage/ibnmajah-api-1950
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "1950"
+label: { ar: "سنن ابن ماجه 1950 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sunan Ibn Majah 1950 — mentions of non-Muslim nations, religions and peoples", ur: "سنن ابن ماجہ 1950 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا عَبْدُ السَّلاَمِ بْنُ حَرْبٍ، عَنْ إِسْحَاقَ بْنِ عَبْدِ اللَّهِ بْنِ أَبِي فَرْوَةَ، عَنْ أَبِي وَهْبٍ الْجَيْشَانِيِّ، عَنْ أَبِي خِرَاشٍ الرُّعَيْنِيِّ، عَنِ الدَّيْلَمِيِّ، قَالَ قَدِمْتُ عَلَى رَسُولِ اللَّهِ ـ وَعِنْدِي أُخْتَانِ تَزَوَّجْتُهُمَا فِي الْجَاهِلِيَّةِ. فَقَالَ \" إِذَا رَجَعْتَ فَطَلِّقْ إِحْدَاهُمَا \"."
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 1950، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan Ibn Majah, no. 1950 (The Chapters on Marriage), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 1950، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: group/al-mushrikun, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: person/abdullah-ibn-ubayy, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 1950 (book 9 hadith 106); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the hadith-api Arabic edition; label and summary are the museum's own words" }

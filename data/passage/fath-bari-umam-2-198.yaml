@@ -1,0 +1,19 @@
+id: passage/fath-bari-umam-2-198
+class: passage
+unit: chapter
+work: work/fath-al-bari
+ref: "2:198"
+label: { ar: "فتح الباري لابن حجر، المجلد المصوَّر 2، ص 198 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Ibn Hajar's Fath al-Bari, scan volume 2, p. 198 — mentions of non-Muslim nations, religions and peoples", ur: "فتح الباری، ابن حجر، اسکین جلد 2، ص 198 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "فضل الجهاد والسير لإحاطة البحار بها، يعنى بحر الهند وبحر القلزم وبحر فارس وبحر الحبشة، وأضيفت إلى العرب لأنها كانت بأيديهم قبل الإسلام وبها أوطانهم ومنازلهم، لكن الذى يمنع المشركون من سكناه منها الحجاز خاصة وهو مكة والمدينة والمامة وما …"
+summary:
+  ar: "مقطع من فتح الباري لابن حجر، المجلد المصوَّر 2، ص 198، فيه ذكر أمم وأديان وشعوب غير مسلمة؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة."
+  en: "An excerpt from Ibn Hajar's Fath al-Bari, scan volume 2, p. 198, with mentions of non-Muslim nations, religions and peoples; from the machine-read scan, quoted within forty words per the sources policy. The Umam Browser lists it."
+  ur: "فتح الباری، ابن حجر، اسکین جلد 2، ص 198 کا اقتباس جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: group/persians, sources: [source/fath-al-bari] }
+  - { type: mentions, target: group/al-habasha, sources: [source/fath-al-bari] }
+  - { type: mentions, target: group/al-hind, sources: [source/fath-al-bari] }
+  - { type: mentions, target: group/al-mushrikun, sources: [source/fath-al-bari] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan hadith/fath-bari/FathAlBariSheibetalhamd, page 198; a window of at most 40 words chosen by the umam detector (scripts/umam.ts); OCR text not corrected", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-ocr-1" }
+sources: [source/fath-al-bari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the OCR'd book; label and summary are the museum's own words" }

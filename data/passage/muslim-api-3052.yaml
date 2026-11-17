@@ -1,0 +1,16 @@
+id: passage/muslim-api-3052
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "3052"
+label: { ar: "صحيح مسلم 3052 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sahih Muslim 3052 — mentions of non-Muslim nations, religions and peoples", ur: "صحیح مسلم 3052 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "وَحَدَّثَنَا أَبُو كَامِلٍ الْجَحْدَرِيُّ، حَدَّثَنَا سُلَيْمُ بْنُ أَخْضَرَ، حَدَّثَنَا عُبَيْدُ اللَّهِ بْنُ عُمَرَ، عَنْ نَافِعٍ، أَنَّ ابْنَ عُمَرَ، رَمَلَ مِنَ الْحَجَرِ إِلَى الْحَجَرِ وَذَكَرَ أَنَّ رَسُولَ اللَّهِ فَعَلَهُ."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 3052، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sahih Muslim, no. 3052 (The Book of Pilgrimage), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
+  ur: "صحیح مسلم کی حدیث نمبر 3052، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: group/thamud, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 3052 (book 15 hadith 258); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the hadith-api Arabic edition; label and summary are the museum's own words" }

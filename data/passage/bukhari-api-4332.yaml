@@ -1,0 +1,16 @@
+id: passage/bukhari-api-4332
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "4332"
+label: { ar: "صحيح البخاري 4332 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sahih al-Bukhari 4332 — mentions of non-Muslim nations, religions and peoples", ur: "صحیح بخاری 4332 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "حَدَّثَنَا سُلَيْمَانُ بْنُ حَرْبٍ، حَدَّثَنَا شُعْبَةُ، عَنْ أَبِي التَّيَّاحِ، عَنْ أَنَسٍ، قَالَ لَمَّا كَانَ يَوْمَ فَتْحِ مَكَّةَ قَسَمَ رَسُولُ اللَّهِ غَنَائِمَ بَيْنَ قُرَيْشٍ. فَغَضِبَتِ الأَنْصَارُ قَالَ النَّبِيُّ \" أَمَا تَرْضَوْنَ أَنْ يَذْهَبَ النَّاسُ بِالدُّنْيَا، وَتَذْهَبُونَ بِرَسُولِ اللَّهِ \". قَالُوا بَلَى. قَالَ \" لَوْ سَلَكَ النَّاسُ وَادِيًا أَوْ شِعْبًا لَسَلَكْتُ وَادِيَ الأَنْصَارِ أَوْ شِعْبَهُمْ \"."
+summary:
+  ar: "حديث في صحيح البخاري، رقم 4332، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sahih al-Bukhari, no. 4332 (Military Expeditions led by the Prophet (pbuh) (Al-Maghaazi)), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
+  ur: "صحیح بخاری کی حدیث نمبر 4332، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: group/quraysh, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 4332 (book 64 hadith 361); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the hadith-api Arabic edition; label and summary are the museum's own words" }

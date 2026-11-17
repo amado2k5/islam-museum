@@ -1,0 +1,19 @@
+id: passage/sahaba-isaba-umam-5-548
+class: passage
+unit: chapter
+work: work/al-isaba-fi-tamyiz-al-sahaba
+ref: "5:548"
+label: { ar: "الإصابة لابن حجر، المجلد المصوَّر 5، ص 548 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Ibn Hajar's al-Isaba, scan volume 5, p. 548 — mentions of non-Muslim nations, religions and peoples", ur: "الاصابہ، ابن حجر، اسکین جلد 5، ص 548 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "… بن قرقب ومنهم من لم يذكر مينا كما حزم به أبو عمر الكندى فى أمراء مصر فقال المقوقس بن قرقوب أمير القبط بمصر من قبل ملك الروم ذكره ابن مندة فى الصحابة فقال مقوقس صاحب الاسكندرية روى عنه عبيد اللّه …"
+summary:
+  ar: "مقطع من الإصابة لابن حجر، المجلد المصوَّر 5، ص 548، فيه ذكر أمم وأديان وشعوب غير مسلمة؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة."
+  en: "An excerpt from Ibn Hajar's al-Isaba, scan volume 5, p. 548, with mentions of non-Muslim nations, religions and peoples; from the machine-read scan, quoted within forty words per the sources policy. The Umam Browser lists it."
+  ur: "الاصابہ، ابن حجر، اسکین جلد 5، ص 548 کا اقتباس جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: group/al-rum, sources: [source/isaba] }
+  - { type: mentions, target: group/al-qibt, sources: [source/isaba] }
+  - { type: mentions, target: person/heraclius, sources: [source/isaba] }
+  - { type: mentions, target: person/al-muqawqis, sources: [source/isaba] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan sahaba/isaba/isaba_tamiz_sahaba, page 548; a window of at most 40 words chosen by the umam detector (scripts/umam.ts); OCR text not corrected", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-ocr-1" }
+sources: [source/isaba]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the OCR'd book; label and summary are the museum's own words" }

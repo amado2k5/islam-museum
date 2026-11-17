@@ -16,6 +16,7 @@ translations:
   en: { text: "Say (O Muhammad, to the disbelievers): Travel in the land, and see the nature of the consequence for those who were before you! Most of them were idolaters.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "کہہ دو کہ ملک میں چلو پھرو اور دیکھو کہ جو لوگ (تم سے) پہلے ہوئے ہیں ان کا کیسا انجام ہوا ہے۔ ان میں زیادہ تر مشرک ہی تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: group/al-mushrikun, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-30 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

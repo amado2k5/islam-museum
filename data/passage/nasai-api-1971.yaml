@@ -1,0 +1,16 @@
+id: passage/nasai-api-1971
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "1971"
+label: { ar: "سنن النسائي 1971 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sunan al-Nasa'i 1971 — mentions of non-Muslim nations, religions and peoples", ur: "سنن نسائی 1971 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "أَخْبَرَنَا سُوَيْدُ بْنُ نَصْرٍ، قَالَ أَنْبَأَنَا عَبْدُ اللَّهِ، عَنْ مَالِكٍ، عَنِ ابْنِ شِهَابٍ، عَنْ سَعِيدِ بْنِ الْمُسَيَّبِ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ النَّبِيَّ نَعَى لِلنَّاسِ النَّجَاشِيَّ الْيَوْمَ الَّذِي مَاتَ فِيهِ ثُمَّ خَرَجَ بِهِمْ إِلَى الْمُصَلَّى فَصَفَّ بِهِمْ فَصَلَّى عَلَيْهِ وَكَبَّرَ أَرْبَعَ تَكْبِيرَاتٍ."
+summary:
+  ar: "حديث في سنن النسائي، رقم 1971، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan al-Nasa'i, no. 1971 (The Book of Funerals), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
+  ur: "سنن نسائی کی حدیث نمبر 1971، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: person/al-najashi, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 1971 (book 21 hadith 154); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the hadith-api Arabic edition; label and summary are the museum's own words" }

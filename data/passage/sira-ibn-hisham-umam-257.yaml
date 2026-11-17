@@ -1,0 +1,18 @@
+id: passage/sira-ibn-hisham-umam-257
+class: passage
+unit: chapter
+work: work/sira-ibn-ishaq-ibn-hisham
+ref: "257"
+label: { ar: "السيرة النبوية لابن هشام، ص 257 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Ibn Hisham's Sira, p. 257 — mentions of non-Muslim nations, religions and peoples", ur: "سیرت ابن ہشام، ص 257 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "… اليهود والنصارى عند الرسول ول فه م قال ابن إسحاق: ولما قَدِمَ أَهْلُ نَجْرَانَ من النَّصارَى عَلى رَسول اللّٰه وَلِفِ ؛، أَتَنْهُمْ أَحْبارُ يَهُودَ، فتَنازعوا عند رسول اللٰه الف، فقال رَافِعُ بن حُرَيْملَةَ: ما أنتم على شَيْءٍ، وكَفَرَ بِعِيسى وبالإنجيل، …"
+summary:
+  ar: "مقطع من السيرة النبوية لابن هشام، ص 257، فيه ذكر أمم وأديان وشعوب غير مسلمة؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة."
+  en: "An excerpt from Ibn Hisham's Sira, p. 257, with mentions of non-Muslim nations, religions and peoples; from the machine-read scan, quoted within forty words per the sources policy. The Umam Browser lists it."
+  ur: "سیرت ابن ہشام، ص 257 کا اقتباس جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: group/al-yahud, sources: [source/ibn-hisham-sira] }
+  - { type: mentions, target: group/al-nasara, sources: [source/ibn-hisham-sira] }
+  - { type: mentions, target: group/christians-of-najran, sources: [source/ibn-hisham-sira] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan seerah/sira-ibn-hisham/20251231_20251231_0914, page 257; a window of at most 40 words chosen by the umam detector (scripts/umam.ts); OCR text not corrected", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-ocr-1" }
+sources: [source/ibn-hisham-sira]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the OCR'd book; label and summary are the museum's own words" }

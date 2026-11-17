@@ -1,0 +1,16 @@
+id: passage/nasai-api-3366
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "3366"
+label: { ar: "سنن النسائي 3366 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sunan al-Nasa'i 3366 — mentions of non-Muslim nations, religions and peoples", ur: "سنن نسائی 3366 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "أَخْبَرَنَا مُحَمَّدُ بْنُ سَلَمَةَ، وَالْحَارِثُ بْنُ مِسْكِينٍ، قِرَاءَةً عَلَيْهِ وَأَنَا أَسْمَعُ، - وَاللَّفْظُ لَهُ - قَالَ أَنْبَأَنَا ابْنُ الْقَاسِمِ، عَنْ مَالِكٍ، عَنِ ابْنِ شِهَابٍ، عَنْ عَبْدِ اللَّهِ، وَالْحَسَنِ، ابْنَىْ مُحَمَّدِ بْنِ عَلِيٍّ عَنْ أَبِيهِمَا، عَنْ عَلِيِّ بْنِ أَبِي طَالِبٍ، أَنَّ رَسُولَ اللَّهِ نَهَى عَنْ مُتْعَةِ النِّسَاءِ يَوْمَ خَيْبَرَ وَعَنْ لُحُومِ الْحُمُرِ الإِنْسِيَّةِ."
+summary:
+  ar: "حديث في سنن النسائي، رقم 3366، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan al-Nasa'i, no. 3366 (The Book of Marriage), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
+  ur: "سنن نسائی کی حدیث نمبر 3366، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: group/jews-of-khaybar, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 3366 (book 26 hadith 171); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the hadith-api Arabic edition; label and summary are the museum's own words" }

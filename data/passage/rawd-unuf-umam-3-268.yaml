@@ -1,0 +1,18 @@
+id: passage/rawd-unuf-umam-3-268
+class: passage
+unit: chapter
+work: work/al-rawd-al-unuf
+ref: "3:268"
+label: { ar: "الروض الأنف للسهيلي، المجلد المصوَّر 3، ص 268 — ذكر أمم وأديان وشعوب غير مسلمة", en: "al-Suhayli's al-Rawd al-Unuf, scan volume 3, p. 268 — mentions of non-Muslim nations, religions and peoples", ur: "الروض الانف، سہیلی، اسکین جلد 3، ص 268 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "… وأتاهم عدوّهم من فوقهم ومن. أسفلَ منهم، حتى علنّ المؤمنون كل ظَنّ، وتَجَم التَّفَاق من بعض المنافقين، دحتى قال مُعَتِّب بن قُشير، أخو فتى حمرو بن عوف : كان ممد كيدنا أن نأكل، كنوز كسرى وقيصر، وأحدنا اليوم لا يأمن …"
+summary:
+  ar: "مقطع من الروض الأنف للسهيلي، المجلد المصوَّر 3، ص 268، فيه ذكر أمم وأديان وشعوب غير مسلمة؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة."
+  en: "An excerpt from al-Suhayli's al-Rawd al-Unuf, scan volume 3, p. 268, with mentions of non-Muslim nations, religions and peoples; from the machine-read scan, quoted within forty words per the sources policy. The Umam Browser lists it."
+  ur: "الروض الانف، سہیلی، اسکین جلد 3، ص 268 کا اقتباس جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: person/heraclius, sources: [source/al-rawd-al-unf] }
+  - { type: mentions, target: person/kisra-abrawiz, sources: [source/al-rawd-al-unf] }
+  - { type: mentions, target: concept/munafiq, sources: [source/al-rawd-al-unf] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan seerah/rawd-unuf/Rawd_Al_Enf_Siheili, page 268; a window of at most 40 words chosen by the umam detector (scripts/umam.ts); OCR text not corrected", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-ocr-1" }
+sources: [source/al-rawd-al-unf]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the OCR'd book; label and summary are the museum's own words" }

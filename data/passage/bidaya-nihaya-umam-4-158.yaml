@@ -1,0 +1,19 @@
+id: passage/bidaya-nihaya-umam-4-158
+class: passage
+unit: chapter
+work: work/al-bidaya-wal-nihaya
+ref: "4:158"
+label: { ar: "البداية والنهاية لابن كثير، المجلد المصوَّر 4، ص 158 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Ibn Kathir's al-Bidaya wa-l-Nihaya, scan volume 4, p. 158 — mentions of non-Muslim nations, religions and peoples", ur: "البدایہ والنہایہ، ابن کثیر، اسکین جلد 4، ص 158 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "… هارباً من بلد إلى بلد، خوفاً من الإسلام وأهله، وهو آخر ملوك الفرس في الدنيا على الإطلاق، لقول رسول اللٰه لي: إِذَا هَلَكَ قَيْصَرُ فَلاَ فَيْصَرَ بَعْدَهُ، وَإِذَا هَلَكَ كِسْرَى فَلاَ الزمزمة : صوت له دويّ. وكان الأعاجم يزمزمون قبل …"
+summary:
+  ar: "مقطع من البداية والنهاية لابن كثير، المجلد المصوَّر 4، ص 158، فيه ذكر أمم وأديان وشعوب غير مسلمة؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة."
+  en: "An excerpt from Ibn Kathir's al-Bidaya wa-l-Nihaya, scan volume 4, p. 158, with mentions of non-Muslim nations, religions and peoples; from the machine-read scan, quoted within forty words per the sources policy. The Umam Browser lists it."
+  ur: "البدایہ والنہایہ، ابن کثیر، اسکین جلد 4، ص 158 کا اقتباس جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: group/persians, sources: [source/al-bidaya-wal-nihaya] }
+  - { type: mentions, target: group/al-ajam, sources: [source/al-bidaya-wal-nihaya] }
+  - { type: mentions, target: person/heraclius, sources: [source/al-bidaya-wal-nihaya] }
+  - { type: mentions, target: person/kisra-abrawiz, sources: [source/al-bidaya-wal-nihaya] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan tareekh/bidaya-nihaya/AAlexandrina-146772, page 158; a window of at most 40 words chosen by the umam detector (scripts/umam.ts); OCR text not corrected", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-ocr-1" }
+sources: [source/al-bidaya-wal-nihaya]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the OCR'd book; label and summary are the museum's own words" }

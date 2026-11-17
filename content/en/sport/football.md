@@ -4,10 +4,14 @@ lang: en
 source_lang: ar
 translators: ["Devin (SWE-2 Medium), draft translation"]
 ---
-## نظرة عامة
+## Overview
 
-The most followed sport in the Muslim lands today, played in every country from ocean to ocean; its players on record in the museum include Mohamed Salah and the stars of the national teams and leagues. It has its World Cup and all beneath it, and Muslim-majority countries have hosted and contested it in our time {cite:wikipedia-2034-fifa-world-cup-en}.
+Modern football is the widest sport in the Muslim world today: every Muslim land has its clubs and national teams, the Muslims count the greatest players of the modern game among them, and its ancestors lie in the ball games of the Islamic cities {cite:kura}.
 
-## ('Overview', 'In the sources')
+## In the Muslim world
 
-Related records in the graph: [[person/mohamed-salah]].
+Football entered Muslim lands in the nineteenth and twentieth centuries: among the oldest clubs are Egypt's Al Ahly (1907) and Zamalek, Esperance, Wydad and Entente Setif in the Maghrib, Turkey's three Istanbul giants Fenerbahce, Besiktas and Galatasaray, and the clubs of Iran, Indonesia and the Gulf. Among its Muslim greats: Zinedine Zidane, Mohamed Salah, Karim Benzema, Sadio Mane, Riyad Mahrez, Mustapha Hadji and countless more {cite:mohamed-salah}.
+
+## In the events
+
+Qatar hosted the 2022 World Cup — the first in a Muslim country and in the Middle East — won by Argentina. In 2030 Morocco co-hosts with Spain and Portugal, and in 2034 Saudi Arabia. France won 1998 and 2018 with famous Muslim players in the side. Muslim women have their national teams in many countries, and FIFA decided the hijab question in 2014 after the debate with the Asian confederation.

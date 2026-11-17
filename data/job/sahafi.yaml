@@ -1,0 +1,40 @@
+id: job/sahafi
+class: job
+label: { ar: "الصحفي", en: "Journalist (sahafi)", ur: "صحافی" }
+names:
+  - { value: "صاحب الجريدة", kind: alternate }
+  - { value: "محرر صحفي", kind: alternate }
+  - { value: "مُراسِل", kind: alternate }
+  - { value: "journaliste", kind: latinized }
+summary:
+  ar: "الصحفي من يجمع الخبر ويحرّره وينشره في صحيفة أو مجلة؛ والمهنة وُلدت في العالم الإسلامي مع أولى الصحف العربية — «الوقائع المصرية» ⁦(1828)⁩ التي تولاها رفاعة رافع الطهطاوي، «حديقة الأخبار» لخليل الخوري ⁦(1858)⁩، «الجوائب» لأحمد فارس الشدياق ⁦(1860)⁩ الذي اختار لفظ «جريدة»، و«الأهرام» ⁦(1875)⁩ — وصار لفظ «صحافة» ⁦(sıhâfe)⁩ من عُرف نجيب الحداد وإبراهيم اليازجي. حمل الصحفي في بلاد الإسلام تراث المنادي والخطيب والكاتب: أذاع الخبر العام بعد أن كان حكراً للديوان، ورأس تحريره مدرسةً للرأي العام — من محمد حسين هيكل في الأهرام إلى آلاف الجرائد والمجلات التي أحصى الطرازي حتى ١٩٢٩ نحو ٥٥٠ جريدة في القاهرة وحدها."
+  en: "The sahafi gathers, edits and publishes news in a newspaper or magazine; the profession was born in the Islamic world with the first Arabic papers — al-Waqa'i' al-Misriyya (1828), run by Rifa'a al-Tahtawi; Khalil al-Khuri's Hadiqat al-akhbar (1858); Ahmad Faris al-Shidyaq's al-Jawa'ib (1860), which chose the word jarida; and al-Ahram (1875) — and the very word sihafa (journalism) is credited to Najib al-Haddad and Ibrahim al-Yaziji. The journalist inherited the trades of crier, preacher and secretary: he made public the news that had been the chancery's preserve, and his editorship schooled public opinion — from Muhammad Husayn Haykal at al-Ahram to the roughly 550 Cairo newspapers al-Tarrazi counted by 1929."
+  ur: "صحافی وہ ہے جو خبر جمع، ترمیم اور اخبار یا رسالے میں شائع کرتا ہے؛ یہ پیشہ اسلامی دنیا میں پہلے عربی اخبارات کے ساتھ پیدا ہوا — «الوقائع المصریہ» ⁦(1828)⁩ جسے رفاعہ الطہطاوی نے چلایا، خلیل الخوری کی «حديقۃ الاخبار» ⁦(1858)⁩، احمد فارس الشدیاق کی «الجوائب» ⁦(1860)⁩ جس نے «جریدہ» کا لفظ چنا، اور «الاہرام» ⁦(1875)⁩ — اور «صحافت» ⁦(صحافہ)⁩ کا اطلاق نجیب الحداد اور ابراہیم اليازجی سے منسوب ہے۔ صحافی نے منادی، خطیب اور کاتب کی میراث سنبھالی: وہ خبر عام کرتا جو پہلے دیوان کی ملکیت تھی، اور اس کی ادارت نے رائے عامہ کی تربیت کی — الاہرام کے محمد حسین ہیکل سے لکر ان جرائد تک جنہیں طرازی نے 1929ء تک قاہرہ میں ساڑھے پانچ سو گنا۔"
+domain: media-performance
+kind: modern-profession
+hirfa: false
+era:
+  origins: modern
+  status_today: living
+places:
+  - { place: place/cairo, note: "Al-Waqa'i' al-Misriyya (1828), the first Arabic paper, under Rifa'a al-Tahtawi; by 1929 Cairo had seen about 550 newspapers and 500 magazines, al-Ahram becoming under Haykal a major press house.", sources: [source/tdv-matbuat] }
+  - { place: place/bayrut, note: "Khalil al-Khuri's Hadiqat al-akhbar (1858) was the first Beirut Arabic paper; about 180 papers and 115 magazines appeared there by 1929.", sources: [source/tdv-matbuat] }
+  - { place: place/istanbul, note: "Ahmad Faris al-Shidyaq founded al-Jawa'ib in 1860 and coined 'jarida'; the Ottoman capital housed the state and independent press.", sources: [source/tdv-matbuat] }
+regions: [egypt-nile, levant-iraq, anatolia-balkans, maghreb, arabia, persia-central-asia, south-asia, southeast-asia]
+organization:
+  organized: mixed
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people]
+periods: [period/modern-era, period/contemporary-era]
+sources: [source/tdv-matbuat, source/tdv-matbaa]
+training:
+  mode: formal-schooling
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), i3lam-browser" }
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi, 'MATBUAT' (Ayyıldız, Kahraman, Yazıcı, 2003, sections 1–3) for the birth, names and counting of the Arabic press, and 'MATBAA' (Beydilli, Kurtuluş, Kut, 2003) for the presses that made it possible; web edition read on 17 Nov 2026"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "i3lam-browser"

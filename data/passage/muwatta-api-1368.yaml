@@ -1,0 +1,16 @@
+id: passage/muwatta-api-1368
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "1368"
+label: { ar: "موطأ مالك 1368 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Muwatta Malik 1368 — mentions of non-Muslim nations, religions and peoples", ur: "موطأ مالک 1368 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "وَحَدَّثَنِي مَالِكٌ، عَنْ زَيْدِ بْنِ أَسْلَمَ، أَنَّهُ قَالَ كَانَ الرِّبَا فِي الْجَاهِلِيَّةِ أَنْ يَكُونَ لِلرَّجُلِ عَلَى الرَّجُلِ الْحَقُّ إِلَى أَجَلٍ فَإِذَا حَلَّ الأَجَلُ قَالَ أَتَقْضِي أَمْ تُرْبِي فَإِنْ قَضَى أَخَذَ وَإِلاَّ زَادَهُ فِي حَقِّهِ وَأَخَّرَ عَنْهُ فِي الأَجَلِ. قَالَ مَالِكٌ وَالأَمْرُ الْمَكْرُوهُ الَّذِي لاَ اخْتِلاَفَ فِيهِ عِنْدَنَا أَنْ يَكُونَ لِلرَّجُلِ عَلَى الرَّجُلِ الدَّيْنُ إِلَى أَجَلٍ …"
+summary:
+  ar: "حديث في موطأ مالك، رقم 1368، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Muwatta Malik, no. 1368 (Business Transactions), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
+  ur: "موطأ مالک کی حدیث نمبر 1368، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: group/al-mushrikun, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 1368 (book 31 hadith 30); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }
+sources: [source/muwatta-malik, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the hadith-api Arabic edition; label and summary are the museum's own words" }

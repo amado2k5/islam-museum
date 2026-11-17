@@ -1,0 +1,16 @@
+id: passage/abudawud-api-3833
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "3833"
+label: { ar: "سنن أبي داود 3833 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sunan Abi Dawud 3833 — mentions of non-Muslim nations, religions and peoples", ur: "سنن ابی داؤد 3833 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "حَدَّثَنَا مُحَمَّدُ بْنُ كَثِيرٍ، أَخْبَرَنَا هَمَّامٌ، عَنْ إِسْحَاقَ بْنِ عَبْدِ اللَّهِ بْنِ أَبِي طَلْحَةَ، أَنَّ النَّبِيَّ كَانَ يُؤْتَى بِالتَّمْرِ فِيهِ دُودٌ فَذَكَرَ مَعْنَاهُ."
+summary:
+  ar: "حديث في سنن أبي داود، رقم 3833، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan Abi Dawud, no. 3833 (Foods (Kitab Al-At'imah)), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
+  ur: "سنن ابی داؤد کی حدیث نمبر 3833، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: person/abdullah-ibn-ubayy, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 3833 (book 28 hadith 98); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the hadith-api Arabic edition; label and summary are the museum's own words" }

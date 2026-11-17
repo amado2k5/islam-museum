@@ -1,0 +1,20 @@
+id: passage/sahaba-hayat-sahaba-umam-2-648
+class: passage
+unit: chapter
+work: work/hayat-al-sahaba
+ref: "2:648"
+label: { ar: "حياة الصحابة للكاندهلوي، المجلد المصوَّر 2، ص 648 — ذكر أمم وأديان وشعوب غير مسلمة", en: "al-Kandahlawi's Hayat al-Sahaba, scan volume 2, p. 648 — mentions of non-Muslim nations, religions and peoples", ur: "حیاۃ الصحابہ، کاندھلوی، اسکین جلد 2، ص 648 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "الصفحة الموضوع قتل كعب بن الآشرف اليهودى. قتل ابى رافع اليهودى قتل ابن شيبة اليهردى غزوات بنى قينقاع وبى النضير وقريظة وما وقع من الانصار فى ذلك حديث بنى النضير حديث بنى قريظة فخر الأنصار بالعزة الدينية صبر الأنصار عن …"
+summary:
+  ar: "مقطع من حياة الصحابة للكاندهلوي، المجلد المصوَّر 2، ص 648، فيه ذكر أمم وأديان وشعوب غير مسلمة؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة."
+  en: "An excerpt from al-Kandahlawi's Hayat al-Sahaba, scan volume 2, p. 648, with mentions of non-Muslim nations, religions and peoples; from the machine-read scan, quoted within forty words per the sources policy. The Umam Browser lists it."
+  ur: "حیاۃ الصحابہ، کاندھلوی، اسکین جلد 2، ص 648 کا اقتباس جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: group/al-yahud, sources: [source/hayat-al-sahaba-kandahlawi-sabbani] }
+  - { type: mentions, target: group/banu-qaynuqa, sources: [source/hayat-al-sahaba-kandahlawi-sabbani] }
+  - { type: mentions, target: group/banu-nadir, sources: [source/hayat-al-sahaba-kandahlawi-sabbani] }
+  - { type: mentions, target: group/banu-qurayza, sources: [source/hayat-al-sahaba-kandahlawi-sabbani] }
+  - { type: mentions, target: person/kaab-ibn-al-ashraf, sources: [source/hayat-al-sahaba-kandahlawi-sabbani] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan sahaba/hayat-sahaba/AAlexandrina-094235, page 648; a window of at most 40 words chosen by the umam detector (scripts/umam.ts); OCR text not corrected", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-ocr-1" }
+sources: [source/hayat-al-sahaba-kandahlawi-sabbani]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the OCR'd book; label and summary are the museum's own words" }

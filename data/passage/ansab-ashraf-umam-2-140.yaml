@@ -1,0 +1,20 @@
+id: passage/ansab-ashraf-umam-2-140
+class: passage
+unit: chapter
+work: work/ansab-al-ashraf
+ref: "2:140"
+label: { ar: "أنساب الأشراف للبلاذري، المجلد المصوَّر 2، ص 140 — ذكر أمم وأديان وشعوب غير مسلمة", en: "al-Baladhuri's Ansab al-Ashraf, scan volume 2, p. 140 — mentions of non-Muslim nations, religions and peoples", ur: "انساب الاشراف، بلاذری، اسکین جلد 2، ص 140 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "… العبدرى - كان النضر بن الحارث بن علقمة بن كلدة بن عبد مناف بن عبد الدار يكنى أبا فائد. وكان أشد قريش مباداة للنبى بالتكذيب والأذى. وكان صاحب أحاديث، ونظر فى كتب الفرس، ومخالطة النصارى واليهود. وكان لما سمع بذكر …"
+summary:
+  ar: "مقطع من أنساب الأشراف للبلاذري، المجلد المصوَّر 2، ص 140، فيه ذكر أمم وأديان وشعوب غير مسلمة؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة."
+  en: "An excerpt from al-Baladhuri's Ansab al-Ashraf, scan volume 2, p. 140, with mentions of non-Muslim nations, religions and peoples; from the machine-read scan, quoted within forty words per the sources policy. The Umam Browser lists it."
+  ur: "انساب الاشراف، بلاذری، اسکین جلد 2، ص 140 کا اقتباس جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: group/al-yahud, sources: [source/ansab-al-ashraf] }
+  - { type: mentions, target: group/al-nasara, sources: [source/ansab-al-ashraf] }
+  - { type: mentions, target: group/persians, sources: [source/ansab-al-ashraf] }
+  - { type: mentions, target: group/quraysh, sources: [source/ansab-al-ashraf] }
+  - { type: mentions, target: person/al-nadr-ibn-al-harith, sources: [source/ansab-al-ashraf] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan tareekh/ansab-ashraf/1_20200312_20200312_1859, page 140; a window of at most 40 words chosen by the umam detector (scripts/umam.ts); OCR text not corrected", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-ocr-1" }
+sources: [source/ansab-al-ashraf]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the OCR'd book; label and summary are the museum's own words" }

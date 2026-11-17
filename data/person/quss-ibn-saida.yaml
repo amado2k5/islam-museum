@@ -20,3 +20,9 @@ status:
 died: { edtf: "600~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Kitab al-Aghani (Abu al-Faraj)" }
 relations:
   - { type: lived_in, target: place/jazirat-al-arab, confidence: low, note: "Pre-Islamic orator of Banu Iyad, of the Yamama/Najd milieu (Muruj al-dhahab); no specific town attested.", sources: [source/muruj-al-dhahab] }
+occupations:
+  - job: job/khatib
+    kind: primary
+    status: historical
+    note: "The pre-Islamic bishop-orator of Iyad whose Ukaz sermon the Prophet reportedly recalled."
+    sources: [source/tdv-hutbe]

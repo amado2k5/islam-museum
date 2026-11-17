@@ -1,0 +1,16 @@
+id: passage/nasai-api-4573
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "4573"
+label: { ar: "سنن النسائي 4573 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sunan al-Nasa'i 4573 — mentions of non-Muslim nations, religions and peoples", ur: "سنن نسائی 4573 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "أَخْبَرَنَا قُتَيْبَةُ، قَالَ حَدَّثَنَا اللَّيْثُ، عَنْ أَبِي شُجَاعٍ، سَعِيدِ بْنِ يَزِيدَ عَنْ خَالِدِ بْنِ أَبِي عِمْرَانَ، عَنْ حَنَشٍ الصَّنْعَانِيِّ، عَنْ فَضَالَةَ بْنِ عُبَيْدٍ، قَالَ اشْتَرَيْتُ يَوْمَ خَيْبَرَ قِلاَدَةً فِيهَا ذَهَبٌ وَخَرَزٌ بِاثْنَىْ عَشَرَ دِينَارًا فَفَصَّلْتُهَا فَوَجَدْتُ فِيهَا أَكْثَرَ مِنَ اثْنَىْ عَشَرَ دِينَارًا فَذُكِرَ ذَلِكَ لِلنَّبِيِّ فَقَالَ \" لاَ تُبَاعُ حَتَّى تُفَصَّلَ \"."
+summary:
+  ar: "حديث في سنن النسائي، رقم 4573، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan al-Nasa'i, no. 4573 (The Book of Financial Transactions), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
+  ur: "سنن نسائی کی حدیث نمبر 4573، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: group/jews-of-khaybar, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 4573 (book 44 hadith 125); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the hadith-api Arabic edition; label and summary are the museum's own words" }

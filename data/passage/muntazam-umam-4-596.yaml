@@ -1,0 +1,18 @@
+id: passage/muntazam-umam-4-596
+class: passage
+unit: chapter
+work: work/al-muntazam-ibn-al-jawzi
+ref: "4:596"
+label: { ar: "المنتظم لابن الجوزي، المجلد المصوَّر 4، ص 596 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Ibn al-Jawzi's al-Muntazam, scan volume 4, p. 596 — mentions of non-Muslim nations, religions and peoples", ur: "المنتظم، ابن الجوزی، اسکین جلد 4، ص 596 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "… ما علق. وورد من بلاد الروم من اخبران الامير الافشين التركى ومن معه من الغزاة خربوا بلادا كثيرة من بلاد الروم وبلغوا الى عمودية وأتفق ان ملك الروم قبض على بطريق كبير من بطارقته وهرب اخوه عند علمه بذلك فصادف …"
+summary:
+  ar: "مقطع من المنتظم لابن الجوزي، المجلد المصوَّر 4، ص 596، فيه ذكر أمم وأديان وشعوب غير مسلمة؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة."
+  en: "An excerpt from Ibn al-Jawzi's al-Muntazam, scan volume 4, p. 596, with mentions of non-Muslim nations, religions and peoples; from the machine-read scan, quoted within forty words per the sources policy. The Umam Browser lists it."
+  ur: "المنتظم، ابن الجوزی، اسکین جلد 4، ص 596 کا اقتباس جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: group/al-rum, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: mentions, target: group/al-turk, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: mentions, target: person/heraclius, sources: [source/muntazam-ibn-al-jawzi] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan tareekh/muntazam/AAlexandrina-224011, page 596; a window of at most 40 words chosen by the umam detector (scripts/umam.ts); OCR text not corrected", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-ocr-1" }
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the OCR'd book; label and summary are the museum's own words" }

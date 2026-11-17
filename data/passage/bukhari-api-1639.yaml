@@ -1,0 +1,17 @@
+id: passage/bukhari-api-1639
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "1639"
+label: { ar: "صحيح البخاري 1639 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sahih al-Bukhari 1639 — mentions of non-Muslim nations, religions and peoples", ur: "صحیح بخاری 1639 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "حَدَّثَنَا يَعْقُوبُ بْنُ إِبْرَاهِيمَ، حَدَّثَنَا ابْنُ عُلَيَّةَ، عَنْ أَيُّوبَ، عَنْ نَافِعٍ، أَنَّ ابْنَ عُمَرَما ـ دَخَلَ ابْنُهُ عَبْدُ اللَّهِ بْنُ عَبْدِ اللَّهِ، وَظَهْرُهُ فِي الدَّارِ، فَقَالَ إِنِّي لاَ آمَنُ أَنْ يَكُونَ الْعَامَ بَيْنَ النَّاسِ قِتَالٌ، فَيَصُدُّوكَ عَنِ الْبَيْتِ، فَلَوْ أَقَمْتَ. فَقَالَ قَدْ خَرَجَ رَسُولُ اللَّهِ فَحَالَ كُفَّارُ قُرَيْشٍ بَيْنَهُ وَبَيْنَ الْبَيْتِ، فَإِنْ حِيلَ بَيْنِي وَبَيْنَهُ …"
+summary:
+  ar: "حديث في صحيح البخاري، رقم 1639، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sahih al-Bukhari, no. 1639 (Hajj (Pilgrimage)), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
+  ur: "صحیح بخاری کی حدیث نمبر 1639، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: group/quraysh, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/kufr, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 1639 (book 25 hadith 122); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the hadith-api Arabic edition; label and summary are the museum's own words" }

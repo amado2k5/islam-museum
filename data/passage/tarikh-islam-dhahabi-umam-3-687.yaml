@@ -1,0 +1,19 @@
+id: passage/tarikh-islam-dhahabi-umam-3-687
+class: passage
+unit: chapter
+work: work/tarikh-islam-dhahabi
+ref: "3:687"
+label: { ar: "تاريخ الإسلام للذهبي، المجلد المصوَّر 3، ص 687 — ذكر أمم وأديان وشعوب غير مسلمة", en: "al-Dhahabi's Tarikh al-Islam, scan volume 3, p. 687 — mentions of non-Muslim nations, religions and peoples", ur: "تاریخ الاسلام، ذہبی، اسکین جلد 3، ص 687 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "… منه. قال عديّ : فأتَيْتُه، فإذا عنده امرأة وصَبِيّان ؛ أو صبِيّ، فذكر قربهم من النبي لليهِ. قال: فعرفت أنه ليس مُلْك كسرى ولا قيصر، فأسلمتُ. فرأيت وجهه قد استبشرا، وقال: إنّ المَغْضُوب عليهم اليهود، والضَّالِّين النَّصارى. وذكر باقي الحديث. …"
+summary:
+  ar: "مقطع من تاريخ الإسلام للذهبي، المجلد المصوَّر 3، ص 687، فيه ذكر أمم وأديان وشعوب غير مسلمة؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة."
+  en: "An excerpt from al-Dhahabi's Tarikh al-Islam, scan volume 3, p. 687, with mentions of non-Muslim nations, religions and peoples; from the machine-read scan, quoted within forty words per the sources policy. The Umam Browser lists it."
+  ur: "تاریخ الاسلام، ذہبی، اسکین جلد 3، ص 687 کا اقتباس جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: group/al-yahud, sources: [source/tarikh-islam-dhahabi] }
+  - { type: mentions, target: group/al-nasara, sources: [source/tarikh-islam-dhahabi] }
+  - { type: mentions, target: person/heraclius, sources: [source/tarikh-islam-dhahabi] }
+  - { type: mentions, target: person/kisra-abrawiz, sources: [source/tarikh-islam-dhahabi] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan tareekh/tarikh-islam-dhahabi/volume-3, page 687; a window of at most 40 words chosen by the umam detector (scripts/umam.ts); OCR text not corrected", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-ocr-1" }
+sources: [source/tarikh-islam-dhahabi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the OCR'd book; label and summary are the museum's own words" }

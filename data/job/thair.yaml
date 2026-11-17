@@ -1,0 +1,39 @@
+id: job/thair
+class: job
+label: { ar: "الثائر", en: "Rebel, revolutionary (tha'ir)", ur: "باغی ⁦(انقلابی)⁩" }
+names:
+  - { value: "الثوار", kind: alternate }
+  - { value: "باغي", kind: alternate }
+  - { value: "صاحب الثورة", kind: alternate }
+  - { value: "revolutionary", kind: latinized }
+summary:
+  ar: "الثائر من يخرج على الأمر القائم — طاغيةٍ أو محتلٍّ أو نظامٍ — بقصد تغييره؛ و«الثوار» جمعه في العصر الحديث، كما سمّى الفقهاء حاله قديماً «البغي»: الخروج المسلح على الإمام العادل بقوةٍ وقصد عزله على تأويل، ومن لم يجتمع له ذلك فليس بباغٍ عندهم. ليست وظيفة يُعيَّن فيها بل حالٌ يُوصف بها صاحبها، غير أنها من أقدم أدوار الكلمة العامة: خطب الثائر منادياً وحمل رايته كما فعل المختار بن أبي عبيد والحسين بن علي قبله حين احتجّا بالمظلومية، ودعت الثورات الحديثة — عبد القادر الجزائري وعبد الكريم الخطابي وعمر المختار — باسم التحرير من الاستعمار، وجمعت بين السلاح والبيان فصارت «الثورة» في القرن العشرين عنوان صحف وإذاعات كما صار «الناطق باسم الثورة» منصباً في حد ذاته."
+  en: "The tha'ir rises against the order that stands — a tyrant, an occupier or a regime — meaning to change it; the modern plural is 'the revolutionaries' (al-thuwwar), while classical fiqh named the condition baghy: armed rising against a just imam by force, intending to depose him, upon a ta'wil — and one who does not meet these is not a baghi in their law. It is not an office one is appointed to but a state one is described by; yet it is among the oldest roles of public speech: the rebel preached and raised his banner as al-Mukhtar ibn Abi Ubayd did, and al-Husayn ibn Ali before him when each protested wrong, and the modern revolutions — Abd al-Qadir al-Jaza'iri, Abd al-Karim al-Khattabi, Omar al-Mukhtar — called in the name of liberation from colonial rule, joining arms and manifesto until 'the revolution' became a twentieth-century title of papers and radios and 'the revolution's spokesman' an office in itself."
+  ur: "باغی ⁦(ثائر)⁩ وہ ہے جو قائم شدہ حاکم — جابر، غاصب یا نظام — کے خلاف تبدیلی کے ارادے سے اٹھ کھڑا ہوتا ہے؛ جدید زمانے میں اس کا جمع «ثوار» ہے جب کہ کلاسیکی فقہ اس حال کو «بغی» کہتی ہے: عادل امام کے خلاف قوت اور عزل کے ارادے سے، کسی تأویل پر مسلح خروج — اور جس میں یہ شرائط نہ ہوں ان کے نزدیک باغی نہیں۔ یہ کوئی منصب نہیں جس پر تعینات کیا جائے بلکہ ایک حال ہے جس سے فرد معروف ہوتا ہے؛ مگر عوامی کلام کے قدیم ترین کرداروں میں ہے: باغی نے خطبہ دیا اور جھنڈا اٹھایا جیسے مختار بن ابی عبید اور قبل تر حسین بن علی نے مظلومیت پر احتجاج کرتے ہوئے کیا، اور جدید انقلابیوں — عبدالقادر الجزائری، عبدالکریم الخطابی، عمر مختار — نے استعمار سے آزادی کے نام پر اعلان کیا، ہتھیار اور بیانیہ ملا کر، یہاں تک کہ «انقلاب» بیسویں صدی کے اخبار اور ریڈیو کا عنوان بنا اور «انقلاب کا ترجمان» خود ایک منصب۔"
+domain: war-command
+kind: military
+hirfa: false
+era:
+  origins: early-caliphate
+  status_today: living
+places:
+  - { place: place/kufa, note: "The risings of Mukhtar and Ibn al-Ash'ath were led from Kufa, each with its callers and manifestos.", sources: [source/tdv-bagy] }
+  - { place: place/karbala, note: "The stand of al-Husayn ibn Ali in 61 AH is the archetype on which later claimants modelled the protest against unjust rule.", sources: [source/tdv-bagy] }
+regions: [arabia, levant-iraq, egypt-nile, maghreb, persia-central-asia, anatolia-balkans, south-asia]
+organization:
+  organized: none
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people]
+periods: [period/rashidun, period/umayyad, period/abbasid-early, period/buyid-seljuk-fatimid-era, period/crusades-ayyubid-mamluk, period/gunpowder-empires, period/colonial-era, period/modern-era, period/contemporary-era]
+sources: [source/tdv-bagy]
+training:
+  mode: none
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), i3lam-browser" }
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi, 'BAĞY' (Şafak, 1991) for the juristic conditions and classification of armed rising; web edition read on 17 Nov 2026"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "i3lam-browser"

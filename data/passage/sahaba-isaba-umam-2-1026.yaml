@@ -1,0 +1,18 @@
+id: passage/sahaba-isaba-umam-2-1026
+class: passage
+unit: chapter
+work: work/al-isaba-fi-tamyiz-al-sahaba
+ref: "2:1026"
+label: { ar: "الإصابة لابن حجر، المجلد المصوَّر 2، ص 1026 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Ibn Hajar's al-Isaba, scan volume 2, p. 1026 — mentions of non-Muslim nations, religions and peoples", ur: "الاصابہ، ابن حجر، اسکین جلد 2، ص 1026 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "… فعن قتادة أرادوا الوليد بن المغيرة من أهل مكة، وعروة بن مسعود الثقفي من أهل الطائف. وقيل: جذيمة بن ذراع بن عدي بن الدار بن هانىء مسعود. وعن مجاهد: عتبة بن ربيعة، وعمير بن عروة بن الرحمن. أورده أبو موسى. …"
+summary:
+  ar: "مقطع من الإصابة لابن حجر، المجلد المصوَّر 2، ص 1026، فيه ذكر أمم وأديان وشعوب غير مسلمة؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة."
+  en: "An excerpt from Ibn Hajar's al-Isaba, scan volume 2, p. 1026, with mentions of non-Muslim nations, religions and peoples; from the machine-read scan, quoted within forty words per the sources policy. The Umam Browser lists it."
+  ur: "الاصابہ، ابن حجر، اسکین جلد 2، ص 1026 کا اقتباس جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: group/quraysh, sources: [source/isaba] }
+  - { type: mentions, target: person/utba-ibn-rabia, sources: [source/isaba] }
+  - { type: mentions, target: person/al-walid-ibn-al-mughira, sources: [source/isaba] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan sahaba/isaba/20200217_20200217_0509, page 1026; a window of at most 40 words chosen by the umam detector (scripts/umam.ts); OCR text not corrected", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-ocr-1" }
+sources: [source/isaba]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the OCR'd book; label and summary are the museum's own words" }

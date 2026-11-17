@@ -26,3 +26,9 @@ relations:
   - { type: lived_in, target: place/bukhara, note: "Place association from the person's nisba/name (bukhari); denotes association, not proven residence.", sources: [source/umayyad-birth-to-fall-2006, source/muruj-al-dhahab, source/tarikh-khulafa-minhaj-1434, source/khudari-umayyad-state, source/bakr-umayyad-state-1134715, source/sahih-al-bukhari, source/tarikh-khalifa-umari-1985, source/assabile-omar-abdelkafy], confidence: low }
 story_roles:
   - { role: rival-claimant, toward: polity/zubayrid-caliphate, start: { edtf: "683", calendar: julian, precision: year }, end: { edtf: "692", calendar: julian, precision: year }, status: historical, sources: [source/tarikh-khulafa-minhaj-1434, source/madelung-1997] }
+occupations:
+  - job: job/thair
+    kind: primary
+    status: historical
+    note: "Held the two sanctuaries against the Umayyads as rival caliph from 64 to 73 AH."
+    sources: [source/tdv-bagy]

@@ -16,6 +16,8 @@ translations:
   en: { text: "The folk of Noah denied (the truth) before them, and (so did) the dwellers at Ar-Rass and (the tribe of) Thamud,", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "ان سے پہلے نوح کی قوم اور کنوئیں والے اور ثمود جھٹلا چکے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: concept/ashab-al-rass, sources: [source/tanzil-quran] }
+  - { type: mentions, target: group/qawm-nuh, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-50 }
   - { type: mentions, target: group/ashab-rass, sources: [source/tanzil-quran] }
   - { type: mentions, target: group/thamud, sources: [source/tanzil-quran] }

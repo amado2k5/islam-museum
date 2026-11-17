@@ -1,0 +1,18 @@
+id: passage/sira-ibn-hisham-umam-166
+class: passage
+unit: chapter
+work: work/sira-ibn-ishaq-ibn-hisham
+ref: "166"
+label: { ar: "السيرة النبوية لابن هشام، ص 166 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Ibn Hisham's Sira, p. 166 — mentions of non-Muslim nations, religions and peoples", ur: "سیرت ابن ہشام، ص 166 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "… إِنْكَى وهذا البيت في أرجوزة له. قال ابن إسحاق: وَجَلَسَ رَسُولُ اللّٰه وَلفي يوماً - فيما بلغني - مع الوليدِ بنِ المغيرةِ في المسجدِ؛ فجاء النَّضْرُ بن الحارث حَتَّى جَلَسَ معهم في المجلسِ، وفي المجلس غَيْرُ وَاحِدٍ مِنْ رِجَالِ قُرَيْشٍ، …"
+summary:
+  ar: "مقطع من السيرة النبوية لابن هشام، ص 166، فيه ذكر أمم وأديان وشعوب غير مسلمة؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة."
+  en: "An excerpt from Ibn Hisham's Sira, p. 166, with mentions of non-Muslim nations, religions and peoples; from the machine-read scan, quoted within forty words per the sources policy. The Umam Browser lists it."
+  ur: "سیرت ابن ہشام، ص 166 کا اقتباس جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: group/quraysh, sources: [source/ibn-hisham-sira] }
+  - { type: mentions, target: person/al-walid-ibn-al-mughira, sources: [source/ibn-hisham-sira] }
+  - { type: mentions, target: person/al-nadr-ibn-al-harith, sources: [source/ibn-hisham-sira] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan seerah/sira-ibn-hisham/20251231_20251231_0914, page 166; a window of at most 40 words chosen by the umam detector (scripts/umam.ts); OCR text not corrected", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-ocr-1" }
+sources: [source/ibn-hisham-sira]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the OCR'd book; label and summary are the museum's own words" }

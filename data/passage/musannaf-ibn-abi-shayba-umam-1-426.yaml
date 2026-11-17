@@ -1,0 +1,18 @@
+id: passage/musannaf-ibn-abi-shayba-umam-1-426
+class: passage
+unit: chapter
+work: work/al-musannaf-ibn-abi-shayba
+ref: "1:426"
+label: { ar: "مصنف ابن أبي شيبة، المجلد المصوَّر 1، ص 426 — ذكر أمم وأديان وشعوب غير مسلمة", en: "the Musannaf of Ibn Abi Shayba, scan volume 1, p. 426 — mentions of non-Muslim nations, religions and peoples", ur: "مصنف ابن ابی شیبہ، اسکین جلد 1، ص 426 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "… سعيد عن الشعبي قال: كتب رسول اللّٰه ولي إلى أهل نجران وهم نصارى أن من بايع منكم بالربا فلا ذمة له. - حدثنا أبو خالد الأحمر عن يحيى بن سعيد أن عمر أجلى أهل نجران اليهود والنصارى، واشترى بياض أرضهم …"
+summary:
+  ar: "مقطع من مصنف ابن أبي شيبة، المجلد المصوَّر 1، ص 426، فيه ذكر أمم وأديان وشعوب غير مسلمة؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة."
+  en: "An excerpt from the Musannaf of Ibn Abi Shayba, scan volume 1, p. 426, with mentions of non-Muslim nations, religions and peoples; from the machine-read scan, quoted within forty words per the sources policy. The Umam Browser lists it."
+  ur: "مصنف ابن ابی شیبہ، اسکین جلد 1، ص 426 کا اقتباس جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: group/al-yahud, sources: [source/al-musannaf-ibn-abi-shayba] }
+  - { type: mentions, target: group/al-nasara, sources: [source/al-musannaf-ibn-abi-shayba] }
+  - { type: mentions, target: group/christians-of-najran, sources: [source/al-musannaf-ibn-abi-shayba] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan hadith/musannaf-ibn-abi-shayba/07-69117, page 426; a window of at most 40 words chosen by the umam detector (scripts/umam.ts); OCR text not corrected", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-ocr-1" }
+sources: [source/al-musannaf-ibn-abi-shayba]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the OCR'd book; label and summary are the museum's own words" }

@@ -1,0 +1,16 @@
+id: passage/muslim-api-2934
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2934"
+label: { ar: "صحيح مسلم 2934 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sahih Muslim 2934 — mentions of non-Muslim nations, religions and peoples", ur: "صحیح مسلم 2934 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "وَحَدَّثَنِي حَسَنُ بْنُ عَلِيٍّ الْحُلْوَانِيُّ، حَدَّثَنَا زَيْدُ بْنُ الْحُبَابِ، حَدَّثَنِي إِبْرَاهِيمُ بْنُ نَافِعٍ، حَدَّثَنِي عَبْدُ اللَّهِ بْنُ أَبِي نَجِيحٍ، عَنْ مُجَاهِدٍ، عَنْ عَائِشَةَ، -ا - أَنَّهَا حَاضَتْ بِسَرِفَ فَتَطَهَّرَتْ بِعَرَفَةَ فَقَالَ لَهَا رَسُولُ اللَّهِ \" يُجْزِئُ عَنْكِ طَوَافُكِ بِالصَّفَا وَالْمَرْوَةِ عَنْ حَجِّكِ وَعُمْرَتِكِ \"."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 2934، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sahih Muslim, no. 2934 (The Book of Pilgrimage), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
+  ur: "صحیح مسلم کی حدیث نمبر 2934، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: person/abdullah-ibn-ubayy, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 2934 (book 15 hadith 143); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the hadith-api Arabic edition; label and summary are the museum's own words" }

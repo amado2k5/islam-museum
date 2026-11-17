@@ -1,0 +1,17 @@
+id: passage/muslim-api-3565
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "3565"
+label: { ar: "صحيح مسلم 3565 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sahih Muslim 3565 — mentions of non-Muslim nations, religions and peoples", ur: "صحیح مسلم 3565 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "حَدَّثَنَا عُبَيْدُ اللَّهِ بْنُ سَعِيدٍ، وَمُحَمَّدُ بْنُ أَبِي عُمَرَ، قَالاَ حَدَّثَنَا الْمُقْرِئُ، حَدَّثَنَا سَعِيدُ، بْنُ أَبِي أَيُّوبَ حَدَّثَنِي أَبُو الأَسْوَدِ، عَنْ عُرْوَةَ، عَنْ عَائِشَةَ، عَنْ جُدَامَةَ بِنْتِ وَهْبٍ، أُخْتِ عُكَّاشَةَ قَالَتْ حَضَرْتُ رَسُولَ اللَّهِ فِي أُنَاسٍ وَهُوَ يَقُولُ \" لَقَدْ هَمَمْتُ أَنْ أَنْهَى عَنِ الْغِيلَةِ فَنَظَرْتُ فِي الرُّومِ وَفَارِسَ فَإِذَا هُمْ يُغِيلُونَ أَوْلاَدَهُمْ فَلاَ يَضُرُّ …"
+summary:
+  ar: "حديث في صحيح مسلم، رقم 3565، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sahih Muslim, no. 3565 (The Book of Marriage), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
+  ur: "صحیح مسلم کی حدیث نمبر 3565، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: group/al-rum, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: group/persians, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 3565 (book 16 hadith 167); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the hadith-api Arabic edition; label and summary are the museum's own words" }

@@ -1,0 +1,17 @@
+id: passage/muntazam-umam-1-272
+class: passage
+unit: chapter
+work: work/al-muntazam-ibn-al-jawzi
+ref: "1:272"
+label: { ar: "المنتظم لابن الجوزي، المجلد المصوَّر 1، ص 272 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Ibn al-Jawzi's al-Muntazam, scan volume 1, p. 272 — mentions of non-Muslim nations, religions and peoples", ur: "المنتظم، ابن الجوزی، اسکین جلد 1، ص 272 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "… وحدث الناس انه يريد تشعيث الدولة وقصد بغداد وانه مسالم لصاحب البحرين يجتمعان على ذلك وكان يقول انا ارد دولة العجم وابطل ملك العرب ! ثم أساء السيرة فى اصهابه خصوصا فى الاتراك فتواطؤا على اهلاكه ثم ورد الخير بان …"
+summary:
+  ar: "مقطع من المنتظم لابن الجوزي، المجلد المصوَّر 1، ص 272، فيه ذكر أمم وأديان وشعوب غير مسلمة؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة."
+  en: "An excerpt from Ibn al-Jawzi's al-Muntazam, scan volume 1, p. 272, with mentions of non-Muslim nations, religions and peoples; from the machine-read scan, quoted within forty words per the sources policy. The Umam Browser lists it."
+  ur: "المنتظم، ابن الجوزی، اسکین جلد 1، ص 272 کا اقتباس جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: group/al-ajam, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: mentions, target: group/al-turk, sources: [source/muntazam-ibn-al-jawzi] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan tareekh/muntazam/AAlexandrina-011148, page 272; a window of at most 40 words chosen by the umam detector (scripts/umam.ts); OCR text not corrected", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-ocr-1" }
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the OCR'd book; label and summary are the museum's own words" }

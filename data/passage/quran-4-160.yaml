@@ -16,6 +16,7 @@ translations:
   en: { text: "Because of the wrongdoing of the Jews We forbade them good things which were (before) made lawful unto them, and because of their much hindering from Allah's way,", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "تو ہم نے یہودیوں کے ظلموں کے سبب (بہت سی) پاکیزہ چیزیں جو ان کو حلال تھیں ان پر حرام کردیں اور اس سبب سے بھی کہ وہ اکثر خدا کے رستے سے (لوگوں کو) روکتے تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: group/al-yahud, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-4 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

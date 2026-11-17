@@ -16,6 +16,7 @@ translations:
   en: { text: "It is not for the Prophet, and those who believe, to pray for the forgiveness of idolaters even though they may be near of kin (to them) after it hath become clear that they are people of hell-fire.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "پیغمبر اور مسلمانوں کو شایاں نہیں کہ جب ان پر ظاہر ہوگیا کہ مشرک اہل دوزخ ہیں۔ تو ان کے لیے بخشش مانگیں گو وہ ان کے قرابت دار ہی ہوں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: group/al-mushrikun, sources: [source/tanzil-quran] }
   - { type: revealed_about, target: event/year-of-sorrow }
   - { type: part_of, target: passage/quran-9 }
   - { type: basis_for, target: practice/dua, sources: [source/tanzil-quran] }
