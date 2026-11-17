@@ -297,6 +297,7 @@ class:
   invention: Invention
   award: Award
   course: Course
+  sport: Sport
 modernSections:
   web: 'Websites, apps, games and devices'
   music: 'Music and nasheed'
@@ -1788,6 +1789,10 @@ explore:
       title: "Brotherhood in Islam Browser"
       desc: "Brotherhood and sisterhood in Islam — every mention of brothers and sisters in the faith, the mu'akhat of the Muhajirun and the Ansar, love for God's sake, altruism and aid, the rights a Muslim owes a Muslim and what breaks brotherhood — in the Qur'an, the Sunnah, the seerah and every harvested book, with every verse and report cited."
       menu: "Browse brotherhood, mu'akhat and brothers' rights in the Qur'an and books"
+    sport:
+      title: "Sports and Competitions in Islam Browser"
+      desc: "Horsemanship, swimming, archery and every sport and contest of the Muslims — wrestling and strength, races and wagered contests, spear-play, ball and board games, hunting and the modern game — in the Qur'an, the Sunnah, the seerah, Companion and Tabi'in reports and every harvested book, with every verse and report cited."
+      menu: "Browse horsemanship, swimming, archery and all the sports of the Muslims in the Qur'an and books"
     umuma:
       title: "Motherhood in Islam Browser"
       desc: "Everything the sources mention about motherhood — the mother and her standing, pregnancy, childbirth, nursing, custody and raising children, and dutifulness to parents — in the Qur'an, Sunnah, seerah and every harvested book, each verse and report with its source."
@@ -6784,3 +6789,75 @@ journeys:
     open: "Open this journey"
     off_title: "Not yet on the map"
     off_note: "{n} journeys have fewer than two stations with coordinates, so they are listed here and not drawn."
+
+sport:
+  title: "Sports and Competitions in Islam Browser"
+  lede: "Sport and contest in the museum's sources: horsemanship, swimming and archery — the trio of the training reports — wrestling and strength, races and wagered contests, the spear-play of the Abyssinians, ball and board games, hunting as field sport and the modern game — in the Qur'an, the two Sahihs, the Muwatta and the Sunan, the seerah books, Companion and Tabi'in reports and every harvested book — records with their sources that grow as each new text lands."
+  badge: Sports explorer
+  status: "This build holds {n} records in {s} sections; texts are drafts until a human reads them."
+  method_title: How this browser works
+  method_note: "Every record here is an ordinary museum record with its sources. Sport mentions are found at build time by a guarded lexicon over the passage texts in eight families: horses and riding (خيل، فرس، فروسية), archery (رمي، نصل، سهم، قوس), swimming (سباحة، يسبح، عوم), wrestling and strength (مصارعة، صارع، إشالة), races and wagers (سباق، محلل، مزمل، سبق), play and games (حراب، كرة، صولجان، شطرنج، نرد), hunting as field sport (صيد، جوارح، باز، قنص) and sport named as sport (رياضة، أولمبي، بطولة). The ambiguous words are guarded: «سبق» counts only beside race vocabulary, «صيد» only beside hunt vocabulary, «رمي» only beside arrow vocabulary (رمي الجمرات excluded), «يسبح» only beside water vocabulary, «صرع» only beside wrestling vocabulary, and verified false positives are excluded by id. Every book harvested later brings its sport mentions here automatically; the named sports are first-class sport records; the athletes are read from the graph's own sports blocks."
+  api: "The whole set is available at"
+  sections_title: The browser's sections
+  sports_title: "The named sports"
+  sports_desc: "The sports and contests of the tradition as first-class records: the Prophetic trio, wrestling, the races, spear-play and fencing, polo, ball and board games, stone-lifting, hunting, the Ottoman archery grounds and the modern game."
+  athletes_title: "Athletes on record"
+  athletes_desc: "Persons of the museum's graph who play sport: every record carrying a cited sports block, joined from the graph itself."
+  filter_label: Filter the sport records
+  filter_none: No results.
+  empty: No sport records in this build yet.
+  topics:
+    khayl: "Horsemanship"
+    ramy: "Archery"
+    sibaha: "Swimming"
+    sira: "Wrestling and strength"
+    sabq: "Races and wagers"
+    laib: "Play and games"
+    sayd: "Hunting"
+    riyada: "Modern sport"
+  kinds:
+    mounted: "Mounted"
+    target: "Target"
+    water: "Water"
+    combat: "Combat"
+    racing: "Racing"
+    ball-game: "Ball game"
+    board-game: "Board game"
+    strength: "Strength"
+    hunt: "Hunting"
+    modern-team: "Modern team"
+    modern-individual: "Modern individual"
+  sections:
+    quran:
+      title: "In the Qur'an"
+      desc: "Sport in the Qur'an: the horses prepared beside strength, the steeds of Solomon, al-Adiyat charging, the mounts and the sacrificial camels, and the maysir whose lines the jurists read with the board games."
+    sunnah:
+      title: "In the Sunnah"
+      desc: "Sport in the two Sahihs, the Muwatta and the Sunan: teach your children swimming and archery, the races with the sabiq and the mumarr, no prize except in hoof, hoof or nasl, «shoot, sons of Isma'il», «shoot; may my father and mother be your ransom», the spear-play of the Abyssinians in the mosque, the two races with Aisha and the bout with Rukana."
+    seerah:
+      title: "In the Seerah"
+      desc: "What the seerah books carry of contests — the wrestling of the Prophet and Rukana, the races, the mounted arts of the campaigns — and it fills itself as seerah passages are harvested."
+    books:
+      title: "In the harvested books"
+      desc: "Sport reports in every other harvested work — fiqh, adab, history, biography, the furusiyya manuals and the Canon's named exercises — entering automatically the day their passages land."
+    curated:
+      title: "Curated records on sport"
+      desc: "The museum's selected records about sport and contest themselves: the named sports of the sport class, the fiqh of contests and stakes, archery, wrestling, chivalry, the furusiyya works and the famous contests as events."
+  sig:
+    title: "The contest ground"
+    caption: "One ruled strip per sport family — horsemanship, archery, swimming, wrestling, races, games, hunting and modern sport — and on each a disc for every corpus holding records of that family, its area in proportion to their number, each disc a link to the section's list below."
+    legend: "Gold disc: records found; dimmed dot: none yet in that corpus. The strips read horsemanship, archery, swimming, wrestling, races, games, hunting, modern sport — each disc a link."
+    topics:
+      khayl: "Horsemanship"
+      ramy: "Archery"
+      sibaha: "Swimming"
+      sira: "Wrestling"
+      sabq: "Races"
+      laib: "Games"
+      sayd: "Hunting"
+      riyada: "Modern sport"
+    sections:
+      quran: { title: "Qur'an" }
+      sunnah: { title: "Sunnah" }
+      seerah: { title: "Seerah" }
+      books: { title: "Books" }

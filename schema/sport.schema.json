@@ -1,0 +1,106 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "sport.schema.json",
+  "title": "Museum entity: sport",
+  "allOf": [
+    {
+      "$ref": "_base.schema.json"
+    }
+  ],
+  "type": "object",
+  "properties": {
+    "class": {
+      "const": "sport"
+    },
+    "names": {
+      "type": "array",
+      "items": {
+        "$ref": "_base.schema.json#/$defs/name"
+      }
+    },
+    "kind": {
+      "enum": [
+        "mounted",
+        "target",
+        "water",
+        "combat",
+        "racing",
+        "ball-game",
+        "board-game",
+        "strength",
+        "hunt",
+        "modern-team",
+        "modern-individual"
+      ]
+    },
+    "era": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "pre-islamic",
+          "prophetic",
+          "rashidun-umayyad",
+          "abbasid",
+          "mamluk-ayyubid",
+          "ottoman",
+          "colonial",
+          "modern"
+        ]
+      },
+      "uniqueItems": true
+    },
+    "arabic_terms": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "furusiyya": {
+      "type": "boolean"
+    },
+    "equipment": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+      }
+    },
+    "venues": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+      }
+    },
+    "notable": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+      }
+    },
+    "governing": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+      }
+    },
+    "status_today": {
+      "enum": [
+        "living",
+        "transformed",
+        "extinct",
+        "museum-tradition"
+      ]
+    },
+    "image": {
+      "type": "string",
+      "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+    }
+  },
+  "required": [
+    "kind"
+  ],
+  "unevaluatedProperties": false
+}

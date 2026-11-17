@@ -1,0 +1,54 @@
+id: sport/mubaraza
+class: sport
+kind: combat
+label:
+  ar: المبارزة
+  en: Single combat and fencing
+  ur: مبارزہ بازی
+summary:
+  ar: المبارزة خروج البطل إلى البطل في القتال، ومنها مبارزة علي بن أبي طالب لعمرو بن عبد ود يوم الخندق، قتلها وعاد {cite:mubarakpuri-raheeq}.
+    ثم صارت المبارزة رياضة ميدان في كتب الفروسية تعلم الضرب بالسيف والتروس والرماح، ومنها ما كان في ساحات الميادين المملوكية.
+  en: The mubaraza is champion meeting champion in combat, like Ali ibn Abi Talib's bout with Amr ibn Abd Wudd on the day
+    of the Trench, which he won {cite:mubarakpuri-raheeq}. It then became a field sport in the furusiyya books — sword, shield
+    and lance — played out in the grounds of the Mamluk maydans.
+  ur: مبارزہ لڑائی میں بہادر کا بہادر سے آمنے سامنے آنا ہے، جیسے خندق کے دن علی بن ابی طالب کا عمرو بن عبدود کے ساتھ مقابلہ،
+    جس میں علی غالب آئے {cite:mubarakpuri-raheeq}۔ پھر یہ فروسیت کی کتابوں میں تلوار، ڈھال اور نیزے کی میدانی مشق بنا جو مملوک
+    میدانوں میں کھیلی جاتی تھی۔
+era:
+- pre-islamic
+- prophetic
+- rashidun-umayyad
+- abbasid
+- mamluk-ayyubid
+- ottoman
+status_today: transformed
+furusiyya: true
+relations:
+- type: related_to
+  target: person/ali-ibn-abi-talib
+  note: the champion of the Khandaq bout
+- type: related_to
+  target: work/kitab-al-furusiyya-wal-manasib-al-harbiyya
+  note: fencing among the war exercises
+- type: related_to
+  target: sport/furusiyya
+  note: a furusiyya art
+tags:
+- sport-browser
+- sport-musaraa
+wings:
+- time
+sources:
+- source/mubarakpuri-raheeq
+- source/sira-ibn-ishaq-zakkar
+provenance:
+  layer: own-research
+  source: Written for the Sport Browser (plan 66) from the cited source records in data/source/ — the two Sahihs, Tirmidhi,
+    Abu Dawud, the Muwatta, Ibn Ishaq's Sira (Zakkar ed.), al-Isaba, Ibn Sina's Canon vol. 1, and Usul al-iqtisad al-islami
+  generated_by: Devin (SWE-2 Medium)
+  model: SWE-2 Medium
+  run: sport-browser-seeds-1
+status:
+  review: published
+  completeness: 2
+  generated_by: Devin (SWE-2 Medium); sources are the museum's own source records; page numbers carried from the mined records

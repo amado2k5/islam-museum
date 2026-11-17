@@ -1,0 +1,49 @@
+id: sport/shatranj
+class: sport
+kind: board-game
+label:
+  ar: الشطرنج
+  en: Chess (shatranj)
+  ur: شطرنج
+summary:
+  ar: 'دخلت الشطرنج بلاد الإسلام من فارس في العصر الأموي، واشتهر لاعبوها في بغداد العباسية، ومنهم علي سفي العادلي والربيع.
+    واختلف فيها الفقهاء: منهم من كرهها أو حرمها لشبهتها بالنرد، ومنهم من أباحها بشروط، ومنهم من لعبها بلا حرج في مجالس الأدب
+    — والخلاف مسطور في كتبهم، لا حكم للمتحف فيه.'
+  en: 'Chess entered the Muslim lands from Persia in the Umayyad era, and its players became famous in Abbasid Baghdad, among
+    them Ali al-Sufi al-Adli and al-Rabi''. The jurists disagreed on it: some disliked or prohibited it for its likeness to
+    nard, some allowed it under conditions, and some played it without scruple in the salons of adab — the disagreement is
+    on record in their books, and the museum gives no verdict.'
+  ur: 'شطرنج اموی دور میں فارس سے مسلم ممالک میں آیا اور عباسی بغداد میں اس کے کھلاڑی مشہور ہوئے۔ فقہا میں اختلاف ہے: بعض
+    نے نرد سے مشابہت کی بنا پر ناپسند یا حرام کیا، بعض نے شرائط کے ساتھ اجازت دی، اور بعض نے ادب کے مجالس میں کھیلا — اختلاف
+    ان کی کتابوں میں درج ہے اور عجائب گھر کا کوئی فیصلہ نہیں۔'
+era:
+- rashidun-umayyad
+- abbasid
+- mamluk-ayyubid
+- ottoman
+status_today: transformed
+relations:
+- type: related_to
+  target: concept/nard
+  note: the board game the jurists compared chess to
+- type: related_to
+  target: concept/sabq-in-islam
+  note: games the jurists classified
+tags:
+- sport-browser
+- sport-games
+wings:
+- time
+sources:
+- source/usul-iqtisad-islami-0660
+provenance:
+  layer: own-research
+  source: Written for the Sport Browser (plan 66) from the cited source records in data/source/ — the two Sahihs, Tirmidhi,
+    Abu Dawud, the Muwatta, Ibn Ishaq's Sira (Zakkar ed.), al-Isaba, Ibn Sina's Canon vol. 1, and Usul al-iqtisad al-islami
+  generated_by: Devin (SWE-2 Medium)
+  model: SWE-2 Medium
+  run: sport-browser-seeds-1
+status:
+  review: published
+  completeness: 2
+  generated_by: Devin (SWE-2 Medium); sources are the museum's own source records; page numbers carried from the mined records

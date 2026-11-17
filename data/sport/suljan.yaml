@@ -1,0 +1,51 @@
+id: sport/suljan
+class: sport
+kind: ball-game
+label:
+  ar: الصولجان
+  en: Polo (sawlijan)
+  ur: صولجان
+summary:
+  ar: لعبة الصولجان تضرب فيها الكرة بالصولجان من على ظهور الخيل، وقد عدّها ابن سينا في القانون من الرياضات القوية الميدانية
+    مع العدو والمصارعة واللعب بالكرة {cite:canon-ibn-sina-print-v1 p. 222}. ولعبها الخلفاء والأمراء في ميادين بغداد والقاهرة،
+    ومنها ميدان القلعة وساحة الفروسية.
+  en: The sawlijan game strikes the ball with a mallet from horseback; Ibn Sina counts it in the Canon among the strong field
+    exercises with running, wrestling and ball play {cite:canon-ibn-sina-print-v1 p. 222}. Caliphs and amirs played it in
+    the maydans of Baghdad and Cairo, the Citadel ground and the furusiyya square among them.
+  ur: صولجان کا کھیل گھوڑے کی پیٹھ پر گیند کو چوگان سے مارنا ہے؛ ابن سینا نے قانون میں اسے دوڑ، کشتی اور گیند کے کھیل کے ساتھ
+    قوی میدانی ورزشوں میں شمار کیا {cite:canon-ibn-sina-print-v1 p. 222}۔ خلفاء اور امیر اسے بغداد اور قاہرہ کے میدانوں میں
+    کھیلتے تھے۔
+era:
+- abbasid
+- mamluk-ayyubid
+- ottoman
+status_today: living
+furusiyya: true
+relations:
+- type: related_to
+  target: concept/named-exercises-of-the-canon
+  note: polo among the Canon's named exercises
+- type: related_to
+  target: object/sahn-furusiyya
+  note: the furusiyya ground where the game was shown
+- type: related_to
+  target: sport/furusiyya
+  note: a mounted game
+tags:
+- sport-browser
+- sport-games
+wings:
+- time
+sources:
+- source/canon-ibn-sina-print-v1
+provenance:
+  layer: own-research
+  source: Written for the Sport Browser (plan 66) from the cited source records in data/source/ — the two Sahihs, Tirmidhi,
+    Abu Dawud, the Muwatta, Ibn Ishaq's Sira (Zakkar ed.), al-Isaba, Ibn Sina's Canon vol. 1, and Usul al-iqtisad al-islami
+  generated_by: Devin (SWE-2 Medium)
+  model: SWE-2 Medium
+  run: sport-browser-seeds-1
+status:
+  review: published
+  completeness: 2
+  generated_by: Devin (SWE-2 Medium); sources are the museum's own source records; page numbers carried from the mined records

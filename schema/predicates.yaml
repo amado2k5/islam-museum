@@ -186,8 +186,8 @@ participated_in:
 
 part_of:
   inverse: has_part
-  domain: [event,period,place,work,concept,journey,group,object,passage,media,exhibit]
-  range: [event,period,place,work,concept,journey,group,object,exhibit,passage]
+  domain: [event,period,place,work,concept,journey,group,object,passage,media,exhibit,sport]
+  range: [event,period,place,work,concept,journey,group,object,exhibit,passage,sport]
   label: { en: "Part of", ar: "جزء من" }
   inverse_label: { en: "Has part", ar: "يتضمن" }
   temporal: false
@@ -219,7 +219,7 @@ opposed:
 depicts:
   inverse: depicted_in
   domain: [media,object,work]
-  range: [person,place,building,event,object,concept,group]
+  range: [person,place,building,event,object,concept,group,sport]
   label: { en: "Depicts", ar: "يصوّر" }
   inverse_label: { en: "Depicted in", ar: "صُوّر في" }
   temporal: false
@@ -251,7 +251,7 @@ made_in:
 mentions:
   inverse: mentioned_in
   domain: [work,passage,media,event,exhibit,question]
-  range: [person,place,event,concept,group,building,object,work,polity]
+  range: [person,place,event,concept,group,building,object,work,polity,sport]
   label: { en: "Mentions", ar: "يذكر" }
   inverse_label: { en: "Mentioned in", ar: "ورد في" }
   temporal: false
@@ -266,7 +266,7 @@ exemplifies:
 
 practiced_in:
   inverse: has_practice
-  domain: [practice,concept]
+  domain: [practice,concept,sport]
   range: [place,polity,group]
   label: { en: "Practiced in", ar: "يُمارس في" }
   inverse_label: { en: "Has practice", ar: "فيه ممارسة" }

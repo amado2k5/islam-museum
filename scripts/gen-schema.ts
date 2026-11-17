@@ -54,7 +54,7 @@ if (JSON.stringify(kinds.award) !== JSON.stringify(awardKinds)) {
 
 export const CLASSES = [
   "person", "group", "polity", "event", "period", "journey", "place", "building", "object",
-  "media", "work", "passage", "concept", "language", "practice", "exhibit", "question", "source", "dataset", "listing", "screen", "job", "invention", "award", "course",
+  "media", "work", "passage", "concept", "language", "practice", "exhibit", "question", "source", "dataset", "listing", "screen", "job", "invention", "award", "course", "sport",
 ] as const;
 
 const ref = (name: string) => ({ $ref: `_base.schema.json#/$defs/${name}` });
@@ -631,6 +631,25 @@ classProps.award = {
     ceremony: entityRef,
     laureate: { type: "boolean", description: "Winners of a laureate award also appear in the browser's achievements section." },
     links: { type: "object", additionalProperties: true },
+  },
+  required: ["kind"],
+};
+// Sport Browser (docs/plan/66): the named sports and contests as first-class entities — the Prophetic
+// trio (horsemanship, swimming, archery), wrestling and strength, races and wagered contests, games and
+// field sports of the tradition, and the modern game.
+classProps.sport = {
+  properties: {
+    names: { type: "array", items: ref("name") },
+    ...kind("sport"),
+    era: { type: "array", items: enm(["pre-islamic", "prophetic", "rashidun-umayyad", "abbasid", "mamluk-ayyubid", "ottoman", "colonial", "modern"]), uniqueItems: true },
+    arabic_terms: { type: "array", items: str },
+    furusiyya: { type: "boolean" },
+    equipment: entityRefs,
+    venues: entityRefs,
+    notable: entityRefs,
+    governing: entityRefs,
+    status_today: enm(["living", "transformed", "extinct", "museum-tradition"]),
+    image: entityRef,
   },
   required: ["kind"],
 };

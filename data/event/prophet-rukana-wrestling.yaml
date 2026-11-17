@@ -1,0 +1,51 @@
+id: event/prophet-rukana-wrestling
+class: event
+kind: competition
+label:
+  ar: مصارعة النبي لركانة
+  en: The Prophet's wrestling bout with Rukana
+  ur: نبی کی رکانہ سے کشتی
+summary:
+  ar: 'روى ابن إسحاق أن النبي دعا ركانة بن عبد يزيد المطلبي إلى الإسلام وقال له: «أرأيت إن صرعتك أتعلم أن ذلك حق؟» فقال: نعم،
+    فصرعه مرتين {cite:sira-ibn-ishaq-zakkar p. 276}؛ وأورد ابن حجر الخبر في الإصابة مع كلام على سنده {cite:ibn-hajar-isaba}.'
+  en: Ibn Ishaq narrates that the Prophet called Rukana ibn Abd Yazid al-Muttalibi to Islam and asked «If I throw you, will
+    you know that it is true?»; Rukana agreed and the Prophet threw him twice {cite:sira-ibn-ishaq-zakkar p. 276}; Ibn Hajar
+    carries the report in al-Isaba with discussion of its chain {cite:ibn-hajar-isaba}.
+  ur: ابن اسحاق روایت کرتے ہیں کہ نبی نے رکانہ بن عبد یزید مطلبی کو اسلام کی دعوت دی اور فرمایا «اگر میں تمہیں پچھاڑ دوں تو
+    کیا تم جان لو گے؟»؛ رکانہ نے ہاں کہی اور آپ نے انہیں دو مرتبہ پچھاڑا {cite:sira-ibn-ishaq-zakkar p. 276}؛ ابن حجر نے اصابہ
+    میں یہ خبر سند کی بحث کے ساتھ نقل کی {cite:ibn-hajar-isaba}۔
+wings:
+- time
+periods:
+- period/prophetic-era
+regions:
+- arabia
+participants:
+- target: person/muhammad
+  role: the winner
+- target: person/rukana
+  role: the wrestler thrown
+relations:
+- type: related_to
+  target: sport/musaraa
+  note: wrestling
+- type: related_to
+  target: concept/al-musara-a
+  note: the wrestling concept record
+tags:
+- sport-browser
+- sport-games
+sources:
+- source/sira-ibn-ishaq-zakkar
+- source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: Written for the Sport Browser (plan 66) from the cited source records — the two Sahihs, Abu Dawud, Musnad Ahmad
+    and Ibn Ishaq's Sira (Zakkar ed.) with al-Isaba
+  generated_by: Devin (SWE-2 Medium)
+  model: SWE-2 Medium
+  run: sport-browser-events-1
+status:
+  review: published
+  completeness: 2
+  generated_by: Devin (SWE-2 Medium); the famous-contest reports are carried in their own words from the cited collections

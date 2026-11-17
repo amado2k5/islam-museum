@@ -1,0 +1,43 @@
+id: sport/okmanzil
+class: sport
+kind: target
+label:
+  ar: أوكمنضيل — ميادين الرمي العثمانية
+  en: Ok-meydan — the Ottoman archery grounds
+  ur: اوک میدان — عثمانی تیراندازی کے میدان
+summary:
+  ar: مناطق الرمي بالقوس في الدولة العثمانية، ومنها أوكمنضيل استانبول، كان يبارز فيها الرماة على المسافة ويحفر الرمي الجديد
+    حجرا باسمه عند القياس — منها نقش توزقبران إسكندر الكيلاني من مشاهير رماة القرن العاشر الهجري {cite:tdv-ok}.
+  en: The Ottoman archery grounds, Istanbul's Ok-Meydan first among them, where archers vied for distance and each record
+    shot had its stone marker raised at the measure — among the famous names Tozkoparan Iskandar of the tenth Hijri century
+    {cite:tdv-ok}.
+  ur: عثمانی تیراندازی کے میدان، سب سے پہلے استنبول کا اوک میدان، جہاں تیرانداز فاصلے کے لیے مقابلہ کرتے اور ہر ریکارڈ پر
+    نشان سنگ کھڑا ہوتا — دسویں ہجری صدی کے مشہور ناموں میں توزقبران اسکندر {cite:tdv-ok}۔
+era:
+- ottoman
+status_today: extinct
+relations:
+- type: related_to
+  target: sport/ramy
+  note: the Ottoman practice ground of archery
+- type: related_to
+  target: object/sahn-furusiyya
+  note: the furusiyya ground record
+tags:
+- sport-browser
+- sport-ramy
+wings:
+- time
+sources:
+- source/tdv-ok
+provenance:
+  layer: own-research
+  source: Written for the Sport Browser (plan 66) from the cited source records in data/source/ — the two Sahihs, Tirmidhi,
+    Abu Dawud, the Muwatta, Ibn Ishaq's Sira (Zakkar ed.), al-Isaba, Ibn Sina's Canon vol. 1, and Usul al-iqtisad al-islami
+  generated_by: Devin (SWE-2 Medium)
+  model: SWE-2 Medium
+  run: sport-browser-seeds-1
+status:
+  review: published
+  completeness: 2
+  generated_by: Devin (SWE-2 Medium); sources are the museum's own source records; page numbers carried from the mined records

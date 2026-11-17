@@ -1,0 +1,51 @@
+---
+// "The contest ground" — the Sport Browser's signature view (docs/plan/66): one ruled strip per
+// topic family, a disc per corpus section sized by its record count, each disc a link. Abstract
+// geometry only — no named figure, no figurative depiction (docs/site/signature-views.md rules
+// 1-6). Readable without JavaScript.
+import { sportItems, SPORT_SECTIONS } from "../../lib/sport";
+import { ui, num, type Lang } from "../../lib/i18n";
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const V = (ui(lang) as any).sport?.sig ?? {};
+
+const TOPICS = ["khayl", "ramy", "sibaha", "sira", "sabq", "laib", "sayd", "riyada"];
+const byCorpus = (t: string) => {
+  const m: Record<string, number> = {};
+  for (const i of sportItems) {
+    if (i.node.class === "passage" && i.topics.includes(t as any)) m[i.section] = (m[i.section] ?? 0) + 1;
+  }
+  return m;
+};
+const rows = TOPICS.map((t) => {
+  const m = byCorpus(t);
+  const n = Object.values(m).reduce((a, b) => a + b, 0);
+  return { t, m, n, max: Math.sqrt(Math.max(...Object.values(m), 1)) };
+});
+---
+<section aria-labelledby="sport-fields-title" class="sg-s" data-sg-s style="margin-top:1.6rem">
+  <div data-pagefind-body>
+    <h2 id="sport-fields-title">{V.title ?? "The contest ground"}</h2>
+    <p class="muted" style="max-width:var(--measure);margin:0 0 .8rem">{V.caption ?? ""}</p>
+  </div>
+  <div data-pagefind-ignore>
+    {rows.map((r) => (
+      <div class="sg-s-row" style="display:flex;align-items:center;gap:10px;margin:.5rem 0;border-top:1px solid var(--line);padding-top:.4rem">
+        <span class="ui" style="min-width:8rem;font-size:.85rem">{V.topics?.[r.t] ?? r.t}</span>
+        <span style="flex:1;display:flex;gap:6px;align-items:center">
+          {SPORT_SECTIONS.filter((s) => s !== "curated").map((s) => {
+            const n = r.m[s] ?? 0;
+            const d = n === 0 ? 4 : 6 + (Math.sqrt(n) / r.max) * 18;
+            return (
+              <a class="sg-s-disc" href={`#t-${s}`} title={`${V.sections?.[s]?.title ?? s} · ${n}`}
+                 style={`display:inline-block;width:${d}px;height:${d}px;border-radius:50%;background:${n === 0 ? "var(--line)" : "var(--gold)"};opacity:${n === 0 ? ".4" : ".85"}`}></a>
+            );
+          })}
+        </span>
+        <span class="ui muted" style="font-size:.8rem;min-width:2.5rem;text-align:end">{num(r.n, lang)}</span>
+      </div>
+    ))}
+    <p class="ui muted" style="font-size:.8rem;margin:.6rem 0 0">{V.legend ?? ""}</p>
+  </div>
+</section>

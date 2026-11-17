@@ -1,0 +1,45 @@
+id: event/prophet-aisha-race-outbound
+class: event
+kind: competition
+label:
+  ar: سبقة النبي وعائشة الأولى
+  en: The Prophet's first race with Aisha
+  ur: نبی اور عائشہ کی پہلی دوڑ
+summary:
+  ar: في بعض أسفارها مع النبي، وقد دعا أصحابه فتقدموا، سابقها النبي فسبقته وهي جارية خفيفة — حديثها عند أبي داود وأحمد {cite:sunan-abi-dawud}.
+  en: On one of her journeys with the Prophet, he sent the companions ahead and raced her; she was light-built and beat him
+    — her own report in Abu Dawud and Ahmad {cite:sunan-abi-dawud}.
+  ur: نبی کے ساتھ ایک سفر میں آپ نے صحابہ کو آگے بھیجا اور عائشہ سے دوڑ لگائی؛ وہ ہلکی بدن تھیں اور جیت گئیں — ان کی اپنی
+    روایت ابو داود اور احمد میں {cite:sunan-abi-dawud}۔
+wings:
+- time
+periods:
+- period/prophetic-era
+regions:
+- arabia
+participants:
+- target: person/muhammad
+  role: raced her
+- target: person/aisha
+  role: the winner
+relations:
+- type: related_to
+  target: sport/sibaq-al-adyam
+  note: foot-racing
+tags:
+- sport-browser
+- sport-sabq
+sources:
+- source/sunan-abi-dawud
+- source/musnad-ahmad
+provenance:
+  layer: own-research
+  source: Written for the Sport Browser (plan 66) from the cited source records — the two Sahihs, Abu Dawud, Musnad Ahmad
+    and Ibn Ishaq's Sira (Zakkar ed.) with al-Isaba
+  generated_by: Devin (SWE-2 Medium)
+  model: SWE-2 Medium
+  run: sport-browser-events-1
+status:
+  review: published
+  completeness: 2
+  generated_by: Devin (SWE-2 Medium); the famous-contest reports are carried in their own words from the cited collections

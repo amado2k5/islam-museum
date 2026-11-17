@@ -1,0 +1,41 @@
+id: sport/football
+class: sport
+kind: modern-team
+label:
+  ar: كرة القدم
+  en: Football
+  ur: فٹ بال
+summary:
+  ar: أوسع الرياضات اتباعاً في بلاد المسلمين اليوم، تُلعب في كل قطر من المحيط إلى المحيط، ومن أعلامها في المتحف لاعبون كمحمد
+    صلاح ونجوم المنتخبات والدوريات. وتقام فيها كأس العالم وما دونها، وقد نالت دول مسلمة استضافتها ومنافستها في عصرنا {cite:wikipedia-2034-fifa-world-cup-en}.
+  en: The most followed sport in the Muslim lands today, played in every country from ocean to ocean; its players on record
+    in the museum include Mohamed Salah and the stars of the national teams and leagues. It has its World Cup and all beneath
+    it, and Muslim-majority countries have hosted and contested it in our time {cite:wikipedia-2034-fifa-world-cup-en}.
+  ur: آج مسلم ممالک میں سب سے زیادہ پیروکاروں والا کھیل، ہر ملک میں کھیلا جاتا ہے؛ عجائب گھر کے ریکارڈ میں محمد صلاح اور قومی
+    ٹیموں و لیگوں کے ستارے شامل ہیں۔ اس کے عالمی کپ میں مسلم اکثریتی ممالک نے میزبانی اور مقابلہ کیا {cite:wikipedia-2034-fifa-world-cup-en}۔
+era:
+- modern
+status_today: living
+relations:
+- type: related_to
+  target: person/mohamed-salah
+  note: the most-recorded Muslim footballer in the graph
+tags:
+- sport-browser
+- sport-modern
+wings:
+- living
+sources:
+- source/wikipedia-2034-fifa-world-cup-en
+- source/wikipedia-mohamed-salah-en
+provenance:
+  layer: own-research
+  source: Written for the Sport Browser (plan 66) from the cited source records in data/source/ — the two Sahihs, Tirmidhi,
+    Abu Dawud, the Muwatta, Ibn Ishaq's Sira (Zakkar ed.), al-Isaba, Ibn Sina's Canon vol. 1, and Usul al-iqtisad al-islami
+  generated_by: Devin (SWE-2 Medium)
+  model: SWE-2 Medium
+  run: sport-browser-seeds-1
+status:
+  review: published
+  completeness: 2
+  generated_by: Devin (SWE-2 Medium); sources are the museum's own source records; page numbers carried from the mined records
