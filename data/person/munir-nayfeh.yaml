@@ -1,0 +1,32 @@
+id: person/munir-nayfeh
+class: person
+tags: [ulama-browser]
+label: { ar: "منير نايفة", en: "Munir Nayfeh", ur: "منير نايفة" }
+names:
+  - { value: "منير نايفة", kind: full }
+  - { value: "Munir Nayfeh", kind: full }
+gender: male
+summary:
+  ar: "فيزيائي ذري ونانوتقني فلسطيني أمريكي، وُلد سنة 1945، أستاذ بجامعة إلينوي في أوربانا-شامبين. اشتهر بتحريك الذرات المفردة بالليزر وبتطوير جسيمات السيليكون النانوية المضيئة، وله كتب جامعية في الليزر."
+  en: "Palestinian-American atomic physicist and nanotechnologist, born in 1945, professor at the University of Illinois Urbana-Champaign. Known for single-atom manipulation and luminescent silicon nanoparticles, and author of university textbooks on lasers."
+  ur: "فلسطینی نژاد امریکی جوہری طبیعیات دان اور نینو ٹیکنالوجسٹ، 1945 میں پیدا ہوئے، یونیورسٹی آف الینوائے اربانا-شیمپین کے پروفیسر۔ وہ انفرادی جوہری رد و بدل اور چمکدار سلیکون نینو ذرّات کے لیے مشہور ہیں اور لیزر پر جامعاتی نصابی کتب کے مصنف۔"
+roles: [scientist, professor]
+wings: [people, living]
+born:
+  edtf: "1945"
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: [source/wikipedia-munir-nayfeh]
+faith:
+  - value: islam
+    basis: documented
+    note: "public figure within the Muslim world; no sourced renunciation"
+    sources: [source/wikipedia-munir-nayfeh]
+sources: [source/wikipedia-munir-nayfeh]
+provenance:
+  layer: own-research
+  source: "Gemini-compiled research list (founder session 17 Nov 2026) + English Wikipedia"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: ulama-wave2-2026-11-17
+status: { review: draft, generated_by: "Devin (SWE-2 Medium)" }

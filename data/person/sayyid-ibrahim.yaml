@@ -1,0 +1,39 @@
+id: person/sayyid-ibrahim
+class: person
+tags: [ulama-browser]
+label: { ar: "سيد إبراهيم", en: "Sayyid Ibrahim", ur: "سيد إبراهيم" }
+names:
+  - { value: "سيد إبراهيم", kind: full }
+  - { value: "Sayyid Ibrahim", kind: full }
+gender: male
+summary:
+  ar: "خطاط مصري ⁦(1897–1994)⁩ يُعدّ من كبار أساتذة الخط العربي في القرن العشرين. درّس في مدرسة تحسين الخطوط الملكية بالقاهرة، وكتب نقوشًا في مساجد ومنشآت مصرية عدة، ونُسب إليه كثير من المصاحف المخطوطة الحديثة."
+  en: "Egyptian master calligrapher (1897–1994), counted among the great teachers of Arabic calligraphy in the twentieth century. He taught at Cairo's Royal School for the Improvement of Calligraphy, executed inscriptions for Egyptian mosques and buildings, and wrote many modern Qur'an manuscripts and books."
+  ur: "مصری استادِ خطاط ⁦(1897–1994)⁩ جو بیسویں صدی کے عربی خطاطی کے بڑے اساتذہ میں شمار ہوتے ہیں۔ انہوں نے قاہرہ کے شاہی مکتبِ تحسینِ خطوط میں تدریس کی، مصری مساجد اور عمارتوں کے کتبے لکھے اور متعدد جدید مصاحف اور کتابیں تحریر کیں۔"
+roles: [calligrapher, artist]
+wings: [people]
+born:
+  edtf: "1897"
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: [source/wikipedia-sayyid-ibrahim]
+died:
+  edtf: "1994"
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: [source/wikipedia-sayyid-ibrahim]
+relations: []
+faith:
+  - value: islam
+    basis: documented
+    note: "Public figure within the Muslim world; no sourced renunciation."
+    sources: [source/wikipedia-sayyid-ibrahim]
+sources: [source/wikipedia-sayyid-ibrahim]
+provenance:
+  layer: own-research
+  source: "Gemini-compiled research list (founder session 17 Nov 2026) + wikipedia"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: ulama-wave2-2026-11-17
+status: { review: draft, generated_by: "Devin (SWE-2 Medium)" }

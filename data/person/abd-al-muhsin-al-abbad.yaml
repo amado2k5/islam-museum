@@ -1,0 +1,32 @@
+id: person/abd-al-muhsin-al-abbad
+class: person
+tags: [ulama-browser]
+label: { ar: "عبد المحسن العباد", en: "Abd al-Muhsin al-Abbad", ur: "عبد المحسن العباد" }
+names:
+  - { value: "عبد المحسن العباد", kind: full }
+  - { value: "Abd al-Muhsin al-Abbad", kind: full }
+gender: male
+summary:
+  ar: "محدث سعودي كبير، وُلد سنة 1934، النائب السابق لرئيس الجامعة الإسلامية بالمدينة المنورة. درّس الكتب الستة في المسجد النبوي لعقود، ومن كتبه «فتح القوي المتين» في العقيدة و«شرح سنن أبي داود» و«رفقًا أهل السنة بأهل السنة»."
+  en: "Senior Saudi hadith scholar, born in 1934, former vice president of the Islamic University of Madinah. He taught the Six Books in the Prophet’s Mosque for decades, authoring Fath al-Qawi al-Matin on creed, a commentary on Sunan Abi Dawud and Rifqan Ahl al-Sunna bi Ahl al-Sunna."
+  ur: "سعودی ممتاز محدث، 1934 میں پیدا ہوئے اور جامعہ اسلامیہ مدینہ کے سابق نائب صدر۔ انہوں نے مسجدِ نبوی میں عشروں کتبِ ستہ پڑھائی؛ کتب میں عقیدے پر «فتح القوي المتین»، «شرح سنن أبي داود» اور «رفقًا أهل السنۃ بأهل السنۃ» شامل ہیں۔"
+roles: [scholar, teacher]
+wings: [people, living]
+born:
+  edtf: "1934"
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: [source/wikipedia-abd-al-muhsin-al-abbad]
+faith:
+  - value: sunni
+    basis: documented
+    note: "Documented as a Sunni scholar by role and oeuvre"
+    sources: [source/wikipedia-abd-al-muhsin-al-abbad]
+sources: [source/wikipedia-abd-al-muhsin-al-abbad]
+provenance:
+  layer: own-research
+  source: "Gemini-compiled research list (founder session 17 Nov 2026) + Arabic Wikipedia"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: ulama-wave2-2026-11-17
+status: { review: draft, generated_by: "Devin (SWE-2 Medium)" }

@@ -1,0 +1,39 @@
+id: person/hasan-hanafi
+class: person
+tags: [ulama-browser]
+label: { ar: "حسن حنفي", en: "Hasan Hanafi", ur: "حسن حنفي" }
+names:
+  - { value: "حسن حنفي", kind: full }
+  - { value: "Hasan Hanafi", kind: full }
+gender: male
+summary:
+  ar: "حسن حنفي ⁦(1935–2021)⁩ فيلسوف مصري وأستاذ الفلسفة بجامعة القاهرة، مؤسس مشروع «اليسار الإسلامي» وصاحب نظرية «الاستغراب» مرآةً للاستشراق. من أعماله «التراث والتجديد» و«من العقيدة إلى الثورة» و«مقدمة في علم الاستغراب»."
+  en: "Hasan Hanafi (1935–2021) was an Egyptian philosopher and Cairo University professor, founder of the 'Islamic Left' project and author of the theory of 'Occidentalism' as a mirror to Orientalism. His works include Al-Turath wa al-Tajdid (Heritage and Renewal), Min al-'Aqida ila al-Thawra (From Doctrine to Revolution) and Muqaddima fi 'Ilm al-Istighrab (Introduction to Occidentalism)."
+  ur: "حسن حنفی ⁦(1935–2021)⁩ مصری فلسفی اور جامعہ قاہرہ کے پروفیسر تھے، «اسلامی بائیں بازو» منصوبے کے بانی اور «استغراب» کے نظریے کے قائل جو استشراق کا آئینہ ہے۔ تصانیف میں «التراث والتجديد»، «من العقيدة إلى الثورة» اور «مقدمة في علم الاستغراب» شامل ہیں۔"
+roles: [philosopher, professor]
+wings: [people]
+born:
+  edtf: "1935"
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: [source/wikipedia-hasan-hanafi]
+died:
+  edtf: "2021"
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: [source/wikipedia-hasan-hanafi]
+relations: []
+faith:
+  - value: islam
+    basis: documented
+    note: "public figure within the Muslim world; no sourced renunciation"
+    sources: [source/wikipedia-hasan-hanafi]
+sources: [source/wikipedia-hasan-hanafi]
+provenance:
+  layer: own-research
+  source: "Gemini-compiled research list (founder session 17 Nov 2026) + wikipedia"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: ulama-wave2-2026-11-17
+status: { review: draft, generated_by: "Devin (SWE-2 Medium)" }

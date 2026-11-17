@@ -1,0 +1,39 @@
+id: person/ali-al-wardi
+class: person
+tags: [ulama-browser]
+label: { ar: "علي الوردي", en: "Ali al-Wardi", ur: "علي الوردي" }
+names:
+  - { value: "علي الوردي", kind: full }
+  - { value: "Ali al-Wardi", kind: full }
+gender: male
+summary:
+  ar: "عالم اجتماع ومؤرخ ومفكر عراقي ⁦(1913–1995)⁩، يُعدّ من روّاد علم الاجتماع في العراق والعالم العربي. درّس في الجامعة الأمريكية في بيروت ثم في جامعة بغداد، وطبّق منهج ابن خلدون على التاريخ الاجتماعي العراقي في مؤلفات مثل «لمحات اجتماعية من تاريخ العراق الحديث» و«وعّاظ السلاطين» و«طبيعة المجتمع العراقي»."
+  en: "Iraqi sociologist, historian and intellectual (1913–1995), a pioneer of sociology in Iraq and the Arab world. He taught at the American University of Beirut and then at the University of Baghdad, applying Ibn Khaldun's method to Iraqi social history in works such as Social Glimpses of Modern Iraqi History, Preachers of the Sultans and The Nature of Iraqi Society."
+  ur: "عراقی ماہرِ سماجیات، مورخ اور مفکر ⁦(1913–1995)⁩، جو عراق اور عرب دنیا میں سماجیات کے بانیوں میں شمار ہوتے ہیں۔ انہوں نے امریکن یونیورسٹی آف بیروت اور پھر جامعہ بغداد میں تدریس کی، اور ابن خلدون کے منہج کو عراق کی سماجی تاریخ پر لاگو کرتے ہوئے «لمحات اجتماعیہ من تاریخ العراق الحدیث»، «وعاظ السلاطین» اور «طبیعت المجتمع العراقی» جیسی کتابیں لکھیں۔"
+roles: [writer, historian, professor]
+wings: [people]
+born:
+  edtf: "1913"
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: [source/wikipedia-ali-al-wardi]
+died:
+  edtf: "1995"
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: [source/wikipedia-ali-al-wardi]
+relations: []
+faith:
+  - value: islam
+    basis: documented
+    note: "Public figure within the Muslim world; no sourced renunciation. His work critiques religious establishments sociologically without renouncing Islam."
+    sources: [source/wikipedia-ali-al-wardi]
+sources: [source/wikipedia-ali-al-wardi]
+provenance:
+  layer: own-research
+  source: "Gemini-compiled research list (founder session 17 Nov 2026) + wikipedia"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: ulama-wave2-2026-11-17
+status: { review: draft, generated_by: "Devin (SWE-2 Medium)" }

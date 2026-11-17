@@ -1,0 +1,32 @@
+id: person/ali-al-sallabi
+class: person
+tags: [ulama-browser]
+label: { ar: "علي الصلابي", en: "Ali al-Sallabi", ur: "علي الصلابي" }
+names:
+  - { value: "علي الصلابي", kind: full }
+  - { value: "Ali al-Sallabi", kind: full }
+gender: male
+summary:
+  ar: "مؤرخ وسياسي ليبي، وُلد سنة 1963. اشتهر بسير وتراجم عربية متعددة المجلدات عن العصور الإسلامية الأولى والعثمانية منها السيرة النبوية و«الدولة العثمانية» و«الدولة السلجوقية»، وله حضور سياسي في ليبيا بعد ثورة 2011."
+  en: "Libyan historian and politician, born in 1963. He is known for multi-volume Arabic biographies and histories of early Islamic and Ottoman eras, including a sira of the Prophet and histories of the Ottoman and Seljuk states, with a political role in Libya after the 2011 revolution."
+  ur: "لیبی مؤرخ اور سیاست دان، 1963 میں پیدا ہوئے۔ وہ ابتدائی اسلامی اور عثمانی ادوار پر کثیر الجلد عربی سیر و تاریخوں کے لیے مشہور ہیں جن میں سیرتِ نبوی اور «الدولۃ العثمانیہ» و «الدولۃ السلجوقیہ» شامل ہیں، اور 2011 کی انقلاب کے بعد لیبیا میں سیاسی کردار رکھتے ہیں۔"
+roles: [writer, historian, politician]
+wings: [people, living]
+born:
+  edtf: "1963"
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: [source/wikipedia-ali-al-sallabi]
+faith:
+  - value: sunni
+    basis: documented
+    note: "Documented as a Sunni scholar by role and oeuvre"
+    sources: [source/wikipedia-ali-al-sallabi]
+sources: [source/wikipedia-ali-al-sallabi]
+provenance:
+  layer: own-research
+  source: "Gemini-compiled research list (founder session 17 Nov 2026) + Arabic Wikipedia"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: ulama-wave2-2026-11-17
+status: { review: draft, generated_by: "Devin (SWE-2 Medium)" }
