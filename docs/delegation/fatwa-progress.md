@@ -284,3 +284,11 @@ Sessions 1–10 (1984–1997) fully converted from the official Arabic archive �
 - **Skips:** 81517 (unclear-question stub); 21827=619, 603=21825, 582/395/359/275/302/255 (older dup IDs of already-written records), 85774/85652/85466/85208/84904/84594 (earlier-window dups/pending).
 - **Totals:** 1,554 fatwa files on main. AMJA ≈ 260 unique records of 5,409 captured (~5,150 remain).
 - **Resume:** continue scanning /tmp/amja-out.jsonl for unconverted IDs; next candidates below 81452 (May 2010) and high IDs 85513+ categories beyond طهارة.
+
+## AMJA waves 89–90 (17 Nov 2026, continued)
+- **Batch 38** (PR #7356): menses Qur'an 81415, no istinja for wind 81337, khimar wiping 81296, infant awra 81182, member touch 81056, post-ghusl fluid 80970, prostate madhy 80865, climax no intercourse 80851, wife's discharge 80837, covered limbs 80747, tayammum materials 80692.
+- **Batch 39** (PR #7357): died junub 80552, Maliki incontinence 80544, waiting out excuse 80496, outer contact 80361, left-hand cleansing 80297, colitis guarding 80245, emission 80134, mustahada 80070, janaba+fasting 80012, khuff wiping 79985, incontinence states 79982.
+- **Skips added:** 81517 (unclear), 81813/81739 (follow-up threads on 81782/81731 — same items).
+- **Totals:** 1,576 fatwa files on main. AMJA ≈ 282 unique records of 5,409 captured (~5,125 remain).
+- **Resume:** unconverted IDs below ~79982 (Aug 2009) plus high-ID categories beyond طهارة; skip/dup map above.
+- **Automation:** ~/bin/fatwa-loop.sh (15-min loop of `devin -p` sessions) awaiting `devin auth login` once.
