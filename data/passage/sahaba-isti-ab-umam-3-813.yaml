@@ -1,0 +1,19 @@
+id: passage/sahaba-isti-ab-umam-3-813
+class: passage
+unit: chapter
+work: work/al-istiab
+ref: "3:813"
+label: { ar: "الاستيعاب لابن عبد البر، المجلد المصوَّر 3، ص 813 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Ibn 'Abd al-Barr's al-Isti'ab, scan volume 3, p. 813 — mentions of non-Muslim nations, religions and peoples", ur: "الاستیعاب، ابن عبد البر، اسکین جلد 3، ص 813 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "… إليه راية الرؤساء لمعروفة بالعقاب، وكان لا يحبسها إلاَّ رئيس، فإذا حميت الحرب اجتمعت قريش، فوضعت تلك الراية بيد الرئيس. ويقال : كان أفضل قريش في الجاهلية رأياً ثلاثة : عتبة، وأبو جهل، وأبو سفيان، فلمًا أتى اللّٰه بالإسلام أدبروا …"
+summary:
+  ar: "مقطع من الاستيعاب لابن عبد البر، المجلد المصوَّر 3، ص 813، فيه ذكر أمم وأديان وشعوب غير مسلمة؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة."
+  en: "An excerpt from Ibn 'Abd al-Barr's al-Isti'ab, scan volume 3, p. 813, with mentions of non-Muslim nations, religions and peoples; from the machine-read scan, quoted within forty words per the sources policy. The Umam Browser lists it."
+  ur: "الاستیعاب، ابن عبد البر، اسکین جلد 3، ص 813 کا اقتباس جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: group/al-mushrikun, sources: [source/isti-ab-ibn-abd-al-barr] }
+  - { type: mentions, target: group/quraysh, sources: [source/isti-ab-ibn-abd-al-barr] }
+  - { type: mentions, target: person/abu-jahl, sources: [source/isti-ab-ibn-abd-al-barr] }
+  - { type: mentions, target: person/abu-sufyan-ibn-harb, sources: [source/isti-ab-ibn-abd-al-barr] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan sahaba/isti-ab/alfirdwsiy2018_gmail_0423, page 813; a window of at most 40 words chosen by the umam detector (scripts/umam.ts); OCR text not corrected", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-ocr-1" }
+sources: [source/isti-ab-ibn-abd-al-barr]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the OCR'd book; label and summary are the museum's own words" }

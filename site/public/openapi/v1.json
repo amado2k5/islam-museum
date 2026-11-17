@@ -73,6 +73,21 @@
         }
       }
     },
+    "/umam.json": {
+      "get": {
+        "operationId": "getUmam",
+        "summary": "Umam Browser dataset",
+        "description": "The Umam Browser dataset (متصفح الأمم والأديان والطوائف والشعوب غير المسلمة): every record tagged umam-browser with um-<section> tags — the recounted nations, the religions, sects and tribes, the peoples, the pre-Islamic Arab polytheists, the named figures, lands, concepts and books — plus every work, passage, event or question whose mentions edge names a member or whose text carries its unambiguous name, each with its computed sections (umam, adyan, tawaif, shuub, mushrikun, ayan, sukun, mafahim, kutub, dhikr), per-corpus mentions counts and edges.",
+        "responses": {
+          "200": {
+            "description": "Every umam member with computed sections, per-corpus mentions counts and edges",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
     "/{class}/index.json": {
       "get": {
         "operationId": "getClassIndex",
@@ -1076,7 +1091,7 @@
         ]
       }
     },
-"/openapi.json": {
+    "/openapi.json": {
       "get": {
         "operationId": "getOpenApi",
         "summary": "This document",

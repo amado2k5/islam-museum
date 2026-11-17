@@ -1,0 +1,20 @@
+id: passage/tafsir-ibn-kathir-umam-1-1173
+class: passage
+unit: chapter
+work: work/tafsir-ibn-kathir
+ref: "1:1173"
+label: { ar: "تفسير ابن كثير، المجلد المصوَّر 1، ص 1173 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Ibn Kathir's Tafsir, scan volume 1, p. 1173 — mentions of non-Muslim nations, religions and peoples", ur: "تفسیر ابن کثیر، اسکین جلد 1، ص 1173 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "… أمره اللّٰه به، حتىٰ أذنَ اللّٰه فيهم، فلما غزا رسولُ اللّٰه وَلِلة بدرًا، فقتل اللّٰه به صناديد كفَّار قريش، قال عبد اللّٰه بن أبَيِّ ابن سَلُول ومَن معه من المشركين وعبدة الأوثان: هذا أمر قد تَوَجَّه، فبايعُوا لرسول لفي على …"
+summary:
+  ar: "مقطع من تفسير ابن كثير، المجلد المصوَّر 1، ص 1173، فيه ذكر أمم وأديان وشعوب غير مسلمة؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة."
+  en: "An excerpt from Ibn Kathir's Tafsir, scan volume 1, p. 1173, with mentions of non-Muslim nations, religions and peoples; from the machine-read scan, quoted within forty words per the sources policy. The Umam Browser lists it."
+  ur: "تفسیر ابن کثیر، اسکین جلد 1، ص 1173 کا اقتباس جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: group/al-mushrikun, sources: [source/tafsir-ibn-kathir] }
+  - { type: mentions, target: concept/shirk, sources: [source/tafsir-ibn-kathir] }
+  - { type: mentions, target: group/quraysh, sources: [source/tafsir-ibn-kathir] }
+  - { type: mentions, target: person/abdullah-ibn-ubayy, sources: [source/tafsir-ibn-kathir] }
+  - { type: mentions, target: concept/kufr, sources: [source/tafsir-ibn-kathir] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan tafsir/tafsir-ibn-kathir/0012994, page 1173; a window of at most 40 words chosen by the umam detector (scripts/umam.ts); OCR text not corrected", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-ocr-1" }
+sources: [source/tafsir-ibn-kathir]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the OCR'd book; label and summary are the museum's own words" }

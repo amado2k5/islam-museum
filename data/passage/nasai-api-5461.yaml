@@ -1,0 +1,16 @@
+id: passage/nasai-api-5461
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "5461"
+label: { ar: "سنن النسائي 5461 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sunan al-Nasa'i 5461 — mentions of non-Muslim nations, religions and peoples", ur: "سنن نسائی 5461 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "قَالَ أَخْبَرَنِي مَحْمُودُ بْنُ خَالِدٍ، قَالَ حَدَّثَنَا الْوَلِيدُ، عَنْ أَبِي عَمْرٍو، - وَهُوَ الأَوْزَاعِيُّ - قَالَ حَدَّثَنِي إِسْحَاقُ بْنُ عَبْدِ اللَّهِ بْنِ أَبِي طَلْحَةَ، قَالَ حَدَّثَنِي جَعْفَرُ بْنُ عِيَاضٍ، قَالَ حَدَّثَنِي أَبُو هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ \" تَعَوَّذُوا بِاللَّهِ مِنَ الْفَقْرِ وَالْقِلَّةِ وَالذِّلَّةِ وَأَنْ تَظْلِمَ أَوْ تُظْلَمَ \"."
+summary:
+  ar: "حديث في سنن النسائي، رقم 5461، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan al-Nasa'i, no. 5461 (The Book of Seeking Refuge with Allah), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
+  ur: "سنن نسائی کی حدیث نمبر 5461، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: person/abdullah-ibn-ubayy, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 5461 (book 50 hadith 34); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the hadith-api Arabic edition; label and summary are the museum's own words" }

@@ -1,0 +1,18 @@
+id: passage/sahaba-isaba-umam-2-379
+class: passage
+unit: chapter
+work: work/al-isaba-fi-tamyiz-al-sahaba
+ref: "2:379"
+label: { ar: "الإصابة لابن حجر، المجلد المصوَّر 2، ص 379 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Ibn Hajar's al-Isaba, scan volume 2, p. 379 — mentions of non-Muslim nations, religions and peoples", ur: "الاصابہ، ابن حجر، اسکین جلد 2، ص 379 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "… زوج النَّبيّ وَلِلقه، كان وروى يعقوب بن سفيان من طريق أبي الأسود، عن عروة، قال: لما فرغ خالد من اليمامة أمره أبو بكر أحد أشراف قريش في الجاهلية، وكان إليه أعنة الخيل في الجاهلية، وشهد مع كفار قريش الحروب إلى …"
+summary:
+  ar: "مقطع من الإصابة لابن حجر، المجلد المصوَّر 2، ص 379، فيه ذكر أمم وأديان وشعوب غير مسلمة؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة."
+  en: "An excerpt from Ibn Hajar's al-Isaba, scan volume 2, p. 379, with mentions of non-Muslim nations, religions and peoples; from the machine-read scan, quoted within forty words per the sources policy. The Umam Browser lists it."
+  ur: "الاصابہ، ابن حجر، اسکین جلد 2، ص 379 کا اقتباس جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: group/al-mushrikun, sources: [source/isaba] }
+  - { type: mentions, target: group/quraysh, sources: [source/isaba] }
+  - { type: mentions, target: concept/kufr, sources: [source/isaba] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan sahaba/isaba/20200217_20200217_0509, page 379; a window of at most 40 words chosen by the umam detector (scripts/umam.ts); OCR text not corrected", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-ocr-1" }
+sources: [source/isaba]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the OCR'd book; label and summary are the museum's own words" }

@@ -1,0 +1,17 @@
+id: passage/tabaqat-ibn-saad-umam-2-25
+class: passage
+unit: chapter
+work: work/al-tabaqat-al-kubra-ibn-sad
+ref: "2:25"
+label: { ar: "الطبقات الكبرى لابن سعد، المجلد المصوَّر 2، ص 25 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Ibn Sa'd's al-Tabaqat al-Kubra, scan volume 2, p. 25 — mentions of non-Muslim nations, religions and peoples", ur: "الطبقات الکبریٰ، ابن سعد، اسکین جلد 2، ص 25 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "… عن قريش. وكان عمرو يحمل أَحد أَلْوية بنى كعب الثلاثة التى عقدها رسول اللّه، صلّعم، لهم يوم فتح مكّة، وهو الذى يقول يومئبة ا لاهُمْ إنى ناشدٌ مُحَمْدًا حلْفَ أَبينا وأَبيهِ الأَتْلَدَا بديل بن ورقاء بن عبد العزى ابن ربيمة …"
+summary:
+  ar: "مقطع من الطبقات الكبرى لابن سعد، المجلد المصوَّر 2، ص 25، فيه ذكر أمم وأديان وشعوب غير مسلمة؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة."
+  en: "An excerpt from Ibn Sa'd's al-Tabaqat al-Kubra, scan volume 2, p. 25, with mentions of non-Muslim nations, religions and peoples; from the machine-read scan, quoted within forty words per the sources policy. The Umam Browser lists it."
+  ur: "الطبقات الکبریٰ، ابن سعد، اسکین جلد 2، ص 25 کا اقتباس جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/shirk, sources: [source/tabaqat-ibn-sad] }
+  - { type: mentions, target: group/quraysh, sources: [source/tabaqat-ibn-sad] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan tabaqat/tabaqat-ibn-saad/AAlexandrina-144140, page 25; a window of at most 40 words chosen by the umam detector (scripts/umam.ts); OCR text not corrected", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-ocr-1" }
+sources: [source/tabaqat-ibn-sad]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the OCR'd book; label and summary are the museum's own words" }

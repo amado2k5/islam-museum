@@ -1,0 +1,17 @@
+id: passage/bukhari-api-2681
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "2681"
+label: { ar: "صحيح البخاري 2681 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sahih al-Bukhari 2681 — mentions of non-Muslim nations, religions and peoples", ur: "صحیح بخاری 2681 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "حَدَّثَنَا إِبْرَاهِيمُ بْنُ حَمْزَةَ، حَدَّثَنَا إِبْرَاهِيمُ بْنُ سَعْدٍ، عَنْ صَالِحٍ، عَنِ ابْنِ شِهَابٍ، عَنْ عُبَيْدِ اللَّهِ بْنِ عَبْدِ اللَّهِ، أَنَّ عَبْدَ اللَّهِ بْنَ عَبَّاسٍما ـ أَخْبَرَهُ قَالَ أَخْبَرَنِي أَبُو سُفْيَانَ، أَنَّ هِرَقْلَ، قَالَ لَهُ سَأَلْتُكَ مَاذَا يَأْمُرُكُمْ فَزَعَمْتَ أَنَّهُ أَمَرَكُمْ بِالصَّلاَةِ وَالصِّدْقِ وَالْعَفَافِ وَالْوَفَاءِ بِالْعَهْدِ وَأَدَاءِ الأَمَانَةِ. قَالَ وَهَذِهِ صِفَةُ نَبِيٍّ."
+summary:
+  ar: "حديث في صحيح البخاري، رقم 2681، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sahih al-Bukhari, no. 2681 (Witnesses), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
+  ur: "صحیح بخاری کی حدیث نمبر 2681، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: person/heraclius, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: person/abu-sufyan-ibn-harb, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 2681 (book 52 hadith 42); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the hadith-api Arabic edition; label and summary are the museum's own words" }

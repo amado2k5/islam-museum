@@ -1,0 +1,16 @@
+id: passage/bukhari-api-2122
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "2122"
+label: { ar: "صحيح البخاري 2122 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sahih al-Bukhari 2122 — mentions of non-Muslim nations, religions and peoples", ur: "صحیح بخاری 2122 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "حَدَّثَنَا عَلِيُّ بْنُ عَبْدِ اللَّهِ، حَدَّثَنَا سُفْيَانُ، عَنْ عُبَيْدِ اللَّهِ بْنِ أَبِي يَزِيدَ، عَنْ نَافِعِ بْنِ جُبَيْرِ بْنِ مُطْعِمٍ، عَنْ أَبِي هُرَيْرَةَ الدَّوْسِيِّ ـ قَالَ خَرَجَ النَّبِيُّ فِي طَائِفَةِ النَّهَارِ لاَ يُكَلِّمُنِي وَلاَ أُكَلِّمُهُ حَتَّى أَتَى سُوقَ بَنِي قَيْنُقَاعَ، فَجَلَسَ بِفِنَاءِ بَيْتِ فَاطِمَةَ فَقَالَ \" أَثَمَّ لُكَعُ أَثَمَّ لُكَعُ \". فَحَبَسَتْهُ شَيْئًا فَظَنَنْتُ أَنَّهَا تُلْبِسُهُ …"
+summary:
+  ar: "حديث في صحيح البخاري، رقم 2122، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sahih al-Bukhari, no. 2122 (Sales and Trade), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
+  ur: "صحیح بخاری کی حدیث نمبر 2122، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: group/banu-qaynuqa, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 2122 (book 34 hadith 75); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the hadith-api Arabic edition; label and summary are the museum's own words" }

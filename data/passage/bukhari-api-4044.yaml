@@ -1,0 +1,16 @@
+id: passage/bukhari-api-4044
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "4044"
+label: { ar: "صحيح البخاري 4044 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sahih al-Bukhari 4044 — mentions of non-Muslim nations, religions and peoples", ur: "صحیح بخاری 4044 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "حَدَّثَنَا عُبَيْدُ اللَّهِ بْنُ مُوسَى، عَنْ إِسْرَائِيلَ، عَنْ أَبِي إِسْحَاقَ، عَنِ الْبَرَاءِ ـ قَالَ لَقِينَا الْمُشْرِكِينَ يَوْمَئِذٍ، وَأَجْلَسَ النَّبِيُّ جَيْشًا مِنَ الرُّمَاةِ، وَأَمَّرَ عَلَيْهِمْ عَبْدَ اللَّهِ وَقَالَ \" لاَ تَبْرَحُوا، إِنْ رَأَيْتُمُونَا ظَهَرْنَا عَلَيْهِمْ فَلاَ تَبْرَحُوا وَإِنْ رَأَيْتُمُوهُمْ ظَهَرُوا عَلَيْنَا فَلاَ تُعِينُونَا \". فَلَمَّا لَقِينَا هَرَبُوا حَتَّى رَأَيْتُ النِّسَاءَ يَشْتَدِدْنَ فِي الْجَبَلِ، رَفَعْنَ عَنْ سُوقِهِنَّ …"
+summary:
+  ar: "حديث في صحيح البخاري، رقم 4044، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sahih al-Bukhari, no. 4044 (Military Expeditions led by the Prophet (pbuh) (Al-Maghaazi)), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
+  ur: "صحیح بخاری کی حدیث نمبر 4044، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: group/al-mushrikun, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 4044 (book 64 hadith 90); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the hadith-api Arabic edition; label and summary are the museum's own words" }

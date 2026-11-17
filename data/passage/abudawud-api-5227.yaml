@@ -1,0 +1,16 @@
+id: passage/abudawud-api-5227
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "5227"
+label: { ar: "سنن أبي داود 5227 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sunan Abi Dawud 5227 — mentions of non-Muslim nations, religions and peoples", ur: "سنن ابی داؤد 5227 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "حَدَّثَنَا سَلَمَةُ بْنُ شَبِيبٍ، حَدَّثَنَا عَبْدُ الرَّزَّاقِ، أَخْبَرَنَا مَعْمَرٌ، عَنْ قَتَادَةَ، أَوْ غَيْرِهِ أَنَّ عِمْرَانَ بْنَ حُصَيْنٍ، قَالَ كُنَّا نَقُولُ فِي الْجَاهِلِيَّةِ أَنْعَمَ اللَّهُ بِكَ عَيْنًا وَأَنْعِمْ صَبَاحًا فَلَمَّا كَانَ الإِسْلاَمُ نُهِينَا عَنْ ذَلِكَ. قَالَ عَبْدُ الرَّزَّاقِ قَالَ مَعْمَرٌ يُكْرَهُ أَنْ يَقُولَ الرَّجُلُ أَنْعَمَ اللَّهُ بِكَ عَيْنًا وَلاَ بَأْسَ أَنْ يَقُولَ أَنْعَمَ اللَّهُ عَيْنَكَ."
+summary:
+  ar: "حديث في سنن أبي داود، رقم 5227، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan Abi Dawud, no. 5227 (General Behavior (Kitab Al-Adab)), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
+  ur: "سنن ابی داؤد کی حدیث نمبر 5227، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: group/al-mushrikun, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 5227 (book 43 hadith 455); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the hadith-api Arabic edition; label and summary are the museum's own words" }

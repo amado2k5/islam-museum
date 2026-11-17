@@ -1,0 +1,17 @@
+id: passage/bukhari-api-3042
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "3042"
+label: { ar: "صحيح البخاري 3042 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sahih al-Bukhari 3042 — mentions of non-Muslim nations, religions and peoples", ur: "صحیح بخاری 3042 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "حَدَّثَنَا عُبَيْدُ اللَّهِ، عَنْ إِسْرَائِيلَ، عَنْ أَبِي إِسْحَاقَ، قَالَ سَأَلَ رَجُلٌ الْبَرَاءَ ـ فَقَالَ يَا أَبَا عُمَارَةَ، أَوَلَّيْتُمْ يَوْمَ حُنَيْنٍ قَالَ الْبَرَاءُ وَأَنَا أَسْمَعُ أَمَّا رَسُولُ اللَّهِ لَمْ يُوَلِّ يَوْمَئِذٍ، كَانَ أَبُو سُفْيَانَ بْنُ الْحَارِثِ آخِذًا بِعِنَانِ بَغْلَتِهِ، فَلَمَّا غَشِيَهُ الْمُشْرِكُونَ نَزَلَ، فَجَعَلَ يَقُولُ أَنَا النَّبِيُّ لاَ كَذِبْ، أَنَا ابْنُ عَبْدِ الْمُطَّلِبْ قَالَ فَمَا رُئِيَ …"
+summary:
+  ar: "حديث في صحيح البخاري، رقم 3042، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sahih al-Bukhari, no. 3042 (Fighting for the Cause of Allah (Jihaad)), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
+  ur: "صحیح بخاری کی حدیث نمبر 3042، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: group/al-mushrikun, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: person/abu-sufyan-ibn-harb, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 3042 (book 56 hadith 248); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the hadith-api Arabic edition; label and summary are the museum's own words" }

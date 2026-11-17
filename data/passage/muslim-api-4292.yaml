@@ -1,0 +1,16 @@
+id: passage/muslim-api-4292
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "4292"
+label: { ar: "صحيح مسلم 4292 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sahih Muslim 4292 — mentions of non-Muslim nations, religions and peoples", ur: "صحیح مسلم 4292 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "حَدَّثَنَا مُحَمَّدُ بْنُ أَبِي بَكْرٍ الْمُقَدَّمِيُّ، وَمُحَمَّدُ بْنُ الْمُثَنَّى، وَزُهَيْرُ بْنُ حَرْبٍ، - وَاللَّفْظُ لِزُهَيْرٍ - قَالُوا حَدَّثَنَا يَحْيَى، - وَهُوَ ابْنُ سَعِيدٍ الْقَطَّانُ - عَنْ عُبَيْدِ اللَّهِ، قَالَ أَخْبَرَنِي نَافِعٌ، عَنِ ابْنِ عُمَرَ، أَنَّ عُمَرَ، قَالَ يَا رَسُولَ اللَّهِ إِنِّي نَذَرْتُ فِي الْجَاهِلِيَّةِ أَنْ أَعْتَكِفَ لَيْلَةً فِي الْمَسْجِدِ الْحَرَامِ. قَالَ \" فَأَوْفِ بِنَذْرِكَ \"."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 4292، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sahih Muslim, no. 4292 (The Book of Oaths), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
+  ur: "صحیح مسلم کی حدیث نمبر 4292، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: group/al-mushrikun, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 4292 (book 27 hadith 39); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the hadith-api Arabic edition; label and summary are the museum's own words" }

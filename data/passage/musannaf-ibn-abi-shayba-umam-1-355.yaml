@@ -1,0 +1,18 @@
+id: passage/musannaf-ibn-abi-shayba-umam-1-355
+class: passage
+unit: chapter
+work: work/al-musannaf-ibn-abi-shayba
+ref: "1:355"
+label: { ar: "مصنف ابن أبي شيبة، المجلد المصوَّر 1، ص 355 — ذكر أمم وأديان وشعوب غير مسلمة", en: "the Musannaf of Ibn Abi Shayba, scan volume 1, p. 355 — mentions of non-Muslim nations, religions and peoples", ur: "مصنف ابن ابی شیبہ، اسکین جلد 1، ص 355 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "… جعفر بن عون عن سفيان عن أبي إسحاق عن عمروبن ميمون عن عبد اللّٰه أن النبي كان يقول: اللهم عليك بقريش - ثلاثاً : بأبي جهل بن هشام، وعتبة بن ربيعة، وشيبة بن ربيعة، والوليد بن عتبة، وأمية بن خلف، …"
+summary:
+  ar: "مقطع من مصنف ابن أبي شيبة، المجلد المصوَّر 1، ص 355، فيه ذكر أمم وأديان وشعوب غير مسلمة؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة."
+  en: "An excerpt from the Musannaf of Ibn Abi Shayba, scan volume 1, p. 355, with mentions of non-Muslim nations, religions and peoples; from the machine-read scan, quoted within forty words per the sources policy. The Umam Browser lists it."
+  ur: "مصنف ابن ابی شیبہ، اسکین جلد 1، ص 355 کا اقتباس جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: group/quraysh, sources: [source/al-musannaf-ibn-abi-shayba] }
+  - { type: mentions, target: person/utba-ibn-rabia, sources: [source/al-musannaf-ibn-abi-shayba] }
+  - { type: mentions, target: person/umayya-ibn-khalaf, sources: [source/al-musannaf-ibn-abi-shayba] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan hadith/musannaf-ibn-abi-shayba/07-69117, page 355; a window of at most 40 words chosen by the umam detector (scripts/umam.ts); OCR text not corrected", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-ocr-1" }
+sources: [source/al-musannaf-ibn-abi-shayba]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the OCR'd book; label and summary are the museum's own words" }

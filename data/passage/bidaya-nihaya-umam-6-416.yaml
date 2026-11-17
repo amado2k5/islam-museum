@@ -1,0 +1,19 @@
+id: passage/bidaya-nihaya-umam-6-416
+class: passage
+unit: chapter
+work: work/al-bidaya-wal-nihaya
+ref: "6:416"
+label: { ar: "البداية والنهاية لابن كثير، المجلد المصوَّر 6، ص 416 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Ibn Kathir's al-Bidaya wa-l-Nihaya, scan volume 6, p. 416 — mentions of non-Muslim nations, religions and peoples", ur: "البدایہ والنہایہ، ابن کثیر، اسکین جلد 6، ص 416 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "… الصلاة والسلام وأصحابه. وقال موسى بن عقبة : وكان كعب بن الأشرف، أحد بنى النضير أو فيهم، قد آذى رسول اللّٰه ولا له بالهجاء وركب إلى قريش فاستغواهم، وقال له أبو سفيان وهو بمكة : أناشدك، أديننا أحب إلى اللّٰه …"
+summary:
+  ar: "مقطع من البداية والنهاية لابن كثير، المجلد المصوَّر 6، ص 416، فيه ذكر أمم وأديان وشعوب غير مسلمة؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة."
+  en: "An excerpt from Ibn Kathir's al-Bidaya wa-l-Nihaya, scan volume 6, p. 416, with mentions of non-Muslim nations, religions and peoples; from the machine-read scan, quoted within forty words per the sources policy. The Umam Browser lists it."
+  ur: "البدایہ والنہایہ، ابن کثیر، اسکین جلد 6، ص 416 کا اقتباس جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: group/banu-nadir, sources: [source/al-bidaya-wal-nihaya] }
+  - { type: mentions, target: group/quraysh, sources: [source/al-bidaya-wal-nihaya] }
+  - { type: mentions, target: person/abu-sufyan-ibn-harb, sources: [source/al-bidaya-wal-nihaya] }
+  - { type: mentions, target: person/kaab-ibn-al-ashraf, sources: [source/al-bidaya-wal-nihaya] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan tareekh/bidaya-nihaya/AAlexandrina-153904, page 416; a window of at most 40 words chosen by the umam detector (scripts/umam.ts); OCR text not corrected", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-ocr-1" }
+sources: [source/al-bidaya-wal-nihaya]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the OCR'd book; label and summary are the museum's own words" }

@@ -1,0 +1,19 @@
+id: passage/tarikh-dimashq-umam-3-35
+class: passage
+unit: chapter
+work: work/tarikh-dimashq
+ref: "3:35"
+label: { ar: "تاريخ دمشق لابن عساكر، المجلد المصوَّر 3، ص 35 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Ibn 'Asakir's Tarikh Dimashq, scan volume 3, p. 35 — mentions of non-Muslim nations, religions and peoples", ur: "تاریخ دمشق، ابن عساکر، اسکین جلد 3، ص 35 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "… والنصاري والملل كاها الحنيفية دين إِبراهيم، فأما ورقة بن نوفل فتنصر واستحكم في النصرانية واتبع الكتب من أهلها حتى علم عاما كثيراً من أهل الكتاب، ولم يكن منهم أعدل أمراً ولا أعدل شأنًا من زيد بن نفيل، فإنه اعتزل الأوثان …"
+summary:
+  ar: "مقطع من تاريخ دمشق لابن عساكر، المجلد المصوَّر 3، ص 35، فيه ذكر أمم وأديان وشعوب غير مسلمة؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة."
+  en: "An excerpt from Ibn 'Asakir's Tarikh Dimashq, scan volume 3, p. 35, with mentions of non-Muslim nations, religions and peoples; from the machine-read scan, quoted within forty words per the sources policy. The Umam Browser lists it."
+  ur: "تاریخ دمشق، ابن عساکر، اسکین جلد 3، ص 35 کا اقتباس جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: group/al-nasara, sources: [source/tarikh-dimashq-ibn-asakir-fikr-1995] }
+  - { type: mentions, target: concept/shirk, sources: [source/tarikh-dimashq-ibn-asakir-fikr-1995] }
+  - { type: mentions, target: person/waraqa-ibn-nawfal, sources: [source/tarikh-dimashq-ibn-asakir-fikr-1995] }
+  - { type: mentions, target: concept/ahl-al-kitab, sources: [source/tarikh-dimashq-ibn-asakir-fikr-1995] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan tareekh/tarikh-dimashq/6_20250209_20250209, page 35; a window of at most 40 words chosen by the umam detector (scripts/umam.ts); OCR text not corrected", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-ocr-1" }
+sources: [source/tarikh-dimashq-ibn-asakir-fikr-1995]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the OCR'd book; label and summary are the museum's own words" }

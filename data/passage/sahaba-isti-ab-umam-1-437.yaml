@@ -1,0 +1,18 @@
+id: passage/sahaba-isti-ab-umam-1-437
+class: passage
+unit: chapter
+work: work/al-istiab
+ref: "1:437"
+label: { ar: "الاستيعاب لابن عبد البر، المجلد المصوَّر 1، ص 437 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Ibn 'Abd al-Barr's al-Isti'ab, scan volume 1, p. 437 — mentions of non-Muslim nations, religions and peoples", ur: "الاستیعاب، ابن عبد البر، اسکین جلد 1، ص 437 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "… عمر وإن العاص من فرمان قريش وابطالهم فى الجاهلية مذ كورا بذلك فيهم وكان شاءرا حمن الشعر حفظ عنه الكثير في مشاهد شتي ومن شعره في ابيات له يخاطب عمارة بن الوليد بن المنوة عند النجاشى اذ المر لم يترك …"
+summary:
+  ar: "مقطع من الاستيعاب لابن عبد البر، المجلد المصوَّر 1، ص 437، فيه ذكر أمم وأديان وشعوب غير مسلمة؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة."
+  en: "An excerpt from Ibn 'Abd al-Barr's al-Isti'ab, scan volume 1, p. 437, with mentions of non-Muslim nations, religions and peoples; from the machine-read scan, quoted within forty words per the sources policy. The Umam Browser lists it."
+  ur: "الاستیعاب، ابن عبد البر، اسکین جلد 1، ص 437 کا اقتباس جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: group/al-mushrikun, sources: [source/isti-ab-ibn-abd-al-barr] }
+  - { type: mentions, target: group/quraysh, sources: [source/isti-ab-ibn-abd-al-barr] }
+  - { type: mentions, target: person/al-najashi, sources: [source/isti-ab-ibn-abd-al-barr] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan sahaba/isti-ab/011813191901pdf236, page 437; a window of at most 40 words chosen by the umam detector (scripts/umam.ts); OCR text not corrected", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-ocr-1" }
+sources: [source/isti-ab-ibn-abd-al-barr]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the OCR'd book; label and summary are the museum's own words" }

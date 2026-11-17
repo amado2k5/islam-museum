@@ -1,0 +1,20 @@
+id: passage/tafsir-ibn-kathir-umam-1-5048
+class: passage
+unit: chapter
+work: work/tafsir-ibn-kathir
+ref: "1:5048"
+label: { ar: "تفسير ابن كثير، المجلد المصوَّر 1، ص 5048 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Ibn Kathir's Tafsir, scan volume 1, p. 5048 — mentions of non-Muslim nations, religions and peoples", ur: "تفسیر ابن کثیر، اسکین جلد 1، ص 5048 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "… ملوك حمير، وكان مشركًا- هو الَّذِي قتل أصحاب الأخدود، وكانوا نصارى، وكانوا قريبًا من عشرين ألفًا، فلم يَفْلِتْ منهم إلا دَوس ذو ثعلبان، فذهب فاستغاث بقيصر ملك الشام - وكان نصرانيًّا- فكتب له إلىٰ النَّجاشي ملك الحبشة؛ لكونه أقرب إليهم، …"
+summary:
+  ar: "مقطع من تفسير ابن كثير، المجلد المصوَّر 1، ص 5048، فيه ذكر أمم وأديان وشعوب غير مسلمة؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة."
+  en: "An excerpt from Ibn Kathir's Tafsir, scan volume 1, p. 5048, with mentions of non-Muslim nations, religions and peoples; from the machine-read scan, quoted within forty words per the sources policy. The Umam Browser lists it."
+  ur: "تفسیر ابن کثیر، اسکین جلد 1، ص 5048 کا اقتباس جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: group/ashab-al-uhdud, sources: [source/tafsir-ibn-kathir] }
+  - { type: mentions, target: group/qawm-tubba, sources: [source/tafsir-ibn-kathir] }
+  - { type: mentions, target: group/al-habasha, sources: [source/tafsir-ibn-kathir] }
+  - { type: mentions, target: person/heraclius, sources: [source/tafsir-ibn-kathir] }
+  - { type: mentions, target: person/al-najashi, sources: [source/tafsir-ibn-kathir] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan tafsir/tafsir-ibn-kathir/0012994, page 5048; a window of at most 40 words chosen by the umam detector (scripts/umam.ts); OCR text not corrected", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-ocr-1" }
+sources: [source/tafsir-ibn-kathir]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the OCR'd book; label and summary are the museum's own words" }

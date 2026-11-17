@@ -1,0 +1,19 @@
+id: passage/subul-huda-umam-2-275
+class: passage
+unit: chapter
+work: work/subul-al-huda-wa-al-rashad
+ref: "2:275"
+label: { ar: "سبل الهدى والرشاد للصالحي، المجلد المصوَّر 2، ص 275 — ذكر أمم وأديان وشعوب غير مسلمة", en: "al-Salihi's Subul al-Huda wa-l-Rashad, scan volume 2, p. 275 — mentions of non-Muslim nations, religions and peoples", ur: "سبل الہدیٰ والرشاد، صالحی، اسکین جلد 2، ص 275 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "… يتأله فى الجاهلية ويدعى الحنف واختلف فى إسلامه فقيل إنه أسلم وقيل إنه وعد بالإسلام ثم سبق إليه الموت فلم يسلم وكان عبد اللّه بن أبى بن سلول قد حرضه على عدم مخالفة قريش. وذكر ابن الأثير فى الكامل ج …"
+summary:
+  ar: "مقطع من سبل الهدى والرشاد للصالحي، المجلد المصوَّر 2، ص 275، فيه ذكر أمم وأديان وشعوب غير مسلمة؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة."
+  en: "An excerpt from al-Salihi's Subul al-Huda wa-l-Rashad, scan volume 2, p. 275, with mentions of non-Muslim nations, religions and peoples; from the machine-read scan, quoted within forty words per the sources policy. The Umam Browser lists it."
+  ur: "سبل الہدیٰ والرشاد، صالحی، اسکین جلد 2، ص 275 کا اقتباس جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: group/banu-salul, sources: [source/subul-huda-salihi] }
+  - { type: mentions, target: group/al-mushrikun, sources: [source/subul-huda-salihi] }
+  - { type: mentions, target: group/quraysh, sources: [source/subul-huda-salihi] }
+  - { type: mentions, target: person/abdullah-ibn-ubayy, sources: [source/subul-huda-salihi] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan seerah/subul-huda/03-0086_202209, page 275; a window of at most 40 words chosen by the umam detector (scripts/umam.ts); OCR text not corrected", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-ocr-1" }
+sources: [source/subul-huda-salihi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the OCR'd book; label and summary are the museum's own words" }

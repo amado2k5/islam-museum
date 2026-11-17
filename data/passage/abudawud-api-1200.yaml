@@ -1,0 +1,16 @@
+id: passage/abudawud-api-1200
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "1200"
+label: { ar: "سنن أبي داود 1200 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sunan Abi Dawud 1200 — mentions of non-Muslim nations, religions and peoples", ur: "سنن ابی داؤد 1200 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "حَدَّثَنَا أَحْمَدُ بْنُ حَنْبَلٍ، حَدَّثَنَا عَبْدُ الرَّزَّاقِ، وَمُحَمَّدُ بْنُ بَكْرٍ، قَالاَ أَخْبَرَنَا ابْنُ جُرَيْجٍ، سَمِعْتُ عَبْدَ اللَّهِ بْنَ أَبِي عَمَّارٍ، يُحَدِّثُ فَذَكَرَهُ نَحْوَهُ. قَالَ أَبُو دَاوُدَ رَوَاهُ أَبُو عَاصِمٍ وَحَمَّادُ بْنُ مَسْعَدَةَ كَمَا رَوَاهُ ابْنُ بَكْرٍ."
+summary:
+  ar: "حديث في سنن أبي داود، رقم 1200، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan Abi Dawud, no. 1200 (Prayer (Kitab Al-Salat): Detailed Rules of Law about the Prayer during Journey), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
+  ur: "سنن ابی داؤد کی حدیث نمبر 1200، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: person/abdullah-ibn-ubayy, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 1200 (book 4 hadith 3); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the hadith-api Arabic edition; label and summary are the museum's own words" }

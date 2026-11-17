@@ -1,0 +1,17 @@
+id: passage/ibnmajah-api-3992
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "3992"
+label: { ar: "سنن ابن ماجه 3992 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sunan Ibn Majah 3992 — mentions of non-Muslim nations, religions and peoples", ur: "سنن ابن ماجہ 3992 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "حَدَّثَنَا عَمْرُو بْنُ عُثْمَانَ بْنِ سَعِيدِ بْنِ كَثِيرِ بْنِ دِينَارٍ الْحِمْصِيُّ، حَدَّثَنَا عَبَّادُ بْنُ يُوسُفَ، حَدَّثَنَا صَفْوَانُ بْنُ عَمْرٍو، عَنْ رَاشِدِ بْنِ سَعْدٍ، عَنْ عَوْفِ بْنِ مَالِكٍ، قَالَ قَالَ رَسُولُ اللَّهِ ـ \" افْتَرَقَتِ الْيَهُودُ عَلَى إِحْدَى وَسَبْعِينَ فِرْقَةً فَوَاحِدَةٌ فِي الْجَنَّةِ وَسَبْعُونَ فِي النَّارِ وَافْتَرَقَتِ النَّصَارَى عَلَى ثِنْتَيْنِ وَسَبْعِينَ فِرْقَةً فَإِحْدَى وَسَبْعُونَ فِي النَّارِ …"
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 3992، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan Ibn Majah, no. 3992 (Tribulations), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 3992، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: group/al-yahud, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: group/al-nasara, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 3992 (book 36 hadith 67); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the hadith-api Arabic edition; label and summary are the museum's own words" }

@@ -1,0 +1,16 @@
+id: passage/abudawud-api-2658
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "2658"
+label: { ar: "سنن أبي داود 2658 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sunan Abi Dawud 2658 — mentions of non-Muslim nations, religions and peoples", ur: "سنن ابی داؤد 2658 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "حَدَّثَنَا عُثْمَانُ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا وَكِيعٌ، عَنْ إِسْرَائِيلَ، عَنْ أَبِي إِسْحَاقَ، عَنِ الْبَرَاءِ، قَالَ لَمَّا لَقِيَ النَّبِيُّ الْمُشْرِكِينَ يَوْمَ حُنَيْنٍ فَانْكَشَفُوا نَزَلَ عَنْ بَغْلَتِهِ فَتَرَجَّلَ."
+summary:
+  ar: "حديث في سنن أبي داود، رقم 2658، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan Abi Dawud, no. 2658 (Jihad (Kitab Al-Jihad)), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
+  ur: "سنن ابی داؤد کی حدیث نمبر 2658، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: group/al-mushrikun, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 2658 (book 15 hadith 182); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the hadith-api Arabic edition; label and summary are the museum's own words" }

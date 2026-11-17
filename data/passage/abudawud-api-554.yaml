@@ -1,0 +1,17 @@
+id: passage/abudawud-api-554
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "554"
+label: { ar: "سنن أبي داود 554 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sunan Abi Dawud 554 — mentions of non-Muslim nations, religions and peoples", ur: "سنن ابی داؤد 554 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "حَدَّثَنَا حَفْصُ بْنُ عُمَرَ، حَدَّثَنَا شُعْبَةُ، عَنْ أَبِي إِسْحَاقَ، عَنْ عَبْدِ اللَّهِ بْنِ أَبِي بَصِيرٍ، عَنْ أُبَىِّ بْنِ كَعْبٍ، قَالَ صَلَّى بِنَا رَسُولُ اللَّهِ يَوْمًا الصُّبْحَ فَقَالَ \" أَشَاهِدٌ فُلاَنٌ \". قَالُوا لاَ. قَالَ \" أَشَاهِدٌ فُلاَنٌ \". قَالُوا لاَ. قَالَ \" إِنَّ هَاتَيْنِ الصَّلاَتَيْنِ أَثْقَلُ الصَّلَوَاتِ عَلَى الْمُنَافِقِينَ وَلَوْ تَعْلَمُونَ مَا فِيهِمَا لأَتَيْتُمُوهُمَا وَلَوْ …"
+summary:
+  ar: "حديث في سنن أبي داود، رقم 554، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan Abi Dawud, no. 554 (Prayer (Kitab Al-Salat)), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
+  ur: "سنن ابی داؤد کی حدیث نمبر 554، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: person/abdullah-ibn-ubayy, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/munafiq, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 554 (book 2 hadith 164); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the hadith-api Arabic edition; label and summary are the museum's own words" }

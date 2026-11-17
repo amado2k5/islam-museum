@@ -1,0 +1,16 @@
+id: passage/ibnmajah-api-3209
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "3209"
+label: { ar: "سنن ابن ماجه 3209 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sunan Ibn Majah 3209 — mentions of non-Muslim nations, religions and peoples", ur: "سنن ابن ماجہ 3209 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "حَدَّثَنَا عَمْرُو بْنُ عَبْدِ اللَّهِ، حَدَّثَنَا وَكِيعٌ، عَنْ شَرِيكٍ، عَنْ حَجَّاجِ بْنِ أَرْطَاةَ، عَنِ الْقَاسِمِ بْنِ أَبِي بَزَّةَ، عَنْ سُلَيْمَانَ الْيَشْكُرِيِّ، عَنْ جَابِرِ بْنِ عَبْدِ اللَّهِ، قَالَ نُهِينَا عَنْ صَيْدِ، كَلْبِهِمْ وَطَائِرِهِمْ يَعْنِي الْمَجُوسَ."
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 3209، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan Ibn Majah, no. 3209 (Chapters on Hunting), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 3209، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: group/al-majus, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 3209 (book 28 hadith 10); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the hadith-api Arabic edition; label and summary are the museum's own words" }

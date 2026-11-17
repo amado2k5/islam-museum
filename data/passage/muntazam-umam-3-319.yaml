@@ -1,0 +1,17 @@
+id: passage/muntazam-umam-3-319
+class: passage
+unit: chapter
+work: work/al-muntazam-ibn-al-jawzi
+ref: "3:319"
+label: { ar: "المنتظم لابن الجوزي، المجلد المصوَّر 3، ص 319 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Ibn al-Jawzi's al-Muntazam, scan volume 3, p. 319 — mentions of non-Muslim nations, religions and peoples", ur: "المنتظم، ابن الجوزی، اسکین جلد 3، ص 319 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "… التجار من الرقة ان الروم قد - وافوا فى مراكب كثيرة وجاء توم هنهم على الظهر الى ناحية كيسوم فاستاقوامن المسلمين اكثر من خمسة عشر الف انسان مابين رجل وصبى فضوا بهم وأخذوا فيهم قوما من اهل الذمة. وفى هذه …"
+summary:
+  ar: "مقطع من المنتظم لابن الجوزي، المجلد المصوَّر 3، ص 319، فيه ذكر أمم وأديان وشعوب غير مسلمة؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة."
+  en: "An excerpt from Ibn al-Jawzi's al-Muntazam, scan volume 3, p. 319, with mentions of non-Muslim nations, religions and peoples; from the machine-read scan, quoted within forty words per the sources policy. The Umam Browser lists it."
+  ur: "المنتظم، ابن الجوزی، اسکین جلد 3، ص 319 کا اقتباس جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: group/al-rum, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: mentions, target: concept/ahl-al-dhimma, sources: [source/muntazam-ibn-al-jawzi] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan tareekh/muntazam/AAlexandrina-151934, page 319; a window of at most 40 words chosen by the umam detector (scripts/umam.ts); OCR text not corrected", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-ocr-1" }
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the OCR'd book; label and summary are the museum's own words" }

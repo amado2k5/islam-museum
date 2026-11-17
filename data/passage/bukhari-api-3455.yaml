@@ -1,0 +1,16 @@
+id: passage/bukhari-api-3455
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "3455"
+label: { ar: "صحيح البخاري 3455 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sahih al-Bukhari 3455 — mentions of non-Muslim nations, religions and peoples", ur: "صحیح بخاری 3455 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "حَدَّثَنِي مُحَمَّدُ بْنُ بَشَّارٍ، حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، حَدَّثَنَا شُعْبَةُ، عَنْ فُرَاتٍ الْقَزَّازِ، قَالَ سَمِعْتُ أَبَا حَازِمٍ، قَالَ قَاعَدْتُ أَبَا هُرَيْرَةَ خَمْسَ سِنِينَ، فَسَمِعْتُهُ يُحَدِّثُ، عَنِ النَّبِيِّ قَالَ \" كَانَتْ بَنُو إِسْرَائِيلَ تَسُوسُهُمُ الأَنْبِيَاءُ، كُلَّمَا هَلَكَ نَبِيٌّ خَلَفَهُ نَبِيٌّ، وَإِنَّهُ لاَ نَبِيَّ بَعْدِي، وَسَيَكُونُ خُلَفَاءُ فَيَكْثُرُونَ. قَالُوا فَمَا تَأْمُرُنَا قَالَ فُوا بِبَيْعَةِ الأَوَّلِ فَالأَوَّلِ، أَعْطُوهُمْ …"
+summary:
+  ar: "حديث في صحيح البخاري، رقم 3455، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sahih al-Bukhari, no. 3455 (Prophets), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
+  ur: "صحیح بخاری کی حدیث نمبر 3455، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: group/banu-israil, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 3455 (book 60 hadith 122); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the hadith-api Arabic edition; label and summary are the museum's own words" }

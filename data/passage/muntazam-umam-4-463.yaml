@@ -1,0 +1,18 @@
+id: passage/muntazam-umam-4-463
+class: passage
+unit: chapter
+work: work/al-muntazam-ibn-al-jawzi
+ref: "4:463"
+label: { ar: "المنتظم لابن الجوزي، المجلد المصوَّر 4، ص 463 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Ibn al-Jawzi's al-Muntazam, scan volume 4, p. 463 — mentions of non-Muslim nations, religions and peoples", ur: "المنتظم، ابن الجوزی، اسکین جلد 4، ص 463 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "… او زوجه فعليه كفارة يمين، وان من تزوج امرأة ولها زوج وهو لا يعلم لزمه ان يتصدق بخمسة دراهم، وان قطع السارق من اصول الاضابع، وان ذبائح اهل الكتاب محرمة واشتر طواف الذبح استقبال القبلة، وكل طعام تولاه اليهود والنصارى …"
+summary:
+  ar: "مقطع من المنتظم لابن الجوزي، المجلد المصوَّر 4، ص 463، فيه ذكر أمم وأديان وشعوب غير مسلمة؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة."
+  en: "An excerpt from Ibn al-Jawzi's al-Muntazam, scan volume 4, p. 463, with mentions of non-Muslim nations, religions and peoples; from the machine-read scan, quoted within forty words per the sources policy. The Umam Browser lists it."
+  ur: "المنتظم، ابن الجوزی، اسکین جلد 4، ص 463 کا اقتباس جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: group/al-yahud, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: mentions, target: group/al-nasara, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: mentions, target: concept/ahl-al-kitab, sources: [source/muntazam-ibn-al-jawzi] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan tareekh/muntazam/AAlexandrina-224011, page 463; a window of at most 40 words chosen by the umam detector (scripts/umam.ts); OCR text not corrected", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-ocr-1" }
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the OCR'd book; label and summary are the museum's own words" }

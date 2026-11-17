@@ -1,0 +1,19 @@
+id: passage/sira-ibn-hisham-umam-105
+class: passage
+unit: chapter
+work: work/sira-ibn-ishaq-ibn-hisham
+ref: "105"
+label: { ar: "السيرة النبوية لابن هشام، ص 105 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Ibn Hisham's Sira, p. 105 — mentions of non-Muslim nations, religions and peoples", ur: "سیرت ابن ہشام، ص 105 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "… سَلْمَانُ لَقَدْ لَقِيتَ عِيسَى ابْنَ مَزْيَمَ على نبينا و. ذِكْرُ وَرَقَةَ بْنِ نَوْفَلِ بْنِ أَسَدِ بْنِ عَبْدِ العُزَّى، وَعُبَيْدِاللهِ بْنِ جَحْشِ، وَعُثْمَانَ بْنِ الْحُوَيْرِثِ، وَزَيْدِ بْنِ عَمْرِو بْنِ نُفَيْلٍ تشكّكُهم في الوثنية: قال ابن إسحاق: واجتمعت قُرَيْش يوماً في عيدِ …"
+summary:
+  ar: "مقطع من السيرة النبوية لابن هشام، ص 105، فيه ذكر أمم وأديان وشعوب غير مسلمة؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة."
+  en: "An excerpt from Ibn Hisham's Sira, p. 105, with mentions of non-Muslim nations, religions and peoples; from the machine-read scan, quoted within forty words per the sources policy. The Umam Browser lists it."
+  ur: "سیرت ابن ہشام، ص 105 کا اقتباس جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/shirk, sources: [source/ibn-hisham-sira] }
+  - { type: mentions, target: group/quraysh, sources: [source/ibn-hisham-sira] }
+  - { type: mentions, target: person/waraqa-ibn-nawfal, sources: [source/ibn-hisham-sira] }
+  - { type: mentions, target: person/zayd-ibn-amr, sources: [source/ibn-hisham-sira] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan seerah/sira-ibn-hisham/20251231_20251231_0914, page 105; a window of at most 40 words chosen by the umam detector (scripts/umam.ts); OCR text not corrected", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-ocr-1" }
+sources: [source/ibn-hisham-sira]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the OCR'd book; label and summary are the museum's own words" }

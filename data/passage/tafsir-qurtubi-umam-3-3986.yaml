@@ -1,0 +1,20 @@
+id: passage/tafsir-qurtubi-umam-3-3986
+class: passage
+unit: chapter
+work: work/al-jami-li-ahkam-al-quran
+ref: "3:3986"
+label: { ar: "الجامع لأحكام القرآن للقرطبي، المجلد المصوَّر 3، ص 3986 — ذكر أمم وأديان وشعوب غير مسلمة", en: "al-Qurtubi's al-Jami' li-Ahkam al-Qur'an, scan volume 3, p. 3986 — mentions of non-Muslim nations, religions and peoples", ur: "الجامع لاحکام القرآن، قرطبی، اسکین جلد 3، ص 3986 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "… بمكة رجل نصراني يقال له أبو ميسرة يتكلم بالرومية، فربما قعد إليه رسول اللّٰه وَلالي، فقال الكفار: إنما يتعلم محمد منه، فنزلت. وفي رواية أنه عدّاس غلام عتبة بن ربيعة. وقيل : عابس غلام حويطب بن عبد العُزَّى ويسار أبو …"
+summary:
+  ar: "مقطع من الجامع لأحكام القرآن للقرطبي، المجلد المصوَّر 3، ص 3986، فيه ذكر أمم وأديان وشعوب غير مسلمة؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة."
+  en: "An excerpt from al-Qurtubi's al-Jami' li-Ahkam al-Qur'an, scan volume 3, p. 3986, with mentions of non-Muslim nations, religions and peoples; from the machine-read scan, quoted within forty words per the sources policy. The Umam Browser lists it."
+  ur: "الجامع لاحکام القرآن، قرطبی، اسکین جلد 3، ص 3986 کا اقتباس جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: group/al-nasara, sources: [source/jami-ahkam-quran-resala-v1] }
+  - { type: mentions, target: group/al-rum, sources: [source/jami-ahkam-quran-resala-v1] }
+  - { type: mentions, target: concept/shirk, sources: [source/jami-ahkam-quran-resala-v1] }
+  - { type: mentions, target: person/utba-ibn-rabia, sources: [source/jami-ahkam-quran-resala-v1] }
+  - { type: mentions, target: concept/kufr, sources: [source/jami-ahkam-quran-resala-v1] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan tafsir/tafsir-qurtubi/20191231_20191231_1313, page 3986; a window of at most 40 words chosen by the umam detector (scripts/umam.ts); OCR text not corrected", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-ocr-1" }
+sources: [source/jami-ahkam-quran-resala-v1]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the OCR'd book; label and summary are the museum's own words" }

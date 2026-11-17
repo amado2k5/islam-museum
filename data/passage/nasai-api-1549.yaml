@@ -1,0 +1,16 @@
+id: passage/nasai-api-1549
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "1549"
+label: { ar: "سنن النسائي 1549 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sunan al-Nasa'i 1549 — mentions of non-Muslim nations, religions and peoples", ur: "سنن نسائی 1549 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "أَخْبَرَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، وَمُحَمَّدُ بْنُ بَشَّارٍ، عَنْ مُحَمَّدٍ، قَالَ حَدَّثَنَا شُعْبَةُ، عَنْ مَنْصُورٍ، قَالَ سَمِعْتُ مُجَاهِدًا، يُحَدِّثُ عَنْ أَبِي عَيَّاشٍ الزُّرَقِيِّ، قَالَ شُعْبَةُ كَتَبَ بِهِ إِلَىَّ وَقَرَأْتُهُ عَلَيْهِ وَسَمِعْتُهُ مِنْهُ يُحَدِّثُ وَلَكِنِّي حَفِظْتُهُ قَالَ ابْنُ بَشَّارٍ فِي حَدِيثِهِ حِفْظِي مِنَ الْكِتَابِ أَنَّ النَّبِيَّ كَانَ مُصَافَّ الْعَدُوِّ بِعُسْفَانَ وَعَلَى الْمُشْرِكِينَ خَالِدُ بْنُ الْوَلِيدِ فَصَلَّى بِهِمُ …"
+summary:
+  ar: "حديث في سنن النسائي، رقم 1549، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan al-Nasa'i, no. 1549 (The Book of the Fear Prayer), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
+  ur: "سنن نسائی کی حدیث نمبر 1549، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: group/al-mushrikun, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 1549 (book 18 hadith 21); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the hadith-api Arabic edition; label and summary are the museum's own words" }

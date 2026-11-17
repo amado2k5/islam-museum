@@ -1,0 +1,18 @@
+id: passage/ansab-ashraf-umam-1-131
+class: passage
+unit: chapter
+work: work/ansab-al-ashraf
+ref: "1:131"
+label: { ar: "أنساب الأشراف للبلاذري، المجلد المصوَّر 1، ص 131 — ذكر أمم وأديان وشعوب غير مسلمة", en: "al-Baladhuri's Ansab al-Ashraf, scan volume 1, p. 131 — mentions of non-Muslim nations, religions and peoples", ur: "انساب الاشراف، بلاذری، اسکین جلد 1، ص 131 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "… الوليد بن صالح ومحمد بن سعد، عن محمد بن عمر الواقدي، حدثني معمر بن راشد عن الزهري قال: دعا رسول اللّٰه هيخي سراً، وهجر الأوثان، فاستجاب له أحداث من الرجال وضعفاء من الناس، حتى كثر من آمن به، وكفار قريش …"
+summary:
+  ar: "مقطع من أنساب الأشراف للبلاذري، المجلد المصوَّر 1، ص 131، فيه ذكر أمم وأديان وشعوب غير مسلمة؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة."
+  en: "An excerpt from al-Baladhuri's Ansab al-Ashraf, scan volume 1, p. 131, with mentions of non-Muslim nations, religions and peoples; from the machine-read scan, quoted within forty words per the sources policy. The Umam Browser lists it."
+  ur: "انساب الاشراف، بلاذری، اسکین جلد 1، ص 131 کا اقتباس جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/shirk, sources: [source/ansab-al-ashraf] }
+  - { type: mentions, target: group/quraysh, sources: [source/ansab-al-ashraf] }
+  - { type: mentions, target: concept/kufr, sources: [source/ansab-al-ashraf] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan tareekh/ansab-ashraf/0132796_202003, page 131; a window of at most 40 words chosen by the umam detector (scripts/umam.ts); OCR text not corrected", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-ocr-1" }
+sources: [source/ansab-al-ashraf]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the OCR'd book; label and summary are the museum's own words" }

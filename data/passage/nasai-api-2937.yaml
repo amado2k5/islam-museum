@@ -1,0 +1,16 @@
+id: passage/nasai-api-2937
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "2937"
+label: { ar: "سنن النسائي 2937 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sunan al-Nasa'i 2937 — mentions of non-Muslim nations, religions and peoples", ur: "سنن نسائی 2937 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "أَخْبَرَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ، قَالَ أَنْبَأَنَا عِيسَى بْنُ يُونُسَ، وَجَرِيرٌ، عَنِ الأَعْمَشِ، عَنْ إِبْرَاهِيمَ، عَنْ عَابِسِ بْنِ رَبِيعَةَ، قَالَ رَأَيْتُ عُمَرَ جَاءَ إِلَى الْحَجَرِ فَقَالَ إِنِّي لأَعْلَمُ أَنَّكَ حَجَرٌ وَلَوْلاَ أَنِّي رَأَيْتُ رَسُولَ اللَّهِ يَقُبِّلُكَ مَا قَبَّلْتُكَ. ثُمَّ دَنَا مِنْهُ فَقَبَّلَهُ."
+summary:
+  ar: "حديث في سنن النسائي، رقم 2937، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan al-Nasa'i, no. 2937 (The Book of Hajj), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
+  ur: "سنن نسائی کی حدیث نمبر 2937، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: group/thamud, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 2937 (book 24 hadith 320); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the hadith-api Arabic edition; label and summary are the museum's own words" }

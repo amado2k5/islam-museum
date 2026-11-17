@@ -1,0 +1,16 @@
+id: passage/nasai-api-775
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "775"
+label: { ar: "سنن النسائي 775 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sunan al-Nasa'i 775 — mentions of non-Muslim nations, religions and peoples", ur: "سنن نسائی 775 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "أَخْبَرَنَا عَمْرُو بْنُ عَلِيٍّ، عَنْ يَزِيدَ بْنِ زُرَيْعٍ، وَغَسَّانَ بْنِ مُضَرَ، قَالاَ حَدَّثَنَا أَبُو مَسْلَمَةَ، - وَاسْمُهُ سَعِيدُ بْنُ يَزِيدَ بَصْرِيٌّ - ثِقَةٌ قَالَ سَأَلْتُ أَنَسَ بْنَ مَالِكٍ أَكَانَ رَسُولُ اللَّهِ يُصَلِّي فِي النَّعْلَيْنِ قَالَ نَعَمْ."
+summary:
+  ar: "حديث في سنن النسائي، رقم 775، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan al-Nasa'i, no. 775 (The Book of the Qiblah), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
+  ur: "سنن نسائی کی حدیث نمبر 775، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: group/ghassan, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 775 (book 9 hadith 34); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the hadith-api Arabic edition; label and summary are the museum's own words" }

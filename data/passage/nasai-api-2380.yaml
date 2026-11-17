@@ -1,0 +1,16 @@
+id: passage/nasai-api-2380
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "2380"
+label: { ar: "سنن النسائي 2380 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sunan al-Nasa'i 2380 — mentions of non-Muslim nations, religions and peoples", ur: "سنن نسائی 2380 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "أَخْبَرَنِي عَمْرُو بْنُ هِشَامٍ، قَالَ حَدَّثَنَا مَخْلَدٌ، عَنِ الأَوْزَاعِيِّ، عَنْ قَتَادَةَ، عَنْ مُطَرِّفِ بْنِ عَبْدِ اللَّهِ بْنِ الشِّخِّيرِ، أَخْبَرَنِي أَبِي أَنَّهُ، سَمِعَ رَسُولَ اللَّهِ وَذُكِرَ عِنْدَهُ رَجُلٌ يَصُومُ الدَّهْرَ قَالَ \" لاَ صَامَ وَلاَ أَفْطَرَ \"."
+summary:
+  ar: "حديث في سنن النسائي، رقم 2380، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan al-Nasa'i, no. 2380 (The Book of Fasting), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
+  ur: "سنن نسائی کی حدیث نمبر 2380، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: person/abu-jahl, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 2380 (book 22 hadith 291); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the hadith-api Arabic edition; label and summary are the museum's own words" }

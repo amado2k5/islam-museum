@@ -1,0 +1,17 @@
+id: passage/tabaqat-ibn-saad-umam-1-3
+class: passage
+unit: chapter
+work: work/al-tabaqat-al-kubra-ibn-sad
+ref: "1:3"
+label: { ar: "الطبقات الكبرى لابن سعد، المجلد المصوَّر 1، ص 3 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Ibn Sa'd's al-Tabaqat al-Kubra, scan volume 1, p. 3 — mentions of non-Muslim nations, religions and peoples", ur: "الطبقات الکبریٰ، ابن سعد، اسکین جلد 1، ص 3 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "… المدينة. قالوا : أَمر رصول اللّٰه، صلّعم، أَصحابه بالتهيَّو لغزوة خيبر، ويُجَلَّب من حوله يغزون معه فقال : لا يخرجنَّ معنا إلا راغب فى الجهاد، وشق ذلك على من بقى بالمدينة من اليهود، فخرج واستخلف على المدينة سِباع بن عُرْفُطَة …"
+summary:
+  ar: "مقطع من الطبقات الكبرى لابن سعد، المجلد المصوَّر 1، ص 3، فيه ذكر أمم وأديان وشعوب غير مسلمة؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة."
+  en: "An excerpt from Ibn Sa'd's al-Tabaqat al-Kubra, scan volume 1, p. 3, with mentions of non-Muslim nations, religions and peoples; from the machine-read scan, quoted within forty words per the sources policy. The Umam Browser lists it."
+  ur: "الطبقات الکبریٰ، ابن سعد، اسکین جلد 1، ص 3 کا اقتباس جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: group/al-yahud, sources: [source/tabaqat-ibn-sad] }
+  - { type: mentions, target: group/jews-of-khaybar, sources: [source/tabaqat-ibn-sad] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan tabaqat/tabaqat-ibn-saad/AAlexandrina-144131, page 3; a window of at most 40 words chosen by the umam detector (scripts/umam.ts); OCR text not corrected", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-ocr-1" }
+sources: [source/tabaqat-ibn-sad]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the OCR'd book; label and summary are the museum's own words" }

@@ -1,0 +1,18 @@
+id: passage/tarikh-dimashq-umam-3-437
+class: passage
+unit: chapter
+work: work/tarikh-dimashq
+ref: "3:437"
+label: { ar: "تاريخ دمشق لابن عساكر، المجلد المصوَّر 3، ص 437 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Ibn 'Asakir's Tarikh Dimashq, scan volume 3, p. 437 — mentions of non-Muslim nations, religions and peoples", ur: "تاریخ دمشق، ابن عساکر، اسکین جلد 3، ص 437 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "… عشرة نفر من عشرة أبطن : من هاشم وأمية ونوفل وأسد وعبد الدار وتيم ومخزوم وعدي وسهم وجمع، ثمن هاشم العباس بن عبد المطلب، كان قد سقى في الجاهلية الحجيج، وبقيت السقاية له في الإسلام، ومن بني أُمية أبو سفيان، …"
+summary:
+  ar: "مقطع من تاريخ دمشق لابن عساكر، المجلد المصوَّر 3، ص 437، فيه ذكر أمم وأديان وشعوب غير مسلمة؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة."
+  en: "An excerpt from Ibn 'Asakir's Tarikh Dimashq, scan volume 3, p. 437, with mentions of non-Muslim nations, religions and peoples; from the machine-read scan, quoted within forty words per the sources policy. The Umam Browser lists it."
+  ur: "تاریخ دمشق، ابن عساکر، اسکین جلد 3، ص 437 کا اقتباس جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: group/al-mushrikun, sources: [source/tarikh-dimashq-ibn-asakir-fikr-1995] }
+  - { type: mentions, target: group/quraysh, sources: [source/tarikh-dimashq-ibn-asakir-fikr-1995] }
+  - { type: mentions, target: person/abu-sufyan-ibn-harb, sources: [source/tarikh-dimashq-ibn-asakir-fikr-1995] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan tareekh/tarikh-dimashq/6_20250209_20250209, page 437; a window of at most 40 words chosen by the umam detector (scripts/umam.ts); OCR text not corrected", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-ocr-1" }
+sources: [source/tarikh-dimashq-ibn-asakir-fikr-1995]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the OCR'd book; label and summary are the museum's own words" }

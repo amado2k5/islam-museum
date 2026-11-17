@@ -13,6 +13,7 @@ import { reachFormula, reachIndex, REACH_LISTS } from "./modern/reach.js";
 import { companionIndex, decadeKey } from "./companions.js";
 import { DREAM_TAG, dreamCorpusOf, dreamTagSection, isDreamPassage } from "./dreams.js";
 import { madhahibMembers } from "./madhahib.js";
+import { umamMembers, umamMentionCounts } from "./umam.js";
 import { BAYT_TAG, baytCorpusOf, baytTagSection, isBaytPassage } from "./bayt.js";
 import { MAGIC_TAG, magicCorpusOf, magicTagSection, magicTagTopics, isMagicPassage, magicTopicsOf } from "./magic.js";
 import { QIRAAT_TAG, qiraatCorpusOf, qiraatTagSection, qiraatTagTopics, isQiraatPassage, qiraatTopicsOf } from "./qiraat.js";
@@ -645,6 +646,7 @@ export function featureApiData(c: Compiled): Record<string, { generated: string;
   const qur = qurunApiData(c, edgesFrom, byId);
   out["qurun.json"] = { generated: c.generated, feature: "qurun-browser", subjects: qur.subjects, items: qur.items };
   out["madhahib.json"] = { generated: c.generated, feature: "madhahib-browser", items: madhahibRows(c, edgesFrom) };
+  out["umam.json"] = { generated: c.generated, feature: "umam-browser", items: umamRows(c, edgesFrom, byId) };
   out["places.json"] = { generated: c.generated, feature: "places-browser", items: placesRows(c, edgesFrom, byId) };
   return out;
 }
@@ -657,6 +659,17 @@ function madhahibRows(c: Compiled, edgesFrom: Map<string, { type: string; to: st
     const n = m.node;
     const picked = Object.fromEntries(MADHABIB_FIELDS.filter((f) => n.data[f] !== undefined).map((f) => [f, n.data[f]]));
     return { ...compact(n), ...picked, sections: m.sections, connections: edgesFrom.get(n.id) ?? [], prose: Object.keys(n.prose ?? {}) };
+  });
+}
+
+const UMAM_FIELDS = ["kind", "wings", "themes", "tags", "work", "ref", "unit", "sura", "aya"];
+
+/** The Umam Browser's rows (docs/plan/63): every member with its computed sections and per-corpus mention counts. */
+function umamRows(c: Compiled, edgesFrom: Map<string, { type: string; to: string; inverse: boolean; role?: string }[]>, byId: Map<string, Node>): Record<string, unknown>[] {
+  return umamMembers(c.nodes, c.edges).map((m) => {
+    const n = m.node;
+    const picked = Object.fromEntries(UMAM_FIELDS.filter((f) => f !== "tags" && n.data[f] !== undefined).map((f) => [f, n.data[f]]));
+    return { ...compact(n), ...picked, tags: n.tags, sections: m.sections, mentions: umamMentionCounts(n.id, c.edges, byId), connections: edgesFrom.get(n.id) ?? [], prose: Object.keys(n.prose ?? {}) };
   });
 }
 

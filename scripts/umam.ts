@@ -1,4 +1,4 @@
-// The Umam Browser's shared reads (docs/plan/63-umam-browser.md): «متصفح الأمم والأديان والطوائف
+// The Umam Browser's shared reads (docs/plan/67-umam-browser.md): «متصفح الأمم والأديان والطوائف
 // والشعوب غير المسلمة المذكورة في القرآن والحديث وأثر وكتب الصحابة والتابعين» — which records are the
 // non-Muslim nations, religions, sects and peoples the sources name, and every passage, work, event
 // and question that mentions them. Membership is computed at build time by this one detector, shared
@@ -163,8 +163,8 @@ const EN_NAMES: ReadonlyArray<readonly [string, RegExp]> = [
   ["concept/yajuj-majuj", /\b(Ya'?juj|Gog and Magog|Gog|Magog)\b/i],
   ["person/firawn", /\b(Pharaoh|Fir'?awn)\b/i],
   ["person/namrud", /\b(Nimrod|Namrud)\b/i],
-  ["person/qayssar", /\b(Caesar|Heraclius|Hiraql)\b/i],
-  ["person/kisra", /\b(Chosroes|Kisra|Khosrow)\b/i],
+  ["person/heraclius", /\b(Caesar|Heraclius|Hiraql)\b/i],
+  ["person/kisra-abrawiz", /\b(Chosroes|Kisra|Khosrow)\b/i],
   ["person/al-najashi", /\b(the Negus|al-Najashi|Negus of Abyssinia)\b/i],
   ["concept/ahl-al-kitab", /\b(People of the (Book|Scripture)|ahl al-kitab)\b/i],
 ];

@@ -1,0 +1,17 @@
+id: passage/tarikh-tabari-umam-1-349
+class: passage
+unit: chapter
+work: work/tarikh-al-rusul-wa-al-muluk
+ref: "1:349"
+label: { ar: "تاريخ الرسل والملوك للطبري، المجلد المصوَّر 1، ص 349 — ذكر أمم وأديان وشعوب غير مسلمة", en: "al-Tabari's Tarikh al-Rusul wa-l-Muluk, scan volume 1, p. 349 — mentions of non-Muslim nations, religions and peoples", ur: "تاریخ الرسل والملوک، طبری، اسکین جلد 1، ص 349 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "… وفيها كانت وقعة بين يحيى بن هرئمة وأبى ة لحسين بن قريش قتل من الغريقين جماعة ثم انهزم ابو، الحسين بن قريش وفى يوم الخميس لا تنتى عشرة ليلة خلت من شعبان كانت بباب بغواريا وقعة بين الاتراك واصحاب ابن …"
+summary:
+  ar: "مقطع من تاريخ الرسل والملوك للطبري، المجلد المصوَّر 1، ص 349، فيه ذكر أمم وأديان وشعوب غير مسلمة؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة."
+  en: "An excerpt from al-Tabari's Tarikh al-Rusul wa-l-Muluk, scan volume 1, p. 349, with mentions of non-Muslim nations, religions and peoples; from the machine-read scan, quoted within forty words per the sources policy. The Umam Browser lists it."
+  ur: "تاریخ الرسل والملوک، طبری، اسکین جلد 1، ص 349 کا اقتباس جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: group/al-turk, sources: [source/tarikh-al-tabari] }
+  - { type: mentions, target: group/quraysh, sources: [source/tarikh-al-tabari] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan tareekh/tarikh-tabari/AAlexandrina-223581, page 349; a window of at most 40 words chosen by the umam detector (scripts/umam.ts); OCR text not corrected", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-ocr-1" }
+sources: [source/tarikh-al-tabari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the OCR'd book; label and summary are the museum's own words" }

@@ -1,0 +1,18 @@
+id: passage/tarikh-dimashq-umam-1-222
+class: passage
+unit: chapter
+work: work/tarikh-dimashq
+ref: "1:222"
+label: { ar: "تاريخ دمشق لابن عساكر، المجلد المصوَّر 1، ص 222 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Ibn 'Asakir's Tarikh Dimashq, scan volume 1, p. 222 — mentions of non-Muslim nations, religions and peoples", ur: "تاریخ دمشق، ابن عساکر، اسکین جلد 1، ص 222 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "… فتغلب قال يصدقون اذا لقوا ضر با و يسعرون للاعداء حر با قال فغسان قال اكرم العرب احسابا واثبتهم انسابا قال فأي العرب فى الجاهلية كانت امنع من ان تضام قال قريش كانوا اهل رهوة لا يستطاع ارتقاؤها وهضبة لا …"
+summary:
+  ar: "مقطع من تاريخ دمشق لابن عساكر، المجلد المصوَّر 1، ص 222، فيه ذكر أمم وأديان وشعوب غير مسلمة؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة."
+  en: "An excerpt from Ibn 'Asakir's Tarikh Dimashq, scan volume 1, p. 222, with mentions of non-Muslim nations, religions and peoples; from the machine-read scan, quoted within forty words per the sources policy. The Umam Browser lists it."
+  ur: "تاریخ دمشق، ابن عساکر، اسکین جلد 1، ص 222 کا اقتباس جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: group/ghassan, sources: [source/tarikh-dimashq-ibn-asakir-fikr-1995] }
+  - { type: mentions, target: group/al-mushrikun, sources: [source/tarikh-dimashq-ibn-asakir-fikr-1995] }
+  - { type: mentions, target: group/quraysh, sources: [source/tarikh-dimashq-ibn-asakir-fikr-1995] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan tareekh/tarikh-dimashq/3_20250209_20250209_2145, page 222; a window of at most 40 words chosen by the umam detector (scripts/umam.ts); OCR text not corrected", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-ocr-1" }
+sources: [source/tarikh-dimashq-ibn-asakir-fikr-1995]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the OCR'd book; label and summary are the museum's own words" }

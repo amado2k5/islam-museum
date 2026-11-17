@@ -1,0 +1,16 @@
+id: passage/muwatta-api-1670
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "1670"
+label: { ar: "موطأ مالك 1670 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Muwatta Malik 1670 — mentions of non-Muslim nations, religions and peoples", ur: "موطأ مالک 1670 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "وَحَدَّثَنِي عَنْ مَالِكٍ، عَنْ إِسْحَاقَ بْنِ عَبْدِ اللَّهِ بْنِ أَبِي طَلْحَةَ، أَنَّهُ قَالَ قَالَ أَنَسُ بْنُ مَالِكٍ رَأَيْتُ عُمَرَ بْنَ الْخَطَّابِ وَهُوَ يَوْمَئِذٍ أَمِيرُ الْمَدِينَةِ وَقَدْ رَقَعَ بَيْنَ كَتِفَيْهِ بِرُقَعٍ ثَلاَثٍ لَبَّدَ بَعْضَهَا فَوْقَ بَعْضٍ."
+summary:
+  ar: "حديث في موطأ مالك، رقم 1670، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Muwatta Malik, no. 1670 (Dress), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
+  ur: "موطأ مالک کی حدیث نمبر 1670، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: person/abdullah-ibn-ubayy, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 1670 (book 48 hadith 20); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }
+sources: [source/muwatta-malik, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the hadith-api Arabic edition; label and summary are the museum's own words" }
