@@ -33,6 +33,11 @@ occupations:
     status: historical
     note: "merge-map link from role 'diplomat', Job Browser linking wave"
     sources: [source/ansab-al-ashraf, source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/zad-al-maad, source/ibn-hisham-saqqa, source/ibn-hajar-isaba, source/wikidata]
+  - job: job/natiq-rasmi
+    kind: primary
+    status: historical
+    note: "The Prophet's envoy carrying the letter of the call to Heraclius in 7 AH."
+    sources: [source/tdv-elci]
 relations:
   - { type: born_in, target: place/dumat-al-jandal, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: died_in, target: place/mezzeh, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }

@@ -60,6 +60,11 @@ occupations:
     status: historical
     note: "merge-map link from role 'caliph', Job Browser linking wave"
     sources: [source/tdv-divan-duri, source/tdv-muaviye-aycan, source/subh-al-asha-cairo-v14, source/tarikh-khulafa-minhaj-1434, source/tdv-berid, source/tarikh-khalifa-umari-1985, source/umayyad-birth-to-fall-2006, source/ibn-hajar-isaba, source/tabari-tarikh-abu-al-fadl, source/bakr-umayyad-state-1134715, source/umayyad-birth-to-fall-2006, source/fadail-sahaba-ahmad-wasi-allah-1999, source/encyclopaedia-of-islam-2, source/openiti-corpus, source/wikidata]
+  - job: job/katib
+    kind: secondary
+    status: historical
+    note: "One of the Prophet's scribes before he was governor and caliph."
+    sources: [source/tdv-katip]
 relations:
 - { type: ruled_over, target: polity/umayyad-caliphate, sources: [source/tarikh-khulafa-minhaj-1434] }
 - { type: born_in, target: place/mecca, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q5806)" }
