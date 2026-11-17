@@ -42,6 +42,7 @@ import { USRA_TAG, usraCorpusOf, usraSignalsOf, usraTagSection, usraTopicsOf, is
 import { UBUWWA_TAG, ubuwwaCorpusOf, ubuwwaSignalsOf, ubuwwaTagSection, ubuwwaTopicsOf, isUbuwwaPassage } from "./ubuwwa.js";
 import { UKHUWWA_TAG, ukhuwwaCorpusOf, ukhuwwaSignalsOf, ukhuwwaTagSection, ukhuwwaTopicsOf, isUkhuwwaPassage } from "./ukhuwwa.js";
 import { UMUMA_TAG, umumaCorpusOf, umumaSignalsOf, umumaTagSection, umumaTopicsOf, isUmumaPassage } from "./umuma.js";
+import { SPORT_TAG, sportCorpusOf, sportSignalsOf, sportTagSection, sportTopicsOf, isSportPassage } from "./sport.js";
 import { BUNUWWA_TAG, bunuwwaCorpusOf, bunuwwaSignalsOf, bunuwwaTagSection, bunuwwaTopicsOf, isBunuwwaPassage } from "./bunuwwa.js";
 import { IE_TAG, ieCorpusOf, ieSignalsOf, ieTagSection, ieTagTopics, ieTopicsOf, isIslamicEconomyPassage } from "./islamic-economy.js";
 import { isGhazwaNode, MUHAMMAD } from "./ghazwa.js";
@@ -437,6 +438,16 @@ const FEATURE_EXPORTS: { file: string; feature: string; pick: (n: Node) => boole
         : umumaTagSection(n),
       topics: n.class === "passage" ? umumaTopicsOf(n) : [],
       signals: n.class === "passage" ? umumaSignalsOf(n) : [],
+    }) },
+  { file: "sport.json", feature: "sport-browser",
+    pick: (n) => n.class === "sport" || n.tags.includes(SPORT_TAG) || isSportPassage(n),
+    fields: ["kind", "work", "ref", "unit", "text", "sura", "aya", "wings", "themes", "tags", "era"],
+    extra: (n, ef, byId) => ({
+      section: n.class === "passage"
+        ? sportCorpusOf(n.data.work as string | undefined, byId?.get(n.data.work as string)?.data.genre as string[] | undefined, n.data.unit as string | undefined)
+        : sportTagSection(n),
+      topics: n.class === "passage" ? sportTopicsOf(n) : [],
+      signals: n.class === "passage" ? sportSignalsOf(n) : [],
     }) },
   { file: "bunuwwa.json", feature: "bunuwwa-browser",
     pick: (n) => n.tags.includes(BUNUWWA_TAG) || isBunuwwaPassage(n),
