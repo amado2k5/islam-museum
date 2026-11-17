@@ -16,6 +16,9 @@ translations:
   en: { text: "Lo! Those who believe (in that which is revealed unto thee, Muhammad), and those who are Jews, and Christians, and Sabaeans - whoever believeth in Allah and the Last Day and doeth right - surely their reward is with their Lord, and there shall no fear come upon them neither shall they grieve.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "جو لوگ مسلمان ہیں یا یہودی یا عیسائی یا ستارہ پرست، (یعنی کوئی شخص کسی قوم و مذہب کا ہو) جو خدا اور روز قیامت پر ایمان لائے گا، اور نیک عمل کرے گا، تو ایسے لوگوں کو ان (کے اعمال) کا صلہ خدا کے ہاں ملے گا اور (قیامت کے دن) ان کو نہ کسی طرح کا خوف ہوگا اور نہ وہ غم ناک ہوں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: group/al-sabiun, sources: [source/tanzil-quran] }
+  - { type: mentions, target: group/al-nasara, sources: [source/tanzil-quran] }
+  - { type: mentions, target: group/al-yahud, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-2 }
   - { type: mentions, target: concept/asma-al-akhir, sources: [source/tanzil-quran] }
 sensitivity: sacred

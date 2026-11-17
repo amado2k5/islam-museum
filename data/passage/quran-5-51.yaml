@@ -16,6 +16,8 @@ translations:
   en: { text: "O ye who believe! Take not the Jews and the Christians for friends. They are friends one to another. He among you who taketh them for friends is (one) of them. Lo! Allah guideth not wrongdoing folk.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اے ایمان والو! یہود اور نصاریٰ کو دوست نہ بناؤ یہ ایک دوسرے کے دوست ہیں اور جو شخص تم میں سے ان کو دوست بنائے گا وہ بھی انہیں میں سے ہوگا بیشک خدا ظالم لوگوں کو ہدایت نہیں دیتا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: group/al-nasara, sources: [source/tanzil-quran] }
+  - { type: mentions, target: group/al-yahud, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-5 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

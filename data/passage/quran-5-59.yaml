@@ -16,6 +16,7 @@ translations:
   en: { text: "Say: O People of the Scripture! Do ye blame us for aught else than that we believe in Allah and that which is revealed unto us and that which was revealed aforetime, and because most of you are evil-livers?", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "کہو کہ اے اہل کتاب! تم ہم میں برائی ہی کیا دیکھتے ہو سوا اس کے کہ ہم خدا پر اور جو (کتاب) ہم پر نازل ہوئی اس پر اور جو (کتابیں) پہلے نازل ہوئیں ان پر ایمان لائے ہیں اور تم میں اکثر بدکردار ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: group/al-yahud, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-5 }
   - { type: mentions, target: concept/al-sayyiat, sources: [source/tanzil-quran] }
 sensitivity: sacred

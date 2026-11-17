@@ -16,6 +16,7 @@ translations:
   en: { text: "In Allah's help to victory. He helpeth to victory whom He will. He is the Mighty, the Merciful.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "(یعنی) خدا کی مدد سے۔ وہ جسے چاہتا ہے مدد دیتا ہے اور وہ غالب (اور) مہربان ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: group/al-rum, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-30 }
   - { type: mentions, target: concept/asma-al-aziz, sources: [source/tanzil-quran] }
   - { type: mentions, target: concept/asma-al-rahim, sources: [source/tanzil-quran] }

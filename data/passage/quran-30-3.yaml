@@ -16,6 +16,7 @@ translations:
   en: { text: "In the nearer land, and they, after their defeat will be victorious", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "نزدیک کے ملک میں اور وہ مغلوب ہونے کے بعد عنقریب غالب آجائیں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: group/al-rum, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-30 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

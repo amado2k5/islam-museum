@@ -16,6 +16,11 @@ translations:
   en: { text: "Lo! those who believe (this revelation), and those who are Jews, and the Sabaeans and the Christians and the Magians and the idolaters - Lo! Allah will decide between them on the Day of Resurrection. Lo! Allah is Witness over all things.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "جو لوگ مومن (یعنی مسلمان) ہیں اور جو یہودی ہیں اور ستارہ پرست اور عیسائی اور مجوسی اور مشرک۔ خدا ان (سب) میں قیامت کے دن فیصلہ کردے گا۔ بےشک خدا ہر چیز سے باخبر ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: group/al-mushrikun, sources: [source/tanzil-quran] }
+  - { type: mentions, target: group/al-sabiun, sources: [source/tanzil-quran] }
+  - { type: mentions, target: group/al-majus, sources: [source/tanzil-quran] }
+  - { type: mentions, target: group/al-nasara, sources: [source/tanzil-quran] }
+  - { type: mentions, target: group/al-yahud, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-22 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

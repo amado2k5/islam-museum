@@ -16,6 +16,7 @@ translations:
   en: { text: "And the folk of Noah aforetime, Lo! they were more unjust and more rebellious;", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اور ان سے پہلے قوم نوحؑ کو بھی۔ کچھ شک نہیں کہ وہ لوگ بڑے ہی ظالم اور بڑے ہی سرکش تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: group/qawm-nuh, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-53 }
   - { type: mentions, target: person/nuh, sources: [source/tanzil-quran] }
 sensitivity: sacred

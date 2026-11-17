@@ -16,6 +16,7 @@ translations:
   en: { text: "Alif. Lam. Mim.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "الٓمٓ", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: group/al-rum, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-30 }
   - { type: mentions, target: concept/asma-al-rahim, sources: [source/tanzil-quran] }
   - { type: mentions, target: concept/asma-al-rahman, sources: [source/tanzil-quran] }
