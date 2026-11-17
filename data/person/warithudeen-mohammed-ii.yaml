@@ -1,0 +1,38 @@
+id: person/warithudeen-mohammed-ii
+class: person
+tags: [ulama-browser, ulama-mashahir]
+label: { ar: "وارث الدين محمد الثاني", en: "Warithudeen Mohammed II", ur: "وارث الدین محمد دوم" }
+names:
+  - { value: "Warithudeen Mohammed II", kind: full }
+  - { value: "وارث الدين محمد الثاني", kind: full }
+  - { value: "W. Deen Mohammed II", kind: alternate }
+  - { value: "Warith Deen Mohammed II", kind: alternate }
+gender: male
+summary:
+  ar: "إمام أمريكي، الابن الأكبر للإمام وارث دين محمد الذي حوّل «أمة الإسلام» نحو الإسلام السني السائد بعد 1975. يترأس منظمة «ذي موسك كيرز» الخيرية التي أسسها والده، وتعنى بدروس العربية القرآنية والتثقيف المالي والصحي ومبادرات الأعمال، ويواصل خط والده في التعليم والعبادة على المنهج السني."
+  en: "American imam, the eldest son of Imam W. Deen Mohammed, who moved the Nation of Islam toward mainstream Sunni Islam after 1975. He presides over The Mosque Cares, the charitable organisation his father established, which sponsors Qur'anic Arabic classes, financial literacy, health and nutrition sessions and business initiatives, and he continues his father's line of Sunni teaching and worship."
+  ur: "امریکی امام، امام وارث دین محمد کے بڑے بیٹے جنہوں نے 1975 کے بعد نیشن آف اسلام کو مرکزی دھارے کے سنی اسلام کی طرف مائل کیا۔ وہ اپنے والد کی قائم کردہ خیراتی تنظیم «دی مسجد کیئرز» کے صدر ہیں جو قرآنی عربی کے دروس، مالی خواندگی، صحت و تغذیہ کے پروگرام اور کاروباری مہمات چلاتی ہے، اور وہ اپنے والد کے سنی تدریس و عبادت کے راستے کو جاری رکھے ہوئے ہیں۔"
+roles: [imam, preacher]
+wings: [people, living]
+regions: [americas-oceania]
+born:
+  edtf: "1964"
+  calendar: gregorian
+  precision: year
+  status: historical
+  note: "Approximate: a Second Wave Media report of August 2015 describes him as 51 years old, placing the birth year near 1964; no published day or month is recorded, so the year is kept as an estimate, not a verified date."
+  sources: [source/muslim500-warithudeen-mohammed-ii]
+faith:
+  - value: sunni
+    basis: documented
+    note: "Continues the mainstream Sunni community his father established after 1975, per The Muslim 500."
+    sources: [source/muslim500-warithudeen-mohammed-ii]
+relations:
+  - { type: child_of, target: person/warith-deen-mohammed, sources: [source/muslim500-warithudeen-mohammed-ii] }
+sources: [source/muslim500-warithudeen-mohammed-ii]
+provenance:
+  layer: own-research
+  source: "The Muslim 500 profile and community reporting, read for run ulama-m500-w201-250-2026-11-17"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: ulama-m500-w201-250-2026-11-17
+status: { review: published, generated_by: "Devin (SWE-2 Medium)" }
