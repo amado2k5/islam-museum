@@ -1,3 +1,9 @@
+---
+id: person/khaled-al-bakar
+lang: en
+source_lang: ar
+translators: []
+---
 
 ## Ijaza and chain
 The ijazas he took in Tripoli mean entry into the traditional chain of transmission: he studied recitation, hadith, fiqh and sirah with the city's sheikhs until they licensed him to transmit and teach — the scholarly capital he carried from Lebanon to Canada. {cite:muslim500-khaled-al-bakar}

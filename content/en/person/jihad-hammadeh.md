@@ -1,3 +1,9 @@
+---
+id: person/jihad-hammadeh
+lang: en
+source_lang: ar
+translators: []
+---
 
 ## Further studies
 Beyond his Madinah theology, he holds a bachelor's in history and a master's in social communication from the Universidade Metodista in São Paulo, plus specialisation in addiction prevention and treatment — joining religious formation to the tools of modern social science. {cite:muslim500-jihad-hammadeh} {cite:museudapessoa-jihad-hammadeh}

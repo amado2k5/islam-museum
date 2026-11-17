@@ -1,3 +1,9 @@
+---
+id: person/tayyaba-bukhari-khanum
+lang: en
+source_lang: ar
+translators: []
+---
 
 ## Themes and honours
 Her recorded lectures cover a wide range — prayer, patience, the philosophy of worship and fasting and pilgrimage, women's rights, ethics and child-rearing — some preserved as ten-lecture series; her honours include the Quran-e-Hakim Award of 2007 and a Wonder Women Award of 2012 per reports. {cite:prideofpakistan-tayyaba-bukhari} {cite:pakistantoday-tayyaba-bukhari}

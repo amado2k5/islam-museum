@@ -1,3 +1,9 @@
+---
+id: person/ousama-alshurafa
+lang: en
+source_lang: ar
+translators: []
+---
 
 ## From engineering to da'wah
 His path joins a rigorous technical formation — biomedical and electrical engineering — to a humanities formation at Harvard and an ijazah in the Hafs recitation, visible in his style: metaphors drawn from technology and economics to explain rizq and certainty to the Western professional Muslim. {cite:muslim500-ousama-alshurafa}
