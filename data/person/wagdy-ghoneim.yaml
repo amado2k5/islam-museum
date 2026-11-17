@@ -1,0 +1,41 @@
+id: person/wagdy-ghoneim
+class: person
+label:
+  ar: "وجدي غنيم"
+  en: "Wagdy Ghoneim"
+  ur: "وجدی غنیم"
+names:
+  - { value: "وجدي عبد الحميد محمد غنيم", kind: full, lang: ar }
+  - { value: "وجدي غنيم", kind: full }
+  - { value: "Wagdy Abd el-Hamied Mohamed Ghoneim", kind: alternate }
+  - { value: "Wadgy Abd el-Hamied Mohamed Ghoneim", kind: alternate }
+  - { value: "Wagdy Ghoneim", kind: alternate }
+  - { value: "وجدی غنیم", kind: alternate }
+gender: male
+summary:
+  ar: "واعظ وإمام مصري، من مواليد الإسكندرية عام 1951، اشتهر بمحاضراته ودروسه الدينية في مصر وخارجها، وكان نشطًا في صفوف الحركة الإسلامية في مصر؛ يحفظ له أرشيف أسابيل ثماني سلاسل دروس منها «الأخلاق الحميدة» و«سلوك المسلم الملتزم» و«الشروح على مبادئ التوحيد»."
+  en: "Egyptian preacher and imam, born in Alexandria in 1951, known for his religious lectures and lessons in Egypt and abroad; he was active in the ranks of the Egyptian Islamic movement. The Assabile archive keeps eight series of his recorded lessons, among them 'Al-Akhlaq al-Hamidah' (noble ethics), 'Suluk al-Muslim al-Multazim' (the committed Muslim's conduct) and 'A commentary on the principles of tawhid'."
+  ur: "مصری واعظ اور امام، 1951 میں اسکندریہ میں پیدا ہوئے، مصر اور بیرونِ مصر اپنے دینی خطبات اور دروس کے لیے مشہور؛ وہ مصری اسلامی تحریک کے حلقوں میں سرگرم رہے۔ اسابیل آرکائیو میں ان کے آٹھ سلسلے محفوظ ہیں جن میں «الأخلاق الحميدہ»، «سلوک المسلم الملتزم» اور «مبادئ التوحید کی شرح» شامل ہیں۔"
+roles: [preacher, imam]
+wings: [people, today]
+regions: [egypt-nile]
+periods: [period/contemporary-era]
+born: { edtf: "1951-02-08", calendar: gregorian, precision: day, note: "Wikidata Q7959185 (day precision) and both Wikipedia articles give 8 February 1951.", sources: [source/wikidata-wagdy-ghoneim, source/wikipedia-wagdy-ghoneim-ar, source/wikipedia-wagdy-ghoneim-en] }
+relations:
+  - { type: born_in, target: place/alexandria, note: "From Wikidata P19 and both Wikipedia articles: born in Alexandria.", sources: [source/wikidata-wagdy-ghoneim, source/wikipedia-wagdy-ghoneim-ar, source/wikipedia-wagdy-ghoneim-en] }
+  - { type: lived_in, target: place/misr, note: "Egyptian; raised and worked in Egypt before leaving in 2001.", sources: [source/wikipedia-wagdy-ghoneim-ar, source/wikipedia-wagdy-ghoneim-en] }
+  - { type: lived_in, target: place/turkey, note: "The Wikidata Arabic description and later press references place him in Turkey; no formal statement of residence date is recorded.", sources: [source/wikidata-wagdy-ghoneim], confidence: low }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Neither the Arabic nor the English Wikipedia article names a school of law or creed, and Wikidata has no religion statement; his affiliation with the Muslim Brotherhood movement is a political affiliation, not a fiqh school. Recorded as unknown under the publication-standard faith rule."
+    sources: [source/wikipedia-wagdy-ghoneim-ar, source/wikipedia-wagdy-ghoneim-en, source/wikidata-wagdy-ghoneim]
+external_ids: { wikidata: "Q7959185" }
+sources: [source/wikipedia-wagdy-ghoneim-ar, source/wikipedia-wagdy-ghoneim-en, source/wikidata-wagdy-ghoneim, source/assabile-wagdy-ghoneim]
+provenance:
+  layer: own-research
+  source: "Arabic Wikipedia «وجدي غنيم» (revision 76268003), English Wikipedia 'Wagdy Abd el-Hamied Mohamed Ghoneim' (revision 1380658458) and Wikidata Q7959185 (revision 2537500251), each read through the MediaWiki/Wikidata APIs on 17 November 2026; the Assabile speaker page https://www.assabile.com/wagdy-ghoneim and the el-akhlaq-el-hameeda ep01-ep02 transcripts (pass5-qwen, engine Qwen3-ASR oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2, 30-second windows, read through the loop-collapsing reader)."
+  generated_by: "Devin (packet drafter)"
+  model: claude-opus-4.6
+  run: assabile-ghoneim-akhlaq-1
+status: { review: draft, generated_by: "Devin (packet drafter); run assabile-ghoneim-akhlaq-1" }
