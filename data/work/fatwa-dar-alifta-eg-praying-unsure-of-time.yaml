@@ -1,0 +1,24 @@
+id: work/fatwa-dar-alifta-eg-praying-unsure-of-time
+class: work
+kind: fatwa
+label: { ar: "حكم صلاة من صلى شاكًّا في دخول الوقت فتبين دخوله", en: "The prayer of one who prayed unsure of the time, then learned it had begun", ur: "وقت کے دخول میں شک کرتے ہوئے نماز پڑھنا" }
+summary:
+  ar: "سائل سأل عن من صلى شاكًّا في دخول الوقت فتبين له دخوله بعد أدائه. أجابت دار الإفتاء المصرية ⁦(مفتي الجمهورية د. نظير محمد عياد، فتوى رقم 22009)⁩ أنه يجب على المسلم التثبت من دخول وقت الصلاة قبل أدائها فإن شك ثم تبين دخوله بعد الفراغ أعاد على ما فصّل الجواب من التفصيل."
+  en: "A questioner asked about one who prayed while doubting whether the time had begun, then learned it had. Egypt's Dar al-Ifta (Grand Mufti Dr. Nazir Muhammad Ayyad, fatwa no. 22009) answered that a Muslim must confirm the prayer time has entered before praying; if he doubted then learned it had entered after finishing, he repeats — with the details the answer sets out."
+  ur: "ایک سائل نے اس شخص کا حکم پوچھا جس نے وقت کے دخول میں شک کی حالت میں نماز پڑھی اور بعد میں معلوم ہوا کہ وقت داخل ہو چکا تھا۔ مصر کے دار الافتاء ⁦(مفتیِ جمهور ڈاکٹر نظیر محمد عیاد، فتویٰ نمبر 22009)⁩ نے جواب دیا کہ نماز سے پہلے وقت کے دخول کی تصدیق واجب ہے؛ اگر شک میں پڑھے اور بعد میں دخول معلوم ہو تو دہرائے — جواب میں تفصیل ہے۔"
+wings: [words]
+authors: [person/nazir-ayyad]
+publisher: group/dar-al-ifta-al-misriyya
+url: "https://www.dar-alifta.org/ar/fatwa/details/22009/حكم-صلاة-من-صلى-شاكًّا-في-دخول-الوقت-فتبين-دخوله"
+languages: [ar]
+sources: [source/dar-alifta]
+relations:
+  - { type: about, target: practice/salah, sources: [source/dar-alifta] }
+  - { type: about, target: concept/awqat-al-salat, sources: [source/dar-alifta] }
+provenance:
+  layer: own-research
+  source: "dar-alifta.org fatwa no. 22009, category الصلاة; read 17 Nov 2026. Summary in the museum's own words."
+  generated_by: "Devin"
+  model: "SWE-2 Medium"
+  run: fatwa-websites-34
+status: { review: published, completeness: 1 }

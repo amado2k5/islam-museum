@@ -1,0 +1,24 @@
+id: work/fatwa-dar-alifta-eg-fixed-term-marriage
+class: work
+kind: fatwa
+label: { ar: "حكم اشتراط مدة معينة في عقد الزواج", en: "Stipulating a fixed term in the marriage contract", ur: "نکاح کے عقد میں معین مدت کی شرط" }
+summary:
+  ar: "سائل سأل عن اشتراط مدة معينة في عقد الزواج. أجابت دار الإفتاء المصرية ⁦(مفتي الجمهورية د. نظير محمد عياد، فتوى رقم 22026)⁩ أن الأصل في عقد الزواج أن يكون مطلقًا غير مقيد بمدة وتقييده بمدة يناقض مقاصد النكاح ويخرجه عن كونه عقدًا صحيحًا على ما فصّل الجواب."
+  en: "A questioner asked about stipulating a fixed term in the marriage contract. Egypt's Dar al-Ifta (Grand Mufti Dr. Nazir Muhammad Ayyad, fatwa no. 22026) answered that the default for the marriage contract is to be unrestricted, not limited to a term; restricting it to a term that ends the contract contradicts the aims of marriage and takes it out of being a valid contract — as the answer details."
+  ur: "ایک سائل نے نکاح کے عقد میں معین مدت کی شرط کا حکم پوچھا۔ مصر کے دار الافتاء ⁦(مفتیِ جمهور ڈاکٹر نظیر محمد عیاد، فتویٰ نمبر 22026)⁩ نے جواب دیا کہ اصولاً نکاح کا عقد غیر مقید ہوتا ہے؛ مدت کی قید جو عقد کو ختم کر دے نکاح کے مقاصد کے خلاف ہے اور اسے صحیح عقد سے خارج کرتی ہے — جیسا کہ جواب میں تفصیل ہے۔"
+wings: [words]
+authors: [person/nazir-ayyad]
+publisher: group/dar-al-ifta-al-misriyya
+url: "https://www.dar-alifta.org/ar/fatwa/details/22026/حكم-اشتراط-مدة-معينة-في-عقد-الزواج"
+languages: [ar]
+sources: [source/dar-alifta]
+relations:
+  - { type: about, target: practice/nikah, sources: [source/dar-alifta] }
+  - { type: about, target: concept/halal-haram, sources: [source/dar-alifta] }
+provenance:
+  layer: own-research
+  source: "dar-alifta.org fatwa no. 22026, category النكاح; read 17 Nov 2026. Summary in the museum's own words."
+  generated_by: "Devin"
+  model: "SWE-2 Medium"
+  run: fatwa-websites-34
+status: { review: published, completeness: 1 }

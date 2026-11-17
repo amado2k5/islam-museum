@@ -1,0 +1,24 @@
+id: work/fatwa-dar-alifta-eg-funeral-prayer-drowned-missing
+class: work
+kind: fatwa
+label: { ar: "حكم صلاة الجنازة على الغريق المفقود", en: "Funeral prayer for a drowned person who is missing", ur: "غائب ڈوبے ہوئے شخص کی نمازِ جنازہ" }
+summary:
+  ar: "سائل سأل عن صلاة الجنازة على قريبه الذي مات غريقًا. أجابت دار الإفتاء المصرية ⁦(مفتي الجمهورية د. نظير محمد عياد، فتوى رقم 22023)⁩ أنه إذا عثرت فرق الإنقاذ على جثته عومل معاملة سائر الموتى من الغسل والتكفين والصلاة والدفن، وبيّن الجواب حكم من لم يعثر على جثته على وجهه."
+  en: "A questioner asked about the funeral prayer for his relative who drowned. Egypt's Dar al-Ifta (Grand Mufti Dr. Nazir Muhammad Ayyad, fatwa no. 22023) answered that if rescue teams recover the body it is treated like any dead person — washed, shrouded, prayed over and buried; the answer sets out the ruling where the body is not found."
+  ur: "ایک سائل نے اپنے ڈوبے ہوئے رشتہ دار کی نمازِ جنازہ کا حکم پوچھا۔ مصر کے دار الافتاء ⁦(مفتیِ جمهور ڈاکٹر نظیر محمد عیاد، فتویٰ نمبر 22023)⁩ نے جواب دیا کہ اگر ریسکیو ٹیمیں لاش برآمد کر لیں تو اسے دیگر موتوں کی طرح غسل، کفن، نماز اور دفن دیا جائے؛ جس کی لاش نہ ملے اس کا حکم جواب میں بیان ہوا۔"
+wings: [words]
+authors: [person/nazir-ayyad]
+publisher: group/dar-al-ifta-al-misriyya
+url: "https://www.dar-alifta.org/ar/fatwa/details/22023/حكم-صلاة-الجنازة-على-الغريق-المفقود"
+languages: [ar]
+sources: [source/dar-alifta]
+relations:
+  - { type: about, target: practice/salat-al-janaza, sources: [source/dar-alifta] }
+  - { type: about, target: practice/dafn, sources: [source/dar-alifta] }
+provenance:
+  layer: own-research
+  source: "dar-alifta.org fatwa no. 22023, category الصلاة; read 17 Nov 2026. Summary in the museum's own words."
+  generated_by: "Devin"
+  model: "SWE-2 Medium"
+  run: fatwa-websites-34
+status: { review: published, completeness: 1 }
