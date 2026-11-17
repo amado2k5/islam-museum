@@ -1,0 +1,33 @@
+id: person/mustafa-abu-sway
+class: person
+tags: [ulama-browser, ulama-mashahir]
+label: { ar: "مصطفى أبو صوي", en: "Mustafa Abu Sway", ur: "مصطفیٰ ابو سوے" }
+names:
+  - { value: "Mustafa Abu Sway", kind: full }
+  - { value: "مصطفى أبو صوي", kind: full }
+gender: male
+summary:
+  ar: "عالم فلسطيني، وُلد سنة 1957، أستاذ الدراسات الإسلامية في جامعة القدس. يحمل الدكتوراه في فلسفة الغزالي من كلية بوسطن، وشغل مناصب أكاديمية ووقفية في القدس، ويعتبر من أبرز المتحدثين عن شؤون المسجد الأقصى والأوقاف الإسلامية في المدينة."
+  en: "Palestinian scholar, born in 1957, professor of Islamic studies at Al-Quds University. He holds a doctorate on al-Ghazali's philosophy from Boston College, has held academic and waqf-related posts in Jerusalem, and is among the most cited voices on Al-Aqsa Mosque and the Islamic endowments of the city."
+  ur: "فلسطینی عالم، 1957 میں پیدا ہوئے، القدس یونیورسٹی میں اسلامیات کے پروفیسر۔ انھوں نے بوسٹن کالج سے امام غزالی کے فلسفے پر ڈاکٹریٹ لی، یروشلم میں تعلیمی اور وقفی عہدے سنبھالے، اور مسجدِ اقصیٰ اور شہر کے اسلامی اوقاف کے معاملات پر سب سے زیادہ حوالہ دیے جانے والی آوازوں میں شمار ہوتے ہیں۔"
+roles: [scholar, professor]
+wings: [people, living]
+regions: [middle-east]
+born:
+  edtf: "1957"
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: [source/wikipedia-mustafa-abu-sway]
+faith:
+  - value: sunni
+    basis: documented
+    note: "Documented Sunni scholar; professor of Islamic philosophy and Sufism at Al-Quds University and member of Jerusalem's Islamic waqf bodies."
+    sources: [source/wikipedia-mustafa-abu-sway]
+sources: [source/wikipedia-mustafa-abu-sway]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Mustafa Abu Sway', read 17 November 2026"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: ulama-mashahir-wave-2026-11-17
+status: { review: published, generated_by: "Devin (SWE-2 Medium)" }

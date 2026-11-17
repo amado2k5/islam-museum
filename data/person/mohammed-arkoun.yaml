@@ -1,0 +1,39 @@
+id: person/mohammed-arkoun
+class: person
+tags: [ulama-browser]
+label: { ar: "محمد أركون", en: "Mohammed Arkoun", ur: "محمد أركون" }
+names:
+  - { value: "محمد أركون", kind: full }
+  - { value: "Mohammed Arkoun", kind: full }
+gender: male
+summary:
+  ar: "محمد أركون ⁦(1928–2010)⁩ فيلسوف ومؤرخ جزائري-فرنسي، أستاذ تاريخ الفكر الإسلامي بالسوربون، طبّق أدوات النقد الحديث على الدراسات الإسلامية في مشروع «نقد العقل الإسلامي». من كتبه «Pour une critique de la raison islamique» و«Rethinking Islam»."
+  en: "Mohammed Arkoun (1928–2010) was an Algerian-French philosopher and historian of Islamic thought, professor at the Sorbonne, who applied the tools of modern criticism to Islamic studies in his 'critique of Islamic reason' project. His books include Pour une critique de la raison islamique and Rethinking Islam."
+  ur: "محمد ارکون ⁦(1928–2010)⁩ الجزائری-فرانسیسی فلسفی اور اسلامی فکر کے مؤرخ تھے، سوربون کے پروفیسر، جنہوں نے «نقد العقل الإسلامي» کے منصوبے میں جدید تنقید کے اوزار اسلامی مطالعات پر استعمال کیے۔ کتب میں Pour une critique de la raison islamique اور Rethinking Islam شامل ہیں۔"
+roles: [philosopher, professor]
+wings: [people]
+born:
+  edtf: "1928"
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: [source/wikipedia-mohammed-arkoun]
+died:
+  edtf: "2010"
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: [source/wikipedia-mohammed-arkoun]
+relations: []
+faith:
+  - value: islam
+    basis: documented
+    note: "public figure within the Muslim world; no sourced renunciation"
+    sources: [source/wikipedia-mohammed-arkoun]
+sources: [source/wikipedia-mohammed-arkoun]
+provenance:
+  layer: own-research
+  source: "Gemini-compiled research list (founder session 17 Nov 2026) + wikipedia"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: ulama-wave2-2026-11-17
+status: { review: draft, generated_by: "Devin (SWE-2 Medium)" }

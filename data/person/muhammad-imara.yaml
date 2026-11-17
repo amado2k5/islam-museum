@@ -1,0 +1,39 @@
+id: person/muhammad-imara
+class: person
+tags: [ulama-browser]
+label: { ar: "محمد عمارة", en: "Muhammad Imara", ur: "محمد عمارة" }
+names:
+  - { value: "محمد عمارة", kind: full }
+  - { value: "Muhammad Imara", kind: full }
+gender: male
+summary:
+  ar: "محمد عمارة ⁦(1931–2020)⁩ مفكر إسلامي وكاتب ومحقق مصري، عضو مجمع البحوث الإسلامية بالأزهر، ألّف وحقق أكثر من مئتي كتاب في الفكر الإسلامي والتراث. من آثاره «تيارات الفكر الإسلامي» و«الإسلام وأصول الحكم» وتحقيقاته لأعمال رشيد رضا والكواكبي."
+  en: "Muhammad Imara (1931–2020) was an Egyptian Islamic thinker, author and editor, member of al-Azhar's Islamic Research Academy, who wrote and edited over two hundred books on Islamic thought and heritage. His works include Tayarat al-Fikr al-Islami (Currents of Islamic Thought), Al-Islam wa Usul al-Hukm (Islam and the Foundations of Governance) and his editions of Rashid Rida and al-Kawakibi."
+  ur: "محمد عمارة ⁦(1931–2020)⁩ مصری اسلامی مفکر، مصنف اور محقق تھے، ازہر کے مجمع البحوث الإسلامية کے رکن، جنہوں نے اسلامی فکر اور تراث پر دو سو سے زائد کتب لکھیں اور تحقیق کیں۔ آثار میں «تيارات الفكر الإسلامي»، «الإسلام وأصول الحكم» اور رشید رضا و کواکبی کے متون کی تحقیق شامل ہے۔"
+roles: [writer, scholar]
+wings: [people]
+born:
+  edtf: "1931"
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: [source/wikipedia-muhammad-imara]
+died:
+  edtf: "2020"
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: [source/wikipedia-muhammad-imara]
+relations: []
+faith:
+  - value: islam
+    basis: documented
+    note: "public figure within the Muslim world; no sourced renunciation"
+    sources: [source/wikipedia-muhammad-imara]
+sources: [source/wikipedia-muhammad-imara]
+provenance:
+  layer: own-research
+  source: "Gemini-compiled research list (founder session 17 Nov 2026) + wikipedia"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: ulama-wave2-2026-11-17
+status: { review: draft, generated_by: "Devin (SWE-2 Medium)" }

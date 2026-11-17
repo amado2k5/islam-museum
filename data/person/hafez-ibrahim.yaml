@@ -1,0 +1,39 @@
+id: person/hafez-ibrahim
+class: person
+tags: [ulama-browser]
+label: { ar: "حافظ إبراهيم", en: "Hafez Ibrahim", ur: "حافظ إبراهيم" }
+names:
+  - { value: "حافظ إبراهيم", kind: full }
+  - { value: "Hafez Ibrahim", kind: full }
+gender: male
+summary:
+  ar: "شاعر مصري ⁦(1872–1932)⁩ لُقّب بشاعر النيل، من أعمدة الشعر العربي الكلاسيكي الحديث مع أحمد شوقي. جمع شعره في «ديوان حافظ»، وتناول هموم الشعب المصري وقضايا العدل الاجتماعي والمرأة، وترجم عن الفرنسية كتاب «البؤساء» لفيكتور هيغو."
+  en: "Egyptian poet (1872–1932), surnamed 'Poet of the Nile', a pillar of modern neoclassical Arabic verse alongside Ahmad Shawqi. His poetry is collected in the Diwan Hafez; he treated the cares of the Egyptian people, social justice and women's questions, and translated Victor Hugo's Les Miserables from French."
+  ur: "مصری شاعر ⁦(1872–1932)⁩ جن کا لقب «شاعرِ نیل» ہے اور جو احمد شوقی کے ساتھ جدید نوکلاسیکی عربی شاعری کے ستون ہیں۔ ان کی شاعری «دیوانِ حافظ» میں جمع ہے؛ انہوں نے مصری عوام کے دکھ، سماجی انصاف اور مسئلۂ خواتین کو موضوع بنایا اور وکٹر ہیوگو کا «بینوا» ⁦(Les Miserables)⁩ فرانسیسی سے ترجمہ کیا۔"
+roles: [writer, poet]
+wings: [people]
+born:
+  edtf: "1872"
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: [source/wikipedia-hafez-ibrahim]
+died:
+  edtf: "1932"
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: [source/wikipedia-hafez-ibrahim]
+relations: []
+faith:
+  - value: islam
+    basis: documented
+    note: "Egyptian public figure within the Muslim world; no sourced renunciation."
+    sources: [source/wikipedia-hafez-ibrahim]
+sources: [source/wikipedia-hafez-ibrahim]
+provenance:
+  layer: own-research
+  source: "Gemini-compiled research list (founder session 17 Nov 2026) + wikipedia"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: ulama-wave2-2026-11-17
+status: { review: draft, generated_by: "Devin (SWE-2 Medium)" }

@@ -7,6 +7,8 @@ names:
   - { value: "إسلام البحيري", kind: full }
   - { value: "Islam Behery", kind: full }
   - { value: "Islam El-Behery", kind: full }
+  - { value: "إسلام إبراهيم بحيري هلال", kind: full }
+  - { value: "Islam Ibrahim Behery Helal", kind: full }
 gender: male
 summary:
   ar: "باحث وكاتب ومقدّم برامج مصري يعرّف نفسه بأنه «باحث إسلامي»؛ حاصل على ماجستير في «طرائق التعامل مع التراث» من جامعة ويلز، وعمل بمؤسسة اليوم السابع، وقدّم برنامج «مع إسلام» على قناة القاهرة والناس الذي أثار جدلاً واسعاً في نقد التراث. حُكم عليه سنة 2015 بالسجن في تهمة ازدراء الأديان ثم خُفّف الحكم إلى سنة، وأصدر الرئيس عبد الفتاح السيسي عفواً عنه في نوفمبر 2016 ضمن القرار الجمهوري رقم 515."
@@ -15,13 +17,22 @@ summary:
 roles: [writer, presenter, scholar]
 wings: [people, living]
 regions: [egypt-nile]
-relations: []
+born:
+  edtf: "1974"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: false
+  note: "Sources disagree on the day and month: most Egyptian press reports and the Arabic Wikipedia article text give 5 April 1974, while the Arabic article's own infobox gives 5 May 1975; the English Wikipedia article gives only the year 1974. The museum records the year only. He was born in Siflaq, in Sohag Governorate; the museum has no place entity for Siflaq or Sohag, so no born_in edge is written. He lives in Greater Cairo."
+  sources: [source/wikipedia-islam-behery-en, source/wikipedia-islam-behery-ar]
+relations:
+  - { type: lived_in, target: place/cairo, sources: [source/her-news-behery-arrest-2024, source/arabkhabar-behery-bail-2024] }
 faith:
   - value: unknown
     basis: documented
     note: "He describes himself as a 'باحث إسلامي' (Islamic researcher) in his CNN Arabic interview of 23 November 2016 and presents his criticism of the received heritage as a project inside Islam; no sourced statement of his renounces Islam; the museum records him Muslim by his own self-description but his school or tradition is unstated, so faith stays unknown."
     sources: [source/cnn-arabic-islam-behery-2016]
-sources: [source/cnn-arabic-islam-behery-2016, source/ahram-online-sisi-pardons-2016]
+sources: [source/cnn-arabic-islam-behery-2016, source/ahram-online-sisi-pardons-2016, source/wikipedia-islam-behery-en, source/wikipedia-islam-behery-ar, source/ida2at-islam-behery-profile, source/oasis-islam-behery-quran-study, source/canada-hoc-behery-testimony-2017, source/aswat-masriya-behery-pardon-2016, source/egypt-today-behery-tv-ban-2017, source/memri-behery-skynews-2023, source/alkhaleej-online-behery-case, source/alarab-hosny-behery-2017, source/her-news-behery-arrest-2024, source/arabkhabar-behery-bail-2024, source/telegraph-egypt-behery-takween-2024, source/ahmed-youssef-takween-2024, source/ten-tv-albousla-behery, source/alghad-hiwar-maa-islam, source/anasalafy-behery-debates-2015]
 provenance:
   layer: own-research
   source: "CNN Arabic interview of 23 Nov 2016 and Ahram Online report of 17 Nov 2016 (read 17 Nov 2026); founder-named figure in the ulama-browser brief"

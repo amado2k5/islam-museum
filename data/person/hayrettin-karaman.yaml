@@ -1,0 +1,32 @@
+id: person/hayrettin-karaman
+class: person
+tags: [ulama-browser, ulama-mashahir]
+label: { ar: "خير الدين قرمان", en: "Hayrettin Karaman", ur: "خیر الدین قرمان" }
+names:
+  - { value: "خير الدين قرمان", kind: full }
+  - { value: "Hayrettin Karaman", kind: full }
+gender: male
+summary:
+  ar: "فقيه وعالم تركي، وُلد سنة 1934 في تشوروم. أستاذ الفقه بكلية الإلهيات جامعة مرمرة حتى تقاعده سنة 2001، ومن أبرز مراجع الفقه المعاصر في تركيا وكاتب عمود في «يني شفق»."
+  en: "Turkish jurist and theologian, born in 1934 in Çorum. Professor of fiqh at Marmara University's Faculty of Theology until 2001 and a leading contemporary reference for Islamic law in Turkey; long-time Yeni Şafak columnist."
+  ur: "ترکی کے فقیہ اور ماہر کلام، 1934 میں چورم میں پیدا ہوئے۔ 2001 تک مرمرہ یونیورسٹی کی الٰہیات فیکلٹی میں فقہ کے پروفیسر اور ترکی میں معاصر شرعی رجوع کے بڑے نام؛ «ینی شفق» کے دیرینہ کالم نگار۔"
+roles: [scholar, theologian, professor]
+wings: [people, living]
+born:
+  edtf: "1934"
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: [source/wikipedia-hayrettin-karaman]
+faith:
+  - value: sunni
+    basis: documented
+    note: "Documented as a Sunni Hanafi scholar of fiqh"
+    sources: [source/wikipedia-hayrettin-karaman]
+sources: [source/wikipedia-hayrettin-karaman]
+provenance:
+  layer: own-research
+  source: "Web research + Wikipedia"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: ulama-m500-w101-150-2026-11-17
+status: { review: published, generated_by: "Devin (SWE-2 Medium)" }

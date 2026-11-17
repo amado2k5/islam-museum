@@ -1,0 +1,32 @@
+id: person/rebiya-kadeer
+class: person
+tags: [ulama-browser, ulama-mashahir]
+label: { ar: "ربيعة قدير", en: "Rebiya Kadeer", ur: "ربیعہ قادر" }
+names:
+  - { value: "ربيعة قدير", kind: full }
+  - { value: "Rebiya Kadeer", kind: full }
+gender: female
+summary:
+  ar: "ناشطة أويغورية صينية-أمريكية، وُلدت سنة 1946 في شينجيانغ. سجينة سياسية سابقة ⁦(1999–2005)⁩ ورئيسة المؤتمر العالمي الأويغوري ⁦(2006–2017)⁩، ومن أبرز وجوه قضية الأويغور في المنفى."
+  en: "Uyghur activist, born 1946 in Xinjiang. Former political prisoner (1999–2005) and president of the World Uyghur Congress (2006–2017); the most prominent face of the Uyghur cause in exile."
+  ur: "اویغور کارکن، 1946 میں سنکیانگ میں پیدا ہوئیں۔ سابق سیاسی قیدی ⁦(1999–2005)⁩ اور عالمی اویغور کانگریس کی صدر ⁦(2006–2017)⁩؛ جلاوطن اویغور قضیہ کی نمایاں ترین شخصیت۔"
+roles: [activist]
+wings: [people, living]
+born:
+  edtf: "1946"
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: [source/wikipedia-rebiya-kadeer]
+faith:
+  - value: sunni
+    basis: documented
+    note: "Publicly documented as a Uyghur Muslim"
+    sources: [source/wikipedia-rebiya-kadeer]
+sources: [source/wikipedia-rebiya-kadeer]
+provenance:
+  layer: own-research
+  source: "Web research + Wikipedia"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: ulama-m500-w101-150-2026-11-17
+status: { review: published, generated_by: "Devin (SWE-2 Medium)" }

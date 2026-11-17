@@ -1,0 +1,32 @@
+id: person/muhammad-awwama
+class: person
+tags: [ulama-browser]
+label: { ar: "محمد عوامة", en: "Muhammad Awwama", ur: "محمد عوامة" }
+names:
+  - { value: "محمد عوامة", kind: full }
+  - { value: "Muhammad Awwama", kind: full }
+gender: male
+summary:
+  ar: "محدث سوري معاصر، وُلد سنة 1940 بحلب، مقيم في المدينة المنورة. يربط علم الحديث بالفقه الحنفي والمقارن، ومن كتبه «أثر الحديث في اختلاف الأئمة الفقهاء» و«أدب الاختلاف في قضايا العلم والدين»، وله تحقيقات منها «مصنف ابن أبي شيبة»."
+  en: "Contemporary Syrian hadith scholar, born in Aleppo in 1940 and residing in Madinah. He links hadith science with Hanafi and comparative fiqh, authoring Athar al-Hadith fi Ikhtilaf al-A’imma and Adab al-Ikhtilaf, with editions including Musannaf Ibn Abi Shayba."
+  ur: "عصری شامی محدث، 1940 میں حلب میں پیدا ہوئے اور مدینہ منورہ میں مقیم۔ وہ علمِ حدیث کو حنفی و تقابلِ فقہ سے جوڑتے ہیں؛ کتب میں «اثر الحديث في اختلاف الأئمة الفقهاء» اور «أدب الاختلاف» شامل ہیں، نیز «مصنف ابن أبي شيبہ» کی تحقیق کی۔"
+roles: [scholar, teacher]
+wings: [people, living]
+born:
+  edtf: "1940"
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: [source/wikipedia-muhammad-awwama]
+faith:
+  - value: sunni
+    basis: documented
+    note: "Documented as a Sunni scholar by role and oeuvre"
+    sources: [source/wikipedia-muhammad-awwama]
+sources: [source/wikipedia-muhammad-awwama]
+provenance:
+  layer: own-research
+  source: "Gemini-compiled research list (founder session 17 Nov 2026) + Arabic Wikipedia"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: ulama-wave2-2026-11-17
+status: { review: draft, generated_by: "Devin (SWE-2 Medium)" }

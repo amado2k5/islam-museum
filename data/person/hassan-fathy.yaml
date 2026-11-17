@@ -1,0 +1,39 @@
+id: person/hassan-fathy
+class: person
+tags: [ulama-browser]
+label: { ar: "حسن فتحي", en: "Hassan Fathy", ur: "حسن فتحي" }
+names:
+  - { value: "حسن فتحي", kind: full }
+  - { value: "Hassan Fathy", kind: full }
+gender: male
+summary:
+  ar: "معماري مصري ⁦(1900–1989)⁩ رائد العمارة الطينية والتقنية الملائمة في القرن العشرين. صمّم قرية القرنة الجديدة لإسكان الفلاحين بمواد محلية وبناء تقليدي، وألّف كتاب «عمارة الفقراء» الذي صار مرجعًا عالميًا في العمارة المستدامة، ونال جائزة الأغا خان للعمارة سنة 1980."
+  en: "Egyptian architect (1900–1989), pioneer of mud-brick architecture and appropriate technology in the twentieth century. He designed New Gourna village to house farmers with local materials and traditional building, authored Architecture for the Poor — a world reference in sustainable architecture — and won the Aga Khan Award for Architecture in 1980."
+  ur: "مصری معمار ⁦(1900–1989)⁩ جو بیسویں صدی میں کچی اینٹ کے فنِ تعمیر اور مناسب ٹیکنالوجی کے بانی ہیں۔ انہوں نے کاشتکاروں کے لیے مقامی مواد اور روایتی تعمیر سے نیو گورنہ گاؤں ڈیزائن کیا، «عمارتِ فقراء» لکھی جو پائیدار فنِ تعمیر کا عالمی مرجع بنی اور 1980 میں آغا خان ایوارڈ برائے فنِ تعمیر جیتا۔"
+roles: [architect, engineer]
+wings: [people]
+born:
+  edtf: "1900"
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: [source/wikipedia-hassan-fathy]
+died:
+  edtf: "1989"
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: [source/wikipedia-hassan-fathy]
+relations: []
+faith:
+  - value: islam
+    basis: documented
+    note: "Public figure within the Muslim world; no sourced renunciation."
+    sources: [source/wikipedia-hassan-fathy]
+sources: [source/wikipedia-hassan-fathy]
+provenance:
+  layer: own-research
+  source: "Gemini-compiled research list (founder session 17 Nov 2026) + wikipedia"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: ulama-wave2-2026-11-17
+status: { review: draft, generated_by: "Devin (SWE-2 Medium)" }

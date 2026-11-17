@@ -1,0 +1,39 @@
+id: person/faiz-ahmad-faiz
+class: person
+tags: [ulama-browser]
+label: { ar: "فيض أحمد فيض", en: "Faiz Ahmad Faiz", ur: "فيض أحمد فيض" }
+names:
+  - { value: "فيض أحمد فيض", kind: full }
+  - { value: "Faiz Ahmad Faiz", kind: full }
+gender: male
+summary:
+  ar: "شاعر وصحفي باكستاني ⁦(1911–1984)⁩ من أعظم شعراء الأردية في القرن العشرين. جمع بين الغزل الكلاسيكي وشعر الالتزام السياسي، ومن دواوينه «نقش فريادي» و«دستِ صبا» و«زندان نامه»، وحاز جائزة لينين للسلام سنة 1962، وعاش سنوات في المنفى بلندن وبيروت."
+  en: "Pakistani poet and journalist (1911–1984), among the greatest Urdu poets of the twentieth century. He joined classical ghazal to politically committed verse; his collections include Naqsh-e-Faryadi, Dast-e-Saba and Zindan-Nama. He won the Lenin Peace Prize in 1962 and spent years in exile in London and Beirut."
+  ur: "پاکستانی شاعر اور صحافی ⁦(1911–1984)⁩ جو بیسویں صدی کے اردو کے عظیم شعراء میں شمار ہوتے ہیں۔ انہوں نے کلاسیکی غزل کو سیاسی شعرِ التزام سے جوڑا؛ ان کے مجموعوں میں «نقشِ فریادی»، «دستِ صبا» اور «زندان نامہ» شامل ہیں۔ 1962 میں لینن امن انعام جیتا اور برسوں لندن اور بیروت میں جلاوطن رہے۔"
+roles: [writer, poet, journalist]
+wings: [people]
+born:
+  edtf: "1911"
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: [source/wikipedia-faiz-ahmad-faiz]
+died:
+  edtf: "1984"
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: [source/wikipedia-faiz-ahmad-faiz]
+relations: []
+faith:
+  - value: islam
+    basis: documented
+    note: "Public figure within the Muslim world; his Marxist political views are documented alongside his Muslim cultural identity; no sourced renunciation of Islam is recorded."
+    sources: [source/wikipedia-faiz-ahmad-faiz]
+sources: [source/wikipedia-faiz-ahmad-faiz]
+provenance:
+  layer: own-research
+  source: "Gemini-compiled research list (founder session 17 Nov 2026) + wikipedia"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: ulama-wave2-2026-11-17
+status: { review: draft, generated_by: "Devin (SWE-2 Medium)" }

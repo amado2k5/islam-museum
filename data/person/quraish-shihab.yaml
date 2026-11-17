@@ -1,0 +1,32 @@
+id: person/quraish-shihab
+class: person
+tags: [ulama-browser]
+label: { ar: "محمد قريش شهاب", en: "Quraish Shihab", ur: "محمد قريش شهاب" }
+names:
+  - { value: "محمد قريش شهاب", kind: full }
+  - { value: "Quraish Shihab", kind: full }
+gender: male
+summary:
+  ar: "مفسر وعالم إندونيسي، وُلد سنة 1944، وزير الشؤون الدينية الأسبق في إندونيسيا. تلقى تعليمه بالأزهر، وألّف تفسير «المصباح» في خمسة عشر مجلدًا، ومن كتبه «تنزيل القرآن على أرض الواقع» و«بصائر القرآن»."
+  en: "Indonesian exegete and scholar, born in 1944, former minister of religious affairs. Al-Azhar-trained, he authored the fifteen-volume Tafsir al-Mishbah, with works including Membumikan al-Qur’an and Wawasan al-Qur’an."
+  ur: "انڈونیشی مفسر اور عالم، 1944 میں پیدا ہوئے اور سابق وزیرِ مذہبی امور۔ ازہر سے تعلیم یافتہ، انہوں نے پندرہ جلدوں پر مشتمل «تفسیر المصباح» لکھی؛ کتب میں «Membumikan al-Qur’an» اور «Wawasan al-Qur’an» شامل ہیں۔"
+roles: [scholar, writer]
+wings: [people, living]
+born:
+  edtf: "1944"
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: [source/wikipedia-quraish-shihab]
+faith:
+  - value: sunni
+    basis: documented
+    note: "Documented as a Sunni scholar by role and oeuvre"
+    sources: [source/wikipedia-quraish-shihab]
+sources: [source/wikipedia-quraish-shihab]
+provenance:
+  layer: own-research
+  source: "Gemini-compiled research list (founder session 17 Nov 2026) + English Wikipedia"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: ulama-wave2-2026-11-17
+status: { review: draft, generated_by: "Devin (SWE-2 Medium)" }

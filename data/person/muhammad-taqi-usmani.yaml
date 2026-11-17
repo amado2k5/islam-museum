@@ -1,0 +1,32 @@
+id: person/muhammad-taqi-usmani
+class: person
+tags: [ulama-browser]
+label: { ar: "محمد تقي العثماني", en: "Muhammad Taqi Usmani", ur: "محمد تقي العثماني" }
+names:
+  - { value: "محمد تقي العثماني", kind: full }
+  - { value: "Muhammad Taqi Usmani", kind: full }
+gender: male
+summary:
+  ar: "فقيه باكستاني حنفي ديوبندي، وُلد سنة 1943، رئيس وفاق المدارس العربية وقاضٍ سابق في المحكمة العليا الباكستانية. يُعد من أعيان علماء عصره ومهندس المصرفية الإسلامية الحديثة ومعايير أيوفي، ومن كتبه «تكملة فتح الملهم» و«توضيح القرآن»."
+  en: "Pakistani Deobandi Hanafi jurist, born in 1943, president of Wifaq ul Madaris al-Arabia and former judge of the Federal Shariat Court and Supreme Court of Pakistan. He is a leading living authority and architect of modern Islamic finance and AAOIFI standards, authoring Takmilat Fath al-Mulhim and Tawdih al-Qur’an."
+  ur: "پاکستانی دیوبندی حنفی فقیہ، 1943 میں پیدا ہوئے، وفاق المدارس العربیہ کے صدر اور سابق ججِ فیڈرل شریعت کورٹ و سپریم کورٹ آف پاکستان۔ وہ زندہ ممتاز مراجع اور جدید اسلامی بینکاری و AAOIFI معیارات کے معمار ہیں؛ کتب میں «تکملۃ فتح الملہم» اور «توضیح القرآن» شامل ہیں۔"
+roles: [scholar, jurist, judge]
+wings: [people, living]
+born:
+  edtf: "1943"
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: [source/wikipedia-muhammad-taqi-usmani]
+faith:
+  - value: sunni
+    basis: documented
+    note: "Documented as a Sunni scholar by role and oeuvre"
+    sources: [source/wikipedia-muhammad-taqi-usmani]
+sources: [source/wikipedia-muhammad-taqi-usmani]
+provenance:
+  layer: own-research
+  source: "Gemini-compiled research list (founder session 17 Nov 2026) + English Wikipedia"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: ulama-wave2-2026-11-17
+status: { review: draft, generated_by: "Devin (SWE-2 Medium)" }

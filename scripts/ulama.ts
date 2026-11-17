@@ -26,14 +26,14 @@ export const ULAMA_TAG = "ulama-browser";
  */
 export const ULAMA_SECTIONS = [
   "quran", "sunnah", "seerah", "books",
-  "ulama", "muhaddithun", "mufakkirun", "udaba", "kuttab",
+  "ulama", "muhaddithun", "mufakkirun", "udaba", "kuttab", "mashahir",
   "curated",
 ] as const;
 export type UlamaSection = (typeof ULAMA_SECTIONS)[number];
 export type UlamaCorpus = "quran" | "sunnah" | "seerah" | "books";
 
 /** Category chips carried by a person (several at once) or by a curated `ulama-<category>` tag. */
-export const ULAMA_TOPICS = ["alim", "muhaddith", "mufakkir", "adib", "katib", "scientist"] as const;
+export const ULAMA_TOPICS = ["alim", "muhaddith", "mufakkir", "adib", "katib", "scientist", "mashahir"] as const;
 export type UlamaTopic = (typeof ULAMA_TOPICS)[number];
 
 /** Roles that make a person one of the people of knowledge and the pen (founder's scope, plan 70 §detector). */
@@ -68,12 +68,26 @@ const JOB_CATS: Record<string, UlamaTopic> = {
 /** Category → people section (first matching category files the card; the rest stay as chips). */
 const CAT_SECTION: Record<UlamaTopic, UlamaSection> = {
   alim: "ulama", muhaddith: "muhaddithun", mufakkir: "mufakkirun",
-  adib: "udaba", katib: "kuttab", scientist: "mufakkirun",
+  adib: "udaba", katib: "kuttab", scientist: "mufakkirun", mashahir: "mashahir",
 };
+
+/** Persons excluded from the browser by the founder's ruling — terrorist-organisation figures and
+ * Shia figures are blocked from this wave (founder instruction, 17 Nov 2026). */
+export const ULAMA_PERSON_EXCLUDE = new Set<string>([
+  "person/ali-al-sistani", "person/muhammad-baqir-al-sadr", "person/ali-shariati",
+  "person/ali-khamenei", "person/muqtada-al-sadr", "person/mojtaba-khamenei",
+  "person/abdul-malik-al-houthi", "person/haibatullah-akhundzada", "person/ahmed-al-sharaa",
+]);
+
+/** Tag that files a person under the مشاهير (famous/notable figures) section even when his roles do
+ * not qualify him under the five knowledge categories (founder instruction: important, famous,
+ * effective, celebrities as an additional category in this browser). */
+export const ULAMA_MASHAHIR_TAG = "ulama-mashahir";
 
 /** True when a person record is one of the مفكرون والعلماء والأدباء والمحدثون والكتاب. */
 export function isUlamaPerson(n: Node): boolean {
-  if (n.class !== "person" || n.stub) return false;
+  if (n.class !== "person" || n.stub || ULAMA_PERSON_EXCLUDE.has(n.id)) return false;
+  if (n.tags.includes(ULAMA_MASHAHIR_TAG)) return true;
   const roles = (n.data.roles as string[] | undefined) ?? [];
   if (roles.some((r) => ULAMA_ROLES.has(r))) return true;
   const occs = (n.data.occupations as { job?: string }[] | undefined) ?? [];
@@ -83,6 +97,7 @@ export function isUlamaPerson(n: Node): boolean {
 /** Every category chip a qualifying person carries (roles first, then jobs, deduplicated). */
 export function ulamaCategoriesOf(n: Node): UlamaTopic[] {
   const out = new Set<UlamaTopic>();
+  if (n.tags.includes(ULAMA_MASHAHIR_TAG) && out.size === 0) out.add("mashahir");
   for (const r of (n.data.roles as string[] | undefined) ?? []) { const c = ROLE_CATS[r]; if (c) out.add(c); }
   for (const o of (n.data.occupations as { job?: string }[] | undefined) ?? []) { const c = o.job ? JOB_CATS[o.job] : undefined; if (c) out.add(c); }
   return ULAMA_TOPICS.filter((t) => out.has(t));
@@ -270,7 +285,7 @@ export function ulamaCorpusOf(workId: string | undefined, genre: string[] | unde
   return "books";
 }
 
-const CURATED: readonly string[] = ["curated", "ulama", "muhaddithun", "mufakkirun", "udaba", "kuttab"];
+const CURATED: readonly string[] = ["curated", "ulama", "muhaddithun", "mufakkirun", "udaba", "kuttab", "mashahir"];
 
 /** Which section a curated (tagged, non-passage) record files under — `ulama-<section>` tag, else its class. */
 export function ulamaTagSection(n: Node): UlamaSection {

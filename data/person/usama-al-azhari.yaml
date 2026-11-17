@@ -1,0 +1,33 @@
+id: person/usama-al-azhari
+class: person
+tags: [ulama-browser, ulama-mashahir]
+label: { ar: "أسامة الأزهري", en: "Usama al-Azhari", ur: "اسامہ ازہری" }
+names:
+  - { value: "Usama al-Sayyid al-Azhari", kind: full }
+  - { value: "أسامة السيد الأزهري", kind: full }
+gender: male
+summary:
+  ar: "عالم مصري، وُلد في الإسكندرية سنة 1976، من خريجي الأزهر وحملة الدكتوراه في الحديث. تتلمذ على علي جمعة وانشغل بالرد على الخطاب المتطرف وبالتصوف السني، وعمل مستشارًا دينيًا للرئاسة قبل تعيينه وزيرًا للأوقاف في يوليو 2024."
+  en: "Egyptian scholar, born in Alexandria in 1976, an Al-Azhar graduate with a doctorate in hadith. A student of Ali Gomaa, he built his career refuting extremist discourse and defending Sunni Sufism, and served as religious adviser to the presidency before being appointed minister of endowments (awqaf) in July 2024."
+  ur: "مصری عالم، 1976 میں اسکندریہ میں پیدا ہوئے، الازہر کے فارغ اور حدیث میں پی ایچ ڈی۔ علی جمہ کے شاگرد کے طور پر انھوں نے انتہا پسند خطاب کے رد اور سنی تصوف کے دفاع میں اپنا کارنامہ بنایا اور جولائی 2024 میں وزیرِ اوقاف مقرر ہونے سے پہلے صدارت کے مذہبی مشیر رہے۔"
+roles: [scholar, politician]
+wings: [people, living]
+regions: [middle-east]
+born:
+  edtf: "1976-07-16"
+  calendar: gregorian
+  precision: day
+  status: historical
+  sources: [source/wikipedia-usama-al-azhari]
+faith:
+  - value: sunni
+    basis: documented
+    note: "Documented Sunni Azhar scholar associated with the Ash'ari-Sufi current of the institution."
+    sources: [source/wikipedia-usama-al-azhari]
+sources: [source/wikipedia-usama-al-azhari]
+provenance:
+  layer: own-research
+  source: "English and Arabic Wikipedia 'Usama al-Azhari', read 17 November 2026"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: ulama-mashahir-wave-2026-11-17
+status: { review: published, generated_by: "Devin (SWE-2 Medium)" }

@@ -742,3 +742,9 @@ Mustafa Hosny (hosny-2, below): `ahl-al-jannah` («أهل الجنة», "The Peo
 - 2026-11-17 | assabile-ghoneim-akhlaq-2 | packet landed in same train: work/el-akhlaq-el-hameeda updated with ep03 (sidq/truthfulness, four kinds) and ep04 (wafa/keeping covenants) — all 4 episodes now mined; person and source records carried unchanged.
 - 2026-11-17 | assabile-ghoneim-akhlaq-2 | register: mining.state in_progress→complete, episodes_mined 2→4, episodes 3-4 mining→drafted.
 - 2026-11-17 | assabile-ghoneim-akhlaq-2 | exclusions carried: sura-name attributions in transcript unreliable (several verses linked by content, lines marked needs_source); garbled story names written generically; hadith wording not reproduced.
+
+## 2026-11-17 — train assabile-3 (packet pipeline)
+- Landed packet `assabile-ghoneim-imaneat-1` (drafter+verifier: Devin subagents): work/imaneat created, eps 01-07 of 13 mined from pass5-qwen in ar/en/ur as drafts. Verifier removed 7 unsupported passage links, fixed AR Latin contamination, softened invented details, added missing cites.
+- Register: assabile-wagdy-ghoneim-imaneat mining none→partial (7/13), ingestion→drafting, work_id→work/imaneat.
+- Exclusions carried: hadith wording not reproduced; repetition loops discarded (ep03 ~00:23-00:24, eps 05-07); several sura attributions unreliable → verses linked by content or needs_source.
+- Queue: imaneat-2 (eps 08-13: malā'ika, yawm al-ākhir/al-āmāt, qadar) next; then ghazawāt al-nabī (8), sharḥ mabādiʾ al-tawḥīd (12), sulūk al-muslim al-multazim (26), al-sulūkiyyāt (12), al-futūḥāt al-islāmiyya (51).

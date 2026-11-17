@@ -1,0 +1,32 @@
+id: person/hatim-al-awni
+class: person
+tags: [ulama-browser]
+label: { ar: "حاتم بن عارف العوني", en: "Hatim al-Awni", ur: "حاتم بن عارف العوني" }
+names:
+  - { value: "حاتم بن عارف العوني", kind: full }
+  - { value: "Hatim al-Awni", kind: full }
+gender: male
+summary:
+  ar: "محدث سعودي معاصر، وُلد سنة 1965، أستاذ علوم الحديث بجامعة أم القرى بمكة وعضو سابق في مجلس الشورى. اشتهر بدراساته المنهجية في نقد الحديث، ومن مؤلفاته «المرسل الخفي» و«خلاصة التأصيل» و«المنهج المقترح لفهم موطأ»."
+  en: "Contemporary Saudi hadith scholar, born in 1965, professor of hadith sciences at Umm al-Qura University in Mecca and a former Shura Council member. He is known for methodological studies in classical hadith criticism, authoring al-Mursal al-Khafi, Khulasat al-Ta’sil and al-Manhaj al-Muqtarah."
+  ur: "عصری سعودی محدث، 1965 میں پیدا ہوئے، مکہ کی ام القریٰ یونیورسٹی میں علومِ حدیث کے پروفیسر اور سابق رکنِ مجلس الشوریٰ۔ وہ کلاسیکی تنقیدِ حدیث کی منہجیاتی تحقیق کے لیے مشہور ہیں؛ تصانیف میں «المرسل الخفی»، «خلاصۃ التأصیل» اور «المنہج المقترح» شامل ہیں۔"
+roles: [scholar, professor]
+wings: [people, living]
+born:
+  edtf: "1965"
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: [source/wikipedia-hatim-al-awni]
+faith:
+  - value: sunni
+    basis: documented
+    note: "Documented as a Sunni scholar by role and oeuvre"
+    sources: [source/wikipedia-hatim-al-awni]
+sources: [source/wikipedia-hatim-al-awni]
+provenance:
+  layer: own-research
+  source: "Gemini-compiled research list (founder session 17 Nov 2026) + Arabic Wikipedia"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: ulama-wave2-2026-11-17
+status: { review: draft, generated_by: "Devin (SWE-2 Medium)" }

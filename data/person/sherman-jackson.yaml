@@ -1,0 +1,32 @@
+id: person/sherman-jackson
+class: person
+tags: [ulama-browser]
+label: { ar: "شارمن جاكسون", en: "Sherman Jackson", ur: "شارمن جاكسون" }
+names:
+  - { value: "شارمن جاكسون", kind: full }
+  - { value: "Sherman Jackson", kind: full }
+gender: male
+summary:
+  ar: "باحث أمريكي في الشريعة واللاهوت الإسلامي، وُلد سنة 1956، أستاذ بجامعة جنوب كاليفورنيا. يجمع عمله بين الفقه الكلاسيكي وهوية المسلمين الأمريكيين من أصل أفريقي والعلمانية الحديثة، ومن كتبه «الإسلام والأمريكي الأسود» و«الشريعة والدولة»."
+  en: "American scholar of Islamic law and theology, born in 1956, professor at the University of Southern California. His work bridges classical jurisprudence, Blackamerican Muslim identity and modern secularism, with books including Islam and the Blackamerican and Islamic Law and the State."
+  ur: "شریعتِ اسلامی اور کلام کے امریکی محقق، 1956 میں پیدا ہوئے، یونیورسٹی آف سدرن کیلیفورنیا کے پروفیسر۔ ان کا کام کلاسیکی فقہ، افریقی نژاد امریکی مسلمانوں کی شناخت اور جدید سیکولرازم کو جوڑتا ہے؛ کتب میں Islam and the Blackamerican اور Islamic Law and the State شامل ہیں۔"
+roles: [theologian, professor, writer]
+wings: [people, living]
+born:
+  edtf: "1956"
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: [source/wikipedia-sherman-jackson]
+faith:
+  - value: islam
+    basis: documented
+    note: "public figure within the Muslim world; no sourced renunciation"
+    sources: [source/wikipedia-sherman-jackson]
+sources: [source/wikipedia-sherman-jackson]
+provenance:
+  layer: own-research
+  source: "Gemini-compiled research list (founder session 17 Nov 2026) + English Wikipedia"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: ulama-wave2-2026-11-17
+status: { review: draft, generated_by: "Devin (SWE-2 Medium)" }

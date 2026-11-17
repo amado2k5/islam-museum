@@ -1,0 +1,32 @@
+id: person/fahmi-huwaydi
+class: person
+tags: [ulama-browser]
+label: { ar: "فهمي هويدي", en: "Fahmi Huwaydi", ur: "فهمي هويدي" }
+names:
+  - { value: "فهمي هويدي", kind: full }
+  - { value: "Fahmi Huwaydi", kind: full }
+gender: male
+summary:
+  ar: "صحفي وكاتب ومفكر مصري، وُلد سنة 1937. من أبرز أعمدة الصحافة العربية لعقود، يُوصف بمفكر إسلامي معتدل كتب في المواطنة والشؤون العربية، ومن كتبه «مواطنون لا ذميون» و«القرآن والسلطان» و«إيران من الداخل»."
+  en: "Egyptian journalist, columnist and thinker, born in 1937. One of the Arab press’s leading columnists for decades, described as a moderate Islamist thinker writing on citizenship and Arab affairs, authoring Citizens Not Dhimmis, The Quran and the Sultan and Iran from Within."
+  ur: "مصری صحافی، کالم نگار اور مفکر، 1937 میں پیدا ہوئے۔ وہ عشروں عرب صحافت کے ممتاز کالم نویسوں میں رہے اور معتدل اسلامی مفکر کے طور پر شہریت اور عرب امور پر لکھتے ہیں؛ کتب میں «مواطنون لا ذمیون»، «القرآن والسلطان» اور «ایران من الداخل» شامل ہیں۔"
+roles: [writer, journalist]
+wings: [people, living]
+born:
+  edtf: "1937"
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: [source/wikipedia-fahmi-huwaydi]
+faith:
+  - value: islam
+    basis: documented
+    note: "public figure within the Muslim world; no sourced renunciation"
+    sources: [source/wikipedia-fahmi-huwaydi]
+sources: [source/wikipedia-fahmi-huwaydi]
+provenance:
+  layer: own-research
+  source: "Gemini-compiled research list (founder session 17 Nov 2026) + Arabic Wikipedia"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: ulama-wave2-2026-11-17
+status: { review: draft, generated_by: "Devin (SWE-2 Medium)" }

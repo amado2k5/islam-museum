@@ -1,0 +1,39 @@
+id: person/ihsan-abbas
+class: person
+tags: [ulama-browser]
+label: { ar: "إحسان عباس", en: "Ihsan Abbas", ur: "إحسان عباس" }
+names:
+  - { value: "إحسان عباس", kind: full }
+  - { value: "Ihsan Abbas", kind: full }
+gender: male
+summary:
+  ar: "إحسان عباس ⁦(1920–2003)⁩ مؤرخ أدبي وناقد ومحقق فلسطيني، أستاذ الأدب العربي بالجامعة الأمريكية ببيروت عقوداً. حقق مصادر كبرى ك«وفيات الأعيان» وترجم «موبي ديك»، وله «تاريخ النقد الأدبي عند العرب» و«ملامح يونانية في الأدب العربي»."
+  en: "Ihsan Abbas (1920–2003) was a Palestinian literary historian, critic and editor, professor of Arabic literature at the American University of Beirut for decades. He edited major classical sources such as Ibn Khallikan's Wafayat al-A'yan, translated Moby-Dick, and wrote A History of Literary Criticism Among the Arabs and Greek Traces in Arabic Literature."
+  ur: "احسان عباس ⁦(1920–2003)⁩ فلسطینی ادبی مؤرخ، ناقد اور محقق تھے، بیروت کی امریکن یونیورسٹی میں عربی ادب کے دہائیوں تک پروفیسر۔ انہوں نے ابن خلکان کی «وفيات الأعيان» جیسی کلاسیکی کتابوں کی تحقیق کی، Moby-Dick کا ترجمہ کیا اور عربوں میں ادبی تنقید کی تاریخ لکھی۔"
+roles: [historian, writer, professor]
+wings: [people]
+born:
+  edtf: "1920"
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: [source/wikipedia-ihsan-abbas]
+died:
+  edtf: "2003"
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: [source/wikipedia-ihsan-abbas]
+relations: []
+faith:
+  - value: islam
+    basis: documented
+    note: "public figure within the Muslim world; no sourced renunciation"
+    sources: [source/wikipedia-ihsan-abbas]
+sources: [source/wikipedia-ihsan-abbas]
+provenance:
+  layer: own-research
+  source: "Gemini-compiled research list (founder session 17 Nov 2026) + wikipedia"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: ulama-wave2-2026-11-17
+status: { review: draft, generated_by: "Devin (SWE-2 Medium)" }
