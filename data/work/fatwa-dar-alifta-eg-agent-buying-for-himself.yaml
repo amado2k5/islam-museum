@@ -1,0 +1,24 @@
+id: work/fatwa-dar-alifta-eg-agent-buying-for-himself
+class: work
+kind: fatwa
+label: { ar: "حكم شراء الوكيل لنفسه من مال موكله", en: "An agent buying for himself with his principal's money", ur: "وکیل کا موکل کے مال سے اپنے لیے خریداری" }
+summary:
+  ar: "سائل سأل عن وكيل استخدم مال موكله لصالح نفسه في شراء قطعة أثاث وكّل في شرائها. أجابت دار الإفتاء المصرية ⁦(مفتي الجمهورية د. نظير محمد عياد، فتوى رقم 20859)⁩ أنه لا يجوز للوكيل أن يستخدم مال موكله لصالح نفسه في شراء القطعة المعينة التي وكّل في شرائها دون إذن على ما فصّل الجواب."
+  en: "A questioner asked about an agent using his principal's money for his own benefit in buying a specified piece of furniture he was commissioned to purchase. Egypt's Dar al-Ifta (Grand Mufti Dr. Nazir Muhammad Ayyad, fatwa no. 20859) answered that the agent may not use the principal's money for himself in buying that piece without permission — as the answer details."
+  ur: "ایک سائل نے وکیل کے موکل کے مال سے اپنے لیے وہی چیز خریدنے کا حکم پوچھا جس کی خریداری کا وہ وکیل تھا۔ مصر کے دار الافتاء ⁦(مفتیِ جمهور ڈاکٹر نظیر محمد عیاد، فتویٰ نمبر 20859)⁩ نے جواب دیا کہ بغیر اجازت ایسا جائز نہیں — جیسا کہ جواب میں تفصیل ہے۔"
+wings: [words]
+authors: [person/nazir-ayyad]
+publisher: group/dar-al-ifta-al-misriyya
+url: "https://www.dar-alifta.org/ar/fatwa/details/20859/حكم-شراء-الوكيل-لنفسه-من-مال-موكله"
+languages: [ar]
+sources: [source/dar-alifta]
+relations:
+  - { type: about, target: concept/wakala-fiqh, sources: [source/dar-alifta] }
+  - { type: about, target: concept/amanah, sources: [source/dar-alifta] }
+provenance:
+  layer: own-research
+  source: "dar-alifta.org fatwa no. 20859, category البيع; read 17 Nov 2026. Summary in the museum's own words."
+  generated_by: "Devin"
+  model: "SWE-2 Medium"
+  run: fatwa-websites-34
+status: { review: published, completeness: 1 }

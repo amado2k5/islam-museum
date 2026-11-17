@@ -1,0 +1,24 @@
+id: work/fatwa-dar-alifta-eg-mortgage-declining-interest-flat
+class: work
+kind: fatwa
+label: { ar: "حكم شراء شقة بالتمويل العقاري بفائدة متناقصة", en: "Buying a flat through mortgage finance at declining interest", ur: "گھٹتی سود پر رہن سے فلیٹ خریدنا" }
+summary:
+  ar: "سائل سأل عن شراء شقة بنظام الفائدة المتناقصة مع منع المشتري من التصرف فيها حتى سداد باقي ثمنها. أجابت دار الإفتاء المصرية ⁦(مفتي الجمهورية د. نظير محمد عياد، فتوى رقم 20903)⁩ أن ذلك جائز على ما فصّل الجواب من ضوابطه."
+  en: "A questioner asked about buying a flat under a declining-interest system while the buyer is barred from disposing of it until the price is paid. Egypt's Dar al-Ifta (Grand Mufti Dr. Nazir Muhammad Ayyad, fatwa no. 20903) answered that this is permissible — under the controls the answer sets out."
+  ur: "ایک سائل نے گھٹتی سود کے نظام سے فلیٹ خریدنے کا حکم پوچھا جس میں قیمت ادا ہونے تک تصرف ممنوع ہو۔ مصر کے دار الافتاء ⁦(مفتیِ جمهور ڈاکٹر نظیر محمد عیاد، فتویٰ نمبر 20903)⁩ نے جواب دیا کہ یہ جائز ہے — جواب کے ضوابط کے ساتھ۔"
+wings: [words]
+authors: [person/nazir-ayyad]
+publisher: group/dar-al-ifta-al-misriyya
+url: "https://www.dar-alifta.org/ar/fatwa/details/20903/حكم-شراء-شقة-بالتمويل-العقاري-بفائدة-متناقصة"
+languages: [ar]
+sources: [source/dar-alifta]
+relations:
+  - { type: about, target: concept/riba, sources: [source/dar-alifta] }
+  - { type: about, target: concept/fiqh, sources: [source/dar-alifta] }
+provenance:
+  layer: own-research
+  source: "dar-alifta.org fatwa no. 20903, category البيع; read 17 Nov 2026. Summary in the museum's own words."
+  generated_by: "Devin"
+  model: "SWE-2 Medium"
+  run: fatwa-websites-34
+status: { review: published, completeness: 1 }
