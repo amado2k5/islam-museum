@@ -1,0 +1,38 @@
+id: job/ilami
+class: job
+label: { ar: "الإعلامي", en: "Media person (broadcaster)", ur: "میڈیا کارکن" }
+names:
+  - { value: "مُذيع", kind: alternate }
+  - { value: "مقدّم برامج", kind: alternate }
+  - { value: "إعلامية", kind: alternate }
+  - { value: "broadcaster", kind: latinized }
+summary:
+  ar: "الإعلامي العامل في وسيلة إعلام عامة — إذاعة وتلفاز وفضائية ثم منصة — مذيعاً أو مقدّماً أو محرراً أو مراسلاً؛ وجمعُه عند أهل الاختصاص «الإعلاميون». نقلت المهنة صوت المنادي والخطيب إلى ملايين المسامع دفعة واحدة: بدأت إذاعات العالم الإسلامي الحكومية في الثلاثينات ⁦(إذاعة القاهرة ١٩٣٤)⁩، ثم جاء التلفاز في الخمسينات والستينات، فالفضائيات العربية من التسعينات، فصار الواعظ والمقرئ والمذيع والمعلّق والمراسل وجوهاً وأسماعاً عامة، تُقاس مهارتهم بالمصداقية والحضور وإتقان اللغة، وتجمع على المهنة نقابات ومعاهد تدريب."
+  en: "The ilami works in a public medium — radio, television, satellite channels and now platforms — as announcer, presenter, editor or correspondent; specialists call the collective 'the media people' (al-i'lamiyyun). The trade carried the voice of crier and preacher to millions of hearers at once: state radios of the Islamic world began in the 1930s (Cairo radio 1934), television came in the 1950s–60s, then Arab satellite channels from the 1990s, making the preacher, reciter, announcer, commentator and correspondent public voices whose skill is measured by credibility, presence and command of the language, organised in syndicates and training institutes."
+  ur: "میڈیا کارکن کسی عوامی ذریعہ ابلاغ — ریڈیو، ٹیلی ویژن، سیٹلائٹ چینل اور اب پلیٹ فارم — میں مذیع، پیش کنندہ، مدیر یا نمائندہ ہوتا ہے؛ اہلِ فن انھیں «اعلامیوں» کہتے ہیں۔ اس پیشے نے منادی اور خطیب کی آواز ایک ساتھ لاکھوں سامعین تک پہنچائی: اسلامی دنیا میں سرکاری ریڈیو تیس کی دہائی میں ⁦(قاہرہ 1934)⁩، ٹیلی ویژن پچاس ساٹھ میں، پھر نوے کی دہائی سے عرب سیٹلائٹ چینل — اور مبلغ، قاری، مذیع، مبصر اور نمائندہ عوامی آواز بن گئے جن کی مہارت ساکھ، حضور اور زبان پر محیط ہے، اور جن کا انجمن اور تربیتی ادارے ہیں۔"
+domain: media-performance
+kind: modern-profession
+hirfa: false
+era:
+  origins: modern
+  status_today: living
+places:
+  - { place: place/cairo, note: "Egyptian state radio began broadcasting in 1934 and trained generations of announcers and reciters whose voices reached the whole Arab world.", sources: [source/tdv-matbuat] }
+regions: [egypt-nile, levant-iraq, arabia, maghreb, anatolia-balkans, south-asia]
+organization:
+  organized: professional-association
+  bodies: []
+workplaces: []
+outputs: []
+wings: [people]
+periods: [period/modern-era, period/contemporary-era]
+sources: [source/tdv-matbuat]
+training:
+  mode: formal-schooling
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2), i3lam-browser" }
+provenance:
+  layer: own-research
+  source: "TDV İslâm Ansiklopedisi, 'MATBUAT' (Ayyıldız, Kahraman, Yazıcı, 2003) for the press institutions the broadcast professions grew from; the modern broadcast facts are stated at the general level the source supports; web edition read on 17 Nov 2026"
+  generated_by: "Devin"
+  model: "SWE-2"
+  run: "i3lam-browser"
