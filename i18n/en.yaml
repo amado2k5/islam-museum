@@ -1893,6 +1893,10 @@ explore:
       title: "The Genealogies, Peoples, Tribal Subdivisions and Prophets' Tree Browser"
       desc: "Every mention of genealogies, peoples, tribal subdivisions and the prophets' tree in the Qur'an, the Sunnah, the seerah and every harvested book — the Prophet's lineage in its three parts, the Arab tribes and their butun and the peoples — each report cited."
       menu: "Browse genealogies, peoples, tribal subdivisions and the prophets' tree"
+    i3lam:
+      title: "The Muslim Media-Makers Browser"
+      desc: "Every mention of the media-makers — the muezzin, herald, khatib, state spokesman, katib, journalist, media person, influencer, reformer and revolutionary — in the Qur'an, the Sunnah, the seerah and every harvested book, with the people who carried the word."
+      menu: "Browse the Muslim media-makers"
     battles:
       title: "Battles, Wars and Conquests Browser"
       desc: "The expeditions, battles, sieges, conquests and wars of Islamic history — the ghazawat and saraya first, then by kind and by era."
@@ -6861,3 +6865,50 @@ sport:
       sunnah: { title: "Sunnah" }
       seerah: { title: "Seerah" }
       books: { title: "Books" }
+i3lam:
+  title: "The Muslim Media-Makers Browser"
+  lede: "Every mention of the people who carried the word — from the muezzin who called the adhan to the herald of the markets, the khatib on the minbar, the spokesman of the caliph and the envoy of the Prophet, the katib of revelation and of the chancery, the journalist of the new press, the broadcaster and the influencer, the reformer and the revolutionary — in the Qur'an, the Sunnah, the seerah, the reports of the Companions and Successors, and every book harvested into the museum, now and in the future."
+  badge: The media-makers explorer
+  status: "This build holds {n} people across {j} media roles and {f} mentioning passages in {s} corpora; texts are drafts until a person reads them."
+  method_title: How the browser works
+  method_note: "Every record here is an ordinary museum record with its sources and trilingual prose. A person joins a role only through an occupations entry on their own record — nothing is inferred. A passage joins the feed when the graph already records a mentions edge from it to one of those people or to a media job, or when the record carries the i3lam-browser tag — so a mention in a book harvested later appears here the day its passage lands, with no edit to this page. Each passage is labelled with its corpus (Qur'an / Sunnah / seerah / books)."
+  requirements: "The original requirement and acceptance criteria for this browser are filed at"
+  wire_title: "The wire — from the minaret to the feed"
+  wire_aria: "A diagram of the media chain: each role a station on a transmission line, its ring sized by the number of recorded holders."
+  wire_note: "Each ring is a station on the line and its radius follows the count of recorded holders: the muezzin's call becomes the herald's cry, the sermon, the envoy's word, the scribe's page, the press, the broadcast and the revolt."
+  holders: "{n} recorded"
+  quran_title: "In the Qur'an"
+  quran_note: "The fixed anchors of the scope in the revealed text — shown by frozen passage reference, never retyped."
+  anchors:
+    poets: "The poets 'followed by the heedless' — the earliest verse on who commands an audience, and its exemption for those who believe and warn."
+    news: "When news of security or fear reaches them they spread it — the Qur'an's own rule for how a report is handled before it is broadcast."
+    adhan: "Do not take the call to prayer as mockery and play — the verse that binds the muezzin's call to sanctity."
+    jumua: "The call on the day of gathering: leave trade and hasten to the remembrance — the summons that founded the khatib's hour."
+    herald: "We sent you as witness, bringer of good news and warner — the prophetic commission every herald and spokesman after him imitates."
+    proclamation: "The proclamation from God and His messenger to the people on the day of the greater pilgrimage — the model of public announcement."
+    caller: "The caller and the listeners: the Qur'anic scene of a voice that carries a message through the crowd."
+  chain_title: "The media-makers — the people who carried the word"
+  chain_note: "Every role below is a museum job record; every card a person whose own record holds an occupations entry for it, ordered by date where the graph knows one."
+  mentioned_in: "mentioned in {n} passages"
+  no_holders: "No recorded holders in this build yet."
+  state_title: "The state speaks"
+  state_note: "The offices the media chain served: the caliphs, sultans and kings whose word the spokesman, herald and envoy carried, and the viziers, judges, governors and postmasters through whom the state addressed its subjects. These are the institution's voices; the chain above is its media."
+  feed_title: "Every mention in the sources"
+  feed_note: "Every passage the graph already ties to a media-maker or media job, classified by corpus — this stream grows automatically whenever a newly harvested book's passages land in the graph or a record is tagged i3lam-browser."
+  feed_more: "and {n} more in this corpus."
+  feed_empty: "No mentioning passages in this build yet — they will appear here as harvested books land."
+  corpora:
+    quran:
+      title: "Qur'an"
+      note: "The frozen Tanzil text, reached by passage reference only."
+    sunnah:
+      title: "Sunnah"
+      note: "Reports from the hadith collections."
+    seerah:
+      title: "Seerah"
+      note: "Reports from the sira and maghazi literature."
+    books:
+      title: "Other books"
+      note: "Every other harvested book in the corpus."
+  tagged_title: "Records tagged to this browser"
+  tagged_note: "Any record carrying the i3lam-browser tag joins here automatically — this is how future harvested material surfaces."
