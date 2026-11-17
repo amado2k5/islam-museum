@@ -1,0 +1,44 @@
+id: person/heba-kotb
+education:
+  did_you_know:
+    ar: "هبة قطب، أستاذة الطب الشرعي بالقاهرة المولودة سنة 1967، صارت سنة 2003 أول أخصائية مرخّصة في الطب الجنسي في مصر، وتجيب في برامجها الفضائية عن أسئلة المشاهدين في العلاقات الزوجية مستندة إلى القرآن."
+    en: "Heba Kotb, a Cairo professor of forensic medicine born in 1967, became the first licensed sexologist in Egypt in 2003, and answers viewers' questions on marital sexuality on satellite television, grounding her answers in the Qur'an."
+    ur: "ہبہ قطب، قاہرہ میں طبِ قانونی کی پروفیسر، جو 1967 میں پیدا ہوئیں، 2003 میں مصر کی پہلی لائسنس یافتہ ماہرِ جنسیات بنیں، اور سیٹلائٹ ٹیلی ویژن پر قرآن کی روشنی میں ازدواجی زندگی کے سوالات کے جوابات دیتی ہیں۔"
+    sources: [source/wikipedia-heba-kotb-en, source/arab-media-society-swank-2007]
+class: person
+label: { ar: "هبة قطب", en: "Heba Kotb", ur: "ہبہ قطب" }
+names:
+  - { value: "هبة جمال قطب", kind: full }
+  - { value: "Heba Gamal Kotb", kind: full }
+gender: female
+summary:
+  ar: "طبيبة مصرية وأستاذة الطب الشرعي بجامعة القاهرة ومقدّمة برامج تلفزيونية في الصحة الجنسية والعلاقات الزوجية، وُلدت في القاهرة سنة 1967. صارت سنة 2003 أول أخصائية مرخّصة في الطب الجنسي في مصر، واشتهرت في العالم العربي ببرنامجها «كلام كبير» على قناة المحور منذ 2006، الذي تجيب فيه عن أسئلة المشاهدين في إطار إسلامي، ولها كتاب «للكبار فقط»."
+  en: "Egyptian physician, professor of forensic medicine at Cairo University and television presenter on sexual health and marital relations, born in Cairo in 1967. In 2003 she became the first licensed sexologist in Egypt, and she became known across the Arab world for her Al-Mehwar programme Kalam Kibeer (The Big Talk), from 2006, in which she answers viewers' questions within an Islamic frame. She is the author of Lil Kubaar Faqat (Adults Only)."
+  ur: "مصری طبیبہ، جامعہ قاہرہ میں طبِ قانونی کی پروفیسر اور جنسی صحت و ازدواجی تعلقات پر ٹیلی ویژن پیش کار، جو 1967 میں قاہرہ میں پیدا ہوئیں۔ 2003 میں وہ مصر کی پہلی لائسنس یافتہ ماہرِ جنسیات بنیں، اور 2006 سے المحور چینل پر اپنے پروگرام «کلام بڑا» کے ذریعے عرب دنیا میں مشہور ہوئیں، جس میں وہ اسلامی تناظر میں ناظرین کے سوالات کے جواب دیتی ہیں۔ ان کی کتاب «صرف بڑوں کے لیے» بھی ہے۔"
+roles: [physician, professor, presenter]
+wings: [people, living]
+regions: [egypt-nile]
+born:
+  edtf: "1967-09-19"
+  hijri: "1387"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Gregorian date from the English and Arabic Wikipedia articles; the Arabic article and the English infobox both give Cairo as the birthplace. The Hijri year (1387) is derived from the Gregorian date."
+  sources: [source/wikipedia-heba-kotb-en, source/wikipedia-heba-kotb-ar]
+relations:
+  - { type: born_in, target: place/cairo, sources: [source/wikipedia-heba-kotb-en, source/wikipedia-heba-kotb-ar] }
+  - { type: lived_in, target: place/cairo, sources: [source/wikipedia-heba-kotb-ar] }
+faith:
+  - value: unknown
+    basis: unknown
+    note: "The Associated Press profile (2006) calls her a conservative Muslim, ABC News (2007) calls her a devout Muslim, and the Arab Media Society article (May 2007) likewise describes her as a devout Muslim who wears hijab; she grounds her method in the Qur'an, took Surah al-Baqarah as her inspiration, and titled her Florida dissertation 'Sexuality in Islam'. Three independent sources thus describe her as a Muslim, but none names a school or tradition for her, and the museum's faith values record traditions — so, as with person/amr-khaled, the tradition is recorded as unknown rather than inferred."
+    sources: [source/ap-heba-kotb-2006, source/abc-news-heba-kotb-2007, source/arab-media-society-swank-2007]
+sources: [source/wikipedia-heba-kotb-en, source/wikipedia-heba-kotb-ar, source/hebakotb-net, source/heba-kotb-cv-2015, source/ap-heba-kotb-2006, source/abc-news-heba-kotb-2007, source/arab-media-society-swank-2007, source/reuters-conversion-therapy-2021, source/mn2s-heba-kotb, source/newsroom-info-heba-kotb-2025]
+provenance:
+  layer: own-research
+  source: "AI-researched dossier compiled on 17 November 2026 from English and Arabic Wikipedia, her official site hebakotb.net, her CV (2015, via SlideShare), the Associated Press profile (2006), ABC News (2007), Anna Swank's Arab Media Society article (May 2007) and Reuters (3 June 2021), as listed in that dossier and checked again against the two Wikipedia articles on 17 November 2026. Only facts the dossier marks verified are used: the titles of her other books are not listed because they could not be verified, audience figures are agency-sourced and are attributed as such in the prose, and nothing is taken from the record of the AUC psychology professor of the same name, a different person."
+  generated_by: "Muse (Muse Spark 1.3)"
+  run: founder-directed-2026-11-17
+status: { review: published, generated_by: "Muse (Muse Spark 1.3)" }
