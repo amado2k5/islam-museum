@@ -1,0 +1,24 @@
+id: work/fatwa-dar-alifta-eg-salat-al-ghafla
+class: work
+kind: fatwa
+label: { ar: "حكم صلاة الغفلة وكيفيتها", en: "The 'prayer of heedlessness' and how it is performed", ur: "نمازِ غفلہ اور اس کا طریقہ" }
+summary:
+  ar: "سائل سأل عن صلاة الغفلة وكيفيتها. أجابت دار الإفتاء المصرية ⁦(مفتي الجمهورية د. نظير محمد عياد، فتوى رقم 21970)⁩ أنها من صلوات النوافل المستحبة شرعًا ووقتها بين صلاتي المغرب والعشاء وسميت بذلك لأن الناس يغفلون عنها، على ما فصّل الجواب من صفتها."
+  en: "A questioner asked about the 'prayer of heedlessness' (salat al-ghafla) and its manner. Egypt's Dar al-Ifta (Grand Mufti Dr. Nazir Muhammad Ayyad, fatwa no. 21970) answered that it is among the recommended voluntary prayers, timed between sunset and evening prayers, named so because people neglect it — with its description as the answer details."
+  ur: "ایک سائل نے نمازِ غفلہ اور اس کا طریقہ پوچھا۔ مصر کے دار الافتاء ⁦(مفتیِ جمهور ڈاکٹر نظیر محمد عیاد، فتویٰ نمبر 21970)⁩ نے جواب دیا کہ یہ مستحب نوافل میں ہے اور اس کا وقت مغرب اور عشاء کے درمیان ہے؛ اس کا نام اس لیے پڑا کہ لوگ اس سے غافل رہتے ہیں — جواب میں اس کی صفت بیان ہوئی۔"
+wings: [words]
+authors: [person/nazir-ayyad]
+publisher: group/dar-al-ifta-al-misriyya
+url: "https://www.dar-alifta.org/ar/fatwa/details/21970/حكم-صلاة-الغفلة-وكيفيتها"
+languages: [ar]
+sources: [source/dar-alifta]
+relations:
+  - { type: about, target: practice/salah, sources: [source/dar-alifta] }
+  - { type: about, target: concept/awqat-al-salat, sources: [source/dar-alifta] }
+provenance:
+  layer: own-research
+  source: "dar-alifta.org fatwa no. 21970, category الصلاة; read 17 Nov 2026. Summary in the museum's own words."
+  generated_by: "Devin"
+  model: "SWE-2 Medium"
+  run: fatwa-websites-34
+status: { review: published, completeness: 1 }

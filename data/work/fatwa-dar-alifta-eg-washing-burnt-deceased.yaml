@@ -1,0 +1,24 @@
+id: work/fatwa-dar-alifta-eg-washing-burnt-deceased
+class: work
+kind: fatwa
+label: { ar: "حكم تغسيل الميت المصاب بالحروق", en: "Washing a deceased who suffered burns", ur: "جلے ہوئے میت کو غسل دینا" }
+summary:
+  ar: "سائل سأل عن تغسيل الميت المصاب بالحروق. أجابت دار الإفتاء المصرية ⁦(مفتي الجمهورية د. نظير محمد عياد، فتوى رقم 21958)⁩ أن حكم تغسيل المحروق يتوقف على حال جسده بعد الوفاة فإن كان سليمًا وأمكن غسله وتعميمه بالماء من غير ضرر غُسِّل وإلا انتقل إلى التيمم على ما فصّل الجواب."
+  en: "A questioner asked about washing a deceased who suffered burns. Egypt's Dar al-Ifta (Grand Mufti Dr. Nazir Muhammad Ayyad, fatwa no. 21958) answered that the ruling depends on the body's state after death: if intact and washable without harm it is washed; otherwise the matter passes to tayammum — as the answer details."
+  ur: "ایک سائل نے جلے ہوئے میت کو غسل دینے کا حکم پوچھا۔ مصر کے دار الافتاء ⁦(مفتیِ جمهور ڈاکٹر نظیر محمد عیاد، فتویٰ نمبر 21958)⁩ نے جواب دیا کہ حکم موت کے بعد جسد کی حالت پر موقوف ہے: اگر صحیح اور بغیر نقصان دھویا جا سکے تو غسل دیا جائے ورنہ تیمم کی طرف رجوع ہو — جیسا کہ جواب میں تفصیل ہے۔"
+wings: [words]
+authors: [person/nazir-ayyad]
+publisher: group/dar-al-ifta-al-misriyya
+url: "https://www.dar-alifta.org/ar/fatwa/details/21958/حكم-تغسيل-الميت-المصاب-بالحروق"
+languages: [ar]
+sources: [source/dar-alifta]
+relations:
+  - { type: about, target: practice/dafn, sources: [source/dar-alifta] }
+  - { type: about, target: concept/tahara, sources: [source/dar-alifta] }
+provenance:
+  layer: own-research
+  source: "dar-alifta.org fatwa no. 21958, category الجنائز; read 17 Nov 2026. Summary in the museum's own words."
+  generated_by: "Devin"
+  model: "SWE-2 Medium"
+  run: fatwa-websites-34
+status: { review: published, completeness: 1 }
