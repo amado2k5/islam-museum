@@ -1,0 +1,48 @@
+id: person/sulis
+class: person
+tags:
+- ulama-browser
+- ulama-mashahir
+label:
+  ar: سوليس
+  en: Sulis
+  ur: سلس
+names:
+- value: سوليس
+  kind: full
+- value: Sulis
+  kind: full
+gender: female
+summary:
+  ar: مغنية إندونيسية وُلدت سنة 1990 في لوموك؛ اشتهرت طفلةً بألبومات النشيد مع حداد علوي منها «سينتا راسول»، وصارت صوتًا محبوبًا للغناء الديني الإندونيسي وتواصل الإصدار والغناء.
+  en: Indonesian singer born in Lombok in 1990; she rose to fame as a child on Haddad Alwi's devotional albums such as Cinta Rasul, becoming a beloved voice of Indonesian religious song, and continues to
+    record and perform.
+  ur: انڈونیشی گلوکارہ جو 1990 میں لومبوک میں پیدا ہوئی؛ حداد علوی کے مذہبی البموں مثل Cinta Rasul سے بچپن میں مشہور ہوئی اور انڈونیشی مذہبی غناء کی محبوب آواز بنی، آج بھی ریکارڈ اور پرفارم کرتی ہے۔
+roles:
+- singer
+- munshid
+wings:
+- people
+- living
+born:
+  edtf: '1990'
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: &id001
+  - source/wikipedia-sulis
+  - source/muslim500-sulis
+faith:
+- value: sunni
+  basis: documented
+  note: Documented Indonesian Muslim nasheed singer; her career is Islamic devotional song.
+  sources: *id001
+sources: *id001
+provenance:
+  layer: own-research
+  source: Web research + Wikipedia and The Muslim 500 profiles, read 17 November 2026
+  generated_by: Devin (SWE-2 Medium)
+  run: ulama-m500-final-2026-11-17
+status:
+  review: published
+  generated_by: Devin (SWE-2 Medium)

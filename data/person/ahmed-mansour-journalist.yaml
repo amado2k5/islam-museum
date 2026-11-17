@@ -1,0 +1,48 @@
+id: person/ahmed-mansour-journalist
+class: person
+tags:
+- ulama-browser
+- ulama-mashahir
+label:
+  ar: أحمد منصور
+  en: Ahmed Mansour ⁦(journalist)⁩
+  ur: احمد منصور ⁦(صحافی)⁩
+names:
+- value: أحمد منصور
+  kind: full
+- value: Ahmed Mansour ⁦(journalist)⁩
+  kind: full
+gender: male
+summary:
+  ar: صحفي ومقدم برامج مصري وُلد سنة 1962؛ من أقدم مذيعي الجزيرة، غطّى حروب أفغانستان والعراق واليمن، ويقدّم برنامج المقابلات «بلا حدود» منذ 1999، وله كتب في التاريخ والصحافة.
+  en: Egyptian journalist and presenter born in 1962; a veteran Al Jazeera anchor, he covered the wars of Afghanistan, Iraq and Yemen, has hosted the interview programme Bila Hudud since 1999, and writes
+    books on history and journalism.
+  ur: مصری صحافی اور پیش کنندہ جو 1962 میں پیدا ہوا؛ الجزیرہ کے مخضرم اینکر، افغانستان، عراق اور یمن کی جنگیں کی، 1999 سے انٹرویو پروگرام بلا حدود پیش کرتا ہے اور تاریخ و صحافت پر کتابیں لکھتا ہے۔
+roles:
+- journalist
+- presenter
+wings:
+- people
+- living
+born:
+  edtf: '1962'
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: &id001
+  - source/wikipedia-ahmed-mansour-journalist
+  - source/muslim500-ahmed-mansour-journalist
+faith:
+- value: unknown
+  basis: unknown
+  note: Egyptian journalist; no source read names a school for him personally and none is inferred.
+  sources: *id001
+sources: *id001
+provenance:
+  layer: own-research
+  source: Web research + Wikipedia and The Muslim 500 profiles, read 17 November 2026
+  generated_by: Devin (SWE-2 Medium)
+  run: ulama-m500-final-2026-11-17
+status:
+  review: published
+  generated_by: Devin (SWE-2 Medium)

@@ -1,0 +1,50 @@
+id: person/saint-levant
+class: person
+tags:
+- ulama-browser
+- ulama-mashahir
+label:
+  ar: مروان عبد الحميد ⁦(سان لوفان)⁩
+  en: Marwan Abdelhamid ⁦(Saint Levant)⁩
+  ur: مروان عبد الحمید ⁦(سینٹ لیونٹ)⁩
+names:
+- value: مروان عبد الحميد ⁦(سان لوفان)⁩
+  kind: full
+- value: Marwan Abdelhamid ⁦(Saint Levant)⁩
+  kind: full
+gender: male
+summary:
+  ar: فنان فلسطيني جزائري فرنسي وُلد في غزة سنة 2000 ونشأ بين الأردن وفلسطين؛ يغني بالعربية والإنجليزية والفرنسية تحت اسم «سان لوفان»، وصار من أبرز الأصوات الفلسطينية الشابة في البوب العالمي.
+  en: Palestinian-Algerian-French singer and rapper born in Gaza in 2000 and raised between Jordan and Palestine; performing in Arabic, English and French as Saint Levant, he has become one of the most
+    prominent young Palestinian voices in global pop.
+  ur: فلسطینی، الجزائری، فرانسیسی گلوکار اور ریپر جو 2000 میں غزہ میں پیدا ہوا اور اردن اور فلسطین میں پلا؛ سینٹ لیونٹ کے نام سے عربی، انگریزی اور فرانسیسی میں گاتا ہے اور عالمی پاپ میں نمایاں نوجوان فلسطینی
+    آواز ہے۔
+roles:
+- musician
+- singer
+- composer
+wings:
+- people
+- living
+born:
+  edtf: '2000'
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: &id001
+  - source/wikipedia-saint-levant
+  - source/muslim500-saint-levant
+faith:
+- value: unknown
+  basis: unknown
+  note: No source read names a school for him; he is a secular recording artist and none is inferred.
+  sources: *id001
+sources: *id001
+provenance:
+  layer: own-research
+  source: Web research + Wikipedia and The Muslim 500 profiles, read 17 November 2026
+  generated_by: Devin (SWE-2 Medium)
+  run: ulama-m500-final-2026-11-17
+status:
+  review: published
+  generated_by: Devin (SWE-2 Medium)

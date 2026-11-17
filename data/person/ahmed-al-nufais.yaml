@@ -1,0 +1,47 @@
+id: person/ahmed-al-nufais
+class: person
+tags:
+- ulama-browser
+- ulama-mashahir
+label:
+  ar: الشيخ أحمد النفيس
+  en: Ahmed Al-Nufais
+  ur: شیخ احمد النفیس
+names:
+- value: الشيخ أحمد النفيس
+  kind: full
+- value: Ahmed Al-Nufais
+  kind: full
+gender: male
+summary:
+  ar: قارئ وإمام كويتي وُلد سنة 1987؛ إمام المسجد الكبير في الكويت، اشتهر بصوته الرقيق في التلاوة، ويُتابع تسجيلاته ملايين المستمعين في العالم العربي.
+  en: Kuwaiti Qur'an reciter and imam born in 1987; an imam of the Grand Mosque of Kuwait celebrated for a soft, emotive recitation voice, his recordings are followed by millions across the Arab world.
+  ur: کویتی قاری اور امام جو 1987 میں پیدا ہوا؛ کویت کی گرینڈ مسجد کا امام جس کی نرم جذباتی تلاوت کی آواز کو عرب دنیا میں لاکھوں سامعین پسند کرتے ہیں۔
+roles:
+- reciter
+- imam
+wings:
+- people
+- living
+born:
+  edtf: '1987'
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: &id001
+  - source/wikipedia-ahmed-al-nufais
+  - source/muslim500-ahmed-al-nufais
+faith:
+- value: sunni
+  basis: documented
+  note: Documented Kuwaiti Qur'an reciter and imam of the Grand Mosque of Kuwait.
+  sources: *id001
+sources: *id001
+provenance:
+  layer: own-research
+  source: Web research + Wikipedia and The Muslim 500 profiles, read 17 November 2026
+  generated_by: Devin (SWE-2 Medium)
+  run: ulama-m500-final-2026-11-17
+status:
+  review: published
+  generated_by: Devin (SWE-2 Medium)

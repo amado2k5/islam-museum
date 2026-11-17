@@ -1,0 +1,48 @@
+id: person/khadija-benganna
+class: person
+tags:
+- ulama-browser
+- ulama-mashahir
+label:
+  ar: خديجة بن قنة
+  en: Khadija Benguenna
+  ur: خدیجہ بن قنہ
+names:
+- value: خديجة بن قنة
+  kind: full
+- value: Khadija Benguenna
+  kind: full
+gender: female
+summary:
+  ar: صحفية ومذيعة أخبار جزائرية وُلدت سنة 1965؛ من الفريق المؤسس لقناة الجزيرة سنة 1996 ومذيعتها الأولى التي أطلقت البث، وعملت مذيعة أخبار أولى ومقدمة برامج، ونالت جوائز في الإعلام العربي.
+  en: Algerian journalist and news anchor born in 1965; a member of Al Jazeera's founding team in 1996 and the presenter who launched its first broadcast, she serves as senior news anchor and has won Arab
+    media awards.
+  ur: الجزائری صحافہ اور نیوز اینکر جو 1965 میں پیدا ہوئی؛ 1996 میں الجزیرہ کی بانی ٹیم کی رکن اور اس کے پہلے نشریات شروع کرنے والی پیش کنندہ، سینئر نیوز اینکر اور عرب میڈیا انعامات یافتہ۔
+roles:
+- journalist
+- presenter
+wings:
+- people
+- living
+born:
+  edtf: '1965'
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: &id001
+  - source/wikipedia-khadija-benganna
+  - source/muslim500-khadija-benganna
+faith:
+- value: sunni
+  basis: documented
+  note: Documented Algerian Muslim journalist; publicly identified with her faith in media coverage.
+  sources: *id001
+sources: *id001
+provenance:
+  layer: own-research
+  source: Web research + Wikipedia and The Muslim 500 profiles, read 17 November 2026
+  generated_by: Devin (SWE-2 Medium)
+  run: ulama-m500-final-2026-11-17
+status:
+  review: published
+  generated_by: Devin (SWE-2 Medium)

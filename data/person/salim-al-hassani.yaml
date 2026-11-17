@@ -1,0 +1,35 @@
+id: person/salim-al-hassani
+class: person
+tags: [ulama-browser, ulama-mashahir]
+label: { ar: "سليم الحسني", en: "Salim al-Hassani", ur: "سلیم الحسنی" }
+names:
+  - { value: "سليم الحسني", kind: full }
+  - { value: "Salim al-Hassani", kind: full }
+  - { value: "Salim T. S. Al-Hassani", kind: alternate }
+gender: male
+summary:
+  ar: "مهندس عراقي بريطاني وُلد سنة 1940 في بغداد، أستاذ سابق للهندسة الميكانيكية في معهد مانشستر للعلوم والتكنولوجيا. مؤسس ورئيس مؤسسة العلوم والتقنية والحضارة، ومحرّر كتاب «1001 اختراع: التراث الإسلامي في عالمنا» الذي عرّف جمهورًا واسعًا بالحضارة العلمية الإسلامية."
+  en: "Iraqi-British engineer, born in 1940 in Baghdad, former professor of mechanical engineering at UMIST. Founder and chairman of the Foundation for Science, Technology and Civilisation, and editor of 1001 Inventions: Muslim Heritage in Our World, which brought Islamic scientific civilisation to a wide public."
+  ur: "عراقی نژاد برطانوی انجینئر، 1940ء میں بغداد میں پیدا ہوئے، یو ایم آئی ایس ٹی ⁦(UMIST)⁩ میں مکینیکل انجینئری کے سابق پروفیسر۔ فاؤنڈیشن فار سائنس، ٹیکنالوجی اینڈ سولائزیشن کے بانی اور چیئرمین، اور کتاب «1001 Inventions: Muslim Heritage in Our World» کے مدیر جس نے اسلامی علمی تہذیب کو وسیع قارئین تک پہنچایا۔"
+roles: [engineer, professor, writer]
+wings: [people, living]
+regions: [levant-iraq, andalus-europe]
+born:
+  edtf: "1940"
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: [source/wikipedia-salim-al-hassani-en]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Salim al-Hassani is described in profiles as an Iraqi Muslim engineer; no source read names a school, so the value stays unknown."
+    sources: [source/wikipedia-salim-al-hassani-en]
+external_ids: { wikidata: "Q7404487" }
+sources: [source/wikipedia-salim-al-hassani-en, source/wikipedia-salim-al-hassani-ar, source/themuslim500-salim-al-hassani]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Salim Al-Hassani', Arabic Wikipedia «سليم الحسني», and The Muslim 500 profile (2025 edition, p. 214), read 17 November 2026"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: ulama-m500-supplement2-2026-11-17
+status: { review: published, generated_by: "Devin (SWE-2 Medium)" }

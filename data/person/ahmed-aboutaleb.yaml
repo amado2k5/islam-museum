@@ -1,0 +1,34 @@
+id: person/ahmed-aboutaleb
+class: person
+tags: [ulama-browser, ulama-mashahir]
+label: { ar: "أحمد أبو طالب", en: "Ahmed Aboutaleb", ur: "احمد ابوطالب" }
+names:
+  - { value: "أحمد أبو طالب", kind: full }
+  - { value: "Ahmed Aboutaleb", kind: full }
+gender: male
+summary:
+  ar: "سياسي هولندي من أصل مغربي، وُلد سنة 1961 بإقليم الناظور. عُيّن عمدة لروتردام سنة 2009 فكان أوّل مسلم يتولّى عمودية مدينة أوروبية كبرى، وشغل قبلها منصب وكيل وزارة الشؤون الاجتماعية والتشغيل، وفاز بجائزة عمدة العالم سنة 2021."
+  en: "Dutch politician of Moroccan origin, born in 1961 in the Nador region. Appointed mayor of Rotterdam in 2009 — the first Muslim to lead a major European city — he earlier served as State Secretary for Social Affairs and Employment and won the 2021 World Mayor Prize."
+  ur: "مراکشی نژاد ڈچ سیاست دان، 1961ء میں علاقۂ ناظور میں پیدا ہوئے۔ 2009ء میں راٹرڈیم کے میئر مقرر ہوئے تو وہ کسی بڑی یورپی شہر کے سربراہ بننے والے پہلے مسلمان قرار پائے؛ اس سے قبل وزارتِ سماجی امور و ملازمت میں وزیرِ مملکت رہے اور 2021ء میں ورلڈ میئر پرائز جیتا۔"
+roles: [politician]
+wings: [people, living]
+regions: [andalus-europe]
+born:
+  edtf: "1961-08-29"
+  calendar: gregorian
+  precision: day
+  status: historical
+  sources: [source/wikipedia-ahmed-aboutaleb-en]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source read names a school for Ahmed Aboutaleb. The English Wikipedia article notes he still practises Islam and describes him as the first Muslim mayor of a major European city — a description of religious identity in a career context that names no school. Under the doubt rule the value stays unknown."
+    sources: [source/wikipedia-ahmed-aboutaleb-en]
+external_ids: { wikidata: "Q382831" }
+sources: [source/wikipedia-ahmed-aboutaleb-en, source/wikipedia-ahmed-aboutaleb-ar, source/themuslim500-ahmed-aboutaleb]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Ahmed Aboutaleb', Arabic Wikipedia «أحمد أبو طالب», and The Muslim 500 profile (2025 edition, p. 174), read 17 November 2026"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: ulama-m500-supplement2-2026-11-17
+status: { review: published, generated_by: "Devin (SWE-2 Medium)" }

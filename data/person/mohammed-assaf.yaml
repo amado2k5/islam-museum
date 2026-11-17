@@ -1,0 +1,48 @@
+id: person/mohammed-assaf
+class: person
+tags:
+- ulama-browser
+- ulama-mashahir
+label:
+  ar: محمد عساف
+  en: Mohammed Assaf
+  ur: محمد عساف
+names:
+- value: محمد عساف
+  kind: full
+- value: Mohammed Assaf
+  kind: full
+gender: male
+summary:
+  ar: مغنٍّ فلسطيني وُلد سنة 1989 في ليبيا ونشأ في خان يونس بغزة؛ فاز ببرنامج «محبوب العرب» ⁦(آراب آيدول)⁩ سنة 2013 بأدائه «علي الكوفية»، فصار أشهر مغنٍّ فلسطيني في جيله ورمزًا شعبيًا، وسفير UNRWA للنوايا
+    الحسنة.
+  en: Palestinian singer born in Libya in 1989 and raised in Khan Younis, Gaza; he won Arab Idol in 2013 with his performance of Ali al-Kefiyyeh, becoming the most famous Palestinian singer of his generation
+    and a UNRWA Goodwill Ambassador.
+  ur: فلسطینی گلوکار جو 1989 میں لیبیا میں پیدا ہوا اور غزہ کے خان یونس میں پلا؛ 2013 میں Arab Idol جیتا، Ali al-Kefiyyeh کی پرفارمنس سے اپنی نسل کے مشہور ترین فلسطینی گلوکار اور UNRWA goodwill سفیر بنا۔
+roles:
+- singer
+wings:
+- people
+- living
+born:
+  edtf: '1989'
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: &id001
+  - source/wikipedia-mohammed-assaf
+  - source/muslim500-mohammed-assaf
+faith:
+- value: unknown
+  basis: unknown
+  note: Palestinian pop singer; no source read names a school for him personally and none is inferred.
+  sources: *id001
+sources: *id001
+provenance:
+  layer: own-research
+  source: Web research + Wikipedia and The Muslim 500 profiles, read 17 November 2026
+  generated_by: Devin (SWE-2 Medium)
+  run: ulama-m500-final-2026-11-17
+status:
+  review: published
+  generated_by: Devin (SWE-2 Medium)

@@ -1,0 +1,35 @@
+id: person/mohamed-ramadan
+class: person
+tags: [ulama-browser, ulama-mashahir]
+label: { ar: "محمد رمضان", en: "Mohamed Ramadan", ur: "محمد رمضان" }
+names:
+  - { value: "محمد رمضان", kind: full }
+  - { value: "Mohamed Ramadan", kind: full }
+  - { value: "Number One", kind: alternate }
+  - { value: "نمبر وان", kind: alternate }
+gender: male
+summary:
+  ar: "ممثل ومغنٍّ مصري، وُلد سنة 1988؛ من أبرز نجوم الشاشة والأغنية في مصر والعالم العربي، بلقب «نمبر وان»، له مسلسلات ناجحة وأغانٍ ملايينية بينها ⁦(Bum Bum)⁩ و⁦(Ya Habibi)⁩."
+  en: "Egyptian actor and singer, born in 1988; one of the biggest screen and music stars in Egypt and the Arab world, self-styled 'Number One', with hit series and multi-platinum singles including Bum Bum and Ya Habibi."
+  ur: "مصری اداکار اور گلوکار، 1988 میں پیدا ہوئے؛ مصر اور عرب دنیا کے بڑے اسکرین و موسیقی ستاروں میں، خود کو »نمبر وان« کہتے ہیں؛ کامیاب سیریل اور ملٹی پلاٹینم گانے جیسے »بم بم« اور »یا حبیبی« رکھتے ہیں۔"
+roles: [actor, singer]
+wings: [people, living]
+regions: [egypt-nile]
+born:
+  edtf: "1988"
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: [source/muslim500-mohamed-ramadan, source/wikipedia-mohamed-ramadan]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source consulted names a school of Islam for Ramadan; the listing records his stardom, not a creed. Not recorded until two independent sources name a school."
+    sources: [source/muslim500-mohamed-ramadan, source/wikipedia-mohamed-ramadan]
+sources: [source/muslim500-mohamed-ramadan, source/wikipedia-mohamed-ramadan]
+provenance:
+  layer: own-research
+  source: "The Muslim 500 ⁦(2027 edition, Arts & Culture)⁩ and English Wikipedia, read for run ulama-m500-final-2026-11-17"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: ulama-m500-final-2026-11-17
+status: { review: published, generated_by: "Devin (SWE-2 Medium)" }

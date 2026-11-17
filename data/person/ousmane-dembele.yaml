@@ -1,0 +1,47 @@
+id: person/ousmane-dembele
+class: person
+tags:
+- ulama-browser
+- ulama-mashahir
+label:
+  ar: عثمان ديمبيلي
+  en: Ousmane Dembélé
+  ur: عثمان ڈیمبیلے
+names:
+- value: عثمان ديمبيلي
+  kind: full
+- value: Ousmane Dembélé
+  kind: full
+gender: male
+summary:
+  ar: لاعب كرة قدم فرنسي وُلد سنة 1997 في فيرنون؛ مهاجم باريس سان جيرمان ومنتخب فرنسا، فاز بكأس العالم 2018 ودوري أبطال أوروبا 2025، ونال الكرة الذهبية وجائزة ذا بست لأفضل لاعب سنة 2025.
+  en: French footballer born in Vernon in 1997; a forward for Paris Saint-Germain and France, he won the 2018 World Cup and the 2025 Champions League, and took the 2025 Ballon d'Or and The Best FIFA Men's
+    Player awards.
+  ur: فرانسیسی فٹبالر جو 1997 میں ورنون میں پیدا ہوا؛ پیرس سینٹ جرمین اور فرانس کا فارورڈ، 2018 ورلڈ کپ اور 2025 چیمپینز لیگ جیتا اور 2025 کا بالان ڈور اور The Best FIFA Men's Player ایوارڈ لیا۔
+roles:
+- athlete
+wings:
+- people
+- living
+born:
+  edtf: '1997'
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: &id001
+  - source/wikipedia-ousmane-dembele
+  - source/muslim500-ousmane-dembele
+faith:
+- value: sunni
+  basis: documented
+  note: Documented French Muslim footballer of Mauritanian-Senegalese descent; his faith is part of his public record.
+  sources: *id001
+sources: *id001
+provenance:
+  layer: own-research
+  source: Web research + Wikipedia and The Muslim 500 profiles, read 17 November 2026
+  generated_by: Devin (SWE-2 Medium)
+  run: ulama-m500-final-2026-11-17
+status:
+  review: published
+  generated_by: Devin (SWE-2 Medium)

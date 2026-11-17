@@ -1,0 +1,51 @@
+id: person/hamid-mir
+class: person
+tags:
+- ulama-browser
+- ulama-mashahir
+label:
+  ar: حامد مير
+  en: Hamid Mir
+  ur: حامد میر
+names:
+- value: حامد مير
+  kind: full
+- value: Hamid Mir
+  kind: full
+gender: male
+summary:
+  ar: صحفي ومذيع باكستاني وُلد سنة 1966 في لاهور؛ مقدم برنامج «كابيتال توك» على قناة جيو منذ 2002، حاور قادة عالميين منهم بن لادن قبل 2001 ومشرف وكيري، ونجا من محاولة اغتيال سنة 2014، ونال جوائز دولية لحرية
+    الصحافة.
+  en: Pakistani journalist and host born in Lahore in 1966; presenter of Geo TV's Capital Talk since 2002, he has interviewed world figures including Osama bin Laden before 2001, Musharraf and Kerry, survived
+    an assassination attempt in 2014, and won international press-freedom awards.
+  ur: پاکستانی صحافی اور میزبان جو 1966 میں لاہور میں پیدا ہوا؛ 2002 سے Geo TV کا Capital Talk پیش کرتا ہے، 2001 سے پہلے بن لادن، مشرف اور کیری سمیت عالمی شخصیات کے انٹرویو لیے، 2014 میں قتل کی کوشش سے
+    بچا اور بین الاقوامی صحافتی آزادی انعامات جیتے۔
+roles:
+- journalist
+- presenter
+- writer
+wings:
+- people
+- living
+born:
+  edtf: '1966'
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: &id001
+  - source/wikipedia-hamid-mir
+  - source/muslim500-hamid-mir
+faith:
+- value: sunni
+  basis: documented
+  note: Documented Pakistani Muslim journalist; public record identifies him as a practicing Sunni Muslim.
+  sources: *id001
+sources: *id001
+provenance:
+  layer: own-research
+  source: Web research + Wikipedia and The Muslim 500 profiles, read 17 November 2026
+  generated_by: Devin (SWE-2 Medium)
+  run: ulama-m500-final-2026-11-17
+status:
+  review: published
+  generated_by: Devin (SWE-2 Medium)

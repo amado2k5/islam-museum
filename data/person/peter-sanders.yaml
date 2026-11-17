@@ -1,0 +1,49 @@
+id: person/peter-sanders
+class: person
+tags:
+- ulama-browser
+- ulama-mashahir
+label:
+  ar: بيتر ساندرز
+  en: Peter Sanders
+  ur: پیٹر سانڈرز
+names:
+- value: بيتر ساندرز
+  kind: full
+- value: Peter Sanders
+  kind: full
+gender: male
+summary:
+  ar: 'مصور بريطاني وُلد سنة 1946؛ صوّر موسيقيي الروك في الستينيات ثم أسلم سنة 1971، وكرّس خمسة عقود لتوثيق العالم الإسلامي: مدنه ومساجده وعلماؤه وناسه، في أرشيف يُعدّ من أهم الصور الفوتوغرافية للحضارة
+    الإسلامية المعاصرة.'
+  en: British photographer born in 1946; after photographing 1960s rock musicians he embraced Islam in 1971 and devoted five decades to documenting the Muslim world — its cities, mosques, scholars and people
+    — in an archive ranked among the most important photographic records of contemporary Islamic civilisation.
+  ur: برطانوی فوٹوگرافر جو 1946 میں پیدا ہوا؛ 60 کی دہائی کے راک موسیقاروں کی تصویریں لینے کے بعد 1971 میں مسلمان ہوا اور پانچ دہائیاں مسلم دنیا — شہر، مسجدیں، علماء اور لوگ — کی دستاویزی کاری کو وقف کی،
+    جس کا مجموعہ عصری اسلامی تہذیب کے اہم ترین فوٹو ریکارڈ میں شمار ہوتا ہے۔
+roles:
+- artist
+wings:
+- people
+- living
+born:
+  edtf: '1946'
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: &id001
+  - source/wikipedia-peter-sanders
+  - source/muslim500-peter-sanders
+faith:
+- value: sunni
+  basis: documented
+  note: Documented British Muslim photographer who embraced Islam in 1971; his archive documents the Muslim world.
+  sources: *id001
+sources: *id001
+provenance:
+  layer: own-research
+  source: Web research + Wikipedia and The Muslim 500 profiles, read 17 November 2026
+  generated_by: Devin (SWE-2 Medium)
+  run: ulama-m500-final-2026-11-17
+status:
+  review: published
+  generated_by: Devin (SWE-2 Medium)

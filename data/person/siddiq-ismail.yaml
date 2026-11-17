@@ -1,0 +1,48 @@
+id: person/siddiq-ismail
+class: person
+tags:
+- ulama-browser
+- ulama-mashahir
+label:
+  ar: الحاج صديق إسماعيل
+  en: Al-Hajj Siddiq Ismail
+  ur: حاج صدیق اسماعیل
+names:
+- value: الحاج صديق إسماعيل
+  kind: full
+- value: Al-Hajj Siddiq Ismail
+  kind: full
+gender: male
+summary:
+  ar: قارئ نعت وتحميد باكستاني وُلد سنة 1954 في كراتشي؛ يتلو النعت والحمد منذ أكثر من خمسين عامًا بأكثر من عشر لغات، وظهر في التلفزيون الباكستاني عقودًا ونال جوائز وطنية.
+  en: Pakistani naat and hamd reciter born in Karachi in 1954; he has performed devotional poetry for more than fifty years in over ten languages, appeared on Pakistani television for decades, and received
+    national honours.
+  ur: پاکستانی نعت و حمد خواں جو 1954 میں کراچی میں پیدا ہوا؛ پچاس سے زائد برسوں سے دس سے زیادہ زبانوں میں نعت خوانی کرتا ہے، دہائیوں تک پاکستانی ٹی وی پر حاضر رہا اور قومی اعزازات پائے۔
+roles:
+- munshid
+- reciter
+wings:
+- people
+- living
+born:
+  edtf: '1954'
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: &id001
+  - source/wikipedia-siddiq-ismail
+  - source/muslim500-siddiq-ismail
+faith:
+- value: sunni
+  basis: documented
+  note: Documented Pakistani naat and hamd reciter for over fifty years.
+  sources: *id001
+sources: *id001
+provenance:
+  layer: own-research
+  source: Web research + Wikipedia and The Muslim 500 profiles, read 17 November 2026
+  generated_by: Devin (SWE-2 Medium)
+  run: ulama-m500-final-2026-11-17
+status:
+  review: published
+  generated_by: Devin (SWE-2 Medium)

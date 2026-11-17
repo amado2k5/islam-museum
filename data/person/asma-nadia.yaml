@@ -1,0 +1,47 @@
+id: person/asma-nadia
+class: person
+tags:
+- ulama-browser
+- ulama-mashahir
+label:
+  ar: أسما نادية
+  en: Asma Nadia
+  ur: اسما نادیا
+names:
+- value: أسما نادية
+  kind: full
+- value: Asma Nadia
+  kind: full
+gender: female
+summary:
+  ar: روائية إندونيسية وُلدت سنة 1972 في جاكرتا؛ من أغزر الكاتبات الإندونيسيات إنتاجًا بأكثر من مئة كتاب في قصص الأسرة والإيمان، وحُوّل أكثر من عشرين من أعمالها إلى أفلام ومسلسلات.
+  en: Indonesian novelist born in Jakarta in 1972; one of Indonesia's most prolific authors with over a hundred books on family and faith, more than twenty of which have been adapted into films and series.
+  ur: انڈونیشی ناول نگار جو 1972 میں جکارتا میں پیدا ہوئی؛ خاندان اور ایمان پر سو سے زائد کتابوں کی مصنفہ، جن میں سے بیس سے زیادہ فلموں اور سیریز بنیں۔
+roles:
+- writer
+- entrepreneur
+wings:
+- people
+- living
+born:
+  edtf: '1972'
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: &id001
+  - source/wikipedia-asma-nadia
+  - source/muslim500-asma-nadia
+faith:
+- value: sunni
+  basis: documented
+  note: Documented Indonesian Muslim author whose entire catalogue is Islamic fiction for Muslim families.
+  sources: *id001
+sources: *id001
+provenance:
+  layer: own-research
+  source: Web research + Wikipedia and The Muslim 500 profiles, read 17 November 2026
+  generated_by: Devin (SWE-2 Medium)
+  run: ulama-m500-final-2026-11-17
+status:
+  review: published
+  generated_by: Devin (SWE-2 Medium)

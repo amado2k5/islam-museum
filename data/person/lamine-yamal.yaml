@@ -1,0 +1,49 @@
+id: person/lamine-yamal
+class: person
+tags:
+- ulama-browser
+- ulama-mashahir
+label:
+  ar: أمين يامال
+  en: Lamine Yamal
+  ur: لامین یامال
+names:
+- value: أمين يامال
+  kind: full
+- value: Lamine Yamal
+  kind: full
+gender: male
+summary:
+  ar: لاعب كرة قدم إسباني وُلد سنة 2007 في إسبليوغيس دو يوبريغات لأب مغربي وأم من غينيا الاستوائية؛ نجم برشلونة ومنتخب إسبانيا، فاز بيورو 2024 أصغرَ هداف في تاريخ البطولة، ويُعدّ أكبر موهبة شابة في كرة
+    العالم.
+  en: Spanish footballer born in Esplugues de Llobregat in 2007 to a Moroccan father and Equatorial Guinean mother; the Barcelona and Spain winger won Euro 2024 as the tournament's youngest-ever scorer
+    and is rated world football's biggest young talent.
+  ur: ہسپانوی فٹبالر جو 2007 میں ایسپلوگس میں مراکشی باپ اور استوائی گنی ماں کے ہاں پیدا ہوا؛ بارسلونا اور اسپین کا ونگر، یورو 2024 جیتا ٹورنامنٹ کے کم عمر ترین اسکورر کی حیثیت سے، اور دنیا کی فٹبال کی
+    سب سے بڑی نوجوان قابلیت سمجھی جاتی ہے۔
+roles:
+- athlete
+wings:
+- people
+- living
+born:
+  edtf: '2007'
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: &id001
+  - source/wikipedia-lamine-yamal
+  - source/muslim500-lamine-yamal
+faith:
+- value: unknown
+  basis: unknown
+  note: Spanish-Moroccan-Equatoguinean footballer; he was raised in a Muslim family but no school is named in the sources read, so faith is left unknown.
+  sources: *id001
+sources: *id001
+provenance:
+  layer: own-research
+  source: Web research + Wikipedia and The Muslim 500 profiles, read 17 November 2026
+  generated_by: Devin (SWE-2 Medium)
+  run: ulama-m500-final-2026-11-17
+status:
+  review: published
+  generated_by: Devin (SWE-2 Medium)

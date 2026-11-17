@@ -1,0 +1,50 @@
+id: person/zain-bhikha
+class: person
+tags:
+- ulama-browser
+- ulama-mashahir
+label:
+  ar: زين بيكا
+  en: Zain Bhikha
+  ur: زین بھیکا
+names:
+- value: زين بيكا
+  kind: full
+- value: Zain Bhikha
+  kind: full
+gender: male
+summary:
+  ar: مغنٍّ ومنشد جنوب إفريقي وُلد سنة 1974 في بريتوريا؛ من روّاد النشيد بالإنجليزية، أصدر ألبومات منذ 1996 منها «Mountains of Makkah» و«City of Medina»، وتعاون مع يوسف إسلام ويغني للأطفال والأسر في العالم.
+  en: South African singer and nasheed artist born in Pretoria in 1974; a pioneer of English-language nasheed with albums since 1996 including Mountains of Makkah and City of Medina, he has collaborated
+    with Yusuf Islam and performs for families worldwide.
+  ur: جنوبی افریقی گلوکار اور نعت خواں جو 1974 میں پریٹوریا میں پیدا ہوا؛ انگریزی نشید کے رہنما، 1996 سے Mountains of Makkah اور City of Medina جیسے البم، یوسف اسلام کے ساتھ تعاون، اور دنیا بھر میں خاندانوں
+    کے لیے پرفارمنس۔
+roles:
+- singer
+- munshid
+- composer
+wings:
+- people
+- living
+born:
+  edtf: '1974'
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: &id001
+  - source/wikipedia-zain-bhikha
+  - source/muslim500-zain-bhikha
+faith:
+- value: sunni
+  basis: documented
+  note: Documented as a South African Muslim nasheed singer; his entire career is Islamic devotional song.
+  sources: *id001
+sources: *id001
+provenance:
+  layer: own-research
+  source: Web research + Wikipedia and The Muslim 500 profiles, read 17 November 2026
+  generated_by: Devin (SWE-2 Medium)
+  run: ulama-m500-final-2026-11-17
+status:
+  review: published
+  generated_by: Devin (SWE-2 Medium)

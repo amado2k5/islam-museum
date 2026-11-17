@@ -1,0 +1,34 @@
+id: person/erol-gelenbe
+class: person
+tags: [ulama-browser, ulama-mashahir]
+label: { ar: "إرول غالنبه", en: "Erol Gelenbe", ur: "ایرول گیلنبے" }
+names:
+  - { value: "إرول غالنبه", kind: full }
+  - { value: "Erol Gelenbe", kind: full }
+  - { value: "Sami Erol Gelenbe", kind: alternate }
+gender: male
+summary:
+  ar: "عالم حاسوب ومهندس إلكتروني ورياضياتي تطبيقي تركي فرنسي، وُلد سنة 1945؛ مخترع الشبكة العصبية العشوائية ورائد نمذجة أداء شبكات الحاسوب، شغل كراسي في إمبريال كوليدج لندن وجامعة ديوك."
+  en: "Turkish-French computer scientist, electronic engineer and applied mathematician, born in 1945; inventor of the random neural network and a pioneer of computer network performance modelling, with chairs at Imperial College London and Duke University."
+  ur: "ترک نژاد فرانسیسی کمپیوٹر سائنسدان، الیکٹرانک انجینئر اور اطلاقی ریاضی دان، 1945 میں پیدا ہوئے؛ رینڈم نیورل نیٹ ورک کے موجد اور کمپیوٹر نیٹ ورک کارکردگی کی نمونہ سازی کے پیش رو؛ امپیریل کالج لندن اور ڈیوک یونیورسٹی میں کرسیوں کے حامل۔"
+roles: [scientist, engineer, professor]
+wings: [people, living]
+regions: [anatolia-balkans, andalus-europe]
+born:
+  edtf: "1945"
+  calendar: gregorian
+  precision: year
+  status: historical
+  sources: [source/muslim500-erol-gelenbe, source/wikipedia-erol-gelenbe]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "No source consulted names a school of Islam for Gelenbe; the listing records his computer science, not a creed. Not recorded until two independent sources name a school."
+    sources: [source/muslim500-erol-gelenbe, source/wikipedia-erol-gelenbe]
+sources: [source/muslim500-erol-gelenbe, source/wikipedia-erol-gelenbe]
+provenance:
+  layer: own-research
+  source: "The Muslim 500 ⁦(2027 edition, Science & Technology)⁩ and English Wikipedia, read for run ulama-m500-final-2026-11-17"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: ulama-m500-final-2026-11-17
+status: { review: published, generated_by: "Devin (SWE-2 Medium)" }
