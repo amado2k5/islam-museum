@@ -45,9 +45,11 @@ open a new block on top with the new version and today's date.
 - Removed the stale `(POC)` tag from the `decide pipeline` test suite title — the pipeline is hardened and the label no longer reflects it.
 - New `scripts/check-yaml.ts` runs as the first step of `npm run validate` (~17 s over all 75,467 YAML files): it reports every malformed file at once — keys glued to a closing bracket and duplicated top-level keys from bad merges, plus any hard parse failure — instead of letting the first one crash `npm run graph` mid-test. `scripts/lib.ts` `readYaml` now names the file in its parse error.
 - Two pre-existing validation errors on `main`: `event/muakhat-of-salman-and-abu-al-darda` Hijri `"000X"` (not a valid YYYY year) corrected to `"0001?"`, and `concept/birr-al-umm`'s `based_on` edge to a `practice` (out of range) changed to `related_to`.
+- Two ulama-browser person records validate again: `hamdy-abdel-aal` recorded `sunni` on one source (modern-figures ruling 3 needs two — now `unknown` with the Sunni attestation kept in the note) and `islam-behery` used `islam`, which is not a faith value (now `unknown`, his self-described Muslim identity kept in the note).
 ### Changed
 - The Tranco ranking log in `docs/status.md` gains the 16 November 2026 reading: islam.museum at #1,062,888 on Tranco's list of 16 November 2026 (list K97GW, read from the published list file itself), up 49,679 places in a day and 62,888 places short of the top 1,000,000 the project watches.
 
+- The harvest register now shows all 44 episodes of the alwaad-alhaq lecture series as mined (it showed 40), and the ledger resume points for alwaad-alhaq and min-kunuz-al-sunnah are closed, since both series are complete. Counts were checked against the episode files and headings.
 ## v2.22.0 — 2026-11-17
 ### Added
 - Job Browser linking wave 48: 33 `occupations:` edges on 25 person records — finishes the grammarian and mufti pools (Ibn Khalawayh, Mufti Ghulam Sarwar Lahori) plus six commanders and poet, alim, historian links.

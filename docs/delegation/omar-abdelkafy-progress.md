@@ -3433,7 +3433,7 @@ Resume point: min-kunuz-al-sunnah episode 30 (branch from origin/main).
 | Closing prayers for countries and for current conflicts, thanks, closing prayer and farewell | ep30 00:27:30-00:30:00 | Prayers for peoples, states and modern conflicts; closing prayer | Content rule, Voice rule | Open |
 | Repeated filler tokens | ep30 00:30:30-00:30:30 | Loop, no content | Clarity, Loop check | Open |
 
-Resume point: min-kunuz-al-sunnah episode 31 (branch from origin/main).
+Resume point: none; min-kunuz-al-sunnah is complete, episodes 1 to 30 of 30 (count checked against the 30 episode files and headings, 14 Nov 2026).
 
 ### alwaad-alhaq ep09 (14 Nov 2026)
 
