@@ -15,4 +15,4 @@ The modern intra-ummah debate form: platform, recording, booklet transcript, the
 - **His Shia interlocutors (on television and platforms)**: argued from Ghadir, Thaqalayn and recorded history, holding the Sunni corpus itself carries the material of imamate.
 - **Al-Khamis (rebuttal)**: distinguished an established merit from an assigned office: the agreed texts prove excellence, not infallibility or political designation; and he asked his opponents for the standing of their claims' chains before the hadith imams.
 - **The interlocutors (rebuttal)**: held that the texts joined together entail the imamate, presenting the readings of the Saqifa and the recorded stances.
-- **The verdict**: his encounters were printed as widely circulated 'debate' booklets across the Arab world — the Sunni speakers' reference on the question. {cite:al-islam-al-murajaat}
+- **The verdict**: his encounters were printed as widely circulated 'debate' booklets across the Arab world — the Sunni speakers' reference on the question. {cite:al-islam-murajaat
