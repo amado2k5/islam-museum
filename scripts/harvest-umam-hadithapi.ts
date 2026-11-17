@@ -1,7 +1,7 @@
 /**
  * Harvest the hadith reports that name the non-Muslim nations, religions, sects and peoples from
  * the hadith-api Arabic editions (fawazahmed0/hadith-api, Unlicense) into data/passage/, for the
- * Umam Browser (docs/plan/67-umam-browser.md). Adapted from scripts/harvest-wasaya-hadithapi.ts.
+ * Umam Browser (docs/plan/68-umam-browser.md). Adapted from scripts/harvest-wasaya-hadithapi.ts.
  *
  * Every candidate is gated by the same detector the browser uses (scripts/umam.ts
  * umamMatchesOfText), whose patterns are all strong names, so no weak-word list is needed. A

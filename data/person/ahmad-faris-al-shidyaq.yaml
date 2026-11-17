@@ -27,3 +27,9 @@ relations:
   - { type: born_in, target: place/al-hadath, note: "From text: ولد في قرية الحدث من أعمال لبنان وأبو", sources: [source/al-aalam] }
   - { type: died_in, target: place/constantinople, note: "From text: توفي في قسطنطينية فنقل جثمانه إلى لبنا", sources: [source/al-aalam] }
   - { type: traveled_to, target: place/tunis, note: "From text: سافر إلى تونس فاعتنق فيها الدين الإسلام", sources: [source/al-aalam] }
+occupations:
+  - job: job/sahafi
+    kind: primary
+    status: historical
+    note: "Founded al-Jawa'ib at Istanbul in 1860 and coined 'jarida' for the newspaper."
+    sources: [source/tdv-matbuat]

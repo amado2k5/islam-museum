@@ -39,6 +39,11 @@ occupations:
     status: historical
     note: "merge-map link from role 'general', Job Browser linking wave 22"
     sources: [source/ibn-sad-tabaqat-bewley, source/tabari-donner-1993, source/ibn-ishaq-guillaume, source/muruj-al-dhahab, source/ibn-hisham-saqqa, source/nihayat-al-arab-nuwayri-vol3-scan, source/assabile-omar-abdelkafy, source/encyclopaedia-of-islam-2, source/assabile-abu-ishaq-alheweny, source/assabile-tareq-al-suwaidan, source/fadail-sahaba-ahmad-wasi-allah-1999, source/wikidata]
+  - job: job/natiq-rasmi
+    kind: primary
+    status: historical
+    note: "The Prophet's envoy to Jayfar and Abd, the two rulers of Uman."
+    sources: [source/tdv-elci]
 relations:
   - { type: participated_in, target: event/expedition-of-dhat-al-salasil, role: "أمير الغزوة؛ صلى بالناس بعد تنازل أبي عبيدة", sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq] }
   - { type: born_in, target: place/mecca }

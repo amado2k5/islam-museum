@@ -1,4 +1,4 @@
-// The Umam Browser's filter (docs/plan/67-umam-browser.md): narrows the records list
+// The Umam Browser's filter (docs/plan/68-umam-browser.md): narrows the records list
 // as the visitor types, matching titles, summaries, work names, class names and excerpts in all
 // three languages, ignoring Arabic vowel marks. Without JavaScript the whole list is on the page.
 const input = document.querySelector<HTMLInputElement>("[data-umam-filter]");

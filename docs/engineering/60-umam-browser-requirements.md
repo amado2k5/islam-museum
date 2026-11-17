@@ -12,7 +12,7 @@ quran, sunnah, Hadith, seerah or from sa7aba and tabi3een and add those stories,
 details. also add this in engineering documents as the original requirements to allow AI later on
 to test and validate it when it is in production.» Scope: all non-Muslim nations, religions,
 sects and peoples, including pre-Islamic Arab polytheists. URL slug `umam`. Companion plan:
-`docs/plan/67-umam-browser.md`.
+`docs/plan/68-umam-browser.md`.
 
 ## Acceptance tests (UMAM-R)
 

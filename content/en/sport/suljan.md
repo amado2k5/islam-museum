@@ -4,10 +4,14 @@ lang: en
 source_lang: ar
 translators: ["Devin (SWE-2 Medium), draft translation"]
 ---
-## نظرة عامة
+## Overview
 
-The sawlijan game strikes the ball with a mallet from horseback; Ibn Sina counts it in the Canon among the strong field exercises with running, wrestling and ball play {cite:canon-ibn-sina-print-v1 p. 222}. Caliphs and amirs played it in the maydans of Baghdad and Cairo, the Citadel ground and the furusiyya square among them.
+Suljan — polo — is the game of horsemen, a ball and a crooked mallet: riders who strike a small ball toward the opponents' goal from the saddle. It arose in Persia before Islam, passed into the Muslim lands and was loved by caliphs, sultans and amirs, remaining to this day the game of horsemen and nobles {cite:al-furusiyya}.
 
-## ('Overview', 'In the sources')
+## In Muslim lands
 
-Related records in the graph: [[concept/named-exercises-of-the-canon]], [[object/sahn-furusiyya]], [[sport/furusiyya]].
+The Abbasids played it: al-Ma'mun played suljan in Baghdad, al-Mu'tasim built it a field, and the historians name its grounds in Samarra {cite:al-furusiyya}. The Ayyubids and Mamluks played it — al-Malik al-Zahir Baybars among its famous players, building a polo field in Cairo. It was known to the amirs of the Maghrib and al-Andalus, and in Seljuk and Safavid Persia it was the game of the court; among its famous grounds the Naqsh-e Jahan maydan of Isfahan, ringed by the stone posts between which the ball was driven {cite:sahn-furusiyya}.
+
+## Today
+
+It passed to the world through the British who learned it in India, becoming international polo. It stays in Muslim lands: in northern Pakistan and Kashmir a popular game played on mountain fields, in Jordan and Egypt riding clubs teach it, and today it has its federations in many countries.

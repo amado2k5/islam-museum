@@ -1,4 +1,4 @@
-// The Umam Browser's shared reads (docs/plan/67-umam-browser.md): «متصفح الأمم والأديان والطوائف
+// The Umam Browser's shared reads (docs/plan/68-umam-browser.md): «متصفح الأمم والأديان والطوائف
 // والشعوب غير المسلمة» — every graph record that is a non-Muslim nation, religion, sect or people
 // the sources name, and every passage, work, event and question that mentions them. Membership is
 // computed at build time by the shared detector in scripts/umam.ts: tags place curated records,

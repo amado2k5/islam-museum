@@ -26,3 +26,9 @@ born: { edtf: "622", calendar: gregorian, precision: year, derived: true, note: 
 died: { edtf: "687", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: EI2 ('al-Mukhtar b. Abi Ubayd' / G. R. Hawting; 1–67 AH) Agrees with Wikidata Q141317 (P570, a statement without a reference), item revision 2562028650, read on 13 November 2026.", sources: [source/wikidata] }
 relations:
   - { type: lived_in, target: place/taif, note: "Place association from the person's nisba/name (الثقفي); denotes association, not proven residence.", sources: [source/umayyad-birth-to-fall-2006, source/futuh-buldan-maarif-1407, source/muruj-al-dhahab, source/bakr-umayyad-state-1134715, source/khudari-umayyad-state], confidence: low }
+occupations:
+  - job: job/thair
+    kind: primary
+    status: historical
+    note: "Led the Kufa rising of 66 AH in the name of vengeance for the Prophet's house."
+    sources: [source/tdv-bagy]

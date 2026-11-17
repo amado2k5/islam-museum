@@ -1,7 +1,7 @@
 /**
  * Harvest the passages that name the non-Muslim nations, religions, sects and peoples from books
  * already OCR'd on the harvest drive (Apple Vision text in <book>/<scan>/pages.json) into
- * data/passage/, for the Umam Browser (docs/plan/67-umam-browser.md). Adapted from
+ * data/passage/, for the Umam Browser (docs/plan/68-umam-browser.md). Adapted from
  * scripts/harvest-wasaya-ocr.ts with the same safety rules. No PDF, OCR text or page image enters
  * git: only an excerpt of at most 40 words per page, cited to the work and the scan page
  * (docs/sources-policy.md).

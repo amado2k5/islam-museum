@@ -1,4 +1,4 @@
-// Audit for the Umam Browser (docs/plan/67-umam-browser.md): enumerate the members the shared
+// Audit for the Umam Browser (docs/plan/68-umam-browser.md): enumerate the members the shared
 // detector admits, report section counts, list every passage caught by the name lexicon (for
 // false-positive review) and flag members that have no `mentions` edges yet. Runs on the compiled
 // graph: npx tsx scripts/umam-audit.ts [--verbose]
