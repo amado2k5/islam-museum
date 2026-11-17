@@ -1,6 +1,6 @@
 ### alwaad-alhaq ep43 (14 Nov 2026)
 28 points written for episode 43 (ar, en, ur); 23 needs_source marks per language file; series record extended to episodes 1-43 with edges for iddah, guarding the tongue, tale-bearing, niqab, tasweer, al-Musawwir, al-Jawab al-Kafi, al-Khansa and Jafar ibn Abi Talib. Qur'an verses only as passage links. The sheikh's rulings and opinions are recorded as his view, not as rulings (founder-held: opinion rulings).
-Resume point: alwaad-alhaq episode 44.
+Resume point: none; series complete, episodes 1 to 44 (counts checked against 44 episode files and 44 episode headings, 14 Nov 2026).
 NOTE: ep43 does not link concept/ghayba for backbiting, because that record is the Twelver occultation (ghayba); earlier episodes link it for backbiting (the ep42 record notes a wronged man complaining to the judge, under concept/ghayba), which looks like a mislink; proposed for the founder: replace those links with concept/hifz-al-lisan or add a backbiting (ghiba) concept.
 EXCLUSION (proposal for the founder): Sponsor advertisements, breaks, greetings, thanks and the host's welcomes - Not lesson content; summarised by sense only (ep43 00:36:30-00:38:00, 00:53:00-00:54:30)
 EXCLUSION (proposal for the founder): Looped or garbled stretches (loops of one phrase, repeated greetings and thanks) - Too garbled to recover (ep43 00:03:30, 00:19:30-00:20:00, 00:22:00, 00:39:00, 00:41:00, 00:44:00, 00:52:00, 00:54:30)
