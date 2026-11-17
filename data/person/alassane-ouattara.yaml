@@ -1,0 +1,32 @@
+id: person/alassane-ouattara
+class: person
+tags: [ulama-browser, ulama-mashahir]
+label: { ar: "الحسن واتارا", en: "Alassane Ouattara", ur: "الحسن اوتارا" }
+names:
+  - { value: "الحسن واتارا", kind: full }
+  - { value: "Alassane Ouattara", kind: full }
+gender: male
+summary:
+  ar: "رئيس ساحل العاج منذ 2011، وُلد سنة 1942 في ديمبوكرو. خبير اقتصادي سبق أن عمل نائبًا لمدير صندوق النقد الدولي ورئيسًا للوزراء ⁦(1990–1993)⁩؛ وصل السلطة بعد أزمة انتخابية أهلية سنة 2010–2011."
+  en: "President of Cote d'Ivoire since 2011, born 1942 in Dimbokro. Economist who served as IMF deputy managing director and prime minister (1990–1993); came to power after the 2010–2011 post-election crisis."
+  ur: "2011 سے آئیوری کوسٹ کے صدر، 1942 میں ڈمبکرو میں پیدا ہوئے۔ ماہر معیشت؛ IMF کے ڈپٹی منیجنگ ڈائریکٹر اور وزیرِ اعظم ⁦(1990–1993)⁩ رہ چکے؛ 2010–2011 کے انتخابی بحران کے بعد اقتدار میں آئے۔"
+roles: [politician, economist]
+wings: [people, living]
+born:
+  edtf: "1942-01-01"
+  calendar: gregorian
+  precision: day
+  status: historical
+  sources: [source/wikipedia-alassane-ouattara]
+faith:
+  - value: sunni
+    basis: documented
+    note: "Publicly identified and self-described as a Muslim"
+    sources: [source/wikipedia-alassane-ouattara]
+sources: [source/wikipedia-alassane-ouattara]
+provenance:
+  layer: own-research
+  source: "Web research + Wikipedia"
+  generated_by: "Devin (SWE-2 Medium)"
+  run: ulama-m500-w101-150-2026-11-17
+status: { review: published, generated_by: "Devin (SWE-2 Medium)" }
