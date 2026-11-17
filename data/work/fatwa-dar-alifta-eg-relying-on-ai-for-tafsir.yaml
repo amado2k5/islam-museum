@@ -1,0 +1,24 @@
+id: work/fatwa-dar-alifta-eg-relying-on-ai-for-tafsir
+class: work
+kind: fatwa
+label: { ar: "حكم الاعتماد في تفسير القرآن على الذكاء الاصطناعي", en: "Relying on AI for interpreting the Qur'an", ur: "قرآن کی تفسیر میں اے آئی پر انحصار کا حکم" }
+summary:
+  ar: "سائل سأل عن الاعتماد في تفسير القرآن على تطبيقات الذكاء الاصطناعي. أجابت دار الإفتاء المصرية ⁦(مفتي الجمهورية د. نظير محمد عياد، فتوى رقم 22413)⁩ أن الاعتماد الكلي على تطبيقات الذكاء الاصطناعي في تفسير القرآن ممنوع شرعًا، وبيّن الجواب ما يجوز الاستعانة به فيها وما لا يجوز وضوابط كل منهما."
+  en: "A questioner asked about relying on AI applications for interpreting the Qur'an. Egypt's Dar al-Ifta (Grand Mufti Dr. Nazir Muhammad Ayyad, fatwa no. 22413) answered that total reliance on AI applications in Qur'an commentary is prohibited in the sharia; the answer sets out what AI may and may not be used for in this field, and the conditions of each."
+  ur: "ایک سائل نے قرآن کی تفسیر میں اے آئی ایپلی کیشنز پر انحصار کا حکم پوچھا۔ مصر کے دار الافتاء ⁦(مفتیِ جمهور ڈاکٹر نظیر محمد عیاد، فتویٰ نمبر 22413)⁩ نے جواب دیا کہ قرآن کی تفسیر میں اے آئی پر مکمل انحصار شریعت میں ممنوع ہے؛ جواب میں یہ بیان ہوا کہ اس میدان میں اے آئی سے کیا استعانت جائز اور کیا نہیں اور دونوں کے ضوابط۔"
+wings: [words]
+authors: [person/nazir-ayyad]
+publisher: group/dar-al-ifta-al-misriyya
+url: "https://www.dar-alifta.org/ar/fatwa/details/22413/حكم-الاعتماد-في-تفسير-القرآن-الكريم-على-الذكاء-الاصطناعي"
+languages: [ar]
+sources: [source/dar-alifta]
+relations:
+  - { type: about, target: concept/ilm, sources: [source/dar-alifta] }
+  - { type: about, target: concept/halal-haram, sources: [source/dar-alifta] }
+provenance:
+  layer: own-research
+  source: "dar-alifta.org fatwa no. 22413, category فتاوي تفسيرية; read 17 Nov 2026. Summary in the museum's own words."
+  generated_by: "Devin"
+  model: "SWE-2 Medium"
+  run: fatwa-websites-34
+status: { review: published, completeness: 1 }
