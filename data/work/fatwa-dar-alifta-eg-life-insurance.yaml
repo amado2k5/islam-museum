@@ -1,0 +1,24 @@
+id: work/fatwa-dar-alifta-eg-life-insurance
+class: work
+kind: fatwa
+label: { ar: "حكم التأمين على الحياة", en: "Life insurance", ur: "زندگی کی بیمہ" }
+summary:
+  ar: "سائل سأل عن حكم التأمين على الحياة. أجابت دار الإفتاء المصرية ⁦(مفتي الجمهورية د. نظير محمد عياد، فتوى رقم 21709)⁩ أن التأمين على الحياة أمر جائز شرعًا وهو في جملته تكاتف وتكافل وتعاون على البر والإيثار وجار على أصل مشروعيته على ما فصّل الجواب من ضوابط."
+  en: "A questioner asked the ruling on life insurance. Egypt's Dar al-Ifta (Grand Mufti Dr. Nazir Muhammad Ayyad, fatwa no. 21709) answered that life insurance is lawful in the sharia — in essence it is mutual support and cooperation in goodness and giving, running on the default of permissibility — as the answer details with its controls."
+  ur: "ایک سائل نے زندگی کے بیمے کا حکم پوچھا۔ مصر کے دار الافتاء ⁦(مفتیِ جمهور ڈاکٹر نظیر محمد عیاد، فتویٰ نمبر 21709)⁩ نے جواب دیا کہ زندگی کا بیمہ جائز ہے کیونکہ یہ باہمی تعاون اور نیکی میں شرکت ہے اور اصل جواز پر قائم ہے — جواب کے بیان کردہ ضوابط کے ساتھ۔"
+wings: [words]
+authors: [person/nazir-ayyad]
+publisher: group/dar-al-ifta-al-misriyya
+url: "https://www.dar-alifta.org/ar/fatwa/details/21709/حكم-التأمين-على-الحياة"
+languages: [ar]
+sources: [source/dar-alifta]
+relations:
+  - { type: about, target: concept/fiqh, sources: [source/dar-alifta] }
+  - { type: about, target: concept/halal-haram, sources: [source/dar-alifta] }
+provenance:
+  layer: own-research
+  source: "dar-alifta.org fatwa no. 21709, category التأمين; read 17 Nov 2026. Summary in the museum's own words."
+  generated_by: "Devin"
+  model: "SWE-2 Medium"
+  run: fatwa-websites-34
+status: { review: published, completeness: 1 }

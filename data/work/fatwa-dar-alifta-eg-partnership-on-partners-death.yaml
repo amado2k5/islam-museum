@@ -1,0 +1,24 @@
+id: work/fatwa-dar-alifta-eg-partnership-on-partners-death
+class: work
+kind: fatwa
+label: { ar: "حكم الشركة عند موت أحد الشريكين", en: "The partnership when one partner dies", ur: "ایک شریک کی وفات پر شرکت کا حکم" }
+summary:
+  ar: "سائل سأل عن حكم الشركة عند موت أحد الشريكين. أجابت دار الإفتاء المصرية ⁦(مفتي الجمهورية د. نظير محمد عياد، فتوى رقم 21714)⁩ أن موت أحد الشريكين يعد سببًا من أسباب انقضاء الشركة ولا يمنع من استمرارها إذا حصل الاتفاق والتراضي بين الطرفين على ما فصّل الجواب."
+  en: "A questioner asked about the partnership when one partner dies. Egypt's Dar al-Ifta (Grand Mufti Dr. Nazir Muhammad Ayyad, fatwa no. 21714) answered that a partner's death is among the causes of the partnership's dissolution — though its continuation is not barred if the parties agree and consent — as the answer details."
+  ur: "ایک سائل نے ایک شریک کی وفات پر شرکت کا حکم پوچھا۔ مصر کے دار الافتاء ⁦(مفتیِ جمهور ڈاکٹر نظیر محمد عیاد، فتویٰ نمبر 21714)⁩ نے جواب دیا کہ شریک کی وفات شرکت کے ختم ہونے کی وجوہ میں ہے مگر فریقین کے اتفاق سے وہ جاری رہ سکتی ہے — جیسا کہ جواب میں تفصیل ہے۔"
+wings: [words]
+authors: [person/nazir-ayyad]
+publisher: group/dar-al-ifta-al-misriyya
+url: "https://www.dar-alifta.org/ar/fatwa/details/21714/حكم-الشركة-عند-موت-أحد-الشريكين"
+languages: [ar]
+sources: [source/dar-alifta]
+relations:
+  - { type: about, target: concept/sharika, sources: [source/dar-alifta] }
+  - { type: about, target: concept/mirath, sources: [source/dar-alifta] }
+provenance:
+  layer: own-research
+  source: "dar-alifta.org fatwa no. 21714, category الميراث; read 17 Nov 2026. Summary in the museum's own words."
+  generated_by: "Devin"
+  model: "SWE-2 Medium"
+  run: fatwa-websites-34
+status: { review: published, completeness: 1 }
