@@ -1,0 +1,24 @@
+id: work/fatwa-dar-alifta-eg-tathwib-outside-fajr-adhan
+class: work
+kind: fatwa
+label: { ar: "حكم التثويب في غير أذان الفجر", en: "The tathwib — 'prayer is better than sleep' — outside the fajr call", ur: "فجر کے علاوہ اذان میں تثویب" }
+summary:
+  ar: "سائل سأل عن التثويب وهو قول المؤذن الصلاة خير من النوم في غير أذان الفجر. أجابت دار الإفتاء المصرية ⁦(مفتي الجمهورية د. نظير محمد عياد، فتوى رقم 20711)⁩ أن التثويب سنة ثابتة بإقرار النبي وبيّن الجواب محله من الأذان على وجهه."
+  en: "A questioner asked about the tathwib — the muezzin's words 'prayer is better than sleep' — outside the fajr call. Egypt's Dar al-Ifta (Grand Mufti Dr. Nazir Muhammad Ayyad, fatwa no. 20711) answered that it is an established sunna by the Prophet's approval, and the answer sets out its place in the call."
+  ur: "ایک سائل نے فجر کے علاوہ اذان میں تثویب یعنی «الصلاة خير من النوم» کہنے کا حکم پوچھا۔ مصر کے دار الافتاء ⁦(مفتیِ جمهور ڈاکٹر نظیر محمد عیاد، فتویٰ نمبر 20711)⁩ نے جواب دیا کہ یہ ثابت سنت ہے اور اذان میں اس کا مقام جواب میں ہے۔"
+wings: [words]
+authors: [person/nazir-ayyad]
+publisher: group/dar-al-ifta-al-misriyya
+url: "https://www.dar-alifta.org/ar/fatwa/details/20711/حكم-التثويب-قول-الصلاة-خير-من-النوم-في-غير-أذان-الفجر"
+languages: [ar]
+sources: [source/dar-alifta]
+relations:
+  - { type: about, target: practice/adhan, sources: [source/dar-alifta] }
+  - { type: about, target: practice/salah, sources: [source/dar-alifta] }
+provenance:
+  layer: own-research
+  source: "dar-alifta.org fatwa no. 20711, category الذكر; read 17 Nov 2026. Summary in the museum's own words."
+  generated_by: "Devin"
+  model: "SWE-2 Medium"
+  run: fatwa-websites-34
+status: { review: published, completeness: 1 }
