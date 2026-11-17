@@ -253,3 +253,9 @@ Counts: 545 `fatwa-*` work files total; +31 new-source records this wave (19 AMJ
 ## 17 Nov 2026 — IIFA oldest-first lane complete (sessions 1–10)
 
 Sessions 1–10 (1984–1997) fully converted from the official Arabic archive — ~96 records: session 1 (Mecca 1984, resolutions 1–4 + two founding instruments), session 2 (Kuwait 1985, 12), session 3 (Amman 1986, 13), session 4 (Jeddah 1988, 13), session 5 (Kuwait 1988, 10), session 6 (Jeddah 1990, 13), session 7 (Mecca 1992, 7), session 8 (Brunei 1993, 14), session 9 (Abu Dhabi 1995, 9), session 10 (Jul 1997, 5). Deferrals recorded as deferrals with forward references; sensitive resolutions attributed neutrally to the Academy. Merged PRs #7300, #7302–#7310. Fatwa files on main: 1,280. Remaining lanes: AMJA long tail (~5,400 captured, 11 written); Saudi open data still unreachable from this network.
+
+## AMJA long tail — waves 69–75 (continued session)
+- PRs #7331–#7337 merged. Corpus now 1,456 fatwa files; AMJA lane at 187 records.
+- Window covered this stretch: Aug 2008 – Feb 2009 IDs ~76981–77894 (batches 18–24), plus earlier 2009–2012 items.
+- Last batch ended at captured ID 76981 (Nov 2008); next unconverted window continues from IDs below ~76980 descending, plus remaining 2009–2012 stragglers (86502, 84392, 80543, 80516, 80434, 79020, 78687 still pending).
+- ~5,220 captured AMJA items remain unconverted. All records trilingual, source/amja + provenance, about-targets validated per batch.
