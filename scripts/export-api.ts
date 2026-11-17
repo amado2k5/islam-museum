@@ -14,6 +14,7 @@ import { companionIndex, decadeKey } from "./companions.js";
 import { DREAM_TAG, dreamCorpusOf, dreamTagSection, isDreamPassage } from "./dreams.js";
 import { madhahibMembers } from "./madhahib.js";
 import { umamMembers, umamMentionCounts } from "./umam.js";
+import { ULAMA_TAG, isUlamaPerson, isUlamaPassage, ulamaCategoriesOf, ulamaPersonSection, ulamaCorpusOf, ulamaTagSection, ulamaTagTopics, ulamaNameMatches } from "./ulama.js";
 import { BAYT_TAG, baytCorpusOf, baytTagSection, isBaytPassage } from "./bayt.js";
 import { MAGIC_TAG, magicCorpusOf, magicTagSection, magicTagTopics, isMagicPassage, magicTopicsOf } from "./magic.js";
 import { QIRAAT_TAG, qiraatCorpusOf, qiraatTagSection, qiraatTagTopics, isQiraatPassage, qiraatTopicsOf } from "./qiraat.js";
@@ -671,6 +672,7 @@ export function featureApiData(c: Compiled): Record<string, { generated: string;
   out["madhahib.json"] = { generated: c.generated, feature: "madhahib-browser", items: madhahibRows(c, edgesFrom) };
   out["umam.json"] = { generated: c.generated, feature: "umam-browser", items: umamRows(c, edgesFrom, byId) };
   out["places.json"] = { generated: c.generated, feature: "places-browser", items: placesRows(c, edgesFrom, byId) };
+  out["ulama.json"] = { generated: c.generated, feature: "ulama-browser", items: ulamaRows(c, byId) };
   return out;
 }
 
@@ -720,6 +722,49 @@ function placesRows(c: Compiled, edgesFrom: Map<string, { type: string; to: stri
     }
     const picked = Object.fromEntries(PLACES_FIELDS.filter((f) => f !== "tags" && n.data[f] !== undefined).map((f) => [f, n.data[f]]));
     rows.push({ ...compact(n), ...picked, tags: n.tags, section: placeSectionOf(n), mentions, connections: edgesFrom.get(n.id) ?? [], prose: Object.keys(n.prose ?? {}) });
+  }
+  return rows.sort((a, b) => String(a.id).localeCompare(String(b.id)));
+}
+
+
+const ULAMA_FIELDS = ["kind", "work", "ref", "unit", "text", "sura", "aya", "wings", "themes", "roles", "born", "died", "gender", "occupations", "external_ids"];
+
+/**
+ * The Ulama Browser's rows (docs/plan/70): every qualifying person (role/job) and every passage that
+ * mentions one — by `mentions` edges, the reviewed Qur'an table or the guarded name lexicon — plus
+ * curated `ulama-browser` records. Person rows carry `categories`; passage rows carry `section`,
+ * `topics` and `mentions_persons`.
+ */
+function ulamaRows(c: Compiled, byId: Map<string, Node>): Record<string, unknown>[] {
+  const persons = new Set(c.nodes.filter((n) => !n.stub && isUlamaPerson(n)).map((n) => n.id));
+  const mentionMap = new Map<string, string[]>();
+  for (const e of c.edges) {
+    if (e.inverse || e.type !== "mentions" || !e.from.startsWith("passage/") || !persons.has(e.to)) continue;
+    const list = mentionMap.get(e.from) ?? [];
+    list.push(e.to);
+    mentionMap.set(e.from, list);
+  }
+  const rows: Record<string, unknown>[] = [];
+  for (const n of c.nodes) {
+    if (n.stub) continue;
+    const tagged = n.tags.includes(ULAMA_TAG);
+    const person = isUlamaPerson(n);
+    const mentioned = n.class === "passage" ? mentionMap.get(n.id) ?? [] : [];
+    const pass = n.class === "passage" && isUlamaPassage(n, mentioned);
+    if (!tagged && !person && !pass) continue;
+    const picked = Object.fromEntries(ULAMA_FIELDS.filter((f) => f !== "tags" && n.data[f] !== undefined).map((f) => [f, n.data[f]]));
+    const row: Record<string, unknown> = { ...compact(n), ...picked, tags: n.tags, prose: Object.keys(n.prose ?? {}) };
+    row.section = n.class === "passage"
+      ? ulamaCorpusOf(n.data.work as string | undefined, n.data.work ? (byId.get(n.data.work as string)?.data.genre as string[] | undefined) : undefined, n.data.unit as string | undefined)
+      : person && !tagged ? ulamaPersonSection(n) : ulamaTagSection(n);
+    if (person) row.categories = ulamaCategoriesOf(n);
+    const tagTopics = ulamaTagTopics(n);
+    if (tagTopics.length) row.topics = [...new Set([...((row.categories as string[] | undefined) ?? []), ...tagTopics])];
+    if (n.class === "passage") {
+      if (mentioned.length) row.mentions_persons = mentioned;
+      row.signals = ulamaNameMatches(n);
+    }
+    rows.push(row);
   }
   return rows.sort((a, b) => String(a.id).localeCompare(String(b.id)));
 }

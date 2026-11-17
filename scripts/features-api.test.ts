@@ -67,7 +67,7 @@ describe("one API export per browser or explorer (AGENTS.md: every feature is gr
 
   it("writes jobs, fatwa, khutab, poetry and screens with their fields, edges, prose languages and job holders", () => {
     const data = featureApiData(compiled);
-    expect(Object.keys(data).sort()).toEqual(["akhlaq.json", "angels.json", "ansab.json", "arkan.json", "asma.json", "battles.json", "bayt.json", "bunuwwa.json", "companions.json", "cosmos.json", "dreams.json", "duas.json", "eschatology.json", "fatwa.json", "ghayb.json", "halal.json", "hasanats.json", "hisab.json", "hudud.json", "ibadat.json", "islamic-economy.json", "jannas.json", "jinn-devils.json", "jobs.json", "khulafa.json", "khutab.json", "madhahib.json", "magic.json", "messengers.json", "miracles.json", "mukatabat.json", "munazarat.json", "nar.json", "nature.json", "nubuwat.json", "places.json", "poetry.json", "qiraat.json", "qiyama.json", "qudsi.json", "qurun.json", "sayyiat.json", "screens.json", "sport.json", "tafsir.json", "tibb.json", "trade.json", "ubuwwa.json", "ukhuwwa.json", "umam.json", "umuma.json", "usra.json", "wasaya.json"]);
+    expect(Object.keys(data).sort()).toEqual(["akhlaq.json", "angels.json", "ansab.json", "arkan.json", "asma.json", "battles.json", "bayt.json", "bunuwwa.json", "companions.json", "cosmos.json", "dreams.json", "duas.json", "eschatology.json", "fatwa.json", "ghayb.json", "halal.json", "hasanats.json", "hisab.json", "hudud.json", "ibadat.json", "islamic-economy.json", "jannas.json", "jinn-devils.json", "jobs.json", "khulafa.json", "khutab.json", "madhahib.json", "magic.json", "messengers.json", "miracles.json", "mukatabat.json", "munazarat.json", "nar.json", "nature.json", "nubuwat.json", "places.json", "poetry.json", "qiraat.json", "qiyama.json", "qudsi.json", "qurun.json", "sayyiat.json", "screens.json", "sport.json", "tafsir.json", "tibb.json", "trade.json", "ubuwwa.json", "ukhuwwa.json", "ulama.json", "umam.json", "umuma.json", "usra.json", "wasaya.json"]);
     expect(data["qudsi.json"].items.map((i) => i.id)).toEqual(["passage/muslim-2577"]);
     expect(data["qudsi.json"].items[0]).toMatchObject({ work: "work/sahih-muslim", ref: "2577", hadith: "zulm", themes: ["ethics-and-character"] });
     expect(data["qudsi.json"].feature).toBe("hadith-qudsi-browser");
@@ -694,6 +694,40 @@ describe("one API export per browser or explorer (AGENTS.md: every feature is gr
     expect(items.find((i) => i.id === "event/testament-x")).toMatchObject({ section: "caliphs", topics: ["wasiyya", "marqad"] });
     expect(items.find((i) => i.id === "object/burda-x")).toMatchObject({ section: "legacy", topics: ["athar"] }); // no section tag: an object is filed under legacy
     expect(items.find((i) => i.id === "place/baqi-x")).toMatchObject({ section: "graves", topics: ["marqad"] }); // and a place under graves
+  });
+
+  it("exports ulama: persons by role and job, mentions by edges and guarded names, Qur'an table, poets excluded", () => {
+    const imam = makeNode("person/test-alim", "person", { roles: ["scholar", "mufti"] });
+    const muhaddith = makeNode("person/test-muhaddith", "person", { occupations: [{ job: "job/muhaddith", kind: "primary" }] });
+    const poet = makeNode("person/test-poet", "person", { roles: ["poet"] });
+    const verse = makeNode("passage/quran-35-28x", "passage", { unit: "ayah", work: "work/quran", sura: 35, aya: 28, text: "x" });
+    const notListed = makeNode("passage/quran-35-1x", "passage", { unit: "ayah", work: "work/quran", sura: 35, aya: 1, text: "x" });
+    const edged = makeNode("passage/bukhari-ul-1", "passage", { unit: "hadith", work: "work/sahih-al-bukhari", ref: "1", text: "قال" });
+    const named = makeNode("passage/tabaqat-ul-1", "passage", { unit: "chapter", work: "work/al-tabaqat-al-kubra-ibn-sad", ref: "1", text: "اخبرنا البخاري قال حدثني" });
+    const bare = makeNode("passage/tabaqat-ul-2", "passage", { unit: "chapter", work: "work/al-tabaqat-al-kubra-ibn-sad", ref: "2", text: "وكان علي شجاعا وكان الحسن كريما" });
+    const umbrella = { ...makeNode("concept/al-ulama", "concept", {}), tags: ["ulama-browser", "ulama-alim"] };
+    const edges = [
+      ...compiled.edges,
+      { from: "passage/bukhari-ul-1", to: "person/test-alim", type: "mentions", inverse: false },
+      { from: "person/test-alim", to: "passage/bukhari-ul-1", type: "mentioned_in", inverse: true },
+    ];
+    const data = featureApiData({ ...compiled, nodes: [...compiled.nodes, imam, muhaddith, poet, verse, notListed, edged, named, bare, umbrella], edges });
+    const items = data["ulama.json"].items;
+    const ids = items.map((i) => i.id);
+    expect(data["ulama.json"].feature).toBe("ulama-browser");
+    expect(ids).toContain("person/test-alim");
+    expect(ids).toContain("person/test-muhaddith");
+    expect(ids).not.toContain("person/test-poet"); // poets are out of the founder's scope
+    expect(ids).toContain("passage/quran-35-28x"); // the reviewed table, never the verse text
+    expect(ids).not.toContain("passage/quran-35-1x");
+    expect(ids).toContain("passage/bukhari-ul-1"); // a canonical mentions edge
+    expect(ids).toContain("passage/tabaqat-ul-1"); // the reviewed name البخاري
+    expect(ids).not.toContain("passage/tabaqat-ul-2"); // bare common names never count alone
+    expect(items.find((i) => i.id === "person/test-alim")).toMatchObject({ section: "ulama", categories: ["alim"] });
+    expect(items.find((i) => i.id === "person/test-muhaddith")).toMatchObject({ section: "muhaddithun", categories: ["muhaddith"] });
+    expect(items.find((i) => i.id === "passage/bukhari-ul-1")).toMatchObject({ section: "sunnah", mentions_persons: ["person/test-alim"] });
+    expect(items.find((i) => i.id === "passage/quran-35-28x")).toMatchObject({ section: "quran" });
+    expect(items.find((i) => i.id === "concept/al-ulama")).toMatchObject({ section: "curated", topics: ["alim"] }); // a non-person record files under curated
   });
 
   it("exports qiyama: detected passages by corpus and kind, gated ambiguous lexemes, exclusions, future-book inclusion", () => {
