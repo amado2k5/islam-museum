@@ -1,5 +1,5 @@
 id: person/saleh-al-fawzan
-aliases: [person/salih-al-fawzan]
+aliases: [person/salih-al-fawzan]   # the same person filed twice; merged 17 Nov 2026 (ulama wave repair), the id still resolves
 class: person
 label: { ar: "صالح الفوزان", en: "Saleh Al-Fawzan", ur: "صالح فوزان" }
 names:
@@ -28,7 +28,7 @@ faith:
 external_ids: { wikidata: "Q61589", viaf: "50597929" }
 relations:
   - { type: born_in, target: place/al-shimasiyah, sources: [source/wikidata-saleh-al-fawzan], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q97300483)" }
-sources: [source/wikipedia-saleh-al-fawzan-en, source/wikipedia-saleh-al-fawzan-ar, source/wikidata-saleh-al-fawzan, source/youtube-aforgsa22, source/wikidata]
+sources: [source/wikipedia-saleh-al-fawzan-en, source/wikipedia-saleh-al-fawzan-ar, source/wikidata-saleh-al-fawzan, source/youtube-aforgsa22, source/wikidata, source/wikipedia-salih-al-fawzan]
 provenance:
   layer: own-research
   source: "English Wikipedia article 'Salih al-Fawzan' (revision of 21 October 2026), Arabic Wikipedia article «صالح الفوزان» (revision of 24 October 2026), Wikidata Q61589; checked 24 October 2026"

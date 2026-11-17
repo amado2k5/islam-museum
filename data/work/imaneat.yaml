@@ -6,9 +6,9 @@ label:
   en: "The articles of faith (al-imaniyyat)"
   ur: "ارکانِ ایمان ⁦(الإیمانیات)⁩"
 summary:
-  ar: "سلسلة من ثلاث عشرة حلقة لـوجدي غنيم يحفظها أرشيف أسابيل باسم «الإيمانيات»؛ تغطي الحلقات السبع الأولى الإيمان بالله وأركانه وعلاقته بالعمل الصالح، ثم الإيمان بالكتب السماوية وبختمها القرآن، ثم الإيمان بالرسل وبشريتهم ومهمتهم في تبليغ التوحيد. الحلقات الثماني الباقية لم تُعدَّن بعد."
-  en: "A thirteen-episode series by Wagdy Ghoneim kept in the Assabile archive as 'Al-Imaniyyat' (the articles of faith); the seven episodes mined so far treat faith in God and its three foundations and its bearing on righteous action, then faith in the revealed books and the Qur'an as their seal, then faith in the messengers, their humanity and their call to tawhid. The remaining eight episodes are not yet mined."
-  ur: "وجدی غنیم کا تیرہ اقساط کا سلسلہ جو اسابیل آرکائیو میں «الإیمانیات» کے نام سے محفوظ ہے؛ اس وقت تک نکالی گئی سات اقساط ایمان باللہ، اس کے تین ارکان اور نیک عمل سے اس کا تعلق، پھر آسمانی کتب پر ایمان اور ان کی تصدیق کرنے والی قرآن، اور پھر انبیاء کرام پر ایمان، ان کی بشریت اور توحید کی دعوت بیان کرتی ہیں۔ باقی آٹھ اقساط ابھی نکالی نہیں گئیں۔"
+  ar: "سلسلة من ثلاث عشرة حلقة لـوجدي غنيم يحفظها أرشيف أسابيل باسم «الإيمانيات»؛ تغطي الحلقات السبع الأولى الإيمان بالله وأركانه وعلاقته بالعمل الصالح، ثم الإيمان بالكتب السماوية وبختمها القرآن، ثم الإيمان بالرسل وبشريتهم ومهمتهم في تبليغ التوحيد، وتختم الحلقات الست الأخيرة الإيمان بالملائكة وأعمالهم في علم الغيب وعلم الشهادة، ثم الإيمان باليوم الآخر وعلامات الساعة وأهوالها وجزاء الأعمال، ثم الإيمان بالقدر شرعيًا وخلقيًا."
+  en: "A thirteen-episode series by Wagdy Ghoneim kept in the Assabile archive as 'Al-Imaniyyat' (the articles of faith); the first seven episodes treat faith in God and its three foundations and its bearing on righteous action, then faith in the revealed books and the Qur'an as their seal, then faith in the messengers, their humanity and their call to tawhid, and the final six episodes treat faith in the angels and their works in the unseen and the witnessed, then faith in the Last Day, its signs and its reckoning of deeds, then faith in divine decree in its legal and creative senses."
+  ur: "وجدی غنیم کا تیرہ اقساط کا سلسلہ جو اسابیل آرکائیو میں «الإیمانیات» کے نام سے محفوظ ہے؛ پہلی سات اقساط ایمان باللہ، اس کے تین ارکان اور نیک عمل سے اس کا تعلق، پھر آسمانی کتب پر ایمان اور ان کی تصدیق کرنے والی قرآن، اور پھر انبیاء کرام پر ایمان، ان کی بشریت اور توحید کی دعوت بیان کرتی ہیں، اور آخری چھ اقساط فرشتوں پر ایمان اور غیب و مشاہدہ میں ان کے اعمال، پھر یومِ آخرت پر ایمان، اس کی علامتیں اور اعمال کا حساب، اور آخر میں شرعی اور خلقی قدر پر ایمان بیان کرتی ہیں۔"
 wings: [ideas, living]
 themes: [creed, spirituality-and-sufism]
 regions: [egypt-nile]
@@ -22,6 +22,10 @@ relations:
   - { type: about, target: concept/ikhlas, sources: [source/assabile-wagdy-ghoneim] }
   - { type: about, target: concept/niyya, sources: [source/assabile-wagdy-ghoneim] }
   - { type: about, target: concept/riya, sources: [source/assabile-wagdy-ghoneim] }
+  - { type: about, target: concept/malaika, sources: [source/assabile-wagdy-ghoneim] }
+  - { type: about, target: concept/yawm-al-qiyama, sources: [source/assabile-wagdy-ghoneim] }
+  - { type: about, target: concept/akhira, sources: [source/assabile-wagdy-ghoneim] }
+  - { type: about, target: concept/qadar, sources: [source/assabile-wagdy-ghoneim] }
 sources: [source/assabile-wagdy-ghoneim]
-provenance: { layer: copyrighted-reference, source: "Assabile, imaneat ep01-ep07 of 13 (series page https://www.assabile.com/wagdy-ghoneim/lessons/imaneat read 17 Nov 2026; video episodes, transcripts pass5-qwen, engine Qwen3-ASR oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2, 30-second windows, read through the loop-collapsing reader on 17 Nov 2026); episodes 1-7 mined in run assabile-ghoneim-imaneat-1; episodes 8-13 not yet mined", generated_by: "Devin (packet drafter)", model: claude-opus-4.6, run: assabile-ghoneim-imaneat-1 }
-status: { review: draft, generated_by: "Devin (packet drafter); run assabile-ghoneim-imaneat-1" }
+provenance: { layer: copyrighted-reference, source: "Assabile, imaneat ep01-ep13 of 13 (series page https://www.assabile.com/wagdy-ghoneim/lessons/imaneat read 17 Nov 2026; video episodes, transcripts pass5-qwen, engine Qwen3-ASR oddadmix/qwen3-asr-1.7b-arabic-dialectal-v2, 30-second windows, read through the loop-collapsing reader on 17 Nov 2026); episodes 1-7 mined in run assabile-ghoneim-imaneat-1; episodes 8-13 mined in run assabile-ghoneim-imaneat-2", generated_by: "Devin (packet drafter)", model: claude-opus-4.6, run: assabile-ghoneim-imaneat-2 }
+status: { review: draft, generated_by: "Devin (packet drafter); run assabile-ghoneim-imaneat-2" }

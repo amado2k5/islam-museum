@@ -1,5 +1,5 @@
 id: person/ahmad-amin
-aliases: [person/ahmed-amin]
+aliases: [person/ahmed-amin]   # the same person filed twice; merged 17 Nov 2026 (ulama wave repair), the id still resolves
 external_ids: { wikidata: "Q2762564" }
 class: person
 label: { ar: "أحمد أمين", en: "Ahmad Amin" }
@@ -19,7 +19,12 @@ relations:
   - { type: lived_in, target: place/misr, note: "Place association from the person's nisba/name (مصري); denotes association, not proven residence.", sources: [source/duha-islam, source/encyclopaedia-of-islam-2, source/fajr-al-islam-dar-al-kitab-al-arabi-1969], confidence: low }
   - { type: authored, target: work/duha-al-islam, sources: [source/duha-islam] }
   - { type: authored, target: work/fajr-al-islam, sources: [source/fajr-al-islam-dar-al-kitab-al-arabi-1969] }
-sources: [source/duha-islam, source/encyclopaedia-of-islam-2, source/fajr-al-islam-dar-al-kitab-al-arabi-1969, source/wikidata-ahmad-amin]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Public figure within the Muslim world; al-Azhar-educated Egyptian intellectual; no sourced renunciation. The subject is Muslim by self-description and public context; no school or tradition is stated, so the value is recorded as unknown."
+    sources: [source/wikipedia-ahmed-amin]
+sources: [source/duha-islam, source/encyclopaedia-of-islam-2, source/fajr-al-islam-dar-al-kitab-al-arabi-1969, source/wikidata-ahmad-amin, source/wikipedia-ahmed-amin]
 provenance:
   layer: own-research
   source: "ضحى الإسلام لأحمد أمين (ط مؤسسة هنداوي)"

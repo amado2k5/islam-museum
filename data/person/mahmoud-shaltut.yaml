@@ -1,5 +1,5 @@
 id: person/mahmoud-shaltut
-aliases: [person/mahmud-shaltut]
+aliases: [person/mahmud-shaltut]   # the same person filed twice; merged 17 Nov 2026 (ulama wave repair), the id still resolves
 class: person
 tags: [ulama-browser]
 label: { ar: "محمود شلتوت", en: "Mahmoud Shaltut", ur: "محمود شلتوت" }
@@ -13,6 +13,8 @@ summary:
   ur: "مصری عالم اور فقیہ ⁦(1893–1963)⁩ جو 1958 سے 1963 تک شیخ الازہر رہے۔ بیسویں صدی کی ازہری تجدید کے ممتاز رہنما؛ 1959 میں ان کے مشہور فتویٰ نے اثنا عشری جعفری مذہب کو عبادت کے لیے جائز مذہب قرار دیا۔ ان کی کتابوں میں «فقہ القرآن والسنۃ»، «الاسلام عقیدۃ و شریعۃ» اور «القرآن والقتال» شامل ہیں۔"
 roles: [scholar, jurist, mufti]
 wings: [people]
+periods: [period/modern-era]
+themes: [development-of-law-theology-institutions]
 born:
   edtf: "1893"
   calendar: gregorian
@@ -25,13 +27,20 @@ died:
   precision: year
   status: historical
   sources: [source/wikipedia-mahmoud-shaltut]
-relations: []
+relations:
+  - { type: lived_in, target: place/al-buhayra, confidence: low, note: "Associated with البحيرة per the record's own summary text; relation type pending review.", sources: [source/al-islam-aqida-wa-shariah-azhar] }
 faith:
   - value: sunni
     basis: documented
     note: "Grand Imam of al-Azhar, Sunni."
     sources: [source/wikipedia-mahmoud-shaltut]
-sources: [source/wikipedia-mahmoud-shaltut]
+sources: [source/wikipedia-mahmoud-shaltut, source/al-islam-aqida-wa-shariah-azhar, source/oxford-dictionary-of-islam]
+occupations:
+  - job: job/faqih
+    kind: secondary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/al-islam-aqida-wa-shariah-azhar]
 provenance:
   layer: own-research
   source: "Gemini-compiled research list (founder session 17 Nov 2026) + wikipedia"

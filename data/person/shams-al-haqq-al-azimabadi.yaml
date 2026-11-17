@@ -1,5 +1,5 @@
 id: person/shams-al-haqq-al-azimabadi
-aliases: [person/shams-al-haqq-azimabadi]
+aliases: [person/shams-al-haqq-azimabadi]   # the same person filed twice; merged 17 Nov 2026 (ulama wave repair), the id still resolves
 class: person
 label: { ar: "شمس الحق العظيم آبادي", en: "Shams al-Haqq al-'Azimabadi", ur: "شمس الحق عظیم آبادی" }
 names:
@@ -38,5 +38,10 @@ provenance:
   generated_by: "Claude Code (OCR-harvest worker A)"
   model: claude-opus-5-5
   run: ocr-harvest-2026-11-04
-sources: [source/sunan-daraqutni-ibn-hazm-2011]
+faith:
+  - value: sunni
+    basis: documented
+    note: "Indian Sunni hadith scholar of the Ahl-i Hadith school."
+    sources: [source/wikipedia-shams-al-haqq-azimabadi]
+sources: [source/sunan-daraqutni-ibn-hazm-2011, source/wikipedia-shams-al-haqq-azimabadi]
 status: { review: published, completeness: 2, generated_by: "Claude Code (OCR-harvest worker A); dates not given in the pages read" }

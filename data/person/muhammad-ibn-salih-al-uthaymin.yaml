@@ -1,5 +1,5 @@
 id: person/muhammad-ibn-salih-al-uthaymin
-aliases: [person/muhammad-ibn-al-uthaymeen]
+aliases: [person/muhammad-ibn-al-uthaymeen]   # the same person filed twice; merged 17 Nov 2026 (ulama wave repair), the id still resolves
 external_ids: { wikidata: "Q1398150" }
 class: person
 label: { ar: "محمد بن صالح العثيمين", en: "Muhammad ibn Salih al-Uthaymin", ur: "محمد بن صالح العثیمین" }
@@ -21,7 +21,12 @@ relations:
   - { type: authored, target: work/al-diya-al-lami, sources: [source/al-diya-al-lami-uthaymin-thurayya-2019] }
 honours:
   - { award: award/king-faisal-prize, category: service-to-islam, result: won, year: 1994, sources: [source/wikipedia-king-faisal-prize-en] }
-sources: [source/uthaymin-sharh-riyad-vol5, source/al-diya-al-lami-uthaymin-thurayya-2019, source/wikipedia-king-faisal-prize-en, source/wikidata-muhammad-ibn-salih-al-uthaymin]
+faith:
+  - value: unknown
+    basis: unknown
+    note: "Documented as a Sunni scholar by role and oeuvre. This attestation is preserved here, but under the two-independent-sources rule for modern figures a single source does not settle a school or order, so the value is recorded as unknown."
+    sources: [source/wikipedia-muhammad-ibn-al-uthaymeen]
+sources: [source/uthaymin-sharh-riyad-vol5, source/al-diya-al-lami-uthaymin-thurayya-2019, source/wikipedia-king-faisal-prize-en, source/wikidata-muhammad-ibn-salih-al-uthaymin, source/wikipedia-muhammad-ibn-al-uthaymeen]
 provenance:
   layer: own-research
   source: "Cover and copyright page of volume five, read from the OCR (scan pp. 1–4). Dates of birth and death are not on the pages read and are not recorded."

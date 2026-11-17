@@ -1,5 +1,5 @@
 id: person/muhammad-awwama
-aliases: [person/muhammad-awwamah]
+aliases: [person/muhammad-awwamah]   # the same person filed twice; merged 17 Nov 2026 (ulama wave repair), the id still resolves
 class: person
 tags: [ulama-browser]
 label: { ar: "محمد عوامة", en: "Muhammad Awwama", ur: "محمد عوامة" }
@@ -13,18 +13,30 @@ summary:
   ur: "عصری شامی محدث، 1940 میں حلب میں پیدا ہوئے اور مدینہ منورہ میں مقیم۔ وہ علمِ حدیث کو حنفی و تقابلِ فقہ سے جوڑتے ہیں؛ کتب میں «اثر الحديث في اختلاف الأئمة الفقهاء» اور «أدب الاختلاف» شامل ہیں، نیز «مصنف ابن أبي شيبہ» کی تحقیق کی۔"
 roles: [scholar, teacher]
 wings: [people, living]
+periods: [period/contemporary-era]
 born:
   edtf: "1940"
   calendar: gregorian
   precision: year
   status: historical
   sources: [source/wikipedia-muhammad-awwama]
+relations:
+  - { type: born_in, target: place/aleppo, sources: [source/wikidata], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q41183)" }
 faith:
   - value: unknown
-    basis: documented
-    note: "Documented as a Sunni scholar by role and oeuvre"
+    basis: unknown
+    note: "Documented as a Sunni scholar by role and oeuvre. This attestation is preserved here, but under the two-independent-sources rule for modern figures a single source does not settle a school or order, so the value is recorded as unknown."
     sources: [source/wikipedia-muhammad-awwama]
-sources: [source/wikipedia-muhammad-awwama]
+external_ids:
+  wikidata: Q117073981
+  viaf: "25922777"
+sources: [source/wikipedia-muhammad-awwama, source/al-aalam, source/wikidata]
+occupations:
+  - job: job/muhaddith
+    kind: primary
+    status: historical
+    note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
+    sources: [source/al-aalam]
 provenance:
   layer: own-research
   source: "Gemini-compiled research list (founder session 17 Nov 2026) + Arabic Wikipedia"
