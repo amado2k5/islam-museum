@@ -1,0 +1,23 @@
+id: work/fatwa-fcna-bitcoin-declaration
+class: work
+kind: fatwa
+label: { ar: "إعلان المنتدى الاقتصادي الإسلامي بشأن البيتكوين", en: "Islamic Economic Forum's Declaration on Bitcoin", ur: "اسلامی اکنامک فورم کا بٹ کوائن پر اعلامیہ" }
+summary:
+  ar: "ترجمة للدكتور ذو الفقار علي شاه نشرها موقع المجلس الفقهي لأمريكا الشمالية لإعلان المنتدى الاقتصادي الإسلامي بشأن البيتكوين ⁦(رقم 1/2018 بتاريخ 11 يناير 2018)⁩ بما نصّ عليه الإعلان من الحكم."
+  en: "Dr. Zulfiqar Ali Shah's translation on the Fiqh Council site of the Islamic Economic Forum's Declaration on Bitcoin (No. 1/2018, dated 11 January 2018), with the ruling the declaration sets out."
+  ur: "ڈاکٹر ذوالفقار علی شاہ کا ترجمہ اسلامی اکنامک فورم کے بٹ کوائن اعلامیہ کا ⁦(نمبر 1/2018، مورخہ 11 جنوری 2018)⁩ فقہ کونسل کی ویب سائٹ پر، جس میں اعلامیہ کا حکم بیان ہے۔"
+wings: [words]
+publisher: group/fiqh-council-north-america
+url: "https://fiqhcouncil.org/islamic-economic-forums-declaration-on-bitcoin/"
+languages: [en]
+sources: [source/fcna]
+relations:
+  - { type: about, target: concept/nuqud-fiqh, sources: [source/fcna] }
+  - { type: about, target: concept/muamalat, sources: [source/fcna] }
+provenance:
+  layer: own-research
+  source: "fiqhcouncil.org post 'Islamic Economic Forum's Declaration on Bitcoin', dated 7 Nov 2021; read 17 Nov 2026. Summary in the museum's own words."
+  generated_by: "Devin"
+  model: "SWE-2 Medium"
+  run: fatwa-websites-34
+status: { review: published, completeness: 1 }

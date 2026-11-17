@@ -1,0 +1,23 @@
+id: work/fatwa-fcna-wiping-over-socks
+class: work
+kind: fatwa
+label: { ar: "المسح على الجوارب", en: "Wiping Over Socks", ur: "جرابوں پر مسح" }
+summary:
+  ar: "ورقة للشيخ مصطفى عمر في موقع المجلس الفقهي لأمريكا الشمالية ⁦(نُشرت نوفمبر 2021)⁩ تشرح حكم المسح على الجوارب في الوضوء وتبين خطأ ظن أن نصوص القرآن والحديث واضحة لكل قارئ دون تأهيل على ما فصّلته الورقة."
+  en: "A paper by Shaykh Mustafa Umar on the Fiqh Council of North America site (published November 2021) explaining the ruling on wiping over socks in wudu, and correcting the misconception that Qur'an and hadith texts are plain to any literate reader — as the paper details."
+  ur: "شیخ مصطفیٰ عمر کی تحریر فقہ کونسل آف نارتھ امریکہ کی ویب سائٹ پر ⁦(شائع شدہ نومبر 2021)⁩ وضو میں جرابوں پر مسح کے حکم اور نصوص کی فهم کے اہل ہونے کے بارے میں — جیسا کہ تحریر میں تفصیل ہے۔"
+wings: [words]
+publisher: group/fiqh-council-north-america
+url: "https://fiqhcouncil.org/wiping-over-socks/"
+languages: [en]
+sources: [source/fcna]
+relations:
+  - { type: about, target: practice/wudu, sources: [source/fcna] }
+  - { type: about, target: concept/tahara, sources: [source/fcna] }
+provenance:
+  layer: own-research
+  source: "fiqhcouncil.org post 'Wiping Over Socks', dated 7 Nov 2021; read 17 Nov 2026. Summary in the museum's own words."
+  generated_by: "Devin"
+  model: "SWE-2 Medium"
+  run: fatwa-websites-34
+status: { review: published, completeness: 1 }
