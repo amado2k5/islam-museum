@@ -1,0 +1,24 @@
+id: work/fatwa-dar-alifta-eg-istinja-at-wudu
+class: work
+kind: fatwa
+label: { ar: "حكم الاستنجاء عند الوضوء", en: "Whether istinja belongs to wudu", ur: "وضو کے وقت استنجا کا حکم" }
+summary:
+  ar: "سائل سأل عن حكم الاستنجاء عند الوضوء. أجابت دار الإفتاء المصرية ⁦(مفتي الجمهورية د. نظير محمد عياد، فتوى رقم 20751)⁩ أن الاستنجاء طهارة مستقلة يجب عند وجود سببه وهو خروج النجاسة من أحد السبيلين ولا يعد من سنن الوضوء على ما فصّل الجواب."
+  en: "A questioner asked about istinja at wudu. Egypt's Dar al-Ifta (Grand Mufti Dr. Nazir Muhammad Ayyad, fatwa no. 20751) answered that istinja is an independent purification — obligatory when its cause exists, namely impurity exiting either passage — and is not among the sunnas of wudu, as the answer details."
+  ur: "ایک سائل نے وضو کے وقت استنجا کا حکم پوچھا۔ مصر کے دار الافتاء ⁦(مفتیِ جمهور ڈاکٹر نظیر محمد عیاد، فتویٰ نمبر 20751)⁩ نے جواب دیا کہ استنجا مستقل طہارت ہے جس کا سبب ہو تو واجب ہے اور یہ وضو کی سنتوں میں شمار نہیں — جیسا کہ جواب میں تفصیل ہے۔"
+wings: [words]
+authors: [person/nazir-ayyad]
+publisher: group/dar-al-ifta-al-misriyya
+url: "https://www.dar-alifta.org/ar/fatwa/details/20751/حكم-الاستنجاء-عند-الوضوء"
+languages: [ar]
+sources: [source/dar-alifta]
+relations:
+  - { type: about, target: practice/wudu, sources: [source/dar-alifta] }
+  - { type: about, target: concept/tahara, sources: [source/dar-alifta] }
+provenance:
+  layer: own-research
+  source: "dar-alifta.org fatwa no. 20751, category الطهارة; read 17 Nov 2026. Summary in the museum's own words."
+  generated_by: "Devin"
+  model: "SWE-2 Medium"
+  run: fatwa-websites-34
+status: { review: published, completeness: 1 }
