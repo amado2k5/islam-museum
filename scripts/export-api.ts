@@ -36,6 +36,7 @@ import { HISAB_TAG, hisabCorpusOf, hisabKindsOf, hisabSignalsOf, isHisabPassage,
 import { HASANAT_TAG, hasanatCorpusOf, hasanatKindOf, hasanatSignalsOf, hasanatTagSection, isHasanatPassage, type HasanatKind } from "./hasanat.js";
 import { JANNA_TAG, jannaCorpusOf, jannaKindOf, jannaSignalsOf, jannaTagSection, isJannaPassage, type JannaKind } from "./janna.js";
 import { MUKATABAT_TAG, mukatabatCorpusOf, mukatabatKindOf, mukatabatSenderOf, mukatabatSignalsOf, mukatabatTagSection, mukatabatTagSender, isMukatabatPassage } from "./mukatabat.js";
+import { MUNAZARAT_TAG, munazaratCorpusOf, munazaratKindOf, munazaratOpponentOf, munazaratSignalsOf, munazaratTagSection, munazaratTagOpponent, isMunazaratPassage } from "./munazarat.js";
 import { NAR_TAG, narKindOf, narSectionOf, narSignalsOf, narTagSection, isNarPassage } from "./nar.js";
 import { QIYAMA_TAG, qiyamaCorpusOf, qiyamaKindOf, qiyamaSignalsOf, qiyamaTagSection, isQiyamaPassage, type QiyamaKind } from "./qiyama.js";
 import { TIBB_TAG, tibbCorpusOf, tibbSignalsOf, tibbTagSection, tibbTagTopics, tibbTopicsOfSignals } from "./tibb.js";
@@ -605,6 +606,17 @@ const FEATURE_EXPORTS: { file: string; feature: string; pick: (n: Node) => boole
       mukatabat_kind: n.class === "passage" ? mukatabatKindOf(n) : null,
       sender: n.class === "passage" ? mukatabatSenderOf(n) : mukatabatTagSender(n),
       signals: n.class === "passage" ? mukatabatSignalsOf(n) : [],
+    }) },
+  { file: "munazarat.json", feature: "munazarat-browser",
+    pick: (n) => n.tags.includes(MUNAZARAT_TAG) || isMunazaratPassage(n),
+    fields: ["kind", "work", "ref", "unit", "text", "sura", "aya", "wings", "themes", "tags"],
+    extra: (n, ef, byId) => ({
+      section: n.class === "passage"
+        ? munazaratCorpusOf(n.data.work as string | undefined, byId?.get(n.data.work as string)?.data.genre as string[] | undefined, n.data.unit as string | undefined)
+        : munazaratTagSection(n),
+      munazarat_kind: n.class === "passage" ? munazaratKindOf(n) : null,
+      opponent: n.class === "passage" ? munazaratOpponentOf(n) : munazaratTagOpponent(n),
+      signals: n.class === "passage" ? munazaratSignalsOf(n) : [],
     }) },
   { file: "screens.json", feature: "screening-room", pick: (n) => n.class === "screen",
     fields: ["format", "relevance", "titles", "released", "first_broadcast", "ramadan_season", "countries", "languages", "seasons", "episodes", "runtime_min", "broadcaster", "approach", "depiction", "external_ids", "made", "honours"] },
