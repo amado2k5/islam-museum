@@ -292,3 +292,13 @@ Sessions 1–10 (1984–1997) fully converted from the official Arabic archive �
 - **Totals:** 1,576 fatwa files on main. AMJA ≈ 282 unique records of 5,409 captured (~5,125 remain).
 - **Resume:** unconverted IDs below ~79982 (Aug 2009) plus high-ID categories beyond طهارة; skip/dup map above.
 - **Automation:** ~/bin/fatwa-loop.sh (15-min loop of `devin -p` sessions) awaiting `devin auth login` once.
+
+## AMJA wave 91 (17 Nov 2026)
+- **Batch 40** (PR #7366): 10 records May–Sep 2009 — 79922, 79887, 79811, 79669, 79623, 79176, 79164, 79095, 79072, 78797.
+- **Totals:** 1,586 fatwa files on main. AMJA ≈ 292 unique records of 5,409.
+- **Resume:** unconverted IDs below ~78797 (Apr–May 2009) plus high-ID non-طهارة categories.
+
+## AMJA wave 92 (17 Nov 2026)
+- **Batch 41**: 10 records Mar–May 2009 — 78757, 78680, 78638, 78613, 78605, 78563, 78366, 78365, 78210, 78137.
+- **Totals:** 1,596 fatwa files on main. AMJA ≈ 302/5,409.
+- **Resume:** IDs below ~78137 (Feb–Mar 2009) plus non-purity categories.
