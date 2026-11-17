@@ -1,0 +1,21 @@
+---
+// One hero card in a virtue hall: the name large, the era line, and what they gave — linking the person
+// record (the full story) and the trail's long-form narrative.
+import { href, labelOf, summaryOf } from "../lib/graph";
+import { ui, type Lang } from "../lib/i18n";
+import type { HeroRoom } from "../lib/heroes";
+interface Props { lang: Lang; room: HeroRoom }
+const { lang, room } = Astro.props;
+const H = ui(lang).heroes;
+const { person } = room;
+const dates = [person.data?.born?.edtf, person.data?.died?.edtf].filter(Boolean).map((d: string) => d.slice(0, 4)).join("–");
+const roomText = room.body[lang] ?? room.body.ar ?? room.body.en ?? "";
+---
+<li class="hero-card" data-hero-row>
+  <a class="hero-link" href={href(lang, person.id)}>
+    <h3 class="hero-name">{labelOf(person, lang)}</h3>
+    {dates && <p class="hero-dates ui muted"><bdi>{dates}</bdi></p>}
+    <p class="hero-deed">{roomText}</p>
+    <span class="hero-record ui">{H.record_link} <span class="flip" aria-hidden="true">→</span></span>
+  </a>
+</li>

@@ -1,0 +1,69 @@
+---
+// The Heroes of Islam explorer home (docs/plan/71-heroes-explorer.md): six virtue halls, each a trail of
+// four hero records with a long-form narrative. Counts are read from the graph at build time and appear
+// on this page only.
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import PageHeader from "../../../components/PageHeader.astro";
+import ExploreBar from "../../../components/ExploreBar.astro";
+import VirtueMedallion from "../../../components/VirtueMedallion.astro";
+import HeroCard from "../../../components/HeroCard.astro";
+import { ui, LANGS, fmt, type Lang } from "../../../lib/i18n";
+import { href } from "../../../lib/graph";
+import { num } from "../../../lib/nav";
+import { trails, heroCount } from "../../../lib/heroes";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const H = T.heroes;
+const count = (n: number) => num(n, lang);
+---
+<BaseLayout lang={lang} title={H.title} description={H.lede} path={`/${lang}/heroes/`}>
+  <PageHeader title={H.title} lede={H.lede} crumbs={[{ label: T.entity.breadcrumb, href: `/${lang}/` }, { label: H.title }]} crumbsLabel={T.entity.breadcrumb} />
+
+  <section class="heroes-banner" data-pagefind-body>
+    <div class="wrap">
+      <p class="panel ui" style="max-width:var(--measure)">{fmt(H.status, { n: count(heroCount), trails: count(trails.length) })}</p>
+    </div>
+  </section>
+
+  <div class="wrap" style="padding-block:8px 24px">
+    {trails.map((t) => (
+      <section class="virtue-hall" aria-labelledby={`hall-${t.virtue.key}`} data-pagefind-ignore style={`--acc:${t.virtue.accent}`}>
+        <div class="hall-head">
+          <VirtueMedallion accent={t.virtue.accent} />
+          <div>
+            <h2 id={`hall-${t.virtue.key}`}>{H.virtues[t.virtue.key].name}</h2>
+            <p class="muted" style="max-width:var(--measure)">{H.virtues[t.virtue.key].lede}</p>
+            <p class="ui"><a href={href(lang, t.node.id)}>{fmt(H.trail_link, { n: count(t.heroes.length) })}</a></p>
+          </div>
+        </div>
+        <ul class="hero-grid" role="list">
+          {t.heroes.map((room) => <HeroCard lang={lang} room={room} />)}
+        </ul>
+      </section>
+    ))}
+
+    <section aria-labelledby="hero-note" style="margin-top:2.5rem">
+      <h2 id="hero-note">{H.note_title}</h2>
+      <p class="muted" style="max-width:var(--measure)">{H.note_body}</p>
+    </section>
+  </div>
+  <ExploreBar lang={lang} />
+</BaseLayout>
+<style>
+  .virtue-hall { margin-top: 2.2rem; border-block-start: 1px solid color-mix(in srgb, var(--acc) 45%, transparent); padding-top: 1.4rem; }
+  .hall-head { display: flex; gap: 18px; align-items: flex-start; }
+  .hall-head .medallion { flex-shrink: 0; margin-top: 4px; }
+  .hall-head h2 { margin: 0 0 4px; font-size: 1.9rem; }
+  .hero-grid { list-style: none; padding: 0; margin: 1rem 0 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 14px; }
+  .hero-card .hero-link { display: block; height: 100%; padding: 18px 18px 14px; border: 1px solid color-mix(in srgb, var(--acc) 40%, var(--edge, #ccc)); border-radius: 10px; text-decoration: none; background: color-mix(in srgb, var(--acc) 5%, transparent); transition: border-color .15s; }
+  .hero-card .hero-link:hover, .hero-card .hero-link:focus-visible { border-color: var(--acc); }
+  .hero-name { margin: 0; font-size: 1.35rem; }
+  .hero-dates { margin: 2px 0 8px; font-size: .82rem; }
+  .hero-deed { margin: 0 0 10px; font-size: .95rem; line-height: 1.65; }
+  .hero-record { font-size: .85rem; color: var(--acc); font-weight: 600; }
+  .flip { display: inline-block; }
+  [dir="rtl"] .flip { transform: scaleX(-1); }
+  @media (max-width: 480px) { .hall-head { gap: 12px; } .hall-head .medallion { width: 64px; height: 64px; } .hall-head h2 { font-size: 1.5rem; } }
+</style>
