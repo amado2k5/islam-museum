@@ -1,0 +1,23 @@
+id: work/fatwa-fcna-organ-donation-transplantation
+class: work
+kind: fatwa
+label: { ar: "في التبرع بالأعضاء وزراعتها", en: "On Organ Donation and Transplantation", ur: "اعضا کے عطیہ اور پیوند کاری پر" }
+summary:
+  ar: "سؤال عن الموقف الإسلامي من التبرع بالأعضاء وزراعتها. أجاب المجلس الفقهي لأمريكا الشمالية ⁦(نُشر أكتوبر 2021)⁩ بأنه يوافق كثيرًا من العلماء والمجالس الإفتائية الوطنية والدولية على اعتبار التبرع بالأعضاء وزراعتها جائزًا شرعًا على ما فصّل الجواب من الضوابط."
+  en: "A question about the Islamic stance on organ donation and transplantation. The Fiqh Council of North America (published October 2021) answered that it agrees with many scholars and national and international fatwa councils in considering it Islamically permissible — with the conditions set out in the answer."
+  ur: "اعضا کے عطیہ اور پیوند کاری کا اسلامی حکم۔ فقہ کونسل آف نارتھ امریکہ ⁦(شائع شدہ اکتوبر 2021)⁩ نے جواب دیا کہ یہ بہت سے علماء اور مجالس کی طرح جائز قرار دیتا ہے — شرائط جواب میں ہیں۔"
+wings: [words]
+publisher: group/fiqh-council-north-america
+url: "https://fiqhcouncil.org/on-organ-donation-and-transplantation/"
+languages: [en]
+sources: [source/fcna]
+relations:
+  - { type: about, target: concept/medical-treatment, sources: [source/fcna] }
+  - { type: about, target: concept/insan, sources: [source/fcna] }
+provenance:
+  layer: own-research
+  source: "fiqhcouncil.org post 'On Organ Donation and Transplantation', dated 6 Oct 2021; read 17 Nov 2026. Summary in the museum's own words."
+  generated_by: "Devin"
+  model: "SWE-2 Medium"
+  run: fatwa-websites-34
+status: { review: published, completeness: 1 }
