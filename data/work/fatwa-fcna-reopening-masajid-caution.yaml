@@ -1,0 +1,23 @@
+id: work/fatwa-fcna-reopening-masajid-caution
+class: work
+kind: fatwa
+label: { ar: "إعادة فتح المساجد بحذر وانتباه", en: "Re-Opening of the Masajid with Care and Caution", ur: "احتیاط کے ساتھ مساجد کا دوبارہ افتتاح" }
+summary:
+  ar: "بيان للمجلس الفقهي لأمريكا الشمالية ⁦(يونيو 2020)⁩ عن إعادة فتح المساجد بحذر وانتباه بعد تخفيف قيود كوفيد-19 وتصاعد الإصابات في مدن وولايات مختلفة على ما نصّ عليه البيان من التوصيات."
+  en: "A Fiqh Council of North America statement (June 2020) on reopening the masajid with care and caution after COVID-19 restrictions were relaxed and cases spiked in various cities and states — with the recommendations the statement sets out."
+  ur: "فقہ کونسل آف نارتھ امریکہ کا بیان ⁦(جون 2020)⁩ کووڈ پابندیوں میں نرمی کے بعد مساجد کو احتیاط سے کھولنے پر — سفارشات بیان میں ہیں۔"
+wings: [words]
+publisher: group/fiqh-council-north-america
+url: "https://fiqhcouncil.org/re-opening-of-the-masajid-with-care-and-caution/"
+languages: [en]
+sources: [source/fcna]
+relations:
+  - { type: about, target: concept/masjid, sources: [source/fcna] }
+  - { type: about, target: concept/al-taun, sources: [source/fcna] }
+provenance:
+  layer: own-research
+  source: "fiqhcouncil.org post 'Re-Opening of the Masajid with Care and Caution', dated 2 Jun 2020; read 17 Nov 2026. Summary in the museum's own words."
+  generated_by: "Devin"
+  model: "SWE-2 Medium"
+  run: fatwa-websites-34
+status: { review: published, completeness: 1 }

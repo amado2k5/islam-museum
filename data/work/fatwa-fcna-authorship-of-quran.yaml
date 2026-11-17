@@ -1,0 +1,23 @@
+id: work/fatwa-fcna-authorship-of-quran
+class: work
+kind: fatwa
+label: { ar: "من مؤلف القرآن؟", en: "Who is the author of the Qur'an?", ur: "قرآن کا مصنف کون ہے؟" }
+summary:
+  ar: "مقال للدكتور جمال بدوي ⁦(25 فبراير 2012)⁩ في موقع المجلس الفقهي لأمريكا الشمالية يجيب عن سؤال مؤلف القرآن مبينًا أن المسلمين يعتقدونه كلام الله وأن الآراء الغالبة بين الكتاب الغربيين خلاف ذلك على ما فصّله المقال."
+  en: "An article by Dr. Jamal Badawi (25 February 2012) on the Fiqh Council of North America site answering who authored the Qur'an: Muslims hold it to be the word of God, while the predominant views among Western writers differ — as the article details."
+  ur: "ڈاکٹر جمال بدوي کا مضمون ⁦(25 فروری 2012)⁩ فقہ کونسل کی ویب سائٹ پر قرآن کی تالیف کے سوال کا جواب — مسلمان اسے کلام اللہ مانتے ہیں جبکہ مغربی مصنفین کی غالب آراء مختلف ہیں — جیسا کہ مضمون میں تفصیل ہے۔"
+wings: [words]
+publisher: group/fiqh-council-north-america
+url: "https://fiqhcouncil.org/who-is-the-authors-of-the-quran/"
+languages: [en]
+sources: [source/fcna]
+relations:
+  - { type: about, target: work/quran, sources: [source/fcna] }
+  - { type: about, target: concept/wahy, sources: [source/fcna] }
+provenance:
+  layer: own-research
+  source: "fiqhcouncil.org post 'Who is the author(s) of the Qur'an?', dated 5 Oct 2021; read 17 Nov 2026. Summary in the museum's own words."
+  generated_by: "Devin"
+  model: "SWE-2 Medium"
+  run: fatwa-websites-34
+status: { review: published, completeness: 1 }
