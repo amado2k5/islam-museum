@@ -1,3 +1,4 @@
+---
 id: person/maruf-al-rusafi
 lang: ar
 source_lang: ar
