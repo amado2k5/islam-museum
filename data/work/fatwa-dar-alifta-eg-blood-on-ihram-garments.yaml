@@ -1,0 +1,24 @@
+id: work/fatwa-dar-alifta-eg-blood-on-ihram-garments
+class: work
+kind: fatwa
+label: { ar: "حكم طهارة ملابس الإحرام إذا وقع عليها دم", en: "The purity of ihram garments when blood falls on them", ur: "احرام کے کپڑوں پر خون لگنے کی طہارت" }
+summary:
+  ar: "سائل سأل عن طهارة ملابس الإحرام إذا وقع عليها دم. أجابت دار الإفتاء المصرية ⁦(مفتي الجمهورية د. نظير محمد عياد، فتوى رقم 20768)⁩ أنه ينبغي على المحرم المحافظة على نظافة ملابس إحرامه فإن وقع عليها دم من المحرم نفسه وكان يسيرًا فحكمها على ما فصّل الجواب."
+  en: "A questioner asked about the purity of ihram garments when blood falls on them. Egypt's Dar al-Ifta (Grand Mufti Dr. Nazir Muhammad Ayyad, fatwa no. 20768) answered that the pilgrim should keep his ihram garments clean; if a little of his own blood falls on them, the ruling is as the answer details."
+  ur: "ایک سائل نے احرام کے کپڑوں پر خون لگنے کی طہارت پوچھی۔ مصر کے دار الافتاء ⁦(مفتیِ جمهور ڈاکٹر نظیر محمد عیاد، فتویٰ نمبر 20768)⁩ نے جواب دیا کہ محرم کو کپڑے صاف رکھنے چاہییں؛ اگر اس کا اپنا تھوڑا خون لگ جائے تو حکم جواب میں ہے۔"
+wings: [words]
+authors: [person/nazir-ayyad]
+publisher: group/dar-al-ifta-al-misriyya
+url: "https://www.dar-alifta.org/ar/fatwa/details/20768/حكم-طهارة-ملابس-الإحرام-إذا-وقع-عليها-دم"
+languages: [ar]
+sources: [source/dar-alifta]
+relations:
+  - { type: about, target: concept/ihram, sources: [source/dar-alifta] }
+  - { type: about, target: concept/tahara, sources: [source/dar-alifta] }
+provenance:
+  layer: own-research
+  source: "dar-alifta.org fatwa no. 20768, category الحج والعمرة; read 17 Nov 2026. Summary in the museum's own words."
+  generated_by: "Devin"
+  model: "SWE-2 Medium"
+  run: fatwa-websites-34
+status: { review: published, completeness: 1 }
