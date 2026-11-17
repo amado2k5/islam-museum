@@ -1,0 +1,17 @@
+id: passage/bukhari-api-4444
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "4444"
+label: { ar: "صحيح البخاري 4444 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sahih al-Bukhari 4444 — mentions of non-Muslim nations, religions and peoples", ur: "صحیح بخاری 4444 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "وَأَخْبَرَنِي عُبَيْدُ اللَّهِ بْنُ عَبْدِ اللَّهِ بْنِ عُتْبَةَ، أَنَّ عَائِشَةَ، وَعَبْدَ اللَّهِ بْنَ عَبَّاسٍ،م قَالاَ لَمَّا نَزَلَ بِرَسُولِ اللَّهِ طَفِقَ يَطْرَحُ خَمِيصَةً لَهُ عَلَى وَجْهِهِ، فَإِذَا اغْتَمَّ كَشَفَهَا عَنْ وَجْهِهِ وَهْوَ كَذَلِكَ يَقُولُ \" لَعْنَةُ اللَّهِ عَلَى الْيَهُودِ وَالنَّصَارَى، اتَّخَذُوا قُبُورَ أَنْبِيَائِهِمْ مَسَاجِدَ \". يُحَذِّرُ مَا صَنَعُوا."
+summary:
+  ar: "حديث في صحيح البخاري، رقم 4444، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sahih al-Bukhari, no. 4444 (Military Expeditions led by the Prophet (pbuh) (Al-Maghaazi)), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
+  ur: "صحیح بخاری کی حدیث نمبر 4444، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: group/al-yahud, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: group/al-nasara, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 4444 (book 64 hadith 464); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the hadith-api Arabic edition; label and summary are the museum's own words" }

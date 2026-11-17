@@ -1,0 +1,141 @@
+---
+// "The world of the texts" — the signature view of the Umam Browser (site/src/pages/[lang]/umam).
+// One inline SVG drawn at build time from the browser's own records (site/src/lib/umam.ts): a
+// schematic manuscript map of the world the sources name, centred on Makka and Madina. Byzantium
+// and Persia stand to the north-west and north-east, Abyssinia to the south-west, the People of the
+// Book as a band across the middle, the vanished nations below the horizon line, the named persons
+// in a ring, the lands and concepts on shelves, and the far peoples on the rim. Every dot is one
+// real browser member and a real link to its record; a member is placed by its home section and a
+// fixed regional order, nothing by hand beyond the region shapes. The drawing reads with no
+// JavaScript; colours are keyed to the legend printed beside it.
+import { ui, type Lang } from "../../lib/i18n";
+import { href, labelOf } from "../../lib/graph";
+import { num } from "../../lib/nav";
+import { umamItems, homeSection } from "../../lib/umam";
+import type { Node } from "../../../../scripts/build-graph";
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const rtl = lang !== "en";
+const M = (ui(lang) as any).umam;
+const V = M.viz;
+
+// section colours — shared with the page legend
+export const UMAM_COLORS: Record<string, string> = {
+  umam: "#8a6d3b", adyan: "#2e6f8e", tawaif: "#4f7f5a", shuub: "#7d5ba6",
+  mushrikun: "#a04b3e", ayan: "#b8860b", sukun: "#5a7d9c", mafahim: "#6b7a3f",
+  kutub: "#7a6a55", dhikr: "#8a8a8a",
+};
+const colorOf = (i: (typeof umamItems)[number]) => UMAM_COLORS[homeSection(i)] ?? "#666";
+
+// ---- regions of the manuscript map. Each region is a labelled zone; members are packed into its
+// box row by row. `match` decides membership once, so order here is the drawing's order.
+type Region = {
+  id: string; label: string; x: number; y: number; w: number; h: number;
+  match: (i: (typeof umamItems)[number]) => boolean; r?: number;
+};
+const SHUUB_RIM = ["group/al-turk","group/al-hind","group/al-sin","group/al-barbar","group/al-zanj","group/al-rus","group/saqaliba","group/al-ajam","group/al-nabt","group/himyar","group/jurhum","group/jadis","group/tasm","group/amaliq","group/assyrians","group/al-sasan"];
+const REGIONS: Region[] = [
+  { id: "horizon", label: V.horizon, x: 30, y: 470, w: 840, h: 70, r: 5,
+    match: (i) => homeSection(i) === "umam" },
+  { id: "arabia", label: V.arabia, x: 330, y: 260, w: 240, h: 170, r: 5,
+    match: (i) => homeSection(i) === "mushrikun" },
+  { id: "kitab", label: V.kitab, x: 250, y: 150, w: 400, h: 95, r: 5,
+    match: (i) => ["adyan", "tawaif"].includes(homeSection(i)) },
+  { id: "rum", label: V.rum, x: 30, y: 60, w: 230, h: 120, r: 5,
+    match: (i) => ["group/al-rum", "person/heraclius", "group/al-qibt", "person/al-muqawqis", "group/ghassan"].includes(i.node.id) },
+  { id: "fars", label: V.fars, x: 640, y: 60, w: 230, h: 120, r: 5,
+    match: (i) => ["group/persians", "person/kisra-abrawiz", "group/al-majus", "group/banu-lakhm"].includes(i.node.id) },
+  { id: "habasha", label: V.habasha, x: 30, y: 300, w: 220, h: 110, r: 5,
+    match: (i) => ["group/al-habasha", "person/al-najashi"].includes(i.node.id) },
+  { id: "rim", label: V.rim, x: 620, y: 300, w: 250, h: 150, r: 5,
+    match: (i) => homeSection(i) === "shuub" && (SHUUB_RIM.includes(i.node.id) || !["group/al-rum","person/heraclius","group/al-qibt","person/al-muqawqis","group/ghassan","group/persians","person/kisra-abrawiz","group/al-majus","group/banu-lakhm","group/al-habasha","person/al-najashi"].includes(i.node.id)) },
+  { id: "ayan", label: V.ayan, x: 250, y: 60, w: 390, h: 80, r: 5,
+    match: (i) => homeSection(i) === "ayan" },
+  { id: "sukun", label: V.sukun, x: 30, y: 190, w: 220, h: 100, r: 4,
+    match: (i) => homeSection(i) === "sukun" },
+  { id: "mafahim", label: V.mafahim, x: 30, y: 420, w: 280, h: 40, r: 4,
+    match: (i) => homeSection(i) === "mafahim" },
+  { id: "kutub", label: V.kutub, x: 320, y: 420, w: 280, h: 40, r: 4,
+    match: (i) => homeSection(i) === "kutub" },
+];
+
+const taken = new Set<string>();
+const placed = REGIONS.map((r) => {
+  const members = umamItems.filter((i) => i.node.class !== "passage" && r.match(i) && !taken.has(i.node.id));
+  for (const m of members) taken.add(m.node.id);
+  return { region: r, members };
+});
+// leftovers (none expected) join the rim so every member is drawn
+const rest = umamItems.filter((i) => i.node.class !== "passage" && !taken.has(i.node.id));
+if (rest.length) {
+  const rim = placed.find((p) => p.region.id === "rim");
+  if (rim) rim.members.push(...rest);
+}
+
+// pack dots into each region box: label line at top, dots on a grid
+const R = 6, DX = 15, DY = 16;
+type Dot = { x: number; y: number; node: Node; color: string };
+const dots: Dot[] = [];
+const labels: { x: number; y: number; text: string; anchor: string }[] = [];
+for (const { region: r, members } of placed) {
+  labels.push({ x: r.x + r.w / 2, y: r.y + 14, text: `${r.label} · ${num(members.length, lang)}`, anchor: "middle" });
+  const perRow = Math.max(1, Math.floor((r.w - 16) / DX));
+  members.forEach((m, k) => {
+    const row = Math.floor(k / perRow), col = k % perRow;
+    dots.push({
+      x: r.x + 12 + col * DX + (perRow > members.length ? (perRow - members.length) * DX / 2 : 0),
+      y: r.y + 28 + row * DY,
+      node: m.node, color: colorOf(m),
+    });
+  });
+}
+
+// Makka–Madina medallion sits at the drawing's heart
+const CX = 450, CY = 335;
+---
+<figure class="umam-world" dir={rtl ? "rtl" : "ltr"}>
+  <figcaption class="ui muted">{V.caption}</figcaption>
+  <svg viewBox="0 0 900 560" role="img" aria-label={V.aria} style="width:100%;height:auto;display:block;border:1px solid var(--gold);border-radius:14px;background:linear-gradient(180deg,#fdf8ec 0%,#f6ecd7 55%,#efe2c6 100%)">
+    <defs>
+      <radialGradient id="umam-glow" cx="50%" cy="50%" r="60%">
+        <stop offset="0%" stop-color="#fff8e0"/><stop offset="100%" stop-color="#f3e4bd"/>
+      </radialGradient>
+    </defs>
+    {/* region frames */}
+    {placed.map(({ region: r }) => (
+      <rect x={r.x} y={r.y} width={r.w} height={r.h} rx="10"
+        fill={r.id === "horizon" ? "#ead9b8" : "#fffdf4"} fill-opacity="0.6"
+        stroke={r.id === "horizon" ? "#a08a5a" : "var(--line)"} stroke-dasharray={r.id === "horizon" ? "4 3" : undefined} />
+    ))}
+    {/* horizon line between the seen world and the vanished nations */}
+    <line x1="20" y1="462" x2="880" y2="462" stroke="#a08a5a" stroke-width="1.5" stroke-dasharray="8 5" />
+    {/* the medallion: Makka and Madina, the centre of the sources' world */}
+    <circle cx={CX} cy={CY} r="52" fill="url(#umam-glow)" stroke="var(--gold)" stroke-width="2" />
+    <circle cx={CX} cy={CY} r="60" fill="none" stroke="var(--gold)" stroke-width="1" stroke-dasharray="2 4" />
+    <text x={CX} y={CY - 6} text-anchor="middle" font-size="15" font-weight="700" fill="#5a4a1f">{V.makka}</text>
+    <text x={CX} y={CY + 14} text-anchor="middle" font-size="15" font-weight="700" fill="#5a4a1f">{V.madina}</text>
+    {/* radiating spokes toward the named regions, pure decoration, RTL-safe */}
+    {labels.slice(0, 6).map((l) => <line x1={CX} y1={CY} x2={l.x} y2={l.y + 6} stroke="#d9c48f" stroke-width="1" />)}
+    {/* region labels */}
+    {labels.map((l) => <text x={l.x} y={l.y} text-anchor="middle" font-size="12.5" font-weight="600" fill="#4d4433">{l.text}</text>)}
+    {/* one linked dot per member */}
+    {dots.map((d) => (
+      <a href={href(lang, d.node.id)}>
+        <circle cx={d.x} cy={d.y} r={R} fill={d.color} stroke="#fff" stroke-width="1.4">
+          <title>{labelOf(d.node, lang)}</title>
+        </circle>
+      </a>
+    ))}
+  </svg>
+  <ul class="ui" style="display:flex;flex-wrap:wrap;gap:6px 14px;list-style:none;padding:0;margin:.6rem 0 0;font-size:.82rem" aria-label={V.legend}>
+    {Object.entries(UMAM_COLORS).map(([s, c]) => (
+      <li style="display:inline-flex;align-items:center;gap:6px"><span aria-hidden="true" style={`width:10px;height:10px;border-radius:50%;background:${c};display:inline-block`}></span>{M.sections[s]?.title ?? s}</li>
+    ))}
+  </ul>
+</figure>
+<style>
+  .umam-world a circle { transition: r .12s ease; }
+  .umam-world a:hover circle, .umam-world a:focus-visible circle { stroke: var(--gold); stroke-width: 2.5; }
+  @media (prefers-reduced-motion: reduce) { .umam-world a circle { transition: none; } }
+</style>

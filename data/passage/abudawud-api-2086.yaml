@@ -1,0 +1,18 @@
+id: passage/abudawud-api-2086
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "2086"
+label: { ar: "سنن أبي داود 2086 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sunan Abi Dawud 2086 — mentions of non-Muslim nations, religions and peoples", ur: "سنن ابی داؤد 2086 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "حَدَّثَنَا مُحَمَّدُ بْنُ يَحْيَى بْنِ فَارِسٍ، حَدَّثَنَا عَبْدُ الرَّزَّاقِ، عَنْ مَعْمَرٍ، عَنِ الزُّهْرِيِّ، عَنْ عُرْوَةَ بْنِ الزُّبَيْرِ، عَنْ أُمِّ حَبِيبَةَ، أَنَّهَا كَانَتْ عِنْدَ ابْنِ جَحْشٍ فَهَلَكَ عَنْهَا - وَكَانَ فِيمَنْ هَاجَرَ إِلَى أَرْضِ الْحَبَشَةِ - فَزَوَّجَهَا النَّجَاشِيُّ رَسُولَ اللَّهِ وَهِيَ عِنْدَهُمْ."
+summary:
+  ar: "حديث في سنن أبي داود، رقم 2086، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan Abi Dawud, no. 2086 (Marriage (Kitab Al-Nikah)), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
+  ur: "سنن ابی داؤد کی حدیث نمبر 2086، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: group/persians, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: group/al-habasha, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: person/al-najashi, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 2086 (book 12 hadith 41); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the hadith-api Arabic edition; label and summary are the museum's own words" }

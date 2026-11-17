@@ -1,0 +1,18 @@
+id: passage/zad-maad-umam-1-196
+class: passage
+unit: chapter
+work: work/zad-al-maad
+ref: "1:196"
+label: { ar: "زاد المعاد لابن القيم، المجلد المصوَّر 1، ص 196 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Ibn al-Qayyim's Zad al-Ma'ad, scan volume 1, p. 196 — mentions of non-Muslim nations, religions and peoples", ur: "زاد المعاد، ابن القیم، اسکین جلد 1، ص 196 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "… شهر ربيع الأول، فكيف يقولُ ابن عباس : إنه قدم المدينة، فوجد اليهود صياماً يومَ عاشوراء؟ وفيه إشكال آخر، وهو أنه قد ثبت في الصحيحين من حديث عائشة، أنها قالت: كانت قُريشٌ تصومُ يوم عاشوراء في الجاهلية، وكان عليه الصلاةُ …"
+summary:
+  ar: "مقطع من زاد المعاد لابن القيم، المجلد المصوَّر 1، ص 196، فيه ذكر أمم وأديان وشعوب غير مسلمة؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة."
+  en: "An excerpt from Ibn al-Qayyim's Zad al-Ma'ad, scan volume 1, p. 196, with mentions of non-Muslim nations, religions and peoples; from the machine-read scan, quoted within forty words per the sources policy. The Umam Browser lists it."
+  ur: "زاد المعاد، ابن القیم، اسکین جلد 1، ص 196 کا اقتباس جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: group/al-yahud, sources: [source/zad-al-maad] }
+  - { type: mentions, target: group/al-mushrikun, sources: [source/zad-al-maad] }
+  - { type: mentions, target: group/quraysh, sources: [source/zad-al-maad] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan seerah/zad-maad/20200822_20200822_1205, page 196; a window of at most 40 words chosen by the umam detector (scripts/umam.ts); OCR text not corrected", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-ocr-1" }
+sources: [source/zad-al-maad]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the OCR'd book; label and summary are the museum's own words" }

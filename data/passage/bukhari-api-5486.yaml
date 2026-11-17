@@ -1,0 +1,16 @@
+id: passage/bukhari-api-5486
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "5486"
+label: { ar: "صحيح البخاري 5486 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sahih al-Bukhari 5486 — mentions of non-Muslim nations, religions and peoples", ur: "صحیح بخاری 5486 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "حَدَّثَنَا آدَمُ، حَدَّثَنَا شُعْبَةُ، عَنْ عَبْدِ اللَّهِ بْنِ أَبِي السَّفَرِ، عَنِ الشَّعْبِيِّ، عَنْ عَدِيِّ بْنِ حَاتِمٍ، قَالَ قُلْتُ يَا رَسُولَ اللَّهِ إِنِّي أُرْسِلُ كَلْبِي وَأُسَمِّي فَقَالَ النَّبِيُّ \" إِذَا أَرْسَلْتَ كَلْبَكَ وَسَمَّيْتَ، فَأَخَذَ فَقَتَلَ فَأَكَلَ فَلاَ تَأْكُلْ، فَإِنَّمَا أَمْسَكَ عَلَى نَفْسِهِ \". قُلْتُ إِنِّي أُرْسِلُ كَلْبِي أَجِدُ مَعَهُ كَلْبًا آخَرَ، لاَ أَدْرِي أَيُّهُمَا أَخَذَهُ. فَقَالَ …"
+summary:
+  ar: "حديث في صحيح البخاري، رقم 5486، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sahih al-Bukhari, no. 5486 (Hunting, Slaughtering), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
+  ur: "صحیح بخاری کی حدیث نمبر 5486، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: person/abdullah-ibn-ubayy, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 5486 (book 72 hadith 12); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the hadith-api Arabic edition; label and summary are the museum's own words" }

@@ -1,0 +1,16 @@
+id: passage/abudawud-api-4306
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "4306"
+label: { ar: "سنن أبي داود 4306 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sunan Abi Dawud 4306 — mentions of non-Muslim nations, religions and peoples", ur: "سنن ابی داؤد 4306 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "حَدَّثَنَا مُحَمَّدُ بْنُ يَحْيَى بْنِ فَارِسٍ، حَدَّثَنَا عَبْدُ الصَّمَدِ بْنُ عَبْدِ الْوَارِثِ، حَدَّثَنِي أَبِي، حَدَّثَنَا سَعِيدُ بْنُ جُمْهَانَ، حَدَّثَنَا مُسْلِمُ بْنُ أَبِي بَكْرَةَ، قَالَ سَمِعْتُ أَبِي يُحَدِّثُ، أَنَّ رَسُولَ اللَّهِ قَالَ \" يَنْزِلُ نَاسٌ مِنْ أُمَّتِي بِغَائِطٍ يُسَمُّونَهُ الْبَصْرَةَ عِنْدَ نَهْرٍ يُقَالُ لَهُ دِجْلَةُ يَكُونُ عَلَيْهِ جِسْرٌ يَكْثُرُ أَهْلُهَا وَتَكُونُ مِنْ أَمْصَارِ الْمُهَاجِرِينَ \". قَالَ …"
+summary:
+  ar: "حديث في سنن أبي داود، رقم 4306، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan Abi Dawud, no. 4306 (Battles (Kitab Al-Malahim)), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
+  ur: "سنن ابی داؤد کی حدیث نمبر 4306، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: group/persians, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 4306 (book 39 hadith 16); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the hadith-api Arabic edition; label and summary are the museum's own words" }

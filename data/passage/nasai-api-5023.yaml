@@ -1,0 +1,16 @@
+id: passage/nasai-api-5023
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "5023"
+label: { ar: "سنن النسائي 5023 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sunan al-Nasa'i 5023 — mentions of non-Muslim nations, religions and peoples", ur: "سنن نسائی 5023 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "أَخْبَرَنَا عَمْرُو بْنُ يَحْيَى بْنِ الْحَارِثِ قَالَ حَدَّثَنَا الْمُعَافَى قَالَ حَدَّثَنَا زُهَيْرٌ قَالَ حَدَّثَنَا مَنْصُورُ بْنُ الْمُعْتَمِرِ عَنْ أَبِي وَائِلٍ قَالَ قَالَ عَبْدُ اللَّهِ ثَلَاثٌ مَنْ كُنَّ فِيهِ فَهُوَ مُنَافِقٌ إِذَا حَدَّثَ كَذَبَ وَإِذَا اؤْتُمِنَ خَانَ وَإِذَا وَعَدَ أَخْلَفَ فَمَنْ كَانَتْ فِيهِ وَاحِدَةٌ مِنْهُنَّ لَمْ تَزَلْ فِيهِ خَصْلَةٌ مِنْ النِّفَاقِ حَتَّى يَتْرُكَهَا"
+summary:
+  ar: "حديث في سنن النسائي، رقم 5023، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan al-Nasa'i, no. 5023 (The Book Of Faith and its Signs), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
+  ur: "سنن نسائی کی حدیث نمبر 5023، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/munafiq, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 5023 (book 47 hadith 39); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the hadith-api Arabic edition; label and summary are the museum's own words" }

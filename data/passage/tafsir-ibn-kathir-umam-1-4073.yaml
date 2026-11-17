@@ -1,0 +1,20 @@
+id: passage/tafsir-ibn-kathir-umam-1-4073
+class: passage
+unit: chapter
+work: work/tafsir-ibn-kathir
+ref: "1:4073"
+label: { ar: "تفسير ابن كثير، المجلد المصوَّر 1، ص 4073 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Ibn Kathir's Tafsir, scan volume 1, p. 4073 — mentions of non-Muslim nations, religions and peoples", ur: "تفسیر ابن کثیر، اسکین جلد 1، ص 4073 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "… نوح وعاد وثمود، وأصحاب الرَّسِّ، وقوم لوط، وأهل مَدْيَن، وأشباههم وأضرابهم ممن كذب الرُّسلَ وخالف الحقَّ، وأنجى اللّٰه من بينهم المؤمنين، فلم يُهْلِكْ منهم أحدًا، وعذَّب الكافرين، فلم يُفْلِتْ منهم واحدًا. قال السُّدِّي: لم يبعث اللّٰه رسولًا قطُّ إلىٰ قوم …"
+summary:
+  ar: "مقطع من تفسير ابن كثير، المجلد المصوَّر 1، ص 4073، فيه ذكر أمم وأديان وشعوب غير مسلمة؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة."
+  en: "An excerpt from Ibn Kathir's Tafsir, scan volume 1, p. 4073, with mentions of non-Muslim nations, religions and peoples; from the machine-read scan, quoted within forty words per the sources policy. The Umam Browser lists it."
+  ur: "تفسیر ابن کثیر، اسکین جلد 1، ص 4073 کا اقتباس جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: group/thamud, sources: [source/tafsir-ibn-kathir] }
+  - { type: mentions, target: concept/qawm-lut, sources: [source/tafsir-ibn-kathir] }
+  - { type: mentions, target: group/qawm-shuayb, sources: [source/tafsir-ibn-kathir] }
+  - { type: mentions, target: concept/ashab-al-rass, sources: [source/tafsir-ibn-kathir] }
+  - { type: mentions, target: concept/kufr, sources: [source/tafsir-ibn-kathir] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan tafsir/tafsir-ibn-kathir/0012994, page 4073; a window of at most 40 words chosen by the umam detector (scripts/umam.ts); OCR text not corrected", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-ocr-1" }
+sources: [source/tafsir-ibn-kathir]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the OCR'd book; label and summary are the museum's own words" }

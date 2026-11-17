@@ -1,0 +1,18 @@
+id: passage/sahaba-usd-ghaba-umam-1-729
+class: passage
+unit: chapter
+work: work/usd-al-ghaba
+ref: "1:729"
+label: { ar: "أسد الغابة لابن الأثير، المجلد المصوَّر 1، ص 729 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Ibn al-Athir's Usd al-Ghaba, scan volume 1, p. 729 — mentions of non-Muslim nations, religions and peoples", ur: "اسد الغابہ، ابن الاثیر، اسکین جلد 1، ص 729 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "… رجلاً في سفينة، فألقتهم الرّيحُ إلى النجاشي، فوافقوا خروج جَعْفر وأصحابه منها، فأتوا معهم وقدم السفينتان معاً : سفينةُ جعفر، وسفينة الأشعريين، على النبيّ عال حين فتح خيبر. وقد قيل: إن الأشعريين إذ رمتهم الرّيح إلى الحبشة أقاموا بالحبشة مدة، …"
+summary:
+  ar: "مقطع من أسد الغابة لابن الأثير، المجلد المصوَّر 1، ص 729، فيه ذكر أمم وأديان وشعوب غير مسلمة؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة."
+  en: "An excerpt from Ibn al-Athir's Usd al-Ghaba, scan volume 1, p. 729, with mentions of non-Muslim nations, religions and peoples; from the machine-read scan, quoted within forty words per the sources policy. The Umam Browser lists it."
+  ur: "اسد الغابہ، ابن الاثیر، اسکین جلد 1، ص 729 کا اقتباس جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: group/jews-of-khaybar, sources: [source/usd-al-ghaba] }
+  - { type: mentions, target: group/al-habasha, sources: [source/usd-al-ghaba] }
+  - { type: mentions, target: person/al-najashi, sources: [source/usd-al-ghaba] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan sahaba/usd-ghaba/20191216_20191216_1124, page 729; a window of at most 40 words chosen by the umam detector (scripts/umam.ts); OCR text not corrected", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-ocr-1" }
+sources: [source/usd-al-ghaba]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the OCR'd book; label and summary are the museum's own words" }

@@ -1,0 +1,16 @@
+id: passage/ibnmajah-api-1700
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "1700"
+label: { ar: "سنن ابن ماجه 1700 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sunan Ibn Majah 1700 — mentions of non-Muslim nations, religions and peoples", ur: "سنن ابن ماجہ 1700 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا خَالِدُ بْنُ مَخْلَدٍ الْقَطَوَانِيُّ، عَنْ إِسْحَاقَ بْنِ حَازِمٍ، عَنْ عَبْدِ اللَّهِ بْنِ أَبِي بَكْرِ بْنِ عَمْرِو بْنِ حَزْمٍ، عَنْ سَالِمٍ، عَنِ ابْنِ عُمَرَ، عَنْ حَفْصَةَ، قَالَتْ: قَالَ رَسُولُ اللَّهِ ـ \" لاَ صِيَامَ لِمَنْ لَمْ يَفْرِضْهُ مِنَ اللَّيْلِ \"."
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 1700، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan Ibn Majah, no. 1700 (Fasting), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 1700، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: person/abdullah-ibn-ubayy, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 1700 (book 7 hadith 63); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the hadith-api Arabic edition; label and summary are the museum's own words" }

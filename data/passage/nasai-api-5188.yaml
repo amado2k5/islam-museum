@@ -1,0 +1,16 @@
+id: passage/nasai-api-5188
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "5188"
+label: { ar: "سنن النسائي 5188 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sunan al-Nasa'i 5188 — mentions of non-Muslim nations, religions and peoples", ur: "سنن نسائی 5188 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "أَخْبَرَنَا أَحْمَدُ بْنُ عَمْرِو بْنِ السَّرْحِ، قَالَ أَنْبَأَنَا ابْنُ وَهْبٍ، قَالَ أَخْبَرَنِي عَمْرُو بْنُ الْحَارِثِ، عَنْ بَكْرِ بْنِ سَوَادَةَ، أَنَّ أَبَا النَّجِيبِ، حَدَّثَهُ أَنَّ أَبَا سَعِيدٍ الْخُدْرِيَّ حَدَّثَهُ أَنَّ رَجُلاً قَدِمَ مِنْ نَجْرَانَ إِلَى رَسُولِ اللَّهِ وَعَلَيْهِ خَاتَمٌ مِنْ ذَهَبٍ فَأَعْرَضَ عَنْهُ رَسُولُ اللَّهِ وَقَالَ \" إِنَّكَ جِئْتَنِي وَفِي يَدِكَ جَمْرَةٌ مِنْ نَارٍ \"."
+summary:
+  ar: "حديث في سنن النسائي، رقم 5188، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan al-Nasa'i, no. 5188 (The Book of Adornment), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
+  ur: "سنن نسائی کی حدیث نمبر 5188، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: group/christians-of-najran, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 5188 (book 48 hadith 149); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the hadith-api Arabic edition; label and summary are the museum's own words" }

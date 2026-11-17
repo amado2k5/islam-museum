@@ -1,0 +1,16 @@
+id: passage/nasai-api-1490
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "1490"
+label: { ar: "سنن النسائي 1490 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sunan al-Nasa'i 1490 — mentions of non-Muslim nations, religions and peoples", ur: "سنن نسائی 1490 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "أَخْبَرَنَا مُحَمَّدُ بْنُ بَشَّارٍ، قَالَ حَدَّثَنَا مُعَاذُ بْنُ هِشَامٍ، قَالَ حَدَّثَنِي أَبِي، عَنْ قَتَادَةَ، عَنِ الْحَسَنِ، عَنِ النُّعْمَانِ بْنِ بَشِيرٍ، عَنِ النَّبِيِّ أَنَّهُ خَرَجَ يَوْمًا مُسْتَعْجِلاً إِلَى الْمَسْجِدِ وَقَدِ انْكَسَفَتِ الشَّمْسُ فَصَلَّى حَتَّى انْجَلَتْ ثُمَّ قَالَ \" إِنَّ أَهْلَ الْجَاهِلِيَّةِ كَانُوا يَقُولُونَ إِنَّ الشَّمْسَ وَالْقَمَرَ لاَ يَنْخَسِفَانِ إِلاَّ لِمَوْتِ عَظِيمٍ مِنْ عُظَمَاءِ أَهْلِ الأَرْضِ وَإِنَّ …"
+summary:
+  ar: "حديث في سنن النسائي، رقم 1490، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan al-Nasa'i, no. 1490 (The Book of Eclipses), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
+  ur: "سنن نسائی کی حدیث نمبر 1490، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: group/al-mushrikun, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 1490 (book 16 hadith 32); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the hadith-api Arabic edition; label and summary are the museum's own words" }

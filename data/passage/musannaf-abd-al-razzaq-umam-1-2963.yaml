@@ -1,0 +1,19 @@
+id: passage/musannaf-abd-al-razzaq-umam-1-2963
+class: passage
+unit: chapter
+work: work/al-musannaf-abd-al-razzaq
+ref: "1:2963"
+label: { ar: "مصنف عبد الرزاق، المجلد المصوَّر 1، ص 2963 — ذكر أمم وأديان وشعوب غير مسلمة", en: "the Musannaf of 'Abd al-Razzaq, scan volume 1, p. 2963 — mentions of non-Muslim nations, religions and peoples", ur: "مصنف عبد الرزاق، اسکین جلد 1، ص 2963 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "… أَن اليهود إذا ملكهم المسلم ببيع أَو سبي فإنه يدعوهم إلى الإسلام، فإِن أَبوا إلا التمسك بدينهم، فإن المسلم إن شاءَ باعهم من أَهل الذمة، ولا يبيعهم من أَحد من أَهل الحرب، وإن كانوا على غير دين مثل الهند والزنج، …"
+summary:
+  ar: "مقطع من مصنف عبد الرزاق، المجلد المصوَّر 1، ص 2963، فيه ذكر أمم وأديان وشعوب غير مسلمة؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة."
+  en: "An excerpt from the Musannaf of 'Abd al-Razzaq, scan volume 1, p. 2963, with mentions of non-Muslim nations, religions and peoples; from the machine-read scan, quoted within forty words per the sources policy. The Umam Browser lists it."
+  ur: "مصنف عبد الرزاق، اسکین جلد 1، ص 2963 کا اقتباس جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: group/al-yahud, sources: [source/musannaf-abd-al-razzaq] }
+  - { type: mentions, target: group/al-hind, sources: [source/musannaf-abd-al-razzaq] }
+  - { type: mentions, target: group/al-zanj, sources: [source/musannaf-abd-al-razzaq] }
+  - { type: mentions, target: concept/ahl-al-dhimma, sources: [source/musannaf-abd-al-razzaq] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan hadith/musannaf-abd-al-razzaq/20260327_20260327_1113, page 2963; a window of at most 40 words chosen by the umam detector (scripts/umam.ts); OCR text not corrected", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-ocr-1" }
+sources: [source/musannaf-abd-al-razzaq]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the OCR'd book; label and summary are the museum's own words" }

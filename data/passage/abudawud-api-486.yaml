@@ -1,0 +1,16 @@
+id: passage/abudawud-api-486
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "486"
+label: { ar: "سنن أبي داود 486 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sunan Abi Dawud 486 — mentions of non-Muslim nations, religions and peoples", ur: "سنن ابی داؤد 486 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "حَدَّثَنَا عِيسَى بْنُ حَمَّادٍ، حَدَّثَنَا اللَّيْثُ، عَنْ سَعِيدٍ الْمَقْبُرِيِّ، عَنْ شَرِيكِ بْنِ عَبْدِ اللَّهِ بْنِ أَبِي نَمِرٍ، أَنَّهُ سَمِعَ أَنَسَ بْنَ مَالِكٍ، يَقُولُ دَخَلَ رَجُلٌ عَلَى جَمَلٍ فَأَنَاخَهُ فِي الْمَسْجِدِ ثُمَّ عَقَلَهُ ثُمَّ قَالَ أَيُّكُمْ مُحَمَّدٌ وَرَسُولُ اللَّهِ مُتَّكِئٌ بَيْنَ ظَهْرَانَيْهِمْ فَقُلْنَا لَهُ هَذَا الأَبْيَضُ الْمُتَّكِئُ. فَقَالَ الرَّجُلُ يَا ابْنَ عَبْدِ الْمُطَّلِبِ. فَقَالَ لَهُ النَّبِيُّ …"
+summary:
+  ar: "حديث في سنن أبي داود، رقم 486، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan Abi Dawud, no. 486 (Prayer (Kitab Al-Salat)), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
+  ur: "سنن ابی داؤد کی حدیث نمبر 486، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: person/abdullah-ibn-ubayy, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 486 (book 2 hadith 96); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the hadith-api Arabic edition; label and summary are the museum's own words" }

@@ -16,6 +16,7 @@ translations:
   en: { text: "Say (O Muhammad): O ye who are Jews! If ye claim that ye are favoured of Allah apart from (all) mankind, then long for death if ye are truthful.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "کہہ دو کہ اے یہود اگر تم کو دعویٰ ہو کہ تم ہی خدا کے دوست ہو اور لوگ نہیں تو اگر تم سچے ہو تو (ذرا) موت کی آرزو تو کرو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: group/al-yahud, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-62 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

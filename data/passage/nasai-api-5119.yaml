@@ -1,0 +1,16 @@
+id: passage/nasai-api-5119
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "5119"
+label: { ar: "سنن النسائي 5119 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sunan al-Nasa'i 5119 — mentions of non-Muslim nations, religions and peoples", ur: "سنن نسائی 5119 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "أَخْبَرَنَا عَبْدُ الرَّحْمَنِ بْنُ مُحَمَّدِ بْنِ سَلاَّمٍ، قَالَ حَدَّثَنَا شَبَابَةُ، قَالَ حَدَّثَنَا شُعْبَةُ، عَنْ خُلَيْدِ بْنِ جَعْفَرٍ، عَنْ أَبِي نَضْرَةَ، عَنْ أَبِي سَعِيدٍ الْخُدْرِيِّ، قَالَ قَالَ رَسُولُ اللَّهِ \" إِنَّ امْرَأَةً مِنْ بَنِي إِسْرَائِيلَ اتَّخَذَتْ خَاتِمًا مِنَ ذَهَبٍ وَحَشَتْهُ مِسْكًا \". قَالَ رَسُولُ اللَّهِ \" هُوَ أَطْيَبُ الطِّيبِ \"."
+summary:
+  ar: "حديث في سنن النسائي، رقم 5119، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan al-Nasa'i, no. 5119 (The Book of Adornment), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
+  ur: "سنن نسائی کی حدیث نمبر 5119، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: group/banu-israil, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 5119 (book 48 hadith 80); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the hadith-api Arabic edition; label and summary are the museum's own words" }

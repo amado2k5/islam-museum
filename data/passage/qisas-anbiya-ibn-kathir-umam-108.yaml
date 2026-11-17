@@ -1,0 +1,17 @@
+id: passage/qisas-anbiya-ibn-kathir-umam-108
+class: passage
+unit: chapter
+work: work/qisas-al-anbiya-ibn-kathir
+ref: "108"
+label: { ar: "قصص الأنبياء لابن كثير، ص 108 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Ibn Kathir's Qisas al-Anbiya', p. 108 — mentions of non-Muslim nations, religions and peoples", ur: "قصص الانبیاء، ابن کثیر، ص 108 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "… يعقوب بن محمد الزهرى، عن قائد مولى عبد اللّٰه بن أبى رافع، أن إبراهيم بن عبد الرحمن بن أبى ربيعة أخبره أن عائشة أم المؤمنين أخبرته أن رسول اللٰه علي ه قال : فلو رحم اللّٰه من قوم نوح أحداً …"
+summary:
+  ar: "مقطع من قصص الأنبياء لابن كثير، ص 108، فيه ذكر أمم وأديان وشعوب غير مسلمة؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة."
+  en: "An excerpt from Ibn Kathir's Qisas al-Anbiya', p. 108, with mentions of non-Muslim nations, religions and peoples; from the machine-read scan, quoted within forty words per the sources policy. The Umam Browser lists it."
+  ur: "قصص الانبیاء، ابن کثیر، ص 108 کا اقتباس جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: group/qawm-nuh, sources: [source/qisas-al-anbiya-ibn-kathir-iqra-ebook] }
+  - { type: mentions, target: person/abdullah-ibn-ubayy, sources: [source/qisas-al-anbiya-ibn-kathir-iqra-ebook] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan seerah/qisas-anbiya-ibn-kathir/iqraaEBook54, page 108; a window of at most 40 words chosen by the umam detector (scripts/umam.ts); OCR text not corrected", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-ocr-1" }
+sources: [source/qisas-al-anbiya-ibn-kathir-iqra-ebook]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the OCR'd book; label and summary are the museum's own words" }

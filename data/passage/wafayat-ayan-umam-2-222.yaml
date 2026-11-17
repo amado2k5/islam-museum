@@ -1,0 +1,17 @@
+id: passage/wafayat-ayan-umam-2-222
+class: passage
+unit: chapter
+work: work/wafayat-al-ayan
+ref: "2:222"
+label: { ar: "وفيات الأعيان لابن خلكان، المجلد المصوَّر 2، ص 222 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Ibn Khallikan's Wafayat al-A'yan, scan volume 2, p. 222 — mentions of non-Muslim nations, religions and peoples", ur: "وفیات الاعیان، ابن خلکان، اسکین جلد 2، ص 222 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "… الفقيه كما هو دأب شعراه الروم الكوفى مولى تيم اقه بن تعلبة وهو من وهط حزة الزيات والحجم وجعل يزاول كتب كان خزازاييع الخز وجده زوطس أهل كائل وقبل من أهل بابل وقيل من أهل الاتبار الاعاجم وبمارس حتى وقدل …"
+summary:
+  ar: "مقطع من وفيات الأعيان لابن خلكان، المجلد المصوَّر 2، ص 222، فيه ذكر أمم وأديان وشعوب غير مسلمة؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة."
+  en: "An excerpt from Ibn Khallikan's Wafayat al-A'yan, scan volume 2, p. 222, with mentions of non-Muslim nations, religions and peoples; from the machine-read scan, quoted within forty words per the sources policy. The Umam Browser lists it."
+  ur: "وفیات الاعیان، ابن خلکان، اسکین جلد 2، ص 222 کا اقتباس جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: group/al-rum, sources: [source/wafayat-ayan] }
+  - { type: mentions, target: group/al-ajam, sources: [source/wafayat-ayan] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan tareekh/wafayat-ayan/AAlexandrina-147125, page 222; a window of at most 40 words chosen by the umam detector (scripts/umam.ts); OCR text not corrected", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-ocr-1" }
+sources: [source/wafayat-ayan]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the OCR'd book; label and summary are the museum's own words" }

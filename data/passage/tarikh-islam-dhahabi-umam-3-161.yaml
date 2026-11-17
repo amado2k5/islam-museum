@@ -1,0 +1,21 @@
+id: passage/tarikh-islam-dhahabi-umam-3-161
+class: passage
+unit: chapter
+work: work/tarikh-islam-dhahabi
+ref: "3:161"
+label: { ar: "تاريخ الإسلام للذهبي، المجلد المصوَّر 3، ص 161 — ذكر أمم وأديان وشعوب غير مسلمة", en: "al-Dhahabi's Tarikh al-Islam, scan volume 3, p. 161 — mentions of non-Muslim nations, religions and peoples", ur: "تاریخ الاسلام، ذہبی، اسکین جلد 3، ص 161 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "… بن عبد الله بن كعب بن مالك، عن أبيه، أَنّ كعب بن الأشرف اليهودي كان شاعراً، وكان يهجو رسول اللّٰه تَيخ ويحرّض عليه كُفّار قريش في شعره. وكان رسول اللّٰه وَلِ قدِم المدينة وأهلُها أخلاطٌ، منهم المسلمون، ومنهم عَبَدَة الأوثان، …"
+summary:
+  ar: "مقطع من تاريخ الإسلام للذهبي، المجلد المصوَّر 3، ص 161، فيه ذكر أمم وأديان وشعوب غير مسلمة؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة."
+  en: "An excerpt from al-Dhahabi's Tarikh al-Islam, scan volume 3, p. 161, with mentions of non-Muslim nations, religions and peoples; from the machine-read scan, quoted within forty words per the sources policy. The Umam Browser lists it."
+  ur: "تاریخ الاسلام، ذہبی، اسکین جلد 3، ص 161 کا اقتباس جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: group/al-yahud, sources: [source/tarikh-islam-dhahabi] }
+  - { type: mentions, target: group/al-mushrikun, sources: [source/tarikh-islam-dhahabi] }
+  - { type: mentions, target: concept/shirk, sources: [source/tarikh-islam-dhahabi] }
+  - { type: mentions, target: group/quraysh, sources: [source/tarikh-islam-dhahabi] }
+  - { type: mentions, target: person/kaab-ibn-al-ashraf, sources: [source/tarikh-islam-dhahabi] }
+  - { type: mentions, target: concept/kufr, sources: [source/tarikh-islam-dhahabi] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan tareekh/tarikh-islam-dhahabi/volume-3, page 161; a window of at most 40 words chosen by the umam detector (scripts/umam.ts); OCR text not corrected", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-ocr-1" }
+sources: [source/tarikh-islam-dhahabi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the OCR'd book; label and summary are the museum's own words" }

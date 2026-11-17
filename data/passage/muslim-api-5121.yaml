@@ -1,0 +1,16 @@
+id: passage/muslim-api-5121
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "5121"
+label: { ar: "صحيح مسلم 5121 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sahih Muslim 5121 — mentions of non-Muslim nations, religions and peoples", ur: "صحیح مسلم 5121 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "وَحَدَّثَنِي حَجَّاجُ بْنُ الشَّاعِرِ، حَدَّثَنِي يَحْيَى بْنُ كَثِيرٍ الْعَنْبَرِيُّ أَبُو غَسَّانَ، حَدَّثَنَا شُعْبَةُ، عَنْ مَالِكِ بْنِ أَنَسٍ، عَنْ عُمَرَ بْنِ مُسْلِمٍ، عَنْ سَعِيدِ بْنِ الْمُسَيَّبِ، عَنْ أُمِّ سَلَمَةَ، أَنَّ النَّبِيَّ قَالَ \" إِذَا رَأَيْتُمْ هِلاَلَ ذِي الْحِجَّةِ وَأَرَادَ أَحَدُكُمْ أَنْ يُضَحِّيَ فَلْيُمْسِكْ عَنْ شَعْرِهِ وَأَظْفَارِهِ \"."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 5121، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sahih Muslim, no. 5121 (The Book of Sacrifices), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
+  ur: "صحیح مسلم کی حدیث نمبر 5121، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: group/ghassan, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 5121 (book 35 hadith 55); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the hadith-api Arabic edition; label and summary are the museum's own words" }

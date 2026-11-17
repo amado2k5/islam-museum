@@ -1,0 +1,21 @@
+id: passage/subul-huda-umam-1-41
+class: passage
+unit: chapter
+work: work/subul-al-huda-wa-al-rashad
+ref: "1:41"
+label: { ar: "سبل الهدى والرشاد للصالحي، المجلد المصوَّر 1، ص 41 — ذكر أمم وأديان وشعوب غير مسلمة", en: "al-Salihi's Subul al-Huda wa-l-Rashad, scan volume 1, p. 41 — mentions of non-Muslim nations, religions and peoples", ur: "سبل الہدیٰ والرشاد، صالحی، اسکین جلد 1، ص 41 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "… مصر وما يحدث فيها. باب: إخباره بغزاة البحر وأَن أُم حِرَام منهم. باب: إخباره بقتال خوز وكرمان وقوم نعالهم الشعر. باب: إخباره بغزو الهند وبفتح فارس والروم. باب: إخباره بهلاك كسرى وقيصر وإنفاق كنوزهما وأَنه لا يكون بعدهما كسرى ولا …"
+summary:
+  ar: "مقطع من سبل الهدى والرشاد للصالحي، المجلد المصوَّر 1، ص 41، فيه ذكر أمم وأديان وشعوب غير مسلمة؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة."
+  en: "An excerpt from al-Salihi's Subul al-Huda wa-l-Rashad, scan volume 1, p. 41, with mentions of non-Muslim nations, religions and peoples; from the machine-read scan, quoted within forty words per the sources policy. The Umam Browser lists it."
+  ur: "سبل الہدیٰ والرشاد، صالحی، اسکین جلد 1، ص 41 کا اقتباس جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: group/al-rum, sources: [source/subul-huda-salihi] }
+  - { type: mentions, target: group/persians, sources: [source/subul-huda-salihi] }
+  - { type: mentions, target: group/al-hind, sources: [source/subul-huda-salihi] }
+  - { type: mentions, target: person/heraclius, sources: [source/subul-huda-salihi] }
+  - { type: mentions, target: person/kisra-abrawiz, sources: [source/subul-huda-salihi] }
+  - { type: mentions, target: concept/munafiq, sources: [source/subul-huda-salihi] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan seerah/subul-huda/00_20260711, page 41; a window of at most 40 words chosen by the umam detector (scripts/umam.ts); OCR text not corrected", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-ocr-1" }
+sources: [source/subul-huda-salihi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the OCR'd book; label and summary are the museum's own words" }

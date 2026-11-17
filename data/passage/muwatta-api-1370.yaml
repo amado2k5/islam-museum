@@ -1,0 +1,16 @@
+id: passage/muwatta-api-1370
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "1370"
+label: { ar: "موطأ مالك 1370 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Muwatta Malik 1370 — mentions of non-Muslim nations, religions and peoples", ur: "موطأ مالک 1370 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "وَحَدَّثَنِي مَالِكٌ، عَنْ مُوسَى بْنِ مَيْسَرَةَ، أَنَّهُ سَمِعَ رَجُلاً، يَسْأَلُ سَعِيدَ بْنَ الْمُسَيَّبِ فَقَالَ إِنِّي رَجُلٌ أَبِيعُ بِالدَّيْنِ. فَقَالَ سَعِيدٌ لاَ تَبِعْ إِلاَّ مَا آوَيْتَ إِلَى رَحْلِكَ. قَالَ مَالِكٌ فِي الَّذِي يَشْتَرِي السِّلْعَةَ مِنَ الرَّجُلِ عَلَى أَنْ يُوَفِّيَهُ تِلْكَ السِّلْعَةَ إِلَى أَجَلٍ مُسَمًّى إِمَّا لِسُوقٍ يَرْجُو نَفَاقَهَا فِيهِ وَإِمَّا لِحَاجَةٍ فِي ذَلِكَ الزَّمَانِ الَّذِي اشْتَرَطَ …"
+summary:
+  ar: "حديث في موطأ مالك، رقم 1370، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Muwatta Malik, no. 1370 (Business Transactions), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
+  ur: "موطأ مالک کی حدیث نمبر 1370، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/munafiq, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 1370 (book 31 hadith 32); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }
+sources: [source/muwatta-malik, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the hadith-api Arabic edition; label and summary are the museum's own words" }

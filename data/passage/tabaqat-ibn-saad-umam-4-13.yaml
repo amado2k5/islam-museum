@@ -1,0 +1,16 @@
+id: passage/tabaqat-ibn-saad-umam-4-13
+class: passage
+unit: chapter
+work: work/al-tabaqat-al-kubra-ibn-sad
+ref: "4:13"
+label: { ar: "الطبقات الكبرى لابن سعد، المجلد المصوَّر 4، ص 13 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Ibn Sa'd's al-Tabaqat al-Kubra, scan volume 4, p. 13 — mentions of non-Muslim nations, religions and peoples", ur: "الطبقات الکبریٰ، ابن سعد، اسکین جلد 4، ص 13 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "… فقُتلوا يوم النُّجير. وإنَّما سُمّوا ملوكاً لأَنَّه كان لكلّ واحدٍ منهم وادٍ يملكه بما فيه. وهاجر ه كثير وزبيد وعبد الرحمن بنو الصلت إلى المدينة فسكنوها، وحالفوا بنى جُمَح ابن عمرو بن قريش، فسلم يزل ديوانهم ودعوتهم معهم حتى كان …"
+summary:
+  ar: "مقطع من الطبقات الكبرى لابن سعد، المجلد المصوَّر 4، ص 13، فيه ذكر أمم وأديان وشعوب غير مسلمة؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة."
+  en: "An excerpt from Ibn Sa'd's al-Tabaqat al-Kubra, scan volume 4, p. 13, with mentions of non-Muslim nations, religions and peoples; from the machine-read scan, quoted within forty words per the sources policy. The Umam Browser lists it."
+  ur: "الطبقات الکبریٰ، ابن سعد، اسکین جلد 4، ص 13 کا اقتباس جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: group/quraysh, sources: [source/tabaqat-ibn-sad] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan tabaqat/tabaqat-ibn-saad/AAlexandrina-144157, page 13; a window of at most 40 words chosen by the umam detector (scripts/umam.ts); OCR text not corrected", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-ocr-1" }
+sources: [source/tabaqat-ibn-sad]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the OCR'd book; label and summary are the museum's own words" }

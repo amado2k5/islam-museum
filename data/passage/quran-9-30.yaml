@@ -16,6 +16,8 @@ translations:
   en: { text: "And the Jews say: Ezra is the son of Allah, and the Christians say: The Messiah is the son of Allah. That is their saying with their mouths. They imitate the saying of those who disbelieved of old. Allah (Himself) fighteth against them. How perverse are they!", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "اور یہود کہتے ہیں کہ عُزیر خدا کے بیٹے ہیں اور عیسائی کہتے ہیں کہ مسیح خدا کے بیٹے ہیں۔ یہ ان کے منہ کی باتیں ہیں پہلے کافر بھی اسی طرح کی باتیں کہا کرتے تھے یہ بھی انہیں کی ریس کرنے میں لگے ہیں۔ خدا ان کو ہلاک کرے۔ یہ کہاں بہکے پھرتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: group/al-nasara, sources: [source/tanzil-quran] }
+  - { type: mentions, target: group/al-yahud, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-9 }
   - { type: mentions, target: person/isa-ibn-maryam, sources: [source/tanzil-quran] }
   - { type: mentions, target: person/uzair, sources: [source/tanzil-quran] }

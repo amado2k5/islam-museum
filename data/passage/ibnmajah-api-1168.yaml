@@ -1,0 +1,16 @@
+id: passage/ibnmajah-api-1168
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "1168"
+label: { ar: "سنن ابن ماجه 1168 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sunan Ibn Majah 1168 — mentions of non-Muslim nations, religions and peoples", ur: "سنن ابن ماجہ 1168 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "حَدَّثَنَا مُحَمَّدُ بْنُ رُمْحٍ الْمِصْرِيُّ، أَنْبَأَنَا اللَّيْثُ بْنُ سَعْدٍ، عَنْ يَزِيدَ بْنِ أَبِي حَبِيبٍ، عَنْ عَبْدِ اللَّهِ بْنِ رَاشِدٍ الزَّوْفِيِّ، عَنْ عَبْدِ اللَّهِ بْنِ أَبِي مُرَّةَ الزَّوْفِيِّ، عَنْ خَارِجَةَ بْنِ حُذَافَةَ الْعَدَوِيِّ، قَالَ خَرَجَ عَلَيْنَا النَّبِيُّ ـ فَقَالَ \" إِنَّ اللَّهَ قَدْ أَمَدَّكُمْ بِصَلاَةٍ، لَهِيَ خَيْرٌ لَكُمْ مِنْ حُمُرِ النَّعَمِ. الْوِتْرُ، جَعَلَهُ اللَّهُ لَكُمْ فِيمَا …"
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 1168، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan Ibn Majah, no. 1168 (Establishing the Prayer and the Sunnah Regarding Them), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 1168، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: person/abdullah-ibn-ubayy, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 1168 (book 5 hadith 366); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the hadith-api Arabic edition; label and summary are the museum's own words" }

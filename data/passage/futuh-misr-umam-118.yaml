@@ -1,0 +1,17 @@
+id: passage/futuh-misr-umam-118
+class: passage
+unit: chapter
+work: work/futuh-misr
+ref: "118"
+label: { ar: "فتوح مصر لابن عبد الحكم، ص 118 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Ibn 'Abd al-Hakam's Futuh Misr, p. 118 — mentions of non-Muslim nations, religions and peoples", ur: "فتوح مصر، ابن عبد الحکم، ص 118 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "… المصالح الأميرية منها. إلى الزقازيف، وكانت بليس تسمى قديماً فليس أو فلابيس. الجيش العربى قتال، يقال إن الروم خسروا فيه آلف آلف قتيل وثلاثة آلاف أسر. وردة مت الري الو م ل ا ال يور لتزف إلى قسلنطين بن هرقل، …"
+summary:
+  ar: "مقطع من فتوح مصر لابن عبد الحكم، ص 118، فيه ذكر أمم وأديان وشعوب غير مسلمة؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة."
+  en: "An excerpt from Ibn 'Abd al-Hakam's Futuh Misr, p. 118, with mentions of non-Muslim nations, religions and peoples; from the machine-read scan, quoted within forty words per the sources policy. The Umam Browser lists it."
+  ur: "فتوح مصر، ابن عبد الحکم، ص 118 کا اقتباس جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: group/al-rum, sources: [source/futuh-misr-amir-1999] }
+  - { type: mentions, target: person/heraclius, sources: [source/futuh-misr-amir-1999] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan tareekh/futuh-misr/volume-1, page 118; a window of at most 40 words chosen by the umam detector (scripts/umam.ts); OCR text not corrected", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-ocr-1" }
+sources: [source/futuh-misr-amir-1999]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the OCR'd book; label and summary are the museum's own words" }

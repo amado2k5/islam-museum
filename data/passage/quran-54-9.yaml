@@ -16,6 +16,7 @@ translations:
   en: { text: "The folk of Noah denied before them, yea, they denied Our slave and said: A madman; and he was repulsed.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "ان سے پہلے نوحؑ کی قوم نے بھی تکذیب کی تھی تو انہوں نے ہمارے بندے کو جھٹلایا اور کہا کہ دیوانہ ہے اور انہیں ڈانٹا بھی", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: group/qawm-nuh, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-54 }
   - { type: mentions, target: person/nuh, sources: [source/tanzil-quran] }
 sensitivity: sacred

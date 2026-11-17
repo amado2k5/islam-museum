@@ -16,6 +16,7 @@ translations:
   en: { text: "(Self-)destroyed were the owners of the ditch", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "کہ خندقوں (کے کھودنے) والے ہلاک کر دیئے گئے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: group/ashab-al-uhdud, sources: [source/tanzil-quran] }
   - { type: revealed_about, target: event/massacre-of-najran }
   - { type: part_of, target: passage/quran-85 }
   - { type: mentions, target: group/ashab-ukhdud, sources: [source/tanzil-quran] }

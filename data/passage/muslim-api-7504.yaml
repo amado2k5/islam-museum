@@ -1,0 +1,16 @@
+id: passage/muslim-api-7504
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "7504"
+label: { ar: "صحيح مسلم 7504 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sahih Muslim 7504 — mentions of non-Muslim nations, religions and peoples", ur: "صحیح مسلم 7504 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "حَدَّثَنِي أَبُو جَعْفَرٍ، مُحَمَّدُ بْنُ الصَّبَّاحِ حَدَّثَنَا إِسْمَاعِيلُ بْنُ زَكَرِيَّاءَ، عَنْ بُرَيْدِ بْنِ، عَبْدِ اللَّهِ بْنِ أَبِي بُرْدَةَ عَنْ أَبِي بُرْدَةَ، عَنْ أَبِي مُوسَى، قَالَ سَمِعَ النَّبِيُّ رَجُلاً يُثْنِي عَلَى رَجُلٍ وَيُطْرِيهِ فِي الْمِدْحَةِ فَقَالَ \" لَقَدْ أَهْلَكْتُمْ أَوْ قَطَعْتُمْ ظَهْرَ الرَّجُلِ \"."
+summary:
+  ar: "حديث في صحيح مسلم، رقم 7504، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sahih Muslim, no. 7504 (The Book of Zuhd and Softening of Hearts), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
+  ur: "صحیح مسلم کی حدیث نمبر 7504، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: person/abdullah-ibn-ubayy, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 7504 (book 55 hadith 86); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }
+sources: [source/sahih-muslim, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the hadith-api Arabic edition; label and summary are the museum's own words" }

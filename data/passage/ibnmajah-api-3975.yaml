@@ -1,0 +1,16 @@
+id: passage/ibnmajah-api-3975
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "3975"
+label: { ar: "سنن ابن ماجه 3975 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sunan Ibn Majah 3975 — mentions of non-Muslim nations, religions and peoples", ur: "سنن ابن ماجہ 3975 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "حَدَّثَنَا عَلِيُّ بْنُ مُحَمَّدٍ، حَدَّثَنَا خَالِي، يَعْلَى عَنِ الأَعْمَشِ، عَنْ إِبْرَاهِيمَ، عَنْ أَبِي الشَّعْثَاءِ، قَالَ قِيلَ لاِبْنِ عُمَرَ إِنَّا نَدْخُلُ عَلَى أُمَرَائِنَا فَنَقُولُ الْقَوْلَ فَإِذَا خَرَجْنَا قُلْنَا غَيْرَهُ. قَالَ كُنَّا نَعُدُّ ذَلِكَ عَلَى عَهْدِ رَسُولِ اللَّهِ ـ النِّفَاقَ."
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 3975، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan Ibn Majah, no. 3975 (Tribulations), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 3975، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/munafiq, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 3975 (book 36 hadith 50); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the hadith-api Arabic edition; label and summary are the museum's own words" }

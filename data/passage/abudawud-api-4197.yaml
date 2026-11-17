@@ -1,0 +1,16 @@
+id: passage/abudawud-api-4197
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "4197"
+label: { ar: "سنن أبي داود 4197 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sunan Abi Dawud 4197 — mentions of non-Muslim nations, religions and peoples", ur: "سنن ابی داؤد 4197 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "حَدَّثَنَا الْحَسَنُ بْنُ عَلِيٍّ، حَدَّثَنَا يَزِيدُ بْنُ هَارُونَ، حَدَّثَنَا الْحَجَّاجُ بْنُ حَسَّانَ، قَالَ دَخَلْنَا عَلَى أَنَسِ بْنِ مَالِكٍ فَحَدَّثَتْنِي أُخْتِي الْمُغِيرَةُ، قَالَتْ وَأَنْتَ يَوْمَئِذٍ غُلاَمٌ وَلَكَ قَرْنَانِ أَوْ قُصَّتَانِ فَمَسَحَ رَأْسَكَ وَبَرَّكَ عَلَيْكَ وَقَالَ \" احْلِقُوا هَذَيْنِ أَوْ قُصُّوهُمَا فَإِنَّ هَذَا زِيُّ الْيَهُودِ \"."
+summary:
+  ar: "حديث في سنن أبي داود، رقم 4197، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan Abi Dawud, no. 4197 (Combing the Hair (Kitab Al-Tarajjul)), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
+  ur: "سنن ابی داؤد کی حدیث نمبر 4197، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: group/al-yahud, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 4197 (book 35 hadith 39); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the hadith-api Arabic edition; label and summary are the museum's own words" }

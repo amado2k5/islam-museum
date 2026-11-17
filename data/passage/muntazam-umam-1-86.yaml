@@ -1,0 +1,18 @@
+id: passage/muntazam-umam-1-86
+class: passage
+unit: chapter
+work: work/al-muntazam-ibn-al-jawzi
+ref: "1:86"
+label: { ar: "المنتظم لابن الجوزي، المجلد المصوَّر 1، ص 86 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Ibn al-Jawzi's al-Muntazam, scan volume 1, p. 86 — mentions of non-Muslim nations, religions and peoples", ur: "المنتظم، ابن الجوزی، اسکین جلد 1، ص 86 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "… من قتل ومنهم من قدى نفسه. والنصف من شوال خاع على مؤنس الخادم وامر بالشخوص الى طرسوس لغز و الروم فخرج. وفى هذه السنة امر المقتدر أن لا يستعان بأحد من اليهود والنصارى فالزموا بيوتهم وأخذوا بلبس العسلى والرتاع من …"
+summary:
+  ar: "مقطع من المنتظم لابن الجوزي، المجلد المصوَّر 1، ص 86، فيه ذكر أمم وأديان وشعوب غير مسلمة؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة."
+  en: "An excerpt from Ibn al-Jawzi's al-Muntazam, scan volume 1, p. 86, with mentions of non-Muslim nations, religions and peoples; from the machine-read scan, quoted within forty words per the sources policy. The Umam Browser lists it."
+  ur: "المنتظم، ابن الجوزی، اسکین جلد 1، ص 86 کا اقتباس جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: group/al-yahud, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: mentions, target: group/al-nasara, sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: mentions, target: group/al-rum, sources: [source/muntazam-ibn-al-jawzi] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan tareekh/muntazam/AAlexandrina-011148, page 86; a window of at most 40 words chosen by the umam detector (scripts/umam.ts); OCR text not corrected", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-ocr-1" }
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the OCR'd book; label and summary are the museum's own words" }

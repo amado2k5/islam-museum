@@ -1,0 +1,16 @@
+id: passage/bukhari-api-5637
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "5637"
+label: { ar: "صحيح البخاري 5637 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sahih al-Bukhari 5637 — mentions of non-Muslim nations, religions and peoples", ur: "صحیح بخاری 5637 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "حَدَّثَنَا سَعِيدُ بْنُ أَبِي مَرْيَمَ، حَدَّثَنَا أَبُو غَسَّانَ، قَالَ حَدَّثَنِي أَبُو حَازِمٍ، عَنْ سَهْلِ بْنِ سَعْدٍ ـ قَالَ ذُكِرَ لِلنَّبِيِّ امْرَأَةٌ مِنَ الْعَرَبِ، فَأَمَرَ أَبَا أُسَيْدٍ السَّاعِدِيَّ أَنْ يُرْسِلَ إِلَيْهَا فَأَرْسَلَ إِلَيْهَا، فَقَدِمَتْ فَنَزَلَتْ فِي أُجُمِ بَنِي سَاعِدَةَ، فَخَرَجَ النَّبِيُّ حَتَّى جَاءَهَا فَدَخَلَ عَلَيْهَا فَإِذَا امْرَأَةٌ مُنَكِّسَةٌ رَأْسَهَا، فَلَمَّا كَلَّمَهَا النَّبِيُّ قَالَتْ أَعُوذُ بِاللَّهِ مِنْكَ. …"
+summary:
+  ar: "حديث في صحيح البخاري، رقم 5637، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sahih al-Bukhari, no. 5637 (Drinks), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
+  ur: "صحیح بخاری کی حدیث نمبر 5637، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: group/ghassan, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 5637 (book 74 hadith 63); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }
+sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the hadith-api Arabic edition; label and summary are the museum's own words" }

@@ -1,0 +1,19 @@
+id: passage/subul-huda-umam-1-488
+class: passage
+unit: chapter
+work: work/subul-al-huda-wa-al-rashad
+ref: "1:488"
+label: { ar: "سبل الهدى والرشاد للصالحي، المجلد المصوَّر 1، ص 488 — ذكر أمم وأديان وشعوب غير مسلمة", en: "al-Salihi's Subul al-Huda wa-l-Rashad, scan volume 1, p. 488 — mentions of non-Muslim nations, religions and peoples", ur: "سبل الہدیٰ والرشاد، صالحی، اسکین جلد 1، ص 488 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "… منسوب إِلى العرب وهم خلاف العجم. والعرب أَقسام: عاربة وعرب وهم الخُلَّص، وهم تسع قبائل من ولد إِرَم ومن ولد سام بن نوح عليه وعلى نبينا الصلاة والسلام وهي: عاد وثمود وأُمّيْم وعبيد وطَسْم، بطاء مفتوحة فسين ساكنة مهملتين، وجَدِيس، …"
+summary:
+  ar: "مقطع من سبل الهدى والرشاد للصالحي، المجلد المصوَّر 1، ص 488، فيه ذكر أمم وأديان وشعوب غير مسلمة؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة."
+  en: "An excerpt from al-Salihi's Subul al-Huda wa-l-Rashad, scan volume 1, p. 488, with mentions of non-Muslim nations, religions and peoples; from the machine-read scan, quoted within forty words per the sources policy. The Umam Browser lists it."
+  ur: "سبل الہدیٰ والرشاد، صالحی، اسکین جلد 1، ص 488 کا اقتباس جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: group/aad, sources: [source/subul-huda-salihi] }
+  - { type: mentions, target: group/thamud, sources: [source/subul-huda-salihi] }
+  - { type: mentions, target: group/jadis, sources: [source/subul-huda-salihi] }
+  - { type: mentions, target: group/al-ajam, sources: [source/subul-huda-salihi] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan seerah/subul-huda/00_20260711, page 488; a window of at most 40 words chosen by the umam detector (scripts/umam.ts); OCR text not corrected", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-ocr-1" }
+sources: [source/subul-huda-salihi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the OCR'd book; label and summary are the museum's own words" }

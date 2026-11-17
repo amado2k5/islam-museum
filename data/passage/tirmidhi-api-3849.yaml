@@ -1,0 +1,17 @@
+id: passage/tirmidhi-api-3849
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "3849"
+label: { ar: "جامع الترمذي 3849 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Jami' al-Tirmidhi 3849 — mentions of non-Muslim nations, religions and peoples", ur: "جامع ترمذی 3849 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "حَدَّثَنَا عَبْدُ بْنُ حُمَيْدٍ، قَالَ أَخْبَرَنَا عَبْدُ الرَّزَّاقِ، قَالَ أَخْبَرَنَا مَعْمَرٌ، عَنْ قَتَادَةَ، عَنْ أَنَسِ بْنِ مَالِكٍ، قَالَ لَمَّا حُمِلَتْ جَنَازَةُ سَعْدِ بْنِ مُعَاذٍ قَالَ الْمُنَافِقُونَ مَا أَخَفَّ جَنَازَتَهُ. وَذَلِكَ لِحُكْمِهِ فِي بَنِي قُرَيْظَةَ فَبَلَغَ ذَلِكَ النَّبِيَّ فَقَالَ \" إِنَّ الْمَلاَئِكَةَ كَانَتْ تَحْمِلُهُ \". قَالَ أَبُو عِيسَى هَذَا حَدِيثٌ حَسَنٌ صَحِيحٌ غَرِيبٌ."
+summary:
+  ar: "حديث في جامع الترمذي، رقم 3849، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Jami' al-Tirmidhi, no. 3849 (Chapters on Virtues), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
+  ur: "جامع ترمذی کی حدیث نمبر 3849، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: group/banu-qurayza, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+  - { type: mentions, target: concept/munafiq, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 3849 (book 49 hadith 249); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the hadith-api Arabic edition; label and summary are the museum's own words" }

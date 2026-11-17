@@ -1,0 +1,16 @@
+id: passage/ibnmajah-api-1775
+class: passage
+unit: hadith
+work: work/sunan-ibn-majah
+ref: "1775"
+label: { ar: "سنن ابن ماجه 1775 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sunan Ibn Majah 1775 — mentions of non-Muslim nations, religions and peoples", ur: "سنن ابن ماجہ 1775 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "حَدَّثَنَا مُحَمَّدُ بْنُ عَبْدِ الأَعْلَى الصَّنْعَانِيُّ، حَدَّثَنَا الْمُعْتَمِرُ بْنُ سُلَيْمَانَ، حَدَّثَنِي عُمَارَةُ بْنُ غَزِيَّةَ، قَالَ سَمِعْتُ مُحَمَّدَ بْنَ إِبْرَاهِيمَ، عَنْ أَبِي سَلَمَةَ، عَنْ أَبِي سَعِيدٍ الْخُدْرِيِّ، أَنَّ رَسُولَ اللَّهِ ـ اعْتَكَفَ فِي قُبَّةٍ تُرْكِيَّةٍ عَلَى سُدَّتِهَا قِطْعَةُ حَصِيرٍ. قَالَ فَأَخَذَ الْحَصِيرَ بِيَدِهِ فَنَحَّاهَا فِي نَاحِيَةِ الْقُبَّةِ ثُمَّ أَطْلَعَ رَأْسَهُ فَكَلَّمَ النَّاسَ."
+summary:
+  ar: "حديث في سنن ابن ماجه، رقم 1775، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan Ibn Majah, no. 1775 (Fasting), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
+  ur: "سنن ابن ماجہ کی حدیث نمبر 1775، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: group/al-turk, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 1775 (book 7 hadith 138); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }
+sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the hadith-api Arabic edition; label and summary are the museum's own words" }

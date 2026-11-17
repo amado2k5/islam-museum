@@ -1873,6 +1873,10 @@ explore:
       title: "Four Madhhabs Browser"
       desc: "The four imams and the schools they founded, the salaf, the canonical books and the school mutun that carry them — every mention of the madhhabs in the Sunni books with its source."
       menu: "Browse the four madhhabs and their mentions"
+    umam:
+      title: "The Non-Muslim Nations, Religions, Sects and Peoples Browser"
+      desc: "Every non-Muslim nation, religion, sect and people named in the Qur'an, the hadith, the sira, the reports of the Companions and Successors and every harvested book — the vanished nations, the People of the Book, the polytheists, the kings and figures of the earth — each mention with its source."
+      menu: "Browse the nations, religions and peoples and their mentions"
     bayt:
       title: "Household of the Prophet Browser"
       desc: "Everything mentioned about the Prophet's household and family — the People of the House, the Prophet's clan, his wives, daughters and descendants — in the Qur'an, the Sunnah, the seerah and the harvested books."
@@ -6866,6 +6870,72 @@ sport:
       sunnah: { title: "Sunnah" }
       seerah: { title: "Seerah" }
       books: { title: "Books" }
+
+umam:
+  also_under: "Also under:"
+  title: "The Non-Muslim Nations, Religions, Sects and Peoples Browser"
+  lede: "The non-Muslim nations, religions, sects and peoples named in the Qur'an, the hadith and the reports and books of the Companions and Successors: the vanished nations from 'Ad and Thamud to the people of Tubba', the People of the Book and the Magians and the Sabians, the polytheists of Arabia, the kings and figures of the earth and the far peoples — every verse, report and narrative that names them, each mention with its source."
+  badge: "Nations and peoples explorer"
+  status: "This build holds {n} records in {s} sections; texts are draft until a human reviews them."
+  method_title: "How the browser works"
+  method_note: "Every record here is an ordinary museum record — sourced and trilingual — with no side table. Curated records carry the umam-browser tag and um-<section> tags; any work, passage or question with a 'mentions' edge to a browser member joins 'Mentions in the sources' plus the target's sections; and a guarded lexicon reads passage texts and picks up only unambiguous names — so a book harvested later appears here the day its edges land. The Qur'an's text is never lexically scanned: its verses join only through reviewed 'mentions' edges."
+  api: "The full dataset is at"
+  sections_title: "Browser sections"
+  filter_label: "Filter records"
+  filter_none: "No matching records."
+  empty: "No records in this build yet."
+  mentioned_title: "The most-mentioned nations in the sources"
+  mentioned_in: "Mentioned in:"
+  timeline_title: "On the timeline"
+  timeline_caption: "Dated records: {n} · undated: {u}"
+  sections:
+    umam:
+      title: "The recounted nations"
+      desc: "The nations the Qur'an recounts and God destroyed: 'Ad and Thamud and Saba', the peoples of Nuh and Lut and Shu'ayb, the Companions of al-Rass, the Ditch and the Town, the people of Tubba', and Pharaoh's people — each nation with its verses and reports."
+    adyan:
+      title: "The religions"
+      desc: "The confessions the Qur'an and hadith name: the Jews, the Christians, the Magians and the Sabians — the religions between which and Islam stood covenant, war and dhimma."
+    tawaif:
+      title: "Sects and tribes"
+      desc: "The communities inside the religions and the Arab tribes whose people followed a faith other than Islam: Banu Qaynuqa', al-Nadir and Qurayza, the Jews of Khaybar, the Christians of Najran, Ghassan and Lakhm — as the books name them."
+    shuub:
+      title: "Peoples and nations"
+      desc: "The far and near peoples of the earth the sources record: the Romans, the Persians, the Abyssinians, the Copts, the Turks, India, China, the Berbers, the Zanj, the Slavs, the Rus and the Nabataeans — the people of kingdoms and provinces."
+    mushrikun:
+      title: "The polytheists of Arabia"
+      desc: "Arabia's idol-worshippers before Islam: the people of Makka and Quraysh and those who shared their religion, their idols and rites and their affair until the Conquest — a section of their own, for they were neither People of the Book nor another creed."
+    ayan:
+      title: "Named figures"
+      desc: "The individuals the sources name from these nations: Heraclius and Khosrow, the Negus and al-Muqawqis and al-Mundhir ibn Sawa, the rabbis of Medina's Jews, the lords of Quraysh's polytheists, and those of another faith before Islam."
+    sukun:
+      title: "Lands and dwellings"
+      desc: "The lands and places these nations inhabited: Najran and Khaybar, al-Hira and Busra, Yathrib and al-Ahqaf and Petra — each place with its report."
+    mafahim:
+      title: "Concepts"
+      desc: "The sources' vocabulary about these nations: the People of the Book, the people of dhimma, jizya, shirk, kufr, hypocrisy, the hanif and the ummah — the ideas that classified the relations."
+    kutub:
+      title: "Books and sources"
+      desc: "The works that keep these nations' reports: the tafsirs and the sahihs, the sira and maghazi books, the histories and conquest chronicles and the heresiographies — each book in its role."
+    dhikr:
+      title: "Mentions in the sources"
+      desc: "Every verse, passage, work, event and question in the museum that names a non-Muslim nation, religion, sect or people — it joins here by a 'mentions' edge or by its unambiguous name in the text, carrying its target's section(s)."
+  viz:
+    caption: "The map of the texts' world: Makka and Madina at the heart, Rome to the north-west and Persia to the north-east and Abyssinia to the south-west, the People of the Book as a band across the middle, the vanished nations below the horizon line, the far peoples on the rim. Every dot is a real record and a real link."
+    aria: "Diagram of the texts' world: the nations, religions and peoples around Makka and Madina"
+    legend: "Section key"
+    makka: "Makka"
+    madina: "Madina"
+    horizon: "The vanished nations — below the horizon"
+    arabia: "Arabia — the shirk"
+    kitab: "People of the Book and sects"
+    rum: "Rome — Caesar"
+    fars: "Persia — Khosrow"
+    habasha: "Abyssinia"
+    rim: "The far peoples"
+    ayan: "Named figures"
+    sukun: "The lands"
+    mafahim: "Concepts"
+    kutub: "Books"
 i3lam:
   title: "The Muslim Media-Makers Browser"
   lede: "Every mention of the people who carried the word — from the muezzin who called the adhan to the herald of the markets, the khatib on the minbar, the spokesman of the caliph and the envoy of the Prophet, the katib of revelation and of the chancery, the journalist of the new press, the broadcaster and the influencer, the reformer and the revolutionary — in the Qur'an, the Sunnah, the seerah, the reports of the Companions and Successors, and every book harvested into the museum, now and in the future."
@@ -6913,4 +6983,3 @@ i3lam:
       note: "Every other harvested book in the corpus."
   tagged_title: "Records tagged to this browser"
   tagged_note: "Any record carrying the i3lam-browser tag joins here automatically — this is how future harvested material surfaces."
-

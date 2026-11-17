@@ -1,0 +1,16 @@
+id: passage/nasai-api-2511
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "2511"
+label: { ar: "سنن النسائي 2511 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sunan al-Nasa'i 2511 — mentions of non-Muslim nations, religions and peoples", ur: "سنن نسائی 2511 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "أَخْبَرَنَا مُحَمَّدُ بْنُ عَلِيِّ بْنِ حَرْبٍ، قَالَ حَدَّثَنَا مُحْرِزُ بْنُ الْوَضَّاحِ، عَنْ إِسْمَاعِيلَ، - وَهُوَ ابْنُ أُمَيَّةَ - عَنِ الْحَارِثِ بْنِ عَبْدِ الرَّحْمَنِ بْنِ أَبِي ذُبَابٍ، عَنْ عِيَاضِ بْنِ عَبْدِ اللَّهِ بْنِ أَبِي سَرْحٍ، عَنْ أَبِي سَعِيدٍ الْخُدْرِيِّ، قَالَ فَرَضَ رَسُولُ اللَّهِ صَدَقَةَ الْفِطْرِ صَاعًا مِنْ شَعِيرٍ أَوْ صَاعًا مِنْ تَمْرٍ أَوْ صَاعًا مِنْ أَقِطٍ."
+summary:
+  ar: "حديث في سنن النسائي، رقم 2511، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan al-Nasa'i, no. 2511 (The Book of Zakah), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
+  ur: "سنن نسائی کی حدیث نمبر 2511، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: person/abdullah-ibn-ubayy, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 2511 (book 23 hadith 77); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the hadith-api Arabic edition; label and summary are the museum's own words" }

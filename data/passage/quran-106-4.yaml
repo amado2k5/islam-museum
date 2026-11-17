@@ -16,6 +16,8 @@ translations:
   en: { text: "Who hath fed them against hunger and hath made them safe from fear.", translator: "Marmaduke Pickthall", license: PD }
   ur: { text: "جس نے ان کو بھوک میں کھانا کھلایا اور خوف سے امن بخشا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
+  - { type: mentions, target: group/quraysh, sources: [source/tanzil-quran] }
+  - { type: mentions, target: group/al-mushrikun, sources: [source/tanzil-quran] }
   - { type: part_of, target: passage/quran-106 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

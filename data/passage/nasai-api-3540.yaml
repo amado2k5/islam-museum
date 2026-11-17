@@ -1,0 +1,16 @@
+id: passage/nasai-api-3540
+class: passage
+unit: hadith
+work: work/sunan-al-nasai
+ref: "3540"
+label: { ar: "سنن النسائي 3540 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sunan al-Nasa'i 3540 — mentions of non-Muslim nations, religions and peoples", ur: "سنن نسائی 3540 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "أَخْبَرَنَا مُحَمَّدُ بْنُ مَعْدَانَ بْنِ عِيسَى بْنِ مَعْدَانَ، قَالَ حَدَّثَنَا ابْنُ أَعْيَنَ، قَالَ حَدَّثَنَا زُهَيْرُ بْنُ مُعَاوِيَةَ، قَالَ حَدَّثَنَا يَحْيَى بْنُ سَعِيدٍ، عَنْ حُمَيْدِ بْنِ نَافِعٍ، مَوْلَى الأَنْصَارِ عَنْ زَيْنَبَ بِنْتِ أَبِي سَلَمَةَ، عَنْ أُمِّ سَلَمَةَ، أَنَّ امْرَأَةً، مِنْ قُرَيْشٍ جَاءَتْ إِلَى رَسُولِ اللَّهِ فَقَالَتْ إِنَّ ابْنَتِي تُوُفِّيَ عَنْهَا زَوْجُهَا وَقَدْ خِفْتُ عَلَى عَيْنِهَا وَهِيَ …"
+summary:
+  ar: "حديث في سنن النسائي، رقم 3540، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan al-Nasa'i, no. 3540 (The Book of Divorce), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
+  ur: "سنن نسائی کی حدیث نمبر 3540، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: group/quraysh, sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-nasai, hadith 3540 (book 27 hadith 154); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }
+sources: [source/sunan-al-nasai, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the hadith-api Arabic edition; label and summary are the museum's own words" }

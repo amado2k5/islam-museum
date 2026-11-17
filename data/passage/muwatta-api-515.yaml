@@ -1,0 +1,16 @@
+id: passage/muwatta-api-515
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "515"
+label: { ar: "موطأ مالك 515 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Muwatta Malik 515 — mentions of non-Muslim nations, religions and peoples", ur: "موطأ مالک 515 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "وَحَدَّثَنِي عَنْ مَالِكٍ، عَنِ الْعَلاَءِ بْنِ عَبْدِ الرَّحْمَنِ، قَالَ دَخَلْنَا عَلَى أَنَسِ بْنِ مَالِكٍ بَعْدَ الظُّهْرِ فَقَامَ يُصَلِّي الْعَصْرَ فَلَمَّا فَرَغَ مِنْ صَلاَتِهِ ذَكَرْنَا تَعْجِيلَ الصَّلاَةِ أَوْ ذَكَرَهَا فَقَالَ سَمِعْتُ رَسُولَ اللَّهِ يَقُولُ \" تِلْكَ صَلاَةُ الْمُنَافِقِينَ تِلْكَ صَلاَةُ الْمُنَافِقِينَ تِلْكَ صَلاَةُ الْمُنَافِقِينَ يَجْلِسُ أَحَدُهُمْ حَتَّى إِذَا اصْفَرَّتِ الشَّمْسُ وَكَانَتْ بَيْنَ قَرْنَىِ الشَّيْطَانِ - أَوْ …"
+summary:
+  ar: "حديث في موطأ مالك، رقم 515، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Muwatta Malik, no. 515 (The Qur'an), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
+  ur: "موطأ مالک کی حدیث نمبر 515، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: concept/munafiq, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 515 (book 15 hadith 46); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }
+sources: [source/muwatta-malik, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the hadith-api Arabic edition; label and summary are the museum's own words" }

@@ -1,0 +1,16 @@
+id: passage/tirmidhi-api-1418
+class: passage
+unit: hadith
+work: work/jami-al-tirmidhi
+ref: "1418"
+label: { ar: "جامع الترمذي 1418 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Jami' al-Tirmidhi 1418 — mentions of non-Muslim nations, religions and peoples", ur: "جامع ترمذی 1418 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "حَدَّثَنَا سَلَمَةُ بْنُ شَبِيبٍ، وَحَاتِمُ بْنُ سِيَاهٍ الْمَرْوَزِيُّ، وَغَيْرُ، وَاحِدٍ، قَالُوا حَدَّثَنَا عَبْدُ الرَّزَّاقِ، عَنْ مَعْمَرٍ، عَنِ الزُّهْرِيِّ، عَنْ طَلْحَةَ بْنِ عَبْدِ اللَّهِ بْنِ عَوْفٍ، عَنْ عَبْدِ الرَّحْمَنِ بْنِ عَمْرِو بْنِ سَهْلٍ، عَنْ سَعِيدِ بْنِ زَيْدِ بْنِ عَمْرِو بْنِ نُفَيْلٍ، عَنِ النَّبِيِّ قَالَ \" مَنْ قُتِلَ دُونَ مَالِهِ فَهُوَ شَهِيدٌ وَمَنْ سَرَقَ مِنَ الأَرْضِ شِبْرًا …"
+summary:
+  ar: "حديث في جامع الترمذي، رقم 1418، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Jami' al-Tirmidhi, no. 1418 (The Book on Blood Money), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
+  ur: "جامع ترمذی کی حدیث نمبر 1418، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: person/zayd-ibn-amr, sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-tirmidhi, hadith 1418 (book 16 hadith 34); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }
+sources: [source/jami-al-tirmidhi, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the hadith-api Arabic edition; label and summary are the museum's own words" }

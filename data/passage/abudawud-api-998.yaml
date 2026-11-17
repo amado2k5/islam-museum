@@ -1,0 +1,16 @@
+id: passage/abudawud-api-998
+class: passage
+unit: hadith
+work: work/sunan-abi-dawud
+ref: "998"
+label: { ar: "سنن أبي داود 998 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sunan Abi Dawud 998 — mentions of non-Muslim nations, religions and peoples", ur: "سنن ابی داؤد 998 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "حَدَّثَنَا عُثْمَانُ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا يَحْيَى بْنُ زَكَرِيَّا، وَوَكِيعٌ، عَنْ مِسْعَرٍ، عَنْ عُبَيْدِ اللَّهِ ابْنِ الْقِبْطِيَّةِ، عَنْ جَابِرِ بْنِ سَمُرَةَ، قَالَ كُنَّا إِذَا صَلَّيْنَا خَلْفَ رَسُولِ اللَّهِ فَسَلَّمَ أَحَدُنَا أَشَارَ بِيَدِهِ مِنْ عَنْ يَمِينِهِ وَمِنْ عَنْ يَسَارِهِ فَلَمَّا صَلَّى قَالَ \" مَا بَالُ أَحَدِكُمْ يَرْمِي بِيَدِهِ كَأَنَّهَا أَذْنَابُ خَيْلٍ شُمْسٍ إِنَّمَا يَكْفِي أَحَدَكُمْ - …"
+summary:
+  ar: "حديث في سنن أبي داود، رقم 998، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
+  en: "A report in Sunan Abi Dawud, no. 998 (Prayer (Kitab Al-Salat)), with mentions of non-Muslim nations, religions and peoples. The Umam Browser lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on the non-Muslim nations, religions, sects and peoples."
+  ur: "سنن ابی داؤد کی حدیث نمبر 998، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
+relations:
+  - { type: mentions, target: group/al-qibt, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
+provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 998 (book 2 hadith 609); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }
+sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the hadith-api Arabic edition; label and summary are the museum's own words" }

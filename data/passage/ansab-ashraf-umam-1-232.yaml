@@ -1,0 +1,19 @@
+id: passage/ansab-ashraf-umam-1-232
+class: passage
+unit: chapter
+work: work/ansab-al-ashraf
+ref: "1:232"
+label: { ar: "أنساب الأشراف للبلاذري، المجلد المصوَّر 1، ص 232 — ذكر أمم وأديان وشعوب غير مسلمة", en: "al-Baladhuri's Ansab al-Ashraf, scan volume 1, p. 232 — mentions of non-Muslim nations, religions and peoples", ur: "انساب الاشراف، بلاذری، اسکین جلد 1، ص 232 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "… قبل خيبر فشهد خيبر. وقال الهيثم بن عدي : لم يهاجر أبو الروم إلى الحبشة. وقال الواقدي : قال أبو الزناد: لم يهاجر أبو الروم إلى الحبشة، وشهد يوم أُحد. النضير بن الحارث بن علقمة بن كلدة، ويكنى أبا الحارث. …"
+summary:
+  ar: "مقطع من أنساب الأشراف للبلاذري، المجلد المصوَّر 1، ص 232، فيه ذكر أمم وأديان وشعوب غير مسلمة؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة."
+  en: "An excerpt from al-Baladhuri's Ansab al-Ashraf, scan volume 1, p. 232, with mentions of non-Muslim nations, religions and peoples; from the machine-read scan, quoted within forty words per the sources policy. The Umam Browser lists it."
+  ur: "انساب الاشراف، بلاذری، اسکین جلد 1، ص 232 کا اقتباس جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: group/banu-nadir, sources: [source/ansab-al-ashraf] }
+  - { type: mentions, target: group/jews-of-khaybar, sources: [source/ansab-al-ashraf] }
+  - { type: mentions, target: group/al-rum, sources: [source/ansab-al-ashraf] }
+  - { type: mentions, target: group/al-habasha, sources: [source/ansab-al-ashraf] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan tareekh/ansab-ashraf/0132796_202003, page 232; a window of at most 40 words chosen by the umam detector (scripts/umam.ts); OCR text not corrected", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-ocr-1" }
+sources: [source/ansab-al-ashraf]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the OCR'd book; label and summary are the museum's own words" }

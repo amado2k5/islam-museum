@@ -1,0 +1,18 @@
+id: passage/futuh-misr-umam-239
+class: passage
+unit: chapter
+work: work/futuh-misr
+ref: "239"
+label: { ar: "فتوح مصر لابن عبد الحكم، ص 239 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Ibn 'Abd al-Hakam's Futuh Misr, p. 239 — mentions of non-Muslim nations, religions and peoples", ur: "فتوح مصر، ابن عبد الحکم، ص 239 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر" }
+text: "… بن مسلمة، حدثنا الليث بن سعد أن عمر بن عبد العزيز قال : أيما قوم صالحوا على جزية يعطونها، فمن أسلم منهم كان أرضه وداره لبقيّهم. قال الليث، وكتب إلى يحي بن سعيد، أن ما باع القبط فى جزيتهم وما …"
+summary:
+  ar: "مقطع من فتوح مصر لابن عبد الحكم، ص 239، فيه ذكر أمم وأديان وشعوب غير مسلمة؛ من النسخة المصورة المقروءة آليا، والنص مقتبس بحدود أربعين كلمة وفق سياسة المصادر. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة."
+  en: "An excerpt from Ibn 'Abd al-Hakam's Futuh Misr, p. 239, with mentions of non-Muslim nations, religions and peoples; from the machine-read scan, quoted within forty words per the sources policy. The Umam Browser lists it."
+  ur: "فتوح مصر، ابن عبد الحکم، ص 239 کا اقتباس جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے؛ مشینی طور پر پڑھی گئی نقل سے، چالیس الفاظ کی حد میں۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے درج کرتا ہے۔"
+relations:
+  - { type: mentions, target: group/thamud, sources: [source/futuh-misr-amir-1999] }
+  - { type: mentions, target: group/al-qibt, sources: [source/futuh-misr-amir-1999] }
+  - { type: mentions, target: concept/jizya, sources: [source/futuh-misr-amir-1999] }
+provenance: { layer: own-research, source: "Apple Vision OCR of the scan tareekh/futuh-misr/volume-1, page 239; a window of at most 40 words chosen by the umam detector (scripts/umam.ts); OCR text not corrected", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-ocr-1" }
+sources: [source/futuh-misr-amir-1999]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the OCR'd book; label and summary are the museum's own words" }
