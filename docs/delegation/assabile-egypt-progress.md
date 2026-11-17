@@ -754,3 +754,8 @@ Mustafa Hosny (hosny-2, below): `ahl-al-jannah` («أهل الجنة», "The Peo
 - Verifier fixes: quran-4-37→4-39 (content match), added 26:89+53:40, removed 78:18 clause from al-Takwir description, rewrote 14:43 description, trimmed 41:9 overclaim, added 13:23; Urdu debris removed.
 - Series page confirms exactly 13 episodes — ep13 "next episode" remark is speaker rhetoric.
 - Exclusions: ep11 modern political framing excluded per content-safety; unreliable military/historical examples not reproduced; hadith wording not reproduced.
+
+## 2026-11-17 — train assabile-5 (packet pipeline)
+- Landed packet `assabile-ghoneim-ghazawat-1` (drafter+verifier: Devin subagents): work/ghazawat-el-nabi new — all 8 episodes mined (Badr, Hudaybiyya, Trench, Khaybar, Tabuk, Hunayn, conquest of Mecca) in ar/en/ur. Register none→complete 8/8.
+- Verifier fixes: 359 cite-slug typos, inverted 2:120 paraphrase, wrong 33:25→48:26 passage link, conquest date 18→20 Ramadan, added needs_source marks.
+- Exclusions: ep02 modern political digression excluded per content-safety; unclear military anecdotes generic + needs_source.
