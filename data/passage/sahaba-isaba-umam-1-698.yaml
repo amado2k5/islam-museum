@@ -12,7 +12,7 @@ summary:
 relations:
   - { type: mentions, target: group/al-yahud, sources: [source/isaba] }
   - { type: mentions, target: group/al-mushrikun, sources: [source/isaba] }
-  - { type: mentions, target: person/kaab-ibn-al-ashraf, sources: [source/isaba] }
+  - { type: mentions, target: person/kab-ibn-al-ashraf, sources: [source/isaba] }
 provenance: { layer: own-research, source: "Apple Vision OCR of the scan sahaba/isaba/1_20191214_20191214_1316, page 698; a window of at most 40 words chosen by the umam detector (scripts/umam.ts); OCR text not corrected", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-ocr-1" }
 sources: [source/isaba]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the OCR'd book; label and summary are the museum's own words" }

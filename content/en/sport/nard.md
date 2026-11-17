@@ -6,11 +6,11 @@ translators: ["Devin (SWE-2 Medium), draft translation"]
 ---
 ## Overview
 
-Nard — backgammon under its Persian name — is the game of dice and stones on the board: it entered Muslim lands from Persia, and in fiqh it holds a famous, more guarded position than chess {cite:nard}.
+Nard — backgammon under its Persian name — is the game of dice and stones on the board: it entered Muslim lands from Persia, and in fiqh it holds a famous, more guarded position than chess {cite:usul-iqtisad-islami-0660}.
 
 ## In fiqh
 
-Nard is judged more strictly than chess by most jurists: some disliked it as nearly forbidden, some forbade it, because in their view it belonged to the games of gambling — it was played for stakes {cite:mawsuat-alfiqhia-alkuwaitiya}. Reports came against nardshir, and some of the salaf forbade it outright. The museum presents the position as it is without ruling.
+Nard is judged more strictly than chess by most jurists: some disliked it as nearly forbidden, some forbade it, because in their view it belonged to the games of gambling — it was played for stakes {cite:fiqh-mawsua-kuwaitiyya-noor-v3}. Reports came against nardshir, and some of the salaf forbade it outright. The museum presents the position as it is without ruling.
 
 ## In history
 

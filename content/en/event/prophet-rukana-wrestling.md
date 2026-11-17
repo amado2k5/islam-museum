@@ -10,7 +10,7 @@ The Prophet's wrestling of Rukana ibn Abd Yazid — the strongest wrestler of Qu
 
 ## In the hadith
 
-In the report of Abu Dawud and others: Rukana ibn Abd Yazid wrestled the Prophet and the Prophet threw him {cite:sunan-abi-dawud}. In one narration: time after time — throwing him more than once, though Rukana was the strongest man of Quraysh. In the historical reports it happened at the outset of the da'wa, and its astonishment reached Rukana; it is told among the causes of his reconsideration {cite:al-isaba}. Rukana accepted Islam after the conquest of Mecca and holds a place among the Companions.
+In the report of Abu Dawud and others: Rukana ibn Abd Yazid wrestled the Prophet and the Prophet threw him {cite:sunan-abi-dawud}. In one narration: time after time — throwing him more than once, though Rukana was the strongest man of Quraysh. In the historical reports it happened at the outset of the da'wa, and its astonishment reached Rukana; it is told among the causes of his reconsideration {cite:isaba}. Rukana accepted Islam after the conquest of Mecca and holds a place among the Companions.
 
 ## Its meaning
 

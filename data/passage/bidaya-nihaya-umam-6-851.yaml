@@ -13,7 +13,7 @@ relations:
   - { type: mentions, target: group/al-yahud, sources: [source/al-bidaya-wal-nihaya] }
   - { type: mentions, target: group/banu-qaynuqa, sources: [source/al-bidaya-wal-nihaya] }
   - { type: mentions, target: group/al-mushrikun, sources: [source/al-bidaya-wal-nihaya] }
-  - { type: mentions, target: person/kaab-ibn-al-ashraf, sources: [source/al-bidaya-wal-nihaya] }
+  - { type: mentions, target: person/kab-ibn-al-ashraf, sources: [source/al-bidaya-wal-nihaya] }
 provenance: { layer: own-research, source: "Apple Vision OCR of the scan tareekh/bidaya-nihaya/AAlexandrina-153904, page 851; a window of at most 40 words chosen by the umam detector (scripts/umam.ts); OCR text not corrected", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-ocr-1" }
 sources: [source/al-bidaya-wal-nihaya]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium) from the OCR'd book; label and summary are the museum's own words" }

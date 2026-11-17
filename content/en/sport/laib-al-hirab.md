@@ -14,4 +14,4 @@ In the famous report of Aisha: on the day of Bu'ath — the day the Aws and Khaz
 
 ## In fiqh
 
-The jurists built on it the permissibility of spear-play in the mosque: weapon-play for display is allowed where no harm and no sin is involved, and they counted it among the proofs that the mosque may carry social purposes on the festival {cite:mawsuat-alfiqhia-alkuwaitiya}. Weapon-displays — thrusting, striking and spear-play — were festival games in the cities of the Mamluks and the Ottomans.
+The jurists built on it the permissibility of spear-play in the mosque: weapon-play for display is allowed where no harm and no sin is involved, and they counted it among the proofs that the mosque may carry social purposes on the festival {cite:fiqh-mawsua-kuwaitiyya-noor-v3}. Weapon-displays — thrusting, striking and spear-play — were festival games in the cities of the Mamluks and the Ottomans.

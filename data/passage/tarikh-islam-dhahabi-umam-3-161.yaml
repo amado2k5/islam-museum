@@ -14,7 +14,7 @@ relations:
   - { type: mentions, target: group/al-mushrikun, sources: [source/tarikh-islam-dhahabi] }
   - { type: mentions, target: concept/shirk, sources: [source/tarikh-islam-dhahabi] }
   - { type: mentions, target: group/quraysh, sources: [source/tarikh-islam-dhahabi] }
-  - { type: mentions, target: person/kaab-ibn-al-ashraf, sources: [source/tarikh-islam-dhahabi] }
+  - { type: mentions, target: person/kab-ibn-al-ashraf, sources: [source/tarikh-islam-dhahabi] }
   - { type: mentions, target: concept/kufr, sources: [source/tarikh-islam-dhahabi] }
 provenance: { layer: own-research, source: "Apple Vision OCR of the scan tareekh/tarikh-islam-dhahabi/volume-3, page 161; a window of at most 40 words chosen by the umam detector (scripts/umam.ts); OCR text not corrected", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-ocr-1" }
 sources: [source/tarikh-islam-dhahabi]

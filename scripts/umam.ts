@@ -119,7 +119,7 @@ export const UMAM_NAMES: ReadonlyArray<readonly [string, string]> = [
   ["person/waraqa-ibn-nawfal", re(`ورقه بن نوفل`)],
   ["person/zayd-ibn-amr", re(`زيد بن عمرو بن نفيل`)],
   ["person/huyayy-ibn-akhtab", re(`حيي بن اخطب`, `حيي بن الاخطب`)],
-  ["person/kaab-ibn-al-ashraf", re(`كعب بن الاشرف`)],
+  ["person/kab-ibn-al-ashraf", re(`كعب بن الاشرف`)],
   ["person/marhab-al-yahudi", re(`مرحب`, `مرحب اليهودي`)],
   ["person/sallam-ibn-mishkam", re(`سلام بن مشكم`)],
   ["person/kinana-ibn-al-rabi", re(`كنانه بن الربيع`)],

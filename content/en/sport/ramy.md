@@ -18,4 +18,4 @@ On these texts the jurists built the chapter of contests: archery is a race in w
 
 ## In history
 
-Archery did not remain text in books: it had its fields. In Mamluk Egypt the Furusiyya Ground of Cairo was among the places of the range {cite:sahn-furusiyya}; in the Ottoman state the ok-meydan grounds of Istanbul were famous ranges — the greatest called Ok Meydan, "Arrow Field" — where contests were held before the Sultan and archers recorded their longest shots in stones {cite:okmanzil}. The arrow passed into today's games: Olympic archery revived under a modern name this sport and its form.
+Archery did not remain text in books: it had its fields. In Mamluk Egypt the Furusiyya Ground of Cairo was among the places of the range {cite:jami-al-tirmidhi}; in the Ottoman state the ok-meydan grounds of Istanbul were famous ranges — the greatest called Ok Meydan, "Arrow Field" — where contests were held before the Sultan and archers recorded their longest shots in stones {cite:tdv-ok}. The arrow passed into today's games: Olympic archery revived under a modern name this sport and its form.

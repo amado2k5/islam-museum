@@ -9,7 +9,7 @@ translators: ["Devin (SWE-2 Medium), draft translation"]
 Huyayy ibn Akhtab in the Sira is the chief of Banu al-Nadir and one of Medina's Jewish lords: the Prophet exiled him with his people to Khaybar, whence he stirred the Confederates and was of the Trench affair; he then went down to Banu Qurayza and was killed among them.
 
 ## In the texts
-Ibn Ishaq names him in the sittings of Yathrib's rabbis, the Prophet's hijra and Medina's affairs; he stirred his people until they were exiled to Khaybar, and he went to Quraysh at Makka answering their questions, and was among those who gathered the Confederates {cite:ibn-hisham-sira} {cite:maghazi-waqidi}.
+Ibn Ishaq names him in the sittings of Yathrib's rabbis, the Prophet's hijra and Medina's affairs; he stirred his people until they were exiled to Khaybar, and he went to Quraysh at Makka answering their questions, and was among those who gathered the Confederates {cite:ibn-hisham-sira} {cite:al-waqidi-maghazi}.
 
 ## In the Sira and history
 After the affair of Banu al-Nadir Huyayy went out to Khaybar and led the war of incitement against the Prophet; on the day of the Trench he came to Banu Qurayza and shook their pact until they entered the siege; when the siege broke and they were judged he was killed among them — and his daughter Safiyya, who became Muslim after Khaybar's taking, the Prophet married {cite:ibn-hisham-sira} {cite:mubarakpuri-raheeq}.

@@ -10,7 +10,7 @@ Swimming is the third of the trio in the famous report: «Teach your children ar
 
 ## In the Qur'an
 
-The Qur'an describes the winds, the mountains and the ships running on the sea by God's command, the divers of Solomon, and the swimming of the creatures God made, in the passages of the beasts of the sea {cite:quran}. The word "swimming" as a sport does not occur as such, but the descriptions of floating, diving and running on water speak of a skill known to the people of Arabia and its coasts.
+The Qur'an describes the winds, the mountains and the ships running on the sea by God's command, the divers of Solomon, and the swimming of the creatures God made, in the passages of the beasts of the sea {cite:tanzil-quran}. The word "swimming" as a sport does not occur as such, but the descriptions of floating, diving and running on water speak of a skill known to the people of Arabia and its coasts.
 
 ## In the Sunnah
 
@@ -18,4 +18,4 @@ Teach your children swimming: it came as a hadith of Jabir raised to the Prophet
 
 ## In fiqh and history
 
-The jurists discussed its rulings: covering the awrah even in water, avoiding forbidden seclusion, and the teaching of boys and women each in their proper setting {cite:mawsuat-alfiqhia-alkuwaitiya}. Swimming stayed a natural sport in Muslim lands: the rivers of Iraq, the shores of the Gulf, the lakes of Anatolia and the ports of the Mediterranean were its fields. Today it is among the most practised sports of the Muslim world, and Muslim women have their own clubs in many countries in keeping with the rulings of fiqh.
+The jurists discussed its rulings: covering the awrah even in water, avoiding forbidden seclusion, and the teaching of boys and women each in their proper setting {cite:fiqh-mawsua-kuwaitiyya-noor-v3}. Swimming stayed a natural sport in Muslim lands: the rivers of Iraq, the shores of the Gulf, the lakes of Anatolia and the ports of the Mediterranean were its fields. Today it is among the most practised sports of the Muslim world, and Muslim women have their own clubs in many countries in keeping with the rulings of fiqh.

@@ -14,4 +14,4 @@ In the report of Aisha: on the day of Bu'ath — the day the Aws and Khazraj had
 
 ## Its meaning
 
-The scholars took from it that weapon-display is permitted play even in the mosque where no harm is involved, that the mosque may carry social purposes on the festival, and the Prophet's tenderness in letting her watch {cite:mawsuat-alfiqhia-alkuwaitiya}. It is among the most famous reports on sport and joy in Islam.
+The scholars took from it that weapon-display is permitted play even in the mosque where no harm is involved, that the mosque may carry social purposes on the festival, and the Prophet's tenderness in letting her watch {cite:fiqh-mawsua-kuwaitiyya-noor-v3}. It is among the most famous reports on sport and joy in Islam.
