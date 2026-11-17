@@ -4,10 +4,14 @@ lang: en
 source_lang: ar
 translators: ["Devin (SWE-2 Medium), draft translation"]
 ---
-## نظرة عامة
+## Overview
 
-Ibn Ishaq narrates that the Prophet called Rukana ibn Abd Yazid al-Muttalibi, among the strongest of Quraysh, and asked «If I throw you, will you know that it is true?» — and threw him twice {cite:sira-ibn-ishaq-zakkar p. 276}. Wrestling is a contest lawful without a prize in fiqh, and Ibn Sina counts it among the strong exercises of the Canon {cite:canon-ibn-sina-print-v1 p. 222}.
+Wrestling is the oldest form of unarmed contest: each wrestler takes hold of the other until one throws him to the ground. In the Islamic tradition two reports are famous: the Prophet's bout with Rukana ibn Abd Yazid, and the wrestling of Umar, Uthman, Ali and others in the reports of futuwwa and nakhwa {cite:al-musara-a}.
 
-## ('Overview', 'In the sources')
+## The bout with Rukana
 
-Related records in the graph: [[concept/al-musara-a]], [[event/prophet-rukana-wrestling]], [[person/rukana]].
+In the report of Abu Hurayra and others: Rukana ibn Abd Yazid was the strongest wrestler of Quraysh; the Prophet wrestled him and threw him — in some narrations time after time, and in one he was thrown flat on his face {cite:sunan-abi-dawud}. In the historical reports it happened at the outset of the da'wa, the astonishment of it reaching Rukana, and it is told among the causes of his reconsideration or regret {cite:al-isaba}.
+
+## In history
+
+Wrestling remained the sport of the streets and clubs of Muslim lands: Egypt had its popular wrestling clubs, Turkey has kirkpinar — the oil-wrestling of greased wrestlers, an Ottoman tradition alive today — and Persia has the zurkhana, the house of strength joining wrestling, music and literature {cite:al-furusiyya}. And in the hadith "the strong man is not the one who throws people down" the Prophet corrected the concept: the strong is he who holds himself in anger {cite:sahih-al-bukhari} — the phrase that marks the difference between sport and true strength in the Islamic view.
