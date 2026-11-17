@@ -15,14 +15,22 @@ periods:
 - period/abbasid-fragmentation
 regions:
 - arabia
+coordinates: [16.0442, 43.8267]
+coordinate_precision: approx
+coordinate_note: "Al-Hamdani, Sifat jazirat al-Arab describes the waters that 'reach Warwar' as fed from Madar, Ghatwa and the lands of Dhabyan in the Hamdan highlands; Mu'jam al-buldan calls Warwar a great fortress in the mountains of San'a' in Hamdan. The point is that of Madar (Ghayl Madar, Khamir district, 'Amran), the named head of its drainage — approximate."
 sources:
+- source/sifat-jazirat-al-arab
 - source/sira-hadi-ila-al-haqq
+- source/geonames-gazetteer
+- source/mujam-al-buldan
 provenance:
   layer: own-research
   source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص250 ⁦(الصفحة المطبوعة)⁩"
   generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
   model: claude-sonnet-5-5
   run: lib-sira-hadi-ila-al-haqq-29
+  extensions:
+  - { generated_by: "Devin (Cognition SWE-2 Medium)", model: "SWE-2 Medium", run: "place-coordinates-web-enrichment-2026-11-16", source: "Identification from al-Hamdani's Sifat jazirat al-Arab (mizanalarab.com full text) and GeoNames website, read 2026-11-16." }
 status:
   review: draft
   completeness: 2

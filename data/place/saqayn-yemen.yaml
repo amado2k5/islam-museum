@@ -13,7 +13,11 @@ wings:
 - place
 regions:
 - arabia
+coordinates: [16.88, 43.43]
+coordinate_precision: locality
+coordinate_note: "Arabic Wikipedia «ساقين (صعدة)» revision 74196108 (read 16 November 2026): 16.88°N 43.43°E for the town of Saqayn in Sa'dah governorate; the sira's Saqayn lies in the same Sa'dah theatre."
 sources:
+- source/wikipedia-saqayn-ar
 - source/sira-hadi-ila-al-haqq
 provenance:
   layer: own-research
@@ -21,6 +25,8 @@ provenance:
   generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
   model: claude-sonnet-5-5
   run: lib-sira-hadi-ila-al-haqq-15
+  extensions:
+  - { generated_by: "Devin (Cognition SWE-2 Medium)", model: "SWE-2 Medium", run: "place-coordinates-web-enrichment-2026-11-16", source: "Coordinates from wikipedia-saqayn-ar at the recorded revision, read 2026-11-16; identity checked against the record's sira context." }
 status:
   review: draft
   completeness: 1

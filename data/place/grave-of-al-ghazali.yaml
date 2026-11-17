@@ -6,10 +6,15 @@ label: { ar: "مقبرة الغزالي", en: "Grave of al - Ghazali" }
 summary: { ar: "مقبرة الغزالي.", en: "Grave of al - Ghazali; a place linked to persons via Wikidata claims." }
 wings: [place]
 regions: [global]
-coordinates: [0, 0]
-coordinate_precision: locality
-coordinate_note: "Wikidata Q6866071."
+coordinates: [36.47972, 59.50694]
+coordinate_precision: approx
+coordinate_note: "Al-Ghazali's tomb at Tus lies beside the Haruniyya building; the point is the documented Haruniyeh Dome site (36.47972 N, 59.50694 E) — approximate for the tomb itself."
 external_ids: { wikidata: "Q6866071" }
 sources: [source/wikidata]
 status: { review: draft, completeness: 1 }
-provenance: { layer: own-research, generated_by: "Devin", run: "person-place-geo-a" }
+provenance:
+  layer: own-research
+  generated_by: "Devin"
+  run: "person-place-geo-a"
+  extensions:
+  - { generated_by: "Devin (Cognition SWE-2 Medium)", model: "SWE-2 Medium", run: "place-coordinates-web-enrichment-2026-11-16", source: "en.wiki Haruniyeh Dome + TRT World tomb report, read 2026-11-16" }

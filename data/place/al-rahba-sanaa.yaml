@@ -13,14 +13,21 @@ wings:
 - place
 regions:
 - arabia
+coordinates: [15.4702, 44.2387]
+coordinate_precision: locality
+coordinate_note: "GeoNames Qā' ar-Rahbah (T.PLN, plain, Amānat al-'Āṣimah) at 15°28'13'N 44°14'19'E, on the northern approach to San'a', read 2026-11-16 — matching the sira's 'al-Rahba of San'a'. Mu'jam al-buldan also records a Rahbat San'a', a valley district six days out, which may be a different, larger area."
 sources:
+- source/geonames-gazetteer
 - source/sira-hadi-ila-al-haqq
+- source/mujam-al-buldan
 provenance:
   layer: own-research
   source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص17-20 (الصفحة المطبوعة)'
   generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
   model: claude-sonnet-5-5
   run: lib-sira-hadi-ila-al-haqq-2
+  extensions:
+  - { generated_by: "Devin (Cognition SWE-2 Medium)", model: "SWE-2 Medium", run: "place-coordinates-web-enrichment-2026-11-16", source: "Identification from Mu'jam al-buldan, point from GeoNames website, both read 2026-11-16." }
 status:
   review: draft
   completeness: 2

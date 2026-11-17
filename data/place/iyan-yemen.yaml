@@ -13,7 +13,11 @@ wings:
 - place
 regions:
 - arabia
+coordinates: [16.4596, 43.9695]
+coordinate_precision: locality
+coordinate_note: "GeoNames search for عيان (geonames.org, read 2026-11-16): Wadi 'Ayan, third-order administrative division (ADM3) in 'Amran governorate at 16°27'34'N 43°58'10'E; the sira's 'Iyan lies in the land of Banu Salman of Hamdan, whose country is northern Yemen around 'Amran. A district centroid is given, not the settlement itself."
 sources:
+- source/geonames-gazetteer
 - source/sira-hadi-ila-al-haqq
 provenance:
   layer: own-research
@@ -21,6 +25,8 @@ provenance:
   generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
   model: claude-sonnet-5-5
   run: lib-sira-hadi-ila-al-haqq-16
+  extensions:
+  - { generated_by: "Devin (Cognition SWE-2 Medium)", model: "SWE-2 Medium", run: "place-coordinates-web-enrichment-2026-11-16", source: "Coordinates and note from geonames-gazetteer, read via its public website/repository 2026-11-16; identity checked against the record's sira context." }
 status:
   review: draft
   completeness: 1

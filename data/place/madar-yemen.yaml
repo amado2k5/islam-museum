@@ -15,15 +15,22 @@ periods:
 - period/abbasid-fragmentation
 regions:
 - arabia
+coordinates: [16.0442, 43.8267]
+coordinate_precision: locality
+coordinate_note: "Yaqut, Mu'jam al-buldan (entry مدر): Madar is 'a village in Yemen twenty miles from San'a'', of Hamdan's country. GeoNames Ghayl Madar (PPL, Khamir district, 'Amran) at 16°02'39'N 43°49'36'E is the nearest modern namesake, about 45 km north of San'a'; locality-level match, read 2026-11-16."
 sources:
+- source/mujam-al-buldan
 - source/sira-hadi-ila-al-haqq
 - source/mujam-al-buldan-sader-1995
+- source/geonames-gazetteer
 provenance:
   layer: own-research
   source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص220-224 ⁦(الصفحة المطبوعة)⁩"
   generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
   model: claude-sonnet-5-5
   run: lib-sira-hadi-ila-al-haqq-26
+  extensions:
+  - { generated_by: "Devin (Cognition SWE-2 Medium)", model: "SWE-2 Medium", run: "place-coordinates-web-enrichment-2026-11-16", source: "Identification from Mu'jam al-buldan, point from GeoNames website, both read 2026-11-16." }
 status:
   review: draft
   completeness: 2

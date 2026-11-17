@@ -15,7 +15,12 @@ periods:
 - period/abbasid-fragmentation
 regions:
 - arabia
+coordinates: [15.2731, 44.2036]
+coordinate_precision: site
+coordinate_note: "English Wikipedia «Bayt Baws» revision 1377112762 (last edit 27 September 2026, read 16 November 2026): 15°16'23'N 44°12'13'E for the village of Bayt Baws south of San'a'; the name transliterates بيت بوس, and the position matches UNESCO's cultural-landscape listing for the site."
+external_ids: { wikidata: "Q4874879" }
 sources:
+- source/wikipedia-bayt-bus-en
 - source/sira-hadi-ila-al-haqq
 provenance:
   layer: own-research
@@ -23,6 +28,8 @@ provenance:
   generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
   model: claude-sonnet-5-5
   run: lib-sira-hadi-ila-al-haqq-27
+  extensions:
+  - { generated_by: "Devin (Cognition SWE-2 Medium)", model: "SWE-2 Medium", run: "place-coordinates-web-enrichment-2026-11-16", source: "Coordinates from wikipedia-bayt-bus-en at the recorded revision, read 2026-11-16; identity checked against the record's sira context." }
 status:
   review: draft
   completeness: 2

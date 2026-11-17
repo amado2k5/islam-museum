@@ -13,7 +13,11 @@ wings:
 - place
 regions:
 - arabia
+coordinates: [23.28483, 40.35548]
+coordinate_precision: locality
+coordinate_note: "al-Thurayya Gazetteer file SUWARIQIYYA_403E232N_S (github.com/althurayya/althurayya.github.io, read 2026-11-16): al-Suwariqiyya on the Turaba road between Mecca and Yemen, coordinate certainty 'certain' in Cornu's atlas; the sira's al-Suwariqiyya is on that same road. CC BY 4.0."
 sources:
+- source/althurayya-gazetteer
 - source/sira-hadi-ila-al-haqq
 - source/mujam-al-buldan-sader-1995
 provenance:
@@ -22,6 +26,8 @@ provenance:
   generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
   model: claude-sonnet-5-5
   run: lib-sira-hadi-ila-al-haqq-4
+  extensions:
+  - { generated_by: "Devin (Cognition SWE-2 Medium)", model: "SWE-2 Medium", run: "place-coordinates-web-enrichment-2026-11-16", source: "Coordinates and note from althurayya-gazetteer, read via its public website/repository 2026-11-16; identity checked against the record's sira context." }
 status:
   review: draft
   completeness: 2

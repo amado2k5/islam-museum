@@ -13,14 +13,21 @@ wings:
 - place
 regions:
 - arabia
+coordinates: [15.2749, 44.7686]
+coordinate_precision: approx
+coordinate_note: "Al-Hamdani, Sifat jazirat al-Arab: 'Zahir Khawlan is Asal, with villages, crops and vineyards' — Asal is the open Khawlan country east of San'a'. GeoNames Khwlan ADM2 district, San'a' governorate, centroid 15°16'30N 44°46'07E is given for the district, not a single settlement."
 sources:
+- source/sifat-jazirat-al-arab
 - source/sira-hadi-ila-al-haqq
+- source/geonames-gazetteer
 provenance:
   layer: own-research
   source: 'سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص127-128 ⁦(الصفحة المطبوعة)⁩'
   generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
   model: claude-sonnet-5-5
   run: lib-sira-hadi-ila-al-haqq-16
+  extensions:
+  - { generated_by: "Devin (Cognition SWE-2 Medium)", model: "SWE-2 Medium", run: "place-coordinates-web-enrichment-2026-11-16", source: "Identification from al-Hamdani's Sifat jazirat al-Arab (mizanalarab.com full text) and GeoNames website, read 2026-11-16." }
 status:
   review: draft
   completeness: 1

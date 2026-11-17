@@ -13,6 +13,9 @@ wings:
 - place
 regions:
 - arabia
+coordinates: [17.5655, 44.2289]
+coordinate_precision: approx
+coordinate_note: "A place in the Najran account of the sira (palms cut after Adha 286 AH); the point is Najran as the locality."
 sources:
 - source/sira-hadi-ila-al-haqq
 provenance:
@@ -21,6 +24,8 @@ provenance:
   generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
   model: claude-sonnet-5-5
   run: lib-sira-hadi-ila-al-haqq-22
+  extensions:
+  - { generated_by: "Devin (Cognition SWE-2 Medium)", model: "SWE-2 Medium", run: "place-coordinates-web-enrichment-2026-11-16", source: "Placement from the record's own sira/source context + named neighbour point or map listing, read 2026-11-16." }
 status:
   review: draft
   completeness: 1

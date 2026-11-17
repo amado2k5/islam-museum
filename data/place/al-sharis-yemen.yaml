@@ -13,14 +13,21 @@ wings:
 - place
 regions:
 - arabia
+coordinates: [15.6111, 43.5672]
+coordinate_precision: locality
+coordinate_note: "Al-Hamdani lists Shars among the mountains of the Hajur country ('…Naml and Shars and Qaylab'), i.e. the Hajjah highlands. GeoNames Bayt ash Sharis (PPL, Hajjah governorate) at 15°36'40N 43°34'02E is the modern namesake in that region."
 sources:
+- source/sifat-jazirat-al-arab
 - source/sira-hadi-ila-al-haqq
+- source/geonames-gazetteer
 provenance:
   layer: own-research
   source: "سيرة الهادي إلى الحق، تحقيق سهيل زكار، بيروت: دار الفكر، ص296 ⁦(الصفحة المطبوعة)⁩"
   generated_by: Claude Sonnet 5.5 (claude-sonnet-5-5)
   model: claude-sonnet-5-5
   run: lib-sira-hadi-ila-al-haqq-34
+  extensions:
+  - { generated_by: "Devin (Cognition SWE-2 Medium)", model: "SWE-2 Medium", run: "place-coordinates-web-enrichment-2026-11-16", source: "Identification from al-Hamdani's Sifat jazirat al-Arab (mizanalarab.com full text) and GeoNames website, read 2026-11-16." }
 status:
   review: draft
   completeness: 1

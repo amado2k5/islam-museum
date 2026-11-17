@@ -5,10 +5,15 @@ label: { ar: "جمعية المقاصد الخيرية الإسلامية", en: 
 summary: { ar: "جمعية المقاصد الخيرية الإسلامية.", en: "Al-Makassed Philanthropic Islamic Association of Beirut; a place linked to persons via Wikidata claims." }
 wings: [place]
 regions: [global]
-coordinates: [0, 0]
-coordinate_precision: locality
-coordinate_note: "Wikidata Q12206037."
+coordinates: [33.885202, 35.492775]
+coordinate_precision: site
+coordinate_note: "Makassed headquarters at the Makassed Commercial Center, Mar Elias / El Msaitbe, Beirut (association's own contact page gives this address; coordinates from the El Msaitbe listing)."
 external_ids: { wikidata: "Q12206037" }
 sources: [source/wikidata]
 status: { review: draft, completeness: 1 }
-provenance: { layer: own-research, generated_by: "Devin", run: "person-place-geo-a" }
+provenance:
+  layer: own-research
+  generated_by: "Devin"
+  run: "person-place-geo-a"
+  extensions:
+  - { generated_by: "Devin (Cognition SWE-2 Medium)", model: "SWE-2 Medium", run: "place-coordinates-web-enrichment-2026-11-16", source: "Makassed.org contact page (Makassed Commercial Center, Mar Elias, Beirut) + El Msaitbe place listing, read 2026-11-16" }
