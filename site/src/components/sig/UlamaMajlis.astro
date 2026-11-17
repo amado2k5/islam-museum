@@ -1,0 +1,80 @@
+---
+// The Ulama Browser's signature view (docs/plan/70-ulama-browser.md): «مجلس العلم» — the council of
+// knowledge, read as five pillars of ink: one column per people category, the column's height and its
+// discs sized by the records it holds, crowned by the leading figures the sources mention most. Pure
+// SVG + HTML, every disc a link, keyboard-reachable, no motion (nothing moves, so reduced-motion is
+// inherent); the full lists below the fold carry the no-JS path.
+import { ui, fmt, type Lang } from "../../lib/i18n";
+import { num } from "../../lib/nav";
+import { ulamaItems, ulamaLeadMentioned, ULAMA_TOPICS, type UlamaSection } from "../../lib/ulama";
+import { byId, href, labelOf } from "../../lib/graph";
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const T = ui(lang) as any;
+const G = T.ulama;
+const AR = (ui("ar") as any).ulama;
+
+// — the five pillars: people sections in display order, each sized by its count
+const PEOPLE: { id: UlamaSection; cat: string }[] = [
+  { id: "ulama", cat: "alim" },
+  { id: "muhaddithun", cat: "muhaddith" },
+  { id: "mufakkirun", cat: "mufakkir" },
+  { id: "udaba", cat: "adib" },
+  { id: "kuttab", cat: "katib" },
+];
+const counts = new Map(PEOPLE.map((p) => [p.id, ulamaItems.filter((i) => i.section === p.id).length]));
+const catCounts = new Map(ULAMA_TOPICS.map((t) => [t, ulamaItems.filter((i) => i.topics.includes(t)).length]));
+const max = Math.max(...counts.values(), 1);
+const lead = ulamaLeadMentioned(6);
+const W = 760, H = 340;
+const colW = 96, gap = (W - PEOPLE.length * colW) / (PEOPLE.length + 1);
+const pillarTop = 70, pillarMaxH = 190, baseY = pillarTop + pillarMaxH;
+const hOf = (id: UlamaSection) => Math.max(24, Math.round(((counts.get(id) ?? 0) / max) * pillarMaxH));
+const ink = ["#2f5d6e", "#7a4a2e", "#4a3f7a", "#2f6b4f", "#6b4a8a"];
+const title = G.viz.title;
+---
+<figure class="ulama-majlis" aria-labelledby="majlis-title" style="margin:0 0 1.6rem">
+  <figcaption style="margin:0 0 .8rem">
+    <h2 id="majlis-title" class="wr-h2">{title}</h2>
+    <p class="muted" style="max-width:var(--measure)">{G.viz.lede}</p>
+  </figcaption>
+  <svg viewBox={`0 0 ${W} ${H}`} role="img" aria-label={title} style="display:block;width:100%;height:auto">
+    <rect x="0" y="0" width={W} height={H} rx="18" fill="#101a24" />
+    {/* the arch of the majlis */}
+    <path d={`M 40 ${baseY} Q ${W/2} ${baseY - 320} ${W - 40} ${baseY}`} fill="none" stroke="#c5a059" stroke-width="2" opacity=".55" />
+    <text x={W/2} y="34" text-anchor="middle" fill="#e8c85a" font-size="26" style="font-family:'Reem Kufi','Amiri',serif" lang="ar" dir="rtl">{AR.viz.majlis_word}</text>
+    <text x={W/2} y="56" text-anchor="middle" fill="#cfd8c0" font-size="13">{fmt(G.viz.caption, { n: num(ulamaItems.length, lang) })}</text>
+    {PEOPLE.map((p, i) => {
+      const x = gap + i * (colW + gap), h = hOf(p.id), y = baseY - h;
+      return (
+        <g>
+          <a href={`#t-${p.id}`} aria-label={`${G.sections[p.id]?.title ?? p.id} · ${counts.get(p.id) ?? 0}`}>
+            <rect x={x} y={y} width={colW} height={h} rx="10" fill={ink[i]} stroke="#c5a059" stroke-width="1.5" opacity=".92" />
+            <text x={x + colW/2} y={y - 10} text-anchor="middle" fill="#e8c85a" font-size="15" font-weight="600">{num(counts.get(p.id) ?? 0, lang)}</text>
+            <text x={x + colW/2} y={baseY + 22} text-anchor="middle" fill="#eef0e4" font-size="13">{G.sections[p.id]?.title ?? p.id}</text>
+            <text x={x + colW/2} y={baseY + 40} text-anchor="middle" fill="#cfd8c0" font-size="12" lang="ar" dir="rtl" style="font-family:'Amiri','Noto Naskh Arabic',serif">{AR.topics[p.cat]}</text>
+          </a>
+        </g>
+      );
+    })}
+    <line x1="30" y1={baseY} x2={W - 30} y2={baseY} stroke="#c5a059" stroke-width="2" />
+    {/* the inkwell and pen of the writers, below the pillars */}
+    <g transform={`translate(${W - 90}, ${H - 66})`} opacity=".85" aria-hidden="true">
+      <rect x="0" y="14" width="34" height="20" rx="6" fill="#c5a059" />
+      <path d="M 17 14 L 44 -8" stroke="#cfd8c0" stroke-width="4" stroke-linecap="round" />
+      <circle cx="46" cy="-10" r="3" fill="#e8c85a" />
+    </g>
+  </svg>
+  {/* the leading figures the sources mention most — real links, not decoration */}
+  {lead.length > 0 && (
+    <p class="ui" style="display:flex;flex-wrap:wrap;gap:8px;margin:.8rem 0 0">
+      <span class="muted">{G.viz.lead_label}</span>
+      {lead.map((x) => <a class="chip" href={href(lang, x.node.id)}>{labelOf(x.node, lang)} · {num(x.count, lang)}</a>)}
+    </p>
+  )}
+</figure>
+<style>
+  .ulama-majlis a:focus-visible rect { stroke: #fff; stroke-width: 3; }
+  .ulama-majlis a:hover rect { opacity: 1; }
+</style>

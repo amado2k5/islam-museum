@@ -707,6 +707,21 @@
         }
       }
     },
+    "/ulama.json": {
+      "get": {
+        "operationId": "getUlama",
+        "summary": "Ulama Browser dataset",
+        "description": "The Ulama Browser dataset (متصفح المفكرون والعلماء والأدباء والمحدثون والكتاب): every thinker, scholar, litterateur, muhaddith and writer on record — persons qualified by role or occupation job (the five categories plus all knowledge professions; poets excluded) — plus every passage that mentions them, by canonical mentions edges, the reviewed Qur'an verse table or the guarded name lexicon, plus the curated records tagged ulama-browser. Person rows carry categories (alim, muhaddith, mufakkir, adib, katib, scientist); passage rows carry section (quran, sunnah, seerah, books), mentions_persons, signals, work, ref, text excerpt, kind, themes and edges.",
+        "responses": {
+          "200": {
+            "description": "Every scholar record with categories and every mention with section, mentions_persons, signals, work, ref, excerpt, kind, themes and edges",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
     "/wasaya.json": {
       "get": {
         "operationId": "getWasaya",

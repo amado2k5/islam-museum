@@ -1853,6 +1853,10 @@ explore:
       title: "Qur'an Readings, Orthography, Scripts and Dotting Browser"
       desc: "The seven ahruf, the readings and their imams, the collection of the Qur'an and the copying of the codices, the orthography of the mushaf and the debate over ordinary spelling, its dots and vowel marks, and the scripts it was written in — every verse and report cited, every view attributed."
       menu: "Browse the readings, rasm, scripts and dotting of the Qur'an"
+    ulama:
+      title: "Ulama Browser: Thinkers, Scholars, Litterateurs, Muhaddiths and Writers"
+      desc: "Every thinker, scholar, litterateur, muhaddith and writer in the museum — and everything the Qur'an, the Sunnah, the seerah and every harvested book says about them: their lives, their mission, their quotes, their books, their interviews and their legacy — each mention with its source."
+      menu: "Browse the thinkers, scholars, writers and muhaddiths and their mentions"
     wasaya:
       title: "Testaments Browser: Last Counsels, Legacies, Relics and Resting Places"
       desc: "The last testaments of the prophets, the caliphs, the Companions, the Successors, the imams and the righteous before their deaths; what they left behind; their relics; and their graves — in the Qur'an, the Sunnah, the seerah and every harvested book, each verse and report cited."
@@ -5664,6 +5668,75 @@ cosmos:
     earth: "Earth"
     records: "{n} records"
     empty_theme: "No records yet"
+ulama:
+  title: "Ulama Browser: Thinkers, Scholars, Litterateurs, Muhaddiths and Writers"
+  lede: "Every person of knowledge and the pen the museum's graph knows — the thinkers and philosophers, the scholars and jurists, the muhaddiths, the litterateurs and the writers, and the scientists of the pen — and everything the Qur'an, the Sunnah, the seerah and every harvested book says about them: who they were, what they stood for, what they said, what they wrote, and where the sources mention them. Every record carries its sources; every mention links to its passage."
+  badge: Scholars and writers explorer
+  hero_kufi: "Thinkers · Scholars · Muhaddiths · Litterateurs · Writers"
+  hero_naskh: "The people of knowledge and the pen, and what the sources say about them"
+  status: "This build holds {n} records in {s} sections; each record lists its sources, and the texts were written by AI agents from those sources and have not yet been read by a human."
+  method_title: The browser's method
+  method_note: "A person joins this browser when the record itself says who he was: a role or an occupation of scholarship — scholar, muhaddith, jurist, mufti, qadi, theologian, philosopher, historian, geographer, writer, teacher, preacher, and the scientists of the pen (poets keep their own wing and are out of this scope). A passage joins in three ways: a canonical 'mentions' edge naming a qualifying person; a reviewed table of Qur'an verses — Luqman the sage and the verses on the people of knowledge, on the pen and on writing (the frozen Tanzil text is never searched); or a guarded list of the scholars' names as the books write them, where a bare common name never counts alone. So a book harvested later brings its scholars and its mentions automatically. Sunni sources are the frame; where a person's views are contested the record says who held them."
+  api: "The whole set is available at"
+  topics_title: The browser's categories
+  sections_title: The browser's sections
+  filter_label: Filter the scholars and their mentions
+  filter_none: No matches.
+  empty: No scholars or mentions in this build yet.
+  works_count: "{n} works on record"
+  mentions_label: "mentions:"
+  list_sep: " · "
+  topics:
+    alim: Scholars
+    muhaddith: Muhaddiths
+    mufakkir: Thinkers
+    adib: Litterateurs
+    katib: Writers
+    scientist: Scientists of the pen
+  topics_desc:
+    alim: "The scholars: jurists, muftis, qadis, exegetes, teachers and preachers — those the sources call ulama."
+    muhaddith: "The muhaddiths: collectors, critics and memorizers of the Prophet's reports, from the six books to the rijal masters."
+    mufakkir: "The thinkers: theologians, philosophers and the scientists of the pen — astronomers, mathematicians, physicians, calligraphers."
+    adib: "The litterateurs: masters of adab and eloquent prose, the al-Jahiz line."
+    katib: "The writers: secretaries, historians, geographers and authors whose books carry the civilization."
+    scientist: "The knowledge professions beyond theology: science, mathematics, astronomy, medicine and calligraphy."
+  sections:
+    quran:
+      title: In the Qur'an
+      desc: "The reviewed verses: Luqman the sage and his counsels, the verses on the people of knowledge as a class, and the verses of the pen and of writing that the katib stands under."
+    sunnah:
+      title: In the Sunnah
+      desc: "The hadith collections' reports that name the scholars, narrate from them, or speak of the people of knowledge."
+    seerah:
+      title: In the seerah
+      desc: "What the seerah books carry of the scholars of the Companions and the Successors, their teachers and their students."
+    books:
+      title: In the other books
+      desc: "History, rijal, tabaqat, commentary and adab: every harvested book that names a scholar — and whatever the next harvest brings."
+    ulama:
+      title: The scholars
+      desc: "The scholars, jurists, muftis, qadis, teachers and preachers on record — their lives, mission, sayings, works and legacy."
+    muhaddithun:
+      title: The muhaddiths
+      desc: "The muhaddiths on record: collectors and critics of the hadith, imams of isnad and rijal."
+    mufakkirun:
+      title: The thinkers
+      desc: "The philosophers, theologians and scientists on record — reason and knowledge professions beside the transmitted sciences."
+    udaba:
+      title: The litterateurs
+      desc: "The masters of adab on record: prose stylists and men of letters."
+    kuttab:
+      title: The writers
+      desc: "The writers on record: historians, geographers, secretaries and authors."
+    curated:
+      title: Curated records
+      desc: "Concepts, works, screens and events about scholarship itself — tagged records that belong to the browser though they are not a person or a passage."
+  viz:
+    title: "The council of knowledge"
+    lede: "Five pillars for the five categories of the people of the pen, each raised to the height of the records it holds, under the arch of the majlis. Below them stand the figures the sources mention most. Every pillar and every name is a link."
+    majlis_word: "مجلس العلم"
+    caption: "{n} records in the council"
+    lead_label: "Most mentioned in the sources:"
 wasaya:
   title: "Testaments Browser: the Last Counsels of the Prophets, Caliphs, Companions, Successors, Imams and the Righteous, Their Legacies, Relics and Resting Places"
   lede: "Everything the museum's sources say about how the prophets and messengers, the caliphs, the Companions, the Successors, the imams and the righteous took their leave: what they enjoined on those they left, what they said in their last hours, what they left behind, which of their belongings were kept after them, and where the books say they were buried. Every item is a verse, a report or a record with its source."
