@@ -22,3 +22,6 @@ Sumayya, mother of Ammar, was one of the earliest Muslims. The polytheists in Me
 
 ## In al-Raheeq al-Makhtum (p.90)
 Abu Jahl stabbed her in her private parts with a spear, and she died; in the book's count she was the first martyr in Islam {cite:mubarakpuri-raheeq p.90}.
+
+## The heroic stand
+Sumayya was tortured on Mecca's burning sand together with her husband Yasir and their son Ammar to make them renounce Islam; she stood firm until she became the first soul given on this path {cite:ibn-ishaq-guillaume p.233}. She had no strength of body and no clan to shield her: a defenceless woman who chose not to utter the word of unbelief, and so became, for Muslims, the first to give her life {cite:ibn-hajar-isaba}.
