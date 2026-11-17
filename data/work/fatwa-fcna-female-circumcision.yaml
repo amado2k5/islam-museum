@@ -1,0 +1,23 @@
+id: work/fatwa-fcna-female-circumcision
+class: work
+kind: fatwa
+label: { ar: "ما حكم ختان الإناث؟", en: "What is the ruling on female circumcision?", ur: "خواتین کی ختنہ کا حکم کیا ہے؟" }
+summary:
+  ar: "سؤال عما إذا كان ختان الإناث جائزًا. أجاب المجلس الفقهي لأمريكا الشمالية ⁦(نُشر يونيو 2022)⁩ أن جميع أشكال ختان الإناث غير جائزة إذ لا يوجد أساس قاطع في القرآن والسنة يوجب أو يستحب ذلك على ما فصّل الجواب."
+  en: "A question about whether female circumcision is permissible. The Fiqh Council of North America (published June 2022) answered that all its various forms are not permissible, there being no definitive basis in the Qur'an and sunna requiring or recommending it — as the answer details."
+  ur: "کیا خواتین کا ختنہ جائز ہے؟ فقہ کونسل آف نارتھ امریکہ ⁦(شائع شدہ جون 2022)⁩ نے جواب دیا کہ اس کی تمام صورتیں جائز نہیں کیونکہ قرآن و سنت میں اس کی قطعی بنیاد نہیں — جیسا کہ جواب میں تفصیل ہے۔"
+wings: [words]
+publisher: group/fiqh-council-north-america
+url: "https://fiqhcouncil.org/fatwa-on-female-circumcision/"
+languages: [en]
+sources: [source/fcna]
+relations:
+  - { type: about, target: concept/fiqh, sources: [source/fcna] }
+  - { type: about, target: concept/medical-treatment, sources: [source/fcna] }
+provenance:
+  layer: own-research
+  source: "fiqhcouncil.org post 'What is the ruling on female circumcision?', dated 17 Jun 2022; read 17 Nov 2026. Summary in the museum's own words."
+  generated_by: "Devin"
+  model: "SWE-2 Medium"
+  run: fatwa-websites-34
+status: { review: published, completeness: 1 }
