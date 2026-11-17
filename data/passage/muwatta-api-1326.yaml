@@ -10,6 +10,7 @@ summary:
   en: "A report in Muwatta Malik, no. 1326 (Business Transactions), that mentions the collection of the Qur'an and the codices. The browser of the museum for how the Qur'an was read and written lists it with the texts of the Qur'an, the Sunnah, the seerah and the books on that subject."
   ur: "موطأ مالک کی حدیث نمبر 1326، جس میں جمعِ قرآن اور مصاحف کا ذکر ہے۔ قراءات، رسم، خطوط اور نقطوں کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
 relations:
+  - { type: mentions, target: concept/trade-in-islam, sources: [source/muwatta-malik] }
   - { type: mentions, target: concept/mushaf, sources: [source/muwatta-malik, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-malik, hadith 1326 (book 31 hadith 37); matn excerpt of at most 55 words chosen by the qira'at detector (scripts/qiraat.ts), honorific formulas left out", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "qiraat-hadithapi-1" }
 sources: [source/muwatta-malik, source/hadith-api-fawazahmed0]

@@ -107,6 +107,7 @@ export const LISTING_BUDGETS: Budget[] = [
   { family: "listing (audit S18)", route: "/ar/ansab/", html: 500 * KB, js: 24 * KB },
   { family: "listing (audit S18)", route: "/ar/hisab/", html: 500 * KB, js: 24 * KB },
   { family: "listing (audit S18)", route: "/ar/islamic-economy/", html: 500 * KB, js: 24 * KB },
+  { family: "listing (audit S18)", route: "/ar/trade/", html: 500 * KB, js: 24 * KB },
   { family: "listing (audit S18)", route: "/ar/miracles/", html: 500 * KB, js: 24 * KB },
   { family: "listing (audit S18)", route: "/ar/ideas/", html: 500 * KB, js: 24 * KB },
   { family: "listing (audit S18)", route: "/ar/living/", html: 500 * KB, js: 24 * KB },

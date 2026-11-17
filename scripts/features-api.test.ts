@@ -66,7 +66,7 @@ describe("one API export per browser or explorer (AGENTS.md: every feature is gr
 
   it("writes jobs, fatwa, khutab, poetry and screens with their fields, edges, prose languages and job holders", () => {
     const data = featureApiData(compiled);
-    expect(Object.keys(data).sort()).toEqual(["akhlaq.json", "angels.json", "ansab.json", "arkan.json", "asma.json", "battles.json", "bayt.json", "bunuwwa.json", "companions.json", "cosmos.json", "dreams.json", "duas.json", "eschatology.json", "fatwa.json", "ghayb.json", "halal.json", "hasanats.json", "hisab.json", "hudud.json", "ibadat.json", "islamic-economy.json", "jannas.json", "jinn-devils.json", "jobs.json", "khulafa.json", "khutab.json", "madhahib.json", "magic.json", "messengers.json", "miracles.json", "mukatabat.json", "nar.json", "nature.json", "nubuwat.json", "places.json", "poetry.json", "qiraat.json", "qiyama.json", "qudsi.json", "qurun.json", "sayyiat.json", "screens.json", "sport.json", "tafsir.json", "tibb.json", "ubuwwa.json", "ukhuwwa.json", "umam.json", "umuma.json", "usra.json", "wasaya.json"]);
+    expect(Object.keys(data).sort()).toEqual(["akhlaq.json", "angels.json", "ansab.json", "arkan.json", "asma.json", "battles.json", "bayt.json", "bunuwwa.json", "companions.json", "cosmos.json", "dreams.json", "duas.json", "eschatology.json", "fatwa.json", "ghayb.json", "halal.json", "hasanats.json", "hisab.json", "hudud.json", "ibadat.json", "islamic-economy.json", "jannas.json", "jinn-devils.json", "jobs.json", "khulafa.json", "khutab.json", "madhahib.json", "magic.json", "messengers.json", "miracles.json", "mukatabat.json", "nar.json", "nature.json", "nubuwat.json", "places.json", "poetry.json", "qiraat.json", "qiyama.json", "qudsi.json", "qurun.json", "sayyiat.json", "screens.json", "sport.json", "tafsir.json", "tibb.json", "trade.json", "ubuwwa.json", "ukhuwwa.json", "umam.json", "umuma.json", "usra.json", "wasaya.json"]);
     expect(data["qudsi.json"].items.map((i) => i.id)).toEqual(["passage/muslim-2577"]);
     expect(data["qudsi.json"].items[0]).toMatchObject({ work: "work/sahih-muslim", ref: "2577", hadith: "zulm", themes: ["ethics-and-character"] });
     expect(data["qudsi.json"].feature).toBe("hadith-qudsi-browser");
@@ -834,6 +834,41 @@ describe("one API export per browser or explorer (AGENTS.md: every feature is gr
     expect(items.find((i) => i.id === "concept/waqf")).toMatchObject({ section: "curated", topics: ["waqf"] });
     expect(items.find((i) => i.id === "work/iqtisad-x")).toMatchObject({ section: "books", topics: ["money"] });
     expect(data["islamic-economy.json"].feature).toBe("islamic-economy-browser");
+  });
+
+  it("exports trade: detected passages by corpus and topic, tagged records, gated ambiguous forms", () => {
+    const ilafAyah = makeNode("passage/quran-106-1x", "passage", { unit: "ayah", work: "work/quran", sura: 106, aya: 1, text: "لإيلاف قريش إيلافهم رحلة الشتاء والصيف" });
+    const caravanHadith = makeNode("passage/muslim-8888", "passage", { unit: "hadith", work: "work/sahih-muslim", ref: "8888", text: "وخرجت القافلة إلى الشام بالبضاعة والتجار" });
+    const silkBook = makeNode("passage/geobook-1", "passage", { unit: "section", work: "work/future-geo", ref: "1", text: "وكان طريق الحرير يمر بسمرقند وبخارى إلى الصين" });
+    const tradePassage = makeNode("passage/fiqhbook-9", "passage", { unit: "section", work: "work/future-fiqh2", ref: "9", text: "باب في التجارة والأسواق والبضاعة والربح" });
+    const seerahIr = makeNode("passage/sira-9", "passage", { unit: "section", work: "work/future-sira2", ref: "9", text: "وكانت عير لقريش فيها أموالهم وتجارتهم قد أقبلت من الشام" });
+    const hajjFp = makeNode("passage/muslim-8889", "passage", { unit: "hadith", work: "work/sahih-muslim", ref: "8889", text: "وسافر القوم إلى الحج في الموسم" });
+    const silkConcept = { ...makeNode("concept/silk-road-x", "concept", { kind: "term" }), tags: ["trade-browser", "trade-silk-road"] };
+    const tradeWork = { ...makeNode("work/tijara-x", "work", { kind: "book" }), tags: ["trade-browser", "trade-books", "trade-trade"] };
+    const siraWork = makeNode("work/future-sira2", "work", { genre: ["sira"] });
+    const geoWork = makeNode("work/future-geo", "work", { genre: ["geography"] });
+    const fiqhWork = makeNode("work/future-fiqh2", "work", { genre: ["fiqh"] });
+    const data = featureApiData({ ...compiled, nodes: [...compiled.nodes, ilafAyah, caravanHadith, silkBook, tradePassage, seerahIr, hajjFp, silkConcept, tradeWork, siraWork, geoWork, fiqhWork] });
+    const items = data["trade.json"].items;
+    const ids = items.map((i) => i.id);
+    expect(ids).toContain("passage/quran-106-1x");
+    expect(ids).toContain("passage/muslim-8888");
+    expect(ids).toContain("passage/geobook-1"); // a book harvested later lands automatically
+    expect(ids).toContain("passage/fiqhbook-9");
+    expect(ids).toContain("passage/sira-9");
+    expect(ids).toContain("concept/silk-road-x");
+    expect(ids).toContain("work/tijara-x");
+    expect(ids).not.toContain("passage/muslim-8889"); // travel without a trade context is not trade
+    expect(items.find((i) => i.id === "passage/quran-106-1x")).toMatchObject({ section: "quran" });
+    expect(items.find((i) => i.id === "passage/quran-106-1x")!.topics).toContain("caravans");
+    expect(items.find((i) => i.id === "passage/muslim-8888")).toMatchObject({ section: "sunnah" });
+    expect(items.find((i) => i.id === "passage/geobook-1")).toMatchObject({ section: "books" });
+    expect(items.find((i) => i.id === "passage/geobook-1")!.topics).toContain("silk-road");
+    expect(items.find((i) => i.id === "passage/fiqhbook-9")!.topics).toContain("trade");
+    expect(items.find((i) => i.id === "passage/sira-9")).toMatchObject({ section: "seerah" });
+    expect(items.find((i) => i.id === "concept/silk-road-x")).toMatchObject({ section: "curated", topics: ["silk-road"] });
+    expect(items.find((i) => i.id === "work/tijara-x")).toMatchObject({ section: "books", topics: ["trade"] });
+    expect(data["trade.json"].feature).toBe("trade-browser");
   });
 
   it("is empty-capable", () => {
