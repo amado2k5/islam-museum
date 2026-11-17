@@ -1,0 +1,23 @@
+id: work/fatwa-fcna-coronavirus-epidemic-guidelines
+class: work
+kind: fatwa
+label: { ar: "إرشادات المجلس الفقهي لوباء كورونا", en: "Fiqh Council Guidelines for the Coronavirus Epidemic", ur: "کورونا وبا کے لیے فقہ کونسل کی ہدایات" }
+summary:
+  ar: "إرشادات أصدرها المجلس الفقهي لأمريكا الشمالية ⁦(16 مارس 2020، إعداد الدكتور ذو الفقار علي شاه)⁩ لوباء كورونا تتضمن توصية كبار السن وأمهات الصغار والأطفال وأصحاب الأعراض بالامتناع عن ارتياد المساجد على ما نصّت عليه الإرشادات."
+  en: "Guidelines issued by the Fiqh Council of North America (16 March 2020, prepared by Dr. Zulfiqar Ali Shah) for the coronavirus epidemic, recommending that the elderly, mothers with small children, children and the symptomatic stop attending mosques — as the guidelines set out."
+  ur: "فقہ کونسل آف نارتھ امریکہ کی ہدایات ⁦(16 مارچ 2020، تیاری: ڈاکٹر ذوالفقار علی شاہ)⁩ کورونا وبا کے لیے، جن میں بزرگوں چھوٹے بچوں اور علامات والوں کو مسجد نہ آنے کی سفارش ہے — جیسا کہ ہدایات میں ہیں۔"
+wings: [words]
+publisher: group/fiqh-council-north-america
+url: "https://fiqhcouncil.org/fiqh-council-guidelines-for-coronavirus-epidemic/"
+languages: [en]
+sources: [source/fcna]
+relations:
+  - { type: about, target: concept/al-taun, sources: [source/fcna] }
+  - { type: about, target: concept/masjid, sources: [source/fcna] }
+provenance:
+  layer: own-research
+  source: "fiqhcouncil.org post 'Fiqh Council Guidelines for Coronavirus Epidemic', dated 9 Apr 2020; read 17 Nov 2026. Summary in the museum's own words."
+  generated_by: "Devin"
+  model: "SWE-2 Medium"
+  run: fatwa-websites-34
+status: { review: published, completeness: 1 }
