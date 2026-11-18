@@ -18,7 +18,7 @@ The hakam (also muhakkam) is the arbiter whom the parties to a dispute appoint b
 
 ## The tribal hakams
 
-Every tribe kept its famous hakams — Aktham ibn Sayfi, Hajib ibn Zurara, Aqra' ibn Habis of Tamim; Amir ibn Zarib of Qays; Abd al-Muttalib, Abu Talib, Abu Sufyan and the future caliph Umar of Quraysh — and the sources also name women hakams like Suhn bint Luqman and Hind bint Hus {cite:tdv-hakem}. The Tamim arbiters held an accepted judging authority over all comers at the Ukaz fair for a long period {cite:tdv-hakem}.
+Every tribe kept its famous hakams — Aktham ibn Sayfi, Hajib ibn Zurara, Aqra' ibn Habis of Tamim; Amir ibn Zarib of Qays; Abd al-Muttalib, Abu Talib, Abu Sufyan and the future caliph Umar of Quraysh — and the sources also name women hakams like Suhn bint Luqman and Hind bint Hus {cite:tdv-hakem}. The Tamim arbiters long held an accepted authority to judge all comers at the Ukaz fair {cite:tdv-hakem}.
 
 ## The Black Stone
 

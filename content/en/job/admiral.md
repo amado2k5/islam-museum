@@ -30,7 +30,7 @@ Lutfi Pasha defined the kapudan's task as the security of sea trade, and advised
 
 ## Rank and revenue
 
-The kapudan's annual has income ran 550,000 akçe as Gelibolu sancak beyi, 700,000 as Cezayir beylerbeyi and 885,000 akçe in the seventeenth century, plus the Galata mukâtaa and the Aegean islands' maktû tax — 70,000 kuruş in the seventeenth century, 300,000 in the eighteenth — and he owed up to a thousand cebelü retainers on campaign {cite:tdv-kapudan-pasa}. He held his own divanhâne in the dockyard, received the hil'at at the Yalı Köşkü when the fleet sailed and returned, embarked on the paşa baştardası with a reserve galley, and from the early eighteenth century flew three lanterns and three flags on the great başkapudane galleon in war {cite:tdv-kapudan-pasa}.
+The kapudan's annual income ran 550,000 akçe as Gelibolu sancak beyi, 700,000 as Cezayir beylerbeyi and 885,000 akçe in the seventeenth century, plus the Galata mukâtaa and the Aegean islands' maktû tax — 70,000 kuruş in the seventeenth century, 300,000 in the eighteenth — and he owed up to a thousand cebelü retainers on campaign {cite:tdv-kapudan-pasa}. He held his own divanhâne in the dockyard, received the hil'at at the Yalı Köşkü when the fleet sailed and returned, embarked on the paşa baştardası with a reserve galley, and from the early eighteenth century flew three lanterns and three flags on the great başkapudane galleon in war {cite:tdv-kapudan-pasa}.
 
 ## Rebuilding the fleet
 

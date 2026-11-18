@@ -26,7 +26,7 @@ In Lane's Cairo the barber was the operator of the circumcision: in the processi
 
 ## Admission into the trade
 
-The girding ceremony by which a young tradesman joined his craft was customary, Lane says, among carpenters, turners, barbers, tailors, book-binders and a few others: the father applied to the Sheykh of the trade, whose officer the Nakeeb invited the masters with a sprig of green; after coffee and dinner the Nakeeb stated the candidate's qualifications and girded him with a shawl over his outer coat while the company recited the Fat'hah {cite:lane-modern-egyptians ch. XXVII, pp. 609-610}.
+The girding ceremony by which a young tradesman joined his craft was customary, Lane says, among carpenters, turners, barbers, tailors, book-binders and a few others: the father applied to the Sheykh of the trade, whose officer, the Nakeeb, invited the masters with a sprig of green; after coffee and dinner the Nakeeb stated the candidate's qualifications and girded him with a shawl over his outer coat while the company recited the Fat'hah {cite:lane-modern-egyptians ch. XXVII, pp. 609-610}.
 
 ## The barber's patrons in guild lore
 

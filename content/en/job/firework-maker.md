@@ -26,7 +26,7 @@ For the rejoicings of victories, the firework-makers "set on fire some hundred t
 
 ## Avicenna as patron
 
-The guild claims the philosopher as its own: "the first artist in fireworks was Avicenna (Abu Sina), who is the master and patron of all firework-makers" {cite:evliya-seyahatname-hammer sec. 208, p. 158}. Like the other patrons of the procession it is the guild's tradition, not a documented succession — a learned patron for a craft that mixed chemistry and celebration. Evliya adds a pious speculation that the Cherubim, hearing the dreadful report of the rockets, recite the verse asking God to guard from evil {cite:evliya-seyahatname-hammer sec. 208, p. 158}.
+The guild claims the philosopher as its own: "the first artist in fireworks was Avicenna (Abu Sina), who is the master and patron of all firework-makers" {cite:evliya-seyahatname-hammer sec. 208, p. 158}. Like the other patrons of the procession, it is the guild's tradition, not a documented succession — a learned patron for a craft that mixed chemistry and celebration. Evliya adds a pious speculation that the Cherubim, hearing the dreadful report of the rockets, recite the verse asking God to guard from evil {cite:evliya-seyahatname-hammer sec. 208, p. 158}.
 
 ## Fireworks in Cairo
 

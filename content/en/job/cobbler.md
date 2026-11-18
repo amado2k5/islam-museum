@@ -26,7 +26,7 @@ The thread must be twined well and made no longer than a cubit, because a longer
 
 ## The customer's shoes
 
-A shoemaker must not keep a customer waiting for his shoes unless a day was fixed in advance, because people are inconvenienced by returning again and again and by the withholding of their property {cite:shayzari-nihaya-buckley ch. 29, pp. 92-93}. The chapter ends with a fashion the muhtasib is told to forbid: paper, felt and the like must not be put into women's slippers to make them squeak as they walk — a taste of the women of Baghdad, al-Shayzari calls it shameful and unbefitting free-born people {cite:shayzari-nihaya-buckley ch. 29, pp. 92-93}.
+A shoemaker must not keep a customer waiting for his shoes unless a day was fixed in advance, because people are inconvenienced by returning again and again and by the withholding of their property {cite:shayzari-nihaya-buckley ch. 29, pp. 92-93}. The chapter ends with a fashion the muhtasib is told to forbid: paper, felt and the like must not be put into women's slippers to make them squeak as they walk — a taste of the women of Baghdad, which al-Shayzari calls shameful and unbefitting free-born people {cite:shayzari-nihaya-buckley ch. 29, pp. 92-93}.
 
 ## The shoemakers of Istanbul
 
