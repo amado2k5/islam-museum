@@ -10,7 +10,7 @@ themes: [battles, wars-and-campaigns]
 periods: [period/prophetic-era]
 regions: [arabia]
 date:
-  start: { edtf: "0627-03~", hijri: "0005-11", calendar: julian, precision: month, status: tradition, note: "ذي القعدة سنة 5هـ إثر الفراغ من الأحزاب مباشرة (الرحيق ص314–318)." }
+  start: { edtf: "0627-03~", hijri: "0005-11", calendar: julian, precision: month, status: tradition, note: "ذي القعدة سنة 5هـ إثر الفراغ من الأحزاب مباشرة ⁦(الرحيق ص314–318)⁩." }
 relations:
   - { type: occurred_at, target: place/medina }
   - { type: had_participant, target: person/muhammad, role: "قائد الحصار", sources: [source/mubarakpuri-raheeq] }
@@ -43,7 +43,7 @@ sides:
   - label: { ar: "المسلمون بقيادة النبي", en: "The Muslims under the Prophet" }
     participants: [group/muhajirun, group/ansar]
     commanders: [person/muhammad, person/ali-ibn-abi-talib]
-    strength: { value: 3000, status: tradition, note: "ثلاثة آلاف وستة وثلاثون فرساً (ابن إسحاق)", sources: [source/ibn-hisham-sira, source/mubarakpuri-raheeq] }
+    strength: { value: 3000, status: tradition, note: "ثلاثة آلاف وستة وثلاثون فرساً ⁦(ابن إسحاق)⁩", sources: [source/ibn-hisham-sira, source/mubarakpuri-raheeq] }
   - label: { ar: "بنو قريظة وحليفهم هُيي بن أخطب", en: "Banu Qurayza with their ally Huyayy ibn Akhtab" }
     participants: [group/banu-qurayza]
     commanders: [person/kaab-ibn-asad, person/huyayy-ibn-akhtab]

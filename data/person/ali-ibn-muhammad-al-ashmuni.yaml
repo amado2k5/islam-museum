@@ -49,7 +49,7 @@ status:
   completeness: 3
 provenance:
   layer: own-research
-  source: موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج2 ص65-66
+  source: موسوعة أعلام العلماء والأدباء ⁦(أليكسو/دار الجيل 2004)⁩ ج2 ص65-66
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch55
@@ -65,4 +65,4 @@ occupations:
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/mawsuat-a3lam-ulama-adaba]
 relations:
-  - { type: lived_in, target: place/cairo, note: "Place association from the person's nisba/name (القاهري); denotes association, not proven residence.", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }
+  - { type: lived_in, target: place/cairo, note: "Place association from the person's nisba/name ⁦(القاهري)⁩; denotes association, not proven residence.", sources: [source/mawsuat-a3lam-ulama-adaba], confidence: low }

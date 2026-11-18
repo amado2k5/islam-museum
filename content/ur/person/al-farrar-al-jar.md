@@ -4,7 +4,7 @@ lang: ur
 source_lang: ar
 translators: ["Claude Code, claude-fable-5-2, translation"]
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b66, source: "حلية الأولياء (دار الكتب العلمية 1988) 10/153" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b66, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 10/153" }
 ---
 ## خلاصہ
 فرار جار ایک لقب ہے، یعنی وہ شخص جو کہیں نہیں ٹھہرتا؛ روایت میں اس کا نام نہیں دیا گیا۔ [[person/abu-nuaym-al-asbahani-ahmad|ابو نعیم]] نے «[[work/hilyat-al-awliya|حلیۃ الاولیاء]]» کی دسویں جلد میں ⁦(نمبر 518)⁩ صفحہ 153 پر ان کا ترجمہ لکھا ہے؛ چھپا ہوا نمبر 518 ہے، تسلسل میں 519۔ {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/153}

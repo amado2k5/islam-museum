@@ -4,7 +4,7 @@ lang: ar
 source_lang: ar
 translators: []
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b90, source: "حلية الأولياء (دار الكتب العلمية 1988) 10/391-392" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b90, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 10/391-392" }
 ---
 ## موجز
 أبو سفيان صالح بن مهران، ويقال له الحكيم، يُكتب كلامه. يترجم له [[person/abu-nuaym-al-asbahani-ahmad|أبو نعيم]] في الجزء العاشر من «[[work/hilyat-al-awliya|حلية الأولياء]]» ⁦(الترجمة المطبوعة 668)⁩ في الصفحتين 391 و392، وتسلسله 669. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/391}

@@ -9,13 +9,13 @@ wings: [time]
 periods: [period/umayyad]
 regions: [maghreb]
 date:
-  start: { edtf: "0720/0741", calendar: julian, precision: year, status: tradition, derived: true, note: "في ولاية ابن الحبحاب (البلاذري ص 324). التحويل مشتق." }
+  start: { edtf: "0720/0741", calendar: julian, precision: year, status: tradition, derived: true, note: "في ولاية ابن الحبحاب ⁦(البلاذري ص 324)⁩. التحويل مشتق." }
 relations:
   - { type: occurred_at, target: place/sus-al-aqsa }
   - { type: had_participant, target: person/abd-al-rahman-ibn-habib-al-fihri, role: "المُغزى الغانم", sources: [source/futuh-buldan-maarif-1407] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 324"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 324"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-22
 sides:

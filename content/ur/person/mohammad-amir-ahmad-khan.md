@@ -7,7 +7,7 @@ translators: []
 # راجا صاحب محمود آباد
 
 ## خلاصہ
-محمد عامر احمد خان (5 نومبر 1914 – 14 اکتوبر 1973)، راجا صاحب محمود آباد، ہندوستانی رئیس، سیاست دان، مصنف اور شاعر تھے جو تقسیم ہند کی مخالفت سے تحریک پاکستان کی قیادت تک پہنچے۔ {cite:wikipedia-mohammad-amir-ahmad-khan-en} {cite:wikidata-mohammad-amir-ahmad-khan} اردو مقالہ ایک مختصر سٹب ہے۔ {cite:wikipedia-mohammad-amir-ahmad-khan-ur} انگریزی مقالہ اور ویکی ڈیٹا ان کا نام "Ahmed" لکھتے ہیں جبکہ فہرست میں "Ahmad" ہے؛ دونوں املا ان کے ریکارڈ میں محفوظ ہیں۔ {cite:wikipedia-mohammad-amir-ahmad-khan-en}
+محمد عامر احمد خان ⁦(5 نومبر 1914 – 14 اکتوبر 1973)⁩، راجا صاحب محمود آباد، ہندوستانی رئیس، سیاست دان، مصنف اور شاعر تھے جو تقسیم ہند کی مخالفت سے تحریک پاکستان کی قیادت تک پہنچے۔ {cite:wikipedia-mohammad-amir-ahmad-khan-en} {cite:wikidata-mohammad-amir-ahmad-khan} اردو مقالہ ایک مختصر سٹب ہے۔ {cite:wikipedia-mohammad-amir-ahmad-khan-ur} انگریزی مقالہ اور ویکی ڈیٹا ان کا نام "Ahmed" لکھتے ہیں جبکہ فہرست میں "Ahmad" ہے؛ دونوں املا ان کے ریکارڈ میں محفوظ ہیں۔ {cite:wikipedia-mohammad-amir-ahmad-khan-en}
 
 ## وراثت اور مدرسۃ الواعظین
 1931 میں والد مہاراجا محمد علی محمد خان کی وفات پر وہ کم عمری میں جاگیر کے وارث بنے؛ جاگیر کی نگرانی ایک ٹرسٹ کے سپرد تھی جس میں محمد علی جناح نمایاں شخصیت بن گئے۔ {cite:wikipedia-mohammad-amir-ahmad-khan-en} 1940 سے 1944 تک وہ لکھنؤ کے مدرسۃ الواعظین — والد کے قائم کردہ اہل تشیع کی تعلیم کے مرکز — کے منتظم متولی رہے۔ {cite:wikipedia-mohammad-amir-ahmad-khan-en} انہوں نے «بحر» اور «محبوب» تخلص سے اردو و فارسی میں رباعیات، سلام، مرثیے، غزلیں اور نظمیں کہیں۔ {cite:wikipedia-mohammad-amir-ahmad-khan-en}

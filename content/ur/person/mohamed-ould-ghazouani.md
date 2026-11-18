@@ -7,7 +7,7 @@ translators: []
 
 # محمد ولد غزوانی
 
-محمد ولد غزوانی (پیدائش 1956ء) موریطانیہ کے جرنیل اور سیاست دان ہیں جو یکم اگست 2019ء سے موریطانیہ کے صدر ہیں اور محمد ولد عبد العزیز کے جانشین ہیں، جن کے وہ طویل عرصے تک قریبی ساتھی رہے۔{cite:source/wikipedia-mohamed-ould-ghazouani-ur}{cite:source/wikipedia-mohamed-ould-ghazouani-fr}
+محمد ولد غزوانی ⁦(پیدائش 1956ء)⁩ موریطانیہ کے جرنیل اور سیاست دان ہیں جو یکم اگست 2019ء سے موریطانیہ کے صدر ہیں اور محمد ولد عبد العزیز کے جانشین ہیں، جن کے وہ طویل عرصے تک قریبی ساتھی رہے۔{cite:source/wikipedia-mohamed-ould-ghazouani-ur}{cite:source/wikipedia-mohamed-ould-ghazouani-fr}
 
 ## فوج سے ایوان صدر تک
 

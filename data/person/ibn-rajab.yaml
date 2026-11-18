@@ -17,15 +17,15 @@ summary:
 wings: [people]
 themes: [scripture-and-its-sciences, development-of-law-theology-institutions]
 regions: [levant-iraq]
-born: { hijri: "0736-03", edtf: "1335~", calendar: julian, precision: month, status: tradition, derived: true, note: "ولد ببغداد في ربيع الأول سنة ست وثلاثين وسبعمئة باتفاق المصادر التي أطلع عليها محقق الكتاب؛ وأرخه ابن حجر في الدرر الكامنة سنة ست وسبعمئة ويرى المحقق أنه سبق قلم من الناسخ (ص 7). التحويل إلى الميلادي مشتق.", sources: [source/ibn-rajab-jami-ulum-hikam] }
-died: { hijri: "0795", edtf: "1393~", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي بدمشق سنة 795هـ بلا خلاف في العام؛ واختلف في الشهر: رمضان عند السخاوي وابن العماد، ورجب عند ابن حجر والسيوطي، وتوقف أبو المحاسن الدمشقي بينهما (ص 9). دفن بمقبرة الباب الصغير جوار قبر أبي الفرج عبد الواحد الشيرازي المقدسي (ت 486هـ). التحويل مشتق.", sources: [source/ibn-rajab-jami-ulum-hikam] }
+born: { hijri: "0736-03", edtf: "1335~", calendar: julian, precision: month, status: tradition, derived: true, note: "ولد ببغداد في ربيع الأول سنة ست وثلاثين وسبعمئة باتفاق المصادر التي أطلع عليها محقق الكتاب؛ وأرخه ابن حجر في الدرر الكامنة سنة ست وسبعمئة ويرى المحقق أنه سبق قلم من الناسخ ⁦(ص 7)⁩. التحويل إلى الميلادي مشتق.", sources: [source/ibn-rajab-jami-ulum-hikam] }
+died: { hijri: "0795", edtf: "1393~", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي بدمشق سنة 795هـ بلا خلاف في العام؛ واختلف في الشهر: رمضان عند السخاوي وابن العماد، ورجب عند ابن حجر والسيوطي، وتوقف أبو المحاسن الدمشقي بينهما ⁦(ص 9)⁩. دفن بمقبرة الباب الصغير جوار قبر أبي الفرج عبد الواحد الشيرازي المقدسي ⁦(ت 486هـ)⁩. التحويل مشتق.", sources: [source/ibn-rajab-jami-ulum-hikam] }
 relations:
   - { type: buried_in, target: place/bab-al-saghir-cemetery, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata] }
   - { type: born_in, target: place/baghdad, sources: [source/ibn-rajab-jami-ulum-hikam] }
   - { type: died_in, target: place/damascus, sources: [source/ibn-rajab-jami-ulum-hikam] }
-  - { type: lived_in, target: place/damascus, note: "قدمها مع والده سنة 744هـ (ص 8)", sources: [source/ibn-rajab-jami-ulum-hikam] }
-  - { type: student_of, target: person/ibn-qayyim-al-jawziyya, note: "ذكره محقق الكتاب في عداد أبرز شيوخه (ص 11)", sources: [source/ibn-rajab-jami-ulum-hikam] }
-  - { type: child_of, target: person/ahmad-ibn-rajab, note: "والده الشيخ شهاب الدين أحمد بن رجب، رحل به إلى دمشق سنة 744هـ (ص 8)", sources: [source/ibn-rajab-jami-ulum-hikam] }
+  - { type: lived_in, target: place/damascus, note: "قدمها مع والده سنة 744هـ ⁦(ص 8)⁩", sources: [source/ibn-rajab-jami-ulum-hikam] }
+  - { type: student_of, target: person/ibn-qayyim-al-jawziyya, note: "ذكره محقق الكتاب في عداد أبرز شيوخه ⁦(ص 11)⁩", sources: [source/ibn-rajab-jami-ulum-hikam] }
+  - { type: child_of, target: person/ahmad-ibn-rajab, note: "والده الشيخ شهاب الدين أحمد بن رجب، رحل به إلى دمشق سنة 744هـ ⁦(ص 8)⁩", sources: [source/ibn-rajab-jami-ulum-hikam] }
   - { type: authored, target: work/jami-ulum-hikam, sources: [source/ibn-rajab-jami-ulum-hikam] }
   - { type: authored, target: work/dhayl-tabaqat-al-hanabila, sources: [source/encyclopaedia-of-islam-2] }
   - { type: authored, target: work/lataif-al-maarif, sources: [source/encyclopaedia-of-islam-2] }
@@ -38,9 +38,9 @@ relations:
   - { type: participated_in, target: event/ibn-rajab-teaching-775, sources: [source/encyclopaedia-of-islam-2] }
   - { type: participated_in, target: event/ibn-rajab-ijaza-nawawi-790, sources: [source/encyclopaedia-of-islam-2] }
   - { type: participated_in, target: event/ibn-rajab-death-795, sources: [source/ibn-rajab-jami-ulum-hikam] }
-  - { type: traveled_to, target: place/mecca, note: "رحل في طلب العلم إلى مصر ونابلس والحجاز والقدس ومكة والمدينة (ص 9)", sources: [source/ibn-rajab-jami-ulum-hikam] }
-  - { type: traveled_to, target: place/medina, note: "رحل في طلب العلم إلى مصر ونابلس والحجاز والقدس ومكة والمدينة (ص 9)", sources: [source/ibn-rajab-jami-ulum-hikam] }
-  - { type: traveled_to, target: place/jerusalem, note: "رحل في طلب العلم إلى مصر ونابلس والحجاز والقدس ومكة والمدينة (ص 9)", sources: [source/ibn-rajab-jami-ulum-hikam] }
+  - { type: traveled_to, target: place/mecca, note: "رحل في طلب العلم إلى مصر ونابلس والحجاز والقدس ومكة والمدينة ⁦(ص 9)⁩", sources: [source/ibn-rajab-jami-ulum-hikam] }
+  - { type: traveled_to, target: place/medina, note: "رحل في طلب العلم إلى مصر ونابلس والحجاز والقدس ومكة والمدينة ⁦(ص 9)⁩", sources: [source/ibn-rajab-jami-ulum-hikam] }
+  - { type: traveled_to, target: place/jerusalem, note: "رحل في طلب العلم إلى مصر ونابلس والحجاز والقدس ومكة والمدينة ⁦(ص 9)⁩", sources: [source/ibn-rajab-jami-ulum-hikam] }
 provenance: { layer: own-research, source: "Jami' al-Ulum wal-Hikam (Dar Ibn Kathir 1429/2008), editor's introduction pp. 7–11", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "lib-jami-ulum-hikam-batch-1, lib-durar-kamina-batch-1-2-2026-10-31" }
 external_ids: { wikidata: "Q529235", viaf: "6295300" }
 sources: [source/ibn-rajab-jami-ulum-hikam, source/durar-kamina-jil-1993, source/wikidata]

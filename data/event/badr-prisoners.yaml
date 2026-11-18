@@ -19,7 +19,7 @@ themes: [battles]
 periods: [period/prophetic-era]
 regions: [arabia]
 date:
-  start: { hijri: "0002-09", calendar: julian, precision: month, status: tradition, note: "في طريق العودة والأسابيع التالية للوقعة (الرحيق ص228-231)." }
+  start: { hijri: "0002-09", calendar: julian, precision: month, status: tradition, note: "في طريق العودة والأسابيع التالية للوقعة ⁦(الرحيق ص228-231)⁩." }
 outcome:
   en: "Ransom adopted; two prisoners executed; some released gratis or exchanged."
   ar: "قُبِل الفداء؛ أُعدم أسيران؛ مُنَّ على بعضهم بلا فداء وبُودل آخر."
@@ -32,9 +32,9 @@ relations:
   - { type: had_participant, target: person/abu-bakr, role: "أشار بأخذ الفداء", sources: [source/mubarakpuri-raheeq, source/tarikh-umar-ibn-al-jawzi] }
   - { type: had_participant, target: person/umar-ibn-al-khattab, role: "أشار بضرب الأعناق", sources: [source/mubarakpuri-raheeq, source/tarikh-umar-ibn-al-jawzi] }
   - { type: had_participant, target: person/al-nadr-ibn-al-harith, role: "أُعدم بالصفراء بيد علي", sources: [source/mubarakpuri-raheeq] }
-  - { type: had_participant, target: person/uqba-ibn-abi-muayt, role: "أُعدم بعرق الظبية؛ القاتل عاصم بن ثابت وقيل علي (الرحيق ص228)", confidence: medium, sources: [source/mubarakpuri-raheeq, source/sunan-abi-dawud] }
+  - { type: had_participant, target: person/uqba-ibn-abi-muayt, role: "أُعدم بعرق الظبية؛ القاتل عاصم بن ثابت وقيل علي ⁦(الرحيق ص228)⁩", confidence: medium, sources: [source/mubarakpuri-raheeq, source/sunan-abi-dawud] }
   - { type: had_participant, target: person/asim-ibn-thabit, role: "نفّذ إعدام عقبة على رواية", sources: [source/mubarakpuri-raheeq, source/sunan-abi-dawud] }
-  - { type: had_participant, target: person/suhayl-ibn-amr, note: "رُفض اقتراح نزع ثنيتيه احترازاً عن المثلة (الرحيق ص230)", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/suhayl-ibn-amr, note: "رُفض اقتراح نزع ثنيتيه احترازاً عن المثلة ⁦(الرحيق ص230)⁩", sources: [source/mubarakpuri-raheeq] }
   - { type: had_participant, target: person/abbas-ibn-abd-al-muttalib, note: "من جملة الأسرى المُخرَجين كرهاً", sources: [source/mubarakpuri-raheeq] }
   - { type: had_participant, target: person/musab-ibn-umayr, note: "استلم أخاه الأسير أبا عزيز وأمره بإحكام وثاقه", sources: [source/mubarakpuri-raheeq] }
 sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/sunan-abi-dawud, source/tarikh-umar-ibn-al-jawzi, source/muhammad-qaid-al-aala-azhar, source/sallabi-ali-vol1, source/assabile-ragheb-el-sergani]

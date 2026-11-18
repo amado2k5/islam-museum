@@ -104,6 +104,10 @@ A fourth build blocker, fixed: `scripts/time-browser.ts` wrote its per-language 
 
 Terms a Spanish-speaking reader should review in the prose: `anticalifa`, `los Siete Juristas`, `Sucesores` (for the Successors), `burchíes`, `benimerín`, `ilkhánidas`, `Hiyaz`, `Jorasán`, `Bujará`, `Solimán`, `derecho anglo-muhammadan`, and the translated titles of television programmes and books.
 
+### `main` merged into `release/spanish` (founder instruction in chat, 18 Nov 2026)
+
+43 commits of `main` (about 21,000 files, mostly the Arabic-parenthesis isolation across the corpus and new records) were merged into the Spanish feature branch and from there into `release/spanish`. Two conflicts, both resolved keeping both sides: `CANARY.md` (both lists of fixes kept) and `site/src/lib/dates.ts` (main's isolated parentheses on the Arabic and Urdu era labels, with the French and Spanish rows kept). On the merged tree: `npm run validate` exit 0, "validated 81578 entities, 108152 prose files: 0 errors, 5344 warnings"; `npm test` 50 files, 681 of 681 pass. Not re-run after this merge: the site build. Some English prose files that were already translated changed on `main` in this merge (parenthesis isolation); their Spanish files were not re-checked against the new English.
+
 ### Held records and English-source defects found while translating
 
 - `event/al-nawawi-tahrir-671`: the same defect as the next item (a stray quotation mark and an `ur:` line of Urdu inside the English prose). Not translated.

@@ -2,7 +2,7 @@
 id: building/jami-al-qatia
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (AI, عربی سے)"]
+translators: ["Claude Haiku 5.5 ⁦(AI, عربی سے)⁩"]
 ---
 
 ## خلاصہ

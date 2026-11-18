@@ -16,13 +16,13 @@ summary:
 wings: [people]
 died: { edtf: "670~", calendar: gregorian, precision: year, derived: true, note: "Date-enrichment pass; source: Tahdhib al-Kamal" }
 relations:
-  - { type: lived_in, target: place/bukhara, note: "Place association from the person's nisba/name (البخاري); denotes association, not proven residence.", sources: [source/ibn-rajab-jami-ulum-hikam], confidence: low }
+  - { type: lived_in, target: place/bukhara, note: "Place association from the person's nisba/name ⁦(البخاري)⁩; denotes association, not proven residence.", sources: [source/ibn-rajab-jami-ulum-hikam], confidence: low }
   - { type: member_of, target: group/sahaba, sources: [source/ibn-rajab-jami-ulum-hikam]}
 sources:
 - source/ibn-rajab-jami-ulum-hikam
 provenance:
   layer: own-research
-  source: "جامع العلوم والحكم، الحديث السابع والعشرون ص 566–567 (ط دار ابن كثير 1429هـ/2008م)"
+  source: "جامع العلوم والحكم، الحديث السابع والعشرون ص 566–567 ⁦(ط دار ابن كثير 1429هـ/2008م)⁩"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-jami-ulum-hikam-batch-10
 status:

@@ -1,17 +1,21 @@
 id: work/encyclopedia-of-canonical-hadith
 class: work
 kind: book
-label: { ar: "موسوعة الحديث القانوني", en: "Encyclopedia of Canonical Hadith" }
+tags: [ulama-browser]
+label: { ar: "موسوعة الحديث القانوني", en: "Encyclopedia of Canonical Hadith", ur: "انسائیکلوپیڈیا آف کینونیکل حدیث" }
 summary:
-  ar: "بطاقة أولية لـموسوعة الحديث القانوني؛ لم تُراجع مصادرها على الصفحة بعد."
-  en: "Draft card for Encyclopedia of Canonical Hadith; its sources are not yet checked on the page."
-wings: []
-sources: [source/al-aalam]
+  ar: "عمل مرجعي بالإنجليزية للمستشرق الهولندي غ. هـ. أ. يوينبول يضم ترجمات إنجليزية لأحاديث الكتب المعتمدة مع أسانيدها، صدر عن دار بريل سنة 2007 في 804 صفحات."
+  en: "An English reference work by the Dutch orientalist G. H. A. Juynboll giving English translations of canonical hadiths with their chains of transmission, published by Brill in 2007 (804 pages)."
+  ur: "ڈچ مستشرق جی ایچ اے یوئنبول کا انگریزی حوالہ جاتی کام، جس میں معتبر حدیثی مجموعوں کی احادیث کے انگریزی ترجمے ان کی اسناد کے ساتھ ہیں؛ برل سے 2007ء میں 804 صفحات میں شائع ہوا۔"
+wings: [words, today]
+genre: [hadith]
+composed: { edtf: "2007", calendar: gregorian, precision: year, status: historical }
+sources: [source/al-aalam, source/google-books-encyclopedia-of-canonical-hadith]
 external_ids: { wikidata: "Q59650013" }
 provenance:
   layer: own-research
-  source: "Wikidata candidate; work attested in bibliographies — entry not yet checked on the page"
+  source: "Wikidata candidate; publisher, year and extent checked on Google Books on 18 November 2026 for the founder’s 210-book Ulama Browser list (category 2)"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: wikidata-import-wave2
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
+status: { review: published, completeness: 2, generated_by: "Devin (SWE-2 Medium)" }

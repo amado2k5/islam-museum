@@ -14,7 +14,7 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 وہ کہتے ہیں کہ اس وقت کے مومنوں کے دل میں تسبیح، تحمید، تکبیر اور تہلیل ڈالی جائے گی، جیسے انسان کو کھانے سے سیری ہوتی ہے (needs_source)۔ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:35:00} {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:35:30}
 
 ## کئی فتنے اور اللہ پر بھروسہ
-شیخ کہتے ہیں کہ دجال کا فتنہ اکیلا نہیں، کیونکہ دھوکے باز بہت ہیں، اور اللہ مومنوں کو اس فتنے سے بچاتا ہے (شیخ کی رائے)۔ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:35:30}
+شیخ کہتے ہیں کہ دجال کا فتنہ اکیلا نہیں، کیونکہ دھوکے باز بہت ہیں، اور اللہ مومنوں کو اس فتنے سے بچاتا ہے ⁦(شیخ کی رائے)⁩۔ {cite:assabile-omar-abdelkafy tafsir-al-quran-al-qareem/ep02 00:35:30}
 
 ## غیب کے تناظر میں
 آدم سے قیامت تک کا عظیم ترین فتنہ؛ آنکھ کا کانا ربوبیت کا دعویدار جو عیسیٰ کے ہاتھوں بابِ لد پر مارا جائے گا۔

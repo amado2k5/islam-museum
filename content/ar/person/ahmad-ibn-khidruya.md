@@ -4,7 +4,7 @@ lang: ar
 source_lang: ar
 translators: []
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b14, source: "حلية الأولياء (دار الكتب العلمية 1988) 10/41-43" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b14, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 10/41-43" }
 ---
 ## موجز
 أحمد بن الخضر، المعروف بابن خضرويه البلخي، من شيوخ خراسان. يترجم له [[person/abu-nuaym-al-asbahani-ahmad|أبو نعيم]] في «[[work/hilyat-al-awliya|حلية الأولياء]]» ⁦(الترجمة 459)⁩ بعد [[person/bayazid-al-bistami|أبي يزيد البسطامي]] مباشرة، ويصفه بأنه شيخ خراسان وصاحب الفتوة المشهورة والتجريد الحميد. وهو أول من يذكره من شيوخ المشرق الذين قال إنه يوردهم على الاختصار اعتمادًا على «[[work/tabaqat-al-sufiyya-sulami|طبقات الصوفية]]» ل[[person/al-sulami|لسلمي]]. {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/41-42}

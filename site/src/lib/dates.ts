@@ -19,8 +19,8 @@ const HIJRI = {
 // Era and approximation labels per language. Urdu uses its own forms; Arabic keeps the Hijri-era marks.
 export const ERA = {
   en: { ce: "CE", bce: "BCE", ah: "AH", bh: "BH", approx: "c. ", approxTail: " (approx.)" },
-  ar: { ce: "م", bce: "ق.م", ah: "هـ", bh: "ق.هـ", approx: "نحو ", approxTail: " (تقريبًا)" },
-  ur: { ce: "عیسوی", bce: "قبل مسیح", ah: "ھ", bh: "قبل ہجرت", approx: "تقریباً ", approxTail: " (تقریباً)" },
+  ar: { ce: "م", bce: "ق.م", ah: "هـ", bh: "ق.هـ", approx: "نحو ", approxTail: " ⁦(تقريبًا)⁩" },
+  ur: { ce: "عیسوی", bce: "قبل مسیح", ah: "ھ", bh: "قبل ہجرت", approx: "تقریباً ", approxTail: " ⁦(تقریباً)⁩" },
   fr: { ce: "ap. J.-C.", bce: "av. J.-C.", ah: "H", bh: "av. H", approx: "v. ", approxTail: " (env.)" },
   es: { ce: "d. C.", bce: "a. C.", ah: "H", bh: "a. H.", approx: "c. ", approxTail: " (aprox.)" },
 } as const;

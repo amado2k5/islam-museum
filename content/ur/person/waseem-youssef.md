@@ -41,9 +41,9 @@ translators: []
 اپریل 2024 میں وسیم یوسف نے اعلان کیا کہ انہیں سارکوما کینسر کی تشخیص ہوئی ہے؛ CNN عربی کی ویب سائٹ نے بھی یہ خبر نقل کی۔ {cite:wikipedia-waseem-youssef-ar}
 
 ## کتابیں
-- «تفسیر الأحلام» (خوابوں کی تعبیر؛ پلاٹینم بک، 2017)۔ {cite:wikipedia-waseem-youssef-ar}
-- «علمتنی آیة» (ایک آیت نے مجھے سکھایا؛ پلاٹینم بک، 2017)۔ {cite:wikipedia-waseem-youssef-ar}
-- «كنت متطرفًا» (میں انتہا پسند تھا؛ مداد للنشر، 2018)۔ {cite:wikipedia-waseem-youssef-ar}
+- «تفسیر الأحلام» ⁦(خوابوں کی تعبیر؛ پلاٹینم بک، 2017)⁩۔ {cite:wikipedia-waseem-youssef-ar}
+- «علمتنی آیة» ⁦(ایک آیت نے مجھے سکھایا؛ پلاٹینم بک، 2017)⁩۔ {cite:wikipedia-waseem-youssef-ar}
+- «كنت متطرفًا» ⁦(میں انتہا پسند تھا؛ مداد للنشر، 2018)⁩۔ {cite:wikipedia-waseem-youssef-ar}
 
 ## ماخذ
 - اوپر حوالہ دیے گئے متعین ماخذ، جو `data/source/` میں درج ہیں۔

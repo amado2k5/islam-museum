@@ -9,7 +9,7 @@ wings: [time]
 periods: [period/abbasid-early]
 regions: [levant-iraq]
 date:
-  start: { edtf: "0838~", hijri: "0223~", calendar: julian, precision: year, status: tradition, derived: true, note: "خراب زبطرة في خلافة المعتصم ثم غزوة عمورية (البلاذري ص 270). التحويل مشتق." }
+  start: { edtf: "0838~", hijri: "0223~", calendar: julian, precision: year, status: tradition, derived: true, note: "خراب زبطرة في خلافة المعتصم ثم غزوة عمورية ⁦(البلاذري ص 270)⁩. التحويل مشتق." }
 relations:
   - { type: occurred_at, target: place/zibatra }
   - { type: had_participant, target: person/al-mutasim-abi-ishaq, role: "المغتاظ الغازي إلى عمورية", sources: [source/futuh-buldan-maarif-1407] }
@@ -18,7 +18,7 @@ relations:
   - { type: during_reign, target: person/al-mutasim, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 270"
+  source: "فتوح البلدان ⁦(ط مؤسسة المعارف 1407هـ/1987م)⁩ ص 270"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-15
 sides:

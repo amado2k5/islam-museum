@@ -10,20 +10,20 @@ names:
 gender: male
 roles: [jurist]
 traditions: [sunni]
-died: { hijri: "0260", edtf: "0874~", calendar: julian, precision: year, status: tradition, derived: true, note: "الشيرازي: مات سنة ستين ومائتين (PDF ص53).", sources: [source/tabaqat-fuqaha-abbas-1981] }
+died: { hijri: "0260", edtf: "0874~", calendar: julian, precision: year, status: tradition, derived: true, note: "الشيرازي: مات سنة ستين ومائتين ⁦(PDF ص53)⁩.", sources: [source/tabaqat-fuqaha-abbas-1981] }
 summary:
   ar: "أبو علي الحسن بن محمد بن الصباح الزعفراني، من أصحاب الشافعي البغداديين {cite:tabaqat-fuqaha-abbas-1981 p. 53}، ومات سنة ستين ومائتين، وإليه ينسب «درب الزعفراني» ببغداد وفيه مسجد {cite:tabaqat-fuqaha-abbas-1981 p. 53}. وقال المؤلف إنه المسجد الذي كان يدرّس فيه {cite:tabaqat-fuqaha-abbas-1981 p. 53}."
   en: "Abu Ali al-Hasan ibn Muhammad ibn al-Sabbah al-Za'farani, one of al-Shafi'i's Baghdadi companions {cite:tabaqat-fuqaha-abbas-1981 p. 53}; he died in 260. The lane in Baghdad known as Darb al-Za'farani, which has a mosque in it, is named after him {cite:tabaqat-fuqaha-abbas-1981 p. 53}. The author says it is the mosque where he used to teach {cite:tabaqat-fuqaha-abbas-1981 p. 53}."
 wings: [people]
 relations:
-  - { type: lived_in, target: place/baghdad, note: "Place association from the person's nisba/name (البغدادي); denotes association, not proven residence.", sources: [source/tabaqat-fuqaha-abbas-1981], confidence: low }
-  - { type: student_of, target: person/al-shafii, role: "من أصحاب الشافعي البغداديين (PDF ص53)", sources: [source/tabaqat-fuqaha-abbas-1981] }
+  - { type: lived_in, target: place/baghdad, note: "Place association from the person's nisba/name ⁦(البغدادي)⁩; denotes association, not proven residence.", sources: [source/tabaqat-fuqaha-abbas-1981], confidence: low }
+  - { type: student_of, target: person/al-shafii, role: "من أصحاب الشافعي البغداديين ⁦(PDF ص53)⁩", sources: [source/tabaqat-fuqaha-abbas-1981] }
   - {note: 'From text: درّس فيه الشيرازي', sources: [source/tabaqat-shafiiyya-subki], target: place/shiraz, type: lived_in}
 external_ids: { wikidata: "Q22685179" }
 sources: [source/tabaqat-fuqaha-abbas-1981, source/tabaqat-shafiiyya-subki]
 provenance:
   layer: "own-research"
-  source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص48–53"
+  source: "طبقات الفقهاء ⁦(تحقيق إحسان عباس)⁩ PDF ص48–53"
   generated_by: "Devin (SWE-2 Medium)"
   model: "SWE-2 Medium"
   run: prose-fill-persons-batch125
@@ -36,7 +36,7 @@ occupations:
     status: historical
     note: "bootstrap from roles, 1 Nov 2026 merge map; dates, places and kind to be read in the Phase 3 sweep"
     sources: [source/tabaqat-fuqaha-abbas-1981]
-born: {calendar: julian, derived: true, edtf: '0771', hijri: '0154', note: مولده سنة 154هـ (السبكي). التحويل مشتق., precision: year, sources: [source/tabaqat-shafiiyya-subki], status: tradition}
+born: {calendar: julian, derived: true, edtf: '0771', hijri: '0154', note: مولده سنة 154هـ ⁦(السبكي)⁩. التحويل مشتق., precision: year, sources: [source/tabaqat-shafiiyya-subki], status: tradition}
 tags: [madhahib-browser, mh-shafii]
 themes: [scripture-and-its-sciences]
 regions: [levant-iraq]

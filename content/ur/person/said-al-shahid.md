@@ -4,7 +4,7 @@ lang: ur
 source_lang: ar
 translators: ["Claude Code, claude-fable-5-2, translation"]
 status: { review: draft }
-provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b75, source: "حلية الأولياء (دار الكتب العلمية 1988) 10/165-166" }
+provenance: { generated_by: "Claude Code", model: claude-fable-5-2, run: microsd-books-b75, source: "حلية الأولياء ⁦(دار الكتب العلمية 1988)⁩ 10/165-166" }
 ---
 ## خلاصہ
 سعید شہید، لوہے میں چھپے ہوئے اور اس عظیم انعام دینے والے کے دیدار کے مشتاق۔ [[person/abu-nuaym-al-asbahani-ahmad|ابو نعیم]] نے «[[work/hilyat-al-awliya|حلیۃ الاولیاء]]» کی دسویں جلد میں ⁦(نمبر 540)⁩ صفحات 165 اور 166 پر ان کا ترجمہ لکھا ہے؛ چھپا ہوا نمبر 540 ہے، تسلسل میں 541۔ {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/165} {cite:hilyat-al-awliya-dar-al-kutub-al-ilmiyya-1988 10/166}
