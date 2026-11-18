@@ -27,7 +27,7 @@ The group he co-founded in 2003 built Afghanistan's dominant private broadcaster
 Moby expanded into Iran ⁦(Farsi1)⁩, the Gulf and Central Asia, and launched streaming and fintech ventures; Mohseni is regularly cited as the most significant media entrepreneur in Afghanistan's post-2001 history. {cite:wikipedia-saad-mohseni}
 
 ## Post-2021
-After the Taliban's return he relocated operations and kept Moby producing for Afghan audiences from abroad, while speaking publicly on press freedom and the collapse of independent Afghan media. {cite:wikipedia-saad-mohseni} {cite:muslim500-saad-mohseni}
+After an armed group's return to power in 2021 he relocated operations and kept Moby producing for Afghan audiences from abroad, while speaking publicly on press freedom and the collapse of independent Afghan media. {cite:wikipedia-saad-mohseni} {cite:muslim500-saad-mohseni}
 
 ## Origins
 Born in Kabul in 1966 and raised between Afghanistan, Australia and Britain, he worked in banking before founding Moby Group in 2003 — a media venture built in a country rebuilding its information infrastructure after decades of war. {cite:wikipedia-saad-mohseni}

@@ -14,7 +14,7 @@ She worked as a freelance fixer and reporter for international outlets in Gaza, 
 Her coverage documented daily survival in Gaza — hospitals, displacement camps, food scarcity — and was cited by international media following the conflict; she was displaced repeatedly while continuing to report. {cite:wikipedia-hind-khoudary}
 
 ## Recognition and scrutiny
-Her work has been recognised by press-freedom organisations and widely shared; she has also faced public criticism and online attacks — including a 2020 controversy over her role in a Hamas-run authorities' arrest of a Gaza activist that press groups debated. The museum reports documented events without verdict. {cite:wikipedia-hind-khoudary}
+Her work has been recognised by press-freedom organisations and widely shared; she has also faced public criticism and online attacks — including a 2020 controversy over her role in an arrest of a Gaza activist by the territory's governing authorities that press groups debated. The museum reports documented events without verdict. {cite:wikipedia-hind-khoudary}
 
 ## Assessment
 She is regarded as part of the generation of Palestinian journalists whose phone-camera reporting defined the global image of the Gaza war; the museum reports assessments attributed, without verdict. {cite:wikipedia-hind-khoudary} {cite:muslim500-hind-khoudary}

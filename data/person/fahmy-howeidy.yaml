@@ -1,5 +1,6 @@
 id: person/fahmy-howeidy
 class: person
+aliases: [person/fahmi-huwaydi]   # the same journalist filed twice under two transliterations; merged 17 Nov 2026, the id still resolves
 tags:
 - ulama-browser
 - ulama-mashahir
@@ -12,16 +13,19 @@ names:
   kind: full
 - value: Fahmy Howeidy
   kind: full
+- value: Fahmi Huwaydi
+  kind: alternate
 gender: male
 summary:
-  ar: فهمي هويدي ⁦(1937–)⁩ صحفي وكاتب عمود مصري من أبرز أقلام العالم العربي، عمل نائبًا لرئيس تحرير الأهرام، ويشتهر بجعل الإسلام إطارًا مرجعيًا لمقالاته وكتاباته عن الأقليات المسلمة في العالم.
-  en: Fahmy Howeidy (born 1937) is an Egyptian columnist and journalist, one of the Arab world's most widely read opinion writers, a former deputy editor-in-chief of Al-Ahram, known for writing with Islam
-    as his frame of reference and for chronicling Muslim minorities worldwide.
-  ur: فہمی ہویدی ⁦(1937–)⁩ مصری کالم نگار اور صحافی ہیں جو عرب دنیا کے زیادہ پڑھے جانے والے رائے نگاروں میں شمار ہوتے ہیں؛ الاہرام کے نائب مدیرِ اعلیٰ رہے اور اسلام کو اپنی تحریروں کا مرجع بنانے اور دنیا
-    بھر کی مسلم اقلیتوں پر لکھنے کے لیے معروف ہیں۔
+  ar: فهمي هويدي ⁦(1937–)⁩ صحفي وكاتب عمود ومفكر مصري من أبرز أقلام العالم العربي، عمل نائبًا لرئيس تحرير الأهرام، ويشتهر بجعل الإسلام إطارًا مرجعيًا لمقالاته وكتاباته عن الأقليات المسلمة في العالم، ومن كتبه «مواطنون لا ذميون» و«القرآن والسلطان» و«إيران من الداخل».
+  en: Fahmy Howeidy (born 1937) is an Egyptian columnist, journalist and thinker, one of the Arab world's most widely read opinion writers, a former deputy editor-in-chief of Al-Ahram, known for writing
+    with Islam as his frame of reference and for chronicling Muslim minorities worldwide; his books include Citizens Not Dhimmis, The Quran and the Sultan and Iran from Within.
+  ur: فہمی ہویدی ⁦(1937–)⁩ مصری کالم نگار، صحافی اور مفکر ہیں جو عرب دنیا کے زیادہ پڑھے جانے والے رائے نگاروں میں شمار ہوتے ہیں؛ الاہرام کے نائب مدیرِ اعلیٰ رہے اور اسلام کو اپنی تحریروں کا مرجع بنانے اور
+    دنیا بھر کی مسلم اقلیتوں پر لکھنے کے لیے معروف ہیں؛ ان کی کتب میں «مواطنون لا ذمیون»، «القرآن والسلطان» اور «ایران من الداخل» شامل ہیں۔
 roles:
 - journalist
 - writer
+- thinker
 wings:
 - people
 - living
@@ -39,7 +43,10 @@ faith:
   note: Sources consulted document Howeidy as an Egyptian Islamist-leaning columnist; no source consulted names a personal school for him, and writing frame is not attestation, so the value is recorded
     unknown.
   sources: *id001
-sources: *id001
+sources:
+- source/wikipedia-fahmy-howeidy
+- source/muslim500-fahmy-howeidy
+- source/wikipedia-fahmi-huwaydi
 provenance:
   layer: own-research
   source: Founder-compiled Muslim 500 ⁦(2026 edition)⁩ extract + Wikipedia, read 17 November 2026
